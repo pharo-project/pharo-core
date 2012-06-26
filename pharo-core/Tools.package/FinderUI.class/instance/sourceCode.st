@@ -3,7 +3,7 @@ sourceCode
 
 	^ self selectedClass isNil
 		ifTrue: [
-			self isPatternSymbol
+			self isExamplesSymbol
 				ifTrue: [ self class methodFinderExplanation ]
 				ifFalse: [ self defaultExplanation]]
 		ifFalse:[
@@ -12,7 +12,7 @@ sourceCode
 					self buildDescriptionOf: self selectedClass]
 				ifFalse:[
 					| method |
-					method := self isPatternSymbol
+					method := self isExamplesSymbol
 								ifTrue: [self finder findSelector: self selectedMethod]
 								ifFalse: [self selectedMethod].
 					(self selectedClass >> method) sourceCode]]

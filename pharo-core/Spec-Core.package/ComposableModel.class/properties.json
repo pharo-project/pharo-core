@@ -11,7 +11,8 @@
 		"focusOrder",
 		"owner",
 		"window",
-		"spec" ],
+		"spec",
+		"extentHolder" ],
 	"name" : "ComposableModel",
 	"pools" : [
 		 ],

@@ -4,7 +4,6 @@
 		 ],
 	"classtraitcomposition" : "{}",
 	"classvars" : [
-		"CompositionWindowManager",
 		"DoubleClickTime",
 		"EventSource",
 		"EventStats",

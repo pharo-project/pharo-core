@@ -1,7 +1,7 @@
 testing - file in/out
 testOrdersMetaClassAfterItsClassInstance
 	| ordered |
-	ordered := (ChangeSet superclassOrder:  
+	ordered := (Class superclassOrder:  
 		(OrderedCollection 
 				with: Boolean class
 				with: True

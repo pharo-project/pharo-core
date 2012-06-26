@@ -7,4 +7,4 @@ superclassOrder: category
 	| behaviors classes |
 	behaviors := (self listAtCategoryNamed: category asSymbol) collect: [ :title | self environment at: title ].
 	classes := behaviors select: [ :each | each isBehavior ].
-	^ ChangeSet superclassOrder: classes 
+	^ Class superclassOrder: classes 

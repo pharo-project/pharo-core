@@ -22,6 +22,7 @@
 		"handlesMouseOver:" : "di 9/14/1998 07:31",
 		"handlesMouseWheel:" : "gvc 1/25/2008 17:34",
 		"hasKeyboardFocus" : "gvc 1/11/2007 17:21",
+		"heightToDisplayInTree:" : "BenjaminVanRyseghem 6/24/2012 23:27",
 		"initialColorInSystemWindow:" : "gvc 4/12/2007 10:12",
 		"isTaskbar" : "gvc 10/9/2007 10:36",
 		"isWindowActive:" : "GaryChambers 6/10/2011 12:00",
@@ -72,7 +73,9 @@
 		"themeChanged" : "gvc 10/9/2007 11:26",
 		"toggleVisible" : "gvc 4/29/2008 16:06",
 		"toggleVisibleAndRaise" : "gvc 4/29/2008 16:18",
+		"treeRenderOn:bounds:color:font:from:" : "BenjaminVanRyseghem 6/24/2012 23:39",
 		"visible:" : "gvc 10/17/2006 10:36",
 		"wantsKeyboardFocus" : "gvc 9/5/2007 15:22",
 		"wantsKeyboardFocusNavigation" : "gvc 9/5/2007 15:24",
+		"widthToDisplayInTree:" : "BenjaminVanRyseghem 6/24/2012 23:27",
 		"window" : "gvc 1/10/2007 10:07" } }

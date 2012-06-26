@@ -19,4 +19,3 @@ handleInteraction: interactionBlock
 	self selectionChanged.  "Note new selection"
 	(oldText = paragraph text and: [ oldText runs = paragraph text runs ])
 		ifFalse:[ self updateFromParagraph ].
-	self setCompositionWindow.

@@ -21,7 +21,8 @@
 		"blockDepth",
 		"bracketDepth",
 		"ranges",
-		"environment" ],
+		"environment",
+		"isMethod" ],
 	"name" : "SHParserST80",
 	"pools" : [
 		 ],

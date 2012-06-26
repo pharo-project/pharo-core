@@ -7,7 +7,7 @@ methodFinderExplanation
 
 	^ 'Type a fragment of a selector in the search box and click <Search>.
 
-Or, use a pattern to find a method in the system.  A pattern is made up of the following three items separated by a period: receiver. args. answer.    For example, type: 3. 4. 7. into the search box and click <Search>
+Or, use an example to find a method in the system.  An example is made up of the following three items separated by a period: receiver. args. answer.    For example, type: 3. 4. 7. into the search box and click <Search>
 
 Alternatively, in this bottom pane, use #methodFor: directly to find a method in the system.  Select this line of code and choose "print it".  
 

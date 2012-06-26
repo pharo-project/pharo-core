@@ -1,4 +1,4 @@
-as yet unclassified
+creation template
 creationTemplateLocation: location user: user password: password
 	^
 self name, '

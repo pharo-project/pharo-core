@@ -5,5 +5,6 @@ initialize
 	super initialize.
 
 	bindings := BindingsHolder new.
+	extentHolder := nil asValueHolder.
 	self initializeWidgets.
 	self initializePresenter.

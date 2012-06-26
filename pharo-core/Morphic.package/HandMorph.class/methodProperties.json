@@ -1,8 +1,6 @@
 {
 	"class" : {
 		"attach:" : "sma 4/30/2000 10:34",
-		"clearCompositionWindowManager" : "yo 8/13/2003 15:49",
-		"compositionWindowManager" : "simon.denier 6/11/2010 17:41",
 		"doubleClickTime" : "",
 		"doubleClickTime:" : "",
 		"initialize" : "kfr 7/13/2003 14:15",
@@ -21,7 +19,6 @@
 		"captureEventsWhile:" : "IgorStasenko 1/2/2012 18:40",
 		"changed" : "jm 2/20/98 19:54",
 		"colorForInsets" : "sw 2/11/98 18:00",
-		"compositionWindowManager" : "yo 11/7/2002 19:10",
 		"copyToPasteBuffer:" : "ar 11/6/2000 13:07",
 		"cursorBounds" : "di 3/14/1999 10:03",
 		"cursorPoint" : "dgd 2/21/2003 22:43",
@@ -61,7 +58,7 @@
 		"mouseTrailFrom:" : "PavelKrivanek 6/21/2011 13:05",
 		"moveToEvent:" : "marcus.denker 8/24/2008 21:40",
 		"needsToBeDrawn" : "StephaneDucasse 12/26/2011 10:19",
-		"newKeyboardFocus:" : "yo 11/7/2002 19:11",
+		"newKeyboardFocus:" : "GuillermoPolito 6/25/2012 20:39",
 		"newMouseFocus:" : "ar 10/26/2000 01:32",
 		"newMouseFocus:event:" : "dgd 2/21/2003 22:48",
 		"noButtonPressed" : "tk 10/20/2004 15:54",

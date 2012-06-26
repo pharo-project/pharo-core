@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 location: location user: user password: password
 	^ self new
 		location: location;

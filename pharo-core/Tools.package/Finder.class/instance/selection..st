@@ -27,7 +27,7 @@ selection: anObject
 		ifTrue: [
 			methodNode := path first.
 			classNode := path at: 2 ifAbsent:[nil]].
-	self isPatternSymbol
+	self isExamplesSymbol
 		ifTrue: [
 			methodNode := path first.
 			classNode := path at: 2 ifAbsent:[nil]].

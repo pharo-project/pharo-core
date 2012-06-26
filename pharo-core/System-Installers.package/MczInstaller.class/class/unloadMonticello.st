@@ -12,5 +12,5 @@ unloadMonticello
 					ea breakDependents.
 					Smalltalk globals at: #SystemChangeNotifier ifPresent: [ :scn | scn uniqueInstance noMoreNotificationsFor: ea ] ]
 				displayingProgress: 'Saving version info...' ].	"keep things simple and don't unload any class extensions"
-	(ChangeSet superclassOrder: (PackageInfo named: 'Monticello') classes) reverseDo: [ :ea | ea removeFromSystem ].
+	(Class superclassOrder: (PackageInfo named: 'Monticello') classes) reverseDo: [ :ea | ea removeFromSystem ].
 	self registerForFileList

@@ -9,5 +9,5 @@ rootNodeClassFromItem: anItem
 				ifFalse: [ FinderSingleMethodNode ]]
 		forClassNamesDo: [FinderClassNode]
 		forSourceDo: [FinderMethodNode]
-		forPatternDo: [FinderMethodNode] 
+		forExamplesDo: [FinderMethodNode] 
 		forPragmasDo: [FinderPragmaNode]

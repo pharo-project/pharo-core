@@ -12,7 +12,9 @@ asArray
 		e offsets = (0@0 corner: 0@0)
 			ifTrue: [ numberOfProportionals := numberOfProportionals +1 ]].
 	
-	delta := 1/numberOfProportionals.
+	numberOfProportionals isZero
+		ifTrue: [ delta := 0 ]
+		ifFalse: [ delta := 1/numberOfProportionals ].
 	
 	self commands do: [:e || x0 x1 height |
 		e offsets = (0@0 corner: 0@0)

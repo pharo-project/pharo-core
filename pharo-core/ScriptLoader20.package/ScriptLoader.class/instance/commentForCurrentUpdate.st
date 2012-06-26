@@ -1,10 +1,11 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6042:	CompiledMethod>>#comment method is not working
-	http://code.google.com/p/pharo/issues/detail?id=6042
+ ^ 'Issue 6157:	remove dead lmmplugin code
+	http://code.google.com/p/pharo/issues/detail?id=6157
 	
-Issue 6103:	DataStream doesnt want to die
-	http://code.google.com/p/pharo/issues/detail?id=6103
+Issue 6161:	Finder: Change Pattern back to Examples
+	http://code.google.com/p/pharo/issues/detail?id=6161
 	
-Issue 6058:	Tiny improvement in PluggableTextMorph
-	http://code.google.com/p/pharo/issues/detail?id=6058'
+Issue 6168:	Changeset>>#superclassOrder: should be only used by ChangeSet related objects
+	http://code.google.com/p/pharo/issues/detail?id=6168
+'

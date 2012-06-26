@@ -2,7 +2,7 @@ testing - file in/out
 testOrdersACollectionOfClassesBySuperclass
 	"self debug: #testOrdersACollectionOfClassesBySuperclass"
 	| ordered |
-	ordered := (ChangeSet superclassOrder:  
+	ordered := (Class superclassOrder:  
 		(OrderedCollection 
 				with: ExampleForTest11 class 
 				with: ExampleForTest111 class 

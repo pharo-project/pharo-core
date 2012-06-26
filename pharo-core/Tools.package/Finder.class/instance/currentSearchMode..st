@@ -4,7 +4,7 @@ currentSearchMode: aSymbol
 	"If #Examples is selected, I disable the RegEx checkbo. Then I rebuild the resultDictionary"
 
 	currentSearchMode := aSymbol.
-	self isPatternSymbol
+	self isExamplesSymbol
 		ifTrue: [ self disableUseRegEx]
 		ifFalse:[ self enableUseRegEx].
 		

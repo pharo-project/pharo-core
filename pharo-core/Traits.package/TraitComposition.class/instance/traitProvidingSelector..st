@@ -9,4 +9,4 @@ traitProvidingSelector: aSymbol
 	(methodDescription isProvided not or: [methodDescription isConflict])	
 		ifTrue: [^nil].
 	locatedMethod := methodDescription providedLocatedMethod.
-	^locatedMethod realClass traitOrClassOfSelector: locatedMethod selector
+	^locatedMethod methodClass traitOrClassOfSelector: locatedMethod selector

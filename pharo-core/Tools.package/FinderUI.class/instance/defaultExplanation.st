@@ -6,7 +6,7 @@ defaultExplanation
 	- Classes : your research is done among classes names
 	- Source : your research is done among all the source code
 	- Pragmas: your research is done among pragmas
-	- Pattern : your research uses the Method Finder behavior 
+	- Examples : your research uses the Method Finder behavior 
 			   (for further informations, print ''FinderUI methodFinderExplanation'')
 	
 			

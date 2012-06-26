@@ -1,7 +1,7 @@
 private
 defaultSpecSelector
 	
-	((((SpecPragmaCollector behavior: self class)
+	((((SpecPragmaCollector behavior: self class class)
 		filter: [:prg | prg keyword = 'spec:' and: [prg arguments includes: #default]])
 		reset;
 		collected)

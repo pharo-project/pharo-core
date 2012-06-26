@@ -11,7 +11,7 @@ constructDictionary
 		ifTrue: [ ^self constructClassNamesDictionary].
 	self isSourceSymbol
 		ifTrue: [ ^self constructSourceDictionary].
-	self isPatternSymbol
+	self isExamplesSymbol
 		ifTrue: [ ^self constructDictionaryWithMethodFinder: self searchingString].
 	self isPragmasSymbol
 		ifTrue: [ ^self constructDictionaryWithPragmaSearch: self searchingString].		

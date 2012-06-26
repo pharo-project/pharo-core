@@ -2,7 +2,7 @@ protocol
 specSelectors
 	
 	^ (((SpecPragmaCollector behavior: self class)
-		filter: [:prg | prg keyword = 'spec:' and: [prg arguments includes: #default]])
+		filter: [:prg | prg keyword = #spec])
 		reset;
 		collected)
 		collect: [:e | e method selector ]

@@ -15,11 +15,13 @@ drawOn: aCanvas
 	(container columns isNil or: [ (contents asString indexOf: Character tab) = 0 ]) 
 		ifTrue: 
 			[ sRect := sRect top: (sRect top + sRect bottom - self fontToUse height) // 2.
-			aCanvas 
-				drawString: contents asString
-				in: sRect
-				font: self fontToUse
-				color: colorToUse ]
+			contents
+				treeRenderOn: aCanvas 
+				bounds: sRect 
+				color: colorToUse 
+				font: self 
+				fontToUse 
+				from: self ]
 		ifFalse: 
 			[ columnLeft := sRect left.
 			columnScanner := contents asString readStream.
