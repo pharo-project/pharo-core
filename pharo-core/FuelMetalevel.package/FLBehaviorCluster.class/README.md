@@ -1,0 +1,1 @@
+I have the common behavior for serializing class and trait behaviors in full detail.

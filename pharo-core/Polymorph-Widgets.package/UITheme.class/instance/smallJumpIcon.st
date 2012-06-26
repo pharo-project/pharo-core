@@ -1,0 +1,3 @@
+icons
+smallJumpIcon
+	^ ThemeIcons smallJumpIcon

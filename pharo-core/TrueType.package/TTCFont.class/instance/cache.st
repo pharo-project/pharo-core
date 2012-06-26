@@ -1,0 +1,3 @@
+friend
+cache
+	^cache

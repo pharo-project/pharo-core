@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"elementTwiceIn" : "adrian_lienhard 2/21/2009 13:46",
+		"testRemoveElementThatExistsTwice" : "adrian_lienhard 2/21/2009 13:46",
+		"testRemoveIfAbsent" : "StephaneDucasse 5/28/2011 13:48" } }

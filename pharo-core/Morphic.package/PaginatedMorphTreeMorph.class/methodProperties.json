@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addNavigationPane:" : "AlainPlantec 10/10/2011 10:57",
+		"adoptPaneColor:" : "AlainPlantec 10/10/2011 10:52",
+		"buildContents" : "AlainPlantec 10/10/2011 11:07",
+		"chunkSize:" : "AlainPlantec 10/10/2011 10:57",
+		"currentNodelist" : "AlainPlantec 10/10/2011 10:54",
+		"extent:" : "AlainPlantec 10/10/2011 11:08",
+		"hResizeScrollBar" : "AlainPlantec 10/10/2011 11:05",
+		"innerBounds" : "AlainPlantec 10/10/2011 11:06",
+		"pageSize:" : "AlainPlantec 10/10/2011 10:55",
+		"pager" : "AlainPlantec 10/10/2011 10:55",
+		"pagerColor" : "AlainPlantec 10/10/2011 11:12",
+		"pagerHeight" : "AlainPlantec 10/10/2011 10:55",
+		"removePager" : "AlainPlantec 10/10/2011 10:56",
+		"update:" : "AlainPlantec 10/10/2011 11:01",
+		"updateContentsWithPreviouslyExpanded:" : "AlainPlantec 10/10/2011 11:08",
+		"updatePager" : "AlainPlantec 10/10/2011 10:58",
+		"vScrollBarHeight" : "AlainPlantec 10/10/2011 11:06",
+		"vScrollBarValue:" : "AlainPlantec 10/10/2011 10:56" } }

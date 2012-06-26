@@ -1,0 +1,16 @@
+{
+	"category" : "Files-Kernel",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"fileClass" ],
+	"name" : "FileExistsException",
+	"pools" : [
+		 ],
+	"super" : "FileStreamException",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

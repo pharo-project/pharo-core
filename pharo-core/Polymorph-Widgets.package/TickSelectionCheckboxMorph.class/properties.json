@@ -1,0 +1,16 @@
+{
+	"category" : "Polymorph-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"index" ],
+	"name" : "TickSelectionCheckboxMorph",
+	"pools" : [
+		 ],
+	"super" : "CheckboxMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

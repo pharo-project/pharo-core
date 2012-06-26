@@ -1,0 +1,1 @@
+This class represents an entry in a truetype font table directory. Used by TTFontReader only.

@@ -1,0 +1,16 @@
+{
+	"category" : "Settings-Display",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DisplaySettings",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

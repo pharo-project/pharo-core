@@ -1,0 +1,21 @@
+{
+	"category" : "FreeType-FontManager",
+	"classinstvars" : [
+		"current" ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"fileInfos",
+		"fileInfoCache",
+		"tempFileInfos",
+		"embeddedFileInfoCache",
+		"families",
+		"tempFamilies" ],
+	"name" : "FreeTypeFontProvider",
+	"pools" : [
+		 ],
+	"super" : "FontProviderAbstract",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

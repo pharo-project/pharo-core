@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"getIndexSelector:" : "",
+		"getSelectionListSelector:" : "",
+		"initialize" : "",
+		"setIndexSelector:" : "",
+		"setMultipleSelection:" : "",
+		"setSelectionListSelector:" : "" } }

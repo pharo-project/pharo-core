@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"byteToUnicodeSpec" : "SvenVanCaekenberghe 3/7/2012 21:42",
+		"byteToUnicodeTable" : "SvenVanCaekenberghe 3/7/2012 21:49",
+		"generateByteToUnicodeSpec:" : "",
+		"initialize" : "michael.rueger 1/27/2009 18:40",
+		"initializeTables" : "SvenVanCaekenberghe 3/7/2012 21:56",
+		"languageEnvironment" : "michael.rueger 1/30/2009 11:01",
+		"parseUnicodeOrgSpec:" : "",
+		"unicodeToByteTable" : "SvenVanCaekenberghe 3/7/2012 21:50" },
+	"instance" : {
+		"byteToUnicode:" : "michael.rueger 2/5/2009 14:11",
+		"nextFromStream:" : "michael.rueger 2/5/2009 14:11",
+		"nextPut:toStream:" : "michael.rueger 2/5/2009 14:10",
+		"unicodeToByte:" : "michael.rueger 2/5/2009 14:10" } }

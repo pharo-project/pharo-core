@@ -1,0 +1,16 @@
+{
+	"category" : "Morphic-MorphTreeWidget-Examples",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "AlainPlantec 1/30/2010 09:16",
+	"instvars" : [
+		 ],
+	"name" : "SimplestClassListWithChunkExample",
+	"pools" : [
+		 ],
+	"super" : "SimplestPaginatedClassListExample",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

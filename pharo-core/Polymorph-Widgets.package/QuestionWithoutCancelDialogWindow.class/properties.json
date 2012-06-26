@@ -1,0 +1,16 @@
+{
+	"category" : "Polymorph-Widgets-Windows",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "gvc 5/18/2007 12:20",
+	"instvars" : [
+		 ],
+	"name" : "QuestionWithoutCancelDialogWindow",
+	"pools" : [
+		 ],
+	"super" : "QuestionDialogWindow",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

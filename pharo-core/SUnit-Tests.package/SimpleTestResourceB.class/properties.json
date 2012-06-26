@@ -1,0 +1,16 @@
+{
+	"category" : "SUnit-Tests-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SimpleTestResourceB",
+	"pools" : [
+		 ],
+	"super" : "SimpleTestResource",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

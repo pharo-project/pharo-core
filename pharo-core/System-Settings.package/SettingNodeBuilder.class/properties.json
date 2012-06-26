@@ -1,0 +1,17 @@
+{
+	"category" : "System-Settings-Browser",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"node",
+		"builder" ],
+	"name" : "SettingNodeBuilder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

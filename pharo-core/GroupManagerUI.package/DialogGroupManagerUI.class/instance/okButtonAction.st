@@ -1,0 +1,3 @@
+private
+okButtonAction
+	self valid.

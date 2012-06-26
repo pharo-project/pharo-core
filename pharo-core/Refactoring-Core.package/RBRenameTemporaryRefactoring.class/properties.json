@@ -1,0 +1,20 @@
+{
+	"category" : "Refactoring-Core-Refactorings",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selector",
+		"interval",
+		"oldName",
+		"newName",
+		"parseTree" ],
+	"name" : "RBRenameTemporaryRefactoring",
+	"pools" : [
+		 ],
+	"super" : "RBMethodRefactoring",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

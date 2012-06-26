@@ -1,0 +1,3 @@
+access
+isOpen
+	^ closed not

@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"collectionClasses" : "LukasRenggli 5/10/2010 12:58",
+		"sequenceableClasses" : "LukasRenggli 5/10/2010 12:58",
+		"testReduceCollection2Arguments" : "LukasRenggli 5/10/2010 12:58",
+		"testReduceCollection3Arguments" : "LukasRenggli 5/10/2010 12:58",
+		"testReduceLeft2Arguments" : "LukasRenggli 5/10/2010 12:58",
+		"testReduceLeft3Arguments" : "LukasRenggli 5/10/2010 12:58",
+		"testReduceLeftSpecial" : "LukasRenggli 5/10/2010 12:58",
+		"testReduceRight2Arguments" : "LukasRenggli 5/10/2010 12:58",
+		"testReduceRight3Arguments" : "LukasRenggli 5/10/2010 12:58",
+		"testReduceRightSpecial" : "LukasRenggli 5/10/2010 12:58" } }

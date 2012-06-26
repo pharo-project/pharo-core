@@ -1,0 +1,17 @@
+{
+	"category" : "Morphic-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"pointBlock",
+		"lastPointBlock" ],
+	"name" : "HandleMorph",
+	"pools" : [
+		 ],
+	"super" : "EllipseMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

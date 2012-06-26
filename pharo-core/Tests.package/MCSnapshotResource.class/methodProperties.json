@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"mockPackage" : "cwp 8/1/2003 20:18",
+		"mockPackageName" : "avi 2/22/2004 13:54",
+		"takeSnapshot" : "cwp 7/14/2003 15:19" },
+	"instance" : {
+		"definitions" : "cwp 7/14/2003 14:50",
+		"setUp" : "stephaneducasse 2/4/2006 20:47",
+		"snapshot" : "cwp 7/14/2003 14:51" } }

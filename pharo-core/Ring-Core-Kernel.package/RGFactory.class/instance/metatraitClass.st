@@ -1,0 +1,4 @@
+class factory
+metatraitClass
+
+	^RGMetatraitDefinition

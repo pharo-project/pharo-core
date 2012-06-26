@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"drawOn:" : "gvc 9/21/2006 16:16",
+		"horizontal" : "gvc 9/21/2006 15:48",
+		"horizontal:" : "gvc 9/19/2006 15:54",
+		"initialize" : "gvc 9/19/2006 15:52",
+		"leftOrTopVertices:" : "gvc 9/21/2006 15:45",
+		"orientation" : "gvc 9/19/2006 15:51",
+		"orientation:" : "gvc 9/19/2006 15:52",
+		"rightOrBottomVertices:" : "gvc 9/21/2006 16:18" } }

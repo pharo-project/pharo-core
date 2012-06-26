@@ -1,0 +1,1 @@
+A ByteCodeMessageConverter is a wrapper wich display the bytecode of the provided message

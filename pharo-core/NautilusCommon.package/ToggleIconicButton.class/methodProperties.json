@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"on:actionSelector:status:enabledIcon:disabledIcon:" : "BenjaminVanRyseghem 1/21/2012 22:33" },
+	"instance" : {
+		"balloonText" : "BenjaminVanRyseghem 4/12/2011 17:41",
+		"borderRaised" : "BenjaminVanRyseghem 1/21/2012 21:47",
+		"disabledIcon" : "BenjaminVanRyseghem 4/12/2011 16:12",
+		"disabledIcon:" : "BenjaminVanRyseghem 4/12/2011 16:36",
+		"enabledIcon" : "BenjaminVanRyseghem 4/12/2011 16:12",
+		"enabledIcon:" : "BenjaminVanRyseghem 4/12/2011 16:36",
+		"extraBorder" : "BenjaminVanRyseghem 4/12/2011 17:08",
+		"getStatus" : "BenjaminVanRyseghem 4/12/2011 16:26",
+		"model" : "BenjaminVanRyseghem 4/12/2011 16:25",
+		"model:" : "BenjaminVanRyseghem 4/12/2011 17:10",
+		"statusSelector" : "BenjaminVanRyseghem 4/12/2011 16:12",
+		"statusSelector:" : "BenjaminVanRyseghem 4/12/2011 16:12",
+		"update:" : "BenjaminVanRyseghem 4/12/2011 16:31",
+		"updateStatus" : "BenjaminVanRyseghem 4/12/2011 16:37" } }

@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"chosenSelector:for:" : "SvenVanCaekenberghe 1/8/2012 14:47",
+		"closeSelectorChooser" : "AlainPlantec 11/14/2010 17:11",
+		"focused:from:" : "AlainPlantec 11/19/2010 10:46",
+		"handlesKeyboard:from:" : "AlainPlantec 11/15/2010 16:55",
+		"keystroke:from:" : "GuillermoPolito 4/22/2012 17:22",
+		"mouseDown:from:" : "AlainPlantec 11/21/2010 22:16",
+		"querySymbolFrom:" : "SvenVanCaekenberghe 1/8/2012 14:47",
+		"selectorChooser" : "AlainPlantec 11/14/2010 15:49",
+		"smartQuerySymbolFrom:" : "AlainPlantec 11/19/2010 09:53",
+		"updateSelectorChooserFrom:" : "AlainPlantec 11/14/2010 21:07" } }

@@ -1,0 +1,1 @@
+I represent an x-y pair of numbers usually designating a location on the screen.

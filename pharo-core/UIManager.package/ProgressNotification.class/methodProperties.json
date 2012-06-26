@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"signal:extra:" : "ajh 1/22/2003 23:51" },
+	"instance" : {
+		"amount" : "ar 3/2/2001 20:11",
+		"amount:" : "ar 3/2/2001 20:12",
+		"done" : "ar 3/2/2001 20:11",
+		"done:" : "ar 3/2/2001 20:12",
+		"extraParam" : "ar 3/2/2001 20:12",
+		"extraParam:" : "ar 3/2/2001 20:12" } }

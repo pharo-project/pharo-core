@@ -1,0 +1,3 @@
+ui requests
+openChangeSorterAsMorph: aChangeSorter
+	^aChangeSorter morphicWindow openInWorld

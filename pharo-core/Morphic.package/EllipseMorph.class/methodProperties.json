@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"areasRemainingToFill:" : "di 6/24/1998 14:27",
+		"bottomLeftCorner" : "nk 8/31/2004 14:25",
+		"bottomRightCorner" : "nk 8/31/2004 14:23",
+		"canDrawBorder:" : "ar 8/25/2001 19:08",
+		"closestPointTo:" : "nk 2/15/2001 16:08",
+		"containsPoint:" : "di 11/14/97 13:50",
+		"cornerStyle:" : "MarcusDenker 4/13/2012 08:49",
+		"couldHaveRoundedCorners" : "sw 11/24/1999 14:59",
+		"defaultBorderWidth" : "dgd 2/14/2003 22:37",
+		"defaultColor" : "dgd 2/14/2003 22:26",
+		"doesBevels" : "di 6/20/97 11:29",
+		"drawDropShadowOn:" : "IgorStasenko 8/8/2011 17:21",
+		"drawOn:" : "IgorStasenko 8/8/2011 17:23",
+		"intersectionWithLineSegmentFromCenterTo:" : "nk 2/13/2001 18:16",
+		"topLeftCorner" : "nk 8/31/2004 14:23",
+		"topRightCorner" : "nk 8/31/2004 14:26" } }

@@ -1,0 +1,16 @@
+{
+	"category" : "Kernel-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "NotYetImplemented",
+	"pools" : [
+		 ],
+	"super" : "SelectorException",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

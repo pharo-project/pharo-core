@@ -1,0 +1,16 @@
+{
+	"category" : "Kernel-Methods",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"nextJumpIsAroundBlock" ],
+	"name" : "BlockStartLocator",
+	"pools" : [
+		 ],
+	"super" : "InstructionClient",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+accessing
+minAscii
+
+	^ 0.

@@ -1,0 +1,1 @@
+I'm a special TextMorphForFieldView who is aware of completion, and handles de enter by accepting ocompletion if present. 

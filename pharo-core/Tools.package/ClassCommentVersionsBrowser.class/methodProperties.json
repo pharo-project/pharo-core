@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"browseCommentOf:" : "nice 1/5/2010 15:59",
+		"commentRecordsOf:" : "sd 11/20/2005 21:28",
+		"patchworkUIThemeColor" : "AlainPlantec 12/16/2009 22:08",
+		"timeStampFor:class:reverseOrdinal:" : "sd 11/20/2005 21:28" },
+	"instance" : {
+		"classCommentIndicated" : "sw 8/17/2002 21:57",
+		"compareToCurrentVersion" : "StephaneDucasse 11/6/2011 12:48",
+		"contentsSymbolQuints" : "tbn 7/6/2010 16:41",
+		"diffedVersionContents" : "sd 11/20/2005 21:26",
+		"offerVersionsHelp" : "asm 8/13/2002 21:02",
+		"priorSourceOrNil" : "sd 11/20/2005 21:26",
+		"reformulateList" : "sd 11/20/2005 21:26",
+		"scanVersionsOf:" : "sd 11/20/2005 21:26",
+		"selectedClass" : "asm 8/13/2002 20:59",
+		"updateListsAndCodeIn:" : "sd 11/20/2005 21:26",
+		"versionsMenu:" : "StephaneDucasse 1/7/2011 17:51",
+		"wantsPrettyDiffOption" : "sw 8/15/2002 22:35" } }

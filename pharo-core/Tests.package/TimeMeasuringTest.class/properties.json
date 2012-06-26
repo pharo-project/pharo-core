@@ -1,0 +1,17 @@
+{
+	"category" : "Tests-Traits",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"realTime",
+		"shouldProfile" ],
+	"name" : "TimeMeasuringTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"model:swapMethod:in:" : "",
+		"swapMethod:in:" : "" },
+	"instance" : {
+		"checkInstVars" : "",
+		"preconditions" : "",
+		"swapMethod:in:" : "",
+		"transform" : "" } }

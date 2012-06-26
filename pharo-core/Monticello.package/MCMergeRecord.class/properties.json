@@ -1,0 +1,22 @@
+{
+	"category" : "Monticello-Versioning",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"version",
+		"packageSnapshot",
+		"ancestorInfo",
+		"ancestor",
+		"ancestorSnapshot",
+		"imagePatch",
+		"mergePatch" ],
+	"name" : "MCMergeRecord",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

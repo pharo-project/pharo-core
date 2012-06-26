@@ -1,0 +1,16 @@
+{
+	"category" : "Spec-Builder-Importer",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SpecDescriptionImporter",
+	"pools" : [
+		 ],
+	"super" : "SpecImporter",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,26 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"allConflicts" : "gvc 2/25/2010 10:21",
+		"allConflictsMenu" : "GuillermoPolito 5/29/2011 14:51",
+		"changeTreeKey:" : "StephaneDucasse 6/24/2011 16:08",
+		"changesMenu:" : "IgorStasenko 6/24/2011 17:31",
+		"diffMorphClass" : "gvc 11/1/2006 14:25",
+		"hasAnyNonConflictConflicts" : "gvc 2/25/2010 13:51",
+		"hasAnyNonIncomingConflicts" : "gvc 2/25/2010 13:50",
+		"hasAnyNonKeptConflicts" : "gvc 2/25/2010 13:51",
+		"hasConflicts" : "gvc 2/25/2010 13:38",
+		"keepAllCurrentVersion" : "gvc 2/25/2010 10:18",
+		"keepCurrentVersion" : "gvc 7/6/2007 15:46",
+		"markAllAsConflict" : "gvc 2/25/2010 10:17",
+		"markAsConflict" : "StephaneDucasse 6/24/2011 16:07",
+		"nextConflict" : "gvc 2/9/2010 14:18",
+		"notAllConflictsResolved" : "gvc 1/29/2009 14:26",
+		"selectNextConflict" : "gvc 4/2/2009 13:03",
+		"selectionIsNotNil" : "IgorStasenko 6/22/2011 17:51",
+		"selectionIsRemoteChosen" : "IgorStasenko 6/24/2011 17:30",
+		"toggleApplySelectedChange" : "IgorStasenko 6/24/2011 17:28",
+		"updateSource" : "gvc 1/12/2009 14:06",
+		"useAllIncomingVersion" : "gvc 2/25/2010 10:18",
+		"useIncomingVersion" : "gvc 7/6/2007 15:46" } }

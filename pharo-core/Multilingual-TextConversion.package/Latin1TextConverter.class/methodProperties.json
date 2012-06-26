@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"byteToUnicodeSpec" : "",
+		"encodingNames" : "tbn 1/17/2011 13:04",
+		"initializeTables" : "SvenVanCaekenberghe 3/7/2012 23:17",
+		"languageEnvironment" : "michael.rueger 2/2/2009 19:31" },
+	"instance" : {
+		"byteToUnicode:" : "michael.rueger 2/5/2009 14:20",
+		"unicodeToByte:" : "michael.rueger 2/5/2009 14:20" } }

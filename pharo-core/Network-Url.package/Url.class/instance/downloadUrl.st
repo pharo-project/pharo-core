@@ -1,0 +1,3 @@
+converting
+downloadUrl
+	^self asString

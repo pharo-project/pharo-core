@@ -1,0 +1,18 @@
+{
+	"category" : "Polymorph-Tools-Diff",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"srcOffset",
+		"dstOffset",
+		"mappings" ],
+	"name" : "DiffJoinMorph",
+	"pools" : [
+		 ],
+	"super" : "ProportionalSplitterMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

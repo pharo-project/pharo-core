@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"baseTraitName:classTraitComposition:" : "damiencassou 7/30/2009 12:32",
+		"baseTraitName:classTraitComposition:category:" : "damiencassou 7/30/2009 12:11" },
+	"instance" : {
+		"=" : "nice 10/31/2009 13:11",
+		"accept:" : "al 10/9/2005 20:23",
+		"baseTrait" : "al 10/9/2005 20:23",
+		"category" : "MarcusDenker 10/29/2010 11:30",
+		"className" : "al 12/15/2005 11:31",
+		"classTraitComposition" : "al 10/9/2005 20:23",
+		"classTraitCompositionString" : "al 10/10/2005 10:12",
+		"definitionString" : "al 10/9/2005 21:59",
+		"description" : "al 10/9/2005 20:24",
+		"hash" : "al 6/5/2006 14:04",
+		"initializeWithBaseTraitName:classTraitComposition:" : "stephaneducasse 2/4/2006 20:47",
+		"initializeWithBaseTraitName:classTraitComposition:category:" : "damiencassou 7/30/2009 12:12",
+		"isClassDefinition" : "adrian-lienhard 5/11/2009 16:47",
+		"load" : "jb 7/1/2011 10:52",
+		"requirements" : "al 10/9/2005 20:24",
+		"sortKey" : "al 10/9/2005 20:25",
+		"source" : "al 10/9/2005 20:25",
+		"summary" : "al 10/9/2005 20:25" } }

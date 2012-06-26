@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"maxFileNameLength" : "yo 2/4/1999 06:40",
+		"pathNameDelimiter" : "jm 9/17/97 15:48" },
+	"instance" : {
+		"checkName:fixErrors:" : "StephaneDucasse 8/3/2010 18:25",
+		"directoryExists:" : "sr 5/8/2000 12:58",
+		"fileOrDirectoryExists:" : "sr 5/8/2000 13:03",
+		"fullPathFor:" : "yo 12/19/2003 21:15",
+		"pathFromUrl:" : "ar 10/18/2004 10:58",
+		"setPathName:" : "stephaneducasse 2/4/2006 20:32" } }

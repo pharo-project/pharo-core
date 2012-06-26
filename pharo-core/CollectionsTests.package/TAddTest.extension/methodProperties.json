@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"collectionWithElement" : "damiencassou 1/20/2009 13:32",
+		"element" : "damiencassou 1/14/2009 10:29",
+		"otherCollection" : "damiencassou 1/14/2009 10:29",
+		"test0FixtureRequirementsOfTAddTest" : "damiencassou 1/20/2009 13:32",
+		"testTAdd" : "delaunay 5/4/2009 10:17",
+		"testTAddAll" : "CamilloBruni 9/8/2011 14:36",
+		"testTAddIfNotPresentWithElementAlreadyIn" : "Alexandre Bergel 5/22/2010 12:27",
+		"testTAddIfNotPresentWithNewElement" : "delaunay 4/21/2009 15:32",
+		"testTAddTwice" : "Alexandre Bergel 5/22/2010 12:43",
+		"testTAddWithOccurences" : "Alexandre Bergel 5/22/2010 12:27",
+		"testTWrite" : "Alexandre Bergel 5/22/2010 12:25",
+		"testTWriteTwice" : "Alexandre Bergel 5/22/2010 12:26" } }

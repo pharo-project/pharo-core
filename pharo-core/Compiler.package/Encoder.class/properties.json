@@ -1,0 +1,29 @@
+{
+	"category" : "Compiler-Kernel",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"scopeTable",
+		"nTemps",
+		"supered",
+		"requestor",
+		"class",
+		"selector",
+		"literalStream",
+		"selectorSet",
+		"litIndSet",
+		"litSet",
+		"sourceRanges",
+		"globalSourceRanges",
+		"addedSelectorAndMethodClassLiterals",
+		"optimizedSelectors" ],
+	"name" : "Encoder",
+	"pools" : [
+		 ],
+	"super" : "ParseNode",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

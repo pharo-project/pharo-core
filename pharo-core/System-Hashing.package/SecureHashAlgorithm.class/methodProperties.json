@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"initialize" : "jm 12/7/1999 23:25" },
+	"instance" : {
+		"constantForStep:" : "jm 12/7/1999 23:25",
+		"expandedBlock:" : "jm 12/21/1999 20:06",
+		"finalHash" : "jm 12/21/1999 20:02",
+		"hashFunction:of:with:with:" : "jm 12/7/1999 22:15",
+		"hashInteger:" : "jm 12/14/1999 11:56",
+		"hashInteger:seed:" : "md 11/14/2003 17:17",
+		"hashMessage:" : "dc 5/30/2008 10:17",
+		"hashStream:" : "StephaneDucasse 2/28/2010 11:07",
+		"initializeTotals" : "jm 12/21/1999 19:38",
+		"initializeTotalsArray" : "jm 12/21/1999 19:38",
+		"primExpandBlock:into:" : "jm 12/21/1999 20:11",
+		"primHasSecureHashPrimitive" : "jm 12/21/1999 22:58",
+		"primHashBlock:using:" : "jm 12/21/1999 20:13",
+		"processBuffer:" : "jm 12/21/1999 19:43",
+		"processBufferUsingPrimitives:" : "jm 12/21/1999 23:32",
+		"processFinalBuffer:bitLength:" : "jm 12/14/1999 11:40",
+		"storeLength:in:" : "jm 12/14/1999 11:10" } }

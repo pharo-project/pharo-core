@@ -1,0 +1,4 @@
+accessing
+newMethod
+
+	^ event oldItem

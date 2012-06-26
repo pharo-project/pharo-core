@@ -1,0 +1,18 @@
+{
+	"category" : "Graphics-External-Ffenestri",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"ActiveProxyClass",
+		"Registry" ],
+	"commentStamp" : "tpr 10/14/2004 16:00",
+	"instvars" : [
+		"windowHandle",
+		"sourceForm" ],
+	"name" : "HostWindowProxy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

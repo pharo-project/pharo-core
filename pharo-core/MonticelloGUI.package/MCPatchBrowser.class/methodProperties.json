@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"forPatch:" : "ab 7/16/2003 14:35" },
+	"instance" : {
+		"annotations" : "nk 11/10/2003 21:41",
+		"buttonSpecs" : "ab 8/22/2003 02:21",
+		"changeSetNameForInstall" : "nk 2/23/2005 08:04",
+		"defaultLabel" : "ab 7/19/2003 21:31",
+		"installSelection" : "stephaneducasse 2/4/2006 20:47",
+		"invert" : "stephaneducasse 2/4/2006 20:47",
+		"items" : "ab 7/16/2003 14:36",
+		"list" : "ab 7/16/2003 14:39",
+		"patch:" : "stephaneducasse 2/4/2006 20:47",
+		"perform:orSendTo:" : "nk 11/10/2003 20:55",
+		"revertSelection" : "ar 7/10/2009 22:46",
+		"selectedClass" : "lr 3/14/2010 21:13",
+		"selectedClassOrMetaClass" : "stephaneducasse 2/4/2006 20:47",
+		"selectedMessageCategoryName" : "stephaneducasse 2/4/2006 20:47",
+		"selectedMessageName" : "stephaneducasse 2/4/2006 20:47",
+		"selection" : "ab 7/16/2003 14:30",
+		"selection:" : "stephaneducasse 2/4/2006 20:47",
+		"text" : "ab 7/16/2003 14:40",
+		"text:" : "ab 7/16/2003 14:27",
+		"widgetSpecs" : "nice 1/20/2010 22:02" } }

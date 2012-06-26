@@ -1,0 +1,16 @@
+{
+	"category" : "FuelPackageLoader-Mappers",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "MartinDias 8/24/2011 00:08",
+	"instvars" : [
+		 ],
+	"name" : "FLPackageLoaderGeneralMapper",
+	"pools" : [
+		 ],
+	"super" : "FLFullGeneralMapper",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

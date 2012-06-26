@@ -1,0 +1,3 @@
+icons
+objectsIcon
+	^ ThemeIcons objectsIcon

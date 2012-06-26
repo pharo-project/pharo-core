@@ -1,0 +1,4 @@
+testing
+isInspectable
+
+	^self subclassResponsibility

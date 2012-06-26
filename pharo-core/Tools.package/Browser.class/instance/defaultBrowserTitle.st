@@ -1,0 +1,3 @@
+initialization
+defaultBrowserTitle
+	^ 'System Browser'

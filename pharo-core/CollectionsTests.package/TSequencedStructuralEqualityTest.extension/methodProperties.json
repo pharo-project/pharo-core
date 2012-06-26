@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"test0TSequencedStructuralEqualityTest" : "damiencassou 1/20/2009 13:59",
+		"testEqualSignForSequenceableCollections" : "damiencassou 1/20/2009 14:01",
+		"testEqualSignIsTrueForEmptyButNonIdenticalCollections" : "HenrikSperreJohansen 10/18/2009 18:40",
+		"testHasEqualElements" : "damiencassou 1/20/2009 13:56",
+		"testHasEqualElementsIsTrueForNonIdenticalButEqualCollections" : "damiencassou 1/20/2009 13:56",
+		"testHasEqualElementsOfIdenticalCollectionObjects" : "damiencassou 1/20/2009 13:56" } }

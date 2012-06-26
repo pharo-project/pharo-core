@@ -1,0 +1,18 @@
+{
+	"category" : "Multilingual-TextConversion",
+	"classinstvars" : [
+		"latin1Map",
+		"latin1Encodings" ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"latin1Map",
+		"latin1Encodings" ],
+	"name" : "TextConverter",
+	"pools" : [
+		"EventSensorConstants" ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "AST-Semantic-Binding",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RBSelfBinding",
+	"pools" : [
+		 ],
+	"super" : "RBSpecialBinding",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

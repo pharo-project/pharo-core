@@ -1,0 +1,17 @@
+{
+	"category" : "Refactoring-Environment",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"classSelectors",
+		"metaClassSelectors" ],
+	"name" : "RBSelectorEnvironment",
+	"pools" : [
+		 ],
+	"super" : "RBBrowserEnvironmentWrapper",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,17 @@
+{
+	"category" : "MonticelloConfigurations",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"fileName",
+		"configuration" ],
+	"name" : "MCMcmReader",
+	"pools" : [
+		 ],
+	"super" : "MCVersionReader",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

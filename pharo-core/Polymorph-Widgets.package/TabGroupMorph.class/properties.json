@@ -1,0 +1,18 @@
+{
+	"category" : "Polymorph-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "gvc 5/18/2007 11:54",
+	"instvars" : [
+		"tabSelectorMorph",
+		"contentMorph",
+		"pageMorphs" ],
+	"name" : "TabGroupMorph",
+	"pools" : [
+		 ],
+	"super" : "MorphicModel",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

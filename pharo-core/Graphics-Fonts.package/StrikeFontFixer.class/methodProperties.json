@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"initialize" : "sd 2/4/2008 21:20",
+		"initializeNoFontTable" : "sd 2/4/2008 21:20",
+		"newOn:" : "nk 7/30/2004 18:09" },
+	"instance" : {
+		"characterFormAt:at:" : "sd 2/4/2008 21:12",
+		"displayOn:at:magnifyBy:" : "sd 2/4/2008 21:13",
+		"font:" : "sd 2/4/2008 21:13",
+		"forms" : "yo 9/16/2002 15:04",
+		"initialize" : "alain.plantec 5/28/2009 11:06",
+		"mappingTable" : "yo 9/16/2002 15:04",
+		"storeEditedGlyphsOn:" : "nice 1/5/2010 15:59" } }

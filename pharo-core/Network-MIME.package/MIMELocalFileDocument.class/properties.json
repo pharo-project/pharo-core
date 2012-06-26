@@ -1,0 +1,16 @@
+{
+	"category" : "Network-MIME",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "MIMELocalFileDocument",
+	"pools" : [
+		 ],
+	"super" : "MIMEDocument",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

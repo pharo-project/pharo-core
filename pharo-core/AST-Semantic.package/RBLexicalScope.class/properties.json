@@ -1,0 +1,16 @@
+{
+	"category" : "AST-Semantic-Scope",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"bindings" ],
+	"name" : "RBLexicalScope",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

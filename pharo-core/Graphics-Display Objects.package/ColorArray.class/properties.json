@@ -1,0 +1,16 @@
+{
+	"category" : "Graphics-Display Objects",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ColorArray",
+	"pools" : [
+		 ],
+	"super" : "ArrayedCollection",
+	"traitcomposition" : "{}",
+	"type" : "words" }

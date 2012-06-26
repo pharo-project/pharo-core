@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"creationTemplate" : "avi 9/16/2003 13:57",
+		"description" : "avi 9/16/2003 13:57",
+		"host:directory:user:password:" : "avi 9/16/2003 13:57",
+		"templateCreationSelector" : "bkv 2/18/2004 20:38" },
+	"instance" : {
+		"clientDo:" : "stephaneducasse 2/4/2006 20:47",
+		"description" : "avi 9/17/2003 12:52",
+		"directory:" : "stephaneducasse 2/4/2006 20:47",
+		"host:" : "stephaneducasse 2/4/2006 20:47",
+		"loadAllFileNames" : "CamilloBruni 3/2/2012 13:02",
+		"parseDirectoryListing:" : "stephaneducasse 2/4/2006 20:47",
+		"password:" : "stephaneducasse 2/4/2006 20:47",
+		"readStreamForFileNamed:do:" : "nice 1/5/2010 15:59",
+		"user:" : "stephaneducasse 2/4/2006 20:47",
+		"writeStreamForFileNamed:replace:do:" : "stephaneducasse 2/4/2006 20:47" } }

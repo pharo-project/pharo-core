@@ -1,0 +1,16 @@
+{
+	"category" : "CompilerTests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "StephaneDucasse 6/9/2010 20:53",
+	"instvars" : [
+		 ],
+	"name" : "TotalCost",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

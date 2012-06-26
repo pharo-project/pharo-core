@@ -1,0 +1,16 @@
+{
+	"category" : "Collections-Weak",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "WeakKeyToCollectionDictionary",
+	"pools" : [
+		 ],
+	"super" : "WeakIdentityKeyDictionary",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

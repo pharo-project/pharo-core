@@ -1,0 +1,4 @@
+*rpackage-core
+packagesDictionary
+
+	^ packages

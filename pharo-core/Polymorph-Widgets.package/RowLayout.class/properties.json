@@ -1,0 +1,17 @@
+{
+	"category" : "Polymorph-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "gvc 5/31/2007 16:12",
+	"instvars" : [
+		"cachedMinExtent",
+		"cachedMinExtents" ],
+	"name" : "RowLayout",
+	"pools" : [
+		 ],
+	"super" : "LayoutPolicy",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

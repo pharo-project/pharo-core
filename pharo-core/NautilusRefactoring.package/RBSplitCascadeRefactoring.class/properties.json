@@ -1,0 +1,22 @@
+{
+	"category" : "NautilusRefactoring-Refactorings",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selector",
+		"selectedInterval",
+		"parseTree",
+		"cascadeNode",
+		"beforeNodes",
+		"afterNodes",
+		"ancestorNode" ],
+	"name" : "RBSplitCascadeRefactoring",
+	"pools" : [
+		 ],
+	"super" : "RBMethodRefactoring",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

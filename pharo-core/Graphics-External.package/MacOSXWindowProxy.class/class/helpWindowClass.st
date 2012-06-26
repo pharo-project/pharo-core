@@ -1,0 +1,3 @@
+constants
+helpWindowClass
+	^10

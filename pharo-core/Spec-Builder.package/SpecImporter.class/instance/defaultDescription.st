@@ -1,0 +1,4 @@
+initialization
+defaultDescription
+
+	^ ComposableModelDescription new

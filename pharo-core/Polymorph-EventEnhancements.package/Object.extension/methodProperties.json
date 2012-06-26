@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"when:send:to:exclusive:" : "gvc 10/25/2006 18:18",
+		"when:send:to:with:exclusive:" : "gvc 10/25/2006 18:17",
+		"when:send:to:withArguments:exclusive:" : "gvc 10/25/2006 18:17",
+		"when:sendOnce:to:" : "gvc 10/24/2006 11:50",
+		"when:sendOnce:to:with:" : "gvc 10/24/2006 11:49",
+		"when:sendOnce:to:withArguments:" : "gvc 10/24/2006 11:49" } }

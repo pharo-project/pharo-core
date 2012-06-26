@@ -1,0 +1,3 @@
+flexing
+hasNoScaleOrRotation
+	^true

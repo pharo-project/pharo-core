@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"encodingNames" : "yo 2/10/2004 05:23" },
+	"instance" : {
+		"charFromStream:withFirst:" : "HenrikSperreJohansen 8/9/2010 15:19",
+		"checkBOMOn:" : "HenrikSperreJohansen 8/9/2010 15:01",
+		"initialize" : "HenrikSperreJohansen 8/9/2010 15:02",
+		"next16BitValue:toStream:" : "yo 1/13/2004 12:59",
+		"nextFromStream:" : "HenrikSperreJohansen 8/9/2010 15:12",
+		"nextPut:toStream:" : "HenrikSperreJohansen 8/9/2010 15:01",
+		"nextPutAll:toStream:" : "HenrikSperreJohansen 8/9/2010 15:04",
+		"nextPutByteString:toStream:" : "HenrikSperreJohansen 8/10/2010 16:21",
+		"swapLatin1EncodingByteOrder" : "HenrikSperreJohansen 6/7/2010 14:28",
+		"useByteOrderMark" : "HenrikSperreJohansen 8/9/2010 15:02",
+		"useByteOrderMark:" : "yo 1/12/2004 13:54",
+		"useLittleEndian" : "HenrikSperreJohansen 8/9/2010 15:02",
+		"useLittleEndian:" : "HenrikSperreJohansen 6/7/2010 14:16" } }

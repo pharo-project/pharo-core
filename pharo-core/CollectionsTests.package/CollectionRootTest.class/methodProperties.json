@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"isAbstract" : "damienpollet 1/13/2009 15:28" },
+	"instance" : {
+		"collectionWithoutNilElements" : "delaunay 5/14/2009 10:36",
+		"doWithoutNumber" : "damienpollet 1/30/2009 17:20",
+		"element" : "damienpollet 1/30/2009 17:32",
+		"elementTwiceIn" : "damienpollet 1/30/2009 17:14",
+		"empty" : "delaunay 5/14/2009 10:36",
+		"expectedElementByDetect" : "damienpollet 1/21/2009 18:25",
+		"nonEmpty" : "delaunay 5/14/2009 10:35",
+		"testDoSeparatedBy" : "delaunay 5/14/2009 11:03",
+		"testRejectNoReject" : "delaunay 5/14/2009 11:08" } }

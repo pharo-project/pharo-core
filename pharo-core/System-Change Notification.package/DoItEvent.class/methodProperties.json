@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"changeKind" : "rw 7/14/2003 10:19",
+		"expression:context:" : "NS 1/19/2004 09:47",
+		"supportedKinds" : "NS 1/20/2004 12:23" },
+	"instance" : {
+		"context" : "rw 7/14/2003 11:29",
+		"context:" : "rw 7/14/2003 11:29",
+		"isDoIt" : "rw 7/14/2003 10:15",
+		"printEventKindOn:" : "rw 7/14/2003 10:15" } }

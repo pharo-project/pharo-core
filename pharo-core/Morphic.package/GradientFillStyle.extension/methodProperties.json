@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addFillStyleMenuItems:hand:from:" : "dgd 10/17/2003 22:37",
+		"addNewColorIn:event:" : "ar 6/18/1999 09:49",
+		"beLinearGradientIn:" : "ar 6/18/1999 07:25",
+		"beRadialGradientIn:" : "ar 6/18/1999 07:25",
+		"changeColorAt:to:" : "dik 7/1/2010 00:45",
+		"changeColorOf:rampIndex:" : "dik 7/1/2010 00:46",
+		"changeColorSelector:hand:morph:originalColor:" : "HenrikSperreJohansen 6/11/2010 12:29",
+		"changeFirstColorIn:event:" : "dik 6/28/2010 00:22",
+		"changeSecondColorIn:event:" : "dik 6/28/2010 00:22",
+		"copyWith:atRamp:" : "dik 6/28/2010 00:31" } }

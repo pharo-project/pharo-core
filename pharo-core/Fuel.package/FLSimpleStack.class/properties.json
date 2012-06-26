@@ -1,0 +1,17 @@
+{
+	"category" : "Fuel-Collections",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "MarianoMartinezPeck 6/5/2011 12:29",
+	"instvars" : [
+		"array",
+		"slotIndex" ],
+	"name" : "FLSimpleStack",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

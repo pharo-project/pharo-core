@@ -1,0 +1,16 @@
+{
+	"category" : "CollectionsTests-Weak",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"passAction" ],
+	"name" : "MockExceptionWithPassAction",
+	"pools" : [
+		 ],
+	"super" : "Exception",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

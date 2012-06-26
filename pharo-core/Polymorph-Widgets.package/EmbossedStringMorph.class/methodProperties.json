@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"adoptPaneColor:" : "gvc 8/9/2007 11:53",
+		"drawOn:" : "gvc 8/9/2007 17:03",
+		"initWithContents:font:emphasis:" : "gvc 8/9/2007 11:55",
+		"initialize" : "gvc 8/9/2007 11:52",
+		"measureContents" : "gvc 5/18/2007 13:16",
+		"style" : "gvc 4/27/2006 12:09",
+		"style:" : "gvc 5/10/2006 15:26",
+		"styleSymbols" : "gvc 8/9/2007 11:35",
+		"trackPaneColor" : "gvc 8/9/2007 11:52",
+		"trackPaneColor:" : "gvc 8/9/2007 11:52" } }

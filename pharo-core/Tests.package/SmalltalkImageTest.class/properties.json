@@ -1,0 +1,16 @@
+{
+	"category" : "Tests-System",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SmalltalkImageTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

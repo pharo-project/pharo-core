@@ -1,0 +1,17 @@
+{
+	"category" : "SUnit-Tests-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"full",
+		"empty" ],
+	"name" : "ExampleSetTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

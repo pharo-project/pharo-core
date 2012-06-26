@@ -1,0 +1,1 @@
+A CodeCriticBrowser is a UI made to browse code critics refactor

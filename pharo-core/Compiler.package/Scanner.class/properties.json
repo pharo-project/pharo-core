@@ -1,0 +1,25 @@
+{
+	"category" : "Compiler-Kernel",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"AllowUnderscoreAsAssignment",
+		"DoItCharacter" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"source",
+		"mark",
+		"hereChar",
+		"aheadChar",
+		"token",
+		"tokenType",
+		"currentComment",
+		"buffer",
+		"typeTable" ],
+	"name" : "Scanner",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

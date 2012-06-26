@@ -1,0 +1,16 @@
+{
+	"category" : "Tests-Monticello",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MCSerializationTest",
+	"pools" : [
+		 ],
+	"super" : "MCTestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

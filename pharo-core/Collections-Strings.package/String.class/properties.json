@@ -1,0 +1,25 @@
+{
+	"category" : "Collections-Strings",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"AsciiOrder",
+		"CSLineEnders",
+		"CSNonSeparators",
+		"CSSeparators",
+		"CaseInsensitiveOrder",
+		"CaseSensitiveOrder",
+		"LowercasingTable",
+		"Tokenish",
+		"TypeTable",
+		"UppercasingTable" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "String",
+	"pools" : [
+		 ],
+	"super" : "ArrayedCollection",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

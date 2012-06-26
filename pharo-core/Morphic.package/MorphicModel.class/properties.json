@@ -1,0 +1,19 @@
+{
+	"category" : "Morphic-Kernel",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"KeyboardFocusOnMouseDown",
+		"MouseOverForKeyboardFocus" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"model",
+		"open",
+		"accessor" ],
+	"name" : "MorphicModel",
+	"pools" : [
+		 ],
+	"super" : "BorderedMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

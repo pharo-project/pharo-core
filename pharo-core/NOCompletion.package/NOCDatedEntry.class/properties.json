@@ -1,0 +1,18 @@
+{
+	"category" : "NOCompletion-Model",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"date",
+		"next",
+		"previous" ],
+	"name" : "NOCDatedEntry",
+	"pools" : [
+		 ],
+	"super" : "NECSelectorEntry",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

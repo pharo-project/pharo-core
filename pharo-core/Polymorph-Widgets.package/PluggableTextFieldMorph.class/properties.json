@@ -1,0 +1,21 @@
+{
+	"category" : "Polymorph-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "gvc 5/18/2007 12:39",
+	"instvars" : [
+		"converter",
+		"ghostText",
+		"default",
+		"entryCompletion",
+		"endRow",
+		"textMorphClass" ],
+	"name" : "PluggableTextFieldMorph",
+	"pools" : [
+		 ],
+	"super" : "PluggableTextMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

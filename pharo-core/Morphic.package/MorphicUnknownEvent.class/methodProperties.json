@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"argument" : "ar 10/25/2000 20:04",
+		"argument:" : "ar 10/25/2000 20:04",
+		"position" : "ar 10/25/2000 19:55",
+		"setType:argument:" : "ar 10/25/2000 19:59",
+		"setType:argument:hand:stamp:" : "ar 10/25/2000 19:58",
+		"storeOn:" : "ar 10/26/2000 01:19",
+		"type" : "ar 10/25/2000 19:55",
+		"type:readFrom:" : "ar 10/26/2000 01:20" } }

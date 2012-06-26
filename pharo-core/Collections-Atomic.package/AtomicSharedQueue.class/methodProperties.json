@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"initialize" : "Igor.Stasenko 10/15/2010 16:59",
+		"next" : "IgorStasenko 2/28/2011 15:20",
+		"signalAddedNewItem" : "Igor.Stasenko 10/15/2010 17:00",
+		"signalNoMoreItems" : "Igor.Stasenko 10/16/2010 01:45",
+		"waitForNewItems" : "Igor.Stasenko 10/15/2010 17:00" } }

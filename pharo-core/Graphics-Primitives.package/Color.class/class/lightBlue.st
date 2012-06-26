@@ -1,0 +1,3 @@
+named colors
+lightBlue
+	^LightBlue

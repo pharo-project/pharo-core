@@ -1,0 +1,16 @@
+{
+	"category" : "Tests-ObjectsAsMethods",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ObjectsAsMethodsExample",
+	"pools" : [
+		 ],
+	"super" : "AbstractObjectsAsMethod",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

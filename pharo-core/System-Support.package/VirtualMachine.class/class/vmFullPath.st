@@ -1,0 +1,3 @@
+attributes
+vmFullPath
+	^ self fullPath

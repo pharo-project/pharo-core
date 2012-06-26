@@ -1,0 +1,3 @@
+*Polymorph-Widgets
+takeKeyboardFocus
+	contentMorph takeKeyboardFocus.

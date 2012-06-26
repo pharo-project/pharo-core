@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"isVariable:readBeforeWrittenIn:" : "",
+		"isVariable:writtenBeforeReadIn:" : "",
+		"readBeforeWritten:in:" : "",
+		"variablesReadBeforeWrittenIn:" : "" },
+	"instance" : {
+		"acceptAssignmentNode:" : "",
+		"acceptBlockNode:" : "",
+		"acceptMessageNode:" : "",
+		"acceptSequenceNode:" : "",
+		"acceptVariableNode:" : "",
+		"checkNewTemps:" : "",
+		"copyDictionary:" : "TestRunner 11/3/2009 09:10",
+		"createScope" : "",
+		"currentScope" : "",
+		"executeTree:" : "",
+		"initialize" : "",
+		"initializeVars:" : "",
+		"processBlock:" : "",
+		"processIfTrueIfFalse:" : "",
+		"processStatementNode:" : "",
+		"read" : "",
+		"removeScope" : "",
+		"variableRead:" : "",
+		"variableWritten:" : "" } }

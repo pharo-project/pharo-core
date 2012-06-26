@@ -1,0 +1,18 @@
+{
+	"category" : "Monticello-Announcements",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"name",
+		"nameString",
+		"version" ],
+	"name" : "MCVersionCreated",
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

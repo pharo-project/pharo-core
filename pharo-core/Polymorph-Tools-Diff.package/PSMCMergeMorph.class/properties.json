@@ -1,0 +1,18 @@
+{
+	"category" : "Polymorph-Tools-Diff",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"patchMorph",
+		"codeMorph",
+		"merged" ],
+	"name" : "PSMCMergeMorph",
+	"pools" : [
+		 ],
+	"super" : "ComposableMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+ProtoObject establishes minimal behavior required of any object in Squeak, even objects that should balk at normal object behavior. Generally these are proxy objects designed to read themselves in from the disk, or to perform some wrapper behavior, before responding to a message. Current examples are ObjectOut and ImageSegmentRootStub, and one could argue that ObjectTracer should also inherit from this class.
+
+ProtoObject has no instance variables, nor should any be added.

@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"displayStrikeoutOn:from:to:" : "tween 7/29/2006 14:36",
+		"displayUnderlineOn:from:to:" : "tween 7/29/2006 13:51",
+		"emphasisString" : "tween 8/10/2006 07:16",
+		"emphasisStringFor:" : "tween 8/10/2006 07:13",
+		"hasDistinctGlyphsForAll:" : "tween 3/29/2007 13:43",
+		"hasGlyphsForAll:" : "tween 3/29/2007 13:25",
+		"isSubPixelPositioned" : "tween 4/6/2007 12:58",
+		"isSymbolFont" : "tween 3/29/2007 13:32",
+		"kerningLeft:right:" : "tween 3/10/2007 13:08",
+		"linearWidthOf:" : "tween 3/31/2007 20:17",
+		"widthAndKernedWidthOfLeft:right:into:" : "tween 4/3/2007 16:47" } }

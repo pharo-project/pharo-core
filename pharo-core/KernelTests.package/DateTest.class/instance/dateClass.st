@@ -1,0 +1,4 @@
+Private
+dateClass
+
+	^ Date

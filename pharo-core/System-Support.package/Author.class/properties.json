@@ -1,0 +1,16 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "MiguelCoba 7/25/2009 01:09",
+	"instvars" : [
+		"fullName" ],
+	"name" : "Author",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

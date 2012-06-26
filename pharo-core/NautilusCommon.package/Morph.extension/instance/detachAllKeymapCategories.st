@@ -1,0 +1,4 @@
+*NautilusCommon-KeyMappingExtensions
+detachAllKeymapCategories
+
+	self kmDispatcher detachAllKeymapCategories

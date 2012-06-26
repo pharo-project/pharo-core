@@ -1,0 +1,16 @@
+{
+	"category" : "Text-Edition",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "SmalltalkEditor",
+	"pools" : [
+		 ],
+	"super" : "TextEditor",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+private
+basicIsReadable: anEntry
+	^ true

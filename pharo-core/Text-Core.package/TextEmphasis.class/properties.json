@@ -1,0 +1,17 @@
+{
+	"category" : "Text-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"emphasisCode",
+		"setMode" ],
+	"name" : "TextEmphasis",
+	"pools" : [
+		 ],
+	"super" : "TextAttribute",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

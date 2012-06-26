@@ -1,0 +1,17 @@
+{
+	"category" : "Morphic-Menus",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "StephaneDucasse 2/23/2010 21:11",
+	"instvars" : [
+		"updater",
+		"updateSelector" ],
+	"name" : "UpdatingMenuMorph",
+	"pools" : [
+		 ],
+	"super" : "MenuMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

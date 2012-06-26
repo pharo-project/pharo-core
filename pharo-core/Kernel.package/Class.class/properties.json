@@ -1,0 +1,23 @@
+{
+	"category" : "Kernel-Classes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TBehaviorCategorization classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"subclasses",
+		"name",
+		"classPool",
+		"sharedPools",
+		"environment",
+		"category",
+		"traitComposition",
+		"localSelectors" ],
+	"name" : "Class",
+	"pools" : [
+		 ],
+	"super" : "ClassDescription",
+	"traitcomposition" : "TBehaviorCategorization",
+	"type" : "normal" }

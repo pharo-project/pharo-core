@@ -1,0 +1,3 @@
+icons
+smallProjectIcon
+	^ ThemeIcons smallProjectIcon

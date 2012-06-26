@@ -1,0 +1,5 @@
+initialization
+initializePresenter
+
+	self setActions.
+	

@@ -1,0 +1,6 @@
+shortcuts
+openShortcutDescription
+
+	KMDescription new
+		categories: #(NautilusGroupShortcuts NautilusClassShortcuts NautilusSourceCodeShortcuts NautilusPackageShortcuts NautilusProtocolShortcuts NautilusMethodShortcuts) sort;
+		openWithSpec

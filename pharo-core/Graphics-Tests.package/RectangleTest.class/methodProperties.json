@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "zz 10/16/2007 20:39",
+		"testARectangleContainsItsOrigin" : "zz 10/23/2007 20:10",
+		"testARectangleDoesNotContainItsCorner" : "zz 10/23/2007 20:11",
+		"testARectangleIntersectsWithItself" : "zz 10/23/2007 20:12",
+		"testAnEmptyRectangleHasNoArea" : "StephaneDucasse 5/28/2011 13:35",
+		"testAreasOutside1" : "test 10/22/2007 21:37",
+		"testAreasOutside2" : "zz 10/22/2007 09:07",
+		"testMergingDisjointRectangles" : "zz 10/22/2007 09:15",
+		"testMergingNestedRectanglesReturnTheContainer" : "zz 10/16/2007 20:14",
+		"testMergingOneRectangleReturnsThisRectangle" : "zz 10/16/2007 20:00",
+		"testMergingOverlappingRectangles" : "zz 10/22/2007 09:12",
+		"testMergingOverlappingRects" : "sd 6/5/2005 10:17",
+		"testMergingTwoRectangles" : "zz 10/22/2007 09:09",
+		"testRectanglesWithSameOriginIntersect" : "zz 10/23/2007 20:13",
+		"testStoreOn" : "jb 7/1/2011 10:54",
+		"testTwoRectanglesWithAnAdjascentBorderDoNotIntersect" : "zz 10/23/2007 20:14",
+		"testTwoRectanglesWithAnAdjascentCornerDoNotIntersect" : "zz 10/23/2007 20:15" } }

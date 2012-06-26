@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAllInstances" : "nice 11/14/2009 19:25",
+		"testDeepCopy" : "GabrielOmarCotelli 5/25/2010 21:22",
+		"testHaltIfNil" : "sd 6/5/2005 09:07",
+		"testIfNil" : "sd 6/5/2005 09:07",
+		"testIfNilIfNotNil" : "sd 6/5/2005 09:08",
+		"testIfNotNil" : "sd 6/5/2005 09:08",
+		"testIfNotNilDo" : "marcus.denker 11/10/2008 10:04",
+		"testIfNotNilIfNil" : "sd 6/5/2005 09:08",
+		"testIsEmptyOrNil" : "sd 6/5/2005 09:08",
+		"testIsLiteral" : "sd 6/5/2005 09:08",
+		"testIsNil" : "sd 6/5/2005 09:08",
+		"testNew" : "sd 6/5/2005 09:09",
+		"testNotNil" : "sd 6/5/2005 09:08",
+		"testPrintOn" : "sd 6/5/2005 09:09",
+		"testShallowCopy" : "GabrielOmarCotelli 5/25/2010 21:22",
+		"testStoreOn" : "jb 7/1/2011 10:56",
+		"testVeryDeepCopyWith" : "GabrielOmarCotelli 5/25/2010 21:22" } }

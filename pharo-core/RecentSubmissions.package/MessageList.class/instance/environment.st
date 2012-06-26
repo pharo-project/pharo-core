@@ -1,0 +1,4 @@
+initialize
+environment
+
+	^Smalltalk globals

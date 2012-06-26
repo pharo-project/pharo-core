@@ -1,0 +1,21 @@
+{
+	"category" : "System-Settings-Browser",
+	"classinstvars" : [
+		"searchedTextList",
+		"regexpSearch" ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "SeanDeNigris 11/30/2011 15:19",
+	"instvars" : [
+		"viewedPackages",
+		"roots",
+		"status",
+		"searchedText",
+		"treeHolder" ],
+	"name" : "SettingBrowser",
+	"pools" : [
+		 ],
+	"super" : "MorphTreeModel",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

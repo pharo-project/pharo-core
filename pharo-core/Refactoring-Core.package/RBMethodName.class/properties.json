@@ -1,0 +1,17 @@
+{
+	"category" : "Refactoring-Core-Support",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selector",
+		"arguments" ],
+	"name" : "RBMethodName",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,18 @@
+{
+	"category" : "Spec-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"model",
+		"spec",
+		"superSpec" ],
+	"name" : "SpecInterpreter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

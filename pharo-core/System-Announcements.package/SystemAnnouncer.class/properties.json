@@ -1,0 +1,17 @@
+{
+	"category" : "System-Announcements",
+	"classinstvars" : [
+		"announcer",
+		"privateAnnouncer" ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "SystemAnnouncer",
+	"pools" : [
+		 ],
+	"super" : "Announcer",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

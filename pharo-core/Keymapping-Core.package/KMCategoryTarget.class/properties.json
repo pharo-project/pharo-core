@@ -1,0 +1,18 @@
+{
+	"category" : "Keymapping-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"target",
+		"category",
+		"morph" ],
+	"name" : "KMCategoryTarget",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

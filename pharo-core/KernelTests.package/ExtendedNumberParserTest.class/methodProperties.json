@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testFractionPartWithoutIntegerPart" : "nice 2/13/2010 02:25",
+		"testIntegerPartWithoutFraction" : "nice 2/13/2010 02:25",
+		"testInvalidExponent" : "nice 2/13/2010 02:23",
+		"testInvalidRadix" : "nice 2/13/2010 02:08",
+		"testInvalidScale" : "nice 2/13/2010 02:24",
+		"testPositive" : "nice 2/13/2010 02:26",
+		"testPositiveExponent" : "nice 2/13/2010 02:27" } }

@@ -1,0 +1,3 @@
+initialization
+registerAsDefaultTestRunner
+	TestRunnerBrowser default: self.

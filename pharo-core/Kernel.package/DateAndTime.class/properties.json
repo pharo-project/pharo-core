@@ -1,0 +1,26 @@
+{
+	"category" : "Kernel-Chronology",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"ClockProvider",
+		"DaysSinceEpoch",
+		"LastMilliSeconds",
+		"LastTick",
+		"LastTickSemaphore",
+		"LocalTimeZone",
+		"MilliSecondOffset",
+		"OffsetsAreValid" ],
+	"commentStamp" : "sd 3/16/2008 14:58",
+	"instvars" : [
+		"seconds",
+		"offset",
+		"jdn",
+		"nanos" ],
+	"name" : "DateAndTime",
+	"pools" : [
+		"ChronologyConstants" ],
+	"super" : "Magnitude",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"defaultSpec" : "bvr 6/4/2012 14:51",
+		"title" : "" },
+	"instance" : {
+		"cancelAction" : "",
+		"cancelAction:" : "",
+		"cancelButton" : "",
+		"cancelled" : "BenjaminVanRyseghem 5/11/2012 18:32",
+		"initialize" : "BenjaminVanRyseghem 6/12/2012 18:03",
+		"initializePresenter" : "BenjaminVanRyseghem 6/12/2012 18:03",
+		"initializeWidgets" : "BenjaminVanRyseghem 6/12/2012 18:07",
+		"registerCancelButtonEvents" : "BenjaminVanRyseghem 6/12/2012 18:03" } }

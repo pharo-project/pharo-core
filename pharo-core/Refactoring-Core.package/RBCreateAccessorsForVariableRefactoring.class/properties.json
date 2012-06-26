@@ -1,0 +1,19 @@
+{
+	"category" : "Refactoring-Core-Refactorings",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"getterMethod",
+		"setterMethod",
+		"classVariable",
+		"needsReturn" ],
+	"name" : "RBCreateAccessorsForVariableRefactoring",
+	"pools" : [
+		 ],
+	"super" : "RBVariableRefactoring",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Tests-Traits",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TraitPureBehaviorTest",
+	"pools" : [
+		 ],
+	"super" : "TraitsTestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

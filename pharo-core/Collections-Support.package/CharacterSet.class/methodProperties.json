@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"allCharacters" : "ls 8/17/1998 20:42",
+		"crlf" : "nice 11/16/2009 11:22",
+		"empty" : "nk 8/3/2004 06:54",
+		"newFrom:" : "ls 1/3/1999 12:52",
+		"nonSeparators" : "ls 8/18/1998 00:40",
+		"separators" : "ls 8/18/1998 00:40" },
+	"instance" : {
+		"=" : "tk 7/5/2001 21:58",
+		"add:" : "MarianoMartinezPeck 9/22/2011 17:12",
+		"asString" : "StephaneDucasse 11/4/2011 09:54",
+		"byteArrayMap" : "ls 8/17/1998 20:35",
+		"byteComplement" : "nice 3/23/2007 02:28",
+		"complement" : "nice 11/20/2007 00:19",
+		"do:" : "ar 4/9/2005 22:37",
+		"findFirstInByteString:startingAt:" : "nice 12/9/2009 15:29",
+		"hasWideCharacters" : "nice 5/9/2006 23:23",
+		"hash" : "ls 8/17/1998 20:46",
+		"includes:" : "nice 5/9/2006 23:09",
+		"initialize" : "alain.plantec 5/28/2009 09:44",
+		"postCopy" : "nice 10/5/2009 08:52",
+		"remove:" : "nice 5/9/2006 23:20",
+		"remove:ifAbsent:" : "nice 12/10/2009 19:20",
+		"removeAll" : "klub 9/14/2009 19:07",
+		"size" : "nice 5/9/2006 23:02",
+		"wideCharacterMap" : "nice 5/9/2006 23:22" } }

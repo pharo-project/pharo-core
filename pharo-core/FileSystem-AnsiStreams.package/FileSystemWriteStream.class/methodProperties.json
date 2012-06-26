@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"<<" : "CamilloBruni 8/12/2011 14:26",
+		"cr" : "cwp 7/28/2009 22:25",
+		"crlf" : "CamilloBruni 8/12/2011 14:35",
+		"crtab" : "CamilloBruni 1/24/2012 13:54",
+		"crtab:" : "CamilloBruni 8/12/2011 14:36",
+		"flush" : "cwp 7/28/2009 22:22",
+		"isRead" : "CamilloBruni 8/14/2011 15:28",
+		"isWrite" : "CamilloBruni 8/14/2011 15:29",
+		"lf" : "CamilloBruni 8/12/2011 14:35",
+		"nextPut:" : "cwp 7/23/2009 17:03",
+		"nextPutAll:" : "cwp 7/23/2009 22:51",
+		"print:" : "CamilloBruni 1/24/2012 13:54",
+		"space" : "CamilloBruni 8/12/2011 14:36",
+		"space:" : "CamilloBruni 8/12/2011 14:24",
+		"store:" : "CamilloBruni 1/24/2012 13:42",
+		"tab" : "cwp 7/28/2009 22:28",
+		"tab:" : "CamilloBruni 8/12/2011 14:24",
+		"truncate" : "cwp 10/15/2009 22:05",
+		"truncateTo:" : "cwp 10/15/2009 21:49" } }

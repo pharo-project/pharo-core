@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"on:" : "",
+		"openOn:" : "" },
+	"instance" : {
+		"addEdgeGrips" : "BenjaminVanRyseghem 4/25/2012 13:54",
+		"addGrips" : "BenjaminVanRyseghem 4/25/2012 13:53",
+		"argumentIndex" : "",
+		"argumentIndex:" : "",
+		"argumentList" : "",
+		"cancel" : "",
+		"defaultFocusMorph" : "BenjaminVanRyseghem 3/26/2012 17:10",
+		"down" : "",
+		"initialize" : "BenjaminVanRyseghem 4/25/2012 13:39",
+		"initializeOn:" : "",
+		"isDownEnabled" : "",
+		"isOkEnabled" : "",
+		"isUpEnabled" : "",
+		"methodName" : "",
+		"newContentMorph" : "BenjaminVanRyseghem 3/26/2012 17:19",
+		"newOKButton" : "",
+		"selector" : "",
+		"selector:" : "",
+		"up" : "",
+		"update" : "" } }

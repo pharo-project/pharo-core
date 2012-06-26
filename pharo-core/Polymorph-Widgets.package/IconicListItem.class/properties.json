@@ -1,0 +1,16 @@
+{
+	"category" : "Polymorph-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"originalObject" ],
+	"name" : "IconicListItem",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

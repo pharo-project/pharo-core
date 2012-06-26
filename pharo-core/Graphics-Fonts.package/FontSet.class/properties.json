@@ -1,0 +1,16 @@
+{
+	"category" : "Graphics-Fonts",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "FontSet",
+	"pools" : [
+		"TextConstants" ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

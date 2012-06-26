@@ -1,0 +1,18 @@
+{
+	"category" : "Refactoring-Core-Conditions",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"block",
+		"type",
+		"errorBlock" ],
+	"name" : "RBCondition",
+	"pools" : [
+		 ],
+	"super" : "RBAbstractCondition",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

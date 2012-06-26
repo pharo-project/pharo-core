@@ -1,0 +1,16 @@
+{
+	"category" : "Polymorph-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SimpleBalloonMorph",
+	"pools" : [
+		 ],
+	"super" : "BalloonMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

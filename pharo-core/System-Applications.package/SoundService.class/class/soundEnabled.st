@@ -1,0 +1,3 @@
+settings
+soundEnabled
+	^ self defaultSoundEnabled

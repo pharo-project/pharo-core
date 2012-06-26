@@ -1,0 +1,17 @@
+{
+	"category" : "NautilusCommon-Plugin",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"model",
+		"position" ],
+	"name" : "AbstractNautilusPlugin",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

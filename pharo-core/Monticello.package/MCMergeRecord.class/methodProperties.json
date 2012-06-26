@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"version:" : "abc 2/13/2004 15:52" },
+	"instance" : {
+		"ancestorInfo" : "stephaneducasse 2/4/2006 20:47",
+		"ancestorSnapshot" : "stephaneducasse 2/4/2006 20:47",
+		"imageIsClean" : "StephaneDucasse 4/27/2010 11:49",
+		"imagePatch" : "stephaneducasse 2/4/2006 20:47",
+		"initializeWithVersion:" : "stephaneducasse 2/4/2006 20:47",
+		"isAncestorMerge" : "abc 2/13/2004 17:14",
+		"mergePatch" : "stephaneducasse 2/4/2006 20:47",
+		"packageSnapshot" : "stephaneducasse 2/4/2006 20:47",
+		"updateWorkingCopy" : "abc 2/13/2004 17:14",
+		"version" : "abc 2/13/2004 15:52" } }

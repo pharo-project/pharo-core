@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testNoArguments" : "sd 6/5/2005 09:10",
+		"testOneArgument" : "sd 6/5/2005 09:11",
+		"testOneArgumentWithGC" : "sd 6/5/2005 09:11",
+		"testReceiverWithGC" : "sd 6/5/2005 09:11",
+		"testTwoArguments" : "sd 6/5/2005 09:11" } }

@@ -1,0 +1,17 @@
+{
+	"category" : "Multilingual-TextConversion",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"isBinary",
+		"converter" ],
+	"name" : "MultiByteBinaryOrTextStream",
+	"pools" : [
+		 ],
+	"super" : "ReadWriteStream",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

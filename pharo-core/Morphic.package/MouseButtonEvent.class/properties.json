@@ -1,0 +1,16 @@
+{
+	"category" : "Morphic-Events",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"whichButton" ],
+	"name" : "MouseButtonEvent",
+	"pools" : [
+		 ],
+	"super" : "MouseEvent",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

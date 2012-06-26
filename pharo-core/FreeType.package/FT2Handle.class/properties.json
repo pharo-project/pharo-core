@@ -1,0 +1,17 @@
+{
+	"category" : "FreeType-Base",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"KnownHandles",
+		"Registry" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"handle" ],
+	"name" : "FT2Handle",
+	"pools" : [
+		"FT2Constants" ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

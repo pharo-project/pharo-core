@@ -1,0 +1,4 @@
+widget - category
+resetCategoriesListSelection
+
+	categoryWidget resetCategoriesListSelection

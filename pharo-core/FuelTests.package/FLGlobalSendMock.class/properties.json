@@ -1,0 +1,16 @@
+{
+	"category" : "FuelTests-Mocks",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"contents" ],
+	"name" : "FLGlobalSendMock",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

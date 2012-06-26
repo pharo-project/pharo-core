@@ -1,0 +1,16 @@
+{
+	"category" : "Monticello-Versioning",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MCNoChangesException",
+	"pools" : [
+		 ],
+	"super" : "Exception",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

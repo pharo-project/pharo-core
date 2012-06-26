@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"initialize" : "alain.plantec 5/28/2009 09:43",
+		"jump:" : "eem 5/31/2008 13:48",
+		"pushClosureCopyNumCopiedValues:numArgs:blockSize:" : "eem 5/31/2008 13:54",
+		"send:super:numArgs:" : "eem 5/31/2008 14:16" } }

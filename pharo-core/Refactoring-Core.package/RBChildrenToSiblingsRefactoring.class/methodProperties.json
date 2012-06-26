@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"model:name:class:subclasses:" : "",
+		"name:class:subclasses:" : "" },
+	"instance" : {
+		"abstractSuperclass" : "",
+		"addSuperclass" : "lr 9/8/2011 20:11",
+		"changeIsKindOfReferences" : "lr 11/2/2009 00:14",
+		"computeSubclassSupersOf:" : "",
+		"createSubclassResponsibilityFor:in:" : "",
+		"name:class:subclasses:" : "",
+		"preconditions" : "",
+		"pullUpClassInstanceVariables" : "lr 9/8/2011 20:11",
+		"pullUpClassVariables" : "lr 9/8/2011 20:11",
+		"pullUpInstanceVariables" : "lr 9/8/2011 20:11",
+		"pullUpMethods" : "lr 7/17/2010 23:24",
+		"pullUpPoolVariables" : "",
+		"pushUp:in:" : "",
+		"pushUpMethodsFrom:" : "",
+		"pushUpVariables" : "",
+		"reparentSubclasses" : "",
+		"selectorsToPushUpFrom:" : "",
+		"shouldPushUp:from:" : "lr 10/26/2009 22:09",
+		"storeOn:" : "",
+		"subclassResponsibilityFor:in:" : "",
+		"transform" : "lr 7/17/2010 23:24" } }

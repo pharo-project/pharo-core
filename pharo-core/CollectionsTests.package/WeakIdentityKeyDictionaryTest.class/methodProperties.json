@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"shouldInheritSelectors" : "cyrille.delaunay 7/1/2009 16:13" },
+	"instance" : {
+		"classToBeTested" : "cyrille.delaunay 7/1/2009 16:12",
+		"testAtPutNil" : "cyrille.delaunay 7/17/2009 11:50",
+		"testFinalizeValuesWhenLastChainContinuesAtFront" : "MarcusDenker 5/23/2011 20:35",
+		"testNoNils" : "sd 7/21/2009 10:46" } }

@@ -1,0 +1,17 @@
+{
+	"category" : "Graphics-Fonts",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"familyName",
+		"pixelSize" ],
+	"name" : "FontSubstitutionDuringLoading",
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

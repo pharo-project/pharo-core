@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"actionMapFor:" : "reThink 2/18/2001 14:42",
+		"actionMaps" : "nice 4/19/2011 00:02",
+		"cleanUp:" : "StephaneDucasse 3/9/2010 22:22",
+		"flushEvents" : "nice 1/5/2010 15:59",
+		"releaseActionMapFor:" : "reThink 2/18/2001 15:34",
+		"updateableActionMapFor:" : "reThink 2/25/2001 08:52" },
+	"instance" : {
+		"actionMap" : "reThink 2/18/2001 15:37",
+		"addDependent:" : "reThink 3/3/2001 10:07",
+		"breakDependents" : "reThink 3/3/2001 10:07",
+		"changed:" : "reThink 3/3/2001 10:20",
+		"changedEventSelector" : "reThink 3/3/2001 10:07",
+		"dependents" : "reThink 3/3/2001 10:18",
+		"postCopy" : "StephaneDucasse 10/2/2010 17:00",
+		"releaseActionMap" : "reThink 2/18/2001 15:39",
+		"removeDependent:" : "reThink 3/3/2001 10:07",
+		"updateEventSelector" : "reThink 3/3/2001 10:07",
+		"updateableActionMap" : "reThink 2/18/2001 15:38" } }

@@ -1,0 +1,4 @@
+*RPackage-SystemIntegration
+unregisterInterestToSystemAnnouncement
+
+	self default unregisterInterestToSystemAnnouncement

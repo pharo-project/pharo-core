@@ -1,0 +1,16 @@
+{
+	"category" : "Tools-Inspector",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OrderedCollectionInspector",
+	"pools" : [
+		 ],
+	"super" : "Inspector",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

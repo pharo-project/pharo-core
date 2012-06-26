@@ -1,0 +1,16 @@
+{
+	"category" : "System-Clipboard",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MacOSClipboard",
+	"pools" : [
+		 ],
+	"super" : "ExternalClipboard",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

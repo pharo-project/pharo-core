@@ -1,0 +1,16 @@
+{
+	"category" : "Gofer-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GoferBrowseLocalChanges",
+	"pools" : [
+		 ],
+	"super" : "GoferLocalChanges",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

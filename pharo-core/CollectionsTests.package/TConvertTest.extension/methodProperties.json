@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertNoDuplicates:whenConvertedTo:" : "delaunay 3/27/2009 09:43",
+		"assertNonDuplicatedContents:whenConvertedTo:" : "cyrille.delaunay 3/26/2009 12:36",
+		"assertSameContents:whenConvertedTo:" : "cyrille.delaunay 3/26/2009 12:37",
+		"collectionWithoutEqualElements" : "delaunay 4/20/2009 14:59",
+		"integerCollectionWithoutEqualElements" : "delaunay 4/20/2009 15:00",
+		"test0FixtureTConvertTest" : "delaunay 4/24/2009 10:40",
+		"testAsArray" : "cyrille.delaunay 3/26/2009 14:55",
+		"testAsBag" : "cyrille.delaunay 3/26/2009 12:49",
+		"testAsByteArray" : "delaunay 4/24/2009 10:40",
+		"testAsIdentitySet" : "delaunay 4/15/2009 15:33",
+		"testAsOrderedCollection" : "cyrille.delaunay 3/26/2009 12:42",
+		"testAsSet" : "delaunay 4/15/2009 15:36" } }

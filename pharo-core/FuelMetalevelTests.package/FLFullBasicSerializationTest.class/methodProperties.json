@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"packageNamesUnderTest" : "MarianoMartinezPeck 1/14/2012 17:58",
+		"shouldInheritSelectors" : "MartinDias 3/22/2012 19:41" },
+	"instance" : {
+		"assertSerializationEqualityOfAll:" : "MartinDias 1/9/2012 22:02",
+		"expectedFailures" : "MartinDias 5/15/2012 11:05",
+		"setUpSerializer" : "MartinDias 12/31/2011 00:10",
+		"testClassGlobalAssociation" : "MartinDias 3/16/2012 23:36",
+		"testClassSideCompiledMethod" : "MarianoMartinezPeck 4/20/2012 21:38",
+		"testClassVariable" : "MartinDias 3/17/2012 00:12",
+		"testCompiledMethod" : "MarianoMartinezPeck 4/20/2012 21:38",
+		"testConsiderGlobal:" : "MartinDias 3/17/2012 00:09",
+		"testConsiderGlobalAClass" : "MartinDias 3/16/2012 23:52",
+		"testConsiderGlobalAnObject" : "MartinDias 3/16/2012 23:53",
+		"testMethodDictionaries" : "MarianoMartinezPeck 4/20/2012 21:37",
+		"testSmalltalkGlobalAssociation" : "MartinDias 3/16/2012 23:36",
+		"testUndeclaredAssociation" : "MartinDias 4/2/2012 15:46" } }

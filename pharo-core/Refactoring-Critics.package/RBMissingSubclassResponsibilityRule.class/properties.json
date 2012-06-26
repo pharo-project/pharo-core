@@ -1,0 +1,16 @@
+{
+	"category" : "Refactoring-Critics-BlockRules",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RBMissingSubclassResponsibilityRule",
+	"pools" : [
+		 ],
+	"super" : "RBBlockLintRule",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

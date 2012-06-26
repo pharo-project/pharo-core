@@ -1,0 +1,1 @@
+A BindingsHolder is a simple wrapper to manage the bindings

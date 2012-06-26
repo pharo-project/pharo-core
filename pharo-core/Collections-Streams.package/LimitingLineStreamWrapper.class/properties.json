@@ -1,0 +1,19 @@
+{
+	"category" : "Collections-Streams",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"stream",
+		"line",
+		"limitingBlock",
+		"position" ],
+	"name" : "LimitingLineStreamWrapper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

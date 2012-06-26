@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"adoptPaneColor:" : "gvc 1/23/2009 16:30",
+		"buttonMorph" : "gvc 1/22/2009 15:37",
+		"buttonMorph:" : "gvc 1/22/2009 15:37",
+		"buttonWidth" : "AlainPlantec 12/17/2009 14:33",
+		"defaultBorderStyle" : "gvc 9/23/2006 16:46",
+		"expandLabel" : "gvc 1/31/2009 16:41",
+		"expanded" : "gvc 7/27/2006 10:16",
+		"expanded:" : "gvc 7/27/2006 10:24",
+		"extent:" : "GaryChambers 12/21/2011 16:29",
+		"font" : "gvc 9/13/2006 10:29",
+		"font:" : "gvc 9/13/2006 10:28",
+		"initialize" : "gvc 1/22/2009 15:37",
+		"labelMorph" : "gvc 9/13/2006 10:23",
+		"labelMorph:" : "GaryChambers 7/27/2011 18:04",
+		"newExpandButtonMorph" : "gvc 1/22/2009 15:35",
+		"newLabelMorph" : "GaryChambers 7/27/2011 17:10",
+		"normalFillStyle" : "gvc 5/23/2007 14:28",
+		"themeChanged" : "gvc 1/20/2010 11:59",
+		"titleText" : "gvc 10/18/2006 11:15",
+		"titleText:" : "gvc 9/13/2006 10:24",
+		"toggleExpanded" : "gvc 7/27/2006 10:23" } }

@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"doButtonAction" : "",
+		"initialize" : "StephaneDucasse 3/9/2012 12:47",
+		"isOff" : "",
+		"isOn" : "",
+		"mouseDown:" : "StephaneDucasse 3/6/2012 15:08",
+		"mouseMove:" : "",
+		"mouseUp:" : "",
+		"offColor" : "",
+		"offColor:" : "StephaneDucasse 3/6/2012 15:08",
+		"onColor" : "",
+		"onColor:" : "StephaneDucasse 3/6/2012 15:08",
+		"setSwitchState:" : "",
+		"toggleState" : "",
+		"turnOff" : "",
+		"turnOn" : "" } }

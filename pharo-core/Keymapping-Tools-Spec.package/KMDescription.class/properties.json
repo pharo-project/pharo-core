@@ -1,0 +1,23 @@
+{
+	"category" : "Keymapping-Tools-Spec",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"droplist",
+		"list",
+		"okButton",
+		"collectingBlock",
+		"categories",
+		"displayList",
+		"sortingBlock",
+		"updatingBlock" ],
+	"name" : "KMDescription",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

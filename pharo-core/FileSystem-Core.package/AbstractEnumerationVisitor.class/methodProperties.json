@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"breadthFirst:" : "EstebanLorenzano 4/2/2012 11:37",
+		"initializeWithBlock:" : "CamilloBruni 8/9/2011 15:46",
+		"postorder:" : "EstebanLorenzano 4/2/2012 11:38",
+		"preorder:" : "EstebanLorenzano 4/2/2012 11:38",
+		"visit:with:" : "CamilloBruni 8/9/2011 15:46",
+		"visitReference:" : "CamilloBruni 8/9/2011 15:48" } }

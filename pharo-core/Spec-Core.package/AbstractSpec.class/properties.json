@@ -1,0 +1,17 @@
+{
+	"category" : "Spec-Core-Specs",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"instance",
+		"bindings" ],
+	"name" : "AbstractSpec",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

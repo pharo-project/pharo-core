@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"isAbstract" : "ab 7/6/2003 12:45" },
+	"instance" : {
+		"addVersion:" : "ab 8/16/2003 17:46",
+		"addVersionWithSnapshot:name:" : "stephaneducasse 2/4/2006 20:47",
+		"assertMissing:" : "ab 7/19/2003 23:59",
+		"assertVersionInfos:" : "ab 8/16/2003 18:07",
+		"saveSnapshot1" : "ab 7/19/2003 16:20",
+		"saveSnapshot2" : "ab 7/19/2003 16:20",
+		"saveSnapshot:named:" : "stephaneducasse 2/4/2006 20:47",
+		"snapshot1" : "ab 7/10/2003 01:03",
+		"snapshot2" : "ab 7/10/2003 01:03",
+		"snapshotAt:" : "ab 7/7/2003 14:32",
+		"testAddAndLoad" : "stephaneducasse 2/4/2006 20:47",
+		"testIncludesName" : "avi 2/17/2004 03:24",
+		"testLoadMissingNode" : "stephaneducasse 2/4/2006 20:47",
+		"testStoreAndLoad" : "stephaneducasse 2/4/2006 20:47",
+		"versionWithSnapshot:name:" : "stephaneducasse 2/4/2006 20:47" } }

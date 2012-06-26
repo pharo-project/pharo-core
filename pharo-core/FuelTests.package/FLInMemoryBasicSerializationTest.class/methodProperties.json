@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"shouldInheritSelectors" : "MartinDias 3/28/2012 22:49" },
+	"instance" : {
+		"materialization" : "MartinDias 3/28/2012 22:48",
+		"materialized" : "MartinDias 3/28/2012 22:48",
+		"serialize:" : "MartinDias 3/28/2012 22:46",
+		"testConsiderCustomGlobal" : "MartinDias 3/28/2012 22:58",
+		"testStringGlobalsAndClosure" : "MartinDias 3/28/2012 22:56" } }

@@ -1,0 +1,4 @@
+converting
+asSqueakPathName
+
+	^ self.

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"changeKind" : "rw 7/10/2003 12:09",
+		"class:category:oldCategory:" : "rw 7/9/2003 14:21",
+		"method:selector:protocol:class:oldProtocol:" : "HenrikSperreJohansen 10/5/2010 12:30",
+		"supportedKinds" : "rw 7/10/2003 11:20" },
+	"instance" : {
+		"isRecategorized" : "rw 7/1/2003 19:51",
+		"oldCategory" : "rw 7/1/2003 20:08",
+		"oldCategory:" : "rw 7/1/2003 20:08",
+		"printEventKindOn:" : "rw 7/2/2003 09:12" } }

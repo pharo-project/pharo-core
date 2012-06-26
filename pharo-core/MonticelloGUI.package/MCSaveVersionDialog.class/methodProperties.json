@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"accept" : "ab 9/8/2009 08:34",
+		"addAsLastLogMessage:" : "ab 9/8/2009 08:26",
+		"buttonSpecs" : "ab 9/8/2009 08:45",
+		"cancel" : "ab 8/24/2003 20:41",
+		"defaultExtent" : "ab 8/24/2003 20:07",
+		"defaultLabel" : "ab 9/8/2009 08:58",
+		"logMessage" : "ab 8/24/2003 20:41",
+		"logMessage:" : "AlexandreBergel 8/1/2008 12:18",
+		"maxLogMessageHistory" : "ab 9/8/2009 08:25",
+		"oldLogMessages" : "ab 9/8/2009 08:48",
+		"previousMessages" : "ab 9/8/2009 08:16",
+		"setDefaultFocus" : "CamilloBruni 2/4/2012 12:39",
+		"versionName" : "ab 8/24/2003 20:37",
+		"versionName:" : "stephaneducasse 2/4/2006 20:47",
+		"widgetSpecs" : "jrp 7/2/2005 10:33" } }

@@ -1,0 +1,20 @@
+{
+	"category" : "Tools-Inspector",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"contents",
+		"object",
+		"selectionIndex",
+		"timeOfLastListUpdate",
+		"selectionUpdateTime" ],
+	"name" : "Inspector",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Polymorph-Widgets-Themes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "PharoOrangeTheme",
+	"pools" : [
+		 ],
+	"super" : "PharoTheme",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

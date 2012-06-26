@@ -1,0 +1,4 @@
+protocol
+defaultValue
+
+	^ defaultValueHolder contents

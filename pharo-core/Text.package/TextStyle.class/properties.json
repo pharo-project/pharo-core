@@ -1,0 +1,26 @@
+{
+	"category" : "Text-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"fontArray",
+		"lineGrid",
+		"baseline",
+		"alignment",
+		"firstIndent",
+		"restIndent",
+		"rightIndent",
+		"tabsArray",
+		"marginTabsArray",
+		"leading",
+		"defaultFontIndex" ],
+	"name" : "TextStyle",
+	"pools" : [
+		"TextConstants" ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

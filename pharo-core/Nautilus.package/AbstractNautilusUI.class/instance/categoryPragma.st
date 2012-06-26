@@ -1,0 +1,4 @@
+menu pragmas
+categoryPragma
+
+	^'nautilusProtocolMenu'

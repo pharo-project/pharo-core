@@ -1,0 +1,19 @@
+{
+	"category" : "Kernel-BasicObjects",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"Compositions",
+		"Decompositions",
+		"Diacriticals" ],
+	"commentStamp" : "StephaneDucasse 3/27/2010 21:50",
+	"instvars" : [
+		"codes",
+		"combined" ],
+	"name" : "CombinedChar",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

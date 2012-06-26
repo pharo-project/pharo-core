@@ -1,0 +1,3 @@
+private
+connectCommandCode
+	^1

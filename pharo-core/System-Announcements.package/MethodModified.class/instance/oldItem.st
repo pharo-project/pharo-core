@@ -1,0 +1,4 @@
+accessing
+oldItem
+
+	^ event oldItem

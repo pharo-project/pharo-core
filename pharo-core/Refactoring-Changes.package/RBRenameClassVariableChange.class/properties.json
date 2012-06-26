@@ -1,0 +1,16 @@
+{
+	"category" : "Refactoring-Changes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RBRenameClassVariableChange",
+	"pools" : [
+		 ],
+	"super" : "RBRenameVariableChange",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

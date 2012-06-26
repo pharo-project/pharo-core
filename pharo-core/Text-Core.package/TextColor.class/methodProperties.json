@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"black" : "",
+		"blue" : "",
+		"color:" : "",
+		"cyan" : "",
+		"gray" : "ajh 9/10/2002 02:26",
+		"green" : "",
+		"magenta" : "",
+		"red" : "",
+		"scanFrom:" : "sma 3/24/2000 10:49",
+		"white" : "sma 3/24/2000 10:50",
+		"yellow" : "" },
+	"instance" : {
+		"=" : "di 10/31/97 11:19",
+		"color" : "",
+		"color:" : "",
+		"dominates:" : "di 10/31/97 11:20",
+		"emphasizeScanner:" : "",
+		"hash" : "sma 3/24/2000 10:51",
+		"printOn:" : "sma 3/24/2000 10:51",
+		"writeScanOn:" : "nice 1/5/2010 15:59" } }

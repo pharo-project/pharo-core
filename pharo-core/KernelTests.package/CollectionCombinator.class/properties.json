@@ -1,0 +1,18 @@
+{
+	"category" : "KernelTests-Methods",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"resultProcessingBlock",
+		"collectionOfArrays",
+		"buffer" ],
+	"name" : "CollectionCombinator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

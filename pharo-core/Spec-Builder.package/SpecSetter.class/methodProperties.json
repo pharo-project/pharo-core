@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"defaultSpec" : "bvr 6/4/2012 14:54",
+		"title" : "BenjaminVanRyseghem 3/2/2012 23:49" },
+	"instance" : {
+		"addButton" : "BenjaminVanRyseghem 3/2/2012 23:04",
+		"description:" : "BenjaminVanRyseghem 3/30/2012 17:35",
+		"descriptionHolder" : "BenjaminVanRyseghem 3/2/2012 23:04",
+		"editButton" : "BenjaminVanRyseghem 3/29/2012 13:14",
+		"initialize" : "BenjaminVanRyseghem 6/12/2012 19:09",
+		"initializePresenter" : "BenjaminVanRyseghem 6/12/2012 19:06",
+		"initializeWidgets" : "BenjaminVanRyseghem 6/12/2012 19:05",
+		"list" : "BenjaminVanRyseghem 3/2/2012 23:04",
+		"remove" : "BenjaminVanRyseghem 3/29/2012 13:11",
+		"removeButton" : "BenjaminVanRyseghem 3/2/2012 23:04",
+		"toolbar" : "BenjaminVanRyseghem 3/2/2012 23:04" } }

@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"with:name:model:" : "RAA 6/15/2000 18:01" },
+	"instance" : {
+		"asString" : "dgd 8/27/2004 18:45",
+		"balloonText" : "RAA 7/21/2000 11:00",
+		"balloonText:" : "RAA 7/21/2000 11:01",
+		"contents" : "CamilloBruni 2/14/2012 13:03",
+		"directoriesFor:" : "GuillermoPolito 6/22/2012 12:54",
+		"hasContents" : "GuillermoPolito 6/22/2012 12:44",
+		"icon" : "CamilloBruni 8/12/2011 19:10",
+		"setItem:name:model:" : "sps 12/5/2002 16:59",
+		"settingSelector" : "RAA 6/16/2000 18:30" } }

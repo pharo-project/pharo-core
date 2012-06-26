@@ -1,0 +1,16 @@
+{
+	"category" : "AST-Semantic-Scope",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RBVariableScope",
+	"pools" : [
+		 ],
+	"super" : "RBClassScope",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

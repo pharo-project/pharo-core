@@ -1,0 +1,17 @@
+{
+	"category" : "Morphic-Support",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"canvas",
+		"clipRect" ],
+	"name" : "ClippingCanvas",
+	"pools" : [
+		 ],
+	"super" : "PluggableCanvas",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

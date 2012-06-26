@@ -1,0 +1,16 @@
+{
+	"category" : "Tools-Spotlight",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "SpotlightPluggableTextFieldMorph",
+	"pools" : [
+		 ],
+	"super" : "PluggableTextFieldMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

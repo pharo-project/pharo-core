@@ -1,0 +1,21 @@
+{
+	"category" : "System-Changes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"UpdateDownloader" ],
+	"commentStamp" : "StephaneDucasse 9/1/2010 21:59",
+	"instvars" : [
+		"applyChanges",
+		"silent",
+		"upToNumber",
+		"saveLocally",
+		"path",
+		"pharoServer" ],
+	"name" : "UpdateStreamer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

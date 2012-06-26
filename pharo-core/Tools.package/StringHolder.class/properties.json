@@ -1,0 +1,16 @@
+{
+	"category" : "Tools-Base",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"contents" ],
+	"name" : "StringHolder",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

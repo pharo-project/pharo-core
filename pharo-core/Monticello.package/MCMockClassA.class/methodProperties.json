@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"cVar" : "cwp 8/10/2003 02:31",
+		"initializationOrder" : "10/14/2010 15:41",
+		"initialize" : "pavel.krivanek 10/14/2010 16:21",
+		"one" : "ab 7/7/2003 23:21",
+		"touchCVar" : "stephaneducasse 2/4/2006 20:47" },
+	"instance" : {
+		"a" : "",
+		"b" : "",
+		"c" : "",
+		"d" : "",
+		"falsehood" : "cwp 7/13/2003 02:49",
+		"moreTruth" : "ab 7/7/2003 23:21",
+		"one" : "cwp 8/2/2003 17:26",
+		"q" : "avi 9/23/2003 17:14",
+		"truth" : "",
+		"two" : "avi 9/11/2004 15:59" } }

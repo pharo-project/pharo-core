@@ -1,0 +1,3 @@
+private
+isActivePlatform
+	^OSPlatform isUnix

@@ -1,0 +1,1 @@
+An empty class to help people loading their code when it contains sends to  methods of Utilities.

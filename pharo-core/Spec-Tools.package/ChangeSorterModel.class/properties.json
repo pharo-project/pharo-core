@@ -1,0 +1,16 @@
+{
+	"category" : "Spec-Tools-ChangeSorter",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ChangeSorterModel",
+	"pools" : [
+		 ],
+	"super" : "AbstractTool",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

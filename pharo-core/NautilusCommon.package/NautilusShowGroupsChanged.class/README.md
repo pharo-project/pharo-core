@@ -1,0 +1,1 @@
+A NautilusShowGroupsChanged is raised when the value showGroups is switched

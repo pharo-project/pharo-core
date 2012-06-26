@@ -1,0 +1,16 @@
+{
+	"category" : "SUnit-Tests-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FailingTestResourceTestCase",
+	"pools" : [
+		 ],
+	"super" : "SimpleTestResourceTestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

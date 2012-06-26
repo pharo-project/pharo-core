@@ -1,0 +1,16 @@
+{
+	"category" : "Network-Kernel",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "mir 5/12/2003 18:12",
+	"instvars" : [
+		 ],
+	"name" : "ConnectionClosed",
+	"pools" : [
+		 ],
+	"super" : "NetworkError",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

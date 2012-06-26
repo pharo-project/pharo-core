@@ -1,0 +1,17 @@
+{
+	"category" : "KernelTests-Classes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"baseClass",
+		"subClass" ],
+	"name" : "ClassBuilderFormatTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

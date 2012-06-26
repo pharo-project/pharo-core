@@ -1,0 +1,20 @@
+{
+	"category" : "FreeType-Base",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"contoursSize",
+		"pointsSize",
+		"points",
+		"tags",
+		"contours" ],
+	"name" : "FT2Outline",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

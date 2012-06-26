@@ -1,0 +1,16 @@
+{
+	"category" : "Monticello-Chunk Format",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "LaurentLaffont 3/31/2011 21:08",
+	"instvars" : [
+		"stream" ],
+	"name" : "MCScanner",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

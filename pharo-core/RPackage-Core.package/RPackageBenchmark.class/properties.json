@@ -1,0 +1,16 @@
+{
+	"category" : "RPackage-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"OrganizerToBenchmark" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "RPackageBenchmark",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

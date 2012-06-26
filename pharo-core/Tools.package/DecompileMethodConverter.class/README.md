@@ -1,0 +1,1 @@
+A DecompileMessageConverter is a wrapper wich display the decompile source code of the provided message

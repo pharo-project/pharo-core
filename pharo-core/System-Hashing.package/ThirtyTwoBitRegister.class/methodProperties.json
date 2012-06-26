@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"new" : "jm 12/14/1999 16:05" },
+	"instance" : {
+		"+=" : "jm 12/7/1999 15:36",
+		"asByteArray" : "len 8/7/2002 17:37",
+		"asInteger" : "jm 12/14/1999 16:03",
+		"asReverseInteger" : "DSM 1/20/2000 17:17",
+		"bitAnd:" : "jm 12/7/1999 15:41",
+		"bitInvert" : "jm 12/7/1999 15:40",
+		"bitOr:" : "jm 12/7/1999 15:40",
+		"bitShift:" : "RJT 10/28/2005 15:42",
+		"bitXor:" : "jm 12/7/1999 15:38",
+		"byte1:byte2:byte3:byte4:" : "adrian_lienhard 7/21/2009 19:49",
+		"byteAt:" : "len 8/15/2002 01:34",
+		"copy" : "jm 12/7/1999 15:26",
+		"hi" : "jm 12/7/1999 15:26",
+		"leftRotateBy:" : "jm 12/7/1999 23:09",
+		"load:" : "jm 12/14/1999 16:07",
+		"loadFrom:at:" : "jm 12/14/1999 16:07",
+		"low" : "jm 12/7/1999 15:26",
+		"printOn:" : "laza 3/29/2004 12:22",
+		"reverseLoadFrom:at:" : "adrian_lienhard 7/21/2009 19:49",
+		"storeInto:at:" : "len 8/15/2002 01:29" } }

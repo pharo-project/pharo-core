@@ -1,0 +1,4 @@
+accessing
+familyName
+
+	^ ttcDescription name.

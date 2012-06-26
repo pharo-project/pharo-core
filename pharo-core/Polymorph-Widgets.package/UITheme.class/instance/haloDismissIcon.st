@@ -1,0 +1,3 @@
+icons
+haloDismissIcon
+	^ ThemeIcons haloDismissIcon

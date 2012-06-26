@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"clipBy:during:" : "ls 3/27/2000 21:41",
+		"clipRect" : "ls 3/20/2000 21:11",
+		"copyClipRect:" : "ls 3/20/2000 21:26",
+		"extent" : "ls 3/20/2000 21:11",
+		"form" : "ls 3/20/2000 21:12",
+		"origin" : "ls 3/20/2000 21:13",
+		"transformBy:clippingTo:during:smoothing:" : "ls 3/27/2000 21:39",
+		"translateBy:during:" : "ls 3/27/2000 21:40" } }

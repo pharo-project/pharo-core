@@ -1,0 +1,3 @@
+private
+basicIsWritable: association
+	^ true

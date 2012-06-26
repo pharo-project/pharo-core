@@ -1,0 +1,16 @@
+{
+	"category" : "FreeType-Base",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"bytes" ],
+	"name" : "FreeTypeExternalMemory",
+	"pools" : [
+		 ],
+	"super" : "FT2Handle",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

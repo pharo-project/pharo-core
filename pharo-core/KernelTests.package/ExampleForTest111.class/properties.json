@@ -1,0 +1,16 @@
+{
+	"category" : "KernelTests-Classes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ExampleForTest111",
+	"pools" : [
+		 ],
+	"super" : "ExampleForTest11",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

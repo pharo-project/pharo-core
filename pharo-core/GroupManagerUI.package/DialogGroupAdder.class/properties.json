@@ -1,0 +1,17 @@
+{
+	"category" : "GroupManagerUI",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"elementToAdd",
+		"elementsToAdd" ],
+	"name" : "DialogGroupAdder",
+	"pools" : [
+		 ],
+	"super" : "DialogGroupManager",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

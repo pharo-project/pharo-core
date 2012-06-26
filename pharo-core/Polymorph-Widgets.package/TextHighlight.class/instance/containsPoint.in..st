@@ -1,0 +1,10 @@
+as yet unclassified
+containsPoint: aPoint in: rect
+	"Answer whther the bounds contain the given (local coordinate) point."
+
+	|r|
+	r := self bounds.
+	r := self fillWidth
+		ifTrue: [rect left @ r top corner: (rect right @ r bottom)]
+		ifFalse: [r]. 
+	^r containsPoint: aPoint

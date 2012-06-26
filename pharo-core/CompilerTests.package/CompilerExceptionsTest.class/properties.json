@@ -1,0 +1,17 @@
+{
+	"category" : "CompilerTests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"status",
+		"text" ],
+	"name" : "CompilerExceptionsTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,17 @@
+{
+	"category" : "NautilusCommon",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"initialContents",
+		"rotating" ],
+	"name" : "RotatingStringMorph",
+	"pools" : [
+		 ],
+	"super" : "StringMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

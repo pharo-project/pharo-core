@@ -1,0 +1,18 @@
+{
+	"category" : "NECompletion-Model",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "bar 10/5/2005 23:31",
+	"instvars" : [
+		"contents",
+		"type",
+		"description" ],
+	"name" : "NECEntry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

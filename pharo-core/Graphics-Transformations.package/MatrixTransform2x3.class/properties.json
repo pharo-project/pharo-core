@@ -1,0 +1,16 @@
+{
+	"category" : "Graphics-Transformations",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "MatrixTransform2x3",
+	"pools" : [
+		 ],
+	"super" : "DisplayTransform",
+	"traitcomposition" : "{}",
+	"type" : "words" }

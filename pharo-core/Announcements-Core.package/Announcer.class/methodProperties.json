@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"announce:" : "StephaneDucasse 4/24/2011 11:06",
+		"basicSubscribe:" : "IgorStasenko 3/12/2011 20:30",
+		"initialize" : "IgorStasenko 3/12/2011 16:50",
+		"numberOfSubscriptions" : "IgorStasenko 3/12/2011 21:02",
+		"on:do:" : "StephaneDucasse 4/24/2011 12:15",
+		"on:send:to:" : "StephaneDucasse 4/24/2011 12:08",
+		"removeSubscription:" : "StephaneDucasse 4/24/2011 11:09",
+		"replace:with:" : "IgorStasenko 3/22/2011 15:27",
+		"subscribe:do:" : "StephaneDucasse 4/24/2011 12:17",
+		"subscribe:send:to:" : "StephaneDucasse 4/24/2011 12:16",
+		"unsubscribe:" : "StephaneDucasse 4/24/2011 12:15",
+		"weak" : "IgorStasenko 3/12/2011 20:26",
+		"when:do:" : "StephaneDucasse 4/24/2011 12:15" } }

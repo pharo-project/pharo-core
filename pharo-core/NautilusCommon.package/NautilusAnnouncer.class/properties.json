@@ -1,0 +1,16 @@
+{
+	"category" : "NautilusCommon-Announcements",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "NautilusAnnouncer",
+	"pools" : [
+		 ],
+	"super" : "SystemAnnouncer",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+initialization
+startUp
+
+	self clearCompositionWindowManager

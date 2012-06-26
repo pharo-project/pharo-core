@@ -1,0 +1,16 @@
+{
+	"category" : "System-Announcements",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "cyrilledelaunay 1/18/2011 15:03",
+	"instvars" : [
+		 ],
+	"name" : "ClassReorganized",
+	"pools" : [
+		 ],
+	"super" : "SystemAnnouncement",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

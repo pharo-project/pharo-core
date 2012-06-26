@@ -1,0 +1,3 @@
+constants
+movableAlertWindowClass
+	^2

@@ -1,0 +1,1 @@
+Resusable model for a simple single selection list.

@@ -1,0 +1,3 @@
+settings
+checkChangesFileAvailability: aBoolean
+	CheckChangesFileAvailability := aBoolean

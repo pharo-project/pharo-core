@@ -1,0 +1,3 @@
+constants
+floatingWindowClass
+	^5

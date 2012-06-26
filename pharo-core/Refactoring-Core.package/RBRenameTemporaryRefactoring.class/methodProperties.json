@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"model:renameTemporaryFrom:to:in:selector:" : "",
+		"renameTemporaryFrom:to:in:selector:" : "" },
+	"instance" : {
+		"class:selector:interval:newName:" : "",
+		"preconditions" : "",
+		"renameNode:" : "lr 11/2/2009 00:14",
+		"storeOn:" : "",
+		"transform" : "" } }

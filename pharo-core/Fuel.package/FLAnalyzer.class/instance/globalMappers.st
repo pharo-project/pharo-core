@@ -1,0 +1,4 @@
+protected
+globalMappers
+	
+	^globalMappersFactory value

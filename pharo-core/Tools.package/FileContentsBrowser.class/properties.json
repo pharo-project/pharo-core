@@ -1,0 +1,17 @@
+{
+	"category" : "Tools-File Contents Browser",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"packages",
+		"infoString" ],
+	"name" : "FileContentsBrowser",
+	"pools" : [
+		 ],
+	"super" : "Browser",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,18 @@
+{
+	"category" : "Kernel-Pragmas",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "AlainPlantec 11/28/2009 01:09",
+	"instvars" : [
+		"announcer",
+		"collected",
+		"filter" ],
+	"name" : "PragmaCollector",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

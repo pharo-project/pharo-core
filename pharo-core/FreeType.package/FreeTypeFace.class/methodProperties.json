@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"fontPathFor:" : "CamilloBruni 5/4/2012 20:18",
+		"fromBytes:index:" : "tween 3/16/2007 12:44",
+		"fromFile:index:" : "CamilloBruni 5/4/2012 20:21",
+		"rememberFontDir:" : "tween 3/16/2007 12:44" },
+	"instance" : {
+		"actAsExecutor" : "tween 3/16/2007 12:44",
+		"beNull" : "tween 3/16/2007 12:53",
+		"create" : "tween 3/16/2007 12:44",
+		"familyName" : "tween 3/16/2007 12:44",
+		"fileContentsExternalMemory:" : "tween 3/16/2007 12:44",
+		"fileContentsExternalMemoryBytes" : "tween 3/16/2007 12:44",
+		"filename" : "tween 3/16/2007 12:44",
+		"filename:" : "tween 3/16/2007 12:44",
+		"hasFamilyName" : "tween 3/16/2007 12:44",
+		"hasKerning" : "tween 3/31/2007 14:52",
+		"hasStyleName" : "tween 3/16/2007 12:44",
+		"index" : "tween 3/16/2007 12:44",
+		"index:" : "tween 3/16/2007 12:44",
+		"isValid" : "tween 3/31/2007 16:18",
+		"newFaceFromExternalMemory:index:" : "tween 3/17/2007 12:21",
+		"newFaceFromFile:index:" : "tween 3/17/2007 12:19",
+		"primNewFaceFromExternalMemory:size:index:" : "tween 3/16/2007 12:44",
+		"releaseCachedState" : "tween 3/31/2007 16:36",
+		"styleName" : "tween 3/16/2007 12:44",
+		"validate" : "tween 3/16/2007 12:44" } }

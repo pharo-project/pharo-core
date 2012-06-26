@@ -1,0 +1,16 @@
+{
+	"category" : "Polymorph-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "EncryptedTextMorphForFieldView",
+	"pools" : [
+		 ],
+	"super" : "TextMorphForFieldView",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,27 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"categoryNameForTemporaryClasses" : "Janniklaval 10/23/2010 13:35",
+		"deleteClass" : "lr 3/14/2010 21:13",
+		"deleteRenamedClass" : "lr 3/14/2010 21:13",
+		"setUp" : "Janniklaval 10/23/2010 13:35",
+		"tearDown" : "NouryBouraqadi 12/16/2011 15:15",
+		"testAddInstVarName" : "StephaneDucasse 8/27/2010 11:33",
+		"testAllSharedPools" : "StephaneDucasse 12/13/2011 17:04",
+		"testClassVarNames" : "marcus.denker 12/4/2008 11:12",
+		"testCompileAll" : "sd 6/5/2005 08:25",
+		"testHasPoolVarNamed" : "MarianoMartinezPeck 12/16/2011 11:55",
+		"testHasSharedPools" : "StephaneDucasse 12/13/2011 16:13",
+		"testNewSubclass" : "NouryBouraqadi 12/16/2011 15:13",
+		"testOrdersACollectionOfClassesBySuperclass" : "StephaneDucasse 7/17/2010 17:01",
+		"testOrdersMetaClassAfterItsClassInstance" : "SteveFreeman 7/17/2010 14:23",
+		"testPoolVariableAccessibleInClassUser" : "StephaneDucasse 12/13/2011 16:02",
+		"testPoolVariableAccessibleInSubclassOfClassUser" : "StephaneDucasse 12/13/2011 16:03",
+		"testRenaming" : "lr 3/14/2010 21:13",
+		"testSharedPoolOfVarNamed" : "StephaneDucasse 12/13/2011 17:42",
+		"testSharedPools" : "StephaneDucasse 12/13/2011 16:51",
+		"testSubclass" : "Alexandre Bergel 6/3/2010 08:35",
+		"testSubclassInstanceVariableNames" : "AdrianLienhard 11/27/2010 00:31",
+		"testUsesPoolVarNamed" : "StephaneDucasse 12/13/2011 17:17",
+		"unclassifiedCategory" : "NouryBouraqadi 12/16/2011 15:13" } }

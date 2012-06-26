@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testDrawingWayOutside" : "ar 3/8/2003 00:33",
+		"testDrawingWayOutside2" : "ar 3/8/2003 00:33",
+		"testDrawingWayOutside3" : "ar 3/8/2003 00:33",
+		"testDrawingWayOutside4" : "ar 3/8/2003 00:34",
+		"testDrawingWayOutside5" : "ar 3/8/2003 00:34",
+		"testDrawingWayOutside6" : "ar 3/8/2003 00:34",
+		"testFillingWayOutside" : "ar 3/8/2003 00:32",
+		"testFillingWayOutside2" : "ar 3/8/2003 00:32",
+		"testFillingWayOutside3" : "ar 3/8/2003 00:32" } }

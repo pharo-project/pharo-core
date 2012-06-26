@@ -1,0 +1,20 @@
+{
+	"category" : "Morphic-Pluggable Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "KLC 9/17/2004 11:27",
+	"instvars" : [
+		"active",
+		"model",
+		"textSelector",
+		"arcLengths",
+		"subMorph" ],
+	"name" : "PluggableTabButtonMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

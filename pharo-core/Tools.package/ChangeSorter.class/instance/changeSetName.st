@@ -1,0 +1,3 @@
+access
+changeSetName
+	^ myChangeSet name

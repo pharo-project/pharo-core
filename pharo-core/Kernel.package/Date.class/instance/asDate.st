@@ -1,0 +1,4 @@
+squeak protocol
+asDate
+
+	^ self

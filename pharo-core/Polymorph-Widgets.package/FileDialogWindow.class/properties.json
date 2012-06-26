@@ -1,0 +1,31 @@
+{
+	"category" : "Polymorph-Widgets-Windows",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "gvc 5/18/2007 13:10",
+	"instvars" : [
+		"directoryTreeMorph",
+		"fileListMorph",
+		"directories",
+		"selectedDirectory",
+		"selectedFileIndex",
+		"fileSelectionBlock",
+		"showDirectoriesInFileList",
+		"fileSortBlock",
+		"fileNameText",
+		"defaultExtension",
+		"actionSelector",
+		"answer",
+		"entryCache",
+		"entryCacheDirectory",
+		"previewType",
+		"previewMorph" ],
+	"name" : "FileDialogWindow",
+	"pools" : [
+		 ],
+	"super" : "DialogWindow",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

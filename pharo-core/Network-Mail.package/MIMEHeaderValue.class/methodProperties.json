@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"forField:fromString:" : "mdr 4/11/2001 12:19",
+		"fromMIMEHeader:" : "SvenVanCaekenberghe 1/8/2012 14:45",
+		"fromTraditionalHeader:" : "mdr 4/11/2001 12:02" },
+	"instance" : {
+		"asHeaderValue" : "PeterHugossonMiller 9/3/2009 10:01",
+		"mainValue" : "dvf 4/27/2000 18:55",
+		"mainValue:" : "dvf 4/27/2000 18:13",
+		"parameterAt:put:" : "ls 2/10/2001 13:06",
+		"parameters" : "dvf 4/27/2000 18:18",
+		"parameters:" : "dvf 4/27/2000 18:11",
+		"printOn:" : "ls 2/10/2001 12:37" } }

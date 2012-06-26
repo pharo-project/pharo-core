@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"backChunk" : "PeterHugossonMiller 9/3/2009 10:20",
+		"basicNextChunk" : "PeterHugossonMiller 9/3/2009 10:43",
+		"checkForPreamble:" : "sd 5/23/2003 14:40",
+		"copyMethodChunkFrom:" : "StephaneDucasse 9/12/2010 09:45",
+		"copyMethodChunkFrom:at:" : "StephaneDucasse 9/12/2010 09:45",
+		"copyPreamble:from:at:" : "SergeStinckwich 7/31/2009 15:25",
+		"decodeString:andRuns:" : "ar 4/12/2005 17:34",
+		"fileInFor:announcing:" : "SeanDeNigris 6/21/2012 08:39",
+		"header" : "",
+		"nextChunk" : "PeterHugossonMiller 9/3/2009 10:43",
+		"nextChunkText" : "sumim 11/20/2003 18:13",
+		"parseLangTagFor:" : "sumim 11/20/2003 18:11",
+		"skipSeparators" : "di 6/13/97 12:00",
+		"skipSeparatorsAndPeekNext" : "di 1/13/98 16:08",
+		"skipStyleChunk" : "tk 12/29/97 12:37",
+		"trailer" : "",
+		"verbatim:" : "" } }

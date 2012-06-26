@@ -1,0 +1,16 @@
+{
+	"category" : "FileSystem-Core-Implementation",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "UnixResolver",
+	"pools" : [
+		 ],
+	"super" : "PlatformResolver",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

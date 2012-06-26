@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "on 5/10/2008 13:31",
+		"tearDown" : "on 5/10/2008 13:21",
+		"testInitiallyEmpty" : "MiguelCoba 7/25/2009 02:45",
+		"testUniqueness" : "on 5/10/2008 13:35" } }

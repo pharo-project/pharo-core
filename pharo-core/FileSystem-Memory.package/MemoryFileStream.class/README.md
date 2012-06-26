@@ -1,0 +1,1 @@
+I am a legacy-compatibility stream. I am protocol compatible with StandardFileStream, but I operate on an in-memory file in a MemoryFilesystem.

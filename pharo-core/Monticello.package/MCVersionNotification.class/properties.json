@@ -1,0 +1,19 @@
+{
+	"category" : "Monticello-Repositories",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"version",
+		"ancestor",
+		"repository",
+		"changes" ],
+	"name" : "MCVersionNotification",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

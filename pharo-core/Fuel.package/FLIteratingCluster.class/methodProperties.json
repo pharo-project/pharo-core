@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"add:traceWith:" : "MartinDias 10/13/2011 16:26",
+		"clusterMaterializeStepWith:" : "MartinDias 2/17/2012 03:14",
+		"clusterSerializeStepWith:" : "MartinDias 2/17/2012 03:13",
+		"initializeAnalyzing" : "MartinDias 1/8/2012 14:32",
+		"materializeInstanceWith:" : "MartinDias 12/29/2011 19:48",
+		"materializeInstancesStepWith:" : "MartinDias 2/17/2012 03:01",
+		"newAnalyzingCollection" : "MarianoMartinezPeck 4/20/2012 23:31",
+		"objects" : "MartinDias 8/29/2011 00:59",
+		"printNameOn:" : "MartinDias 8/29/2011 01:16",
+		"printOn:" : "MartinDias 8/29/2011 00:52",
+		"referencesOf:do:" : "MartinDias 8/29/2011 00:56",
+		"registerIndexesOn:" : "MartinDias 8/29/2011 01:22",
+		"serializeInstance:with:" : "MartinDias 12/30/2011 13:37",
+		"serializeInstancesStepWith:" : "MartinDias 2/17/2012 03:03" } }

@@ -1,0 +1,4 @@
+*Nautilus
+graphicalMorph
+
+		^ graphicalMorph

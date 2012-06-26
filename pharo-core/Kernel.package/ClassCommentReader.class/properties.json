@@ -1,0 +1,16 @@
+{
+	"category" : "Kernel-Classes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ClassCommentReader",
+	"pools" : [
+		 ],
+	"super" : "ClassCategoryReader",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

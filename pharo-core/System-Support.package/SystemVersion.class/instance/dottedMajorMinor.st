@@ -1,0 +1,11 @@
+accessing
+dottedMajorMinor
+	"Return the major/minor version number of the form X.Y, without any 'alpha' or 'beta' or other suffix. 
+	If the receiver needs upgrading, do it. Remove the guard in 1.3."
+	"SystemVersion current majorMinor"
+	
+	self upgrade.
+	^String streamContents: [:str |
+		str 
+			nextPutAll: self major printString; nextPut: $.;
+			nextPutAll: self minor printString]

@@ -1,0 +1,19 @@
+{
+	"category" : "KernelTests-Methods",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "tlk 5/31/2004 16:07",
+	"instvars" : [
+		"aCompiledMethod",
+		"aReceiver",
+		"aMethodContext",
+		"aSender" ],
+	"name" : "MethodContextTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

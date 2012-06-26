@@ -1,0 +1,20 @@
+{
+	"category" : "Kernel-Methods",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"data",
+		"encodedData",
+		"kind",
+		"size",
+		"method" ],
+	"name" : "CompiledMethodTrailer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

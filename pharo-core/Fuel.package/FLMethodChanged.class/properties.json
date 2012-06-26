@@ -1,0 +1,16 @@
+{
+	"category" : "Fuel-Errors",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "FLMethodChanged",
+	"pools" : [
+		 ],
+	"super" : "FLMaterializationError",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

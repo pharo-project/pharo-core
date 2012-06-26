@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"model:split:from:in:" : "",
+		"split:from:in:" : "" },
+	"instance" : {
+		"extractReceiver" : "",
+		"findAncestorNode" : "",
+		"findCascadeNode" : "",
+		"findMessageNodes" : "",
+		"parseTree" : "",
+		"preconditions" : "",
+		"split:from:in:" : "",
+		"splitCascade" : "",
+		"transform" : "" } }

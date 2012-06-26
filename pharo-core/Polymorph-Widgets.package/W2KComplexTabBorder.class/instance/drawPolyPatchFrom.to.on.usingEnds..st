@@ -1,0 +1,2 @@
+drawing
+drawPolyPatchFrom: startPoint to: stopPoint on: aCanvas usingEnds: endsArray

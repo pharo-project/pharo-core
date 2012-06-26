@@ -1,0 +1,18 @@
+{
+	"category" : "System-Changes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"changeType",
+		"currentMethod",
+		"infoFromRemoval" ],
+	"name" : "MethodChangeRecord",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

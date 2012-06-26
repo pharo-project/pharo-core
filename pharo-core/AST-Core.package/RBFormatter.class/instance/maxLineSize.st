@@ -1,0 +1,3 @@
+private
+maxLineSize
+	^75

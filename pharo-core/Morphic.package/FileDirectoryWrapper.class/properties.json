@@ -1,0 +1,18 @@
+{
+	"category" : "Morphic-Explorer",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"itemName",
+		"balloonText",
+		"hasContents" ],
+	"name" : "FileDirectoryWrapper",
+	"pools" : [
+		 ],
+	"super" : "ListItemWrapper",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

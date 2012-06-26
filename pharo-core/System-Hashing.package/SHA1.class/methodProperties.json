@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"blockSize" : "rww 9/22/2006 19:25",
+		"hashSize" : "len 8/15/2002 01:45",
+		"initialize" : "StephaneDucasse 10/17/2009 17:15" },
+	"instance" : {
+		"constantForStep:" : "jm 12/7/1999 23:25",
+		"expandedBlock:" : "StephaneDucasse 10/17/2009 17:15",
+		"finalHash" : "StephaneDucasse 10/17/2009 17:15",
+		"hashFunction:of:with:with:" : "jm 12/7/1999 22:15",
+		"hashInteger:" : "StephaneDucasse 10/17/2009 17:15",
+		"hashInteger:seed:" : "StephaneDucasse 10/17/2009 17:15",
+		"hashStream:" : "StephaneDucasse 10/17/2009 17:15",
+		"initializeTotals" : "StephaneDucasse 10/17/2009 17:15",
+		"initializeTotalsArray" : "StephaneDucasse 10/17/2009 17:15",
+		"primExpandBlock:into:" : "jm 12/21/1999 20:11",
+		"primHasSecureHashPrimitive" : "jm 12/21/1999 22:58",
+		"primHashBlock:using:" : "jm 12/21/1999 20:13",
+		"processBuffer:" : "StephaneDucasse 10/17/2009 17:15",
+		"processBufferUsingPrimitives:" : "StephaneDucasse 10/17/2009 17:15",
+		"processFinalBuffer:bitLength:" : "StephaneDucasse 10/17/2009 17:15",
+		"storeLength:in:" : "StephaneDucasse 10/17/2009 17:15" } }

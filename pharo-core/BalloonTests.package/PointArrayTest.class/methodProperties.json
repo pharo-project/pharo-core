@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "hjo 1/15/2011 19:54",
+		"testAt" : "hjo 1/17/2011 10:13",
+		"testAtPut" : "hjo 1/17/2011 10:14",
+		"testAtPutFloat" : "hjo 1/17/2011 11:54",
+		"testAtPutFraction" : "hjo 1/17/2011 11:56",
+		"testAtPutInt4" : "hjo 1/17/2011 12:05",
+		"testAtPutLargeInteger" : "hjo 1/17/2011 11:59",
+		"testBounds" : "hjo 1/17/2011 10:15",
+		"testDefaultElement" : "hjo 1/17/2011 10:15",
+		"testSize" : "hjo 1/17/2011 10:16" } }

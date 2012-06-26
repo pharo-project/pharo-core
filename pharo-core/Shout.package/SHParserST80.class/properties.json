@@ -1,0 +1,30 @@
+{
+	"category" : "Shout-Parsing",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "StephaneDucasse 11/29/2011 22:27",
+	"instvars" : [
+		"classOrMetaClass",
+		"source",
+		"workspace",
+		"arguments",
+		"sourcePosition",
+		"currentToken",
+		"currentTokenFirst",
+		"temporaries",
+		"instanceVariables",
+		"errorBlock",
+		"currentTokenSourcePosition",
+		"blockDepth",
+		"bracketDepth",
+		"ranges",
+		"environment" ],
+	"name" : "SHParserST80",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

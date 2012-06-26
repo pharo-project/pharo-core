@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"element" : "stephane.ducasse 1/19/2009 16:18",
+		"elementNotIn" : "stephane.ducasse 1/19/2009 16:20",
+		"empty" : "stephane.ducasse 1/19/2009 16:20",
+		"nonEmpty" : "damiencassou 1/20/2009 10:41",
+		"test0FixtureRequirementsOfTGrowableTest" : "cyrille.delaunay 3/20/2009 14:24",
+		"testAddEmptyGrows" : "cyrille.delaunay 3/20/2009 09:47",
+		"testAddNonEmptyGrowsWhenNewElement" : "delaunay 5/12/2009 14:49" } }

@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"checkUntypedVariablesOnly:" : "",
+		"createContextFor:at:" : "",
+		"testBlockTemporaries" : "",
+		"testBlockTemporariesBoxed" : "",
+		"testCompletionToken" : "",
+		"testCompletionTokenEmpty" : "",
+		"testCreateModel" : "",
+		"testEmpty" : "",
+		"testInTheMiddelOfAWord" : "",
+		"testReceiverArgument" : "",
+		"testReceiverCascade" : "",
+		"testReceiverClassVar" : "",
+		"testReceiverConstant" : "",
+		"testReceiverGlobal" : "",
+		"testReceiverGlobalVarNew" : "",
+		"testReceiverTempVar" : "",
+		"testReceiverTempVar2" : "",
+		"testTemporaries" : "",
+		"testUnfinishedString" : "",
+		"testUntypedSelectorsOnly" : "",
+		"testUntypedVarsOnly" : "" } }

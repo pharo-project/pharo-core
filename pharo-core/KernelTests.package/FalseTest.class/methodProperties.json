@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAND" : "FabrizioPerin 3/13/2010 15:23",
+		"testAnd" : "FabrizioPerin 3/13/2010 15:23",
+		"testAsBit" : "StephaneDucasse 2/2/2010 13:49",
+		"testIfFalse" : "sd 6/5/2005 09:03",
+		"testIfFalseIfTrue" : "sd 6/5/2005 09:03",
+		"testIfTrue" : "GabrielOmarCotelli 5/25/2010 21:22",
+		"testIfTrueIfFalse" : "sd 6/5/2005 09:03",
+		"testNew" : "StephaneDucasse 6/9/2012 22:58",
+		"testNot" : "StephaneDucasse 3/5/2010 15:32",
+		"testOR" : "FabrizioPerin 3/13/2010 15:24",
+		"testOr" : "sd 6/5/2005 09:04",
+		"testPrintOn" : "sd 6/5/2005 09:04",
+		"testXor" : "Md 11/18/2010 18:49" } }

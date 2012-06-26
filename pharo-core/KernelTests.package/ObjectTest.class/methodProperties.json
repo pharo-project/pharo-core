@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"a" : "md 10/15/2004 13:45",
+		"a1" : "md 10/15/2004 13:46",
+		"b" : "md 10/15/2004 13:45",
+		"b1" : "md 10/15/2004 13:46",
+		"shouldHaltAfter:times:" : "SeanDeNigris 8/28/2011 17:22",
+		"shouldHaltWhen:" : "SeanDeNigris 8/28/2011 17:18",
+		"shouldntHaltAfter:times:" : "SeanDeNigris 8/28/2011 17:23",
+		"shouldntHaltWhen:" : "SeanDeNigris 8/28/2011 17:18",
+		"testBecome" : "md 11/26/2004 16:37",
+		"testBecomeForward" : "md 11/26/2004 16:36",
+		"testHaltIf" : "SeanDeNigris 8/29/2011 18:04",
+		"testHaltOnCount" : "SeanDeNigris 8/29/2011 18:05",
+		"testHaltOnce" : "SeanDeNigris 8/29/2011 15:45" } }

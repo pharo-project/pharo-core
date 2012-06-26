@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"icon" : "gvc 5/18/2007 10:27",
+		"initialize" : "gvc 1/12/2007 14:35",
+		"list" : "gvc 1/12/2007 14:15",
+		"list:" : "gvc 1/12/2007 15:21",
+		"listMorph" : "gvc 1/12/2007 14:17",
+		"listMorph:" : "gvc 1/12/2007 14:17",
+		"newContentMorph" : "gvc 8/29/2007 13:32",
+		"newListMorph" : "gvc 1/12/2007 14:17",
+		"selectedItem" : "gvc 1/12/2007 14:22",
+		"selectionIndex" : "gvc 1/12/2007 14:15" } }

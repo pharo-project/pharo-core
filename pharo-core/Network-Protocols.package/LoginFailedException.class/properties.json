@@ -1,0 +1,16 @@
+{
+	"category" : "Network-Protocols",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "mir 5/12/2003 17:57",
+	"instvars" : [
+		 ],
+	"name" : "LoginFailedException",
+	"pools" : [
+		 ],
+	"super" : "ProtocolClientError",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

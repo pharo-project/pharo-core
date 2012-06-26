@@ -1,0 +1,3 @@
+traits
+hasTraitComposition
+	self explicitRequirement

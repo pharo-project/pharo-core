@@ -1,0 +1,4 @@
+public
+depth
+
+	^ 32.

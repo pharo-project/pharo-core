@@ -1,0 +1,16 @@
+{
+	"category" : "Graphics-Tests-Primitives",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ColorTest",
+	"pools" : [
+		 ],
+	"super" : "ClassTestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

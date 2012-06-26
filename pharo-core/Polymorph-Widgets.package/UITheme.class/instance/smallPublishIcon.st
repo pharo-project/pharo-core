@@ -1,0 +1,3 @@
+icons
+smallPublishIcon
+	^ ThemeIcons smallPublishIcon

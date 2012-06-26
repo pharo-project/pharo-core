@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"model:renameMethod:in:to:permutation:" : "md 3/15/2006 17:29",
+		"renameMethod:in:to:permutation:" : "md 3/15/2006 17:26" },
+	"instance" : {
+		"hasPermutedArguments" : "",
+		"implementorsCanBePrimitives" : "",
+		"myConditions" : "",
+		"parseTreeRewriter" : "lr 11/2/2009 00:14",
+		"preconditions" : "",
+		"storeOn:" : "lr 3/9/2010 16:09" } }

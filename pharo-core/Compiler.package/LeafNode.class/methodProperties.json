@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"analyseTempsWithin:rootNode:assignmentPools:" : "eem 6/16/2008 09:32",
+		"code" : "ab 7/6/2004 17:39",
+		"code:type:" : "",
+		"emitCodeForEffect:encoder:" : "eem 5/14/2008 14:52",
+		"emitCodeForLoad:encoder:" : "eem 5/20/2008 15:25",
+		"key" : "",
+		"key:code:" : "ar 3/26/2004 15:44",
+		"key:index:type:" : "eem 5/14/2008 15:56",
+		"name:key:code:" : "ar 3/26/2004 15:44",
+		"reserve:" : "eem 5/14/2008 15:57",
+		"sizeCodeForEffect:" : "eem 5/14/2008 14:52",
+		"sizeCodeForLoad:" : "eem 5/20/2008 15:24",
+		"sizeCodeForValue:" : "eem 5/19/2008 15:10",
+		"veryDeepFixupWith:" : "eem 5/14/2008 11:25",
+		"veryDeepInner:" : "eem 7/12/2008 17:24" } }

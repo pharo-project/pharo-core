@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testANewRunArrayIsEmpty" : "zz 7/2/2008 16:18",
+		"testAt" : "dc 2/15/2007 10:25",
+		"testAtPut" : "nice 10/31/2011 20:31",
+		"testAtPut2" : "dc 2/15/2007 10:29",
+		"testFirst" : "dc 2/12/2007 09:49",
+		"testIsSelfEvaluating" : "jb 7/1/2011 10:54",
+		"testLast" : "dc 2/12/2007 09:49",
+		"testNew" : "dc 2/12/2007 09:22",
+		"testNewFrom" : "nice 10/31/2011 20:32",
+		"testNewWithAll" : "nice 10/31/2011 20:32",
+		"testNewWithSize" : "dc 5/24/2007 10:56",
+		"testRunLengthAt" : "dc 2/12/2007 09:58",
+		"testRunsValues" : "nice 10/31/2011 20:32",
+		"testScanFromANSICompatibility" : "damiencassou 5/30/2008 14:26",
+		"testWithStartStopAndValueDo" : "dc 2/12/2007 10:12" } }

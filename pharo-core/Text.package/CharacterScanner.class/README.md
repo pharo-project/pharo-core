@@ -1,0 +1,1 @@
+My instances hold the state associated with scanning text. My subclasses scan characters for specified purposes, such as computing a CharacterBlock or placing characters into Forms.

@@ -1,0 +1,4 @@
+subencodings
+isTraditionalChinese: code
+
+	^ false.

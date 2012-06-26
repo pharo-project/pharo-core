@@ -1,0 +1,5 @@
+*RPackage-SystemIntegration
+registerInterestToSystemAnnouncement
+	"self registerInterestToSystemAnnouncement"
+
+	self registerInterestToAnnouncer: self announcer

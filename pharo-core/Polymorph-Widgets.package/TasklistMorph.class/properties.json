@@ -1,0 +1,19 @@
+{
+	"category" : "Polymorph-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"KeepOpen",
+		"UseHistoricalShortcuts" ],
+	"commentStamp" : "gvc 5/18/2007 11:19",
+	"instvars" : [
+		"tasks",
+		"taskList",
+		"preview" ],
+	"name" : "TasklistMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

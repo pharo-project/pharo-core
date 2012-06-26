@@ -1,0 +1,17 @@
+{
+	"category" : "Monticello-Versioning",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"suggestion",
+		"suggestedLogComment" ],
+	"name" : "MCVersionNameAndMessageRequest",
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+converting
+complexContents
+
+	^self

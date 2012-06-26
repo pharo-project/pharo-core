@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"model:variable:class:classVariable:" : "",
+		"variable:class:classVariable:" : "" },
+	"instance" : {
+		"classVariable:" : "",
+		"createGetterAccessor" : "",
+		"createSetterAccessor" : "",
+		"defineGetterMethod" : "dc 4/4/2007 16:41",
+		"defineSetterMethod" : "dc 4/4/2007 16:41",
+		"definingClass" : "lr 10/26/2009 22:09",
+		"findGetterMethod" : "lr 11/2/2009 00:14",
+		"findSetterMethod" : "lr 11/2/2009 00:14",
+		"getterMethod" : "",
+		"methodsReferencingVariable" : "",
+		"needsReturnForSetter" : "",
+		"possibleGetterSelectors" : "",
+		"possibleSetterSelectors" : "",
+		"preconditions" : "",
+		"setterMethod" : "",
+		"storeOn:" : "",
+		"transform" : "",
+		"usesAssignmentOf:in:classVariable:" : "lr 11/2/2009 00:14" } }

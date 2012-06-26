@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"resolveConflictsInMerger:" : "stephaneducasse 2/4/2006 20:47" },
+	"instance" : {
+		"buttonSpecs" : "nk 10/21/2003 23:35",
+		"canMerge" : "ab 7/22/2003 00:51",
+		"cancel" : "ab 7/18/2003 17:52",
+		"clearChoice" : "ab 7/18/2003 18:41",
+		"conflictSelectionDo:" : "ab 7/18/2003 18:42",
+		"defaultLabel" : "ab 7/19/2003 21:31",
+		"getConflictMenu:" : "tbn 7/6/2010 17:02",
+		"getMenu:" : "ab 7/18/2003 18:07",
+		"getOperationMenu:" : "ab 7/18/2003 16:37",
+		"innerButtonRow" : "ab 7/22/2003 00:49",
+		"items" : "ab 7/18/2003 16:32",
+		"merge" : "ab 7/18/2003 17:52",
+		"merger:" : "GuillermoPolito 9/4/2010 20:38",
+		"selectionIsConflicted" : "CamilloBruni 8/4/2011 15:10",
+		"widgetSpecs" : "AlainPlantec 12/1/2009 21:46" } }

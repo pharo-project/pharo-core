@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"drawLineFrom:to:on:" : "SS 1/1/2009 01:51",
+		"frameOval:on:" : "SS 1/1/2009 02:17",
+		"framePolygon:on:" : "SS 1/1/2009 02:17",
+		"framePolyline:on:" : "SS 1/1/2009 02:19",
+		"frameRectangle:on:" : "SS 1/1/2009 03:09",
+		"width" : "SS 1/1/2009 03:32" } }

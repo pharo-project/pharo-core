@@ -1,0 +1,17 @@
+{
+	"category" : "Refactoring-Core-Refactorings",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"initializer",
+		"senders" ],
+	"name" : "RBAddParameterRefactoring",
+	"pools" : [
+		 ],
+	"super" : "RBChangeMethodNameRefactoring",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

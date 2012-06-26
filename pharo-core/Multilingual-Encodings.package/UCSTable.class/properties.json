@@ -1,0 +1,19 @@
+{
+	"category" : "Multilingual-Encodings",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"GB2312Table",
+		"JISX0208Table",
+		"KSX1001Table",
+		"Latin1Table" ],
+	"commentStamp" : "yo 10/19/2004 19:54",
+	"instvars" : [
+		 ],
+	"name" : "UCSTable",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "GabrielBarbuto 11/30/2010 11:25",
+		"testCopy" : "GabrielBarbuto 11/30/2010 11:26",
+		"testEqual" : "GabrielBarbuto 11/30/2010 11:26",
+		"testHash" : "GabrielBarbuto 11/30/2010 11:26" } }

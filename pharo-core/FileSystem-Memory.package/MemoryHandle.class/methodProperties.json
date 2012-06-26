@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"at:" : "cwp 7/29/2009 22:07",
+		"at:put:" : "lr 4/13/2010 16:12",
+		"at:read:startingAt:count:" : "lr 2/15/2010 20:54",
+		"at:write:startingAt:count:" : "cwp 1/31/2010 22:39",
+		"close" : "cwp 7/28/2009 23:10",
+		"flush" : "cwp 7/29/2009 22:23",
+		"grow" : "cwp 1/31/2010 22:45",
+		"growTo:" : "EstebanLorenzano 4/3/2012 13:01",
+		"isOpen" : "cwp 7/26/2009 14:08",
+		"open" : "CamilloBruni 1/20/2012 13:22",
+		"size" : "cwp 7/26/2009 14:27",
+		"sizeIncrement" : "cwp 1/31/2010 22:40",
+		"truncateTo:" : "EstebanLorenzano 4/3/2012 13:01" } }

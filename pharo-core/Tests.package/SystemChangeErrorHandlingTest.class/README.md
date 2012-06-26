@@ -1,0 +1,1 @@
+This class tests the error handing of the notification mechanism to ensure that one client that receives a system change cannot lock up the complete system."

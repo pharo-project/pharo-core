@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:orders:as:" : "cwp 11/7/2004 14:32",
+		"assert:orders:as:unresolved:" : "md 9/6/2005 18:41",
+		"dependencyFromTree:" : "cwp 11/7/2004 12:29",
+		"setUp" : "stephaneducasse 2/4/2006 20:47",
+		"testAllAvailablePostOrder" : "cwp 11/7/2004 14:53",
+		"testAllMissing" : "cwp 11/7/2004 14:50",
+		"testAllUnresolved" : "cwp 11/7/2004 14:47",
+		"testDependencyOrder" : "cwp 11/7/2004 13:55",
+		"testPostOrder" : "cwp 11/7/2004 14:25",
+		"testWithAll" : "cwp 11/7/2004 14:22",
+		"testWithAllMissing" : "cwp 11/7/2004 14:56",
+		"testWithAllUnresolved" : "cwp 11/7/2004 14:29",
+		"versionFromTree:" : "cwp 11/7/2004 12:40" } }

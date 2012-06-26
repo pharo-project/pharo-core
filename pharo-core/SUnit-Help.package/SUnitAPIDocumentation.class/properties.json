@@ -1,0 +1,16 @@
+{
+	"category" : "SUnit-Help",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SUnitAPIDocumentation",
+	"pools" : [
+		 ],
+	"super" : "SUnitHelp",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAllCurrentPackagesContainScriptLoader" : "StephaneDucasse 6/12/2010 15:09",
+		"testAllCurrentVersionsContainsScriptLoader" : "StephaneDucasse 6/12/2010 15:09",
+		"testCurrentPackagesDoesNotContainScriptLoader" : "StephaneDucasse 6/12/2010 15:09",
+		"testMarkPackageBeforeLoad" : "adrian_lienhard 3/16/2009 21:34" } }

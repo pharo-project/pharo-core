@@ -1,0 +1,4 @@
+tree
+getMethodReference: aMessageListInspectableNode
+
+	^aMessageListInspectableNode item.

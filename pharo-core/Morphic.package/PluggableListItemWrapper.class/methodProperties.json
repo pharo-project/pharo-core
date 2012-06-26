@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"asString" : "ar 10/11/2003 23:39",
+		"contents" : "ar 10/11/2003 21:48",
+		"getContentsSelector" : "ar 10/11/2003 21:49",
+		"getContentsSelector:" : "ar 10/11/2003 21:50",
+		"getStringSelector" : "ar 10/11/2003 21:48",
+		"getStringSelector:" : "ar 10/11/2003 21:49",
+		"hasContents" : "ar 10/11/2003 21:53",
+		"hasContentsSelector" : "ar 10/11/2003 21:49",
+		"hasContentsSelector:" : "ar 10/11/2003 21:49",
+		"printOn:" : "ar 10/11/2003 23:21",
+		"sendToModel:" : "ar 10/11/2003 21:47",
+		"string" : "ar 10/11/2003 23:39",
+		"string:" : "ar 10/11/2003 23:39",
+		"validateSelector:" : "ar 10/11/2003 21:50" } }

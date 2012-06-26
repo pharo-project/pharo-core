@@ -1,0 +1,4 @@
+protocol
+beReadOnly
+
+	readOnly := true

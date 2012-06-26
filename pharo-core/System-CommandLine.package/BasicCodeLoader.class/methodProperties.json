@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"commandName" : "CamilloBruni 5/2/2012 11:35",
+		"description" : "CamilloBruni 5/3/2012 14:14",
+		"isResponsibleFor:" : "CamilloBruni 5/2/2012 11:31" },
+	"instance" : {
+		"activate" : "CamilloBruni 5/2/2012 14:17",
+		"handleError:" : "CamilloBruni 4/28/2012 21:48",
+		"handleError:reference:" : "EstebanLorenzano 4/4/2012 10:38",
+		"handleErrorsDuring:reference:" : "CamilloBruni 6/14/2012 23:15",
+		"installSourceFile:" : "CamilloBruni 6/14/2012 23:29",
+		"installSourceFiles" : "EstebanLorenzano 4/4/2012 10:31",
+		"loadSourceFiles:" : "CamilloBruni 5/1/2012 20:51" } }

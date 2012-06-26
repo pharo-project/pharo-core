@@ -1,0 +1,1 @@
+I implement (more or less) the ANSI <FileReadStream> protocol. I provide methods for reading data from a file. 

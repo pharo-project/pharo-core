@@ -1,0 +1,16 @@
+{
+	"category" : "Tests-Digital Signatures",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"hash" ],
+	"name" : "SecureHashAlgorithmTest",
+	"pools" : [
+		 ],
+	"super" : "ClassTestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

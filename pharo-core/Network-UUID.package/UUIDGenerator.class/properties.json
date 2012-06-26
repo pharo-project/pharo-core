@@ -1,0 +1,24 @@
+{
+	"category" : "Network-UUID",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"Default" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"timeLow",
+		"timeMid",
+		"timeHiAndVersion",
+		"clockSeqHiAndReserved",
+		"clockSeqLow",
+		"node",
+		"randomCounter",
+		"randomGenerator",
+		"semaphoreForGenerator" ],
+	"name" : "UUIDGenerator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

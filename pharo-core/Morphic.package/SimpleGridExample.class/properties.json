@@ -1,0 +1,16 @@
+{
+	"category" : "Morphic-MorphTreeWidget-Examples",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "AlainPlantec 2/1/2010 11:58",
+	"instvars" : [
+		 ],
+	"name" : "SimpleGridExample",
+	"pools" : [
+		 ],
+	"super" : "MorphTreeModel",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

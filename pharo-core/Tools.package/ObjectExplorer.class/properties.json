@@ -1,0 +1,19 @@
+{
+	"category" : "Tools-Explorer",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"ShowIcons" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"rootObject",
+		"inspector",
+		"monitorList",
+		"currentSelection" ],
+	"name" : "ObjectExplorer",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

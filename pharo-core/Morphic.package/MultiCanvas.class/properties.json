@@ -1,0 +1,18 @@
+{
+	"category" : "Morphic-Support",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"canvases",
+		"extent",
+		"depth" ],
+	"name" : "MultiCanvas",
+	"pools" : [
+		 ],
+	"super" : "PluggableCanvas",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

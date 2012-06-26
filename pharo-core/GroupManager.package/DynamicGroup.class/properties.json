@@ -1,0 +1,16 @@
+{
+	"category" : "GroupManager",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"blocks" ],
+	"name" : "DynamicGroup",
+	"pools" : [
+		 ],
+	"super" : "AbstractGroup",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

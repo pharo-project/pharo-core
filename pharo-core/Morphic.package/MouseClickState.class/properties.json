@@ -1,0 +1,26 @@
+{
+	"category" : "Morphic-Kernel",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"clickClient",
+		"clickState",
+		"firstClickDown",
+		"firstClickUp",
+		"firstClickTime",
+		"clickSelector",
+		"dblClickSelector",
+		"dblClickTime",
+		"dblClickTimeoutSelector",
+		"dragSelector",
+		"dragThreshold" ],
+	"name" : "MouseClickState",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

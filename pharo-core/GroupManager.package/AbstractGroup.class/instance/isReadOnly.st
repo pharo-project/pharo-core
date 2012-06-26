@@ -1,0 +1,4 @@
+protocol
+isReadOnly
+
+	^ readOnly == true

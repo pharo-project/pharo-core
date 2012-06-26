@@ -1,0 +1,16 @@
+{
+	"category" : "Tools-Inspector",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "SetInspector",
+	"pools" : [
+		 ],
+	"super" : "Inspector",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

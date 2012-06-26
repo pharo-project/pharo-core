@@ -1,0 +1,16 @@
+{
+	"category" : "Files-Directories",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "DosFileDirectory",
+	"pools" : [
+		 ],
+	"super" : "FileDirectory",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

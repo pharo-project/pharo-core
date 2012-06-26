@@ -1,0 +1,18 @@
+{
+	"category" : "Graphics-External-Ffenestri",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"windowProxy",
+		"title",
+		"windowType" ],
+	"name" : "DisplayHostWindow",
+	"pools" : [
+		 ],
+	"super" : "DisplayScreen",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

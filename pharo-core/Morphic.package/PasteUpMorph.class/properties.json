@@ -1,0 +1,20 @@
+{
+	"category" : "Morphic-Worlds",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"DisableDeferredUpdates",
+		"WindowEventHandler",
+		"WorldAnnouncer" ],
+	"commentStamp" : "nice 11/4/2009 23:06",
+	"instvars" : [
+		"backgroundMorph",
+		"worldState",
+		"griddingOn" ],
+	"name" : "PasteUpMorph",
+	"pools" : [
+		 ],
+	"super" : "BorderedMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

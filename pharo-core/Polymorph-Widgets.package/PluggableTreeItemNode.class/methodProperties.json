@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"acceptDroppingObject:" : "ar 2/12/2005 00:16",
+		"asString" : "ar 2/12/2005 00:16",
+		"balloonText" : "ar 2/12/2005 00:16",
+		"canBeDragged" : "ar 2/12/2005 00:02",
+		"contents" : "ar 2/12/2005 00:03",
+		"hasContents" : "ar 2/12/2005 00:16",
+		"icon" : "ar 2/12/2005 00:04",
+		"wantsDroppedObject:" : "ar 2/12/2005 00:16" } }

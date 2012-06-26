@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"shouldInheritSelectors" : "cyrille.delaunay 7/1/2009 12:15",
+		"timingLarge" : "mvl 4/15/2007 21:58",
+		"timingMany" : "nice 1/5/2010 15:59" },
+	"instance" : {
+		"classToBeTested" : "cyrille.delaunay 7/1/2009 12:15",
+		"setUp" : "TestRunner 12/11/2009 18:05",
+		"size" : "mvl 3/15/2007 16:45",
+		"testClearing" : "StephaneDucasse 5/28/2011 13:43",
+		"testGrow" : "mvl 3/28/2007 12:00" } }

@@ -1,0 +1,16 @@
+{
+	"category" : "System-Announcements",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "cyrilledelaunay 1/18/2011 12:29",
+	"instvars" : [
+		 ],
+	"name" : "CategoryAdded",
+	"pools" : [
+		 ],
+	"super" : "SystemAnnouncement",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

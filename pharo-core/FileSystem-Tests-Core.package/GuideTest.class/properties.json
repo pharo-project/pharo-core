@@ -1,0 +1,17 @@
+{
+	"category" : "FileSystem-Tests-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"guide",
+		"visited" ],
+	"name" : "GuideTest",
+	"pools" : [
+		 ],
+	"super" : "SingleTreeTest",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

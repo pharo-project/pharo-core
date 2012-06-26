@@ -1,0 +1,3 @@
+t - accessing
+defaultChunkSize
+	^ nil

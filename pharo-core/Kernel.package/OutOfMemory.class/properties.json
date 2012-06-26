@@ -1,0 +1,16 @@
+{
+	"category" : "Kernel-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "StephaneDucasse 12/18/2009 12:01",
+	"instvars" : [
+		 ],
+	"name" : "OutOfMemory",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

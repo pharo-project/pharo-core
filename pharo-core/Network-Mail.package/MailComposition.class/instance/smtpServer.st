@@ -1,0 +1,3 @@
+access
+smtpServer
+	^MailSender smtpServer

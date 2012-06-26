@@ -1,0 +1,3 @@
+properties
+descender
+	^descender

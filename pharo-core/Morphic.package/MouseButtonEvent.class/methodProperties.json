@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"blueButtonChanged" : "ar 9/15/2000 19:58",
+		"redButtonChanged" : "ar 9/15/2000 19:58",
+		"sentTo:" : "ar 9/16/2000 13:05",
+		"setType:position:which:buttons:hand:stamp:" : "ar 10/5/2000 23:55",
+		"storeOn:" : "ar 10/24/2000 16:29",
+		"type:readFrom:" : "ar 10/24/2000 16:29",
+		"whichButton" : "nk 3/11/2004 17:44",
+		"yellowButtonChanged" : "ar 9/15/2000 19:59" } }

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"breadthFirst:" : "cwp 11/16/2009 10:33",
+		"breadthFirst:collect:" : "cwp 11/16/2009 10:32",
+		"collect:" : "cwp 11/16/2009 10:39",
+		"postorder:" : "cwp 11/16/2009 10:36",
+		"postorder:collect:" : "cwp 11/16/2009 10:35",
+		"preorder:" : "cwp 11/16/2009 10:35",
+		"preorder:collect:" : "cwp 11/16/2009 10:36" },
+	"instance" : {
+		"visitReference:" : "cwp 11/16/2009 10:38" } }

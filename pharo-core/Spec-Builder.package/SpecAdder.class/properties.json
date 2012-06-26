@@ -1,0 +1,25 @@
+{
+	"category" : "Spec-Builder-Tools",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"descriptionHolder",
+		"fractionField",
+		"fractionLabel",
+		"instVars",
+		"offsetField",
+		"offsetLabel",
+		"selectors",
+		"toolbar",
+		"selectedInstVar",
+		"selectedSpec" ],
+	"name" : "SpecAdder",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

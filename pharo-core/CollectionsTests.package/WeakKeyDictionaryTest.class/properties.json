@@ -1,0 +1,17 @@
+{
+	"category" : "CollectionsTests-Weak",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"keys",
+		"dict" ],
+	"name" : "WeakKeyDictionaryTest",
+	"pools" : [
+		 ],
+	"super" : "DictionaryTest",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

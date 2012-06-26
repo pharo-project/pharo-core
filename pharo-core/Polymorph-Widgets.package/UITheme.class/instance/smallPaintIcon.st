@@ -1,0 +1,3 @@
+icons
+smallPaintIcon
+	^ ThemeIcons smallPaintIcon

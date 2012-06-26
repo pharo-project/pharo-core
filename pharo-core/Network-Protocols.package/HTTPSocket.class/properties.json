@@ -1,0 +1,23 @@
+{
+	"category" : "Network-Protocols",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"HTTPBlabEmail",
+		"HTTPProxyCredentials",
+		"HTTPProxyExceptions",
+		"HTTPProxyPort",
+		"HTTPProxyServer",
+		"ParamDelimiters" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"headerTokens",
+		"headers",
+		"responseCode" ],
+	"name" : "HTTPSocket",
+	"pools" : [
+		 ],
+	"super" : "Socket",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

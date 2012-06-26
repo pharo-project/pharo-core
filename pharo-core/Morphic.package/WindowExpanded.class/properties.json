@@ -1,0 +1,16 @@
+{
+	"category" : "Morphic-WindowNotification",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "Alexandre.Bergel 8/8/2009 13:20",
+	"instvars" : [
+		 ],
+	"name" : "WindowExpanded",
+	"pools" : [
+		 ],
+	"super" : "WindowAnnouncement",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,19 @@
+{
+	"category" : "Tests-Bugs",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"previousChangeSet",
+		"testsChangeSet",
+		"newClassName",
+		"originalName" ],
+	"name" : "ClassRenameFixTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

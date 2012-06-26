@@ -1,0 +1,3 @@
+enumeration
+basename
+	^ self localName

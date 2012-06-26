@@ -1,0 +1,5 @@
+as yet unclassified
+allFileNamesOrCache
+	cacheFileNames ifFalse: [ ^ self allFileNames ].
+	^ allFileNames ifNil: [
+			allFileNames := self allFileNames]

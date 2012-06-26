@@ -1,0 +1,17 @@
+{
+	"category" : "Kernel-Methods",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"SpecialConstants" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"sender",
+		"pc" ],
+	"name" : "InstructionStream",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

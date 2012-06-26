@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"default" : "JMM 11/22/2001 13:41",
+		"generateDefault" : "nk 7/30/2004 21:51",
+		"initialize" : "PavelKrivanek 6/10/2011 17:00",
+		"startUp" : "CdG 11/19/2002 21:07" },
+	"instance" : {
+		"generateBytes:forVersion:" : "JMM 11/22/2001 13:45",
+		"generateFieldsVersion4" : "JMM 11/22/2001 23:13",
+		"generateOneOrZero" : "nice 1/5/2010 20:55",
+		"generateRandomBitsOfLength:" : "JMM 11/21/2001 15:12",
+		"initialize" : "alain.plantec 5/28/2009 11:15",
+		"makeSeed" : "dew 2/8/2003 00:28",
+		"makeSeedFromSound" : "gk 2/23/2004 21:09",
+		"makeUnixSeed" : "StephaneDucasse 2/2/2010 22:18",
+		"placeFields:" : "JMM 11/22/2001 23:12",
+		"randomCounter" : "JMM 11/21/2001 14:28",
+		"randomCounter:" : "JMM 11/21/2001 14:29",
+		"randomGenerator" : "JMM 11/21/2001 14:27",
+		"randomGenerator:" : "JMM 11/21/2001 14:27",
+		"semaphoreForGenerator" : "JMM 11/21/2001 14:29",
+		"semaphoreForGenerator:" : "JMM 11/21/2001 14:29",
+		"setupRandom" : "CdG 11/19/2002 21:30" } }

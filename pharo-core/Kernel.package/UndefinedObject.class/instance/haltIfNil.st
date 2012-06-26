@@ -1,0 +1,3 @@
+testing
+haltIfNil
+	self halt

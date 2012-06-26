@@ -1,0 +1,4 @@
+accessing
+doubleClickBlock
+
+	^ doubleClickBlock

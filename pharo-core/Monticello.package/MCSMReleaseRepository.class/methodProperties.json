@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"creationTemplate" : "avi 2/10/2004 14:15",
+		"description" : "avi 2/10/2004 13:42",
+		"package:user:password:" : "avi 2/10/2004 14:14" },
+	"instance" : {
+		"basicStoreVersion:" : "stephaneducasse 2/4/2006 20:47",
+		"checkResult:" : "avi 2/10/2004 14:11",
+		"description" : "avi 2/10/2004 14:15",
+		"initializeWithPackage:user:password:" : "stephaneducasse 2/4/2006 20:47",
+		"releaseVersion:url:" : "stephaneducasse 2/4/2006 20:47",
+		"squeakMapUrl" : "avi 2/10/2004 14:58",
+		"stringForVersion:" : "stephaneducasse 2/4/2006 20:47",
+		"uploadVersion:" : "stephaneducasse 2/4/2006 20:47" } }

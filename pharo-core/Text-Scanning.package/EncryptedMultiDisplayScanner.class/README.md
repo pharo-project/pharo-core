@@ -1,0 +1,1 @@
+An EncryptedMultiDisplayScanner is a MultiDisplayScanner displaying stars instead of characters (for password by example)

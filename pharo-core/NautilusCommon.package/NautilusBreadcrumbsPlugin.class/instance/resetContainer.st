@@ -1,0 +1,4 @@
+private
+resetContainer
+	
+	container removeAllMorphs

@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"fromTree:" : "cwp 11/7/2004 14:43" },
+	"instance" : {
+		"=" : "cwp 11/7/2004 13:32",
+		"children" : "cwp 11/7/2004 14:43",
+		"hasResolution" : "cwp 11/7/2004 14:42",
+		"hash" : "cwp 11/7/2004 13:33",
+		"initializeWithTree:" : "stephaneducasse 2/4/2006 20:47",
+		"mockVersionInfo" : "cwp 11/7/2004 14:41",
+		"name" : "cwp 11/7/2004 14:38",
+		"resolve" : "cwp 11/7/2004 14:16",
+		"uuidForName:" : "nk 2/22/2005 21:17" } }

@@ -1,0 +1,16 @@
+{
+	"category" : "AST-Core-Tokens",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RBShortAssignmentToken",
+	"pools" : [
+		 ],
+	"super" : "RBAssignmentToken",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

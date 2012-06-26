@@ -1,0 +1,17 @@
+{
+	"category" : "FileSystem-Core-Implementation",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "cwp 11/18/2009 12:30",
+	"instvars" : [
+		"source",
+		"dest" ],
+	"name" : "CopyVisitor",
+	"pools" : [
+		 ],
+	"super" : "FileSystemVisitor",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

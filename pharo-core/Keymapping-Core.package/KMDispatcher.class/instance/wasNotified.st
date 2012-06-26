@@ -1,0 +1,3 @@
+initialize
+wasNotified
+	 ^currentEvent wasHandled

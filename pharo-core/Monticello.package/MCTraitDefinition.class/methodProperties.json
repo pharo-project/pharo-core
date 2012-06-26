@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"name:traitComposition:category:comment:commentStamp:" : "al 10/9/2005 20:28" },
+	"instance" : {
+		"=" : "nice 10/31/2009 13:10",
+		"accept:" : "al 10/9/2005 20:28",
+		"createClass" : "jb 7/1/2011 10:52",
+		"hasClassInstanceVariables" : "al 10/9/2005 20:28",
+		"hash" : "al 6/5/2006 14:14",
+		"initializeWithName:traitComposition:category:comment:commentStamp:" : "al 6/5/2006 14:14",
+		"load" : "marcus.denker 11/10/2008 10:04",
+		"printDefinitionOn:" : "al 6/5/2006 14:15",
+		"requirements" : "al 6/5/2006 14:13" } }

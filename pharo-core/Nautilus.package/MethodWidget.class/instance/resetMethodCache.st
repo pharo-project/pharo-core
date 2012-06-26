@@ -1,0 +1,4 @@
+testing
+resetMethodCache
+
+	methods := nil

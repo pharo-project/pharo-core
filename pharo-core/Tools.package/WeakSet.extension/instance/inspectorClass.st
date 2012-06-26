@@ -1,0 +1,3 @@
+*Tools-Inspector
+inspectorClass 
+	^ WeakSetInspector

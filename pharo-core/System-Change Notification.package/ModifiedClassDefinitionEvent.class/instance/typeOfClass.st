@@ -1,0 +1,3 @@
+accessing
+typeOfClass
+	^ item typeOfClass

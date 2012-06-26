@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "tak 1/21/2005 11:12",
+		"tearDown" : "StephaneDucasse 11/6/2009 17:55",
+		"testExtent" : "Alexandre Bergel 8/2/2010 12:27",
+		"testIntoWorldCollapseOutOfWorld" : "ar 8/4/2003 00:11",
+		"testIntoWorldDeleteOutOfWorld" : "ar 8/4/2003 00:12",
+		"testIntoWorldTransferToNewGuy" : "ar 8/10/2003 18:30",
+		"testIsMorph" : "md 4/16/2003 17:11",
+		"testOpenInWorld" : "md 4/16/2003 17:10" } }

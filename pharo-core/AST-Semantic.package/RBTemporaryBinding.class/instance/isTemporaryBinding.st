@@ -1,0 +1,3 @@
+testing-type
+isTemporaryBinding
+	^ true

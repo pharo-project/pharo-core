@@ -1,0 +1,3 @@
+testing
+isProtocolModified
+	^ false

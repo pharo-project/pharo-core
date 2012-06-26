@@ -1,0 +1,17 @@
+{
+	"category" : "Compiler-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parser",
+		"interval" ],
+	"name" : "UndeclaredVariable",
+	"pools" : [
+		 ],
+	"super" : "ParserNotification",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

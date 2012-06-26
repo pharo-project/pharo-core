@@ -1,0 +1,16 @@
+{
+	"category" : "Network-Kernel",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SocketPrimitiveFailed",
+	"pools" : [
+		 ],
+	"super" : "NetworkError",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

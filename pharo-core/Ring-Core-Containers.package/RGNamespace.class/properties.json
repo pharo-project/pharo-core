@@ -1,0 +1,16 @@
+{
+	"category" : "Ring-Core-Containers",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "VeronicaUquillas 4/20/2011 16:34",
+	"instvars" : [
+		 ],
+	"name" : "RGNamespace",
+	"pools" : [
+		 ],
+	"super" : "RGContainer",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

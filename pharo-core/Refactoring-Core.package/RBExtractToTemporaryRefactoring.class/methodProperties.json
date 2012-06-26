@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"extract:to:from:in:" : "",
+		"model:extract:to:from:in:" : "" },
+	"instance" : {
+		"checkVariableName" : "",
+		"compileNewMethod" : "",
+		"constructAssignmentFrom:" : "",
+		"extract:to:from:in:" : "",
+		"insertTemporary" : "",
+		"parseTree" : "",
+		"preconditions" : "",
+		"selectedSource" : "",
+		"storeOn:" : "",
+		"transform" : "",
+		"verifySelectedInterval" : "" } }

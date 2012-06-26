@@ -1,0 +1,6 @@
+{
+	"class" : {
+		"hasRun" : "sd 9/25/2004 14:02",
+		"markAsNotRun" : "md 11/14/2004 21:37" },
+	"instance" : {
+		"testWhenRunMarkTestedToTrue" : "md 11/14/2004 21:30" } }

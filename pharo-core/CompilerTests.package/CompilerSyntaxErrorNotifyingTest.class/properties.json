@@ -1,0 +1,16 @@
+{
+	"category" : "CompilerTests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "nice 2/23/2012 22:09",
+	"instvars" : [
+		 ],
+	"name" : "CompilerSyntaxErrorNotifyingTest",
+	"pools" : [
+		 ],
+	"super" : "CompilerNotifyingTest",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

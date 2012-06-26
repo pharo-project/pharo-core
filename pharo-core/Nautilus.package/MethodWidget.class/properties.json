@@ -1,0 +1,18 @@
+{
+	"category" : "Nautilus-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"methodsList",
+		"methodsSelection",
+		"methods" ],
+	"name" : "MethodWidget",
+	"pools" : [
+		 ],
+	"super" : "AbstractMethodWidget",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

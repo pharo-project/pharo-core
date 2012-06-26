@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"forEachPointDo:" : "di 11/3/97 16:34",
+		"forEachPointDo:lastPointDo:" : "di 8/30/2000 21:48",
+		"initialize" : "dgd 3/7/2003 14:30",
+		"justDroppedInto:event:" : "dgd 9/10/2004 13:40",
+		"keyStroke:" : "ar 9/15/2000 23:30",
+		"startStepping" : "ar 9/15/2000 23:24",
+		"step" : "di 11/3/97 16:34",
+		"stepTime" : "JMM 10/21/2003 18:15" } }

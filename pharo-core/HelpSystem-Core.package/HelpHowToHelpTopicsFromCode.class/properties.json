@@ -1,0 +1,16 @@
+{
+	"category" : "HelpSystem-Core-Help",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HelpHowToHelpTopicsFromCode",
+	"pools" : [
+		 ],
+	"super" : "HelpHowToHelpTopics",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

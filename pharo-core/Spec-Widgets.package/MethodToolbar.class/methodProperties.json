@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"defaultSpec" : "bvr 6/4/2012 14:50",
+		"title" : "" },
+	"instance" : {
+		"addAll:withSpec:" : "",
+		"browseMethod" : "",
+		"browseModel" : "",
+		"dropListModel" : "",
+		"implementorsMethod" : "",
+		"implementorsModel" : "",
+		"initialize" : "BenjaminVanRyseghem 6/12/2012 18:00",
+		"initializeWidgets" : "BenjaminVanRyseghem 6/12/2012 18:00",
+		"method:" : "",
+		"model" : "",
+		"registerForChanges" : "",
+		"sendersMethod" : "",
+		"sendersModel" : "",
+		"setBrowseModel" : "",
+		"setDropListItems:" : "",
+		"setFocusOrder" : "",
+		"setImplementorsModel" : "",
+		"setSendersModel" : "",
+		"setVersionModel" : "",
+		"versionMethod" : "",
+		"versionModel" : "" } }

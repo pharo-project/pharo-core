@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"autoAccept" : "BenjaminVanRyseghem 11/21/2011 15:44",
+		"autoAccept:" : "BenjaminVanRyseghem 11/21/2011 15:44",
+		"settingsOn:" : "BenjaminVanRyseghem 11/21/2011 15:54" },
+	"instance" : {
+		"autoAccept" : "BenjaminVanRyseghem 11/21/2011 15:43",
+		"cancel" : "gvc 5/1/2007 11:23",
+		"defaultFocusMorph" : "gvc 5/1/2007 11:24",
+		"entryHeight:" : "gvc 1/30/2008 12:09",
+		"entryText" : "gvc 5/1/2007 11:21",
+		"entryText:" : "BenjaminVanRyseghem 11/21/2011 15:47",
+		"icon" : "gvc 5/18/2007 10:30",
+		"initialize" : "BenjaminVanRyseghem 11/21/2011 15:42",
+		"newButtons" : "gvc 5/1/2007 11:23",
+		"newContentMorph" : "AlainPlantec 10/25/2010 11:22",
+		"newTextEditorMorph" : "gvc 5/1/2007 11:25",
+		"textEditorMorph" : "gvc 5/1/2007 11:21",
+		"textEditorMorph:" : "gvc 5/1/2007 11:21" } }

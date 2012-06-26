@@ -1,0 +1,16 @@
+{
+	"category" : "FuelMetalevelTests-Mocks",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FLCompiledMethodClassMock",
+	"pools" : [
+		 ],
+	"super" : "CompiledMethod",
+	"traitcomposition" : "{}",
+	"type" : "compiledMethod" }

@@ -1,0 +1,20 @@
+{
+	"category" : "Spec-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"childrenBlockHolder",
+		"rootsHolder",
+		"selectionHolder",
+		"menuBlockHolder",
+		"wrapBlockHolder" ],
+	"name" : "TreeModel",
+	"pools" : [
+		 ],
+	"super" : "AbstractBasicWidget",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

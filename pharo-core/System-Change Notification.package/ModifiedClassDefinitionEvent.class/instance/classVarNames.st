@@ -1,0 +1,3 @@
+accessing
+classVarNames
+	^ item classVarNames

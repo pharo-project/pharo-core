@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"on:" : "MartinDias 12/29/2011 17:11",
+		"on:do:" : "MartinDias 1/6/2012 22:48" },
+	"instance" : {
+		"encodeBitmap:" : "MarianoMartinezPeck 1/7/2012 20:08",
+		"encodeByte:" : "MartinDias 12/29/2011 20:11",
+		"encodeBytes:" : "MartinDias 12/29/2011 20:16",
+		"encodeClusterClass:" : "MartinDias 2/20/2012 15:37",
+		"encodeInt32:" : "MarianoMartinezPeck 1/7/2012 20:13",
+		"encodePositiveInteger:" : "MarianoMartinezPeck 1/7/2012 20:13",
+		"encodeReferenceTo:" : "MarianoMartinezPeck 1/11/2012 22:24",
+		"encodeString:" : "MarianoMartinezPeck 1/7/2012 20:13",
+		"encodeUint16:" : "MarianoMartinezPeck 1/7/2012 20:13",
+		"encodeUint32:" : "MarianoMartinezPeck 1/7/2012 20:13",
+		"encodeWeakReferenceTo:" : "MartinDias 12/30/2011 15:34",
+		"encodeWords:" : "MartinDias 12/29/2011 20:18",
+		"encodeYourself" : "MartinDias 12/30/2011 15:31",
+		"flush" : "MartinDias 1/6/2012 22:42",
+		"fuelAccept:" : "MartinDias 5/11/2012 16:15",
+		"initializeOn:" : "MartinDias 1/6/2012 22:40",
+		"objectCount" : "MartinDias 12/29/2011 18:46",
+		"objectCount:" : "MarianoMartinezPeck 4/20/2012 23:31",
+		"objectsIndexes" : "MartinDias 12/29/2011 17:12" } }

@@ -1,0 +1,17 @@
+{
+	"category" : "Refactoring-Critics-BlockRules",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"trueBinding",
+		"falseBinding" ],
+	"name" : "RBUsesTrueRule",
+	"pools" : [
+		 ],
+	"super" : "RBBlockLintRule",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

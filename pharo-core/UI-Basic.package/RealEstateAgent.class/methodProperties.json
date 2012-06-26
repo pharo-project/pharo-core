@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"assignCollapseFrameFor:" : "AlainPlantec 10/17/2009 17:40",
+		"assignCollapsePointFor:" : "AlainPlantec 10/17/2009 17:40",
+		"cascadeFor:initialExtent:world:" : "StephaneDucasse 6/12/2010 22:32",
+		"initialFrameFor:initialExtent:world:" : "janniklaval 6/12/2010 19:03",
+		"initialFrameFor:world:" : "RAA 5/25/2000 08:13",
+		"initialize" : "AlainPlantec 12/14/2009 19:34",
+		"maximumUsableArea" : "alain.plantec 6/1/2008 20:02",
+		"maximumUsableAreaInWorld:" : "StephaneDucasse 6/12/2010 22:34",
+		"screenTopSetback" : "alain.plantec 6/1/2008 20:02",
+		"scrollBarSetback" : "alain.plantec 6/1/2008 20:06",
+		"staggerFor:initialExtent:world:" : "AlainPlantec 2/25/2011 15:58",
+		"standardFor:initialExtent:world:" : "janniklaval 6/12/2010 17:19",
+		"standardPositionsInWorld:" : "StephaneDucasse 6/12/2010 22:34",
+		"standardSize" : "StephaneDucasse 6/12/2010 22:35",
+		"standardSize:" : "StephaneDucasse 6/12/2010 22:35",
+		"standardWindowExtent" : "MarcusDenker 5/15/2011 10:08",
+		"strictlyStaggeredInitialFrameFor:initialExtent:world:" : "AlainPlantec 10/17/2009 17:41",
+		"usedStrategy" : "AlainPlantec 2/25/2011 15:58",
+		"usedStrategy:" : "AlainPlantec 9/3/2010 16:48",
+		"windowColumnsDesired" : "AlainPlantec 2/25/2011 15:58",
+		"windowRowsDesired" : "AlainPlantec 2/25/2011 15:58" },
+	"instance" : {
+		 } }

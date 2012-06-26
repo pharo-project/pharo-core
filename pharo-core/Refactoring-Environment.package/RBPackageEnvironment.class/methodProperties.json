@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"onEnvironment:packageNames:" : "lr 11/25/2009 08:54",
+		"onEnvironment:packages:" : "lr 11/25/2009 08:54" },
+	"instance" : {
+		"asSelectorEnvironment" : "lr 9/8/2011 20:32",
+		"classesAndSelectorsDo:" : "lr 11/25/2009 08:48",
+		"classesDo:" : "lr 12/3/2009 10:16",
+		"definesClass:" : "lr 5/15/2010 09:39",
+		"includesCategory:" : "lr 11/25/2009 08:51",
+		"includesClass:" : "lr 11/25/2009 09:06",
+		"includesProtocol:in:" : "lr 12/3/2009 10:13",
+		"includesSelector:in:" : "lr 11/25/2009 10:33",
+		"initialize" : "lr 4/12/2010 15:25",
+		"numberSelectors" : "lr 12/3/2009 13:30",
+		"packageNames" : "lr 11/25/2009 08:49",
+		"packages" : "lr 11/25/2009 08:46",
+		"packages:" : "lr 12/20/2009 09:29",
+		"postCopy" : "lr 4/12/2010 15:26",
+		"storeOn:" : "TestRunner 12/23/2009 21:22" } }

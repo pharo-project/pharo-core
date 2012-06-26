@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"nonEmptyWithCopyNonIdentical" : "delaunay 5/12/2009 11:02",
+		"test0FixtureDictionaryIncludesIdentity" : "delaunay 5/12/2009 11:09",
+		"testIncludesIdentitySpecificComportement" : "delaunay 5/12/2009 11:10" } }

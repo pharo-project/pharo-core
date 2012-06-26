@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"on:" : "BenjaminVanRyseghem 1/21/2012 22:53" },
+	"instance" : {
+		"balloonText" : "BenjaminVanRyseghem 1/21/2012 23:25",
+		"helpText" : "BenjaminVanRyseghem 1/21/2012 23:25",
+		"helpText:" : "BenjaminVanRyseghem 1/21/2012 23:25",
+		"offImageSelector" : "BenjaminVanRyseghem 1/21/2012 23:08",
+		"offImageSelector:" : "BenjaminVanRyseghem 1/21/2012 23:07",
+		"onImageSelector" : "BenjaminVanRyseghem 1/21/2012 23:08",
+		"onImageSelector:" : "BenjaminVanRyseghem 1/21/2012 23:08",
+		"pressedImageSelector" : "BenjaminVanRyseghem 1/21/2012 23:08",
+		"pressedImageSelector:" : "BenjaminVanRyseghem 1/21/2012 23:08",
+		"stateSelector" : "BenjaminVanRyseghem 1/21/2012 23:08",
+		"stateSelector:" : "BenjaminVanRyseghem 1/21/2012 23:08",
+		"target:" : "BenjaminVanRyseghem 1/21/2012 23:04",
+		"update:" : "BenjaminVanRyseghem 1/21/2012 23:16",
+		"updateOffImage" : "BenjaminVanRyseghem 1/21/2012 23:01",
+		"updateOnImage" : "BenjaminVanRyseghem 1/21/2012 23:01",
+		"updatePressedImage" : "BenjaminVanRyseghem 1/21/2012 23:01",
+		"updateState" : "BenjaminVanRyseghem 1/21/2012 23:15" } }

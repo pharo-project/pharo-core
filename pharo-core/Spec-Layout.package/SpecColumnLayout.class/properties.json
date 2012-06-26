@@ -1,0 +1,16 @@
+{
+	"category" : "Spec-Layout",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "SpecColumnLayout",
+	"pools" : [
+		 ],
+	"super" : "SpecLayout",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

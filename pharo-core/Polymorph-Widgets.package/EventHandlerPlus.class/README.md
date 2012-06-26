@@ -1,0 +1,1 @@
+Support for handling mouseOver events (no button down).

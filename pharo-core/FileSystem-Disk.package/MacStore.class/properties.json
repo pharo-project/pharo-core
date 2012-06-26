@@ -1,0 +1,16 @@
+{
+	"category" : "FileSystem-Disk",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "MacStore",
+	"pools" : [
+		 ],
+	"super" : "UnixStore",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

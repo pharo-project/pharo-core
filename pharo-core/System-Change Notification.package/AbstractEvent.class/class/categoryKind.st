@@ -1,0 +1,4 @@
+item kinds
+categoryKind
+
+	^#category

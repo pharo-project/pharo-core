@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"primJPEGPluginIsPresent" : "ar 6/16/2002 18:54",
+		"putForm:quality:progressiveJPEG:onFileNamed:" : "CamilloBruni 5/7/2012 11:33",
+		"typicalFileExtensions" : "nk 7/16/2003 17:56" },
+	"instance" : {
+		"compress:quality:" : "lr 7/4/2009 10:42",
+		"imageExtent:" : "lr 7/4/2009 10:42",
+		"isPluginPresent" : "ar 11/27/2001 00:40",
+		"nextImage" : "jm 11/20/2001 10:23",
+		"nextImageSuggestedDepth:" : "lr 7/4/2009 10:42",
+		"nextPutImage:" : "jm 11/20/2001 10:21",
+		"nextPutImage:quality:progressiveJPEG:" : "lr 7/4/2009 10:42",
+		"primImageHeight:" : "jm 11/20/2001 10:34",
+		"primImageWidth:" : "jm 11/20/2001 10:35",
+		"primJPEGCompressStructSize" : "jm 11/20/2001 10:35",
+		"primJPEGDecompressStructSize" : "jm 11/20/2001 10:35",
+		"primJPEGErrorMgr2StructSize" : "jm 11/20/2001 10:35",
+		"primJPEGPluginIsPresent" : "ar 11/27/2001 00:39",
+		"primJPEGReadHeader:fromByteArray:errorMgr:" : "jm 11/20/2001 10:35",
+		"primJPEGReadImage:fromByteArray:onForm:doDithering:errorMgr:" : "jmv 12/7/2001 13:45",
+		"primJPEGWriteImage:onByteArray:form:quality:progressiveJPEG:errorMgr:" : "jm 11/20/2001 10:35",
+		"uncompress:into:" : "lr 7/4/2009 10:42",
+		"uncompress:into:doDithering:" : "lr 7/4/2009 10:42",
+		"understandsImageFormat" : "ar 11/27/2001 00:39" } }

@@ -1,0 +1,16 @@
+{
+	"category" : "Refactoring-Pharo-Platform",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RBPharoPlatform",
+	"pools" : [
+		 ],
+	"super" : "RBPlatform",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,33 @@
+{
+	"category" : "System-Localization",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"Activated",
+		"Current",
+		"CurrentPlatform",
+		"KnownLocales",
+		"LanguageSymbols",
+		"LocaleChangeListeners",
+		"PlatformEncodings" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"id",
+		"shortDate",
+		"longDate",
+		"time",
+		"decimalSymbol",
+		"digitGrouping",
+		"currencySymbol",
+		"currencyNotation",
+		"measurement",
+		"offsetLocalToUTC",
+		"offsetVMToUTC",
+		"dstActive" ],
+	"name" : "Locale",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

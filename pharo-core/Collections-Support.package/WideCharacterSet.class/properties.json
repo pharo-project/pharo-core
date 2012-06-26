@@ -1,0 +1,17 @@
+{
+	"category" : "Collections-Support",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "nice 12/10/2009 19:17",
+	"instvars" : [
+		"map",
+		"byteArrayMap" ],
+	"name" : "WideCharacterSet",
+	"pools" : [
+		 ],
+	"super" : "Collection",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

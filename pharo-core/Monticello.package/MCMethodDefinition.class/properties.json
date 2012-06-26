@@ -1,0 +1,22 @@
+{
+	"category" : "Monticello-Modeling",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"Definitions",
+		"InitializersEnabled" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"classIsMeta",
+		"source",
+		"category",
+		"selector",
+		"className",
+		"timeStamp" ],
+	"name" : "MCMethodDefinition",
+	"pools" : [
+		 ],
+	"super" : "MCDefinition",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

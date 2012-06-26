@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"defaultHeight" : "jmv 2/2/2006 14:24",
+		"defaultWidth" : "jmv 2/2/2006 14:24",
+		"initialize" : "gvc 4/26/2007 12:08",
+		"mouseDown:" : "gvc 7/30/2009 14:06",
+		"mouseMove:" : "gvc 2/12/2007 16:36",
+		"target" : "gvc 2/12/2007 16:28",
+		"target:" : "gvc 3/27/2008 21:50",
+		"targetPoint" : "gvc 2/12/2007 16:36",
+		"targetPoint:" : "gvc 7/30/2009 14:07" } }

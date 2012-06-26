@@ -1,0 +1,3 @@
+building
+, aShortcut
+	^ aShortcut

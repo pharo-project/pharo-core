@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"packageNamesUnderTest" : "lr 2/10/2010 08:34" },
+	"instance" : {
+		"fibonacciSequence" : "lr 1/8/2009 16:29",
+		"numbersBetween:and:" : "lr 1/8/2009 15:49",
+		"testAtEnd" : "lr 1/8/2009 16:33",
+		"testClose" : "lr 2/10/2010 09:18",
+		"testContents" : "lr 4/26/2009 11:51",
+		"testEmpty" : "lr 1/8/2009 16:45",
+		"testEnsure" : "lr 2/10/2010 09:02",
+		"testErrorPropagation" : "ar 2/10/2010 21:01",
+		"testFibonacci" : "lr 1/8/2009 16:50",
+		"testNext" : "lr 1/8/2009 16:33",
+		"testPeek" : "lr 1/8/2009 16:45",
+		"testReset" : "lr 1/8/2009 16:35",
+		"testResetUnwind" : "ar 2/10/2010 21:03",
+		"testSimple" : "lr 1/8/2009 16:46" } }

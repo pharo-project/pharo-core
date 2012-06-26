@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"new" : "TestRunner 12/12/2009 11:09",
+		"on:" : "lr 8/20/2009 12:01" },
+	"instance" : {
+		"defaultModel" : "lr 8/19/2009 14:01",
+		"execute" : "lr 8/17/2009 14:40",
+		"gofer" : "lr 10/3/2009 11:38",
+		"initialize" : "lr 8/19/2009 14:01",
+		"initializeOn:" : "TestRunner 12/12/2009 11:09",
+		"model" : "lr 8/20/2009 10:13" } }

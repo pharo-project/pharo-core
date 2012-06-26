@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"schemeName:authority:path:query:" : "ls 6/20/1998 19:41" },
+	"instance" : {
+		"authority" : "ls 6/20/1998 19:58",
+		"fileName" : "gk 10/21/2005 11:06",
+		"fullPath" : "PeterHugossonMiller 9/3/2009 02:00",
+		"hasContents" : "ls 8/4/1998 20:44",
+		"isAbsolute" : "tk 9/6/1998 12:45",
+		"password" : "ls 6/15/2003 13:13",
+		"path" : "KLC 4/3/2006 10:05",
+		"path:" : "gk 10/21/2005 11:15",
+		"port" : "mir 7/30/1999 13:05",
+		"postCopy" : "nice 1/13/2010 21:58",
+		"printOn:" : "StephaneDucasse 5/9/2010 20:19",
+		"privateInitializeFromText:" : "StephaneDucasse 5/9/2010 20:26",
+		"privateInitializeFromText:relativeTo:" : "ls 6/15/2003 13:40",
+		"privateParsePath:relativeTo:" : "PeterHugossonMiller 9/3/2009 02:00",
+		"query" : "ls 6/20/1998 19:59",
+		"scheme" : "FBS 11/20/2003 13:07",
+		"schemeName" : "ls 6/20/1998 19:58",
+		"schemeName:authority:path:query:" : "ls 6/20/1998 19:41",
+		"username" : "ls 6/15/2003 13:13" } }

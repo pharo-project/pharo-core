@@ -1,0 +1,16 @@
+{
+	"category" : "Tools-Finder",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "FinderClassNode",
+	"pools" : [
+		 ],
+	"super" : "FinderNode",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

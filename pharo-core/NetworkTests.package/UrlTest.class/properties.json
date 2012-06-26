@@ -1,0 +1,17 @@
+{
+	"category" : "NetworkTests-Url",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"url",
+		"baseUrl" ],
+	"name" : "UrlTest",
+	"pools" : [
+		 ],
+	"super" : "ClassTestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

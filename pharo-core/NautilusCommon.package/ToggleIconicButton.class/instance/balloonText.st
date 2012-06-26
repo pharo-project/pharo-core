@@ -1,0 +1,4 @@
+private
+balloonText
+
+	^ helpText

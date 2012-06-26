@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"includesCategory:" : "",
+		"includesClass:" : "",
+		"includesProtocol:in:" : "",
+		"includesSelector:in:" : "",
+		"not" : "",
+		"storeOn:" : "" } }

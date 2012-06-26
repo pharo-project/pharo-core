@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAddressRange" : "MarcusDenker 5/3/2012 13:57",
+		"testChangesFileAddressRange" : "MarcusDenker 5/3/2012 13:57",
+		"testFileIndexFromSourcePointer" : "MarcusDenker 5/3/2012 13:57",
+		"testFilePositionFromSourcePointer" : "MarcusDenker 5/3/2012 13:57",
+		"testProtocol" : "MarcusDenker 5/23/2012 17:19",
+		"testSourcePointerFromFileIndexAndPosition" : "MarcusDenker 5/3/2012 13:57",
+		"testSourcesFileAddressRange" : "MarcusDenker 5/3/2012 13:57",
+		"testTimeStamp" : "MarcusDenker 5/23/2012 17:19" } }

@@ -1,0 +1,3 @@
+ui requests
+openDualChangeSorterAsMorph: aDualChangeSorter
+	^aDualChangeSorter morphicWindow openInWorld

@@ -1,0 +1,16 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		"updateFromServerAtStartup" ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "CodeUpdate",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

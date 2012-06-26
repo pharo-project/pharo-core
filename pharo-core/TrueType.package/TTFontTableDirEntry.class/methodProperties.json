@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"on:at:" : "" },
+	"instance" : {
+		"nextByte" : "",
+		"nextBytes:into:startingAt:" : "",
+		"nextLong" : "",
+		"nextShort" : "",
+		"nextULong" : "",
+		"nextUShort" : "",
+		"offset" : "",
+		"offset:" : "",
+		"on:at:" : "",
+		"skip:" : "",
+		"stringAt:length:multiByte:" : "ar 11/1/1998 23:37" } }

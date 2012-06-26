@@ -1,0 +1,1 @@
+I am a system window that displays the keybindings of eCompletion. The text is static and generated in the class methods.

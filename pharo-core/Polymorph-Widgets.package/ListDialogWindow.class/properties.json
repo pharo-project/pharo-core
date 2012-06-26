@@ -1,0 +1,23 @@
+{
+	"category" : "Polymorph-Widgets-Windows",
+	"classinstvars" : [
+		"searchList" ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pattern",
+		"list",
+		"searchMorph",
+		"listMorph",
+		"listIndex",
+		"answer",
+		"listBlock",
+		"listCreationProcess" ],
+	"name" : "ListDialogWindow",
+	"pools" : [
+		 ],
+	"super" : "MessageDialogWindow",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

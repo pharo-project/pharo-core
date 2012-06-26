@@ -1,0 +1,16 @@
+{
+	"category" : "Graphics-Tests-Primitives",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "ar 7/21/2007 21:39",
+	"instvars" : [
+		 ],
+	"name" : "FormTest",
+	"pools" : [
+		 ],
+	"super" : "ClassTestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Multilingual-Languages",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "SimplifiedChineseEnvironment",
+	"pools" : [
+		 ],
+	"super" : "LanguageEnvironment",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

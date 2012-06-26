@@ -1,0 +1,3 @@
+private
+setUsePangoFlag
+	^ self

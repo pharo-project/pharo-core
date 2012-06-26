@@ -1,0 +1,21 @@
+{
+	"category" : "Spec-Builder-Tools",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"descriptionHolder",
+		"list",
+		"addButton",
+		"removeButton",
+		"toolbar",
+		"editButton" ],
+	"name" : "SpecSetter",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

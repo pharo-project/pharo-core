@@ -1,0 +1,26 @@
+{
+	"category" : "KernelTests-Chronology",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"timespan",
+		"aTimespan",
+		"anOverlappingTimespan",
+		"anIncludedTimespan",
+		"aDisjointTimespan",
+		"aDay",
+		"aWeek",
+		"dec31",
+		"jan01",
+		"jan08",
+		"localTimeZoneToRestore" ],
+	"name" : "TimespanTest",
+	"pools" : [
+		 ],
+	"super" : "ClassTestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

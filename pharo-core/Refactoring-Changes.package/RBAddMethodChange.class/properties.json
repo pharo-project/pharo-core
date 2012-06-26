@@ -1,0 +1,20 @@
+{
+	"category" : "Refactoring-Changes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"source",
+		"selector",
+		"protocols",
+		"controller",
+		"definedSelector" ],
+	"name" : "RBAddMethodChange",
+	"pools" : [
+		 ],
+	"super" : "RBRefactoryClassChange",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

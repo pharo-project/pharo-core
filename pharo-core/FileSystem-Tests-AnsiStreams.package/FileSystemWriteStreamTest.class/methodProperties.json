@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"contents" : "EstebanLorenzano 4/2/2012 11:42",
+		"setUp" : "EstebanLorenzano 4/2/2012 11:43",
+		"testClose" : "cwp 7/28/2009 22:48",
+		"testContents" : "cwp 7/29/2009 21:55",
+		"testCr" : "CamilloBruni 8/12/2011 14:34",
+		"testCrLf" : "CamilloBruni 8/12/2011 14:42",
+		"testCrTab" : "CamilloBruni 8/12/2011 14:41",
+		"testFlush" : "cwp 7/28/2009 22:21",
+		"testLf" : "CamilloBruni 8/12/2011 14:34",
+		"testNextPut" : "cwp 7/29/2009 21:55",
+		"testNextPutAll" : "cwp 7/29/2009 22:23",
+		"testOverriding" : "CamilloBruni 8/12/2011 15:22",
+		"testPipeIn" : "CamilloBruni 8/12/2011 14:38",
+		"testSpace" : "CamilloBruni 8/12/2011 14:34",
+		"testSpaceRepeat" : "CamilloBruni 8/12/2011 14:40",
+		"testTab" : "cwp 7/29/2009 21:56",
+		"testTabRepeat" : "CamilloBruni 8/12/2011 14:40",
+		"testTruncate" : "cwp 10/15/2009 22:04",
+		"testTruncateTo" : "cwp 10/15/2009 21:50" } }

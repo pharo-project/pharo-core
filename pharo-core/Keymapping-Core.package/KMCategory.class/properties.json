@@ -1,0 +1,17 @@
+{
+	"category" : "Keymapping-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "GuillermoPolito 12/14/2010 21:32",
+	"instvars" : [
+		"name",
+		"platforms" ],
+	"name" : "KMCategory",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"listenerAddress" : "SvenVanCaekenberghe 4/15/2011 12:10",
+		"listenerPort" : "ar 11/26/2010 10:13",
+		"setUp" : "ar 11/26/2010 10:24",
+		"tearDown" : "ar 11/26/2010 10:24",
+		"testClientConnect" : "ar 11/26/2010 10:17",
+		"testDataReceive" : "ar 11/26/2010 11:08",
+		"testDataSending" : "ar 11/26/2010 11:06",
+		"testLocalAddress" : "SvenVanCaekenberghe 4/15/2011 12:19",
+		"testLocalPort" : "ar 11/26/2010 10:25",
+		"testRemoteAddress" : "SvenVanCaekenberghe 4/15/2011 12:21",
+		"testRemotePort" : "ar 11/26/2010 10:25",
+		"testServerAccept" : "ar 11/26/2010 10:25" } }

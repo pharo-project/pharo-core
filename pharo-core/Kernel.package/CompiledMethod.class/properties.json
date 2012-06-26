@@ -1,0 +1,17 @@
+{
+	"category" : "Kernel-Methods",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"LargeFrame",
+		"SmallFrame" ],
+	"commentStamp" : "ls 7/5/2003 13:48",
+	"instvars" : [
+		 ],
+	"name" : "CompiledMethod",
+	"pools" : [
+		 ],
+	"super" : "ByteArray",
+	"traitcomposition" : "{}",
+	"type" : "compiledMethod" }

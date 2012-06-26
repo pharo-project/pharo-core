@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"guessVariable:in:expected:" : "",
+		"testClassVar" : "",
+		"testDependentsFieldsClassVar" : "",
+		"testSuperClassVar" : "" } }

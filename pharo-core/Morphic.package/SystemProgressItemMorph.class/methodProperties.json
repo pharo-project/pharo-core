@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"labeled:from:to:" : "SeanDeNigris 5/14/2012 15:26" },
+	"instance" : {
+		"beComplete" : "SeanDeNigris 5/23/2012 00:25",
+		"close" : "SeanDeNigris 5/23/2012 01:08",
+		"current" : "SeanDeNigris 5/14/2012 19:48",
+		"current:" : "SeanDeNigris 6/20/2012 23:24",
+		"decrement" : "SeanDeNigris 5/14/2012 19:49",
+		"do:" : "SeanDeNigris 5/23/2012 00:40",
+		"end:" : "SeanDeNigris 5/14/2012 15:24",
+		"endAt:" : "SeanDeNigris 5/14/2012 15:24",
+		"forceRefreshOnNextChange" : "SeanDeNigris 5/23/2012 00:22",
+		"increment" : "SeanDeNigris 5/14/2012 19:49",
+		"initializeLabel:start:end:" : "SeanDeNigris 5/22/2012 22:57",
+		"isBarStriped" : "SeanDeNigris 5/14/2012 12:38",
+		"label" : "SeanDeNigris 5/22/2012 20:18",
+		"label:" : "SeanDeNigris 5/24/2012 18:18",
+		"labelMorph" : "SeanDeNigris 5/14/2012 15:23",
+		"max:" : "StephaneDucasse 5/20/2012 19:39",
+		"refresh" : "SeanDeNigris 6/21/2012 08:40",
+		"result" : "SeanDeNigris 5/14/2012 22:47",
+		"result:" : "SeanDeNigris 5/14/2012 22:49",
+		"start:" : "SeanDeNigris 5/14/2012 15:09",
+		"startAt:" : "StephaneDucasse 5/20/2012 19:39" } }

@@ -1,0 +1,16 @@
+{
+	"category" : "Kernel-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"exception" ],
+	"name" : "UnhandledError",
+	"pools" : [
+		 ],
+	"super" : "Exception",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

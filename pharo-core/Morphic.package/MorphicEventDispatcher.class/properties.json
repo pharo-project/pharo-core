@@ -1,0 +1,17 @@
+{
+	"category" : "Morphic-Events",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"lastType",
+		"lastDispatch" ],
+	"name" : "MorphicEventDispatcher",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

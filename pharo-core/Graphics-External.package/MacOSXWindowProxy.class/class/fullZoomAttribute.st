@@ -1,0 +1,3 @@
+constants
+fullZoomAttribute
+	^self verticalZoomAttribute bitOr: self horizontalZoomAttribute

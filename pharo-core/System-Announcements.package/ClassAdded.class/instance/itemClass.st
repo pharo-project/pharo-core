@@ -1,0 +1,4 @@
+accessing
+itemClass
+
+	^ self item 

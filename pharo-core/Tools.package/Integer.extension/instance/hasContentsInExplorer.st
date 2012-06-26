@@ -1,0 +1,3 @@
+*Tools-Explorer
+hasContentsInExplorer
+	^true

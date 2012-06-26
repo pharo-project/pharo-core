@@ -1,0 +1,17 @@
+{
+	"category" : "Polymorph-Widgets-Windows",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "gvc 5/18/2007 13:35",
+	"instvars" : [
+		"selectedColor",
+		"hsvaMorph" ],
+	"name" : "ColorSelectorDialogWindow",
+	"pools" : [
+		 ],
+	"super" : "DialogWindow",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "FuelPackageLoaderTests",
+	"classinstvars" : [
+		"classInstanceVariable" ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"ClassVariable" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FLPackageLoaderDummy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

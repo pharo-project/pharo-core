@@ -1,0 +1,16 @@
+{
+	"category" : "FuelMetalevelTests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "FLTCreateClassOrTraitSerializationTest classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "FLCreateTraitSerializationTest",
+	"pools" : [
+		 ],
+	"super" : "FLTraitSerializationTest",
+	"traitcomposition" : "FLTCreateClassOrTraitSerializationTest",
+	"type" : "normal" }

@@ -1,0 +1,17 @@
+{
+	"category" : "Graphics-Files",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"ImageNotStoredSignal",
+		"MagicNumberErrorSignal" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"stream" ],
+	"name" : "ImageReadWriter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

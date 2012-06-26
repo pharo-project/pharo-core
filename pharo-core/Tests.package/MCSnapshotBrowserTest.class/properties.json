@@ -1,0 +1,17 @@
+{
+	"category" : "Tests-Monticello",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"model",
+		"morph" ],
+	"name" : "MCSnapshotBrowserTest",
+	"pools" : [
+		 ],
+	"super" : "MCTestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

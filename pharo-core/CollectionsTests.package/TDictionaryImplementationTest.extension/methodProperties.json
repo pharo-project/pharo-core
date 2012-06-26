@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAtNil" : "VeronicaUquillas 6/11/2010 13:38",
+		"testFindElementOrNil" : "AlexandreBergel 1/7/2009 19:29",
+		"testNew" : "AlexandreBergel 1/14/2009 15:15",
+		"testPseudo" : "AlexandreBergel 1/7/2009 19:29",
+		"testPseudoVariablesAreValidKeys" : "AlexandreBergel 1/7/2009 19:29",
+		"testScanFor" : "AlexandreBergel 1/7/2009 19:29",
+		"testSpecies" : "AlexandreBergel 1/7/2009 19:29" } }

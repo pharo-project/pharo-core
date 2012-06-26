@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"collectionWithSameAtEndAndBegining" : "delaunay 4/22/2009 10:56",
+		"test0FixtureCopyPartOfForMultipliness" : "delaunay 4/22/2009 10:56",
+		"testCopyAfterLastWithDuplicate" : "delaunay 4/22/2009 11:06",
+		"testCopyAfterWithDuplicate" : "delaunay 4/22/2009 11:03",
+		"testCopyUpToLastWithDuplicate" : "delaunay 4/22/2009 11:14",
+		"testCopyUpToWithDuplicate" : "delaunay 4/22/2009 11:08" } }

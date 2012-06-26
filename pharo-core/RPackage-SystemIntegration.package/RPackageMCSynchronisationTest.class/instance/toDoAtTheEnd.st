@@ -1,0 +1,5 @@
+setup
+toDoAtTheEnd
+
+	MCPackageManager registerForNotifications.
+	MCWorkingCopy registerForNotifications.

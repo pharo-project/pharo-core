@@ -1,0 +1,3 @@
+operations
+createDirectory
+	filesystem createDirectory: path

@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"buildHierarchicalHelpTopicFrom:withSubclasses:withMethods:" : "tbn 3/11/2010 23:39" },
+	"instance" : {
+		"addMethods" : "tbn 3/8/2010 16:26",
+		"addMethods:" : "tbn 3/8/2010 16:26",
+		"addSubclasses" : "tbn 3/8/2010 16:02",
+		"addSubclasses:" : "tbn 3/8/2010 16:02",
+		"build" : "tbn 3/23/2010 21:39",
+		"buildMethodTopicsOn:for:" : "LaurentLaffont 9/2/2010 15:44",
+		"buildSubclassTopicFor:" : "tbn 3/8/2010 16:56",
+		"buildSubnodesForMethods" : "tbn 3/23/2010 21:40",
+		"buildSubnodesForSubclasses" : "tbn 3/23/2010 21:40",
+		"initialize" : "tbn 3/8/2010 16:37",
+		"subclassesAsSeparateTopic" : "tbn 3/8/2010 16:45",
+		"subclassesAsSeparateTopic:" : "tbn 3/8/2010 16:45" } }

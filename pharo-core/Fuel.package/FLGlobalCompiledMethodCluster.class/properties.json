@@ -1,0 +1,16 @@
+{
+	"category" : "Fuel-Clusters",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "FLGlobalCompiledMethodCluster",
+	"pools" : [
+		 ],
+	"super" : "FLGlobalCluster",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

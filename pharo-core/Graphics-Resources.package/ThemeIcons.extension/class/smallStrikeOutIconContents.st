@@ -1,0 +1,11 @@
+*Graphics-Resources-Theme-Icons
+smallStrikeOutIconContents
+	"Private - Method generated with the content of the file smallStrikeOut.png"
+	^ 'iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAABl0
+RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAE9SURBVDiNldO/K/5RFMDxF49f
+iUHf/JhkkUkpPwaD7BaTkk3Z/AUGizIp5S+wyGy0UQaFRd9MFrFQnkgIcQ2f8+jj6fOQW6d7
+u+ec9zn33HOklFQE3VjHHsq4wz42MJa3/fLJOY/gEgkPOMP/OCd8YKkQgBJuwnAZzTlwAxbw
+FvqhIsBEKE9RV5gqq2Gzkr9vkK3+2C9SWBesbQzi5dtt2PcG/R0zRRnUkjp0YACLmAvuNQ5D
+jvBYkNFJSukNpiP6X6WnUoNyfFcpR29BO9riXFlPuMIzXr9q8JPgH+bjWQkHVXolTGH2F1BX
+RH5HZ3Uf3Ad98BfIXthNVgN2QrGJ+hrOrbK2fpDv1FCORlESdjGMptA1YlzWpQlbtYZpLqpc
++aYXnOfACcfoKAQEpA9rEa0sG6Bb2UgvoFT9tE9NmYDjaYSwiQAAAABJRU5ErkJggg=='

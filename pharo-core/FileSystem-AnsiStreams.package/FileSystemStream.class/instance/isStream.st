@@ -1,0 +1,3 @@
+public
+isStream
+	^ true

@@ -1,0 +1,17 @@
+{
+	"category" : "NautilusCommon-Refactor",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"toMoveInSuperClass",
+		"addAnAbstractMethodNamed" ],
+	"name" : "Refactor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

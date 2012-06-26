@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildCharacterBlockIn:" : "sd 2/4/2008 21:22",
+		"characterBlockAtPoint:index:in:" : "nice 12/28/2009 20:14",
+		"characterPointSetX:" : "sd 2/4/2008 21:22",
+		"cr" : "nice 11/16/2009 14:52",
+		"endOfRun" : "sd 2/4/2008 21:22",
+		"indentationLevel:" : "sd 2/4/2008 21:22",
+		"lastCharacterExtentSetX:" : "sd 2/4/2008 21:22",
+		"lastSpaceOrTabExtentSetX:" : "sd 2/4/2008 21:22",
+		"paddedSpace" : "tween 4/6/2007 12:52",
+		"placeEmbeddedObject:" : "sd 2/4/2008 21:22",
+		"setFont" : "sd 2/4/2008 21:22",
+		"setStopConditions" : "ar 10/18/2004 14:31",
+		"tab" : "nice 11/17/2009 03:28" } }

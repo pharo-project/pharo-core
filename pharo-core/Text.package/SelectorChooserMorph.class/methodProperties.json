@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"popUpPrefix:from:" : "AlainPlantec 11/25/2010 23:48",
+		"selectorsFromPrefix:" : "AlainPlantec 11/19/2010 09:01" },
+	"instance" : {
+		"choose:" : "AlainPlantec 11/21/2010 15:59",
+		"close" : "AlainPlantec 11/21/2010 16:03",
+		"comeToFront" : "AlainPlantec 11/19/2010 10:53",
+		"defaultBaseColor" : "AlainPlantec 11/29/2010 09:13",
+		"drawCommonPrefixAreasOn:" : "AlainPlantec 11/19/2010 11:10",
+		"drawCommonPrefixAreasOn:menu:" : "AlainPlantec 11/29/2010 10:59",
+		"fullDrawOn:" : "AlainPlantec 11/24/2010 13:47",
+		"newContentMorph" : "AlainPlantec 11/26/2010 10:03",
+		"nextPrefixWith:" : "AlainPlantec 11/18/2010 22:55",
+		"open" : "FernandoOlivero 4/12/2011 10:15",
+		"positionInRequestor" : "AlainPlantec 11/26/2010 10:11",
+		"prefix:" : "AlainPlantec 11/19/2010 09:19",
+		"setPosition" : "AlainPlantec 11/21/2010 16:10",
+		"step" : "AlainPlantec 11/24/2010 15:11",
+		"stepTime" : "AlainPlantec 11/19/2010 11:27",
+		"wantsSteps" : "AlainPlantec 11/19/2010 08:32" } }

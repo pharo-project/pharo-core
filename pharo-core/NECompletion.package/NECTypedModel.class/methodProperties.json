@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"initialize" : "",
+		"initializeSelectors" : "",
+		"initializeSelectorsFor:" : "",
+		"narrowWith:" : "",
+		"theClass" : "",
+		"title" : "",
+		"toggleExpand" : "" } }

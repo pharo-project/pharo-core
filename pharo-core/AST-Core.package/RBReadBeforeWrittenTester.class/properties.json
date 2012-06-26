@@ -1,0 +1,18 @@
+{
+	"category" : "AST-Core-Visitors",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"read",
+		"checkNewTemps",
+		"scopeStack" ],
+	"name" : "RBReadBeforeWrittenTester",
+	"pools" : [
+		 ],
+	"super" : "RBProgramNodeVisitor",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

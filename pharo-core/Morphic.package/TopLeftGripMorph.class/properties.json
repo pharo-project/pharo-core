@@ -1,0 +1,16 @@
+{
+	"category" : "Morphic-Windows",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "jmv 1/29/2006 17:18",
+	"instvars" : [
+		 ],
+	"name" : "TopLeftGripMorph",
+	"pools" : [
+		 ],
+	"super" : "CornerGripMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

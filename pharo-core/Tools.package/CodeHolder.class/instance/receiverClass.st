@@ -1,0 +1,3 @@
+accessing
+receiverClass
+	^ self selectedClassOrMetaClass

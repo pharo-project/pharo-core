@@ -1,0 +1,19 @@
+{
+	"category" : "NautilusRefactoring-Utilities",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"acceptButton",
+		"cancelButton",
+		"pickList",
+		"textArea" ],
+	"name" : "ChangesBrowser",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

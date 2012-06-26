@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"evaluateWithoutStyling:" : "",
+		"format:" : "",
+		"initialize" : "",
+		"monitor" : "",
+		"privateFormat:" : "",
+		"privateStyle:" : "",
+		"style:" : "",
+		"styleInBackgroundProcess:" : "",
+		"styledTextFor:" : "",
+		"stylingEnabled" : "AlainPlantec 9/19/2011 19:29",
+		"stylingEnabled:" : "AlainPlantec 9/19/2011 19:29",
+		"terminateBackgroundStylingProcess" : "",
+		"unstyledTextFrom:" : "",
+		"view:" : "" } }

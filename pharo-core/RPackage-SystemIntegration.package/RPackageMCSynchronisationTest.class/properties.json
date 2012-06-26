@@ -1,0 +1,17 @@
+{
+	"category" : "RPackage-SystemIntegration",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"emptyOrganizer",
+		"oldAnnouncer" ],
+	"name" : "RPackageMCSynchronisationTest",
+	"pools" : [
+		 ],
+	"super" : "RPackageTestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"changeStamp" : "",
+		"changeStampPerSe" : "",
+		"fixStamp:" : "",
+		"fullName" : "",
+		"fullName:" : "",
+		"fullNamePerSe" : "",
+		"new" : "",
+		"requestFullName" : "",
+		"reset" : "",
+		"uniqueInstance" : "",
+		"uniqueInstance:" : "",
+		"useAuthor:during:" : "" },
+	"instance" : {
+		"checkAndSetFullNameWith:" : "Lr 12/9/2010 17:34",
+		"fullName" : "",
+		"fullName:" : "",
+		"fullNamePerSe" : "",
+		"ifUnknownAuthorUse:during:" : "",
+		"initialize" : "",
+		"messagePrompt" : "",
+		"requestFullName" : "",
+		"reset" : "",
+		"useAuthor:during:" : "" } }

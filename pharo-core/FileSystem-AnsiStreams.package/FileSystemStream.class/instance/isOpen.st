@@ -1,0 +1,3 @@
+public
+isOpen
+	^ handle isOpen

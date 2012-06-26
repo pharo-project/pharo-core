@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"initializeTypeToMimeMappings" : "stephaneducasse 2/4/2006 20:32",
+		"isAbsolute:" : "nk 12/5/2002 11:17",
+		"isActiveDirectoryClass" : "CamilloBruni 8/15/2011 23:39",
+		"isCaseSensitive" : "di 5/11/1999 08:53",
+		"makeAbsolute:" : "stephaneducasse 2/4/2006 20:32",
+		"makeRelative:" : "nk 3/13/2003 10:59",
+		"pathNameDelimiter" : "jm 12/4/97 22:57" },
+	"instance" : {
+		"fullNameFor:" : "stephaneducasse 2/4/2006 20:31",
+		"fullPathFor:" : "yo 12/19/2003 21:15",
+		"mimeTypesFor:" : "stephaneducasse 2/4/2006 20:31" } }

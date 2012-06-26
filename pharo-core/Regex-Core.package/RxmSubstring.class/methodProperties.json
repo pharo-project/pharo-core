@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"beCaseInsensitive" : "vb 4/11/09 21:56",
+		"beCaseSensitive" : "vb 4/11/09 21:56",
+		"character:ignoreCase:" : "vb 4/11/09 21:56",
+		"initialize" : "lr 11/4/2009 22:38",
+		"matchAgainst:" : "vb 4/11/09 21:56",
+		"sampleStream" : "vb 4/11/09 21:56",
+		"substring:ignoreCase:" : "vb 4/11/09 21:56" } }

@@ -1,0 +1,18 @@
+{
+	"category" : "Collections-Unordered",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"keys",
+		"values",
+		"size" ],
+	"name" : "SmallDictionary",
+	"pools" : [
+		 ],
+	"super" : "Collection",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

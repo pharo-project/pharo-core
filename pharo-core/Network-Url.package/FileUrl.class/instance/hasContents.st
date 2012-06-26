@@ -1,0 +1,3 @@
+downloading
+hasContents
+	^true

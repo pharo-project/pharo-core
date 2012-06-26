@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"example1" : "bf 2/19/1999 11:48",
+		"example2" : "bf 2/19/1999 12:46",
+		"exampleStream" : "damiencassou 5/30/2008 11:45",
+		"on:delimiter:" : "bf 11/24/1998 14:31" },
+	"instance" : {
+		"atEnd" : "bf 11/13/1998 16:55",
+		"close" : "bf 11/13/1998 17:00",
+		"delimiter:" : "bf 11/24/1998 14:25",
+		"lastLineRead" : "bf 11/13/1998 13:08",
+		"limitingBlock:" : "stephane.ducasse 4/13/2009 21:08",
+		"linesUpToEnd" : "bf 2/19/1999 11:45",
+		"next" : "bf 11/24/1998 14:37",
+		"nextLine" : "bf 11/24/1998 14:09",
+		"peekLine" : "bf 11/13/1998 13:04",
+		"printOn:" : "bf 11/24/1998 13:39",
+		"setStream:delimiter:" : "bf 11/24/1998 14:30",
+		"skipThisLine" : "bf 11/24/1998 16:53",
+		"upToEnd" : "nice 1/5/2010 15:59",
+		"updatePosition" : "bf 11/24/1998 14:37" } }

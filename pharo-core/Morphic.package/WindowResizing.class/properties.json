@@ -1,0 +1,17 @@
+{
+	"category" : "Morphic-WindowNotification",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"oldSize",
+		"newSize" ],
+	"name" : "WindowResizing",
+	"pools" : [
+		 ],
+	"super" : "WindowAnnouncement",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

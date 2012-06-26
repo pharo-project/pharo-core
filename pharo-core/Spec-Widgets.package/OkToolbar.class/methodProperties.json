@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"defaultSpec" : "bvr 6/4/2012 14:51",
+		"title" : "BenjaminVanRyseghem 5/10/2012 13:07" },
+	"instance" : {
+		"addAll:withSpec:" : "BenjaminVanRyseghem 5/10/2012 13:05",
+		"hFill" : "BenjaminVanRyseghem 5/10/2012 13:05",
+		"initialize" : "BenjaminVanRyseghem 6/11/2012 10:31",
+		"initializePresenter" : "BenjaminVanRyseghem 6/12/2012 18:01",
+		"initializeWidgets" : "BenjaminVanRyseghem 6/12/2012 18:02",
+		"okAction" : "BenjaminVanRyseghem 5/10/2012 13:05",
+		"okAction:" : "BenjaminVanRyseghem 5/10/2012 13:05",
+		"okButton" : "BenjaminVanRyseghem 5/10/2012 13:05",
+		"registerOkButtonEvents" : "BenjaminVanRyseghem 6/12/2012 18:01" } }

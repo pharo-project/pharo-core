@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"forPackageNamed:" : "GuillermoPolito 5/14/2012 11:36",
+		"using:" : "BenjaminVanRyseghem 11/23/2010 15:20" },
+	"instance" : {
+		"analyze" : "BenjaminVanRyseghem 11/19/2010 11:27",
+		"analyzeClassVar:" : "GuillermoPolito 5/14/2012 11:35",
+		"analyzeMethod:" : "GuillermoPolito 5/14/2012 11:44",
+		"analyzeMethods:" : "BenjaminVanRyseghem 11/23/2010 15:43",
+		"dependentClasses" : "GuillermoPolito 5/14/2012 11:38",
+		"dependentPackages" : "GuillermoPolito 5/14/2012 11:40",
+		"initialize" : "GuillermoPolito 5/14/2012 11:35",
+		"list" : "BenjaminVanRyseghem 11/19/2010 11:17",
+		"list:" : "BenjaminVanRyseghem 11/19/2010 11:17" } }

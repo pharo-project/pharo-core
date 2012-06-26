@@ -1,0 +1,4 @@
+*FuelMetalevel
+basicEnvironment
+
+	^self environment 

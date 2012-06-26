@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"buildTreeFrom:maxDepth:" : "ar 12/30/1999 01:25" },
+	"instance" : {
+		"bitLengthAt:" : "ar 12/30/1999 01:43",
+		"bitLengths" : "ar 12/30/1999 01:32",
+		"bitLengths:codes:" : "jannik.laval 5/1/2010 16:50",
+		"buildCodes:counts:maxDepth:" : "jannik.laval 5/1/2010 16:50",
+		"buildHierarchyFrom:" : "ar 12/26/1999 10:42",
+		"buildTree:maxDepth:" : "jannik.laval 5/1/2010 16:50",
+		"buildTreeFrom:maxDepth:" : "ar 12/30/1999 01:24",
+		"codeAt:" : "ar 12/30/1999 01:04",
+		"codes" : "ar 12/30/1999 01:24",
+		"maxCode" : "ar 12/25/1999 17:15",
+		"maxCode:" : "ar 12/25/1999 21:45",
+		"nodeSortBlock" : "ar 12/26/1999 10:42",
+		"reverseBits:length:" : "ar 12/26/1999 11:02",
+		"setValuesFrom:" : "sma 6/1/2000 11:52" } }

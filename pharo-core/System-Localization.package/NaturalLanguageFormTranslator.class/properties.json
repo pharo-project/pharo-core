@@ -1,0 +1,17 @@
+{
+	"category" : "System-Localization",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"CachedTranslations" ],
+	"commentStamp" : "LaurentLaffont 3/4/2011 22:44",
+	"instvars" : [
+		"id",
+		"generics" ],
+	"name" : "NaturalLanguageFormTranslator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

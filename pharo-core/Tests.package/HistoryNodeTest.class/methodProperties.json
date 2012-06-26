@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testClose" : "AlainPlantec 12/14/2010 13:22",
+		"testEmptyHistory" : "AlainPlantec 12/14/2010 13:21",
+		"testGroup" : "AlainPlantec 12/14/2010 13:23",
+		"testOneGroup" : "AlainPlantec 12/14/2010 13:23",
+		"testOneItem" : "AlainPlantec 12/14/2010 13:22",
+		"testReset" : "AlainPlantec 12/14/2010 13:23",
+		"testTwoConsecutiveCloseGroup" : "AlainPlantec 1/5/2011 09:31",
+		"testTwoGroups" : "AlainPlantec 12/14/2010 13:23" } }

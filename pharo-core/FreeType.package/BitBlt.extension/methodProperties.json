@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"combinationRule" : "tween 8/1/2006 17:52",
+		"copyBitsColor:alpha:gammaTable:ungammaTable:" : "tween 7/28/2006 17:54",
+		"installFreeTypeFont:foregroundColor:backgroundColor:" : "tween 4/4/2007 20:59",
+		"lastFontForegroundColor" : "FernandoOlivero 6/10/2011 16:34" } }

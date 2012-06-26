@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testValueWithinNonLocalReturnFixReal" : "nice 1/5/2010 15:59",
+		"testValueWithinNonLocalReturnFixSimply" : "ar 8/17/2007 13:38",
+		"valueWithinNonLocalReturn" : "ar 8/17/2007 13:37" } }

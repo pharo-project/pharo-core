@@ -1,0 +1,23 @@
+{
+	"category" : "Refactoring-Core-Model",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"changes",
+		"environment",
+		"newClasses",
+		"removedClasses",
+		"changedClasses",
+		"rootClasses",
+		"implementorsCache",
+		"sendersCache" ],
+	"name" : "RBNamespace",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"aValue" : "delaunay 4/24/2009 10:43",
+		"anIndex" : "delaunay 4/24/2009 10:44",
+		"anotherValue" : "delaunay 4/24/2009 10:44",
+		"empty" : "delaunay 4/28/2009 11:07",
+		"nonEmpty" : "stephane.ducasse 1/12/2009 16:56",
+		"test0FixturePutTest" : "delaunay 4/28/2009 15:18",
+		"testAtPut" : "delaunay 3/27/2009 13:45",
+		"testAtPutOutOfBounds" : "stephane.ducasse 1/12/2009 17:23",
+		"testAtPutTwoValues" : "stephane.ducasse 1/12/2009 17:17" } }

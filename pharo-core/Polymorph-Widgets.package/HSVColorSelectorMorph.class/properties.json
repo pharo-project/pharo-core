@@ -1,0 +1,17 @@
+{
+	"category" : "Polymorph-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "gvc 5/18/2007 12:55",
+	"instvars" : [
+		"svMorph",
+		"hMorph" ],
+	"name" : "HSVColorSelectorMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

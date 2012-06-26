@@ -1,0 +1,3 @@
+building
+command
+	^ KMCommandModifier new

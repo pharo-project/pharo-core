@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:repositories:" : "TestRunner 12/13/2009 16:50",
+		"testBlueplane" : "lr 2/7/2010 15:14",
+		"testConstraintReference" : "lr 12/13/2009 17:25",
+		"testCustomRepository" : "TestRunner 12/13/2009 16:51",
+		"testDirectoryRepository" : "CamilloBruni 5/4/2012 18:57",
+		"testGemsource" : "lr 12/13/2009 13:36",
+		"testHttpRepository" : "lr 12/13/2009 16:51",
+		"testImpara" : "lr 12/13/2009 13:36",
+		"testInitialReferences" : "lr 12/13/2009 17:40",
+		"testInitialRepositories" : "dkh 12/15/2009 11:26",
+		"testPackageCache" : "lr 12/13/2009 17:44",
+		"testPackageReference" : "lr 12/13/2009 17:27",
+		"testRenggli" : "lr 12/13/2009 13:36",
+		"testRepositoryErrors" : "MarcusDenker 12/8/2011 10:47",
+		"testSqueakfoundation" : "lr 12/13/2009 13:36",
+		"testSqueaksource" : "lr 12/13/2009 13:36",
+		"testSubDirectoryRepository" : "CamilloBruni 5/4/2012 19:00",
+		"testVersionReference" : "lr 12/13/2009 17:27",
+		"testWiresong" : "lr 12/13/2009 13:36" } }

@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"charAtKuten:" : "ar 4/9/2005 22:31",
+		"compoundTextSequence" : "Alexandre.Bergel 11/20/2008 11:17",
+		"initialize" : "Alexandre.Bergel 11/20/2008 11:17",
+		"isBreakableAt:in:" : "yo 3/18/2003 11:11",
+		"isLetter:" : "yo 8/6/2003 05:30",
+		"leadingChar" : "yo 9/2/2002 17:38",
+		"nextPutValue:toStream:withShiftSequenceIfNeededForTextConverterState:" : "Alexandre.Bergel 11/20/2008 11:17",
+		"printingDirection" : "yo 9/4/2002 22:52",
+		"stringFromKutenArray:" : "ar 4/12/2005 17:34",
+		"ucsTable" : "yo 10/14/2003 10:19",
+		"unicodeLeadingChar" : "yo 7/21/2004 18:36" },
+	"instance" : {
+		 } }

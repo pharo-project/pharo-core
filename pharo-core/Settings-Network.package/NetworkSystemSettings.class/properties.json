@@ -1,0 +1,22 @@
+{
+	"category" : "Settings-Network",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"BlabEmail",
+		"LastHTTPProxyPort",
+		"LastHTTPProxyServer",
+		"ProxyPassword",
+		"ProxyUser",
+		"UseHTTPProxy",
+		"UseNetworkAuthentification" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NetworkSystemSettings",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

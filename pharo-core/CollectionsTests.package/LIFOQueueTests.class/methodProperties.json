@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"newQueue" : "Igor.Stasenko 10/16/2010 04:41",
+		"testBasics" : "Igor.Stasenko 10/16/2010 04:46",
+		"testContention1" : "Igor.Stasenko 10/16/2010 04:44",
+		"testHeavyContention" : "Igor.Stasenko 10/16/2010 04:46" } }

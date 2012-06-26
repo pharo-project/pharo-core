@@ -1,0 +1,16 @@
+{
+	"category" : "FileSystem-Tests-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PostorderGuideTest",
+	"pools" : [
+		 ],
+	"super" : "GuideTest",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"defaultSpec" : "bvr 6/4/2012 14:57",
+		"generatingSpec" : "BenjaminVanRyseghem 3/30/2012 14:38" },
+	"instance" : {
+		"categoryField" : "BenjaminVanRyseghem 3/30/2012 14:38",
+		"categoryLabel" : "BenjaminVanRyseghem 3/30/2012 14:38",
+		"classNameLabel" : "BenjaminVanRyseghem 3/30/2012 14:38",
+		"classNameTextField" : "BenjaminVanRyseghem 3/30/2012 14:38",
+		"description:" : "BenjaminVanRyseghem 3/30/2012 17:28",
+		"initialExtent" : "BenjaminVanRyseghem 3/30/2012 15:34",
+		"initialize" : "BenjaminVanRyseghem 6/12/2012 19:08",
+		"initializePresenter" : "BenjaminVanRyseghem 6/12/2012 18:54",
+		"initializeWidgets" : "BenjaminVanRyseghem 6/12/2012 18:55",
+		"toolbar" : "BenjaminVanRyseghem 3/30/2012 14:38" } }

@@ -1,0 +1,21 @@
+{
+	"category" : "Polymorph-Tools-Diff",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"range",
+		"offset",
+		"lineRange",
+		"highlights",
+		"color",
+		"text" ],
+	"name" : "JoinSide",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

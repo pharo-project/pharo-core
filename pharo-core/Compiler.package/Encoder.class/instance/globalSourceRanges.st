@@ -1,0 +1,4 @@
+source mapping
+globalSourceRanges
+
+	^ globalSourceRanges

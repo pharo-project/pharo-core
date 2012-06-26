@@ -1,0 +1,19 @@
+{
+	"category" : "CompilerTests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"creator",
+		"timeStamp",
+		"duration",
+		"tracks" ],
+	"name" : "MethodHighlightingTests",
+	"pools" : [
+		 ],
+	"super" : "ClosureCompilerTest",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

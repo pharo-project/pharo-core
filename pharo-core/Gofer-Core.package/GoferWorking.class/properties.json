@@ -1,0 +1,16 @@
+{
+	"category" : "Gofer-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"workingCopies" ],
+	"name" : "GoferWorking",
+	"pools" : [
+		 ],
+	"super" : "GoferOperation",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,18 @@
+{
+	"category" : "AST-Core-Nodes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"FormatterClass" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"parent",
+		"comments",
+		"properties" ],
+	"name" : "RBProgramNode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

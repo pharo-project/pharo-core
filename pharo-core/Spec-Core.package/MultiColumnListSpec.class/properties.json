@@ -1,0 +1,16 @@
+{
+	"category" : "Spec-Core-Specs",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "MultiColumnListSpec",
+	"pools" : [
+		 ],
+	"super" : "ListSpec",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

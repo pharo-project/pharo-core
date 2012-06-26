@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"accept:" : "eem 9/6/2009 12:34",
+		"emitCode:args:encoder:" : "eem 5/14/2008 14:52",
+		"emitCode:args:encoder:super:" : "eem 5/14/2008 17:47",
+		"emitCodeForEffect:encoder:" : "eem 5/14/2008 14:52",
+		"emitCodeForValue:encoder:" : "eem 5/14/2008 14:52",
+		"isForFFICall" : "eem 9/25/2008 15:18",
+		"key:" : "eem 9/25/2008 14:56",
+		"name:key:index:type:" : "eem 5/14/2008 09:30",
+		"printAsFFICallWithArguments:on:indent:" : "eem 9/25/2008 15:01",
+		"printOn:indent:" : "eem 5/6/2008 14:50",
+		"printWithClosureAnalysisOn:indent:" : "eem 6/2/2008 11:47",
+		"reserve:" : "eem 5/14/2008 16:08",
+		"sizeCode:args:super:" : "eem 5/14/2008 16:15",
+		"sizeCodeForEffect:" : "eem 5/14/2008 14:52",
+		"sizeCodeForValue:" : "eem 5/14/2008 14:52" } }

@@ -1,0 +1,3 @@
+constants
+dBoxProc
+	^1

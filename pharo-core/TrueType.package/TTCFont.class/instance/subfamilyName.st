@@ -1,0 +1,4 @@
+private
+subfamilyName
+
+	^ ttcDescription subfamilyName.

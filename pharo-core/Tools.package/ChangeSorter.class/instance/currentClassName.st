@@ -1,0 +1,4 @@
+class list
+currentClassName
+
+	^ currentClassName

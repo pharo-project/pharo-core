@@ -1,0 +1,16 @@
+{
+	"category" : "FileSystem-Tests-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "InteractiveResolverTest",
+	"pools" : [
+		 ],
+	"super" : "FileSystemResolverTest",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

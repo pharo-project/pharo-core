@@ -1,0 +1,16 @@
+{
+	"category" : "Collections-Weak",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WeakOrderedCollection",
+	"pools" : [
+		 ],
+	"super" : "OrderedCollection",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

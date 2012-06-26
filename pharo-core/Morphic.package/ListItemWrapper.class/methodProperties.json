@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"with:" : "RAA 3/30/1999 18:28",
+		"with:model:" : "RAA 3/31/1999 16:44" },
+	"instance" : {
+		"acceptDroppingObject:" : "RAA 3/30/1999 18:13",
+		"asString" : "RAA 3/30/1999 18:17",
+		"balloonText" : "RAA 7/21/2000 10:59",
+		"canBeDragged" : "RAA 3/31/1999 12:25",
+		"contents" : "RAA 3/31/1999 16:32",
+		"handlesMouseOver:" : "RAA 3/31/1999 16:24",
+		"hasContents" : "RAA 4/1/1999 20:09",
+		"hasEquivalentIn:" : "RAA 3/31/1999 12:15",
+		"highlightingColor" : "AlainPlantec 9/11/2011 05:42",
+		"icon" : "dgd 9/26/2004 18:22",
+		"item" : "gvc 8/23/2006 15:53",
+		"item:" : "MarcusDenker 2/19/2010 17:32",
+		"model" : "gvc 10/26/2006 11:11",
+		"preferredColor" : "AlainPlantec 12/16/2009 21:59",
+		"sendSettingMessageTo:" : "RAA 4/4/1999 17:58",
+		"setItem:" : "RAA 3/30/1999 18:27",
+		"setItem:model:" : "RAA 3/31/1999 16:44",
+		"settingSelector" : "RAA 3/31/1999 21:31",
+		"theme" : "IgorStasenko 4/15/2011 15:27",
+		"wantsDroppedObject:" : "RAA 3/31/1999 16:32",
+		"withoutListWrapper" : "RAA 3/31/1999 12:13" } }

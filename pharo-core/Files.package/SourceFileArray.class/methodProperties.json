@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"install" : "MarcusDenker 5/3/2012 13:30",
+		"new:" : "MarcusDenker 5/3/2012 13:30" },
+	"instance" : {
+		"at:" : "MarcusDenker 5/3/2012 13:27",
+		"at:put:" : "MarcusDenker 5/3/2012 13:27",
+		"fileIndexFromSourcePointer:" : "MarcusDenker 5/3/2012 13:28",
+		"filePositionFromSourcePointer:" : "MarcusDenker 5/3/2012 13:28",
+		"initialize" : "MarcusDenker 5/3/2012 13:27",
+		"initialize:" : "MarcusDenker 5/3/2012 13:28",
+		"size" : "MarcusDenker 5/3/2012 13:28",
+		"sourcePointerFromFileIndex:andPosition:" : "MarcusDenker 5/3/2012 13:29" } }

@@ -1,0 +1,16 @@
+{
+	"category" : "Fuel-Errors",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "MartinDias 12/16/2011 01:16",
+	"instvars" : [
+		 ],
+	"name" : "FLGlobalNotFound",
+	"pools" : [
+		 ],
+	"super" : "FLMaterializationError",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

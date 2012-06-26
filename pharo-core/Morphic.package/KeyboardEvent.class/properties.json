@@ -1,0 +1,18 @@
+{
+	"category" : "Morphic-Events",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"keyValue",
+		"charCode",
+		"scanCode" ],
+	"name" : "KeyboardEvent",
+	"pools" : [
+		 ],
+	"super" : "UserInputEvent",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

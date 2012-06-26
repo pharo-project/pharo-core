@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "2010-11-26T09:22:00+01:00",
+		"testAddMethod" : "2010-04-22T07:53:00+01:00",
+		"testBasicRemoveClass" : "2010-04-22T07:59:00+01:00",
+		"testExtensionMethodOfClass" : "2010-04-24T22:31:00+01:00",
+		"testRemoveMethod" : "2010-04-24T22:28:00+01:00",
+		"testRemoveMethodDoesNotRemoveFromClass" : "2010-04-24T22:27:00+01:00",
+		"testRemoveShouldRaiseErrorWhenMethodIsNotInPackage" : "2010-04-24T22:28:00+01:00",
+		"testStartingSituation" : "2010-04-22T07:52:00+01:00" } }

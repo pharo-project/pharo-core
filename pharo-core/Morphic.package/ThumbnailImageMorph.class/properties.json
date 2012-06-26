@@ -1,0 +1,18 @@
+{
+	"category" : "Morphic-Basic",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "wiz 2/19/2006 18:10",
+	"instvars" : [
+		"imagePopupMorph",
+		"desiredExtent",
+		"isPopup" ],
+	"name" : "ThumbnailImageMorph",
+	"pools" : [
+		 ],
+	"super" : "ImageMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

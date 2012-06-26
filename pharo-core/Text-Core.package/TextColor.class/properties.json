@@ -1,0 +1,16 @@
+{
+	"category" : "Text-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"color" ],
+	"name" : "TextColor",
+	"pools" : [
+		 ],
+	"super" : "TextAttribute",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

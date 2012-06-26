@@ -1,0 +1,20 @@
+{
+	"category" : "Spec-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"bindings",
+		"focusOrder",
+		"owner",
+		"window",
+		"spec" ],
+	"name" : "ComposableModel",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

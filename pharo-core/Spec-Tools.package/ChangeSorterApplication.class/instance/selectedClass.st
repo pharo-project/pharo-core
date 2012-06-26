@@ -1,0 +1,4 @@
+protocol
+selectedClass
+
+	 ^ classesListModel selectedItem

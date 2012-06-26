@@ -1,0 +1,17 @@
+{
+	"category" : "System-Change Notification",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"UniqueInstance" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"eventSource",
+		"silenceLevel" ],
+	"name" : "SystemChangeNotifier",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+constants
+resetConstants
+	Constants := nil.

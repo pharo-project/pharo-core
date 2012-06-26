@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"guessVariable:in:expected:" : "",
+		"testComplexInit" : "",
+		"testComplexInit2" : "",
+		"testConstantArray" : "",
+		"testConstantBoolean" : "",
+		"testConstantInteger" : "",
+		"testConstantIntegerNil" : "",
+		"testConstantString" : "",
+		"testConstantSymbol" : "",
+		"testGlobalVarKeyword" : "",
+		"testGlobalVarKeyword2" : "",
+		"testMessageSend" : "",
+		"testMessageSend2" : "",
+		"testSuperWithAnotherInit" : "",
+		"testTypeSuggestingParameter" : "" } }

@@ -1,0 +1,3 @@
+accessing
+packageInfo
+	^ package packageInfo

@@ -1,0 +1,3 @@
+icons
+haloRotIcon
+	^ ThemeIcons haloRotIcon

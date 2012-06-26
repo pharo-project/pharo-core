@@ -1,0 +1,4 @@
+protocol
+pickedItems
+
+	^ pickedItemsHolder contents

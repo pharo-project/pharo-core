@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"dispatchRenameClass:" : "",
+		"refactor" : "",
+		"removeClassWithRefactoringEngine:" : "",
+		"renameClassWithRefactoringEngine:" : "" } }

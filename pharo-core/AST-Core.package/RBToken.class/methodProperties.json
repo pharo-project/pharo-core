@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"start:" : "" },
+	"instance" : {
+		"comments" : "",
+		"comments:" : "",
+		"isAssignment" : "",
+		"isBinary" : "",
+		"isIdentifier" : "",
+		"isKeyword" : "",
+		"isLiteral" : "",
+		"isLiteralArrayToken" : "",
+		"isLiteralToken" : "",
+		"isPatternBlock" : "",
+		"isPatternVariable" : "",
+		"isSpecial" : "",
+		"length" : "",
+		"printOn:" : "",
+		"removePositions" : "",
+		"start" : "lr 2/18/2010 17:25",
+		"start:" : "",
+		"stop" : "lr 2/18/2010 17:25" } }

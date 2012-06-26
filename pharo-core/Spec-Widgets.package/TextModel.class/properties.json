@@ -1,0 +1,23 @@
+{
+	"category" : "Spec-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"aboutToStyleHolder",
+		"behaviorHolder",
+		"textHolder",
+		"actionToPerformHolder",
+		"readSelectionHolder",
+		"enabledHolder",
+		"actionPerformedHolder",
+		"isCodeCompletionAllowedHolder" ],
+	"name" : "TextModel",
+	"pools" : [
+		 ],
+	"super" : "AbstractBasicWidget",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,20 @@
+{
+	"category" : "CollectionsTests-Unordered",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"equalNotIdenticalElement",
+		"elementToCopy",
+		"identityBagNonEmptyNoDuplicate5Elements",
+		"elementAlreadyIncluded",
+		"identityBagWithoutElement" ],
+	"name" : "IdentityBagTest",
+	"pools" : [
+		 ],
+	"super" : "BagTest",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

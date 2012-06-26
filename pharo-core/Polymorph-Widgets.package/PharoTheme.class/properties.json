@@ -1,0 +1,16 @@
+{
+	"category" : "Polymorph-Widgets-Themes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "PharoTheme",
+	"pools" : [
+		 ],
+	"super" : "UIThemeWatery2",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

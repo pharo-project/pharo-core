@@ -1,0 +1,16 @@
+{
+	"category" : "CollectionsTests-Strings",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ByteSymbolTest",
+	"pools" : [
+		 ],
+	"super" : "SymbolTest",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

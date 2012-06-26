@@ -1,0 +1,20 @@
+{
+	"category" : "GroupManager",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"name",
+		"readOnly",
+		"removable",
+		"sortBlock",
+		"isFillable" ],
+	"name" : "AbstractGroup",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

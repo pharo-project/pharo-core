@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"from:" : "bf 4/4/2005 12:20",
+		"script:packageName:" : "avi 2/28/2005 16:59",
+		"scriptSelector" : "avi 2/28/2005 17:00",
+		"scriptSelector:script:packageName:" : "bf 8/13/2009 00:24",
+		"subclassForScriptSelector:" : "bf 8/13/2009 00:25" },
+	"instance" : {
+		"=" : "avi 2/28/2005 16:55",
+		"accept:" : "bf 8/12/2009 21:41",
+		"description" : "avi 2/28/2005 17:12",
+		"evaluate" : "jb 7/1/2011 10:52",
+		"initializeWithScript:packageName:" : "stephaneducasse 2/4/2006 20:47",
+		"installScript" : "avi 2/28/2005 17:11",
+		"installScript:" : "bf 10/25/2005 18:55",
+		"isScriptDefinition" : "bf 8/12/2009 22:55",
+		"load" : "avi 2/28/2005 17:12",
+		"packageInfo" : "avi 2/28/2005 17:22",
+		"packageName" : "bf 8/13/2009 00:09",
+		"script" : "avi 2/28/2005 16:54",
+		"scriptSelector" : "avi 2/28/2005 17:10",
+		"sortKey" : "bf 10/25/2005 19:05",
+		"source" : "avi 2/28/2005 17:04",
+		"summary" : "avi 2/28/2005 17:12",
+		"unload" : "avi 2/28/2005 17:12" } }

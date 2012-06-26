@@ -1,0 +1,16 @@
+{
+	"category" : "Refactoring-Critics",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RBBlockLintRule",
+	"pools" : [
+		 ],
+	"super" : "RBBasicLintRule",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

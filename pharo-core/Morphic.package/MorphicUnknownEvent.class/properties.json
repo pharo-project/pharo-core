@@ -1,0 +1,17 @@
+{
+	"category" : "Morphic-Events",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"type",
+		"argument" ],
+	"name" : "MorphicUnknownEvent",
+	"pools" : [
+		"EventSensorConstants" ],
+	"super" : "MorphicEvent",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

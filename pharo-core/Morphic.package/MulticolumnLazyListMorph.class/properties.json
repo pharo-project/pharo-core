@@ -1,0 +1,16 @@
+{
+	"category" : "Morphic-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"columnWidths" ],
+	"name" : "MulticolumnLazyListMorph",
+	"pools" : [
+		 ],
+	"super" : "LazyListMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

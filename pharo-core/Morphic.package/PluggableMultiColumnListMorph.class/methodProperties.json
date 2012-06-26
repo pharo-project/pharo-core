@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"on:list:selected:changeSelected:menu:keystroke:wrapSelector:" : "BenjmainVanRyseghem 11/5/2011 11:32",
+		"on:list:selected:changeSelected:menu:wrapSelector:" : "BenjmainVanRyseghem 11/5/2011 11:36" },
+	"instance" : {
+		"basicKeyPressed:" : "ls 11/14/2002 13:13",
+		"gapSize" : "BenjaminVanRyseghem 9/8/2011 13:01",
+		"gapSize:" : "BenjaminVanRyseghem 9/8/2011 13:09",
+		"getList" : "BenjaminVanRyseghem 11/29/2011 09:57",
+		"getListRow:" : "BenjaminVanRyseghem 9/6/2011 13:42",
+		"getListSize" : "BenjaminVanRyseghem 9/6/2011 15:40",
+		"itemFromPoint:" : "nk 4/5/2001 23:18",
+		"listForSearching" : "BenjaminVanRyseghem 2/13/2012 17:38",
+		"listMorphClass" : "ls 5/17/2001 20:01",
+		"on:list:selected:changeSelected:menu:keystroke:wrapSelector:" : "BenjmainVanRyseghem 11/5/2011 11:33" } }

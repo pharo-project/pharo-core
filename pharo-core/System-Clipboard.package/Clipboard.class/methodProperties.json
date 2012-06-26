@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"chooseRecentClipping" : "ar 1/15/2001 18:45",
+		"clipboardText" : "ar 1/15/2001 18:35",
+		"clipboardText:" : "ar 1/15/2001 18:35",
+		"default" : "michael.rueger 3/2/2009 11:12",
+		"initialize" : "michael.rueger 3/2/2009 11:11",
+		"shutDown:" : "VeronicaUquillas 6/11/2010 13:53",
+		"startUp:" : "VeronicaUquillas 6/11/2010 13:53" },
+	"instance" : {
+		"chooseRecentClipping" : "StephaneDucasse 1/29/2010 21:42",
+		"clipboardText" : "michael.rueger 6/10/2009 13:42",
+		"clipboardText:" : "HenrikSperreJohansen 1/28/2011 15:19",
+		"initialize" : "alain.plantec 5/28/2009 09:47",
+		"noteRecentClipping:" : "ar 1/15/2001 18:34",
+		"primitiveClipboardText" : "michael.rueger 3/25/2009 14:23",
+		"primitiveClipboardText:" : "michael.rueger 3/25/2009 14:23" } }

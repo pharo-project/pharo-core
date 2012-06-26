@@ -1,0 +1,17 @@
+{
+	"category" : "FileSystem-Tests-AnsiStreams",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"filesystem",
+		"stream" ],
+	"name" : "FileSystemWriteStreamTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

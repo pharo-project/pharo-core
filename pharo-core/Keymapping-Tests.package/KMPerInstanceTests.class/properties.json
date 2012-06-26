@@ -1,0 +1,16 @@
+{
+	"category" : "Keymapping-Tests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "KMPerInstanceTests",
+	"pools" : [
+		 ],
+	"super" : "AbstractKeymappingTest",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

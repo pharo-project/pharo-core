@@ -1,0 +1,31 @@
+{
+	"category" : "Compiler-Kernel",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"AllowBlockArgumentAssignment",
+		"Warns" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"here",
+		"hereType",
+		"hereMark",
+		"hereEnd",
+		"prevMark",
+		"prevEnd",
+		"encoder",
+		"requestor",
+		"parseNode",
+		"failBlock",
+		"requestorOffset",
+		"tempsMark",
+		"doitFlag",
+		"properties",
+		"category" ],
+	"name" : "Parser",
+	"pools" : [
+		 ],
+	"super" : "Scanner",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

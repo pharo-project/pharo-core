@@ -1,0 +1,17 @@
+{
+	"category" : "AST-Core-Nodes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"return",
+		"value" ],
+	"name" : "RBReturnNode",
+	"pools" : [
+		 ],
+	"super" : "RBProgramNode",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

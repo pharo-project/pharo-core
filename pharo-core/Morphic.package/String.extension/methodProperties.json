@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"asDraggableMorph" : "BenjaminVanRyseghem 10/7/2011 21:01",
+		"asMorph" : "ar 4/10/2005 17:07",
+		"asStringMorph" : "ar 4/10/2005 17:07",
+		"beginsWith:fromList:" : "BenjaminVanRyseghem 2/12/2012 15:17",
+		"listRenderOn:atRow:bounds:color:from:" : "BenjaminVanRyseghem 2/11/2012 23:56",
+		"widthToDisplayInList:" : "BenjaminVanRyseghem 2/12/2012 00:21" } }

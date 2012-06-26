@@ -1,0 +1,1 @@
+an entry in a directory; a reference to either a file or a directory.

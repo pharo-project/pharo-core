@@ -1,0 +1,1 @@
+An EncryptedTextMorphForFieldView is a view displaying stars instead of character (for password by example)

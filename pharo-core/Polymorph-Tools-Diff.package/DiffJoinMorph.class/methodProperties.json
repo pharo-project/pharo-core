@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"splitterWidth" : "gvc 2/3/2010 16:20" },
+	"instance" : {
+		"compositeText" : "gvc 7/30/2009 13:43",
+		"defaultColor" : "gvc 10/20/2006 14:21",
+		"drawOn:" : "gvc 10/31/2006 12:08",
+		"dstOffset" : "gvc 10/24/2006 16:02",
+		"dstOffset:" : "gvc 10/31/2006 11:33",
+		"extent:" : "gvc 10/31/2006 13:18",
+		"initialize" : "gvc 10/31/2006 11:44",
+		"layoutBounds:" : "gvc 10/31/2006 13:18",
+		"mappings" : "gvc 10/20/2006 11:50",
+		"mappings:" : "gvc 10/31/2006 13:19",
+		"mouseDown:" : "gvc 11/1/2006 12:00",
+		"srcOffset" : "gvc 10/24/2006 16:02",
+		"srcOffset:" : "gvc 10/31/2006 11:33",
+		"updateMappings" : "gvc 10/31/2006 13:18" } }

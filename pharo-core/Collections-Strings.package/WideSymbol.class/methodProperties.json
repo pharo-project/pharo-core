@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"initialize" : "ar 4/10/2005 23:55" },
+	"instance" : {
+		"at:" : "ar 4/10/2005 23:38",
+		"byteAt:" : "ar 4/10/2005 23:38",
+		"byteAt:put:" : "ar 4/10/2005 23:38",
+		"byteSize" : "ar 4/10/2005 23:38",
+		"isWideString" : "ar 4/12/2005 19:52",
+		"mutateJISX0208StringToUnicode" : "yo 7/29/2005 21:53",
+		"pvtAt:put:" : "ar 4/11/2005 00:09",
+		"species" : "ar 4/12/2005 17:34",
+		"string:" : "ar 4/10/2005 23:58",
+		"wordAt:" : "ar 4/10/2005 23:38",
+		"wordAt:put:" : "ar 4/10/2005 23:39" } }

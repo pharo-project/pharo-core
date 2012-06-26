@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"drawLineFrom:to:on:" : "gvc 10/17/2006 11:07",
+		"frameRectangle:on:" : "gvc 10/17/2006 11:06",
+		"initialize" : "gvc 10/17/2006 11:05",
+		"margin" : "gvc 10/17/2006 11:04",
+		"margin:" : "gvc 10/17/2006 11:04" } }

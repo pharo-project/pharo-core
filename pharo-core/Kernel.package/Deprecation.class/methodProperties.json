@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"deprecationsWhile:" : "eem 7/3/2009 19:13",
+		"initialize" : "GuillermoPolito 5/21/2012 01:57",
+		"method:explanation:on:in:" : "eem 7/3/2009 19:15",
+		"raiseWarning" : "AlainPlantec 12/11/2009 10:06",
+		"raiseWarning:" : "AlainPlantec 12/11/2009 10:06",
+		"showWarning" : "AlainPlantec 12/11/2009 10:07",
+		"showWarning:" : "AlainPlantec 12/11/2009 10:07" },
+	"instance" : {
+		"=" : "eem 7/3/2009 19:10",
+		"defaultAction" : "AlainPlantec 12/11/2009 10:09",
+		"deprecationDate" : "eem 7/3/2009 19:07",
+		"explanationString" : "eem 7/3/2009 19:07",
+		"hash" : "eem 7/3/2009 19:08",
+		"messageText" : "VeronicaUquillas 8/31/2011 15:26",
+		"method:explanation:on:in:" : "eem 7/3/2009 18:57",
+		"methodReference" : "eem 7/3/2009 19:07",
+		"raiseWarning" : "AlainPlantec 12/11/2009 10:08",
+		"showWarning" : "AlainPlantec 12/11/2009 10:08",
+		"versionString" : "eem 7/3/2009 19:07" } }

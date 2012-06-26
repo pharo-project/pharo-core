@@ -1,0 +1,16 @@
+{
+	"category" : "Compiler-Kernel",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "EncoderForV3",
+	"pools" : [
+		 ],
+	"super" : "BytecodeEncoder",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

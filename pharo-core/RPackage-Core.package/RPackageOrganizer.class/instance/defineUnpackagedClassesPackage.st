@@ -1,0 +1,3 @@
+initialize-release
+defineUnpackagedClassesPackage
+	^ self ensureExistAndRegisterPackageNamed: self packageClass defaultPackageName

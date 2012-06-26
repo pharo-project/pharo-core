@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"expectedCrc:" : "nk 3/7/2004 18:55",
+		"on:from:to:" : "nk 3/7/2004 15:31",
+		"updateCrc:from:to:in:" : "nk 3/7/2004 15:32",
+		"verifyCrc" : "BG 3/16/2005 08:28" } }

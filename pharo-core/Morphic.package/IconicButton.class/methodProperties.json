@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"defaultGraphics" : "StephaneDucasse 5/17/2012 16:40",
+		"initialize" : "StephaneDucasse 5/17/2012 16:33" },
+	"instance" : {
+		"addLabelItemsTo:hand:" : "sw 9/28/1999 20:42",
+		"borderInset" : "ar 12/12/2001 01:38",
+		"borderNormal" : "ar 12/12/2001 01:38",
+		"borderRaised" : "ar 12/12/2001 01:41",
+		"borderThick" : "ar 12/17/2001 21:17",
+		"buttonSetup" : "ar 12/15/2001 14:43",
+		"defaultGraphics" : "StephaneDucasse 5/17/2012 16:33",
+		"extent:" : "MarcusDenker 11/23/2010 14:58",
+		"initialize" : "sw 11/29/1999 20:52",
+		"interactSelector" : "BenjaminVanRyseghem 8/23/2011 14:31",
+		"labelFromString:" : "sw 9/28/1999 14:11",
+		"setDefaultLabel" : "StephaneDucasse 5/17/2012 16:36",
+		"shedSelvedge" : "sw 11/29/1999 20:56",
+		"stationarySetup" : "ar 12/18/2001 21:22",
+		"update:" : "BenjaminVanRyseghem 8/23/2011 15:04" } }

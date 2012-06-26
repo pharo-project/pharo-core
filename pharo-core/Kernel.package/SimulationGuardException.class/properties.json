@@ -1,0 +1,18 @@
+{
+	"category" : "Kernel-Methods",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"method",
+		"receiver",
+		"args" ],
+	"name" : "SimulationGuardException",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

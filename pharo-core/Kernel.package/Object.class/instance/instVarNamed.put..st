@@ -1,0 +1,9 @@
+system primitives
+instVarNamed: aString put: aValue
+	"Store into the value of the instance variable in me of that name.  Slow and unclean, but very useful. "
+
+	^self
+		instVarAt: (self class
+						instVarIndexFor: aString asString
+						ifAbsent: [self error: 'no such inst var'])
+		put: aValue

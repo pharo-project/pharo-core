@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"handleEventWithError:" : "rw 4/3/2006 17:57",
+		"handleEventWithHalt:" : "StephaneDucasse 10/20/2011 15:43",
+		"setUp" : "rw 4/3/2006 17:51",
+		"storeEvent1:" : "rw 4/3/2006 17:57",
+		"storeEvent2:" : "rw 4/3/2006 17:57",
+		"storeEvent3:" : "rw 4/3/2006 17:57",
+		"tearDown" : "rw 4/3/2006 17:56",
+		"testErrorOperation" : "rw 4/5/2006 17:24",
+		"testHaltOperation" : "rw 4/5/2006 17:24",
+		"testUnhandledEventOperation" : "rw 4/5/2006 17:24" } }

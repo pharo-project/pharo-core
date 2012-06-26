@@ -1,0 +1,16 @@
+{
+	"category" : "Spec-Core-Specs",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"defaultReceiver" ],
+	"name" : "RawSpec",
+	"pools" : [
+		 ],
+	"super" : "AbstractSpec",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,25 @@
+{
+	"category" : "MonticelloGUI",
+	"classinstvars" : [
+		"repositorySearchMaxSize",
+		"workingCopySearchMaxSize",
+		"workingCopySearchList",
+		"repositorySearchList" ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"Order" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"workingCopy",
+		"workingCopyWrapper",
+		"repository",
+		"defaults",
+		"order",
+		"repositoryPattern",
+		"workingCopyPattern" ],
+	"name" : "MCWorkingCopyBrowser",
+	"pools" : [
+		 ],
+	"super" : "MCTool",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

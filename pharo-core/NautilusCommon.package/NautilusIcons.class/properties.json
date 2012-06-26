@@ -1,0 +1,17 @@
+{
+	"category" : "NautilusCommon",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"Icons",
+		"Instance" ],
+	"commentStamp" : "lr 7/10/2009 11:12",
+	"instvars" : [
+		 ],
+	"name" : "NautilusIcons",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

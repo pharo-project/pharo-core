@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:hasElements:" : "ab 1/15/2003 16:46",
+		"assertMerge:with:base:gives:conflicts:" : "stephaneducasse 2/4/2006 20:47",
+		"handleConflict:" : "marcus.denker 11/10/2008 10:04",
+		"snapshotWithElements:" : "ab 7/6/2003 23:48",
+		"testAdditiveConflictlessMerge" : "ab 12/5/2002 00:28",
+		"testComplexConflictlessMerge" : "ab 12/5/2002 00:27",
+		"testIdenticalModification" : "ab 12/5/2002 00:28",
+		"testLocalModifyRemoteRemove" : "ab 6/2/2003 01:44",
+		"testLocalRemoveRemoteModify" : "ab 6/2/2003 01:43",
+		"testMultiPackageMerge" : "stephaneducasse 2/4/2006 20:47",
+		"testMultiPackageMerge2" : "stephaneducasse 2/4/2006 20:47",
+		"testMultiPackageMerge3" : "stephaneducasse 2/4/2006 20:47",
+		"testMultipleConflicts" : "ab 6/2/2003 01:38",
+		"testSimultaneousModification" : "ab 6/2/2003 01:38",
+		"testSimultaneousRemove" : "ab 12/5/2002 01:27",
+		"testSubtractiveConflictlessMerge" : "ab 12/5/2002 01:31" } }

@@ -1,0 +1,2 @@
+class compatibility
+allSubclassesDo: aBlock

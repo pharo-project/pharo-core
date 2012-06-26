@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"visitAssignmentNode:" : "eem 9/10/2008 15:10",
+		"visitBlockNode:" : "eem 9/10/2008 15:13",
+		"visitBraceNode:" : "eem 9/10/2008 15:14",
+		"visitCascadeNode:" : "eem 9/10/2008 16:13",
+		"visitCommentNode:" : "eem 5/30/2008 10:07",
+		"visitFieldNode:" : "eem 5/30/2008 10:07",
+		"visitInstanceVariableNode:" : "eem 5/30/2008 10:07",
+		"visitLiteralNode:" : "eem 5/30/2008 10:07",
+		"visitLiteralVariableNode:" : "eem 5/30/2008 10:07",
+		"visitMessageNode:" : "eem 9/5/2009 20:08",
+		"visitMessageNodeInCascade:" : "eem 2/9/2009 10:04",
+		"visitMethodNode:" : "eem 9/10/2008 15:53",
+		"visitNewArrayNode:" : "eem 5/30/2008 10:07",
+		"visitRemoteTempVectorNode:" : "eem 5/30/2008 10:07",
+		"visitReturnNode:" : "eem 9/10/2008 15:53",
+		"visitSelectorNode:" : "eem 5/30/2008 10:07",
+		"visitTempVariableNode:" : "eem 5/30/2008 10:07",
+		"visitVariableNode:" : "eem 5/30/2008 10:32" } }

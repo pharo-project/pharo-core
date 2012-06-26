@@ -1,0 +1,4 @@
+accessing
+sourceCode
+
+	^ self getSource

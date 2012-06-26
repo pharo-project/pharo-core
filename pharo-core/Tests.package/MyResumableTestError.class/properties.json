@@ -1,0 +1,16 @@
+{
+	"category" : "Tests-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MyResumableTestError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

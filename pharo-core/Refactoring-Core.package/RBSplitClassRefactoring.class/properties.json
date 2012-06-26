@@ -1,0 +1,20 @@
+{
+	"category" : "Refactoring-Core-Refactorings",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"class",
+		"instanceVariables",
+		"newClassName",
+		"referenceVariableName",
+		"newClass" ],
+	"name" : "RBSplitClassRefactoring",
+	"pools" : [
+		 ],
+	"super" : "RBRefactoring",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

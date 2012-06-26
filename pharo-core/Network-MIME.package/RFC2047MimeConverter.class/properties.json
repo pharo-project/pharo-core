@@ -1,0 +1,16 @@
+{
+	"category" : "Network-MIME",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "RFC2047MimeConverter",
+	"pools" : [
+		 ],
+	"super" : "QuotedPrintableMimeConverter",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

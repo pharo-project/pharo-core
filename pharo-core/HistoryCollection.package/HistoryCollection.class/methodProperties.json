@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"maxSize:" : "BenjaminVanRyseghem 3/17/2011 13:47" },
+	"instance" : {
+		"add:" : "BenjaminVanRyseghem 3/17/2011 13:37",
+		"at:" : "BenjaminVanRyseghem 3/17/2011 13:43",
+		"elements" : "BenjaminVanRyseghem 3/18/2011 15:33",
+		"identityIncludes:" : "BenjaminVanRyseghem 3/17/2011 13:38",
+		"includes:" : "BenjaminVanRyseghem 3/17/2011 13:37",
+		"initialize" : "BenjaminVanRyseghem 3/17/2011 13:47",
+		"lessSeen" : "BenjaminVanRyseghem 3/17/2011 14:00",
+		"maxSize" : "BenjaminVanRyseghem 3/17/2011 13:31",
+		"maxSize:" : "BenjaminVanRyseghem 3/17/2011 13:32",
+		"mostSeen" : "BenjaminVanRyseghem 3/17/2011 14:05",
+		"mostViewedlements" : "BenjaminVanRyseghem 3/18/2011 16:49",
+		"oldest" : "BenjaminVanRyseghem 3/17/2011 14:03",
+		"remove:" : "BenjaminVanRyseghem 3/17/2011 13:49",
+		"removeLast" : "BenjaminVanRyseghem 3/17/2011 13:54",
+		"size" : "BenjaminVanRyseghem 3/17/2011 13:49",
+		"youngest" : "BenjaminVanRyseghem 3/17/2011 14:03" } }

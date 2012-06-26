@@ -1,0 +1,16 @@
+{
+	"category" : "FileSystem-Disk",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "UnixStore",
+	"pools" : [
+		 ],
+	"super" : "DiskStore",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

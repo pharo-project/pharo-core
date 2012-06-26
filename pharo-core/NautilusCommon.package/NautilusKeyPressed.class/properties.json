@@ -1,0 +1,16 @@
+{
+	"category" : "NautilusCommon-Announcements",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"key" ],
+	"name" : "NautilusKeyPressed",
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

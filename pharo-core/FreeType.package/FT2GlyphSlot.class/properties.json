@@ -1,0 +1,32 @@
+{
+	"category" : "FreeType-Base",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"face",
+		"linearHorizontalAdvance",
+		"linearVerticalAdvance",
+		"advanceX",
+		"advanceY",
+		"format",
+		"bitmapLeft",
+		"bitmapTop",
+		"width",
+		"height",
+		"hBearingX",
+		"hBearingY",
+		"hAdvance",
+		"vBearingX",
+		"vBearingY",
+		"vAdvance",
+		"outline" ],
+	"name" : "FT2GlyphSlot",
+	"pools" : [
+		"FT2Constants" ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "NautilusRefactoring-Refactorings",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RBProtocolRegexRefactoring",
+	"pools" : [
+		 ],
+	"super" : "RBRegexRefactoring",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

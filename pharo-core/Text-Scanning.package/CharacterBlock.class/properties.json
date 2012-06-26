@@ -1,0 +1,18 @@
+{
+	"category" : "Text-Scanning",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "StephaneDucasse 5/18/2010 16:00",
+	"instvars" : [
+		"stringIndex",
+		"text",
+		"textLine" ],
+	"name" : "CharacterBlock",
+	"pools" : [
+		"TextConstants" ],
+	"super" : "Rectangle",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

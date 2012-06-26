@@ -1,0 +1,16 @@
+{
+	"category" : "Collections-Unordered",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "Set",
+	"pools" : [
+		 ],
+	"super" : "HashedCollection",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

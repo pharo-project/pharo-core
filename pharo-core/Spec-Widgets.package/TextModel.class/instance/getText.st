@@ -1,0 +1,4 @@
+morphic
+getText
+	
+	^ textHolder contents

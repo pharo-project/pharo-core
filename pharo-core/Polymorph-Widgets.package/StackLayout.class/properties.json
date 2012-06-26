@@ -1,0 +1,17 @@
+{
+	"category" : "Polymorph-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cachedMinExtent",
+		"cachedMinExtents" ],
+	"name" : "StackLayout",
+	"pools" : [
+		 ],
+	"super" : "LayoutPolicy",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

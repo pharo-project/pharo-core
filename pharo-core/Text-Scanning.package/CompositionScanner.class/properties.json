@@ -1,0 +1,21 @@
+{
+	"category" : "Text-Scanning",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"spaceX",
+		"spaceIndex",
+		"lineHeight",
+		"baseline",
+		"lineHeightAtSpace",
+		"baselineAtSpace" ],
+	"name" : "CompositionScanner",
+	"pools" : [
+		"TextConstants" ],
+	"super" : "CharacterScanner",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

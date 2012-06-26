@@ -1,0 +1,17 @@
+{
+	"category" : "Gofer-Tests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"versionReferences",
+		"monticelloRepository" ],
+	"name" : "GoferResource",
+	"pools" : [
+		 ],
+	"super" : "TestResource",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

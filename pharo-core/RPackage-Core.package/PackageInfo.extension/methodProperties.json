@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"classesAndMetaClassesNotDefinedInSubCategories" : "cyrille.delaunay 11/25/2010 16:40",
+		"classesNotDefinedInSubCategories" : "cyrilledelaunay 2/9/2011 10:53",
+		"coreMethodsNotDefinedInSubCategories" : "cyrille.delaunay 10/29/2010 10:31",
+		"extensionMethodsFromAllSystem" : "cyrilledelaunay 5/18/2011 12:30",
+		"extensionMethodsNotDefinedInSubCategories" : "cyrille.delaunay 10/29/2010 10:37",
+		"externalBehaviorsNotDefinedInSubCategories" : "cyrille.delaunay 10/29/2010 10:37",
+		"externalClassesNotDefinedInSubCategories" : "cyrille.delaunay 10/29/2010 10:33",
+		"externalTraitsNotDefinedInSubCategories" : "cyrille.delaunay 10/29/2010 10:35" } }

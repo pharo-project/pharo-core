@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"choose:" : "AlainPlantec 11/24/2010 22:28",
+		"chooseBlock" : "AlainPlantec 11/22/2010 16:04",
+		"chooseBlock:" : "AlainPlantec 11/22/2010 16:04",
+		"chooser" : "AlainPlantec 11/25/2010 20:12",
+		"chooserWith:" : "AlainPlantec 11/29/2010 08:55",
+		"closeChooser" : "AlainPlantec 11/24/2010 21:30",
+		"closeIfNotOver:" : "AlainPlantec 11/27/2010 13:13",
+		"dataSourceBlock" : "AlainPlantec 11/25/2010 10:20",
+		"dataSourceBlock:" : "AlainPlantec 11/25/2010 09:06",
+		"filterBlock" : "AlainPlantec 11/24/2010 17:02",
+		"filterBlock:" : "AlainPlantec 11/23/2010 18:18",
+		"filteredValuesWith:" : "AlainPlantec 11/27/2010 07:29",
+		"handlesKeyboard:" : "AlainPlantec 11/26/2010 15:55",
+		"keystroke:from:" : "AlainPlantec 11/27/2010 22:50",
+		"mouseDownFromTextMorph:" : "AlainPlantec 11/24/2010 22:19",
+		"openChooserWith:from:" : "AlainPlantec 11/29/2010 09:34",
+		"openChooserWithAllOrCloseFrom:" : "AlainPlantec 11/29/2010 08:57",
+		"positionChooser" : "AlainPlantec 11/26/2010 09:13",
+		"positionChooser:" : "AlainPlantec 11/26/2010 08:23",
+		"setChooserWith:labels:" : "AlainPlantec 11/27/2010 13:34" } }

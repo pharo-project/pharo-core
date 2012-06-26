@@ -1,0 +1,3 @@
+private
+basicBindingOf: aString
+	^ nil

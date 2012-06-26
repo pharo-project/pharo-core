@@ -1,0 +1,16 @@
+{
+	"category" : "FuelMetalevelTests-Mocks",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FLVariableClassMock",
+	"pools" : [
+		 ],
+	"super" : "FLPair",
+	"traitcomposition" : "{}",
+	"type" : "variable" }

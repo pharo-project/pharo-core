@@ -1,0 +1,23 @@
+{
+	"category" : "Tests-SystemChangeNotification",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "rw 4/5/2006 17:14",
+	"instvars" : [
+		"previousChangeSet",
+		"testsChangeSet",
+		"capturedEvents",
+		"generatedTestClass",
+		"generatedTestClassX",
+		"createdMethodName",
+		"createdMethod",
+		"doItExpression" ],
+	"name" : "ChangeHooksTest",
+	"pools" : [
+		 ],
+	"super" : "SystemChangeTestRoot",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

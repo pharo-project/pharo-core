@@ -1,0 +1,16 @@
+{
+	"category" : "Refactoring-Core-Refactorings",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RBAddInstanceVariableRefactoring",
+	"pools" : [
+		 ],
+	"super" : "RBVariableRefactoring",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

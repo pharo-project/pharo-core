@@ -1,0 +1,3 @@
+compiling
+defaultMethodTrailer
+	^ CompiledMethodTrailer empty

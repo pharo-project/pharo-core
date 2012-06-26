@@ -1,0 +1,3 @@
+settings
+checkSourcesFileAvailability
+	^ self class checkSourcesFileAvailability

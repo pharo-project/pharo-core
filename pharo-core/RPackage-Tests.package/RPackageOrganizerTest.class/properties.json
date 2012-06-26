@@ -1,0 +1,19 @@
+{
+	"category" : "RPackage-Tests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "StephaneDucasse 4/24/2011 17:10",
+	"instvars" : [
+		"createdClasses",
+		"createdPackages",
+		"organizer",
+		"packageOrganizer" ],
+	"name" : "RPackageOrganizerTest",
+	"pools" : [
+		 ],
+	"super" : "RPackageTestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

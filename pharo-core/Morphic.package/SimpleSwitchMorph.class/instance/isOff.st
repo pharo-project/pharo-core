@@ -1,0 +1,3 @@
+switching
+isOff
+	^ color ~= onColor

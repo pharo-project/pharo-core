@@ -1,0 +1,4 @@
+initialization
+canCompile
+
+	^ true

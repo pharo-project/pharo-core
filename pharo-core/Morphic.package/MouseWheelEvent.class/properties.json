@@ -1,0 +1,16 @@
+{
+	"category" : "Morphic-Events",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "gvc 9/23/2008 11:46",
+	"instvars" : [
+		"direction" ],
+	"name" : "MouseWheelEvent",
+	"pools" : [
+		 ],
+	"super" : "MouseEvent",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

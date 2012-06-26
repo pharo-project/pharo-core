@@ -1,0 +1,4 @@
+private
+noMethodsString
+
+	^ ClassOrganizer nullCategory

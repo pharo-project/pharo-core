@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"isAbstract" : "EstebanLorenzano 4/3/2012 09:38",
+		"shouldInheritSelectors" : "cwp 7/26/2009 12:46" },
+	"instance" : {
+		"createFileSystem" : "EstebanLorenzano 4/3/2012 11:43",
+		"setUp" : "EstebanLorenzano 4/3/2012 11:42",
+		"tearDown" : "MarianoMartinezPeck 6/12/2012 12:46",
+		"testAt" : "cwp 7/29/2009 22:06",
+		"testAtPut" : "cwp 7/29/2009 22:03",
+		"testAtPutBinaryAscii" : "lr 4/13/2010 16:10",
+		"testAtWriteBinaryAscii" : "lr 4/13/2010 16:07",
+		"testClose" : "cwp 7/26/2009 12:23",
+		"testCreatedOpen" : "CamilloBruni 5/24/2012 15:21",
+		"testEnsureClosed" : "SeanDeNigris 6/14/2012 10:24",
+		"testIO" : "cwp 7/26/2009 14:15",
+		"testReadBufferTooLarge" : "cwp 7/31/2009 00:13",
+		"testReadOnly" : "cwp 7/26/2009 14:16",
+		"testReference" : "cwp 7/26/2009 12:45",
+		"testSizeAfterGrow" : "cwp 7/29/2009 22:11",
+		"testSizeNoGrow" : "cwp 7/29/2009 22:13",
+		"testTruncate" : "cwp 7/26/2009 14:16",
+		"testWriteStream" : "cwp 7/28/2009 22:40" } }

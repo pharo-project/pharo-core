@@ -1,0 +1,20 @@
+{
+	"category" : "AST-Core-Nodes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"leftBar",
+		"rightBar",
+		"statements",
+		"periods",
+		"temporaries" ],
+	"name" : "RBSequenceNode",
+	"pools" : [
+		 ],
+	"super" : "RBProgramNode",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

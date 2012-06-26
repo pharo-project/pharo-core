@@ -1,0 +1,27 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"-" : "al 12/7/2005 21:19",
+		"@" : "al 12/7/2005 21:20",
+		"addExclusionOf:" : "al 4/9/2004 17:01",
+		"aliasesForSelector:" : "al 3/11/2004 21:49",
+		"allAliasesDict" : "NS 4/16/2004 13:40",
+		"allSelectors" : "al 3/7/2004 22:36",
+		"changedSelectorsComparedTo:" : "NS 4/16/2004 14:20",
+		"collectMethodsFor:into:" : "al 3/6/2004 18:51",
+		"copy" : "nice 1/13/2010 22:02",
+		"copyTraitExpression" : "dvf 8/25/2005 16:06",
+		"isEmpty" : "al 4/10/2004 23:56",
+		"isMeta" : "dvf 8/18/2005 18:29",
+		"normalized" : "al 4/10/2004 00:06",
+		"postCopy" : "nice 1/13/2010 21:54",
+		"printOn:" : "al 12/12/2003 18:29",
+		"removeAlias:" : "al 4/10/2004 23:48",
+		"selectors" : "dvf 8/18/2005 18:39",
+		"sourceCodeTemplate" : "dvf 8/18/2005 18:31",
+		"subject" : "NS 12/11/2003 15:13",
+		"subject:" : "al 4/9/2004 18:23",
+		"theNonMetaClass" : "dvf 8/18/2005 18:28",
+		"trait" : "al 12/12/2003 18:00",
+		"traitTransformations" : "dvf 8/16/2005 17:35" } }

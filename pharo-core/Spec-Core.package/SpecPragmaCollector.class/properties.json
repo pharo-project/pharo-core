@@ -1,0 +1,16 @@
+{
+	"category" : "Spec-Core",
+	"classinstvars" : [
+		"behavior" ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"behavior" ],
+	"name" : "SpecPragmaCollector",
+	"pools" : [
+		 ],
+	"super" : "PragmaCollector",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

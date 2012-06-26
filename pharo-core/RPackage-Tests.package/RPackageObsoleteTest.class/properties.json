@@ -1,0 +1,16 @@
+{
+	"category" : "RPackage-Tests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RPackageObsoleteTest",
+	"pools" : [
+		 ],
+	"super" : "RPackageIncrementalTest",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

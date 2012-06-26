@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"height" : "",
+		"width" : "" },
+	"instance" : {
+		"bounds" : "",
+		"contentBounds" : "",
+		"defaultColor" : "",
+		"descriptionBounds" : "",
+		"drawArrowOn:" : "",
+		"drawMessageOn:" : "",
+		"drawOn:" : "",
+		"entryDescription:" : "",
+		"initialize" : "",
+		"itemHeight" : "",
+		"messageFont" : "",
+		"position:menuWidth:" : "",
+		"positionOnLeft:" : "",
+		"scrollColor" : "",
+		"titleBounds" : "" } }

@@ -1,0 +1,27 @@
+{
+	"category" : "FreeType-FontManager",
+	"classinstvars" : [
+		"all" ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "LaurentLaffont 6/8/2011 22:20",
+	"instvars" : [
+		"realFont",
+		"emphasis",
+		"familyName",
+		"fallbackFamilyNames",
+		"pointSize",
+		"stretchValue",
+		"weightValue",
+		"slantValue",
+		"derivatives",
+		"boldDerivative",
+		"italicDerivative",
+		"boldItalicDerivative" ],
+	"name" : "LogicalFont",
+	"pools" : [
+		 ],
+	"super" : "AbstractFont",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

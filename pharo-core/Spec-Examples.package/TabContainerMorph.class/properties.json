@@ -1,0 +1,17 @@
+{
+	"category" : "Spec-Examples-PolyWidgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"container",
+		"tab" ],
+	"name" : "TabContainerMorph",
+	"pools" : [
+		 ],
+	"super" : "PanelMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

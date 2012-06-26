@@ -1,0 +1,18 @@
+{
+	"category" : "Graphics-Fonts",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"MappingTable",
+		"NoFontTable" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"strikeFont",
+		"charForms" ],
+	"name" : "StrikeFontFixer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

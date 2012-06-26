@@ -1,0 +1,18 @@
+{
+	"category" : "FileSystem-Tests-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"filesystem",
+		"handle",
+		"reference" ],
+	"name" : "FileSystemHandleTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

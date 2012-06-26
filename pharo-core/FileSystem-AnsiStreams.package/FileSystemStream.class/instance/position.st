@@ -1,0 +1,3 @@
+public
+position
+	^ position

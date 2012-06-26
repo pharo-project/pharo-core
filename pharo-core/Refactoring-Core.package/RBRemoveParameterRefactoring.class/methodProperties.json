@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"model:removeParameter:in:selector:" : "",
+		"removeParameter:in:selector:" : "" },
+	"instance" : {
+		"computeNewSelector" : "md 8/2/2005 22:25",
+		"getNewSelector" : "",
+		"hasReferencesToTemporaryIn:" : "",
+		"myConditions" : "lr 3/9/2010 16:08",
+		"removeParameter:in:selector:" : "",
+		"storeOn:" : "" } }

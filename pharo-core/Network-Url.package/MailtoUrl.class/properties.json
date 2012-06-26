@@ -1,0 +1,16 @@
+{
+	"category" : "Network-Url",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "MailtoUrl",
+	"pools" : [
+		 ],
+	"super" : "GenericUrl",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

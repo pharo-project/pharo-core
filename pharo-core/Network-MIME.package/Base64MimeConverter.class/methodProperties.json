@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"decodeInteger:" : "damiencassou 5/30/2008 11:45",
+		"encodeInteger:" : "tk 2/21/2000 17:22",
+		"initialize" : "tk 12/9/97 13:53",
+		"mimeDecodeToBytes:" : "tk 12/12/97 11:41",
+		"mimeDecodeToChars:" : "tk 12/9/97 13:01",
+		"mimeEncode:" : "dik 9/22/2010 18:08",
+		"mimeEncode:multiLine:" : "dik 9/22/2010 18:08" },
+	"instance" : {
+		"initialize" : "dik 9/22/2010 18:09",
+		"mimeDecode" : "tk 12/9/97 13:34",
+		"mimeDecodeToByteArray" : "tk 12/9/97 13:39",
+		"mimeEncode" : "dik 9/22/2010 18:07",
+		"multiLine" : "dik 9/22/2010 18:07",
+		"multiLine:" : "dik 9/22/2010 18:07",
+		"nextValue" : "tk 12/9/97 13:21" } }

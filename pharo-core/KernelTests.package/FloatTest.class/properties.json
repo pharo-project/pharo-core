@@ -1,0 +1,16 @@
+{
+	"category" : "KernelTests-Numbers",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "fbs 3/8/2004 22:13",
+	"instvars" : [
+		 ],
+	"name" : "FloatTest",
+	"pools" : [
+		 ],
+	"super" : "ClassTestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

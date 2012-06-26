@@ -1,0 +1,18 @@
+{
+	"category" : "NonInteractiveTranscript",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "SvenVanCaekenberghe 12/4/2011 17:53",
+	"instvars" : [
+		"stream",
+		"fileName",
+		"accessSemaphore" ],
+	"name" : "NonInteractiveTranscript",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

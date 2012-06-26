@@ -1,0 +1,3 @@
+styling
+initialize
+	stylingEnabled := true

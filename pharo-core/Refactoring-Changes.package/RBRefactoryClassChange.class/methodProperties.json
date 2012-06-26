@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"=" : "lr 9/6/2010 21:18",
+		"asUndoOperation" : "",
+		"changeClass" : "lr 9/6/2010 21:18",
+		"changeClass:" : "lr 10/31/2009 17:37",
+		"changeClassName" : "lr 9/6/2010 21:19",
+		"changeClassName:" : "lr 9/6/2010 21:19",
+		"changeString" : "lr 9/6/2010 21:19",
+		"displayClassName" : "lr 9/6/2010 21:19",
+		"executeNotifying:" : "lr 9/6/2010 21:19",
+		"hash" : "lr 9/6/2010 21:19",
+		"isMeta" : "lr 9/6/2010 21:19",
+		"methodSourceFor:" : "lr 9/6/2010 21:19",
+		"primitiveExecute" : "lr 9/6/2010 13:29",
+		"printOn:" : "",
+		"renameChangesForClass:to:" : "lr 9/6/2010 13:57" } }

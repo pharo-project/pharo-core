@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"cancelButton" : "GaryChambers 8/23/2010 11:36",
+		"cancelButton:" : "GaryChambers 8/23/2010 11:36",
+		"cancelText:help:" : "GaryChambers 8/23/2010 11:50",
+		"default:" : "GaryChambers 8/23/2010 12:16",
+		"defaultCancelButton" : "GaryChambers 8/23/2010 12:16",
+		"defaultNoButton" : "gvc 1/10/2008 11:31",
+		"defaultYesButton" : "GaryChambers 8/23/2010 12:05",
+		"initialize" : "GaryChambers 8/23/2010 11:36",
+		"newButtons" : "GaryChambers 8/23/2010 12:05",
+		"noButton" : "gvc 1/10/2008 11:30",
+		"noButton:" : "gvc 1/10/2008 11:30",
+		"noText:help:" : "GaryChambers 8/23/2010 11:50",
+		"yesButton" : "gvc 1/10/2008 11:30",
+		"yesButton:" : "gvc 1/10/2008 11:30",
+		"yesText:help:" : "GaryChambers 8/23/2010 11:50" } }

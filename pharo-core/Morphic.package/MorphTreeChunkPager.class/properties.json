@@ -1,0 +1,19 @@
+{
+	"category" : "Morphic-MorphTreeWidget-Pagination",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"atBottom",
+		"lastIndex",
+		"pageSizeEditor",
+		"nextPageAllowed" ],
+	"name" : "MorphTreeChunkPager",
+	"pools" : [
+		 ],
+	"super" : "MorphTreeNavigationBar",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

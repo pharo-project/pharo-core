@@ -1,0 +1,4 @@
+protocol
+currentText
+
+	 ^ textModel getText

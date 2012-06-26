@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"on:" : "vb 4/11/09 21:56" },
+	"instance" : {
+		"addChar:" : "vb 4/11/09 21:56",
+		"addRangeFrom:to:" : "vb 4/11/09 21:56",
+		"initialize:" : "vb 4/11/09 21:56",
+		"match:" : "vb 4/11/09 21:56",
+		"parse" : "vb 4/11/09 21:56",
+		"parseCharOrRange" : "vb 4/11/09 21:56",
+		"parseEscapeChar" : "vb 4/11/09 21:56",
+		"parseNamedSet" : "vb 4/11/09 21:56",
+		"parseStep" : "vb 4/11/09 21:56" } }

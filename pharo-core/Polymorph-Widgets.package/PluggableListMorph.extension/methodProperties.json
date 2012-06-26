@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"adoptPaneColor:" : "AlainPlantec 2/11/2011 16:50",
+		"borderStyleToUse" : "gvc 8/7/2007 12:42",
+		"disable" : "gvc 8/2/2007 13:34",
+		"enable" : "gvc 8/2/2007 13:34",
+		"enabled" : "gvc 8/2/2007 13:34",
+		"enabled:" : "gvc 8/2/2007 13:34",
+		"fillStyleToUse" : "gvc 8/7/2007 12:39",
+		"focusBounds" : "gvc 6/1/2009 15:18",
+		"getEnabledSelector" : "gvc 8/7/2007 11:47",
+		"getEnabledSelector:" : "gvc 8/7/2007 11:46",
+		"handleFocusEvent:" : "gvc 9/12/2006 14:52",
+		"mouseDownRow" : "gvc 9/20/2006 10:24",
+		"mouseDownRow:" : "gvc 9/20/2006 10:24",
+		"optimalExtent" : "gvc 10/3/2008 13:05",
+		"selectionColor" : "AlainPlantec 2/11/2011 10:29",
+		"selectionColor:" : "AlainPlantec 2/11/2011 16:38",
+		"selectionColorToUse" : "AlainPlantec 2/11/2011 16:35",
+		"selectionColorToUse:" : "gvc 7/24/2007 11:44",
+		"themeChanged" : "gvc 5/22/2007 14:48",
+		"updateEnabled" : "gvc 9/8/2009 13:25",
+		"vExtraScrollRange" : "gvc 10/19/2006 15:24" } }

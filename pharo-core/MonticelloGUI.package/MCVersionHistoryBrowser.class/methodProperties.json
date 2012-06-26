@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"ancestry:" : "stephaneducasse 2/4/2006 20:47",
+		"baseSnapshot" : "avi 2/13/2004 01:10",
+		"defaultExtent" : "ab 7/17/2003 15:41",
+		"defaultLabel" : "avi 2/13/2004 01:09",
+		"getMenu:" : "avi 2/13/2004 01:09",
+		"index" : "ab 8/22/2003 01:41",
+		"index:" : "stephaneducasse 2/4/2006 20:47",
+		"infos" : "stephaneducasse 2/4/2006 20:47",
+		"list" : "avi 9/17/2005 16:10",
+		"package:" : "stephaneducasse 2/4/2006 20:47",
+		"repositoryGroup" : "ab 8/7/2003 21:27",
+		"selectedInfo" : "avi 9/17/2005 16:09",
+		"selectedSnapshot" : "ab 8/22/2003 01:39",
+		"selection" : "ab 7/11/2003 23:24",
+		"selection:" : "stephaneducasse 2/4/2006 20:47",
+		"snapshotForInfo:" : "ab 8/22/2003 01:38",
+		"spawnHistory" : "avi 2/13/2004 01:10",
+		"summary" : "stephaneducasse 2/4/2006 20:47",
+		"widgetSpecs" : "nk 7/28/2003 18:05" } }

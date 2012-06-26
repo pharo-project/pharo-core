@@ -1,0 +1,4 @@
+accessing
+getClass
+
+	^self subclassResponsibility

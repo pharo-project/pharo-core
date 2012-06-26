@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"methodRefs" : "",
+		"popIntoLiteralVariable:" : "",
+		"popIntoReceiverVariable:" : "",
+		"send:super:numArgs:" : "" } }

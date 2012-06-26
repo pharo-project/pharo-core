@@ -1,0 +1,4 @@
+protocol
+selectedMessage
+
+	^ listModel selectedItem

@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"collectionWithElement" : "delaunay 5/12/2009 15:12",
+		"collectionWithoutElement" : "delaunay 5/12/2009 15:18",
+		"element" : "stephane.ducasse 10/8/2008 15:40",
+		"test0FixtureAddForUniquenessTest" : "delaunay 5/12/2009 15:19",
+		"testAddAlreadyThereDoesNotCount" : "stephane.ducasse 10/8/2008 15:31",
+		"testAddNewElementIncrementsSize" : "delaunay 5/12/2009 15:18",
+		"testTAddIfNotPresentWithElementAlreadyIn" : "Alexandre Bergel 5/22/2010 12:26",
+		"testTAddIfNotPresentWithNewElement" : "delaunay 5/12/2009 15:18" } }

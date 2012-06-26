@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"registerToolsOn:" : "IgorStasenko 2/20/2011 15:12" },
+	"instance" : {
+		"addEntry" : "jb 7/1/2011 10:51",
+		"addEntry:" : "sd 11/20/2005 21:27",
+		"calculateKeyArray" : "CamilloBruni 2/28/2012 11:44",
+		"contentsIsString" : "di 9/22/1998 21:25",
+		"copyName" : "apb 8/20/2004 21:19",
+		"fieldList" : "apb 8/20/2004 23:06",
+		"fieldListMenu:" : "ar 10/31/2004 17:25",
+		"initialize" : "PHK 7/21/2004 18:00",
+		"numberOfFixedFields" : "apb 8/20/2004 21:15",
+		"refreshView" : "sd 11/20/2005 21:27",
+		"removeSelection" : "sd 11/20/2005 21:27",
+		"renameEntry" : "jb 7/1/2011 10:51",
+		"replaceSelectionValue:" : "apb 8/20/2004 22:37",
+		"selection" : "apb 8/20/2004 21:55",
+		"selectionReferences" : "ar 10/31/2004 17:26",
+		"sendersOfSelectedKey" : "ar 4/10/2005 22:17" } }

@@ -1,0 +1,17 @@
+{
+	"category" : "Graphics-Tests-Primitives",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"emptyRectangle",
+		"rectangle1" ],
+	"name" : "RectangleTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+a URL specifying a mailing address; activating it triggers a mail-sender to start up, if one is present.

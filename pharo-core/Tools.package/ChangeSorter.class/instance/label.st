@@ -1,0 +1,3 @@
+access
+label
+	^ self labelString

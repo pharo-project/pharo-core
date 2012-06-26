@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertAllChunksAreWellFormed" : "cwp 8/2/2003 12:13",
+		"assertChunkIsWellFormed:" : "al 7/21/2006 22:14",
+		"assertContentsOf:match:" : "nk 2/22/2005 21:17",
+		"assertMethodChunkIsWellFormed:" : "al 7/21/2006 22:14",
+		"expectedClassDefinitionA" : "pavel.krivanek 10/14/2010 16:36",
+		"expectedClassDefinitionB" : "avi 2/17/2004 03:23",
+		"expectedClassMethodDefinition" : "cwp 8/2/2003 14:43",
+		"expectedInitializerA" : "ab 8/8/2003 17:01",
+		"expectedInitializerASubclass" : "pavel.krivanek 10/14/2010 16:43",
+		"expectedMethodDefinition" : "cwp 8/2/2003 17:27",
+		"expectedMethodDefinitionWithBangs" : "cwp 8/9/2003 14:58",
+		"expectedOrganizationDefinition" : "cwp 8/2/2003 12:14",
+		"methodWithBangs" : "cwp 8/9/2003 14:55",
+		"setUp" : "stephaneducasse 2/4/2006 20:47",
+		"testClassDefinitionA" : "cwp 8/10/2003 02:11",
+		"testClassDefinitionB" : "cwp 9/14/2003 19:39",
+		"testClassMethodDefinition" : "VeronicaUquillas 8/23/2011 11:45",
+		"testInitializerDefinition" : "pavel.krivanek 10/14/2010 16:41",
+		"testMethodDefinition" : "VeronicaUquillas 8/23/2011 11:45",
+		"testMethodDefinitionWithBangs" : "VeronicaUquillas 8/23/2011 11:44",
+		"testOrganizationDefinition" : "stephaneducasse 2/4/2006 20:47" } }

@@ -1,0 +1,20 @@
+{
+	"category" : "Keymapping-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "GuillermoPolito 2/24/2011 23:44",
+	"instvars" : [
+		"realTarget",
+		"morph",
+		"targetSelector",
+		"directKeymaps",
+		"perInstanceCategories" ],
+	"name" : "KMTarget",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

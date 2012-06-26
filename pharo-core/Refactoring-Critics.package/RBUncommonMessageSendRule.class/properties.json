@@ -1,0 +1,16 @@
+{
+	"category" : "Refactoring-Critics-BlockRules",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"literalNames" ],
+	"name" : "RBUncommonMessageSendRule",
+	"pools" : [
+		 ],
+	"super" : "RBBlockLintRule",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

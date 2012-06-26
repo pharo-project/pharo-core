@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"inlineParameter:in:selector:" : "",
+		"model:inlineParameter:in:selector:" : "" },
+	"instance" : {
+		"allExpressionsToInline" : "",
+		"expressionsToInlineFrom:" : "lr 11/2/2009 00:14",
+		"inlineParameter:in:selector:" : "",
+		"modifyImplementorParseTree:in:" : "",
+		"myConditions" : "",
+		"storeOn:" : "" } }

@@ -1,0 +1,3 @@
+accessing
+methodSignatureOnMultipleLines: aBoolean
+	MethodSignatureOnMultipleLines := aBoolean

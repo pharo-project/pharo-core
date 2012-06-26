@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"soundEnabled" : "StephaneDucasse 1/30/2011 21:31",
+		"soundEnabled:" : "StephaneDucasse 1/30/2011 21:31",
+		"soundQuickStart" : "StephaneDucasse 1/30/2011 21:31",
+		"soundQuickStart:" : "StephaneDucasse 1/30/2011 21:31" },
+	"instance" : {
+		"beep" : "gk 2/24/2004 23:27",
+		"playSampledSound:rate:" : "gk 2/23/2004 19:47",
+		"playSoundNamed:" : "gk 2/23/2004 19:50",
+		"playSoundNamed:ifAbsentReadFrom:" : "gk 2/23/2004 19:51",
+		"playSoundNamedOrBeep:" : "gk 2/23/2004 19:51",
+		"randomBitsFromSoundInput:" : "gk 2/23/2004 19:52",
+		"sampledSoundChoices" : "gk 2/23/2004 19:52",
+		"shutDown" : "gk 2/23/2004 19:53",
+		"soundNamed:" : "gk 2/23/2004 19:56" } }

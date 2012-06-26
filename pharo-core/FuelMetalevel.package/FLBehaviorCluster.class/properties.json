@@ -1,0 +1,16 @@
+{
+	"category" : "FuelMetalevel-Clusters",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "MartinDias 7/30/2011 20:31",
+	"instvars" : [
+		 ],
+	"name" : "FLBehaviorCluster",
+	"pools" : [
+		 ],
+	"super" : "FLIteratingCluster",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

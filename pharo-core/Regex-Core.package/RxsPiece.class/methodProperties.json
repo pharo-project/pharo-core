@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"atom" : "vb 4/11/09 21:56",
+		"character" : "vb 4/11/09 21:56",
+		"dispatchTo:" : "vb 4/11/09 21:56",
+		"initializeAtom:" : "vb 4/11/09 21:56",
+		"initializeAtom:min:max:" : "vb 4/11/09 21:56",
+		"initializeOptionalAtom:" : "vb 4/11/09 21:56",
+		"initializePlusAtom:" : "vb 4/11/09 21:56",
+		"initializeStarAtom:" : "vb 4/11/09 21:56",
+		"isAtomic" : "vb 4/11/09 21:56",
+		"isNullable" : "vb 4/11/09 21:56",
+		"isOptional" : "vb 4/11/09 21:56",
+		"isPlus" : "vb 4/11/09 21:56",
+		"isSingular" : "vb 4/11/09 21:56",
+		"isStar" : "vb 4/11/09 21:56",
+		"max" : "vb 4/11/09 21:56",
+		"min" : "vb 4/11/09 21:56" } }

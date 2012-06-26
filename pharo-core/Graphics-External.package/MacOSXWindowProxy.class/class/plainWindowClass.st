@@ -1,0 +1,3 @@
+constants
+plainWindowClass
+	^13

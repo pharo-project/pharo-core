@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"browseClassesSatisfying:title:" : "sd 4/17/2003 21:21",
+		"example1" : "sw 7/27/2002 16:01",
+		"example2" : "sd 4/17/2003 21:21",
+		"example3" : "sw 7/27/2002 16:03",
+		"example4" : "sw 7/27/2002 16:04",
+		"example5" : "sw 7/27/2002 14:32",
+		"example6" : "sw 7/27/2002 14:33",
+		"registerToolsOn:" : "IgorStasenko 2/19/2011 03:02" },
+	"instance" : {
+		"initForClassesNamed:title:" : "sd 11/20/2005 21:26",
+		"labelString" : "sw 7/18/2002 22:43" } }

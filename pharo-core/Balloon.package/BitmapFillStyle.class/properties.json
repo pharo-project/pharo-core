@@ -1,0 +1,17 @@
+{
+	"category" : "Balloon-Fills",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"form",
+		"tileFlag" ],
+	"name" : "BitmapFillStyle",
+	"pools" : [
+		 ],
+	"super" : "OrientedFillStyle",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

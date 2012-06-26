@@ -1,0 +1,1 @@
+A NautilusCategorySelected is raised when a category is selected

@@ -1,0 +1,1 @@
+RecentMessageList record and store all the changes and can show them by doing RecentMessageList openInWorld.

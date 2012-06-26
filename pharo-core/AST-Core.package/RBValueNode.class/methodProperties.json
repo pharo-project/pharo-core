@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addParenthesis:" : "",
+		"containedBy:" : "",
+		"hasParentheses" : "",
+		"isValue" : "",
+		"needsParenthesis" : "",
+		"parentheses" : "",
+		"start" : "",
+		"startWithoutParentheses" : "",
+		"stop" : "",
+		"stopWithoutParentheses" : "" } }

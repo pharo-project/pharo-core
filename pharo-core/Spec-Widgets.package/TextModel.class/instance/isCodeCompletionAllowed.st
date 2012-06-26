@@ -1,0 +1,4 @@
+NOCompletion
+isCodeCompletionAllowed
+	
+	^ isCodeCompletionAllowedHolder contents

@@ -1,0 +1,16 @@
+{
+	"category" : "Graphics-Display Objects",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "DisplayMedium",
+	"pools" : [
+		 ],
+	"super" : "DisplayObject",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

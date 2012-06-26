@@ -1,0 +1,16 @@
+{
+	"category" : "Collections-Streams",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"isBinary" ],
+	"name" : "RWBinaryOrTextStream",
+	"pools" : [
+		 ],
+	"super" : "ReadWriteStream",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

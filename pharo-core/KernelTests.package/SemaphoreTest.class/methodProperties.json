@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"criticalError" : "tlk 5/5/2006 13:26",
+		"testAfterCriticalWait" : "SeanDeNigris 6/2/2012 13:34",
+		"testCritical" : "tlk 5/5/2006 13:27",
+		"testCriticalIfError" : "tlk 5/5/2006 13:28",
+		"testInCriticalWait" : "SeanDeNigris 6/2/2012 13:34",
+		"testMutualExclusion" : "SeanDeNigris 6/2/2012 14:50",
+		"testReturnsAsManyWaitsAsSignalsReceived" : "SeanDeNigris 6/2/2012 13:22",
+		"testSchedulesFIFO" : "SeanDeNigris 6/2/2012 13:33",
+		"testSimpleCommunication" : "SeanDeNigris 6/2/2012 13:16",
+		"testWaitAndWaitTimeoutTogether" : "jf 12/2/2003 19:31",
+		"testWaitTimeoutMSecs" : "ar 3/23/2009 17:01" } }

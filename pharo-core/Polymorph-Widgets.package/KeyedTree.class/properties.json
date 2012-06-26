@@ -1,0 +1,16 @@
+{
+	"category" : "Polymorph-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "KeyedTree",
+	"pools" : [
+		 ],
+	"super" : "Dictionary",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

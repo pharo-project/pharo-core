@@ -1,0 +1,4 @@
+platform specific
+pathNameDelimiter
+
+	^ $:

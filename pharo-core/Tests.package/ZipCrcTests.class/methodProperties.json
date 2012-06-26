@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testInvalidGZipCrc" : "ar 2/29/2004 04:43",
+		"testInvalidZLibCrc" : "ar 2/29/2004 04:43",
+		"testInvalidZipCrc" : "nk 3/7/2004 18:37",
+		"testMissingGZipCrc" : "ar 2/29/2004 04:42",
+		"testMissingZLibCrc" : "ar 2/29/2004 04:42",
+		"testMissingZipCrc" : "nk 3/7/2004 18:49",
+		"testValidGZipCrc" : "ar 2/29/2004 04:42",
+		"testValidZLibCrc" : "nk 3/7/2004 18:46",
+		"testValidZipCrc" : "nk 3/7/2004 18:43" } }

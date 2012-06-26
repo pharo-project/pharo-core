@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"errorEmptyStack" : "Igor.Stasenko 10/16/2010 04:03",
+		"fastPeek" : "Igor.Stasenko 10/16/2010 04:34",
+		"initialize" : "Igor.Stasenko 10/16/2010 03:37",
+		"next" : "Igor.Stasenko 10/16/2010 04:39",
+		"nextIfNone:" : "Igor.Stasenko 10/16/2010 04:39",
+		"nextOrNil" : "Igor.Stasenko 10/16/2010 03:51",
+		"nextPut:" : "Igor.Stasenko 10/16/2010 04:42",
+		"peek" : "Igor.Stasenko 10/16/2010 04:38",
+		"pop" : "Igor.Stasenko 10/16/2010 04:02",
+		"push:" : "Igor.Stasenko 10/16/2010 04:01" } }

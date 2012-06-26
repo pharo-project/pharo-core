@@ -1,0 +1,4 @@
+*GroupManagerUI
+prettyName
+
+	^ self printString

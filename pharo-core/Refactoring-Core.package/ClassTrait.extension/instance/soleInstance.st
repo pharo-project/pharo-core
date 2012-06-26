@@ -1,0 +1,3 @@
+*refactoring-core
+soleInstance
+	^baseTrait

@@ -1,0 +1,8 @@
+initialization
+initialize
+	super initialize.
+	failedList := errorList := Array new.
+	SystemAnnouncer current
+		weak
+		on: ClassAdded, CategoryAdded, ClassRemoved, CategoryRemoved, ClassRenamed, CategoryRenamed, ClassRecategorized send: #update to: self.
+	self update; resetResult

@@ -1,0 +1,16 @@
+{
+	"category" : "Polymorph-Widgets-Windows",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"okButton" ],
+	"name" : "PopupChoiceOrRequestDialogWindow",
+	"pools" : [
+		 ],
+	"super" : "PopupChoiceDialogWindow",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

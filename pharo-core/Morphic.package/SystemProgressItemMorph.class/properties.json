@@ -1,0 +1,24 @@
+{
+	"category" : "Morphic-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"BarHeight",
+		"BarWidth" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"bar",
+		"labelMorph",
+		"lock",
+		"result",
+		"hasResult",
+		"startValue",
+		"endValue",
+		"lastRefresh" ],
+	"name" : "SystemProgressItemMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

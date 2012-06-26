@@ -1,0 +1,17 @@
+{
+	"category" : "Monticello-Storing",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"baseInfo",
+		"patch" ],
+	"name" : "MCMcdReader",
+	"pools" : [
+		 ],
+	"super" : "MCMczReader",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

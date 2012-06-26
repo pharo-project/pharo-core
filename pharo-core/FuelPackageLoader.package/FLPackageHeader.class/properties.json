@@ -1,0 +1,17 @@
+{
+	"category" : "FuelPackageLoader",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"preMaterializationActions",
+		"additionalObjects" ],
+	"name" : "FLPackageHeader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

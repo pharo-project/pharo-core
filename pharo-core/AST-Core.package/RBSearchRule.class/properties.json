@@ -1,0 +1,16 @@
+{
+	"category" : "AST-Core-Matching",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "md 8/9/2005 14:56",
+	"instvars" : [
+		"answerBlock" ],
+	"name" : "RBSearchRule",
+	"pools" : [
+		 ],
+	"super" : "RBParseTreeRule",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

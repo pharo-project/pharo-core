@@ -1,0 +1,17 @@
+{
+	"category" : "Tools-MethodConverters",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"shouldShout",
+		"method" ],
+	"name" : "AbstractMethodConverter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

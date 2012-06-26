@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertEnvironmentOf:" : "LucFabresse 10/24/2010 19:48",
+		"setUp" : "LucFabresse 12/19/2010 12:42",
+		"testClassCreationInDifferentCategories" : "LucFabresse 10/29/2010 09:09",
+		"testClassFastCreationInDifferentCategories" : "LucFabresse 10/29/2010 09:14",
+		"testDefaultCategoryCleanUp" : "LucFabresse 10/24/2010 19:41",
+		"testMultipleClassCreation" : "LucFabresse 10/24/2010 19:50",
+		"testPackageCleanUp" : "LucFabresse 10/24/2010 19:50",
+		"testSingleClassCreation" : "LucFabresse 10/24/2010 19:51",
+		"testSingleClassFastCreation" : "LucFabresse 10/24/2010 19:51",
+		"testedEnvironment" : "LucFabresse 10/24/2010 19:57",
+		"testedOrganization" : "LucFabresse 10/24/2010 20:31" } }

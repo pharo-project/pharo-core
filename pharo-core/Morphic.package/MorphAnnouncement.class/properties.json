@@ -1,0 +1,16 @@
+{
+	"category" : "Morphic-Announcements",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"morph" ],
+	"name" : "MorphAnnouncement",
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

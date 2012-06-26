@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"execute:" : "",
+		"execute:replace:with:" : "",
+		"initialize" : "",
+		"preconditions" : "",
+		"replace:with:" : "",
+		"replace:with:ignoreCase:" : "" } }

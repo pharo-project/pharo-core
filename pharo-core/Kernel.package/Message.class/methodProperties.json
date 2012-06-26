@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"selector:" : "",
+		"selector:argument:" : "",
+		"selector:arguments:" : "" },
+	"instance" : {
+		"analogousCodeTo:" : "eem 11/27/2008 13:17",
+		"argument" : "",
+		"argument:" : "",
+		"arguments" : "",
+		"hasArguments" : "JuanVuletich 10/11/2010 20:33",
+		"lookupClass" : "ajh 10/9/2001 16:32",
+		"lookupClass:" : "ajh 9/23/2001 04:59",
+		"numArgs" : "eem 1/3/2009 10:42",
+		"printOn:" : "ajh 10/9/2001 15:31",
+		"selector" : "",
+		"sendTo:" : "ajh 1/22/2003 11:51",
+		"sends:" : "",
+		"sentTo:" : "di 3/25/1999 21:54",
+		"setSelector:" : "ajh 3/9/2003 19:25",
+		"setSelector:arguments:" : "",
+		"storeOn:" : "sma 6/1/2000 10:01" } }

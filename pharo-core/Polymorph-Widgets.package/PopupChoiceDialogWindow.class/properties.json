@@ -1,0 +1,22 @@
+{
+	"category" : "Polymorph-Widgets-Windows",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "gvc 5/18/2007 12:26",
+	"instvars" : [
+		"choice",
+		"labels",
+		"lines",
+		"choicesMorph",
+		"choiceMenus",
+		"filter",
+		"filterMorph" ],
+	"name" : "PopupChoiceDialogWindow",
+	"pools" : [
+		 ],
+	"super" : "ModelDependentDialogWindow",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

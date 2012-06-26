@@ -1,0 +1,3 @@
+*FreeType-addition
+lastFontForegroundColor
+	^lastFontForegroundColor

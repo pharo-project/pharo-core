@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addMember:" : "tween 8/25/2007 14:26",
+		"addMembersFromFileInfos:" : "nice 1/5/2010 15:59",
+		"addSimulatedMembers" : "nice 1/5/2010 15:59",
+		"initialize" : "tween 8/16/2007 20:44",
+		"memberWithStyleName:" : "tween 8/16/2007 22:59",
+		"rebuildSimulatedMembers" : "tween 8/18/2007 22:22" } }

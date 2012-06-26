@@ -1,0 +1,16 @@
+{
+	"category" : "RPackage-Tests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "cyrilledelaunay 1/24/2011 16:16",
+	"instvars" : [
+		 ],
+	"name" : "MCMockRPackage",
+	"pools" : [
+		 ],
+	"super" : "RPackage",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

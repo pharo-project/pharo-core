@@ -1,0 +1,16 @@
+{
+	"category" : "Tests-System",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"FooValue1" ],
+	"commentStamp" : "NicoPaez 10/17/2010 14:44",
+	"instvars" : [
+		 ],
+	"name" : "FooSharedPool",
+	"pools" : [
+		 ],
+	"super" : "SharedPool",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

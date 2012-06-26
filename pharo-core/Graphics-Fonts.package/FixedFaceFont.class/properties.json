@@ -1,0 +1,18 @@
+{
+	"category" : "Graphics-Fonts",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "tak 12/22/2004 01:45",
+	"instvars" : [
+		"baseFont",
+		"substitutionCharacter",
+		"displaySelector" ],
+	"name" : "FixedFaceFont",
+	"pools" : [
+		 ],
+	"super" : "AbstractFont",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

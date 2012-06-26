@@ -1,0 +1,16 @@
+{
+	"category" : "CollectionsTests-Text",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TextFontReferenceTest",
+	"pools" : [
+		 ],
+	"super" : "HashAndEqualsTestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

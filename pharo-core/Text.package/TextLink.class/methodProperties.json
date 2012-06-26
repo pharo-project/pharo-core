@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"scanFrom:" : "tk 12/16/97 08:53" },
+	"instance" : {
+		"actOnMove:for:in:editor:" : "CamilloBruni 2/2/2012 02:18",
+		"analyze:" : "tk 12/16/97 16:49",
+		"analyze:with:" : "SvenVanCaekenberghe 1/8/2012 14:49",
+		"classAndMethod:" : "tk 12/5/97 17:09",
+		"emphasizeScanner:" : "CamilloBruni 2/1/2012 19:57",
+		"info" : "tk 12/30/97 10:33",
+		"mayActOnEvent:" : "CamilloBruni 2/6/2012 23:01",
+		"validate:" : "lr 3/14/2010 21:13",
+		"writeScanOn:" : "tk 12/16/97 13:44" } }

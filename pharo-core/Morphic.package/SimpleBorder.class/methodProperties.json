@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"baseColor" : "ar 8/25/2001 18:19",
+		"baseColor:" : "ar 8/25/2001 18:23",
+		"bottomRightColor" : "gvc 1/31/2007 13:50",
+		"color" : "ar 8/25/2001 18:19",
+		"color:" : "ar 8/25/2001 16:10",
+		"drawLineFrom:to:on:" : "aoy 2/17/2003 01:14",
+		"frameRectangle:on:" : "ar 8/25/2001 16:27",
+		"initialize" : "sd 11/25/2008 14:47",
+		"style" : "ar 8/25/2001 17:52",
+		"topLeftColor" : "gvc 1/31/2007 13:50",
+		"width" : "ar 8/25/2001 16:35",
+		"width:" : "ar 8/25/2001 16:10" } }

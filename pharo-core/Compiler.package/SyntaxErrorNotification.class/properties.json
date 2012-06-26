@@ -1,0 +1,21 @@
+{
+	"category" : "Compiler-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"inClass",
+		"code",
+		"category",
+		"doitFlag",
+		"errorMessage",
+		"location" ],
+	"name" : "SyntaxErrorNotification",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

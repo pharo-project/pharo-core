@@ -1,0 +1,16 @@
+{
+	"category" : "Polymorph-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"colorMap" ],
+	"name" : "MultistateLabelMorph",
+	"pools" : [
+		 ],
+	"super" : "LabelMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

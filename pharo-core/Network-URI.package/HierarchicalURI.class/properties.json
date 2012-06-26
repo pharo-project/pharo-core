@@ -1,0 +1,18 @@
+{
+	"category" : "Network-URI",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "LaurentLaffont 6/8/2011 22:17",
+	"instvars" : [
+		"authority",
+		"query",
+		"pathComponents" ],
+	"name" : "HierarchicalURI",
+	"pools" : [
+		 ],
+	"super" : "URI",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "System-FilePackage",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "HenrikSperreJohansen 5/21/2010 02:06",
+	"instvars" : [
+		 ],
+	"name" : "ClassDiffBuilder",
+	"pools" : [
+		 ],
+	"super" : "TextDiffBuilder",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

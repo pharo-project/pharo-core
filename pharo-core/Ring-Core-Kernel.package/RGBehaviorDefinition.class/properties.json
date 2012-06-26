@@ -1,0 +1,18 @@
+{
+	"category" : "Ring-Core-Kernel",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "VeronicaUquillas 5/9/2011 14:30",
+	"instvars" : [
+		"superclass",
+		"methods",
+		"protocols" ],
+	"name" : "RGBehaviorDefinition",
+	"pools" : [
+		 ],
+	"super" : "RGGlobalDefinition",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

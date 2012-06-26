@@ -1,0 +1,16 @@
+{
+	"category" : "Refactoring-Spelling",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RBTemporaryVariableNamesSpellingRule",
+	"pools" : [
+		 ],
+	"super" : "RBSpellingRule",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

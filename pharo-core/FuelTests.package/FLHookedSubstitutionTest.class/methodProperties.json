@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAvoidRecursion" : "MartinDias 5/9/2012 01:00",
+		"testClassWithCachedValueByNil" : "MarianoMartinezPeck 4/19/2012 19:12",
+		"testObjectByProxyThatBecomesItsContent" : "MarianoMartinezPeck 4/19/2012 19:12",
+		"testProxyByTarget" : "MarianoMartinezPeck 4/19/2012 19:12",
+		"testProxyByTargetAnalisysIsPropagated" : "MarianoMartinezPeck 4/19/2012 19:12",
+		"testProxyByTargetInsideObjectAndAnalisysIsPropagated" : "MarianoMartinezPeck 4/19/2012 19:12",
+		"testProxyInsideObjectByTarget" : "MarianoMartinezPeck 4/19/2012 19:12",
+		"testSubstituteByItself" : "MartinDias 5/9/2012 01:17",
+		"testTransientByNil" : "MarianoMartinezPeck 4/19/2012 19:12" } }

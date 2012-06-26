@@ -1,0 +1,16 @@
+{
+	"category" : "Nautilus-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "AbstractCategoryWidget",
+	"pools" : [
+		 ],
+	"super" : "AbstractWidget",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+*RPackage-core
+subscriptions
+
+	^ registry

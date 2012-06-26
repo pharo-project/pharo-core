@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"delimiter" : "cwp 2/18/2011 17:19",
+		"isCaseSensitive" : "CamilloBruni 5/7/2012 01:20",
+		"maxFileNameLength" : "CamilloBruni 5/10/2012 16:05",
+		"separator" : "CamilloBruni 5/7/2012 01:11" },
+	"instance" : {
+		"checkName:fixErrors:" : "CamilloBruni 5/10/2012 16:07",
+		"pathFromString:" : "EstebanLorenzano 6/21/2012 10:29",
+		"printPath:on:" : "cwp 2/28/2011 12:32" } }

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"clusterBucketIn:" : "MartinDias 1/8/2012 15:36" },
+	"instance" : {
+		"materializeInstanceWith:" : "MartinDias 12/29/2011 19:48",
+		"materializePostInstance:with:" : "MartinDias 12/29/2011 20:56",
+		"materializeReferencesOf:with:" : "MartinDias 12/29/2011 19:48",
+		"referencesOf:do:" : "MartinDias 9/28/2011 19:41",
+		"serializeInstance:with:" : "MartinDias 12/29/2011 19:43",
+		"serializePostInstance:with:" : "MartinDias 12/29/2011 20:02",
+		"serializeReferencesOf:with:" : "MartinDias 12/29/2011 19:43" } }

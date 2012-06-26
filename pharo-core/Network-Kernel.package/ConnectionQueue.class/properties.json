@@ -1,0 +1,21 @@
+{
+	"category" : "Network-Kernel",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"portNumber",
+		"maxQueueLength",
+		"connections",
+		"accessSema",
+		"socket",
+		"process" ],
+	"name" : "ConnectionQueue",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }
