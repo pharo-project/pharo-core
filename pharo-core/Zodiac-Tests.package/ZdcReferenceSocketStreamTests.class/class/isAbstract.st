@@ -1,3 +1,3 @@
 testing
 isAbstract 
-	^ true
+	^ false

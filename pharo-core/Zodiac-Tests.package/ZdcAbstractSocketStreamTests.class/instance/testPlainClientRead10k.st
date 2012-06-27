@@ -4,11 +4,11 @@ testPlainClientRead10k
 	dataSent := self bytes: 10000.
 	semaphore := self runServer: [ :serverSocket :mySemaphore | | clientSocket serverStream |
 		clientSocket := serverSocket waitForAcceptFor: 10.
-		serverStream := self socketStreamOn: clientSocket.
+		serverStream := self referenceSocketStreamOn: clientSocket.
 		serverStream nextPutAll: dataSent.
 		serverStream close.
 		mySemaphore signal ].
-	clientStream := self socketStreamClass openConnectionToHost: #[ 127 0 0 1 ] port: self port.
+	clientStream := self openConnectionToHost: #[ 127 0 0 1 ] port: self port.
 	dataRead := clientStream upToEnd.
 	clientStream close.
 	semaphore wait.
