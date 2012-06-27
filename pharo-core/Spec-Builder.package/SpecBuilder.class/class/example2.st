@@ -12,7 +12,7 @@ example2
 		openWithSpec.
 		
 	d finalize.
-	spec := NewClass2 generatingSpec.
+	spec := (Smalltalk at: #NewClass2) generatingSpec.
 	desc := (SpecImporter import: spec).
 
 	desc finalize

@@ -1,0 +1,16 @@
+{
+	"category" : "Zodiac-Tests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "SvenVanCaekenberghe 5/20/2011 10:20",
+	"instvars" : [
+		 ],
+	"name" : "ZdcReferenceSocketStreamTests",
+	"pools" : [
+		 ],
+	"super" : "ZdcAbstractSocketStreamTests",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

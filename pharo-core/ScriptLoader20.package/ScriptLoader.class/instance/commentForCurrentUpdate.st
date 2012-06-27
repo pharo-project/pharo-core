@@ -1,11 +1,11 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6157:	remove dead lmmplugin code
-	http://code.google.com/p/pharo/issues/detail?id=6157
+ ^ 'Issue 5972:	Clean in perform: aSelector orSendTo: another
+	http://code.google.com/p/pharo/issues/detail?id=5972
 	
-Issue 6161:	Finder: Change Pattern back to Examples
-	http://code.google.com/p/pharo/issues/detail?id=6161
+Issue 6175:	Spec example has Undeclared reference
+	http://code.google.com/p/pharo/issues/detail?id=6175
 	
-Issue 6168:	Changeset>>#superclassOrder: should be only used by ChangeSet related objects
-	http://code.google.com/p/pharo/issues/detail?id=6168
+Issue 6176:	Add Zodiac https support
+	http://code.google.com/p/pharo/issues/detail?id=6176
 '
