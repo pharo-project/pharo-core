@@ -5,7 +5,7 @@
 	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"pattern",
 		"list",
@@ -14,7 +14,9 @@
 		"listIndex",
 		"answer",
 		"listBlock",
-		"listCreationProcess" ],
+		"listCreationProcess",
+		"displayBlock",
+		"browseBlock" ],
 	"name" : "ListDialogWindow",
 	"pools" : [
 		 ],

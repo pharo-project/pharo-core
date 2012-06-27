@@ -1,10 +1,7 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6186:	fix Delay initialization
-	http://code.google.com/p/pharo/issues/detail?id=6186
+ ^ 'Issue 6176:	Add Zodiac https support (add Zinc-Zodiac)
+	http://code.google.com/p/pharo/issues/detail?id=6176
 	
-Issue 6178:	All test jobs fail due to error in Zodiac tests
-	http://code.google.com/p/pharo/issues/detail?id=6178
-	
-Issue 6183:	Unicode initialization is the inverse as it should be
-	http://code.google.com/p/pharo/issues/detail?id=6183'
+Issue 6181:	put order on SUnit-Core-Utilities
+	http://code.google.com/p/pharo/issues/detail?id=6181'

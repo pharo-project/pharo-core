@@ -6,7 +6,7 @@ findClass
 	self okToChange ifFalse: [^ self classNotFound].
 	recentList := RecentClasses select: [ :n | Smalltalk globals includesKey: n ].
 	
-	foundClassOrTrait := ClassSearch chooseFromOwner: self dependents first.
+	foundClassOrTrait := SearchFacade classSearch chooseFromOwner: self dependents first.
 	foundClassOrTrait ifNil: [^ self classNotFound].
  	self selectCategoryForClass: foundClassOrTrait.
 	self selectClass: foundClassOrTrait

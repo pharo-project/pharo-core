@@ -1,4 +1,4 @@
-as yet unclassified
+items creation
 buildListMorph
 	^  listMorph := PluggableListMorph new
 			hResizing: #spaceFill;
@@ -11,4 +11,5 @@ buildListMorph
 			keystroke: nil;
 			keystrokeSelector: #listKeystroke:;
 			doubleClickSelector: #ok;
+			wrapSelector: #displayItem:;
 			yourself

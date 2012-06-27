@@ -1,8 +1,8 @@
-as yet unclassified
+events
 listKeystrokeUp
 	listIndex = 1 
 		ifTrue: [ 
 			self listIndex: 0.
-			self focusSearch.
+			self giveFocusToSearch.
 			^ true].
 	^ false.

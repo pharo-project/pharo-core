@@ -1,4 +1,5 @@
-as yet unclassified
-accept: aClass
-	self answer: aClass.
+protocol
+accept: anItem
+
+	self answer: anItem.
 	self ok.

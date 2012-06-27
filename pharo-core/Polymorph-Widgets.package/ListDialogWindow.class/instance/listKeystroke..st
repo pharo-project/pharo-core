@@ -1,4 +1,4 @@
-as yet unclassified
+events
 listKeystroke: event
 	event keyCharacter = Character arrowUp 
 		ifTrue: [ ^ self listKeystrokeUp ].

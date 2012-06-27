@@ -1,8 +1,8 @@
-as yet unclassified
+events
 searchKeystrokeUp
 	(searchMorph selectionInterval last == 0)
 		ifFalse: [ ^ false ].
 		
 	self listIndex: list size.
-	self focusList.
+	self giveFocusToList.
 	^ true

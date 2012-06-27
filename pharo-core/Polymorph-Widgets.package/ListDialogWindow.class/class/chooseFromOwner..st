@@ -1,3 +1,4 @@
-as yet unclassified
+instance creation
 chooseFromOwner: aMorph
-	^ (aMorph openModal: self new) answer
+
+	^ self new chooseFromOwner: aMorph

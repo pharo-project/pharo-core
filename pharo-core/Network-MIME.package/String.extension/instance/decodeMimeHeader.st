@@ -10,38 +10,37 @@ decodeMimeHeader
 
 	'=?ISO-2022-JP?B?U1dJS0lQT1AvGyRCPUJDKyVpJXMlQRsoQi8=?= =?ISO-2022-JP?B?GyRCJVElRiUjJSobKEIoUGF0aW8p?=' decodeMimeHeader.
 "
-	| input output temp charset decoder encodedStream encoding pos |
+	| input |
 	input := self readStream.
-	output := String new writeStream.
-	
-	[ output nextPutAll: (input upTo: $=).
-	"ASCII Text"
-	input atEnd ] whileFalse: 
+	^String streamContents: [ :output | | temp |
+		[ output nextPutAll: (input upTo: $=).
+		"ASCII Text"
+		input atEnd ] whileFalse: 
 		[ (temp := input next) = $? 
 			ifTrue: 
-				[ charset := input upTo: $?.
-				encoding := (input upTo: $?) asUppercase.
-				temp := input upTo: $?.
-				input next.
-				"Skip final ="
+				[ | pos charset mimeEncoding mimeDecoder charsetStream  |
+				charset := input upTo: $?.
 				(charset isNil or: [ charset size = 0 ]) ifTrue: [ charset := 'LATIN-1' ].
-				encodedStream := MultiByteBinaryOrTextStream 
-					on: String new
-					encoding: charset.
-				decoder := encoding = 'B' 
-					ifTrue: [ Base64MimeConverter new ]
-					ifFalse: [ RFC2047MimeConverter new ].
-				decoder
-					mimeStream: temp readStream;
-					dataStream: encodedStream;
-					mimeDecode.
-				output nextPutAll: encodedStream reset contents.
+				mimeEncoding := (input upTo: $?) asUppercase.
+				temp := input upTo: $?.
+				"Skip final ="
+				input next.
 				pos := input position.
 				input skipSeparators.
 				"Delete spaces if followed by ="
-				input peek = $= ifFalse: [ input position: pos ] ]
+				input peek = $= ifFalse: [ input position: pos ]. 
+					
+				charsetStream :=  String new writeStream.
+				mimeDecoder := mimeEncoding = 'B' 
+					ifTrue: [ Base64MimeConverter new ]
+					ifFalse: [ RFC2047MimeConverter new ].
+				mimeDecoder
+					mimeStream: temp readStream;
+					dataStream: charsetStream;
+					mimeDecode.
+				output nextPutAll: (charsetStream contents convertFromEncoding: charset).
+				]
 			ifFalse: 
 				[ output
 					nextPut: $=;
-					nextPut: temp ] ].
-	^ output contents
+					nextPut: temp ] ] ]

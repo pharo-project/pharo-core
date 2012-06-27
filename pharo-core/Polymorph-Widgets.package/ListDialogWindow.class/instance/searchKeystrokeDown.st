@@ -1,4 +1,4 @@
-as yet unclassified
+events
 searchKeystrokeDown
 	|interval|
 	interval := searchMorph selectionInterval .
@@ -6,5 +6,5 @@ searchKeystrokeDown
 	and: [ interval last < interval first ])
 		ifFalse: [ ^ false ].
 		
-	self focusList.
+	self giveFocusToList.
 	^ true

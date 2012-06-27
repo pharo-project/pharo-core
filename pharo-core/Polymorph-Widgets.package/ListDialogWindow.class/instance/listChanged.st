@@ -1,3 +1,3 @@
-as yet unclassified
+morphic protocol
 listChanged
 	self changed: #list.

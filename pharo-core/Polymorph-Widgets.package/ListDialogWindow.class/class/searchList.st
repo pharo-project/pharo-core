@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 searchList
 	^ searchList ifNil: [ searchList := OrderedCollection new ]

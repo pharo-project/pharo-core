@@ -1,9 +1,9 @@
-as yet unclassified
-getList: aSymbolOrBlock
-	aSymbolOrBlock isBlock
-		ifTrue: [ listBlock := aSymbolOrBlock. ^ self ].
-	aSymbolOrBlock isSymbol 
+protocol
+getList: aSymbolOrBlockWithOneArgument
+	aSymbolOrBlockWithOneArgument isBlock
+		ifTrue: [ listBlock := aSymbolOrBlockWithOneArgument. ^ self ].
+	aSymbolOrBlockWithOneArgument isSymbol 
 		ifTrue: [ 
-			listBlock := [ :regex| model perform: aSymbolOrBlock with: regex].
+			listBlock := [ :regex| model perform: aSymbolOrBlockWithOneArgument with: regex].
 			^ self].
 	Error signal: 'invalid argument'.

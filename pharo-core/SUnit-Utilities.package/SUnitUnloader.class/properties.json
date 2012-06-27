@@ -1,0 +1,16 @@
+{
+	"category" : "SUnit-Utilities",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "LaurentLaffont 4/15/2011 20:20",
+	"instvars" : [
+		 ],
+	"name" : "SUnitUnloader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

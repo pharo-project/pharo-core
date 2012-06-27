@@ -1,4 +1,4 @@
-as yet unclassified
+items creation
 buildSearchMorph
 	^ searchMorph := SearchMorph new
 			model: self;

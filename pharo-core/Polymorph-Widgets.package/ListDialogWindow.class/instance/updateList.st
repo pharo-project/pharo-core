@@ -1,4 +1,4 @@
-as yet unclassified
+morphic protocol
 updateList
 	"update the displayed list in a separate thread to avoid UI blocking"
 	

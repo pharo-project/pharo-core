@@ -10,7 +10,7 @@
 		"digitValueOf:" : "StephaneDucasse 2/13/2010 12:14",
 		"fileNameConverterClass" : "michael.rueger 2/5/2009 17:23",
 		"initKnownEnvironments" : "nice 1/5/2010 15:59",
-		"initialize" : "CamilloBruni 5/7/2012 11:27",
+		"initialize" : "GuillermoPolito 6/27/2012 12:41",
 		"isBreakableAt:in:" : "yo 3/17/2004 21:54",
 		"isCharset" : "yo 12/2/2004 16:13",
 		"isDigit:" : "yo 3/17/2004 15:24",
@@ -23,8 +23,7 @@
 		"localeID:" : "michael.rueger 3/15/2009 11:45",
 		"resetKnownEnvironments" : "mir 7/21/2004 19:10",
 		"scanSelector" : "yo 1/18/2005 15:56",
-		"setUsePangoFlag" : "",
-		"startUp" : "michael.rueger 3/2/2009 11:06",
+		"startUp" : "GuillermoPolito 6/27/2012 12:41",
 		"supportedLanguages" : "mir 7/1/2004 17:59",
 		"systemConverterClass" : "yo 3/17/2004 15:10" },
 	"instance" : {

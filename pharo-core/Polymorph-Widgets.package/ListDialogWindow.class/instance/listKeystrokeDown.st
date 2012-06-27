@@ -1,8 +1,8 @@
-as yet unclassified
+events
 listKeystrokeDown
 	listIndex = list size
 		ifTrue: [ 
 			self listIndex: 0.
-			self focusSearch.
+			self giveFocusToSearch.
 			^ true].
 	^ false.

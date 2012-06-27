@@ -1,9 +1,11 @@
 initialization
 initialize
+
 	list := #().
 	listIndex := 0.
 	isResizeable := true.
 	listBlock := [ :regex| #() ].
+	displayBlock := [:e | e printString ].
+	browseBlock :=  [:tmp | tmp browse ].
+	
 	super initialize.
-	self title: 'Class Search'.
-	self startStepping
