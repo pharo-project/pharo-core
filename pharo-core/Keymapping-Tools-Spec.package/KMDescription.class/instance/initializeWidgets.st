@@ -12,7 +12,7 @@ initializeWidgets
 			named:'shortcut	:	description' 
 			do: [ 
 					collectingBlock := [:e | {e shortcut asString. ':'. e description asString} ].
-					sortingBlock := [:a :b | true ]].
+					sortingBlock := [:a :b | a first < b first ]].
 		DropListItem 
 			named:'description	:	shortcut' 
 			do: [ 

@@ -8,7 +8,7 @@ refactoringMethodMenu: aBuilder
 	(aBuilder item: #'Refactoring')
 			order: -100.
 			
-	(aBuilder item: #'Rename method (r)')
+	(aBuilder item: #'Rename method (r, m)')
 			action: [ | scroll |
 				scroll := target methodWidget vScrollValue.
 				target refactor renameMethodFor: target selectedMethod.

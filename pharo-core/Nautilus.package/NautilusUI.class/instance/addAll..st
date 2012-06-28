@@ -23,7 +23,7 @@ addAll: aWindow
 	"navigationRow := self buildNavigationRow: aWindow height: topHeight."
 
 	self buildColumns: aWindow height: topHeight"+navigationRow".
-	
+	self setGlobalShorcutsTo: aWindow.
 	
 	self buildMiddlePlugins ifNotNil: [:middle |
 		middleHeight := middle height+4.
@@ -35,6 +35,7 @@ addAll: aWindow
 		middle color: Color transparent].
 	
 	sourceCodePanel := PanelMorph new.
+	self setGlobalShorcutsTo: sourceCodePanel.
 	sourceCodePanel changeProportionalLayout.
 		
 	sourceCodePanel 
@@ -47,6 +48,7 @@ addAll: aWindow
 		hResizing: #spaceFill;
 		vResizing: #spaceFill.
 	sourceCodeContainer := PanelMorph new.
+	self setGlobalShorcutsTo: sourceCodeContainer.
 	sourceCodeContainer 
 		changeTableLayout;
 		listDirection: #leftToRight.
@@ -55,6 +57,7 @@ addAll: aWindow
 		self buildTextAreaButtonsColumn: aWindow} reverse do: [:each | sourceCodeContainer addMorph: each].
 	
 	bottomMorph := self buildBottomPlugins.
+	
 	bottomMorph ifNotNil: [:bottom | bottomHeight := bottom height + 8].
 	aWindow
 		addMorph: sourceCodeContainer

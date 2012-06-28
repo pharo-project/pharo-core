@@ -37,7 +37,7 @@
 		"findPackageIn:" : "StephaneDucasse 5/28/2011 13:19",
 		"getSelectorAndSendQuery:to:with:selector:" : "BenjaminVanRyseghem 3/25/2012 20:55",
 		"mergeGroups:" : "BenjaminVanRyseghem 4/13/2011 12:59",
-		"methodHierarchyFrom:" : "BenjaminVanRyseghem 4/13/2011 13:00",
+		"methodHierarchyFrom:" : "BenjaminVanRyseghem 6/28/2012 15:11",
 		"moveInNewPackage:" : "BenjaminVanRyseghem 3/16/2012 01:36",
 		"moveMethod:inPackage:" : "BenjaminVanRyseghem 4/13/2011 13:06",
 		"moveMethodsToPackage:in:from:" : "StephaneDucasse 5/28/2011 13:19",

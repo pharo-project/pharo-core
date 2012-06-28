@@ -1,4 +1,4 @@
-shortcuts
+shortcut-old
 buildGroupShortcutsOn: aBuilder
 	<keymap>
 

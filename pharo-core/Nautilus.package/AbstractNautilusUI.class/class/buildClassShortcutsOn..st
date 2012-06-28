@@ -1,4 +1,4 @@
-shortcuts
+shortcut-old
 buildClassShortcutsOn: aBuilder
 	<keymap>
 

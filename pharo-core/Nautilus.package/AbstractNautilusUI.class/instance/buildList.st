@@ -21,14 +21,12 @@ buildList
 				getSelectionListSelector: #listSelectionAt:;
 				setSelectionListSelector: #listSelectionAt:put:;
 				getMenuSelector: #menu:shifted:;
-				keystrokeSelector: nil;
 				beMultipleSelection;
 				
 				getListElementSelector: #listElement:.
 				
-	self showGroups
-		ifTrue: [ self setGroupShorcutsTo: list ]
-		ifFalse: [ self setPackageShorcutsTo: list ].
+	self setGlobalShorcutsTo: list.
+	
 	list
 		hResizing: #spaceFill;
 		vResizing: #spaceFill.	

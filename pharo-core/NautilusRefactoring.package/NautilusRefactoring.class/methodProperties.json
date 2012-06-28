@@ -1,8 +1,9 @@
 {
 	"class" : {
-		"buildRefactoringMethodShortcutsOn:" : "BenjaminVanRyseghem 4/18/2012 16:12",
+		"buildRefactoringMethodShortcutsOn:" : "BenjaminVanRyseghem 6/24/2012 22:29",
+		"buildRefactoringShortcutsOn:" : "BenjaminVanRyseghem 6/27/2012 13:27",
 		"buildSourceCodeShortcutsOn:" : "BenjaminVanRyseghem 4/18/2012 17:44",
-		"classRefactoringSubmenu:" : "BenjaminVanRyseghem 5/13/2012 17:54",
+		"classRefactoringSubmenu:" : "BenjaminVanRyseghem 6/28/2012 15:14",
 		"classVarRefactoringSubmenu:" : "BenjaminVanRyseghem 5/13/2012 17:56",
 		"codeRewritingClassSubmenu:" : "BenjaminVanRyseghem 5/13/2012 17:54",
 		"instVarRefactoringSubmenu:" : "BenjaminVanRyseghem 5/13/2012 17:57",
@@ -10,7 +11,7 @@
 		"model:" : "",
 		"promptOnRefactoring" : "",
 		"refactoringClassMenu:" : "BenjaminVanRyseghem 5/13/2012 17:53",
-		"refactoringMethodMenu:" : "BenjaminVanRyseghem 5/13/2012 18:00",
+		"refactoringMethodMenu:" : "BenjaminVanRyseghem 6/28/2012 15:13",
 		"sourceCodeRefactoringMenu:" : "",
 		"sourceCodeRefactoringMenuHolder:" : "BenjaminVanRyseghem 4/3/2012 13:20" },
 	"instance" : {
@@ -127,7 +128,7 @@
 		"renameInstVarFrom:" : "",
 		"renameInstVarNamed:from:" : "BenjaminVanRyseghem 4/18/2012 16:55",
 		"renameMethodFor:" : "",
-		"renameTemporaryNamed:Between:from:" : "",
+		"renameTemporaryNamed:Between:from:" : "BenjaminVanRyseghem 6/26/2012 21:21",
 		"renameTextSelection" : "BenjaminVanRyseghem 4/18/2012 16:47",
 		"renameTextSelectionForClass" : "BenjaminVanRyseghem 4/18/2012 17:06",
 		"renameTextSelectionForMethod" : "BenjaminVanRyseghem 4/18/2012 17:25",

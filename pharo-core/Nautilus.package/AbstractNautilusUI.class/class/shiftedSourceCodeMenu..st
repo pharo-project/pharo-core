@@ -1,6 +1,6 @@
 menu
 shiftedSourceCodeMenu: aBuilder
-	<nautilusSourceCodeMenu>
+	"<nautilusSourceCodeMenu>"
 	| donorMenu items |
 	items := OrderedCollection new.
 	donorMenu := SmalltalkEditor shiftedYellowButtonMenu.

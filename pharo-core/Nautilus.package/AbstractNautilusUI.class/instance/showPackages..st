@@ -5,16 +5,9 @@ showPackages: aBoolean
 		ifTrue: [
 			listElements := nil.
 			list2Elements := nil.
-			list detachAllKeymapCategories.
-			list2 detachAllKeymapCategories.
 			list enabled: aBoolean.
 			aBoolean
-				ifTrue: [ 
-					self setPackageShorcutsTo: list.
-					self setClassShorcutsTo: list2.]
 				ifFalse: [| class |
-					self setPackageShorcutsTo: list2.	
-					self setClassShorcutsTo: list.
 					class := self selectedClass theNonMetaClass.
 					classesSelection at: class put: true.
 					self hierarchyClass: class .

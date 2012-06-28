@@ -1,12 +1,12 @@
 {
 	"class" : {
 		"buildMethodShortcutsOn:" : "BenjaminVanRyseghem 5/2/2012 10:25",
-		"elementsMenu:" : "BenjaminVanRyseghem 5/2/2012 10:50" },
+		"elementsMenu:" : "BenjaminVanRyseghem 6/28/2012 15:12" },
 	"instance" : {
-		"buildMethodsList" : "BenjaminVanRyseghem 5/7/2012 15:09",
+		"buildMethodsList" : "BenjaminVanRyseghem 6/24/2012 17:55",
 		"deselectMethod:" : "",
 		"getMethodItem:" : "",
-		"getMethods" : "",
+		"getMethods" : "BenjaminVanRyseghem 6/27/2012 00:16",
 		"hasFocus" : "BenjaminVanRyseghem 4/14/2012 13:10",
 		"initialize" : "",
 		"keyPressedOnElement:" : "BenjaminVanRyseghem 4/25/2012 11:15",
@@ -21,6 +21,7 @@
 		"removeAllFromMethodsIconsCache:" : "",
 		"resetMethodCache" : "",
 		"resetMethodsListSelection" : "",
+		"resetSelection" : "BenjaminVanRyseghem 6/27/2012 23:02",
 		"selectMethod:" : "",
 		"selectedMethodIndex" : "",
 		"selectedMethodIndex:" : "",

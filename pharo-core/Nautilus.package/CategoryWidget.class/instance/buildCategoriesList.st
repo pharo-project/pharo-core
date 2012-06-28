@@ -18,9 +18,8 @@ buildCategoriesList
 							getSelectionListSelector: #categorySelectionAt:;
 							setSelectionListSelector: #categorySelectionAt:put:;
 							getMenuSelector: #categoriesMenu:shifted:;
-							keystrokeSelector: nil;
 							beMultipleSelection;
 							
 							getListElementSelector: #getCategoryItem:;
-							attachKeymapCategory: #NautilusProtocolShortcuts targetting: self model;
+							attachKeymapCategory: #NautilusGlobalShortcuts targetting: self model;
 							wrapSelector: #categoryWrapper:.

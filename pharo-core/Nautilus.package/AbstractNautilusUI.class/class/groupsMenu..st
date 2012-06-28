@@ -5,12 +5,12 @@ groupsMenu: aBuilder
 	target := aBuilder model.
 	target selectedGroup ifNil: [ ^ target ].
 		
-	(aBuilder item: #'Browse restricted (B)')
+	(aBuilder item: #'Browse restricted (b, r)')
 		action: [ target restrictedBrowseGroup: target selectedGroups ];
 		order: 1000;
 		withSeparatorAfter.
 		
-	(aBuilder item: #'Run tests (t)')
+	(aBuilder item: #'Run tests (j, g)')
 		action: [ target runTestsOfGroups: target selectedGroups notifying: true ];
 		order: 1100.
 				

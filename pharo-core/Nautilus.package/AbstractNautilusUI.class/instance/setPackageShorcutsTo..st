@@ -1,4 +1,4 @@
 shortcuts
 setPackageShorcutsTo: aList
 
-	aList attachKeymapCategory: #NautilusPackageShortcuts targetting: self
+	aList attachKeymapCategory: #NautilusPackageShortcuts targetting: self.

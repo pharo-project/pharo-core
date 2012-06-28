@@ -1,9 +1,9 @@
 {
 	"class" : {
 		"buildProtocolShortcutsOn:" : "BenjaminVanRyseghem 4/6/2012 16:57",
-		"categoriesMenu:" : "" },
+		"categoriesMenu:" : "BenjaminVanRyseghem 6/28/2012 15:15" },
 	"instance" : {
-		"buildCategoriesList" : "BenjaminVanRyseghem 5/7/2012 15:08",
+		"buildCategoriesList" : "BenjaminVanRyseghem 6/24/2012 17:54",
 		"categoriesLabel" : "",
 		"categoriesSelection" : "",
 		"categoryListSize" : "",
@@ -28,6 +28,7 @@
 		"model:" : "",
 		"resetCategoriesListSelection" : "",
 		"resetCategoryCache" : "",
+		"resetSelection" : "BenjaminVanRyseghem 6/27/2012 00:34",
 		"searchedElement:" : "",
 		"selectProtocol:" : "",
 		"selectedCategories" : "",

@@ -3,6 +3,7 @@ buildFirstColumn: aWindow
 		
 	| buttons |
 	buttons := PanelMorph new.
+	self setGlobalShorcutsTo: buttons.
 	buttons 
 		changeProportionalLayout;
 		addMorph: self buildGroupsButton

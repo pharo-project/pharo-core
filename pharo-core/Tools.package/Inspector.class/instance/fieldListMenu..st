@@ -14,7 +14,6 @@ fieldListMenu: aMenu
 		-
 		('Method refs to this inst var'		referencesToSelection)
 		('Methods storing into this inst var'	defsOfSelection)
-		('Objects pointing to this value'		objectReferencesToSelection)
 		('Explore pointers'					explorePointers)
 		-
 		('Browse full (b)'					browseMethodFull)

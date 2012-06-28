@@ -28,12 +28,12 @@ buildAnalyzeSubMenu: aBuilder
 		order: 300;
 		enabledBlock: [ target showInstance ].
 	
-	(aBuilder item: #'Generate initialize method (I)')
+	(aBuilder item: #'Generate initialize method (h, i)')
 		action: [ target generateInitialize ];
 		parent: #Analyze;
 		order: 350.
 		
-	(aBuilder item: #'Force the generaton of the initialize method (K)')
+	(aBuilder item: #'Force the generaton of the initialize method (h, k)')
 		action: [ target forceGenerateInitialize ];
 		parent: #Analyze;
 		order: 375;
@@ -45,12 +45,12 @@ buildAnalyzeSubMenu: aBuilder
 		parent: #Analyze;
 		order: 400.
 		
-	(aBuilder item: #'Class refs... (N)')
+	(aBuilder item: #'Class refs... (b, N)')
 		action: [target browseClassRefs];
 		parent: #Analyze;
 		order: 500.
 		
-	(aBuilder item: #'Browse comment versions... (v)')
+	(aBuilder item: #'Browse comment versions... (b, v)')
 		action: [ target browseCommentVersionsOf: {target selectedClass} ];
 		parent: #Analyze;
 		order: 600;

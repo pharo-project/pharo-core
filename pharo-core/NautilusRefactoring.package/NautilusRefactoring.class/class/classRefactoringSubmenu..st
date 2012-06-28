@@ -5,7 +5,7 @@ classRefactoringSubmenu: aBuilder
 	target := aBuilder model.
 	target selectedClass ifNil: [^target].
 	
-	(aBuilder item: #'Rename... (r)')
+	(aBuilder item: #'Rename... (r, c)')
 		action: [ target renameClassWithRefactoringEngine: target selectedClass ];
 		parent: #'Class Refactoring';
 		order: 0.
@@ -17,7 +17,7 @@ classRefactoringSubmenu: aBuilder
 		order: 100;
 		withSeparatorAfter.
 		
-	(aBuilder item: #'Generate Accessors')
+	(aBuilder item: #'Generate Accessors (h, a)')
 		action: [ target refactor generateAccessors ];
 		parent: #'Class Refactoring';
 		order: 200.

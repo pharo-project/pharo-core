@@ -21,12 +21,11 @@ buildList2
 				getSelectionListSelector: #listSelection2At:;
 				setSelectionListSelector: #listSelection2At:put:;
 				getMenuSelector: #menu2:shifted:;
-				keystrokeSelector: nil;
 				beMultipleSelection;
 				
 				getListElementSelector: #listElement2:;
 				wrapSelector: #listWrapper2:.
 						
-	self setClassShorcutsTo: list2.					
+	self setGlobalShorcutsTo:  list2.					
 						
 	^ list2

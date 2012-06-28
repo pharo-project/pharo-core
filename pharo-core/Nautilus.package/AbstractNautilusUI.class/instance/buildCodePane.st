@@ -7,7 +7,7 @@ buildCodePane
 				accept: #compileSource:notifying:
 				readSelection: #contentsSelection
 				menu: #sourceCodeMenu:shifted:.
-			
+				
 	sourceTextArea
 		askBeforeDiscardingEdits: true;
 		vResizing: #spaceFill;

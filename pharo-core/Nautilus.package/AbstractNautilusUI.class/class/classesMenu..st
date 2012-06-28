@@ -5,25 +5,25 @@ classesMenu: aBuilder
 	target := aBuilder model.
 	target selectedClass ifNil: [^target].
 		
-	(aBuilder item: #'Rename... (r)')
+	(aBuilder item: #'Rename... (r, c)')
 		action: [ target renameClass ];
 		enabledBlock: [ target selectedClasses size <= 1 ];
 		order: 500;
 		withSeparatorAfter.	
 		
-	(aBuilder item: #'Browse restricted (B)')
+	(aBuilder item: #'Browse restricted (b, r)')
 		action: [target restrictedBrowseClass];
 		order: 1000;
 		help: 'Open a browser on a restricted view'.
 	
-	(aBuilder item: #'Add in Group... (e)')
+	(aBuilder item: #'Add in Group... (n, e, c)')
 		action: [ target addClassesInGroup ];
 		order: 1100;
 		withSeparatorAfter.
 	
 	(target selectedClasses allSatisfy: [:each | each inheritsFrom: TestCase ])
 			ifTrue:[	
-					(aBuilder item:#'Run tests (t)')
+					(aBuilder item:#'Run tests (j, c)')
 						action: [ target runClassTests ];
 						order: 1200].
 						
@@ -32,22 +32,22 @@ classesMenu: aBuilder
 		order: 0;
 		withSeparatorAfter.
 
-	(aBuilder item: #'Jump to test class (j)')
+	(aBuilder item: #'Jump to test class (g, j)')
 		action: [ target createTestForSelectedClass ];
 		enabledBlock: [ target selectedClasses size <= 1 ];
 		order: 300;
 		withSeparatorAfter.
 		
 		
-	(aBuilder item: #'Move to package...')
+	(aBuilder item: #'Move to package... (m, c)')
 		action: [ target moveInNewPackage ];
 		order: 1400.	
 			
-	(aBuilder item: #'Copy... (c)')
+	(aBuilder item: #'Copy... (c, c)')
 		action: [ target copyClasses ];
 		order: 1600.	
 			
-	(aBuilder item: #'Remove... (x)')
+	(aBuilder item: #'Remove... (x, c)')
 		action: [ target removeClasses ];
 		icon: (target iconClass iconNamed: #removeIcon);
 		order: 1700;

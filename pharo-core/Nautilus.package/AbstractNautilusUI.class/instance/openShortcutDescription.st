@@ -2,5 +2,5 @@ shortcuts
 openShortcutDescription
 
 	KMDescription new
-		categories: #(NautilusGroupShortcuts NautilusClassShortcuts NautilusSourceCodeShortcuts NautilusPackageShortcuts NautilusProtocolShortcuts NautilusMethodShortcuts) sort;
+		categories: #(NautilusGlobalShortcuts "NautilusClassShortcuts NautilusSourceCodeShortcuts NautilusPackageShortcuts NautilusProtocolShortcuts NautilusMethodShortcuts") sort;
 		openWithSpec

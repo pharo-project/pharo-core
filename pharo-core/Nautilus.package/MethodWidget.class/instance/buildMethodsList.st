@@ -17,10 +17,9 @@ buildMethodsList
 						getSelectionListSelector: #methodSelectionAt:;
 						setSelectionListSelector: #methodSelectionAt:put:;
 						getMenuSelector: #elementsMenu:shifted:;
-						keystrokeSelector: nil;
 						beMultipleSelection;
 						
 						getListElementSelector: #getMethodItem:;
 						
-						attachKeymapCategory: #NautilusMethodShortcuts targetting: self model;
+						attachKeymapCategory: #NautilusGlobalShortcuts targetting: self model;
 						wrapSelector: #methodWrapper:.
