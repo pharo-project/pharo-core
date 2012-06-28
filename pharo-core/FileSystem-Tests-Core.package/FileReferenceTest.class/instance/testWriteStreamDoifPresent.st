@@ -6,8 +6,6 @@ testWriteStreamDoifPresent
 		writeStreamDo:
 			[:stream |
 			s := stream.
-			self assert: stream class = FileSystemWriteStream.
-			self assert: stream isOpen]
+			self deny: stream isNil ]
 		ifPresent: [self signalFailure: 'The file does not exist!'].
-	self deny: s isOpen
 		

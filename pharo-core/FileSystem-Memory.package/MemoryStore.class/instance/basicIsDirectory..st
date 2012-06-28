@@ -1,3 +1,3 @@
 private
-basicIsDirectory: association
-	^ association value isDictionary
+basicIsDirectory: aMemoryFileSystemEntry
+	^ aMemoryFileSystemEntry isDirectory

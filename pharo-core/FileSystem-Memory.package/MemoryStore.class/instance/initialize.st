@@ -1,3 +1,3 @@
-as yet unclassified
+initialize-release
 initialize 
-	root := Dictionary new
+	root := MemoryFileSystemDirectory new

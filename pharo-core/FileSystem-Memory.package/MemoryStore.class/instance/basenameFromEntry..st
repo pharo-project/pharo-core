@@ -1,3 +1,3 @@
 public
-basenameFromEntry: association
-	^ association key
+basenameFromEntry: aMemoryFileSystemEntry
+	^ aMemoryFileSystemEntry name

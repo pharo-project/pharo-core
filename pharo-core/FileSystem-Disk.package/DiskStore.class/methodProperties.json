@@ -28,7 +28,6 @@
 		"directoryAt:ifAbsent:nodesDo:" : "cwp 2/27/2011 10:03",
 		"entryFromNode:fileSystem:path:" : "EstebanLorenzano 4/3/2012 13:26",
 		"entryFromNode:filesystem:path:" : "EstebanLorenzano 4/3/2012 13:26",
-		"entryFromNode:path:for:" : "EstebanLorenzano 4/3/2012 13:27",
 		"forReferencePrintOn:" : "cwp 2/27/2011 08:32",
 		"handleClass" : "EstebanLorenzano 4/2/2012 11:46",
 		"hash" : "cwp 2/27/2011 09:51",

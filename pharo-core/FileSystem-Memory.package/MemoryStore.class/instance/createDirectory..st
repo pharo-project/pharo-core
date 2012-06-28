@@ -4,12 +4,12 @@ createDirectory: path
 	parent := path parent.
 	^ self
 		nodeAt: parent
-		ifPresent: [ :dict | 
-			dict
+		ifPresent: [ :entry | 
+			entry
 				at: path basename
 				ifPresent: [ :node | 
-					node isDictionary
+					node isDirectory
 						ifTrue: [ self signalDirectoryExists: path ]
 						ifFalse: [ self signalFileExists: path ] ].
-			dict at: path basename put: Dictionary new ]
+			entry ensureDirectory: path basename  ]
 		ifAbsent: [ self signalDirectoryDoesNotExist: parent ]

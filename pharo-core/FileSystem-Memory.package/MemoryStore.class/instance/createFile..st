@@ -2,7 +2,7 @@ private
 createFile: aPath
 	^ self
 		nodeAt: aPath parent
-		ifPresent: [ :dict | 
-			(self basicIsDirectory: dict)
-				ifTrue: [ dict at: aPath basename put: ByteArray new ] ]
+		ifPresent: [ :entry | 
+			entry isDirectory
+				ifTrue: [ entry ensureFile: aPath basename ]]
 		ifAbsent: [ self signalDirectoryDoesNotExist: aPath parent ]

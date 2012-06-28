@@ -1,4 +1,5 @@
 public
 close
-	self truncateTo: size.
-	bytes := nil
+	self isOpen ifFalse: [ ^ self ].
+	self truncate.
+	entry := nil.

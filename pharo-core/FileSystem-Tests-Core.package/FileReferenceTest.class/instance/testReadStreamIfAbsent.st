@@ -6,5 +6,5 @@ testReadStreamIfAbsent
 	ref := filesystem referenceTo: path.
 	[ 
 	stream := ref readStreamIfAbsent: [ self signalFailure: 'Should not reach here.' ].
-	self assert: stream class = FileSystemReadStream ] 
+	 ] 
 		ensure: [ stream ifNotNil: [ stream close ] ]

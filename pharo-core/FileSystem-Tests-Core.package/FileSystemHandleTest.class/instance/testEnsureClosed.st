@@ -8,7 +8,7 @@ testEnsureClosed
 	handle ensureClosed.
 	self deny: handle isOpen.
 	
-	self shouldnt: [ handle ensureClosed ] raise: Error.
+	handle ensureClosed.
 	
 	reference delete. 
 	handle reference exists ifTrue: [self error].

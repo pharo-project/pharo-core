@@ -1,3 +1,3 @@
 private
-basicIsReadable: association
+basicIsReadable: aMemoryFileSystemEntry
 	^ true

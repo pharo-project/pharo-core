@@ -1,3 +1,3 @@
 public
 flush
-	self truncateTo: size
+	self truncate

@@ -6,8 +6,6 @@ testReadStreamDoifAbsent
 	ref := filesystem referenceTo: path.
 	ref
 		readStreamDo: [ :stream | 
-			self assert: stream class = FileSystemReadStream.
-			self assert: stream isOpen.
+			self deny: stream isNil.
 			s := stream ]
 		ifAbsent: [ self signalFailure: 'The file exists!' ].
-	self deny: s isOpen

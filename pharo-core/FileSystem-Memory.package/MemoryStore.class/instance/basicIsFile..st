@@ -1,3 +1,3 @@
 private
-basicIsFile: association
-	^ association value isDictionary not
+basicIsFile: aMemoryFileSystemEntry
+	^ aMemoryFileSystemEntry isFile

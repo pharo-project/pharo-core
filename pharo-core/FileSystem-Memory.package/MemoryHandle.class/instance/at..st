@@ -1,3 +1,3 @@
 public
 at: index
-	^ bytes at: index
+	^ entry at: index

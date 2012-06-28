@@ -1,17 +1,26 @@
 private
 copy: sourcePath ifAbsent: absentBlock to: destinationPath ifPresent: presentBlock fileSystem: aFilesystem
-	self
+	| sourceNode destinationNode |
+	
+	sourceNode := self
 		nodeAt: sourcePath
-		ifPresent: [ :bytes | 
-			(self basicIsDirectory: bytes)
-				ifTrue: [ ^ absentBlock value ].
-			self
-				nodeAt: destinationPath parent
-				ifPresent: [ :dict | 
-					(self basicIsFile: dict)
-						ifTrue: [ self signalDirectoryDoesNotExist: destinationPath parent ].
-					(dict includesKey: destinationPath basename)
-						ifTrue: [ "cannot overwrite existing file"^ presentBlock value ].
-					dict at: destinationPath basename put: bytes copy ]
-				ifAbsent: [ self signalDirectoryDoesNotExist: destinationPath parent ] ]
-		ifAbsent: absentBlock
+		ifPresent: [ :source | source ]
+		ifAbsent: [ ^ absentBlock value].
+		
+	sourceNode isDirectory 
+		ifTrue: [ ^ absentBlock value ].
+	
+	destinationNode := self
+		nodeAt: destinationPath parent
+		ifPresent: [ :destination |  destination ]
+		ifAbsent: [ ^ self signalDirectoryDoesNotExist: destinationPath parent ].
+	
+	destinationNode isFile
+		ifTrue: [ self signalDirectoryDoesNotExist: destinationPath parent ].
+		
+	(destinationNode includes: destinationPath basename)
+		ifTrue: [ "cannot overwrite existing file"^ presentBlock value ].
+		
+	destinationNode 
+		at: destinationPath basename 
+		put: sourceNode copy

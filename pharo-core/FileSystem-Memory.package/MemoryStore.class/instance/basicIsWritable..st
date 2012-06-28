@@ -1,3 +1,3 @@
 private
-basicIsWritable: association
+basicIsWritable: aMemoryFileSystemEntry
 	^ true

@@ -11,4 +11,4 @@ testFileNames
 		[	self assert: reference exists.
 			self assert: (filesystem workingDirectory children
 				anySatisfy: [ :ref | ref = reference ]) ]
-			ensure: [ reference delete ] ]
+		ensure: [ reference delete ] ]

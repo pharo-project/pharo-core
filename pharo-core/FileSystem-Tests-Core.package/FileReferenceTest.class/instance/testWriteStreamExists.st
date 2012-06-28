@@ -4,6 +4,5 @@ testWriteStreamExists
 	path := Path * 'plonk'.
 	filesystem store createFile: path.
 	ref := filesystem referenceTo: path.
-	[stream := ref writeStream.
-	self assert: stream class = FileSystemWriteStream ] 
+	[stream := ref writeStream ] 
 		ensure: [ stream ifNotNil: [ stream close ] ]

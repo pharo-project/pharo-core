@@ -2,7 +2,7 @@ private
 basicOpen: path writable: aBoolean
 	^ self
 		nodeAt: path
-		ifPresent: [ :bytes | bytes ]
+		ifPresent: [ :aMemoryFileSystemEntry | aMemoryFileSystemEntry ]
 		ifAbsent: [ 
 			aBoolean
 				ifFalse: [ self signalFileDoesNotExist: path ]

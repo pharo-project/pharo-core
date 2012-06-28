@@ -1,3 +1,3 @@
 testing
 isOpen
-	^ bytes notNil
+	^ entry notNil

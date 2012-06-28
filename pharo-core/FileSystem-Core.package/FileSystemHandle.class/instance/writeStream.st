@@ -1,3 +1,3 @@
 public
 writeStream
-	^ FileSystemWriteStream onHandle: self
+	self subclassResponsability

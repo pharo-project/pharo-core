@@ -9,5 +9,5 @@ testReadStream
 	self
 		shouldnt: [ stream := reference readStream ]
 		raise: FileDoesNotExist.
-	self assert: stream contents asString = 'griffle'.
+	self assert: stream contents asString equals: 'griffle'.
 	stream close
