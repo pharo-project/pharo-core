@@ -1,6 +1,7 @@
 morphic protocol
 searchUpdate: aString
-	pattern := nil.
+
+	pattern := '.' asRegexIgnoringCase.
 	
 	aString isEmptyOrNil ifFalse: [
 		pattern := [aString asRegexIgnoringCase] on: RegexSyntaxError do: [ aString ]].

@@ -17,7 +17,7 @@
 		"setUp" : "BaseSystem 8/30/2009 09:40",
 		"testAssert" : "BaseSystem 8/30/2009 09:40",
 		"testDefects" : "StephaneDucasse 6/9/2012 23:01",
-		"testDialectLocalizedException" : "StephaneDucasse 6/9/2012 22:55",
+		"testDialectLocalizedException" : "MarcusDenker 6/28/2012 18:23",
 		"testError" : "BaseSystem 8/30/2009 09:40",
 		"testException" : "StephaneDucasse 6/9/2012 22:54",
 		"testExpectedFailure" : "NikoSchwarz 10/23/2010 15:23",

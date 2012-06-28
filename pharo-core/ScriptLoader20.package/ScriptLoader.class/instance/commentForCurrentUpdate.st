@@ -1,16 +1,10 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6197:	Nautilus global shortcuts
-	http://code.google.com/p/pharo/issues/detail?id=6197
+ ^ 'Issue 6199:	ListDialogWindow
+	http://code.google.com/p/pharo/issues/detail?id=6199
 	
-Issue 6196:	KMDescription fixed
-	http://code.google.com/p/pharo/issues/detail?id=6196
+Issue 6198:	Extension missing
+	http://code.google.com/p/pharo/issues/detail?id=6198
 	
-Issue 6195:	Change in AbstractTool
-	http://code.google.com/p/pharo/issues/detail?id=6195
-	
-Issue 6194:	Failing test: #testDialectLocalizedException
-	http://code.google.com/p/pharo/issues/detail?id=6194
-	
-Issue 6151:	Get rid of "Objects pointing to this value"
-	http://code.google.com/p/pharo/issues/detail?id=6151'
+Issue 6117:	SimplifiedChineseEnvironment should implement leadingChar
+	http://code.google.com/p/pharo/issues/detail?id=6117'
