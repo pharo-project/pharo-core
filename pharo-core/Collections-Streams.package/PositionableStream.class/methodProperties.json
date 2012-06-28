@@ -62,6 +62,8 @@
 		"setFrom:to:" : "",
 		"setToEnd" : "",
 		"skip:" : "",
+		"skipSeparators" : "di 6/13/97 12:00",
+		"skipSeparatorsAndPeekNext" : "di 1/13/98 16:08",
 		"skipTo:" : "",
 		"string" : "jm 9/5/2001 07:35",
 		"string:" : "jm 9/5/2001 12:09",

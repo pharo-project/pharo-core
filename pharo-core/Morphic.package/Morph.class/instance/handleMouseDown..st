@@ -6,7 +6,7 @@ handleMouseDown: anEvent
 	anEvent wasHandled: true.
 	
 	(anEvent controlKeyPressed
-			and: [self cmdGesturesEnabled])
+			and: [self cmdGesturesEnabled and: [ anEvent shiftPressed]])
 		ifTrue: [
 			self invokeMetaMenu: anEvent.
 			^ self eventHandler ifNotNil: [:handler | handler mouseDown: anEvent fromMorph: self ].].

@@ -1,4 +1,5 @@
 activation
 activate
-	self evaluate: (' ' join: self arguments).
+	self evaluateStdIn.
+	self evaluateArguments.
 	self quit.

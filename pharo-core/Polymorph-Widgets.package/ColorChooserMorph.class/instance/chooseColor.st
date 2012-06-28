@@ -5,7 +5,7 @@ chooseColor
 	|newColor|
 	newColor := self theme
 		chooseColorIn: ((self ownerThatIsA: SystemWindow) ifNil: [self])
-		title: 'Choose Color'
+		title: 'Choose Color' translated
 		color: self labelMorph color.
 	newColor ifNil: [^self].
 	self labelMorph color: newColor.

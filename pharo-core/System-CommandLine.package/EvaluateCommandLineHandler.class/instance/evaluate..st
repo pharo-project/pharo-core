@@ -1,6 +1,6 @@
 commands
-evaluate: sourceString
+evaluate: aStream
 		
-	[ self stdout print: (Compiler evaluate: sourceString); cr ]
+	[ self stdout print: (Compiler evaluate: aStream); cr ]
 		on: Error, ParserNotification
 		do: [ :e| 	self handleError: e  ].

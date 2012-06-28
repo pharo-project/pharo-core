@@ -3,7 +3,7 @@ implementSelector: aSelector
 	| behavior method category head source |
 	
 	category := ClassOrganizer default.
-	behavior := ClassSearch chooseFromOwner: self window.
+	behavior := SearchFacade classSearch chooseFromOwner: self window.
 	aSelector ifNil: [ ^ sourceTextArea flash ].
 	behavior ifNil: [ ^ sourceTextArea flash ].
 	
