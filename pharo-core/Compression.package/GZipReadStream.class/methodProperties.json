@@ -2,13 +2,7 @@
 	"class" : {
 		"fileIn:" : "yo 8/18/2004 20:24",
 		"fileIntoNewChangeSet:" : "CamilloBruni 5/4/2012 20:27",
-		"fileReaderServicesForFile:suffix:" : "lr 3/14/2010 21:13",
 		"saveContents:" : "SeanDeNigris 6/21/2012 08:41",
-		"serviceDecompressToFile" : "tbn 8/11/2010 10:29",
-		"serviceFileIn" : "tbn 8/11/2010 10:19",
-		"serviceFileIntoNewChangeSet" : "tbn 8/11/2010 10:19",
-		"serviceViewDecompress" : "tbn 8/11/2010 10:19",
-		"services" : "sd 2/1/2002 22:16",
 		"uncompressedFileName:" : "dgd 9/21/2003 17:46",
 		"unload" : "IgorStasenko 3/6/2011 18:53",
 		"viewContents:" : "marcus.denker 11/10/2008 10:04" },

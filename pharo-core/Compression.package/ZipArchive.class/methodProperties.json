@@ -6,11 +6,9 @@
 		"compressionStored" : "nk 2/22/2001 14:13",
 		"directorySelectorModel" : "IgorStasenko 4/26/2011 16:42",
 		"extractAllIn:" : "CarloTeixeira 8/3/2010 01:11",
-		"fileReaderServicesForFile:suffix:" : "CarloTeixeira 8/3/2010 01:09",
 		"findEndOfCentralDirectoryFrom:" : "nk 8/21/2004 15:19",
 		"initialize" : "IgorStasenko 4/26/2011 16:42",
 		"isZipArchive:" : "di 3/6/2002 21:20",
-		"serviceExtractAll" : "CarloTeixeira 8/3/2010 01:08",
 		"validSignatures" : "ar 2/27/2001 13:38" },
 	"instance" : {
 		"addDeflateString:as:" : "ar 3/1/2006 23:21",
