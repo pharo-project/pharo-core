@@ -1,0 +1,4 @@
+misc
+randomBitsFromSoundInput: bitCount
+
+	self subclassResponsibility

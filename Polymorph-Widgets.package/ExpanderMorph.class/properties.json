@@ -1,0 +1,17 @@
+{
+	"category" : "Polymorph-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "gvc 5/18/2007 13:13",
+	"instvars" : [
+		"titleMorph",
+		"announcer" ],
+	"name" : "ExpanderMorph",
+	"pools" : [
+		 ],
+	"super" : "PanelMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

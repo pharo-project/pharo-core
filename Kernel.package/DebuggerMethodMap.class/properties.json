@@ -1,0 +1,23 @@
+{
+	"category" : "Kernel-Methods",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"MapCache",
+		"MapCacheEntries" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"timestamp",
+		"methodReference",
+		"methodNode",
+		"abstractSourceRanges",
+		"sortedSourceMap",
+		"blockExtentsToTempRefs",
+		"startpcsToTempRefs" ],
+	"name" : "DebuggerMethodMap",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

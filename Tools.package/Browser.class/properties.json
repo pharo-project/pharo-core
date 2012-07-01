@@ -1,0 +1,24 @@
+{
+	"category" : "Tools-Browser",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"RecentClasses" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"systemOrganizer",
+		"classOrganizer",
+		"metaClassOrganizer",
+		"systemCategoryListIndex",
+		"classListIndex",
+		"messageCategoryListIndex",
+		"messageListIndex",
+		"editSelection",
+		"metaClassIndicated" ],
+	"name" : "Browser",
+	"pools" : [
+		 ],
+	"super" : "CodeHolder",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

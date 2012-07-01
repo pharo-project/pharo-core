@@ -1,0 +1,4 @@
+initialization
+defaultDescription
+
+	^ SpecDescription new

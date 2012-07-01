@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testClassSideMethodNotFoundAfterRemoval" : "MarianoMartinezPeck 4/19/2012 12:59",
+		"testClassSideMethodPreservesIdentity" : "MarianoMartinezPeck 4/19/2012 12:59",
+		"testClassSideObsolete" : "MarianoMartinezPeck 4/19/2012 19:38",
+		"testClassSidePreservesIdentity" : "MartinDias 11/28/2011 01:03",
+		"testMethodNotFoundAfterRemoval" : "MarianoMartinezPeck 4/19/2012 12:59",
+		"testMethodPreservesIdentity" : "MarianoMartinezPeck 4/19/2012 12:59",
+		"testNotFoundAfterRemoval" : "MarianoMartinezPeck 4/19/2012 19:37",
+		"testNotFoundAfterRename" : "MarianoMartinezPeck 4/19/2012 18:47",
+		"testObsolete" : "MarianoMartinezPeck 4/19/2012 19:37",
+		"testPreservesIdentity" : "MartinDias 11/27/2011 21:08" } }

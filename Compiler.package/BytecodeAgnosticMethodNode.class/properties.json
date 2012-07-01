@@ -1,0 +1,16 @@
+{
+	"category" : "Compiler-ParseNodes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "BytecodeAgnosticMethodNode",
+	"pools" : [
+		 ],
+	"super" : "MethodNode",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

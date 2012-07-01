@@ -1,0 +1,3 @@
+icons
+eyedropperIcon
+	^ ThemeIcons eyedropperIcon

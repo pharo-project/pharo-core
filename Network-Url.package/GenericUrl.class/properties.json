@@ -1,0 +1,17 @@
+{
+	"category" : "Network-Url",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"schemeName",
+		"locator" ],
+	"name" : "GenericUrl",
+	"pools" : [
+		 ],
+	"super" : "Url",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

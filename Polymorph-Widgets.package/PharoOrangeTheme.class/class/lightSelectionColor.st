@@ -1,0 +1,3 @@
+accessing
+lightSelectionColor
+	^ self baseSelectionColor

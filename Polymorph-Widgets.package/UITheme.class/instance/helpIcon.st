@@ -1,0 +1,3 @@
+icons
+helpIcon
+	^ ThemeIcons helpIcon

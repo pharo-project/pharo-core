@@ -1,0 +1,23 @@
+{
+	"category" : "Refactoring-Core-Model",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"LookupSuperclass" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"newMethods",
+		"instanceVariableNames",
+		"model",
+		"superclass",
+		"subclasses",
+		"removedMethods",
+		"realClass" ],
+	"name" : "RBAbstractClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

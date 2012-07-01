@@ -1,0 +1,16 @@
+{
+	"category" : "Polymorph-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "W2KGroupBorder",
+	"pools" : [
+		 ],
+	"super" : "SimpleBorder",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

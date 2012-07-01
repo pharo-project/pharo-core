@@ -1,0 +1,3 @@
+testing
+anyChanges
+	^ self isTraitCompositionModified

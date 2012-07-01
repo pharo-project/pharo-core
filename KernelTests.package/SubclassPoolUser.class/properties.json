@@ -1,0 +1,16 @@
+{
+	"category" : "KernelTests-Classes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "StephaneDucasse 12/13/2011 15:58",
+	"instvars" : [
+		 ],
+	"name" : "SubclassPoolUser",
+	"pools" : [
+		 ],
+	"super" : "RootClassPoolUser",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

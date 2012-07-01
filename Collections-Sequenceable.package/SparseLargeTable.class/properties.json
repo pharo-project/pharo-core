@@ -1,0 +1,19 @@
+{
+	"category" : "Collections-Sequenceable",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"base",
+		"size",
+		"chunkSize",
+		"defaultValue" ],
+	"name" : "SparseLargeTable",
+	"pools" : [
+		 ],
+	"super" : "ArrayedCollection",
+	"traitcomposition" : "{}",
+	"type" : "variable" }

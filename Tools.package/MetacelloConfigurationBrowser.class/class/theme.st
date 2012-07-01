@@ -1,0 +1,3 @@
+registration
+theme
+	^ UITheme current 

@@ -1,0 +1,18 @@
+{
+	"category" : "Refactoring-Critics-BlockRules",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"matcher",
+		"varName",
+		"vars" ],
+	"name" : "RBTempVarOverridesInstVarRule",
+	"pools" : [
+		 ],
+	"super" : "RBBlockLintRule",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

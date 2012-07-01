@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"defaultSpec" : "BenjaminVanRyseghem 6/13/2012 16:33",
+		"example" : "bvr 6/2/2012 12:46",
+		"title" : "BenjaminVanRyseghem 4/13/2012 14:38" },
+	"instance" : {
+		"childrenBlock:" : "BenjaminVanRyseghem 6/12/2012 13:57",
+		"displayBlock:" : "BenjaminVanRyseghem 6/12/2012 14:02",
+		"eventStringForNextFocus" : "StephaneDucasse 5/17/2012 18:17",
+		"eventStringForPreviousFocus" : "StephaneDucasse 5/17/2012 18:18",
+		"getChildrenFor:" : "BenjaminVanRyseghem 4/13/2012 14:24",
+		"getMenu:" : "BenjaminVanRyseghem 4/13/2012 14:29",
+		"getRoots" : "BenjaminVanRyseghem 6/6/2012 20:45",
+		"initialize" : "BenjaminVanRyseghem 4/13/2012 14:36",
+		"menu:" : "BenjaminVanRyseghem 6/12/2012 14:02",
+		"registerEvents" : "BenjaminVanRyseghem 6/13/2012 16:31",
+		"roots:" : "BenjaminVanRyseghem 6/12/2012 14:02",
+		"selectedItem" : "SimonAllier 5/23/2012 13:13",
+		"setSelectedItem:" : "BenjaminVanRyseghem 4/13/2012 14:30",
+		"updateTree" : "BenjaminVanRyseghem 6/12/2012 14:02",
+		"whenSelectedItemChanged:" : "BenjaminVanRyseghem 6/12/2012 14:03",
+		"wrapItem:" : "BenjaminVanRyseghem 4/13/2012 14:35" } }

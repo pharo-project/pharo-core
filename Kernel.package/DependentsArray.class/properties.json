@@ -1,0 +1,16 @@
+{
+	"category" : "Kernel-Models",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "nice 11/11/2009 20:30",
+	"instvars" : [
+		 ],
+	"name" : "DependentsArray",
+	"pools" : [
+		 ],
+	"super" : "Collection",
+	"traitcomposition" : "{}",
+	"type" : "weak" }

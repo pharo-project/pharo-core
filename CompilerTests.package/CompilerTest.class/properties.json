@@ -1,0 +1,21 @@
+{
+	"category" : "CompilerTests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "nice 12/3/2007 22:15",
+	"instvars" : [
+		"errorMessage",
+		"errorLocation",
+		"errorSource",
+		"interactive",
+		"originalTranscript",
+		"newTranscript" ],
+	"name" : "CompilerTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,18 @@
+{
+	"category" : "Network-RFC822",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"tokens",
+		"addresses",
+		"curAddrTokens" ],
+	"name" : "MailAddressParser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

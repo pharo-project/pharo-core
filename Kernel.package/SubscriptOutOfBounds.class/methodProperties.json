@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"signalFor:" : "SvenVanCaekenberghe 4/21/2011 12:57",
+		"signalFor:lowerBound:upperBound:" : "SvenVanCaekenberghe 4/21/2011 12:57",
+		"signalFor:lowerBound:upperBound:in:" : "SvenVanCaekenberghe 4/21/2011 12:56" },
+	"instance" : {
+		"lowerBound" : "SvenVanCaekenberghe 4/21/2011 12:45",
+		"lowerBound:" : "SvenVanCaekenberghe 4/21/2011 12:46",
+		"messageText" : "SvenVanCaekenberghe 4/21/2011 12:46",
+		"standardMessageText" : "SvenVanCaekenberghe 4/21/2011 12:54",
+		"subscript" : "SvenVanCaekenberghe 4/21/2011 12:45",
+		"subscript:" : "SvenVanCaekenberghe 4/21/2011 12:45",
+		"upperBound" : "SvenVanCaekenberghe 4/21/2011 12:45",
+		"upperBound:" : "SvenVanCaekenberghe 4/21/2011 12:46" } }

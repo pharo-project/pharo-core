@@ -1,0 +1,4 @@
+protocol
+methodsSelection
+
+	^ self subclassResponsibility

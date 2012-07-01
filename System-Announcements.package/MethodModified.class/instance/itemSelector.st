@@ -1,0 +1,5 @@
+accessing
+itemSelector
+
+	^ event itemSelector
+	

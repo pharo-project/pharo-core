@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"onEnvironment:and:" : "" },
+	"instance" : {
+		"andedEnvironment" : "",
+		"andedEnvironment:" : "",
+		"classesDo:" : "",
+		"includesCategory:" : "",
+		"includesClass:" : "",
+		"includesProtocol:in:" : "",
+		"includesSelector:in:" : "",
+		"numberSelectors" : "",
+		"problemCount" : "",
+		"selectionIntervalFor:" : "bh 5/8/2000 21:01",
+		"selectorsForClass:do:" : "",
+		"storeOn:" : "" } }

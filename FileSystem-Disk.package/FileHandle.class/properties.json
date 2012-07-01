@@ -1,0 +1,16 @@
+{
+	"category" : "FileSystem-Disk",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"Registry" ],
+	"commentStamp" : "cwp 11/18/2009 13:02",
+	"instvars" : [
+		"id" ],
+	"name" : "FileHandle",
+	"pools" : [
+		 ],
+	"super" : "FileSystemHandle",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

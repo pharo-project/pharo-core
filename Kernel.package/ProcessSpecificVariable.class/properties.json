@@ -1,0 +1,17 @@
+{
+	"category" : "Kernel-Processes",
+	"classinstvars" : [
+		"hash",
+		"soleInstance" ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "mvl 3/13/2007 13:53",
+	"instvars" : [
+		"index" ],
+	"name" : "ProcessSpecificVariable",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+display
+uiClass
+
+	^ DialogGroupManagerUI

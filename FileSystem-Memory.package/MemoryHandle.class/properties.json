@@ -1,0 +1,16 @@
+{
+	"category" : "FileSystem-Memory",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"entry" ],
+	"name" : "MemoryHandle",
+	"pools" : [
+		 ],
+	"super" : "FileSystemHandle",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

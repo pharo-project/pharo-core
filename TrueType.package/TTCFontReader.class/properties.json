@@ -1,0 +1,16 @@
+{
+	"category" : "TrueType-Support",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"EncodingTag" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"fonts" ],
+	"name" : "TTCFontReader",
+	"pools" : [
+		 ],
+	"super" : "TTFontReader",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

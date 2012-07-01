@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"copy:name:" : "",
+		"copyClasses" : "",
+		"copyFrom:to:" : "",
+		"create:name:" : "",
+		"createClasses" : "",
+		"duplicate:name:deep:" : "",
+		"initialize" : "",
+		"rename:name:" : "BenjaminVanRyseghem 4/25/2012 18:05",
+		"renameClasses" : "",
+		"rootClass" : "",
+		"rootClass:" : "",
+		"transform" : "" } }

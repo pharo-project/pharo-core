@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"buildMorphFor:" : "BenjaminVanRyseghem 6/6/2012 18:23",
+		"buildMorphFor:withSpec:" : "BenjaminVanRyseghem 6/6/2012 18:23",
+		"buildWindowFor:" : "BenjaminVanRyseghem 6/6/2012 18:23",
+		"interpretASpec:model:" : "BenjaminVanRyseghem 6/6/2012 18:23",
+		"interpretASpec:model:superSpec:" : "BenjaminVanRyseghem 6/6/2012 18:25" },
+	"instance" : {
+		"actionToPerformWithSelector:arguments:" : "BenjaminVanRyseghem 6/6/2012 18:23",
+		"bindings" : "BenjaminVanRyseghem 6/6/2012 18:23",
+		"buildMorphFor:" : "BenjaminVanRyseghem 6/6/2012 18:23",
+		"buildMorphFor:withSpec:" : "BenjaminVanRyseghem 6/6/2012 18:23",
+		"buildWindowFor:" : "BenjaminVanRyseghem 6/6/2012 18:23",
+		"convertSymbolOfClassToInstance:" : "BenjaminVanRyseghem 6/6/2012 18:23",
+		"interpretASpec:" : "BenjaminVanRyseghem 6/18/2012 05:26",
+		"interpretASpec:model:" : "BenjaminVanRyseghem 6/6/2012 18:23",
+		"interpretASpec:model:superSpec:" : "BenjaminVanRyseghem 6/6/2012 19:24",
+		"model" : "BenjaminVanRyseghem 6/6/2012 18:23",
+		"model:" : "BenjaminVanRyseghem 6/6/2012 18:23",
+		"retreiveSpecFrom:" : "BenjaminVanRyseghem 6/6/2012 19:24",
+		"retrieveClassSymbolFor:" : "BenjaminVanRyseghem 6/6/2012 18:23" } }

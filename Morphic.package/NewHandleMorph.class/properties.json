@@ -1,0 +1,17 @@
+{
+	"category" : "Morphic-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"hand",
+		"waitingForClickInside" ],
+	"name" : "NewHandleMorph",
+	"pools" : [
+		 ],
+	"super" : "HandleMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

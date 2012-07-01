@@ -1,0 +1,16 @@
+{
+	"category" : "Morphic-Pluggable Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "LaurentLaffont 2/23/2011 20:17",
+	"instvars" : [
+		"itemList" ],
+	"name" : "PluggableListMorphByItem",
+	"pools" : [
+		 ],
+	"super" : "PluggableListMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

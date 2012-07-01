@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"accept:" : "eem 9/6/2009 12:33",
+		"analyseTempsWithin:rootNode:assignmentPools:" : "eem 5/19/2008 20:26",
+		"emitCodeForValue:encoder:" : "eem 5/15/2008 09:41",
+		"messages" : "eem 9/10/2008 15:15",
+		"printOn:indent:" : "",
+		"printOn:indent:precedence:" : "di 4/25/2000 19:17",
+		"printWithClosureAnalysisOn:indent:" : "eem 6/2/2008 11:47",
+		"printWithClosureAnalysisOn:indent:precedence:" : "eem 6/2/2008 11:47",
+		"receiver" : "tk 10/22/2000 16:55",
+		"receiver:messages:" : "",
+		"sizeCodeForValue:" : "eem 5/15/2008 09:39" } }

@@ -1,0 +1,3 @@
+naming
+externalName
+	^ self packageName

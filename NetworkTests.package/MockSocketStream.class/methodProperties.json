@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"on:" : "fbs 3/22/2004 12:46" },
+	"instance" : {
+		"atEnd" : "fbs 3/22/2004 13:08",
+		"atEnd:" : "fbs 3/22/2004 12:51",
+		"inStream" : "fbs 3/22/2004 13:29",
+		"initialize" : "alain.plantec 5/28/2009 10:08",
+		"nextLine" : "fbs 3/22/2004 13:10",
+		"nextLineCrLf" : "fbs 3/22/2004 13:09",
+		"outStream" : "fbs 3/22/2004 13:08",
+		"resetInStream" : "PeterHugossonMiller 9/3/2009 10:05",
+		"resetOutStream" : "PeterHugossonMiller 9/3/2009 10:05",
+		"sendCommand:" : "fbs 3/22/2004 13:07",
+		"upToAll:" : "fbs 3/22/2004 13:09" } }

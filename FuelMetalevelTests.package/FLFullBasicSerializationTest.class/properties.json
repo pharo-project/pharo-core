@@ -1,0 +1,16 @@
+{
+	"category" : "FuelMetalevelTests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"ClassVariableForTesting" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FLFullBasicSerializationTest",
+	"pools" : [
+		 ],
+	"super" : "FLBasicSerializationTest",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,21 @@
+{
+	"category" : "Refactoring-Core-Refactorings",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selector",
+		"variable",
+		"moveToClasses",
+		"parseTree",
+		"hasOnlySelfReturns",
+		"selfVariableName" ],
+	"name" : "RBMoveMethodRefactoring",
+	"pools" : [
+		 ],
+	"super" : "RBMethodRefactoring",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,27 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addItem:" : "AlainPlantec 12/14/2010 18:49",
+		"at:" : "AlainPlantec 12/12/2010 19:01",
+		"at:put:" : "AlainPlantec 12/14/2010 19:42",
+		"close" : "AlainPlantec 12/13/2010 11:53",
+		"closeGroup" : "AlainPlantec 1/5/2011 09:36",
+		"closed" : "AlainPlantec 12/14/2010 19:04",
+		"copyFrom:to:" : "AlainPlantec 12/14/2010 13:06",
+		"current" : "AlainPlantec 12/13/2010 15:05",
+		"first" : "AlainPlantec 12/14/2010 19:08",
+		"groupClass" : "AlainPlantec 12/13/2010 10:39",
+		"history" : "AlainPlantec 12/12/2010 18:37",
+		"isComposite" : "AlainPlantec 12/13/2010 13:04",
+		"isEmpty" : "AlainPlantec 12/13/2010 15:59",
+		"last" : "AlainPlantec 12/14/2010 19:08",
+		"open" : "AlainPlantec 12/13/2010 11:53",
+		"openGroup" : "AlainPlantec 12/13/2010 13:07",
+		"opened" : "AlainPlantec 12/13/2010 11:54",
+		"removeAt:" : "AlainPlantec 12/14/2010 19:57",
+		"removeFirst" : "AlainPlantec 12/12/2010 19:06",
+		"removeLast" : "AlainPlantec 12/14/2010 12:56",
+		"removeLast:" : "AlainPlantec 12/14/2010 12:59",
+		"reset" : "AlainPlantec 12/13/2010 22:00",
+		"size" : "AlainPlantec 12/12/2010 19:03" } }

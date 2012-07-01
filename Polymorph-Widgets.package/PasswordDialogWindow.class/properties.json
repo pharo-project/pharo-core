@@ -1,0 +1,17 @@
+{
+	"category" : "Polymorph-Widgets-Windows",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "LaurentLaffont 4/15/2011 20:17",
+	"instvars" : [
+		"textEditor",
+		"showPassword" ],
+	"name" : "PasswordDialogWindow",
+	"pools" : [
+		 ],
+	"super" : "TextEntryDialogWindow",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

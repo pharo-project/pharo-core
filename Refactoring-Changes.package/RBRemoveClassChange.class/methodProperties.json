@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"remove:" : "lr 9/7/2010 19:44",
+		"removeClassName:" : "lr 9/7/2010 19:45" },
+	"instance" : {
+		"asUndoOperation" : "lr 9/8/2011 20:10",
+		"changeClass:" : "lr 10/15/2010 09:10",
+		"changeString" : "lr 4/7/2010 08:20",
+		"primitiveExecute" : "",
+		"printOn:" : "" } }

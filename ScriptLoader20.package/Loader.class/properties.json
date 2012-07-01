@@ -1,0 +1,16 @@
+{
+	"category" : "ScriptLoader20",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"PackagesBeforeLastLoad" ],
+	"commentStamp" : "LaurentLaffont 3/4/2011 22:44",
+	"instvars" : [
+		 ],
+	"name" : "Loader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

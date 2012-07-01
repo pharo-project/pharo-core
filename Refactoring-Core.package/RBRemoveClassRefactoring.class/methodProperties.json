@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"classNames:" : "",
+		"model:classNames:" : "" },
+	"instance" : {
+		"classNames:" : "",
+		"hasReferencesTo:" : "lr 9/8/2011 20:25",
+		"preconditions" : "lr 9/8/2011 20:25",
+		"removeClasses" : "",
+		"reparentSubclasses" : "",
+		"storeOn:" : "",
+		"transform" : "" } }

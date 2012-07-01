@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"package:info:" : "avi 1/19/2004 13:13" },
+	"instance" : {
+		"=" : "avi 1/19/2004 16:12",
+		"hash" : "avi 1/19/2004 16:06",
+		"initializeWithPackage:info:" : "stephaneducasse 2/4/2006 20:47",
+		"isCurrent" : "bf 4/19/2005 16:29",
+		"isFulfilled" : "bf 4/19/2005 16:29",
+		"isFulfilledBy:" : "avi 3/4/2004 00:34",
+		"isFulfilledByAncestors" : "bf 4/19/2005 16:29",
+		"isFulfilledByAncestorsOf:" : "nk 7/13/2004 08:45",
+		"isOlder" : "bf 4/19/2005 16:29",
+		"package" : "avi 1/19/2004 15:40",
+		"repositoryGroup" : "avi 2/12/2004 19:38",
+		"resolve" : "nk 6/13/2004 19:21",
+		"versionInfo" : "avi 1/19/2004 15:40" } }

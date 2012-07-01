@@ -1,0 +1,3 @@
+accessing
+oldSuperclass
+	^ oldItem superclass

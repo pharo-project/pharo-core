@@ -1,0 +1,1 @@
+I test the serialization of an entire class, in the cases in which the class *is not* present in the image at materialization time.

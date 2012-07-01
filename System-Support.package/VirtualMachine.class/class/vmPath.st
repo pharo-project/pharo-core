@@ -1,0 +1,3 @@
+attributes
+vmPath
+	^ self path

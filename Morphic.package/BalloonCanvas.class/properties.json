@@ -1,0 +1,20 @@
+{
+	"category" : "Morphic-Balloon",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"transform",
+		"colorTransform",
+		"engine",
+		"aaLevel",
+		"deferred" ],
+	"name" : "BalloonCanvas",
+	"pools" : [
+		 ],
+	"super" : "FormCanvas",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

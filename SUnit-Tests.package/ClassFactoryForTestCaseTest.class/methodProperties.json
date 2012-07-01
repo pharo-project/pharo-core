@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"lastStoredRun" : "simon.denier 11/22/2008 22:13" },
+	"instance" : {
+		"setUp" : "Noury 10/26/2008 12:19",
+		"tearDown" : "Noury 10/26/2008 14:53",
+		"testClassCreationInDifferentCategories" : "Noury 10/26/2008 16:43",
+		"testClassFastCreationInDifferentCategories" : "Noury 10/26/2008 16:42",
+		"testDefaultCategoryCleanUp" : "Noury 10/26/2008 16:44",
+		"testMultipleClassCreation" : "Noury 10/26/2008 16:38",
+		"testPackageCleanUp" : "Noury 10/26/2008 16:47",
+		"testSingleClassCreation" : "nice 12/3/2009 23:47",
+		"testSingleClassFastCreation" : "Noury 10/26/2008 16:37" } }

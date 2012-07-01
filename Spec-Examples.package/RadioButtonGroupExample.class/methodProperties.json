@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"defaultSpec" : "bvr 6/4/2012 17:24",
+		"defaultSpec2" : "bvr 6/4/2012 17:27",
+		"title" : "BenjaminVanRyseghem 2/1/2012 17:51",
+		"topSpec" : "bvr 6/4/2012 17:21" },
+	"instance" : {
+		"button1" : "BenjaminVanRyseghem 2/1/2012 17:52",
+		"button2" : "BenjaminVanRyseghem 2/1/2012 17:52",
+		"button3" : "BenjaminVanRyseghem 2/1/2012 17:52",
+		"container" : "BenjaminVanRyseghem 2/2/2012 00:39",
+		"initialize" : "BenjaminVanRyseghem 6/12/2012 19:30",
+		"initializePresenter" : "BenjaminVanRyseghem 6/12/2012 19:29",
+		"initializeWidgets" : "BenjaminVanRyseghem 6/12/2012 19:29",
+		"instantiateButtons" : "BenjaminVanRyseghem 6/12/2012 19:29",
+		"instantiateMorphs" : "BenjaminVanRyseghem 2/2/2012 01:00",
+		"setActions" : "BenjaminVanRyseghem 2/2/2012 00:50",
+		"setActionsForButton1" : "BenjaminVanRyseghem 2/2/2012 00:56",
+		"setActionsForButton2" : "BenjaminVanRyseghem 2/2/2012 00:56",
+		"setActionsForButton3" : "BenjaminVanRyseghem 2/2/2012 00:56",
+		"setFocus" : "BenjaminVanRyseghem 2/2/2012 00:47",
+		"setGroup" : "BenjaminVanRyseghem 2/2/2012 00:49" } }

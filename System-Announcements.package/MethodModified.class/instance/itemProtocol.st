@@ -1,0 +1,4 @@
+accessing
+itemProtocol
+
+	^ event itemProtocol

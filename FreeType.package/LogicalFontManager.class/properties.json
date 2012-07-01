@@ -1,0 +1,16 @@
+{
+	"category" : "FreeType-FontManager",
+	"classinstvars" : [
+		"current" ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "LaurentLaffont 6/8/2011 22:20",
+	"instvars" : [
+		"fontProviders" ],
+	"name" : "LogicalFontManager",
+	"pools" : [
+		"TextConstants" ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

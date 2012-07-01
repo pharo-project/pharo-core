@@ -1,0 +1,16 @@
+{
+	"category" : "Balloon-Collections",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TPointAccess classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ShortPointArray",
+	"pools" : [
+		 ],
+	"super" : "ShortIntegerArray",
+	"traitcomposition" : "TPointAccess",
+	"type" : "words" }

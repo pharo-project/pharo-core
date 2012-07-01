@@ -1,0 +1,17 @@
+{
+	"category" : "Refactoring-Core-Refactorings",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"removeDuplicates",
+		"selectors" ],
+	"name" : "RBPullUpMethodRefactoring",
+	"pools" : [
+		 ],
+	"super" : "RBMethodRefactoring",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

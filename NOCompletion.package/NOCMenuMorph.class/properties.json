@@ -1,0 +1,16 @@
+{
+	"category" : "NOCompletion-View",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"lastActivity" ],
+	"name" : "NOCMenuMorph",
+	"pools" : [
+		 ],
+	"super" : "NECMenuMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

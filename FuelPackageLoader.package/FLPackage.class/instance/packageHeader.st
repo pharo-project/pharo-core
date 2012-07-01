@@ -1,0 +1,4 @@
+accessing
+packageHeader
+	
+	^ packageHeader

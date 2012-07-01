@@ -1,0 +1,3 @@
+accessing
+autoAcceptOnFocusLoss
+	^ autoAcceptOnFocusLoss ~~ false

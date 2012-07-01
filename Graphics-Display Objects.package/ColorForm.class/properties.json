@@ -1,0 +1,18 @@
+{
+	"category" : "Graphics-Display Objects",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"colors",
+		"cachedDepth",
+		"cachedColormap" ],
+	"name" : "ColorForm",
+	"pools" : [
+		 ],
+	"super" : "Form",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

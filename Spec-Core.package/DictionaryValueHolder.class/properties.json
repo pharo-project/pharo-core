@@ -1,0 +1,16 @@
+{
+	"category" : "Spec-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "DictionaryValueHolder",
+	"pools" : [
+		 ],
+	"super" : "NewValueHolder",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

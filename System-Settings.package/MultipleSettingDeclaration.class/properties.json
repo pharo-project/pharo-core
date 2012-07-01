@@ -1,0 +1,16 @@
+{
+	"category" : "System-Settings-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"domainValues" ],
+	"name" : "MultipleSettingDeclaration",
+	"pools" : [
+		 ],
+	"super" : "SettingDeclaration",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

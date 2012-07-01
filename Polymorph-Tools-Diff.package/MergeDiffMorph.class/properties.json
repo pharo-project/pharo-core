@@ -1,0 +1,16 @@
+{
+	"category" : "Polymorph-Tools-Diff",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"allowJoinClicks" ],
+	"name" : "MergeDiffMorph",
+	"pools" : [
+		 ],
+	"super" : "DiffMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

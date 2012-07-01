@@ -1,0 +1,16 @@
+{
+	"category" : "FuelMetalevel-Clusters",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FLCompiledMethodTrailerEncoderNoChange",
+	"pools" : [
+		 ],
+	"super" : "FLCompiledMethodTrailerEncoder",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

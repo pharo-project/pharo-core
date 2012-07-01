@@ -1,0 +1,16 @@
+{
+	"category" : "Morphic-WindowNotification",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"label" ],
+	"name" : "WindowLabelled",
+	"pools" : [
+		 ],
+	"super" : "WindowAnnouncement",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

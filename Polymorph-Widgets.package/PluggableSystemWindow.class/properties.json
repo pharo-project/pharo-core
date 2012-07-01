@@ -1,0 +1,19 @@
+{
+	"category" : "Polymorph-Widgets-Windows",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "ar 2/11/2005 20:14",
+	"instvars" : [
+		"getLabelSelector",
+		"getChildrenSelector",
+		"children",
+		"closeWindowSelector" ],
+	"name" : "PluggableSystemWindow",
+	"pools" : [
+		 ],
+	"super" : "SystemWindow",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

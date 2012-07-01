@@ -1,0 +1,4 @@
+accessing
+itemMethod
+
+	^ self item

@@ -1,0 +1,16 @@
+{
+	"category" : "FuelPackageLoaderTests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FLPackageLoaderTest",
+	"pools" : [
+		 ],
+	"super" : "FLSerializationTest",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

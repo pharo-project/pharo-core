@@ -1,0 +1,16 @@
+{
+	"category" : "Morphic-MorphTreeWidget-Pagination",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pager" ],
+	"name" : "PaginatedMorphTreeMorph",
+	"pools" : [
+		 ],
+	"super" : "MorphTreeMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

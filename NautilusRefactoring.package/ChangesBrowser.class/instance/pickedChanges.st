@@ -1,0 +1,4 @@
+protocol
+pickedChanges
+
+	^ pickList pickedItems

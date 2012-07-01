@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"getClassFromTypeSuggestingName:" : "",
+		"variableName:class:" : "",
+		"variableName:source:class:" : "" },
+	"instance" : {
+		"blockReturnTop" : "",
+		"computeVarType" : "MarcusDenker 4/27/2012 13:13",
+		"initialize" : "",
+		"interpretNextInstructionUsing:" : "",
+		"methodRefs" : "",
+		"perform" : "",
+		"popIntoLiteralVariable:" : "",
+		"popIntoTemporaryVariable:" : "",
+		"prepare:" : "",
+		"pushActiveContext" : "",
+		"pushConstant:" : "",
+		"pushLiteralVariable:" : "",
+		"pushTemporaryVariable:" : "",
+		"reset" : "",
+		"send:super:numArgs:" : "",
+		"setVariableName:source:class:" : "",
+		"typeOfVarIn:" : "" } }

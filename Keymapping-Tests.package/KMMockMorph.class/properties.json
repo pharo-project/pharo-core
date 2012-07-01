@@ -1,0 +1,16 @@
+{
+	"category" : "Keymapping-Tests-Mocks",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "KMMockMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

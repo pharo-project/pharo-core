@@ -1,0 +1,19 @@
+{
+	"category" : "Spec-Examples-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"listModel",
+		"textModel1",
+		"textModel2",
+		"textRefreshingProcess" ],
+	"name" : "ListSelectionModel",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

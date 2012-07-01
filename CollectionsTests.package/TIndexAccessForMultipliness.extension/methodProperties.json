@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"collectionWithNonIdentitySameAtEndAndBegining" : "delaunay 4/27/2009 14:02",
+		"collectionWithSameAtEndAndBegining" : "delaunay 4/27/2009 14:04",
+		"test0FixtureIndexAccessFotMultipliness" : "delaunay 4/27/2009 14:08",
+		"testIdentityIndexOfDuplicate" : "delaunay 4/27/2009 14:15",
+		"testIdentityIndexOfIAbsentDuplicate" : "delaunay 5/11/2009 10:07",
+		"testIndexOfDuplicate" : "delaunay 4/27/2009 14:00",
+		"testIndexOfIfAbsentDuplicate" : "delaunay 4/27/2009 14:00",
+		"testIndexOfStartingAtDuplicate" : "delaunay 4/27/2009 14:00",
+		"testLastIndexOfDuplicate" : "delaunay 4/27/2009 14:00",
+		"testLastIndexOfIfAbsentDuplicate" : "delaunay 4/27/2009 14:00",
+		"testLastIndexOfStartingAtDuplicate" : "delaunay 4/27/2009 14:00" } }

@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"class:temporaries:" : "",
+		"class:temporaries:additionals:variables:selectors:" : "" },
+	"instance" : {
+		"addAdditionals:" : "",
+		"addSelectors" : "",
+		"addVariables" : "",
+		"initialize" : "",
+		"initializeClassVars" : "",
+		"initializeInstVars" : "",
+		"initializeSelectors" : "",
+		"message" : "",
+		"narrowString:" : "",
+		"narrowWith:" : "",
+		"setClass:temporaries:additionals:variables:selectors:" : "" } }

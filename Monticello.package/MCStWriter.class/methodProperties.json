@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"readerClass" : "avi 1/20/2004 00:16" },
+	"instance" : {
+		"chunkContents:" : "cwp 8/2/2003 02:34",
+		"visitClassDefinition:" : "cwp 8/2/2003 11:02",
+		"visitClassTraitDefinition:" : "al 10/9/2005 19:52",
+		"visitMetaclassDefinition:" : "al 10/9/2005 19:40",
+		"visitMethodDefinition:" : "avi 2/17/2004 02:23",
+		"visitOrganizationDefinition:" : "cwp 8/2/2003 11:02",
+		"visitScriptDefinition:" : "bf 8/12/2009 21:41",
+		"visitTraitDefinition:" : "al 10/9/2005 19:40",
+		"writeCategory:" : "cwp 8/2/2003 01:46",
+		"writeClassComment:" : "ab 8/17/2003 17:09",
+		"writeClassDefinition:" : "cwp 8/2/2003 02:16",
+		"writeDefinitions:" : "pavel.krivanek 10/23/2010 19:40",
+		"writeMetaclassDefinition:" : "al 12/2/2005 15:17",
+		"writeMethodInitializer:" : "pavel.krivanek 10/23/2010 18:51",
+		"writeMethodPostscript" : "cwp 8/2/2003 12:43",
+		"writeMethodPreamble:" : "avi 9/23/2003 17:42",
+		"writeMethodSource:" : "cwp 8/4/2003 01:35",
+		"writeScriptDefinition:" : "bf 8/13/2009 00:21",
+		"writeSnapshot:" : "avi 2/17/2004 02:25" } }

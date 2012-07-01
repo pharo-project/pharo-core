@@ -1,0 +1,16 @@
+{
+	"category" : "Kernel-Objects",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WeakActionSequence",
+	"pools" : [
+		 ],
+	"super" : "Array",
+	"traitcomposition" : "{}",
+	"type" : "variable" }

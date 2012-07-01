@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"defaultFont" : "yo 12/18/2002 13:58" },
+	"instance" : {
+		"cr" : "nice 11/16/2009 15:01",
+		"crossedX" : "yo 12/18/2002 13:58",
+		"displayLine:offset:leftInRun:" : "HenrikSperreJohansen 6/15/2010 18:47",
+		"endOfRun" : "sd 2/4/2008 21:22",
+		"isBreakableAt:in:in:" : "yo 12/20/2002 11:52",
+		"paddedSpace" : "tween 4/6/2007 12:52",
+		"placeEmbeddedObject:" : "sd 2/4/2008 21:22",
+		"plainTab" : "sd 2/4/2008 21:22",
+		"presentationText:" : "sd 2/4/2008 21:22",
+		"setDestForm:" : "yo 12/18/2002 13:58",
+		"setFont" : "sd 2/4/2008 21:22",
+		"setPort:" : "sd 2/4/2008 21:22",
+		"setStopConditions" : "sd 2/4/2008 21:22",
+		"tab" : "sd 2/4/2008 21:22",
+		"text:textStyle:foreground:background:fillBlt:ignoreColorChanges:" : "sd 2/4/2008 21:22",
+		"textColor:" : "sd 2/4/2008 21:22" } }

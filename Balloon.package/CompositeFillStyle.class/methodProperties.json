@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"fillStyles:" : "gvc 3/21/2008 16:49" },
+	"instance" : {
+		"addFillStyleMenuItems:hand:from:" : "gvc 3/21/2008 17:25",
+		"asColor" : "gvc 5/27/2008 21:02",
+		"changeOrientationIn:event:" : "gvc 3/21/2008 17:25",
+		"changeOriginIn:event:" : "gvc 3/21/2008 17:25",
+		"direction" : "gvc 5/27/2008 21:01",
+		"direction:" : "gvc 5/27/2008 21:01",
+		"fillRectangle:on:" : "gvc 5/27/2008 20:32",
+		"fillStyles" : "gvc 3/20/2008 23:05",
+		"fillStyles:" : "gvc 3/21/2008 16:24",
+		"initialize" : "gvc 3/20/2008 23:02",
+		"isCompositeFill" : "gvc 3/20/2008 23:04",
+		"isGradientFill" : "gvc 5/27/2008 20:37",
+		"isOrientedFill" : "gvc 5/27/2008 20:38",
+		"isTranslucent" : "gvc 3/20/2008 23:07",
+		"isTransparent" : "gvc 3/20/2008 23:07",
+		"normal" : "gvc 5/27/2008 21:00",
+		"normal:" : "gvc 5/27/2008 21:01",
+		"origin" : "gvc 5/27/2008 21:01",
+		"origin:" : "gvc 5/27/2008 21:01" } }

@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"container:index:" : "AlainPlantec 11/8/2009 12:31",
+		"fastSplitterResize" : "AlainPlantec 11/12/2009 19:58" },
+	"instance" : {
+		"adoptPaneColor:" : "AlainPlantec 11/17/2009 16:53",
+		"canResizeColumn" : "AlainPlantec 11/27/2009 22:49",
+		"container:index:" : "AlainPlantec 11/8/2009 12:32",
+		"delete" : "AlainPlantec 11/3/2009 22:25",
+		"drawOn:" : "AlainPlantec 11/17/2009 17:18",
+		"getOldColor" : "AlainPlantec 11/17/2009 16:57",
+		"mouseDown:" : "AlainPlantec 11/18/2009 10:01",
+		"mouseEnter:" : "AlainPlantec 11/18/2009 10:01",
+		"mouseLeave:" : "AlainPlantec 11/18/2009 10:02",
+		"mouseMove:" : "AlainPlantec 11/18/2009 10:01",
+		"mouseUp:" : "AlainPlantec 11/18/2009 10:01",
+		"normalFillStyle" : "AlainPlantec 2/11/2011 22:29",
+		"normalizedX:" : "alain.plantec 3/10/2009 14:09",
+		"normalizedY:" : "alain.plantec 3/10/2009 14:09",
+		"pressedFillStyle" : "AlainPlantec 2/11/2011 22:31",
+		"release" : "AlainPlantec 11/3/2009 22:26",
+		"resizeCursor" : "alain.plantec 3/9/2009 12:53",
+		"setGrabbedColor" : "alain.plantec 3/9/2009 13:09",
+		"shouldDraw" : "alain.plantec 3/9/2009 12:55",
+		"splitsTopAndBottom" : "alain.plantec 3/11/2009 07:45",
+		"themeChanged" : "AlainPlantec 11/17/2009 16:47",
+		"updateFromEvent:" : "AlainPlantec 11/17/2009 16:35" } }

@@ -1,0 +1,16 @@
+{
+	"category" : "Multilingual-TextConversion",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "michael.rueger 3/2/2009 13:51",
+	"instvars" : [
+		"combinedChar" ],
+	"name" : "UTF8DecomposedTextConverter",
+	"pools" : [
+		 ],
+	"super" : "UTF8TextConverter",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

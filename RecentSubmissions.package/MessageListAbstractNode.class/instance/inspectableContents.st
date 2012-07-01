@@ -1,0 +1,4 @@
+accessing
+inspectableContents
+	
+	^self subclassResponsibility

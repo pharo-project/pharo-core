@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"cornerStyle:" : "gvc 10/9/2006 14:33",
+		"defaultImageFormOfSize:" : "gvc 7/30/2009 13:59",
+		"image:size:" : "gvc 5/1/2007 12:38",
+		"imageMorph" : "gvc 10/9/2006 14:25",
+		"imageMorph:" : "gvc 10/9/2006 14:25",
+		"initialize" : "gvc 10/9/2006 14:42",
+		"newImageMorph" : "gvc 10/9/2006 14:42",
+		"newTextMorph" : "gvc 10/9/2006 14:34",
+		"textMorph" : "gvc 10/9/2006 14:25",
+		"textMorph:" : "gvc 10/9/2006 14:25" } }

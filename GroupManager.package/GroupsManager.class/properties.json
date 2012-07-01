@@ -1,0 +1,16 @@
+{
+	"category" : "GroupManager",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"CurrentManager" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"groups" ],
+	"name" : "GroupsManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

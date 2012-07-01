@@ -1,0 +1,16 @@
+{
+	"category" : "Spec-Core-Specs",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"subSpecs" ],
+	"name" : "ComposableSpec",
+	"pools" : [
+		 ],
+	"super" : "AbstractSpec",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

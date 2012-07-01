@@ -1,0 +1,4 @@
+editing
+acceptContents
+
+	self informTarget.

@@ -1,0 +1,28 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:classAndValueEquals:" : "jmv 10/11/2011 22:12",
+		"testAsLargerPowerOfTwo" : "HenrikSperreJohansen 1/19/2012 16:15",
+		"testAsSmallerPowerOfTwo" : "HenrikSperreJohansen 1/19/2012 16:15",
+		"testCeiling" : "nice 6/3/2011 21:32",
+		"testDegreeCos" : "nice 10/31/2010 21:12",
+		"testDegreeSin" : "nice 10/31/2010 21:15",
+		"testExactRaisedTo" : "jmv 10/11/2011 22:27",
+		"testExactSqrt" : "jmv 10/11/2011 22:12",
+		"testFloor" : "nice 6/3/2011 21:32",
+		"testFractionPrinting" : "nice 3/5/2010 22:35",
+		"testInexactRaisedTo" : "jmv 10/13/2011 21:38",
+		"testInexactSqrt" : "jmv 10/13/2011 21:27",
+		"testIsPowerOfTwo" : "HenrikSperreJohansen 1/19/2012 16:08",
+		"testIvalidReadFrom" : "nice 10/30/2011 16:56",
+		"testLn" : "nice 6/12/2010 00:35",
+		"testLog" : "nice 6/12/2010 00:37",
+		"testNthRoot" : "nice 10/19/2011 20:48",
+		"testRaisedToErrorConditions" : "jmv 10/13/2011 21:49",
+		"testReadFrom" : "nice 10/30/2011 16:46",
+		"testReciprocal" : "GabrielOmarCotelli 5/23/2009 20:19",
+		"testRounded" : "nice 6/3/2011 21:39",
+		"testRounding" : "GuillermoPolito 6/22/2012 14:51",
+		"testSqrtErrorConditions" : "jmv 10/13/2011 21:48",
+		"testTruncated" : "nice 6/3/2011 21:35" } }

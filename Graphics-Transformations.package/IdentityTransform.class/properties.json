@@ -1,0 +1,16 @@
+{
+	"category" : "Graphics-Transformations",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"Default" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "IdentityTransform",
+	"pools" : [
+		 ],
+	"super" : "DisplayTransform",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

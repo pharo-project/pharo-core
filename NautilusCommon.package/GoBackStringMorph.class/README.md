@@ -1,0 +1,1 @@
+A GoBackStringMorph is a string morph which do not totally rotate but do some go and back

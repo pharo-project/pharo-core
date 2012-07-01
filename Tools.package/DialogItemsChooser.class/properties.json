@@ -1,0 +1,26 @@
+{
+	"category" : "Tools-Finder",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"methodNameUI",
+		"choicesList",
+		"selection",
+		"unselectedItems",
+		"selectedItems",
+		"resultList",
+		"model",
+		"title",
+		"selectedItemsSetterSelector",
+		"unselectedLabel",
+		"selectedLabel" ],
+	"name" : "DialogItemsChooser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Compression-Archives",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TarArchiveMember",
+	"pools" : [
+		 ],
+	"super" : "ArchiveMember",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

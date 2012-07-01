@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"defaultTestClass" : "tbn 1/14/2011 01:44",
+		"setUp" : "tbn 1/14/2011 01:44",
+		"testDefaultSyntaxAlwaysPier" : "tbn 1/14/2011 01:44",
+		"testExtractHelpContentsFromMarkedString" : "tbn 1/14/2011 01:47" } }

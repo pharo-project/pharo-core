@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"initialize" : "lr 7/4/2009 10:42",
+		"new" : "ar 9/11/2000 21:24" },
+	"instance" : {
+		"angle" : "di 9/29/2000 09:04",
+		"asMatrixTransform2x3" : "ar 9/11/2000 21:21",
+		"composedWith:" : "ar 9/11/2000 21:27",
+		"composedWithGlobal:" : "ar 9/11/2000 21:19",
+		"composedWithLocal:" : "ar 9/11/2000 21:19",
+		"globalBoundsToLocal:" : "ar 9/11/2000 21:20",
+		"globalPointToLocal:" : "ar 9/11/2000 21:19",
+		"globalPointsToLocal:" : "ar 9/11/2000 21:20",
+		"inverseTransformation" : "ar 9/11/2000 21:18",
+		"invertBoundsRect:" : "gh 10/22/2001 13:24",
+		"isIdentity" : "ar 9/11/2000 21:18",
+		"isPureTranslation" : "ar 9/11/2000 21:19",
+		"localBoundsToGlobal:" : "ar 9/11/2000 21:20",
+		"localPointToGlobal:" : "ar 9/11/2000 21:20",
+		"localPointsToGlobal:" : "ar 9/11/2000 21:20",
+		"offset" : "ar 4/19/2001 06:01",
+		"setIdentity" : "ar 9/11/2000 21:18",
+		"sourceQuadFor:" : "ar 9/11/2000 21:21" } }

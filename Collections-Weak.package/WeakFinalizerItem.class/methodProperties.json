@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"new" : "Igor.Stasenko 3/8/2010 21:00" },
+	"instance" : {
+		"add:" : "Igor.Stasenko 9/22/2010 21:06",
+		"clear" : "Igor.Stasenko 9/22/2010 21:06",
+		"copyWithList:" : "Igor.Stasenko 9/22/2010 21:06",
+		"executor" : "Igor.Stasenko 9/22/2010 21:06",
+		"finalizeValues" : "Igor.Stasenko 9/22/2010 21:06",
+		"list" : "Igor.Stasenko 9/22/2010 21:06",
+		"list:" : "Igor.Stasenko 9/22/2010 21:06",
+		"list:object:" : "Igor.Stasenko 9/22/2010 21:06",
+		"list:object:executor:" : "Igor.Stasenko 9/22/2010 21:06",
+		"next" : "Igor.Stasenko 9/22/2010 21:06",
+		"object" : "Igor.Stasenko 9/22/2010 21:06",
+		"postCopy" : "Igor.Stasenko 10/11/2010 15:06" } }

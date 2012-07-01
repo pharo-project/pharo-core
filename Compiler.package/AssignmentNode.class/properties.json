@@ -1,0 +1,17 @@
+{
+	"category" : "Compiler-ParseNodes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"variable",
+		"value" ],
+	"name" : "AssignmentNode",
+	"pools" : [
+		 ],
+	"super" : "ParseNode",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

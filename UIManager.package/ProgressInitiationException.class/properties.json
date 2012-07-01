@@ -1,0 +1,20 @@
+{
+	"category" : "UIManager-Support",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"workBlock",
+		"maxVal",
+		"minVal",
+		"aPoint",
+		"progressTitle" ],
+	"name" : "ProgressInitiationException",
+	"pools" : [
+		 ],
+	"super" : "Exception",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

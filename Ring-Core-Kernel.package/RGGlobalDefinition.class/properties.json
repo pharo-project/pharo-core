@@ -1,0 +1,16 @@
+{
+	"category" : "Ring-Core-Kernel",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "VeronicaUquillas 4/19/2011 15:52",
+	"instvars" : [
+		 ],
+	"name" : "RGGlobalDefinition",
+	"pools" : [
+		 ],
+	"super" : "RGNamedDefinition",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

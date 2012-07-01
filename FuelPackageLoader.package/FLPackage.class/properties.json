@@ -1,0 +1,22 @@
+{
+	"category" : "FuelPackageLoader",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"MustInitializeByDefault" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"extensionMethods",
+		"behaviors",
+		"mustInitialize",
+		"preLoadActions",
+		"postLoadActions",
+		"additionalObjects",
+		"packageHeader" ],
+	"name" : "FLPackage",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

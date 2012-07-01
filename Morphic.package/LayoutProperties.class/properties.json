@@ -1,0 +1,18 @@
+{
+	"category" : "Morphic-Layouts",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"hResizing",
+		"vResizing",
+		"disableLayout" ],
+	"name" : "LayoutProperties",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

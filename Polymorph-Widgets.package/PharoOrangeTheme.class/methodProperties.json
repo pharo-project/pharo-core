@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"baseSelectionColor" : "StephaneDucasse 1/17/2011 12:37",
+		"lightSelectionColor" : "IgorStasenko 1/14/2011 13:37",
+		"setDejaVuFontsLarge" : "SvenVanCaekenberghe 9/19/2010 18:48",
+		"setDejaVuFontsSmall" : "SvenVanCaekenberghe 9/19/2010 18:48",
+		"themeName" : "StephaneDucasse 4/3/2011 22:39",
+		"veryLightSelectionColor" : "SvenVanCaekenberghe 9/11/2010 12:35" },
+	"instance" : {
+		"buttonMouseOverFillStyleFor:" : "IgorStasenko 1/13/2011 01:15",
+		"buttonSelectedFillStyleFor:" : "IgorStasenko 1/13/2011 17:54",
+		"buttonSelectedMouseOverFillStyleFor:" : "IgorStasenko 1/13/2011 01:17",
+		"controlButtonMouseOverFillStyleFor:" : "IgorStasenko 1/13/2011 17:08",
+		"controlButtonNormalFillStyleFor:" : "IgorStasenko 1/13/2011 17:07",
+		"dialogWindowPreferredCornerStyleFor:" : "IgorStasenko 1/13/2011 16:35",
+		"glamorousBaseSelectionColorFor:" : "IgorStasenko 1/13/2011 17:59",
+		"listNormalBorderStyleFor:" : "IgorStasenko 1/13/2011 16:40",
+		"menuItemSelectedFillStyleFor:" : "IgorStasenko 1/13/2011 18:03",
+		"scrollPaneNormalBorderStyleFor:" : "IgorStasenko 1/13/2011 16:43",
+		"selectionBarColor" : "IgorStasenko 1/14/2011 13:32" } }

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "hjo 1/17/2011 00:55",
+		"testAt" : "hjo 1/17/2011 10:16",
+		"testAtPut" : "hjo 1/17/2011 10:16",
+		"testSetUp" : "hjo 1/17/2011 10:18",
+		"testSwapBytePairs" : "hjo 1/17/2011 10:20",
+		"testWriteBigEndianOn" : "hjo 1/26/2011 19:34",
+		"testWriteLittleEndianOn" : "hjo 1/26/2011 19:34" } }

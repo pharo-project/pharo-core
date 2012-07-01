@@ -1,0 +1,4 @@
+defaults
+generalMapper
+
+	^FLPackageLoaderGeneralMapper new

@@ -1,0 +1,16 @@
+{
+	"category" : "UIManager",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "StartupUIManager",
+	"pools" : [
+		 ],
+	"super" : "NonInteractiveUIManager",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

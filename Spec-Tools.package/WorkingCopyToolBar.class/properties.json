@@ -1,0 +1,20 @@
+{
+	"category" : "Spec-Tools-Monticello",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"browseButton",
+		"configButton",
+		"packageButton",
+		"sliceButton",
+		"workingCopyHolder" ],
+	"name" : "WorkingCopyToolBar",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

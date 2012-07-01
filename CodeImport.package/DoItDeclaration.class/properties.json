@@ -1,0 +1,16 @@
+{
+	"category" : "CodeImport",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "DoItDeclaration",
+	"pools" : [
+		 ],
+	"super" : "CodeDeclaration",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

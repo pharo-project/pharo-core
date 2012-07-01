@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"beBeginningOfLine" : "vb 4/11/09 21:56",
+		"beBeginningOfWord" : "vb 4/11/09 21:56",
+		"beEndOfLine" : "vb 4/11/09 21:56",
+		"beEndOfWord" : "vb 4/11/09 21:56",
+		"beNotWordBoundary" : "vb 4/11/09 21:56",
+		"beWordBoundary" : "vb 4/11/09 21:56",
+		"matchAgainst:" : "vb 4/11/09 21:56" } }

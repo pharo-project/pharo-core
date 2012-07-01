@@ -1,0 +1,4 @@
+explorer
+hasContentsInExplorer
+
+	^self notEmpty

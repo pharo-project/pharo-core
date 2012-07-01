@@ -1,0 +1,18 @@
+{
+	"category" : "RPackage-Tests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "StephaneDucasse 5/15/2010 20:21",
+	"instvars" : [
+		"createdClasses",
+		"createdPackages",
+		"createdCategories" ],
+	"name" : "RPackageIncrementalTest",
+	"pools" : [
+		 ],
+	"super" : "RPackageTestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

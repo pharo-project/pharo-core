@@ -1,0 +1,16 @@
+{
+	"category" : "Refactoring-Core-Conditions",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"errorMacro" ],
+	"name" : "RBAbstractCondition",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

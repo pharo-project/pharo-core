@@ -1,0 +1,17 @@
+{
+	"category" : "Morphic-Explorer",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"item",
+		"model" ],
+	"name" : "ListItemWrapper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

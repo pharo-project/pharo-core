@@ -1,0 +1,2 @@
+visitor-double dispatching
+acceptVariableNode: aVariableNode

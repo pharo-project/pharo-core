@@ -1,0 +1,17 @@
+{
+	"category" : "Network-MIME",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "LaurentLaffont 6/8/2011 22:18",
+	"instvars" : [
+		"dataStream",
+		"mimeStream" ],
+	"name" : "MimeConverter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

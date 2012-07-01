@@ -1,0 +1,4 @@
+menus behavior
+createInstVarAccessors
+
+	self createInstVarAccessorsOf: self selectedClass

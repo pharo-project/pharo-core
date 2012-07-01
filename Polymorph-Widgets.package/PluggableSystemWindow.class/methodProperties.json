@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addPaneMorph:" : "md 8/31/2005 07:59",
+		"closeWindowSelector" : "ar 9/17/2005 21:05",
+		"closeWindowSelector:" : "ar 9/17/2005 21:05",
+		"delete" : "ar 9/17/2005 21:08",
+		"getChildrenSelector" : "ar 2/11/2005 19:57",
+		"getChildrenSelector:" : "ar 2/11/2005 19:57",
+		"getLabelSelector" : "ar 2/11/2005 19:57",
+		"getLabelSelector:" : "ar 2/13/2005 13:53",
+		"label" : "ar 2/13/2005 13:52",
+		"label:" : "ar 2/13/2005 13:51",
+		"update:" : "ar 2/11/2005 20:15" } }

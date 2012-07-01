@@ -1,0 +1,18 @@
+{
+	"category" : "Tests-Monticello",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stream",
+		"expected",
+		"diff" ],
+	"name" : "MCFileInTest",
+	"pools" : [
+		 ],
+	"super" : "MCTestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+icons
+smallCopyIcon
+	^ ThemeIcons smallCopyIcon

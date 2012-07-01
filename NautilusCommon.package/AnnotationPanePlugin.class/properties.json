@@ -1,0 +1,16 @@
+{
+	"category" : "NautilusCommon-Plugin",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "AnnotationPanePlugin",
+	"pools" : [
+		 ],
+	"super" : "URLPlugin",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

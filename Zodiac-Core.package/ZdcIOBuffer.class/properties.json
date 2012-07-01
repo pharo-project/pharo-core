@@ -1,0 +1,18 @@
+{
+	"category" : "Zodiac-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "SvenVanCaekenberghe 5/17/2011 18:47",
+	"instvars" : [
+		"buffer",
+		"readPointer",
+		"writePointer" ],
+	"name" : "ZdcIOBuffer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

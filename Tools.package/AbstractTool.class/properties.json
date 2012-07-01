@@ -1,0 +1,16 @@
+{
+	"category" : "Tools-Base",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "AbstractTool",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

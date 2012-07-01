@@ -1,0 +1,19 @@
+{
+	"category" : "KernelTests-Chronology",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"aDateAndTime",
+		"aDuration",
+		"aTimeZone",
+		"localTimeZoneToRestore" ],
+	"name" : "DateAndTimeUnixEpochTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

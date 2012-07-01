@@ -1,0 +1,26 @@
+{
+	"category" : "Text-Scanning",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "LaurentLaffont 6/8/2011 22:21",
+	"instvars" : [
+		"bitBlt",
+		"lineY",
+		"runX",
+		"foregroundColor",
+		"backgroundColor",
+		"fillBlt",
+		"lineHeight",
+		"paragraph",
+		"paragraphColor",
+		"morphicOffset",
+		"ignoreColorChanges" ],
+	"name" : "MultiDisplayScanner",
+	"pools" : [
+		"TextConstants" ],
+	"super" : "MultiCharacterScanner",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

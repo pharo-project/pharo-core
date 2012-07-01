@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"isExpired" : "ar 3/23/2009 16:37",
+		"setDelay:forSemaphore:" : "ar 3/23/2009 16:38",
+		"signalWaitingProcess" : "ar 3/24/2009 23:24",
+		"wait" : "ar 3/27/2009 22:26" } }

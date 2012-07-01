@@ -1,0 +1,17 @@
+{
+	"category" : "Keymapping-Shortcuts",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"identifier",
+		"name" ],
+	"name" : "KMModifier",
+	"pools" : [
+		 ],
+	"super" : "KMShortcut",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

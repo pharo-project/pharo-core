@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"adjustHeight" : "gvc 5/3/2006 13:38",
+		"adjustWidth" : "gvc 6/13/2006 11:12",
+		"display:atRow:on:" : "gvc 9/12/2006 15:14",
+		"drawBoundsForRow:" : "gvc 5/3/2006 16:08",
+		"drawSubmorphsOn:" : "nice 1/5/2010 15:59",
+		"hUnadjustedScrollRange" : "BenjaminVanRyseghem 2/12/2012 00:24",
+		"initialize" : "gvc 6/13/2006 10:44",
+		"listChanged" : "gvc 10/20/2009 16:56",
+		"rowAtLocation:" : "gvc 5/3/2006 13:36",
+		"selectRow:" : "gvc 5/3/2006 12:24",
+		"selectionFrameForRow:" : "gvc 9/12/2006 15:33",
+		"userString" : "nice 1/5/2010 15:59" } }

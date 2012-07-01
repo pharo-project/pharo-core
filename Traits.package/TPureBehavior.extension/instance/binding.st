@@ -1,0 +1,3 @@
+compiling
+binding
+	^ nil -> self

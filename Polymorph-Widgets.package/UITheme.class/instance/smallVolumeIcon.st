@@ -1,0 +1,3 @@
+icons
+smallVolumeIcon
+	^ ThemeIcons smallVolumeIcon

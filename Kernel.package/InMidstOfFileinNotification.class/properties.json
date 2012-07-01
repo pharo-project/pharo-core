@@ -1,0 +1,16 @@
+{
+	"category" : "Kernel-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "InMidstOfFileinNotification",
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

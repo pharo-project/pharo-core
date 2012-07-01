@@ -1,0 +1,23 @@
+{
+	"category" : "Refactoring-Core-Support",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"model",
+		"class",
+		"variableTypes",
+		"bestGuesses",
+		"variableMessages",
+		"backpointers",
+		"methodName",
+		"selectorLookup" ],
+	"name" : "RBRefactoryTyper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

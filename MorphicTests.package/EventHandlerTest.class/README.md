@@ -1,0 +1,1 @@
+An EventHandlerTest is a class made to test the behavior of EventHandler

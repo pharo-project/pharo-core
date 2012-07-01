@@ -1,0 +1,3 @@
+*necompletion
+hasBindingThatBeginsWith: aString
+	^false

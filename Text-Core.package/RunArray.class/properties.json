@@ -1,0 +1,20 @@
+{
+	"category" : "Text-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"runs",
+		"values",
+		"lastIndex",
+		"lastRun",
+		"lastOffset" ],
+	"name" : "RunArray",
+	"pools" : [
+		 ],
+	"super" : "SequenceableCollection",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

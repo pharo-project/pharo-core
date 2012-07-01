@@ -1,0 +1,16 @@
+{
+	"category" : "FuelTests-Mocks",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"instVar1" ],
+	"name" : "FLWeakClassMock",
+	"pools" : [
+		 ],
+	"super" : "FLPair",
+	"traitcomposition" : "{}",
+	"type" : "weak" }

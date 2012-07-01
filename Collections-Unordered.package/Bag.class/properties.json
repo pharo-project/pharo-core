@@ -1,0 +1,16 @@
+{
+	"category" : "Collections-Unordered",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"contents" ],
+	"name" : "Bag",
+	"pools" : [
+		 ],
+	"super" : "Collection",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

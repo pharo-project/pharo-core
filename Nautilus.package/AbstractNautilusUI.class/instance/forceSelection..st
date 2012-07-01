@@ -1,0 +1,2 @@
+protocol
+forceSelection: anObject

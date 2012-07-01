@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"bitPosition" : "ar 12/30/1999 00:45",
+		"close" : "sd 1/30/2004 15:24",
+		"commit" : "ar 12/30/1999 15:51",
+		"encodedStream" : "ar 12/30/1999 00:37",
+		"flush" : "ar 12/30/1999 15:51",
+		"flushBits" : "ar 1/2/2000 16:35",
+		"nextBits:put:" : "ar 1/2/2000 16:34",
+		"nextBytePut:" : "ar 1/2/2000 16:34",
+		"on:" : "PeterHugossonMiller 9/3/2009 11:52",
+		"pastEndPut:" : "ar 1/2/2000 16:38",
+		"privateSendBlock:with:with:with:" : "ar 2/2/2001 15:47",
+		"sendBlock:with:with:with:" : "ar 12/30/1999 18:39" } }

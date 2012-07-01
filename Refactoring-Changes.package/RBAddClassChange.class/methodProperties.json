@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"definitionPatterns" : "lr 10/2/2010 13:32" },
+	"instance" : {
+		"asUndoOperation" : "lr 9/8/2011 20:10",
+		"category" : "lr 9/30/2010 18:52",
+		"classVariableNames" : "lr 9/30/2010 18:52",
+		"definitionClass" : "lr 10/2/2010 13:37",
+		"fillOutDefinition:" : "lr 10/1/2010 14:36",
+		"instanceVariableNames" : "lr 9/30/2010 18:52",
+		"poolDictionaryNames" : "lr 9/30/2010 18:52",
+		"superclassName" : "lr 9/30/2010 18:52" } }

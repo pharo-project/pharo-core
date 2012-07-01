@@ -1,0 +1,16 @@
+{
+	"category" : "Compression-Streams",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "nk 3/7/2004 18:54",
+	"instvars" : [
+		"expectedCrc" ],
+	"name" : "ZipReadStream",
+	"pools" : [
+		 ],
+	"super" : "FastInflateStream",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

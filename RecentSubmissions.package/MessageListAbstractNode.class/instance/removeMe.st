@@ -1,0 +1,4 @@
+action
+removeMe
+	
+	^self subclassResponsibility

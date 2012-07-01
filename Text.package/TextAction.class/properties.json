@@ -1,0 +1,16 @@
+{
+	"category" : "Text-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"Purple" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TextAction",
+	"pools" : [
+		 ],
+	"super" : "TextAttribute",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

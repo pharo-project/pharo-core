@@ -1,0 +1,1 @@
+I represent a particular kind of Rectangle that has a border and inside color.

@@ -1,0 +1,16 @@
+{
+	"category" : "Polymorph-Widgets-Windows",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"MinimumWidth" ],
+	"commentStamp" : "gvc 5/18/2007 11:16",
+	"instvars" : [
+		 ],
+	"name" : "TextEntryDialogWindow",
+	"pools" : [
+		 ],
+	"super" : "TextEditorDialogWindow",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

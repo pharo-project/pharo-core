@@ -1,0 +1,1 @@
+I am used to externally notify that a test has been run (or a test suite)

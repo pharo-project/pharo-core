@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"cacheDirectory" : "CamilloBruni 5/11/2012 13:18",
+		"checkCacheDirectory" : "stephaneducasse 2/4/2006 20:47",
+		"default" : "stephaneducasse 2/4/2006 20:47",
+		"default:" : "MarianoMartinezPeck 12/16/2011 15:49",
+		"description" : "avi 10/9/2003 12:56",
+		"initialize" : "avi 1/22/2004 16:21" },
+	"instance" : {
+		"basicStoreVersion:" : "CamilloBruni 1/26/2012 19:50",
+		"cacheForPackage:" : "stephaneducasse 2/4/2006 20:47",
+		"loadVersionFromFileNamed:" : "CamilloBruni 2/28/2012 20:10",
+		"newFileNames" : "avi 1/22/2004 18:15",
+		"packageForFileNamed:" : "avi 1/22/2004 15:13",
+		"rescan" : "avi 1/22/2004 18:29",
+		"seenFileNames" : "stephaneducasse 2/4/2006 20:47",
+		"storeVersion:" : "CamilloBruni 3/2/2012 14:04",
+		"versionInfoForFileNamed:" : "avi 1/22/2004 15:05",
+		"versionWithInfo:ifAbsent:" : "CamilloBruni 4/20/2012 18:10" } }

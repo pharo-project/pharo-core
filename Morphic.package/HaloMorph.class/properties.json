@@ -1,0 +1,27 @@
+{
+	"category" : "Morphic-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"CurrentHaloSpecifications",
+		"HaloEnclosesFullBounds",
+		"HaloWithDebugHandle",
+		"ShowBoundsInHalo" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"target",
+		"innerTarget",
+		"positionOffset",
+		"angleOffset",
+		"growingOrRotating",
+		"directionArrowAnchor",
+		"haloBox",
+		"originalExtent",
+		"nameMorph" ],
+	"name" : "HaloMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

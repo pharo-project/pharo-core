@@ -1,0 +1,16 @@
+{
+	"category" : "Tools-Inspector",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"flagObject" ],
+	"name" : "WeakSetInspector",
+	"pools" : [
+		 ],
+	"super" : "SetInspector",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

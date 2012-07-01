@@ -1,0 +1,3 @@
+information
+trademark
+	^trademark

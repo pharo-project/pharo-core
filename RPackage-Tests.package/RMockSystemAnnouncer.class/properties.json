@@ -1,0 +1,17 @@
+{
+	"category" : "RPackage-Tests",
+	"classinstvars" : [
+		"mockAnnouncer",
+		"mockDefault" ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RMockSystemAnnouncer",
+	"pools" : [
+		 ],
+	"super" : "SystemAnnouncer",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

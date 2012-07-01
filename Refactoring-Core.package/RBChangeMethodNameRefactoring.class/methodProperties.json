@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"hasPermutedArguments" : "",
+		"implementors" : "",
+		"implementorsCanBePrimitives" : "",
+		"modifyImplementorParseTree:in:" : "lr 11/23/2009 10:58",
+		"myConditions" : "",
+		"newSelector" : "",
+		"parseTreeRewriter" : "lr 11/2/2009 00:14",
+		"preconditions" : "",
+		"removeRenamedImplementors" : "lr 12/23/2009 19:59",
+		"renameImplementors" : "lr 11/1/2009 23:58",
+		"renameMessageSends" : "",
+		"renameMethod:in:to:permutation:" : "md 3/15/2006 17:27",
+		"transform" : "lr 12/23/2009 20:00" } }

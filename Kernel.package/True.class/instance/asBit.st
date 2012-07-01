@@ -1,0 +1,4 @@
+printing
+asBit
+
+	^ 1

@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"model:pushDown:from:" : "",
+		"pushDown:from:" : "" },
+	"instance" : {
+		"preconditions" : "",
+		"pushDown:" : "lr 9/8/2011 20:11",
+		"pushDown:from:" : "",
+		"storeOn:" : "",
+		"transform" : "" } }

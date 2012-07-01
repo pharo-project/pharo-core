@@ -1,0 +1,18 @@
+{
+	"category" : "Tests-Traits",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"createdClassesAndTraits",
+		"oldAnnouncer",
+		"oldPrivateAnnouncer" ],
+	"name" : "TraitsTestCase",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

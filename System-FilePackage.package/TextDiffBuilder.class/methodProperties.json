@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"buildDisplayPatchFrom:to:" : "HenrikSperreJohansen 5/21/2010 01:38",
+		"buildDisplayPatchFrom:to:inClass:" : "HenrikSperreJohansen 5/21/2010 01:38",
+		"buildDisplayPatchFrom:to:inClass:prettyDiffs:" : "HenrikSperreJohansen 5/21/2010 01:39",
+		"from:to:" : "HenrikSperreJohansen 5/21/2010 01:39",
+		"from:to:inClass:" : "HenrikSperreJohansen 5/21/2010 01:39",
+		"ignoreLineEndings" : "HenrikSperreJohansen 5/21/2010 01:21",
+		"ignoreLineEndings:" : "HenrikSperreJohansen 5/21/2010 01:21",
+		"initialize" : "HenrikSperreJohansen 5/21/2010 01:20",
+		"initializeTextAttributes" : "HenrikSperreJohansen 5/21/2010 01:20",
+		"insertedTextAttributes" : "HenrikSperreJohansen 5/21/2010 02:38",
+		"insertedTextAttributes:" : "HenrikSperreJohansen 5/21/2010 02:40",
+		"removedTextAttributes" : "HenrikSperreJohansen 5/21/2010 02:40",
+		"removedTextAttributes:" : "HenrikSperreJohansen 5/21/2010 02:40" },
+	"instance" : {
+		"buildDisplayPatch" : "HenrikSperreJohansen 5/21/2010 01:54",
+		"buildPatchSequence" : "HenrikSperreJohansen 5/21/2010 01:54",
+		"findMatches" : "ul 2/8/2011 03:04",
+		"from:to:" : "HenrikSperreJohansen 5/21/2010 01:46",
+		"lcsFor:and:" : "ul 1/10/2011 19:23",
+		"patchSequenceDoIfMatch:ifInsert:ifRemove:" : "HenrikSperreJohansen 5/21/2010 01:53",
+		"print:withAttributes:on:" : "HenrikSperreJohansen 5/21/2010 01:45",
+		"split:" : "HenrikSperreJohansen 5/21/2010 01:44" } }

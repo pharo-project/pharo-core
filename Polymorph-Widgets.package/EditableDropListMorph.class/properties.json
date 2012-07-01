@@ -1,0 +1,17 @@
+{
+	"category" : "Polymorph-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "LaurentLaffont 3/31/2011 21:04",
+	"instvars" : [
+		"addToListSel",
+		"content" ],
+	"name" : "EditableDropListMorph",
+	"pools" : [
+		 ],
+	"super" : "DropListMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

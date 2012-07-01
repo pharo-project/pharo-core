@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"defaultSpec" : "bvr 6/4/2012 14:35",
+		"title" : "" },
+	"instance" : {
+		"eventStringForNextFocus" : "StephaneDucasse 5/17/2012 18:17",
+		"eventStringForPreviousFocus" : "StephaneDucasse 5/17/2012 18:18",
+		"getIndex" : "StephaneDucasse 5/17/2012 18:12",
+		"getList" : "StephaneDucasse 5/17/2012 18:02",
+		"initialize" : "StephaneDucasse 5/17/2012 19:32",
+		"internalResetSelection" : "StephaneDucasse 5/17/2012 18:05",
+		"items:" : "BenjaminVanRyseghem 6/12/2012 12:24",
+		"listHolder" : "",
+		"listItems" : "BenjaminVanRyseghem 6/12/2012 12:24",
+		"resetSelection" : "BenjaminVanRyseghem 6/12/2012 12:25",
+		"selectedIndex" : "BenjaminVanRyseghem 6/12/2012 12:26",
+		"selectedIndexHolder" : "StephaneDucasse 5/17/2012 18:04",
+		"selectedItem" : "BenjaminVanRyseghem 6/12/2012 12:26",
+		"selectedItemHolder" : "StephaneDucasse 5/17/2012 18:04",
+		"selectionHolder" : "",
+		"setIndex:" : "StephaneDucasse 5/17/2012 18:04",
+		"setSelectedIndex:" : "BenjaminVanRyseghem 6/12/2012 12:27",
+		"setSelectedItem:" : "BenjaminVanRyseghem 6/22/2012 19:21",
+		"whenSelectedItemChanged:" : "BenjaminVanRyseghem 6/12/2012 12:28",
+		"whenSelectionChanged:" : "BenjaminVanRyseghem 6/12/2012 12:28",
+		"whenSelectionIndexChanged:" : "BenjaminVanRyseghem 6/12/2012 12:28" } }

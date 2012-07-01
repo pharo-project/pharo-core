@@ -1,0 +1,3 @@
+instance creation
+setTrailerWithSourceCode
+	^ self trailerEncoder: FLCompiledMethodTrailerEncoderWithSource new.

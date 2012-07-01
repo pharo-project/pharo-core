@@ -1,0 +1,16 @@
+{
+	"category" : "MonticelloGUI",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"ShowAnnotationPane" ],
+	"commentStamp" : "nk 11/10/2003 22:00",
+	"instvars" : [
+		"items" ],
+	"name" : "MCCodeTool",
+	"pools" : [
+		 ],
+	"super" : "MCTool",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

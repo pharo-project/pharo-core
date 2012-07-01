@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"builder:tool:" : "avi 2/11/2005 12:02" },
+	"instance" : {
+		"build" : "avi 2/11/2005 12:03",
+		"buttonRow" : "avi 2/11/2005 12:04",
+		"buttonRow:" : "nice 1/5/2010 15:59",
+		"frame:" : "stephaneducasse 2/4/2006 20:47",
+		"initializeWithBuilder:tool:" : "stephaneducasse 2/4/2006 20:47",
+		"listMorph:" : "avi 2/11/2005 12:04",
+		"listMorph:keystroke:" : "avi 2/11/2005 12:04",
+		"listMorph:selection:" : "avi 2/11/2005 12:15",
+		"listMorph:selection:menu:" : "avi 2/11/2005 12:16",
+		"listMorph:selection:menu:keystroke:" : "avi 2/13/2005 17:51",
+		"multiListMorph:selection:listSelection:menu:" : "avi 2/13/2005 17:52",
+		"textMorph:" : "avi 2/13/2005 17:52",
+		"treeMorph:" : "avi 2/11/2005 12:05",
+		"treeMorph:selection:menu:" : "c 8/10/2010 22:49" } }

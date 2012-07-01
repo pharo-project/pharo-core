@@ -1,0 +1,16 @@
+{
+	"category" : "Polymorph-Tools-Diff",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PSMCChangeWrapper",
+	"pools" : [
+		 ],
+	"super" : "ListItemWrapper",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

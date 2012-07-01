@@ -1,0 +1,4 @@
+protocol
+cancelAction
+
+	^ cancelAction contents

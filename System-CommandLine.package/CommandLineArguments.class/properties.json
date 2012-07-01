@@ -1,0 +1,16 @@
+{
+	"category" : "System-CommandLine",
+	"classinstvars" : [
+		"singleton" ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"arguments" ],
+	"name" : "CommandLineArguments",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

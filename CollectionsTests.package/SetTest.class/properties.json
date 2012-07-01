@@ -1,0 +1,26 @@
+{
+	"category" : "CollectionsTests-Unordered",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TAddForUniquenessTest classTrait + TCloneTest classTrait + TCopyTest classTrait + TSetArithmetic classTrait + TRemoveTest classTrait + TCreationWithTest classTrait + TGrowableTest classTrait + TStructuralEqualityTest classTrait + TSizeTest classTrait + TPrintTest classTrait + TAsStringCommaAndDelimiterTest classTrait + TConvertTest classTrait + TConvertAsSortedTest classTrait + TIncludesWithIdentityCheckTest classTrait + TConcatenationEqualElementsRemovedTest classTrait + TOccurrencesTest classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"full",
+		"empty",
+		"collectResult",
+		"emptyButAllocatedWith20",
+		"elementNotIn",
+		"collectionOfFloat",
+		"collectionIncluded",
+		"nonEmpty1element",
+		"withoutEqualElements",
+		"collection5Elements",
+		"collectionWith3Elements" ],
+	"name" : "SetTest",
+	"pools" : [
+		 ],
+	"super" : "CollectionRootTest",
+	"traitcomposition" : "TAddForUniquenessTest + TIncludesWithIdentityCheckTest + TCloneTest + TCopyTest + TSetArithmetic + TRemoveTest + TCreationWithTest - {#testOfSize} + TGrowableTest + TStructuralEqualityTest + TSizeTest + TPrintTest + TAsStringCommaAndDelimiterTest + TConvertTest + TConvertAsSortedTest + TConcatenationEqualElementsRemovedTest + TOccurrencesTest",
+	"type" : "normal" }

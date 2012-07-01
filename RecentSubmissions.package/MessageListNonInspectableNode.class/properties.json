@@ -1,0 +1,16 @@
+{
+	"category" : "RecentSubmissions-UI",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dictionary" ],
+	"name" : "MessageListNonInspectableNode",
+	"pools" : [
+		 ],
+	"super" : "MessageListAbstractNode",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

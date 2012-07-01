@@ -1,0 +1,17 @@
+{
+	"category" : "Polymorph-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "ar 2/11/2005 20:13",
+	"instvars" : [
+		"model",
+		"getChildrenSelector" ],
+	"name" : "PluggablePanelMorph",
+	"pools" : [
+		 ],
+	"super" : "AlignmentMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

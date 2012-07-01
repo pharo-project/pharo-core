@@ -1,0 +1,19 @@
+{
+	"category" : "Tools-Spotlight",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"UniqueInstance" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"searchText",
+		"model",
+		"opened",
+		"search" ],
+	"name" : "Spotlight",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

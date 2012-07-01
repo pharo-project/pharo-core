@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"computeInitialStateFrom:with:" : "ar 10/27/1998 20:52",
+		"end" : "ar 10/30/1998 03:02",
+		"end:" : "ar 10/30/1998 03:02",
+		"initialX" : "ar 10/27/1998 20:31",
+		"initialY" : "ar 10/27/1998 20:31",
+		"initialZ" : "ar 10/27/1998 20:31",
+		"printOn:" : "ar 10/27/1998 23:20",
+		"start" : "ar 10/30/1998 03:02",
+		"start:" : "ar 10/30/1998 03:02",
+		"stepToFirstScanLineAt:in:" : "ar 10/27/1998 23:22",
+		"stepToNextScanLineAt:in:" : "ar 10/27/1998 20:39",
+		"subdivide" : "ar 10/29/1998 23:42" } }

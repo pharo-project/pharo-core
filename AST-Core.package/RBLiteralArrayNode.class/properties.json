@@ -1,0 +1,19 @@
+{
+	"category" : "AST-Core-Nodes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"isByteArray",
+		"stop",
+		"contents",
+		"start" ],
+	"name" : "RBLiteralArrayNode",
+	"pools" : [
+		 ],
+	"super" : "RBLiteralNode",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

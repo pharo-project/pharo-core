@@ -1,0 +1,74 @@
+versions
+version20075Environment: spec
+	"Auto-generated method"
+	
+	spec 
+		package: 'Graphics-Display Objects' with: 'Graphics-Display Objects-MarcusDenker.72';
+		package: 'Graphics-Primitives' with: 'Graphics-Primitives-MarcusDenker.76';
+		package: 'Graphics-Transformations' with: 'Graphics-Transformations-StephaneDucasse.4';
+		package: 'AST-Core' with: 'AST-Core-MarcusDenker.94';
+		package: 'AST-Semantic' with: 'AST-Semantic-EstebanLorenzano.16';
+		package: 'Keymapping-Core' with: 'Keymapping-Core-MarcusDenker.124';
+		package: 'Keymapping-Pragmas' with: 'Keymapping-Pragmas-MarcusDenker.16';
+		package: 'Keymapping-Settings' with: 'Keymapping-Settings-EstebanLorenzano.61';
+		package: 'Keymapping-Shortcuts' with: 'Keymapping-Shortcuts-MarcusDenker.57';
+		package: 'Keymapping-Tools-Spec' with: 'Keymapping-Tools-Spec-MarcusDenker.4';
+		package: 'NECompletion' with: 'NECompletion-MarcusDenker.23';
+		package: 'NOCompletion' with: 'NOCompletion-EstebanLorenzano.9';
+		package: 'Polymorph-EventEnhancements' with: 'Polymorph-EventEnhancements-MarcusDenker.13';
+		package: 'Polymorph-Geometry' with: 'Polymorph-Geometry-LaurentLaffont.8';
+		package: 'Polymorph-TaskbarIcons' with: 'Polymorph-TaskbarIcons-MarcusDenker.12';
+		package: 'Polymorph-Tools-Diff' with: 'Polymorph-Tools-Diff-MarcusDenker.75';
+		package: 'Polymorph-Widgets' with: 'Polymorph-Widgets-MarcusDenker.634';
+		package: 'RPackage-Core' with: 'RPackage-Core-MarcusDenker.113';
+		package: 'RPackage-SystemIntegration' with: 'RPackage-SystemIntegration-MarcusDenker.91';
+		package: 'Refactoring-Changes' with: 'Refactoring-Changes-EstebanLorenzano.21';
+		package: 'Refactoring-Core' with: 'Refactoring-Core-EstebanLorenzano.157';
+		package: 'Refactoring-Critics' with: 'Refactoring-Critics-EstebanLorenzano.14';
+		package: 'Refactoring-Environment' with: 'Refactoring-Environment-EstebanLorenzano.10';
+		package: 'Refactoring-Pharo-Platform' with: 'Refactoring-Pharo-Platform-EstebanLorenzano.2';
+		package: 'Refactoring-Spelling' with: 'Refactoring-Spelling-EstebanLorenzano.29';
+		package: 'Regex-Core' with: 'Regex-Core-StephaneDucasse.8';
+		package: 'Regex-Help' with: 'Regex-Help-StephaneDucasse.2';
+		package: 'SUnit-Core' with: 'SUnit-Core-MarcusDenker.21';
+		package: 'SUnit-Help' with: 'SUnit-Help-MarcusDenker.1';
+		package: 'SUnit-UI' with: 'SUnit-UI-MarcusDenker.23';
+		package: 'Graphics-External' with: 'Graphics-External-MarcusDenker.11';
+		package: 'Graphics-Files' with: 'Graphics-Files-MarcusDenker.25';
+		package: 'Graphics-Fonts' with: 'Graphics-Fonts-MarcusDenker.53';
+		package: 'Graphics-Resources' with: 'Graphics-Resources-MarcusDenker.13';
+		package: 'Graphics-Support' with: 'Graphics-Support-MarcusDenker.13';
+		package: 'Graphics-Text' with: 'Graphics-Text-MarcusDenker.29';
+		package: 'HelpSystem-Core' with: 'HelpSystem-Core-StephaneDucasse.87';
+		package: 'Nautilus' with: 'Nautilus-EstebanLorenzano.279';
+		package: 'NautilusCommon' with: 'NautilusCommon-MarcusDenker.68';
+		package: 'NautilusRefactoring' with: 'NautilusRefactoring-MarcusDenker.30';
+		package: 'Balloon' with: 'Balloon-MarcusDenker.83';
+		package: 'Compatibility' with: 'Compatibility-MarcusDenker.8';
+		package: 'Deprecated20' with: 'Deprecated20-MarcusDenker.4';
+		package: 'EmergencyEvaluator' with: 'EmergencyEvaluator-MarcusDenker.25';
+		package: 'EventModel' with: 'EventModel-StephaneDucasse.1';
+		package: 'FamFam-Icons' with: 'FamFam-Icons-MarcusDenker.8';
+		package: 'FixUnderscores' with: 'FixUnderscores-MarcusDenker.23';
+		package: 'FreeType' with: 'FreeType-MarcusDenker.574';
+		package: 'Gofer-Core' with: 'Gofer-Core-StephaneDucasse.148';
+		package: 'GroupManager' with: 'GroupManager-EstebanLorenzano.27';
+		package: 'GroupManagerUI' with: 'GroupManagerUI-EstebanLorenzano.14';
+		package: 'Growl' with: 'Growl-EstebanLorenzano.8';
+		package: 'HistoryCollection' with: 'HistoryCollection-EstebanLorenzano.10';
+		package: 'MenuRegistration' with: 'MenuRegistration-MarcusDenker.38';
+		package: 'Monticello' with: 'Monticello-MarcusDenker.582';
+		package: 'MonticelloConfigurations' with: 'MonticelloConfigurations-StephaneDucasse.61';
+		package: 'MonticelloGUI' with: 'MonticelloGUI-MarcusDenker.147';
+		package: 'Monticellomocks' with: 'Monticellomocks-MarcusDenker.1';
+		package: 'Morphic' with: 'Morphic-MarcusDenker.1150';
+		package: 'NonInteractiveTranscript' with: 'NonInteractiveTranscript-StephaneDucasse.3';
+		package: 'PackageInfo' with: 'PackageInfo-MarcusDenker.77';
+		package: 'PluggableTextMorphWithLimits' with: 'PluggableTextMorphWithLimits-EstebanLorenzano.9';
+		package: 'RecentSubmissions' with: 'RecentSubmissions-MarcusDenker.157';
+		package: 'Ring-Core-Containers' with: 'Ring-Core-Containers-MarcusDenker.11';
+		package: 'Ring-Core-Kernel' with: 'Ring-Core-Kernel-EstebanLorenzano.54';
+		package: 'Shout' with: 'Shout-MarcusDenker.138';
+		package: 'StartupPreferences' with: 'StartupPreferences-EstebanLorenzano.42';
+		package: 'TrueType' with: 'TrueType-StephaneDucasse.33';
+		package: 'UI-Basic' with: 'UI-Basic-MarcusDenker.8'

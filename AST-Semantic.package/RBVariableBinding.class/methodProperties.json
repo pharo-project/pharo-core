@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"new" : "lr 4/27/2010 14:07" },
+	"instance" : {
+		"accessors" : "lr 6/4/2010 15:03",
+		"addAccessor:" : "lr 6/4/2010 14:59",
+		"addReader:" : "lr 5/11/2010 22:28",
+		"addWriter:" : "lr 5/11/2010 22:28",
+		"initialize" : "lr 6/4/2010 14:59",
+		"isAccessed" : "lr 6/4/2010 15:03",
+		"isArgumentBinding" : "lr 4/28/2010 09:35",
+		"isContextBinding" : "lr 4/28/2010 09:34",
+		"isInstanceBinding" : "lr 4/28/2010 09:35",
+		"isLiteralBinding" : "lr 4/28/2010 09:35",
+		"isRead" : "lr 4/28/2010 09:33",
+		"isReadonly" : "lr 4/27/2010 14:35",
+		"isSelfBinding" : "lr 4/28/2010 09:34",
+		"isShadowing" : "lr 6/7/2010 15:09",
+		"isSuperBinding" : "lr 4/28/2010 09:34",
+		"isTemporaryBinding" : "lr 4/28/2010 09:35",
+		"isUndeclaredBinding" : "lr 4/28/2010 09:35",
+		"isWritten" : "lr 4/28/2010 09:33",
+		"name" : "lr 4/27/2010 14:30",
+		"printOn:" : "lr 4/27/2010 14:30",
+		"readers" : "lr 5/11/2010 22:17",
+		"scope" : "lr 4/27/2010 14:06",
+		"setScope:" : "lr 4/27/2010 14:06",
+		"writers" : "lr 5/11/2010 22:18" } }

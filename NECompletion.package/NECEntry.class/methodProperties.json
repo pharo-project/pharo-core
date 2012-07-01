@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"contents:type:" : "" },
+	"instance" : {
+		"<=" : "",
+		"browseWith:" : "",
+		"completion" : "",
+		"contents" : "",
+		"contentsAsSymbol" : "",
+		"createDescriptionWith:" : "",
+		"descriptionWith:" : "",
+		"guessTypeWith:" : "",
+		"isInstance" : "",
+		"isLocal" : "",
+		"isSelector" : "",
+		"label" : "",
+		"printOn:" : "",
+		"setContents:type:" : "",
+		"type" : "" } }

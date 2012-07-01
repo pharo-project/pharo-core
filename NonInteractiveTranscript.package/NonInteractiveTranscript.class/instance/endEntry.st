@@ -1,0 +1,3 @@
+streaming
+endEntry
+	self flush

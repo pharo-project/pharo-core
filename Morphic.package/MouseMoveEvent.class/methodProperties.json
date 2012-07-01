@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"=" : "ar 9/15/2000 22:49",
+		"endPoint" : "ar 9/15/2000 22:51",
+		"hash" : "ar 9/15/2000 22:49",
+		"isMove" : "ar 9/13/2000 19:29",
+		"printOn:" : "JMM 9/29/2004 13:25",
+		"sentTo:" : "ar 10/10/2000 21:15",
+		"setType:startPoint:endPoint:trail:buttons:hand:stamp:" : "ar 10/5/2000 23:55",
+		"startPoint" : "ar 9/13/2000 16:25",
+		"storeOn:" : "ar 10/24/2000 16:30",
+		"trail" : "ar 10/24/2000 16:33",
+		"transformBy:" : "ar 9/15/2000 22:52",
+		"translateBy:" : "ar 9/15/2000 22:52",
+		"type:readFrom:" : "ar 10/24/2000 16:31" } }

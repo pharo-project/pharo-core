@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"p4Name" : "StephaneDucasse 5/9/2011 16:42",
+		"p5Name" : "StephaneDucasse 5/9/2011 16:43",
+		"p6Name" : "cyrilledelaunay 5/10/2011 12:50",
+		"setUp" : "cyrilledelaunay 5/13/2011 12:55",
+		"testPackageOfClassMethodFromTraitExtensionIsExtendingPackage" : "StephaneDucasse 6/3/2012 22:47",
+		"testPackageOfClassMethodFromTraitIsTraitPackage" : "StephaneDucasse 6/3/2012 23:26",
+		"testPackageOfClassMethodIsClassPackage" : "StephaneDucasse 6/3/2012 23:26",
+		"testPackageOfTraitMethodIsTraitPackage" : "StephaneDucasse 6/3/2012 23:26",
+		"testStartingSituation" : "StephaneDucasse 5/10/2011 10:24" } }

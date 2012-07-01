@@ -1,0 +1,3 @@
+finalization
+asExecutor
+	sourceForm := nil

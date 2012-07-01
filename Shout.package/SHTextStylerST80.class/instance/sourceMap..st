@@ -1,0 +1,3 @@
+accessing
+sourceMap: aSortedCollection 
+	^ self

@@ -1,0 +1,18 @@
+{
+	"category" : "Collections-Sequenceable",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TSortable classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"array",
+		"firstIndex",
+		"lastIndex" ],
+	"name" : "OrderedCollection",
+	"pools" : [
+		 ],
+	"super" : "SequenceableCollection",
+	"traitcomposition" : "TSortable",
+	"type" : "normal" }

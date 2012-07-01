@@ -1,0 +1,16 @@
+{
+	"category" : "Tools-Changes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ChangeSetBrowser",
+	"pools" : [
+		 ],
+	"super" : "ChangeSorter",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

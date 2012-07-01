@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addEntry:" : "rr 5/28/2009 11:29",
+		"addSelectors" : "rr 4/14/2009 13:56",
+		"at:" : "damiencassou 7/27/2009 14:22",
+		"completionAt:" : "rr 5/28/2009 14:17",
+		"contract" : "rr 4/15/2009 13:28",
+		"entries" : "RomainRobbes 8/2/2010 17:58",
+		"entryCount" : "RomainRobbes 8/2/2010 17:56",
+		"expand" : "rr 4/15/2009 13:28",
+		"initialize" : "EstebanLorenzano 4/12/2012 11:17",
+		"initializeSelectors" : "rr 4/14/2009 13:56",
+		"narrowWith:" : "rr 4/17/2009 14:33",
+		"nextModel" : "EstebanLorenzano 4/12/2012 11:20",
+		"noNextModel" : "EstebanLorenzano 4/12/2012 11:20",
+		"resetEntries" : "TestRunner 11/30/2009 14:07",
+		"table" : "rr 4/14/2009 13:46",
+		"tableForEntry:" : "rr 5/28/2009 14:18",
+		"useUniqueTable" : "EstebanLorenzano 4/12/2012 11:17" } }

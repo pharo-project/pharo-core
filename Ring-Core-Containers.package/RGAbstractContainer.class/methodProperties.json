@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addElement:" : "VeronicaUquillas 4/14/2011 12:17",
+		"addElement:in:" : "VeronicaUquillas 4/14/2011 20:08",
+		"elementNamed:" : "VeronicaUquillas 4/13/2011 16:07",
+		"elementNamed:in:" : "VeronicaUquillas 4/14/2011 14:41",
+		"elements" : "VeronicaUquillas 4/14/2011 10:21",
+		"elementsCategorized:" : "VeronicaUquillas 4/15/2011 14:34",
+		"elementsCategorized:with:" : "VeronicaUquillas 4/15/2011 09:47",
+		"elementsDo:" : "VeronicaUquillas 4/13/2011 15:21",
+		"flushElements" : "VeronicaUquillas 4/15/2011 09:43",
+		"includesElement:" : "VeronicaUquillas 7/29/2011 10:51",
+		"includesElementNamed:" : "VeronicaUquillas 4/13/2011 16:01",
+		"includesElementNamed:in:" : "VeronicaUquillas 4/13/2011 16:03",
+		"initialize" : "VeronicaUquillas 4/14/2011 10:20",
+		"removeElement:" : "VeronicaUquillas 4/14/2011 12:17",
+		"removeElement:from:" : "VeronicaUquillas 4/14/2011 12:25",
+		"removeElementsCategorized:" : "VeronicaUquillas 4/15/2011 09:48" } }

@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAssociationWithWeak" : "MarianoMartinezPeck 12/6/2011 19:16",
+		"testAssociationWithWeakFinalizationList" : "MartinDias 3/22/2012 22:54",
+		"testWeakAndNoStrongReferenceFromGraph" : "MarianoMartinezPeck 12/6/2011 12:11",
+		"testWeakWithStrongReferenceFromGraph" : "MarianoMartinezPeck 12/6/2011 12:11",
+		"testWeakWithStrongReferenceFromGraph2" : "MarianoMartinezPeck 12/6/2011 13:59" } }

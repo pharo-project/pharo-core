@@ -1,0 +1,4 @@
+initialization
+handleStringSearch
+
+	^ false

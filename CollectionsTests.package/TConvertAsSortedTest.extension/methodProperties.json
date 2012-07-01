@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"collectionWithSortableElements" : "delaunay 4/24/2009 10:14",
+		"test0FixtureConverAsSortedTest" : "delaunay 4/24/2009 10:21",
+		"testAsSortedArray" : "hfm 4/2/2010 13:41",
+		"testAsSortedCollection" : "delaunay 4/24/2009 10:19",
+		"testAsSortedCollectionWithSortBlock" : "delaunay 4/24/2009 10:16" } }

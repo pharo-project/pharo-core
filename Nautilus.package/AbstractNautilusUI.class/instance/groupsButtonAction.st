@@ -1,0 +1,4 @@
+buttons behavior
+groupsButtonAction
+
+	self toggleShowGroups

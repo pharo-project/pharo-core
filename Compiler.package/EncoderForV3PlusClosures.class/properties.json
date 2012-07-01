@@ -1,0 +1,16 @@
+{
+	"category" : "Compiler-Kernel",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "EncoderForV3PlusClosures",
+	"pools" : [
+		 ],
+	"super" : "EncoderForV3",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

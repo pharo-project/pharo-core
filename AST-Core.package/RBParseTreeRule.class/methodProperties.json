@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"methodSearch:" : "",
+		"search:" : "" },
+	"instance" : {
+		"canMatch:" : "",
+		"context" : "",
+		"foundMatchFor:" : "",
+		"methodSearchString:" : "",
+		"owner:" : "",
+		"performOn:" : "",
+		"searchString:" : "",
+		"sentMessages" : "" } }

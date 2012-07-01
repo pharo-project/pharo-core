@@ -1,0 +1,1 @@
+I am a cluster for SmallInteger instances between 0 and 16rFFFF.

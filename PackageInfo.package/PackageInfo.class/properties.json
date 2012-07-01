@@ -1,0 +1,17 @@
+{
+	"category" : "PackageInfo-Base",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"packageName",
+		"methodCategoryPrefix" ],
+	"name" : "PackageInfo",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

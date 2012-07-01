@@ -1,0 +1,17 @@
+{
+	"category" : "Network-Kernel",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "mir 5/12/2003 18:14",
+	"instvars" : [
+		"host",
+		"port" ],
+	"name" : "ConnectionRefused",
+	"pools" : [
+		 ],
+	"super" : "NetworkError",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

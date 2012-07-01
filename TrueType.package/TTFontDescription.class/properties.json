@@ -1,0 +1,32 @@
+{
+	"category" : "TrueType-Fonts",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"Default",
+		"Descriptions" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"glyphTable",
+		"glyphs",
+		"kernPairs",
+		"copyright",
+		"familyName",
+		"fullName",
+		"subfamilyName",
+		"uniqueName",
+		"versionName",
+		"postscriptName",
+		"trademark",
+		"bounds",
+		"unitsPerEm",
+		"ascender",
+		"descender",
+		"lineGap" ],
+	"name" : "TTFontDescription",
+	"pools" : [
+		"TextConstants" ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

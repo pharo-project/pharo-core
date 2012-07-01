@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"initialize" : "di 6/28/1999 15:51",
+		"rectWithinCornersOf:" : "di 3/25/2000 11:12",
+		"roundCornersOf:on:in:displayBlock:borderWidth:corners:" : "ar 1/5/2002 17:24",
+		"roundShadowCornersOf:on:in:displayBlock:borderWidth:corners:" : "GaryChambers 9/8/2011 14:46" },
+	"instance" : {
+		"masterMask:masterOverlay:" : "di 6/24/1999 09:35",
+		"saveBitsUnderCornersOf:on:in:corners:" : "nice 12/26/2009 01:26",
+		"tweakCornersOf:on:in:borderWidth:corners:" : "IgorStasenko 7/18/2011 18:11",
+		"tweakShadowCornersOf:on:in:borderWidth:corners:" : "GaryChambers 9/8/2011 14:46" } }

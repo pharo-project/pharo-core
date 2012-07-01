@@ -1,0 +1,16 @@
+{
+	"category" : "Tools-Debugger",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"fieldList" ],
+	"name" : "ContextVariablesInspector",
+	"pools" : [
+		 ],
+	"super" : "Inspector",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

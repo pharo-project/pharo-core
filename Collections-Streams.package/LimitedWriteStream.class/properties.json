@@ -1,0 +1,17 @@
+{
+	"category" : "Collections-Streams",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"limit",
+		"limitBlock" ],
+	"name" : "LimitedWriteStream",
+	"pools" : [
+		 ],
+	"super" : "WriteStream",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

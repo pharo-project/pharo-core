@@ -1,0 +1,4 @@
+protocol
+labelClickable
+	
+	^ labelClickableHolder contents

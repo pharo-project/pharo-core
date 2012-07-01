@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"activate" : "brp 9/24/2003 23:12",
+		"duration" : "brp 9/24/2003 23:45",
+		"end" : "brp 9/25/2003 11:21",
+		"isActive" : "brp 9/24/2003 22:48",
+		"isSuspended" : "brp 9/24/2003 22:48",
+		"printOn:" : "brp 9/25/2003 13:25",
+		"reActivate" : "brp 9/25/2003 12:03",
+		"reset" : "brp 9/25/2003 11:54",
+		"start" : "brp 9/24/2003 23:18",
+		"state" : "brp 9/24/2003 22:47",
+		"state:" : "brp 9/24/2003 22:46",
+		"suspend" : "brp 9/24/2003 23:13",
+		"timespans" : "brp 9/24/2003 22:44" } }

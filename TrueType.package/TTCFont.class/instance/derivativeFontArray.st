@@ -1,0 +1,4 @@
+friend
+derivativeFontArray
+
+	^ derivatives.

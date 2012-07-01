@@ -1,0 +1,16 @@
+{
+	"category" : "Keymapping-Shortcuts",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"modifiers" ],
+	"name" : "KMComposedModifier",
+	"pools" : [
+		 ],
+	"super" : "KMModifier",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

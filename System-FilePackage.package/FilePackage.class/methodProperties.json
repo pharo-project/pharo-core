@@ -1,0 +1,33 @@
+{
+	"class" : {
+		"fromFileNamed:" : "" },
+	"instance" : {
+		"askForDoits" : "alain.plantec 2/6/2009 17:01",
+		"classAt:" : "",
+		"classComment:" : "",
+		"classDefinition:with:" : "al 12/2/2005 13:58",
+		"classes" : "",
+		"doIt:" : "",
+		"doIts" : "avi 1/19/2004 23:47",
+		"fileIn" : "alain.plantec 2/6/2009 17:02",
+		"fileInDoits" : "",
+		"fileInFrom:" : "SeanDeNigris 6/21/2012 09:04",
+		"fileOut" : "ar 7/17/2005 03:36",
+		"fileOutDoits:" : "",
+		"fileOutOn:" : "alain.plantec 2/6/2009 17:02",
+		"fromFileNamed:" : "StephaneDucasse 2/2/2010 21:52",
+		"fullName:" : "pnm
+8/23/2000 17:10",
+		"fullPackageName" : "",
+		"getClass:" : "",
+		"initialize" : "alain.plantec 5/28/2009 09:54",
+		"metaClassDefinition:with:" : "",
+		"method:" : "",
+		"msgClassComment:with:" : "ar 4/10/2005 18:46",
+		"packageInfo" : "",
+		"packageName" : "CamilloBruni 5/7/2012 02:09",
+		"possibleSystemSource:" : "ar 4/10/2005 18:46",
+		"preamble:" : "",
+		"removeClass:" : "",
+		"removedMethod:with:" : "",
+		"renameClass:to:" : "" } }

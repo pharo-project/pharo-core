@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"initialize" : "ar 12/21/1999 23:00" },
+	"instance" : {
+		"decompressBlock:with:" : "ar 2/2/2001 15:47",
+		"distanceMap" : "ar 12/4/1998 02:26",
+		"increment:bits:" : "ar 12/4/1998 01:48",
+		"literalLengthMap" : "ar 12/4/1998 02:26",
+		"nextSingleBits:" : "ar 12/4/1998 02:02",
+		"processFixedBlock" : "ar 12/4/1998 19:15" } }

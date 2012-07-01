@@ -1,0 +1,17 @@
+{
+	"category" : "Morphic-Layouts",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"properties",
+		"minExtentCache" ],
+	"name" : "TableLayout",
+	"pools" : [
+		 ],
+	"super" : "LayoutPolicy",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "MonticelloGUI",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selection" ],
+	"name" : "MCPatchBrowser",
+	"pools" : [
+		 ],
+	"super" : "MCCodeTool",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

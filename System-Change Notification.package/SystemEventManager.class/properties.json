@@ -1,0 +1,16 @@
+{
+	"category" : "System-Change Notification",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "tlk 5/7/2006 20:10",
+	"instvars" : [
+		 ],
+	"name" : "SystemEventManager",
+	"pools" : [
+		 ],
+	"super" : "EventManager",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

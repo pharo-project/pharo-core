@@ -1,0 +1,17 @@
+{
+	"category" : "Spec-Examples-PolyWidgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"container",
+		"tab" ],
+	"name" : "TabClassical",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

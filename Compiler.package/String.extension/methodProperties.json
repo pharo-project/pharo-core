@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"allowUnderscore" : "BenjaminVanRyseghem 11/24/2010 14:40",
+		"allowUnderscore:" : "mariano 9/30/2011 15:41",
+		"denyUnderscore" : "BenjaminVanRyseghem 11/24/2010 14:40" },
+	"instance" : {
+		"inviolateInstanceVariableNames" : "BenjaminVanRyseghem 11/24/2010 14:41",
+		"isLegalClassName" : "AlainPlantec 9/23/2011 12:27",
+		"isLegalInstVarName" : "BenjaminVanRyseghem 11/24/2010 14:41" } }

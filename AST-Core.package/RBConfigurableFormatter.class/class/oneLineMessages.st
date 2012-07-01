@@ -1,0 +1,3 @@
+accessing
+oneLineMessages
+	^ OneLineMessages printString

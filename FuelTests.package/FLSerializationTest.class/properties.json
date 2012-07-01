@@ -1,0 +1,19 @@
+{
+	"category" : "FuelTests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"serializer",
+		"materializer",
+		"classFactory",
+		"streamFactory" ],
+	"name" : "FLSerializationTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

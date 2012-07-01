@@ -1,0 +1,17 @@
+{
+	"category" : "Spec-Builder",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"type" ],
+	"name" : "AddInstVarDescription",
+	"pools" : [
+		 ],
+	"super" : "AbstractDescription",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

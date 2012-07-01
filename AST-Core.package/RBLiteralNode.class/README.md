@@ -1,0 +1,1 @@
+RBLiteralNode is an AST node that represents literals.

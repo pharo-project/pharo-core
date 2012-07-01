@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"buildIso3166CodesTables" : "mir 9/1/2005 14:06",
+		"extraCountryDefinitions" : "mir 9/1/2005 14:14",
+		"extraISO3Definitions" : "mir 7/15/2004 18:14",
+		"initISO3LanguageTable" : "mir 7/15/2004 18:13",
+		"initISOCountries" : "mir 9/1/2005 14:12",
+		"initialize" : "mir 7/1/2004 18:19",
+		"iso2Countries" : "mir 9/1/2005 14:18",
+		"iso2LanguageDefinition:" : "mir 7/1/2004 18:06",
+		"iso2LanguageTable" : "mir 7/1/2004 18:14",
+		"iso3166Codes" : "mir 9/1/2005 13:57",
+		"iso3Countries" : "mir 9/1/2005 14:18",
+		"iso3LanguageDefinition:" : "mir 7/1/2004 18:06",
+		"iso3LanguageTable" : "mir 7/21/2004 13:10",
+		"isoLanguages" : "yo 12/3/2004 17:46",
+		"readISOLanguagesFrom:" : "mir 7/1/2004 18:07" },
+	"instance" : {
+		"iso2" : "mir 7/1/2004 18:20",
+		"iso2:" : "mir 6/30/2004 15:54",
+		"iso3" : "mir 7/1/2004 18:21",
+		"iso3:" : "mir 6/30/2004 15:54",
+		"iso3Alternate" : "mir 6/30/2004 15:47",
+		"iso3Alternate:" : "mir 6/30/2004 15:54",
+		"language" : "mir 8/15/2003 13:13",
+		"language:" : "mir 8/15/2003 13:40" } }

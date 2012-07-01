@@ -1,0 +1,16 @@
+{
+	"category" : "Gofer-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GoferRemoteChanges",
+	"pools" : [
+		 ],
+	"super" : "GoferChanges",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

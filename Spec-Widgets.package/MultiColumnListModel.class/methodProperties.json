@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"defaultSpec" : "bvr 6/4/2012 14:35" },
+	"instance" : {
+		"getIndex" : "StephaneDucasse 5/17/2012 18:03",
+		"listElementAt:" : "BenjaminVanRyseghem 5/7/2012 13:20",
+		"setIndex:" : "StephaneDucasse 5/17/2012 18:03",
+		"setSelectedIndex:" : "BenjaminVanRyseghem 6/12/2012 18:20" } }

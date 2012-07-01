@@ -1,0 +1,25 @@
+{
+	"category" : "Polymorph-Widgets-Windows",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "gvc 5/18/2007 13:04",
+	"instvars" : [
+		"fontFamilies",
+		"selectedFont",
+		"textPreviewMorph",
+		"fontFamilyIndex",
+		"fontSizeIndex",
+		"isBold",
+		"isItalic",
+		"isUnderlined",
+		"isStruckOut",
+		"previewText" ],
+	"name" : "AbstractFontSelectorDialogWindow",
+	"pools" : [
+		 ],
+	"super" : "DialogWindow",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

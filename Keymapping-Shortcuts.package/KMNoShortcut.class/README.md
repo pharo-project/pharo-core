@@ -1,0 +1,1 @@
+I do not respond to any keyboard event. Mostly used in the settings to deactivate a certain command.

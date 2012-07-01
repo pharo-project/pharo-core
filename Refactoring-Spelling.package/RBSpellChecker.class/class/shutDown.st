@@ -1,0 +1,3 @@
+initialization
+shutDown
+	Default := nil

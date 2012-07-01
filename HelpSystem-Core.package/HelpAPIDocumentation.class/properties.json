@@ -1,0 +1,16 @@
+{
+	"category" : "HelpSystem-Core-Help",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "tbn 4/30/2010 15:12",
+	"instvars" : [
+		 ],
+	"name" : "HelpAPIDocumentation",
+	"pools" : [
+		 ],
+	"super" : "HelpOnHelp",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

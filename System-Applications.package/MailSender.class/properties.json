@@ -1,0 +1,17 @@
+{
+	"category" : "System-Applications",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"SmtpServer",
+		"UserName" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MailSender",
+	"pools" : [
+		 ],
+	"super" : "AppRegistry",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

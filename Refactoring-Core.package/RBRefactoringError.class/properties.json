@@ -1,0 +1,16 @@
+{
+	"category" : "Refactoring-Core-Support",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 10/5/2010 16:17",
+	"instvars" : [
+		"actionBlock" ],
+	"name" : "RBRefactoringError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAvoidRecursion" : "MartinDias 5/9/2012 00:17",
+		"testLowercaseSomeSymbols" : "MartinDias 10/7/2011 16:33",
+		"testSimple" : "MartinDias 5/8/2012 20:03",
+		"testSubstituteByItself" : "MartinDias 5/8/2012 19:57",
+		"testTransientPair" : "MartinDias 10/7/2011 16:33",
+		"testTransientPairLeft" : "MartinDias 10/7/2011 16:33",
+		"testUniqueSubstitution" : "MartinDias 5/8/2012 19:26" } }

@@ -1,0 +1,22 @@
+{
+	"category" : "Text-Scanning",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"characterPoint",
+		"characterIndex",
+		"lastCharacter",
+		"lastCharacterExtent",
+		"lastSpaceOrTabExtent",
+		"nextLeftMargin",
+		"specialWidth" ],
+	"name" : "MultiCharacterBlockScanner",
+	"pools" : [
+		"TextConstants" ],
+	"super" : "MultiCharacterScanner",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

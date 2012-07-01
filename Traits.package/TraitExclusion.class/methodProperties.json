@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"with:exclusions:" : "dvf 8/18/2005 17:36" },
+	"instance" : {
+		"addExclusionOf:" : "al 4/9/2004 16:55",
+		"allSelectors" : "al 3/7/2004 22:48",
+		"collectMethodsFor:into:" : "al 3/4/2004 16:35",
+		"copyTraitExpression" : "dvf 8/25/2005 16:07",
+		"exclusions" : "al 12/7/2003 11:58",
+		"exclusions:" : "al 12/7/2003 11:58",
+		"isEmpty" : "al 4/10/2004 23:56",
+		"postCopy" : "nice 1/13/2010 21:52",
+		"printOn:" : "al 2/22/2004 21:45" } }

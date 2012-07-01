@@ -1,0 +1,25 @@
+{
+	"category" : "Morphic-Kernel",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"CmdGesturesEnabled",
+		"CycleHalosBothDirections",
+		"DefaultYellowButtonMenuEnabled",
+		"EmptyArray",
+		"HalosEnabled" ],
+	"commentStamp" : "efc 2/26/2003 20:01",
+	"instvars" : [
+		"bounds",
+		"owner",
+		"submorphs",
+		"fullBounds",
+		"color",
+		"extension" ],
+	"name" : "Morph",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

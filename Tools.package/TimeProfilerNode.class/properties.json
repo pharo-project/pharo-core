@@ -1,0 +1,16 @@
+{
+	"category" : "Tools-Profilers",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TimeProfilerNode",
+	"pools" : [
+		 ],
+	"super" : "MorphTreeNodeModel",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

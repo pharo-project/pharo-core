@@ -1,0 +1,16 @@
+{
+	"category" : "Polymorph-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "gvc 5/18/2007 10:20",
+	"instvars" : [
+		 ],
+	"name" : "ToolDockingBarMorph",
+	"pools" : [
+		 ],
+	"super" : "DockingBarMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

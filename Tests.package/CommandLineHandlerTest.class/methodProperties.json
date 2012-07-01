@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"argumentsWith:" : "CamilloBruni 5/2/2012 14:01",
+		"testResponsibilityDefault" : "CamilloBruni 5/2/2012 14:02",
+		"testResponsibilityEval" : "CamilloBruni 5/2/2012 14:04",
+		"testResponsibilitySt" : "CamilloBruni 5/2/2012 14:02",
+		"testSelectHandlersCodeLoader" : "CamilloBruni 5/2/2012 14:10" } }

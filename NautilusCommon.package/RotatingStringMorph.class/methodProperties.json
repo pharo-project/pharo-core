@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"asText" : "",
+		"contents:" : "",
+		"initialize" : "",
+		"largeEnough" : "",
+		"mouseEnter:" : "",
+		"mouseLeave:" : "",
+		"resetDisplay" : "",
+		"step" : "",
+		"stepAction" : "",
+		"stepTime" : "" } }

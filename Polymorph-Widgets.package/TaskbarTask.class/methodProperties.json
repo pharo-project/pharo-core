@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"morph:state:icon:label:" : "gvc 4/18/2007 12:26" },
+	"instance" : {
+		"=" : "gvc 7/24/2007 12:18",
+		"activate" : "gvc 4/23/2007 14:51",
+		"buttonClickedForTasklist:" : "gvc 4/20/2007 11:06",
+		"hash" : "gvc 12/12/2007 12:01",
+		"icon" : "gvc 4/18/2007 12:20",
+		"icon:" : "gvc 4/18/2007 12:20",
+		"isActive" : "gvc 4/20/2007 10:49",
+		"isMinimized" : "gvc 4/20/2007 10:25",
+		"label" : "gvc 4/18/2007 12:20",
+		"label:" : "gvc 4/18/2007 12:20",
+		"morph" : "gvc 4/18/2007 12:24",
+		"morph:" : "gvc 4/18/2007 12:24",
+		"state" : "gvc 4/18/2007 12:20",
+		"state:" : "gvc 4/18/2007 12:20",
+		"taskbarButtonFor:" : "gvc 4/20/2007 10:21",
+		"tasklistButtonFor:" : "FernandoOlivero 4/12/2011 10:34",
+		"theme" : "FernandoOlivero 4/12/2011 10:35" } }

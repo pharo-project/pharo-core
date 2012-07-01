@@ -1,0 +1,3 @@
+constants
+utilityWindowClass
+	^8

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"copy:to:" : "cwp 10/30/2009 13:44",
+		"from:to:" : "cwp 10/30/2009 13:41" },
+	"instance" : {
+		"copyDirectory:" : "cwp 11/17/2009 21:06",
+		"copyFile:" : "cwp 11/15/2009 00:31",
+		"initializeWithSource:dest:" : "cwp 10/30/2009 13:42",
+		"visit" : "EstebanLorenzano 4/2/2012 11:38",
+		"visitDirectory:" : "cwp 11/16/2009 10:51",
+		"visitFile:" : "cwp 11/16/2009 10:52" } }

@@ -1,0 +1,16 @@
+{
+	"category" : "Multilingual-TextConversion",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "KOI8RTextConverter",
+	"pools" : [
+		 ],
+	"super" : "ByteTextConverter",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

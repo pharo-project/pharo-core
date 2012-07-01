@@ -1,0 +1,4 @@
+*RecentSubmissions
+stamp
+
+	^ self timeStamp

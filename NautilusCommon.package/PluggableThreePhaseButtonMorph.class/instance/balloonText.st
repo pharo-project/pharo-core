@@ -1,0 +1,4 @@
+accessing
+balloonText
+
+	^ self helpText

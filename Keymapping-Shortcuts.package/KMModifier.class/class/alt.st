@@ -1,0 +1,3 @@
+building
+alt
+	^ KMAltModifier new

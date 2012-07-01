@@ -1,0 +1,19 @@
+{
+	"category" : "Morphic-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"DefaultHeight",
+		"DefaultWidth" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"start",
+		"end",
+		"value" ],
+	"name" : "ProgressBarMorph",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

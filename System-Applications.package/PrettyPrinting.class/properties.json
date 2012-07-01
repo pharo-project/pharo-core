@@ -1,0 +1,16 @@
+{
+	"category" : "System-Applications",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PrettyPrinting",
+	"pools" : [
+		 ],
+	"super" : "AppRegistry",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,17 @@
+{
+	"category" : "Morphic-Pluggable Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"DefaultWarningLimit" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"warningLimit",
+		"alertLimit" ],
+	"name" : "PluggableTextMorphWithLimits",
+	"pools" : [
+		 ],
+	"super" : "PluggableTextMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

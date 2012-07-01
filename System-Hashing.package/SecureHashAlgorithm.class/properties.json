@@ -1,0 +1,24 @@
+{
+	"category" : "System-Hashing-SHA1",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"K1",
+		"K2",
+		"K3",
+		"K4" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"totalA",
+		"totalB",
+		"totalC",
+		"totalD",
+		"totalE",
+		"totals" ],
+	"name" : "SecureHashAlgorithm",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

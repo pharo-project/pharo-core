@@ -1,0 +1,16 @@
+{
+	"category" : "FreeType-Base",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"bytes" ],
+	"name" : "FT2MemoryFaceData",
+	"pools" : [
+		 ],
+	"super" : "FT2Handle",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

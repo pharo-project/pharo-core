@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"decodeEmbeddedSourceZip" : "Igor.Stasenko 12/13/2009 16:33",
+		"decodeZip" : "StephaneDucasse 2/3/2010 22:11",
+		"encodeEmbeddedSourceZip" : "Igor.Stasenko 12/13/2009 14:29",
+		"encodeUsingZip" : "jannik.laval 5/1/2010 16:05" } }

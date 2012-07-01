@@ -1,0 +1,16 @@
+{
+	"category" : "Network-Protocols",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "mir 5/12/2003 18:07",
+	"instvars" : [
+		 ],
+	"name" : "TelnetProtocolError",
+	"pools" : [
+		 ],
+	"super" : "ProtocolClientError",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

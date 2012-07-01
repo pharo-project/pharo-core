@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"alpha" : "gvc 3/26/2007 16:57",
+		"alpha:" : "gvc 8/9/2007 12:51",
+		"drawOn:" : "StephaneDucasse 3/24/2010 17:12",
+		"initWithContents:font:emphasis:" : "gvc 8/9/2007 12:52",
+		"initialize" : "gvc 8/9/2007 12:52",
+		"measureContents" : "gvc 5/29/2007 17:02",
+		"offset" : "gvc 3/16/2007 10:45",
+		"offset:" : "gvc 8/9/2007 13:06",
+		"setWidth:" : "gvc 5/29/2007 17:22" } }

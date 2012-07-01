@@ -1,0 +1,17 @@
+{
+	"category" : "FileSystem-Tests-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"source",
+		"dest" ],
+	"name" : "CopyVisitorTest",
+	"pools" : [
+		 ],
+	"super" : "FileSystemTreeTest",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

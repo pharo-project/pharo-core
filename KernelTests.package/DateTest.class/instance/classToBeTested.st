@@ -1,0 +1,4 @@
+Coverage
+classToBeTested
+
+	^ self dateClass

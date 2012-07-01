@@ -1,0 +1,16 @@
+{
+	"category" : "NECompletion-Model",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "NECClassVarTypeGuesser",
+	"pools" : [
+		 ],
+	"super" : "NECVarTypeGuesser",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

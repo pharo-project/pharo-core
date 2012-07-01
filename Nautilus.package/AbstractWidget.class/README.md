@@ -1,0 +1,1 @@
+AbstractWidget is an abstraction for the different widget which could be used to compose the Nautilus UI

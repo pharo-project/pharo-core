@@ -1,0 +1,16 @@
+{
+	"category" : "Polymorph-Widgets-Themes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"windowActiveDropShadowStyle" ],
+	"name" : "UIThemeWatery2",
+	"pools" : [
+		 ],
+	"super" : "UIThemeWatery",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

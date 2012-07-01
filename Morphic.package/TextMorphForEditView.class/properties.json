@@ -1,0 +1,20 @@
+{
+	"category" : "Morphic-Text Support",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "AlainPlantec 2/21/2011 17:43",
+	"instvars" : [
+		"editView",
+		"acceptOnCR",
+		"autoAccept",
+		"acceptOnFocusChange",
+		"selectionColor" ],
+	"name" : "TextMorphForEditView",
+	"pools" : [
+		 ],
+	"super" : "TextMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

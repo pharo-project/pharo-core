@@ -1,0 +1,22 @@
+{
+	"category" : "Spec-Widgets-PolyWidgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"methodHolder",
+		"browseModel",
+		"sendersModel",
+		"implementorsModel",
+		"versionModel",
+		"dropListModel",
+		"model" ],
+	"name" : "MethodToolbar",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

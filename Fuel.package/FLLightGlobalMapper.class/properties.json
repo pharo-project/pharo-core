@@ -1,0 +1,16 @@
+{
+	"category" : "Fuel-Mappers",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"globals" ],
+	"name" : "FLLightGlobalMapper",
+	"pools" : [
+		 ],
+	"super" : "FLMapper",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

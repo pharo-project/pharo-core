@@ -1,0 +1,16 @@
+{
+	"category" : "Kernel-Processes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "mvl 3/13/2007 13:55",
+	"instvars" : [
+		 ],
+	"name" : "DynamicVariable",
+	"pools" : [
+		 ],
+	"super" : "ProcessSpecificVariable",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

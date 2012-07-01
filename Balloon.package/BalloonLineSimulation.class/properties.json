@@ -1,0 +1,22 @@
+{
+	"category" : "Balloon-Simulation",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"start",
+		"end",
+		"xIncrement",
+		"xDirection",
+		"error",
+		"errorAdjUp",
+		"errorAdjDown" ],
+	"name" : "BalloonLineSimulation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+For local files, we do not read the entire contents unless we absolutely have to.

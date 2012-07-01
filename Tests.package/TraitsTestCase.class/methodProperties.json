@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"isUnitTest" : "JorgeRessia 3/16/2010 20:38",
+		"resources" : "CamilloBruni 4/27/2012 13:20" },
+	"instance" : {
+		"assertPrints:like:" : "al 12/16/2003 22:16",
+		"c1" : "dvf 8/30/2005 11:44",
+		"c2" : "dvf 8/30/2005 11:44",
+		"c3" : "dvf 8/30/2005 11:44",
+		"c4" : "dvf 8/30/2005 11:44",
+		"c5" : "dvf 8/30/2005 11:44",
+		"c6" : "dvf 8/30/2005 11:44",
+		"c7" : "dvf 8/30/2005 11:44",
+		"c8" : "dvf 8/30/2005 11:44",
+		"categoryName" : "al 4/25/2004 16:31",
+		"createClassNamed:superclass:uses:" : "dvf 8/30/2005 14:44",
+		"createTraitNamed:uses:" : "dvf 8/30/2005 14:44",
+		"createdClassesAndTraits" : "dvf 8/30/2005 14:44",
+		"resourceClassesAndTraits" : "dvf 8/30/2005 14:49",
+		"setUp" : "StephaneDucasse 6/2/2012 22:09",
+		"t1" : "dvf 8/30/2005 11:44",
+		"t2" : "dvf 8/30/2005 11:44",
+		"t3" : "dvf 8/30/2005 11:45",
+		"t4" : "dvf 8/30/2005 11:45",
+		"t5" : "dvf 8/30/2005 11:45",
+		"t6" : "dvf 8/30/2005 11:45",
+		"tearDown" : "StephaneDucasse 6/2/2012 22:09" } }

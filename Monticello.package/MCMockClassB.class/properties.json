@@ -1,0 +1,16 @@
+{
+	"category" : "Monticello-Mocks",
+	"classinstvars" : [
+		"ciVar" ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"CVar" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ivarb" ],
+	"name" : "MCMockClassB",
+	"pools" : [
+		"MCMockAPoolDictionary" ],
+	"super" : "MCMock",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

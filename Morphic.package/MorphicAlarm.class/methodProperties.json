@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"scheduledAt:receiver:selector:arguments:" : "ar 9/11/2000 16:44" },
+	"instance" : {
+		"scheduledTime" : "ar 9/11/2000 16:44",
+		"scheduledTime:" : "ar 9/11/2000 16:45",
+		"value:" : "GuillermoPolito 9/1/2010 18:45" } }

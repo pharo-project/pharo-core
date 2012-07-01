@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"defaultWarningLimit" : "",
+		"defaultWarningLimit:" : "",
+		"example" : "",
+		"getText" : "",
+		"ignoredCharacters" : "",
+		"resetDefaultWarningLimit" : "",
+		"textSizeOf:" : "" },
+	"instance" : {
+		"alertLimit" : "",
+		"alertLimit:" : "",
+		"backgroundColorFor:" : "BenjaminVanRyseghem 3/20/2012 17:41",
+		"basicColor" : "",
+		"basicWidth" : "BenjaminVanRyseghem 3/20/2012 16:46",
+		"buildRectFrom:" : "BenjaminVanRyseghem 3/20/2012 17:30",
+		"drawOn:" : "BenjaminVanRyseghem 3/20/2012 17:38",
+		"fillStyle2" : "BenjaminVanRyseghem 3/20/2012 16:04",
+		"stringColor" : "",
+		"textSize" : "",
+		"warningLimit" : "",
+		"warningLimit:" : "" } }

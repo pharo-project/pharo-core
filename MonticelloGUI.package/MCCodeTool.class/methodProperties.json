@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"showAnnotationPane" : "AlainPlantec 12/1/2009 21:42",
+		"showAnnotationPane:" : "AlainPlantec 12/1/2009 21:43" },
+	"instance" : {
+		"adoptMessageInCurrentChangeset" : "marcus.denker 11/10/2008 10:04",
+		"annotations" : "nk 11/10/2003 22:01",
+		"browseMessages" : "nk 11/10/2003 21:26",
+		"browseMethodFull" : "IgorStasenko 3/6/2011 18:55",
+		"browseSendersOfMessages" : "nk 11/10/2003 20:54",
+		"browseVersions" : "IgorStasenko 3/6/2011 18:54",
+		"classHierarchy" : "MarcusDenker 2/16/2010 16:30",
+		"classListMenu:" : "MarcusDenker 5/7/2012 15:13",
+		"copySelector" : "stephaneducasse 2/4/2006 20:47",
+		"fileOutMessage" : "StephaneDucasse 7/11/2010 23:05",
+		"findMethodInChangeSets" : "IgorStasenko 3/6/2011 18:55",
+		"methodHierarchy" : "nk 7/30/2004 17:56",
+		"methodListKey:from:" : "MarcusDenker 5/7/2012 15:13",
+		"methodListMenu:" : "MarcusDenker 5/7/2012 15:13",
+		"openSingleMessageBrowser" : "StephaneDucasse 8/21/2011 17:51",
+		"removeFromCurrentChanges" : "nk 11/10/2003 21:00",
+		"selectedClass" : "nk 11/10/2003 22:02",
+		"selectedClassOrMetaClass" : "nk 11/10/2003 22:02",
+		"selectedMessageCategoryName" : "nk 11/10/2003 22:02",
+		"selectedMessageName" : "nk 11/10/2003 22:02" } }

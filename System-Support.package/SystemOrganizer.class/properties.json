@@ -1,0 +1,16 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"environment" ],
+	"name" : "SystemOrganizer",
+	"pools" : [
+		 ],
+	"super" : "Categorizer",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

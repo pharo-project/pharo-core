@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"shouldInheritSelectors" : "LucFabresse 10/24/2010 22:06" },
+	"instance" : {
+		"createSystemNavigationToTest" : "LucFabresse 10/24/2010 18:23",
+		"testAllReferencesToPool" : "MarcusDenker 4/18/2011 12:38",
+		"testEnsureDefaultEnvironmentNotUsed" : "LucFabresse 10/29/2010 08:25" } }

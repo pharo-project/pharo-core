@@ -1,0 +1,18 @@
+{
+	"category" : "Morphic-Borders",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "kfr 10/27/2003 10:17",
+	"instvars" : [
+		"baseColor",
+		"color",
+		"width" ],
+	"name" : "SimpleBorder",
+	"pools" : [
+		 ],
+	"super" : "BorderStyle",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

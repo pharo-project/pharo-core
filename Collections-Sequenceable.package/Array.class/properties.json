@@ -1,0 +1,16 @@
+{
+	"category" : "Collections-Sequenceable",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "Array",
+	"pools" : [
+		 ],
+	"super" : "ArrayedCollection",
+	"traitcomposition" : "{}",
+	"type" : "variable" }

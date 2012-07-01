@@ -1,0 +1,3 @@
+constants
+noGrowDocProc
+	^4

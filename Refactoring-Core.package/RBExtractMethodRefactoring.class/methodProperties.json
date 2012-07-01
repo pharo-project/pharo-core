@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"extract:from:in:" : "",
+		"model:extract:from:in:" : "" },
+	"instance" : {
+		"checkAssignments:" : "",
+		"checkReturn" : "",
+		"checkSelfReturns" : "lr 11/2/2009 00:14",
+		"checkSingleAssignment:" : "lr 11/2/2009 00:14",
+		"checkSpecialExtractions" : "",
+		"checkTemporaries" : "",
+		"createTemporariesInExtractedMethodFor:" : "",
+		"existingSelector" : "bh 5/10/2000 21:58",
+		"extract:from:in:" : "",
+		"extractMethod" : "lr 11/2/2009 00:14",
+		"getExtractedSource" : "",
+		"getNewMethodName" : "",
+		"isMethodEquivalentTo:" : "",
+		"isParseTreeEquivalentTo:" : "",
+		"methodDelimiter" : "",
+		"nameNewMethod:" : "lr 11/23/2009 11:00",
+		"placeholderNode" : "lr 11/2/2009 00:14",
+		"preconditions" : "",
+		"remainingTemporaries" : "",
+		"reorderParametersToMatch:" : "",
+		"storeOn:" : "",
+		"transform" : "lr 11/1/2009 23:04" } }

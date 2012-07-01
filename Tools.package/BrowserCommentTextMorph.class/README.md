@@ -1,0 +1,1 @@
+I am a PluggableTextMorph that knows enough to make myself invisible when necessary.

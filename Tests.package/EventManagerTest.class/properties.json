@@ -1,0 +1,18 @@
+{
+	"category" : "Tests-Object Events",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"eventSource",
+		"eventListener",
+		"succeeded" ],
+	"name" : "EventManagerTest",
+	"pools" : [
+		 ],
+	"super" : "ClassTestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

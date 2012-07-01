@@ -1,0 +1,16 @@
+{
+	"category" : "AST-Core-Pattern",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "md 8/9/2005 14:56",
+	"instvars" : [
+		"valueBlock" ],
+	"name" : "RBPatternBlockNode",
+	"pools" : [
+		 ],
+	"super" : "RBBlockNode",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Polymorph-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "gvc 5/18/2007 12:30",
+	"instvars" : [
+		 ],
+	"name" : "PluggableMorphListMorph",
+	"pools" : [
+		 ],
+	"super" : "PluggableListMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,17 @@
+{
+	"category" : "Files-Directories",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"DefaultDirectory",
+		"DirectoryClass" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"pathName" ],
+	"name" : "FileDirectory",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testOneGigAllocation" : "StephaneDucasse 4/23/2010 16:11",
+		"testOneMegAllocation" : "StephaneDucasse 4/23/2010 16:12",
+		"testOutOfMemorySignal" : "MarcusDenker 8/20/2011 13:38" } }

@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"backgroundImage:layout:" : "FernandoOlivero 4/12/2011 10:11",
+		"backgroundMorph" : "gvc 2/3/2010 17:59",
+		"backgroundMorph:" : "AlainPlantec 5/13/2011 09:16",
+		"currentWindow" : "gvc 4/18/2007 16:14",
+		"handlerForMouseDown:" : "gvc 1/12/2007 17:06",
+		"isWindowActive:" : "GaryChambers 6/10/2011 12:02",
+		"modalLockTo:" : "CamilloBruni 2/16/2012 11:52",
+		"modalUnlockFrom:" : "gvc 1/12/2007 17:01",
+		"navigateVisibleWindowForward" : "StephaneDucasse 3/10/2011 15:32",
+		"navigateWindowBackward" : "MarcusDenker 12/11/2009 07:41",
+		"navigateWindowForward" : "MarcusDenker 12/11/2009 07:42",
+		"navigationKey:" : "BenjaminVanRyseghem 9/26/2011 03:51",
+		"nextVisibleWindow" : "gvc 5/29/2008 10:59",
+		"nextWindow" : "gvc 4/18/2007 16:18",
+		"openModal:" : "gvc 12/11/2007 16:53",
+		"previousWindow" : "gvc 4/18/2007 16:18",
+		"resizeBackgroundMorph" : "gvc 2/3/2010 17:59",
+		"systemWindows" : "gvc 4/18/2007 14:36",
+		"themeChanged" : "MarcusDenker 4/29/2011 00:37",
+		"visibleSystemWindows" : "gvc 5/29/2008 11:00" } }

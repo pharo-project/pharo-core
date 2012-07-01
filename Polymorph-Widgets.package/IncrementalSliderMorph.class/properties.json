@@ -1,0 +1,19 @@
+{
+	"category" : "Polymorph-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sliderMorph",
+		"getValueSelector",
+		"setValueSelector",
+		"getEnabledSelector" ],
+	"name" : "IncrementalSliderMorph",
+	"pools" : [
+		 ],
+	"super" : "MorphicModel",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,17 @@
+{
+	"category" : "Monticello-Mocks",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"CVar",
+		"InitializationOrder" ],
+	"commentStamp" : "cwp 8/10/2003 16:43",
+	"instvars" : [
+		"ivar" ],
+	"name" : "MCMockClassA",
+	"pools" : [
+		 ],
+	"super" : "MCMock",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

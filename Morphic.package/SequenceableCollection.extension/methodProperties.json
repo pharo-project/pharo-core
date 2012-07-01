@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"asCubic" : "jannik.laval 5/1/2010 16:25",
+		"assertSlopesWith:from:to:" : "StephaneDucasse 6/5/2011 16:16",
+		"changeInSlopes:" : "StephaneDucasse 6/5/2011 16:17",
+		"changeOfChangesInSlopes:" : "StephaneDucasse 6/5/2011 16:17",
+		"closedCubicSlopes" : "StephaneDucasse 6/5/2011 16:18",
+		"closedCubicSlopes:" : "StephaneDucasse 6/5/2011 16:18",
+		"closedFillinList" : "StephaneDucasse 6/5/2011 16:19",
+		"cubicPointPolynomialAt:" : "StephaneDucasse 6/5/2011 16:19",
+		"detectIndex:" : "BenjaminVanRyseghem 2/12/2012 15:14",
+		"detectIndex:ifNone:" : "BenjaminVanRyseghem 2/12/2012 15:14",
+		"naturalCubicSlopes" : "StephaneDucasse 6/5/2011 16:20",
+		"naturalCubicSlopes:" : "StephaneDucasse 6/5/2011 16:20",
+		"naturalFillinList" : "StephaneDucasse 6/5/2011 16:21",
+		"nilTransitions" : "StephaneDucasse 6/5/2011 16:21",
+		"segmentedSlopes" : "StephaneDucasse 6/5/2011 16:21",
+		"slopesWith:from:to:" : "StephaneDucasse 6/5/2011 16:21" } }

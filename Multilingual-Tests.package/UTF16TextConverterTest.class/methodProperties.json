@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:isTheSameAfterLittleEndianConversion:" : "HenrikSperreJohansen 8/9/2010 16:25",
+		"assertBOMIsWrittenWithOrder:andConversion:" : "HenrikSperreJohansen 8/9/2010 15:58",
+		"testBOMWrite" : "HenrikSperreJohansen 8/9/2010 16:19",
+		"testByteOrders" : "HenrikSperreJohansen 8/9/2010 16:26",
+		"testNoBOMWriteInMiddleOfFile" : "HenrikSperreJohansen 8/9/2010 16:43" } }

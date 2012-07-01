@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"add:font:icon:help:subMenu:" : "gvc 3/29/2007 15:31",
+		"adoptPaneColor:" : "gvc 9/25/2006 13:37",
+		"extent:" : "gvc 7/30/2007 14:24",
+		"mouseDown:" : "gvc 2/26/2010 11:19",
+		"originalColor" : "gvc 4/26/2007 15:27",
+		"updatePosition" : "gvc 11/14/2006 15:37",
+		"wantsYellowButtonMenu" : "AlainPlantec 12/18/2009 22:32" } }

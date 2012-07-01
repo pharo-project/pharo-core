@@ -1,0 +1,3 @@
+*Morphic
+hasModelYellowButtonMenuItems
+	^Morph cmdGesturesEnabled

@@ -1,0 +1,16 @@
+{
+	"category" : "Graphics-Files",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "PluginBasedJPEGReadWriter",
+	"pools" : [
+		 ],
+	"super" : "ImageReadWriter",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

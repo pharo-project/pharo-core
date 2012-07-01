@@ -1,0 +1,27 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"atEnd:" : "cwp 7/20/2009 17:26",
+		"close:" : "cwp 7/20/2009 17:27",
+		"createDirectory:" : "cwp 11/17/2009 16:26",
+		"decode:" : "lr 7/13/2010 14:10",
+		"deleteDirectory:" : "cwp 7/20/2009 17:21",
+		"deleteFile:" : "cwp 7/20/2009 17:22",
+		"delimiter" : "cwp 10/11/2009 11:02",
+		"encode:" : "lr 7/13/2010 14:11",
+		"flush:" : "lr 3/21/2010 12:10",
+		"getMacFile:type:creator:" : "cwp 7/20/2009 17:23",
+		"getPosition:" : "cwp 7/20/2009 17:27",
+		"imageFile" : "cwp 10/11/2009 11:02",
+		"lookupDirectory:filename:" : "CamilloBruni 1/17/2012 17:09",
+		"lookupEntryIn:index:" : "cwp 7/20/2009 17:24",
+		"open:writable:" : "cwp 7/20/2009 17:27",
+		"read:into:startingAt:count:" : "cwp 7/20/2009 17:28",
+		"rename:to:" : "cwp 7/20/2009 17:24",
+		"setMacFileNamed:type:creator:" : "cwp 7/20/2009 17:25",
+		"setPosition:to:" : "cwp 7/20/2009 17:30",
+		"size:" : "cwp 7/20/2009 17:30",
+		"sizeOrNil:" : "cwp 7/22/2009 07:10",
+		"truncate:to:" : "cwp 7/20/2009 17:33",
+		"write:from:startingAt:count:" : "cwp 7/20/2009 17:33" } }

@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"named:" : "BaseSystem 8/30/2009 09:35" },
+	"instance" : {
+		"addDependentToHierachy:" : "md 2/22/2006 14:24",
+		"addTest:" : "BaseSystem 8/30/2009 09:35",
+		"addTests:" : "BaseSystem 8/30/2009 09:35",
+		"announceTest:" : "SantiagoBragagnolo 4/30/2012 14:25",
+		"debug" : "SantiagoBragagnolo 4/30/2012 14:22",
+		"defaultResources" : "BaseSystem 8/30/2009 09:35",
+		"name" : "BaseSystem 8/30/2009 09:35",
+		"name:" : "BaseSystem 8/30/2009 09:35",
+		"removeDependentFromHierachy:" : "md 2/22/2006 14:24",
+		"resourceClass" : "StephaneDucasse 10/2/2010 16:29",
+		"resources" : "BaseSystem 8/30/2009 09:35",
+		"resources:" : "BaseSystem 8/30/2009 09:35",
+		"resultClass" : "StephaneDucasse 6/9/2012 22:49",
+		"run" : "SantiagoBragagnolo 4/29/2012 20:58",
+		"run:" : "SantiagoBragagnolo 4/30/2012 14:22",
+		"setUp" : "",
+		"subscribe:do:" : "SantiagoBragagnolo 4/30/2012 14:21",
+		"tearDown" : "SantiagoBragagnolo 4/29/2012 20:54",
+		"testSuiteAnnouncer" : "GuillermoPolito 4/30/2012 20:31",
+		"tests" : "BaseSystem 8/30/2009 09:35",
+		"unsubscribe:" : "SantiagoBragagnolo 4/30/2012 14:43" } }

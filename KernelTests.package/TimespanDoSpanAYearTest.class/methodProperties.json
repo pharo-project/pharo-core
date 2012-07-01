@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "brp 9/26/2004 18:59",
+		"testMonthsDo" : "brp 1/16/2004 13:55",
+		"testNext" : "brp 1/16/2004 13:55",
+		"testWeeksDo" : "brp 9/26/2004 19:06",
+		"testYearsDo" : "nk 3/30/2004 11:08" } }

@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"menuCommandOn:" : "IgorStasenko 3/6/2011 18:48",
+		"open" : "sw 3/24/1999 17:50",
+		"patchworkUIThemeColor" : "AlainPlantec 12/16/2009 22:08",
+		"registerToolsOn:" : "IgorStasenko 2/19/2011 03:02",
+		"theme" : "FernandoOlivero 4/12/2011 09:50" },
+	"instance" : {
+		"isLeftSide:" : "",
+		"labelString" : "StephaneDucasse 3/30/2010 22:50",
+		"leftCngSorter" : "JuanVuletich 10/21/2010 17:35",
+		"modelWakeUp" : "gvc 1/23/2009 16:31",
+		"morphicWindow" : "IgorStasenko 3/6/2011 18:50",
+		"okToChange" : "di 5/20/1998 21:44",
+		"open" : "alain.plantec 5/30/2008 13:00",
+		"openAsMorph" : "JuanVuletich 10/21/2010 17:08",
+		"other:" : "",
+		"release" : "",
+		"rightCngSorter" : "JuanVuletich 10/21/2010 17:36",
+		"setDefaultChangeSorters" : "IgorStasenko 3/6/2011 18:49" } }

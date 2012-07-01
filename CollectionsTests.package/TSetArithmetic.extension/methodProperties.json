@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"anotherElementOrAssociationIn" : "delaunay 4/29/2009 11:52",
+		"anotherElementOrAssociationNotIn" : "delaunay 4/29/2009 11:54",
+		"collection" : "AlexandreBergel 1/19/2009 18:28",
+		"collectionClass" : "delaunay 4/21/2009 16:25",
+		"containsAll:of:andOf:" : "stephane.ducasse 11/21/2008 17:17",
+		"nonEmpty" : "AlexandreBergel 1/19/2009 18:28",
+		"numberOfSimilarElementsInIntersection" : "delaunay 4/29/2009 11:52",
+		"test0FixtureSetAritmeticTest" : "delaunay 5/4/2009 14:00",
+		"testDifference" : "CamilloBruni 9/9/2011 12:10",
+		"testDifferenceWithNonNullIntersection" : "delaunay 4/29/2009 11:54",
+		"testDifferenceWithSeparateCollection" : "CamilloBruni 9/9/2011 12:10",
+		"testIntersectionBasic" : "delaunay 4/29/2009 11:59",
+		"testIntersectionEmpty" : "delaunay 4/29/2009 11:44",
+		"testIntersectionItself" : "CamilloBruni 9/9/2011 12:11",
+		"testIntersectionTwoSimilarElementsInIntersection" : "delaunay 4/29/2009 11:59",
+		"testUnion" : "stephane.ducasse 11/21/2008 17:26",
+		"testUnionOfEmpties" : "stephane.ducasse 11/21/2008 17:09" } }

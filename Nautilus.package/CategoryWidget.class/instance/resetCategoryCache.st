@@ -1,0 +1,4 @@
+protocol
+resetCategoryCache
+
+	categories := nil

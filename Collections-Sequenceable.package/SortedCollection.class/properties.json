@@ -1,0 +1,16 @@
+{
+	"category" : "Collections-Sequenceable",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"sortBlock" ],
+	"name" : "SortedCollection",
+	"pools" : [
+		 ],
+	"super" : "OrderedCollection",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

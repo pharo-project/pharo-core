@@ -1,0 +1,4 @@
+conversion
+asTimeStamp
+
+	^ start asTimeStamp

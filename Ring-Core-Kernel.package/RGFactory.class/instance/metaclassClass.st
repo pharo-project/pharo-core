@@ -1,0 +1,4 @@
+class factory
+metaclassClass
+
+	^RGMetaclassDefinition

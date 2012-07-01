@@ -1,0 +1,17 @@
+{
+	"category" : "Shout-Styling",
+	"classinstvars" : [
+		"enabled" ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"CustomStyleTable",
+		"Groups" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SHPreferences",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

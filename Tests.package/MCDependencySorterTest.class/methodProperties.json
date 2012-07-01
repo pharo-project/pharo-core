@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"isUnitTest" : "JorgeRessia 3/16/2010 20:26" },
+	"instance" : {
+		"assertItems:orderAs:withRequired:toLoad:" : "avi 10/7/2004 22:32",
+		"assertItems:orderAs:withRequired:toLoad:extraProvisions:" : "stephaneducasse 2/4/2006 20:47",
+		"itemWithSpec:" : "ab 5/24/2003 14:08",
+		"testCascadingUnresolved" : "ab 5/25/2003 01:11",
+		"testCycle" : "ab 5/25/2003 01:11",
+		"testExtraProvisions" : "avi 10/7/2004 22:35",
+		"testMultiRequirementOrdering" : "ab 5/25/2003 01:11",
+		"testSimpleOrdering" : "ab 5/25/2003 01:11",
+		"testSimpleUnresolved" : "ab 5/25/2003 01:12",
+		"testUnusedAlternateProvider" : "avi 10/7/2004 22:12" } }

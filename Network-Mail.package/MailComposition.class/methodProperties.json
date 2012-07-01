@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"initialize" : "dvf 5/11/2002 00:40",
+		"sendMailMessage:" : "dvf 5/11/2002 01:25",
+		"unload" : "dvf 5/11/2002 00:40" },
+	"instance" : {
+		"addAttachment" : "abc 5/11/2012 13:28",
+		"breakLines:atWidth:" : "nice 1/5/2010 15:59",
+		"breakLinesInMessage:" : "ls 2/10/2001 14:08",
+		"menuGet:shifted:" : "tbn 7/29/2010 22:08",
+		"messageText" : "yo 7/26/2004 22:06",
+		"messageText:" : "yo 7/26/2004 22:47",
+		"open" : "alain.plantec 5/30/2008 13:43",
+		"openInMorphic" : "alain.plantec 6/10/2008 22:30",
+		"sendMailMessage:" : "dvf 5/11/2002 01:23",
+		"smtpServer" : "dvf 5/11/2002 00:24",
+		"submit" : "alain.plantec 6/19/2008 09:45" } }

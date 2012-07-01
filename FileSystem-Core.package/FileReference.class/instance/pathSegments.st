@@ -1,0 +1,3 @@
+accessing
+pathSegments
+	^ path segments

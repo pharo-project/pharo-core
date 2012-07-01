@@ -1,0 +1,21 @@
+{
+	"category" : "Refactoring-Core-Refactorings",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sourceInterval",
+		"inlineParseTree",
+		"sourceParseTree",
+		"sourceSelector",
+		"sourceMessage",
+		"inlineClass" ],
+	"name" : "RBInlineMethodRefactoring",
+	"pools" : [
+		 ],
+	"super" : "RBMethodRefactoring",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

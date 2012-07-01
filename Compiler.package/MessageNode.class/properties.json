@@ -1,0 +1,31 @@
+{
+	"category" : "Compiler-ParseNodes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"MacroEmitters",
+		"MacroPrinters",
+		"MacroSelectors",
+		"MacroSizers",
+		"MacroTransformers",
+		"StdTypers",
+		"ThenFlag" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"receiver",
+		"selector",
+		"precedence",
+		"special",
+		"arguments",
+		"sizes",
+		"equalNode",
+		"caseErrorNode",
+		"originalSelector",
+		"originalArguments" ],
+	"name" : "MessageNode",
+	"pools" : [
+		 ],
+	"super" : "ParseNode",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

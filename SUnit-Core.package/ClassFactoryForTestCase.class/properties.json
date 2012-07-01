@@ -1,0 +1,16 @@
+{
+	"category" : "SUnit-Core-Extensions",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "LaurentLaffont 4/15/2011 20:20",
+	"instvars" : [
+		"createdClasses" ],
+	"name" : "ClassFactoryForTestCase",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

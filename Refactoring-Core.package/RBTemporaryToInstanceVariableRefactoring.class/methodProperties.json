@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"class:selector:variable:" : "",
+		"model:class:selector:variable:" : "" },
+	"instance" : {
+		"checkForValidTemporaryVariable" : "",
+		"class:selector:variable:" : "",
+		"preconditions" : "",
+		"storeOn:" : "",
+		"transform" : "lr 11/2/2009 00:14" } }

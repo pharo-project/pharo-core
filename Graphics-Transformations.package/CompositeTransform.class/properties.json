@@ -1,0 +1,17 @@
+{
+	"category" : "Graphics-Transformations",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"globalTransform",
+		"localTransform" ],
+	"name" : "CompositeTransform",
+	"pools" : [
+		 ],
+	"super" : "DisplayTransform",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

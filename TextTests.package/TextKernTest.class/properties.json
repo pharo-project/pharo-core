@@ -1,0 +1,16 @@
+{
+	"category" : "TextTests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TextKernTest",
+	"pools" : [
+		 ],
+	"super" : "HashAndEqualsTestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

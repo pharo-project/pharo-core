@@ -1,0 +1,4 @@
+accessing
+originalIndex
+
+	^self subclassResponsibility

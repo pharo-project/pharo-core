@@ -1,0 +1,16 @@
+{
+	"category" : "Nautilus-MorphTreeWidget-Extension",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "IdentityMorphTreeMorph",
+	"pools" : [
+		 ],
+	"super" : "MorphTreeMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

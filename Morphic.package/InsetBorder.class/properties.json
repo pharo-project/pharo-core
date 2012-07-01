@@ -1,0 +1,16 @@
+{
+	"category" : "Morphic-Borders",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "kfr 10/27/2003 09:32",
+	"instvars" : [
+		 ],
+	"name" : "InsetBorder",
+	"pools" : [
+		 ],
+	"super" : "SimpleBorder",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

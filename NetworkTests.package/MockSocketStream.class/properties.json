@@ -1,0 +1,18 @@
+{
+	"category" : "NetworkTests-Kernel",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"atEnd",
+		"inStream",
+		"outStream" ],
+	"name" : "MockSocketStream",
+	"pools" : [
+		 ],
+	"super" : "Stream",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

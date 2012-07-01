@@ -1,0 +1,20 @@
+{
+	"category" : "MonticelloGUI",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"categorySelection",
+		"classSelection",
+		"protocolSelection",
+		"methodSelection",
+		"switch" ],
+	"name" : "MCSnapshotBrowser",
+	"pools" : [
+		 ],
+	"super" : "MCCodeTool",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

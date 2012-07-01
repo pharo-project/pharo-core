@@ -1,0 +1,16 @@
+{
+	"category" : "Collections-Atomic",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "Igor.Stasenko 10/16/2010 03:54",
+	"instvars" : [
+		 ],
+	"name" : "AtomicCollection",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

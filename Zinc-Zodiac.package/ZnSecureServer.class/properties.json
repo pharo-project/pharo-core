@@ -1,0 +1,16 @@
+{
+	"category" : "Zinc-Zodiac",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "SvenVanCaekenberghe 12/13/2011 13:26",
+	"instvars" : [
+		"certificate" ],
+	"name" : "ZnSecureServer",
+	"pools" : [
+		 ],
+	"super" : "ZnMultiThreadedServer",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

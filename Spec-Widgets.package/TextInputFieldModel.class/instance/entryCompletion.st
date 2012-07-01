@@ -1,0 +1,4 @@
+accessing
+entryCompletion
+
+	^ entryCompletion contents

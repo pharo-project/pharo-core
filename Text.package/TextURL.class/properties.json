@@ -1,0 +1,16 @@
+{
+	"category" : "Text-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"url" ],
+	"name" : "TextURL",
+	"pools" : [
+		 ],
+	"super" : "TextAction",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

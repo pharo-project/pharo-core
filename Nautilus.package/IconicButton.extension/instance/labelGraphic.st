@@ -1,0 +1,4 @@
+*Nautilus
+labelGraphic
+
+		^ graphicalMorph image

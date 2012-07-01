@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"dispatchDefault:with:" : "ar 10/10/2000 01:20",
+		"dispatchDropEvent:with:" : "ar 10/10/2000 21:13",
+		"dispatchEvent:with:" : "tbn 3/12/2010 01:53",
+		"dispatchMouseDown:with:" : "ar 10/10/2000 21:14",
+		"dispatchWindowEvent:with:" : "tbn 3/12/2010 01:53" } }

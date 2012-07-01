@@ -1,0 +1,5 @@
+accessing
+hasContents
+
+	^item hasContentsInExplorer
+	

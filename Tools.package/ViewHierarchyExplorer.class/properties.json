@@ -1,0 +1,16 @@
+{
+	"category" : "Tools-Explorer",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "SW 5/22/2009 12:30",
+	"instvars" : [
+		 ],
+	"name" : "ViewHierarchyExplorer",
+	"pools" : [
+		 ],
+	"super" : "ObjectExplorer",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

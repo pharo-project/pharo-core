@@ -1,0 +1,4 @@
+class factory
+instanceVariableClass
+
+	^RGInstanceVariableDefinition

@@ -1,0 +1,3 @@
+constants
+overlayWindowClass
+	^14

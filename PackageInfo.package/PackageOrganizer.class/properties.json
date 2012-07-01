@@ -1,0 +1,16 @@
+{
+	"category" : "PackageInfo-Base",
+	"classinstvars" : [
+		"default" ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"packages" ],
+	"name" : "PackageOrganizer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

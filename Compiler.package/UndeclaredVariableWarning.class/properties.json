@@ -1,0 +1,18 @@
+{
+	"category" : "Compiler-Support",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"selector",
+		"class" ],
+	"name" : "UndeclaredVariableWarning",
+	"pools" : [
+		 ],
+	"super" : "Warning",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"&" : "",
+		"check" : "",
+		"errorBlock" : "",
+		"errorBlockFor:" : "",
+		"errorMacro" : "",
+		"errorMacro:" : "",
+		"errorString" : "",
+		"errorStringFor:" : "",
+		"not" : "",
+		"|" : "" } }

@@ -1,0 +1,3 @@
+traits
+classesComposedWithMe
+	^{self}

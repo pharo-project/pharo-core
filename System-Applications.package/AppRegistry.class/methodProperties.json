@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"appName" : "ads 3/29/2003 13:36",
+		"askForDefault" : "StephaneDucasse 1/28/2011 15:16",
+		"askForNewDefaultOnNextRequest" : "SeanDeNigris 9/15/2010 01:24",
+		"chooseApp:" : "StephaneDucasse 1/28/2011 15:16",
+		"cleanUp" : "StephaneDucasse 3/9/2010 16:16",
+		"default" : "ads 3/29/2003 13:11",
+		"default:" : "BenjaminVanRyseghem 2/24/2012 15:51",
+		"defaultOrNil" : "nk 3/9/2004 12:35",
+		"register:" : "SeanDeNigris 9/15/2010 01:25",
+		"registeredClasses" : "ads 3/29/2003 13:01",
+		"removeObsolete" : "StephaneDucasse 1/30/2011 21:35",
+		"reset" : "StephaneDucasse 1/30/2011 21:38",
+		"unregister:" : "ads 3/29/2003 13:03" },
+	"instance" : {
+		"seeClassSide" : "ads 4/2/2003 15:04" } }

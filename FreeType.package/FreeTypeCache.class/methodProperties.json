@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"cleanUp" : "MarcusDenker 4/22/2011 10:32",
+		"clearCacheOnShutdown" : "tween 8/10/2006 15:44",
+		"clearCurrent" : "tween 8/10/2006 15:33",
+		"current" : "tween 8/10/2006 17:03",
+		"defaultMaximumSize" : "tween 8/10/2006 09:30",
+		"initialize" : "tween 8/10/2006 15:45",
+		"shutDown:" : "tween 8/10/2006 15:45" },
+	"instance" : {
+		"atFont:charCode:type:" : "tween 8/10/2006 19:34",
+		"atFont:charCode:type:ifAbsentPut:" : "tween 8/10/2006 21:20",
+		"atFont:charCode:type:put:" : "tween 8/10/2006 21:20",
+		"cacheSize" : "AlainPlantec 11/26/2009 21:58",
+		"cacheSize:" : "AlainPlantec 11/26/2009 21:59",
+		"dictionaryClass" : "tween 8/10/2006 13:20",
+		"fifoClass" : "tween 8/10/2006 19:03",
+		"fifoEntryClass" : "tween 8/10/2006 13:22",
+		"initialize" : "alain.plantec 5/28/2009 09:54",
+		"maximumSize" : "AlainPlantec 11/13/2009 14:46",
+		"maximumSize:" : "tween 8/10/2006 12:56",
+		"removeAll" : "tween 8/10/2006 13:40",
+		"removeAllForFont:" : "nice 1/5/2010 15:59",
+		"removeAllForType:" : "nice 1/5/2010 15:59",
+		"report" : "tween 8/10/2006 13:46",
+		"shrinkTo:" : "tween 9/29/2007 20:10",
+		"sizeOf:" : "tween 8/10/2006 15:14" } }

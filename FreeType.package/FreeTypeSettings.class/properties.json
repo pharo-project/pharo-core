@@ -1,0 +1,29 @@
+{
+	"category" : "FreeType-Settings",
+	"classinstvars" : [
+		"current" ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"UpdateFontsAtImageStartup" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"gamma",
+		"hinting",
+		"lightHinting",
+		"subPixelAntiAliasing",
+		"forceAutoHinting",
+		"lcdHinting",
+		"lcdvHinting",
+		"monoHinting",
+		"bitBltSubPixelAvailable",
+		"subPixelFilters",
+		"forceNonSubPixelCount",
+		"gammaTable",
+		"gammaInverseTable" ],
+	"name" : "FreeTypeSettings",
+	"pools" : [
+		"FT2Constants",
+		"FreeTypeCacheConstants" ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"clearExternalObjects" : "HenrikSperreJohansen 8/18/2011 10:18",
+		"collectionBasedOn:withRoomFor:" : "HenrikSperreJohansen 8/18/2011 10:33",
+		"externalObjects" : "HenrikSperreJohansen 8/18/2011 10:42",
+		"freedSlotsIn:ratherThanIncreaseSizeTo:" : "StephaneDucasse 11/20/2011 15:32",
+		"initialize" : "HenrikSperreJohansen 8/17/2011 14:54",
+		"registerExternalObject:" : "HenrikSperreJohansen 8/17/2011 14:55",
+		"safelyRegisterExternalObject:" : "HenrikSperreJohansen 8/18/2011 10:24",
+		"safelyUnregisterExternalObject:" : "HenrikSperreJohansen 7/15/2011 15:30",
+		"slotFor:in:" : "HenrikSperreJohansen 8/18/2011 10:20",
+		"unprotectedExternalObjects" : "HenrikSperreJohansen 8/16/2011 14:45",
+		"unprotectedExternalObjects:" : "HenrikSperreJohansen 8/16/2011 14:45",
+		"unregisterExternalObject:" : "HenrikSperreJohansen 8/17/2011 14:55" },
+	"instance" : {
+		 } }

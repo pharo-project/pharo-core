@@ -1,0 +1,20 @@
+{
+	"category" : "Morphic-Windows",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"ShowHandles" ],
+	"commentStamp" : "jmv 1/29/2006 17:16",
+	"instvars" : [
+		"leftOrTop",
+		"rightOrBottom",
+		"splitsTopAndBottom",
+		"oldColor",
+		"traceMorph" ],
+	"name" : "ProportionalSplitterMorph",
+	"pools" : [
+		 ],
+	"super" : "AbstractResizerMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

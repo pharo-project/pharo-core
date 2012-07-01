@@ -1,0 +1,1 @@
+Test case for some tweaks to the VM that Islands requires.  These tests are largely for documentation; with an un-tweaked VM, the tests mostly still succeed, albeit with possible memory corruption.

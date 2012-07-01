@@ -1,0 +1,23 @@
+{
+	"category" : "Tools-Base",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"LastContents" ],
+	"commentStamp" : "ls 10/14/2003 12:13",
+	"instvars" : [
+		"bindings",
+		"acceptDroppedMorphs",
+		"acceptAction",
+		"mustDeclareVariables",
+		"fileName",
+		"lineEnding",
+		"encoding",
+		"stylingActive" ],
+	"name" : "Workspace",
+	"pools" : [
+		 ],
+	"super" : "StringHolder",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

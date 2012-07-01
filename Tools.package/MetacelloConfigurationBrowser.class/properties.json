@@ -1,0 +1,20 @@
+{
+	"category" : "Tools-ConfigurationBrowser",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "StephaneDucasse 8/10/2010 21:09",
+	"instvars" : [
+		"window",
+		"selectedConfiguration",
+		"trustedTree",
+		"untrustedTree",
+		"selectedRepository" ],
+	"name" : "MetacelloConfigurationBrowser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

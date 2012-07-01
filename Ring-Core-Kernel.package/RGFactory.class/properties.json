@@ -1,0 +1,16 @@
+{
+	"category" : "Ring-Core-Kernel",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"CurrentFactories" ],
+	"commentStamp" : "VeronicaUquillas 5/6/2011 12:39",
+	"instvars" : [
+		 ],
+	"name" : "RGFactory",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

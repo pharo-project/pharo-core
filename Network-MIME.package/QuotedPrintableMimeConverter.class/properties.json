@@ -1,0 +1,16 @@
+{
+	"category" : "Network-MIME",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "QuotedPrintableMimeConverter",
+	"pools" : [
+		 ],
+	"super" : "MimeConverter",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

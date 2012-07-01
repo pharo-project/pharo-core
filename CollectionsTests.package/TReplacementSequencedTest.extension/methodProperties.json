@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"elementInForReplacement" : "delaunay 4/20/2009 15:35",
+		"firstIndex" : "delaunay 4/20/2009 15:38",
+		"newElement" : "delaunay 4/20/2009 15:36",
+		"nonEmpty" : "delaunay 4/6/2009 09:49",
+		"replacementCollection" : "delaunay 4/20/2009 16:19",
+		"replacementCollectionSameSize" : "delaunay 4/20/2009 15:39",
+		"secondIndex" : "delaunay 5/14/2009 16:27",
+		"testOFixtureReplacementSequencedTest" : "delaunay 4/6/2009 10:34",
+		"testReplaceAllWith" : "HenrikSperreJohansen 10/18/2009 19:38",
+		"testReplaceFromToWith" : "Alexandre Bergel 5/22/2010 12:21",
+		"testReplaceFromToWithStartingAt" : "Alexandre Bergel 5/22/2010 12:17" } }

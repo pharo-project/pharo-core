@@ -1,0 +1,3 @@
+accessing
+useTraditionalBinaryPrecedenceForParentheses: aBoolean
+	UseTraditionalBinaryPrecedenceForParentheses := aBoolean

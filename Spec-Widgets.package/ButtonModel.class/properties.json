@@ -1,0 +1,21 @@
+{
+	"category" : "Spec-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"actionHolder",
+		"labelHolder",
+		"stateHolder",
+		"enabledHolder",
+		"actionPerformedHolder",
+		"helpHolder" ],
+	"name" : "ButtonModel",
+	"pools" : [
+		 ],
+	"super" : "AbstractBasicWidget",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

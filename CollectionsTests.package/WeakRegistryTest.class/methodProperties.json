@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"signalMockException" : "IgorStasenko 5/23/2011 13:13",
+		"testFinalization" : "ar 4/6/2010 22:31",
+		"testFinalizationWithBadFinalizer" : "IgorStasenko 5/23/2011 13:33",
+		"testFinalizationWithMultipleFinalizersPerObject" : "ul 2/26/2010 13:59",
+		"testFinalizationWithOnFork" : "IgorStasenko 5/23/2011 13:27",
+		"testGrowingByAHighPriorityProcessDoesntLeak" : "ul 2/26/2010 14:50",
+		"testGrowingDoesntLeak" : "ul 2/26/2010 14:50",
+		"testRemovingByAHighPriorityProcessDoesntLeak" : "ul 2/26/2010 14:50",
+		"testRemovingDoesntLeak" : "ul 2/26/2010 14:46",
+		"testVileFinalizer" : "Igor.Stasenko 10/11/2010 13:32" } }

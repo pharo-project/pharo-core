@@ -1,0 +1,34 @@
+{
+	"category" : "Morphic-Text Support",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"InsertionPointColor" ],
+	"commentStamp" : "AlainPlantec 9/15/2011 16:13",
+	"instvars" : [
+		"text",
+		"textStyle",
+		"firstCharacterIndex",
+		"container",
+		"lines",
+		"positionWhenComposed",
+		"offsetToEnd",
+		"maxRightX",
+		"selectionStart",
+		"selectionStop",
+		"wantsColumnBreaks",
+		"focused",
+		"caretRect",
+		"showCaret",
+		"findReplaceSelectionRegex",
+		"secondarySelection",
+		"extraSelectionBlocks",
+		"refreshExtraSelection",
+		"composer" ],
+	"name" : "Paragraph",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

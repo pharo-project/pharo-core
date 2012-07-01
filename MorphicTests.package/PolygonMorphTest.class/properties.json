@@ -1,0 +1,16 @@
+{
+	"category" : "MorphicTests-Basic",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "nice 2/16/2008 02:13",
+	"instvars" : [
+		 ],
+	"name" : "PolygonMorphTest",
+	"pools" : [
+		 ],
+	"super" : "MorphTest",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

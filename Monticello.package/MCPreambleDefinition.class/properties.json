@@ -1,0 +1,16 @@
+{
+	"category" : "Monticello-Modeling",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MCPreambleDefinition",
+	"pools" : [
+		 ],
+	"super" : "MCScriptDefinition",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Kernel-Chronology",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "TimeStamp",
+	"pools" : [
+		 ],
+	"super" : "DateAndTime",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

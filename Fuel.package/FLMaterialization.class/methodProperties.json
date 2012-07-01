@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"with:" : "MartinDias 1/5/2012 14:29" },
+	"instance" : {
+		"afterMaterializationStep" : "MartinDias 12/29/2011 18:09",
+		"clusterInstancesStep" : "MartinDias 2/17/2012 03:18",
+		"headerStep" : "MartinDias 12/29/2011 18:27",
+		"initializeWith:" : "MartinDias 1/5/2012 14:30",
+		"instancesStep" : "MartinDias 9/9/2011 01:58",
+		"objects" : "MartinDias 12/29/2011 18:12",
+		"referencesStep" : "MartinDias 12/29/2011 18:11",
+		"registerAll:" : "MartinDias 12/29/2011 18:25",
+		"root" : "MartinDias 9/9/2011 01:58",
+		"run" : "MarianoMartinezPeck 9/27/2011 16:50",
+		"trailerStep" : "MartinDias 12/29/2011 18:11" } }

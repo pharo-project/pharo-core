@@ -1,0 +1,26 @@
+{
+	"category" : "Polymorph-Tools-Diff",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"srcText",
+		"dstText",
+		"prettyPrint",
+		"contextClass",
+		"srcMorph",
+		"dstMorph",
+		"scrollbarMorph",
+		"mapMorph",
+		"joinMorph",
+		"difference",
+		"joinMappings" ],
+	"name" : "DiffMorph",
+	"pools" : [
+		 ],
+	"super" : "ComposableMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

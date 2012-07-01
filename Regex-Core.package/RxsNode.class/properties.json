@@ -1,0 +1,16 @@
+{
+	"category" : "Regex-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "Tbn 11/12/2010 23:14",
+	"instvars" : [
+		 ],
+	"name" : "RxsNode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

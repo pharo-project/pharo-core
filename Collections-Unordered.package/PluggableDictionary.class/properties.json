@@ -1,0 +1,17 @@
+{
+	"category" : "Collections-Unordered",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"hashBlock",
+		"equalBlock" ],
+	"name" : "PluggableDictionary",
+	"pools" : [
+		 ],
+	"super" : "Dictionary",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"defaultFontChange" : "PavelKrivanek 10/25/2007 17:48",
+		"font1" : "",
+		"font2" : "",
+		"font3" : "",
+		"font4" : "",
+		"fontNumber:" : "" },
+	"instance" : {
+		"=" : "di 10/31/97 11:15",
+		"dominates:" : "nk 9/3/2004 15:48",
+		"emphasizeScanner:" : "",
+		"fontNumber" : "",
+		"fontNumber:" : "",
+		"forFontInStyle:do:" : "di 11/9/97 17:46",
+		"hash" : "ar 9/9/2003 22:03",
+		"printOn:" : "",
+		"writeScanOn:" : "tk 12/16/97 09:22" } }

@@ -1,0 +1,16 @@
+{
+	"category" : "Polymorph-Widgets-Windows",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "gvc 5/18/2007 12:22",
+	"instvars" : [
+		 ],
+	"name" : "ProceedDialogWindow",
+	"pools" : [
+		 ],
+	"super" : "MessageDialogWindow",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,17 @@
+{
+	"category" : "System-CommandLine",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"commandLine",
+		"stdout" ],
+	"name" : "CommandLineHandler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

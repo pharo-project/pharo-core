@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"accept:" : "eem 9/6/2009 12:33",
+		"analyseTempsWithin:rootNode:assignmentPools:" : "eem 5/30/2008 09:37",
+		"emitCodeForEffect:encoder:" : "eem 6/4/2008 11:27",
+		"emitCodeForValue:encoder:" : "eem 6/4/2008 11:27",
+		"isAssignmentNode" : "eem 6/16/2008 09:37",
+		"printOn:indent:" : "eem 5/6/2008 13:48",
+		"printOn:indent:precedence:" : "eem 5/9/2008 18:44",
+		"printWithClosureAnalysisOn:indent:" : "eem 6/2/2008 11:47",
+		"printWithClosureAnalysisOn:indent:precedence:" : "eem 6/2/2008 11:47",
+		"sizeCodeForEffect:" : "eem 5/20/2008 15:16",
+		"sizeCodeForValue:" : "eem 5/20/2008 15:16",
+		"toDoIncrement:" : "",
+		"value" : "",
+		"variable" : "",
+		"variable:value:" : "",
+		"variable:value:from:" : "di 3/22/1999 12:00",
+		"variable:value:from:sourceRange:" : "hmm 7/15/2001 21:17" } }

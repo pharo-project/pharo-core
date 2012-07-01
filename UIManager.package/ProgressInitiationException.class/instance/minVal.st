@@ -1,0 +1,3 @@
+accessing
+minVal
+	^minVal

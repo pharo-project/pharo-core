@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"*" : "GuillermoPolito 2/18/2011 07:23",
+		"*=" : "ar 9/14/1998 22:49",
+		"+" : "GuillermoPolito 2/18/2011 07:23",
+		"+=" : "ar 9/14/1998 22:48",
+		"-" : "StephaneDucasse 12/24/2011 12:04",
+		"-=" : "ar 9/14/1998 22:49",
+		"/" : "GuillermoPolito 2/18/2011 07:22",
+		"/=" : "ar 10/7/1998 19:58",
+		"\\=" : "yo 9/14/2004 17:12",
+		"adaptToNumber:andSend:" : "nice 11/24/2007 00:10",
+		"dot:" : "laza 3/24/2000 13:07",
+		"negated" : "GuillermoPolito 2/18/2011 07:23" } }

@@ -1,0 +1,24 @@
+{
+	"category" : "Morphic-Text Support",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"left",
+		"right",
+		"top",
+		"bottom",
+		"firstIndex",
+		"lastIndex",
+		"internalSpaces",
+		"paddingWidth",
+		"baseline" ],
+	"name" : "TextLine",
+	"pools" : [
+		"TextConstants" ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

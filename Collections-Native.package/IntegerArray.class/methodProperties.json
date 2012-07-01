@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"asIntegerArray" : "ar 10/10/1998 16:18",
+		"at:" : "ar 3/3/2001 22:40",
+		"at:put:" : "ar 3/3/2001 22:40",
+		"atAllPut:" : "ar 3/3/2001 23:34",
+		"defaultElement" : "ar 11/2/1998 12:19",
+		"primFill:" : "ar 3/3/2001 23:34" } }

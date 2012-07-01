@@ -1,0 +1,18 @@
+{
+	"category" : "Monticello-Repositories",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"hostname",
+		"port",
+		"connection" ],
+	"name" : "MCGOODSRepository",
+	"pools" : [
+		 ],
+	"super" : "MCRepository",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

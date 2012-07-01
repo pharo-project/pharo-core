@@ -1,0 +1,16 @@
+{
+	"category" : "Morphic-MorphTreeWidget",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"lazyIncrement" ],
+	"name" : "LazyMorphTreeMorph",
+	"pools" : [
+		 ],
+	"super" : "MorphTreeMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

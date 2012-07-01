@@ -1,0 +1,3 @@
+running
+fortyTwoBlockClosure
+	^ [ self fortyTwo ] 

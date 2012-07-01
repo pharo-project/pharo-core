@@ -1,0 +1,17 @@
+{
+	"category" : "Collections-Weak",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "mvl 3/18/2007 08:48",
+	"instvars" : [
+		"expired",
+		"finalizer" ],
+	"name" : "WeakKeyDictionary",
+	"pools" : [
+		 ],
+	"super" : "Dictionary",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

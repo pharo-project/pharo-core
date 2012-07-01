@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"compareTallyIn:to:" : "CamilloBruni 5/26/2012 12:35",
+		"computeSpaceUsage" : "MarianoMartinezPeck 10/1/2010 16:24",
+		"preAllocateResultsFor:" : "sd 6/20/2003 22:54",
+		"printSpaceAnalysis" : "stephane.ducasse 8/5/2009 17:07",
+		"printSpaceAnalysis:on:" : "SeanDeNigris 6/21/2012 09:13",
+		"printSpaceDifferenceFrom:to:" : "HenrikSperreJohansen 6/12/2010 02:43",
+		"results" : "sd 6/20/2003 22:31",
+		"saveTo:" : "CamilloBruni 5/26/2012 12:25",
+		"spaceTally:" : "sd 6/20/2003 22:24",
+		"systemWideSpaceTally" : "StephaneDucasse 3/20/2010 14:29" } }

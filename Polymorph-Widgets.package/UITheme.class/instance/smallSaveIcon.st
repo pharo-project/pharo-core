@@ -1,0 +1,3 @@
+icons
+smallSaveIcon
+	^ ThemeIcons smallSaveIcon

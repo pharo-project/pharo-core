@@ -1,0 +1,29 @@
+{
+	"category" : "ScriptLoader20",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"CheckImageInSyncWithUpdate",
+		"CurrentMajorVersionNumber",
+		"CurrentScriptVersionNumber",
+		"CurrentUpdateVersionNumber",
+		"CurrentlyIntegratingChanges",
+		"LogStream",
+		"Repository" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"repository",
+		"inboxRepository",
+		"repository39",
+		"repositorySqueakTrunk",
+		"repository310",
+		"repositoryTaskForces",
+		"repositoryMC",
+		"repositoryTreated" ],
+	"name" : "MetacelloScriptLoader",
+	"pools" : [
+		"TextConstants" ],
+	"super" : "MetacelloLoader",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

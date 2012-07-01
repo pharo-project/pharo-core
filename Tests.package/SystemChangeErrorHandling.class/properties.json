@@ -1,0 +1,16 @@
+{
+	"category" : "Tests-SystemChangeNotification",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "rw 4/3/2006 17:21",
+	"instvars" : [
+		"capturedEvents" ],
+	"name" : "SystemChangeErrorHandling",
+	"pools" : [
+		 ],
+	"super" : "SystemChangeTestRoot",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

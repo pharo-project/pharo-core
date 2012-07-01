@@ -1,0 +1,16 @@
+{
+	"category" : "Files-System",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"files" ],
+	"name" : "SourceFileArray",
+	"pools" : [
+		 ],
+	"super" : "SequenceableCollection",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

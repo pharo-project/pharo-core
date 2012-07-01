@@ -1,0 +1,16 @@
+{
+	"category" : "Refactoring-Spelling",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RBClassCategoriesSpellingRule",
+	"pools" : [
+		 ],
+	"super" : "RBSpellingRule",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

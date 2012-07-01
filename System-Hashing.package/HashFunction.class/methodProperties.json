@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"blockSize" : "len 8/15/2002 01:43",
+		"hashMessage:" : "len 8/2/2002 02:20",
+		"hashSize" : "len 8/9/2002 13:17",
+		"hashStream:" : "len 8/2/2002 02:20" },
+	"instance" : {
+		"blockSize" : "len 8/15/2002 01:43",
+		"doubleHashMessage:" : "cmm 2/20/2006 23:22",
+		"doubleHashStream:" : "cmm 2/20/2006 23:21",
+		"hashMessage:" : "len 8/7/2002 16:30",
+		"hashSize" : "len 8/9/2002 13:17",
+		"hashStream:" : "len 8/2/2002 02:21",
+		"hmac" : "len 8/3/2002 02:42" } }

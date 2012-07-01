@@ -1,0 +1,16 @@
+{
+	"category" : "FileSystem-Tests-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SelectVisitorTest",
+	"pools" : [
+		 ],
+	"super" : "AbstractEnumerationVisitorTest",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

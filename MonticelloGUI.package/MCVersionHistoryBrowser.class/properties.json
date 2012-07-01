@@ -1,0 +1,20 @@
+{
+	"category" : "MonticelloGUI",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ancestry",
+		"index",
+		"repositoryGroup",
+		"package",
+		"infos" ],
+	"name" : "MCVersionHistoryBrowser",
+	"pools" : [
+		 ],
+	"super" : "MCTool",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

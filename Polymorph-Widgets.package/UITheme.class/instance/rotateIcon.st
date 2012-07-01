@@ -1,0 +1,3 @@
+icons
+rotateIcon
+	^ ThemeIcons rotateIcon

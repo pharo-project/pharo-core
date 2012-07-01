@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"interpretNextInstructionUsing:" : "md 4/8/2003 11:35",
+		"popIntoReceiverVariable:" : "RAA 1/5/2001 08:46",
+		"pushReceiverVariable:" : "RAA 1/5/2001 08:46",
+		"storeIntoReceiverVariable:" : "RAA 1/5/2001 08:46" } }

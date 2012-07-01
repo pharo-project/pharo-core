@@ -1,0 +1,19 @@
+{
+	"category" : "NECompletion-View",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"title",
+		"description",
+		"arrowPosition",
+		"label" ],
+	"name" : "NECDetailMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"defaultPosition" : "BenjaminVanRyseghem 3/9/2012 21:40",
+		"description" : "BenjaminVanRyseghem 5/3/2012 09:36",
+		"pluginName" : "BenjaminVanRyseghem 5/2/2012 13:16" },
+	"instance" : {
+		"classSelected:" : "BenjaminVanRyseghem 5/2/2012 11:43",
+		"display" : "BenjaminVanRyseghem 3/9/2012 21:34",
+		"groupSelected:" : "BenjaminVanRyseghem 5/2/2012 11:03",
+		"hFill" : "BenjaminVanRyseghem 3/9/2012 21:46",
+		"initialize" : "BenjaminVanRyseghem 3/9/2012 21:46",
+		"methodSelected:" : "BenjaminVanRyseghem 5/2/2012 11:02",
+		"packageSelected:" : "BenjaminVanRyseghem 5/2/2012 11:02",
+		"protocolSelected:" : "BenjaminVanRyseghem 5/2/2012 11:03",
+		"registerTo:" : "BenjaminVanRyseghem 3/9/2012 21:22",
+		"resetContainer" : "BenjaminVanRyseghem 3/9/2012 21:48",
+		"showGroupsChanged:" : "BenjaminVanRyseghem 3/9/2012 22:11" } }

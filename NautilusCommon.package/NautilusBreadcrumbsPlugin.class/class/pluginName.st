@@ -1,0 +1,4 @@
+information
+pluginName
+
+	^ 'BreadCrumbs'

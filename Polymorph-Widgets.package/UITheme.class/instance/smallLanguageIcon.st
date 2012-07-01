@@ -1,0 +1,3 @@
+icons
+smallLanguageIcon
+	^ ThemeIcons smallLanguageIcon

@@ -1,0 +1,4 @@
+*Morphic-Menus
+morphClass
+
+	^ ToggleMenuItemMorph

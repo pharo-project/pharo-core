@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testComparison" : "StephaneDucasse 11/5/2011 15:35",
+		"testCreation" : "JMM 11/22/2001 17:14",
+		"testCreationEquality" : "JMM 11/22/2001 17:27",
+		"testCreationFromString" : "JMM 11/22/2001 17:17",
+		"testCreationFromString36NotNil" : "StephaneDucasse 8/21/2010 20:54",
+		"testCreationFromString36With0" : "StephaneDucasse 8/21/2010 20:58",
+		"testCreationFromString36WithNillUUID" : "StephaneDucasse 8/21/2010 20:59",
+		"testCreationFromStringNotNil" : "JMM 11/22/2001 17:18",
+		"testCreationNil" : "JMM 11/22/2001 17:16",
+		"testCreationNodeBased" : "nice 1/5/2010 15:59",
+		"testDuplicationsKinda" : "nice 1/5/2010 15:59",
+		"testOrder" : "nice 1/5/2010 15:59",
+		"testUniqueness" : "StephaneDucasse 7/22/2011 18:09" } }

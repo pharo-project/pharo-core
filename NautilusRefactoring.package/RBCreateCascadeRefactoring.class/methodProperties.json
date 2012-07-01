@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"combine:from:in:" : "",
+		"model:combine:from:in:" : "" },
+	"instance" : {
+		"addStatementNode:" : "",
+		"combine:from:in:" : "",
+		"combineMessages" : "",
+		"compileCode" : "",
+		"findReceiverNode" : "",
+		"findSequenceNode" : "",
+		"findStatementNodes" : "",
+		"parseTree" : "",
+		"preconditions" : "",
+		"selectedSource" : "",
+		"transform" : "" } }

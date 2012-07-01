@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"contextWithTempForTesting" : "mada 5/3/2012 18:57" },
+	"instance" : {
+		"privRestartArgBlockTest" : "StephaneDucasse 5/28/2011 14:04",
+		"privRestartBlockArgsNoRemoteTempsTest" : "StephaneDucasse 5/28/2011 14:04",
+		"privRestartBlockTest" : "StephaneDucasse 5/28/2011 14:04",
+		"setUp" : "tlk 5/31/2004 16:18",
+		"testActivateReturnValue" : "tlk 5/30/2004 13:35",
+		"testClosureRestart" : "MarcusDenker 3/8/2012 17:19",
+		"testFindContextSuchThat" : "tlk 5/31/2004 17:10",
+		"testMethodContext" : "StephaneDucasse 1/30/2012 12:13",
+		"testMethodIsBottomContext" : "tlk 5/31/2004 17:08",
+		"testReturn" : "tlk 5/31/2004 16:55",
+		"testSetUp" : "StephaneDucasse 1/30/2012 12:13",
+		"testTempNamed" : "mada 5/3/2012 18:57",
+		"testTempNamedPut" : "md 2/9/2007 19:08" } }

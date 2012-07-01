@@ -1,0 +1,16 @@
+{
+	"category" : "System-Announcements",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ProtocolAdded",
+	"pools" : [
+		 ],
+	"super" : "SystemAnnouncement",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

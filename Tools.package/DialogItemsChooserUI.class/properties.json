@@ -1,0 +1,32 @@
+{
+	"category" : "Tools-Finder",
+	"classinstvars" : [
+		"alreadySearchedSelectedItemsListMaxSize",
+		"alreadySearchedUnselectedItemsListMaxSize" ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"AlreadySearchedSelectedItemsList",
+		"AlreadySearchedUnselectedItemsList" ],
+	"commentStamp" : "BenjaminVanRyseghem 9/17/2010 00:20",
+	"instvars" : [
+		"dialogItemsChooser",
+		"selectedItems",
+		"selectedItemsModel",
+		"unselectedItems",
+		"unselectedItemsModel",
+		"unselectedItemsSearchingString",
+		"selectedItemsSearchingString",
+		"unselectedItemsTextArea",
+		"selectedItemsTextArea",
+		"unselectedSelection",
+		"selectedSelectionIndex",
+		"selectedSelectionList",
+		"unselectedSelectionList",
+		"unselectedSelectionIndex",
+		"selectedItemsList" ],
+	"name" : "DialogItemsChooserUI",
+	"pools" : [
+		 ],
+	"super" : "DialogWindow",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

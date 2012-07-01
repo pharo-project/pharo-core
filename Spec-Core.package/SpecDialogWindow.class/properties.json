@@ -1,0 +1,17 @@
+{
+	"category" : "Spec-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"toolbar",
+		"specWidget" ],
+	"name" : "SpecDialogWindow",
+	"pools" : [
+		 ],
+	"super" : "DialogWindow",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

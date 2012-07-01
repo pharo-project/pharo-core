@@ -1,0 +1,4 @@
+private
+byVersionSelector
+
+	^ #groupedByVersion

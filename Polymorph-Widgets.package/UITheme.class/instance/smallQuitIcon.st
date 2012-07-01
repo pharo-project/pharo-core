@@ -1,0 +1,3 @@
+icons
+smallQuitIcon
+	^ ThemeIcons smallQuitIcon

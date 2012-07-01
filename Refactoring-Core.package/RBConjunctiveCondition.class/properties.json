@@ -1,0 +1,18 @@
+{
+	"category" : "Refactoring-Core-Conditions",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"left",
+		"right",
+		"failed" ],
+	"name" : "RBConjunctiveCondition",
+	"pools" : [
+		 ],
+	"super" : "RBAbstractCondition",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

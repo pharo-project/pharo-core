@@ -1,0 +1,26 @@
+{
+	"category" : "Morphic-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "marcus.denker 9/14/2008 19:03",
+	"instvars" : [
+		"format",
+		"target",
+		"lastValue",
+		"getSelector",
+		"putSelector",
+		"floatPrecision",
+		"growable",
+		"stepTime",
+		"autoAcceptOnFocusLoss",
+		"minimumWidth",
+		"maximumWidth" ],
+	"name" : "UpdatingStringMorph",
+	"pools" : [
+		"TextConstants" ],
+	"super" : "StringMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

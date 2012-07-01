@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"isUnitTest" : "JorgeRessia 3/16/2010 20:23" },
+	"instance" : {
+		"baseClassName" : "ar 1/4/2004 20:15",
+		"categoryNameForTemporaryClasses" : "Janniklaval 10/23/2010 14:07",
+		"cleanup" : "StephaneDucasse 6/3/2012 22:27",
+		"makeByteVariableSubclassOf:" : "Janniklaval 10/23/2010 12:52",
+		"makeIVarsSubclassOf:" : "Janniklaval 10/23/2010 12:55",
+		"makeNormalSubclassOf:" : "Janniklaval 10/23/2010 12:56",
+		"makeVariableSubclassOf:" : "Janniklaval 10/23/2010 12:56",
+		"makeWeakSubclassOf:" : "Janniklaval 10/23/2010 12:56",
+		"makeWordVariableSubclassOf:" : "Janniklaval 10/23/2010 12:56",
+		"subClassName" : "ar 1/4/2004 20:16",
+		"testByteVariableSubclass" : "Janniklaval 10/23/2010 12:57",
+		"testChangeToVariableSubclass" : "Janniklaval 10/23/2010 12:57",
+		"testDuplicateClassVariableError" : "Janniklaval 10/23/2010 14:43",
+		"testSubclass" : "Janniklaval 10/23/2010 13:33",
+		"testSubclassWithInstanceVariables" : "Janniklaval 10/23/2010 13:34",
+		"testVariableSubclass" : "Janniklaval 10/23/2010 13:34",
+		"testWeakSubclass" : "Janniklaval 10/23/2010 13:34",
+		"testWordVariableSubclass" : "Janniklaval 10/23/2010 13:34" } }

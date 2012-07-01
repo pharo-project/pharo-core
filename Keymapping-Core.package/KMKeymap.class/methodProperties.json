@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"named:shortcut:action:" : "GuillermoPolito 10/18/2011 20:49",
+		"named:shortcut:action:description:" : "GuillermoPolito 4/6/2012 13:27",
+		"shortcut:action:" : "GuillermoPolito 1/21/2012 21:34" },
+	"instance" : {
+		"=" : "MarianoMartinezPeck 5/30/2012 17:12",
+		"action" : "CamilloBruni 3/18/2011 23:11",
+		"action:" : "CamilloBruni 3/18/2011 23:35",
+		"defaultShortcut" : "GuillermoPolito 10/18/2011 20:49",
+		"defaultShortcut:" : "GuillermoPolito 10/18/2011 20:49",
+		"description" : "GuillermoPolito 4/6/2012 13:28",
+		"description:" : "GuillermoPolito 4/6/2012 13:28",
+		"executeActionTargetting:" : "GuillermoPolito 10/20/2011 18:58",
+		"hasName" : "GuillermoPolito 9/12/2011 17:32",
+		"hash" : "GuillermoPolito 9/12/2011 17:49",
+		"key" : "CamilloBruni 3/18/2011 23:11",
+		"matches:" : "GuillermoPolito 10/20/2011 16:45",
+		"matchesCompletely:" : "GuillermoPolito 11/2/2011 22:33",
+		"name" : "CamilloBruni 3/18/2011 23:11",
+		"name:" : "GuillermoPolito 12/26/2010 22:14",
+		"notifyCompleteMatchTo:buffer:" : "GuillermoPolito 10/20/2011 19:11",
+		"notifyPartialMatchTo:" : "GuillermoPolito 10/20/2011 18:56",
+		"onMatchWith:notify:andDo:" : "GuillermoPolito 10/20/2011 19:11",
+		"printOn:" : "GuillermoPolito 5/31/2011 12:50",
+		"shortcut" : "CamilloBruni 3/18/2011 23:11",
+		"shortcut:" : "GuillermoPolito 3/14/2011 02:54",
+		"shortcutHasChangedBy:" : "GuillermoPolito 11/6/2011 10:17" } }

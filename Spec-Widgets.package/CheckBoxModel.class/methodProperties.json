@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"defaultSpec" : "bvr 6/4/2012 14:35",
+		"title" : "" },
+	"instance" : {
+		"actionWhenActivatedHolder" : "",
+		"actionWhenDesactivatedHolder" : "",
+		"activationAction:" : "BenjaminVanRyseghem 6/12/2012 12:19",
+		"click" : "BenjaminVanRyseghem 6/12/2012 13:39",
+		"desactivationAction:" : "BenjaminVanRyseghem 6/12/2012 12:19",
+		"enabled:" : "BenjaminVanRyseghem 6/12/2012 13:39",
+		"enabledHolder" : "",
+		"eventStringForNextFocus" : "StephaneDucasse 5/17/2012 18:17",
+		"eventStringForPreviousFocus" : "StephaneDucasse 5/17/2012 18:18",
+		"initialize" : "BenjaminVanRyseghem 6/7/2012 12:28",
+		"label" : "",
+		"label:" : "BenjaminVanRyseghem 6/12/2012 13:39",
+		"labelClickable" : "BenjaminVanRyseghem 6/12/2012 12:20",
+		"labelClickable:" : "BenjaminVanRyseghem 6/12/2012 12:21",
+		"state" : "",
+		"state:" : "BenjaminVanRyseghem 6/12/2012 13:39",
+		"stateHolder" : "",
+		"toggleState" : "BenjaminVanRyseghem 6/12/2012 12:22",
+		"whenActivatedDo:" : "BenjaminVanRyseghem 6/12/2012 12:24",
+		"whenDesactivatedDo:" : "BenjaminVanRyseghem 6/12/2012 12:24" } }

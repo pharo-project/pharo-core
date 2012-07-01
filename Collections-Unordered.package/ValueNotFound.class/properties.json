@@ -1,0 +1,16 @@
+{
+	"category" : "Collections-Unordered",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "SvenVanCaekenberghe 4/19/2011 19:42",
+	"instvars" : [
+		 ],
+	"name" : "ValueNotFound",
+	"pools" : [
+		 ],
+	"super" : "NotFound",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

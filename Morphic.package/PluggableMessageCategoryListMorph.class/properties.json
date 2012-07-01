@@ -1,0 +1,17 @@
+{
+	"category" : "Morphic-Pluggable Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"getRawListSelector",
+		"priorRawList" ],
+	"name" : "PluggableMessageCategoryListMorph",
+	"pools" : [
+		 ],
+	"super" : "PluggableListMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

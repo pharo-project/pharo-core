@@ -1,0 +1,18 @@
+{
+	"category" : "Keymapping-Pragmas",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"UniqueInstace" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pragmaKeywords",
+		"model",
+		"pragmaCollector" ],
+	"name" : "KMPragmaKeymapBuilder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

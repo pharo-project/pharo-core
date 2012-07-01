@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "StephaneDucasse 1/16/2010 12:53",
+		"testBase64Encoded" : "StephaneDucasse 1/16/2010 12:45",
+		"testDecodeMimeHeader" : "HenrikSperreJohansen 6/25/2012 12:31",
+		"testMimeEncodeDecode" : "StephaneDucasse 1/16/2010 12:54",
+		"testOnByteArray" : "StephaneDucasse 1/16/2010 12:54" } }

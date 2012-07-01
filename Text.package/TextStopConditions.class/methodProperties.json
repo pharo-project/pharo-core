@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"at:" : "nice 3/8/2010 14:01",
+		"at:put:" : "nice 3/8/2010 14:02",
+		"crossedX" : "nice 3/8/2010 14:01",
+		"crossedX:" : "nice 3/8/2010 12:00",
+		"endOfRun" : "nice 3/8/2010 14:01",
+		"endOfRun:" : "nice 3/8/2010 12:00",
+		"initialize" : "nice 3/8/2010 14:31",
+		"postCopy" : "nice 4/17/2009 00:52",
+		"setStops:" : "nice 2/28/2010 19:26",
+		"size" : "nice 3/8/2010 23:20" } }

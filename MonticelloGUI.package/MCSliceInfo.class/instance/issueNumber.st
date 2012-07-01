@@ -1,0 +1,4 @@
+accessing
+issueNumber
+
+	^ issueNumber  ifNil: ['']

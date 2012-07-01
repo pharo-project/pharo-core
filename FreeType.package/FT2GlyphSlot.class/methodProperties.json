@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"fromFace:" : "nk 11/3/2004 17:38" },
+	"instance" : {
+		"advance" : "bf 11/19/2005 17:16",
+		"advanceX" : "nk 11/3/2004 12:11",
+		"advanceY" : "nk 11/3/2004 12:11",
+		"bitmapLeft" : "nk 11/3/2004 12:11",
+		"bitmapTop" : "nk 11/3/2004 12:11",
+		"extent" : "bf 11/20/2005 14:42",
+		"format" : "nk 11/3/2004 12:11",
+		"hBearing" : "bf 11/20/2005 14:56",
+		"hBearingX" : "bf 11/20/2005 14:52",
+		"hBearingY" : "bf 11/20/2005 14:52",
+		"height" : "bf 11/20/2005 14:53",
+		"linearAdvance" : "tween 8/5/2007 11:14",
+		"linearHorizontalAdvance" : "nk 11/3/2004 12:11",
+		"linearVerticalAdvance" : "nk 11/3/2004 12:11",
+		"loadFrom:" : "StephaneDucasse 3/17/2010 20:56",
+		"outline" : "MichaelRueger 12/16/2009 15:10",
+		"outline:" : "MichaelRueger 12/16/2009 15:00",
+		"primLoadFrom:" : "nk 11/3/2004 17:58",
+		"roundedPixelLinearAdvance" : "tween 3/11/2007 08:56",
+		"width" : "bf 11/20/2005 14:53" } }

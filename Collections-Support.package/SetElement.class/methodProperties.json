@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"initialize" : "Igor.Stasenko 11/13/2009 05:55",
+		"with:" : "Igor.Stasenko 11/13/2009 05:53",
+		"withNil" : "Igor.Stasenko 11/13/2009 05:56" },
+	"instance" : {
+		"=" : "Igor.Stasenko 11/13/2009 05:51",
+		"asSetElement" : "Igor.Stasenko 11/13/2009 06:29",
+		"enclosedSetElement" : "Igor.Stasenko 11/13/2009 05:49",
+		"enclosedSetElement:" : "Igor.Stasenko 11/13/2009 05:49",
+		"hash" : "Igor.Stasenko 11/13/2009 05:52" } }

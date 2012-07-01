@@ -1,0 +1,32 @@
+{
+	"category" : "FreeType-FontManager",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"index",
+		"familyName",
+		"styleName",
+		"postscriptName",
+		"bold",
+		"italic",
+		"fixedWidth",
+		"numFaces",
+		"familyGroupName",
+		"slant",
+		"slantValue",
+		"weight",
+		"stretch",
+		"weightValue",
+		"stretchValue",
+		"styleNameExtracted",
+		"upright" ],
+	"name" : "FreeTypeFileInfoAbstract",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "AST-Core-Nodes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"token" ],
+	"name" : "RBLiteralValueNode",
+	"pools" : [
+		 ],
+	"super" : "RBLiteralNode",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

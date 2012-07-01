@@ -1,0 +1,20 @@
+{
+	"category" : "Refactoring-Changes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"superclassName",
+		"instanceVariableNames",
+		"classVariableNames",
+		"poolDictionaryNames",
+		"category" ],
+	"name" : "RBAddClassChange",
+	"pools" : [
+		 ],
+	"super" : "RBRefactoryDefinitionChange",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

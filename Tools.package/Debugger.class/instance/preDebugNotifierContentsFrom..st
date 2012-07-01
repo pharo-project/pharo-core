@@ -1,0 +1,5 @@
+initialize
+preDebugNotifierContentsFrom: messageString
+
+	^ messageString
+		

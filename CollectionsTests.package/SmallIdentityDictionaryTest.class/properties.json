@@ -1,0 +1,16 @@
+{
+	"category" : "CollectionsTests-Unordered",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SmallIdentityDictionaryTest",
+	"pools" : [
+		 ],
+	"super" : "SmallDictionaryTest",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

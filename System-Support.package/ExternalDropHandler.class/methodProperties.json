@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"chooseServiceFrom:" : "",
+		"defaultGZipHandler" : "",
+		"defaultHandler" : "",
+		"defaultHandler:" : "",
+		"defaultImageHandler" : "",
+		"initialize" : "",
+		"lookupExternalDropHandler:" : "CamilloBruni 5/4/2012 21:26",
+		"lookupServiceBasedHandler:" : "CamilloBruni 5/23/2012 16:55",
+		"registerHandler:" : "",
+		"registerStandardExternalDropHandlers" : "",
+		"registeredHandlers" : "",
+		"resetRegisteredHandlers" : "",
+		"type:extension:action:" : "",
+		"unwantedSelectors" : "" },
+	"instance" : {
+		"extension" : "",
+		"handle:in:dropEvent:" : "",
+		"matchesExtension:" : "CamilloBruni 5/7/2012 01:19",
+		"matchesTypes:" : "",
+		"type" : "",
+		"type:extension:action:" : "" } }

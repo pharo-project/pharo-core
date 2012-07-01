@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"getPreambleFrom:at:" : "StephaneDucasse 8/1/2011 19:34",
+		"protocolAt:" : "VeronicaUquillas 8/2/2011 11:12",
+		"protocolAt:for:" : "VeronicaUquillas 9/1/2011 00:09",
+		"sourceCodeAt:" : "StephaneDucasse 8/1/2011 19:34",
+		"sourceDataPointers" : "StephaneDucasse 8/1/2011 21:45",
+		"sourcedDataAt:" : "StephaneDucasse 8/1/2011 19:34",
+		"timeStampAt:" : "StephaneDucasse 8/1/2011 19:37",
+		"timeStampAt:for:" : "StephaneDucasse 8/1/2011 21:48" } }

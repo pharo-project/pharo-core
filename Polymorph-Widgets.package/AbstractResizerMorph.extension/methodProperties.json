@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"adoptPaneColor:" : "gvc 3/27/2008 21:34",
+		"handlesMouseOver:" : "jrp 7/5/2005 21:37",
+		"mouseEnter:" : "gvc 5/13/2008 10:36",
+		"mouseLeave:" : "gvc 5/13/2008 10:36",
+		"mouseUp:" : "gvc 3/12/2007 10:59",
+		"shouldDraw" : "gvc 5/13/2008 10:20",
+		"shouldInvalidateOnMouseTransition" : "gvc 5/13/2008 10:35" } }

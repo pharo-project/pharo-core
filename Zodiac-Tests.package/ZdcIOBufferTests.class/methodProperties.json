@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAdvanceReadPointer" : "SvenVanCaekenberghe 5/17/2011 19:28",
+		"testAdvanceWritePointer" : "SvenVanCaekenberghe 5/17/2011 19:28",
+		"testCompact" : "SvenVanCaekenberghe 5/17/2011 19:28",
+		"testCompactAtBeginning" : "SvenVanCaekenberghe 5/17/2011 19:28",
+		"testCompactAtEnd" : "SvenVanCaekenberghe 5/17/2011 19:28",
+		"testCompactDoNothing" : "SvenVanCaekenberghe 5/17/2011 19:28",
+		"testReading" : "SvenVanCaekenberghe 5/17/2011 19:29",
+		"testString" : "SvenVanCaekenberghe 5/17/2011 19:28",
+		"testWriting" : "SvenVanCaekenberghe 5/17/2011 19:28" } }

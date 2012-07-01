@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"applyChanges" : "MarcusDenker 12/11/2009 07:41",
+		"applyChangesSelector" : "gvc 2/12/2007 12:56",
+		"applyChangesSelector:" : "gvc 2/12/2007 12:56",
+		"buttons" : "gvc 8/8/2007 14:02",
+		"buttons:" : "gvc 8/8/2007 14:02",
+		"contentMorph" : "gvc 2/9/2007 13:34",
+		"contentMorph:" : "gvc 2/9/2007 13:34",
+		"defaultFocusMorph" : "AlainPlantec 10/9/2011 15:01",
+		"defaultFocusMorph:" : "AlainPlantec 10/9/2011 15:01",
+		"initialize" : "gvc 8/8/2007 14:03",
+		"newButtons" : "gvc 8/8/2007 14:02",
+		"newContentMorph" : "AlainPlantec 10/9/2011 14:26",
+		"statusValue" : "jrd 12/1/2008 23:56",
+		"statusValue:" : "jrd 12/1/2008 23:56",
+		"useDefaultOKButton" : "gvc 8/8/2007 14:05",
+		"useDefaultOKCancelButton" : "gvc 8/8/2007 14:06",
+		"useOKDefaultCancelButton" : "gvc 8/8/2007 14:06" } }

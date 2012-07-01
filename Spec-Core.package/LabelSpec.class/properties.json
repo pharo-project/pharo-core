@@ -1,0 +1,16 @@
+{
+	"category" : "Spec-Core-Specs",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "LabelSpec",
+	"pools" : [
+		 ],
+	"super" : "AbstractSpec",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

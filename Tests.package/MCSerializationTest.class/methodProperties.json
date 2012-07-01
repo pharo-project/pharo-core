@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertClass:providesServices:" : "IgorStasenko 4/15/2011 17:17",
+		"assertDependenciesMatchWith:" : "stephaneducasse 2/4/2006 20:47",
+		"assertExtensionProvidedBy:" : "cwp 8/1/2003 14:57",
+		"assertSnapshotsMatchWith:" : "stephaneducasse 2/4/2006 20:47",
+		"assertVersionInfosMatchWith:" : "stephaneducasse 2/4/2006 20:47",
+		"assertVersionsMatchWith:" : "stephaneducasse 2/4/2006 20:47",
+		"mockDiffyVersion" : "stephaneducasse 2/4/2006 20:47",
+		"testMcdSerialization" : "stephaneducasse 2/4/2006 20:47",
+		"testMczSerialization" : "avi 1/19/2004 15:14",
+		"testStSerialization" : "cwp 8/3/2003 18:43" } }

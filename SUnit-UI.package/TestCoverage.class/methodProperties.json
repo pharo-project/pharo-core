@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"on:" : "lr 3/30/2009 15:23" },
+	"instance" : {
+		"doesNotUnderstand:" : "lr 3/30/2009 20:26",
+		"flushCache" : "StephaneDucasse 8/9/2011 17:51",
+		"hasRun" : "lr 3/30/2009 15:09",
+		"initializeOn:" : "lr 3/30/2009 15:19",
+		"install" : "StephaneDucasse 8/9/2011 17:51",
+		"mark" : "lr 3/30/2009 15:21",
+		"reference" : "lr 3/30/2009 15:27",
+		"run:with:in:" : "lr 3/30/2009 15:32",
+		"uninstall" : "StephaneDucasse 8/9/2011 17:51" } }

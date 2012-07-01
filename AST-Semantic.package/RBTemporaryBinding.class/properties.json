@@ -1,0 +1,16 @@
+{
+	"category" : "AST-Semantic-Binding",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RBTemporaryBinding",
+	"pools" : [
+		 ],
+	"super" : "RBLocalBinding",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

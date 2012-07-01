@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addModelItemsToWindowMenu:" : "tbn 7/6/2010 16:35",
+		"offerUnshiftedChangeSetMenu" : "sw 3/12/2001 14:07",
+		"openAsMorphIn:rect:" : "sd 11/20/2005 21:26",
+		"shiftedChangeSetMenu:" : "StephaneDucasse 1/16/2010 11:11",
+		"wantsOptionalButtons" : "sw 3/9/2001 15:02" } }

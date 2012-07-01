@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"accept:" : "eem 9/6/2009 12:34",
+		"emitCodeForStore:encoder:" : "eem 5/14/2008 18:08",
+		"emitCodeForStorePop:encoder:" : "eem 5/15/2008 10:05",
+		"emitCodeForValue:encoder:" : "eem 5/14/2008 18:08",
+		"name:index:" : "eem 5/13/2008 10:17",
+		"sizeCodeForStore:" : "eem 5/14/2008 17:57",
+		"sizeCodeForStorePop:" : "eem 5/14/2008 18:07",
+		"sizeCodeForValue:" : "eem 5/14/2008 17:53" } }

@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"analyzeSpaceSaving" : "JB 11/26/2010 16:37",
+		"atAllPut:" : "JB 11/26/2010 16:37",
+		"initChunkSize:size:arrayClass:base:defaultValue:" : "JB 11/26/2010 16:37",
+		"noCheckAt:" : "JB 11/26/2010 16:38",
+		"noCheckAt:put:" : "JB 11/26/2010 16:38" } }

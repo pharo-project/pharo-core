@@ -1,0 +1,4 @@
+protocol
+cancelled
+
+	^ cancelled contents

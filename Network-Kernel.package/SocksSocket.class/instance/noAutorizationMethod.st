@@ -1,0 +1,3 @@
+methods
+noAutorizationMethod
+	^0

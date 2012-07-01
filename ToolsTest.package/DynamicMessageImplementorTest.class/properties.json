@@ -1,0 +1,16 @@
+{
+	"category" : "ToolsTest-Debugger",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"instVar" ],
+	"name" : "DynamicMessageImplementorTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

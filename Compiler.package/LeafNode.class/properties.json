@@ -1,0 +1,18 @@
+{
+	"category" : "Compiler-ParseNodes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"key",
+		"code",
+		"index" ],
+	"name" : "LeafNode",
+	"pools" : [
+		 ],
+	"super" : "ParseNode",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

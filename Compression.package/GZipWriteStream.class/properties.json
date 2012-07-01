@@ -1,0 +1,16 @@
+{
+	"category" : "Compression-Streams",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GZipWriteStream",
+	"pools" : [
+		"GZipConstants" ],
+	"super" : "ZipWriteStream",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

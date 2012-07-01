@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"class:" : "" },
+	"instance" : {
+		"addToEntries:" : "",
+		"at:" : "",
+		"completionAt:" : "",
+		"entries" : "",
+		"entriesOfType:" : "",
+		"entryCount" : "",
+		"hasMessage" : "",
+		"initialize" : "",
+		"initializeSelectors" : "",
+		"isEmpty" : "",
+		"message" : "",
+		"narrowString:" : "",
+		"narrowWith:" : "",
+		"notEmpty" : "",
+		"reset" : "",
+		"resetEntries" : "",
+		"resetSelectors" : "",
+		"setClass:" : "",
+		"theClass" : "",
+		"title" : "",
+		"toggleExpand" : "" } }

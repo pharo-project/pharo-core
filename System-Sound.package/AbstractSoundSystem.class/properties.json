@@ -1,0 +1,17 @@
+{
+	"category" : "System-Sound",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"SoundEnabled",
+		"SoundQuickStart" ],
+	"commentStamp" : "AlainPlantec 1/7/2010 21:36",
+	"instvars" : [
+		 ],
+	"name" : "AbstractSoundSystem",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

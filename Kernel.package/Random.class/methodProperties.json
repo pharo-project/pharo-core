@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"bucketTest:" : "nice 1/5/2010 15:59",
+		"seed:" : "nk 7/30/2004 21:51",
+		"theItsCompletelyBrokenTest" : "" },
+	"instance" : {
+		"initialize" : "alain.plantec 5/28/2009 10:17",
+		"next" : "sma 5/12/2000 12:25",
+		"next:" : "sma 5/12/2000 12:45",
+		"next:into:" : "sma 5/12/2000 12:46",
+		"nextInt:" : "gvc 1/31/2007 13:52",
+		"nextValue" : "sma 5/12/2000 12:28",
+		"seed" : "sma 5/12/2000 12:43",
+		"seed:" : "sma 5/12/2000 12:29" } }

@@ -1,0 +1,17 @@
+{
+	"category" : "RPackage-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"oldName",
+		"newName" ],
+	"name" : "RPackageRenamed",
+	"pools" : [
+		 ],
+	"super" : "RPackageAnnouncement",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

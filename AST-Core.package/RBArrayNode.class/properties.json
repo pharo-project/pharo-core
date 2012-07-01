@@ -1,0 +1,19 @@
+{
+	"category" : "AST-Core-Nodes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"left",
+		"right",
+		"statements",
+		"periods" ],
+	"name" : "RBArrayNode",
+	"pools" : [
+		 ],
+	"super" : "RBValueNode",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

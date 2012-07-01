@@ -1,0 +1,37 @@
+{
+	"category" : "Morphic-Pluggable Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"UseGradientLook" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"model",
+		"label",
+		"getStateSelector",
+		"actionSelector",
+		"getLabelSelector",
+		"getMenuSelector",
+		"shortcutCharacter",
+		"askBeforeChanging",
+		"triggerOnMouseDown",
+		"offColor",
+		"onColor",
+		"feedbackColor",
+		"showSelectionFeedback",
+		"allButtons",
+		"arguments",
+		"argumentsProvider",
+		"argumentsSelector",
+		"gradientLook",
+		"enabled",
+		"actionBlock",
+		"getColorSelector",
+		"getEnabledSelector" ],
+	"name" : "PluggableButtonMorph",
+	"pools" : [
+		 ],
+	"super" : "AlignmentMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,18 @@
+{
+	"category" : "SUnit-Tests-Core",
+	"classinstvars" : [
+		"preventAvailability" ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"runningState",
+		"hasRun",
+		"hasSetup" ],
+	"name" : "SimpleTestResource",
+	"pools" : [
+		 ],
+	"super" : "TestResource",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

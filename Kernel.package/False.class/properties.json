@@ -1,0 +1,16 @@
+{
+	"category" : "Kernel-Objects",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "False",
+	"pools" : [
+		 ],
+	"super" : "Boolean",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

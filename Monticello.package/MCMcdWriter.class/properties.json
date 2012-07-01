@@ -1,0 +1,16 @@
+{
+	"category" : "Monticello-Storing",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MCMcdWriter",
+	"pools" : [
+		 ],
+	"super" : "MCMczWriter",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

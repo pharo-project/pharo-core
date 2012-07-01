@@ -1,0 +1,17 @@
+{
+	"category" : "TrueType-Fonts",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"TTCDefault",
+		"TTCDescriptions" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TTCFontDescription",
+	"pools" : [
+		"TextConstants" ],
+	"super" : "TTFontDescription",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

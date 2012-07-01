@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"nonEmpty" : "delaunay 4/14/2009 16:30",
+		"test0FixturePrintTest" : "delaunay 4/23/2009 14:11",
+		"testPrintElementsOn" : "delaunay 4/27/2009 10:16",
+		"testPrintNameOn" : "StephaneDucasse 8/19/2010 21:38",
+		"testPrintOn" : "delaunay 4/27/2009 10:17",
+		"testPrintOnDelimiter" : "delaunay 4/27/2009 10:17",
+		"testPrintOnDelimiterLast" : "delaunay 4/27/2009 10:17",
+		"testStoreOn" : "delaunay 5/6/2009 14:26" } }

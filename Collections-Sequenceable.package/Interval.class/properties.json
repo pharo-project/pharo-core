@@ -1,0 +1,18 @@
+{
+	"category" : "Collections-Sequenceable",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"start",
+		"stop",
+		"step" ],
+	"name" : "Interval",
+	"pools" : [
+		 ],
+	"super" : "SequenceableCollection",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

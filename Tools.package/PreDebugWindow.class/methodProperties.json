@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createMethod" : "nk 2/12/2003 23:00",
+		"debug" : "sw 10/15/1998 13:00",
+		"proceed" : "sw 10/15/1998 13:00",
+		"setBalloonTextForCloseBox" : "tbn 7/29/2010 21:30",
+		"setLabelWidgetAllowance" : "AlainPlantec 12/1/2009 22:50",
+		"storeLog" : "mir 11/10/2003 15:15" } }

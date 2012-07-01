@@ -1,0 +1,27 @@
+{
+	"category" : "NECompletion-Model",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"source",
+		"position",
+		"theClass",
+		"ranges",
+		"completionIndex",
+		"recurseCount",
+		"receiverClass",
+		"completionToken",
+		"model",
+		"controller",
+		"variables",
+		"selectors" ],
+	"name" : "NECContext",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

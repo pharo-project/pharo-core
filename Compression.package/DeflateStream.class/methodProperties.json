@@ -1,0 +1,27 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"compare:with:min:" : "ar 12/29/1999 20:24",
+		"deflateBlock" : "ar 12/31/1999 18:00",
+		"deflateBlock:chainLength:goodMatch:" : "jannik.laval 5/1/2010 16:10",
+		"encodeLiteral:" : "ar 12/29/1999 18:04",
+		"encodeMatch:distance:" : "ar 12/29/1999 18:04",
+		"findMatch:lastLength:lastMatch:chainLength:goodMatch:" : "ar 12/29/1999 17:45",
+		"flush" : "ar 12/29/1999 17:30",
+		"flushBlock" : "ar 12/28/1999 17:37",
+		"goodMatchLength" : "ar 12/29/1999 20:00",
+		"hashChainLength" : "ar 12/29/1999 20:00",
+		"initialize" : "alain.plantec 5/28/2009 09:51",
+		"initializeHashTables" : "ar 12/29/1999 17:32",
+		"insertStringAt:" : "ar 12/29/1999 17:46",
+		"moveContentsToFront" : "ar 12/29/1999 17:50",
+		"next:putAll:startingAt:" : "ar 2/19/2004 00:34",
+		"nextPutAll:" : "ar 12/29/1999 17:33",
+		"on:" : "ar 12/29/1999 17:33",
+		"on:from:to:" : "ar 12/28/1999 17:34",
+		"pastEndPut:" : "ar 12/28/1999 17:35",
+		"updateHash:" : "ar 12/29/1999 17:48",
+		"updateHashAt:" : "ar 12/29/1999 17:47",
+		"updateHashTable:delta:" : "ar 2/2/2001 15:47",
+		"validateMatchAt:from:to:" : "ar 12/28/1999 17:43" } }

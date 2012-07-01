@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testDecoratedTextConversionCrLF" : "sd 6/5/2005 10:06",
+		"testDecoratedTextConversionJustLF" : "sd 6/5/2005 10:06",
+		"testDecoratedTextConversionNoLF" : "sd 6/5/2005 10:07",
+		"testSimpleTextConversionCrLF" : "sd 6/5/2005 10:07",
+		"testSimpleTextConversionJustCR" : "sd 6/5/2005 10:07",
+		"testSimpleTextConversionJustLF" : "sd 6/5/2005 10:07",
+		"testStringConversionCrLF" : "sd 6/5/2005 10:07",
+		"testStringConversionJustLF" : "sd 6/5/2005 10:07",
+		"testStringConversionNoLF" : "sd 6/5/2005 10:07" } }

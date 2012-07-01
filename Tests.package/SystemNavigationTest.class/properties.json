@@ -1,0 +1,19 @@
+{
+	"category" : "Tests-System",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "LucFabresse 10/24/2010 20:26",
+	"instvars" : [
+		"classFactory",
+		"navigator",
+		"oldMonticelloAnnouncer",
+		"oldPrivateAnnouncer" ],
+	"name" : "SystemNavigationTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

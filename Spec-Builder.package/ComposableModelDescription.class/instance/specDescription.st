@@ -1,0 +1,4 @@
+accessing
+specDescription
+
+	^ specDescription

@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"onEnvironment:or:" : "lr 11/25/2009 00:51" },
+	"instance" : {
+		"classesDo:" : "lr 11/25/2009 08:25",
+		"includesCategory:" : "lr 11/25/2009 08:26",
+		"includesClass:" : "lr 11/25/2009 00:53",
+		"includesProtocol:in:" : "lr 11/25/2009 00:53",
+		"includesSelector:in:" : "lr 11/25/2009 00:53",
+		"numberSelectors" : "lr 11/25/2009 08:25",
+		"orEnvironment:" : "lr 11/25/2009 00:49",
+		"selectionIntervalFor:" : "lr 11/25/2009 00:54",
+		"selectorsForClass:do:" : "lr 11/25/2009 08:26",
+		"storeOn:" : "lr 11/25/2009 00:51" } }

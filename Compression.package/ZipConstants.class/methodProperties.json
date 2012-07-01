@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"initialize" : "ar 5/18/2003 19:09",
+		"initializeDeflateConstants" : "ar 5/18/2003 19:06",
+		"initializeDistanceCodes" : "ar 5/18/2003 19:08",
+		"initializeExtraBits" : "ar 5/18/2003 19:07",
+		"initializeFixedTrees" : "ar 5/18/2003 19:08",
+		"initializeLengthCodes" : "ar 5/18/2003 19:07",
+		"initializeWriteStreamConstants" : "ar 5/18/2003 19:09" },
+	"instance" : {
+		 } }

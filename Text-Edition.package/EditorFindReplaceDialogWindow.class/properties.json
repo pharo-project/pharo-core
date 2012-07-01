@@ -1,0 +1,18 @@
+{
+	"category" : "Text-Edition",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"Finds",
+		"Replacements",
+		"Singleton" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"state" ],
+	"name" : "EditorFindReplaceDialogWindow",
+	"pools" : [
+		 ],
+	"super" : "DialogWindow",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

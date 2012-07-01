@@ -1,0 +1,16 @@
+{
+	"category" : "Compiler-ParseNodes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "LiteralNode",
+	"pools" : [
+		 ],
+	"super" : "LeafNode",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+attributes
+vmDirectory 
+	^ self directory

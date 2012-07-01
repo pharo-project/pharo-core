@@ -1,0 +1,3 @@
+system startup
+initialize
+	self setDefaultWindowProxyClass

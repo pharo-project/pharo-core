@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"collectionWithoutEqualElements" : "CamilloBruni 9/9/2011 12:12",
+		"empty" : "delaunay 4/16/2009 15:47",
+		"indexInForCollectionWithoutDuplicates" : "delaunay 4/20/2009 14:32",
+		"test0FixtureCopyPartOfSequenceableTest" : "CamilloBruni 9/9/2011 12:10",
+		"testCopyAfter" : "CamilloBruni 9/9/2011 12:10",
+		"testCopyAfterEmpty" : "CamilloBruni 9/9/2011 12:10",
+		"testCopyAfterLast" : "CamilloBruni 9/9/2011 12:10",
+		"testCopyAfterLastEmpty" : "CamilloBruni 9/9/2011 12:10",
+		"testCopyEmptyMethod" : "CamilloBruni 9/9/2011 12:10",
+		"testCopyFromTo" : "CamilloBruni 9/9/2011 12:10",
+		"testCopyUpTo" : "CamilloBruni 9/9/2011 12:10",
+		"testCopyUpToEmpty" : "CamilloBruni 9/9/2011 12:10",
+		"testCopyUpToLast" : "CamilloBruni 9/9/2011 12:10",
+		"testCopyUpToLastEmpty" : "CamilloBruni 9/9/2011 12:10" } }

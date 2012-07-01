@@ -1,0 +1,16 @@
+{
+	"category" : "GroupManagerUI",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"model" ],
+	"name" : "GroupCreatorTreeModel",
+	"pools" : [
+		 ],
+	"super" : "MorphTreeModel",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

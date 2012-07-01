@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"isDefinition:equivalentTo:" : "dtl 2/19/2005 13:08",
+		"tearDown" : "lr 3/14/2010 21:13",
+		"testAddInstanceVariable" : "lr 3/14/2010 21:13",
+		"testAddInstanceVariableAddsNewChangeRecord" : "lr 3/14/2010 21:13",
+		"testChangeClassCategory" : "lr 3/14/2010 21:13",
+		"testChangeClassCategoryAddsNewChangeRecord" : "lr 3/14/2010 21:13",
+		"testInitialChangeSet" : "wiz 8/13/2006 17:55" } }

@@ -1,0 +1,16 @@
+{
+	"category" : "Tests-Monticello",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"directory" ],
+	"name" : "MCDirectoryRepositoryTest",
+	"pools" : [
+		 ],
+	"super" : "MCRepositoryTest",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

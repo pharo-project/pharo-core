@@ -1,0 +1,1 @@
+A NullObjectSpec is a NullPattern object spec

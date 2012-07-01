@@ -1,0 +1,16 @@
+{
+	"category" : "Gofer-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GoferPush",
+	"pools" : [
+		 ],
+	"super" : "GoferSynchronize",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

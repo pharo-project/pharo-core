@@ -1,0 +1,17 @@
+{
+	"category" : "Fuel-Collections",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"PermutationMap" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"tally",
+		"tallies" ],
+	"name" : "FLLargeIdentityHashedCollection",
+	"pools" : [
+		 ],
+	"super" : "Collection",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Refactoring-Critics-ParseTreeRules",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RBIfTrueBlocksRule",
+	"pools" : [
+		 ],
+	"super" : "RBParseTreeLintRule",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

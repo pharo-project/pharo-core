@@ -1,0 +1,17 @@
+{
+	"category" : "KernelTests-Classes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"Author",
+		"VariableInPoolDefiner2" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PoolDefiner2",
+	"pools" : [
+		 ],
+	"super" : "SharedPool",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

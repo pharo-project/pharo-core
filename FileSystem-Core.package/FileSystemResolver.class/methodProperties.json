@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addResolver:" : "cwp 10/26/2009 20:53",
+		"canResolve:" : "cwp 10/27/2009 11:18",
+		"flushCaches" : "cwp 10/27/2009 10:28",
+		"flushLocalCache" : "cwp 10/27/2009 10:28",
+		"next" : "cwp 10/27/2009 11:25",
+		"resolve:" : "cwp 10/27/2009 11:18",
+		"resolveString:" : "EstebanLorenzano 4/12/2012 14:25",
+		"supportedOrigins" : "cwp 10/26/2009 20:06",
+		"unknownOrigin:" : "cwp 10/27/2009 09:26" } }

@@ -1,0 +1,16 @@
+{
+	"category" : "Kernel-Numbers",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "LargePositiveInteger",
+	"pools" : [
+		 ],
+	"super" : "Integer",
+	"traitcomposition" : "{}",
+	"type" : "bytes" }

@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"model:rename:to:" : "",
+		"rename:to:" : "" },
+	"instance" : {
+		"className:newName:" : "",
+		"preconditions" : "",
+		"renameReferences" : "lr 11/2/2009 00:14",
+		"storeOn:" : "",
+		"transform" : "" } }

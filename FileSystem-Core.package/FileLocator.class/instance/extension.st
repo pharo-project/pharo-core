@@ -1,0 +1,4 @@
+delegated
+extension
+
+	^ path extension.

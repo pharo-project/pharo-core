@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"with:" : "nice 11/11/2009 17:24",
+		"with:with:" : "nice 11/11/2009 17:29",
+		"with:with:with:" : "nice 11/11/2009 17:29",
+		"with:with:with:with:" : "nice 11/11/2009 17:29",
+		"with:with:with:with:with:" : "nice 11/11/2009 17:29",
+		"with:with:with:with:with:with:" : "nice 11/11/2009 17:30",
+		"withAll:" : "nice 11/11/2009 17:29" },
+	"instance" : {
+		"at:" : "nice 11/11/2009 17:19",
+		"at:put:" : "nice 11/11/2009 20:15",
+		"basicReplaceFrom:to:with:startingAt:" : "nice 11/11/2009 17:08",
+		"collect:" : "nice 11/11/2009 20:33",
+		"copyWith:" : "nice 11/11/2009 16:56",
+		"do:" : "nice 11/11/2009 20:36",
+		"first" : "nice 11/11/2009 17:19",
+		"last" : "nice 11/11/2009 17:19",
+		"reverseDo:" : "nice 11/11/2009 17:18",
+		"select:" : "MarcusDenker 8/16/2010 12:51",
+		"size" : "nice 11/11/2009 19:20",
+		"writeStream" : "nice 12/18/2009 11:05" } }

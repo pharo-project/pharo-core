@@ -1,0 +1,3 @@
+constants
+modalWindowClass
+	^3

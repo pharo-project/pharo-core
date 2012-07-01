@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"changeKind" : "rw 7/10/2003 12:09",
+		"class:category:oldName:newName:" : "NS 1/27/2004 12:19",
+		"classCategoryRenamedFrom:to:" : "ab 2/10/2005 16:49",
+		"supportedKinds" : "NS 1/20/2004 12:30" },
+	"instance" : {
+		"isRenamed" : "rw 7/1/2003 11:34",
+		"newName" : "NS 1/27/2004 12:18",
+		"newName:" : "NS 1/27/2004 12:18",
+		"oldName" : "rw 7/1/2003 12:00",
+		"oldName:" : "rw 7/1/2003 12:01",
+		"printEventKindOn:" : "rw 7/1/2003 11:34" } }

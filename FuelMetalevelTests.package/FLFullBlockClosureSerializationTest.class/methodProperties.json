@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"shouldInheritSelectors" : "MartinDias 3/22/2012 20:00" },
+	"instance" : {
+		"setUpSerializer" : "MartinDias 3/21/2012 18:37",
+		"testBlockClosureChangeDifferentBytecodes" : "MartinDias 5/15/2012 12:14",
+		"testBlockClosureChangeSameBytecodes" : "MartinDias 5/15/2012 12:14",
+		"testBlockClosureRemoved" : "MartinDias 5/15/2012 12:14",
+		"testBlockClosureWithNotInstalledMethod" : "MarianoMartinezPeck 4/19/2012 19:12",
+		"testSortedCollectionWithTemporaryVariableReference" : "MartinDias 5/18/2012 18:47",
+		"testSortedCollectionWithTemporaryVariableReferenceChange" : "MartinDias 5/18/2012 18:47" } }

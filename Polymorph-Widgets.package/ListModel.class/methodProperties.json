@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"add:" : "GaryChambers 8/17/2010 16:09",
+		"dragItem:" : "GaryChambers 8/8/2011 16:11",
+		"dropItem:at:" : "GaryChambers 10/17/2011 13:47",
+		"dropWanted:" : "GaryChambers 8/8/2011 16:02",
+		"initialize" : "gvc 8/2/2007 12:14",
+		"list" : "gvc 8/2/2007 12:14",
+		"list:" : "gvc 8/2/2007 12:14",
+		"selectedItem" : "gvc 9/23/2008 11:32",
+		"selectionIndex" : "gvc 8/2/2007 12:14",
+		"selectionIndex:" : "gvc 8/2/2007 12:14" } }

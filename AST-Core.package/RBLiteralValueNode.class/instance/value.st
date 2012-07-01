@@ -1,0 +1,3 @@
+accessing
+value
+	^token realValue

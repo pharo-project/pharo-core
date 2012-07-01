@@ -1,0 +1,16 @@
+{
+	"category" : "KernelTests-Processes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "GiovanniCorriga 8/30/2009 14:56",
+	"instvars" : [
+		 ],
+	"name" : "ProcessTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

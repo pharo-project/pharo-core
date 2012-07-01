@@ -1,0 +1,17 @@
+{
+	"category" : "Morphic-Events",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"startPoint",
+		"trail" ],
+	"name" : "MouseMoveEvent",
+	"pools" : [
+		 ],
+	"super" : "MouseEvent",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

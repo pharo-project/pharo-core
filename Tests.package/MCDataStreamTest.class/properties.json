@@ -1,0 +1,16 @@
+{
+	"category" : "Tests-Monticello",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MCDataStreamTest",
+	"pools" : [
+		 ],
+	"super" : "BaseStreamTest",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

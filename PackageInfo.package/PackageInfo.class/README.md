@@ -1,0 +1,1 @@
+Subclass this class to create new Packages.

@@ -1,0 +1,18 @@
+{
+	"category" : "Spec-Layout",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"fractions",
+		"offsets",
+		"subwidget" ],
+	"name" : "SpecLayoutAddColumn",
+	"pools" : [
+		 ],
+	"super" : "SpecLayoutSend",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

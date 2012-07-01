@@ -1,0 +1,4 @@
+groups
+resetCachedLastClasses
+
+	^ cachedLastClasses := nil

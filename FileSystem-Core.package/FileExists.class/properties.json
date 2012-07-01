@@ -1,0 +1,16 @@
+{
+	"category" : "FileSystem-Core-Kernel",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "cwp 11/18/2009 12:37",
+	"instvars" : [
+		 ],
+	"name" : "FileExists",
+	"pools" : [
+		 ],
+	"super" : "FileSystemError",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

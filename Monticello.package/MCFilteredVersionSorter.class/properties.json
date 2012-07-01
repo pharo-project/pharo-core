@@ -1,0 +1,16 @@
+{
+	"category" : "Monticello-Versioning",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"target" ],
+	"name" : "MCFilteredVersionSorter",
+	"pools" : [
+		 ],
+	"super" : "MCVersionSorter",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

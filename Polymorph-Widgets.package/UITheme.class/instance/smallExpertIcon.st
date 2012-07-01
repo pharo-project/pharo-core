@@ -1,0 +1,3 @@
+icons
+smallExpertIcon
+	^ ThemeIcons smallExpertIcon

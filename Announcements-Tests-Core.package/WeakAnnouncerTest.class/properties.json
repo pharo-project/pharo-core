@@ -1,0 +1,16 @@
+{
+	"category" : "Announcements-Tests-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WeakAnnouncerTest",
+	"pools" : [
+		 ],
+	"super" : "AnnouncerTest",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"empty" : "delaunay 4/9/2009 15:04",
+		"nonEmpty" : "delaunay 4/9/2009 14:58",
+		"test0FixtureBeginsEndsWithTest" : "delaunay 4/9/2009 15:09",
+		"testsBeginsWith" : "HenrikSperreJohansen 10/18/2009 12:21",
+		"testsBeginsWithEmpty" : "delaunay 4/9/2009 15:11",
+		"testsEndsWith" : "StephaneDucasse 3/28/2010 21:03",
+		"testsEndsWithEmpty" : "StephaneDucasse 3/28/2010 21:03" } }

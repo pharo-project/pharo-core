@@ -1,0 +1,17 @@
+{
+	"category" : "Refactoring-Core-Refactorings",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parent",
+		"subclasses" ],
+	"name" : "RBChildrenToSiblingsRefactoring",
+	"pools" : [
+		 ],
+	"super" : "RBClassRefactoring",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

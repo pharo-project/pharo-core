@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"accept:" : "eem 9/6/2009 12:34",
+		"emitCodeForValue:encoder:" : "eem 5/14/2008 16:19",
+		"isConstantNumber" : "",
+		"isLiteral" : "di 4/5/2000 11:13",
+		"isSpecialConstant" : "",
+		"literalValue" : "",
+		"name:key:index:type:" : "eem 5/14/2008 09:30",
+		"printOn:indent:" : "eem 5/6/2008 14:46",
+		"printWithClosureAnalysisOn:indent:" : "eem 6/2/2008 11:47",
+		"sizeCodeForValue:" : "eem 5/14/2008 17:03" } }

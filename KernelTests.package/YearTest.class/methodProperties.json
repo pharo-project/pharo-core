@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"classToBeTested" : "brp 9/11/2003 14:31",
+		"testPreviousInLeapYear" : "StephaneDucasse 3/13/2010 13:31",
+		"testStart" : "StephaneDucasse 3/13/2010 13:30" } }

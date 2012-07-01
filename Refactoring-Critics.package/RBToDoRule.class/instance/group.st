@@ -1,0 +1,3 @@
+accessing
+group
+	^ 'Intention revealing'

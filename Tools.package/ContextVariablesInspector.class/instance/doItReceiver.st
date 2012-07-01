@@ -1,0 +1,4 @@
+code
+doItReceiver
+
+	^object receiver

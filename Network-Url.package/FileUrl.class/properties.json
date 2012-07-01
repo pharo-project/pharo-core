@@ -1,0 +1,18 @@
+{
+	"category" : "Network-Url",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "gk 10/21/2005 10:58",
+	"instvars" : [
+		"host",
+		"path",
+		"isAbsolute" ],
+	"name" : "FileUrl",
+	"pools" : [
+		 ],
+	"super" : "Url",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

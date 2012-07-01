@@ -1,0 +1,3 @@
+accessing
+cascadedMessageInsideParentheses: aBoolean
+	CascadedMessageInsideParentheses := aBoolean

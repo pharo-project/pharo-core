@@ -1,0 +1,16 @@
+{
+	"category" : "Morphic-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MorphListItemWrapper",
+	"pools" : [
+		 ],
+	"super" : "ListItemWrapper",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

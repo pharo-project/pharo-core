@@ -1,0 +1,3 @@
+constants
+closeBoxAttribute
+	^1

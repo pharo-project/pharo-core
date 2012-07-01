@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"new" : "" },
+	"instance" : {
+		"&" : "",
+		"==>" : "stephane.ducasse 5/20/2009 21:28",
+		"and:" : "",
+		"asBit" : "CamilloBruni 3/27/2012 17:20",
+		"deepCopy" : "",
+		"eqv:" : "",
+		"ifFalse:" : "",
+		"ifFalse:ifTrue:" : "",
+		"ifTrue:" : "",
+		"ifTrue:ifFalse:" : "",
+		"isLiteral" : "apb 4/21/2006 09:22",
+		"isSelfEvaluating" : "sd 7/31/2005 21:45",
+		"not" : "",
+		"or:" : "",
+		"shallowCopy" : "",
+		"storeOn:" : "",
+		"veryDeepCopyWith:" : "tk 8/20/1998 16:07",
+		"|" : "" } }

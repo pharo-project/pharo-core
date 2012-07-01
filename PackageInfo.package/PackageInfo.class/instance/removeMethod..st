@@ -1,0 +1,2 @@
+modifying
+removeMethod: aMethodReference

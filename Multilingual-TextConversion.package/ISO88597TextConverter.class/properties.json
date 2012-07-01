@@ -1,0 +1,16 @@
+{
+	"category" : "Multilingual-TextConversion",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"FromTable" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ISO88597TextConverter",
+	"pools" : [
+		 ],
+	"super" : "ByteTextConverter",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

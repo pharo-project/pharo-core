@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"allRules" : "lr 2/23/2009 22:50",
+		"lintChecks" : "lr 2/23/2009 22:48",
+		"rules:" : "lr 2/23/2009 21:55",
+		"rules:name:" : "lr 2/23/2009 21:56",
+		"rulesFor:" : "lr 2/24/2009 17:11",
+		"rulesGroupedFor:" : "lr 2/23/2009 22:44",
+		"transformations" : "lr 2/23/2009 22:48" },
+	"instance" : {
+		"changes" : "lr 2/23/2009 21:09",
+		"checkClass:" : "lr 2/23/2009 21:10",
+		"checkMethod:" : "lr 2/23/2009 21:10",
+		"hasConflicts" : "lr 2/23/2009 21:11",
+		"isComposite" : "lr 2/23/2009 21:11",
+		"isEmpty" : "lr 2/23/2009 21:12",
+		"name" : "lr 2/23/2009 21:32",
+		"name:" : "lr 2/23/2009 21:33",
+		"problemCount" : "lr 2/23/2009 21:11",
+		"resetResult" : "lr 2/23/2009 21:11",
+		"rules" : "lr 2/23/2009 21:11",
+		"rules:" : "lr 2/23/2009 21:32" } }

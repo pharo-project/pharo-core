@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"rejectClasses" : "MarianoMartinezPeck 4/21/2012 00:13",
+		"rejectRules" : "MarianoMartinezPeck 4/21/2012 00:13",
+		"ruleClassNotReferencedRuleV1FalsePositive" : "MarianoMartinezPeck 4/21/2012 17:25",
+		"ruleCodeCruftLeftInMethodsRuleV1FalsePositive" : "MarianoMartinezPeck 4/21/2012 17:26",
+		"ruleLawOfDemeterRuleV1FalsePositive" : "MarianoMartinezPeck 4/21/2012 17:36",
+		"ruleOnlyReadOrWrittenTemporaryRuleV1TruePositive" : "MarianoMartinezPeck 4/21/2012 18:13" },
+	"instance" : {
+		 } }

@@ -1,0 +1,17 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"ProtectAdd",
+		"ProtectRemove" ],
+	"commentStamp" : "HenrikSperreJohansen 8/18/2011 11:25",
+	"instvars" : [
+		 ],
+	"name" : "ExternalSemaphoreTable",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

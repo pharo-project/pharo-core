@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"keyboardFocusOnMouseDown" : "AlainPlantec 12/10/2009 14:30",
+		"keyboardFocusOnMouseDown:" : "AlainPlantec 12/10/2009 14:32",
+		"mouseOverForKeyboardFocus" : "AlainPlantec 12/10/2009 14:53",
+		"mouseOverForKeyboardFocus:" : "AlainPlantec 12/10/2009 14:53",
+		"patchworkUIThemeColor" : "AlainPlantec 12/16/2009 22:31" },
+	"instance" : {
+		"addCustomMenuItems:hand:" : "dgd 8/30/2003 21:53",
+		"closeToEdits" : "di 6/20/97 15:36",
+		"defaultBorderColor" : "dgd 2/14/2003 22:35",
+		"defaultBounds" : "dgd 3/7/2003 15:07",
+		"defaultColor" : "dgd 2/14/2003 22:28",
+		"initialize" : "StephaneDucasse 7/22/2011 18:29",
+		"isMorphicModel" : "ar 10/5/2000 16:40",
+		"isOpen" : "di 6/22/97 23:16",
+		"keyboardFocusOnMouseDown" : "AlainPlantec 12/10/2009 14:30",
+		"model" : "",
+		"model:" : "FernandoOlivero 5/10/2011 06:51",
+		"model:accessor:" : "StephaneDucasse 7/22/2011 18:28",
+		"modelOrNil" : "sw 10/23/1999 22:36",
+		"mouseOverForKeyboardFocus" : "AlainPlantec 12/10/2009 14:52",
+		"newBounds:" : "",
+		"openToEdits" : "di 6/20/97 15:36",
+		"releaseCachedState" : "sw 3/6/2001 11:22" } }

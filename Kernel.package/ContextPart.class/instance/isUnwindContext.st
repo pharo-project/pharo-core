@@ -1,0 +1,4 @@
+private-exceptions
+isUnwindContext
+
+	^false

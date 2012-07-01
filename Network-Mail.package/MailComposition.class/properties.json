@@ -1,0 +1,18 @@
+{
+	"category" : "Network-Mail",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"messageText",
+		"textEditor",
+		"morphicWindow" ],
+	"name" : "MailComposition",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "System-FilePackage",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PseudoClassOrganizer",
+	"pools" : [
+		 ],
+	"super" : "BasicClassOrganizer",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+operations
+ensureDeleted
+	self deleteIfAbsent: [].

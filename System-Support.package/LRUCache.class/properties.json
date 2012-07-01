@@ -1,0 +1,20 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"size",
+		"factory",
+		"calls",
+		"hits",
+		"values" ],
+	"name" : "LRUCache",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

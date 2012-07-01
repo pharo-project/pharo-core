@@ -1,0 +1,18 @@
+{
+	"category" : "Keymapping-Settings",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"categoryName",
+		"declaration",
+		"shortcutName" ],
+	"name" : "KMShortcutDeclaration",
+	"pools" : [
+		 ],
+	"super" : "SettingDeclaration",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

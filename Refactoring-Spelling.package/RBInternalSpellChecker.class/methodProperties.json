@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"createWordList:" : "GuillermoPolito 1/21/2012 22:55" },
+	"instance" : {
+		"check:" : "lr 12/22/2010 13:58",
+		"directory" : "CamilloBruni 5/7/2012 11:33",
+		"downloadData" : "lr 6/2/2010 09:22",
+		"filename" : "lr 1/22/2010 08:03",
+		"initialize" : "lr 1/22/2010 08:11",
+		"loadData" : "lr 6/2/2010 09:26",
+		"url" : "lr 1/22/2010 09:45",
+		"validate:" : "lr 1/21/2010 23:20",
+		"words" : "lr 3/8/2009 20:21" } }

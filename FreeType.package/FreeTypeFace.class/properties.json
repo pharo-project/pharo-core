@@ -1,0 +1,20 @@
+{
+	"category" : "FreeType-Fonts",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"filename",
+		"index",
+		"fileContentsExternalMemory",
+		"valid",
+		"hasKerning" ],
+	"name" : "FreeTypeFace",
+	"pools" : [
+		 ],
+	"super" : "FT2Face",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

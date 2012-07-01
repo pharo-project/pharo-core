@@ -1,0 +1,3 @@
+meta data
+ruleLawOfDemeterRuleV1FalsePositive
+^ #(#('(RGMethodDefinition className: ''FLClassCluster'' selector: #referencesOf:do: isMetaSide: false)' #'2012-04-21T17:36:40.844000001+02:00') #('(RGMethodDefinition className: ''FLClassCluster'' selector: #serializeReferencesOf:with: isMetaSide: false)' #'2012-04-21T17:36:40.865+02:00') #('(RGMethodDefinition className: ''FLClassCluster'' selector: #materializeReferencesOf:with: isMetaSide: false)' #'2012-04-21T17:36:40.881000001+02:00') #('(RGMethodDefinition className: ''FLFullGlobalMapper'' selector: #cacheGlobalAssociation: isMetaSide: false)' #'2012-04-21T17:36:41.591+02:00') )

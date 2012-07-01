@@ -1,0 +1,1 @@
+Watery theme specific icons.

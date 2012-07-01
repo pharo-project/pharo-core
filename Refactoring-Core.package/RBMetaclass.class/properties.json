@@ -1,0 +1,16 @@
+{
+	"category" : "Refactoring-Core-Model",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RBMetaclass",
+	"pools" : [
+		 ],
+	"super" : "RBAbstractClass",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

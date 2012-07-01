@@ -1,0 +1,21 @@
+{
+	"category" : "Network-RFC822",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"CSNonAtom",
+		"CSNonSeparators",
+		"CSParens",
+		"CSSpecials" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"cachedToken",
+		"text",
+		"pos" ],
+	"name" : "MailAddressTokenizer",
+	"pools" : [
+		 ],
+	"super" : "Stream",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"inClass:category:withCode:doitFlag:" : "ar 9/27/2005 19:15",
+		"inClass:category:withCode:doitFlag:errorMessage:location:" : "eem 9/23/2008 14:19" },
+	"instance" : {
+		"category" : "ar 9/27/2005 19:17",
+		"defaultAction" : "pavel.krivanek 6/17/2010 10:00",
+		"doitFlag" : "ar 9/27/2005 19:11",
+		"errorClass" : "ar 9/27/2005 19:10",
+		"errorCode" : "ar 9/27/2005 19:10",
+		"errorMessage" : "eem 9/23/2008 14:23",
+		"location" : "eem 9/23/2008 14:23",
+		"messageText" : "ar 9/27/2005 19:14",
+		"setClass:category:code:doitFlag:" : "ar 9/27/2005 19:15",
+		"setClass:category:code:doitFlag:errorMessage:location:" : "eem 9/23/2008 14:20" } }

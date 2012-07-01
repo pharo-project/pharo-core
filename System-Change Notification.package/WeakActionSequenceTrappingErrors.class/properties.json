@@ -1,0 +1,16 @@
+{
+	"category" : "System-Change Notification",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WeakActionSequenceTrappingErrors",
+	"pools" : [
+		 ],
+	"super" : "WeakActionSequence",
+	"traitcomposition" : "{}",
+	"type" : "variable" }

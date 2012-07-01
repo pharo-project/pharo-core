@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"characterForColumnBreak" : "RAA 5/7/2001 09:31" },
+	"instance" : {
+		"addNullLineForIndex:" : "RAA 5/4/2001 18:09",
+		"addNullLineWithIndex:andRectangle:" : "RAA 5/5/2001 11:05",
+		"checkIfReadyToSlide" : "RAA 5/4/2001 11:33",
+		"composeAllLines" : "RAA 5/6/2001 14:48",
+		"composeAllRectangles:" : "th 11/18/2002 19:13",
+		"composeEachRectangleIn:" : "AlexandreBergel 9/30/2011 12:18",
+		"composeLinesFrom:to:delta:into:priorLines:atY:textStyle:text:container:wantsColumnBreaks:" : "ASB 8/7/2008 13:28",
+		"composeOneLine" : "dgd 2/22/2003 13:31",
+		"fixupLastLineIfCR" : "nice 11/17/2009 01:56",
+		"multiComposeLinesFrom:to:delta:into:priorLines:atY:textStyle:text:container:wantsColumnBreaks:" : "AlainPlantec 9/15/2011 17:12",
+		"slideOneLineDown" : "RAA 5/6/2001 15:15" } }

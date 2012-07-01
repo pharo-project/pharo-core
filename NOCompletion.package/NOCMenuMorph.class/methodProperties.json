@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"backgroundColor" : "EstebanLorenzano 4/12/2012 13:37",
+		"itemWidth" : "EstebanLorenzano 4/11/2012 16:57",
+		"scrollColor" : "ul 10/27/2010 03:10",
+		"selectFontFor:" : "EstebanLorenzano 4/11/2012 16:56" },
+	"instance" : {
+		"context" : "rr 4/15/2009 15:23",
+		"context:" : "rr 4/15/2009 15:24",
+		"createTitle" : "rr 12/11/2007 09:41",
+		"drawOn:" : "RomainRobbes 4/8/2010 12:15",
+		"drawTopScrollArrowOn:" : "rr 12/11/2007 09:44",
+		"hasMessage" : "rr 12/11/2007 09:39",
+		"height" : "RomainRobbes 8/2/2010 17:55",
+		"initialize" : "RomainRobbes 4/8/2010 12:19",
+		"lastActivity" : "RomainRobbes 4/8/2010 12:08",
+		"narrowCompletion" : "rr 6/26/2009 11:09",
+		"step" : "RomainRobbes 4/8/2010 17:41",
+		"stepTime" : "RomainRobbes 4/8/2010 17:48",
+		"stillActive" : "RomainRobbes 4/8/2010 17:50",
+		"timeOfLastActivity" : "RomainRobbes 4/8/2010 17:52",
+		"timeout" : "RomainRobbes 4/8/2010 17:41",
+		"updateColor" : "RomainRobbes 4/8/2010 18:00" } }

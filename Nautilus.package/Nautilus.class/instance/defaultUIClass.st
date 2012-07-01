@@ -1,0 +1,4 @@
+displaying
+defaultUIClass
+
+	^ NautilusUI

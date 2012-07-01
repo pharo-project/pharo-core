@@ -1,0 +1,4 @@
+protocol
+update
+	
+	self subclassResponsibility 

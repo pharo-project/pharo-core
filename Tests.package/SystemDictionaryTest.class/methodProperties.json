@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"shouldInheritSelectors" : "cyrille.delaunay 6/29/2009 13:28" },
+	"instance" : {
+		"classToBeTested" : "cyrille.delaunay 6/29/2009 13:27",
+		"testClassComment" : "marcus.denker 7/29/2009 15:27",
+		"testClassOrTraitNamedReturnsClassForClasses" : "StephaneDucasse 2/6/2011 21:01",
+		"testClassOrTraitNamedReturnsNilForGlobals" : "StephaneDucasse 2/6/2011 21:01",
+		"testEnvironmentOfOrganization" : "StephaneDucasse 10/3/2010 15:11",
+		"testOrganizationPerInstance" : "LucFabresse 10/24/2010 17:25",
+		"testOtherInstancesOfSystemDictionaryAsString" : "sd 7/21/2009 10:37",
+		"testOtherInstancesOfSystemDictionaryPrintString" : "sd 7/21/2009 10:37",
+		"testOtherInstancesOfSystemDictionarySelfEvaluating" : "sd 7/21/2009 10:37",
+		"testSetOrganizationSetBackPointer" : "StephaneDucasse 10/3/2010 15:05",
+		"testSmalltalkAsString" : "sd 7/21/2009 10:37",
+		"testSmalltalkPrintString" : "sd 7/21/2009 10:36",
+		"testSmalltalkSelfEvaluating" : "sd 7/21/2009 10:36",
+		"testUnCategorizedMethods" : "cyrille.delaunay 7/17/2009 11:25" } }

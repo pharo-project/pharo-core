@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"at:" : "CamilloBruni 6/22/2012 20:52",
+		"at:put:" : "CamilloBruni 6/22/2012 20:52",
+		"at:read:startingAt:count:" : "CamilloBruni 6/22/2012 20:55",
+		"at:write:startingAt:count:" : "CamilloBruni 6/22/2012 20:55",
+		"close" : "CamilloBruni 6/23/2012 20:06",
+		"copyFrom:to:" : "CamilloBruni 6/23/2012 19:57",
+		"flush" : "CamilloBruni 6/22/2012 20:56",
+		"grow" : "CamilloBruni 6/22/2012 20:56",
+		"grownBy:" : "CamilloBruni 6/23/2012 18:47",
+		"isOpen" : "CamilloBruni 6/22/2012 20:57",
+		"open" : "CamilloBruni 6/22/2012 20:57",
+		"readStream" : "CamilloBruni 6/23/2012 20:13",
+		"size" : "CamilloBruni 6/23/2012 18:48",
+		"truncate" : "CamilloBruni 6/22/2012 20:58",
+		"truncateTo:" : "CamilloBruni 6/23/2012 20:16",
+		"writeStream" : "CamilloBruni 6/23/2012 20:13" } }

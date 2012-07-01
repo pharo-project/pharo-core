@@ -1,0 +1,16 @@
+{
+	"category" : "Refactoring-Critics-TransformationRules",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RBUnwindBlocksRule",
+	"pools" : [
+		 ],
+	"super" : "RBTransformationRule",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

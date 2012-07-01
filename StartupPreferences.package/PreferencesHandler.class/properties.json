@@ -1,0 +1,17 @@
+{
+	"category" : "StartupPreferences",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"firstLink",
+		"actions" ],
+	"name" : "PreferencesHandler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

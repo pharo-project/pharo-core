@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"model:abstractVariablesIn:from:toAll:" : "",
+		"model:abstractVariablesIn:from:toAll:ignoring:" : "" },
+	"instance" : {
+		"abstractClassVariable:" : "lr 9/8/2011 20:11",
+		"abstractClassVariables" : "lr 2/6/2010 13:33",
+		"abstractInstanceVariable:" : "lr 9/8/2011 20:11",
+		"abstractInstanceVariables" : "lr 2/6/2010 13:34",
+		"abstractVariablesIn:from:toAll:ignoring:" : "lr 9/8/2011 20:11",
+		"classVariableNames" : "lr 10/26/2009 22:08",
+		"computeVariablesToAbstract" : "lr 11/2/2009 00:14",
+		"hasVariablesToAbstract" : "lr 2/6/2010 13:34",
+		"instanceVariableNames" : "",
+		"parseTree" : "",
+		"preconditions" : "",
+		"processAssignmentNode:" : "",
+		"processReferenceNode:" : "",
+		"removeDefinedClassVariables" : "lr 10/26/2009 22:08",
+		"transform" : "" } }

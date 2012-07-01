@@ -1,0 +1,4 @@
+accessing
+itemOldProtocol
+
+	^ event oldCategory

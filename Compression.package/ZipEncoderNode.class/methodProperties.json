@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"value:frequency:height:" : "ar 12/26/1999 10:47" },
+	"instance" : {
+		"bitLength" : "ar 12/25/1999 19:41",
+		"code" : "ar 12/30/1999 14:28",
+		"code:" : "jannik.laval 5/1/2010 16:49",
+		"computeHeight" : "ar 12/26/1999 10:45",
+		"encodeBitLength:from:" : "marcus.denker 9/14/2008 19:01",
+		"frequency" : "ar 12/24/1999 23:36",
+		"frequency:" : "ar 12/28/1999 00:56",
+		"height" : "ar 12/26/1999 10:44",
+		"isLeaf" : "marcus.denker 9/14/2008 19:00",
+		"leafNodes" : "ar 12/25/1999 18:14",
+		"left" : "ar 12/24/1999 23:43",
+		"left:" : "ar 12/25/1999 20:06",
+		"parent" : "ar 12/24/1999 23:43",
+		"parent:" : "ar 12/24/1999 23:43",
+		"printOn:" : "ar 12/26/1999 10:46",
+		"right" : "ar 12/24/1999 23:43",
+		"right:" : "ar 12/25/1999 20:06",
+		"rotateToHeight:" : "ar 12/27/1999 14:27",
+		"setBitLengthTo:" : "ar 12/26/1999 12:05",
+		"setValue:frequency:height:" : "ar 12/26/1999 10:46",
+		"value" : "ar 12/24/1999 23:43" } }

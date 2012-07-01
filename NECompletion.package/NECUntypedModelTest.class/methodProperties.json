@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "",
+		"tearDown" : "",
+		"testAdditionalLocals" : "",
+		"testCaseSensitive" : "",
+		"testCaseSensitivity" : "",
+		"testEmpty" : "",
+		"testForClassInstVars" : "",
+		"testForClassLocals" : "",
+		"testForClassVars" : "",
+		"testMessage" : "",
+		"testNarrowWith" : "",
+		"testNoEntriesWithSpace" : "",
+		"testTitle" : "" } }

@@ -1,0 +1,3 @@
+icons
+haloDragIcon
+	^ ThemeIcons haloDragIcon

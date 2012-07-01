@@ -1,0 +1,16 @@
+{
+	"category" : "System-FileRegistry",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"FileReaderRegistry" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FileServices",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

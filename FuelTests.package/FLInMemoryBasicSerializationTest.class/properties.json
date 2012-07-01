@@ -1,0 +1,16 @@
+{
+	"category" : "FuelTests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"byteArray" ],
+	"name" : "FLInMemoryBasicSerializationTest",
+	"pools" : [
+		 ],
+	"super" : "FLBasicSerializationTest",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

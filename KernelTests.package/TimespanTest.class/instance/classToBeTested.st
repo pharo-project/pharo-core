@@ -1,0 +1,4 @@
+Coverage
+classToBeTested
+
+	^ Timespan

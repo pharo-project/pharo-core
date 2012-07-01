@@ -1,0 +1,4 @@
+world menu
+drawingClass
+
+	^ ImageMorph

@@ -1,0 +1,3 @@
+compiling
+isContextClass
+	^false

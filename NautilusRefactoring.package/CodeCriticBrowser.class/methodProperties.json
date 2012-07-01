@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"defaultSpec" : "bvr 6/4/2012 14:41",
+		"title" : "",
+		"topSpec" : "bvr 6/4/2012 14:42" },
+	"instance" : {
+		"basicSearch:" : "",
+		"environment" : "",
+		"environment:" : "",
+		"initializePresenter" : "BenjaminVanRyseghem 6/12/2012 17:54",
+		"initializeWidgets" : "BenjaminVanRyseghem 6/12/2012 17:54",
+		"listModel1" : "",
+		"listModel1:" : "",
+		"listModel2" : "",
+		"listModel2:" : "",
+		"listModel3" : "",
+		"listModel3:" : "",
+		"process" : "",
+		"process:" : "",
+		"rules:" : "",
+		"status" : "",
+		"status:" : "",
+		"textModel" : "",
+		"textModel:" : "" } }

@@ -1,0 +1,1 @@
+AbstractHolder is an abstract class which handle two dictionaries: one for classes symbol, and one for selectors symbols.

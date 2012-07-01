@@ -1,0 +1,3 @@
+accessing
+prettyPrinterClass
+	^self class prettyPrinterClass

@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"named:" : "CamilloBruni 3/18/2011 23:11" },
+	"instance" : {
+		"addKeymapEntry:" : "GuillermoPolito 1/21/2012 20:55",
+		"addKeymapEntry:at:" : "GuillermoPolito 1/21/2012 20:55",
+		"allEntries" : "GuillermoPolito 10/21/2011 00:40",
+		"categoryName" : "CamilloBruni 3/18/2011 23:11",
+		"commonEntries" : "GuillermoPolito 10/21/2011 00:23",
+		"entriesAt:" : "GuillermoPolito 1/21/2012 20:50",
+		"hasKeymapNamed:" : "GuillermoPolito 1/21/2012 20:56",
+		"hasKeymapNamed:at:" : "GuillermoPolito 1/21/2012 20:57",
+		"keymapNamed:" : "GuillermoPolito 1/21/2012 20:57",
+		"keymapNamed:at:" : "GuillermoPolito 1/21/2012 20:58",
+		"keymaps" : "GuillermoPolito 1/21/2012 21:02",
+		"matches:" : "GuillermoPolito 10/21/2011 00:37",
+		"matchesCompletely:" : "GuillermoPolito 10/21/2011 00:37",
+		"name" : "CamilloBruni 3/18/2011 23:11",
+		"name:" : "GuillermoPolito 12/14/2010 00:58",
+		"onMatchWith:notify:andDo:" : "GuillermoPolito 10/20/2011 15:55",
+		"platformEntries" : "GuillermoPolito 10/21/2011 00:50" } }

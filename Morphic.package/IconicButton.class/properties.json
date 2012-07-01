@@ -1,0 +1,16 @@
+{
+	"category" : "Morphic-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"DefaultGraphics" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"graphicalMorph" ],
+	"name" : "IconicButton",
+	"pools" : [
+		 ],
+	"super" : "SimpleButtonMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "FreeType-Cache",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FreeTypeCacheLinkedList",
+	"pools" : [
+		 ],
+	"super" : "LinkedList",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

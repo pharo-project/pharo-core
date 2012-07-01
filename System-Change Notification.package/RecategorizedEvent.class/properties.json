@@ -1,0 +1,16 @@
+{
+	"category" : "System-Change Notification",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"oldCategory" ],
+	"name" : "RecategorizedEvent",
+	"pools" : [
+		 ],
+	"super" : "AbstractEvent",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

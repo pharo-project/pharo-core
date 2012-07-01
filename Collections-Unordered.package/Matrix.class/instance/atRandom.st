@@ -1,0 +1,3 @@
+accessing
+atRandom
+	^contents atRandom

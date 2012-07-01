@@ -1,0 +1,16 @@
+{
+	"category" : "Balloon-Fills",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "gvc 5/18/2007 12:49",
+	"instvars" : [
+		 ],
+	"name" : "InterpolatedGradientFillStyle",
+	"pools" : [
+		 ],
+	"super" : "GradientFillStyle",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

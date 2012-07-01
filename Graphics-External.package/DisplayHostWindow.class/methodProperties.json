@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"actualScreenSize" : "tpr 10/14/2004 16:13",
+		"close" : "lr 7/4/2009 10:42",
+		"forceToScreen" : "tpr 9/21/2004 16:57",
+		"forceToScreen:" : "tpr 10/7/2004 10:51",
+		"open" : "lr 7/4/2009 10:42",
+		"resetProxy" : "lr 7/4/2009 10:42",
+		"setExtent:depth:" : "tpr 10/14/2004 16:12",
+		"test" : "lr 7/4/2009 10:42",
+		"test2" : "nice 3/5/2010 22:31",
+		"windowPosition" : "tpr 10/11/2004 16:56",
+		"windowPosition:" : "tpr 10/11/2004 16:56",
+		"windowSize" : "tpr 10/11/2004 16:56",
+		"windowSize:" : "tpr 10/11/2004 16:56",
+		"windowTitle:" : "lr 7/4/2009 10:42" } }

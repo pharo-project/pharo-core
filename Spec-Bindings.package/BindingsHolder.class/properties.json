@@ -1,0 +1,16 @@
+{
+	"category" : "Spec-Bindings",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"Bindings" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"bindings" ],
+	"name" : "BindingsHolder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

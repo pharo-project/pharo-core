@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"globalTransform:localTransform:" : "ls 3/19/2000 16:44" },
+	"instance" : {
+		"angle" : "di 10/26/1999 17:06",
+		"asCompositeTransform" : "ar 11/2/1998 20:00",
+		"asMatrixTransform2x3" : "ar 11/2/1998 19:56",
+		"asMorphicTransform" : "di 10/26/1999 17:03",
+		"composedWith:" : "di 10/26/1999 17:08",
+		"globalPointToLocal:" : "ar 11/2/1998 16:39",
+		"globalTransform:localTransform:" : "lr 7/4/2009 10:42",
+		"inverseTransformation" : "ar 11/2/1998 19:45",
+		"invert:" : "di 10/1/1998 13:51",
+		"isCompositeTransform" : "ar 11/2/1998 20:00",
+		"isIdentity" : "di 3/4/98 19:18",
+		"isPureTranslation" : "di 3/4/98 19:18",
+		"localPointToGlobal:" : "ar 11/2/1998 16:39",
+		"offset" : "di 10/26/1999 15:40",
+		"scale" : "di 10/26/1999 15:39",
+		"transform:" : "di 3/4/98 19:20" } }

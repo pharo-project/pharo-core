@@ -1,0 +1,22 @@
+{
+	"category" : "Polymorph-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TEnableOnHaloMenu classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "gvc 5/18/2007 13:47",
+	"instvars" : [
+		"buttonMorph",
+		"labelMorph",
+		"getLabelSelector",
+		"setStateSelector",
+		"getStateSelector",
+		"enabled",
+		"getEnabledSelector" ],
+	"name" : "CheckboxMorph",
+	"pools" : [
+		 ],
+	"super" : "MorphicModel",
+	"traitcomposition" : "TEnableOnHaloMenu",
+	"type" : "normal" }

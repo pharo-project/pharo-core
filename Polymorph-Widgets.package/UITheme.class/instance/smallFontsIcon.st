@@ -1,0 +1,3 @@
+icons
+smallFontsIcon
+	^ ThemeIcons smallFontsIcon

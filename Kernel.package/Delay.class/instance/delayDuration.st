@@ -1,0 +1,3 @@
+public
+delayDuration
+	^delayDuration

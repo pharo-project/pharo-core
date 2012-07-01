@@ -1,0 +1,18 @@
+{
+	"category" : "Kernel-Methods",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"method",
+		"closureOrNil",
+		"receiver" ],
+	"name" : "MethodContext",
+	"pools" : [
+		 ],
+	"super" : "ContextPart",
+	"traitcomposition" : "{}",
+	"type" : "variable" }

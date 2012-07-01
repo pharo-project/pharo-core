@@ -1,0 +1,16 @@
+{
+	"category" : "Kernel-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "SvenVanCaekenberghe 4/21/2011 12:35",
+	"instvars" : [
+		 ],
+	"name" : "SubclassResponsibility",
+	"pools" : [
+		 ],
+	"super" : "SelectorException",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

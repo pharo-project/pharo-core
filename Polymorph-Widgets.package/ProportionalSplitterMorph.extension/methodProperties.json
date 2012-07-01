@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"adoptPaneColor:" : "gvc 4/26/2007 10:22",
+		"hasLeftOrTop:" : "gvc 5/9/2007 10:46",
+		"hasRightOrBottom:" : "gvc 5/9/2007 10:46",
+		"hideLeftOrTop" : "gvc 5/9/2007 10:40",
+		"hideRightOrBottom" : "gvc 5/9/2007 10:46",
+		"mouseUp:" : "gvc 9/19/2008 15:31",
+		"normalFillStyle" : "gvc 7/30/2007 15:55",
+		"noteNewOwner:" : "gvc 11/10/2006 11:36",
+		"overlapsHorizontal:" : "gvc 6/14/2007 13:32",
+		"overlapsVertical:" : "gvc 6/14/2007 13:32",
+		"pressedFillStyle" : "gvc 7/30/2007 15:55",
+		"setGrabbedColor" : "gvc 4/26/2007 10:21",
+		"shouldDraw" : "gvc 5/13/2008 10:32",
+		"shouldInvalidateOnMouseTransition" : "gvc 5/13/2008 10:36",
+		"showLeftOrTop" : "gvc 5/9/2007 10:40",
+		"showRightOrBottom" : "gvc 5/9/2007 10:47" } }

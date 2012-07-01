@@ -1,0 +1,16 @@
+{
+	"category" : "Collections-Streams",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TextStream",
+	"pools" : [
+		 ],
+	"super" : "WriteStream",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"floodFillTolerance" : "AlainPlantec 12/10/2009 11:00" },
+	"instance" : {
+		"asMorph" : "ar 11/7/1999 20:29",
+		"defaultCanvasClass" : "ar 5/28/2000 12:03",
+		"floodFillTolerance" : "AlainPlantec 12/10/2009 11:07",
+		"getCanvas" : "ar 5/28/2000 12:03",
+		"iconOrThumbnailOfSize:" : "ar 7/8/2006 21:01",
+		"scaledIntoFormOfSize:" : "ar 7/8/2006 21:01",
+		"stencil" : "LB 8/26/2002 18:08" } }

@@ -1,0 +1,20 @@
+{
+	"category" : "Keymapping-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "GuillermoPolito 12/14/2010 21:33",
+	"instvars" : [
+		"action",
+		"name",
+		"shortcut",
+		"defaultShortcut",
+		"description" ],
+	"name" : "KMKeymap",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

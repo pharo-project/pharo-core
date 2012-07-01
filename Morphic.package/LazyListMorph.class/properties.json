@@ -1,0 +1,21 @@
+{
+	"category" : "Morphic-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "efc 8/6/2005 11:34",
+	"instvars" : [
+		"listItems",
+		"font",
+		"selectedRow",
+		"selectedRows",
+		"listSource",
+		"maxWidth" ],
+	"name" : "LazyListMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

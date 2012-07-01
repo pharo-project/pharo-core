@@ -1,0 +1,16 @@
+{
+	"category" : "Monticello-Patching",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"definition" ],
+	"name" : "MCAddition",
+	"pools" : [
+		 ],
+	"super" : "MCPatchOperation",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

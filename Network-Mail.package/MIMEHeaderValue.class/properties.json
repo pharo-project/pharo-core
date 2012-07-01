@@ -1,0 +1,17 @@
+{
+	"category" : "Network-Mail",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"mainValue",
+		"parameters" ],
+	"name" : "MIMEHeaderValue",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

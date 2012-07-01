@@ -1,0 +1,3 @@
+attributes
+vmFileName
+	^ self fileName

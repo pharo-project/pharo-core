@@ -1,0 +1,16 @@
+{
+	"category" : "Polymorph-Widgets-Themes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NullSoundTheme",
+	"pools" : [
+		 ],
+	"super" : "SoundTheme",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

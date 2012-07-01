@@ -1,0 +1,16 @@
+{
+	"category" : "FuelTests",
+	"classinstvars" : [
+		"interval" ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"ClassVariableForTesting" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FLBlockClosureSerializationTest",
+	"pools" : [
+		 ],
+	"super" : "FLSerializationTest",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

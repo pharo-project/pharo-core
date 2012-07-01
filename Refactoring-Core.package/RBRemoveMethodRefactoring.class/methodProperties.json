@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"model:removeMethods:from:" : "",
+		"removeMethods:from:" : "" },
+	"instance" : {
+		"checkReferencesToAnyOf:" : "lr 9/8/2011 20:25",
+		"checkReferencesToSuperSendsToAnyOf:" : "",
+		"checkSuperMethods" : "",
+		"justSendsSuper:" : "lr 11/2/2009 00:14",
+		"preconditions" : "",
+		"removeMethods:from:" : "",
+		"storeOn:" : "",
+		"superclassEquivalentlyDefines:" : "",
+		"transform" : "" } }

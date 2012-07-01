@@ -1,0 +1,22 @@
+{
+	"category" : "Text-Scanning",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"spaceX",
+		"lineHeight",
+		"baseline",
+		"breakableIndex",
+		"lineHeightAtBreak",
+		"baselineAtBreak",
+		"breakAtSpace" ],
+	"name" : "MultiCompositionScanner",
+	"pools" : [
+		 ],
+	"super" : "MultiCharacterScanner",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

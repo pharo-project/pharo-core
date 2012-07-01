@@ -1,0 +1,18 @@
+{
+	"category" : "Announcements-View",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"announcer",
+		"announcements",
+		"index" ],
+	"name" : "AnnouncementSpy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

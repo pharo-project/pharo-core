@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"forMethod:fromClass:toClasses:" : "",
+		"model:forMethod:fromClass:toClasses:" : "" },
+	"instance" : {
+		"computePoolsToMove" : "lr 11/2/2009 00:14",
+		"forMethod:fromClass:toClasses:" : "",
+		"hasPoolsToMove" : "",
+		"movePool:toClass:" : "lr 10/26/2009 22:08",
+		"movePoolVariables" : "",
+		"poolVariableNamesIn:" : "lr 7/23/2010 08:04",
+		"preconditions" : "",
+		"transform" : "",
+		"whichPoolDefines:" : "" } }

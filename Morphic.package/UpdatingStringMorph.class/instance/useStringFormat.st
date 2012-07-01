@@ -1,0 +1,4 @@
+formats
+useStringFormat
+
+	format := #string.

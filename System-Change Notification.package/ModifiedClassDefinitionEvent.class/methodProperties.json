@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"classDefinitionChangedFrom:to:" : "NS 1/20/2004 11:52",
+		"supportedKinds" : "NS 1/20/2004 12:26" },
+	"instance" : {
+		"areClassVarsModified" : "NS 1/20/2004 19:31",
+		"areInstVarsModified" : "NS 1/20/2004 19:30",
+		"areSharedPoolsModified" : "NS 1/20/2004 19:32",
+		"classVarNames" : "gk 8/22/2007 01:10",
+		"instVarNames" : "gk 8/22/2007 00:11",
+		"isSuperclassModified" : "NS 1/20/2004 19:29",
+		"isTypeModified" : "gk 8/21/2007 02:21",
+		"oldClassVarNames" : "gk 8/22/2007 01:10",
+		"oldInstVarNames" : "gk 8/22/2007 00:30",
+		"oldSharedPools" : "NS 1/20/2004 19:31",
+		"oldSuperclass" : "NS 1/20/2004 19:28",
+		"oldTypeOfClass" : "gk 8/21/2007 02:23",
+		"sharedPools" : "NS 1/20/2004 19:31",
+		"superclass" : "NS 1/20/2004 19:28",
+		"typeOfClass" : "gk 8/21/2007 02:23" } }

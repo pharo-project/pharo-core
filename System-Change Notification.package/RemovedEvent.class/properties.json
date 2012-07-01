@@ -1,0 +1,16 @@
+{
+	"category" : "System-Change Notification",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RemovedEvent",
+	"pools" : [
+		 ],
+	"super" : "AbstractEvent",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+NautilusWindowAnnouncement are aanouncement propagted by the NautilusWindows

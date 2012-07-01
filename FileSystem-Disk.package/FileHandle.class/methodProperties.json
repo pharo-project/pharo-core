@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"initialize" : "cwp 11/20/2009 16:16",
+		"register:" : "CamilloBruni 5/24/2012 15:06",
+		"registry" : "CamilloBruni 5/24/2012 15:06",
+		"startUp:" : "cwp 11/20/2009 16:51",
+		"useFilePlugin" : "EstebanLorenzano 4/2/2012 11:46" },
+	"instance" : {
+		"assureOpen" : "CamilloBruni 5/24/2012 15:19",
+		"at:read:startingAt:count:" : "CamilloBruni 5/24/2012 15:20",
+		"at:write:startingAt:count:" : "CamilloBruni 5/24/2012 15:20",
+		"close" : "cwp 11/20/2009 14:59",
+		"finalize" : "CamilloBruni 5/24/2012 15:07",
+		"flush" : "CamilloBruni 5/24/2012 15:20",
+		"isOpen" : "cwp 7/22/2009 07:10",
+		"open" : "CamilloBruni 5/24/2012 15:18",
+		"readStream" : "abc 5/11/2012 23:22",
+		"register" : "CamilloBruni 5/24/2012 15:05",
+		"size" : "CamilloBruni 5/24/2012 15:20",
+		"startUp" : "cwp 11/20/2009 16:48",
+		"streamError" : "abc 5/11/2012 23:22",
+		"truncateTo:" : "cwp 7/22/2009 08:17",
+		"writeStream" : "abc 5/11/2012 23:22" } }

@@ -1,0 +1,17 @@
+{
+	"category" : "System-Applications",
+	"classinstvars" : [
+		"registeredClasses",
+		"default" ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "ads 4/2/2003 15:30",
+	"instvars" : [
+		 ],
+	"name" : "AppRegistry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

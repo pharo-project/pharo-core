@@ -1,0 +1,16 @@
+{
+	"category" : "Collections-Strings",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"NonAsciiMap" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ByteString",
+	"pools" : [
+		 ],
+	"super" : "String",
+	"traitcomposition" : "{}",
+	"type" : "bytes" }

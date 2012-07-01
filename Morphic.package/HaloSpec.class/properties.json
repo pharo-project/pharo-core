@@ -1,0 +1,20 @@
+{
+	"category" : "Morphic-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "kfr 10/27/2003 16:23",
+	"instvars" : [
+		"addHandleSelector",
+		"horizontalPlacement",
+		"verticalPlacement",
+		"color",
+		"iconSymbol" ],
+	"name" : "HaloSpec",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

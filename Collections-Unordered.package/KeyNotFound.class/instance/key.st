@@ -1,0 +1,3 @@
+accessing
+key
+	^ super object

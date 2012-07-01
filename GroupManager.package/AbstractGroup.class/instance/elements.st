@@ -1,0 +1,4 @@
+protocol
+elements
+
+	^ self subclassResponsibility

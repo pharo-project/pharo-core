@@ -1,0 +1,16 @@
+{
+	"category" : "Text-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"evalString" ],
+	"name" : "TextDoIt",
+	"pools" : [
+		 ],
+	"super" : "TextAction",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

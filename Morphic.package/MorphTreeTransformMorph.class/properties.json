@@ -1,0 +1,16 @@
+{
+	"category" : "Morphic-MorphTreeWidget",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MorphTreeTransformMorph",
+	"pools" : [
+		 ],
+	"super" : "TransformMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

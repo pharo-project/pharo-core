@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"on:" : "lr 6/14/2006 17:05",
+		"openOn:" : "StephaneDucasse 5/1/2011 14:49" },
+	"instance" : {
+		"announce:" : "lr 9/3/2006 14:09",
+		"announcements" : "lr 6/14/2006 17:02",
+		"announcements:" : "lr 9/3/2006 14:08",
+		"announcer" : "lr 6/14/2006 17:04",
+		"announcer:" : "lr 9/25/2006 09:26",
+		"build" : "StephaneDucasse 5/1/2011 14:47",
+		"buildList" : "StephaneDucasse 5/1/2011 14:47",
+		"buildMenu:" : "lr 9/3/2006 16:21",
+		"changed:" : "lr 6/14/2006 17:19",
+		"clear" : "lr 9/3/2006 16:21",
+		"close" : "lr 9/25/2006 09:19",
+		"extent" : "lr 9/3/2006 14:08",
+		"index" : "lr 6/14/2006 17:02",
+		"index:" : "lr 6/14/2006 17:20",
+		"initialExtent" : "StephaneDucasse 5/1/2011 14:27",
+		"initialize" : "lr 6/14/2006 17:03",
+		"label" : "StephaneDucasse 5/1/2011 14:22",
+		"open" : "lr 9/25/2006 09:25" } }

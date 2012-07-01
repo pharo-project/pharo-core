@@ -1,0 +1,3 @@
+icons
+haloMenuIcon
+	^ ThemeIcons haloMenuIcon

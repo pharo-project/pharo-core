@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"allowsKeymapping" : "GuillermoPolito 5/31/2011 11:19",
+		"attachKeymapCategory:" : "GuillermoPolito 10/20/2011 17:44",
+		"attachKeymapCategory:onProperty:" : "GuillermoPolito 10/20/2011 23:33",
+		"attachKeymapCategory:targetting:" : "GuillermoPolito 10/20/2011 18:09",
+		"dispatchKeystrokeForEvent:" : "GuillermoPolito 3/14/2011 00:03",
+		"handleKeystroke:" : "BenjaminVanRyseghem 4/27/2012 11:15",
+		"kmDispatcher" : "CamilloBruni 3/18/2011 23:05",
+		"on:do:" : "GuillermoPolito 9/12/2011 16:39" } }

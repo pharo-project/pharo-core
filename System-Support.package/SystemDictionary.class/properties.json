@@ -1,0 +1,17 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "nice 3/6/2010 21:56",
+	"instvars" : [
+		"cachedClassNames",
+		"cachedNonClassNames" ],
+	"name" : "SystemDictionary",
+	"pools" : [
+		 ],
+	"super" : "IdentityDictionary",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

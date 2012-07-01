@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"from:label:to:label:contextClass:" : "gvc 2/9/2010 13:10" },
+	"instance" : {
+		"adoptPaneColor:" : "gvc 2/9/2010 13:07",
+		"defaultTitle" : "gvc 2/9/2010 13:12",
+		"descriptionMorph" : "gvc 2/9/2010 13:07",
+		"descriptionMorph:" : "gvc 2/9/2010 13:07",
+		"diffMorph" : "gvc 2/9/2010 13:07",
+		"diffMorph:" : "gvc 2/9/2010 13:07",
+		"diffMorphClass" : "gvc 2/9/2010 13:12",
+		"from:to:contextClass:" : "gvc 2/9/2010 13:10",
+		"fromDescription:" : "gvc 2/9/2010 13:12",
+		"fromDescriptionMorph" : "gvc 2/9/2010 13:12",
+		"initialColorInSystemWindow:" : "gvc 2/9/2010 13:12",
+		"initialExtent" : "gvc 3/5/2010 12:43",
+		"initialize" : "gvc 2/9/2010 13:52",
+		"newDescriptionMorph" : "gvc 2/9/2010 13:17",
+		"newDiffMorph" : "gvc 2/9/2010 13:12",
+		"toDescription:" : "gvc 2/9/2010 13:13",
+		"toDescriptionMorph" : "gvc 2/9/2010 13:13",
+		"updateDescriptionFillStyle:" : "gvc 2/9/2010 13:13" } }

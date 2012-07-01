@@ -1,0 +1,16 @@
+{
+	"category" : "RPackage-Tests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"emptyOrganizer" ],
+	"name" : "RPackageImportFromPackageInfoTest",
+	"pools" : [
+		 ],
+	"super" : "RPackageTestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

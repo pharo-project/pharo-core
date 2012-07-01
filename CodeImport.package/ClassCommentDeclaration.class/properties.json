@@ -1,0 +1,16 @@
+{
+	"category" : "CodeImport",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"stamp" ],
+	"name" : "ClassCommentDeclaration",
+	"pools" : [
+		 ],
+	"super" : "BehaviorInstallingDeclaration",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

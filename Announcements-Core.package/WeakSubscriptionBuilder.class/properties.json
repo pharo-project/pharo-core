@@ -1,0 +1,16 @@
+{
+	"category" : "Announcements-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "IgorStasenko 3/12/2011 20:37",
+	"instvars" : [
+		"announcer" ],
+	"name" : "WeakSubscriptionBuilder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

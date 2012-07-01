@@ -1,0 +1,16 @@
+{
+	"category" : "Morphic-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"UniqueInstance" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"lock" ],
+	"name" : "SystemProgressMorph",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "System-CommandLine",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "EvaluateCommandLineHandler",
+	"pools" : [
+		 ],
+	"super" : "BasicCodeLoader",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

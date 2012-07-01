@@ -1,0 +1,3 @@
+constants
+altDBoxProc
+	^3

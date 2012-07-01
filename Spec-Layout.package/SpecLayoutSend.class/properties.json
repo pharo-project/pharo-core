@@ -1,0 +1,17 @@
+{
+	"category" : "Spec-Layout",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"arguments",
+		"selector" ],
+	"name" : "SpecLayoutSend",
+	"pools" : [
+		 ],
+	"super" : "AbstractSpecLayoutAction",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,18 @@
+{
+	"category" : "Regex-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "Tbn 11/12/2010 23:14",
+	"instvars" : [
+		"atom",
+		"min",
+		"max" ],
+	"name" : "RxsPiece",
+	"pools" : [
+		 ],
+	"super" : "RxsNode",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+constants
+standardDocumentAttributes 
+	^self closeBoxAttribute

@@ -1,0 +1,18 @@
+{
+	"category" : "Kernel-Chronology",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "brp 9/4/2003 06:32",
+	"instvars" : [
+		"offset",
+		"abbreviation",
+		"name" ],
+	"name" : "TimeZone",
+	"pools" : [
+		"ChronologyConstants" ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

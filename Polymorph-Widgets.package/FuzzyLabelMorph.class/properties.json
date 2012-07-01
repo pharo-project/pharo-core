@@ -1,0 +1,17 @@
+{
+	"category" : "Polymorph-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "gvc 5/18/2007 13:16",
+	"instvars" : [
+		"offset",
+		"alpha" ],
+	"name" : "FuzzyLabelMorph",
+	"pools" : [
+		 ],
+	"super" : "LabelMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

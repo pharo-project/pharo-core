@@ -1,0 +1,4 @@
+protocol
+topologicSort
+	
+	^ topologicSortHolder contents

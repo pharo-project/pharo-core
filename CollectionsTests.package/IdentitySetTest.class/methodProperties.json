@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"shouldInheritSelectors" : "cyrille.delaunay 6/29/2009 10:51" },
+	"instance" : {
+		"classToBeTested" : "cyrille.delaunay 6/29/2009 10:58",
+		"identityCollectionWithElementsCopyNotIdentical" : "delaunay 5/13/2009 14:05",
+		"testGrowWithNil" : "StephaneDucasse 12/29/2011 14:31",
+		"testIdentity" : "cyrille.delaunay 6/29/2009 11:18" } }

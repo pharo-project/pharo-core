@@ -1,0 +1,3 @@
+icons
+smallAuthoringToolsIcon
+	^ ThemeIcons smallAuthoringToolsIcon

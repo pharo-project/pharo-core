@@ -1,0 +1,3 @@
+accessing
+oldSharedPools
+	^ oldItem sharedPools

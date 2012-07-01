@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"d" : "tween 7/8/2006 16:43",
+		"e" : "tween 7/8/2006 12:02",
+		"q" : "tween 7/8/2006 12:02",
+		"r" : "tween 7/8/2006 12:02",
+		"s" : "tween 7/8/2006 12:02",
+		"testBooleanHierarchy" : "lr 10/18/2010 15:33",
+		"testCollectionHierarchy" : "GuillermoPolito 2/2/2011 23:57",
+		"testNumberHierarchy" : "lr 10/18/2010 15:24",
+		"testNumbers" : "lr 10/18/2010 15:19",
+		"testObjectClass" : "lr 10/18/2010 15:34",
+		"tokenTypesIn:" : "tween 7/8/2006 11:45",
+		"tokensIn:" : "tween 7/8/2006 11:44",
+		"verifyClass:" : "lr 10/18/2010 15:22",
+		"verifyClass:selector:" : "StephaneDucasse 4/14/2012 11:42",
+		"verifyHierarchy:" : "lr 10/18/2010 15:21" } }

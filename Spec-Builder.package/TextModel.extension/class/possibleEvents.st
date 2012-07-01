@@ -1,0 +1,4 @@
+*Spec-Builder
+possibleEvents
+
+	^ #(whenTextChanged:)

@@ -1,0 +1,16 @@
+{
+	"category" : "HelpSystem-Core-UI",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"Icons" ],
+	"commentStamp" : "tbn 3/8/2010 09:29",
+	"instvars" : [
+		 ],
+	"name" : "HelpIcons",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "NautilusCommon-Plugin",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"morph" ],
+	"name" : "DummyPackageSelectedPlugin",
+	"pools" : [
+		 ],
+	"super" : "AbstractPackageSelectedPlugin",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

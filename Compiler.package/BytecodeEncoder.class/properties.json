@@ -1,0 +1,19 @@
+{
+	"category" : "Compiler-Kernel",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"stream",
+		"position",
+		"rootNode",
+		"blockExtentsToLocals" ],
+	"name" : "BytecodeEncoder",
+	"pools" : [
+		 ],
+	"super" : "Encoder",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

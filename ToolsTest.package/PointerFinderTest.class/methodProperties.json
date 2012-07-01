@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testBasic1" : "AndyKellens 6/11/2010 14:16",
+		"testCycle" : "AndyKellens 6/11/2010 14:17",
+		"testNoPointingObject" : "AndyKellens 6/11/2010 14:17" } }

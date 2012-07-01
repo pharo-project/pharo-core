@@ -1,0 +1,4 @@
+running
+classVariableForTesting
+	
+	^ ClassVariableForTesting

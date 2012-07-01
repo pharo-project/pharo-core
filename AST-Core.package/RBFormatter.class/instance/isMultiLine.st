@@ -1,0 +1,3 @@
+accessing
+isMultiLine
+	^firstLineLength notNil

@@ -1,0 +1,16 @@
+{
+	"category" : "System-Settings-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"script" ],
+	"name" : "SystemSettingLauncher",
+	"pools" : [
+		 ],
+	"super" : "PragmaSetting",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

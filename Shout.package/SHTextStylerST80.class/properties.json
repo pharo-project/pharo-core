@@ -1,0 +1,22 @@
+{
+	"category" : "Shout-Styling",
+	"classinstvars" : [
+		"styleTable",
+		"textAttributesByPixelHeight" ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "StephaneDucasse 11/29/2011 22:28",
+	"instvars" : [
+		"classOrMetaClass",
+		"workspace",
+		"font",
+		"parser",
+		"environment",
+		"pixelHeight" ],
+	"name" : "SHTextStylerST80",
+	"pools" : [
+		 ],
+	"super" : "SHTextStyler",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

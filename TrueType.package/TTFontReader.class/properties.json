@@ -1,0 +1,20 @@
+{
+	"category" : "TrueType-Support",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"charMap",
+		"glyphs",
+		"nGlyphs",
+		"kernPairs",
+		"fontDescription" ],
+	"name" : "TTFontReader",
+	"pools" : [
+		"TextConstants" ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

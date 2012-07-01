@@ -1,0 +1,3 @@
+tests
+testExecuteForSubclass
+	self assertExecutionOnClass: KMMockMorphSubclass attachingTo: KMMockMorph

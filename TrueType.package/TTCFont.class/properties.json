@@ -1,0 +1,31 @@
+{
+	"category" : "TrueType-Fonts",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"GlyphCacheData",
+		"GlyphCacheIndex",
+		"GlyphCacheReady",
+		"GlyphCacheSize",
+		"Registry",
+		"Scale",
+		"ShutdownList" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"ttcDescription",
+		"pointSize",
+		"foregroundColor",
+		"cache",
+		"derivatives",
+		"fallbackFont",
+		"height",
+		"ascent",
+		"descent",
+		"colorToCacheMap" ],
+	"name" : "TTCFont",
+	"pools" : [
+		"TextConstants" ],
+	"super" : "AbstractFont",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

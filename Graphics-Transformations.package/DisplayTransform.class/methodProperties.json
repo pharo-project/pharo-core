@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"identity" : "ar 11/2/1998 20:55" },
+	"instance" : {
+		"asCompositeTransform" : "ar 11/2/1998 19:59",
+		"asMatrixTransform2x3" : "ar 11/2/1998 20:01",
+		"composedWithGlobal:" : "ar 11/2/1998 16:15",
+		"composedWithLocal:" : "ar 11/2/1998 16:41",
+		"globalBoundsToLocal:" : "ar 11/2/1998 16:19",
+		"globalPointToLocal:" : "ar 11/2/1998 16:17",
+		"globalPointsToLocal:" : "ar 11/9/1998 14:35",
+		"inverseTransformation" : "ar 11/2/1998 19:43",
+		"invertBoundsRect:" : "gh 10/22/2001 13:24",
+		"isCompositeTransform" : "ar 11/2/1998 22:47",
+		"isIdentity" : "ar 11/2/1998 16:17",
+		"isMatrixTransform2x3" : "ar 11/2/1998 22:48",
+		"isMorphicTransform" : "ar 11/2/1998 22:48",
+		"isPureTranslation" : "ar 11/2/1998 16:16",
+		"localBoundsToGlobal:" : "ar 11/2/1998 16:19",
+		"localPointToGlobal:" : "ar 11/2/1998 16:18",
+		"localPointsToGlobal:" : "ar 11/9/1998 14:35",
+		"setIdentity" : "ar 11/2/1998 23:18",
+		"sourceQuadFor:" : "di 10/25/1999 12:49" } }

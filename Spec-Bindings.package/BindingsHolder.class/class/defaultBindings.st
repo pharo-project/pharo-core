@@ -1,0 +1,4 @@
+accessing
+defaultBindings
+
+	^ MorphicBindings new

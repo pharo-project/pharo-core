@@ -1,0 +1,5 @@
+accessing
+itemClass
+
+	^ event itemClass
+	

@@ -1,0 +1,16 @@
+{
+	"category" : "Balloon-Geometry",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"via" ],
+	"name" : "Bezier2Segment",
+	"pools" : [
+		 ],
+	"super" : "LineSegment",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

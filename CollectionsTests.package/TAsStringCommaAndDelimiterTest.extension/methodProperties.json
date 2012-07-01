@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"empty" : "delaunay 4/21/2009 09:57",
+		"nonEmpty" : "delaunay 4/21/2009 09:57",
+		"nonEmpty1Element" : "delaunay 4/21/2009 09:57",
+		"test0FixtureAsStringCommaAndDelimiterTest" : "delaunay 4/14/2009 14:41",
+		"testAsCommaStringEmpty" : "delaunay 4/14/2009 14:41",
+		"testAsCommaStringMore" : "delaunay 4/30/2009 12:00",
+		"testAsCommaStringOne" : "delaunay 4/14/2009 14:59",
+		"testAsStringOnDelimiterEmpty" : "delaunay 4/14/2009 14:42",
+		"testAsStringOnDelimiterLastEmpty" : "delaunay 4/14/2009 14:42",
+		"testAsStringOnDelimiterLastMore" : "delaunay 4/14/2009 15:16",
+		"testAsStringOnDelimiterLastOne" : "delaunay 4/14/2009 15:09",
+		"testAsStringOnDelimiterMore" : "delaunay 4/14/2009 15:12",
+		"testAsStringOnDelimiterOne" : "delaunay 4/14/2009 15:06" } }

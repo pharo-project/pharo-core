@@ -1,0 +1,16 @@
+{
+	"category" : "Zinc-Zodiac",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "SvenVanCaekenberghe 5/18/2011 14:18",
+	"instvars" : [
+		 ],
+	"name" : "ZnHTTPSTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+constants
+altPlainWindowClass
+	^16

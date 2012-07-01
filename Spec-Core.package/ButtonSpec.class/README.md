@@ -1,0 +1,1 @@
+A ButtonSpec is a spec used to describe a button

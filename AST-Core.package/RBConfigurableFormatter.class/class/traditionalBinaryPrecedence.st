@@ -1,0 +1,3 @@
+accessing
+traditionalBinaryPrecedence
+	^ TraditionalBinaryPrecedence printString

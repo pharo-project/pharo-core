@@ -1,0 +1,18 @@
+{
+	"category" : "GroupManagerUI",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"groupManager",
+		"treeModel",
+		"tree" ],
+	"name" : "DialogGroupManagerUI",
+	"pools" : [
+		 ],
+	"super" : "DialogWindow",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

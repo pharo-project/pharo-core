@@ -1,0 +1,3 @@
+private
+beDefault
+	Default := self
