@@ -7,18 +7,13 @@ squeezeNumberOutOfString: stringOrStream onError: errorBlock
 	are left or the number has been found. As soon as a number is
 	found, it is returned. Otherwise, the method fails."
 	
-	| string try|
-	
-	(self parse: stringOrStream onError: [nil])
-		ifNotNilDo: [ :result| ^ result ].
-		
-	(self parse: stringOrStream asString copy reversed onError: [nil])
-		ifNotNilDo: [ :result| ^ result asString reversed asNumber].
-	
+	| string |
+
 	string := stringOrStream.
-	(stringOrStream size - 1) timesRepeat: [
-		string := string allButFirst.
+				
+	stringOrStream size timesRepeat: [
 		(self parse: string onError: [ nil ])
-			ifNotNilDo: [ :result| ^ result ].].
+			ifNotNilDo: [ :result| ^ result ].
+		string := string allButFirst ].
 	
 	^ errorBlock value

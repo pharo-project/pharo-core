@@ -4,7 +4,7 @@
 		"parse:" : "nice 5/1/2006 02:02",
 		"parse:onError:" : "nice 5/1/2006 02:02",
 		"squeezeNumberOutOfString:" : "NikoSchwarz 10/23/2009 13:21",
-		"squeezeNumberOutOfString:onError:" : "CamilloBruni 5/7/2012 03:06" },
+		"squeezeNumberOutOfString:onError:" : "BenjaminVanRyseghem 7/1/2012 14:17" },
 	"instance" : {
 		"allowPlusSign" : "nice 2/12/2010 23:56",
 		"allowPlusSignInExponent" : "nice 2/12/2010 23:56",

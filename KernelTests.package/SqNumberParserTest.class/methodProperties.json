@@ -13,5 +13,5 @@
 		"testIntegerReadFrom" : "StephaneDucasse 5/28/2011 13:42",
 		"testIntegerReadWithRadix" : "nice 4/28/2012 16:55",
 		"testScaledDecimalWithTrailingZeroes" : "nice 8/29/2008 22:03",
-		"testSqueezingOutNumbers" : "TestRunner 10/24/2009 09:18",
+		"testSqueezingOutNumbers" : "BenjaminVanRyseghem 7/1/2012 02:03",
 		"testcheckForCoverage" : "nice 4/28/2012 16:57" } }
