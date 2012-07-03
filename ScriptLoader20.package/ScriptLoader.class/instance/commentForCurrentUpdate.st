@@ -1,13 +1,13 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6226:	KernelTests-Number add a test for covering a bug
-	http://code.google.com/p/pharo/issues/detail?id=6226
+ ^ 'Issue 6237:	compiling protocol in TPureBehavior should be *Compiler-Kernel
+	http://code.google.com/p/pharo/issues/detail?id=6237
 	
-Issue 6224:	New SpecLayout builder
-	http://code.google.com/p/pharo/issues/detail?id=6224
+Issue 6211:	MCWorkingCopyTest failing
+	http://code.google.com/p/pharo/issues/detail?id=6211
 	
-Issue 4248:	Clean CodeUpdate and remove from image startup
-	http://code.google.com/p/pharo/issues/detail?id=4248
+Issue 6230:	Refactoring engine depending on SystemChangeNotifier
+	http://code.google.com/p/pharo/issues/detail?id=6230
 	
-Issue 6228:	Fix squuezeOutNumber
-	http://code.google.com/p/pharo/issues/detail?id=6228'
+Issue 6005:	BlockClosure>>silentlyValue 
+	http://code.google.com/p/pharo/issues/detail?id=6005'

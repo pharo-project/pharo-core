@@ -1,0 +1,16 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"DefaultInstance" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"startupStamp" ],
+	"name" : "ChangesLog",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

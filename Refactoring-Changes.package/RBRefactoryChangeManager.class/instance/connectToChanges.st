@@ -1,4 +1,18 @@
 initialize-release
 connectToChanges
-	SystemChangeNotifier uniqueInstance
-		notify: self ofAllSystemChangesUsing: #update:
+	SystemAnnouncer announcer weak
+		on: CategoryAdded,
+			CategoryRemoved,
+			CategoryRenamed,
+			ClassAdded,
+			ClassModifiedClassDefinition,
+			ClassRemoved,
+			ClassRenamed,
+			ClassReorganized,
+			MethodAdded,
+			MethodModified,
+			MethodRemoved,
+			ProtocolAdded,
+			ProtocolRemoved
+		send: #update:
+		to: self.

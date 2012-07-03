@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"binding" : "md 3/5/2006 23:49",
+		"bindingOf:" : "al 11/28/2005 11:28",
+		"compile:" : "al 8/2/2004 19:34",
+		"compile:classified:notifying:trailer:ifFail:" : "md 2/28/2006 10:04",
+		"compile:notifying:" : "al 11/28/2005 21:52",
+		"compileAll" : "al 7/30/2004 22:02",
+		"compileAllFrom:" : "StephaneDucasse 11/6/2009 20:43",
+		"compilerClass" : "al 11/28/2005 11:28",
+		"decompile:" : "al 11/28/2005 11:28",
+		"decompilerClass" : "md 3/1/2006 20:01",
+		"defaultMethodTrailer" : "StephaneDucasse 12/30/2009 15:23",
+		"evaluatorClass" : "al 11/28/2005 11:28",
+		"parserClass" : "al 11/28/2005 11:28",
+		"recompile:" : "al 7/30/2004 22:03",
+		"recompile:from:" : "al 7/30/2004 22:03",
+		"recompileChanges" : "nice 1/16/2010 12:51",
+		"sourceCodeTemplate" : "al 9/16/2005 14:17" } }

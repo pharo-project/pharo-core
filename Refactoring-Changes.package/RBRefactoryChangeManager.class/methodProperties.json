@@ -11,7 +11,7 @@
 	"instance" : {
 		"addUndo:" : "lr 9/7/2010 19:11",
 		"clearUndoRedoList" : "",
-		"connectToChanges" : "lr 3/13/2009 17:32",
+		"connectToChanges" : "GuillermoPolito 7/2/2012 11:51",
 		"disconnectFromChanges" : "lr 3/13/2009 17:29",
 		"hasRedoableOperations" : "lr 9/7/2010 19:11",
 		"hasUndoableOperations" : "lr 9/7/2010 19:11",
@@ -23,4 +23,4 @@
 		"release" : "",
 		"undoChange" : "lr 9/7/2010 19:12",
 		"undoOperation" : "lr 9/7/2010 19:12",
-		"update:" : "lr 3/13/2009 17:35" } }
+		"update:" : "GuillermoPolito 7/2/2012 11:54" } }
