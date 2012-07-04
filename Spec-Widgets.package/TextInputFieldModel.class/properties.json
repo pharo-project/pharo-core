@@ -11,7 +11,8 @@
 		"alwaysAccept",
 		"acceptOnCR",
 		"autoAccept",
-		"entryCompletion" ],
+		"entryCompletion",
+		"isEncrypted" ],
 	"name" : "TextInputFieldModel",
 	"pools" : [
 		 ],

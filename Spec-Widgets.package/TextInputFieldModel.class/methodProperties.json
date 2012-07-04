@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"defaultSpec" : "bvr 6/4/2012 14:35",
+		"defaultSpec" : "BenjaminVanRyseghem 7/4/2012 14:52",
 		"example" : "",
 		"title" : "" },
 	"instance" : {
@@ -10,12 +10,16 @@
 		"actionToPerformHolder" : "",
 		"autoAccept" : "BenjaminVanRyseghem 6/12/2012 13:54",
 		"autoAccept:" : "BenjaminVanRyseghem 6/12/2012 13:55",
+		"beDecrypted" : "BenjaminVanRyseghem 7/4/2012 14:53",
+		"beEncrypted" : "BenjaminVanRyseghem 7/4/2012 14:53",
 		"defaultEntryCompletion" : "",
+		"encrypted" : "BenjaminVanRyseghem 7/4/2012 14:52",
+		"encrypted:" : "BenjaminVanRyseghem 7/4/2012 14:53",
 		"entryCompletion" : "",
 		"entryCompletion:" : "BenjaminVanRyseghem 6/12/2012 13:56",
 		"ghostText" : "BenjaminVanRyseghem 6/12/2012 13:56",
 		"ghostText:" : "BenjaminVanRyseghem 6/12/2012 13:56",
-		"initialize" : "BenjaminVanRyseghem 6/7/2012 12:30",
+		"initialize" : "BenjaminVanRyseghem 7/4/2012 14:51",
 		"isCodeCompletionAllowed" : "BenjaminVanRyseghem 6/25/2012 23:46",
 		"removeEntryCompletion" : "BenjaminVanRyseghem 6/12/2012 13:56",
 		"textHolder" : "" } }

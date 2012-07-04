@@ -9,6 +9,7 @@ defaultSpec
 			#acceptOnCR:. 					{	#model. 	#acceptOnCR			}.
 			#ghostText:.						{	#model. 	#ghostText			}.
 			#enabled:.							{	#model. 	#enabled				}.
+			#encrypted:.						{ 	#model.	#encrypted			}.
 			#hResizing:. 							#spaceFill.
 			#vResizing:. 							#spaceFill.
 			#hideScrollBarsIndefinitely.
