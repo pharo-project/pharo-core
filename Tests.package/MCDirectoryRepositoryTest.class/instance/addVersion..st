@@ -1,6 +1,6 @@
 actions
 addVersion: aVersion
 	| file |
-	file := FileStream newFileNamed: (directory fullNameFor: aVersion fileName).
+	file := (directory / aVersion fileName) asFileReference writeStream.
 	aVersion fileOutOn: file.
 	file close.

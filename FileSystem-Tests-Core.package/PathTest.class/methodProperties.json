@@ -48,6 +48,8 @@
 		"testSlash" : "EstebanLorenzano 4/2/2012 11:42",
 		"testUnequalContent" : "EstebanLorenzano 4/2/2012 11:42",
 		"testUnequalSize" : "EstebanLorenzano 4/2/2012 11:42",
+		"testUnixAbsolutePathName" : "tbn 6/26/2012 21:07",
+		"testWindowsAbsolutePathName" : "tbn 6/26/2012 21:05",
 		"testWithExtentionAddsExtension" : "EstebanLorenzano 4/2/2012 11:42",
 		"testWithExtentionReplacesExtension" : "EstebanLorenzano 4/2/2012 11:42",
 		"testWorkingDirPrintString" : "EstebanLorenzano 4/3/2012 11:16",

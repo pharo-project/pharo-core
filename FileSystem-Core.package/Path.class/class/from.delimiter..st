@@ -5,7 +5,7 @@ from: aString delimiter: aDelimiterCharacter
 	aString isEmpty
 		ifTrue: [ ^ self root ].
 	
-	pathCls :=  aString first = $/ 
+	pathCls :=  ((self isAbsoluteUnixPath: aString) or: [self isAbsoluteWindowsPath: aString]) 
 		ifTrue: [AbsolutePath]
 		ifFalse:[RelativePath].
 	

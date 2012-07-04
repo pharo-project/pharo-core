@@ -1,6 +1,6 @@
 accessing
 directory
 	directory ifNil:
-		[directory := FileDirectory default directoryNamed: 'mctest'.
-		directory assureExistence].
+		[directory := 'mctest' asFileReference.
+		directory ensureDirectory].
 	^ directory

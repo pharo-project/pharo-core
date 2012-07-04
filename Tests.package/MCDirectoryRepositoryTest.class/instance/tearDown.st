@@ -1,3 +1,3 @@
 running
 tearDown
-	self directory recursiveDelete
+	self directory deleteAll
