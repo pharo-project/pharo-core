@@ -1,6 +1,7 @@
 tests
 testPlain
 	| query stream request response |
+	self isNativeSSLPluginPresent ifFalse: [ ^ self ].
 	query := 'Smalltalk'.
 	stream := ZdcSecureSocketStream openConnectionToHostNamed: 'encrypted.google.com' port: 443.
 	[

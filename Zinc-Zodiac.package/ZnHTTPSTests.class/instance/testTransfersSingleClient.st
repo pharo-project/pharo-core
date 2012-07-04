@@ -1,6 +1,8 @@
 testing
 testTransfersSingleClient
 	| client |
+	self ensureSocketStreamFactory.
+	self isNativeSSLPluginPresent ifFalse: [ ^ self ].
 	(client := ZnClient new)
 		https;
 		host: 's3-eu-west-1.amazonaws.com'.

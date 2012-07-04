@@ -11,7 +11,8 @@
 		"creation",
 		"modification",
 		"isDirectory",
-		"size" ],
+		"size",
+		"posixPermissions" ],
 	"name" : "FileSystemDirectoryEntry",
 	"pools" : [
 		 ],

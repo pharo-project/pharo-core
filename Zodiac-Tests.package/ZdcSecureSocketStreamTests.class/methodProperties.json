@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testPlain" : "SvenVanCaekenberghe 5/18/2011 11:52" } }
+		"isNativeSSLPluginPresent" : "SvenVanCaekenberghe 7/4/2012 11:20",
+		"testIsNativeSSLPluginPresent" : "SvenVanCaekenberghe 7/4/2012 11:23",
+		"testPlain" : "SvenVanCaekenberghe 7/4/2012 11:23" } }

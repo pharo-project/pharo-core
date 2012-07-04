@@ -8,3 +8,4 @@ fileSystem: aFilesystem path: aPath creation: cTime modification: mTime isDir: a
 		modification: mTime
 		isDir: aBoolean
 		size: anInteger
+		posixPermissions: self allPosixPermissions

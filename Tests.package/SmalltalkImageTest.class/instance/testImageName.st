@@ -6,9 +6,9 @@ testImageName
 	shortImgName := 'Squeak3.10.2-7179-basic'.
 
 	imageReference := (Smalltalk fullNameForImageNamed: shortImgName) asFileReference.
-	self assert: imageReference parent fullName equals: Smalltalk imagePath.
+	self assert: (Smalltalk imagePath beginsWith: imageReference parent fullName).
 	self assert: imageReference basename equals: 'Squeak3.10.2-7179-basic.image'.
 
 	changesReference := (Smalltalk fullNameForChangesNamed: shortImgName) asFileReference.
-	self assert: changesReference parent fullName equals: Smalltalk imagePath.
+	self assert: (Smalltalk imagePath beginsWith: imageReference parent fullName).
 	self assert: changesReference basename equals: 'Squeak3.10.2-7179-basic.changes'.

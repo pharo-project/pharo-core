@@ -5,5 +5,4 @@ sourceCode
 	self type= #doIt ifTrue: [ ^ #preamble printString ].
 	self type= #classComment ifTrue: [ self commentClass ifNotNil: [ :comment | ^ comment comment ]].
 
-	self methodClass ifNil: [ ^ '' ].
-	^ (self methodClass >> self methodSelector) sourceCode
+	^ self string
