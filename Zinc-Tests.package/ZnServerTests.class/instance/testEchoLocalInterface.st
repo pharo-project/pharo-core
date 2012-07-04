@@ -2,7 +2,7 @@ testing
 testEchoLocalInterface
 	| server response |
 	(server := ZnServer on: self port)
-		interface: NetNameResolver loopBackAddress.
+		bindingAddress: NetNameResolver loopBackAddress.
 	[ 
 		server start.
 		self assert: server isRunning & server isListening.

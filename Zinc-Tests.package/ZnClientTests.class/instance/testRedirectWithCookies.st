@@ -1,7 +1,7 @@
 testing
 testRedirectWithCookies
 	self withServerDo: [ :server | | client cookie |
-		server delegate: (ZnValueDelegate with: [ :request | 
+		server onRequestRespond: [ :request | 
 			request uri firstPathSegment = 'one'
 				ifTrue: [ 
 					(ZnResponse redirect: 'two')
@@ -11,7 +11,7 @@ testRedirectWithCookies
 					cookie := request cookies detect: [ :each | each name = 'session' ] ifNone: [ nil ].
 					(request uri firstPathSegment = 'two' and: [ cookie notNil and: [ cookie value = '123456' ] ])
 						ifTrue: [ ZnResponse ok: (ZnEntity text: 'OK!') ]
-		 				ifFalse: [ ZnResponse badRequest: request ] ] ] ).
+		 				ifFalse: [ ZnResponse badRequest: request ] ] ].
 		(client := ZnClient new) 
 			url: server localUrl; addPath: 'one'; 
 			post.

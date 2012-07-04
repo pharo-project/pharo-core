@@ -5,7 +5,7 @@ testProgress
 				signalProgress: true;
 				get: 'http://zn.stfx.eu/echo?delay=2' ]
 			on: HTTPProgress 
-			do: [ :progress | bar label: progress printString. progress resume ] ]"
+			do: [ :progress | bar value: progress printString. progress resume ] ]"
 		
 	self 
 		should: [ 

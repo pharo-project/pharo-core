@@ -37,10 +37,7 @@ Welcome to Zinc HTTP Components,
 a modern, open-source Smalltalk framework to deal with the HTTP networking protocol.
 </p>
 <ul>
-<li>Project homepage <a href="http://homepage.mac.com/svc/Zinc-HTTP-Components/">http://homepage.mac.com/svc/Zinc-HTTP-Components/</a></li> 
-<li>SqueakSouce page <a href="http://www.squeaksource.com/ZincHTTPComponents.html">http://www.squeaksource.com/ZincHTTPComponents.html</a></li>
-</ul>
-<ul>
+<li>Project homepage <a href="http://zn.stfx.eu/">http://zn.stfx.eu</a></li> 
 <li>Locally available pages <a href="/help">/help</a></li>
 </ul>
 <h4>May the Source be with you!</h4>

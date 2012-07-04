@@ -5,7 +5,7 @@
 	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
-	"commentStamp" : "SvenVanCaekenberghe 6/18/2011 18:54",
+	"commentStamp" : "SvenVanCaekenberghe 5/9/2012 20:54",
 	"instvars" : [
 		 ],
 	"name" : "ZnConnectionTimeout",

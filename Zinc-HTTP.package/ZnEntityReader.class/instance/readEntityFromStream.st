@@ -9,10 +9,7 @@ readEntityFromStream
 			decodedEntityLength := nil.
 			stream := GZipReadStream on: stream ]
 		ifFalse: [ decodedEntityLength := self contentLength ].
-	entity := (self isStreaming ifTrue: [ ZnStreamingEntity ] ifFalse: [ ZnEntity ])
-			readFrom: stream
-			usingType: self contentType 
-			andLength: decodedEntityLength.
+	entity := self readFrom: stream usingType: self contentType andLength: decodedEntityLength.
 	self isChunked ifTrue: [ 
 		self isIdentityEncoded ifTrue: [ entity contentLength: stream totalSize ].
 		chunkedStream extraHeaders ifNotNil: [ :extraHeaders | self headers addAll: extraHeaders ] ].

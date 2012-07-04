@@ -4,8 +4,11 @@ My class side implements a number of convenience methods to do common HTTP clien
 
 	ZnEasy get: 'http://zn.stfx.eu/zn/small.html'.
 
-For most requests, I return a response object.
+For most requests, I return a response object. 
+Some return an image Form.
 
-For my implementation I use ZnNeoClient, a full featured HTTP client.
+	ZnEasy getPng: 'http://www.pharo-project.org/images/pharo.png'.
+
+For my implementation I use ZnClient, a full featured HTTP client.
 
 Part of Zinc HTTP Components.

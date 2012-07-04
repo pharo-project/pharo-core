@@ -5,7 +5,7 @@
 	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
-	"commentStamp" : "SvenVanCaekenberghe 9/6/2011 12:31",
+	"commentStamp" : "SvenVanCaekenberghe 4/7/2012 17:49",
 	"instvars" : [
 		"lock",
 		"connections" ],

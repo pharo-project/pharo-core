@@ -2,14 +2,14 @@ testing
 testCookies
 	| client |
 	self withServerDo: [ :server |
-		server delegate: (ZnValueDelegate with: [ :request | | cookie1 cookie2 response |
+		server onRequestRespond: [ :request | | cookie1 cookie2 response |
 			cookie1 := request cookies detect: [ :each | each name = 'x' ] ifNone: [ ZnCookie name: 'x' value: '0' ].
 			cookie2 := request cookies detect: [ :each | each name = 'y' ] ifNone: [ ZnCookie name: 'y' value: '100' ].
 			cookie1 value: (cookie1 value asInteger + 1) asString.
 			cookie2 value: (cookie2 value asInteger + 2) asString.
 			response := ZnResponse ok: (ZnEntity text: 'OK').
 			response addCookie: cookie1; addCookie: cookie2.
-			response ]).
+			response ].
 		client := ZnClient new url: server localUrl; yourself.
 		self assert: (client session cookieJar cookieAt: 'x' forUrl: client request url) isNil.
 		self assert: (client session cookieJar cookieAt: 'y' forUrl: client request url) isNil.

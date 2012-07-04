@@ -2,7 +2,7 @@
 	"class" : {
 		"handlesEncoding:" : "SvenVanCaekenberghe 1/25/2011 13:02",
 		"initialize" : "SvenVanCaekenberghe 1/25/2011 12:26",
-		"initializeByteTextConverters" : "SvenVanCaekenberghe 1/25/2011 12:28",
+		"initializeByteTextConverters" : "SvenVanCaekenberghe 5/3/2012 11:34",
 		"initializeEncoder:using:" : "SvenVanCaekenberghe 1/25/2011 12:47",
 		"newForEncoding:" : "SvenVanCaekenberghe 1/25/2011 12:44" },
 	"instance" : {

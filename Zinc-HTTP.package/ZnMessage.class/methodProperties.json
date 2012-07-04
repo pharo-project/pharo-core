@@ -1,10 +1,11 @@
 {
 	"class" : {
+		"readBinaryFrom:" : "SvenVanCaekenberghe 4/7/2012 16:41",
 		"readFrom:" : "SvenVanCaekenberghe 9/21/2010 11:56",
 		"readHeaderFrom:" : "SvenVanCaekenberghe 9/21/2010 12:18",
 		"readStreamingFrom:" : "SvenVanCaekenberghe 9/21/2010 11:56" },
 	"instance" : {
-		"clearEntity" : "SvenVanCaekenberghe 9/19/2011 10:26",
+		"clearEntity" : "SvenVanCaekenberghe 5/14/2012 10:37",
 		"contentLength" : "SvenVanCaekenberghe 9/21/2010 12:17",
 		"contentType" : "SvenVanCaekenberghe 9/21/2010 12:15",
 		"contents" : "SvenVanCaekenberghe 9/28/2010 13:03",
@@ -19,6 +20,7 @@
 		"headersDo:" : "SvenVanCaekenberghe 9/21/2010 12:04",
 		"isConnectionClose" : "SvenVanCaekenberghe 12/14/2010 14:51",
 		"isConnectionKeepAlive" : "SvenVanCaekenberghe 12/14/2010 14:51",
+		"readBinaryFrom:" : "SvenVanCaekenberghe 4/7/2012 16:42",
 		"readEntityFrom:" : "SvenVanCaekenberghe 6/28/2011 10:31",
 		"readFrom:" : "SvenVanCaekenberghe 6/28/2011 10:31",
 		"readHeaderFrom:" : "SvenVanCaekenberghe 9/21/2010 11:32",

@@ -1,8 +1,7 @@
 ZnManagingMultiThreadedServer is a ZnMultiThreadedServer that manages the socket stream connections used by the worker threads that are spawned.
 
-Create explicitely using:
+ZnManagingMultiThreadedServer startDefaultOn: 1701.
 
-	ZnManagingMultiThreadedServer startDefaultOn: 1701.
-	ZnManagingMultiThreadedServer stopDefault.
+I keep track of all the connections that I spawn so that I can close them when I am stopped.
 
 Part of Zinc HTTP Components.

@@ -5,7 +5,7 @@
 	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
-	"commentStamp" : "NickAger 5/9/2011 21:43",
+	"commentStamp" : "SvenVanCaekenberghe 5/15/2012 16:03",
 	"instvars" : [
 		"dispatcherDictionary" ],
 	"name" : "ZnDispatcherDelegate",

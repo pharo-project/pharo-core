@@ -13,6 +13,7 @@
 		"serverSocket",
 		"delegate",
 		"authenticator",
+		"reader",
 		"log",
 		"lastRequest",
 		"lastResponse" ],

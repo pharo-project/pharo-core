@@ -4,6 +4,7 @@
 	"instance" : {
 		"testMultiPartFormDataWriteRead" : "SvenVanCaekenberghe 1/27/2011 17:15",
 		"testReading" : "SvenVanCaekenberghe 12/3/2010 15:41",
+		"testReadingBinary" : "SvenVanCaekenberghe 4/7/2012 17:45",
 		"testReadingLimited" : "SvenVanCaekenberghe 1/31/2012 13:39",
 		"testStringEntityEncoderInitialization" : "SvenVanCaekenberghe 12/14/2010 12:13",
 		"testUTF8ReadingDetermined" : "PaulDeBruicker 04/10/2011 10:46",

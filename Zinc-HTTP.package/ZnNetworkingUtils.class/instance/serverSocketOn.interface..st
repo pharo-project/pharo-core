@@ -1,4 +1,4 @@
-as yet unclassified
+public
 serverSocketOn: port interface: address
 	| socket |
 	socket := Socket newTCP.

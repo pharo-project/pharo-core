@@ -4,7 +4,7 @@ readFrom: stream usingType: mimeType andLength: length
 	The concrete subclass depends on mimeType"
 	
 	| newEntity |
-	newEntity := (self concreteSubclassForType: mimeType) 
+	newEntity := (self concreteSubclassForType: mimeType binary: false) 
 						type: mimeType length: length.
 	newEntity readFrom: stream.
 	^ newEntity 

@@ -1,7 +1,7 @@
 operations
 getPng: urlObject
 	"self getPng: 'http://www.pharo-project.org/images/pharo.png'."
-	"(ZnClient getPng: 'http://chart.googleapis.com/chart?cht=tx&chl=',
+	"(ZnEasy getPng: 'http://chart.googleapis.com/chart?cht=tx&chl=',
 		'a^2+b^2=c^2' encodeForHTTP) asMorph openInHand."
 	
 	^ self 
