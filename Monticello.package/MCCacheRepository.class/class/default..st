@@ -1,4 +1,3 @@
-as yet unclassified
-default: aFileDirectory
-
-	default := self new directory: aFileDirectory.
+accessing
+default: aCacheRepository
+	default := aCacheRepository 

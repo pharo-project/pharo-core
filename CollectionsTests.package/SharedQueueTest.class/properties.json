@@ -1,19 +1,16 @@
 {
-	"category" : "Tools-Spotlight",
+	"category" : "CollectionsTests-Sequenceable",
 	"classinstvars" : [
 		 ],
 	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
-		"searchText",
-		"model",
-		"opened",
-		"search" ],
-	"name" : "Spotlight",
+		 ],
+	"name" : "SharedQueueTest",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "TestCase",
 	"traitcomposition" : "{}",
 	"type" : "normal" }

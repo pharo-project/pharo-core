@@ -1,9 +1,11 @@
 {
 	"class" : {
-		"cacheDirectory" : "CamilloBruni 5/11/2012 13:18",
+		"cacheDirectory" : "tbn 7/4/2012 15:45",
+		"cacheDirectory:" : "tbn 7/4/2012 15:52",
 		"checkCacheDirectory" : "stephaneducasse 2/4/2006 20:47",
-		"default" : "stephaneducasse 2/4/2006 20:47",
-		"default:" : "MarianoMartinezPeck 12/16/2011 15:49",
+		"default" : "tbn 7/4/2012 15:48",
+		"default:" : "tbn 7/4/2012 15:36",
+		"defaultCacheDirectory" : "tbn 7/4/2012 15:39",
 		"description" : "avi 10/9/2003 12:56",
 		"initialize" : "avi 1/22/2004 16:21" },
 	"instance" : {

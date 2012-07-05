@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 default
 	self checkCacheDirectory.
-	^ default ifNil: [default := self new directory: self cacheDirectory]
+	^ default ifNil: [default := self new directory: self defaultCacheDirectory]

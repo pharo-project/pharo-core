@@ -1,5 +1,4 @@
-as yet unclassified
+accessing settings
 cacheDirectory
-	^ 'package-cache' asDirectory 
-		ensureDirectory;
-		yourself
+	^self default directory asAbsolute
+	
