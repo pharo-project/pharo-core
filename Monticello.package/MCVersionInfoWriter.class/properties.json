@@ -5,7 +5,7 @@
 	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"written" ],
 	"name" : "MCVersionInfoWriter",

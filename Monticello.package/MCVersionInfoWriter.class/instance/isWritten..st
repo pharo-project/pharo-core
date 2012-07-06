@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 isWritten: aVersionInfo
 	^ self written includes: aVersionInfo

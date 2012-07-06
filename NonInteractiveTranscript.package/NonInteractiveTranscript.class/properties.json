@@ -5,7 +5,7 @@
 	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
-	"commentStamp" : "SvenVanCaekenberghe 12/4/2011 17:53",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"stream",
 		"fileName",

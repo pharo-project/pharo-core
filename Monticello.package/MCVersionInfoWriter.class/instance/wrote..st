@@ -1,3 +1,3 @@
-as yet unclassified
+serialization
 wrote: aVersionInfo
 	self written add: aVersionInfo

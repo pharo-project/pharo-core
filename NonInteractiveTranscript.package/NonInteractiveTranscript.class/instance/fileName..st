@@ -5,5 +5,4 @@ fileName: anObject
 	for using the standard output stream of the virtual machine process."
 	
 	self close.
-	stream := nil.
 	fileName := anObject

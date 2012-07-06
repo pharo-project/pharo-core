@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 takeSnapshot
 	^ self mockPackage snapshot

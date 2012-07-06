@@ -1,3 +1,4 @@
 running
 tearDown
-	self directory deleteAll
+	self directory deleteAll.
+	

@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 mockPackageName
 	^ MCMockPackageInfo new packageName
