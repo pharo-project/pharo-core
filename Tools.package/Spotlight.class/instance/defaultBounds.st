@@ -1,3 +1,3 @@
 initialize
 defaultBounds 
-	^0@0 corner: 350@32
+	^0@0 corner: 300@32

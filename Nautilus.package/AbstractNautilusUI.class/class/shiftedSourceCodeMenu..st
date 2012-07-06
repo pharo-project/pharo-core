@@ -11,7 +11,7 @@ shiftedSourceCodeMenu: aBuilder
 				items add: ((aBuilder item: each contents asSymbol)
 								selector: each selector;
 								target: each target;
-								parent: #'Extended search...';
+								parent: #'Extended Search...';
 								arguments: each arguments;
 								order: (index*100)).
 				each icon ifNotNil: [:ic | items last icon: ic ]]].

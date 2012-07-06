@@ -1,13 +1,10 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6280:	NonInteractiveTranscript streams do not survive restarts
-	http://code.google.com/p/pharo/issues/detail?id=6280
+ ^ 'Issue 6249:	spotlight enhancements
+	http://code.google.com/p/pharo/issues/detail?id=6249
 	
-Issue 6101:	MNU: ClassTrait>>methodsInProtocol:
-	http://code.google.com/p/pharo/issues/detail?id=6101
+Issue 5861:	group window should close docked windows
+	http://code.google.com/p/pharo/issues/detail?id=5861
 	
-Issue 5756:	Failing tests: MC loading/ unloading
-	http://code.google.com/p/pharo/issues/detail?id=5756
-	
-Issue 5975:	Cleanup after using FileSystem everywhere
-	http://code.google.com/p/pharo/issues/detail?id=5975'
+Issue 6281:	Nautilus: inconsistent menu labeling
+	http://code.google.com/p/pharo/issues/detail?id=6281'

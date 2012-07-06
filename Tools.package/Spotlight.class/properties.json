@@ -4,12 +4,11 @@
 		 ],
 	"classtraitcomposition" : "{}",
 	"classvars" : [
-		 ],
+		"Current" ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		"searchText",
 		"model",
-		"opened",
 		"search" ],
 	"name" : "Spotlight",
 	"pools" : [

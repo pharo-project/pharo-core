@@ -4,4 +4,3 @@ open
 	self top: 0.
 	super openInWorld.
 	search takeKeyboardFocus.
-	opened := true.

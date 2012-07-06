@@ -78,4 +78,5 @@ packagesMenu: aBuilder
 	(aBuilder item: #'Add in Group... (n, e, p)')
 		action: [target addPackagesInGroup];
 		order: 1900;
-		help: 'Add current package in a group'.
+		help: 'Add current package in a group';
+		withSeparatorAfter.

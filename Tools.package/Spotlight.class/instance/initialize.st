@@ -3,7 +3,6 @@ initialize
 	| title |
 	
 	super initialize.
-	opened := false.
 	self beSticky.
 	self 
 		layoutPolicy: TableLayout new;
@@ -11,19 +10,19 @@ initialize
 	 	wrapCentering: #center;
 	 	hResizing: #spaceFill;
 	 	vResizing: #spaceFill;
-	 	layoutInset: 5;	
+	 	layoutInset: self defaultLayoutInset ;	
 		cellInset: 5.
 	
 	self addMorphBack: UITheme current smallFindIcon asMorph.
 	
-	title := UITheme current
+	"title := UITheme current
 		newLabelIn: self 
 		for: self 
 		getLabel: #label 
 		getEnabled: nil.	
 	self addMorphBack: title.
 	title color: Color white.
-		
+	"	
 	search :=  self createSearchMorph
 		crAction: [ :text | self accepted ];
 		yourself.

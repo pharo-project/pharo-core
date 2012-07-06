@@ -1,0 +1,3 @@
+initialize
+defaultLayoutInset
+	^5

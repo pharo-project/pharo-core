@@ -5,6 +5,9 @@ buildKeymapsOn: aBuilder
 	(aBuilder shortcut: #openSpotlight) 
 		category: #Spotlight
 		default: Character cr shift
-		do: [ :morph | self new toggleOpen ].
+		do: [ :morph | 
+			Current 
+				ifNotNil: [ Current close. Current := nil ]
+				ifNil: [ (Current := self new) open ]].
 
 	aBuilder attachShortcutCategory:  #Spotlight to: Morph.

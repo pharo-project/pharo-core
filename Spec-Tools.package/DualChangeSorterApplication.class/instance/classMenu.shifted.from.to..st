@@ -6,10 +6,12 @@ classMenu: aMenu shifted: shifted from: src to: dest
 	aMenu target: self.
 	aMenu
 			add: 'Copy class to the other change set(c)' 
+			target: self
 			selector: #copyClassFrom:to:
 			argumentList: {src.dest}.
 	aMenu
 			add: 'Move class to the other change set' 
+			target: self
 			selector: #moveClassFrom:to:
 			argumentList: {src.dest}.
 	aMenu addLine.
