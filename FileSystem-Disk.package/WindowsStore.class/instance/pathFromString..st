@@ -1,7 +1,7 @@
 converting
 pathFromString: aString
 	| normalized pathClass |
-	normalized := aString replaceAll: UnixStore delimiter with: self delimiter.
+	normalized := aString copy replaceAll: UnixStore delimiter with: self delimiter.
 	pathClass := (Path isAbsoluteWindowsPath: normalized)
 		ifTrue: [ AbsolutePath ]
 		ifFalse: [ RelativePath ].

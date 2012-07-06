@@ -17,4 +17,7 @@ snapshot: save andQuit: quit
 	(quit and: [ resuming not ])
 		ifTrue: [ self quitPrimitive ].
 	
-	self startupImage: resuming snapshotWorked: snapshotResult
+	self startupImage: resuming snapshotWorked: snapshotResult.
+	
+	"We return the resuming state, which may be useful for users to know the state of the image"
+	^resuming

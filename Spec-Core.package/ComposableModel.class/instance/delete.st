@@ -2,4 +2,6 @@ private
 delete
 
 	self widget
-		ifNotNil: [ self widget owner ifNotNil: [:o | o delete ]]
+		ifNotNil: [:widget | window 
+						ifNil: [ widget delete ]
+						ifNotNil: [:o | o delete ]]
