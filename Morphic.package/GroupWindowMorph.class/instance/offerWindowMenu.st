@@ -1,0 +1,15 @@
+windows
+offerWindowMenu
+	"Popup the window menu. Fill from current workspace."
+	
+	| aMenu |
+	aMenu := self buildWindowMenu.
+	aMenu
+		addLine;
+		add: 'Grab window...'
+		target: self
+		action: #grabWindow.
+	aMenu lastItem icon: self theme smallWindowIcon.
+	self tabGroup page ifNotNil: [: page |
+		page model addModelItemsToWindowMenu: aMenu].
+	aMenu popUpEvent: self currentEvent in: self world
