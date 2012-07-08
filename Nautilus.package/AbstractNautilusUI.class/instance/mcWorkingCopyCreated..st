@@ -1,7 +1,6 @@
 monticello announcements
 mcWorkingCopyCreated: anAnnouncement
 	| package rpackage mcPackage |
-	'Passed there' logCr.
 	window ifNil: [^ self ].
 	window isDisplayed ifFalse: [ ^ self ].
 	

@@ -19,7 +19,7 @@ A file on the server called updates.list has the names of the last N update file
 serverUrls description.  When that is true, the first word of the description is put on
 the front of 'updates.list', and that is the index file used."
 
-	[[
+	[[[
 		| pair failed loaded |
 		pair := self elementaryReadServerUpdates.
 		failed := pair first.
@@ -27,4 +27,8 @@ the front of 'updates.list', and that is the index file used."
 		failed ifNil: ["is OK"
 			 self feedback:  (loaded printString ,' new update file(s) processed.')]] 
 	on: (Smalltalk at: #MCMergeOrLoadWarning ifAbsent: [ nil ]) do: [ :e| e resume: false ]] 
-	on: (Smalltalk at: #MCNoChangesException ifAbsent: [ nil ]) do: [ :e| e resume].
+	on: (Smalltalk at: #MCNoChangesException ifAbsent: [ nil ]) do: [ :e| e resume]]
+ 	on: MCMergeResolutionRequest do: [ :request |
+			request merger conflicts isEmpty
+				ifTrue: [ request resume: true ]
+				ifFalse: [ request pass ]].

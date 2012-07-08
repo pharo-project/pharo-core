@@ -1,6 +1,6 @@
 as yet unclassified
 methods
-	^ MCMockClassA selectors
+	^ (Smalltalk at: #MCMockClassA) selectors
 		select: [:ea | ea beginsWith: 'ordinal']
 		thenCollect:
-			[:ea | RGMethodDefinition realClass: MCMockClassA selector: ea ]
+			[:ea | RGMethodDefinition realClass: (Smalltalk at: #MCMockClassA) selector: ea ]

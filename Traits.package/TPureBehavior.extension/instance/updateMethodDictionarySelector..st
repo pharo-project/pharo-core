@@ -4,11 +4,9 @@ updateMethodDictionarySelector: aSymbol
 	Do the appropriate update to my methodDict (remove or update method) and
 	return all affected selectors of me so that my useres get notified."
 
-	| modifiedSelectors descriptions |
+	| modifiedSelectors descriptions oldProtocol |
 	modifiedSelectors := IdentitySet new.
-	descriptions := self hasTraitComposition
-		ifTrue: [ self traitComposition methodDescriptionsForSelector: aSymbol ]
-		ifFalse: [ #() ].
+	descriptions := self traitComposition methodDescriptionsForSelector: aSymbol.
 	descriptions do: [:methodDescription | | effectiveMethod selector |
 		selector := methodDescription selector.
 		(self includesLocalSelector: selector) ifFalse: [
@@ -19,5 +17,10 @@ updateMethodDictionarySelector: aSymbol
 				ifFalse: [
 					effectiveMethod := methodDescription effectiveMethod.
 					self addTraitSelector: selector withMethod: effectiveMethod.
+					
+					"If the method was not categorized yet, we categorize it "
+					oldProtocol := self organization categoryOfElement: selector.
+					(oldProtocol isNil or: [ oldProtocol = ClassOrganizer default ]) ifTrue: [ self organization classify: selector under: methodDescription effectiveMethodCategory. ].
+					
 					modifiedSelectors add: selector]]].
 	^modifiedSelectors
