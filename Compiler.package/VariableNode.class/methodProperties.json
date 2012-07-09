@@ -9,7 +9,7 @@
 		"emitCodeForReturn:encoder:" : "eem 5/14/2008 16:41",
 		"emitCodeForStore:encoder:" : "eem 5/14/2008 18:08",
 		"emitCodeForStorePop:encoder:" : "eem 5/14/2008 16:41",
-		"emitCodeForValue:encoder:" : "eem 5/14/2008 18:07",
+		"emitCodeForValue:encoder:" : "SeanDeNigris 7/7/2012 21:46",
 		"fieldOffset" : "eem 9/5/2008 18:14",
 		"index" : "jannik.laval 5/1/2010 20:18",
 		"isSelfPseudoVariable" : "eem 5/14/2008 09:13",
@@ -26,5 +26,5 @@
 		"sizeCodeForReturn:" : "eem 5/14/2008 16:58",
 		"sizeCodeForStore:" : "eem 5/14/2008 18:09",
 		"sizeCodeForStorePop:" : "eem 5/14/2008 18:09",
-		"sizeCodeForValue:" : "eem 5/14/2008 17:54",
+		"sizeCodeForValue:" : "SeanDeNigris 7/7/2012 21:46",
 		"type" : "eem 5/14/2008 09:18" } }

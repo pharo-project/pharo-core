@@ -1,6 +1,8 @@
 {
 	"class" : {
 		"defaultSpec" : "bvr 6/4/2012 14:42",
+		"menuCommandOn:" : "StephaneDucasse 7/4/2012 19:57",
+		"registerToolsOn:" : "StephaneDucasse 7/4/2012 19:48",
 		"title" : "" },
 	"instance" : {
 		"changeSet:to:shortcuts:from:" : "BenjaminVanRyseghem 6/13/2012 12:00",

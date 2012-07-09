@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"defaultSpec" : "bvr 6/4/2012 17:01",
+		"registerToolsOn:" : "StephaneDucasse 7/4/2012 19:48",
 		"topSpec" : "bvr 6/4/2012 14:41" },
 	"instance" : {
 		"addPreamble" : "",

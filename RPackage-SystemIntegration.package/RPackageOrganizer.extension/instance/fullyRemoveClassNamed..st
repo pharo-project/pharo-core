@@ -4,6 +4,7 @@ fullyRemoveClassNamed: className
 
 	| rPackage |	
 	rPackage := self packageOfClassNamed: className.
+	rPackage ifNil: [^self].
 	rPackage removeClassDefinitionNamed: className.
 	rPackage removeAllMethodsFromClassNamed: className. 
 	(self extendingPackagesOfClassNamed: className)

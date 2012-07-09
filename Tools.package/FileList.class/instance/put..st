@@ -7,7 +7,6 @@ put: aText
 		ifTrue:[
 			ff := reference  writeStream.
 			Cursor write showWhile: [ff nextPutAll: aText asString; close].
-			self halt.
 			reference basename = ff localName 
 				ifTrue: [contents := aText asString]
 				ifFalse: [	 self updateList. "user renamed the file" ].

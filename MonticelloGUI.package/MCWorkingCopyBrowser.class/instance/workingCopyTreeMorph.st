@@ -1,6 +1,5 @@
 morphic ui
 workingCopyTreeMorph
-	self halt.
 	^ SimpleHierarchicalListMorph
 		on: self
 		list: #workingCopyTree

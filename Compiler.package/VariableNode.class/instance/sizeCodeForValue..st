@@ -11,5 +11,4 @@ sizeCodeForValue: encoder
 	code = LdThisContext ifTrue:
 		[^encoder sizePushThisContext].
 	self flag: 'probably superfluous'.
-	self halt.
 	^encoder sizePushInstVar: index

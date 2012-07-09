@@ -11,5 +11,4 @@ emitCodeForValue: stack encoder: encoder
 	code = LdThisContext ifTrue:
 		[^encoder genPushThisContext].
 	self flag: 'probably superfluous'.
-	self halt.
 	^encoder genPushInstVar: index

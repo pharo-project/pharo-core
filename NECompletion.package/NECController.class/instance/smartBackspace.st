@@ -1,7 +1,8 @@
 keyboard
 smartBackspace
+
 	| opposite |
-	self haltOnce.
+
 	editor hasSelection
 		ifTrue: [ ^ false ].
 	

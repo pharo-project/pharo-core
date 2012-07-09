@@ -11,7 +11,6 @@ resort: newMode
 	self updateFileList.
 	
 	item ifNotNil: [
-		self halt.
 		reference := item.
 		listIndex := list findFirst: [:i | i = item. ].
 		self changed: #fileListIndex].
