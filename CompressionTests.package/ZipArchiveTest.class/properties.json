@@ -10,7 +10,8 @@
 		"fileToZip",
 		"zip",
 		"subdir",
-		"zipFile" ],
+		"zipFile",
+		"fileSystem" ],
 	"name" : "ZipArchiveTest",
 	"pools" : [
 		 ],

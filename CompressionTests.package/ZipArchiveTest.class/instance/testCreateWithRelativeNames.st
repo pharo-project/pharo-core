@@ -16,7 +16,7 @@ testCreateWithRelativeNames
 		as: nestedFileToZip name.
 	zip writeToFileNamed: zipFile fullName.
 	
-zipFile fileStreamDo: [ :str |
+	zipFile fileStreamDo: [ :str |
 		str binary.
 		localFileHeaderSignature := 16r04034b50.
 		versionNeededToExtract := 20.
@@ -51,7 +51,7 @@ zipFile fileStreamDo: [ :str |
 		self assert: (str nextLittleEndianNumber: 4) equals: expectedUncompressedSize.
 		self assert: (str nextLittleEndianNumber: 2) equals: nestedFileToZip name size.
 		self assert: (str nextLittleEndianNumber: 2) equals: 0 "Extra header length".
-		self assert: (str next: nestedFileToZip name size) asString equals: nestedFileToZip name.
+		self assert: (str next: nestedFileToZip name size) asString equals: (nestedFileToZip name copy replaceAll: DiskStore delimiter with: $/).
 		self assert: (str next: expectedCompressedSize) isNil not "I don''t understand the compression yet".
 		
 		"Central directory structure"
@@ -100,7 +100,7 @@ zipFile fileStreamDo: [ :str |
 		self flag: 'I don''t understand the attributes yet'.
 		self assert: (str nextLittleEndianNumber: 4) equals: 8r0100666 << 16 "External file attributes".
 		self assert: (str nextLittleEndianNumber: 4) equals: fileStart "Relative offset of local header".
-		self assert: (str next: nestedFileToZip name size) asString equals: nestedFileToZip name.
+		self assert: (str next: nestedFileToZip name size) asString equals:  (nestedFileToZip name copy replaceAll: DiskStore delimiter with: $/).
 
 		centralDirectoryEnd := str position.
 		

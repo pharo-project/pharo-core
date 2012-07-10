@@ -2,7 +2,7 @@ testing
 testFileNamed
 	| testString fileName |
 	"Given"
-	fileName := self name , 'test'.
+	fileName := self testFileName.
 	testString := 'testString'.
 	"When"
 	[self baseStreamType
