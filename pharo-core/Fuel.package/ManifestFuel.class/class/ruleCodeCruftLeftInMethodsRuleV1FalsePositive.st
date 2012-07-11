@@ -1,3 +1,0 @@
-meta data
-ruleCodeCruftLeftInMethodsRuleV1FalsePositive
-^ #(#('(RGMethodDefinition className: ''FLHookPrimitiveCluster'' selector: #registerIndexesOn: isMetaSide: false)' #'2012-04-21T17:26:41.076000001+02:00') #('(RGMethodDefinition className: ''FLPrimitiveCluster'' selector: #registerIndexesOn: isMetaSide: false)' #'2012-04-21T17:26:41.129000001+02:00') #('(RGMethodDefinition className: ''FLLightGeneralMapper'' selector: #visitCharacter: isMetaSide: false)' #'2012-04-21T17:26:41.178+02:00') #('(RGMethodDefinition className: ''FLBitsObjectCluster'' selector: #registerIndexesOn: isMetaSide: false)' #'2012-04-21T17:26:41.195000001+02:00') )

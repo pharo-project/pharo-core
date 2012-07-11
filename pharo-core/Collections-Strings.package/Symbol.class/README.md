@@ -1,1 +1,0 @@
-I represent Strings that are created uniquely. Thus, someString asSymbol == someString asSymbol.

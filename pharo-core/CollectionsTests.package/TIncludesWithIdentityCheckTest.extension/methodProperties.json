@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"collectionWithCopyNonIdentical" : "delaunay 4/28/2009 11:31",
-		"test0FixtureIncludeWithIdentityTest" : "Alexandre Bergel 5/22/2010 12:40",
-		"testIdentityIncludes" : "StephaneDucasse 5/22/2010 18:16",
-		"testIncludesAnyAllThere" : "CamilloBruni 9/8/2011 14:29",
-		"testIncludesAnyNoneThere" : "CamilloBruni 9/8/2011 14:29" } }

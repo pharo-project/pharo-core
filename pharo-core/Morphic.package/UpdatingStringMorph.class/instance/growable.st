@@ -1,4 +1,0 @@
-accessing
-growable
-
-	^ growable ~~ false

@@ -1,1 +1,0 @@
-A KonamiCodePlugin is a plugin which run an action when the Konami code is entered

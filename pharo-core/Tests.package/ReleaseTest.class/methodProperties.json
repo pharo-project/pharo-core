@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"testMethodsWithUnboundGlobals" : "",
-		"testObsoleteClasses" : "LaurentLaffont 2/7/2011 08:11",
-		"testUndeclared" : "marcus.denker 8/18/2008 21:40",
-		"testUnimplementedNonPrimitiveCalls" : "MarcusDenker 8/20/2011 13:47" } }

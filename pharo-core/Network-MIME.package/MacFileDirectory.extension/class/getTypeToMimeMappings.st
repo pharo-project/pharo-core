@@ -1,3 +1,0 @@
-*Network-MIME
-getTypeToMimeMappings
-	^TypeToMimeMappings

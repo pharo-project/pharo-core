@@ -1,1 +1,0 @@
-A RadioButtonGroupExample is an simple example about how to use RadioButtons and RadioGroup

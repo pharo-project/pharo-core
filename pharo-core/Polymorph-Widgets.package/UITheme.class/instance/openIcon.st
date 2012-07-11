@@ -1,3 +1,0 @@
-icons
-openIcon
-	^ ThemeIcons openIcon

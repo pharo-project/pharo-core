@@ -1,7 +1,0 @@
-{
-	"class" : {
-		"initialize" : "AlainPlantec 1/5/2010 11:44" },
-	"instance" : {
-		"filter:" : "tween 4/4/2007 18:42",
-		"renderStretchedGlyph:depth:subpixelPosition:font:" : "nice 1/5/2010 15:59",
-		"subGlyphOf:colorValue:mono:subpixelPosition:font:" : "tween 4/4/2007 18:43" } }

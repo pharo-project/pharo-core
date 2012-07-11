@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"testClosedTally" : "Alexandre Bergel 3/5/2010 17:53",
-		"testInstantiation" : "Alexandre Bergel 3/4/2010 18:44",
-		"testSampling1" : "Alexandre Bergel 3/15/2010 21:03",
-		"testTallySends" : "MarcusDenker 12/8/2011 15:34",
-		"testTallyShouldNotContainsAReturn" : "Alexandre Bergel 3/5/2010 17:29" } }

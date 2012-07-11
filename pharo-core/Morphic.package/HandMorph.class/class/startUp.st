@@ -1,4 +1,0 @@
-initialization
-startUp
-
-	self clearCompositionWindowManager

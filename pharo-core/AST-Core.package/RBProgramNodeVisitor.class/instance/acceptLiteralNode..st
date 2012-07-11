@@ -1,2 +1,0 @@
-visitor-double dispatching
-acceptLiteralNode: aLiteralNode

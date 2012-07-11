@@ -1,4 +1,0 @@
-friend
-ttcDescription
-
-	^ ttcDescription.

@@ -1,3 +1,0 @@
-testing-type
-isInstanceBinding
-	^ false

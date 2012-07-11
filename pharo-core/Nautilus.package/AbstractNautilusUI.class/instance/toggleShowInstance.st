@@ -1,3 +1,0 @@
-accessing
-toggleShowInstance
-	^ self subclassResponsibility

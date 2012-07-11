@@ -7,8 +7,7 @@ scanMultiCharactersFrom: startIndex to: stopIndex in: sourceString rightX: right
 		^ stops endOfRun ].
 	startEncoding := (sourceString at: startIndex) leadingChar.
 	font ifNil: [ font := (TextSharedInformation at: #DefaultMultiStyle) fontArray at: 1 ].
-	((font isMemberOf: StrikeFontSet) or: [ font isKindOf: TTCFontSet ]) 
-		ifTrue: 
+	font isFontSet ifTrue: 
 			[ maxAscii := font maxAsciiFor: startEncoding.
 			f := font fontArray at: startEncoding + 1.
 			spaceWidth := f widthOf: Space ]

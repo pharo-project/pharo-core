@@ -1,4 +1,0 @@
-protocol
-selectedClass
-
-	 ^ classesListModel selectedItem

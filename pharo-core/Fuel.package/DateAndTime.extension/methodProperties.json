@@ -1,7 +1,0 @@
-{
-	"class" : {
-		"materializeFrom:" : "MartinDias 12/30/2011 10:58" },
-	"instance" : {
-		"fuelAccept:" : "MartinDias 3/29/2012 03:05",
-		"fuelSet:nanoSecond:seconds:offset:" : "MarianoMartinezPeck 9/2/2011 15:15",
-		"serializeOn:" : "MartinDias 12/30/2011 10:52" } }

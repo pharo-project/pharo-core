@@ -1,4 +1,0 @@
-protocol
-selectedItem
-
-	^ listModel selectedItem

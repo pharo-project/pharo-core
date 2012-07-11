@@ -1,4 +1,0 @@
-morphic
-getText
-	
-	^ textHolder contents

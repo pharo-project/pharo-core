@@ -1,4 +1,0 @@
-private
-zork
-	
-	^ 34

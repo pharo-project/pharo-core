@@ -1,4 +1,0 @@
-event registration
-registerForNotifications
-	SystemAnnouncer current unsubscribe: self.
-	self registerInterestOnSystemChangesOnAnnouncer: SystemAnnouncer current.

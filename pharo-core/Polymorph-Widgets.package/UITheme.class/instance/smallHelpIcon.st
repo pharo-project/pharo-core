@@ -1,3 +1,0 @@
-icons
-smallHelpIcon
-	^ ThemeIcons smallHelpIcon

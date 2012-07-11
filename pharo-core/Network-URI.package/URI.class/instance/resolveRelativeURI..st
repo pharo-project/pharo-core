@@ -1,3 +1,0 @@
-accessing
-resolveRelativeURI: relativeURI
-	self shouldNotImplement

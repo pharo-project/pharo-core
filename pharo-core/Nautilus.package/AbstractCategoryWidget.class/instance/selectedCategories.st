@@ -1,4 +1,0 @@
-protocol
-selectedCategories
-
-	^ self subclassResponsibility

@@ -1,7 +1,0 @@
-{
-	"class" : {
-		"initialize" : "" },
-	"instance" : {
-		"initialize:" : "",
-		"lowPriorityOverrides:" : "",
-		"testIt:" : "" } }

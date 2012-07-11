@@ -1,4 +1,0 @@
-accessing
-newClassName
-
-	^ name

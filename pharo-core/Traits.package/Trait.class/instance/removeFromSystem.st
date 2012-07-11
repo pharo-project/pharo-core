@@ -1,3 +1,0 @@
-initialization
-removeFromSystem
-	self removeFromSystem: true

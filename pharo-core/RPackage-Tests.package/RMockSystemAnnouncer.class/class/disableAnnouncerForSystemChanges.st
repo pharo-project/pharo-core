@@ -1,4 +1,0 @@
-accessing
-disableAnnouncerForSystemChanges
-
-	SystemChangeNotifier uniqueInstance noMoreNotificationsFor: self 

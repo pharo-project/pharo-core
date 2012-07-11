@@ -1,4 +1,0 @@
-override
-size 
-
-	^ contents size

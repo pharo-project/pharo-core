@@ -1,4 +1,0 @@
-printing
-asBit
-
-	^ 1

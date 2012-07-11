@@ -1,3 +1,0 @@
-constants
-resetConstants
-	Constants := nil.

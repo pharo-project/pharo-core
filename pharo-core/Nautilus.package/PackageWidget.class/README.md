@@ -1,1 +1,0 @@
-PackageWidget is the basic implementation of a wiget managing packages

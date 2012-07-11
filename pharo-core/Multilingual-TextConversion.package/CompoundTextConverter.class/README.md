@@ -1,1 +1,0 @@
-Text converter for X Compound Text.

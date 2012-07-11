@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"version:repository:" : "avi 8/26/2004 14:27" },
-	"instance" : {
-		"fromAddress" : "avi 8/26/2004 15:13",
-		"initializeWithVersion:repository:" : "stephaneducasse 2/4/2006 20:47",
-		"messageText" : "avi 8/26/2004 15:12",
-		"messageTo:" : "stephaneducasse 2/4/2006 20:47",
-		"notify:" : "stephaneducasse 2/4/2006 20:47" } }

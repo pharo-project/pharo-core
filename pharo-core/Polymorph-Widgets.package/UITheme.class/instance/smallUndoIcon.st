@@ -1,3 +1,0 @@
-icons
-smallUndoIcon
-	^ ThemeIcons smallUndoIcon

@@ -1,3 +1,0 @@
-attributes
-vmFileName
-	^ self fileName

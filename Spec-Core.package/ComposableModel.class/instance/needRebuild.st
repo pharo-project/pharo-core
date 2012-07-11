@@ -1,0 +1,4 @@
+accessing
+needRebuild
+
+	^ needRebuild contents

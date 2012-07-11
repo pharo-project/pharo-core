@@ -1,4 +1,0 @@
-*NautilusCommon-KeyMappingExtensions
-detachAllKeymapCategories
-
-	self targets removeAll

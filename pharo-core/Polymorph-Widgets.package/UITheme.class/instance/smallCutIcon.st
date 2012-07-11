@@ -1,3 +1,0 @@
-icons
-smallCutIcon
-	^ ThemeIcons smallCutIcon

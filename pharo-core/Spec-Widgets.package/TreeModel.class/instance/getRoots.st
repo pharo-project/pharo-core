@@ -1,4 +1,0 @@
-morphic
-getRoots
-							
-	^ rootsHolder contents

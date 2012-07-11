@@ -1,5 +1,0 @@
-initialize
-preDebugNotifierContentsFrom: messageString
-
-	^ messageString
-		

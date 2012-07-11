@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"setUp" : "al 2/9/2009 20:19",
-		"tearDown" : "al 2/9/2009 20:19",
-		"testAddNumbers" : "MarcusDenker 5/11/2011 13:42",
-		"testAnswer42" : "MarcusDenker 5/11/2011 13:42",
-		"testDNU" : "MarcusDenker 5/11/2011 13:42" } }

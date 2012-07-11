@@ -1,1 +1,0 @@
-A DictionaryValueHolder is a value holder designed for dictionaries

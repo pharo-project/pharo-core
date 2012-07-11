@@ -1,3 +1,0 @@
-*Keymapping-Core
-allowsKeymapping
-	^ true

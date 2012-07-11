@@ -1,4 +1,0 @@
-protocol
-pickedChanges
-
-	^ pickList pickedItems

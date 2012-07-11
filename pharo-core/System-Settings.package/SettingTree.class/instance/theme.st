@@ -1,4 +1,0 @@
-theme
-theme
-
-	^ UITheme current

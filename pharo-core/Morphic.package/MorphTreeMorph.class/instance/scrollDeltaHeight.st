@@ -1,3 +1,0 @@
-scrolling
-scrollDeltaHeight
-	^ super scrollDeltaHeight 

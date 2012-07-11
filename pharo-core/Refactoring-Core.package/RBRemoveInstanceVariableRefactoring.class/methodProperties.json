@@ -1,7 +1,0 @@
-{
-	"class" : {
-		"model:remove:from:" : "lr 1/20/2010 08:43",
-		"remove:from:" : "lr 1/20/2010 08:43" },
-	"instance" : {
-		"preconditions" : "lr 9/8/2011 20:25",
-		"transform" : "" } }

@@ -1,3 +1,0 @@
-ui requests
-menuClass
-	^MenuMorph

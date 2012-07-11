@@ -1,4 +1,0 @@
-protocol
-labelClickable
-	
-	^ labelClickableHolder contents

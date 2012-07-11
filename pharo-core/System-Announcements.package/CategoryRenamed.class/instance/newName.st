@@ -1,4 +1,0 @@
-accessing
-newName
-
-	^ event newName

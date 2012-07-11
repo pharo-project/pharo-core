@@ -1,4 +1,0 @@
-protocol
-selectedSelector
-
-	 ^ methodsListModel selectedItem

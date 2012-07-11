@@ -1,4 +1,0 @@
-accessing
-entryCompletion
-
-	^ entryCompletion contents

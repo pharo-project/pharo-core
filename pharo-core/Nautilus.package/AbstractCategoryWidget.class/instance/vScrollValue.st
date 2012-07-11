@@ -1,4 +1,0 @@
-protocol
-vScrollValue
-
-	^ self subclassResponsibility

@@ -1,3 +1,0 @@
-icons
-smallOkIcon
-	^ ThemeIcons smallOkIcon

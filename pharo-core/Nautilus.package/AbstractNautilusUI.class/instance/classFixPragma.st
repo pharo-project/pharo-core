@@ -1,4 +1,0 @@
-menu pragmas
-classFixPragma
-
-	^'nautilusClassFixMenu'

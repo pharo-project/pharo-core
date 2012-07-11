@@ -1,1 +1,0 @@
-I implement (more or less) the ANSI <FileWriteStream> protocol. I provide methods for writing data to a file.

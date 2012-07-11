@@ -1,4 +1,0 @@
-protocol
-okAction
-
-	^ okAction contents

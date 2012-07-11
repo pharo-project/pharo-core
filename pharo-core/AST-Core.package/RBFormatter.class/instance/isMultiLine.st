@@ -1,3 +1,0 @@
-accessing
-isMultiLine
-	^firstLineLength notNil

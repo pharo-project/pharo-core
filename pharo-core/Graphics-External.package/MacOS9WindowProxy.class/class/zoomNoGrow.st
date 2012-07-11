@@ -1,3 +1,0 @@
-constants
-zoomNoGrow
-	^12

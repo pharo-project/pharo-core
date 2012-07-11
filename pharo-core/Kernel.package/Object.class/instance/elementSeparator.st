@@ -1,3 +1,0 @@
-filter streaming
-elementSeparator
-	^nil.

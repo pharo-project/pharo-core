@@ -1,2 +1,0 @@
-updating
-themeChanged

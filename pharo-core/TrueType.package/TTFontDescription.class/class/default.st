@@ -1,3 +1,0 @@
-instance creations
-default
-	^ Default

@@ -1,7 +1,0 @@
-{
-	"class" : {
-		"when:substituteBy:" : "MartinDias 1/9/2012 14:52" },
-	"instance" : {
-		"initializeWith:substitutionFactory:" : "MartinDias 1/9/2012 14:53",
-		"mapAndTrace:" : "MartinDias 5/9/2012 00:12",
-		"mapAndTraceSubstitutionIfNotRecursive:" : "MartinDias 5/9/2012 00:13" } }

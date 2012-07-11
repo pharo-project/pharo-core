@@ -1,7 +1,24 @@
 tests
 testAsSeconds
 
-	| secondsSinceEpoch |
-	secondsSinceEpoch := (january23rd2004 start - '01 January, 1901 00:00:00' asDateAndTime) asSeconds.
-	self useTimeZone: 'EDT' during: [ self assert: january23rd2004 asSeconds equals: secondsSinceEpoch ].
-	self useTimeZone: 'PST' during: [ self assert: (Date fromSeconds: secondsSinceEpoch) equals: january23rd2004 ].
+	| secondsSinceEpoch dateUTC dateEDT datePST |
+	self useTimeZone: 'UTC' during: [
+		dateUTC := Date readFrom: '01-23-2004' readStream.
+		secondsSinceEpoch := (dateUTC start - DateAndTime epoch) asSeconds.
+		self assert: dateUTC asSeconds equals: secondsSinceEpoch.
+		self assert: (Date fromSeconds: secondsSinceEpoch) equals: dateUTC ].
+	
+	self useTimeZone: 'EDT' during: [
+		dateEDT := Date readFrom: '01-23-2004' readStream.
+		secondsSinceEpoch := (dateEDT start - DateAndTime epoch) asSeconds.
+		self assert: dateEDT asSeconds equals: secondsSinceEpoch.
+		self assert: (Date fromSeconds: secondsSinceEpoch) equals: dateEDT ].
+	
+	self useTimeZone: 'PST' during: [
+		datePST := Date readFrom: '01-23-2004' readStream.
+		secondsSinceEpoch := (datePST start - DateAndTime epoch) asSeconds.
+		self assert: datePST asSeconds equals: secondsSinceEpoch.
+		self assert: (Date fromSeconds: secondsSinceEpoch) equals: datePST ].
+	
+	self assert: dateUTC asSeconds  equals: dateEDT asSeconds - (4*3600).
+	self assert: dateUTC asSeconds  equals: datePST asSeconds - (8*3600).	

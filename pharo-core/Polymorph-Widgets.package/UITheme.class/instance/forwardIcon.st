@@ -1,3 +1,0 @@
-icons
-forwardIcon
-	^ ThemeIcons forwardIcon

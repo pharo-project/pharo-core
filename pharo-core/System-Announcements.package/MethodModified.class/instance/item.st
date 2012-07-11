@@ -1,4 +1,0 @@
-accessing
-item
-
-	^ event item

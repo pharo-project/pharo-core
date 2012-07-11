@@ -1,4 +1,0 @@
-multilingual scanning
-getPresentationLine
-
-	^ presentationLine.

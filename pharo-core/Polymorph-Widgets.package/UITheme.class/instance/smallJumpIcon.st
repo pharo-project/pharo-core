@@ -1,3 +1,0 @@
-icons
-smallJumpIcon
-	^ ThemeIcons smallJumpIcon

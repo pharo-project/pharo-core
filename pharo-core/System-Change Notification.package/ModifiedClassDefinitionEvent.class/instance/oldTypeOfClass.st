@@ -1,3 +1,0 @@
-accessing
-oldTypeOfClass
-	^ oldItem typeOfClass

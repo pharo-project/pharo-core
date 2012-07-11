@@ -1,3 +1,0 @@
-naming
-systemCategoryPrefix
-	^ self packageName

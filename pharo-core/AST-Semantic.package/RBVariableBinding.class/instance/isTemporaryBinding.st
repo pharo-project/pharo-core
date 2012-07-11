@@ -1,3 +1,0 @@
-testing-type
-isTemporaryBinding
-	^ false

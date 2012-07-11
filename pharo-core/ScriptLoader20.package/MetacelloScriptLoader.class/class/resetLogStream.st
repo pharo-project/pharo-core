@@ -1,3 +1,0 @@
-public
-resetLogStream
-	LogStream := nil

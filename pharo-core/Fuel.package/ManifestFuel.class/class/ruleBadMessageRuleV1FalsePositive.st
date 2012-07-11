@@ -1,3 +1,0 @@
-meta data
-ruleBadMessageRuleV1FalsePositive
-^ #(#('(RGMethodDefinition className: ''FLVariablesMapping'' selector: #referencesOf:do: isMetaSide: false)' #'2012-04-21T17:20:38.668000001+02:00') #('(RGMethodDefinition className: ''FLVariablesMapping'' selector: #serializeReferencesOf:with: isMetaSide: false)' #'2012-04-21T17:20:38.680000001+02:00') #('(RGMethodDefinition className: ''FLVariablesMapping'' selector: #materializeReferencesOf:with: isMetaSide: false)' #'2012-04-21T17:20:38.697000001+02:00') #('(RGMethodDefinition className: ''FLBufferedWriteStream'' selector: #initializeStream: isMetaSide: false)' #'2012-04-21T17:20:38.750000001+02:00') )

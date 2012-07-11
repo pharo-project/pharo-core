@@ -1,1 +1,0 @@
-A representation of a TrueType point which includes a 'type' flag defining whether this point is an 'on' or an 'off' curve point.

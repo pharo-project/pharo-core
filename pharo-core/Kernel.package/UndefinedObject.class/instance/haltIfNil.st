@@ -1,3 +1,0 @@
-testing
-haltIfNil
-	self halt

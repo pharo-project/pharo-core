@@ -1,3 +1,0 @@
-accessing
-instVarNames
-	^ item instVarNames

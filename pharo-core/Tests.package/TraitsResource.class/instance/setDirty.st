@@ -1,3 +1,0 @@
-accessing
-setDirty
-	dirty := true

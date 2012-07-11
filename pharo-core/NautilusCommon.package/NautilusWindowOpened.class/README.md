@@ -1,1 +1,0 @@
-A NautilusOpenedAnnouncement is raised when a NautilusWindow is opened

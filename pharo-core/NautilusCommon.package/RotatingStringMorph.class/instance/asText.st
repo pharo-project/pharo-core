@@ -1,4 +1,0 @@
-protocol
-asText
-
-	^ initialContents asText

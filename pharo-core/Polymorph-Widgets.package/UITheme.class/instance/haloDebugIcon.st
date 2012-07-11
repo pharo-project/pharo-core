@@ -1,3 +1,0 @@
-icons
-haloDebugIcon
-	^ ThemeIcons haloDebugIcon

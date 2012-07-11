@@ -1,8 +1,0 @@
-{
-	"class" : {
-		"fromClassNamed:toClass:variables:" : "MartinDias 1/4/2012 23:57" },
-	"instance" : {
-		"applyTo:" : "MartinDias 1/5/2012 13:14",
-		"initializeClassNamed:toClass:variables:" : "MartinDias 1/5/2012 13:12",
-		"sourceClassName" : "MartinDias 1/5/2012 01:09",
-		"targetClass" : "MartinDias 1/5/2012 13:12" } }

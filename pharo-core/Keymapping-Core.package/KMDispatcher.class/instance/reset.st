@@ -1,3 +1,0 @@
-initialize
-reset
-    directKeymaps := nil

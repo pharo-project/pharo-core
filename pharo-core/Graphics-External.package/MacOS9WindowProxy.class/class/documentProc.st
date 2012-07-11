@@ -1,3 +1,0 @@
-constants
-documentProc
-	^0

@@ -1,1 +1,0 @@
-Refactor is a script class used to automaticaly do some refactor through UIs

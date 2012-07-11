@@ -1,5 +1,0 @@
-initialization
-initializePresenter
-
-	self setActions.
-	

@@ -1,4 +1,0 @@
-encoding
-encodeSelector: selector
-
-	^nil

@@ -1,3 +1,0 @@
-requirement
-expectedElementByDetect
-	^ 30

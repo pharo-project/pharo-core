@@ -1,3 +1,0 @@
-icons
-imageIcon
-	^ ThemeIcons imageIcon

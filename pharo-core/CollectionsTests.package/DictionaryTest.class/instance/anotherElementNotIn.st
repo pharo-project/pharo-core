@@ -1,3 +1,0 @@
-requirement
-anotherElementNotIn
-	^ 42

@@ -1,1 +1,0 @@
-A NautilusMethodSelected is raised each time a mehod is selected

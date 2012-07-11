@@ -1,3 +1,0 @@
-deprecated
-isLiteral
-	^self isLiteralNode

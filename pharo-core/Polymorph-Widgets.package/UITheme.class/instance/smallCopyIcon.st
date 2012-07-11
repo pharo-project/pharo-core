@@ -1,3 +1,0 @@
-icons
-smallCopyIcon
-	^ ThemeIcons smallCopyIcon

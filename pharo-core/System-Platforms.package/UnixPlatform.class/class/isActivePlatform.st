@@ -1,3 +1,0 @@
-private
-isActivePlatform
-	^OSPlatform isUnix

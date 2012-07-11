@@ -1,3 +1,0 @@
-accessing
-environment
-	^thisClass environment

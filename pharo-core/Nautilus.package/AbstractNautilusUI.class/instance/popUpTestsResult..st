@@ -1,2 +1,0 @@
-private
-popUpTestsResult: aClass

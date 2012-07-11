@@ -1,1 +1,0 @@
-A ComposableSpec is a spec used to combine other specs

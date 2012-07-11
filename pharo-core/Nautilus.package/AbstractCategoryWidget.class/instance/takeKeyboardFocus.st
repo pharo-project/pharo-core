@@ -1,4 +1,0 @@
-protocol
-takeKeyboardFocus
-
-	^ self subclassResponsibility

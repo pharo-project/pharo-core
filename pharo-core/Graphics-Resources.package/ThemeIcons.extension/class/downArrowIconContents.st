@@ -1,8 +1,0 @@
-*Graphics-Resources-Theme-Icons
-downArrowIconContents
-	"Private - Method generated with the content of the file graphics\icons\downArrow.png"
-	^ 'iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAABh0
-RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjM2qefiJQAAAHxJREFUSEvtVFsOgCAM05vtaLu5
-UtREjNDuQ+LHmpBAGPQB2boVLF8CBCqKDoipQ4VeeThNgnGyGRH9eRlRRvSaAO1FZtb0oPtP
-whz7I1CCs513SdjD/YOg54Kpr+eUItS4exMT1gpkgqcL5fKQgykEF4mqPuxgCkFEPWp3+R+x
-NwMbsR8AAAAASUVORK5CYII='

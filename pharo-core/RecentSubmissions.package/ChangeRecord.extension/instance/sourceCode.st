@@ -1,9 +1,0 @@
-*RecentSubmissions-Core
-sourceCode
-	
-	self type= #preamble ifTrue: [ ^ #preamble printString ].
-	self type= #doIt ifTrue: [ ^ #preamble printString ].
-	self type= #classComment ifTrue: [ self commentClass ifNotNil: [ :comment | ^ comment comment ]].
-
-	self methodClass ifNil: [ ^ '' ].
-	^ (self methodClass >> self methodSelector) sourceCode

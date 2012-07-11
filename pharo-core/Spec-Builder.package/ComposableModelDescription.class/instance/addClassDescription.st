@@ -1,4 +1,0 @@
-accessing
-addClassDescription
-
-	^ addClassDescription

@@ -1,3 +1,0 @@
-override
-isMeta
-	^false

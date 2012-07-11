@@ -1,3 +1,0 @@
-accessing
-retainBlankLinesBetweenStatements: aBoolean
-	RetainBlankLinesBetweenStatements := aBoolean

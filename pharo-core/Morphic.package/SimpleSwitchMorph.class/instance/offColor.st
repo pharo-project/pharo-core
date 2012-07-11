@@ -1,4 +1,0 @@
-switching
-offColor
-
-	^ offColor

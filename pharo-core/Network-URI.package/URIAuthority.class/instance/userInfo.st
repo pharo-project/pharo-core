@@ -1,3 +1,0 @@
-accessing
-userInfo
-	^userInfo

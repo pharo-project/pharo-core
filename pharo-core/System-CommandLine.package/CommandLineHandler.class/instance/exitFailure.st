@@ -1,3 +1,0 @@
-utility
-exitFailure 
-	^ Smalltalk exitFailure

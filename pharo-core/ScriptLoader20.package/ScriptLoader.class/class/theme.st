@@ -1,3 +1,0 @@
-menu
-theme
-	^ UITheme current 

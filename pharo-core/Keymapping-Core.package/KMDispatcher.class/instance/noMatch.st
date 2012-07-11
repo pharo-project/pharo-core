@@ -1,3 +1,0 @@
-match
-noMatch
-	self clearBuffer.

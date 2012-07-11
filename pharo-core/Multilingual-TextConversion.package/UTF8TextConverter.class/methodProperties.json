@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"encodingNames" : "yo 12/19/2003 22:01",
-		"writeBOMOn:" : "tak 1/12/2005 13:22" },
-	"instance" : {
-		"errorMalformedInput" : "ar 4/6/2006 10:15",
-		"leadingChar" : "yo 11/8/2002 16:17",
-		"nextFromStream:" : "GabrielOmarCotelli 5/25/2010 21:22",
-		"nextPut:toStream:" : "ar 4/9/2005 22:29" } }

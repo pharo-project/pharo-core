@@ -1,4 +1,0 @@
-accessing
-defaultSocksHostAddress
-
-	^NetNameResolver addressForName: HTTPSocket httpProxyServer

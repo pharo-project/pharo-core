@@ -1,3 +1,0 @@
-converting
-asURI
-	^self

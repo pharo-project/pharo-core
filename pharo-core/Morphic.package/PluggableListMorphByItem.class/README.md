@@ -1,1 +1,0 @@
-Essentially useless in its current form. Probably intended to eventually deal with actual objects in the list rather than indexing/string-forms

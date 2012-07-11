@@ -1,4 +1,0 @@
-private
-extraBorder
-
-	^ 0

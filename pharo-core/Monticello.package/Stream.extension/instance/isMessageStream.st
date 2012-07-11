@@ -1,3 +1,0 @@
-*Monticello
-isMessageStream
-	^ false

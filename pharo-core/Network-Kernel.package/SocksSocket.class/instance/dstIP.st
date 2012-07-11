@@ -1,3 +1,0 @@
-private
-dstIP
-	^dstIP

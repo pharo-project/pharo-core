@@ -1,4 +1,0 @@
-morphic
-selectedBehavior
-
-	^ behaviorHolder contents

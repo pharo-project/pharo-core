@@ -1,3 +1,0 @@
-public
-close
-	handle close

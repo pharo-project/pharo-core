@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"new" : "" },
-	"instance" : {
-		"doFullRepaint" : "",
-		"invalidRectsFullBounds:" : "StephaneDucasse 2/7/2011 22:25",
-		"recordInvalidRect:" : "nice 1/5/2010 15:59",
-		"reset" : "sma 6/5/2000 11:55",
-		"updateIsNeeded" : "dgd 2/22/2003 14:43" } }

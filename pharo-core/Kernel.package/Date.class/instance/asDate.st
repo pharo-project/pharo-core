@@ -1,4 +1,0 @@
-squeak protocol
-asDate
-
-	^ self

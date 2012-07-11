@@ -1,3 +1,0 @@
-accessing
-defaultSocksPort
-	^HTTPSocket httpProxyPort

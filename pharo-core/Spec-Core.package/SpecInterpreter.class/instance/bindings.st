@@ -1,4 +1,0 @@
-accessing
-bindings
-	
-	^ model bindings

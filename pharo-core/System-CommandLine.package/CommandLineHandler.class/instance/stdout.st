@@ -1,3 +1,0 @@
-utility
-stdout
-	^ stdout

@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"testCreateFromString" : "SeanDeNigris 12/6/2011 14:36",
-		"testMultiPartAlternative" : "TonyFleig 11/28/2010 13:12",
-		"testMultiPartMixed" : "TonyFleig 11/28/2010 13:48",
-		"testRecipientList" : "SeanDeNigris 12/2/2011 13:31",
-		"testSimpleCreate" : "SeanDeNigris 12/6/2011 16:26" } }

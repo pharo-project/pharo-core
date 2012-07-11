@@ -1,3 +1,0 @@
-converting
-asUrlRelativeTo: aUrl
-	^self

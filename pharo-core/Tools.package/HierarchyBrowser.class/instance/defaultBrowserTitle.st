@@ -1,3 +1,0 @@
-initialization
-defaultBrowserTitle
-	^ 'Hierarchy Browser'

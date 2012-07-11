@@ -1,7 +1,0 @@
-{
-	"class" : {
-		"isAbstract" : "EstebanLorenzano 4/3/2012 09:40" },
-	"instance" : {
-		"assertOriginResolves:" : "EstebanLorenzano 4/12/2012 14:25",
-		"createResolver" : "cwp 10/27/2009 11:12",
-		"setUp" : "cwp 10/26/2009 21:25" } }

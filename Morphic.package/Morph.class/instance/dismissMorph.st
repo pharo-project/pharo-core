@@ -4,5 +4,5 @@ dismissMorph
 
 	| w |
 	w := self world ifNil:[^self].
-	w abandonAllHalos; stopStepping: self.
+	w deleteAllHalos; stopStepping: self.
 	self delete

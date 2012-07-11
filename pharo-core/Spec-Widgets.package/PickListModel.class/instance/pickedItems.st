@@ -1,4 +1,0 @@
-protocol
-pickedItems
-
-	^ pickedItemsHolder contents

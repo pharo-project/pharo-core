@@ -1,3 +1,0 @@
-*FuelTests
-withNotificationsNewClass
-	^  self withNotificationsNewClassWithInstanceVariableNames: ''

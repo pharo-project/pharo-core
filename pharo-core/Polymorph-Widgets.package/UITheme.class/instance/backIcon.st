@@ -1,3 +1,0 @@
-icons
-backIcon
-	^ ThemeIcons backIcon

@@ -1,1 +1,0 @@
-A CheckboxSpec is a spec used to describe a CheckboxButton and a RadionButton

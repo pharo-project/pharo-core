@@ -1,5 +1,0 @@
-accessing
-hasContents
-
-	^item hasContentsInExplorer
-	

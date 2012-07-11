@@ -1,4 +1,0 @@
-protocol
-beReadOnly
-
-	readOnly := true

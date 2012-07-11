@@ -2,12 +2,9 @@
 	"class" : {
 		"cleanUp" : "MarcusDenker 4/22/2011 10:37",
 		"defaultWorldColor" : "AlainPlantec 12/3/2009 15:56",
-		"disableDeferredUpdates" : "RAA 5/25/2000 15:26",
-		"disableDeferredUpdates:" : "MarcusDenker 4/22/2011 10:37",
 		"shutDown" : "rww 10/1/2001 01:17",
 		"startUp" : "rww 10/1/2001 01:17" },
 	"instance" : {
-		"abandonAllHalos" : "ar 9/28/2000 19:25",
 		"acceptDroppingMorph:event:" : "StephaneDucasse 7/18/2010 15:45",
 		"activeHand" : "di 7/27/1999 10:46",
 		"activeHand:" : "RAA 5/24/2000 22:29",

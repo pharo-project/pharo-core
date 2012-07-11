@@ -1,8 +1,0 @@
-{
-	"class" : {
-		"initialize" : "lr 2/8/2009 11:15",
-		"isSupported" : "lr 1/21/2010 19:06",
-		"primitiveGetUniqueSpellingTag" : "lr 2/8/2009 12:08" },
-	"instance" : {
-		"check:" : "lr 12/22/2010 13:34",
-		"primitiveCheckSpelling:startingAt:" : "lr 2/8/2009 11:58" } }

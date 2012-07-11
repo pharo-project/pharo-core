@@ -1,1 +1,0 @@
-I am a cluster for storing class traits in full detail.

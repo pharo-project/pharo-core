@@ -1,3 +1,0 @@
-as yet unclassified
-methodCaseSensitiveStringsContainingit
-	self handleEdit: [textMorph editor methodCaseSensitiveStringsContainingit]

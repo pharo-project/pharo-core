@@ -1,3 +1,0 @@
-accessing
-fileName
-	^ 'tests.fuel'

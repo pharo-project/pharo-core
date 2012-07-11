@@ -1,3 +1,0 @@
-*necompletion-extensions
-receiverClass
-	^nil

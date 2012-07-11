@@ -1,4 +1,0 @@
-accessing
-oldItem
-
-	^ event oldItem

@@ -1,3 +1,0 @@
-private
-okButtonAction
-	self valid.

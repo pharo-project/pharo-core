@@ -1,4 +1,0 @@
-private
-defaultReceiver
-
-	^ defaultReceiver

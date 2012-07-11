@@ -1,4 +1,0 @@
-private
-debuggingName
-
-	^ debuggingName 

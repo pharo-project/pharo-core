@@ -1,4 +1,0 @@
-*NautilusCommon-KeyMappingExtensions
-target
-
-	^ target

@@ -1,1 +1,0 @@
-AbstractGroup is an abstraction of what a group is.

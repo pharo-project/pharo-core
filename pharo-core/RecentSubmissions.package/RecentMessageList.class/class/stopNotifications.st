@@ -1,3 +1,0 @@
-events
-stopNotifications
-	SystemChangeNotifier uniqueInstance noMoreNotificationsFor: self

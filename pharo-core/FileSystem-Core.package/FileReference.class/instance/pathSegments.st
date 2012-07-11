@@ -1,3 +1,0 @@
-accessing
-pathSegments
-	^ path segments

@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"accept:notifying:" : "",
-		"nameToDisplay" : "",
-		"oldVersionTextToDisplay" : "",
-		"textToDisplay" : "",
-		"whatToDisplayIn:" : "" } }

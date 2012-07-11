@@ -1,3 +1,0 @@
-initialization
-defaultBrowserTitle
-	^ 'System Browser'

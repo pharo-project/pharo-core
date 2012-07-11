@@ -1,3 +1,0 @@
-constants
-toolbarWindowClass
-	^12

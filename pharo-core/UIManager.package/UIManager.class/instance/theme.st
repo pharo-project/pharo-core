@@ -1,3 +1,0 @@
-private
-theme  
-	^ UITheme current

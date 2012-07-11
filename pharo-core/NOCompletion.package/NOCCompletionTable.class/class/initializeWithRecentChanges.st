@@ -1,3 +1,0 @@
-as yet unclassified
-initializeWithRecentChanges
-	NOCRecentChanges new readRecentChanges fillCompletionTable.

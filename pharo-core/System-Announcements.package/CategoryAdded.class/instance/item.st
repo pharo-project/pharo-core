@@ -1,3 +1,0 @@
-accessing
-item
-	^ event item

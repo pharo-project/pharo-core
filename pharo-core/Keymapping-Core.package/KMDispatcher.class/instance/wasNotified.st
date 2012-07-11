@@ -1,3 +1,0 @@
-initialize
-wasNotified
-	 ^currentEvent wasHandled

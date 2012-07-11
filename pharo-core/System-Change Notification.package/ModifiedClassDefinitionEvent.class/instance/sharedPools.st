@@ -1,3 +1,0 @@
-accessing
-sharedPools
-	^ item sharedPools

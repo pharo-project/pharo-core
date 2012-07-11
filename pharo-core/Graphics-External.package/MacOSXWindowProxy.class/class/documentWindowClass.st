@@ -1,3 +1,0 @@
-constants
-documentWindowClass
-	^6

@@ -1,1 +1,0 @@
-MorphicBindingsWithSplitters is like MorphicBindings with splitters support in addition

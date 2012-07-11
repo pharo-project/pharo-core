@@ -1,3 +1,0 @@
-binding
-browseBindings
-	bindings inspect

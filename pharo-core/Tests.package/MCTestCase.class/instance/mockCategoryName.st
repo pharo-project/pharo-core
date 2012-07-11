@@ -1,3 +1,0 @@
-mocks
-mockCategoryName
-	^ 'Monticello-Mocks'

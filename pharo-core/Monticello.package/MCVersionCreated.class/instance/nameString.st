@@ -1,4 +1,0 @@
-accessing
-nameString
-
-		^ nameString

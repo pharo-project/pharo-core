@@ -1,4 +1,0 @@
-accessing
-minAscii
-
-	^ 0.

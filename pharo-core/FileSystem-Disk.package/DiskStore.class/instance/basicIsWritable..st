@@ -1,3 +1,0 @@
-private
-basicIsWritable: anEntry
-	^ true

@@ -1,4 +1,0 @@
-private
-initializeInstance
-
-	^ self defaultReceiver

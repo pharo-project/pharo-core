@@ -1,3 +1,0 @@
-properties
-bounds
-	^bounds

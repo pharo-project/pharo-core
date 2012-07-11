@@ -1,4 +1,0 @@
-*RecentSubmissions
-stamp
-
-	^ self timeStamp

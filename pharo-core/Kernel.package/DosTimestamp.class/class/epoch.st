@@ -1,4 +1,0 @@
-private
-epoch
-
-	^ DateAndTime dosEpoch.

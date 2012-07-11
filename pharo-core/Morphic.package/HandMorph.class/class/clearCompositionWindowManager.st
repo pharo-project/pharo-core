@@ -1,4 +1,0 @@
-initialization
-clearCompositionWindowManager
-
-	CompositionWindowManager := nil.

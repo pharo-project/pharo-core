@@ -1,1 +1,0 @@
-I extend a pluggable text morph just changing my textMorphClass to use a special TextMorphForField (who is aware of ocompletion). 

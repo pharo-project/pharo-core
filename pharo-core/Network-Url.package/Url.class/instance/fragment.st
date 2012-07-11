@@ -1,3 +1,0 @@
-fragment
-fragment
-	^fragment

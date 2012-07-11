@@ -1,3 +1,0 @@
-initialization
-open
-	^ self openAsMorph.

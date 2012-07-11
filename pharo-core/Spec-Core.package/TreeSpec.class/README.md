@@ -1,1 +1,0 @@
-A TreeSpec is a spec used to describe a tree

@@ -1,5 +1,0 @@
-accessing
-itemMethod
-
-	^ event item
-	

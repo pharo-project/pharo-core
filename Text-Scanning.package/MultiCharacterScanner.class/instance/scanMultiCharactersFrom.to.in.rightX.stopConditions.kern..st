@@ -6,7 +6,7 @@ scanMultiCharactersFrom: startIndex to: stopIndex in: sourceString rightX: right
 	lastIndex > stopIndex ifTrue: [lastIndex := stopIndex. ^ stops endOfRun].
 	startEncoding := (sourceString at: startIndex) leadingChar.
 	font ifNil: [font := (TextSharedInformation at: #DefaultMultiStyle) fontArray at: 1].
-	((font isMemberOf: StrikeFontSet) or: [font isKindOf: TTCFontSet]) ifTrue: [
+	font isFontSet ifTrue: [
 		f := [font fontArray at: startEncoding + 1]
 			on: Exception do: [:ex | nil].
 		f ifNil: [ f := font fontArray at: 1].

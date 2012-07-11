@@ -1,3 +1,0 @@
-accessing
-rationale
-	^ 'Checks precedence ordering of & and | with equality operators. Since | and & have the same precedence as =, there are common mistakes where parenthesis are missing around the equality operators.'

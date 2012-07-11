@@ -1,8 +1,0 @@
-{
-	"class" : {
-		"isAbstract" : "SvenVanCaekenberghe 6/27/2012 10:48" },
-	"instance" : {
-		"openConnectionToHost:port:" : "SvenVanCaekenberghe 6/27/2012 11:47",
-		"openConnectionToHostNamed:port:" : "SvenVanCaekenberghe 6/27/2012 11:48",
-		"socketStreamClass" : "SvenVanCaekenberghe 5/20/2011 10:19",
-		"socketStreamOn:" : "SvenVanCaekenberghe 6/27/2012 11:48" } }

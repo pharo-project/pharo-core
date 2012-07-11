@@ -1,3 +1,0 @@
-accessing
-arguments
-	^ commandLine arguments 

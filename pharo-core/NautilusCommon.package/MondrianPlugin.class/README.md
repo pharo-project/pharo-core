@@ -1,1 +1,0 @@
-A MondrianPlugin is a plugin which switch the code pane with a morph when a package is selwcted

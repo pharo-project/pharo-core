@@ -1,3 +1,0 @@
-initialization
-shutDown
-	Default := nil

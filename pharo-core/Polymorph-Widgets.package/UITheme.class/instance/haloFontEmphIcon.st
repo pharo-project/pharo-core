@@ -1,3 +1,0 @@
-icons
-haloFontEmphIcon
-	^ ThemeIcons haloFontEmphIcon

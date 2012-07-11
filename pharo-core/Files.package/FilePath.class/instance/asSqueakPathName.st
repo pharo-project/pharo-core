@@ -1,4 +1,0 @@
-conversion
-asSqueakPathName
-
-	^ self pathName.

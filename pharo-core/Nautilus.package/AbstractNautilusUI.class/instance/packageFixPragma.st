@@ -1,4 +1,0 @@
-menu pragmas
-packageFixPragma
-
-	^ 'nautilusPackageFixMenu'

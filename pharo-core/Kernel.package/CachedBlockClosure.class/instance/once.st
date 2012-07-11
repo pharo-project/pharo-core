@@ -1,3 +1,0 @@
-evaluating
-once
-	^cachedValue

@@ -1,4 +1,0 @@
-accessing
-addButton
-
-	^ addButton

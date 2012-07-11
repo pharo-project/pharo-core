@@ -1,1 +1,0 @@
-I am an abstract superclass for classes that provide FileStream-compatible streams, for using alternate filesystems from legacy code.

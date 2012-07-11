@@ -1,3 +1,0 @@
-icons
-smallCancelIcon
-	^ ThemeIcons smallCancelIcon

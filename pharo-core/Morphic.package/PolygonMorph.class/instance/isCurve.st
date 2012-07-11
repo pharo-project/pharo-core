@@ -1,3 +1,0 @@
-access
-isCurve
-	^ smoothCurve

@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"addOptionalButtonsTo:at:plus:" : "MarcusDenker 1/23/2011 09:15",
-		"buildMorphicNotifierLabelled:message:" : "JuanVuletich 10/22/2010 14:08",
-		"buttonRowForPreDebugWindow:" : "FernandoOlivero 4/12/2011 09:44",
-		"customButtonRow" : "FernandoOlivero 4/12/2011 09:44",
-		"optionalButtonRow" : "FernandoOlivero 4/12/2011 09:44" } }

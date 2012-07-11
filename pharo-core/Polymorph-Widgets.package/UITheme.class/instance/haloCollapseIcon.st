@@ -1,3 +1,0 @@
-icons
-haloCollapseIcon
-	^ ThemeIcons haloCollapseIcon

@@ -1,4 +1,0 @@
-processing
-generateSpec
-
-	^ self subclassResponsibility

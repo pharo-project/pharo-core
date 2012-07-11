@@ -1,3 +1,0 @@
-constants
-closeBoxAttribute
-	^1

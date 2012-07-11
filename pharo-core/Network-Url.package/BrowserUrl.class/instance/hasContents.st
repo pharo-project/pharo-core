@@ -1,3 +1,0 @@
-downloading
-hasContents
-	^true

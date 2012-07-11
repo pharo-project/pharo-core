@@ -1,4 +1,0 @@
-accessing
-itemMethod
-
-	^ self item

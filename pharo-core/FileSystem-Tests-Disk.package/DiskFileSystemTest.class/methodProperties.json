@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"createFileSystem" : "EstebanLorenzano 4/3/2012 13:17",
-		"testDefaultWorkingDirectory" : "IgorStasenko 8/17/2011 17:01",
-		"testEqual" : "EstebanLorenzano 4/3/2012 11:42",
-		"testIsDirectory" : "EstebanLorenzano 4/12/2012 14:26" } }

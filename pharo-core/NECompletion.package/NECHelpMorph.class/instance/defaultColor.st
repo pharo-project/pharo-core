@@ -1,3 +1,0 @@
-initialize
-defaultColor
-	^ NECMenuMorph backgroundColor

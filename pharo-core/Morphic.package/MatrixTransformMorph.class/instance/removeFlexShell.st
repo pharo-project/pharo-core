@@ -1,3 +1,0 @@
-flexing
-removeFlexShell
-	"Do nothing"

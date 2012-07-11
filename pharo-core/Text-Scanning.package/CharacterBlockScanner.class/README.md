@@ -1,1 +1,0 @@
-My instances are used to scan text to compute the CharacterBlock for a character specified by its index in the text or its proximity to the cursor location.

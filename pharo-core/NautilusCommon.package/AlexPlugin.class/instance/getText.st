@@ -1,4 +1,0 @@
-private
-getText
-
-	^ text

@@ -1,4 +1,0 @@
-private
-cancel
-
-	window delete

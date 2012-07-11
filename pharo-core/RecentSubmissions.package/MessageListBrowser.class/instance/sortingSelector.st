@@ -1,4 +1,0 @@
-droplist
-sortingSelector
-
-	^ sortingSelector

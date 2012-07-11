@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"createAbstractMethods" : "BenjaminVanRyseghem 5/24/2011 13:50",
-		"initialize" : "BenjaminVanRyseghem 5/24/2011 13:02",
-		"moveDetectedMethods" : "MarcusDenker 4/29/2012 10:34",
-		"script" : "BenjaminVanRyseghem 5/24/2011 13:48" } }

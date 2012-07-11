@@ -1,4 +1,0 @@
-conversion
-pathName
-
-	^ squeakPathName.

@@ -1,3 +1,0 @@
-icons
-radioButtonPressedIcon
-	^ ThemeIcons radioButtonPressedIcon

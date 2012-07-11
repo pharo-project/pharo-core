@@ -1,3 +1,0 @@
-util
-packageClass
-	^ PackageInfo

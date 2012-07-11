@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"categoryContainer" : "CamilloBruni 3/18/2011 23:11",
-		"testAddKeymapToCategory" : "DeboraFortini 12/13/2011 17:17",
-		"testCreateExistentCategoryFails" : "GuillermoPolito 3/13/2011 17:33",
-		"testCreateUnexistentCategory" : "GuillermoPolito 3/13/2011 17:33" } }

@@ -1,5 +1,0 @@
-Private-Generation
-renamedTestClassName
-
-
-	^#'AutoRenamedClassForTestingSystemChanges'

@@ -1,3 +1,0 @@
-defaults
-unfocusedSelectionColor
-	^ self settings unfocusedSelectionColor

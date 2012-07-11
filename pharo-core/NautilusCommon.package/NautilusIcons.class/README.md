@@ -1,1 +1,0 @@
-Most of these icons come from http://www.famfamfam.com/lab/icons. They are licensed under the Creative Commons Attribution 3.0 License by Mark James.

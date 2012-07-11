@@ -1,4 +1,0 @@
-protocol
-defaultValue
-
-	^ defaultValueHolder contents

@@ -1,4 +1,0 @@
-message list
-currentSelector
-
-	^ currentSelector

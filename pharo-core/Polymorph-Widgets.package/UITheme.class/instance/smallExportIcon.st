@@ -1,3 +1,0 @@
-icons
-smallExportIcon
-	^ ThemeIcons smallExportIcon

@@ -1,3 +1,0 @@
-icons
-upArrowIcon
-	^ ThemeIcons upArrowIcon

@@ -1,3 +1,0 @@
-building
-shift
-	^ KMShiftModifier new

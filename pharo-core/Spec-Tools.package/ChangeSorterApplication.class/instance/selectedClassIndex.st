@@ -1,4 +1,0 @@
-protocol
-selectedClassIndex
-
-	 ^ classesListModel selectedIndex

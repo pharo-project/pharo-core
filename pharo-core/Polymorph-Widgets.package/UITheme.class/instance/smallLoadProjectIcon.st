@@ -1,3 +1,0 @@
-icons
-smallLoadProjectIcon
-	^ ThemeIcons smallLoadProjectIcon

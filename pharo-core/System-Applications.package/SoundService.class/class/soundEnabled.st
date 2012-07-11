@@ -1,3 +1,0 @@
-settings
-soundEnabled
-	^ self defaultSoundEnabled

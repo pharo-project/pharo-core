@@ -1,4 +1,0 @@
-protocol
-selectedChangeSet
-
-	 ^ changesListModel selectedItem

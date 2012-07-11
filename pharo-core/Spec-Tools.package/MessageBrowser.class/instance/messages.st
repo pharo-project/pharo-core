@@ -1,4 +1,0 @@
-protocol
-messages
-
-	^ listModel listItems

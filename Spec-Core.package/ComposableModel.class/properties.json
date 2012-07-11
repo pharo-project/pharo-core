@@ -12,7 +12,8 @@
 		"owner",
 		"window",
 		"spec",
-		"extentHolder" ],
+		"extentHolder",
+		"needRebuild" ],
 	"name" : "ComposableModel",
 	"pools" : [
 		 ],

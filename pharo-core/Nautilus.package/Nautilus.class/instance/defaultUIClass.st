@@ -1,4 +1,0 @@
-displaying
-defaultUIClass
-
-	^ NautilusUI

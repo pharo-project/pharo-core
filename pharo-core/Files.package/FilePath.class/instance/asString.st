@@ -1,3 +1,0 @@
-conversion
-asString
-	^self asSqueakPathName

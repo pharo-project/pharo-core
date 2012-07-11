@@ -1,3 +1,0 @@
-accessing
-width
-	^3

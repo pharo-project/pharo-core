@@ -1,1 +1,0 @@
-An AlexPlugin is a plugin which show the setUp when a test method is selected

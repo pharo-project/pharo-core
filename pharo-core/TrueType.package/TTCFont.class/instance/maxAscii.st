@@ -1,4 +1,0 @@
-accessing
-maxAscii
-
-	^ ttcDescription size.

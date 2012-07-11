@@ -1,3 +1,0 @@
-constants
-simpleWindowClass
-	^18

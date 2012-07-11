@@ -1,3 +1,0 @@
-settings
-checkSourcesFileAvailability: aBoolean
-	CheckSourcesFileAvailability := aBoolean

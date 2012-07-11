@@ -1,3 +1,0 @@
-constants
-movableDBoxProc
-	^5

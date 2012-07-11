@@ -1,1 +1,0 @@
-A NautilusWrapper is a wrapper which hold a single step of the Nautilus browsing history

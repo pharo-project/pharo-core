@@ -1,1 +1,0 @@
-TTFontReader constructs a TTFontDescription from a TrueType font (.ttf).

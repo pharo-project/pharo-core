@@ -1,3 +1,0 @@
-accessing
-scanner
-	^ Scanner new

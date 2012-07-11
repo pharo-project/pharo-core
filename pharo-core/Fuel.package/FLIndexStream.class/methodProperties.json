@@ -1,7 +1,0 @@
-{
-	"class" : {
-		"on:digits:" : "MartinDias 12/30/2011 14:33" },
-	"instance" : {
-		"initializeOn:digits:" : "MartinDias 12/30/2011 14:28",
-		"nextIndex" : "MartinDias 12/30/2011 15:25",
-		"nextIndexPut:" : "MartinDias 12/30/2011 15:21" } }

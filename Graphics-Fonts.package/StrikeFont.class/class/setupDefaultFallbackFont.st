@@ -11,7 +11,3 @@ setupDefaultFallbackFont
 					(e respondsTo: #fontArray)
 						ifTrue: [e fontArray 
 								do: [:f | f setupDefaultFallbackFont]]]].
-	TTCFont allSubInstances
-		do: [:font | 
-			font reset.
-			font setupDefaultFallbackFont]

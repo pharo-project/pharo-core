@@ -1,4 +1,0 @@
-*Nautilus
-classesOfExtensionMethods
-
-	^ self extendedClasses

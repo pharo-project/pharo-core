@@ -6,5 +6,6 @@ initialize
 
 	bindings := BindingsHolder new.
 	extentHolder := nil asValueHolder.
+	needRebuild := true asValueHolder.
 	self initializeWidgets.
 	self initializePresenter.

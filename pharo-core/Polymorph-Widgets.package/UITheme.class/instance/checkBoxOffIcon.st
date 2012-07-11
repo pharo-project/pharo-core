@@ -1,3 +1,0 @@
-icons
-checkBoxOffIcon
-	^ ThemeIcons checkBoxOffIcon

@@ -1,4 +1,0 @@
-item kinds
-methodKind
-
-	^#method

@@ -1,4 +1,0 @@
-platform specific
-pathNameDelimiter
-
-	^ $:

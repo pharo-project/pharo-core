@@ -1,4 +1,0 @@
-private
-subfamilyName
-
-	^ ttcDescription subfamilyName.

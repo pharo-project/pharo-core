@@ -1,1 +1,0 @@
-I am a cluster for some well known objects like nil, true and false. They have a special treatment because they are so common in the image.

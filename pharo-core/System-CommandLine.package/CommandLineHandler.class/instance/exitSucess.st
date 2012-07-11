@@ -1,3 +1,0 @@
-utility
-exitSucess
-	^ Smalltalk exitSucess.

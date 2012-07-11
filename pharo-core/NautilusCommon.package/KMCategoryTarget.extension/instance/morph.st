@@ -1,4 +1,0 @@
-*NautilusCommon-KeyMappingExtensions
-morph
-
-	^ morph

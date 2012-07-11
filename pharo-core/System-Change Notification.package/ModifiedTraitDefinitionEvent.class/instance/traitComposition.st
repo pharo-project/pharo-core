@@ -1,3 +1,0 @@
-accessing
-traitComposition
-	^ item traitComposition

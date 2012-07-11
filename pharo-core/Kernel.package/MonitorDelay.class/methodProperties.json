@@ -1,6 +1,0 @@
-{
-	"class" : {
-		"signalLock:afterMSecs:inMonitor:queue:" : "NS 4/13/2004 16:25" },
-	"instance" : {
-		"setDelay:forSemaphore:monitor:queue:" : "NS 4/13/2004 16:26",
-		"signalWaitingProcess" : "NS 4/13/2004 16:22" } }

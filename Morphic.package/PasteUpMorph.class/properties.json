@@ -4,7 +4,6 @@
 		 ],
 	"classtraitcomposition" : "{}",
 	"classvars" : [
-		"DisableDeferredUpdates",
 		"WindowEventHandler",
 		"WorldAnnouncer" ],
 	"commentStamp" : "nice 11/4/2009 23:06",

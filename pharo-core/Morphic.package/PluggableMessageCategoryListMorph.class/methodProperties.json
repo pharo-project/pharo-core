@@ -1,7 +1,0 @@
-{
-	"class" : {
-		"on:list:selected:changeSelected:menu:keystroke:getRawListSelector:" : "md 11/14/2003 16:59" },
-	"instance" : {
-		"getList" : "ls 8/19/2001 15:35",
-		"on:list:selected:changeSelected:menu:keystroke:getRawListSelector:" : "BenjaminVanRyseghem 6/1/2011 12:01",
-		"verifyContents" : "ls 8/19/2001 14:26" } }

@@ -1,4 +1,0 @@
-public
-size
-
-	^ ttcDescription size.

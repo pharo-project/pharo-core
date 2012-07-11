@@ -1,4 +1,0 @@
-accessing
-groupsIconsCache
-
-		^ GroupsIconsCache

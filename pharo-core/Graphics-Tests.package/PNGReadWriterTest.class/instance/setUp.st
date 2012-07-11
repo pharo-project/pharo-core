@@ -1,3 +1,0 @@
-helpers
-setUp
-	fileName := nil.

@@ -1,3 +1,0 @@
-public
-open
-	handle open

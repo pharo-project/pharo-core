@@ -1,1 +1,0 @@
-A ChangeSorterApplication is spec version of the dual sorter

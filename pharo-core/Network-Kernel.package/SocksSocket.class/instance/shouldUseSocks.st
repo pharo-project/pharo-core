@@ -1,3 +1,0 @@
-private
-shouldUseSocks
-	^vers notNil

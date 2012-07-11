@@ -1,1 +1,0 @@
-A UI theme that tries to make things look like a standard (3.9) Squeak image. Do UIThemeStandardSqueak beCurrent to use.

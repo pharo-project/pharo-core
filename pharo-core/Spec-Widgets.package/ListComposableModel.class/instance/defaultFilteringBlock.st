@@ -1,3 +1,0 @@
-initialize
-defaultFilteringBlock 
-	^ [:col | col]

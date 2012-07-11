@@ -1,3 +1,0 @@
-properties
-lineGap
-	^lineGap

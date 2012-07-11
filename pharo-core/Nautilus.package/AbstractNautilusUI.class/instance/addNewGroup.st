@@ -1,4 +1,0 @@
-group
-addNewGroup
-
-	self groupsManager createAnEmptyStaticGroup

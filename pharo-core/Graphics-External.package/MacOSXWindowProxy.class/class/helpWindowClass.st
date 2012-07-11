@@ -1,3 +1,0 @@
-constants
-helpWindowClass
-	^10

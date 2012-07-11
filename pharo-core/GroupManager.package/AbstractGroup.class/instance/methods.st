@@ -1,4 +1,0 @@
-queries
-methods
-
-	^ self elements

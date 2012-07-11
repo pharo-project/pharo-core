@@ -1,3 +1,0 @@
-converting
-downloadUrl
-	^self asString

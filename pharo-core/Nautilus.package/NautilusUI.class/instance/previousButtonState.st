@@ -1,3 +1,0 @@
-remove me
-previousButtonState
-	^ true

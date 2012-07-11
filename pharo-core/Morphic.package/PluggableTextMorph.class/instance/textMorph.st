@@ -1,3 +1,0 @@
-editor access
-textMorph
-	^ textMorph

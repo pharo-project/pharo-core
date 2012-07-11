@@ -1,3 +1,0 @@
-settings
-httpProxyServer
-	^ HTTPSocket httpProxyServer

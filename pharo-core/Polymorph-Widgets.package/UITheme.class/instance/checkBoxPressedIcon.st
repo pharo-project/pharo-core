@@ -1,3 +1,0 @@
-icons
-checkBoxPressedIcon
-	^ ThemeIcons checkBoxPressedIcon

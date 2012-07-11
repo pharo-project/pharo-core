@@ -1,3 +1,0 @@
-testing
-isAbstractClass
-	self subclassResponsibility

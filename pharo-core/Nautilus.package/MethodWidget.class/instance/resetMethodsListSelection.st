@@ -1,4 +1,0 @@
-selection
-resetMethodsListSelection
-
-	methodsSelection removeAll

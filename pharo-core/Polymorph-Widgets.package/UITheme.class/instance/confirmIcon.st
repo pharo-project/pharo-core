@@ -1,3 +1,0 @@
-icons
-confirmIcon
-	^ ThemeIcons confirmIcon

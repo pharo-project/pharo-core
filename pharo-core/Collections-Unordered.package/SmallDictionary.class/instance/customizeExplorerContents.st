@@ -1,4 +1,0 @@
-user interface
-customizeExplorerContents
-
-	^ true.

@@ -1,5 +1,0 @@
-accessing
-itemSelector
-
-	^ event itemSelector
-	

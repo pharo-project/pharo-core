@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"addMethod:toClass:inProtocols:" : "",
-		"model:addMethod:toClass:inProtocols:" : "" },
-	"instance" : {
-		"addMethod:toClass:inProtocols:" : "",
-		"preconditions" : "",
-		"storeOn:" : "",
-		"transform" : "" } }

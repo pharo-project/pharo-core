@@ -1,3 +1,0 @@
-constants
-zoomDocProc
-	^8

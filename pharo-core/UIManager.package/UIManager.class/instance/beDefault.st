@@ -1,3 +1,0 @@
-private
-beDefault
-	Default := self
