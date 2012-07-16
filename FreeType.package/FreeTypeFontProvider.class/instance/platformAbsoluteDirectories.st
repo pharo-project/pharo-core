@@ -1,21 +1,9 @@
 file paths
 platformAbsoluteDirectories
-	| answer dir path |
-	
-	answer := OrderedCollection new.
 	OSPlatform isWin32
-		ifTrue: 
-			[path := self getWindowsFontFolderPath.
-			(path notNil and:[(dir := path asFileReference) exists])
-				ifTrue:[answer add: dir]].
+		ifTrue: [ ^ self winFontDirectories ].
 	OSPlatform isUnix
-		ifTrue:
-			[self getUnixFontFolderPaths do: [:each |
-				(dir := each asFileReference) exists
-					ifTrue:[answer add: dir]]].
+		ifTrue: [ ^ self unixFontDirectories ].
 	OSPlatform isMacOSX
-		ifTrue: 
-			[self getMacOSXFontFolderPaths do: [:each |
-						(dir := each asFileReference) exists
-							ifTrue: [answer add: dir]]].
-	^answer
+		ifTrue: [ ^ self macOSXFolderDirectories ].
+	^ {}

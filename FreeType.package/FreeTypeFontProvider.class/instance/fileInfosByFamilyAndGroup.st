@@ -16,8 +16,8 @@ fileInfosByFamilyAndGroup
 			detect:[:each| 
 				each bold = info bold
 				and:[ each italic = info italic
-				and:[each fixedWidth = info fixedWidth
+				and:[ each fixedWidth = info fixedWidth
 				and:[ each postscriptName = info postscriptName
-				and:[each styleName = info styleName]]]]]
-			ifNone:[group add: info]].
-	^answer	
+				and:[ each styleName = info styleName ]]]]]
+			ifNone:[ group add: info]].
+	^ answer	

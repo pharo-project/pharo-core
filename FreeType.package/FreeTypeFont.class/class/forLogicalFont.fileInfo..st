@@ -11,6 +11,6 @@ forLogicalFont: aLogicalFont fileInfo: aFreeTypeFileInfoAbstract
 				index: index]
 		ifFalse:[
 			self 
-				fromFile: "aFreeTypeFileInfoAbstract absolutePath" (FreeTypeFontProvider current absolutePathFor: aFreeTypeFileInfoAbstract absoluteOrRelativePath locationType: aFreeTypeFileInfoAbstract locationType) 
+				fromFile: aFreeTypeFileInfoAbstract absolutePath
 				pointSize: pointSize 
 				index: index]

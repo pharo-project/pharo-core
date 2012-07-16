@@ -22,10 +22,10 @@ addFromFileContents: bytes baseName:  originalFileBaseName
 	(face height notNil  and:[face hasFamilyName and:[face hasStyleName and:[face isValid]]])
 		ifFalse:[
 			self failedToOpen:face index: i.
-			^externalMem destroyHandle.]
+			^ externalMem destroyHandle.]
 		ifTrue:[
 			numFaces isNil ifTrue:[numFaces := face numFaces].
-			info :=FreeTypeEmbeddedFileInfo new
+			info := FreeTypeEmbeddedFileInfo new
 				baseName: originalFileBaseName;
 				fileContents: bytes;
 				index: i;

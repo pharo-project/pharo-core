@@ -5,8 +5,5 @@ psValueAt: index put: value
 	"NOTE: this method are PRIVATE. Do not use it directly, instead use ProcessSpecificVariable (or its subclasses) "
 
 	env ifNil: [ env := WeakArray new: PSKeys size ].
-	(index > env size and: [ index <= PSKeys size ]) ifTrue: [ | newEnv |
-		newEnv := WeakArray new: PSKeys size.
-		env doWithIndex: [ :e :i | e ifNotNil: [ newEnv at: i put: e ] ].
-		env := newEnv ].
+	env size < PSKeys size ifTrue: [ env := env grownBy: PSKeys size - env size ].
 	^ env at: index put: value.
