@@ -1,16 +1,10 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6383:	Zn+Zdc Update 2012-07-16
-	http://code.google.com/p/pharo/issues/detail?id=6383
-
-Issue 6068:	FreeType fonts not working
-	http://code.google.com/p/pharo/issues/detail?id=6068
+ ^ 'Issue 6387:	Failing Zinc.Tests.ZnClientTests.testGetSmallHTMLStreaming Fix
+	http://code.google.com/p/pharo/issues/detail?id=6387
 	
-Issue 6384:	DualChangeSorterApplication Context Menu DNU
-	http://code.google.com/p/pharo/issues/detail?id=6384
+Issue 6381:	Small Text-Edition Cleanup
+	http://code.google.com/p/pharo/issues/detail?id=6381
 	
-Issue 6376:	New ProcessSpecificVariables & Running Processes
-	http://code.google.com/p/pharo/issues/detail?id=6376
-	
-Issue 6380:	Text Packaging Weirdness
-	http://code.google.com/p/pharo/issues/detail?id=6380'
+Issue 6388:	infinite loop in RPackage>>addClassDefinition:toClassTag:
+	http://code.google.com/p/pharo/issues/detail?id=6388'
