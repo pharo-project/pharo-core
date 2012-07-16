@@ -11,8 +11,8 @@ testEntryAt
 	self assert: entry isDirectory.
 	self assert: entry reference = (filesystem referenceTo: path) asAbsolute.
 	
-	self assert: entry creationTime  > then.
-	self assert: entry creationTime < now.
+	self assert: entry creationTime >= then.
+	self assert: entry creationTime <= now.
 	
-	self assert: entry modificationTime > then.
-	self assert: entry modificationTime < now.
+	self assert: entry modificationTime >= then.
+	self assert: entry modificationTime <= now.

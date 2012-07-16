@@ -1,6 +1,6 @@
 author
 contributorsNotSignatories
-	"SystemNavigation default contributorsNotSignatories"
+	"SystemNavigation new contributorsNotSignatories"
 	
 	| signatories answer |
 	answer := Dictionary new.

@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"do:inParallel:" : "Integrator 6/21/2012 17:59",
+		"doWithIndex:inParallel:" : "Integrator 6/21/2012 17:59",
+		"select:inParallel:" : "Integrator 6/21/2012 17:59" } }

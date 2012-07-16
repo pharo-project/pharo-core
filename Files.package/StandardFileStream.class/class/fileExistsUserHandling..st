@@ -2,7 +2,7 @@ error handling
 fileExistsUserHandling: fullFileName
 	| file localName choice newName newFullFileName |
 	
-	file := fullFileName asFile.
+	file := fullFileName asFileReference.
 	localName := file basename.
 	choice := UIManager default chooseFrom:{
 		'overwrite that file'.

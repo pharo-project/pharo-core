@@ -1,13 +1,21 @@
 drag and drop
-dropInAPackage: aCollection into: aPackage 
+dropInAPackage: aCollection into: receiver 
 
 	aCollection do:[:aClass |
-		aClass theNonMetaClass category: aPackage name.
-		ActiveHand shiftPressed
-			ifTrue: [ 
-				self selectedClass: nil.
-				self updateClassView ]
-			ifFalse:[
-				self selectedPackage: aPackage.
-				self selectedClass: aClass.
-				self updateBothView ]]
+		self showGroups
+			ifTrue: [
+				receiver addClasses: { aClass }.
+				ActiveHand shiftPressed
+					ifFalse: [ 
+						self selectedGroup removeClass: aClass.
+						self updateClassView ]]
+			ifFalse: [
+				aClass theNonMetaClass category: receiver name.
+				ActiveHand shiftPressed
+					ifTrue: [ 
+						self selectedClass: nil.
+						self updateClassView ]
+					ifFalse:[
+						self selectedPackage: receiver.
+						self selectedClass: aClass.
+						self updateBothView ]]]

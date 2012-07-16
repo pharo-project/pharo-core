@@ -6,4 +6,4 @@ sendersOfSelectedKey
 		ifTrue: [^ self changed: #flash].
 	((aKey := keyArray at: selectionIndex  - self numberOfFixedFields) isSymbol)
 		ifFalse: [^ self changed: #flash].
-	SystemNavigation default browseAllCallsOn: aKey
+	SystemNavigation new browseAllCallsOn: aKey

@@ -5,4 +5,4 @@ saveAsNewImageWithCurrentReleaseNameToPublish
 	| file |
 	file := FileSystem workingDirectory  / (self shortImageName, '-releasePharoToPublish'), Smalltalk imageSuffix.
 	
-	SmalltalkImage current saveAs: file nextVersion basename.
+	Smalltalk image saveAs: file nextVersion basename.

@@ -1,3 +1,3 @@
 accessing
 basename
-	^ name
+	^ basename

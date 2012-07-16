@@ -1,3 +1,3 @@
 origins
 vmBinary
-	^ self resolveString: (SmalltalkImage current vmFullPath)
+	^ self resolveString: (Smalltalk vm fullPath)

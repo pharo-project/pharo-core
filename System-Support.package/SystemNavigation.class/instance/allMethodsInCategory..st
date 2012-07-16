@@ -2,7 +2,7 @@ accessing
 allMethodsInCategory: category 
 	"Answer the collection of methods that are contained in a particular method category"
 	
-	"SystemNavigation default allMethodsInCategory: 'printing'"
+	"SystemNavigation new allMethodsInCategory: 'printing'"
 
 	| aCollection |
 	aCollection := Set new.

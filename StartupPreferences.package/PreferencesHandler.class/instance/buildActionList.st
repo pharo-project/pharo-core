@@ -7,5 +7,5 @@ buildActionList
 	directories := OrderedCollection new.
 	directories add: [self lookInGeneralPreferencesFolder ].
 	directories add: [self lookInPreferencesVersionFolder ].
-	directories add: [ self lookInImageDirectory ].
+	directories add: [ self lookInImageFolder ].
 	^ directories

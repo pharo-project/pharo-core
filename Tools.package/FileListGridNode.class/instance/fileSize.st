@@ -1,3 +1,3 @@
 user interface
 fileSize
-	^ self theme newTextIn: self text: item entry size asString
+	^ self theme newTextIn: self text: item humanReadableSize asString

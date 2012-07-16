@@ -9,5 +9,5 @@ atEnd
 		ifTrue: [
 			"Assuming there really is data available, read it and recurse"
 			self fillReadBufferNoWait.
-			self atEnd ].   
+			^ self atEnd ].   
 	^ self isConnected not

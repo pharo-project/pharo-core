@@ -3,7 +3,7 @@ saveUpdate: doc onFile: fileName
 	"Save the update on a local file.  With or without the update number on the front"
 
 	| file fName pos updateDirectory |
-	updateDirectory := 'updates' asDirectory.
+	updateDirectory := 'updates' asFileReference.
 	updateDirectory ensureDirectory.
 
 	fName := fileName.

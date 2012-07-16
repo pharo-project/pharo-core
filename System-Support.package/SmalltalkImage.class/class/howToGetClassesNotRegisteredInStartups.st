@@ -2,18 +2,18 @@ initialization
 howToGetClassesNotRegisteredInStartups
 
 	| classes startClassNames stopClassNames |
-	classes := ((SystemNavigation default allCallsOn:
+	classes := ((SystemNavigation new allCallsOn:
 #'addToStartUpList:') collect: [ :e | e methodClass ]),
-((SystemNavigation default allCallsOn: #'addToStartUpList:after:')
+((SystemNavigation new allCallsOn: #'addToStartUpList:after:')
 collect: [ :e | e methodClass ]).
 startClassNames := classes collect: [ :n | n instanceSide name ].
 (Smalltalk class classVarNamed: 'StartUpList') do: [ :s |
 	startClassNames remove: s ifAbsent: [] ].
 
 
-classes := ((SystemNavigation default allCallsOn:
+classes := ((SystemNavigation ne allCallsOn:
 #'addToShutDownList:') collect: [ :e | e methodClass ]),
-((SystemNavigation default allCallsOn: #'addToShutDownList:after:')
+((SystemNavigation new allCallsOn: #'addToShutDownList:after:')
 collect: [ :e | e methodClass ]).
 stopClassNames := classes collect: [ :n | n instanceSide name ].
 (Smalltalk class classVarNamed: 'ShutDownList') do: [ :s |

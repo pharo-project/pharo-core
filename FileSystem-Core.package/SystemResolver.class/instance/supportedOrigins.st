@@ -1,3 +1,3 @@
 resolving
 supportedOrigins
-	^ #(image imageDirectory changes vmBinary vmDirectory)
+	^ #(image imageDirectory changes vmBinary vmDirectory workingDirectory)

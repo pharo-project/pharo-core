@@ -2,5 +2,8 @@
 hasUnacceptedEdits
 	"Answer true if any of the views on this model has unaccepted edits."
 
-	dependents == nil ifTrue: [^ false].
-	^ super hasUnacceptedEdits
+	dependents ifNil: [^ false].
+	self dependents
+		do: [:each | each hasUnacceptedEdits ifTrue: [^ true]]
+		without: self.
+	^ false

@@ -1,0 +1,1 @@
+An ErrorWhileCreationException is an exception raised when the creation of a new issue fails

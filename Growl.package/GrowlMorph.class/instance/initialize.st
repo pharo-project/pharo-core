@@ -1,12 +1,10 @@
 initialize
 initialize
 	super initialize.
-
-	self borderColor: self defaultBorderColor.
-	self borderWidth: 2.
-	self useRoundedCorners.
+ 	self  borderStyle: BorderStyle thinGray.
+	
 	self setProperty: #autoFitContents toValue: false.
-	"self setTextStyle: self defaultTextStyle."
+ 
 	self initializeLabelAttributes.
 	self initializeContentsAttributes.
 	self vanishDelay: self defaultVanishDelay.

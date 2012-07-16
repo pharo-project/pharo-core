@@ -1,0 +1,19 @@
+{
+	"category" : "CI-Core-SliceSubmitter",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"description",
+		"issue",
+		"title",
+		"type" ],
+	"name" : "IssueCreator",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -4,7 +4,8 @@ setUp
 	
 	oldMonticelloAnnouncer := SystemAnnouncer announcer.
 	SystemAnnouncer announcer: nil.
-	oldPrivateAnnouncer := SystemAnnouncer announcer.
+	
+	oldPrivateAnnouncer := SystemAnnouncer privateAnnouncer.
 	SystemAnnouncer privateAnnouncer: nil.
 	
 	navigator := self createSystemNavigationToTest.

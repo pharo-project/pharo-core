@@ -2,5 +2,5 @@ testing
 testMethodsWithUnboundGlobals
 
 	Smalltalk cleanOutUndeclared. 
-	self assert: SystemNavigation default methodsWithUnboundGlobals isEmpty
+	self assert: SystemNavigation new methodsWithUnboundGlobals isEmpty
 	

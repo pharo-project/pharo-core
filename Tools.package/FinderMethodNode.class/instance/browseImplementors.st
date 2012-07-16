@@ -1,3 +1,3 @@
 private
 browseImplementors
-	SystemNavigation default browseAllImplementorsOf: self item.
+	SystemNavigation new browseAllImplementorsOf: self item.

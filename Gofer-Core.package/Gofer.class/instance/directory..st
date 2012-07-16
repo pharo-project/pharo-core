@@ -8,13 +8,13 @@ directory: aDirectoryOrString
 			((Smalltalk globals
 				at: #MCSubDirectoryRepository
 				ifAbsent: [ self error: aDirectoryOrString printString , ' is an unsupported repository type' ]) new)
-				directory: aDirectoryOrString allButLast asFile;
+				directory: aDirectoryOrString allButLast asFileReference;
 				yourself ]
 		ifFalse: [ 
 			(MCDirectoryRepository new)
 				directory:
 						(aDirectoryOrString isString
-								ifTrue: [ aDirectoryOrString asFile ]
+								ifTrue: [ aDirectoryOrString asFileReference ]
 								ifFalse: [ aDirectoryOrString ]);
 				yourself ].
 	self repository: repository

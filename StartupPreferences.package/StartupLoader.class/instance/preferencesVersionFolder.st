@@ -1,3 +1,4 @@
 utility
 preferencesVersionFolder
-	^ self preferencesGeneralFolder / SystemVersion current dottedMajorMinor 
+
+	^ self class preferencesVersionFolder.

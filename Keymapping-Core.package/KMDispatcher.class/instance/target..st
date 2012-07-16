@@ -2,4 +2,5 @@ accessing
 target: aTarget
 	target := aTarget.
 	morph := target morph.
-	self clearBuffer
+	"self announcer weak
+		on: MorphLostFocus send: #clearBuffer to: KMBuffer uniqueInstance."

@@ -4,7 +4,7 @@ viewContentsInWorkspace
 	
 	| aString |
 	
-	self reference fileStreamWritable: false do: [ :stream|
+	self reference streamWritable: false do: [ :stream|
 		aString := stream setConverterForCode contentsOfEntireFile ].
 	
 	UIManager default edit: aString label: 'Workspace from ', self reference basename

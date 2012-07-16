@@ -1,7 +1,7 @@
 *Tools-Browser
 browseUncommentedMethodsWithInitials: targetInitials
 	"Browse uncommented methods whose initials (in the time-stamp, as logged to disk) match the given initials.  Present them in chronological order.  CAUTION: It will take several minutes for this to complete."
-	"Time millisecondsToRun: [SystemNavigation default browseUncommentedMethodsWithInitials: 'jm']"
+	"Time millisecondsToRun: [SystemNavigation new browseUncommentedMethodsWithInitials: 'jm']"
 	| methodReferences |
 
 	methodReferences := OrderedCollection new.

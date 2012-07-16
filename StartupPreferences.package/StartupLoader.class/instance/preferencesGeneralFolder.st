@@ -1,3 +1,4 @@
 utility
 preferencesGeneralFolder
-	^ FileLocator preferences / 'pharo'
+
+	^ self class preferencesGeneralFolder.

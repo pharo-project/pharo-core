@@ -5,7 +5,7 @@ CSForLastUpdate: aString
 	| str updateNumber filename|
 	updateNumber := self getLatestUpdateNumber.
 	filename := updateNumber asString, '-Pha-', aString, '.cs'.
-	filename asFile 
+	filename asFileReference 
 		delete;
 		writeStreamDo: [ :stream|
 			self 

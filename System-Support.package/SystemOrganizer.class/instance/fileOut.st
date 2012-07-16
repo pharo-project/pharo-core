@@ -10,5 +10,5 @@ fileOut
 
 	FileStream 
 		writeSourceCodeFrom: internalStream 
-		baseName: 'SystemOrganization.st' asFile nextVersion basename 
+		baseName: 'SystemOrganization.st' asFileReference nextVersion basename 
 		isSt: true

@@ -1,3 +1,3 @@
 private
 isActivePlatform
-	^OSPlatform isMacOS and: [OSPlatform osVersion asNumber >= 1000]
+	^OSPlatform isMacOS and: [OSPlatform version asNumber >= 1000]

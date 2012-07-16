@@ -4,4 +4,4 @@ isImageFile: aString
 
 	aString ifNil: [^false].
 	^#('pcx' 'bmp' 'jpeg' 'xbm' 'pnm' 'ppm' 'gif' 'pam' 'jpg' 'png' 'pbm')
-		includes: aString asFile extension asLowercase
+		includes: aString asFileReference extension asLowercase

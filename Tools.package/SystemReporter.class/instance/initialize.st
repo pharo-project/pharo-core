@@ -24,7 +24,7 @@ initialize
 			add: #'Hardware Details' method: #reportWin32HardwareDetails;
 			add: #'GFX Hardware Details' method: #reportWin32GFXDetails.
 		].
-	Smalltalk os osVersion = 'linux' ifTrue: [
+	Smalltalk os version = 'linux' ifTrue: [
 		self
 			add: #'OS Details' method: #reportLinuxOSDetails
 	].

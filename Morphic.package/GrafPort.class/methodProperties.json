@@ -18,7 +18,7 @@
 		"image:at:sourceRect:rule:" : "ar 2/17/2000 01:08",
 		"image:at:sourceRect:rule:alpha:" : "ar 8/8/2001 14:26",
 		"installStrikeFont:" : "yo 1/8/2005 09:12",
-		"installTTCFont:" : "yo 1/12/2005 16:39",
-		"installTTCFont:foregroundColor:backgroundColor:" : "yo 1/8/2005 09:12",
+		"installStrikeFont:foregroundColor:backgroundColor:" : "tween 6/8/2008 12:29",
 		"lastFont" : "yo 1/8/2005 09:13",
+		"lastFontForegroundColor" : "tween 4/5/2007 08:03",
 		"stencil:at:sourceRect:" : "ar 2/17/2000 00:31" } }

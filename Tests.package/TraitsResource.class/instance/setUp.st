@@ -6,8 +6,8 @@ setUp
 
 	dirty := false.
 	oldAnnouncer := SystemAnnouncer announcer.
-	oldPrivateAnnouncer := SystemAnnouncer privateAnnouncer. 
 	SystemAnnouncer announcer: nil.
+	oldPrivateAnnouncer := SystemAnnouncer privateAnnouncer. 
 	SystemAnnouncer privateAnnouncer: nil.
 	SystemChangeNotifier uniqueInstance doSilently: 
 			[self t1: (self createTraitNamed: #T1

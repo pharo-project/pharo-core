@@ -7,7 +7,7 @@ addToggle: aString target: anObject selector: aSymbol getStateSelector: stateSym
 		contents: aString;
 		target: anObject;
 		selector: aSymbol;
-		arguments: argList asArray;
+		arguments: argList;
 		getStateSelector: stateSymbol;
 		enablementSelector: enableSymbol.
 	^ self addMenuItem: item.

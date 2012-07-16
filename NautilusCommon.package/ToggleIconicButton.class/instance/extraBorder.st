@@ -1,4 +1,4 @@
 private
 extraBorder
 
-	^ 0
+	^ 0.

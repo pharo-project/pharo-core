@@ -12,6 +12,6 @@
 	"name" : "FileLocator",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "AbstractFileReference",
 	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -7,7 +7,7 @@ methodsWithInitials: targetInitials
 
 CAUTION: It may take several minutes for this to complete."
 
-	"Time millisecondsToRun: [SystemNavigation default methodsWithInitials: 'bf'] "
+	"Time millisecondsToRun: [SystemNavigation new methodsWithInitials: 'bf'] "
 
 	| initials timeStamp  allSubmitters |
 	initials := ''.

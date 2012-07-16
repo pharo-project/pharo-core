@@ -4,7 +4,7 @@ sortBlockTimestamp
 
 	^ [ :x :y | |xIsDir|
 			((xIsDir := x isDirectory) = y isDirectory) 
-				ifTrue: [   x entry modification  <= y entry modification ]
+				ifTrue: [   x modificationTime  <= y modificationTime ]
 				ifFalse: [
 					"directories always precede files"
 					xIsDir ]]

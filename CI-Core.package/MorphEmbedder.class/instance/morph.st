@@ -1,0 +1,4 @@
+protocol
+morph
+
+	^ morph contents

@@ -1,3 +1,6 @@
 matching
 matches: anEventBuffer
-	^ self shortcut matches: anEventBuffer
+
+	^ anEventBuffer
+		ifEmpty: [ false ]
+		ifNotEmpty: [ self shortcut matches: anEventBuffer ]

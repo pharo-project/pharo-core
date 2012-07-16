@@ -7,8 +7,9 @@
 		"uniqueInstance" : "GuillermoPolito 10/20/2011 23:59" },
 	"instance" : {
 		"builder" : "GuillermoPolito 12/17/2010 00:46",
-		"collectRegistrations" : "GuillermoPolito 10/21/2011 00:13",
+		"collectRegistrations" : "BenjaminVanRyseghem 4/7/2012 23:14",
 		"initialize" : "GuillermoPolito 12/17/2010 00:58",
+		"interpretRegistration:" : "BenjaminVanRyseghem 4/7/2012 22:57",
 		"itemReceiver" : "GuillermoPolito 12/17/2010 00:46",
 		"model" : "GuillermoPolito 12/17/2010 00:46",
 		"model:" : "GuillermoPolito 12/17/2010 00:46",

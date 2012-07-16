@@ -1,8 +1,10 @@
 building
-category: aCategoryName default: aShortcut do: anAction
+category: aCategoryName default: aShortcut do: actionBlock
+	"actionBlock - can take 3 optional arguments: target, morph, and keyboard event"
+
 	KMRepository default
 		initializeKeymap: shortcutName
 		executingOn: aShortcut
-		doing: anAction
+		doing: actionBlock
 		inCategory: aCategoryName
 		platform: platform

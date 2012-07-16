@@ -2,7 +2,7 @@
 isOverriden2
 	
 	| implementors subclasses methodClass |
-	implementors := SystemNavigation default allImplementorsOf: self selector.
+	implementors := SystemNavigation new allImplementorsOf: self selector.
 	implementors := implementors collect: [:each | each methodClass ].
 	subclasses := self methodClass allSubclasses.
 	methodClass := self methodClass.

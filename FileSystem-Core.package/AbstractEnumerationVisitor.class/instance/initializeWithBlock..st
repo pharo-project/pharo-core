@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeWithBlock: aBlock
 	self initialize.
 	block := aBlock

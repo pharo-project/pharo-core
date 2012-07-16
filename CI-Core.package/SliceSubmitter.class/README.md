@@ -1,0 +1,1 @@
+SliceSubmitter is a tool made to submit slice easily be automaticcaly creating the issue on GoogleIssueTracker

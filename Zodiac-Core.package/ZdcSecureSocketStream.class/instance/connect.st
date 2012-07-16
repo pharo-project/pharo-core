@@ -10,7 +10,7 @@ connect
 		result < -1 ifTrue: [ 
 			^ self sslException: 'connect failed' code: result ].
 		result > 0 ifTrue: [ 
-			super flushBytes: out startingAt: 1 count: result ].
-		count := super fillBytes: in startingAt: 1 count: in size ].
+			self flushEncryptedBytes: out startingAt: 1 count: result ].
+		count := self readEncryptedBytes: in startingAt: 1 count: in size ].
 	connecting := false
 	

@@ -3,7 +3,7 @@ saveImageForRunningTests
 
 	| comment commentQuoted st resuming |
 	resuming := false.
-	SmalltalkImage current saveSession
+	Smalltalk image saveSession
 		ifFalse: [ resuming := true].
 	resuming ifTrue: [
 		self saveAsImageAsTestImage.

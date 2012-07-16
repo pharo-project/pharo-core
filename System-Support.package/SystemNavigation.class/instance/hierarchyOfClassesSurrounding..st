@@ -1,7 +1,7 @@
 query
 hierarchyOfClassesSurrounding: aClass
 	"Answer a list of classes in the hierarchy both above and below the given class"
-	"SystemNavigation default hierarchyOfClassesSurrounding: StringHolder"
+	"SystemNavigation new hierarchyOfClassesSurrounding: StringHolder"
 	
 	| list aClassNonMeta isMeta |
 	aClass ifNil: [^ OrderedCollection new].

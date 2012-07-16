@@ -4,7 +4,7 @@ testMethodDictionaries
 
 	| methodDicts |
 	methodDicts := OrderedCollection new.
-	methodDicts addAll: ((SystemNavigation default allClassesInPackageNamed: 'System') 
+	methodDicts addAll: ((SystemNavigation new allClassesInPackageNamed: 'System') 
 		collect: [ :aClass | aClass methodDict ]).
 		
 	methodDicts do: [ :anObject | self resultOfSerializeAndMaterializeMethodDictionary: anObject ]	

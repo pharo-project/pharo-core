@@ -13,7 +13,7 @@ retrieveContents
 			mimeType: type]  on: FileDoesNotExistException do:[:ex| ].
 
 	"see if it's a directory... If not, then nil is returned"
-	entries := [pathString asDirectory entries] 
+	entries := [pathString asFileReference entries] 
 				on: InvalidDirectoryError do: [:ex| ^ nil].
 
 	s := String new writeStream.

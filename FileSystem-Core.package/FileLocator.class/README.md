@@ -2,19 +2,19 @@ I am a late-bound reference. I refer to a file or directory in relation to a wel
 
 Usage
 ----------
-Locator vmDirectory parent pathString
+FileLocator vmDirectory parent pathString
 	> '/Applications'
 
 
-Locator desktop.
-Locator desktop basename.
+FileLocator desktop.
+FileLocator desktop basename.
 
-Locator home basename.
-Locator image.
-Locator vmBinary asAbsolute pathString 
-	> '/Applications/Squeak'
-Locator vmBinary pathString 
-	> '/Applications/Squeak'
+FileLocator home basename.
+FileLocator image.
+FileLocator vmBinary asAbsolute pathString 
+	>  '/Applications/CogVM.app/Contents/MacOS/CogVM'
+FileLocator vmBinary pathString 
+	> '/Applications/CogVM.app/Contents/MacOS/CogVM'
 		
 
 

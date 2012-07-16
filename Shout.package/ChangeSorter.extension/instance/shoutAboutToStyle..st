@@ -2,7 +2,7 @@
 shoutAboutToStyle: aPluggableShoutMorphOrView 
 	self shoutIsModeStyleable
 		ifFalse: [^ false].
-	self currentSelector
+	currentSelector
 		ifNil: [^ false].
 	aPluggableShoutMorphOrView classOrMetaClass: self selectedClassOrMetaClass.
 	^ true

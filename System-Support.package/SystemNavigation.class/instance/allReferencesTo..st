@@ -2,8 +2,8 @@ query
 allReferencesTo: aLiteral 
 	"Answer a Collection of all the methods that refer to aLiteral even deeply embedded in literal array."
 
-	"SystemNavigation default allReferencesTo: #+"
-	"SystemNavigation default allReferencesTo: Point binding"
+	"SystemNavigation new allReferencesTo: #+"
+	"SystemNavigation new allReferencesTo: Point binding"
 	
 	| result special byte symbol |
 	result := OrderedCollection new.

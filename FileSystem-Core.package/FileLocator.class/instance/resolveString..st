@@ -1,5 +1,5 @@
 navigating
-resolveString: aString 
+resolveString: aString
 	| filesystem thePath |
 	filesystem := (Resolver resolve: origin) fileSystem.
 	thePath := filesystem pathFromString: aString.

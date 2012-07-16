@@ -8,16 +8,14 @@ browseDirectToolReferences
 	into:
 		Smalltalk tools myTool foo 	"
 	
-	| bindings sn |
+	| bindings |
 	
 	bindings := tools values select: [:each | each value isBehavior ]
 		thenCollect: [:each | each value binding ].
 	bindings := bindings copyWith: (Smalltalk bindingOf: #ToolSet).
-	
-	sn := SystemNavigation default.	
 
-	^ sn
+	^  SystemNavigation new
 		browseMessageList: (
-			sn allMethodsSelect: [:m |
+			SystemNavigation new allMethodsSelect: [:m |
 				(m literals allButLast select: [:lit| lit isVariableBinding ]) includesAnyOf: bindings ] )
 		name: 'All direct references to tools to fix'

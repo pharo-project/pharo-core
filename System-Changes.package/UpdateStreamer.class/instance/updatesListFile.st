@@ -1,3 +1,3 @@
 accessing
 updatesListFile
-	^  self updatesListFileName asFile
+	^  self updatesListFileName asFileReference

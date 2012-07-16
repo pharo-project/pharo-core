@@ -6,7 +6,7 @@ createDirectory: path
 		nodeAt: parent
 		ifPresent: [ :entry | 
 			entry
-				at: path basename
+				fileEntryAt: path basename
 				ifPresent: [ :node | 
 					node isDirectory
 						ifTrue: [ self signalDirectoryExists: path ]

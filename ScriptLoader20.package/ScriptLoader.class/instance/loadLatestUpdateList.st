@@ -15,7 +15,7 @@ loadLatestUpdateList
 	lastUpdate := listToUse last.
 	(lastUpdate beginsWith: self getLatestUpdateNumber asString)
 		 ifTrue: ["Write this file as our current updates.list"
-			self updatesListFileName asFile
+			self updatesListFileName asFileReference
 				delete;
 				writeStreamDo: [:stream | stream nextPutAll: result ] ]
 		ifFalse: [ 

@@ -1,7 +1,7 @@
 ci
 doneApplyingChangesSilentlyIssues: issuesToIntegrate preLoad: preload postLoad: postLoad
 	| comment commentQuoted st |
-	SmalltalkImage current saveSession.
+	Smalltalk image saveSession.
 		"now you can reopen prior to publishing to fix :)"
 	self saveAsNewImageWithCurrentReleaseNameToPublish.
 	comment := String streamContents: [:stream |

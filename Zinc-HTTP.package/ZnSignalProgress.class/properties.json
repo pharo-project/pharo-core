@@ -1,0 +1,16 @@
+{
+	"category" : "Zinc-HTTP-Support",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ZnSignalProgress",
+	"pools" : [
+		 ],
+	"super" : "DynamicVariable",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

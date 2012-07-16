@@ -1,0 +1,18 @@
+{
+	"category" : "CI-Core-SliceSubmitter",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"morph",
+		"container",
+		"title" ],
+	"name" : "MorphEmbedder",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,8 +1,8 @@
 running
 setUp
 
-     super setUp.
-    oldAnnouncer := SystemAnnouncer announcer.
-	oldPrivateAnnouncer := SystemAnnouncer privateAnnouncer. 
+	super setUp.
+	oldAnnouncer := SystemAnnouncer announcer.
 	SystemAnnouncer announcer: nil.
+	oldPrivateAnnouncer := SystemAnnouncer privateAnnouncer. 
 	SystemAnnouncer privateAnnouncer: nil.

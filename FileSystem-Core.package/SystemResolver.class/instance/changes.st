@@ -1,3 +1,3 @@
 origins
 changes
-	^ self image withExtension: 'changes'
+	^ self image withExtension: Smalltalk changesSuffix

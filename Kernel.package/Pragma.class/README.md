@@ -7,6 +7,6 @@ I can provide information about the defining class, method, its selector, as wel
 Instances are retrieved using one of the pragma search methods of the 'finding' protocol on the class side.
 
 To browse all methods with pragmas in the system evaluate
-	SystemNavigation default browseAllSelect: [:m| m pragmas notEmpty]
+	SystemNavigation new browseAllSelect: [:m| m pragmas notEmpty]
 and to browse all nonprimitive methods with pragmas evaluate
-	SystemNavigation default browseAllSelect: [:m| m primitive isZero and: [m pragmas notEmpty]]
+	SystemNavigation new browseAllSelect: [:m| m primitive isZero and: [m pragmas notEmpty]]

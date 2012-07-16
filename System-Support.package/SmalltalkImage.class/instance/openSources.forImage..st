@@ -16,11 +16,11 @@ c) the DefaultDirectory (which is likely the same as b unless the SecurityManage
 		ifTrue: [ sourcesFile readStream ifNotNilDo: [ :stream| ^ stream ]].
 		
 	"look for the sources file or an alias to it in the image directory"
-	(sourcesFile := imagePath asFile parent / sourcesName) exists
+	(sourcesFile := imagePath asFileReference parent / sourcesName) exists
 		ifTrue: [ ^ sourcesFile readStream ifNotNilDo: [ :stream| ^ stream ]].
 		
 	"look for the sources in the current directory"
-	(sourcesFile := sourcesName asFile) exists
+	(sourcesFile := sourcesName asFileReference) exists
 		ifTrue: [ ^ sourcesFile readStream ifNotNilDo: [ :stream| ^ stream ]].
 		
 	^ nil

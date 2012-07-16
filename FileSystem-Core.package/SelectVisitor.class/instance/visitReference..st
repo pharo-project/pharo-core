@@ -1,4 +1,4 @@
-as yet unclassified
+visiting
 visitReference: anEntry
 	(block value: anEntry) 
 		ifTrue: [ out nextPut: anEntry ]

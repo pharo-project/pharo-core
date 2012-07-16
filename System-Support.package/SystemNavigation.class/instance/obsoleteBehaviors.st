@@ -1,6 +1,6 @@
 query
 obsoleteBehaviors
-	"SystemNavigation default obsoleteBehaviors inspect"
+	"SystemNavigation new obsoleteBehaviors inspect"
 	"Find all obsolete behaviors including meta classes"
 
 	| obs |

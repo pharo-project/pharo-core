@@ -8,7 +8,7 @@ saveSelectedFile
 	f := self selectedFileName ifNil: [self fileNameText trimBoth].
 	f ifEmpty: [ ^ nil ].
 	
-	f := d asDirectory / f.
+	f := d asFileReference / f.
 	(f extension isEmpty and: [self defaultExtension notNil])
 		 ifTrue: [ f := f, self defaultExtension].
 	f exists 

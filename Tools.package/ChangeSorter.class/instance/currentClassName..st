@@ -1,7 +1,7 @@
 class list
-currentClassName: aString
+currentClassName: index
 
-	currentClassName := aString.
+	currentClassName := self classList at: index ifAbsent: [ nil ].
 	currentSelector := nil.	"fix by wod"
 	self changed: #currentClassName.
 	self changed: #messageList.

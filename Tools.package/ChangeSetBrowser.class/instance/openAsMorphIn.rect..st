@@ -8,7 +8,7 @@ openAsMorphIn: window rect: rect
 	self addDependent: window.		"so it will get changed: #relabel"
 
 
-	window addMorph: (PluggableListMorphByItem on: self
+	window addMorph: (PluggableListMorph on: self
 				list: #classList
 				selected: #currentClassName
 				changeSelected: #currentClassName:
@@ -17,7 +17,7 @@ openAsMorphIn: window rect: rect
 		frame: (((0.0@0 extent: 0.5 @ aHeight)
 			scaleBy: rect extent) translateBy: rect origin).
 
-	window addMorph: (PluggableListMorphByItem on: self
+	window addMorph: (PluggableListMorph on: self
 				list: #messageList
 				selected: #currentSelector
 				changeSelected: #currentSelector:

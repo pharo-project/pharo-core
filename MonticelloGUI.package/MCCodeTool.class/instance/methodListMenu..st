@@ -8,7 +8,6 @@ methodListMenu: aMenu
 			aMenu addList:#(
 				('Browse full (b)' 						browseMethodFull)
 				('Browse hierarchy (h)'					classHierarchy)
-				('Browse method (O)'					openSingleMessageBrowser)
 				-
 				('FileOut (o)'							fileOutMessage)
 				('Copy selector (c)'						copySelector)).

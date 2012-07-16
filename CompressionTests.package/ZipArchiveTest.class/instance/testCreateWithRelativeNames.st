@@ -16,7 +16,7 @@ testCreateWithRelativeNames
 		as: nestedFileToZip name.
 	zip writeToFileNamed: zipFile fullName.
 	
-	zipFile fileStreamDo: [ :str |
+	zipFile readStreamDo: [ :str |
 		str binary.
 		localFileHeaderSignature := 16r04034b50.
 		versionNeededToExtract := 20.

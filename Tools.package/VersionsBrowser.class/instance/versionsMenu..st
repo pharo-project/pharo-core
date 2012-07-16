@@ -15,7 +15,6 @@ versionsMenu: aMenu
 
 	aMenu addTranslatedList: #(
 		('Remove from changes'		removeMethodFromChanges	'Remove this method from the current change set, if present')
-		('Edit current method (O)'	openSingleMessageBrowser		'Open a single-message browser on the current version of this method')		
 		-
 		('Toggle diffing (D)'			toggleDiffing					'Toggle whether or not diffs should be shown here')
 		('Update list'				reformulateList					'Reformulate the list of versions, in case it somehow got out of synch with reality')

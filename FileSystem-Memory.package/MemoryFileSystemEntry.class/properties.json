@@ -9,7 +9,7 @@
 	"instvars" : [
 		"creationTime",
 		"modificationTime",
-		"name" ],
+		"basename" ],
 	"name" : "MemoryFileSystemEntry",
 	"pools" : [
 		 ],

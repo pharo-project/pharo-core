@@ -1,0 +1,17 @@
+{
+	"category" : "Keymapping-Core",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"buffer",
+		"currentEvent" ],
+	"name" : "KMBuffer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -3,6 +3,7 @@ lookInFolder: folder
 
 	| result |
 
+	self flag: 'I should be #lookInFolder:forFilesMatching:, so that #lookInImageFolder can delegate to me, like the other two lookup methods'.
 	result := OrderedCollection new.
 	folder exists ifFalse: [ ^ nil ].
 	

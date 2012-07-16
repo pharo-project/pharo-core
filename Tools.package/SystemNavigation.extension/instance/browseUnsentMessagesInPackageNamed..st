@@ -1,6 +1,6 @@
 *Tools
 browseUnsentMessagesInPackageNamed: packageName
-	"SystemNavigation default browseUnsentMessagesWithProgressBarInPackageNamed: 'Kernel-Contexts'"
+	"SystemNavigation new browseUnsentMessagesWithProgressBarInPackageNamed: 'Kernel-Contexts'"
 	| unsentMessages |
 	unsentMessages := self unsentMessagesWithProgressBarInPackageNamed: packageName.
 	^self 

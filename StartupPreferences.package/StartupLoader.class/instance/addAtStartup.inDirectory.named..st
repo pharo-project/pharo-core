@@ -1,5 +1,7 @@
 private
-addAtStartup: aCollection inDirectory: aDirectory named: fileName
+addAtStartup: aCollection inDirectory: aFileReference named: fileName
 
-	aDirectory assureExistence.
-	aDirectory forceNewFileNamed: fileName do: [:stream | stream nextPutAll: (self buildStreamFor: aCollection) ].
+	| scriptFile |
+	aFileReference ensureDirectory.
+	scriptFile := aFileReference / fileName.
+	FileStream forceNewFileNamed: scriptFile fullName do: [ :stream | stream nextPutAll: (self buildStreamFor: aCollection) ].

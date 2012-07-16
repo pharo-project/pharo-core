@@ -5,4 +5,4 @@ saveAsImageAsTestImage
 
 	| file |
 	file := FileSystem workingDirectory  /  (self shortImageName, '-imageForTests') , Smalltalk imageSuffix.
-	SmalltalkImage current saveAs: file nextVersion basename.
+	Smalltalk image saveAs: file nextVersion basename.

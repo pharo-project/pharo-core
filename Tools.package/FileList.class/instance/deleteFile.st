@@ -7,6 +7,7 @@ deleteFile
 		ifFalse: [^ self].
 	
 	reference delete.
+	reference := reference parent.
 	
 	self updateFileList.
 	brevityState := #FileList.

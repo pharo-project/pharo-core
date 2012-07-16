@@ -5,8 +5,6 @@ organization
 
 	organization ifNil:
 		[self organization: (ClassOrganizer defaultList: self selectors asArray sort)].
-	(organization isMemberOf: Array) ifTrue:
-		[self recoverFromMDFaultWithTrace].
 	
 	"Making sure that subject is set correctly. It should not be necessary."
 	organization ifNotNil: [organization setSubject: self].

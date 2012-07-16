@@ -6,7 +6,11 @@
 		"attachKeymapCategory:" : "GuillermoPolito 10/20/2011 17:44",
 		"attachKeymapCategory:onProperty:" : "GuillermoPolito 10/20/2011 23:33",
 		"attachKeymapCategory:targetting:" : "GuillermoPolito 10/20/2011 18:09",
+		"detachAllKeymapCategories" : "BenjaminVanRyseghem 2/20/2012 19:35",
+		"detachKeymapCategory:" : "BenjaminVanRyseghem 2/20/2012 19:23",
+		"detachKeymapCategory:targetting:" : "BenjaminVanRyseghem 2/20/2012 19:23",
 		"dispatchKeystrokeForEvent:" : "GuillermoPolito 3/14/2011 00:03",
 		"handleKeystroke:" : "BenjaminVanRyseghem 4/27/2012 11:15",
+		"hasKeymapCategoryNamed:" : "SeanDeNigris 7/9/2012 23:40",
 		"kmDispatcher" : "CamilloBruni 3/18/2011 23:05",
 		"on:do:" : "GuillermoPolito 9/12/2011 16:39" } }

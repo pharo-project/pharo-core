@@ -8,8 +8,8 @@ preferences
 	
 	"First try to adhere to hardcoded Microsoft conventions - though we really should be reading environment variables since %SYSTEMDRIVE% might not be C: "
 	
-       osMajorVer := Smalltalk os osVersion first.   
-       osMinorVer := Smalltalk os osVersion third.
+       osMajorVer := Smalltalk os version first.   
+       osMinorVer := Smalltalk os version third.
 
        osMajorVer >= $6 
 		ifTrue: [ rootPath := 'C:\ProgramData\Pharo\' ].   "Vista, 2008, 7 and later"  

@@ -7,5 +7,5 @@ setUp
 	fileToZip writeStreamDo: [ :stream | stream nextPutAll: 'file contents' ].
 	subdir := ('_test-zip-dir', now) asFileReference.
 	subdir ensureDirectory.
-	zipFile := ('pharo_test', now) asFile, 'zip'.
+	zipFile := ('pharo_test', now) asFileReference, 'zip'.
 	zip := ZipArchive new.

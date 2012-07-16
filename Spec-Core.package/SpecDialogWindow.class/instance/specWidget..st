@@ -1,3 +1,3 @@
 accessing
 specWidget: anObject
-	specWidget := anObject
+	specWidget := anObject.

@@ -1,5 +1,5 @@
 as yet unclassified
 named: aFileName
 	^ self new
-		name: aFileName;
+		basename: aFileName;
 		yourself

@@ -1,3 +1,5 @@
 creation
 ensureDirectory: aDirectoryName
-	^ self at: aDirectoryName put: (MemoryFileSystemDirectory named: aDirectoryName)
+	^ self 
+		fileEntryAt: aDirectoryName
+		put: (MemoryFileSystemDirectory named: aDirectoryName)

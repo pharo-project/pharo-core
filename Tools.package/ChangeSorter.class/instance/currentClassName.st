@@ -1,4 +1,4 @@
 class list
 currentClassName
 
-	^ currentClassName
+	^ self classList indexOf: currentClassName ifAbsent: [ 0 ]

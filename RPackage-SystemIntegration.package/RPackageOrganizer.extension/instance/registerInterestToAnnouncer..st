@@ -7,7 +7,7 @@ registerInterestToAnnouncer: anAnnouncer
 	" Announcer initialize"
 	self flag: #todo. "Fiinish monticello integration (commented below)"
 	
-	anAnnouncer
+	anAnnouncer weak
 		on: CategoryAdded send: #systemCategoryAddedActionFrom: to: self;
 		on: CategoryRemoved send: #systemCategoryRemovedActionFrom: to: self;
 		on: CategoryRenamed send: #systemCategoryRenamedActionFrom: to: self;

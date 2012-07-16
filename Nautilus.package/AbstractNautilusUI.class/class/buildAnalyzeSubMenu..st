@@ -50,8 +50,8 @@ buildAnalyzeSubMenu: aBuilder
 		parent: #Analyze;
 		order: 500.
 		
-	(aBuilder item: #'Browse comment versions... (b, v)')
-		action: [ target browseCommentVersionsOf: {target selectedClass} ];
+	(aBuilder item: #'Browse comment versions...')
+		action: [ target browseCommentVersionsOf: target selectedClass theNonMetaClass ];
 		parent: #Analyze;
 		order: 600;
 		withSeparatorAfter.

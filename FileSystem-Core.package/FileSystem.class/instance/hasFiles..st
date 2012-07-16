@@ -1,4 +1,4 @@
-public
+public-testing
 hasFiles: aResolvable
 	self
 		entriesAt: aResolvable

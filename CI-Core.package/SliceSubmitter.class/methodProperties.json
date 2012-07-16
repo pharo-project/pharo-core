@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"authenticate:with:" : "BenjaminVanRyseghem 7/4/2012 15:19",
+		"buildNautilusMenu:" : "BenjaminVanRyseghem 7/10/2012 14:31" },
+	"instance" : {
+		"commit:in:message:" : "BenjaminVanRyseghem 7/6/2012 16:44",
+		"initialize" : "BenjaminVanRyseghem 7/6/2012 16:46",
+		"initializeTracker" : "BenjaminVanRyseghem 7/6/2012 16:47",
+		"issue" : "BenjaminVanRyseghem 7/4/2012 16:09",
+		"mcPackage" : "BenjaminVanRyseghem 7/4/2012 16:15",
+		"mcPackage:" : "BenjaminVanRyseghem 7/4/2012 16:15",
+		"postNewSlice:message:" : "BenjaminVanRyseghem 7/6/2012 16:45",
+		"receiver" : "BenjaminVanRyseghem 7/4/2012 16:14",
+		"receiver:" : "BenjaminVanRyseghem 7/4/2012 16:15",
+		"repository" : "BenjaminVanRyseghem 7/6/2012 15:48",
+		"retrieveUserPassword" : "BenjaminVanRyseghem 7/4/2012 15:11",
+		"submitNewSlice" : "BenjaminVanRyseghem 7/6/2012 20:11",
+		"tracker" : "BenjaminVanRyseghem 7/10/2012 14:02",
+		"viewChanges:for:from:to:" : "BenjaminVanRyseghem 7/6/2012 16:21",
+		"viewChangesFor:" : "BenjaminVanRyseghem 7/6/2012 16:22" } }

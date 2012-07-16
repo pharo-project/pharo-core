@@ -1,4 +1,4 @@
-public
+public-enumerating
 entriesAt: aResolvable do: aBlock
 	^ self 
 		entriesAt: aResolvable 

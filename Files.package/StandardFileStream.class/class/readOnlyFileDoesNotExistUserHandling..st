@@ -3,7 +3,7 @@ readOnlyFileDoesNotExistUserHandling: fullFileName
 
 	| dir files choices selection newName fileName |
 	
-	dir := fullFileName asFile.
+	dir := fullFileName asFileReference.
 	files := dir parent fileNames.
 	fileName := dir basename.
 	

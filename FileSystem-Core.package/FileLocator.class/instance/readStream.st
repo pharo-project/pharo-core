@@ -1,3 +1,3 @@
-delegated
+streams
 readStream
-	^ self resolve readStream
+	^ self resolve readStream 

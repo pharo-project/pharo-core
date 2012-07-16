@@ -21,8 +21,7 @@
 		"borderStyle",
 		"cornerStyle",
 		"actionMap",
-		"clipSubmorphs",
-		"lostFocusBlock" ],
+		"clipSubmorphs" ],
 	"name" : "MorphExtension",
 	"pools" : [
 		 ],

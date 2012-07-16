@@ -8,8 +8,6 @@
 	"commentStamp" : "GuillermoPolito 12/24/2010 19:00",
 	"instvars" : [
 		"target",
-		"buffer",
-		"shortcut",
 		"currentEvent",
 		"targets",
 		"morph",

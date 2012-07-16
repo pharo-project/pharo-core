@@ -2,7 +2,7 @@ testing
 testLocalMethodWithSameCodeInTrait
 	"Test whether there are no unintentional overridden traits methods"
 
-	SystemNavigation default allBehaviorsDo: [ :each |
+	SystemNavigation new allBehaviorsDo: [ :each |
 		each hasTraitComposition ifTrue: [
 			each methodDict keys do: [ :selector |
 				(each includesLocalSelector: selector) ifTrue: [

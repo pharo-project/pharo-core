@@ -18,7 +18,7 @@ If an old file is not found in either place, check for a read-only file in the s
 		ifTrue: [ changesFile writeStream ifNotNilDo: [ :stream| ^ stream ]].
 
 	"look for read-only changes in the image directory"
-	(changesFile := changesPath asFile) exists 
+	(changesFile := changesPath asFileReference) exists 
 		ifTrue: [ changesFile readStream ifNotNilDo: [ :stream| ^ stream ]].
 
 	"look for read-only changes in the default directory"

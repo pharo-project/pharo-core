@@ -5,6 +5,9 @@ contents
 		FileList,
 		fullFile, briefFile, needToGetFull, needToGetBrief,
 		fullHex, briefHex, needToGetFullHex, needToGetBriefHex"
+	
+	self reference isReadable 
+		ifFalse: [ ^ 'cannot read {1}' translated format: { reference }].
 	(listIndex = 0) | (brevityState == #FileList) ifTrue: [^ self defaultContents].  "no file selected"
 	brevityState == #fullFile ifTrue: [^ contents]. 
 	brevityState == #fullHex ifTrue: [^ contents].

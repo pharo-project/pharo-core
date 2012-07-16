@@ -1,0 +1,16 @@
+{
+	"category" : "CI-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "GoogleIssueDescription",
+	"pools" : [
+		 ],
+	"super" : "GoogleIssueComment",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

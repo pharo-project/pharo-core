@@ -1,3 +1,3 @@
 image, changes names
 vmDirectory
-	^ self vm vmDirectory
+	^ self vm directory

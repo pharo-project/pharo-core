@@ -1,0 +1,21 @@
+{
+	"category" : "CI-Core-SliceSubmitter",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"gmail",
+		"passwordField",
+		"passwordLabel",
+		"result",
+		"userField",
+		"userLabel" ],
+	"name" : "Authentifier",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

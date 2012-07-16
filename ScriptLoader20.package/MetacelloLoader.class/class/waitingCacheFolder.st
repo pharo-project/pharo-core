@@ -1,6 +1,6 @@
 private
 waitingCacheFolder
-	^ self packageToBeTestedFolderName asDirectory
+	^ self packageToBeTestedFolderName asFileReference
 		ensureDirectory;
 		yourself
 

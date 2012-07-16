@@ -1,3 +1,5 @@
 creation
 ensureFile: aFileName
-	^ self at: aFileName put: (MemoryFileSystemFile named: aFileName)
+	^ self 
+		fileEntryAt: aFileName 
+		put: (MemoryFileSystemFile named: aFileName)

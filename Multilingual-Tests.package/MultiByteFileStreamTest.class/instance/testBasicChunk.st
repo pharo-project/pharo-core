@@ -15,4 +15,4 @@ testBasicChunk
 			self assert: (chunkKey at: ix) second equals: chunk size.
 			self assert: (chunkKey at: ix) last equals: chunk.]].
 	] ensure: [
-		 'chunkTest.txt' asFile delete]
+		 'chunkTest.txt' asFileReference delete]

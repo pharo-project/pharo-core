@@ -11,7 +11,7 @@ c) the DefaultDirectory (which is likely the same as b unless the SecurityManage
 
 	sourcesName := FileDirectory localNameFor: fullSourcesName.
 	"look for the sources file or an alias to it in the VM's directory"
-	fd := FileDirectory on: Smalltalk vmPath.
+	fd := FileDirectory on: Smalltalk vm path.
 	(fd fileExists: sourcesName)
 		ifTrue: [sources := fd readOnlyFileNamed: sourcesName].
 	sources ifNotNil: [^ sources].

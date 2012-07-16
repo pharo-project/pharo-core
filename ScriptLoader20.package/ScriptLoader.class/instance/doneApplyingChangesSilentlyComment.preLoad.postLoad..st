@@ -1,7 +1,7 @@
 ci
 doneApplyingChangesSilentlyComment: providedComment preLoad: preload postLoad: postLoad
 	| comment commentQuoted st |
-	SmalltalkImage current saveSession.
+	Smalltalk image saveSession.
 	self saveAsNewImageWithCurrentReleaseNameToPublish.
 	comment := providedComment trimBoth.
 	

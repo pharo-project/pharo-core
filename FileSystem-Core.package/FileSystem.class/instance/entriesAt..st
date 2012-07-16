@@ -1,4 +1,4 @@
-public
+public-enumerating
 entriesAt: aResolvable
 	^ Array
 		streamContents: [ :out | 

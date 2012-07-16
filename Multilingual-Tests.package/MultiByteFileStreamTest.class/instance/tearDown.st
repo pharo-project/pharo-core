@@ -1,4 +1,4 @@
 testing
 tearDown
-	'foobug6933' asFile delete.
-	self lineEndTestFile asFile delete.
+	'foobug6933' asFileReference delete.
+	self lineEndTestFile asFileReference delete.

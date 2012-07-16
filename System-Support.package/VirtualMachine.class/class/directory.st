@@ -1,6 +1,6 @@
 attributes
 directory
-	"Answer the path for the directory containing the Smalltalk virtual machine. Return the 	empty string if this primitive is not implemented."
-	"SmalltalkImage current vmPath"
+	"Answer the a file reference to the directory containing the Smalltalk virtual machine."
+	"SmalltalkImage current directory"
 
-	^ self primVmPath asFileReference.
+	^ FileLocator vmDirectory

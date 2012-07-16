@@ -15,7 +15,7 @@ cleanUpForRelease
 				clearDescriptions ].
 	ExternalDropHandler resetRegisteredHandlers.
 	FreeTypeFontProvider current initialize.
-	SystemNavigation default
+	SystemNavigation new
 		allObjectsDo: [ :each | 
 			(each respondsTo: #releaseCachedState)
 				ifTrue: [ each releaseCachedState ] ].

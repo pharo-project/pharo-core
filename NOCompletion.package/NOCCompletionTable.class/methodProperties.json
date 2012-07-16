@@ -12,7 +12,6 @@
 	"instance" : {
 		"addEntry:" : "rr 4/9/2009 17:55",
 		"addEntry:date:" : "rr 4/15/2009 10:52",
-		"classesInCategory:" : "rr 5/11/2009 23:10",
 		"compiled:in:date:" : "ul 11/6/2010 06:35",
 		"entriesMatching:" : "rr 4/17/2009 14:14",
 		"entriesPerPrefix:" : "rr 4/9/2009 17:42",
@@ -23,8 +22,8 @@
 		"listsForPrefix:" : "EstebanLorenzano 4/12/2012 11:20",
 		"maxNumberOfEntries" : "rr 4/10/2009 12:10",
 		"numberOfEntries" : "rr 4/9/2009 17:46",
-		"quickFillWithCategoriesMatching:" : "rr 5/11/2009 23:11",
-		"quickFillWithCategoryOf:" : "rr 5/11/2009 23:10",
+		"quickFillWithCategoriesMatching:" : "MarcusDenker 7/15/2012 13:48",
+		"quickFillWithCategoryOf:" : "MarcusDenker 7/15/2012 13:47",
 		"quickFillWithClass:" : "rr 5/28/2009 14:10",
 		"reset" : "rr 4/10/2009 11:21",
 		"totalNumberOfEntries" : "rr 4/9/2009 17:49" } }

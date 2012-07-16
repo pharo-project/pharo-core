@@ -2,7 +2,7 @@ platform specific
 defaultEncodingName: languageSymbol 
 	| encodings platformName osVersion |
 	platformName := OSPlatform platformName.
-	osVersion := OSPlatform osVersion.
+	osVersion := OSPlatform version.
 	encodings := self platformEncodings at: languageSymbol
 				ifAbsent: [self platformEncodings at: #default].
 	encodings at: platformName ifPresent: [:encoding | ^encoding].

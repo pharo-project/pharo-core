@@ -8,6 +8,6 @@ browseWith: anECContext
 				selector: method selector. 
 			true ]
 		ifAbsent: [ :selector | 
-			SystemNavigation default 
+			SystemNavigation new 
 				browseAllImplementorsOf: selector.
 			true ]

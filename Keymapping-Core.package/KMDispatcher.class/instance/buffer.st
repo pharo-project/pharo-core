@@ -1,3 +1,3 @@
 match
 buffer
-	^ buffer	
+	^ KMBuffer uniqueInstance buffer

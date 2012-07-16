@@ -4,6 +4,6 @@ nodeAt: aPath ifPresent: presentBlock ifAbsent: absentBlock
 	current := self root.
 	aPath do: [ :segment | 
 		current isDirectory
-			ifTrue: [ current := current at: segment ifAbsent: [ ^ absentBlock value ]]
+			ifTrue: [ current := current fileEntryAt: segment ifAbsent: [ ^ absentBlock value ]]
 			ifFalse: [ ^ absentBlock value ]].
 	^ presentBlock value: current

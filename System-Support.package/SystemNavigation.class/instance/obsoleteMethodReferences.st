@@ -1,6 +1,6 @@
 query
 obsoleteMethodReferences
-	"SystemNavigation default obsoleteMethodReferences"
+	"SystemNavigation new obsoleteMethodReferences"
 
 	"Open a browser on all referenced behaviors that are obsolete"
 

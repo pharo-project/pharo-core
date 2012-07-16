@@ -4,10 +4,10 @@ readContentsHex: brevity
 	  Don't create a file here.  Check if exists."
 	| size data hexData s |
 
-	self reference fileStreamWritable: false do: [ :f| 
+	self reference streamWritable: false do: [ :f| 
 		f isNil 
 			ifTrue: [^ 'For some reason, this file cannot be read' translated].
-		
+		f binary.
 		((size := f size)) > 5000 & brevity
 			ifTrue: [data := f next: 10000. f close. brevityState := #briefHex]
 			ifFalse: [data := f contentsOfEntireFile. brevityState := #fullHex].
@@ -21,12 +21,7 @@ readContentsHex: brevity
 		hexData := s contents].
 	
 	^ contents := ((size > 5000) & brevity
-		ifTrue: ['File ''{1}'' is {2} bytes long.
-You may use the ''get'' command to read the entire file.
-
-Here are the first 5000 characters...
+		ifTrue: ['{3}
 ------------------------------------------
-{3}
-------------------------------------------
-... end of the first 5000 characters.' translated format: {reference basename. size. hexData}]
+... end of the first 5000 characters.' translated format: {hexData}]
 		ifFalse: [hexData]).

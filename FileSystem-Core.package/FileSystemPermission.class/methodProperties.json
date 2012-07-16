@@ -3,10 +3,13 @@
 		"new" : "EstebanLorenzano 6/22/2012 15:02",
 		"posixPermissions:" : "EstebanLorenzano 6/22/2012 15:01" },
 	"instance" : {
+		"<" : "CamilloBruni 7/10/2012 22:01",
 		"groupExecute" : "EstebanLorenzano 6/22/2012 15:10",
 		"groupRead" : "EstebanLorenzano 6/22/2012 15:10",
 		"groupWrite" : "EstebanLorenzano 6/22/2012 15:11",
 		"initialize:" : "EstebanLorenzano 6/22/2012 15:02",
+		"isReadable" : "CamilloBruni 7/10/2012 21:32",
+		"isWritable" : "CamilloBruni 7/10/2012 21:33",
 		"otherExecute" : "EstebanLorenzano 6/22/2012 15:11",
 		"otherRead" : "EstebanLorenzano 6/22/2012 15:11",
 		"otherWrite" : "EstebanLorenzano 6/22/2012 15:11",

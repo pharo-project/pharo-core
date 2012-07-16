@@ -1,4 +1,7 @@
 match
 partialMatch
-	KMLog log: 'Complete match: ', currentEvent printString.
-	currentEvent wasHandled: true.
+	| event |
+	KMBuffer uniqueInstance partialMatch.
+	event := KMBuffer uniqueInstance currentEvent.
+	event isKeyboard not ifTrue: [ event := nil ].
+	self announcer announce: (KMPartialMatch event: event from: self).

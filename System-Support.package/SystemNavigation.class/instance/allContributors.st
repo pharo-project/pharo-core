@@ -4,7 +4,7 @@ allContributors
 	
 	"I am wondering why a bag is used instead of a set. AlexandreBergel 12/29/2010 11:37"
 
-	"SystemNavigation default allContributors"
+	"SystemNavigation new allContributors"
 	| contributorsNames |
 	contributorsNames := Bag new.
 	self allBehaviorsDo: [ :behavior |

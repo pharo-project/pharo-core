@@ -5,6 +5,7 @@ action: aMessageSendOrABlock
 	aMessageSendOrABlock isBlock 
 		ifTrue: [
 			self target: aMessageSendOrABlock.
-			self selector: #value]
+			self selector: #cull:.
+			self arguments: {self model}]
 		ifFalse: [
 			self selector: aMessageSendOrABlock]

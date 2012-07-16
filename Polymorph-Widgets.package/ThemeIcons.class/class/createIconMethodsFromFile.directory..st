@@ -12,7 +12,7 @@ createIconMethodsFromFile: aFileNamePrefix directory: directory
 	^icons 
 			at: #{1}
 			ifAbsentPut:[ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self {1}Contents readStream) ].'.
-	png :=( directory asDirectory / aFileNamePrefix , 'png') fullName.
+	png :=( directory asFileReference / aFileNamePrefix , 'png') fullName.
 	[base64 := self base64ContentsOfFileNamed: png ]
 		on: Error
 		do: [base64 := nil].

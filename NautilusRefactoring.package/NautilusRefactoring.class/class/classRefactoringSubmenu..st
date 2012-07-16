@@ -6,7 +6,7 @@ classRefactoringSubmenu: aBuilder
 	target selectedClass ifNil: [^target].
 	
 	(aBuilder item: #'Rename... (r, c)')
-		action: [ target renameClassWithRefactoringEngine: target selectedClass ];
+		action: [ target renameClassWithRefactoringEngine: target selectedClass theNonMetaClass ];
 		parent: #'Class Refactoring';
 		order: 0.
 	

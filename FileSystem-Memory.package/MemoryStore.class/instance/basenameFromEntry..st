@@ -1,3 +1,3 @@
 public
 basenameFromEntry: aMemoryFileSystemEntry
-	^ aMemoryFileSystemEntry name
+	^ aMemoryFileSystemEntry basename

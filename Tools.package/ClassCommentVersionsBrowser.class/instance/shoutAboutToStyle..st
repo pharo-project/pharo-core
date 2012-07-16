@@ -1,0 +1,4 @@
+shout
+shoutAboutToStyle: aPluggableShoutMorphOrView
+
+	^ false

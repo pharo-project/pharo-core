@@ -1,3 +1,5 @@
 stream-protocol
 readStream
-	^ ReadStream on: self from: 1 to: entry size
+	"Return a readstream on my contents.
+	Using myself as target collection allows to share the internal bytearray between multiple streams."
+	^ ReadStream on: self from: 1 to: entry fileSize

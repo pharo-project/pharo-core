@@ -1,3 +1,3 @@
-as yet unclassified
+visiting
 breadthFirst: aReference
 	^ self visit: aReference with: (BreadthFirstGuide for: self)

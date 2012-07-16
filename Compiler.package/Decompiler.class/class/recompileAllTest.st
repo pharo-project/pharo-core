@@ -4,8 +4,8 @@ recompileAllTest
 	"decompile every method and compile it back; if the decompiler is correct then the system should keep running.  :)"
 	
 	
-	SystemNavigation default allBehaviorsDo: [ :behavior |
-		UIManager default informUser: (behavior printString) during: [
+	SystemNavigation new allBehaviorsDo: [ :behavior |
+		UIManager new informUser: (behavior printString) during: [
 			behavior selectorsAndMethodsDo: [ :sel :meth |
 				| ast decompiled compiled |
 				decompiled := Decompiler new decompile: sel in: behavior.

@@ -1,5 +1,5 @@
 operations
 deleteIfAbsent: aBlock
 	self exists 
-		ifTrue: [self delete]
+		ifTrue: [ self delete ]
 		ifFalse: aBlock

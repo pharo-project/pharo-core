@@ -7,6 +7,6 @@ newFocusIndicatorMorphFor: aMorph
 	^ BorderedMorph new
 		fillStyle: Color transparent;
 		borderStyle: (SimpleBorder new
-			 width: 1;
+			 width: 2;
 			baseColor: (self glamorousBaseSelectionColorFor: aMorph));
 		bounds: aMorph focusBounds

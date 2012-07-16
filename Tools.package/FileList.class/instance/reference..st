@@ -1,12 +1,15 @@
 accessing
 reference: dir
+	| tmpReference |
 	"Set the path of the volume to be displayed."
 	self okToChange ifFalse: [^ self].
 	
-	reference := dir 
+	tmpReference := dir 
 		ifNotNilDo: [ :d| d asFileReference]
 		ifNil: [ FileSystem disk workingDirectory ].
-		
+	tmpReference isReadable 
+		ifFalse: [ ^ self inform: ('Cannot read {1}' translated format: { tmpReference})].
+	reference := tmpReference.
 	sortMode isNil ifTrue: [sortMode := #date].
 	
 	volumeList := ((Array with: '[]'), reference pathSegments)  

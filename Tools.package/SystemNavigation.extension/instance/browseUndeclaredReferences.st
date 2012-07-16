@@ -1,6 +1,6 @@
 *Tools-Browser
 browseUndeclaredReferences
-	"SystemNavigation default browseUndeclaredReferences"
+	"SystemNavigation new browseUndeclaredReferences"
 	
 	Undeclared removeUnreferencedKeys.
 	Undeclared associations do: [:binding |

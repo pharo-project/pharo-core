@@ -2,7 +2,7 @@ elementary steps
 updateUpdatesList: aString
 	"ScriptLoader new updateUpdatesList: 'cleanUpMethods'"
 	
-	self updatesListFileName asFile writeStreamDo: [ :str|
+	self updatesListFileName asFileReference writeStreamDo: [ :str|
 		str
 			setToEnd;
 			cr;

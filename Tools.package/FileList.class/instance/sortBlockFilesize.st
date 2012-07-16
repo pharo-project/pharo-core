@@ -4,7 +4,7 @@ sortBlockFilesize
 
 	^ [ :x :y | |xIsDir|
 			((xIsDir := x isDirectory) = y isDirectory) 
-				ifTrue: [   x entry size <= y entry size  ]
+				ifTrue: [   x size <= y size  ]
 				ifFalse: [
 					"directories always precede files"
 					xIsDir ]]

@@ -1,5 +1,5 @@
 defaults
 defaultCacheDirectory
-	^ 'package-cache' asDirectory 
+	^ 'package-cache' asFileReference 
 		ensureDirectory;
 		yourself

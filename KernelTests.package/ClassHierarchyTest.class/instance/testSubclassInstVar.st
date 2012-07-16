@@ -1,7 +1,7 @@
 as yet unclassified
 testSubclassInstVar
 	| subclasses |
-	SystemNavigation default allClassesDo: [ :cls|
+	SystemNavigation new allClassesDo: [ :cls|
 		subclasses := cls subclasses.
 		self assert: subclasses isNil not.
 		subclasses do: [:subclass|

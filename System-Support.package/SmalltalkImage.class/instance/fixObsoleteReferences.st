@@ -1,8 +1,8 @@
 housekeeping
 fixObsoleteReferences
 	"SmalltalkImage current fixObsoleteReferences.
-	SystemNavigation default obsoleteBehaviors size > 0
-		ifTrue: [ SystemNavigation default obsoleteBehaviors inspect.
+	SystemNavigation new obsoleteBehaviors size > 0
+		ifTrue: [ SystemNavigation new obsoleteBehaviors inspect.
 			self error:'Still have obsolete behaviors. See inspector']"
 
 	| informee obsoleteBindings obsName realName realClass |

@@ -4,7 +4,6 @@ fillBytes: bytes startingAt: offset count: count
 	Overwritten: decrypt and if necessary ask the socket for encrypted data using a super call."
 	
 	| processedCount processData inCount |
-	self isConnected ifFalse: [ ConnectionClosed signal: 'Cannot read data' ].  
 	processData := [
 		processedCount < 0 ifTrue: [ ^ self sslException: 'decrypt failed' code: processedCount ].
 		processedCount > 0
@@ -14,7 +13,7 @@ fillBytes: bytes startingAt: offset count: count
 	self resetEncryptedBuffers.
 	processedCount := self sslSession decrypt: in from: 1 to: 0 into: out.
 	processData value.
-	inCount := super fillBytes: in startingAt: 1 count: in size.
+	inCount := self fillEncryptedBytes: in startingAt: 1 count: in size.
 	processedCount := self sslSession decrypt: in from: 1 to: inCount into: out.
 	processData value.
 	^ 0

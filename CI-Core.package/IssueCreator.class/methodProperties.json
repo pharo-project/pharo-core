@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"spec" : "BenjaminVanRyseghem 7/4/2012 15:47" },
+	"instance" : {
+		"cancelled" : "BenjaminVanRyseghem 7/6/2012 16:23",
+		"createTypes" : "BenjaminVanRyseghem 7/4/2012 15:59",
+		"description" : "BenjaminVanRyseghem 7/4/2012 15:42",
+		"initialize" : "BenjaminVanRyseghem 7/4/2012 15:58",
+		"initializeDialogWindow:" : "BenjaminVanRyseghem 7/10/2012 14:34",
+		"initializeWidgets" : "BenjaminVanRyseghem 7/10/2012 14:36",
+		"issue" : "BenjaminVanRyseghem 7/4/2012 15:55",
+		"issue:" : "BenjaminVanRyseghem 7/4/2012 15:55",
+		"issueTitle" : "BenjaminVanRyseghem 7/4/2012 15:43",
+		"title" : "BenjaminVanRyseghem 7/4/2012 15:51",
+		"type" : "BenjaminVanRyseghem 7/4/2012 15:42" } }

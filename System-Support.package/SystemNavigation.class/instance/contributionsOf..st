@@ -1,6 +1,6 @@
 author
 contributionsOf: aString
-	"SystemNavigation default contributionsOf: 'alain.plantec'"
+	"SystemNavigation new contributionsOf: 'alain.plantec'"
 	
 	| answer |
 	answer := OrderedCollection new.

@@ -9,7 +9,7 @@ lookInUsualPlaces: fileName
 	((vmp := FileDirectory on: Smalltalk imagePath) fileExists: fileName)
 		ifTrue: [^ vmp fileNamed: fileName].
 
-	((vmp := FileDirectory on: Smalltalk vmPath) fileExists: fileName)
+	((vmp := FileDirectory on: Smalltalk vm path) fileExists: fileName)
 		ifTrue: [^ vmp fileNamed: fileName].
 
 	((vmp := vmp containingDirectory) fileExists: fileName)

@@ -2,7 +2,7 @@ menu integration actions
 doneApplyingChanges
 	| comment commentQuoted st |
 	
-	SmalltalkImage current saveSession.
+	Smalltalk image saveSession.
 		"now you can reopen prior to publishing to fix :)"
 	self saveAsNewImageWithCurrentReleaseNameToPublish.
 	

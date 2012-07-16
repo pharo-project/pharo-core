@@ -2,4 +2,4 @@ accessing
 dispatchOwnerKeystroke: aKeyEvent
 	morph owner 
 		ifNil: [ ^ self ].
-	morph owner dispatchKeystrokeForEvent: aKeyEvent
+	morph owner kmDispatcher dispatch: KMBuffer uniqueInstance buffer

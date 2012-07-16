@@ -16,5 +16,5 @@ testBinaryUpTo
 		self assert: (foo upTo: 3) = #[1 2] 
 	] ensure: [
 		foo close.
- 		fileName  asFile delete]. 
+ 		fileName  asFileReference delete]. 
     

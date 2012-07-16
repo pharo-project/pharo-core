@@ -1,0 +1,18 @@
+{
+	"category" : "CI-Core-SliceSubmitter",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"tracker" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"issue",
+		"mcPackage",
+		"receiver" ],
+	"name" : "SliceSubmitter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

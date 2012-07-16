@@ -1,4 +1,4 @@
-public
+public-testing
 hasDirectories: aResolvable
 	self
 		entriesAt: aResolvable

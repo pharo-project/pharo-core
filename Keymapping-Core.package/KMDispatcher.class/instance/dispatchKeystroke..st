@@ -1,9 +1,18 @@
 dispatching
 dispatchKeystroke: aKeyEvent
+	| currentTarget |
 	KMLog log: aKeyEvent printString, String cr.
-	self matchEvent: aKeyEvent.
+
+	KMBuffer uniqueInstance addEvent: aKeyEvent.
+
+	currentTarget := self target.
+	[ aKeyEvent wasHandled not and: [ currentTarget notNil ] ]
+		whileTrue: [
+			currentTarget dispatch: KMBuffer uniqueInstance buffer.
+			currentTarget := currentTarget ownerTarget.
+		].
+	
 	aKeyEvent wasHandled
-		ifTrue: [ 
-			self target clearOwnerBuffers.
-			^ self ].
-	self target dispatchOwnerKeystroke: aKeyEvent.
+		ifTrue: [ ^ self ].
+	
+	KMBuffer uniqueInstance clearBuffer.

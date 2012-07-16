@@ -5,5 +5,5 @@ directoryAt: aPath ifAbsent: absentBlock nodesDo: aBlock
 		ifPresent: [ :entry | 
 			entry isDirectory
 				ifFalse: [ ^ absentBlock value ].
-			entry do: aBlock ]
+			entry fileEntriesDo: aBlock ]
 		ifAbsent: absentBlock

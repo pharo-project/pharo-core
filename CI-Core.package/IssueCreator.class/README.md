@@ -1,0 +1,1 @@
+An IssueCreator is a UI to create a Google Issue Tracker entry

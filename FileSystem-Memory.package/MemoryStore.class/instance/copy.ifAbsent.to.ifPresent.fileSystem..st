@@ -22,5 +22,5 @@ copy: sourcePath ifAbsent: absentBlock to: destinationPath ifPresent: presentBlo
 		ifTrue: [ "cannot overwrite existing file"^ presentBlock value ].
 		
 	destinationNode 
-		at: destinationPath basename 
+		fileEntryAt: destinationPath basename 
 		put: sourceNode copy

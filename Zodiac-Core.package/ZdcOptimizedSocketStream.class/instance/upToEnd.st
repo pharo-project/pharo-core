@@ -12,4 +12,8 @@ upToEnd
 						startingAt: readBuffer contentsStart.
 					readBuffer advanceReadPointer: readBuffer availableForReading ].   
 				self atEnd ] whileFalse: [ 
-					readBuffer isEmpty ifTrue: [ self fillReadBuffer ] ] ]
+					readBuffer isEmpty 
+						ifTrue: [ 
+							[ self fillReadBuffer ] 
+								on: ConnectionClosed 
+								do: [ :exception | exception return ] ] ] ]

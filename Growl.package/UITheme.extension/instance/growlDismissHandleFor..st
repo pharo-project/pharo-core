@@ -1,8 +1,9 @@
 *growl
 growlDismissHandleFor: aGrowlMorph
 	| handle form image |
-	handle := EllipseMorph newBounds: ((3@3) extent: (20@20))  color: Color white.
+	handle := RectangleMorph newBounds: ((3@3) extent: (20@20))  color: Color white.
 	handle borderColor: handle color muchDarker.
+	handle borderWidth: 1.
 	handle wantsYellowButtonMenu: false.
 	form := self "haloDismissIcon" windowCloseForm.
 	form ifNotNil: [

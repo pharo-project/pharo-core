@@ -1,3 +1,3 @@
-as yet unclassified
+visiting
 postorder: aReference
 	^ self visit: aReference with: (PostorderGuide for: self)

@@ -1,7 +1,7 @@
 author
 signatories
 	"Answer the initials corresponding to the people who have signed the license"
-	"SystemNavigation default signatories"
+	"SystemNavigation new signatories"
 	
 	^(self signatoriesString subStrings: {Character cr})
 		collect: [ :each | each substrings first]

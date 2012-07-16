@@ -1,4 +1,4 @@
 actions
 lookInPreferencesVersionFolder
 
-	^ self lookInFolder: self preferencesDirectory /  SystemVersion current dottedMajorMinor .
+	^ self lookInFolder: StartupLoader preferencesVersionFolder.

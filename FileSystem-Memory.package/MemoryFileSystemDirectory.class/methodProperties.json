@@ -2,16 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"at:" : "CamilloBruni 6/22/2012 20:16",
-		"at:ifAbsent:" : "CamilloBruni 6/22/2012 20:40",
-		"at:ifPresent:" : "CamilloBruni 6/22/2012 22:04",
-		"at:put:" : "CamilloBruni 6/22/2012 22:04",
-		"do:" : "CamilloBruni 6/22/2012 20:22",
-		"ensureDirectory:" : "CamilloBruni 6/22/2012 20:19",
-		"ensureFile:" : "CamilloBruni 6/22/2012 20:19",
+		"ensureDirectory:" : "CamilloBruni 7/10/2012 14:53",
+		"ensureFile:" : "CamilloBruni 7/10/2012 14:53",
 		"entries" : "CamilloBruni 6/22/2012 20:02",
+		"fileEntriesDo:" : "CamilloBruni 7/10/2012 14:49",
+		"fileEntryAt:" : "CamilloBruni 7/10/2012 14:47",
+		"fileEntryAt:ifAbsent:" : "CamilloBruni 7/10/2012 14:47",
+		"fileEntryAt:ifPresent:" : "CamilloBruni 7/10/2012 14:48",
+		"fileEntryAt:put:" : "CamilloBruni 7/10/2012 14:48",
+		"fileSize" : "CamilloBruni 7/10/2012 14:54",
 		"includes:" : "CamilloBruni 6/22/2012 20:17",
 		"initialize" : "CamilloBruni 6/22/2012 20:00",
 		"isDirectory" : "CamilloBruni 6/22/2012 20:02",
-		"remove:" : "CamilloBruni 6/22/2012 22:03",
-		"size" : "CamilloBruni 6/22/2012 20:25" } }
+		"remove:" : "CamilloBruni 6/22/2012 22:03" } }

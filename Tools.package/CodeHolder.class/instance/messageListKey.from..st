@@ -25,7 +25,6 @@ messageListKey: aChar from: view
 		[aChar == $o ifTrue: [^ self fileOutMessage].
 		aChar == $c ifTrue: [^ self copySelector].
 		aChar == $v ifTrue: [^ self browseVersions].
-		aChar == $O ifTrue: [^ self openSingleMessageBrowser].
 		aChar == $x ifTrue: [^ self removeMessage].
 		aChar == $d ifTrue: [^ self removeMessageFromBrowser].
 

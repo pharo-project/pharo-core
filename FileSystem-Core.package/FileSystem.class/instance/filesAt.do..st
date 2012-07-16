@@ -1,4 +1,4 @@
-public
+public-enumerating
 filesAt: aResolvable do: aBlock
 	| path |
 	path := self resolve: aResolvable.

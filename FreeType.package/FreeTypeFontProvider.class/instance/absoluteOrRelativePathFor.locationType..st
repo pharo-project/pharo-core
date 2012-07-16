@@ -5,7 +5,7 @@ absoluteOrRelativePathFor: absolutePath locationType: aSymbol
 
 	aSymbol = #absolute ifTrue: [^absolutePath].
 	aSymbol = #imageRelative ifTrue: [p := Smalltalk imagePath].
-	aSymbol = #vmRelative ifTrue: [p := Smalltalk vmPath].
+	aSymbol = #vmRelative ifTrue: [p := Smalltalk vm path].
 	(p notNil and: [absolutePath asLowercase beginsWith: p asLowercase])
 		ifTrue: [^absolutePath copyFrom: p size + 1 to: absolutePath size].
 	^absolutePath

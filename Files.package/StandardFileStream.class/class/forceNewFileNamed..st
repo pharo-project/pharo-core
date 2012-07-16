@@ -11,7 +11,7 @@ forceNewFileNamed: fileName
 			^ f ifNil: ["Failed to open the file"
 					(FileDoesNotExistException fileName: fullName) signal]].
 			
-	dir := fullName asFile.
+	dir := fullName asFileReference.
 	localName := dir basename.
 	dir delete.
 	dir exists ifTrue: [(CannotDeleteFileException new

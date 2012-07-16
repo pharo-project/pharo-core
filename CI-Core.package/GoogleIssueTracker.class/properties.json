@@ -1,0 +1,20 @@
+{
+	"category" : "CI-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"authentificationToken",
+		"project",
+		"integrated",
+		"user",
+		"token" ],
+	"name" : "GoogleIssueTracker",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

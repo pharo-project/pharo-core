@@ -12,6 +12,6 @@ flushBytes: bytes startingAt: offset count: count
 		chunkCount := 4096 min: remaining.
 		writeCount := self sslSession encrypt: bytes from: currentOffset to: currentOffset + chunkCount - 1 into: out.
 		writeCount < 0 ifTrue: [ ^ self sslException: 'encrypt failed' code: writeCount ].
-		super flushBytes: out startingAt: 1 count: writeCount.
+		self flushEncryptedBytes: out startingAt: 1 count: writeCount.
 		remaining := remaining - chunkCount.
 		currentOffset := currentOffset + chunkCount ]

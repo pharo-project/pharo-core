@@ -1,3 +1,2 @@
 match
 noMatch
-	self clearBuffer.

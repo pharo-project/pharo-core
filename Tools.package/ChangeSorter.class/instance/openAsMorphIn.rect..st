@@ -11,7 +11,7 @@ openAsMorphIn: window rect: rect
 	
 "The method SystemWindow>>addMorph:fullFrame: checks scrollBarsOnRight, then adds the morph at the back if true, otherwise it is added in front. But flopout hScrollbars needs the crrentSelector pane to be behind the upper ones in the draw order. Hence the value of scrollBarsOnRight affects the order in which the lowerpanes are added."
 	window theme settings scrollBarsOnRight ifFalse:
-		[window addMorph: (PluggableListMorphByItem on: self
+		[window addMorph: (PluggableListMorph on: self
 					list: #messageList
 					selected: #currentSelector
 					changeSelected: #currentSelector:
@@ -20,7 +20,7 @@ openAsMorphIn: window rect: rect
 			frame: (((0@csListHeight extent: 1@msgListHeight)
 				scaleBy: rect extent) translateBy: rect origin)].
 
-	window addMorph: ((PluggableListMorphByItem on: self
+	window addMorph: ((PluggableListMorph on: self
 				list: #changeSetList
 				selected: #changeSetName
 				changeSelected: #showChangeSetNamed:
@@ -30,7 +30,7 @@ openAsMorphIn: window rect: rect
 		frame: (((0@0 extent: 0.5@csListHeight)
 			scaleBy: rect extent) translateBy: rect origin).
 
-	window addMorph: (PluggableListMorphByItem on: self
+	window addMorph: (PluggableListMorph on: self
 				list: #classList
 				selected: #currentClassName
 				changeSelected: #currentClassName:
@@ -40,7 +40,7 @@ openAsMorphIn: window rect: rect
 			scaleBy: rect extent) translateBy: rect origin).
 
 	window theme settings scrollBarsOnRight ifTrue:
-		[window addMorph: (PluggableListMorphByItem on: self
+		[window addMorph: (PluggableListMorph on: self
 					list: #messageList
 					selected: #currentSelector
 					changeSelected: #currentSelector:

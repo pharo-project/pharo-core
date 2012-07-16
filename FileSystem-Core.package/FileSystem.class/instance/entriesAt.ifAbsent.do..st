@@ -1,4 +1,4 @@
-public
+public-enumerating
 entriesAt: aResolvable ifAbsent: absentBlock do: aBlock
 	| path entry aFilesystem |
 	path := self resolve: aResolvable.

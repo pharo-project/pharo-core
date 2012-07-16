@@ -23,9 +23,9 @@ condenseChanges
 	oldChanges := SourceFiles at: 2.
 	oldChanges close.
 	
-	(oldChanges name , '.old') asFile delete.
-	(file := oldChanges name asFile) renameTo: file basename, '.old'.
-	f name asFile renameTo: file basename.
+	(oldChanges name , '.old') asFileReference delete.
+	(file := oldChanges name asFileReference) renameTo: file basename, '.old'.
+	f name asFileReference renameTo: file basename.
 	
 	self setMacFileInfoOn: oldChanges name.
 	SourceFiles

@@ -1,4 +1,4 @@
-public
+public-enumerating
 childrenAt: aResolvable
 	^ Array streamContents: [ :out | 
 		self childrenAt: aResolvable do: [ :path|

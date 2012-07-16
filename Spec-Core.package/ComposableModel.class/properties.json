@@ -13,7 +13,9 @@
 		"window",
 		"spec",
 		"extentHolder",
-		"needRebuild" ],
+		"needRebuild",
+		"isEventForNextFocusBlock",
+		"isEventForPreviousFocusBlock" ],
 	"name" : "ComposableModel",
 	"pools" : [
 		 ],

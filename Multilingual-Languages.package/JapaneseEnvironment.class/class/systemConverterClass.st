@@ -1,17 +1,11 @@
 subclass responsibilities
 systemConverterClass
-	| platformName osVersion encoding |
-	platformName := OSPlatform platformName.
-	osVersion := OSPlatform osVersion.
-	OSPlatform isWin32CE
-		ifTrue: [^UTF8TextConverter].
-	(#('Win32' 'ZaurusOS') includes: platformName) 
+	| encoding |
+
+	OSPlatform isWin32 
 		ifTrue: [^ShiftJISTextConverter].
 	OSPlatform isMacOS
-		ifTrue: 
-			[^('10*' match: osVersion) 
-				ifTrue: [UTF8TextConverter]
-				ifFalse: [ShiftJISTextConverter]].
+		ifTrue: [^UTF8TextConverter].
 	OSPlatform isUnix
 		ifTrue: 
 			[encoding := X11Encoding encoding.
@@ -21,4 +15,4 @@ systemConverterClass
 			(encoding = 'shiftjis' or: [ encoding = 'sjis' ]) 
 				ifTrue: [^ShiftJISTextConverter].				
 			^EUCJPTextConverter].
-	^MacRomanTextConverter
+	^UTF8TextConverter

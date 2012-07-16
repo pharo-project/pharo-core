@@ -3,7 +3,7 @@ platformVMRelativeDirectories
 
 	| answer path |
 	answer := OrderedCollection new.
-	(path :=  Smalltalk vmPath)
+	(path :=  Smalltalk vm path)
 		ifNotEmpty: [ | fontDirectory |
 			(fontDirectory := path asFileReference / 'Fonts') exists
 				ifTrue: [answer addLast: fontDirectory]].

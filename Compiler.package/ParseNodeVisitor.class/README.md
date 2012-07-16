@@ -1,6 +1,6 @@
 I am an abstract superclass for ParseNode visitors that functions as a null visitor.  Here's the code that defines my interface:
 
-(SystemNavigation default allImplementorsOf: #accept: localTo: ParseNode) do:
+(SystemNavigation new allImplementorsOf: #accept: localTo: ParseNode) do:
 	[:methodReference|
 	methodReference compiledMethod messages do:
 		[:sel|

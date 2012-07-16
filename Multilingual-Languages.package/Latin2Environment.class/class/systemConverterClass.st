@@ -1,7 +1,7 @@
 subclass responsibilities
 systemConverterClass
 
-	(#('Win32') includes: OSPlatform platformName) 
+	OSPlatform isWin32 
 		ifTrue: [^CP1250TextConverter ].
 
 	^ ISO88592TextConverter.

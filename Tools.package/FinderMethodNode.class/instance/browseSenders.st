@@ -1,3 +1,3 @@
 private
 browseSenders
-	SystemNavigation default browseAllCallsOn: self item.
+	SystemNavigation new browseAllCallsOn: self item.

@@ -12,6 +12,7 @@
 		"squeezeNumberOutOfString:ifFail:" : "NikoSchwarz 10/23/2009 13:19" },
 	"instance" : {
 		"*" : "",
+		"**" : "CamilloBruni 7/10/2012 22:24",
 		"+" : "",
 		"-" : "",
 		"/" : "",

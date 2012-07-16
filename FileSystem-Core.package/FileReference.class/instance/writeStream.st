@@ -1,3 +1,3 @@
 streams
 writeStream
-	^ filesystem writeStreamOn: path
+	^ filesystem writeStreamOn: self path

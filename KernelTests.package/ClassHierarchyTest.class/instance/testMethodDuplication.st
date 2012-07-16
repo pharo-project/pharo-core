@@ -5,6 +5,6 @@ testMethodDuplication
 	<expectedFailure>
 	
 	|methods|
-	SystemNavigation default allClasses do: [ :cls| 
+	SystemNavigation new allClasses do: [ :cls| 
 		methods := cls copiedMethodsFromSuperclass.
 		self assert: methods isEmpty]

@@ -1,7 +1,7 @@
 initialization
 setFileStream: aStream
 	"Used to initialize a spawned file editor.  Sets directory too."
-	self directory: aStream name asFile.
+	self directory: aStream name asFileReference.
 	pattern := nil.
 	aStream close.
 	brevityState := #needToGetBrief.

@@ -1,6 +1,6 @@
 *Tools
 browseUnsentMessagesInClass: aClass
-	"SystemNavigation default browseUnsentMessagesInClass: Browser"
+	"SystemNavigation new browseUnsentMessagesInClass: Browser"
 	| unsentMessages |
 	unsentMessages := self unsentMessagesWithProgressBarInClass: aClass.
 	^self 

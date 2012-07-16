@@ -19,7 +19,6 @@ messageMenu: aMenu shifted: shifted
 				-
 			('Browse full (b)'					browseMethodFull)
 			('Browse hierarchy (h)'				spawnHierarchy)
-			('Browse method (O)'				openSingleMessageBrowser)
 			-
 			('FileOut'							fileOutMessage)
 			-

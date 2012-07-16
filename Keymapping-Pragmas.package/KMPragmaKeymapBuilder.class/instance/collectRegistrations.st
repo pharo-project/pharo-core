@@ -1,6 +1,13 @@
 registrations handling
 collectRegistrations
+	| menu |
+	menu := PragmaMenuAndShortcutRegistration model: self.
+	
 	self pragmaCollector
 		do: [:prg | prg methodClass theNonMetaClass 
 				perform: prg selector
-				with: (KMBuilder perform: prg keyword withArguments: prg arguments )].
+				with: (menu 
+						platform: prg arguments;
+						yourself) ].
+	
+	self interpretRegistration: menu

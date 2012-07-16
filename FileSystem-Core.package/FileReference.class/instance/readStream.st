@@ -1,3 +1,3 @@
 streams
 readStream
-	^ filesystem readStreamOn: path
+	^ filesystem readStreamOn: self path

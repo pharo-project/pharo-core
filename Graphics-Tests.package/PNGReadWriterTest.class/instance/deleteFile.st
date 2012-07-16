@@ -1,3 +1,3 @@
 helpers
 deleteFile
-	fileName asFile delete
+	fileName asFileReference delete

@@ -9,7 +9,7 @@ loadLatestUpdateListSilently
 	listToUse linesDo: [:each | lastUpdate := each].
 	(lastUpdate beginsWith: self getLatestUpdateNumber asString)
 		 ifTrue: ["Write this file as our current updates.list"
-			self updatesListFileName asFile delete;
+			self updatesListFileName asFileReference delete;
 				writeStreamDo:  [:stream | stream nextPutAll: listToUse]]
 		ifFalse: [ 
 			self inform: 'Image update version did not match automatically fetched  update.list!  

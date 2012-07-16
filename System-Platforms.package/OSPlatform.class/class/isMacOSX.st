@@ -1,4 +1,4 @@
 testing
 isMacOSX
 	^ self isMacOS
-		and: ['10*' match: self osVersion]
+		and: ['10*' match: self version]

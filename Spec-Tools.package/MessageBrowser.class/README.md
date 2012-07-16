@@ -4,5 +4,5 @@ example:
 
 MessageBrowser new
 	openWithSpec;
-	messages: (SystemNavigation default allSendersOf: #at:)
+	messages: (SystemNavigation new allSendersOf: #at:)
 	yourself

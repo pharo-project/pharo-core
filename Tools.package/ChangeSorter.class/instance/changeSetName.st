@@ -1,3 +1,4 @@
 access
 changeSetName
-	^ myChangeSet name
+
+	^  self changeSetList indexOf: myChangeSet name ifAbsent: [ 0 ]

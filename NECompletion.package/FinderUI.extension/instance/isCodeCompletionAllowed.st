@@ -1,4 +1,4 @@
-*necompletion-extensions
+*necompletion
 isCodeCompletionAllowed
 
 	^ true.

@@ -54,7 +54,7 @@ privShrinkingProcess
 
     self privCleanUnloadMethods.
 
-    SystemNavigation default removeAllButPackages: self kernelPackageNames.
+    SystemNavigation new removeAllButPackages: self kernelPackageNames.
 
     Smalltalk flushClassNameCache.
     3 timesRepeat: [

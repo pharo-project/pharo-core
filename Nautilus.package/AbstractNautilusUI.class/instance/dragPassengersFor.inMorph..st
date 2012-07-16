@@ -11,7 +11,13 @@ dragPassengersFor: item inMorph: dragSource
 		ifTrue: [ ^ self selectedCategories ifEmpty: [ { object } ] ].
 	
 	transferType == #listElement2:
-			ifTrue: [ ^ self selectedClasses ifEmpty: [ { object } ]].
+			ifTrue: [ 
+				self showGroups 
+					ifTrue: [ self selectedGroup
+								ifNil: [ ^ nil ]
+								ifNotNil: [:g | g isFillable ifFalse: [ ^ nil ]]].
+				
+				^ self selectedClasses ifEmpty: [ { object } ]].
 
 	transferType == #getMethodItem:
 			ifFalse: [ ^ nil ].

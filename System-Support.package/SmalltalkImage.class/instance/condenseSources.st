@@ -36,8 +36,8 @@ for the new source code file...' initialAnswer: Smalltalk  sourceFileVersionStri
 		header; timeStamp; close.
 	self lastQuitLogPosition: 0.
 
-	self setMacFileInfoOn: SmalltalkImage current changesName.
-	self setMacFileInfoOn: SmalltalkImage current sourcesName.
+	self setMacFileInfoOn: Smalltalk image changesName.
+	self setMacFileInfoOn: Smalltalk image sourcesName.
 	self openSourceFiles.
 	self inform: 'Source files have been rewritten!
 Check that all is well,

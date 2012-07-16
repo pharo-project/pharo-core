@@ -1,4 +1,4 @@
 attributes
 fileName
 
-	^ (FilePath pathName: (Smalltalk vmFullPath) isEncoded: true) asSqueakPathName
+	^ (FilePath pathName: (self fullPath) isEncoded: true) asSqueakPathName

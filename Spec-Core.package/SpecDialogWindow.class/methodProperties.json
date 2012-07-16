@@ -4,11 +4,13 @@
 	"instance" : {
 		"cancelAction:" : "BenjaminVanRyseghem 6/26/2012 02:09",
 		"cancelled" : "BenjaminVanRyseghem 7/6/2012 15:58",
+		"giveFocusToNextFrom:" : "BenjaminVanRyseghem 7/10/2012 14:13",
+		"giveFocusToPreviousFrom:" : "BenjaminVanRyseghem 7/10/2012 14:13",
 		"initialExtent" : "BenjaminVanRyseghem 6/26/2012 02:33",
 		"newButtonRow" : "BenjaminVanRyseghem 6/26/2012 02:25",
 		"newContentMorph" : "BenjaminVanRyseghem 6/26/2012 02:10",
 		"okAction:" : "BenjaminVanRyseghem 6/26/2012 02:08",
 		"specWidget" : "BenjaminVanRyseghem 6/26/2012 02:10",
-		"specWidget:" : "BenjaminVanRyseghem 6/26/2012 02:10",
+		"specWidget:" : "BenjaminVanRyseghem 7/10/2012 14:11",
 		"toolbar" : "BenjaminVanRyseghem 6/26/2012 02:31",
-		"toolbar:" : "BenjaminVanRyseghem 6/26/2012 02:08" } }
+		"toolbar:" : "BenjaminVanRyseghem 7/10/2012 14:11" } }

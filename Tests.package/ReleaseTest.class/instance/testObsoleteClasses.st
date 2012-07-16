@@ -2,5 +2,5 @@ testing
 testObsoleteClasses
 	Smalltalk fixObsoleteReferences.
 	self 
-		assert: SystemNavigation default obsoleteClasses isEmpty
-		description: 'Obsolete classes remaining: ', SystemNavigation default obsoleteClasses asString.
+		assert: SystemNavigation new obsoleteClasses isEmpty
+		description: 'Obsolete classes remaining: ', SystemNavigation new obsoleteClasses asString.

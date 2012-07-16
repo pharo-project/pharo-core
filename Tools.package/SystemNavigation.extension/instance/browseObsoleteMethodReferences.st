@@ -2,7 +2,7 @@
 browseObsoleteMethodReferences
 	"Open a browser on all referenced behaviors that are obsolete"
 
-	"SystemNavigation default browseObsoleteMethodReferences"
+	"SystemNavigation new browseObsoleteMethodReferences"
 
 	| list |
 	list := self obsoleteMethodReferences.

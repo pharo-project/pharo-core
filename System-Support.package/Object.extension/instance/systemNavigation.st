@@ -1,4 +1,4 @@
 *System-Support
 systemNavigation
 
-	^ SystemNavigation default
+	^ SystemNavigation new

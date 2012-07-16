@@ -21,5 +21,5 @@ fixObsoleteReferences
 	Smalltalk
 		garbageCollect;
 		garbageCollect.
-	SystemNavigation default obsoleteBehaviors size > 0
-		ifTrue: [ SystemNavigation default obsoleteBehaviors inspect ]
+	SystemNavigation new obsoleteBehaviors size > 0
+		ifTrue: [ SystemNavigation new obsoleteBehaviors inspect ]

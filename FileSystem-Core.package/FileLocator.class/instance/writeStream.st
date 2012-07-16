@@ -1,3 +1,3 @@
-delegated
+streams
 writeStream
-	^ self resolve writeStream
+	^ self resolve writeStream 

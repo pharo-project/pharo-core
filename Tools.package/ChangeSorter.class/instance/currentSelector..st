@@ -1,7 +1,7 @@
 message list
-currentSelector: messageName
+currentSelector: index
 
-	currentSelector := messageName.
+	currentSelector := self messageList at: index ifAbsent: [ nil ].
 	self changed: #currentSelector.
 	self setContents.
 	self contentsChanged.

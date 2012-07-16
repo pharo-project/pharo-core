@@ -1,7 +1,7 @@
 query
 obsoleteClasses   
 
-	"SystemNavigation default obsoleteClasses inspect"
+	"SystemNavigation new obsoleteClasses inspect"
 	"NOTE:  Also try inspecting comments below"
 	| obs |
 	obs := OrderedCollection new.  Smalltalk garbageCollect.

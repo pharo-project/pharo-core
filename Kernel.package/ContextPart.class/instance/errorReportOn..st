@@ -12,7 +12,7 @@ errorReportOn: strm
 		nextPutAll: ' - ';	
 		nextPutAll: Smalltalk platform platformSubtype asString;
 		nextPutAll: ' - ';
-		nextPutAll: Smalltalk platform osVersion asString;
+		nextPutAll: Smalltalk os version asString;
 		nextPutAll: ' - ';
 		nextPutAll: Smalltalk vm version asString;
 		cr.	
