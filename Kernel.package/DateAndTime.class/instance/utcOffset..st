@@ -1,7 +1,4 @@
 offset
 utcOffset: anOffset
-	"Answer a <DateAndTime> equivalent to the receiver but offset from UTC by anOffset"
-
-	| equiv |
-	equiv := self + (anOffset asDuration - self offset).
-	^ equiv ticks: (equiv ticks) offset: anOffset asDuration; yourself
+	self deprecated: 'Use offset: instead' on: '7/13/2012 16:36' in: 'Pharo 2.0'.
+	^ self offset: anOffset

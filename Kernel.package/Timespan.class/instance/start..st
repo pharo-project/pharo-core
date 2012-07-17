@@ -1,4 +1,4 @@
-squeak protocol
+accessing
 start: aDateAndTime
 	"Store the start DateAndTime of this timespan"
 

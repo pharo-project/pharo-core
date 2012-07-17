@@ -1,6 +1,6 @@
-ansi protocol
+converting
 asLocal
 	
 	^ (self offset = self class localOffset)
 		ifTrue: [self]
-		ifFalse: [self utcOffset: self class localOffset]
+		ifFalse: [self offset: self class localOffset]

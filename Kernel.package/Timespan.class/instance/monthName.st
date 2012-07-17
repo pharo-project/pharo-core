@@ -1,4 +1,4 @@
-ansi protocol
+accessing
 monthName 
 
 	^ start monthName 

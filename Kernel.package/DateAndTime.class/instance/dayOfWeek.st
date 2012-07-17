@@ -1,5 +1,5 @@
-ansi protocol
+accessing
 dayOfWeek
 	"Sunday=1, ... , Saturday=7"
 
-	^ (jdn + 1 rem: 7) + 1
+	^ (julianDayNumber + 1 rem: 7) + 1

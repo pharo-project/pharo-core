@@ -1,4 +1,4 @@
-ansi protocol
+arithmetic
 / operand
  	"operand is a Duration or a Number"
  

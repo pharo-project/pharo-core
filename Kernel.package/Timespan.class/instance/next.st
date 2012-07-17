@@ -1,4 +1,4 @@
-smalltalk-80
+accessing
 next
 
 	^ self class starting: (start + duration) duration: duration 

@@ -1,4 +1,4 @@
-squeak protocol
+accessing
 end 
 
 	^ self duration asNanoSeconds = 0

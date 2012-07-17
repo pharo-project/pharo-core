@@ -1,4 +1,4 @@
-ansi protocol
+accessing
 dayOfWeekName
 	"Answer the day of the week represented by the receiver."
 

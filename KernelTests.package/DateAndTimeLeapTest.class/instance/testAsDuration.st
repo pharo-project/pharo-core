@@ -1,4 +1,4 @@
 testing
 testAsDuration
-	self assert: aDateAndTime asDuration =  aDuration
+	self assert: aDateAndTime asDuration equals: aDuration
 	

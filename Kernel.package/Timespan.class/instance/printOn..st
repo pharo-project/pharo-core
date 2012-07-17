@@ -1,4 +1,4 @@
-squeak protocol
+printing
 printOn: aStream 
 
 	super printOn: aStream.

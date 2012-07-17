@@ -1,15 +1,15 @@
 instance creation
-year: year month: month day: day hour: hour minute: minute second: second nanoSecond: nanoCount offset: offset
-	"Return a DateAndTime"
+year: year month: month day: day hour: hour minute: minute second: second nanoSecond: nanoCount offset: utcOffset
+	"Return a DateAndTime with the values in the given TimeZone (UTCOffset)"
 
-	| monthIndex daysInMonth p q r s julianDayNumber |
+	| monthIndex daysInMonth p q r s julianDayNumber localSeconds utcSeconds|
 
-	monthIndex := month isInteger ifTrue: [month] ifFalse: [Month indexOfMonth: month].
+	monthIndex := month isInteger ifTrue: [ month ] ifFalse: [ Month indexOfMonth: month ].
 	daysInMonth := Month
 		daysInMonth: monthIndex
 		forYear: year.
-	day < 1 ifTrue: [self error: 'day may not be zero or negative'].
-	day > daysInMonth ifTrue: [self error: 'day is after month ends'].
+	day < 1 ifTrue: [ self error: 'day may not be zero or negative' ].
+	day > daysInMonth ifTrue: [ self error: 'day is after month ends' ].
 
 	p := (monthIndex - 14) quo: 12.
 	q := year + 4800 + p.
@@ -21,10 +21,13 @@ year: year month: month day: day hour: hour minute: minute second: second nanoSe
 			((367 * r) quo: 12) -
 			((3 * s) quo: 4) +
 			(day - 32075).
-
+			
+	localSeconds :=  hour * 60 + minute * 60 + second.
+	utcSeconds := localSeconds - utcOffset asSeconds.
+	
 	^self basicNew
 		setJdn: julianDayNumber
-		seconds: hour * 60 + minute * 60 + second
+		seconds: utcSeconds
 		nano: nanoCount
-		offset: offset;
+		offset: utcOffset;
 		yourself

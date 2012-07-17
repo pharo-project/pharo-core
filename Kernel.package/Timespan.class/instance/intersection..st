@@ -1,4 +1,4 @@
-squeak protocol
+enumerating
 intersection: aTimespan
 
 	 "Return the Timespan both have in common, or nil"

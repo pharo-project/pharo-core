@@ -16,7 +16,7 @@
 	"instvars" : [
 		"seconds",
 		"offset",
-		"jdn",
+		"julianDayNumber",
 		"nanos" ],
 	"name" : "DateAndTime",
 	"pools" : [

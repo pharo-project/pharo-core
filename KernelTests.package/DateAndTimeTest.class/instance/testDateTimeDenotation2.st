@@ -13,6 +13,6 @@ testDateTimeDenotation2
 				minute: 30
 				second: 0
 				offset: 0 hours.
-	lateEveningInLocalTimeOfMoscow := lateEveningInLondon utcOffset: 3 hours.
+	lateEveningInLocalTimeOfMoscow := lateEveningInLondon offset: 3 hours.
 	localMoscowTimeFromDenotation  := '2004-12-01T02:30:00+03:00' asDateAndTime.
 	self assert:  lateEveningInLocalTimeOfMoscow = localMoscowTimeFromDenotation.

@@ -1,4 +1,4 @@
-smalltalk-80
+accessing
 monthIndex
 
 	^ self month 

@@ -1,4 +1,4 @@
-ansi protocol
+accessing
 isLeapYear
 
 	^ Year isLeapYear: self year.

@@ -1,4 +1,4 @@
-squeak protocol
+conversion
 to: anEnd
 	"Answer an Timespan. anEnd must be aDateAndTime or a Timespan" 
 

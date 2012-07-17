@@ -1,3 +1,3 @@
-ansi protocol
+accessing
 year
 	^ self dayMonthYearDo: [:d :m :y | y ]

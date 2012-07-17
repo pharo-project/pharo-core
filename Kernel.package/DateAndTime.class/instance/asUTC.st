@@ -1,6 +1,6 @@
-ansi protocol
+converting
 asUTC
 
 	^ offset isZero
-		ifTrue: [self]
-		ifFalse: [self utcOffset: 0]
+		ifTrue: [ self ]
+		ifFalse: [ self offset: 0 ]

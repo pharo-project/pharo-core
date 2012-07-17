@@ -1,4 +1,4 @@
-ansi protocol
+accessing
 monthName
 
 	^ Month nameOfMonth: self month

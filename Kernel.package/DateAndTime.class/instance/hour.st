@@ -1,4 +1,4 @@
-ansi protocol
+accessing
 hour
 
 	^ self hour24

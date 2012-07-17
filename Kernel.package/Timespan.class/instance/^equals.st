@@ -1,5 +1,5 @@
-ansi protocol
+arithmetic
 = comparand
-	^ self class = comparand class 
+	^ self species = comparand species 
 		and: [ self start = comparand start 
 				and: [ self duration = comparand duration ]]

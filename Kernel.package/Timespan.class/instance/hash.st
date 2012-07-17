@@ -1,4 +1,4 @@
-ansi protocol
+accessing
 hash
 
 	^ start hash + duration hash 

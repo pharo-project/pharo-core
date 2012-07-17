@@ -1,4 +1,4 @@
-ansi protocol
+accessing
 monthAbbreviation 
 
 	^ start monthAbbreviation 

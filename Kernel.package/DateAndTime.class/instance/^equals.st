@@ -1,7 +1,5 @@
-ansi protocol
-= aDateAndTime 
-	self == aDateAndTime ifTrue: [ ^ true ].
-	(self species = aDateAndTime species) ifFalse: [ ^ false ].
-	^ self offset = aDateAndTime offset
-		ifTrue: [ self hasEqualTicks: aDateAndTime ]
-		ifFalse: [ self asUTC ticks = aDateAndTime asUTC ticks ]
+arithmetic
+= other 
+	self == other ifTrue: [ ^ true ].
+	(self species = other species) ifFalse: [ ^ false ].
+	^ self asSeconds = other asSeconds and: [ self nanoSecond = other nanoSecond ]

@@ -2,5 +2,7 @@ squeak protocol
 storeOn: aStream 
 
 	aStream 
-		print: self printString;
+		nextPut: $';
+		print: self;
+		nextPut: $';
 		nextPutAll: ' asTimeStamp'

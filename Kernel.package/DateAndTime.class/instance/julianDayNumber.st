@@ -1,4 +1,4 @@
 accessing
 julianDayNumber
-
-	^ jdn
+	
+	^ julianDayNumber + self julianDayOffset

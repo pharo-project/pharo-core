@@ -1,4 +1,4 @@
-ansi protocol
+accessing
 meridianAbbreviation
 
 	^ self asTime meridianAbbreviation

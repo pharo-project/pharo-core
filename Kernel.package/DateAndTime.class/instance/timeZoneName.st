@@ -1,4 +1,4 @@
-ansi protocol
+accessing
 timeZoneName
 
-	^ self class localTimeZone name
+	^ self timeZone name

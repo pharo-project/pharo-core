@@ -1,3 +1,3 @@
-smalltalk-80
+accessing
 daysLeftInYear
 	^ start daysLeftInYear

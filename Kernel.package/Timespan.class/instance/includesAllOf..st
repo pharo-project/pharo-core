@@ -1,4 +1,4 @@
-squeak protocol
+testing
 includesAllOf: aCollection 
 	"Answer whether all the elements of aCollection are in the receiver."
 

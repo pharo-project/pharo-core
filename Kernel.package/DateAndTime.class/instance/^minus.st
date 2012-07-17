@@ -1,4 +1,4 @@
-ansi protocol
+arithmetic
 - operand
 	"operand conforms to protocol DateAndTime or protocol Duration"
 

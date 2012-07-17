@@ -1,4 +1,4 @@
-squeak protocol
+enumerating
 union: aTimespan
 	 "Return the Timespan spanned by both"
 

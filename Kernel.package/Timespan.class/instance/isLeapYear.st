@@ -1,4 +1,4 @@
-ansi protocol
+accessing
 isLeapYear
 
 	^ start isLeapYear 

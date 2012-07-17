@@ -1,4 +1,4 @@
-ansi protocol
+accessing
 hash
 	^seconds bitXor: nanos
  

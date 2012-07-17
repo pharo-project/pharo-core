@@ -1,4 +1,4 @@
-ansi protocol
+accessing
 dayOfYear
 	"This code was contributed by Dan Ingalls. It is equivalent to the terser
 		^ jdn - (Year year: self year) start julianDayNumber + 1 but much quicker."

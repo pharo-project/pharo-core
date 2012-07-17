@@ -1,4 +1,4 @@
 offset
 withoutOffset
 
-	^ self copy clearOffset
+	^ self offset: 0 

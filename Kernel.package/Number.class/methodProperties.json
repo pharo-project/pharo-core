@@ -11,6 +11,7 @@
 		"squeezeNumberOutOfString:" : "NikoSchwarz 10/23/2009 13:18",
 		"squeezeNumberOutOfString:ifFail:" : "NikoSchwarz 10/23/2009 13:19" },
 	"instance" : {
+		"%" : "CamilloBruni 7/13/2012 17:37",
 		"*" : "",
 		"**" : "CamilloBruni 7/10/2012 22:24",
 		"+" : "",
@@ -88,7 +89,7 @@
 		"printShowingDecimalPlaces:" : "nice 3/29/2011 21:39",
 		"printString" : "laza 3/30/2004 10:50",
 		"printStringBase:" : "",
-		"quo:" : "",
+		"quo:" : "CamilloBruni 7/13/2012 19:09",
 		"radiansToDegrees" : "",
 		"raisedTo:" : "jmv 10/13/2011 08:50",
 		"raisedToInteger:" : "GabrielOmarCotelli 5/26/2009 19:49",

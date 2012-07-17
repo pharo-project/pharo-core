@@ -1,4 +1,4 @@
 converting
 asTime
 
-	^ Time seconds: seconds nanoSeconds: nanos
+	^ Time seconds: self localSeconds nanoSeconds: nanos

@@ -1,4 +1,4 @@
-squeak protocol
+testing
 includes: aDateAndTime 
 
 	^ (aDateAndTime isKindOf: Timespan)

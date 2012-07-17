@@ -1,13 +1,11 @@
-ansi protocol
+arithmetic
 + operand
 	"operand conforms to protocol Duration"
 
-	| ticks |
- 	ticks := OrderedCollection new.
-	self ticks with: (operand asDuration ticks) do: [:ticks1 :dticks |
-		ticks addLast: (ticks1 + dticks) ].
+	|  ticks |
+	ticks := self ticks with: (operand asDuration ticks) collect: [:ticks1 :dticks | ticks1 + dticks ].
 
 	^ self class basicNew
-		ticks: ticks asArray
+		ticks: ticks
 		offset: self offset; 
 		yourself.

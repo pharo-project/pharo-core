@@ -1,4 +1,4 @@
-squeak protocol
+accessing
 julianDayNumber 
 
 	^ start julianDayNumber 

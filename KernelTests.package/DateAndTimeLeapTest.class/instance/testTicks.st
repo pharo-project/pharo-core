@@ -1,4 +1,8 @@
 testing
 testTicks
-	self assert: aDateAndTime ticks =  ((DateAndTime julianDayNumber: 2453065) + 48780 seconds) ticks.
-	self assert: aDateAndTime ticks =  #(2453065 48780 0)
+	self 
+		assert: aDateAndTime ticks  
+		equals: ((DateAndTime julianDayNumber: 2453065) + 41580 seconds) ticks.
+	self 
+		assert: aDateAndTime ticks 
+		equals:  #(2453065 41580 0)

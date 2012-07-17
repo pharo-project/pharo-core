@@ -8,6 +8,6 @@ testTimeZoneEquivalence2
 
 	| thisMoment thisMomentInMoscow |
     thisMoment := DateAndTime year: 2004 month: 5 day: 24 hour: 22 minute: 40.
-    thisMomentInMoscow := thisMoment utcOffset: 3 hours.
+    thisMomentInMoscow := thisMoment offset: 3 hours.
 	self assert: (thisMoment - thisMomentInMoscow) asSeconds = 0.
 	self assert: thisMoment = thisMomentInMoscow
