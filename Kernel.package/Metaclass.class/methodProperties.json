@@ -33,7 +33,6 @@
 		"removeInstVarNamed:" : "StephaneDucasse 8/27/2010 11:19",
 		"removeObsoleteSubclass:" : "ar 9/19/2002 23:44",
 		"removeSubclass:" : "ar 7/11/1999 15:43",
-		"replaceObsoleteInstanceWith:" : "ar 3/3/2001 00:20",
 		"soleInstance" : "",
 		"subclasses" : "ar 7/14/1999 11:19",
 		"subclassesDo:" : "ar 7/9/1999 14:11",

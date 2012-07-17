@@ -9,7 +9,6 @@
 		"initializeDependentsFields" : "ar 2/11/2001 01:41",
 		"newFrom:" : "StephaneDucasse 2/20/2010 21:38",
 		"reInitializeDependentsFields" : "ar 2/11/2001 01:45",
-		"releaseExternalSettings" : "mir 8/22/2001 15:20",
 		"whatIsAPrimitive" : "" },
 	"instance" : {
 		"->" : "md 7/22/2005 16:03",
@@ -83,7 +82,6 @@
 		"dragPassengerFor:inMorph:" : "",
 		"dragTransferType" : "panda 4/28/2000 16:11",
 		"dragTransferTypeForMorph:" : "",
-		"elementSeparator" : "MPW 1/1/1901 01:31",
 		"enclosedSetElement" : "Igor.Stasenko 11/13/2009 07:19",
 		"error" : "md 8/2/2005 22:17",
 		"error:" : "tfei 4/12/1999 12:55",

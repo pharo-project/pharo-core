@@ -1,6 +1,7 @@
-public
-commentForCurrentUpdate
- ^ 'Issue 6393:	All font related methods in LanguageEnvironment are unused
+pharo - updates
+update20217
+	"self new update20217"
+	self withUpdateLog: 'Issue 6393:	All font related methods in LanguageEnvironment are unused
 	http://code.google.com/p/pharo/issues/detail?id=6393
 	
 Issue 6391:	TrueType relicts from privCleanUnloadMethods
@@ -13,4 +14,6 @@ Issue 6394:	clean unsent private methods Object and MetaClas
 	http://code.google.com/p/pharo/issues/detail?id=6394
 	
 Issue 6395:	#defaultEncodingName is unsent
-	http://code.google.com/p/pharo/issues/detail?id=6395'
+	http://code.google.com/p/pharo/issues/detail?id=6395'.
+	self loadTogether: self script207 merge: false.
+	self flushCaches.

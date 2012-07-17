@@ -4,7 +4,6 @@
 		"canBeNonGlobalVarInitial:" : "yo 3/17/2004 15:24",
 		"clearDefault" : "yo 3/15/2004 21:15",
 		"currentPlatform" : "yo 7/28/2004 21:34",
-		"defaultEncodingName" : "StephaneDucasse 8/3/2010 22:48",
 		"defaultFileNameConverter" : "yo 7/28/2004 21:56",
 		"defaultSystemConverter" : "yo 7/28/2004 21:56",
 		"digitValueOf:" : "StephaneDucasse 2/13/2010 12:14",
@@ -27,14 +26,8 @@
 		"supportedLanguages" : "mir 7/1/2004 17:59",
 		"systemConverterClass" : "yo 3/17/2004 15:10" },
 	"instance" : {
-		"checkPhrase:translation:" : "mir 7/21/2004 18:05",
-		"fontEncodingName" : "tak 8/4/2005 11:02",
-		"fontFileName" : "tak 8/5/2005 20:46",
-		"fontFullName" : "CamilloBruni 5/4/2012 20:28",
-		"isFontAvailable" : "adrian_lienhard 7/18/2009 15:28",
 		"isoCountry" : "mir 7/15/2004 15:32",
 		"isoLanguage" : "mir 7/15/2004 15:32",
 		"leadingChar" : "mir 7/15/2004 18:55",
 		"localeID" : "mir 7/15/2004 15:31",
-		"localeID:" : "mir 7/15/2004 15:31",
-		"removeFonts" : "tak 8/4/2005 11:08" } }
+		"localeID:" : "mir 7/15/2004 15:31" } }
