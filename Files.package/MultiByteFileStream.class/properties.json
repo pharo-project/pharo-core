@@ -1,0 +1,23 @@
+{
+	"category" : "Files-Kernel",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"Cr",
+		"CrLf",
+		"Lf",
+		"LineEndDefault",
+		"LineEndStrings",
+		"LookAheadCount" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"converter",
+		"lineEndConvention",
+		"wantsLineEndConversion" ],
+	"name" : "MultiByteFileStream",
+	"pools" : [
+		 ],
+	"super" : "StandardFileStream",
+	"traitcomposition" : "{}",
+	"type" : "normal" }
