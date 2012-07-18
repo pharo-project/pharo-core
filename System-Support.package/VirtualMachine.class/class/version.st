@@ -4,4 +4,6 @@ version
 	"
 	Smalltalk vm version
 	"
-	^ ((1007 to: 1009) collect: [:n| self getSystemAttribute: n]) asCommaString
+	^ String streamContents: [ :s |
+		1007 to: 1009 do: [:n| 
+			s nextPutAll: (self getSystemAttribute: n); cr ]]

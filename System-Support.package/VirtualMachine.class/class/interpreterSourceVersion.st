@@ -12,5 +12,4 @@ interpreterSourceVersion
 	"Smalltalk vm interpreterSourceVersion"
 
 	<primitive: 'primitiveInterpreterSourceVersion'>
-	self notify: 'This virtual machine does not support the optional primitive #primitiveInterpreterSourceVersion' translated.
-	^''
+	^ self getSystemAttribute: 1009

@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"activeClass" : "CamilloBruni 5/10/2012 15:41",
+		"checkVMVersion" : "CamilloBruni 7/18/2012 13:55",
 		"createDefault" : "cwp 2/27/2011 10:02",
 		"current" : "EstebanLorenzano 4/3/2012 11:30",
 		"currentFileSystem" : "CamilloBruni 5/13/2012 19:17",
@@ -11,7 +12,7 @@
 		"maxFileNameLength" : "CamilloBruni 5/10/2012 16:03",
 		"reset" : "cwp 4/4/2011 19:04",
 		"shutDown:" : "EstebanLorenzano 6/21/2012 12:52",
-		"startUp:" : "EstebanLorenzano 6/21/2012 12:53",
+		"startUp:" : "CamilloBruni 7/18/2012 12:22",
 		"useFilePlugin" : "EstebanLorenzano 4/2/2012 11:46" },
 	"instance" : {
 		"=" : "cwp 2/27/2011 09:50",

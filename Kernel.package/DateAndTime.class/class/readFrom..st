@@ -9,10 +9,13 @@ readFrom: aStream
 	time := Time readFrom: aStream.
 	aStream atEnd
 		ifTrue: [ offset := self localOffset ]
-		ifFalse: [
+		ifFalse: [ |upToEnd|
 			ch := aStream next.
 			ch = $+ ifTrue: [ch := Character space].
-			offset := Duration fromString: ch asString, '0:', aStream upToEnd, ':0'].
+			upToEnd := aStream upToEnd.
+			(upToEnd includes: $:) ifFalse: [
+				upToEnd := (upToEnd first: 2), ':', (upToEnd allButFirst: 2)].
+			offset := Duration fromString: ch asString, '0:', upToEnd, ':0'].
 		
 	^ self
 		year: date year

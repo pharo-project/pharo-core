@@ -8,5 +8,6 @@ cleanClassesPackagesAndCategories
 	mCPackage := self allManagers 
 							detect: [:each | each packageName = self XPackageName] 
 							ifNone: [nil].
+	PackageOrganizer default unregisterPackage: (PackageOrganizer default packagesDictionary at: self XPackageName).
 	mCPackage ifNotNil: [mCPackage unregister].
 			

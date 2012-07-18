@@ -1,13 +1,10 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6398:	MCPackageManager class >> methodMoved: uses old SystemChangeNotifier
-	http://code.google.com/p/pharo/issues/detail?id=6398&
+ ^ 'Issue 6346:	Failing test: #testImportExtensionFromParentPackageRegisterExtensionInParentPackage	
+	http://code.google.com/p/pharo/issues/detail?id=6346
 	
-Issue 6390:	Spotlight throws "TextMorphForFieldView DNU #lostFocusBlock:"
-	http://code.google.com/p/pharo/issues/detail?id=6390
-	
-Issue 6362:	Failing test: KMDispatcherTestCase.testBuffering
-	http://code.google.com/p/pharo/issues/detail?id=6362
-	
-Issue 5993:	Change in Scrollbar behavior
-	http://code.google.com/p/pharo/issues/detail?id=5993'
+Issue 6396:	Monticello extension to tools (ChangeList)
+	http://code.google.com/p/pharo/issues/update.do?id=6396
+
+Issue 6412: Startup warning for old File Primitives
+	http://code.google.com/p/pharo/issues/list?can=2&q=6412'
