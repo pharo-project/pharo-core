@@ -1,21 +1,25 @@
 *Polymorph-Widgets
 mouseLeaveThumb: event
-	"The mouse has left the thumb."	
-	slider
-		fillStyle: self normalThumbFillStyle;
-		borderStyle: self normalThumbBorderStyle;
-		changed.
+	"The mouse has left the thumb."
+
+	| buttonFillStyle buttonBorderStyle |
+	event redButtonPressed ifFalse: [ 
+		slider
+			fillStyle: self normalThumbFillStyle;
+			borderStyle: self normalThumbBorderStyle;
+			changed ].
+	
+	"Update buttons"
 	(self containsPoint: event position)
-		ifTrue: [upButton
-				fillStyle: self mouseOverPagingAreaButtonFillStyle;
-				borderStyle: self mouseOverPagingAreaButtonBorderStyle]
-		ifFalse: [upButton
-				fillStyle: self normalButtonFillStyle;
-				borderStyle: self normalButtonBorderStyle].
-	(self containsPoint: event position)
-		ifTrue: [downButton
-				fillStyle: self mouseOverPagingAreaButtonFillStyle;
-				borderStyle: self mouseOverPagingAreaButtonBorderStyle]
-		ifFalse: [downButton
-				fillStyle: self normalButtonFillStyle;
-				borderStyle: self normalButtonBorderStyle]
+		ifTrue: [ 
+			buttonFillStyle := self mouseOverPagingAreaButtonFillStyle.
+			buttonBorderStyle := self mouseOverPagingAreaButtonBorderStyle ]
+		ifFalse: [ 
+			buttonFillStyle := self normalButtonFillStyle.
+			buttonBorderStyle := self normalButtonBorderStyle ].	
+	upButton
+		fillStyle: buttonFillStyle;
+		borderStyle: buttonBorderStyle.
+	downButton
+		fillStyle: buttonFillStyle;
+		borderStyle: buttonBorderStyle.

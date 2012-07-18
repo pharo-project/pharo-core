@@ -6,6 +6,7 @@
 		"supportedKinds" : "rw 7/10/2003 11:20" },
 	"instance" : {
 		"isRecategorized" : "rw 7/1/2003 19:51",
+		"itemOldProtocol" : "PavelKrivanek 7/17/2012 14:57",
 		"oldCategory" : "rw 7/1/2003 20:08",
 		"oldCategory:" : "rw 7/1/2003 20:08",
 		"printEventKindOn:" : "rw 7/2/2003 09:12" } }

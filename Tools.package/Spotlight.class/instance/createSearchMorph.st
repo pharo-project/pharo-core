@@ -25,7 +25,7 @@ createSearchMorph
 		
 	morph ghostText: 'Search class or method...'.
 	morph on: #keyStroke send: #localHandleKeystroke: to: self.
-	morph textMorph lostFocusBlock: [ self delete ].
+	morph textMorph onAnnouncement: MorphLostFocus do: [ self delete ].
 	morph textMorph
 		autoFit: true;
 		wrapFlag: false;
