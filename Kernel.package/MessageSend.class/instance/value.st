@@ -1,9 +1,12 @@
 evaluating
 value
-	"Send the message and answer the return value"
+  "Send the message and answer the return value"
 
-	arguments ifNil: [^ receiver perform: selector].
+  (receiver class isObsolete) ifTrue: [^ nil].
+  (receiver isBehavior and: [receiver isObsolete]) ifTrue: [^ nil].
 
-	^ receiver 
-		perform: selector 
-		withArguments: (self collectArguments: arguments)
+  arguments ifNil: [^ receiver perform: selector].
+
+  ^ receiver 
+    perform: selector 
+    withArguments: (self collectArguments: arguments)
