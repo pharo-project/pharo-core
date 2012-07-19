@@ -1,0 +1,6 @@
+protocol-events
+whenIconsChanged: aBlock 
+	<api: #block>
+	
+	iconHolder whenChangedDo: aBlock 
+

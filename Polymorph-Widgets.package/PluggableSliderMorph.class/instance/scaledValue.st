@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 scaledValue
 	"Answer the scaled value."
 

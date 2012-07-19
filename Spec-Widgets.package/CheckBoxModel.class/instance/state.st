@@ -1,4 +1,6 @@
 morphic
 state
-
-	^ self stateHolder contents
+	<api: #inspect>
+	"Return the current state of the checkBox"
+	
+	^ stateHolder contents

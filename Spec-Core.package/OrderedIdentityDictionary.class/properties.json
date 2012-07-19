@@ -1,0 +1,16 @@
+{
+	"category" : "Spec-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"keys" ],
+	"name" : "OrderedIdentityDictionary",
+	"pools" : [
+		 ],
+	"super" : "IdentityDictionary",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

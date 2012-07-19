@@ -1,4 +1,4 @@
-as yet unclassified
+protocol
 enable
 	"Enable the receiver."
 	

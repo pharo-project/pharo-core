@@ -1,7 +1,7 @@
-as yet unclassified
+protocol
 updateValue
 	"Update the value."
 	
-	self model ifNotNil: [
-		self getValueSelector ifNotNil: [
-			self scaledValue: (self model perform: self getValueSelector)]]
+	self model ifNotNil: [:m |
+		self getValueSelector ifNotNil: [:s |
+			self scaledValue: (m perform: s)]]

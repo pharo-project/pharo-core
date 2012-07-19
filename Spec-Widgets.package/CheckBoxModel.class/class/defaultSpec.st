@@ -4,8 +4,11 @@ defaultSpec
 	^ {#CheckboxSpec.
 	    		#on:selected:changeSelected:. 	#model. #state. #state:.
 			#label:.								{	#model. #label		}.
-			#labelClickable:.					{	#model. #labelClickable}.
 			#beCheckbox.
 			#hResizing:. 						#shrinkWrap.
 			#vResizing:. 						#shrinkWrap.
-			#eventHandler:.					{	#EventHandler. #on:send:to:. #keyStroke.	#keyStroke:fromMorph:. #model	}}
+			#setBalloonText:.					{ #model . #help}.
+			#borderWidth:.						#(model borderWidth).
+			#borderColor:.						#(model borderColor).
+			#eventHandler:.					{	#EventHandler. #on:send:to:. #keyStroke.	#keyStroke:fromMorph:. #model	}.
+			#labelClickable:.					{	#model. #labelClickable}.}

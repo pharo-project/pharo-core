@@ -12,5 +12,6 @@ retreiveSpecFrom: aSymbol
 							defaultReceiver: aSymbol 
 							model: model ]) new.
 	^ instance 
+		model: model;
 		bindings: model bindings;
 		yourself

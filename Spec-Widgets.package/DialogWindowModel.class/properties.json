@@ -1,0 +1,16 @@
+{
+	"category" : "Spec-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"contentMorph" ],
+	"name" : "DialogWindowModel",
+	"pools" : [
+		 ],
+	"super" : "WindowModel",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

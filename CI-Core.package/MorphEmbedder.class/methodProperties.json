@@ -3,10 +3,11 @@
 		"spec" : "BenjaminVanRyseghem 7/6/2012 15:54" },
 	"instance" : {
 		"container" : "BenjaminVanRyseghem 7/6/2012 16:04",
+		"initialExtent" : "BenjaminVanRyseghem 7/18/2012 17:16",
 		"initialize" : "BenjaminVanRyseghem 7/6/2012 16:21",
-		"initializeWidgets" : "BenjaminVanRyseghem 7/6/2012 16:08",
+		"initializeWidgets" : "BenjaminVanRyseghem 7/18/2012 17:16",
 		"morph" : "BenjaminVanRyseghem 7/6/2012 16:06",
-		"morph:" : "BenjaminVanRyseghem 7/6/2012 16:06",
+		"morph:" : "BenjaminVanRyseghem 7/18/2012 17:14",
 		"result" : "BenjaminVanRyseghem 7/6/2012 15:59",
 		"title" : "BenjaminVanRyseghem 7/6/2012 16:21",
 		"title:" : "BenjaminVanRyseghem 7/6/2012 16:22" } }

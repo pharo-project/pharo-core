@@ -1,5 +1,6 @@
 protocol
 setSelectedItem: anItem
+	<api: #st getter: #selectedItem>
 	"Force the selection of the item anItem"
 	| index realItem |
 	

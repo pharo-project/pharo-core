@@ -1,0 +1,4 @@
+drawing
+fontColor
+
+	^ Color black

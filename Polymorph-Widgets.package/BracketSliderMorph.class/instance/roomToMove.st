@@ -1,4 +1,4 @@
-as yet unclassified
+geometry
 roomToMove
 	"Allow to run off the edges a bit."
 	

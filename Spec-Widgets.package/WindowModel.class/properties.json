@@ -1,0 +1,18 @@
+{
+	"category" : "Spec-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"model",
+		"initialExtent",
+		"title" ],
+	"name" : "WindowModel",
+	"pools" : [
+		 ],
+	"super" : "AbstractBasicWidget",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

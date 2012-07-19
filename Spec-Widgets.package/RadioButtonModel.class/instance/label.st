@@ -1,4 +1,4 @@
-accessing
+morphic
 label
-	
+	<api: #inspect>
 	^ labelHolder contents

@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initialize
 	"Initialize the receiver."
 

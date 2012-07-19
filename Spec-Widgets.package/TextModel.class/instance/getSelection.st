@@ -1,5 +1,6 @@
 protocol
 getSelection
+	<api:#inspect>
 	"Get the text selection"
 
 	self widget

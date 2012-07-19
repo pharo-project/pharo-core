@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"initialize" : "BenjaminVanRyseghem 4/27/2012 09:59",
-		"initializeBindings" : "BenjaminVanRyseghem 4/24/2012 03:40",
+		"initializeBindings" : "BenjaminVanRyseghem 7/13/2012 03:19",
 		"specFor:" : "BenjaminVanRyseghem 4/24/2012 01:55",
 		"specFor:ifAbsent:" : "BenjaminVanRyseghem 4/24/2012 01:56" },
 	"instance" : {

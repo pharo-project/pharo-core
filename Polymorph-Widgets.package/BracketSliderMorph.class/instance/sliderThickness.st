@@ -1,4 +1,4 @@
-as yet unclassified
+geometry
 sliderThickness
 	"Answer the thickness of the slider."
 	

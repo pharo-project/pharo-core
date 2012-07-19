@@ -1,4 +1,4 @@
-as yet unclassified
+protocol
 updateFillStyle
 	"Update the fill style directions."
 

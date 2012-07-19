@@ -1,5 +1,6 @@
 protocol
 pendingText: aText
+	<api: #string getter: #pendingText>
 	"Set the pending text. Do no accept it"
 
 	self widget

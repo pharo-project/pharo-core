@@ -1,4 +1,4 @@
-as yet unclassified
+protocol
 defaultFillStyle
 	"Answer the hue gradient."
 

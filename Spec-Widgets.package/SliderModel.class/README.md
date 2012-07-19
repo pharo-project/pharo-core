@@ -1,0 +1,1 @@
+A SliderModel is a spec model for a slider

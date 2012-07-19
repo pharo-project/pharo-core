@@ -1,4 +1,4 @@
-as yet unclassified
+other events
 mouseDownInSlider: event
 	"Ignore if disabled."
 	

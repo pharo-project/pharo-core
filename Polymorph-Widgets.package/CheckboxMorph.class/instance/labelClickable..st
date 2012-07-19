@@ -2,11 +2,11 @@ protocol
 labelClickable: aBoolean
 
 	aBoolean
-		ifTrue: [ labelMorph 
+		ifTrue: [ self 
 					on: #click 
 					send: #toggleSelected 
 					to: self ]
-		ifFalse:[ labelMorph
+		ifFalse:[ self
 					on: #click 
 					send: nil 
 					to: nil ]

@@ -1,6 +1,6 @@
 converting
 asArray
-	| size result currentOffset  numberOfProportionals currentProportional delta haveToChangeTheAnte height |
+	| size result currentOffset  numberOfProportionals currentProportional delta lastFractionIndex height |
 	
 	currentOffset := 0.
 	currentProportional := 0.
@@ -8,7 +8,7 @@ asArray
 	result add: self type.
 	size := self commands size.
 	numberOfProportionals := 0.
-	haveToChangeTheAnte := false.
+	lastFractionIndex := 0.
 	
 	self commands do: [:e |
 		e offsets = (0@0 corner: 0@0)
@@ -25,7 +25,7 @@ asArray
 				e offsets: (0@currentOffset corner: 0@0).
 				currentOffset := 0.
 				currentProportional := currentProportional +delta.
-				haveToChangeTheAnte := nil ]
+				lastFractionIndex := idx ]
 			ifFalse: [ "offsets"
 				height := e offsets height.
 				x0 := e offsets left.
@@ -33,21 +33,31 @@ asArray
 				idx = size
 					ifTrue: [
 						e fractions:  (0@1 corner: 1@1).
-						e offsets: (x0@(height negated) corner: x1@0).
-						haveToChangeTheAnte isNil ifTrue: [ haveToChangeTheAnte := true ]]
+						e offsets: (x0@(height negated) corner: x1@0)]
 					ifFalse: [
 						e fractions: (0@currentProportional corner: 1@currentProportional).
 						e offsets: (x0@currentOffset corner: x1@ (currentOffset + height)).
-						currentOffset := (currentOffset + height).
-						haveToChangeTheAnte := false ]]].
+						currentOffset := (currentOffset + height) ]]].
 			
-	(haveToChangeTheAnte notNil and: [ haveToChangeTheAnte ])
-		ifTrue: [ | ante x0 y0 x1 |
-			ante := self commands at: (size - 1).
+	(lastFractionIndex > 0 and: [ lastFractionIndex < size ])
+		ifTrue: [ | index ante x0 x1 y0 y1 |
+			index := size-1.
+			[ index > lastFractionIndex ] whileTrue: [ | myHeight |
+				ante := self commands at: index.
+				index := index -1.
+				x0 := ante offsets topLeft x.
+				y0 := ante offsets topLeft y.
+				x1 := ante offsets bottomRight x.
+				y1 := ante offsets bottomRight y.
+				myHeight := y1-y0.
+				ante offsets: (((height+myHeight) negated)@y0 corner: (height negated)@y1).
+				height := height+myHeight ].
+			self assert: (index = lastFractionIndex).
+			ante := self commands at: index.
 			x0 := ante offsets topLeft x.
 			y0 := ante offsets topLeft y.
-			x1 := ante offsets bottomRight x.
-			ante offsets: (x0@y0 corner: x1@(height negated)) ].
+			y1 := ante offsets bottomRight y.
+			ante offsets: (x0@y0 corner: (height negated)@y1) ].		
 			
 	self commands do: [:e |
 		e generateArguments.

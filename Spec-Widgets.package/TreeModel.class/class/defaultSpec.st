@@ -11,5 +11,8 @@ defaultSpec
 			#color:.							Color white.
 			#getMenuSelector:.				#getMenu:.
 			#hResizing:. 						#spaceFill.
+			#setBalloonText:.					{ #model . #help}.
+			#borderColor:.						#(model borderColor).
+			#borderWidth:.						#(model borderWidth).
 			#vResizing:. 						#spaceFill.
 			#eventHandler:.					{	#EventHandler. #on:send:to:. #keyStroke.	#keyStroke:fromMorph:. #model	}}

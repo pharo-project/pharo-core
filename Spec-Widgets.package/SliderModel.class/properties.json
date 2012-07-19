@@ -1,0 +1,22 @@
+{
+	"category" : "Spec-Widgets",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"max",
+		"min",
+		"quantum",
+		"value",
+		"isSetting",
+		"isChanging",
+		"absoluteValue" ],
+	"name" : "SliderModel",
+	"pools" : [
+		 ],
+	"super" : "AbstractBasicWidget",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

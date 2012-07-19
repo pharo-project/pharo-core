@@ -2,4 +2,19 @@
 	"class" : {
 		"defaultSpec" : "BenjaminVanRyseghem 6/13/2012 16:36" },
 	"instance" : {
-		"initializeWidgets" : "BenjaminVanRyseghem 6/12/2012 18:10" } }
+		"borderColor" : "BenjaminVanRyseghem 7/13/2012 05:27",
+		"borderColor:" : "BenjaminVanRyseghem 7/16/2012 19:31",
+		"borderWidth" : "BenjaminVanRyseghem 7/13/2012 05:17",
+		"borderWidth:" : "BenjaminVanRyseghem 7/16/2012 17:46",
+		"disable" : "BenjaminVanRyseghem 7/16/2012 18:06",
+		"enable" : "BenjaminVanRyseghem 7/16/2012 18:06",
+		"enabled" : "BenjaminVanRyseghem 7/16/2012 18:02",
+		"enabled:" : "BenjaminVanRyseghem 7/16/2012 18:02",
+		"help" : "BenjaminVanRyseghem 7/12/2012 17:55",
+		"help:" : "BenjaminVanRyseghem 7/13/2012 05:18",
+		"initialize" : "BenjaminVanRyseghem 7/16/2012 18:09",
+		"initializeWidgets" : "BenjaminVanRyseghem 6/12/2012 18:10",
+		"whenBorderColorChanged:" : "BenjaminVanRyseghem 7/16/2012 17:36",
+		"whenBorderWidthChanged:" : "BenjaminVanRyseghem 7/16/2012 17:36",
+		"whenEnabledChanged:" : "BenjaminVanRyseghem 7/16/2012 18:03",
+		"whenHelpChanged:" : "BenjaminVanRyseghem 7/16/2012 17:36" } }

@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeSlider
 	"Make the slider raised."
 	

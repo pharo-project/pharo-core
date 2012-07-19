@@ -1,4 +1,6 @@
 morphic
 state
+	<api: #inspect>
+	"Return the current state of the radio button"
 
-	^ self stateHolder contents
+	^ stateHolder contents

@@ -1,5 +1,6 @@
 protocol
 setSelectedIndex: anIndex
+	<api: #integer min: 0 max: #listSize getter: #selectedIndex registration: #whenSelectionIndexChanged:>
 	"Set the index of the item you want to be selected"
 	| idx selection |
 	
@@ -7,8 +8,7 @@ setSelectedIndex: anIndex
 	self okToChange ifFalse: [ ^ self ].
 	self listSize isZero ifTrue:  [ ^self ].
 	idx := anIndex min: self listSize.
-	selection := (self listItems at: idx).
-	selection ifNil: [ ^ self ].
+	selection := (self listItems at: idx ifAbsent: [ nil ]).
 	
 	selectionHolder index contents: idx.
 	selectionHolder selection contents: selection.

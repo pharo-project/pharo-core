@@ -12,7 +12,6 @@
 		"textHolder",
 		"actionToPerformHolder",
 		"readSelectionHolder",
-		"enabledHolder",
 		"actionPerformedHolder",
 		"isCodeCompletionAllowedHolder" ],
 	"name" : "TextModel",

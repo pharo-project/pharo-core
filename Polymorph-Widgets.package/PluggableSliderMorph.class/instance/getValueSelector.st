@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 getValueSelector
 	"Answer the value of getValueSelector"
 

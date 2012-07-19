@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 setValueSelector: aSymbol
 	"Directly set the selector to make more flexible."
 	

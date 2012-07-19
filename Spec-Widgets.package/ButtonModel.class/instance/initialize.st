@@ -14,6 +14,3 @@ initialize
 	labelHolder whenChangedDo: [	self changed: #label ].
 	stateHolder whenChangedDo: [	self changed: #state ].
 	enabledHolder whenChangedDo: [	self changed: #enabled ].
-	
-	helpHolder whenChangedDo: [:string | 
-		self widget ifNotNil: [:w | w setBalloonText: string ]].

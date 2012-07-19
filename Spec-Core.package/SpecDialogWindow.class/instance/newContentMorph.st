@@ -2,6 +2,9 @@ accessing
 newContentMorph
 	"Answer a new content morph."
 
-	^ self specWidget
-		hResizing: #spaceFill;
-		vResizing: #spaceFill
+	^ self specWidget 
+			ifNil: [ nil ] 
+			ifNotNil: [:w | 
+				w
+					hResizing: #spaceFill;
+					vResizing: #spaceFill ]

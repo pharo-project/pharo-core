@@ -1,6 +1,6 @@
-private-morphic
+protocol
 listSize
-	"Morphic API - The method should only be used internally for the communication between the model and the morphic widget" 
+	<api: #inspect>
 	"Return the size of the list"
 	
 	^ self listItems size

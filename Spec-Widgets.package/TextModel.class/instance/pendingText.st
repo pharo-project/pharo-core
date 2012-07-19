@@ -1,5 +1,6 @@
 protocol
 pendingText
+	<api: #inspect>
 	"Return the current pending text"
 
 	self widget

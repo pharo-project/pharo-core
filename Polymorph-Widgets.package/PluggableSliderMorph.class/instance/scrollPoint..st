@@ -1,4 +1,4 @@
-as yet unclassified
+event handling
 scrollPoint: event
 	"Scroll to the event position."
 	

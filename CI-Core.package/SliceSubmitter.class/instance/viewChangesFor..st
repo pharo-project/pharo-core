@@ -23,5 +23,5 @@ viewChangesFor: workingCopy
 					for: workingCopy
 					from: workingCopy  packageName, ' (', workingCopy ancestry ancestorString, ')'
 					to: ('Modified {1}' translated format: {workingCopy description}).
-				self receiver openModal: window openDialogWithSpec.
+				self receiver openModal: window openDialogWithSpec window.
 				^ window result ]]

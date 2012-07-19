@@ -1,4 +1,4 @@
-as yet unclassified
+access
 sliderColor: newColor
 	"Set the slider colour."
 	

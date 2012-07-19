@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 update: aSymbol 
 	"Refer to the comment in View|update:."
 

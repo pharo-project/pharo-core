@@ -1,0 +1,4 @@
+accessing
+contentMorph
+
+	^ contentMorph

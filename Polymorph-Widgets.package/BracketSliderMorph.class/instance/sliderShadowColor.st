@@ -1,4 +1,4 @@
-as yet unclassified
+access
 sliderShadowColor
 	"Answer the color for the slider shadow."
 	

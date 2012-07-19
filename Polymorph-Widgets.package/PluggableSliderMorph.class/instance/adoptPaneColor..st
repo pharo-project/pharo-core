@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 adoptPaneColor: paneColor
 	"Pass on to the border too."
 	

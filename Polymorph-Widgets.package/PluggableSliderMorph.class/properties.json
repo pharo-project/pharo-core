@@ -12,7 +12,9 @@
 		"enabled",
 		"min",
 		"max",
-		"quantum" ],
+		"quantum",
+		"getLabelSelector",
+		"label" ],
 	"name" : "PluggableSliderMorph",
 	"pools" : [
 		 ],

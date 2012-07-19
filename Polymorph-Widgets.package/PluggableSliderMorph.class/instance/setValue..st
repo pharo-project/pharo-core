@@ -1,4 +1,4 @@
-as yet unclassified
+model access
 setValue: newValue
 	"Called internally for propagation to model."
 

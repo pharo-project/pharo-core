@@ -7,4 +7,3 @@ initialize
 	textHolder := '' asValueHolder.
 	enabledHolder := true asValueHolder.
 	textHolder whenChangedDo: [ self changed: #getText ].
-	enabledHolder whenChangedDo: [ self changed: #enabled ].

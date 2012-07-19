@@ -1,4 +1,4 @@
-as yet unclassified
+private
 allPragmas
 
 	^ self allPragmasIn: (self behavior ifNil: [ ^ #() ])

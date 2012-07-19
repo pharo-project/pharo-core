@@ -2,7 +2,7 @@ specs
 defaultSpec
 	<spec>
 	^ {#MultiColumnListSpec.
-			#wrapSelector:. 				#wrapItem:.
+			#wrapSelector:. 				#wrapItem:index:.
 	    		#model:. 						#model.
 			#getListSizeSelector:. 			#listSize.
 			#getIndexSelector:. 			#getIndex.
@@ -14,5 +14,8 @@ defaultSpec
 			#getMenuSelector:.			#menu:shifted:.
 			#keystrokeSelector:.			#keyStroke:fromMorph:.
 			#setMultipleSelection:.			{#model. #multiSelection}.
+			#borderWidth:.						#(model borderWidth).
+			#borderColor:.						#(model borderColor).
+			#setBalloonText:.					{ #model . #help}.
 			#hResizing:. 					#spaceFill.
 			#vResizing:. 					#spaceFill}

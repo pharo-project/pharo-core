@@ -10,7 +10,6 @@
 		"actionHolder",
 		"labelHolder",
 		"stateHolder",
-		"enabledHolder",
 		"actionPerformedHolder",
 		"helpHolder" ],
 	"name" : "ButtonModel",

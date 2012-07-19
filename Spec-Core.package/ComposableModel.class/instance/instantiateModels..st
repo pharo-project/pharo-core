@@ -1,5 +1,6 @@
 instance creation
 instantiateModels: aCollectionOfPairs
-
+	"Used to instantiate multiple sub widget at once. Take aCollectionOfPairs where each odd element is an inst var name and each even element is a class name, create an instance from the class name and store it into the inst var"
+	
 	aCollectionOfPairs pairsDo: [ :k :v |
 		self instVarNamed: k asString put: (self createInstanceFor: v)]

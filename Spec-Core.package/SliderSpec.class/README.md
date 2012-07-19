@@ -1,0 +1,1 @@
+A SliderSpec is the spec used to describe a slider

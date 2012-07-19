@@ -9,7 +9,6 @@
 	"instvars" : [
 		"actionWhenActivatedHolder",
 		"actionWhenDesactivatedHolder",
-		"enabledHolder",
 		"stateHolder",
 		"labelClickableHolder",
 		"labelHolder" ],

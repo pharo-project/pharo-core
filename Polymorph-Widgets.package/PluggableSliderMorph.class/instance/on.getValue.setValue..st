@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 on: anObject getValue: getSel setValue: setSel
 	"Use the given selectors as the interface."
 

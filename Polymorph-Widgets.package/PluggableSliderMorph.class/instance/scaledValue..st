@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 scaledValue: newValue
 	"Set the scaled value."
 

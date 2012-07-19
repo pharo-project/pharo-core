@@ -1,4 +1,4 @@
 specs
 title
 
-	^ 'Radio Button'
+	^ 'Checkbox Button'

@@ -1,0 +1,16 @@
+{
+	"category" : "Spec-Core-Specs",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DialogWindowSpec",
+	"pools" : [
+		 ],
+	"super" : "WindowSpec",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,7 +1,7 @@
 {
 	"category" : "Spec-Core-Specs",
 	"classinstvars" : [
-		 ],
+		"counter" ],
 	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],

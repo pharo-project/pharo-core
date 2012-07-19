@@ -1,4 +1,4 @@
 morphic
 state
-
-	^ self stateHolder contents
+	<api: #inspect>
+	^ stateHolder contents

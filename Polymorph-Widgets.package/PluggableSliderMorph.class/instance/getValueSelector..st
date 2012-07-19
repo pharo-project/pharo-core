@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 getValueSelector: anObject
 	"Set the value of getValueSelector"
 

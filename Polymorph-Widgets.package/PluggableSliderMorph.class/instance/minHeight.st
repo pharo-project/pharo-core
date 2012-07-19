@@ -1,4 +1,4 @@
-as yet unclassified
+layout
 minHeight
 	"Answer the receiver's minimum height.
 	Give it a bit of a chance..."

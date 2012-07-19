@@ -4,11 +4,17 @@ buildWithSpec: aSpec
 	| widget |
 	
 	(self spec notNil and: [ self needRebuild not ])
-		ifTrue: [ widget := self spec instance ]
-		ifFalse: [ widget := SpecInterpreter buildMorphFor: self withSpec: aSpec ].
+		ifTrue: [ | old |
+			self needRebuild: true.
+			old := self widget.
+			old removeAllMorphs.
+			self ensureExtentFor: old.
+			widget := SpecInterpreter buildMorphFor: self withSpec: aSpec.
+			widget submorphs do:[ :e |  old addMorphBack: e ].
+			self spec instance: old.
+			^ old ]
+		ifFalse: [ widget := SpecInterpreter buildMorphFor: self withSpec: aSpec. ].
 
-	self extent ifNotNil: [:ex | 
-		(widget respondsTo: #extent:)
-			ifTrue: [ widget extent: ex ]].
+	self ensureExtentFor: widget.
 		
 	^ widget

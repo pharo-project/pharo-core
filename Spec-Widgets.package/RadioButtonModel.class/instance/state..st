@@ -1,5 +1,6 @@
-protocol
+morphic
 state: aBoolean
+	<api: #boolean getter: #state>
 	"Set if the checkbox is activated or not"
 
-	self stateHolder contents: aBoolean
+	stateHolder contents: aBoolean

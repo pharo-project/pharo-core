@@ -10,6 +10,9 @@ defaultSpec
 			#ghostText:.						{	#model. 	#ghostText			}.
 			#enabled:.							{	#model. 	#enabled				}.
 			#encrypted:.						{ 	#model.	#encrypted			}.
+			#borderWidth:.						#(model borderWidth).
+			#borderColor:.						#(model borderColor).
+			#setBalloonText:.					{ #model . #help}.
 			#hResizing:. 							#spaceFill.
 			#vResizing:. 							#spaceFill.
 			#hideScrollBarsIndefinitely.

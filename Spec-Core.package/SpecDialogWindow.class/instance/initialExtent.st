@@ -2,4 +2,6 @@ open/close
 initialExtent 
 
 	^ self model
-		ifNotNil: [:m | m initialExtent ]
+		ifNil: [ super initialExtent ]
+		ifNotNil: [:m | m initialExtent
+						ifNil: [ super initialExtent ]]

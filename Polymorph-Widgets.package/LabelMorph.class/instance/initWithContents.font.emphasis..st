@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initWithContents: aString font: aFont emphasis: emphasisCode
 	"Grrr, why do they do basicNew?"
 	

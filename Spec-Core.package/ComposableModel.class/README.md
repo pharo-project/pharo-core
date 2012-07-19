@@ -1,1 +1,1 @@
-ComposableModel is an abstract which represent a applicative model made to be composed with other ComposableModel
+ComposableModel is an abstract class which represent a applicative model made to be composed with other ComposableModel

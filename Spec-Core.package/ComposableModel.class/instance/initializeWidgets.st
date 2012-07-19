@@ -1,4 +1,4 @@
 initialization
 initializeWidgets
 	
-	self subclassResponsability
+	self subclassResponsibility

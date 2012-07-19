@@ -1,4 +1,4 @@
 morphic
 label
-
-	^ self labelHolder contents
+	<api: #inspect>
+	^ labelHolder contents

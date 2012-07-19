@@ -2,6 +2,6 @@ protocol
 openWithSpec
 
 	super openWithSpec.
-	self setTitle.
+	self updateTitle.
 	textModel text: textModel getText.
 	^ window

@@ -1,4 +1,4 @@
-accessing
+private
 title
-
-	^ titleHolder contents
+		
+	^ titleHolder contents , ' [' , listModel listSize printString , ']'

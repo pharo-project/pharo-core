@@ -2,12 +2,14 @@ protocol
 openDialogWithSpec: aSpec
 	"Build the widget using the spec name provided as argument and display it into a window"
 
-	window := SpecDialogWindow basicNew.
-	window specWidget: (self buildWithSpec: aSpec).
-	window initialize.
-	window model: self.
-	self initializeDialogWindow: window.
-	window openInWorld.
-	window title: self title.
-	self takeKeyboardFocus.
+	(window notNil and: [ self needRebuild not ])
+		ifTrue: [
+			self needRebuild: true.
+			window rebuildWithSpec: aSpec ]
+		ifFalse: [
+			window := DialogWindowModel new model: self.
+			window openWithSpec: aSpec.
+			self initializeDialogWindow: window.
+			window updateTitle.
+			self takeKeyboardFocus ].
 	^ window

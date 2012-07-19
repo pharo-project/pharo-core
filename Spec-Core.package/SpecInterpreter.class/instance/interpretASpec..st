@@ -55,4 +55,6 @@ interpretASpec: aPresenter
 			
 	"If you get here, there is a problem. Must probably it comes from the Spec which is wrongly defined"
 	self assert: (anArray size < 2).
+	(model respondsTo: #spec:)
+		ifTrue: [ model spec: spec ].
 	^ spec instance

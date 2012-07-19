@@ -2,7 +2,7 @@
 selectionFrameForRow: row
 	"Answer the selection frame rectangle."
 
-	|frame|
+	|frame| 
 	frame := self drawBoundsForRow: row.
 	frame := frame intersect: self bounds.
 	frame := self bounds: frame in: listSource.

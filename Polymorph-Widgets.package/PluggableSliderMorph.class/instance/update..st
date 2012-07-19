@@ -1,9 +1,11 @@
-as yet unclassified
+protocol
 update: aSymbol
-	"Update the value."
-	
-	super update: aSymbol.
-	aSymbol == self getEnabledSelector ifTrue: [
-		^self updateEnabled].
-	aSymbol = self getValueSelector ifTrue: [
-		^self updateValue]
+
+	 aSymbol = getEnabledSelector
+		ifTrue: [ ^ self updateEnabled ].
+		
+	aSymbol = getValueSelector 
+		ifTrue: [ ^ self updateValue ].
+		
+	aSymbol = getLabelSelector 
+		ifTrue: [ ^ self updateLabel ].
