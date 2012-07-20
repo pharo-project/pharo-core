@@ -7,12 +7,6 @@ cleanUpForRelease
 	self cleanUpMethods.
 
 	ImageMorph classPool at: #DefaultForm put: (Form extent: 1 @ 1 depth: 1).
-	Smalltalk globals
-		at: #TTFontDescription
-		ifPresent: [ :c | 
-			c
-				clearDefault;
-				clearDescriptions ].
 	ExternalDropHandler resetRegisteredHandlers.
 	FreeTypeFontProvider current initialize.
 	SystemNavigation new

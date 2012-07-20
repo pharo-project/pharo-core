@@ -11,6 +11,6 @@ Issue 6413:	SystemWindows menu shows make draggable even if the window is alread
 	http://code.google.com/p/pharo/issues/detail?id=6413'.
 	self loadTogether: self script215 merge: false.
 	SpecBinder initializeBindings.
-Smalltalk removeFromStartUpList: HostWindowProxy.
+Smalltalk removeFromStartUpList: (Smalltalk globals at: #HostWindowProxy).
 ScriptLoader new unloadPackageNamed: 'Graphics-External'.
 	self flushCaches.

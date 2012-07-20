@@ -99,7 +99,7 @@ privShrinkingProcess
     thisContext stack copy withIndexDo: [:stck :i |
     [ rep nextPutAll: i asString; space; nextPutAll: stck asString; cr] ifError: []].
     rep close. 
-    Smalltalk quitPrimitive ] 
+    Smalltalk exitFailure ] 
 
 
 

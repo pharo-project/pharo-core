@@ -2,4 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testPutSingleCharacter" : "pmm 5/22/2010 10:34" } }
+		"testPutSingle2ByteEncodedCharacter" : "HenrikSperreJohansen 6/29/2012 10:53",
+		"testPutSingle3ByteEncodedCharacter" : "HenrikSperreJohansen 6/29/2012 10:53",
+		"testPutSingle4ByteEncodedCharacter" : "HenrikSperreJohansen 6/29/2012 10:52",
+		"testPutSingleCharacterBinary" : "HenrikSperreJohansen 7/17/2012 13:07" } }
