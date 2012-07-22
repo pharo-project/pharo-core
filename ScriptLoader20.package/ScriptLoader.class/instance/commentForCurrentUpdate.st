@@ -1,13 +1,7 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 3360:	TextConverter handling of binary streams is wrong
-	http://code.google.com/p/pharo/issues/detail?id=3360
+ ^ 'Issue 6429:	move methodReference to Ring
+	http://code.google.com/p/pharo/issues/detail?id=6429
 	
-Issue 6411:	MNU: Nautilus class>>newOnClass:selector:
-	http://code.google.com/p/pharo/issues/detail?id=6411
-	
-Issue 6427:	use exitFailure in Pharo Kernel
-	http://code.google.com/p/pharo/issues/detail?id=6427
-	
-Issue 6426:	Undeclared in ScriptLoader
-	http://code.google.com/p/pharo/issues/detail?id=6426'
+Issue 6428:	add save option to FuelCommandLineHandler
+	http://code.google.com/p/pharo/issues/detail?id=6428'
