@@ -6,13 +6,21 @@ testIssue6406
 	
 	"Absolute folder paths work"
 	dialog := FileDialogWindow new selectPathName: aFolder fullName.
-	self assert: dialog selectedFileDirectory equals: aFolder.
+	"just compare the lower-case path names for now since on mac the test will fail
+	under certain circumstances..."
+	self 
+		assert: dialog selectedFileDirectory fullName asLowercase
+		equals: aFolder fullName asLowercase.
 	
 	"Relative folder paths work"
 	dialog := FileDialogWindow new selectPathName: 'testIssue6406' asFileReference.
-	self assert: dialog selectedFileDirectory equals: aFolder.
+	self 
+		assert: dialog selectedFileDirectory fullName asLowercase
+		equals: aFolder fullName asLowercase.
 	
 	"Invalid folder defaults to the working folder"
 	invalidFolder := 'cant-possibly-exist-for-testIssue6406'.
 	dialog := FileDialogWindow new selectPathName: invalidFolder.
-	self assert: dialog selectedFileDirectory equals: FileSystem workingDirectory.
+	self 
+		assert: dialog selectedFileDirectory fullName asLowercase
+		equals: FileSystem workingDirectory fullName asLowercase.

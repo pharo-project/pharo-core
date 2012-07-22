@@ -12,7 +12,7 @@ readFrom: aStream
 		ifFalse: [ |upToEnd|
 			ch := aStream next.
 			ch = $+ ifTrue: [ch := Character space].
-			upToEnd := aStream upToEnd.
+			upToEnd := aStream upTo: Character space.
 			(upToEnd includes: $:) ifFalse: [
 				upToEnd := (upToEnd first: 2), ':', (upToEnd allButFirst: 2)].
 			offset := Duration fromString: ch asString, '0:', upToEnd, ':0'].

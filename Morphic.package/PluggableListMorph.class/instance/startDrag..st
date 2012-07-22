@@ -25,7 +25,7 @@ startDrag: evt
 		ifFalse: [ | passenger |
 			passenger := self model dragPassengerFor: draggedItem inMorph: self.
 			passenger ifNil: [ ^ self ].
-			draggedItemMorph := StringMorph contents: passenger asStringOrText.
+			draggedItemMorph := passenger asStringMorph.
 			ddm := TransferMorph withPassenger: passenger from: self ].
 		
 		
