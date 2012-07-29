@@ -1,8 +1,7 @@
 {
 	"category" : "RPackage-Tests",
 	"classinstvars" : [
-		"mockAnnouncer",
-		"mockDefault" ],
+		"mockAnnouncer" ],
 	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],

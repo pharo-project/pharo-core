@@ -10,5 +10,5 @@ category: aString
 			self basicCategory: aString asSymbol.
 			self environment organization classify: self name under: self basicCategory ]
 		ifFalse: [self errorCategoryName].
-	SystemChangeNotifier uniqueInstance
+	SystemAnnouncer uniqueInstance
 		class: self recategorizedFrom: oldCategory to: self basicCategory

@@ -4,7 +4,7 @@ renameCategory: oldCatString toBe: newCatString
 	oldCat := oldCatString asSymbol.
 	newCat := newCatString asSymbol.
 	oldElementsBefore := self listAtCategoryNamed: oldCat.
-	SystemChangeNotifier uniqueInstance doSilently: [
+	SystemAnnouncer uniqueInstance doSilently: [
 		super renameCategory: oldCatString toBe: newCatString].
 	oldElementsAfter := (self listAtCategoryNamed: oldCat) asSet.
 	oldElementsBefore do: [:each |

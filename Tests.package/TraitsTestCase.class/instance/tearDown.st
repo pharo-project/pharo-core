@@ -1,6 +1,6 @@
 running
 tearDown
-	TraitsResource resetIfDirty.
+	TraitsResource reset.
 	self createdClassesAndTraits
 		do: [ :aClassOrTrait || behaviorName |
 			behaviorName := aClassOrTrait name.

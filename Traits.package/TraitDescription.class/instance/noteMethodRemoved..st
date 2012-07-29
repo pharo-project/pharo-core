@@ -1,4 +1,4 @@
 organization updating
 noteMethodRemoved: oldMethod
-	SystemChangeNotifier uniqueInstance
+	SystemAnnouncer uniqueInstance
 		methodRemoved: oldMethod

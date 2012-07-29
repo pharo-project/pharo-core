@@ -1,4 +1,5 @@
 accessing settings
-cacheDirectory: aFileDirectory
+cacheDirectory: directory
+	"directory - can be an absolutePathString (to interface with the settings framework), or aFileReference"
  
-	default := self new directory: aFileDirectory asFileReference.
+	default := self new directory: directory asFileReference.

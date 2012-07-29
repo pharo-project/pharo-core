@@ -1,5 +1,5 @@
-accessing
+instance creation
 current
 	"Answer a system annoncer."
-	
-	^ announcer ifNil: [ announcer := self new ]
+	self flag: #todo. "Remove Me"
+	^ self uniqueInstance

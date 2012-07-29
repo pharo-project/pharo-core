@@ -4,5 +4,5 @@ stopNotification
 	
 	"pay attention that we can break the system using this method"
 	
-	SystemChangeNotifier uniqueInstance noMoreNotificationsFor: self.
+	SystemAnnouncer uniqueInstance noMoreNotificationsFor: self.
 	MCWorkingCopy removeDependent: self.

@@ -6,7 +6,7 @@ classComment: aString stamp: aStamp
 	oldComment := self organization classComment.
 	oldStamp := self organization commentStamp.
 	(aString isKindOf: RemoteString) ifTrue:
-		[SystemChangeNotifier uniqueInstance class: self oldComment: oldComment newComment: aString string oldStamp: oldStamp newStamp: aStamp.
+		[SystemAnnouncer uniqueInstance class: self oldComment: oldComment newComment: aString string oldStamp: oldStamp newStamp: aStamp.
 		^ self organization classComment: aString stamp: aStamp].
 
 	oldCommentRemoteStr := self organization commentRemoteStr.
@@ -23,4 +23,4 @@ classComment: aString stamp: aStamp
 			strm nextPutAll: ' prior: '; nextPutAll: ptr printString].
 		file nextChunkPut: header]].
 	self organization classComment: (RemoteString newString: aString onFileNumber: 2) stamp: aStamp.
-	SystemChangeNotifier uniqueInstance class: self oldComment: oldComment newComment: aString oldStamp: oldStamp newStamp: aStamp
+	SystemAnnouncer uniqueInstance class: self oldComment: oldComment newComment: aString oldStamp: oldStamp newStamp: aStamp

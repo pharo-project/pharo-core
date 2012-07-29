@@ -3,7 +3,7 @@ testTraitRemovalRemovesMethods
 	
 	self flag: #fix.  "It has to be refactored when Mariano's ClassBuilder for testCase is integrated :)"
 	
-	SystemChangeNotifier uniqueInstance doSilently: [
+	SystemAnnouncer uniqueInstance doSilently: [
 		| AAA TAAA |
 		[	"we create a trait"
 			TAAA := Trait named: #TAAA

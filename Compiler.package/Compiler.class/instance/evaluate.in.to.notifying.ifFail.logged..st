@@ -26,5 +26,5 @@ evaluate: textOrStream in: aContext to: receiver notifying: aRequestor ifFail: f
 			and:[(itsSelectionString := itsSelection asString) isEmptyOrNil not]])
 				ifTrue:[itsSelectionString]
 				ifFalse:[sourceStream contents].
-		SystemChangeNotifier uniqueInstance evaluated: toLog context: aContext].
+		SystemAnnouncer uniqueInstance evaluated: toLog context: aContext].
 	^ value

@@ -1,4 +1,5 @@
 accessing
 default
-	self checkCacheDirectory.
-	^ default ifNil: [default := self new directory: self defaultCacheDirectory]
+	"This should be deleted as soon as Metacello is fixed"
+	self flag: #toBeDeleted.			
+	^ self uniqueInstance 

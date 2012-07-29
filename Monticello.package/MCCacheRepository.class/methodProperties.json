@@ -1,14 +1,14 @@
 {
 	"class" : {
-		"cacheDirectory" : "tbn 7/4/2012 15:45",
-		"cacheDirectory:" : "SeanDeNigris 7/12/2012 08:45",
-		"checkCacheDirectory" : "stephaneducasse 2/4/2006 20:47",
-		"default" : "tbn 7/4/2012 15:48",
-		"default:" : "tbn 7/4/2012 15:36",
-		"defaultCacheDirectory" : "SeanDeNigris 7/12/2012 08:45",
+		"cacheDirectory" : "SeanDeNigris 7/17/2012 15:34",
+		"cacheDirectory:" : "SeanDeNigris 7/17/2012 15:20",
+		"default" : "MarianoMartinezPeck 7/24/2012 10:50",
+		"defaultDirectory" : "SeanDeNigris 7/17/2012 15:38",
 		"description" : "avi 10/9/2003 12:56",
-		"disableCacheDuring:" : "CamilloBruni 7/6/2012 16:14",
-		"initialize" : "avi 1/22/2004 16:21" },
+		"disableCacheDuring:" : "SeanDeNigris 7/17/2012 15:34",
+		"initialize" : "SeanDeNigris 7/17/2012 15:36",
+		"resetIfInvalid" : "SeanDeNigris 7/17/2012 15:36",
+		"uniqueInstance" : "SeanDeNigris 7/17/2012 15:38" },
 	"instance" : {
 		"basicStoreVersion:" : "CamilloBruni 1/26/2012 19:50",
 		"cacheForPackage:" : "stephaneducasse 2/4/2006 20:47",

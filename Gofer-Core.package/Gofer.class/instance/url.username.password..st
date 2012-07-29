@@ -17,7 +17,6 @@ url: anUrlString username: aUsernameString password: aPasswordString
 			(#(http https) includes: url scheme)
 				ifTrue: [ repository := MCHttpRepository location: anUrlString user: aUsernameString password: aPasswordString ]
 				ifFalse: [ 
-					"generally we're using MCCacheRepository... are there any other ones used?"
-					repository := MCCacheRepository new directory: anUrlString asFileReference ]].
+					repository := MCDirectoryRepository new directory: anUrlString asFileReference ]].
 		
 	self repository: repository

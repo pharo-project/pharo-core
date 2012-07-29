@@ -4,9 +4,8 @@ setUp
 	previousChangeSet := ChangeSet current.
 	testsChangeSet := ChangeSet new.
 	ChangeSet newChanges: testsChangeSet.
-	SystemChangeNotifier uniqueInstance
-		notify: self
-		ofSystemChangesOfItem: #class
-		change: #Renamed
-		using: #verifyRenameEvent:.
+	SystemAnnouncer uniqueInstance weak
+		on: ClassRenamed
+		send: #verifyRenameEvent:
+		to: self.
 	super setUp

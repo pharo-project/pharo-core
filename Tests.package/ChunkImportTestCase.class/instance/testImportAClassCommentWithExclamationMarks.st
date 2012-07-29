@@ -3,7 +3,7 @@ testImportAClassCommentWithExclamationMarks
 	| class comment commentToWrite |
 	comment := 'I''m a nice comment!, treat me well :).'.
 	commentToWrite := 'I''m a nice comment!!, treat me well :).' replaceAll: '!' with: '!!'.
-	SystemChangeNotifier uniqueInstance doSilently: [[
+	SystemAnnouncer uniqueInstance doSilently: [[
 		class := self importAClass.
 		CodeImporter evaluateString: ('!{1} commentStamp: ''<historical>'' prior: 0!{2}!' format: { class name asString . commentToWrite }).
 		self assert: comment equals: class comment.

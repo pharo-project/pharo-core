@@ -2,7 +2,7 @@
 silentlyNewSubclassOf: aClass instanceVariableNames: ivNamesString classVariableNames:  classVarsString category: category
 
 	| default newClass |
-	SystemChangeNotifier uniqueInstance doSilently: [
+	SystemAnnouncer uniqueInstance doSilently: [
 		newClass := aClass 
 			subclass: self newName 
 			instanceVariableNames: ivNamesString 

@@ -1,4 +1,4 @@
 initialization
 unload
-	SystemChangeNotifier uniqueInstance 
+	SystemAnnouncer uniqueInstance 
 		noMoreNotificationsFor: self

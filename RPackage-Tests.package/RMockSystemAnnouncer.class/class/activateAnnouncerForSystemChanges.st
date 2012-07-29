@@ -1,5 +1,5 @@
 accessing
 activateAnnouncerForSystemChanges
-
-	(SystemChangeNotifier uniqueInstance hasNotificationsFor: self)
-		ifFalse:  [SystemChangeNotifier uniqueInstance notify: self ofAllSystemChangesUsing: #announceFromEvent:]
+	SystemAnnouncer uniqueInstance 
+		unsubscribe: self;
+		on: SystemAnnouncement send: #announceFromEvent: to: self.

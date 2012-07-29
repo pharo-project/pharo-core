@@ -3,7 +3,7 @@
 		"cleanUp:" : "",
 		"default" : "SeanDeNigris 12/2/2011 08:57" },
 	"instance" : {
-		"addCategory:" : "",
+		"addCategory:" : "EstebanLorenzano 7/27/2012 16:30",
 		"categoriesMatching:" : "LucFabresse 10/24/2010 17:42",
 		"classesInCategory:" : "",
 		"commentInventory:" : "",
@@ -17,9 +17,9 @@
 		"initialize" : "LucFabresse 10/24/2010 19:57",
 		"orderedTraitsIn:" : "",
 		"removeCategoriesMatching:" : "",
-		"removeCategory:" : "",
+		"removeCategory:" : "EstebanLorenzano 7/27/2012 16:30",
 		"removeMissingClasses" : "",
 		"removeSystemCategory:" : "",
-		"renameCategory:toBe:" : "",
+		"renameCategory:toBe:" : "EstebanLorenzano 7/27/2012 16:30",
 		"superclassOrder:" : "GuillermoPolito 6/26/2012 15:58",
 		"uncommentedClassesIn:" : "" } }

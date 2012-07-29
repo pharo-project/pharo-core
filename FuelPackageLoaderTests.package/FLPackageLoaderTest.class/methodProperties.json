@@ -5,7 +5,7 @@
 	"instance" : {
 		"categoryForMethodExtensions" : "MartinDias 9/24/2011 11:37",
 		"expectedFailures" : "MartinDias 5/15/2012 11:08",
-		"storeRemoveAndLoadPackage:" : "MarianoMartinezPeck 5/16/2012 20:12",
+		"storeRemoveAndLoadPackage:" : "EstebanLorenzano 7/27/2012 16:30",
 		"storeRemoveAndLoadStubPackage" : "MarianoMartinezPeck 5/15/2012 18:54",
 		"stubPackageInfo" : "MarianoMartinezPeck 1/24/2012 20:38",
 		"testAdditionalObjects" : "MarianoMartinezPeck 5/15/2012 22:42",
@@ -16,7 +16,7 @@
 		"testClassRegistration" : "MarianoMartinezPeck 4/19/2012 19:17",
 		"testExternalSuperclass" : "MarianoMartinezPeck 4/19/2012 19:26",
 		"testIgnoreClassSideVariable" : "MarianoMartinezPeck 4/19/2012 19:26",
-		"testIgnoreClassSideVariableAndDifferentPackages" : "MarianoMartinezPeck 5/15/2012 19:02",
+		"testIgnoreClassSideVariableAndDifferentPackages" : "EstebanLorenzano 7/27/2012 16:30",
 		"testIgnoreClassVariableWithClassSideMethod" : "MarianoMartinezPeck 4/19/2012 19:26",
 		"testIgnoreClassVariableWithInstanceSideMethod" : "MarianoMartinezPeck 4/19/2012 19:26",
 		"testIgnoreForeignClassSideMethod" : "MarianoMartinezPeck 4/19/2012 19:26",

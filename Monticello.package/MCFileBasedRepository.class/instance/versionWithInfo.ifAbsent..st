@@ -1,7 +1,7 @@
 as yet unclassified
 versionWithInfo: aVersionInfo ifAbsent: errorBlock
 	"get a version for the given versionInfo. always query first the packageCache and only then try to load the version from the remote location"
-	^ MCCacheRepository default
+	^ MCCacheRepository uniqueInstance
 		versionWithInfo: aVersionInfo 
 		ifAbsent: [
 			(self allFileNamesForVersionNamed: aVersionInfo name) do:

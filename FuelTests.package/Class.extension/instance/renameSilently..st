@@ -1,5 +1,5 @@
 *FuelTests
 renameSilently: aName
-	SystemChangeNotifier uniqueInstance doSilently: [
+	SystemAnnouncer uniqueInstance doSilently: [
 		self rename: aName.
 	]

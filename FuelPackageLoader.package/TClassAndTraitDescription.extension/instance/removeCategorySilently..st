@@ -1,4 +1,4 @@
 *FuelPackageLoader
 removeCategorySilently: aCategory
 
-	SystemChangeNotifier uniqueInstance doSilently: [ self removeCategory: aCategory ]
+	SystemAnnouncer uniqueInstance doSilently: [ self removeCategory: aCategory ]

@@ -18,4 +18,4 @@ addClassVarNamed: aString
 	(classPool includesKey: symbol) ifFalse: 
 		["Pick up any refs in Undeclared"
 		classPool declare: symbol from: Undeclared.
-		SystemChangeNotifier uniqueInstance classDefinitionChangedFrom: oldState to: self]
+		SystemAnnouncer uniqueInstance classDefinitionChangedFrom: oldState to: self]

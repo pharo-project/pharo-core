@@ -12,7 +12,7 @@ storeRemoveAndLoadPackage: aFLPackage
 	self assert: self stubPackageInfo extensionMethods isEmpty.
 
 	self streamFactory readStreamDo: [:aStream |
-		SystemChangeNotifier uniqueInstance doSilently: [
+		SystemAnnouncer uniqueInstance doSilently: [
 			loadedPackage := FLPackageLoader new loadFrom: aStream.
 		].
 		classFactory createdClasses: loadedPackage behaviors ].

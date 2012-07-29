@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"resetIfDirty" : "dvf 8/30/2005 16:57" },
+		 },
 	"instance" : {
 		"c1" : "dvf 8/30/2005 14:00",
 		"c1:" : "dvf 8/30/2005 14:00",
@@ -19,13 +19,10 @@
 		"c8" : "dvf 8/30/2005 14:01",
 		"c8:" : "dvf 8/30/2005 14:01",
 		"categoryName" : "dvf 8/30/2005 11:47",
-		"codeChangedEvent:" : "StephaneDucasse 5/26/2010 21:38",
 		"createClassNamed:superclass:uses:" : "dvf 8/30/2005 11:47",
 		"createTraitNamed:uses:" : "dvf 8/30/2005 11:47",
 		"createdClassesAndTraits" : "dvf 8/30/2005 11:47",
-		"isDirty" : "dvf 8/30/2005 15:19",
-		"setDirty" : "dvf 8/30/2005 15:19",
-		"setUp" : "CamilloBruni 7/11/2012 10:37",
+		"setUp" : "EstebanLorenzano 7/27/2012 16:30",
 		"setUpTranslatingRequiresFixture" : "noha 6/11/2008 18:41",
 		"setUpTrivialRequiresFixture" : "noha 6/11/2008 18:42",
 		"setUpTwoLevelRequiresFixture" : "noha 6/11/2008 18:42",
@@ -41,4 +38,4 @@
 		"t5:" : "dvf 8/30/2005 13:59",
 		"t6" : "dvf 8/30/2005 13:59",
 		"t6:" : "dvf 8/30/2005 13:59",
-		"tearDown" : "StephaneDucasse 6/2/2012 22:08" } }
+		"tearDown" : "GuillermoPolito 7/22/2012 16:22" } }

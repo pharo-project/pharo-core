@@ -18,7 +18,7 @@
 		"includesFileNamed:" : "CamilloBruni 1/26/2012 19:49",
 		"includesVersionNamed:" : "ab 8/21/2003 00:36",
 		"loadAllFileNames" : "CamilloBruni 3/2/2012 13:03",
-		"loadVersionFromFileNamed:" : "CamilloBruni 4/21/2012 18:06",
+		"loadVersionFromFileNamed:" : "SeanDeNigris 7/17/2012 15:50",
 		"loadVersionInfoFromFileNamed:" : "avi 9/17/2005 18:37",
 		"maxCacheSize" : "CamilloBruni 4/20/2012 18:14",
 		"notifyList" : "CamilloBruni 1/26/2012 19:50",
@@ -29,5 +29,5 @@
 		"versionInfoFromFileNamed:" : "avi 9/17/2005 18:37",
 		"versionNameFromFileName:" : "bf 5/30/2005 22:52",
 		"versionReaderForFileNamed:do:" : "marcus.denker 11/10/2008 10:04",
-		"versionWithInfo:ifAbsent:" : "CamilloBruni 3/2/2012 14:38",
+		"versionWithInfo:ifAbsent:" : "SeanDeNigris 7/17/2012 15:40",
 		"writeStreamForFileNamed:do:" : "avi 10/31/2003 14:32" } }

@@ -1,3 +1,3 @@
 initialize-release
 initialize
-	self checkCacheDirectory
+	self resetIfInvalid

@@ -5,8 +5,8 @@ privCleanMonticello
 	(Smalltalk classNamed: #MCDefinition) clearInstances.
 
 	(Smalltalk classNamed: #MCWorkingCopy) allInstancesDo:[:wc| 
-		SystemChangeNotifier uniqueInstance noMoreNotificationsFor: wc. wc unregister].
+		SystemAnnouncer uniqueInstance noMoreNotificationsFor: wc. wc unregister].
 	
-	SystemChangeNotifier uniqueInstance noMoreNotificationsFor: (Smalltalk classNamed: #MCPackageManager).
-	SystemChangeNotifier uniqueInstance noMoreNotificationsFor: (Smalltalk classNamed: #MCWorkingCopy).
+	SystemAnnouncer uniqueInstance noMoreNotificationsFor: (Smalltalk classNamed: #MCPackageManager).
+	SystemAnnouncer uniqueInstance noMoreNotificationsFor: (Smalltalk classNamed: #MCWorkingCopy).
 

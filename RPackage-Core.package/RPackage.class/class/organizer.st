@@ -1,3 +1,3 @@
 protected only for tests
 organizer
-	^ PackageGlobalOrganizer
+	^ PackageGlobalOrganizer ifNil: [ RPackageOrganizer default ].

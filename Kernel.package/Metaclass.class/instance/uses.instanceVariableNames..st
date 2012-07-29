@@ -9,5 +9,5 @@ uses: aTraitCompositionOrArray instanceVariableNames: instVarString
 	newMetaClass assertConsistantCompositionsForNew: newComposition.
 	newMetaClass setTraitComposition: newComposition.
 	
-	SystemChangeNotifier uniqueInstance
+	SystemAnnouncer uniqueInstance
 		classDefinitionChangedFrom: copyOfOldMetaClass to: newMetaClass

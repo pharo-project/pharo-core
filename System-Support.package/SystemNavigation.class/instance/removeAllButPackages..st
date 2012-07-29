@@ -13,7 +13,7 @@ removeAllButPackages: packagesList
       | class |
       class := (Smalltalk globals classOrTraitNamed: className).
       class allSubclasses ifEmpty: [
-        SystemChangeNotifier uniqueInstance noMoreNotificationsFor: class.
+        SystemAnnouncer uniqueInstance noMoreNotificationsFor: class.
         class isTrait ifFalse: [ 
           (class class includesSelector: #unload) ifTrue: [ class removeSelector: #unload ] ].
         class removeFromSystem. 

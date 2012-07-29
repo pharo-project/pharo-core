@@ -43,9 +43,9 @@ runTestForAMethod: aMethod notifying: aBoolean priority: aPriority
 	
 	shouldAnnounce
 		ifTrue: [| color |
-			aMethod hasPassedTest ifTrue: [ color :=  Color green ].
-			aMethod hasFailedTest ifTrue: [ color :=  Color yellow ].
-			aMethod hasErrorTest ifTrue: [ color :=  Color red ].
+			testMethod hasPassedTest ifTrue: [ color :=  Color green ].
+			testMethod hasFailedTest ifTrue: [ color :=  Color yellow ].
+			testMethod hasErrorTest ifTrue: [ color :=  Color red ].
 			self
 				notifyTitle: 'Test Finished' 
 				contents: 'Method: ',testMethod methodClass asString, '>>#',testMethod selector asString

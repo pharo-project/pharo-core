@@ -1,4 +1,4 @@
 accessing
 theCachedRepository
 
-	^ MCCacheRepository default
+	^ MCCacheRepository uniqueInstance.

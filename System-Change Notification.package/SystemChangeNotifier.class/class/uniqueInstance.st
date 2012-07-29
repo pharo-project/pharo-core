@@ -1,5 +1,3 @@
 public
 uniqueInstance
-
-	UniqueInstance ifNil: [UniqueInstance := self createInstance].
-	^UniqueInstance
+	^SystemAnnouncer uniqueInstance

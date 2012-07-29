@@ -15,6 +15,6 @@ variableWordSubclass: t uses: aTraitCompositionOrArray instanceVariableNames: f
 		category: cat.
 	
 	newClass setTraitComposition: aTraitCompositionOrArray asTraitComposition.
-	SystemChangeNotifier uniqueInstance
+	SystemAnnouncer uniqueInstance
 		classDefinitionChangedFrom: copyOfOldClass to: newClass.
 	^newClass	

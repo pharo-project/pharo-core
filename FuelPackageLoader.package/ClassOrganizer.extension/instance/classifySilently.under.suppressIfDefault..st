@@ -1,6 +1,6 @@
 *FuelPackageLoader
 classifySilently: element under: heading suppressIfDefault: aBoolean
 
-	SystemChangeNotifier uniqueInstance doSilently: [
+	SystemAnnouncer uniqueInstance doSilently: [
 		super classify: element under: heading suppressIfDefault: aBoolean
 	].

@@ -6,7 +6,7 @@ saveChanges
 	workingCopy newVersion ifNotNil: [:v |
 		(MCVersionInspector new version: v) show.
 		Cursor wait showWhile: [repo storeVersion: v].
-		MCCacheRepository default cacheAllFileNamesDuring: 
+		MCCacheRepository uniqueInstance cacheAllFileNamesDuring: 
 			[repo cacheAllFileNamesDuring: 
 				[v allAvailableDependenciesDo:
 					[:dep |

@@ -1,6 +1,6 @@
 installing
 load
 	self createClass ifNotNil: [:class |
-		SystemChangeNotifier uniqueInstance doSilently: [
+		SystemAnnouncer uniqueInstance doSilently: [
 			class class instanceVariableNames: self classInstanceVariablesString.
 			self hasComment ifTrue: [class classComment: comment stamp: commentStamp]]].

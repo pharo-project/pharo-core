@@ -2,4 +2,4 @@ initialization
 initialize 
 
 	"self initialize"
-	mockAnnouncer := Announcer new.
+	mockAnnouncer := SystemAnnouncer new.

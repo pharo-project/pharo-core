@@ -36,5 +36,5 @@ class: oldClass instanceVariableNames: instVarString unsafe: unsafe
 		newClass class setTraitComposition: copyOfOldClassTraitComposition ].
 	
 	self doneCompiling: newClass.
-	SystemChangeNotifier uniqueInstance classDefinitionChangedFrom: copyOfOldClass to: newClass.
+	SystemAnnouncer uniqueInstance classDefinitionChangedFrom: copyOfOldClass to: newClass.
 	^newClass

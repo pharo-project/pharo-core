@@ -8,6 +8,7 @@ testMethodPackageFromObsoleteClass
 	foo := self createNewClassNamed: #FooForTest inPackage: pack.
 	foo compile: 'bar ^42'.
 	method := foo>>#bar.
+
 	foo obsolete.
 	self assert: (method packageFromOrganizer: pack organizer) equals: foo package.
 	] ensure: [ 

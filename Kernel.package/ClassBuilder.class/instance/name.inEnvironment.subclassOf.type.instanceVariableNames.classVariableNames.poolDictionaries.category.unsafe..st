@@ -90,11 +90,11 @@ name: className inEnvironment: env subclassOf: newSuper type: type instanceVaria
 	newClass doneCompiling.	"... notify interested clients ..."
 	oldClass isNil
 		ifTrue: [ 
-			SystemChangeNotifier uniqueInstance classAdded: newClass inCategory: newCategory.
+			SystemAnnouncer uniqueInstance classAdded: newClass inCategory: newCategory.
 			^ newClass ].
 	newCategory ~= oldCategory
-		ifTrue: [ SystemChangeNotifier uniqueInstance class: newClass recategorizedFrom: oldCategory to: category ]
-		ifFalse: [ SystemChangeNotifier uniqueInstance classDefinitionChangedFrom: copyOfOldClass to: newClass ] ]
+		ifTrue: [ SystemAnnouncer uniqueInstance class: newClass recategorizedFrom: oldCategory to: category ]
+		ifFalse: [ SystemAnnouncer uniqueInstance classDefinitionChangedFrom: copyOfOldClass to: newClass ] ]
 		ensure: [ 
 			copyOfOldClass ifNotNil: [ copyOfOldClass superclass removeSubclass: copyOfOldClass ].
 			Behavior flushObsoleteSubclasses ].

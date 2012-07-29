@@ -1,3 +1,3 @@
 actions
 addToCache
-	MCCacheRepository default storeVersion: self
+	MCCacheRepository uniqueInstance storeVersion: self

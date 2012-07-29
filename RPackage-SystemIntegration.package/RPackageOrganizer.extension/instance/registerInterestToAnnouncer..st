@@ -1,9 +1,8 @@
 *RPackage-SystemIntegration
 registerInterestToAnnouncer: anAnnouncer
-	"self registerInterestTo Announcement"
-
-	"RPackageOrganizer registerInterestTo Announcement"
-
+	"There should be only one, like highlander"	
+	anAnnouncer unsubscribe: self.
+	
 	" Announcer initialize"
 	self flag: #todo. "Fiinish monticello integration (commented below)"
 	

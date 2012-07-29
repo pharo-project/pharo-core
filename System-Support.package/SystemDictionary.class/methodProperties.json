@@ -18,7 +18,7 @@
 		"environment" : "",
 		"fillCaches" : "StephaneDucasse 6/6/2011 21:13",
 		"flushClassNameCache" : "ul 10/8/2010 21:23",
-		"forgetClass:logged:" : "",
+		"forgetClass:logged:" : "EstebanLorenzano 7/27/2012 16:30",
 		"hasBindingThatBeginsWith:" : "MarcusDenker 11/30/2010 11:10",
 		"hasClassNamed:" : "",
 		"nonClassNames" : "ul 10/8/2010 21:22",
@@ -30,7 +30,7 @@
 		"removeKey:ifAbsent:" : "",
 		"renameClass:as:" : "",
 		"renameClass:from:" : "",
-		"renameClass:from:to:" : "",
+		"renameClass:from:to:" : "EstebanLorenzano 7/27/2012 16:30",
 		"renameClassNamed:as:" : "StephaneDucasse 11/7/2011 22:44",
 		"traitNames" : "MarcusDenker 4/30/2011 08:25",
 		"veryDeepCopyWith:" : "" } }

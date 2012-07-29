@@ -1,4 +1,4 @@
 initialize-release
 disconnectFromChanges
-	SystemChangeNotifier uniqueInstance
+	SystemAnnouncer uniqueInstance
 		noMoreNotificationsFor: self

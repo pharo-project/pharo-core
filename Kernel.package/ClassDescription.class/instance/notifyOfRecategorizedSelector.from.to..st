@@ -1,6 +1,6 @@
 organization updating
 notifyOfRecategorizedSelector: element from: oldCategory to: newCategory
-	SystemChangeNotifier uniqueInstance 
+	SystemAnnouncer uniqueInstance 
 		selector: element 
 		recategorizedFrom: oldCategory 
 		to: newCategory 

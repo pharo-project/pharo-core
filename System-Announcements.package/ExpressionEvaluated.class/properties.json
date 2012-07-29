@@ -1,0 +1,16 @@
+{
+	"category" : "System-Announcements",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ExpressionEvaluated",
+	"pools" : [
+		 ],
+	"super" : "SystemAnnouncement",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

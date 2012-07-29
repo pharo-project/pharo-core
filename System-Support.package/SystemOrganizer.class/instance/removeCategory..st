@@ -2,5 +2,5 @@ accessing
 removeCategory: cat 
 	| r |
 	r := super removeCategory: cat.
-	SystemChangeNotifier uniqueInstance classCategoryRemoved: cat.
+	SystemAnnouncer uniqueInstance classCategoryRemoved: cat.
 	^ r

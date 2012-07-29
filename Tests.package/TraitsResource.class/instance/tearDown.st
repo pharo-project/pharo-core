@@ -1,6 +1,5 @@
 as yet unclassified
 tearDown
-	SystemChangeNotifier uniqueInstance noMoreNotificationsFor: self.
 	self createdClassesAndTraits
 		do: [ :aClassOrTrait | 
 			| behaviorName |

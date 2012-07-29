@@ -19,10 +19,10 @@ named: aSymbol uses: aTraitCompositionOrCollection category: aString env: anEnvi
 	
 	"... notify interested clients ..."
 	oldTrait isNil ifTrue: [
-		SystemChangeNotifier uniqueInstance classAdded: trait inCategory: systemCategory.
+		SystemAnnouncer uniqueInstance classAdded: trait inCategory: systemCategory.
 		^ trait].
-	SystemChangeNotifier uniqueInstance traitDefinitionChangedFrom: oldTrait to: trait.
+	SystemAnnouncer uniqueInstance traitDefinitionChangedFrom: oldTrait to: trait.
 	systemCategory ~= oldTrait category 
-		ifTrue: [SystemChangeNotifier uniqueInstance class: trait recategorizedFrom: oldTrait category to: systemCategory].
+		ifTrue: [SystemAnnouncer uniqueInstance class: trait recategorizedFrom: oldTrait category to: systemCategory].
 		
 	^ trait

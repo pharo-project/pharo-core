@@ -1,6 +1,6 @@
 as yet unclassified
 storeDependencies: aVersion
-	MCCacheRepository default cacheAllFileNamesDuring: 
+	MCCacheRepository uniqueInstance cacheAllFileNamesDuring: 
 		[self cacheAllFileNamesDuring: 
 			[aVersion allAvailableDependenciesDo:
 				[:dep |

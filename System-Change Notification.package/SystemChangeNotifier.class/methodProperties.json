@@ -9,7 +9,7 @@
 		"new" : "rw 6/28/2003 09:41",
 		"protocolKind" : "NS 1/21/2004 09:32",
 		"resetUniqueInstance" : "marcus.denker 11/10/2008 10:04",
-		"uniqueInstance" : "NS 1/27/2004 16:23" },
+		"uniqueInstance" : "EstebanLorenzano 7/27/2012 15:42" },
 	"instance" : {
 		"allSystemEvents" : "rw 7/29/2003 15:14",
 		"class:oldComment:newComment:oldStamp:newStamp:" : "gk 8/23/2007 21:35",
@@ -24,7 +24,7 @@
 		"classRemoved:fromCategory:" : "NS 1/16/2004 15:10",
 		"classRenamed:from:to:inCategory:" : "NS 1/27/2004 12:19",
 		"classReorganized:" : "NS 1/27/2004 12:48",
-		"doSilently:" : "nice 4/16/2009 09:56",
+		"doSilently:" : "EstebanLorenzano 7/27/2012 12:51",
 		"evaluated:" : "NS 1/19/2004 09:48",
 		"evaluated:context:" : "NS 1/19/2004 09:47",
 		"hasNotificationsFor:" : "gk 8/14/2007 23:47",
@@ -54,5 +54,4 @@
 		"systemEventsForChange:" : "rw 7/29/2003 15:14",
 		"systemEventsForItem:" : "rw 7/29/2003 15:14",
 		"systemEventsForItem:change:" : "rw 7/29/2003 15:14",
-		"traitDefinitionChangedFrom:to:" : "al 7/18/2004 10:48",
 		"trigger:" : "NS 1/26/2004 20:41" } }

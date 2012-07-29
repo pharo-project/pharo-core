@@ -2,14 +2,14 @@
 	"class" : {
 		"default" : "stephaneducasse 2/4/2006 20:47" },
 	"instance" : {
-		"addRepository:" : "lr 5/9/2010 19:05",
+		"addRepository:" : "SeanDeNigris 7/17/2012 15:42",
 		"disableCache" : "NorbertHartl 6/20/2008 10:11",
 		"includes:" : "avi 11/7/2003 00:20",
 		"includesVersionNamed:" : "CamilloBruni 4/22/2012 21:07",
 		"initialize" : "alain.plantec 5/28/2009 10:03",
 		"removeHTTPRepositoryLocationNamed:" : "sd 3/15/2008 17:33",
 		"removeRepository:" : "lr 5/9/2010 19:04",
-		"repositories" : "al 6/22/2008 11:57",
+		"repositories" : "SeanDeNigris 7/17/2012 15:42",
 		"repositoriesDo:" : "avi 11/7/2003 00:51",
 		"useCache" : "abc 6/20/2008 10:02",
 		"versionWithInfo:" : "dvf 8/10/2004 23:02",

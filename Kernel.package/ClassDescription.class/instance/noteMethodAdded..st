@@ -1,4 +1,4 @@
 organization updating
 noteMethodAdded: aMethod
-	SystemChangeNotifier uniqueInstance
+	SystemAnnouncer uniqueInstance
 		methodAdded: aMethod

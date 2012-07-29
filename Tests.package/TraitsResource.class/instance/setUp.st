@@ -5,11 +5,11 @@ setUp
 	"SetUpCount := SetUpCount + 1."
 
 	dirty := false.
-	oldAnnouncer := SystemAnnouncer announcer.
+	oldAnnouncer := SystemAnnouncer uniqueInstance.
 	SystemAnnouncer announcer: nil.
 	oldPrivateAnnouncer := SystemAnnouncer privateAnnouncer. 
 	SystemAnnouncer privateAnnouncer: nil.
-	SystemChangeNotifier uniqueInstance doSilently: 
+	SystemAnnouncer uniqueInstance doSilently: 
 			[self t1: (self createTraitNamed: #T1
 						uses: { }).
 			self t1 comment: 'I am the trait T1'.
@@ -55,4 +55,3 @@ setUp
 			self setUpTrivialRequiresFixture.
 			self setUpTwoLevelRequiresFixture.
 			self setUpTranslatingRequiresFixture].
-	SystemChangeNotifier uniqueInstance notify: self ofAllSystemChangesUsing: #codeChangedEvent:

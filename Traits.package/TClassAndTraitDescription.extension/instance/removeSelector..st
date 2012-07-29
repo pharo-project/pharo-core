@@ -7,7 +7,7 @@ removeSelector: selector
 	priorMethod := self compiledMethodAt: selector ifAbsent: [^ nil].
 	priorProtocol := self whichCategoryIncludesSelector: selector.
 	super removeSelector: selector.
-	SystemChangeNotifier uniqueInstance 
+	SystemAnnouncer uniqueInstance 
 		doSilently: [self updateOrganizationSelector: selector oldCategory: priorProtocol newCategory: nil].
-	SystemChangeNotifier uniqueInstance 
+	SystemAnnouncer uniqueInstance 
 			methodRemoved: priorMethod selector: selector inProtocol: priorProtocol class: self.

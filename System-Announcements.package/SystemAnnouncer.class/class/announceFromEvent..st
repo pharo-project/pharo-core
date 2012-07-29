@@ -4,6 +4,6 @@ announceFromEvent: aChangeEvent
 	
 	For example, from an AddedEvent that concerns a class the method creates SystemAddedClassAnnouncement and then it will announce it both from the generic announcer and from the classAnnouncer "
 	| announcement |
+	
 	announcement := aChangeEvent asSystemAnnouncement.
-	self privateAnnouncer announce: announcement.		
-	self announcer announce: announcement.
+	self uniqueInstance announce: announcement.

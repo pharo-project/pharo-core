@@ -28,7 +28,7 @@ testIgnoreClassSideVariableAndDifferentPackages
 
 	self streamFactory readStreamDo: [:aStream |
 		| package |
-		SystemChangeNotifier uniqueInstance doSilently: [
+		SystemAnnouncer uniqueInstance doSilently: [
 			package := FLPackageLoader new loadFrom: aStream.
 		].
 		classFactory createdClasses: package behaviors ].

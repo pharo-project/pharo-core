@@ -4,7 +4,7 @@ testImportAClassCategory
 	classOrganizationString := '(''testing'' testImportAClass testImportAMethod)
 (''auxiliar'' importAClass)'.
 	chunk := '!{1} reorganize!'.
-	SystemChangeNotifier uniqueInstance doSilently: [[
+	SystemAnnouncer uniqueInstance doSilently: [[
 		class := self importAClass.
 		
 		"we write the methods we will categorize"

@@ -2,6 +2,7 @@
 systemMethodAddedActionFrom: ann
 
 	|class selector protocol method rPackage |
+
 	class := ann itemClass.
 	protocol := ann itemProtocol ifNil: [ '' ].
 	selector := ann itemSelector.

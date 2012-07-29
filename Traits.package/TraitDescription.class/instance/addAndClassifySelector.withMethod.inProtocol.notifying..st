@@ -8,7 +8,7 @@ addAndClassifySelector: selector withMethod: compiledMethod inProtocol: category
 	
 	"We categorize first, so the users can use the categorization at the add moment"			
 	oldProtocol := self organization categoryOfElement: selector.
-	SystemChangeNotifier uniqueInstance
+	SystemAnnouncer uniqueInstance
 		doSilently: [ self organization classify: selector under: category ].
 	
 	self addSelectorSilently: selector withMethod: compiledMethod.
@@ -16,14 +16,14 @@ addAndClassifySelector: selector withMethod: compiledMethod inProtocol: category
 	newProtocol := self organization categoryOfElement: selector.
 	priorMethodOrNil isNil
 		ifTrue: [
-			SystemChangeNotifier uniqueInstance
+			SystemAnnouncer uniqueInstance
 				methodAdded: compiledMethod
 				selector: selector
 				inProtocol: category
 				class: self
 				requestor: requestor]
 		ifFalse: [
-			SystemChangeNotifier uniqueInstance
+			SystemAnnouncer uniqueInstance
 				methodChangedFrom: priorMethodOrNil
 				to: compiledMethod
 				selector: selector

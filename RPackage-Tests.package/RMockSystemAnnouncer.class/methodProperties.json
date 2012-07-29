@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"activateAnnouncerForSystemChanges" : "2010-11-18T15:27:00+01:00",
-		"announceFromEvent:" : "StephaneDucasse 4/25/2011 12:05",
-		"disableAnnouncerForSystemChanges" : "2010-11-18T13:57:00+01:00",
-		"initialize" : "2010-11-18T13:28:00+01:00",
+		"activateAnnouncerForSystemChanges" : "EstebanLorenzano 7/27/2012 17:13",
+		"announceFromEvent:" : "EstebanLorenzano 7/27/2012 17:41",
+		"disableAnnouncerForSystemChanges" : "EstebanLorenzano 7/27/2012 16:30",
+		"initialize" : "EstebanLorenzano 7/27/2012 17:20",
 		"mockAnnouncer" : "2010-11-18T13:31:00+01:00",
 		"reset" : "GuillermoPolito 7/10/2012 11:38" },
 	"instance" : {

@@ -2,7 +2,7 @@ setUp-tearDown
 setUp
 	super setUp. 
 	
-	oldMonticelloAnnouncer := SystemAnnouncer announcer.
+	oldMonticelloAnnouncer := SystemAnnouncer uniqueInstance.
 	SystemAnnouncer announcer: nil.
 	
 	oldPrivateAnnouncer := SystemAnnouncer privateAnnouncer.

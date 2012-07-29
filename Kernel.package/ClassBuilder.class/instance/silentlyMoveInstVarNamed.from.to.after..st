@@ -45,5 +45,5 @@ silentlyMoveInstVarNamed: instVarName from: srcClass to: dstClass after: prevIns
 	].
 	self doneCompiling: srcClass.
 	self doneCompiling: dstClass.
-	SystemChangeNotifier uniqueInstance classDefinitionChangedFrom: copyOfSrcClass to: srcClass.
-	SystemChangeNotifier uniqueInstance classDefinitionChangedFrom: copyOfDstClass to: dstClass.
+	SystemAnnouncer uniqueInstance classDefinitionChangedFrom: copyOfSrcClass to: srcClass.
+	SystemAnnouncer uniqueInstance classDefinitionChangedFrom: copyOfDstClass to: dstClass.

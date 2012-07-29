@@ -4,8 +4,6 @@ updateDefinedClassNamed: oldString withNewName: newString
 	(oldString substrings size > 1 or: [newString substrings size > 1]) ifTrue: [
 		Error signal: 'You should not use metaclass names'
 		].
-	(self includesClassNamed: #RPackageNewStubClass)
-		ifTrue: [self halt.].
 	
 	"=> update the 'classDefinedSelectors' dictionary (replace the old key by the new one)
        => update the 'metaclassDefinedSelectors' dictionary (replace the old key by the new one)"

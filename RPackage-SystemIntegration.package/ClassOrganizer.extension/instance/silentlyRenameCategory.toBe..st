@@ -13,7 +13,7 @@ silentlyRenameCategory: oldCatString toBe: newCatString
 			]
 		ifTrue: [
 			"if the category already exist, we move all elements inside and remove the old category"
-			SystemChangeNotifier uniqueInstance doSilently: [
+			SystemAnnouncer uniqueInstance doSilently: [
 				oldElementsBefore do: [:anElement |
 					self classify: anElement under: newCat
 					].

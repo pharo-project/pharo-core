@@ -1,3 +1,3 @@
 utility
 disableCacheDuring: aBlock
-	self default disableCacheDuring: aBlock
+	self uniqueInstance disableCacheDuring: aBlock

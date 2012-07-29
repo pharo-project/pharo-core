@@ -3,7 +3,7 @@
 		"adoptVersionInfoFrom:" : "avi 9/13/2004 18:00",
 		"ancestorsFromArray:cache:" : "avi 2/17/2004 01:23",
 		"infoFromDictionary:cache:" : "stephaneducasse 2/4/2006 20:47",
-		"initialize" : "MarcusDenker 3/3/2012 23:31" },
+		"initialize" : "EstebanLorenzano 7/27/2012 16:30" },
 	"instance" : {
 		"adopt:" : "avi 2/13/2004 01:07",
 		"ancestors" : "avi 2/13/2004 01:07",
@@ -40,7 +40,7 @@
 		"requiredPackages" : "stephaneducasse 2/4/2006 20:47",
 		"requiredPackagesParallelCollect:withMessage:" : "SeanDeNigris 6/21/2012 09:07",
 		"snapshot" : "CamilloBruni 9/30/2011 16:25",
-		"theCachedRepository" : "sd 3/24/2008 17:13",
+		"theCachedRepository" : "SeanDeNigris 7/17/2012 15:50",
 		"uniqueVersionName" : "CamilloBruni 4/24/2012 15:22",
 		"unload" : "avi 10/5/2003 11:09",
 		"versionInfo:" : "stephaneducasse 2/4/2006 20:47",

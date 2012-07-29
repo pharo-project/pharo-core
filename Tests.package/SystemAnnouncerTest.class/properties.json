@@ -1,0 +1,17 @@
+{
+	"category" : "Tests-SystemChangeNotification",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"oldMonticelloAnnouncer",
+		"oldPrivateAnnouncer" ],
+	"name" : "SystemAnnouncerTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

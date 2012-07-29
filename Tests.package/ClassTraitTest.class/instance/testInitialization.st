@@ -1,7 +1,6 @@
 testing
 testInitialization
 	"self run: #testInitialization"
-
 	| classTrait |
 	classTrait := self t1 classTrait.
 	self assert: self t1 hasClassTrait.
