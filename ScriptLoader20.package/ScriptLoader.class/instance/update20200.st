@@ -13,7 +13,7 @@ Issue 6322:	Failing test FileSystem.Tests.Memory.MemoryFileSystemTest.testEntryA
 	RPackageOrganizer unregisterInterestToSystemAnnouncement.
 RPackageOrganizer registerInterestToSystemAnnouncement.
 
-RMockSystemAnnouncer reset.
+(Smalltalk at: #RMockSystemAnnouncer) reset.
 
 Smalltalk garbageCollect.
 Smalltalk garbageCollect.

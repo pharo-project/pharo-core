@@ -1,6 +1,6 @@
 editing keys
 sendersOfIt: aKeyboardEvent
-	"Triggered by Cmd-n; browse implementors of the selector represented by the current selection, if plausible. 2/1/96 sw"
+	"Open a browser on the current selection, if this is a class present its users too."
 
 	self sendersOfIt.
 	^ true

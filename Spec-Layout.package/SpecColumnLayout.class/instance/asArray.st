@@ -45,21 +45,54 @@ asArray
 			[ index > lastFractionIndex ] whileTrue: [ | myHeight |
 				ante := self commands at: index.
 				index := index -1.
-				x0 := ante offsets topLeft x.
-				y0 := ante offsets topLeft y.
-				x1 := ante offsets bottomRight x.
-				y1 := ante offsets bottomRight y.
+				x0 := ante leftOffset.
+				y0 := ante topOffset.
+				x1 := ante rightOffset.
+				y1 := ante bottomOffset.
 				myHeight := y1-y0.
-				ante offsets: (((height+myHeight) negated)@y0 corner: (height negated)@y1).
+				ante offsets: (x0@((height+myHeight) negated) corner: x1@(height negated)).
 				height := height+myHeight ].
 			self assert: (index = lastFractionIndex).
 			ante := self commands at: index.
-			x0 := ante offsets topLeft x.
-			y0 := ante offsets topLeft y.
-			y1 := ante offsets bottomRight y.
-			ante offsets: (x0@y0 corner: (height negated)@y1) ].		
+			x0 := ante leftOffset.
+			y0 := ante topOffset.
+			x1 := ante rightOffset.
+			y1 := ante bottomOffset.
+			ante offsets: (x0@y0 corner: x1@(height negated)) ].		
 			
 	self commands do: [:e |
+		| left right bottom top windowBorderWidth |
+		windowBorderWidth := self class windowBorderWidth.
+		left := e leftOffset ifNil: [0].
+		right := e rightOffset ifNil: [0].
+
+		bottom := e bottomOffset ifNil: [0].
+		top := e topOffset ifNil: [0].
+		
+		e rightFraction = 1 ifTrue: [ 
+			right isZero 
+				ifTrue: [ e rightOffset: windowBorderWidth negated ]
+				ifFalse: [ e rightOffset: right - ProportionalSplitterMorph splitterWidth ]].
+		e leftFraction = 0
+			ifTrue: [ 
+				left isZero 
+					ifTrue: [ e leftOffset: windowBorderWidth ]
+					ifFalse: [ e leftOffset: left+ ProportionalSplitterMorph splitterWidth ]]
+			ifFalse: [ e leftFraction = 1 ifFalse: [
+						e leftOffset: left + ProportionalSplitterMorph splitterWidth]].
+
+		e bottomFraction = 1 ifTrue: [ 
+			bottom isZero
+				ifTrue: [ e bottomOffset: windowBorderWidth negated ]
+				ifFalse: [ e bottomOffset: bottom - ProportionalSplitterMorph splitterWidth ]].
+		e topFraction = 0
+			ifTrue: [ 
+				top isZero 
+					ifTrue: [ e topOffset: windowBorderWidth ]
+					ifFalse: [ e topOffset: top + ProportionalSplitterMorph splitterWidth ]]
+			ifFalse: [ e topFraction = 1 ifFalse: [
+						e topOffset: top + ProportionalSplitterMorph splitterWidth]].
+		
 		e generateArguments.
 		e asSpecElements do: [:el |
 			result add: el ]].

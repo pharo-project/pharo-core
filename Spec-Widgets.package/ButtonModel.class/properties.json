@@ -10,8 +10,7 @@
 		"actionHolder",
 		"labelHolder",
 		"stateHolder",
-		"actionPerformedHolder",
-		"helpHolder" ],
+		"actionPerformedHolder" ],
 	"name" : "ButtonModel",
 	"pools" : [
 		 ],

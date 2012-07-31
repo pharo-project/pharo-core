@@ -1,0 +1,19 @@
+{
+	"category" : "Morphic-Events",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "GuillermoPolito 4/22/2012 19:17",
+	"instvars" : [
+		"event",
+		"selector",
+		"recipient",
+		"valueParameter" ],
+	"name" : "MorphEventSubscription",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

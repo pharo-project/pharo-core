@@ -7,10 +7,9 @@ browseAllAccessesTo: instVarName from: aClass
 	
 	| coll |
 	coll := OrderedCollection new.
-	Cursor wait showWhile: [
-		aClass withAllSubAndSuperclassesDo: [:class | 
+	aClass withAllSubAndSuperclassesDo: [:class | 
 			(class whichSelectorsAccess: instVarName) do: [:sel |
-					coll add: (self createMethodNamed: sel realParent: class)]]].
+					coll add: (self createMethodNamed: sel realParent: class)]].
 	^ self 
 		browseMessageList: coll 
 		name: 'Accesses to ' , instVarName 

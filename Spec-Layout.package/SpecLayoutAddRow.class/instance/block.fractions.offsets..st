@@ -1,10 +1,10 @@
 instance creation
 block: aBlock fractions: frac offsets: off
-	| column |
+	| row |
 	
-	column := SpecRowLayout composed.
-	aBlock value: column.
-	subwidget := column asArray.
+	row := SpecRowLayout composed.
+	aBlock value: row.
+	subwidget := row asArray.
 	self fractions: frac.
 	self offsets: off.
 	

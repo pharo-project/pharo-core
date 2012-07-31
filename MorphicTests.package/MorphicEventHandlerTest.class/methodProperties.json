@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "GuillermoPolito 4/22/2012 19:15",
+		"tearDown" : "GuillermoPolito 4/22/2012 18:34",
+		"testClickFromMorph" : "GuillermoPolito 4/22/2012 18:34",
+		"testDoubleClickFromMorph" : "GuillermoPolito 4/22/2012 18:34",
+		"testDoubleClickTimeoutFromMorph" : "GuillermoPolito 4/22/2012 18:34",
+		"testKeyStrokeFromMorph" : "GuillermoPolito 7/18/2012 12:51",
+		"testMouseEnterDraggingFromMorph" : "GuillermoPolito 4/22/2012 18:34",
+		"testMouseEnterFromMorph" : "GuillermoPolito 4/22/2012 18:34",
+		"testMouseLeaveFromMorph" : "GuillermoPolito 4/22/2012 18:34",
+		"testTwoEventHandlersAreAttached" : "GuillermoPolito 7/18/2012 12:52" } }

@@ -60,6 +60,37 @@ asArray
 			ante offsets: (x0@y0 corner: (width negated)@y1) ].		
 			
 	self commands do: [:e |
+		| left right bottom top windowBorderWidth |
+		windowBorderWidth := self class windowBorderWidth.
+		left := e leftOffset ifNil: [0].
+		right := e rightOffset ifNil: [0].
+
+		bottom := e bottomOffset ifNil: [0].
+		top := e topOffset ifNil: [0].
+		
+		e rightFraction = 1 ifTrue: [ 
+			right isZero 
+				ifTrue: [ e rightOffset: windowBorderWidth negated ]
+				ifFalse: [ e rightOffset: right - ProportionalSplitterMorph splitterWidth ]].
+		e leftFraction = 0
+			ifTrue: [ 
+				left isZero 
+					ifTrue: [ e leftOffset: windowBorderWidth ]
+					ifFalse: [ e leftOffset: left+ ProportionalSplitterMorph splitterWidth ]]
+			ifFalse: [ e leftFraction = 1 ifFalse: [
+						e leftOffset: left + ProportionalSplitterMorph splitterWidth]].
+
+		e bottomFraction = 1 ifTrue: [ 
+			bottom isZero
+				ifTrue: [ e bottomOffset: windowBorderWidth negated ]
+				ifFalse: [ e bottomOffset: bottom - ProportionalSplitterMorph splitterWidth ]].
+		e topFraction = 0
+			ifTrue: [ 
+				top isZero 
+					ifTrue: [ e topOffset: windowBorderWidth ]
+					ifFalse: [ e topOffset: top + ProportionalSplitterMorph splitterWidth ]]
+			ifFalse: [ e topFraction = 1 ifFalse: [
+						e topOffset: top + ProportionalSplitterMorph splitterWidth]].
 		e generateArguments.
 		e asSpecElements do: [:el |
 			result add: el ]].

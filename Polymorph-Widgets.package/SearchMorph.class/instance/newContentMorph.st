@@ -8,7 +8,7 @@ newContentMorph
 		askBeforeDiscardingEdits: false;
 		setProperty: #wantsFrameAdornments toValue: false;
 		changedAction: [:aString| self contentChanged: aString asString];
-		eventHandler: EventHandler new.
+		eventHandler: MorphicEventHandler new.
 		
 	pluggableTextMorph on: #keyStroke send: #keyStroke:fromMorph: to: self.
 	^ pluggableTextMorph

@@ -1,11 +1,14 @@
 {
 	"class" : {
-		"defaultSpec" : "BenjaminVanRyseghem 7/13/2012 05:30" },
+		"defaultSpec" : "BenjaminVanRyseghem 7/18/2012 16:45" },
 	"instance" : {
 		"absoluteValue" : "BenjaminVanRyseghem 7/16/2012 17:14",
 		"absoluteValue:" : "BenjaminVanRyseghem 7/16/2012 17:26",
+		"color:" : "BenjaminVanRyseghem 7/18/2012 18:59",
 		"defaultValue" : "BenjaminVanRyseghem 7/12/2012 19:17",
-		"initialize" : "BenjaminVanRyseghem 7/13/2012 05:15",
+		"initialize" : "BenjaminVanRyseghem 7/18/2012 16:47",
+		"label" : "BenjaminVanRyseghem 7/18/2012 16:45",
+		"label:" : "BenjaminVanRyseghem 7/18/2012 16:46",
 		"max" : "BenjaminVanRyseghem 7/16/2012 17:32",
 		"max:" : "BenjaminVanRyseghem 7/16/2012 17:34",
 		"min" : "BenjaminVanRyseghem 7/16/2012 17:33",
@@ -16,6 +19,7 @@
 		"value" : "BenjaminVanRyseghem 7/16/2012 17:33",
 		"value:" : "BenjaminVanRyseghem 7/16/2012 17:30",
 		"whenAbsoluteValueChangedDo:" : "BenjaminVanRyseghem 7/16/2012 17:35",
+		"whenLabelChangedDo:" : "BenjaminVanRyseghem 7/18/2012 16:46",
 		"whenMaxChangedDo:" : "BenjaminVanRyseghem 7/16/2012 17:35",
 		"whenMinChangedDo:" : "BenjaminVanRyseghem 7/16/2012 17:35",
 		"whenQuantumChangedDo:" : "BenjaminVanRyseghem 7/16/2012 17:35",

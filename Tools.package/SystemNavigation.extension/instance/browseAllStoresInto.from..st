@@ -7,10 +7,9 @@ browseAllStoresInto: instVarName from: aClass
 
 	| coll |
 	coll := OrderedCollection new.
-	Cursor wait showWhile: [
-		aClass withAllSubAndSuperclassesDo: [:class | 
+	aClass withAllSubAndSuperclassesDo: [:class | 
 			(class whichSelectorsStoreInto: instVarName) do: [:sel |
-					coll add: (self createMethodNamed: sel realParent: class)]]].
+					coll add: (self createMethodNamed: sel realParent: class)]].
 	^ self
 		browseMessageList: coll 
 		name: 'Stores into ' , instVarName 

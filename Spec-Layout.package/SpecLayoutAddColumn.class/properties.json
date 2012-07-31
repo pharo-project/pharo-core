@@ -7,12 +7,10 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"fractions",
-		"offsets",
-		"subwidget" ],
+		 ],
 	"name" : "SpecLayoutAddColumn",
 	"pools" : [
 		 ],
-	"super" : "SpecLayoutSend",
+	"super" : "SpecLayoutAdd",
 	"traitcomposition" : "{}",
 	"type" : "normal" }

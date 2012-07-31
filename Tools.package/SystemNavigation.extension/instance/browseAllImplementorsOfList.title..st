@@ -10,5 +10,4 @@ browseAllImplementorsOfList: selectorList title: aTitle
 	flattenedList := SortedCollection new.
 	implementorLists
 		do: [:each | flattenedList addAll: each].
-	Cursor normal show.
 	^ self browseMessageList: flattenedList name: aTitle

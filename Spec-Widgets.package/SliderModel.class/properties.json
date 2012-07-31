@@ -13,7 +13,8 @@
 		"value",
 		"isSetting",
 		"isChanging",
-		"absoluteValue" ],
+		"absoluteValue",
+		"labelHolder" ],
 	"name" : "SliderModel",
 	"pools" : [
 		 ],
