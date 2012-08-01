@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"spec" : "BenjaminVanRyseghem 7/11/2012 16:33" },
+	"instance" : {
+		"apiSetters" : "BenjaminVanRyseghem 7/11/2012 16:32",
+		"buildBlockItemFor:" : "BenjaminVanRyseghem 7/16/2012 19:41",
+		"buildBooleanItemFor:" : "BenjaminVanRyseghem 7/16/2012 19:41",
+		"buildColorItemFor:" : "BenjaminVanRyseghem 7/16/2012 19:41",
+		"buildDoItemFor:" : "BenjaminVanRyseghem 7/12/2012 17:40",
+		"buildEventItemFor:" : "BenjaminVanRyseghem 7/11/2012 17:21",
+		"buildInspectItemFor:" : "BenjaminVanRyseghem 7/11/2012 17:21",
+		"buildIntegerItemFor:" : "BenjaminVanRyseghem 7/16/2012 22:08",
+		"buildItemFor:" : "BenjaminVanRyseghem 7/16/2012 19:28",
+		"buildItemFor:kind:" : "BenjaminVanRyseghem 7/16/2012 22:08",
+		"buildStItemFor:" : "BenjaminVanRyseghem 7/16/2012 19:42",
+		"buildStringItemFor:" : "BenjaminVanRyseghem 7/16/2012 19:42",
+		"initialize" : "BenjaminVanRyseghem 7/16/2012 18:31",
+		"initializeWidgets" : "BenjaminVanRyseghem 7/11/2012 16:33",
+		"model" : "BenjaminVanRyseghem 7/11/2012 16:32",
+		"model:" : "BenjaminVanRyseghem 7/11/2012 16:32",
+		"openWithSpec" : "BenjaminVanRyseghem 7/16/2012 18:47",
+		"retrieveItems" : "BenjaminVanRyseghem 7/16/2012 18:20",
+		"title" : "BenjaminVanRyseghem 7/11/2012 19:32",
+		"widthFor:" : "BenjaminVanRyseghem 7/11/2012 19:31" } }

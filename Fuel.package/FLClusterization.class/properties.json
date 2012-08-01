@@ -12,7 +12,8 @@
 		"globalsBucket",
 		"metalevelInstanceSideBucket",
 		"metalevelClassSideBucket",
-		"primitivesBucket" ],
+		"primitivesBucket",
+		"postBaselevelBucket" ],
 	"name" : "FLClusterization",
 	"pools" : [
 		 ],

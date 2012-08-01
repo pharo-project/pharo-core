@@ -10,7 +10,9 @@
 		"analyzer",
 		"serializationFactory",
 		"signature",
-		"version" ],
+		"version",
+		"stream",
+		"header" ],
 	"name" : "FLSerializer",
 	"pools" : [
 		 ],

@@ -1,0 +1,18 @@
+{
+	"category" : "Spec-Tools-Editor",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"object",
+		"ok",
+		"text" ],
+	"name" : "STEditor",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

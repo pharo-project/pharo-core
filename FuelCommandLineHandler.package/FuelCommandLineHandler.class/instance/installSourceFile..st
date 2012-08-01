@@ -5,9 +5,8 @@ installSourceFile: aReference
 	| timeToMaterialize package timeToLoad bytes |
 	aReference readStreamDo: [ :stream |
 		FileStream stdout nextPutAll: 'Materializing package from file: ', aReference fullName; lf.
-		bytes := (FileStream readOnlyFileNamed: aReference fullName) binary size asBytesDescription.
-		timeToMaterialize := [package := FLPackageLoader new materializeFrom: (FileStream readOnlyFileNamed: aReference fullName) binary] timeToRun.
-		FileStream stdout nextPutAll: 'Time to materialize: ', timeToMaterialize asString, ' miliseconds and occupied: ', bytes; lf.
+		timeToMaterialize := [package := FLPackageLoader new materializeFrom: stream] timeToRun.
+		FileStream stdout nextPutAll: 'Time to materialize: ', timeToMaterialize asString, ' miliseconds and occupied: ', stream size asBytesDescription; lf.
 		].
 	FileStream stdout nextPutAll: 'Loading and initializing package from file: ', aReference fullName; lf.
 	timeToLoad := [package load] timeToRun.

@@ -2,8 +2,10 @@
 	"class" : {
 		"with:" : "MartinDias 1/5/2012 14:29" },
 	"instance" : {
+		"additionalObjectAt:" : "MarianoMartinezPeck 7/28/2012 13:47",
 		"afterMaterializationStep" : "MartinDias 12/29/2011 18:09",
 		"clusterInstancesStep" : "MartinDias 2/17/2012 03:18",
+		"header:" : "MarianoMartinezPeck 7/28/2012 13:46",
 		"headerStep" : "MartinDias 12/29/2011 18:27",
 		"initializeWith:" : "MartinDias 1/5/2012 14:30",
 		"instancesStep" : "MartinDias 9/9/2011 01:58",

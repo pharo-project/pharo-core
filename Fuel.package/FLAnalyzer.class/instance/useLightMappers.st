@@ -1,4 +1,4 @@
-configuring
+accessing
 useLightMappers
 
 	globalMappersFactory := [self lightGlobalMappers].

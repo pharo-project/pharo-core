@@ -1,0 +1,18 @@
+{
+	"category" : "Spec-Tools-Editor",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"integer",
+		"slider",
+		"text" ],
+	"name" : "IntegerEditor",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

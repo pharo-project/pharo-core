@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildWithSpec" : "BenjaminVanRyseghem 7/12/2012 19:33",
+		"buildWithSpec:" : "BenjaminVanRyseghem 7/12/2012 19:33",
+		"help:" : "BenjaminVanRyseghem 7/12/2012 19:38",
+		"initialize" : "BenjaminVanRyseghem 7/12/2012 19:36",
+		"initializeWidgets" : "BenjaminVanRyseghem 7/13/2012 05:34",
+		"integer" : "BenjaminVanRyseghem 7/12/2012 19:33",
+		"integer:" : "BenjaminVanRyseghem 7/12/2012 19:33",
+		"layout" : "BenjaminVanRyseghem 7/12/2012 19:40",
+		"max:" : "BenjaminVanRyseghem 7/12/2012 19:38",
+		"min:" : "BenjaminVanRyseghem 7/16/2012 18:52",
+		"slider" : "BenjaminVanRyseghem 7/12/2012 19:34",
+		"text" : "BenjaminVanRyseghem 7/12/2012 19:33",
+		"value:" : "BenjaminVanRyseghem 7/12/2012 19:38",
+		"whenIntegerChangedDo:" : "BenjaminVanRyseghem 7/12/2012 19:38" } }

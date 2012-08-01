@@ -1,0 +1,16 @@
+{
+	"category" : "Spec-Tools-Editor",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WidgetEditor",
+	"pools" : [
+		 ],
+	"super" : "WidgetSetter",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

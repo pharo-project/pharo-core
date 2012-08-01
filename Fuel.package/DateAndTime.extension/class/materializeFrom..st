@@ -2,10 +2,10 @@
 materializeFrom: aDecoder
 
 	^ self basicNew
-		fuelSet: aDecoder nextEncodedInt32
-		nanoSecond: aDecoder nextEncodedInt32
-		seconds: aDecoder nextEncodedInt32
+		fuelSet: aDecoder nextEncodedUint32
+		nanoSecond: aDecoder nextEncodedUint32
+		seconds: aDecoder nextEncodedUint24
 		offset: (Duration 
-			seconds: aDecoder nextEncodedInt32 
+			seconds: aDecoder nextEncodedInt24 
 			nanoSeconds: aDecoder nextEncodedInt32);
 		yourself.

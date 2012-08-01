@@ -1,0 +1,4 @@
+accessing
+retrievingMethod
+
+	^ retrievingMethod contents

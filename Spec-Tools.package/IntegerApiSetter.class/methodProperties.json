@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"spec" : "BenjaminVanRyseghem 7/12/2012 19:44" },
+	"instance" : {
+		"initializeWidgets" : "BenjaminVanRyseghem 7/12/2012 20:01",
+		"internUpdateWith:" : "BenjaminVanRyseghem 7/16/2012 18:58",
+		"registerMethodEvents" : "BenjaminVanRyseghem 7/13/2012 02:55",
+		"updateSliderWith:" : "BenjaminVanRyseghem 7/13/2012 04:30" } }

@@ -8,5 +8,6 @@ clusterBuckets
 		add: metalevelClassSideBucket;
 		add: metalevelInstanceSideBucket;
 		add: baselevelBucket;
+		add: postBaselevelBucket;
 		add: substitutionsBucket;
 		yourself.

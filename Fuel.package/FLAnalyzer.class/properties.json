@@ -13,7 +13,8 @@
 		"analysisFactory",
 		"generalMapperFactory",
 		"globalSymbols",
-		"internalMethods" ],
+		"internalMethods",
+		"globalMappers" ],
 	"name" : "FLAnalyzer",
 	"pools" : [
 		 ],

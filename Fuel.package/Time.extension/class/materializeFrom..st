@@ -2,5 +2,5 @@
 materializeFrom: aDecoder
 	
 	^ self 
-		seconds: aDecoder nextEncodedInt32
-		nanoSeconds: aDecoder nextEncodedInt32
+		seconds: aDecoder nextEncodedUint24
+		nanoSeconds: aDecoder nextEncodedUint32

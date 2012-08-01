@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"expectedFailures" : "MartinDias 5/24/2012 15:40",
+		"expectedFailures" : "MartinDias 6/25/2012 21:09",
+		"testAllRangeOfIntegers" : "MarianoMartinezPeck 6/15/2012 19:55",
 		"testArray" : "MartinDias 9/19/2011 11:27",
 		"testAssociation" : "MarianoMartinezPeck 9/6/2011 23:33",
 		"testBag" : "MartinDias 10/5/2011 17:54",
@@ -15,6 +16,7 @@
 		"testColorArray" : "MartinDias 4/19/2011 13:02",
 		"testCompiledMethod" : "MartinDias 12/15/2011 15:41",
 		"testConsiderCustomGlobal" : "MartinDias 1/10/2012 14:29",
+		"testConsiderCustomWideSymbolGlobal" : "MartinDias 6/25/2012 21:08",
 		"testCyclicIdentitySet" : "MarianoMartinezPeck 9/28/2011 22:35",
 		"testCyclicLink" : "MartinDias 3/21/2011 16:08",
 		"testCyclicLinks" : "MartinDias 11/11/2010 19:31",
@@ -71,6 +73,6 @@
 		"testTrue" : "MartinDias 10/17/2010 20:59",
 		"testUUID" : "MarianoMartinezPeck 10/11/2011 12:21",
 		"testWideAndByteCharacters" : "MarianoMartinezPeck 4/17/2012 20:36",
-		"testWideString" : "MarianoMartinezPeck 5/13/2011 19:30",
+		"testWideString" : "dsfsfs 6/26/2012 09:57",
 		"testWordArray" : "MartinDias 3/21/2011 16:10",
 		"testWriteStream" : "MartinDias 10/5/2011 18:18" } }

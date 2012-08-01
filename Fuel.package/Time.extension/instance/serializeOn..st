@@ -2,5 +2,6 @@
 serializeOn: anEncoder
 
 	anEncoder 
-		encodeInt32: self asSeconds;
-		encodeInt32: self nanoSecond.
+		encodeUint24: self asSeconds;
+		encodeUint32: self nanoSecond.
+		

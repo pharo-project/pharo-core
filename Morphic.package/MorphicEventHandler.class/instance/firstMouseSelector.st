@@ -1,13 +1,17 @@
 access
 firstMouseSelector
 	"Answer the selector corresponding to the first mouse-handling selector fielded.  Created in support of providing balloon-help for halo handles, triggered by the selector handled"
-	^(subscriptions detect: [ :s | s isMouseSubscription ] ifNone: [ ^nil ]) recipient.
-"	mouseDownSelector ifNotNil: [^ mouseDownSelector].
-	mouseMoveSelector ifNotNil:[^mouseMoveSelector].
-	mouseStillDownSelector ifNotNil: [^ mouseStillDownSelector].
-	mouseUpSelector ifNotNil: [^ mouseUpSelector].
-	mouseEnterSelector ifNotNil: [^ mouseEnterSelector].
-	mouseLeaveSelector ifNotNil: [^ mouseLeaveSelector].
-	mouseEnterDraggingSelector ifNotNil: [^ mouseEnterDraggingSelector].
-	mouseLeaveDraggingSelector ifNotNil: [^ mouseLeaveDraggingSelector].
-	doubleClickSelector ifNotNil: [^ doubleClickSelector]."
+	self flag: #hack. "this has to be changed probably, nobody should depend on the first selector"
+	subscriptions keysAndValuesDo: [ :eventKind :subscription | 
+		(#(
+			mouseDown
+			mouseStillDown
+			mouseUp
+			mouseMove
+			mouseEnter
+			mouseLeave
+			mouseEnterDragging
+			mouseLeaveDragging
+			doubleClick ) includes: eventKind) ifTrue: [ ^subscription anyOne selector ].
+	].
+	^nil

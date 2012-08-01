@@ -10,7 +10,8 @@
 		"clusterCount",
 		"clusters",
 		"root",
-		"decoder" ],
+		"decoder",
+		"header" ],
 	"name" : "FLMaterialization",
 	"pools" : [
 		 ],

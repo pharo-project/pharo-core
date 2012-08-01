@@ -1,0 +1,3 @@
+By default, Fuel serializes methods as globals. I am an error produced during serialization, signaled when trying to serialize a method that is not installed in any class. It is a prevention, because such method is lekely to be absent during materialization. This case may happen when serializing closures that hold references to not installed methods. If the user wants to fully serialize methods, then it needs to install the package FuelMetalevel and create the serializer by using the method #newFull. Example:
+
+ FLSerializer newFull serialize: anObject toFileNamed: 'example'.

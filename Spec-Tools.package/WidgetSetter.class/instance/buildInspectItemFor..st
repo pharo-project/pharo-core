@@ -1,0 +1,4 @@
+private
+buildInspectItemFor: anAPIMethod 
+
+	^ nil

@@ -1,0 +1,4 @@
+accessing
+isSetting
+
+	^ isSetting

@@ -8,3 +8,4 @@ initialize
 	metalevelInstanceSideBucket := IdentityDictionary new.
 	metalevelClassSideBucket := IdentityDictionary new.
 	substitutionsBucket := IdentityDictionary new.
+	postBaselevelBucket := IdentityDictionary new.

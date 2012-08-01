@@ -1,4 +1,4 @@
-as yet unclassified
+open/close
 initialExtent
 	"Answer the initial extent for the receiver.
 	Adjust the text if the text	would be wider than 1/4 the display width."

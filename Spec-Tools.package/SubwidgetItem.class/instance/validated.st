@@ -1,0 +1,4 @@
+protocol
+validated
+
+	^ validated contents

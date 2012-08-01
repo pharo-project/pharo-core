@@ -1,0 +1,16 @@
+{
+	"category" : "FuelMetalevel-Mappers",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FLLightGeneralMapperWithMethodSupportOnly",
+	"pools" : [
+		 ],
+	"super" : "FLLightGeneralMapper",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

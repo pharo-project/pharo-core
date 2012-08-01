@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addIfNotPresent:ifPresentDo:" : "MartinDias 9/9/2011 14:46" } }
+		"addIfNotPresent:ifPresentDo:" : "MartinDias 9/9/2011 14:46",
+		"fuelAccept:" : "MarianoMartinezPeck 7/26/2012 17:42",
+		"fuelAfterMaterialization" : "MarianoMartinezPeck 7/26/2012 17:42" } }

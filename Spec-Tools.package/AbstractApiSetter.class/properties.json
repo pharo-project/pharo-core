@@ -1,0 +1,21 @@
+{
+	"category" : "Spec-Tools-Editor",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"choice",
+		"method",
+		"model",
+		"selector",
+		"retrievingMethod",
+		"isSetting" ],
+	"name" : "AbstractApiSetter",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

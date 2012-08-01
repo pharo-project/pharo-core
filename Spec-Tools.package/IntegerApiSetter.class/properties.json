@@ -1,0 +1,16 @@
+{
+	"category" : "Spec-Tools-Editor",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "IntegerApiSetter",
+	"pools" : [
+		 ],
+	"super" : "AbstractApiSetter",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

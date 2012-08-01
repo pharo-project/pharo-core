@@ -16,7 +16,7 @@ interpretASpec: aPresenter
 	" aPresenter is an Array "
 	"First element is a symbol describing the spec type"
 	spec := self retreiveSpecFrom: anArray first.
-	spec class = RawSpec 
+	(spec isKindOf: RawSpec)
 		ifTrue: [ specToProvide := superSpec ]
 		ifFalse: [ specToProvide := spec ].
 	spec addAsSubSpecTo: superSpec.

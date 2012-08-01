@@ -1,4 +1,4 @@
-protected
+accessing
 globalMappers
 	
 	^globalMappersFactory value

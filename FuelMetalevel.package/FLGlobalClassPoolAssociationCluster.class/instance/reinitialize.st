@@ -1,0 +1,3 @@
+resetting
+reinitialize
+	super initializeAnalyzing

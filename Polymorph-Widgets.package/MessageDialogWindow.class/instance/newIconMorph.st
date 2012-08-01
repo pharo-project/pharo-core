@@ -1,4 +1,4 @@
-as yet unclassified
+private
 newIconMorph
 	"Answer an icon for the receiver."
 	

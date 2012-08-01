@@ -14,7 +14,7 @@ defaultSpec
 			#getMenuSelector:.			#menu:shifted:.
 			#keystrokeSelector:.			#keyStroke:fromMorph:.
 			#setMultipleSelection:.			{#model. #multiSelection}.
-			#wrapSelector:. 				#wrapItem:index.
+			#wrapSelector:. 				#wrapItem:index:.
 			#borderWidth:.						#(model borderWidth).
 			#borderColor:.						#(model borderColor).
 			#setBalloonText:.					{ #model . #help}.

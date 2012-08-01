@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"clusterBucketIn:" : "MarianoMartinezPeck 7/26/2012 17:38" },
+	"instance" : {
+		"afterMaterializationStepWith:" : "MarianoMartinezPeck 7/26/2012 14:33",
+		"materializeInstanceWith:" : "MarianoMartinezPeck 7/26/2012 14:06",
+		"materializeReferencesStepWith:" : "MarianoMartinezPeck 7/26/2012 14:24",
+		"serializeInstance:with:" : "MarianoMartinezPeck 7/26/2012 16:07",
+		"serializeReferencesStepWith:" : "MarianoMartinezPeck 7/26/2012 14:22" } }

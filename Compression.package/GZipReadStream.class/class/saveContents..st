@@ -5,7 +5,7 @@ saveContents: fullFileName
 	newName := fullFileName copyUpToLast: FileSystem disk extensionDelimiter.
 	unzipped := FileStream newFileNamed: newName.
 	unzipped binary.
-	zipped := GZipReadStream on: (FileStream readOnlyFileNamed: fullFileName).
+	zipped := self on: (FileStream readOnlyFileNamed: fullFileName).
 	buffer := ByteArray new: 50000.
 	'Extracting ' , fullFileName
 		displayProgressFrom: 0

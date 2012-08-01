@@ -59,7 +59,7 @@ asArray
 			y1 := ante offsets bottomRight y.
 			ante offsets: (x0@y0 corner: (width negated)@y1) ].		
 			
-	self commands do: [:e |
+	(self commands reject: [:e | e isSplitter ]) do: [:e |
 		| left right bottom top windowBorderWidth |
 		windowBorderWidth := self class windowBorderWidth.
 		left := e leftOffset ifNil: [0].
@@ -94,5 +94,12 @@ asArray
 		e generateArguments.
 		e asSpecElements do: [:el |
 			result add: el ]].
+	
+	(self commands select: [:e | e isSplitter ]) do: [:e |
+		e generateArguments.
+		e asSpecElements do: [:el |
+			result add: el ]].
+	
+	result add: #checkSplitters.
 	
 	^ result asArray

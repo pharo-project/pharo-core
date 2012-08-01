@@ -1,8 +1,7 @@
 {
 	"class" : {
-		"defaultSpec" : "bvr 6/4/2012 17:01",
-		"registerToolsOn:" : "StephaneDucasse 7/4/2012 19:48",
-		"topSpec" : "bvr 6/4/2012 14:41" },
+		"defaultSpec" : "BenjaminVanRyseghem 7/31/2012 16:09",
+		"registerToolsOn:" : "StephaneDucasse 7/4/2012 19:48" },
 	"instance" : {
 		"addPreamble" : "",
 		"browseChangeSet" : "",

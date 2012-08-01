@@ -1,4 +1,4 @@
-items creation
+initialize
 createSearchMorph 
 	| morph |
 	morph := PluggableTextFieldMorph new
@@ -23,9 +23,16 @@ createSearchMorph
 		extent: 24@(UITheme current textFont height + 8);
 		setBalloonText: nil.
 		
+	morph textMorph: (SpotlightTextMorphForFieldView new
+		contents: '';
+		yourself).
+		
 	morph ghostText: 'Search class or method...'.
 	morph on: #keyStroke send: #localHandleKeystroke: to: self.
-	morph textMorph onAnnouncement: MorphLostFocus do: [ self delete ].
+	
+	morph textMorph 
+		onAnnouncement: MorphLostFocus 
+		do: [ self delete ].
 	morph textMorph
 		autoFit: true;
 		wrapFlag: false;
