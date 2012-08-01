@@ -2,7 +2,7 @@ pharo - updates
 update20134
 	"self new update20134"
 	PragmaCollector allInstances
-	do: [ :i | SystemAnnouncer uniqueInstance noMoreNotificationsFor: i ].
+	do: [ :i | (Smalltalk at: #SystemChangeNotifier) uniqueInstance noMoreNotificationsFor: i ].
 	self withUpdateLog: '- Issue 5750:	RPackage should rename extension methods in pckage renames. Thanks Mariano Martinez-Peck and Guillermo Polito.
 	http://code.google.com/p/pharo/issues/detail?id=5750
 	

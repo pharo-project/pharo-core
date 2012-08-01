@@ -1,6 +1,6 @@
 system triggers
 class: aClass recategorizedFrom: oldCategory to: newCategory 
-	self trigger: (RecategorizedEvent 
+	self announce: (RecategorizedEvent 
 				class: aClass
 				category: newCategory
 				oldCategory: oldCategory)

@@ -2,9 +2,10 @@ utilities
 restoreAllNotifications
 	"self restoreAllNotifications"
 	
+	| collector |
 	self reset.
-	RPackageOrganizer registerInterestToSystemAnnouncement.
-	MCPackageManager registerForNotifications.
-	MCWorkingCopy registerForNotifications.
-
-	
+	collector := PragmaCollector filter: [ :pragma | pragma keyword = #systemEventRegistration ].
+	collector reset.
+	collector do: [ :pragma |
+		pragma methodClass theNonMetaClass perform: pragma selector.
+	]

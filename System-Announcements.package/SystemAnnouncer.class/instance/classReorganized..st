@@ -1,3 +1,3 @@
 system triggers
 classReorganized: aClass
-	self trigger: (ReorganizedEvent class: aClass)
+	self announce: (ReorganizedEvent class: aClass)

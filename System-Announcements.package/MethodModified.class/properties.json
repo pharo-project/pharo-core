@@ -7,7 +7,8 @@
 		 ],
 	"commentStamp" : "BenjaminVanRyseghem 4/1/2011 16:04",
 	"instvars" : [
-		 ],
+		"oldMethod",
+		"newMethod" ],
 	"name" : "MethodModified",
 	"pools" : [
 		 ],

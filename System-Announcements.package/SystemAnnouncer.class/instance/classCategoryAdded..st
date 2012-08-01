@@ -1,5 +1,5 @@
 system triggers
 classCategoryAdded: aClassCategoryName
 
-	self trigger: (AddedEvent
+	self announce: (AddedEvent
 					classCategory: aClassCategoryName)

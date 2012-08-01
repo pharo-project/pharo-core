@@ -1,4 +1,3 @@
 initialize-release
 disconnectFromChanges
-	SystemAnnouncer uniqueInstance
-		noMoreNotificationsFor: self
+	SystemAnnouncer uniqueInstance unsubscribe: self

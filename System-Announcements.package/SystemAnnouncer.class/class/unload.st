@@ -1,4 +1,3 @@
 initialization
 unload
-	SystemAnnouncer uniqueInstance 
-		noMoreNotificationsFor: self
+	SystemAnnouncer uniqueInstance unsubscribe: self

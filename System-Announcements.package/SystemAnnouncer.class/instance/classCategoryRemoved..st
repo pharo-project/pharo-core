@@ -1,5 +1,5 @@
 system triggers
 classCategoryRemoved: aClassCategoryName
 
-	self trigger: (RemovedEvent
+	self announce: (RemovedEvent
 					classCategory: aClassCategoryName)

@@ -1,5 +1,8 @@
 event registration
 registerForNotifications
 	"self registerForNotifications"
-	SystemAnnouncer current unsubscribe: self.
+	<systemEventRegistration>
+	
+	MCPackageManager announcer: nil.
+	SystemAnnouncer uniqueInstance unsubscribe: self.
 	self registerInterestOnSystemChangesOnAnnouncer: SystemAnnouncer uniqueInstance.

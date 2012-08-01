@@ -1,6 +1,6 @@
 system triggers
 classCategoryRenamedFrom: anOldClassCategoryName to: aNewClassCategoryName
 
-	self trigger: (RenamedEvent
+	self announce: (RenamedEvent
 					classCategoryRenamedFrom: anOldClassCategoryName 
 					to: aNewClassCategoryName)

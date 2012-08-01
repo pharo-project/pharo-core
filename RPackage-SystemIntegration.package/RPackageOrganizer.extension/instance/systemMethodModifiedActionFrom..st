@@ -11,11 +11,9 @@ systemMethodModifiedActionFrom: ann
 			- maybe from a classic category to another classic category
 			)
 	"
-	| newProtocol oldProtocol oldMethod newMethod methodPackage destinationPackage |
+	| oldMethod newMethod methodPackage |
 	newMethod := ann newMethod.
 	oldMethod := ann oldMethod.
-	newProtocol := ann itemNewProtocol.
-	oldProtocol := ann itemOldProtocol.
 	self flag: #cyrille. 
 	"This is not clear that we need to do soemthing here since the method is removed and added so the other events should be handled correctly
 	We should remove this method to see if this is working."

@@ -1,5 +1,4 @@
 instance creation
 release
-	SystemAnnouncer uniqueInstance 
-		noMoreNotificationsFor: self.
+	SystemAnnouncer uniqueInstance unsubscribe: self.
 	self uniqueInstance release

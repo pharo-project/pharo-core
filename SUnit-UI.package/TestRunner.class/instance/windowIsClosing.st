@@ -1,3 +1,3 @@
 private
 windowIsClosing
-	SystemAnnouncer uniqueInstance noMoreNotificationsFor: self
+	SystemAnnouncer uniqueInstance unsubscribe: self

@@ -1,4 +1,4 @@
-accessing
+temp to remove
 itemProtocol
 
-	^ event itemProtocol
+	^ newMethod protocol

@@ -1,6 +1,6 @@
 *RPackage-SystemIntegration
-registerInterestToAnnouncer: anAnnouncer
-	"There should be only one, like highlander"	
+registerInterestToAnnouncer: anAnnouncer	
+	"There should be only one, like highlander"
 	anAnnouncer unsubscribe: self.
 	
 	" Announcer initialize"

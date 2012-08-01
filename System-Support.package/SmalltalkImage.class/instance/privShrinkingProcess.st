@@ -66,8 +66,6 @@ privShrinkingProcess
     
     self privCleanChangeSets.
     
-    SystemEventManager allInstances do: [:i | i instVarNamed: #actionMap put: IdentityDictionary new].
-
     FileServices removeObsolete.
     DebuggerMethodMap voidMapCache.
 

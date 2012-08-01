@@ -1,3 +1,3 @@
 *rpackage-systemintegration
 unregisterForNotifications
-	SystemAnnouncer uniqueInstance noMoreNotificationsFor: self
+	SystemAnnouncer uniqueInstance unsubscribe: self

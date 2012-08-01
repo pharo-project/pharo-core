@@ -1,4 +1,4 @@
 events
 stopNotifications
 	" self stopNotifications "
-	SystemAnnouncer uniqueInstance noMoreNotificationsFor: self
+	SystemAnnouncer uniqueInstance unsubscribe: self

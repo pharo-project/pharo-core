@@ -40,5 +40,13 @@ toolBarIn: aMorph
 				getEnabled: nil
 				label: 'Choose packages' translated 
 				help: 'Select packages' translated).
+	(aMorph
+				newButtonFor: self
+				getState: nil
+				action: #exportSettings
+				arguments: nil
+				getEnabled: nil
+				label: 'Export Settings' translated 
+				help: 'Export the current settings using StartupPreferences' translated).
 	aMorph newToolSpacer}.
 	^ toolBar

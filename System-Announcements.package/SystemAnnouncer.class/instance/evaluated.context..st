@@ -1,5 +1,5 @@
 system triggers
 evaluated: expression context: aContext
-	self trigger: (DoItEvent 
+	self announce: (DoItEvent 
 				expression: expression
 				context: aContext)

@@ -13,7 +13,7 @@ Issue 6171:	Methods from Trait have nil category
 Issue 6074:	Make ChangeSet rely on SystemAnnouncer instead of SystemChangeNotifier	
 	http://code.google.com/p/pharo/issues/detail?id=6074'.
 	self loadTogether: self script219 merge: false.
-	SystemAnnouncer uniqueInstance noMoreNotificationsFor: ChangeSet current.
+	(Smalltalk at: #SystemChangeNotifier) uniqueInstance noMoreNotificationsFor: ChangeSet current.
 ChangeSet newChanges: ChangeSet current.
 [Object subclass: #DatePrintFormatTester
 	instanceVariableNames: 'dayPosition monthPosition yearPosition delimiter monthType yearType date'

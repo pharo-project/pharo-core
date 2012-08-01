@@ -1,4 +1,4 @@
-accessing
+temp to remove
 oldItem
-
-	^ event oldItem
+	"that is stupid..."
+	^ newMethod  

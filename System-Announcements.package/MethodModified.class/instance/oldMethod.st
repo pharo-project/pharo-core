@@ -1,4 +1,4 @@
-accessing
+temp to remove
 oldMethod
 	
-	^ self  item
+	^ oldMethod ifNil: [self  item]

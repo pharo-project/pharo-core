@@ -1,6 +1,6 @@
 system triggers
 methodChangedFrom: oldMethod to: newMethod selector: aSymbol inClass: aClass oldProtocol: oldProtocol newProtocol: newProtocol requestor: requestor
-	self trigger: ((ModifiedMethodEvent
+	self announce: ((ModifiedMethodEvent
 					methodChangedFrom: oldMethod
 					to: newMethod
 					selector: aSymbol 

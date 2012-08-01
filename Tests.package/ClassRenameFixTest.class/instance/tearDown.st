@@ -6,5 +6,5 @@ tearDown
 	ChangeSet removeChangeSet: testsChangeSet.
 	previousChangeSet := nil.
 	testsChangeSet := nil.
-	SystemAnnouncer uniqueInstance noMoreNotificationsFor: self.
+	SystemAnnouncer uniqueInstance unsubscribe: self.
 	super tearDown.

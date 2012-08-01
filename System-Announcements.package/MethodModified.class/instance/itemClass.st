@@ -1,5 +1,5 @@
-accessing
+temp to remove
 itemClass
 
-	^ event itemClass
+	^ newMethod methodClass.
 	
