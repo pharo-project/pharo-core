@@ -9,4 +9,4 @@ initialize
 		dropListItems := col collect: [:cat | DropListItem named: cat name do: [| items |
 																items := (cat entriesAt: #all) keymaps collect: [:e | collectingBlock value: e ].
 																list items:  (items sorted: sortingBlock) ]].
-		droplist items: dropListItems ].
+		dropList items: dropListItems ].

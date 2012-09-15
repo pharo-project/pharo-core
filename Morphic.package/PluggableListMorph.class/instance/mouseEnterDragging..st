@@ -9,6 +9,7 @@ mouseEnterDragging: evt
 	self enabled ifFalse: [^self].
 	row := self rowAtLocation: evt position.
 	(self dragEnabled or: [evt hand hasSubmorphs]) ifFalse: [
+		row = 0 ifTrue: [ ^self ].
 		self listMorph mouseDownRow: row].
 	(evt hand hasSubmorphs and:[self dropEnabled]) ifFalse: ["no d&d"
 		^super mouseEnterDragging: evt].

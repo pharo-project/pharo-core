@@ -2,4 +2,4 @@ initialize
 initialize
 
 	super initialize.
-	Smalltalk addToStartUpList: self.
+	Smalltalk addToStartUpList: self before: DefaultCommandLineHandler.

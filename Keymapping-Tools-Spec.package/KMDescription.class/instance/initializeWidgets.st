@@ -2,9 +2,9 @@ initialization
 initializeWidgets
 
 	self instantiateModels: #(
-		droplist DropListModel
+		#dropList DropListModel
 		list MultiColumnListModel
-		okButton ButtonModel
+		okToolbar OkToolbar
 		displayList DropListModel ).
 	
 	displayList items: {
@@ -23,6 +23,6 @@ initializeWidgets
 		displayBlock: [ :e | e ];
 		allowToSelect: false.
 
-	okButton 
+	okToolbar okButton
 			label: 'Close';
 			state: false

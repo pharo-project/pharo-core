@@ -6,14 +6,14 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"droplist",
 		"list",
-		"okButton",
 		"collectingBlock",
 		"categories",
 		"displayList",
 		"sortingBlock",
-		"updatingBlock" ],
+		"updatingBlock",
+		"okToolbar",
+		"dropList" ],
 	"name" : "KMDescription",
 	"pools" : [
 		 ],

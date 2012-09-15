@@ -1,16 +1,16 @@
 {
 	"class" : {
-		"defaultSpec" : "bvr 6/4/2012 14:49",
+		"defaultSpec" : "BenjaminVanRyseghem 8/3/2012 16:09",
 		"example" : "BenjaminVanRyseghem 4/6/2012 17:23",
 		"title" : "BenjaminVanRyseghem 4/6/2012 15:46" },
 	"instance" : {
 		"categories" : "GuillermoPolito 5/1/2012 12:26",
 		"categories:" : "BenjaminVanRyseghem 4/6/2012 15:34",
 		"displayList" : "BenjaminVanRyseghem 4/6/2012 15:38",
-		"droplist" : "BenjaminVanRyseghem 4/6/2012 15:00",
+		"dropList" : "BenjaminVanRyseghem 8/3/2012 16:09",
 		"initialExtent" : "BenjaminVanRyseghem 4/6/2012 15:49",
-		"initialize" : "BenjaminVanRyseghem 6/13/2012 16:37",
-		"initializePresenter" : "BenjaminVanRyseghem 6/12/2012 18:25",
-		"initializeWidgets" : "BenjaminVanRyseghem 6/28/2012 15:19",
+		"initialize" : "BenjaminVanRyseghem 8/3/2012 16:08",
+		"initializePresenter" : "BenjaminVanRyseghem 8/3/2012 16:09",
+		"initializeWidgets" : "BenjaminVanRyseghem 8/3/2012 16:09",
 		"list" : "BenjaminVanRyseghem 4/6/2012 15:00",
-		"okButton" : "BenjaminVanRyseghem 4/6/2012 15:00" } }
+		"okToolbar" : "BenjaminVanRyseghem 8/3/2012 16:09" } }
