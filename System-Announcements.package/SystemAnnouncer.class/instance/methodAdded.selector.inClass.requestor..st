@@ -1,4 +1,4 @@
-announcements-convenience
+as yet unclassified
 methodAdded: aMethod selector: aSymbol inClass: aClass requestor: requestor
 	"A method with the given selector was added to aClass, but not put in a protocol."
 

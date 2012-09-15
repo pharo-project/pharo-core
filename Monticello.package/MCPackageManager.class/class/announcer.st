@@ -1,3 +1,3 @@
 private
 announcer
-	^PrivateAnnouncer ifNil: [ PrivateAnnouncer := SystemAnnouncer current ]
+	^PrivateAnnouncer ifNil: [ SystemAnnouncer uniqueInstance  ]

@@ -5,7 +5,7 @@ addAndClassifySelector: selector withMethod: compiledMethod inProtocol: category
 	self addSelectorSilently: selector withMethod: compiledMethod.
 	oldProtocol := self organization categoryOfElement: selector.
 	SystemAnnouncer uniqueInstance 
-		doSilently: [self organization classify: selector under: category].
+		suspendAllWhile: [self organization classify: selector under: category].
 	newProtocol := self organization categoryOfElement: selector.
 	priorMethodOrNil isNil
 		ifTrue: [SystemAnnouncer uniqueInstance methodAdded: compiledMethod selector: selector inProtocol: category class: self requestor: requestor]

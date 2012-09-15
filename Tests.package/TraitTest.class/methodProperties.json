@@ -16,7 +16,7 @@
 		"testPrintingClassSide" : "md 8/15/2008 16:56",
 		"testRemoveFromSystem" : "lr 3/14/2010 21:13",
 		"testRequirement" : "al 10/13/2006 13:54",
-		"testTraitRemovalRemovesMethods" : "EstebanLorenzano 7/27/2012 16:30",
+		"testTraitRemovalRemovesMethods" : "EstebanLorenzano 8/3/2012 15:30",
 		"testTraitsMethodClassSanity" : "jannik.laval 5/2/2010 07:43",
 		"testTraitsUsersSanity" : "Alexandre.Bergel 7/4/2009 11:53",
 		"testUsers" : "dvf 8/30/2005 14:55",

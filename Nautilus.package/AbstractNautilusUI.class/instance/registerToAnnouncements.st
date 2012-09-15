@@ -1,7 +1,7 @@
 announcement registration
 registerToAnnouncements
 
-	SystemAnnouncer announcer weak
+	SystemAnnouncer uniqueInstance weak
 		on: RPackageCreated send: #packageCreated: to: self;"
 		on: RPackageUnregistred send: #packageUnregistred: to: self;"
 		on: RPackageRenamed send: #packageRenamed: to: self;
@@ -22,17 +22,17 @@ registerToAnnouncements
 		on: ProtocolAdded send: #classRecategorized: to: self;
 		on: ProtocolRemoved send: #classRecategorized: to: self.
 
-	TestAnnouncer announcer weak
+	TestAnnouncer uniqueInstance weak
 		on: TestCaseStarted send: #testCaseStarted: to: self;
 		on: TestSuiteEnded send: #testRunned: to: self.
 		
-	SystemAnnouncer announcer weak	
+	SystemAnnouncer uniqueInstance weak	
 		on: MCVersionCreated send: #newMCVersion: to: self;
 		on: MCPackageModified send: #mcPackageModified: to: self;
 		on: MCWorkingCopyCreated send: #mcWorkingCopyCreated: to: self;
 		on: MCWorkingCopyDeleted send: #mcWorkingCopyDeleted: to: self.
 		
-	GroupAnnouncer announcer weak
+	GroupAnnouncer uniqueInstance weak
 		on: AGroupHasBeenRegistered send: #aGroupHasBeenRegistered: to: self;
 		on: AGroupHasBeenUnregistered send: #aGroupHasBeenUnregistered to: self;
 		on: AGroupHasBeenAdded send: #aGroupHasBeenAdded: to: self;

@@ -1,6 +1,6 @@
-announce
+as yet unclassified
 announce: anAnnouncement
 	self isSuspended 
 		ifFalse: [ 
-			self class privateAnnouncer basicAnnounce: anAnnouncement.
-			self basicAnnounce: anAnnouncement ]
+			self private announce: anAnnouncement.
+			super announce: anAnnouncement ]

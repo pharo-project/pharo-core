@@ -5,7 +5,7 @@
 		"registerInterestToSystemAnnouncement" : "sd 4/23/2011 23:31",
 		"unregisterInterestToSystemAnnouncement" : "cyrille.delaunay 11/26/2010 10:23" },
 	"instance" : {
-		"announcer" : "EstebanLorenzano 7/27/2012 20:03",
+		"announcer" : "EstebanLorenzano 8/3/2012 14:22",
 		"fullyRemoveClassNamed:" : "MarcusDenker 7/8/2012 11:56",
 		"hasPackageExactlyMatchingExtensionName:" : "GuillermoPolito 6/3/2012 01:35",
 		"hasPackageForProtocol:inClass:" : "GuillermoPolito 6/3/2012 02:24",
@@ -13,7 +13,7 @@
 		"packageExactlyMatchingExtensionName:" : "StephaneDucasse 4/13/2011 20:18",
 		"packageForProtocol:inClass:" : "cyrilledelaunay 5/13/2011 13:46",
 		"packageMatchingExtensionName:" : "cyrille.delaunay 11/25/2010 13:40",
-		"registerInterestToAnnouncer:" : "GuillermoPolito 7/31/2012 11:59",
+		"registerInterestToAnnouncer:" : "EstebanLorenzano 8/3/2012 14:09",
 		"registerInterestToSystemAnnouncement" : "GuillermoPolito 7/31/2012 11:59",
 		"systemCategoryAddedActionFrom:" : "GuillermoPolito 8/3/2012 13:37",
 		"systemCategoryRemovedActionFrom:" : "StephaneDucasse 6/2/2012 19:38",
@@ -31,4 +31,4 @@
 		"systemProtocolAddedActionFrom:" : "cyrille.delaunay 11/18/2010 11:42",
 		"systemProtocolRemovedActionFrom:" : "cyrilledelaunay 5/13/2011 13:53",
 		"systemTraitDefinitionModifiedActionFrom:" : "StephaneDucasse 4/13/2011 21:16",
-		"unregisterInterestToSystemAnnouncement" : "sd 10/15/2011 15:35" } }
+		"unregisterInterestToSystemAnnouncement" : "EstebanLorenzano 8/3/2012 14:09" } }

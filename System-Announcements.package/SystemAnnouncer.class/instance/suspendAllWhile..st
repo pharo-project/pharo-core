@@ -1,4 +1,4 @@
-announce
+as yet unclassified
 suspendAllWhile: aBlock
 	| oldSuspended |
 	oldSuspended := self isSuspended.

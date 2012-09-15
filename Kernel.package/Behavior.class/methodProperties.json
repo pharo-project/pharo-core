@@ -106,6 +106,7 @@
 		"printWithClosureAnalysisOn:" : "eem 6/2/2008 11:47",
 		"removeAllObsoleteSubclasses" : "apb 7/12/2004 23:21",
 		"removeObsoleteSubclass:" : "apb 7/12/2004 23:22",
+		"removeSelectorSilently:" : "EstebanLorenzano 8/3/2012 13:59",
 		"removeTraitSelector:" : "jannik.laval 5/1/2010 15:53",
 		"selectSubclasses:" : "",
 		"selectSuperclasses:" : "",

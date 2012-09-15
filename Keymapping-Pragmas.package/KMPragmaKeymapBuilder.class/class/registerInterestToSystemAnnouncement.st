@@ -1,5 +1,8 @@
 system-events
 registerInterestToSystemAnnouncement
 	<systemEventRegistration>
-	SystemAnnouncer unsubscribe: self.
-	SystemAnnouncer current on: MethodAdded, MethodModified, MethodRemoved send: #event: to: self.
+	SystemAnnouncer uniqueInstance 
+		unsubscribe: self;
+		on: MethodAdded, MethodModified, MethodRemoved 
+			send: #event: 
+			to: self.

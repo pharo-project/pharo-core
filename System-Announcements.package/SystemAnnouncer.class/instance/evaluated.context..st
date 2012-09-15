@@ -1,4 +1,4 @@
-announcements-convenience
+as yet unclassified
 evaluated: expression context: aContext
 	self announce: (ExpressionEvaluated 
 				expression: expression

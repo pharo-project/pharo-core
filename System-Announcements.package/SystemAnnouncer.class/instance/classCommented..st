@@ -1,4 +1,4 @@
-announcements-convenience
+as yet unclassified
 classCommented: aClass
 	"A class with the given name was commented in the system."
 

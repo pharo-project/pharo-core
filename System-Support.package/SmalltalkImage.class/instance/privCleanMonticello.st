@@ -8,6 +8,7 @@ privCleanMonticello
 		SystemAnnouncer uniqueInstance unsubscribe: wc. 
 		wc unregister].
 	
-	SystemAnnouncer uniqueInstance unsubscribe: (Smalltalk classNamed: #MCPackageManager).
-	SystemAnnouncer uniqueInstance unsubscribe: (Smalltalk classNamed: #MCWorkingCopy).
+	SystemAnnouncer uniqueInstance 
+		unsubscribe: (Smalltalk classNamed: #MCPackageManager);
+		unsubscribe: (Smalltalk classNamed: #MCWorkingCopy).
 

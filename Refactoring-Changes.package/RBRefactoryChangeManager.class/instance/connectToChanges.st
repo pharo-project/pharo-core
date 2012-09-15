@@ -1,6 +1,6 @@
 initialize-release
 connectToChanges
-	SystemAnnouncer announcer weak
+	SystemAnnouncer uniqueInstance weak
 		on: CategoryAdded,
 			CategoryRemoved,
 			CategoryRenamed,

@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"-" : "CamilloBruni 4/27/2012 16:58",
-		"addAndClassifySelector:withMethod:inProtocol:notifying:" : "EstebanLorenzano 7/27/2012 16:30",
+		"addAndClassifySelector:withMethod:inProtocol:notifying:" : "EstebanLorenzano 8/3/2012 15:14",
 		"addExclusionOf:" : "al 12/7/2005 21:00",
 		"allMethodsInCategory:" : "MarcusDenker 3/5/2010 14:36",
 		"applyChangesOfNewTraitCompositionReplacing:" : "CamilloBruni 4/27/2012 14:46",
@@ -33,7 +33,7 @@
 		"noteMethodChanged:to:" : "EstebanLorenzano 7/27/2012 16:30",
 		"noteMethodRemoved:" : "EstebanLorenzano 7/27/2012 16:30",
 		"noteRecategorizedSelectors:oldComposition:" : "nice 1/5/2010 15:59",
-		"notifyOfRecategorizedSelector:from:to:" : "EstebanLorenzano 7/27/2012 16:30",
+		"notifyOfRecategorizedSelector:from:to:" : "EstebanLorenzano 8/3/2012 15:30",
 		"notifyUsersOfChangedSelectors:" : "NS 4/12/2004 15:45",
 		"notifyUsersOfRecategorizedSelector:from:to:" : "NS 4/12/2004 21:46",
 		"numberOfMethods" : "MarcusDenker 2/21/2010 12:57",

@@ -8,4 +8,3 @@ tearDown
 			ChangeSet current removeClassChanges: behaviorName ].
 	createdClassesAndTraits := nil.
 	SystemAnnouncer announcer: oldAnnouncer.
-	SystemAnnouncer privateAnnouncer: oldPrivateAnnouncer.

@@ -2,4 +2,4 @@ history
 history: aDictionary
 
 	history := aDictionary.
-	TestAnnouncer announcer announce: (TestSuiteEnded result: self)
+	TestAnnouncer uniqueInstance announce: (TestSuiteEnded result: self)

@@ -1,4 +1,3 @@
-utilities
+as yet unclassified
 reset
 	announcer := nil.
-	privateAnnouncer := nil.	

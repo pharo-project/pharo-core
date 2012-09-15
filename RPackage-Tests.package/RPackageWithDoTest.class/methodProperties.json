@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"announcer" : "StephaneDucasse 10/16/2011 20:56",
+		"announcer" : "EstebanLorenzano 8/3/2012 14:24",
 		"do:" : "sd 4/24/2011 14:17",
 		"doC:" : "sd 4/24/2011 12:26",
 		"doOnDo:" : "sd 4/24/2011 13:24",
@@ -15,5 +15,5 @@
 		"testDoC" : "sd 4/24/2011 14:20",
 		"testInvariant" : "StephaneDucasse 6/3/2012 23:24",
 		"testOnDo" : "sd 4/24/2011 14:20",
-		"testWithDoIsCorrectlyReinstallingDefault" : "StephaneDucasse 6/3/2012 23:24",
-		"testWithDoIsCorrectlyReinstallingDefaultEvenIfHalt" : "StephaneDucasse 6/3/2012 23:24" } }
+		"testWithDoIsCorrectlyReinstallingDefault" : "EstebanLorenzano 8/3/2012 15:05",
+		"testWithDoIsCorrectlyReinstallingDefaultEvenIfHalt" : "EstebanLorenzano 8/3/2012 14:51" } }

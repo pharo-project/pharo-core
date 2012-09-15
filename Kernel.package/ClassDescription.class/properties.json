@@ -13,5 +13,5 @@
 	"pools" : [
 		 ],
 	"super" : "Behavior",
-	"traitcomposition" : "TClassAndTraitDescription",
+	"traitcomposition" : "TClassAndTraitDescription - {#removeSelector:}",
 	"type" : "normal" }

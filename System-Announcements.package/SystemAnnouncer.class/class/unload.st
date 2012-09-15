@@ -1,3 +1,3 @@
-initialization
+as yet unclassified
 unload
-	SystemAnnouncer uniqueInstance unsubscribe: self
+	self uniqueInstance unsubscribe: self

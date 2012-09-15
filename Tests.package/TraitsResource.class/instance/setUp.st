@@ -5,7 +5,7 @@ setUp
 	"SetUpCount := SetUpCount + 1."
 
 	dirty := false.
-	SystemAnnouncer uniqueInstance doSilently: 
+	SystemAnnouncer uniqueInstance suspendAllWhile: 
 			[self t1: (self createTraitNamed: #T1
 						uses: { }).
 			self t1 comment: 'I am the trait T1'.

@@ -1,5 +1,5 @@
 announcements registration
 registerToClassAnnouncements
 
-	SystemAnnouncer announcer weak
+	SystemAnnouncer uniqueInstance weak
 		on: ClassRemoved send: #classRemoved: to: self

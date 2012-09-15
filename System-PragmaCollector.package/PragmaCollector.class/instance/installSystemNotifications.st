@@ -1,7 +1,7 @@
 system changes
 installSystemNotifications
 	"Allows myself to be kept up-to-date regarding system changes"
-	SystemAnnouncer current weak
+	SystemAnnouncer uniqueInstance weak
 			on: ClassRemoved send: #classRemovedEventOccurs: to: self;
 			on: MethodRemoved send: #removedEventOccurs: to: self;
 			on: MethodAdded send: #addedEventOccurs: to: self;

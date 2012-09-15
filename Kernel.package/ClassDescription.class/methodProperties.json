@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addAndClassifySelector:withMethod:inProtocol:notifying:" : "EstebanLorenzano 7/27/2012 16:30",
+		"addAndClassifySelector:withMethod:inProtocol:notifying:" : "EstebanLorenzano 8/3/2012 15:13",
 		"addAuthorsTo:" : "StephaneDucasse 11/6/2011 22:18",
 		"addInstVarNamed:" : "StephaneDucasse 8/27/2010 11:04",
 		"allInstVarNamesEverywhere" : "al 11/28/2005 11:50",
@@ -64,6 +64,7 @@
 		"putClassCommentToCondensedChangesFile:" : "StephaneDucasse 5/28/2011 13:39",
 		"reformatMethodAt:" : "alain.plantec 5/18/2009 15:46",
 		"removeInstVarNamed:" : "StephaneDucasse 8/27/2010 11:05",
+		"removeSelector:" : "EstebanLorenzano 8/3/2012 15:27",
 		"renameInstVar:to:" : "al 11/28/2005 11:52",
 		"renameSilentlyInstVar:to:" : "al 11/28/2005 11:52",
 		"replaceSilently:to:" : "nice 12/4/2009 00:00",

@@ -1,3 +1,3 @@
 accessing
 announcer
-	^ SystemAnnouncer privateAnnouncer
+	^ SystemAnnouncer uniqueInstance private

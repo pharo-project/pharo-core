@@ -82,7 +82,7 @@
 		"testRenameClassUpdateMetaclassExtensionSelectorsInTheExtendingPackages" : "GuillermoPolito 5/26/2012 23:47",
 		"testRenameClassUpdateOrganizerClassExtendingPackagesMapping" : "GuillermoPolito 5/26/2012 23:47",
 		"testRenameClassUpdateOrganizerClassPackageMapping" : "GuillermoPolito 5/26/2012 23:47",
-		"testRenameUnknownCategoryCreatesNewRPackage" : "EstebanLorenzano 7/27/2012 16:30",
+		"testRenameUnknownCategoryCreatesNewRPackage" : "EstebanLorenzano 8/3/2012 15:29",
 		"testReorganizeClassByAddingNewProtocolDoesNothing" : "GuillermoPolito 5/26/2012 23:48",
 		"testReorganizeClassByRemovingClassicCategoryRemoveMethodsFromTheParentPackage" : "EstebanLorenzano 7/27/2012 20:19",
 		"testReorganizeClassByRemovingExtensionCategoryRemoveMethodsFromTheExtendingPackage" : "GuillermoPolito 5/26/2012 23:49",

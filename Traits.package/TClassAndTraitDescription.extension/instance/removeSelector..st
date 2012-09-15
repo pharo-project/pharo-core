@@ -8,6 +8,6 @@ removeSelector: selector
 	priorProtocol := self whichCategoryIncludesSelector: selector.
 	super removeSelector: selector.
 	SystemAnnouncer uniqueInstance 
-		doSilently: [self updateOrganizationSelector: selector oldCategory: priorProtocol newCategory: nil].
+		suspendAllWhile: [self updateOrganizationSelector: selector oldCategory: priorProtocol newCategory: nil].
 	SystemAnnouncer uniqueInstance 
 			methodRemoved: priorMethod selector: selector inProtocol: priorProtocol class: self.

@@ -1,4 +1,4 @@
-announcements-convenience
+as yet unclassified
 methodRemoved: aMethod selector: aSymbol inProtocol: protocol class: aClass 
 	"A method with the given selector was removed from the class."
 

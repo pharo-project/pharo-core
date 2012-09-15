@@ -9,7 +9,7 @@ addAndClassifySelector: selector withMethod: compiledMethod inProtocol: category
 	"We categorize first, so the users can use the categorization at the add moment"			
 	oldProtocol := self organization categoryOfElement: selector.
 	SystemAnnouncer uniqueInstance
-		doSilently: [ self organization classify: selector under: category ].
+		suspendAllWhile: [ self organization classify: selector under: category ].
 	
 	self addSelectorSilently: selector withMethod: compiledMethod.
 	

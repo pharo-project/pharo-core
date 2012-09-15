@@ -1,6 +1,6 @@
 initialization
 registerToMCAnnouncements
 
-	SystemAnnouncer announcer weak
+	SystemAnnouncer uniqueInstance weak
 		on: MCWorkingCopyCreated send: #mcWorkingCopyCreated: to: self;
 		on: MCWorkingCopyDeleted send: #mcWorkingCopyDeleted: to: self

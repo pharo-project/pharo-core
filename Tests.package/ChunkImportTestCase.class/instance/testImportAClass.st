@@ -1,7 +1,7 @@
 importing-code
 testImportAClass
 	| class |
-	SystemAnnouncer uniqueInstance doSilently: [[
+	SystemAnnouncer uniqueInstance suspendAllWhile: [ [
 		class := self importAClass.
 		self assert: #CodeImportTestCaseTestClass equals: class name.
 		self assert: (class instVarNames includes: 'var1').

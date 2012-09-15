@@ -1,7 +1,7 @@
 as yet unclassified
 notifyObservers
 	SystemAnnouncer uniqueInstance 
-		doSilently: [myClass organization classify: selector under: category].
+		suspendAllWhile: [myClass organization classify: selector under: category].
 	priorMethodOrNil isNil
 		ifTrue: [SystemAnnouncer uniqueInstance methodAdded: compiledMethod selector: selector inProtocol: category class: myClass requestor: requestor]
 		ifFalse: [SystemAnnouncer uniqueInstance methodChangedFrom: priorMethodOrNil to: compiledMethod selector: selector inClass: myClass requestor: requestor].

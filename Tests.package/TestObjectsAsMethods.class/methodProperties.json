@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "EstebanLorenzano 7/27/2012 16:30",
-		"tearDown" : "EstebanLorenzano 7/27/2012 16:30",
+		"setUp" : "EstebanLorenzano 8/3/2012 15:29",
+		"tearDown" : "EstebanLorenzano 8/3/2012 15:29",
 		"testAddNumbers" : "MarcusDenker 5/11/2011 13:42",
 		"testAnswer42" : "MarcusDenker 5/11/2011 13:42",
 		"testDNU" : "MarcusDenker 5/11/2011 13:42" } }

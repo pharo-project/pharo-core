@@ -1,4 +1,4 @@
 accessing
 reset
-	SystemAnnouncer unsubscribe: DefaultInstance.
+	SystemAnnouncer uniqueInstance unsubscribe: DefaultInstance.
 	DefaultInstance := nil.

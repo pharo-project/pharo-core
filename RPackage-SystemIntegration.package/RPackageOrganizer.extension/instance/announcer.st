@@ -1,3 +1,3 @@
 *RPackage-SystemIntegration
 announcer 
-	^SystemAnnouncer privateAnnouncer
+	^SystemAnnouncer uniqueInstance private

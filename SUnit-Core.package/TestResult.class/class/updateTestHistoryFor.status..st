@@ -6,4 +6,4 @@ updateTestHistoryFor: aTestCase status: aSymbol
 	sel := aTestCase selector.
 	self removeFromTestHistory: sel in: cls.
 	((self historyAt: cls) at: aSymbol ) add: sel.
-	TestAnnouncer announcer announce: (TestSuiteEnded result: aTestCase class)
+	TestAnnouncer uniqueInstance announce: (TestSuiteEnded result: aTestCase class)

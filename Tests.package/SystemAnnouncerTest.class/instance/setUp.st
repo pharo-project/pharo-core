@@ -2,9 +2,6 @@ running
 setUp 
 	super setUp. 
 	
-	oldMonticelloAnnouncer := SystemAnnouncer uniqueInstance.
+	oldSystemAnnouncer := SystemAnnouncer uniqueInstance.
 	SystemAnnouncer announcer: nil.
-	
-	oldPrivateAnnouncer := SystemAnnouncer privateAnnouncer.
-	SystemAnnouncer privateAnnouncer: nil.
 	

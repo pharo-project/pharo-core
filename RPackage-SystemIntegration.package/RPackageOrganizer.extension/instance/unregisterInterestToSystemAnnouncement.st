@@ -2,4 +2,4 @@
 unregisterInterestToSystemAnnouncement
 	"self unregisterInterestToSystemAnnouncement"
 
-	SystemAnnouncer unsubscribe: self
+	SystemAnnouncer uniqueInstance unsubscribe: self

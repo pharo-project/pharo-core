@@ -6,10 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"oldMCAnnouncer",
 		"announcerForTest",
-		"oldPrivateAnnouncer",
-		"privateAnnouncerForTest" ],
+		"oldSystemAnnouncer" ],
 	"name" : "RPackageTestCase",
 	"pools" : [
 		 ],

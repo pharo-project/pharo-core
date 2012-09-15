@@ -1,6 +1,5 @@
 announcer handling
 initializeAnnouncers
-	oldMCAnnouncer := SystemAnnouncer uniqueInstance.
-	oldPrivateAnnouncer := SystemAnnouncer privateAnnouncer.
+	oldSystemAnnouncer := SystemAnnouncer uniqueInstance.
+
 	SystemAnnouncer announcer: (announcerForTest := SystemAnnouncer new).
-	SystemAnnouncer privateAnnouncer: (privateAnnouncerForTest := SystemAnnouncer new).

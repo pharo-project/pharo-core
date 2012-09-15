@@ -1,4 +1,4 @@
-announcements-convenience
+as yet unclassified
 classRenamed: aClass from: oldClassName to: newClassName inCategory: aCategoryName 
 	self announce: (ClassRenamed 
 				class: aClass

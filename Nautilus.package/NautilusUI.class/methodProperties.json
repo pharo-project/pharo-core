@@ -90,6 +90,7 @@
 		"removeCategories" : "",
 		"removeMethod:inClass:" : "",
 		"removeMethods" : "BenjaminVanRyseghem 5/14/2012 12:18",
+		"removeNonLocalSelector:" : "EstebanLorenzano 8/3/2012 15:16",
 		"renameCategory" : "",
 		"resetCategoriesListSelection" : "",
 		"resetMethodsListSelection" : "BenjaminVanRyseghem 4/17/2012 15:05",

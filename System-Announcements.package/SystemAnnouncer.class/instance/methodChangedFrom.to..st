@@ -1,4 +1,4 @@
-announcements-convenience
+as yet unclassified
 methodChangedFrom: oldMethod to: newMethod 
 
 	self methodChangedFrom: oldMethod 

@@ -8,8 +8,7 @@
 	"instvars" : [
 		"classFactory",
 		"navigator",
-		"oldMonticelloAnnouncer",
-		"oldPrivateAnnouncer" ],
+		"oldSystemAnnouncer" ],
 	"name" : "SystemNavigationTest",
 	"pools" : [
 		 ],

@@ -1,13 +1,13 @@
 {
 	"category" : "System-Announcements",
 	"classinstvars" : [
-		"announcer",
-		"privateAnnouncer" ],
+		"announcer" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
-		"suspended" ],
+		"suspended",
+		"private" ],
 	"name" : "SystemAnnouncer",
 	"pools" : [
 		 ],

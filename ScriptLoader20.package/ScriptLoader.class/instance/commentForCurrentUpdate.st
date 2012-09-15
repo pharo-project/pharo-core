@@ -1,4 +1,4 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6515:	SystemChangeNotifier - cleanup step 2 - Remove old events in favor of System announcements
-	http://code.google.com/p/pharo/issues/detail?id=6515'
+ ^ 'Issue 6516:	SystemChangeNotifier - cleanup Step 3
+	http://code.google.com/p/pharo/issues/detail?id=6516'
