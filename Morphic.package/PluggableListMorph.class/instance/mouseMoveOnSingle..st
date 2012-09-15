@@ -7,7 +7,7 @@ mouseMoveOnSingle: evt
 	self enabled ifFalse: [^self].
 	row := self rowAtLocation: evt position.
 	evt hand hasSubmorphs ifFalse: [
-		(self containsPoint: evt position) 
+		((self containsPoint: evt position) and: [ row ~= 0 ]) 
 			ifTrue: [self mouseDownRow: row]
 			ifFalse: [self mouseDownRow: nil]].
 	(self dropEnabled and:[evt hand hasSubmorphs]) 
