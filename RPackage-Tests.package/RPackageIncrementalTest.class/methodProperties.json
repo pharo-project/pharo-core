@@ -39,6 +39,7 @@
 		"testIncludesMethodOfClassInPresenceOfOtherPackageExtensions" : "StephaneDucasse 4/24/2011 20:25",
 		"testIncludesOrTouches" : "2010-04-25T17:46:00+01:00",
 		"testMethodAddition" : "2010-03-11T16:50:00+01:00",
+		"testMethodPackageResolution" : "GuillermoPolito 8/11/2012 21:03",
 		"testPackageOfClassForClassesNotDefinedInPackageButJustExtendingIt" : "2010-04-25T17:33:00+01:00",
 		"testPackageOfClassForDefinedClasses" : "2010-03-11T16:46:00+01:00",
 		"testPrivateClassRegisterUnregister" : "StephaneDucasse 6/3/2012 22:47",

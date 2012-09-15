@@ -16,4 +16,5 @@
 		"emptyOrganizer" : "cyrilledelaunay 5/18/2011 13:50",
 		"setUp" : "StephaneDucasse 6/3/2012 23:25",
 		"tearDown" : "GuillermoPolito 4/27/2012 13:27",
+		"testImportClassSideExtensionFromParentPackageRegisterExtensionInParentPackage" : "GuillermoPolito 8/11/2012 21:17",
 		"testImportExtensionFromParentPackageRegisterExtensionInParentPackage" : "cyrilledelaunay 5/30/2011 16:02" } }

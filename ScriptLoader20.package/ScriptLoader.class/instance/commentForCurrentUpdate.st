@@ -1,13 +1,10 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6503:	ScriptLoader deletePackage: does not say what it says
-	http://code.google.com/p/pharo/issues/detail?id=6503
+ ^ 'Issue 6559:	RPackage importing does not honor class side extension methods
+	http://code.google.com/p/pharo/issues/detail?id=6559
 	
-Issue 6542:	unload package Polymorph
-	http://code.google.com/p/pharo/issues/detail?id=6542
+Issue 6558:	CompiledMethod>>#package does not resolve well with Class side methods
+	http://code.google.com/p/pharo/issues/detail?id=6558
 	
-Issue 6544:	[ENH]: SystemPreferences - Notify Errors
-	http://code.google.com/p/pharo/issues/detail?id=6544
-	
-Issue 6545:	There are no accesses to commandLine in CommandLineHandlerTest
-	http://code.google.com/p/pharo/issues/detail?id=6545'
+Issue 6450:	typo exitSucess
+	http://code.google.com/p/pharo/issues/detail?id=6450'

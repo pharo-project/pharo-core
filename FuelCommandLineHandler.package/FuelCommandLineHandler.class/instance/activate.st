@@ -11,4 +11,4 @@ activate
 			]
 		].
 	(self commandLine hasOption: 'quit')
-		ifTrue: [ self exitSucess ].
+		ifTrue: [ self exitSuccess ].

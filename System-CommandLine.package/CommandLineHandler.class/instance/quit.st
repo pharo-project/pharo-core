@@ -1,3 +1,3 @@
 utility
 quit
-	Smalltalk exitSucess.
+	Smalltalk exitSuccess.
