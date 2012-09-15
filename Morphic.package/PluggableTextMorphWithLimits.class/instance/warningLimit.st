@@ -1,4 +1,4 @@
 accessing
 warningLimit
 
-		^ warningLimit ifNil: [ warningLimit := self class defaultWarningLimit ]
+	^ warningLimit ifNil: [ warningLimit := self class defaultWarningLimit ]

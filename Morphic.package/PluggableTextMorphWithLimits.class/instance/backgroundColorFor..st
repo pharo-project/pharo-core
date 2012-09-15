@@ -23,14 +23,14 @@ backgroundColorFor: rect
 				^ CompositeFillStyle fillStyles: {
 					(GradientFillStyle 
 						ramp: {0->transitionColor. 1 -> basicColor })
-						origin: (rect width/2) @ rect bottom;
-						direction: 0@((12+(2*rect height*overshoot / transitionSpan)) negated);
+						origin: (rect width/2) asFloat @ rect bottom;
+						direction: 0@((12+(2*rect height*overshoot / transitionSpan)) negated asFloat);
 						normal: 0@1;
 						radial: false;
 						yourself.
 					(GradientFillStyle 
 						ramp: {0 -> Color white. 0.3->(Color white alpha: 0.01) })
-						origin: rect left @ (rect height/2);
+						origin: rect left @ (rect height/2) asFloat;
 						direction: (rect width)@0;
 						normal: 1@0;
 						radial: false;

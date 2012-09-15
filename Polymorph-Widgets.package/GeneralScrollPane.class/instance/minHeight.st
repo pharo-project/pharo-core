@@ -1,4 +1,4 @@
-as yet unclassified
+layout
 minHeight
 	"Fit the width of the scroll target if vResizing is shrinkWrap."
 	

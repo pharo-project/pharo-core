@@ -1,3 +1,3 @@
 accessing
 label
-	^ 'method'
+	^ (self guessTypeWith: nil) ifNil:[ 'method' ] ifNotNil: [ 'class' ].

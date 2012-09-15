@@ -21,7 +21,10 @@ settingsOn: aBuilder
 						domainValues: availableControllers ].
 			(aBuilder setting: #backgroundColor)
 				target: self;
-				label: 'Background Color' translated.		
+				label: 'Background Color' translated.	
+			(aBuilder setting: #expandPrefixes)
+				target: self;
+				label: 'Complete common prefixes using TAB in the suggested completions' translated.	
 			(aBuilder setting: #caseSensitive) 
 				label: 'Case Sensitive';
 		 		description: 'Decide if you want eCompletion to be case sensitive or not.'.

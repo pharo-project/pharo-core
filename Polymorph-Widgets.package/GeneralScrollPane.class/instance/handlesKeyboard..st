@@ -1,4 +1,4 @@
-as yet unclassified
+event handling
 handlesKeyboard: evt
 	"Yes for page up/down."
 	

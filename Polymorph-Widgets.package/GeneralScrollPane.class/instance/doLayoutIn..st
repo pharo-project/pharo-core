@@ -1,4 +1,4 @@
-as yet unclassified
+layout
 doLayoutIn: layoutBounds 
 	"Compute a new layout based on the given layout bounds."
 

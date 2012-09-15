@@ -1,4 +1,4 @@
-as yet unclassified
+layout
 minWidth
 	"Fit the width of the scroll target if hResizing is shrinkWrap."
 	

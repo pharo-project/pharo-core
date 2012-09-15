@@ -6,8 +6,13 @@
 		"DefaultWarningLimit" ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
+		"alertLimit",
+		"locked",
 		"warningLimit",
-		"alertLimit" ],
+		"method",
+		"lockIcon",
+		"canLockChangeSelector",
+		"lockSelector" ],
 	"name" : "PluggableTextMorphWithLimits",
 	"pools" : [
 		 ],

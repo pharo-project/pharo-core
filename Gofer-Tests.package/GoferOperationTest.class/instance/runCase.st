@@ -1,3 +1,3 @@
 running
 runCase
-	^ SystemAnnouncer uniqueInstance doSilently: [ super runCase ]
+	^ SystemAnnouncer uniqueInstance suspendAllWhile: [ super runCase ]

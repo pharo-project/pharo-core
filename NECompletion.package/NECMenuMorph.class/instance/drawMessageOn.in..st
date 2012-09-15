@@ -9,6 +9,3 @@ drawMessageOn: aCanvas in: rectangle
 	self 
 		drawModelMessageOn: aCanvas
 		in: rectangle.
-	self 
-		drawPageCountMessageOn: aCanvas
-		in: rectangle

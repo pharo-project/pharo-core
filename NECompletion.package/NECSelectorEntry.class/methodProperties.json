@@ -3,9 +3,10 @@
 		 },
 	"instance" : {
 		"browseWith:" : "MarcusDenker 7/12/2012 18:01",
-		"createDescriptionWith:" : "",
+		"createDescriptionWith:" : "CamilloBruni 8/6/2012 00:07",
 		"findMethodWith:do:ifAbsent:" : "",
+		"guessTypeWith:" : "CamilloBruni 8/6/2012 00:06",
 		"implementorsDescription:" : "",
-		"label" : "",
+		"label" : "CamilloBruni 8/6/2012 00:08",
 		"lookupSelector:class:" : "",
 		"methodSourceDescription:method:" : "MarcusDenker 4/26/2012 14:11" } }

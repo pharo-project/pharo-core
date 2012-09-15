@@ -4,4 +4,6 @@ If my text size is below the warning limit, the background is white ( or the def
 
 Test it with: 
 
-self example
+self example.
+
+I am designed for editing method source code !

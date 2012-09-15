@@ -4,7 +4,6 @@ initialize
 	| text |
 	super initialize.
 	self setLabel: 'eCompletion Keyboard Help'.
-	"self height: ECMenuMorph itemHeight * 60."
 	text := PluggableTextMorph
 				on: self
 				text: #contents

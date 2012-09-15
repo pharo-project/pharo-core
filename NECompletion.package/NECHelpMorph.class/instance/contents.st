@@ -1,3 +1,3 @@
 initialize
 contents
-	^self class helpText 
+	^self class helpText

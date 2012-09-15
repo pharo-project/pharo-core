@@ -5,5 +5,5 @@ layoutBounds: aRectangle
 	
 	super layoutBounds: aRectangle.
 	textMorph ifNotNil:
-		[textMorph extent: (self innerBounds width-6)@self height].
+		[textMorph extent: (self innerExtent x)@self height].
 	self setScrollDeltas

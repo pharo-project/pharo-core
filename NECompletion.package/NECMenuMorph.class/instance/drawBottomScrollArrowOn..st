@@ -9,4 +9,4 @@ drawBottomScrollArrowOn: aCanvas
 		with: (point translateBy: (arrowHeight / 2) @ arrowHeight).
 	aCanvas 
 		drawPolygon: aPoligon
-		fillStyle: self class scrollColor
+		fillStyle: Color black

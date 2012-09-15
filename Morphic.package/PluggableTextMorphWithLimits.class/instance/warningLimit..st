@@ -1,4 +1,4 @@
 accessing
 warningLimit: anObject
 	
-		warningLimit := anObject
+	warningLimit := anObject

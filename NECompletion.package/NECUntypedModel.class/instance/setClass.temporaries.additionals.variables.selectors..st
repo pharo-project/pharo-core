@@ -10,7 +10,4 @@ setClass: aClass temporaries: aCollection additionals: additionalCollection vari
 			[ localVars := aCollection.
 			self addAdditionals: additionalCollection ]
 		ifFalse: [ localVars := OrderedCollection new ].
-	self
-		resetEntries;
-		addVariables;
-		addSelectors
+	self resetEntries.

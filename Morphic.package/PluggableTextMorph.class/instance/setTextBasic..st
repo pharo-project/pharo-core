@@ -6,7 +6,7 @@ setTextBasic: aText
 		ifTrue: [ 
 			self textMorph
 				contents: aText 
-				wrappedTo: self innerBounds width - 6 ]
+				wrappedTo: self innerExtent x ]
 		ifFalse: [
 			self textMorph newContents: aText].
 	

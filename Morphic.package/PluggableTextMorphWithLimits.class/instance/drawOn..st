@@ -7,8 +7,8 @@ drawOn: aCanvas
 	
 	size := self textSize.
 	rect := self buildRectFrom: self bounds.
-	top := bounds top + self borderWidth.
-	bottom := bounds bottom - self borderWidth.
+	top := self bounds top + self borderWidth.
+	bottom := self bounds bottom - self borderWidth.
 	stringColor := self stringColor.
 	newRect := (rect left-self basicWidth-10)@top corner: (rect right)@bottom.
 	aCanvas

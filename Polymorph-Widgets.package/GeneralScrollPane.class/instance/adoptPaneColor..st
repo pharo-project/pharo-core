@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 adoptPaneColor: paneColor
 	"Adopt the given pane color."
 	

@@ -1,5 +1,12 @@
 detail information
-createDescriptionWith: anECContext 
+createDescriptionWith: anECContext
+
+	(self guessTypeWith: anECContext)
+		ifNotNil: [ :clazz|
+			^ NECEntryDescription 
+					label: self label
+					title: clazz printString
+					description: clazz comment	].
 	^ self
 		findMethodWith: anECContext
 		do: [:clazz :method | self

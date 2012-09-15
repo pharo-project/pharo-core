@@ -3,7 +3,7 @@ initialize
 	"Add the tab group with an inital workspace."
 
 	super initialize.
-	self changePropotionalLayout.
+	self changeProportionalLayout.
 	self tabGroup: self newTabGroup.
 	self tabGroup tabSelectorMorph addDependent: self.
 	self

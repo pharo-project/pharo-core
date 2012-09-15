@@ -5,4 +5,6 @@ guessClassVarClass: aSHRange
 	aClass := controller guessTypeFor: name.
 	aClass
 		ifNotNil: [^ aClass].
-	^ (NECClassVarTypeGuesser variableName: name class: theClass theMetaClass) perform
+	^ (NECClassVarTypeGuesser 
+		variableName: name 
+		class: theClass theMetaClass) perform

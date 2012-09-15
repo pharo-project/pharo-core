@@ -1,4 +1,4 @@
-as yet unclassified
+geometry
 extent: newExtent
 	"Update the receiver's extent. Hide/show the scrollbars and resize the scroller
 	as neccessary."

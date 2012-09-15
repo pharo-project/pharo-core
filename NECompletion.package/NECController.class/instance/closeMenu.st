@@ -1,4 +1,5 @@
 menu morph
 closeMenu
 	menuMorph
-		ifNotNil: [menuMorph delete]
+		ifNotNil: [ menuMorph delete ].
+	menuMorph := nil.
