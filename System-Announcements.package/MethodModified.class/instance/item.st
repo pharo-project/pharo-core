@@ -1,3 +1,3 @@
 temp to remove
 item
-	^ oldMethod 
+	^ self newMethod

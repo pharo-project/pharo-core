@@ -1,4 +1,3 @@
-as yet unclassified
-oldCategory 
-
-	^ event oldCategory asSymbol
+accessing
+oldCategory
+	^oldCategory

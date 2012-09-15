@@ -7,7 +7,9 @@
 	"commentStamp" : "cyrilledelaunay 1/18/2011 12:26",
 	"instvars" : [
 		"from",
-		"to" ],
+		"to",
+		"newCategoryName",
+		"oldCategoryName" ],
 	"name" : "CategoryRenamed",
 	"pools" : [
 		 ],

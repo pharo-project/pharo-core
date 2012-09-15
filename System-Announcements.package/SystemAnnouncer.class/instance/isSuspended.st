@@ -1,3 +1,3 @@
-system triggers
+announce
 isSuspended
 	^suspended ifNil: [ suspended := false ]

@@ -1,4 +1,4 @@
-accessing
+temporal for remove
 itemNewProtocol
 
-	^ event itemProtocol
+	^self newProtocol

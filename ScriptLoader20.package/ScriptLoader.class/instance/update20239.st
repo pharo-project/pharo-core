@@ -2,7 +2,7 @@ pharo - updates
 update20239
 	"self new update20239"
 	SystemAnnouncer unsubscribe: ChangesLog default.
-SystemChangeNotifier allInstances first releaseAll.
+	(Smalltalk at: #SystemChangeNotifier) allInstances first releaseAll.
 	self withUpdateLog: 'Issue 6477:	Remove SystemChangeNotifier 3 - Cleaning step 1
 	http://code.google.com/p/pharo/issues/detail?id=6477
 	

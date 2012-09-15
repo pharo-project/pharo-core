@@ -1,3 +1,3 @@
 accessing
 selector
-	^ self itemSelector
+	^selector

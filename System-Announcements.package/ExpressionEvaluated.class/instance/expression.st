@@ -1,3 +1,3 @@
-as yet unclassified
+temporal for remove
 expression
-	^ event item.
+	^self expressionEvaluated

@@ -6,8 +6,12 @@
 		 ],
 	"commentStamp" : "BenjaminVanRyseghem 4/1/2011 16:04",
 	"instvars" : [
+		"methodClass",
+		"newMethod",
+		"newProtocol",
 		"oldMethod",
-		"newMethod" ],
+		"oldProtocol",
+		"selector" ],
 	"name" : "MethodModified",
 	"pools" : [
 		 ],

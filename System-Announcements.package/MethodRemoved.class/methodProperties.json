@@ -1,10 +1,17 @@
 {
 	"class" : {
-		 },
+		"methodRemoved:selector:protocol:class:" : "GuillermoPolito 8/2/2012 00:49" },
 	"instance" : {
-		"itemClass" : "StephaneDucasse 4/13/2011 21:23",
-		"itemMethod" : "StephaneDucasse 10/12/2011 15:18",
-		"itemProtocol" : "StephaneDucasse 4/13/2011 21:23",
-		"itemSelector" : "StephaneDucasse 4/13/2011 21:23",
-		"methodClass" : "CamilleTeruel 7/30/2012 00:50",
-		"selector" : "CamilleTeruel 7/30/2012 00:51" } }
+		"item" : "GuillermoPolito 8/2/2012 00:49",
+		"itemClass" : "GuillermoPolito 8/2/2012 00:49",
+		"itemMethod" : "GuillermoPolito 8/2/2012 00:49",
+		"itemProtocol" : "GuillermoPolito 8/2/2012 00:49",
+		"itemSelector" : "GuillermoPolito 8/2/2012 00:49",
+		"methodClass" : "GuillermoPolito 8/2/2012 00:49",
+		"methodClass:" : "GuillermoPolito 8/2/2012 00:48",
+		"methodRemoved" : "GuillermoPolito 8/2/2012 00:48",
+		"methodRemoved:" : "GuillermoPolito 8/2/2012 00:48",
+		"protocol" : "GuillermoPolito 8/2/2012 00:48",
+		"protocol:" : "GuillermoPolito 8/2/2012 00:48",
+		"selector" : "GuillermoPolito 8/2/2012 00:49",
+		"selector:" : "GuillermoPolito 8/2/2012 00:48" } }

@@ -1,5 +1,5 @@
-system triggers
+announcements-convenience
 class: aClass oldComment: oldComment newComment: newComment oldStamp: oldStamp newStamp: newStamp
 	"A class was commented in the system."
 
-	self announce: (CommentedEvent class: aClass oldComment: oldComment newComment: newComment oldStamp: oldStamp newStamp: newStamp)
+	self announce: (ClassCommented class: aClass oldComment: oldComment newComment: newComment oldStamp: oldStamp newStamp: newStamp)

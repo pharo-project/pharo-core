@@ -1,4 +1,3 @@
-accessing
+temporal for remove
 removedClass
-
-	^ self item theNonMetaClass
+	^self classRemoved

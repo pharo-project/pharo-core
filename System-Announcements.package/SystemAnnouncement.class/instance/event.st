@@ -1,3 +1,3 @@
-private
+temporal for remove
 event
-	^ event
+	^ self

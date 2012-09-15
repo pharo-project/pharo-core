@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "cyrilledelaunay 1/18/2011 12:29",
 	"instvars" : [
-		 ],
+		"categoryName" ],
 	"name" : "CategoryAdded",
 	"pools" : [
 		 ],

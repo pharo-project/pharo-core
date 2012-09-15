@@ -1,3 +1,3 @@
-system triggers
+announcements-convenience
 classRemoved: aClass fromCategory: aCategoryName 
-	self announce: (RemovedEvent class: aClass category: aCategoryName)
+	self announce: (ClassRemoved class: aClass category: aCategoryName)

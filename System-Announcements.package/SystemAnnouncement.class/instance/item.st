@@ -1,4 +1,4 @@
-protocol
+temporal for remove
 item
 
-	^ self event item
+	^ self subclassResponsibility

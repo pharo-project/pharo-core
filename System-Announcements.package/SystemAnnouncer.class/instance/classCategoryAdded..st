@@ -1,5 +1,4 @@
-system triggers
+announcements-convenience
 classCategoryAdded: aClassCategoryName
 
-	self announce: (AddedEvent
-					classCategory: aClassCategoryName)
+	self announce: (CategoryAdded categoryName: aClassCategoryName)

@@ -1,4 +1,4 @@
-accessing
+temporal for remove
 itemOldProtocol
 
-	^ event oldCategory
+	^self oldProtocol

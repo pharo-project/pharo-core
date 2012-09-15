@@ -1,6 +1,6 @@
-system triggers
+announcements-convenience
 class: aClass recategorizedFrom: oldCategory to: newCategory 
-	self announce: (RecategorizedEvent 
-				class: aClass
-				category: newCategory
-				oldCategory: oldCategory)
+	self announce: (ClassRecategorized 
+						class: aClass
+						recategorizedFrom: oldCategory
+						to: newCategory)

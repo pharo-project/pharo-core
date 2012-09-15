@@ -1,9 +1,9 @@
 system triggers
 selector: selector recategorizedFrom: oldCategory to: newCategory inClass: aClass
 
-	self announce: (RecategorizedEvent 
+	self announce: (MethodRecategorized 
 				method: (aClass compiledMethodAt: selector ifAbsent: [nil])
 				selector: selector
-				protocol: newCategory
 				class: aClass
+				newProtocol: newCategory
 				oldProtocol: oldCategory)

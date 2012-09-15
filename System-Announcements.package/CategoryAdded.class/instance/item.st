@@ -1,3 +1,3 @@
 accessing
 item
-	^ event item
+	^self categoryName

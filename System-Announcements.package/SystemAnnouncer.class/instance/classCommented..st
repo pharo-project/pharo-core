@@ -1,5 +1,5 @@
-system triggers
+announcements-convenience
 classCommented: aClass
 	"A class with the given name was commented in the system."
 
-	self announce: (CommentedEvent class: aClass)
+	self announce: (ClassCommented classCommented: aClass)

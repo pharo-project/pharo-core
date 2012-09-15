@@ -1,4 +1,4 @@
-accessing
+temporal for remove
 itemClassSymbol
 
-	^ self itemClass theNonMetaClass name asSymbol
+	^ self classAdded theNonMetaClass name asSymbol

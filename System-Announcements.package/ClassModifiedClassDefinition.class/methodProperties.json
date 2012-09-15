@@ -1,6 +1,11 @@
 {
 	"class" : {
-		 },
+		"classDefinitionChangedFrom:to:" : "GuillermoPolito 8/2/2012 00:09" },
 	"instance" : {
-		"anyChanges" : "GuillermoPolito 6/22/2012 15:38",
-		"oldItem" : "GuillermoPolito 7/20/2012 17:18" } }
+		"anyChanges" : "GuillermoPolito 8/2/2012 00:11",
+		"item" : "GuillermoPolito 8/2/2012 00:11",
+		"newClassDefinition" : "GuillermoPolito 8/2/2012 00:10",
+		"newClassDefinition:" : "GuillermoPolito 8/2/2012 00:09",
+		"oldClassDefinition" : "GuillermoPolito 8/2/2012 00:10",
+		"oldClassDefinition:" : "GuillermoPolito 8/2/2012 00:10",
+		"oldItem" : "GuillermoPolito 8/2/2012 00:10" } }

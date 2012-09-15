@@ -1,10 +1,10 @@
-system triggers
+announcements-convenience
 methodChangedFrom: oldMethod to: newMethod selector: aSymbol inClass: aClass oldProtocol: oldProtocol newProtocol: newProtocol requestor: requestor
-	self announce: ((ModifiedMethodEvent
+	self announce: (MethodModified
 					methodChangedFrom: oldMethod
 					to: newMethod
 					selector: aSymbol 
 					inClass: aClass
+					oldProtocol: oldProtocol
+					newProtocol: newProtocol
 					requestor: requestor)
-					oldProtocol: oldProtocol;
-					newProtocol: newProtocol)

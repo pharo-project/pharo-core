@@ -1,3 +1,3 @@
-system triggers
+announcements-convenience
 classReorganized: aClass
-	self announce: (ReorganizedEvent class: aClass)
+	self announce: (ClassReorganized class: aClass)

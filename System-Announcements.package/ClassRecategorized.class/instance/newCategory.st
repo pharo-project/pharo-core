@@ -1,4 +1,3 @@
-as yet unclassified
+accessing
 newCategory 
-
-	^ event itemCategory 
+	^newCategory

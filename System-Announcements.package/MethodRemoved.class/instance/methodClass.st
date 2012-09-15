@@ -1,3 +1,4 @@
 accessing
 methodClass
-	^ self itemClass.
+	
+	^methodClass

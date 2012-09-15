@@ -4,9 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
+		"context",
+		"expressionEvaluated" ],
 	"name" : "ExpressionEvaluated",
 	"pools" : [
 		 ],

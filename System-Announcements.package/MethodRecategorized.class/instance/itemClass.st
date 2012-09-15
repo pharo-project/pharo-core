@@ -1,5 +1,4 @@
-accessing
+temporal for remove
 itemClass
 
-	^ event itemClass
-	
+	^self methodClass

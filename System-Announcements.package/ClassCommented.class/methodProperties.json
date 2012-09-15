@@ -1,5 +1,16 @@
 {
 	"class" : {
-		 },
+		"class:oldComment:newComment:oldStamp:newStamp:" : "GuillermoPolito 8/1/2012 23:51",
+		"classCommented:" : "GuillermoPolito 8/1/2012 23:53" },
 	"instance" : {
-		 } }
+		"classCommented" : "GuillermoPolito 8/2/2012 00:13",
+		"classCommented:" : "GuillermoPolito 8/1/2012 23:55",
+		"item" : "GuillermoPolito 8/2/2012 00:13",
+		"newComment" : "GuillermoPolito 8/2/2012 00:13",
+		"newComment:" : "GuillermoPolito 8/1/2012 23:55",
+		"newStamp" : "GuillermoPolito 8/2/2012 00:13",
+		"newStamp:" : "GuillermoPolito 8/1/2012 23:54",
+		"oldComment" : "GuillermoPolito 8/2/2012 00:13",
+		"oldComment:" : "GuillermoPolito 8/1/2012 23:55",
+		"oldStamp" : "GuillermoPolito 8/2/2012 00:14",
+		"oldStamp:" : "GuillermoPolito 8/1/2012 23:55" } }

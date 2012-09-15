@@ -1,4 +1,4 @@
-instance creation
+termporal for removal
 oldMethod: oldMethod newMethod: newMethod
 	(oldMethod class == newMethod class) 
 		ifFalse: [ self error: 'The two methods don''t belong to the same class' ].

@@ -1,4 +1,3 @@
-as yet unclassified
+temporal for remove
 itemClass 
-
-	^ event itemClass 
+	^self classRecategorized

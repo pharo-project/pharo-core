@@ -1,4 +1,3 @@
 accessing
 oldName
-	
-	^ self event oldName
+	^oldName

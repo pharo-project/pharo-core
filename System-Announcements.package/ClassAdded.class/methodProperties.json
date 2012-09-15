@@ -1,6 +1,12 @@
 {
 	"class" : {
-		 },
+		"class:category:" : "GuillermoPolito 8/1/2012 17:52" },
 	"instance" : {
-		"itemClass" : "StephaneDucasse 10/12/2011 15:15",
-		"itemClassSymbol" : "StephaneDucasse 10/12/2011 15:15" } }
+		"classAdded" : "GuillermoPolito 8/1/2012 17:46",
+		"classAdded:" : "GuillermoPolito 8/1/2012 17:47",
+		"classCategory" : "GuillermoPolito 8/1/2012 17:51",
+		"classCategory:" : "GuillermoPolito 8/1/2012 17:51",
+		"item" : "GuillermoPolito 8/2/2012 00:12",
+		"itemCategory" : "GuillermoPolito 8/1/2012 17:51",
+		"itemClass" : "GuillermoPolito 8/1/2012 17:47",
+		"itemClassSymbol" : "GuillermoPolito 8/1/2012 17:47" } }

@@ -1,8 +1,8 @@
-system triggers
+announcements-convenience
 methodAdded: aMethod selector: aSymbol inProtocol: aCategoryName class: aClass requestor: requestor
 	"A method with the given selector was added to aClass in protocol aCategoryName."
 
-	self announce: (AddedEvent
+	self announce: (MethodAdded
 				method: aMethod
 				selector: aSymbol
 				protocol: aCategoryName

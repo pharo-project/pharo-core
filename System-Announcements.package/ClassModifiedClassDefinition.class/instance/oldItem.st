@@ -1,3 +1,3 @@
-testing
+temporal for remove
 oldItem
-	^self event oldItem
+	^self oldClassDefinition

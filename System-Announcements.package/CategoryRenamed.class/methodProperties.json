@@ -1,7 +1,12 @@
 {
 	"class" : {
-		 },
+		"classCategoryRenamedFrom:to:" : "GuillermoPolito 8/2/2012 00:05" },
 	"instance" : {
-		"newName" : "StephaneDucasse 7/27/2010 21:59",
-		"oldName" : "StephaneDucasse 7/27/2010 21:59",
-		"oldNameSymbol" : "StephaneDucasse 10/12/2011 15:14" } }
+		"item" : "GuillermoPolito 8/2/2012 00:12",
+		"newCategoryName" : "GuillermoPolito 8/2/2012 00:05",
+		"newCategoryName:" : "GuillermoPolito 8/2/2012 00:05",
+		"newName" : "GuillermoPolito 8/2/2012 00:06",
+		"oldCategoryName" : "GuillermoPolito 8/2/2012 00:05",
+		"oldCategoryName:" : "GuillermoPolito 8/2/2012 00:05",
+		"oldName" : "GuillermoPolito 8/2/2012 00:06",
+		"oldNameSymbol" : "GuillermoPolito 8/2/2012 00:06" } }

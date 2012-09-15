@@ -1,13 +1,13 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 5772:	Deprecate FileDirectory
-	http://code.google.com/p/pharo/issues/detail?id=5772
+ ^ 'Issue 6498:	Remove old events in favor of System announcements - Step 1
+	http://code.google.com/p/pharo/issues/detail?id=6498
 	
-Issue 6499:	New Nautilus version
-	http://code.google.com/p/pharo/issues/detail?id=6499
+Issue 6476:	one Monticello package that should not be there
+	http://code.google.com/p/pharo/issues/detail?id=6476
 	
-Issue 6500:	New Nautilus version
-	http://code.google.com/p/pharo/issues/detail?id=6500
+Issue 6505:	hasUnacceptedEdits breaks the debugger
+	http://code.google.com/p/pharo/issues/detail?id=6505
 	
-Issue 6504:	Trait tests mess with the System Announcer
-	http://code.google.com/p/pharo/issues/detail?id=6504'
+Issue 6508:	Tests.Release.ReleaseTest.testMethodsWithUnboundGlobals
+	http://code.google.com/p/pharo/issues/detail?id=6508'

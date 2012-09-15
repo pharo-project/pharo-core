@@ -1,5 +1,5 @@
-system triggers
+announcements-convenience
 evaluated: expression context: aContext
-	self announce: (DoItEvent 
+	self announce: (ExpressionEvaluated 
 				expression: expression
 				context: aContext)

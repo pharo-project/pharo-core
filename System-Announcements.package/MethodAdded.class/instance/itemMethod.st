@@ -1,4 +1,4 @@
-accessing
+temporal for remove
 itemMethod
 
-	^ self item
+	^self method

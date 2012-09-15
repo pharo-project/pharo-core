@@ -1,5 +1,5 @@
-accessing
+temporal for remove
 itemMethod
 
-	^ event item
+	^ self methodRemoved
 	

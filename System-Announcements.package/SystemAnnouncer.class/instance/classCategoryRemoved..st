@@ -1,5 +1,4 @@
-system triggers
+announcements-convenience
 classCategoryRemoved: aClassCategoryName
 
-	self announce: (RemovedEvent
-					classCategory: aClassCategoryName)
+	self announce: (CategoryRemoved categoryName: aClassCategoryName)

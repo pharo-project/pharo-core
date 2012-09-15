@@ -1,6 +1,8 @@
 {
 	"class" : {
-		 },
+		"categoryName:" : "GuillermoPolito 8/2/2012 00:02" },
 	"instance" : {
-		"categoryName" : "StephaneDucasse 10/12/2011 15:12",
-		"categorySelector" : "StephaneDucasse 10/12/2011 15:12" } }
+		"categoryName" : "GuillermoPolito 8/2/2012 00:03",
+		"categoryName:" : "GuillermoPolito 8/2/2012 00:02",
+		"categorySelector" : "GuillermoPolito 8/2/2012 00:03",
+		"item" : "GuillermoPolito 8/2/2012 00:11" } }

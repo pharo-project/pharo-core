@@ -1,4 +1,3 @@
-accessing
+temporal for remove
 oldNameSymbol
-
-	^ event oldName asSymbol
+	^self oldCategoryName asSymbol

@@ -1,8 +1,15 @@
 {
 	"class" : {
-		 },
+		"class:category:oldName:newName:" : "GuillermoPolito 8/2/2012 00:33" },
 	"instance" : {
+		"category" : "GuillermoPolito 8/2/2012 00:33",
+		"category:" : "GuillermoPolito 8/2/2012 00:33",
+		"classRenamed" : "GuillermoPolito 8/2/2012 00:33",
+		"classRenamed:" : "GuillermoPolito 8/2/2012 00:33",
+		"item" : "GuillermoPolito 8/2/2012 00:34",
 		"itemClass" : "StephaneDucasse 10/12/2011 15:16",
-		"itemPackageName" : "StephaneDucasse 10/12/2011 15:16",
-		"newName" : "StephaneDucasse 10/12/2011 15:16",
-		"oldName" : "StephaneDucasse 10/12/2011 15:16" } }
+		"itemPackageName" : "GuillermoPolito 8/2/2012 00:34",
+		"newName" : "GuillermoPolito 8/2/2012 00:33",
+		"newName:" : "GuillermoPolito 8/2/2012 00:33",
+		"oldName" : "GuillermoPolito 8/2/2012 00:33",
+		"oldName:" : "GuillermoPolito 8/2/2012 00:33" } }

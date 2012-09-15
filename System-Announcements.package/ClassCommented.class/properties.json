@@ -4,9 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
+		"newStamp",
+		"newComment",
+		"classCommented",
+		"oldComment",
+		"oldStamp" ],
 	"name" : "ClassCommented",
 	"pools" : [
 		 ],

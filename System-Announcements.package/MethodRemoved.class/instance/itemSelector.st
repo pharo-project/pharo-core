@@ -1,5 +1,4 @@
-accessing
+temporal for remove
 itemSelector
 
-	^ self event itemSelector
-	
+	^self selector

@@ -1,4 +1,3 @@
-accessing
+temporal for remove
 categorySelector
-
-	^ self item asSymbol
+	^self categoryName asSymbol

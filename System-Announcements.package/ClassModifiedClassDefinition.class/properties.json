@@ -4,9 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
+		"newClassDefinition",
+		"oldClassDefinition" ],
 	"name" : "ClassModifiedClassDefinition",
 	"pools" : [
 		 ],

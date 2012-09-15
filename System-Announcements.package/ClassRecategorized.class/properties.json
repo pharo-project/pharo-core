@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "cyrilledelaunay 1/18/2011 10:42",
 	"instvars" : [
-		 ],
+		"newCategory",
+		"oldCategory",
+		"classRecategorized" ],
 	"name" : "ClassRecategorized",
 	"pools" : [
 		 ],

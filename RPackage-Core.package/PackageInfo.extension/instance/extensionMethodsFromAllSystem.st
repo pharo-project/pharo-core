@@ -1,3 +1,3 @@
 *RPackage-Core
 extensionMethodsFromAllSystem
-	^ ProtoObject withAllSubclasses gather: [:classOrTrait | self extensionMethodsForClass: classOrTrait]
+	^ Smalltalk allClassesAndTraits gather: [:classOrTrait | self extensionMethodsForClass: classOrTrait]

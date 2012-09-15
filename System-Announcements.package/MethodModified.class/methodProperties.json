@@ -1,15 +1,22 @@
 {
 	"class" : {
+		"methodChangedFrom:to:selector:inClass:oldProtocol:newProtocol:requestor:" : "GuillermoPolito 8/2/2012 09:45",
 		"oldMethod:newMethod:" : "CamilleTeruel 7/29/2012 19:01" },
 	"instance" : {
-		"event:" : "CamilleTeruel 7/29/2012 19:21",
-		"item" : "CamilleTeruel 7/29/2012 19:23",
-		"itemClass" : "CamilleTeruel 7/29/2012 19:23",
-		"itemProtocol" : "CamilleTeruel 7/29/2012 19:24",
+		"item" : "GuillermoPolito 8/2/2012 09:48",
+		"itemClass" : "GuillermoPolito 8/2/2012 09:48",
+		"itemProtocol" : "GuillermoPolito 8/2/2012 09:48",
 		"itemSelector" : "CamilleTeruel 7/29/2012 19:14",
-		"newMethod" : "CamilleTeruel 7/30/2012 14:10",
-		"newMethod:" : "CamilleTeruel 7/29/2012 18:53",
-		"oldItem" : "CamilleTeruel 7/29/2012 19:29",
-		"oldMethod" : "CamilleTeruel 7/29/2012 19:14",
-		"oldMethod:" : "CamilleTeruel 7/29/2012 18:53",
-		"selector" : "CamilleTeruel 7/30/2012 14:10" } }
+		"methodClass" : "GuillermoPolito 8/2/2012 09:47",
+		"methodClass:" : "GuillermoPolito 8/2/2012 09:47",
+		"newMethod" : "GuillermoPolito 8/2/2012 09:55",
+		"newMethod:" : "GuillermoPolito 8/2/2012 09:55",
+		"newProtocol" : "GuillermoPolito 8/2/2012 09:47",
+		"newProtocol:" : "GuillermoPolito 8/2/2012 09:47",
+		"oldItem" : "GuillermoPolito 8/2/2012 09:49",
+		"oldMethod" : "GuillermoPolito 8/2/2012 09:52",
+		"oldMethod:" : "GuillermoPolito 8/2/2012 09:55",
+		"oldProtocol" : "GuillermoPolito 8/2/2012 09:47",
+		"oldProtocol:" : "GuillermoPolito 8/2/2012 09:47",
+		"selector" : "CamilleTeruel 7/30/2012 14:10",
+		"selector:" : "GuillermoPolito 8/2/2012 09:47" } }

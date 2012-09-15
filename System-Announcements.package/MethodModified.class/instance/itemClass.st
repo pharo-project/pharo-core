@@ -1,5 +1,4 @@
 temp to remove
 itemClass
 
-	^ newMethod methodClass.
-	
+	^ self methodClass

@@ -1,4 +1,3 @@
-accessing
+temporal for remove
 oldName
-
-	^ event oldName
+	^self oldCategoryName

@@ -1,8 +1,19 @@
 {
 	"class" : {
-		 },
+		"method:selector:class:newProtocol:oldProtocol:" : "GuillermoPolito 8/2/2012 09:59" },
 	"instance" : {
-		"itemClass" : "cyrilledelaunay 1/17/2011 15:40",
-		"itemNewProtocol" : "cyrilledelaunay 1/17/2011 16:14",
-		"itemOldProtocol" : "cyrilledelaunay 1/17/2011 16:11",
-		"itemSelector" : "cyrilledelaunay 1/17/2011 15:41" } }
+		"item" : "GuillermoPolito 8/2/2012 10:11",
+		"itemClass" : "GuillermoPolito 8/2/2012 09:59",
+		"itemNewProtocol" : "GuillermoPolito 8/2/2012 09:59",
+		"itemOldProtocol" : "GuillermoPolito 8/2/2012 09:59",
+		"itemSelector" : "GuillermoPolito 8/2/2012 09:59",
+		"methodClass" : "GuillermoPolito 8/2/2012 09:57",
+		"methodClass:" : "GuillermoPolito 8/2/2012 09:57",
+		"methodRecategorized" : "GuillermoPolito 8/2/2012 09:57",
+		"methodRecategorized:" : "GuillermoPolito 8/2/2012 09:57",
+		"newProtocol" : "GuillermoPolito 8/2/2012 09:57",
+		"newProtocol:" : "GuillermoPolito 8/2/2012 09:57",
+		"oldProtocol" : "GuillermoPolito 8/2/2012 09:57",
+		"oldProtocol:" : "GuillermoPolito 8/2/2012 09:57",
+		"selector" : "GuillermoPolito 8/2/2012 09:57",
+		"selector:" : "GuillermoPolito 8/2/2012 09:57" } }
