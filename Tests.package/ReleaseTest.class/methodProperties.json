@@ -5,4 +5,5 @@
 		"testMethodsWithUnboundGlobals" : "MarcusDenker 7/12/2012 18:01",
 		"testObsoleteClasses" : "MarcusDenker 7/12/2012 18:01",
 		"testUndeclared" : "marcus.denker 8/18/2008 21:40",
-		"testUnimplementedNonPrimitiveCalls" : "MarcusDenker 7/12/2012 18:01" } }
+		"testUnimplementedNonPrimitiveCalls" : "MarcusDenker 7/12/2012 18:01",
+		"testUnpackagedClasses" : "MarianoMartinezPeck 8/1/2012 17:39" } }

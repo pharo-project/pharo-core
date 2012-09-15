@@ -10,6 +10,7 @@
 		"creation",
 		"modification",
 		"isDirectory",
+		"isSymlink",
 		"size",
 		"posixPermissions" ],
 	"name" : "FileSystemDirectoryEntry",

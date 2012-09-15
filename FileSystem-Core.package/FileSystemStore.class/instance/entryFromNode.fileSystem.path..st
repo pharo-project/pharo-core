@@ -8,3 +8,4 @@ entryFromNode: aNode fileSystem: aFilesystem path: aPath
 		isDir: (self basicIsDirectory: aNode)
 		size: (self basicSize: aNode)
 		posixPermissions: (self basicPosixPermissions: aNode)
+		isSymlink: (self basicIsSymlink: aNode)

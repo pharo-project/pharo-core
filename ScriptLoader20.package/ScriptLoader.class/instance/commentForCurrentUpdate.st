@@ -1,13 +1,16 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6498:	Remove old events in favor of System announcements - Step 1
-	http://code.google.com/p/pharo/issues/detail?id=6498
+ ^ 'Issue 6493:	Integrate new version of Fuel and remove obsolete packages
+	http://code.google.com/p/pharo/issues/detail?id=6493
 	
-Issue 6476:	one Monticello package that should not be there
-	http://code.google.com/p/pharo/issues/detail?id=6476
+Issue 6497:	new ReleaseTest >> testUnpackagedClasses
+	http://code.google.com/p/pharo/issues/detail?id=6497
 	
-Issue 6505:	hasUnacceptedEdits breaks the debugger
-	http://code.google.com/p/pharo/issues/detail?id=6505
+Issue 6502:	FS (FileSystem) and freetype on windows
+	http://code.google.com/p/pharo/issues/detail?id=6502
 	
-Issue 6508:	Tests.Release.ReleaseTest.testMethodsWithUnboundGlobals
-	http://code.google.com/p/pharo/issues/detail?id=6508'
+Issue 6506:	add FileReference>>#isSymlink
+	http://code.google.com/p/pharo/issues/detail?id=6506
+	
+Issue 6507:	New Spec version
+	http://code.google.com/p/pharo/issues/detail?id=6507'

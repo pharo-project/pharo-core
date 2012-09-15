@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"toolbar",
-		"specWidget" ],
+		"specWidget",
+		"toolbar" ],
 	"name" : "SpecDialogWindow",
 	"pools" : [
 		 ],

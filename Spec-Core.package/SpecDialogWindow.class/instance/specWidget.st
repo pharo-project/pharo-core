@@ -1,3 +1,4 @@
 accessing
 specWidget
+
 	^ specWidget

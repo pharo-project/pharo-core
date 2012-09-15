@@ -1,4 +1,4 @@
 protocol
 cancelled
 
-	^ toolbar cancelled
+	^ self toolbar cancelled
