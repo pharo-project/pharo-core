@@ -1,3 +1,3 @@
 ui requests
 requestPassword: queryString
-	^self nonInteractive
+	^self nonInteractiveWarning: 'Requesting Password'.

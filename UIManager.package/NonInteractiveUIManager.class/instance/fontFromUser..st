@@ -1,3 +1,3 @@
 ui requests
 fontFromUser: priorFont	
-	^self nonInteractive
+	^self nonInteractiveWarning: 'Font Choose Request'

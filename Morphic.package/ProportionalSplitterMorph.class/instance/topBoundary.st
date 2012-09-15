@@ -10,7 +10,7 @@ topBoundary
 	morphs ifEmpty: [
 		^(self splitterAbove
 			ifNil: [self containingWindow panelRect top]
-			ifNotNil: [:s | s top]) + 25].
+			ifNotNil: [:s | s first top]) + 25].
 	^(morphs collect: [:m |
 		m top + m minExtent y +
 			(self layoutFrame topOffset ifNil: [0]) -

@@ -5,4 +5,6 @@ splitterAbove
 	|splitters|
 	splitters := ((self siblingSplitters select: [:each |
 		each top > self top and: [self overlapsHorizontal: each]]) asSortedCollection: [:a :b | a top < b top]).
-	^splitters ifNotEmpty: [splitters first]
+	^ splitters
+		ifEmpty: [ nil ]
+		ifNotEmpty: [:s | s first ]

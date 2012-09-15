@@ -5,4 +5,7 @@ splitterRight
 	|splitters|
 	splitters := ((self siblingSplitters select: [:each |
 		each left > self left and: [self overlapsVertical: each]]) asSortedCollection: [:a :b | a left < b left]).
-	^splitters ifNotEmpty: [splitters first]
+	
+	^ splitters
+		ifEmpty: [ nil ]
+		ifNotEmpty: [:s | s first ]

@@ -1,5 +1,5 @@
 activation
 activate
-	self evaluateStdIn.
+	self arguments ifEmpty: [ ^ self evaluateStdIn ].
 	self evaluateArguments.
 	self quit.

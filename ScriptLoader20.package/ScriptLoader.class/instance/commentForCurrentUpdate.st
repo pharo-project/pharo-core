@@ -1,19 +1,16 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6493:	Integrate new version of Fuel and remove obsolete packages
-	http://code.google.com/p/pharo/issues/detail?id=6493
+ ^ 'Issue 6441:	Several CompiledMethod fixes from Squeak
+	http://code.google.com/p/pharo/issues/detail?id=6441
 	
-Issue 6517:	recategorizing some methods in PollyMoprh
-	http://code.google.com/p/pharo/issues/detail?id=6517
+Issue 6444:	Improve NonInteractiveUIManager>>nonInteractive:
+	http://code.google.com/p/pharo/issues/detail?id=6444
 	
-Issue 6519:	Merge NE and NO Completion
-	http://code.google.com/p/pharo/issues/detail?id=6519
+Issue 6486:	Fix Slider missing method
+	http://code.google.com/p/pharo/issues/detail?id=6486
 	
-Issue 6534:	Morphic+Polymorph changes
-	http://code.google.com/p/pharo/issues/detail?id=6534
-
-Issue 6536:	add convenience BlockClosure>>#valueWithoutNotification
-	http://code.google.com/p/pharo/issues/detail?id=6536
+Issue 6488:	Fix SplitterMorph
+	http://code.google.com/p/pharo/issues/detail?id=6488
 	
-Issue 6537:	gofer tests is using #doSilently:
-	http://code.google.com/p/pharo/issues/detail?id=6537'
+Issue 6543:	GeneralScrollPane>>#newScroller is wrongly assigning red color
+	http://code.google.com/p/pharo/issues/detail?id=6543'

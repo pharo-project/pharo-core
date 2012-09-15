@@ -1,11 +1,9 @@
 copying
 postCopy
-
-	1 to: self literals size do: [:index |
-		| literal |
-		literal := self literalAt: index.
-
-		literal class == AdditionalMethodState ifTrue: [
-			literal := literal copy.
-			self literalAt: index put: literal.
-			self fixAdditionalMethodStateMethodReference: literal]].
+	| penultimateLiteral |
+	(penultimateLiteral := self penultimateLiteral) isMethodProperties ifTrue:
+		[self penultimateLiteral: (penultimateLiteral copy
+									setMethod: self;
+									yourself).
+		 self penultimateLiteral pragmas do:
+			[:p| p setMethod: self]]
