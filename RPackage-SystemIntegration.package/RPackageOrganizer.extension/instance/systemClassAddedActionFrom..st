@@ -1,9 +1,8 @@
 *RPackage-SystemIntegration
 systemClassAddedActionFrom: ann
 
-	| classNameSymbol class rPackage categoryNameSymbol |
-	classNameSymbol := ann itemClassSymbol.
-	class := ann itemClass.
+	| class rPackage categoryNameSymbol |
+	class := ann classAffected.
 	categoryNameSymbol := class category.
 	rPackage := packages at: categoryNameSymbol ifAbsent: [
 		"a class may be defined for a package that does not yet exist. In this case we have to create first the new package"

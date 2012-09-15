@@ -1,3 +1,3 @@
 change logging
 methodRecategorized: anEvent
-	self reorganizeClass: anEvent itemClass
+	self reorganizeClass: anEvent methodClass

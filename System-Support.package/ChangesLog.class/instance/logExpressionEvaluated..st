@@ -1,3 +1,3 @@
 event-listening
 logExpressionEvaluated: announcement
-	self logChange: announcement expression.
+	self logChange: announcement expressionEvaluated.

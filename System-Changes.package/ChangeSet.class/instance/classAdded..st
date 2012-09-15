@@ -1,3 +1,3 @@
 change logging
 classAdded: anEvent
-	self addClass: anEvent item
+	self addClass: anEvent classAdded

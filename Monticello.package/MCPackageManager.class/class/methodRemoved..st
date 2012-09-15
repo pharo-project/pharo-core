@@ -1,3 +1,3 @@
 system changes
 methodRemoved: anEvent
-	self managersForClass: anEvent itemClass category: anEvent itemProtocol do:[:mgr| mgr modified: true].
+	self managersForClass: anEvent methodClass category: anEvent protocol do:[:mgr| mgr modified: true].

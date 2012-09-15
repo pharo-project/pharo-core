@@ -10,11 +10,11 @@ systemMethodRecategorizedActionFrom: ann
 		
 	|oldProtocol newProtocol method methodPackage destinationPackage|
 	self flag: #cyrille.
-	oldProtocol := ann itemOldProtocol.
+	oldProtocol := ann oldProtocol.
 	"old protocol might be nil:"
 	oldProtocol asString ifNil: [oldProtocol := ''].
-	newProtocol := ann  itemNewProtocol.
-	method := ann item.
+	newProtocol := ann  newProtocol.
+	method := ann methodRecategorized.
 	
 	"1). See compiledMethod >> packageFromOrganizer:"
 	
@@ -23,7 +23,7 @@ systemMethodRecategorizedActionFrom: ann
 	
 	method isNil ifFalse: [
 		"If the method origin is not the one of the event, we do not care about that method"
-		method origin = ann itemClass ifFalse: [^ self].
+		method origin = ann methodClass ifFalse: [^ self].
 		
 		methodPackage := method packageFromOrganizer: self.
 		"if newProtocol is nil, it means that we are in a 'methodRemoved' case. Nothing should be modified (all the work will be done when catching methodRemovedAnnouncement) " 

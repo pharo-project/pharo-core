@@ -2,7 +2,7 @@ method reference creation
 createARemovalMethodReference: aRemovedEvent
 	
 	| method |
-	method := aRemovedEvent item.
+	method := aRemovedEvent methodRemoved.
 	^ RGMethodDefinition
 		realClass: method methodClass 
 		selector: method selector

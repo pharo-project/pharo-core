@@ -2,7 +2,7 @@ system announcements
 classRenamed: anAnnouncement
 	
 	| class |
-	class := anAnnouncement item.
+	class := anAnnouncement classRenamed.
 	window ifNil: [ ^ self].
 	window isDisplayed ifFalse: [ ^ self ].
 	((self showGroups 

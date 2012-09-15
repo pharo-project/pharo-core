@@ -6,7 +6,7 @@ classCommented: anAnnouncement
 	window ifNil: [ ^ self ].
 	window isDisplayed ifFalse: [ ^ self ].
 
-	aClass := anAnnouncement item.	
+	aClass := anAnnouncement classCommented.	
 	(self getList2 includes: aClass)
 		ifTrue: [ self removeFromClassesIconsCache: aClass ].
 	

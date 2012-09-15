@@ -1,3 +1,3 @@
 change logging
 classRecategorized: anEvent
-	self changeClass: anEvent item from: anEvent item
+	self changeClass: anEvent classRecategorized from: anEvent classRecategorized

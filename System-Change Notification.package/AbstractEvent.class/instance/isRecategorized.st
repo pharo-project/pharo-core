@@ -1,4 +1,0 @@
-testing
-isRecategorized
-
-	^false

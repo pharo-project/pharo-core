@@ -1,3 +1,3 @@
 change logging
 classReorganized: anEvent
-	self reorganizeClass: anEvent item
+	self reorganizeClass: anEvent classReorganized

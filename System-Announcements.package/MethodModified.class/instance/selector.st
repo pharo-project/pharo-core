@@ -1,3 +1,3 @@
 accessing
 selector
-	^ newMethod.
+	^ selector

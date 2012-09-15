@@ -3,8 +3,8 @@ systemClassRenamedActionFrom: ann
 	"When a class is renamed, we update its package as well as the organizer"
 	
 	| newName oldName class rPackage extendingRPackages packageName |
-	class := ann itemClass.
-	packageName := ann itemPackageName.
+	class := ann classAffected.
+	packageName := ann category.
 	oldName := ann oldName.
 	newName := ann newName.
 	rPackage := self packageNamed: packageName.

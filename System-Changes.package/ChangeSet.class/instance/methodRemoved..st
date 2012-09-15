@@ -1,3 +1,7 @@
 change logging
 methodRemoved: anEvent
-	self removeSelector: anEvent itemSelector class: anEvent itemClass priorMethod: anEvent item lastMethodInfo: {anEvent item sourcePointer. anEvent itemProtocol}
+	self
+		removeSelector: anEvent selector
+		class: anEvent methodClass
+		priorMethod: anEvent methodRemoved
+		lastMethodInfo: {anEvent methodRemoved sourcePointer. anEvent protocol}

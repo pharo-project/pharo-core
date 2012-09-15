@@ -3,5 +3,5 @@ classReorganized: anAnnouncement
 	
 	window ifNil: [ ^ self ].
 	window isDisplayed ifFalse: [ ^ self ].
-	anAnnouncement item = self selectedClass
-		ifTrue: [	self update ].
+	anAnnouncement classReorganized = self selectedClass
+		ifTrue: [ self update ].

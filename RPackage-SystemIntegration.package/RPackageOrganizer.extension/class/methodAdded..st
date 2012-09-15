@@ -2,14 +2,10 @@
 methodAdded: anEvent
 	"precondition: package exist, class exist"
 	
-	"| cm |
-	cm := anEvent item.
-	cm isValid ifFalse: [^self]. " "to eliminate comment and doit crap"
 	| methodCategory |
-	methodCategory := anEvent itemProtocol.
-	(methodCategory isEmptyOrNil or:[methodCategory first ~= $*]) 
-		ifTrue: [ ]
-		ifFalse: [(self isPackageDefinedForClass: anEvent itemClass)
-					ifFalse: [self packageClass new named: (Smalltalk organization categoryOfElement: anEvent itemClass asSymbol) ].
-	].
-	
+	methodCategory := anEvent protocol.
+	(methodCategory isEmptyOrNil or:[ methodCategory first ~= $* ]) 
+		ifFalse: [
+			(self isPackageDefinedForClass: anEvent methodClass)
+					ifFalse: [self packageClass new named: (Smalltalk organization categoryOfElement: anEvent methodClass theNonMetaClass asSymbol) ].
+		].

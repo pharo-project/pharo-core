@@ -1,3 +1,7 @@
 change logging
 methodModified: anEvent
-	self noteNewMethod: anEvent item forClass: anEvent itemClass selector: anEvent itemSelector priorMethod: anEvent oldItem
+	self
+		noteNewMethod: anEvent newMethod
+		forClass: anEvent methodClass
+		selector: anEvent selector
+		priorMethod: anEvent oldMethod

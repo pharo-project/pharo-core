@@ -1,6 +1,6 @@
 system changes
 methodMoved: anEvent
-	self managersForClass: anEvent itemClass 
-		category: anEvent itemOldProtocol do: 
+	self managersForClass: anEvent methodClass 
+		category: anEvent oldProtocol do: 
 			[ :mgr | mgr modified: true ].
 	self methodModified: anEvent.

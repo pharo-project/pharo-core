@@ -4,7 +4,7 @@ methodAdded: anAnnouncement
 		
 	self isDisplayed ifFalse: [ ^ self ].
 	refreshingBlockHolder ifNil: [ ^ self ].
-	item := anAnnouncement item.
+	item := anAnnouncement method.
 	(refreshingBlockHolder contents cull: item cull: anAnnouncement cull: self) ifFalse: [ ^ self ].
 	
 	WorldState addDeferredUIMessage: [ 	| sel text boolean |

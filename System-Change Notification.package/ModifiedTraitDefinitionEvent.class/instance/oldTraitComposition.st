@@ -1,3 +1,0 @@
-accessing
-oldTraitComposition
-	^ oldItem traitComposition

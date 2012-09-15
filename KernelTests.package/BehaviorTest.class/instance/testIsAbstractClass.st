@@ -9,7 +9,7 @@ testIsAbstractClass
 	
 	"AbstractEvent does not have an abstract method, but its class yes"
 	"AbstractEvent class>>changeKind is abstract, therefore the class is abstract"
-	self assert: AbstractEvent isAbstractClass.
-	self assert: AbstractEvent class isAbstractClass.
+	self assert: DiskStore isAbstractClass.
+	self assert: DiskStore class isAbstractClass.
 	
 	

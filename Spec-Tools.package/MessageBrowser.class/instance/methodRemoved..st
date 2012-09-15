@@ -4,7 +4,7 @@ methodRemoved: anAnnouncement
 
 	self isDisplayed ifFalse: [ ^ self ].
 	refreshingBlockHolder ifNil: [ ^ self ].
-	item := anAnnouncement item.
+	item := anAnnouncement methodRemoved.
 	"Item is a compiled methed, where the list is populated with RGMethod"
 	
 	(refreshingBlockHolder contents cull: item cull: anAnnouncement cull: self)

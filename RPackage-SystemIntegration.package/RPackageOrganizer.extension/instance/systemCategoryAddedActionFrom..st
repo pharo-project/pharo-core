@@ -2,7 +2,7 @@
 systemCategoryAddedActionFrom: ann
 
 	| rPackage packageSymbol |
-	packageSymbol := ann item asSymbol.
+	packageSymbol := ann categoryName asSymbol.
 	(self includesPackageNamed: packageSymbol)
 		ifFalse: [ 
 			rPackage := self packageClass named: packageSymbol.

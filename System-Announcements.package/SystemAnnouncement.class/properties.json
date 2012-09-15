@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"event",
 		"timeStamp" ],
 	"name" : "SystemAnnouncement",
 	"pools" : [

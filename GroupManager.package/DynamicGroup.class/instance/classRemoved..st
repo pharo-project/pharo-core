@@ -2,7 +2,7 @@ announcements
 classRemoved: anAnnouncement
 	| class |
 	
-	class := anAnnouncement removedClass theNonMetaClass.
+	class := anAnnouncement classRemoved theNonMetaClass.
 	blocks copy do: [:b | (b value anySatisfy: [:e | e methodClass theNonMetaClass = class])
 								ifTrue: [ | col |
 									col := OrderedCollection new.

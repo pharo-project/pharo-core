@@ -2,7 +2,7 @@ announcements
 classRemoved: anAnnouncement
 	| class |
 	
-	class := anAnnouncement removedClass.
+	class := anAnnouncement classRemoved.
 	
 	blocks copy do: [:b | 
 		(b value anySatisfy: [:c | c = class ])

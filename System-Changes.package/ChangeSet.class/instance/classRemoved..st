@@ -1,3 +1,3 @@
 change logging
 classRemoved: anEvent
-	self noteRemovalOf: anEvent item.
+	self noteRemovalOf: anEvent classRemoved.

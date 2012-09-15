@@ -2,8 +2,8 @@ announcements
 methodModified: anAnnouncement
 	| method new |
 	
-	method := anAnnouncement oldItem.
-	new := anAnnouncement item.
+	method := anAnnouncement oldMethod.
+	new := anAnnouncement newMethod.
 
 	blocks copy do:[: b |
 			(b value anySatisfy: [:e | e == method ])

@@ -4,8 +4,8 @@ methodModified: anAnnouncement
 	
 	self isDisplayed ifFalse: [ ^ self ].
 	refreshingBlockHolder ifNil: [ ^ self ].
-	item := anAnnouncement item.
-	oldItem := anAnnouncement oldItem.
+	item := anAnnouncement newMethod.
+	oldItem := anAnnouncement oldMethod.
 	sel := listModel selectedItem.
 	sel ifNil: [ ^ self ].
 	(sel notNil and: [(sel methodClass = oldItem methodClass and: [ sel selector = oldItem selector ])]) ifFalse: [ ^ self ].

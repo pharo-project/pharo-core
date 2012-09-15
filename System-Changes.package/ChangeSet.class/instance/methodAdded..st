@@ -1,3 +1,3 @@
 change logging
 methodAdded: anEvent
-	self noteNewMethod: anEvent item forClass: anEvent itemClass selector: anEvent itemSelector priorMethod: nil
+	self noteNewMethod: anEvent method forClass: anEvent methodClass selector: anEvent selector priorMethod: nil

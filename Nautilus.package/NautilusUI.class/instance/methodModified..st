@@ -7,13 +7,13 @@ methodModified: anAnnouncement
 	
 	collection := self getList2.
 	
-	(collection includes: anAnnouncement itemClass)
+	(collection includes: anAnnouncement methodClass)
 		ifTrue: [
 			| method |
-			method := anAnnouncement item.	
+			method := anAnnouncement newMethod.	
 			self removeFromMethodsIconsCache: method.
 			self updateClassView.
-			self selectedMethod = anAnnouncement oldItem
+			self selectedMethod = anAnnouncement oldMethod
 				ifTrue: [
 					sourceTextArea hasUnacceptedEdits
 						ifTrue: [ | sourceCode |

@@ -1,3 +1,0 @@
-accessing
-oldClassVarNames
-	^ oldItem classVarNames

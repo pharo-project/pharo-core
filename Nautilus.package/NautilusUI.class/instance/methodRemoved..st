@@ -5,10 +5,10 @@ methodRemoved: anAnnouncement
 	window ifNil: [ ^ self ].
 	window isDisplayed ifFalse: [ ^ self ].
 		
-	method := anAnnouncement item.
+	method := anAnnouncement methodRemoved.
 	(method methodClass = self selectedClass)
 		ifTrue: [ 
-			self selectedMethod = anAnnouncement item
+			self selectedMethod = anAnnouncement methodRemoved
 				ifTrue: [ self selectedMethod: nil ].
 			self resetMethodsListSelection.
 			self removeAllFromMethodsIconsCache: method.

@@ -1,4 +1,4 @@
 method reference creation
 createAClassReference: aCommentedEvent
 
-	^RGCommentDefinition realClass: aCommentedEvent item
+	^RGCommentDefinition realClass: aCommentedEvent classCommented

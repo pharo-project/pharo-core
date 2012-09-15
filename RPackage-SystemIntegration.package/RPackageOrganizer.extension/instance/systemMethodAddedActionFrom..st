@@ -3,13 +3,13 @@ systemMethodAddedActionFrom: ann
 
 	|class selector protocol method rPackage |
 
-	class := ann itemClass.
-	protocol := ann itemProtocol ifNil: [ '' ].
-	selector := ann itemSelector.
-	method := ann itemMethod.
+	class := ann methodClass.
+	protocol := ann protocol ifNil: [ '' ].
+	selector := ann selector.
+	method := ann method.
 	
 	"If the method origin is not the one of the event, we do not care about that method"
-	method origin = ann itemClass ifFalse: [^ self].
+	method origin = ann methodClass ifFalse: [^ self].
 	
 	"we have to register the method in the parent RPackage of the class. 
 	to do that, we first have to look if the method is an extension from an external package:"

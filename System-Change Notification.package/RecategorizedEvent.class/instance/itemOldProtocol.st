@@ -1,4 +1,0 @@
-accessing
-itemOldProtocol
-
-	^ self oldCategory

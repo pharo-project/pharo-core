@@ -2,17 +2,17 @@
 systemMethodRemovedActionFrom: ann
 
 	| method methodPackage |
-	method := ann itemMethod.
+	method := ann methodAffected.
 
 	"If the method origin is not the one of the event, we do not care about that method"
-	method origin = ann itemClass ifFalse: [^ self].
+	method origin = ann methodClass ifFalse: [^ self].
 
-	ann itemClass isMeta
+	ann methodClass isMeta
 		ifFalse: [ 
-			methodPackage := self packageDefiningOrExtendingSelector: ann itemSelector inClassNamed: ann itemClass theNonMetaClass originalName.
-			methodPackage removeSelector: ann itemSelector ofClassName: ann itemClass theNonMetaClass originalName.
+			methodPackage := self packageDefiningOrExtendingSelector: ann selector inClassNamed: ann methodClass theNonMetaClass originalName.
+			methodPackage removeSelector: ann selector ofClassName: ann methodClass theNonMetaClass originalName.
 		]
 		ifTrue: [ 
-			methodPackage := self packageDefiningOrExtendingSelector: ann itemSelector inMetaclassNamed: ann itemClass theNonMetaClass originalName.
-			methodPackage removeSelector: ann itemSelector ofMetaclassName: ann itemClass theNonMetaClass originalName.
+			methodPackage := self packageDefiningOrExtendingSelector: ann selector inMetaclassNamed: ann methodClass theNonMetaClass originalName.
+			methodPackage removeSelector: ann selector ofMetaclassName: ann methodClass theNonMetaClass originalName.
 		]

@@ -3,7 +3,7 @@ systemClassRecategorizedActionFrom: ann
 
 	| class newRPackage oldRPackage newCategoryName oldCategoryName|
 	"self flag: 'seems to be ok'."
-	class := ann itemClass.	
+	class := ann classAffected.	
 	newCategoryName := ann newCategory asSymbol.
 	oldCategoryName := ann oldCategory asSymbol.
 	oldRPackage := self packageNamed: oldCategoryName.

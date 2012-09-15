@@ -16,7 +16,7 @@ systemClassReorganizedActionFromBis: ann
 		=> we check that each extending rPackage contain all methods from the corresponding extension category (as extension methods)
 		=> the parentPackage of the class includes all methods defined in classic categories
 	".
-	class := ann itemClass.
+	class := ann methodClass.
 	class organization categories do: [:aString |
 		(aString beginsWith: '*')
 			ifTrue: [
@@ -29,7 +29,7 @@ systemClassReorganizedActionFromBis: ann
 					(class methodsInCategory: aString) do: [:aMethodsSelector |
 					
 					"If the method origin is not the one of the event, we do not care about that method"
-					(class >> aMethodsSelector) origin = ann itemClass ifFalse: [^self].
+					(class >> aMethodsSelector) origin = ann methodClass ifFalse: [^self].
 						((extendingPackage extensionMethodsForClass: class) includes: (class methodDict at: aMethodsSelector))
 							ifFalse: [
 								"if a method has not been yet registered in the rPackage, we add it"

@@ -1,5 +1,5 @@
 private
 event: anEvent
-	anEvent item ifNil: [ ^self ].
-	((anEvent item pragmas collect: #keyword) includesAnyOf: self pragmas )
+	anEvent methodAffected ifNil: [ ^self ].
+	((anEvent methodAffected pragmas collect: #keyword) includesAnyOf: self pragmas )
 		ifTrue: [ self uniqueInstance reset ]

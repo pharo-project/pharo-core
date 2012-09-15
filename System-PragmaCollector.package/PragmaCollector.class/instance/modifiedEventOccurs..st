@@ -10,13 +10,13 @@ modifiedEventOccurs: anEvent
 	acceptable pragma in it, then the handler is removed.
 	"
 	Pragma
-		withPragmasIn: anEvent itemClass
-		do: [:pragma | pragma selector = anEvent itemSelector
+		withPragmasIn: anEvent methodClass
+		do: [:pragma | pragma selector = anEvent selector
 				ifTrue: [(self 
 								detect: [:oldprag | oldprag selector = pragma selector
-										and: [oldprag methodClass = anEvent itemClass]])
+										and: [oldprag methodClass = anEvent methodClass]])
 						ifNotNil: [:oldprag | ^ self updatePragma: oldprag].
 					^ self addPragma: pragma]].
 	"No pragma but an handler for the method"
-	(self pragmaWithSelector: anEvent itemSelector inClass: anEvent itemClass)
+	(self pragmaWithSelector: anEvent selector inClass: anEvent methodClass)
 		ifNotNil: [:found | self removePragma: found]

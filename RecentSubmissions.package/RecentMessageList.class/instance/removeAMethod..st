@@ -2,7 +2,7 @@ private
 removeAMethod: aRemovedEvent
 	
 	| method list |
-	method := aRemovedEvent item.
+	method := aRemovedEvent methodRemoved.
 	list := (self methodReferenceList select: [:each |  
 						each className = method methodClass name
 							and:[ each name = method selector ]]).

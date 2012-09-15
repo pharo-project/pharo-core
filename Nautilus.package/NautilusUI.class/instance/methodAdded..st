@@ -5,7 +5,7 @@ methodAdded: anAnnouncement
 	window ifNil: [ ^ self ].
 	window isDisplayed ifFalse: [ ^ self ].
 	
-	method := anAnnouncement item.
+	method := anAnnouncement method.
 	(method methodClass = self selectedClass)
 		ifTrue: [ 
 			self resetMethodsListSelection.

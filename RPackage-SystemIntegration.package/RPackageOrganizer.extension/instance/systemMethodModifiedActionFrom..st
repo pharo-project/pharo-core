@@ -19,7 +19,7 @@ systemMethodModifiedActionFrom: ann
 	We should remove this method to see if this is working."
 	
 	"If the method origin is not the one of the event, we do not care about that method"
-	newMethod origin = ann itemClass ifFalse: [^ self].
+	newMethod origin = ann methodClass ifFalse: [^ self].
 
 	methodPackage := newMethod packageFromOrganizer: self.
 	"maybe the name of the method has changed"
