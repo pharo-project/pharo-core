@@ -9,8 +9,6 @@
 		"annotationNamed:put:" : "VeronicaUquillas 7/19/2011 14:21",
 		"annotationNames" : "VeronicaUquillas 11/25/2010 17:25",
 		"annotations" : "VeronicaUquillas 6/28/2011 15:16",
-		"environment" : "VeronicaUquillas 8/7/2012 11:15",
-		"environment:" : "VeronicaUquillas 8/7/2012 11:15",
 		"factory" : "VeronicaUquillas 4/28/2011 17:29",
 		"hasAnnotationNamed:" : "VeronicaUquillas 11/25/2010 17:25",
 		"hasAnnotations" : "VeronicaUquillas 11/25/2010 17:25",
@@ -31,5 +29,4 @@
 		"isSlice" : "VeronicaUquillas 3/20/2011 17:56",
 		"isTrait" : "VeronicaUquillas 3/20/2011 16:55",
 		"isVariable" : "VeronicaUquillas 3/20/2011 16:54",
-		"removeAnnotationNamed:" : "VeronicaUquillas 11/25/2010 17:26",
-		"rootEnvironment" : "VeronicaUquillas 8/7/2012 11:15" } }
+		"removeAnnotationNamed:" : "VeronicaUquillas 11/25/2010 17:26" } }
