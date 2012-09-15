@@ -1,4 +1,4 @@
-environment-temporarily here
+accessing
 environment: namespace
 
 	namespace = self class environment

@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "VeronicaUquillas 4/19/2011 16:07",
 	"instvars" : [
-		"annotations",
-		"environment" ],
+		"annotations" ],
 	"name" : "RGObject",
 	"pools" : [
 		 ],

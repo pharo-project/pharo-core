@@ -10,7 +10,7 @@ parseTimestampFrom: aString default: anObject
 		<date><authorname>
 		<historical>
 	All fields can be separated by spaces or line ends but a separator between authorname and date can be missing as well"
-	unknown:= anObject..
+	unknown:= anObject.
 	aString isEmptyOrNil ifTrue:[ ^unknown ].
 	dateStartIndex := (aString indexOf: $/) - 1. 
 	"If there is no / character in the timestamp, we cannot parse a date and return the epoch"

@@ -11,4 +11,4 @@ isExtension
 					       value :=  self parent package ~= self package.
 						 self annotationNamed: self class isExtensionKey put: value.
 						 value ]
-				ifFalse: [ self protocol beginsWith: '*' ] ]
+				ifFalse: [ self protocol ifNil:[ false ] ifNotNil:[ :prot|  prot beginsWith: '*' ] ] ]

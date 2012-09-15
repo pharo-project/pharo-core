@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "VeronicaUquillas 4/19/2011 16:08",
+	"commentStamp" : "",
 	"instvars" : [
-		"name" ],
-	"name" : "RGNamedDefinition",
+		 ],
+	"name" : "RGDefinition",
 	"pools" : [
 		 ],
-	"super" : "RGDefinition",
+	"super" : "RGObject",
 	"type" : "normal" }

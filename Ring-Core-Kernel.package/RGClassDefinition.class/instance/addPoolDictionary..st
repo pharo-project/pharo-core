@@ -1,5 +1,5 @@
 pool dictionaries
-addPoolDictionary: RGPoolVariableDefinition
+addPoolDictionary: aRGPoolVariableDefinition
 
-	self addVariable: (RGPoolVariableDefinition parent: self) 
+	self addVariable: (aRGPoolVariableDefinition parent: self) 
 		in: poolDictionaries
