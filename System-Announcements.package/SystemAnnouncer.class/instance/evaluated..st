@@ -1,3 +1,3 @@
-as yet unclassified
+triggering
 evaluated: textOrStream
 	^ self evaluated: textOrStream context: nil.

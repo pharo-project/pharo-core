@@ -2,11 +2,6 @@
 	"class" : {
 		"methodRemoved:selector:protocol:class:" : "GuillermoPolito 8/2/2012 00:49" },
 	"instance" : {
-		"item" : "GuillermoPolito 8/2/2012 00:49",
-		"itemClass" : "GuillermoPolito 8/2/2012 00:49",
-		"itemMethod" : "GuillermoPolito 8/2/2012 00:49",
-		"itemProtocol" : "GuillermoPolito 8/2/2012 00:49",
-		"itemSelector" : "GuillermoPolito 8/2/2012 00:49",
 		"methodAffected" : "GuillermoPolito 8/3/2012 14:10",
 		"methodClass" : "GuillermoPolito 8/2/2012 00:49",
 		"methodClass:" : "GuillermoPolito 8/2/2012 00:48",

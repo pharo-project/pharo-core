@@ -2,4 +2,4 @@ protocol
 register: aGroup
 
 	groups add: aGroup.
-	GroupAnnouncer announcer announce: (AGroupHasBeenRegistered with: aGroup)
+	GroupAnnouncer uniqueInstance announce: (AGroupHasBeenRegistered with: aGroup)

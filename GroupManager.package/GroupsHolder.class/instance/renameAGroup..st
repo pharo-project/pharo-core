@@ -9,5 +9,5 @@ renameAGroup: aGroup
 	aGroup isReadOnly
 		ifTrue: [ ^ self openReadOnlyError ].
 	aGroup name: entry.
-	GroupAnnouncer announcer announce: ( AGroupHasBeenRenamed group: aGroup from: self ).
+	GroupAnnouncer uniqueInstance announce: ( AGroupHasBeenRenamed group: aGroup from: self ).
 	^ aGroup	

@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 isSuspended
 	^suspended ifNil: [ suspended := false ]

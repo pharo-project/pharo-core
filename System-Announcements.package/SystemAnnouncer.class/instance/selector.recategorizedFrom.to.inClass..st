@@ -1,4 +1,4 @@
-as yet unclassified
+triggering
 selector: selector recategorizedFrom: oldCategory to: newCategory inClass: aClass
 
 	self announce: (MethodRecategorized 

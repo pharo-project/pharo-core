@@ -4,7 +4,7 @@
 		"announcer" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"suspended",
 		"private" ],

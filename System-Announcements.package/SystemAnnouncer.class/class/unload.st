@@ -1,3 +1,3 @@
-as yet unclassified
+initialization
 unload
 	self uniqueInstance unsubscribe: self

@@ -12,5 +12,5 @@ addADynamicClassGroupNamed: entry block: aBlock
 								named: entry 
 								block: aBlock).
 								
-			GroupAnnouncer announcer announce: ( AGroupHasBeenAdded group: group into: self ).
+			GroupAnnouncer uniqueInstance announce: ( AGroupHasBeenAdded group: group into: self ).
 			^ group]

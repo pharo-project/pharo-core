@@ -6,5 +6,5 @@ removeAGroupSilently: aGroup
 	 aGroup removable
 		ifFalse: [ ^ self openReadOnlyError ].
 	group :=  self groups remove: aGroup ifAbsent: [].
-	GroupAnnouncer announcer announce: ( AGroupHasBeenRemoved group: aGroup from: self ).
+	GroupAnnouncer uniqueInstance announce: ( AGroupHasBeenRemoved group: aGroup from: self ).
 	^ group

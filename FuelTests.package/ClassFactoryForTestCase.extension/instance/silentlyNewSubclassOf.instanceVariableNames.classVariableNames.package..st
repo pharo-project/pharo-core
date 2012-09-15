@@ -2,7 +2,7 @@
 silentlyNewSubclassOf: aClass instanceVariableNames: ivNamesString classVariableNames:  classVarsString package: packageName
 
 	| default newClass |
-	SystemAnnouncer uniqueInstance doSilently: [
+	SystemAnnouncer uniqueInstance suspendAllWhile: [
 		newClass := aClass 
 			subclass: self newName 
 			instanceVariableNames: ivNamesString 

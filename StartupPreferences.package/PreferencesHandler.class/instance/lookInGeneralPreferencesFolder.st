@@ -1,4 +1,4 @@
 actions
 lookInGeneralPreferencesFolder
 
-	^ self lookInFolder: StartupLoader preferencesGeneralFolder.
+	^ self lookInFolder: StartupLoader preferencesGeneralFolder forFilesMatching: '*.st'.

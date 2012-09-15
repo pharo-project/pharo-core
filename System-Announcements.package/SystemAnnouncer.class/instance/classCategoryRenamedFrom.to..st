@@ -1,4 +1,4 @@
-as yet unclassified
+triggering
 classCategoryRenamedFrom: anOldClassCategoryName to: aNewClassCategoryName
 
 	self announce: (CategoryRenamed

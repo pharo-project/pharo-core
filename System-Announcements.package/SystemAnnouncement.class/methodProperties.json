@@ -2,9 +2,7 @@
 	"class" : {
 		"fromInternal:" : "StephaneDucasse 4/13/2011 17:03" },
 	"instance" : {
-		"event" : "GuillermoPolito 8/2/2012 10:24",
 		"initialize" : "GuillermoPolito 8/3/2012 13:20",
-		"item" : "GuillermoPolito 8/2/2012 10:24",
 		"setTimeStamp" : "StephaneDucasse 8/9/2011 23:05",
 		"timeStamp" : "StephaneDucasse 8/9/2011 23:04",
 		"timeStamp:" : "StephaneDucasse 8/9/2011 23:04" } }

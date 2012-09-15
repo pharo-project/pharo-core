@@ -1,4 +1,4 @@
-as yet unclassified
+triggering
 methodAdded: aMethod
 
 	^ self methodAdded: aMethod selector: aMethod selector inClass: aMethod methodClass 

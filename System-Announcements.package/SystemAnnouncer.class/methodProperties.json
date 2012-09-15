@@ -7,7 +7,6 @@
 		"unload" : "EstebanLorenzano 8/3/2012 13:58" },
 	"instance" : {
 		"announce:" : "EstebanLorenzano 8/3/2012 13:56",
-		"basicAnnounce:" : "EstebanLorenzano 8/3/2012 13:56",
 		"class:oldComment:newComment:oldStamp:newStamp:" : "GuillermoPolito 8/1/2012 23:56",
 		"class:recategorizedFrom:to:" : "GuillermoPolito 8/2/2012 10:14",
 		"classAdded:inCategory:" : "GuillermoPolito 8/1/2012 17:55",
@@ -19,7 +18,6 @@
 		"classRemoved:fromCategory:" : "GuillermoPolito 8/2/2012 00:30",
 		"classRenamed:from:to:inCategory:" : "GuillermoPolito 8/2/2012 00:34",
 		"classReorganized:" : "GuillermoPolito 8/2/2012 00:37",
-		"doSilently:" : "EstebanLorenzano 8/3/2012 15:30",
 		"evaluated:" : "EstebanLorenzano 7/27/2012 15:39",
 		"evaluated:context:" : "GuillermoPolito 8/2/2012 00:43",
 		"isSuspended" : "EstebanLorenzano 7/27/2012 11:04",

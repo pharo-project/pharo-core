@@ -2,11 +2,6 @@
 	"class" : {
 		"method:selector:class:newProtocol:oldProtocol:" : "GuillermoPolito 8/2/2012 09:59" },
 	"instance" : {
-		"item" : "GuillermoPolito 8/2/2012 10:11",
-		"itemClass" : "GuillermoPolito 8/2/2012 09:59",
-		"itemNewProtocol" : "GuillermoPolito 8/2/2012 09:59",
-		"itemOldProtocol" : "GuillermoPolito 8/2/2012 09:59",
-		"itemSelector" : "GuillermoPolito 8/2/2012 09:59",
 		"methodAffected" : "GuillermoPolito 8/3/2012 14:10",
 		"methodClass" : "GuillermoPolito 8/2/2012 09:57",
 		"methodClass:" : "GuillermoPolito 8/2/2012 09:57",

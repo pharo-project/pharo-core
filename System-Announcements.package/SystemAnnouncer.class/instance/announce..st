@@ -1,4 +1,4 @@
-as yet unclassified
+announce
 announce: anAnnouncement
 	self isSuspended 
 		ifFalse: [ 

@@ -7,5 +7,5 @@ named: aString block: aBlock
 					block: aBlock;
 					initialize;
 					yourself.
-	GroupAnnouncer announcer announce: (AGroupHasBeenCreated group: instance).
+	GroupAnnouncer uniqueInstance announce: (AGroupHasBeenCreated group: instance).
 	^ instance

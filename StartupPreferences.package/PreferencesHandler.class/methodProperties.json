@@ -2,10 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildActionList" : "SeanDeNigris 7/8/2012 11:53",
-		"initialize" : "MarianoMartinezPeck 5/7/2012 22:06",
+		"buildActionList" : "SeanDeNigris 8/4/2012 10:48",
+		"initialize" : "SeanDeNigris 8/4/2012 10:48",
 		"lookInFolder:" : "SeanDeNigris 7/8/2012 11:56",
-		"lookInGeneralPreferencesFolder" : "SeanDeNigris 7/8/2012 11:50",
-		"lookInImageFolder" : "SeanDeNigris 7/8/2012 11:53",
-		"lookInPreferencesVersionFolder" : "SeanDeNigris 7/8/2012 11:52",
-		"perform" : "MarianoMartinezPeck 5/7/2012 18:15" } }
+		"lookInFolder:forFilesMatching:" : "SeanDeNigris 8/4/2012 10:56",
+		"lookInGeneralPreferencesFolder" : "SeanDeNigris 8/4/2012 10:53",
+		"lookInImageFolder" : "SeanDeNigris 8/4/2012 11:26",
+		"lookInPreferencesVersionFolder" : "SeanDeNigris 8/4/2012 10:53",
+		"perform" : "SeanDeNigris 8/4/2012 10:53" } }

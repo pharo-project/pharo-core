@@ -1,4 +1,4 @@
-as yet unclassified
+triggering
 evaluated: expression context: aContext
 	self announce: (ExpressionEvaluated 
 				expression: expression

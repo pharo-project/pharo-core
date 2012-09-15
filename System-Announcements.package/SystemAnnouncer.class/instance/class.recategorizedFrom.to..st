@@ -1,4 +1,4 @@
-as yet unclassified
+triggering
 class: aClass recategorizedFrom: oldCategory to: newCategory 
 	self announce: (ClassRecategorized 
 						class: aClass

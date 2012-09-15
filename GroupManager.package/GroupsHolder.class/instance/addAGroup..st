@@ -6,4 +6,4 @@ addAGroup: aGroup
 			self openError.
 			^ nil].
 	self groups add: aGroup.
-	GroupAnnouncer announcer announce: ( AGroupHasBeenAdded group: aGroup into: self ).
+	GroupAnnouncer uniqueInstance announce: ( AGroupHasBeenAdded group: aGroup into: self ).
