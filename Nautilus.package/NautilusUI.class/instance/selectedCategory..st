@@ -8,6 +8,6 @@ selectedCategory: anObject
 			self resetMethodsListSelection.
 			anObject ifNotNil: [ self giveFocusTo: categoryWidget ].
 			categoryWidget changed: #selectedCategoryIndex.
-			self changed: #sourceCode.
+			self changed: #sourceCodeFrom:.
 			^ true].
 	^ false

@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"acceptsLoggingOfCompilation" : "CamilloBruni 8/1/2012 15:57",
 		"addAndClassifySelector:withMethod:inProtocol:notifying:" : "EstebanLorenzano 8/3/2012 15:13",
 		"addAuthorsTo:" : "StephaneDucasse 11/6/2011 22:18",
 		"addInstVarNamed:" : "StephaneDucasse 8/27/2010 11:04",
@@ -17,7 +18,7 @@
 		"classThatDefinesClassVariable:" : "al 11/28/2005 11:50",
 		"classThatDefinesInstanceVariable:" : "al 11/28/2005 11:50",
 		"classVariablesString" : "nice 10/22/2009 09:39",
-		"classVersion" : "sd 6/27/2003 23:57",
+		"classVersion" : "CamilloBruni 8/1/2012 16:02",
 		"classesThatImplementAllOf:" : "di 2/17/2000 22:36",
 		"commentInventory" : "StephaneDucasse 10/6/2010 19:46",
 		"compile:classified:notifying:" : "CamilloBruni 4/27/2012 18:42",
@@ -82,4 +83,5 @@
 		"updateOrganizationSelector:oldCategory:newCategory:" : "CamilloBruni 4/27/2012 14:37",
 		"usesLocalPoolVarNamed:" : "MarianoMartinezPeck 12/16/2011 11:59",
 		"usesPoolVarNamed:" : "StephaneDucasse 12/13/2011 17:10",
-		"version" : "Alexandre Bergel 4/27/2010 14:08" } }
+		"version" : "Alexandre Bergel 4/27/2010 14:08",
+		"wantsChangeSetLogging" : "CamilloBruni 8/1/2012 16:18" } }

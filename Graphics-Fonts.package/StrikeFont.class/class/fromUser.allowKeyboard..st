@@ -1,10 +1,7 @@
 instance creation
 fromUser: priorFont allowKeyboard: aBoolean 
-	"rr 3/23/2004 10:02 : made the menu invoked modally, thus allowing
-	keyboard control"
+	"Present a menu of available fonts, and if one is chosen, return it. Otherwise return nil."
 	"StrikeFont fromUser"
-	"Present a menu of available fonts, and if one is chosen, return it.
-	Otherwise return nil."
 	| fontList fontMenu spec font style |
 	fontList := StrikeFont actualFamilyNames.
 	fontMenu := UIManager default newMenuIn: self for: self.

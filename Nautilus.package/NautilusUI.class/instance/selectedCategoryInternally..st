@@ -5,6 +5,6 @@ selectedCategoryInternally: anObject
 		ifTrue: [
 			self resetMethodsListSelection.
 			anObject ifNotNil: [ self giveFocusTo: categoryWidget ].
-			self changed: #sourceCode.
+			self changed: #sourceCodeFrom:.
 			^ true].
 	^ false

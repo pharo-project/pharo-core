@@ -4,8 +4,7 @@ correctVariable: proposedVariable interval: spot
 	variable if such action is requested.  We support declaring lowercase
 	variables as temps or inst-vars, and uppercase variables as Globals or 
 	ClassVars, depending on whether the context is nil (class=UndefinedObject).
-	Spot is the interval within the test stream of the variable.
-	rr 3/4/2004 10:26 : adds the option to define a new class. "
+	Spot is the interval within the test stream of the variable. "
 
 	"Check if this is an i-var, that has been corrected already (ugly)"
 

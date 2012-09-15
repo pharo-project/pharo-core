@@ -1,6 +1,6 @@
 editing keys
 save: aKeyboardEvent
-	"Submit the current text.  Equivalent to 'accept' 1/18/96 sw"
+	"Submit the current text.  Equivalent to 'accept'"
 
 	self closeTypeIn.
 	self accept.

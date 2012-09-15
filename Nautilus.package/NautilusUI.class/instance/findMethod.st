@@ -19,4 +19,4 @@ findMethod
 	
 	self updateBothView.
 	self update.
-	self changed: #sourceCode
+	self changed: #sourceCodeFrom:

@@ -19,8 +19,8 @@
 		"byteStream" : "",
 		"close" : "",
 		"contents" : "nk 3/12/2004 21:56",
-		"errorWriteReference:" : "yo 12/3/2004 17:14",
-		"flush" : "",
+		"errorWriteReference:" : "CamilloBruni 8/1/2012 16:05",
+		"flush" : "CamilloBruni 8/1/2012 16:06",
 		"getCurrentReference" : "",
 		"maybeBeginReference:" : "tk 4/8/1999 13:11",
 		"next" : "MarianoMartinezPeck 6/5/2012 15:22",
@@ -79,5 +79,5 @@
 		"writeStringOld:" : "tk 6/8/1998 21:23",
 		"writeSymbol:" : "TestRunner 1/21/2010 21:58",
 		"writeTrue:" : "",
-		"writeUser:" : "",
+		"writeUser:" : "CamilloBruni 8/1/2012 16:18",
 		"writeWordLike:" : "tk 2/5/2000 21:53" } }

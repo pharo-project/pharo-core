@@ -27,4 +27,4 @@ selectedClassWithoutChangingSelectionInternally: aClass
 			self update.
 			self changed: #isAClassSelected.
 			self changed: #getComments.
-			self changed: #sourceCode]
+			self changed: #sourceCodeFrom:]

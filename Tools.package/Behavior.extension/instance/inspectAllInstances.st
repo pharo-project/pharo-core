@@ -1,6 +1,6 @@
 *Tools-Inspector
 inspectAllInstances 
-	"Inpsect all instances of the receiver.  1/26/96 sw"
+	"Inspect all instances of the receiver."
 
 	| all allSize prefix |
 	all := self allInstances.

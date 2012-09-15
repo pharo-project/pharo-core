@@ -1,7 +1,6 @@
 *Polymorph-Widgets
 basicActivate
-	"Bring me to the front and make me able to respond to mouse and keyboard.
-	Was #activate (sw 5/18/2001 23:20)"
+	"Bring me to the front and make me able to respond to mouse and keyboard."
 
 	| oldTop outerMorph |
 	outerMorph := self topRendererOrSelf.

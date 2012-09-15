@@ -1,6 +1,7 @@
 converting
 stemAndNumericSuffix
-	"Parse the receiver into a string-valued stem and a numeric-valued suffix.  6/7/96 sw"
+	"Parse the receiver into a string-valued stem and a numeric-valued suffix."
+	"'Fred2305' stemAndNumericSuffix"
 
 	| stem suffix position |
 
@@ -12,5 +13,3 @@ stemAndNumericSuffix
 		position := position * 10.
 		stem := stem copyFrom: 1 to: stem size - 1].
 	^ Array with: stem with: suffix
-
-"'Fred2305' stemAndNumericSuffix"

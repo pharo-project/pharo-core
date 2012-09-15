@@ -1,6 +1,6 @@
 private
 fontAt: index put: font 
-	"Automatically grow the array.  8/20/96 tk"
+	"Automatically grow the array."
 	index > fontArray size ifTrue: [ fontArray := fontArray , (Array new: index - fontArray size) ].
 	fontArray 
 		at: index

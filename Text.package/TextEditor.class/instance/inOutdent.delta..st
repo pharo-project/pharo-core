@@ -1,7 +1,7 @@
 editing keys
 inOutdent: aKeyboardEvent delta: delta
 	"Add/remove a tab at the front of every line occupied by the selection. 
-	Derived from work by Larry Tesler back in December 1985.  Now triggered by Cmd-L and Cmd-R.  2/29/96 sw"
+	Derived from work by Larry Tesler back in December 1985."
 
 	| cr realStart realStop lines startLine stopLine start stop adjustStart indentation size numLines inStream newString outStream |
 	cr := Character cr.

@@ -1,7 +1,7 @@
 read, write, position
 skip: n
 	"Set the character position to n characters from the current position.
-	Error if not enough characters left in the file.  1/31/96 sw"
+	Error if not enough characters left in the file."
 
 	collection ifNotNil: [
 		position < readLimit ifTrue: [

@@ -13,4 +13,4 @@ selectedPackageWithoutChangingSelectionInternally: aPackage
 			self updateClassView.
 			self update.
 			self changed: #getComments.
-			self changed: #sourceCode]
+			self changed: #sourceCodeFrom:]

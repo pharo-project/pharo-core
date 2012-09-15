@@ -3,8 +3,7 @@ subStrings: separators
 	"Answer an array containing the substrings in the receiver separated 
 	by the elements of separators."
 	| result sourceStream subStringStream |
-	#Collectn.
-	"Changed 2000/04/08 For ANSI <readableString> protocol."
+	
 	(separators isString or: [ separators allSatisfy: [ :element | element isKindOf: Character ] ])
 		ifFalse: [ ^ self error: 'separators must be Characters.' ].
 	sourceStream := self readStream.

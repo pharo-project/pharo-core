@@ -1,6 +1,6 @@
 copying
 copy: destRectangle from: sourcePt in: srcForm fillColor: hf rule: rule 
-	"Specify a Color to fill, not a Form. 6/18/96 tk"
+	"Specify a Color to fill, not a Form."
 	| destOrigin |
 	sourceForm := srcForm.
 	self fillColor: hf.	"sets halftoneForm"

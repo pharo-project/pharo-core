@@ -33,6 +33,7 @@
 		"fullBounds" : "nk 5/11/2001 09:33",
 		"hasFocus" : "sw 9/8/1999 11:26",
 		"hasTranslucentColor" : "jmv 9/7/2009 00:34",
+		"heightToDisplayInList:" : "BenjaminVanRyseghem 7/25/2012 11:42",
 		"imageForm:forRectangle:" : "jmv 9/7/2009 00:36",
 		"initWithContents:font:emphasis:" : "dgd 2/14/2003 21:57",
 		"initialize" : "MarcusDenker 12/12/2009 00:02",
@@ -47,4 +48,5 @@
 		"userString" : "tk 12/16/1998 11:55",
 		"valueFromContents" : "sw 9/16/1999 22:57",
 		"wantsKeyboardFocusOnShiftClick" : "sw 7/21/1999 14:59",
+		"widthToDisplayInList:" : "BenjaminVanRyseghem 7/25/2012 11:54",
 		"wouldAcceptKeyboardFocus" : "sw 5/6/1998 15:45" } }

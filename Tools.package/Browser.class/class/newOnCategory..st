@@ -1,6 +1,6 @@
 instance creation
 newOnCategory: aCategory
-	"Browse the system category of the given name.  7/13/96 sw"
+	"Browse the system category of the given name."
 
 	"Browser newOnCategory: 'Interface-Browser'"
 

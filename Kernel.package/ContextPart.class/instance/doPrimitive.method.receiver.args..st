@@ -1,9 +1,6 @@
 private
 doPrimitive: primitiveIndex method: meth receiver: receiver args: arguments
-       "Simulate a primitive method whose index is primitiveIndex.  The
-        simulated receiver and arguments are given as arguments to this message.
-        Any primitive which provikes execution needs to be intercepted and simulated
-        to avoid execution running away."
+	"Simulate a primitive method whose index is primitiveIndex. The simulated receiver and arguments are given as arguments to this message. Any primitive which provikes execution needs to be intercepted and simulated to avoid execution running away."
 
        | value |
 	<primitive: 19> "Simulation guard"
@@ -15,16 +12,16 @@ doPrimitive: primitiveIndex method: meth receiver: receiver args: arguments
 			label:'Code simulation error'
 			contents: nil].
 "
-	primitiveIndex = 83 "afr 9/11/1998 19:50" "Object>>perform:[with:...]"
+	primitiveIndex = 83 "Object>>perform:[with:...]"
 		ifTrue: [^self send: arguments first to: receiver
 					with: arguments allButFirst
 					super: false].
-	primitiveIndex = 84 "afr 9/11/1998 19:50" "Object>>perform:withArguments:"
+	primitiveIndex = 84 "Object>>perform:withArguments:"
 		ifTrue: [^self send: arguments first to: receiver
 					with: (arguments at: 2)
 					super: false].
 	primitiveIndex = 188 ifTrue: [
-		arguments size = 2 ifTrue: [ "eem 5/27/2008 11:10 Object>>withArgs:executeMethod:"
+		arguments size = 2 ifTrue: [ "Object>>withArgs:executeMethod:"
 			^MethodContext
 				sender: self
 				receiver: receiver

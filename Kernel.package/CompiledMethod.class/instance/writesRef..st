@@ -1,8 +1,6 @@
 scanning
 writesRef: literalAssociation 
 	"Answer whether the receiver stores into the argument."
-	"eem 5/24/2008 Rewritten to no longer assume the compler uses the
-	 most compact encoding available (for EncoderForLongFormV3 support)."
 	| litIndex scanner |
 	(litIndex := self indexOfLiteral: literalAssociation) = 0 ifTrue:
 		[^false].

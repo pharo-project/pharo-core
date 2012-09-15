@@ -6,7 +6,7 @@ buildCodePanelWithCommentOnTop
 	delta := 2.
 
 	splitter addLeftOrTop: commentTextArea.
-	splitter addRightOrBottom: sourceTextArea.
+	splitter addRightOrBottom: multipleMethodsEditor.
 
 	sourceCodePanel
 		addMorph: commentTextArea
@@ -19,7 +19,7 @@ buildCodePanelWithCommentOnTop
 						fractions: (0@0.5 corner: 1@0.5) 
 						offsets: (0@(delta negated) corner: 0@delta)).
 	sourceCodePanel 
-		addMorph: sourceTextArea
+		addMorph: multipleMethodsEditor
 		fullFrame: (LayoutFrame 
 						fractions: (0@0.5 corner: 1@1) 
 						offsets: (0@delta corner: 0@0)).

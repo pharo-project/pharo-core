@@ -41,7 +41,7 @@ readBitData
 				[ self setParameters: initCodeSize.
 				curCode := oldCode := code := self readCode.
 				finChar := curCode bitAnd: bitMask.
-				"Horrible hack to avoid running off the end of the bitmap.  Seems to cure problem reading some gifs!? tk 6/24/97 20:16"
+				"Horrible hack to avoid running off the end of the bitmap.  Seems to cure problem reading some gifs!?"
 				xpos = 0 
 					ifTrue: 
 						[ ypos < height ifTrue: 

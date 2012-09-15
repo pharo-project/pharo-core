@@ -1,5 +1,5 @@
 read, write, position
 setToEnd
-	"Set the position of the receiver to the end of file.  1/31/96 sw"
+	"Set the position of the receiver to the end of file."
 
 	self position: self size

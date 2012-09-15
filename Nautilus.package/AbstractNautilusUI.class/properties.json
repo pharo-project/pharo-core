@@ -31,7 +31,9 @@
 		"list2Elements",
 		"listElements",
 		"shouldUpdateTitle",
-		"testSemaphore" ],
+		"testSemaphore",
+		"sourceTextAreas",
+		"multipleMethodsEditor" ],
 	"name" : "AbstractNautilusUI",
 	"pools" : [
 		 ],

@@ -5,11 +5,11 @@ buildCodePanelWithCommentOnRight
 	splitter := ProportionalSplitterMorph new.
 	delta := 2.
 
-	splitter addLeftOrTop: sourceTextArea.
+	splitter addLeftOrTop: multipleMethodsEditor.
 	splitter addRightOrBottom: commentTextArea.
 
 	sourceCodePanel
-		addMorph: sourceTextArea
+		addMorph: multipleMethodsEditor
 		fullFrame: (LayoutFrame 
 						fractions: (0@0 corner: 0.5@1) 
 						offsets: (0@0 corner: (delta negated)@0)).

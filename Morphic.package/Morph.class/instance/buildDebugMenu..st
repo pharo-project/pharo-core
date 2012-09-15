@@ -1,4 +1,4 @@
-debug and others
+debug and other
 buildDebugMenu: aHand
 	"Answer a debugging menu for the receiver. 
 	 The hand argument is seemingly historical and plays no role presently"
@@ -19,9 +19,13 @@ buildDebugMenu: aHand
 	aMenu lastItem icon: self theme smallInspectItIcon.
 	aMenu add: 'inspect owner chain' translated action: #inspectOwnerChain.
 	aMenu lastItem icon: self theme smallInspectItIcon.
-	self isMorphicModel ifTrue:
-		[aMenu add: 'inspect model' translated target: self model action: #inspect.
-			aMenu lastItem icon: self theme smallInspectItIcon].
+	self isMorphicModel ifTrue: [
+		aMenu add: 'inspect model' translated target: self model action: #inspect.
+		aMenu lastItem icon: self theme smallInspectItIcon.
+		(self model class inheritsFrom: ComposableModel)
+			ifTrue: [ 
+				aMenu add: 'edit model' translated target: self model action: #edit.
+				aMenu lastItem icon: self theme smallInspectItIcon ]].
      aMenu add: 'explore morph' translated target: self selector: #explore.
 	aMenu lastItem icon: self theme smallInspectItIcon.
 	aMenu addLine.

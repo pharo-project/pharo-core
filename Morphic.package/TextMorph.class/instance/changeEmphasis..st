@@ -14,5 +14,5 @@ t inspect"
 	
 	self editor applyAttribute: (TextEmphasis perform: aSymbol).
 	"this code should be moved to TextEditor but changeEmphasis: is defined there for something else
-	so it should be renamed first there. - StephaneDucasse"
+	so it should be renamed first there."
 	self updateFromParagraph

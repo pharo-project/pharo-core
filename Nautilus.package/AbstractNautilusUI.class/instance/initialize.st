@@ -8,5 +8,6 @@ initialize
 	classesSelection := Dictionary new.
 	shouldUpdateTitle := true.
 	testSemaphore := Semaphore new.
+	sourceTextAreas := OrderedCollection new.		
 			
 	self registerToAnnouncements.

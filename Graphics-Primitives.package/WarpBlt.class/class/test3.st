@@ -1,7 +1,7 @@
 examples
 test3
 	"Display restoreAfter: [WarpBlt test3]"
-	"The Squeak Release Mandala - 9/23/96 di"
+	"The Squeak Release Mandala"
 	"Move the mouse near the center of the square.
 	Up and down affects shrink/grow
 	Left and right affect rotation angle"

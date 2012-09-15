@@ -1,9 +1,6 @@
 scanning
 readsField: varIndex 
-	"Answer whether the receiver loads the instance variable indexed by the 
-	 argument."
-	"eem 5/24/2008 Rewritten to no longer assume the compiler uses the
-	 most compact encoding available (for EncoderForLongFormV3 support)."
+	"Answer whether the receiver loads the instance variable indexed by the argument."
 	| varIndexCode scanner |
 	varIndexCode := varIndex - 1.
 	self isReturnField ifTrue: [^self returnField = varIndexCode].

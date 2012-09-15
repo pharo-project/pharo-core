@@ -1,6 +1,6 @@
 utils
 showFormsAcrossTopOfScreen: aFormList
-	"Display the given array of forms across the top of the screen, wrapping to subsequent lines if needed.    Useful for example for looking at sets of rotations and animations.  6/10/96 sw"
+	"Display the given array of forms across the top of the screen, wrapping to subsequent lines if needed. Useful for example for looking at sets of rotations and animations."
 	"self showFormsAcrossTopOfScreen: {Cursor currentCursor asCursorForm}"
 	
 	| position maxHeight screenBox ceiling |

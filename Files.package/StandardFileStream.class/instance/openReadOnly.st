@@ -1,5 +1,5 @@
 open/close
 openReadOnly
-	"Open the receiver as a read-only file.  1/31/96 sw"
+	"Open the receiver as a read-only file."
 
 	^ self open: name forWrite: false

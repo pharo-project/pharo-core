@@ -1,9 +1,7 @@
 private
 getBestLocation: vertices for: morph corner: cornerName
-	"Try four rel locations of the balloon for greatest unclipped area.   12/99 sma"
-
 	| rect maxArea verts rectCorner morphPoint mbc a mp dir bestVerts result usableArea |
-	"wiz 1/8/2005 Choose rect independantly of vertice order or size. Would be nice it this took into account curveBounds but it does not." 
+	"Choose rect independantly of vertice order or size. Would be nice it this took into account curveBounds but it does not." 
 	rect := Rectangle encompassing: vertices.  
 	maxArea := -1.
 	verts := vertices.

@@ -22,7 +22,7 @@ buildBrowseShortcutsOn: aBuilder
 	
 	(aBuilder shortcut: #browseRestricted)
 		category: #NautilusGlobalShortcuts
-		default: $b command , $r command 
+		default: $b command , $s command 
 		do: [:target | target restrictedBrowse ]
 		description: 'Open a restricted browser'.
 		

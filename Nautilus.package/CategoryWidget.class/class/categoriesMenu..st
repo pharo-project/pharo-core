@@ -18,7 +18,7 @@ categoriesMenu: aBuilder
 		order: 200;
 		withSeparatorAfter.
 		
-	(aBuilder item: #'Categorize all uncategorized (h, c)')
+	(aBuilder item: #'Categorize all uncategorized (h, C)')
 		action: [ target categorizeAllUncategorizedMethods ];
 		order: 1100.	
 		

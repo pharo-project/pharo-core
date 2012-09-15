@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"acceptsLoggingOfCompilation" : "sd 4/26/2008 17:28",
+		"acceptsLoggingOfCompilation" : "CamilloBruni 8/1/2012 15:57",
 		"addAndClassifySelector:withMethod:inProtocol:notifying:" : "EstebanLorenzano 8/3/2012 15:14",
 		"addSelector:withMethod:notifying:" : "EstebanLorenzano 7/27/2012 16:33",
 		"addSelectorSilently:withMethod:" : "al 7/30/2004 09:51",
@@ -72,7 +72,7 @@
 		"selectorsToFileOutCategory:" : "ab 06/29/2011 14:01",
 		"storeOn:" : "al 5/9/2004 16:50",
 		"updateOrganizationSelector:oldCategory:newCategory:" : "nice 1/5/2010 15:59",
-		"wantsChangeSetLogging" : "al 5/8/2004 20:13",
+		"wantsChangeSetLogging" : "CamilloBruni 8/1/2012 16:18",
 		"wantsRecompilationProgressReported" : "al 5/8/2004 20:13",
 		"whichCategoryIncludesSelector:" : "al 5/8/2004 19:15",
 		"zapOrganization" : "al 5/8/2004 19:29" } }

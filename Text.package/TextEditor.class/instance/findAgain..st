@@ -1,6 +1,6 @@
 typing/selecting keys
 findAgain: aKeyboardEvent 
-	"Find the desired text again.  1/24/96 sw"
+	"Find the desired text again."
 	self closeTypeIn.
 	self findAgain.
 	^ true

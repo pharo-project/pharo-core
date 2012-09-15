@@ -1,6 +1,6 @@
 message functions
 inspectSubInstances
-	"Inspect all instances of the selected class and all its subclasses  1/26/96 sw"
+	"Inspect all instances of the selected class and all its subclasses"
 
 	| aClass |
 	((aClass := self selectedClassOrMetaClass) isNil or: [aClass isTrait])

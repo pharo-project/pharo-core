@@ -1,7 +1,7 @@
 query
 allPrimitiveMethodsInCategories: aList 
 	"Answer an OrderedCollection of all the methods that are implemented by 
-	primitives in the given categories. 1/26/96 sw"
+	primitives in the given categories."
 	"SystemNavigation new allPrimitiveMethodsInCategories:  
 		#('Collections-Streams' 'Files-Streams' 'Files-Abstract' 'Files-Macintosh')"
 

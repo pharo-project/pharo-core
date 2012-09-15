@@ -27,7 +27,7 @@ do: aBlock displayingProgress: aStringOrBlock every: msecs
 					or: [(Time millisecondsSince: lastUpdate) >= msecs]]) 
 						ifTrue: [ 
 							bar current: count.
-							oldLabel = (newLabel := (labelBlock value: each) ifNil: [oldLabel]) 
+							oldLabel = (newLabel := (labelBlock cull: each) ifNil: [oldLabel]) 
 								ifFalse: [ProgressNotification signal: '' extra: (oldLabel := newLabel)].
 				lastUpdate := Time millisecondClockValue ].
                        aBlock value: each.

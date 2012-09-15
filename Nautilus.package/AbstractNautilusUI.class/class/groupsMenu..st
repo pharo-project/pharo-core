@@ -5,7 +5,7 @@ groupsMenu: aBuilder
 	target := aBuilder model.
 	target selectedGroup ifNil: [ ^ target ].
 		
-	(aBuilder item: #'Browse restricted (b, r)')
+	(aBuilder item: #'Browse scoped (b, s)')
 		action: [ target restrictedBrowseGroup: target selectedGroups ];
 		order: 1000;
 		withSeparatorAfter.

@@ -1,8 +1,6 @@
 arithmetic
 // aNumber 
 	| q |
-	#Numeric.
-	"Changed 200/01/19 For ANSI support."
 	aNumber = 0 ifTrue: [^ (ZeroDivide dividend: self) signal"<- Chg"].
 	self = 0 ifTrue: [^ 0].
 	q := self quo: aNumber.

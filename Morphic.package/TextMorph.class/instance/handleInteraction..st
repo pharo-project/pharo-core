@@ -1,8 +1,8 @@
 editing
 handleInteraction: interactionBlock
 	"Perform the changes in interactionBlock, noting any change in selection
-	and possibly a change in the size of the paragraph (ar 9/22/2001 - added for TextPrintIts)"
-	"Also couple ParagraphEditor to Morphic keyboard events"
+	and possibly a change in the size of the paragraph.
+	Couple ParagraphEditor to Morphic keyboard events"
 	| oldEditor oldParagraph oldText |
 	oldEditor := self editor.
 	oldParagraph := paragraph.

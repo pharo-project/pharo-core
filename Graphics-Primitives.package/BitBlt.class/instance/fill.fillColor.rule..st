@@ -1,6 +1,6 @@
 copying
 fill: destRect fillColor: grayForm rule: rule 
-	"Fill with a Color, not a Form. 6/18/96 tk"
+	"Fill with a Color, not a Form."
 	sourceForm := nil.
 	self fillColor: grayForm.	"sets halftoneForm"
 	combinationRule := rule.

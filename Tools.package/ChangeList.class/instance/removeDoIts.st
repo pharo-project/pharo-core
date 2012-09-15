@@ -1,6 +1,6 @@
 menu actions
 removeDoIts
-	"Remove doits from the receiver, other than initializes. 1/26/96 sw"
+	"Remove doits from the receiver, other than initializes."
 
 	self removeRecordsWhere: 
 		[:record :displayString | 

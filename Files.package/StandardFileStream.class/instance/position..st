@@ -1,6 +1,6 @@
 read, write, position
 position: pos
-	"Set the receiver's position as indicated.  2/12/96 sw"
+	"Set the receiver's position as indicated."
 
 	collection ifNotNil: [
 		position < readLimit ifTrue: [

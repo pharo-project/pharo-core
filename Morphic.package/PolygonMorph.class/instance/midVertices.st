@@ -17,8 +17,6 @@ midVertices
 				ifTrue: ["Found endPoint."
 					midPts addLast: (tweens atWrap: tweens size + 1 // 2)
 							+ (tweens at: tweens size // 2 + 1) // 2.
-					"wiz 6/19/2004 20:11 adjusted to handle  
-					one segment properly"
 					tweens := OrderedCollection new.
 					tweens add: p2 asIntegerPoint.
 					"guarantee at least two points."

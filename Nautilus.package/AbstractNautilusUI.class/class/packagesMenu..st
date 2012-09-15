@@ -5,7 +5,7 @@ packagesMenu: aBuilder
 	target := aBuilder model.
 
 	(package := target selectedPackage) ifNil: [ ^ target ].
-	(aBuilder item: #'Browse restricted (b, r)')
+	(aBuilder item: #'Browse scoped (b, s)')
 		action: [ target restrictedBrowsePackage ];
 		order: 1000;
 		help: 'Open a browser on a restricted view';

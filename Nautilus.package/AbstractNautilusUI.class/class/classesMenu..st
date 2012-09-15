@@ -11,7 +11,7 @@ classesMenu: aBuilder
 		order: 500;
 		withSeparatorAfter.	
 		
-	(aBuilder item: #'Browse restricted (b, r)')
+	(aBuilder item: #'Browse scoped (b, s)')
 		action: [target restrictedBrowseClass];
 		order: 1000;
 		help: 'Open a browser on a restricted view'.

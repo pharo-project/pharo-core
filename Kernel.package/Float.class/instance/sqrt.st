@@ -4,8 +4,6 @@ sqrt
 	 Optional. See Object documentation whatIsAPrimitive."
 	| exp guess eps delta |
 	<primitive: 55>
-	#Numeric.
-	"Changed 200/01/19 For ANSI <number> support."
 	"Newton-Raphson"
 	self <= 0.0
 		ifTrue: [self = 0.0

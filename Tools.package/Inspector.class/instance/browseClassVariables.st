@@ -1,6 +1,6 @@
 menu commands
 browseClassVariables
-	"Browse the class variables of the selected class. 2/5/96 sw"
+	"Browse the class variables of the selected class."
 	| cls |
 	cls := self selectedClass.
 	(cls notNil and: [cls isTrait not])

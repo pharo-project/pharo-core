@@ -7,6 +7,7 @@ selectedMethod: aMethod
 			self setWindowTitle.
 			self highlightCategory: aMethod.
 			aMethod ifNotNil: [ self giveFocusTo: methodWidget ].
-			self changed: #sourceCode.
+			self changed: #sourceCodeFrom:.
+			multipleMethodsEditor giveFocusToDefault.
 			^ true].
 	^false 

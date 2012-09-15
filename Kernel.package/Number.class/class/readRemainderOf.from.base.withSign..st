@@ -1,11 +1,9 @@
 deprecated
 readRemainderOf: integerPart from: aStream base: base withSign: sign 
 	"Read optional fractional part and exponent or decimal scale, and return the final result"
-	"Changed 200/01/19 For ANSI Numeric Literals support."
 	"Number readFrom: '3r-22.2'"
 
 	| value fractionDigits fracpos fractionPart fraction pos v foundDecimal |
-	#Numeric.
 	value := integerPart.
 	fractionDigits := 0.
 	foundDecimal := false.

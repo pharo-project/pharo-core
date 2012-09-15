@@ -8,9 +8,6 @@ initialize
 	Blocks := Set new.
 	"These modify an argument and are not used by the MethodFinder: longPrintOn: printOn: storeOn: sentTo: storeOn:base: printOn:base: absPrintExactlyOn:base: absPrintOn:base: absPrintOn:base:digitCount: writeOn: writeScanOn: possibleVariablesFor:continuedFrom: printOn:format:"
 
-
-	"Initializing these variables all the time (especially since they contain statically declared information does not make a lot of sense - StephaneDucasse"
-
 "Object"  
 	#("in class, instance creation"  newFrom: 
 "accessing" at: basicAt: basicSize in: size yourself 

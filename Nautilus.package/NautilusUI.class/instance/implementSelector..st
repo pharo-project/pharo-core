@@ -27,7 +27,7 @@ implementSelector: aSelector
 		
 	self update.
 	self updateBothView.
-	self changed: #sourceCode.
+	self changed: #sourceCodeFrom:.
 	self giveFocusTo: sourceTextArea.
 	head
 		ifNotNil: [ sourceTextArea selectFrom: head size + 4 to: source size ].

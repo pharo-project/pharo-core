@@ -1,26 +1,14 @@
 items creation
 buildCodePane
-
-	sourceTextArea := self textMorphClass
-				on: self
-				text: #sourceCode
-				accept: #compileSource:notifying:
-				readSelection: #contentsSelection
-				menu: #sourceCodeMenu:shifted:.
-				
-	sourceTextArea
-		askBeforeDiscardingEdits: true;
-		vResizing: #spaceFill;
-		hResizing: #spaceFill; 
-		font: StandardFonts codeFont;
-		spaceFillWeight: 3;
-		on: #keyStroke send: #keyStroke:fromSourceCodeMorph: to: self;
-		warningLimit: self warningLimit.
 		
-	self setSourceCodeShorcutsTo: sourceTextArea.
-		
-	sourceTextAreaLimit := sourceTextArea warningLimit.
+	"The following method fills up sourceTextArea variable"
+	self buildNewSourceTextArea.
 	
-	sourceTextArea warningLimit: -1.
+	multipleMethodsEditor := MultipleMethodsEditor new.
 
-	^ sourceTextArea
+	multipleMethodsEditor 
+		hResizing: #spaceFill;
+		vResizing: #spaceFill;
+		addEditor: sourceTextArea.
+			
+	^ multipleMethodsEditor

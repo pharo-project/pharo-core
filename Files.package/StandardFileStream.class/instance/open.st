@@ -1,5 +1,5 @@
 open/close
 open
-	"For compatibility with a few existing things.  2/14/96 sw"
+	"For compatibility with a few existing things."
 
 	^ self reopen

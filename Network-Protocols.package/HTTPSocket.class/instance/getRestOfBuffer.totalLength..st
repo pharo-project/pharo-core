@@ -1,7 +1,7 @@
 receiving
 getRestOfBuffer: beginning totalLength: length
-	"Reel in a string of a fixed length.  Part of it has already been received.  Close the connection after all chars are received.  We do not strip out linefeed chars.  tk 6/16/97 22:32" 
-	"if length is nil, read until connection close.  Response is of type text, not binary."
+	"Reel in a string of a fixed length.  Part of it has already been received.  Close the connection after all chars are received.  We do not strip out linefeed chars. 
+	If length is nil, read until connection close.  Response is of type text, not binary."
 
 	| buf response bytesRead |
 	length ifNil: [^ self getRestOfBuffer: beginning].

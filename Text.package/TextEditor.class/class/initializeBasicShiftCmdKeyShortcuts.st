@@ -2,10 +2,6 @@ keyboard shortcut tables
 initializeBasicShiftCmdKeyShortcuts 
 	"Initialize the shift-command-key (or control-key) shortcut table."
 
-	"wod 11/3/1998: Fix setting of cmdMap for shifted keys to actually use the 
-	capitalized versions of the letters.
-	TPR 2/18/99: add the plain ascii values back in for those VMs that don't return the shifted values."
-
 	"TextEditor initialize"
 	
 	| cmdMap |
@@ -31,11 +27,6 @@ initializeBasicShiftCmdKeyShortcuts
 	"Note: Command key overrides shift key, so, for example, cmd-shift-9 produces $9 not $("
 	'9[,''' do: [ :char | cmdMap at: (char asciiValue + 1) put: #shiftEnclose: ].	"({< and double-quote"
 	"Note: Must use cmd-9 or ctrl-9 to get '()' since cmd-shift-9 is a Mac FKey command."
-
-	"NB: sw 12/9/2001 commented out the idiosyncratic line just below, which was grabbing shift-esc in the text editor and hence which argued with the wish to have shift-esc be a universal gesture for escaping the local context and calling up the desktop menu."  
-	"cmdMap at: (27 + 1) put: #shiftEnclose:." 	"ctrl-["
-
-	"'""''(' do: [ :char | cmdMap at: (char asciiValue + 1) put: #enclose:]."
 
 	#(
 		$c	compareToClipboard:

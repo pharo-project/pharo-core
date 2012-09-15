@@ -1,0 +1,17 @@
+{
+	"category" : "Nautilus",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"label",
+		"model",
+		"state",
+		"target" ],
+	"name" : "MultipleMethodsEditorButtonModel",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

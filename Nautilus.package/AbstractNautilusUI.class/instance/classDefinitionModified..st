@@ -13,4 +13,4 @@ classDefinitionModified: anAnnouncement
 			self updateClassView.
 			self removeFromPackagesIconsCache: class package.
 			sourceTextArea hasUnacceptedEdits 
-				ifFalse: [ self changed: #sourceCode ]].
+				ifFalse: [ self changed: #sourceCodeFrom: ]].

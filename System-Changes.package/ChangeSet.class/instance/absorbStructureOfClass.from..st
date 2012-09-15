@@ -11,7 +11,7 @@ absorbStructureOfClass: aClass from: otherChangeSet
 	sup := aClass name.
 	[(structures includesKey: sup) 
 		ifTrue: ["use what is here" true]
-		ifFalse: [self flag: #noteToDan.  "sw 1/30/2001 13:57 emergency workaround -- a case arose where the otherChangeSet's structures did not have the key, and it gummed up the works."
+		ifFalse: [self flag: #noteToDan.  "emergency workaround -- a case arose where the otherChangeSet's structures did not have the key, and it gummed up the works."
 				(otherChangeSet structures includesKey: sup) ifTrue:
 					[structures at: sup put: (otherChangeSet structures at: sup)].
 				next := otherChangeSet superclasses at: sup.

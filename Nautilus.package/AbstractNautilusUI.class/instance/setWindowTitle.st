@@ -11,5 +11,6 @@ setWindowTitle
 					self selectedMethod
 						ifNil: [ class name asString ]
 						ifNotNil: [:method |
-							method methodClass name asString, '>>#', method selector ]].
+							String streamContents: [:s | s << method methodClass name asString<< '>>#'<< method selector ]]].
+	self browsedEnvironment isSystem ifFalse: [ title := String streamContents: [:s | s << '--- ' << title << ' ---']].
 	window title: title.

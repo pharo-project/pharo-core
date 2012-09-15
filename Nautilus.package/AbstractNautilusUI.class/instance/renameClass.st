@@ -5,4 +5,4 @@ renameClass
 
 	self dispatchRenameClass: self selectedClass theNonMetaClass.
 
-	self changed: #sourceCode.
+	self changed: #sourceCodeFrom:.

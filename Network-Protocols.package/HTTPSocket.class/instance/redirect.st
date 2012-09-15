@@ -1,6 +1,6 @@
 receiving
 redirect
-	"See if the header has a 'Location: url CrLf' in it.  If so, return the new URL of this page.  tk 6/24/97 18:03"
+	"See if the header has a 'Location: url CrLf' in it.  If so, return the new URL of this page."
 
 	| this |
 	1 to: headerTokens size do: [:ii | 

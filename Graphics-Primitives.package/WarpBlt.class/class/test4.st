@@ -1,8 +1,7 @@
 examples
 test4
 	"Display restoreAfter: [WarpBlt test4]"
-	"The Squeak Release Mandala - 9/23/96 di
-	This version does smoothing"
+	"The Squeak Release Mandala This version does smoothing"
 	"Move the mouse near the center ofhe square.
 	Up and dn affects shrink/grow
 	Left and right affect rotation angle"
