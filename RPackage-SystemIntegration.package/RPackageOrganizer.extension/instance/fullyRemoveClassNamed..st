@@ -8,6 +8,6 @@ fullyRemoveClassNamed: className
 	rPackage removeClassDefinitionNamed: className.
 	rPackage removeAllMethodsFromClassNamed: className. 
 	(self extendingPackagesOfClassNamed: className)
-		do: [:each | rPackage removeAllMethodsFromClassNamed: className. ].
+		do: [:each | each removeAllMethodsFromClassNamed: className. ].
 	
 	
