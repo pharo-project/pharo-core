@@ -2,7 +2,6 @@
 	"category" : "Morphic-Widgets",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"BalloonColor",
 		"BalloonFont" ],
@@ -16,5 +15,4 @@
 	"pools" : [
 		 ],
 	"super" : "PolygonMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

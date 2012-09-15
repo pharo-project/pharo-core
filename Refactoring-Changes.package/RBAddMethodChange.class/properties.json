@@ -2,7 +2,6 @@
 	"category" : "Refactoring-Changes",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -16,5 +15,4 @@
 	"pools" : [
 		 ],
 	"super" : "RBRefactoryClassChange",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

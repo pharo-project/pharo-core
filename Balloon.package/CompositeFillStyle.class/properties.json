@@ -2,7 +2,6 @@
 	"category" : "Balloon-Fills",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "gvc 9/23/2008 12:05",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "FillStyle",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "Polymorph-Widgets-Themes",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"Current",
 		"UseThemeSounds" ],
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

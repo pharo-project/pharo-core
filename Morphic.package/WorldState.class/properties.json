@@ -2,7 +2,6 @@
 	"category" : "Morphic-Worlds",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"CanSurrenderToOS",
 		"DebugShowDamage",
@@ -31,5 +30,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

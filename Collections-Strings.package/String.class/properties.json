@@ -2,7 +2,6 @@
 	"category" : "Collections-Strings",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"AsciiOrder",
 		"CSLineEnders",
@@ -21,5 +20,4 @@
 	"pools" : [
 		 ],
 	"super" : "ArrayedCollection",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

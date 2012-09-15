@@ -2,7 +2,6 @@
 	"category" : "Tools-Changes",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "StephaneDucasse 7/23/2010 21:17",
@@ -17,5 +16,4 @@
 	"pools" : [
 		 ],
 	"super" : "CodeHolder",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -1,3 +1,0 @@
-constants
-sheetWindowClass
-	^11

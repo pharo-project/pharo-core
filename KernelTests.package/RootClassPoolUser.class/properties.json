@@ -2,7 +2,6 @@
 	"category" : "KernelTests-Classes",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "StephaneDucasse 12/13/2011 15:57",
@@ -12,5 +11,4 @@
 	"pools" : [
 		"PoolDefiner" ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

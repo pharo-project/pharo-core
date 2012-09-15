@@ -2,7 +2,6 @@
 	"category" : "Compression-Streams",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"BlockProceedBit",
 		"BlockTypes",
@@ -27,5 +26,4 @@
 	"pools" : [
 		 ],
 	"super" : "ReadStream",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

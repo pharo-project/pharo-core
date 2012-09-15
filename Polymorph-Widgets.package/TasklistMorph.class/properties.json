@@ -2,7 +2,6 @@
 	"category" : "Polymorph-Widgets",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"KeepOpen",
 		"UseHistoricalShortcuts" ],
@@ -15,5 +14,4 @@
 	"pools" : [
 		 ],
 	"super" : "Morph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -13,7 +13,8 @@ buildCommentPane
 		askBeforeDiscardingEdits: true;
 		vResizing: #spaceFill;
 		hResizing: #spaceFill.
-		
+	
+	self setCommentShorcutsTo: commentTextArea.	
 	commentTextArea spaceFillWeight: 1.
 
 	^ commentTextArea

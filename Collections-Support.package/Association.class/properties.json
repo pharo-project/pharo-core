@@ -2,7 +2,6 @@
 	"category" : "Collections-Support",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "StephaneDucasse 2/13/2010 15:13",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "LookupKey",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

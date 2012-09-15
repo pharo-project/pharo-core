@@ -2,7 +2,6 @@
 	"category" : "Morphic-Text Support",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "TextMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

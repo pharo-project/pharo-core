@@ -1,1 +1,0 @@
-I am like the default mapper but with a special behavior with classes. I store a copy each class with just the local protocol.

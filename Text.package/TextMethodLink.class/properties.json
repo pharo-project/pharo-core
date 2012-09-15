@@ -2,7 +2,6 @@
 	"category" : "Text-Core",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -14,5 +13,4 @@
 	"pools" : [
 		 ],
 	"super" : "TextLink",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

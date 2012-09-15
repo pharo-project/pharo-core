@@ -2,7 +2,6 @@
 	"category" : "Collections-Atomic",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "Igor.Stasenko 10/16/2010 03:58",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "AtomicCollection",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "Polymorph-Widgets",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"DefaultImage" ],
 	"commentStamp" : "gvc 5/18/2007 13:52",
@@ -19,5 +18,4 @@
 	"pools" : [
 		 ],
 	"super" : "ImageMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

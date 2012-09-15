@@ -3,7 +3,6 @@
 	"classinstvars" : [
 		"searchedTextList",
 		"regexpSearch" ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "SeanDeNigris 11/30/2011 15:19",
@@ -17,5 +16,4 @@
 	"pools" : [
 		 ],
 	"super" : "MorphTreeModel",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

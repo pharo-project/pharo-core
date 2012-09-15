@@ -2,7 +2,6 @@
 	"category" : "Network-Url",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"Passwords" ],
 	"commentStamp" : "ls 6/15/2003 13:44",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "HierarchicalUrl",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

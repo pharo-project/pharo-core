@@ -2,7 +2,6 @@
 	"category" : "Polymorph-Widgets-Windows",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "ar 2/11/2005 20:14",
@@ -15,5 +14,4 @@
 	"pools" : [
 		 ],
 	"super" : "SystemWindow",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

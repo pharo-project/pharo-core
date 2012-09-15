@@ -2,7 +2,6 @@
 	"category" : "UIManager",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "IgorStasenko 1/25/2011 13:29",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "Error",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

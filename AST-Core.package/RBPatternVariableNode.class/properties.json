@@ -2,7 +2,6 @@
 	"category" : "AST-Core-Pattern",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "md 8/9/2005 14:59",
@@ -16,5 +15,4 @@
 	"pools" : [
 		 ],
 	"super" : "RBVariableNode",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

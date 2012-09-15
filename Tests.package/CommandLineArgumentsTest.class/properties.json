@@ -2,7 +2,6 @@
 	"category" : "Tests-System-CommandLine",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "AdrienBarreau 2/12/2011 15:55",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "TestCase",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

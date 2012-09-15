@@ -2,7 +2,6 @@
 	"category" : "Fuel-Clusters",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "MartinDias 8/29/2011 19:21",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "FLIteratingCluster",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

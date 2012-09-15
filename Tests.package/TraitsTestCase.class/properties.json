@@ -2,7 +2,6 @@
 	"category" : "Tests-Traits",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -14,5 +13,4 @@
 	"pools" : [
 		 ],
 	"super" : "TestCase",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

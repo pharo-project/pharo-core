@@ -2,7 +2,6 @@
 	"category" : "Kernel-Numbers",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "nice 2/13/2010 00:36",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "NumberParser",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

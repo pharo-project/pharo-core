@@ -2,7 +2,6 @@
 	"category" : "Spec-Examples-PolyWidgets",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "PanelMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

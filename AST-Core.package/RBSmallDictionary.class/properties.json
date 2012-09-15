@@ -2,7 +2,6 @@
 	"category" : "AST-Core-Matching",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "md 4/1/2007 12:34",
@@ -14,5 +13,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

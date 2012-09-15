@@ -2,7 +2,6 @@
 	"category" : "Ring-Core-Kernel",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"CurrentFactories" ],
 	"commentStamp" : "VeronicaUquillas 5/6/2011 12:39",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

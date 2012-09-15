@@ -2,7 +2,6 @@
 	"category" : "Kernel-Processes",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"Default" ],
 	"commentStamp" : "michael.rueger 4/22/2009 11:59",
@@ -14,5 +13,4 @@
 	"pools" : [
 		"EventSensorConstants" ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

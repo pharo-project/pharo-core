@@ -2,7 +2,6 @@
 	"category" : "Kernel-Exceptions",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "gh 5/2/2002 20:29",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "Halt",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

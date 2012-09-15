@@ -2,7 +2,6 @@
 	"category" : "KernelTests-Processes",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "tlk 5/5/2006 13:32",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "ClassTestCase",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

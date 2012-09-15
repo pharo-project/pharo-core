@@ -2,7 +2,6 @@
 	"category" : "Graphics-Files",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"Extension",
 		"ImageSeparator",
@@ -38,5 +37,4 @@
 	"pools" : [
 		 ],
 	"super" : "ImageReadWriter",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

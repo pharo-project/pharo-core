@@ -2,7 +2,6 @@
 	"category" : "Kernel-Numbers",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "VeronicaUquillas 6/11/2010 14:04",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "Number",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

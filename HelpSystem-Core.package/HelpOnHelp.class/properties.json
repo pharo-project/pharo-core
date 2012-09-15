@@ -2,7 +2,6 @@
 	"category" : "HelpSystem-Core-Help",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "tbn 2/12/2010 14:27",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "CustomHelp",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

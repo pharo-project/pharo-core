@@ -2,7 +2,6 @@
 	"category" : "Tools-Profilers",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "AlainPlantec 2/19/2010 14:44",
@@ -26,5 +25,4 @@
 	"pools" : [
 		 ],
 	"super" : "MorphTreeModel",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

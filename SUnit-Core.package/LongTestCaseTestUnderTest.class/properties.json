@@ -2,7 +2,6 @@
 	"category" : "SUnit-Core-Extensions",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"RunStatus" ],
 	"commentStamp" : "",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "LongTestCase",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

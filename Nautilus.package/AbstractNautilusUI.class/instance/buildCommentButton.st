@@ -8,5 +8,25 @@ buildCommentButton
 		action: #commentButtonAction
 		label: #commentButtonLabel) hResizing: #spaceFill; vResizing: #shrinkWrap.
 		
-	self setGlobalShorcutsTo:  button.
+	self setGlobalShorcutsTo: button.
+	button submorphs first
+		on: #doubleClick
+		send: #toggleShowFullComment
+		to: self;
+		on: #mouseDown
+		send: #mouseDown:
+		to: button;
+		on: #mouseMove
+		send: #mouseMove:
+		to: button;
+		on: #mouseEnter
+		send: #mouseEnter:
+		to: button;
+		on: #mouseLeave
+		send: #mouseLeave:
+		to: button;
+		on: #mouseUp
+		send: #mouseUp:
+		to: button.
+		
 	^ button

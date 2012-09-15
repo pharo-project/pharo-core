@@ -2,7 +2,6 @@
 	"category" : "KernelTests-Chronology",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -22,5 +21,4 @@
 	"pools" : [
 		 ],
 	"super" : "ClassTestCase",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

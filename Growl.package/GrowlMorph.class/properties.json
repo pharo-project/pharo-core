@@ -2,7 +2,6 @@
 	"category" : "Growl",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"DefaultBackgroundColor",
 		"Position" ],
@@ -20,5 +19,4 @@
 	"pools" : [
 		 ],
 	"super" : "TextMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

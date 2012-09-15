@@ -2,7 +2,6 @@
 	"category" : "Text-Scanning",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"DefaultStopConditions",
 		"NilCondition",
@@ -40,5 +39,4 @@
 	"pools" : [
 		"TextConstants" ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

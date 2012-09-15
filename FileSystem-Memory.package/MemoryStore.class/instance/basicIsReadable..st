@@ -1,3 +1,0 @@
-private
-basicIsReadable: aMemoryFileSystemEntry
-	^ true

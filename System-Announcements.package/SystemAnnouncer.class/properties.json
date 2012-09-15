@@ -3,7 +3,6 @@
 	"classinstvars" : [
 		"announcer",
 		"privateAnnouncer" ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "Announcer",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

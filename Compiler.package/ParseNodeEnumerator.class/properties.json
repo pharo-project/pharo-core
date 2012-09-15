@@ -2,7 +2,6 @@
 	"category" : "Compiler-Support",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "eem 8/31/2010 11:41",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "ParseNodeVisitor",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

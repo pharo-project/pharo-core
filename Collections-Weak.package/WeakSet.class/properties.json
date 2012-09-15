@@ -2,7 +2,6 @@
 	"category" : "Collections-Weak",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "IgorStasenko 3/22/2011 16:25",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "Set",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

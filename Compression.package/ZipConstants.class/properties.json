@@ -2,7 +2,6 @@
 	"category" : "Compression-Streams",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"BaseDistance",
 		"BaseLength",
@@ -43,5 +42,4 @@
 	"pools" : [
 		 ],
 	"super" : "SharedPool",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

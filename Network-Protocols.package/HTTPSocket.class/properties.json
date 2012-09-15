@@ -2,7 +2,6 @@
 	"category" : "Network-Protocols",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"HTTPBlabEmail",
 		"HTTPProxyCredentials",
@@ -19,5 +18,4 @@
 	"pools" : [
 		 ],
 	"super" : "Socket",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

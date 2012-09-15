@@ -2,7 +2,6 @@
 	"category" : "Morphic-Widgets",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"BarHeight",
 		"BarWidth" ],
@@ -20,5 +19,4 @@
 	"pools" : [
 		 ],
 	"super" : "Morph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

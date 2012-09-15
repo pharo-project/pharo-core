@@ -2,7 +2,6 @@
 	"category" : "Network-Kernel",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"Connected",
 		"DeadServer",
@@ -25,5 +24,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

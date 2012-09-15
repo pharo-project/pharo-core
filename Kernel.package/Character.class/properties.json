@@ -2,7 +2,6 @@
 	"category" : "Kernel-BasicObjects",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"CharacterTable",
 		"DigitValues" ],
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "Magnitude",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

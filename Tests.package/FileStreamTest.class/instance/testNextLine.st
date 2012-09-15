@@ -12,4 +12,5 @@ testNextLine
 	file := StandardFileStream readOnlyFileNamed: filename.
 	lines do: [ :e | self assert: file nextLine = e ].
 	self assert: file nextLine isNil.
-	file close ] ensure: [ FileDirectory default deleteFileNamed: filename ifAbsent: [  ] ]
+	file close ] ensure: [ 
+		(FileSystem disk workingDirectory / filename) ensureDeleted ].

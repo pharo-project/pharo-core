@@ -2,7 +2,6 @@
 	"category" : "Compression-Streams",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -12,5 +11,4 @@
 	"pools" : [
 		"GZipConstants" ],
 	"super" : "FastInflateStream",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

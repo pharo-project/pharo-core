@@ -2,7 +2,6 @@
 	"category" : "Morphic-Events",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "LaurentLaffont 3/15/2011 20:49",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "MorphicAlarm",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "NECompletion-Tests",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"ClassVar" ],
 	"commentStamp" : "<historical>",
@@ -27,5 +26,4 @@
 	"pools" : [
 		 ],
 	"super" : "NECTestSuperClass",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

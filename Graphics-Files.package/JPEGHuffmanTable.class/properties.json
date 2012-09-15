@@ -2,7 +2,6 @@
 	"category" : "Graphics-Files",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"BitBufferSize",
 		"Lookahead" ],
@@ -19,5 +18,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

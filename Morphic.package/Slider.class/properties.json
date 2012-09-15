@@ -2,7 +2,6 @@
 	"category" : "Morphic-Widgets",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -17,5 +16,4 @@
 	"pools" : [
 		 ],
 	"super" : "MorphicModel",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

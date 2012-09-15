@@ -1,3 +1,0 @@
-private
-basicIsWritable: aMemoryFileSystemEntry
-	^ true

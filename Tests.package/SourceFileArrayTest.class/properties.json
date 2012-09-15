@@ -2,7 +2,6 @@
 	"category" : "Tests-Files",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "dtl 12/22/2009 23:10",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "TestCase",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

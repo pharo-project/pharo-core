@@ -2,7 +2,6 @@
 	"category" : "Tools-Profilers",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "sd 6/20/2003 22:31",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

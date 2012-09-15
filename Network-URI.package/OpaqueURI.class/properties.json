@@ -2,7 +2,6 @@
 	"category" : "Network-URI",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "StephaneDucasse 4/4/2010 21:07",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "URI",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

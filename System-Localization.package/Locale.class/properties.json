@@ -2,7 +2,6 @@
 	"category" : "System-Localization",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"Activated",
 		"Current",
@@ -29,5 +28,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

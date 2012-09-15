@@ -2,7 +2,6 @@
 	"category" : "Multilingual-TextConversion",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "HenrikSperreJohansen 8/9/2010 15:29",
@@ -14,5 +13,4 @@
 	"pools" : [
 		 ],
 	"super" : "TextConverter",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

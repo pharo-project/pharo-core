@@ -2,7 +2,6 @@
 	"category" : "System-Announcements",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "Announcement",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

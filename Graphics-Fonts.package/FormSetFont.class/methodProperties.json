@@ -1,7 +1,0 @@
-{
-	"class" : {
-		"copy:toClipBoardAs:ascent:" : "ar 1/15/2001 18:38",
-		"example" : "lr 7/4/2009 10:42" },
-	"instance" : {
-		"fromFormArray:asciiStart:ascent:" : "lr 7/4/2009 10:42",
-		"reset" : "" } }

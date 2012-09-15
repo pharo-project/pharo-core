@@ -1,3 +1,0 @@
-finalization
-asExecutor
-	sourceForm := nil

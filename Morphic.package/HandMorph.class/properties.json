@@ -2,7 +2,6 @@
 	"category" : "Morphic-Kernel",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"DoubleClickTime",
 		"EventSource",
@@ -40,5 +39,4 @@
 	"pools" : [
 		"EventSensorConstants" ],
 	"super" : "Morph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

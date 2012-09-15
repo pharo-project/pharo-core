@@ -2,7 +2,6 @@
 	"category" : "HelpSystem-Core-Model",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "tbn 3/29/2010 14:53",
@@ -16,5 +15,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

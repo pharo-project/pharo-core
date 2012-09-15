@@ -2,7 +2,6 @@
 	"category" : "Kernel-Processes",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"AccessProtect",
 		"ActiveDelay",
@@ -24,5 +23,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

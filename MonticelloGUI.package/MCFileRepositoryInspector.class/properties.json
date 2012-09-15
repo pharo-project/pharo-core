@@ -3,7 +3,6 @@
 	"classinstvars" : [
 		"packageSearchList",
 		"versionSearchList" ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"Order" ],
 	"commentStamp" : "LaurentLaffont 2/5/2011 17:35",
@@ -25,5 +24,4 @@
 	"pools" : [
 		 ],
 	"super" : "MCVersionInspector",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

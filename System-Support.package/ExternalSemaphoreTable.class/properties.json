@@ -2,7 +2,6 @@
 	"category" : "System-Support",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"ProtectAdd",
 		"ProtectRemove" ],
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

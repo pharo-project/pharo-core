@@ -2,7 +2,6 @@
 	"category" : "RPackage-Core",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"PackageGlobalOrganizer" ],
 	"commentStamp" : "StephaneDucasse 7/25/2011 21:55",
@@ -18,5 +17,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

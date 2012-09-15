@@ -2,7 +2,6 @@
 	"category" : "CollectionsTests-Streams",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "tlk 12/5/2004 14:36",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "TestCase",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

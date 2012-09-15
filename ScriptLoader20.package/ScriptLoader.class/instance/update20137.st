@@ -3,6 +3,6 @@ update20137
 	"self new update20137"
 	self withUpdateLog: 'FS part monticello/scriptloader'.
 	self loadTogether: self script127 merge: false.
-	FileDirectory allSubInstances do: [ :fileDirectory|
-	fileDirectory becomeForward: fileDirectory fullName asFileReference ].
+	(Smalltalk at: #FileDirectory) allSubInstances do: [ :fileDirectory|
+		fileDirectory becomeForward: fileDirectory fullName asFileReference ].
 	self flushCaches.

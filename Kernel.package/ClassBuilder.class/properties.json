@@ -2,7 +2,6 @@
 	"category" : "Kernel-Classes",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"QuietMode" ],
 	"commentStamp" : "ar 2/27/2003 22:55",
@@ -17,5 +16,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

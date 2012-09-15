@@ -2,7 +2,6 @@
 	"category" : "Kernel-Processes",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "md 3/3/2006 09:19",
@@ -17,5 +16,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

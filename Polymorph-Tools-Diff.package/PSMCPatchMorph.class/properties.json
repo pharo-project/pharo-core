@@ -2,7 +2,6 @@
 	"category" : "Polymorph-Tools-Diff",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"UsedByDefault" ],
 	"commentStamp" : "LaurentLaffont 2/23/2011 20:21",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "DiffChangeMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

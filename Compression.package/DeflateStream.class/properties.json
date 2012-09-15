@@ -2,7 +2,6 @@
 	"category" : "Compression-Streams",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "LaurentLaffont 6/8/2011 22:23",
@@ -16,5 +15,4 @@
 	"pools" : [
 		"ZipConstants" ],
 	"super" : "WriteStream",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

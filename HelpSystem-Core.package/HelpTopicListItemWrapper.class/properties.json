@@ -2,7 +2,6 @@
 	"category" : "HelpSystem-Core-UI",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "tbn 3/8/2010 09:30",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "PluggableListItemWrapper",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

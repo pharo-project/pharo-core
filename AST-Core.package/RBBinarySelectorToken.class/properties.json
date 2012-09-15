@@ -2,7 +2,6 @@
 	"category" : "AST-Core-Tokens",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "md 8/9/2005 14:51",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "RBValueToken",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "Morphic-Pluggable Widgets",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"DefaultWarningLimit" ],
 	"commentStamp" : "<historical>",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "PluggableTextMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "Collections-Sequenceable",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "ls 6/25/2005 13:48",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "Stream",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

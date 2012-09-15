@@ -2,7 +2,6 @@
 	"category" : "Kernel-Processes",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"PSKeys",
 		"PSKeysSema" ],
@@ -19,5 +18,4 @@
 	"pools" : [
 		 ],
 	"super" : "Link",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

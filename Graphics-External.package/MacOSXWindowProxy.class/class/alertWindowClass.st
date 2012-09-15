@@ -1,3 +1,0 @@
-constants
-alertWindowClass
-	^1

@@ -2,7 +2,6 @@
 	"category" : "Keymapping-Core",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "GuillermoPolito 12/24/2010 19:00",
@@ -16,5 +15,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

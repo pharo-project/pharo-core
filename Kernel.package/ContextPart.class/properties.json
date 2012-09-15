@@ -2,7 +2,6 @@
 	"category" : "Kernel-Methods",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"PrimitiveFailToken",
 		"QuickStep",
@@ -15,5 +14,4 @@
 	"pools" : [
 		 ],
 	"super" : "InstructionStream",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

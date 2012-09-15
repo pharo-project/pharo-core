@@ -2,7 +2,6 @@
 	"category" : "Monticello-Mocks",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "PackageInfo",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

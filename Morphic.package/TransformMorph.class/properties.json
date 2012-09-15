@@ -2,7 +2,6 @@
 	"category" : "Morphic-Basic",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "wiz 11/6/2005 15:59",
@@ -14,5 +13,4 @@
 	"pools" : [
 		 ],
 	"super" : "Morph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

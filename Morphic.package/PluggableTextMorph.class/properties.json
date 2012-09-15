@@ -2,7 +2,6 @@
 	"category" : "Morphic-Pluggable Widgets",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"ShowTextEditingState",
 		"StylingClass" ],
@@ -32,5 +31,4 @@
 	"pools" : [
 		 ],
 	"super" : "ScrollPane",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

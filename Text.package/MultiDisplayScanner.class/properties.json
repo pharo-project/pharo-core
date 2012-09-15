@@ -2,7 +2,6 @@
 	"category" : "Text-Scanning",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "LaurentLaffont 6/8/2011 22:21",
@@ -22,5 +21,4 @@
 	"pools" : [
 		"TextConstants" ],
 	"super" : "MultiCharacterScanner",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

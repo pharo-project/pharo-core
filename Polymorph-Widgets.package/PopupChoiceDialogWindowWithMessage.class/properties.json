@@ -2,7 +2,6 @@
 	"category" : "Polymorph-Widgets-Windows",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "LaurentLaffont 3/4/2011 22:43",
@@ -15,5 +14,4 @@
 	"pools" : [
 		 ],
 	"super" : "PopupChoiceDialogWindow",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

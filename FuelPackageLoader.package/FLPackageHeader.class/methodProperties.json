@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"addPreMaterializationAction:" : "MarianoMartinezPeck 5/16/2012 19:38",
-		"at:putAdditionalObject:" : "MarianoMartinezPeck 5/16/2012 19:40",
-		"executePreMaterializationActions" : "MarianoMartinezPeck 5/16/2012 19:47",
-		"initialize" : "MarianoMartinezPeck 5/16/2012 19:41" } }

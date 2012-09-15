@@ -2,7 +2,6 @@
 	"category" : "FreeType-Base",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -36,5 +35,4 @@
 	"pools" : [
 		 ],
 	"super" : "FT2Handle",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

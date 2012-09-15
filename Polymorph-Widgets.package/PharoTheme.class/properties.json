@@ -2,7 +2,6 @@
 	"category" : "Polymorph-Widgets-Themes",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "UIThemeWatery2",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

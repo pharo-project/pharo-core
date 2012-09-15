@@ -2,7 +2,6 @@
 	"category" : "FreeType-Fonts",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -16,5 +15,4 @@
 	"pools" : [
 		 ],
 	"super" : "FT2Face",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

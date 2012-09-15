@@ -2,7 +2,6 @@
 	"category" : "System-Applications",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"DefaultSoundEnabled" ],
 	"commentStamp" : "AlainPlantec 1/7/2010 22:41",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "AppRegistry",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

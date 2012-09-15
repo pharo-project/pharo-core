@@ -2,7 +2,6 @@
 	"category" : "Kernel-Exceptions",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"Log",
 		"RaiseWarning",
@@ -17,5 +16,4 @@
 	"pools" : [
 		 ],
 	"super" : "Warning",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "Morphic-Pluggable Widgets",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -43,5 +42,4 @@
 	"pools" : [
 		 ],
 	"super" : "ScrollPane",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

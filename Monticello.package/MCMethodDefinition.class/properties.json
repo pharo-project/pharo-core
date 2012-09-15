@@ -2,7 +2,6 @@
 	"category" : "Monticello-Modeling",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"Definitions",
 		"InitializersEnabled" ],
@@ -18,5 +17,4 @@
 	"pools" : [
 		 ],
 	"super" : "MCDefinition",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

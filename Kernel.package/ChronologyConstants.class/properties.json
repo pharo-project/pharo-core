@@ -2,7 +2,6 @@
 	"category" : "Kernel-Chronology",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"DayNames",
 		"DaysInMonth",
@@ -20,5 +19,4 @@
 	"pools" : [
 		 ],
 	"super" : "SharedPool",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

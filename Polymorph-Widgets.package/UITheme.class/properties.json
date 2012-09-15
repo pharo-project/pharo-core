@@ -2,7 +2,6 @@
 	"category" : "Polymorph-Widgets-Themes",
 	"classinstvars" : [
 		"defaultSettings" ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"Builder",
 		"Current" ],
@@ -16,5 +15,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

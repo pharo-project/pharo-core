@@ -2,7 +2,6 @@
 	"category" : "System-Support",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"Current" ],
 	"commentStamp" : "StephaneDucasse 12/8/2010 13:50",
@@ -19,5 +18,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

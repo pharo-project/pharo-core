@@ -2,7 +2,6 @@
 	"category" : "Morphic-Windows",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "jmv 1/29/2006 17:15",
@@ -14,5 +13,4 @@
 	"pools" : [
 		 ],
 	"super" : "Morph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

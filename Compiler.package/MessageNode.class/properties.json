@@ -2,7 +2,6 @@
 	"category" : "Compiler-ParseNodes",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"MacroEmitters",
 		"MacroPrinters",
@@ -27,5 +26,4 @@
 	"pools" : [
 		 ],
 	"super" : "ParseNode",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

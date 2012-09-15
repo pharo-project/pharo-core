@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"doTestsForReading:intoBufferWithSize:startingAt:fromFileOfSize:offsetBy:" : "HenrikSperreJohansen 3/15/2010 22:47",
-		"testCachingNextChunkPut" : "StephaneDucasse 7/10/2010 18:34",
-		"testDetectFileDo" : "StephaneDucasse 7/10/2010 18:32",
-		"testFileTruncation" : "StephaneDucasse 4/27/2010 14:32",
-		"testNextChunkOutOfBounds" : "StephaneDucasse 7/10/2010 18:34",
-		"testNextLine" : "GabrielOmarCotelli 5/25/2010 21:22",
+		"doTestsForReading:intoBufferWithSize:startingAt:fromFileOfSize:offsetBy:" : "CamilloBruni 7/23/2012 19:54",
+		"testCachingNextChunkPut" : "CamilloBruni 7/23/2012 19:55",
+		"testDetectFileDo" : "CamilloBruni 7/23/2012 19:58",
+		"testFileTruncation" : "CamilloBruni 7/23/2012 20:14",
+		"testNextChunkOutOfBounds" : "CamilloBruni 7/23/2012 19:56",
+		"testNextLine" : "CamilloBruni 7/23/2012 19:56",
 		"testReadIntoStartingAtCountAll" : "HenrikSperreJohansen 3/15/2010 22:29",
 		"testReadIntoStartingAtCountBufferedAll" : "HenrikSperreJohansen 3/15/2010 22:34",
 		"testReadIntoStartingAtCountBufferedNotAll" : "HenrikSperreJohansen 3/15/2010 22:48",

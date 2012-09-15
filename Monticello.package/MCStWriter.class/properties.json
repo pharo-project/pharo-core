@@ -2,7 +2,6 @@
 	"category" : "Monticello-Storing",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "LaurentLaffont 3/31/2011 21:07",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "MCWriter",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

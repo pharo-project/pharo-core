@@ -2,7 +2,6 @@
 	"category" : "Monticello-Storing",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "MCVersionReader",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

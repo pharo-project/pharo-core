@@ -2,7 +2,6 @@
 	"category" : "Morphic-Widgets",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "marcus.denker 9/14/2008 19:03",
@@ -22,5 +21,4 @@
 	"pools" : [
 		"TextConstants" ],
 	"super" : "StringMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "AST-Core-Parser",
 	"classinstvars" : [
 		"classificationTable" ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"PatternVariableCharacter" ],
 	"commentStamp" : "<historical>",
@@ -19,5 +18,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "Tools-File Contents Browser",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "Browser",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

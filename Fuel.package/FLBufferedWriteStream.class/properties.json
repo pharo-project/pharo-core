@@ -2,7 +2,6 @@
 	"category" : "Fuel-Streams",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "MarianoMartinezPeck 6/5/2011 12:41",
@@ -15,5 +14,4 @@
 	"pools" : [
 		 ],
 	"super" : "Stream",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "System-Applications",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"SmtpServer",
 		"UserName" ],
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "AppRegistry",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

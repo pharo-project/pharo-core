@@ -2,7 +2,6 @@
 	"category" : "Text-Core",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"BS",
 		"BS2",
@@ -94,5 +93,4 @@
 	"pools" : [
 		 ],
 	"super" : "SharedPool",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

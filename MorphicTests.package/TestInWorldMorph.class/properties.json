@@ -2,7 +2,6 @@
 	"category" : "MorphicTests-Kernel",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "sd 6/5/2005 10:25",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "Morph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

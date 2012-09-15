@@ -2,7 +2,6 @@
 	"category" : "System-Clipboard",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"Default" ],
 	"commentStamp" : "AlainPlantec 1/15/2010 11:42",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

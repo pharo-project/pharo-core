@@ -2,7 +2,6 @@
 	"category" : "Graphics-Fonts",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "LaurentLaffont 3/31/2011 21:07",
@@ -15,5 +14,4 @@
 	"pools" : [
 		"TextConstants" ],
 	"super" : "AbstractFont",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

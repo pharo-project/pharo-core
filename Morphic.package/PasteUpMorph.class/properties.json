@@ -2,7 +2,6 @@
 	"category" : "Morphic-Worlds",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"WindowEventHandler",
 		"WorldAnnouncer" ],
@@ -15,5 +14,4 @@
 	"pools" : [
 		 ],
 	"super" : "BorderedMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

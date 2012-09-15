@@ -2,7 +2,6 @@
 	"category" : "FreeType-Cache",
 	"classinstvars" : [
 		"current" ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -15,5 +14,4 @@
 	"pools" : [
 		"FreeTypeCacheConstants" ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

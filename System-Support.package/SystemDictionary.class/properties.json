@@ -2,7 +2,6 @@
 	"category" : "System-Support",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "nice 3/6/2010 21:56",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "IdentityDictionary",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

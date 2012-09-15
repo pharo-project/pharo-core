@@ -2,7 +2,6 @@
 	"category" : "Kernel-Methods",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "brp 10/21/2004 17:47",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "Notification",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

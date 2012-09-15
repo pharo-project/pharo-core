@@ -2,7 +2,6 @@
 	"category" : "Morphic-Menus",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"CloseBoxImage",
 		"PushPinImage" ],
@@ -20,5 +19,4 @@
 	"pools" : [
 		 ],
 	"super" : "AlignmentMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "Refactoring-Critics",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "RBLintRule",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

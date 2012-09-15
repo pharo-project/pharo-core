@@ -2,7 +2,6 @@
 	"category" : "Morphic-Events",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "LaurentLaffont 3/4/2011 22:45",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "MessageSend",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

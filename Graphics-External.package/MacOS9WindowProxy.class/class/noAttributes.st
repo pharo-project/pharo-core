@@ -1,3 +1,0 @@
-constants
-noAttributes
-	^0

@@ -2,7 +2,6 @@
 	"category" : "Tools-Process Browser",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"CpuWatcherEnabled",
 		"CurrentCPUWatcher" ],
@@ -15,5 +14,4 @@
 	"pools" : [
 		 ],
 	"super" : "Model",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

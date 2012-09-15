@@ -2,7 +2,6 @@
 	"category" : "Collections-Support",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "mvl 3/11/2007 20:04",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "Magnitude",
-	"traitcomposition" : "{}",
 	"type" : "weak" }

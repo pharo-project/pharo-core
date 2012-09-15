@@ -2,7 +2,6 @@
 	"category" : "Morphic-Kernel",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"KeyboardFocusOnMouseDown",
 		"MouseOverForKeyboardFocus" ],
@@ -15,5 +14,4 @@
 	"pools" : [
 		 ],
 	"super" : "BorderedMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

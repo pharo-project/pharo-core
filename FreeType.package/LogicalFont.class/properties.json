@@ -2,7 +2,6 @@
 	"category" : "FreeType-FontManager",
 	"classinstvars" : [
 		"all" ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "LaurentLaffont 6/8/2011 22:20",
@@ -23,5 +22,4 @@
 	"pools" : [
 		 ],
 	"super" : "AbstractFont",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "Announcements-Core",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "IgorStasenko 3/12/2011 21:37",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "WeakAnnouncementSubscription",
-	"traitcomposition" : "{}",
 	"type" : "weak" }

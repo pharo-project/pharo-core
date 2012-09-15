@@ -2,7 +2,6 @@
 	"category" : "Kernel-Methods",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -14,5 +13,4 @@
 	"pools" : [
 		 ],
 	"super" : "Error",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

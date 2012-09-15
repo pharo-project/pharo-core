@@ -2,7 +2,6 @@
 	"category" : "Ring-Core-Containers",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "VeronicaUquillas 5/12/2011 10:59",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "RGNamedDefinition",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

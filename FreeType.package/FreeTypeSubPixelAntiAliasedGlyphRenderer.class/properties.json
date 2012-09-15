@@ -2,7 +2,6 @@
 	"category" : "FreeType-GlyphRendering",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -12,5 +11,4 @@
 	"pools" : [
 		"FT2Constants" ],
 	"super" : "FreeTypeGlyphRenderer",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

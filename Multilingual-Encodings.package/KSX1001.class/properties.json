@@ -2,7 +2,6 @@
 	"category" : "Multilingual-Encodings",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "yo 10/19/2004 19:53",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "EncodedCharSet",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

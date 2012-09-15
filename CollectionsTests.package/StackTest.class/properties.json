@@ -2,7 +2,6 @@
 	"category" : "CollectionsTests-Stack",
 	"classinstvars" : [
 		"testSize" ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

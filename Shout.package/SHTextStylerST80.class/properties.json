@@ -3,7 +3,6 @@
 	"classinstvars" : [
 		"styleTable",
 		"textAttributesByPixelHeight" ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "StephaneDucasse 11/29/2011 22:28",
@@ -18,5 +17,4 @@
 	"pools" : [
 		 ],
 	"super" : "SHTextStyler",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

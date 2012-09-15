@@ -2,7 +2,6 @@
 	"category" : "Polymorph-Widgets",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "GaryChambers 4/24/2012 14:20",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "TextMorphForEditView",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

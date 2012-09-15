@@ -1,3 +1,0 @@
-constants
-movableModalWindowClass
-	^4

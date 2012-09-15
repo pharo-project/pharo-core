@@ -2,7 +2,6 @@
 	"category" : "System-Settings-Filter",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "alain.plantec 4/8/2009 13:02",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "SettingFilter",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

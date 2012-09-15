@@ -2,7 +2,6 @@
 	"category" : "Kernel-Objects",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"NextVariableCheckTime" ],
 	"commentStamp" : "stephane.ducasse 9/25/2008 17:47",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

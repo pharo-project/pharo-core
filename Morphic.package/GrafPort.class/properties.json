@@ -2,7 +2,6 @@
 	"category" : "Morphic-Support",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -16,5 +15,4 @@
 	"pools" : [
 		 ],
 	"super" : "BitBlt",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

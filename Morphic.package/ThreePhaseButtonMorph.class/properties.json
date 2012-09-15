@@ -2,7 +2,6 @@
 	"category" : "Morphic-Widgets",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -18,5 +17,4 @@
 	"pools" : [
 		 ],
 	"super" : "ImageMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -1,3 +1,0 @@
-constants
-drawerWindowClass
-	^20

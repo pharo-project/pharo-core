@@ -2,7 +2,6 @@
 	"category" : "Balloon-Engine",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"BezierStats",
 		"BufferCache",
@@ -28,5 +27,4 @@
 	"pools" : [
 		"BalloonEngineConstants" ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

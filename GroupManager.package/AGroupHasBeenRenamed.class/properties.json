@@ -2,7 +2,6 @@
 	"category" : "GroupManager-Announcements",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "AbstractGroupAnnouncement",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

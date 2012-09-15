@@ -2,7 +2,6 @@
 	"category" : "ToolsTest-Finder",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "sd 4/21/2011 16:54",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "TestCase",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

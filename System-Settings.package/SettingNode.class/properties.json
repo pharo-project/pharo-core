@@ -2,7 +2,6 @@
 	"category" : "System-Settings-Browser",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "alain.plantec 4/20/2009 21:42",
@@ -14,5 +13,4 @@
 	"pools" : [
 		 ],
 	"super" : "MorphTreeNodeModel",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

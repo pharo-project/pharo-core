@@ -2,7 +2,6 @@
 	"category" : "RecentSubmissions-Core",
 	"classinstvars" : [
 		"settingDropList" ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"UniqueInstance" ],
 	"commentStamp" : "<historical>",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "MessageList",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

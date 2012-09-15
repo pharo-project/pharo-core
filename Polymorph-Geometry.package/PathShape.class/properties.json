@@ -2,7 +2,6 @@
 	"category" : "Polymorph-Geometry",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "LaurentLaffont 3/31/2011 21:05",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "Shape",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

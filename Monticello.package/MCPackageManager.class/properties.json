@@ -2,7 +2,6 @@
 	"category" : "Monticello-Versioning",
 	"classinstvars" : [
 		"registry" ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"PrivateAnnouncer" ],
 	"commentStamp" : "StephaneDucasse 4/29/2011 20:42",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "Model",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

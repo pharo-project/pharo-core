@@ -2,7 +2,6 @@
 	"category" : "Announcements-Tests-Core",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "AnnouncerTest",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

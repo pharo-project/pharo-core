@@ -2,7 +2,6 @@
 	"category" : "Files-Kernel",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"Stderr",
 		"Stdin",
@@ -16,5 +15,4 @@
 	"pools" : [
 		 ],
 	"super" : "ReadWriteStream",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

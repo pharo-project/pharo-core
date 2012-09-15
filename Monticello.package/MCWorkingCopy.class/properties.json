@@ -2,7 +2,6 @@
 	"category" : "Monticello-Versioning",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "StephaneDucasse 4/29/2011 20:44",
@@ -16,5 +15,4 @@
 	"pools" : [
 		 ],
 	"super" : "MCPackageManager",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

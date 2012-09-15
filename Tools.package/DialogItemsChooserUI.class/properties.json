@@ -3,7 +3,6 @@
 	"classinstvars" : [
 		"alreadySearchedSelectedItemsListMaxSize",
 		"alreadySearchedUnselectedItemsListMaxSize" ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"AlreadySearchedSelectedItemsList",
 		"AlreadySearchedUnselectedItemsList" ],
@@ -28,5 +27,4 @@
 	"pools" : [
 		 ],
 	"super" : "DialogWindow",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "Morphic-Pluggable Widgets",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "KLC 9/17/2004 11:26",
@@ -14,5 +13,4 @@
 	"pools" : [
 		 ],
 	"super" : "Morph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

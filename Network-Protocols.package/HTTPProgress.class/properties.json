@@ -2,7 +2,6 @@
 	"category" : "Network-Protocols",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "StephaneDucasse 3/28/2010 21:27",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "Notification",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

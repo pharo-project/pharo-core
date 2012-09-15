@@ -2,7 +2,6 @@
 	"category" : "SUnit-Core-Extensions",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "LaurentLaffont 5/4/2011 21:25",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "ClassFactoryForTestCase",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

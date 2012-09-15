@@ -1,9 +1,9 @@
 running
 tearDown
 	| dir |
-	dir := FileDirectory default.
+	dir := FileSystem workingDirectory.
 	self createdClassesAndTraits, self resourceClassesAndTraits  do: [:each |
-		dir deleteFileNamed: each asString , '.st' ifAbsent: []].
-	dir deleteFileNamed: self categoryName , '.st' ifAbsent: [].
+		(dir / each asString,'st') ensureDeleted ] .
+	(dir / self categoryName,'st') ensureDeleted.
 	self class environment organization removeSystemCategory: self categoryName.
 	super tearDown

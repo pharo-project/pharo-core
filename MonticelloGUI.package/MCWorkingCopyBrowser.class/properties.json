@@ -5,7 +5,6 @@
 		"workingCopySearchMaxSize",
 		"workingCopySearchList",
 		"repositorySearchList" ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"Order" ],
 	"commentStamp" : "",
@@ -21,5 +20,4 @@
 	"pools" : [
 		 ],
 	"super" : "MCTool",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

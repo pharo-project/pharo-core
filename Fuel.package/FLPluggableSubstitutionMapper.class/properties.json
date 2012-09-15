@@ -2,7 +2,6 @@
 	"category" : "Fuel-Mappers",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "MartinDias 8/20/2011 23:45",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "FLMapper",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

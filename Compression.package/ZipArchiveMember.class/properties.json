@@ -2,7 +2,6 @@
 	"category" : "Compression-Archives",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -29,5 +28,4 @@
 	"pools" : [
 		"ZipFileConstants" ],
 	"super" : "ArchiveMember",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

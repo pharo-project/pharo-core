@@ -5,10 +5,6 @@ setUp
 	"SetUpCount := SetUpCount + 1."
 
 	dirty := false.
-	oldAnnouncer := SystemAnnouncer uniqueInstance.
-	SystemAnnouncer announcer: nil.
-	oldPrivateAnnouncer := SystemAnnouncer privateAnnouncer. 
-	SystemAnnouncer privateAnnouncer: nil.
 	SystemAnnouncer uniqueInstance doSilently: 
 			[self t1: (self createTraitNamed: #T1
 						uses: { }).

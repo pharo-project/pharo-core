@@ -2,7 +2,6 @@
 	"category" : "Kernel-Classes",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "NS 4/6/2004 16:13",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "BasicClassOrganizer",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "Collections-Unordered",
 	"classinstvars" : [
 		"sizes" ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "MartinMcClure 3/18/2010 21:44",
@@ -16,5 +15,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

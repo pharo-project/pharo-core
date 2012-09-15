@@ -2,7 +2,6 @@
 	"category" : "Compression-Streams",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"DistanceMap",
 		"FixedDistTable",
@@ -15,5 +14,4 @@
 	"pools" : [
 		 ],
 	"super" : "InflateStream",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

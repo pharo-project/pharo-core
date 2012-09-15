@@ -1,1 +1,0 @@
-LocaleTest buildSuite run

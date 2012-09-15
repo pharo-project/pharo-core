@@ -2,7 +2,6 @@
 	"category" : "Collections-Support",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"NilElement" ],
 	"commentStamp" : "StephaneDucasse 7/14/2011 21:29",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

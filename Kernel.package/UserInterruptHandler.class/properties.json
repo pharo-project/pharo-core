@@ -2,7 +2,6 @@
 	"category" : "Kernel-Processes",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"CmdDotEnabled" ],
 	"commentStamp" : "michael.rueger 4/22/2009 12:01",
@@ -12,5 +11,4 @@
 	"pools" : [
 		"EventSensorConstants" ],
 	"super" : "InputEventHandler",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

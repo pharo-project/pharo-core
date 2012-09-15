@@ -2,7 +2,6 @@
 	"category" : "System-Finalization",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "jcg 4/27/2010 01:01",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "MessageSend",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

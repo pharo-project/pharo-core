@@ -2,7 +2,6 @@
 	"category" : "CompilerTests",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "StephaneDucasse 6/9/2010 20:53",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "TotalCost",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

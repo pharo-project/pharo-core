@@ -2,7 +2,6 @@
 	"category" : "Polymorph-Widgets",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "CamilloBruni 8/4/2011 14:39",
@@ -15,5 +14,4 @@
 	"pools" : [
 		 ],
 	"super" : "EditableDropListMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

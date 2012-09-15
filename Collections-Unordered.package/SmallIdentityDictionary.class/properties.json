@@ -2,7 +2,6 @@
 	"category" : "Collections-Unordered",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "sd 7/21/2009 10:12",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "SmallDictionary",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

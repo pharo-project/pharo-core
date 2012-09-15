@@ -3,7 +3,6 @@
 	"classinstvars" : [
 		"cmdActions",
 		"shiftCmdActions" ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"CaseSensitiveFinds",
 		"UseFindReplaceSelection",
@@ -18,5 +17,4 @@
 	"pools" : [
 		 ],
 	"super" : "Editor",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

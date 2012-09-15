@@ -2,7 +2,6 @@
 	"category" : "Kernel-Pragmas",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "alain.plantec 10/20/2009 11:33",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "PragmaAnnouncement",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

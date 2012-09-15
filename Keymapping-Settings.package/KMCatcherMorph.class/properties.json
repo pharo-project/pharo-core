@@ -2,7 +2,6 @@
 	"category" : "Keymapping-Settings",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -17,5 +16,4 @@
 	"pools" : [
 		 ],
 	"super" : "BorderedMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

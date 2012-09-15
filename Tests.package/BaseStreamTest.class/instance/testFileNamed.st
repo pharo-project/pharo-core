@@ -12,6 +12,4 @@ testFileNamed
 	self baseStreamType
 		fileNamed: fileName
 		do: [:streamType | self assert: streamType next = testString]]
-		ensure: [FileDirectory default
-				deleteFileNamed: fileName
-				ifAbsent: []]
+		ensure: [ (FileSystem disk workingDirectory / fileName) ensureDeleted ].

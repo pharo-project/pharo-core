@@ -2,7 +2,6 @@
 	"category" : "Morphic-Windows",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "AlainPlantec 2/22/2012 23:23",
@@ -14,5 +13,4 @@
 	"pools" : [
 		 ],
 	"super" : "Morph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

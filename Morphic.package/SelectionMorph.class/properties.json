@@ -2,7 +2,6 @@
 	"category" : "Morphic-Basic",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -18,5 +17,4 @@
 	"pools" : [
 		 ],
 	"super" : "BorderedMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

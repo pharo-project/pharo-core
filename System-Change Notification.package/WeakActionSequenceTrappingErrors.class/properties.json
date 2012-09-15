@@ -2,7 +2,6 @@
 	"category" : "System-Change Notification",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "WeakActionSequence",
-	"traitcomposition" : "{}",
 	"type" : "variable" }

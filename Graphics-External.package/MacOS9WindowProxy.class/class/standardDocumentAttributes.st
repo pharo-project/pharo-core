@@ -1,3 +1,0 @@
-constants
-standardDocumentAttributes 
-	^self closeBoxAttribute

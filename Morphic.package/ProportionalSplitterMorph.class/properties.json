@@ -2,7 +2,6 @@
 	"category" : "Morphic-Windows",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"ShowHandles" ],
 	"commentStamp" : "jmv 1/29/2006 17:16",
@@ -16,5 +15,4 @@
 	"pools" : [
 		 ],
 	"super" : "AbstractResizerMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

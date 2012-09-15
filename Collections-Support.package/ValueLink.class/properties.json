@@ -2,7 +2,6 @@
 	"category" : "Collections-Support",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "HenrikSperreJohansen 10/18/2009 15:57",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "Link",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

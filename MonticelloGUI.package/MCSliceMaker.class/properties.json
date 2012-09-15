@@ -2,7 +2,6 @@
 	"category" : "MonticelloGUI",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "AlainPlantec 9/27/2011 11:43",
@@ -14,5 +13,4 @@
 	"pools" : [
 		 ],
 	"super" : "Model",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "Kernel-Chronology",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"ClockProvider",
 		"DaysSinceEpoch",
@@ -22,5 +21,4 @@
 	"pools" : [
 		"ChronologyConstants" ],
 	"super" : "Magnitude",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

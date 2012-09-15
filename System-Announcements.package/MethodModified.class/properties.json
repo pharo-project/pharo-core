@@ -2,7 +2,6 @@
 	"category" : "System-Announcements",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "BenjaminVanRyseghem 4/1/2011 16:04",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "SystemAnnouncement",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

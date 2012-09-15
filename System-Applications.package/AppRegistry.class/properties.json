@@ -3,7 +3,6 @@
 	"classinstvars" : [
 		"registeredClasses",
 		"default" ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "ads 4/2/2003 15:30",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

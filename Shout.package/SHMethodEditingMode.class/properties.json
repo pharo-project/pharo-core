@@ -2,7 +2,6 @@
 	"category" : "Shout-Examples",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "AlainPlantec 9/20/2011 21:15",
@@ -15,5 +14,4 @@
 	"pools" : [
 		 ],
 	"super" : "Model",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

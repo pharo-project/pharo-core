@@ -2,7 +2,6 @@
 	"category" : "Collections-Strings",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "yo 10/19/2004 22:34",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "String",
-	"traitcomposition" : "{}",
 	"type" : "words" }

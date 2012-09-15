@@ -2,7 +2,6 @@
 	"category" : "Fuel-Clusters",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "MartinDias 5/30/2011 01:25",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "FLPointerObjectCluster",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

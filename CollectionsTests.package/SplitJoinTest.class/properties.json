@@ -2,7 +2,6 @@
 	"category" : "CollectionsTests-SplitJoin",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "onierstrasz 4/12/2009 20:33",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "TestCase",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

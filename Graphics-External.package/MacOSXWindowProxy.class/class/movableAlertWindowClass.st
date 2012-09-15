@@ -1,3 +1,0 @@
-constants
-movableAlertWindowClass
-	^2

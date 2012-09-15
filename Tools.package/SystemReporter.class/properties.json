@@ -2,7 +2,6 @@
 	"category" : "Tools-SystemReporter",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "laza 1/18/2011 12:04",
@@ -17,5 +16,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

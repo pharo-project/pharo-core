@@ -1,3 +1,0 @@
-constants
-plainWindowClass
-	^13

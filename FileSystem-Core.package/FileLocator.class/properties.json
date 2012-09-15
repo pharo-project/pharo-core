@@ -2,7 +2,6 @@
 	"category" : "FileSystem-Core-Public",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"Resolver" ],
 	"commentStamp" : "<historical>",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "AbstractFileReference",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

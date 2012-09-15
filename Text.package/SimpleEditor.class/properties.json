@@ -2,7 +2,6 @@
 	"category" : "Text-Edition",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"CmdActions",
 		"ShiftCmdActions" ],
@@ -16,5 +15,4 @@
 	"pools" : [
 		 ],
 	"super" : "Editor",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

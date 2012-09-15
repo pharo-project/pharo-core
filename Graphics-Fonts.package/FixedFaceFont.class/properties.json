@@ -2,7 +2,6 @@
 	"category" : "Graphics-Fonts",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "tak 12/22/2004 01:45",
@@ -14,5 +13,4 @@
 	"pools" : [
 		 ],
 	"super" : "AbstractFont",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "Monticello-Repositories",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "nk 6/11/2004 18:56",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "MCDirectoryRepository",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

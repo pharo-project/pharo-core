@@ -1,3 +1,0 @@
-operations
-ensureDeleted
-	self deleteIfAbsent: [].

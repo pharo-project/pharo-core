@@ -2,7 +2,6 @@
 	"category" : "FreeType-Settings",
 	"classinstvars" : [
 		"current" ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"UpdateFontsAtImageStartup" ],
 	"commentStamp" : "",
@@ -25,5 +24,4 @@
 		"FT2Constants",
 		"FreeTypeCacheConstants" ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "Network-RFC822",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"CSNonAtom",
 		"CSNonSeparators",
@@ -17,5 +16,4 @@
 	"pools" : [
 		 ],
 	"super" : "Stream",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

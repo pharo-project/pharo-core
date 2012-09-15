@@ -2,7 +2,6 @@
 	"category" : "Tools-Debugger",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "LaurentLaffont 3/15/2011 20:51",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "SystemWindow",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

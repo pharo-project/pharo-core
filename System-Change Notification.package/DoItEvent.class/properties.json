@@ -2,7 +2,6 @@
 	"category" : "System-Change Notification",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "StephaneDucasse 2/10/2011 16:06",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "AbstractEvent",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

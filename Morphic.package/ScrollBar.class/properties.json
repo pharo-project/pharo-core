@@ -2,7 +2,6 @@
 	"category" : "Morphic-Widgets",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"ArrowImagesCache",
 		"BoxesImagesCache" ],
@@ -22,5 +21,4 @@
 	"pools" : [
 		 ],
 	"super" : "Slider",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

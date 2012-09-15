@@ -2,7 +2,6 @@
 	"category" : "FuelTests",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "FLBasicSerializationTest",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "Tests-Monticello",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "TestResource",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

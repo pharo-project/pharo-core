@@ -2,7 +2,6 @@
 	"category" : "Morphic-Menus",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"SubMenuMarker" ],
 	"commentStamp" : "StephaneDucasse 4/22/2012 16:43",
@@ -18,5 +17,4 @@
 	"pools" : [
 		 ],
 	"super" : "StringMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

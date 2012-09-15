@@ -2,7 +2,6 @@
 	"category" : "Compression-Archives",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"CentralDirectoryFileHeaderSignature",
 		"CompressionDeflated",
@@ -31,5 +30,4 @@
 	"pools" : [
 		 ],
 	"super" : "SharedPool",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

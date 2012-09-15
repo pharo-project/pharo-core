@@ -2,7 +2,6 @@
 	"category" : "Graphics-Primitives",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -25,5 +24,4 @@
 	"pools" : [
 		 ],
 	"super" : "BitBlt",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "Collections-Abstract",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "SvenVanCaekenberghe 4/18/2011 14:53",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "Error",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

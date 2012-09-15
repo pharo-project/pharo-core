@@ -2,7 +2,6 @@
 	"category" : "Kernel-Numbers",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"E",
 		"Epsilon",
@@ -28,5 +27,4 @@
 	"pools" : [
 		 ],
 	"super" : "Number",
-	"traitcomposition" : "{}",
 	"type" : "words" }

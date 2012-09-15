@@ -2,7 +2,6 @@
 	"category" : "Polymorph-Tools-Diff",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -22,5 +21,4 @@
 	"pools" : [
 		 ],
 	"super" : "ComposableMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

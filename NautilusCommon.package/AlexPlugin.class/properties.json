@@ -2,7 +2,6 @@
 	"category" : "NautilusCommon-Plugin",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -14,5 +13,4 @@
 	"pools" : [
 		 ],
 	"super" : "AbstractNautilusPlugin",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

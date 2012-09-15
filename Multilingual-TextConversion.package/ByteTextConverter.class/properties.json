@@ -3,7 +3,6 @@
 	"classinstvars" : [
 		"byteToUnicode",
 		"unicodeToByte" ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "michael.rueger 1/27/2009 18:00",
@@ -13,5 +12,4 @@
 	"pools" : [
 		"EventSensorConstants" ],
 	"super" : "TextConverter",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

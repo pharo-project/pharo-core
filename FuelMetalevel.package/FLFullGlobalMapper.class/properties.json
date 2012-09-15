@@ -2,7 +2,6 @@
 	"category" : "FuelMetalevel-Mappers",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -21,5 +20,4 @@
 	"pools" : [
 		 ],
 	"super" : "FLMapper",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

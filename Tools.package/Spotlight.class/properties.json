@@ -2,7 +2,6 @@
 	"category" : "Tools-Spotlight",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"Current" ],
 	"commentStamp" : "<historical>",
@@ -14,5 +13,4 @@
 	"pools" : [
 		 ],
 	"super" : "Morph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "Morphic-Support",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "LaurentLaffont 2/23/2011 20:17",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "ColorMappingCanvas",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

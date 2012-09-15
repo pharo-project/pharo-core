@@ -2,7 +2,6 @@
 	"category" : "Fuel-Clusters",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "MartinDias 8/1/2011 02:57",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "FLGlobalCluster",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

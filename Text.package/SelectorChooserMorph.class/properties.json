@@ -2,7 +2,6 @@
 	"category" : "Text-Edition",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "AlainPlantec 11/29/2010 10:47",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "IdentifierChooserMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

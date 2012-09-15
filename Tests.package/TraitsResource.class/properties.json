@@ -2,7 +2,6 @@
 	"category" : "Tests-Traits",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -22,12 +21,9 @@
 		"c6",
 		"c7",
 		"c8",
-		"dirty",
-		"oldAnnouncer",
-		"oldPrivateAnnouncer" ],
+		"dirty" ],
 	"name" : "TraitsResource",
 	"pools" : [
 		 ],
 	"super" : "TestResource",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "Morphic-Widgets",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"DefaultHeight",
 		"DefaultWidth" ],
@@ -15,5 +14,4 @@
 	"pools" : [
 		 ],
 	"super" : "RectangleMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

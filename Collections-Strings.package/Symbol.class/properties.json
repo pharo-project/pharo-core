@@ -2,7 +2,6 @@
 	"category" : "Collections-Strings",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"NewSymbols",
 		"OneCharacterSymbols",
@@ -14,5 +13,4 @@
 	"pools" : [
 		 ],
 	"super" : "String",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "Balloon-Engine",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"BEAaLevelIndex",
 		"BEBalloonEngineSize",
@@ -213,5 +212,4 @@
 	"pools" : [
 		 ],
 	"super" : "SharedPool",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

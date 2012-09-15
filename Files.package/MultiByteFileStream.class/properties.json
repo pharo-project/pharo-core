@@ -2,7 +2,6 @@
 	"category" : "Files-Kernel",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"Cr",
 		"CrLf",
@@ -19,5 +18,4 @@
 	"pools" : [
 		 ],
 	"super" : "StandardFileStream",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

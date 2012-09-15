@@ -2,7 +2,6 @@
 	"category" : "Morphic-Text Support",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "md 8/10/2006 11:52",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "TextAttribute",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "FreeType-FontManager",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "FontFamilyAbstract",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

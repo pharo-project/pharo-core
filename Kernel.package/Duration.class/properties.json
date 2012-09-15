@@ -2,7 +2,6 @@
 	"category" : "Kernel-Chronology",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "marcus.denker 6/5/2009 11:27",
@@ -13,5 +12,4 @@
 	"pools" : [
 		"ChronologyConstants" ],
 	"super" : "Magnitude",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

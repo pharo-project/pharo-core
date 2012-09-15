@@ -2,7 +2,6 @@
 	"category" : "Spec-Tools-Senders",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -23,5 +22,4 @@
 	"pools" : [
 		 ],
 	"super" : "ComposableModel",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

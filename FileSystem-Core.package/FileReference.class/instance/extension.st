@@ -1,4 +1,0 @@
-accessing
-extension
-	
-	^ path extension.

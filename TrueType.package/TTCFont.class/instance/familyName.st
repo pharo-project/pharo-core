@@ -1,4 +1,0 @@
-accessing
-familyName
-
-	^ ttcDescription name.

@@ -2,7 +2,6 @@
 	"category" : "System-Hashing-SHA1",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"K1",
 		"K2",
@@ -20,5 +19,4 @@
 	"pools" : [
 		 ],
 	"super" : "HashFunction",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

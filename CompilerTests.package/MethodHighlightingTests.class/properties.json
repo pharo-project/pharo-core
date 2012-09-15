@@ -2,7 +2,6 @@
 	"category" : "CompilerTests",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -15,5 +14,4 @@
 	"pools" : [
 		 ],
 	"super" : "ClosureCompilerTest",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

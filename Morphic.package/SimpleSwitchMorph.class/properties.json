@@ -2,7 +2,6 @@
 	"category" : "Morphic-Widgets",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "StephaneDucasse 3/9/2012 12:45",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "SimpleButtonMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

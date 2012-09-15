@@ -2,7 +2,6 @@
 	"category" : "Tools-Finder",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"AddAndRemove",
 		"Approved",
@@ -25,5 +24,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

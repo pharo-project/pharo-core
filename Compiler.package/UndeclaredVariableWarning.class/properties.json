@@ -2,7 +2,6 @@
 	"category" : "Compiler-Support",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -14,5 +13,4 @@
 	"pools" : [
 		 ],
 	"super" : "Warning",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

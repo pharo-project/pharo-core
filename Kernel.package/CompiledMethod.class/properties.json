@@ -2,7 +2,6 @@
 	"category" : "Kernel-Methods",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"LargeFrame",
 		"SmallFrame" ],
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "ByteArray",
-	"traitcomposition" : "{}",
 	"type" : "compiledMethod" }

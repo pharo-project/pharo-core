@@ -2,7 +2,6 @@
 	"category" : "Morphic-Support",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"CopyPlusIcon" ],
 	"commentStamp" : "nk 6/16/2003 16:52",
@@ -19,5 +18,4 @@
 	"pools" : [
 		 ],
 	"super" : "Morph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

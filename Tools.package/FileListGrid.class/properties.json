@@ -2,7 +2,6 @@
 	"category" : "Tools-FileList",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "MorphTreeModel",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

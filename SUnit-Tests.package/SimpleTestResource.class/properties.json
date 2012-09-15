@@ -2,7 +2,6 @@
 	"category" : "SUnit-Tests-Core",
 	"classinstvars" : [
 		"preventAvailability" ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -14,5 +13,4 @@
 	"pools" : [
 		 ],
 	"super" : "TestResource",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

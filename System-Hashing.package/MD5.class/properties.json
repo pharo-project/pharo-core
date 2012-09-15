@@ -2,7 +2,6 @@
 	"category" : "System-Hashing-MD5",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "ul 3/3/2008 23:40",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "HashFunction",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

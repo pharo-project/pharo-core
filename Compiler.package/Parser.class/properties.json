@@ -2,7 +2,6 @@
 	"category" : "Compiler-Kernel",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"AllowBlockArgumentAssignment",
 		"Warns" ],
@@ -27,5 +26,4 @@
 	"pools" : [
 		 ],
 	"super" : "Scanner",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

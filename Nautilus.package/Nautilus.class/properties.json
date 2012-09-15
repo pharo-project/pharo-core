@@ -4,7 +4,6 @@
 		"maxSize",
 		"cachedLastClasses",
 		"groups" ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"CommentPosition",
 		"HistoryMaxSize",
@@ -38,5 +37,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

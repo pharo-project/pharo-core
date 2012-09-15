@@ -2,7 +2,6 @@
 	"category" : "Tools-FileList",
 	"classinstvars" : [
 		"searchList" ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"FileReaderRegistry",
 		"RecentDirs" ],
@@ -29,5 +28,4 @@
 	"pools" : [
 		 ],
 	"super" : "Model",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

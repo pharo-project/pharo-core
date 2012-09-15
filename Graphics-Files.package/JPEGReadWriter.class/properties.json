@@ -2,7 +2,6 @@
 	"category" : "Graphics-Files",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"ConstBits",
 		"DCTK1",
@@ -74,5 +73,4 @@
 	"pools" : [
 		 ],
 	"super" : "ImageReadWriter",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

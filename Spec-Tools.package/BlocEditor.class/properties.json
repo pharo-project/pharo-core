@@ -2,7 +2,6 @@
 	"category" : "Spec-Tools-Editor",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -16,5 +15,4 @@
 	"pools" : [
 		 ],
 	"super" : "ComposableModel",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

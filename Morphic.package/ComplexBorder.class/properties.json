@@ -2,7 +2,6 @@
 	"category" : "Morphic-Borders",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "MarcusDenker 2/14/2010 22:32",
@@ -14,5 +13,4 @@
 	"pools" : [
 		 ],
 	"super" : "SimpleBorder",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

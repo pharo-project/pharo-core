@@ -2,7 +2,6 @@
 	"category" : "Morphic-Layouts",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -24,5 +23,4 @@
 	"pools" : [
 		 ],
 	"super" : "LayoutProperties",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

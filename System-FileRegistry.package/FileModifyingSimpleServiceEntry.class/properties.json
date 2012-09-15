@@ -2,7 +2,6 @@
 	"category" : "System-FileRegistry",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "nk 11/26/2002 12:03",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "SimpleServiceEntry",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -1,12 +1,13 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6477:	Remove SystemChangeNotifier 3 - Cleaning step 1
-	http://code.google.com/p/pharo/issues/detail?id=6477
+ ^ 'Issue 5772:	Deprecate FileDirectory
+	http://code.google.com/p/pharo/issues/detail?id=5772
 	
-Issue 6484:	Static subscriptions to SystemAnnouncer done via pragmas
-	http://code.google.com/p/pharo/issues/detail?id=6484
+Issue 6499:	New Nautilus version
+	http://code.google.com/p/pharo/issues/detail?id=6499
 	
-Issue 6495:	Settings Exporter
-	http://code.google.com/p/pharo/issues/detail?id=6495
+Issue 6500:	New Nautilus version
+	http://code.google.com/p/pharo/issues/detail?id=6500
 	
-...and a bit of issue 6493, but still not completed. '
+Issue 6504:	Trait tests mess with the System Announcer
+	http://code.google.com/p/pharo/issues/detail?id=6504'

@@ -2,7 +2,6 @@
 	"category" : "System-Localization",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"AllKnownPhrases" ],
 	"commentStamp" : "HilaireFernandes 5/13/2010 11:48",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

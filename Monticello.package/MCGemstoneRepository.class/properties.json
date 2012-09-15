@@ -2,7 +2,6 @@
 	"category" : "Monticello-Repositories",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "CamilloBruni 2/8/2012 18:10",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "MCHttpRepository",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

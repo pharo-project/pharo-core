@@ -2,7 +2,6 @@
 	"category" : "Collections-Weak",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"FinalizationDependents",
 		"FinalizationLock",
@@ -15,5 +14,4 @@
 	"pools" : [
 		 ],
 	"super" : "Array",
-	"traitcomposition" : "{}",
 	"type" : "weak" }

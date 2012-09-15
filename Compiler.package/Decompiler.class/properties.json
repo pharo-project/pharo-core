@@ -2,7 +2,6 @@
 	"category" : "Compiler-Kernel",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"ArgumentFlag",
 		"CascadeFlag",
@@ -33,5 +32,4 @@
 	"pools" : [
 		 ],
 	"super" : "InstructionStream",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

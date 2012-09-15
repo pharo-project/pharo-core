@@ -2,7 +2,6 @@
 	"category" : "Tests-System",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "NicoPaez 10/17/2010 14:45",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "SharedPool",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

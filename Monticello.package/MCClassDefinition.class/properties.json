@@ -2,7 +2,6 @@
 	"category" : "Monticello-Modeling",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -20,5 +19,4 @@
 	"pools" : [
 		 ],
 	"super" : "MCDefinition",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

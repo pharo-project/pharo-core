@@ -2,7 +2,6 @@
 	"category" : "Zinc-Zodiac",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "SvenVanCaekenberghe 5/18/2011 12:40",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "ZnNetworkingUtils",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

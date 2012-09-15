@@ -2,7 +2,6 @@
 	"category" : "Tests-Bugs",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "wiz 11/24/2006 00:24",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "MorphicUIBugTest",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

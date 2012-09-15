@@ -2,7 +2,6 @@
 	"category" : "SUnit-Core-Utilities",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "mjr 8/20/2003 12:48",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "PrototypeTester",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

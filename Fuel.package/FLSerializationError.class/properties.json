@@ -2,7 +2,6 @@
 	"category" : "Fuel-Errors",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "FLError",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "AST-Semantic-Scope",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "RBLexicalScope",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

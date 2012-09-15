@@ -2,7 +2,6 @@
 	"category" : "Tools-Profilers",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"DefaultPollPeriod",
 		"Timer" ],
@@ -24,5 +23,4 @@
 	"pools" : [
 		 ],
 	"super" : "Magnitude",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

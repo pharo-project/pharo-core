@@ -2,7 +2,6 @@
 	"category" : "Network-Protocols",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "mir 2/21/2002 16:57",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "TelnetProtocolClient",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

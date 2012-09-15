@@ -2,7 +2,6 @@
 	"category" : "Collections-Strings",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"NonAsciiMap" ],
 	"commentStamp" : "<historical>",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "String",
-	"traitcomposition" : "{}",
 	"type" : "bytes" }

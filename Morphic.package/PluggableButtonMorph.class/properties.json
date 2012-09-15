@@ -2,7 +2,6 @@
 	"category" : "Morphic-Pluggable Widgets",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"UseGradientLook" ],
 	"commentStamp" : "<historical>",
@@ -33,5 +32,4 @@
 	"pools" : [
 		 ],
 	"super" : "AlignmentMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

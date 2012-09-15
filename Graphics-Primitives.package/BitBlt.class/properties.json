@@ -2,7 +2,6 @@
 	"category" : "Graphics-Primitives",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"CachedFontColorMaps",
 		"ColorConvertingMaps" ],
@@ -27,5 +26,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "Kernel-Exceptions",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "SvenVanCaekenberghe 4/21/2011 13:00",
@@ -14,5 +13,4 @@
 	"pools" : [
 		 ],
 	"super" : "Error",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

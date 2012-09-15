@@ -2,7 +2,6 @@
 	"category" : "SUnit-Core-Kernel",
 	"classinstvars" : [
 		"current" ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "TestAsserter",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

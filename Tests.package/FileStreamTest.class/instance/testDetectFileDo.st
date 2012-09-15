@@ -1,13 +1,13 @@
 testing
 testDetectFileDo
-	| filename |
-	[ filename := 'filestream.tst'.
-	(FileDirectory default forceNewFileNamed: filename) nextPutAll: '42';
-		 close.
+	| file |
+	[ file := 'filestream.tst' asFileReference.
+	file writeStreamDo: [ :s | s nextPutAll: '42' ].
 	FileStream
-		detectFile: [FileDirectory default oldFileNamed: filename]
-		do: [:file | 
-			self assert: file notNil.
-			self deny: file closed.
-			self assert: file contentsOfEntireFile = '42']]
-		ensure: [FileDirectory default deleteFileNamed: filename ifAbsent: nil]
+		detectFile: [ file readStream ]
+		do: [ :stream | 
+			self assert: stream notNil.
+			self deny: stream closed.
+			self assert: stream contentsOfEntireFile = '42']]
+		ensure: [
+			file ensureDeleted ].

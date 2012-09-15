@@ -38,8 +38,6 @@ doTestsForReading: count intoBufferWithSize: readSize startingAt: startIndex fro
 				ifTrue: [ (writeBuffer at: startOffset + n - startIndex +1) ]
 				ifFalse: [ 0 ].	
 		self assert: expected equals: (readBuffer at: n)  ] ]
-	ensure:
-		[ file ifNotNil: [ file close ].
-		FileDirectory default
-			deleteFileNamed: filename
-			ifAbsent: [ "ok" ] ]
+	ensure: [ 
+		file ifNotNil: [ file close ].
+		(FileSystem disk workingDirectory / filename) ensureDeleted ]

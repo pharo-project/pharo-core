@@ -2,7 +2,6 @@
 	"category" : "Files-Kernel",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"Registry" ],
 	"commentStamp" : "ul 12/6/2009 05:13",
@@ -14,5 +13,4 @@
 	"pools" : [
 		 ],
 	"super" : "FileStream",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

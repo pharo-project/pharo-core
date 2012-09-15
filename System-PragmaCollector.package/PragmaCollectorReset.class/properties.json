@@ -2,7 +2,6 @@
 	"category" : "System-PragmaCollector",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "alain.plantec 10/20/2009 11:14",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "Announcement",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

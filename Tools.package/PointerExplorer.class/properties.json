@@ -2,7 +2,6 @@
 	"category" : "Tools-Explorer",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "avi 8/21/2004 20:01",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "ObjectExplorer",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "Fuel-Errors",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "MarianoMartinezPeck 10/23/2011 14:33",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "FLMaterializationError",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

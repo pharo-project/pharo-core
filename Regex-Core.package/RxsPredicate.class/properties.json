@@ -2,7 +2,6 @@
 	"category" : "Regex-Core",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"EscapedLetterSelectors",
 		"NamedClassSelectors" ],
@@ -14,5 +13,4 @@
 	"pools" : [
 		 ],
 	"super" : "RxsNode",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

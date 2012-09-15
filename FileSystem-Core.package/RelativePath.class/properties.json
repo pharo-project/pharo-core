@@ -2,7 +2,6 @@
 	"category" : "FileSystem-Core-Kernel",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "Path",
-	"traitcomposition" : "{}",
 	"type" : "variable" }

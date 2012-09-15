@@ -2,7 +2,6 @@
 	"category" : "Compiler-ParseNodes",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -19,5 +18,4 @@
 	"pools" : [
 		 ],
 	"super" : "VariableNode",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

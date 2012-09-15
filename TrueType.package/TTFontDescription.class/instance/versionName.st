@@ -1,3 +1,0 @@
-information
-versionName
-	^versionName

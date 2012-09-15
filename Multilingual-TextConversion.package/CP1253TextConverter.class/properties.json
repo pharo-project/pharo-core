@@ -2,7 +2,6 @@
 	"category" : "Multilingual-TextConversion",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"FromTable" ],
 	"commentStamp" : "<historical>",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "ByteTextConverter",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

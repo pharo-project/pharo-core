@@ -2,7 +2,6 @@
 	"category" : "AST-Semantic-Binding",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "RBVariableBinding",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "Morphic-DockingBar",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "LaurentLaffont 3/4/2011 22:42",
@@ -18,5 +17,4 @@
 	"pools" : [
 		 ],
 	"super" : "AlignmentMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

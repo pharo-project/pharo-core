@@ -2,7 +2,6 @@
 	"category" : "FileSystem-Core-Implementation",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "cwp 11/18/2009 12:13",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "FileSystemGuide",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

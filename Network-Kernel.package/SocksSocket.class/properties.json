@@ -2,7 +2,6 @@
 	"category" : "Network-Kernel",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"DefaultSocksVersion" ],
 	"commentStamp" : "<historical>",
@@ -18,5 +17,4 @@
 	"pools" : [
 		 ],
 	"super" : "Socket",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

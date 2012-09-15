@@ -1,3 +1,0 @@
-information
-subfamilyName
-	^subfamilyName

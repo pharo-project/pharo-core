@@ -2,7 +2,6 @@
 	"category" : "System-Hashing-MD5",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"ABCDTable",
 		"IndexTable",
@@ -15,5 +14,4 @@
 	"pools" : [
 		 ],
 	"super" : "MD5",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

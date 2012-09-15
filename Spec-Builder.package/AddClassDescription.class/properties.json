@@ -2,7 +2,6 @@
 	"category" : "Spec-Builder",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "AbstractDescription",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

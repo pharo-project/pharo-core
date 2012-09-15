@@ -2,7 +2,6 @@
 	"category" : "Collections-Stack",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "dc 7/24/2005 15:41",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "LinkedList",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

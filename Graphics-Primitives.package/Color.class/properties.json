@@ -2,7 +2,6 @@
 	"category" : "Graphics-Primitives",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"Black",
 		"Blue",
@@ -59,5 +58,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

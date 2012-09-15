@@ -2,7 +2,6 @@
 	"category" : "System-History",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "AlainPlantec 12/15/2010 00:04",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "HistoryLeaf",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

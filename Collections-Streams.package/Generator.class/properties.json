@@ -2,7 +2,6 @@
 	"category" : "Collections-Streams",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "ar 2/10/2010 20:51",
@@ -15,5 +14,4 @@
 	"pools" : [
 		 ],
 	"super" : "Stream",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

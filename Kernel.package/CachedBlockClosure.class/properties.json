@@ -2,7 +2,6 @@
 	"category" : "Kernel-Methods",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "eem 7/22/2010 12:34",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "BlockClosure",
-	"traitcomposition" : "{}",
 	"type" : "variable" }

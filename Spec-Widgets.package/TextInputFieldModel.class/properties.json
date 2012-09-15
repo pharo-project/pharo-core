@@ -2,7 +2,6 @@
 	"category" : "Spec-Widgets",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -17,5 +16,4 @@
 	"pools" : [
 		 ],
 	"super" : "TextModel",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

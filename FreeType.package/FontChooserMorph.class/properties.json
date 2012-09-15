@@ -2,7 +2,6 @@
 	"category" : "FreeType-UI",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "StephaneDucasse 1/1/2010 18:02",
@@ -22,5 +21,4 @@
 	"pools" : [
 		 ],
 	"super" : "StandardWindow",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

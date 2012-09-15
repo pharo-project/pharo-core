@@ -2,7 +2,6 @@
 	"category" : "Morphic-MorphTreeWidget",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "AlainPlantec 2/13/2010 07:41",
@@ -38,5 +37,4 @@
 	"pools" : [
 		 ],
 	"super" : "ScrollPane",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

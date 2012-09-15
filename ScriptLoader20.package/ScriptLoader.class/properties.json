@@ -2,7 +2,6 @@
 	"category" : "ScriptLoader20",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"CheckImageInSyncWithUpdate",
 		"CurrentMajorVersionNumber",
@@ -25,5 +24,4 @@
 	"pools" : [
 		"TextConstants" ],
 	"super" : "Loader",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

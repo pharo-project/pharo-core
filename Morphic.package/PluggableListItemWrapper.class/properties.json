@@ -2,7 +2,6 @@
 	"category" : "Morphic-Explorer",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "ar 10/14/2003 23:51",
@@ -15,5 +14,4 @@
 	"pools" : [
 		 ],
 	"super" : "ListItemWrapper",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

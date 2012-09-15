@@ -2,7 +2,6 @@
 	"category" : "Text-Scanning",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -17,5 +16,4 @@
 	"pools" : [
 		"TextConstants" ],
 	"super" : "CharacterScanner",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

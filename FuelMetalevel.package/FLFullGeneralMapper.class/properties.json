@@ -2,7 +2,6 @@
 	"category" : "FuelMetalevel-Mappers",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "MartinDias 8/7/2011 12:24",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "FLLightGeneralMapper",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

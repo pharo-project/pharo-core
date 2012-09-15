@@ -9,4 +9,6 @@ testNextChunkOutOfBounds
 	file nextChunkPut: text.
 	read := [file position: 999999; nextChunkText] valueWithin: 1 seconds onTimeout:[nil].
 	self assert: read = ''.
-	] ensure:[file close. FileDirectory default deleteFileNamed: file name ifAbsent:[]].
+	] ensure: [ 
+		file close.
+		(FileSystem disk workingDirectory / file name) ensureDeleted ].

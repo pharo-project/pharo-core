@@ -2,7 +2,6 @@
 	"category" : "Polymorph-Widgets-Windows",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "LaurentLaffont 4/15/2011 20:17",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "TextEntryDialogWindow",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

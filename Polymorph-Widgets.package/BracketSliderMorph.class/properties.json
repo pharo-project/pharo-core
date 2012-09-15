@@ -2,7 +2,6 @@
 	"category" : "Polymorph-Widgets",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "gvc 5/18/2007 13:39",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "PluggableSliderMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

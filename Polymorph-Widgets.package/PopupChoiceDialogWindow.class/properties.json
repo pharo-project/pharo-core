@@ -2,7 +2,6 @@
 	"category" : "Polymorph-Widgets-Windows",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "gvc 5/18/2007 12:26",
@@ -18,5 +17,4 @@
 	"pools" : [
 		 ],
 	"super" : "ModelDependentDialogWindow",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

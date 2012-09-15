@@ -2,7 +2,6 @@
 	"category" : "Nautilus",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"ClassesIconsCache",
 		"GroupsIconsCache",
@@ -37,5 +36,4 @@
 	"pools" : [
 		 ],
 	"super" : "AbstractTool",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

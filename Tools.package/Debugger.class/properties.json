@@ -2,7 +2,6 @@
 	"category" : "Tools-Debugger",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"AlwaysOpenFullDebugger",
 		"ContextStackKeystrokes",
@@ -32,5 +31,4 @@
 	"pools" : [
 		 ],
 	"super" : "CodeHolder",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

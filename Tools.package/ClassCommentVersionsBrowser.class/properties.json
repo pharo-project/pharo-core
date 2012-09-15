@@ -2,7 +2,6 @@
 	"category" : "Tools-Changes",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "StephaneDucasse 1/7/2011 17:48",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "VersionsBrowser",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

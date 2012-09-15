@@ -2,7 +2,6 @@
 	"category" : "Morphic-Windows",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"CloseBoxImage",
 		"CollapseBoxImage",
@@ -33,5 +32,4 @@
 	"pools" : [
 		 ],
 	"super" : "MorphicModel",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

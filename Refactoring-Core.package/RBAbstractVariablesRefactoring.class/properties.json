@@ -2,7 +2,6 @@
 	"category" : "Refactoring-Core-Refactorings",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -19,5 +18,4 @@
 	"pools" : [
 		 ],
 	"super" : "RBRefactoring",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

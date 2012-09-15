@@ -2,7 +2,6 @@
 	"category" : "Tests-System",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "SystemNavigationTest",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

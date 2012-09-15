@@ -2,7 +2,6 @@
 	"category" : "Graphics-Display Objects",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"FloodFillTolerance" ],
 	"commentStamp" : "ls 1/4/2004 17:16",
@@ -16,5 +15,4 @@
 	"pools" : [
 		 ],
 	"super" : "DisplayMedium",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

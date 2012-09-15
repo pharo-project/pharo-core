@@ -2,7 +2,6 @@
 	"category" : "NautilusRefactoring-Refactorings",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "lr 10/19/2007 09:16",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "RBClassRefactoring",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "System-Localization",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"ISO2Countries",
 		"ISO2Table",
@@ -18,5 +17,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

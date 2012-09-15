@@ -1,4 +1,5 @@
 accessing
 toggleShowComment
 
-	self showComment: self showComment not
+	self showComment: self showComment not.
+	self changed: #commentButtonState

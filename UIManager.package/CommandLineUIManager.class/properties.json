@@ -2,7 +2,6 @@
 	"category" : "UIManager",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"SnapshotErrorImage" ],
 	"commentStamp" : "",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "UIManager",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

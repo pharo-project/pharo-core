@@ -2,7 +2,6 @@
 	"category" : "SUnit-Help",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "tbn 12/16/2010 22:26",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "CustomHelp",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

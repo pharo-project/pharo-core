@@ -2,7 +2,6 @@
 	"category" : "FreeType-Base",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"KnownHandles",
 		"Registry" ],
@@ -13,5 +12,4 @@
 	"pools" : [
 		"FT2Constants" ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

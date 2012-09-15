@@ -2,7 +2,6 @@
 	"category" : "System-Clipboard",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "HenrikSperreJohansen 1/28/2011 15:15",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "Clipboard",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

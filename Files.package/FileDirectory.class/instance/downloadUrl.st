@@ -1,3 +1,0 @@
-squeaklets
-downloadUrl
-	^''

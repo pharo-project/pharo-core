@@ -1,1 +1,0 @@
-I am a cluster for negative SmallInteger instances.

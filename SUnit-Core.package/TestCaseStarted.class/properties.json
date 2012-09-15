@@ -2,7 +2,6 @@
 	"category" : "SUnit-Core-Announcements",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "tbn 4/26/2011 09:55",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "TestCaseAnnouncement",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

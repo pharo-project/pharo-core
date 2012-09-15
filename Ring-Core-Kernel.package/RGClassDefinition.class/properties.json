@@ -2,7 +2,6 @@
 	"category" : "Ring-Core-Kernel",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "VeronicaUquillas 4/19/2011 16:01",
@@ -17,5 +16,4 @@
 	"pools" : [
 		 ],
 	"super" : "RGClassDescriptionDefinition",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

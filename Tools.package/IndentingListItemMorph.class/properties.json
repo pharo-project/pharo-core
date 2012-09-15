@@ -2,7 +2,6 @@
 	"category" : "Tools-Explorer",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "AlainPlantec 1/7/2010 22:16",
@@ -18,5 +17,4 @@
 	"pools" : [
 		 ],
 	"super" : "StringMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

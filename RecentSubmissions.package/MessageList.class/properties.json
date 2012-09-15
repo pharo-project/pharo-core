@@ -2,7 +2,6 @@
 	"category" : "RecentSubmissions-Core",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "BenjaminVanRyseghem 11/29/2010 11:31",
@@ -19,5 +18,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

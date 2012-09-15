@@ -2,7 +2,6 @@
 	"category" : "Graphics-Files",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"MaxBits" ],
 	"commentStamp" : "<historical>",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "ReadStream",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

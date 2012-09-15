@@ -2,7 +2,6 @@
 	"category" : "HelpSystem-Core-Builders",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "LaurentLaffont 2/13/2011 16:53",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "HelpBuilder",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

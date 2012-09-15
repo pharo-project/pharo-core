@@ -2,7 +2,6 @@
 	"category" : "Morphic-Widgets",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "kfr 10/27/2003 16:29",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "UpdatingStringMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

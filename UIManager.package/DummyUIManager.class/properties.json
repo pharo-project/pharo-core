@@ -2,7 +2,6 @@
 	"category" : "UIManager",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"ProgressBarEnabled" ],
 	"commentStamp" : "LaurentLaffont 2/23/2011 20:16",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "UIManager",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

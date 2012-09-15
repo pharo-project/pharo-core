@@ -2,7 +2,6 @@
 	"category" : "Monticello-Mocks",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"CVar",
 		"InitializationOrder" ],
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "MCMock",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

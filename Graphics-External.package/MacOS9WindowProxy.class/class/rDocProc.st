@@ -1,3 +1,0 @@
-constants
-rDocProc
-	^16

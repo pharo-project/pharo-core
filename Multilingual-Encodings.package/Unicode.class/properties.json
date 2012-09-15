@@ -2,7 +2,6 @@
 	"category" : "Multilingual-Encodings",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"Cc",
 		"Cf",
@@ -46,5 +45,4 @@
 	"pools" : [
 		 ],
 	"super" : "EncodedCharSet",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "Tools-Process Browser",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"SuspendedProcesses",
 		"WellKnownProcesses" ],
@@ -27,5 +26,4 @@
 	"pools" : [
 		 ],
 	"super" : "Model",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

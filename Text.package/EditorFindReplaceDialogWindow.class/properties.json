@@ -2,7 +2,6 @@
 	"category" : "Text-Edition",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"Finds",
 		"Replacements",
@@ -14,5 +13,4 @@
 	"pools" : [
 		 ],
 	"super" : "DialogWindow",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

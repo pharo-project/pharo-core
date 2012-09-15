@@ -2,7 +2,6 @@
 	"category" : "Polymorph-Widgets",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "ar 2/12/2005 04:38",
@@ -23,5 +22,4 @@
 	"pools" : [
 		 ],
 	"super" : "SimpleHierarchicalListMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

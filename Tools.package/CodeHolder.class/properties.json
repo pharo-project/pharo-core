@@ -2,7 +2,6 @@
 	"category" : "Tools-Base",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"AnnotationRequests",
 		"BrowseWithPrettyPrint",
@@ -20,5 +19,4 @@
 	"pools" : [
 		 ],
 	"super" : "StringHolder",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

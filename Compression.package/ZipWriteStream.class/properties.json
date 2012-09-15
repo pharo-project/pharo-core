@@ -2,7 +2,6 @@
 	"category" : "Compression-Streams",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"CrcTable",
 		"VerboseLevel" ],
@@ -22,5 +21,4 @@
 	"pools" : [
 		"ZipConstants" ],
 	"super" : "DeflateStream",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

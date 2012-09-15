@@ -2,7 +2,6 @@
 	"category" : "Zodiac-Core",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "SvenVanCaekenberghe 5/18/2011 11:50",
@@ -15,5 +14,4 @@
 	"pools" : [
 		 ],
 	"super" : "ZdcOptimizedSocketStream",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

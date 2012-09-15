@@ -2,7 +2,6 @@
 	"category" : "Polymorph-Widgets",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"HatchForm" ],
 	"commentStamp" : "gvc 5/18/2007 13:38",
@@ -15,5 +14,4 @@
 	"pools" : [
 		 ],
 	"super" : "MorphicModel",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

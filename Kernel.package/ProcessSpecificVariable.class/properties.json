@@ -3,7 +3,6 @@
 	"classinstvars" : [
 		"hash",
 		"soleInstance" ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "mvl 3/13/2007 13:53",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

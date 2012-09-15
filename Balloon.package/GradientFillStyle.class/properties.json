@@ -2,7 +2,6 @@
 	"category" : "Balloon-Fills",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"PixelRampCache" ],
 	"commentStamp" : "efc 8/30/2005 21:44",
@@ -15,5 +14,4 @@
 	"pools" : [
 		 ],
 	"super" : "OrientedFillStyle",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

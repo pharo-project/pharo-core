@@ -2,7 +2,6 @@
 	"category" : "RPackage-Tests",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "RPackageIncrementalTest",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

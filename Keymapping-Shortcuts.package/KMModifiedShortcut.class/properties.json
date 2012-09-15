@@ -2,7 +2,6 @@
 	"category" : "Keymapping-Shortcuts",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "KMShortcut",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

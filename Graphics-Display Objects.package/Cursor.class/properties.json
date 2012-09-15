@@ -2,7 +2,6 @@
 	"category" : "Graphics-Display Objects",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"BlankCursor",
 		"BottomLeftCursor",
@@ -39,5 +38,4 @@
 	"pools" : [
 		 ],
 	"super" : "Form",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

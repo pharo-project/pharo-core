@@ -2,7 +2,6 @@
 	"category" : "Polymorph-Widgets-Themes",
 	"classinstvars" : [
 		"icons" ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "gvc 5/18/2007 10:25",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

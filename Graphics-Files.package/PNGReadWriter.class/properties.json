@@ -2,7 +2,6 @@
 	"category" : "Graphics-Files",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"BPP",
 		"BlockHeight",
@@ -37,5 +36,4 @@
 	"pools" : [
 		 ],
 	"super" : "ImageReadWriter",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

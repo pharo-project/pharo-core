@@ -2,7 +2,6 @@
 	"category" : "Tools-Finder",
 	"classinstvars" : [
 		"searchedTextListMaxSize" ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"Icon",
 		"SearchedTextList" ],
@@ -17,5 +16,4 @@
 	"pools" : [
 		 ],
 	"super" : "MorphTreeModel",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

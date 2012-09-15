@@ -2,7 +2,6 @@
 	"category" : "Refactoring-Core-Conditions",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "RBAbstractCondition",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

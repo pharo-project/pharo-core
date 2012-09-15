@@ -3,7 +3,6 @@
 	"classinstvars" : [
 		"latin1Map",
 		"latin1Encodings" ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -14,5 +13,4 @@
 	"pools" : [
 		"EventSensorConstants" ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

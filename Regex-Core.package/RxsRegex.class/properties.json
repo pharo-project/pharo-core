@@ -2,7 +2,6 @@
 	"category" : "Regex-Core",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "Tbn 11/12/2010 23:15",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "RxsNode",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

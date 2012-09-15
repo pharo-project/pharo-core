@@ -2,7 +2,6 @@
 	"category" : "Refactoring-Environment",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "RBBrowserEnvironment",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

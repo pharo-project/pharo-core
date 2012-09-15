@@ -2,7 +2,6 @@
 	"category" : "UIManager-Support",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -16,5 +15,4 @@
 	"pools" : [
 		 ],
 	"super" : "Exception",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"category" : "FreeType-Cache",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"FreeTypeCacheGlyph",
 		"FreeTypeCacheGlyphLCD",
@@ -16,5 +15,4 @@
 	"pools" : [
 		 ],
 	"super" : "SharedPool",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

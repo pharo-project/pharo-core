@@ -2,7 +2,6 @@
 	"category" : "Kernel-Processes",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "NS 4/13/2004 16:51",
@@ -13,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "Delay",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

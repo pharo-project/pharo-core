@@ -2,7 +2,6 @@
 	"category" : "Polymorph-Widgets",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "gvc 9/23/2008 11:47",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "EdgeGripMorph",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

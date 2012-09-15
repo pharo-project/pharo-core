@@ -2,7 +2,6 @@
 	"category" : "Kernel-Chronology",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"StartDay" ],
 	"commentStamp" : "brp 5/13/2003 09:48",
@@ -12,5 +11,4 @@
 	"pools" : [
 		"ChronologyConstants" ],
 	"super" : "Timespan",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

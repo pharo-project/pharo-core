@@ -2,7 +2,6 @@
 	"category" : "FreeType-Fonts",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -22,5 +21,4 @@
 		"FT2Constants",
 		"FreeTypeCacheConstants" ],
 	"super" : "AbstractFont",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

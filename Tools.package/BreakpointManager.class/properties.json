@@ -2,7 +2,6 @@
 	"category" : "Tools-Debugger",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"Installed" ],
 	"commentStamp" : "md 10/9/2008 20:17",
@@ -12,5 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

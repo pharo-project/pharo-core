@@ -2,7 +2,6 @@
 	"category" : "Tools-Explorer",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"ShowIcons" ],
 	"commentStamp" : "<historical>",
@@ -15,5 +14,4 @@
 	"pools" : [
 		 ],
 	"super" : "Model",
-	"traitcomposition" : "{}",
 	"type" : "normal" }
