@@ -45,7 +45,12 @@ systemMethodRecategorizedActionFrom: ann
 				methodPackage = destinationPackage
 					ifFalse: [
 						methodPackage removeMethod: method.
-						destinationPackage addMethod: method
+						destinationPackage addMethod: method.
+						
+						SystemAnnouncer uniqueInstance
+											methodRepackaged: method
+											from: methodPackage
+											to: destinationPackage.
 						]
 				]
 		]

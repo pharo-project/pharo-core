@@ -16,8 +16,9 @@ systemClassRecategorizedActionFrom: ann
 	"we have to update the new package"
 	newRPackage importClass: class.
 	"we should also import the metaClass"
-	newRPackage importClass: class theMetaClass	
-	
+	newRPackage importClass: class theMetaClass	.
+
+	SystemAnnouncer uniqueInstance classRepackaged: class from: oldRPackage to: newRPackage.
 	
 	"we have to update the RPackageOrganizer.
 	maybe the last update should be automatically done when adding or removing from a RPackage
