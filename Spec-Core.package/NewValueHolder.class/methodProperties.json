@@ -4,10 +4,10 @@
 	"instance" : {
 		"addDependent:" : "",
 		"contents" : "",
-		"contents:" : "",
+		"contents:" : "BenjaminVanRyseghem 8/20/2012 11:38",
 		"contentsChanged" : "",
 		"contentsChanged:" : "",
 		"contentsChanged:to:" : "",
-		"initialize" : "",
+		"initialize" : "BenjaminVanRyseghem 8/20/2012 11:38",
 		"whenChangedDo:" : "BenjaminVanRyseghem 7/13/2012 01:46",
 		"whenChangedSend:to:" : "" } }

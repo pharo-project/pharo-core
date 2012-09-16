@@ -7,11 +7,11 @@ listRenderOn: aCanvas atRow: aRow bounds: bounds color: color from: aMorph
 	useDefaultFont := true.
 	attrs
 		do: [:att | att
-				forFontInStyle: TextStyle default
+				forFontInStyle: aMorph font textStyle
 				do: [:fon | useDefaultFont := false]].
 	f := useDefaultFont
-				ifTrue: [ aMorph font ]
-				ifFalse: [ self fontAt: 1 withStyle: TextStyle default ].
+				ifTrue: [ aMorph font]
+				ifFalse: [ self fontAt: 1 withStyle: aMorph font textStyle ].
 	col := (self attributesAt: 1)
 				detect: [:a | a isKindOf: TextColor]
 				ifNone: [].

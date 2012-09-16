@@ -16,7 +16,7 @@ snapshot
 					(packageInfo changeRecordForOverriddenMethod: ea) asMCMethodDefinition]
 		displayingProgress: [ :ea| 'Searching for overrides in ', ea asString ].
 		
-	packageInfo classes 
+	packageInfo definedClasses 
 		do: [:ea | definitions addAll: ea classDefinitions] 
 		displayingProgress: [ :ea| 'Snapshotting class ', ea asString ].
 		
