@@ -7,7 +7,7 @@ methodSelector
 	entryCompletion := EntryCompletion new
 				dataSourceBlock: [:currText | applicantsBlock value];
 				filterBlock: [:currApplicant :currText | currText size > 0
-						and: [currApplicant asUppercase includesSubString: currText asString asUppercase]].
+						and: [currApplicant asUppercase includesSubstring: currText asString asUppercase]].
 	^ (UIManager default newAutoAcceptTextEntryFor: self
 			get: #selector
 			set: #selector:

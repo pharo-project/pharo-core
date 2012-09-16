@@ -10,5 +10,5 @@ testPost
 			response := client post.
 			self assert: client contentType = ZnMimeType textPlain.
 			self assert: client status = 200.
-			self assert: (response includesSubString: 'POST').
-			self assert: (response includesSubString: 'bar') ] ]
+			self assert: (response includesSubstring: 'POST').
+			self assert: (response includesSubstring: 'bar') ] ]

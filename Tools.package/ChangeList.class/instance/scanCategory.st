@@ -6,8 +6,8 @@ scanCategory
 	itemPosition := file position.
 	item := file nextChunk.
 
-	((item includesSubString: 'commentStamp:')
-	or: [(item includesSubString: 'methodsFor:')
+	((item includesSubstring: 'commentStamp:')
+	or: [(item includesSubstring: 'methodsFor:')
 	or: [item endsWith: 'reorganize']]) ifFalse:
 		["Maybe a preamble, but not one we recognize; bail out with the preamble trick"
 		^ self addItem: (ChangeRecord new file: file position: itemPosition type: #preamble)

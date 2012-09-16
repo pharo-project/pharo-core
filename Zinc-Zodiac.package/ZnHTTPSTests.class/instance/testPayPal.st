@@ -6,5 +6,5 @@ testPayPal
 	(client := ZnClient new) 
 		get: 'https://www.paypal.com'.
 	self assert: client isSuccess.
-	self assert: (client contents includesSubString: 'PayPal').
+	self assert: (client contents includesSubstring: 'PayPal').
 	client close

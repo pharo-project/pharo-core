@@ -13,7 +13,7 @@ undeclared: name
 			on: UndeclaredVariableWarning
 			do: [:ex| ex resume: false]"
 	sym := name asSymbol.
-	^(UndeclaredVariableWarning new name: name selector: selector class: class) signal
+	^ ( Parser warningAllowed and: [ (UndeclaredVariableWarning new name: name selector: selector class: class) signal ] )
 		ifTrue:
 			[Undeclared at: sym put: nil.
 			self global: (Undeclared associationAt: sym) name: sym]

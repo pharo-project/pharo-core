@@ -3,10 +3,10 @@ emphasisCode
 	" Answer the squeak emphasis code (1=bold, 2=italic, 3=boldItalic etc"
 	| answer |
 	answer := 0.
-	(styleName includesSubString: 'Italic') 
+	(styleName includesSubstring: 'Italic') 
 		ifTrue:[answer := answer bitOr: LogicalFont squeakSlantItalic].
-	(styleName includesSubString: 'Condensed')
+	(styleName includesSubstring: 'Condensed')
 		ifTrue:[answer := answer bitOr: LogicalFont squeakStretchCondensed].
-	(styleName includesSubString: 'Bold')
+	(styleName includesSubstring: 'Bold')
 		ifTrue:[answer := answer bitOr: LogicalFont squeakWeightBold].
 	^answer

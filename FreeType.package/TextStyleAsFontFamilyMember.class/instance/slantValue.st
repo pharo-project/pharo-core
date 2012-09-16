@@ -1,5 +1,5 @@
 LogicalFont emphasis
 slantValue
-	^(styleName includesSubString: 'Italic') 
+	^(styleName includesSubstring: 'Italic') 
 		ifTrue:[LogicalFont slantItalic] 
 		ifFalse:[LogicalFont slantRegular]

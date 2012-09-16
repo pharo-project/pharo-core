@@ -6,4 +6,4 @@ assertPragma: aString givesKeyword: aSymbol arguments: anArray
 	self assert: pragma arguments = anArray.
 	decompiled := (self class>>#zork) decompile.
 	self assert: (decompiled properties pragmas includes: pragma). 
-	self assert: (decompiled asString includesSubString: pragma asString).
+	self assert: (decompiled asString includesSubstring: pragma asString).

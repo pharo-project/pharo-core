@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testNextPutAllStartingAt" : "HenrikSperreJohansen 8/17/2012 11:37",
 		"testPutSingle2ByteEncodedCharacter" : "HenrikSperreJohansen 6/29/2012 10:53",
 		"testPutSingle3ByteEncodedCharacter" : "HenrikSperreJohansen 6/29/2012 10:53",
 		"testPutSingle4ByteEncodedCharacter" : "HenrikSperreJohansen 6/29/2012 10:52",

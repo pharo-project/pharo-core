@@ -9,4 +9,4 @@ nextPutByteString: aString toStream: aStream
 		[aStream next: nextIndex-lastIndex putAll: aString startingAt: lastIndex.
 		aStream basicNextPutAll: (latin1Encodings at: (aString byteAt: nextIndex)+1).
 		lastIndex := nextIndex + 1].
-	aStream next: aString size-lastIndex+1 putAll: aString startingAt: lastIndex.
+	aStream basicNext: aString size-lastIndex+1 putAll: aString startingAt: lastIndex.

@@ -8,5 +8,5 @@ testGetSmallHTMLDocument
 			response := client get: '/zn/small.html'.
 			self assert: response headers contentType = ZnMimeType textHtml.
 			self assert: response statusLine code = 200.
-			self assert: (response entity string includesSubString: 'small') ]
+			self assert: (response entity string includesSubstring: 'small') ]
 				ensure: [ client close ] ]

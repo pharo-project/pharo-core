@@ -1,3 +1,3 @@
 testing
 isForFFICall
-	^key includesSubString: '()/'
+	^key includesSubstring: '()/'

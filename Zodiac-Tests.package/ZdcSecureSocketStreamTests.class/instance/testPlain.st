@@ -15,6 +15,6 @@ testPlain
 		stream flush.
 		response := stream upToEnd asString.
 	] ensure: [ stream close ].
-	self assert: (response includesSubString: '200 OK').      
-	self assert: (response includesSubString: 'Google').
-	self assert: (response includesSubString: 'Smalltalk').      
+	self assert: (response includesSubstring: '200 OK').      
+	self assert: (response includesSubstring: 'Google').
+	self assert: (response includesSubstring: 'Smalltalk').      

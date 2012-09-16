@@ -5,8 +5,8 @@ scanCategory: file
 	itemPosition := file position.
 	item := file nextChunk.
 
-	isComment := (item includesSubString: 'commentStamp:').
-	(isComment or: [item includesSubString: 'methodsFor:']) ifFalse:
+	isComment := (item includesSubstring: 'commentStamp:').
+	(isComment or: [item includesSubstring: 'methodsFor:']) ifFalse:
 		["Maybe a preamble, but not one we recognize; bail out with the preamble trick"
 		^{(ChangeRecord new file: file position: itemPosition type: #preamble)}].
 

@@ -10,4 +10,4 @@ testPut
 			response := client put.
 			self assert: client contentType = ZnMimeType textPlain.
 			self assert: client status = 200.
-			self assert: (response includesSubString: 'PUT') ] ]
+			self assert: (response includesSubstring: 'PUT') ] ]

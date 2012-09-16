@@ -15,9 +15,11 @@
 		"emitSequenceToResetStateIfNeededOn:" : "yo 7/29/2003 15:51",
 		"initialize" : "HenrikSperreJohansen 2/5/2010 20:24",
 		"installLineEndConvention:" : "HenrikSperreJohansen 1/27/2010 18:03",
+		"next:putAll:startingAt:toStream:" : "HenrikSperreJohansen 8/17/2012 11:31",
+		"next:putByteString:startingAt:toStream:" : "HenrikSperreJohansen 8/17/2012 11:31",
 		"nextFromStream:" : "yo 8/19/2002 15:27",
 		"nextPut:toStream:" : "yo 8/19/2002 15:27",
 		"nextPutAll:toStream:" : "HenrikSperreJohansen 8/10/2010 15:55",
-		"nextPutByteString:toStream:" : "HenrikSperreJohansen 8/10/2010 16:20",
+		"nextPutByteString:toStream:" : "HenrikSperreJohansen 8/17/2012 11:36",
 		"restoreStateOf:with:" : "yo 2/21/2004 03:26",
 		"saveStateOf:" : "yo 2/21/2004 03:59" } }

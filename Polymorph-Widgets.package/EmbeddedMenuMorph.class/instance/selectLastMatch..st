@@ -6,7 +6,7 @@ selectLastMatch: aString
 
 	|lastMatch|
 	self items reverseDo: [:item | | match |
-		match := aString isEmpty or: [item contents asString asLowercase includesSubString: aString].
+		match := aString isEmpty or: [item contents asString asLowercase includesSubstring: aString].
 		item isEnabled: match.
 		(match and: [lastMatch isNil]) ifTrue: [lastMatch := item]].
 	^lastMatch

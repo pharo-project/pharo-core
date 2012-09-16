@@ -5,6 +5,6 @@ testWithExceptionDo
 		should: [self error: 'foo']
 		raise: self defaultTestError
 		withExceptionDo: [:exception |
-			self assert: (exception description includesSubString: 'foo')
+			self assert: (exception description includesSubstring: 'foo')
 		]
 			

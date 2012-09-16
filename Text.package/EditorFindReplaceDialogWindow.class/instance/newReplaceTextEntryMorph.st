@@ -4,7 +4,7 @@ newReplaceTextEntryMorph
 	entryCompletion := EntryCompletion new
 				dataSourceBlock: [:currText | self prevReplacements ];
 				filterBlock: [:currApplicant :currText | currText size = 0
-						or: [currApplicant asUppercase includesSubString: currText asString asUppercase]].
+						or: [currApplicant asUppercase includesSubstring: currText asString asUppercase]].
 
 	pt := (self
 		newAutoAcceptTextEntryFor: self

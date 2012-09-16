@@ -7,5 +7,5 @@ testDelete
 			response := client delete.
 			self assert: client contentType = ZnMimeType textPlain.
 			self assert: client status = 200.
-			self assert: (response includesSubString: 'DELETE').
-			self assert: (response includesSubString: 'DELETE') ] ]
+			self assert: (response includesSubstring: 'DELETE').
+			self assert: (response includesSubstring: 'DELETE') ] ]

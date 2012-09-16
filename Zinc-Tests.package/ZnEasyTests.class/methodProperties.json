@@ -3,12 +3,12 @@
 		 },
 	"instance" : {
 		"port" : "SvenVanCaekenberghe 3/12/2012 21:02",
-		"testDelete" : "SvenVanCaekenberghe 3/12/2012 21:03",
+		"testDelete" : "EstebanLorenzano 8/17/2012 16:41",
 		"testGetJpeg" : "SvenVanCaekenberghe 9/15/2011 16:34",
-		"testGetSmallHTMLDocument" : "SvenVanCaekenberghe 7/2/2012 15:30",
+		"testGetSmallHTMLDocument" : "EstebanLorenzano 8/17/2012 16:40",
 		"testHeadSmallHTMLDocument" : "SvenVanCaekenberghe 7/4/2012 17:33",
-		"testPost" : "SvenVanCaekenberghe 3/12/2012 21:05",
-		"testPostUnicodeUtf8" : "SvenVanCaekenberghe 3/12/2012 21:05",
-		"testPut" : "SvenVanCaekenberghe 3/12/2012 21:06",
+		"testPost" : "EstebanLorenzano 8/17/2012 16:40",
+		"testPostUnicodeUtf8" : "EstebanLorenzano 8/17/2012 16:41",
+		"testPut" : "EstebanLorenzano 8/17/2012 16:41",
 		"testTimeout" : "SvenVanCaekenberghe 3/12/2012 21:07",
 		"withServerDo:" : "SvenVanCaekenberghe 3/12/2012 21:02" } }

@@ -1,13 +1,19 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6573:	[ENH]: Port Fix 6562 to Pharo 2.0
-	http://code.google.com/p/pharo/issues/detail?id=6573
-
-Issue 6572:	more selection out of bounds fixes for List morphs
-	http://code.google.com/p/pharo/issues/detail?id=6572
-		
-Issue 6533:	Spec fixed in KMDescription
-	http://code.google.com/p/pharo/issues/detail?id=6533
+ ^ 'Issue 3459:	includesSubstring: aString caseSensitive: caseSensitive / includesSubString:
+	http://code.google.com/p/pharo/issues/detail?id=3459
 	
-Issue 6399:	Small Keymapping Improvement
-	http://code.google.com/p/pharo/issues/detail?id=6399'
+ Issue 3518:	#warningAllowed does not handle UndeclaredVariableWarning
+	http://code.google.com/p/pharo/issues/detail?id=3518
+	
+Issue 5870:	[BUG] FileSystem>>rename:to: causes DNU
+	http://code.google.com/p/pharo/issues/detail?id=5870
+	
+ Issue 6435:	Spotlight gives an error message when asked for World: PasteUpMorph asNode DNU.
+	http://code.google.com/p/pharo/issues/detail?id=6435
+	
+Issue 6501:	Morph>>drawOnCanvas: does not seems used
+	http://code.google.com/p/pharo/issues/detail?id=6501
+	
+Issue 6565:	Fix #next:putAll:startingAt: for MultiByteFileStream
+	http://code.google.com/p/pharo/issues/detail?id=6565'

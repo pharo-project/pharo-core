@@ -13,7 +13,7 @@ nextContext
 						withIndexDo: [:name :si | (found not
 									and: [pi ~= initialProcessIndex
 											or: [si > initialStackIndex]])
-								ifTrue: [(name includesSubString: searchString)
+								ifTrue: [(name includesSubstring: searchString)
 										ifTrue: [self stackListIndex: si.
 											found := true]]]]].
 	found

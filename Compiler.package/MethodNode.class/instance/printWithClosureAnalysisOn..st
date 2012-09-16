@@ -3,7 +3,7 @@ printWithClosureAnalysisOn: aStream
 	self ensureClosureAnalysisDone.
 	precedence = 1
 		ifTrue: 
-			[(self selector includesSubString: '()/')
+			[(self selector includesSubstring: '()/')
 				ifTrue: [aStream nextPutAll: (self selector copyUpTo: $)).
 						arguments
 							do: [:arg| aStream nextPutAll: arg key]

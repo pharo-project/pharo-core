@@ -1,5 +1,5 @@
 LogicalFont emphasis
 stretchValue
-	^(styleName includesSubString: 'Condensed') 
+	^(styleName includesSubstring: 'Condensed') 
 		ifTrue:[LogicalFont stretchCompressed]
 		ifFalse:[LogicalFont stretchRegular]

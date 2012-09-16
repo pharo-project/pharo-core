@@ -5,7 +5,7 @@ completionAt: aNumber
 	declaration := (source lineCorrespondingToIndex: 1) trimRight.
 	output := WriteStream on: String new.
 	output nextPutAll: declaration; cr; tab.
-	(source includesSubString: 'subclassResponsibility') ifFalse: [
+	(source includesSubstring: 'subclassResponsibility') ifFalse: [
 		(source includes: $^)
 			ifTrue: [ output nextPutAll: '^ ' ].
 		output

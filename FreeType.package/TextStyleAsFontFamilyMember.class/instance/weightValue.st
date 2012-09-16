@@ -1,5 +1,5 @@
 LogicalFont emphasis
 weightValue
-	^(styleName includesSubString: 'Bold')
+	^(styleName includesSubstring: 'Bold')
 		ifTrue:[LogicalFont weightBold] 
 		ifFalse:[LogicalFont weightRegular]

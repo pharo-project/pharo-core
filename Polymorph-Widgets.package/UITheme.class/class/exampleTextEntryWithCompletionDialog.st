@@ -12,7 +12,7 @@ exampleTextEntryWithCompletionDialog
 				dataSourceBlock: [:currText | applicants];
 				
 				filterBlock: [:currApplicant :currText | currText size > 3
-						and: [currApplicant asUppercase includesSubString: currText asString asUppercase]].
+						and: [currApplicant asUppercase includesSubstring: currText asString asUppercase]].
 	UIManager default
 		request: 'Enter a class name fragment (at least 4 characters)'
 		initialAnswer: ''

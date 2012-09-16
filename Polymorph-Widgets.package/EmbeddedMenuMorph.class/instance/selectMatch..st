@@ -6,7 +6,7 @@ selectMatch: aString
 
 	|firstMatch|
 	self items do: [:item | | match |
-		match := aString isEmpty or: [item contents asString asLowercase includesSubString: aString].
+		match := aString isEmpty or: [item contents asString asLowercase includesSubstring: aString].
 		item isEnabled: match.
 		(match and: [firstMatch isNil]) ifTrue: [firstMatch := item]].
 	^firstMatch

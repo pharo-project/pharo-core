@@ -4,7 +4,7 @@ newFindTextEntryMorph
 	entryCompletion := EntryCompletion new
 				dataSourceBlock: [:currText | self prevFinds ];
 				filterBlock: [:currApplicant :currText | currText size = 0
-						or: [currApplicant asUppercase includesSubString: currText asString asUppercase]].
+						or: [currApplicant asUppercase includesSubstring: currText asString asUppercase]].
 	pt := (self newAutoAcceptTextEntryFor: self
 			get: #findText
 			set: #findText:

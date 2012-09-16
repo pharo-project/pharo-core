@@ -7,7 +7,7 @@ testBasicAuthorizationFailure
 			response := client get: (server localUrl addPathSegments: #('echo' 'foo'); yourself).
 			self assert: response headers contentType = ZnMimeType textPlain.
 			self assert: response statusLine code = 401.
-			self assert: ((response headers at: 'WWW-Authenticate') includesSubString: 'Basic').
+			self assert: ((response headers at: 'WWW-Authenticate') includesSubstring: 'Basic').
 			cred := (ZnCredential findHandlerFor: (response headers at: 'WWW-Authenticate')) new
 				username: 'foo';
 				password: 'wrong';

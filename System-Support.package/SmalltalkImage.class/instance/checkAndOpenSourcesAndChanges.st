@@ -34,7 +34,7 @@ self inform: (msg copyReplaceAll: '&fileRef' with: 'the sources file named ' , s
 				ifTrue: [self inform: (wmsg copyReplaceAll: '&fileRef' with: 'the changes file named ' , self changesName)].
 
 			((changes next: 200)
-					includesSubString: String crlf)
+					includesSubstring: String crlf)
 				ifTrue: [self inform: 'The changes file named ' , self changesName , '
 has been injured by an unpacking utility.  Crs were changed to CrLfs.
 Please set the preferences in your decompressing program to 

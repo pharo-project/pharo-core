@@ -5,7 +5,7 @@ includesSubstringAnywhere: testString
 		[:element |
 			(element isString)
 				ifTrue:
-					[(element includesSubString: testString) ifTrue: [^ true]].
+					[(element includesSubstring: testString) ifTrue: [^ true]].
 			(element isCollection)
 				ifTrue:
 					[(element includesSubstringAnywhere: testString) ifTrue: [^ true]]].

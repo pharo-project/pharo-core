@@ -13,8 +13,8 @@ openInterrupt: aString onProcess: interruptedProcess
 		context: interruptedProcess suspendedContext.
 	debugger externalInterrupt: true.
 	self logDebuggerStackToFile
-		ifTrue: [(aString includesSubString: 'Space')
-					& (aString includesSubString: 'low')
+		ifTrue: [(aString includesSubstring: 'Space')
+					& (aString includesSubstring: 'low')
 				ifTrue: [Smalltalk
 						logError: aString
 						inContext: debugger interruptedContext ]].
