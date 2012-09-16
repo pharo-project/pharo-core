@@ -3,9 +3,9 @@ testRenameTargetExists
 
 	| existingFile fileToRename |
 	[
-		existingFile := 'existingFile' asFile ensureFile.
-		fileToRename := 'fileToRename' asFile ensureFile.
-		self should: [ fileToRename renameTo: existingFile fullName ] raise: FileExists ]
+		existingFile := 'existingFile' asFileReference ensureFile.
+		fileToRename := 'fileToRename' asFileReference ensureFile.
+		self should: [ fileToRename renameTo: existingFile basename ] raise: FileExists ]
 		ensure: [
 			existingFile delete.
 			fileToRename delete ].
