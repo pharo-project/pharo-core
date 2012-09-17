@@ -9,7 +9,7 @@ initializeDialogWindow: aWindow
 			(t notEmpty and: [ desc notEmpty])
 				ifTrue: [
 					self issue 
-						labels: { type selectedItem label. 'Milestone-', SystemVersion current majorMinor };
+						labels: { type selectedItem label. 'Milestone-', SystemVersion current dottedMajorMinor };
 						title: t;
 						description: desc ]]].
 			

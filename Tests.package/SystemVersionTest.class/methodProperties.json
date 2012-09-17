@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testMajorMinor" : "MarcusDenker 4/18/2011 11:27",
+		"testDottedMajorMinor" : "SeanDeNigris 8/12/2012 22:16",
 		"testMajorMinorVersion" : "StephaneDucasse 2/1/2011 07:17",
 		"testMajorMinorWithSeparatingString" : "StephaneDucasse 2/1/2011 07:22",
 		"testParseShortVersionString" : "MikeRoberts 11/19/2009 21:48",

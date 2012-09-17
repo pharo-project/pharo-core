@@ -1,7 +1,7 @@
 private
 openStreamDescription: aResolvable writable: aBoolean
 	"I am  a helper method to delegate basicOpen:writable: to the store.
-	 I am called from FSHandle implementations."
+	 I am called from FileSystemHandle implementations."
 	
 	| path |
 	

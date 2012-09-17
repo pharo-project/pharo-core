@@ -1,11 +1,12 @@
 filein/out
 traitsOrder: aCollection 
-	"Answer an OrderedCollection. The traits 
-	are ordered so they can be filed in."
+	"Arrange the traits in the collection, first who don't depend on others."
 
-	|  traits |
-	traits := aCollection asSortedCollection: [:t1 :t2 |
-		(t1 isBaseTrait and: [t1 classTrait == t2]) or: [
-			(t2 traitComposition allTraits includes: t1) or: [
-				(t1 traitComposition allTraits includes: t2) not]]].
-	^traits asArray
+	| all unprocessed |
+	unprocessed := aCollection asSet. 
+	^ Array new: unprocessed size streamContents: [ :stream |
+		unprocessed size timesRepeat: [ 
+			| aTrait |
+			aTrait := unprocessed detect: [ :each | self hasNoDependenciesFor: each in: unprocessed ].
+			stream nextPut: aTrait.
+			unprocessed remove: aTrait] ]

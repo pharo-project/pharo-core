@@ -47,9 +47,9 @@
 		"rename:ifAbsent:to:ifPresent:fileSystem:" : "SeanDeNigris 8/17/2012 09:30",
 		"rename:ifAbsent:to:ifPresent:filesystem:" : "EstebanLorenzano 4/3/2012 13:20",
 		"separator" : "CamilloBruni 5/7/2012 01:13",
-		"signalDirectoryDoesNotExist:" : "EstebanLorenzano 4/2/2012 11:41",
-		"signalDirectoryExists:" : "EstebanLorenzano 4/2/2012 11:41",
-		"signalFileDoesNotExist:" : "EstebanLorenzano 4/2/2012 11:41",
-		"signalFileExists:" : "EstebanLorenzano 4/2/2012 11:41",
+		"signalDirectoryDoesNotExist:" : "CamilloBruni 9/5/2012 11:27",
+		"signalDirectoryExists:" : "CamilloBruni 9/5/2012 11:27",
+		"signalFileDoesNotExist:" : "CamilloBruni 9/5/2012 11:27",
+		"signalFileExists:" : "CamilloBruni 9/5/2012 11:27",
 		"size:" : "CamilloBruni 7/10/2012 22:08",
 		"stringFromPath:" : "CamilloBruni 1/19/2012 00:24" } }

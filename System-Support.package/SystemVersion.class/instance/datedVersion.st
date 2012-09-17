@@ -1,5 +1,5 @@
-accessing
+accessing-version strings
 datedVersion
-	"Answer the version of this release."
+	" E.g. 'Pharo2.0a of ''18 April 2012''' "
 
-	^ self version asString , ' of ' , self date printString
+	^ self version asString , ' of ' , self date printString.

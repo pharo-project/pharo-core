@@ -9,7 +9,7 @@ fileOutOn: stream
 	traits := self changedClasses reject: [:each | each isBehavior].
 	classes := self changedClasses select: [:each | each isBehavior].
 	traitList := self class traitsOrder: traits asOrderedCollection.
-	classList := self class superclassOrder: classes asOrderedCollection.
+	classList := self class classesOrder: classes asOrderedCollection.
 	list := OrderedCollection new
 		addAll: traitList;
 		addAll: classList;

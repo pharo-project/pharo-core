@@ -2,8 +2,8 @@ navigating
 relativeToPath: aPath
 	"Return the receiver as relative to the argument aPath"
 	
-	"(FSPath / 'griffle' / 'plonk' / 'nurp') 
-		relativeToPath: (FSPath / 'griffle') 
+	"(Path / 'griffle' / 'plonk' / 'nurp') 
+		relativeToPath: (Path / 'griffle') 
 			returns  plonk/nurp"
 
 	| prefix relative |
