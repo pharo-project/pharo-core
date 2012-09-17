@@ -1,7 +1,7 @@
 private
 addReference: aReference
 	| workingCopy |
-	workingCopy := aReference workingCopy.
+	workingCopy := aReference workingCopyIfAbsent: [ ^ self ].
 	(self workingCopies includes: workingCopy)
 		ifTrue: [ ^ self ].
 	self workingCopies addLast: workingCopy.
