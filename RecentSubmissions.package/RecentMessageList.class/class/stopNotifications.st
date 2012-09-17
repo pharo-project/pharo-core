@@ -1,3 +1,3 @@
 events
 stopNotifications
-	SystemAnnouncer uniqueInstance unsubscribe: self
+	SystemAnnouncer uniqueInstance unsubscribe: self uniqueInstance

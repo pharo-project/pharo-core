@@ -2,7 +2,7 @@ method reference creation
 createTheMethodReference: aModifiedMethodEvent
 	
 	| method |
-	method := aModifiedMethodEvent newMethod.
+	method := aModifiedMethodEvent methodAffected.
 
 	^ (RGMethodDefinition
 		realClass: method methodClass
