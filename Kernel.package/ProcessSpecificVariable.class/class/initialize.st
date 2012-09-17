@@ -4,3 +4,5 @@ initialize
 	
 	(Process instVarNames includes: 'env')
 	ifFalse: [ Process addInstVarNamed: 'env'].
+	
+	self resetSoleInstance.

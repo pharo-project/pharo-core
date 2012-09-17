@@ -22,7 +22,9 @@ allocatePSKey: anObject
 							all existing processes having value at given index reset to nil.
 							We don't care if new processes will be created during this loop,
 							since their env variable will be initially nil anyways, hence nothing to reset "
-							Process allSubInstancesDo: [:p | p resetPSValueAt: index ]]
+							Process allSubInstancesDo: [:p | p resetPSValueAt: index ].
+							PSKeys at: index put: anObject.
+							]
 				]
 			]
 	].
