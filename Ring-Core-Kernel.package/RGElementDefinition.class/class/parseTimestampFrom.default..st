@@ -18,7 +18,7 @@ parseTimestampFrom: aString default: anObject
 	^ [	"Go the start of the date string (there can be 1 or 2 digits and a space separator can be missing at the front!!)"
 		((dateStartIndex < 2) not and:[(aString at: dateStartIndex - 1) isDigit]) ifTrue:[dateStartIndex := dateStartIndex - 1].
 		"Extract only those tokens that possibly represent date or time"
-		tokens := (aString copyFrom: dateStartIndex to: aString size) subStrings select: [:token | (token occurrencesOf: $/) = 2 or:[(token occurrencesOf: $:) = 1]].
+		tokens := (aString copyFrom: dateStartIndex to: aString size) substrings select: [:token | (token occurrencesOf: $/) = 2 or:[(token occurrencesOf: $:) = 1]].
 		"2 tokens is a datetime"
 		tokens size = 2
 			ifTrue:[(tokens joinUsing: Character space) asDateAndTime]

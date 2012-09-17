@@ -1,7 +1,7 @@
 private
 internalGetText
 	| list |
-	list := method stamp subStrings.
+	list := method stamp substrings.
 	list ifEmpty: [ ^ 'No information available' ].
 	
 	^ String streamContents:[ :s |

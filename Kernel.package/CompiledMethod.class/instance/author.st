@@ -6,6 +6,6 @@ author
 
 	self timeStamp ifNotEmpty: [:s | 
 		|subS|
-		subS := s subStrings first. 
+		subS := s substrings first. 
 		subS first isLetter ifTrue:[^subS]].
 	^''

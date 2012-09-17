@@ -19,7 +19,7 @@ basicParseAuthorAliasFrom: aString
 	 ^[	"Go the start of the date string (there can be 1 or 2 digits and a space separator can be missing at the front!!)"
 		((dateStartIndex < 2) not and:[(aString at: dateStartIndex - 1) isDigit]) ifTrue:[dateStartIndex := dateStartIndex - 1].
 		"Extract only those tokens that do not possible represent date or time - meaning that authorname may be at the end"
-		tokens := (aString copyFrom: dateStartIndex to: aString size) subStrings reject: [:token | (token occurrencesOf: $/) = 2 or:[(token occurrencesOf: $:) = 1]].
+		tokens := (aString copyFrom: dateStartIndex to: aString size) substrings reject: [:token | (token occurrencesOf: $/) = 2 or:[(token occurrencesOf: $:) = 1]].
 		"only one token should be left if author name/alias exists"
 		^tokens isEmpty
 			ifTrue:[ "if dateStartIndex is not 1 then the authorname may be at the beginning"

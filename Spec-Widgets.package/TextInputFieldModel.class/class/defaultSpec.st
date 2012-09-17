@@ -6,7 +6,6 @@ defaultSpec
 			#on:text:accept:readSelection:menu:. 	#model. #getText. #accept:. nil. nil.
 			#entryCompletion:. 				{	#model. 	#entryCompletion	}.
 			#autoAccept:.						{	#model. 	#autoAccept			}.	
-			#acceptOnCR:. 					{	#model. 	#acceptOnCR			}.
 			#ghostText:.						{	#model. 	#ghostText			}.
 			#enabled:.							{	#model. 	#enabled				}.
 			#encrypted:.						{ 	#model.	#encrypted			}.
@@ -15,5 +14,6 @@ defaultSpec
 			#setBalloonText:.					{ #model . #help}.
 			#hResizing:. 							#spaceFill.
 			#vResizing:. 							#spaceFill.
+			#acceptOnCR:. 					{	#model. 	#acceptOnCR			}.
 			#hideScrollBarsIndefinitely.
 			#eventHandler:.					{	#EventHandler. #on:send:to:. #keyStroke.	#keyStroke:fromMorph:. #model	}}

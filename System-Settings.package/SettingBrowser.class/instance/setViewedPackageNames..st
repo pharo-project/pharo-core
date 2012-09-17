@@ -2,7 +2,7 @@ user interface
 setViewedPackageNames: aText 
 	| allViewed |
 	allViewed := Set new.
-	aText asString subStrings
+	aText asString substrings
 		do: [:sub | (PackageOrganizer default
 						packageNamed: sub
 						ifAbsent: [])

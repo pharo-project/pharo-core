@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"defaultSpec" : "BenjaminVanRyseghem 7/13/2012 05:29",
+		"defaultSpec" : "BenjaminVanRyseghem 8/22/2012 15:09",
 		"example" : "",
 		"title" : "" },
 	"instance" : {
 		"accept:" : "StephaneDucasse 5/17/2012 17:45",
-		"acceptOnCR" : "BenjaminVanRyseghem 7/19/2012 21:56",
+		"acceptOnCR" : "BenjaminVanRyseghem 8/22/2012 15:09",
 		"acceptOnCR:" : "BenjaminVanRyseghem 7/19/2012 21:57",
 		"actionToPerformHolder" : "",
 		"autoAccept" : "BenjaminVanRyseghem 7/19/2012 21:59",
@@ -19,7 +19,7 @@
 		"entryCompletion:" : "BenjaminVanRyseghem 7/19/2012 22:03",
 		"ghostText" : "BenjaminVanRyseghem 7/19/2012 22:04",
 		"ghostText:" : "BenjaminVanRyseghem 7/19/2012 22:05",
-		"initialize" : "BenjaminVanRyseghem 7/4/2012 14:51",
+		"initialize" : "BenjaminVanRyseghem 8/22/2012 15:01",
 		"isCodeCompletionAllowed" : "BenjaminVanRyseghem 6/25/2012 23:46",
 		"removeEntryCompletion" : "BenjaminVanRyseghem 7/19/2012 22:06",
 		"textHolder" : "",
