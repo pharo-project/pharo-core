@@ -1,4 +1,4 @@
-private
+source code area
 listWrapper: anElement
 
 	anElement = 0 ifTrue: [^''].

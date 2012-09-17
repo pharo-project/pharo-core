@@ -20,7 +20,7 @@ createTestForClass: aClass
 			self class environment at: className.
 			testClass comment: (self generateCommentForTestClass: testClass from: aClass)].
 	self showGroups: false.
-	self selectedPackage: testClass packageWrapper.
+	self selectedPackage: testClass package.
 	self selectedClass: testClass.
 	self updateBothView.
 	^ testClass

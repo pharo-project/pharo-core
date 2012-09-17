@@ -5,6 +5,6 @@ openOnPackage: aPackage inEnvironment: anEnvironment
 	instance := self new.
 	instance browsedEnvironment: anEnvironment.
 	instance showGroups: false.
-	instance selectedPackage: aPackage asTagWrapper.
+	instance selectedPackage: aPackage.
 	instance open.
 	^ instance

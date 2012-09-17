@@ -15,6 +15,6 @@ buildTabbedNameOf: anElement
 	^ self selectedPackage 
 		ifNil: [result, anElement name]
 		ifNotNil: [:package | 
-			( anElement package = package package)
+			( anElement package = package)
 				ifTrue: [ (result, anElement name) asStringMorph ]
-				ifFalse: [(result , anElement name) asStringMorph color: self extensionColor;yourself]]
+				ifFalse: [ (result , anElement name",' (', anElement package name,')'")asStringMorph color: self extensionColor;yourself]]

@@ -6,6 +6,6 @@ findClass
 	aClass := SearchFacade classSearch chooseFromOwner: self window .
 	aClass ifNil: [^ self flashPackage].
 	self showGroups: false.
-	self selectedPackage: aClass packageWrapper.
+	self selectedPackage: aClass package.
 	self selectedClass: aClass.
 	self updateBothView

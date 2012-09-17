@@ -7,7 +7,7 @@ openOnMethod: aMethod inEnvironment: anEnvironment
 	instance browsedEnvironment: anEnvironment.
 	instance showInstance: class isMeta not.
 	instance showGroups: false.
-	instance package: class packageWrapper class: class category: aMethod protocol asString method: aMethod.
+	instance package: class package class: class category: aMethod protocol asString method: aMethod.
 	instance open.
 		
 	^ instance
