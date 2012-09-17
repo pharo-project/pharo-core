@@ -1,3 +1,3 @@
 class initialization
 initialize
-	self initializeDefaultFromMC.
+	self initializeDefault.

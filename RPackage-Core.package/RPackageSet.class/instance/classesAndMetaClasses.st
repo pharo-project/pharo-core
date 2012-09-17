@@ -1,0 +1,3 @@
+system compatibility
+classesAndMetaClasses
+	^self collectFromAllPackages: #classesAndMetaClasses

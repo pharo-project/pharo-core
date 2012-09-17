@@ -3,4 +3,5 @@ initialize
 	"self initialize"
 	
 	super initialize.
-	self organizer: self packageOrganizerClass default.
+	"Ensure the organizer will be the RPackageOrganizer default"
+	self organizer: nil.

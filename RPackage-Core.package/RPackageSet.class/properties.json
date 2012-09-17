@@ -1,0 +1,15 @@
+{
+	"category" : "RPackage-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"packageName",
+		"packages" ],
+	"name" : "RPackageSet",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,4 +1,4 @@
-initialize-release
+class initialization
 initializeDefault
 
 	"self initializeDefault"
