@@ -4,8 +4,8 @@
 	"instance" : {
 		"foreignMethod" : "bf 5/20/2005 16:19",
 		"modifiedEventFor:ofClass:" : "GuillermoPolito 8/3/2012 13:56",
-		"setUp" : "cyrilledelaunay 1/21/2011 11:56",
-		"tearDown" : "bf 5/20/2005 17:02",
+		"setUp" : "GuillermoPolito 8/24/2012 14:25",
+		"tearDown" : "GuillermoPolito 8/24/2012 14:26",
 		"testCoreMethodModified" : "bf 5/20/2005 19:54",
 		"testExtMethodModified" : "StephaneDucasse 8/9/2011 17:58",
 		"testForeignMethodModified" : "bf 5/20/2005 17:00" } }

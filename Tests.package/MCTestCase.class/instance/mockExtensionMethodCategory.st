@@ -1,3 +1,3 @@
 mocks
 mockExtensionMethodCategory
-	^ MCMockPackageInfo new methodCategoryPrefix.
+	^ '*MonticelloMocks'

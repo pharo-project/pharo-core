@@ -1,3 +1,3 @@
 mocks
 mockCategoryName
-	^ 'Monticello-Mocks'
+	^ 'MonticelloMocks'

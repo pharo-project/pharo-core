@@ -1,4 +1,4 @@
 data
 expectedOrganizationDefinition
-	^ 'SystemOrganization addCategory: ''MonticelloMocks''!
+	^ 'SystemOrganization addCategory: #MonticelloMocks!
 '

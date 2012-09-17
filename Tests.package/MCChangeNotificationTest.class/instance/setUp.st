@@ -7,9 +7,9 @@ setUp
        some inconsistency about the package info registered with it.
        If Monticellomocks was created earlier it will contain a 'regular'
        PackageInfo instance but the test requires it to be an MCMockPackageInfo"
-       MCWorkingCopy registry
-               removeKey: (MCPackage new name: 'Monticellomocks')
+"       MCWorkingCopy registry
+               removeKey: (MCPackage new name: 'MonticelloMocks')
                ifAbsent:[].
-       PackageOrganizer default unregisterPackageNamed: 'Monticellomocks'.
+       PackageOrganizer default unregisterPackageNamed: 'MonticelloMocks'."
 
        workingCopy := MCWorkingCopy forPackage: self mockPackage.

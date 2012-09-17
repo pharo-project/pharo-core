@@ -1,6 +1,6 @@
 geometry
 extent: aPoint
-	|newExtent|
+	|newExtent|	
 	newExtent := aPoint rounded.
 	(bounds extent closeTo: newExtent) ifTrue: [^ self].
 	self changed.

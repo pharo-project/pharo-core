@@ -1,3 +1,3 @@
 accessing
 mockPackageName
-	^ MCMockPackageInfo new packageName
+	^ 'MonticelloMocks'

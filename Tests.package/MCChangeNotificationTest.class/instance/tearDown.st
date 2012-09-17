@@ -1,3 +1,3 @@
 running
 tearDown
-	workingCopy unregister
+	"workingCopy unregister"

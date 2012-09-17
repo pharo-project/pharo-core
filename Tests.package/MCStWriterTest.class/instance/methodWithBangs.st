@@ -5,12 +5,12 @@ methodWithBangs
 ''MCRevisionInfo packageName: ''MonticelloCompatibilityTest''!!
 MCOrganizationDeclaration categories: 
   #(
-  ''Monticello-Mocks'')!!
+  ''MonticelloMocks'')!!
 
 MCClassDeclaration
   name: #MCMockClassD
   superclassName: #Object
-  category: #''Monticello-Mocks''
+  category: #''MonticelloMocks''
   instVarNames: #()
   comment: ''''!!
 

@@ -15,4 +15,4 @@ tearDown
        in MCChangeNotificationTest is MonticelloMocks and an instance of
        MCMockPackageInfo. Since *that* lookup is case insensitive it can
        find Monticellomocks instead of MonticelloMocks and fail."
-       PackageOrganizer default unregisterPackageNamed: 'Monticellomocks'.
+       "PackageOrganizer default unregisterPackageNamed: 'MonticelloMocks'."

@@ -5,7 +5,7 @@ MCMock subclass: #MCMockClassB
 	instanceVariableNames: ''ivarb''
 	classVariableNames: ''CVar''
 	poolDictionaries: ''MCMockAPoolDictionary''
-	category: ''Monticello-Mocks''!
+	category: ''MonticelloMocks''!
 
 MCMockClassB class
 	instanceVariableNames: ''ciVar''!

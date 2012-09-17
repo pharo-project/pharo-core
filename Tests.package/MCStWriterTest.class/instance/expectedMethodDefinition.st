@@ -1,7 +1,7 @@
 data
 expectedMethodDefinition
 	^ '
-!MCMockClassA methodsFor: ''numeric'' stamp: ''cwp 8/2/2003 17:26''!
+!MCMockClassA methodsFor: ''numeric'' stamp: ''GuillermoPolito 8/24/2012 15:22''!
 one
 	^ 1! !
 '

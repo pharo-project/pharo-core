@@ -1,19 +1,19 @@
 data
 expectedMethodDefinitionWithBangs
 	^ '
-!MCStWriterTest methodsFor: ''testing'' stamp: ''cwp 8/9/2003 14:55''!
+!MCStWriterTest methodsFor: ''testing'' stamp: ''GuillermoPolito 8/24/2012 12:57''!
 methodWithBangs
 	^ ''
 	^ ReadStream on: 
 ''''MCRevisionInfo packageName: ''''MonticelloCompatibilityTest''''!!!!
 MCOrganizationDeclaration categories: 
   #(
-  ''''Monticello-Mocks'''')!!!!
+  ''''MonticelloMocks'''')!!!!
 
 MCClassDeclaration
   name: #MCMockClassD
   superclassName: #Object
-  category: #''''Monticello-Mocks''''
+  category: #''''MonticelloMocks''''
   instVarNames: #()
   comment: ''''''''!!!!
 
