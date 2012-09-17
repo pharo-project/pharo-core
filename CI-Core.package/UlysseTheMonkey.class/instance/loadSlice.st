@@ -9,4 +9,5 @@ loadSlice
 		do: [ :e| 
 			self 
 				addError: e 
-				forFile: (self slice name, ' from ', self slice repository description)].
+				forFile: (self slice name, ' from ', self slice repository description);
+				debug: e ]

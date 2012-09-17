@@ -1,4 +1,3 @@
 accessing
 defaultSocksHostAddress
-
-	^NetNameResolver addressForName: HTTPSocket httpProxyServer
+	^ NetNameResolver addressForName: NetworkSystemSettings httpProxyServer

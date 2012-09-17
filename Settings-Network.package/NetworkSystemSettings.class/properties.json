@@ -4,13 +4,16 @@
 		 ],
 	"classvars" : [
 		"BlabEmail",
+		"HTTPProxyExceptions",
+		"HTTPProxyPort",
+		"HTTPProxyServer",
 		"LastHTTPProxyPort",
 		"LastHTTPProxyServer",
 		"ProxyPassword",
 		"ProxyUser",
 		"UseHTTPProxy",
 		"UseNetworkAuthentification" ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		 ],
 	"name" : "NetworkSystemSettings",

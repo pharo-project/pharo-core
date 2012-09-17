@@ -1,8 +1,13 @@
 settings
 useHTTPProxy: aBoolean
-	UseHTTPProxy = aBoolean ifTrue: [^self].
+	"Set whether an HTTP proxy should be used. This is a global switch."
+
+	UseHTTPProxy = aBoolean ifTrue: [ ^ self ].
 	UseHTTPProxy := aBoolean.
-	self  useHTTPProxy
-		ifTrue: [self httpProxyPort: self lastHTTPProxyPort .
-			self httpProxyServer: self lastHTTPProxyServer]
-		ifFalse: [HTTPSocket stopUsingProxyServer]
+	self useHTTPProxy
+		ifTrue: [
+			self httpProxyPort: self lastHTTPProxyPort.
+			self httpProxyServer: self lastHTTPProxyServer ]
+		ifFalse: [
+			self httpProxyPort: nil.
+			self httpProxyServer: nil ]

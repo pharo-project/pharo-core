@@ -1,3 +1,3 @@
 proxy settings
 httpProxyExceptions
-	^ HTTPProxyExceptions ifNil: [HTTPProxyExceptions := OrderedCollection new].
+	^NetworkSystemSettings httpProxyExceptions 

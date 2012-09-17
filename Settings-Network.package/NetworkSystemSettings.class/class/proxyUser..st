@@ -1,7 +1,6 @@
 settings
 proxyUser: aUser
-	| stream |
-	stream := (aUser ifNil: ['']) readStream.
-	ProxyUser := (Base64MimeConverter mimeEncode: stream) contents.
-	HTTPSocket proxyUser: self proxyUser password: self proxyPassword
+	"Set the HTTP proxy user. Can be empty or nil to reset"
+	
+	ProxyUser := aUser ifNotNil: [ aUser base64Encoded ]
 

@@ -1,6 +1,6 @@
 loading
 loadSliceFrom: gofer
-	|match slices|
+	| match slices |
 	
 	match := 'SLICE-Issue-', id asString.
 	slices := gofer allResolved select: [ :ref| ref name beginsWith: match].

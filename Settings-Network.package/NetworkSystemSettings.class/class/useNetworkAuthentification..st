@@ -1,7 +1,6 @@
 settings
 useNetworkAuthentification: aBoolean
-	UseNetworkAuthentification = aBoolean ifTrue: [^ self].
-	UseNetworkAuthentification := aBoolean.
-	self useNetworkAuthentification 
-		ifTrue: [HTTPSocket proxyUser: self proxyUser password: self proxyPassword]
-		ifFalse: [HTTPSocket proxyUser: '' password: '']
+	"Set whether authentication should be used when accessing the HTTP proxy.
+	This is a switch over username/password."
+
+	UseNetworkAuthentification := aBoolean

@@ -1,3 +1,3 @@
 accessing
 defaultSocksPort
-	^HTTPSocket httpProxyPort
+	^ NetworkSystemSettings httpProxyPort

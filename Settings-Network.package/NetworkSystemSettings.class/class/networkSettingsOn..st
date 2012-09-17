@@ -13,11 +13,9 @@ networkSettingsOn: aBuilder
 				with: [
 					(aBuilder setting: #httpProxyPort)
 						label: 'Port' translated;
-						target: HTTPSocket;
 						description: 'The HTTP proxy port'.
 					(aBuilder setting: #httpProxyServer)
 						label: 'Server' translated;
-						target: HTTPSocket;
 						description: 'The HTTP proxy server (i.e. proxy.univ-brest.fr)'].
 			(aBuilder setting: #useNetworkAuthentification) 
 				label: 'Proxy authentication' translated;

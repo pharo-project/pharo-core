@@ -3,11 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"HTTPBlabEmail",
 		"HTTPProxyCredentials",
-		"HTTPProxyExceptions",
-		"HTTPProxyPort",
-		"HTTPProxyServer",
 		"ParamDelimiters" ],
 	"commentStamp" : "<historical>",
 	"instvars" : [

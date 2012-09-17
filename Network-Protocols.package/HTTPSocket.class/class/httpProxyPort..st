@@ -1,3 +1,3 @@
 proxy settings
 httpProxyPort: aPortNumber
-	HTTPProxyPort := aPortNumber
+	NetworkSystemSettings httpProxyPort: aPortNumber 

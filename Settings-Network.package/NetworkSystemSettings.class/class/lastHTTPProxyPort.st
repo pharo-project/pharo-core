@@ -1,3 +1,3 @@
-settings
+private
 lastHTTPProxyPort
-	^ LastHTTPProxyPort ifNil: [LastHTTPProxyPort := HTTPSocket httpProxyPort]. 
+	^ LastHTTPProxyPort ifNil: [ LastHTTPProxyPort := HTTPProxyPort ]

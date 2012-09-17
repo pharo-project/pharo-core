@@ -3,7 +3,7 @@ latestVersionOf: packageName location: location
 
   | repository sortMczs fileToLoad | 
   
-  repository := MCHttpRepository location: location user: '' password: ''.
+  repository := MCHttpRepository location: location.
   sortMczs := [:a :b |
     [(a findBetweenSubStrs: #($.)) allButLast last asInteger > (b  
       findBetweenSubStrs: #($.)) allButLast last asInteger]

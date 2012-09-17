@@ -1,7 +1,7 @@
 settings
 proxyUser
-	| encoded stream |
-	encoded := ProxyUser ifNil: [ProxyUser := ''].
-	stream := ReadWriteStream on: (String new: 16). 
-	stream nextPutAll: encoded.
-	^ (Base64MimeConverter mimeDecodeToChars: stream) contents
+	"Return the HTTP proxy user to use, if any. Can be empty."
+
+	^ ProxyUser
+		ifNil: [ '' ]
+		ifNotNil: [ ProxyUser base64Decoded ]

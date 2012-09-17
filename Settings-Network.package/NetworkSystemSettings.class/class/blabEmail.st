@@ -1,3 +1,3 @@
 settings
 blabEmail
-	^ BlabEmail ifNil: [BlabEmail := '']
+	^ BlabEmail ifNil: [ BlabEmail := '' ]

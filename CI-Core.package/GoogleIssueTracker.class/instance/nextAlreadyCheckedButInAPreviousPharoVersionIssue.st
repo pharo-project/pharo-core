@@ -4,7 +4,7 @@ nextAlreadyCheckedButInAPreviousPharoVersionIssue
 
 	| issues nextIssue |
 	"try issues which are new and unprrocessed"
-	issues := self issuesWithParams: 'can=open&status=' , PharoTrackerLabels issueChecked , '&q=Milestone%3D' , SystemVersion current dottedMajorMinor.
+	issues := self issuesWithParams: 'can=open&status=' , PharoTrackerLabels issueChecked , '&q=Milestone%3D' , SystemVersion current majorMinor.
 	
 	^ issues
 		detect: [ :e || labels |

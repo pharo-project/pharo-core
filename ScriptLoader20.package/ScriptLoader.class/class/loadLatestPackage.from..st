@@ -2,8 +2,5 @@ private
 loadLatestPackage: aString from: aPath
 	| repository |
 	
-	repository := MCHttpRepository
-		location: aPath
-		user:  ''
-		password: ''.
+	repository := MCHttpRepository location: aPath.
 	self loadLatestPackage: aString fromRepository: repository

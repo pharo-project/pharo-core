@@ -1,3 +1,5 @@
 settings
 httpProxyPort  
-	^ HTTPSocket httpProxyPort
+	"Return the HTTP proxy port to use, an Integer"
+	
+	^ HTTPProxyPort ifNil: [ HTTPProxyPort := 80 ]
