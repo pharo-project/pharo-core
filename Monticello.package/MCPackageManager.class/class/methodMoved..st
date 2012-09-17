@@ -1,6 +1,4 @@
 system changes
 methodMoved: anEvent
-	self managersForClass: anEvent methodClass 
-		category: anEvent oldProtocol do: 
-			[ :mgr | mgr modified: true ].
-	self methodModified: anEvent.
+	self managersForPackage: anEvent oldPackage do: [ :mgr | mgr modified: true ].
+	self managersForPackage: anEvent newPackage do: [ :mgr | mgr modified: true ].

@@ -11,6 +11,7 @@ systemClassAddedActionFrom: ann
 	"when we add the class, the parent category should normally already be register correctly at the RPackageOrganizer"
 	"this next line should import the class and all its methods: "
 	rPackage importClass: class.
+	rPackage addClassDefinition: class toClassTag: class category asSymbol.
 	rPackage importClass: class theMetaClass
 	"maybe the last update should be (is?) automatically done when adding or removing from a RPackage."
 	"self default registerPackage: rPackage forClass: class"
