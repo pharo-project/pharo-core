@@ -1,0 +1,5 @@
+testing
+testInstanceSideMethodsWithNilKeyInLastLiteral
+
+	self assert: SystemNavigation new instanceSideMethodsWithNilKeyInLastLiteral isEmpty
+	
