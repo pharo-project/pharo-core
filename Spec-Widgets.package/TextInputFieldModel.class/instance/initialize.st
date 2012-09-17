@@ -11,6 +11,6 @@ initialize
 	isEncrypted := false asValueHolder.
 	
 	ghostText  whenChangedDo: [:txt | self widget ifNotNil: [:w | w ghostText: txt ]].
-	acceptOnCR whenChangedDo: [:bool | 1halt. self widget ifNotNil: [:w | w acceptOnCR: bool ]].
+	acceptOnCR whenChangedDo: [:bool | self widget ifNotNil: [:w | w acceptOnCR: bool ]].
 	autoAccept whenChangedDo: [:bool | self widget ifNotNil: [:w | w autoAccept: bool ]].
 	isEncrypted whenChangedDo: [:bool | self widget ifNotNil: [:w | w encrypted: bool ]].
