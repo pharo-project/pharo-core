@@ -1,7 +1,5 @@
 test extension
 testExtensionClassNames
-	"self debug: #testExtensionClassNames"
-	
 	| p1 p2  a2 b2 |
 	p1 := self createNewPackageNamed: 'P1'.
 	p2 := self createNewPackageNamed: 'P2'.

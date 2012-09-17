@@ -4,5 +4,5 @@ removeClassDefinitionName: aClassName fromClassTag: aSymbol
 	
 	| res |
 	res :=  classTags at: aSymbol ifAbsent: [^ self].
-	res remove: aClassName ifAbsent: nil.
-	
+	res remove: aClassName ifAbsent: [ ^ self ].
+	res ifEmpty: [ self removeClassTag: aSymbol ]

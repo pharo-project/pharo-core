@@ -1,7 +1,5 @@
 test class addition removal
 testUniqueClassInDefinedClassesUsingAddClassDefinition
-	"self debug: #testUniqueClassInDefinedClassesUsingAddClassDefinition"
-
 	| p a1 |
 	p := self createNewPackageNamed: self p1Name.
 	a1 := self createNewClassNamed: #A1InPAckageP1 inCategory: self p1Name.

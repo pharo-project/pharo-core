@@ -1,7 +1,5 @@
 test extension
 testIncludeClass
-	"self debug: #testIncludeClass"
-	
 	| p1 p2 a2  |
 	p1 := self createNewPackageNamed: 'P1'.
 	p2 := self createNewPackageNamed: 'P2'.

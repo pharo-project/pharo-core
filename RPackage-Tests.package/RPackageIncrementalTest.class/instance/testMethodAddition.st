@@ -1,7 +1,5 @@
 test method addition removal
 testMethodAddition
-	"self debug: #testMethodAddition"
-
 	| p1 a1 methodRef |
 	p1 := self createNewPackageNamed: 'P1'.
 	a1 := self createNewClassNamed: #A1DefinedInP1 inPackage: p1.

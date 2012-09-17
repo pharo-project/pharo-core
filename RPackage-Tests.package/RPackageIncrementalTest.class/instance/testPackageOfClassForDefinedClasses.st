@@ -1,7 +1,5 @@
 test package belonging
 testPackageOfClassForDefinedClasses
-	"self debug: #testPackageOfClassForDefinedClasses"
-	
 	| p a1 b1 |
 	p := self createNewPackageNamed: 'P1'.
 	a1 := self createNewClassNamed: #A1InPAckageP1 inPackage: p.

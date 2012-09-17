@@ -1,0 +1,14 @@
+{
+	"category" : "RPackage-SystemIntegration",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RPackageMonticelloSynchronisationTest",
+	"pools" : [
+		 ],
+	"super" : "RPackageMCSynchronisationTest",
+	"type" : "normal" }

@@ -1,4 +1,4 @@
-tests - operations on methods
+to move to a simple RPackage test case
 testRepackagedAnnouncementWhenModifyMethodByMovingFromExtensionCategoryToClassicCategory
 
 	| ann class firstPackage secondPackage|

@@ -1,7 +1,5 @@
 test class addition removal
 testRemoveExtensionMethodRemovesExtensionsFromRPackage
-	"self debug: #testRemoveClassRemovesExtensions"
-
 	| p1 p2 a1 b1 |
 	p1 := self createNewPackageNamed: self p1Name.
 	p2 := self createNewPackageNamed: self p2Name.

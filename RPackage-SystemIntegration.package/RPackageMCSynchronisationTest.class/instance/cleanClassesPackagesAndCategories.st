@@ -12,6 +12,7 @@ cleanClassesPackagesAndCategories
 		Smalltalk removeClassNamed: 'ClassInZPackage'.
 		Smalltalk organization removeCategory: 'Zork'.
 		Smalltalk organization removeCategory: 'XXXXX'.
+		Smalltalk organization removeCategory: 'XXXXX-YYYY'.
 		Smalltalk organization removeCategory: 'XXXX'.
 		Smalltalk organization removeCategory: 'YYYYY'.
 		Smalltalk organization removeCategory: 'ZZZZZ'.

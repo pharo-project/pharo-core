@@ -1,7 +1,5 @@
 test extension
 testIncludesMethodOfClassInPresenceOfOtherPackageExtensions
-	"self debug: #testIncludesMethodOfClassInPresenceOfOtherPackageExtensions"
-	
 	| p1 p2 p3 a2  a2name |
 	p1 := self createNewPackageNamed: 'P1'.
 	p2 := self createNewPackageNamed: 'P2'.

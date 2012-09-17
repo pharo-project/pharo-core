@@ -1,7 +1,5 @@
 test method addition removal
 testAddRemoveMethod
-	"self debug: #testAddRemoveMethod"
-	
 	| p1 p2 p3 a2   a2Name |
 	a2Name := #A2InPackageP2.
 	p1 := self createNewPackageNamed: 'P1'.

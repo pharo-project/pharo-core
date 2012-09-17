@@ -1,7 +1,5 @@
 test extension
 testIncludeSelectorOfMetaClass
-	"self debug: #testIncludeSelectorOfMetaClass"
-	
 	| p1 p2 p3 a2  a2class |
 	p1 := self createNewPackageNamed: 'P1'.
 	p2 := self createNewPackageNamed: 'P2'.

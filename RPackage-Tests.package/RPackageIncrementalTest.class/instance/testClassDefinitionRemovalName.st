@@ -1,7 +1,5 @@
 test class addition removal
 testClassDefinitionRemovalName
-	"self debug: #testClassDefinitionRemovalName"
-
 	| p a1 b1|
 	p := self createNewPackageNamed: self p1Name.
 	a1 := self createNewClassNamed: #A1InPAckageP1 inCategory: self p1Name.

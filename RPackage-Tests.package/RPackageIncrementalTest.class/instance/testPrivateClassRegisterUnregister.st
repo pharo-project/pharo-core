@@ -1,8 +1,6 @@
 test registration
 testPrivateClassRegisterUnregister
 	"Verify that when we register a class, the package organizer register it."
-	"self debug: #testPrivateClassRegisterUnregister"
-
 	| p a1 b1 |
 	p := self createNewPackageNamed: 'P1'.
 	a1 := self createNewClassNamed: #A1InPackageP1.

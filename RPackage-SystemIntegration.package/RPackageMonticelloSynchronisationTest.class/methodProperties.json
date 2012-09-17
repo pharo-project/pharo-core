@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAddMCPackageCreatesAPackage" : "GuillermoPolito 9/5/2012 11:34",
+		"testAddMCPackageForCategoryAlreadyExistingDoesNotCreateAPackage" : "GuillermoPolito 9/5/2012 11:34",
+		"testUnloadMCPackageRemovesRPackage" : "GuillermoPolito 9/5/2012 13:12",
+		"testUnregisterMCPackageKeepsRPackage" : "GuillermoPolito 9/5/2012 13:12" } }

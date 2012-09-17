@@ -1,6 +1,5 @@
 test method addition removal
 testMethodPackageResolution
-	
 	| a1Name p1 a1 |
 	a1Name := #A2InPackageP2.
 	p1 := self createNewPackageNamed: 'P1'.

@@ -1,4 +1,4 @@
-tests
+we are not sure
 testImportSystemClassWithSubCategory
 	"self debug: #testImportSystemClassWithSubCategory"
 	"indeed the user may have created a class in the category Foo-Core, and after created

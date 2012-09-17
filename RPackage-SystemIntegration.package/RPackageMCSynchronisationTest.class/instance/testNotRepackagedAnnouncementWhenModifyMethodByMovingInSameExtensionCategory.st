@@ -1,4 +1,4 @@
-tests - operations on methods
+to move to a simple RPackage test case
 testNotRepackagedAnnouncementWhenModifyMethodByMovingInSameExtensionCategory
 	
 	| ann class firstPackage secondPackage|
@@ -11,6 +11,7 @@ testNotRepackagedAnnouncementWhenModifyMethodByMovingInSameExtensionCategory
 	firstPackage := self organizer  packageNamed: #XXXXX.
 	secondPackage := self organizer  packageNamed: #YYYYY.
 	class := self createNewClassNamed: 'NewClass' inCategory: 'XXXXX'.
+
 	self createMethodNamed: 'stubMethod' inClass:  class inCategory: '*yyyyy'.
 	
 	self assert: ann isNil.

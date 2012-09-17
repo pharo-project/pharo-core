@@ -1,7 +1,5 @@
 test class addition removal
 testAddClassAfterMethodsAtMetaclassToo
-	"self debug: #testAddClassAfterMethodsAtMetaclassToo"
-
 	| p1 a1 b1 |
 	p1 := self createNewPackageNamed: self p1Name.
 	"the class is created but not added to the package for now"
