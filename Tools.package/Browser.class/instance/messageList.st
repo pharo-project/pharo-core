@@ -8,10 +8,5 @@ messageList
 			ifNotNil: [self classOrMetaClassOrganizer allMethodSelectors]
 	].
 
-	^ sel = ClassOrganizer allCategory ifTrue:  [
-		self classOrMetaClassOrganizer
-			ifNil: [Array new]
-			ifNotNil: [self classOrMetaClassOrganizer allMethodSelectors]]
-		ifFalse: [
-			(self classOrMetaClassOrganizer listAtCategoryNumber: messageCategoryListIndex - 1)
-				ifNil: [messageCategoryListIndex := 0.  Array new]]
+	^ (self classOrMetaClassOrganizer listAtCategoryNumber: messageCategoryListIndex)
+				ifNil: [messageCategoryListIndex := 0.  Array new]

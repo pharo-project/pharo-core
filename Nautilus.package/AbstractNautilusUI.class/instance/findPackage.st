@@ -13,5 +13,5 @@ findPackage
 	
 	foundPackage := SearchFacade rPackageSearch chooseFromOwner: self window.
 	
-	self selectedPackage: foundPackage.
+	self selectedPackage: foundPackage asTagWrapper.
 	self updatePackageViewAndMove.

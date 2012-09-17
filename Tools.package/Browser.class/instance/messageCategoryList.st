@@ -4,4 +4,4 @@ messageCategoryList
 
 	classListIndex = 0
 		ifTrue: [^ Array new]
-		ifFalse: [^ (Array with: ClassOrganizer allCategory), self classOrMetaClassOrganizer categories]
+		ifFalse: [^ self classOrMetaClassOrganizer categoriesSorted ]

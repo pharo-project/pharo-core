@@ -11,5 +11,8 @@ aboutText
 	- KeyMapping shortcuts
 	- Ring compliant
 	- refactorings support
+	- stateless shortcuts
+	- multiple source code panel
+	- direct feedback (method too long, class uncommented ...)
 
 Made by Benjamin Van Ryseghem and friends'

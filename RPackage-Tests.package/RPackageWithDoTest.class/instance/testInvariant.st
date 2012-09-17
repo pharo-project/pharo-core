@@ -9,7 +9,7 @@ testInvariant
 	"note that this test is not precise enough because I could get the wrong one."
 	Smalltalk garbageCollect.
 	Smalltalk garbageCollect.
-	self assert: (self packageOrganizerClass allInstances size = 1).
+	self assert: self packageOrganizerClass allInstances size equals: 1.
 	
 	self packageOrganizerClass allInstances collect: [:each | self announcer hasSubscriber: each ] 
 	"To debug..."

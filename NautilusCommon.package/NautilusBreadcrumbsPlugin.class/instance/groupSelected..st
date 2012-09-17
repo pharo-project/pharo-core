@@ -5,9 +5,12 @@ groupSelected: anAnnouncement
 	groupButton ifNotNil: [ container removeMorph: groupButton ].
 	container removeMorph: self hFill.
 	groupButton := PluggableButtonMorph new
-							actionBlock: [ 
-								model ui
-									selectedGroup: group ].
+							model: self;
+							getMenuSelector: #groupMenu:;
+							actionBlock: [:evt | 
+								evt shiftPressed
+									ifTrue: [ Nautilus openOnGroup: group ]
+									ifFalse: [ model ui selectedGroup: group ]].
 								
 	groupButton
 		label: group name;

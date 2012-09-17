@@ -1,4 +1,4 @@
 menus behavior
 addClass
 
-	self selectedPackage ifNotNil: [:package | self addClassIn: package ]
+	self selectedPackage ifNotNil: [:packageWrapper | self addClassIn: packageWrapper package ]

@@ -3,6 +3,7 @@
 		"cleanUp:" : "StephaneDucasse 3/9/2010 22:21" },
 	"instance" : {
 		"addCategory:before:" : "EstebanLorenzano 8/3/2012 15:27",
+		"categoriesSorted" : "BenjaminVanRyseghem 4/24/2012 14:47",
 		"changeFromCategorySpecs:" : "EstebanLorenzano 8/3/2012 15:27",
 		"classify:under:suppressIfDefault:" : "EstebanLorenzano 8/3/2012 15:28",
 		"notifyOfChangedCategoriesFrom:to:" : "EstebanLorenzano 7/27/2012 16:30",

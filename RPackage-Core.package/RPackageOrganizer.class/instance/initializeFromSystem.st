@@ -1,7 +1,7 @@
 initialize-release
 initializeFromSystem
-	""
 	| package |
+
 	self allManagers 
 		do: [ :workingCopy |
 			| info |

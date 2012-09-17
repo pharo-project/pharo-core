@@ -6,7 +6,7 @@ toggleLock
 	self 
 		ifLocked: [
 			self unlock.
-			lockIcon image: self defaultOpenIcon
+			lockIcon image: self defaultUnLockIcon
 			 ]
 		ifUnlocked: [ 
 			self lock.

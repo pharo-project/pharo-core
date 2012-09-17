@@ -1,0 +1,1 @@
+A PackageTagWrapper is a wrapper for having a real object for RPackage tags

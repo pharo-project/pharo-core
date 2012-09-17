@@ -5,6 +5,8 @@ methodSelected: anAnnouncement
 	methodButton ifNotNil: [ container removeMorph: methodButton ].
 	container removeMorph: self hFill.
 	methodButton := PluggableButtonMorph new
+							model: self;
+							getMenuSelector: #methodMenu:;
 							actionBlock: [ model ui selectedMethod: method ].
 	method ifNotNil: [ 
 		methodButton

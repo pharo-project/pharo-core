@@ -5,6 +5,8 @@ classSelected: anAnnouncement
 	classButton ifNotNil: [ container removeMorph: classButton ].
 	container removeMorph: self hFill.
 	classButton := PluggableButtonMorph new
+							model: self;
+							getMenuSelector: #classMenu:;
 							actionBlock: [:evt | evt shiftPressed
 												ifTrue: [ class browse ]
 												ifFalse: [ model ui selectedClass: class ]].

@@ -1,0 +1,4 @@
+compatibility
+categoriesSorted
+
+	^ self categories

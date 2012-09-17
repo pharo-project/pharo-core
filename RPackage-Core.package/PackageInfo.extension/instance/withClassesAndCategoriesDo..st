@@ -1,7 +1,7 @@
 *RPackage-Core
 withClassesAndCategoriesDo: aBlock
 	self systemCategories do: [:aSymbol |
-		(PackageInfo named: aSymbol asString) classes do: [ :class |
+		(SystemOrganization listAtCategoryNamed: aSymbol asString) collect: [:e | self class environment at: e ] thenDo: [ :class |
 			aBlock value: class value: aSymbol.
 		].
 	].
