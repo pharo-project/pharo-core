@@ -1,4 +1,4 @@
 accessing
 contract
-	expand := false.
+	expand := true.
 	nextModel := nil.

@@ -4,9 +4,11 @@ entryDescription: anECEntryDescription
 	entryDescription := anECEntryDescription.
 	title
 		contents: (entryDescription title
-				ifNil: [description bounds: self titleBounds.
+				ifNil: [
+					description bounds: self titleBounds.
 					String new]
-				ifNotNil: [description bounds: self descriptionBounds.
+				ifNotNil: [
+					description bounds: self descriptionBounds.
 					entryDescription title]).
 	description contentsWrapped: entryDescription description.
 	categoryContents := entryDescription label.

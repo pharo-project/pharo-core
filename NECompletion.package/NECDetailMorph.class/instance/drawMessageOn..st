@@ -4,8 +4,11 @@ drawMessageOn: aCanvas
 	factor := self itemHeight.
 	rectangle := self bounds top: self bounds bottom - factor.
 	rectangle := rectangle left: self contentBounds left.
-	aCanvas line: rectangle topLeft + (0 @ 2) to: rectangle topRight + (-3 @ 2) color: Color darkGray.
-	rectangle := rectangle top: rectangle top + 3.
+	aCanvas 
+		line: rectangle topLeft 
+		to: rectangle topRight
+		color: Color darkGray.
+	rectangle := rectangle top: rectangle top + 1.
 	aCanvas
 		drawString: '<- close detail'
 		in: rectangle

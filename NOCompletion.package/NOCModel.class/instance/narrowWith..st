@@ -1,6 +1,5 @@
 accessing
 narrowWith: aString
 	self narrowString: aString.
-	self resetEntries.
-	self addVariables.
+	self loadEntries.
 	self nextModel ifNotNilDo: [:nm | nm narrowWith: aString].

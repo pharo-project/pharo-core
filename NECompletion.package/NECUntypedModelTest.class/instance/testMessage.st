@@ -4,6 +4,7 @@ testMessage
 	model := NECUntypedModel 
 		class: NECTestClass
 		temporaries: #('a' 'b' ).
+	model loadEntries.
 	self assert: model notEmpty.
 	self assert: model hasMessage.
 	self assert: model message = 'press key for selectors'.

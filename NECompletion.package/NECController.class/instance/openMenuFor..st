@@ -15,4 +15,5 @@ openMenuFor: aParagraphEditor
 	theMenu isClosed
 		ifFalse: [menuMorph := theMenu]. 
 	
+	context ifNil: [ ^ self closeMenu ].
 	context model entries ifEmpty: [ ^ self closeMenu].

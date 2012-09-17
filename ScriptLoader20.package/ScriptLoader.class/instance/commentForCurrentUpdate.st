@@ -1,4 +1,4 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6592:	Fix RecentMessageList>>aClassHasBeenCommented:
-		http://code.google.com/p/pharo/issues/detail?id=6592&'
+ ^ 'Issue 6519:	Merge NE and NO Completion
+	http://code.google.com/p/pharo/issues/detail?id=6519'

@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"browseWith:" : "MarcusDenker 7/12/2012 18:01",
-		"createDescriptionWith:" : "CamilloBruni 8/6/2012 00:07",
+		"browseWith:" : "CamilloBruni 8/6/2012 00:25",
+		"createDescriptionWith:" : "CamilloBruni 8/6/2012 00:36",
 		"findMethodWith:do:ifAbsent:" : "",
 		"guessTypeWith:" : "CamilloBruni 8/6/2012 00:06",
-		"implementorsDescription:" : "",
+		"implementorsDescription:" : "CamilloBruni 8/6/2012 00:35",
 		"label" : "CamilloBruni 8/6/2012 00:08",
 		"lookupSelector:class:" : "",
-		"methodSourceDescription:method:" : "MarcusDenker 4/26/2012 14:11" } }
+		"methodSourceDescription:method:" : "CamilloBruni 8/6/2012 00:41" } }

@@ -1,6 +1,6 @@
-accessing
+initialize-release
 initialize
 	super initialize.
 	self contract.
 	table := NOCCompletionTable default.
-	ctable := NOCCompletionTable classes.
+	classTable := NOCCompletionTable classes.

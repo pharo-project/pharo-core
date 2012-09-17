@@ -1,3 +1,3 @@
 preferences-fonts
 messageFont
-	^ StandardFonts codeFont
+	^ StandardFonts menuFont

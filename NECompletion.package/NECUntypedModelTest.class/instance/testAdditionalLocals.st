@@ -15,5 +15,6 @@ testAdditionalLocals
 				type: #local))
 		variables: true
 		selectors: true.
+	model loadEntries.
 	locals := model entriesOfType: #local.
 	self assert: (locals includes: 'veryImp')

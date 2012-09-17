@@ -1,5 +1,11 @@
 private
 browseWith: anECContext
+
+	(self guessTypeWith: anECContext)
+		ifNotNil: [ :clazz|
+			SystemNavigation new browseClass: clazz.
+			^ true ].
+	
 	^ self
 		findMethodWith: anECContext
 		do: [ :class :method | 

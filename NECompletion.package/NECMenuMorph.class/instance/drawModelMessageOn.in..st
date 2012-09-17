@@ -6,6 +6,6 @@ drawModelMessageOn: aCanvas in: rectangle
 		ifFalse: [ self detailMessage ].
 	aCanvas 
 		drawString: message
-		in: (rectangle insetBy: 3)
+		in: rectangle
 		font: self class messageFont
-		color: Color darkGray
+		color: Color gray

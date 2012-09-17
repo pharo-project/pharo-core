@@ -8,7 +8,8 @@ position: aPoint menuWidth: anInteger
 				ifFalse: [aPoint y - self itemHeight].
 	x := aPoint x.
 	x := x + self class width > Display width
-				ifTrue: [arrowPosition := (self positionOnLeft: anInteger) @ aPoint y.
+				ifTrue: [
+					arrowPosition := (self positionOnLeft: anInteger) @ aPoint y.
 					arrowPosition x]
 				ifFalse: [x].
 	self position: x @ y

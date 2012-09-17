@@ -6,8 +6,8 @@ setClass: aClass temporaries: aCollection additionals: additionalCollection vari
 	self initializeInstVars.
 	self initializeClassVars.
 	includeVariables 
-		ifTrue: 
-			[ localVars := aCollection.
+		ifTrue: [ 
+			localVars := aCollection.
 			self addAdditionals: additionalCollection ]
 		ifFalse: [ localVars := OrderedCollection new ].
 	self resetEntries.

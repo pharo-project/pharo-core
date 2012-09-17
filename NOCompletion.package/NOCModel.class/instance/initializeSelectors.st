@@ -1,2 +1,2 @@
-accessing
+initialize-release
 initializeSelectors

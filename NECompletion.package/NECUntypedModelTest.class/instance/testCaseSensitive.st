@@ -5,6 +5,7 @@ testCaseSensitive
 	model := NECUntypedModel 
 		class: NECTestClass
 		temporaries: OrderedCollection new.
+	model loadEntries.
 	locals := model entriesOfType: #instVar.
 	self assert: locals size == 17.
 	self assert: (locals includes: 'third').

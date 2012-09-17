@@ -2,6 +2,8 @@ accessing
 initialize
 	| childBounds |
 	super initialize.
+	
+	self borderStyle: (BorderStyle color: Color gray width: 1).
 	childBounds := self contentBounds.
 	label := StringMorph 
 		contents: ''

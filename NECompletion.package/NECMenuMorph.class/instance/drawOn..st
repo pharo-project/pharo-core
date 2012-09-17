@@ -15,12 +15,10 @@ drawOn: aCanvas
 	self lastVisible ~= self itemsCount 
 		ifTrue: [ self drawBottomScrollArrowOn: aCanvas ].
 		
-	model notEmpty ifTrue: 
-		[ self firstVisible 
-			to: self lastVisible
-			do: [ :index | 
-				self drawLine: index on: aCanvas rectangle: rectangle.
-				rectangle := self prepareRectForNextRow: rectangle ]].
+	model notEmpty ifTrue: [ 
+		self firstVisible to: self lastVisible do: [ :index | 
+			self drawLine: index on: aCanvas rectangle: rectangle.
+			rectangle := self prepareRectForNextRow: rectangle ]].
 		
 	self 
 		drawMessageOn: aCanvas

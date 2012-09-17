@@ -9,8 +9,8 @@ createDescriptionWith: anECContext
 					description: clazz comment	].
 	^ self
 		findMethodWith: anECContext
-		do: [:clazz :method | self
+		do: [:clazz :method | 
+			self
 				methodSourceDescription: clazz
-				method: method
-				]
+				method: method ]
 		ifAbsent: [:selector | self implementorsDescription: selector]

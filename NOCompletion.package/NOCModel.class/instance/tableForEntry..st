@@ -1,5 +1,5 @@
 accessing
 tableForEntry: ent
 	^ (ent notEmpty and: [ent first isUppercase]) 
-			ifTrue: [ctable]
+			ifTrue: [classTable]
 			ifFalse: [table]

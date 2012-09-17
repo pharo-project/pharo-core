@@ -8,9 +8,10 @@
 	"instvars" : [
 		"table",
 		"expand",
+		"context",
 		"nextModel",
 		"cachedEntries",
-		"ctable" ],
+		"classTable" ],
 	"name" : "NOCModel",
 	"pools" : [
 		 ],

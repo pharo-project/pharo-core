@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"checkUntypedVariablesOnly:" : "",
+		"checkUntypedVariablesOnly:" : "CamilloBruni 8/21/2012 16:30",
 		"createContextFor:at:" : "",
 		"testBlockTemporaries" : "",
 		"testBlockTemporariesBoxed" : "",

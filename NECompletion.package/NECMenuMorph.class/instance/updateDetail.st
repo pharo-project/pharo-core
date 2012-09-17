@@ -3,6 +3,6 @@ updateDetail
 	detailMorph
 		ifNil: [^ self].
 	detailMorph
-		entryDescription: (self selectedEntry descriptionWith: context).
-	detailMorph position: detailPosition menuWidth: self width.
-	detailMorph show
+		entryDescription: (self selectedEntry descriptionWith: context);
+		position: detailPosition menuWidth: self width;
+		show

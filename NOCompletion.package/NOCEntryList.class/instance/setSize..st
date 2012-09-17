@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 setSize: n
 	size := n.
 	entries := Dictionary new: n.

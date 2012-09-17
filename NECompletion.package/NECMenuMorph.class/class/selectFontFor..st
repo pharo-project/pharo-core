@@ -6,5 +6,5 @@ selectFontFor: aSymbol
 	emphasized := attributes size > 1 
 		ifTrue: [ attributes second emphasisCode ]
 		ifFalse: [ 0 ].
-	^ StandardFonts menuFont
+	^ StandardFonts codeFont
 		emphasized: emphasized

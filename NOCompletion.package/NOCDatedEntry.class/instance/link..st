@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 link: anODatedEntry
 	"Link the given entry after me."
 

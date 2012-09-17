@@ -1,8 +1,7 @@
 private
 resetCompletionDelay
 	"Open the popup after 100ms and only after certain characters"
-	completionDelay ifNotNil: [ completionDelay terminate ].
-	
+	self stopCompletionDelay.
 	self isMenuOpen ifTrue: [ ^ self ].
 	editor atCompletionPosition ifFalse: [ ^ self ].
 	

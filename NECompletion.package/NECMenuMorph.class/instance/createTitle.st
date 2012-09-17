@@ -4,8 +4,9 @@ createTitle
 	titleString := context model title ifNil: [ ^ self ].
 	
 	titleStringMorph := StringMorph new.
-	titleStringMorph font: self class titleFont.
-	titleStringMorph contents: titleString.
+	titleStringMorph 
+		font: self class titleFont; 
+		contents: titleString.
 	
 	transformationMorph := TransformationMorph new.
 	transformationMorph rotationDegrees: -90.0;

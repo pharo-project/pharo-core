@@ -9,6 +9,7 @@ testForClassLocals
 	model := NECUntypedModel 
 		class: NECTestClass
 		temporaries: temps.
+	model loadEntries.
 	locals := model entriesOfType: #local.
 	self assert: locals size == 4.
 	self assert: (locals includes: 'loc1').

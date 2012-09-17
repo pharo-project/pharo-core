@@ -8,8 +8,7 @@ implementorsDescription: aSymbol
 			label: 'symbol'
 			title: '(no implementors)'
 			description: 'This is just symbol.' ].
-	implementors do: 
-		[ :each | 
+	implementors do: [ :each | 
 		output
 			nextPutAll: each classSymbol printString;
 			cr ].

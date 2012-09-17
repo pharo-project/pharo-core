@@ -1,7 +1,8 @@
 actions
 hideDetail
-	detailMorph ifNil: [ ^ self ].
+	detailMorph ifNil: [ ^ false ].
 	self removeMorph: detailMorph.
 	detailMorph delete.
 	detailMorph := nil.
-	self changed
+	self changed.
+	^ true

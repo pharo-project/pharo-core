@@ -1,4 +1,4 @@
-as yet unclassified
+operations
 <= anEntry
 	^ date = anEntry date 
 		ifTrue: [contents <= anEntry contents]
