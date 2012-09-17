@@ -1,7 +1,6 @@
 activation
 activate
-	self loadSourceFiles: (self commandLine allFilesWithExtension: 'fuel').
-	self installSourceFiles.
+	self manageFiles.
 	(self commandLine hasOption: 'save')
 		ifTrue: [
 			ThreadSafeTranscript install.
