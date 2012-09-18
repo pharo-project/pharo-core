@@ -70,11 +70,11 @@ methodIconFor: aMethod
 														extent: 12 @ 12;
 														helpText: 'Run the test';
 														borderWidth: 0 ]
-										ifNil: [ | isOverriden |
-											isOverriden := aMethod isOverriden.
+										ifNil: [ | isOverridden |
+											isOverridden := aMethod isOverridden.
 											aMethod isOverride
 												ifTrue: [ 
-													isOverriden
+													isOverridden
 														ifTrue: [ 
 															result := self buildUpAndDownArrowIcon: aMethod.
 															MethodsIconsCache at: aMethod put: {(IconicButtonStateHolder forNautilus: result value first). (IconicButtonStateHolder forNautilus: result value second)}.
@@ -89,7 +89,7 @@ methodIconFor: aMethod
 																		extent: 12 @ 12;
 																		borderWidth: 0 ]]
 												ifFalse: [
-													isOverriden
+													isOverridden
 														ifTrue: [ button := IconicButton new 
 																		target: self model;
 																		actionSelector: #arrowDown:;

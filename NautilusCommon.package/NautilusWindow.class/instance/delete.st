@@ -5,4 +5,4 @@ delete
 	mod := self model.
 	super delete.
 	mod 
-		ifNotNil: [ mod announce: (NautilusWindowClosed window: self) ]
+		ifNotNil: [ mod announce: (WindowClosed new window: self) ]

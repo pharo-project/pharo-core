@@ -1,4 +1,10 @@
 testing
 isOverridden
-	^(class allSubclasses detect: [:each | each directlyDefinesMethod: self inlineSelector]
-		ifNone: [nil]) notNil
+	| selector| 
+	selector := self inlineSelector.
+	class allSubclassesDo: [:each | 
+		(each directlyDefinesMethod: selector)
+			ifTrue: [ ^ true ]].
+	^ false
+	
+		
