@@ -2,10 +2,8 @@ interface
 includesFileNamed: aString
 	
 	"avoid the slower default method and simply do a head request "
-	ZnClient new
-		systemPolicy;
-		beOneShot;
-		username: self user password: self password;
+	self httpClient
+		numberOfRetries: 0;
 		ifFail: [ :exception| 
 			exception response code = 404
 				ifTrue: [ ^ false ].

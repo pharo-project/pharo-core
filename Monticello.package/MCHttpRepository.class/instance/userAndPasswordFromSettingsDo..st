@@ -16,7 +16,7 @@ userAndPasswordFromSettingsDo: aBlock
 		Settings keysAndValuesDo: [:key :value | | entry userAndPassword |
 			(key asLowercase beginsWith: 'account') ifTrue: [
 				entry := value findTokens: '	 '.
-				(entry first match: location) ifTrue: [
+				(entry first match: self location) ifTrue: [
 					userAndPassword := entry second.
 					(userAndPassword includes: $:) ifFalse: [
 						userAndPassword := (Base64MimeConverter mimeDecodeToChars: userAndPassword readStream) contents].

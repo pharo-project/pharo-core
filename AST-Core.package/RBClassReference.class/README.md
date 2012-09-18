@@ -1,0 +1,1 @@
+I am a specific variable node used for ClassReferences

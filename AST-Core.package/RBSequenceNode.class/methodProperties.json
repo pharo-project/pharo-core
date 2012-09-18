@@ -5,6 +5,7 @@
 		"temporaries:statements:" : "" },
 	"instance" : {
 		"=" : "",
+		"accept:" : "CamilloBruni 2/3/2012 15:55",
 		"acceptVisitor:" : "",
 		"addNode:" : "lr 1/4/2012 21:40",
 		"addNode:before:" : "lr 1/4/2012 21:41",

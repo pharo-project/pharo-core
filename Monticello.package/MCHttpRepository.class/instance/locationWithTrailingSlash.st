@@ -1,5 +1,5 @@
 actions
 locationWithTrailingSlash
-	^ (location endsWith: '/')
-		ifTrue: [location]
-		ifFalse: [location, '/']
+	^ (self location endsWith: '/')
+		ifTrue: [self location]
+		ifFalse: [self location, '/']

@@ -1,4 +1,4 @@
 private
 shouldOpenOnGroups
 
-	^ self class openOnGroups and: [ self class groupsManager isEmpty not ]
+	^ self class openOnGroups and: [ (self class groupsManagerFrom: self) isEmpty not ]

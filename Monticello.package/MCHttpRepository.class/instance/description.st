@@ -1,3 +1,3 @@
 accessing
 description
-	^ location
+	^ self location

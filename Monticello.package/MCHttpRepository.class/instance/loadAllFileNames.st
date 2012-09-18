@@ -3,7 +3,7 @@ loadAllFileNames
 	| client |
 	self displayProgress: 'Loading all file names from ', self description during: [
 		(client := self httpClient)
-			ifFail: [ :exception | self error: 'Could not access ', location, ': ', exception printString ];
+			ifFail: [ :exception | self error: 'Could not access ', self location, ': ', exception printString ];
 			url: self locationWithTrailingSlash;
 			queryAt: 'C' put: 'M;O=D';	"legacy that some servers maybe expect"
 			get.

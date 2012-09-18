@@ -1,0 +1,15 @@
+{
+	"category" : "AST-Core-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"currentVariableNodeClass",
+		"currentScope" ],
+	"name" : "RBExplicitVariableParser",
+	"pools" : [
+		 ],
+	"super" : "RBParser",
+	"type" : "normal" }

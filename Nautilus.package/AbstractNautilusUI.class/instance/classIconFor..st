@@ -27,7 +27,7 @@ classIconFor: aClass
 			 ClassesIconsCache at: aClass put: (IconicButtonStateHolder forNautilus: button).
 			^ button ]
 		ifFalse: [
-			aClass theNonMetaClass organization classComment isEmpty
+			aClass comment isEmpty
 				ifTrue: [| button |
 					button := IconicButton new 
 								target: self;

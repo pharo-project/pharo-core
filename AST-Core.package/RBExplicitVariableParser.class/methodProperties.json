@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"argumentNodeClass" : "CamilloBruni 12/15/2011 16:16",
+		"lookupVariableNodeClass:" : "CamilloBruni 12/15/2011 16:35",
+		"parseBlock" : "CamilloBruni 12/15/2011 16:40",
+		"parseMethod" : "CamilloBruni 12/15/2011 16:40",
+		"parsePrimitiveIdentifier" : "CamilloBruni 12/15/2011 16:30",
+		"parseTemps" : "CamilloBruni 12/15/2011 16:17",
+		"popScope" : "CamilloBruni 12/15/2011 16:27",
+		"pushScope:" : "CamilloBruni 12/15/2011 16:27",
+		"selfNodeClass" : "CamilloBruni 12/15/2011 16:16",
+		"superNodeClass" : "CamilloBruni 12/15/2011 16:16",
+		"temporaryNodeClass" : "CamilloBruni 12/15/2011 16:16",
+		"thisContextNodeClass" : "CamilloBruni 12/15/2011 16:16",
+		"useVariable:during:" : "CamilloBruni 12/15/2011 16:15",
+		"variableNodeClass" : "CamilloBruni 12/15/2011 16:15" } }

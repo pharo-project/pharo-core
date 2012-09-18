@@ -6,9 +6,9 @@ methodWrapper: anItem
 	package := self model selectedPackage.
 	result := selector asMorph.
 	emphasis := 0.
-	anItem category asString first = $*
+	anItem protocol asString first = $*
 		ifTrue: [ | item |
-			item := anItem category allButFirst asLowercase.
+			item := anItem protocol allButFirst asLowercase.
 			((item = package name asLowercase) or: 
 				[ (item beginsWith: package name asLowercase) and: [( item at: (package name size +1)) =$-]])
 				ifFalse: [ result := selector asMorph color: self model extensionColor ; yourself ]]

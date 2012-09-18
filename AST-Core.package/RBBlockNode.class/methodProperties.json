@@ -4,6 +4,7 @@
 		"body:" : "" },
 	"instance" : {
 		"=" : "",
+		"accept:" : "CamilloBruni 2/3/2012 16:33",
 		"acceptVisitor:" : "",
 		"allArgumentVariables" : "",
 		"allDefinedVariables" : "",
@@ -38,5 +39,8 @@
 		"right:" : "lr 2/12/2010 19:25",
 		"startWithoutParentheses" : "",
 		"statementComments" : "",
+		"statements" : "CamilloBruni 2/3/2012 16:43",
 		"stopWithoutParentheses" : "",
+		"temporaries" : "CamilloBruni 2/3/2012 17:18",
+		"temporaryNames" : "CamilloBruni 12/8/2011 15:17",
 		"uses:" : "" } }

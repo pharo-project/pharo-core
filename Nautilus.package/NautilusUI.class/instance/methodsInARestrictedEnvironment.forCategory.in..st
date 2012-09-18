@@ -6,5 +6,5 @@ methodsInARestrictedEnvironment: env forCategory: aCategory  in: class
 		ifTrue: [ ^ class methods asOrderedCollection select: [:e | env includesSelector: e selector in: class ]].
 	selectors := env selectorsFor: aCategory in: class.
 	mthds := OrderedCollection new.
-	selectors do: [:s | mthds add: (class methodDict at: s) ].
+	selectors do: [:s | mthds add: (class compiledMethodAt: s) ].
 	^ mthds

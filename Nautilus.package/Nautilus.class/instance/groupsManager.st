@@ -1,4 +1,4 @@
 accessing
 groupsManager
 	
-	^ self class groupsManager
+	^ self class groupsManagerFrom: self

@@ -3,6 +3,7 @@
 		"statements:" : "ajh 3/4/2003 02:03" },
 	"instance" : {
 		"=" : "lr 11/1/2009 18:36",
+		"accept:" : "CamilloBruni 2/3/2012 16:32",
 		"acceptVisitor:" : "ajh 3/17/2003 00:25",
 		"addNode:" : "lr 1/4/2012 21:40",
 		"addNode:before:" : "lr 1/4/2012 21:40",

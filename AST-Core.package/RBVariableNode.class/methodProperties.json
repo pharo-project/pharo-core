@@ -1,9 +1,11 @@
 {
 	"class" : {
-		"identifierToken:" : "",
-		"named:" : "" },
+		"identifierToken:" : "CamilloBruni 7/12/2012 16:50",
+		"named:" : "",
+		"withToken:" : "CamilloBruni 12/5/2011 19:19" },
 	"instance" : {
 		"=" : "",
+		"accept:" : "CamilloBruni 2/3/2012 16:35",
 		"acceptVisitor:" : "",
 		"copyInContext:" : "lr 11/24/2009 23:43",
 		"equalTo:withMapping:" : "",
@@ -13,7 +15,7 @@
 		"isRead" : "TestRunner 11/2/2009 21:18",
 		"isVariable" : "",
 		"isWrite" : "TestRunner 11/2/2009 21:21",
-		"name" : "",
+		"name" : "CamilloBruni 2/6/2012 14:05",
 		"needsParenthesis" : "",
 		"precedence" : "",
 		"references:" : "",

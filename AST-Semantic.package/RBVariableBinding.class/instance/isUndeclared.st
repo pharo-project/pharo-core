@@ -1,0 +1,3 @@
+testing
+isUndeclared
+	^ self isUndeclaredBinding

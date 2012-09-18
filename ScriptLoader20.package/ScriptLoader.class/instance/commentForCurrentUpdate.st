@@ -1,12 +1,16 @@
 public
 commentForCurrentUpdate
- ^ '
-Issue 6658:	Include the RB Tests. 
-How could we live without them? Thanks Camillo Bruni.
-	http://code.google.com/p/pharo/issues/detail?id=6658
+ ^ '- Issue 6668:	MCSmalltalkhubRepository + speedup. Thanks Camillo Bruni. 
+	http://code.google.com/p/pharo/issues/detail?id=6668
+
+-  Issue 6641:	Rename fullPath to absolutePath.
+	http://code.google.com/p/pharo/issues/detail?id=6641
 	
-Issue 6363:	Format command (linked to Ctrl+r). Thanks Thierry Goubier and Benjamin Van Ryseghem.
-	http://code.google.com/p/pharo/issues/detail?id=6363
+- Issue 6628:	Nautilus memory leak (from Igor "lazy ass" Stasenko).
+	Thanks Benjamin Van Ryseghem and Igor Stasenko.
+	http://code.google.com/p/pharo/issues/detail?id=6628
+
+-  Issue 6479:	RB AST Improvements. Thanks Camillo Bruni.
+	http://code.google.com/p/pharo/issues/detail?id=6479
 	
-Issue 6667:	Nautilus Improvement. Thanks Camillo Bruni.
-	http://code.google.com/p/pharo/issues/detail?id=6667'
+	'

@@ -5,6 +5,5 @@ httpClient
 	^ ZnClient new
 		systemPolicy;
 		beOneShot;
-		signalProgress: true;
 		username: self user password: self password;
 		yourself

@@ -1,0 +1,3 @@
+interface
+parseFileNamesFromStream: aNewLineDelimitedString
+	^ aNewLineDelimitedString subStrings: String crlf

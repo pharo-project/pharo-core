@@ -1,3 +1,3 @@
 accessing
 name
-	^token value
+	^token value asSymbol

@@ -1,0 +1,3 @@
+testing
+isLiteral
+	^ self isLiteralBinding

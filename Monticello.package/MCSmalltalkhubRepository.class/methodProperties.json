@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"creationTemplate" : "CamilloBruni 9/14/2012 17:15",
+		"creationTemplateOwner:project:user:password:" : "CamilloBruni 9/14/2012 17:23",
+		"description" : "CamilloBruni 9/14/2012 16:38",
+		"owner:project:user:password:" : "CamilloBruni 9/14/2012 17:22" },
+	"instance" : {
+		"asCreationTemplate" : "CamilloBruni 9/14/2012 17:20",
+		"includesFileNamed:" : "CamilloBruni 9/14/2012 17:11",
+		"includesVersionNamed:" : "CamilloBruni 9/14/2012 16:37",
+		"loadAllFileNames" : "CamilloBruni 9/14/2012 17:25",
+		"location" : "CamilloBruni 9/14/2012 17:25",
+		"locationWithTrailingSlash" : "CamilloBruni 9/14/2012 17:24",
+		"owner" : "CamilloBruni 9/14/2012 17:21",
+		"owner:" : "CamilloBruni 9/14/2012 17:21",
+		"parseFileNamesFromStream:" : "CamilloBruni 9/14/2012 17:00",
+		"project" : "CamilloBruni 9/14/2012 17:21",
+		"project:" : "CamilloBruni 9/14/2012 17:21" } }
