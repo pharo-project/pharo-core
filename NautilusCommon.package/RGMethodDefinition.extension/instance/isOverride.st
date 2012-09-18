@@ -1,7 +1,8 @@
 *NautilusCommon
 isOverride
-	
-	self methodClass allSuperclasses do: [:each | 
-		(each selectors includes: self selector)
-			ifTrue: [ ^true ]].
+	| selector |
+	selector := self selector.
+	self methodClass allSuperclassesDo: [:each | 
+		(each includesSelector: selector)
+			ifTrue: [ ^ true ]].
 	^ false

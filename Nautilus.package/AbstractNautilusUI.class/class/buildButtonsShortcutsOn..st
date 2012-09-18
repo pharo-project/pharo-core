@@ -1,6 +1,6 @@
 shortcuts
 buildButtonsShortcutsOn: aBuilder
-<keymap>
+	<keymap>
 
 	(aBuilder shortcut: #showPackage)
 		category: #NautilusGlobalShortcuts
@@ -18,22 +18,22 @@ buildButtonsShortcutsOn: aBuilder
 		category: #NautilusGlobalShortcuts
 		default: $t command  ,$i command 
 		do: [ :target | target showInstance: true ]
-		description: 'Find a class'.
+		description: 'Show instance side'.
 
 	(aBuilder shortcut: #showClassSide)
 		category: #NautilusGlobalShortcuts
 		default: $t command  ,$c command 
 		do: [ :target | target showInstance: false ]
-		description: 'Find a class'.
+		description: 'Show class side'.
 
 	(aBuilder shortcut: #showHierarchy)
 		category: #NautilusGlobalShortcuts
 		default: $t command  ,$h command 
 		do: [ :target | target showPackages: false ]
-		description: 'Find a class'.
+		description: 'Show Hierarchy'.
 		
 	(aBuilder shortcut: #showFlat)
 		category: #NautilusGlobalShortcuts
 		default: $t command  ,$f command 
 		do: [ :target | target showPackages: true ]
-		description: 'Find a class'.
+		description: 'Show normal view'.

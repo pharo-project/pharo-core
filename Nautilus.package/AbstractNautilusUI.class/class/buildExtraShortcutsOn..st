@@ -1,17 +1,11 @@
 shortcuts
 buildExtraShortcutsOn: aBuilder
-<keymap>
+	<keymap>
 
 	(aBuilder shortcut: #openBrowser)
 		category: #NautilusGlobalShortcuts
 		default: $o command 
-		do: [ Smalltalk tools browser open ]
-		description: 'Open a new browser'.
-		
-	(aBuilder shortcut: #openBrowser)
-		category: #NautilusGlobalShortcuts
-		default: $o command 
-		do: [ Smalltalk tools browser open ]
+		do: [:target| target fullBrowse ]
 		description: 'Open a new browser'.
 		
 	

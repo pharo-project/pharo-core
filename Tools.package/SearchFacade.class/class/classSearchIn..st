@@ -1,10 +1,7 @@
 class search
-classSearchIn: anEnvironment
-	| rawList |
-	
-	rawList := anEnvironment allClassesAndTraits sorted: [:a :b | a name < b name ].
+classSearchIn: classes
 	^ ListDialogWindow new
-				getList: [ :r| rawList select: [:e | r search: e name ]];
-				displayBlock: [:e | e name ];
-				title: 'Class search';
-				yourself.
+			getList: [ :r| classes select: [:e | r search: e name ]];
+			displayBlock: [:e | e name ];
+			title: 'Class search';
+			yourself.

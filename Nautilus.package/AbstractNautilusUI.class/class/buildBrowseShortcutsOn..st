@@ -19,13 +19,38 @@ buildBrowseShortcutsOn: aBuilder
 		default: $b command , $m command 
 		do: [:target | target browseMessages ]
 		description: 'Browse implementors of the selected method'.
-	
+		
 	(aBuilder shortcut: #browseRestricted)
 		category: #NautilusGlobalShortcuts
-		default: $b command , $s command 
+		default: $b command , $s command
 		do: [:target | target restrictedBrowse ]
 		description: 'Open a restricted browser'.
+	
+	(aBuilder shortcut: #browseRestrictedClass)
+		category: #NautilusGlobalShortcuts
+		default: $b command , $r command , $c command
+		do: [:target | target restrictedBrowseClass ]
+		description: 'Open a restricted browser on the selected class'.
 		
+	(aBuilder shortcut: #browseRestrictedPackage)
+		category: #NautilusGlobalShortcuts
+		default: $b command , $r command , $p command
+		do: [:target | target restrictedBrowsePackage ]
+		description: 'Open a restricted browser on the selected package'.
+		
+	(aBuilder shortcut: #browseRestrictedSuperclasses)
+		category: #NautilusGlobalShortcuts
+		default: $b command , $r command , $S shift command
+		do: [:target | target restrictedBrowseSuperclasses ]
+		description: 'Open a restricted browser the superclasses'.
+		
+	(aBuilder shortcut: #browseRestrictedSubclasses)
+		category: #NautilusGlobalShortcuts
+		default: $b command , $r command , $s command
+		do: [:target | target restrictedBrowseSubclasses ]
+		description: 'Open a restricted browser the subclasses'.
+		
+	
 	(aBuilder shortcut: #browseInheritance)
 		category: #NautilusGlobalShortcuts
 		default: $b command , $i command 

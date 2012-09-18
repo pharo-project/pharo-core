@@ -23,7 +23,7 @@ buildList
 				getMenuSelector: #menu:shifted:;
 				beMultipleSelection;
 				
-				getListElementSelector: #listElement:.
+				basicGetListElementSelector: #listElement:.
 				
 	self setGlobalShorcutsTo: list.
 	

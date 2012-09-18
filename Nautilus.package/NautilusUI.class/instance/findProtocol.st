@@ -5,6 +5,7 @@ findProtocol
 	| foundProtocol class |
 	
 	class := self selectedClass.
+	class ifNil: [ ^ self ].
 	self okToChange ifFalse: [^ self flashPackage ].
 
 	foundProtocol := (SearchFacade protocolSearchFor: class) chooseFromOwner: self window.

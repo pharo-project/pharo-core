@@ -20,6 +20,6 @@ buildMethodsList
 						getMenuSelector: #elementsMenu:shifted:;
 						beMultipleSelection;
 						
-						getListElementSelector: #getMethodItem:;
+						basicGetListElementSelector: #getMethodItem:;
 						
 						attachKeymapCategory: #NautilusGlobalShortcuts targetting: self model.

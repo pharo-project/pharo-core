@@ -22,4 +22,5 @@ buildCategoriesList
 							beMultipleSelection;
 							
 							getListElementSelector: #getCategoryItem:;
-							attachKeymapCategory: #NautilusGlobalShortcuts targetting: self model.
+							attachKeymapCategory: #NautilusGlobalShortcuts targetting: self model;
+							changed
