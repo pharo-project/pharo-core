@@ -8,4 +8,6 @@
 		"guessTypeForName:" : "BenjaminVanRyseghem 9/12/2012 14:31",
 		"guessTypeForNameFromOCompletion:" : "",
 		"hasBindingOf:" : "bar 12/16/2004 11:24",
-		"hasBindingThatBeginsWith:" : "bar 12/16/2004 11:26" } }
+		"hasBindingThatBeginsWith:" : "bar 12/16/2004 11:26",
+		"isCodeCompletionAllowed" : "MarcusDenker 9/18/2012 13:32",
+		"selectedClassOrMetaClass" : "MarcusDenker 9/18/2012 13:34" } }
