@@ -2,6 +2,8 @@
 	"class" : {
 		"named:" : "EstebanLorenzano 9/11/2012 15:45" },
 	"instance" : {
+		"category:matches:" : "CamilloBruni 9/14/2012 00:29",
+		"changeRecordForOverriddenMethod:" : "CamilloBruni 9/14/2012 00:28",
 		"classes" : "EstebanLorenzano 9/11/2012 17:45",
 		"classesAndMetaClasses" : "EstebanLorenzano 9/11/2012 15:43",
 		"collectFromAllPackages:" : "EstebanLorenzano 9/12/2012 11:04",
@@ -11,9 +13,13 @@
 		"extensionClasses" : "EstebanLorenzano 9/11/2012 15:44",
 		"extensionMethods" : "EstebanLorenzano 9/12/2012 11:07",
 		"includesClass:" : "EstebanLorenzano 9/11/2012 15:44",
+		"includesMethodCategory:ofClass:" : "CamilloBruni 9/14/2012 00:33",
 		"includesMethodReference:" : "EstebanLorenzano 9/11/2012 15:44",
 		"includesSystemCategory:" : "EstebanLorenzano 9/11/2012 15:44",
 		"initialize:" : "EstebanLorenzano 9/11/2012 15:44",
+		"isForeignClassExtension:" : "CamilloBruni 9/14/2012 00:29",
+		"isYourClassExtension:" : "CamilloBruni 9/14/2012 00:28",
+		"methodCategoryPrefix" : "CamilloBruni 9/14/2012 00:29",
 		"methods" : "EstebanLorenzano 9/11/2012 18:32",
 		"overriddenMethods" : "EstebanLorenzano 9/11/2012 15:45",
 		"packageName" : "EstebanLorenzano 9/11/2012 15:45",

@@ -2,4 +2,5 @@ initialization
 initialize
 	super initialize.
 	packages := MCWorkingCopy allManagers
-		collect: [ :each | each packageInfo ]
+		inject: #()
+		into: [ :all :each | all, (each packageSet packages) ]

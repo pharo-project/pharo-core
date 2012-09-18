@@ -1,5 +1,5 @@
 actions
 recompilePackage
-	workingCopy package packageInfo methods
+	workingCopy package packageSet methods
 		do: [:ea | ea actualClass recompile: ea selector]
 		displayingProgress: 'Recompiling...'

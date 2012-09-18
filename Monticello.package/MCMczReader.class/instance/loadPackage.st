@@ -1,4 +1,4 @@
-as yet unclassified
+loading
 loadPackage
 	| dict |
 	dict := self parseMember: 'package'.

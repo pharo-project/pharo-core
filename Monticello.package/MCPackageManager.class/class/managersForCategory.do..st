@@ -6,7 +6,7 @@ managersForCategory: aSystemCategory do: aBlock
 	cat := aSystemCategory ifNil:[^nil]. "yes this happens; for example in eToy projects"
 	"first ask PackageInfos, their package name might not match the category"
 	self registry do: [:mgr | 
-		(mgr packageInfo includesSystemCategory: aSystemCategory)	ifTrue: [
+		(mgr packageSet includesSystemCategory: aSystemCategory)	ifTrue: [
 			aBlock value: mgr.
 			foundOne := true.
 		]

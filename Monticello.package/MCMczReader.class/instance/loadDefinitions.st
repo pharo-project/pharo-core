@@ -1,4 +1,4 @@
-as yet unclassified
+loading
 loadDefinitions
 	definitions := OrderedCollection new.
 	(self zip memberNamed: 'snapshot.bin') ifNotNil:

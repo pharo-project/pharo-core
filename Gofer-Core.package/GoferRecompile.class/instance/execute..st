@@ -1,4 +1,4 @@
 running
 execute: aWorkingCopy
-	aWorkingCopy packageInfo methods
+	aWorkingCopy packageSet methods
 		do: [ :each | each actualClass recompile: each selector ]

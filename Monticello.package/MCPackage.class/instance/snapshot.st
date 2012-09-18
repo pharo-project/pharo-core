@@ -1,7 +1,7 @@
 accessing
 snapshot
 	| packageInfo definitions categories |
-	packageInfo := self packageInfo.
+	packageInfo := self packageSet.
 	definitions := OrderedCollection new.
 	categories := packageInfo systemCategories.
 	categories isEmpty 
