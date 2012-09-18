@@ -2,6 +2,7 @@ items creation
 buildList2
 
 	list2 := PluggableIconListMorph new
+				basicWrapSelector: #listWrapper2:;
 				keystrokeSelector: #keyPressedOnList2:shifted:;
 				getIconSelector: #listIcon2:;
 				getListSizeSelector: #listSize2;
@@ -23,8 +24,7 @@ buildList2
 				getMenuSelector: #menu2:shifted:;
 				beMultipleSelection;
 				
-				getListElementSelector: #listElement2:;
-				wrapSelector: #listWrapper2:.
+				getListElementSelector: #listElement2:.
 						
 	self setGlobalShorcutsTo:  list2.					
 						

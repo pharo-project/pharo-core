@@ -2,6 +2,7 @@ item creation
 buildCategoriesList
 
 	^ categoriesList := PluggableIconListMorph new
+							basicWrapSelector: #categoryWrapper:;
 							resetListSelector: #resetCategoriesListSelection;
 							keystrokeSelector: #keyPressedOnCategory:;
 							autoDeselect: true;
@@ -21,5 +22,4 @@ buildCategoriesList
 							beMultipleSelection;
 							
 							getListElementSelector: #getCategoryItem:;
-							attachKeymapCategory: #NautilusGlobalShortcuts targetting: self model;
-							wrapSelector: #categoryWrapper:.
+							attachKeymapCategory: #NautilusGlobalShortcuts targetting: self model.

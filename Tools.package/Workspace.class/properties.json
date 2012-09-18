@@ -13,9 +13,10 @@
 		"fileName",
 		"lineEnding",
 		"encoding",
-		"stylingActive" ],
+		"stylingActive",
+		"contents" ],
 	"name" : "Workspace",
 	"pools" : [
 		 ],
-	"super" : "StringHolder",
+	"super" : "Object",
 	"type" : "normal" }

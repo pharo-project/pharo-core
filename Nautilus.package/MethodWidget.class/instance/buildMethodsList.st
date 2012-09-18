@@ -2,6 +2,7 @@ item creation
 buildMethodsList
 	
 	^ methodsList :=  PluggableIconListMorph new
+						basicWrapSelector: #methodWrapper:;
 						keystrokeSelector: #keyPressedOnElement:; 
 						getIconSelector: #methodIconFor:;
 						resetListSelector: #resetMethodsListSelection;
@@ -21,5 +22,4 @@ buildMethodsList
 						
 						getListElementSelector: #getMethodItem:;
 						
-						attachKeymapCategory: #NautilusGlobalShortcuts targetting: self model;
-						wrapSelector: #methodWrapper:.
+						attachKeymapCategory: #NautilusGlobalShortcuts targetting: self model.

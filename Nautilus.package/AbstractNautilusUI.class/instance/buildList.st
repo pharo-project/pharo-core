@@ -2,7 +2,7 @@ items creation
 buildList
 
 	list := PluggableIconListMorph new
-				wrapSelector: #listWrapper:;
+				basicWrapSelector: #listWrapper:;
 				keystrokeSelector: #keyPressedOnList:shifted:;
 				getIconSelector: #listIcon:;
 				getListSizeSelector: #listSize;
