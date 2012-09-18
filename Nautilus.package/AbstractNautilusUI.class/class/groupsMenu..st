@@ -23,13 +23,13 @@ groupsMenu: aBuilder
 		ifFalse: [
 			target selectedGroup isReadOnly
 				ifFalse: [
-					(aBuilder item: #'Rename... (r)')
+					(aBuilder item: #'Rename... (r, g)')
 						action: [target renameGroup];
 						enabledBlock: [ target selectedGroups size <= 1];
 						order: 1300 ].
 			target selectedGroup removable
 				ifTrue: [
-					(aBuilder item: #'Remove groups (x)')
+					(aBuilder item: #'Remove groups (x, g)')
 						icon: (target iconClass iconNamed: #removeIcon);
 						action: [target removeGroups];
 						order: 1400 ]]

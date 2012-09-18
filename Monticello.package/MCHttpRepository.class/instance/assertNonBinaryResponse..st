@@ -1,6 +1,4 @@
 private
 assertNonBinaryResponse: response 
-	self 
-		assert: response contentType isBinary not 
-		description: 'Did not expect a binary response but got ', response contentType printString
-
+	
+	response contentType isBinary ifTrue: [ MCRepositoryError signal: 'Did not expect a binary response but got ', response contentType printString ].

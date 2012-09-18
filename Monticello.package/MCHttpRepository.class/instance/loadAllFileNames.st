@@ -3,7 +3,10 @@ loadAllFileNames
 	| client |
 	self displayProgress: 'Loading all file names from ', self description during: [
 		(client := self httpClient)
-			ifFail: [ :exception | self error: 'Could not access ', self location, ': ', exception printString ];
+			ifFail: [ :exception | 
+				(exception className beginsWith: 'Zn')
+					ifTrue: [ MCRepositoryError error: 'Could not access ', self location, ': ', exception printString ]
+					ifFalse: [ exception pass ] ];
 			url: self locationWithTrailingSlash;
 			queryAt: 'C' put: 'M;O=D';	"legacy that some servers maybe expect"
 			get.

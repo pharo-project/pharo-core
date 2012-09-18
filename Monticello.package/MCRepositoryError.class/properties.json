@@ -4,13 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		"packageName",
-		"user",
-		"password" ],
-	"name" : "MCSMReleaseRepository",
+		 ],
+	"name" : "MCRepositoryError",
 	"pools" : [
 		 ],
-	"super" : "MCWriteOnlyRepository",
+	"super" : "Error",
 	"type" : "normal" }
