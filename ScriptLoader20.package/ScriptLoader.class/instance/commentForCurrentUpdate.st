@@ -1,11 +1,4 @@
 public
 commentForCurrentUpdate
- ^ '-  Issue 6626:	[Nautilus] removing groups is not working properly. Thanks Benjamin Van Ryseghem. 
-	http://code.google.com/p/pharo/issues/detail?id=6626
-	
-- Issue 5103:	Better Gofer error messages. Thanks Sean De Nigris and Camillo Bruni.
-	http://code.google.com/p/pharo/issues/detail?id=5103
-
-- Issue 6673:	Remove squeakmap from MC repositories.
-	http://code.google.com/p/pharo/issues/detail?id=6673
-	'
+ ^ 'Issue 6620:	Fix testRemoveTaggedClasses bad reference
+	http://code.google.com/p/pharo/issues/detail?id=6620'

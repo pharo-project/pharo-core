@@ -1,0 +1,14 @@
+{
+	"category" : "NewClassOrganizer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TestClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

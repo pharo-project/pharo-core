@@ -1,0 +1,14 @@
+{
+	"category" : "AST-Tests-Semantic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ClassVar" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"instVar" ],
+	"name" : "RBSemanticTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

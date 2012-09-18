@@ -1,0 +1,14 @@
+{
+	"category" : "Refactoring-Tests-Spelling",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RBSpellingResource",
+	"pools" : [
+		 ],
+	"super" : "TestResource",
+	"type" : "normal" }

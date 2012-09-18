@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testBasicLintRuleTypes" : "lr 10/5/2010 16:14",
+		"testCompositeLintRuleTypes" : "lr 10/5/2010 16:14",
+		"testLintRuleTypes" : "lr 10/5/2010 16:14",
+		"testParseTreeTypes" : "lr 10/5/2010 16:14" } }

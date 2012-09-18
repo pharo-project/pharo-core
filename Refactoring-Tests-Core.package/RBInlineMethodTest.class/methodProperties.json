@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testBadInterval" : "lr 9/8/2011 20:11",
+		"testInlineMethod" : "lr 9/8/2011 20:11",
+		"testInlineMethod1" : "lr 9/8/2011 20:11",
+		"testInlineMethod2" : "lr 9/8/2011 20:11",
+		"testInlineMethod3" : "lr 9/8/2011 20:11",
+		"testInlineMethod4" : "lr 9/8/2011 20:11",
+		"testInlineMethod5" : "lr 9/8/2011 20:11",
+		"testInlineMethodForSuperSend" : "lr 9/8/2011 20:11",
+		"testInlineMethodForSuperSendThatAlsoSendsSuper" : "lr 9/8/2011 20:11",
+		"testInlineRecursiveCascadedMethod" : "lr 9/8/2011 20:11",
+		"testModelInlineRecursiveMethod" : "lr 9/8/2011 20:11",
+		"testNonExistantSelector" : "lr 9/8/2011 20:11",
+		"testOverriden" : "lr 9/8/2011 20:11",
+		"testPrimitive" : "lr 9/8/2011 20:11",
+		"testReturn" : "lr 9/8/2011 20:11" } }

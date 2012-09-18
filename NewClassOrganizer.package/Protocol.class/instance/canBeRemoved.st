@@ -1,0 +1,4 @@
+private
+canBeRemoved
+	
+	^ true

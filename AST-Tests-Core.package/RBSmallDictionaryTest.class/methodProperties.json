@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "lr 12/29/2009 12:54",
+		"testAtError" : "lr 12/29/2009 12:56",
+		"testAtIfAbsent" : "lr 12/29/2009 12:56",
+		"testAtPut" : "lr 12/29/2009 13:02",
+		"testCopy" : "lr 12/29/2009 13:08",
+		"testEmpty" : "lr 12/29/2009 13:01",
+		"testIncludesKey" : "lr 12/29/2009 12:56",
+		"testKeys" : "lr 12/29/2009 13:05",
+		"testKeysAndValuesDo" : "lr 12/29/2009 13:04",
+		"testKeysDo" : "lr 12/29/2009 13:05",
+		"testRemoveKey" : "lr 12/29/2009 12:59",
+		"testRemoveKeyIfAbsent" : "lr 12/29/2009 13:00",
+		"testValues" : "lr 12/29/2009 13:05",
+		"testValuesDo" : "lr 12/29/2009 13:04" } }

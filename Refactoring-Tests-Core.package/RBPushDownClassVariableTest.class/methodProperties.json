@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testModelNonExistantName" : "lr 9/8/2011 20:11",
+		"testModelPushDownToMultipleSubclassesFailure" : "lr 9/8/2011 20:11",
+		"testModelPushDownVariable" : "lr 9/8/2011 20:11",
+		"testModelPushDownVariableToClassDownTwoLevels" : "lr 9/8/2011 20:11",
+		"testModelPushDownVariableToMultipleClassesInSameHierarchy" : "lr 9/8/2011 20:11",
+		"testModelRemoveUnusedVariable" : "lr 9/8/2011 20:11",
+		"testNonExistantName" : "lr 9/8/2011 20:11",
+		"testPushDownClassVariable" : "lr 9/8/2011 20:11" } }

@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "md 7/25/2005 15:17",
+		"testAddClass" : "lr 9/8/2011 20:11",
+		"testExistingName" : "lr 9/8/2011 20:11",
+		"testInvalidSubclass" : "lr 9/8/2011 20:11",
+		"testMetaClassFailure" : "lr 9/8/2011 20:11",
+		"testModelAddClass" : "lr 9/8/2011 20:11",
+		"testModelExistingName" : "lr 9/8/2011 20:11",
+		"testModelInvalidSubclass" : "lr 9/8/2011 20:11" } }

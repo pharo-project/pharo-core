@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "md 7/25/2005 15:17",
+		"testNonExistantName" : "lr 9/8/2011 20:11",
+		"testRedefinedTemporary" : "lr 9/8/2011 20:11",
+		"testTemporaryToInstanceVariable" : "lr 9/8/2011 20:11" } }

@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAlreadyExistingName" : "lr 9/8/2011 20:11",
+		"testMetaClassFailure" : "lr 9/8/2011 20:11",
+		"testNonExistantName" : "lr 9/8/2011 20:11",
+		"testRenameClassVar" : "lr 9/8/2011 20:11" } }

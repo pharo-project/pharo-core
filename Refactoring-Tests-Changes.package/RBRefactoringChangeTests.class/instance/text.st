@@ -1,0 +1,3 @@
+mocking
+text
+	^ String new

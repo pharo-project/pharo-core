@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testModelRemoveInstanceVariable" : "lr 9/8/2011 20:11",
+		"testNonExistantName" : "lr 9/8/2011 20:11",
+		"testReferencedVariable" : "lr 9/8/2011 20:11",
+		"testRemoveInstVar" : "lr 9/8/2011 20:11" } }

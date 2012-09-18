@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"cVar" : "cwp 8/10/2003 02:31",
+		"initializationOrder" : "10/14/2010 15:41",
+		"initialize" : "pavel.krivanek 10/14/2010 16:21",
+		"one" : "ab 7/7/2003 23:21",
+		"touchCVar" : "stephaneducasse 2/4/2006 20:47" },
+	"instance" : {
+		"a" : "GuillermoPolito 8/24/2012 15:29",
+		"b" : "GuillermoPolito 8/24/2012 15:29",
+		"c" : "",
+		"d" : "GuillermoPolito 8/24/2012 15:31",
+		"falsehood" : "cwp 7/13/2003 02:49",
+		"moreTruth" : "ab 7/7/2003 23:21",
+		"one" : "GuillermoPolito 8/24/2012 15:22",
+		"q" : "avi 9/23/2003 17:14",
+		"truth" : "GuillermoPolito 8/24/2012 15:31",
+		"two" : "GuillermoPolito 8/24/2012 15:28" } }

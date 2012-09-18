@@ -21,7 +21,7 @@ testRemoveTaggedClasses
 	self assert: ((p1 classesForClassTag: #foo) size = 1).
 	
 	"from a nonexisting tag list"
-	self shouldnt: [p1 removeClassDefinitionName: B1DefinedInP1 fromClassTag: #taz] raise: Error.
+	self shouldnt: [p1 removeClassDefinitionName: #B1DefinedInP1 fromClassTag: #taz] raise: Error.
 	self assert: (((p1 classesForClassTag: #foo) collect: #name) includes: #B1DefinedInP1).
 	self assert: (((p1 classesForClassTag: #zork) collect: #name) includes: #B1DefinedInP1).
 	

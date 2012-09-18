@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "md 7/25/2005 15:17",
+		"testAddInstanceVariable" : "lr 9/8/2011 20:11",
+		"testAddToModel" : "lr 9/8/2011 20:11",
+		"testAlreadyExistingName" : "lr 9/8/2011 20:11",
+		"testModelAlreadyExistingName" : "lr 9/8/2011 20:11",
+		"testModelMetaclassAlreadyExistingName" : "lr 9/8/2011 20:11",
+		"testNewExistingName" : "lr 9/8/2011 20:11",
+		"testNewHierarchyExistingName" : "lr 9/8/2011 20:11" } }

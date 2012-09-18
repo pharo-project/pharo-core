@@ -1,0 +1,17 @@
+{
+	"category" : "NewClassOrganizer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"comment",
+		"commentStamp",
+		"protocolOrganizer",
+		"organizedClass" ],
+	"name" : "ClassOrganization",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

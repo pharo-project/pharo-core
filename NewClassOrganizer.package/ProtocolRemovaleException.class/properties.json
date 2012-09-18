@@ -1,0 +1,14 @@
+{
+	"category" : "NewClassOrganizer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ProtocolRemovaleException",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+data
+nullCategory
+
+	^ 'no method'

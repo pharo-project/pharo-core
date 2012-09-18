@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "md 7/25/2005 15:17",
+		"testExistingInstanceVariableAccessors" : "lr 9/8/2011 20:11",
+		"testNewClassVariableAccessors" : "lr 9/8/2011 20:11",
+		"testNewInstanceVariableAccessors" : "lr 9/8/2011 20:11",
+		"testNonExistantName" : "lr 9/8/2011 20:11" } }
