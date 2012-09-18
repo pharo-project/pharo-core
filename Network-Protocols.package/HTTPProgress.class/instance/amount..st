@@ -1,5 +1,5 @@
 accessing
-amount: anObject
-	"Set the value of amount"
+amount: byteCount
+	"Set the amount of bytes that has already been transferred."
 
-	amount := anObject
+	amount := byteCount

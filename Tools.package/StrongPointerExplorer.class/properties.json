@@ -1,15 +1,14 @@
 {
-	"category" : "Network-Protocols",
+	"category" : "Tools-Explorer",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"total",
-		"amount" ],
-	"name" : "HTTPProgress",
+		 ],
+	"name" : "StrongPointerExplorer",
 	"pools" : [
 		 ],
-	"super" : "Notification",
+	"super" : "PointerExplorer",
 	"type" : "normal" }

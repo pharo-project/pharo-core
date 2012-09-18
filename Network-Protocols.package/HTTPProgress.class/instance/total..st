@@ -1,5 +1,5 @@
 accessing
-total: anObject
-	"Set the value of total"
+total: byteCount
+	"Set the total byte count to transfer"
 
-	total := anObject
+	total := byteCount

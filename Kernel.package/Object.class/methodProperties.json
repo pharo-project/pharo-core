@@ -195,6 +195,7 @@
 		"perform:withArguments:" : "di 3/26/1999 07:55",
 		"perform:withArguments:inSuperclass:" : "ar 4/25/2005 13:35",
 		"perform:withEnoughArguments:" : "nk 4/11/2002 14:13",
+		"pointsOnlyWeaklyTo:" : "IgorStasenko 9/2/2012 02:24",
 		"postCopy" : "MarianoMartinezPeck 8/24/2012 15:58",
 		"primitiveChangeClassTo:" : "ar 3/2/2001 01:34",
 		"primitiveFail" : "StephaneDucasse 12/5/2009 21:06",
