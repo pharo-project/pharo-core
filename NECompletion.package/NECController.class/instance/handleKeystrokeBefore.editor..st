@@ -3,6 +3,8 @@ handleKeystrokeBefore: aKeyboardEvent editor: anEditor
 	"I return a boolean. 
 	true when I have handled the event and no futher processing is needed by the caller."
 	| keyValue controlKeyPressed isSpaceKey |
+	self flag: 'XXX this method should be split up'.
+	
 	self setEditor: anEditor.
 	self setModel: editor model.
 	
@@ -15,33 +17,30 @@ handleKeystrokeBefore: aKeyboardEvent editor: anEditor
 		ifFalse: [ ^ self handleKeystrokeWithoutMenu: aKeyboardEvent ].
 	
 	"Home"
-	keyValue = 1
+	(keyValue = 1 and: [ self captureNavigationKeys ])
 		ifTrue: [
 			menuMorph home.
 			^ true].
 	"End"
-	(keyValue = 4 and: [controlKeyPressed not])
+	(keyValue = 4 and: [controlKeyPressed not and: [ self captureNavigationKeys ]]) 
 		ifTrue: [
 			menuMorph end. 
 			^ true].
 	"Right-Arrow"
-	keyValue = 29
+	(keyValue = 29 and: [ self captureNavigationKeys ])
 		ifTrue: [
 			menuMorph showDetail.
 			^ true].
 	"Left Arrow"
-	keyValue = 28
-		ifTrue: [
-			menuMorph hideDetail.
-			^ true].
-		
+	(keyValue = 28 and: [ self captureNavigationKeys ])
+		ifTrue: [ ^ self leftArrow ].
 	"Arrow up"
-	keyValue = 30
+	(keyValue = 30)
 		ifTrue: [
 			menuMorph moveUp.
 			^ true].
 	"Arrow down"
-	keyValue = 31
+	(keyValue = 31)
 		ifTrue: [
 			menuMorph moveDown.
 			^ true].
@@ -55,8 +54,13 @@ handleKeystrokeBefore: aKeyboardEvent editor: anEditor
 		ifTrue: [
 			menuMorph pageDown.
 			^ true].
-	"Ctrl-Space or Enter"
-	(keyValue = 13 or: [isSpaceKey & controlKeyPressed])
+	"Enter"
+	(keyValue = 13 and: [ NECPreferences useEnterToAccept])
+		ifTrue: [
+			menuMorph insertSelected
+				ifTrue: [^ true]].
+	"Ctrl-Space"
+	(isSpaceKey & controlKeyPressed)
 		ifTrue: [
 			menuMorph insertSelected
 				ifTrue: [^ true]].
@@ -68,9 +72,7 @@ handleKeystrokeBefore: aKeyboardEvent editor: anEditor
 					ifTrue: [^ true]]
 			ifTrue: [
 				menuMorph insertCommonPrefix
-					ifTrue: [
-						self openMenu.
-						^ true ]]].
+					ifTrue: [ ^ true ]]].
 	"Ctrl-h"
 	(keyValue = 104 and: [ aKeyboardEvent commandKeyPressed ]) ifTrue: [ 
 		menuMorph help.

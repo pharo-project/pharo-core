@@ -5,13 +5,13 @@ createTitle
 	
 	titleStringMorph := StringMorph new.
 	titleStringMorph 
-		font: self class titleFont; 
-		contents: titleString.
-	
+		contents: titleString;
+		font: self class messageFont.
+		
 	transformationMorph := TransformationMorph new.
 	transformationMorph rotationDegrees: -90.0;
-		smoothingOn;
-		offset: 0 @ (titleStringMorph width negated - 10);
+		offset: self position negated - (0 @ (titleStringMorph width + 12));
 		addMorph: titleStringMorph.
 
-	self addMorph: transformationMorph
+	self addMorph: transformationMorph.
+	self resize.

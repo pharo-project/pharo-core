@@ -6,7 +6,9 @@
 		"smartCharacters",
 		"smartCharactersMapping",
 		"backgroundColor",
-		"expandPrefixes" ],
+		"expandPrefixes",
+		"captureNavigationKeys",
+		"useEnterToAccept" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

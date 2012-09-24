@@ -1,5 +1,5 @@
 accessing
-commonPrefix 
+commonPrefix
 	| prefix match |
 	prefix := self entries first contents asString.
 	match := prefix size.

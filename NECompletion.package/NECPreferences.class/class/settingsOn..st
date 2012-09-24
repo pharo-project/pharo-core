@@ -24,7 +24,13 @@ settingsOn: aBuilder
 				label: 'Background Color' translated.	
 			(aBuilder setting: #expandPrefixes)
 				target: self;
-				label: 'Complete common prefixes using TAB in the suggested completions' translated.	
+				label: 'Complete common prefixes using TAB in the suggested completions' translated.
+			(aBuilder setting: #useEnterToAccept)
+				target: self;
+				label: 'Use ENTER to accept a suggested completion' translated.	
+			(aBuilder setting: #captureNavigationKeys)
+				target: self;
+				label: 'Use navigation keys for extended completion functionality' translated.	
 			(aBuilder setting: #caseSensitive) 
 				label: 'Case Sensitive';
 		 		description: 'Decide if you want eCompletion to be case sensitive or not.'.

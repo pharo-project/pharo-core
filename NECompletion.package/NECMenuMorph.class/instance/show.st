@@ -1,11 +1,6 @@
-drawing
+actions
 show
-	| extent height |
-	firstVisible := 1.
-	height := self visibleItemsCount * self class itemHeight.
-	pageHeight := self height asInteger.
-	self hasMessage ifTrue: [ height := height + self class itemHeight ].
-	titleStringMorph ifNotNil: [ height := height max: titleStringMorph width + 30 ].
-	extent := self class itemWidth @ height.
-	self extent: extent.
-	self changed
+	self resize.
+	self activeHand 
+		newMouseFocus: self.
+	self changed.

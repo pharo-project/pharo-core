@@ -8,5 +8,4 @@ insertCommonPrefix
 	"if there is no common prefix or the prefix is smaller than the token abort"
 	(prefix isNil or: [ context completionToken beginsWith: prefix ]) ifTrue: [ ^ false ].
 	self insertCompletion: prefix.
-	self delete.
 	^ true
