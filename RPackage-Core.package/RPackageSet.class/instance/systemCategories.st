@@ -1,4 +1,4 @@
 system compatibility
 systemCategories
-	^(self collectFromAllPackages: #systemCategories) asSet asArray.
+	^systemCategories ifNil: [ systemCategories := (self collectFromAllPackages: #systemCategories) asSet asArray].
 	

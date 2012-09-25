@@ -1,3 +1,3 @@
 system compatibility
 extensionClasses
-	^self collectFromAllPackages: #extensionClasses
+	^extensionClasses ifNil: [ extensionClasses := self collectFromAllPackages: #extensionClasses ]

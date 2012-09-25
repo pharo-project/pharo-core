@@ -7,7 +7,15 @@
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		"packageName",
-		"packages" ],
+		"packages",
+		"classes",
+		"definedClasses",
+		"extensionMethods",
+		"methods",
+		"classesAndMetaClasses",
+		"extensionClasses",
+		"systemCategories",
+		"overriddenMethods" ],
 	"name" : "RPackageSet",
 	"pools" : [
 		 ],

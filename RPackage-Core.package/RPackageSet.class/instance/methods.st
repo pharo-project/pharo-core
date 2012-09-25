@@ -1,3 +1,3 @@
 accessing
 methods
-	^(self collectFromAllPackages: #methods) collect: #asRingDefinition
+	^methods ifNil: [ methods := (self collectFromAllPackages: #methods) collect: #asRingDefinition ]

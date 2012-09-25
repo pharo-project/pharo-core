@@ -1,3 +1,3 @@
 accessing
 classes
-	^self collectFromAllPackages: #definedClasses
+	^classes ifNil: [ classes := self collectFromAllPackages: #definedClasses ]

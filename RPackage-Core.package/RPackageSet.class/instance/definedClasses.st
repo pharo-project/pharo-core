@@ -1,3 +1,3 @@
 accessing
 definedClasses
-	^self collectFromAllPackages: #definedClasses
+	^definedClasses ifNil: [ definedClasses := self collectFromAllPackages: #definedClasses ]

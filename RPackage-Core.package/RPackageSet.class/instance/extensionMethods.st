@@ -1,4 +1,4 @@
 accessing
 extensionMethods
-	^((self collectFromAllPackages: #extensionMethods) collect: #asRingDefinition)
-		asSet asArray
+	^extensionMethods ifNil: [
+		extensionMethods := ((self collectFromAllPackages: #extensionMethods) collect: #asRingDefinition) asSet asArray ]

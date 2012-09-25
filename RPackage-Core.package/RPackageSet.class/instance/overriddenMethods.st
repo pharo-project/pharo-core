@@ -1,3 +1,3 @@
 system compatibility
 overriddenMethods
-	^self collectFromAllPackages: #overriddenMethods
+	^overriddenMethods ifNil: [ overriddenMethods := self collectFromAllPackages: #overriddenMethods ]
