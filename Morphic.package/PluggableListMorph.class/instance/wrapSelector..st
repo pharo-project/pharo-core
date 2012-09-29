@@ -1,5 +1,5 @@
 accessing
 wrapSelector: aSymbol
 
-	self basicWrapSelector: aSymbol.
+	wrapSelector := aSymbol.
 	self updateList.

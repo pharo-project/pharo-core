@@ -14,9 +14,7 @@
 		"backgroundColorFor:" : "BenjaminVanRyseghem 1/22/2012 13:38",
 		"backgroundColoringBlockOrSelector" : "BenjaminVanRyseghem 9/16/2011 16:46",
 		"backgroundColoringBlockOrSelector:" : "CamilloBruni 9/16/2011 16:34",
-		"basicGetListElementSelector:" : "CamilloBruni 9/14/2012 00:42",
 		"basicKeyPressed:" : "BenjaminVanRyseghem 5/7/2012 14:39",
-		"basicWrapSelector:" : "CamilloBruni 9/13/2012 14:33",
 		"beMultipleSelection" : "BenjaminVanRyseghem 6/1/2011 11:17",
 		"beSingleSelection" : "BenjaminVanRyseghem 6/1/2011 11:24",
 		"changeModelSelection:" : "BenjaminVanRyseghem 2/18/2012 16:20",
@@ -38,7 +36,7 @@
 		"font:" : "ls 5/15/2001 22:21",
 		"getCurrentSelectionIndex" : "GuillermoPolito 9/1/2010 18:47",
 		"getList" : "BenjaminVanRyseghem 11/29/2011 09:57",
-		"getListElementSelector:" : "CamilloBruni 9/14/2012 00:43",
+		"getListElementSelector:" : "BenjaminVanRyseghem 5/7/2012 13:28",
 		"getListItem:" : "BenjaminVanRyseghem 11/29/2011 09:57",
 		"getListSelector" : "di 6/21/1998 22:19",
 		"getListSelector:" : "ls 2/9/2002 01:03",
@@ -137,7 +135,7 @@
 		"textHighlightColor:" : "nk 5/16/2003 14:37",
 		"unhighlightSelection" : "BenjaminVanRyseghem 6/1/2011 11:13",
 		"update:" : "BenjaminVanRyseghem 4/18/2012 00:49",
-		"updateList" : "CamilloBruni 9/14/2012 01:11",
+		"updateList" : "BenjaminVanRyseghem 5/10/2011 11:03",
 		"userString" : "bf 2/17/2006 17:25",
 		"vUnadjustedScrollRange" : "sps 12/26/2002 13:36",
 		"verifyContents" : "AlainPlantec 1/7/2010 22:32",
@@ -146,4 +144,4 @@
 		"wantsDroppedMorph:event:" : "stephaneDucasse 7/18/2010 11:45",
 		"wrapItem:index:" : "BenjaminVanRyseghem 11/29/2011 09:53",
 		"wrapSelector" : "BenjaminVanRyseghem 3/8/2011 15:14",
-		"wrapSelector:" : "CamilloBruni 9/13/2012 14:34" } }
+		"wrapSelector:" : "BenjaminVanRyseghem 3/8/2011 15:24" } }
