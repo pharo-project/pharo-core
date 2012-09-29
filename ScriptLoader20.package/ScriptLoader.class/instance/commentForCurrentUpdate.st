@@ -1,5 +1,10 @@
 public
 commentForCurrentUpdate
- ^ '6651: left cursor key in PluggableTreeMorph is not to standardsThanks to pharo.ulysse@gmail.com
-
-http://code.google.com/feeds/issues/p/pharo'
+ ^ 'Issue 6712:	nautilus not working anymore
+	http://code.google.com/p/pharo/issues/detail?id=6712
+	
+Issue 6708:	Remove BlockClosure>>once which is useless
+	http://code.google.com/p/pharo/issues/detail?id=6708
+	
+Issue 6705:	update CI-Core
+	http://code.google.com/p/pharo/issues/detail?id=6705'

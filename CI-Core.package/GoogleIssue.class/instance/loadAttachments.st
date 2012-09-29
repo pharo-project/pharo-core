@@ -7,7 +7,7 @@ loadAttachments
 	soup := GoogleIssueTracker soupClass fromString:  (self tracker get: self viewUrl) contents.
 	
 	"manually find the matching attachment urls.."
-	regex := ('http\://', self project, '.googlecode.com/issues/attachment\?.*') asRegex.
+	regex := ('//', self project, '.googlecode.com/issues/attachment\?.*') asRegex.
 	
 	attachmentLinks := ((soup // 'a') select: [ :tag| tag size = 1])
 									attribute: #href matching: regex.
@@ -27,7 +27,7 @@ loadAttachments
 				thenDo: [ :link|
 					stream nextPut: 
 						(comment addAttachment: 
-							((GoogleAttachment fromURL: link href)
+							((GoogleAttachment fromURL: 'http:', link href)
 										issue: self;
 										yourself))]]]) sort: [ :a :b| a published <= b published]
 							

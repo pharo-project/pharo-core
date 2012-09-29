@@ -10,6 +10,4 @@
 		"testBlockClosureWithSelfSend" : "MartinDias 3/23/2012 12:09",
 		"testBlockClosureWithTempVariableRead" : "mada 5/4/2012 11:10",
 		"testBlockClosureWithThreeArguments" : "MartinDias 3/23/2012 02:01",
-		"testCleanCachedBlockClosure" : "MartinDias 3/26/2012 14:43",
-		"testNestedBlockClosure" : "MartinDias 3/23/2012 12:21",
-		"testUncleanCachedBlockClosure" : "MartinDias 3/26/2012 19:24" } }
+		"testNestedBlockClosure" : "MartinDias 3/23/2012 12:21" } }

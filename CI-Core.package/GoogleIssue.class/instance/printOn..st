@@ -1,4 +1,9 @@
 printing
 printOn: aStream
 	super printOn: aStream.
-	aStream << '(#' << self id asString << ': ' << self title asString << ')'
+	aStream 
+		nextPutAll:  '(#' ;
+		nextPutAll:  self id asString; 
+		nextPutAll:  ': ';
+		nextPutAll:  self title asString;
+		nextPutAll:  ')'
