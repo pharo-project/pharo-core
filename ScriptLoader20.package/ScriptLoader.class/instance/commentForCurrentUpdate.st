@@ -1,8 +1,15 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6697:	Zn+Zdc Update 2012-09-19
-	http://code.google.com/p/pharo/issues/detail?id=6697
-	
-Issue 6699:	Share binding of metaclass methods
-	http://code.google.com/p/pharo/issues/detail?id=6699
-	'
+ ^ '6728: infinite recursion on startup preferences.Thanks to pharo.ulysse@gmail.com
+
+http://code.google.com/feeds/issues/p/pharo
+
+
+6723: Improve Collection StreamingThanks to pharo.ulysse@gmail.com
+
+http://code.google.com/feeds/issues/p/pharo
+
+
+6715: RPackageSet is not backwards compatibleThanks to pharo.ulysse@gmail.com
+
+http://code.google.com/feeds/issues/p/pharo'

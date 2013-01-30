@@ -3,9 +3,11 @@
 		"arrayType" : "cmm 10/25/2010 22:26",
 		"new" : "sma 5/12/2000 17:41",
 		"new:" : "cmm 10/25/2010 22:27",
+		"new:streamContents:" : "CamilloBruni 9/5/2011 15:48",
 		"new:withAll:" : "cmm 10/25/2010 22:28",
 		"newFrom:" : "",
-		"ofSize:" : "apb 10/15/2000 22:02" },
+		"ofSize:" : "apb 10/15/2000 22:02",
+		"streamSpecies" : "CamilloBruni 9/5/2011 15:38" },
 	"instance" : {
 		"add:" : "",
 		"add:after:" : "",

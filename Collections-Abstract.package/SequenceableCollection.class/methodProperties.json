@@ -1,9 +1,11 @@
 {
 	"class" : {
-		"new:streamContents:" : "ul 9/12/2009 17:29",
+		"<<" : "CamilloBruni 9/7/2011 16:40",
+		"new:streamContents:" : "CamilloBruni 9/5/2011 15:23",
 		"ofSize:" : "MarcusDenker 12/7/2009 14:55",
-		"streamContents:" : "StephaneDucasse 12/25/2009 12:32",
-		"streamContents:limitedTo:" : "di 6/20/97 09:07" },
+		"streamContents:" : "CamilloBruni 9/7/2011 16:40",
+		"streamContents:limitedTo:" : "CamilloBruni 9/5/2011 15:32",
+		"streamSpecies" : "CamilloBruni 9/5/2011 15:33" },
 	"instance" : {
 		"," : "md 7/14/2006 12:11",
 		"=" : "sma 5/12/2000 14:04",

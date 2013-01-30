@@ -1,7 +1,9 @@
 {
 	"class" : {
 		"new:" : "HenrikSperreJohansen 10/19/2009 15:03",
-		"newFrom:" : "nice 2/8/2012 21:23" },
+		"new:streamContents:" : "CamilloBruni 9/5/2011 15:34",
+		"newFrom:" : "nice 2/8/2012 21:23",
+		"streamSpecies" : "CamilloBruni 9/5/2011 15:38" },
 	"instance" : {
 		"add:" : "HenrikSperreJohansen 10/18/2009 14:58",
 		"add:after:" : "HenrikSperreJohansen 10/18/2009 16:48",
