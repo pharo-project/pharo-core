@@ -1,8 +1,6 @@
 {
 	"class" : {
-		"buildSmalltalkEditorCtrlBasedKeymappingsOn:" : "GuillermoPolito 5/26/2012 21:14",
-		"buildUnixSmalltalkEditorKeymappingsOn:" : "GuillermoPolito 5/26/2012 21:14",
-		"buildWindowsSmalltalkEditorKeymappingsOn:" : "GuillermoPolito 5/26/2012 21:15",
+		"buildSmalltalkEditorKeymappingsOn:" : "GuillermoPolito 9/24/2012 15:34",
 		"initialize" : "AlainPlantec 11/16/2010 21:52",
 		"initializeCmdKeyShortcuts" : "CamilloBruni 2/26/2011 16:46",
 		"initializeShiftCmdKeyShortcuts" : "MarcusDenker 5/8/2012 10:16",

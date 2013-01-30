@@ -3,8 +3,8 @@ comparingStringBetween: actual and: expected
 
 	^ String streamContents: [:stream |
 			stream
-				nextPutAll: 'Expected ';
+				nextPutAll: 'Got ';
 				nextPutAll: expected fullPrintString;
-				nextPutAll: ' but was ';
+				nextPutAll: ' instead of ';
 				nextPutAll: actual fullPrintString;
 				nextPutAll: '.']

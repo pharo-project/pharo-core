@@ -1,10 +1,10 @@
 shortcuts
 buildTextEditorKeymapsOn: aBuilder
-	<keymap: #Unix>
+	<keymap>
 	
 	(aBuilder shortcut: #accept)
 		category: #TextMorph
-		default: $s ctrl
+		default: $s ctrl win | $s ctrl unix | $s command mac
 		do: [ :morph | morph acceptContents ].
 		
 	aBuilder attachShortcutCategory: #TextMorph to: TextMorph.

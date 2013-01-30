@@ -25,7 +25,8 @@
 		"shortcut",
 		"platform",
 		"default",
-		"category" ],
+		"category",
+		"shortcutName" ],
 	"name" : "PragmaMenuAndShortcutRegistrationItem",
 	"pools" : [
 		 ],

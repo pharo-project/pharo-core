@@ -1,0 +1,3 @@
+combination
+platform
+	^#all

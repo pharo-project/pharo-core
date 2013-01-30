@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testCombinationOfSimpleShortcuts" : "GuillermoPolito 9/24/2012 11:07",
+		"testCombinationSeveralShortcuts" : "GuillermoPolito 9/24/2012 11:34",
+		"testMacDependentShortcut" : "GuillermoPolito 9/24/2012 11:22",
+		"testPlatformDependentShortcut" : "GuillermoPolito 9/24/2012 11:11",
+		"testShortcutIsSimpleCombination" : "GuillermoPolito 9/24/2012 11:06",
+		"testUnixDependentShortcut" : "GuillermoPolito 9/24/2012 11:17",
+		"testWindowsDependentShortcut" : "GuillermoPolito 9/24/2012 11:16" } }

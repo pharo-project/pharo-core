@@ -1,13 +1,10 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6647:	Auto creation of Monticello packages (by RPackage ?)
-	http://code.google.com/p/pharo/issues/detail?id=6647
+ ^ 'Issue 6731:	FileDialogWindow DNU - FS related
+	http://code.google.com/p/pharo/issues/detail?id=6731
 	
-Issue 6608:	FileReference>>item
-	http://code.google.com/p/pharo/issues/detail?id=6608
+Issue 6730:	Better way to define platform specific shortcuts
+	http://code.google.com/p/pharo/issues/detail?id=6730
 	
-Issue 6605:	Write Common UI Test
-	http://code.google.com/p/pharo/issues/detail?id=6605
-	
-Issue 6655:	SubscriptOutOfBounds: 1 when clearing a list in PluggableListMorph
-	http://code.google.com/p/pharo/issues/detail?id=6655'
+Issue 6632:	assert:equals: reverse the order of the printed arguments
+	http://code.google.com/p/pharo/issues/detail?id=6632'

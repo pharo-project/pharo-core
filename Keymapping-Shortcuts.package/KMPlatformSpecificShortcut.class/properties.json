@@ -1,0 +1,15 @@
+{
+	"category" : "Keymapping-Shortcuts",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"shortcut",
+		"platform" ],
+	"name" : "KMPlatformSpecificShortcut",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

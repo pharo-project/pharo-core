@@ -1,0 +1,3 @@
+combination
+shortcut
+	^self

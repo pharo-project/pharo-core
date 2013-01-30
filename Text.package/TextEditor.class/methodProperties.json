@@ -1,8 +1,6 @@
 {
 	"class" : {
-		"buildTextEditorCtrlBasedKeymapsOn:" : "GuillermoPolito 5/26/2012 21:05",
-		"buildUnixTextEditorKeymapsOn:" : "GuillermoPolito 5/26/2012 21:06",
-		"buildWindowsTextEditorKeymapsOn:" : "GuillermoPolito 5/26/2012 21:13",
+		"buildTextEditorShortcutsOn:" : "GuillermoPolito 9/24/2012 11:58",
 		"caseSensitiveFinds" : "AlainPlantec 11/8/2010 22:09",
 		"caseSensitiveFinds:" : "AlainPlantec 11/8/2010 22:09",
 		"cmdActions" : "CamilloBruni 2/26/2011 15:28",
