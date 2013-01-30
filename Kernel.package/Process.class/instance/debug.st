@@ -1,3 +1,3 @@
 debugging
 debug
-	self debugWithTitle: 'Debug'.
+	^ self debugWithTitle: 'Debug'.

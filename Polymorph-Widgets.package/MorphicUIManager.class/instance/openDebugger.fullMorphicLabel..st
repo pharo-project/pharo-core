@@ -38,4 +38,5 @@ openDebugger: aDebugger fullMorphicLabel: aLabelString
 	window openInWorld.
 	window center: Display center.
 	aDebugger toggleContextStackIndex: oldContextStackIndex.
+	aDebugger widget: window.
 	^ window

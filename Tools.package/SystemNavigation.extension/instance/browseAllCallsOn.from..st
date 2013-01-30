@@ -5,11 +5,6 @@ browseAllCallsOn: aLiteral from: aBehavior
 
 	"self new browseAllCallsOn: #/ from: Number"
 
-	^self headingAndAutoselectForLiteral: aLiteral do:
-		[:label :autoSelect|
-		self 
-			browseMessageList: (self  allCallsOn: aLiteral from: aBehavior)
-			name: label, ' from ', aBehavior name
-			autoSelect: autoSelect]
+	^ self browseAllSendersOf: aLiteral from: aBehavior
 
 	

@@ -4,8 +4,4 @@ browseAllCallsOn: aLiteral localToPackage: packageNameOrInfo
 	 that refers to aLiteral. For example,
 		SystemNavigation new browseAllCallsOn: #open:label: localToPackage: 'Tools'."
 
-	^ self headingAndAutoselectForLiteral: aLiteral do:
-		[:label :autoSelect|
-		self browseMessageList: (self allCallsOn: aLiteral localToPackage: packageNameOrInfo) asSortedCollection
-			name: label, ' local to package ', (self packageInfoFor: packageNameOrInfo) name
-			autoSelect: autoSelect]
+	^ self browseAllSendersOf: aLiteral localToPackage: packageNameOrInfo

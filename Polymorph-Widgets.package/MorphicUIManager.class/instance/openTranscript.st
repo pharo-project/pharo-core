@@ -1,5 +1,5 @@
 ui requests
 openTranscript
 	
-	Smalltalk tools transcript open.
+	^ Smalltalk tools transcript open.
 	

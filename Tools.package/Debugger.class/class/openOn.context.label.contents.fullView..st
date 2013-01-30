@@ -5,7 +5,7 @@ openOn: process context: context label: title contents: contentsStringOrNil full
 	lets the user open a full debugger."
 	|fullView|
 	fullView := (bool or: [self alwaysOpenFullDebugger]).
-	UIManager default 
+	^ UIManager default 
 		openDebuggerOn: process 
 		context: context 
 		label: title 

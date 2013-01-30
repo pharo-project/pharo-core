@@ -3,18 +3,19 @@ openDebuggerOn: process context: context label: title contents: contentsStringOr
 	"Open a notifier in response to an error, halt, or notify. A notifier view
 	just shows a short view of the sender stack and provides a menu that
 	lets the user open a full debugger."
-	| errorWasInUIProcess |
+	| errorWasInUIProcess  debugger |
 	errorWasInUIProcess := self spawnNewProcessIfThisIsUI: process.
 	[Smalltalk tools debugger logDebuggerStackToFile
 		ifTrue: [Smalltalk
 				logError: title
 				inContext: context ]] on: Error do: [].
+	debugger := Smalltalk tools debugger new.
 	WorldState
-		addDeferredUIMessage: [[| debugger | 
-			debugger := Smalltalk tools debugger new
-						process: process
-						controller: nil
-						context: context.
+		addDeferredUIMessage: [[ 
+			debugger
+				process: process
+				controller: nil
+				context: context.
 			"schedule debugger in deferred UI message to address
 			redraw problems after opening a debugger e.g. from
 			the testrunner."
@@ -31,3 +32,4 @@ openDebuggerOn: process context: context label: title contents: contentsStringOr
 									do: ['a ' , ex class printString]) , ':']].
 
 	process suspend.
+	^ debugger

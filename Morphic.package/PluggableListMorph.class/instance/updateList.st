@@ -7,6 +7,7 @@ updateList
 	scrollBar setValue: 0.0.
 	index := self getCurrentSelectionIndex.
 	self resetPotentialDropRow.
-	self selectionIndex: index.
+	index := index min: self getListSize.
+	index > 0 ifTrue: [	self selectionIndex: index].
 	
 	self searchedElement: nil.

@@ -1,0 +1,14 @@
+{
+	"category" : "ToolsTest-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OpenToolTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

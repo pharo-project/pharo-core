@@ -2,4 +2,4 @@ as yet unclassified
 selectedFileDirectory
 	"Answer the selected file directory in the tree part."
 
-	^(self selectedDirectory ifNil: [^nil]) item
+	^ (self selectedDirectory ifNil: [^nil]) item

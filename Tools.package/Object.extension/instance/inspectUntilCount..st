@@ -1,6 +1,6 @@
 *Tools-Inspector
 inspectUntilCount: int 
-	self haltOnceEnabled
+	^ self haltOnceEnabled
 		ifTrue: [self hasHaltCount
 				ifTrue: [self decrementAndCheckHaltCount
 						ifTrue: [self doExpiredInspectCount]

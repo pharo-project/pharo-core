@@ -4,6 +4,5 @@ browseAllCallsOn: literal1 and: literal2
 	two Symbols, literal1 and literal2. For example, SystemNavigation new 
 	browseAllCallsOn: #at: and: #at:put:."
 
-	^ self 
-		browseMessageList: (self allCallsOn: literal1 and: literal2)
-		name: literal1 printString , ' -and- ' , literal2 printString
+	
+	^ self browseAllSendersOf: literal1 and: literal2 

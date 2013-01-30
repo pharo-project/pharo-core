@@ -26,7 +26,8 @@
 		"selectingPC",
 		"savedCursor",
 		"errorWasInUIProcess",
-		"labelString" ],
+		"labelString",
+		"widget" ],
 	"name" : "Debugger",
 	"pools" : [
 		 ],

@@ -24,5 +24,5 @@ managersForCategory: aSystemCategory do: aBlock
 	].
 	foundOne ifFalse:[
 		"Create a new (but only top-level)"
-		aBlock value: (MCWorkingCopy forPackage: (MCPackage named: (aSystemCategory copyUpTo: $-) capitalized)).
+		aBlock value: (MCWorkingCopy forPackage: (MCPackage named: aSystemCategory capitalized)).
 	].
