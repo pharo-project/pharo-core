@@ -1,3 +1,3 @@
-pillaging
+*monticellofiletree-core
 date
-	^ date
+	^ date ifNil:[^Date today]

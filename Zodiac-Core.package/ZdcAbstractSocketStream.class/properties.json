@@ -14,5 +14,5 @@
 	"name" : "ZdcAbstractSocketStream",
 	"pools" : [
 		 ],
-	"super" : "Stream",
+	"super" : "Object",
 	"type" : "normal" }

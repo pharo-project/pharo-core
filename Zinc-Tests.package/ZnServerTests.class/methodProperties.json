@@ -3,11 +3,11 @@
 		 },
 	"instance" : {
 		"port" : "SvenVanCaekenberghe 3/12/2012 20:36",
-		"testAuthorizationFailed" : "EstebanLorenzano 8/17/2012 16:40",
-		"testAuthorizationSuccessful" : "EstebanLorenzano 8/17/2012 16:40",
+		"testAuthorizationFailed" : "SvenVanCaekenberghe 8/23/2012 14:34",
+		"testAuthorizationSuccessful" : "SvenVanCaekenberghe 8/23/2012 14:34",
 		"testDefault" : "SvenVanCaekenberghe 3/12/2012 22:06",
-		"testEcho" : "EstebanLorenzano 8/17/2012 16:40",
-		"testEchoBinary" : "EstebanLorenzano 8/17/2012 16:40",
-		"testEchoLocalInterface" : "EstebanLorenzano 8/17/2012 16:40",
-		"testGetUnicodeUtf8" : "EstebanLorenzano 8/17/2012 16:40",
+		"testEcho" : "SvenVanCaekenberghe 8/23/2012 14:34",
+		"testEchoBinary" : "SvenVanCaekenberghe 8/23/2012 14:34",
+		"testEchoLocalInterface" : "SvenVanCaekenberghe 8/23/2012 14:34",
+		"testGetUnicodeUtf8" : "SvenVanCaekenberghe 8/23/2012 14:34",
 		"withServerDo:" : "SvenVanCaekenberghe 3/12/2012 20:36" } }

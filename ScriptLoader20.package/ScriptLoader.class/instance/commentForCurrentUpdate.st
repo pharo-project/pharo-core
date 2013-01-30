@@ -1,10 +1,8 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6712:	nautilus not working anymore
-	http://code.google.com/p/pharo/issues/detail?id=6712
+ ^ 'Issue 6697:	Zn+Zdc Update 2012-09-19
+	http://code.google.com/p/pharo/issues/detail?id=6697
 	
-Issue 6708:	Remove BlockClosure>>once which is useless
-	http://code.google.com/p/pharo/issues/detail?id=6708
-	
-Issue 6705:	update CI-Core
-	http://code.google.com/p/pharo/issues/detail?id=6705'
+Issue 6699:	Share binding of metaclass methods
+	http://code.google.com/p/pharo/issues/detail?id=6699
+	'

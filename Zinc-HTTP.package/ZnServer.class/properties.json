@@ -3,10 +3,11 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
+		"AlwaysRestart",
 		"ManagedServers" ],
 	"commentStamp" : "SvenVanCaekenberghe 12/22/2011 12:01",
 	"instvars" : [
-		 ],
+		"options" ],
 	"name" : "ZnServer",
 	"pools" : [
 		 ],

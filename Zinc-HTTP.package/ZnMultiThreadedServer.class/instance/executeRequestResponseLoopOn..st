@@ -9,5 +9,8 @@ executeRequestResponseLoopOn: stream
     [ (request := self readRequestSafely: stream) notNil
 		ifTrue: [
 			(response := self handleRequest: request) setKeepAliveFor: request.
-	 		self writeResponseSafely: response on: stream ].
-	request isNil or: [ request wantsConnectionClose ] ] whileFalse 
+	 		self writeResponseSafely: response on: stream.
+			response useConnection: stream ].
+	request isNil 
+		or: [ request wantsConnectionClose 
+			or: [ response wantsConnectionClose ] ] ] whileFalse 

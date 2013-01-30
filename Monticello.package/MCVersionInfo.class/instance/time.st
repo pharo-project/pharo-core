@@ -1,3 +1,3 @@
-pillaging
+*monticellofiletree-core
 time
-	^ time
+	^ time ifNil:[^Time now]
