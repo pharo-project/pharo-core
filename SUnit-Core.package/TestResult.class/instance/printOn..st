@@ -5,6 +5,8 @@ printOn: aStream
 		nextPutAll: ' run, ';
 		nextPutAll: self expectedPassCount printString;
 		nextPutAll: ' passes, ';
+		nextPutAll: self skippedCount printString;
+		nextPutAll: ' skipped, ';
 		nextPutAll: self expectedDefectCount printString;
 		nextPutAll:' expected failures, ';
 		nextPutAll: self unexpectedFailureCount printString;

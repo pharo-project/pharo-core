@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testAsLowercaseBasicAsciiRange" : "CamilloBruni 9/28/2012 14:53",
+		"testAsUppercaseBasicAsciiRange" : "CamilloBruni 9/28/2012 14:50",
 		"testCharacterSeparators" : "nice 11/1/2011 17:34",
 		"testCodePoint" : "StephaneDucasse 3/30/2010 18:34",
 		"testDigitValue" : "StephaneDucasse 3/28/2010 19:19",

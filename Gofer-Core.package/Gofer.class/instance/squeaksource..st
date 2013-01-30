@@ -1,3 +1,3 @@
 repositories-places
-squeaksource: aString
-	self url: 'http://www.squeaksource.com/' , aString
+squeaksource: aProjectName
+	self repository: (MCSqueaksourceRepository location: 'http://www.squeaksource.com/' , aProjectName)

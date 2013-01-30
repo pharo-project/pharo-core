@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 description
 	^ 'ss3.gemstone.com'

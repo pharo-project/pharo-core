@@ -15,6 +15,6 @@ Scroll down until you find the class category ''MyApp-Tests-Model'' and select t
 
 If you run the test in the test runner it will be marked red since it contains errors. The test runner will also show you the result of the test run:
 
-     1 run, 0 passes, 0 expected failures, 0 failures, 1 errors, 0 unexpected passes
+     1 run, 0 passes, 0 skipped, 0 expected failures, 0 failures, 1 errors, 0 unexpected passes
 
 If you click on the failed method in the lower right pane the debugger will open.!' readStream nextChunkText

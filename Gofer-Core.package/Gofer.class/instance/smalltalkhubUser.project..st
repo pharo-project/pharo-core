@@ -1,3 +1,3 @@
 repositories-places
 smalltalkhubUser: aUserName project: aProjectName
-	self url: 'http://www.smalltalkhub.com/mc/' , aUserName , '/'  , aProjectName , '/main'
+	self repository: (MCSmalltalkhubRepository owner: aUserName project: aProjectName)

@@ -16,16 +16,16 @@ initialize
 	"If you are in a full image, you can try the following Zinc scripts to download the file automatically:
 	
 	UIManager default informUserDuring: [ :bar| | result |
-            bar value: 'Downloading Unicode data'.
+            bar label: 'Downloading Unicode data'.
             (result := ZnEasy get: 'http://www.unicode.org/Public/UNIDATA/UnicodeData.txt') isSuccess
                 ifFalse: [ ^ self error: 'Download failed' ].
-            bar value: 'Updating Case Mappings'.
+            bar label: 'Updating Case Mappings'.
             self parseUnicodeDataFrom: result contents readStream ].
 
 	UIManager default informUserDuring: [ :bar| | result |
-		bar value: 'Downloading Unicode case mappings data'.
+		bar label: 'Downloading Unicode case mappings data'.
 		(result := ZnEasy get: 'http://www.unicode.org/Public/UNIDATA/CaseFolding.txt') isSuccess
 			ifFalse: [ ^ self error: 'Download failed' ].
-		bar value: 'Updating Case Mappings'.
+		bar label: 'Updating Case Mappings'.
 		self parseCaseMappingFrom: result contents readStream ].
 	"

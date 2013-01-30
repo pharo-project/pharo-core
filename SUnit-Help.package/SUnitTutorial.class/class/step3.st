@@ -11,7 +11,7 @@ step3
 
 If you print the result then the following will appear:
 
-      1 run, 0 passes, 0 expected failures, 0 failures, 1 errors, 0 unexpected passes
+      1 run, 0 passes, 0 skipped, 0 expected failures, 0 failures, 1 errors, 0 unexpected passes
 
 This tells us that one test has been run and one error occured while testing. Currently we dont have all messages implemented - so the test has to fail. 
 

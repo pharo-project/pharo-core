@@ -11,7 +11,7 @@ testFileOutResult
 	self
 		assert: fileout
 		equals:
-			'3 run, 1 passes, 0 expected failures, 1 failures, 1 errors, 0 unexpected passes
+			'3 run, 1 passes, 0 skipped, 0 expected failures, 1 failures, 1 errors, 0 unexpected passes
 Failures:
 SUnitTest>>#fail
 

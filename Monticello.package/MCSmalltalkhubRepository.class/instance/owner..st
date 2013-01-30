@@ -1,4 +1,4 @@
 accessing
-owner: anObject
+owner: aString
 	
-	owner := anObject
+	owner := aString

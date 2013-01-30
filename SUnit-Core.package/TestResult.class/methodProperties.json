@@ -11,6 +11,7 @@
 		"resumableFailure" : "BaseSystem 8/30/2009 09:35",
 		"signalErrorWith:" : "md 2/22/2006 14:26",
 		"signalFailureWith:" : "md 2/22/2006 14:26",
+		"skip" : "CamilloBruni 8/24/2012 17:52",
 		"updateTestHistoryFor:status:" : "EstebanLorenzano 8/3/2012 14:21" },
 	"instance" : {
 		"addError:" : "NiallRoss 7/18/2010 12:21",
@@ -43,8 +44,8 @@
 		"isPassedFor:selector:" : "GwenaelCasaccio 10/1/2008 22:36",
 		"passed" : "JF 7/30/2003 16:08",
 		"passedCount" : "BaseSystem 8/30/2009 09:35",
-		"printOn:" : "EstebanLorenzano 11/11/2010 16:26",
-		"runCase:" : "CamilloBruni 8/24/2012 16:36",
+		"printOn:" : "CamilloBruni 8/24/2012 17:48",
+		"runCase:" : "CamilloBruni 8/24/2012 17:53",
 		"runCount" : "BaseSystem 8/30/2009 09:35",
 		"selectResultsForTestCase:" : "simon.denier 11/13/2008 20:51",
 		"skipped" : "CamilloBruni 8/24/2012 16:15",
