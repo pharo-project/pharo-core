@@ -1,5 +1,5 @@
 converting
-adaptToCollection: rcvr andSend: selector
+adaptToCollection: receiver andSend: selector
 	"If I am involved in arithmetic with a collection, convert me to a number."
 
-	^ rcvr perform: selector with: self asNumber
+	^ receiver perform: selector with: self asNumber

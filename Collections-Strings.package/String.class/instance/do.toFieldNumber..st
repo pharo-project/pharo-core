@@ -2,6 +2,12 @@ accessing
 do: aBlock toFieldNumber: aNumber
 	"Considering the receiver as a holder of tab-delimited fields, evaluate aBlock on behalf of a field in this string"
 
+	"
+	1 to: 6 do:
+		[:aNumber |
+			'fred	charlie	elmo		wimpy	friml' do:
+				[:aField | Transcript cr; show: aField] toFieldNumber: aNumber]
+	"
 	| start end index |
 	start := 1.
 	index := 1.
@@ -13,10 +19,3 @@ do: aBlock toFieldNumber: aNumber
 			^ self].
 		index := index + 1.
 		start := end + 2]
-
-"
-1 to: 6 do:
-	[:aNumber |
-		'fred	charlie	elmo		wimpy	friml' do:
-			[:aField | Transcript cr; show: aField] toFieldNumber: aNumber]
-"

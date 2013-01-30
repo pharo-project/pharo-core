@@ -1,10 +1,8 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6731:	FileDialogWindow DNU - FS related
-	http://code.google.com/p/pharo/issues/detail?id=6731
+ ^ 'Issue 6724:	String additions + cleanup
+	http://code.google.com/p/pharo/issues/detail?id=6724
 	
-Issue 6730:	Better way to define platform specific shortcuts
-	http://code.google.com/p/pharo/issues/detail?id=6730
-	
-Issue 6632:	assert:equals: reverse the order of the printed arguments
-	http://code.google.com/p/pharo/issues/detail?id=6632'
+Issue 6531:	Not possible to save one click image on Windows
+	http://code.google.com/p/pharo/issues/detail?id=6531
+	'

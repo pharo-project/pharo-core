@@ -5,5 +5,5 @@ withoutPeriodSuffix
 	| likely |
 	likely := self copyUpTo: $..
 	^ likely size = 0
-		ifTrue:	[self]
-		ifFalse:	[likely]
+		ifTrue: [ self ]
+		ifFalse: [ likely ]

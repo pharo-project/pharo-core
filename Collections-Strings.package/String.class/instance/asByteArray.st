@@ -4,6 +4,5 @@ asByteArray
 	| b |
 	b := ByteArray new: self byteSize.
 	1 to: self size * 4 do: [:i |
-		b at: i put: (self byteAt: i).
-	].
+		b at: i put: (self byteAt: i)].
 	^ b.

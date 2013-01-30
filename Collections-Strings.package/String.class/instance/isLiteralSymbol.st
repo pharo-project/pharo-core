@@ -5,6 +5,8 @@ isLiteralSymbol
 	e.g. '3' asSymbol."
 
 	| i ascii type next last |
+	self flag: 'reuse a parser for this'.
+	
 	i := self size.
 	i = 0 ifTrue: [^ false].
 

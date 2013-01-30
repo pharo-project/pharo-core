@@ -5,7 +5,8 @@ pvtAt: index put: aCharacter
 	the argument is not a Character. Essential. See Object documentation
 	whatIsAPrimitive."
 
-	<primitive: 61>
-	index isInteger
-		ifTrue: [self errorSubscriptBounds: index]
-		ifFalse: [self errorNonIntegerIndex]
+	self
+		deprecated: 'use privateAt:put:'
+		on: '2012-09-23'
+		in: 'Pharo 2.0'.
+	self privateAt: index put: aCharacter

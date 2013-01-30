@@ -1,6 +1,8 @@
 accessing
 tabDelimitedFieldsDo: aBlock
-	"Considering the receiver as a holder of tab-delimited fields, evaluate execute aBlock with each field in this string.  The separatilng tabs are not included in what is passed to aBlock"
+	"Considering the receiver as a holder of tab-delimited fields, evaluate execute aBlock with each field in this string.  The separatilng tabs are not included in what is passed to aBlock
+	'fred	charlie	elmo		2' tabDelimitedFieldsDo: [:aField | Transcript cr; show: aField]
+	"
 
 	| start end |
 	"No senders but was useful enough in earlier work that it's retained for the moment."
@@ -10,7 +12,3 @@ tabDelimitedFieldsDo: aBlock
 		end := end - 1.
 		aBlock value: (self copyFrom: start  to: end).
 		start := end + 2]
-
-"
-'fred	charlie	elmo		2' tabDelimitedFieldsDo: [:aField | Transcript cr; show: aField]
-"
