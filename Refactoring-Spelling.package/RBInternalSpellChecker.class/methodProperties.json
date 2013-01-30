@@ -3,10 +3,12 @@
 		"createWordList:" : "GuillermoPolito 1/21/2012 22:55" },
 	"instance" : {
 		"check:" : "lr 12/22/2010 13:58",
-		"dataFile" : "CamilloBruni 9/11/2012 16:36",
-		"downloadData" : "CamilloBruni 9/11/2012 16:37",
+		"dataFile" : "SvenVanCaekenberghe 9/26/2012 16:24",
+		"directory" : "SvenVanCaekenberghe 9/26/2012 16:18",
+		"downloadData" : "SvenVanCaekenberghe 9/26/2012 22:10",
+		"filename" : "SvenVanCaekenberghe 9/26/2012 16:24",
 		"initialize" : "lr 1/22/2010 08:11",
-		"loadData" : "CamilloBruni 9/11/2012 16:37",
+		"loadData" : "SvenVanCaekenberghe 9/26/2012 17:24",
 		"url" : "lr 1/22/2010 09:45",
 		"validate:" : "lr 1/21/2010 23:20",
 		"words" : "lr 3/8/2009 20:21" } }

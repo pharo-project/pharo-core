@@ -1,3 +1,3 @@
 accessing
 dataFile
-	^ 'rb-spelling.dat' asFileReference
+	^ self directory / self filename
