@@ -1,10 +1,11 @@
 public
 commentForCurrentUpdate
- ^ '6709: MNU MethodRepackaged&gt;&gt;oldProtocolThanks to pharo.ulysse@gmail.com
+ ^ 'Issue 6721:	Most Viewed Classes -> DNU
+	http://code.google.com/p/pharo/issues/detail?id=6721
+	
 
-http://code.google.com/feeds/issues/p/pharo
+Issue 6704:	Debugger looks for a context at index 0
+	http://code.google.com/p/pharo/issues/detail?id=6704
 
-
-6685: Nautilus should select Code after creating a new ProtocolThanks to pharo.ulysse@gmail.com
-
-http://code.google.com/feeds/issues/p/pharo'
+Issue 6385:	Number date and time conversion should be an extension	
+	http://code.google.com/p/pharo/issues/detail?id=6385'

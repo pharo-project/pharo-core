@@ -1,4 +1,4 @@
-extended protocol
+simple instance creation
 milliSeconds: milliCount
      
 	^ self

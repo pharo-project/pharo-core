@@ -1,4 +1,4 @@
-extended protocol
+instance creation
 days: days hours: hours minutes: minutes seconds: seconds nanoSeconds: nanos	
 
  	^ self seconds: ((days * SecondsInDay) 

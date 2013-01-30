@@ -1,4 +1,4 @@
-extended protocol
+simple instance creation
 month: aMonth
 	"aMonth is an Integer or a String"
 	

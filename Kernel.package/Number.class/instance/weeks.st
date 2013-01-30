@@ -1,4 +1,4 @@
-converting
+*Kernel-Chronology
 weeks
  
  	^ Duration weeks: self

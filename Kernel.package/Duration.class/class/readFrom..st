@@ -1,4 +1,4 @@
-extended protocol
+instance creation
 readFrom: aStream
 	"Formatted as per ANSI 5.8.2.16: [-]D:HH:MM:SS[.S]"
 

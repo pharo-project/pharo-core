@@ -59,7 +59,7 @@
 		"floor" : "",
 		"floorLog:" : "jm 3/27/98 06:16",
 		"fractionPart" : "StephaneDucasse 5/8/2010 17:14",
-		"hour" : "brp 1/9/2004 06:28",
+		"hour" : "CamilloBruni 9/22/2012 10:47",
 		"hours" : "brp 5/16/2003 07:56",
 		"integerPart" : "GabrielOmarCotelli 5/26/2009 21:57",
 		"interpolateTo:at:" : "ar 8/31/2000 20:05",
@@ -122,4 +122,6 @@
 		"truncated" : "",
 		"week" : "brp 1/9/2004 06:19",
 		"weeks" : "brp 5/16/2003 07:57",
-		"withNegativeSign" : "nice 4/23/2011 02:25" } }
+		"withNegativeSign" : "nice 4/23/2011 02:25",
+		"year" : "CamilloBruni 9/22/2012 10:50",
+		"years" : "CamilloBruni 9/22/2012 10:48" } }

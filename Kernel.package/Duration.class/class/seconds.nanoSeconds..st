@@ -1,4 +1,4 @@
-extended protocol
+instance creation
 seconds: seconds nanoSeconds: nanos
 	^ self basicNew
 		seconds: seconds truncated

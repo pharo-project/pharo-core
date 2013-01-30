@@ -5,6 +5,6 @@ selectedContext
 		ifTrue: [ ^ contextStackTop ].
 	
 	(contextStackIndex > contextStack size)
-		ifTrue: [ ^ contextStack at: 0].
+		ifTrue: [ ^ contextStack first].
 		
 	^contextStack at: contextStackIndex
