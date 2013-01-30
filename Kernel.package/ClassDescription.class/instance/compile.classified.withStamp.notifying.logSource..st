@@ -1,6 +1,5 @@
 compiling
-compile: text classified: category
-withStamp: changeStamp notifying: requestor logSource: logSource
+compile: text classified: category withStamp: changeStamp notifying: requestor logSource: logSource
        | methodAndNode |
        methodAndNode := self 
 								compile: text asString 

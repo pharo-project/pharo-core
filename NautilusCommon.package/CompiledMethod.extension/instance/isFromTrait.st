@@ -1,4 +1,4 @@
-*NautilusCommon
+testing
 isFromTrait
-
-	^ self methodClass hasTraitComposition and: [self methodClass traits anySatisfy: [:trait| (trait selectors includes: self selector) and: [ ((trait >> self selector) decompile sourceText) = self decompile sourceText]]]
+	"Return true for methods that have been included from Traits"
+	^ self origin isTrait and: [ self origin ~= self methodClass ]

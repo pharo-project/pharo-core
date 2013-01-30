@@ -23,7 +23,7 @@
 		"categorizeAllUncategorizedMethodsOf:" : "BenjaminVanRyseghem 4/13/2011 12:37",
 		"categorizeMethods:of:from:" : "StephaneDucasse 5/28/2011 13:19",
 		"compileANewClassFrom:notifying:startingFrom:" : "BenjaminVanRyseghem 10/7/2011 14:00",
-		"compileANewMethodInClass:categorized:from:notifyng:" : "BenjaminVanRyseghem 4/14/2011 15:09",
+		"compileANewMethodInClass:categorized:from:notifyng:" : "CamilloBruni 9/22/2012 21:44",
 		"copyClasses:" : "CamilloBruni 9/12/2011 15:06",
 		"createInitializerWithInstVarsOf:" : "BenjaminVanRyseghem 9/17/2011 15:18",
 		"createInstVarAccessorsOf:" : "BenjaminVanRyseghem 9/17/2011 15:42",

@@ -19,7 +19,7 @@ methodWrapper: anItem
 	anItem isFromTrait
 		ifTrue: [ 
 			| trait |
-			trait := anItem retrieveTraitIComeFrom.
+			trait := anItem origin.
 			selector := selector, ' (', trait name ,')'.
 			result := selector asMorph.
 			emphasis := emphasis + 2 ].

@@ -9,7 +9,8 @@
 		"protocol",
 		"sourceCode",
 		"stamp",
-		"package" ],
+		"package",
+		"origin" ],
 	"name" : "RGMethodDefinition",
 	"pools" : [
 		 ],

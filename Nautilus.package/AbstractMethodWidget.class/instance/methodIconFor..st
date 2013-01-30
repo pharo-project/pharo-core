@@ -16,8 +16,8 @@ methodIconFor: aMethod
 				aMethod isFromTrait
 				ifTrue: [ 
 					button := IconicButton new 
-							target: [ aMethod retrieveTraitIComeFrom browse ];
-							actionSelector: #value;
+							target: (aMethod origin  >> aMethod selector);
+							actionSelector: #browse;
 							labelGraphic: (self iconClass iconNamed: #trait) ;
 							color: Color transparent;
 							extent: 12 @ 12;
