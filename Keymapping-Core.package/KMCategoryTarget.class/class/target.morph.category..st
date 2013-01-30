@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 target: aTarget morph: aMorph category: aCategory
 	^self new
 		target: aTarget;

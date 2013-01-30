@@ -1,5 +1,5 @@
 public query
 defaultSystemConverter
-
-	SystemConverterClass ifNil: [SystemConverterClass := self currentPlatform class systemConverterClass].
-	^ SystemConverterClass new.
+	SystemConverter
+		ifNil: [SystemConverter := self currentPlatform class systemConverterClass new].
+	^ SystemConverter

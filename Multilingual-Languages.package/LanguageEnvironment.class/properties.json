@@ -5,10 +5,10 @@
 	"classvars" : [
 		"ClipboardInterpreterClass",
 		"Current",
-		"FileNameConverterClass",
+		"FileNameConverter",
 		"InputInterpreterClass",
 		"KnownEnvironments",
-		"SystemConverterClass" ],
+		"SystemConverter" ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		"id" ],

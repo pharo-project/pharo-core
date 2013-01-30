@@ -7,8 +7,7 @@
 	"commentStamp" : "yo 10/19/2004 21:36",
 	"instvars" : [
 		"squeakPathName",
-		"vmPathName",
-		"converter" ],
+		"vmPathName" ],
 	"name" : "FilePath",
 	"pools" : [
 		 ],

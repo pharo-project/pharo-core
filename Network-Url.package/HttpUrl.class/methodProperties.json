@@ -1,16 +1,5 @@
 {
 	"class" : {
-		"schemeName" : "SeanDeNigris 1/30/2011 11:32",
-		"shutDown" : "tk 9/22/1998 23:13" },
+		"schemeName" : "SeanDeNigris 1/30/2011 11:32" },
 	"instance" : {
-		"askNamePassword" : "StephaneDucasse 9/7/2011 21:53",
-		"checkAuthorization:retry:" : "nk 8/30/2004 07:50",
-		"normalizeContents:" : "noha 5/28/2009 22:14",
-		"postFormArgs:" : "fbs 2/2/2005 13:24",
-		"postMultipartFormArgs:" : "fbs 2/2/2005 13:24",
-		"privateInitializeFromText:relativeTo:" : "tk 9/22/1998 19:49",
-		"realm" : "tk 9/22/1998 19:47",
-		"retrieveContents" : "tk 9/22/1998 20:21",
-		"retrieveContentsAccept:" : "",
-		"retrieveContentsArgs:" : "GabrielOmarCotelli 6/12/2009 21:25",
-		"retrieveContentsArgs:accept:" : "fbs 2/2/2005 13:24" } }
+		"retrieveContents" : "SvenVanCaekenberghe 9/27/2012 11:16" } }

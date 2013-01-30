@@ -1,7 +1,4 @@
 initialization
 clearDefault
-
-	ClipboardInterpreterClass := nil.
-	InputInterpreterClass := nil.
-	SystemConverterClass := nil.
-	FileNameConverterClass := nil.
+	SystemConverter := nil.
+	FileNameConverter := nil.
