@@ -7,7 +7,7 @@ implementSelector: aSelector
 	aSelector ifNil: [ ^ sourceTextArea flash ].
 	behavior ifNil: [ ^ sourceTextArea flash ].
 	
-	(behavior includesSelector: aSelector)
+	(behavior methodDict keys includes: aSelector)
 		ifFalse: [ 
 			head := (self signatureFor: aSelector).
 			source := head,'

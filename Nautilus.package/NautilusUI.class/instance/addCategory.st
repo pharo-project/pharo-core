@@ -6,9 +6,13 @@ addCategory
 	self okToChange ifFalse: [^ self].
 	self selectedClass ifNil: [^ self].
 
-	newName := self addCategoryIn: self selectedClass before: self selectedCategory.
+	newName := self 
+		addCategoryIn: self selectedClass 
+		before: self selectedCategory.
 	self resetCategoriesListSelection.
 	categoryWidget selectProtocol: newName.
 	self selectedCategory: newName.
 	newName ifNil: [ ^ self ].
-	self update.
+	self 
+		update;
+		giveFocusToSourceCode.

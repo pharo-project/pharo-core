@@ -3,7 +3,7 @@
 		"initializeCache" : "BenjaminVanRyseghem 4/8/2012 13:11" },
 	"instance" : {
 		"addAll:" : "BenjaminVanRyseghem 6/22/2012 16:16",
-		"addCategory" : "",
+		"addCategory" : "CamilloBruni 9/17/2012 21:17",
 		"addMethod" : "BenjaminVanRyseghem 6/22/2012 17:00",
 		"addMethodsInGroup" : "BenjaminVanRyseghem 4/14/2012 12:17",
 		"addMethodsInGroup:" : "BenjaminVanRyseghem 4/14/2012 12:10",
@@ -58,7 +58,7 @@
 		"highlightCategory:" : "",
 		"historyChanged" : "",
 		"implementSelector" : "BenjaminVanRyseghem 4/18/2012 18:43",
-		"implementSelector:" : "MarcusDenker 9/17/2012 15:34",
+		"implementSelector:" : "BenjaminVanRyseghem 8/3/2012 18:07",
 		"incrementMethodsListIndex" : "",
 		"initialize" : "BenjaminVanRyseghem 5/14/2012 12:44",
 		"keyPressedOnElement:" : "",

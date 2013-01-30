@@ -1,15 +1,10 @@
 public
 commentForCurrentUpdate
- ^ '6728: infinite recursion on startup preferences.Thanks to pharo.ulysse@gmail.com
+ ^ '6709: MNU MethodRepackaged&gt;&gt;oldProtocolThanks to pharo.ulysse@gmail.com
 
 http://code.google.com/feeds/issues/p/pharo
 
 
-6723: Improve Collection StreamingThanks to pharo.ulysse@gmail.com
-
-http://code.google.com/feeds/issues/p/pharo
-
-
-6715: RPackageSet is not backwards compatibleThanks to pharo.ulysse@gmail.com
+6685: Nautilus should select Code after creating a new ProtocolThanks to pharo.ulysse@gmail.com
 
 http://code.google.com/feeds/issues/p/pharo'

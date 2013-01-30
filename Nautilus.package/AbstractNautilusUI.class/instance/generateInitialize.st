@@ -6,11 +6,11 @@ generateInitialize
 		(class isMeta not and: [class inheritsFrom: TestCase])
 			ifTrue: [
 				index := 34.
-				(class includesSelector:  #setUp) 
+				(class methodDict keys includes: #setUp) 
 					ifFalse: [
 						code := self buildSetUpCodeFor: class.
 						class compile: code classified: category ].
-				(class includesSelector: #tearDown) 
+				(class methodDict keys includes: #tearDown) 
 					ifFalse: [
 						code := self buildTearDownCodeFor: class.
 						class compile: code classified: category ].
@@ -18,7 +18,7 @@ generateInitialize
 				]
 			ifFalse: [
 				index := 62.
-				(class includesSelector: #initialize) 
+				(class methodDict keys includes: #initialize) 
 					ifFalse: [
 						code := self buildInitializeCodeFor: class.
 						class compile: code classified: category ].

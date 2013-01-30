@@ -1,4 +1,4 @@
-as yet unclassified
+menus behavior
 removeNonLocalSelector: aSymbol
 	| traits isAlias |
 	traits := self selectedClassOrMetaClass traitsProvidingSelector: aSymbol.
