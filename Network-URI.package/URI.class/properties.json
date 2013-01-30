@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"ClientClasses" ],
+		 ],
 	"commentStamp" : "StephaneDucasse 4/4/2010 09:50",
 	"instvars" : [
 		"fragment",

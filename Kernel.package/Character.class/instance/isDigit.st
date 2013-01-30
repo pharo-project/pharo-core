@@ -1,4 +1,4 @@
 testing
 isDigit
 
-	^ (EncodedCharSet charsetAt: self leadingChar) isDigit: self.
+	^ self characterSet isDigit: self.

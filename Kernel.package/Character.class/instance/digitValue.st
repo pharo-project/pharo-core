@@ -9,5 +9,5 @@ digitValue
 		ifTrue: [ ^digitValue ].
 	^ (EncodedCharSet charsetAt: self leadingChar) digitValueOf: self. "
 	
-	value > 16rFF ifTrue: [^(EncodedCharSet charsetAt: self leadingChar) digitValueOf: self].
+	value > 16rFF ifTrue: [^ self characterSet digitValueOf: self].
 	^DigitValues at: 1 + value

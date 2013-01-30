@@ -24,8 +24,10 @@
 		"parseCaseMappingFrom:" : "GuillermoPolito 6/29/2012 17:58",
 		"parseUnicodeDataFrom:" : "GuillermoPolito 6/29/2012 17:58",
 		"toCasefold:" : "nice 7/14/2010 15:00",
-		"toLowercase:" : "nice 7/14/2010 13:11",
-		"toUppercase:" : "nice 7/14/2010 13:08",
+		"toLowercase:" : "CamilloBruni 9/29/2011 02:19",
+		"toLowercaseString:" : "CamilloBruni 9/29/2011 02:17",
+		"toUppercase:" : "CamilloBruni 9/29/2011 02:19",
+		"toUppercaseString:" : "CamilloBruni 9/29/2011 02:17",
 		"value:" : "nice 2/28/2010 20:05" },
 	"instance" : {
 		 } }

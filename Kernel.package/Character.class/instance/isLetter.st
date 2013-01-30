@@ -1,4 +1,4 @@
 testing
 isLetter
 
-	^ (EncodedCharSet charsetAt: self leadingChar) isLetter: self.
+	^ self characterSet isLetter: self.

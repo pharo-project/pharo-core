@@ -1,4 +1,4 @@
 testing
 isLowercase
 
-	^ (EncodedCharSet charsetAt: self leadingChar) isLowercase: self.
+	^ self characterSet isLowercase: self.

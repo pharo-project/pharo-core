@@ -1,4 +1,4 @@
 testing
 canBeNonGlobalVarInitial
 
-	^ (EncodedCharSet charsetAt: self leadingChar) canBeNonGlobalVarInitial: self.
+	^ self characterSet canBeNonGlobalVarInitial: self.
