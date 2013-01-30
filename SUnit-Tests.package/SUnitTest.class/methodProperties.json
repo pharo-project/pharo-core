@@ -9,7 +9,6 @@
 		"expectedFailureFails" : "NikoSchwarz 10/23/2010 14:34",
 		"expectedFailurePasses" : "NikoSchwarz 10/23/2010 15:34",
 		"expectedFailures" : "IgorStasenko 7/28/2011 16:44",
-		"fail" : "BaseSystem 8/30/2009 09:40",
 		"hasRun" : "BaseSystem 8/30/2009 09:40",
 		"hasSetup" : "BaseSystem 8/30/2009 09:40",
 		"noop" : "BaseSystem 8/30/2009 09:40",

@@ -48,7 +48,7 @@
 		"setListMenu" : "",
 		"setListShortcuts" : "",
 		"setRefreshingBlockForImplementorsOf:" : "",
-		"setRefreshingBlockForSendersOf:" : "",
+		"setRefreshingBlockForSendersOf:" : "CamilloBruni 8/24/2012 16:47",
 		"setSelectedIndex:" : "BenjaminVanRyseghem 6/14/2012 11:41",
 		"sortClassesInCachedHierarchy:b:" : "",
 		"sortingBlock:" : "BenjaminVanRyseghem 6/14/2012 10:15",
@@ -61,4 +61,4 @@
 		"topologicSort" : "BenjaminVanRyseghem 6/14/2012 10:06",
 		"topologicSort:" : "BenjaminVanRyseghem 6/14/2012 10:07",
 		"whenSelectedItemChanged:" : "BenjaminVanRyseghem 6/14/2012 11:47",
-		"wrapItem:" : "BenjaminVanRyseghem 7/18/2012 15:58" } }
+		"wrapItem:" : "CamilloBruni 8/24/2012 16:58" } }

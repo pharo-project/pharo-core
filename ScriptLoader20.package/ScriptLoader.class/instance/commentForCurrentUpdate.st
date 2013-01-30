@@ -1,13 +1,7 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6732:	Failing test: OpenToolTest
-	http://code.google.com/p/pharo/issues/detail?id=6732
+ ^ 'Issue 6745:	Failing tests related to Zinc
+	http://code.google.com/p/pharo/issues/detail?id=6745
 	
-Issue 6681:	Failing test: GoferApiTest>>#testRepositoryErrors
-	http://code.google.com/p/pharo/issues/detail?id=6681
-	
-Issue 6742:	Search Dialog not accepting input
-	http://code.google.com/p/pharo/issues/detail?id=6742
-	
-Issue 6741:	Replace the whole HttpUrl downloading protocol
-	http://code.google.com/p/pharo/issues/detail?id=6741'
+Issue 6052:	would be good that TestAsserter uses TAssertable
+	http://code.google.com/p/pharo/issues/detail?id=6052'

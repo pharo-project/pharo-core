@@ -6,4 +6,5 @@ setRefreshingBlockForSendersOf: aSelector
 				hasSpecialSelector: aSelector
 				ifTrueSetByte: [ :b | specialByte := b ].
 
-	self refreshingBlock: [:method | (method refersToLiteral: aSelector) or: [ specialFlag and: [ method scanFor: specialByte ]]]
+	self refreshingBlock: [:method | 
+		(method refersToLiteral: aSelector) or: [ specialFlag and: [ method scanFor: specialByte ]]]

@@ -1,3 +1,7 @@
 asserting
-deny: aBoolean description: aString resumable: resumableBoolean
-	self assert: aBoolean not description: aString resumable: resumableBoolean.
+deny: aBooleanOrBlock description: aString resumable: resumableBoolean 
+	self
+		assert: aBooleanOrBlock value not
+		description: aString
+		resumable: resumableBoolean
+			

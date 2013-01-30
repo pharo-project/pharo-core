@@ -9,7 +9,8 @@
 		"timeStamp",
 		"failures",
 		"errors",
-		"passed" ],
+		"passed",
+		"skipped" ],
 	"name" : "TestResult",
 	"pools" : [
 		 ],

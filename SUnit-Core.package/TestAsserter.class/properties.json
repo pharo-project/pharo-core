@@ -2,6 +2,7 @@
 	"category" : "SUnit-Core-Kernel",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "TAssertable classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -11,4 +12,5 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
+	"traitcomposition" : "TAssertable - {#executeShould:inScopeOf:withDescriptionContaining:. #skipUnless:}",
 	"type" : "normal" }

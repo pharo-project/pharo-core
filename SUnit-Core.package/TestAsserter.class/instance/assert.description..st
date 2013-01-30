@@ -1,5 +1,8 @@
 asserting
-assert: aBoolean description: aString
-	aBoolean ifFalse:
-		[self logFailure: aString.
-		self defaultTestFailure signal: aString].
+assert: aBooleanOrBlock description: aStringOrBlock
+	aBooleanOrBlock value ifFalse: [
+		| aString |
+		aString := aStringOrBlock value.
+		self logFailure: aString.
+		self classForTestResult failure signal: aString]
+			

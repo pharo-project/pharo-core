@@ -2,8 +2,12 @@ private
 wrapItem: anItem
 	| s |
 	
-	s :=String streamContents: [:t | 
-		3 to: (cachedHierarchy at: anItem) size do: [:i | t << '    '].
-		t << anItem methodClass name<< ' ('<< (anItem category ifNil: ['']) <<')'].
+	s :=String streamContents: [ :aStream | 
+		3 to: (cachedHierarchy at: anItem) size do: [:i | aStream << '    '].
+		aStream 
+			<< anItem methodClass name << ' ('.
+		anItem isTraitMethod
+			ifTrue: [ aStream << anItem compiledMethod origin name; space ].
+		aStream << (anItem category ifNil: ['']) <<')'].
 	
 	^ {s. anItem selector}.
