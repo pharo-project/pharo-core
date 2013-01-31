@@ -4,8 +4,8 @@ unwindTo: aContext
 	| ctx unwindBlock |
 	ctx := self.
 	[(ctx := ctx findNextUnwindContextUpTo: aContext) isNil] whileFalse: [
-		(ctx tempAt: 2) ifNil:[
-			ctx tempAt: 2 put: true.
-			unwindBlock := ctx tempAt: 1.
+		(ctx unwindComplete) ifNil:[
+			ctx unwindComplete: true.
+			unwindBlock := ctx unwindBlock.
 			unwindBlock value]
 	].

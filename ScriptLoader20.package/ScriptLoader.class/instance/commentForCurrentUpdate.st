@@ -1,4 +1,10 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6862:	Configation CLI should not distinguish between symbol and strings as version names
-	http://code.google.com/p/pharo/issues/detail?id=6862'
+ ^ 'Issue 6863:	Use named accessors for Exception handling code
+	http://code.google.com/p/pharo/issues/detail?id=6863
+	
+Issue 6866:	AuthorName Settings are broken
+		http://code.google.com/p/pharo/issues/detail?id=6866
+		
+Issue 6867:	Improve TestRunner CLI Class Comment / Help text
+		http://code.google.com/p/pharo/issues/detail?id=6867'

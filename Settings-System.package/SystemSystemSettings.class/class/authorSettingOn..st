@@ -11,4 +11,4 @@ authorSettingOn: aBuilder
 		notInStyle;
 		default: '';
 		ghostHelp: 'VincentVanGogh';
-		description: Author uniqueInstance messagePrompt
+		description: AuthorNameRequest messagePrompt
