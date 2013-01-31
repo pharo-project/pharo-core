@@ -1,7 +1,12 @@
 actions
 installVersion: aVersionName
+	| metacelloVersion |
 	self inform: 'Installing ', self configurationName, ' ', aVersionName.
 	
-	(self metacelloVersion: aVersionName) load.
+	metacelloVersion := (self metacelloVersion: aVersionName).
+	
+	(self hasOption: 'group')
+		ifTrue: [ metacelloVersion load: (self optionAt: 'group') ]
+		ifFalse: [ metacelloVersion load ].
 	
 	Smalltalk snapshot: true andQuit: true.

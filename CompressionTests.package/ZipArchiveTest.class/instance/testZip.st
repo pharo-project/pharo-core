@@ -2,11 +2,14 @@ tests
 testZip
 	
 	| localFileHeaderSignature versionNeededToExtract bitFlag deflateCompressionMethod realModificationStamp expectedCrc32 expectedCompressedSize expectedUncompressedSize centralDirectoryOffset centralDirectoryEnd |
+	
 	realModificationStamp := fileToZip entry modification.
 	zip	
 		addFile: fileToZip fullName
-		as: fileToZip name.
+		as: fileToZip basename.
+		
 	zip writeToFileNamed: zipFile fullName.
+	
 	zipFile readStreamDo: [ :str |
 		str binary.
 		localFileHeaderSignature := 16r04034b50.

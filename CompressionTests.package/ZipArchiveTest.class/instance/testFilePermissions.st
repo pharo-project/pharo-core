@@ -8,10 +8,10 @@ testFilePermissions
 	folderModified := subdir entry modification asTime.
 	folderMember := zip
 		addDirectory: subdir fullName
-		as: subdir name.
+		as: subdir basename.
 	fileMember := zip	
 		addFile: nestedFileToZip fullName
-		as: nestedFileToZip name.
+		as: nestedFileToZip basename.
 	zip writeToFileNamed: zipFile fullName.
 	
 	self assert: fileMember unixFileAttributes equals: 8r100666.

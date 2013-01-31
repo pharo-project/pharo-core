@@ -10,10 +10,11 @@ testCreateWithRelativeNames
 	folderModified := subdir entry modification.
 	zip
 		addDirectory: subdir fullName
-		as: subdir name.
+		as: subdir basename.
 	zip	
 		addFile: nestedFileToZip fullName
-		as: nestedFileToZip name.
+		as: nestedFileToZip basename.
+		
 	zip writeToFileNamed: zipFile fullName.
 	
 	zipFile readStreamDo: [ :str |
@@ -49,9 +50,9 @@ testCreateWithRelativeNames
 		self assert: (str nextLittleEndianNumber: 4) equals: expectedCrc32.
 		self assert: (str nextLittleEndianNumber: 4) equals: expectedCompressedSize.
 		self assert: (str nextLittleEndianNumber: 4) equals: expectedUncompressedSize.
-		self assert: (str nextLittleEndianNumber: 2) equals: nestedFileToZip name size.
+		self assert: (str nextLittleEndianNumber: 2) equals: nestedFileToZip basename size.
 		self assert: (str nextLittleEndianNumber: 2) equals: 0 "Extra header length".
-		self assert: (str next: nestedFileToZip name size) asString equals: (nestedFileToZip name copy replaceAll: DiskStore delimiter with: $/).
+		self assert: (str next: nestedFileToZip basename size) asString equals: (nestedFileToZip basename copy replaceAll: DiskStore delimiter with: $/).
 		self assert: (str next: expectedCompressedSize) isNil not "I don''t understand the compression yet".
 		
 		"Central directory structure"
@@ -91,7 +92,7 @@ testCreateWithRelativeNames
 		self assert: (str nextLittleEndianNumber: 4) equals: expectedCrc32.
 		self assert: (str nextLittleEndianNumber: 4) equals: expectedCompressedSize.
 		self assert: (str nextLittleEndianNumber: 4) equals: expectedUncompressedSize.
-		self assert: (str nextLittleEndianNumber: 2) equals: nestedFileToZip name size.
+		self assert: (str nextLittleEndianNumber: 2) equals: nestedFileToZip basename size.
 		self assert: (str nextLittleEndianNumber: 2) equals: 0 "Extra header length".
 		self assert: (str nextLittleEndianNumber: 2) equals: 0 "File comment".
 		self assert: (str nextLittleEndianNumber: 2) equals: 0 "Disk number start".
@@ -100,7 +101,7 @@ testCreateWithRelativeNames
 		self flag: 'I don''t understand the attributes yet'.
 		self assert: (str nextLittleEndianNumber: 4) equals: 8r0100666 << 16 "External file attributes".
 		self assert: (str nextLittleEndianNumber: 4) equals: fileStart "Relative offset of local header".
-		self assert: (str next: nestedFileToZip name size) asString equals:  (nestedFileToZip name copy replaceAll: DiskStore delimiter with: $/).
+		self assert: (str next: nestedFileToZip basename size) asString equals:  (nestedFileToZip basename copy replaceAll: DiskStore delimiter with: $/).
 
 		centralDirectoryEnd := str position.
 		
