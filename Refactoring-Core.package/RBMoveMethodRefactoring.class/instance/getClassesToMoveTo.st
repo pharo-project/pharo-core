@@ -7,4 +7,4 @@ getClassesToMoveTo
 				ifTrue: [self getClassesForInstanceVariable]
 				ifFalse: [self getClassForGlobalOrClassVariable]].
 	moveToClasses isEmpty 
-		ifTrue: [self refactoringError: 'No classes selected, method not moved.']
+		ifTrue: [self refactoringFailure: 'No classes selected, method not moved.']

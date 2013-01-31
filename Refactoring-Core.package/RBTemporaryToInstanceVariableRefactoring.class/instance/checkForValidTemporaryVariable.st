@@ -4,11 +4,11 @@ checkForValidTemporaryVariable
 	parseTree := class parseTreeFor: selector.
 	(parseTree allTemporaryVariables includes: temporaryVariableName) 
 		ifFalse: 
-			[self refactoringError: temporaryVariableName 
+			[self refactoringFailure: temporaryVariableName 
 						, ' isn''t a valid temporary variable name'].
 	(parseTree allArgumentVariables includes: temporaryVariableName) 
 		ifTrue: 
-			[self refactoringError: temporaryVariableName , ' is a block parameter'].
+			[self refactoringFailure: temporaryVariableName , ' is a block parameter'].
 	(RBReadBeforeWrittenTester isVariable: temporaryVariableName
 		readBeforeWrittenIn: parseTree) 
 			ifTrue: 

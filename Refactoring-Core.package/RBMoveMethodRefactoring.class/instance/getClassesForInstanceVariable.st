@@ -9,4 +9,4 @@ getClassesForInstanceVariable
 		ifTrue: [types := OrderedCollection with: (self model classNamed: #Object)].
 	moveToClasses := self selectVariableTypesFrom: types
 				selected: (typer guessTypesFor: variable).
-	moveToClasses isNil ifTrue: [self refactoringError: 'Method not moved']
+	moveToClasses isNil ifTrue: [self refactoringFailure: 'Method not moved']

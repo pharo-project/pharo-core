@@ -1,11 +1,11 @@
 preconditions
 verifySelectedInterval
 	sourceTree := class parseTreeFor: selector.
-	sourceTree isNil ifTrue: [self refactoringError: 'Could not parse source'].
+	sourceTree isNil ifTrue: [self refactoringFailure: 'Could not parse source'].
 	assignmentNode := sourceTree whichNodeIsContainedBy: sourceInterval.
 	assignmentNode isAssignment 
 		ifFalse: 
-			[self refactoringError: 'The selected node is not an assignment statement'].
+			[self refactoringFailure: 'The selected node is not an assignment statement'].
 	definingNode := assignmentNode whoDefines: assignmentNode variable name.
 	self hasOnlyOneAssignment 
 		ifFalse: 

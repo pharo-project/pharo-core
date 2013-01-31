@@ -3,7 +3,7 @@ insertTemporary
 	| node statementNode |
 	node := self parseTree whichNodeIsContainedBy: sourceInterval.
 	(node notNil and: [node isValue]) 
-		ifFalse: [self refactoringError: 'Cannot assign to non-value nodes'].
+		ifFalse: [self refactoringFailure: 'Cannot assign to non-value nodes'].
 	statementNode := node statementNode.
 	node replaceWith: (RBVariableNode named: newVariableName).
 	(statementNode parent)

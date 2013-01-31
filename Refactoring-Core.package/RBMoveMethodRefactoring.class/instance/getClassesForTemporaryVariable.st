@@ -8,4 +8,4 @@ getClassesForTemporaryVariable
 	types isEmpty 
 		ifTrue: [types := OrderedCollection with: (self model classNamed: #Object)].
 	moveToClasses := self selectVariableTypesFrom: types selected: types.
-	moveToClasses isNil ifTrue: [self refactoringError: 'Method not moved']
+	moveToClasses isNil ifTrue: [self refactoringFailure: 'Method not moved']

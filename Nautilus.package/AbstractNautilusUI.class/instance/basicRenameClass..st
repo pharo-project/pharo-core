@@ -1,4 +1,4 @@
 dispatch
-dispatchRenameClass: aClass
+basicRenameClass: aClass
 
 	self renameClass: aClass

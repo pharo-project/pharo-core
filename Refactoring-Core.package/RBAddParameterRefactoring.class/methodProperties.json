@@ -7,10 +7,10 @@
 		"checkSendersAccessTo:" : "",
 		"checkVariableReferencesIn:" : "lr 11/2/2009 00:14",
 		"modifyImplementorParseTree:in:" : "lr 2/21/2010 14:52",
-		"myConditions" : "",
+		"myConditions" : "CamilloBruni 10/8/2012 00:13",
 		"newSelectorString" : "",
 		"parseTreeRewriter" : "lr 11/2/2009 00:14",
 		"safeVariableNameFor:temporaries:" : "",
 		"senders" : "",
 		"storeOn:" : "",
-		"verifyInitializationExpression" : "" } }
+		"verifyInitializationExpression" : "CamilloBruni 10/8/2012 00:13" } }

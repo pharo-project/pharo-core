@@ -24,7 +24,7 @@ extractMethod
 	extractedParseTree source: extractCode.
 	parseTree := class parseTreeFor: selector.
 	parseTree isNil 
-		ifTrue: [self refactoringError: 'Could not parse ' , selector printString].
+		ifTrue: [self refactoringFailure: 'Could not parse ' , selector printString].
 	subtree := isSequence 
 				ifTrue: 
 					[RBParseTreeSearcher 
@@ -32,7 +32,7 @@ extractMethod
 						in: parseTree]
 				ifFalse: [RBParseTreeSearcher treeMatching: extractCode in: parseTree].
 	subtree isNil 
-		ifTrue: [self refactoringError: 'Could not extract code from method'].
+		ifTrue: [self refactoringFailure: 'Could not extract code from method'].
 	newCode := self methodDelimiter.
 	isSequence 
 		ifTrue: 

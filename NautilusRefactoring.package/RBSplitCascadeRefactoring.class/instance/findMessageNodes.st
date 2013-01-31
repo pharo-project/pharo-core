@@ -7,6 +7,6 @@ findMessageNodes
 	afterNodes := cascadeNode messages
 		select: [ :each | selectedInterval last <= each selectorParts first start ].
 	(beforeNodes isEmpty or: [ afterNodes isEmpty ])
-		ifTrue: [ self refactoringError: 'Splitting a cascade into the whole cascade and an empty one is pointless' ].
+		ifTrue: [ self refactoringFailure: 'Splitting a cascade into the whole cascade and an empty one is pointless' ].
 	(beforeNodes size + afterNodes size = cascadeNode messages size)
-		ifFalse: [ self refactoringError: 'To set the split boundary place the cursor inbetween two cascaded messages' ]
+		ifFalse: [ self refactoringFailure: 'To set the split boundary place the cursor inbetween two cascaded messages' ]

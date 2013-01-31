@@ -6,10 +6,10 @@ checkParseTree
 				inInterval: interval
 				name: name.
 	node isNil
-		ifTrue: [self refactoringError: 'Unable to locate node in parse tree'].
+		ifTrue: [self refactoringFailure: 'Unable to locate node in parse tree'].
 	definingNode := node whoDefines: name.
 	definingNode isNil
-		ifTrue: [self refactoringError: 'Cannot locate variable definition'].
+		ifTrue: [self refactoringFailure: 'Cannot locate variable definition'].
 	definingNode isSequence
 		ifFalse: [self refactoringError: 'Variable is an argument'].
 	(self usesDirectly: definingNode)

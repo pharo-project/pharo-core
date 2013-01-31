@@ -3,9 +3,9 @@
 		"model:removeParameter:in:selector:" : "",
 		"removeParameter:in:selector:" : "" },
 	"instance" : {
-		"computeNewSelector" : "md 8/2/2005 22:25",
-		"getNewSelector" : "",
-		"hasReferencesToTemporaryIn:" : "",
+		"computeNewSelector" : "CamilloBruni 10/8/2012 00:03",
+		"getNewSelector" : "CamilloBruni 10/8/2012 00:03",
+		"hasReferencesToTemporaryIn:" : "CamilloBruni 10/8/2012 00:02",
 		"myConditions" : "lr 3/9/2010 16:08",
 		"removeParameter:in:selector:" : "",
 		"storeOn:" : "" } }

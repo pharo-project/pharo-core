@@ -4,7 +4,7 @@
 		"renameTemporaryFrom:to:in:selector:" : "" },
 	"instance" : {
 		"class:selector:interval:newName:" : "",
-		"preconditions" : "",
-		"renameNode:" : "lr 11/2/2009 00:14",
+		"preconditions" : "CamilloBruni 10/8/2012 00:02",
+		"renameNode:" : "CamilloBruni 10/8/2012 00:01",
 		"storeOn:" : "",
-		"transform" : "" } }
+		"transform" : "CamilloBruni 10/8/2012 00:01" } }

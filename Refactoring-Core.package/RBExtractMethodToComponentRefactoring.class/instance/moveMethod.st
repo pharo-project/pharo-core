@@ -3,7 +3,7 @@ moveMethod
 	| variable refactoring |
 	variable := self selectVariableToMoveMethodTo: extractedMethodSelector
 				class: class.
-	variable isNil ifTrue: [self refactoringError: 'Did not extract method'].
+	variable isNil ifTrue: [self refactoringFailure: 'Did not extract method'].
 	refactoring := RBMoveMethodRefactoring 
 				model: self model
 				selector: extractedMethodSelector

@@ -5,7 +5,7 @@ preconditions
 			[:sum :each | 
 			| aClass |
 			aClass := self model classNamed: each asSymbol.
-			aClass isNil ifTrue: [self refactoringError: 'No such class'].
+			aClass isNil ifTrue: [self refactoringFailure: 'No such class'].
 			sum 
 				& (((RBCondition isMetaclass: aClass) 
 						errorMacro: 'Cannot remove just the metaclass') not 

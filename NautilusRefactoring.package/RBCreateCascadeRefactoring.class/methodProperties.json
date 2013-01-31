@@ -3,14 +3,14 @@
 		"combine:from:in:" : "",
 		"model:combine:from:in:" : "" },
 	"instance" : {
-		"addStatementNode:" : "",
+		"addStatementNode:" : "CamilloBruni 10/8/2012 00:13",
 		"combine:from:in:" : "",
 		"combineMessages" : "",
 		"compileCode" : "",
 		"findReceiverNode" : "",
-		"findSequenceNode" : "",
+		"findSequenceNode" : "CamilloBruni 10/8/2012 00:12",
 		"findStatementNodes" : "",
-		"parseTree" : "",
+		"parseTree" : "CamilloBruni 10/7/2012 23:59",
 		"preconditions" : "",
 		"selectedSource" : "",
 		"transform" : "" } }

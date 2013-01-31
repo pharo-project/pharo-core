@@ -5,4 +5,4 @@ handleError: anException
 		ifFalse: [ 
 			(self confirm: anException messageText) 
 				ifTrue: [ anException actionBlock value ] ].
-	anException return
+	anException resume

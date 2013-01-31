@@ -3,8 +3,8 @@
 		"class:selector:variable:" : "",
 		"model:class:selector:variable:" : "" },
 	"instance" : {
-		"checkForValidTemporaryVariable" : "",
+		"checkForValidTemporaryVariable" : "CamilloBruni 10/7/2012 23:58",
 		"class:selector:variable:" : "",
 		"preconditions" : "",
 		"storeOn:" : "",
-		"transform" : "lr 11/2/2009 00:14" } }
+		"transform" : "CamilloBruni 10/7/2012 23:58" } }

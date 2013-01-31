@@ -9,7 +9,7 @@ getNewMethodName
 	methodName := RBMethodName selector: (self uniqueMethodNameFor: parameters size) arguments: parameters.
 	
 	[newMethodName := self requestMethodNameFor: methodName.
-	newMethodName isNil ifTrue: [self refactoringError: 'Did not move method'].
+	newMethodName isNil ifTrue: [self refactoringFailure: 'Did not move method'].
 	newMethodName isValid 
 		ifTrue: [newSelector := newMethodName selector]
 		ifFalse: [self refactoringWarning: 'Invalid method name'].

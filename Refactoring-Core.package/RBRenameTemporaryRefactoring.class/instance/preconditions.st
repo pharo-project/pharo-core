@@ -7,9 +7,9 @@ preconditions
 			& (RBCondition withBlock: 
 						[| methodSource |
 						interval first > interval last 
-							ifTrue: [self refactoringError: 'Invalid variable name'].
+							ifTrue: [self refactoringFailure: 'Invalid variable name'].
 						methodSource := class sourceCodeFor: selector.
 						methodSource size >= interval last 
-							ifFalse: [self refactoringError: 'Invalid range for variable'].
+							ifFalse: [self refactoringFailure: 'Invalid range for variable'].
 						oldName := methodSource copyFrom: interval first to: interval last.
 						true])

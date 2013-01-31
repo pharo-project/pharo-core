@@ -8,8 +8,8 @@ inlineClass
 	imps isEmpty 
 		ifTrue: 
 			[self 
-				refactoringError: 'Nobody defines a method named ' , self inlineSelector].
+				refactoringFailure: 'Nobody defines a method named ' , self inlineSelector].
 	inlineClass := self requestImplementorToInline: imps.
 	inlineClass isNil 
-		ifTrue: [self refactoringError: 'No implementor selected'].
+		ifTrue: [self refactoringFailure: 'No implementor selected'].
 	^inlineClass

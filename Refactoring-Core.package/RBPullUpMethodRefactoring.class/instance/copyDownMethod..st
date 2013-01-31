@@ -7,7 +7,7 @@ copyDownMethod: aSelector
 	oldSource isNil 
 		ifTrue: 
 			[self 
-				refactoringError: ('Source code for <1s> superclass method not available' 
+				refactoringFailure: ('Source code for <1s> superclass method not available' 
 						expandMacrosWith: aSelector)].
 	oldProtocol := superclassDefiner protocolsFor: aSelector.
 	subclasses := class superclass subclasses 

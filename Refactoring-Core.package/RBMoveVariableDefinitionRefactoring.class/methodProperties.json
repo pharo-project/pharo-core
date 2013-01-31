@@ -4,9 +4,9 @@
 		"model:bindTight:in:selector:" : "" },
 	"instance" : {
 		"checkNodes:" : "",
-		"checkParseTree" : "",
+		"checkParseTree" : "CamilloBruni 10/8/2012 00:06",
 		"class:selector:interval:" : "",
-		"preconditions" : "",
+		"preconditions" : "CamilloBruni 10/8/2012 00:06",
 		"storeOn:" : "",
 		"subblocksIn:" : "lr 11/2/2009 00:14",
 		"transform" : "",

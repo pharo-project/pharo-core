@@ -3,6 +3,6 @@ renameClass
 
 	self okToChange ifFalse: [ ^ self ].
 
-	self dispatchRenameClass: self selectedClass theNonMetaClass.
+	self basicRenameClass: self selectedClass theNonMetaClass.
 
 	self changed: #sourceCodeFrom:.

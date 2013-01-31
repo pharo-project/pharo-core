@@ -5,7 +5,7 @@ preconditions
 				onError: 
 					[:string :position | 
 					^RBCondition 
-						withBlock: [self refactoringError: 'The sources could not be parsed']].
+						withBlock: [self refactoringFailure: 'The sources could not be parsed']].
 	selector := method selector.
-	selector isNil ifTrue: [self refactoringError: 'Invalid source.'].
+	selector isNil ifTrue: [self refactoringFailure: 'Invalid source.'].
 	^(RBCondition canUnderstand: selector in: class) not

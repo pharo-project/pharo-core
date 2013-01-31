@@ -8,4 +8,4 @@ findAncestorNode
 	[ ancestorNode parent isSequence not and: [ ancestorNode parent isReturn ] ]
 		whileTrue: [ ancestorNode := ancestorNode parent ].
 	ancestorNode parent isSequence
-		ifFalse: [ self refactoringError: 'To split this cascade, you must extract it to a temporary first' ]
+		ifFalse: [ self refactoringFailure: 'To split this cascade, you must extract it to a temporary first' ]

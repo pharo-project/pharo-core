@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"buildShortcutsOn:" : "CamilloBruni 10/8/2012 00:32",
 		"changes:" : "",
 		"defaultSpec" : "bvr 6/4/2012 14:39",
 		"title" : "" },
@@ -10,14 +11,15 @@
 		"cancel" : "",
 		"cancelButton" : "",
 		"change:" : "",
-		"changes:" : "",
+		"changes:" : "CamilloBruni 10/8/2012 00:26",
 		"initialize" : "BenjaminVanRyseghem 6/11/2012 10:54",
 		"initializeAcceptButton" : "BenjaminVanRyseghem 6/11/2012 10:51",
 		"initializeCancelButton" : "BenjaminVanRyseghem 6/11/2012 10:52",
 		"initializePickList" : "BenjaminVanRyseghem 6/12/2012 17:49",
 		"initializePresenter" : "BenjaminVanRyseghem 6/12/2012 17:49",
-		"initializeWidgets" : "BenjaminVanRyseghem 6/12/2012 17:48",
+		"initializeWidgets" : "CamilloBruni 10/8/2012 18:25",
 		"pickList" : "",
 		"pickedChanges" : "",
 		"setFocus" : "",
+		"setShortcuts" : "CamilloBruni 10/8/2012 00:38",
 		"textArea" : "" } }

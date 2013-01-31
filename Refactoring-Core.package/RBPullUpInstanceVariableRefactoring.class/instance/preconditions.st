@@ -2,7 +2,7 @@ preconditions
 preconditions
 	^RBCondition withBlock: 
 			[(class hierarchyDefinesInstanceVariable: variableName) 
-				ifFalse: [self refactoringError: 'No subclass defines ' , variableName].
+				ifFalse: [self refactoringFailure: 'No subclass defines ' , variableName].
 			(class subclasses 
 				detect: [:each | (each directlyDefinesInstanceVariable: variableName) not]
 				ifNone: [nil]) notNil 

@@ -6,7 +6,7 @@ getNewMethodName
 	
 	[newMethodName := self requestMethodNameFor: methodName.
 	newMethodName isNil 
-		ifTrue: [self refactoringError: 'Did not extract code'].
+		ifTrue: [self refactoringFailure: 'Did not extract code'].
 	newSelector := newMethodName selector.
 	(self checkMethodName: newSelector in: class) 
 		ifFalse: 

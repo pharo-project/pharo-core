@@ -6,4 +6,4 @@ findCascadeNode
 	[ cascadeNode isNil or: [ cascadeNode isCascade ] ]
 		whileFalse: [ cascadeNode := cascadeNode parent ].
 	cascadeNode isNil
-		ifTrue: [ self refactoringError: 'The selection doesn''t appear to be within a cascade' ]
+		ifTrue: [ self refactoringFailure: 'The selection doesn''t appear to be within a cascade' ]

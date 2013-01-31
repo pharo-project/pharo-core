@@ -9,4 +9,4 @@ getClassForGlobalOrClassVariable
 		ifFalse: [type := definingClass typeOfClassVariable: variable].
 	moveToClasses := self selectVariableTypesFrom: (Array with: type)
 				selected: (Array with: type).
-	moveToClasses isNil ifTrue: [self refactoringError: 'Method not moved']
+	moveToClasses isNil ifTrue: [self refactoringFailure: 'Method not moved']

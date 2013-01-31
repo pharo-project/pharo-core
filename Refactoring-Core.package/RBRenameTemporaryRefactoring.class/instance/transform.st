@@ -7,11 +7,11 @@ transform
 				inInterval: interval
 				name: oldName.
 	(variableNode isNil or: [variableNode isVariable not]) 
-		ifTrue: [self refactoringError: oldName , ' isn''t a valid variable'].
+		ifTrue: [self refactoringFailure: oldName , ' isn''t a valid variable'].
 	variableNode name = oldName 
-		ifFalse: [self refactoringError: 'Invalid selection'].
+		ifFalse: [self refactoringFailure: 'Invalid selection'].
 	definingNode := variableNode whoDefines: oldName.
 	definingNode isNil 
-		ifTrue: [self refactoringError: oldName , ' isn''t defined by the method'].
+		ifTrue: [self refactoringFailure: oldName , ' isn''t defined by the method'].
 	self renameNode: definingNode.
 	class compileTree: parseTree

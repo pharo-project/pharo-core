@@ -3,7 +3,7 @@
 		"model:sendersOf:in:" : "",
 		"sendersOf:in:" : "" },
 	"instance" : {
-		"checkInlinedMethods" : "",
+		"checkInlinedMethods" : "CamilloBruni 10/8/2012 00:10",
 		"inlineMessagesInClass:andSelector:" : "lr 9/8/2011 20:11",
 		"inlineSelfSends" : "",
 		"messagePattern" : "",

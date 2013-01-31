@@ -33,6 +33,8 @@
 		"primitiveExecute" : "",
 		"refactoringError:" : "lr 10/5/2010 16:13",
 		"refactoringError:with:" : "lr 10/5/2010 16:13",
+		"refactoringFailure:" : "CamilloBruni 10/7/2012 23:54",
+		"refactoringFailure:with:" : "CamilloBruni 10/7/2012 23:55",
 		"refactoringWarning:" : "lr 10/5/2010 16:13",
 		"requestImplementorToInline:" : "",
 		"requestMethodNameFor:" : "dvf 9/8/2001 19:32",

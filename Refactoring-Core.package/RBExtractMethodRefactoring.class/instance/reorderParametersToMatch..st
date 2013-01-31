@@ -9,4 +9,4 @@ reorderParametersToMatch: aSelector
 					dictionary at: each name
 						ifAbsent: 
 							[self 
-								refactoringError: 'An internal error occured, please report this error.']]
+								refactoringFailure: 'An internal error occured, please report this error.']]

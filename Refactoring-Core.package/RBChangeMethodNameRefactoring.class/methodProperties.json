@@ -9,9 +9,9 @@
 		"myConditions" : "",
 		"newSelector" : "",
 		"parseTreeRewriter" : "lr 11/2/2009 00:14",
-		"preconditions" : "",
+		"preconditions" : "CamilloBruni 10/7/2012 23:29",
 		"removeRenamedImplementors" : "lr 12/23/2009 19:59",
-		"renameImplementors" : "lr 11/1/2009 23:58",
+		"renameImplementors" : "CamilloBruni 10/7/2012 23:59",
 		"renameMessageSends" : "",
 		"renameMethod:in:to:permutation:" : "md 3/15/2006 17:27",
 		"transform" : "lr 12/23/2009 20:00" } }

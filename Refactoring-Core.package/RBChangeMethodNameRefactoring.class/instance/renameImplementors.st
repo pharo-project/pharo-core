@@ -5,12 +5,12 @@ renameImplementors
 			| parseTree |
 			parseTree := each parseTreeFor: oldSelector.
 			parseTree isNil 
-				ifTrue: [self refactoringError: 'Could not parse source code.'].
+				ifTrue: [self refactoringFailure: 'Could not parse source code.'].
 			self implementorsCanBePrimitives 
 				ifFalse: 
 					[parseTree isPrimitive 
 						ifTrue: 
-							[self refactoringError: ('<1p>''s implementation of #<2s> is a primitive' 
+							[self refactoringFailure: ('<1p>''s implementation of #<2s> is a primitive' 
 										expandMacrosWith: each
 										with: oldSelector)]].
 			self modifyImplementorParseTree: parseTree in: each.

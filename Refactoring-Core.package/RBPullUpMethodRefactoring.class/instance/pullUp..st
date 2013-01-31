@@ -3,7 +3,7 @@ pullUp: aSelector
 	| source refactoring |
 	source := class sourceCodeFor: aSelector.
 	source isNil 
-		ifTrue: [self refactoringError: 'Source for method not available'].
+		ifTrue: [self refactoringFailure: 'Source for method not available'].
 	refactoring := RBExpandReferencedPoolsRefactoring 
 				model: self model
 				forMethod: (class parseTreeFor: aSelector)

@@ -2,9 +2,9 @@ private
 computeNewSelector
 	| keywords stream |
 	oldSelector numArgs == 0 
-		ifTrue: [self refactoringError: 'This method contains no arguments'].
+		ifTrue: [self refactoringFailure: 'This method contains no arguments'].
 	oldSelector isInfix 
-		ifTrue: [self refactoringError: 'Cannot remove parameters of infix selectors'].
+		ifTrue: [self refactoringFailure: 'Cannot remove parameters of infix selectors'].
 	keywords := oldSelector keywords asOrderedCollection.
 	keywords size = 1 ifTrue: [^(keywords first copyWithout: $:) asSymbol].
 	keywords removeAt: parameterIndex.
