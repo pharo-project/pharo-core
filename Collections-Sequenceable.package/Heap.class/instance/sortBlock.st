@@ -1,3 +1,3 @@
 accessing
 sortBlock
-	^sortBlock
+	^ sortBlock ifNil: [ sortBlock := self defaultSortBlock ]

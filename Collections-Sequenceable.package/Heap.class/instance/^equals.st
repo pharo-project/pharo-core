@@ -4,6 +4,6 @@ comparing
 
 	self == anObject ifTrue: [^true].
 	anObject isHeap ifFalse: [^false].
-	sortBlock = anObject sortBlock ifFalse: [^false].
+	self sortBlock = anObject sortBlock ifFalse: [^false].
 	self size = anObject size ifFalse: [^false].
 	^(self asArray sort: sortBlock) = (anObject asArray sort: sortBlock)

@@ -1,7 +1,7 @@
 {
 	"category" : "Collections-Sequenceable",
 	"classinstvars" : [
-		 ],
+		"sortBlock" ],
 	"classtraitcomposition" : "TSortable classTrait",
 	"classvars" : [
 		 ],

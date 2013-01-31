@@ -1,6 +1,5 @@
 initialization
-initialize   
-	"self initialize"
+initialize   "self initialize"
 
 	| order |
 	
@@ -33,12 +32,21 @@ initialize
 	UppercasingTable := String withAll: (Character allByteCharacters collect: [:c | c asUppercase]).
 
 	"a table for testing tokenish (for fast numArgs)"
-	Tokenish := String withAll: (Character allByteCharacters
-		collect: [ :c | c tokenish ifTrue: [ c ] ifFalse: [ $~ ] ]).
+	Tokenish := String withAll: (Character allByteCharacters 
+		collect: [:c | c tokenish ifTrue: [ c ] ifFalse: [ $~ ]]).
 
 	"CR and LF--characters that terminate a line"
-	 CSLineEnders := CharacterSet crlf.
+	CSLineEnders := CharacterSet crlf.
 
  	"separators and non-separators"
 	CSSeparators := CharacterSet separators.
 	CSNonSeparators := CSSeparators complement.
+	
+	"a table for exchanging cr with lf and vica versa"
+	CrLfExchangeTable := Character allByteCharacters collect: [ :each |
+		each = Character cr 
+			ifTrue: [ Character lf ]
+			ifFalse: [ 
+				each = Character lf
+					ifTrue: [ Character cr ]
+					ifFalse:[ each ]]]

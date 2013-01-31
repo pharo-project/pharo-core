@@ -18,6 +18,6 @@ mergeSortFrom: startIndex to: stopIndex by: aBlock
 	self
 		mergeSortFrom: startIndex
 		to: stopIndex 
-		src: self shallowCopy 
+		src: self copy 
 		dst: self 
 		by: aBlock
