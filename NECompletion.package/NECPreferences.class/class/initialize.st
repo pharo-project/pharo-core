@@ -1,6 +1,6 @@
 initialization
 initialize
-	enabled := caseSensitive := smartCharacters := true.
+	enabled := caseSensitive := smartCharacters := false.
 	expandPrefixes := false.
 	captureNavigationKeys := false.
 	useEnterToAccept := false.
