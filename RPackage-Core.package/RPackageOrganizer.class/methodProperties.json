@@ -2,7 +2,7 @@
 	"class" : {
 		"allManagers" : "StephaneDucasse 6/2/2012 19:39",
 		"computeDiffWithMC" : "cyrille.delaunay 11/3/2010 18:26",
-		"default" : "TudorGirba 11/25/2010 23:51",
+		"default" : "EstebanLorenzano 9/24/2012 16:02",
 		"fillUp" : "CamilloBruni 8/29/2012 23:09",
 		"fillUpFromMC" : "CamilloBruni 8/29/2012 23:09",
 		"initialize" : "EstebanLorenzano 9/11/2012 15:39",
@@ -20,6 +20,7 @@
 		"basicUnregisterPackage:" : "cyrilledelaunay 5/30/2011 17:38",
 		"basicUnregisterPackageNamed:" : "cyrilledelaunay 5/30/2011 17:38",
 		"category:matches:" : "cyrilledelaunay 2/1/2011 14:25",
+		"checkPackageExistsOrRegister:" : "EstebanLorenzano 9/24/2012 17:00",
 		"debuggingName" : "StephaneDucasse 4/24/2011 17:32",
 		"debuggingName:" : "StephaneDucasse 4/24/2011 17:32",
 		"defineUnpackagedClassesPackage" : "StephaneDucasse 6/3/2012 22:42",

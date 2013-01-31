@@ -20,7 +20,7 @@ initialize: aString
 	size := packageName size.
 	first := packageName at: 1.
 	separatorIndex := size + 1.
-	packages := RPackageOrganizer default packages 
+	packages := RPackage organizer packages 
 		select: [ :each | | eachSize |
 			eachSize := each name size.
 			(size == eachSize and: [ packageName == each name ]) 

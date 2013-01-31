@@ -1,3 +1,0 @@
-accessing
-normalizer
-	^ RBArgumentVariableNamesSpellingRule new

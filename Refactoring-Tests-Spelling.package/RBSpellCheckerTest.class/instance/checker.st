@@ -1,3 +1,0 @@
-accessing
-checker
-	^ RBSpellChecker default

@@ -11,6 +11,6 @@ testRecategorizeClassRegisterTheClassInTheMatchingPackage
 	
 	class := self createNewClassNamed: 'NewClass' inCategory: 'YYYYY'.
 	
-	class category: 'XXXXX-YYYY'.
+	class category: 'XXXXX'.
 	self deny: (self organizer packageOf: class) = YPackage. 
 	self assert: (self organizer packageOf: class) = XPackage.

@@ -4,7 +4,6 @@
 	"instance" : {
 		"testAddCategoryCreatesPackage" : "GuillermoPolito 9/5/2012 13:16",
 		"testAddCategoryIsAlreadyAPackageDoesNotCreatePackage" : "GuillermoPolito 9/5/2012 13:16",
-		"testRemoveCategoryDoesNotRemoveThePackage" : "GuillermoPolito 9/5/2012 13:17",
 		"testRenameCategoryAlsoRenameAllExtensionProtocols" : "GuillermoPolito 9/5/2012 13:16",
 		"testRenameCategoryChangeTheNameOfThePackage" : "GuillermoPolito 9/5/2012 13:16",
 		"testRenameCategoryUpdateTheOrganizer" : "GuillermoPolito 9/5/2012 13:16",

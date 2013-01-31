@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"testInlineTemporary" : "lr 9/8/2011 20:11",
-		"testInlineTemporaryBadInterval" : "lr 9/8/2011 20:11",
-		"testInlineTemporaryMutlipleAssignment" : "lr 9/8/2011 20:11",
-		"testInlineTemporaryReadBeforeWritten" : "lr 9/8/2011 20:11" } }

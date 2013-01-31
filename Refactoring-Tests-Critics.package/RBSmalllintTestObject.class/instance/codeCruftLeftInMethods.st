@@ -1,3 +1,0 @@
-methods
-codeCruftLeftInMethods
-	self halt
