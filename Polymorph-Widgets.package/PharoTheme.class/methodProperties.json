@@ -1,17 +1,17 @@
 {
 	"class" : {
 		"baseColor" : "StephaneDucasse 6/10/2012 20:24",
-		"basePassiveBackgroundColor" : "BenjaminVanRyseghem 3/23/2012 19:44",
+		"basePassiveBackgroundColor" : "CamilloBruni 10/9/2012 20:14",
 		"baseSelectionColor" : "tg 9/5/2010 21:46",
-		"darkBaseColor" : "tg 9/9/2010 22:43",
+		"darkBaseColor" : "CamilloBruni 10/9/2012 20:15",
 		"importGlamorousIcons" : "StephaneDucasse 4/11/2011 22:33",
 		"importIcons:fromFolder:inClass:category:" : "tg 9/3/2010 14:28",
-		"lightBaseColor" : "tg 9/9/2010 22:37",
-		"lightSelectionColor" : "tg 9/7/2010 13:51",
+		"lightBaseColor" : "CamilloBruni 10/9/2012 20:15",
+		"lightSelectionColor" : "CamilloBruni 10/9/2012 20:14",
 		"newDefaultSettings" : "AlainPlantec 2/11/2011 20:58",
 		"setPreferredWorldBackground" : "tg 9/13/2010 10:40",
 		"themeName" : "StephaneDucasse 4/3/2011 22:39",
-		"veryLightSelectionColor" : "tg 9/7/2010 13:51" },
+		"veryLightSelectionColor" : "CamilloBruni 10/9/2012 20:13" },
 	"instance" : {
 		"buttonCornerStyleIn:" : "tg 9/4/2010 23:06",
 		"buttonLabelForText:" : "tg 8/31/2010 08:32",

@@ -6,7 +6,7 @@ fillInTheBlankConfigure: aTemplateString
 	chunk := UIManager default
 				multiLineRequest: self fillInTheBlankRequest
 				initialAnswer: aTemplateString
-				answerHeight: 350.
+				answerHeight: 150.
 	(chunk notNil and: [ chunk notEmpty ])
 		ifTrue: [repo := self readFrom: chunk readStream.
 			repo creationTemplate: chunk].

@@ -1,6 +1,8 @@
 running
 loadConfiguration
-	| configuration |
+	| configuration metacelloVersion |
 	configuration := self configuration project.
-	version ifNotNil: [ configuration latestVersion: self version ].
-	configuration load
+	metacelloVersion := version 
+		ifNil: [ configuration stableVersion ] 
+		ifNotNil: [ configuration latestVersion: self version ].
+	metacelloVersion load
