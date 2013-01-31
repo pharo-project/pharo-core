@@ -38,7 +38,7 @@ buildBrowseShortcutsOn: aBuilder
 		do: [:target | target restrictedBrowsePackage ]
 		description: 'Open a restricted browser on the selected package'.
 		
-	(aBuilder shortcut: #browseRestrictedPackage)
+	(aBuilder shortcut: #browseRestrictedRegex)
 		category: #NautilusGlobalShortcuts
 		default: $b command , $r command , $r command
 		do: [:target | target restrictedBrowsePackageRegex ]
@@ -55,7 +55,6 @@ buildBrowseShortcutsOn: aBuilder
 		default: $b command , $r command , $s command
 		do: [:target | target restrictedBrowseSubclasses ]
 		description: 'Open a restricted browser the subclasses'.
-		
 	
 	(aBuilder shortcut: #browseInheritance)
 		category: #NautilusGlobalShortcuts

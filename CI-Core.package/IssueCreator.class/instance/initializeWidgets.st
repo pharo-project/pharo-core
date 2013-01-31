@@ -11,14 +11,16 @@ initializeWidgets
 		autoAccept: true;
 		isEventForNextFocusBlock: [:ev | ev keyString = '<tab>' ];
 		isEventForPreviousFocusBlock: [:ev | ev keyString = '<Shift-tab>' ];
-		entryCompletion: nil.
+		entryCompletion: nil;
+		isCodeCompletionAllowed: false.
 		
 	type 
 		items: self createTypes;
 		isEventForNextFocusBlock: [:ev | ev keyString = '<tab>' ];
 		isEventForPreviousFocusBlock: [:ev | ev keyString = '<Shift-tab>' ].
 	
-	description 
+	description
+		isCodeCompletionAllowed: false;
 		text: 'ENTER DESCRIPTION HERE';
 		readSelectionBlock: [ (0 to: 22) ];
 		acceptBlock: [ description readSelectionBlock: [ (1 to: 0) ]]

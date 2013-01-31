@@ -7,12 +7,6 @@ buildPackageShortcutsOn: aBuilder
 		default: $b command
 		do: [ :target | target fullBrowse ]
 		description: 'Open a new browser on the selection'.
-
-	(aBuilder shortcut: #restrictedBrowse)
-		category: #NautilusPackageShortcuts
-		default: $b command shift
-		do: [ :target | target restrictedBrowsePackage ]
-		description: 'Open a restricted browser'.
 		
 	(aBuilder shortcut: #addPackagesInGroup)
 		category: #NautilusPackageShortcuts
