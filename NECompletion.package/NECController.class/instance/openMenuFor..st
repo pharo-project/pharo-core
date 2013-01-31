@@ -16,4 +16,6 @@ openMenuFor: aParagraphEditor
 		ifFalse: [menuMorph := theMenu]. 
 	
 	context ifNil: [ ^ self closeMenu ].
-	context model entries ifEmpty: [ ^ self closeMenu].
+	context model entries ifEmpty: [ ^ self closeMenu ].
+	
+	aParagraphEditor morph on: MorphLostFocus send: #closeMenu to: self.

@@ -5,6 +5,7 @@ printOn: aStream
 		ifTrue: [ aStream nextPut: $$; nextPut: self ]
 		ifFalse: [
 			name := self class constantNameFor: self.
+			aStream nextPutAll: self class name.
 			name notNil
-				ifTrue: [ aStream nextPutAll: self class name; space; nextPutAll: name ]
-				ifFalse: [ aStream nextPutAll: self class name; nextPutAll: ' value: '; print: value ] ].
+				ifTrue: [ aStream space; nextPutAll: name ]
+				ifFalse: [ aStream nextPutAll: ' value: '; print: value ] ].

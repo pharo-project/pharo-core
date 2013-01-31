@@ -5,7 +5,7 @@ contextStackListWithMultiColumn
 	| classes separators selectors |
 
 	^ (contextStackList collect: [:string || tokens |
-		tokens := string subStrings: '>>'.
+		tokens := string splitOn: '>>'.
 		{(self buildClassNameFor: tokens first). '  '. tokens second}]) inspect
 	
 	"classes := OrderedCollection new.

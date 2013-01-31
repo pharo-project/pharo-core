@@ -7,15 +7,18 @@ handleKeystrokeWithoutMenu: aKeyboardEvent
 	self stopCompletionDelay.
 
 	(isSpaceKey & aKeyboardEvent controlKeyPressed
-	or: [aKeyboardEvent keyCharacter = Character tab and: [editor atCompletionPosition and: [aKeyboardEvent controlKeyPressed not]]])
+	or: [ aKeyboardEvent keyCharacter = Character tab 
+			and: [ editor atCompletionPosition 
+			and: [ aKeyboardEvent controlKeyPressed not ]]])
 		 ifTrue: [
 			self openMenu.
 			^ true ].
 		
 	(self smartInput: aKeyboardEvent keyValue)
-		ifNotNil: [
-			^ true].
+		ifNotNil: [ ^ true ].
 	
-	(aKeyboardEvent anyModifierKeyPressed not and: [ aKeyboardEvent keyCharacter isCompletionCharacter ]) ifTrue: [
-		self resetCompletionDelay ].
+	(aKeyboardEvent anyModifierKeyPressed not 
+	and: [ aKeyboardEvent keyCharacter isCompletionCharacter ]) 
+		ifTrue: [ self resetCompletionDelay ].
+	
 	^ false

@@ -1,4 +1,4 @@
 actions
 browse
 	(self selectedEntry browseWith: context)
-		ifTrue: [controller closeMenu]
+		ifTrue: [ controller closeMenu ]

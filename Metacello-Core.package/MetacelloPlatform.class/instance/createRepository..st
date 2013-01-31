@@ -10,7 +10,7 @@ createRepository: aRepositorySpec
 				password: aRepositorySpec password].
 	type = 'directory'
 		ifTrue: [^ MCDirectoryRepository new
-				directory: (FileDirectory on: aRepositorySpec description)].
+				directory: aRepositorySpec description asFileReference ].
 	type = 'dictionary'
 		ifTrue: [	| description headerSize globalName |	
 			description := aRepositorySpec description.

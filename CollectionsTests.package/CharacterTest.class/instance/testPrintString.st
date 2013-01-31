@@ -8,5 +8,5 @@ testPrintString
 	self assert: Character lf printString = 'Character lf'.
 	self assert: Character space printString = 'Character space'.
 
-	self assert: (Character value: 0) printString = 'Character value: 0'.
+	self assert: (Character value: 0) printString = 'Character null'.
 	self assert: (Character value: 17) printString = 'Character value: 17'.
