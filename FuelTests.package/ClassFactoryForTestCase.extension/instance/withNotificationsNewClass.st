@@ -1,3 +1,3 @@
-*FuelTests
+creating - silently
 withNotificationsNewClass
 	^  self withNotificationsNewClassWithInstanceVariableNames: ''

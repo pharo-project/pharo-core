@@ -1,0 +1,21 @@
+sources, change log
+downloadSources
+	"Try downloading the sources file from 2 diferent locations to the shared directory.
+	Be silent when this does not work: a missing sources will be triggered later on.
+	For now, use the VM directory."
+	
+	| sharedDirectory |
+	sharedDirectory := self vmDirectory.
+	self sourcesDownloadClient
+		url: 'http://pharo.gforge.inria.fr/ci/image/PharoV10.sources';
+		downloadTo: sharedDirectory;
+		close.
+	(sharedDirectory / self sourcesFile basename) exists
+		ifTrue: [ ^ self ].
+	self sourcesDownloadClient
+		url: 'http://stfx.eu/PharoV10.sources';
+		downloadTo: sharedDirectory;
+		close.
+		
+		
+	

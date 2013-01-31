@@ -1,4 +1,4 @@
-*FuelTests
+creating - silently
 silentlyNewSubclassOf: aClass instanceVariableNames: ivNamesString classVariableNames:  classVarsString package: packageName
 
 	| default newClass |

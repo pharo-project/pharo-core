@@ -15,7 +15,10 @@ Please check that you have write permission for this file.
 
 You won''t be able to save this image correctly until you fix this.'.
 
-	sources := self openSources: self sourcesName forImage: LastImagePath.
+	(sources := self openSources: self sourcesName forImage: LastImagePath)
+		ifNil: [
+			self downloadSources.
+			sources := self openSources: self sourcesName forImage: LastImagePath ].
 	changes := self openChanges: self changesName forImage: LastImagePath.
 
 	((sources == nil or: [sources atEnd])
