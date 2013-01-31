@@ -2,7 +2,7 @@ rpackage search
 rPackageSearchIn: anOrganizer 
 	| rawList |
 	
-	rawList := anOrganizer packages sorted:[:a :b | a name < b name ].
+	rawList := anOrganizer packages sorted:[:a :b | a name <= b name ].
 	
 	^ ListDialogWindow new
 				getList: [ :r| rawList select: [:e | r search: e name ]];

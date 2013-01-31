@@ -14,7 +14,7 @@ startDrag: evt
 	passenger ifNil: [ ^ self ].
 		
 	transferMorph := TransferMorph withPassenger: passenger from: self.
-	transferMorph align: transferMorph bottomLeft  with: evt position.
+	transferMorph align: transferMorph draggedMorph bottomLeft  with: evt position.
 	
 	self mouseDownRow: nil.
 	transferMorph dragTransferType: (self model dragTransferTypeForMorph: self).

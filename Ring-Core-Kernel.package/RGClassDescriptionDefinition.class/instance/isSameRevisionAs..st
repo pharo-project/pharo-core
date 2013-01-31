@@ -4,4 +4,4 @@ isSameRevisionAs: aRGClassDescriptionDefinition
 	"Instances variables are compared at the level of names but without any sorting"
 
 	^(super isSameRevisionAs: aRGClassDescriptionDefinition)
-		and:[ (self instVarNames sorted: nil) = (aRGClassDescriptionDefinition instVarNames sorted: nil) ]
+		and:[ self instVarNames sorted = aRGClassDescriptionDefinition instVarNames sorted ]

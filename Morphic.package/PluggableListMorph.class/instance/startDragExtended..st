@@ -4,14 +4,16 @@ startDragExtended: evt
 	
 	dragItemSelector ifNil: [^self].
 	evt hand hasSubmorphs ifTrue: [^ self].
-	[ | dragIndex draggedItem ddm |
+	[ | dragIndex draggedItem ddm ddRect |
 	(self dragEnabled and: [model okToChange]) ifFalse: [^ self].
 	dragIndex := self rowAtLocation: evt position.
-	dragIndex = 0 ifTrue:[^self].
+	dragIndex = 0 ifTrue: [^self].
 	draggedItem := model perform: dragItemSelector with: dragIndex.
-	draggedItem ifNil:[^self].
+	draggedItem ifNil: [^self].
 	self mouseDownRow: nil.
 	ddm := TransferMorph withPassenger: draggedItem from: self.
+	ddRect := ddm draggedMorph bounds.
+	ddm position: evt position - (ddRect center - ddRect origin).
 	ddm dragTransferType: #dragTransfer.
 	evt hand grabMorph: ddm]
 		ensure: [Cursor normal show.

@@ -5,8 +5,8 @@ isSameRevisionAs: aRGClassDefinition
 	^(super isSameRevisionAs: aRGClassDefinition)
 		and:[ self superclassName == aRGClassDefinition superclassName
 		and:[ self category = aRGClassDefinition category 
-		and:[ (self classVarNames sorted: nil) = (aRGClassDefinition classVarNames sorted: nil) 
-		and:[ (self poolDictNames sorted: nil) = (aRGClassDefinition poolDictNames sorted: nil)  
+		and:[ self classVarNames sorted = aRGClassDefinition classVarNames sorted 
+		and:[ self poolDictNames sorted = aRGClassDefinition poolDictNames sorted  
 		and:[ self traitCompositionSource = aRGClassDefinition traitCompositionSource 
 		and:[ ((self hasComment and:[ self comment isSameRevisionAs: aRGClassDefinition comment ]) or:[ self hasComment not ])
 		and:[ (self theMetaClass isSameRevisionAs: aRGClassDefinition theMetaClass) ] ] ] ] ] ] ]

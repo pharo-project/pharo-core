@@ -1,4 +1,4 @@
 *Kernel-Chronology
 hour
  
- 	^ self sign hours
+ 	^ self hours
