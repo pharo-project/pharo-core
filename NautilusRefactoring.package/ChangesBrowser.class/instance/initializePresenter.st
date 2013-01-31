@@ -2,4 +2,9 @@ initialization
 initializePresenter
 
 	pickList 
-		whenSelectedItemChanged: [ :item | textArea text: (self buildDiffFor: item) ]
+		whenListChanged: [ 
+			pickList 
+				setSelectedIndex: 1;
+				takeKeyboardFocus ];
+		whenSelectedItemChanged: [ :item | 
+			textArea text: (self buildDiffFor: item) ]
