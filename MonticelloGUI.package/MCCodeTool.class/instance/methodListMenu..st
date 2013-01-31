@@ -18,21 +18,7 @@ methodListMenu: aMenu
 				('Inheritance (i)'						methodHierarchy)
 				('Versions (v)'							browseVersions)
 				('Change sets with this method'			findMethodInChangeSets)
-	"			('X revert to previous version'				revertToPreviousVersion)"
-				('Remove from current change set'		removeFromCurrentChanges)
-		"		('X revert & remove from changes'		revertAndForget)"
-				('Add to current change set'				adoptMessageInCurrentChangeset)
-"				('X copy up or copy down...'				copyUpOrCopyDown)"
-"				('X remove method (x)'					removeMessage)"
-		"-"
+
 		).
 	].
-"	aMenu addList: #(
-			('x inst var refs...'						browseInstVarRefs)
-			('x inst var defs...'						browseInstVarDefs)
-			('x class var refs...'						browseClassVarRefs)
-			('x class variables'						browseClassVariables)
-			('x class refs (N)'							browseClassRefs)
-	).
-"
 	^ aMenu

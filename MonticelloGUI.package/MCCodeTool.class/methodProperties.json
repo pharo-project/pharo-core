@@ -3,7 +3,6 @@
 		"showAnnotationPane" : "AlainPlantec 12/1/2009 21:42",
 		"showAnnotationPane:" : "AlainPlantec 12/1/2009 21:43" },
 	"instance" : {
-		"adoptMessageInCurrentChangeset" : "marcus.denker 11/10/2008 10:04",
 		"annotations" : "nk 11/10/2003 22:01",
 		"browseMessages" : "nk 11/10/2003 21:26",
 		"browseMethodFull" : "IgorStasenko 3/6/2011 18:55",
@@ -16,8 +15,7 @@
 		"findMethodInChangeSets" : "IgorStasenko 3/6/2011 18:55",
 		"methodHierarchy" : "nk 7/30/2004 17:56",
 		"methodListKey:from:" : "MarcusDenker 7/13/2012 23:51",
-		"methodListMenu:" : "MarcusDenker 7/13/2012 23:51",
-		"removeFromCurrentChanges" : "nk 11/10/2003 21:00",
+		"methodListMenu:" : "MarcusDenker 10/5/2012 17:27",
 		"selectedClass" : "nk 11/10/2003 22:02",
 		"selectedClassOrMetaClass" : "nk 11/10/2003 22:02",
 		"selectedMessageCategoryName" : "nk 11/10/2003 22:02",

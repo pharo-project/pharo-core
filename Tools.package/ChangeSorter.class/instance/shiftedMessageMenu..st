@@ -12,7 +12,5 @@ shiftedMessageMenu: aMenu
 		('Inspect subinstances'				inspectSubInstances)
 		-
 		('Change sets with this method'		findMethodInChangeSets)
-		('Revert to previous version'			revertToPreviousVersion)
-		('Revert & remove from changes'	revertAndForget)
 		-
 		('More...'							unshiftedYellowButtonActivity))

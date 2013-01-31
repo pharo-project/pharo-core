@@ -23,10 +23,6 @@ shiftedMessageListMenu: aMenu
 	aMenu addList: #(
 		-
 		('Change sets with this method'			findMethodInChangeSets)
-		('Revert to previous version'				revertToPreviousVersion)
-		('Remove from current change set'		removeFromCurrentChanges)
-		('Revert & remove from changes'		revertAndForget)
-		('Add to current change set'				adoptMessageInCurrentChangeset)
 		('Copy up or copy down...'				copyUpOrCopyDown)
 		-
 		('More...' 								unshiftedYellowButtonActivity)).

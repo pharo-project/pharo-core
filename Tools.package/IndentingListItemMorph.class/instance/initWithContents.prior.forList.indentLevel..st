@@ -3,13 +3,12 @@ initWithContents: anObject prior: priorMorph forList: hostList indentLevel: newL
 
 	container := hostList.
 	complexContents := anObject.
+	indentLevel := newLevel.
 	self initWithContents: anObject asString font: StandardFonts listFont emphasis: nil.
-	indentLevel := 0.
 	isExpanded := false.
  	nextSibling := firstChild := nil.
 	priorMorph ifNotNil: [
 		priorMorph nextSibling: self.
 	].
-	indentLevel := newLevel.
 	icon := anObject icon.
 	self extent: self minWidth @ self minHeight
