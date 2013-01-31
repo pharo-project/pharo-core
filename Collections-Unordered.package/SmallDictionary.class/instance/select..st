@@ -5,7 +5,7 @@ select: aBlock
 	true."
 
 	| newCollection |
-	newCollection := self species new.
+	newCollection := self copyEmpty.
 	self associationsDo: 
 		[:each | 
 		(aBlock value: each value) ifTrue: [newCollection add: each]].

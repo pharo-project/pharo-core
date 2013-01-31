@@ -5,13 +5,14 @@ printStringRadix: baseInteger
 	If the receiver is negative, a minus sign ('-') is prepended to the 
 	sequence of characters. 
 	The result is undefined if baseInteger less than 2 or greater than 36."
+	
 	| tempString |
-	#Numeric.
-	"2000/03/04  Harmon R. Added ANSI <integer> protocol"
+	
 	baseInteger = 10
-		ifTrue: 
-			[tempString := self storeStringBase: baseInteger.
+		ifTrue: [
+			tempString := self storeStringBase: baseInteger.
 			self negative
 				ifTrue: [^ '-10r' , (tempString copyFrom: 2 to: tempString size)]
 				ifFalse: [^ '10r' , tempString]].
+			
 	^ self storeStringBase: baseInteger

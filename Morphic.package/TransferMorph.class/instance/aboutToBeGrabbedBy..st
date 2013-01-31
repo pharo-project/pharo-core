@@ -7,5 +7,6 @@ aboutToBeGrabbedBy: aHand
 	     0@0, we have to move it to aHand position."
 	super aboutToBeGrabbedBy: aHand.
 	self draggedMorph.
-	self align: self bottomLeft with: aHand position.
+	"self align: self bottomLeft with: aHand position."
+	self formerPosition: self position.
 	aHand newKeyboardFocus: self.

@@ -6,8 +6,7 @@ select: aBlock
 
 	| newCollection element |
 	newCollection := self copyEmpty.
-	firstIndex to: lastIndex do:
-		[:index |
+	firstIndex to: lastIndex do: [:index |
 		(aBlock value: (element := array at: index))
-			ifTrue: [newCollection addLast: element]].
+			ifTrue: [ newCollection addLast: element ]].
 	^ newCollection

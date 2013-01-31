@@ -5,6 +5,8 @@ select: aBlock
 	which aBlock evaluates to true. Answer the new collection."
 
 	| newCollection |
-	newCollection := self species new.
-	self do: [:each | (aBlock value: each) ifTrue: [newCollection add: each]].
+	newCollection := self copyEmpty.
+	self do: [ :each | 
+		(aBlock value: each) 
+			ifTrue: [ newCollection add: each ]].
 	^newCollection

@@ -1,5 +1,5 @@
 creation template
 creationTemplate
-	^self creationTemplateLocation: 'http://www.squeaksource.com/'
+	^self creationTemplateLocation: self baseURL
 		user: ''
 		password: ''

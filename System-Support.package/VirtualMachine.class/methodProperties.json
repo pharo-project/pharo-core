@@ -46,7 +46,7 @@
 		"setGCBiasToGrowGCLimit:" : "IgorStasenko 8/17/2011 15:11",
 		"setGCParameters" : "IgorStasenko 8/17/2011 15:17",
 		"setGCSemaphore:" : "IgorStasenko 8/17/2011 15:22",
-		"statisticsReport" : "IgorStasenko 8/17/2011 16:23",
+		"statisticsReport" : "CamilloBruni 10/21/2012 15:14",
 		"statisticsShortReport" : "IgorStasenko 8/17/2011 16:25",
 		"tenureCount" : "IgorStasenko 8/17/2011 16:06",
 		"tenuringThreshold" : "IgorStasenko 8/17/2011 15:09",

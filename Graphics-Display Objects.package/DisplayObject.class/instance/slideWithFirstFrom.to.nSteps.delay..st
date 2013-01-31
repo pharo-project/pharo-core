@@ -7,7 +7,8 @@ slideWithFirstFrom: startPoint to: stopPoint nSteps: nSteps delay: milliSecs
 	i := 0.
 	delta := stopPoint - startPoint / nSteps asFloat.
 	p := startPoint - delta.
-	^ self follow: [(p := p + delta) truncated]
+	^ self 
+		follow: [(p := p + delta) truncated]
 		while: 
 			[(Delay forMilliseconds: milliSecs) wait.
 			(i := i + 1) <= nSteps]

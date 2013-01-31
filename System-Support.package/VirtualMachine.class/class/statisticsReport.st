@@ -20,23 +20,28 @@ statisticsReport
 		print: (upTime / 1000 / 60 \\ 60) asInteger; nextPut: $m;
 		print: (upTime / 1000 \\ 60) asInteger; nextPut: $s; cr.
 
-	str	<< 'memory			';
-		<< memoryEnd asStringWithCommas; << ' bytes'; cr.
-	str	<<	'	old			';
-		<< oldSpaceEnd asStringWithCommas; << ' bytes (';
+	str	<< 'memory			'.
+	memoryEnd printWithCommasOn: str.
+	str << ' bytes'; cr.
+	str	<<	'	old			'.
+	oldSpaceEnd printWithCommasOn: str.
+	str << ' bytes (';
 		print: ((oldSpaceEnd / memoryEnd * 100) roundTo: 0.1); << '%)'; cr.
-	str	<< '	young		';
-		<< (youngSpaceEnd - oldSpaceEnd) asStringWithCommas; << ' bytes (';
+	str	<< '	young		'.
+	(youngSpaceEnd - oldSpaceEnd) printWithCommasOn: str.
+	str << ' bytes (';
 		print: ((youngSpaceEnd - oldSpaceEnd / memoryEnd * 100) roundTo: 0.1); << '%)'; cr.
-	str	<< '	used		';
-		<< youngSpaceEnd asStringWithCommas; << ' bytes (';
+	str	<< '	used		'.
+	youngSpaceEnd printWithCommasOn: str.
+	str << ' bytes (';
 		print: ((youngSpaceEnd / memoryEnd * 100) roundTo: 0.1); << '%)'; cr.
-	str	<< '	free		';
-		<< (memoryEnd - youngSpaceEnd) asStringWithCommas; << ' bytes (';
+	str	<< '	free		'.
+	(memoryEnd - youngSpaceEnd) printWithCommasOn: str.
+	str << ' bytes (';
 		print: ((memoryEnd - youngSpaceEnd / memoryEnd * 100) roundTo: 0.1); << '%)'; cr.
 
-	str	<< 'GCs				';
-		<< (fullGCs + incrGCs) asStringWithCommas.
+	str	<< 'GCs				'.
+	(fullGCs + incrGCs) printWithCommasOn: str.
 	fullGCs + incrGCs > 0 ifTrue: [
 		str
 			<< ' ('; 
@@ -45,18 +50,22 @@ statisticsReport
 	].
 	str cr.
 	str	<< '	full			';
-		print: fullGCs; << ' totalling '; << fullGCTime asStringWithCommas; << 'ms (';
+		print: fullGCs; << ' totalling '.
+	fullGCTime printWithCommasOn: str.
+	str << 'ms (';
 		print: ((fullGCTime / upTime * 100) roundTo: 0.1);
 		<< '% uptime)'.
 	fullGCs = 0 ifFalse:
 		[str	<< ', avg '; print: ((fullGCTime / fullGCs) roundTo: 0.1); << 'ms'].
 	str	cr.
 	str	<< '	incr		';
-		print: incrGCs; << ' totalling '; << incrGCTime asStringWithCommas; << 'ms (';
+		print: incrGCs; << ' totalling '.
+	incrGCTime printWithCommasOn: str.
+	str << 'ms (';
 		print: ((incrGCTime / upTime * 100) roundTo: 0.1);
 		<< '% uptime), avg '; print: ((incrGCTime / incrGCs) roundTo: 0.1); << 'ms'; cr.
-	str	<< '	tenures		';
-		<< tenureCount asStringWithCommas.
+	str	<< '	tenures		'.
+	tenureCount printWithCommasOn: str.
 	tenureCount = 0 ifFalse:
 		[str << ' (avg '; print: (incrGCs / tenureCount) asInteger; << ' GCs/tenure)'].
 	str	cr.
@@ -70,8 +79,8 @@ ifNotNil: [
 	incrGCTime2 := incrGCTime - (LastStats at: 5).
 	tenureCount2 := tenureCount - (LastStats at: 6).
 
-	str	<<  'Since last view	';
-		<< (fullGCs2 + incrGCs2) asStringWithCommas.
+	str	<<  'Since last view	'.
+	(fullGCs2 + incrGCs2) printWithCommasOn: str.
 	fullGCs2 + incrGCs2 > 0 ifTrue: [
 		str
 			<< ' ('; 
@@ -81,22 +90,26 @@ ifNotNil: [
 	str cr.
 	str	<< '	uptime		'; print: ((upTime2 / 1000.0) roundTo: 0.1); << 's'; cr.
 	str	<< '	full			';
-		print: fullGCs2; << ' totalling '; << fullGCTime2 asStringWithCommas; << 'ms (';
+		print: fullGCs2; << ' totalling '.
+	fullGCTime2 printWithCommasOn: str.
+	str << 'ms (';
 		print: ((fullGCTime2 / upTime2 * 100) roundTo: 0.1);
 		<< '% uptime)'.
 	fullGCs2 = 0 ifFalse:
 		[str	<< ', avg '; print: ((fullGCTime2 / fullGCs2) roundTo: 0.1); << 'ms'].
 	str	cr.
 	str	<< '	incr		';
-		print: incrGCs2; << ' totalling '; << incrGCTime2 asStringWithCommas; << 'ms (';
+		print: incrGCs2; << ' totalling '.
+	incrGCTime2 printWithCommasOn: str.
+	str << 'ms (';
 		print: ((incrGCTime2 / upTime2 * 100) roundTo: 0.1);
 		<< '% uptime), avg '.
 	incrGCs2 > 0 ifTrue: [
 		 str print: ((incrGCTime2 / incrGCs2) roundTo: 0.1); << 'ms'
 	].
 	str cr.
-	str	<< '	tenures		';
-		<< tenureCount2 asStringWithCommas.
+	str	<< '	tenures		'.
+	tenureCount2 printWithCommasOn: str.
 	tenureCount2 = 0 ifFalse:
 		[str << ' (avg '; print: (incrGCs2 / tenureCount2) asInteger; << ' GCs/tenure)'].
 	str	cr.

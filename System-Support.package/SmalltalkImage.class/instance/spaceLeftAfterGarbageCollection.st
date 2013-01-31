@@ -9,6 +9,9 @@ spaceLeftAfterGarbageCollection
 	(availTotal > (availInternal + 10000)) "compensate for mini allocations inbetween"
 		ifFalse:[^availInternal asStringWithCommas, ' bytes available'].
 	^String streamContents:[:s|
-		s nextPutAll: availInternal asStringWithCommas, 	' bytes (internal) '; cr.
-		s nextPutAll: availPhysical asStringWithCommas,	' bytes (physical) '; cr.
-		s nextPutAll: availTotal asStringWithCommas, 	' bytes (total)     '].
+		availInternal printWithCommasOn: s.
+		s nextPutAll: ' bytes (internal) '; cr.
+		 availPhysical printWithCommasOn: s.
+		s nextPutAll: ' bytes (physical) '; cr.
+		availTotal printWithCommasOn: s.
+		s nextPutAll: ' bytes (total)     '].

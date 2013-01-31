@@ -1,10 +1,15 @@
 private
 updateCopyIcon
 	| copyIcon |
+	
 	copyIcon := self submorphWithProperty: #tmCopyIcon.
-	(self shouldCopy and: [ copyIcon isNil ]) ifTrue: [
-		^self addMorphFront: ((ImageMorph new image: CopyPlusIcon) setProperty: #tmCopyIcon toValue: true)
-	].
-	(self shouldCopy not and: [ copyIcon notNil ]) ifTrue: [
-		copyIcon delete
-	]
+	
+	self shouldCopy ifFalse: [
+		^ copyIcon ifNotNil: [  copyIcon delete ]].
+	
+	copyIcon ifNotNil: [ ^ self ].
+	
+	copyIcon := ImageMorph new image: CopyPlusIcon.
+	copyIcon setProperty: #tmCopyIcon toValue: true.
+		
+	^ self addMorphFront: copyIcon.

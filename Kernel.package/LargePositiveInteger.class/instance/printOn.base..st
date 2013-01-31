@@ -5,7 +5,8 @@ printOn: aStream base: b
 	
 	| halfDigits halfPower head tail nDigitsUnderestimate |
 	"Don't engage any arithmetic if not normalized"
-	(self digitLength = 0 or: [(self digitAt: self digitLength) = 0]) ifTrue: [^self normalize printOn: aStream base: b].
+	(self digitLength = 0 or: [(self digitAt: self digitLength) = 0]) 
+		ifTrue: [ ^self normalize printOn: aStream base: b ].
 	
 	nDigitsUnderestimate := b = 10
 		ifTrue: [((self highBit - 1) * 1233 >> 12) + 1. "This is because (2 log)/(10 log)*4096 is slightly greater than 1233"]
