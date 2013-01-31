@@ -1,0 +1,14 @@
+{
+	"category" : "Metacello-Core-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cacheNames" ],
+	"name" : "MetacelloClearStackCacheNotification",
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"type" : "normal" }

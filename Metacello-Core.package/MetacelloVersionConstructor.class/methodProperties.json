@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"on:" : "DaleHenrichs 11/12/2010 09:47",
+		"on:project:" : "DaleHenrichs 11/12/2010 09:47",
+		"spawnPackageMethodIn:category:named:sourceVersion:targetVersion:blessing:" : "DaleHenrichs 11/18/2010 16:48",
+		"spawnPackageMethodIn:named:sourceVersion:targetVersion:" : "DaleHenrichs 11/18/2010 16:48",
+		"spawnPackageMethodIn:named:sourceVersion:targetVersion:blessing:" : "DaleHenrichs 11/18/2010 16:48",
+		"updatePackageMethodIn:sourceVersion:" : "DaleHenrichs 12/20/2010 10:05" },
+	"instance" : {
+		"calculate:project:" : "dkh 7/8/2011 18:57",
+		"collectAllSymbolicVersionsFromVersionPragmasInto:using:" : "DaleHenrichs 11/12/2010 09:50",
+		"collectAllVersionsFromVersionImportPragmasInto:using:satisfiedPragmas:" : "dkh 9/5/2012 06:03",
+		"collectAllVersionsFromVersionPragmasInto:using:" : "DaleHenrichs 11/12/2010 09:50",
+		"collectDefaultSymbolicVersionsFromVersionPragmasFrom:into:using:" : "DaleHenrichs 11/12/2010 09:50",
+		"commonDefaultSymbolicVersionResolverBlock" : "DaleHenrichs 11/12/2010 09:50",
+		"defaultSymbolicVersionResolverBlock" : "DaleHenrichs 11/12/2010 09:50",
+		"defaultSymbolicVersionResolverBlock:" : "DaleHenrichs 11/12/2010 09:50",
+		"on:" : "dkh 7/8/2011 18:58",
+		"on:project:" : "dkh 7/8/2011 19:47",
+		"prepareForMethodUpdate:sourceVersion:forceUpdate:generating:" : "DaleHenrichs 11/18/2010 16:48",
+		"spawnPackageMethodIn:category:named:sourceVersion:targetVersion:blessing:" : "DaleHenrichs 12/4/2010 09:53",
+		"specResolverBlock" : "DaleHenrichs 11/12/2010 12:28",
+		"symbolicVersionResolverBlock" : "DaleHenrichs 11/12/2010 12:28",
+		"updatePackageMethodIn:sourceVersion:" : "DaleHenrichs 12/4/2010 09:54",
+		"validateVersionString:againstSpec:" : "DaleHenrichs 11/30/2010 13:25",
+		"versionImportPragmasVerifiedDefinedIn:" : "DaleHenrichs 11/12/2010 09:49" } }

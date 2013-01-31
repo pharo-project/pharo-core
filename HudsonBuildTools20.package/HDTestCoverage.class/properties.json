@@ -1,0 +1,16 @@
+{
+	"category" : "HudsonBuildTools20",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"hasRun",
+		"reference",
+		"method" ],
+	"name" : "HDTestCoverage",
+	"pools" : [
+		 ],
+	"super" : "ProtoObject",
+	"type" : "normal" }

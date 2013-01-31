@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addTestsIn:to:" : "lr 6/9/2010 11:04",
+		"generate" : "lr 7/5/2010 08:24",
+		"generateDataOn:" : "lr 7/5/2010 13:30",
+		"generateOn:" : "lr 7/5/2010 13:09",
+		"generatePackage:class:on:" : "lr 7/5/2010 13:26",
+		"generatePackage:method:on:" : "lr 7/5/2010 13:28",
+		"generatePackage:on:" : "lr 7/5/2010 13:30",
+		"generateStatsOn:" : "lr 7/5/2010 13:08",
+		"generateType:indent:total:actual:on:" : "CamilloBruni 7/20/2012 16:35",
+		"ignoredSelectors" : "lr 6/9/2010 10:58",
+		"methodsIn:" : "lr 6/9/2010 11:01",
+		"packagesIn:" : "lr 6/9/2010 10:51",
+		"setUp" : "lr 6/9/2010 19:30",
+		"tearDown" : "lr 7/5/2010 08:22" } }

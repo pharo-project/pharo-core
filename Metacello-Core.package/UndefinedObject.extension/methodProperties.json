@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"asMetacelloVersionNumber" : "dkh 11/3/2009 10:28",
+		"setAuthorInMetacelloVersion:" : "dkh 9/13/2009 07:46",
+		"setBlessingInMetacelloVersion:" : "dkh 6/5/2009 10:56",
+		"setDescriptionInMetacelloVersion:" : "dkh 6/5/2009 11:52",
+		"setPostLoadDoItInMetacelloSpec:" : "DaleHenrichs 12/21/2010 13:52",
+		"setPreLoadDoItInMetacelloSpec:" : "DaleHenrichs 12/21/2010 13:51",
+		"setProject:withInMetacelloConfig:" : "dkh 12/11/2009 13:29",
+		"setTimestampInMetacelloVersion:" : "dkh 9/13/2009 07:47" } }

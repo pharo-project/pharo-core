@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"extractNumericComponent:" : "TestRunner 10/19/2009 10:22",
+		"fromString:" : "dkh 8/13/2009 12:20" },
+	"instance" : {
+		"<" : "DaleHenrichs 10/6/2010 11:14",
+		"=" : "DaleHenrichs 10/6/2010 11:14",
+		"approximateBase" : "dkh 6/14/2009 13:29",
+		"asMetacelloVersionNumber" : "dkh 6/14/2009 09:29",
+		"collapseZeros" : "DaleHenrichs 10/16/2010 10:15",
+		"compareEqualTo:" : "DaleHenrichs 10/5/2010 17:31",
+		"compareLessThan:" : "DaleHenrichs 10/5/2010 17:29",
+		"copyFrom:to:" : "dkh 6/14/2009 12:53",
+		"decrementMinorVersionNumber" : "DaleHenrichs 11/15/2010 13:33",
+		"do:" : "dkh 6/14/2009 09:37",
+		"do:separatedBy:" : "dkh 6/14/2009 09:37",
+		"hash" : "dkh 06/15/2009 14:30",
+		"incrementMinorVersionNumber" : "dkh 10/7/2009 14:28",
+		"match:" : "dkh 12/21/2009 13:32",
+		"printOn:" : "dkh 6/14/2009 09:59",
+		"versionString" : "dkh 6/14/2009 09:57",
+		"~>" : "dkh 6/14/2009 13:30" } }

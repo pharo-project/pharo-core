@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addToMetacelloPackages:" : "dkh 06/03/2009 12:41",
+		"asMetacelloVersionNumber" : "dkh 6/14/2009 09:31",
+		"mergeIntoMetacelloPackages:" : "dkh 6/6/2009 11:59",
+		"metacelloIntegerLessThanSelf:" : "dkh 8/13/2009 12:04",
+		"metacelloStringLessThanSelf:" : "dkh 8/13/2009 11:23",
+		"metacelloVersionComponentLessThan:" : "dkh 8/13/2009 11:22",
+		"removeFromMetacelloPackages:" : "dkh 6/6/2009 11:59",
+		"setAuthorInMetacelloConfig:" : "dkh 10/7/2009 00:13",
+		"setAuthorInMetacelloVersion:" : "dkh 9/13/2009 07:45",
+		"setBlessingInMetacelloConfig:" : "dkh 10/7/2009 00:10",
+		"setBlessingInMetacelloVersion:" : "dkh 6/5/2009 11:48",
+		"setDescriptionInMetacelloConfig:" : "dkh 10/7/2009 00:14",
+		"setDescriptionInMetacelloVersion:" : "dkh 6/5/2009 11:51",
+		"setIncludesInMetacelloPackage:" : "dkh 9/23/2009 08:46",
+		"setLoadsInMetacelloProject:" : "dkh 6/8/2009 19:02",
+		"setPackage:withInMetacelloConfig:" : "dkh 10/9/2009 11:28",
+		"setProject:withInMetacelloConfig:" : "dkh 10/9/2009 11:16",
+		"setRequiresInMetacelloPackage:" : "dkh 6/6/2009 10:08",
+		"setTimestampInMetacelloConfig:" : "dkh 10/7/2009 00:15",
+		"setTimestampInMetacelloVersion:" : "dkh 9/13/2009 07:47" } }

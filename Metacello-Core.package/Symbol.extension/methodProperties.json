@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"asMetacelloAttributeList" : "dkh 9/6/2012 10:03:17",
+		"asMetacelloAttributePath" : "dkh 9/6/2012 10:03:17",
+		"setForDo:withInMetacelloConfig:" : "dkh 9/5/2012 06:26:03.064",
+		"setForVersion:withInMetacelloConfig:" : "dkh 9/5/2012 06:26:03.064",
+		"setPostLoadDoItInMetacelloSpec:" : "DaleHenrichs 12/21/2010 13:54",
+		"setPreLoadDoItInMetacelloSpec:" : "DaleHenrichs 12/21/2010 13:55" } }

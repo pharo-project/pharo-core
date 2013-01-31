@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"add:" : "dkh 10/4/2009 11:23",
+		"applyIncludesTo:for:firstTime:" : "DaleHenrichs 7/23/2010 13:24",
+		"configMethodOn:indent:" : "dkh 10/22/2009 10:33",
+		"copy:to:" : "dkh 10/4/2009 11:22",
+		"merge:" : "dkh 10/4/2009 11:23",
+		"packageNamed:ifAbsent:" : "dkh 10/9/2009 13:01",
+		"packageSpecsInLoadOrder" : "dkh 9/5/2012 05:46",
+		"remove:" : "dkh 10/4/2009 11:23",
+		"slideIn:spec:baseIndex:seen:firstTime:" : "DaleHenrichs 7/23/2010 13:27",
+		"sortPackageSpecs:for:" : "dkh 10/10/2009 10:14" } }

@@ -1,0 +1,4 @@
+private
+includesForPackageOrdering
+
+	^self includes

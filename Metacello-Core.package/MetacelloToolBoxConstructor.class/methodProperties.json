@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"evaluateMethodSection:version:" : "DaleHenrichs 12/22/2010 09:56",
+		"extractMethodSectionsFor:" : "DaleHenrichs 12/22/2010 11:07",
+		"extractSymbolicVersionSpecsFor:" : "DaleHenrichs 11/15/2010 10:06",
+		"methodSection:do:" : "DaleHenrichs 12/23/2010 15:21",
+		"methodSection:inEvaluationOrder:do:" : "dkh 9/7/2012 10:43",
+		"methodSectionAttributes" : "dkh 9/13/2012 16:09",
+		"methodSections" : "DaleHenrichs 11/14/2010 02:08",
+		"methodSectionsDo:" : "DaleHenrichs 12/23/2010 15:10",
+		"methodSectionsInEvaluationOrder:do:" : "dkh 9/7/2012 10:40",
+		"reset" : "DaleHenrichs 11/18/2010 16:40",
+		"setFor:do:" : "dkh 9/5/2012 06:26:03.064",
+		"setFor:version:" : "dkh 9/5/2012 06:26:03.064" } }

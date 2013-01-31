@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"runClasses:named:" : "lr 9/29/2010 11:13",
+		"runPackage:" : "lr 9/29/2010 11:14",
+		"runPackages:" : "lr 9/29/2010 11:14" },
+	"instance" : {
+		"changesFor:" : "lr 9/29/2010 13:42",
+		"generateChange:on:" : "lr 9/29/2010 13:35",
+		"generateChangeAddition:on:" : "lr 9/29/2010 13:42",
+		"generateChangeModification:on:" : "lr 9/29/2010 13:42",
+		"generateChangeRemoval:on:" : "lr 9/29/2010 13:41",
+		"generateChangeSet:on:" : "lr 9/29/2010 14:07",
+		"generateOn:" : "lr 9/29/2010 13:29",
+		"initializeOn:" : "lr 9/29/2010 11:22",
+		"resolved" : "lr 9/29/2010 13:27",
+		"run" : "lr 9/29/2010 11:47" } }

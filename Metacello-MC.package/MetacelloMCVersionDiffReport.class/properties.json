@@ -1,0 +1,19 @@
+{
+	"category" : "Metacello-MC-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"additions",
+		"configuration",
+		"modifications",
+		"removals",
+		"from",
+		"to" ],
+	"name" : "MetacelloMCVersionDiffReport",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

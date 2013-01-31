@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"loadPackage:externalReference:loader:" : "DaleHenrichs 3/9/2010 16:42",
+		"loader:" : "DaleHenrichs 3/9/2010 12:19",
+		"postLoadSpec:loader:" : "DaleHenrichs 3/9/2010 10:48",
+		"preLoadSpec:loader:" : "DaleHenrichs 3/9/2010 10:48" },
+	"instance" : {
+		"addTo:" : "DaleHenrichs 3/9/2010 12:11",
+		"directivesDo:" : "DaleHenrichs 3/10/2010 15:48",
+		"label" : "DaleHenrichs 3/9/2010 16:36",
+		"loadUsing:gofer:" : "DaleHenrichs 3/9/2010 14:53",
+		"loader" : "DaleHenrichs 3/9/2010 10:44",
+		"loader:" : "DaleHenrichs 3/9/2010 12:19",
+		"packageDirectivesDo:" : "DaleHenrichs 3/11/2010 13:40",
+		"packageDo:" : "DaleHenrichs 3/11/2010 13:49",
+		"postLoadDo:" : "DaleHenrichs 4/8/2010 16:31",
+		"preLoadDo:" : "DaleHenrichs 4/8/2010 16:31",
+		"prepostLoadDirectivesDo:" : "DaleHenrichs 4/7/2010 12:25",
+		"prepostLoadDo:" : "DaleHenrichs 4/7/2010 12:26",
+		"printOn:" : "DaleHenrichs 3/9/2010 11:53",
+		"printOn:indent:" : "DaleHenrichs 3/9/2010 16:35",
+		"printString" : "DaleHenrichs 12/6/2010 23:00",
+		"spec" : "DaleHenrichs 3/10/2010 11:06",
+		"spec:loader:" : "DaleHenrichs 3/9/2010 10:46",
+		"title" : "DaleHenrichs 3/9/2010 16:35",
+		"versionDirectivesDepthFirstDo:" : "DaleHenrichs 12/7/2010 02:21",
+		"versionDirectivesDo:" : "DaleHenrichs 3/12/2010 10:27",
+		"versionDo:" : "DaleHenrichs 4/7/2010 12:32" } }

@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"file" : "dkh 8/18/2009 11:42",
+		"forceUpdatePackageSpec:using:" : "DaleHenrichs 11/12/2010 06:31",
+		"isPackageLoaded" : "DaleHenrichs 01/20/2010 13:40",
+		"loadUsing:gofer:" : "DaleHenrichs 3/5/2010 09:46",
+		"packageRepository" : "dkh 11/12/2009 16:57",
+		"packagesNeedSavingVisited:using:into:" : "dkh 12/22/2009 09:56",
+		"repository" : "dkh 6/23/2009 13:55",
+		"repositorySpecs" : "dkh 08/03/2009 12:40",
+		"resolveToAllPackagesIn:into:visited:" : "dkh 10/21/2009 15:50",
+		"resolveToAllPackagesIn:visited:" : "dkh 10/21/2009 15:37",
+		"resolveToLoadableSpec" : "dkh 10/6/2009 15:02",
+		"resolveToPackagesIn:visited:" : "dkh 10/21/2009 15:22",
+		"updateForSpawnMethod:" : "DaleHenrichs 11/16/2010 16:31",
+		"updatePackageRepositoriesFor:" : "dkh 08/03/2009 13:19",
+		"updatePackageSpec:using:" : "dkh 10/5/2009 16:16",
+		"version" : "dkh 10/24/2009 10:43",
+		"visitingWithPackages:" : "dkh 10/21/2009 15:50" } }

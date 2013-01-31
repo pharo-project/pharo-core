@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"on:" : "dkh 6/18/2009 09:53" },
+	"instance" : {
+		"label" : "DaleHenrichs 3/10/2010 11:19",
+		"load" : "DaleHenrichs 10/25/2010 15:32",
+		"loader" : "DaleHenrichs 3/6/2010 08:41",
+		"loaderPolicy" : "DaleHenrichs 3/6/2010 08:41",
+		"loaderPolicy:" : "DaleHenrichs 3/6/2010 08:41",
+		"name" : "dkh 07/03/2009 10:12",
+		"operator" : "dkh 08/10/2009 15:13",
+		"packageSpecsInLoadOrder" : "dkh 8/13/2009 00:37",
+		"packages" : "DaleHenrichs 3/11/2010 23:46",
+		"project" : "dkh 6/12/2009 14:20",
+		"repositories" : "dkh 6/18/2009 11:04",
+		"repositorySpecs" : "dkh 1/12/2010 17:25",
+		"required" : "dkh 6/9/2009 11:13",
+		"required:" : "dkh 6/8/2009 16:57",
+		"resolvePackageNames" : "dkh 10/3/2009 19:54",
+		"resolveToLoadableSpecs" : "DaleHenrichs 1/19/2010 11:57",
+		"versionSpec" : "dkh 6/8/2009 16:55",
+		"versionSpec:" : "dkh 6/8/2009 16:55",
+		"versionString" : "DaleHenrichs 3/11/2010 17:49" } }

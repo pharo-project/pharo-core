@@ -1,0 +1,20 @@
+{
+	"category" : "HudsonBuildTools20",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"suite",
+		"stream",
+		"suitePosition",
+		"suiteTime",
+		"suiteFailures",
+		"suiteErrors",
+		"progressFile" ],
+	"name" : "HDTestReport",
+	"pools" : [
+		 ],
+	"super" : "HDReport",
+	"type" : "normal" }

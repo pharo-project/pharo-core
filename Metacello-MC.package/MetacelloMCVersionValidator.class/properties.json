@@ -1,0 +1,14 @@
+{
+	"category" : "Metacello-MC-Validation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "MetacelloMCVersionValidator",
+	"pools" : [
+		 ],
+	"super" : "MetacelloVersionValidator",
+	"type" : "normal" }

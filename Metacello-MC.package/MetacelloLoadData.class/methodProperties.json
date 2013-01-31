@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addVersion:versionInfo:resolvedReference:packageSpec:" : "dkh 3/20/2011 19:02",
+		"ancestorsFor:ifAbsent:" : "dkh 3/20/2011 17:50",
+		"currentVersionInfoFor:ifAbsent:" : "dkh 08/10/2009 16:37",
+		"dataMap" : "dkh 07/08/2009 12:34",
+		"do:" : "dkh 7/29/2009 19:53",
+		"isEmpty" : "dkh 07/08/2009 12:38",
+		"packageNameMap" : "dkh 08/10/2009 16:17",
+		"versionInfoMap" : "dkh 07/08/2009 12:48" } }

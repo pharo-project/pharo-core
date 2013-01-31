@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"runClasses:named:" : "Anonymous 7/15/2012 13:15",
+		"runEnvironment:" : "lr 5/14/2010 09:20",
+		"runPackage:" : "MarcusDenker 7/15/2012 13:16" },
+	"instance" : {
+		"generateClass:on:" : "lr 7/4/2010 22:36",
+		"generateClass:selector:source:on:" : "lr 7/4/2010 20:46",
+		"generateClass:source:on:" : "lr 7/4/2010 21:08",
+		"generateOn:" : "lr 7/4/2010 21:17",
+		"generateViolations:source:offset:on:" : "lr 7/4/2010 22:35",
+		"initializeOn:" : "lr 7/4/2010 22:34",
+		"isClassEnvironment:" : "lr 5/15/2010 14:05",
+		"isSelectorEnvironment:" : "lr 5/15/2010 14:05",
+		"lineAndColumn:at:" : "lr 5/14/2010 22:29",
+		"run" : "MarcusDenker 7/15/2012 13:16" } }

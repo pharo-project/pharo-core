@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"for:" : "dkh 05/01/2009 12:22",
+		"platformClass" : "dkh 04/22/2009 12:22" },
+	"instance" : {
+		"addMember" : "dkh 06/02/2009 16:54",
+		"answers" : "DaleHenrichs 4/9/2010 12:47",
+		"configMethodOn:" : "dkh 10/5/2009 09:14",
+		"configMethodOn:indent:" : "dkh 10/5/2009 09:14",
+		"copyMember" : "dkh 10/4/2009 10:44",
+		"doItBlock:" : "dkh 12/30/2009 13:17",
+		"for:" : "dkh 06/02/2009 18:05",
+		"label" : "DaleHenrichs 3/9/2010 16:33",
+		"loader" : "dkh 6/18/2009 10:30",
+		"loader:" : "dkh 6/18/2009 09:46",
+		"mergeMap" : "dkh 06/04/2009 14:40",
+		"mergeMember" : "dkh 06/02/2009 16:54",
+		"mergeSpec:" : "DaleHenrichs 11/27/2010 12:16",
+		"nonOverridable" : "dkh 9/23/2009 11:41",
+		"postCopy" : "dkh 10/4/2009 18:56",
+		"postLoadDoIt" : "dkh 12/30/2009 13:20",
+		"postLoadDoItBlock" : "DaleHenrichs 12/21/2010 11:47",
+		"preLoadDoIt" : "dkh 12/30/2009 13:20",
+		"preLoadDoItBlock" : "DaleHenrichs 12/21/2010 11:49",
+		"printOn:" : "dkh 10/5/2009 11:08",
+		"project" : "dkh 06/02/2009 14:42",
+		"removeMember" : "dkh 06/02/2009 16:54" } }

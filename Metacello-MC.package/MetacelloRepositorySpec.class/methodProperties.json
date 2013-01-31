@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addToMetacelloRepositories:" : "dkh 6/7/2009 10:13",
+		"configMethodCascadeOn:lastCascade:" : "dkh 10/22/2009 09:54",
+		"configMethodOn:indent:" : "dkh 10/22/2009 09:54",
+		"createRepository" : "dkh 10/22/2009 08:52",
+		"description" : "dkh 06/03/2009 12:16",
+		"description:" : "dkh 06/03/2009 12:15",
+		"extractTypeFromDescription" : "TestRunner 12/7/2009 14:30",
+		"mergeIntoMetacelloRepositories:" : "dkh 6/7/2009 10:21",
+		"mergeMap" : "dkh 10/22/2009 09:11",
+		"name" : "dkh 6/7/2009 10:33",
+		"password" : "dkh 10/22/2009 08:49",
+		"password:" : "dkh 10/22/2009 08:49",
+		"removeFromMetacelloRepositories:" : "dkh 6/7/2009 10:24",
+		"type" : "dkh 06/03/2009 12:16",
+		"type:" : "dkh 06/03/2009 12:15",
+		"username" : "dkh 10/22/2009 08:49",
+		"username:" : "dkh 10/22/2009 08:49" } }

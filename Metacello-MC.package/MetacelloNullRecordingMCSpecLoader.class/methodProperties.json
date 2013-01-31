@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"actionLabel" : "DaleHenrichs 3/11/2010 16:33",
+		"afterLoads" : "DaleHenrichs 3/10/2010 14:50",
+		"beforeLoads" : "DaleHenrichs 3/10/2010 14:50",
+		"currentVersionInfoFor:" : "dkh 08/10/2009 16:39",
+		"doingLoads:" : "DaleHenrichs 3/10/2010 14:46",
+		"ensureForDevelopment" : "DaleHenrichs 3/11/2010 17:18",
+		"evalDoits" : "DaleHenrichs 3/10/2010 15:43",
+		"evalDoits:" : "DaleHenrichs 3/10/2010 14:46",
+		"linearLoadPackageSpec:gofer:" : "DaleHenrichs 4/9/2010 12:33",
+		"loadPackageDirective:gofer:" : "DaleHenrichs 4/9/2010 12:08",
+		"loadPackageDirectives:gofer:" : "DaleHenrichs 4/9/2010 12:12",
+		"loadedPackages" : "DaleHenrichs 3/11/2010 13:45",
+		"loadedRepositories" : "DaleHenrichs 4/21/2010 11:56",
+		"loadingSpecLoader" : "DaleHenrichs 4/9/2010 12:23",
+		"packages" : "DaleHenrichs 3/11/2010 13:46",
+		"postLoad:" : "DaleHenrichs 4/8/2010 16:11",
+		"preLoad:" : "DaleHenrichs 4/8/2010 16:10",
+		"recordingSpecLoader" : "DaleHenrichs 3/11/2010 10:01",
+		"resolvePackageSpecReferences:gofer:" : "dkh 4/6/2011 22:35",
+		"resolveRecordingPackageSpecReference:gofer:" : "DaleHenrichs 03/12/2010 15:01" } }

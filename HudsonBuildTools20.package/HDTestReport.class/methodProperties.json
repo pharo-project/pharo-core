@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"runClasses:named:" : "lr 5/14/2010 09:16",
+		"runPackage:" : "lr 5/14/2010 09:16",
+		"runSuite:" : "IgorStasenko 1/6/2012 15:12" },
+	"instance" : {
+		"beginTestCase:time:" : "CamilloBruni 7/20/2012 16:33",
+		"done" : "IgorStasenko 1/6/2012 15:12",
+		"encodeDebugInformationOn:" : "MarianoMartinezPeck 7/28/2012 13:06",
+		"endTestCase" : "CamilloBruni 7/20/2012 16:33",
+		"initializeOn:" : "IgorStasenko 1/6/2012 15:13",
+		"run" : "lr 6/9/2010 20:01",
+		"runAll" : "JohanBrichau 10/25/2010 23:05",
+		"runCase:" : "CamilloBruni 7/20/2012 16:45",
+		"serializeError:of:" : "MarianoMartinezPeck 7/28/2012 13:02",
+		"serializeTestFailureContext:toFileNamed:" : "MarianoMartinezPeck 8/1/2012 14:43",
+		"setUp" : "CamilloBruni 7/20/2012 16:33",
+		"stackTraceString:of:" : "pmm 6/6/2010 18:13",
+		"tearDown" : "CamilloBruni 7/20/2012 16:34",
+		"writeError:stack:" : "CamilloBruni 7/20/2012 16:52",
+		"writeException:stack:" : "CamilloBruni 7/20/2012 16:53",
+		"writeFailure:stack:" : "CamilloBruni 7/20/2012 16:52" } }
