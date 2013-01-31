@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"browseChangeSetsWithClass:selector:" : "StephaneDucasse 5/28/2011 13:39",
+		"browseChangeSetsWithClass:selector:" : "MarcusDenker 10/13/2012 18:09",
 		"initialize" : "StephaneDucasse 9/9/2010 09:56",
 		"open" : "IgorStasenko 2/19/2011 03:56",
 		"patchworkUIThemeColor" : "AlainPlantec 12/16/2009 22:08",
@@ -85,7 +85,7 @@
 		"selectedMessageName" : "jm 5/4/1998 07:32",
 		"setContents" : "PeterHugossonMiller 9/3/2009 00:52",
 		"shiftedChangeSetMenu:" : "StephaneDucasse 3/29/2010 22:58",
-		"shiftedMessageMenu:" : "MarcusDenker 10/5/2012 17:28",
+		"shiftedMessageMenu:" : "MarcusDenker 10/13/2012 18:05",
 		"showChangeSet:" : "StephaneDucasse 2/4/2012 15:21",
 		"showChangeSetNamed:" : "BenjaminVanRyseghem 7/13/2012 15:31",
 		"submergeIntoOtherSide" : "sd 11/20/2005 21:26",

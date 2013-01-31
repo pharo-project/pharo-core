@@ -14,8 +14,6 @@ menuItems
 		('Process Browser' 			#openProcessBrowser)
 		-
 		('Monticello Browser'		#openMonticelloBrowser)
-		"('Monticello Configurations' #openMonticelloConfigurations)"
 		('Recover lost changes...'	#openRecentChangesLog)
-		"('Simple Change Sorter'		#openChangeSorter)"
 		('Change Sorter'				#openDualChangeSorter)
 	)

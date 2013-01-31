@@ -17,7 +17,6 @@ methodListMenu: aMenu
 				('Browse implementors (m)'					browseMessages)
 				('Inheritance (i)'						methodHierarchy)
 				('Versions (v)'							browseVersions)
-				('Change sets with this method'			findMethodInChangeSets)
 
 		).
 	].

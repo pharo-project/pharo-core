@@ -11,6 +11,4 @@ shiftedMessageMenu: aMenu
 		('Inspect instances'					inspectInstances)
 		('Inspect subinstances'				inspectSubInstances)
 		-
-		('Change sets with this method'		findMethodInChangeSets)
-		-
 		('More...'							unshiftedYellowButtonActivity))

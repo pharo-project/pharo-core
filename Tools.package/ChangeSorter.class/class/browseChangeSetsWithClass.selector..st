@@ -12,4 +12,4 @@ is not in any change set'].
 		ifFalse:	[(UIManager default chooseFrom: (hits collect: [:cs | cs name])
 					lines: #())].
 	index = 0 ifTrue: [^ self].
-	(Smalltalk tools changeSorter new myChangeSet: (hits at: index)) open.
+	(self class new myChangeSet: (hits at: index)) open.
