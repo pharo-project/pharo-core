@@ -10,4 +10,5 @@ methodSearch: aSelectBlock
 			class classSide methodsDo: [ :method | 
 				(aSelectBlock value: method) ifTrue: [ result add: method ]]]
 		displayingProgress: [ :aClass | aClass name ].
+		
 	^ result

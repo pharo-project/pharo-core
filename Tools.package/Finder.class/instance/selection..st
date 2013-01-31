@@ -1,15 +1,15 @@
 accessing
-selection: anObject
+selection: aSelectionHolder
 	"anObject is a selection holder"
 	"Depending of the value of currentSearchMode, I fill selectedMethod and SelectedClass with the good items."
 	"Then, I update the source code text area"
 
 	| path methodNode method classNode class |
-	(anObject isNil or: [anObject selectedNodePath isNil]) ifTrue: [
+	(aSelectionHolder isNil or: [aSelectionHolder selectedNodePath isNil]) ifTrue: [
 		self selectedClass: nil.
 		self selectedMethod: nil.
 		^self].
-	path := anObject selectedNodePath.
+	path := aSelectionHolder selectedNodePath.
 	self isSelectorsSymbol
 		ifTrue: [
 			path first isSingle

@@ -17,4 +17,4 @@ constructDictionary
 			ifTrue: [ self constructDictionaryWithMethodFinder: self searchingString].
 		self isPragmasSymbol
 			ifTrue: [ self constructDictionaryWithPragmaSearch: self searchingString ].
-	] asJob fork
+	] asJob run
