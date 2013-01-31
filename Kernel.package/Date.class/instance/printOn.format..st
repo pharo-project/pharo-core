@@ -41,7 +41,7 @@ printOn: aStream format: formatArray
 		element = 3
 			ifTrue: [
 				(formatArray at: 6) = 1
-					ifTrue: [ year printOn: aStream ]
+					ifTrue: [ year printOn: aStream base: 10 length: 4 padded: true ]
 					ifFalse: [ (year \\ 100) printOn: aStream base: 10 length: 2 padded: true ] ].
 		i < 3
 			ifTrue: [

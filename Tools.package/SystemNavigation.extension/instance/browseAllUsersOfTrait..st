@@ -1,8 +1,6 @@
 *Tools-Browser
 browseAllUsersOfTrait: aTrait
-	"Create and schedule a message browser on each class or trait that imports aTrait"
+	"Create and openenvironment  a browser on each class or trait that imports aTrait"
 
-	^ Smalltalk tools classListBrowser new
-		initForClassesNamed: (aTrait users collect: #name) asArray sort
-		title: 'Users of trait ' , aTrait theNonMetaClass name
+	^Smalltalk tools browser fullOnEnvironment: (RBBrowserEnvironment new forClasses: aTrait users)
 	
