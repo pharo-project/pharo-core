@@ -1,6 +1,10 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 4915:	compiler should answer the same result as the non-inlined one when the return value is asked for.
-	http://code.google.com/p/pharo/issues/detail?id=4915:
+ ^ 'Issue 6818:	All test runners for 2.0 are red on jenkins
+	http://code.google.com/p/pharo/issues/detail?id=6818
 	
-'
+Issue 6785:	Do we really need to cache DebuggerMethodMap?
+	http://code.google.com/p/pharo/issues/detail?id=6785
+	
+Issue 6814:	Adde simple Color Scheme Setting
+	http://code.google.com/p/pharo/issues/detail?id=6814'

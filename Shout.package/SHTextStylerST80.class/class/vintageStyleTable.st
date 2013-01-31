@@ -1,12 +1,14 @@
 style table
-blueStyleTable
+vintageStyleTable
 	"color can be a valid argument to Color class>>colorFrom: , or nil to
 	use the editor text color.
 	Multiple emphases can be specified using an array e.g. #(bold italic).
 	If emphasis is not specified, #normal will be used.
 	if pixel height is not specified , then the editor font size will be used.
+	
+	This style is based on old theme and other old environments.  
 	"
-	<styleTable: 'Blue'>
+	<styleTable: 'Vintage'>
 								
  ^ #(
 			"(symbol color [emphasisSymbolOrArray [textStyleName [pixelHeight]]])" 
@@ -14,35 +16,38 @@ blueStyleTable
 			(invalid 									red)
 			(excessCode 							red)
 			
-			(comment 								(gray darker))
+			(comment 								'006400')
 			(unfinishedComment 					(red muchDarker))
 			
-			(#'$' 									(red muchDarker))
-			(character 								(red muchDarker))
-			(integer 								(red muchDarker))
-			(number 								(red muchDarker)) 
-			(#- 										(red muchDarker))
-			(symbol 								(magenta muchDarker)) 
-			(stringSymbol 							(magenta muchDarker)) 
-			(literalArray 							(magenta muchDarker))
-			(string 									(magenta muchDarker) normal)										
+			(#'$' 									('801f91' lighter))
+			(character 								('801f91' lighter))
+			(integer 								('801f91'))
+			(number 								('801f91'))
+			(#- 										('801f91'))
+			(symbol 								('801f91')) 
+			(stringSymbol 							('801f91')) 
+			(literalArray 							black)
+			(string 									('801f91'))
+												
 			(unfinishedString 						red normal)
-	
-			(assignment 							nil)
-			(ansiAssignment 						nil)
-	
-			(literal 									nil italic)
-			(keyword 								(black))
-			(binary 									(black)) 
-			(unary 									(black))
+			(assignment 							nil bold)
+			(ansiAssignment 						nil bold)
 										
-			(#self 									(cyan muchDarker ))
-			(#super 								(cyan muchDarker ))
-			(#true 									(red muchDarker))
-			(#false 									(red muchDarker))
-			(#nil 									(red muchDarker))
-			(#thisContext 							(cyan muchDarker ))
-			(#return 								(cyan muchDarker ) bold)
+			(literal 									nil italic)
+												
+			(keyword 								black)
+			(binary 									black) 
+			(unary 									black)
+										
+			(#true 									('A31515' darker))
+			(#false 									('A31515' darker))
+			(#nil 									('A31515' darker))
+													
+			(#self 									'A31515')
+			(#super								'A31515')
+			(#thisContext 							'A31515')
+			(#return 								'A31515' bold)
+												
 			(patternArg 							(blue muchDarker)) 
 			(methodArg 							(blue muchDarker))
 			(blockPatternArg 						(blue muchDarker))
@@ -50,16 +55,19 @@ blueStyleTable
 			(argument 								(blue muchDarker))
 			(blockTempVar 						(blue muchDarker))
 			(blockPatternTempVar 					(blue muchDarker))
+								
 			(instVar 								(blue muchDarker))
-			(workspaceVar 							(blue muchDarker))
-			(undefinedIdentifier 					red)
-			(incompleteIdentifier 					red)
+			(workspaceVar 							(blue muchDarker) bold)
+										
 			(tempVar 								(blue muchDarker))
 			(patternTempVar 						(blue muchDarker))
-			(poolConstant 							(blue muchDarker))
-			(classVar 								(blue muchDarker))
-			(globalVar 								(blue muchDarker))
+										
+			(poolConstant 							(blue muchDarker) bold)
+			(classVar 								(blue muchDarker) bold)
+			(globalVar 								black bold)
 												
+			(undefinedIdentifier 					red)
+			(incompleteIdentifier 					red)
 			(incompleteKeyword 					red)
 			(incompleteBinary 						red) 
 			(incompleteUnary 						red )
@@ -108,19 +116,19 @@ blueStyleTable
 			(arrayEnd1 								black)
 			(leftBrace 								black)
 			(rightBrace 								black)
-			(cascadeSeparator 					black)
-			(statementSeparator 					black)
-			(methodTempBar 						(black))
-			(blockTempBar 						(black))
-			(blockArgsBar 							(black))
+			(cascadeSeparator 					black bold)
+			(statementSeparator 					black bold)
+			(methodTempBar 						black)
+			(blockTempBar 						black)
+			(blockArgsBar 							black)
 										
 			(externalCallType 						black)
 			(externalCallTypePointerIndicator 		black)
 			(primitiveOrExternalCallStart 			black bold)
 			(primitiveOrExternalCallEnd 			black bold)
-			(primitive 								(green muchDarker))
-			(pragmaKeyword 						(green muchDarker))
-			(pragmaUnary 							(green muchDarker))
-			(pragmaBinary 							(green muchDarker)) 
-			(externalFunctionCallingConvention 	(green muchDarker) bold)
-			(module 								(green muchDarker) bold))
+			(primitive 								(cyan muchDarker))
+			(pragmaKeyword 						(cyan muchDarker))
+			(pragmaUnary 							(cyan muchDarker))
+			(pragmaBinary 							(cyan muchDarker)) 
+			(externalFunctionCallingConvention 	(cyan muchDarker) bold)
+			(module 								(cyan muchDarker) bold))

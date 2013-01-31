@@ -1,16 +1,11 @@
 {
 	"class" : {
-		"cacheDebugMap:forMethod:" : "eem 6/26/2008 22:59",
-		"cleanUp" : "MarcusDenker 4/14/2011 14:33",
-		"forMethod:" : "eem 6/5/2008 09:19",
-		"forMethod:methodNode:" : "MarcusDenker 12/7/2011 15:14",
-		"initialize" : "MarcusDenker 4/14/2011 14:34",
-		"voidMapCache" : "eem 6/5/2008 09:14" },
+		"forMethod:" : "MarcusDenker 10/9/2012 18:02" },
 	"instance" : {
 		"abstractPCFor:when:" : "MarcusDenker 12/7/2011 15:15",
 		"abstractSourceMap" : "eem 7/29/2008 17:12",
-		"forMethod:methodNode:" : "eem 6/5/2008 09:21",
-		"markRecentlyUsed" : "eem 6/3/2008 12:21",
+		"forMethod:" : "MarcusDenker 10/9/2012 18:06",
+		"forMethod:methodNode:" : "MarcusDenker 10/9/2012 17:48",
 		"method" : "eem 6/5/2008 09:21",
 		"namedTempAt:in:" : "MarcusDenker 12/7/2011 15:16",
 		"namedTempAt:put:in:" : "MarcusDenker 12/7/2011 15:16",
@@ -25,5 +20,4 @@
 		"sourceText" : "MarcusDenker 4/29/2012 13:51",
 		"tempNamesForContext:" : "MarcusDenker 12/7/2011 15:17",
 		"tempNamesScopedForContext:" : "MarcusDenker 12/7/2011 15:17",
-		"tempsAndValuesForContext:" : "PeterHugossonMiller 9/3/2009 01:12",
-		"timestamp" : "eem 6/2/2008 18:32" } }
+		"tempsAndValuesForContext:" : "PeterHugossonMiller 9/3/2009 01:12" } }

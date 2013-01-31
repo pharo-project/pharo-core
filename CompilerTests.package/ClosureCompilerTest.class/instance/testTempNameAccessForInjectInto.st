@@ -7,7 +7,7 @@ testTempNameAccessForInjectInto
 						parse: (Collection sourceCodeAt: #inject:into:)
 						class: Collection.
 	method := methodNode generate.
-	debuggerMap := DebuggerMethodMap forMethod: method methodNode: methodNode.
+	debuggerMap := DebuggerMethodMap new forMethod: method methodNode: methodNode.
 	evaluationCount := 0.
 	block := [:prev :each| | theContext tempNames |
 			evaluationCount := evaluationCount + 1.

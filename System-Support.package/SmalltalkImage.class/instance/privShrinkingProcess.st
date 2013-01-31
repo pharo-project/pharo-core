@@ -67,7 +67,6 @@ privShrinkingProcess
     self privCleanChangeSets.
     
     FileServices removeObsolete.
-    DebuggerMethodMap voidMapCache.
 
     Object flushEvents.
 

@@ -7,4 +7,4 @@ defaultStyleTable
 	if pixel height is not specified , then the editor font size will be used.
 	"
 								
- 	^ self tangoStyleTable
+ 	^ self blueStyleTable

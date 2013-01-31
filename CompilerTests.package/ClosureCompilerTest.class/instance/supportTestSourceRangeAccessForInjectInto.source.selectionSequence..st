@@ -2,7 +2,6 @@ tests
 supportTestSourceRangeAccessForInjectInto: method source: source selectionSequence: selections
 	"Test debugger source range selection for inject:into:"
 	| evaluationCount sourceMap debugTokenSequence debugCount |
-	DebuggerMethodMap voidMapCache.
 	evaluationCount := 0.
 	sourceMap := method debuggerMap abstractSourceMap.
 	debugTokenSequence := selections collect: [:string| Scanner new scanTokens: string].
