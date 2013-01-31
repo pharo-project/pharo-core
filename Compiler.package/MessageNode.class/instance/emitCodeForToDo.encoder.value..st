@@ -11,11 +11,14 @@ emitCodeForToDo: stack encoder: encoder value: forValue
 	loopSize := sizes at: 2.
 	limitInit == nil
 		ifFalse: [limitInit emitCodeForEffect: stack encoder: encoder].
-	initStmt emitCodeForEffect: stack encoder: encoder.
+		
+	"This will return the receiver of to:do: which is the initial value of the loop"
+	forValue
+		ifTrue: [initStmt emitCodeForValue: stack encoder: encoder.]
+		ifFalse: [initStmt emitCodeForEffect: stack encoder: encoder].
 	test emitCodeForValue: stack encoder: encoder.
 	self emitCodeForBranchOn: false dist: blockSize pop: stack encoder: encoder.
 	pc := encoder methodStreamPosition.
 	block emitCodeForEvaluatedEffect: stack encoder: encoder.
 	incStmt emitCodeForEffect: stack encoder: encoder.
 	self emitCodeForJump: 0 - loopSize encoder: encoder.
-	forValue ifTrue: [encoder genPushSpecialLiteral: nil. stack push: 1]

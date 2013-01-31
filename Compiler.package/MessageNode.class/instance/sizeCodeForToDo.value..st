@@ -7,7 +7,9 @@ sizeCodeForToDo: encoder value: forValue
 	test := arguments at: 5.
 	incStmt := arguments at: 6.
 	limitInit := arguments at: 7.
-	initSize := initStmt sizeCodeForEffect: encoder.
+	initSize := forValue
+		ifTrue: [initStmt sizeCodeForValue: encoder.]
+		ifFalse: [initStmt sizeCodeForEffect: encoder].
 	limitInit == nil ifFalse:
 		[initSize := initSize + (limitInit sizeCodeForEffect: encoder)].
 	blockSize := (block sizeCodeForEvaluatedEffect: encoder)
@@ -19,4 +21,3 @@ sizeCodeForToDo: encoder value: forValue
 	sizes := Array with: blockSize with: loopSize.
 	^initSize
 	+ loopSize
-	+ (forValue ifTrue: [encoder sizePushSpecialLiteral: nil] ifFalse: [0])

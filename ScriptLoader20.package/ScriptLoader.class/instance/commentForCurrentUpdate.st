@@ -1,7 +1,6 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6817:	Properly Prune Pending Finalization Items
-	http://code.google.com/p/pharo/issues/detail?id=6817
+ ^ 'Issue 4915:	compiler should answer the same result as the non-inlined one when the return value is asked for.
+	http://code.google.com/p/pharo/issues/detail?id=4915:
 	
-Issue 5546:	openProcessBrowserAsMorph: has nothing to do on MorphicUIManager
-	http://code.google.com/p/pharo/issues/detail?id=5546'
+'
