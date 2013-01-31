@@ -5,7 +5,7 @@ buildNavigationList
 	navigation := (DropListMorph
 					on: self 
 					list: #getHistoryList
-					selected: #currentHistory
+					selected: #currentHistoryIndex
 					changeSelected: #setHistory:)
 					hResizing: #spaceFill;
 					vResizing: #spaceFill;

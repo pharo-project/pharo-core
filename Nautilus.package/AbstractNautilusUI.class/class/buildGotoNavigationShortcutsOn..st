@@ -1,16 +1,16 @@
 shortcuts
-buildJumpShortcutsOn: aBuilder
+buildGotoNavigationShortcutsOn: aBuilder
 	<keymap>
 
 	(aBuilder shortcut: #jumpToClass)
 		category: #NautilusGlobalShortcuts
-		default: $g command  ,$c command 
+		default: $g command , $c command 
 		do: [ :target | target giveFocusToClass ]
 		description: 'Jump to the selected class'.
 			
 	(aBuilder shortcut: #jumpToPackage)
 		category: #NautilusGlobalShortcuts
-		default: $g command  , $p command 
+		default: $g command, $p command 
 		do: [ :target | target giveFocusToPackage ]
 		description: 'Jump to the selected package'.
 

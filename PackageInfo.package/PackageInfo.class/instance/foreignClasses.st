@@ -10,5 +10,5 @@ foreignClasses
 					cls := self environment at: cl.
 					s
 						add: cls;
-						add: cls class ] ].
+						add: cls theMetaClass ] ].
 	^ s 

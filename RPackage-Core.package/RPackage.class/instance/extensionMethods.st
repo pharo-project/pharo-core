@@ -8,5 +8,5 @@ extensionMethods
 			methods do: [ :sel | mthds add: ((Smalltalk at: classSymbol) >>	sel)]].
 	metaclassExtensionSelectors
 	 keysAndValuesDo: [ :classSymbol :methods |
-			methods do: [ :sel | mthds add: ((Smalltalk at: classSymbol) class >>sel)]].	
+			methods do: [ :sel | mthds add: ((Smalltalk at: classSymbol) theMetaClass >>sel)]].	
 	^ mthds				

@@ -8,4 +8,4 @@ selected2: anInteger
 	self selectedClassWithoutChangingSelection: selection.
 	
 	self changed: #selected2.
-	self changed: #currentHistory.
+	self changed: #currentHistoryIndex.

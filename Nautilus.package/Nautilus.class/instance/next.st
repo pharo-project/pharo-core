@@ -1,5 +1,5 @@
 history
 next
-
-	self adopt: self browsingHistory next.
-	self triggerEvent: #historyChanged.
+	self browsingHistory pauseDuring: [
+		self adopt: self browsingHistory next.
+		self triggerEvent: #historyChanged ].

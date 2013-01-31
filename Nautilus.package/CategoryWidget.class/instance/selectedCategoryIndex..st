@@ -7,4 +7,4 @@ selectedCategoryIndex: anInteger
 	
 	self changed: #selectedCategoryIndex.
 	self model categorySelectionChanged.
-	self model changed: #currentHistory.
+	self model changed: #currentHistoryIndex.

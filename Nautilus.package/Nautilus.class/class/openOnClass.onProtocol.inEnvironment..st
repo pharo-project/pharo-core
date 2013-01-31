@@ -14,5 +14,5 @@ openOnClass: aClass onProtocol: aProtocol inEnvironment: anEnvironment
 	instance ui 
 		selectedCategory: aProtocol;
 		categorySelectionChanged;
-		changed: #currentHistory.
+		changed: #currentHistoryIndex.
 	^ instance

@@ -3,4 +3,4 @@ historyChanged
 
 	self setWindowTitle.
 	self changed: #getHistoryList.
-	self changed: #currentHistory
+	self changed: #currentHistoryIndex

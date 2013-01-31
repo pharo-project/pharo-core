@@ -8,7 +8,8 @@
 	"instvars" : [
 		"storage",
 		"index",
-		"maxSize" ],
+		"maxSize",
+		"paused" ],
 	"name" : "NavigationHistory",
 	"pools" : [
 		 ],

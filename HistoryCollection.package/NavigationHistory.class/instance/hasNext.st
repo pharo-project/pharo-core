@@ -1,4 +1,4 @@
 testing
 hasNext
 
-	^ index ~= storage size
+	^ index < storage size

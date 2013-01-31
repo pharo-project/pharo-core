@@ -2,10 +2,8 @@ shortcuts
 buildExtraShortcutsOn: aBuilder
 	<keymap>
 
-	(aBuilder shortcut: #openBrowser)
+	(aBuilder shortcut: #previous)
 		category: #NautilusGlobalShortcuts
-		default: $o command 
+		default: $[ command 
 		do: [:target| target fullBrowse ]
-		description: 'Open a new browser'.
-		
-	
+		description: 'Go back in the navigation history.'.

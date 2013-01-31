@@ -1,6 +1,8 @@
 protocol
 addEntry: anEntry
-
+	
+	self isPaused ifTrue: [ ^ self ].
+	
 	( storage isEmpty not  and: [ storage last = anEntry ] ) ifTrue: [ ^ self ].
 	anEntry = self current key ifTrue: [ ^ self ].
 	self checkSize.

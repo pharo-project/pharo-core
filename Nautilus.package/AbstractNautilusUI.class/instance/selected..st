@@ -9,4 +9,4 @@ selected: anInteger
 		ifNot: [ self selectedPackageWithoutChangingSelection: selection ].
 	
 	self changed: #selected.
-	self changed: #currentHistory.
+	self changed: #currentHistoryIndex.

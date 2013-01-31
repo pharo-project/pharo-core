@@ -1,13 +1,10 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6757:	Nuke HTTPClient and HTTPSocket and deprecated ZnHTTPSocketFacade
-	http://code.google.com/p/pharo/issues/detail?id=6757
+ ^ 'Issue 6762:	RPackage breaks with class side trait methods
+	http://code.google.com/p/pharo/issues/detail?id=6762
 	
+Issue 6758:	Nautilus History Shortcuts and BugFixes
+	http://code.google.com/p/pharo/issues/detail?id=6758
 	
-Remove HTTPClient completely.
-
-Remove all methods from HTTPSocket, instance and class side, as well as all instance and class variables. Keep the methods on the class side delegating to ZnHTTPSocketFacade as they constitute a working API that might be used by legacy code.
-
-Deprecate all class side methods on HTTPSocket that were delegating to ZnHTTPSocketFacade, as defined by the special Zinc-Patch-HTTPSocket package.
-
-Remove HTTPSocketTests'
+Issue 6763:	Improvements to MorphTreeMorph
+	http://code.google.com/p/pharo/issues/detail?id=6763'
