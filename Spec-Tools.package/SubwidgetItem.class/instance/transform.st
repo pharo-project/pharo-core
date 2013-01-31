@@ -53,4 +53,5 @@ transform
 	self needRebuild: false.
 	initialExtent :=  400@50.
 	self buildWithSpecLayout: self newLayout.
+	
 	self model ifNotNil: [:m | m addInstVarNamed: name forClassName: class ].

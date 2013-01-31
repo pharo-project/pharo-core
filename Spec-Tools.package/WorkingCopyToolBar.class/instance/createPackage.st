@@ -4,5 +4,5 @@ createPackage
 	
 	name := UIManager default request: 'Name of package:' translated.
 	name isEmptyOrNil ifFalse:
-		[ PackageInfo registerPackageName: name.
+		[ PackageOrganizer default registerPackageNamed: name.
 		MCWorkingCopy forPackage: (MCPackage new name: name).]

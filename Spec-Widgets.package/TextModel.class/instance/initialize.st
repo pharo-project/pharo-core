@@ -12,6 +12,8 @@ initialize
 	enabledHolder := true asValueHolder.
 	actionPerformedHolder := nil asValueHolder.
 	isCodeCompletionAllowedHolder := true asValueHolder.
+	doItContext := nil asValueHolder.
+	doItReceiver := nil asValueHolder.
 	
 	self registerEvents.
 	self registerEventsForShout

@@ -12,10 +12,10 @@
 		"buildMorphFor:withSpec:" : "BenjaminVanRyseghem 6/6/2012 18:23",
 		"buildWindowFor:" : "BenjaminVanRyseghem 6/6/2012 18:23",
 		"convertSymbolOfClassToInstance:" : "BenjaminVanRyseghem 6/6/2012 18:23",
-		"interpretASpec:" : "BenjaminVanRyseghem 7/31/2012 17:05",
+		"interpretASpec:" : "BenjaminVanRyseghem 10/17/2012 13:11",
 		"interpretASpec:model:" : "BenjaminVanRyseghem 6/6/2012 18:23",
 		"interpretASpec:model:superSpec:" : "BenjaminVanRyseghem 6/6/2012 19:24",
 		"model" : "BenjaminVanRyseghem 6/6/2012 18:23",
 		"model:" : "BenjaminVanRyseghem 6/6/2012 18:23",
-		"retreiveSpecFrom:" : "BenjaminVanRyseghem 7/13/2012 03:19",
+		"retreiveSpecFrom:" : "BenjaminVanRyseghem 10/17/2012 11:19",
 		"retrieveClassSymbolFor:" : "BenjaminVanRyseghem 6/6/2012 18:23" } }

@@ -12,7 +12,9 @@
 		"actionToPerformHolder",
 		"readSelectionHolder",
 		"actionPerformedHolder",
-		"isCodeCompletionAllowedHolder" ],
+		"isCodeCompletionAllowedHolder",
+		"doItContext",
+		"doItReceiver" ],
 	"name" : "TextModel",
 	"pools" : [
 		 ],

@@ -8,10 +8,8 @@ retreiveSpecFrom: aSymbol
 	instance :=  (SpecBinder 
 			specFor: aSymbol 
 			ifAbsent: [ ^ RawSpec new
-							bindings: self bindings;
 							defaultReceiver: aSymbol 
 							model: model ]) new.
 	^ instance 
 		model: model;
-		bindings: model bindings;
 		yourself

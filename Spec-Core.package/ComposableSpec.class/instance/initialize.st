@@ -4,4 +4,4 @@ initialize
 
 	super initialize.
 
-	subSpecs := OrderedCollection new.
+	subSpecs := Set new.

@@ -1,4 +1,8 @@
 private
 initializeInstance
 
-	^ self defaultReceiver new.
+	^ SpecInterpreter
+		interpretASpec: 
+			{ self classSymbol.
+				#color:. #(Color class white)} 
+		model: DummyComposableModel new

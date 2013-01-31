@@ -15,11 +15,17 @@ interpretASpec: aPresenter
 
 	" aPresenter is an Array "
 	"First element is a symbol describing the spec type"
-	spec := self retreiveSpecFrom: anArray first.
+	((self model respondsTo: #needRebuild) and: [ (self model needRebuild not and: [ self model spec notNil ])])
+		ifTrue: [
+			spec := self model spec.
+			spec removeSubWidgets.
+			self model needRebuild: true ]
+		ifFalse: [ spec := self retreiveSpecFrom: anArray first. ].
+
 	(spec isKindOf: RawSpec)
 		ifTrue: [ specToProvide := superSpec ]
 		ifFalse: [ specToProvide := spec ].
-	spec addAsSubSpecTo: superSpec.
+	"spec addAsSubSpecTo: superSpec."
 	index := 2.	
 	
 	[ index <= anArray size ]
