@@ -1,7 +1,6 @@
 {
 	"class" : {
 		"browseChangeSetsWithClass:selector:" : "StephaneDucasse 5/28/2011 13:39",
-		"browseChangeSetsWithSelector:" : "StephaneDucasse 5/28/2011 13:39",
 		"initialize" : "StephaneDucasse 9/9/2010 09:56",
 		"open" : "IgorStasenko 2/19/2011 03:56",
 		"patchworkUIThemeColor" : "AlainPlantec 12/16/2009 22:08",

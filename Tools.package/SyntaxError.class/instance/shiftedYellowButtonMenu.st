@@ -15,6 +15,5 @@ shiftedYellowButtonMenu
 		{'Method source with it' translated.		#methodSourceContainingIt}.
 		{'Class names containing it' translated.	#classNamesContainingIt}.
 		{'Class comments with it' translated.		#classCommentsContainingIt}.
-		{'Change sets with it' translated.			#browseChangeSetsWithSelector}.
 	}.
 	^menu

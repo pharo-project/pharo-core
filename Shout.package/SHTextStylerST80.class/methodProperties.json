@@ -2,11 +2,13 @@
 	"class" : {
 		"attributeArrayForColor:emphasis:font:" : "CamilloBruni 2/2/2012 02:35",
 		"attributesFor:pixelHeight:" : "",
-		"defaultStyleTable" : "AlainPlantec 2/29/2012 15:09",
+		"blueStyleTable" : "CamilloBruni 10/13/2012 10:34",
+		"defaultStyleTable" : "CamilloBruni 10/12/2012 19:41",
 		"initialTextAttributesForPixelHeight:" : "",
 		"initialize" : "AlainPlantec 8/27/2011 15:57",
 		"styleTable" : "",
 		"styleTable:" : "",
+		"tangoStyleTable" : "CamilloBruni 10/12/2012 19:44",
 		"textAttributesByPixelHeight" : "",
 		"unload" : "AlainPlantec 8/27/2011 16:56" },
 	"instance" : {

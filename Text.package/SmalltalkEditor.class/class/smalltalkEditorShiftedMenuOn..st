@@ -16,4 +16,3 @@ smalltalkEditorShiftedMenuOn: aBuilder
 	(aBuilder item: #'method source with it' translated) selector: #methodSourceContainingIt; withSeparatorAfter.
 	(aBuilder item: #'class names containing it' translated) selector: #classNamesContainingIt.
 	(aBuilder item: #'class comments with it' translated) selector: #classCommentsContainingIt.
-	(aBuilder item: #'change sets with it' translated) selector: #browseChangeSetsWithSelector.
