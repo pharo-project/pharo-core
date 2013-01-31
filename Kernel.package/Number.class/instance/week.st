@@ -1,5 +1,5 @@
 *Kernel-Chronology
 week
  
- 	^ self sign weeks
+ 	^ self weeks
  

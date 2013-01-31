@@ -1,4 +1,4 @@
 *Kernel-Chronology
 day
  
- 	^ self sign days
+ 	^ self days

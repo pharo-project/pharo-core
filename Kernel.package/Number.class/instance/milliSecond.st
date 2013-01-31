@@ -1,5 +1,5 @@
 *Kernel-Chronology
 milliSecond
  
- 	^ self sign milliSeconds
+ 	^ self milliSeconds
  

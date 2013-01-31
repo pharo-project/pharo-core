@@ -1,5 +1,5 @@
 *Kernel-Chronology
 second
  
- 	^ self sign seconds
+ 	^ self seconds
  
