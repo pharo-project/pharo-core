@@ -3,7 +3,8 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Registry" ],
+		"Registry",
+		"Session" ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		"handle" ],

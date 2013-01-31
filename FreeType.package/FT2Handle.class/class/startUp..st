@@ -1,4 +1,7 @@
 system startup
 startUp: booting
-
-	booting ifTrue: [ self clearRegistry ].
+	booting ifFalse: [ ^ self ].
+	
+	self clearRegistry. 
+	"update session"
+	Session := Smalltalk session

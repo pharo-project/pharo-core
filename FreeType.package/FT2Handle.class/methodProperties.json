@@ -8,7 +8,7 @@
 		"moduleErrorCode" : "nk 11/3/2004 15:50",
 		"register:" : "IgorStasenko 10/9/2012 18:50",
 		"registry" : "Igor.Stasenko 10/12/2010 19:45",
-		"startUp:" : "IgorStasenko 10/9/2012 17:49",
+		"startUp:" : "IgorStasenko 10/15/2012 17:08",
 		"unload" : "nk 11/3/2004 21:00" },
 	"instance" : {
 		"=" : "Igor.Stasenko 10/12/2010 19:47",
@@ -16,7 +16,7 @@
 		"destroyHandle" : "IgorStasenko 10/9/2012 18:54",
 		"errorCode" : "nk 11/3/2004 13:51",
 		"errorString" : "nk 11/3/2004 21:07",
-		"finalize" : "IgorStasenko 10/9/2012 18:50",
+		"finalize" : "IgorStasenko 10/15/2012 17:07",
 		"handle" : "nk 11/3/2004 21:19",
 		"hash" : "Igor.Stasenko 10/12/2010 19:48",
 		"initialize" : "nk 3/11/2005 18:44",

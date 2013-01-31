@@ -1,5 +1,5 @@
 testing
-testPayPal
+disabledTestPayPal
 	| client |
 	self ensureSocketStreamFactory.
 	self isNativeSSLPluginPresent ifFalse: [ ^ self ].

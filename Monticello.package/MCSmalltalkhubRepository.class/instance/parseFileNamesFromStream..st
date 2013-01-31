@@ -1,3 +1,5 @@
 interface
 parseFileNamesFromStream: aNewLineDelimitedString
-	^ aNewLineDelimitedString subStrings: String crlf
+	^ aNewLineDelimitedString 
+		ifNil: [ ^ OrderedCollection new ]
+		ifNotNil: [ aNewLineDelimitedString subStrings: String crlf ]

@@ -3,15 +3,15 @@
 		"generateTestData:" : "SvenVanCaekenberghe 6/27/2012 13:26",
 		"generateTestFiles" : "SvenVanCaekenberghe 6/27/2012 13:27" },
 	"instance" : {
+		"disabledTestPayPal" : "SvenVanCaekenberghe 10/2/2012 14:55",
 		"ensureSocketStreamFactory" : "SvenVanCaekenberghe 7/4/2012 11:32",
 		"isNativeSSLPluginPresent" : "SvenVanCaekenberghe 7/4/2012 11:32",
-		"testAmazonAWS" : "EstebanLorenzano 8/17/2012 16:40",
-		"testGForceInria" : "EstebanLorenzano 8/17/2012 16:40",
+		"testAmazonAWS" : "SvenVanCaekenberghe 8/23/2012 14:34",
+		"testGForceInria" : "SvenVanCaekenberghe 8/23/2012 14:34",
 		"testGetPharoVersion" : "SvenVanCaekenberghe 7/16/2012 11:41",
-		"testGmailEncrypted" : "EstebanLorenzano 8/17/2012 16:40",
-		"testGoogleEncrypted" : "EstebanLorenzano 8/17/2012 16:40",
-		"testPayPal" : "EstebanLorenzano 8/17/2012 16:41",
-		"testRequestResponse" : "EstebanLorenzano 8/17/2012 16:40",
+		"testGmailEncrypted" : "SvenVanCaekenberghe 8/23/2012 14:34",
+		"testGoogleEncrypted" : "SvenVanCaekenberghe 8/23/2012 14:34",
+		"testRequestResponse" : "SvenVanCaekenberghe 8/23/2012 14:34",
 		"testTransfers" : "SvenVanCaekenberghe 7/4/2012 11:35",
 		"testTransfersSingleClient" : "SvenVanCaekenberghe 7/4/2012 11:34",
-		"testWikimedia" : "EstebanLorenzano 8/17/2012 16:40" } }
+		"testWikimedia" : "SvenVanCaekenberghe 8/23/2012 14:34" } }
