@@ -1,0 +1,4 @@
+protocol
+defaultBindings
+	
+	^ BindingsHolder new

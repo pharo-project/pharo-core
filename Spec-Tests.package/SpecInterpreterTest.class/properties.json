@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"specInterpreter" ],
+		"specInterpreter",
+		"specInterpreterClass" ],
 	"name" : "SpecInterpreterTest",
 	"pools" : [
 		 ],

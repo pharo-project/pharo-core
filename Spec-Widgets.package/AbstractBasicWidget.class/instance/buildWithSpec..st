@@ -5,7 +5,7 @@ buildWithSpec: aSpec
 	
 	(self spec notNil and: [ self needRebuild not ])
 		ifTrue: [ ^ self widget ]
-		ifFalse: [ widget := SpecInterpreter buildMorphFor: self withSpec: aSpec ].
+		ifFalse: [ widget := SpecInterpreter buildWidgetFor: self withSpec: aSpec ].
 
 	self ensureExtentFor: widget.
 		

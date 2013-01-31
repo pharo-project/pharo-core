@@ -1,6 +1,7 @@
 protocol
 interpretASpec: aSpec model: aModel
 	
-	^ self new
+	^ self
 		interpretASpec: aSpec
 		model: aModel
+		superSpec: NullObjectSpec new

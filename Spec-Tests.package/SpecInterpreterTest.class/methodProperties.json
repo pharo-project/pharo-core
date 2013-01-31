@@ -2,10 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "BenjaminVanRyseghem 6/6/2012 18:26",
-		"tearDown" : "",
-		"testBuildMorphFor" : "BenjaminVanRyseghem 6/6/2012 18:26",
-		"testBuildMorphForWithSpec" : "StephaneDucasse 5/17/2012 17:57",
-		"testBuildWindowFor" : "BenjaminVanRyseghem 5/22/2012 14:57",
+		"setUp" : "BenjaminVanRyseghem 10/18/2012 15:27",
+		"tearDown" : "BenjaminVanRyseghem 10/18/2012 15:24",
+		"testBindings" : "BenjaminVanRyseghem 10/18/2012 15:41",
+		"testBuildWidgetFor" : "BenjaminVanRyseghem 10/18/2012 15:33",
+		"testBuildWidgetForWithSpec" : "BenjaminVanRyseghem 10/18/2012 15:33",
+		"testBuildWindowFor" : "BenjaminVanRyseghem 10/18/2012 15:26",
 		"testConvertRandomSymbolOfClassToInstance" : "",
-		"testInterpretASpecModelMorphAssociation" : "BenjaminVanRyseghem 6/12/2012 18:38" } }
+		"testDynamicBuild" : "BenjaminVanRyseghem 10/18/2012 16:05",
+		"testInterpretASpecModelMorphAssociation" : "BenjaminVanRyseghem 10/18/2012 15:26" } }

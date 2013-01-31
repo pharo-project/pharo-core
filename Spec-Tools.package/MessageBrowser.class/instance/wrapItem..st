@@ -6,7 +6,7 @@ wrapItem: anItem
 		3 to: (cachedHierarchy at: anItem) size do: [:i | aStream << '    '].
 		aStream 
 			<< anItem methodClass name << ' ('.
-		anItem isTraitMethod
+		anItem isFromTrait
 			ifTrue: [ aStream << anItem compiledMethod origin name; space ].
 		aStream << (anItem category ifNil: ['']) <<')'].
 	

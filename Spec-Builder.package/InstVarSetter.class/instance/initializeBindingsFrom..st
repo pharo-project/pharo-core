@@ -7,4 +7,4 @@ initializeBindingsFrom: desc
 		 adds do: [:a || source item |
 			source :=  a code substrings.
 			item := source second allButLast asSymbol.
-			(bindings at: e) at: item put: (((source allButFirst:2) joinUsing: ' ')->true) ]].
+			(textBindings at: e) at: item put: (((source allButFirst:2) joinUsing: ' ')->true) ]].

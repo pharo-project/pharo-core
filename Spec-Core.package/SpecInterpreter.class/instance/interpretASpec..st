@@ -42,7 +42,7 @@ interpretASpec: aPresenter
 					selector := array first.
 					numArgs := 0.
 					args := array allButFirst ].
-				args := args collect: [:each | self class interpretASpec: each model: model superSpec: specToProvide ].
+				args := args collect: [:each | self class private_interpretASpec: each model: model superSpec: specToProvide ].
 				index := index + numArgs + 1.
 				newInstance := self actionToPerformWithSelector: selector arguments: args.
 			index > anArray size
@@ -50,7 +50,7 @@ interpretASpec: aPresenter
 					| result |
 					(model respondsTo: #spec:)
 						ifTrue: [ model spec: spec ].
-					result := self class interpretASpec: newInstance model: spec instance superSpec: specToProvide.
+					result := self class private_interpretASpec: newInstance model: spec instance superSpec: specToProvide.
 					(result isKindOf: ComposableModel)
 						ifTrue: [| return | 
 							return := result buildWithSpec.

@@ -2,6 +2,6 @@ initialization
 setUp
 	"Setting up code for SpecInterpreterTest"
 
-
-	specInterpreter := SpecInterpreter new.
+	specInterpreterClass := SpecInterpreter.
+	specInterpreter := specInterpreterClass new.
 	specInterpreter model: TestingComposableModel new

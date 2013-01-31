@@ -1,7 +1,11 @@
 protocol
 interpretASpec: aPresenter model: aModel superSpec: aSpec
+	| result |
 	
-	^ self new
-		interpretASpec: aPresenter
-		model: aModel
-		superSpec: aSpec
+	result :=  self 
+				private_interpretASpec: aPresenter
+				model: aModel
+				superSpec: aSpec.
+				
+	self resetBinding.
+	^ result

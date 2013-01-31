@@ -8,7 +8,7 @@ classesMenu: aBuilder
 	(aBuilder item: #'Rename... (r, c)')
 		action: [ target renameClass ];
 		enabledBlock: [ target selectedClasses size <= 1 ];
-		order: 500;
+		order: -99;
 		withSeparatorAfter.	
 		
 	(aBuilder item: #'Browse scoped (b, s)')

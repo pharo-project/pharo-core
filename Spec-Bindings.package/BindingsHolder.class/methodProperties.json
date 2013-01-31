@@ -7,6 +7,7 @@
 		"bindings:" : "BenjaminVanRyseghem 4/24/2012 10:30",
 		"classSymbolFor:ifAbsent:" : "BenjaminVanRyseghem 4/24/2012 10:36",
 		"initialize" : "BenjaminVanRyseghem 4/24/2012 10:34",
+		"resetBinding" : "BenjaminVanRyseghem 10/18/2012 14:58",
 		"retrieveClassSymbolFor:" : "BenjaminVanRyseghem 4/24/2012 10:29",
 		"retrieveDefaultClassSymbolFor:" : "BenjaminVanRyseghem 4/24/2012 10:29",
 		"retrieveDefaultSelectorSymbolFor:" : "BenjaminVanRyseghem 4/24/2012 10:29",

@@ -7,7 +7,7 @@ buildWithSpecLayout: aSpec
 		ifTrue: [ widget := self spec instance ]
 		ifFalse: [ 
 			contentMorph := self model buildWithSpecLayout: aSpec.
-			widget := SpecInterpreter buildMorphFor: self withSpec: self defaultSpecSelector.
+			widget := SpecInterpreter buildWidgetFor: self withSpec: self defaultSpecSelector.
 			contentMorph := nil ].
 
 	self extent ifNotNil: [:ex | 

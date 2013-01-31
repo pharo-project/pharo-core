@@ -1,7 +1,7 @@
 {
 	"category" : "Spec-Core",
 	"classinstvars" : [
-		 ],
+		"bindings" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",

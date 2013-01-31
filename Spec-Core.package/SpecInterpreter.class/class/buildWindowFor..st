@@ -1,4 +1,4 @@
 protocol
 buildWindowFor: aComposableModel
 	
-	^ self new buildWindowFor: aComposableModel
+	^ self interpretASpec: aComposableModel class windowSpec model: aComposableModel
