@@ -20,7 +20,12 @@ systemMethodModifiedActionFrom: ann
 	
 	"If the method origin is not the one of the event, we do not care about that method"
 	newMethod origin = ann methodClass ifFalse: [^ self].
-
+	
+	
+	"Special case for trait methods added an override"
+	newMethod origin = oldMethod origin
+		ifFalse: [ ^ self addMethod: newMethod ].
+	
 	methodPackage := newMethod packageFromOrganizer: self.
 	"maybe the name of the method has changed"
 	oldMethod selector = newMethod selector

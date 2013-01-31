@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"on:" : "CamilloBruni 9/29/2011 18:32",
+		"stdIn" : "dfgs 7/6/2012 16:56" },
+	"instance" : {
+		"continueReadCSINumber:" : "CamilloBruni 10/4/2011 22:54",
+		"fail:in:" : "CamilloBruni 3/28/2012 19:56",
+		"handler:" : "ToonVerwaest 8/20/2010 14:15",
+		"inStream:" : "CamilloBruni 8/11/2011 19:38",
+		"initialize" : "CamilloBruni 9/29/2011 18:32",
+		"initializeCSI:" : "dfgs 7/8/2012 13:08",
+		"initializeNormal:" : "dfgs 7/8/2012 13:08",
+		"initializeSS3:" : "dfgs 7/8/2012 13:07",
+		"read" : "DamienPollet 10/6/2011 16:40",
+		"readC1" : "CamilloBruni 10/3/2011 16:09",
+		"readCSI" : "CamilloBruni 10/3/2011 16:10",
+		"readSS3" : "CamilloBruni 6/29/2012 10:06" } }

@@ -15,6 +15,7 @@
 		"resetDefault" : "StephaneDucasse 6/3/2012 22:39",
 		"rpackageNames" : "cyrille.delaunay 11/3/2010 18:24" },
 	"instance" : {
+		"addMethod:" : "CamilloBruni 10/17/2012 11:31",
 		"allManagers" : "StephaneDucasse 6/2/2012 19:39",
 		"basicRegisterPackage:" : "cyrilledelaunay 5/30/2011 17:34",
 		"basicUnregisterPackage:" : "cyrilledelaunay 5/30/2011 17:38",
