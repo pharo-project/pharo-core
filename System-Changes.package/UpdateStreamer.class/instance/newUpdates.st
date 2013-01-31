@@ -9,6 +9,7 @@ newUpdates
 	existing := SystemVersion current updates.
 	result := ZnClient new
 		systemPolicy;
+		setAcceptEncodingGzip;
 		beOneShot;
 		accept: ZnMimeType text;
 		url: self updateListFileURLString;

@@ -16,6 +16,7 @@ silentRetrieveUrls: urls ontoQueue: queue withWaitSema: waitSema
 			queue nextPut: url.
 			doc := ZnClient new
 				systemPolicy;
+				setAcceptEncodingGzip;
 				beOneShot;
 				ifFail: [ :exception | 
 					queue nextPut: #failed.

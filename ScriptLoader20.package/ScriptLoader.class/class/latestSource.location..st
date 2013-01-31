@@ -6,6 +6,7 @@ latestSource: packageName location: location
   versionName := location, '/', (self latestVersionOf: packageName location: location).
   contents := ZnClient new
 		systemPolicy;
+		setAcceptEncodingGzip;
 		beOneShot;
 		url: versionName;
 		ifFail: [ :exception | self error: 'Cannot access latest source: ' , exception printString ];

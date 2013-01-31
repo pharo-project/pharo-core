@@ -6,6 +6,7 @@ loadLatestUpdateList
 	result := ZnClient new
 		systemPolicy;
 		beOneShot;
+		setAcceptEncodingGzip;
 		accept: ZnMimeType text;
 		url: (UpdateStreamer new updateFolderURL, self updatesListFileName);
 		ifFail: [ :exception | self error: 'Cannot access update server: ' , exception printString ];

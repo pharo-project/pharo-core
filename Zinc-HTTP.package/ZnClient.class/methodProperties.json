@@ -103,6 +103,7 @@
 		"retryDelay:" : "SvenVanCaekenberghe 5/30/2012 21:31",
 		"sendCookies" : "SvenVanCaekenberghe 2/29/2012 19:51",
 		"session" : "SvenVanCaekenberghe 11/8/2011 16:54",
+		"setAcceptEncodingGzip" : "CamilloBruni 10/1/2012 12:51",
 		"setBasicAuthenticationUsername:password:" : "SvenVanCaekenberghe 11/8/2011 17:35",
 		"setIfModifiedSince:" : "SvenVanCaekenberghe 5/10/2012 22:39",
 		"signalProgress" : "SvenVanCaekenberghe 11/8/2011 20:44",

@@ -5,6 +5,7 @@ downloadIssueSummary
 	issueNumber := self info issueNumber.
 	ZnClient new
 		systemPolicy;
+		setAcceptEncodingGzip;
 		accept: ZnMimeType textHtml;
 		http;
 		host: 'code.google.com';
