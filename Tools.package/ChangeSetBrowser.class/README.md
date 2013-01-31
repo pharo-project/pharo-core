@@ -1,1 +1,0 @@
-A tool allowing you to browse the methods of a single change set.

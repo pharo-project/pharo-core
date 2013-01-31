@@ -3,7 +3,6 @@ changeSetListKey: aChar from: view
 	"Respond to a Command key.  I am a model with a listView that has a list of changeSets."
 
 	aChar == $b ifTrue: [^ self browseChangeSet].
-	aChar == $B ifTrue: [^ self openChangeSetBrowser].
 	aChar == $c ifTrue: [^ self copyAllToOther].
 	aChar == $D ifTrue: [^ self toggleDiffing]. 
 	aChar == $f ifTrue: [^ self findChangeSet].

@@ -12,5 +12,4 @@ error
 		
 	self printHelp.
 	
-	Smalltalk isInteractive ifFalse: [ ^ self exitFailure ].
-	Error signal: 'Invalid arguments'.
+	self exitFailure.

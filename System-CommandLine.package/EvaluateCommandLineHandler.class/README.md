@@ -1,4 +1,10 @@
-A CommandLineHandler that reads a string from the command line and outputs the evaluated result.
+Usage: eval [--help] <smalltalk expression>
+	--help    list this help message
+	<smallltalk expression>  a valid Smalltalk expression which is evaluated and 
+	                         the result is printed on stdout
+
+Documentation:
+A CommandLineHandler that reads a string from the command line, outputs the evaluated result and quits the image. 
 
 This handler either evaluates the arguments passed to the image:
 	$PHARO_VM my.image eval  1 + 2

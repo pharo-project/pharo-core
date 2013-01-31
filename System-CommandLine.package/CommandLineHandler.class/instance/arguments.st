@@ -1,3 +1,3 @@
-accessing
+accessing arguments
 arguments
-	^ commandLine arguments 
+	^ self commandLine arguments

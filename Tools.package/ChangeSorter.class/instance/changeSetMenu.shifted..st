@@ -14,7 +14,6 @@ changeSetMenu: aMenu shifted: isShifted
 	aMenu add: 'Rename change set (r)' action: #rename.
 	aMenu add: 'File out (o)' action: #fileOut.
 	aMenu add: 'Browse methods (b)' action: #browseChangeSet.
-	aMenu add: 'Browse change set (B)' action: #openChangeSetBrowser.
 	aMenu addLine.
 	parent
 		ifNotNil: 

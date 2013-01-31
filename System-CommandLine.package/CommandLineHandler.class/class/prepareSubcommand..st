@@ -1,4 +1,4 @@
-instance creation
+private
 prepareSubcommand: commandLineArguments
 
 	"strip the subcommand name from the arguments"

@@ -1,3 +1,3 @@
 utility
 exitFailure 
-	^ Smalltalk exitFailure
+	^ self exitFailure: 'Commandline failed'

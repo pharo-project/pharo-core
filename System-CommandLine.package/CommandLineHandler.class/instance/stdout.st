@@ -1,3 +1,3 @@
-utility
+accessing
 stdout
 	^ stdout

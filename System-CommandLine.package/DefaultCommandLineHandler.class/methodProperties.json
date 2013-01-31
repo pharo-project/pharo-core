@@ -8,12 +8,10 @@
 	"instance" : {
 		"activate" : "CamilloBruni 7/24/2012 16:38",
 		"copyright" : "CamilloBruni 4/28/2012 21:54",
-		"error" : "CamilloBruni 5/2/2012 00:23",
+		"error" : "CamilloBruni 10/13/2012 15:47",
 		"handleArgument:" : "CamilloBruni 5/2/2012 00:24",
 		"handleSubcommand" : "CamilloBruni 5/2/2012 00:24",
-		"help" : "CamilloBruni 4/29/2012 16:20",
 		"initialize" : "CamilloBruni 5/1/2012 21:24",
 		"list" : "CamilloBruni 5/26/2012 13:09",
-		"printHelp" : "CamilloBruni 5/1/2012 13:38",
 		"selectHandlers" : "CamilloBruni 5/1/2012 21:22",
 		"version" : "CamilloBruni 4/28/2012 22:00" } }

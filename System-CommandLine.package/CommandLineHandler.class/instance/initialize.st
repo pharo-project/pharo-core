@@ -1,5 +1,7 @@
 initialize-release
 initialize
 	super initialize.
-	self initializeStdout
+	self 
+		initializeStdout;
+		initializeStderr.
 	

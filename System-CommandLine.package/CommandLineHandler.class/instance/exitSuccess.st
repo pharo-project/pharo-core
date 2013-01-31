@@ -1,3 +1,5 @@
 utility
 exitSuccess
-	^ Smalltalk exitSucess.
+	Smalltalk isInteractive 
+		ifTrue: [ self inform: self class name, ' finished' ]
+		ifFalse: [ Smalltalk exitSuccess ]
