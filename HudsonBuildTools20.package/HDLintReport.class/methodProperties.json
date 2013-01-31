@@ -4,7 +4,7 @@
 		"runEnvironment:" : "lr 5/14/2010 09:20",
 		"runPackage:" : "MarcusDenker 7/15/2012 13:16" },
 	"instance" : {
-		"generateClass:on:" : "lr 7/4/2010 22:36",
+		"generateClass:on:" : "CamilloBruni 10/20/2012 22:49",
 		"generateClass:selector:source:on:" : "lr 7/4/2010 20:46",
 		"generateClass:source:on:" : "lr 7/4/2010 21:08",
 		"generateOn:" : "lr 7/4/2010 21:17",
@@ -13,4 +13,4 @@
 		"isClassEnvironment:" : "lr 5/15/2010 14:05",
 		"isSelectorEnvironment:" : "lr 5/15/2010 14:05",
 		"lineAndColumn:at:" : "lr 5/14/2010 22:29",
-		"run" : "MarcusDenker 7/15/2012 13:16" } }
+		"run" : "CamilloBruni 10/20/2012 22:49" } }

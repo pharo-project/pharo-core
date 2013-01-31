@@ -17,9 +17,11 @@ classAndTraitNames
 		to: temporary size
 		with: traitNames
 		startingAt: 1;
+		
 		mergeFirst: 1
 		middle: classNames size
 		last: temporary size
 		into: result
-		by: nil.
+		by: [ :a :b | a <= b ].
+		
 	^result

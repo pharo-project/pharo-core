@@ -7,6 +7,5 @@ generateClass: aClass on: aStream
 	self generateClass: aClass source: sourceStream on: aStream.
 	self generateClass: aClass class source: sourceStream on: aStream.
 	aStream tab; nextPutAll: '</file>'; nextPut: Character lf.
-	FileDirectory default 
-		forceNewFileNamed: sourceName
-		do: [ :stream | stream nextPutAll: sourceStream contents ]
+	sourceName asFileReference ensureDeleted writeStreamDo: [ :stream | 
+		stream nextPutAll: sourceStream contents ]
