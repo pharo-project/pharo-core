@@ -8,18 +8,9 @@ EXAMPLE (Select next 6 lines and Do It)
 	during: [:bar |
 	1 to: 10 do: [:x | bar value: x.
 			(Delay forMilliseconds: 500) wait]].
-
-HOW IT WORKS (Try this in any other language :-)
-Since your code (the last 2 lines in the above example) is in a block,
-this method gets control to display its heading before, and clean up 
-the screen after, its execution.
-The key, though, is that the block is supplied with an argument,
-named 'bar' in the example, which will update the bar image every 
-it is sent the message value: x, where x is in the from:to: range.
 "
-	^ProgressInitiationException 
-		display: self
-		at: Display center 
+	^ UIManager default 
+		displayProgress: self 
 		from: minVal 
 		to: maxVal 
 		during: workBlock

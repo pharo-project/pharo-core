@@ -1,4 +1,4 @@
 instance creation
 uniqueInstance
 
-	^ UniqueInstance ifNil: [ UniqueInstance := self  new ].
+	^ UniqueInstance ifNil: [ UniqueInstance := self new ].

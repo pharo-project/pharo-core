@@ -5,8 +5,8 @@ close: aSystemProgressItemMorph
 	
 	lock critical: [
 		aSystemProgressItemMorph delete.
-		self bars size = 0
-			ifTrue: [ self delete ]
-			ifFalse: [ self recenter ] ].
+		self bars size = 0 ifTrue: [ 
+			self width: 0.
+			self delete ] ].
 
 	self refresh.

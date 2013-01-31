@@ -1,4 +1,4 @@
-API
+compatibility
 current: aNumber
 
-	self traceCr: start printString,'  ', end printString, '  ', aNumber printString.
+	self log: start printString,'  ', end printString, '  ', aNumber printString.

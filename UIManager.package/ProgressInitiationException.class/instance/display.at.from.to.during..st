@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 display: argString at: argPoint from: argMinVal to: argMaxVal during: argWorkBlock
 
 	progressTitle := argString.

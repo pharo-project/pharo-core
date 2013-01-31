@@ -4,6 +4,8 @@ initialize
 	
 	super initialize.
 	value := 0.
+	start := 0.
+	end := 100.
 
 	self 
 		fillStyle: (self theme progressBarFillStyleFor: self);

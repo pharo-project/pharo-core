@@ -20,9 +20,8 @@ it is sent the message value: x, where x is in the from:to: range.
 "
 	"deprecated use displayProgressFrom: minVal to: maxVal during: workBlock "
 
-	^ProgressInitiationException 
+	^UIManager default 
 		display: self
-		at: aPoint 
 		from: minVal 
 		to: maxVal 
 		during: workBlock

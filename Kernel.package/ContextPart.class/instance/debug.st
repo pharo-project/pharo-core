@@ -2,5 +2,6 @@ debugging
 debug
 	^ Smalltalk tools debugger
 		openContext: self 
-		label: 'Debug it'
+		label: self printString 
 		contents: nil
+		

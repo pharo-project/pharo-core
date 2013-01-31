@@ -1,0 +1,14 @@
+{
+	"category" : "KernelTests-Processes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "JobTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

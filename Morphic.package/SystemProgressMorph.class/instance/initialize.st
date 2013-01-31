@@ -12,7 +12,7 @@ initialize
 		cellPositioning: #topCenter;
 		cellInset: 5;
 		listCentering: #center;
-		hResizing: #shrinkWrap;
+		hResizing: #rigid;
 		vResizing: #shrinkWrap;
-		layoutInset: 15@15;
+		layoutInset: 10@6;
 		minWidth: 150

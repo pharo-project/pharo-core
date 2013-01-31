@@ -1,0 +1,21 @@
+{
+	"category" : "Morphic-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"BarHeight",
+		"BarWidth" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"bar",
+		"hasResult",
+		"job",
+		"labelMorph",
+		"lastRefresh",
+		"lock",
+		"result" ],
+	"name" : "JobProgressMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Kernel-Processes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"job" ],
+	"name" : "JobStart",
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"type" : "normal" }

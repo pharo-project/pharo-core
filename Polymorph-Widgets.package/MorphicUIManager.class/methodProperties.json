@@ -2,6 +2,7 @@
 	"class" : {
 		"isActiveManager" : "alain.plantec 5/30/2008 13:55" },
 	"instance" : {
+		"activate" : "SeanDeNigris 8/30/2012 11:26",
 		"buildContextInspectorFor:" : "BenjaminVanRyseghem 9/6/2011 11:05",
 		"buildFieldInspectorFor:" : "BenjaminVanRyseghem 9/6/2011 11:03",
 		"buildListOfContextFor:" : "BenjaminVanRyseghem 9/6/2011 11:04",
@@ -27,8 +28,7 @@
 		"confirm:trueChoice:falseChoice:" : "GaryChambers 8/23/2010 12:13",
 		"confirm:trueChoice:falseChoice:cancelChoice:default:" : "FernandoOlivero 4/12/2011 09:57",
 		"currentWorld" : "JuanVuletich 11/1/2010 15:17",
-		"displayProgress:at:from:to:during:" : "ar 2/28/2005 17:13",
-		"displayProgress:from:to:during:" : "StephaneDucasse 9/7/2011 22:08",
+		"deactivate" : "SeanDeNigris 8/30/2012 11:26",
 		"edit:label:accept:" : "IgorStasenko 4/15/2011 17:26",
 		"enterOrRequestFrom:lines:title:" : "StephaneDucasse 7/17/2010 13:13",
 		"enterOrRequestFrom:values:lines:title:" : "FernandoOlivero 4/12/2011 09:56",
@@ -72,7 +72,6 @@
 		"openProcessBrowserAsMorph:" : "sd 3/25/2012 20:58",
 		"openTranscript" : "CamilloBruni 9/21/2012 13:53",
 		"preferredCornerStyle" : "FernandoOlivero 5/9/2011 13:14",
-		"progressInitiationExceptionDefaultAction:" : "pavel.krivanek 2/24/2007 14:26",
 		"request:initialAnswer:" : "StephaneDucasse 9/7/2011 22:33",
 		"request:initialAnswer:centerAt:" : "StephaneDucasse 9/7/2011 21:51",
 		"request:initialAnswer:entryCompletion:" : "AlainPlantec 11/26/2010 10:19",

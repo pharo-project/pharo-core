@@ -1,3 +1,4 @@
 private
 beDefault
-	Default := self
+
+	self class default: self.

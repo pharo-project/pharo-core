@@ -1,3 +1,6 @@
 initialization
 default: aUIManager
-	Default := aUIManager
+
+	Default deactivate.
+	Default := aUIManager.
+	Default activate.

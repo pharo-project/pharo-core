@@ -1,6 +1,6 @@
-as yet unclassified
+instance-creation
 initialize
 	"ProgressBarMorph initialize"
 	
 	DefaultWidth := 300.
-	DefaultHeight := 16.
+	DefaultHeight := 10.

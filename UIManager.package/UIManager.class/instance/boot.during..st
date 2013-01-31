@@ -2,12 +2,9 @@ image startup
 boot: bootingFromDisk during: aBlock
 
 	bootingFromDisk ifTrue: [ 
-		
-		" we should replace currently active UI manager with non-interactive one during 
-		processing startup list "
-		Default := StartupUIManager replacing: self.
-	].
+		"use non-interactive manager while processing startup list"
+		self class default: (StartupUIManager replacing: self) ].
 
-	aBlock ensure: [ Default := self ].
+	aBlock ensure: [ self class default: self ].
 
 	self onSnapshot: bootingFromDisk

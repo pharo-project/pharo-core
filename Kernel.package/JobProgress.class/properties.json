@@ -1,0 +1,15 @@
+{
+	"category" : "Kernel-Processes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"progress",
+		"title" ],
+	"name" : "JobProgress",
+	"pools" : [
+		 ],
+	"super" : "JobNotification",
+	"type" : "normal" }

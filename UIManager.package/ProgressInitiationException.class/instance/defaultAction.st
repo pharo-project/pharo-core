@@ -1,4 +1,8 @@
-as yet unclassified
+action
 defaultAction
 
-	^ UIManager default progressInitiationExceptionDefaultAction: self
+	^ UIManager default 
+		displayProgress: progressTitle 
+		from: minVal 
+		to: maxVal 
+		during: workBlock

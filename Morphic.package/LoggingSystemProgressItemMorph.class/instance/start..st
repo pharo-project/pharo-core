@@ -1,4 +1,4 @@
-as yet unclassified
+compatibility
 start: aNumber
 
 	start := aNumber.

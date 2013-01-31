@@ -2,6 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"current:" : "SeanDeNigris 6/21/2012 00:28",
+		"current:" : "SeanDeNigris 8/30/2012 10:50",
 		"end:" : "SeanDeNigris 6/21/2012 00:27",
+		"log:" : "SeanDeNigris 8/30/2012 10:50",
+		"onChange:" : "SeanDeNigris 8/30/2012 10:51",
+		"onEnd:" : "SeanDeNigris 8/30/2012 10:52",
+		"onStart:" : "SeanDeNigris 8/30/2012 10:51",
 		"start:" : "SeanDeNigris 6/21/2012 00:27" } }

@@ -1,4 +1,4 @@
-accessing
+compatibility
 end: aNumber
 
 	end := aNumber.
