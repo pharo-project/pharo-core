@@ -1,3 +1,0 @@
-proxy settings
-removeProxyException: domainName
-	NetworkSystemSettings removeHttpProxyException: domainName 

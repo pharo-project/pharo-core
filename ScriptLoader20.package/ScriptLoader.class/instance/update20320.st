@@ -1,6 +1,7 @@
-public
-commentForCurrentUpdate
- ^ 'Issue 6757:	Nuke HTTPClient and HTTPSocket and deprecated ZnHTTPSocketFacade
+pharo - updates
+update20320
+	"self new update20320"
+	self withUpdateLog: 'Issue 6757:	Nuke HTTPClient and HTTPSocket and deprecated ZnHTTPSocketFacade
 	http://code.google.com/p/pharo/issues/detail?id=6757
 	
 	
@@ -10,4 +11,6 @@ Remove all methods from HTTPSocket, instance and class side, as well as all inst
 
 Deprecate all class side methods on HTTPSocket that were delegating to ZnHTTPSocketFacade, as defined by the special Zinc-Patch-HTTPSocket package.
 
-Remove HTTPSocketTests'
+Remove HTTPSocketTests'.
+	self loadTogether: self script305 merge: false.
+	self flushCaches.

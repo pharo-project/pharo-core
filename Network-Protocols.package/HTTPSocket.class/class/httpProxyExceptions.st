@@ -1,3 +1,0 @@
-proxy settings
-httpProxyExceptions
-	^NetworkSystemSettings httpProxyExceptions 

@@ -1,3 +1,0 @@
-initialization
-blabEmail
-	^ NetworkSystemSettings blabEmail

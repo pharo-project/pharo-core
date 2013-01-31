@@ -3,13 +3,10 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"HTTPProxyCredentials",
-		"ParamDelimiters" ],
+		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"headerTokens",
-		"headers",
-		"responseCode" ],
+		 ],
 	"name" : "HTTPSocket",
 	"pools" : [
 		 ],

@@ -1,3 +1,3 @@
-HTTPSockets support HTTP requests, either directly or via an HTTP proxy server. An HTTPSocket saves the parse of the last ASCII header it saw, to avoid having to parse it repeatedly.
+This class is deprecated in Pharo 2.0 since 2012-10-03T18:02:49Z.
 
-The real action is in httpGet:accept:.  See the examples in the class, especially httpFileInNewChangeSet: and httpShowGif:.
+Use ZnClient to build, execute and process HTTP client requests.
