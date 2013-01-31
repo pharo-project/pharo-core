@@ -20,7 +20,8 @@
 	"instvars" : [
 		"globals",
 		"deferredStartupActions",
-		"specialObjectsArray" ],
+		"specialObjectsArray",
+		"session" ],
 	"name" : "SmalltalkImage",
 	"pools" : [
 		 ],

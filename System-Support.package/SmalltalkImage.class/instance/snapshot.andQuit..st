@@ -17,6 +17,9 @@ snapshot: save andQuit: quit
 	(quit and: [ resuming not ])
 		ifTrue: [ self quitPrimitive ].
 	
+	"create a new session object if we're booting"
+	resuming ifTrue: [ session := self newSessionObject ].
+	
 	self startupImage: resuming snapshotWorked: snapshotResult.
 	
 	"We return the resuming state, which may be useful for users to know the state of the image"
