@@ -60,7 +60,7 @@
 		"doWithProgressBar:forUnsentMessagesInClass:" : "SeanDeNigris 6/21/2012 09:14",
 		"doWithProgressBar:forUnsentMessagesInPackageNamed:" : "SeanDeNigris 6/21/2012 09:14",
 		"doWithProgressBarForAllUnsentMessages:" : "SeanDeNigris 6/21/2012 09:14",
-		"methodHierarchyBrowserForClass:selector:" : "MarcusDenker 7/12/2012 18:04",
+		"methodHierarchyBrowserForClass:selector:" : "MarcusDenker 10/21/2012 14:59",
 		"openBrowserFor:withMethods:" : "StephaneDucasse 7/29/2012 21:24",
 		"removeUnsentMessagesWithProgressBarInClass:" : "Noury 10/26/2008 22:49",
 		"removeUnsentMessagesWithProgressBarInPackageNamed:" : "Noury 10/26/2008 22:48",

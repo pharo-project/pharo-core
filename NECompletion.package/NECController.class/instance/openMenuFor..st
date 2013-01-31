@@ -1,6 +1,8 @@
 menu morph
 openMenuFor: aParagraphEditor 
 	| theMenu |
+	self stopCompletionDelay.
+	
 	context := self contextClass
 				controller: self
 				class: model selectedClassOrMetaClass 
@@ -17,5 +19,3 @@ openMenuFor: aParagraphEditor
 	
 	context ifNil: [ ^ self closeMenu ].
 	context model entries ifEmpty: [ ^ self closeMenu ].
-	
-	aParagraphEditor morph on: MorphLostFocus send: #closeMenu to: self.
