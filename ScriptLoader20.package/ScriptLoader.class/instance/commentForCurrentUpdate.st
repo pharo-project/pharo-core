@@ -1,13 +1,10 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6790:	MC SaveDialog fork fix
-	http://code.google.com/p/pharo/issues/detail?id=6790
+ ^ 'Issue 6786:	TextEditor loses selection interval on right-click
+	http://code.google.com/p/pharo/issues/detail?id=6786
 	
-Issue 6788:	Improve Regex match/search/matchprefix methods comments
-	http://code.google.com/p/pharo/issues/detail?id=6788
+Issue 6789:	Open MCRepository after adding it
+	http://code.google.com/p/pharo/issues/detail?id=6789
 	
-Issue 6787:	Finder Cleanup 2
-	http://code.google.com/p/pharo/issues/detail?id=6787
-	
-Issue 6756:	Type code in editor go crash and show red panel
-	http://code.google.com/p/pharo/issues/detail?id=6756'
+Issue 6781:	Freetype startup + some cleanup
+	http://code.google.com/p/pharo/issues/detail?id=6781'

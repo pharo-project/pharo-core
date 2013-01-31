@@ -1,10 +1,11 @@
 changed
-keyboardFocusChange: aBoolean 
-	super keyboardFocusChange: aBoolean.
+keyboardFocusChange: gotFocus 
+	self announceKeyboardFocusChange: gotFocus.
  	paragraph 
-		ifNotNil: [paragraph focused: aBoolean].
- 	aBoolean 
- 		ifTrue: ["A hand is wanting to send us characters..."
+		ifNotNil: [paragraph focused: gotFocus].
+ 	gotFocus 
+ 		ifTrue: [
+			"A hand is wanting to send us characters..."
  			self hasFocus 
 				ifFalse: [self editor "Forces editor install"].
 			self editor focused: true.

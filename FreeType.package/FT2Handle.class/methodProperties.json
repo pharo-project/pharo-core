@@ -1,23 +1,22 @@
 {
 	"class" : {
-		"clearRegistry" : "Igor.Stasenko 10/12/2010 19:46",
-		"deregister:" : "MarcusDenker 5/26/2011 13:56",
+		"clearRegistry" : "IgorStasenko 10/9/2012 18:51",
+		"deregister:" : "IgorStasenko 10/9/2012 18:50",
 		"errorCode" : "nk 11/3/2004 13:51",
 		"errorString" : "nk 11/3/2004 15:49",
-		"initialize" : "tween 7/28/2006 07:42",
-		"knownHandles" : "Igor.Stasenko 10/12/2010 19:42",
+		"initialize" : "IgorStasenko 10/9/2012 17:50",
 		"moduleErrorCode" : "nk 11/3/2004 15:50",
-		"register:" : "Igor.Stasenko 10/12/2010 19:45",
+		"register:" : "IgorStasenko 10/9/2012 18:50",
 		"registry" : "Igor.Stasenko 10/12/2010 19:45",
-		"shutDown:" : "AndrewTween 8/31/2009 21:40",
+		"startUp:" : "IgorStasenko 10/9/2012 17:49",
 		"unload" : "nk 11/3/2004 21:00" },
 	"instance" : {
 		"=" : "Igor.Stasenko 10/12/2010 19:47",
 		"beNull" : "nk 11/3/2004 16:10",
-		"destroyHandle" : "nk 11/4/2004 16:44",
+		"destroyHandle" : "IgorStasenko 10/9/2012 18:54",
 		"errorCode" : "nk 11/3/2004 13:51",
 		"errorString" : "nk 11/3/2004 21:07",
-		"finalize" : "nk 11/3/2004 12:21",
+		"finalize" : "IgorStasenko 10/9/2012 18:50",
 		"handle" : "nk 11/3/2004 21:19",
 		"hash" : "Igor.Stasenko 10/12/2010 19:48",
 		"initialize" : "nk 3/11/2005 18:44",
@@ -26,4 +25,4 @@
 		"primitiveFailed" : "nk 11/4/2004 13:32",
 		"primitiveFailed:" : "nk 11/4/2004 13:33",
 		"printOn:" : "StephaneDucasse 3/17/2010 20:56",
-		"pvtDestroyHandle" : "nk 11/3/2004 16:23" } }
+		"pvtDestroyHandle" : "IgorStasenko 10/9/2012 18:51" } }

@@ -1,6 +1,4 @@
 private-handle registry
-deregister: aHandle
-	Registry ifNotNil: [ :reg | | finalizer |
-		finalizer := reg remove: aHandle ifAbsent: [].
-		finalizer ifNotNil: [ finalizer executor beNull.
- 			self knownHandles remove: aHandle ifAbsent: [ ] ] ]
+deregister: anFT2Handle
+
+	self registry remove: anFT2Handle ifAbsent: nil.
