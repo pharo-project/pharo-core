@@ -9,7 +9,7 @@ groupIconFor: aGroup
 	
 	icon := IconicButton new 
 				target: self;
-				actionSelector: #restrictedBrowseGroup:;
+				actionSelector: #restrictedBrowseGroups:;
 				arguments: {{aGroup}};
 				labelGraphic: (self iconClass iconNamed: #groupIcon);
 				color: Color transparent;

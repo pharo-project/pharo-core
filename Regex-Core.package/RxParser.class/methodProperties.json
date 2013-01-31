@@ -15,7 +15,8 @@
 		"safelyParse:" : "avi 11/30/2003 13:23",
 		"signalCompilationException:" : "avi 11/30/2003 13:25",
 		"signalMatchException:" : "avi 11/30/2003 13:25",
-		"signalSyntaxException:" : "avi 11/30/2003 13:25" },
+		"signalSyntaxException:" : "avi 11/30/2003 13:25",
+		"signalSyntaxException:at:" : "CamilloBruni 10/7/2012 22:50" },
 	"instance" : {
 		"atom" : "vb 4/11/09 21:56",
 		"branch" : "vb 4/11/09 21:56",
@@ -31,5 +32,5 @@
 		"parseStream:" : "vb 4/11/09 21:56",
 		"piece" : "vb 4/11/09 21:56",
 		"regex" : "vb 4/11/09 21:56",
-		"signalParseError" : "vb 4/11/09 21:56",
-		"signalParseError:" : "vb 4/11/09 21:56" } }
+		"signalParseError" : "CamilloBruni 10/7/2012 22:50",
+		"signalParseError:" : "CamilloBruni 10/7/2012 22:49" } }

@@ -11,7 +11,7 @@ buildGroupShortcutsOn: aBuilder
 	(aBuilder shortcut: #restrictedBrowseGroup)
 		category: #NautilusGroupShortcuts
 		default: $b command shift
-		do: [ :target | target  restrictedBrowseGroup: target selectedGroups ]
+		do: [ :target | target  restrictedBrowseGroups: target selectedGroups ]
 		description: 'Open a browser on a restricted view'.
 	
 	(aBuilder shortcut: #findClass)

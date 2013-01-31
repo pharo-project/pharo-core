@@ -5,6 +5,6 @@ entryHeight: aNumber
 
 	self textEditorMorph
 		vResizing: #rigid;
-		height: aNumber;
-		hResizing: #rigid;
-		width: aNumber * 2
+		height: aNumber.
+	self
+		width: (((aNumber * 2) max: 200) max: self width)

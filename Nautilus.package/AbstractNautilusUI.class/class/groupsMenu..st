@@ -6,7 +6,7 @@ groupsMenu: aBuilder
 	target selectedGroup ifNil: [ ^ target ].
 		
 	(aBuilder item: #'Browse scoped (b, s)')
-		action: [ target restrictedBrowseGroup: target selectedGroups ];
+		action: [ target restrictedBrowseGroups: target selectedGroups ];
 		order: 1000;
 		withSeparatorAfter.
 		

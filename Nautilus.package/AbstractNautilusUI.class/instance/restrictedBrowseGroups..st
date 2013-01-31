@@ -1,5 +1,5 @@
 menus behavior
-restrictedBrowseGroup: aCollection
+restrictedBrowseGroups: aCollection
 
 	aCollection
 		ifNotEmpty: [:groups || elements newEnvironment |
