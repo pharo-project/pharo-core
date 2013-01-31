@@ -1,16 +1,16 @@
 context stack menu
 stackActionMenu: aMenu
 	
-	^ aMenu
-		labels: 'FullStack (f)
-Restart (r)
-Proceed (p)
-Step (t)
-Step through (T)
-Send (e)
-Where (w)
-Peel to first like this
-Return entered value
-Toggle break on entry'
-		lines: #(8 9)
-		selections: #(#fullStack #restart #proceed #doStep #stepIntoBlock #send #where #peelToFirst #returnValue #toggleBreakOnEntry)
+	^ aMenu addList: #(
+		('FullStack (f)'				fullStack)
+		('Restart (r)'					restart)
+		('Proceed (p)'				proceed)
+		('Step (t)'					doStep)
+		('Step through (T)'			stepIntoBlock)
+		('Send (e)'					send)
+		('Where (w)'				where)
+		('Peel to first like this'		peelToFirst) 
+		-				
+		('Return entered value'		returnValue)
+		-
+		('Toggle break on entry'	toggleBreakOnEntry)).

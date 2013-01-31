@@ -1,16 +1,12 @@
 menus
 messageListMenu: aMenu
-
-	^ aMenu 
-		labels:
-'FileIn
-FileOut
-Senders (n)
-Implementors (m)
-Method inheritance (h)
-Versions (v)
-Remove'
-		lines: #(2 6)
-		selections: #(fileInMessage fileOutMessage
-browseSenders browseImplementors methodHierarchy browseVersions
-removeMessage).
+	^aMenu addList: #(
+		('FileIn'						fileInMessage)
+		('FileOut'					fileOutMessage)
+		-
+		('Senders (n)'				browseSenders)
+		('Implementors (m)'			browseImplementors)
+		('Method inheritance (h)'	methodHierarchy)
+		('Versions (v)'				browseVersions)
+		-
+		('Remove'					removeMessage))

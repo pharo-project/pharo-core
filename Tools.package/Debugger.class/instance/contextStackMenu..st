@@ -7,7 +7,7 @@ contextStackMenu: aMenu
 		ifTrue: [ self postMortemStackActionMenu: aMenu]
 		ifFalse: [ self stackActionMenu: aMenu ].
 										
-	aMenu addList: #(
+	^aMenu addList: #(
 		('Senders of... (n)'				browseSendersOfMessages)
 		('Implementors of... (m)'		browseMessages)
 		('Inheritance (i)'					methodHierarchy)
@@ -23,5 +23,4 @@ contextStackMenu: aMenu
 		('Inspect subinstances'			inspectSubInstances)
 		-
 		('Copy to clipboard' 			copyToClipboard)
-		('File out Stack' 				serializeStack)).							
-	^ aMenu.										
+		('File out Stack' 				serializeStack)).										

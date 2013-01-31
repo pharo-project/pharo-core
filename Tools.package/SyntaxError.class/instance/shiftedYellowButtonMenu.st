@@ -16,12 +16,5 @@ shiftedYellowButtonMenu
 		{'Class names containing it' translated.	#classNamesContainingIt}.
 		{'Class comments with it' translated.		#classCommentsContainingIt}.
 		{'Change sets with it' translated.			#browseChangeSetsWithSelector}.
-	"	#-.
-		{'Pretty print' translated.					#prettyPrint}.
-		{'Pretty print with color' translated.		#prettyPrintWithColor}.
-		{'File it in (G)' translated.					#fileItIn}.
-		#-.
-		{'Back...' translated.						#yellowButtonActivity}.
-	"
 	}.
 	^menu

@@ -1,25 +1,26 @@
 menus
 msgPaneMenu: aMenu shifted: shifted
-
-	^ aMenu labels: 
-'find...(f)
-find again (g)
-set search string (h)
-do again (j)
-undo (z)
-copy (c)
-cut (x)
-paste (v)
-paste...
-do it (d)
-print it (p)
-inspect it (i)
-explore it (I)
-debug it
-accept (s)
-cancel (l)
-implementors (m)
-methods containing (E)
-senders (n)' 
-		lines: #(0 3 5 9 14)
-		selections: #(find findAgain setSearchString again undo copySelection cut paste pasteRecent doIt printIt inspectIt exploreIt debugIt accept cancel implementorsOfIt methodSourceContainingIt sendersOfIt)
+	^aMenu addList: #(
+		('find...(f)'					find)
+		('find again (g)'				findAgain)
+		('set search string (h)'		setSearchString)
+		-
+		('do again (j)'				again)
+		('undo (z)'					undo)
+		-
+		('copy (c)'					copySelection)
+		('cut (x)'					cut)
+		('paste (v)'					paste)
+		('paste...'					pasteRecent)
+		-
+		('do it (d)'					doIt)
+		('print it (p)'					printIt)
+		('inspect it (i)'				inspectIt)
+		('explore it (I)'				exploreIt)
+		('debug it'					debugIt)
+		-
+		('accept (s)'					accept)
+		('cancel (l)'					cancel)
+		('implementors (m)'			implementorsOfIt)
+		('methods containing (E)'	methodSourceContainingIt)
+		('senders (n)' 				sendersOfIt))

@@ -1,19 +1,16 @@
 system category functions
 systemCategoryMenu: aMenu
-		
-	^ aMenu labels:
-'Find Class... (f)
-Browse
-FileOut
-Reorganize
-Alphabetize
-Update
-Add Category...
-Rename...
-Remove' 
-	lines: #(2 4 6 8)
-	selections:
-		#(findClass buildSystemCategoryBrowser
-		fileOutSystemCategory
-		editSystemCategories alphabetizeSystemCategories updateSystemCategories
-		addSystemCategory renameSystemCategory removeSystemCategory )
+	^ aMenu addList: #(
+		('Find Class... (f)'				findClass)
+		('Browse'						buildSystemCategoryBrowser)
+		-
+		('FileOut'						fileOutSystemCategory)
+		('Reorganize'					editSystemCategories)
+		-
+		('Alphabetize'					alphabetizeSystemCategories)
+		('Update'						updateSystemCategories)
+		-
+		('Add Category...'				addSystemCategory)
+		('Rename...'						renameSystemCategory)
+		-
+		('Remove'						removeSystemCategory))

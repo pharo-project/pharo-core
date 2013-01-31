@@ -1,15 +1,15 @@
 menu
 fieldListMenu: aMenu
-
-	^ aMenu labels:
-'inspect
-copy name
-references
-senders of this key
-refresh view
-add key
-rename key
-remove
-basic inspect'
-	lines: #(6 9)
-	selections: #(inspectSelection copyName selectionReferences  sendersOfSelectedKey refreshView addEntry renameEntry removeSelection inspectBasic)
+	
+	^  aMenu addList: #(
+		('inspect' 					inspectSelection)
+		('copy name' 				copyName)
+		('references' 				selectionReferences)
+		('senders of this key' 		sendersOfSelectedKey)								
+		('refresh view' 				refreshView)
+		('add key' 					addEntry)
+		-
+		('rename key'				renameEntry)
+		('remove'					removeSelection)
+		('basic inspect'				inspectBasic)).
+	
