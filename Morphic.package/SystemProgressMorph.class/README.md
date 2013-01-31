@@ -1,3 +1,6 @@
+I display a set of progress inidicator in a list.
+Special care is taken to update the view while the rest of the UI process is blocked.
+
 Reset...
 SystemProgressMorph reset.
 

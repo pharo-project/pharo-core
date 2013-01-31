@@ -1,7 +1,8 @@
 {
 	"category" : "Morphic-Widgets",
 	"classinstvars" : [
-		 ],
+		"horizontalPosition",
+		"verticalPosition" ],
 	"classvars" : [
 		"UniqueInstance" ],
 	"commentStamp" : "<historical>",

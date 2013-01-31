@@ -1,6 +1,5 @@
-action
+*CI-Loader
 load
-	"Load the receiver."
 	
 	Gofer new
 		repository: self repository;

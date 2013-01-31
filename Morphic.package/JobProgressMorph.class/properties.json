@@ -5,7 +5,7 @@
 	"classvars" : [
 		"BarHeight",
 		"BarWidth" ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"bar",
 		"hasResult",
