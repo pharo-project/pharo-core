@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 extent: extentPoint depth: bitsPerPixel
 	"Answer an instance of me with blank bitmap of the given dimensions and depth max 8."
 	
