@@ -1,9 +1,8 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6749:	put off smart-character as default
-	http://code.google.com/p/pharo/issues/detail?id=6749
+ ^ 'Issue 6780:	Nautilus Issue creation Menu is confusing
+	http://code.google.com/p/pharo/issues/detail?id=6780
 	
-Issue 6735:	Add INRIA to the copyright (among the others)
-	http://code.google.com/p/pharo/issues/detail?id=6735
-    (and yes, we do have in writing that all inria contributions are MIT license)	
-'
+	
+Issue 6779:	MCSmalltalkhubRepository sends wrong instance creation message
+	http://code.google.com/p/pharo/issues/detail?id=6779'
