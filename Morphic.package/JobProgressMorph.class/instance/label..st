@@ -7,7 +7,7 @@ label: aString
 		self labelMorph contents: aString.
 		self updateLayout ].
 	
-	self width: (labelMorph fontToUse widthOfString: aString) + 25.
-	self labelMorph contents: aString.
+	self labelMorph contents = aString
+		ifFalse: [ self labelMorph contents: aString ].
 	
 	self changed.
