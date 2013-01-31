@@ -2,8 +2,7 @@
 createPackageNamed: aString
 
 	| instance |
-	(packages includesKey: (Symbol readFromString:  '#''', aString,'''' ))
-		ifTrue: [ 
+	(packages includesKey: aString asSymbol) ifTrue: [ 
 			self openAlreadyExistingError.
 			^ nil ].
 	

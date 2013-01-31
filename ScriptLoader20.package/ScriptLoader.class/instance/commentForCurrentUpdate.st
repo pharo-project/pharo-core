@@ -1,13 +1,10 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6846:	New Spec version
-	http://code.google.com/p/pharo/issues/detail?id=6846
+ ^ 'Issue 6834:	Failing test: ReleaseTest>>testUnpackagedClasses
+	http://code.google.com/p/pharo/issues/detail?id=6834
 	
-Issue 6845:	Monticello browser should not open the repository after an add when a package is selected
-	http://code.google.com/p/pharo/issues/detail?id=6845
+Issue 6847:	More Error handling Documentation
+	http://code.google.com/p/pharo/issues/detail?id=6847
 	
-Issue 6842:	Nautilus: Group could work as scoped enviroment
-	http://code.google.com/p/pharo/issues/detail?id=6842
-	
-Issue 6805:	unify #isTraitMethod and #isFromTrait
-	http://code.google.com/p/pharo/issues/detail?id=6805'
+Issue 6825:	Nautilus code uses Symbol readFromString:
+	http://code.google.com/p/pharo/issues/detail?id=6825'

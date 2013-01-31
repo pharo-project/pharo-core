@@ -1,6 +1,4 @@
 *RPackage-SystemIntegration
 correspondingRPackage
 
-	| symbol |
-	symbol := Symbol readFromString: '#', self name.
-	^ RPackageOrganizer default packageNamed: symbol ifAbsent: [ nil ]
+	^ RPackageOrganizer default packageNamed: self name asSymbol ifAbsent: [ nil ]

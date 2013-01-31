@@ -41,7 +41,7 @@ selectorFromPattern: pattern withCaption: aCaption startingFrom: aClass
 	separatorIndex := foundSelector findString: '>>#'.
 	className := foundSelector copyFrom: 1 to: separatorIndex-1.
 	separatorName := foundSelector copyFrom: separatorIndex + 2 to: foundSelector size.
-	class := Smalltalk at: (Symbol readFromString: '#',className).
+	class := Smalltalk at: className asSymbol.
 
 	
 	^ class methodDict at: (Symbol readFromString: separatorName)

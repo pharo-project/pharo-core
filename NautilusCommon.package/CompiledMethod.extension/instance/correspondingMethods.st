@@ -13,8 +13,7 @@ correspondingMethods
 					(className endsWith: 'Test')
 						ifTrue: [ classSymbol := className copyFrom: 1 to: (className size - 4) ]
 						ifFalse: [ classSymbol := className ].
-					classSymbol := Symbol readFromString: '#', classSymbol.
-					correspondingClass := self class environment at: classSymbol ifAbsent: [ ^ {} ].
+					correspondingClass := self class environment at:  classSymbol asSymbol ifAbsent: [ ^ {} ].
 					
 					tempSel := selector copyFrom: 5 to: selector size.
 					correspondingSel := String streamContents: [:stream | 
