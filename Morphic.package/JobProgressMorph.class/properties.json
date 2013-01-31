@@ -13,7 +13,9 @@
 		"labelMorph",
 		"lastRefresh",
 		"lock",
-		"result" ],
+		"result",
+		"endValue",
+		"startValue" ],
 	"name" : "JobProgressMorph",
 	"pools" : [
 		 ],
