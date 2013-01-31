@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAllClassesDo" : "lr 9/8/2011 20:25",
+		"testCommentChange" : "lr 7/1/2008 11:11",
+		"testDefineClassAfterDeletedChange" : "",
+		"testDefineClassChange" : "bh 11/8/2000 14:13",
+		"testImplementors" : "",
+		"testIncludesClass" : "lr 9/8/2011 20:32",
+		"testModelImplementorsSenders" : "lr 9/8/2011 20:25",
+		"testRedefineClassChange" : "bh 11/8/2000 14:13",
+		"testReferencesPrintOn" : "lr 3/17/2010 18:52",
+		"testReferencesPrintOnAfterAddition" : "lr 3/17/2010 18:50",
+		"testReferencesPrintOnAfterRemove" : "lr 3/17/2010 18:51",
+		"testRemoveClassChange" : "",
+		"testReparentSuperclassChange" : "",
+		"testRoots" : "bh 4/3/2000 15:47" } }

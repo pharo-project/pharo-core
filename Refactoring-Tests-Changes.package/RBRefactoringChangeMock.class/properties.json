@@ -1,0 +1,14 @@
+{
+	"category" : "Refactoring-Tests-Changes",
+	"classinstvars" : [
+		"classInstVar" ],
+	"classvars" : [
+		"ClassVar" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"instVar" ],
+	"name" : "RBRefactoringChangeMock",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testMoveMethodIntoArgument" : "lr 9/8/2011 20:15",
+		"testMoveMethodIntoClassVariable" : "lr 9/8/2011 20:11",
+		"testMoveMethodIntoInstanceVariable" : "lr 9/8/2011 20:11",
+		"testMoveMethodThatReferencesPoolDictionary" : "lr 9/8/2011 20:11",
+		"testMovePrimitiveMethod" : "lr 9/8/2011 20:11" } }

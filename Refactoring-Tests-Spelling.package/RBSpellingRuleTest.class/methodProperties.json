@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"resources" : "lr 7/27/2010 07:59" },
+	"instance" : {
+		"category" : "lr 1/24/2010 17:46",
+		"categoryWrong" : "lr 1/24/2010 17:46",
+		"defineClass:" : "lr 1/24/2010 17:46",
+		"defineClass:category:" : "lr 1/23/2010 17:56",
+		"removeCategory:" : "lr 12/29/2011 17:57",
+		"runCase" : "CamilloBruni 9/11/2012 16:39",
+		"runRule:expect:" : "lr 9/8/2011 20:15",
+		"setUp" : "lr 9/8/2011 20:32",
+		"tearDown" : "lr 12/29/2011 17:55",
+		"testArgumentVariableNames" : "lr 1/23/2010 17:50",
+		"testClassCategories" : "lr 1/24/2010 17:47",
+		"testClassComments" : "lr 7/10/2011 21:30",
+		"testClassNames" : "lr 1/23/2010 17:39",
+		"testClassVariableNames" : "lr 1/23/2010 17:39",
+		"testInstanceVariableNames" : "lr 3/26/2010 08:47",
+		"testLiteralValues" : "lr 1/23/2010 17:52",
+		"testMethodComments" : "lr 7/10/2011 21:31",
+		"testMethodProtocols" : "lr 1/23/2010 17:53",
+		"testMethodSelectors" : "lr 1/23/2010 17:54",
+		"testTemporaryVariableNames" : "lr 1/23/2010 17:55" } }

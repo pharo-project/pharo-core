@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "md 7/25/2005 15:17",
+		"testAddMethod" : "lr 9/8/2011 20:11",
+		"testBadMethod" : "lr 9/8/2011 20:11",
+		"testExistingSelector" : "lr 9/8/2011 20:11",
+		"testModelAddMethod" : "lr 9/8/2011 20:11",
+		"testModelExistingSelector" : "lr 9/8/2011 20:11",
+		"testModelInheritedSelector" : "lr 9/8/2011 20:11" } }

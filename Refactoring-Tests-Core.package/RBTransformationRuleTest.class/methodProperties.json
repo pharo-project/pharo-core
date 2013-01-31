@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"assignmentInIfTrue" : "",
+		"atIfAbsent" : "",
+		"betweenAnd" : "",
+		"detectIfNone" : "",
+		"equalNil" : "",
+		"guardClause" : "",
+		"initializeAfterLoad1" : "lr 11/2/2009 00:14",
+		"minMax" : "",
+		"notElimination" : "",
+		"nuke" : "",
+		"rewrite:methods:name:" : "lr 11/2/2009 00:14",
+		"showWhileBlocks" : "",
+		"superSends" : "",
+		"unwindBlocks" : "lr 11/19/2009 14:49" },
+	"instance" : {
+		"checkMethod:" : "",
+		"hasConflicts" : "",
+		"isEmpty" : "",
+		"problemCount" : "",
+		"resetResult" : "lr 9/8/2011 20:10",
+		"rewriteUsing:" : "",
+		"superSends" : "lr 11/2/2009 00:14",
+		"viewResults" : "" } }

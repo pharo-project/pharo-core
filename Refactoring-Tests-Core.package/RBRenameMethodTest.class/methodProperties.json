@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testExistingSelector" : "lr 9/8/2011 20:11",
+		"testMultipleSelectors" : "lr 9/8/2011 20:11",
+		"testRenamePermuteArgs" : "lr 9/8/2011 20:11",
+		"testRenamePrimitive" : "lr 9/8/2011 20:11",
+		"testRenameTestMethod" : "lr 9/8/2011 20:11",
+		"testRenameTestMethod1" : "lr 9/8/2011 20:11" } }

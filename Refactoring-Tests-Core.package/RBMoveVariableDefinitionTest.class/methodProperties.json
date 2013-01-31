@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testMoveDefinition" : "lr 9/8/2011 20:11",
+		"testMoveDefinitionIntoBlockThatIsAReceiverOfACascadedMessage" : "lr 9/8/2011 20:11",
+		"testNoMoveDefinition" : "lr 9/8/2011 20:11",
+		"testNonExistantName" : "lr 9/8/2011 20:11" } }

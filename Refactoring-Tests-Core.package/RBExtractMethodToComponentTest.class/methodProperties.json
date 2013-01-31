@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testBadInterval" : "lr 9/8/2011 20:11",
+		"testExtractFailure" : "lr 9/8/2011 20:11",
+		"testExtractMethodAtEndOfMethodThatNeedsReturn" : "lr 9/8/2011 20:11",
+		"testMoveWithoutSelfReference" : "lr 9/8/2011 20:11",
+		"testNonExistantSelector" : "lr 9/8/2011 20:11" } }

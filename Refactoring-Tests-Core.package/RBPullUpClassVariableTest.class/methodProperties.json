@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testMetaClassFailure" : "lr 9/8/2011 20:11",
+		"testNonExistantName" : "lr 9/8/2011 20:11",
+		"testPullUpClassVariable" : "lr 9/8/2011 20:11" } }

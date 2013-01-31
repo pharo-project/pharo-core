@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testPushDownMethod" : "lr 9/8/2011 20:11",
+		"testPushDownMethodOnNonAbstractClass" : "lr 12/29/2011 17:30",
+		"testPushDownMethodThatReferencesPoolDictionary" : "lr 9/8/2011 20:11",
+		"testPushDownNonExistantMenu" : "lr 9/8/2011 20:11" } }

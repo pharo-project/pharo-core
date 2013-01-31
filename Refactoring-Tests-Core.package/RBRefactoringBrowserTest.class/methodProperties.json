@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"isAbstract" : "lr 10/27/2009 14:01" },
+	"instance" : {
+		"convertInterval:for:" : "",
+		"executeRefactoring:" : "",
+		"objectClassVariable" : "",
+		"proceedThroughWarning:" : "lr 10/5/2010 16:13" } }

@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testBadName" : "lr 9/8/2011 20:11",
+		"testExistingName" : "lr 9/8/2011 20:11",
+		"testMetaClassFailure" : "lr 9/8/2011 20:11",
+		"testModelRenameClass" : "lr 9/8/2011 20:11",
+		"testModelRenameSequenceClass" : "lr 9/8/2011 20:11",
+		"testRenameClass" : "lr 9/8/2011 20:11" } }

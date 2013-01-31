@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildArgumentSearch" : "lr 9/18/2011 15:56",
+		"buildMessageSearch" : "lr 9/18/2011 15:56",
+		"buildMethodArgumentSearch" : "lr 9/18/2011 15:56",
+		"buildMethodSearch" : "lr 9/18/2011 15:56",
+		"buildMethodTitleSearch" : "lr 9/18/2011 15:56",
+		"buildSimpleLiteralSearch" : "lr 9/18/2011 15:56",
+		"buildSimpleVariableSearch" : "lr 9/18/2011 15:56",
+		"buildStatementSearch" : "lr 9/18/2011 15:56",
+		"createArgumentSearchWith:selectors:inClass:" : "lr 9/18/2011 15:57",
+		"createMethodSearchWith:selectors:inClass:" : "lr 9/18/2011 15:57",
+		"createSearchWith:selectors:inClass:" : "lr 9/18/2011 15:57",
+		"currentSelector" : "lr 10/19/2011 20:10",
+		"setUp" : "lr 9/18/2011 15:57",
+		"testAllSearches" : "lr 9/18/2011 15:57" } }
