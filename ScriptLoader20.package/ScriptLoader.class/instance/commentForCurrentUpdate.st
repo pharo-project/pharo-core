@@ -1,10 +1,7 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6762:	RPackage breaks with class side trait methods
-	http://code.google.com/p/pharo/issues/detail?id=6762
+ ^ 'Issue 6764:	Fuel out Error / StackTrace	
+	http://code.google.com/p/pharo/issues/detail?id=6764
 	
-Issue 6758:	Nautilus History Shortcuts and BugFixes
-	http://code.google.com/p/pharo/issues/detail?id=6758
-	
-Issue 6763:	Improvements to MorphTreeMorph
-	http://code.google.com/p/pharo/issues/detail?id=6763'
+Issue 6717:	Workspace Menus Broken
+	http://code.google.com/p/pharo/issues/detail?id=6717'
