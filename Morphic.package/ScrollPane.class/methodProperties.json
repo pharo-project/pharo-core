@@ -3,6 +3,7 @@
 		"alwaysHideHScrollbar" : "AlainPlantec 12/17/2009 21:36",
 		"alwaysShowHScrollbar" : "AlainPlantec 12/17/2009 21:36",
 		"alwaysShowVScrollbar" : "AlainPlantec 12/17/2009 21:36",
+		"buildScrollPaneShortcuts:" : "GuillermoPolito 9/24/2012 21:58",
 		"example1" : "mk 8/9/2005 10:28",
 		"example2" : "mk 8/9/2005 10:29" },
 	"instance" : {
@@ -51,6 +52,7 @@
 		"initialize" : "AlainPlantec 12/19/2009 10:55",
 		"initializeScrollBars" : "BenjaminVanRyseghem 8/5/2012 22:39",
 		"initializeScroller" : "BenjaminVanRyseghem 8/5/2012 22:39",
+		"initializeShortcuts:" : "ThierryGoubier 9/14/2012 23:01",
 		"innerBounds" : "sps 12/24/2002 16:18",
 		"isAScrollbarShowing" : "sps 3/10/2004 10:22",
 		"isScrolledFromTop" : "sps 3/10/2004 10:22",
@@ -70,6 +72,7 @@
 		"retractable:" : "sw 11/5/1998 14:14",
 		"retractableOrNot" : "sps 3/9/2004 17:47",
 		"retractableScrollBar" : "LC 6/12/2000 09:28",
+		"scrollBar" : "GuillermoPolito 9/24/2012 22:21",
 		"scrollBarFills:" : "sps 3/10/2004 10:22",
 		"scrollBarMenuButtonPressed:" : "di 6/26/1998 13:31",
 		"scrollBarOnLeft" : "LC 6/12/2000 09:28",

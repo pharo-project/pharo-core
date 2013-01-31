@@ -11,11 +11,5 @@ handleKeystroke: anEvent
 		ifTrue: [^ self].
 	(self handlesKeyStroke: anEvent)
 		ifFalse: [^ self].
-	anEvent keyCharacter = Character tab
-		ifTrue: ["Allow passing through text morph inside pasteups"
-			pasteUp := self pasteUpMorphHandlingTabAmongFields.
-			(self wouldAcceptKeyboardFocusUponTab
-					and: [(pasteUp) notNil])
-				ifTrue: [^ pasteUp tabHitWithEvent: anEvent]].
 	self keyStroke: anEvent.
 	anEvent wasHandled: true.

@@ -4,6 +4,7 @@ testBuffering
 	category := KMCategory named: #TestBlah.
 	
 	morph := BorderedMorph new.
+	morph kmDispatcher reset.
 	KMRepository default attach: category to: BorderedMorph.
 	
 	flag := false.
@@ -11,6 +12,7 @@ testBuffering
 	category addKeymapEntry: (KMKeymap named: #Foo shortcut: $a asShortcut, $b asShortcut, $c asShortcut action: [flag := true]).
 	category addKeymapEntry: (KMKeymap named: #Bar shortcut: $p asShortcut, $p asShortcut
 		action: []).
+	morph attachKeymapCategory: #TestBlah.
 
 	event1 := self eventKey: $a.
 	morph kmDispatcher

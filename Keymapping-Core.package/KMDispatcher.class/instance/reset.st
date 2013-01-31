@@ -1,3 +1,4 @@
 initialize
 reset
-    directKeymaps := nil
+	self resetTargets.
+	self resetPerInstanceTarget

@@ -12,5 +12,6 @@
 		"dispatchKeystrokeForEvent:" : "GuillermoPolito 3/14/2011 00:03",
 		"handleKeystroke:" : "BenjaminVanRyseghem 4/27/2012 11:15",
 		"hasKeymapCategoryNamed:" : "SeanDeNigris 7/9/2012 23:40",
-		"kmDispatcher" : "CamilloBruni 3/18/2011 23:05",
+		"initializeShortcuts:" : "ThierryGoubier 9/15/2012 21:06",
+		"kmDispatcher" : "ThierryGoubier 9/14/2012 22:21",
 		"on:do:" : "GuillermoPolito 9/12/2011 16:39" } }

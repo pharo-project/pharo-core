@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"buildTextEditorShortcutsOn:" : "GuillermoPolito 9/24/2012 11:58",
+		"buildTextEditorTabKeymapOn:" : "ThierryGoubier 9/15/2012 20:07",
 		"caseSensitiveFinds" : "AlainPlantec 11/8/2010 22:09",
 		"caseSensitiveFinds:" : "AlainPlantec 11/8/2010 22:09",
 		"cmdActions" : "CamilloBruni 2/26/2011 15:28",
@@ -123,7 +124,7 @@
 		"indent:fromStream:toStream:" : "AlainPlantec 11/8/2010 22:09",
 		"initWithMorph:" : "IgorStasenko 12/12/2010 04:06",
 		"insertAndSelect:at:" : "AlainPlantec 11/8/2010 22:09",
-		"installKeymappingsOn:" : "GuillermoPolito 5/21/2012 01:30",
+		"installKeymappingsOn:" : "ThierryGoubier 9/15/2012 20:55",
 		"isCaretBehindChar" : "BenjaminVanRyseghem 6/28/2012 17:47",
 		"isDisjointFrom:" : "AlainPlantec 11/8/2010 22:09",
 		"isTextEditor" : "AlainPlantec 11/8/2010 22:09",

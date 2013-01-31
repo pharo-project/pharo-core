@@ -7,6 +7,7 @@ testDetach
 	morph := BorderedMorph new.
 	KMRepository default addCategory: category1.
 	KMRepository default addCategory: category2.
+	morph kmDispatcher reset.
 	morph attachKeymapCategory: #TestBlah.
 	morph attachKeymapCategory: #TestAnother.
 	morph kmDispatcher targets size = 2 ifFalse: [ self error: 'should have one category attached' ].

@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"buildSimpleHierarchicalListShortcuts:" : "ThierryGoubier 9/14/2012 21:42",
 		"exampleSubmorphs" : "MarcusDenker 7/8/2012 12:10",
 		"on:list:selected:changeSelected:" : "md 7/13/2005 16:34",
 		"on:list:selected:changeSelected:menu:" : "md 7/13/2005 16:34",
@@ -39,7 +40,7 @@
 		"initialize" : "BenjaminVanRyseghem 5/31/2011 15:24",
 		"insertNewMorphs:" : "RAA 4/2/1999 15:33",
 		"itemFromPoint:" : "ar 3/17/2001 17:25",
-		"keyStroke:" : "BenjaminVanRyseghem 5/31/2011 15:23",
+		"keyStroke:" : "ThierryGoubier 9/15/2012 10:25",
 		"lineColor" : "gvc 9/11/2006 10:34",
 		"lineColor:" : "sps 12/28/2002 02:27",
 		"list:" : "ar 3/17/2001 17:39",

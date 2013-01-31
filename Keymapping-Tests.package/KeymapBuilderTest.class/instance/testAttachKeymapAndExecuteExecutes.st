@@ -10,9 +10,10 @@ testAttachKeymapAndExecuteExecutes
 		inCategory: #Testing
 		platform: #all.
 
-	KMFactory keymapContainer attachCategoryName: #Testing to: KMMockMorph.
+"	KMFactory keymapContainer attachCategoryName: #Testing to: KMMockMorph."
 	
 	morphToTest := KMMockMorph new.
+	morphToTest attachKeymapCategory: #Testing.
 	
 	{self eventKey: $a. self eventKey: $a. self eventKey: $a}
 		do: [:e | morphToTest dispatchKeystrokeForEvent: e].

@@ -1,3 +1,7 @@
 dispatching
 keymapObservers
-	^self targets, self staticTargets, { self perInstanceTarget }
+	| o |
+	o := OrderedCollection with: self perInstanceTarget.
+	o addAll: self targets.
+	o addAll: self staticTargets.
+	^ o

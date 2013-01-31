@@ -4,9 +4,9 @@ assertExecutionOnClass: aClassToExecuteOn attachingTo: aClassToAttach
 	category := (KMCategory named: #TestFoo).
 	
 	KMRepository default addCategory: category.
-	KMRepository default attach: category to: aClassToAttach.
 	
 	bm := aClassToExecuteOn new.
+	bm attachKeymapCategory: #TestFoo.
 	
 	flag := false.
 	category addKeymapEntry: (KMKeymap named: #Foo shortcut: $a asShortcut, $b asShortcut, $c asShortcut action: [flag := true]).

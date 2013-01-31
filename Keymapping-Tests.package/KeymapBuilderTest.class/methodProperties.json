@@ -4,5 +4,5 @@
 	"instance" : {
 		"testAddKeymapCreatesCategory" : "DeboraFortini 12/13/2011 17:36",
 		"testAddKeymapCreatesShortcut" : "DeboraFortini 12/13/2011 17:38",
-		"testAttachKeymapAndExecuteExecutes" : "DeboraFortini 12/13/2011 17:37",
+		"testAttachKeymapAndExecuteExecutes" : "ThierryGoubier 9/19/2012 16:29",
 		"testAttachKeymapAttaches" : "DeboraFortini 12/13/2011 17:37" } }
