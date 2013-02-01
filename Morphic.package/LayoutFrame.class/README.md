@@ -1,4 +1,5 @@
-I define a frame for positioning some morph in a proportional layout.
+I define a transformation frame relative to some rectangle. I'm basic data structure used for graphics.
+
 
 Instance variables:
 	leftFraction 

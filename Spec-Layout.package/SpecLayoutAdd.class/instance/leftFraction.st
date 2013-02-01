@@ -1,4 +1,4 @@
 protocol
 leftFraction
 
-	^ self fractions left
+	^ layoutFrame leftFraction 

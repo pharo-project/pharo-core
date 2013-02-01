@@ -1,4 +1,4 @@
 protocol
 rightOffset
 
-	^ self offsets right
+	^ layoutFrame rightOffset

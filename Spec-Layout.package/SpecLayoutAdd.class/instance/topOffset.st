@@ -1,4 +1,4 @@
 protocol
 topOffset
 
-	^ self offsets top
+	^ layoutFrame topOffset

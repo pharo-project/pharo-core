@@ -3,5 +3,6 @@ newColumn: aBlock origin: originPoint corner: cornerPoint offsetOrigin: ooPoint 
 	
 	commands add: (SpecLayoutAddColumn
 							block: aBlock
-							fractions: (originPoint corner: cornerPoint)
-							offsets: (ooPoint corner: ocPoint)).
+							layoutFrame: ((originPoint corner: cornerPoint) asLayoutFrame
+												 topLeftOffset: ooPoint;
+												bottomRightOffset: ocPoint)).

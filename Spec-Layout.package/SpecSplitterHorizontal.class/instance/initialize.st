@@ -5,6 +5,6 @@ initialize
 	super initialize.
 
 	selector := #newHSplitterAt:.
-	fractions := 0@0 corner: 0@0.
-	offsets := 0@0 corner: 0@1.
+	layoutFrame  := (0@0 corner: 0@0) asLayoutFrame 
+							bottomOffset: 1.
 	commands := nil.

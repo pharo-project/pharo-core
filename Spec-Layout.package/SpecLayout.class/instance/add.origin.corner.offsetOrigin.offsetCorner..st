@@ -3,5 +3,7 @@ add: aSpec origin: originPoint corner: cornerPoint offsetOrigin: ooPoint offsetC
 	
 	commands add: (SpecLayoutAdd 
 							subwidget: aSpec
-							fractions: (originPoint corner: cornerPoint)
-							offsets: (ooPoint corner: ocPoint)).
+							layoutFrame: 
+								((originPoint corner: cornerPoint) asLayoutFrame 
+									topLeftOffset: ooPoint;
+									bottomRightOffset: ocPoint ))

@@ -3,9 +3,8 @@ initialize
 	"Initialization code for SpecLayoutAdd"
 
 	super initialize.
-	
 	self selector: #add:.
-
-	fractions := nil.
-	offsets := nil.
+	layoutFrame := LayoutFrame identity.
+	fractions := nil. "deprecated "
+	offsets := nil. "deprecated "
 	subwidget := nil.

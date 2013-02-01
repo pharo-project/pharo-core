@@ -2,17 +2,13 @@
 minExtentFrom: minExtent
 	"Return the minimal extent the given bounds can be represented in."
 	
-	|width height widthProp heightProp leftO rightO topO bottomO|
-	leftO := leftOffset ifNil: [0].
-	rightO := rightOffset ifNil: [0].
-	topO := topOffset ifNil: [0].
-	bottomO := bottomOffset ifNil: [0].
+	| width height widthProp heightProp |
 	"calculate proportional area. bottom/right offsets extend in +ve direction."
-	width := minExtent x + leftO - rightO.
-	height := minExtent y + topO - bottomO.
+	width := minExtent x + leftOffset - rightOffset.
+	height := minExtent y + topOffset - bottomOffset.
 	"calculate the effective proportion"
-	widthProp := (rightFraction ifNil: [1.0]) - (leftFraction ifNil: [0]).
-	heightProp := (bottomFraction ifNil: [1.0]) - (topFraction ifNil: [0]).
+	widthProp := rightFraction - leftFraction.
+	heightProp := bottomFraction - topFraction.
 	"if the proportions are 0 then the minima cannot be determined and
 	minExtent cannot be respected."
 	width := widthProp = 0

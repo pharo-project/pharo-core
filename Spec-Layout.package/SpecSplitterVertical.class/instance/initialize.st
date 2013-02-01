@@ -5,6 +5,6 @@ initialize
 	super initialize.
 
 	selector := #newVSplitterAt:.
-	fractions := 0@0 corner: 0@0.
-	offsets := 0@0 corner: 1@0.
+	layoutFrame := ((0@0 corner: 0@0) asLayoutFrame 
+							rightOffset: 1).
 	commands := nil.

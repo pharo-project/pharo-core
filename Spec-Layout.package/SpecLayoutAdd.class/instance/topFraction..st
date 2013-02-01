@@ -1,4 +1,4 @@
 protocol
 topFraction: aNumber
 
-	^ self fractions: (self fractions top: aNumber )
+	layoutFrame topFraction: aNumber

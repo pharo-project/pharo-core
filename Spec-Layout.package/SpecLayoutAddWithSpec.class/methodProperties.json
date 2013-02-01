@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"subwidget:spec:fractions:offsets:" : "BenjaminVanRyseghem 6/18/2012 04:59" },
+		"subwidget:spec:layoutFrame:" : "StephaneDucasse 12/27/2012 18:36" },
 	"instance" : {
-		"generateArguments" : "StephaneDucasse 12/22/2012 14:30",
-		"subwidget:spec:fractions:offsets:" : "BenjaminVanRyseghem 6/18/2012 05:37" } }
+		"generateArguments" : "StephaneDucasse 12/27/2012 18:38",
+		"subwidget:spec:layoutFrame:" : "StephaneDucasse 12/27/2012 22:40" } }

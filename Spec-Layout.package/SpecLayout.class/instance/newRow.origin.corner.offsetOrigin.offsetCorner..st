@@ -3,5 +3,6 @@ newRow: aBlock origin: originPoint corner: cornerPoint offsetOrigin: ooPoint off
 	
 	commands add: (SpecLayoutAddRow
 							block: aBlock
-							fractions: (originPoint corner: cornerPoint)
-							offsets: (ooPoint corner: ocPoint)).
+							layoutFrame: ((originPoint corner: cornerPoint) asLayoutFrame 
+										topLeftOffset: ooPoint;
+										bottomRightOffset: ocPoint)).

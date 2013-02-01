@@ -1,4 +1,4 @@
 protocol
 topFraction
 
-	^ self fractions top
+	^ layoutFrame topFraction

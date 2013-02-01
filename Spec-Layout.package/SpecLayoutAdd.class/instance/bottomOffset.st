@@ -1,4 +1,4 @@
 protocol
 bottomOffset
 
-	^ self offsets bottom
+	^ layoutFrame bottomOffset 
