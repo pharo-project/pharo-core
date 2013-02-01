@@ -19,7 +19,7 @@ addAListPane: aListPane to: window at: nominalFractions plus: verticalOffset
 
 	window 
 		addMorph: row
-		fullFrame: ( nominalFractions asLayoutFrame topOffset: verticalOffset).	
+		fullFrame: (nominalFractions asLayoutFrame topOffset: verticalOffset).	
 	row on: #mouseEnter send: #paneTransition: to: window.
 	row on: #mouseLeave send: #paneTransition: to: window.
 

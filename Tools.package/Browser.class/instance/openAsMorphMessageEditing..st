@@ -20,6 +20,6 @@ openAsMorphMessageEditing: editString
 
 	window 
 		addMorph: (self buildMorphicCodePaneWith: editString)
-		fullFrame: ( LayoutFrame identity topOffset: verticalOffset  ).
+		fullFrame: (LayoutFrame identity topOffset: verticalOffset  ).
 
 	^ window

@@ -5,15 +5,9 @@ newContentMorph
 	panel layoutPolicy: ProportionalLayout new;
 		layoutInset: 0;
 		hResizing: #spaceFill;
-		vResizing: #spaceFill.
-					
+		vResizing: #spaceFill.					
 	panel addMorph: self buildListMorph
-			fullFrame: (LayoutFrame
-					fractions: (0@0 corner: 1@1)
-					offsets: (0@0 corner: 0@33 negated)).
-	
+			fullFrame: (LayoutFrame identity bottomOffset: -33).
 	panel addMorph: self buildSearchMorph
-			fullFrame: (LayoutFrame
-					fractions: (0@1 corner: 1@1)
-					offsets: (0@30 negated  corner: 0@0)).
+			fullFrame: ((0@1 corner: 1@1) asLayoutFrame topOffset: -30).
 	^ panel

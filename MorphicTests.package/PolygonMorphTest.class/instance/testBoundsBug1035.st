@@ -16,7 +16,7 @@ testBoundsBug1035
 		color: Color blue;
 		layoutPolicy: ProportionalLayout new;
 		addMorph: submorph
-		fullFrame: (LayoutFrame fractions: (0.1 @ 0.1 corner: 0.9 @ 0.9)).
+		fullFrame: ((0.1 @ 0.1 corner: 0.9 @ 0.9) asLayoutFrame).
 
 	submorph bounds. "0@0 corner: 100@100 NOT YET UPDATED"
 	aMorph fullBounds. "0@0 corner: 50@40. CORRECT"

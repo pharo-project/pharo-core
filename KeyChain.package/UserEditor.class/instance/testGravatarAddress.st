@@ -11,6 +11,4 @@ testGravatarAddress
 			container removeAllMorphs.
 			container 
 				addMorph: newAvatar 
-				fullFrame: (LayoutFrame 
-								fractions: (0@0 corner: 1@1)
-								offsets: nil )].
+				fullFrame: LayoutFrame identity].

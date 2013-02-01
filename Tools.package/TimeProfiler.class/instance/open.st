@@ -27,9 +27,7 @@ open
 		ifTrue: [vgap := toolBar minExtent y.
 		win
 			addMorph: toolBar
-			fullFrame: (LayoutFrame
-				fractions: (0 @ 0 corner: 1 @ 0)
-				offsets: (0 @ 0 corner: 0 @ vgap))]
+			fullFrame: ((0 @ 0 corner: 1 @ 0) asLayoutFrame bottomOffset: vgap)]
 		ifFalse: [vgap := 0].
 	blkPaneGap := 0.
 	treeTopFraction := 0.0.
@@ -46,15 +44,13 @@ open
 			blockCodePane alwaysAccept: true.
 			win
 				addMorph: blockCodePane
-				fullFrame: (LayoutFrame
-						fractions: (0 @ 0 corner: 1 @ treeTopFraction)
-						offsets: (0 @ vgap corner: 0 @ (vgap + blkPaneGap)))].
+				fullFrame: ((0 @ 0 corner: 1 @ treeTopFraction) asLayoutFrame
+						topOffset: vgap;
+						bottomOffset: vgap + blkPaneGap)].
 	treeTabPane := win newTabGroup: {'Tallies Tree' -> treeMorph. 'Full report' -> fullReportPane}.
 	win 
 		addMorph: treeTabPane
-		fullFrame: (LayoutFrame
-				fractions: (0 @ treeTopFraction corner: 1 @ 0.6)
-				offsets: (0 @ (vgap + blkPaneGap) corner: 0 @ 0)).
+		fullFrame: ((0 @ treeTopFraction corner: 1 @ 0.6) asLayoutFrame topOffset: vgap + blkPaneGap).
 	win
 		addMorph: (codeTabPane := win newTabGroup: {'Code' -> codePane. 'Statistics' -> summaryPane})
 		fullFrame: (LayoutFrame

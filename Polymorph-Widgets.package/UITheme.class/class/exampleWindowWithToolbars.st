@@ -72,9 +72,9 @@ exampleWindowWithToolbars
 			addMorphBack: tools.
 		win
 			addMorph: dock
-			fullFrame: (LayoutFrame fractions: (0@0 corner: 1@0) offsets: (0@0 corner: 0 @ dock minExtent y));
+			fullFrame: ((0@0 corner: 1@0) asLayoutFrame bottomOffset: dock minExtent y);
 			addMorph: text
-			fullFrame: (LayoutFrame fractions: (0@0 corner: 1@1) offsets: (0@dock minExtent y corner: 0 @ 0)).
+			fullFrame: ((0@0 corner: 1@1) asLayoutFrame topOffset: dock minExtent y).
 		win
 			themeChanged;
 			openInWorld

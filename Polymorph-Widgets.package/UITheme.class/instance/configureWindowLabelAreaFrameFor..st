@@ -11,8 +11,5 @@ configureWindowLabelAreaFrameFor: aWindow
 		hResizing: #spaceFill;
 		wrapCentering: #topLeft;
 		layoutInset: (0@windowBorderWidth corner: 0@1).
-	frame := LayoutFrame
-		fractions: (0@0 corner: 1@0)
-		offsets: (0 @ (aWindow labelHeight negated)
-					corner: 0 @ 0).
+	frame := (0@0 corner: 1@0) asLayoutFrame topOffset: aWindow labelHeight negated.
 	aWindow labelArea layoutFrame: frame

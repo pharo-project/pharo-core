@@ -27,7 +27,7 @@ addLowerPanesTo: window at: nominalFractions with: editString
 
 	row 
 		addMorph: (infoPane borderWidth: 0; hideScrollBarsIndefinitely)
-		fullFrame: ( (0@1 corner: 1@1) asLayoutFrame topOffset: infoHeight negated).
+		fullFrame: ((0@1 corner: 1@1) asLayoutFrame topOffset: infoHeight negated).
 	window 
 		addMorph: row
 		frame: nominalFractions.

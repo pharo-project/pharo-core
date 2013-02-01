@@ -9,7 +9,7 @@ testScrolling
 	pane scroller addMorph: myMorph.
 	window
 		addMorph: pane
-		fullFrame: (LayoutFrame fractions: (0 @ 0 corner: 1 @ 1)).
+		fullFrame: LayoutFrame identity.
 
 	t := 0 @ 0.
 	window openInWorld.

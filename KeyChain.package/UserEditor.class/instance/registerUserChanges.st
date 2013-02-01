@@ -14,6 +14,6 @@ registerUserChanges
 				ifNotNil: [ 
 					userName text: user contents username.
 					container removeAllMorphs.
-					container addMorph: usr avatar copy fullFrame: (LayoutFrame fractions: (0 @ 0 corner: 1 @ 1) offsets: nil).
+					container addMorph: usr avatar copy fullFrame: LayoutFrame identity.
 					originalEmail := usr userNameFor: #gravatar.
 					originalEmail ifNotNil: [ gravatarAddress text: originalEmail ]]]
