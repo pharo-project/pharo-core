@@ -1,4 +1,4 @@
 printing
 printHelp
 	self stderr
-		nextPutAll: self class comment.
+		nextPutAll: self class comment; lf

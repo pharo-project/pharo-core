@@ -46,23 +46,13 @@ smartCharacterWithEvent: anEvent
 	previous := editor previousCharacterIfAbsent: [ Character space ].
 	next := editor nextCharacterIfAbsent: [ Character space ].
 	
-	"if we don't have separators (white space is a separator) we do not do anything"
-	 (previous isSeparator or: [ next isSeparator ])
-		ifFalse: [ self bookCharacter: char. 
-				^ nil ].
 	
-	"if the character is a closing one and the next one is the same??? - I do not understand what is the effect"
-	"(opposite = char and: [ next = char ]) ifTrue: [
-		editor selectFrom: editor startIndex + 1 to: editor startIndex.
-		self invalidateEditorMorph.
-		^ true ]."
-	
-	next isSeparator 
-			ifFalse: [ editor replaceSelectionWith: (String with: char)]
-			ifTrue: [ 
-				(previous isSeparator)
-					ifFalse: [ editor replaceSelectionWith: (String with: char)]
-					ifTrue: [ editor replaceSelectionWith: (String with: char  with: Character space with: opposite)]].
+	editor replaceSelectionWith: (next isSeparator 
+		ifFalse: [ char asString ]
+		ifTrue: [ 
+			(previous isSeparator)
+				ifFalse: [ char asString]
+				ifTrue: [ String with: char with: Character space with: opposite ]]).
 			
 	editor selectFrom: editor startIndex + 1 to: editor startIndex.
 	self invalidateEditorMorph.
