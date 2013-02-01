@@ -22,3 +22,13 @@ testPrintFormat
 	
 	"Out of range year types -> short year"
 	format yearType: 3 shouldPrintAs: '04'.
+	
+	"Usage examples"
+	self 
+		assert: june2nd1973 mmddyyyy = '6/2/1973';
+		assert: june2nd1973 yyyymmdd = '1973-06-02';
+		assert: (june2nd1973 printFormat: #(3 1 2 $! 2 1 1)) = '1973!2!Jun';
+		assert: (june2nd1973 printFormat: #(1 2 3 0 1 1 2)) = '02061973';		
+		assert: (june2nd1973 printFormat: #(2 1 3 0 1 1 2)) = '06021973';		
+		assert: (june2nd1973 printFormat: #(3 2 1 0 1 1 2)) = '19730602';
+		assert: (june2nd1973 printFormat: #(1 2 3 0 1 1 1)) = '261973'.

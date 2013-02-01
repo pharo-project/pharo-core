@@ -10,8 +10,10 @@
 		"bottomFraction:offset:" : "ar 10/23/2000 19:35",
 		"bottomOffset" : "ar 10/23/2000 19:35",
 		"bottomOffset:" : "ar 10/23/2000 19:35",
+		"bottomRightOffset:" : "IgorStasenko 12/18/2012 16:50",
 		"fractions:" : "bvr 6/1/2012 15:43",
 		"fractions:offsets:" : "",
+		"initialize" : "IgorStasenko 12/18/2012 16:58",
 		"layout:in:" : "JW 2/1/2001 13:04",
 		"leftFraction" : "ar 10/23/2000 19:35",
 		"leftFraction:" : "ar 10/23/2000 19:35",
@@ -27,5 +29,6 @@
 		"topFraction" : "ar 10/23/2000 19:36",
 		"topFraction:" : "ar 10/23/2000 19:36",
 		"topFraction:offset:" : "ar 10/23/2000 19:37",
+		"topLeftOffset:" : "IgorStasenko 12/18/2012 16:50",
 		"topOffset" : "ar 10/23/2000 19:37",
 		"topOffset:" : "ar 10/23/2000 19:37" } }
