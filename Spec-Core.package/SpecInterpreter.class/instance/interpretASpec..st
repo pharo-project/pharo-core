@@ -53,7 +53,7 @@ interpretASpec: aPresenter
 					result := self class private_interpretASpec: newInstance model: spec instance superSpec: specToProvide.
 					(result isKindOf: ComposableModel)
 						ifTrue: [| return | 
-							return := result buildWithSpec.
+							return := result private_buildWithSpec.
 							result spec addAsSubSpecTo: superSpec.
 							^ return ]
 						ifFalse: [ ^ result ]].

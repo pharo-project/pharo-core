@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
+		"list" ],
 	"name" : "TestingComposableModel",
 	"pools" : [
 		 ],

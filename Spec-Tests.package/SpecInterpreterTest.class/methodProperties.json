@@ -5,9 +5,9 @@
 		"setUp" : "BenjaminVanRyseghem 10/18/2012 15:27",
 		"tearDown" : "BenjaminVanRyseghem 10/18/2012 15:24",
 		"testBindings" : "BenjaminVanRyseghem 10/18/2012 15:41",
-		"testBuildWidgetFor" : "BenjaminVanRyseghem 10/18/2012 15:33",
+		"testBuildWidgetFor" : "BenjaminVanRyseghem 12/12/2012 14:30",
 		"testBuildWidgetForWithSpec" : "BenjaminVanRyseghem 10/18/2012 15:33",
-		"testBuildWindowFor" : "BenjaminVanRyseghem 10/18/2012 15:26",
+		"testBuildWindowFor" : "BenjaminVanRyseghem 12/12/2012 14:30",
 		"testConvertRandomSymbolOfClassToInstance" : "",
 		"testDynamicBuild" : "BenjaminVanRyseghem 10/18/2012 16:05",
 		"testInterpretASpecModelMorphAssociation" : "BenjaminVanRyseghem 10/18/2012 15:26" } }

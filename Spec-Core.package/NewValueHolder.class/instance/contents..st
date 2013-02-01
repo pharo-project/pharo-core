@@ -6,5 +6,4 @@ contents: anObject
 	lock := true.
 	oldValue := contents.
 	contents := anObject.
-	self contentsChanged: oldValue.
-	lock := false
+	 [ self contentsChanged: oldValue ] ensure: [ lock := false ]

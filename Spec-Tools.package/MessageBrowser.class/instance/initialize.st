@@ -11,4 +11,3 @@ initialize
 	super initialize.
 	
 	self registerToAnnouncements.
-	self bindings: MorphicBindingsWithSplitters new.

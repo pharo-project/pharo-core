@@ -4,4 +4,4 @@ initialize
 
 	super initialize.
 
-	bindings := MorphicBindings new.
+	bindings := MorphicBindings new asValueHolder.

@@ -2,7 +2,7 @@ private
 initializeInstance
 
 	^ SpecInterpreter
-		interpretASpec: 
+		private_interpretASpec: 
 			{ self classSymbol.
 				#color:. #(Color class white)} 
 		model: DummyComposableModel new

@@ -4,7 +4,6 @@ initialize
 
 	super initialize.
 
-	bindings := BindingsHolder new.
 	extentHolder := nil asValueHolder.
 	needRebuild := true asValueHolder.
 	isEventForNextFocusBlock := [ false ] asValueHolder.

@@ -1,4 +1,4 @@
 accessing
 bindings: anObject
 
-	bindings := anObject
+	bindings contents: anObject

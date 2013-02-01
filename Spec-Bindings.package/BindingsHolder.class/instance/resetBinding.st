@@ -1,4 +1,4 @@
 protocol
 resetBinding
 
-	bindings := self class bindings
+	self bindings: self class bindings

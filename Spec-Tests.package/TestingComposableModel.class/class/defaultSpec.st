@@ -2,6 +2,6 @@ specs
 defaultSpec
 	<spec>
 
-	^ SpecLayout list
-		send: #model: withArguments: {#model};
+	^ SpecLayout composed
+		add: #list;
 		yourself

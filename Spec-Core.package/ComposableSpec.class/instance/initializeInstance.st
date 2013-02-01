@@ -2,7 +2,7 @@ private
 initializeInstance
 
 	^ SpecInterpreter
-		interpretASpec: 
+		private_interpretASpec: 
 			{ self classSymbol.
 				#useProportionalLayout.
 				#addSplitters.

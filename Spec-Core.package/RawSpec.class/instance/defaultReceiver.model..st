@@ -1,4 +1,4 @@
 accessing
 defaultReceiver: aSymbol model: aModel
 
-	defaultReceiver := SpecInterpreter interpretASpec: aSymbol model: aModel.
+	defaultReceiver := SpecInterpreter private_interpretASpec: aSymbol model: aModel.

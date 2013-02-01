@@ -6,7 +6,7 @@ buildWithSpec: aSpec
 	(self spec notNil and: [ self needRebuild not ])
 		ifTrue: [ widget := self spec instance ]
 		ifFalse: [ 
-			widget := SpecInterpreter buildWidgetFor: self withSpec: self defaultSpecSelector.
+			widget := SpecInterpreter private_buildWidgetFor: self withSpec: self defaultSpecSelector.
 			self addModelIn: widget withSpec: aSpec ].
 
 	self extent ifNotNil: [:ex | 

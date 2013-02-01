@@ -3,13 +3,15 @@
 		"bindings" : "BenjaminVanRyseghem 4/24/2012 10:36",
 		"defaultBindings" : "BenjaminVanRyseghem 4/24/2012 10:37" },
 	"instance" : {
-		"bindings" : "BenjaminVanRyseghem 4/24/2012 10:30",
-		"bindings:" : "BenjaminVanRyseghem 4/24/2012 10:30",
-		"classSymbolFor:ifAbsent:" : "BenjaminVanRyseghem 4/24/2012 10:36",
-		"initialize" : "BenjaminVanRyseghem 4/24/2012 10:34",
-		"resetBinding" : "BenjaminVanRyseghem 10/18/2012 14:58",
+		"bindings" : "BenjaminVanRyseghem 12/12/2012 15:21",
+		"bindings:" : "BenjaminVanRyseghem 12/12/2012 15:21",
+		"classSymbolFor:ifAbsent:" : "BenjaminVanRyseghem 12/12/2012 15:22",
+		"initialize" : "BenjaminVanRyseghem 12/12/2012 15:20",
+		"printOn:" : "BenjaminVanRyseghem 12/12/2012 15:22",
+		"resetBinding" : "BenjaminVanRyseghem 12/12/2012 15:22",
 		"retrieveClassSymbolFor:" : "BenjaminVanRyseghem 4/24/2012 10:29",
 		"retrieveDefaultClassSymbolFor:" : "BenjaminVanRyseghem 4/24/2012 10:29",
 		"retrieveDefaultSelectorSymbolFor:" : "BenjaminVanRyseghem 4/24/2012 10:29",
-		"retrieveSelectorSymbolFor:" : "BenjaminVanRyseghem 4/24/2012 10:29",
-		"selectorSymbolFor:ifAbsent:" : "BenjaminVanRyseghem 4/24/2012 10:35" } }
+		"retrieveSelectorSymbolFor:" : "BenjaminVanRyseghem 12/12/2012 15:21",
+		"selectorSymbolFor:ifAbsent:" : "BenjaminVanRyseghem 12/12/2012 15:22",
+		"whenChangedDo:" : "BenjaminVanRyseghem 12/12/2012 15:24" } }
