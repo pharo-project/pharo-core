@@ -8,7 +8,10 @@ setSelectedIndex: anIndex
 	self okToChange ifFalse: [ ^ self ].
 	self listSize isZero ifTrue:  [ ^self ].
 	idx := anIndex min: self listSize.
-	selection := (self listItems at: idx ifAbsent: [ nil ]).
+	selection := self listItems 
+					at: idx 
+					ifAbsent: [ idx := 0.
+								nil ].
 	
 	selectionHolder index contents: idx.
 	selectionHolder selection contents: selection.

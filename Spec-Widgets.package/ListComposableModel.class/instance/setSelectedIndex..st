@@ -6,6 +6,7 @@ setSelectedIndex: anIndex
 	
 	self allowToSelect ifFalse: [ ^ self ].
 	self okToChange ifFalse: [ ^ self ].
+	
 	idx := anIndex min: self listSize.
 	selection := self 
 					listElementAt: idx 

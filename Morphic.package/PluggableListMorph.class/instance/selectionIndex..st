@@ -8,4 +8,4 @@ selectionIndex: index
 	row := row min: self maximumSelection.  "make sure we don't select past the end"
 	self listMorph selectedRow: row.
 	self highlightSelection.
-	self scrollSelectionIntoView.
+	self scrollSelectionToRow: row.

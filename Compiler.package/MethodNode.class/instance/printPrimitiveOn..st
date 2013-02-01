@@ -25,6 +25,3 @@ printPrimitiveOn: aStream
 				nextPutAll: ' error: ';
 				nextPutAll: primitiveErrorVariableName ].
 	aStream nextPut: $>.
-	Smalltalk globals
-		at: #Interpreter
-		ifPresent: [ :cls | aStream nextPutAll: ' "' , ((cls classPool at: #PrimitiveTable) at: primitive + 1) , '" ' ]

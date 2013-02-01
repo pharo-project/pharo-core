@@ -1,10 +1,12 @@
 announcement registration
 registerToSystemAnnouncements
+
+	self browsedEnvironment packageOrganizer announcer weak
+		on: RPackageCreated send: #packageCreated: to: self;
+		on: RPackageUnregistered send: #packageUnregistred: to: self;
+		on: RPackageRenamed send: #packageRenamed: to: self.
+		
 	SystemAnnouncer uniqueInstance weak
-		on: RPackageCreated send: #packageCreated: to: self;"
-		on: RPackageUnregistred send: #packageUnregistred: to: self;"
-		on: RPackageRenamed send: #packageRenamed: to: self;
-	
 		on: ClassAdded send: #classAdded: to: self;
 		on: ClassCommented send: #classCommented: to: self;
 		on: ClassRecategorized send: #classRecategorized: to: self;
