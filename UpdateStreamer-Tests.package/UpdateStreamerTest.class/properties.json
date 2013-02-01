@@ -1,5 +1,5 @@
 {
-	"category" : "System-CommandLine",
+	"category" : "UpdateStreamer-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "LoadUpdatesCommandLineHandler",
+	"name" : "UpdateStreamerTest",
 	"pools" : [
 		 ],
-	"super" : "CommandLineHandler",
+	"super" : "TestCase",
 	"type" : "normal" }
