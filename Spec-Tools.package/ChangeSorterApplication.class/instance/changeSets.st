@@ -1,4 +1,4 @@
 protocol
 changeSets
 
-	^ self changesListModel getList
+	^ self changesListModel listItems

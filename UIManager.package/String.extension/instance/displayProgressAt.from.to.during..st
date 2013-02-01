@@ -21,7 +21,7 @@ it is sent the message value: x, where x is in the from:to: range.
 	"deprecated use displayProgressFrom: minVal to: maxVal during: workBlock "
 
 	^UIManager default 
-		display: self
+		displayProgress: self
 		from: minVal 
 		to: maxVal 
 		during: workBlock
