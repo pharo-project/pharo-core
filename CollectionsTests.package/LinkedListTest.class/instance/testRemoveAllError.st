@@ -1,9 +1,9 @@
 tests - remove
 testRemoveAllError
 	"self debug: #testRemoveElementThatExists"
-	| el subCollection |
+	| el aSubCollection |
 	el := self elementNotIn.
-	subCollection := self nonEmptyWithoutEqualElements copyWith: el.
+	aSubCollection := self nonEmptyWithoutEqualElements copyWith: el.
 	self 
-		should: [ | res | res := self nonEmptyWithoutEqualElements removeAll: subCollection ]
+		should: [ | res | res := self nonEmptyWithoutEqualElements removeAll: aSubCollection ]
 		raise: Error

@@ -2,7 +2,7 @@
 	"class" : {
 		"buildSmalltalkEditorKeymappingsOn:" : "GuillermoPolito 9/24/2012 15:34",
 		"initialize" : "AlainPlantec 11/16/2010 21:52",
-		"initializeCmdKeyShortcuts" : "CamilloBruni 2/26/2011 16:46",
+		"initializeCmdKeyShortcuts" : "CamilloBruni 11/2/2012 15:44",
 		"initializeShiftCmdKeyShortcuts" : "MarcusDenker 5/8/2012 10:16",
 		"shiftedYellowButtonMenu" : "AlainPlantec 11/16/2010 22:19",
 		"smalltalkEditorMenuKeyword" : "AlainPlantec 11/16/2010 17:01",

@@ -1,3 +1,3 @@
 accessing
 old: anObject
-	old := anObject
+	old := anObject  

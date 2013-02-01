@@ -1,7 +1,7 @@
 morphic ui
 accept
-	| version message |
+	| version aMessage |
 	version := (self findTextMorph: #versionName) text asString.
-	message := (self findTextMorph: #logMessage) text asString.
-	self addAsLastLogMessage: message.
-	self answer: {version. message}
+	aMessage := (self findTextMorph: #logMessage) text asString.
+	self addAsLastLogMessage: aMessage.
+	self answer: {version. aMessage}

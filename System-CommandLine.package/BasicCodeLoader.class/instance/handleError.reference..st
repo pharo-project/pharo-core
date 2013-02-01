@@ -1,7 +1,6 @@
 private
 handleError: error reference: aReference
 	"Print a header before failing on an errro / syntax notification from the the script loaded by the given request"
-	|stderr|
 	
 	"spit out a warning if in headless mode, otherwise a debugger will popup"
 	Smalltalk isHeadless 

@@ -8,7 +8,7 @@ printConfigurations: configurations
 			nextPutAll: ' Configuration';
 			nextPutAll: (configurations size = 1 ifTrue: ':' ifFalse: 's:') ]).
 	
-	configurations do: [ :configurationName | 
-			self << configurationName. 
+	configurations do: [ :name | 
+			self << name. 
 			self stdout lf ].
 	

@@ -8,7 +8,7 @@ initializeWidgets
 		prettyButton CheckBoxModel
 		diffButton CheckBoxModel
 		textModel TextModel ).
-	
+	 
 	self setFocus.
 	
 	methodsListModel menu: [:menu :shifted | self messageMenu: menu shifted: shifted ].

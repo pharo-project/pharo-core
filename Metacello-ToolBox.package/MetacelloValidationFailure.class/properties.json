@@ -1,0 +1,14 @@
+{
+	"category" : "Metacello-ToolBox",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"issues" ],
+	"name" : "MetacelloValidationFailure",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

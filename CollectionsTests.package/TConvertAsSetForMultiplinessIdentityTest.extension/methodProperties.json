@@ -3,8 +3,8 @@
 		 },
 	"instance" : {
 		"collectionWithCopy" : "delaunay 4/28/2009 14:03",
-		"collectionWithIdentical" : "delaunay 4/28/2009 14:08",
+		"collectionWithIdentical" : "CamilloBruni 11/2/2012 15:39",
 		"elementsCopyNonIdenticalWithoutEqualElements" : "delaunay 4/28/2009 14:00",
-		"test0FixtureAsSetForIdentityMultiplinessTest" : "delaunay 4/28/2009 14:15",
+		"test0FixtureAsSetForIdentityMultiplinessTest" : "CamilloBruni 11/2/2012 15:51",
 		"testAsIdentitySetWithIdentityEqualsElements" : "delaunay 4/28/2009 14:07",
 		"testAsIdentitySetWithoutIdentityEqualsElements" : "delaunay 4/28/2009 14:24" } }

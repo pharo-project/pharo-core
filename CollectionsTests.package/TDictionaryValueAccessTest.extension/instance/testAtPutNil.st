@@ -3,18 +3,18 @@ testAtPutNil
 	"self run: #testAtPut"
 	"self debug: #testAtPut"
 	
-	| dict keyIn |
-	dict := self nonEmpty .
-	keyIn := dict keys anyOne.
+	| aDictionary keyIn |
+	aDictionary := self nonEmpty .
+	keyIn := aDictionary keys anyOne.
 	
-	dict at: nil put: 'new'.
-	self assert: (dict at: nil) = 'new'.
+	aDictionary at: nil put: 'new'.
+	self assert: (aDictionary at: nil) = 'new'.
 	
-	dict at: keyIn  put: nil.
-	self assert: (dict at: keyIn ) isNil.
+	aDictionary at: keyIn  put: nil.
+	self assert: (aDictionary at: keyIn ) isNil.
 	
-	dict at: self keyNotIn put: nil.
-	self assert: ( dict at: self keyNotIn ) isNil.
+	aDictionary at: self keyNotIn put: nil.
+	self assert: ( aDictionary at: self keyNotIn ) isNil.
 	
-	dict at: nil put: nil.
-	self assert: (dict at: nil) isNil.
+	aDictionary at: nil put: nil.
+	self assert: (aDictionary at: nil) isNil.

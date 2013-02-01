@@ -2,13 +2,13 @@ tests - DictionaryIndexAccessing
 testAtError
 	"self run: #testAtError"
 	
-	| dict keyNotIn keyIn |
+	| dict nonExistantKey keyIn |
 	dict := self nonEmpty .
-	keyNotIn  := self keyNotIn .
+	nonExistantKey  := self keyNotIn .
 	keyIn := dict keys anyOne.
 	
 	self shouldnt: [ dict at: keyIn  ] raise: Error.
 	
-	self should: [ dict at: keyNotIn  ] raise: Error.
+	self should: [ dict at: nonExistantKey  ] raise: Error.
 	
 	

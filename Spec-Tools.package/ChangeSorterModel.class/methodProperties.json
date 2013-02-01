@@ -12,7 +12,7 @@
 		"copySelector:inClass:from:to:" : "",
 		"createNewSet" : "",
 		"currentChangeSet" : "StephaneDucasse 11/2/2012 14:17",
-		"fileOutClass:from:" : "",
+		"fileOutClass:from:" : "StephaneDucasse 11/2/2012 16:03",
 		"fileOutSelector:from:" : "",
 		"findChangeSetIn:" : "",
 		"forgetSelector:inClass:fromChangeSet:" : "",
@@ -21,6 +21,6 @@
 		"removePostscriptFrom:" : "",
 		"rename:" : "",
 		"setContentsOfChangeSet:forClass:andSelector:prettyPrint:showDiff:" : "",
-		"setCurrentChangeSet:" : "StephaneDucasse 11/2/2012 14:40",
+		"setCurrentChangeSet:" : "StephaneDucasse 11/2/2012 16:37",
 		"submerge:into:" : "",
 		"substractFrom:to:" : "" } }

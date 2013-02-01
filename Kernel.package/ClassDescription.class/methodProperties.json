@@ -63,7 +63,7 @@
 		"printSubclassesOn:level:" : "al 11/28/2005 11:51",
 		"printWithClosureAnalysisOn:" : "eem 6/2/2008 11:47",
 		"putClassCommentToCondensedChangesFile:" : "StephaneDucasse 5/28/2011 13:39",
-		"reformatMethodAt:" : "alain.plantec 5/18/2009 15:46",
+		"reformatMethodAt:" : "",
 		"removeInstVarNamed:" : "StephaneDucasse 8/27/2010 11:05",
 		"removeSelector:" : "EstebanLorenzano 8/3/2012 15:27",
 		"renameInstVar:to:" : "al 11/28/2005 11:52",

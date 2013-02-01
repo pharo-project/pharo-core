@@ -7,8 +7,8 @@
 		"compareVersion:for:to:" : "dkh 3/7/2012 17:08:50",
 		"compareVersionsIn:" : "dkh 3/7/2012 17:08:50",
 		"compiledMethodForVersion:" : "CamilloBruni 10/31/2012 18:23",
-		"configurationClasses" : "dkh 6/13/2012 13:07",
-		"configurationNameFrom:" : "dkh 3/7/2012 17:08:50",
+		"configurationClasses" : "CamilloBruni 11/2/2012 16:08",
+		"configurationNameFrom:" : "CamilloBruni 11/2/2012 16:06",
 		"configurationNamed:" : "dkh 3/7/2012 17:08:50",
 		"copyConfiguration:to:" : "dkh 3/7/2012 17:08:50",
 		"createBaseline:for:from:description:" : "dkh 3/7/2012 17:08:50",
@@ -99,5 +99,5 @@
 		"updateVersionMethodForVersion:updateProjects:updatePackages:versionSpecsDo:" : "dkh 9/13/2012 16:43",
 		"updateVersionMethodForVersion:versionSpecsDo:" : "dkh 3/7/2012 17:08:50",
 		"updateVersionSpec:fullVersionSpec:updateProjects:updatePackages:visited:updated:" : "dkh 9/13/2012 16:55",
-		"validateConfiguration" : "dkh 3/7/2012 17:08:50",
+		"validateConfiguration" : "CamilloBruni 11/2/2012 16:01",
 		"validateVersion:" : "dkh 3/7/2012 17:08:50" } }

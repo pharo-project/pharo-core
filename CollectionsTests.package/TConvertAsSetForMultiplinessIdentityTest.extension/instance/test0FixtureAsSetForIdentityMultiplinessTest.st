@@ -2,10 +2,10 @@ tests - fixture
 test0FixtureAsSetForIdentityMultiplinessTest
 
 	"a collection (of elements for which copy is not identical ) without equal elements:"
-	| element res |
+	| anElement res |
 	self shouldnt: [ self elementsCopyNonIdenticalWithoutEqualElements ]raise: Error.
-	element := self elementsCopyNonIdenticalWithoutEqualElements anyOne.
-	self deny: element copy == element .
+	anElement := self elementsCopyNonIdenticalWithoutEqualElements anyOne.
+	self deny: anElement copy == anElement .
 	
 	res := true.
 	self elementsCopyNonIdenticalWithoutEqualElements 

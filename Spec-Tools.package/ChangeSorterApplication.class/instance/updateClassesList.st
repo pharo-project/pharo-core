@@ -1,5 +1,6 @@
 protocol
 updateClassesList
+	
 	| sel |
 	sel := self selectedClass.
 	

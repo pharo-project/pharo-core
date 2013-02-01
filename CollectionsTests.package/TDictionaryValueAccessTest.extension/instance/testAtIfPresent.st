@@ -2,10 +2,10 @@ tests - DictionaryIndexAccessing
 testAtIfPresent
 	"self run: #testAtIfAbsent"
 	
-	| t collection association keyNotIn |
+	| t collection association nonExistantKey |
 	collection := self nonEmpty .
 	association := collection associations anyOne.
-	keyNotIn := self keyNotIn . 
+	nonExistantKey := self keyNotIn . 
 	
 	t := false.
 	self nonEmptyDict at: association key ifPresent: [:x | t := (x = association value)].
@@ -13,4 +13,4 @@ testAtIfPresent
 	
 	self assert: (self nonEmptyDict at: association key ifPresent: [:x | 'ABCDEF']) =  'ABCDEF'.
 
-	self assert: (self nonEmptyDict at: keyNotIn  ifPresent: [:x | Error signal]) isNil
+	self assert: (self nonEmptyDict at: nonExistantKey  ifPresent: [:x | Error signal]) isNil

@@ -1,9 +1,9 @@
 tests - dictionary assocition access
 testAssociationAtError
 
-| collection keyNotIn |
-collection := self nonEmpty.
-keyNotIn := self keyNotIn .
+	| collection nonExistantKey |
+	collection := self nonEmpty.
+	nonExistantKey := self keyNotIn .
 
-self should: [collection associationAt: keyNotIn] raise: Error. 
+	self should: [collection associationAt: nonExistantKey] raise: Error. 
 
