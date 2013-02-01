@@ -1,4 +1,6 @@
 job subscription
 endJob: aJobEnd 
 
-	self uniqueInstance close: self uniqueInstance bars last.
+	self flag: 'Intermediate Hack to avoid out of bounds errors when using asynchronous code'.
+	self uniqueInstance bars isEmpty ifFalse: [
+		self uniqueInstance close: self uniqueInstance bars last].
