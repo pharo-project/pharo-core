@@ -1,0 +1,16 @@
+{
+	"category" : "CompilerTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"text",
+		"selectionStart",
+		"selectionEnd" ],
+	"name" : "MockSourceEditor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

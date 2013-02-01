@@ -6,8 +6,8 @@ testEvaluationOfSelfSend
 	| result |
 	result := Compiler new
 				evaluate: (self method copyFrom: 6 to: self method size)
-				in: self model doItContext
-				to: self model doItReceiver
+				in: self methodContext 
+				to: nil
 				notifying: nil 
 				ifFail: [^ #failedDoit]
 				logged: true.

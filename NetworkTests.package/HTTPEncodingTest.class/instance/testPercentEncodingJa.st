@@ -1,4 +1,4 @@
-testing - converting
+as yet unclassified
 testPercentEncodingJa
 	| leading hiraA hiraO hiraAO encodedHiraA encodedHiraO encodedHiraAO |
 
