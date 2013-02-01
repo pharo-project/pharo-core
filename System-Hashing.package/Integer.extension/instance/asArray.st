@@ -1,4 +1,4 @@
-*System-Hashing-Core
+converting-arrays
 asArray
 
 	| stream |

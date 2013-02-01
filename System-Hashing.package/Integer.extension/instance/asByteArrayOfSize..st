@@ -1,4 +1,4 @@
-*System-Hashing-Core
+converting-arrays
 asByteArrayOfSize: aSize 
 	"Answer a ByteArray of aSize with my value, most-significant byte first."
 	| answer digitPos |

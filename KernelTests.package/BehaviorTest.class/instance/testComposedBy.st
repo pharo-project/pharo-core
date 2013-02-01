@@ -5,7 +5,7 @@ testComposedBy
 	self 
 		should: [ Object isComposedBy: Object ]
 		raise: Error.
-	self deny: (Object isComposedBy: TAbleToRotate).
-	self deny: (Object new isComposedBy: TAbleToRotate).
-	self assert: (CircleMorph isComposedBy: TAbleToRotate).
-	self assert: (CircleMorph new isComposedBy: TAbleToRotate).
+	self deny: (Object isComposedBy: TSortable).
+	self deny: (Object new isComposedBy: TSortable).
+	self assert: (SequenceableCollection isComposedBy: TSortable).
+	self assert: (SequenceableCollection new isComposedBy: TSortable).
