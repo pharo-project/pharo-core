@@ -6,7 +6,7 @@ parsePragmas
 		self step.
 		pragma := self parsePragma.
 		(currentToken isBinary and: [ currentToken value = #> ]) 
-			ifFalse: [ self parserError: '''>'' expected' ].
+			ifFalse: [ ^ self parserError: '''>'' expected' ].
 		pragma left: start; right: currentToken start.
 		pragmas isNil
 			ifTrue: [ pragmas := OrderedCollection new ].

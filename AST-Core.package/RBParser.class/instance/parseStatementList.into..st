@@ -12,7 +12,7 @@ parseStatementList: pragmaBoolean into: sequenceNode
 	[self atEnd 
 		or: [currentToken isSpecial and: ['])}' includes: currentToken value]]] 
 			whileFalse: 
-				[return ifTrue: [self parserError: 'End of statement list encounted'].
+				[return ifTrue: [ ^ self parserError: 'End of statement list encounted'].
 				(currentToken isSpecial and: [currentToken value = $^]) 
 					ifTrue: 
 						[returnPosition := currentToken start.

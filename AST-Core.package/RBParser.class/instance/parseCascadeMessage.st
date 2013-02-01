@@ -19,8 +19,8 @@ parseCascadeMessage
 								ifFalse: 
 									[| temp |
 									currentToken isLiteralToken ifTrue: [self patchNegativeLiteral].
-									currentToken isBinary ifFalse: [self parserError: 'Message expected'].
+									currentToken isBinary ifFalse: [ ^ self parserError: 'Message expected'].
 									temp := self parseBinaryMessageWith: receiver.
-									temp == receiver ifTrue: [self parserError: 'Message expected'].
+									temp == receiver ifTrue: [ ^ self parserError: 'Message expected'].
 									temp]])].
 	^self cascadeNodeClass messages: messages semicolons: semicolons

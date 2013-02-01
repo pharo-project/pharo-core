@@ -1,0 +1,28 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"acceptArgumentNode:" : "CamilloBruni 10/31/2012 19:14",
+		"acceptArrayNode:" : "CamilloBruni 10/31/2012 19:14",
+		"acceptAssignmentNode:" : "CamilloBruni 10/31/2012 19:14",
+		"acceptBlockNode:" : "CamilloBruni 10/31/2012 19:14",
+		"acceptCascadeNode:" : "CamilloBruni 10/31/2012 19:14",
+		"acceptLiteralArrayNode:" : "CamilloBruni 10/31/2012 19:14",
+		"acceptLiteralNode:" : "CamilloBruni 10/31/2012 19:14",
+		"acceptMessageNode:" : "CamilloBruni 10/31/2012 19:14",
+		"acceptMethodNode:" : "CamilloBruni 10/31/2012 19:14",
+		"acceptParseErrorNode:" : "CamilloBruni 10/31/2012 21:36",
+		"acceptPatternBlockNode:" : "CamilloBruni 10/31/2012 19:14",
+		"acceptPatternWrapperBlockNode:" : "CamilloBruni 10/31/2012 19:14",
+		"acceptPragmaNode:" : "CamilloBruni 10/31/2012 19:14",
+		"acceptReturnNode:" : "CamilloBruni 10/31/2012 21:41",
+		"acceptSelfNode:" : "CamilloBruni 10/31/2012 19:14",
+		"acceptSequenceNode:" : "CamilloBruni 10/31/2012 19:14",
+		"acceptSuperNode:" : "CamilloBruni 10/31/2012 19:14",
+		"acceptTemporaryNode:" : "CamilloBruni 10/31/2012 19:14",
+		"acceptThisContextNode:" : "CamilloBruni 10/31/2012 19:14",
+		"acceptVariableNode:" : "CamilloBruni 10/31/2012 19:14",
+		"visitArgument:" : "CamilloBruni 10/31/2012 19:14",
+		"visitArguments:" : "CamilloBruni 10/31/2012 19:14",
+		"visitNode:" : "CamilloBruni 10/31/2012 19:14",
+		"visitTemporaries:" : "CamilloBruni 10/31/2012 19:14" } }

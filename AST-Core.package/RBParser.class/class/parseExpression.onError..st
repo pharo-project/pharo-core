@@ -1,4 +1,4 @@
-accessing
+parsing
 parseExpression: aString onError: aBlock 
 	| node parser |
 	parser := self new.

@@ -2,26 +2,4 @@
 	"class" : {
 		 },
 	"instance" : {
-		"acceptArgumentNode:" : "CamilloBruni 12/15/2011 14:24",
-		"acceptArrayNode:" : "ls 1/24/2000 00:31",
-		"acceptAssignmentNode:" : "",
-		"acceptBlockNode:" : "",
-		"acceptCascadeNode:" : "",
-		"acceptLiteralArrayNode:" : "",
-		"acceptLiteralNode:" : "",
-		"acceptMessageNode:" : "",
-		"acceptMethodNode:" : "lr 3/6/2010 23:39",
-		"acceptPatternBlockNode:" : "",
-		"acceptPatternWrapperBlockNode:" : "",
-		"acceptPragmaNode:" : "lr 10/18/2009 12:37",
-		"acceptReturnNode:" : "",
-		"acceptSelfNode:" : "CamilloBruni 12/5/2011 19:21",
-		"acceptSequenceNode:" : "CamilloBruni 8/20/2012 16:35",
-		"acceptSuperNode:" : "CamilloBruni 12/5/2011 19:28",
-		"acceptTemporaryNode:" : "CamilloBruni 12/15/2011 14:24",
-		"acceptThisContextNode:" : "CamilloBruni 12/8/2011 15:27",
-		"acceptVariableNode:" : "",
-		"visitArgument:" : "",
-		"visitArguments:" : "",
-		"visitNode:" : "",
-		"visitTemporaries:" : "CamilloBruni 8/20/2012 16:35" } }
+		 } }

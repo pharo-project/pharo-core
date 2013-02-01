@@ -2,7 +2,7 @@ private-parsing
 parseBinaryPattern
 	| binaryToken node args |
 	currentToken isBinary
-		ifFalse: [self parserError: 'Message pattern expected'].
+		ifFalse: [ ^ self parserError: 'Message pattern expected'].
 	binaryToken := currentToken.
 	self step.
 	args := Array with: self parseVariableNode.

@@ -9,4 +9,4 @@ parseParenthesizedExpression
 			[node addParenthesis: (leftParen to: currentToken start).
 			self step.
 			node]
-		ifFalse: [self parserError: ''')'' expected']
+		ifFalse: [ self parserError: ''')'' expected']

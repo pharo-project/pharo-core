@@ -15,4 +15,4 @@ parsePrimitiveObject
 			currentToken value = ${ ifTrue: [^self parseArray]].
 	(currentToken isBinary and: [ currentToken value = #- ]) 
 		ifTrue: [ ^self parseNegatedNumber ].
-	self parserError: 'Variable expected'
+	^ self parserError: 'Variable expected'

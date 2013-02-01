@@ -11,7 +11,7 @@ parseStatements: pragmaBoolean
 					self step.
 					args := self parseArgs.
 					(currentToken isBinary and: [currentToken value = #|]) 
-						ifFalse: [self parserError: '''|'' expected'].
+						ifFalse: [ ^ self parserError: '''|'' expected'].
 					rightBar := currentToken start.
 					self step]
 				ifFalse: 

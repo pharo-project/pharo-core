@@ -2,7 +2,7 @@ private-parsing
 parseBinaryPragma
 	| binaryToken |
 	currentToken isBinary 
-		ifFalse: [ self parserError: 'Message pattern expected' ].
+		ifFalse: [ ^ self parserError: 'Message pattern expected' ].
 	binaryToken := currentToken.
 	self step.
 	^ self pragmaNodeClass

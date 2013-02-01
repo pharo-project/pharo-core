@@ -1,6 +1,7 @@
 private
 needsParenthesisFor: aNode 
 	| parent grandparent |
+	aNode ifNil: [ ^ false ].
 	aNode isValue ifFalse: [ ^ false ].
 	parent := aNode parent ifNil: [ ^ false ].
 	(CascadedMessageInsideParentheses and: [ aNode isMessage and: [ parent isMessage and: [ parent receiver == aNode ] ] ]) ifTrue: [

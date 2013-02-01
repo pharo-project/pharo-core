@@ -7,7 +7,7 @@ parseLiteralArray
 	[self atEnd or: [currentToken isSpecial and: [currentToken value = $)]]] 
 		whileFalse: [stream nextPut: self parseLiteralArrayObject].
 	(currentToken isSpecial and: [currentToken value = $)]) 
-		ifFalse: [self parserError: ''')'' expected'].
+		ifFalse: [ ^ self parserError: ''')'' expected'].
 	stop := currentToken stop.
 	self step.
 	^self literalArrayNodeClass 
