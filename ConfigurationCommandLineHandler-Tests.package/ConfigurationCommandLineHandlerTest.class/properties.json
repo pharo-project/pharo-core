@@ -1,5 +1,5 @@
 {
-	"category" : "Tests-System-CommandLine",
+	"category" : "ConfigurationCommandLineHandler-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [

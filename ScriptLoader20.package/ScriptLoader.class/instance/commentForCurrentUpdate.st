@@ -1,10 +1,10 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6963:	cleanup WeakActionSequenceTrappingErrors
-	http://code.google.com/p/pharo/issues/detail?id=6963
+ ^ 'Issue 6965:	cleanup #generate:using:
+	http://code.google.com/p/pharo/issues/detail?id=6965
 	
-Issue 6875:	Deprecate ProgressInitiationException
-	http://code.google.com/p/pharo/issues/detail?id=6875
+Issue 6561:	Refactoring -> create superclass does not work
+	http://code.google.com/p/pharo/issues/detail?id=6561
 	
-Issue 6961:	moved some methods from polymorph into the extended classes
-	http://code.google.com/p/pharo/issues/detail?id=6961'
+Issue 6943:	move ConfigurationCommandLineHandler to separate package
+	http://code.google.com/p/pharo/issues/detail?id=6943'

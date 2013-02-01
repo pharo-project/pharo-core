@@ -1,5 +1,5 @@
 {
-	"category" : "System-CommandLine",
+	"category" : "ConfigurationCommandLineHandler-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [

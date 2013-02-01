@@ -1,0 +1,14 @@
+{
+	"category" : "Ring-Tests-Monticello",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RGMonticelloTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
