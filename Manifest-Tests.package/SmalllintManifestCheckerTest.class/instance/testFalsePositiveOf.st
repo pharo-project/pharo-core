@@ -4,7 +4,7 @@ testFalsePositiveOf
 	| smc package rule |
 	
 	rule  := RBCompositeLintRule allGoodRules.
-	package := PackageInfo allPackages detect: [:p  | p packageName  = 'Manifest-Resources-Tests'].
+	package := RPackageSet named:  'Manifest-Resources-Tests'.
 
 	smc := SmalllintManifestChecker  new runRules:  rule onPackage:  package. 
 	

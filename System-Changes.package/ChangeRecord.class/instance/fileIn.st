@@ -11,10 +11,7 @@ fileIn
 						compile: self text
 						classified: category
 						withStamp: stamp
-						notifying: nil.
-					(aSelector := self methodSelector)
-						ifNotNil: [ RecentMessageList uniqueInstance 
-									addMethodReference: ((methodClass >> aSelector) methodReference )] ].
+						notifying: nil. ].
 			type == #doIt
 				ifTrue: [ 
 					((s := self string) beginsWith: '----')

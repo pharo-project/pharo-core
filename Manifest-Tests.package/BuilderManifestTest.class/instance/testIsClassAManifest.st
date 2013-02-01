@@ -4,4 +4,4 @@ testIsClassAManifest
 	
 	self deny: Point isManifest.
 	BuilderManifest on: MFClassA. 
-	self assert: (ManifestManifestResourcesTests isManifest)
+	self assert: ( (Smalltalk at: #ManifestManifestResourcesTests) isManifest)
