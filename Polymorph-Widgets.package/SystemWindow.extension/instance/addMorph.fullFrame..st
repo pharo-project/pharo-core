@@ -2,28 +2,29 @@
 addMorph: aMorph fullFrame: aLayoutFrame
 	"Add a morph to the receiver with the given layout frame."
 	
-	| left right bottom top windowBorderWidth |
+	| left right bottom top windowBorderWidth frame |
+	frame := aLayoutFrame asLayoutFrame.
 	windowBorderWidth := self class borderWidth.
 
-	left := aLayoutFrame leftOffset ifNil: [0].
-	right := aLayoutFrame rightOffset ifNil: [0].
+	left := frame leftOffset.
+	right := frame rightOffset.
 
-	bottom := aLayoutFrame bottomOffset ifNil: [0].
-	top := aLayoutFrame topOffset ifNil: [0].
+	bottom := frame bottomOffset.
+	top := frame topOffset.
 	
-	aLayoutFrame rightFraction = 1 ifTrue: [aLayoutFrame rightOffset: right - windowBorderWidth].
-	aLayoutFrame leftFraction = 0
-		ifTrue: [aLayoutFrame leftOffset: left + windowBorderWidth]
-		ifFalse: [aLayoutFrame leftFraction = 1 ifFalse: [
-					aLayoutFrame leftOffset: left + ProportionalSplitterMorph splitterWidth]].
+	frame rightFraction = 1 ifTrue: [frame rightOffset: right - windowBorderWidth].
+	frame leftFraction = 0
+		ifTrue: [frame leftOffset: left + windowBorderWidth]
+		ifFalse: [frame leftFraction = 1 ifFalse: [
+					frame leftOffset: left + ProportionalSplitterMorph splitterWidth]].
 
-	aLayoutFrame bottomFraction = 1 ifTrue: [aLayoutFrame bottomOffset: bottom - windowBorderWidth].
-	aLayoutFrame topFraction = 0
-		ifTrue: [aLayoutFrame topOffset: top]
-		ifFalse: [aLayoutFrame topFraction = 1 ifFalse: [
-					aLayoutFrame topOffset: top + ProportionalSplitterMorph splitterWidth]].
+	frame bottomFraction = 1 ifTrue: [frame bottomOffset: bottom - windowBorderWidth].
+	frame topFraction = 0
+		ifTrue: [frame topOffset: top]
+		ifFalse: [frame topFraction = 1 ifFalse: [
+					frame topOffset: top + ProportionalSplitterMorph splitterWidth]].
 	
-	super addMorph: aMorph fullFrame: aLayoutFrame.
+	super addMorph: aMorph fullFrame: frame.
 
 	paneMorphs := paneMorphs copyReplaceFrom: 1 to: 0 with: (Array with: aMorph).
 	aMorph adoptPaneColor: self paneColor.

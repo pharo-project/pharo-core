@@ -2,8 +2,8 @@ tests
 testLeftTopAligned
 	| lf rectangle |
 	lf := LayoutFrame new
-		leftFraction: 0 offset: 10;
-		topFraction: 0 offset: 10;
+		leftOffset: 10;
+		topOffset: 10;
 		rightFraction: 0 offset: 60;
 		bottomFraction: 0 offset: 25;
 		yourself.

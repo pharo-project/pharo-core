@@ -53,7 +53,6 @@ open
 		fullFrame: ((0 @ treeTopFraction corner: 1 @ 0.6) asLayoutFrame topOffset: vgap + blkPaneGap).
 	win
 		addMorph: (codeTabPane := win newTabGroup: {'Code' -> codePane. 'Statistics' -> summaryPane})
-		fullFrame: (LayoutFrame
-				fractions: (0 @ 0.6 corner: 1 @ 1)).
+		fullFrame: (0 @ 0.6 corner: 1 @ 1) asLayoutFrame.
 	win openInWorld.
 	self startState

@@ -1,11 +1,6 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7175:	Manifest fixing
-	http://code.google.com/p/pharo/issues/detail?id=7175
+ ^ 'Issue 7173:	LayoutFrame refactoring part 3	
+	http://code.google.com/p/pharo/issues/detail?id=7173
 	
-Issue 7172:	CompiledMethod #getSource should call #sourceCode
-	http://code.google.com/p/pharo/issues/detail?id=7172
-	
-Issue 7161:	MCToolWindowBuilder is not used
-	http://code.google.com/p/pharo/issues/detail?id=7161
 	'

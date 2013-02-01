@@ -8,7 +8,7 @@ buildMorphicNotifierLabelled: label message: messageString
 	
 	window
 		addMorph: (row := self buttonRowForPreDebugWindow: window)
-		fullFrame: (LayoutFrame fractions: (0@0 corner: 1@0) offsets: (0@0 corner: 0@row minExtent y)).
+		fullFrame: ((0@0 corner: 1@0) asLayoutFrame bottomOffset: row minExtent y).
 	
 	row color: Color transparent.
 	messageString notNil
