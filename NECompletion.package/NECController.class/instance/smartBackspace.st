@@ -2,7 +2,6 @@ keyboard
 smartBackspace
 
 	| opposite |
-
 	editor hasSelection
 		ifTrue: [ ^ false ].
 	
@@ -12,11 +11,11 @@ smartBackspace
 			ifAbsent: [ ^ false ])
 		ifAbsent: [ ^ false ].
 		
-	opposite = (editor text at: editor stopIndex ifAbsent: [ ^ false ])
+	opposite = (editor text at: editor stopIndex + 1 ifAbsent: [ ^ false ])
 		ifFalse: [ ^ false ].
 		
 	editor closeTypeIn.
-	editor selectInvisiblyFrom: editor startIndex - 1 to: editor stopIndex.
+	editor selectInvisiblyFrom: editor startIndex - 1 to: editor stopIndex + 1.
 	editor replaceSelectionWith: editor nullText.
 	self invalidateEditorMorph.
 	

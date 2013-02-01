@@ -1,6 +1,8 @@
 keyboard
 smartCharacter: aCharacter
-	| opposite previous next char |
+	| opposite previous next |
+	
+
 	editor hasSelection ifTrue: [
 		"we selected a piece of text if the character is not a special one we do nothing."
 		opposite := self smartCharactersMapping at: aCharacter ifAbsent: [ ^ nil ].
@@ -29,20 +31,22 @@ smartCharacter: aCharacter
 	previous := editor previousCharacterIfAbsent: [ Character space ].
 	next := editor nextCharacterIfAbsent: [ Character space ].
 	
-	"if we have separators do not do anything"
+	"if we don't have separators (white space is a separator) we do not do anything"
 	 (previous isSeparator or: [ next isSeparator ])
 		ifFalse: [ ^ nil ].
 	
 	"if the character is a closing one and the next one is the same??? - I do not understand what is the effect"
-	(opposite = aCharacter and: [ next = aCharacter ]) ifTrue: [
+	"(opposite = aCharacter and: [ next = aCharacter ]) ifTrue: [
 		editor selectFrom: editor startIndex + 1 to: editor startIndex.
 		self invalidateEditorMorph.
-		^ true ].
+		^ true ]."
 	
-	char := editor nextCharacterIfAbsent:  [ Character space ].
-	((char = Character space) or: [ char = Character cr]) 
+	next isSeparator 
 			ifFalse: [ editor replaceSelectionWith: (String with: aCharacter)]
-			ifTrue: [ editor replaceSelectionWith: (String with: aCharacter with: opposite)].
+			ifTrue: [ 
+				(previous isSeparator)
+					ifFalse: [ editor replaceSelectionWith: (String with: aCharacter)]
+					ifTrue: [ editor replaceSelectionWith: (String with: aCharacter  with: Character space with: opposite)]].
 			
 	editor selectFrom: editor startIndex + 1 to: editor startIndex.
 	self invalidateEditorMorph.

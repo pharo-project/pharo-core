@@ -1,12 +1,17 @@
 instance creation
 named: aSymbol uses: aTraitCompositionOrCollection category: aString env: anEnvironment
-	| trait oldTrait systemCategory |
+	| trait oldTrait systemCategory oldCategory |
+	
 	systemCategory := aString asSymbol.
 	trait := anEnvironment
 		at: aSymbol
 		ifAbsent: [nil].
 	oldTrait := trait copy.
-	trait := trait ifNil: [super new].
+	"Since there some strange side effect who changes teh category before being able to 
+	  actually update (and that causes a problem on RPackage organization), we take also the 
+	  category"
+	oldCategory := oldTrait category.
+	trait := trait ifNil: [ super new ].
 	
 	(trait isKindOf: Trait) ifFalse: [
 		^self error: trait name , ' is not a Trait'].
@@ -18,11 +23,19 @@ named: aSymbol uses: aTraitCompositionOrCollection category: aString env: anEnvi
 	trait setTraitComposition: aTraitCompositionOrCollection asTraitComposition.
 	
 	"... notify interested clients ..."
-	oldTrait isNil ifTrue: [
-		SystemAnnouncer uniqueInstance classAdded: trait inCategory: systemCategory.
-		^ trait].
+	oldTrait ifNil: [
+		SystemAnnouncer uniqueInstance 
+			classAdded: trait 
+			inCategory: systemCategory.
+		^trait].
+
 	SystemAnnouncer uniqueInstance traitDefinitionChangedFrom: oldTrait to: trait.
-	systemCategory ~= oldTrait category 
-		ifTrue: [SystemAnnouncer uniqueInstance class: trait recategorizedFrom: oldTrait category to: systemCategory].
+
+	systemCategory ~= oldCategory
+		ifTrue: [ 
+			SystemAnnouncer uniqueInstance 
+				class: trait 
+				recategorizedFrom: oldCategory 
+				to: systemCategory].
 		
 	^ trait
