@@ -1,4 +1,4 @@
-initialization
+updating
 updateColor
 	"Callback from theme"
 	

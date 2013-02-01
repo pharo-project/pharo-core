@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"fromBinaryStream:" : "PavelKrivanek 11/21/2012 21:19",
+		"fromFileNamed:" : "StephaneDucasse 2/2/2010 22:20" },
 	"instance" : {
 		"readNativeResourceFrom:" : "ar 12/9/2002 16:04",
 		"writeBMPfileNamed:" : "ar 6/16/2002 17:53",

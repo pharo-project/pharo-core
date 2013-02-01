@@ -1,8 +1,8 @@
 private
 reposition
 	"Calculate the proper position"
-	| xPos yPos margin |
 	
+	| xPos yPos margin |
 	margin := 20.
 	
 	xPos := Display boundingBox width - self fullBounds width - (2*margin).
@@ -12,4 +12,5 @@ reposition
 	yPos := yPos * self class verticalPosition + margin.
 	
 	self align: self fullBounds topLeft with: Display boundingBox topLeft + (xPos @ yPos).
+	
 	self refresh.

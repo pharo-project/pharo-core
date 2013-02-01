@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"close:" : "SeanDeNigris 5/23/2012 00:55",
+		"label:min:max:" : "SeanDeNigris 5/23/2012 00:57" },
 	"instance" : {
 		"labelAt:put:" : "SeanDeNigris 8/29/2012 11:57",
 		"setLabel:at:" : "SeanDeNigris 5/23/2012 01:23",

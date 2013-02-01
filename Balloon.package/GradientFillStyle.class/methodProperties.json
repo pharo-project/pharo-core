@@ -7,11 +7,13 @@
 		"ramp:" : "ar 11/9/1998 14:05",
 		"sample" : "ar 11/10/1998 19:13" },
 	"instance" : {
+		"=" : "gvc 7/24/2007 12:22",
 		"asColor" : "ar 8/25/2001 21:02",
 		"checkTranslucency" : "di 11/21/1999 20:18",
 		"colorRamp" : "ar 11/7/1998 22:10",
 		"colorRamp:" : "ar 9/2/1999 14:30",
 		"computePixelRampOfSize:" : "nice 1/5/2010 15:59",
+		"hash" : "gvc 7/24/2007 12:22",
 		"isGradientFill" : "ar 11/7/1998 22:12",
 		"isRadialFill" : "ar 11/7/1998 22:13",
 		"isTranslucent" : "ar 9/2/1999 14:29",

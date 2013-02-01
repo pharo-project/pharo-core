@@ -1,7 +1,9 @@
 {
 	"class" : {
+		"examplesHighlyConcurrent" : "lr 3/14/2010 21:13",
 		"open" : "stephane.ducasse 3/28/2009 21:33",
 		"patchworkUIThemeColor" : "AlainPlantec 12/16/2009 22:10" },
 	"instance" : {
+		"codePaneMenu:shifted:" : "yann.monclair 9/4/2009 16:26",
 		"open" : "MarcusDenker 11/13/2012 15:07",
 		"openLabel:" : "MarcusDenker 11/13/2012 15:06" } }

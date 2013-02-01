@@ -1,4 +1,4 @@
 private
 max: aNumber
  
-	endValue := aNumber.
+	endValue := aNumber

@@ -1,11 +1,11 @@
 {
-	"category" : "Morphic-Widgets",
+	"category" : "Morphic-ProgressBar",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		"BarHeight",
 		"BarWidth" ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"button",
 		"progressBar" ],

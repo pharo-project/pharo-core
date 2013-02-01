@@ -6,7 +6,5 @@
 		"testInstanceSideMethodsWithNilKeyInLastLiteral" : "MarianoMartinezPeck 8/24/2012 11:31",
 		"testMethodsWithUnboundGlobals" : "MarcusDenker 7/12/2012 18:01",
 		"testObsoleteClasses" : "MarcusDenker 7/12/2012 18:01",
-		"testRPackageOrganizer" : "MarcusDenker 9/18/2012 14:47",
 		"testUndeclared" : "marcus.denker 8/18/2008 21:40",
-		"testUnimplementedNonPrimitiveCalls" : "MarcusDenker 7/12/2012 18:01",
-		"testUnpackagedClasses" : "CamilloBruni 10/23/2012 20:38" } }
+		"testUnimplementedNonPrimitiveCalls" : "MarcusDenker 7/12/2012 18:01" } }

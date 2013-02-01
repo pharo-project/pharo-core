@@ -6,9 +6,10 @@ initialize
 	value := 0.
 	start := 0.
 	end := 100.
-
+	height := DefaultHeight.
+	width := DefaultWidth.
 	self 
 		fillStyle: (self theme progressBarFillStyleFor: self);
 		borderStyle: (self theme progressBarBorderStyleFor: self);
 		barFillStyle: (self theme progressBarProgressFillStyleFor: self);
-		extent: DefaultWidth@DefaultHeight  + (2 * self borderWidth).
+		extent: width@height  + (2 * self borderWidth).

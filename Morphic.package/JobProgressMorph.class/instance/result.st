@@ -1,4 +1,4 @@
 private
 result
 
-	^ result.
+	^ result

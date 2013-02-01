@@ -1,10 +1,10 @@
 {
-	"category" : "Kernel-Processes",
+	"category" : "Kernel-Job",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"job" ],
 	"name" : "JobEnd",

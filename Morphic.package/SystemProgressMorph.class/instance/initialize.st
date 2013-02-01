@@ -1,9 +1,8 @@
 initialization
 initialize
+
 	super initialize.
-	
 	lock := Semaphore forMutualExclusion.
-	
 	self
 		setDefaultParameters;
 		setProperty: #morphicLayerNumber toValue: self morphicLayerNumber;

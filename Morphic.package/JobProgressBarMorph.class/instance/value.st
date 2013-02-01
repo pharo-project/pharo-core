@@ -1,3 +1,3 @@
-as yet unclassified
+evaluating
 value
 	^ progressBar value

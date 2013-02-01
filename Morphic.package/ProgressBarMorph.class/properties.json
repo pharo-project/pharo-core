@@ -1,5 +1,5 @@
 {
-	"category" : "Morphic-Widgets",
+	"category" : "Morphic-ProgressBar",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -9,7 +9,9 @@
 	"instvars" : [
 		"start",
 		"end",
-		"value" ],
+		"value",
+		"height",
+		"width" ],
 	"name" : "ProgressBarMorph",
 	"pools" : [
 		 ],

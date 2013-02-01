@@ -1,4 +1,4 @@
-*Kernel-Processes
+*Kernel-Job
 asJob
 
 	^ Job block: self.

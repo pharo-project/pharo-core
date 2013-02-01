@@ -1,4 +1,4 @@
-private
+updating
 resize
 
 	| newWidth |

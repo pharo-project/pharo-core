@@ -1,3 +1,3 @@
-private
+updating
 recenter
 	self reposition

@@ -1,10 +1,10 @@
-as yet unclassified
+initialize
 initialize
 	super initialize.
 	progressBar := ProgressBarMorph new.
 	progressBar hResizing: #spaceFill.
 	button := ThemeIcons smallErrorIcon asMorph.
-	
+	self extent: 200@20.
 	self
 		color: Color transparent;
 		layoutPolicy: TableLayout new;

@@ -16,7 +16,6 @@
 		"verbosePrimesUpTo:" : "ar 10/6/2001 19:33",
 		"verbosePrimesUpTo:do:" : "SeanDeNigris 6/21/2012 08:44" },
 	"instance" : {
-		"&" : "CamilloBruni 3/27/2012 17:18",
 		"*" : "di 11/6/1998 13:59",
 		"+" : "di 11/6/1998 13:59",
 		"-" : "di 11/6/1998 13:59",
@@ -35,6 +34,9 @@
 		"allMask:" : "",
 		"anyBitOfMagnitudeFrom:to:" : "sr 11/29/2000 14:32",
 		"anyMask:" : "",
+		"asArray" : "PeterHugossonMiller 9/3/2009 10:00",
+		"asByteArray" : "PeterHugossonMiller 9/3/2009 10:01",
+		"asByteArrayOfSize:" : "StephaneDucasse 10/17/2009 17:15",
 		"asCharacter" : "ar 4/9/2005 22:31",
 		"asCharacterDigit" : "CamilloBruni 10/21/2012 14:09",
 		"asFloat" : "nice 9/22/2011 01:39",
