@@ -1,13 +1,7 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6978:	UpdateStreamer and UpdateStreamerTest should be in own packages	
-	http://code.google.com/p/pharo/issues/detail?id=6978
+ ^ 'Issue 6995:	remove TextStyle class>>#initDefaultFontsAndStyle
+	http://code.google.com/p/pharo/issues/detail?id=6995
 	
-Issue 6977:	Move LoadUpdatesCommandLineHandler close to UpdateStreamer
-	http://code.google.com/p/pharo/issues/detail?id=6977
-	
-Issue 6967:	move TestRunnerCommandLineHandler into HudsonBuildTools20
-	http://code.google.com/p/pharo/issues/detail?id=6967
-	
-Issue 6993:	update Pharo Kernel generation
-	http://code.google.com/p/pharo/issues/detail?id=6993'
+Issue 6482:	switch to fullscreen is dependent on Morphic
+	http://code.google.com/p/pharo/issues/detail?id=6482'
