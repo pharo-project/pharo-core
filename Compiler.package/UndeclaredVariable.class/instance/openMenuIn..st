@@ -7,9 +7,9 @@ openMenuIn: aBlock
 	lines := OrderedCollection new.
 	name first isLowercase 
 		ifTrue: 
-			[labels add: 'declare temp'.
+			[labels add: 'declare temporary variable'.
 			actions add: [parser declareTempAndPaste: name].
-			labels add: 'declare instance'.
+			labels add: 'declare new instance variable'.
 			actions add: [parser declareInstVar: name]]
 		ifFalse: 
 			[labels add: 'define new class'.

@@ -1,16 +1,10 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7060:	New Spec version
-	http://code.google.com/p/pharo/issues/detail?id=7060
-
-Issue 7054:	InputEventHandler unregistering should nil the eventFetcher
-	http://code.google.com/p/pharo/issues/detail?id=7054
-
-Issue 7041:	remove theme UIThemeStandardSqueak
-	http://code.google.com/p/pharo/issues/detail?id=7041
-
-Issue 7036:	move Form class>>#fromFileNamed and fromBinaryStream to Graphic-Files
-	http://code.google.com/p/pharo/issues/detail?id=7036
-
-Issue 7031:	Package HistoryCollection should be merged into Nautilus
-	http://code.google.com/p/pharo/issues/detail?id=7031'
+ ^ 'Issue 7069:	Better pop up menu entries
+	http://code.google.com/p/pharo/issues/detail?id=7069
+	
+Issue 7068:	Fixed smartCharacter
+	http://code.google.com/p/pharo/issues/detail?id=7068
+	
+Issue 7066:	Hot-Fix for MC version serializer
+	http://code.google.com/p/pharo/issues/detail?id=7066'
