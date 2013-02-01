@@ -1,5 +1,6 @@
 *ast-core
 parseTree
-	^ RBExplicitVariableParser 
+	^(RBExplicitVariableParser 
 		parseMethod: self sourceCode 
-		onError: [ :msg :pos | ^ nil ]
+		onError: [ :msg :pos | ^ nil ]) classBinding: self methodClass binding.
+	

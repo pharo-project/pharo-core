@@ -7,6 +7,7 @@
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		"scope",
+		"classBinding",
 		"selector",
 		"selectorParts",
 		"body",

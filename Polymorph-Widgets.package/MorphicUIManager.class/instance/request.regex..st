@@ -1,4 +1,4 @@
-*Regex-Core
+ui requests
 request: aTitleString regex: initialRegexString
 	"Prompt the user for a valid regex.
 	Return nil on cancel or a valid RxMatcher"
@@ -14,5 +14,6 @@ request: aTitleString regex: initialRegexString
 		regex ifNil: [ ^ nil ].
 		
 		[ ^ regex asRegex ] on: Error do: [ :regexParsingError|
-			self inform: 'Bad Regex: ', regexParsingError asString ].
-	] repeat.
+			WorldState addDeferredUIMessage: [ 
+				self inform: 'Bad Regex: ', regexParsingError asString ]]]
+	repeat.
