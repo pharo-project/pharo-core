@@ -64,6 +64,7 @@
 		"flattenDownAllTraits" : "jannik.laval 5/1/2010 15:53",
 		"flushCache" : "",
 		"format" : "",
+		"hasAbstractMethods" : "StephaneDucasse 12/16/2012 23:12",
 		"hasTraitComposition" : "al 3/25/2006 12:39",
 		"includesBehavior:" : "ar 3/12/98 12:36",
 		"includesSharedPoolNamed:" : "StephaneDucasse 11/9/2010 14:47",
