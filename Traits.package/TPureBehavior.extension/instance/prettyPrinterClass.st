@@ -1,3 +1,3 @@
-printing
+*Compiler-Kernel
 prettyPrinterClass
-	^ PrettyPrinting prettyPrinterClassFor: self
+	^ self compilerClass

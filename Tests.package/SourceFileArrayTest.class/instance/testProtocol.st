@@ -8,6 +8,6 @@ testProtocol
 	self assert: (SourceFiles sourcedDataAt: okCm sourcePointer) =  'Point methodsFor: ''point functions'' stamp: ''lr 7/4/2009 10:42'' prior: 26268465'.
 	self assert: (SourceFiles protocolAt: okCm sourcePointer) = 'point functions'.
 	
-	notOkCm := ComposableMorph >> #newToolSpacer.
-	self assert: (SourceFiles protocolAt: notOkCm sourcePointer) =  'controls'.
+	notOkCm := Behavior >> #supermostPrecodeCommentFor:.
+	self assert: (SourceFiles protocolAt: notOkCm sourcePointer) =  'accessing method dictionary'.
 	

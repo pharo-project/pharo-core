@@ -1,4 +1,5 @@
 tests
 tearDown
 
-	SystemProgressMorph uniqueInstance bars do: [ :e | e close ].
+	Smalltalk globals at: #SystemProgressMorph ifPresent: [:spm | 
+		spm uniqueInstance bars do: [ :e | e close ]] 

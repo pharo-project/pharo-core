@@ -8,6 +8,6 @@ testTimeStamp
 	self assert: (SourceFiles sourcedDataAt: okCm sourcePointer) =  'Point methodsFor: ''point functions'' stamp: ''lr 7/4/2009 10:42'' prior: 26268465'.
 	self assert: (SourceFiles timeStampAt: okCm sourcePointer) = 'lr 7/4/2009 10:42'.
 	
-	notOkCm := ComposableMorph >> #newToolSpacer.
+	notOkCm := Behavior >> #supermostPrecodeCommentFor:.
 	self assert: (SourceFiles timeStampAt: notOkCm sourcePointer) = ''.
 	
