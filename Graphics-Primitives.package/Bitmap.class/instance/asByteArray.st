@@ -1,4 +1,4 @@
-as yet unclassified
+conversion
 asByteArray
 	"Faster way to make a byte array from me.
 	copyFromByteArray: makes equal Bitmap."

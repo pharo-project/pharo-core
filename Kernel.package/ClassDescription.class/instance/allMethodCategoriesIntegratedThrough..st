@@ -2,14 +2,15 @@ accessing method dictionary
 allMethodCategoriesIntegratedThrough: mostGenericClass
 	"Answer a list of all the method categories of the receiver and all its superclasses, up through mostGenericClass"
 
-	| aColl |
-	aColl := OrderedCollection new.
-	self withAllSuperclasses do:
-		[:aClass |
-			(aClass includesBehavior: mostGenericClass)
-				ifTrue:	[aColl addAll: aClass organization categories]].
-	aColl remove: 'no messages' asSymbol ifAbsent: [].
-
-	^ (aColl asSet asSortedCollection: [:a :b | a asLowercase < b asLowercase]) asArray
-
-"ColorTileMorph allMethodCategoriesIntegratedThrough: TileMorph"
+	| otherClassCategories thisClassCategories lowercaseSortBlock combinedClassCategories |
+		
+	otherClassCategories := OrderedCollection new.
+	lowercaseSortBlock  := [ :a :b | a asLowercase <= b asLowercase ].
+	
+	(self allSuperclassesIncluding: mostGenericClass) do: [ :aClass | 
+		 otherClassCategories addAll: aClass organization categories ].
+	otherClassCategories remove: 'no messages' ifAbsent: [  ].
+	thisClassCategories := self organization categories sort: lowercaseSortBlock.
+													
+	^ thisClassCategories , ((otherClassCategories asSet removeAllSuchThat: [ :each |
+								thisClassCategories includes: each ]) sorted: lowercaseSortBlock)

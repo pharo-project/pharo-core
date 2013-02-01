@@ -28,7 +28,7 @@
 		"printOn:" : "sma 6/1/2000 09:42",
 		"readCompressedFrom:" : "PeterHugossonMiller 9/3/2009 00:15",
 		"replaceFrom:to:with:startingAt:" : "",
-		"restoreEndianness" : "tk 1/24/2000 22:37",
+		"restoreEndianness" : "CamilloBruni 11/2/2012 10:12",
 		"storeBits:to:on:" : "nk 12/31/2003 16:02",
 		"writeOn:" : "lr 7/4/2009 10:42",
 		"writeUncompressedOn:" : "tk 2/19/1999 07:36" } }
