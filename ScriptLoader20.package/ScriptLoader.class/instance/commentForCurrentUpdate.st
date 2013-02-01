@@ -1,7 +1,4 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7006:	Obsolete Ref to ChangeSorter
-	http://code.google.com/p/pharo/issues/detail?id=7006
-	
-Issue 6928:	Obsolete class after running all tests
-	http://code.google.com/p/pharo/issues/detail?id=6928'
+ ^ 'Issue 7007:	Package System-Change Notification is empy
+	http://code.google.com/p/pharo/issues/detail?id=7007'
