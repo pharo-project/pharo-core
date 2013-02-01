@@ -1,4 +1,4 @@
-private
+protocol
 addAllItems
 	
 	toSelectModel getRoots do: [:item |  

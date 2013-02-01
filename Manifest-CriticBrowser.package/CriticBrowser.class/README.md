@@ -1,19 +1,10 @@
-I'am a browser for the SmallLint Critics of a rule
+I am a browser for the SmallLint Critics
 
-Instance Variables
-	criticsModel:		<Object>
-	rule:		<Object>
-	textModel:		<Object>
-	toolbarModel:		<Object>
+example: 
+| rule |
+rule :=  RBCompositeLintRule filterRules.
+environment := (RBPackageEnvironment new packages: {PackageInfo named: 'Manifest'}).
 
-criticsModel
-	- xxxxx
-
-rule
-	- xxxxx
-
-textModel
-	- xxxxx
-
-toolbarModel
-	- xxxxx
+(CriticBrowser runRule: rule onEnvironment: environment)
+	openWithSpec.
+	

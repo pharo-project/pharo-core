@@ -1,9 +1,8 @@
 initialize-release
 initialize
+
 	| wrappingBlock |
-	
-	super initialize.
-	
+	super initialize.	
 	toSelectModel := self instantiate: ListComposableModel.
 	selectedModel := self instantiate: ListComposableModel.
 	selectedModel beMultipleSelection.

@@ -1,4 +1,4 @@
-private
+protocol
 addItems
 	
 	toSelectModel selectedItem

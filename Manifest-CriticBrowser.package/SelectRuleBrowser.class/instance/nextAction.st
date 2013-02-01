@@ -1,18 +1,23 @@
-private
+protocol
 nextAction
-	|rules|
-	
+	| rules rbRule|
 	self delete.
 	
-	rules := 	selectedModel getRoots.
-	rules do: [ :each | 
-		each leaves
-			do: [ :leave | 
-				(selectRule anySatisfy: [ :r | r = leave ])
-					ifFalse: [ each removeRule: leave]]].
+	rules := selectedModel getRoots.
+	rules
+		do: [ :each | 
+			each leaves
+				do: [ :leave | 
+					(selectRule anySatisfy: [ :r | r = leave ])
+						ifFalse: [ each removeRule: leave ] ] ].
+	rules := rules select: [ :each | each rules isEmpty not ].
+	rbRule := (RBCompositeLintRule new
+				name: self defaultRulesRootName;
+				rules: rules).
 				
-		rules := rules select: [ :each | 
-				each rules isEmpty not].
-					
-			 				
-	CriticRulesBrowser openOnRule: (RBCompositeLintRule new name: 'selected Rules'; rules: rules) onEnvironment: environment
+	CriticWorkspace current
+		rule: rbRule;
+		environment: environment.
+	
+	CriticBrowser
+		openOnWorkspace: CriticWorkspace current.

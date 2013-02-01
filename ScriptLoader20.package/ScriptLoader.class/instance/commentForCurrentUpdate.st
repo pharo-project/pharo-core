@@ -1,12 +1,11 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6973:	two ClassDescription>> #correspondingForTest issues
-	http://code.google.com/p/pharo/issues/detail?id=6973
+ ^ 'Issue 7040:	Move InvalidDirectoryError to Url package (sole user)
+	http://code.google.com/p/pharo/issues/detail?id=7040
 	
-Issue 7057:	Add Special Inspectors For Floats and Integers
-	http://code.google.com/p/pharo/issues/detail?id=705
+Issue 7050:	Critics Browser
+	http://code.google.com/p/pharo/issues/detail?id=7050
 	
-Issue 7052:	Fix in PolyMorph + TextHighlight fix
-	http://code.google.com/p/pharo/issues/detail?id=7052
-	
+Issue 6956:	Some Ring tests are dependent on Monticello
+	http://code.google.com/p/pharo/issues/detail?id=6956
 '

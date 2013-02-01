@@ -1,4 +1,5 @@
-private
+protocol
 updateTree
-		toSelectModel updateTree.
-		selectedModel updateTree.  	  
+
+	toSelectModel updateTree.
+	selectedModel updateTree.  	  

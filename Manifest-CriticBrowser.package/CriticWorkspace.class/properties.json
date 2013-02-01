@@ -1,0 +1,15 @@
+{
+	"category" : "Manifest-CriticBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Current" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"rule",
+		"environment" ],
+	"name" : "CriticWorkspace",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

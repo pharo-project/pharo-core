@@ -1,0 +1,14 @@
+{
+	"category" : "Network-Url",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pathName" ],
+	"name" : "InvalidDirectoryError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

@@ -10,8 +10,6 @@ initializeWidgets
 		
 	self setFocusOrder.
 
-	
-	
 	self setAddButtonModel. 
 	self setAddAllButtonModel. 
 	self setRemoveButtonModel. 

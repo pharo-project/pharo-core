@@ -2,10 +2,17 @@ specs
 defaultSpec
 	<spec>
 	
-	^ SpecLayout composed
+	^ SpecLayout composed 
 		newColumn: [:c |
 			c 
-				add: #criticsModel;
-				add: #toolbarModel height: 25;
+				newRow: [:r |
+					r 
+						add: #rulesModel;
+						addSplitter;
+						newColumn: [:c1 |
+							c1 
+								add: #(criticModel textInputFieldModel) height: 25;
+								add: #(criticModel criticsModel);
+								add: #(criticModel toolbarModel) height: 25 ]];
 				addSplitter;
-				add: #textModel ]
+				add: #(criticModel textModel) ]

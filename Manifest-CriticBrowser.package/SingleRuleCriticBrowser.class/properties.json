@@ -1,0 +1,21 @@
+{
+	"category" : "Manifest-CriticBrowser",
+	"classinstvars" : [
+		"icons" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"rule",
+		"criticsModel",
+		"toolbarModel",
+		"sourceCodeModel",
+		"critics",
+		"textInputFieldModel",
+		"checker",
+		"thread" ],
+	"name" : "SingleRuleCriticBrowser",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }
