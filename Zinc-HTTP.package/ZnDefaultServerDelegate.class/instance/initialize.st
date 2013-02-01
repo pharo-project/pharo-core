@@ -10,4 +10,6 @@ initialize
 		map: 'bytes' to: #bytes:;
 		map: 'status' to: #status:;
 		map: 'unicode' to: #unicode:;
+		map: 'session' to: #sessionRequest:;
+		map: 'error' to: #errorResponse:;
 		map: '/' to: 'welcome'

@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"cleanupInvalidSessions" : "SvenVanCaekenberghe 11/11/2012 20:05",
+		"cookieName" : "SvenVanCaekenberghe 11/10/2012 19:33",
+		"initialize" : "SvenVanCaekenberghe 11/10/2012 19:06",
+		"newSessionForRequest:" : "SvenVanCaekenberghe 11/10/2012 19:47",
+		"sessionFor:" : "SvenVanCaekenberghe 12/25/2012 21:26",
+		"sessionIdFromRequest:" : "SvenVanCaekenberghe 11/10/2012 23:04",
+		"sessions" : "SvenVanCaekenberghe 11/11/2012 20:03",
+		"setSession:in:" : "SvenVanCaekenberghe 11/10/2012 22:57" } }

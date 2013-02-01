@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"defaultPortForSSL" : "SvenVanCaekenberghe 12/5/2011 20:10",
+		"defaultPortForStartTLS" : "SvenVanCaekenberghe 12/5/2011 20:10",
+		"sendUsingGMailAccount:password:to:message:" : "SvenVanCaekenberghe 12/6/2011 13:10" },
+	"instance" : {
+		"alternativeLogin" : "SvenVanCaekenberghe 12/6/2011 11:50",
+		"ensureConnection" : "NorbertHartl 3/27/2012 16:44",
+		"fetchNextResponse" : "SvenVanCaekenberghe 12/7/2011 21:14",
+		"initialize" : "SvenVanCaekenberghe 12/5/2011 20:13",
+		"isSSL" : "SvenVanCaekenberghe 12/5/2011 20:12",
+		"isStartTLS" : "SvenVanCaekenberghe 12/5/2011 20:12",
+		"logVerbose:" : "SvenVanCaekenberghe 12/7/2011 21:16",
+		"nextLineFromStream" : "SvenVanCaekenberghe 12/7/2011 21:12",
+		"requireStartTLS" : "SvenVanCaekenberghe 9/22/2011 09:05",
+		"sendCommand:" : "SvenVanCaekenberghe 12/7/2011 21:12",
+		"setupStream" : "SvenVanCaekenberghe 12/5/2011 20:21",
+		"setupStreamForSSL" : "NorbertHartl 3/27/2012 16:38",
+		"setupStreamForStartTLS" : "SvenVanCaekenberghe 12/5/2011 20:14",
+		"startTLS" : "SvenVanCaekenberghe 12/7/2011 21:12",
+		"stream:" : "SvenVanCaekenberghe 12/7/2011 21:11",
+		"useSSL" : "SvenVanCaekenberghe 12/5/2011 20:11",
+		"useStartTLS" : "SvenVanCaekenberghe 12/5/2011 20:11" } }

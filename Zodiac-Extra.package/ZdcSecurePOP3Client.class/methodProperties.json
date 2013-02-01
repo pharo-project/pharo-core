@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"defaultPortForSSL" : "SvenVanCaekenberghe 12/6/2011 12:01",
+		"retrieveMessagesFromGMailAccount:password:limit:" : "SvenVanCaekenberghe 12/6/2011 12:51" },
+	"instance" : {
+		"ensureConnection" : "SvenVanCaekenberghe 12/6/2011 11:51",
+		"fetchNextResponse" : "SvenVanCaekenberghe 12/6/2011 12:25",
+		"getMultilineResponse" : "SvenVanCaekenberghe 12/6/2011 12:42",
+		"logVerbose:" : "SvenVanCaekenberghe 12/7/2011 21:06",
+		"nextLineFromStream" : "SvenVanCaekenberghe 12/7/2011 21:02",
+		"sendCommand:" : "SvenVanCaekenberghe 12/7/2011 21:12",
+		"setupStream" : "SvenVanCaekenberghe 12/6/2011 11:52",
+		"setupStreamForSSL" : "SvenVanCaekenberghe 12/7/2011 21:04",
+		"stream:" : "SvenVanCaekenberghe 12/7/2011 21:00" } }

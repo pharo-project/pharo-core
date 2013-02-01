@@ -4,7 +4,8 @@ readRequestSafely: stream
 	
 	^ [ self readRequest: stream ]
 		on: (self exceptionSet: #(ConnectionClosed ConnectionTimedOut PrimitiveFailed
-										ZnParseError ZnTooManyDictionaryEntries ZnEntityTooLarge))
+										ZnParseError ZnCharacterEncodingError ZnUnknownScheme ZnPortNotANumber 
+										ZnTooManyDictionaryEntries ZnEntityTooLarge))
 		do: [ :exception |
 			self log debug: [ exception printString, ' while reading request' ]. 
 			nil ]

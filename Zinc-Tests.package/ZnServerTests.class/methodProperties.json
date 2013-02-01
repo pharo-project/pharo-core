@@ -6,8 +6,10 @@
 		"testAuthorizationFailed" : "SvenVanCaekenberghe 8/23/2012 14:34",
 		"testAuthorizationSuccessful" : "SvenVanCaekenberghe 8/23/2012 14:34",
 		"testDefault" : "SvenVanCaekenberghe 3/12/2012 22:06",
-		"testEcho" : "SvenVanCaekenberghe 8/23/2012 14:34",
+		"testEcho" : "SvenVanCaekenberghe 11/10/2012 17:42",
 		"testEchoBinary" : "SvenVanCaekenberghe 8/23/2012 14:34",
 		"testEchoLocalInterface" : "SvenVanCaekenberghe 8/23/2012 14:34",
+		"testError" : "SvenVanCaekenberghe 12/23/2012 18:20",
 		"testGetUnicodeUtf8" : "SvenVanCaekenberghe 8/23/2012 14:34",
+		"testSession" : "SvenVanCaekenberghe 11/10/2012 23:47",
 		"withServerDo:" : "SvenVanCaekenberghe 3/12/2012 20:36" } }

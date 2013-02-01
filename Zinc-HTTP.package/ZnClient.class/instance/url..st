@@ -12,5 +12,4 @@ url: urlObject
 		ifNotNil: [ url := url inContextOf: request url ].  
 	url := url asZnUrlWithDefaults.  
 	self validateConnectionForHost: url host port: url port.   
-	self resetRequestIfNeeded.
 	request url: url
