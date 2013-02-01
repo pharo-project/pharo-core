@@ -13,7 +13,6 @@
 		"textModel",
 		"prettyPrint",
 		"showDiff",
-		"title",
 		"prettyButton",
 		"diffButton" ],
 	"name" : "ChangeSorterApplication",

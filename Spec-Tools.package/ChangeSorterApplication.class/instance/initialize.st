@@ -6,8 +6,7 @@ initialize
 	showDiff := false.
 	
 	model := ChangeSorterModel new.
-	title := self defaultTitle.
-	
+	SystemAnnouncer uniqueInstance weak on: CurrentChangeSetChanged do: [:each | self updateTitle].
 	super initialize.
 	self bindings: MorphicBindingsWithSplitters new.	
 	

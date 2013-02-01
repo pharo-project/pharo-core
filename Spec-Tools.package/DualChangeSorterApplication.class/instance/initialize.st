@@ -8,3 +8,4 @@ initialize
 	isRefreshing := false.
 	
 	self bindings: MorphicBindingsWithSplitters new.
+	SystemAnnouncer uniqueInstance weak on: CurrentChangeSetChanged do: [:each | self updateTitle]

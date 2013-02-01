@@ -1,4 +1,30 @@
 initialization
 openAsMorphMsgCatEditing: editString
 	"Create a pluggable version a Browser on just a message category."
-	^UIManager default openBrowser: self asMorphMsgCatEditing: editString
+
+	| window hSepFrac |
+	window := (SystemWindow labelled: 'later') model: self.
+	hSepFrac := 0.3.
+	window 
+		addMorph: ((PluggableListMorph on: self list: #messageCatListSingleton
+			selected: #indexIsOne changeSelected: #indexIsOne:
+			menu: #messageCategoryMenu:) enableDragNDrop: true)
+		fullFrame: (
+			LayoutFrame 
+				fractions: (0@0 corner: 1@0) 
+				offsets: (0@0 corner: 0@25)
+		).
+	window 
+		addMorph: self buildMorphicMessageList
+		fullFrame: (
+			LayoutFrame 
+				fractions: (0@0 corner: 1@hSepFrac) 
+				offsets: (0@25 corner: 0@0)
+		).
+
+	self 
+		addLowerPanesTo: window 
+		at: (0@hSepFrac corner: 1@1) 
+		with: editString.
+	window setUpdatablePanesFrom: #(messageCatListSingleton messageList).
+	^ window

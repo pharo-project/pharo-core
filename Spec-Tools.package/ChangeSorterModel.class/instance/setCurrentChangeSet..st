@@ -1,4 +1,8 @@
 change set
 setCurrentChangeSet: aChangeSet
 
-	ChangeSet newChanges: aChangeSet
+	| old |
+	old := ChangeSet current. 
+	ChangeSet newChanges: aChangeSet.
+	SystemAnnouncer uniqueInstance announce: (CurrentChangeSetChanged new old: old; new: aChangeSet ; yourself).
+	

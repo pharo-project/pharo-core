@@ -1,4 +1,4 @@
 menu
 openTranscript
 
-	^ UIManager default openTranscript
+	^ self transcript open
