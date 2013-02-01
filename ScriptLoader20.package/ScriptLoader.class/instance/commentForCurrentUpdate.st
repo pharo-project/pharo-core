@@ -1,13 +1,10 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6998:	remove possilbe defaultCanvasClass recursion
-	http://code.google.com/p/pharo/issues/detail?id=6998
+ ^ 'Issue 7002:	Remove old ChangeSorter implementation
+	http://code.google.com/p/pharo/issues/detail?id=7002
 	
-Issue 6997:	Cleanup some unuses SystemNavigation methods...
-	http://code.google.com/p/pharo/issues/detail?id=6997
+Issue 7001:	fix obsoleteReferences in Pharo Kernel
+	http://code.google.com/p/pharo/issues/detail?id=7001
 	
-Issue 6946:	RBParser does not support Pragmas after the temporary declaration
-	http://code.google.com/p/pharo/issues/detail?id=6946
-	
-Issue 6945:	Specialize RBParser to directly generate RBTermporaryNode and RBArgumentNode
-	http://code.google.com/p/pharo/issues/detail?id=694'
+Issue 6999:	cleaning a bit unused methods in DisplayObject hierarchy
+	http://code.google.com/p/pharo/issues/detail?id=6999'

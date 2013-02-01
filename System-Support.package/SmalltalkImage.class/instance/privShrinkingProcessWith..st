@@ -54,6 +54,8 @@ privShrinkingProcessWith: additionalPackageNames
 
     self privCleanUnloadMethods.
 
+    (Smalltalk classNamed: #RPackageOrganizer) unregisterInterestToSystemAnnouncement.
+
     SystemNavigation new removeAllButPackages: self kernelPackageNames, additionalPackageNames.
 
     Smalltalk flushClassNameCache.
@@ -80,6 +82,7 @@ privShrinkingProcessWith: additionalPackageNames
     Smalltalk organization removeEmptyCategories.
 
     WeakArray restartFinalizationProcess.
+    SmalltalkImage current fixObsoleteReferences.
 
     "UIManager default progressBarEnabled: true."
     "Smalltalk condenseChanges."

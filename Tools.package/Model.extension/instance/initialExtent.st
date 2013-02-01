@@ -1,4 +1,4 @@
-*Tools-Changes
+*UI-Basic-menus
 initialExtent
 
 	^ RealEstateAgent standardWindowExtent
