@@ -1,4 +1,4 @@
 settings
 useHistoricalShortcuts
 
-	^ UseHistoricalShortcuts ifNil: [ UseHistoricalShortcuts := true ]
+	^ UseHistoricalShortcuts ifNil: [ UseHistoricalShortcuts := false ]

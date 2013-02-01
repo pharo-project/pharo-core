@@ -8,8 +8,8 @@ systemMethodRecategorizedActionFrom: ann
 		-maybe from an extending package to a classic category
 		- maybe from a classic category to another classic category"
 		
-	|oldProtocol newProtocol method methodPackage destinationPackage|
-	self flag: #cyrille.
+	| oldProtocol newProtocol method methodPackage destinationPackage |
+
 	oldProtocol := ann oldProtocol.
 	"old protocol might be nil:"
 	oldProtocol asString ifNil: [oldProtocol := ''].
@@ -36,7 +36,10 @@ systemMethodRecategorizedActionFrom: ann
 				"according the extension specified is valid or not, the method will be defined as an extension of an external package or in the class parent package"
 				destinationPackage := (self hasPackageForProtocol: newProtocol inClass: method methodClass)
 					ifTrue: [ self packageForProtocol: newProtocol inClass: method methodClass ]
-					ifFalse: [ method methodClass package ].
+					ifFalse: [ 
+						(newProtocol beginsWith: '*')
+							ifTrue: [ self ensureExistAndRegisterPackageNamed: newProtocol allButFirst capitalized ]
+							ifFalse: [ method methodClass package ] ].
 				methodPackage := (self hasPackageForProtocol: oldProtocol inClass: method methodClass)
 					ifTrue: [ self packageForProtocol: oldProtocol inClass: method methodClass ]
 					ifFalse: [ method methodClass package ].

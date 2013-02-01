@@ -19,7 +19,7 @@ initializeFromSystemStartingFromPackageOrganizer
 
 	PackageOrganizer default packages copy
 		do: [ :info |			
-			package := self packageNamed:  info packageName.
+			package := self ensureExistAndRegisterPackageNamed:  info packageName.
 			self importFromPackageInfoPass2: info package: package ]
 		displayingProgress: 'Importing from PackageOrganizer. Pass 2'
 
