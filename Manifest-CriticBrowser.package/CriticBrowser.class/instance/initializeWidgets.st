@@ -2,10 +2,8 @@ initialization
 initializeWidgets
 	
 	title := 'Critic Browser'.
-	
 	rulesModel := self instantiate: TreeModel.
 	criticModel := SingleRuleCriticBrowser new.
-		
 	rulesModel childrenBlock: [:rule | 
 		rule isComposite 
 			ifTrue: [ rule rules ]

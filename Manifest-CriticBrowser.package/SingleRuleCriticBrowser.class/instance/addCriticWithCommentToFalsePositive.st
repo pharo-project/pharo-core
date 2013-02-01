@@ -3,10 +3,8 @@ addCriticWithCommentToFalsePositive
 	
 	| aCritic |
 	aCritic := criticsModel selectedItem.
-	
 	aCritic isNil 
-		ifTrue: [^ self]. 
-	
+		ifTrue: [ ^ self ]. 
 	self addCriticToFalsePositive: aCritic.
 	self  updateList.
 	CommentFalsePositiveWindow openOnCritic: aCritic onRule: rule. 

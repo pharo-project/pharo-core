@@ -4,5 +4,5 @@ setRemoveAllButtonModel
 	removeAllButtonModel
 		state: false;
 		label: 'Remove All';
-		action: [ self  removeAllItems].
+		action: [ self  removeAllItems ].
 	

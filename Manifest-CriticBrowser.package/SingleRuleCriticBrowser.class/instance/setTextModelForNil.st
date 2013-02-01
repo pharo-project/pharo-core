@@ -1,7 +1,7 @@
 initialization
 setTextModelForNil
+
 	| text |
-	
 	text := rule longDescription isEmpty 
 		ifTrue: [rule name]
 		ifFalse:[rule longDescription]. 

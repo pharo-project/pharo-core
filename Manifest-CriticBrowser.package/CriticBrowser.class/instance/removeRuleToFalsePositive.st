@@ -3,11 +3,10 @@ removeRuleToFalsePositive
 
 	| manifestBuilder |
 	rulesModel selectedItem ifNotNil: [ :rule |
-		rule leaves do: [: r |
-			r critics do: [:cl |
+		rule leaves do: [ :r |
+			r critics do: [ :cl |
 				manifestBuilder := checker manifestBuilderOf: cl. 
-				manifestBuilder removeRejectRule: r class uniqueIdentifierName]
-		]].
+				manifestBuilder removeRejectRule: r class uniqueIdentifierName]]].
 	criticModel updateList.
 	
 	

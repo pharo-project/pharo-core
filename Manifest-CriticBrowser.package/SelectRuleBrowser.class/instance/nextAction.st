@@ -1,8 +1,7 @@
 protocol
 nextAction
-	| rules rbRule|
-	self delete.
-	
+	| rules rbRule |
+	self delete.	
 	rules := selectedModel getRoots.
 	rules
 		do: [ :each | 

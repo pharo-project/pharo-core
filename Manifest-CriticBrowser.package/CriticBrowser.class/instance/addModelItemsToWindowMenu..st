@@ -3,10 +3,11 @@ addModelItemsToWindowMenu: aMenu
 	"Add model-related items to the window menu"
 	"super addModelItemsToWindowMenu: aMenu."
 	
-	aMenu addLine;
+	aMenu 
+		addLine;
 		add: 'Clean all manifest'
-		target: checker
-		action: #cleanAllManifest;
+			target: checker
+			action: #cleanAllManifest;
 		add: 'Reapply all  rules'
-		target: self
-		action: #reapplyAllRules
+			target: self
+			action: #reapplyAllRules

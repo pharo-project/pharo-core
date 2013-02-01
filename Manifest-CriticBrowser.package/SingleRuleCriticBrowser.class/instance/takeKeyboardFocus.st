@@ -1,4 +1,4 @@
 private-focus
 takeKeyboardFocus
 
-	^ "self criticsModel" super takeKeyboardFocus
+	^ super takeKeyboardFocus

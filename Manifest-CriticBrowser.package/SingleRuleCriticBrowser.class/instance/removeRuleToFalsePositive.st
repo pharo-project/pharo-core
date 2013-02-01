@@ -2,7 +2,6 @@ menu
 removeRuleToFalsePositive
 
 	| manifestBuilder |
-	
 	criticsModel selectedItems ifNotNil: [ :criticss |
 		criticss do: [ :critic |
 			manifestBuilder := checker manifestBuilderOf: critic.

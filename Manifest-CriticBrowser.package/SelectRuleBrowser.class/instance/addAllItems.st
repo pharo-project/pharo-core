@@ -2,6 +2,5 @@ protocol
 addAllItems
 	
 	toSelectModel getRoots do: [:item |  
-		selectRule addAll: (item leaves)].
-	
-		self updateTree .  	  
+		selectRule addAll: (item leaves) ].
+	self updateTree.  	  

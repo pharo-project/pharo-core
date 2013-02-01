@@ -1,11 +1,9 @@
 menu
 addCriticToToDo
 
-	|  ruleId versionId|
-	
+	|  ruleId versionId |
 	ruleId :=  rule class uniqueIdentifierName.
 	versionId :=   rule class identifierMinorVersionNumber.
-	
 	criticsModel selectedItems 
 		ifNotNil: [:items | 
 			(items groupedBy: [:each | checker manifestBuilderOf: each]) 

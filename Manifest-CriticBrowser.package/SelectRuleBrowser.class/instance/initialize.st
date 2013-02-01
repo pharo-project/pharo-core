@@ -1,7 +1,7 @@
 initialize-release
 initialize
 
-	| wrappingBlock childrenBlockS childrenBlockTS|
+	| wrappingBlock childrenBlockS childrenBlockTS |
 	super initialize.
 	
 	toSelectModel := self instantiate: TreeModel.
@@ -13,7 +13,6 @@ initialize
 			ifTrue: [rule rules select: [ :r |
 					(selectRule anySatisfy:  [:sr | sr = r]) or: [r isComposite] ]]
 			 ifFalse: [{}]]. 
-
 	 childrenBlockTS := [ :rule | 
 		rule isComposite 
 			ifTrue: [rule rules select: [:r |

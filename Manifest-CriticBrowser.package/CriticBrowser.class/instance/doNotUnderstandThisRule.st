@@ -1,7 +1,7 @@
 private
 doNotUnderstandThisRule
-	| ruleId versionId manifestBuilder |
 
+	| ruleId versionId manifestBuilder |
 	ruleId :=  DoNotUnderstandThisRule uniqueIdentifierName.
 	versionId :=  DoNotUnderstandThisRule identifierMinorVersionNumber.
 

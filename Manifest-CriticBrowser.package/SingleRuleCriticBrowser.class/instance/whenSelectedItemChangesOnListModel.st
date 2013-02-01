@@ -12,5 +12,5 @@ whenSelectedItemChangesOnListModel
 					ifFalse: [				
 						(rule result isSelectorEnvironment or: [rule result isMultiEnvironment])
 							ifTrue: [  self setTextModelForMethod: selection]
-							ifFalse:  [ self setTextModelFoClass: selection]]
+							ifFalse:  [ self setTextModelForClass: selection]]
 				])]]

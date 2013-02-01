@@ -1,11 +1,11 @@
 initialization
 initializeTextInputFieldModel
+
 	textInputFieldModel := self instantiate: TextInputFieldModel.
 	textInputFieldModel 
 		autoAccept: true;
 		ghostText: 'Search field';
 		removeEntryCompletion.
-
 	
 	textInputFieldModel acceptBlock: [: text | |matchText|
 		matchText := '*', text, '*'.

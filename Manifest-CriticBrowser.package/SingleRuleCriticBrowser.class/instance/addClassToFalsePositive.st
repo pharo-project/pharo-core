@@ -1,7 +1,7 @@
 menu
 addClassToFalsePositive
 
-	| manifestBuilder|
+	| manifestBuilder |
 	criticsModel selectedItems ifNotNil: [ :items |
 		items do: [ :critic |
 			manifestBuilder := checker manifestBuilderOf: critic.

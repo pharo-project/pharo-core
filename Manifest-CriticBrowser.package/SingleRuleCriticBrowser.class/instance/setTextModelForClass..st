@@ -1,7 +1,7 @@
 initialization
-setTextModelFoClass: cl
-	| interval |
+setTextModelForClass: cl
 
+	| interval |
 	sourceCodeModel aboutToStyle: true.
 	sourceCodeModel text: cl definition.
 	sourceCodeModel behavior: nil .

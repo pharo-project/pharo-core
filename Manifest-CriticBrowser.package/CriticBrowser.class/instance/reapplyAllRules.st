@@ -2,7 +2,6 @@ private
 reapplyAllRules
 	
 	|  ruleCount total  rule |
-	
 	ruleCount := 0.
 	rule := rulesModel getRoots first.
 	total := rule leaves size.

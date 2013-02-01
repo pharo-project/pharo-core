@@ -1,10 +1,9 @@
 private
 bugRule
-	| ruleId versionId manifestBuilder |
 
+	| ruleId versionId manifestBuilder |
 	ruleId :=  BugRule uniqueIdentifierName.
 	versionId :=  BugRule identifierMinorVersionNumber.
-
 	rulesModel selectedItem ifNotNil: [ :rule |
 		manifestBuilder := checker manifestBuilderOf: rule class.
 		(manifestBuilder hasFalsePositiveOf: ruleId version: versionId) 

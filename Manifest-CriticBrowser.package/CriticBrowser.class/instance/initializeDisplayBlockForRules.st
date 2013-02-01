@@ -2,7 +2,6 @@ initialization
 initializeDisplayBlockForRules
 
 	rulesModel displayBlock: [:rule || falsePositives toDos total text |
-
 		falsePositives := (numberOfFalsePositives at: rule ifAbsent: [ 0 ]) .
 		toDos := (numberOfToDos at: rule ifAbsent: [ 0 ]) .
 		total :=   (numberOfProblems at: rule ifAbsent: [ 0 ]) .

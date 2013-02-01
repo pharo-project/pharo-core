@@ -2,8 +2,7 @@ initialization
 initialize
 	"Initialization code for CriticRulesBrowser"
 	
-	 super initialize.
-
+	super initialize.
 	checker := SmalllintManifestChecker new.
 	criticModel checker: checker.	
 	numberOfFalsePositives := Dictionary new.

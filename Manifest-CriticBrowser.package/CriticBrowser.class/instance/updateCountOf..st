@@ -5,7 +5,7 @@ updateCountOf: aRule
 	checker rule: aRule.
 	aRule isComposite 
 		ifTrue: [aRule rules do: [:rule |
-			self updateCountOf:rule].
+			self updateCountOf: rule].
 	numberOfFalsePositives 
 		at: aRule
 		put: (aRule rules inject: 0 into: [:count :each | 

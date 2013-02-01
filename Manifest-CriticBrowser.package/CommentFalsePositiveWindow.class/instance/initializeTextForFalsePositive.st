@@ -1,10 +1,9 @@
 initialization
 initializeTextForFalsePositive
-| ruleId versionId  manifestBuilder|
-		
-	manifestBuilder := 	BuilderManifest on: critic.
+	| ruleId versionId  manifestBuilder|
+	manifestBuilder := BuilderManifest on: critic.
 	ruleId :=  rule class uniqueIdentifierName.
-	versionId :=   rule class identifierMinorVersionNumber.
+	versionId := rule class identifierMinorVersionNumber.
 	
 	(manifestBuilder hasFalsePositiveOf: ruleId version: versionId)
 		ifFalse: [^ self] .
