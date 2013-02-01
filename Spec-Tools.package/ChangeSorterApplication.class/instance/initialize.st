@@ -9,6 +9,6 @@ initialize
 	SystemAnnouncer uniqueInstance weak on: CurrentChangeSetChanged do: [:each | self updateTitle].
 	super initialize.
 	self initializeAnnouncements.
-	self bindings: MorphicBindingsWithSplitters new.	
+	
 	
 	
