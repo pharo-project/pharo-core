@@ -9,4 +9,4 @@ kernelPackageNames
 'Multilingual-TextConversion'  'System-Change Notification' 'System-Changes' 'System-CommandLine' 'System-Clipboard' 
 'System-FileRegistry' 'System-Finalization' 'System-Localization' 'System-Object Events' 'System-Platforms' 
 'System-Support' 'Text-Core' 'Traits' 'UIManager' 'Transcript' 'FileSystem-AnsiStreams' 'FileSystem-Core' 
-'FileSystem-Disk' 'FileSystem-Memory' 'CodeImport' 'Regex-Core' 'SystemProgress' 'System-Announcements' 'Ring-Core-Kernel' 'Ring-Core-Containers')
+'FileSystem-Disk' 'FileSystem-Memory' 'CodeImport' 'Regex-Core' 'SystemProgress' 'System-Announcements' 'Ring-Core-Kernel' 'Ring-Core-Containers' 'Kernel-Pragmas' 'Kernel-Pragmas' 'System-PragmaCollector')

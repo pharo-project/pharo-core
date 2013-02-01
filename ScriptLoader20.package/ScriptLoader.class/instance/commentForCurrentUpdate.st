@@ -1,10 +1,9 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7017:	Code Duplication in UIManager>>#request:regex: and MorphicUIManager>>#request:regex: and
-	http://code.google.com/p/pharo/issues/detail?id=7017
+ ^ 'Issue 7032:	DummySystemProgressItem is used only by UIManger --> move there
+	http://code.google.com/p/pharo/issues/detail?id=7032
 	
-Issue 7020:	Named String Interpolation for String>>#format:
-	http://code.google.com/p/pharo/issues/detail?id=7020
+Issue 7016:	repackage restoreAllNotifications
+	http://code.google.com/p/pharo/issues/detail?id=7016
 	
-Issue 7022:	remove defaultImageHandler and defaultGZipHandler
-	http://code.google.com/p/pharo/issues/detail?id=7022'
+'
