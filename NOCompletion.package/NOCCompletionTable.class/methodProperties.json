@@ -1,14 +1,12 @@
 {
 	"class" : {
 		"classes" : "CamilloBruni 8/4/2012 01:05",
+		"cleanUp" : "MarcusDenker 11/14/2012 13:37",
 		"default" : "rr 4/14/2009 17:13",
-		"initialize" : "EstebanLorenzano 8/3/2012 14:08",
-		"initializeTable" : "rr 4/28/2009 10:18",
-		"initializeWithInlinedMessages" : "rr 4/28/2009 09:54",
-		"initializeWithPackages" : "MarianoMartinezPeck 4/15/2011 12:40",
-		"initializeWithRecentChanges" : "EstebanLorenzano 4/12/2012 11:21",
-		"lookForOB" : "ul 11/6/2010 06:23",
-		"methodChanged:" : "GuillermoPolito 8/3/2012 14:44" },
+		"initialize" : "MarcusDenker 11/14/2012 13:38",
+		"methodChanged:" : "GuillermoPolito 8/3/2012 14:44",
+		"reset" : "MarcusDenker 11/14/2012 13:33",
+		"shutDown" : "MarcusDenker 11/14/2012 13:39" },
 	"instance" : {
 		"addEntry:" : "rr 4/9/2009 17:55",
 		"addEntry:date:" : "rr 4/15/2009 10:52",

@@ -11,7 +11,7 @@ printDetails: strm
 
 	strm cr; tab; nextPutAll: 'Arguments and temporary variables: '; cr.
 	str := [(self tempsAndValuesLimitedTo: 80 indent: 2) 
-				paddRightTo:1 with: $x] ifError: [pe].
+				padRightTo:1 with: $x] ifError: [pe].
 	strm nextPutAll: (str allButLast).
 
 	strm cr; tab; nextPutAll: 'Receiver''s instance variables: '; cr.
