@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NBWin32ShellTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

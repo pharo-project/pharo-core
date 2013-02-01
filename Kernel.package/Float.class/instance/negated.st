@@ -1,5 +1,6 @@
 arithmetic
 negated
-	"Answer a Number that is the negation of the receiver."
+	"Answer a Number that is the negation of the receiver.
+	Implementation note: this version cares of negativeZero."
 
-	^0.0 - self
+	^-1.0 * self

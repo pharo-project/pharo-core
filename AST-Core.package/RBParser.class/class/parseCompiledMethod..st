@@ -1,3 +1,3 @@
 accessing
 parseCompiledMethod: aCompiledMethod
-	^ self parseMethod: aCompiledMethod getSourceFromFile
+	^ self parseMethod: aCompiledMethod sourceCode

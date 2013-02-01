@@ -16,8 +16,8 @@ testNoStaggeredTrigger
 	flag1 := false.
 	category addKeymapEntry: ( KMKeymap named: #Foo shortcut: $a asShortcut, $b asShortcut, $c asShortcut action: [flag1 := true]).
 
-	bm2 := RectangleMorph new.
-	KMRepository default attach: otherCategory to: RectangleMorph.
+	bm2 := Morph new.
+	KMRepository default attach: otherCategory to: Morph.
 	flag2 := false.
 
 	otherCategory addKeymapEntry: (KMKeymap named: #Bar shortcut: $a asShortcut, $b asShortcut action:  [flag2 := true]).

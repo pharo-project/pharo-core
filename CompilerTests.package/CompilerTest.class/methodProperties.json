@@ -14,6 +14,7 @@
 		"testInBlockTempInstanceVariableShadowing" : "jb 7/1/2011 10:45",
 		"testInBlockTempShadowing" : "jb 7/1/2011 10:45",
 		"testInstanceVariableShadowing" : "jb 7/1/2011 10:45",
+		"testNegativeZero" : "nice 12/20/2012 23:37",
 		"testNoShadowing" : "jb 7/1/2011 10:45",
 		"testNotInteractiveInBlockArgumentInstanceVariableShadowing" : "jb 7/1/2011 10:44",
 		"testNotInteractiveInBlockTempArgumentShadowing" : "jb 7/1/2011 10:44",
