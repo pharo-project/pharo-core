@@ -7,7 +7,7 @@ selection
 	selectionIndex = 0 ifTrue: [^ ''].
 	selectionIndex = 1 ifTrue: [^ object].
 	selectionIndex = 2 ifTrue: [^ object longPrintStringLimitedTo: 20000].
-	(selectionIndex - 2) <= object class instSize
+	selectionIndex <= self numberOfFixedFields
 		ifTrue: [^ object instVarAt: selectionIndex - 2].
-	basicIndex := selectionIndex - 2 - object class instSize.
+	basicIndex := selectionIndex - self numberOfFixedFields.
 	^object debuggerMap namedTempAt: basicIndex in: object

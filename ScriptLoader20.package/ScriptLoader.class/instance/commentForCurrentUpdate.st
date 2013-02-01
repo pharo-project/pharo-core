@@ -1,10 +1,10 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6375:	OCompletion uses a lot of memory
-	http://code.google.com/p/pharo/issues/detail?id=6375
+ ^ 'Issue 6971:	Inspector numberOfFixedFields cleanup
+	http://code.google.com/p/pharo/issues/detail?id=6971
 	
-Issue 6966:	LogForImplementor is empty and unused
-	http://code.google.com/p/pharo/issues/detail?id=6966
+Issue 6969:	remove shrinkToCore
+	http://code.google.com/p/pharo/issues/detail?id=6969
 	
-Issue 6968:	temps are note printed in PharoDebug.log
-	http://code.google.com/p/pharo/issues/detail?id=6968'
+Issue 6972:	move UIManager >> theme to Polymorph
+	http://code.google.com/p/pharo/issues/detail?id=6972'
