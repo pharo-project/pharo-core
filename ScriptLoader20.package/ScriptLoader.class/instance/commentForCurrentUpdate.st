@@ -1,12 +1,10 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7000:	Cleanup unused code in BitBlt class
-	http://code.google.com/p/pharo/issues/detail?id=7000
+ ^ 'Issue 7005:	overlapping packages UI and UI-Basic
+	http://code.google.com/p/pharo/issues/detail?id=7005
 	
-Issue 7003:	use ProvideAnswerNotification for DummyUIManager requests
-	http://code.google.com/p/pharo/issues/detail?id=7003
+Issue 7004:	remove ChangeSorter from privCleanUnloadMethods
+	http://code.google.com/p/pharo/issues/detail?id=7004
 	
-Issue 6956:	Some Ring tests are dependent on Monticello
-	http://code.google.com/p/pharo/issues/detail?id=6956
-	
-'
+Issue 6992:	#cleanUpForRelease breaks image
+	http://code.google.com/p/pharo/issues/detail?id=6992'

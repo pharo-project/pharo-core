@@ -3,10 +3,8 @@ cleanUpForRelease
 	"self new cleanUpForRelease"
 
 	Author fullName: 'Mr.Cleaner'.
-	self cleanUpPackageOrganizer.
 	self cleanUpMethods.
 
-	ImageMorph classPool at: #DefaultForm put: (Form extent: 1 @ 1 depth: 1).
 	ExternalDropHandler resetRegisteredHandlers.
 	FreeTypeFontProvider current initialize.
 	SystemNavigation new

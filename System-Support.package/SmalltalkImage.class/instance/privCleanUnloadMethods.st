@@ -3,7 +3,7 @@ privCleanUnloadMethods
 
   " remove class unload methods to avoid their calling during removing of this classes "
 
-  #(#Browser #ChangeList #ChangeSorter #DummySoundSystem #FT2Handle 
+  #(#Browser #ChangeList  #DummySoundSystem #FT2Handle 
   #FileContentsBrowser #GZipReadStream #GZipWriteStream #MCVersionReader 
   #MailComposition #Morph #FreeTypeFontProvider
   #DefaultExternalDropHandler #FileStream #Form) 

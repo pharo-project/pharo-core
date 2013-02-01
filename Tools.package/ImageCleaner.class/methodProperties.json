@@ -5,8 +5,7 @@
 	"instance" : {
 		"classesForCleanUpInProduction" : "MarcusDenker 11/16/2012 16:30",
 		"cleanUpForProduction" : "MarcusDenker 11/16/2012 16:34",
-		"cleanUpForRelease" : "MarcusDenker 11/16/2012 16:28",
+		"cleanUpForRelease" : "md 11/19/2012 10:27",
 		"cleanUpMethods" : "MarcusDenker 11/16/2012 16:31",
-		"cleanUpPackageOrganizer" : "MarcusDenker 11/16/2012 16:28",
 		"fixObsoleteReferences" : "MarcusDenker 11/16/2012 16:32",
 		"packagesForCleanUpInProduction" : "MarcusDenker 11/16/2012 16:27" } }
