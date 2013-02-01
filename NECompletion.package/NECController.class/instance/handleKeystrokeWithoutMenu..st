@@ -14,7 +14,7 @@ handleKeystrokeWithoutMenu: aKeyboardEvent
 			self openMenu.
 			^ true ].
 		
-	(self smartInput: aKeyboardEvent keyValue)
+	(self smartInput: aKeyboardEvent keyCharacter)
 		ifNotNil: [ ^ true ].
 	
 	(aKeyboardEvent anyModifierKeyPressed not 

@@ -1,10 +1,7 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6900:	The changeSorter does not listen and refresh to system events
-	http://code.google.com/p/pharo/issues/detail?id=6900
+ ^ '- Issue 6916:	Fix smart characters to have different behavior depending on space presence. Thanks Stef and Anne :)
+	http://code.google.com/p/pharo/issues/detail?id=6916
 	
-Issue 2030:	Shadowed variables
-	http://code.google.com/p/pharo/issues/detail?id=2030
-	
-Issue 3670:	Fixes for Latin1Environment from EToys
-	http://code.google.com/p/pharo/issues/detail?id=3670'
+-  Issue 6675:	ZnNetworkUtils is not using proxy exceptions. Thanks Santiago and sven.
+	http://code.google.com/p/pharo/issues/detail?id=6675'

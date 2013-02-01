@@ -1,10 +1,11 @@
 keyboard
-smartInput: anInteger 
+smartInput: aCharacter 
 	
-	anInteger = 8
+	
+	aCharacter = Character backspace
 		ifTrue: [ self smartBackspace ifTrue: [ ^ true ]].
 		
 	self smartCharacters 
 		ifFalse: [ ^ nil ].
 	
-	^ self smartCharacter: anInteger asCharacter
+	^ self smartCharacter: aCharacter

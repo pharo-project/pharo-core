@@ -16,7 +16,12 @@ networkSettingsOn: aBuilder
 						description: 'The HTTP proxy port'.
 					(aBuilder setting: #httpProxyServer)
 						label: 'Server' translated;
-						description: 'The HTTP proxy server (i.e. proxy.univ-brest.fr)'].
+						description: 'The HTTP proxy server (i.e. proxy.univ-brest.fr)'.
+					(aBuilder setting: #manageHttpProxyExceptions)
+						label: 'Exceptions' translated;
+						target: NetworkSystemSettings;
+						description: 'Domains to avoid to proxy (separated by ;)'
+				].
 			(aBuilder setting: #useNetworkAuthentification) 
 				label: 'Proxy authentication' translated;
 				noOrdering;

@@ -27,7 +27,10 @@ smartCharacter: aCharacter
 		editor selectFrom: editor startIndex + 1 to: editor startIndex.
 		self invalidateEditorMorph.
 		^ true ].
-	editor replaceSelectionWith: (String with: aCharacter with: opposite).
+	(editor text at: editor startIndex ifAbsent: [ Character space ]) = Character space 
+		ifFalse: [ editor replaceSelectionWith: (String with: aCharacter)]
+		ifTrue: [ editor replaceSelectionWith: (String with: aCharacter with: opposite)].
+		
 	editor selectFrom: editor startIndex + 1 to: editor startIndex.
 	self invalidateEditorMorph.
 	^ true
