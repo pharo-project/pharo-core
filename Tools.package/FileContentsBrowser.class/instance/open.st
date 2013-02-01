@@ -1,5 +1,5 @@
 creation
-openAsMorph
+open
 	"Create a pluggable version of all the views for a Browser, including views and controllers."
 	| window aListExtent next mySingletonList |
 	window := (SystemWindow labelled: 'later') model: self.

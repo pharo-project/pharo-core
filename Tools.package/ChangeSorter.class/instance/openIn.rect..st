@@ -1,5 +1,5 @@
 may be obsolete
-openAsMorphIn: window rect: rect
+openIn: window rect: rect
 	"Add a set of change sorter views to the given top view offset by the given amount. To create a single change sorter, call this once with an offset of 0@0. To create a dual change sorter, call it twice with offsets of 0@0 and 0.5@0."
 
 	| csListHeight msgListHeight csMsgListHeight |

@@ -1,4 +1,4 @@
-*Spec-Core
+accessing
 fractions: fractionsOrNil offsets: offsetsOrNil
 
 	| fractions offsets |

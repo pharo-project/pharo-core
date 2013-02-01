@@ -1,4 +1,4 @@
-*Polymorph-Widgets
+construction
 codePaneProvenanceButton
 	"Answer a button that reports on, and allow the user to modify,
 	the code-pane-provenance setting"

@@ -1,4 +1,4 @@
-*Polymorph-Widgets
+printing
 storeOn: aStream
 	"Store a reconstructable representation of the
 	receiver on the given stream."

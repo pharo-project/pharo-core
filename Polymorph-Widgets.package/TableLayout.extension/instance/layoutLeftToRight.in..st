@@ -1,4 +1,4 @@
-*Polymorph-Widgets-override
+layout
 layoutLeftToRight: aMorph in: newBounds
 	"An optimized left-to-right list layout"
 	| inset extent block posX posY centering extraPerCell amount minX minY maxX maxY n width extra last cell size height sum vFill first |

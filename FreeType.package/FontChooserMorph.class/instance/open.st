@@ -1,3 +1,3 @@
 interface building
-openAsMorph
+open
 	^self createWindow openAsIsIn: self currentWorld

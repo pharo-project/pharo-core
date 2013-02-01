@@ -1,4 +1,4 @@
-*Polymorph-Widgets
+construction
 buttonRowForPreDebugWindow: aDebugWindow
 	"Answer a row of button for a pre-debug notifier."
 	

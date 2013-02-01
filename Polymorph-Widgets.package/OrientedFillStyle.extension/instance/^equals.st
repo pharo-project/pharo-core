@@ -1,4 +1,4 @@
-*Polymorph-Widgets
+comparing
 = anOrientedFillStyle
 	"Answer whether equal."
 

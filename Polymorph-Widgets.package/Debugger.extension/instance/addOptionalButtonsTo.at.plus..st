@@ -1,4 +1,4 @@
-*Polymorph-Widgets
+construction
 addOptionalButtonsTo: window at: fractions plus: verticalOffset 
 	"Add button panes to the window. A row of custom
 	debugger-specific buttons (Proceed, Restart, etc.) is always

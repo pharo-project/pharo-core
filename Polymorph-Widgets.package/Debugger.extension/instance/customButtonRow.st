@@ -1,4 +1,4 @@
-*Polymorph-Widgets
+construction
 customButtonRow
 	"Answer a button pane affording the user one-touch access to certain functions; the pane is given the formal name 'customButtonPane' by which it can be retrieved by code wishing to send messages to widgets residing on the pane"
 

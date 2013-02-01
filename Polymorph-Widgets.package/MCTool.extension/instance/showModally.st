@@ -1,4 +1,4 @@
-*Polymorph-Widgets-override
+morphic ui
 showModally
 	| tb |
 	modal := true.

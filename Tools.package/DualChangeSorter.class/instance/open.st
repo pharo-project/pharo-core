@@ -1,3 +1,3 @@
 initialization
 open
-	^ self openAsMorph.
+	^ self morphicWindow openInWorld

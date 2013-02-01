@@ -1,4 +1,4 @@
-*Polymorph-Widgets
+comparing
 = anGradientFillStyle
 	"Answer whether equal."
 

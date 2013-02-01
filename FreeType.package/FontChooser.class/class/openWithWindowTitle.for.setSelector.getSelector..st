@@ -14,6 +14,6 @@ openWithWindowTitle: titleString for: anObject setSelector: setSelector getSelec
 		"position: self currentWorld primaryHand position;"
 		position: ((World width-640)/2)@((World height-480)/2);
 		extent: 640@480;
-		openAsMorph.
+		open.
 	^windowMorph
  

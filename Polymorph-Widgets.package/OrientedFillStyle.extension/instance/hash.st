@@ -1,4 +1,4 @@
-*Polymorph-Widgets
+comparing
 hash
 	"Hash is implemented because #= is implemented."
 	

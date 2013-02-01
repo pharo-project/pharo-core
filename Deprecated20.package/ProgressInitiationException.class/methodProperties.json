@@ -1,10 +1,6 @@
 {
 	"class" : {
-		"display:at:from:to:during:" : "ajh 1/22/2003 23:51",
-		"testInnermost" : "SeanDeNigris 6/21/2012 08:41",
-		"testWith" : "SeanDeNigris 6/21/2012 00:26",
-		"testWithAdditionalInfo" : "RAA 5/15/2000 12:04",
-		"testWithout" : "RAA 5/15/2000 15:45" },
+		"display:at:from:to:during:" : "ajh 1/22/2003 23:51" },
 	"instance" : {
 		"defaultAction" : "CamilloBruni 8/30/2012 16:15",
 		"display:at:from:to:during:" : "RAA 5/15/2000 11:43",

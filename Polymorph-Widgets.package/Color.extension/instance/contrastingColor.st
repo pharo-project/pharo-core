@@ -1,4 +1,4 @@
-*Polymorph-Widgets
+conversions
 contrastingColor
 	"Answer black or white depending on the luminance."
 

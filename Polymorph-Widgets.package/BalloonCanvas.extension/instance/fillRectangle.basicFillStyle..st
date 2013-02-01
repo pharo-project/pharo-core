@@ -1,4 +1,4 @@
-*Polymorph-Widgets
+balloon drawing
 fillRectangle: aRectangle basicFillStyle: aFillStyle
 	"Fill the given rectangle with the given, non-composite, fill style."
 	

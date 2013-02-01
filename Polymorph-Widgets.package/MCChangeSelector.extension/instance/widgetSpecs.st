@@ -1,4 +1,4 @@
-*Polymorph-Widgets-override
+as yet unclassified 
 widgetSpecs
 	MCCodeTool showAnnotationPane ifFalse: [ ^#(
 		((buttonRow) (0 0 1 0) (0 0 0 30))
