@@ -1,7 +1,8 @@
 {
 	"class" : {
 		"open" : "zork 6/5/2011 12:31",
-		"patchworkUIThemeColor" : "AlainPlantec 12/16/2009 22:10" },
+		"patchworkUIThemeColor" : "AlainPlantec 12/16/2009 22:10",
+		"registerToolsOn:" : "MarcusDenker 12/3/2012 18:18" },
 	"instance" : {
 		"addDeclaredPackagesUnderTestTo:" : "nice 10/20/2009 21:08",
 		"addMethodsUnderTestIn:to:" : "StephaneDucasse 8/9/2011 17:51",

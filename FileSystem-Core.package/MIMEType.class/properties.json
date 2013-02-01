@@ -1,5 +1,5 @@
 {
-	"category" : "Network-MIME",
+	"category" : "FileSystem-Core-MIME",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
