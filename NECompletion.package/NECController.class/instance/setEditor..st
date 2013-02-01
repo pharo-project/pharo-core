@@ -1,4 +1,4 @@
 private
 setEditor: anObject
 	editor := anObject.
-	editor morph on: MorphLostFocus send: #closeMenu to: self.
+	editor morph onAnnouncement: MorphLostFocus do:  [self closeMenu ].
