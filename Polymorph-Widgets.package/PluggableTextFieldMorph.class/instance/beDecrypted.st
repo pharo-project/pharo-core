@@ -1,5 +1,5 @@
-encryption
+*keychain
 beDecrypted
 
-	textMorphClass := TextMorphForFieldView.
+	self textMorph font: TextStyle defaultFont.
 	self updateTextMorph

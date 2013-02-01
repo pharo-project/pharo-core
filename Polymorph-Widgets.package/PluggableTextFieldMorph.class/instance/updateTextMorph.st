@@ -1,4 +1,4 @@
-private
+*keychain
 updateTextMorph
 	| text |
 	

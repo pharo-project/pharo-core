@@ -1,6 +1,6 @@
-encryption
+*keychain
 encrypted: aBoolean
 
-	aBoolean 
+	aBoolean
 		ifTrue: [ self beEncrypted ]
 		ifFalse: [ self beDecrypted ]
