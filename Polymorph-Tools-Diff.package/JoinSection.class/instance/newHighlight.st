@@ -5,4 +5,4 @@ newHighlight
 	^TextHighlightByBounds new
 		borderWidth: 1;
 		borderColor: self borderColor;
-		fillWidth: false
+		fillWidth: true

@@ -1,0 +1,14 @@
+{
+	"category" : "Tools-Inspector",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "FloatInspector",
+	"pools" : [
+		 ],
+	"super" : "Inspector",
+	"type" : "normal" }

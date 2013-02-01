@@ -22,7 +22,7 @@
 		"extent:" : "AlainPlantec 10/10/2011 19:33",
 		"extraScrollRange" : "JW 2/21/2001 22:06",
 		"flatColoredScrollBarLook" : "AlainPlantec 12/17/2009 11:16",
-		"getMenu:" : "GuillermoPolito 5/29/2011 14:52",
+		"getMenu:" : "BenjaminVanRyseghem 11/25/2012 03:01",
 		"hExtraScrollRange" : "sps 12/24/2002 00:13",
 		"hHideOrShowScrollBar" : "sps 12/25/2002 01:10",
 		"hHideScrollBar" : "sps 3/10/2004 12:08",
@@ -108,5 +108,5 @@
 		"vShowScrollBar" : "sps 3/10/2004 13:22",
 		"vTotalScrollRange" : "sps 3/10/2004 11:06",
 		"vUnadjustedScrollRange" : "sps 12/25/2002 14:43",
-		"wantsYellowButtonMenu" : "dgd 9/18/2004 18:29",
+		"wantsYellowButtonMenu" : "BenjaminVanRyseghem 11/25/2012 02:41",
 		"yellowButtonActivity:" : "CamilloBruni 2/4/2012 14:44" } }
