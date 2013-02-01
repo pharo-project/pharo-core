@@ -1,3 +1,3 @@
-tools registry
+browse
 open
 	^ self new morphicWindow openInWorld

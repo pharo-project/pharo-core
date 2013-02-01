@@ -1,7 +1,11 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6710:	RPackage duplication of extensions
-	http://code.google.com/p/pharo/issues/detail?id=6710
+ ^ 'Issue 6890:	new changesorters should be registered in ToolRegistery
+	http://code.google.com/p/pharo/issues/detail?id=6890
 	
-Issue 6888:	Remove HierarchyBrowser from ToolRegistry
-	http://code.google.com/p/pharo/issues/detail?id=6888'
+Issue 6889:	Remove old classListBrowser
+	http://code.google.com/p/pharo/issues/detail?id=6889
+	
+ChangeSorterApplication registerToolsOn: Smalltalk tools.
+DualChangeSorterApplication registerToolsOn: Smalltalk tools.
+Smalltalk tools remove: #classListBrowser.'

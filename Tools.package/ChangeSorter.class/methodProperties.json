@@ -1,10 +1,8 @@
 {
 	"class" : {
-		"browseChangeSetsWithClass:selector:" : "MarcusDenker 10/13/2012 18:09",
 		"initialize" : "StephaneDucasse 9/9/2010 09:56",
 		"open" : "IgorStasenko 2/19/2011 03:56",
 		"patchworkUIThemeColor" : "AlainPlantec 12/16/2009 22:08",
-		"registerToolsOn:" : "IgorStasenko 2/19/2011 03:02",
 		"reorderChangeSets" : "StephaneDucasse 3/30/2010 23:04",
 		"unload" : "AlainPlantec 10/17/2009 16:42" },
 	"instance" : {
@@ -21,7 +19,6 @@
 		"checkForAlienAuthorship" : "sw 10/30/2000 10:48",
 		"checkForAnyAlienAuthorship" : "nk 3/30/2002 08:56",
 		"checkForUnclassifiedMethods" : "sw 3/29/2001 12:47",
-		"checkForUncommentedClasses" : "sw 7/18/2002 17:58",
 		"checkForUncommentedMethods" : "sw 10/30/2000 10:39",
 		"checkForUnsentMessages" : "sw 10/27/1999 14:20",
 		"checkThatSidesDiffer:" : "sw 7/8/1999 13:36",
