@@ -1,4 +1,4 @@
-*Nautilus-Common
+*NautilusCommon
 correspondingForTest
 	"Return the unit test that correspond to me. If it does not exist, it returns myself. 
 	 Return the tested class if sent to a class"

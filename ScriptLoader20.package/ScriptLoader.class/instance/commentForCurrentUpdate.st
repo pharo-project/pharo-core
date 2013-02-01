@@ -1,16 +1,10 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6929:	Undeclared ManifestManifestResourcesTests
-	http://code.google.com/p/pharo/issues/detail?id=6929
+ ^ 'Issue 6975:	move some RGMethodDefinition to Ring-Monticello package
+	http://code.google.com/p/pharo/issues/detail?id=6975
 	
-Issue 6982:	debugging an empty method raises an error
-	http://code.google.com/p/pharo/issues/detail?id=6982
+Issue 6973:	two ClassDescription>> #correspondingForTest issues
+	http://code.google.com/p/pharo/issues/detail?id=6973
 	
-Issue 6979:	LoggingSystemProgressItemMorph and Job>>#loggingProgress shuld be deprecate
-	http://code.google.com/p/pharo/issues/detail?id=6979
-	
-Issue 6980:	direct use of RecentMessageList
-	http://code.google.com/p/pharo/issues/detail?id=6980
-	
-Issue 6976:	move asUrl to Network-Url package
-	http://code.google.com/p/pharo/issues/detail?id=6976'
+Issue 6970:	Morphic dependency in checkBasicClasses
+	http://code.google.com/p/pharo/issues/detail?id=6970'

@@ -1,4 +1,4 @@
-conversion
+*Ring-Monticello
 basicAsMCMethodDefinition
    "Creates a MCMethodDefinition from the receiver"
    self isActive ifTrue: [ 

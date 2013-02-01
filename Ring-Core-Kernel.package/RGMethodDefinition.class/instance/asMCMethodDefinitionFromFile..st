@@ -1,4 +1,4 @@
-conversion
+*Ring-Monticello
 asMCMethodDefinitionFromFile: file
 	"Creates a MCMethodDefinition from a source file assuming the current metod isActive.
 	This is significantly faster than the asMCMethodDefinition as it does not open the source file pointer twice; for the sourceCode and the timeStamp"

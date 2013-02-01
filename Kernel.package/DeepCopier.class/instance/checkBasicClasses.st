@@ -7,8 +7,5 @@ checkBasicClasses
 	str := '|veryDeepCopyWith: or veryDeepInner: is out of date.'.
 	Object instSize = 0 ifFalse: [self error: 
 			'Many implementers of veryDeepCopyWith: are out of date'].
-	Morph superclass == Object ifFalse: [self error: 'Morph', str].
-	(Morph instVarNames copyFrom: 1 to: 6) = #('bounds' 'owner' 'submorphs' 
-				'fullBounds' 'color' 'extension') 
-			ifFalse: [self error: 'Morph', str].	"added ones are OK"
+
 
