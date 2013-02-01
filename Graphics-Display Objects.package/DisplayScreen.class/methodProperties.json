@@ -23,8 +23,6 @@
 		"copyBits:from:at:clippingBox:rule:fillColor:" : "ar 5/28/2000 12:07",
 		"copyBits:from:at:clippingBox:rule:fillColor:map:" : "ar 5/28/2000 12:07",
 		"copyFrom:" : "di 3/3/1999 10:00",
-		"defaultBitBltClass" : "ar 5/28/2000 12:01",
-		"defaultWarpBltClass" : "ar 5/28/2000 12:01",
 		"deferUpdates:" : "GuillermoPolito 5/1/2012 14:31",
 		"deferUpdatesIn:while:" : "MarianoMartinezPeck 5/23/2012 13:38",
 		"displayChangeSignature" : "RAA 11/27/1999 15:48",

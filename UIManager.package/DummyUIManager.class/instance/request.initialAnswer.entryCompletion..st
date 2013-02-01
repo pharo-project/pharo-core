@@ -1,4 +1,4 @@
 ui requests
-request: queryString initialAnswer: defaultAnswer entryCompletion: anEntryCompletion
-
-	^ defaultAnswer
+request: aStringOrText initialAnswer: defaultAnswer entryCompletion: anEntryCompletion
+	
+	^ self request: aStringOrText initialAnswer: defaultAnswer title: 'Information Required' translated entryCompletion: anEntryCompletion
