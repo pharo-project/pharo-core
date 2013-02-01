@@ -1,3 +1,3 @@
-initialize-release
+initialization
 unregister
 	SystemAnnouncer uniqueInstance unsubscribe: self.

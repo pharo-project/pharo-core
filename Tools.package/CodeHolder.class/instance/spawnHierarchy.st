@@ -7,7 +7,7 @@ spawnHierarchy
 		ifNil: [^ self].
 	selectedClassOrMetaClass isTrait
 		ifTrue: [^ self].
-	newBrowser := Smalltalk tools hierarchyBrowser new initHierarchyForClass: selectedClassOrMetaClass.
+	newBrowser := HierarchyBrowser new initHierarchyForClass: selectedClassOrMetaClass.
 	((aSymbol := self selectedMessageName) notNil
 			and: [(Smalltalk tools messageList isPseudoSelector: aSymbol) not])
 		ifTrue: [aBehavior := selectedClassOrMetaClass.

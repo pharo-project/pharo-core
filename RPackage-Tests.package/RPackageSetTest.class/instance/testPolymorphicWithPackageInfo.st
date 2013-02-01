@@ -10,7 +10,7 @@ testPolymorphicWithPackageInfo
 	
 	self assert: (self equalElementsBetween: packageSet classes and: packageInfo classes). 
 	self assert: (self equalElementsBetween: packageSet systemCategories and: packageInfo systemCategories).
-	self assert: (self equalElementsBetween: packageSet methods and: packageInfo methods).
+	self assert: (self equalElementsBetween: packageSet methods and: packageInfo methods asSet). "PackageInfo includes duplicates"
 	self assert: (self equalElementsBetween: packageSet overriddenMethods and: packageInfo overriddenMethods).
 	self assert: (self equalElementsBetween: packageSet definedClasses and: packageInfo definedClasses).
 	self assert: (self equalElementsBetween: packageSet extensionMethods and: packageInfo extensionMethods).

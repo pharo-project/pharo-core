@@ -5,5 +5,5 @@ packageForProtocol: aProtocolName inClass: aClass
 	|tmpProtocol|
 	tmpProtocol := aProtocolName ifNil: [''].
 	^ (tmpProtocol beginsWith: '*')
-		ifTrue: [  (self packageMatchingExtensionName:  (tmpProtocol copyWithout: $*)) ]
+		ifTrue: [  (self packageMatchingExtensionName: (tmpProtocol copyWithout: $*)) ]
 		ifFalse: [ aClass package ]

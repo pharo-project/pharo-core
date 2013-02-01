@@ -1,7 +1,6 @@
 {
 	"class" : {
-		"newFor:" : "IgorStasenko 3/6/2011 18:54",
-		"registerToolsOn:" : "IgorStasenko 4/26/2011 16:49" },
+		"newFor:" : "IgorStasenko 3/6/2011 18:54" },
 	"instance" : {
 		"assureSelectionsShow" : "sd 11/20/2005 21:27",
 		"buildClassBrowserEditString:" : "tk 4/7/98 13:53",
