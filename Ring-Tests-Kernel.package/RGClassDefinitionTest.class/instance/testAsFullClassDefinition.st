@@ -1,4 +1,4 @@
-testing
+*Ring-Tests-Monticello
 testAsFullClassDefinition
 	"self debug: #testAsFullClassDefinition"
 	

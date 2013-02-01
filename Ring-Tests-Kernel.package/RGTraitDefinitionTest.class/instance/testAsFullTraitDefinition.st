@@ -1,4 +1,4 @@
-testing
+*Ring-Tests-Monticello
 testAsFullTraitDefinition
 	"self debug: #testAsFullTraitDefinition"
 	

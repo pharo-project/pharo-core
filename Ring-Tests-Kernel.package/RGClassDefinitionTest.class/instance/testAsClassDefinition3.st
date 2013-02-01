@@ -1,4 +1,4 @@
-testing
+*Ring-Tests-Monticello
 testAsClassDefinition3
 
 	| newClass newSlice |
