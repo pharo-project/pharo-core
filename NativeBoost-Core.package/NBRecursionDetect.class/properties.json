@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Core-Errors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"method" ],
+	"name" : "NBRecursionDetect",
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"type" : "normal" }

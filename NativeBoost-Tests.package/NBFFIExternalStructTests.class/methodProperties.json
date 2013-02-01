@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"returnStruct1Byte" : "IgorStasenko 11/24/2012 17:17",
+		"returnStruct9Bytes" : "IgorStasenko 11/24/2012 17:18",
+		"testNestedStructure" : "IgorStasenko 9/3/2012 02:33",
+		"testReturnStruct1Byte" : "IgorStasenko 9/3/2012 02:33",
+		"testReturnStruct9Bytes" : "IgorStasenko 11/24/2012 17:53" } }

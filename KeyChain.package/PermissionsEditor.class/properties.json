@@ -1,0 +1,25 @@
+{
+	"category" : "KeyChain-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"canBrowse",
+		"canDebug",
+		"canDropOSFile",
+		"canEditCode",
+		"canEditUser",
+		"canEvaluateCode",
+		"canInspect",
+		"canRunStartupScript",
+		"canShowMorphHalo",
+		"user",
+		"isRoot",
+		"lock" ],
+	"name" : "PermissionsEditor",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }

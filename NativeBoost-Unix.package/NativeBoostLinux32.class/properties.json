@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Unix",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"heap" ],
+	"name" : "NativeBoostLinux32",
+	"pools" : [
+		"NBUnixConstants" ],
+	"super" : "NativeBoost",
+	"type" : "normal" }

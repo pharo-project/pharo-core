@@ -1,0 +1,3 @@
+accessing
+selectedIndex
+	^ selectedIndex contents

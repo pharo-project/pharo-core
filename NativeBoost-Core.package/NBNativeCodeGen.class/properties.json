@@ -1,0 +1,18 @@
+{
+	"category" : "NativeBoost-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DebugOn" ],
+	"commentStamp" : "IgorStasenko 2/15/2012 19:49",
+	"instvars" : [
+		"asm",
+		"proxy",
+		"options",
+		"method" ],
+	"name" : "NBNativeCodeGen",
+	"pools" : [
+		"AJx86Registers",
+		"NativeBoostConstants" ],
+	"super" : "Object",
+	"type" : "normal" }

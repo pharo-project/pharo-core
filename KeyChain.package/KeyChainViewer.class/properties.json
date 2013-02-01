@@ -1,0 +1,19 @@
+{
+	"category" : "KeyChain-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"add",
+		"edit",
+		"keychain",
+		"list",
+		"remove",
+		"ok" ],
+	"name" : "KeyChainViewer",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Core-Objects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NBQSortCallback",
+	"pools" : [
+		 ],
+	"super" : "NBFFICallback",
+	"type" : "normal" }

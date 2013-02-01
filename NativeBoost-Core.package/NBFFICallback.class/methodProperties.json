@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"asNBExternalType:" : "Igor.Stasenko 5/13/2010 23:33",
+		"callType" : "IgorStasenko 9/15/2012 14:24",
+		"callbackEnterAddress" : "IgorStasenko 5/8/2012 16:04",
+		"callbackEnterMethod" : "IgorStasenko 5/7/2012 13:47",
+		"callbackLeaveAddress" : "IgorStasenko 5/8/2012 16:05",
+		"checkSession" : "IgorStasenko 5/8/2012 16:06",
+		"finalizeResourceData:" : "IgorStasenko 9/15/2012 14:18",
+		"fnSpec" : "IgorStasenko 9/16/2012 17:20",
+		"installCallbackCode" : "IgorStasenko 5/8/2012 16:53",
+		"new" : "Igor.Stasenko 5/13/2010 22:40",
+		"numArgs:" : "IgorStasenko 5/7/2012 13:40",
+		"numberOfArguments" : "Igor.Stasenko 5/11/2010 02:35",
+		"on:" : "Igor.Stasenko 5/13/2010 22:43",
+		"reset" : "IgorStasenko 5/8/2012 16:06",
+		"trunkCode" : "IgorStasenko 5/8/2012 03:04" },
+	"instance" : {
+		"block:" : "Igor.Stasenko 5/13/2010 22:38",
+		"initialize" : "IgorStasenko 9/15/2012 20:07",
+		"installTrunk" : "IgorStasenko 11/24/2012 15:44",
+		"primLeave:stackPtr:contextOop:returnValue:primitiveMethod:" : "IgorStasenko 9/15/2012 14:21",
+		"pvtEnter:stackPointer:primitiveMethod:" : "IgorStasenko 5/8/2012 16:09" } }

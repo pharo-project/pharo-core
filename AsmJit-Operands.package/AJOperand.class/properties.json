@@ -1,0 +1,18 @@
+{
+	"category" : "AsmJit-Operands",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"data",
+		"compilerData",
+		"operandId",
+		"x64padding",
+		"annotation" ],
+	"name" : "AJOperand",
+	"pools" : [
+		"AJConstants" ],
+	"super" : "Object",
+	"type" : "normal" }

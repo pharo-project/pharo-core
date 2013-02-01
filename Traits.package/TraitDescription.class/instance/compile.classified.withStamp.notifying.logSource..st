@@ -11,9 +11,8 @@ compile: text classified: category withStamp: changeStamp notifying: requestor l
 		ifFail: [ ^ nil ].
 		
 	logSource ifTrue: [
-		" replace 'text' with 'methodAndNode node sourceText' "
 		self 
-			logMethodSource: methodAndNode node sourceText 
+			logMethodSource: methodAndNode node sourceCode 
 			forMethodWithNode: methodAndNode
 			inCategory: category 
 			withStamp: changeStamp 

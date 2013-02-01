@@ -1,0 +1,4 @@
+private
+itemHalfOffSet
+
+	^ 1

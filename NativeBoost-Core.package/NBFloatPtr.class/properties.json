@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Core-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "IgorStasenko 12/21/2011 13:43",
+	"instvars" : [
+		 ],
+	"name" : "NBFloatPtr",
+	"pools" : [
+		 ],
+	"super" : "NBExternalType",
+	"type" : "normal" }

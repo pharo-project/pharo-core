@@ -1,0 +1,4 @@
+private
+resetSelectionIndexes
+
+	selectedIndexes removeAll

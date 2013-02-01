@@ -1,0 +1,4 @@
+accessing
+stackIndex
+
+	^stackIndex

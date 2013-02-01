@@ -1,0 +1,14 @@
+{
+	"category" : "AsmJit-StackManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"callInfo" ],
+	"name" : "AJStackInstruction",
+	"pools" : [
+		 ],
+	"super" : "AJInstruction",
+	"type" : "normal" }

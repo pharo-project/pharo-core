@@ -1,0 +1,20 @@
+{
+	"category" : "NativeBoost-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selector",
+		"retType",
+		"arguments",
+		"index",
+		"majorVersion",
+		"minorVersion",
+		"requiresAlignment" ],
+	"name" : "NBProxyFunction",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

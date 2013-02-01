@@ -1,0 +1,3 @@
+register
+accumulator
+	^ RAX

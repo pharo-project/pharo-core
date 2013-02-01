@@ -1,0 +1,20 @@
+{
+	"category" : "NewList",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"itemHeight",
+		"listSource",
+		"maxWidth",
+		"hasHeader",
+		"potentialDropIndex",
+		"steppingTime",
+		"mouseDownIndex" ],
+	"name" : "NewListRenderer",
+	"pools" : [
+		 ],
+	"super" : "ScrollPane",
+	"type" : "normal" }

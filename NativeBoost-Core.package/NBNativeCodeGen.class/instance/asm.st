@@ -1,0 +1,4 @@
+accessing
+asm
+
+	^ asm

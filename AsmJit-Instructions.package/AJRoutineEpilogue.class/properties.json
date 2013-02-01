@@ -1,0 +1,14 @@
+{
+	"category" : "AsmJit-Instructions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AJRoutineEpilogue",
+	"pools" : [
+		 ],
+	"super" : "AJInstruction",
+	"type" : "normal" }

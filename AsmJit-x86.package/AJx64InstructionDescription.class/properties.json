@@ -1,0 +1,14 @@
+{
+	"category" : "AsmJit-x86-Instructions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AJx64InstructionDescription",
+	"pools" : [
+		 ],
+	"super" : "AJx86InstructionDescription",
+	"type" : "normal" }

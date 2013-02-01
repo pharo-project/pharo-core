@@ -1,0 +1,4 @@
+callbacks
+integerConstantArgument: int
+
+	^ #integerConstant

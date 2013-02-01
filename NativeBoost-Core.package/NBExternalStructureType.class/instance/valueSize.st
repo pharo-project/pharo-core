@@ -1,0 +1,3 @@
+accessing
+valueSize 
+	^ objectClass instanceSize 

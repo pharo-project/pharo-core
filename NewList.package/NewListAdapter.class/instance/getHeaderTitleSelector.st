@@ -1,0 +1,4 @@
+accessing
+getHeaderTitleSelector
+
+	^ getHeaderTitleSelector contents

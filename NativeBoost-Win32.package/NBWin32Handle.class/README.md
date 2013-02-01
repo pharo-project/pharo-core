@@ -1,0 +1,1 @@
+Instances of this class represent a reference value to a Win32 resource (file, window, ...)

@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"CFramePointerAddress" : "IgorStasenko 9/20/2012 21:40",
+		"CStackPointerAddress" : "IgorStasenko 5/7/2012 12:36",
+		"activateCallbackContext:" : "IgorStasenko 9/15/2012 14:36",
+		"decrementCallbackCounter" : "IgorStasenko 5/7/2012 12:48",
+		"emitArgumentsCoercion" : "IgorStasenko 9/15/2012 19:53",
+		"enterSmalltalkExecutiveImplementation" : "IgorStasenko 5/7/2012 18:29",
+		"generateCallbackEnterCodeFor:" : "IgorStasenko 5/8/2012 16:48",
+		"generateCallbackLeaveCodeFor:leaveAddr:" : "IgorStasenko 5/10/2012 15:20",
+		"generator:" : "IgorStasenko 5/7/2012 22:31",
+		"incrementCallbackCounter" : "IgorStasenko 5/7/2012 12:48",
+		"memCopy:to:size:" : "IgorStasenko 9/10/2012 13:26",
+		"primJumpBufSize" : "IgorStasenko 9/10/2012 12:23",
+		"reenterInterpreterAddress" : "IgorStasenko 9/10/2012 12:49",
+		"restoreExecutionState" : "IgorStasenko 9/15/2012 19:54",
+		"saveExecutionState" : "IgorStasenko 9/15/2012 19:50" } }

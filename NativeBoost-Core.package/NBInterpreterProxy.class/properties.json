@@ -1,0 +1,22 @@
+{
+	"category" : "NativeBoost-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"CogFunctions",
+		"Functions" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"gen",
+		"asm",
+		"objectFormat",
+		"usedGate",
+		"stackPtrAddress",
+		"framePtrAddress",
+		"cStackPtrAddress",
+		"cFramePtrAddress" ],
+	"name" : "NBInterpreterProxy",
+	"pools" : [
+		"AJx86Registers" ],
+	"super" : "Object",
+	"type" : "normal" }

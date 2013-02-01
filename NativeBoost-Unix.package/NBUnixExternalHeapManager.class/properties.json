@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Unix",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Igor.Stasenko 9/26/2010 04:05",
+	"instvars" : [
+		 ],
+	"name" : "NBUnixExternalHeapManager",
+	"pools" : [
+		"NBUnixConstants" ],
+	"super" : "NBExternalHeapManager",
+	"type" : "normal" }

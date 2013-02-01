@@ -1,0 +1,17 @@
+{
+	"category" : "NativeBoost-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"list",
+		"items",
+		"nextFreeIndex",
+		"sema" ],
+	"name" : "NBFinalizationRegistry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

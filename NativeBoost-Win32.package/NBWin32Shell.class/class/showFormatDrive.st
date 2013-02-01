@@ -1,0 +1,7 @@
+control panel applets
+showFormatDrive
+	"
+	self showFormatDrive
+	"
+
+	^self shellRunDLL: 'shell32.dll,SHFormatDrive'

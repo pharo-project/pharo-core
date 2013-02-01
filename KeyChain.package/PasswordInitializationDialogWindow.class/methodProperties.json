@@ -1,0 +1,26 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"autoAccept" : "BenjaminVanRyseghem 5/9/2012 23:30",
+		"beDecrypted" : "BenjaminVanRyseghem 5/10/2012 23:45",
+		"beEncrypted" : "BenjaminVanRyseghem 5/10/2012 23:45",
+		"buildInvalidPasswordLabel" : "BenjaminVanRyseghem 5/11/2012 15:58",
+		"confirmationTextEditorMorph" : "BenjaminVanRyseghem 5/7/2012 11:29",
+		"confirmationTextEditorMorph:" : "BenjaminVanRyseghem 5/7/2012 11:29",
+		"confirmationTextMorph" : "BenjaminVanRyseghem 5/7/2012 11:32",
+		"confirmationTextMorph:" : "BenjaminVanRyseghem 5/7/2012 11:32",
+		"defaultLabel" : "BenjaminVanRyseghem 5/9/2012 23:09",
+		"enteredValue" : "BenjaminVanRyseghem 5/10/2012 13:32",
+		"initialize" : "BenjaminVanRyseghem 5/9/2012 23:30",
+		"invalidPasswordLabel" : "BenjaminVanRyseghem 5/11/2012 15:55",
+		"newConfirmationTextMorph" : "BenjaminVanRyseghem 5/7/2012 11:40",
+		"newContentMorph" : "BenjaminVanRyseghem 5/11/2012 15:57",
+		"newTextEditorMorph" : "BenjaminVanRyseghem 5/7/2012 11:28",
+		"newTextMorph" : "BenjaminVanRyseghem 5/9/2012 23:07",
+		"ok" : "BenjaminVanRyseghem 5/11/2012 16:06",
+		"setInvalidLabel" : "BenjaminVanRyseghem 5/11/2012 16:04",
+		"setInvalidLabel:" : "BenjaminVanRyseghem 5/11/2012 15:58",
+		"showPassword" : "BenjaminVanRyseghem 5/10/2012 23:44",
+		"showPassword:" : "BenjaminVanRyseghem 5/10/2012 23:44",
+		"showPasswordButton" : "BenjaminVanRyseghem 5/10/2012 23:44" } }

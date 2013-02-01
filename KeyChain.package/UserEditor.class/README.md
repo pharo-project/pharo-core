@@ -1,0 +1,1 @@
+An UserEditor is a GUI for editing a user profile

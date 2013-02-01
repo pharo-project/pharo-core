@@ -1,0 +1,17 @@
+{
+	"category" : "KeyChain-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"confirmationTextEditorMorph",
+		"confirmationTextMorph",
+		"showPassword",
+		"container" ],
+	"name" : "PasswordInitializationDialogWindow",
+	"pools" : [
+		 ],
+	"super" : "TextEntryDialogWindow",
+	"type" : "normal" }

@@ -1,0 +1,18 @@
+{
+	"category" : "KeyChain",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"avatar",
+		"username",
+		"keychain",
+		"unlockedKeychain",
+		"permissions" ],
+	"name" : "PharoUser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

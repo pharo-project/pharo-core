@@ -1,0 +1,19 @@
+instructions generated
+movddup: aRegisterOrMemory1 with: aRegisterOrMemory2
+	"Move One Double-FP and Duplicate
+	Description
+-----------
+The linear address corresponds to the address of the least-significant
+byte of the referenced memory data. When a memory address is indicated,
+the 8 bytes of data at memory location m64 are loaded. When the
+register-register form of this operation is used, the lower half of the
+128-bit source register is duplicated and copied into the 128-bit
+destination register.
+
+In 64-bit mode, use of the REX.R prefix permits this instruction to
+access additional registers (XMM8-XMM15).
+
+"
+	^ self 
+		addInstruction: #movddup
+		operands: { aRegisterOrMemory1 . aRegisterOrMemory2 }

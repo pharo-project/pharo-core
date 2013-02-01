@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Mac",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NBMacExternalHeapManager",
+	"pools" : [
+		"NBMacConstants" ],
+	"super" : "NBExternalHeapManager",
+	"type" : "normal" }

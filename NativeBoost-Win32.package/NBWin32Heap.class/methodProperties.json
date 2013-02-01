@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"create:initialiSize:maximumSize:" : "IgorStasenko 11/24/2012 17:35" },
+	"instance" : {
+		"alloc:" : "IgorStasenko 11/24/2012 17:30",
+		"compact" : "IgorStasenko 11/24/2012 17:31",
+		"destroy" : "IgorStasenko 11/24/2012 17:31",
+		"free:" : "IgorStasenko 11/24/2012 17:31",
+		"lock" : "IgorStasenko 11/24/2012 17:32",
+		"nbCallingConvention" : "IgorStasenko 11/24/2012 17:29",
+		"nbLibraryNameOrHandle" : "IgorStasenko 11/24/2012 17:30",
+		"privSetHandle:" : "Igor.Stasenko 5/3/2010 02:05",
+		"realloc:mem:size:" : "IgorStasenko 11/24/2012 17:32",
+		"sizeOf:" : "IgorStasenko 11/24/2012 17:32",
+		"unlock" : "IgorStasenko 11/24/2012 17:32",
+		"validate" : "IgorStasenko 11/24/2012 17:32",
+		"zalloc:" : "IgorStasenko 11/24/2012 17:33" } }

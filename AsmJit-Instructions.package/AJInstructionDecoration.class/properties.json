@@ -1,0 +1,14 @@
+{
+	"category" : "AsmJit-Instructions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"end" ],
+	"name" : "AJInstructionDecoration",
+	"pools" : [
+		 ],
+	"super" : "AJInstruction",
+	"type" : "normal" }

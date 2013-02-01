@@ -1,0 +1,4 @@
+accessing
+mouseDownIndex
+
+	^ mouseDownIndex contents

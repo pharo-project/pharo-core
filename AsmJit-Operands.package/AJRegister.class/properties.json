@@ -1,0 +1,14 @@
+{
+	"category" : "AsmJit-Operands",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AJRegister",
+	"pools" : [
+		 ],
+	"super" : "AJBaseReg",
+	"type" : "normal" }

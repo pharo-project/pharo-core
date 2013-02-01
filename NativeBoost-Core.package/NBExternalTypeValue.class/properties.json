@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Core-Objects",
+	"classinstvars" : [
+		"valueType" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "NBExternalTypeValue",
+	"pools" : [
+		 ],
+	"super" : "NBExternalStructure",
+	"type" : "bytes" }

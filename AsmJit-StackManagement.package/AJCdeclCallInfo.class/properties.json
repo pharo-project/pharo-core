@@ -1,0 +1,14 @@
+{
+	"category" : "AsmJit-StackManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"savedSP" ],
+	"name" : "AJCdeclCallInfo",
+	"pools" : [
+		 ],
+	"super" : "AJCallInfo",
+	"type" : "normal" }

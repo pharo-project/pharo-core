@@ -1,0 +1,18 @@
+{
+	"category" : "NativeBoost-Core-Heap",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"left",
+		"right",
+		"address",
+		"length",
+		"free" ],
+	"name" : "NBMemoryBlock",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

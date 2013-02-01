@@ -1,0 +1,3 @@
+register
+instructionPointer
+	^ RIP

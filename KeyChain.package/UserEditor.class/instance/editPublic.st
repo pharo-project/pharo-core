@@ -1,0 +1,4 @@
+accessing
+editPublic
+
+	^ editPublic

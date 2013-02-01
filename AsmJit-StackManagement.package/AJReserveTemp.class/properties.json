@@ -1,0 +1,15 @@
+{
+	"category" : "AsmJit-StackManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "IgorStasenko 1/18/2012 13:09",
+	"instvars" : [
+		"operand",
+		"size" ],
+	"name" : "AJReserveTemp",
+	"pools" : [
+		 ],
+	"super" : "AJInstruction",
+	"type" : "normal" }

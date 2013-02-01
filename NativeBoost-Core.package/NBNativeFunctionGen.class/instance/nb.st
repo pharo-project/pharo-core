@@ -1,0 +1,3 @@
+accessing
+nb
+	^ NativeBoost forCurrentPlatform 

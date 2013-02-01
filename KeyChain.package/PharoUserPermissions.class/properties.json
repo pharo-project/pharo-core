@@ -1,0 +1,22 @@
+{
+	"category" : "KeyChain",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"PharoUsers" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"canBrowse",
+		"canDebug",
+		"canDropOSFile",
+		"canEditCode",
+		"canEvaluateCode",
+		"canInspect",
+		"canRunStartupScript",
+		"canShowMorphHalo",
+		"canEditUser" ],
+	"name" : "PharoUserPermissions",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

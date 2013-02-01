@@ -1,0 +1,21 @@
+{
+	"category" : "KeyChain-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"add",
+		"remove",
+		"users",
+		"label",
+		"usersManager",
+		"selectedUser",
+		"edit",
+		"container" ],
+	"name" : "SwitchUsers",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }

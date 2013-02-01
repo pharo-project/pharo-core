@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Win32",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NBWideString",
+	"pools" : [
+		 ],
+	"super" : "NBExternalType",
+	"type" : "normal" }

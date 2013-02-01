@@ -1,0 +1,3 @@
+accessing
+requiresAlignment 
+	^ requiresAlignment ~~ false

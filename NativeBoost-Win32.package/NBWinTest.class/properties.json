@@ -1,0 +1,15 @@
+{
+	"category" : "NativeBoost-Win32",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NBWinTest",
+	"pools" : [
+		"NBWinConstants",
+		"NBWinTypes" ],
+	"super" : "Object",
+	"type" : "normal" }

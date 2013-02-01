@@ -1,0 +1,14 @@
+{
+	"category" : "AsmJit-Instructions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"isSet" ],
+	"name" : "AJJumpLabel",
+	"pools" : [
+		 ],
+	"super" : "AJInstruction",
+	"type" : "normal" }

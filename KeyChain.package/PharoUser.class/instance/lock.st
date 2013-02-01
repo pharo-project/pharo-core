@@ -1,0 +1,4 @@
+protocol
+lock
+
+	^ keychain lock

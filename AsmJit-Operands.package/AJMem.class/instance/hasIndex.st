@@ -1,0 +1,3 @@
+testing
+hasIndex
+	^ index notNil

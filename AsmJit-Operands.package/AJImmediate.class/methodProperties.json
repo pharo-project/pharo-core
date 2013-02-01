@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"ivalue:" : "" },
+	"instance" : {
+		"asByte" : "",
+		"asDWord" : "CamilloBruni 4/4/2012 16:52",
+		"asQWord" : "CamilloBruni 4/4/2012 16:52",
+		"asWord" : "",
+		"emitUsing:size:" : "CamilloBruni 4/4/2012 16:53",
+		"extractLabels:" : "",
+		"fitsInSize:" : "CamilloBruni 4/4/2012 16:54",
+		"initialize" : "",
+		"isImm" : "",
+		"isInt32" : "CamilloBruni 4/4/2012 16:54",
+		"isInt8" : "",
+		"isSigned" : "",
+		"isUnsigned" : "",
+		"isZero" : "",
+		"ivalue:" : "",
+		"label:" : "",
+		"printOn:" : "CamilloBruni 10/5/2012 14:39",
+		"ptr" : "IgorStasenko 5/28/2012 01:54",
+		"relocMode" : "",
+		"size" : "",
+		"size:" : "",
+		"sizeFor:" : "",
+		"uvalue:" : "",
+		"value" : "" } }

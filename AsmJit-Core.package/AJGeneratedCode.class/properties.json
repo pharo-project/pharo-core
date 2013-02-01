@@ -1,0 +1,15 @@
+{
+	"category" : "AsmJit-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"bytes",
+		"labels" ],
+	"name" : "AJGeneratedCode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

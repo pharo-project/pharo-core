@@ -1,0 +1,3 @@
+accessing
+usesSTStack
+	^ argumentLoader usesSTStack

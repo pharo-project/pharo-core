@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Core-Objects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "IgorStasenko 2/24/2012 17:37",
+	"instvars" : [
+		 ],
+	"name" : "NBExternalHandle",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "bytes" }

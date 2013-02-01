@@ -1,0 +1,31 @@
+{
+	"category" : "NewList",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"list",
+		"doubleClickSelector",
+		"dragItemSelector",
+		"dropItemSelector",
+		"getDisplaySelector",
+		"getHeaderTitleSelector",
+		"getIndexSelector",
+		"getItemAtIndexSelector",
+		"getItemsSelector",
+		"getListSizeSelector",
+		"keyStrokeSelector",
+		"lastKeystrokeTime",
+		"lastKeystrokes",
+		"model",
+		"setIndexSelector",
+		"wantsDropSelector",
+		"getMenuSelector",
+		"getMenuTitleSelector" ],
+	"name" : "NewListAdapter",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

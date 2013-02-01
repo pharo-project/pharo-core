@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"getModuleHandle:" : "IgorStasenko 11/24/2012 16:09",
+		"getProcAddress:procName:" : "IgorStasenko 11/24/2012 16:17",
+		"getVMModuleHandle" : "IgorStasenko 11/24/2012 16:17",
+		"getVMModuleName" : "tbn 11/11/2012 01:01",
+		"loadLibrary:" : "IgorStasenko 11/24/2012 16:18",
+		"malloc:" : "IgorStasenko 11/24/2012 16:18",
+		"primGetModuleFileName:with:" : "tbn 11/10/2012 23:48",
+		"realloc:newSize:" : "IgorStasenko 11/24/2012 16:19",
+		"squeakWindowHandle" : "tbn 11/11/2012 00:47",
+		"targetPlatformId" : "Igor.Stasenko 4/29/2010 04:31" },
+	"instance" : {
+		"CLibrary" : "Igor.Stasenko 9/26/2010 05:00",
+		"VMModule" : "tbn 11/11/2012 00:35",
+		"basicAllocate:" : "Igor.Stasenko 5/3/2010 10:59",
+		"bootstrapAllocate:into:" : "IgorStasenko 11/24/2012 16:08",
+		"free:" : "IgorStasenko 11/24/2012 16:08",
+		"initializeExternalHeap" : "Igor.Stasenko 5/3/2010 10:50",
+		"newAssembler" : "IgorStasenko 8/5/2011 08:48",
+		"pointerSize" : "Igor.Stasenko 5/3/2010 10:44",
+		"privCreateHeap:" : "IgorStasenko 11/24/2012 16:09",
+		"stackAlignment" : "IgorStasenko 8/3/2011 08:08" } }

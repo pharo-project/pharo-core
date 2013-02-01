@@ -1,0 +1,3 @@
+accessing
+isRoot
+	^ isRoot

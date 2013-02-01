@@ -1,0 +1,15 @@
+{
+	"category" : "NativeBoost-Core-FFI",
+	"classinstvars" : [
+		"initialized",
+		"currentFields" ],
+	"classvars" : [
+		"Printing" ],
+	"commentStamp" : "JavierPimas 2/3/2012 22:35",
+	"instvars" : [
+		 ],
+	"name" : "NBExternalStructure",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "bytes" }

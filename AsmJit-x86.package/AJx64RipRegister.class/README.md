@@ -1,0 +1,3 @@
+Virtual registers used for relative instruction pointer addressing in 64Bit mode
+
+In IA-32 architecture and compatibility mode, addressing relative to the instruction pointer is available only with control-transfer instructions. In 64-bit mode, instruc- tions that use ModR/M addressing can use RIP-relative addressing. Without RIP-rela- tive addressing, all ModR/M instruction modes address memory relative to zero.

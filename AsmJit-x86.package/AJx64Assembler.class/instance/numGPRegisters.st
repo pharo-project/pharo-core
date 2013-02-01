@@ -1,0 +1,3 @@
+accessing
+numGPRegisters
+	^ 16

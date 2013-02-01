@@ -1,0 +1,4 @@
+converting
+asAJOperand
+	
+	^ operands first

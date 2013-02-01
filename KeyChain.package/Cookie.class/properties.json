@@ -1,0 +1,17 @@
+{
+	"category" : "KeyChain",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"contents",
+		"timeToLive",
+		"hourGlass",
+		"defaultValue" ],
+	"name" : "Cookie",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

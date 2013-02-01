@@ -1,0 +1,16 @@
+{
+	"category" : "KeyChain-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"keychain",
+		"group",
+		"usernamePassword" ],
+	"name" : "KeychainEditingWrapper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+protocol
+isLocked
+
+	^ true

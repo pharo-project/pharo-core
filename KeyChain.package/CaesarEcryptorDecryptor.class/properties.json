@@ -1,0 +1,14 @@
+{
+	"category" : "KeyChain",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "CaesarEcryptorDecryptor",
+	"pools" : [
+		 ],
+	"super" : "AbstractEcryptorDecryptor",
+	"type" : "normal" }

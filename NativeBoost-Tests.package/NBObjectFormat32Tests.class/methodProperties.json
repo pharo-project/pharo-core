@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"getFloatPtrOffset:" : "IgorStasenko 11/24/2012 17:23",
+		"pushDouble:" : "IgorStasenko 11/24/2012 17:23",
+		"pushFloat:" : "IgorStasenko 11/24/2012 17:24",
+		"testCompactFloats" : "IgorStasenko 11/23/2011 10:46",
+		"testPushingFloatPointers" : "IgorStasenko 12/21/2011 14:21",
+		"testPushingFloats" : "Igor.Stasenko 5/20/2010 09:19" } }

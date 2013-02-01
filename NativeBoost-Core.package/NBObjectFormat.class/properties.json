@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Igor.Stasenko 5/19/2010 11:12",
+	"instvars" : [
+		"asm" ],
+	"name" : "NBObjectFormat",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

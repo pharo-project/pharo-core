@@ -1,0 +1,15 @@
+{
+	"category" : "AsmJit-Extension",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"lineStart",
+		"writeStream" ],
+	"name" : "AJLineStream",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

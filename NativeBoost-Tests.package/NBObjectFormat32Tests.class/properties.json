@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NBObjectFormat32Tests",
+	"pools" : [
+		"AJx86Registers" ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,18 @@
+{
+	"category" : "AsmJit-Operands",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"label",
+		"size",
+		"isUnsigned",
+		"relocMode",
+		"value" ],
+	"name" : "AJImmediate",
+	"pools" : [
+		 ],
+	"super" : "AJOperand",
+	"type" : "normal" }

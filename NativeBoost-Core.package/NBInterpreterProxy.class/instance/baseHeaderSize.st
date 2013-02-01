@@ -1,0 +1,3 @@
+helpers
+baseHeaderSize
+	^ objectFormat baseHeaderSize

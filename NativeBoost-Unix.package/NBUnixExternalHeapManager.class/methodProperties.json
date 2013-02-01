@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"mapFlags" : "Igor.Stasenko 9/25/2010 08:49",
+		"mmapLength:prot:flags:into:" : "IgorStasenko 11/24/2012 17:24",
+		"primAllocatePage:" : "Igor.Stasenko 9/26/2010 03:37",
+		"primFreePage:" : "Igor.Stasenko 9/26/2010 03:45",
+		"protFlags" : "Igor.Stasenko 9/26/2010 03:51",
+		"unmap:length:" : "IgorStasenko 11/24/2012 17:25" } }

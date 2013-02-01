@@ -1,0 +1,14 @@
+{
+	"category" : "NewList",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AbstractListController",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+accessing
+newAssembler
+
+	^ NativeBoost newAssembler 

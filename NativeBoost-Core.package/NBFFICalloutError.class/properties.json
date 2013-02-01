@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Core-Errors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "IgorStasenko 2/20/2012 13:52",
+	"instvars" : [
+		 ],
+	"name" : "NBFFICalloutError",
+	"pools" : [
+		 ],
+	"super" : "NBNativeCodeError",
+	"type" : "normal" }

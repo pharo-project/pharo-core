@@ -1,0 +1,20 @@
+{
+	"category" : "AsmJit-StackManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"calls",
+		"instructions",
+		"assembler",
+		"noStackFrame",
+		"temps",
+		"maxTemps",
+		"extraStackBytes" ],
+	"name" : "AJRoutineStackManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

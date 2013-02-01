@@ -1,0 +1,14 @@
+{
+	"category" : "KeyChain",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "SHA1Ecryptor",
+	"pools" : [
+		 ],
+	"super" : "AbstractEcryptor",
+	"type" : "normal" }

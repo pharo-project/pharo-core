@@ -1,0 +1,14 @@
+{
+	"category" : "AsmJit-x86",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "AJx64Assembler",
+	"pools" : [
+		 ],
+	"super" : "AJx86Assembler",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+protocol
+unlock
+
+	^ self isUnlocked 

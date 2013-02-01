@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"data" ],
+	"name" : "NBMockExternalObject",
+	"pools" : [
+		 ],
+	"super" : "NBExternalObject",
+	"type" : "normal" }

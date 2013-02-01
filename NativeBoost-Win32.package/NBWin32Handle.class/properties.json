@@ -1,0 +1,15 @@
+{
+	"category" : "NativeBoost-Win32",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "NBWin32Handle",
+	"pools" : [
+		"NBWinConstants",
+		"NBWinTypes" ],
+	"super" : "NBExternalObject",
+	"type" : "normal" }

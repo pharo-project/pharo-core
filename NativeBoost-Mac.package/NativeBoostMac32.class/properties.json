@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Mac",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NativeBoostMac32",
+	"pools" : [
+		"NBMacConstants" ],
+	"super" : "NativeBoostLinux32",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "NativeBoost-Win32",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"heapHandle" ],
+	"name" : "NativeBoostWin32",
+	"pools" : [
+		"NBWinConstants",
+		"NBWinTypes" ],
+	"super" : "NativeBoost",
+	"type" : "normal" }

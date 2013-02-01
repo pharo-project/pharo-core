@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NBMockExternalHeapManager",
+	"pools" : [
+		 ],
+	"super" : "NBExternalHeapManager",
+	"type" : "normal" }

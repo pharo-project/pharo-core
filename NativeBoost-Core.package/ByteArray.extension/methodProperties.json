@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"asNBExternalType:" : "IgorStasenko 8/3/2011 19:55" },
+	"instance" : {
+		"nbFloat32AtOffset:" : "IgorStasenko 11/23/2012 18:03",
+		"nbFloat32AtOffset:put:" : "IgorStasenko 11/23/2012 18:03",
+		"nbFloat64AtOffset:" : "IgorStasenko 11/23/2012 18:04",
+		"nbFloat64AtOffset:put:" : "IgorStasenko 11/23/2012 18:04",
+		"nbInt16AtOffset:" : "IgorStasenko 11/23/2012 18:04",
+		"nbInt16AtOffset:put:" : "IgorStasenko 11/23/2012 18:04",
+		"nbInt32AtOffset:" : "IgorStasenko 11/23/2012 18:04",
+		"nbInt32AtOffset:put:" : "IgorStasenko 11/23/2012 18:05",
+		"nbInt64AtOffset:" : "IgorStasenko 11/23/2012 18:05",
+		"nbInt64AtOffset:put:" : "IgorStasenko 11/23/2012 18:05",
+		"nbInt8AtOffset:" : "IgorStasenko 11/23/2012 18:05",
+		"nbInt8AtOffset:put:" : "IgorStasenko 11/23/2012 18:05",
+		"nbLongAt:" : "IgorStasenko 11/23/2012 18:06",
+		"nbLongAt:put:" : "IgorStasenko 11/23/2012 18:06",
+		"nbUInt16AtOffset:" : "IgorStasenko 11/23/2012 18:07",
+		"nbUInt16AtOffset:put:" : "IgorStasenko 11/23/2012 18:07",
+		"nbUInt32AtOffset:" : "IgorStasenko 11/23/2012 18:07",
+		"nbUInt32AtOffset:put:" : "IgorStasenko 11/23/2012 18:07",
+		"nbUInt64AtOffset:" : "IgorStasenko 11/23/2012 18:07",
+		"nbUInt64AtOffset:put:" : "IgorStasenko 11/23/2012 18:07",
+		"nbUInt8AtOffset:" : "IgorStasenko 11/23/2012 18:08",
+		"nbUInt8AtOffset:put:" : "IgorStasenko 11/23/2012 18:08",
+		"nbUlongAt:" : "IgorStasenko 11/23/2012 18:08",
+		"nbUlongAt:put:" : "IgorStasenko 11/23/2012 18:09" } }

@@ -1,0 +1,1 @@
+Pushing a callback to stack

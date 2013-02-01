@@ -1,0 +1,16 @@
+{
+	"category" : "NativeBoost-Core-FFI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"context",
+		"conv",
+		"options" ],
+	"name" : "NBFFICalloutAPI",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

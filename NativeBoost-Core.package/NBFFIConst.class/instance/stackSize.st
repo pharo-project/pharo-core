@@ -1,0 +1,3 @@
+accessing
+stackSize
+	^ 4

@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Core-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "NBUInt64",
+	"pools" : [
+		 ],
+	"super" : "NBIntegerExternalType",
+	"type" : "normal" }

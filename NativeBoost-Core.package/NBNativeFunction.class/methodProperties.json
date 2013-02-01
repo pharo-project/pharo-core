@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"cdecl:emit:" : "CamilloBruni 8/3/2012 16:18",
+		"cdecl:emit:options:" : "CamilloBruni 8/3/2012 16:18",
+		"code:fnSpec:" : "CamilloBruni 8/3/2012 15:53",
+		"finalizeResourceData:" : "CamilloBruni 8/3/2012 15:24",
+		"stdCall:emit:" : "CamilloBruni 8/3/2012 16:18",
+		"stdCall:emit:options:" : "CamilloBruni 8/3/2012 16:18" },
+	"instance" : {
+		"address" : "IgorStasenko 8/23/2012 18:16",
+		"annotation" : "CamilloBruni 10/3/2012 14:41",
+		"annotation:" : "CamilloBruni 10/3/2012 14:41",
+		"emitCall:" : "CamilloBruni 10/4/2012 19:32",
+		"initializeWithCode:fnSpec:" : "CamilloBruni 8/3/2012 15:53",
+		"resourceData" : "CamilloBruni 8/3/2012 15:22",
+		"uninstall" : "IgorStasenko 8/23/2012 18:30",
+		"valueWithArguments:" : "CamilloBruni 8/3/2012 16:17" } }

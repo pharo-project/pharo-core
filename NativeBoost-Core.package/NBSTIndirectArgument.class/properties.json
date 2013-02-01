@@ -1,0 +1,15 @@
+{
+	"category" : "NativeBoost-Core-FFI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"argumentLoader",
+		"elementIndex" ],
+	"name" : "NBSTIndirectArgument",
+	"pools" : [
+		 ],
+	"super" : "NBFnArgument",
+	"type" : "normal" }

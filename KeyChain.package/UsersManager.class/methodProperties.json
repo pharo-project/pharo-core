@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"default" : "BenjaminVanRyseghem 5/9/2012 13:00",
+		"resetDefault" : "BenjaminVanRyseghem 5/9/2012 13:06",
+		"switchUsers2:" : "EstebanLorenzano 12/6/2012 13:47",
+		"switchUsers:" : "EstebanLorenzano 12/6/2012 18:39" },
+	"instance" : {
+		"addDefaultUser" : "EstebanLorenzano 12/12/2012 11:41",
+		"addUser:" : "EstebanLorenzano 12/6/2012 18:58",
+		"addUser:password:" : "EstebanLorenzano 12/6/2012 18:57",
+		"addUser:password:gravatarMail:" : "BenjaminVanRyseghem 5/11/2012 15:40",
+		"currentUser" : "BenjaminVanRyseghem 5/16/2012 15:19",
+		"groupsFor:" : "BenjaminVanRyseghem 5/9/2012 16:14",
+		"initialize" : "BenjaminVanRyseghem 5/16/2012 15:19",
+		"openSwitchUsers" : "BenjaminVanRyseghem 8/2/2012 15:37",
+		"removeUser:" : "BenjaminVanRyseghem 5/16/2012 15:11",
+		"setCurrentUser:" : "BenjaminVanRyseghem 5/9/2012 11:45",
+		"setPassword:" : "BenjaminVanRyseghem 5/9/2012 16:14",
+		"setUserName:password:forGroup:" : "BenjaminVanRyseghem 5/9/2012 16:14",
+		"userNameFor:" : "BenjaminVanRyseghem 5/11/2012 15:34",
+		"userNamePasswordFor:" : "BenjaminVanRyseghem 5/9/2012 16:14",
+		"userNames" : "EstebanLorenzano 12/6/2012 19:05",
+		"users" : "BenjaminVanRyseghem 5/16/2012 15:11" } }

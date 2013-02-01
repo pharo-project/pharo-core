@@ -1,0 +1,4 @@
+protocol
+encrypt: aString
+
+	^ aString

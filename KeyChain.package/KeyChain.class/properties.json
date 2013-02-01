@@ -1,0 +1,19 @@
+{
+	"category" : "KeyChain",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"username",
+		"password",
+		"encryptor",
+		"lastUnlock",
+		"encryptorDecryptor",
+		"bindings" ],
+	"name" : "KeyChain",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

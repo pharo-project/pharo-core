@@ -1,0 +1,3 @@
+register
+destinationIndex
+	^ RDI

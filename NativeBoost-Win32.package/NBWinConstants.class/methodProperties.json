@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"classStyles" : "Igor.Stasenko 5/18/2010 04:16",
+		"driveTypes" : "tbn 11/12/2012 09:52",
+		"gdiConstants" : "Igor.Stasenko 5/18/2010 04:07",
+		"getWindowLongConstants" : "tbn 11/12/2012 07:07",
+		"heapConstants" : "Igor.Stasenko 5/2/2010 16:26",
+		"initialize" : "tbn 11/12/2012 09:52",
+		"messageBoxConstants" : "tbn 11/11/2012 20:14",
+		"showWindowConstants" : "Igor.Stasenko 5/20/2010 07:57",
+		"windowCreationConstants" : "Igor.Stasenko 5/17/2010 14:27",
+		"windowExStyles" : "Igor.Stasenko 5/2/2010 15:10",
+		"windowMessages" : "tbn 11/12/2012 10:09",
+		"windowStyles" : "Igor.Stasenko 5/2/2010 15:10" },
+	"instance" : {
+		 } }

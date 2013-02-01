@@ -1,0 +1,3 @@
+printing
+descriptionOn: aStream
+	self subclassResponsibility

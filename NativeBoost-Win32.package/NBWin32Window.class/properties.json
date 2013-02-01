@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Win32",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Igor.Stasenko 4/29/2010 10:54",
+	"instvars" : [
+		 ],
+	"name" : "NBWin32Window",
+	"pools" : [
+		 ],
+	"super" : "NBWin32Handle",
+	"type" : "normal" }

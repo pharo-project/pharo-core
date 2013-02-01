@@ -1,0 +1,3 @@
+register
+sourceIndex
+	^ RSI

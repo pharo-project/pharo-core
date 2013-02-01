@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Core-Errors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"errorCode" ],
+	"name" : "NBNativeCodeError",
+	"pools" : [
+		"NativeBoostConstants" ],
+	"super" : "Error",
+	"type" : "normal" }

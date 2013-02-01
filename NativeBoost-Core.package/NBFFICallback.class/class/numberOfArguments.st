@@ -1,0 +1,4 @@
+accessing
+numberOfArguments
+
+	^ numArgs

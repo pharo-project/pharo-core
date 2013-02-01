@@ -1,0 +1,14 @@
+{
+	"category" : "AsmJit-Instructions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"alignTo" ],
+	"name" : "AJAlignmentInstruction",
+	"pools" : [
+		"AJConstants" ],
+	"super" : "AJInstruction",
+	"type" : "normal" }

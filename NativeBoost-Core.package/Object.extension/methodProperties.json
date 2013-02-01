@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"nbAddress" : "IgorStasenko 11/22/2012 18:32",
+		"nbCall:" : "IgorStasenko 11/24/2012 16:07",
+		"nbCall:module:" : "IgorStasenko 11/24/2012 16:07",
+		"nbCall:module:options:" : "IgorStasenko 11/24/2012 16:07",
+		"nbCall:options:" : "IgorStasenko 11/24/2012 16:07",
+		"nbCallingConvention" : "JavierPimas 11/17/2011 11:12",
+		"nbCallout" : "IgorStasenko 11/22/2012 14:25",
+		"nbCalloutIn:" : "IgorStasenko 11/22/2012 14:25",
+		"nbGetSymbolAddress:module:" : "IgorStasenko 1/17/2012 16:04",
+		"nbLibraryNameOrHandle" : "JavierPimas 11/17/2011 11:12" } }

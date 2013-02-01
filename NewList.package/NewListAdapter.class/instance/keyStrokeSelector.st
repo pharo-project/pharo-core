@@ -1,0 +1,4 @@
+accessing
+keyStrokeSelector
+	
+	^ keyStrokeSelector contents

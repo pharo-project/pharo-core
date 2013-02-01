@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"address" : "Igor.Stasenko 9/22/2010 04:43",
+		"address:" : "Igor.Stasenko 9/22/2010 04:43",
+		"initialize" : "Igor.Stasenko 9/22/2010 04:38",
+		"isFree" : "Igor.Stasenko 9/22/2010 04:17",
+		"left" : "Igor.Stasenko 9/22/2010 04:43",
+		"left:" : "Igor.Stasenko 9/22/2010 04:43",
+		"length" : "Igor.Stasenko 9/22/2010 04:43",
+		"length:" : "Igor.Stasenko 9/24/2010 04:29",
+		"makeFreeFor:" : "Igor.Stasenko 9/25/2010 00:46",
+		"printOn:" : "Igor.Stasenko 9/26/2010 03:59",
+		"reserve:for:" : "Igor.Stasenko 9/24/2010 23:20",
+		"right" : "Igor.Stasenko 9/22/2010 04:43",
+		"right:" : "Igor.Stasenko 9/22/2010 04:43" } }

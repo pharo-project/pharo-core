@@ -1,0 +1,16 @@
+{
+	"category" : "NativeBoost-Core-Objects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"session",
+		"data",
+		"resourceClass" ],
+	"name" : "NBExternalResourceExecutor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

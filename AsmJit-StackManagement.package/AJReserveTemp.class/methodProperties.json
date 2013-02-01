@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"accept:" : "",
+		"asAJOperand" : "",
+		"emitPushOnStack:" : "",
+		"isMem" : "",
+		"name" : "CamilloBruni 8/24/2012 13:32",
+		"operand" : "",
+		"operand:" : "",
+		"printAsOperandOn:" : "CamilloBruni 7/20/2012 13:29",
+		"printOn:" : "",
+		"processTempsWith:" : "",
+		"size" : "",
+		"size:" : "",
+		"stackSize" : "" } }

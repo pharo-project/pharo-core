@@ -1,0 +1,3 @@
+accessing
+drawColor
+	^ drawColor contents

@@ -1,0 +1,15 @@
+{
+	"category" : "NativeBoost-Core-Objects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"fnSpec",
+		"annotation" ],
+	"name" : "NBNativeFunction",
+	"pools" : [
+		 ],
+	"super" : "NBExternalObject",
+	"type" : "normal" }

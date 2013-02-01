@@ -1,0 +1,4 @@
+callbacks
+returnType: aType
+
+	^ #returnType

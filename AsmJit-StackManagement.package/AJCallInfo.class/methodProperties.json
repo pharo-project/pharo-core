@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"alignment:" : "",
+		"alignmentInsertionPoint:" : "",
+		"asm:" : "",
+		"callCleanup:" : "",
+		"defaultArgumentSize" : "",
+		"disableCleanup" : "",
+		"initialize" : "",
+		"name" : "",
+		"needsAlignment" : "",
+		"noCleanup" : "",
+		"noticeArgument:" : "",
+		"push:" : "",
+		"stackSize" : "",
+		"stackSize:" : "" } }

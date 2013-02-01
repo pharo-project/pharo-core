@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"as16" : "CamilloBruni 7/17/2012 12:51",
+		"as32" : "CamilloBruni 7/17/2012 13:07",
+		"as64" : "CamilloBruni 7/17/2012 13:07",
+		"as8" : "CamilloBruni 7/17/2012 13:03",
+		"asHighByte" : "CamilloBruni 7/17/2012 13:01",
+		"asLowByte" : "CamilloBruni 7/17/2012 13:05",
+		"descriptionOn:" : "CamilloBruni 7/17/2012 11:07",
+		"emitModRM:code:immSize:" : "",
+		"isGeneralPurpose" : "",
+		"isHighByte" : "CamilloBruni 7/17/2012 13:03",
+		"isLowByte" : "CamilloBruni 7/17/2012 12:57",
+		"printAsMemBase" : "",
+		"printOn:" : "",
+		"ptr" : "",
+		"registerName" : "CamilloBruni 3/20/2012 18:48",
+		"stackSize" : "" } }

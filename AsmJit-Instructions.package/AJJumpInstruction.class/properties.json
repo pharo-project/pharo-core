@@ -1,0 +1,15 @@
+{
+	"category" : "AsmJit-Instructions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"label",
+		"description" ],
+	"name" : "AJJumpInstruction",
+	"pools" : [
+		 ],
+	"super" : "AJInstruction",
+	"type" : "normal" }

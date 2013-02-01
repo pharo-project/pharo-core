@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "NBCogInterpreterProxy",
+	"pools" : [
+		"AJx86Registers" ],
+	"super" : "NBInterpreterProxy",
+	"type" : "normal" }

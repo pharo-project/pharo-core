@@ -1,0 +1,3 @@
+testing
+isGeneralPurpose
+	self subclassResponsibility 

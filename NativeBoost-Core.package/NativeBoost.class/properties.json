@@ -1,0 +1,21 @@
+{
+	"category" : "NativeBoost-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Current",
+		"NBAnnouncer" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"bootstrapping",
+		"insideCallback",
+		"callbackCounterAddr",
+		"extraRootsRegistry",
+		"rootsCell",
+		"gateFunction" ],
+	"name" : "NativeBoost",
+	"pools" : [
+		"AJx86Registers",
+		"NativeBoostConstants" ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"analyzeInstructions:assembler:" : "CamilloBruni 4/4/2012 16:33",
+		"emitEpilogue:assembler:" : "",
+		"emitPrologue" : "",
+		"initialize" : "",
+		"newCdeclCall" : "",
+		"newStdCall" : "",
+		"noStackFrame" : "",
+		"releaseTemps:" : "",
+		"reserveExtraBytesOnStack:" : "",
+		"reserveTemp:" : "",
+		"reset" : "",
+		"stackFrameCheck" : "" } }

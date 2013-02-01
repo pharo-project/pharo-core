@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildMorph" : "BenjaminVanRyseghem 11/29/2012 19:54",
+		"buildMorphWithOld" : "BenjaminVanRyseghem 11/26/2012 17:16",
+		"buildTextMorph" : "BenjaminVanRyseghem 11/29/2012 19:36",
+		"displayItem:" : "BenjaminVanRyseghem 11/25/2012 02:09",
+		"drop:at:" : "BenjaminVanRyseghem 11/25/2012 22:22",
+		"getIndex" : "BenjaminVanRyseghem 11/23/2012 17:47",
+		"getItems" : "BenjaminVanRyseghem 11/25/2012 22:21",
+		"initialize" : "BenjaminVanRyseghem 11/29/2012 19:35",
+		"listMorph" : "BenjaminVanRyseghem 11/23/2012 15:47",
+		"listMorph:" : "BenjaminVanRyseghem 11/23/2012 15:47",
+		"menu:shifted:" : "BenjaminVanRyseghem 11/25/2012 03:04",
+		"openInWindow" : "BenjaminVanRyseghem 11/29/2012 19:38",
+		"openInWorld" : "BenjaminVanRyseghem 11/29/2012 19:38",
+		"setIndex:" : "BenjaminVanRyseghem 11/26/2012 17:16",
+		"title" : "BenjaminVanRyseghem 11/25/2012 22:21",
+		"toggleTitle" : "BenjaminVanRyseghem 11/24/2012 19:36",
+		"withNewList" : "BenjaminVanRyseghem 11/26/2012 17:14",
+		"withOldList" : "BenjaminVanRyseghem 11/26/2012 17:15" } }

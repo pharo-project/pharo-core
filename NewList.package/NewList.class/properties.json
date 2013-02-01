@@ -1,0 +1,35 @@
+{
+	"category" : "NewList",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"listCache",
+		"model",
+		"listSize",
+		"isInitialized",
+		"isMultipleSelection",
+		"selectedIndex",
+		"selectedIndexes",
+		"renderer",
+		"headerHeight",
+		"headerTitle",
+		"clickOnHeader",
+		"lastKeystrokeTime",
+		"lastKeystrokes",
+		"secondSelection",
+		"displayListCache",
+		"deSelectOnReclick",
+		"runningProcesses",
+		"selectionWithKeys",
+		"drawColor",
+		"selectedItem",
+		"selectedItems",
+		"unselectOnChange" ],
+	"name" : "NewList",
+	"pools" : [
+		 ],
+	"super" : "ScrollPane",
+	"type" : "normal" }

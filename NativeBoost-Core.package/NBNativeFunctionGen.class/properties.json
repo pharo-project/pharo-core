@@ -1,0 +1,18 @@
+{
+	"category" : "NativeBoost-Core-FFI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"nativeFunction",
+		"code",
+		"callType",
+		"stackSize",
+		"returnLabel" ],
+	"name" : "NBNativeFunctionGen",
+	"pools" : [
+		 ],
+	"super" : "NBFFICallout",
+	"type" : "normal" }

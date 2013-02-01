@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"index" ],
+	"name" : "NBWeakFinalizerItem",
+	"pools" : [
+		 ],
+	"super" : "WeakFinalizerItem",
+	"type" : "weak" }

@@ -1,0 +1,14 @@
+{
+	"category" : "AsmJit-x86-Operands",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "AJx87Register",
+	"pools" : [
+		 ],
+	"super" : "AJBaseReg",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+accessing
+isInitialized
+	^ isInitialized contents

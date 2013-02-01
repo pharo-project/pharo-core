@@ -1,0 +1,19 @@
+{
+	"category" : "NewList",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"listMorph",
+		"index",
+		"toggleTitle",
+		"rawList",
+		"pluggable",
+		"textMorph" ],
+	"name" : "NewListModel",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

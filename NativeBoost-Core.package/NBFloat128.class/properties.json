@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Core-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NBFloat128",
+	"pools" : [
+		 ],
+	"super" : "NBFloatType",
+	"type" : "normal" }

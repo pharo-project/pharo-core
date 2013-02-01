@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Core-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "IgorStasenko 8/10/2011 18:46",
+	"instvars" : [
+		"address" ],
+	"name" : "NBExternalString",
+	"pools" : [
+		"AJx86Registers" ],
+	"super" : "NBExternalType",
+	"type" : "normal" }

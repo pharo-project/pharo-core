@@ -1,0 +1,20 @@
+{
+	"category" : "KeyChain-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"groupLabel",
+		"groupTextField",
+		"setPassword",
+		"usernameLabel",
+		"usernameTextField",
+		"password",
+		"keychainEditingWrapper" ],
+	"name" : "KeychainEditor",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }

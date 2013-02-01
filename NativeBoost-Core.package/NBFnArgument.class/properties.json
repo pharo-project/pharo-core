@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Core-FFI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Igor.Stasenko 4/30/2010 12:12",
+	"instvars" : [
+		 ],
+	"name" : "NBFnArgument",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

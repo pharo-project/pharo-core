@@ -1,0 +1,3 @@
+accessing
+isSet
+	^ isSet == true

@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NBTestStructure1byte",
+	"pools" : [
+		 ],
+	"super" : "NBExternalStructure",
+	"type" : "bytes" }

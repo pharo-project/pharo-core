@@ -1,0 +1,1 @@
+I am a specialized interpreter proxy for the Cog family of intererpreters

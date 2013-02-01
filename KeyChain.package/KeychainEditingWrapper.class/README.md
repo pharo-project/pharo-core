@@ -1,0 +1,1 @@
+A KeychainEditingWrapper is a simple wrapper for the KeychainEditor 

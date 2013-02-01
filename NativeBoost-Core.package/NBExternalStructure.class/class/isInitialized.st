@@ -1,0 +1,3 @@
+testing
+isInitialized
+	^ initialized == true

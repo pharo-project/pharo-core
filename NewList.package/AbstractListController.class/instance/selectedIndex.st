@@ -1,0 +1,3 @@
+as yet unclassified
+selectedIndex
+	self subclassResponsibility

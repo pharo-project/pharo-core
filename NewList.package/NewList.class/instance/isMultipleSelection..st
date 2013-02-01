@@ -1,0 +1,3 @@
+accessing
+isMultipleSelection: anObject
+	isMultipleSelection contents: anObject

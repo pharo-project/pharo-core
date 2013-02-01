@@ -1,0 +1,3 @@
+accessing
+doubleClickSelector
+	^ doubleClickSelector contents

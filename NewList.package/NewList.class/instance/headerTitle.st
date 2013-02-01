@@ -1,0 +1,3 @@
+accessing
+headerTitle
+	^ headerTitle contents

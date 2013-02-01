@@ -1,0 +1,15 @@
+{
+	"category" : "NativeBoost-Core-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"objectClass",
+		"returnOop" ],
+	"name" : "NBExternalStructureType",
+	"pools" : [
+		 ],
+	"super" : "NBExternalType",
+	"type" : "normal" }

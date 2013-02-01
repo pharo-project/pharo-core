@@ -1,0 +1,4 @@
+accessing
+hasHeader
+
+	^ hasHeader contents

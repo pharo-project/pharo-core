@@ -1,0 +1,14 @@
+{
+	"category" : "AsmJit-StackManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AJCallCleanup",
+	"pools" : [
+		 ],
+	"super" : "AJStackInstruction",
+	"type" : "normal" }

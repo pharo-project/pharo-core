@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"nbFloat32AtOffset:" : "IgorStasenko 11/24/2012 16:32",
+		"nbFloat32AtOffset:put:" : "IgorStasenko 11/24/2012 16:34",
+		"nbFloat64AtOffset:" : "IgorStasenko 11/24/2012 16:50",
+		"nbFloat64AtOffset:put:" : "IgorStasenko 11/24/2012 16:50",
+		"nbInt16AtOffset:" : "IgorStasenko 11/24/2012 16:50",
+		"nbInt16AtOffset:put:" : "IgorStasenko 11/24/2012 16:59",
+		"nbInt32AtOffset:" : "IgorStasenko 11/24/2012 16:59",
+		"nbInt32AtOffset:put:" : "IgorStasenko 11/24/2012 16:59",
+		"nbInt64AtOffset:" : "IgorStasenko 11/24/2012 16:59",
+		"nbInt64AtOffset:put:" : "IgorStasenko 11/24/2012 17:00",
+		"nbInt8AtOffset:" : "IgorStasenko 11/24/2012 17:00",
+		"nbInt8AtOffset:put:" : "IgorStasenko 11/24/2012 17:00",
+		"nbUInt16AtOffset:" : "IgorStasenko 11/24/2012 17:00",
+		"nbUInt16AtOffset:put:" : "IgorStasenko 11/24/2012 17:01",
+		"nbUInt32AtOffset:" : "IgorStasenko 11/24/2012 17:01",
+		"nbUInt32AtOffset:put:" : "IgorStasenko 11/24/2012 17:01",
+		"nbUInt64AtOffset:" : "IgorStasenko 11/24/2012 17:01",
+		"nbUInt64AtOffset:put:" : "IgorStasenko 11/24/2012 17:02",
+		"nbUInt8AtOffset:" : "IgorStasenko 11/24/2012 17:02",
+		"nbUInt8AtOffset:put:" : "IgorStasenko 11/24/2012 17:02" } }

@@ -1,0 +1,17 @@
+{
+	"category" : "NewList",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selectedIndex",
+		"getListSizeSelector",
+		"wrappedModel",
+		"listSizeSelector" ],
+	"name" : "ListModelWrapper",
+	"pools" : [
+		 ],
+	"super" : "AbstractListController",
+	"type" : "normal" }
