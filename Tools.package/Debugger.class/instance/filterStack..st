@@ -1,7 +1,7 @@
 private
 filterStack: stack
 	"if the global settings are switched of simply return the full stack"
-	Debugger filterCommonMessageSends ifFalse: [ ^ stack ].
+	self class filterCommonMessageSends ifFalse: [ ^ stack ].
 	"ask if we should keep each context or not"
 	^ stack select: [ :context|
 		[self shouldDisplayContext: context]

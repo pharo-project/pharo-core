@@ -5,7 +5,7 @@ reportDebugLog: aStream
 	
 	| logFilename logStream contents |
 	self header: 'Debug Logfile' on: aStream.
-	logFilename := Debugger defaultLogFileName.
+	logFilename := Smalltalk tools debugger defaultLogFileName.
 	logStream := nil.
 	[
 		[

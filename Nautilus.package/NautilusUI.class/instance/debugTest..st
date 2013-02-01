@@ -17,7 +17,7 @@ debugTest: aMethod
 	context isNil
 		ifTrue: [ ^ UIManager default inform: 'Unable to open debugger on #' , aMethod selector ].
 	process := Process forContext: context priority: Processor userInterruptPriority.
-	Debugger
+	Smalltalk tools debugger
 		openOn: process
 		context: context
 		label: 'Debug ' , aMethod methodClass name , '>>#' , aMethod selector

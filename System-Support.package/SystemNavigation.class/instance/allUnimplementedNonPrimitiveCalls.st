@@ -10,7 +10,7 @@ allUnimplementedNonPrimitiveCalls
 				selectorsAndMethodsDo: [:sel :meth |
 					| secondStream | 
 					secondStream := (String new: 5) writeStream.
-					meth isPrimitive isFalse: [
+					meth isPrimitive ifFalse: [
 						meth messages
 							do: [:m | (all includes: m)
 									ifFalse: [secondStream nextPutAll: m;

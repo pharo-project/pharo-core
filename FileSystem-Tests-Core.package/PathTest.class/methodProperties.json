@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testAbsolutePath" : "PavelKrivanek 11/25/2012 20:15",
 		"testAbsolutePrintString" : "EstebanLorenzano 4/3/2012 11:15",
 		"testAbsoluteWithParents" : "EstebanLorenzano 4/2/2012 11:42",
 		"testAsReference" : "EstebanLorenzano 4/12/2012 14:28",
