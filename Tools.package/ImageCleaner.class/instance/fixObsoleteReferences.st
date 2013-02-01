@@ -18,8 +18,6 @@ fixObsoleteReferences
 					realClass := Smalltalk globals at: realName asSymbol ifAbsent: [ UndefinedObject ].
 					binding key: binding key value: realClass ] ].
 	Behavior flushObsoleteSubclasses.
-	Smalltalk
-		garbageCollect;
-		garbageCollect.
-	SystemNavigation new obsoleteBehaviors size > 0
-		ifTrue: [ SystemNavigation new obsoleteBehaviors inspect ]
+	Smalltalk garbageCollect.
+	SystemNavigation new obsoleteBehaviors 
+		ifNotEmpty: [ SystemNavigation new obsoleteBehaviors inspect ]

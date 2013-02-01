@@ -1,0 +1,14 @@
+{
+	"category" : "Tools-ImageCleaner",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ImageCleaner",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
