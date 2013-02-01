@@ -1,3 +1,3 @@
 copying
 copyWithPath: newPath
-	self subclassResponsability
+	self subclassResponsibility

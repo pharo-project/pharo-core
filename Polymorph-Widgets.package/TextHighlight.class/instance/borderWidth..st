@@ -2,4 +2,5 @@ accessing
 borderWidth: anObject
 	"Set the value of borderWidth"
 
-	borderWidth := anObject
+	borderWidth := anObject.
+	lineHighligths do: [:e | e borderWidth: anObject ]

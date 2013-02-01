@@ -1,3 +1,3 @@
 testing
 isRelative 
-	self subclassResponsability 
+	self subclassResponsibility 

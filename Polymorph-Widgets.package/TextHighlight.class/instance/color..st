@@ -2,4 +2,5 @@ accessing
 color: anObject
 	"Set the value of color"
 
-	color := anObject
+	color := anObject.
+	lineHighligths do: [:e | e color: anObject ]

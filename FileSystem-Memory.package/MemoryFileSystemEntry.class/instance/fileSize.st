@@ -1,3 +1,3 @@
 accessing
 fileSize
-	self subclassResponsability 
+	self subclassResponsibility 

@@ -1,3 +1,3 @@
 operations
 renameTo: newBasename
-	self subclassResponsability
+	self subclassResponsibility

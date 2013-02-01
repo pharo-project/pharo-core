@@ -2,4 +2,4 @@ accessing
 absolutePath
 	"Returns the absolute path"
 	
-	^ self subclassResponsability
+	^ self subclassResponsibility

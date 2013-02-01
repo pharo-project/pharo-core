@@ -1,3 +1,3 @@
 public
 writeStream
-	self subclassResponsability
+	self subclassResponsibility

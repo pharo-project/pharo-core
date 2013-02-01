@@ -1,4 +1,4 @@
-as yet unclassified
+*Polymorph-Widgets
 themeChanged
 	"Update the scrollbar width/frame."
 

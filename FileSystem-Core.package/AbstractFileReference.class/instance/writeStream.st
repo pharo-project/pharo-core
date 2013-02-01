@@ -1,3 +1,3 @@
 streams
 writeStream
-	self subclassResponsability
+	self subclassResponsibility

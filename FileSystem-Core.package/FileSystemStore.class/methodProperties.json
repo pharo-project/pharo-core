@@ -4,7 +4,7 @@
 		"isCaseSensitive" : "CamilloBruni 5/7/2012 01:20",
 		"separator" : "CamilloBruni 5/7/2012 01:11" },
 	"instance" : {
-		"basenameFromEntry:" : "CamilloBruni 6/22/2012 21:59",
+		"basenameFromEntry:" : "PavelKrivanek 11/23/2012 12:21",
 		"basicCreationTime:" : "CamilloBruni 7/10/2012 20:56",
 		"basicIsDirectory:" : "CamilloBruni 1/20/2012 11:34",
 		"basicIsFile:" : "CamilloBruni 1/20/2012 11:34",
@@ -40,7 +40,7 @@
 		"modificationTime:" : "CamilloBruni 7/10/2012 20:56",
 		"nodeAt:ifPresent:ifAbsent:" : "cwp 2/18/2011 12:50",
 		"open" : "cwp 2/19/2011 01:38",
-		"openFileStream:writable:" : "CamilloBruni 6/22/2012 21:03",
+		"openFileStream:writable:" : "PavelKrivanek 11/23/2012 12:21",
 		"pathFromString:" : "CamilloBruni 5/7/2012 02:20",
 		"permissions:" : "PavelKrivanek 7/12/2012 13:22",
 		"printPath:on:" : "cwp 2/28/2011 12:28",

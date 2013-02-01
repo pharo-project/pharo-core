@@ -1,3 +1,3 @@
 navigating
 resolveString: aString 
-	self subclassResponsability
+	self subclassResponsibility

@@ -1,3 +1,3 @@
 converting
 asAbsolute 
-	self subclassResponsability
+	self subclassResponsibility

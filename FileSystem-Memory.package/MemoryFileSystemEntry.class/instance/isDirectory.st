@@ -1,3 +1,3 @@
 testing
 isDirectory
-	self subclassResponsability
+	self subclassResponsibility

@@ -5,17 +5,17 @@ addHighlightsFrom: srcBlock to: dstBlock to: aCollection color: aColor
 	on the line spans."
 	
 	srcBlock textLine = dstBlock textLine
-		ifTrue: [aCollection add: (TextHighlight new
+		ifTrue: [aCollection add: (TextHighlightByBounds new
 				color: aColor;
 				bounds: (srcBlock topLeft corner: dstBlock bottomRight))]
 		ifFalse: [aCollection
-					add: (TextHighlight new
+					add: (TextHighlightByBounds new
 							color: aColor;
 							bounds: (srcBlock topLeft corner: srcBlock textLine bottomRight));
-					add: (TextHighlight new
+					add: (TextHighlightByBounds new
 							fillWidth: true;
 							color: aColor;
 							bounds: (srcBlock bottomLeft corner: dstBlock topRight));
-					add: (TextHighlight new
+					add: (TextHighlightByBounds new
 							color: aColor;
 							bounds: (dstBlock textLine topLeft corner: dstBlock bottomRight))]

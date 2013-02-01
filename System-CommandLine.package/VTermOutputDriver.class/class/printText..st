@@ -3,7 +3,7 @@ printText: aText
 	" Example code shows how to output formatted text"
 	| out |
 
-	out := self stdOut.
+	out := self stdout.
 
 	aText doWithIndex: [ :char :index| 
 		aText attributesAt: index do: [ :attr| 

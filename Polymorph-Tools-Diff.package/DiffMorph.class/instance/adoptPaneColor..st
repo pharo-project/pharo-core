@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 adoptPaneColor: paneColor
 	"Change our border color too."
 	

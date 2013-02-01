@@ -1,4 +1,4 @@
-as yet unclassified
+user interface
 initialExtent
 	"Answer the initial extent for the receiver."
 

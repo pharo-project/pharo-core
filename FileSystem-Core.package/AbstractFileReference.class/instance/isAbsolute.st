@@ -1,3 +1,3 @@
 testing
 isAbsolute 
-	self subclassResponsability 
+	self subclassResponsibility 

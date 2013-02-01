@@ -1,3 +1,3 @@
 converting
 asFileReference 
-	self subclassResponsability 
+	self subclassResponsibility 

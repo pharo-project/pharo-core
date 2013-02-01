@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addHighlightsFrom:to:to:color:" : "gvc 11/1/2006 14:16",
+		"addHighlightsFrom:to:to:color:" : "BenjaminVanRyseghem 11/22/2012 17:52",
 		"borderColor" : "gvc 11/1/2006 14:16",
 		"borderColor:" : "gvc 11/1/2006 14:16",
 		"borderColorToUse" : "gvc 11/1/2006 14:22",
@@ -22,7 +22,7 @@
 		"dstRange:" : "gvc 11/1/2006 14:19",
 		"fillStyleFor:" : "gvc 11/1/2006 14:19",
 		"initialize" : "gvc 11/1/2006 14:20",
-		"newHighlight" : "gvc 11/1/2006 14:18",
+		"newHighlight" : "BenjaminVanRyseghem 11/22/2012 17:52",
 		"shape" : "gvc 11/1/2006 14:19",
 		"shape:" : "gvc 11/1/2006 14:19",
 		"src" : "gvc 11/1/2006 14:19",

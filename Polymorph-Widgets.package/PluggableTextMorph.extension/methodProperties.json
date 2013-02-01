@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addHighlightFrom:to:color:" : "BenjaminVanRyseghem 11/22/2012 17:54",
 		"adoptPaneColor:" : "AlainPlantec 2/21/2011 18:21",
 		"appendText:" : "AlainPlantec 11/8/2010 22:10",
 		"focusBounds" : "AlainPlantec 11/8/2010 22:10",

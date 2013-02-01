@@ -1,3 +1,3 @@
 navigating
 resolve
-	^ self subclassResponsability 
+	^ self subclassResponsibility 

@@ -1,3 +1,3 @@
 public
 readStream
-	self subclassResponsability
+	self subclassResponsibility

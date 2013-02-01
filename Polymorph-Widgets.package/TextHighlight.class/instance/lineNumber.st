@@ -1,5 +1,4 @@
 accessing
 lineNumber
-	"Answer the first in the line range."
 
-	^self lineRange first
+	^ self textMorph textMorph paragraph lineIndexOfCharacterIndex: self lineRange first

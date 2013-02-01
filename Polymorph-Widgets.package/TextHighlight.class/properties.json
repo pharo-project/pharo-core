@@ -8,11 +8,12 @@
 	"instvars" : [
 		"color",
 		"lineRange",
-		"bounds",
 		"borderWidth",
 		"borderColor",
 		"borderSides",
-		"fillWidth" ],
+		"fillWidth",
+		"lineHighligths",
+		"textMorph" ],
 	"name" : "TextHighlight",
 	"pools" : [
 		 ],

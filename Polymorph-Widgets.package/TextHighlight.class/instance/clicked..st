@@ -1,4 +1,4 @@
-as yet unclassified
+event
 clicked: evt
 	"The receiver has had a mouse down."
 

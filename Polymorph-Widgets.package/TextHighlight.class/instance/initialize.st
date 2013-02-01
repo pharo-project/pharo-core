@@ -1,8 +1,9 @@
-as yet unclassified
+initialize-release
 initialize
 	"Initialize the receiver."
 
 	super initialize.
+	lineHighligths := #().
 	self
 		color: Color yellow;
 		lineRange: (1 to: 0);
