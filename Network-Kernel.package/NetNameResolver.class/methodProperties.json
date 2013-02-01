@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"addressForName:" : "ls 9/5/1998 01:14",
-		"addressForName:timeout:" : "VeronicaUquillas 6/11/2010 14:42",
+		"addressForName:timeout:" : "SvenVanCaekenberghe 11/2/2012 13:13",
 		"addressFromString:" : "marcus.denker 9/14/2008 21:16",
 		"initialize" : "HenrikSperreJohansen 2/16/2012 15:49",
 		"initializeNetwork" : "HenrikSperreJohansen 2/16/2012 15:47",
@@ -11,7 +11,7 @@
 		"localHostName" : "lr 3/13/2010 15:07",
 		"loopBackAddress" : "NouryBouraqadi 10/1/2010 16:08",
 		"loopBackName" : "NouryBouraqadi 10/1/2010 16:08",
-		"nameForAddress:timeout:" : "lr 3/13/2010 15:07",
+		"nameForAddress:timeout:" : "SvenVanCaekenberghe 11/2/2012 13:13",
 		"primAbortLookup" : "ar 2/2/2001 15:09",
 		"primAddressLookupResult" : "ar 2/2/2001 15:09",
 		"primGetAddressInfoFamily" : "janniklaval 2/10/2011 11:32",
@@ -41,7 +41,8 @@
 		"resolverMutex" : "HenrikSperreJohansen 2/16/2012 15:54",
 		"resolverStatus" : "JMM 5/3/2000 11:25",
 		"stringFromAddress:" : "lr 3/13/2010 15:07",
-		"waitForCompletionUntil:" : "lr 3/13/2010 15:07",
-		"waitForResolverReadyUntil:" : "lr 3/13/2010 15:07" },
+		"waitForCompletionUntil:" : "SvenVanCaekenberghe 11/2/2012 13:24",
+		"waitForResolverNonBusyUntil:" : "SvenVanCaekenberghe 11/2/2012 13:24",
+		"waitForResolverReadyUntil:" : "SvenVanCaekenberghe 11/2/2012 13:24" },
 	"instance" : {
 		 } }

@@ -47,7 +47,7 @@ Running this benchmark will not give any useful result.'].
 			basicSize; basicSize; basicSize; basicSize; basicSize.
 		index := index - 1.
 	].
-	baseTime := self millisecondClockValue - baseTime.
+	baseTime := self millisecondsSince: baseTime.
 
 	"Setup the active delay but try to never make it active"
 	[(Delay forMilliseconds: delayTime + delayTime) wait] 
@@ -61,7 +61,7 @@ Running this benchmark will not give any useful result.'].
 			basicSize; basicSize; basicSize; basicSize; basicSize.
 		index := index - 1.
 	].
-	actualTime := self millisecondClockValue - actualTime.
+	actualTime := self millisecondsSince: actualTime.
 
 	"And get us some result"
 	^((actualTime - baseTime) * 1000 asFloat / (nLoops * 10) truncateTo: 0.001) printString,

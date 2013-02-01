@@ -6,7 +6,7 @@ waitForReply: replySize for: timeOutDuration
 	bytesRead := 0.
 	delay := Delay forMilliseconds: 500.
 	[bytesRead < replySize
-		and: [(Time millisecondClockValue - startTime) < timeOutDuration]] whileTrue: [
+		and: [(Time millisecondsSince: startTime) < timeOutDuration]] whileTrue: [
 		bytesRead := bytesRead + (self receiveDataInto: response).
 		delay wait.
 		Transcript show: '.'].

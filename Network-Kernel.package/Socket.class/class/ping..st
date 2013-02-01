@@ -26,6 +26,6 @@ ping: hostName
 		do: [ :ex | 
 			(self confirm: 'Packet sent but no echo yet; keep waiting?')
 				ifTrue: [ ex retry ] ].
-	echoTime := Time millisecondClockValue - startTime.
+	echoTime := Time millisecondsSince: startTime.
 	sock destroy.
 	self inform: hostName , ' responded in ' , echoTime printString , ' milliseconds'

@@ -8,4 +8,11 @@ packagesForCleanUpInProduction
 	'Manifest-Core'
 	'Manifest-CriticBrowser'
 	'Manifest-Tests'
-	'Manifest-Resources-Tests')
+	'Manifest-Resources-Tests'
+	"Metacello"
+	'Metacello-ToolBox'
+	'Metacello-MC'
+	'Metacello-Platform'
+	'Metacello-Core'
+	'Metacello-Base'
+	)

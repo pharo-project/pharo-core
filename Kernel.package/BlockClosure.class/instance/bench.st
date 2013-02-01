@@ -14,6 +14,7 @@ bench
                        ifFalse: [(rounded / 1000.0) printString]].
 	count := 0.
 	endTime := Time millisecondClockValue + 5000.
+	self assert: endTime < SmallInteger maxVal.
 	startTime := Time millisecondClockValue.
 	[ Time millisecondClockValue > endTime ] whileFalse: [ self value.  count := count + 1 ].
 	endTime := Time millisecondClockValue.

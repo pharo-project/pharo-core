@@ -5,12 +5,5 @@ waitForResolverReadyUntil: deadline
 	| status |
 	status := self resolverStatus.
 	status = ResolverUninitialized ifTrue: [^ false].
-
-	[(status = ResolverBusy) and:
-	 [Time millisecondClockValue < deadline]]
-		whileTrue: [
-			"wait for resolver to be available"
-			ResolverSemaphore waitTimeoutMSecs: (deadline - Time millisecondClockValue).
-			status := self resolverStatus].
-
+	status := self waitForResolverNonBusyUntil: deadline.
 	^ status ~= ResolverBusy

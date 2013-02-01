@@ -13,7 +13,7 @@ addressForName: hostName timeout: secs
 	result isNil ifFalse: [^result asSocketAddress].
 
 	"Look up a host name, including ones that start with a digit (e.g. 100000jobs.de or www.pharo-project.org)"
-	deadline := Time millisecondClockValue + (secs * 1000).
+	deadline := Time millisecondClockValue -> (secs * 1000).
 	"Protect the execution of this block, as the ResolverSemaphore is used for both parts of the transaction."
 	self resolverMutex
 		critical: [

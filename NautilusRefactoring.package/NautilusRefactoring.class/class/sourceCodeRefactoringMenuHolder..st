@@ -4,7 +4,7 @@ sourceCodeRefactoringMenuHolder: aBuilder
 	| target |
 	target := aBuilder model.
 	
-	(aBuilder item: #'Format (r)')
+	(aBuilder item: #'Format')
 		order: 9996;
 		action: [ target refactor formatSourceCode ].
 		

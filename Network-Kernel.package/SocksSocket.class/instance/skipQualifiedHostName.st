@@ -6,7 +6,7 @@ skipQualifiedHostName
 	response := ByteArray new: 1.
 
 	[(bytesRead := self receiveDataInto: response) < 1
-		and: [(Time millisecondClockValue - startTime) < self defaultTimeOutDuration]] whileTrue.
+		and: [(Time millisecondsSince: startTime) < self defaultTimeOutDuration]] whileTrue.
 
 	bytesRead < 1
 		ifTrue: [self socksError: 'Time out reading data'].

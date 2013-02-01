@@ -34,7 +34,7 @@ Running this benchmark will not give any useful result.'].
 	time := Time millisecondClockValue.
 	[temp1 < temp3]
 		whileTrue:[temp1 := temp1 + 1].
-	time := Time millisecondClockValue - time.
+	time := Time millisecondsSince: time.
 
 	"And compute the number of microseconds spent per call to #millisecondClockValue"
 	^((delayTime - time * 1000.0 / nLoops) truncateTo: 0.001) printString,

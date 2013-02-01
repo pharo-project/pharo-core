@@ -21,11 +21,11 @@
 		"sendSocks4ConnectionRequestUserId:" : "PeterHugossonMiller 9/3/2009 11:24",
 		"sendSocks5ConnectionRequest" : "PeterHugossonMiller 9/3/2009 11:24",
 		"shouldUseSocks" : "mir 9/26/2000 11:23",
-		"skipQualifiedHostName" : "mir 3/6/2000 17:35",
+		"skipQualifiedHostName" : "SvenVanCaekenberghe 11/2/2012 11:02",
 		"socks4" : "mir 9/26/2000 00:05",
 		"socks5" : "mir 9/26/2000 00:05",
 		"socks5MethodSelection" : "StephaneDucasse 5/28/2011 13:42",
 		"socks5RequestReply" : "mir 3/6/2000 17:28",
 		"socksError:" : "mir 3/6/2000 15:11",
-		"waitForReply:for:" : "len 12/14/2002 11:39",
+		"waitForReply:for:" : "SvenVanCaekenberghe 11/2/2012 11:02",
 		"waitForSocks4ConnectionReply" : "mir 3/6/2000 15:11" } }

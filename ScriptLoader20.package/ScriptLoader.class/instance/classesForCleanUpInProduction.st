@@ -4,5 +4,7 @@ classesForCleanUpInProduction
 	 WARNING, ORDER CAN BE IMPORTANT"
 	
 	^#(
+	"Configurations"
+	'ConfigurationOf*'
 	"Manifest & Critics Browser"
 	'Manifest*')
