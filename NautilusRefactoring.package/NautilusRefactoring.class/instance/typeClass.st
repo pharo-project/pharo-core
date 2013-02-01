@@ -1,4 +1,4 @@
 rewrite code
 typeClass
 	
-	self model sourceCode: (self typeClassTextFor: self selectedClasses)
+	self model sourceCode: (self typeClassTextFor: self model selectedClasses)

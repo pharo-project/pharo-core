@@ -1,10 +1,10 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6942:	Integer >> asArray, asByteArray, asByteArrayOfSize in usuitable package
-	http://code.google.com/p/pharo/issues/detail?id=6942
+ ^ 'Issue 6912:	#fancyText:font:color: has no senders, and is in strange place (AlignmentMorph)
+	http://code.google.com/p/pharo/issues/detail?id=6912
 	
-Issue 6937:	RGMonticelloTest in unsuitable package
-	http://code.google.com/p/pharo/issues/detail?id=6937
+Issue 6883:	Type Class refactoring
+	http://code.google.com/p/pharo/issues/detail?id=6883
 	
-Issue 6940:	BehaviorTest >> testComposedBy dependent on Morphic
-	http://code.google.com/p/pharo/issues/detail?id=6940'
+Issue 6947:	Small cleanup for DebuggerMethodMap
+	http://code.google.com/p/pharo/issues/detail?id=6947'
