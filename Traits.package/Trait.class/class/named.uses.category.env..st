@@ -10,7 +10,7 @@ named: aSymbol uses: aTraitCompositionOrCollection category: aString env: anEnvi
 	"Since there some strange side effect who changes teh category before being able to 
 	  actually update (and that causes a problem on RPackage organization), we take also the 
 	  category"
-	oldCategory := oldTrait category.
+	oldCategory := oldTrait ifNotNil: [ oldTrait category ].
 	trait := trait ifNil: [ super new ].
 	
 	(trait isKindOf: Trait) ifFalse: [

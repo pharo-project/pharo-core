@@ -4,7 +4,8 @@ logStartupError: anError into: aCollection tryDebugger: tryDebugger
 	tryDebugger ifTrue: [ 
 		[ ^ anError debug ] 
 			on: Error do: [ 
-				"an error occured during error handling... treat the error as a normal startup error " ]].
+				"an error occured during error handling... 
+				treat the error as a normal startup error " ]].
 
 	self 
 		logError: '==== Startup Error: ', anError description 
