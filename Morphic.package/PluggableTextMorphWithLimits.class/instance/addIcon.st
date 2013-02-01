@@ -1,3 +1,3 @@
 initialize
 addIcon
-	self addMorph: lockIcon fullFrame: (LayoutFrame fractions: (1 @ 0 corner: 1 @ 0) offsets: (-20 @ 0 corner: 0 @ 20))
+	self addMorph: lockIcon fullFrame: ((1 @ 0 corner: 1 @ 0) asLayoutFrame leftOffset: -20; bottomOffset: 20)

@@ -11,14 +11,10 @@ morphicViewOnFile: aFile contents: contents fileList: aFileList
 		(aFileList morphicPatternPane).
 		
 	self addFullPanesTo: window from: {
-		{aFileList morphicDirectoryTreePane. 0@0 corner: midLine@1. 
-			0@0 corner: 0@0}.
-		{buttonPane. midLine@0 corner: 1@0. 
-			0@0 corner: 0@(fileListTopOffset-3)}.
-		{aFileList morphicFileListPane. midLine @ 0 corner: 1@fileListBottom.  
-			0@fileListTopOffset corner: 0@0}.
-		{fileContentsView := aFileList morphicFileContentsPane. midLine@fileListBottom corner: 1@1. 
-			nil}.
+		{aFileList morphicDirectoryTreePane. (0@0 corner: midLine@1) asLayoutFrame }.
+		{buttonPane. (midLine@0 corner: 1@0) asLayoutFrame bottomOffset: (fileListTopOffset-3)}.
+		{aFileList morphicFileListPane. (midLine @ 0 corner: 1@fileListBottom) asLayoutFrame topOffset: fileListTopOffset}.
+		{fileContentsView := aFileList morphicFileContentsPane. (midLine@fileListBottom corner: 1@1) asLayoutFrame}.
 	}.
 	
 	contents ifNotNil: [

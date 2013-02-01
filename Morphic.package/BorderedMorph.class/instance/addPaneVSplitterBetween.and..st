@@ -7,8 +7,10 @@ addPaneVSplitterBetween: leftMorph and: rightMorphs
 	maxY := (rightMorphs detectMax: [:each | each layoutFrame bottomFraction]) layoutFrame bottomFraction.
 	
 	splitter := ProportionalSplitterMorph new.
-	splitter layoutFrame: (LayoutFrame
-		fractions: (targetX @ minY corner: targetX @ maxY)
-		offsets: ((0 @ (leftMorph layoutFrame topOffset ifNil: [0]) corner: (4@ (leftMorph layoutFrame bottomOffset ifNil: [0]))) translateBy: (leftMorph layoutFrame rightOffset ifNil: [0]) @ 0)).
+	splitter layoutFrame: ( (targetX @ minY corner: targetX @ maxY) asLayoutFrame 
+		leftOffset: leftMorph layoutFrame rightOffset;
+		rightOffset: 4+ leftMorph layoutFrame rightOffset;
+		topOffset:  leftMorph layoutFrame topOffset;
+		bottomOffset: leftMorph layoutFrame bottomOffset).
 
 	self addMorphBack: (splitter position: self position).

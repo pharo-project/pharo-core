@@ -12,26 +12,14 @@ addAListPane: aListPane to: window at: nominalFractions plus: verticalOffset
 	switchHeight := StandardFonts buttonFont height + 12.
 	self 
 		addMorphicSwitchesTo: row 
-		at: ( 
-			LayoutFrame 
-				fractions: (0@1 corner: 1@1) 
-				offsets: (0@(0-(switchHeight))  corner: 0@0)
-		).
+		at: ((0@1 corner: 1@1) asLayoutFrame topOffset: switchHeight negated).
 	row 
 		addMorph: aListPane
-		fullFrame: (
-			LayoutFrame 
-				fractions: (0@0 corner: 1@1) 
-				offsets: (0@0 corner: 0@(switchHeight negated))
-		).	
+		fullFrame: (LayoutFrame identity bottomOffset: switchHeight negated).	
 
 	window 
 		addMorph: row
-		fullFrame: (
-			LayoutFrame 
-				fractions: nominalFractions 
-				offsets: (0@verticalOffset corner: 0@0)
-		).	
+		fullFrame: ( nominalFractions asLayoutFrame topOffset: verticalOffset).	
 	row on: #mouseEnter send: #paneTransition: to: window.
 	row on: #mouseLeave send: #paneTransition: to: window.
 

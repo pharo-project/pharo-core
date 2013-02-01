@@ -11,10 +11,9 @@ initialize
 	self
 		changeProportionalLayout;
 		addMorph: self descriptionMorph
-		fullFrame: (LayoutFrame fractions: (0@0 corner: 1@0) offsets: (0@0 corner: 0@descriptionHeight));
+		fullFrame: ((0@0 corner: 1@0) asLayoutFrame bottomOffset: descriptionHeight);
 		addMorph: self diffMorph
-		fullFrame: (LayoutFrame fractions: (0@0 corner: 1@1)
-					offsets: (0 @ descriptionHeight corner: 0@0)).
+		fullFrame: (LayoutFrame identity topOffset: descriptionHeight).
 	self
 		extent: self initialExtent;
 		updateDescriptionFillStyle: self paneColor

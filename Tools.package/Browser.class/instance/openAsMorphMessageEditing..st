@@ -13,21 +13,13 @@ openAsMorphMessageEditing: editString
 	nominalFractions := 0@0 corner: 1@0.
 	window 
 		addMorph: mySingletonMessageList
-		fullFrame: (
-			LayoutFrame 
-				fractions: nominalFractions 
-				offsets: (0@0 corner: 0@verticalOffset)
-		).
+		fullFrame: ( nominalFractions asLayoutFrame bottomOffset: verticalOffset).
 
 	verticalOffset := self addOptionalAnnotationsTo: window at: nominalFractions plus: verticalOffset.
 	verticalOffset := self addOptionalButtonsTo: window  at: nominalFractions plus: verticalOffset.
 
 	window 
 		addMorph: (self buildMorphicCodePaneWith: editString)
-		fullFrame: (
-			LayoutFrame 
-				fractions: (0@0 corner: 1@1) 
-				offsets: (0@verticalOffset corner: 0@0)
-		).
+		fullFrame: ( LayoutFrame identity topOffset: verticalOffset  ).
 
 	^ window

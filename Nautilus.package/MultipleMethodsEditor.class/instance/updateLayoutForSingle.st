@@ -4,7 +4,6 @@ updateLayoutForSingle
 	current ifNil: [ ^ self ].
 	self 
 		addMorph: current
-		fullFrame: (LayoutFrame 
-					fractions: (0@0 corner: 1@1)).
+		fullFrame: LayoutFrame identity.
 					
 	current color: Color white.

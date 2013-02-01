@@ -13,9 +13,7 @@ addAll: aWindow
 		topHeight := top height.
 		aWindow 
 			addMorph: top
-			fullFrame: (LayoutFrame 
-							fractions: (0 @ 0 corner: 1 @ 0)
-							offsets: (0 @ 0 corner: 0 @ topHeight)).
+			fullFrame: ((0 @ 0 corner: 1 @ 0) asLayoutFrame bottomOffset: topHeight).
 		delta := 4.
 		topHeight := topHeight + delta.
 		top color: Color transparent].
@@ -29,9 +27,7 @@ addAll: aWindow
 		middleHeight := middle height+4.
 		aWindow 
 			addMorph: middle
-			fullFrame: (LayoutFrame 
-							fractions: (0 @ 0.5 corner: 1 @ 0.5)
-							offsets: (0 @ 0 corner: 0 @ middleHeight)).
+			fullFrame: ((0 @ 0.5 corner: 1 @ 0.5) bottomOffset: middleHeight).
 		middle color: Color transparent].
 	
 	sourceCodePanel := PanelMorph new.
@@ -40,9 +36,8 @@ addAll: aWindow
 		
 	sourceCodePanel 
 		addMorph: self buildCodePane
-		fullFrame: (LayoutFrame 
-						fractions: (0@0 corner: 1@1) 
-						offsets: (0@0 corner: 0@0)).
+		fullFrame: LayoutFrame identity.
+		
 	"self buildCommentPane."
 	sourceCodePanel 
 		hResizing: #spaceFill;
@@ -61,14 +56,11 @@ addAll: aWindow
 	bottomMorph ifNotNil: [:bottom | bottomHeight := bottom height + 8].
 	aWindow
 		addMorph: sourceCodeContainer
-		fullFrame: (LayoutFrame 
-						fractions: (0 @ 0.5 corner: 1 @ 1)
-						offsets: (0 @ middleHeight corner: 0 @ bottomHeight negated)).
+		fullFrame: ( (0@0.5 corner: 1 @ 1) asLayoutFrame 
+						topOffset: middleHeight;  bottomOffset: bottomHeight negated).
 						
 	bottomMorph ifNotNil: [:bottom |					
 		aWindow				
 			addMorph: bottom
-			fullFrame: (LayoutFrame 
-							fractions: (0 @ 1 corner: 1 @ 1)
-							offsets: (0 @ bottomHeight negated corner: 0 @ 0)).
+			fullFrame: ((0 @ 1 corner: 1 @ 1) asLayoutFrame topOffset:  bottomHeight negated).
 		bottom color: Color transparent]

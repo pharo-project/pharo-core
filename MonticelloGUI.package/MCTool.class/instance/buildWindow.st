@@ -11,11 +11,13 @@ buildWindow
 		window
 			addMorph: (self perform: send first withArguments: send allButFirst)
 			fullFrame:
-				(LayoutFrame
-					fractions: 
-						((fractions first)@(fractions second) corner: 
-							(fractions third)@(fractions fourth))
-					offsets:
-						((offsets first)@(offsets second)  corner:
-							(offsets third)@(offsets fourth)))].
+				(LayoutFrame new 
+					leftFraction: fractions first; 
+					topFraction: fractions second;
+					rightFraction: fractions third ; 
+					bottomFraction: fractions fourth; 
+					leftOffset: offsets first;
+					topOffset: offsets second;
+					rightOffset: offsets third;
+					bottomOffset: offsets fourth)].
 	^ window

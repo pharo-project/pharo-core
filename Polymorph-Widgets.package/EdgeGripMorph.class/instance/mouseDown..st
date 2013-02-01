@@ -1,4 +1,4 @@
-as yet unclassified
+event handling
 mouseDown: anEvent
 	"Remember the receiver and target offsets too."
 	

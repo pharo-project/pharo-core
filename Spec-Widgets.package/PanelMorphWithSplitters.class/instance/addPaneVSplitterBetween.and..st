@@ -29,13 +29,13 @@ addPaneVSplitterBetween: leftMorphs and: rightMorphs
 		m layoutFrame topFraction
 			between: topFrame topFraction
 			and: bottomFrame bottomFraction].
-	offset := (leftGroup collect: [:m | m layoutFrame rightOffset ifNil: [0]]) max.
+	offset := (leftGroup collect: [:m | m layoutFrame rightOffset]) max.
 	splitter := ProportionalSplitterMorph new.
-	splitter layoutFrame: (LayoutFrame
-		fractions: (targetX @ topFrame topFraction
-					corner: targetX @ bottomFrame bottomFraction)
-		offsets: ((0 @ (topFrame topOffset ifNil: [0]) corner: (4@ (bottomFrame bottomOffset ifNil: [0])))
-		 	translateBy: offset @ 0)).
+	splitter layoutFrame:  ((targetX @ topFrame topFraction corner: targetX @ bottomFrame bottomFraction) asLayoutFrame 
+								leftOffset: offset;
+								topOffset: topFrame topOffset;
+								rightOffset: 4+offset;
+								bottomOffset: bottomFrame bottomOffset).
 	leftGroup := leftGroup, fixed.
 	leftGroup do: [:m | splitter addLeftOrTop: m].
 	rightGroup do: [:m | splitter addRightOrBottom: m].

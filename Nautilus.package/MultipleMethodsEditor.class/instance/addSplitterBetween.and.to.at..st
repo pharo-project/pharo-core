@@ -9,5 +9,6 @@ addSplitterBetween: e and: below to: panel at: newCumulatedHeight
 		addRightOrBottom: below.
 	panel
 		addMorph: splitter
-		fullFrame:
-			(LayoutFrame fractions: (0 @ newCumulatedHeight corner: 1 @ newCumulatedHeight) offsets: (0 @ -2 corner: 0 @ 2))
+		fullFrame: ((0 @ newCumulatedHeight corner: 1 @ newCumulatedHeight) asLayoutFrame 
+						topOffset: -2 ;
+						bottomOffset: 2)

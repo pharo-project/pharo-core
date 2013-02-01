@@ -6,9 +6,7 @@ openOn: aClass
 	window title: aClass name, ' hierarchy'.
 	window 
 		addMorph: self treeMorph
-		fullFrame: (LayoutFrame 
-				fractions: (0 @ 0 corner: 1 @ 1)
-				offsets: (0 @ 0 corner: 0 @ 0)).						
+		fullFrame: LayoutFrame identity.						
 	window themeChanged.
 	window openInWorld.
 	^ window

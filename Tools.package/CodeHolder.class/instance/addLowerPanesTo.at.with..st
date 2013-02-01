@@ -20,11 +20,7 @@ addLowerPanesTo: window at: nominalFractions with: editString
 
 	row 
 		addMorph: (tm borderWidth: 0)
-		fullFrame: (
-			LayoutFrame 
-				fractions: (innerFractions withBottom: 1) 
-				offsets: (0@verticalOffset corner: 0@0)
-		).
+		fullFrame: ((innerFractions withBottom: 1) asLayoutFrame topOffset: verticalOffset).
 	window 
 		addMorph: row
 		frame: nominalFractions.

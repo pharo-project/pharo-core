@@ -1,4 +1,4 @@
-as yet unclassified
+geometry
 extent: aPoint
 	"If our minor extent changes then adopt the pane colour to
 	reflect any size based gradient in the theme.

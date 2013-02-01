@@ -19,10 +19,10 @@
 		"smartUpdating:" : "AlainPlantec 12/1/2009 22:34" },
 	"instance" : {
 		"addContentsTogglesTo:" : "alain.plantec 5/30/2008 11:22",
-		"addLowerPanesTo:at:with:" : "AlainPlantec 8/26/2011 18:08",
+		"addLowerPanesTo:at:with:" : "StephaneDucasse 12/19/2012 16:14",
 		"addModelItemsToWindowMenu:" : "tbn 7/6/2010 16:36",
-		"addOptionalAnnotationsTo:at:plus:" : "IgorStasenko 1/18/2012 15:28",
-		"addOptionalButtonsTo:at:plus:" : "IgorStasenko 1/18/2012 15:23",
+		"addOptionalAnnotationsTo:at:plus:" : "StephaneDucasse 12/19/2012 16:16",
+		"addOptionalButtonsTo:at:plus:" : "StephaneDucasse 12/19/2012 16:17",
 		"addPriorVersionsCountForSelector:ofClass:to:" : "StephaneDucasse 5/28/2011 13:44",
 		"annotation" : "sd 11/20/2005 21:27",
 		"annotationForClassCommentFor:" : "sd 11/20/2005 21:27",

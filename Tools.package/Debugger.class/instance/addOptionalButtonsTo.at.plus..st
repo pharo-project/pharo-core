@@ -21,7 +21,7 @@ addOptionalButtonsTo: window at: fractions plus: verticalOffset
 	buttons color: Color white; borderWidth: 0.
 	window
 		addMorph: buttons
-		fullFrame: (LayoutFrame
-				fractions: fractions
-				offsets: (0 @ anOffset corner: 0 @ (anOffset + delta - 1))).
+		fullFrame: ( fractions asLayoutFrame 
+					topOffset: anOffset ; 
+					bottomOffset:  (anOffset + delta - 1)).
 	^ anOffset + delta

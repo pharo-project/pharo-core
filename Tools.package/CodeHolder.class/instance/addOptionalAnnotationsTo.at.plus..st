@@ -8,7 +8,5 @@ addOptionalAnnotationsTo: window at: fractions plus: verticalOffset
 	delta := StandardFonts defaultFont height+2.
 	window 
 		addMorph: aTextMorph
-		fullFrame: (LayoutFrame 
-				fractions: fractions 
-				offsets: (0@verticalOffset corner: 0@(verticalOffset + delta))).
+		fullFrame: ( fractions asLayoutFrame topOffset: verticalOffset; bottomOffset: (verticalOffset + delta)).
 	^ verticalOffset + delta

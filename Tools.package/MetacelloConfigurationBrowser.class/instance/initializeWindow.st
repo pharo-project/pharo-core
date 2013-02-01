@@ -10,10 +10,10 @@ initializeWindow
 	leftPanel addMorph: tabs.
 	window 
 		addMorph: leftPanel
-		fullFrame: (LayoutFrame fractions: (0@0 corner: 1@1) offsets: (0@0 corner: 0 @ 0)).		
+		fullFrame: LayoutFrame identity.		
 
 	trustedTree := PluggableTreeMorph new.
-	tabs addPage: trustedTree label: 'Core'.		
+	tabs addPage: trustedTree label: 'Configurations'.		
 	trustedTree 
 		model: self; 
 		setSelectedSelector: #onTrustedSelected:;
@@ -21,11 +21,11 @@ initializeWindow
 		
 	window 
 		addMorph: trustedTree 
-		fullFrame: (LayoutFrame fractions: (0@0 corner: 0@1) offsets: (0@0 corner: 0 @ 0)).		
+		fullFrame: (0@0 corner: 0@1) asLayoutFrame.		
 	tabs selectedPageIndex: 1.
 	
 	untrustedTree := PluggableTreeMorph new.
-	tabs addPage: untrustedTree label: 'Community'.		
+	tabs addPage: untrustedTree label: 'Untrusted'.		
 	untrustedTree 
 		model: self; 
 		setSelectedSelector: #onUntrustedSelected:;
@@ -33,5 +33,5 @@ initializeWindow
 		
 	window 
 		addMorph: untrustedTree 
-		fullFrame: (LayoutFrame fractions: (0@0 corner: 0@1) offsets: (0@0 corner: 0 @ 0)).		
-	tabs selectedPageIndex: 1.									
+		fullFrame: (0@0 corner: 0@1) asLayoutFrame.		
+	tabs selectedPageIndex: 1.								

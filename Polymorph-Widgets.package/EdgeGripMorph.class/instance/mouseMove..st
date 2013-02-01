@@ -1,4 +1,4 @@
-as yet unclassified
+event handling
 mouseMove: anEvent
 	"Track the mouse for resizing."
 	

@@ -8,8 +8,7 @@ newWindow
 		model: (self isMorph ifFalse: [self]);
 		title: self defaultTitle;
 		addMorph: self
-		fullFrame: (LayoutFrame fractions: (0@0 corner: 1@1));
+		fullFrame: LayoutFrame identity;
 		yourself.
-	self
-		borderWidth: 0.
+	self borderWidth: 0.
 	^w

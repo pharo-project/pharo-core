@@ -12,9 +12,14 @@ addPaneSplitters
 		minY := (sameX detectMin: [:each | each layoutFrame topFraction]) layoutFrame topFraction.
 		maxY := (sameX detectMax: [:each | each layoutFrame bottomFraction]) layoutFrame bottomFraction.
 		splitter := ProportionalSplitterMorph new.
-		splitter layoutFrame: (LayoutFrame
-			fractions: (targetX @ minY corner: targetX @ maxY)
-			offsets: ((0 @ (target layoutFrame topOffset ifNil: [0]) corner: 4 @ (target layoutFrame bottomOffset ifNil: [0])) translateBy: (target layoutFrame rightOffset ifNil: [0]) @ 0)).
+		splitter layoutFrame: (
+		
+		 (targetX @ minY corner: targetX @ maxY) asLayoutFrame 
+			leftOffset: target layoutFrame rightOffset;
+			topOffset: target layoutFrame topOffset;
+			rightOffset: 4 + target layoutFrame rightOffset;
+			bottomOffset: target layoutFrame bottomOffset).
+			
 		self addMorphBack: (splitter position: self position).
 		remaining := remaining copyWithoutAll: sameX].
 
@@ -26,9 +31,12 @@ addPaneSplitters
 			minX := (sameY detectMin: [:each | each layoutFrame leftFraction]) layoutFrame leftFraction.
 			maxX := (sameY detectMax: [:each | each layoutFrame rightFraction]) layoutFrame rightFraction.
 			splitter := ProportionalSplitterMorph new beSplitsTopAndBottom; yourself.
-			splitter layoutFrame: (LayoutFrame
-				fractions: (minX @ targetY corner: maxX @ targetY)
-				offsets: (((target layoutFrame leftOffset ifNil: [0]) @ 0 corner: (target layoutFrame rightOffset ifNil: [0]) @ 4) translateBy: 0 @ (target layoutFrame bottomOffset ifNil: [0]))).
+			splitter layoutFrame: (
+				(minX @ targetY corner: maxX @ targetY) asLayoutFrame
+					leftOffset: target layoutFrame leftOffset;
+					topOffset: target layoutFrame bottomOffset;
+					rightOffset: target layoutFrame rightOffset;
+					bottomOffset: 4 + target layoutFrame bottomOffset ).
 			self addMorphBack: (splitter position: self position).
 			remaining := remaining copyWithoutAll: sameY].
 

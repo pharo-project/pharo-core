@@ -20,7 +20,7 @@ buildMorphicNotifierLabelled: label message: messageString
 				askBeforeDiscardingEdits: false].
 	window
 		addMorph: notifyPane
-		fullFrame: (LayoutFrame fractions: (0@0 corner: 1@1) offsets: (0@24 corner: 0@0)).
+		fullFrame: (LayoutFrame identity topOffset: 24).
 	window setBalloonTextForCloseBox.
 	window openInWorldExtent: extentToUse.
 	window currentWorld displayWorld. "helps with interrupt not working somehow."

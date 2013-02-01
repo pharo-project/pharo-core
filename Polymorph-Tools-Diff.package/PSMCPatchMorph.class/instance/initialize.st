@@ -12,12 +12,11 @@ initialize
 	self
 		changeProportionalLayout;
 		addMorph: self descriptionMorph
-		fullFrame: (LayoutFrame fractions: (0.3@0 corner: 1@0) offsets: (ProportionalSplitterMorph splitterWidth @ 0 corner: 0@descriptionHeight));
+		fullFrame: ((0.3@0 corner: 1@0) asLayoutFrame leftOffset: ProportionalSplitterMorph splitterWidth; bottomOffset: descriptionHeight);
 		addMorph: self changeTree
-		fullFrame: (LayoutFrame fractions: (0@0 corner: 0.3@1) offsets: (0@0 corner: 0@0));
+		fullFrame: (0@0 corner: 0.3@1) asLayoutFrame;
 		addMorph: self diffMorph
-		fullFrame: (LayoutFrame fractions: (0.3@0 corner: 1@1)
-					offsets: (ProportionalSplitterMorph splitterWidth @ descriptionHeight corner: 0@0));
+		fullFrame: ((0.3@0 corner: 1@1) asLayoutFrame topLeftOffset: ProportionalSplitterMorph splitterWidth @ descriptionHeight);
 		addPaneSplitters.
 	self updateDescriptionFillStyle: self paneColor.
 	self splitters first delete.

@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 resizeCursor
 
 	^ Cursor resizeForEdge: self edgeName

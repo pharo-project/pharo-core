@@ -7,23 +7,15 @@ addAllItems: aWindow
 	
 	aWindow 
 		addMorph: toolbar
-		fullFrame: (LayoutFrame 
-						fractions: (0 @ 0 corner: 1 @ 0)
-						offsets: (0 @ 0 corner: 0 @ height)).
+		fullFrame: ( (0 @ 0 corner: 1 @ 0) asLayoutFrame bottomOffset: height).
 	aWindow
 		addMorph: self buildPackagesTree buildContents
-		fullFrame: (LayoutFrame 
-			fractions: (0@0 corner: 1@0.58)
-			offsets: (0@height corner: 0@0)).
+		fullFrame: ((0@0 corner: 1@0.58) asLayoutFrame topOffset: height).
 	btnFont := StandardFonts buttonFont.
 	btnToolbar := self buildBrowseToolBar: aWindow.
 	aWindow
 		addMorph: btnToolbar
-		fullFrame: (LayoutFrame
-						fractions: (0@0.58 corner: 1@0.58)
-						offsets:(0@0 corner: 0@(btnFont height +cst))).
+		fullFrame: ((0@0.58 corner: 1@0.58) asLayoutFrame bottomOffset: (btnFont height +cst)).
 	aWindow 
 		addMorph: self sourceTextArea
-		fullFrame: (LayoutFrame
-						fractions: (0@0.58 corner: 1@1)
-						offsets:(0@(btnFont height +cst) corner: 0@0)).
+		fullFrame: ((0@0.58 corner: 1@1) asLayoutFrame topOffset: btnFont height +cst)

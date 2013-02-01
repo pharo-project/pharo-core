@@ -15,8 +15,6 @@ addOptionalButtonsTo: window at: fractions plus: verticalOffset
 
 	window
 		addMorph: buttons
-		fullFrame: (LayoutFrame
-				fractions: fractions
-				offsets: (0 @ verticalOffset corner: 0 @ (verticalOffset + delta))).
+		fullFrame: (fractions asLayoutFrame topOffset: verticalOffset; bottomOffset: (verticalOffset + delta)).
 
 	^ verticalOffset + delta

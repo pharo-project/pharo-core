@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"adoptPaneColor:" : "gvc 10/1/2007 14:26",
-		"bottomLayoutFrame" : "gvc 10/1/2007 13:53",
+		"bottomLayoutFrame" : "IgorStasenko 12/19/2012 17:50",
 		"defaultHeight" : "GaryChambers 1/25/2011 13:10",
 		"defaultWidth" : "GaryChambers 1/25/2011 13:10",
 		"edgeName" : "gvc 10/1/2007 13:03",
@@ -15,7 +15,7 @@
 		"gripLayoutFrame" : "gvc 10/1/2007 14:03",
 		"initialize" : "GaryChambers 1/25/2011 13:12",
 		"isHorizontal" : "gvc 10/1/2007 14:20",
-		"leftLayoutFrame" : "gvc 10/1/2007 14:07",
+		"leftLayoutFrame" : "IgorStasenko 12/19/2012 17:56",
 		"mouseDown:" : "GaryChambers 1/24/2011 13:11",
 		"mouseMove:" : "GaryChambers 1/20/2011 11:23",
 		"mouseUp:" : "gvc 10/1/2007 14:33",
@@ -23,7 +23,7 @@
 		"positionPoint:" : "gvc 10/1/2007 13:05",
 		"pressedFillStyle" : "gvc 10/1/2007 14:23",
 		"resizeCursor" : "gvc 10/1/2007 13:05",
-		"rightLayoutFrame" : "gvc 10/1/2007 14:09",
+		"rightLayoutFrame" : "IgorStasenko 12/19/2012 17:57",
 		"setLayoutSizingFor:" : "GaryChambers 1/25/2011 13:20",
 		"setTargetBounds:" : "GaryChambers 1/25/2011 15:13",
 		"splitsTopAndBottom" : "gvc 12/3/2007 15:11",
@@ -32,4 +32,4 @@
 		"targetPoint" : "gvc 10/1/2007 13:05",
 		"targetPoint:" : "GaryChambers 1/25/2011 15:24",
 		"themeChanged" : "gvc 10/9/2007 14:26",
-		"topLayoutFrame" : "gvc 10/1/2007 14:47" } }
+		"topLayoutFrame" : "IgorStasenko 12/19/2012 17:58" } }

@@ -9,18 +9,10 @@ openAsMorphMsgCatEditing: editString
 		addMorph: ((PluggableListMorph on: self list: #messageCatListSingleton
 			selected: #indexIsOne changeSelected: #indexIsOne:
 			menu: #messageCategoryMenu:) enableDragNDrop: true)
-		fullFrame: (
-			LayoutFrame 
-				fractions: (0@0 corner: 1@0) 
-				offsets: (0@0 corner: 0@25)
-		).
+		fullFrame: (  (0@0 corner: 1@0) asLayoutFrame bottomOffset: 25).
 	window 
 		addMorph: self buildMorphicMessageList
-		fullFrame: (
-			LayoutFrame 
-				fractions: (0@0 corner: 1@hSepFrac) 
-				offsets: (0@25 corner: 0@0)
-		).
+		fullFrame: ((0@0 corner: 1@hSepFrac) asLayoutFrame topOffset: 0@25).
 
 	self 
 		addLowerPanesTo: window 

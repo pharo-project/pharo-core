@@ -5,10 +5,6 @@ addCloseBox
 	labelArea
 		ifNil: [^ self].
 	closeBox := self createCloseBox.
-	frame := LayoutFrame new.
-	frame leftFraction: 0;
-		 leftOffset: 2;
-		 topFraction: 0;
-		 topOffset: 0.
+	frame := LayoutFrame identity leftOffset: 2.
 	closeBox layoutFrame: frame.
 	labelArea addMorphBack: closeBox

@@ -16,9 +16,7 @@ window
 	buttonsRow addAllMorphs: {cancelBtn. okBtn}.
 	window
 		addMorph: sliceInfoRow
-		fullFrame: (LayoutFrame
-				fractions: (0 @ 0 corner: 1 @ 0)
-				offsets: (0 @ 0 corner: 0 @ sliceInfoRow height)).
+		fullFrame: ( (0 @ 0 corner: 1 @ 0) asLayoutFrame bottomOffset: sliceInfoRow height).
 	tree := MorphTreeModel new 
 		rootItems: self rootItems;
 		beCheckList;
@@ -34,12 +32,10 @@ window
 		yourself.
 	window
 		addMorph: treeMorph
-		fullFrame: (LayoutFrame
-				fractions: (0 @ 0 corner: 1 @ 1)
-				offsets: (0 @ sliceInfoRow height corner: 0 @ buttonsRow height negated)).
+		fullFrame: (LayoutFrame identity
+					topOffset:  sliceInfoRow height ; 
+					bottomOffset: buttonsRow height negated).
 	window
 		addMorph: buttonsRow
-		fullFrame: (LayoutFrame
-				fractions: (0 @ 1 corner: 1 @ 1)
-				offsets: (0 @ buttonsRow height negated corner: 0 @ 0)).
+		fullFrame:  ((0 @ 1 corner: 1 @ 1) asLayoutFrame  topOffset: buttonsRow height negated).
 	^ window

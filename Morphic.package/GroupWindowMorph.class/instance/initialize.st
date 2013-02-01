@@ -8,6 +8,6 @@ initialize
 	self tabGroup tabSelectorMorph addDependent: self.
 	self
 		dropEnabled: true;
-		addMorph: self tabGroup fullFrame:( LayoutFrame fractions: (0@0 corner: 1@1)).
+		addMorph: self tabGroup fullFrame: LayoutFrame identity.
 	self tabGroup color: Color transparent.
 	

@@ -23,7 +23,7 @@
 		"restartAlsoProceeds" : "AlainPlantec 12/6/2009 22:06",
 		"restartAlsoProceeds:" : "StephaneDucasse 7/22/2011 18:13" },
 	"instance" : {
-		"addOptionalButtonsTo:at:plus:" : "MarcusDenker 1/23/2011 09:15",
+		"addOptionalButtonsTo:at:plus:" : "StephaneDucasse 12/19/2012 16:31",
 		"askForCategoryIn:default:" : "EstebanLorenzano 11/21/2009 17:01",
 		"askForSuperclassOf:toImplement:ifCancel:" : "sd 11/20/2005 21:27",
 		"blockContents:notifying:" : "CamilloBruni 4/27/2012 10:47",
@@ -37,7 +37,7 @@
 		"buildListOfContextFor:" : "MarcusDenker 11/2/2012 10:34",
 		"buildListOfElementsFor:" : "MarcusDenker 11/2/2012 10:34",
 		"buildListOfFieldsFor:" : "MarcusDenker 11/2/2012 10:34",
-		"buildMorphicNotifierLabelled:message:" : "MarcusDenker 11/2/2012 11:45",
+		"buildMorphicNotifierLabelled:message:" : "StephaneDucasse 12/19/2012 16:32",
 		"buildNotifyListPane:" : "MarcusDenker 11/2/2012 10:34",
 		"buildNotifyTextPane:" : "MarcusDenker 11/2/2012 10:34",
 		"buttonRowForPreDebugWindow:" : "FernandoOlivero 4/12/2011 09:44",

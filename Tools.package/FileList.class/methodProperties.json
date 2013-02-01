@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"addFullPanesTo:from:" : "CamilloBruni 8/12/2011 21:46",
+		"addFullPanesTo:from:" : "StephaneDucasse 12/19/2012 16:36",
 		"allRegisteredServices" : "hfm 11/29/2008 19:35",
 		"initialize" : "MarcusDenker 12/12/2009 07:36",
 		"isReaderNamedRegistered:" : "hfm 11/29/2008 19:36",
@@ -13,7 +13,7 @@
 		"morphicView" : "EstebanLorenzano 4/2/2012 11:43",
 		"morphicViewFolderSelector:" : "CamilloBruni 2/16/2012 11:04",
 		"morphicViewOnDirectory:" : "CamilloBruni 2/14/2012 14:34",
-		"morphicViewOnFile:contents:fileList:" : "CamilloBruni 2/16/2012 19:06",
+		"morphicViewOnFile:contents:fileList:" : "StephaneDucasse 12/19/2012 16:36",
 		"open" : "MarcusDenker 12/12/2009 07:29",
 		"openEditorOn:editString:" : "hfm 11/29/2008 19:37",
 		"openMorphOn:editString:" : "SeanDeNigris 7/12/2012 08:44",

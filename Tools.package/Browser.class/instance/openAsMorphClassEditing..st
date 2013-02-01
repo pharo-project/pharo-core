@@ -18,35 +18,19 @@ openAsMorphClassEditing: editString
 		with: editString.
 	window 
 		addMorph: mySingletonClassList
-		fullFrame: (
-			LayoutFrame 
-				fractions: (0@0 corner: 0.5@0) 
-				offsets: (0@0 corner: 0@switchHeight)
-		).
+		fullFrame: ((0@0 corner: 0.5@0) asLayoutFrame bottomOffset: switchHeight).
 	
 	self 
 		addMorphicSwitchesTo: window 
-		at: (
-			LayoutFrame 
-				fractions: (0.5@0 corner: 1.0@0) 
-				offsets: (0@0 corner: 0@switchHeight)
-		).
+		at: ((0.5@0 corner: 1.0@0) asLayoutFrame bottomOffset: switchHeight).
 
 	window 
 		addMorph: self buildMorphicMessageCatList
-		fullFrame: (
-			LayoutFrame 
-				fractions: (0@0 corner: 0.5@hSepFrac) 
-				offsets: (0@switchHeight corner: 0@0)
-		).
+		fullFrame: ((0@0 corner: 0.5@hSepFrac) asLayoutFrame topOffset: switchHeight).
 
 	window 
 		addMorph: self buildMorphicMessageList
-		fullFrame: (
-			LayoutFrame 
-				fractions: (0.5@0 corner: 1.0@hSepFrac) 
-				offsets: (0@switchHeight corner: 0@0)
-		).
+		fullFrame: ((0.5@0 corner: 1.0@hSepFrac) topOffset: switchHeight).
 
 	window setUpdatablePanesFrom: #(messageCategoryList messageList).
 	^ window

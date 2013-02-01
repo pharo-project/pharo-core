@@ -12,9 +12,9 @@ initialize
 		codeMorph: self newCodeMorph;
 		changeProportionalLayout;
 		addMorph: self patchMorph
-		fullFrame: (LayoutFrame fractions: (0@0 corner: 1@0.6));
+		fullFrame: (0@0 corner: 1@0.6) asLayoutFrame ;
 		addMorph: self codeMorph
-		fullFrame: (LayoutFrame fractions: (0@0.6 corner: 1@1) offsets: (0@0 corner: 0@buttonsHeight negated));
+		fullFrame: ((0@0.6 corner: 1@1) asLayoutFrame bottomOffset: buttonsHeight negated);
 		addMorph: self newButtonsMorph
-		fullFrame: (LayoutFrame fractions: (0@1 corner: 1@1) offsets: (0@buttonsHeight negated corner: 0@0));
+		fullFrame: ((0@1 corner: 1@1) asLayoutFrame topOffset: buttonsHeight negated);
 		addPaneSplitters

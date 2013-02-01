@@ -10,16 +10,13 @@ buildCodePanelWithCommentOnBottom
 
 	sourceCodePanel
 		addMorph: multipleMethodsEditor
-		fullFrame: (LayoutFrame 
-						fractions: (0@0 corner: 1@0.5) 
-						offsets: (0@0 corner: 0@(delta negated))).
+		fullFrame: ( (0@0 corner: 1@0.5) asLayoutFrame 
+						bottomOffset: delta negated).
 	sourceCodePanel
 		addMorph: splitter
-		fullFrame: (LayoutFrame 
-						fractions: (0@0.5 corner: 1@0.5) 
-						offsets: (0@(delta negated) corner: 0@delta)).
+		fullFrame: ( (0@0.5 corner: 1@0.5) asLayoutFrame
+						topLeftOffset: 0@(delta negated) ; bottomRightOffset: 0@delta).
 	sourceCodePanel 
 		addMorph: commentTextArea
-		fullFrame: (LayoutFrame 
-						fractions: (0@0.5 corner: 1@1) 
-						offsets: (0@delta corner: 0@0)).
+		fullFrame: ( (0@0.5 corner: 1@1) asLayoutFrame
+						topLeftOffset: (0@delta)).

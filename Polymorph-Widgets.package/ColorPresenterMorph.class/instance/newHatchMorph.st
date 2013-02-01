@@ -10,10 +10,10 @@ newHatchMorph
 		minWidth: 48;
 		minHeight: 12;
 		addMorph: (Morph new color: Color white)
-		fullFrame: (LayoutFrame fractions: (0@0 corner: 0.3@1));
+		fullFrame: (0@0 corner: 0.3@1) asLayoutFrame ;
 		addMorph: (Morph new fillStyle: (InfiniteForm with: self hatchForm))
-		fullFrame: (LayoutFrame fractions: (0.3@0 corner: 0.7@1));
+		fullFrame: (0.3@0 corner: 0.7@1) asLayoutFrame;
 		addMorph: self solidLabelMorph
-		fullFrame: (LayoutFrame fractions: (0.7@0 corner: 1@1));
+		fullFrame: (0.7@0 corner: 1@1) asLayoutFrame;
 		addMorph: self labelMorph
-		fullFrame: (LayoutFrame fractions: (0@0 corner: 1@1))
+		fullFrame: (0@0 corner: 1@1) asLayoutFrame 

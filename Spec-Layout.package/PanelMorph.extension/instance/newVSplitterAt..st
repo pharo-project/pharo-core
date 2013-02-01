@@ -9,8 +9,7 @@ newVSplitterAt: anIndex
 	
 	splitter := self newVSplitter.
 	splitter 
-		layoutFrame: (LayoutFrame
-							fractions: ((frame rightFraction @ frame topFraction) corner: (frame rightFraction @ frame bottomFraction))
-							offsets: (0@0 corner: 4@0)).
+		layoutFrame: ((frame rightFraction @ frame topFraction corner: frame rightFraction @ frame bottomFraction) asLayoutFrame
+							 rightOffset: 4).
 
 	self privateAddMorph: splitter atIndex: (size - anIndex + 2)
