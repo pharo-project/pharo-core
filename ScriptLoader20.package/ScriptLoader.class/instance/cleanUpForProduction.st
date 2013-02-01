@@ -9,6 +9,11 @@ cleanUpForProduction
 	PolymorphSystemSettings showDesktopLogo: false.
 
 	"unload packages"
+	self classesForCleanUpInProduction do: [ :eachPattern | 
+		(Smalltalk allClassesAndTraits 
+			select: [ :each | eachPattern match: each name ])
+			do: [ :each | each removeFromSystem: true ] ].
+	self packagesForCleanUpInProduction do: [ :each | (MCPackage named: each) unload ].
 	Smalltalk globals at: #SUnitUnloader ifPresent:[ :unloader | unloader new unloadAll  ].
 	(MCPackage named: 'Announcements-Help') unload.
 	(MCPackage named: 'Regex-Help') unload.
