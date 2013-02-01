@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"defaultSpec" : "SimonAllier 7/25/2012 10:24",
+		"title" : "SimonAllier 3/30/2012 15:04" },
+	"instance" : {
+		"commentInputField" : "SimonAllier 3/30/2012 14:58",
+		"critic:" : "SimonAllier 3/30/2012 15:50",
+		"initialExtent" : "SimonAllier 4/10/2012 15:58",
+		"initialize" : "SimonAllier 5/9/2012 16:42",
+		"initializeWidgets" : "SimonAllier 7/25/2012 10:20",
+		"okAction:" : "SimonAllier 3/30/2012 16:02",
+		"okCancelToolBar" : "SimonAllier 3/30/2012 14:58",
+		"rule:" : "SimonAllier 3/30/2012 15:50" } }

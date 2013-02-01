@@ -1,0 +1,4 @@
+*Manifest-Core
+isTransformationRule
+
+	^ true 

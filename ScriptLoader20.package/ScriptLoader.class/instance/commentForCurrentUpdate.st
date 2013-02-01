@@ -1,13 +1,7 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6921:	Better handling of smart characters
-	http://code.google.com/p/pharo/issues/detail?id=6921
+ ^ 'Issue 6931:	Command Line: load image update
+	http://code.google.com/p/pharo/issues/detail?id=6931
 	
-Issue 6914:	cleanUpForProduction is not unloading Metacello inf
-	http://code.google.com/p/pharo/issues/detail?id=6914
-	
-Issue 6910:	Nautilus enable CMD-R for renaming temporaries
-	http://code.google.com/p/pharo/issues/detail?id=6910
-	
-Issue 3816:	Time millisecondClockValue wraps around way too quickly
-	http://code.google.com/p/pharo/issues/detail?id=3816'
+Issue 6932:	Repository not added to some packages
+	http://code.google.com/p/pharo/issues/detail?id=6932'

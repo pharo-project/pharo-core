@@ -1,0 +1,14 @@
+{
+	"category" : "Manifest-CriticBrowser",
+	"classinstvars" : [
+		"icons" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CriticBrowserIcons",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

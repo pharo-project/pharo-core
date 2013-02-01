@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"rejectClasses" : "SimonAllier 5/22/2012 16:28",
+		"rejectRules" : "SimonAllier 5/22/2012 16:28",
+		"ruleCodeCruftLeftInMethodsRuleV1FalsePositive" : "SimonAllier 9/11/2012 16:06" },
+	"instance" : {
+		 } }

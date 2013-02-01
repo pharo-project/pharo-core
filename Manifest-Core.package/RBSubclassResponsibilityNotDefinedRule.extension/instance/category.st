@@ -1,0 +1,4 @@
+*Manifest-Core
+category 	
+	
+	^ 'Bugs'

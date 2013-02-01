@@ -1,0 +1,4 @@
+private
+defaultColor
+
+	^ Color red

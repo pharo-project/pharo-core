@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"defaultSpec" : "SimonAllier 9/28/2012 13:55" },
+	"instance" : {
+		"browseCritic" : "",
+		"browseModel" : "",
+		"critic:" : "",
+		"falsepositiveModel" : "",
+		"initialize" : "",
+		"initializeWidgets" : "SimonAllier 7/24/2012 14:07",
+		"registerForChanges" : "SimonAllier 9/28/2012 13:55",
+		"rule:" : "",
+		"setBrowseModel" : "",
+		"setFalsepositiveModel" : "",
+		"setFocusOrder" : "",
+		"setTransformModel" : "",
+		"transformCritic" : "",
+		"transformModel" : "",
+		"whenFalsePositiveClickedDo:" : "",
+		"whenTransformClickedDo:" : "" } }

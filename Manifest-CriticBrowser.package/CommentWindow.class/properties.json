@@ -1,0 +1,17 @@
+{
+	"category" : "Manifest-CriticBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"okCancelToolBarModel",
+		"commentInputFieldModel",
+		"rule",
+		"critic" ],
+	"name" : "CommentWindow",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+private
+nextAction
+	self subclassResponsibility

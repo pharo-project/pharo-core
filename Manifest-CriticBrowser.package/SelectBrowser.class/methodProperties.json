@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"defaultSpec" : "SimonAllier 9/28/2012 13:56" },
+	"instance" : {
+		"addAllButtonModel" : "",
+		"addButtonModel" : "",
+		"initializeWidgets" : "SimonAllier 9/28/2012 13:56",
+		"items:" : "",
+		"nextAction" : "",
+		"nextButtonModel" : "",
+		"removeAllButtonModel" : "",
+		"removeButtonModel" : "",
+		"selectedModel" : "",
+		"setAddAllButtonModel" : "",
+		"setAddButtonModel" : "",
+		"setFocusOrder" : "",
+		"setNextButtonModel" : "",
+		"setRemoveAllButtonModel" : "",
+		"setRemoveButtonModel" : "",
+		"toSelectModel" : "" } }

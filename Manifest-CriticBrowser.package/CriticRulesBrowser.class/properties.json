@@ -1,0 +1,22 @@
+{
+	"category" : "Manifest-CriticBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"criticModel",
+		"rulesModel",
+		"environment",
+		"countOfFalsePositive",
+		"countOfToDo",
+		"checker",
+		"thread",
+		"countOfProblem",
+		"title" ],
+	"name" : "CriticRulesBrowser",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }

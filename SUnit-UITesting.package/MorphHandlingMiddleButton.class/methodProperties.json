@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"blueButtonDown:" : "SeanDeNigris 12/14/2011 15:18",
+		"blueButtonUp:" : "SeanDeNigris 12/14/2011 15:18",
+		"handlerForBlueButtonDown:" : "SeanDeNigris 12/14/2011 15:17",
+		"initialize" : "SeanDeNigris 12/14/2011 15:24",
+		"wasClickedWithMiddleButton" : "SeanDeNigris 12/14/2011 15:21" } }

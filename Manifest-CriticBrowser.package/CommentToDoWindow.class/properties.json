@@ -1,0 +1,14 @@
+{
+	"category" : "Manifest-CriticBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CommentToDoWindow",
+	"pools" : [
+		 ],
+	"super" : "CommentWindow",
+	"type" : "normal" }

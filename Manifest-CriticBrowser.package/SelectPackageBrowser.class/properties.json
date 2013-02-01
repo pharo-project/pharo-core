@@ -1,0 +1,14 @@
+{
+	"category" : "Manifest-CriticBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SelectPackageBrowser",
+	"pools" : [
+		 ],
+	"super" : "SelectBrowser",
+	"type" : "normal" }

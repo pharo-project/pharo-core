@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfManifest",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ManifestConfigurationOfManifest",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

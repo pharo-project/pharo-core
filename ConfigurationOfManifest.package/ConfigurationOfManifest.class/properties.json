@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfManifest",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfManifest",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

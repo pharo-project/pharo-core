@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"openWithEnvironment:" : "SimonAllier 7/31/2012 10:52",
+		"title" : "" },
+	"instance" : {
+		"addAllItems" : "SimonAllier 5/22/2012 11:43",
+		"addItems" : "SimonAllier 5/22/2012 13:51",
+		"environment:" : "",
+		"initialize" : "SimonAllier 7/24/2012 14:05",
+		"items:" : "SimonAllier 5/22/2012 10:45",
+		"nextAction" : "SimonAllier 9/11/2012 14:18",
+		"removeAllItems" : "SimonAllier 5/22/2012 11:43",
+		"removeItems" : "SimonAllier 5/22/2012 13:51",
+		"updateTree" : "SimonAllier 5/22/2012 11:43" } }

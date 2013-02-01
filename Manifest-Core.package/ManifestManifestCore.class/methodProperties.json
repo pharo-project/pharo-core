@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"rejectClasses" : "SimonAllier 7/27/2012 10:23",
+		"rejectRules" : "SimonAllier 8/1/2012 13:28",
+		"ruleCodeCruftLeftInMethodsRuleV1FalsePositive" : "SimonAllier 9/11/2012 16:06",
+		"ruleCodeCruftLeftInMethodsRuleV1TODO" : "SimonAllier 7/27/2012 10:23",
+		"ruleCodeCruftLeftInMethodsRuleV1TruePositive" : "SimonAllier 7/27/2012 10:23",
+		"ruleCollectionProtocolRuleV1TruePositive" : "SimonAllier 8/1/2012 13:29",
+		"ruleConsistencyCheckRuleV1FalsePositive" : "SimonAllier 8/22/2012 16:30",
+		"ruleConsistencyCheckRuleV1TODO" : "SimonAllier 8/22/2012 15:27",
+		"ruleConsistencyCheckRuleV1TruePositive" : "SimonAllier 8/22/2012 16:30",
+		"ruleContainsRuleV1FalsePositive" : "SimonAllier 8/1/2012 13:28",
+		"ruleEquivalentSuperclassMethodsRuleV1FalsePositive" : "SimonAllier 7/27/2012 10:24",
+		"ruleExcessiveMethodsRuleV1FalsePositive" : "SimonAllier 8/1/2012 17:35",
+		"ruleExcessiveMethodsRuleV1TODO" : "SimonAllier 8/1/2012 17:35",
+		"ruleImplementedNotSentRuleV1FalsePositive" : "SimonAllier 8/21/2012 14:51",
+		"ruleOnlyReadOrWrittenTemporaryRuleV1FalsePositive" : "SimonAllier 8/1/2012 15:53",
+		"ruleOnlyReadOrWrittenTemporaryRuleV1TruePositive" : "SimonAllier 8/1/2012 15:53",
+		"ruleUtilityMethodsRuleV1FalsePositive" : "SimonAllier 8/22/2012 16:51" },
+	"instance" : {
+		 } }

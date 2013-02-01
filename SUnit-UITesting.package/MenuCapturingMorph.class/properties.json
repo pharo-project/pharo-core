@@ -1,0 +1,14 @@
+{
+	"category" : "SUnit-UITesting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"menu" ],
+	"name" : "MenuCapturingMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+meta data
+ruleSentNotImplementedRuleV1TODO
+^ #(#(#(#RGMethodDefinition #(#SelectBrowser #items: #false)) #'2012-08-01T13:28:05.731+02:00') #(#(#RGMethodDefinition #(#SelectBrowser #setAddButtonModel #false)) #'2012-08-01T13:28:05.731000001+02:00') #(#(#RGMethodDefinition #(#SelectBrowser #setAddAllButtonModel #false)) #'2012-08-01T13:28:05.731000002+02:00') #(#(#RGMethodDefinition #(#SelectBrowser #setRemoveButtonModel #false)) #'2012-08-01T13:28:05.731000003+02:00') #(#(#RGMethodDefinition #(#SelectBrowser #setRemoveAllButtonModel #false)) #'2012-08-01T13:28:05.731000004+02:00') )

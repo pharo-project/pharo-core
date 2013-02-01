@@ -1,0 +1,14 @@
+{
+	"category" : "Manifest-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ManifestManifestTests",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
