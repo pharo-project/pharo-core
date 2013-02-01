@@ -1,7 +1,5 @@
-protocol
-at: index put: value
+override
+at: key put: value
 
-	| result |
-	result := contents at: index put: value.
-	self contentsChanged: value.
-	^ result
+	contents at: key put: value.
+	self contentsChanged: value

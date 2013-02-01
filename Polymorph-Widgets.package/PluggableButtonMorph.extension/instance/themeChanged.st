@@ -3,8 +3,6 @@ themeChanged
 	"Set the border style to thin gray in the case of going to StandardSqueak."
 
 	|labelColor|
-	(self theme isKindOf: UIThemeStandardSqueak)
-		ifTrue: [self borderStyle: BorderStyle thinGray].
 	self
 		layoutInset: (self theme buttonLabelInsetFor: self);
 		cornerStyle: (self theme buttonCornerStyleIn: self window).

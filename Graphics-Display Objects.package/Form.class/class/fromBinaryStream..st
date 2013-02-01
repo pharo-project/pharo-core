@@ -1,4 +1,4 @@
-instance creation
+*Graphics-Files
 fromBinaryStream: aBinaryStream
 	"Read a Form or ColorForm from given file, using the first byte of the file to guess its format. Currently handles: GIF, uncompressed BMP, and both old and new DisplayObject writeOn: formats, JPEG, and PCX. Return nil if the file could not be read or was of an unrecognized format."
 
@@ -14,5 +14,4 @@ fromBinaryStream: aBinaryStream
 
 	"Try for JPG, GIF, or PCX..."
 	"Note: The following call closes the stream."
-	Smalltalk globals at: #ImageReadWriter ifPresent: [:imageReadWriter |
-		^ imageReadWriter formFromStream: aBinaryStream]
+	^ ImageReadWriter formFromStream: aBinaryStream
