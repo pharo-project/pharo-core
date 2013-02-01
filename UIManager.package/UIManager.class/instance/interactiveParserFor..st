@@ -1,4 +1,5 @@
 settings
 interactiveParserFor: requestor	
 	
-	^ false
+	requestor ifNil: [^ false ].
+	^ (requestor respondsTo: #interactive) and: [ requestor interactive ]

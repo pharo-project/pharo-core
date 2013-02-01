@@ -1,4 +1,4 @@
-testing
+*RPackage-Tests
 testUnpackagedClasses
 	| unpackagedClasses |
 	unpackagedClasses := Smalltalk allClassesAndTraits select: [:each | 
