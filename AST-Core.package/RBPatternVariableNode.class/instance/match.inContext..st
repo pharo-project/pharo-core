@@ -5,5 +5,5 @@ match: aNode inContext: aDictionary
 	self isLiteralNode ifTrue: [^self matchLiteral: aNode inContext: aDictionary].
 	self isStatement 
 		ifTrue: [^self matchStatement: aNode inContext: aDictionary].
-	aNode class == self matchingClass ifFalse: [^false].
+	(aNode isKindOf: self matchingClass) ifFalse: [^false].
 	^(aDictionary at: self ifAbsentPut: [aNode]) = aNode

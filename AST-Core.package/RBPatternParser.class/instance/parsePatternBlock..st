@@ -5,7 +5,10 @@ parsePatternBlock: aClass
 	self step.
 	node := self parseBlockArgsInto: aClass new.
 	node left: position.
-	node body: (self parseStatements: false).
+	
+	node body: self sequenceNodeClass new.
+	(self parseStatements: false into: node body).
+	
 	(currentToken isSpecial and: [currentToken value = $}]) 
 		ifFalse: [ ^ self parserError: '''}'' expected'].
 	node right: currentToken start.

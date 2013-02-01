@@ -1,5 +1,6 @@
 comparing
 = anObject 
 	self == anObject ifTrue: [^true].
-	self class = anObject class ifFalse: [^false].
+	((anObject isKindOf: self class) or: [self isKindOf: anObject class]) 
+		ifFalse: [^false].
 	^self name = anObject name

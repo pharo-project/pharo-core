@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
+		"scope",
 		"selector",
 		"selectorParts",
 		"body",

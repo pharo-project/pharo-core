@@ -1,8 +1,10 @@
 private-parsing
 parsePragma
-	^ currentToken isIdentifier
-		ifTrue: [ self parseUnaryPragma ]
-		ifFalse: [
-			currentToken isKeyword
-				ifTrue: [ self parseKeywordPragma ]
-				ifFalse: [ self parseBinaryPragma ] ]
+	| start pragma |
+	start := currentToken start.
+	self step.
+	pragma := self basicParsePragma.
+	(currentToken isBinary and: [ currentToken value = #> ]) 
+		ifFalse: [ ^ self parserError: '''>'' expected' ].
+	pragma left: start; right: currentToken start.
+	self addPragma: pragma.

@@ -11,7 +11,8 @@
 		"colons",
 		"arguments",
 		"bar",
-		"body" ],
+		"body",
+		"scope" ],
 	"name" : "RBBlockNode",
 	"pools" : [
 		 ],

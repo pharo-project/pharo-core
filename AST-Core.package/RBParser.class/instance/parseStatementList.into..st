@@ -11,8 +11,9 @@ parseStatementList: pragmaBoolean into: sequenceNode
 		self step].
 	[self atEnd 
 		or: [currentToken isSpecial and: ['])}' includes: currentToken value]]] 
-			whileFalse: 
-				[return ifTrue: [ ^ self parserError: 'End of statement list encounted'].
+			whileFalse: [
+				return ifTrue: [ 
+					^ self parserError: 'End of statement list encounted'].
 				(currentToken isSpecial and: [currentToken value = $^]) 
 					ifTrue: 
 						[returnPosition := currentToken start.
@@ -21,18 +22,27 @@ parseStatementList: pragmaBoolean into: sequenceNode
 									value: self parseAssignment.
 						statements add: node.
 						return := true]
-					ifFalse: 
-						[node := self parseAssignment.
-						statements add: node].
+					ifFalse: [
+						"check for pragmas"
+						(currentToken value = #<)
+							ifTrue: [ self parsePragma ]
+							ifFalse: [
+								node := self parseAssignment.
+								statements add: node ]].
 				(currentToken isSpecial and: [currentToken value = $.]) 
 					ifTrue: 
 						[periods add: currentToken start.
 						self step.
 						self addCommentsTo: node]
-					ifFalse: [return := true].
+					ifFalse: [
+						"check for closing pragmas"
+						(currentToken value = #>)
+							ifFalse: [ return := true ]
+							ifTrue: [ self step ]].
 				[currentToken isSpecial and: [currentToken value = $.]] whileTrue: 
 					[periods add: currentToken start.
-					self step]].
+					self step]
+				].
 	statements notEmpty ifTrue: [self addCommentsTo: statements last].
 	sequenceNode
 		statements: statements;

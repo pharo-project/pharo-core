@@ -1,3 +1,5 @@
 *ast-core
 parseTree
-	^ RBParser parseMethod: self sourceCode onError: [ :msg :pos | ^ nil ]
+	^ RBExplicitVariableParser 
+		parseMethod: self sourceCode 
+		onError: [ :msg :pos | ^ nil ]
