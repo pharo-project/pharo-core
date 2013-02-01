@@ -1,27 +1,19 @@
 formatting
-format: aCollection 
-	"format the receiver with aCollection  
-	 
-	simplest example:  
-	'foo {1} bar' format: {Date today}.
-	 
-	complete example:  
-	'\{ \} \\ foo {1} bar {2}' format: {12. 'string'}.  
-	"
-	| stream |
-	^ self class new: self size streamContents: [ :result|
+format: collection 
+	"Format the receiver by interpolating elements from collection, as in the following examples:  
+	'Today is {1}.' format: {Date today}.
+	'Today is {date}.' format: (Dictionary with: #date->Date today). 
+	'In {1} you can escape \{ by prefixing it with \\' format: {'strings'}.  "
+	
+	^ self class new: self size streamContents: [ :result | | stream |
 		stream := self readStream.
-
-		[stream atEnd]
-			whileFalse: [| currentChar | 
-				currentChar := stream next.
-				currentChar == ${
-					ifTrue: [| expression | 
-						expression := self getEnclosedExpressionFrom: stream.
-						result
-							nextPutAll: (self evaluateExpression: expression parameters: aCollection)]
-					ifFalse: [
-						currentChar == $\
-							ifTrue: [stream atEnd
-									ifFalse: [result nextPut: stream next]]
-							ifFalse: [result nextPut: currentChar]]]].
+		[ stream atEnd ] whileFalse: [ | currentChar | 
+			(currentChar := stream next) == ${
+				ifTrue: [ | expression index | 
+					expression := stream upTo: $}.
+					index := Integer readFrom: expression ifFail: [ expression ].
+					result nextPutAll: (collection at: index) asString ]
+				ifFalse: [
+					currentChar == $\
+						ifTrue: [ stream atEnd ifFalse: [ result nextPut: stream next ] ]
+						ifFalse: [ result nextPut: currentChar ] ] ] ]

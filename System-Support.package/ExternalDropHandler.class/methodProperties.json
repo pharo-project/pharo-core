@@ -1,15 +1,12 @@
 {
 	"class" : {
 		"chooseServiceFrom:" : "",
-		"defaultGZipHandler" : "",
 		"defaultHandler" : "",
 		"defaultHandler:" : "",
-		"defaultImageHandler" : "",
-		"initialize" : "",
+		"initialize" : "PavelKrivanek 11/20/2012 21:25",
 		"lookupExternalDropHandler:" : "CamilloBruni 5/4/2012 21:26",
 		"lookupServiceBasedHandler:" : "CamilloBruni 5/23/2012 16:55",
 		"registerHandler:" : "",
-		"registerStandardExternalDropHandlers" : "",
 		"registeredHandlers" : "",
 		"resetRegisteredHandlers" : "",
 		"type:extension:action:" : "",

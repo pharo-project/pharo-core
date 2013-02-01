@@ -10,8 +10,7 @@ openDebuggerOn: process context: context label: title contents: contentsStringOr
 				logError: title
 				inContext: context ]] on: Error do: [].
 	debugger := Smalltalk tools debugger new.
-	WorldState
-		addDeferredUIMessage: [[ 
+	self defer: [[ 
 			debugger
 				process: process
 				controller: nil
@@ -19,7 +18,7 @@ openDebuggerOn: process context: context label: title contents: contentsStringOr
 			"schedule debugger in deferred UI message to address
 			redraw problems after opening a debugger e.g. from
 			the testrunner."
-			"WorldState addDeferredUIMessage: ["
+			"self defer: ["
 			bool
 				ifTrue: [debugger openFullNoSuspendLabel: title]
 				ifFalse: [debugger openNotifierContents: contentsStringOrNil label: title].

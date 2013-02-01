@@ -14,5 +14,5 @@ request: aTitleString regex: initialRegexString
 		regex ifNil: [ ^ nil ].
 		
 		[ ^ regex asRegex ] on: Error do: [ :regexParsingError|
-			self inform: 'Bad Regex: ', regexParsingError asString ].
+			self defer: [	self inform: 'Bad Regex: ', regexParsingError asString ]].
 	] repeat.
