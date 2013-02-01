@@ -3,9 +3,5 @@
 		 },
 	"instance" : {
 		"display" : "",
-		"displayAlign:with:clippingBox:" : "",
 		"displayOn:" : "",
-		"displayOn:align:with:clippingBox:" : "lr 7/4/2009 10:42",
-		"displayOn:transformation:clippingBox:" : "lr 7/4/2009 10:42",
-		"displayOnPort:at:" : "",
-		"displayTransformation:clippingBox:" : "" } }
+		"displayOnPort:at:" : "" } }

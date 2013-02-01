@@ -5,7 +5,7 @@ argumentNames
 	| keywords stream argumentNames delimiters |
 	delimiters := {Character space. Character cr}.
 	keywords := self selector keywords.
-	stream := self getSource readStream.
+	stream := self sourceCode readStream.
 	argumentNames := OrderedCollection new.
 	keywords do: [ :each | | argumentName |
 		stream match: each.

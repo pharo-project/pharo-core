@@ -1,5 +1,5 @@
 method encoding
 compiledMethodToSerialize: aCompiledMethod
 
-	^ aCompiledMethod copyWithTrailerBytes: (CompiledMethodTrailer new sourceCode: aCompiledMethod getSource ).
+	^ aCompiledMethod copyWithTrailerBytes: (CompiledMethodTrailer new sourceCode: aCompiledMethod sourceCode ).
 	

@@ -1,10 +1,10 @@
 {
-	"category" : "NewList",
+	"category" : "NewList-Example",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"listMorph",
 		"index",
