@@ -1,4 +1,4 @@
-attributes
+accessing
 interpreterSourceDate
 	"Return the date of changes given by `self interpreterSourceVersion`"
 	| dateString parts | 

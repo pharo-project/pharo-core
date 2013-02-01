@@ -1,4 +1,4 @@
-accessing
+attributes
 maxExternalSemaphores
 	"The size of array in some VM's where external signals for
 	semaphores in externalObjects are handled.

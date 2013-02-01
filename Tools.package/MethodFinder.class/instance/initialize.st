@@ -12,14 +12,14 @@ initialize
 	#("in class, instance creation"  newFrom: 
 "accessing" at: basicAt: basicSize in: size yourself 
 "testing" ifNil: ifNil:ifNotNil: ifNotNil: ifNotNil:ifNil: isColor isFloat isFraction  isInteger isMorph isNil isNumber isPoint isText isTransparent isWebBrowser notNil pointsTo: wantsSteps 
-"comparing" = == hash identityHash identityHashPrintString ~= ~~ 
+"comparing" = == hash identityHash ~= ~~ 
 "copying" copy shallowCopy 
 "dependents access" canDiscardEdits dependents hasUnacceptedEdits 
 "updating" changed changed: okToChange update: windowIsClosing 
 "printing" fullPrintString isLiteral longPrintString printString storeString 
-"class membership" class isKindOf: isMemberOf: respondsTo: xxxClass 
+"class membership" class isKindOf: isMemberOf: respondsTo:  
 "error handling" 
-"user interface" addModelMenuItemsTo:forMorph:hand: defaultBackgroundColor defaultLabelForInspector fullscreenSize initialExtent modelWakeUp mouseUpBalk:  windowReqNewLabel: 
+"user interface" addModelMenuItemsTo:forMorph:hand: defaultBackgroundColor defaultLabelForInspector fullscreenSize initialExtent modelWakeUp  
 "system primitives" instVarAt: instVarNamed: 
 "private" 
 "associating" -> 

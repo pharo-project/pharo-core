@@ -8,6 +8,5 @@ mouseUp: evt
 		self doButtonAction: evt
 	] ifFalse: [
 		self state: #off.
-		target ifNotNil: [target mouseUpBalk: evt]
 	].
 	"Allow owner to keep it selected for radio buttons"

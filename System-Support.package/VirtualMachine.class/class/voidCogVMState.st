@@ -1,4 +1,4 @@
-cleaning
+GC
 voidCogVMState
 	"Void any internal caches the VM maintains other than the method lookup caches.
 	 These comprise

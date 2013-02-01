@@ -1,4 +1,4 @@
-accessing
+attributes
 maxExternalSemaphores: aSize 
 	"This method should never be called as result of normal program
 	execution. If it is however, handle it differently:

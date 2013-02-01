@@ -31,6 +31,7 @@
 		"initializeStderr" : "CamilloBruni 10/13/2012 13:32",
 		"initializeStdout" : "CamilloBruni 4/28/2012 19:47",
 		"optionAt:" : "CamilloBruni 10/13/2012 14:07",
+		"optionAt:ifAbsent:" : "CamilloBruni 12/4/2012 19:52",
 		"printHelp" : "CamilloBruni 10/13/2012 15:42",
 		"quit" : "CamilloBruni 7/25/2012 10:53",
 		"stderr" : "CamilloBruni 10/13/2012 13:31",

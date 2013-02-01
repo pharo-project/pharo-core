@@ -1,3 +1,3 @@
-attributes
+accessing
 vmDirectory 
 	^ self directory

@@ -1,4 +1,4 @@
-GC
+accessing
 tenuringThreshold: anInteger
 	"survivor count tenuring threshold (read-write).
 	tenure when more than this many objects survive the GC"

@@ -1,3 +1,3 @@
-attributes
+accessing
 vmFileName
 	^ self fileName

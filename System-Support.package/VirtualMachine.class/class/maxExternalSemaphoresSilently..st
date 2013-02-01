@@ -1,4 +1,4 @@
-accessing
+attributes
 maxExternalSemaphoresSilently: aSize 
 	"Changes the size of array where external signals for semaphores in
 	externalObjects are handled.. 

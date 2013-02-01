@@ -1,3 +1,4 @@
 testing
 shortOptionAt: aString
-	^ arguments at: (arguments indexOf: '-', aString) + 1
+	^ self shortOptionAt: aString ifAbsent: [
+		Error signal: 'Could not find short-form option: ', aString  ]

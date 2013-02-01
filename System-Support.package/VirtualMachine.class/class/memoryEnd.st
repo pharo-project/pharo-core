@@ -1,4 +1,4 @@
-GC
+accessing
 memoryEnd
 	"end of memory"
 		

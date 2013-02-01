@@ -1,4 +1,4 @@
-GC
+accessing
 setGCParameters
 	"Adjust the VM's default GC parameters to avoid premature tenuring."
 

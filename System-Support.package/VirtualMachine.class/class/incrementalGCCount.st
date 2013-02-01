@@ -1,4 +1,4 @@
-GC
+accessing
 incrementalGCCount
 	"Answer the total number of incremental GCs since startup (read-only)."
 

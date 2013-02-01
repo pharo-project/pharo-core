@@ -1,4 +1,4 @@
-GC
+accessing
 setGCSemaphore: semaIndex
 	"Primitive. Indicate the GC semaphore index to be signaled on GC occurance."
 	<primitive: 'primitiveSetGCSemaphore'>

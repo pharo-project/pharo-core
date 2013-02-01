@@ -1,4 +1,4 @@
-GC
+accessing
 setGCBiasToGrowGCLimit: aNumber
 	"Primitive. Indicate that the bias to grow logic should do a GC after aNumber Bytes"
 	<primitive: 'primitiveSetGCBiasToGrowGCLimit'>

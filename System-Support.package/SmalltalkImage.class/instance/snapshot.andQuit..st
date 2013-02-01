@@ -5,22 +5,22 @@ snapshot: save andQuit: quit
 	If quit is true, then exit to the outer OS shell.
 	The latter part of this method runs when resuming a previously saved image. This resume logic checks for a document file to process when starting up."
 
-	| snapshotResult booting startupErrors |
+	| snapshotResult isNewImage startupErrors |
 	self addSnapshotRecord: save andQuit: quit.
 	self shutDownImage: quit.
 									
 	save
 		ifTrue: [ 
 			snapshotResult := self snapshotPrimitive.	"<-- PC frozen here on image file"
-			booting := snapshotResult == true ]
-		ifFalse: [ booting := false ].
-	(quit and: [ booting not ])
+			isNewImage := snapshotResult == true ]
+		ifFalse: [ isNewImage := false ].
+	(quit and: [ isNewImage not ])
 		ifTrue: [ self quitPrimitive ].
 	
 	"create a new session object if we're booting"
-	booting ifTrue: [ session := self newSessionObject ].
+	isNewImage ifTrue: [ session := self newSessionObject ].
 	
-	self startupImage: booting snapshotWorked: snapshotResult.
+	self startupImage: isNewImage snapshotWorked: snapshotResult.
 	
 	"We return the resuming state, which may be useful for users to know the state of the image"
-	^booting
+	^ isNewImage

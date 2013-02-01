@@ -1,4 +1,4 @@
-attributes
+accessing
 interpreterSourceVersion
 	"The use of this primitive not recommended. Not all VMs providing that"
 

@@ -1,4 +1,4 @@
-GC
+accessing
 fullGCCount
 	"Answer the total number of full GCs since startup (read-only)."
 

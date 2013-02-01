@@ -14,7 +14,10 @@
 		"includesSubCommand:" : "CamilloBruni 5/2/2012 14:07",
 		"initialize" : "CamilloBruni 5/13/2012 19:47",
 		"initializeWithArguments:" : "CamilloBruni 5/1/2012 20:01",
-		"longOptionAt:" : "CamilloBruni 10/13/2012 15:19",
-		"optionAt:" : "CamilloBruni 10/13/2012 15:24",
-		"shortOptionAt:" : "CamilloBruni 10/13/2012 15:24",
+		"longOptionAt:" : "CamilloBruni 12/4/2012 19:49",
+		"longOptionAt:ifAbsent:" : "CamilloBruni 12/4/2012 19:50",
+		"optionAt:" : "CamilloBruni 12/4/2012 19:48",
+		"optionAt:ifAbsent:" : "CamilloBruni 12/4/2012 19:47",
+		"shortOptionAt:" : "CamilloBruni 12/4/2012 19:49",
+		"shortOptionAt:ifAbsent:" : "CamilloBruni 12/4/2012 20:25",
 		"withFirstArgument:" : "CamilloBruni 4/28/2012 19:54" } }

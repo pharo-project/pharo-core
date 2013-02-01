@@ -1,4 +1,4 @@
-GC
+accessing
 version
 	"Return the version number string of the Virtual machine built"
 	"

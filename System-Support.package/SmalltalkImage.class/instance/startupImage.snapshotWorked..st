@@ -1,18 +1,18 @@
 snapshot and quit
-startupImage: resuming snapshotWorked: snapshotResult
+startupImage: isNewImage snapshotWorked: snapshotResult
 	| startupErrors |
 	self vm setGCParameters.	
 	deferredStartupActions := nil.
-	resuming ifTrue: [ Smalltalk clearExternalObjects ].
+	isNewImage ifTrue: [ Smalltalk clearExternalObjects ].
 	
 	startupErrors := OrderedCollection new.
 	
-	UIManager default boot: resuming during: [
-		startupErrors addAll: (self processStartUpList: resuming).
-		resuming ifTrue: [ self recordStartupStamp ]
+	UIManager default boot: isNewImage during: [
+		startupErrors addAll: (self processStartUpList: isNewImage).
+		isNewImage ifTrue: [ self recordStartupStamp ]
 		].
 	
-	startupErrors addAll: (self executeDeferredStartupActions: resuming).
+	startupErrors addAll: (self executeDeferredStartupActions: isNewImage).
 	
 	startupErrors isEmpty 
 		ifFalse: [ self handleStartupErrors: startupErrors ].

@@ -3,7 +3,7 @@ printOn: aStream
 	"Append to the argument, aStream, a sequence of characters that 
 	identifies the receiver." 
 	super printOn: aStream.
-	aStream nextPutAll: ' ' , self identityHashPrintString.
+	aStream space; nextPut: $(; print: self identityHash; nextPut: $).
 	locked == true
 		ifTrue: [aStream nextPutAll: ' [locked] '].
 	visible == false

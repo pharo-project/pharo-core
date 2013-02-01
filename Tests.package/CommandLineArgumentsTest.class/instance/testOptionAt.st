@@ -1,7 +1,10 @@
 tests
 testOptionAt
-	self assert: (self commandLine optionAt: #option1) equals: nil.
-	self assert: (self commandLine optionAt: #option4) equals: nil.
+	self should: [ self commandLine optionAt: #option1 ] raise: Error.
+	self should: [ self commandLine optionAt: #option4 ] raise: Error.
+	
 	self assert: (self commandLine optionAt: #option5) equals: 'option5Value'.
-	self assert: (self commandLine optionAt: #foo) equals: nil.
+	self should: [ self commandLine optionAt: #foo ] raise: Error.
+	
 	self assert: (self commandLine optionAt: #o) equals: 'oValue'.
+	self should: [ self commandLine optionAt: #x ] raise: Error.
