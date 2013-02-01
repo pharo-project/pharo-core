@@ -5,7 +5,7 @@ setFont
 	stopConditions 
 		at: Space asciiValue + 1
 		put: #space.
-	wantsColumnBreaks == true ifTrue: 
+	wantsColumnBreaks ifTrue: 
 		[ stopConditions 
 			at: TextComposer characterForColumnBreak asciiValue + 1
 			put: #columnBreak ]

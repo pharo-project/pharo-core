@@ -14,4 +14,5 @@ fromBinaryStream: aBinaryStream
 
 	"Try for JPG, GIF, or PCX..."
 	"Note: The following call closes the stream."
-	^ ImageReadWriter formFromStream: aBinaryStream
+	Smalltalk globals at: #ImageReadWriter ifPresent: [:imageReadWriter |
+		^ imageReadWriter formFromStream: aBinaryStream]

@@ -31,6 +31,5 @@ setFont
 
 	"Install various parameters from the font."
 	spaceWidth := font widthOf: Space.
-	xTable := font xTable.
 "	map := font characterToGlyphMap."
 	stopConditions := DefaultStopConditions.
