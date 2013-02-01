@@ -24,7 +24,8 @@ exportSettingAction
 							self targetSelector ifNotNil: [:ts | s << ') perform: '. ts printOn: s ].
 							s << ') perform: '.
 							self setSelector asSymbol printOn: s.
-							s << ' with: '.
-							currentValue storeOn: s ])
+							s << ' with: ('.
+							currentValue storeOn: s.
+							s <<')' ])
 				runOnce: true ]
 		ifFalse: [ "We do nothing" nil ]

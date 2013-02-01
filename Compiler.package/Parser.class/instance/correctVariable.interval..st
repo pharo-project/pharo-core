@@ -37,4 +37,5 @@ correctVariable: proposedVariable interval: spot
 	"Execute the selected action"
 	requestor deselect.
 	requestor selectInvisiblyFrom: userSelection first to: userSelection last.
+
 	^action value

@@ -7,7 +7,7 @@ classIconFor: aClass
 			 icon class == IconicButtonStateHolder ifFalse: [ ^ icon ].
 			^ icon asIconTargetting: self ].
 
-	(aClass includesBehavior: TestCase)
+	((aClass includesBehavior: TestCase) and: [ aClass isAbstract not ])
 		ifTrue: [ | icon button |
 			icon :=  self iconClass iconNamed: #testNotRun.
 
