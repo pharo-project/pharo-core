@@ -11,5 +11,5 @@ testInstallSourceFiles
 	ensure: [ 
 		Smalltalk 
 			at: #FakeCodeLoaded 
-			ifPresent: [ :clazz | clazz removeFromSystem ].
+			ifPresent: [ :clazz | clazz removeFromSystem. Smalltalk removeClassNamed: #FakeCodeLoaded  ].
 		reference delete ]

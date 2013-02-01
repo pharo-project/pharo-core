@@ -1,4 +1,4 @@
-debugger
+construction
 buildNotifyTextPane: aDebugger
 
 	^ (PluggableTextMorph

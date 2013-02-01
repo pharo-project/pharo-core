@@ -1,3 +1,3 @@
 initialization
 openAsMorph
-	^ UIManager default openDualChangeSorterAsMorph: self
+	^ self morphicWindow openInWorld

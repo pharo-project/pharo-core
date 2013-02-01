@@ -1,4 +1,4 @@
-debugger
+construction
 buildFieldInspectorFor: aDebugger
 
 	^ PluggableTextMorph 

@@ -1,4 +1,4 @@
-debugger
+construction
 buildContextInspectorFor: aDebugger
 
 	^ PluggableTextMorph 

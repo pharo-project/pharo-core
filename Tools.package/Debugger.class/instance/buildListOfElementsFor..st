@@ -1,4 +1,4 @@
-debugger
+construction
 buildListOfElementsFor: aDebugger
 	^ (PluggableMultiColumnListMorph 
 		on: aDebugger 

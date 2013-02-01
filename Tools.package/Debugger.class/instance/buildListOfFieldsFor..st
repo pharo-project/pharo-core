@@ -1,4 +1,4 @@
-debugger
+construction
 buildListOfFieldsFor: aDebugger
 
 	^ (PluggableListMorph new

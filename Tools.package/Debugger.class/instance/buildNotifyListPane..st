@@ -1,4 +1,4 @@
-debugger
+construction
 buildNotifyListPane: aDebugger
 
 	^ (PluggableMultiColumnListMorph

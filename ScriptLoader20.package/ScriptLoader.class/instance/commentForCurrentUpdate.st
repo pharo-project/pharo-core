@@ -1,7 +1,10 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6902:	Autocompletion windows doesnt disappear
-	http://code.google.com/p/pharo/issues/detail?id=6902
+ ^ 'Issue 6839:	ReleaseTest>> testObsoleteClasses
+	http://code.google.com/p/pharo/issues/detail?id=6839
 	
-Issue 5077:	UI simulation from BDDExtensions project
-	http://code.google.com/p/pharo/issues/detail?id=5077'
+Issue 4038:	MorphicUIManager contains widget definitions
+	http://code.google.com/p/pharo/issues/detail?id=4038
+	
+Issue 6905:	SUnit-UITesting
+	http://code.google.com/p/pharo/issues/detail?id=6905'
