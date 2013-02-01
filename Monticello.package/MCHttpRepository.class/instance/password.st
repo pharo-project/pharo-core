@@ -4,16 +4,21 @@ password
 
 	self user isEmpty ifTrue: [^password ifNil: ['']].
 
+	password isEmptyOrNil ifTrue: [ 
+		password := (UsersManager default currentUser userNamePasswordFor: self keyChainGroupSelector) 							ifNil: [ '' ]
+							ifNotNil: [:usr | usr password ]].
+
+
 	[password isEmptyOrNil] whileTrue: [
 		| answer |
 		"Give the user a chance to change the login"
-		answer := UIManager default request: 'User name for ', String cr, self location
+		answer := UIManager default request: 'User name for ', String cr, location
 			initialAnswer: self user.
 		answer isEmptyOrNil
 			ifTrue: [^password]
 			ifFalse: [self user: answer].
 		
-		password := UIManager default requestPassword: 'Password for "', self user, '" at ', String cr, self location.
+		password := UIManager default requestPassword: 'Password for "', self user, '" at ', String cr, location.
 	].
 
 	^ password

@@ -1,6 +1,6 @@
 editing keys
-browseIt: aKeyboardEvent
-	"Triggered by Cmd-B; browse the thing represented by the current selection, if plausible."
-
+browseIt: t1 
+	UsersManager default currentUser canBrowse
+		ifFalse: [^ false].
 	self browseIt.
 	^ true

@@ -1,11 +1,4 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6923:	Missing Method in SocketStream
-	http://code.google.com/p/pharo/issues/detail?id=6923
-	
-Issue 7112:	Cleaning Manifest
-	http://code.google.com/p/pharo/issues/detail?id=7112
-	
-Issue 7106:	waiting Delays got broken when saving image
-	http://code.google.com/p/pharo/issues/detail?id=7106
-'
+ ^ 'Issue 7062:	Package extensions not present in the package
+	http://code.google.com/p/pharo/issues/detail?id=7062'

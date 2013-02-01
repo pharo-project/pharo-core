@@ -1,6 +1,8 @@
 menu commands
 printIt
-	| oldEditor |
+	 | oldEditor |
+
+	UsersManager default currentUser canEvaluateCode ifFalse: [ ^ false ].
 
 	textMorph editor selectFrom: selectionInterval first to: selectionInterval last;
 						model: model.  "For, eg, evaluateSelection"

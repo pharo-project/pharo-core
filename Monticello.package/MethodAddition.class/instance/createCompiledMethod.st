@@ -6,3 +6,4 @@ createCompiledMethod
 	compiledMethod := methodAndNode method.
 	self writeSourceToLog.
 	priorMethodOrNil := myClass compiledMethodAt: selector ifAbsent: [nil].
+	priorCategoryOrNil := myClass  organization categoryOfElement: selector.

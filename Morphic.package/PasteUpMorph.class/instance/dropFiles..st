@@ -6,6 +6,8 @@ dropFiles: anEvent
 		- remember the resource location or (when in browser) even the actual file handle
 	"
 	| numFiles stream handler |
+	UsersManager default currentUser canDropOSFile ifFalse: [ ^ self ].
+	
 	numFiles := anEvent contents.
 	1 to: numFiles do: [:i |
 		(stream := FileStream requestDropStream: i) ifNotNil: [

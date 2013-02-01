@@ -15,7 +15,8 @@
 		"methodAndNode",
 		"selector",
 		"compiledMethod",
-		"priorMethodOrNil" ],
+		"priorMethodOrNil",
+		"priorCategoryOrNil" ],
 	"name" : "MethodAddition",
 	"pools" : [
 		 ],

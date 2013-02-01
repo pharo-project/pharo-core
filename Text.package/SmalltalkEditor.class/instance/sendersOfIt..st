@@ -1,6 +1,7 @@
 editing keys
 sendersOfIt: aKeyboardEvent
-	"Open a browser on the current selection, if this is a class present its users too."
+	"Triggered by Cmd-n; browse implementors of the selector represented by the current selection, if plausible. 2/1/96 sw"
 
+	UsersManager default currentUser canBrowse ifFalse: [ ^ false ].
 	self sendersOfIt.
 	^ true
