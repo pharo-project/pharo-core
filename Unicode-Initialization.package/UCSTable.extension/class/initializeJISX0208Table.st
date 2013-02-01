@@ -1,4 +1,4 @@
-accessing - table
+*Unicode-Initialization
 initializeJISX0208Table
 	"self halt. UCSTable initializeJISX0208Table"
 

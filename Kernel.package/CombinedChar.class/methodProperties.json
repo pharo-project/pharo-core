@@ -1,9 +1,7 @@
 {
 	"class" : {
 		"isCompositionCharacter:" : "michael.rueger 3/2/2009 10:13",
-		"isDiacriticals:" : "yo 12/31/2002 19:21",
-		"loadCompositionMapping" : "",
-		"parseCompositionMappingFrom:" : "PavelKrivanek 3/9/2012 09:33" },
+		"isDiacriticals:" : "yo 12/31/2002 19:21" },
 	"instance" : {
 		"add:" : "StephaneDucasse 4/4/2010 15:04",
 		"base" : "StephaneDucasse 3/27/2010 21:51",

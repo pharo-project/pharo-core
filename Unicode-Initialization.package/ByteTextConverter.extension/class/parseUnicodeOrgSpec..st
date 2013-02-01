@@ -1,4 +1,4 @@
-class initialization
+*Unicode-Initialization
 parseUnicodeOrgSpec: url
 	"Parse and return a mapping from byte to unicode values from url."
 	"self parseUnicodeOrgSpec: 'http://unicode.org/Public/MAPPINGS/ISO8859/8859-2.TXT'."

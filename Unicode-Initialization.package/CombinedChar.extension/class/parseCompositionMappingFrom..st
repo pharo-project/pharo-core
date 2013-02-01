@@ -1,4 +1,4 @@
-utility
+*Unicode-Initialization
 parseCompositionMappingFrom: stream
 "
 	self halt.

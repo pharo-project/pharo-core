@@ -1,4 +1,4 @@
-accessing - table
+*Unicode-Initialization
 initializeKSX1001Table
 	"UCSTable initializeKSX1001Table"
 

@@ -1,4 +1,4 @@
-accessing - table
+*Unicode-Initialization
 initializeGB2312Table
 	"UCSTable initializeGB2312Table"
 

@@ -1,4 +1,4 @@
-class initialization
+*Unicode-Initialization
 generateByteToUnicodeSpec: url
 	"Return the formatted source code for an array mapping 
 	the top 128 byte to unicode values from a Unicode.org url"
