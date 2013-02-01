@@ -1,4 +1,4 @@
-examples
+*Polymorph-Widgets
 examplesHighlyConcurrent
 	"self examplesHighlyConcurrent"
 

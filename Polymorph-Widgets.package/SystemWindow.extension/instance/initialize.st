@@ -3,7 +3,6 @@ initialize
 	"Initialize a system window. Add label, stripes, etc., if desired"
 	
 	super initialize.
-	allowReframeHandles := true.
 	labelString ifNil: [labelString := 'Untitled Window'].
 	isCollapsed := false.
 	activeOnlyOnTop := true.

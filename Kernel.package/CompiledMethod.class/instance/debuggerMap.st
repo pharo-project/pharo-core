@@ -1,3 +1,3 @@
 debugger support
 debuggerMap
-	^DebuggerMethodMap forMethod: self
+	^self compilerClass debuggerMethodMapForMethod: self.
