@@ -1,7 +1,7 @@
 system annoucements
 methodRemoved: anAnnouncement
 
-	(environment classes anySatisfy: [ :cl | anAnnouncement methodClass = cl ])
+	(rbEnvironment classes anySatisfy: [ :cl | anAnnouncement methodClass = cl ])
 		ifFalse: [ ^ self ].
 	rulesModel getRoots do: [:root |
 		root leaves do: [ :rule |

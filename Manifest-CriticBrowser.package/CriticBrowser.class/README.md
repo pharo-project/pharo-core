@@ -1,10 +1,11 @@
 I am a browser for the SmallLint Critics
 
-example: 
-| rule |
-rule :=  RBCompositeLintRule filterRules.
-environment := (RBPackageEnvironment new packages: {PackageInfo named: 'Manifest'}).
+Example: 
 
-(CriticBrowser runRule: rule onEnvironment: environment)
-	openWithSpec.
+
+| rule environment |
+rule :=  RBExcessiveArgumentsRule new.
+environment := (RBPackageEnvironment new packages: {RPackageSet named: 'Manifest-Core'}).
+
+(CriticBrowser openOnRule: rule onEnvironment: environment)
 	

@@ -20,5 +20,9 @@ menu: aMenu shifted: aBoolean
 			selector: #addRuleToFalsePositive;
 		add: 'Unban this rule for all packages' translated
 			target: self
-			selector: #removeRuleToFalsePositive.
-	^ aMenu
+			selector: #removeRuleToFalsePositive;
+		addLine; 
+		add: 'Reset working package sets' translated
+			target: self
+			selector: #resetWorkingConfiguration.
+	 ^ aMenu

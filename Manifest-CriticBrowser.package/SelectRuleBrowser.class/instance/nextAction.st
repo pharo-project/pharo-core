@@ -14,9 +14,9 @@ nextAction
 				name: self defaultRulesRootName;
 				rules: rules).
 				
-	CriticWorkspace current
+	CriticWorkingConfiguration current
 		rule: rbRule;
 		environment: environment.
 	
 	CriticBrowser
-		openOnWorkspace: CriticWorkspace current.
+		openOnWorkspace: CriticWorkingConfiguration current.

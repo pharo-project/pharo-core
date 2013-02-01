@@ -8,13 +8,13 @@
 	"instvars" : [
 		"criticModel",
 		"rulesModel",
-		"environment",
 		"checker",
 		"thread",
 		"title",
 		"numberOfFalsePositives",
 		"numberOfProblems",
-		"numberOfToDos" ],
+		"numberOfToDos",
+		"rbEnvironment" ],
 	"name" : "CriticBrowser",
 	"pools" : [
 		 ],

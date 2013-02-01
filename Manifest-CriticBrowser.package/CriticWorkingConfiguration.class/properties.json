@@ -8,7 +8,7 @@
 	"instvars" : [
 		"rule",
 		"environment" ],
-	"name" : "CriticWorkspace",
+	"name" : "CriticWorkingConfiguration",
 	"pools" : [
 		 ],
 	"super" : "Object",

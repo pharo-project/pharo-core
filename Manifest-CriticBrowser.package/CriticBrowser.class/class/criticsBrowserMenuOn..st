@@ -3,7 +3,7 @@ criticsBrowserMenuOn: aBuilder
 	"I build a menu"
 	<worldMenu>
 	(aBuilder item: 'Critic Browser')
-		action: [ self openOnCurrentWorkspace ];
+		action: [ self openOnCurrentWorkingConfiguration ];
 		order: 10;
 		parent: #Tools;
 		help: 'To manage rule checks';
