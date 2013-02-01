@@ -1,18 +1,20 @@
 kinds
 trailerKinds
-	" see class comment for description"
-^#(
+	" see class comment for description. If you change this method, evaluate this:
+	self generateTrailerKindDecoders"
+	
+	^#(
 "000000" #NoTrailer
 "000001" #ClearedTrailer
-"000010" #TempsNamesQCompress "not used"
-"000011" #TempsNamesZip "not used"
+"000010" #TempsNamesQCompress
+"000011" #TempsNamesZip
 "000100" #SourceBySelector
 "000101" #SourceByStringIdentifier
 "000110" #EmbeddedSourceQCompress
 "000111" #EmbeddedSourceZip
 "001000" #VarLengthSourcePointer
 "001001" #ExtendedKind
-"001010" #Undefined
+"001010" #NativeCodeTrailer  "this number is hardcoded in VM"
 "001011" #Undefined
 "001100" #Undefined
 "001101" #Undefined
@@ -66,4 +68,4 @@ trailerKinds
 "111101" #Undefined
 "111110" #Undefined
 "111111" #SourcePointer
-)
+	)
