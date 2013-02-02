@@ -5,7 +5,7 @@
 	"classvars" : [
 		"Definitions",
 		"InitializersEnabled" ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"classIsMeta",
 		"source",

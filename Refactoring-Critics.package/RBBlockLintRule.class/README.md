@@ -1,0 +1,1 @@
+A RBBlockLintRule is a special kind of rule where the verification is specified using a block. The methods checkClass: and checkMethods are the hook to specify such verifications.

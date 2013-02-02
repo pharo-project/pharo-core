@@ -1,3 +1,3 @@
 private
 badSelectors
-	^ #( #become: #isKindOf: #changeClassToThatOf: #respondsTo: #isMemberOf: #performMethod: #performMethod:arguments: #performMethod:with: #performMethod:with:with: #performMethod:with:with:with: #allOwners #allOwnersWeakly: #firstOwner #instVarAt: #instVarAt:put: #nextInstance #nextObject #ownerAfter: #primBecome: #halt )
+	^ #( #become: #isKindOf: #changeClassToThatOf: #respondsTo: #isMemberOf: #performMethod: #performMethod:arguments: #performMethod:with: #performMethod:with:with: #performMethod:with:with:with: #allOwners #instVarAt: #instVarAt:put: #nextInstance instVarsInclude: #nextObject #halt caseOf: caseOf:otherwise: caseError isThisEverCalled isThisEverCalled: becomeForward: instVarNamed: instVarNamed:put:  someObject primitiveChangeClassTo:)

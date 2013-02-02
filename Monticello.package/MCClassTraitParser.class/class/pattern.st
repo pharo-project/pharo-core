@@ -1,3 +1,3 @@
-as yet unclassified
+factory identification hook
 pattern
 	^ '*classTrait*uses:*'

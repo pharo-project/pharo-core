@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 addDefinitionsTo: aCollection
 	| tokens  definition traitCompositionString |
 	tokens := Scanner new scanTokens: source.

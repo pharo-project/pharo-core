@@ -1,7 +1,7 @@
 public
 commentForCurrentUpdate
- ^ '- Issue 7192:	JobEnd Bug. Now no more DNU :)
-	http://code.google.com/p/pharo/issues/detail?id=7192
-
-- Issue 7191:	MC merge generate conflicts for categories
-	http://code.google.com/p/pharo/issues/detail?id=7191'
+ ^ '- Issue 7190:	MC core model depends on UI !!
+	http://code.google.com/p/pharo/issues/detail?id=7190
+	
+- Issue 7195:	SmallLint Rules better description and cleaning
+	http://code.google.com/p/pharo/issues/detail?id=7195'

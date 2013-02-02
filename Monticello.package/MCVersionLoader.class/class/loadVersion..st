@@ -1,4 +1,4 @@
-as yet unclassified
+public api
 loadVersion: aVersion
 	self new
 		addVersion: aVersion;

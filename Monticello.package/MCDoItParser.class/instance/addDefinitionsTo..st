@@ -1,3 +1,3 @@
-as yet unclassified
+actions
 addDefinitionsTo: aCollection
 	self subclassResponsibility 

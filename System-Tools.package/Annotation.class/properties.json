@@ -1,0 +1,14 @@
+{
+	"category" : "System-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"AnnotationRequests" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "Annotation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

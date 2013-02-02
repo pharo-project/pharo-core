@@ -1,6 +1,6 @@
 annotations
 printAnnotations: requests on: aStream
-	"Add a string for an annotation pane, trying to fulfill the CodeHolder annotationRequests."
+	"Add a string for an annotation pane, trying to fulfill the browser annotationRequests."
 	
 	requests do: [ :aRequest |
 		aRequest == #timeStamp ifTrue: [ aStream nextPutAll: self timeStamp ].

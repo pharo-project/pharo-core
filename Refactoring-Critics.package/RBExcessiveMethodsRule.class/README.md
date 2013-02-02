@@ -1,0 +1,4 @@
+This smell arises when a large class defines a large number of methods. A good design assigns one responsibility to a class. Large classes are often classes that have too many responsibilities. Try to split it apart. Ask yourself what is the key responsibility of the class. using the strategy design pattern may be a solution to structure and delegate some behavior. 
+	An indication that a class may have too many responsibilities is when different groups of methods access a subpart of the instance variables. In a large system, having some large classes is often inevitable. This is when there are more than a couple of large classes that you should really reconsider your design. 
+	
+The defined number of methods can be edit in RBExcessiveMethodsRule>>methodsCount.

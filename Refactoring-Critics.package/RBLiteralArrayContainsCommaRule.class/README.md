@@ -1,0 +1,1 @@
+This rule looks strange to me.

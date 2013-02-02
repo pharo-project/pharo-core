@@ -1,4 +1,4 @@
-as yet unclassified
+operations
 createCompiledMethod
 	methodAndNode := myClass compile: text asString classified: category notifying: requestor
 							trailer: myClass defaultMethodTrailer ifFail: [^nil].

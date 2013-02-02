@@ -1,4 +1,4 @@
-as yet unclassified
+operations
 writeSourceToLog
 	logSource ifTrue: [
 		myClass logMethodSource: text forMethodWithNode: methodAndNode 

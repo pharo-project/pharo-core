@@ -9,24 +9,3 @@ Instance Variables
 	requirements:		<Object>
 	unloadableDefinitions:		<Object>
 	methodAdditions  <MethodAdditions> MethodDefinitions corresponding to the Definitions in "additions" that have been added so far.
-
-additions
-	- xxxxx
-
-errorDefinitions
-	- xxxxx
-
-obsoletions
-	- xxxxx
-
-provisions
-	- xxxxx
-
-removals
-	- xxxxx
-
-requirements
-	- xxxxx
-
-unloadableDefinitions
-	- xxxxx

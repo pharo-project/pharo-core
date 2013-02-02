@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 versions: aCollection
 	versions := aCollection

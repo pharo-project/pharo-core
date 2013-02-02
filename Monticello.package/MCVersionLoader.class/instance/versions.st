@@ -1,4 +1,4 @@
-*metacello-mc
+accessing
 versions
 
 	^versions

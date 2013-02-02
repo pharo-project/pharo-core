@@ -1,4 +1,4 @@
-as yet unclassified
+notifying
 notifyObservers
 	SystemAnnouncer uniqueInstance 
 		suspendAllWhile: [myClass organization classify: selector under: category].

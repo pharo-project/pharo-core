@@ -1,4 +1,4 @@
-as yet unclassified
+exceptionDescription
 defaultAction
 	^ ( UIManager default
 		confirm: self messageText

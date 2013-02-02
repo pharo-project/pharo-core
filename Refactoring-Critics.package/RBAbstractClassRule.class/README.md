@@ -1,0 +1,1 @@
+A RBAbstractClassRule represents the fact that a class defines an abstract method.

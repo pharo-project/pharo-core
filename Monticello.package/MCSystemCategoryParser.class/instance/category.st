@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 category
 	| tokens  |
 	tokens := Scanner new scanTokens: source.

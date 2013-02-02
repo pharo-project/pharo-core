@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		"RecursiveSelfRule" ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"rewriteRule",
 		"builder",

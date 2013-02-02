@@ -1,4 +1,4 @@
-checking
+testing
 hasVersions
 
 	^ versions isEmpty not

@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 stream: aStream
 	stream := aStream
