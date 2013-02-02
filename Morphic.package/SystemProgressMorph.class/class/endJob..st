@@ -1,4 +1,7 @@
 job subscription
 endJob: aJobEnd 
-
-	self uniqueInstance close: self uniqueInstance bars last.
+	| bars |
+	self flag: #toFix. "camillo I need help"
+	bars := self uniqueInstance bars.
+	bars isEmpty
+		ifFalse: [ self uniqueInstance close:  bars last ] 

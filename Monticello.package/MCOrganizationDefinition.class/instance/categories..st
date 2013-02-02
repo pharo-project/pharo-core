@@ -1,3 +1,3 @@
 as yet unclassified
 categories: anArray
-	categories := anArray
+	categories := anArray sort

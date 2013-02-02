@@ -1,6 +1,10 @@
 job subscription
 updateJob: aJobChange
-	self uniqueInstance bars last 
-		label: aJobChange title;
-		progress: aJobChange progress.
-	self uniqueInstance changed.
+	| bars |
+	bars := self uniqueInstance bars.
+	bars isEmpty 
+		ifFalse: [ 
+			bars last 
+				label: aJobChange title;
+				progress: aJobChange progress.
+	self uniqueInstance changed]

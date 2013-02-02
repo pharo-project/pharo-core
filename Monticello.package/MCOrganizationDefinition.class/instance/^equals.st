@@ -1,4 +1,5 @@
-as yet unclassified
+equal/hash
 = aDefinition
+
 	^ (super = aDefinition)
-		and: [categories = aDefinition categories]
+		and: [self categories = aDefinition categories]
