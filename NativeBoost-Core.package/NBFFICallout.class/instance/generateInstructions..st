@@ -11,8 +11,7 @@ generateInstructions: aFunctionBodyBlock
 
 		self pushArguments.
 	
-		coercionMayFail ifTrue: [
-			proxy ifFailedJumpTo: self failedLabel ].
+		self emitFailureTest.
 
 		asm decorateWith: 'FFI: performing a call' during: [
 			aFunctionBodyBlock valueWithPossibleArgs: { self. proxy. asm}.

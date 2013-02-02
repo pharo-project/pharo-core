@@ -19,7 +19,8 @@ memCopy: src to: dst size: numBytes
 			temp1 := gen reserveTemp.
 			temp2 := gen reserveTemp.
 
-			asm 
+			asm
+				cld;
 				mov: ESI to: temp1;
 				mov: EDI to: temp2;
 			

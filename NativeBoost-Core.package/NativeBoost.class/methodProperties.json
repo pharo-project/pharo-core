@@ -58,7 +58,7 @@
 		"loadFunction:from:" : "IgorStasenko 11/24/2012 15:57",
 		"loadModule:" : "IgorStasenko 11/24/2012 15:58",
 		"loadSymbol:fromModule:" : "IgorStasenko 11/18/2012 17:05",
-		"memCopy:to:size:" : "IgorStasenko 11/24/2012 15:58",
+		"memCopy:to:size:" : "IgorStasenko 12/6/2012 14:43",
 		"newAssembler" : "Igor.Stasenko 5/5/2010 16:47",
 		"pointerSize" : "Igor.Stasenko 5/2/2010 13:52",
 		"primEnableNativeCode" : "Igor.Stasenko 5/2/2010 13:36",

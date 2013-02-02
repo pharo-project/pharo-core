@@ -5,7 +5,7 @@ testReturnStruct9Bytes
 	
 	NBTestStructure1byte rebuildFieldAccessors.
 	NBTestNestedStructure rebuildFieldAccessors.
-	NBTestStructure9Bytes  rebuildFieldAccessors.
+	NBTestStructure9bytes  rebuildFieldAccessors.
 	
 	NBNativeCodeGen removeNativeCodeFrom: self class >> #returnStruct9Bytes.
 

@@ -1,3 +1,3 @@
-*AsmJit-Extension
+bit manipulation
 & aNumber
 	^ self bitAnd: aNumber
