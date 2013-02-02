@@ -4,11 +4,12 @@
 		"className:classIsMeta:selector:category:timeStamp:source:" : "ab 7/26/2003 02:05",
 		"className:selector:category:timeStamp:source:" : "ab 4/1/2003 01:40",
 		"cleanUp" : "StephaneDucasse 3/9/2010 16:34",
+		"flushMethodCache" : "StephaneDucasse 12/28/2012 21:31",
 		"forMethodReference:" : "CamilloBruni 6/2/2012 00:14",
 		"initialize" : "ab 8/22/2003 18:14",
 		"initializersEnabled" : "PavelKrivanek 6/22/2011 11:40",
 		"initializersEnabled:" : "PavelKrivanek 6/22/2011 11:40",
-		"shutDown" : "CamilloBruni 6/2/2012 00:13" },
+		"shutDown" : "StephaneDucasse 12/28/2012 21:31" },
 	"instance" : {
 		"=" : "CamilloBruni 2/28/2012 13:44",
 		"accept:" : "ab 7/18/2003 21:47",
