@@ -40,18 +40,5 @@ classIconFor: aClass
 								borderWidth: 0.
 					 ClassesIconsCache at: aClass put: (IconicButtonStateHolder forNautilus: button).
 					^ button ]].
-			
-	(aClass includesBehavior: String)
-		ifTrue: [ ^ ClassesIconsCache at: aClass put: (self iconClass iconNamed: #string) ].
-	(aClass includesBehavior: Announcement)
-		ifTrue: [ ^ ClassesIconsCache at: aClass put: (self iconClass iconNamed: #announcement) ].
-	(aClass includesBehavior: Collection)
-		ifTrue: [ ^ ClassesIconsCache at: aClass put: (self iconClass iconNamed: #collection) ].
-	(aClass includesBehavior: Exception)
-		ifTrue: [ ^ ClassesIconsCache at: aClass put: (self iconClass iconNamed: #exception) ].
-	(aClass includesBehavior: Magnitude)
-		ifTrue: [ ^ ClassesIconsCache at: aClass put: (self iconClass iconNamed: #magnitude) ].
-	(aClass includesBehavior: Morph)
-		ifTrue: [ ^ ClassesIconsCache at: aClass put: (self iconClass iconNamed: #morph) ].
 
-	^ ClassesIconsCache at: aClass put: (self iconClass iconNamed: #blank)
+	^ ClassesIconsCache at: aClass put: (aClass nautilusIcon)

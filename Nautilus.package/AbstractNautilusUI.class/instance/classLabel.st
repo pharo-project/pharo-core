@@ -1,4 +1,4 @@
 private
 classLabel
 
-	^'Class' asText allBold
+	^'Class' asText allBold asMorph lock

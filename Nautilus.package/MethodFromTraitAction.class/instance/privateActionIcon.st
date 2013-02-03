@@ -1,0 +1,12 @@
+order
+privateActionIcon
+	"Return the icon for this action"
+
+	^ IconicButton new 
+			target: (method origin  >> method selector);
+			actionSelector: #browse;
+			labelGraphic: (self iconClass iconNamed: #trait) ;
+			color: Color transparent;
+			extent: 12 @ 12;
+			helpText: 'Browse the trait';
+			borderWidth: 0

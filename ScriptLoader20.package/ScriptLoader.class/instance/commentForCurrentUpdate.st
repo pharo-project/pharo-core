@@ -1,10 +1,10 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7225:	Failing Test: testMethodsWithUnboundGlobals
-	http://code.google.com/p/pharo/issues/detail?id=7225
+ ^ 'Issue 7202:	Nautilus icon mechanism
+	http://code.google.com/p/pharo/issues/detail?id=7202
 	
-Issue 7229:	two tests failing in CompilerTest
-	http://code.google.com/p/pharo/issues/detail?id=7229
+Issue 6057:	Nautilis: when clicking in history the Class button changes font size
+	http://code.google.com/p/pharo/issues/detail?id=6057
 	
-Issue 7228:	Undeclare in SpecLayoutAdd (testUndeclared fails)
-	http://code.google.com/p/pharo/issues/detail?id=7228'
+Issue 7046:	Cant right click on package list after following sequence
+	http://code.google.com/p/pharo/issues/detail?id=7046'

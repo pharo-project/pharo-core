@@ -1,0 +1,4 @@
+*Nautilus
+nautilusIconClass
+
+	^ NautilusIcons
