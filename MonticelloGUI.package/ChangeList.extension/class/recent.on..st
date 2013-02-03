@@ -4,10 +4,10 @@ recent: charCount on: origChangesFile
 	| changeList end changesFile |
 	changesFile := origChangesFile readOnlyCopy.
 	end := changesFile size.
-	Cursor read
-		showWhile: [changeList := self new
-						scanFile: changesFile
-						from: (0 max: end - charCount)
-						to: end].
+	changeList := Cursor read
+						showWhile: [ self new
+							scanFile: changesFile
+							from: (0 max: end - charCount)
+							to: end].
 	changesFile close.
 	^changeList
