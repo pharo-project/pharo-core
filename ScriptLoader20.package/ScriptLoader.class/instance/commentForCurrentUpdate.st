@@ -1,7 +1,7 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7215:	move one temporary assignement outside of block
-	http://code.google.com/p/pharo/issues/detail?id=7215
+ ^ 'Issue 7224:	Failing test related to RB
+	http://code.google.com/p/pharo/issues/detail?id=7224
 	
-Issue 7213:	Clearer class search in finder
-	http://code.google.com/p/pharo/issues/detail?id=7213'
+Issue 6957:	ConfiugrationCommandLineHandler tries to open file on --help in non-headless mode
+	http://code.google.com/p/pharo/issues/detail?id=6957'

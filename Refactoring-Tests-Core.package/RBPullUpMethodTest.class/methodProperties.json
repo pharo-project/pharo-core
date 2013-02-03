@@ -7,5 +7,5 @@
 		"testPullUpMethodWithCopyOverriddenMethodsDown" : "lr 9/8/2011 20:11",
 		"testPullUpReferencesInstVar" : "lr 9/8/2011 20:11",
 		"testPullUpWithInvalidSuperSend" : "lr 9/8/2011 20:11",
-		"testPullUpWithMethodThatCannotBePushedDown" : "lr 9/8/2011 20:11",
+		"testPullUpWithMethodThatCannotBePushedDown" : "CamilloBruni 1/13/2013 18:21",
 		"testPullUpWithSuperSendThatCannotBeCopiedDown" : "lr 9/8/2011 20:11" } }

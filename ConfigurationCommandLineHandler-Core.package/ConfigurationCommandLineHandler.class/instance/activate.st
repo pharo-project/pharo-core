@@ -1,6 +1,6 @@
 activation
 activate
-	self activateHelp.
+	self activateHelp ifTrue: [ ^ self ].
 	
 	(self hasOption: 'install')
 		ifFalse: [ ^ self list ].

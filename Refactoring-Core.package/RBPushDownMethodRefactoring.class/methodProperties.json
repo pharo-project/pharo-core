@@ -3,7 +3,7 @@
 		"model:pushDown:from:" : "",
 		"pushDown:from:" : "" },
 	"instance" : {
-		"preconditions" : "",
+		"preconditions" : "CamilloBruni 1/12/2013 12:50",
 		"pushDown:" : "lr 9/8/2011 20:11",
 		"pushDown:from:" : "",
 		"storeOn:" : "",
