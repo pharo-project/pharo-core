@@ -3,5 +3,7 @@
 		"commandName" : "MarcusDenker 11/7/2012 13:57",
 		"description" : "MarcusDenker 11/7/2012 13:57" },
 	"instance" : {
-		"activate" : "CamilloBruni 12/5/2012 21:32",
-		"loadUpdates" : "MarcusDenker 11/7/2012 13:58" } }
+		"activate" : "CamilloBruni 1/14/2013 16:12",
+		"loadUpdates" : "MarcusDenker 11/7/2012 13:58",
+		"loadUpdatesFromFile" : "CamilloBruni 1/14/2013 16:12",
+		"loadUpdatesFromFile:" : "CamilloBruni 1/14/2013 16:56" } }
