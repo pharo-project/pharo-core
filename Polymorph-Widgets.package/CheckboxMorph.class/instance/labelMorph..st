@@ -5,4 +5,4 @@ labelMorph: aMorph
 	labelMorph ifNotNil: [labelMorph delete].
 	labelMorph := aMorph.
 	self addMorphBack: aMorph.
-	self enabled: self enabled
+	self enabled: self enabled.

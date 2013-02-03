@@ -1,4 +1,4 @@
 buttons behavior
 instanceButtonState
 
-	^ false
+	^ "false" self showInstance not

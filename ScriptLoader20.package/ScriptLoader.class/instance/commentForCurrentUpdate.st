@@ -1,10 +1,7 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7268:	Extended Nautilus Shortcuts for browsing the Class Hierarchys
-	http://code.google.com/p/pharo/issues/detail?id=7268
+ ^ 'Issue 7280:	When changing the superclasss the class comment and all method categories of all subclasses are gone
+	http://code.google.com/p/pharo/issues/detail?id=7280
 	
-Issue 7240:	Failing Test: ReleaseTest>>.testInstanceSideMethodsWithNilKeyInLastLiteral
-	http://code.google.com/p/pharo/issues/detail?id=7240
-	
-Issue 7216:	Support the move of instance variables within an inheritance chain when MC forces reshaping the class
-	http://code.google.com/p/pharo/issues/detail?id=7216'
+Issue 6686:	Nautilus should use Dropdown, Tabs or Checkbox to indicate Class/instance-side
+	http://code.google.com/p/pharo/issues/detail?id=6686'

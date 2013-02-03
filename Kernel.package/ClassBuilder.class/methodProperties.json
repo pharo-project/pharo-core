@@ -25,7 +25,7 @@
 		"name:inEnvironment:subclassOf:type:instanceVariableNames:classVariableNames:poolDictionaries:category:" : "ar 8/29/1999 15:34",
 		"name:inEnvironment:subclassOf:type:instanceVariableNames:classVariableNames:poolDictionaries:category:unsafe:" : "EstebanLorenzano 7/27/2012 16:30",
 		"needsSubclassOf:type:instanceVariables:from:" : "ar 9/22/2002 02:57",
-		"newSubclassOf:type:instanceVariables:from:" : "CamilleTeruel 1/14/2013 15:14",
+		"newSubclassOf:type:instanceVariables:from:" : "pmm 3/13/2010 11:21",
 		"privateNewSubclassOf:" : "ar 2/27/2003 22:56",
 		"privateNewSubclassOf:from:" : "pmm 3/13/2010 11:21",
 		"recompile:from:to:mutate:" : "Alexandre.Bergel 8/19/2009 11:22",

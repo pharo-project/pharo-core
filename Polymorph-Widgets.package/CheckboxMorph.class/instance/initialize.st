@@ -10,7 +10,7 @@ initialize
 		changeTableLayout;
 		listDirection: #leftToRight;
 		wrapCentering: #center;
-		cellInset: 8;
+		cellInset: 4;
 		buttonMorph: self newButtonMorph;
 		labelMorph: self newLabelMorph;
 		on: #click send: #toggleSelected to: self;
