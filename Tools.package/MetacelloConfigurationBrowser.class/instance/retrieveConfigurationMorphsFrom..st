@@ -2,10 +2,7 @@ private
 retrieveConfigurationMorphsFrom: locationString
 	| repo reductionMap split configName author version last topMostItems item |
 
-	repo := MCHttpRepository 
-		location: locationString				
-		user: '' 
-		password: ''.
+	repo := MCHttpRepository location: locationString.
 				
 	"Reduce to display only the latest"			
 	reductionMap := Dictionary new.	

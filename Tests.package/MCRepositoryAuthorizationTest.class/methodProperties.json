@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:on:hasUser:withPassword:" : "SeanDeNigris 8/27/2012 11:22",
+		"exampleServerUrl" : "SeanDeNigris 8/27/2012 10:13",
+		"testEmptyCredentials" : "SeanDeNigris 8/27/2012 10:06",
+		"testNoCredentials" : "SeanDeNigris 8/27/2012 10:07",
+		"testOverrideStoredCredentials" : "SeanDeNigris 8/27/2012 11:24",
+		"testStoredCredentials" : "SeanDeNigris 8/27/2012 10:07",
+		"testStoredCredentialsUsesMostSpecific" : "SeanDeNigris 8/27/2012 10:10" } }

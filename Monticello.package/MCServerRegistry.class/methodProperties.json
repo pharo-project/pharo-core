@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"uniqueInstance" : "SeanDeNigris 8/26/2012 11:11" },
+	"instance" : {
+		"initialize" : "SeanDeNigris 8/26/2012 18:18",
+		"on:beUser:withPassword:" : "SeanDeNigris 8/26/2012 11:24",
+		"repositoryAt:credentialsDo:" : "SeanDeNigris 8/26/2012 18:32" } }

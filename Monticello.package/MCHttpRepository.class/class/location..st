@@ -1,5 +1,8 @@
 instance creation
 location: location
-	^ self new
-		location: location;
-		yourself
+
+	^ MCServerRegistry uniqueInstance repositoryAt: location credentialsDo: [ :username :password |
+			self new
+				location: location;
+				user: username;
+				password: password ].
