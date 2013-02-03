@@ -2,10 +2,8 @@ protocol
 interpretASpec: aPresenter model: aModel superSpec: aSpec
 	| result |
 	
-	result :=  self 
+	 [ result :=  self 
 				private_interpretASpec: aPresenter
 				model: aModel
-				superSpec: aSpec.
-				
-	self resetBinding.
+				superSpec: aSpec ] ensure: [ self resetBindings ].
 	^ result

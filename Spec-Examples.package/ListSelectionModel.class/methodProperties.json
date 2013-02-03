@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"bottomSpec" : "bvr 6/4/2012 17:19",
-		"defaultSpec" : "bvr 6/4/2012 17:24" },
+		"defaultSpec" : "BenjaminVanRyseghem 1/15/2013 14:15" },
 	"instance" : {
 		"initializePresenter" : "BenjaminVanRyseghem 6/12/2012 19:27",
 		"initializeWidgets" : "BenjaminVanRyseghem 6/12/2012 19:27",

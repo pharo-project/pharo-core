@@ -2,6 +2,16 @@ specs
 topSpec
 
 	^ { #ComposableSpec.
-			#add:. {{#model .	#button1 } . #layout:.  #(0 0 0.33 0 0 0 0 25)}.
-			#add:.  {{#model .	#button2 } . #layout:. #(0.33 0 0.66 0 0 0 0 25)}.
-			#add:.  {{#model .	#button3 } . #layout:. #(0.66 0 1 0 0 0 0 25)}}
+			#add:. {{#model .	#button1 } . #layout:.  #(FrameLayout
+															rightFraction: 0.33
+															bottomFraction: 0
+															bottomOffset: 25)}.
+			#add:.  {{#model .	#button2 } . #layout:. #(FrameLayout
+															leftFraction: 0.33
+															rightFraction: 0.66
+															bottomFraction: 0
+															bottomOffset: 25)}.
+			#add:.  {{#model .	#button3 } . #layout:. #(FrameLayout
+															leftFraction: 0.66
+															bottomFraction: 0
+															bottomOffset: 25)}}

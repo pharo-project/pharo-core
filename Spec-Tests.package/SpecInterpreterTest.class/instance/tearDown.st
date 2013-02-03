@@ -2,6 +2,6 @@ initialization
 tearDown
 	"Tearing down code for SpecInterpreterTest"
 
-	specInterpreterClass resetBinding.
+	specInterpreterClass resetBindings.
 	specInterpreterClass := nil.
 	specInterpreter := nil.

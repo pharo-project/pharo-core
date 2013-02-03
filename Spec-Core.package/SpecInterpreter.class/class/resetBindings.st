@@ -1,4 +1,4 @@
 protocol
-resetBinding
+resetBindings
 
 	self bindings resetBinding

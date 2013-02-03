@@ -3,11 +3,13 @@ defaultSpec
 
 	^{#ComposableSpec.	
 			#add:.			{{	#model.	#listModel.}.
-									#layout:. {#FrameLayout.
-													#fractions:.	 (0@0 corner: 1@0.5).}}.
+									#layout:. {#(FrameLayout
+													bottomFraction: 0.5).}}.
 			#add:.			{{	#model.	#textModel1.}.
-									#layout:. {#FrameLayout.
-													#fractions:.	 (0@0.5 corner: 0.5@1). }}.
+									#layout:. {#(FrameLayout
+													topFraction: 0.5
+													rightFraction: 0.5). }}.
 			#add:.			{{	#model.	#textModel2.}.
-									#layout:. {#FrameLayout.
-													#fractions:.	 (0.5@0.5 corner: 1@1). }}}.
+									#layout:. {#(FrameLayout
+													leftFraction: 0.5
+													topFraction: 0.5) }}}.

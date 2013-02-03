@@ -4,9 +4,9 @@ defaultSpec
 	^ {
 		#ComposableSpec.
 			#add: . {{#model . #workingCopies} . 
-					#layout: . { #FrameLayout . #fractions:. 0@0 corner: 0.5@1.} 
-					} . 
+					#layout: . #(FrameLayout
+									rightFraction: 0.5)} . 
 			#add: . {{#model . #repositories } . 
-					#layout: . { #FrameLayout . #fractions:. 0.5@0 corner: 1@1.} 
-					}
+					#layout: . #(FrameLayout
+									leftFraction: 0.5)}
 		}

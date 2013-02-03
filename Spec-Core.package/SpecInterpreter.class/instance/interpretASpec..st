@@ -14,7 +14,7 @@ interpretASpec: aPresenter
 				ifFalse: [ self convertSymbolOfClassToInstance: aPresenter ]].
 
 	" aPresenter is an Array "
-	(anArray first isSymbol or: [anArray first isCollection ]) ifFalse: [ ^ anArray ].
+	"(anArray first isSymbol or: [anArray first isCollection ]) ifFalse: [ ^ anArray ]."
 
 	"First element is a symbol describing the spec type"	 
 	((self model respondsTo: #needRebuild) and: [ (self model needRebuild not and: [ self model spec notNil ])])

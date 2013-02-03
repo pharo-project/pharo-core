@@ -6,19 +6,56 @@ internSpec
 	
 	^{#ComposableSpec.
 			#add:. {	{#model. #avatar}.
-							#layout:. { 0.5 . 0  . 0.5 . 0 . (-60) . 0  . 60 . imageHeight }}.
+							#layout:.{#FrameLayout.
+											#leftFraction:. 0.5 .
+											#rightFraction:. 0.5 .
+											#bottomFraction:.  0 .
+											#leftOffset:.  (-60) .
+											#rightOffset:.  60 .
+											#bottomOffset:.  imageHeight .}}.
 			#add:. {	{#model. #userName }.
-							#layout:. { 0 . 0  . 1 . 0 . 0 . imageHeight  . (-100) . (imageHeight+25) }}.
+							#layout:.{#FrameLayout.
+											#bottomFraction:.  0 .
+											#topOffset:.  imageHeight  .
+											#rightOffset:.  (-100) .
+											#bottomOffset:.  (imageHeight+25) .}}.
 			#add:. {	{#model. #setPassword }.
-							#layout:. { 1 . 0  . 1 . 0 . (-100) . imageHeight  . 0 . (imageHeight+25) }}.
+							#layout:. {#FrameLayout.
+											#leftFraction:.  1 .
+											#bottomFraction:.  0 .
+											#leftOffset:.  (-100) .
+											#topOffset:.  imageHeight  .
+											#bottomOffset:.  (imageHeight+25) .}}.
 			#add:. {	{#model. #gravatarAddress }.
-							#layout:. { 0 . 0  . 1 . 0 . 0 . (25+imageHeight)  . (-100) . (imageHeight+50) }}.
+							#layout:. {#FrameLayout.
+											#bottomFraction:.  0 .
+											#topOffset:.  (25+imageHeight)  .
+											#rightOffset:.  (-100) .
+											#bottomOffset:.  (imageHeight+50) .}}.
 			#add:. {	{#model. #testGravatar }.
-							#layout:. { 1 . 0  . 1 . 0 . (-100) . (imageHeight+25)  . 0 . (imageHeight+50) }}.
+							#layout:. {#FrameLayout.
+											#leftFraction:.  1 .
+											#bottomFraction:.  0 .
+											#leftOffset:.  (-100) .
+											#topOffset:.  (imageHeight+25)  .
+											#bottomOffset:.  (imageHeight+50) .}}.
 							
 			#add:. {	{#model. #editPublic }.
-							#layout:. { 0 . 0  . 0.33 . 0 . 0 . (50+imageHeight)  . 0 . (imageHeight+75) }}.
+							#layout:. {#FrameLayout.
+											#rightFraction:.  0.33 .
+											#bottomFraction:.  0 .
+											#topOffset:.  (50+imageHeight)  .
+											#bottomOffset:.  (imageHeight+75) .}}.
 			#add:. {	{#model. #editPrivate }.
-							#layout:. { 0.33 . 0  . 0.66 . 0 . 0 . (imageHeight+50)  . 0 . (imageHeight+75) }}.
+							#layout:. {#FrameLayout.
+											#leftFraction:.  0.33 .
+											#rightFraction:.  0.66 .
+											#bottomFraction:.  0 .
+											#topOffset:.  (imageHeight+50)  .
+											#bottomOffset:.  (imageHeight+75) .}}.
 			#add:. {	{#model. #editPermissions }.
-							#layout:. { 0.66 . 0  . 1 . 0 . 0 . (imageHeight+50)  . 0 . (imageHeight+75) }}}
+							#layout:. {#FrameLayout.
+											#leftFraction:.  0.66 .
+											#bottomFraction:.  0 .
+											#topOffset:.  (imageHeight+50)  .
+											#bottomOffset:.  (imageHeight+75) .}}}

@@ -1,4 +1,4 @@
 instance creation
 generateArguments
 	
-	self arguments: {{subwidget .#layout:. layoutFrame asArray}}.
+	self arguments: {{subwidget .#layout:. layoutFrame generateSpec}}.

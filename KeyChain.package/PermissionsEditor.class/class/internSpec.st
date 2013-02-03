@@ -4,21 +4,46 @@ internSpec
 
 	^{#ComposableSpec.
 			#add:. {{#model. #isRoot }.
-						#layout:. #(0 0  1 0 0 0 0 25) }.
+						#layout:. #(FrameLayout
+										bottomFraction: 0
+										bottomOffset: 25) }.
 			#add:. {{#model. #canBrowse }.
-						#layout:. #(0 0  1 0 0 25 0 50) }.
+						#layout:. #(FrameLayout
+										bottomFraction: 0
+										topOffset: 25
+										bottomOffset: 50) }.
 			#add:. {{#model. #canDebug }.
-						#layout:. #(0 0 1 0 0 50 0 75) }.
+						#layout:. #(FrameLayout
+										bottomFraction: 0
+										topOffset: 50
+										bottomOffset: 75) }.
 			#add:. {{#model. #canDropOSFile }.
-						#layout:. #(0 0   1 0 0 75   0 100)}.
+						#layout:. #(FrameLayout
+										bottomFraction: 0
+										topOffset: 75
+										bottomOffset: 100)}.
 			#add:. {{#model. #canEditCode }.
-						#layout:. #(0 0   1 0 0 100   0 125)}.
+						#layout:. #(FrameLayout
+										bottomFraction: 0
+										topOffset: 100
+										bottomOffset: 125)}.
 			#add:. {{#model. #canEditUser }.
-						#layout:. #(0 0   1 0 0 125   0 150)}.
+						#layout:. #(FrameLayout
+										bottomFraction: 0
+										topOffset: 125
+										bottomOffset: 150)}.
 			#add:. {{#model. #canEvaluateCode }.
-						#layout:. #(0 0   1 0 0 150   0 175)}.
+						#layout:. #(FrameLayout
+										bottomFraction: 0
+										topOffset: 150
+										bottomOffset: 175)}.
 			#add:. {{#model. #canRunStartupScript }.
-						#layout:. #(0 0   1 0 0 175   0 200)}.
+						#layout:. #(FrameLayout
+										bottomFraction: 0
+										topOffset: 175
+										bottomOffset: 200)}.
 			#add:. {{#model. #canShowMorphHalo }.
-						#layout:. #(0 0   1 0 0 200   0 225)}
-	}
+						#layout:. #(FrameLayout
+										bottomFraction: 0
+										topOffset: 200
+										bottomOffset: 225)}}

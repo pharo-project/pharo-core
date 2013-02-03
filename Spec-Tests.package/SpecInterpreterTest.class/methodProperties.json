@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"setUp" : "BenjaminVanRyseghem 10/18/2012 15:27",
-		"tearDown" : "BenjaminVanRyseghem 10/18/2012 15:24",
+		"tearDown" : "BenjaminVanRyseghem 1/15/2013 11:03",
 		"testBindings" : "BenjaminVanRyseghem 10/18/2012 15:41",
 		"testBuildWidgetFor" : "BenjaminVanRyseghem 12/12/2012 14:30",
 		"testBuildWidgetForWithSpec" : "BenjaminVanRyseghem 10/18/2012 15:33",

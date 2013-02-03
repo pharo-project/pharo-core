@@ -3,8 +3,27 @@ internSpec
 	<spec>
 	
 	^{#ComposableSpec .
-			#add: . {{#model . #groupLabel } . #layout: .  #(0 0 0 0 0 075 25) }.
-			#add: .  {{#model . #groupTextField } .#layout: . #(0 0 1 0 75 0 0 25) }.	
-			#add: . {{#model . #usernameLabel } . #layout: . #(0 0 0 0 0 25 75 50) }. 
-			#add: . {{#model . #usernameTextField } . #layout: . #(0 0 1 0 75 25 0 50) }.
-			#add: . {{#model.  #setPassword } . #layout: . #(0 0 1 0 0 50 0 75) }}
+			#add: . {{#model . #groupLabel } . #layout: .  #(FrameLayout
+																rightFraction: 0
+																bottomFraction: 0
+																rightOffset: 75
+																bottomOffset: 25) }.
+			#add: .  {{#model . #groupTextField } .#layout: . #(FrameLayout
+																bottomFraction: 0
+																leftOffset: 75
+																bottomOffset: 25) }.	
+			#add: . {{#model . #usernameLabel } . #layout: . #(FrameLayout
+																rightFraction: 0
+																bottomFraction: 0
+																topOffset: 25
+																rightOffset: 75
+																bottomOffset: 50) }. 
+			#add: . {{#model . #usernameTextField } . #layout: . #(FrameLayout
+																bottomFraction: 0
+																leftOffset: 75
+																topOffset: 25
+																bottomOffset: 50) }.
+			#add: . {{#model.  #setPassword } . #layout: . #(FrameLayout
+																bottomFraction: 0
+																topOffset: 50
+																bottomOffset: 75) }}
