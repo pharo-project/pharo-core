@@ -1,4 +1,0 @@
-protocol
-description
-
-	^ descriptionHolder contents

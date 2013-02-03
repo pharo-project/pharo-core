@@ -1,4 +1,5 @@
 *Unicode-Initialization
 loadCompositionMapping
-
-	self  parseCompositionMappingFrom: (ZnClient new url: 'http://unicode.org/Public/UNIDATA/UnicodeData.txt'; get) readStream
+	| url |
+	url := 'http://unicode.org/Public/UNIDATA/UnicodeData.txt' asZnUrl.
+	self parseCompositionMappingFrom: url retrieveContents readStream
