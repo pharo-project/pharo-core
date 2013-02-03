@@ -9,6 +9,7 @@
 		"tearDown" : "NouryBouraqadi 12/16/2011 15:15",
 		"testAddInstVarName" : "StephaneDucasse 8/27/2010 11:33",
 		"testAllSharedPools" : "StephaneDucasse 12/13/2011 17:04",
+		"testChangingShapeDoesNotPutNilInMethodsLastLiteralKey" : "CamilleTeruel 1/14/2013 15:12",
 		"testClassVarNames" : "marcus.denker 12/4/2008 11:12",
 		"testCompileAll" : "sd 6/5/2005 08:25",
 		"testHasPoolVarNamed" : "MarianoMartinezPeck 12/16/2011 11:55",

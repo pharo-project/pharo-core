@@ -1,8 +1,9 @@
 installing
 createClass
 	| superClass class composition |
-	superClass := Smalltalk globals at: superclassName.
-	class := ClassBuilder new
+	superClass := superclassName == #nil ifFalse:
+						[ Smalltalk globals at: superclassName ].
+	[ class := ClassBuilder new
 		name: name
 		inEnvironment: superClass environment
 		subclassOf: superClass
@@ -10,7 +11,7 @@ createClass
 		instanceVariableNames: self instanceVariablesString
 		classVariableNames: self classVariablesString
 		poolDictionaries: self sharedPoolsString
-		category: category.
+		category: category.] on: Warning, DuplicatedVariableError do: [:ex| ex resume].
 
 	self traitComposition
 		ifNotNil: [ composition := self class evaluatorClass evaluate: self traitComposition.

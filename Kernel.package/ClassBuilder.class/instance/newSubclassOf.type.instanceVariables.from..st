@@ -22,7 +22,8 @@ newSubclassOf: newSuper type: type instanceVariables: instVars from: oldClass
 		setInstVarNames: instVars.
 
 	oldClass ifNotNil:[
-		newClass organization: oldClass organization.
+		"Must install newClass in its environment before recompiling to ensure proper class binding"
+		newClass environment at: newClass name put: newClass.
 		"Recompile the new class"
 		oldClass hasMethods 
 			ifTrue:[newClass compileAllFrom: oldClass].		
