@@ -8,7 +8,7 @@ testSiblingBlocksTempShadowing
 		compile: 'temp [:temp | ]. [:temp | ]'
 		in: MockForCompilation
 		classified: nil
-		notifying: self
+		notifying: nil
 		ifFail: [self fail.
 						^nil]).
 

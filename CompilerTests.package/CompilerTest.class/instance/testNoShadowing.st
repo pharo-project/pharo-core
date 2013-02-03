@@ -8,7 +8,7 @@ testNoShadowing
 		compile: 'temp |var2|'
 		in: MockForCompilation
 		classified: nil
-		notifying: self
+		notifying: nil
 		ifFail: [self fail.
 				^nil]).
 

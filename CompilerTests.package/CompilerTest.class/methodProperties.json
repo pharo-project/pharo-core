@@ -15,7 +15,7 @@
 		"testInBlockTempShadowing" : "jb 7/1/2011 10:45",
 		"testInstanceVariableShadowing" : "jb 7/1/2011 10:45",
 		"testNegativeZero" : "nice 12/20/2012 23:37",
-		"testNoShadowing" : "jb 7/1/2011 10:45",
+		"testNoShadowing" : "CamilleTeruel 1/10/2013 14:42",
 		"testNotInteractiveInBlockArgumentInstanceVariableShadowing" : "jb 7/1/2011 10:44",
 		"testNotInteractiveInBlockTempArgumentShadowing" : "jb 7/1/2011 10:44",
 		"testNotInteractiveInBlockTempInstanceVariableShadowing" : "jb 7/1/2011 10:44",
@@ -29,5 +29,5 @@
 		"testReservedNameAsTempShadowing" : "TestRunner 3/8/2010 15:10",
 		"testScaledDecimalLiterals" : "nice 12/3/2007 22:20",
 		"testSiblingBlocksInstanceVariableShadowing" : "JorgeRessia 3/4/2010 12:55",
-		"testSiblingBlocksTempShadowing" : "JorgeRessia 3/4/2010 12:56",
+		"testSiblingBlocksTempShadowing" : "CamilleTeruel 1/10/2013 14:42",
 		"testTraitTempShadowing" : "JorgeRessia 3/13/2010 16:16" } }
