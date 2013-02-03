@@ -4,7 +4,7 @@ wipeImage: otherImage at: topLeft clippingBox: clipBox rectForIndex: rectForInde
 	| i clipRect t rectOrList waitTime |
 	i := 0.
 	clipRect := topLeft extent: otherImage extent.
-	clipBox ifNotNil: [clipRect := clipRect intersect: clipBox].
+	clipBox ifNotNil: [clipRect := clipRect intersect: clipBox ifNone: [ ^ self ]].
 	[rectOrList := rectForIndexBlock value: (i := i + 1).
 	 rectOrList == nil]
 		whileFalse: [

@@ -9,5 +9,5 @@ drawSubmorphsOn: aCanvas
 			i := self item: row.
 			canvas fullDrawMorph: i]].
 	self clipSubmorphs 
-		ifTrue: [aCanvas clipBy: (aCanvas clipRect intersect: self clippingBounds) during: drawBlock]
+		ifTrue: [aCanvas clipBy: (aCanvas clipRect intersect: self clippingBounds ifNone: [ ^ self ]) during: drawBlock]
 		ifFalse: [drawBlock value: aCanvas]

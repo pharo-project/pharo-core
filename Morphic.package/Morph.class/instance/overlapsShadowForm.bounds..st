@@ -2,7 +2,7 @@ geometry
 overlapsShadowForm: itsShadow bounds: itsBounds
 	"Answer true if itsShadow and my shadow overlap at all"
 	| andForm overlapExtent |
-	overlapExtent := (itsBounds intersect: self fullBounds) extent.
+	overlapExtent := (itsBounds intersect: self fullBounds ifNone: [ ^ false ]) extent.
 	overlapExtent > (0 @ 0)
 		ifFalse: [^ false].
 	andForm := self shadowForm.

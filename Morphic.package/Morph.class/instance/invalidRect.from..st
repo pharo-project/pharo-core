@@ -6,5 +6,5 @@ invalidRect: aRectangle from: aMorph
 	aMorph == self ifFalse:[
 		"Clip to receiver's clipping bounds if the damage came from a child"
 		self clipSubmorphs 
-			ifTrue:[damageRect := aRectangle intersect: self clippingBounds]].
+			ifTrue:[damageRect := aRectangle intersect: self clippingBounds ifNone: [ ^ self ]]].
 	owner ifNotNil: [owner invalidRect: damageRect from: self].

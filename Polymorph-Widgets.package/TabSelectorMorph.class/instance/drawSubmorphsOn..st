@@ -10,6 +10,6 @@ drawSubmorphsOn: aCanvas
 			and: [tab owner notNil]])
 		ifTrue: [self clipSubmorphs 
 				ifTrue: [aCanvas
-							clipBy: (aCanvas clipRect intersect: self clippingBounds)
+							clipBy: (aCanvas clipRect intersect: self clippingBounds ifNone:["done here" ^ self ])
 							during: [:c | tab drawKeyboardFocusOn: c]]
 				ifFalse: [tab drawKeyboardFocusOn: aCanvas]]

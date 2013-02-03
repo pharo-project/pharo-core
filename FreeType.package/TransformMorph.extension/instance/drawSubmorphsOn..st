@@ -2,7 +2,7 @@
 drawSubmorphsOn: aCanvas
 
 	aCanvas transformBy: transform
-		clippingTo: (aCanvas clipRect intersect: self clippingBounds)
+		clippingTo: (aCanvas clipRect intersect: self clippingBounds ifNone: [ ^ self ])
 		during: [:myCanvas |
 			(self angle ~= 0.0 or: [self scale ~= 1.0])
 				ifTrue:[ 

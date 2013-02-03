@@ -8,4 +8,4 @@ copyBits: rect from: sf at: destOrigin clippingBox: clipRect rule: cr fillColor:
 		destOrigin: destOrigin
 		sourceOrigin: rect origin
 		extent: rect extent
-		clipRect: (clipRect intersect: clippingBox)) copyBits
+		clipRect: (clipRect intersect: clippingBox ifNone: [ ^ self ])) copyBits

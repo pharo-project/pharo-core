@@ -37,8 +37,9 @@ buildSelectionBlocksFrom: topLeft to: bottomRight
 										color: self findReplaceSelectionColor) ] ].
 			secondarySelection
 				ifNotNil: [ 
-					secondarySelectionIntervals := secondarySelection
-						reject: [ :i | (findReplaceIntervals includes: i) or: [ i = primary ] ].
+					secondarySelectionIntervals := (secondarySelection
+						reject: [ :i | (findReplaceIntervals includes: i) or: [ i = primary or: [ i first > self text size ] ] ])
+						collect: [ :i | i first to: (i last min: self text size) ].
 					secondarySelectionIntervals
 						do: [ :r | 
 							self theme currentSettings haveSecondarySelectionTextColor

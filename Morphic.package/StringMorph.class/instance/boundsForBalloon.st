@@ -6,6 +6,6 @@ boundsForBalloon
 	^ ((owner notNil and: [(ownerOwner := owner owner) notNil]) and:
 			[ownerOwner isKindOf: PluggableListMorph])
 		ifTrue:
-			[self boundsInWorld intersect: ownerOwner boundsInWorld]
+			[self boundsInWorld intersect: ownerOwner boundsInWorld ifNone: [self boundsInWorld] ]
 		ifFalse:
 			[super boundsForBalloon]

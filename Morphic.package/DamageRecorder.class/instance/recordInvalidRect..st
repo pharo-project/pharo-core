@@ -3,12 +3,12 @@ recordInvalidRect: newRect
 	"Record the given rectangle in my damage list, a list of rectangular areas of the display that should be redraw on the next display cycle."
 	"Details: Damaged rectangles are often identical or overlap significantly. In these cases, we merge them to reduce the number of damage rectangles that must be processed when the display is updated. Moreover, above a certain threshold, we ignore the individual rectangles completely, and simply do a complete repaint on the next cycle."
 
-	| mergeRect |
+	| mergeRect zeroRect |
 	totalRepaint ifTrue: [^ self].  "planning full repaint; don't bother collecting damage"
-
+	zeroRect := 0@0 corner: 0@0. 
 	invalidRects do:
 		[:rect | | a |
-		((a := (rect intersect: newRect) area) > 40
+		((a := (rect intersect: newRect ifNone: [ zeroRect ]) area) > 40
 			and: ["Avoid combining a vertical and horizontal rects.
 				  Can make a big diff and we only test when likely."
 				  a > (newRect area // 4) or: [a > (rect area // 4)]])
@@ -28,5 +28,7 @@ recordInvalidRect: newRect
 	"add the given rectangle to the damage list"
 	"Note: We make a deep copy of all rectangles added to the damage list,
 		since rectangles in this list may be extended in place."
-	invalidRects addLast:
-		(newRect topLeft truncated corner: newRect bottomRight truncated).
+	newRect hasPositiveExtent ifTrue: [ 
+		invalidRects addLast:
+			(newRect topLeft truncated corner: newRect bottomRight truncated).
+	].

@@ -6,6 +6,6 @@ privateFullBounds
 	submorphs isEmpty ifTrue: [^self outerBounds].
 	box := self outerBounds copy.
 	box := box quickMerge: (self clipSubmorphs 
-						ifTrue: [self submorphBounds intersect: self clippingBounds]
+						ifTrue: [self submorphBounds intersect: self clippingBounds ifNone: [ self clippingBounds ]]
 						ifFalse: [self submorphBounds]).
 	^box origin asIntegerPoint corner: box corner asIntegerPoint

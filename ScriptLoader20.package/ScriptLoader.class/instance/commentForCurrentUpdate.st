@@ -1,7 +1,10 @@
 public
 commentForCurrentUpdate
- ^ '- Issue 7190:	MC core model depends on UI !!
-	http://code.google.com/p/pharo/issues/detail?id=7190
+ ^ 'Issue 7200:	DiskStore #isFile: and #isFIle:
+	http://code.google.com/p/pharo/issues/detail?id=7200
 	
-- Issue 7195:	SmallLint Rules better description and cleaning
-	http://code.google.com/p/pharo/issues/detail?id=7195'
+Issue 7188:	Got a red square of death when changing the commit message
+	http://code.google.com/p/pharo/issues/detail?id=7188
+	
+Issue 7171:	Rectangle intersects: ... and if none?
+	http://code.google.com/p/pharo/issues/detail?id=7171'

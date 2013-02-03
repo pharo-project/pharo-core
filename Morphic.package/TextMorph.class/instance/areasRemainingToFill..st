@@ -5,7 +5,7 @@ areasRemainingToFill: aRectangle
 		ifTrue: [^ Array with: aRectangle].
 	self wantsRoundedCorners
 	ifTrue: [(borderWidth > 0 and: [borderColor isColor and: [borderColor isTranslucent]])
-				ifTrue: [^ aRectangle areasOutside: (self innerBounds intersect: self boundsWithinCorners)]
+				ifTrue: [^ aRectangle areasOutside: (self innerBounds intersect: self boundsWithinCorners ifNone: [self error: 'cannot happen' ])]
 				ifFalse: [^ aRectangle areasOutside: self boundsWithinCorners]]
 	ifFalse: [(borderWidth > 0 and: [borderColor isColor and: [borderColor isTranslucent]])
 				ifTrue: [^ aRectangle areasOutside: self innerBounds]

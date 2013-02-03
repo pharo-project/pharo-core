@@ -10,4 +10,4 @@ basicBox
 		ifNil:
 			[aBox]
 		ifNotNil:
-			[aBox intersect: (w viewBox insetBy: 8@8)]
+			[aBox intersect: (w viewBox insetBy: 8@8) ifNone: [self error: 'should not happen' ]]

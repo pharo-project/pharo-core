@@ -2,7 +2,7 @@ drawing
 drawSubmorphsOn: aCanvas
 	submorphs ifEmpty: [^ self].
 	aCanvas transformBy: transform
-		clippingTo: (aCanvas clipRect intersect: (owner clippingBounds))
+		clippingTo: (aCanvas clipRect intersect: (owner clippingBounds) ifNone: ["we're done here" ^ self ])
 		during: [:myCanvas |  | top bottom |
 			top := self topVisibleRowForCanvas: myCanvas.
 			bottom := self bottomVisibleRowForCanvas: myCanvas startingAt: top.

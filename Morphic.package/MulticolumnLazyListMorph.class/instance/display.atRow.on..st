@@ -4,7 +4,7 @@ display: items atRow: row on: canvas
 	lists, items will be a list of strings"
 	| drawBounds |
 	drawBounds := self drawBoundsForRow: row.
-	drawBounds := drawBounds intersect: self bounds.
+	drawBounds := drawBounds intersect: self bounds ifNone: [ "oh well" ^ self ].
 	items
 		with: (1 to: items size)
 		do: [:item :index | 

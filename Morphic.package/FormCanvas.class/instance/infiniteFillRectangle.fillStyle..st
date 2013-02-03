@@ -8,7 +8,7 @@ infiniteFillRectangle: aRectangle fillStyle: aFillStyle
 
 	additionalOffset := 0@0.
 	ex := aFillStyle form extent.
-	rInPortTerms := (aRectangle intersect: aFillStyle boundingBox) translateBy: origin.
+	rInPortTerms := (aRectangle intersect: aFillStyle boundingBox ifNone: ["nothing to draw" ^ self ]) translateBy: origin.
 	clippedPort := port clippedBy: rInPortTerms.
 	targetTopLeft := clippedPort clipRect topLeft truncateTo: ex.
 	clipOffset := rInPortTerms topLeft - targetTopLeft.

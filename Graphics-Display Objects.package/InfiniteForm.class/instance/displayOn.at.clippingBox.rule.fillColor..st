@@ -7,7 +7,7 @@ displayOn: aDisplayMedium at: aDisplayPoint clippingBox: clipRectangle rule: rul
 		[^ aDisplayMedium fill: clipRectangle rule: ruleInteger fillColor: patternForm].
 
 	"Do it iteratively"
-	targetBox := aDisplayMedium boundingBox intersect: clipRectangle.
+	targetBox := aDisplayMedium boundingBox intersect: clipRectangle ifNone: [ ^ self ].
 	patternBox := patternForm boundingBox.
 	bb := BitBlt current destForm: aDisplayMedium sourceForm: patternForm fillColor: aForm
 		combinationRule: ruleInteger destOrigin: 0@0 sourceOrigin: 0@0
