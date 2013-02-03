@@ -11,5 +11,5 @@ initialize
 
 	DefaultHostName := ''.
 	HaveNetwork := nil.
-	ResolverMutex := Semaphore forMutualExclusion
+	ResolverMutex := Mutex new
 	

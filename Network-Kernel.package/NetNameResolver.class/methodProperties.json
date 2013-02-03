@@ -1,11 +1,11 @@
 {
 	"class" : {
 		"addressForName:" : "ls 9/5/1998 01:14",
-		"addressForName:timeout:" : "SvenVanCaekenberghe 11/2/2012 13:13",
+		"addressForName:timeout:" : "SvenVanCaekenberghe 1/14/2013 20:19",
 		"addressFromString:" : "marcus.denker 9/14/2008 21:16",
-		"initialize" : "HenrikSperreJohansen 2/16/2012 15:49",
+		"initialize" : "CamilloBruni 1/14/2013 22:15",
 		"initializeNetwork" : "HenrikSperreJohansen 2/16/2012 15:47",
-		"isConnected" : "NouryBouraqadi 10/1/2010 16:21",
+		"isConnected" : "SvenVanCaekenberghe 1/14/2013 20:01",
 		"localAddressString" : "jm 9/15/97 16:52",
 		"localHostAddress" : "mir 2/22/2002 15:50",
 		"localHostName" : "lr 3/13/2010 15:07",

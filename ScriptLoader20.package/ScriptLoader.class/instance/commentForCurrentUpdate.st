@@ -1,4 +1,7 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7252:	update --from-file for staged updates
-	http://code.google.com/p/pharo/issues/detail?id=7252'
+ ^ 'Issue 7255:	NetNameResolver NameLookupFailure interaction if wrong
+	http://code.google.com/p/pharo/issues/detail?id=7255
+	
+Issue 7242:	failing test: BehaviorTest.testHasAbstractMethods
+	http://code.google.com/p/pharo/issues/detail?id=7242'

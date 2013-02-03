@@ -1,7 +1,6 @@
 tests
 testHasAbstractMethods
-	self assert: Object hasAbstractMethods.
-	"Object defines nbLibraryNameOrHandle as abstract."
+	self deny: Object hasAbstractMethods.
 	self deny: Object class hasAbstractMethods.
 		
 	"Behavior has abstract methods, for example hasTraitComposition, basicLocalSelectors:"

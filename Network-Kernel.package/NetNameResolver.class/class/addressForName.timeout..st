@@ -4,13 +4,13 @@ addressForName: hostName timeout: secs
 	"NetNameResolver addressForName: 'create.ucsb.edu' timeout: 30"
 	"NetNameResolver addressForName: '100000jobs.de' timeout: 30"
 	"NetNameResolver addressForName: '1.7.6.4' timeout: 30"
-	"NetNameResolver addressForName: '' timeout: 30 (This seems to return nil?)"
+	"NetNameResolver addressForName: '' timeout: 30"
 
 	| deadline result |
 	self initializeNetwork.
 	"check if this is a valid numeric host address (e.g. 1.2.3.4)"
 	result := self addressFromString: hostName.
-	result isNil ifFalse: [^result asSocketAddress].
+	result isNil ifFalse: [ ^ result asSocketAddress ].
 
 	"Look up a host name, including ones that start with a digit (e.g. 100000jobs.de or www.pharo-project.org)"
 	deadline := Time millisecondClockValue -> (secs * 1000).
@@ -21,7 +21,7 @@ addressForName: hostName timeout: secs
 				ifTrue: [
 					self primStartLookupOfName: hostName.
 					(self waitForCompletionUntil: deadline)
-						ifTrue: [result := self primNameLookupResult]
-						ifFalse: [(NameLookupFailure hostName: hostName) signal: 'Could not resolve the server named: ', hostName]]
-				ifFalse: [(NameLookupFailure hostName: hostName) signal: 'Could not resolve the server named: ', hostName]].
-	^result asSocketAddress
+						ifTrue: [ result := self primNameLookupResult ]
+						ifFalse: [ ^ NameLookupFailure signalFor: hostName ] ]
+				ifFalse: [ ^ NameLookupFailure signalFor: hostName ] ].
+	^ result asSocketAddress
