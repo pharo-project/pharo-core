@@ -1,3 +1,3 @@
-private
+testing
 transformations: aCollection
 	transformations := aCollection

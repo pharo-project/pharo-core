@@ -7,19 +7,18 @@ renamePackage: aPackage in: aString
 
 	oldPackageName := aPackage name.
 	classes := aPackage definedClasses.
-	classes do: [:class |
-		class category: aString ].	
+
 	self unregisterPackage: aPackage.
 	aPackage name: aString.
 	self registerPackage: aPackage.
-	aPackage extensionMethods do: [ :aMethod | 
-		| aProtocol |
-		aProtocol := aMethod methodClass organization categoryOfElement: aMethod selector.
-		aMethod methodClass organization renameCategory: aProtocol asSymbol 
-					toBe: (aProtocol copyReplaceAll: oldPackageName with: aString) asSymbol.
-	].
-	
-	classes do: [:class |
-		class category: aString ].
-	
+
+	SystemAnnouncer uniqueInstance suspendAllWhile: [
+		classes do: [:class | class category: aString ].
+		aPackage extensionMethods do: [ :aMethod | 
+			| aProtocol |
+			aProtocol := aMethod methodClass organization categoryOfElement: aMethod selector.
+			aMethod methodClass organization 
+				silentlyRenameCategory: aProtocol asSymbol 
+				toBe: (aProtocol copyReplaceAll: oldPackageName with: aString) asSymbol ] ].	
+
 	^ aPackage

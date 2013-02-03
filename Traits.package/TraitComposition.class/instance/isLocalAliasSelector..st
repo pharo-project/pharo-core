@@ -1,4 +1,4 @@
-testing
+private
 isLocalAliasSelector: aSymbol
 	"Return true if the selector aSymbol is an alias defined
 	in this composition."

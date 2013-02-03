@@ -3,7 +3,7 @@ privateActionIcon
 	"Return the icon for this action"
 
 	^ IconicButton new 
-			target: (method origin  >> method selector);
+			target: method originMethod;
 			actionSelector: #browse;
 			labelGraphic: (self iconClass iconNamed: #trait) ;
 			color: Color transparent;

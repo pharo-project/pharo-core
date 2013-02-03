@@ -3,6 +3,7 @@ systemCategoryRenamedActionFrom: ann
 
 	| rPackage classesAndProtocolsToRename|
 	"we update the rpackage itself with the new name"
+	self halt.
 	rPackage := self packageNamed: ann oldCategoryName asSymbol ifAbsent: [self packageClass new].
 	rPackage name: ann newCategoryName.
 	
@@ -14,10 +15,10 @@ systemCategoryRenamedActionFrom: ann
 	Then it just left all references in the organizer to update. For now I see the 'packages' variable. "
 	
 	"we also rename all the extension protocols in the system with the new name"
-	classesAndProtocolsToRename := (rPackage extensionMethods collect: [:aCompiledMethod |
-		aCompiledMethod methodClass -> aCompiledMethod category
-		]) asSet.
-	classesAndProtocolsToRename do: [:anAssociation |
-		anAssociation  key organization silentlyRenameCategory:  anAssociation  value toBe: '*', ann newCategoryName
-		].
+	classesAndProtocolsToRename := rPackage extensionMethods asSet.
+	classesAndProtocolsToRename 
+		do: [:method | 
+			method methodClass organization 
+				silentlyRenameCategory: method category 
+				toBe: '*', ann newCategoryName ].
 		

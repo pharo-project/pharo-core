@@ -1,3 +1,3 @@
-testing
+private
 notEmpty
 	^self isEmpty not
