@@ -7,8 +7,7 @@
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		"index",
-		"initialIndex",
-		"leftToRight",
+		"frontward",
 		"wait" ],
 	"name" : "GoBackStringMorph",
 	"pools" : [

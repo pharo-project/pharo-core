@@ -1,6 +1,6 @@
-geometry
+event handling
 mouseEnter: evt
-
 	super mouseEnter: evt.
-	leftToRight := false.
-	index := initialIndex + 1.
+	frontward := true.
+	index := 0.
+	wait := 0

@@ -3,12 +3,12 @@
 		 },
 	"instance" : {
 		"asText" : "",
-		"contents:" : "",
-		"initialize" : "",
-		"largeEnough" : "",
-		"mouseEnter:" : "",
-		"mouseLeave:" : "",
-		"resetDisplay" : "",
-		"step" : "",
-		"stepAction" : "",
-		"stepTime" : "" } }
+		"contents:" : "CT 1/8/2013 18:38",
+		"initialize" : "CT 1/8/2013 18:24",
+		"largeEnough" : "CT 1/8/2013 18:46",
+		"mouseEnter:" : "CT 1/8/2013 18:23",
+		"mouseLeave:" : "CT 1/8/2013 18:48",
+		"resetDisplay" : "CT 1/8/2013 18:23",
+		"step" : "CT 1/8/2013 18:47",
+		"stepAction" : "CT 1/8/2013 18:21",
+		"stepTime" : "CT 1/8/2013 18:21" } }
