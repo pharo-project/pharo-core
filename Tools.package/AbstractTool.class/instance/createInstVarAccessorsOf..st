@@ -5,7 +5,12 @@ createInstVarAccessorsOf: aClass
 	| instVars |
 	aClass ifNil: [ ^ self ].
 	
-	instVars := (TickDialogWindow itemsList: aClass instVarNames copy sort itemsHeaderName: 'Inst Var Names' title: 'Getter/Setter Creator' defaultValue: true) chooseFromOwner: self window.
+	instVars := (TickDialogWindow 
+						itemsList: aClass instVarNames copy sort 
+						itemsHeaderName: 'Inst Var Names' 
+						wrapBlockOrSelector: [:e | e ]
+						title: 'Getter/Setter Creator' 
+						defaultValue: true) chooseFromOwner: self window.
 	
 	instVars ifNil: [ ^ self ].
 	

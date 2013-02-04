@@ -6,7 +6,8 @@ importFromPackageInfo: info
 
 	package := self ensureExistAndRegisterPackageNamed: info packageName.
 
-	self importFromPackageInfoPass1: info package: package.
-	self importFromPackageInfoPass2: info package: package.
+	info isEmpty ifFalse: [
+		self importFromPackageInfoPass1: info package: package.
+		self importFromPackageInfoPass2: info package: package ].
 
 	^ package

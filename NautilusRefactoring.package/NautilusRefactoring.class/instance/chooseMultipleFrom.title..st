@@ -4,7 +4,8 @@ chooseMultipleFrom: anArray title: aString
 	| window |
 	window :=  TickDialogWindow 
 					itemsList: anArray 
-					itemsHeaderName: '' 
+					itemsHeaderName: ''
+					wrapBlockOrSelector: [:e | e ]
 					title: aString
 					defaultValue: true.
 

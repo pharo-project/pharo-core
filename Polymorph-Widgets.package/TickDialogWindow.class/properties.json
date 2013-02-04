@@ -6,13 +6,13 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"itemsList",
+		"defaultValue",
 		"itemsHeaderName",
-		"listMorph",
-		"wrapBlockOrSelector",
-		"resultStorage",
+		"itemsList",
 		"listModel",
-		"defaultValue" ],
+		"listMorph",
+		"resultStorage",
+		"wrapBlockOrSelector" ],
 	"name" : "TickDialogWindow",
 	"pools" : [
 		 ],

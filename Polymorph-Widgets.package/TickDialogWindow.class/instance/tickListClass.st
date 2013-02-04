@@ -1,4 +1,4 @@
 private
 tickListClass
 
-	^ TickSelectionList
+	^ MorphTreeModel

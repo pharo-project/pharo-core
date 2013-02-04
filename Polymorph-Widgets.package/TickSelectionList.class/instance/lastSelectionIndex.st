@@ -1,4 +1,0 @@
-accessing
-lastSelectionIndex
-
-	^ lastSelectionIndex

@@ -6,7 +6,12 @@ createInitializerWithInstVarsOf: aClass
 
 	aClass ifNil: [ ^ self ].
 	
-	instVars := (TickDialogWindow itemsList: aClass instVarNames sort itemsHeaderName: 'Inst Var Names' title: 'Create entry point') chooseFromOwner: self window.
+	instVars := (TickDialogWindow 
+						itemsList: aClass instVarNames sort 
+						itemsHeaderName: 'Inst Var Names' 
+						wrapBlockOrSelector: [:e | e ]
+						title: 'Create entry point'
+						defaultValue: true) chooseFromOwner: self window.
 	
 	instVars ifNil: [ ^ self ].
 	

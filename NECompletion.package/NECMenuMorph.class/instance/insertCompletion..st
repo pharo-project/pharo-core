@@ -1,5 +1,6 @@
 actions
-insertCompletion: aString 
+insertCompletion: aString
+
 	| caret old pos editor |
 	editor := controller editor.
 	caret := editor caret.
