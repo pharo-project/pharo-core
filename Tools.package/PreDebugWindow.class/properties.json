@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "LaurentLaffont 3/15/2011 20:51",
 	"instvars" : [
-		"proceedButton",
-		"debugButton" ],
+		 ],
 	"name" : "PreDebugWindow",
 	"pools" : [
 		 ],

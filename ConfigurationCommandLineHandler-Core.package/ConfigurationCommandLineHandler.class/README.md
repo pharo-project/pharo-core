@@ -1,9 +1,11 @@
-Usage: config [--help] <repository url> [<configuration>] [--install[=<version>]] [--group=<group>]
+Usage: config [--help] <repository url> [<configuration>] [--install[=<version>]] [--group=<group>] [--username=<username>] [--password=<password>]
 	--help              show this help message
 	<repository url>    A Monticello repository name 
 	<configuration>     A valid Metacello Configuration name
 	<version>           A valid version for the given configuration
 	<group>             A valid Metacello group name
+	<username>          An optional username to access the configuration's repository
+	<password>          An optional password to access the configuration's repository
 	
 Examples:
 	# display this help message

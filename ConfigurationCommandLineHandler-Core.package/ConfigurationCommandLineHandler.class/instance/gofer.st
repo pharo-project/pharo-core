@@ -1,5 +1,12 @@
 accessing
 gofer
-	^ Gofer new 
-		url: self repositoryURL;
+	| username password |
+	username := (self hasOption: 'username')
+		ifTrue: [ self optionAt: 'username' ]
+		ifFalse: [ String new ].
+	password := (self hasOption: 'password')
+		ifTrue: [ self optionAt: 'password' ]
+		ifFalse: [ String new ].
+	^ Gofer new
+		url: self repositoryURL username: username password: password;
 		yourself
