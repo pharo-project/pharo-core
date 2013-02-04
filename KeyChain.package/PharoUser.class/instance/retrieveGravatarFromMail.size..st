@@ -1,11 +1,11 @@
 gravatar
 retrieveGravatarFromMail: email size: size
 	| response |
-
-	response := ZnClient new 
+	response := ZnClient new
 		timeout: 10;
-		get: 'http://www.gravatar.com/avatar/', 
-			(ZnDigestAuthenticator md5Hash: email), 
-			'?s=', size asString,'&d=retro'.
-			
-	^ (ImageMorph fromStream: response readStream)
+		url: 'http://www.gravatar.com/avatar';
+		addPathSegment: (ZnDigestAuthenticator md5Hash: email);
+		queryAt: #s put: size asString;
+		queryAt: #d put: #retro;
+		get.
+	^ ImageMorph fromStream: response readStream

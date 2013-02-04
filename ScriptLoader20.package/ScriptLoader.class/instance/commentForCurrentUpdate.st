@@ -1,9 +1,8 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7275:	Sanitize String with/without selectors
-	http://code.google.com/p/pharo/issues/detail?id=7275
+ ^ 'Issue 7261:	Improve PharoUser>>#retrieveGravatarFromMail:size: ZnClient usage
+	http://code.google.com/p/pharo/issues/detail?id=7261
 	
-Issue 7288:	Clean methods are just do super send
-	http://code.google.com/p/pharo/issues/detail?id=7288
-	
+Issue 7267:	Update Pharo License String to 2013
+	http://code.google.com/p/pharo/issues/detail?id=7267
 '

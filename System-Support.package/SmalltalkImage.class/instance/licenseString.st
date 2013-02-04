@@ -4,8 +4,8 @@ licenseString
 	
 Licensed under the MIT License with parts under the Apache License.
 
-Copyright (c) 2008-2012 The Pharo Project, and Contributors
-Copyright (c) 2008-2012 Inria
+Copyright (c) 2008-2013 The Pharo Project, and Contributors
+Copyright (c) 2008-2013 Inria
 Copyright (c) 1996-2008 Viewpoints Research Institute, and Contributors 
 Copyright (c) 1996 Apple Computer, Inc.
 
