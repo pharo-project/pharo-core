@@ -4,4 +4,8 @@
 	"instance" : {
 		"testValueWithinNonLocalReturnFixReal" : "nice 1/5/2010 15:59",
 		"testValueWithinNonLocalReturnFixSimply" : "ar 8/17/2007 13:38",
+		"testValueWithinTimingBasic" : "ar 12/4/2012 20:35",
+		"testValueWithinTimingNestedInner" : "ar 12/4/2012 20:35",
+		"testValueWithinTimingNestedOuter" : "ar 12/4/2012 20:35",
+		"testValueWithinTimingRepeat" : "ar 12/4/2012 20:35",
 		"valueWithinNonLocalReturn" : "ar 8/17/2007 13:37" } }

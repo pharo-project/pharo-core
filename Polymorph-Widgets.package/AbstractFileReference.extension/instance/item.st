@@ -1,0 +1,3 @@
+*Polymorph-Widgets
+item
+	^ self
