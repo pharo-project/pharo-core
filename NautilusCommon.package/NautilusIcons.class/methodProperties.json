@@ -2,7 +2,7 @@
 	"class" : {
 		"default" : "lr 3/28/2009 16:15",
 		"iconNamed:" : "dr 9/4/2008 16:35",
-		"initialize" : "lr 3/21/2009 19:49" },
+		"initialize" : "BenjaminVanRyseghem 1/24/2013 11:31" },
 	"instance" : {
 		"abstract" : "BenjaminVanRyseghem 2/21/2012 01:53",
 		"alert" : "BenjaminVanRyseghem 8/23/2011 17:49",
@@ -14,7 +14,7 @@
 		"arrowUpAndDown" : "BenjaminVanRyseghem 4/7/2011 13:46",
 		"blank" : "lr 3/28/2009 16:04",
 		"bookIcon" : "BenjaminVanRyseghem 3/30/2011 12:44",
-		"breakpoint" : "lr 8/2/2007 19:32",
+		"breakpoint" : "BenjaminVanRyseghem 1/24/2013 11:32",
 		"byteCodePressedIcon" : "BenjaminVanRyseghem 1/21/2012 23:23",
 		"byteCodeSelectedIcon" : "BenjaminVanRyseghem 1/21/2012 21:37",
 		"byteCodeUnselectedIcon" : "BenjaminVanRyseghem 1/21/2012 21:38",
@@ -34,6 +34,7 @@
 		"flag" : "lr 8/2/2007 19:32",
 		"greenArrowUpAndDown" : "BenjaminVanRyseghem 4/6/2011 18:50",
 		"groupIcon" : "BenjaminVanRyseghem 4/1/2011 15:26",
+		"haltIcon" : "BenjaminVanRyseghem 1/24/2013 11:37",
 		"instVarsPressedIcon" : "BenjaminVanRyseghem 1/21/2012 23:49",
 		"instVarsSelectedIcon" : "BenjaminVanRyseghem 1/21/2012 23:44",
 		"instVarsUnselectedIcon" : "BenjaminVanRyseghem 1/21/2012 23:44",

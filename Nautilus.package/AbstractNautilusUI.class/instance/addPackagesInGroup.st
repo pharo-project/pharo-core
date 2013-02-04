@@ -1,4 +1,4 @@
-menus behavior
+group
 addPackagesInGroup
 	
 	self addPackagesInGroup: self selectedPackages

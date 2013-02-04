@@ -12,4 +12,6 @@ methodRemoved: anAnnouncement
 				ifTrue: [ self selectedMethod: nil ].
 			self resetMethodsListSelection.
 			self removeAllFromMethodsIconsCache: method.
-			self update ]
+			self update.
+			(method methodClass isMeta and: [ method methodClass methodDict isEmpty ])
+				ifTrue: [ self changed: #instanceButtonLabel ] ]

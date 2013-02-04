@@ -5,7 +5,7 @@ renameAGroup: aGroup
 	entry := UIManager default request: 'New name of the group' initialAnswer: aGroup name title: 'Rename a group'.
 	(entry isNil or: [entry isEmpty]) ifTrue: [^ aGroup].
 	(self includesAGroupNamed: entry)
-		ifTrue: [ ^ self openError ].
+		ifTrue: [ ^ self openError: entry ].
 	aGroup isReadOnly
 		ifTrue: [ ^ self openReadOnlyError ].
 	aGroup name: entry.

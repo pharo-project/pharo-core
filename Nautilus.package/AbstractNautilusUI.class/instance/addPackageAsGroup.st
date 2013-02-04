@@ -1,4 +1,8 @@
-menus behavior
+group
 addPackageAsGroup
 
-	^ self addPackagesAsGroup: self selectedPackages
+	^ [ self addPackagesAsGroup: self selectedPackages ]
+		on: GroupAlreadyExists 
+		do: [:ex | 
+			self alertGroupExisting: ex groupName.
+			^ nil ]

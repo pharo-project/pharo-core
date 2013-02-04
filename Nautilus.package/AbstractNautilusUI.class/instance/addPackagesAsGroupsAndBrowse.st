@@ -1,4 +1,4 @@
-menus behavior
+group
 addPackagesAsGroupsAndBrowse
 
 	(self addPackagesAsGroups: self selectedPackages)

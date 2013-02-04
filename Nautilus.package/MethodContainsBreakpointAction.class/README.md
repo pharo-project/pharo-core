@@ -1,0 +1,1 @@
+A MethodContainsBreakpointAction is the action corresponding to the fact that the method contains a breakpoint

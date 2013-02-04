@@ -9,11 +9,17 @@ methodModified: anAnnouncement
 	
 	(collection includes: anAnnouncement methodClass)
 		ifTrue: [
-			| method |
-			method := anAnnouncement newMethod.	
+			| method selectedMethod oldMethod |
+			method := anAnnouncement newMethod.
+			selectedMethod := self selectedMethod.
 			self removeFromMethodsIconsCache: method.
 			self updateClassView.
-			self selectedMethod = anAnnouncement oldMethod
+			oldMethod := anAnnouncement oldMethod.
+			(selectedMethod = oldMethod 
+				or: [ 
+					oldMethod hasBreakpoint 
+					and: [ selectedMethod methodClass = oldMethod methodClass 
+					and: [ selectedMethod selector = oldMethod selector ]]])
 				ifTrue: [
 					sourceTextArea hasUnacceptedEdits
 						ifTrue: [ | sourceCode |

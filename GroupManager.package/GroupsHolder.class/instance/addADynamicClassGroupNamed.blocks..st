@@ -3,7 +3,7 @@ addADynamicClassGroupNamed: entry blocks: aCollection
 	
 	(self includesAGroupNamed: entry)
 		ifTrue: [ 
-			self openError.
+			self openError: entry.
 			^ nil]
 		ifFalse: [ | group |
 			group := self groups

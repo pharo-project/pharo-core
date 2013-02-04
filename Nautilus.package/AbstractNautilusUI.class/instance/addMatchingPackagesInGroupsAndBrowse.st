@@ -1,4 +1,4 @@
-menus behavior
+group
 addMatchingPackagesInGroupsAndBrowse
 
 	( self addMatchingPackagesInGroups )

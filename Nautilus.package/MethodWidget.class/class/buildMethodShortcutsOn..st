@@ -20,14 +20,6 @@ buildMethodShortcutsOn: aBuilder
 		do: [ :target | target categorizeMethod ]
 		description: 'Recategorize the selected methods'.
 	
-	(aBuilder shortcut: #debugTest)
-		category: #NautilusMethodShortcuts
-		default: $d command
-		do: [ :target | target debugTest ]
-		description: 'Debug selected tests'.
-		
-		
-
 	(aBuilder shortcut: #addMethodsInGroup)
 		category: #NautilusMethodShortcuts
 		default: $e command

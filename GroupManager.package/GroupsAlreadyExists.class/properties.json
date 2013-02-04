@@ -1,0 +1,14 @@
+{
+	"category" : "GroupManager",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"groupName" ],
+	"name" : "GroupsAlreadyExists",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }
