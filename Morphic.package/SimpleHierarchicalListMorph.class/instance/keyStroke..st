@@ -1,7 +1,7 @@
 event handling
 keyStroke: event 
-	"Removed "
-
+	"Process potential command keys that are not handled by keymappings yet"
+	
 	| args aCharacter |
 	aCharacter := event keyValue asCharacter. 
 	event anyModifierKeyPressed ifFalse: [

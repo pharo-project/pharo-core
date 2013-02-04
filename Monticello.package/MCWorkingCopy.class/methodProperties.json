@@ -2,6 +2,7 @@
 	"class" : {
 		"adoptVersionInfoFrom:" : "avi 9/13/2004 18:00",
 		"ancestorsFromArray:cache:" : "avi 2/17/2004 01:23",
+		"hasPackageNamed:" : "sd 1/24/2013 10:52",
 		"infoFromDictionary:cache:" : "StephaneDucasse 8/17/2012 15:58",
 		"initialize" : "CamilleTeruel 7/30/2012 14:09",
 		"registerForNotifications" : "MarianoMartinezPeck 9/5/2012 15:05" },

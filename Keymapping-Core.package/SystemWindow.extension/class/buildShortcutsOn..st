@@ -1,0 +1,9 @@
+*Keymapping-Core
+buildShortcutsOn: aBuilder
+	<keymap>
+
+	(aBuilder shortcut: #close)
+		category: #WindowShortcuts
+		default: $w ctrl | $w command mac
+		do: [ :target | target delete ]
+		description: 'Close this window'.

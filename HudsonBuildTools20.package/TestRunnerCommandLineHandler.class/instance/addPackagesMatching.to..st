@@ -9,6 +9,8 @@ addPackagesMatching: aString to: aSet
 	(aString includes: $*)
 		ifTrue: [ ^ self addPackagesMatchingGlob: aString to: aSet ].
 	
-	"exact match"
-	(RPackage organizer includesPackageNamed: aString)
+	"exact match, and just those who actually have classes inside (to avoid 
+	 super-package duplications)"
+	((RPackage organizer includesPackageNamed: aString) 
+		and: [ (RPackage organizer packageNamed: aString) definedClasses notEmpty ])
 		ifTrue: [ aSet add: aString ]
