@@ -3,6 +3,8 @@
 		 },
 	"instance" : {
 		"acceptTextInModel" : "GaryChambers 3/8/2011 11:45",
+		"beDecrypted" : "BenjaminVanRyseghem 1/25/2013 15:24",
+		"beEncrypted" : "BenjaminVanRyseghem 1/25/2013 15:24",
 		"borderStyleToUse" : "gvc 5/23/2007 13:08",
 		"chooserHasFocus" : "AlainPlantec 11/25/2010 21:07",
 		"closeChooser" : "AlainPlantec 11/23/2010 22:18",
@@ -12,6 +14,7 @@
 		"default" : "AlainPlantec 11/14/2009 11:29",
 		"default:" : "AlainPlantec 11/14/2009 11:29",
 		"drawOn:" : "FernandoOlivero 4/12/2011 10:12",
+		"encrypted:" : "BenjaminVanRyseghem 10/25/2012 14:23",
 		"entryCompletion:" : "AlainPlantec 11/28/2010 09:09",
 		"fillStyleToUse" : "gvc 5/23/2007 13:04",
 		"focusChanged" : "AlainPlantec 11/25/2010 22:12",

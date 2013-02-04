@@ -54,7 +54,7 @@ handleKeystrokeBefore: aKeyboardEvent editor: anEditor
 			menuMorph pageDown.
 			^ true].
 
-	(keyCharacter = Character enter and: [ NECPreferences useEnterToAccept])
+	(keyCharacter = Character cr and: [ NECPreferences useEnterToAccept])
 		ifTrue: [
 			menuMorph insertSelected
 				ifTrue: [^ true]].

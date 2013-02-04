@@ -23,8 +23,7 @@ buildSourceCodeShortcutsOn: aBuilder
 							ifTrue: [ target refactor extractToMethodTextSelection ]]
 		description: 'Extract to method the current selection'.
 	
-	self flag: 'Enable with a different shortcut once we have a decent formatter'.
-	"(aBuilder shortcut: #format) 
+	(aBuilder shortcut: #format) 
 		category: #NautilusSourceCodeShortcuts
-		default: $r command shift
-		do: [ :target | target refactor formatSourceCode ]."
+		default: $u command shift
+		do: [ :target | target refactor formatSourceCode ].

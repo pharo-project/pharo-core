@@ -16,6 +16,7 @@
 		"executeShould:inScopeOf:withDescriptionNotContaining:" : "CamilloBruni 8/24/2012 17:23",
 		"executeShould:inScopeOf:withExceptionDo:" : "AdrianKuhn 12/24/2009 01:26",
 		"fail" : "AdrianKuhn 12/24/2009 01:28",
+		"fail:" : "CamilloBruni 1/25/2013 00:43",
 		"should:" : "AdrianKuhn 12/21/2009 14:56",
 		"should:description:" : "AdrianKuhn 12/21/2009 14:56",
 		"should:notTakeMoreThan:" : "CamilloBruni 8/24/2012 17:14",

@@ -1,4 +1,4 @@
-*keychain
+encryption
 encrypted: aBoolean
 
 	aBoolean
