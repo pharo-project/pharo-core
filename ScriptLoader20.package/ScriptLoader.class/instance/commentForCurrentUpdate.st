@@ -1,4 +1,7 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 6449:	[ENH]: MCHttpRepository Authentication
-	http://code.google.com/p/pharo/issues/detail?id=6449'
+ ^ 'Issue 7262:	add --save option to TestRunnerCommandLineHandler
+	http://code.google.com/p/pharo/issues/detail?id=7262
+	
+Issue 6920:	dragging a class from a package to another one does not remove the element from the source package
+	http://code.google.com/p/pharo/issues/detail?id=6920'
