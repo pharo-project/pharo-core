@@ -1,3 +1,3 @@
 running
 runPackage: aString
-	^ self runClasses: (PackageInfo named: aString) classes named: aString
+	^ self runClasses: (RPackage organizer packageNamed: aString) classes named: aString

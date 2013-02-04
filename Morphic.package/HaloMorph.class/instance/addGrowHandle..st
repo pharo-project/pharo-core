@@ -1,6 +1,6 @@
 handles
 addGrowHandle: haloSpec
-	target isFlexMorph ifFalse: 
+	target shouldFlex ifFalse: 
 		[(self addHandle: haloSpec
 				on: #mouseDown send: #startGrow:with: to: self)
 				on: #mouseMove send: #doGrow:with: to: self]

@@ -14,7 +14,7 @@ addSimpleHandlesTo: aHaloMorph box: aBox
 	aHandle := self addGraphicalHandle: #rotateIcon at: aBox bottomLeft on: #mouseDown send: #startRot:with: to: self.
 	aHandle on: #mouseMove send: #doRot:with: to: self.
 
-	target isFlexMorph
+	target shouldFlex
 		ifTrue: [(self addGraphicalHandle: #scaleIcon at: aBox bottomRight  on: #mouseDown send: #startScale:with: to: self)
 				on: #mouseMove send: #doScale:with: to: self]
 		ifFalse: [(self addGraphicalHandle: #scaleIcon at: aBox bottomRight on: #mouseDown send: #startGrow:with: to: self)

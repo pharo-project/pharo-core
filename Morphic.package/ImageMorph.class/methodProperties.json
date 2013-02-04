@@ -17,7 +17,6 @@
 		"grabFromScreen" : "",
 		"image" : "jm 9/27/97 20:16",
 		"initialize" : "alain.plantec 5/28/2009 09:36",
-		"isFlexMorph" : "MarcusDenker 3/28/2011 18:11",
 		"isOpaque" : "dgd 2/16/2003 20:01",
 		"isOpaque:" : "ar 11/7/2000 14:57",
 		"newForm:" : "sw 12/17/1998 12:11",
@@ -25,5 +24,6 @@
 		"readFromFile" : "DamienCassou 9/29/2009 12:58",
 		"releaseCachedState" : "",
 		"setNewImageFrom:" : "FernandoOlivero 4/12/2011 09:46",
+		"shouldFlex" : "WilliamSix 1/14/2013 19:44",
 		"wantsRecolorHandle" : "StephaneDucasse 5/28/2011 13:40",
 		"withSnapshotBorder" : "wiz 4/7/2004 15:10" } }

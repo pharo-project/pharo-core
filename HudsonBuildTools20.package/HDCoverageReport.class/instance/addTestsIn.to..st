@@ -6,5 +6,5 @@ addTestsIn: aTestAsserter to: aSet
 	(aTestAsserter isKindOf: TestCase) ifTrue: [
 		(aTestAsserter class respondsTo: #packageNamesUnderTest) ifTrue: [
 			aTestAsserter class packageNamesUnderTest
-				do: [ :each | aSet add: (PackageInfo named: each) ] ] ].
+				do: [ :each | aSet add: (RPackage organizer packageNamed: each) ] ] ].
 	^ aSet

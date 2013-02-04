@@ -7,6 +7,7 @@ insertCommonPrefix
 	context model entries size = 1
 		ifTrue: [ ^ self insertSelected ].
 	prefix := context model commonPrefix.
-	prefix size > controller model contents size
+	self flag: 'Pending issue 7308, "controller editor wordAtCaret" below should be changed to "context completionToken"'.
+	prefix size > controller editor wordAtCaret size
 		ifTrue: [ self insertCompletion: prefix ].
 	^ true
