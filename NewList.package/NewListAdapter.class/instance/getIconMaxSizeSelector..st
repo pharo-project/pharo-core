@@ -1,0 +1,3 @@
+accessing
+getIconMaxSizeSelector: anObject
+	getIconMaxSizeSelector contents: anObject

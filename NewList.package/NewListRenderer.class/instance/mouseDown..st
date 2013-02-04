@@ -2,7 +2,7 @@ events
 mouseDown: event
 
 	| selectors index |
-
+	
 	(self enabled and: [ event yellowButtonPressed ])  "First check for option (menu) click"
 		ifTrue: [
 			self isMultipleSelection

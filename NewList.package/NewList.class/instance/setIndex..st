@@ -8,12 +8,7 @@ setIndex: index
 	self secondSelection: 0.
 	self setViewToIndex: index.
 	
-	( self deSelectOnReclick and: [ oldIndex == newIndex ])
-		ifTrue: [ 
-			selectedIndexes at: newIndex put: false.
-			newIndex := 0 ].
-		
 	selectedIndex contents: newIndex.
-	self deSelectOnReclick 
+	(self deSelectOnReclick and: [ oldIndex == newIndex ])
 		ifTrue: [ self toggleAtIndexes: newIndex ]
 		ifFalse: [ self addAtIndexes: newIndex ]

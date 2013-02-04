@@ -4,4 +4,10 @@ parserError: aString
 	| errorNode |
 	errorNode := self errorBlock cull: aString cull: self errorPosition cull: self.
 	errorNode isNil ifFalse: [ ^ errorNode ].
-	self error: aString
+	SyntaxErrorNotification
+					inClass: Object
+					category: nil
+					withCode: source
+					doitFlag: false
+					errorMessage: aString
+					location: currentToken start

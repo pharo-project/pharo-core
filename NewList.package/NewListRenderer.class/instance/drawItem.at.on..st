@@ -4,12 +4,13 @@ drawItem: item at: index on: aCanvas
 	"Display the given item at the given row on the given
 	canvas."
 	
-	|  itemColor drawBounds |
+	|  itemColor drawBounds itemBounds |
 
 	drawBounds := self drawBoundsForItem: item at: index.
-	drawBounds := drawBounds translateBy: 0@(self itemHalfOffSet).
+	itemBounds := drawBounds translateBy: (self iconMaxSize x + self gapBetweenIconAndItem)@(2*self itemHalfOffSet).
 	itemColor := self colorForItem: item at: index.
 	
-	item listRenderOn: aCanvas atRow: index bounds: drawBounds color: itemColor from: self.
+	item listRenderOn: aCanvas atRow: index bounds: itemBounds color: itemColor from: self.
+	self drawIconOn: aCanvas forAt: index from:  drawBounds.
 	
-"should be	item drawAsListItemOn: aCanvas row: index bounds: drawBounds list: self "
+	self flag: 'should be	item drawAsListItemOn: aCanvas row: index bounds: drawBounds list: self '

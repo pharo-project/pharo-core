@@ -10,6 +10,7 @@ endOfInitialization
 	self updateHeaderHeight.
 	
 	self updateRenderer.
+	
 	selectedItem contents: self retrieveSelectedItem.
 	selectedItems contents: self retrieveSelectedItems.
 	
@@ -17,10 +18,8 @@ endOfInitialization
 			listSize contents: e size.
 			self updateDisplayListCache.
 			self unselectOnChange
-				ifTrue: [ self deselectAll ]
-				ifFalse: [ 
-					selectedIndex contents: selectedIndex contents.
-					selectedIndexes contents: selectedIndexes contents]].
+				ifTrue: [ self deselectAll ].
+			self updateScrollbars ].
 	listSize whenChangedDo: [:e | self updateRenderer ].
 	headerTitle whenChangedDo:[:e | self updateHeaderHeight ].
 	secondSelection whenChangedDo: [:idx | 

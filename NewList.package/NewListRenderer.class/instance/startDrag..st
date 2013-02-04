@@ -2,7 +2,6 @@ drag and drop
 startDrag: evt 
 	| transferMorph draggedIndex draggedItem passenger |
 
-
 	evt hand hasSubmorphs ifTrue: [^ self]. 
 	self dragEnabled ifFalse: [ ^ self ].
 	ActiveHand anyButtonPressed ifFalse: [ ^ self ].
@@ -10,7 +9,7 @@ startDrag: evt
 	draggedIndex := self indexAtLocation: evt position.
 	draggedItem := self listSource model draggedItemAtIndex: draggedIndex.
 	draggedItem ifNil: [ ^ self ].
-	passenger := self model dragPassengersFor: draggedItem inMorph: self.
+	passenger := self listSource model dragPassengersFor: draggedItem inMorph: self listSource.
 	passenger ifNil: [ ^ self ].
 		
 	self releaseKeyboardFocus.

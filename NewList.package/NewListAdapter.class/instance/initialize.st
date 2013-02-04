@@ -22,3 +22,6 @@ initialize
 	setIndexSelector := nil asValueHolder.
 	wantsDropSelector := nil asValueHolder.
 	getMenuTitleSelector := nil asValueHolder.
+	getIconSelector := nil asValueHolder.
+	getIconMaxSizeSelector := nil asValueHolder.
+	getIndexesSelector := nil asValueHolder.

@@ -2,5 +2,5 @@ list protocol
 getListSize
 
 	^ self getListSizeSelector
-		ifNil: [ -1 ]
+		ifNil: [ nil ]
 		ifNotNil: [:s | self model perform: s ]

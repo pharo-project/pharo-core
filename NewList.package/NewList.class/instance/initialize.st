@@ -26,4 +26,7 @@ initialize
 	selectionWithKeys := true asValueHolder.
 	selectedItem := nil asValueHolder.
 	selectedItems := OrderedCollection new asValueHolder.
-	unselectOnChange := true asValueHolder.
+	unselectOnChange := false asValueHolder.
+	iconCache := Dictionary new asValueHolder.
+	iconMaxSize := nil asValueHolder.
+	enabled := true asValueHolder.

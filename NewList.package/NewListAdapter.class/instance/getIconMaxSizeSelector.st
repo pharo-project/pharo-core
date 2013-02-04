@@ -1,0 +1,4 @@
+accessing
+getIconMaxSizeSelector
+
+	^ getIconMaxSizeSelector contents

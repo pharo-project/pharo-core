@@ -2,5 +2,5 @@ list protocol
 getItems
 
 	^ self getItemsSelector 
-		ifNil: [ #() ]
+		ifNil: [ nil ]
 		ifNotNil: [:s | self model perform: s ]

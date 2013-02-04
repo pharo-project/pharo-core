@@ -15,10 +15,13 @@ buildMorph
 		isMultipleSelection: true;
 		deSelectOnReclick: true;
 		dropItemSelector: #drop:at:;
+		getIconSelector: #iconFor:at:;
+		getIconMaxSizeSelector: #iconMaxSize;
 		endOfInitialization.
 
 	list whenHeaderIsClickedDo: [ self toggleTitle ].
 	list whenSelectedItemsChangedDo: [:items |
-		textMorph setText: (String streamContents: [:s | 
-			items do: [:e | s << e printString ; cr ]] )] .
+		textMorph ifNotNil: [
+			textMorph setText: (String streamContents: [:s | 
+				items do: [:e | s << e printString ; cr ]] )]] .
 	^ list

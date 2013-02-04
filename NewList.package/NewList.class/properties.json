@@ -27,7 +27,10 @@
 		"drawColor",
 		"selectedItem",
 		"selectedItems",
-		"unselectOnChange" ],
+		"unselectOnChange",
+		"iconCache",
+		"iconMaxSize",
+		"enabled" ],
 	"name" : "NewList",
 	"pools" : [
 		 ],

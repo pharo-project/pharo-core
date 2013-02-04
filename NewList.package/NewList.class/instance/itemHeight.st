@@ -1,4 +1,4 @@
 private
 itemHeight
 
-	^ self font height + (2*self itemHalfOffSet)
+	^ (self font height max: self iconMaxSize y) + (2*self itemHalfOffSet)

@@ -2,15 +2,17 @@ drawing
 drawOn: aCanvas
 
 	| first last selectedIdx |
-	
+	self removeAllMorphs.
 	aCanvas
-		fillRectangle: aCanvas clipRect
+		fillRectangle: self fullBounds
 		color: self drawColor.
 	
 	first := self topVisibleIndexForCanvas: aCanvas.
 	last := self bottomVisibleIndexForCanvas: aCanvas.
+	self listSize isZero ifTrue: [ last := 0 ].
+	
 	first
-		to: last
+		to: last 
 		do: [ :index || item |
 			item := self itemAtIndex: index.
 			self drawBackgroundForItem: item at: index on: aCanvas.

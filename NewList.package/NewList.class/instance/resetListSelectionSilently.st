@@ -1,0 +1,4 @@
+protocol
+resetListSelectionSilently
+	
+	selectedIndexes removeAll

@@ -1,4 +1,4 @@
-private
+protocol
 toggleAtIndexes: anIndex
 	| bool |
 
