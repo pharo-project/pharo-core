@@ -8,7 +8,7 @@ extractAllTo: aDirectory informing: bar overwrite: allOverwrite
 			bar ifNotNil: [bar label: 'Creating ', entry fileName].
 			dir := (entry fileName findTokens:'/') 
 					inject: aDirectory into:[:base :part| base / part].
-			dir assureExistence.
+			dir ensureDirectory.
 		].
 	].
 	self members do:[:entry| | response |

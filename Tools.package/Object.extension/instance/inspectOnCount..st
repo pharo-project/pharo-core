@@ -1,9 +1,14 @@
 *Tools-Inspector
 inspectOnCount: int 
-	self haltOnceEnabled
-		ifTrue: [self hasHaltCount
-				ifTrue: [self decrementAndCheckHaltCount
+	
+	Halt isHaltOnceEnabled
+		ifTrue: [
+			Halt isCounting
+				ifTrue: [
+					Halt callsUntilHaltOnCount: Halt callsUntilHaltOnCount - 1.
+					Halt callsUntilHaltOnCount = 0
 						ifTrue: [self doExpiredInspectCount]]
-				ifFalse: [int = 1
+				ifFalse: [
+					int = 1
 						ifTrue: [self doExpiredInspectCount]
-						ifFalse: [self setHaltCountTo: int - 1]]]
+						ifFalse: [Halt callsUntilHaltOnCount: int - 1]]]

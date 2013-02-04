@@ -10,4 +10,4 @@ extractToFileNamed: aLocalFileName inDirectory: dir
 			fullDir 
 				forceNewFileNamed: file basename 
 				do: [:stream |  self extractTo: stream]]
-		ifTrue: [ fullDir assureExistence ]
+		ifTrue: [ fullDir ensureDirectory ]

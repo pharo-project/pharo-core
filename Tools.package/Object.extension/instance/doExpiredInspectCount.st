@@ -1,5 +1,5 @@
 *Tools-Inspector
 doExpiredInspectCount
-	self clearHaltOnce.
-	self removeHaltCount.
+	Halt disableHaltOnce.
+	"self removeHaltCount."
 	self inspect

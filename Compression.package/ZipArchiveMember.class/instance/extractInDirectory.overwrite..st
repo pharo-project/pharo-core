@@ -2,12 +2,12 @@ extraction
 extractInDirectory: aDirectory overwrite: overwriteAll
 	"Extract this entry into the given directory. Answer #okay, #failed, #abort, or #retryWithOverwrite."
 	| path fileDir file index localName |
-	path := fileName findTokens:'/'.
+	path := fileName findTokens: '/'.
 	localName := path last.
-	fileDir := path allButLast inject: aDirectory into:[:base :part| base / part].
-	fileDir assureExistence.
-	file := [fileDir newFileNamed: localName] on: FileExistsException do:[:ex| ex return: nil].
-	file ifNil:[
+	fileDir := path allButLast inject: aDirectory into: [ :base :part | base / part ].
+	fileDir ensureDirectory.
+	file := fileDir / localName.
+	file exists ifTrue: [
 		overwriteAll ifFalse:[
 			[index := UIManager default chooseFrom: {
 						'Yes, overwrite'. 
@@ -20,9 +20,8 @@ extractInDirectory: aDirectory overwrite: overwriteAll
 			index = 3 ifTrue:[^#retryWithOverwrite].
 			index = 2 ifTrue:[^#okay].
 		].
-		file := [fileDir forceNewFileNamed: localName] on: Error do:[:ex| ex return].
-		file ifNil:[^#failed].
+		file ensureDeleted.
+		file := [file ensureFile] on: Error do:[:ex| ^#failed].
 	].
-	self extractTo: file.
-	file close.
+	file writeStreamDo: [ :str | self extractTo: str ].
 	^#okay

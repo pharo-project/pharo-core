@@ -1,10 +1,15 @@
 *Tools-Inspector
 inspectUntilCount: int 
-	^ self haltOnceEnabled
-		ifTrue: [self hasHaltCount
-				ifTrue: [self decrementAndCheckHaltCount
+	^ Halt isHaltOnceEnabled ifTrue: [ 
+			Halt isCounting
+				ifTrue: [
+					Halt callsUntilHaltOnCount: Halt callsUntilHaltOnCount - 1.
+					Halt callsUntilHaltOnCount > 0
+						ifTrue: [self inspect]
+						ifFalse: [ Halt disableHaltOnce ] ]
+				ifFalse: [
+					int = 1
 						ifTrue: [self doExpiredInspectCount]
-						ifFalse: [self inspect]]
-				ifFalse: [int = 1
-						ifTrue: [self doExpiredInspectCount]
-						ifFalse: [self setHaltCountTo: int - 1]]]
+						ifFalse: [
+							Halt callsUntilHaltOnCount: int - 1.
+							self inspect]]]
