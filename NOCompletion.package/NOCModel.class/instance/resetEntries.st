@@ -1,3 +1,0 @@
-accessing
-resetEntries
-	super resetEntries.

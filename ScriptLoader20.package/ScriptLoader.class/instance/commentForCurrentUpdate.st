@@ -1,7 +1,9 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7262:	add --save option to TestRunnerCommandLineHandler
-	http://code.google.com/p/pharo/issues/detail?id=7262
+ ^ 'Issue 7275:	Sanitize String with/without selectors
+	http://code.google.com/p/pharo/issues/detail?id=7275
 	
-Issue 6920:	dragging a class from a package to another one does not remove the element from the source package
-	http://code.google.com/p/pharo/issues/detail?id=6920'
+Issue 7288:	Clean methods are just do super send
+	http://code.google.com/p/pharo/issues/detail?id=7288
+	
+'

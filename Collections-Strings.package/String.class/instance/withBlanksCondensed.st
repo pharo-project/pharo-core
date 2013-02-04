@@ -1,13 +1,16 @@
 converting
 withBlanksCondensed
-	"Return a copy of the receiver with leading/trailing blanks removed
-	 and consecutive white spaces condensed."
+	"Return a copy of the receiver with leading/trailing blanks (separators) removed
+	 and consecutive white spaces (separators) condensed to the first one."
 
-	| trimmed |
+	| trimmed lastBlank |
 	trimmed := self trimBoth.
-	^String streamContents: [:stream | | lastBlank |
-		lastBlank := false.
-		trimmed do: [:c | (c isSeparator and: [lastBlank]) ifFalse: [stream nextPut: c].
-			lastBlank := c isSeparator]].
+	^ String streamContents: [ :stream | 
+			lastBlank := false.
+			trimmed
+				do: [ :eachChar | 
+					(eachChar isSeparator and: [ lastBlank ])
+						ifFalse: [ stream nextPut: eachChar ].
+					lastBlank := eachChar isSeparator ] ]
 
 	" ' abc  d   ' withBlanksCondensed"
