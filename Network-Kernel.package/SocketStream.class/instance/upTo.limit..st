@@ -32,5 +32,10 @@ upTo: aCharacterOrByte limit: nBytes
 			ifTrue:[^self nextAllInBuffer].
 	].
 
+	"Windows doesn't raise an Exception when connection is closed at first, so we check here the status of the connection"
+	self shouldSignal ifTrue: [
+		self isOtherEndConnected ifFalse: [ConnectionClosed signal: 'Connection closed while waiting for data.'].
+	].
+
 	"not found and (non-signaling) connection was closed"
 	^self nextAllInBuffer
