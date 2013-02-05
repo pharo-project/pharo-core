@@ -2,10 +2,10 @@ stepping and presenter
 step
 
 	|  stepBounds mousePosition delta |
-	ActiveHand hasSubmorphs ifFalse: [ ^ self stopStepping ].
+	ActiveHand hasSubmorphs ifFalse: [ ^ wantsSteps := false ].
 	mousePosition := ActiveHand position.
 	stepBounds := self listSource fullBoundsInWorld.
-	(stepBounds containsPoint: mousePosition) ifFalse: [ ^ self stopStepping ].
+	(stepBounds containsPoint: mousePosition) ifFalse: [ ^ wantsSteps := false ].
 	delta := stepBounds top + self headerHeight + 10 - mousePosition y.
 	(mousePosition y > (stepBounds top + self headerHeight-10) and: [ 0 < delta])
 		ifTrue: [ ^ self listSource scrollBar scrollUp: delta//2 ].

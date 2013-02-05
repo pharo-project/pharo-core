@@ -1,8 +1,7 @@
 drawing
 drawOn: aCanvas
-
 	| first last selectedIdx |
-	self removeAllMorphs.
+
 	aCanvas
 		fillRectangle: self fullBounds
 		color: self drawColor.

@@ -12,7 +12,8 @@
 		"hasHeader",
 		"potentialDropIndex",
 		"steppingTime",
-		"mouseDownIndex" ],
+		"mouseDownIndex",
+		"wantsSteps" ],
 	"name" : "NewListRenderer",
 	"pools" : [
 		 ],

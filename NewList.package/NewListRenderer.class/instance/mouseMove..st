@@ -13,7 +13,7 @@ mouseMove: evt
 	self potentialDropIndex: index.
 	
 	(evt position y > (self topDifference + self headerHeight-10) and: [evt position y < (self topDifference + self headerHeight + 10)])
-		ifTrue: [ self startStepping ].
+		ifTrue: [ wantsSteps := true ].
 		
 	(evt position y  > (self topDifference - self headerHeight + self listSource height - 5))
-		ifTrue: [ self startStepping ].
+		ifTrue: [ wantsSteps := true ].

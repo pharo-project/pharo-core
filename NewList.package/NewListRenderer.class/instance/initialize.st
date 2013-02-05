@@ -4,6 +4,7 @@ initialize
 
 	super initialize.
 	
+	wantsSteps := false.
 	listSource := nil asValueHolder.
 	itemHeight := nil asValueHolder.
 	maxWidth := 0 asValueHolder.

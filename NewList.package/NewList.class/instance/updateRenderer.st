@@ -8,7 +8,7 @@ updateRenderer
 	morph := NewListRenderer on: self.
 	morph
 		color: self color;
-		width: self scroller width +10;
+		width: self scroller width" +10";
 		hasHeader: self hasHeader;
 		height: (self listSize*self itemHeight+self headerHeight).
 				
