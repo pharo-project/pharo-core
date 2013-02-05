@@ -1,5 +1,5 @@
 private
 addPicked: item
 
-	pickedItemsHolder contents add: item.
+	pickedItemsHolder add: item.
 	pickedItemsHolder contentsChanged: true to: item.

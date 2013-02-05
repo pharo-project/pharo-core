@@ -1,8 +1,7 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 4970:	[ENH]: calendar chooser morph. Thanks Sean De Nigris.
+ ^ 'Issue 7336:	ReleaseTest is run double
+	http://code.google.com/p/pharo/issues/detail?id=7336
 
-Issue 7240:	Failing Test: ReleaseTest>>.testInstanceSideMethodsWithNilKeyInLastLiteral.
-	Thanks Camille Teruel.
-	
-Issue 7205:	Alert: and friends are missing from NonInteractiveUIManager. Thanks Christophe Demarey'
+Issue 7310:	PickListModel should be improved
+	http://code.google.com/p/pharo/issues/detail?id=7310'

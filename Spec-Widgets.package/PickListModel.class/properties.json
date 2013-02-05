@@ -12,7 +12,8 @@
 		"pickedItemsHolder",
 		"wrapHolder",
 		"associationsItemToWrapper",
-		"associationsWrapperToItem" ],
+		"associationsWrapperToItem",
+		"associationsIndexToWrapper" ],
 	"name" : "PickListModel",
 	"pools" : [
 		 ],

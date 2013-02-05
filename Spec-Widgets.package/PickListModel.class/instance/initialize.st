@@ -3,9 +3,10 @@ initialize
 	"Initialization code for PickList"
 
 	wrapHolder := [ :i | i printString ] asValueHolder. 
-	pickedItemsHolder := Set new asValueHolder.
+	pickedItemsHolder := OrderedCollection new asValueHolder.
 	associationsWrapperToItem := Dictionary new asValueHolder.
 	associationsItemToWrapper := Dictionary new asValueHolder.
+	associationsIndexToWrapper := Dictionary new asValueHolder.
 	labelClickableHolder := true asValueHolder.
 	defaultValueHolder := false asValueHolder.
 	

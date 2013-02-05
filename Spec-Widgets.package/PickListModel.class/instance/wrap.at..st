@@ -1,9 +1,9 @@
 private
-wrap: item
+wrap: item at: index
 	| checkBox |
 
-	associationsItemToWrapper 
-		at: item
+	associationsIndexToWrapper 
+		at: index
 		ifPresent: [:cb | ^ cb ].
 
 	checkBox := self instantiate: CheckBoxModel.
@@ -23,6 +23,7 @@ wrap: item
 		state: self defaultValue;
 		labelClickable: self labelClickable.
 		
-	associationsWrapperToItem at: checkBox put: item.
+	associationsWrapperToItem at: checkBox put: index.
 	associationsItemToWrapper at: item put: checkBox.
+	associationsIndexToWrapper at: index put: checkBox.
 	^ checkBox
