@@ -1,6 +1,5 @@
 protocol
-label: aString
+label: aStringOrImageMorph
 	<api: #string getter: #label registration: #whenLabelChangedDo:>
-	"set the label of the button"
 
-	labelHolder contents: aString
+	labelHolder contents: aStringOrImageMorph
