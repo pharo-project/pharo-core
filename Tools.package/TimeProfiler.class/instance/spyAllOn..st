@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 spyAllOn: aBlock 
 	block := aBlock.
 	rootMessageTally := MessageTally new.

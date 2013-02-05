@@ -1,3 +1,3 @@
-as yet unclassified
+UI specific
 selectionInterval
 	^ 1 to: 0

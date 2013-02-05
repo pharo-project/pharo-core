@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 runProcess: aProcess forMilliseconds: msecDuration pollingEvery: pollPeriod 
 	block := MessageSend 
 				receiver: self

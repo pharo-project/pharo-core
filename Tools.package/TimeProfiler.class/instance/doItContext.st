@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 doItContext
 	"Answer the context in which a text selection can be evaluated."
 

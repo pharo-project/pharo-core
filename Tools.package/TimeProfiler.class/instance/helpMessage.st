@@ -1,4 +1,4 @@
-as yet unclassified
+configuration
 helpMessage
 
 ^'You can edit some code in the top editor and accept to profile it.

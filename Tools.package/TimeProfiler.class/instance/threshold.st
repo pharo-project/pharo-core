@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 threshold
 	^ threshold ifNil: [threshold := 0]

@@ -1,4 +1,4 @@
-as yet unclassified
+UI specific
 keyStroke: anEvent from: aTreeMorph
 	| c |
 	c := anEvent keyCharacter.

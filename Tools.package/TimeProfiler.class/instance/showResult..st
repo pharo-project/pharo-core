@@ -1,4 +1,4 @@
-as yet unclassified
+UI specific
 showResult: anObject
 	self result: anObject.
 	resultPane

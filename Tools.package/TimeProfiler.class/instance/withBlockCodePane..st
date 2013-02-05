@@ -1,3 +1,3 @@
-as yet unclassified
+UI specific
 withBlockCodePane: aBoolean
 	withBlockCodePane := aBoolean

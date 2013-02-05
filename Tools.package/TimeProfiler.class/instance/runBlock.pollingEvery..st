@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 runBlock: aBlock pollingEvery: pollPeriod 
 	block := aBlock.
 	rootMessageTally := MessageTally new.

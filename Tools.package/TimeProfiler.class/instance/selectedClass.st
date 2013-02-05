@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 selectedClass
 	^ self selectedNode 
-		ifNotNil: [ :currNode | currNode methodClass]
+		ifNotNil: [ :currNode | currNode methodClass ]

@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 result: anObject
 	result := anObject

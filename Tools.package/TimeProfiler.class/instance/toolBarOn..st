@@ -1,4 +1,4 @@
-as yet unclassified
+UI specific
 toolBarOn: aWindow
 	| uiTheme toolBar |
 	uiTheme := UITheme current .

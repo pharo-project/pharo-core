@@ -1,4 +1,4 @@
-as yet unclassified
+UI specific
 treeMorph
 	^ (self treeMorphClass on: self)
 		rowInset: 2;

@@ -1,3 +1,3 @@
-as yet unclassified
+accessing-computed
 resultText
 	^ result printString

@@ -1,4 +1,4 @@
-as yet unclassified
+UI specific
 menu: menu shifted: b 
 	menu
 		add: 'Browse (b)' translated

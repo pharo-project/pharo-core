@@ -1,3 +1,3 @@
-as yet unclassified
+public opening
 openPathFrom: aNode
-	self changed: {#rootNodes. #openNodeRecursively. aNode}
+	self changed: { #rootNodes. #openNodeRecursively. aNode}

@@ -1,3 +1,3 @@
-as yet unclassified
+UI specific
 whatToShow: aSymbol
 	self showLeavesOnly: aSymbol = #'Leaves'

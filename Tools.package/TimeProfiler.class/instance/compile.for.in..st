@@ -1,4 +1,4 @@
-as yet unclassified
+compiling
 compile: codeString for: anObject in: evalContext
 
 	| methodNode |

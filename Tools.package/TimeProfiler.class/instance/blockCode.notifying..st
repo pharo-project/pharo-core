@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 blockCode: aString notifying: aRequestor
 	"Treat the current selection as an expression; evaluate and tally it."
 	| receiver context  |

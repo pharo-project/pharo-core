@@ -1,4 +1,4 @@
-as yet unclassified
+UI specific
 showLeavesOnly: aBoolean
 	self showLeavesOnly ~= aBoolean
 		ifTrue: [

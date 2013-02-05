@@ -1,4 +1,4 @@
-as yet unclassified
+accessing-computed
 summaryText
 	^ String streamContents: [:strm | rootMessageTally 
 		ifNotNil: [rootMessageTally time > 0 

@@ -1,4 +1,4 @@
-as yet unclassified
+UI specific
 reportOtherProcesses: aBoolean
 	self reportOtherProcesses ~= aBoolean
 		ifTrue: [

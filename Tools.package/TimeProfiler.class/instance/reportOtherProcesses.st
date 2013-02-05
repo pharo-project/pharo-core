@@ -1,3 +1,3 @@
-as yet unclassified
+UI specific
 reportOtherProcesses
 	^ reportOtherProcesses ifNil: [reportOtherProcesses := true]

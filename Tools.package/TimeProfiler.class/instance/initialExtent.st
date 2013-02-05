@@ -1,3 +1,3 @@
-as yet unclassified
+configuration
 initialExtent
 	^ 750 @ 700

@@ -1,3 +1,3 @@
-as yet unclassified
+UI specific
 withBlockCodePane
 	^ withBlockCodePane ifNil: [withBlockCodePane := true]

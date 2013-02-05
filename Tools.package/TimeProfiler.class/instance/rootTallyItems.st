@@ -1,4 +1,4 @@
-as yet unclassified
+accessing-computed
 rootTallyItems
 	| res sons groups |
 	res := OrderedCollection new.

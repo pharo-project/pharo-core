@@ -1,3 +1,3 @@
-as yet unclassified
+actions
 browseItem
-	self selectedNode ifNotNil: [:current | current browseItem].
+	self selectedNode ifNotNil: [:current | current browseItem ].

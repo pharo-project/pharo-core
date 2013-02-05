@@ -1,4 +1,4 @@
-as yet unclassified
+compiling
 selectedMethodCode: aString notifying: aController 
 	"Compile the code in aString. Notify aController of any syntax errors. 
 	Answer false if the compilation fails. Otherwise answer true."

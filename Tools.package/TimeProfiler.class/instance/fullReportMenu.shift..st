@@ -1,4 +1,4 @@
-as yet unclassified
+UI specific
 fullReportMenu: MenuMorph shift: aBoolean
 	^ (PragmaMenuBuilder 
 		pragmaKeyword: 'TimeProfilerFullReportMenu'

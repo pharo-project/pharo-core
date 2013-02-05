@@ -1,9 +1,10 @@
-as yet unclassified
+accessing-computed
 selectedMethodCode
 	^ self selectedNode 
-		ifNil: [self helpMessage]
-		ifNotNil: [ :currNode | | class selector |
+		ifNil: [ self helpMessage ]
+		ifNotNil: [ :currNode | 
+			| class selector |
 			class := currNode methodClass.
 			selector := currNode selector.
-			(class ultimateSourceCodeAt: selector ifAbsent: ['error'])
-				copy asText makeSelectorBoldIn: class]
+			(class ultimateSourceCodeAt: selector ifAbsent: [ 'error' ])
+				copy asText makeSelectorBoldIn: class ]

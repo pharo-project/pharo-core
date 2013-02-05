@@ -1,3 +1,3 @@
-as yet unclassified
+actions
 exploreItem
 	self item explore

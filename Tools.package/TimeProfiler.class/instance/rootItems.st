@@ -1,4 +1,4 @@
-as yet unclassified
+accessing-computed
 rootItems
 	^ rootMessageTally
 		ifNil: [#()]

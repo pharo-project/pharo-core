@@ -1,4 +1,4 @@
-as yet unclassified
+UI specific
 menu: menu shifted: b 
 	"Set up the menu to apply to the receiver's, 
 	honoring the #shifted boolean"
