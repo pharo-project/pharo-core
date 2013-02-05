@@ -1,6 +1,6 @@
 comparing
 sonsOver: threshold
-
+	"Returns all the sons that are not below a certain threshold. threshold is a number."
 	| hereTally sons |
 	(receivers isNil or: [ receivers size = 0 ]) ifTrue: [ ^#() ].
 	hereTally := tally.
