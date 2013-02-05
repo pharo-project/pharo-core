@@ -1,7 +1,8 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7327:	RBParser should raise SyntaxErrorNotification. Thanks Marcus Denker
-	http://code.google.com/p/pharo/issues/detail?id=7327
+ ^ 'Issue 4970:	[ENH]: calendar chooser morph. Thanks Sean De Nigris.
+
+Issue 7240:	Failing Test: ReleaseTest>>.testInstanceSideMethodsWithNilKeyInLastLiteral.
+	Thanks Camille Teruel.
 	
- Issue 7331:	NewList update :)Thanks Benjamin van Ryseghem
-	http://code.google.com/p/pharo/issues/detail?id=7327'
+Issue 7205:	Alert: and friends are missing from NonInteractiveUIManager. Thanks Christophe Demarey'

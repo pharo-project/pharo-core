@@ -23,6 +23,7 @@ newSubclassOf: newSuper type: type instanceVariables: instVars from: oldClass
 
 	oldClass ifNotNil:[
 		newClass organization: oldClass organization.
+		newClass isMeta not ifTrue: [ newClass environment at: newClass name put: newClass ].
 		"Recompile the new class"
 		oldClass hasMethods 
 			ifTrue:[newClass compileAllFrom: oldClass].		
