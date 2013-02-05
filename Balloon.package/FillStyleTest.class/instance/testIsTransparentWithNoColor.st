@@ -1,0 +1,3 @@
+tests
+testIsTransparentWithNoColor
+	self deny: composite isTransparent

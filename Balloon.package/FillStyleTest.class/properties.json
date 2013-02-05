@@ -1,13 +1,14 @@
 {
-	"category" : "Refactoring-Tests-Spelling",
+	"category" : "Balloon-Fills-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
-	"name" : "RBSpellCheckerTest",
+		"composite",
+		"colorStyle" ],
+	"name" : "FillStyleTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

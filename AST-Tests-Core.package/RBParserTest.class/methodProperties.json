@@ -32,7 +32,7 @@
 		"testParsingLiteralMessages" : "lr 10/27/2009 15:53",
 		"testPatternCascade" : "lr 11/2/2009 00:14",
 		"testPositions" : "ms 4/1/2007 12:32",
-		"testPragmas" : "CamilloBruni 11/13/2012 10:22",
+		"testPragmas" : "ClementBEra 1/30/2013 15:29",
 		"testPrimitives" : "ms 4/1/2007 13:49",
 		"testQuerying" : "",
 		"testReadBeforeWritten" : "nk 2/23/2005 15:58",
@@ -42,7 +42,8 @@
 		"testRewrites" : "lr 5/30/2010 11:45",
 		"testSearching" : "lr 11/2/2009 00:14",
 		"testStatements" : "lr 11/1/2009 20:32",
-		"testSymbolLiteral" : "lr 4/21/2010 16:12",
+		"testString" : "ClementBEra 1/30/2013 15:09",
+		"testSymbolLiteral" : "ClementBEra 1/30/2013 15:05",
 		"testSymbolNumber" : "lr 4/29/2010 21:22",
 		"treeWithEverything" : "lr 9/18/2011 15:09",
 		"treeWithReallyEverything" : "lr 9/18/2011 15:09" } }

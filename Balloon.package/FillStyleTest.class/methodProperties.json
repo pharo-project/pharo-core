@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "AlexandreBergel 1/29/2013 14:00",
+		"testIsTransparentWithNoColor" : "AlexandreBergel 1/29/2013 14:00",
+		"testIsTransparentWithNonTransparentColors" : "AlexandreBergel 1/29/2013 14:01",
+		"testIsTransparentWithTranslucentColor" : "AlexandreBergel 1/29/2013 14:02",
+		"testIsTransparentWithTransparentColor" : "AlexandreBergel 1/29/2013 14:04" } }

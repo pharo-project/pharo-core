@@ -24,7 +24,7 @@ parseStatementList: pragmaBoolean into: sequenceNode
 						return := true]
 					ifFalse: [
 						"check for pragmas"
-						(currentToken value = #<)
+						(currentToken isBinary and: [ currentToken value == #<])
 							ifTrue: [ self parsePragma ]
 							ifFalse: [
 								node := self parseAssignment.
@@ -36,7 +36,7 @@ parseStatementList: pragmaBoolean into: sequenceNode
 						self addCommentsTo: node]
 					ifFalse: [
 						"check for closing pragmas"
-						(currentToken value = #>)
+						(currentToken isBinary and: [ currentToken value == #>])
 							ifFalse: [ return := true ]
 							ifTrue: [ self step ]].
 				[currentToken isSpecial and: [currentToken value = $.]] whileTrue: 

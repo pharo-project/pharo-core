@@ -1,0 +1,1 @@
+A FillStyleTest is a test class for testing the behavior of FillStyle

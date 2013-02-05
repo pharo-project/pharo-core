@@ -7,6 +7,8 @@ testPragmas
 	('foo <foo: -3>' 			#foo: (-3)) 
 	('foo <foo: a>' 				#foo: (a)) 
 	('foo <foo: #a>' 			#foo: (a)) 
+	('foo <foo: #< >' 			#foo: (<)) 
+	('foo <foo: #> >' 			#foo: (>)) 
 	('foo <foo: $a>' 			#foo: ($a)) 
 	('foo <foo: ''bar''>' 		#foo: ('bar')) 
 	('foo <foo: true>' 			#foo: (true)) 
@@ -25,4 +27,22 @@ testPragmas
 		1 to: node arguments size do: [ :i |
 			self assert: (node arguments at: i) value = (each last at: i) ].
 		self assert: (each first at: node start) equals: $<.
-		self assert: (each first at: node stop) equals: $> ]
+		self assert: (each first at: node stop) equals: $> ].
+	
+	self assert: (RBParser parseMethod: 'selector <a>') isMethod.
+	self assert: (RBParser parseMethod: '
+	selector 
+		"comment1" 
+		|temp| 
+		"comment2" 
+		<a> 
+		#<.
+		^1') isMethod.
+	self should: [RBParser parseMethod: '
+	selector 
+		"comment1" 
+		|temp| 
+		"comment2" 
+		<a> 
+		<.
+		^1'] raise: SyntaxErrorNotification.
