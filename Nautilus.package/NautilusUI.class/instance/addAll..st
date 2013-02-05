@@ -27,7 +27,7 @@ addAll: aWindow
 		middleHeight := middle height+4.
 		aWindow 
 			addMorph: middle
-			fullFrame: ((0 @ 0.5 corner: 1 @ 0.5) bottomOffset: middleHeight).
+			fullFrame: ((0 @ 0.5 corner: 1 @ 0.5) asLayoutFrame bottomOffset: middleHeight).
 		middle color: Color transparent].
 	
 	sourceCodePanel := PanelMorph new.

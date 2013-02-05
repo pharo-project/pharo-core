@@ -1,4 +1,4 @@
-splitjoin
+*Collections-Abstract-splitjoin
 join: aCollection 
 	"'*' join: #('WWWWW' 'W  EW' 'zzzz')
 		->  'WWWWW*W  EW*zzzz' "

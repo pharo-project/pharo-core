@@ -7,4 +7,5 @@
 		"testDefinesInstanceVariable" : "",
 		"testDefinesMethod" : "",
 		"testDefinesPoolDictionary" : "bh 4/3/2000 22:22",
-		"testHierarchy" : "lr 10/26/2009 22:09" } }
+		"testHierarchy" : "lr 10/26/2009 22:09",
+		"testObjectIsNotAbstract" : "CamilloBruni 1/28/2013 17:29" } }
