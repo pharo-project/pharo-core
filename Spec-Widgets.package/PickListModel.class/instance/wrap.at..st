@@ -23,7 +23,7 @@ wrap: item at: index
 		state: self defaultValue;
 		labelClickable: self labelClickable.
 		
-	associationsWrapperToItem at: checkBox put: index.
+	associationsWrapperToItem at: checkBox put: item.
 	associationsItemToWrapper at: item put: checkBox.
 	associationsIndexToWrapper at: index put: checkBox.
 	^ checkBox

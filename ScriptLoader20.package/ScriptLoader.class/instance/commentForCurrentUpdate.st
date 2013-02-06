@@ -1,7 +1,10 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7372:	Deadcode
-	http://code.google.com/p/pharo/issues/detail?id=7372
+ ^ 'Issue 7353:	Problem with PickList
+	http://code.google.com/p/pharo/issues/detail?id=7353
 	
-Issue 7352:	Changing a superclass removes the Class from the superclass subclasses
-	http://code.google.com/p/pharo/issues/detail?id=7352'
+Issue 7270:	Failing test for RPackageCategorySynchronisationTest
+	http://code.google.com/p/pharo/issues/detail?id=7270
+	
+Issue 7399:	cleanup uses of Compiler a little
+	http://code.google.com/p/pharo/issues/detail?id=7399'
