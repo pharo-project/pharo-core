@@ -1,3 +1,3 @@
-as yet unclassified
+private
 height
 	^ NECMenuMorph itemHeight * 15.5

@@ -1,3 +1,3 @@
 actions
 help
-	NECHelpMorph new openInWorld
+	self class helpText asMorph openInWindowLabeled: self class helpTitle

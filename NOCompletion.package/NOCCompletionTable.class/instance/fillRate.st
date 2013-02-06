@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 fillRate
 	^ self totalNumberOfEntries / self maxNumberOfEntries 

@@ -1,3 +1,3 @@
-private
+help text
 sectionAttributes
 	^ {TextEmphasis bold}

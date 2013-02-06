@@ -1,4 +1,4 @@
-private
+help text
 section: aString on: aTextStream 
 	aTextStream
 		withAttributes: self sectionAttributes

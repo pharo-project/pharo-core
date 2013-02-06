@@ -1,3 +1,5 @@
 accessing
 message
-	^self isEmpty ifTrue: ['no completions found'] ifFalse: [nil]
+	^self isEmpty 
+		ifTrue: ['no completions found'] 
+		ifFalse: [nil]

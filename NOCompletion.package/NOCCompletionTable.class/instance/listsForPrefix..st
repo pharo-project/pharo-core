@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 listsForPrefix: aString 
 	|  prefixes |
 	aString isEmpty ifTrue: [^ Array with: (NOCEntryList ofSize: numberofEntries)].

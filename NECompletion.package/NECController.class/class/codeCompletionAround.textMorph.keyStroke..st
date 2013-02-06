@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 codeCompletionAround: aBlock textMorph: aTextMorph keyStroke: evt
 	"Inserts code completion if allowed in this morph"
 	

@@ -8,10 +8,14 @@
 		"backgroundColor",
 		"expandPrefixes",
 		"captureNavigationKeys",
-		"useEnterToAccept" ],
+		"useEnterToAccept",
+		"popupShowAutomatic",
+		"popupAutomaticDelay",
+		"popupShowWithShortcut",
+		"spaceAfterCompletion" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		 ],
 	"name" : "NECPreferences",

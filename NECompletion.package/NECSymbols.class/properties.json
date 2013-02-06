@@ -1,10 +1,10 @@
 {
 	"category" : "NECompletion-Pharo",
 	"classinstvars" : [
-		 ],
+		"cachedSymbols" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		 ],
 	"name" : "NECSymbols",

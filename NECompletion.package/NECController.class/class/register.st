@@ -1,3 +1,3 @@
-as yet unclassified
+tools registry
 register
 	self registerToolsOn: Smalltalk tools.

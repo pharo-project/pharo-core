@@ -1,4 +1,4 @@
-private
+help text
 shortcut: aString text: secondString on: aTextStream 
 	aTextStream
 		withAttributes: self shortcutAttributes

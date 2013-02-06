@@ -1,4 +1,4 @@
-help-text
+help text
 helpText
 	| stream |
 	stream := TextStream on: Text new.

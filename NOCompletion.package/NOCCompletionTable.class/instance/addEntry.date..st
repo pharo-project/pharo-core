@@ -1,4 +1,4 @@
-as yet unclassified
+protocol
 addEntry: aString date: d 
 	| lists |
 	lists := self listsForPrefix: aString.

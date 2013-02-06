@@ -1,4 +1,4 @@
-as yet unclassified
+protocol
 addEntry: aString 
 	| d |
 	d := DateAndTime now.

@@ -10,12 +10,13 @@ openMenuFor: aParagraphEditor
 				position: aParagraphEditor caret - 1.
 				
 	editor := aParagraphEditor.
+
 	theMenu := self menuMorphClass
 				controller: self
 				position: (aParagraphEditor selectionPosition: context completionToken).
 				
 	theMenu isClosed
-		ifFalse: [menuMorph := theMenu]. 
+		ifFalse: [ menuMorph := theMenu ].
 	
-	context ifNil: [ ^ self closeMenu ].
-	context model entries ifEmpty: [ ^ self closeMenu ].
+	"(context isNil or: [ context model isEmpty ])
+		ifTrue: [ ^self closeMenu ]."

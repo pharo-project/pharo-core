@@ -1,3 +1,3 @@
 *Compiler-Kernel
 decompile
-	^Decompiler new decompileBlock: self
+	^self method decompilerClass new decompileBlock: self

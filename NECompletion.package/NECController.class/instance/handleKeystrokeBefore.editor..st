@@ -3,8 +3,8 @@ handleKeystrokeBefore: aKeyboardEvent editor: anEditor
 	"I return a boolean. 
 	true when I have handled the event and no futher processing is needed by the caller."
 	| keyCharacter controlKeyPressed isSpaceKey |
-	self flag: 'XXX this method should be split up'.
-	
+	self flag: #fixme. "this method should be split up".
+
 	self setEditor: anEditor.
 	self setModel: editor model.
 	
@@ -12,7 +12,6 @@ handleKeystrokeBefore: aKeyboardEvent editor: anEditor
 	controlKeyPressed := aKeyboardEvent controlKeyPressed.
 	isSpaceKey := keyCharacter = Character null or: [ keyCharacter = Character space ].
 	
-	"Ctrl-Space or Tab for open"
 	self isMenuOpen
 		ifFalse: [ ^ self handleKeystrokeWithoutMenu: aKeyboardEvent ].
 	
@@ -58,32 +57,29 @@ handleKeystrokeBefore: aKeyboardEvent editor: anEditor
 		ifTrue: [
 			menuMorph insertSelected
 				ifTrue: [^ true]].
-
-	isSpaceKey & controlKeyPressed
+	
+	keyCharacter = Character tab
 		ifTrue: [
-			menuMorph insertSelected
-				ifTrue: [^ true]].
+			NECPreferences expandPrefixes
+				ifFalse: [ 
+					(NECPreferences useEnterToAccept not and: [ menuMorph insertSelected ])
+						ifTrue: [^ true]]
+				ifTrue: [
+					menuMorph insertCommonPrefix
+						ifTrue: [^ true]]].
 
-	keyCharacter = Character tab ifTrue: [
-		NECPreferences expandPrefixes
-			ifFalse: [ 
-				menuMorph insertSelected
-					ifTrue: [^ true]]
-			ifTrue: [
-				menuMorph insertCommonPrefix
-					ifTrue: [^ true]]].
-
-	(keyCharacter = $h and: [ aKeyboardEvent commandKeyPressed ]) ifTrue: [ 
+	self flag: #todo. "Removing for now... most of the shortcuts are broken and no time or need now to fix them" 
+	"(keyCharacter = $h and: [ controlKeyPressed ]) ifTrue: [ 
 		menuMorph help.
 		^ true ].
 
-	(keyCharacter = $t and: [ aKeyboardEvent commandKeyPressed ]) ifTrue: [ 
+	(keyCharacter = $t and: [ controlKeyPressed ]) ifTrue: [ 
 		menuMorph expand.
 		^ true ].
 
-	(keyCharacter = $u and: [ aKeyboardEvent commandKeyPressed ]) ifTrue: [ 
+	(keyCharacter = $u and: [ controlKeyPressed ]) ifTrue: [ 
 		menuMorph switchToUntyped.
-		^ true ].	
+		^ true ].	"
 
 	"All keys but the alphanumeric chars (without command and control ) 
 	and the backspace key do close the menu"
@@ -93,6 +89,7 @@ handleKeystrokeBefore: aKeyboardEvent editor: anEditor
 				ifTrue: [
 					self closeMenu].
 					^ false].
+	
 	(controlKeyPressed not & aKeyboardEvent commandKeyPressed not
 			and: [aKeyboardEvent keyCharacter isCompletionCharacter ])
 		ifFalse: [

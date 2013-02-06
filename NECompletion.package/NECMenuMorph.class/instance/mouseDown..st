@@ -9,7 +9,7 @@ mouseDown: evt
 			
 	super mouseDown: evt.
 	evt wasHandled: false.
-	self flag: 'XXX' "ugly hack".
+	self flag: #fixme "ugly hack".
 	controller editor morph owner owner
 		takeKeyboardFocus;
 		handleMouseDown: evt.

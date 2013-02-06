@@ -1,4 +1,4 @@
-as yet unclassified
+query
 startsWith: aChar caseSensitive: aBoolean do: aBlock 
 	| char caseInSensitive firstChar |
 	caseInSensitive := aBoolean not.

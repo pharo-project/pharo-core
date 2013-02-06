@@ -1,4 +1,4 @@
-as yet unclassified
+private
 getClassFromTypeSuggestingName: aString 
 	| firstUppercaseLetter className aStream aClass |
 	aStream := WriteStream on: String new.

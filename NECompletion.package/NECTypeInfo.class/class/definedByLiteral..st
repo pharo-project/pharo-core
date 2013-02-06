@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 definedByLiteral: aClass 
 	| newInstance |
 	newInstance := self new.

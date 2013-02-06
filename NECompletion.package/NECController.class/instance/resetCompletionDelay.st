@@ -6,7 +6,7 @@ resetCompletionDelay
 	editor atCompletionPosition ifFalse: [ ^ self ].
 	
 	completionDelay := [
-			(Delay forMilliseconds: 500) wait.
+			(Delay forMilliseconds: NECPreferences popupAutomaticDelay) wait.
 			WorldState addDeferredUIMessage: [ 
 				editor atCompletionPosition ifTrue: [ self openMenu ]]
 		] fork.

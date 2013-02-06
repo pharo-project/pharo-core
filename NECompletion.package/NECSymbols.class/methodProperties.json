@@ -1,6 +1,11 @@
 {
 	"class" : {
-		"contains:caseSensitive:do:" : "",
+		"cacheInterestingSymbolsAndDo:" : "EstebanLorenzano 2/1/2013 18:35",
+		"cachedInterestingSymbolsDo:" : "EstebanLorenzano 2/1/2013 18:37",
+		"cachedSymbols" : "EstebanLorenzano 2/1/2013 18:31",
+		"contains:caseSensitive:do:" : "EstebanLorenzano 2/1/2013 18:44",
+		"interestingSymbolsDo:" : "EstebanLorenzano 2/1/2013 18:16",
+		"resetCachedSymbols" : "EstebanLorenzano 2/1/2013 18:31",
 		"startsWith:caseSensitive:do:" : "" },
 	"instance" : {
 		 } }

@@ -1,3 +1,10 @@
 action
 completionAt: aNumber
-	^ (self at: aNumber) completion separateKeywords , ' '
+	| entry |
+	
+	entry := (self at: aNumber) completion separateKeywords.
+	^ NECPreferences spaceAfterCompletion 
+		ifTrue: [ entry, ' ' ]
+		ifFalse: [ entry ]. 
+	
+	

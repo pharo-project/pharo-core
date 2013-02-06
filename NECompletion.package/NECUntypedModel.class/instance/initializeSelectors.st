@@ -11,10 +11,9 @@ initializeSelectors
 	NECSymbols 
 		contains: narrowString
 		caseSensitive: NECPreferences caseSensitive
-		do: 
-			[ :each | 
+		do: [ :each | 
 			(includeVariables or: [ each first isLowercase ]) ifTrue: 
 				[ selectors add: (NECSelectorEntry 
 						contents: each
 						type: #selector).
-				selectors size > 500 ifTrue: [ ^ self ] ] ]
+				selectors size > 100 ifTrue: [ ^ self ] ] ]

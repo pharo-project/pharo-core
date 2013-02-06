@@ -5,7 +5,7 @@
 		"table" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"table",
 		"numberofEntries" ],

@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 definedByMessageSend: aClass 
 	| newInstance |
 	newInstance := self new.

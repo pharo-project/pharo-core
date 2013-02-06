@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 variableName: aString source: sourceString class: aClass 
 	| newInstance |
 	newInstance := self basicNew initialize.

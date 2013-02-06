@@ -1,4 +1,4 @@
-as yet unclassified
+protocol
 compiled: selector in: class date: date
 
 	| method |

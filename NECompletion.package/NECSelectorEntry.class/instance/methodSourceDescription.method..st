@@ -1,4 +1,4 @@
-as yet unclassified
+private
 methodSourceDescription: aClass method: aCompiledMethod 
 	| styler styledText |
 	

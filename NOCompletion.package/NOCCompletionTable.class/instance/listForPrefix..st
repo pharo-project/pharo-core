@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 listForPrefix: aString 
 	| prefix |
 	aString isEmpty ifTrue: [^ NOCEntryList ofSize: numberofEntries].

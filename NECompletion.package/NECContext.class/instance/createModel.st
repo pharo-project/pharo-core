@@ -1,6 +1,7 @@
 accessing
 createModel
 	| modelClass |
+	
 	self receiverClass
 		ifNotNil: [^ NECTypedModel class: receiverClass].
 		
@@ -14,6 +15,7 @@ createModel
 		ifTrue: [
 			controller model modelClass ifNotNilDo: [:class | modelClass :=  class]].	
 			
+	
 	^ modelClass
 		class: theClass
 		temporaries: self temporaries
