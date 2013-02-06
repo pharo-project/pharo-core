@@ -1,8 +1,7 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7385:	FreeTypeFace not recreated from embedded cache upon image load
-	http://code.google.com/p/pharo/issues/detail?id=7385
+ ^ 'Issue 7372:	Deadcode
+	http://code.google.com/p/pharo/issues/detail?id=7372
 	
-Issue 7383:	TextModel>>setSelection: does not update the visual selection if the widget if not in focus
-	http://code.google.com/p/pharo/issues/detail?id=7383
-	'
+Issue 7352:	Changing a superclass removes the Class from the superclass subclasses
+	http://code.google.com/p/pharo/issues/detail?id=7352'

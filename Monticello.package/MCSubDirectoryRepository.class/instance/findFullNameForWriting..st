@@ -10,9 +10,9 @@ findFullNameForWriting: aBaseName
 					ifTrue: [ a third fullName size < b third fullName size ]]
 			ifFalse: [ a first > b first ] ].
 	now := Time totalSeconds.
-	prefix := directory pathParts size.
+	prefix := directory pathSegments size.
 	self allDirectories do: [:dir | | dirScore fileScore parts |
-		parts := dir pathParts allButFirst: prefix.
+		parts := dir pathSegments allButFirst: prefix.
 		dirScore := (parts select: [ :part | fpattern match: part ]) size.
 		fileScore := (dir entries collect: [ :ent |
 			(ent isDirectory not and: [ fpattern match: ent name ])

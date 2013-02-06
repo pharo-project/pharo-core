@@ -30,7 +30,7 @@ newSubclassOf: newSuper type: type instanceVariables: instVars from: oldClass
 		self recordClass: oldClass replacedBy: newClass.
 	].
 
-	(oldClass == nil or:[oldClass isObsolete not]) 
+	(oldClass == nil or:[newClass isObsolete not]) 
 		ifTrue:[newSuper addSubclass: newClass]
 		ifFalse:[newSuper addObsoleteSubclass: newClass].
 
