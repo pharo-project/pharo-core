@@ -1,3 +1,4 @@
 ui TEasilyThemed
 alert: aStringOrText title: aString
-	"Open an alert dialog."
+
+	self logTitle: aString andDescription: aStringOrText to: self stdout.

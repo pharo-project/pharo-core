@@ -1,5 +1,5 @@
 ui TEasilyThemed
 alert: aStringOrText title: aString configure: aBlock
-	"Open an alert dialog.
-	Configure the dialog with the 1 argument block
-	before opening modally."
+	"Ignore the block, because we don't create a dialog, so there is nothing to configure."
+
+	self alert: aStringOrText title: aString.

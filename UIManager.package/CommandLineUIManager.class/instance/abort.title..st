@@ -1,3 +1,4 @@
 ui TEasilyThemed
 abort: aStringOrText title: aString
-	"Open an error dialog."
+	
+	self logTitle: aString andDescription: aStringOrText to: self stderr.

@@ -5,4 +5,4 @@ nextIssueParams.
 			nextPutAll: 'can=open&status=';
 			nextPutAll: PharoTrackerLabels reviewNeeded;
 			nextPutAll: '&q=Milestone%3D';
-			print: SystemVersion current dottedMajorMinor]
+			nextPutAll: SystemVersion current dottedMajorMinor]

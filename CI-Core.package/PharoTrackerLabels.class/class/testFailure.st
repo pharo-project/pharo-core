@@ -1,4 +1,4 @@
 accessing
 testFailure
 
-	^ #FailingTest
+	^ #'WorkNeeded-FailingTest'
