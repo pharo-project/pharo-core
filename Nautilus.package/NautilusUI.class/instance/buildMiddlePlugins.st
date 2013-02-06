@@ -6,7 +6,7 @@ buildMiddlePlugins
 	middle ifEmpty: [ ^ nil ].
 	middle size = 1 ifTrue: [ ^ middle first display ].
 	container := Morph new.
-	self setGlobalShorcutsTo: container.
+	self setShortcuts: #NautilusSourceCodeShortcuts to: container.
 	container 
 		color: Color transparent;
 		changeTableLayout;

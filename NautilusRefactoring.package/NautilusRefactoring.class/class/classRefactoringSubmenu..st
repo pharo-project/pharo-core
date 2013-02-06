@@ -1,11 +1,12 @@
 menu
 classRefactoringSubmenu: aBuilder
-	<nautilusClassMenu>
+	<nautilusGlobalClassMenu>
 	| target |
 	target := aBuilder model.
 	target selectedClass ifNil: [^target].
 	
-	(aBuilder item: #'Rename... (r, c)')
+	(aBuilder item: #'Rename...')
+		keyText: 'r, c';
 		action: [ target renameClassWithRefactoringEngine: target selectedClass theNonMetaClass ];
 		parent: #'Class Refactoring';
 		order: 0.
@@ -17,7 +18,8 @@ classRefactoringSubmenu: aBuilder
 		order: 100;
 		withSeparatorAfter.
 		
-	(aBuilder item: #'Generate Accessors (h, a)')
+	(aBuilder item: #'Generate Accessors')
+		keyText: 'h, a';
 		action: [ target refactor generateAccessors ];
 		parent: #'Class Refactoring';
 		order: 200.

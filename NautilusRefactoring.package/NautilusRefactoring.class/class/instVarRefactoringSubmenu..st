@@ -1,6 +1,6 @@
 menu
 instVarRefactoringSubmenu: aBuilder
-	<nautilusClassMenu>
+	<nautilusGlobalClassMenu>
 	| target selectedClass |
 	
 	target := aBuilder model.

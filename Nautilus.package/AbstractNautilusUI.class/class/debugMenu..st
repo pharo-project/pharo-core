@@ -1,10 +1,12 @@
 menu
 debugMenu: aBuilder
-	<nautilusMethodMenu>
-	<nautilusProtocolMenu>
-	<nautilusClassMenu>
-	<nautilusPackageMenu>
-	<nautilusGroupMenu>
+	<contextMenu>
+	<nautilusGlobalMethodMenu>
+	<nautilusGlobalProtocolMenu>
+	<nautilusGlobalClassMenu>
+	<nautilusGlobalPackageMenu>
+	<nautilusGlobalGroupMenu>
+	
 	| target |
 	target := aBuilder model.
 	(aBuilder item: #DebugMenu)

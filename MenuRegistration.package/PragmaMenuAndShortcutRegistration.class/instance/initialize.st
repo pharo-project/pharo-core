@@ -1,4 +1,4 @@
-initialization
+keymapping
 initialize
 	"Initialization code for PragmaMenuAndShortcutRegistration"
 

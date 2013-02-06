@@ -6,15 +6,6 @@ messageMenu: aMenu shifted: shifted
 	aMenu title: 'Message list'.
 	aMenu target: self.
 
-	aMenu addList: #(
-			('Delete method from changeSet (d)'	forgetMessage)
-			('Remove method from system (x)'		removeMessage)
-				-
-			('Browse full (b)'						browseMethodFull)
-			-
-			('FileOut'								fileOutMessage)
-			-
-			('Senders of... (n)'						browseSendersOfMessages)
-			('Implementors of... (m)'				browseImplementorsOfMessages)
-			('Versions (v)'							browseVersions)).
-	^ aMenu
+	aMenu addAllFromPragma:'changeSorterMessageListMenu' target: self.
+
+	^aMenu

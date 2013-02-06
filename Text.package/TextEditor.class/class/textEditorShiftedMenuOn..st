@@ -5,8 +5,15 @@ textEditorShiftedMenuOn: aBuilder
 		pragmaKeyword: 'textEditorShiftedMenu'
 		model: nil) menu popUpInWorld"
 
+	<contextMenu>
 	<textEditorShiftedMenu>
-	(aBuilder item: #'set font... (k)' translated) selector: #offerFontMenu.
-	(aBuilder item: #'set style... (K)' translated) selector: #changeStyle.
-	(aBuilder item: #'set alignment...' translated) selector: #chooseAlignment.
-	(aBuilder item: #'more...' translated) selector: #yellowButtonActivity.
+	(aBuilder item: #'Set font...' translated) 
+		keyText: 'k';
+		selector: #offerFontMenu.
+	(aBuilder item: #'Set style... (K)' translated) 
+		keyText: 'K';
+		selector: #changeStyle.
+	(aBuilder item: #'Set alignment...' translated) 
+		selector: #chooseAlignment.
+	(aBuilder item: #'More...' translated) 
+		selector: #yellowButtonActivity.

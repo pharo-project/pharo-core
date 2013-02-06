@@ -1,6 +1,6 @@
 monticello menus
 packagesSliceMenu: aBuilder
-	<nautilusPackageMenu>
+	<nautilusGlobalPackageMenu>
 	| target |
 	target := aBuilder model.
 	(aBuilder item: #'Create Slice and commit it')

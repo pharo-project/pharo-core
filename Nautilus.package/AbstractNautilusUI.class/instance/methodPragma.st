@@ -1,4 +1,3 @@
 menu pragmas
 methodPragma
-
-	^'nautilusMethodMenu'
+	^'nautilusGlobalMethodMenu'

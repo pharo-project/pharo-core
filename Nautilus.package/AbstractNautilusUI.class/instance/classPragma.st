@@ -1,4 +1,3 @@
 menu pragmas
 classPragma
-
-	^'nautilusClassMenu'
+	^'nautilusGlobalClassMenu'

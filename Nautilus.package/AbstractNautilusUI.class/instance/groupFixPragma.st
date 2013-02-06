@@ -1,4 +1,3 @@
 menu pragmas
 groupFixPragma
-
-	^'nautilusGroupFixMenu'
+	^'nautilusGlobalGroupFixMenu'

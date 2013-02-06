@@ -2,6 +2,7 @@
 	"class" : {
 		"horizontalDividerProportion" : "al 9/21/2008 19:41",
 		"inspect:" : "PHK 7/22/2004 17:04",
+		"menuFieldList:" : "EstebanLorenzano 1/31/2013 18:32",
 		"openAsMorphOn:withEvalPane:withLabel:valueViewClass:" : "BenjaminVanRyseghem 10/25/2012 15:30",
 		"openAsMorphOn:withLabel:" : "MarcusDenker 11/2/2012 15:08",
 		"openOn:" : "ar 9/27/2005 18:30",
@@ -11,7 +12,6 @@
 		"verticalDividerProportion" : "sw 1/19/1999 14:38" },
 	"instance" : {
 		"accept:" : "damiencassou 5/30/2008 16:29",
-		"addCollectionItemsTo:" : "tbn 7/29/2010 22:07",
 		"baseFieldList" : "",
 		"browseClass" : "BenjaminVanRyseghem 2/8/2012 17:08",
 		"browseClassRefs" : "DiegoFernandez 6/9/2011 19:32",
@@ -22,7 +22,7 @@
 		"classHierarchy" : "DiegoFernandez 6/9/2011 19:07",
 		"classOfSelection" : "tk 4/10/1998 17:53",
 		"classVarRefs" : "sd 11/20/2005 21:27",
-		"codePaneMenu:shifted:" : "IgorStasenko 2/17/2011 16:03",
+		"codePaneMenu:shifted:" : "EstebanLorenzano 1/31/2013 19:24",
 		"contents" : "GuillermoPolito 8/12/2010 14:52",
 		"contentsIsString" : "di 9/22/1998 21:24",
 		"contentsSelection" : "GuillermoPolito 8/12/2010 14:52",
@@ -34,7 +34,7 @@
 		"exploreSelection" : "sw 9/21/1999 12:16",
 		"exploreStrongPointers" : "IgorStasenko 9/2/2012 17:03",
 		"fieldList" : "",
-		"fieldListMenu:" : "IgorStasenko 9/2/2012 17:03",
+		"fieldListMenu:" : "EstebanLorenzano 1/31/2013 19:25",
 		"i1" : "",
 		"i2" : "",
 		"initialExtent" : "al 9/21/2008 19:40",

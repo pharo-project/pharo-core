@@ -5,10 +5,23 @@ fullReportMenuOn: aBuilder
 		pragmaKeyword: 'TimeProfilerFullReportMenu'
 		model: nil) menu popUpInWorld"
 
+	<contextMenu>
 	<TimeProfilerFullReportMenu>
 	| uitheme |
+	
 	uitheme := UITheme current.
-	(aBuilder item: #'Find...(f)' translated) selector: #find; help: nil; icon: uitheme smallFindIcon.
-	(aBuilder item: #'Find again (g)' translated) selector: #findAgain; help: nil; icon: uitheme smallFindIcon.
-	(aBuilder item: #'Set search string (h)' translated) selector: #setSearchString.
-	(aBuilder item: #'Copy (c)' translated) selector: #copySelection; help: nil; icon: uitheme  smallCopyIcon.
+	(aBuilder item: #'Find...' translated) 
+		keyText: 'f';
+		selector: #find; 
+		icon: uitheme smallFindIcon.
+	(aBuilder item: #'Find again' translated) 
+		keyText: 'g';
+		selector: #findAgain; 
+		icon: uitheme smallFindIcon.
+	(aBuilder item: #'Set search string' translated) 
+		keyText: 'h';
+		selector: #setSearchString.
+	(aBuilder item: #'Copy' translated) 
+		keyText: 'c';
+		selector: #copySelection; 
+		icon: uitheme smallCopyIcon.

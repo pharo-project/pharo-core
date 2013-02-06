@@ -1,20 +1,21 @@
 menu
-classMenu: aMenu shifted: shifted from: src to: dest
+classMenu: menu shifted: shifted from: src to: dest
 	"Fill aMenu with items appropriate for the class list"
+	| menuSrc menuDual |
+	
+	src selectedClass ifNil: [ ^nil ].
+	
+	menuSrc := menu copy.
+	src classMenu: menuSrc shifted: shifted.
 
-	src selectedClass ifNil: [ ^ nil ].
-	aMenu target: self.
-	aMenu
-			add: 'Copy class to the other change set(c)' 
-			target: self
-			selector: #copyClassFrom:to:
-			argumentList: {src.dest}.
-	aMenu
-			add: 'Move class to the other change set' 
-			target: self
-			selector: #moveClassFrom:to:
-			argumentList: {src.dest}.
-	aMenu addLine.
-						
-	src classMenu: aMenu shifted: shifted.
-	^ aMenu
+	menuDual := (PragmaMenuBuilder 
+		pragmaKeyword: 'dualChangeSorterClassListMenu'
+		model: {self. src. dest}) 
+		menu.
+		
+	menu addAllFrom: (MenuMorph new 
+		addAllMorphs: menuDual submorphs;
+		addAllMorphs: menuSrc submorphs;
+		yourself).
+		
+	^menu	

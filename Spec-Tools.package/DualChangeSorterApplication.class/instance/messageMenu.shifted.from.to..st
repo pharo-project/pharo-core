@@ -1,22 +1,22 @@
 menu
-messageMenu: aMenu shifted: shifted from: src to: dest
+messageMenu: menu shifted: shifted from: src to: dest
 	"Fill aMenu with items appropriate for the message list; could be for a single or double changeSorter"
-
-	src selectedSelector ifNil: [ ^ nil ].	
-	aMenu target: self.
-
-	aMenu
-			add: 'Copy method to the other change set'
-			target: self
-			selector: #copyMethodFrom:to:
-			argumentList: {src.dest}.
-	aMenu
-			add: 'Move method to the other change set' 
-			target: self
-			selector: #moveMethodFrom:to:
-			argumentList: {src.dest}.
-	aMenu addLine.
-					
-	src messageMenu: aMenu shifted: shifted.
+	| menuSrc menuDual |
 	
-	^ aMenu
+	src selectedSelector ifNil: [ ^ nil ].	
+	menu target: self.
+
+	menuSrc := menu copy.
+	src messageMenu: menuSrc shifted: shifted.
+	
+	menuDual := (PragmaMenuBuilder 
+		pragmaKeyword: 'dualChangeSorterMessageListMenu'
+		model: {self. src. dest}) 
+		menu.
+		
+	menu addAllFrom: (MenuMorph new 
+		addAllMorphs: menuDual submorphs;
+		addAllMorphs: menuSrc submorphs;
+		yourself).
+		
+	^menu	

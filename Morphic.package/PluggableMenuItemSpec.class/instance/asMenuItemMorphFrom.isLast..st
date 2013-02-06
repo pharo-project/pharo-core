@@ -9,6 +9,7 @@ asMenuItemMorphFrom: parentMenu isLast: aBoolean
 		ifTrue: [ lbl := self hasCheckBox -> lbl].
 	it contents: lbl.
 	it icon: self icon.
+	it keyText: self keyText.
 	it isEnabled: self enabled.
 	(act := self action) ifNotNil: [
 				it 

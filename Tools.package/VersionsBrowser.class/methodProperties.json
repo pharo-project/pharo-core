@@ -6,12 +6,13 @@
 		"patchworkUIThemeColor" : "AlainPlantec 12/16/2009 22:10",
 		"registerToolsOn:" : "IgorStasenko 2/19/2011 03:03",
 		"timeStampFor:class:reverseOrdinal:" : "sd 11/20/2005 21:28",
-		"versionCountForSelector:class:" : "sd 11/20/2005 21:28" },
+		"versionCountForSelector:class:" : "sd 11/20/2005 21:28",
+		"versionsBrowserListMenu:" : "EstebanLorenzano 1/31/2013 18:29" },
 	"instance" : {
 		"addPriorVersionsCountForSelector:ofClass:to:" : "StephaneDucasse 5/28/2011 13:42",
 		"addedChangeRecord" : "nk 1/7/2004 10:10",
 		"addedChangeRecord:" : "sd 11/20/2005 21:27",
-		"buildDefaultCodePane:" : "MarianoMartinezPeck 4/27/2012 14:21",
+		"buildDefaultCodePane:" : "EstebanLorenzano 1/31/2013 10:04",
 		"buildDiffCodePane" : "MarianoMartinezPeck 5/2/2012 18:16",
 		"buildDiffMorphFromOldString:toNewString:contextClass:" : "MarianoMartinezPeck 5/2/2012 18:13",
 		"buildMorphicCodePaneWith:" : "MarianoMartinezPeck 4/27/2012 13:47",
@@ -34,5 +35,5 @@
 		"showsVersions" : "sw 10/19/1999 15:04",
 		"updateListsAndCodeIn:" : "sd 11/20/2005 21:27",
 		"versionsHelpString" : "nk 11/25/2003 10:19",
-		"versionsMenu:" : "MarcusDenker 7/13/2012 23:52",
+		"versionsMenu:" : "EstebanLorenzano 1/31/2013 19:25",
 		"wantsPrettyDiffOption" : "MarianoMartinezPeck 4/27/2012 13:36" } }

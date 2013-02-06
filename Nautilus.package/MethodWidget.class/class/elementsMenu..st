@@ -1,11 +1,12 @@
 menu
 elementsMenu: aBuilder
-	<nautilusMethodMenu>
+	<nautilusGlobalMethodMenu>
 	| selectedMethods selectedMethod tmp target |
 	target := aBuilder model.
 	selectedMethods := target selectedMethods.
 	selectedMethod := target selectedMethod.
-	(aBuilder item: #'Find Method... (f,m )')
+	(aBuilder item: #'Find Method...')
+		keyText: 'f, m';
 		action: [ target findMethod ];
 		order: 0;
 		help: 'Search for a method by name'.
@@ -18,7 +19,8 @@ elementsMenu: aBuilder
 					ifFalse: [ 'Add breakpoint']
 					ifTrue: [ 'Remove breakpoint'] )].
 		
-	tmp := ((aBuilder item: #'Browse full (b, f)')
+	tmp := ((aBuilder item: #'Browse full')
+		keyText: 'b, f';
 		action: [ target fullBrowse ];
 		order: 200;
 		yourself).
@@ -27,49 +29,58 @@ elementsMenu: aBuilder
 		tmp withSeparatorAfter.
 		 ^ target ].
 	
-	(aBuilder item: #'Generate test and jump (h, j)')
+	(aBuilder item: #'Generate test and jump')
+		keyText: 'h, j';
 		action: [ target generateTestMethodsAndFocus: true ];
 		order: 300.
 		
-	(aBuilder item: #'Generate test (h, J)')
+	(aBuilder item: #'Generate test')
+		keyText: 'h, J';
 		action: [ target generateTestMethodsAndFocus: false ];
 		order: 400;
 		withSeparatorAfter.
 		
 	(target selectedMethods allSatisfy: [:meth | meth isTestMethod ])
 		ifTrue: [
-			(aBuilder item: #'Run tests (j, m)')
+			(aBuilder item: #'Run tests')
+				keyText: 'j, m';
 				action: [ target runTestForMethods: selectedMethods notifying: true ];
 				order: 1000 ].
 			
 	target selectedMethod correspondingTestMethod notNil
 		ifTrue: [
-			(aBuilder item: #'Debug tests (d)')
+			(aBuilder item: #'Debug tests')
+				keyText: 'd';
 				action: [ target debugTest ];
 				order: 1001 ].		
 	
-	(aBuilder item: #'Senders of...(b, n)')
+	(aBuilder item: #'Senders of...')
+		keyText: 'b, n';
 		action: [ target browseSendersOfMessages ];
 		order: 1100;
 		enabledBlock: [ target enableMethodSingleSelection ].
 		
-	(aBuilder item: #'Implementors of... (b, m)')
+	(aBuilder item: #'Implementors of...')
+		keyText: 'b, m';
 		action: [ target browseMessages ];
 		order: 1200;
 		enabledBlock: [ target enableMethodSingleSelection ].
 		
-	(aBuilder item: #'Inheritance (b, i)')
+	(aBuilder item: #'Inheritance')
+		keyText: 'b, i';
 		action: [ target methodHierarchy ];
 		order: 1300;
 		enabledBlock: [ target enableMethodSingleSelection ].
 		
-	(aBuilder item: #'Versions (b, v)')
+	(aBuilder item: #'Versions')
+		keyText: 'b, v';
 		action: [ target browseVersions ];
 		order: 1400;
 		enabledBlock: [ target enableMethodSingleSelection ];
 		withSeparatorAfter.
 	
-	(aBuilder item: #'Categorize method (m, m)')
+	(aBuilder item: #'Categorize method')
+		keyText: 'm, m';
 		action: [ target categorizeMethod ];
 		order: 1500.
 		
@@ -77,13 +88,15 @@ elementsMenu: aBuilder
 		action: [ target moveMethodToPackage ];
 		order: 1600.
 		
-	(aBuilder item: #'Remove... (x, m)')
+	(aBuilder item: #'Remove...')
+		keyText: 'x, m';
 		action: [ target removeMethods ];
 		order: 1700;
 		icon: (target iconClass iconNamed: #removeIcon);
 		withSeparatorAfter.
 		
-	(aBuilder item: #'Add in group.. (n, e, m)')
+	(aBuilder item: #'Add in group...')
+		keyText: 'n, e, m';
 		action: [ target addMethodsInGroup ];
 		order: 1800.
 			

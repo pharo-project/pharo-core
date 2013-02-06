@@ -1,20 +1,24 @@
 menu
 classesFixMenu: aBuilder
-	<nautilusClassFixMenu>
+	<contextMenu>
+	<nautilusGlobalClassFixMenu>
 	| target |
 	target := aBuilder model.
 	
-	(aBuilder item: #'Find Method... (f, m)')
+	(aBuilder item: #'Find Method...')
+		keyText: 'f, m';
 		action: [target findMethod];
 		order: 100;
 		help: 'Search for a method by selector'.
 		
-	(aBuilder item: #'Find Class... (f, c)')
+	(aBuilder item: #'Find Class...')
+		keyText: 'f, c';
 		action: [ target findClass ];
 		order: 200;
 		help: 'Search for a method by selector'.
 	
-	(aBuilder item: #'Add Class... (n, c)')
+	(aBuilder item: #'Add Class...')
+		keyText: 'n, c';
 		action: [ target addClass ];
 		order: 400;
 		help: 'Create a new class'.
@@ -23,7 +27,8 @@ classesFixMenu: aBuilder
 		order: 500;
 		withSeparatorAfter.
 		
-	(aBuilder item: #'Browse full (b, f)')
+	(aBuilder item: #'Browse full')
+		keyText: 'b, f';
 		action: [target fullBrowse];
 		order: 999;
 		help: 'Open the same browser'.

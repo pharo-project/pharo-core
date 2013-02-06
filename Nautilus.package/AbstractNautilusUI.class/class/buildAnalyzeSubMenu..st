@@ -1,7 +1,9 @@
 menu
 buildAnalyzeSubMenu: aBuilder
-	<nautilusClassMenu>
+	<contextMenu>
+	<nautilusGlobalClassMenu>
 	| target |
+	
 	target := aBuilder model.
 	target selectedClass ifNil: [^target].
 
@@ -28,12 +30,14 @@ buildAnalyzeSubMenu: aBuilder
 		order: 300;
 		enabledBlock: [ target showInstance ].
 	
-	(aBuilder item: #'Generate initialize method (h, i)')
+	(aBuilder item: #'Generate initialize method')
+		keyText: 'h, i';
 		action: [ target generateInitialize ];
 		parent: #Analyze;
 		order: 350.
 		
-	(aBuilder item: #'Force the generaton of the initialize method (h, k)')
+	(aBuilder item: #'Force the generaton of the initialize method')
+		keyText: 'h, k';
 		action: [ target forceGenerateInitialize ];
 		parent: #Analyze;
 		order: 375;
@@ -45,7 +49,8 @@ buildAnalyzeSubMenu: aBuilder
 		parent: #Analyze;
 		order: 400.
 		
-	(aBuilder item: #'Class refs... (b, N)')
+	(aBuilder item: #'Class refs...')
+		keyText: 'b, N';
 		action: [target browseClassRefs];
 		parent: #Analyze;
 		order: 500.

@@ -1,4 +1,3 @@
 menu pragmas
 categoryPragma
-
-	^'nautilusProtocolMenu'
+	^'nautilusGlobalProtocolMenu'

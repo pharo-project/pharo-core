@@ -1,6 +1,6 @@
 menu
 refactoringMethodMenu: aBuilder
-	<nautilusMethodMenu>
+	<nautilusGlobalMethodMenu>
 	| target |
 	target := aBuilder model.
 	target selectedMethod ifNil:[ ^ target ].
@@ -8,7 +8,8 @@ refactoringMethodMenu: aBuilder
 	(aBuilder item: #'Refactoring')
 			order: -100.
 			
-	(aBuilder item: #'Rename method (r, m)')
+	(aBuilder item: #'Rename method')
+			keyText: 'r, m';
 			action: [ | scroll |
 				scroll := target methodWidget vScrollValue.
 				target refactor renameMethodFor: target selectedMethod.

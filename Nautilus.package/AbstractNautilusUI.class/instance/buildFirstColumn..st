@@ -3,7 +3,7 @@ buildFirstColumn: aWindow
 		
 	| buttons |
 	buttons := PanelMorph new.
-	self setGlobalShorcutsTo: buttons.
+	self setShortcuts: #NautilusPackageShortcuts to: buttons.
 	buttons 
 		changeProportionalLayout;
 		addMorph: self buildGroupsButton

@@ -1,16 +1,19 @@
 menu
 groupsMenu: aBuilder
-	<nautilusGroupMenu>
+	<contextMenu>
+	<nautilusGlobalGroupMenu>
 	| target |
 	target := aBuilder model.
 	target selectedGroup ifNil: [ ^ target ].
 		
-	(aBuilder item: #'Browse scoped (b, s)')
+	(aBuilder item: #'Browse scoped')
+		keyText: 'b, s';
 		action: [ target restrictedBrowseGroups: target selectedGroups ];
 		order: 1000;
 		withSeparatorAfter.
 		
-	(aBuilder item: #'Run tests (j, g)')
+	(aBuilder item: #'Run tests')
+		keyText: 'j, g';
 		action: [ target runTestsOfGroups: target selectedGroups notifying: true ];
 		order: 1100.
 				
@@ -23,13 +26,15 @@ groupsMenu: aBuilder
 		ifFalse: [
 			target selectedGroup isReadOnly
 				ifFalse: [
-					(aBuilder item: #'Rename... (r, g)')
+					(aBuilder item: #'Rename...')
+						keyText: 'r, g';
 						action: [target renameGroup];
 						enabledBlock: [ target selectedGroups size <= 1];
 						order: 1300 ].
 			target selectedGroup removable
 				ifTrue: [
-					(aBuilder item: #'Remove groups (x, g)')
+					(aBuilder item: #'Remove groups')
+						keyText: 'x, g';
 						icon: (target iconClass iconNamed: #removeIcon);
 						action: [target removeGroups];
-						order: 1400 ]]
+						order: 1400 ] ]

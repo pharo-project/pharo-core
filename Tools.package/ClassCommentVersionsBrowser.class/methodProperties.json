@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"browseCommentOf:" : "nice 1/5/2010 15:59",
+		"classCommentVersionsListMenu:" : "EstebanLorenzano 1/31/2013 18:29",
 		"commentRecordsOf:" : "sd 11/20/2005 21:28",
 		"patchworkUIThemeColor" : "AlainPlantec 12/16/2009 22:08",
 		"timeStampFor:class:reverseOrdinal:" : "sd 11/20/2005 21:28" },
@@ -16,5 +17,5 @@
 		"selectedClass" : "asm 8/13/2002 20:59",
 		"shoutAboutToStyle:" : "BenjaminVanRyseghem 7/13/2012 14:14",
 		"updateListsAndCodeIn:" : "sd 11/20/2005 21:26",
-		"versionsMenu:" : "StephaneDucasse 1/7/2011 17:51",
+		"versionsMenu:" : "EstebanLorenzano 1/31/2013 19:25",
 		"wantsPrettyDiffOption" : "sw 8/15/2002 22:35" } }

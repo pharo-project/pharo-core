@@ -1,6 +1,6 @@
 menu
 refactoringClassMenu: aBuilder
-	<nautilusClassMenu>
+	<nautilusGlobalClassMenu>
 	| target |
 	target := aBuilder model.
 	target selectedClass ifNil: [^target].

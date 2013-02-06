@@ -5,14 +5,6 @@ classMenu: aMenu shifted: shifted
 	self selectedClass ifNil: [ ^ nil ].
 	aMenu title: 'Class list'.
 
-	aMenu target: self.
-	aMenu addList: #(
-			-
-			('Delete class from change set (d)'		forgetClass)
-			('Remove class from system (x)'		removeClass)
-			-
-			('Browse full (b)'						browseMethodFull)
-			-
-			('FileOut'								fileOutClass)).
-
-	^ aMenu
+	aMenu addAllFromPragma: 'changeSorterClassListMenu' target: self.
+	
+	^aMenu

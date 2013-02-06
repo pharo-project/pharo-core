@@ -28,28 +28,6 @@ fileContentsMenu: aMenu shifted: shifted
 			for: self reference
 			extraLines: extraLines].
 
-	aMenu addList: {
-			{'Find...(f)' translated.		#find. nil. #smallFindIcon}.
-			{'Find again (g)' translated.		#findAgain. nil. #smallFindIcon}.
-			{'Set search string (h)' translated.	#setSearchString}.
-			#-.
-			{'Do again (j)' translated.		#again. nil. #smallRedoIcon}.
-			{'Undo (z)' translated.			#undo. nil. #smallUndoIcon}.
-			#-.
-			{'Copy (c)' translated.			#copySelection. nil. #smallCopyIcon}.
-			{'Cut (x)' translated.			#cut. nil. #smallCutIcon}.
-			{'Paste (v)' translated.		#paste. nil. #smallPasteIcon}.
-			{'Paste...' translated.			#pasteRecent. nil. #smallPasteIcon}.
-			#-.
-			{'Do it (d)' translated.		#doIt. nil. #smallDoItIcon}.
-			{'Print it (p)' translated.		#printIt. nil. #smallPrintItIcon}.
-			{'Inspect it (i)' translated.		#inspectIt. nil. #smallInspectItIcon}.
-			{'FileIn selection (G)' translated.	#fileItIn}.
-			#-.
-			{'Accept (s)' translated.		#accept. nil. #smallOkIcon}.
-			{'Cancel (l)' translated.		#cancel. nil. #smallCancelIcon}.
-			#-.
-			{'More...' translated.			#shiftedYellowButtonActivity}}.
-
+	aMenu addAllFromPragma: 'fileListContentMenu' target: self.
 
 	^ aMenu

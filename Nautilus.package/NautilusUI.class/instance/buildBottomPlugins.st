@@ -6,7 +6,7 @@ buildBottomPlugins
 	bottom ifEmpty: [ ^ nil ].
 	bottom size = 1 ifTrue: [ ^ bottom first display ].
 	container := Morph new.
-	self setGlobalShorcutsTo: container.
+	self setShortcuts: #NautilusSourceCodeShortcuts to: container.
 	container 
 		color: Color transparent;
 		changeTableLayout;

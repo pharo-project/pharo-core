@@ -1,4 +1,3 @@
 menu pragmas
 commonPragma
-
-	^'nautilusCommonMenu'
+	^'nautilusGlobalCommonMenu'

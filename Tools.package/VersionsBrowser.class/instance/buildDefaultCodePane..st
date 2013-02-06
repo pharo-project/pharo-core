@@ -6,7 +6,7 @@ buildDefaultCodePane: editString
 					text: #contents
 					accept: nil
 					readSelection: #contentsSelection
-					menu: #codePaneMenu:hifted:)
+					menu: #codePaneMenu:shifted:)
 					font: StandardFonts codeFont;
 					hResizing: #spaceFill;
 					vResizing: #spaceFill;

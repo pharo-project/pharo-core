@@ -3,11 +3,11 @@ showGroups: aBoolean
 
 	self okToChange ifFalse: [ ^ self ].
 	
-	self setGlobalShorcutsTo:  list2.
+	self setShortcuts: #NautilusClassShortcuts to: list2.
 	aBoolean 
 		ifTrue: [ list enabled: true ].
 		
-	self setGlobalShorcutsTo: list.
+	self setShortcuts: #NautilusGroupShortcuts to: list.
 	
 	listElements := nil.
 	self showPackages 

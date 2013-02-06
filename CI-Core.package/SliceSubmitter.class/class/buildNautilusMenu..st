@@ -1,6 +1,6 @@
 nautilus menu
 buildNautilusMenu: aBuilder
-	<nautilusPackageMenu>
+	<nautilusGlobalPackageMenu>
 	| package target mc |
 	target := aBuilder model.
 	(package := target selectedPackage) ifNil: [ ^self ].

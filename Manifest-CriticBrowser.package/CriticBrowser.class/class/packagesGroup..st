@@ -1,6 +1,6 @@
 instance creation
 packagesGroup: aBuilder
-	<nautilusGroupMenu>
+	<nautilusGlobalGroupMenu>
 	| packages target env rules group|
 	target := aBuilder model.
 	

@@ -5,6 +5,6 @@ codePaneMenu: aMenu shifted: shifted
 	text pane"
 	| donorMenu |
 	donorMenu := shifted
-				ifTrue: [SmalltalkEditor shiftedYellowButtonMenu]
-				ifFalse: [SmalltalkEditor yellowButtonMenu].
+		ifTrue: [SmalltalkEditor shiftedYellowButtonMenu]
+		ifFalse: [SmalltalkEditor yellowButtonMenu].
 	^ aMenu addAllFrom: donorMenu

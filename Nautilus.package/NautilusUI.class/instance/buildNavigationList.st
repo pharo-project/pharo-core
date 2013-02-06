@@ -13,5 +13,6 @@ buildNavigationList
 					ghostText: 'History Navigator';
 					yourself.
 			
-	self setGlobalShorcutsTo: navigation.
+	self setShortcuts: #NautilusSourceCodeShortcuts to: navigation.
+	
 	^ navigation

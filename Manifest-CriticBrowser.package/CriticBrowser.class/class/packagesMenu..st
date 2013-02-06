@@ -1,6 +1,6 @@
 instance creation
 packagesMenu: aBuilder
-	<nautilusPackageMenu>
+	<nautilusGlobalPackageMenu>
 	| packages target env rules |
 	target := aBuilder model.
 	(packages := target selectedPackages) ifNil: [ ^ {target} ].

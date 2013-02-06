@@ -6,5 +6,5 @@ buildGroupsButton
 			getState: #groupsButtonState
 			action: #groupsButtonAction
 			label: #groupsButtonLabel) hResizing: #spaceFill; vResizing: #shrinkWrap.
-	self setGlobalShorcutsTo: button.
+	self setShortcuts: #NautilusGroupShortcuts to: button.
 	^ button

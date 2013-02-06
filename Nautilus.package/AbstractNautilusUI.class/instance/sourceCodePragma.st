@@ -1,4 +1,3 @@
 menu pragmas
 sourceCodePragma
-
-	^ 'nautilusSourceCodeMenu'
+	^ 'nautilusGlobalSourceCodeMenu'

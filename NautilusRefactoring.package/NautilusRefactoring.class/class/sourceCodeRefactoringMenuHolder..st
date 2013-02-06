@@ -1,14 +1,14 @@
 menu
 sourceCodeRefactoringMenuHolder: aBuilder
-	<nautilusSourceCodeMenu>
+	<nautilusGlobalSourceCodeMenu>
 	| target |
 	target := aBuilder model.
 	
 	(aBuilder item: #'Format')
-		order: 9996;
+		order: 1100;
 		action: [ target refactor formatSourceCode ].
 		
 	(aBuilder item: #'Source code refactoring')
-			order: 9997;
+			order: 1101;
 			arguments: {};
 			withSeparatorAfter.

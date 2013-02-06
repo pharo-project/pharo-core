@@ -1,4 +1,3 @@
 menu pragmas
 groupPragma
-
-	^'nautilusGroupMenu'
+	^'nautilusGlobalGroupMenu'

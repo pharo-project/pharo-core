@@ -6,10 +6,10 @@
 		"initializeShiftCmdKeyShortcuts" : "MarcusDenker 5/8/2012 10:16",
 		"shiftedYellowButtonMenu" : "AlainPlantec 11/16/2010 22:19",
 		"smalltalkEditorMenuKeyword" : "AlainPlantec 11/16/2010 17:01",
-		"smalltalkEditorMenuOn:" : "BenjaminVanRyseghem 10/25/2012 15:24",
+		"smalltalkEditorMenuOn:" : "EstebanLorenzano 1/31/2013 18:42",
 		"smalltalkEditorShiftedMenuKeyword" : "AlainPlantec 11/16/2010 17:00",
-		"smalltalkEditorShiftedMenuOn:" : "MarcusDenker 10/13/2012 13:02",
-		"yellowButtonMenu" : "AlainPlantec 11/16/2010 22:23" },
+		"smalltalkEditorShiftedMenuOn:" : "EstebanLorenzano 1/31/2013 18:45",
+		"yellowButtonMenu" : "EstebanLorenzano 1/30/2013 18:24" },
 	"instance" : {
 		"argAdvance:" : "AlainPlantec 11/8/2010 22:09",
 		"browseClassFrom:" : "CamilloBruni 2/1/2012 19:35",

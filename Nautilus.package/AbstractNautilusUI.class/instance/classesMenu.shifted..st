@@ -1,4 +1,4 @@
-menu pragmas
+menu builder
 classesMenu: aMenu shifted: aBoolean 
 
-	^ aMenu becomeForward: (self classMenuBuilder menu)
+	^ aMenu addAllFrom: self classMenuBuilder menu.

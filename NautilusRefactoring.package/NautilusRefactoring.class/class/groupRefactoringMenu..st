@@ -1,6 +1,6 @@
 menu
 groupRefactoringMenu: aBuilder
-	<nautilusGroupMenu>
+	<nautilusGlobalGroupMenu>
 	| target |
 	target := aBuilder model.
 	(aBuilder item: #'Rewrite Code')

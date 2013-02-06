@@ -22,6 +22,7 @@ interpretRegistration: aRegistration
 							node 
 								action: item action ]].
 			node
+				keyText: item keyText;
 				help: item help;
 				icon: item icon;
 				order: item order;

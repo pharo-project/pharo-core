@@ -13,7 +13,8 @@
 		"separator",
 		"subMenu",
 		"icon",
-		"enabledBlock" ],
+		"enabledBlock",
+		"keyText" ],
 	"name" : "PluggableMenuItemSpec",
 	"pools" : [
 		 ],

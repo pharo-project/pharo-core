@@ -25,7 +25,7 @@ buildList
 				
 				basicGetListElementSelector: #listElement:.
 				
-	self setGlobalShorcutsTo: list.
+	self setShortcuts: #NautilusPackageShortcuts to: list.
 	
 	list
 		hResizing: #spaceFill;

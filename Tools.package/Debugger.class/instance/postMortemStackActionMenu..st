@@ -1,6 +1,3 @@
 context stack menu
 postMortemStackActionMenu: aMenu
-	
-	^ aMenu addList: #(
-		('FullStack (f)' 	fullStack)
-		('Where (w)' 	where)).
+	^ aMenu addAllFromPragma: 'debuggerStackPostMortemActionMenu' target: self

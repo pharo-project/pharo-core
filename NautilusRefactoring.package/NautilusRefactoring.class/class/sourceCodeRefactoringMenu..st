@@ -1,6 +1,6 @@
 menu
 sourceCodeRefactoringMenu: aBuilder
-	<nautilusSourceCodeMenu>
+	<nautilusGlobalSourceCodeMenu>
 	| target |
 	target := aBuilder model.
 	(aBuilder item: #'Create cascade')

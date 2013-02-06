@@ -26,6 +26,6 @@ buildList2
 				
 				getListElementSelector: #listElement2:.
 						
-	self setGlobalShorcutsTo:  list2.					
+	self setShortcuts: #NautilusClassShortcuts to: list2.					
 						
 	^ list2

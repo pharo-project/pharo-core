@@ -1,4 +1,4 @@
-as yet unclassified
+tools registry
 registerToolsOn: registry
 	"Register ourselves as inspector for Dictionary (and its subclasses)"
 	

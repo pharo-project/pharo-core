@@ -8,7 +8,7 @@ buildCommentButton
 		action: #commentButtonAction
 		label: #commentButtonLabel) hResizing: #spaceFill; vResizing: #shrinkWrap.
 		
-	self setGlobalShorcutsTo: button.
+	self setShortcuts: #NautilusCommentShortcuts to: button.
 	button submorphs first
 		on: #doubleClick
 		send: #toggleShowFullComment

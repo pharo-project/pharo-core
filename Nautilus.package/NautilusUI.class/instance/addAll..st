@@ -21,7 +21,7 @@ addAll: aWindow
 	"navigationRow := self buildNavigationRow: aWindow height: topHeight."
 
 	self buildColumns: aWindow height: topHeight"+navigationRow".
-	self setGlobalShorcutsTo: aWindow.
+	self setShortcuts: #NautilusSourceCodeShortcuts to: aWindow.
 	
 	self buildMiddlePlugins ifNotNil: [:middle |
 		middleHeight := middle height+4.
@@ -31,7 +31,7 @@ addAll: aWindow
 		middle color: Color transparent].
 	
 	sourceCodePanel := PanelMorph new.
-	self setGlobalShorcutsTo: sourceCodePanel.
+	self setShortcuts: #NautilusSourceCodeShortcuts to: sourceCodePanel.
 	sourceCodePanel changeProportionalLayout.
 		
 	sourceCodePanel 
@@ -43,7 +43,7 @@ addAll: aWindow
 		hResizing: #spaceFill;
 		vResizing: #spaceFill.
 	sourceCodeContainer := PanelMorph new.
-	self setGlobalShorcutsTo: sourceCodeContainer.
+	self setShortcuts: #NautilusSourceCodeShortcuts to: sourceCodeContainer.
 	sourceCodeContainer 
 		changeTableLayout;
 		listDirection: #leftToRight.

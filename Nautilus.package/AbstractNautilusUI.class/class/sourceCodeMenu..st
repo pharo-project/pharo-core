@@ -1,6 +1,7 @@
 menu
 sourceCodeMenu: aBuilder
-	<nautilusSourceCodeMenu>
+	<contextMenu>
+	<nautilusGlobalSourceCodeMenu>
 	
 	| donorMenu items |
 	items := OrderedCollection new.
@@ -10,6 +11,7 @@ sourceCodeMenu: aBuilder
 			ifTrue: [ items last withSeparatorAfter ]
 			ifFalse: [
 				items add: ((aBuilder item: each contents asSymbol)
+								keyText: each keyText;
 								selector: each selector;
 								target: each target;
 								arguments: each arguments;
@@ -20,4 +22,4 @@ sourceCodeMenu: aBuilder
 	(aBuilder item: #'lock this text area')
 			selector: #lockTextArea;
 			target: aBuilder model;
-			order: 100.
+			order: 0.

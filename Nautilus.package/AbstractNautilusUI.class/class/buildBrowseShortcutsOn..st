@@ -1,6 +1,6 @@
 shortcuts
 buildBrowseShortcutsOn: aBuilder
-<keymap>
+	<keymap>
 
 	(aBuilder shortcut: #browseSenders)
 		category: #NautilusGlobalShortcuts

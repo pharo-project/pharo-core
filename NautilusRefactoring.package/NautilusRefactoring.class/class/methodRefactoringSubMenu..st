@@ -1,6 +1,6 @@
 menu
 methodRefactoringSubMenu: aBuilder
-	<nautilusMethodMenu>
+	<nautilusGlobalMethodMenu>
 	| target selectedMethod selectedMethods |
 	
 	target := aBuilder model.
