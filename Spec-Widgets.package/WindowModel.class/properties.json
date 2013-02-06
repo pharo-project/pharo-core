@@ -8,7 +8,8 @@
 	"instvars" : [
 		"model",
 		"initialExtent",
-		"title" ],
+		"title",
+		"isClosedHolder" ],
 	"name" : "WindowModel",
 	"pools" : [
 		 ],

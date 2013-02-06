@@ -1,7 +1,7 @@
 *Tools-Browser
 browseMessageList: messageList name: labelString autoSelect: autoSelectString
 	"Create and schedule a MessageSet browser on the message list."
-	| title aSize methods |
+	| title methods |
 	
 	"Do not show trait methods"
 	methods := messageList reject: [ :each| each isFromTrait ].
@@ -12,7 +12,7 @@ browseMessageList: messageList name: labelString autoSelect: autoSelectString
 	methods size == 1
 		ifTrue: [ ^ methods first browse ].
 
-	title := labelString, ' [', aSize printString, ']'.
+	title := labelString, ' [', methods size printString, ']'.
 		
 	^ Smalltalk tools messageList
 		openMessageList: methods 

@@ -11,7 +11,7 @@
 		"giveFocusToNextFrom:" : "BenjaminVanRyseghem 8/2/2012 16:55",
 		"giveFocusToPreviousFrom:" : "BenjaminVanRyseghem 7/10/2012 16:26",
 		"initialExtent" : "BenjaminVanRyseghem 7/10/2012 16:21",
-		"initialize" : "BenjaminVanRyseghem 7/10/2012 15:29",
+		"initialize" : "AndreiChis 12/6/2012 17:54",
 		"isDisplayed" : "BenjaminVanRyseghem 7/13/2012 01:49",
 		"model" : "BenjaminVanRyseghem 7/10/2012 15:04",
 		"model:" : "BenjaminVanRyseghem 7/10/2012 15:17",
@@ -22,4 +22,6 @@
 		"rebuildWithSpecLayout:" : "BenjaminVanRyseghem 7/10/2012 15:43",
 		"title" : "BenjaminVanRyseghem 7/10/2012 15:18",
 		"title:" : "BenjaminVanRyseghem 8/2/2012 17:14",
-		"updateTitle" : "BenjaminVanRyseghem 7/10/2012 15:36" } }
+		"updateTitle" : "BenjaminVanRyseghem 7/10/2012 15:36",
+		"whenClosedDo:" : "AndreiChis 12/6/2012 17:55",
+		"windowIsClosing" : "AndreiChis 12/6/2012 17:55" } }

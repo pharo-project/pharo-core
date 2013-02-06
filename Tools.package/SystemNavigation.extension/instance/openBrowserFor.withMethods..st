@@ -1,6 +1,6 @@
 *Tools-Browser
 openBrowserFor: aLiteral withMethods: aCollection
-	"Create and schedule a message sender browser for aCollection which normally should come from a query based on aLiteral (snders, implementors...). This method is usefull to avoid to call twice allCallsOn: in certain occasion.
+	"Create and schedule a message sender browser for aCollection which normally should come from a query based on aLiteral (senders, implementors...). This method is usefull to avoid to call twice allCallsOn: in certain occasion.
 	For example, 
 		| sys |
 		sys := SystemNavigation new.

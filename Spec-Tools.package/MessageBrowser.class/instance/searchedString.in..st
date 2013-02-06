@@ -1,5 +1,7 @@
 text selection
 searchedString: searchedString in: aString
+	"Return the interval that corresponds to the portion of aString "
+	"This method takes care of finding complete match to searchedString. "
 	| string interval firstIndex |
 	
 	searchedString ifNil: [ ^ 0 to: 0 ].
@@ -12,27 +14,19 @@ searchedString: searchedString in: aString
 			list := searchedString subStrings: ':'.
 			list size = 1
 				ifTrue: [" binary selector "
-					firstIndex := 1.
-					[ firstIndex isZero not and: [ (string at: (firstIndex +1)) isAlphaNumeric ]]
-						whileTrue: [
-							firstIndex := string findString: searchedString startingAt: firstIndex+1.
-							firstIndex isZero
-								ifFalse: [ interval := firstIndex to: (firstIndex+searchedString size-1)]]]
-				ifFalse: [| lastIndex |
-					firstIndex := 1.
-					[ firstIndex isZero not and: [ (string at: (firstIndex +1)) isAlphaNumeric ]]
-						whileTrue: [
-							firstIndex := string findString: list first,':' startingAt: firstIndex+1.
-							firstIndex isZero
-								ifFalse: [ 
-									lastIndex := string findString: list last,':' startingAt: firstIndex+ (list first size -1).
-									interval := firstIndex to: (lastIndex + list last size)]]]]
+					firstIndex := self findFirstOccurrenceOf: searchedString in: string.
+					firstIndex isZero
+						ifFalse: [ interval := firstIndex to: (firstIndex+searchedString size-1) ] ] 
+					
+				ifFalse: [
+					| lastIndex |
+					firstIndex := self findFirstOccurrenceOf: list first, ':' in: string. 
+					firstIndex >0 ifTrue: [ 
+								lastIndex := string findString: list last,':' startingAt: firstIndex+ (list first size -1).
+								interval := firstIndex to: (lastIndex + list last size) ] ] ]
 		ifFalse: [
 			" unary selector "
-			firstIndex := 1.
-			[ firstIndex isZero not and: [ (string at: (firstIndex +1)) isAlphaNumeric ]]
-				whileTrue: [
-					firstIndex := string findString: searchedString startingAt: firstIndex +1.
-					firstIndex isZero
-						ifFalse: [ interval := firstIndex to: (firstIndex+searchedString size-1)]]].
+			firstIndex := self findFirstOccurrenceOf: searchedString in: string.
+			 firstIndex > 0
+						ifTrue: [ interval := firstIndex to: (firstIndex+searchedString size - 1) ] ].
 	^ interval
