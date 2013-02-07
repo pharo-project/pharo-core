@@ -3,7 +3,8 @@
 	"classinstvars" : [
 		"maxSize",
 		"cachedLastClasses",
-		"groups" ],
+		"groups",
+		"emptyCommentWarning" ],
 	"classvars" : [
 		"CommentPosition",
 		"HistoryMaxSize",

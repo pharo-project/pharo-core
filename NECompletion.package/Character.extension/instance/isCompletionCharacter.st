@@ -1,3 +1,3 @@
 *NECompletion
 isCompletionCharacter
-	^ self = $: or: [ self isAlphaNumeric ]
+	^ self isAlphaNumeric or: [ self = $: ]

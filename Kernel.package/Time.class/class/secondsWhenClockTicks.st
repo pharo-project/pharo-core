@@ -3,10 +3,9 @@ secondsWhenClockTicks
 
 	"waits for the moment when a new second begins"
 
-	| lastSecond delay |
+	| lastSecond |
 
-	delay :=  Delay forMilliseconds: 1.
 	lastSecond := self primSecondsClock.
-	[ lastSecond = self primSecondsClock ] whileTrue: [ delay wait ].
+	[ lastSecond = self primSecondsClock ] whileTrue: [ (Delay forMilliseconds: 1) wait ].
  
-	^ lastSecond + 1
+	^ lastSecond + 1 

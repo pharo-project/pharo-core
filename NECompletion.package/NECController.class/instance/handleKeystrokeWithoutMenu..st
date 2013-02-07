@@ -3,20 +3,17 @@ handleKeystrokeWithoutMenu: aKeyboardEvent
 
 	| isSpaceKey |
 	
-	self editor atCompletionPosition ifFalse: [ ^ false ]. 
-	
-	isSpaceKey := #(0 32 ) includes: aKeyboardEvent keyValue.
+	isSpaceKey := #(0 32) includes: aKeyboardEvent keyValue.
 	self stopCompletionDelay.
 
 	(NECPreferences popupShowWithShortcut matches: {aKeyboardEvent})
 		 ifTrue: [
 			self openMenu.
-			^ true ].
+			^true ].
 		
 	(self smartInputWithEvent: aKeyboardEvent )
-		ifNotNil: [ ^ true ].
-	
-	
+		ifNotNil: [ ^true ].
+
 	NECPreferences popupShowAutomatic ifTrue: [
 		(aKeyboardEvent anyModifierKeyPressed not 
 		and: [ aKeyboardEvent keyCharacter isCompletionCharacter ]) 
