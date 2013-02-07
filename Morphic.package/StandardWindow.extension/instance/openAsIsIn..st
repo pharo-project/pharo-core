@@ -1,4 +1,4 @@
-as yet unclassified
+*Morphic-Worlds
 openAsIsIn: aWorld
 	"Sad fixup for dodgy layout."
 

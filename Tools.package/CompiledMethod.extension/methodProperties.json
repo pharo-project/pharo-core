@@ -3,6 +3,9 @@
 		 },
 	"instance" : {
 		"browse" : "BenjaminVanRyseghem 1/23/2012 19:57",
+		"callers" : "CamilloBruni 1/30/2013 21:26",
 		"explorerContents" : "eem 5/15/2008 13:14",
 		"hasBreakpoint" : "emm 5/30/2002 09:22",
-		"inspectorClass" : "ar 9/27/2005 18:32" } }
+		"implementors" : "CamilloBruni 1/30/2013 21:26",
+		"inspectorClass" : "ar 9/27/2005 18:32",
+		"senders" : "CamilloBruni 1/30/2013 21:26" } }

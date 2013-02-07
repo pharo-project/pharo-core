@@ -1,0 +1,14 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"prefixMapping" ],
+	"name" : "MethodClassifier",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

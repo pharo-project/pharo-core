@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testInstalledMethodsWithIncorrectTrailerKind" : "MarianoMartinezPeck 8/24/2012 15:53",
+		"testInstalledMethodsWithIncorrectTrailerKind" : "MarcusDenker 2/4/2013 11:32",
 		"testInstanceSideMethodsWithNilKeyInLastLiteral" : "MarianoMartinezPeck 8/24/2012 11:31",
 		"testMethodsWithUnboundGlobals" : "MarcusDenker 7/12/2012 18:01",
 		"testObsoleteClasses" : "MarcusDenker 7/12/2012 18:01",

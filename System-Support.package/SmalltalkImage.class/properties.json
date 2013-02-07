@@ -5,6 +5,7 @@
 	"classvars" : [
 		"CheckChangesFileAvailability",
 		"CheckSourcesFileAvailability",
+		"CompilerClass",
 		"EndianCache",
 		"LastImagePath",
 		"LastQuitLogPosition",

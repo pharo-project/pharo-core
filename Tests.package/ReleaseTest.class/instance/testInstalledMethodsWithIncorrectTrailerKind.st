@@ -1,5 +1,6 @@
 testing
 testInstalledMethodsWithIncorrectTrailerKind
-
-	self assert: SystemNavigation new installedMethodsWithIncorrectTrailerKind isEmpty
+	| incorrectMethods |
+	incorrectMethods := SystemNavigation new installedMethodsWithIncorrectTrailerKind.
+	self assert: incorrectMethods isEmpty.
 	

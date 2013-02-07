@@ -1,7 +1,4 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7390:	FileDialogWindow answers wrong FileReference for selected file
-	http://code.google.com/p/pharo/issues/detail?id=7390
-
-Issue 7339:	Failing test: RPackageSetTest.testPolymorphicWithPackageInfo
-	http://code.google.com/p/pharo/issues/detail?id=7339'
+ ^ 'Issue 7414:	Make the default compiler a class var in SmalltalkImage
+	http://code.google.com/p/pharo/issues/detail?id=7414'

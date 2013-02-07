@@ -11,6 +11,7 @@
 		"initializeShutDownList" : "CamilloBruni 5/24/2012 15:03",
 		"initializeStartUpList" : "CamilloBruni 5/24/2012 15:03",
 		"new" : "",
+		"setCompiler:" : "MarcusDenker 2/4/2013 15:22",
 		"startUp:" : "HenrikSperreJohansen 9/25/2012 14:36",
 		"wordSize" : "IgorStasenko 8/17/2011 15:04" },
 	"instance" : {
@@ -65,6 +66,8 @@
 		"closeSourceFiles" : "CamilloBruni 8/1/2012 16:02",
 		"commandLine" : "",
 		"compactClassesArray" : "",
+		"compiler" : "MarcusDenker 2/4/2013 15:20",
+		"compilerClass" : "MarcusDenker 2/4/2013 15:22",
 		"condenseChanges" : "SeanDeNigris 7/12/2012 08:44",
 		"condenseSources" : "MarcusDenker 7/10/2012 10:38",
 		"createStackOverflow" : "",
