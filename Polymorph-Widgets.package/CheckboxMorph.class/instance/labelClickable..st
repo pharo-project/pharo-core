@@ -3,10 +3,10 @@ labelClickable: aBoolean
 
 	aBoolean
 		ifTrue: [ self 
-					on: #click 
+					on: #mouseDown 
 					send: #toggleSelected 
 					to: self ]
 		ifFalse:[ self
-					on: #click 
+					on: #mouseDown 
 					send: nil 
 					to: nil ]

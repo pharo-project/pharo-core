@@ -1,5 +1,5 @@
 *Compiler-Kernel
 compilerClass
 	^self methodClass 
-		ifNil: [Compiler] 
+		ifNil: [Smalltalk compilerClass] 
 		ifNotNil: [:class | class compilerClass].
