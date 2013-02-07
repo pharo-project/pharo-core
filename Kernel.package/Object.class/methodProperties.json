@@ -1,7 +1,5 @@
 {
 	"class" : {
-		"fileReaderServicesForDirectory:" : "nk 6/12/2004 11:41",
-		"fileReaderServicesForFile:suffix:" : "nk 6/12/2004 11:30",
 		"flushDependents" : "ar 2/11/2001 02:00",
 		"flushEvents" : "rw 2/10/2002 13:09",
 		"howToModifyPrimitives" : "",

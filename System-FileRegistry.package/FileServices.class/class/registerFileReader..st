@@ -1,4 +1,4 @@
-accessing
+adding
 registerFileReader: aProviderClass
 	"register the given class as providing services for reading files"
 

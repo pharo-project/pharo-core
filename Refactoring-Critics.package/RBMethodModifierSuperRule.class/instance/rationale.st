@@ -1,3 +1,3 @@
 accessing
 rationale
-	^ 'Checks that a methods marked with <modifier: #super> are always called when overridden.'
+	^ 'Checks that methods marked with <modifier: #super> are always called when overridden.'

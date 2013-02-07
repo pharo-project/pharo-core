@@ -10,7 +10,8 @@
 		"localVars",
 		"includeVariables",
 		"includeSelectors",
-		"classVars" ],
+		"classVars",
+		"listLimit" ],
 	"name" : "NECUntypedModel",
 	"pools" : [
 		 ],

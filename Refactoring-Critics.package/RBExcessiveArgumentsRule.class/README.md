@@ -1,3 +1,5 @@
-This smell arises when a method contains a large number of argument (five or more). This  can indicate that a new object should be created to wrap the numerous parameters. If the arguments are used in multiple methods this is a clear indication for the creation of an object representing the context in which the computation should occur. 
+See my #rationale.
+
+If the arguments are used in multiple methods this is a clear indication for the creation of an object representing the context in which the computation should occur. 
 	
-	The defined number of arguments can be edited in RBExcessiveArgumentsRule>>argumentsCount.
+The defined number of arguments can be edited in #argumentsCount.

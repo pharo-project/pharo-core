@@ -1,4 +1,4 @@
-filein/out
+*Tools-FileList
 browseChangesFile: fullName
 	"Browse the selected file in fileIn format."
 

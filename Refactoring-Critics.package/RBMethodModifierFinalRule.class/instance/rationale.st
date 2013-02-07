@@ -1,3 +1,3 @@
 accessing
 rationale
-	^ 'Checks that a methods marked with <modifier: #final> is never overridden.'
+	^ 'Checks that methods marked with <modifier: #final> is never overridden.'

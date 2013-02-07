@@ -1,1 +1,2 @@
-NullStream is a stream generating and consuming an infinite number of elements. It can be used as an equivalent of /dev/null or for performance benchmarks.
+I am a stream that does nothing i.e. generates and consumes an infinite number of elements (NullObject pattern). I can be used as an equivalent of /dev/null (for example 
+a logging in off mode) or for performance benchmarks.

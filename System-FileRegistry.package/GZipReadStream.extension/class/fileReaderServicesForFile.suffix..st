@@ -1,5 +1,6 @@
 *System-FileRegistry
 fileReaderServicesForFile: fullName suffix: suffix
+	<fileService>
 	| services |
 	suffix = 'gz' | (suffix = '*')
 		ifFalse: [ ^ #() ].

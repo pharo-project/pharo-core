@@ -1,5 +1,6 @@
 *System-FileRegistry
 fileReaderServicesForFile: fullName suffix: suffix
+	<fileService>
 	"Don't offer to compress already-compressed files
 	sjc 3-May 2003-added jpeg extension"
 

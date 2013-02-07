@@ -1,5 +1,6 @@
 *Tools-FileList
 fileReaderServicesForFile: fullName suffix: suffix
+	<fileService>
 	"Answer services for the given file"
 
 	^ ((self isSourceFileSuffix: suffix) or: [ suffix = '*' ])

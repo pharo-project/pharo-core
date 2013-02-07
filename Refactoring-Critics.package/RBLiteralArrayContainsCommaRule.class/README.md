@@ -1,1 +1,1 @@
-This rule looks strange to me.
+See my #rationale.

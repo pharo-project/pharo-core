@@ -1,1 +1,1 @@
-This smell arises when a class is not referenced either directly or indirectly by a symbol. If a class is not referenced, it may be an abstract class or it may be removed.
+See my #rationale.

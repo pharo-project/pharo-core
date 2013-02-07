@@ -1,3 +1,3 @@
 accessing
 rationale
-	^ 'Dot not understand this rule'
+	^ 'Do not understand this rule'

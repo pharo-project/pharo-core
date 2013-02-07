@@ -1,4 +1,4 @@
-accessing
+initialize-release
 initialize
 	"FileServices initialize"
 	Smalltalk globals allClassesDo: [ :aClass |

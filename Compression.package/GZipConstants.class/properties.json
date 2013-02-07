@@ -12,7 +12,7 @@
 		"GZipMagic",
 		"GZipNameFlag",
 		"GZipReservedFlags" ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		 ],
 	"name" : "GZipConstants",

@@ -1,16 +1,9 @@
 {
 	"class" : {
 		"clearVersionInfo" : "avi 1/19/2004 13:13",
-		"extension" : "cwp 8/7/2003 18:49",
-		"fileReaderServicesForFile:suffix:" : "nk 6/8/2004 17:29",
-		"initialize" : "avi 3/7/2004 14:51",
 		"installFileNamed:" : "cwp 8/7/2003 18:13",
 		"installStream:" : "cwp 8/7/2003 17:56",
-		"loadVersionFile:" : "cwp 8/7/2003 18:54",
 		"on:" : "cwp 8/7/2003 17:56",
-		"registerForFileList" : "IgorStasenko 4/15/2011 17:17",
-		"serviceLoadVersion" : "tbn 8/11/2010 10:20",
-		"services" : "ab 8/8/2003 18:01",
 		"storeVersionInfo:" : "cwp 8/11/2003 23:49",
 		"unloadMonticello" : "EstebanLorenzano 7/27/2012 18:21",
 		"versionInfo" : "avi 2/17/2004 02:49" },

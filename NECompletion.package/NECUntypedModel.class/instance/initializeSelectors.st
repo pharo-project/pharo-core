@@ -16,4 +16,4 @@ initializeSelectors
 				[ selectors add: (NECSelectorEntry 
 						contents: each
 						type: #selector).
-				selectors size > 100 ifTrue: [ ^ self ] ] ]
+				selectors size > self listLimit ifTrue: [ ^ self ]]]

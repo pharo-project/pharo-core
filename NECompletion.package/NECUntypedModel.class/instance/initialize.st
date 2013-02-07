@@ -5,4 +5,5 @@ initialize
 	instVars := SortedCollection new.
 	classVars := SortedCollection new.
 	includeSelectors := true.
-	includeVariables := true
+	includeVariables := true.
+	listLimit := 100.

@@ -1,3 +1,3 @@
 accessing
 rationale
-	^ 'Checks that all instance variables are both read and written. If an instance variable is only read, you can replace all of the reads with nil, since it couldn''t have been assigned a value. If the variable is only written, then we don''t need to store the result since we never use it. This check does not work for the data model classes since they use the instVarAt:put: messages to set instance variables.'
+	^ 'Checks that all instance variables are both read and written. If an instance variable is only read, you can replace all of the reads with nil, since it couldn''t have been assigned a value. If the variable is only written, then we don''t need to store the result since we never use it. This check does not work for the data model classes, or other classes which use the instVarXyz:put: messages to set instance variables.'

@@ -1,4 +1,4 @@
-accessing
+removing
 removeObsolete
 	"FileServices removeObsolete"
 	self registeredFileReaderClasses copy 

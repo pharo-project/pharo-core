@@ -2,7 +2,8 @@ accessing
 allRegisteredServices
 	"self allRegisteredServices"
 
-	| col |
-	col := OrderedCollection new.
-	self registeredFileReaderClasses do: [:each | col addAll: (each services)].
-	^ col
+	| allServices |
+	allServices := OrderedCollection new.
+	self registeredFileReaderClasses do: [:each | 
+		allServices addAll: (each services)].
+	^ allServices

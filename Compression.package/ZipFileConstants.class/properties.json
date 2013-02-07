@@ -23,7 +23,7 @@
 		"IfaBinaryFile",
 		"IfaTextFile",
 		"LocalFileHeaderSignature" ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		 ],
 	"name" : "ZipFileConstants",

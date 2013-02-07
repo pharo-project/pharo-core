@@ -1,3 +1,3 @@
 accessing
 rationale
-	^ 'Checks that a methods marked with <modifier: #override> overrides an actual superclass method.'
+	^ 'Checks that a method marked with <modifier: #override> overrides an actual superclass method.'
