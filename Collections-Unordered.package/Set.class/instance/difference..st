@@ -1,6 +1,7 @@
 enumerating
 difference: aCollection
-	"Answer the set theoretic difference of two collections. Optimized version for Sets where no intermediate Set is necessary"
+	"Answer the set theoretic difference of two collections. 
+	Optimized version for Sets where no intermediate Set is necessary"
 
 	| set|
 	

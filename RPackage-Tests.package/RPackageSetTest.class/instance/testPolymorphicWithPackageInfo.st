@@ -8,9 +8,21 @@ testPolymorphicWithPackageInfo
 	packageSet := RPackageSet named: 'Kernel'.
 	packageInfo := PackageInfo named: 'Kernel'.
 	
-	self assert: (self equalElementsBetween: packageSet classes and: packageInfo classes). 
-	self assert: (self equalElementsBetween: packageSet systemCategories and: packageInfo systemCategories).
-	self assert: (self equalElementsBetween: packageSet methods and: packageInfo methods asSet). "PackageInfo includes duplicates"
-	self assert: (self equalElementsBetween: packageSet overriddenMethods and: packageInfo overriddenMethods).
-	self assert: (self equalElementsBetween: packageSet definedClasses and: packageInfo definedClasses).
-	self assert: (self equalElementsBetween: packageSet extensionMethods and: packageInfo extensionMethods).
+	self 
+		comparePackageSet: packageSet classes 
+		withPackageInfo: packageInfo classes.
+	self 
+		comparePackageSet: packageSet systemCategories 
+		withPackageInfo: packageInfo systemCategories.	
+	self 
+		comparePackageSet: packageSet methods asSet
+		withPackageInfo: packageInfo methods asSet. "PackageInfo includes duplicates"
+	self 
+		comparePackageSet: packageSet overriddenMethods
+		 withPackageInfo: packageInfo overriddenMethods.
+	self 
+		comparePackageSet: packageSet definedClasses 
+		withPackageInfo: packageInfo definedClasses.
+	self 
+		comparePackageSet: packageSet extensionMethods 
+		withPackageInfo: packageInfo extensionMethods.

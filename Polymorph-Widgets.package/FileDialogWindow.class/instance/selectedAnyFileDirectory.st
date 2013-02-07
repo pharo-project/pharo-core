@@ -1,11 +1,10 @@
 as yet unclassified
 selectedAnyFileDirectory
-	"Answer the file directory for the selected file or, if none
-	or not a directory, the selected file directory."
+	"If a directory is selected in the 'File' pane, return that. Otherwise, return the directory selected in 'Directory pane (i.e. the tree)"
 
-	^self selectedFileEntry
-		ifNil: [self selectedFileDirectory]
-		ifNotNil: [:fe | 
-			self selectedFileDirectory ifNotNil: [:fd |
-					fe isDirectory ifTrue: [
-						fd / fe name]]]
+	| selectedFile isDirectorySelected |
+	selectedFile := self selectedFileEntry.
+	isDirectorySelected := selectedFile isNil not and: [ selectedFile isDirectory ].
+	^ isDirectorySelected
+			ifTrue: [ selectedFile asFileReference ]
+			ifFalse: [ self selectedFileDirectory ].
