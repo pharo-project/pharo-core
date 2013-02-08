@@ -1,4 +1,4 @@
-scrolling
+scroll bar events
 vScrollBarValue: scrollValue
 	super vScrollBarValue: scrollValue.
 	textMorph ifNotNil: [textMorph selectionChanged].

@@ -1,7 +1,7 @@
 item creation
 buildMethodsList
 	
-	^ methodsList :=  PluggableIconListMorph new
+	methodsList :=  PluggableIconListMorph new
 						basicWrapSelector: #methodWrapper:;
 						keystrokeSelector: #keyPressedOnElement:; 
 						getIconSelector: #methodIconFor:;
@@ -18,8 +18,11 @@ buildMethodsList
 						getSelectionListSelector: #methodSelectionAt:;
 						setSelectionListSelector: #methodSelectionAt:put:;
 						getMenuSelector: #elementsMenu:shifted:;
-						beMultipleSelection;
-						
-						basicGetListElementSelector: #getMethodItem:;
-						
-						attachKeymapCategory: #NautilusGlobalShortcuts targetting: self model.
+						beMultipleSelection.
+
+		Nautilus populateMethodList
+			ifTrue: [ methodsList getListElementSelector: #getMethodItem: ]
+			ifFalse: [ methodsList basicGetListElementSelector: #getMethodItem: ].		
+		methodsList attachKeymapCategory: #NautilusGlobalShortcuts targetting: self model.
+		
+		^ methodsList.

@@ -1,0 +1,4 @@
+*StartupPreferences
+isExportable
+
+	^ true

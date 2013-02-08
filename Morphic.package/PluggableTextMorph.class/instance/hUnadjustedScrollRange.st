@@ -1,4 +1,4 @@
-scrolling
+scroll bar events
 hUnadjustedScrollRange
 "Return the width of the widest item in the list"
 

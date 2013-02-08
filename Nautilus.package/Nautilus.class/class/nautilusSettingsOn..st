@@ -31,4 +31,8 @@ nautilusSettingsOn: aBuilder
 Put a negative value to disable' translated.
 			(aBuilder setting: #emptyCommentWarning)
 				label: 'Enable/disable warning for empty comments' translated;
-				description: 'Enable/disable the warning for empty comments. CAUTION! To have comments in your classes is highly recomended' translated. ]
+				description: 'Enable/disable the warning for empty comments. CAUTION! To have comments in your classes is highly recomended' translated. 
+			(aBuilder setting: #populateMethodList)
+				label: 'Populate the method list at opening ?' translated;
+				default: self defaultPopulateMethodList;
+				description: 'If true, the browser may be a bit slower to open on big classes. If false, you will need an extra click to access a method' translated.]

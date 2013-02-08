@@ -1,4 +1,4 @@
-scrolling
+scroll bar events
 hScrollBarValue: scrollValue
 	super hScrollBarValue: scrollValue.
 	textMorph ifNotNil: [textMorph selectionChanged].

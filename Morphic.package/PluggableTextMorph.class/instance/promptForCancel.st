@@ -1,4 +1,4 @@
-unaccepted edits
+transcript
 promptForCancel
 	"Ask for the appropriate action to take when unaccepted contents
 	would be overwritten."

@@ -11,4 +11,5 @@ showInstance: aBoolean
 						ifTrue: [self selectedClass: class theNonMetaClass ]
 						ifFalse: [self selectedClass: class theMetaClass ]].
 			self update.
+			self changed: #instanceButtonState.
 			self changed: #instanceButtonLabel ]

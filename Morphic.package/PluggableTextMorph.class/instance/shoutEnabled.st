@@ -1,3 +1,3 @@
-styling
+settings
 shoutEnabled
 	^ self class shoutEnabled

@@ -1,4 +1,4 @@
-settings
+private
 defaultCommentPosition
 
 	^ #right

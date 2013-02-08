@@ -1,4 +1,4 @@
-updating
+unaccepted edits
 update: aSymbol 
 	aSymbol ifNil: [^self].
 	(aSymbol == getColorSelector)

@@ -1,4 +1,4 @@
-private
+updating
 configureTextMorph: aTextMorph
 	"I prepare a text morph for use"
 	aTextMorph setEditView: self.

@@ -1,4 +1,4 @@
-scrolling
+scroll bar events
 scrollBy: delta
 	"Move the contents in the direction delta."
 	

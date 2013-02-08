@@ -19,17 +19,21 @@ menu: menu shifted: b
 				argument: current.
 			menu addLine.
 			current menu: menu shifted: b].
-	menu addLine.
 	self selectedNode
-		ifNotNil: [:current | 
+		ifNotNil: [:current |
 			current settingDeclaration hasDefault
-				ifTrue: [menu
+				ifTrue: [
+					menu addLine.
+					menu
 						add: 'Set to default (d)' translated
 						target: self
 						selector: #menuSetToDefault:
 						argument: current].
 			current settingDeclaration hasEditableList
-				ifTrue: [menu
+				ifTrue: [
+					current settingDeclaration hasDefault
+						ifFalse: [  menu addLine ].
+					menu
 						add: 'Empty list (e)' translated
 						target: self
 						selector: #menuEmptyList:

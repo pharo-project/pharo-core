@@ -1,10 +1,11 @@
 {
 	"category" : "Nautilus",
 	"classinstvars" : [
-		"maxSize",
-		"cachedLastClasses",
+		"populateMethodList",
+		"emptyCommentWarning",
 		"groups",
-		"emptyCommentWarning" ],
+		"cachedLastClasses",
+		"maxSize" ],
 	"classvars" : [
 		"CommentPosition",
 		"HistoryMaxSize",

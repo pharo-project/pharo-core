@@ -1,3 +1,3 @@
-settings
+scrolling
 showTextEditingState
 	^ self class showTextEditingState

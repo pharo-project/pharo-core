@@ -1,4 +1,4 @@
-unaccepted edits
+transcript
 hasEditingConflicts: aBoolean
 
 	hasEditingConflicts := aBoolean.
