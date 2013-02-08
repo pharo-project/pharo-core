@@ -9,6 +9,6 @@ parsePath: stream
 			ifFalse: [
 				segment = '..' 
 					ifTrue: [ self removeLastPathSegment ]
-					ifFalse: [ self addPathSegment: (ZnResourceMetaUtils decodePercent: segment) ] ].
+					ifFalse: [ self addPathSegment: (self decodePercent: segment) ] ].
 		((stream peekFor: $/) and: [ stream atEnd ])
 			ifTrue: [ self closePath ] ]

@@ -6,7 +6,7 @@ testParsingSimple
 	self assert: url host = 'www.example.com'.
 	self assert: url port = 8080.
 	self assert: url hasPath.
-	self assert: url isFile.
+	self assert: url isFilePath.
 	self assert: url hasQuery.
 	self assert: url hasFragment.
 	self assert: url fragment = 'm1'

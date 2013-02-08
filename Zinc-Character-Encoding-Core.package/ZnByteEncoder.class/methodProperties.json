@@ -5,9 +5,8 @@
 		"cp1253Mapping" : "SvenVanCaekenberghe 12/15/2012 19:35",
 		"generateByteToUnicodeSpec:" : "SvenVanCaekenberghe 12/15/2012 20:02",
 		"handlesEncoding:" : "SvenVanCaekenberghe 1/25/2011 13:02",
-		"initialize" : "SvenVanCaekenberghe 1/25/2011 12:26",
-		"initializeByteTextConverters" : "SvenVanCaekenberghe 12/15/2012 19:59",
-		"initializeEncoder:using:" : "SvenVanCaekenberghe 1/25/2011 12:47",
+		"initialize" : "SvenVanCaekenberghe 1/15/2013 17:03",
+		"initializeByteTextConverters" : "SvenVanCaekenberghe 1/15/2013 17:01",
 		"iso885915Mapping" : "SvenVanCaekenberghe 12/15/2012 19:37",
 		"iso88591Mapping" : "SvenVanCaekenberghe 12/15/2012 19:36",
 		"iso88592Mapping" : "SvenVanCaekenberghe 12/15/2012 19:36",
@@ -16,7 +15,7 @@
 		"macRomanMapping" : "SvenVanCaekenberghe 12/15/2012 19:38",
 		"mappingToIdentifiers" : "SvenVanCaekenberghe 12/15/2012 21:38",
 		"newForEncoding:" : "SvenVanCaekenberghe 12/15/2012 21:58",
-		"parseUnicodeOrgSpec:" : "SvenVanCaekenberghe 12/15/2012 20:03",
+		"parseUnicodeOrgSpec:" : "SvenVanCaekenberghe 1/15/2013 14:54",
 		"tablesFromSpec:" : "SvenVanCaekenberghe 12/15/2012 21:31" },
 	"instance" : {
 		"beLenient" : "SvenVanCaekenberghe 12/17/2012 15:40",
@@ -26,5 +25,5 @@
 		"initialize" : "SvenVanCaekenberghe 12/17/2012 14:46",
 		"nextFromStream:" : "SvenVanCaekenberghe 12/17/2012 15:38",
 		"nextPut:toStream:" : "SvenVanCaekenberghe 12/17/2012 15:39",
-		"printOn:" : "SvenVanCaekenberghe 12/17/2012 15:10",
+		"printOn:" : "SvenVanCaekenberghe 1/15/2013 16:58",
 		"unicodeToByte:" : "SvenVanCaekenberghe 1/25/2011 12:31" } }

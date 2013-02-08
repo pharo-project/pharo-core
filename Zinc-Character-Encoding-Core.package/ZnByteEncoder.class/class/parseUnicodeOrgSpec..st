@@ -5,7 +5,7 @@ parseUnicodeOrgSpec: url
 	
 	| mapping |
 	mapping := Dictionary new: 256.
-	(ZnClient new get: url) linesDo: [ :each |
+	url asZnUrl retrieveContents linesDo: [ :each |
 		(each isEmpty or: [ each beginsWith: '#' ])
 			ifFalse: [ | tokens hexReader |
 				hexReader := [ :string | Integer readFrom: (string readStream skip: 2; yourself) base: 16 ].

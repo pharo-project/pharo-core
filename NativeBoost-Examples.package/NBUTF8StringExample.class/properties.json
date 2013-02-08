@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "IgorStasenko 8/8/2011 17:29",
+	"instvars" : [
+		"address" ],
+	"name" : "NBUTF8StringExample",
+	"pools" : [
+		"AJx86Registers" ],
+	"super" : "NBExternalType",
+	"type" : "normal" }

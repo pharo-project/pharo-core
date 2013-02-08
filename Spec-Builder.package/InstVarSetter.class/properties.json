@@ -1,0 +1,21 @@
+{
+	"category" : "Spec-Builder-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"list",
+		"picklist",
+		"text",
+		"okCancelToolbar",
+		"descriptionHolder",
+		"addButton",
+		"removeButton",
+		"textBindings" ],
+	"name" : "InstVarSetter",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }

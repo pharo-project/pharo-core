@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Examples",
+	"classinstvars" : [
+		"printFormat" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NBCPrinter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

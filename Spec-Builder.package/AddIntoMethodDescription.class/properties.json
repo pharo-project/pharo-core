@@ -1,0 +1,16 @@
+{
+	"category" : "Spec-Builder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"code",
+		"order",
+		"selector" ],
+	"name" : "AddIntoMethodDescription",
+	"pools" : [
+		 ],
+	"super" : "AbstractDescription",
+	"type" : "normal" }

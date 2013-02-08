@@ -1,0 +1,19 @@
+{
+	"category" : "Spec-Builder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"addClassDescription",
+		"addInstVarDescriptions",
+		"addMethodDescriptions",
+		"addIntoMethodDescriptions",
+		"specDescription",
+		"superclass" ],
+	"name" : "ComposableModelDescription",
+	"pools" : [
+		 ],
+	"super" : "AbstractDescription",
+	"type" : "normal" }

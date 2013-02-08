@@ -1,5 +1,5 @@
 accessing-path
 directory
-	^ self isDirectory
+	^ self isDirectoryPath
 		ifTrue: [ self path ]
 		ifFalse: [ self joinSegments: segments allButLast ]

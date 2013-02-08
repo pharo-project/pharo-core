@@ -5,7 +5,7 @@ parseFrom: string defaultScheme: defaultScheme
 	end := string size.
 	(index := string indexOf: $#) > 0
 		ifTrue: [ 
-			self fragment: (ZnResourceMetaUtils decodePercent: (string copyFrom: index + 1 to: end)).
+			self fragment: (self decodePercent: (string copyFrom: index + 1 to: end)).
 			end := index - 1 ].
 	(index := string indexOf: $?) > 0
 		ifTrue: [
@@ -21,8 +21,8 @@ parseFrom: string defaultScheme: defaultScheme
 		ifTrue: [  
 			(index := string indexOf: $/ startingAt: start) > 0
 				ifTrue: [
-					self parseAuthority: (ReadStream on: string from: start to: index - 1).
+					self parseAuthority: string from: start to: index - 1.
 					start := index ]
 				ifFalse: [ 
-					^ self parseAuthority: (ReadStream on: string from: start to: end) ] ].
+					^ self parseAuthority: string from: start to: end ] ].
 	self parsePath: (ReadStream on: string from: start to: end)

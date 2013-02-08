@@ -1,0 +1,19 @@
+{
+	"category" : "Spec-Builder-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"classNameLabel",
+		"classNameTextField",
+		"categoryLabel",
+		"categoryField",
+		"toolbar",
+		"descriptionHolder" ],
+	"name" : "ClassNameSetter",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }

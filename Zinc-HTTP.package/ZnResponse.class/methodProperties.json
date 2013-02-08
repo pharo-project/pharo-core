@@ -1,15 +1,15 @@
 {
 	"class" : {
-		"badRequest:" : "NickAger 5/10/2011 09:00",
-		"created:" : "NickAger 5/10/2011 09:01",
-		"methodNotAllowed:" : "SvenVanCaekenberghe 8/18/2011 12:44",
-		"notFound:" : "NickAger 5/10/2011 08:59",
+		"badRequest:" : "SvenVanCaekenberghe 1/6/2013 22:47",
+		"created:" : "SvenVanCaekenberghe 1/6/2013 22:47",
+		"methodNotAllowed:" : "SvenVanCaekenberghe 1/6/2013 22:47",
+		"notFound:" : "SvenVanCaekenberghe 1/6/2013 22:48",
 		"notModified" : "PaulDeBruicker 5/12/2012 09:54",
-		"ok:" : "NickAger 5/10/2011 09:01",
-		"redirect:" : "NickAger 5/10/2011 09:01",
-		"serverError:" : "NickAger 5/10/2011 09:02",
+		"ok:" : "SvenVanCaekenberghe 1/6/2013 22:39",
+		"redirect:" : "SvenVanCaekenberghe 1/6/2013 22:48",
+		"serverError:" : "SvenVanCaekenberghe 1/6/2013 22:48",
 		"unauthorized" : "MattKennedy 9/30/2010 15:46",
-		"unauthorized:" : "NickAger 5/10/2011 09:03" },
+		"unauthorized:" : "SvenVanCaekenberghe 1/6/2013 22:48" },
 	"instance" : {
 		"addCookie:" : "SvenVanCaekenberghe 8/30/2011 21:44",
 		"code" : "SvenVanCaekenberghe 9/16/2010 20:44",

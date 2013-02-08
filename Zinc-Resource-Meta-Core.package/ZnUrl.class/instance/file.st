@@ -1,5 +1,5 @@
 accessing-path
 file
-	^ self isDirectory
-		ifTrue: [ false ]
+	^ self isDirectoryPath
+		ifTrue: [ '' ]
 		ifFalse: [ segments last ]

@@ -11,7 +11,9 @@
 		"port",
 		"segments",
 		"query",
-		"fragment" ],
+		"fragment",
+		"username",
+		"password" ],
 	"name" : "ZnUrl",
 	"pools" : [
 		 ],

@@ -1,0 +1,2 @@
+test
+method	^ true

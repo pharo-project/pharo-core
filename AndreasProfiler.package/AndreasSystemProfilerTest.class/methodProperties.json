@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "AlexandreBergel 1/29/2013 10:45",
+		"testFullPrintOn" : "AlexandreBergel 1/29/2013 11:43",
+		"testGetNewTab" : "AlexandreBergel 1/29/2013 11:16",
+		"testPrintingTally" : "AlexandreBergel 1/29/2013 10:48",
+		"testPrintingTallyUninitialized" : "AlexandreBergel 1/29/2013 10:40",
+		"testSimple" : "AlexandreBergel 1/29/2013 10:14",
+		"testSimpleReport" : "AlexandreBergel 1/29/2013 11:45",
+		"testTallyTreePrint" : "AlexandreBergel 1/29/2013 11:08",
+		"testTallyTreePrintWithTab" : "AlexandreBergel 1/29/2013 11:10" } }

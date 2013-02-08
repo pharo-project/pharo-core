@@ -1,3 +1,3 @@
 testing
 isFile
-	^ self isDirectory not
+	^ scheme = #file

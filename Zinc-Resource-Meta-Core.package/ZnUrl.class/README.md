@@ -1,17 +1,19 @@
-I am ZnUrl, an implementation of an interpreted HTTP(S), ws(s) or file URL/URI. 
+I am ZnUrl, an implementation of an interpreted URL/URI.
 URLs are an element used in describing resources, more specifically to identify them.
 
 I consist of the following parts:
-  - scheme - either #http, #https, #ws, #wws, #file or nil
+  - scheme - like #http, #https, #ws, #wws, #file or nil
   - host - hostname string or nil
   - port - port integer or nil
   - segments - collection of path segments, ends with #/ for directories
   - query - query dictionary or nil
   - fragment - fragment string or nil
+  - username - username string or nil
+  - password - password string or nil
 
 The syntax of my external representation informally looks like this
 
-  scheme://host:port/segments?query#fragment
+  scheme://username:password@host:port/segments?query#fragment
 
 I am most often created by parsing my external representation using either my #fromString: class method or by sending the #asZnUrl convenience method to a String. Using #asZnUrl helps in accepting both Strings and ZnUrls arguments.
 

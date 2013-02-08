@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "NBBasicExamples",
+	"pools" : [
+		"AJx86Registers" ],
+	"super" : "Object",
+	"type" : "normal" }

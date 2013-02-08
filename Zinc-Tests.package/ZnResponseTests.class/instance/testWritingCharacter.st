@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testWritingCharacter
 	| response string |
 	response := ZnResponse ok: (ZnEntity text: 'Okay').

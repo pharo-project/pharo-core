@@ -1,5 +1,3 @@
 accessing-query
 queryAt: key
-	^ self hasQuery
-		ifTrue: [ self query at: key ]
-		ifFalse: [ KeyNotFound signalFor: key printString ]
+	^ self queryAt: key ifAbsent: [ KeyNotFound signalFor: key printString ]

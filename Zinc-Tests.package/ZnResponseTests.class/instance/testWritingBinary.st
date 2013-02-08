@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testWritingBinary
 	| response bytes string |
 	response := ZnResponse ok: (ZnEntity text: 'Okay').

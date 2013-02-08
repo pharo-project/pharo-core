@@ -1,4 +1,4 @@
-private
+request handling
 handleRequest: request
 	"Handle request and return a response.
 	Do logging and timing. Set a dynamic variable referencing the server.
@@ -7,9 +7,10 @@ handleRequest: request
 	| response initialMilliseconds |
 	initialMilliseconds := Time millisecondClockValue.
 	ZnCurrentServerSession value: nil.
-	ZnCurrentServer value: self during: [ response := self handleRequestProtected: request ].
+	response := self handleRequestProtected: request.
 	request method = #HEAD
 		ifTrue: [ response clearEntity ].
 	self logRequest: request response: response started: initialMilliseconds.
-	ZnCurrentServerSession value ifNotNil: [ :session | self sessionManager setSession: session in: response ].
+	ZnCurrentServerSession value 
+		ifNotNil: [ :session | self sessionManager setSession: session in: response ].
 	^ response

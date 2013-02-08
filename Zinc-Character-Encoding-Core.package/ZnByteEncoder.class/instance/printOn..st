@@ -5,8 +5,5 @@ printOn: stream
 		nextPut: $(;
 		print: identifier.
 	strict
-		ifTrue: [ 
-			stream
-				space;
-				nextPutAll: 'strict' ].
+		ifTrue: [ stream nextPutAll: ' strict' ].
 	stream nextPut: $)

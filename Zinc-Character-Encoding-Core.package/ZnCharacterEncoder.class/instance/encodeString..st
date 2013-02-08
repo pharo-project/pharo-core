@@ -1,6 +1,6 @@
 convenience
 encodeString: string
-	"Encode string and return the resulting byte array".
+	"Encode string and return the resulting byte array"
 	
 	^ ByteArray streamContents: [ :stream |
 		string do: [ :each | 

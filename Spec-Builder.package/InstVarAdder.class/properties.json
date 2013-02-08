@@ -1,0 +1,21 @@
+{
+	"category" : "Spec-Builder-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"description",
+		"nameField",
+		"nameLabel",
+		"toolbar",
+		"typeField",
+		"typeLabel",
+		"typeChoice",
+		"selectedClass" ],
+	"name" : "InstVarAdder",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }

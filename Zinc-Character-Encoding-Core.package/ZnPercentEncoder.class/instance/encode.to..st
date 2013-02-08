@@ -12,4 +12,4 @@ encode: readStream to: writeStream
 					ifTrue: [ writeStream nextPut: byte asCharacter ]
 					ifFalse: [ 
 						writeStream nextPut: $%.
-						byte printOn: writeStream base: 16 ] ] ]
+						byte printOn: writeStream base: 16 showRadix: false ] ] ]

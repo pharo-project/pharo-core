@@ -1,8 +1,5 @@
 accessing
-scheme: symbol
-	symbol isNil 
+scheme: anObject
+	anObject isNil
 		ifTrue: [ scheme := nil ]
-		ifFalse: [ 
-			(#(http https ws wss file) includes: symbol) 
-				ifTrue: [ scheme := symbol asSymbol ]
-				ifFalse: [ (ZnUnknownScheme scheme: symbol) signal ] ]
+		ifFalse: [ scheme := anObject asSymbol ]

@@ -1,0 +1,14 @@
+{
+	"category" : "Spec-Builder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AbstractDescription",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

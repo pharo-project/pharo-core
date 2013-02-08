@@ -1,7 +1,9 @@
 accessing-query
 queryAddAll: keyedCollection
-	"Note that we use #at:add:"
-	
-	keyedCollection keysAndValuesDo: [ :key :value |
-		self queryAt: key add: value ].
-	^ keyedCollection 
+	"Note that we use #addAllMulti:"
+
+	keyedCollection isEmpty
+		ifFalse: [ 
+			query ifNil: [ query := ZnMultiValueDictionary new ].
+			query addAllMulti: keyedCollection ].
+	^ keyedCollection

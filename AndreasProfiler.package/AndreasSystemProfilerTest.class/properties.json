@@ -1,0 +1,14 @@
+{
+	"category" : "AndreasProfiler",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tally" ],
+	"name" : "AndreasSystemProfilerTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

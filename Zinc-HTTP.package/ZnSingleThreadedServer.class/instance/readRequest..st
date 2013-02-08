@@ -1,4 +1,4 @@
-private
+request handling
 readRequest: stream
 	"Read a request from stream.
 	We add a virtual header containing the remote IP address of the client"
