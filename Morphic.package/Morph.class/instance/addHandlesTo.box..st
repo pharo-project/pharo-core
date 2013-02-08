@@ -4,9 +4,9 @@ addHandlesTo: aHaloMorph box: box
 
 	
 	aHaloMorph haloBox: box.
-	HaloMorph  currentHaloSpecifications  do:
+	HaloMorph  currentHaloSpecifications do:
 		[:aSpec | | wantsIt aSelector | 
-			aSelector :=  aSpec addHandleSelector.
+			aSelector := aSpec addHandleSelector.
 			(wantsIt := self wantsHaloHandleWithSelector: aSelector inHalo: aHaloMorph)
 				ifTrue: [(#(addDupHandle:) includes: aSelector) 
 					ifTrue: [wantsIt := self preferredDuplicationHandleSelector = aSelector]].

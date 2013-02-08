@@ -8,5 +8,3 @@ addRecolorHandle: haloSpec
 	"innerTarget canSetColor ifTrue:"
 
 	recolorHandle := self addHandle: haloSpec on: #mouseUp send: #doRecolor:with: to: self.
-	recolorHandle on: #mouseUp send: #doRecolor:with: to: self
-
