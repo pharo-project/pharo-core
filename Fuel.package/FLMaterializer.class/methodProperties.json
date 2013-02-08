@@ -2,12 +2,14 @@
 	"class" : {
 		"currentVersion" : "MartinDias 5/18/2012 15:26",
 		"defaultSignature" : "MartinDias 10/6/2011 23:31",
+		"fileReaderServicesForFile:suffix:" : "CamilloBruni 2/3/2013 17:56",
 		"materializationFromFileNamed:" : "MarianoMartinezPeck 9/27/2011 17:14",
 		"materializationHeaderFromFileNamed:" : "MarianoMartinezPeck 7/28/2012 14:57",
 		"materializeFromByteArray:" : "MartinDias 9/9/2011 20:25",
 		"materializeFromFileNamed:" : "MarianoMartinezPeck 9/27/2011 17:15",
 		"materializeHeaderFromFileNamed:" : "MarianoMartinezPeck 7/28/2012 14:58",
-		"newDefault" : "MartinDias 9/10/2011 18:16" },
+		"newDefault" : "MartinDias 9/10/2011 18:16",
+		"serviceFuelMaterialize" : "CamilloBruni 2/3/2013 17:37" },
 	"instance" : {
 		"fuelAccept:" : "MartinDias 3/29/2012 03:05",
 		"initialize" : "MartinDias 1/7/2012 00:37",

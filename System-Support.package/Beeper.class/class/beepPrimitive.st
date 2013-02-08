@@ -6,5 +6,8 @@ beepPrimitive
 	since this method bypasses the current
 	registered playable entity."
 
-	SoundService soundEnabled 
-		ifTrue: [self primitiveBeep]
+	Smalltalk globals at: #SoundService 
+		ifPresent: [:soundService |
+			soundService soundEnabled 
+				ifTrue: [self primitiveBeep]]
+		ifAbsent: [self primitiveBeep].

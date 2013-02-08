@@ -82,7 +82,9 @@ privShrinkingProcessWith: additionalPackageNames
     Smalltalk organization removeEmptyCategories.
 
     WeakArray restartFinalizationProcess.
+    ContextPart initializePrimitiveSimulators.
     SmalltalkImage current fixObsoleteReferences.
+
 
     "UIManager default progressBarEnabled: true."
     "Smalltalk condenseChanges."

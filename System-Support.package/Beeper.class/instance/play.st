@@ -4,4 +4,5 @@ play
 	by sending beep to the default sound service.
 	The sound system will check if sounds are enabled."
 
-	SoundService default new beep
+	Smalltalk globals at: #SoundService ifPresent: [:soundService |
+		soundService default new beep]
