@@ -5,4 +5,4 @@ pasteRecent
 	| clipping |
 	(clipping := Clipboard chooseRecentClipping) ifNil: [^ self].
 	Clipboard clipboardText: clipping.
-	^ self handleEdit: [textMorph editor paste]
+	self paste.
