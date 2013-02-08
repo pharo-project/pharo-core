@@ -4,7 +4,7 @@
 		"cleanUpForRelease" : "MarcusDenker 11/16/2012 17:01" },
 	"instance" : {
 		"classesForCleanUpInProduction" : "MarcusDenker 11/16/2012 16:30",
-		"cleanUpForProduction" : "MarcusDenker 11/16/2012 16:34",
+		"cleanUpForProduction" : "MarcusDenker 2/7/2013 10:35",
 		"cleanUpForRelease" : "md 11/19/2012 10:27",
 		"cleanUpMethods" : "MarcusDenker 12/21/2012 12:01",
 		"fixObsoleteReferences" : "MarcusDenker 11/16/2012 16:32",

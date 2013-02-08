@@ -1,3 +1,3 @@
 settings
-setCompiler: aClass
+compilerClass: aClass
 	CompilerClass := aClass

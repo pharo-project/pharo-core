@@ -17,8 +17,6 @@ cleanUpForProduction
 	Smalltalk globals at: #SUnitUnloader ifPresent:[ :unloader | unloader new unloadAll  ].
 	(MCPackage named: 'Announcements-Help') unload.
 	(MCPackage named: 'Regex-Help') unload.
-	(MCPackage named: 'HelpSystem-Core') unload.
-	(MCPackage named: 'FixUnderscores') unload.
 	(MCPackage named: 'Deprecated20') unload.
 	(MCPackage named: 'ScriptLoader20') unload.	
 	self cleanUpForRelease.

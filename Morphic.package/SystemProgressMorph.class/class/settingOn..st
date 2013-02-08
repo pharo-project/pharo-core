@@ -2,6 +2,7 @@ settings
 settingOn: aBuilder
 	<systemsettings>
 	(aBuilder group: #morphic)
+		label: 'Morphic';
 		with: [
 			(aBuilder group: #progress)
 				label: 'Progress' translated;
