@@ -1,18 +1,15 @@
 archive operations
 addTree: aFileNameOrDirectory removingFirstCharacters: n match: aBlock
-	| dir fullPath relativePath |
-	dir := (aFileNameOrDirectory isString)
-		ifTrue: [ aFileNameOrDirectory asFileReference ]
-		ifFalse: [ aFileNameOrDirectory ].
-	fullPath := dir pathName, dir slash.
-	relativePath := fullPath copyFrom: n + 1 to: fullPath size.
-	(dir entries select: [ :entry | aBlock value: entry])
-		do: [ :ea | | fullName newMember |
-		fullName := fullPath, ea name.
-		newMember := ea isDirectory
-				ifTrue: [ self memberClass newFromDirectory: fullName ]
-				ifFalse: [ self memberClass newFromFile: fullName ].
-		newMember localFileName: relativePath, ea name.
+	| dir relativePath matches |
+	dir := aFileNameOrDirectory asFileReference.
+	relativePath := (dir fullName allButFirst: n) asFileReference.
+	matches := dir entries select: [ :entry | aBlock value: entry ].
+	matches
+		do: [ :e | | newMember |
+			newMember := e isDirectory
+					ifTrue: [ self memberClass newFromDirectory: e fullName ]
+					ifFalse: [ self memberClass newFromFile: e fullName ].
+		newMember localFileName: (relativePath / e name) fullName.
 		self addMember: newMember.
-		ea isDirectory ifTrue: [ self addTree: fullName removingFirstCharacters: n match: aBlock].
+		e isDirectory ifTrue: [ self addTree: e fullName removingFirstCharacters: n match: aBlock ].
 	].

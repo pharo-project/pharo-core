@@ -2,7 +2,7 @@ testing
 testSpaces
 	self 
 		assert: 'file:///foo%20bar/test.st' asZnUrl asFileReference 
-		equals: '/foo bar/test.st' asFileReference.
+		equals: FileLocator root / 'foo bar' / 'test.st'.
 	self 
-		assert: '/foo bar/test.st' asFileReference asZnUrl 
+		assert: (FileLocator root / 'foo bar' / 'test.st') asZnUrl 
 		equals: 'file:///foo%20bar/test.st' asZnUrl

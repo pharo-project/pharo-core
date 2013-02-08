@@ -1,7 +1,7 @@
 testing
 testAsZnUrl
 	| fileReference fileUrl |
-	fileReference := '/foo/bar/test.txt' asFileReference.
+	fileReference := FileLocator root / 'foo' / 'bar' / 'test.txt'.
 	fileUrl := fileReference asZnUrl.
 	self assert: fileUrl isFile.
 	self assert: fileUrl directory equals: 'foo/bar'.

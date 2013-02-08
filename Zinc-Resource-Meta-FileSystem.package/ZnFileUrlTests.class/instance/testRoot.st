@@ -1,7 +1,7 @@
 testing
 testRoot
 	| fileUrl fileReference |
-	fileReference := '/' asFileReference.
+	fileReference := FileLocator root.
 	self assert: fileReference isRoot.
 	fileUrl := fileReference asZnUrl.
 	self assert: fileUrl isFile.

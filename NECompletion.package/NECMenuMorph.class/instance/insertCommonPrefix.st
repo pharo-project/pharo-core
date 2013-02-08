@@ -9,5 +9,7 @@ insertCommonPrefix
 	prefix := context model commonPrefix.
 	self flag: 'Pending issue 7308, "controller editor wordAtCaret" below should be changed to "context completionToken"'.
 	prefix size > controller editor wordAtCaret size
-		ifTrue: [ self insertCompletion: prefix ].
+		ifTrue: [ 
+			self insertCompletion: prefix.
+			context narrowWith: controller editor wordAtCaret ].
 	^ true
