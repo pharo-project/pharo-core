@@ -1,7 +1,7 @@
 as yet unclassified
 findFullNameForWriting: aBaseName
 	| possible split prefix fpattern now |
-	split := directory splitNameVersionExtensionFor: aBaseName.
+	split := self splitNameVersionExtensionFor: aBaseName.
 	fpattern := split first, '*'.
 	possible := SortedCollection sortBlock: [ :a :b |
 		a first = b first
