@@ -10,7 +10,7 @@ sourceCodeMenuExtra: aBuilder
 		ifTrue: [
 			(aBuilder item: #'Run Test')
 					order: 1;
-					keyText: 'j, m';
+					keyText: 'j, m' if: Nautilus useOldStyleKeys not;
 					action: #runTestForAMethod:notifying:;
 					arguments: { target selectedMethod. true };
 					enabledBlock: [ target sourceTextArea hasUnacceptedEdits not ];

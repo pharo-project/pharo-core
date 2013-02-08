@@ -7,13 +7,14 @@ groupsMenu: aBuilder
 	target selectedGroup ifNil: [ ^ target ].
 		
 	(aBuilder item: #'Browse scoped')
-		keyText: 'b, s';
+		keyText: 'b, s' if: Nautilus useOldStyleKeys not;
 		action: [ target restrictedBrowseGroups: target selectedGroups ];
 		order: 1000;
 		withSeparatorAfter.
 		
 	(aBuilder item: #'Run tests')
-		keyText: 'j, g';
+		keyText: 'j, g' if: Nautilus useOldStyleKeys not;
+		keyText: 't' if: Nautilus useOldStyleKeys;
 		action: [ target runTestsOfGroups: target selectedGroups notifying: true ];
 		order: 1100.
 				
@@ -27,14 +28,16 @@ groupsMenu: aBuilder
 			target selectedGroup isReadOnly
 				ifFalse: [
 					(aBuilder item: #'Rename...')
-						keyText: 'r, g';
-						action: [target renameGroup];
+						keyText: 'r, g' if: Nautilus useOldStyleKeys not;
+						keyText: 'r' if: Nautilus useOldStyleKeys;
+						action: [ target renameGroup ];
 						enabledBlock: [ target selectedGroups size <= 1];
 						order: 1300 ].
 			target selectedGroup removable
 				ifTrue: [
 					(aBuilder item: #'Remove groups')
-						keyText: 'x, g';
+						keyText: 'x, g' if: Nautilus useOldStyleKeys not;
+						keyText: 'x' if: Nautilus useOldStyleKeys;
 						icon: (target iconClass iconNamed: #removeIcon);
 						action: [target removeGroups];
 						order: 1400 ] ]

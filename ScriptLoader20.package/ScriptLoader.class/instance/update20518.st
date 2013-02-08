@@ -1,6 +1,7 @@
-public
-commentForCurrentUpdate
- ^ 'Issue 7433:	Fixing command line
+pharo - updates
+update20518
+	"self new update20518"
+	self withUpdateLog: 'Issue 7433:	Fixing command line
 	http://code.google.com/p/pharo/issues/detail?id=7433
 	
 Issue 7432:	nautilus option for choosing old style keybindings and new one
@@ -11,4 +12,6 @@ Issue 7420:	Random behavior in ListComposableModel>>whenListChanged:
 	
 Issue 7431:	[Cleanup]: AbstractNautilusPlugin class>>#defaultPosition comment suggests non-existent options
 	http://code.google.com/p/pharo/issues/detail?id=7431
-	'
+	'.
+	self loadTogether: self script495 merge: false.
+	self flushCaches.

@@ -3,7 +3,7 @@
 		"buildRefactoringMethodShortcutsOn:" : "BenjaminVanRyseghem 6/24/2012 22:29",
 		"buildRefactoringShortcutsOn:" : "BenjaminVanRyseghem 6/27/2012 13:27",
 		"buildSourceCodeShortcutsOn:" : "BenjaminVanRyseghem 1/25/2013 17:49",
-		"classRefactoringSubmenu:" : "EstebanLorenzano 1/30/2013 17:12",
+		"classRefactoringSubmenu:" : "EstebanLorenzano 2/6/2013 16:36",
 		"classVarRefactoringSubmenu:" : "EstebanLorenzano 1/30/2013 15:53",
 		"codeRewritingClassSubmenu:" : "EstebanLorenzano 1/30/2013 15:53",
 		"groupRefactoringMenu:" : "EstebanLorenzano 1/30/2013 15:55",
@@ -13,7 +13,7 @@
 		"packageRefactoringMenu:" : "EstebanLorenzano 1/30/2013 15:52",
 		"promptOnRefactoring" : "",
 		"refactoringClassMenu:" : "EstebanLorenzano 1/30/2013 15:53",
-		"refactoringMethodMenu:" : "EstebanLorenzano 1/30/2013 17:20",
+		"refactoringMethodMenu:" : "EstebanLorenzano 2/6/2013 15:29",
 		"sourceCodeRefactoringMenu:" : "EstebanLorenzano 1/30/2013 15:56",
 		"sourceCodeRefactoringMenuHolder:" : "EstebanLorenzano 1/31/2013 11:36" },
 	"instance" : {

@@ -5,25 +5,27 @@ categoriesMenu: aBuilder
 	
 	target := aBuilder model.
 	(aBuilder item: #'Find Method...')
-		keyText: 'f, m';
+		keyText: 'f, m' if: Nautilus useOldStyleKeys not;
+		keyText: 'f' if: Nautilus useOldStyleKeys;
 		action: [ target findMethod ];
 		order: 0;
 		help: 'Search for a method by name'.
 			
 	(aBuilder item: #'Add protocol...')
-		keyText: 'n, t';
+		keyText: 'n, t' if: Nautilus useOldStyleKeys not;
 		action: [ target addCategory ];
 		order: 100;
 		withSeparatorAfter.
 	
 	(aBuilder item: #'Browse full')
-		keyText: 'b, f';
+		keyText: 'b, f' if: Nautilus useOldStyleKeys not;
+		keyText: 'b' if: Nautilus useOldStyleKeys;
 		action: [ target fullBrowse ];
 		order: 200;
 		withSeparatorAfter.
 		
 	(aBuilder item: #'Categorize all uncategorized')
-		keyText: 'h, C';
+		keyText: 'h, C' if: Nautilus useOldStyleKeys not;
 		action: [ target categorizeAllUncategorizedMethods ];
 		order: 1100.	
 		
@@ -35,20 +37,22 @@ categoriesMenu: aBuilder
 	target selectedCategory ifNil: [ ^ target ].
 	
 	(aBuilder item: #'Rename...')
-		keyText: 'r, m';
+		keyText: 'r, m' if: Nautilus useOldStyleKeys not;
+		keyText: 'r' if: Nautilus useOldStyleKeys;
 		action: [ target renameCategory ];
 		order: 1300;
 		enabledBlock: [ target enableCategorySingleSelection ].	
 		
 	(aBuilder item: #'Remove...')
-		keyText: 'x, m';
+		keyText: 'x, m' if: Nautilus useOldStyleKeys not;
+		keyText: 'x' if: Nautilus useOldStyleKeys;
 		action: [ target removeCategories ];
 		order: 1400;
 		icon: (target iconClass iconNamed: #removeIcon);
 		withSeparatorAfter.
 		
 	(aBuilder item: #'Add in group...')
-		keyText: 'n, e, m';
+		keyText: 'n, e, m' if: Nautilus useOldStyleKeys not;
 		action: [ target addProtocolsInGroup ];
 		order: 1500.
 	

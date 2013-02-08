@@ -1,13 +1,5 @@
 position
 defaultPosition
-
-	" should answer the position of the UI "
-	"Pick an asnwer among:
-		- #top
-	""	- #right	""
-	""	- #left	""
-		- #middle
-		- #bottom
-		- #none"
+	"Tells where in the Nautilus UI this plugin will appear. Pick an answer from #possiblePositions"
 		
 	^ #none

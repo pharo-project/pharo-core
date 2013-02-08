@@ -1,4 +1,11 @@
 widget - category
 buildCategoryWidget
+	| categoriesList |
 	
-	^ categoryWidget buildCategoriesList
+	categoriesList := categoryWidget buildCategoriesList.	
+	
+	self 
+		setShortcuts: #NautilusProtocolShortcuts 
+		to: categoriesList. 
+	
+	^categoriesList

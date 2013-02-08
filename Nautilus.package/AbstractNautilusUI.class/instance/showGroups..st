@@ -4,10 +4,17 @@ showGroups: aBoolean
 	self okToChange ifFalse: [ ^ self ].
 	
 	self setShortcuts: #NautilusClassShortcuts to: list2.
+	
 	aBoolean 
-		ifTrue: [ list enabled: true ].
+		ifTrue: [ 
+			list enabled: true.
+			self removeShortcuts: #NautilusPackageShortcuts from: list.
+			self setShortcuts: #NautilusGroupShortcuts to: list ]
+		ifFalse: [
+			self removeShortcuts: #NautilusGroupShortcuts from: list.
+			self setShortcuts: #NautilusPackageShortcuts to: list ].
 		
-	self setShortcuts: #NautilusGroupShortcuts to: list.
+	
 	
 	listElements := nil.
 	self showPackages 

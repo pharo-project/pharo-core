@@ -12,8 +12,9 @@ buildSourceCodeShortcutsOn: aBuilder
 				]]
 		description: 'Run the current test method'.
 		
-	(aBuilder shortcut: #findClass)
+	"This is not working anyway"
+	"(aBuilder shortcut: #findClass)
 		category: #NautilusSourceCodeShortcuts
 		default: $f command, $c command 
 		do: [:target | target findClass ]
-		description: 'Find class'.
+		description: 'Find class'."

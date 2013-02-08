@@ -22,7 +22,6 @@ buildMethodsList
 
 		Nautilus populateMethodList
 			ifTrue: [ methodsList getListElementSelector: #getMethodItem: ]
-			ifFalse: [ methodsList basicGetListElementSelector: #getMethodItem: ].		
-		methodsList attachKeymapCategory: #NautilusGlobalShortcuts targetting: self model.
-		
+			ifFalse: [ methodsList basicGetListElementSelector: #getMethodItem: ].	
+					
 		^ methodsList.

@@ -3,35 +3,39 @@ classesMenu: aBuilder
 	<contextMenu>
 	<nautilusGlobalClassMenu>
 	| target |
-	
+
 	target := aBuilder model.
 	target selectedClass ifNil: [^target].
 
 	(aBuilder item: #'Rename...')
-		keyText: 'r,c';
+		keyText: 'r,c' if: Nautilus useOldStyleKeys not;
+		keyText: 'r' if: Nautilus useOldStyleKeys;
 		action: [ target renameClass ];
 		enabledBlock: [ target selectedClasses size <= 1 ];
 		order: -99;
 		withSeparatorAfter.	
 		
 	(aBuilder item: #'Browse scoped')
-		keyText: 'b, s';
+		keyText: 'b, s' if: Nautilus useOldStyleKeys not;
+		keyText: 'B' if: Nautilus useOldStyleKeys;
 		action: [target restrictedBrowseClass];
 		order: 1000;
 		help: 'Open a browser on a restricted view'.
 	
 	(aBuilder item: #'Add in Group...')
-		keyText: 'n, e, c';
+		keyText: 'n, e, c' if: Nautilus useOldStyleKeys not;
+		keyText: 'e' if: Nautilus useOldStyleKeys;
 		action: [ target addClassesInGroup ];
 		order: 1100;
 		withSeparatorAfter.
 	
 	(target selectedClasses allSatisfy: [:each | each inheritsFrom: TestCase ])
-			ifTrue:[	
-					(aBuilder item:#'Run tests')
-						keyText: 'j, c';
-						action: [ target runClassTests ];
-						order: 1200].
+		ifTrue:[	
+			(aBuilder item:#'Run tests')
+				keyText: 'j, c' if: Nautilus useOldStyleKeys not;
+				keyText: 't' if: Nautilus useOldStyleKeys;
+				action: [ target runClassTests ];
+				order: 1200].
 						
 	(aBuilder item: #Analyze)
 		enabledBlock: [ target selectedClasses size <= 1 ];
@@ -39,7 +43,8 @@ classesMenu: aBuilder
 		withSeparatorAfter.
 
 	(aBuilder item: #'Jump to test class')
-		keyText: 'g, j';
+		keyText: 'g, j' if: Nautilus useOldStyleKeys not;
+		keyText: 'j' if: Nautilus useOldStyleKeys;
 		action: [ target createTestForSelectedClass ];
 		enabledBlock: [ target selectedClasses size <= 1 ];
 		order: 300;
@@ -47,17 +52,19 @@ classesMenu: aBuilder
 		
 		
 	(aBuilder item: #'Move to package...')
-		keyText: 'm, c';
+		keyText: 'm, c' if: Nautilus useOldStyleKeys not;
 		action: [ target moveInNewPackage ];
 		order: 1400.	
 			
 	(aBuilder item: #'Copy...')
-		keyText: 'c, c';
+		keyText: 'c, c' if: Nautilus useOldStyleKeys not;
+		keyText: 'c' if: Nautilus useOldStyleKeys;
 		action: [ target copyClasses ];
 		order: 1600.	
 			
 	(aBuilder item: #'Remove...')
-		keyText: 'x, c';
+		keyText: 'x, c' if: Nautilus useOldStyleKeys not;
+		keyText: 'x' if: Nautilus useOldStyleKeys;
 		action: [ target removeClasses ];
 		icon: (target iconClass iconNamed: #removeIcon);
 		order: 1700;
@@ -73,6 +80,6 @@ classesMenu: aBuilder
 			target selectedGroup isReadOnly 
 				ifFalse: [
 					(aBuilder item: #'Remove from Group')
-						keyText: 'X';
+						keyText: 'X' if: Nautilus useOldStyleKeys not;
 						action: [ target removeClassFromGroup ];
 						order: 1900] ].

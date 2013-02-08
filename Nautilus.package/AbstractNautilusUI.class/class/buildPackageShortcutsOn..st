@@ -35,18 +35,18 @@ buildPackageShortcutsOn: aBuilder
 	(aBuilder shortcut: #addPackagesAsGroups)
 		category: #NautilusPackageShortcuts
 		default: $g command shift
-		do: [ :target | target addPackagesAsGroups ]
+		do: [ :target | target addPackageAsGroupAndBrowse ]
 		description: 'Add the selected packages as groups'.
 	
 	(aBuilder shortcut: #addMatchingPackagesInGroupsAndBrowse)
 		category: #NautilusPackageShortcuts
-		default: $m command
+		default: $m command shift
 		do: [ :target | target addMatchingPackagesInGroupsAndBrowse ]
 		description: 'Add packages matching the selected package as groups and browse'.
 	
 	(aBuilder shortcut: #addMatchingPackagesInGroups)
 		category: #NautilusPackageShortcuts
-		default: $m command shift
+		default: $m command
 		do: [ :target | target addMatchingPackagesInGroups ]
 		description: 'Add packages matching the selected package as groups'.
 		

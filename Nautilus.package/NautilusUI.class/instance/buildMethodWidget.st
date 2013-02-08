@@ -1,4 +1,11 @@
 widget - method
 buildMethodWidget
+	| methodsList |
 	
-	^ methodWidget buildMethodsList
+	methodsList := methodWidget buildMethodsList.	
+	
+	self 
+		setShortcuts: #NautilusMethodShortcuts 
+		to: methodsList. 
+	
+	^methodsList	

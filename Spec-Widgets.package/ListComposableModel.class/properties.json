@@ -16,7 +16,8 @@
 		"listItemsCache",
 		"filteringBlockHolder",
 		"sortingBlockHolder",
-		"wrapBlockHolder" ],
+		"wrapBlockHolder",
+		"listAnnouncer" ],
 	"name" : "ListComposableModel",
 	"pools" : [
 		 ],

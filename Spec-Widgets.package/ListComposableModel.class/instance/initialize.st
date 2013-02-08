@@ -13,5 +13,6 @@ initialize
 	multiSelectionHolder := IdentityDictionary new asValueHolder.
 	multiSelection := false asValueHolder.
 	allowToSelect := true asValueHolder.
+	listAnnouncer := Announcer new.
 
 	self registerEvents

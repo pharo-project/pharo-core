@@ -1,7 +1,11 @@
 protocol
 items: aList
-	<api: #st getter: #listItems registration: #whenListChanged:>
 	"Set the items of the list.
-	aList is a collection of your domain specific items"
+	aList is a collection of your domain specific items.
+	Use a two stages notification (issue 7420)."
 
-	listHolder contents: (aList sorted: sortingBlockHolder contents)
+	<api: #st getter: #listItems registration: #whenListChanged:>
+	| oldContents |
+	oldContents := listHolder contents.
+	listHolder contents: (aList sorted: sortingBlockHolder contents).
+	listAnnouncer announce: (ValueChanged oldContents: oldContents newContents: listHolder contents)

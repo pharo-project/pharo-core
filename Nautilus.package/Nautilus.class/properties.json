@@ -5,7 +5,8 @@
 		"emptyCommentWarning",
 		"groups",
 		"cachedLastClasses",
-		"maxSize" ],
+		"maxSize",
+		"useOldStyleKeys" ],
 	"classvars" : [
 		"CommentPosition",
 		"HistoryMaxSize",

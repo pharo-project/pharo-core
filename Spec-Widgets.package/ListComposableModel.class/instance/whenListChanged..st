@@ -1,7 +1,17 @@
 protocol-events
 whenListChanged: aBlock
-	<api: #event>
 	"Specify a block to value after the contents of the list has changed"
+
 	"Basically when you set a new list of items"
 
-	listHolder whenChangedDo: aBlock
+	<api: #event>
+	| block |
+	block := [ :announcement :ann | 
+	aBlock
+		cull: announcement newContents
+		cull: announcement oldContents
+		cull: announcement
+		cull: ann ].
+	listAnnouncer weak
+		on: ValueChanged
+		do: block

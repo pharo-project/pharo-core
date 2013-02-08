@@ -1,3 +1,3 @@
 accessing
 description
-	^ 'handles .st source files'
+	^ 'Loads and executes .st source files'

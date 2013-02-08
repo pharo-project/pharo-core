@@ -3,7 +3,9 @@ buildFirstColumn: aWindow
 		
 	| buttons |
 	buttons := PanelMorph new.
+
 	self setShortcuts: #NautilusPackageShortcuts to: buttons.
+		
 	buttons 
 		changeProportionalLayout;
 		addMorph: self buildGroupsButton
@@ -18,11 +20,11 @@ buildFirstColumn: aWindow
 		yourself.
 		
 	^ firstColumn := PanelMorph new
-						changeProportionalLayout;
-						addMorph: self buildList
-						fullFrame: ( LayoutFrame identity bottomOffset: -25);
-						addMorph: buttons
-						fullFrame: ( (0@1 corner: 1@1 ) asLayoutFrame topOffset: -25);
-						hResizing: #spaceFill;
-						vResizing: #spaceFill;
-						yourself.
+		changeProportionalLayout;
+		addMorph: self buildList
+		fullFrame: ( LayoutFrame identity bottomOffset: -25);
+		addMorph: buttons
+		fullFrame: ( (0@1 corner: 1@1 ) asLayoutFrame topOffset: -25);
+		hResizing: #spaceFill;
+		vResizing: #spaceFill;
+		yourself.

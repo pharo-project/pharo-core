@@ -6,7 +6,8 @@ classRefactoringSubmenu: aBuilder
 	target selectedClass ifNil: [^target].
 	
 	(aBuilder item: #'Rename...')
-		keyText: 'r, c';
+		keyText: 'r, c' if: Nautilus useOldStyleKeys not;
+		keyText: 'r' if: Nautilus useOldStyleKeys;		
 		action: [ target renameClassWithRefactoringEngine: target selectedClass theNonMetaClass ];
 		parent: #'Class Refactoring';
 		order: 0.
@@ -19,7 +20,7 @@ classRefactoringSubmenu: aBuilder
 		withSeparatorAfter.
 		
 	(aBuilder item: #'Generate Accessors')
-		keyText: 'h, a';
+		keyText: 'h, a' if: Nautilus useOldStyleKeys not;
 		action: [ target refactor generateAccessors ];
 		parent: #'Class Refactoring';
 		order: 200.

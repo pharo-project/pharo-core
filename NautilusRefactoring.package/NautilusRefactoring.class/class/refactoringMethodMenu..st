@@ -9,7 +9,8 @@ refactoringMethodMenu: aBuilder
 			order: -100.
 			
 	(aBuilder item: #'Rename method')
-			keyText: 'r, m';
+			keyText: 'r, m' if: Nautilus useOldStyleKeys not;
+			keyText: 'r' if: Nautilus useOldStyleKeys;
 			action: [ | scroll |
 				scroll := target methodWidget vScrollValue.
 				target refactor renameMethodFor: target selectedMethod.

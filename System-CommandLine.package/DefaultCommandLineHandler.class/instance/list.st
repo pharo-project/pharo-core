@@ -2,7 +2,7 @@ activation
 list
 	| handlers shortNames maxShortNameSize |
 	self stdout 
-		nextPutAll: 'Currently installed Command Line Handlers:'; cr.
+		nextPutAll: 'Currently installed Command Line Handlers:'; lf.
 		
 	handlers := self allHandlers reject: [ :cls| cls = DefaultCommandLineHandler ].
 	shortNames := handlers collect: #commandName.
@@ -13,5 +13,5 @@ list
 			nextPutAll: '    ';
 			nextPutAll: (handler commandName padRightTo: maxShortNameSize); 
 			nextPutAll: '    ';
-			nextPutAll: (handler description ifNil: [ '--']);cr].
+			nextPutAll: (handler description ifNil: [ '--']); lf].
 	self quit.

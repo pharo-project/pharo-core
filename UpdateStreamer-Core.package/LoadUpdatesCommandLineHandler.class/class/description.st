@@ -1,3 +1,3 @@
 accessing
 description
-	^ 'load updates'
+	^ 'Load updates'

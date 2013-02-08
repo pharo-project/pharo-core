@@ -35,4 +35,10 @@ Put a negative value to disable' translated.
 			(aBuilder setting: #populateMethodList)
 				label: 'Populate the method list at opening ?' translated;
 				default: self defaultPopulateMethodList;
-				description: 'If true, the browser may be a bit slower to open on big classes. If false, you will need an extra click to access a method' translated.]
+				description: 'If true, the browser may be a bit slower to open on big classes. If false, you will need an extra click to access a method' translated.
+			(aBuilder setting: #useOldStyleKeys)
+				label: 'Use old style keys ?' translated;
+				description: 'If true, the browser will use the old style keys (This is highly non-recommended, you will lose a lot of cool access keys)' translated.
+				
+				
+				]

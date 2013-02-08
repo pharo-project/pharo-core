@@ -31,13 +31,15 @@ buildAnalyzeSubMenu: aBuilder
 		enabledBlock: [ target showInstance ].
 	
 	(aBuilder item: #'Generate initialize method')
-		keyText: 'h, i';
+		keyText: 'h, i' if: Nautilus useOldStyleKeys not;
+		keyText: 'I' if: Nautilus useOldStyleKeys;
 		action: [ target generateInitialize ];
 		parent: #Analyze;
 		order: 350.
 		
 	(aBuilder item: #'Force the generaton of the initialize method')
-		keyText: 'h, k';
+		keyText: 'h, k' if: Nautilus useOldStyleKeys not;
+		keyText: 'K' if: Nautilus useOldStyleKeys;		
 		action: [ target forceGenerateInitialize ];
 		parent: #Analyze;
 		order: 375;
@@ -50,7 +52,8 @@ buildAnalyzeSubMenu: aBuilder
 		order: 400.
 		
 	(aBuilder item: #'Class refs...')
-		keyText: 'b, N';
+		keyText: 'b, N' if: Nautilus useOldStyleKeys not;
+		keyText: 'N' if: Nautilus useOldStyleKeys;
 		action: [target browseClassRefs];
 		parent: #Analyze;
 		order: 500.
@@ -68,8 +71,7 @@ buildAnalyzeSubMenu: aBuilder
 				parent: #Analyze;
 				enabledBlock: [ target enableSingleClassSelection ];
 				order: 700].
-		
-		
+				
 	(aBuilder item: #'Unsent methods...')
 		action: [target browseUnusedMethods.];
 		parent: #Analyze;
