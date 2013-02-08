@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 normal
 	"Answer an effective normal of any oriented fill styles.
 	Answer the top-left minima (probably not an accurate assumption)."

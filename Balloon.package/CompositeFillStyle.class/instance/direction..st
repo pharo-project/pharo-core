@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 direction: aPoint
 	"Change the effective direction of any oriented fill styles."
 

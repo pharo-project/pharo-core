@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 isGradientFill
 	"Answer whether any of the composited fill styles are gradients."
 

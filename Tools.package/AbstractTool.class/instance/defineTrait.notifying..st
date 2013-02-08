@@ -2,7 +2,7 @@ class
 defineTrait: defString notifying: aController  
 
 	| defTokens keywdIx envt oldTrait newTraitName trait |
-	oldTrait := self selectedClassOrMetaClass.
+	self selectedClassOrMetaClass isTrait ifTrue:[oldTrait := self selectedClassOrMetaClass].
 	defTokens := defString findTokens: Character separators.
 	keywdIx := defTokens findFirst: [:x | x = 'category'].
 	envt := self class environment.

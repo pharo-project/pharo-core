@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 normal: aPoint
 	"Change the effective normal of any oriented fill styles."
 

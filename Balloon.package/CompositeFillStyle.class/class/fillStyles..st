@@ -1,4 +1,4 @@
-as yet unclassified
+build
 fillStyles: aCollection
 	"Answer a new instance of the receiver with the specfied fill styles."
 

@@ -1,6 +1,7 @@
-public
-commentForCurrentUpdate
- ^ 'Issue 7460:	Icons for TestCase in Nautilus, after a clean for production
+pharo - updates
+update20528
+	"self new update20528"
+	self withUpdateLog: 'Issue 7460:	Icons for TestCase in Nautilus, after a clean for production
 	http://code.google.com/p/pharo/issues/detail?id=7460
 	
 Issue 7457:	safe UsersManager usage in Monticello
@@ -13,4 +14,6 @@ Issue 7359:	CompositeFillStyle has unclassified methods
 	http://code.google.com/p/pharo/issues/detail?id=7359
 	
 Issue 7456:	Create a trait while a class is selected
-	http://code.google.com/p/pharo/issues/detail?id=7456'
+	http://code.google.com/p/pharo/issues/detail?id=7456'.
+	self loadTogether: self script505 merge: false.
+	self flushCaches.

@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 isOrientedFill
 	"Answer whether any of the composited fill styles are oriented."
 

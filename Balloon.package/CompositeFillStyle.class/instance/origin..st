@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 origin: aPoint
 	"Change the effective origin of any oriented fill styles."
 

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 origin
 	"Answer an effective origin of any oriented fill styles.
 	Answer the top-left minima."

@@ -4,9 +4,11 @@ password
 
 	self user isEmpty ifTrue: [^password ifNil: ['']].
 
-	password isEmptyOrNil ifTrue: [ 
-		password := (UsersManager default currentUser userNamePasswordFor: self keyChainGroupSelector) 							ifNil: [ '' ]
-							ifNotNil: [:usr | usr password ]].
+	Smalltalk globals at: #UsersManager ifPresent: [:usersManager |
+		password isEmptyOrNil ifTrue: [ 
+			password := (usersManager default currentUser userNamePasswordFor: self keyChainGroupSelector)
+							ifNil: [ '' ]
+							ifNotNil: [:usr | usr password ]]].
 
 
 	[password isEmptyOrNil] whileTrue: [

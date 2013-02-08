@@ -1,4 +1,4 @@
-accessing
+initialize-release
 initialize
 	"Initialize the receiver."
 

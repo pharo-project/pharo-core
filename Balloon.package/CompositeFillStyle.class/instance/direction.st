@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 direction
 	"Answer an effective direction of any oriented fill styles.
 	Answer the bottom-right maxima."

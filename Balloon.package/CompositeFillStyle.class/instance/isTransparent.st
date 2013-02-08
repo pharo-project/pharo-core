@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 isTransparent
 	"Answer whether all of the composited fill styles are transparent."
 

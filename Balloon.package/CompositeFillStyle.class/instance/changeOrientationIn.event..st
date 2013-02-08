@@ -1,4 +1,4 @@
-as yet unclassified
+action
 changeOrientationIn: aMorph event: evt
 	"Interactively change the origin of the receiver"
 	| handle |
