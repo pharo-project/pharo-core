@@ -1,4 +1,4 @@
 protocol
 pickedChanges
 
-	^ pickList pickedItems
+	^ pickList selectedItems
