@@ -1,5 +1,7 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7027:	Wrong halo handle balloon text showing
-	http://code.google.com/p/pharo/issues/detail?id=7027
-'
+ ^ 'Issue 7447:	optional UsersManager
+	http://code.google.com/p/pharo/issues/detail?id=7447
+	
+Issue 7444:	Morphic Settings appears twice, as its own group and as subgroup to Appearance
+	http://code.google.com/p/pharo/issues/detail?id=7444'

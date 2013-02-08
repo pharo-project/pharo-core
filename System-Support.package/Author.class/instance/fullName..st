@@ -1,4 +1,6 @@
 accessing
 fullName: aString
 	fullName := aString.
-	UsersManager default currentUser setUserName: aString forGroup: #author
+	
+	 Smalltalk globals at: #UsersManager 
+		ifPresent: [:usersManager | usersManager default currentUser setUserName: aString forGroup: #author].
