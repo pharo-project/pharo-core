@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"defaultSpec" : "BenjaminVanRyseghem 7/13/2012 05:30",
+		"defaultSpec" : "BenjaminVanRyseghem 2/7/2013 14:12",
 		"example" : "",
 		"title" : "" },
 	"instance" : {
@@ -43,8 +43,9 @@
 		"registerEventsForShout" : "BenjaminVanRyseghem 6/7/2012 12:29",
 		"selectedBehavior" : "StephaneDucasse 5/17/2012 17:45",
 		"selectedClassOrMetaClass" : "BenjaminVanRyseghem 6/22/2012 14:19",
-		"setSelection:" : "AndreiChis 2/1/2013 14:55",
+		"setSelection:" : "BenjaminVanRyseghem 2/7/2013 14:24",
 		"shoutAboutToStyle:" : "StephaneDucasse 5/17/2012 17:44",
+		"text" : "BenjaminVanRyseghem 2/7/2013 14:18",
 		"text:" : "BenjaminVanRyseghem 7/16/2012 20:09",
 		"whenAboutToStyleBlockChanged:" : "BenjaminVanRyseghem 7/16/2012 22:21",
 		"whenAboutToStyleChanged:" : "BenjaminVanRyseghem 7/16/2012 22:24",

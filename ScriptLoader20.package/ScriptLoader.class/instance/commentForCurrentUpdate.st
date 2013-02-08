@@ -1,12 +1,10 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7104:	ImageCleaner>>#cleanUpForProduction broken (part 1)
-	http://code.google.com/p/pharo/issues/detail?id=7104
+ ^ 'Issue 7382:	TextModel>>setSelection: has no effect if called before openWithSpec
+	http://code.google.com/p/pharo/issues/detail?id=7382
 	
-Issue 7443:	Setting compatible setter/getter to set image wide compiler
-	http://code.google.com/p/pharo/issues/detail?id=7443
+Issue 7389:	Behavior not taken into account in TextModel when sending openWithSpec
+	http://code.google.com/p/pharo/issues/detail?id=7389
 	
-Issue 7442:	In Settings, Morphic should be capitalized
-	http://code.google.com/p/pharo/issues/detail?id=7442&
 	
 '
