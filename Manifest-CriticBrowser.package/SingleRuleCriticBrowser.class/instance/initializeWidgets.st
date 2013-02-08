@@ -14,9 +14,7 @@ initializeWidgets
 
 	criticsModel displayBlock: [:selec |
 		self 
-			initializeDisplayCritic: selec 
-			forRuleId: (rule class uniqueIdentifierName)
-			versionId: (rule class identifierMinorVersionNumber) ]. 
+			initializeDisplayCritic: selec forRule: rule]. 
 	
 	criticsModel menu: [:a :b | self menu: a shifted: b ].
 	criticsModel icons: [:item | self iconFor: item ].

@@ -5,7 +5,7 @@ initializeForToDo
 	okCancelToolBarModel okAction: [ | manifestBuilder rId rV|
 		rId :=  rule class uniqueIdentifierName.
 		rV :=   rule class identifierMinorVersionNumber.
-		manifestBuilder := BuilderManifest on: critic.
+		manifestBuilder := BuilderManifest of: critic.
 		
 		(manifestBuilder hasToDoOf: rId version: rV) 
 			ifFalse: [manifestBuilder installToDoOf: rId version: rV].

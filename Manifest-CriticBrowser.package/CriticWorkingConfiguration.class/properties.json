@@ -7,7 +7,9 @@
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		"rule",
-		"environment" ],
+		"environment",
+		"removeTestCase",
+		"logInManifest" ],
 	"name" : "CriticWorkingConfiguration",
 	"pools" : [
 		 ],

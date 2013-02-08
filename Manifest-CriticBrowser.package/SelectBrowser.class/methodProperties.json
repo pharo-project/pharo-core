@@ -4,7 +4,8 @@
 	"instance" : {
 		"addAllButtonModel" : "",
 		"addButtonModel" : "",
-		"initializeWidgets" : "BenjaminVanRyseghem 11/24/2012 16:34",
+		"initialExtent" : "SimonAllier 2/1/2013 14:31",
+		"initializeWidgets" : "SimonAllier 1/28/2013 10:36",
 		"items:" : "",
 		"nextAction" : "",
 		"nextButtonModel" : "",

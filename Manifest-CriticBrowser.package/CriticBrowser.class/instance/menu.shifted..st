@@ -5,15 +5,18 @@ menu: aMenu shifted: aBoolean
 		add: 'Browse rule' translated
 			target: self
 			selector: #browseRule;
-		add: 'Do not understand this rule' translated
+		add: 'Inspect result of this rule' translated
+			target: self
+			selector: #InspectResult;
+		"add: 'Do not understand this rule' translated
 			target: self
 			selector: #doNotUnderstandThisRule;
 		add: 'This rule contains a bug' translated
 			target: self
-			selector: #bugRule;
+			selector: #bugRule;"
 		add: 'Reapply this rule'
 			target: self
-			selector: #reapplyThisRule;
+		selector: #reapplyThisRule;
 		addLine;
 		add: 'Ban this rule for all packages' translated
 			target: self
@@ -21,8 +24,8 @@ menu: aMenu shifted: aBoolean
 		add: 'Unban this rule for all packages' translated
 			target: self
 			selector: #removeRuleToFalsePositive;
-		addLine; 
-		add: 'Reset working package sets' translated
+		addLine. 
+		"add: 'Reset working package sets' translated
 			target: self
-			selector: #resetWorkingConfiguration.
+			selector: #resetWorkingConfiguration."
 	 ^ aMenu

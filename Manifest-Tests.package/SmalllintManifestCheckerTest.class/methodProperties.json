@@ -1,11 +1,12 @@
 {
 	"class" : {
-		 },
+		"DoIt" : "SimonAllier 2/1/2013 16:18" },
 	"instance" : {
-		"setUp" : "SimonAllier 5/29/2012 16:59",
-		"tearDown" : "SimonAllier 5/29/2012 15:44",
-		"testCriticsOf" : "SimonAllier 11/6/2012 13:40",
-		"testFalsePositiveOf" : "SimonAllier 11/6/2012 13:40",
-		"testIsFalsePositive" : "SimonAllier 11/6/2012 13:40",
-		"testIsToDo" : "SimonAllier 11/6/2012 13:40",
-		"testToDoOf" : "SimonAllier 11/6/2012 13:41" } }
+		"package" : "SimonAllier 2/1/2013 16:20",
+		"setUp" : "SimonAllier 2/1/2013 16:14",
+		"tearDown" : "SimonAllier 2/8/2013 13:33",
+		"testCriticsOf" : "SimonAllier 2/1/2013 16:20",
+		"testFalsePositiveOf" : "SimonAllier 2/1/2013 16:21",
+		"testIsFalsePositive" : "SimonAllier 2/1/2013 16:21",
+		"testIsToDo" : "SimonAllier 2/1/2013 16:21",
+		"testToDoOf" : "SimonAllier 2/1/2013 16:21" } }

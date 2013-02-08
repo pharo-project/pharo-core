@@ -4,11 +4,12 @@ packagesGroup: aBuilder
 	| packages target env rules group|
 	target := aBuilder model.
 	
+	(group := target selectedGroups).
 	
-	(group := target selectedGroups) ifNil: [ ^ target ].
-	
-	packages := (group gather: [:each | each classes collect: [:cl |
-			PackageInfo named: (cl package name)]]) asSet.
+	packages := OrderedCollection new.
+	group do: [:each |
+		each classes do: [:cl |
+			MCWorkingCopy managersForClass: cl do: [:package | packages add: package]]].
 	
 	rules :=   RBCompositeLintRule allGoodRules.
 	env := (RBPackageEnvironment new packages: packages ).	

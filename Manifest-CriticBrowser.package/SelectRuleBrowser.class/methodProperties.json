@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"openWithEnvironment:" : "SimonAllier 7/31/2012 10:52",
+		"defaultSpec" : "SimonAllier 1/28/2013 10:37",
+		"openWithEnvironment:removeTestCase:" : "SimonAllier 1/29/2013 13:42",
 		"title" : "" },
 	"instance" : {
 		"addAllItems" : "Sd 11/30/2012 17:38",
@@ -9,7 +10,8 @@
 		"environment:" : "",
 		"initialize" : "Sd 11/30/2012 17:39",
 		"items:" : "SimonAllier 5/22/2012 10:45",
-		"nextAction" : "StephaneDucasse 12/22/2012 19:51",
+		"nextAction" : "SimonAllier 1/31/2013 14:17",
 		"removeAllItems" : "Sd 11/30/2012 17:39",
 		"removeItems" : "StephaneDucasse 11/21/2012 18:24",
+		"removeTestCase:" : "SimonAllier 1/29/2013 13:41",
 		"updateTree" : "StephaneDucasse 11/21/2012 18:24" } }

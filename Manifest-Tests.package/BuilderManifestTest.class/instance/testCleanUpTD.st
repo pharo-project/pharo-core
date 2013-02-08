@@ -2,7 +2,7 @@ tests
 testCleanUpTD
 	| manifestBuilder |
 	
-	manifestBuilder := BuilderManifest on: MFClassA. .
+	manifestBuilder := BuilderManifest of: MFClassA. .
 	MFClassA compile:  'foo'.
 	manifestBuilder installToDoOf: 'test' version: 0.
 	manifestBuilder addToDo: (MFClassA>>#foo) of: 'test' version: 0. 

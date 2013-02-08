@@ -15,9 +15,9 @@ menu: aMenu shifted: aBoolean
 		add: 'Mark selected critic as false Positive' translated
 			target: self
 			selector: #addCriticToFalsePositive;
-		add: 'Mark selected critic as false Positive with a comment' translated
+		"add: 'Mark selected critic as false Positive with a comment' translated
 			target: self
-			selector: #addCriticWithCommentToFalsePositive;
+			selector: #addCriticWithCommentToFalsePositive;"
 		add: 'Unmark selected critic as false Positive' translated 
 			target: self
 			selector: #removeCriticToFalsePositive;
@@ -31,9 +31,9 @@ menu: aMenu shifted: aBoolean
 		add: 'Mark selected critic as TODO' translated
 			target: self
 			selector: #addCriticToToDo;
-		add: 'Mark selected critic as TODO with comment' translated
+		"add: 'Mark selected critic as TODO with comment' translated
 			target: self
-			selector: # addCriticWithCommentToToDo;
+			selector: # addCriticWithCommentToToDo;"
 		add: 'Unmark selected critic as TODO' translated
 			target: self
 			selector: #removeCriticToToDo;

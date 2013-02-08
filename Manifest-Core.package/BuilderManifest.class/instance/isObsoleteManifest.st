@@ -1,9 +1,14 @@
 private
 isObsoleteManifest
-	^ manifestClass class methodDictionary isEmpty 
-		or: [manifestClass class methodDictionary contains: [:method |
-				((method selector = #rejectClass) or: [method selector = #rejectRules]) 
+	|methodDico|
+	
+	methodDico := manifestClass class methodDictionary.
+	
+	^methodDico isEmpty 
+		or: [methodDico anySatisfy: [:method | |selector|
+				selector := method selector.
+				(#(#rejectClass. #rejectRules) includes: selector)
 					ifTrue: [false]
 					ifFalse: [
-			(manifestClass perform: (method selector)) contains: [ :each | 
+			(manifestClass perform: selector) anySatisfy: [ :each | 
 				(each first first) = (Character value: 40)]]]  ]

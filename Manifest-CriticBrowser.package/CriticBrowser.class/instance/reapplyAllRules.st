@@ -12,6 +12,6 @@ reapplyAllRules
 		self reapplyRule: r ]. 	
 	self setTitle: 'Critics Browser'.
 	
-	self updateCountOf: rule.
-	 criticModel updateList.
+
+	 "criticModel updateList."
 	 rulesModel updateTree

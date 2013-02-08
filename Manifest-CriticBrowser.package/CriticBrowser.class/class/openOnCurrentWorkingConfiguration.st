@@ -2,5 +2,5 @@ menu
 openOnCurrentWorkingConfiguration
 
 	CriticWorkingConfiguration exists
-		ifTrue: [ self openOnWorkspace: CriticWorkingConfiguration current ]
-		ifFalse: [ SelectPackageBrowser open ]
+		ifTrue: [  ResetWindow new openWithSpec  ]
+		ifFalse: [ SelectPackageBrowser open]

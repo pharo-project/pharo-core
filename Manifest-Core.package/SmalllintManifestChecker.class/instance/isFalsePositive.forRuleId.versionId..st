@@ -1,5 +1,8 @@
 manifest
 isFalsePositive: aCritic forRuleId: ruleId versionId: versionId 
+| mb |
+	mb := self manifestBuilderOf: aCritic.
 	
-	^  (self manifestBuilderOf: aCritic)
-		 isFalsePositive: aCritic onRule:  ruleId version: versionId
+	^  mb isNil 
+		ifTrue: [false] 
+		ifFalse: [ mb isFalsePositive:  aCritic onRule:  ruleId version: versionId]

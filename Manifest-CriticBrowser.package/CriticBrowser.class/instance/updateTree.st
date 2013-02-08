@@ -3,4 +3,5 @@ updateTree
 
 	thread ifNotNil: [ thread terminate ].
 	thread := [ WorldState addDeferredUIMessage: [ 
-			rulesModel updateTree ]] fork.
+			criticModel updateList. 
+			rulesModel updateTree.]] fork.

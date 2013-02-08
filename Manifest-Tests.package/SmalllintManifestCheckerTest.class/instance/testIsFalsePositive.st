@@ -1,13 +1,11 @@
 tests
 testIsFalsePositive 
 
-	| smc package rule |
+	| smc pacge rule |
 	
 	rule  := RBCompositeLintRule allGoodRules.
-	package := RPackageSet named:  'Manifest-Resources-Tests'.
 
-	smc := SmalllintManifestChecker  new runRules:  rule onPackage:  package. 
-	
+	smc := SmalllintManifestChecker  new runRules:  rule onPackage:  self package. 
 	
 	self assert: (smc isFalsePositive:  (MFClassB>>#method3) forRuleId: (RBCodeCruftLeftInMethodsRule uniqueIdentifierName) versionId:  1).
 	self deny: (smc isFalsePositive:  (MFClassA>>#method) forRuleId: (RBCodeCruftLeftInMethodsRule uniqueIdentifierName) versionId:  1).

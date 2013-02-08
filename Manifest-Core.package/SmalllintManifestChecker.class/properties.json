@@ -6,8 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"allFalsePositiveCache",
-		"allTruePositiveCache",
 		"manifestClassCache" ],
 	"name" : "SmalllintManifestChecker",
 	"pools" : [

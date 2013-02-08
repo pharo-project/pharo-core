@@ -1,8 +1,7 @@
 system annoucements
 classRemoved: anAnnouncement
+	((rbEnvironment packages gather: [:package | package packageSet packages])
+		classes anySatisfy: [ :cl | anAnnouncement classRemoved = cl ]) 
+			ifFalse: [ ^ self ].
 	
-	(rbEnvironment classes anySatisfy: [ :cl | anAnnouncement classRemoved = cl ]) 
-		ifFalse: [ ^ self ].
-	rulesModel getList do: [ :rule | 
-		self removeClass: anAnnouncement classRemoved onRule: rule ].
-	self updateTree
+	cache itemRemoved: anAnnouncement classRemoved

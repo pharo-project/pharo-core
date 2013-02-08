@@ -2,9 +2,10 @@ private
 nextAction
 
 	| env package|	
-	package := (selectedModel listItems) collect: [ :each | each package packageSet ].
+		
+	package := selectedModel listItems.
 	env := RBPackageEnvironment new packages: package.
-	SelectRuleBrowser openWithEnvironment: env.
+	SelectRuleBrowser openWithEnvironment: env removeTestCase: self addTestCaseClasses state.
 	self delete
 	
 		

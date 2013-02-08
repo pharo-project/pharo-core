@@ -3,9 +3,12 @@ initialize
 	"Initialization code for CriticRulesBrowser"
 	
 	super initialize.
+	cache := CriticsCache new.
 	checker := SmalllintManifestChecker new.
-	criticModel checker: checker.	
-	numberOfFalsePositives := Dictionary new.
-	numberOfToDos := Dictionary new.	
-	numberOfProblems := Dictionary new.	
+	cache checker: checker.
+	cache browser: self. 
+	criticModel cache: cache.	
 		
+
+
+

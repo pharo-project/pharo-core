@@ -9,7 +9,7 @@ setUp
 				removeFromChanges;
 				removeFromSystemUnlogged ].
 			
-	bm := BuilderManifest on: MFClassA. 	
+	bm := BuilderManifest of: MFClassA. 	
 	
 	bm installFalsePositiveOf: RBCodeCruftLeftInMethodsRule uniqueIdentifierName version:  1.
 	bm addFalsePositive: (MFClassB>>#method3) of: RBCodeCruftLeftInMethodsRule uniqueIdentifierName version:  1.

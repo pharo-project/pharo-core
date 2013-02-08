@@ -1,3 +1,3 @@
 meta data
 ruleOnlyReadOrWrittenTemporaryRuleV1FalsePositive
-^ #()
+^ #(#(#(#RGMethodDefinition #(#CriticsCache #logFalsePositiveInManifest #false)) #'2013-02-01T15:29:52.762000008+01:00') #(#(#RGMethodDefinition #(#CriticsCache #logToDosInManifest #false)) #'2013-02-01T15:29:52.762000009+01:00') )

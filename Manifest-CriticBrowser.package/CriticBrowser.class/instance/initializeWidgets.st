@@ -3,6 +3,15 @@ initializeWidgets
 	
 	title := 'Critic Browser'.
 	rulesModel := self instantiate: TreeModel.
+	self instantiateModels: #(
+		rulesModel TreeModel
+		resetButton  ButtonModel 
+		logButton ButtonModel ).
+	
+	
+	self setLogButton.
+	self setResetButton.
+	 
 	criticModel := SingleRuleCriticBrowser new.
 	rulesModel childrenBlock: [:rule | 
 		rule isComposite 

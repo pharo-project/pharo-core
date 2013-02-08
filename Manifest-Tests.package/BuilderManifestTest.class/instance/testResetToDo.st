@@ -4,7 +4,7 @@ testResetToDo
 	| manifestBuilder array|
 	
 	array := {MFClassA. MFClassB  }.
-	manifestBuilder := BuilderManifest on: MFClassA .
+	manifestBuilder := BuilderManifest of: MFClassA .
 	manifestBuilder  installToDoOf: 'test' version: 0.
 	
 	manifestBuilder addAllToDo: array of: 'test' version: 0. 

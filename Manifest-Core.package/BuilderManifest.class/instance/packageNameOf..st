@@ -1,8 +1,6 @@
 private
 packageNameOf: elem
 
-		(elem class = PackageInfo)
-			ifTrue: [^ elem packageName].
 	
 	elem isCompiledMethod 
 		ifTrue: [MCWorkingCopy managersForClass: (elem methodClass) selector: (elem selector) do: [: package | ^ package packageName ]]	

@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
+		"selectRule",
 		"environment",
-		"selectRule" ],
+		"removeTestCase" ],
 	"name" : "SelectRuleBrowser",
 	"pools" : [
 		 ],

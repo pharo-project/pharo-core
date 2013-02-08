@@ -1,11 +1,13 @@
 menu
 addClassToFalsePositive
-
-	| manifestBuilder |
+	| class |
+	
 	criticsModel selectedItems ifNotNil: [ :items |
 		items do: [ :critic |
-			manifestBuilder := checker manifestBuilderOf: critic.
-			critic isCompiledMethod 
-				ifTrue: [ manifestBuilder addRejectClass: critic methodClass]
-				ifFalse: [ manifestBuilder addRejectClass: critic]].
-		self updateList ]	
+			class := critic isCompiledMethod 
+				ifTrue: [  critic methodClass]
+				ifFalse: [critic].
+			cache addFalsePositiveClass: class.
+			]]
+	
+	

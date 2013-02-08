@@ -1,9 +1,10 @@
 accessing
 manifestBuilderOfClass: aClass
 	| key |
-	
-	key := aClass category .
-	
-	^ manifestClassCache at: key 
-		ifAbsent: [manifestClassCache at: key put: (BuilderManifest on: aClass).
-			manifestClassCache at: key ] 
+	key := aClass theNonMetaClass category.
+	^ manifestClassCache
+		at: key
+		ifAbsentPut: [ 
+			(BuilderManifest hasManifestFor: aClass)
+				ifTrue: [ BuilderManifest of: aClass ]
+				ifFalse: [ nil ] ]

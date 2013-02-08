@@ -10,9 +10,8 @@
 		"criticsModel",
 		"toolbarModel",
 		"sourceCodeModel",
-		"critics",
 		"textInputFieldModel",
-		"checker",
+		"cache",
 		"thread" ],
 	"name" : "SingleRuleCriticBrowser",
 	"pools" : [

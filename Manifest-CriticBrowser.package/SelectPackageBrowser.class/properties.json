@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
+		"addTestCaseClassesModel",
+		"removeTestPackageModel",
+		"testPackage" ],
 	"name" : "SelectPackageBrowser",
 	"pools" : [
 		 ],

@@ -1,7 +1,8 @@
 protocol
 nextAction
 	| rules rbRule |
-	self delete.	
+	self delete.
+
 	rules := selectedModel getRoots.
 	rules
 		do: [ :each | 
@@ -9,14 +10,13 @@ nextAction
 				do: [ :leave | 
 					(selectRule anySatisfy: [ :r | r = leave ])
 						ifFalse: [ each removeRule: leave ] ] ].
-	rules := rules select: [ :each | each rules isEmpty not ].
-	rbRule := (RBCompositeLintRule new
-				name: self defaultRulesRootName;
-				rules: rules).
-				
+	rules := rules reject: [ :each | each rules isEmpty ].
+	rbRule := RBCompositeLintRule new
+		name: self defaultRulesRootName;
+		rules: rules.
+			
 	CriticWorkingConfiguration current
 		rule: rbRule;
-		environment: environment.
-	
-	CriticBrowser
-		openOnWorkspace: CriticWorkingConfiguration current.
+		environment: environment;
+		removeTestCase: removeTestCase.
+	CriticBrowser openOnWorkspace: CriticWorkingConfiguration current

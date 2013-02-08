@@ -1,12 +1,18 @@
 {
 	"class" : {
+		"defaultSpec" : "SimonAllier 1/28/2013 11:12",
 		"open" : "SimonAllier 3/29/2012 15:46",
 		"title" : "" },
 	"instance" : {
 		"addAllItems" : "StephaneDucasse 11/21/2012 18:16",
 		"addItems" : "StephaneDucasse 11/21/2012 18:16",
-		"initialize" : "StephaneDucasse 11/21/2012 18:16",
-		"nextAction" : "StephaneDucasse 11/21/2012 18:17",
+		"addTestCaseClasses" : "SimonAllier 1/28/2013 10:49",
+		"initialize" : "SimonAllier 1/28/2013 11:11",
+		"initializeWidgets" : "SimonAllier 1/28/2013 11:14",
+		"nextAction" : "SimonAllier 1/31/2013 13:20",
 		"removeAllItems" : "StephaneDucasse 11/21/2012 18:17",
 		"removeItems" : "StephaneDucasse 11/21/2012 18:18",
+		"removeTestPackage" : "SimonAllier 1/28/2013 14:35",
+		"removeTestPackageModel" : "SimonAllier 1/28/2013 11:11",
+		"setRemoveTestPackageModel" : "SimonAllier 1/28/2013 10:52",
 		"sort:" : "SimonAllier 5/21/2012 16:09" } }

@@ -3,7 +3,7 @@ testAddRule
 	
 	| manifestBuilder|
 	
-	manifestBuilder := BuilderManifest on: MFClassA .
+	manifestBuilder := BuilderManifest of: MFClassA .
 	
 	self deny: ((manifestBuilder rejectRules) anySatisfy: [:each| each = 0]).
 	

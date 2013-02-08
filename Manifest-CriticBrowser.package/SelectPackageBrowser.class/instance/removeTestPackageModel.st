@@ -1,0 +1,6 @@
+initialize-release
+removeTestPackageModel
+
+	^ removeTestPackageModel
+	
+	

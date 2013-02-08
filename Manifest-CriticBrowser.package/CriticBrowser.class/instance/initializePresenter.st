@@ -6,3 +6,4 @@ initializePresenter
 			criticModel resetSelection.
 	 		criticModel rule: rule. 	
 			criticModel setTextModelForNil]].
+

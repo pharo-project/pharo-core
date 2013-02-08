@@ -2,7 +2,7 @@ tests
 testInstallToDo
 	| manifestBuilder |
 	
-	manifestBuilder := BuilderManifest on: MFClassA. .
+	manifestBuilder := BuilderManifest of: MFClassA. .
 	self deny: (manifestBuilder hasToDoOf: 'test' version: 0).
 	manifestBuilder installToDoOf: 'test' version: 0.
 	self assert: (manifestBuilder hasToDoOf: 'test' version: 0).

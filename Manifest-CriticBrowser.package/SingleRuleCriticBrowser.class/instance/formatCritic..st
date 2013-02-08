@@ -1,14 +1,15 @@
 private
 formatCritic: aCritic
-	| result |
-	result := aCritic isCompiledMethod
-		ifTrue: [ String streamContents: [:s | 
-				s << aCritic methodClass name << '>>#' << aCritic selector ]]
-		ifFalse: [ aCritic name ].
-	result := String streamContents: 
+	
+	^  String streamContents: [:s |
+		aCritic isCompiledMethod
+			ifTrue: [ 
+				s << aCritic methodClass name << '>>#' << aCritic selector  << ' (' << aCritic methodClass theNonMetaClass category << ')' ]
+			ifFalse: [
+				s << aCritic name << ' (' << aCritic category << ')' ]].
+"	result := String streamContents: 
 					[:s | s   
 						<< result 
 						<< ' (' 
-						<< (checker manifestBuilderOf: aCritic) packageName 
-						<< ')' ].
-	^ result
+						<< (checker manifestBuilderOf: aCritic) packageName  todo ' fgfg'
+						<< ')' ]."

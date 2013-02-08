@@ -4,6 +4,6 @@ rule: aRule
 	rule := aRule.
 	(rule isNil or: [rule isComposite ]) 
 		ifTrue: [ ^ self].	
-	critics := rule critics.
-	criticsModel items: rule critics.
+			
+	self criticsOf:   aRule.
 	toolbarModel rule: rule.

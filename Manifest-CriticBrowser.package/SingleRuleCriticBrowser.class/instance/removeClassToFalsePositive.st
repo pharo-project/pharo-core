@@ -1,12 +1,13 @@
 menu
 removeClassToFalsePositive
-
-	| manifestBuilder |
-	criticsModel selectedItems
-		ifNotNil: [:criticss | criticss do: [:critic |
-			manifestBuilder := checker manifestBuilderOf: critic. 
-			critic isCompiledMethod 
-				ifTrue: [ manifestBuilder removeRejectClass: critic methodClass]
-				ifFalse: [ manifestBuilder removeRejectClass: critic theNonMetaClass ]]].
-	self  updateList
+		| class |
+	
+	criticsModel selectedItems ifNotNil: [ :items |
+		items do: [ :critic |
+			class := critic isCompiledMethod 
+				ifTrue: [  critic methodClass]
+				ifFalse: [critic].
+			cache removeFalsePositiveClass: class.
+			]]
+	
 	

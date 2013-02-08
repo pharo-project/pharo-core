@@ -9,5 +9,5 @@ testCreationManifestOn
 				removeFromChanges;
 				removeFromSystemUnlogged ].
 	self assert: (manifestBuilder manifestOf: MFClassA ) isNil.
-	self assert: (BuilderManifest on: MFClassA) notNil.
+	self assert: (BuilderManifest of: MFClassA) notNil.
 	self assert: (manifestBuilder manifestOf: MFClassA) notNil

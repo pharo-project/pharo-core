@@ -2,13 +2,14 @@ private
 applyRules
 
 	|  packageCount nbPackage process rules|	
-	rules := rulesModel getRoots first.
+	rules := rulesModel getRoots first. 
 	rules resetResult.
 	nbPackage := rbEnvironment packages size.
 	packageCount := 0.
 	self updateTree.
 	process := [  
 		rbEnvironment packages do: [:package ||  windowTitle |
+			
 			packageCount := packageCount + 1.
 			windowTitle := String streamContents: [:s | 
 				s 
@@ -20,12 +21,15 @@ applyRules
 					<< nbPackage asString
 					<< ')' ].				
 			self setTitle: windowTitle.
-			checker runRules: rules onPackage: package ].
-	
+			package packageSet packages do: [:RPa |
+				checker runRules: rules onPackage: RPa withoutTestCase: removeTestCase] ].
+		checker rule: rules.
 		self setTitle: 'Critics Browser'.
-		self collectRulesData. 
+		cache packages: rbEnvironment.
+		cache initCache. 
 		self updateTree.
+		
 		self registerToAnnouncements ] newProcess.
-
+	
 	process name: 'SmallLint'.
 	process resume.

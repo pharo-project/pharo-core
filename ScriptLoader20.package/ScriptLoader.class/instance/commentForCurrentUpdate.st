@@ -1,16 +1,10 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7460:	Icons for TestCase in Nautilus, after a clean for production
-	http://code.google.com/p/pharo/issues/detail?id=7460
+ ^ 'Issue 7269:	Code Critic automatically adds class without permission
+	http://code.google.com/p/pharo/issues/detail?id=7269
 	
-Issue 7457:	safe UsersManager usage in Monticello
-	http://code.google.com/p/pharo/issues/detail?id=7457
+Issue 7238:	LazyListMorph>>selectionFrameForRow: fails with a should not happen from Rectangle>>intersect:ifNone:
+	http://code.google.com/p/pharo/issues/detail?id=7238
 	
-Issue 6737:	Test Runner: File out results
-	http://code.google.com/p/pharo/issues/detail?id=6737
-	
-Issue 7359:	CompositeFillStyle has unclassified methods
-	http://code.google.com/p/pharo/issues/detail?id=7359
-	
-Issue 7456:	Create a trait while a class is selected
-	http://code.google.com/p/pharo/issues/detail?id=7456'
+Issue 6917:	save as... to an already existing image throws a DNU
+	http://code.google.com/p/pharo/issues/detail?id=6917'

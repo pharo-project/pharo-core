@@ -5,7 +5,11 @@ reapplyRule: aRule
 	oldCritics := aRule critics.
 	aRule resetResult.
 	rbEnvironment packages do: [:package |
-		checker runRules: aRule onPackage: package ]. 	
+		package packageSet packages do: [:RPa |
+				checker runRules: aRule onPackage: RPa withoutTestCase: removeTestCase]]. 	
 	(oldCritics \ (aRule critics)) do: [:each |
-		self addTruePositive: each onRule: aRule].
+		cache removeCritic: each forRule: aRule.
+		cache removeFalsePositive: each forRule: aRule.
+		cache removeToDo: each forRule: aRule.
+		].
 	checker rule: aRule. 

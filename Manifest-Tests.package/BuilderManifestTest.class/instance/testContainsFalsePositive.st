@@ -4,7 +4,7 @@ testContainsFalsePositive
 	| manifestBuilder |
 	
 
-	manifestBuilder := BuilderManifest on: MFClassA .
+	manifestBuilder := BuilderManifest of: MFClassA .
 	manifestBuilder  installFalsePositiveOf: 'test' version: 0.
 	
 	manifestBuilder addFalsePositive: MFClassA of: 'test' version: 0. 

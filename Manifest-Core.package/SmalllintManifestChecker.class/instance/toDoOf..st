@@ -1,7 +1,7 @@
 manifest
 toDoOf: aRule
 	
-	|critics rId rV |
+	|critics rId rV mb |
 	
 	critics := self criticsOf: aRule. 
 	
@@ -9,5 +9,9 @@ toDoOf: aRule
 	rV := aRule class identifierMinorVersionNumber.
 	
 	^ critics select: [:critic |
-		( self manifestBuilderOf: critic) containsToDo: critic onRule:  rId version: rV].
+		mb := (self manifestBuilderOf: critic).
+		mb isNil 
+			ifTrue: [false] 
+			ifFalse:[ mb containsToDo: critic onRule:  rId version: rV]]
+	
 	

@@ -1,7 +1,7 @@
 accessing
 manifestOf: elem
 
-	
+	| packageName |
 	packageName := self packageNameOf: elem.
 
 	manifestClass := self class allManifestClasses 

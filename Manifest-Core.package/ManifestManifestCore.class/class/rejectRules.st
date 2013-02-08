@@ -1,3 +1,3 @@
 meta data
 rejectRules
-^ #('LawOfDemeterRule' 'MethodHasNoTimeStampRule')
+^ #('MethodHasNoTimeStampRule')

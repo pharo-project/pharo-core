@@ -3,7 +3,7 @@ tearDown
 	
 	| cl |
 	cl := Smalltalk globals at: #ManifestManifestResourcesTests ifAbsent: [ nil ].
-	cl
+	cl 
 		ifNotNil: [ 
 			cl
 				removeFromChanges;

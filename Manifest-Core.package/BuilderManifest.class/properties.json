@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"manifestClass",
-		"packageName" ],
+		"manifestClass" ],
 	"name" : "BuilderManifest",
 	"pools" : [
 		 ],

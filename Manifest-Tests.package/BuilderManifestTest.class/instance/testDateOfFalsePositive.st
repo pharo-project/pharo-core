@@ -4,7 +4,7 @@ testDateOfFalsePositive
 	| manifestBuilder date1 date2 |
 	
 
-	manifestBuilder := BuilderManifest on: MFClassA .
+	manifestBuilder := BuilderManifest of: MFClassA .
 	manifestBuilder  installFalsePositiveOf: 'test' version: 0.
 	
 	date1 :=  DateAndTime current.

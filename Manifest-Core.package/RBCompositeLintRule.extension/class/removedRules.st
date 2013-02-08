@@ -6,8 +6,6 @@ removedRules
 		RBMethodModifierOverrideRule new.
 		RBMethodModifierSuperRule new.
 		RBMethodModifierFinalRule new.
-		BugRule new.
-		DoNotUnderstandThisRule new.
 		RBAssignmentWithoutEffectRule new.
 		RBUtilityMethodsRule new. } "this rule is contains a bug"
 	

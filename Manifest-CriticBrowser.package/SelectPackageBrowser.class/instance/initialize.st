@@ -8,6 +8,8 @@ initialize
 	selectedModel beMultipleSelection.
 	toSelectModel beMultipleSelection.
 	
+	testPackage := OrderedCollection new.
+	
 	wrappingBlock := [:package |
 		package packageName].
 	

@@ -2,7 +2,7 @@ tests
 testCleanUpFP
 	| manifestBuilder |
 	
-	manifestBuilder := BuilderManifest on: MFClassA. .
+	manifestBuilder := BuilderManifest of: MFClassA. .
 	MFClassA compile:  'foo'.
 	manifestBuilder installFalsePositiveOf: 'test' version: 0.
 	manifestBuilder addFalsePositive: (MFClassA>>#foo) of:  'test' version: 0. 

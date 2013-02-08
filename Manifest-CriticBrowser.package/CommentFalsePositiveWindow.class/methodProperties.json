@@ -2,6 +2,6 @@
 	"class" : {
 		"openOnCritic:onRule:" : "StephaneDucasse 11/21/2012 17:49" },
 	"instance" : {
-		"initializeForFalsePositive" : "StephaneDucasse 11/21/2012 17:49",
-		"initializeTextForFalsePositive" : "Sd 11/30/2012 17:34",
+		"initializeForFalsePositive" : "SimonAllier 2/1/2013 15:06",
+		"initializeTextForFalsePositive" : "SimonAllier 2/1/2013 15:06",
 		"initializeWidgets" : "Sd 11/30/2012 16:43" } }
