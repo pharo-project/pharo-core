@@ -3,7 +3,7 @@ snapshot
 	| packageInfo definitions categories |
 	packageInfo := self packageSet.
 	definitions := OrderedCollection new.
-	categories := packageInfo systemCategories.
+	categories := (packageInfo packages collect: #packageName) asArray.
 	categories isEmpty 
 		ifFalse: [ definitions add: (MCOrganizationDefinition categories: categories) ].
 		
