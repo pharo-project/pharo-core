@@ -2,7 +2,7 @@
 	"class" : {
 		"buildKeymapsOn:" : "EstebanLorenzano 7/4/2012 12:45" },
 	"instance" : {
-		"accepted" : "EstebanLorenzano 8/17/2012 16:57",
+		"accepted" : "EstebanLorenzano 2/8/2013 15:11",
 		"close" : "EstebanLorenzano 7/4/2012 10:46",
 		"createSearchMorph" : "EstebanLorenzano 8/1/2012 11:28",
 		"defaultBorderColor" : "EstebanLorenzano 7/4/2012 12:37",
@@ -15,4 +15,8 @@
 		"localHandleKeystroke:" : "BenjaminVanRyseghem 6/28/2012 17:52",
 		"model" : "EstebanLorenzano 1/21/2012 12:11",
 		"open" : "EstebanLorenzano 7/4/2012 10:46",
+		"resolveSymbol:" : "EstebanLorenzano 2/8/2013 15:33",
+		"symbolIsClass:" : "EstebanLorenzano 2/8/2013 15:13",
+		"symbolIsPackage:" : "EstebanLorenzano 2/8/2013 15:15",
+		"symbolIsSelector:" : "EstebanLorenzano 2/8/2013 15:13",
 		"updateContentsWithMenu" : "BenjaminVanRyseghem 6/28/2012 17:51" } }

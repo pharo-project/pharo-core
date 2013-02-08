@@ -4,8 +4,8 @@ testReferencedClasses
 	self debug: #testReferencedClasses
 	"
 	| refs |
-	refs := Beeper referencedClasses.
-	self assert: (refs includes: SoundService).
+	refs := Metaclass referencedClasses.
+	self assert: (refs includes: ClassBuilder).
 
 	refs := self class referencedClasses.
 	self assert: (refs includesAllOf: {SoundService . Beeper})
