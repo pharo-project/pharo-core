@@ -4,7 +4,8 @@ initializeWidgets
 	self instantiateModels: #(
 		criticsModel IconListModel
 		sourceCodeModel TextModel 
-		toolbarModel CriticToolbar ).
+		toolbarModel CriticToolbar
+		textInputFieldModel TextInputFieldModel ).
 
 	criticsModel beMultipleSelection.
 		

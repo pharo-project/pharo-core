@@ -1,5 +1,8 @@
 accessing
 criticsOf: aRule
-
-	^ (rule leaves detect: [:r |
-		r class = aRule class]) critics
+	| rules |
+	
+	rules := rule leaves detect: [:r |
+		r class = aRule class] ifNone: [^{}].
+	
+	^ rules critics

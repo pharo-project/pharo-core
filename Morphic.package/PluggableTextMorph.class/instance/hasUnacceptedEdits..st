@@ -1,4 +1,4 @@
-transcript
+styling
 hasUnacceptedEdits: aBoolean
 	"Set the hasUnacceptedEdits flag to the given value. "
 	

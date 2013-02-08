@@ -1,4 +1,4 @@
-scroll bar events
+private
 hScrollBarValue: scrollValue
 	super hScrollBarValue: scrollValue.
 	textMorph ifNotNil: [textMorph selectionChanged].

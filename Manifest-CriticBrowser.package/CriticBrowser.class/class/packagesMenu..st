@@ -9,7 +9,7 @@ packagesMenu: aBuilder
 	packages := OrderedCollection new.
 
 	
-	target selectedPackages collect: [:p |   MCWorkingCopy managersForCategory: p packageName do: [:package | packages add: package]].
+	target selectedPackages do: [:p |   MCWorkingCopy managersForCategory: p packageName do: [:package | packages add: package]].
 	rules :=  RBCompositeLintRule allGoodRules.
 
 	env := (RBPackageEnvironment new 

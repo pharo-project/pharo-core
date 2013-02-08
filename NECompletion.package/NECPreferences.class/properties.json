@@ -12,7 +12,9 @@
 		"popupShowAutomatic",
 		"popupAutomaticDelay",
 		"popupShowWithShortcut",
-		"spaceAfterCompletion" ],
+		"spaceAfterCompletion",
+		"smartCharactersWithSingleSpace",
+		"smartCharactersWithDoubleSpace" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",

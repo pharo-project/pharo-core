@@ -2,16 +2,18 @@ initialization
 initializeTextInputFieldModel
 	|critics|
 	
-	textInputFieldModel := self instantiate: TextInputFieldModel.
+	
 	textInputFieldModel 
 		autoAccept: true;
 		ghostText: 'Search field';
+		text: ' ';
 		removeEntryCompletion.
-	critics := criticsModel listItems.
+	
 	textInputFieldModel acceptBlock: [: text | |matchText|
+		critics :=cache criticsOf: rule.
 		matchText := '*', text, '*'.
-		self criticsOf: (text isEmpty 
+		criticsModel items: (text isEmpty 
 			ifTrue: [critics]
 			ifFalse: [ critics select: [:critic |
 				matchText match: (self formatCritic: critic)]]).
-			self updateList]
+		criticsModel updateList]

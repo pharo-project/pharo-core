@@ -1,4 +1,4 @@
-styling
+settings
 appendEntry
 	"Append the text in the model's writeStream to the editable text. "
 	textMorph asText size > model characterLimit ifTrue:

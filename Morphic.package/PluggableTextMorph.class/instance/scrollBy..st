@@ -1,4 +1,4 @@
-scroll bar events
+private
 scrollBy: delta
 	"Move the contents in the direction delta."
 	

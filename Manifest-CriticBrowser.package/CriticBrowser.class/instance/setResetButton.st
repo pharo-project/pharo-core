@@ -3,5 +3,5 @@ setResetButton
 
 	resetButton 
 		state: false;
-		label: 'New Query';
+		label: 'Run new configuration';
 		action: self setActionResetButtom.

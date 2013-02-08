@@ -1,3 +1,3 @@
-settings
+scrolling
 shoutEnabled
 	^ self class shoutEnabled

@@ -1,6 +1,7 @@
 protocol
 criticsOf: aRule
-	aRule ifNil: [ ^ {}].
+	(aRule isNil "or: [aRule isEmpty]" )
+	ifTrue: [ ^ {}].
 	
 	^ aRule isComposite
 		ifTrue: [ aRule leaves gather: [:rule | self criticsOf: rule]]

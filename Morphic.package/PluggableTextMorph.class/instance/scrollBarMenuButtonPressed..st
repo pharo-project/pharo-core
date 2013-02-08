@@ -1,4 +1,4 @@
-private
+updating
 scrollBarMenuButtonPressed: event
 	"The menu button in the scrollbar was pressed; put up the menu"
 

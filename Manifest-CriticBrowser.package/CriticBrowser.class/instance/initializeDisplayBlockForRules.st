@@ -1,10 +1,11 @@
 initialization
 initializeDisplayBlockForRules
 
-	rulesModel displayBlock: [:rule || falsePositives toDos total text |
+	rulesModel displayBlock: [:rule || falsePositives toDos total text unknown |
 		falsePositives := (cache falsePositiveOf: rule) size.
 		toDos :=(cache toDosOf: rule) size.
-		total :=  (cache criticsOf: rule) size.
+		total :=  (cache criticsOf: rule) size. 
+		unknown  := total - falsePositives - toDos.
 		text := String streamContents: [:s |
 			s 
 				<< rule name 
@@ -12,8 +13,8 @@ initializeDisplayBlockForRules
 				<< falsePositives asString 
 				<< ', ToDo: '
 				<< toDos asString 
-				<< ', Total: ' 
-				<<  total asString 
+				<< ', Unclassfied: ' 
+				<<  unknown asString 
 				<<  ')' ].
 		total isZero
 			ifTrue: [ text ] 

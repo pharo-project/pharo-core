@@ -3,5 +3,5 @@ setLogButton
 
 	logButton 
 		state: false;
-		label: 'Log Critic In Manifest';
+		label: 'Save Critics';
 		action: self setActionLogButtom 

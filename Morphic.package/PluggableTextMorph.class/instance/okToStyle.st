@@ -1,4 +1,4 @@
-settings
+scrolling
 okToStyle
 	self shoutEnabled 
 		ifFalse: [^ false].

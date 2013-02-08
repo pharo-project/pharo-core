@@ -11,3 +11,5 @@ initialize
 		at: ${ put: $};
 		at: $" put: $";
 		at: $' put: $'.
+	smartCharactersWithSingleSpace := ''.
+	smartCharactersWithDoubleSpace := '[]'.

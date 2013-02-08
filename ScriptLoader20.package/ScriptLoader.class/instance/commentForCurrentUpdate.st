@@ -1,13 +1,10 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7461:	Failing Tests: ClassQueryTest>>#testReferencedClasses
-	http://code.google.com/p/pharo/issues/detail?id=7461
+ ^ 'Issue 7464:	Code critic - codecritc browser
+	http://code.google.com/p/pharo/issues/detail?id=7464
 	
-Issue 7293:	[BUG]: Spotlight should handle packages
-	http://code.google.com/p/pharo/issues/detail?id=7293
+Issue 7102:	Dont insert spaces between SmartCharacters
+	http://code.google.com/p/pharo/issues/detail?id=7102
 	
-Issue 7090:	Should Float>>#printOn:base: use the slower exact printing?
-	http://code.google.com/p/pharo/issues/detail?id=7090
-	
-Issue 7076:	Evaluating "[[ false ] whileFalse: [ ]]" produces SubscriptOutOfBounds
-	http://code.google.com/p/pharo/issues/detail?id=7076'
+Issue 7466:	PluggableTextMorph redo still not working
+	http://code.google.com/p/pharo/issues/detail?id=7466'

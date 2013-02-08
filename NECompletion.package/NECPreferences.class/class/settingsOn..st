@@ -19,16 +19,12 @@ settingsOn: aBuilder
 								setSelector: #useController:;
 								domainValues: availableControllers ].
 					(aBuilder setting: #backgroundColor)
-						target: self;
 						label: 'Background Color' translated.
 					(aBuilder setting: #expandPrefixes)
-						target: self;
 						label: 'Complete common prefixes using TAB in the suggested completions' translated.
 					(aBuilder setting: #useEnterToAccept)
-						target: self;
 						label: 'Use ENTER to accept a suggested completion' translated.
 					(aBuilder setting: #captureNavigationKeys)
-						target: self;
 						label: 'Use navigation keys for extended completion functionality' translated.
 					(aBuilder setting: #caseSensitive)
 						label: 'Case Sensitive';
@@ -36,6 +32,12 @@ settingsOn: aBuilder
 					(aBuilder setting: #smartCharacters)
 						label: 'Smart Characters';
 						description: 'Decide if you want eCompletion to use smart characters, e.g, to automatically close brackets.'.
+					(aBuilder setting: #smartCharactersWithSingleSpace)
+						label: 'Smart Characters with Single Space';
+				 		description: 'Enumerate the characters which are automatically insterted with a single space in between.'.
+					(aBuilder setting: #smartCharactersWithDoubleSpace) 
+						label: 'Smart Characters with Double Space';
+				 		description: 'Enumerate the characters which are automatically instered with a two spaces in between.'.
 					(aBuilder setting: #popupShowAutomatic)
 						default: self defaultPopupShowAutomatic;
 						label: 'Popup is automatic'.
@@ -48,4 +50,5 @@ settingsOn: aBuilder
 						domainValues: self availablePopupShortcuts.
 					(aBuilder setting: #spaceAfterCompletion)
 						default: self defaultSpaceAfterCompletion;
-						label: 'Put a space after completion' ]
+						label: 'Put a space after completion'
+					 ].

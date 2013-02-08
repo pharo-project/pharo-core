@@ -1,4 +1,4 @@
-transcript
+styling
 hasEditingConflicts: aBoolean
 
 	hasEditingConflicts := aBoolean.
