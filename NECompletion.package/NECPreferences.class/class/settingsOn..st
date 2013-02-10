@@ -23,7 +23,8 @@ settingsOn: aBuilder
 					(aBuilder setting: #expandPrefixes)
 						label: 'Complete common prefixes using TAB in the suggested completions' translated.
 					(aBuilder setting: #useEnterToAccept)
-						label: 'Use ENTER to accept a suggested completion' translated.
+						label: 'Use ENTER to accept a suggested completion' translated;
+						default: self defaultUseEnterToAccept.
 					(aBuilder setting: #captureNavigationKeys)
 						label: 'Use navigation keys for extended completion functionality' translated.
 					(aBuilder setting: #caseSensitive)

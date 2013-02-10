@@ -1,3 +1,3 @@
-defaults
+settings
 defaultPopupShortcut
 	^Character space shift

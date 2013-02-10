@@ -13,6 +13,7 @@
 		"defaultPopupShortcut" : "EstebanLorenzano 2/1/2013 17:22",
 		"defaultPopupShowAutomatic" : "EstebanLorenzano 2/1/2013 16:36",
 		"defaultSpaceAfterCompletion" : "EstebanLorenzano 2/1/2013 16:37",
+		"defaultUseEnterToAccept" : "BenjaminVanRyseghem 2/9/2013 17:52",
 		"enabled" : "",
 		"enabled:" : "EstebanLorenzano 4/12/2012 13:11",
 		"expandPrefixes" : "CamilloBruni 8/3/2012 23:56",
@@ -24,7 +25,7 @@
 		"popupShowAutomatic:" : "EstebanLorenzano 2/1/2013 15:37",
 		"popupShowWithShortcut" : "EstebanLorenzano 2/1/2013 16:40",
 		"popupShowWithShortcut:" : "EstebanLorenzano 2/1/2013 15:39",
-		"settingsOn:" : "SeanDeNigris 2/8/2013 09:27",
+		"settingsOn:" : "BenjaminVanRyseghem 2/9/2013 17:52",
 		"smartCharacters" : "",
 		"smartCharacters:" : "",
 		"smartCharactersMapping" : "",
@@ -36,7 +37,7 @@
 		"spaceAfterCompletion" : "EstebanLorenzano 2/1/2013 15:54",
 		"spaceAfterCompletion:" : "EstebanLorenzano 2/1/2013 15:39",
 		"useController:" : "EstebanLorenzano 4/12/2012 11:24",
-		"useEnterToAccept" : "CamilloBruni 8/26/2012 23:28",
+		"useEnterToAccept" : "BenjaminVanRyseghem 2/9/2013 17:51",
 		"useEnterToAccept:" : "CamilloBruni 8/26/2012 23:28" },
 	"instance" : {
 		 } }

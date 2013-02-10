@@ -1,3 +1,3 @@
-defaults
+settings
 defaultSpaceAfterCompletion
 	^true

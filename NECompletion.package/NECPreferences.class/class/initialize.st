@@ -1,4 +1,4 @@
-initialization
+defaults
 initialize
 	enabled := caseSensitive := smartCharacters := false.
 	expandPrefixes := false.
