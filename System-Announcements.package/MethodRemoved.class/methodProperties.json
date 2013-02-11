@@ -1,10 +1,13 @@
 {
 	"class" : {
-		"methodRemoved:selector:protocol:class:" : "GuillermoPolito 8/2/2012 00:49" },
+		"methodRemoved:selector:protocol:class:origin:" : "MartinDias 2/11/2013 14:10" },
 	"instance" : {
+		"isProvidedByATrait" : "MartinDias 2/11/2013 14:09",
 		"methodAffected" : "GuillermoPolito 8/3/2012 14:10",
 		"methodClass" : "GuillermoPolito 8/2/2012 00:49",
 		"methodClass:" : "GuillermoPolito 8/2/2012 00:48",
+		"methodOrigin" : "MartinDias 2/11/2013 14:09",
+		"methodOrigin:" : "MartinDias 2/11/2013 14:09",
 		"methodRemoved" : "GuillermoPolito 8/2/2012 00:48",
 		"methodRemoved:" : "GuillermoPolito 8/2/2012 00:48",
 		"protocol" : "GuillermoPolito 8/2/2012 00:48",

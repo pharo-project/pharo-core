@@ -3,8 +3,8 @@ systemMethodRemovedActionFrom: ann
 
 	| method methodPackage |
 	method := ann methodAffected.
-	"If the method origin is not the one of the event, we do not care about that method"
-	method origin = ann methodClass ifFalse: [^ self].
+	"If the method is provided by a trait, we do not care about it"
+	ann isProvidedByATrait ifTrue: [^ self].
 
 	ann methodClass isMeta
 		ifFalse: [ 

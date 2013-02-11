@@ -9,7 +9,8 @@
 		"methodRemoved",
 		"protocol",
 		"selector",
-		"methodClass" ],
+		"methodClass",
+		"methodOrigin" ],
 	"name" : "MethodRemoved",
 	"pools" : [
 		 ],
