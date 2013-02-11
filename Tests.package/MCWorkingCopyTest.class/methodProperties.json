@@ -14,7 +14,7 @@
 		"snapshot" : "stephaneducasse 2/4/2006 20:47",
 		"tearDown" : "MiguelCoba 7/25/2009 02:03",
 		"testAncestorMerge" : "stephaneducasse 2/4/2006 20:47",
-		"testBackport" : "stephaneducasse 2/4/2006 20:47",
+		"testBackport" : "CamilloBruni 2/10/2013 17:28",
 		"testDoubleRepeatedMerge" : "stephaneducasse 2/4/2006 20:47",
 		"testMergeIntoImageWithNoChanges" : "stephaneducasse 2/4/2006 20:47",
 		"testMergeIntoUnmodifiedImage" : "stephaneducasse 2/4/2006 20:47",

@@ -1,6 +1,14 @@
 testing
 testObsoleteClasses
+	| obsoleteClasses |
+	
 	Smalltalk fixObsoleteReferences.
+	obsoleteClasses := SystemNavigation new obsoleteClasses.
+	
 	self 
-		assert: SystemNavigation new obsoleteClasses isEmpty
-		description: 'Obsolete classes remaining: ', SystemNavigation new obsoleteClasses asString.
+		assert: obsoleteClasses isEmpty
+		description: [
+			String streamContents: [ :s|
+				s 
+					nextPutAll: 'Obsolete classes remaining: ';
+					print: obsoleteClasses ]]

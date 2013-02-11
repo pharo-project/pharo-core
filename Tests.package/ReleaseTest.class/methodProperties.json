@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testInstalledMethodsWithIncorrectTrailerKind" : "MarcusDenker 2/4/2013 11:32",
-		"testInstanceSideMethodsWithNilKeyInLastLiteral" : "MarianoMartinezPeck 8/24/2012 11:31",
-		"testMethodsWithUnboundGlobals" : "MarcusDenker 7/12/2012 18:01",
-		"testObsoleteClasses" : "MarcusDenker 7/12/2012 18:01",
-		"testUndeclared" : "marcus.denker 8/18/2008 21:40",
+		"testInstalledMethodsWithIncorrectTrailerKind" : "CamilloBruni 2/10/2013 17:36",
+		"testInstanceSideMethodsWithNilKeyInLastLiteral" : "CamilloBruni 2/10/2013 17:35",
+		"testMethodsWithUnboundGlobals" : "CamilloBruni 2/10/2013 17:33",
+		"testObsoleteClasses" : "CamilloBruni 2/10/2013 17:33",
+		"testUndeclared" : "CamilloBruni 2/10/2013 17:34",
 		"testUnimplementedNonPrimitiveCalls" : "MarcusDenker 7/12/2012 18:01" } }
