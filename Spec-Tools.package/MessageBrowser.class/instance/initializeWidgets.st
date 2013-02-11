@@ -12,6 +12,5 @@ initializeWidgets
 				
 	self
 		setListMenu;
-		setListShortcuts;	
 		initializeDropList;
 		setFocus.

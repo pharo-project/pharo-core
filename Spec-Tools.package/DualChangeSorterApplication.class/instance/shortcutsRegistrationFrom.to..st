@@ -1,4 +1,5 @@
 initialization
 shortcutsRegistrationFrom: src to: dest
 	
-	src changesShortcuts: [:event :source | self changeSet: src to: dest shortcuts: event from: source ].
+	src changesModelOn: $c command do: [ self copyAllFrom: src to: dest ].
+	src changesModelOn: $- command do: [ self subtractFrom: src to: dest ]. 

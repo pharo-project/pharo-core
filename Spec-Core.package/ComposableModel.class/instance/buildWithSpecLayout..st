@@ -6,5 +6,6 @@ buildWithSpecLayout: aSpecLayout
 	widget := SpecInterpreter new interpretASpec: aSpecLayout model: self.
 		
 	self ensureExtentFor: widget.
+	self ensureKeyBindingsFor: widget.
 	
 	^ widget

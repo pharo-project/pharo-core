@@ -10,5 +10,4 @@ defaultSpec
 			#setBalloonText:.					{ #model . #help}.
 			#borderWidth:.						#(model borderWidth).
 			#borderColor:.						#(model borderColor).
-			#eventHandler:.					{	#EventHandler. #on:send:to:. #keyStroke.	#keyStroke:fromMorph:. #model	}.
 			#labelClickable:.					{	#model. #labelClickable}.}

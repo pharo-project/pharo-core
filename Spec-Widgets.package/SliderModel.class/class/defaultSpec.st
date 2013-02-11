@@ -14,7 +14,6 @@ defaultSpec
 		send: #borderWidth: withArguments: #(#(model borderWidth));
 		send: #borderColor: withArguments: #(#(model borderColor));
 		send:#setBalloonText: withArguments:	#(#(model help));
-		send: #eventHandler: withArguments: #(#(EventHandler on:send:to: keyStroke keyStroke:fromMorph: model));
 		send: #vSpaceFill;
 		send: #hSpaceFill;
 		yourself

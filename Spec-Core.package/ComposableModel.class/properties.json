@@ -12,8 +12,9 @@
 		"spec",
 		"extentHolder",
 		"needRebuild",
-		"isEventForNextFocusBlock",
-		"isEventForPreviousFocusBlock" ],
+		"keyStrokeForNextFocusHolder",
+		"keyStrokeForPreviousFocusHolder",
+		"additionalKeyBindings" ],
 	"name" : "ComposableModel",
 	"pools" : [
 		 ],

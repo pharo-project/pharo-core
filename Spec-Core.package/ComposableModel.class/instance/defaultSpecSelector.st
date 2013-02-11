@@ -8,7 +8,6 @@ defaultSpecSelector
 		collect: [:e | e method selector ])
 		ifNotEmpty: [:col | ^ col first ].
 
-
 	self specSelectors
 		ifNotEmpty: [:col | col size = 1 ifTrue: [ ^ col first ]].
 		

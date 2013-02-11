@@ -12,7 +12,6 @@ defaultSpec
 			#getIconSelector:.				#getIconFor:.
 			#resetListSelector:.				#resetListSelection.
 			#getMenuSelector:.			#menu:shifted:.
-			#keystrokeSelector:.			#keyStroke:fromMorph:.
 			#setMultipleSelection:.			{#model. #multiSelection}.
 			#wrapSelector:. 				#wrapItem:index:.
 			#borderWidth:.						#(model borderWidth).

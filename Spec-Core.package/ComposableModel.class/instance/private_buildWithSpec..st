@@ -6,5 +6,6 @@ private_buildWithSpec: aSpec
 	widget := SpecInterpreter private_buildWidgetFor: self withSpec: aSpec.
 
 	self ensureExtentFor: widget.
+	self ensureKeyBindingsFor: widget.
 		
 	^ widget

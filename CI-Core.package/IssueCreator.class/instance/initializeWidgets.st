@@ -9,15 +9,15 @@ initializeWidgets
 	title 
 		ghostText: 'Title';
 		autoAccept: true;
-		isEventForNextFocusBlock: [:ev | ev keyString = '<tab>' ];
-		isEventForPreviousFocusBlock: [:ev | ev keyString = '<Shift-tab>' ];
+		keyStrokeForNextFocus: Character tab asShortcut;
+		keyStrokeForPreviousFocus: Character tab shift asShortcut;
 		entryCompletion: nil;
 		isCodeCompletionAllowed: false.
 		
 	type 
 		items: self createTypes;
-		isEventForNextFocusBlock: [:ev | ev keyString = '<tab>' ];
-		isEventForPreviousFocusBlock: [:ev | ev keyString = '<Shift-tab>' ].
+		keyStrokeForNextFocus: Character tab asShortcut;
+		keyStrokeForPreviousFocus: Character tab shift asShortcut.
 	
 	description
 		isCodeCompletionAllowed: false;

@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"defaultSpec" : "BenjaminVanRyseghem 2/7/2013 14:12",
+		"defaultSpec" : "BenjaminVanRyseghem 2/8/2013 14:25",
 		"example" : "",
 		"title" : "" },
 	"instance" : {
@@ -19,8 +19,8 @@
 		"doItContext:" : "BenjaminVanRyseghem 9/28/2012 11:03",
 		"doItReceiver" : "BenjaminVanRyseghem 9/28/2012 11:03",
 		"doItReceiver:" : "BenjaminVanRyseghem 9/28/2012 11:03",
-		"eventStringForNextFocus" : "StephaneDucasse 5/17/2012 17:47",
-		"eventStringForPreviousFocus" : "StephaneDucasse 5/17/2012 17:47",
+		"eventKeyStrokeForNextFocus" : "BenjaminVanRyseghem 2/8/2013 13:20",
+		"eventKeyStrokeForPreviousFocus" : "BenjaminVanRyseghem 2/8/2013 13:21",
 		"getSelection" : "AndreiChis 12/6/2012 18:05",
 		"getText" : "BenjaminVanRyseghem 7/16/2012 20:10",
 		"guessTypeForName:" : "BenjaminVanRyseghem 6/22/2012 14:17",

@@ -2,7 +2,6 @@ private-focus
 giveFocusToNextFrom: aMorph
 
 	| focus |
-
 	focus := self focusOrder.
 
 	(focus includes: aMorph)

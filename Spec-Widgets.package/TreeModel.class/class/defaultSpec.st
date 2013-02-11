@@ -14,5 +14,4 @@ defaultSpec
 			#setBalloonText:.					{ #model . #help}.
 			#borderColor:.						#(model borderColor).
 			#borderWidth:.						#(model borderWidth).
-			#vResizing:. 						#spaceFill.
-			#eventHandler:.					{	#EventHandler. #on:send:to:. #keyStroke.	#keyStroke:fromMorph:. #model	}}
+			#vResizing:. 						#spaceFill.}

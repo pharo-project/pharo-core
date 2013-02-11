@@ -12,8 +12,8 @@ initializeWidgets
 	userField 
 		entryCompletion: nil;
 		autoAccept: true;
-		isEventForNextFocusBlock: [:ev | ev keyString = '<tab>' ];
-		isEventForPreviousFocusBlock: [:ev | ev keyString = '<Shift-tab>' ];
+		keyStrokeForNextFocus: Character tab asShortcut;
+		keyStrokeForPreviousFocus: Character tab shift asShortcut;
 		ghostText: 'username'.
 		
 	gmail text: '@gmail.com'.
@@ -23,6 +23,6 @@ initializeWidgets
 		acceptOnCR: true;
 		ghostText: 'password';
 		entryCompletion: nil;
-		isEventForNextFocusBlock: [:ev | ev keyString = '<tab>' ];
-		isEventForPreviousFocusBlock: [:ev | ev keyString = '<Shift-tab>' ];
+		keyStrokeForNextFocus: Character tab asShortcut;
+		keyStrokeForPreviousFocus: Character tab shift asShortcut;
 		beEncrypted.

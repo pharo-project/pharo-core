@@ -6,5 +6,6 @@ buildWithSpec: aSpec
 	widget := SpecInterpreter buildWidgetFor: self withSpec: aSpec.
 
 	self ensureExtentFor: widget.
+	self ensureKeyBindingsFor: widget.
 		
 	^ widget

@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"defaultSpec" : "BenjaminVanRyseghem 7/13/2012 05:29",
+		"defaultSpec" : "BenjaminVanRyseghem 2/8/2013 14:25",
 		"title" : "BenjaminVanRyseghem 6/12/2012 12:36" },
 	"instance" : {
 		"actionWhenActivatedHolder" : "BenjaminVanRyseghem 6/12/2012 12:36",
@@ -9,8 +9,8 @@
 		"click" : "BenjaminVanRyseghem 7/16/2012 16:50",
 		"desactivationAction:" : "BenjaminVanRyseghem 7/16/2012 17:05",
 		"enabledHolder" : "BenjaminVanRyseghem 6/12/2012 12:36",
-		"eventStringForNextFocus" : "BenjaminVanRyseghem 6/12/2012 12:36",
-		"eventStringForPreviousFocus" : "BenjaminVanRyseghem 6/12/2012 12:36",
+		"eventKeyStrokeForNextFocus" : "BenjaminVanRyseghem 2/8/2013 13:20",
+		"eventKeyStrokeForPreviousFocus" : "BenjaminVanRyseghem 2/8/2013 13:21",
 		"initialize" : "BenjaminVanRyseghem 6/12/2012 12:36",
 		"label" : "BenjaminVanRyseghem 7/16/2012 17:06",
 		"label:" : "BenjaminVanRyseghem 7/16/2012 17:05",

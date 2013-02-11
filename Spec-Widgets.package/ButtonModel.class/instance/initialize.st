@@ -14,3 +14,5 @@ initialize
 	labelHolder whenChangedDo: [	self changed: #label ].
 	stateHolder whenChangedDo: [	self changed: #state ].
 	enabledHolder whenChangedDo: [	self changed: #enabled ].
+		
+	self on: Character space asShortcut do: [ self action ].

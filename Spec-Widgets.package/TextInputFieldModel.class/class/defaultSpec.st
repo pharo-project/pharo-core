@@ -15,5 +15,4 @@ defaultSpec
 			#hResizing:. 							#spaceFill.
 			#vResizing:. 							#spaceFill.
 			#acceptOnCR:. 					{	#model. 	#acceptOnCR			}.
-			#hideScrollBarsIndefinitely.
-			#eventHandler:.					{	#EventHandler. #on:send:to:. #keyStroke.	#keyStroke:fromMorph:. #model	}}
+			#hideScrollBarsIndefinitely.}

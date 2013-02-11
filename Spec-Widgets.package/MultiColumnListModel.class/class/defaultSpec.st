@@ -12,7 +12,6 @@ defaultSpec
 			#getListElementSelector:. 		#listElementAt:.
 			#resetListSelector:.				#resetListSelection.
 			#getMenuSelector:.			#menu:shifted:.
-			#keystrokeSelector:.			#keyStroke:fromMorph:.
 			#setMultipleSelection:.			{#model. #multiSelection}.
 			#borderWidth:.						#(model borderWidth).
 			#borderColor:.						#(model borderColor).

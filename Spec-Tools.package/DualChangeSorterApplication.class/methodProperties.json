@@ -8,7 +8,6 @@
 		"registerToolsOn:" : "StephaneDucasse 7/4/2012 19:48",
 		"title" : "StephaneDucasse 11/2/2012 13:59" },
 	"instance" : {
-		"changeSet:to:shortcuts:from:" : "BenjaminVanRyseghem 6/13/2012 12:00",
 		"changeSorterLeft" : "",
 		"changeSorterRight" : "",
 		"changesMenu:shifted:from:to:" : "EstebanLorenzano 1/31/2013 19:24",
@@ -30,7 +29,7 @@
 		"refeshedChangeSet:" : "StephaneDucasse 11/2/2012 14:42",
 		"setFocusOrder" : "",
 		"shortcutsRegistration" : "BenjaminVanRyseghem 6/13/2012 12:05",
-		"shortcutsRegistrationFrom:to:" : "BenjaminVanRyseghem 6/13/2012 12:03",
+		"shortcutsRegistrationFrom:to:" : "BenjaminVanRyseghem 2/8/2013 14:12",
 		"submergeFrom:into:" : "BenjaminVanRyseghem 6/13/2012 12:10",
 		"subtractFrom:to:" : "BenjaminVanRyseghem 6/13/2012 12:01",
 		"title" : "StephaneDucasse 11/2/2012 14:40" } }
