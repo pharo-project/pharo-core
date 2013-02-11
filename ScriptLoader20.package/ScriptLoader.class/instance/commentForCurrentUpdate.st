@@ -1,10 +1,10 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7476:	eval command line handler uses cr instead of lf
-	http://code.google.com/p/pharo/issues/detail?id=7476
+ ^ 'Issue 7463:	New feature uin Nautilus
+	http://code.google.com/p/pharo/issues/detail?id=7463
 	
-Issue 7474:	Make ReleaseTest error messages more readable
-	http://code.google.com/p/pharo/issues/detail?id=7474
+Issue 7345:	DNU with Glamour: PaginatedMorphTreeMorph>>setSelectedMorph:
+	http://code.google.com/p/pharo/issues/detail?id=7345
 	
-Issue 7472:	Improve CommandLine TestRunner stability
-	http://code.google.com/p/pharo/issues/detail?id=7472'
+Issue 7469:	[ENH]: Enable most NEC Settings by default
+	http://code.google.com/p/pharo/issues/detail?id=7469'

@@ -1,4 +1,4 @@
-system announcements
+source code area
 methodAdded: anAnnouncement
 	
 	| method |

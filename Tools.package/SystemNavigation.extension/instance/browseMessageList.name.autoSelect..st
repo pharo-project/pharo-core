@@ -10,7 +10,12 @@ browseMessageList: messageList name: labelString autoSelect: autoSelectString
 		[^ self inform: 'There are no ', String cr, labelString].
 
 	methods size == 1
-		ifTrue: [ ^ methods first browse ].
+		ifTrue: [ | method |
+			method := methods first.
+			^ Smalltalk tools browser 
+				fullOnClass: method methodClass 
+				selector: method selector
+				highlight: autoSelectString ].
 
 	title := labelString, ' [', methods size printString, ']'.
 		

@@ -1,4 +1,4 @@
-widget - category
+tests
 loadCategories
 	
 	^ self model selectedClass

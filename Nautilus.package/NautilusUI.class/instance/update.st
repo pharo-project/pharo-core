@@ -1,4 +1,4 @@
-private
+widget - method
 update
 
 	categoryWidget resetCategoryCache.

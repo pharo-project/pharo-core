@@ -1,4 +1,4 @@
-source code area
+shortcuts from text morph
 compileSource: aText notifying: aController
 
 	| source category method |

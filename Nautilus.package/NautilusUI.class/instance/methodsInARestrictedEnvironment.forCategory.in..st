@@ -1,4 +1,4 @@
-private
+widget - method
 methodsInARestrictedEnvironment: env forCategory: aCategory  in: class
 	| mthds selectors |
 	

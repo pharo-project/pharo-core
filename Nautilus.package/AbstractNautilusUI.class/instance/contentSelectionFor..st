@@ -1,5 +1,5 @@
 source code area
-contentsSelectionFrom: aTextMorph
+contentSelectionFor: aTextMorph
 
 	aTextMorph ifLocked: [ ^ (1 to: 0) ].
 

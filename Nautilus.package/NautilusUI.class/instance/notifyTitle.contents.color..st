@@ -1,4 +1,4 @@
-private
+widget - method
 notifyTitle: title contents: contents color: aColor
 
 	 GrowlMorph 

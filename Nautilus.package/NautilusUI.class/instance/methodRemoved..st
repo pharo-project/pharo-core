@@ -1,4 +1,4 @@
-system announcements
+source code area
 methodRemoved: anAnnouncement
 	
 	| method |

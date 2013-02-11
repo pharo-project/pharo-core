@@ -1,4 +1,4 @@
-private
+widget - method
 hasFocus
 
 	^ window hasKeyboardFocus or: 

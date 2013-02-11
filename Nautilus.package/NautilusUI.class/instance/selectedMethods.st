@@ -1,4 +1,4 @@
-widget - method
+widget - category
 selectedMethods
 
 	^ methodWidget selectedMethods

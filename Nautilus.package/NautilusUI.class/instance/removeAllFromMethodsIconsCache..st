@@ -1,4 +1,4 @@
-widget - method
+widget - category
 removeAllFromMethodsIconsCache: aMethod
 
 	methodWidget removeAllFromMethodsIconsCache: aMethod

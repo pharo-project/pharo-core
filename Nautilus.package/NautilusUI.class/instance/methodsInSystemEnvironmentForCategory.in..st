@@ -1,4 +1,4 @@
-private
+widget - method
 methodsInSystemEnvironmentForCategory: aCategory  in: class
 	
 	aCategory = self allLabel

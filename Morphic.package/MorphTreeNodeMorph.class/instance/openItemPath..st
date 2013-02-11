@@ -21,4 +21,4 @@ openItemPath: anArray
 			^ found firstChild
 				ifNil: [container setSelectedMorph: nil]
 				ifNotNil: [found firstChild openItemPath: anArray allButFirst]].
-	^container listManager setSelectedMorph: nil
+	^self

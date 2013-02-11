@@ -1,4 +1,4 @@
-private
+widget - method
 methodsForCategoryInGroup: aCategory
 	| class group env mthds |
 

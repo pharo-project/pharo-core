@@ -1,3 +1,3 @@
-remove me
+private
 previousButtonState
 	^ true

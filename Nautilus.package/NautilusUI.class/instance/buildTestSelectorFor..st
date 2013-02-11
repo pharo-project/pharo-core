@@ -1,4 +1,4 @@
-private
+widget - method
 buildTestSelectorFor: aMethod
 
 	^ String streamContents: [:s || capitalize |

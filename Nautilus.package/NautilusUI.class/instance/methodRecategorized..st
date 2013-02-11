@@ -1,4 +1,4 @@
-system announcements
+source code area
 methodRecategorized: anAnnouncement
 	
 	window ifNil: [ ^ self ].

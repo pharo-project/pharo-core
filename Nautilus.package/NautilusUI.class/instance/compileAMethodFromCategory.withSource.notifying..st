@@ -1,4 +1,4 @@
-source code area
+shortcuts from text morph
 compileAMethodFromCategory: aCategory withSource: aString notifying: aController
 
 	| category selector class scroll method|

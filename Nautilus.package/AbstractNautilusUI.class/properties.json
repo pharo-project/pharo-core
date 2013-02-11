@@ -33,7 +33,8 @@
 		"shouldUpdateTitle",
 		"testSemaphore",
 		"sourceTextAreas",
-		"multipleMethodsEditor" ],
+		"multipleMethodsEditor",
+		"contentSelection" ],
 	"name" : "AbstractNautilusUI",
 	"pools" : [
 		 ],

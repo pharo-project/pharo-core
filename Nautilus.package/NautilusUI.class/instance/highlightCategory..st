@@ -1,4 +1,4 @@
-private
+widget - method
 highlightCategory: aMethod.
 		methodWidget resetMethodCache.
 		aMethod 

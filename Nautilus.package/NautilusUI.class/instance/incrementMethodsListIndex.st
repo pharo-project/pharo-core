@@ -1,4 +1,4 @@
-shortcuts from text morph
+remove me
 incrementMethodsListIndex
 
 	| index |

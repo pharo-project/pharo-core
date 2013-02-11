@@ -1,4 +1,4 @@
-tests
+system announcements
 debugTest: aMethod
 	| context process |
 	context := [ :value | 

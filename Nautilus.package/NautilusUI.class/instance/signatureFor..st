@@ -1,4 +1,4 @@
-private
+widget - method
 signatureFor: aSelector
 
 	^ (aSelector includes: $:)

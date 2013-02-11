@@ -1,4 +1,4 @@
-private
+widget - method
 methodsForCategory: aCategory 
 	| methds class env |
 	

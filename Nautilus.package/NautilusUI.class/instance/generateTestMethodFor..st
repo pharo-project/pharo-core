@@ -1,4 +1,4 @@
-private
+widget - method
 generateTestMethodFor: aMethod
 
 	"generate a test method for aMethod and return the generated method"

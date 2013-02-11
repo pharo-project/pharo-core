@@ -1,4 +1,4 @@
-private
+widget - method
 allLabel
 
 	^ '--- all ---'

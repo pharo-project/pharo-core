@@ -1,3 +1,3 @@
-private
+widget - method
 forceSelection: aNode
  
