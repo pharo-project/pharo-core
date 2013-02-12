@@ -12,6 +12,7 @@
 		"LowSpaceProcess",
 		"LowSpaceSemaphore",
 		"MemoryHogs",
+		"ShouldDownloadSourcesFile",
 		"ShutDownList",
 		"SourceFileVersionString",
 		"SpecialSelectors",

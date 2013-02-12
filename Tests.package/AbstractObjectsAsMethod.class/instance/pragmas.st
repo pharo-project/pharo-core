@@ -1,2 +1,3 @@
 compatibility
-flushCache
+pragmas
+	^#()

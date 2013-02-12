@@ -4,10 +4,9 @@ sourcesDownloadClient
 	Enforce success, but be silent when something goes wrong.
 	Ask for gzip content encoding to improve download speed."
 	
-	| client |
-	(client := ZnClient new)
+	^ ZnClient new
 		systemPolicy;
 		accept: ZnMimeType textPlain;
-		ifFail: [ :exception | "ignore" ].
-	client request setAcceptEncodingGzip.
-	^ client
+		ifFail: [ :exception | "ignore" ];
+		setAcceptEncodingGzip;
+		yourself

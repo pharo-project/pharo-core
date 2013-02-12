@@ -13,6 +13,10 @@ systemSettingOn: aBuilder
 				label: 'Check sources file availability' translated;
 				target: SmalltalkImage;
 				description: 'If true, then you will be warned, whenever you start up, if no sources file can be found.' translated.
+			(aBuilder setting: #shouldDownloadSourcesFile)
+				label: 'Download sources file' translated;
+				target: SmalltalkImage;
+				description: 'If true, when no sources file can be found, the file will be downloaded.' translated.
 			(aBuilder setting: #checkChangesFileAvailability)
 				label: 'Check changes file availability' translated;
 				target: SmalltalkImage;
