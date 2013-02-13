@@ -1,4 +1,4 @@
-as yet unclassified
+private
 reorderCategories: allCategories original: oldCategories
 	| first |
 	first := allCategories detect: [:ea | categories includes: ea] ifNone: [^ allCategories].

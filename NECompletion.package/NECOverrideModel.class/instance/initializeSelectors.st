@@ -1,6 +1,7 @@
 initialize-release
 initializeSelectors
-	self initializeSelectorsFor: clazz superclass.
+	clazz superclass ifNotNil: [ 
+		self initializeSelectorsFor: clazz superclass].
 	clazz methodDictionary keysDo: 
 		[ :each | 
 		| entry |

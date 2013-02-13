@@ -10,5 +10,5 @@ Issue 7341:	Failing test: ReleaseTest>>#testInstalledMethodsWithIncorrectTrailer
 Issue 7485:	Make SmalltalkImage>>#downloadSources behavior an optional setting and default to false
 	http://code.google.com/p/pharo/issues/detail?id=7485'.
 	self loadTogether: self script513 merge: false.
-	MCMockClassA compileAll.
+	"MCMockClassA compileAll."
 	self flushCaches.

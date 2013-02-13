@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 summary
 	^ categories asArray printString

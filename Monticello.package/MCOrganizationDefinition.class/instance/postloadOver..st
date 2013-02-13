@@ -1,4 +1,4 @@
-as yet unclassified
+installing
 postloadOver: oldDefinition
 	SystemOrganization categories:
 		(self

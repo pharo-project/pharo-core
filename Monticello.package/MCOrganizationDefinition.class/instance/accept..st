@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 accept: aVisitor
 	^ aVisitor visitOrganizationDefinition: self

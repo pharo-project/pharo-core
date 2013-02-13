@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 description
 	^ Array with: #organization with: self commonPrefix
