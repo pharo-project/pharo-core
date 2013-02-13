@@ -1,7 +1,13 @@
 testing
 testRemoveFromSystem
-	self t4 removeFromSystem.
-	self deny: (Smalltalk globals includesKey: #T4).
-	self assert: self t4 name = 'AnObsoleteT4'.
-	self assert: self t4 methodDict isEmpty.
-	self deny: (self t1 users includes: self t4)
+	self flag: #fix.	"It has to be refactored when Mariano's ClassBuilder for testCase is integrated :)"
+	SystemAnnouncer uniqueInstance
+		suspendAllWhile: [ 
+			| aClass aTrait |
+			[ 
+			aTrait := self createTrait.
+			aClass := self createClassUsing: aTrait.
+			aTrait removeFromSystem: false.
+			self deny: aClass hasTraitComposition.
+			self assert: aTrait isObsolete. ]
+				ensure: [ aClass removeFromSystem: false ] ]

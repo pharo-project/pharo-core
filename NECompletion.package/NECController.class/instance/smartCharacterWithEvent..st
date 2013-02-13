@@ -36,7 +36,7 @@ smartCharacterWithEvent: anEvent
 						ifFalse: [ char asString ]
 						ifTrue: [ self newSmartCharacterInsertionStringForLeft: char right: opposite ]].
 	editor replaceSelectionWith: insertion.
-	insertionCenter := insertion size / 2.
+	insertionCenter := insertion size // 2 max: 1.
 	editor selectFrom: editor startIndex + insertionCenter to: editor startIndex + (insertionCenter - 1).
 	self invalidateEditorMorph.
 	^ true

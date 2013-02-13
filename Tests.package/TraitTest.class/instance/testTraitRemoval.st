@@ -1,10 +1,18 @@
 testing
 testTraitRemoval
-	| selectorsFromT1 |
-	selectorsFromT1 := self t1 selectors.
-	self c1 addToComposition: self t1.
-	self assert: (self c1 selectors includesAllOf: selectorsFromT1).
-	self assert: (self c1 organization allMethodSelectors includesAllOf: selectorsFromT1).
-	self c1 removeFromComposition: self t1.
-	self deny: (self c1 selectors includesAnyOf: selectorsFromT1).
-	self deny: (self c1 organization allMethodSelectors includesAnyOf: selectorsFromT1)
+	self flag: #fix.	"It has to be refactored when Mariano's ClassBuilder for testCase is integrated :)"
+	SystemAnnouncer uniqueInstance
+		suspendAllWhile: [ 
+			| aClass aTrait |
+			[ 
+			aTrait := self createTrait.
+			aClass := self createClassUsing: aTrait.
+			self assert: aClass localSelectors isEmpty.
+			aClass removeFromComposition: aTrait.
+			self assert: aClass localSelectors isEmpty.
+			self assert: aClass organization allMethodSelectors isEmpty.
+			self deny: aClass hasTraitComposition.
+			self deny: (aTrait users includes: aClass). ]
+				ensure: [ 
+					aClass removeFromSystem: false.
+					aTrait removeFromSystem: false ] ]

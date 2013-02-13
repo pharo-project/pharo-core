@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"createClassUsing:" : "CamilleTeruel 2/12/2013 10:56",
+		"createTrait" : "CamilleTeruel 2/12/2013 10:56",
 		"testAddAndRemoveMethodsFromSubtraits" : "dvf 8/26/2005 14:32",
 		"testAddAndRemoveMethodsInClassOrTrait" : "dvf 8/26/2005 14:32",
 		"testAllClassVarNames" : "ms 5/8/2007 19:23",
@@ -14,10 +16,9 @@
 		"testOriginWithRequiredMethod" : "guillermoPolito 4/28/2012 16:41",
 		"testPrinting" : "marcus.denker 9/6/2009 15:38",
 		"testPrintingClassSide" : "md 8/15/2008 16:56",
-		"testRemoveFromSystem" : "lr 3/14/2010 21:13",
+		"testRemoveFromSystem" : "CamilleTeruel 2/12/2013 10:48",
 		"testRequirement" : "al 10/13/2006 13:54",
-		"testTraitRemoval" : "CamilleTeruel 2/8/2013 16:56",
-		"testTraitRemovalRemovesMethods" : "EstebanLorenzano 8/3/2012 15:30",
+		"testTraitRemoval" : "CamilleTeruel 2/12/2013 10:53",
 		"testTraitsMethodClassSanity" : "jannik.laval 5/2/2010 07:43",
 		"testTraitsUsersSanity" : "Alexandre.Bergel 7/4/2009 11:53",
 		"testUsers" : "dvf 8/30/2005 14:55",
