@@ -1,13 +1,7 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7488:	Failing test: #testMethodsWithUnboundGlobals
-	http://code.google.com/p/pharo/issues/detail?id=7488
+ ^ 'Issue 7490:	Do a ImageCleaner cleanUpForRelease
+	http://code.google.com/p/pharo/issues/detail?id=7490
 	
-Issue 7486:	Autocompletion fails when superclass is nil. (Generally Traits)
-	http://code.google.com/p/pharo/issues/detail?id=7486
-
-Issue 7482:	Starting from #20526, cannot remove non-empty category
-	http://code.google.com/p/pharo/issues/detail?id=7482
-	
-Issue 7446:	ClassDescription >> correspondingForTest is local
-	http://code.google.com/p/pharo/issues/detail?id=7446'
+Issue 7465:	Removing a trait from a composition makes dirty organization
+	http://code.google.com/p/pharo/issues/detail?id=7465'

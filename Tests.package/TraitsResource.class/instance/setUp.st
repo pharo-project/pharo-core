@@ -10,6 +10,10 @@ setUp
 						uses: { }).
 			self t1 comment: 'I am the trait T1'.
 			
+			self t1 compile: 'm11 ^11' classified: #cat1.
+			self t1 compile: 'm12 ^12' classified: #cat2.
+			self t1 compile: 'm13 ^self m12' classified: #cat3.
+			
 			self t2: (self createTraitNamed: #T2
 						uses: { }).
 			self t2 compile: 'm21 ^21' classified: #cat1.
@@ -39,9 +43,6 @@ setUp
 						superclass: Object
 						uses: { }).
 			self c1 compile: 'foo ^true' classified: #accessing.
-			self t1 compile: 'm11 ^11' classified: #cat1.
-			self t1 compile: 'm12 ^12' classified: #cat2.
-			self t1 compile: 'm13 ^self m12' classified: #cat3.
 			self c2: (self 
 						createClassNamed: #C2
 						superclass: self c1
