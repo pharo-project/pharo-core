@@ -2,4 +2,4 @@ tests
 testDefaultWorkingDirectory
 	| ref |
 	ref := filesystem workingDirectory.
-	self assert: (('file://', Smalltalk vm imagePath) beginsWith: ref asString)
+	self assert: (('File @ ', Smalltalk vm imagePath) beginsWith: ref asString)
