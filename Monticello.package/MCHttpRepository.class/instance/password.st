@@ -19,7 +19,7 @@ password
 				ifTrue: [^password]
 				ifFalse: [self user: answer] ].
 		
-		password := UIManager default requestPassword: 'Password for "', self user, '" at ', String cr, location.
+		password := UIManager default requestPassword: 'Password for "', self user, '" at ', String cr, self location.
 		"The user doesn't care about logging into this repo. Clear the username so they will not be prompted every time"
 		password isEmptyOrNil ifTrue: [ user := '' ].
 	].

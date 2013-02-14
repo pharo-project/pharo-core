@@ -4,7 +4,6 @@ initialize
 		add: #Image method: #reportImage;
 		add: #'Image Parameters' method: #reportImageParameters;
 		add: #'Image Sources' method: #reportSources;
-		add: #'Image Preferences' method: #reportPreferences;
 		add: #'MC Repositories' method: #reportRepositories;
 		add: #'MC Working Copies' method: #reportWorkingCopies;
 		add: #'VM General' method: #reportVM;
@@ -29,9 +28,5 @@ initialize
 			add: #'OS Details' method: #reportLinuxOSDetails
 	].
 	self add: #'OS Environment' method: #reportOSEnvironment.
-	self
-		add: #'Tiny Benchmarks' method: #reportTinyBenchmarks;
-		add: #'SUnit' method: #reportTestRunner";
-		add: #'Debug Log' method: #reportDebugLog".
 	categoriesSelected := Set with: #Image with: #'VM General'.
 	self updateReport
