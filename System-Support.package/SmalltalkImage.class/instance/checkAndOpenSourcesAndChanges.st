@@ -17,7 +17,7 @@ You won''t be able to save this image correctly until you fix this.'.
 
 	(sources := self openSources: self sourcesName forImage: LastImagePath)
 		ifNil: [
-			self downloadSources.
+			[ self downloadSources ] on: MessageNotUnderstood do: [ :exception | "ignore" ].
 			sources := self openSources: self sourcesName forImage: LastImagePath ].
 	changes := self openChanges: self changesName forImage: LastImagePath.
 

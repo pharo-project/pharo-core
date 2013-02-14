@@ -1,4 +1,4 @@
-sources, change log
+*Zinc-System-Support
 downloadSources
 	"Try downloading the sources file from 2 different locations to the shared directory.
 	Be silent when this does not work: a missing sources will be triggered later on.

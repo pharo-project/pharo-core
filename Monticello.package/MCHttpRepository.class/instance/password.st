@@ -4,23 +4,24 @@ password
 
 	self user isEmpty ifTrue: [^password ifNil: ['']].
 
-	Smalltalk globals at: #UsersManager ifPresent: [:usersManager |
-		password isEmptyOrNil ifTrue: [ 
-			password := (usersManager default currentUser userNamePasswordFor: self keyChainGroupSelector)
-							ifNil: [ '' ]
-							ifNotNil: [:usr | usr password ]]].
+	password isEmptyOrNil ifTrue: [ 
+		password := (UsersManager default currentUser userNamePasswordFor: self keyChainGroupSelector) 							ifNil: [ '' ]
+							ifNotNil: [:usr | usr password ]].
 
 
-	[password isEmptyOrNil] whileTrue: [
+	password isEmptyOrNil ifTrue: [
 		| answer |
-		"Give the user a chance to change the login"
-		answer := UIManager default request: 'User name for ', String cr, location
-			initialAnswer: self user.
-		answer isEmptyOrNil
-			ifTrue: [^password]
-			ifFalse: [self user: answer].
+		user isEmptyOrNil ifTrue: [
+			"Give the user a chance to change the login"
+			answer := UIManager default request: 'User name for ', String cr, location
+				initialAnswer: ''.
+			answer isEmptyOrNil
+				ifTrue: [^password]
+				ifFalse: [self user: answer] ].
 		
 		password := UIManager default requestPassword: 'Password for "', self user, '" at ', String cr, location.
+		"The user doesn't care about logging into this repo. Clear the username so they will not be prompted every time"
+		password isEmptyOrNil ifTrue: [ user := '' ].
 	].
 
 	^ password
