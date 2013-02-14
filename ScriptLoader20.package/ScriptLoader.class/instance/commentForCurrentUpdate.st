@@ -1,13 +1,4 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7467:	SystemReporter should not include SUnit Results
-	http://code.google.com/p/pharo/issues/detail?id=7467
-	
-Issue 7495:	Failing test: FLCreateTraitSerializationTest>>#testCreateWithInstance
-	http://code.google.com/p/pharo/issues/detail?id=7495
-	
-Issue 7498:	RPackage>>extensionMethodsForClass forget methods
-	http://code.google.com/p/pharo/issues/detail?id=7498
-	
-Issue 7507:	location is undefined for a SmalltalkHub repository in MCHttpRepository>>password
-	http://code.google.com/p/pharo/issues/detail?id=7507'
+ ^ 'Issue 7505:	do #cleanUpForRelease for every build
+	http://code.google.com/p/pharo/issues/detail?id=7505'

@@ -1,3 +1,4 @@
 actions
 loadUpdates
-	UpdateStreamer new updateFromServer
+	UpdateStreamer new updateFromServer.
+	ImageCleaner cleanUpForRelease.
