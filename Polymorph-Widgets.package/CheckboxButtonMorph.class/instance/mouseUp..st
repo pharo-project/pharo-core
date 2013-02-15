@@ -9,6 +9,5 @@ mouseUp: evt
 		ifTrue: [state == #repressed
 					ifTrue: [self state: #off]
 					ifFalse: [self state: #on].
-				self doButtonAction: evt]
-		ifFalse: [target ifNotNil: [target mouseUpBalk: evt]].
+				self doButtonAction: evt].
 	^self perform: #mouseUp: withArguments: {evt} inSuperclass: Morph

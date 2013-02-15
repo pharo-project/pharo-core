@@ -14,7 +14,7 @@ example
 
 	issue hasAttachment ifTrue: [
 		"give back a list of the recent attachements"
-		issue attachements.
+		issue attachments.
 		"give back a list of all attachments (including previous versions of the same file)"
 		issue allAttachments].
 	
