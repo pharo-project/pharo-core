@@ -64,6 +64,7 @@
 		"executeShould:inScopeOf:withDescriptionContaining:" : "EstebanLorenzano 8/17/2012 16:40",
 		"expectedFailures" : "MarcusDenker 8/1/2011 10:57",
 		"failureLog" : "md 2/22/2006 14:17",
+		"isExpectedFailure" : "MarcusDenker 2/15/2013 16:28",
 		"isLogging" : "",
 		"logFailure:" : "",
 		"openDebuggerOnFailingTestMethod" : "BaseSystem 8/30/2009 09:35",
@@ -80,5 +81,5 @@
 		"setTestSelector:" : "BaseSystem 8/30/2009 09:35",
 		"setUp" : "DavidRoethlisberger 11/10/2008 09:54",
 		"shouldAnnounce" : "Alexandre Bergel 7/29/2010 14:47",
-		"shouldPass" : "JF 7/30/2003 13:39",
+		"shouldPass" : "MarcusDenker 2/15/2013 16:28",
 		"tearDown" : "jannik.laval 10/1/2010 12:39" } }
