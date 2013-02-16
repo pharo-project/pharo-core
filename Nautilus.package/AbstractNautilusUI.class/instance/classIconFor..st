@@ -7,7 +7,7 @@ classIconFor: aClass
 			 icon class == IconicButtonStateHolder ifFalse: [ ^ icon ].
 			^ icon asIconTargetting: self ].
 
-	((aClass includesBehavior: (Smalltalk globals includesKey: #TestCase)) and: [ aClass isAbstract not ])
+	((aClass includesBehavior: (Smalltalk globals at: #TestCase ifAbsent: [ false ])) and: [ aClass isAbstract not ])
 		ifTrue: [ | icon button |
 			icon :=  self iconClass iconNamed: #testNotRun.
 

@@ -12,7 +12,6 @@ initialize
 	labels := {}.
 	published := nil.
 	relatedPackages := nil.
-	relatedTests := nil.
 	slice := nil.
 	state := nil.
 	status := nil.

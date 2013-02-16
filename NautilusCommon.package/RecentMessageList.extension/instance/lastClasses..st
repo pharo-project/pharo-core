@@ -3,7 +3,7 @@ lastClasses: anInteger
 
 	"I return the last anInteger classes modified"
 	| result tempList |
-	result := OrderedCollection new.
+	result := WeakOrderedCollection new.
 	tempList := self methodReferenceList sorted: [:a :b | a timeStamp >= b timeStamp].
 	
 	tempList do: [:method || class |
