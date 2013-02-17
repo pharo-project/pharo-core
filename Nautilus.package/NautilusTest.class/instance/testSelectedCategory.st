@@ -5,4 +5,4 @@ testSelectedCategory
 	nautilus selectedMethod: (Object>>#at:).
 	nautilus selectedCategory: 'test'.
 	self assert: (nautilus selectedCategory = 'test').
-	self assert: (nautilus selectedMethod isNil)
+	self assert: (nautilus selectedMethod isNil).

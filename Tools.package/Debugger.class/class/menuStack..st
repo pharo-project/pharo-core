@@ -39,5 +39,5 @@ menuStack: aBuilder
 
 	(aBuilder item: #'Copy to clipboard')
 		selector: #copyToClipboard.
-	(aBuilder item: #'File out Stack')
+	(aBuilder item: #'Fuel out Stack')
 		selector: #serializeStack.

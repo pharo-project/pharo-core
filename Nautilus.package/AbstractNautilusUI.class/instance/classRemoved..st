@@ -13,6 +13,6 @@ classRemoved: anAnnouncement
 					ifTrue: [ self selectedClass: nil ].
 				window isDisplayed ifFalse: [ ^ self ].
 				oldPackage := RPackageOrganizer default packageNamed: (anAnnouncement categoryName).
-	self removeFromPackagesIconsCache: oldPackage.
+				self removeFromPackagesIconsCache: oldPackage.
 				self updateBothView ].
 	

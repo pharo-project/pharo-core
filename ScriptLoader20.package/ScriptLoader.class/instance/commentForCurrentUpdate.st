@@ -1,13 +1,7 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7516:	Failing test: Undeclared
-	http://code.google.com/p/pharo/issues/detail?id=7516
+ ^ 'Issue 7523:	Now update the class icon when method modified or removed
+	http://code.google.com/p/pharo/issues/detail?id=7523
 	
-Issue 7514:	Nautilus cache for last modified classes prevents obsolete classes being GCd
-	http://code.google.com/p/pharo/issues/detail?id=7514
-	
-Issue 7462:	Failing tests RectangleTest
-	http://code.google.com/p/pharo/issues/detail?id=7462
-	
-Issue 7460:	Icons for TestCase in Nautilus, after a clean for production
-	http://code.google.com/p/pharo/issues/detail?id=7460'
+Issue 7522:	rename File out Stack to Fuel out Stack
+	http://code.google.com/p/pharo/issues/detail?id=7522'

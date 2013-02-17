@@ -9,7 +9,6 @@ testRunned: anAnnouncement
 	correspondingClass := anAnnouncement testResult correspondingClass.
 	collection :=  self getList2.
 	
-	
 	(collection includesAnyOf: {class. correspondingClass})
 		ifTrue: [ 
 			self removeClassFromMethodsIconsCache: class.
