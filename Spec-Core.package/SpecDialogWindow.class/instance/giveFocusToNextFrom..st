@@ -1,4 +1,4 @@
 focus
-giveFocusToNextFrom: aMorph 
+giveFocusToNextFrom: aModel 
 
-	^ self model giveFocusToNextFrom: aMorph 
+	^ self model giveFocusToNextFrom: aModel 

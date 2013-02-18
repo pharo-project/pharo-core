@@ -1,13 +1,13 @@
 private-focus
-giveFocusToPreviousFrom: aMorph 
+giveFocusToPreviousFrom: aModel 
 
 	| focus |
 	focus := self focusOrder.
 
-	(focus includes: aMorph)
+	(focus includes: aModel)
 		ifTrue: [
 			| index previous |
-			index := (focus indexOf: aMorph) - 1.
+			index := (focus indexOf: aModel) - 1.
 			(index > 0)
 				ifTrue: [
 					previous := focus at: index.

@@ -5,7 +5,7 @@
 		"announcer:" : "EstebanLorenzano 5/21/2012 17:33",
 		"classModified:" : "GuillermoPolito 8/3/2012 13:51",
 		"classMoved:" : "CamilloBruni 8/30/2012 11:19",
-		"classRemoved:" : "BenjaminVanRyseghem 2/6/2013 19:32",
+		"classRemoved:" : "EstebanLorenzano 2/18/2013 17:53",
 		"flushObsoletePackageInfos" : "StephaneDucasse 7/11/2010 23:02",
 		"forPackage:" : "EstebanLorenzano 5/21/2012 17:34",
 		"initialize" : "CamilloBruni 8/1/2012 16:27",
@@ -17,7 +17,7 @@
 		"methodModified:" : "GuillermoPolito 8/3/2012 13:57",
 		"methodMoved:" : "CamilloBruni 9/22/2012 10:43",
 		"methodRemoved:" : "GuillermoPolito 8/3/2012 14:15",
-		"registerInterestOnSystemChangesOnAnnouncer:" : "BenjaminVanRyseghem 2/6/2013 19:36",
+		"registerInterestOnSystemChangesOnAnnouncer:" : "EstebanLorenzano 2/18/2013 17:42",
 		"registry" : "stephaneducasse 2/4/2006 20:47" },
 	"instance" : {
 		"announcer" : "EstebanLorenzano 5/21/2012 17:31",
