@@ -1,3 +1,0 @@
-running
-fortyTwo
-	^ 42 

@@ -1,1 +1,0 @@
-I am a cluster for class variable associations, i.e. bindings that belong to the class pool of a Class included on Smalltalk globals.

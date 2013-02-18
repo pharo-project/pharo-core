@@ -1,3 +1,0 @@
-resetting
-reinitialize
-	super initializeAnalyzing

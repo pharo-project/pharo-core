@@ -1,26 +1,20 @@
 private
 runTestsOfClass: aClass notifying: aBoolean
-	| size methods blockToEvaluate |
+	| methods blockToEvaluate |
 
-	size := 0.
-	methods := OrderedCollection new.
-	
-	aClass methodDict
-		do: [ :method | 
-			method isTestMethod
-				ifTrue: [ 
-					size := size + 1.
-					methods add: method ]].
-	blockToEvaluate := [ methods do: [ :method | 
-											self 
-												runTestForAMethod: method 
-												notifying: false ]].
+	methods := aClass methodDict values select: [ :method | method isTestMethod ] thenCollect: [:e | e selector ].
+
+	blockToEvaluate := [ |result |
+		result := (aClass addToSuite: TestSuite new fromMethods: methods) run.
+		result updateResultsInHistory.
+		ClassesIconsCache removeKey: aClass ifAbsent: [].
+		testSemaphore signal. ].
 
 	aBoolean 
 		ifTrue: [ blockToEvaluate forkAt: Processor userBackgroundPriority ]
 		ifFalse: [ blockToEvaluate value ].
 
-	1 to: size do: [:e | testSemaphore wait ].
+	testSemaphore wait.
 	
 	aBoolean 
 		ifTrue: [ 

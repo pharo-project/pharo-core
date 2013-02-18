@@ -9,7 +9,8 @@
 		"actionHolder",
 		"labelHolder",
 		"stateHolder",
-		"actionPerformedHolder" ],
+		"actionPerformedHolder",
+		"askBeforeChangingHolder" ],
 	"name" : "ButtonModel",
 	"pools" : [
 		 ],

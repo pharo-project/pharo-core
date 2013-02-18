@@ -1,0 +1,4 @@
+protocol
+askBeforeChanging
+
+	^ askBeforeChangingHolder contents

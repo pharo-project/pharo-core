@@ -1,3 +1,0 @@
-method encoding
-compiledMethodToSerialize: aMethod
-	self subclassResponsibility 
