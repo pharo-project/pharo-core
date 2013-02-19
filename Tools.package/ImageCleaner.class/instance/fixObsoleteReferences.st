@@ -19,5 +19,3 @@ fixObsoleteReferences
 					binding key: binding key value: realClass ] ].
 	Behavior flushObsoleteSubclasses.
 	Smalltalk garbageCollect.
-	SystemNavigation new obsoleteBehaviors 
-		ifNotEmpty: [ SystemNavigation new obsoleteBehaviors inspect ]

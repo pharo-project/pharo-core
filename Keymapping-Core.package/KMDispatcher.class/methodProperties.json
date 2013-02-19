@@ -15,6 +15,8 @@
 		"directKeymaps" : "GuillermoPolito 10/20/2011 19:27",
 		"dispatch:" : "BenjaminVanRyseghem 7/3/2012 14:47",
 		"dispatchKeystroke:" : "EstebanLorenzano 2/1/2013 15:14",
+		"includesKeymapCategory:" : "EstebanLorenzano 2/19/2013 14:42",
+		"includesKeymapCategory:targetting:" : "EstebanLorenzano 2/19/2013 14:41",
 		"keymapObservers" : "GuillermoPolito 9/21/2012 16:13",
 		"noMatch" : "GuillermoPolito 6/24/2012 12:12",
 		"on:do:" : "GuillermoPolito 1/21/2012 21:34",
