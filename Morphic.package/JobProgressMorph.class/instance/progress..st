@@ -1,5 +1,4 @@
 API
 progress: aNormalizedNumber
-
-	bar progress: aNormalizedNumber.
-	self changed.
+	bar progress = aNormalizedNumber
+		ifFalse: [ bar progress: aNormalizedNumber ].

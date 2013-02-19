@@ -6,5 +6,4 @@ updateJob: aJobChange
 		ifFalse: [ 
 			bars last 
 				label: aJobChange title;
-				progress: aJobChange progress.
-	self uniqueInstance changed]
+				progress: aJobChange progress ]

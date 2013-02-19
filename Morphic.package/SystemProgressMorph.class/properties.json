@@ -7,7 +7,8 @@
 		"UniqueInstance" ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"lock" ],
+		"lock",
+		"lastRefresh" ],
 	"name" : "SystemProgressMorph",
 	"pools" : [
 		 ],

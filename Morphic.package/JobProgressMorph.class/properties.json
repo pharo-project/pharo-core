@@ -8,13 +8,13 @@
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		"bar",
+		"endValue",
 		"hasResult",
 		"job",
 		"labelMorph",
 		"lastRefresh",
 		"lock",
 		"result",
-		"endValue",
 		"startValue" ],
 	"name" : "JobProgressMorph",
 	"pools" : [

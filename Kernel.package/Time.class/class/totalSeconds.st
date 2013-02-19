@@ -1,5 +1,5 @@
 smalltalk-80
 totalSeconds
-	"Answer the total seconds since the Squeak epoch: 1 January 1901."
+	"Answer the total seconds since the Squeak epoch: 1 January 1901 in local time"
 
 	^ self primSecondsClock

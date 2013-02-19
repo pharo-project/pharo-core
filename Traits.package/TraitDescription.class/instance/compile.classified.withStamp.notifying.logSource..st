@@ -12,7 +12,7 @@ compile: text classified: category withStamp: changeStamp notifying: requestor l
 		
 	logSource ifTrue: [
 		self 
-			logMethodSource: methodAndNode node sourceCode 
+			logMethodSource: text asString
 			forMethodWithNode: methodAndNode
 			inCategory: category 
 			withStamp: changeStamp 

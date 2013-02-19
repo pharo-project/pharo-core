@@ -2,6 +2,7 @@ private
 initializeJob: aJob
 
 	super initialize.
+	
 	lock := Semaphore forMutualExclusion.
 	job := aJob.
 	hasResult := false.
