@@ -7,7 +7,7 @@ serializeTestFailureContext: aContext toFileNamed: aFilename
 	serializer addPostMaterializationAction: [ :materialization | 
 		Smalltalk tools debugger
 			openContext: materialization root
-		   	label: aFilename
+		   	label: 'External stack'
 		   	contents: nil ].
 		
 	serializer

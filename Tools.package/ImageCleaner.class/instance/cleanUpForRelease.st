@@ -28,4 +28,7 @@ cleanUpForRelease
 	Smalltalk cleanOutUndeclared. 
 	Smalltalk fixObsoleteReferences.
 	Smalltalk cleanUp: true except: #() confirming: false.
+	
+	Nautilus cleanUpForProduction.
+		
 	Author reset

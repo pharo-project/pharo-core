@@ -15,4 +15,7 @@ packagesForCleanUpInProduction
 	'Metacello-Platform'
 	'Metacello-Core'
 	'Metacello-Base'
-	)
+	"CI"
+	'CI-Core-SliceSubmitter'
+	'CI-Loader'
+	'CI-Core')
