@@ -1,0 +1,12 @@
+pharo - updates
+update20555
+	"self new update20555"
+	self withUpdateLog: 'Issue 7521:	Add PostMaterializationAction to Fueled out stack traces
+	http://code.google.com/p/pharo/issues/detail?id=7521
+	
+Issue 7532:	Integrate a preview of Fuel 1.9
+	http://code.google.com/p/pharo/issues/detail?id=7532
+	
+2nd attempt :)'.
+	self loadTogether: self script530 merge: false.
+	self flushCaches.

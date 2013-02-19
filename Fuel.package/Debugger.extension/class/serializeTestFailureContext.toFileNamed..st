@@ -2,12 +2,12 @@
 serializeTestFailureContext: aContext toFileNamed: aFilename
 	| serializer |
 	
-	serializer := FLSerializer newDefaultWithMethodSupport.
+	serializer := FLSerializer newDefault.
 	self encodeDebugInformationOn: serializer. 
 	serializer addPostMaterializationAction: [ :materialization | 
 		Smalltalk tools debugger
 			openContext: materialization root
-		   	label: 'This is the new debugger!'
+		   	label: aFilename
 		   	contents: nil ].
 		
 	serializer
