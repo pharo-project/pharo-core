@@ -2,8 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"expectedFailures" : "MarianoMartinezPeck 11/17/2012 13:18",
 		"testAvoidRecursion" : "MartinDias 5/9/2012 00:17",
 		"testLowercaseSomeSymbols" : "MartinDias 10/7/2011 16:33",
+		"testPrivateExcluded" : "MarianoMartinezPeck 9/18/2012 11:03",
+		"testPrivateExcludedAndWithConflicts" : "MarianoMartinezPeck 9/18/2012 11:03",
 		"testSimple" : "MartinDias 5/8/2012 20:03",
 		"testSubstituteByItself" : "MartinDias 5/8/2012 19:57",
 		"testTransientPair" : "MartinDias 10/7/2011 16:33",

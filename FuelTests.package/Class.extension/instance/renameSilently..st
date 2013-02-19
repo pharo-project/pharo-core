@@ -1,5 +1,3 @@
 *FuelTests
 renameSilently: aName
-	SystemAnnouncer uniqueInstance suspendAllWhile: [
-		self rename: aName.
-	]
+	 [ self rename: aName] fuelValueWithoutNotifications

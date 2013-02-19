@@ -1,10 +1,12 @@
 {
 	"class" : {
-		"newWith:root:" : "MartinDias 9/9/2011 22:13" },
+		"newWith:private:root:" : "MarianoMartinezPeck 9/18/2012 10:59" },
 	"instance" : {
 		"clusterization" : "MartinDias 9/9/2011 21:47",
 		"fuelAccept:" : "MartinDias 3/29/2012 03:05",
-		"initializeWith:root:" : "MartinDias 1/8/2012 15:41",
+		"initializeWith:private:root:" : "MarianoMartinezPeck 9/18/2012 10:58",
 		"mapAndTrace:" : "MartinDias 1/8/2012 12:36",
-		"run" : "MartinDias 9/10/2011 18:08",
+		"privateMapAndTrace:" : "MarianoMartinezPeck 9/18/2012 10:58",
+		"privateTrace:" : "MarianoMartinezPeck 9/18/2012 10:58",
+		"run" : "MarianoMartinezPeck 9/18/2012 10:58",
 		"trace:" : "MartinDias 8/20/2011 22:11" } }

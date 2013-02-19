@@ -9,7 +9,9 @@
 		"objectStack",
 		"firstMapper",
 		"clusterization",
-		"root" ],
+		"root",
+		"privateObjectStack",
+		"privateFirstMapper" ],
 	"name" : "FLAnalysis",
 	"pools" : [
 		 ],

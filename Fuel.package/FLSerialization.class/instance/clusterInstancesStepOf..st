@@ -2,6 +2,6 @@ private
 clusterInstancesStepOf: aCluster
 
 	encoder encodeClusterClass: aCluster class.
-	aCluster clusterSerializeStepWith: encoder.
+	aCluster clusterSerializeStepWith: self.
 	aCluster serializeInstancesStepWith: encoder.
 	aCluster serializePostInstancesStepWith: encoder.

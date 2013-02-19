@@ -1,4 +1,4 @@
 analyzing
 traceWith: anAnalysis 
 
-	self clusterReferencesDo: [ :aChild | anAnalysis trace: aChild ]
+	self clusterReferencesDo: [ :aChild | anAnalysis privateTrace: aChild ]

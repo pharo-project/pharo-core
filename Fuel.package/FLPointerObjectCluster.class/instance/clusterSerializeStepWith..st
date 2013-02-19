@@ -1,5 +1,5 @@
 serialize/materialize
-clusterSerializeStepWith: anEncoder
+clusterSerializeStepWith: aSerialization
 
-	super clusterSerializeStepWith: anEncoder.
-	variablesMapping serializeOn: anEncoder.
+	super clusterSerializeStepWith: aSerialization.
+	variablesMapping serializeOn: aSerialization encoder.

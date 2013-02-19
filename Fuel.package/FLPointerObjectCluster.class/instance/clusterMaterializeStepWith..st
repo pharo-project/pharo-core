@@ -1,5 +1,5 @@
 serialize/materialize
-clusterMaterializeStepWith: aDecoder
+clusterMaterializeStepWith: aMaterialization
 
-	super clusterMaterializeStepWith: aDecoder.
-	variablesMapping := aDecoder variablesMappingFor: theClass.
+	super clusterMaterializeStepWith: aMaterialization.
+	variablesMapping := aMaterialization decoder variablesMappingFor: theClass.

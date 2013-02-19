@@ -1,5 +1,5 @@
 serialize/materialize
-clusterMaterializeStepWith: aDecoder
+clusterMaterializeStepWith: aMaterialization
 
-	super clusterMaterializeStepWith: aDecoder.
-	theClass := aDecoder nextEncodedReference.
+	super clusterMaterializeStepWith: aMaterialization.
+	theClass := aMaterialization decoder nextEncodedReference.

@@ -6,6 +6,7 @@
 		"thisContextSample" : "MartinDias 3/26/2012 22:54" },
 	"instance" : {
 		"setUp" : "MartinDias 3/26/2012 22:52",
+		"testDoIt" : "MartinDias 2/18/2013 19:53",
 		"testFuelShouldIgnoreFuel" : "MartinDias 3/28/2012 01:19",
 		"testMethodContext" : "MartinDias 12/3/2011 22:21",
 		"testMethodContextThisContext" : "MartinDias 3/26/2012 22:52",

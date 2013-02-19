@@ -1,5 +1,5 @@
 serialize/materialize
-clusterSerializeStepWith: anEncoder
+clusterSerializeStepWith: aSerialization
 
-	super clusterSerializeStepWith: anEncoder.
-	anEncoder encodeReferenceTo: theClass.
+	super clusterSerializeStepWith: aSerialization.
+	aSerialization encoder encodeReferenceTo: theClass.

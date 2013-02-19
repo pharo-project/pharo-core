@@ -1,5 +1,5 @@
 serialize/materialize
-clusterSerializeStepWith: anEncoder
+clusterSerializeStepWith: aSerialization
 
-	super clusterSerializeStepWith: anEncoder.
-	anEncoder encodePositiveInteger: objects size.
+	super clusterSerializeStepWith: aSerialization.
+	aSerialization encoder encodePositiveInteger: objects size.

@@ -3,6 +3,8 @@
 		 },
 	"instance" : {
 		"expectedFailures" : "MartinDias 6/25/2012 21:09",
+		"setUp" : "MaxLeske 10/18/2012 07:42",
+		"tearDown" : "MaxLeske 10/18/2012 07:42",
 		"testAllRangeOfIntegers" : "MarianoMartinezPeck 6/15/2012 19:55",
 		"testArray" : "MartinDias 9/19/2011 11:27",
 		"testAssociation" : "MarianoMartinezPeck 9/6/2011 23:33",
@@ -23,6 +25,8 @@
 		"testCyclicLinksInArray" : "MartinDias 10/5/2011 18:15",
 		"testDate" : "MarianoMartinezPeck 9/2/2011 10:42",
 		"testDateAndTime" : "MarianoMartinezPeck 9/2/2011 10:41",
+		"testDateOffsets" : "MaxLeske 10/18/2012 08:07",
+		"testDateOffsetsChanging" : "MaxLeske 10/18/2012 08:08",
 		"testDictionary" : "MartinDias 10/17/2010 20:59",
 		"testDontConsiderCustomGlobal" : "MartinDias 1/10/2012 14:29",
 		"testDuration" : "MartinDias 9/9/2011 01:40",

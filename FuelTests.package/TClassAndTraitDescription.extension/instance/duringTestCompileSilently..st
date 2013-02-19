@@ -1,6 +1,7 @@
 *FuelTests
 duringTestCompileSilently: code
-
 	^ Author 
 		useAuthor: 'TestsAuthor'
-		during: [ self compileSilently: code classified: '' ]
+		during: [ 
+			 [self compile: code classified: '' withStamp: nil notifying: nil logSource: true] 				fuelValueWithoutNotifications
+			 ]

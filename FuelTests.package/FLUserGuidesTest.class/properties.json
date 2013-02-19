@@ -10,5 +10,5 @@
 	"name" : "FLUserGuidesTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "FLSerializationTest",
 	"type" : "normal" }

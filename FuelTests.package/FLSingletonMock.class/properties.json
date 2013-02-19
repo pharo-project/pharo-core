@@ -1,0 +1,14 @@
+{
+	"category" : "FuelTests-Mocks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"instance" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"reference" ],
+	"name" : "FLSingletonMock",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

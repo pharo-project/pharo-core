@@ -8,7 +8,9 @@ serializeError: error of: aTestCase
 		ctx receiver == aTestCase and: [ ctx methodSelector == #performTest ]].
 	context := context copyTo: testCaseMethodContext.
 	
-	[ self serializeTestFailureContext: context sender toFileNamed: aTestCase class name asString,'-', aTestCase selector, '.fuel'.
-			
-	] on: Error do: [:err| "simply continue..." ]
+	[ Smalltalk tools debugger 
+		serializeTestFailureContext: context sender 		
+		toFileNamed: aTestCase class name asString,'-', aTestCase selector, '.fuel'	] 
+	on: Error 
+	do: [:err| "simply continue..." ]
 

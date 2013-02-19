@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"clusterBucketIn:" : "MartinDias 1/8/2012 15:37",
+		"setTrailerWithNoChange" : "MartinDias 2/18/2013 17:58",
+		"setTrailerWithNoSource" : "MartinDias 2/18/2013 17:58",
+		"setTrailerWithSourceCode" : "MartinDias 2/18/2013 17:59",
+		"transformationForSerializing" : "MartinDias 2/18/2013 18:07",
+		"transformationForSerializing:" : "MartinDias 2/18/2013 17:58" },
+	"instance" : {
+		"materializeInstanceWith:" : "MartinDias 12/29/2011 20:57",
+		"materializeLiteralsTo:with:" : "MartinDias 12/29/2011 19:48",
+		"materializeReferencesStepWith:" : "MartinDias 12/29/2011 19:48",
+		"referencesOf:do:" : "MartinDias 3/21/2012 19:14",
+		"serializeInstance:with:" : "MartinDias 2/18/2013 17:58",
+		"serializeLiteralsOf:with:" : "MartinDias 3/21/2012 19:14",
+		"serializeReferencesStepWith:" : "MartinDias 12/29/2011 19:43" } }

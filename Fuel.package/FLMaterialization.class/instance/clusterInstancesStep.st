@@ -3,7 +3,7 @@ clusterInstancesStep
 
 	| aCluster |
 	aCluster := decoder nextEncodedClusterClass newMaterializing.
-	aCluster clusterMaterializeStepWith: decoder.
+	aCluster clusterMaterializeStepWith: self.
 	aCluster materializeInstancesStepWith: decoder.
 	self registerAll: aCluster objects.
 	aCluster materializePostInstancesStepWith: decoder.

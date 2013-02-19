@@ -1,5 +1,4 @@
 initialize-release
-initializeAnalyzing 
-
+initializeAnalyzing
 	super initializeAnalyzing.
 	globalSends := IdentityDictionary new.

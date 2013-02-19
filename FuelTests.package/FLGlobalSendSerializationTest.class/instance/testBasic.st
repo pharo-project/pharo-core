@@ -5,4 +5,6 @@ testBasic
 	self deny: FLGlobalSendMock newInstanceToSerialize = FLGlobalSendMock newInstanceToMaterialize.
 
 	result := self resultOfSerializeAndMaterialize: FLGlobalSendMock newInstanceToSerialize.
-	self assert: FLGlobalSendMock newInstanceToMaterialize = result.
+	"Global sends should retain the information they were serialized with"
+	self deny: FLGlobalSendMock newInstanceToMaterialize = result.
+	self assert: result contents equals: #serializing
