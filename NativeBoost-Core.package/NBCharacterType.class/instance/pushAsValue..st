@@ -1,4 +1,4 @@
-as yet unclassified
+emitting code
 pushAsValue: gen
 
 	"oop is a Character or smallint"

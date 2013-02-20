@@ -6,6 +6,7 @@
 		"byteAlignment" : "IgorStasenko 5/26/2012 17:45",
 		"createAccessorsFor:" : "Igor.Stasenko 5/22/2010 12:04",
 		"fields" : "Igor.Stasenko 5/19/2010 08:45",
+		"fieldsClass" : "CiprianTeodorov 1/19/2013 17:14",
 		"fieldsDesc" : "Igor.Stasenko 5/19/2010 09:01",
 		"flushNativeFieldAccessors" : "Igor.Stasenko 4/29/2010 04:44",
 		"fromPointer:" : "IgorStasenko 8/4/2011 05:53",
@@ -15,7 +16,7 @@
 		"new" : "Igor.Stasenko 5/19/2010 08:56",
 		"noteCompilationOf:meta:" : "IgorStasenko 8/3/2011 19:15",
 		"offsetOf:" : "IgorStasenko 2/2/2012 18:53",
-		"rebuildFieldAccessors" : "Igor.Stasenko 5/19/2010 09:11",
+		"rebuildFieldAccessors" : "CiprianTeodorov 1/19/2013 17:14",
 		"removeAccessor:" : "Igor.Stasenko 5/2/2010 13:30" },
 	"instance" : {
 		"doesNotUnderstand:" : "IgorStasenko 8/5/2011 12:01",

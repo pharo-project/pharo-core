@@ -1,4 +1,4 @@
-testing
+tests
 testGenerateAndRetry
 
 	NBNativeCodeGen removeNativeCodeFrom: (self class>>#stub2).

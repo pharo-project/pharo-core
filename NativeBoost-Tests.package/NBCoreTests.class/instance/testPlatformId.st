@@ -1,4 +1,4 @@
-testing
+tests
 testPlatformId
 
 	"sometimes i forget to set platform ID, when building plugin"

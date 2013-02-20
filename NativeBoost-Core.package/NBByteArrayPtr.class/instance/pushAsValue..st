@@ -1,4 +1,4 @@
-as yet unclassified
+emitting code
 pushAsValue: gen
 
 	"push a pointer to first indexable field of ByteArray, 

@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 objectClass: aClass
 	^ self new objectClass: aClass

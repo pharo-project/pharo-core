@@ -1,4 +1,4 @@
-as yet unclassified
+misc
 stub2
 	<primitive: #primitiveNativeCall module: #NativeBoostPlugin >
 	

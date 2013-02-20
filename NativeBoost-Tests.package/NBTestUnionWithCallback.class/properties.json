@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NBTestUnionWithCallback",
+	"pools" : [
+		 ],
+	"super" : "NBExternalUnion",
+	"type" : "bytes" }

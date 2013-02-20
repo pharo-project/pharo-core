@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 callbackClass: aClass
 	callbackClass := aClass

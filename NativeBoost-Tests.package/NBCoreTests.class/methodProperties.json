@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"anotherMethodWithPrimitive220" : "IgorStasenko 2/8/2013 16:11",
+		"methodWithPrimitive220" : "IgorStasenko 2/8/2013 15:48",
 		"nonExistedPrim:" : "IgorStasenko 2/20/2012 12:01",
 		"return0Code" : "IgorStasenko 2/20/2012 14:08",
 		"stub" : "IgorStasenko 2/13/2012 13:25",
@@ -13,4 +15,6 @@
 		"testHasTrailerInstalled" : "IgorStasenko 3/20/2011 04:12",
 		"testInstallingNativeCode" : "IgorStasenko 2/13/2012 14:04",
 		"testPlatformId" : "IgorStasenko 3/20/2011 04:05",
+		"testPrimitive220" : "IgorStasenko 2/8/2013 17:10",
+		"testPrimitive220ErrorCode" : "IgorStasenko 2/8/2013 15:51",
 		"testRecursionDetection" : "IgorStasenko 5/28/2012 07:00" } }

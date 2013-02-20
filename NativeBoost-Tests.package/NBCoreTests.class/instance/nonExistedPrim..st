@@ -1,4 +1,4 @@
-as yet unclassified
+misc
 nonExistedPrim: aBlock
 	| a b c|
 	<primitive: #abra module: #kadabra error: errorCode >

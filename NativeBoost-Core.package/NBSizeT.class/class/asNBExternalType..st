@@ -1,4 +1,4 @@
-as yet unclassified
+converting
 asNBExternalType: gen
 
 	self pointerSize = 4 ifTrue: [

@@ -1,4 +1,4 @@
-as yet unclassified
+emitting code
 coerceReturnValue: gen
 
 	"return value in ST(0)"

@@ -1,4 +1,4 @@
-as yet unclassified
+emitting code
 coerceReturnValue: gen
 	| args result asm proxy |
 	asm := gen asm.

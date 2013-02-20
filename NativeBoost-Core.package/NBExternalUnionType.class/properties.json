@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Core-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NBExternalUnionType",
+	"pools" : [
+		 ],
+	"super" : "NBExternalStructureType",
+	"type" : "normal" }

@@ -1,0 +1,17 @@
+{
+	"category" : "NativeBoost-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"AAA",
+		"BBB",
+		"CCC",
+		"DDD" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NBTestEnumerationFromPairs",
+	"pools" : [
+		 ],
+	"super" : "NBExternalEnumeration",
+	"type" : "normal" }

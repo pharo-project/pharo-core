@@ -1,4 +1,4 @@
-as yet unclassified
+emitting code
 coerceReturnValue: gen
 
 	"input: address is in EAX. 

@@ -48,8 +48,9 @@ for arguments stack order
 			jmp: EAX. "jump to callback leave-to-C code. see #generateCallbackEnterCodeFor:  " 
 				
 	asm label: #failed.
-asm int3.		
+"asm int3."		
 		proxy primitiveFail.
+		
 		asm 
 			leave;
 			leave;  " on failure, we do leave twice, because 

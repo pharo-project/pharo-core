@@ -1,4 +1,4 @@
-as yet unclassified
+emitting code
 pushAsPointer: gen
 
 	"push a pointer to external address first indexable field (where address value held)"

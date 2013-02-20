@@ -1,5 +1,5 @@
 {
-	"category" : "NativeBoost-Core-FFI",
+	"category" : "NativeBoost-Core-Objects",
 	"classinstvars" : [
 		"initialized",
 		"currentFields" ],

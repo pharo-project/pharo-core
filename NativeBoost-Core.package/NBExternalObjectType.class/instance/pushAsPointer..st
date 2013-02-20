@@ -1,4 +1,4 @@
-as yet unclassified
+emitting code
 pushAsPointer: gen
 	"push a pointer to handle value"
 	| asm proxy oop |

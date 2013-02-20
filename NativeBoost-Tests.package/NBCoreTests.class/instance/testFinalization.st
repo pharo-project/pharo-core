@@ -1,4 +1,4 @@
-testing
+tests
 testFinalization
 
 	| reg objs count |

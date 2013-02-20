@@ -1,4 +1,4 @@
-testing
+tests
 testInstallingNativeCode
 	"
 	Test a protocol for installing/removing native code directly.

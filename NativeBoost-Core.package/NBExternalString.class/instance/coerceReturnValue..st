@@ -1,4 +1,4 @@
-as yet unclassified
+emitting code
 coerceReturnValue: gen
 	"
 	Copy a null-terminated C string into a newly created instance of ByteString

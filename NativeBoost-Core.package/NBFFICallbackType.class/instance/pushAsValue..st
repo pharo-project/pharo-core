@@ -1,4 +1,4 @@
-as yet unclassified
+emitting code
 pushAsValue: gen
 	"push the callback trunk address"
 	| asm proxy oop |

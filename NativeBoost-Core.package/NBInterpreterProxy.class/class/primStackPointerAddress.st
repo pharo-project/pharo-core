@@ -5,8 +5,7 @@ primStackPointerAddress
 	<primitive: 'primitiveNativeCall' module: 'NativeBoostPlugin' error: errorCode>
 
 	^ self nbCallout function: #(uint ()) emit: [:gen :proxy :asm | | fn | 
-			fn :=  [ (NativeBoost forCurrentPlatform 
-						loadSymbol: 'stackPointerAddress' fromModule: '') ] ifError: [ nil ].
+			fn :=  [ (NativeBoost loadSymbol: 'stackPointerAddress' fromModule: NativeBoost VMModule) ] ifError: [ nil ].
 			fn ifNil: [ ^ nil ]. "just for safety" 
 
 			asm 

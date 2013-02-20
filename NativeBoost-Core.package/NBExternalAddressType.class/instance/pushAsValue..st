@@ -1,4 +1,4 @@
-as yet unclassified
+emitting code
 pushAsValue: gen
 	"push handle value"
 	| asm proxy oop |

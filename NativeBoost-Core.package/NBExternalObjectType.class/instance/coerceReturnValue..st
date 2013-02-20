@@ -1,4 +1,4 @@
-as yet unclassified
+emitting code
 coerceReturnValue: gen
 
 	"handle is in EAX. 

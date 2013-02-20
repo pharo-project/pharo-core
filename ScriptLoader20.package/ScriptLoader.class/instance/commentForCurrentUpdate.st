@@ -1,7 +1,8 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7492:	Failing test: MCRepositoryAuthorizationTest>>#testStoredCredentialsUsesMostSpecific
-	http://code.google.com/p/pharo/issues/detail?id=7492
+ ^ 'Issue 7535:	[SPEC] ClassMethodBrowser double initialization
+	http://code.google.com/p/pharo/issues/detail?id=7535
 	
-Issue 7341:	Failing test: ReleaseTest>>#testInstalledMethodsWithIncorrectTrailerKind
-	http://code.google.com/p/pharo/issues/detail?id=7341'
+Issue 7546:	add failing windows NB tests as windows-only known failures
+	http://code.google.com/p/pharo/issues/detail?id=7546
+'

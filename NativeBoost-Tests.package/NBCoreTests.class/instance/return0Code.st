@@ -1,4 +1,4 @@
-as yet unclassified
+misc
 return0Code
 	" a simple routine, just return 1 (smallinteger = 0)"
 	| asm |

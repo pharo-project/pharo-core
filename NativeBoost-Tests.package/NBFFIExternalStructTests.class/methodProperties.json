@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"returnStruct1Byte" : "IgorStasenko 11/24/2012 17:17",
+		"returnStruct1Byte" : "CiprianTeodorov 1/29/2013 19:21",
 		"returnStruct9Bytes" : "IgorStasenko 11/24/2012 17:18",
 		"returnStructWithCallback:" : "cipt 11/28/2012 19:29",
 		"testNestedStructure" : "IgorStasenko 9/3/2012 02:33",

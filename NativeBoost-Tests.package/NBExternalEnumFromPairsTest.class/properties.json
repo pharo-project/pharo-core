@@ -1,0 +1,14 @@
+{
+	"category" : "NativeBoost-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NBExternalEnumFromPairsTest",
+	"pools" : [
+		 ],
+	"super" : "NBExternalEnumTests",
+	"type" : "normal" }

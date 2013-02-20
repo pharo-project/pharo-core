@@ -1,4 +1,4 @@
-as yet unclassified
+emitting code
 prepareArgumentUsing: gen
 
 	"prepare the ByteString argument.

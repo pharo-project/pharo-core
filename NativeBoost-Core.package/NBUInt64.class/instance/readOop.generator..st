@@ -1,4 +1,4 @@
-as yet unclassified
+emitting code
 readOop: memoryOperand generator: gen
 	"emit code to read a value from given memory operand
 	and convert it to a corresponding ST object" 

@@ -2,10 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addField:type:" : "CiprianTeodorov 1/19/2013 17:18",
 		"fieldNames" : "Igor.Stasenko 5/19/2010 07:15",
 		"fieldNamesDo:" : "Igor.Stasenko 5/19/2010 07:16",
 		"namesInDeclarationOrder" : "Igor.Stasenko 5/19/2010 09:20",
 		"offsetOf:" : "Igor.Stasenko 5/19/2010 07:16",
-		"parseFields:byteAlignment:structure:" : "IgorStasenko 5/26/2012 18:17",
+		"parseFields:byteAlignment:structure:" : "CiprianTeodorov 1/19/2013 17:19",
+		"sizeAlignedTo:with:" : "CiprianTeodorov 1/19/2013 17:18",
 		"totalSize" : "Igor.Stasenko 5/19/2010 06:41",
 		"typeOf:" : "Igor.Stasenko 5/19/2010 07:16" } }

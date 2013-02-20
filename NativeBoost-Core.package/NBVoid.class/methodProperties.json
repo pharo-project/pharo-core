@@ -4,4 +4,5 @@
 	"instance" : {
 		"coerceOopToOperand:ifFailedJumpTo:" : "Igor.Stasenko 5/11/2010 02:30",
 		"coerceReturnValue:" : "Igor.Stasenko 5/3/2010 14:00",
-		"pushAsValue:" : "IgorStasenko 9/3/2012 00:14" } }
+		"pushAsValue:" : "IgorStasenko 9/3/2012 00:14",
+		"valueSize" : "CiprianTeodorov 12/15/2012 21:13" } }

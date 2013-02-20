@@ -1,4 +1,4 @@
-as yet unclassified
+emitting code
 strLen: gen
 	" input: EAX - pointer to char* string
 	 output: ECX - string length "

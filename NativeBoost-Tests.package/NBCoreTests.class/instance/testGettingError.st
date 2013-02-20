@@ -1,4 +1,4 @@
-testing
+tests
 testGettingError
 
 	self nonExistedPrim: [:context |

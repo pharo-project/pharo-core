@@ -1,4 +1,4 @@
-as yet unclassified
+emitting code
 coerceReturnValue: gen
 	| asm proxy val |
 	"convert unsigned Char to ST Character"

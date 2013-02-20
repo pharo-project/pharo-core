@@ -22,9 +22,9 @@ parseFields: fieldSpec byteAlignment: byteAlign structure: structClass
 
 		align := type typeSize min: byteAlign. "if byte align == 1, struct is packed"
 		"add padding between fields, if needed"
-		totalSize := (totalSize alignedTo: align) + type typeSize .
+		self sizeAlignedTo: align with: type. 
 
-		fields at: name put: { type. totalSize - type typeSize }.
+		self addField: name type: type. 
 	
 		stream peek == #';' ifTrue: [ stream next ].
 	].

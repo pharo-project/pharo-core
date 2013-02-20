@@ -10,16 +10,12 @@ getClassForType: aTypeName
 	float value.
 	
 	"
-	| cls |
-	cls := self shallowCopy.
-	cls 
-		methodDict: MethodDictionary new;
-		setName: nil;
-		organization: nil;
-		superclass: self;
-		classPool: nil;
-		sharedPools: nil;
-		basicInstVarNames: nil;
-		valueType: aTypeName.
-	
-	^ cls
+
+	| newSubclass |
+	newSubclass := ClassBuilder new
+		newSubclassOf: NBExternalTypeValue
+		type: NBExternalTypeValue typeOfClass
+		instanceVariables: ''
+		from: nil.	"we're not using 'self' to avoid wrong subclassing from anonymous subclass "
+	newSubclass valueType: aTypeName.
+	^ newSubclass

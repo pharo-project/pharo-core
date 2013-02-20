@@ -1,4 +1,4 @@
-as yet unclassified
+emitting code
 pushAsValue: gen
 
 	"argument in ST(0) "
