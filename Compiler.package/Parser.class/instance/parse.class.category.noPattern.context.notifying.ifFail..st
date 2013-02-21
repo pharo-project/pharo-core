@@ -28,5 +28,7 @@ parse: sourceStream class: class category: aCategory noPattern: noPattern contex
 			myStream := requestor text string readStream].
 	 repeatNeeded] whileTrue:
 		[encoder := self encoder class new].
-	methNode sourceText: s.
+	requestor 
+		ifNil: [ methNode sourceText: s ]
+		ifNotNil: [ methNode sourceText: requestor text string ].
 	^methNode

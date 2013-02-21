@@ -1,4 +1,4 @@
-as yet unclassified
+protocol
 multiComposeLinesFrom: argStart to: argStop delta: argDelta into: argLinesCollection priorLines: argPriorLines atY: argStartY textStyle: argTextStyle text: argText container: argContainer wantsColumnBreaks: argWantsColumnBreaks 
 	wantsColumnBreaks := argWantsColumnBreaks.
 	lines := argLinesCollection.

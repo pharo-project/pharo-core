@@ -17,10 +17,13 @@ basicScanCharactersFrom: startIndex to: stopIndex in: sourceString rightX: right
 	widthAndKernedWidth := Array new: 2.
 	atEndOfRun := false.
 	[lastIndex <= stopIndex]
-		whileTrue: 
-			[char := (sourceString at: lastIndex).
-			ascii := char asciiValue + 1.
-			(stops at: ascii) == nil ifFalse: [^stops at: ascii].
+		whileTrue: [
+			char := (sourceString at: lastIndex).
+			ascii := char asciiValue.
+			
+			(ascii < stops size and: [(stops at: ascii + 1) notNil]) ifTrue: [^ stops at: ascii + 1].
+			(self isBreakableAt: lastIndex in: sourceString in: Latin1Environment) 
+				ifTrue: [ self registerBreakableIndex ].
 			"Note: The following is querying the font about the width
 			since the primitive may have failed due to a non-trivial
 			mapping of characters to glyphs or a non-existing xTable."
@@ -47,4 +50,4 @@ basicScanCharactersFrom: startIndex to: stopIndex in: sourceString rightX: right
 			destX := floatDestX.
 			lastIndex := lastIndex + 1].
 	lastIndex := stopIndex.
-	^stops endOfRun
+	^ stops endOfRun

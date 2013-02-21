@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 checkIfReadyToSlide
 
 	"Check whether we are now in sync with previously composed lines"

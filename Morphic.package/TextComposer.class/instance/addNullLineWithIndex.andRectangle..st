@@ -1,4 +1,4 @@
-as yet unclassified
+adding
 addNullLineWithIndex: index andRectangle: r
 
 	lines addLast: (

@@ -1,4 +1,4 @@
-as yet unclassified
+composition
 composeLinesFrom: argStart to: argStop delta: argDelta into: argLinesCollection priorLines: argPriorLines atY: argStartY textStyle: argTextStyle text: argText container: argContainer wantsColumnBreaks: argWantsColumnBreaks 
 	wantsColumnBreaks := argWantsColumnBreaks.
 	lines := argLinesCollection.

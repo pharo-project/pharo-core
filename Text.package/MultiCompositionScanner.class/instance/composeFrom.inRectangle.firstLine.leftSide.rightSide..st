@@ -1,6 +1,5 @@
 scanning
-composeFrom: startIndex inRectangle: lineRectangle
-	firstLine: firstLine leftSide: leftSide rightSide: rightSide
+composeFrom: startIndex inRectangle: lineRectangle firstLine: firstLine leftSide: leftSide rightSide: rightSide
 	"Answer an instance of TextLineInterval that represents the next line in the paragraph."
 	| runLength stopCondition |
 	"Set up margins"

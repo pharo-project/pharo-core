@@ -10,7 +10,7 @@ basicScanCharactersFrom: startIndex to: stopIndex in: sourceString rightX: right
 	Advance destX by the width of the character. If stopIndex has been
 	reached, then return stops at: 257. Optional. 
 	See Object documentation whatIsAPrimitive."
-	| ascii nextDestX char  floatDestX widthAndKernedWidth nextChar atEndOfRun |
+	| ascii nextDestX char floatDestX widthAndKernedWidth nextChar atEndOfRun |
 	<primitive: 103>
 	lastIndex := startIndex.
 	floatDestX := destX.

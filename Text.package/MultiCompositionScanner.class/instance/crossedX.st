@@ -5,7 +5,7 @@ crossedX
 	space that was encountered, as recorded by the space stop condition."
 
 	pendingKernX := 0.
-	(breakAtSpace) ifTrue: [
+	breakAtSpace ifTrue: [
 		spaceCount >= 1 ifTrue:
 			["The common case. First back off to the space at which we wrap."
 			line stop: breakableIndex.

@@ -4,7 +4,7 @@
 	"instance" : {
 		"addEmphasis:" : "lr 7/4/2009 10:42",
 		"addKern:" : "lr 7/4/2009 10:42",
-		"basicScanCharactersFrom:to:in:rightX:stopConditions:kern:" : "nice 2/28/2010 18:17",
+		"basicScanCharactersFrom:to:in:rightX:stopConditions:kern:" : "BenjaminVanRyseghem 2/19/2013 17:18",
 		"columnBreak" : "tween 4/6/2007 11:16",
 		"embeddedObject" : "lr 7/4/2009 10:42",
 		"handleIndentation" : "hmm 7/15/2000 22:40",
