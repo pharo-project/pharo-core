@@ -19,7 +19,7 @@
 		"filteringBlock:" : "BenjaminVanRyseghem 7/13/2012 02:38",
 		"getIndex" : "StephaneDucasse 5/17/2012 18:22",
 		"getSelectionStateFor:" : "StephaneDucasse 5/17/2012 18:24",
-		"initialize" : "BenjaminVanRyseghem 2/8/2013 14:23",
+		"initialize" : "BenjaminVanRyseghem 2/21/2013 23:25",
 		"items:" : "ThierryGoubier 2/5/2013 15:43",
 		"listElementAt:" : "StephaneDucasse 5/17/2012 18:25",
 		"listElementAt:ifAbsent:" : "BenjaminVanRyseghem 7/16/2012 19:10",

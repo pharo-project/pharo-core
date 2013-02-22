@@ -9,6 +9,7 @@ initialize
 	keyStrokeForNextFocusHolder := KMNoShortcut new asValueHolder.
 	keyStrokeForPreviousFocusHolder := KMNoShortcut new asValueHolder.
 	additionalKeyBindings := Dictionary new.
+	announcer := Announcer new asValueHolder.
 	self initializeWidgets.
 	self initializePresenter.
 	

@@ -9,5 +9,6 @@ initialize
 	associationsIndexToWrapper := Dictionary new asValueHolder.
 	labelClickableHolder := true asValueHolder.
 	defaultValueHolder := false asValueHolder.
+	blockToPerformOnWrappers := [:wrapper | ] asValueHolder.
 	
 	super initialize.

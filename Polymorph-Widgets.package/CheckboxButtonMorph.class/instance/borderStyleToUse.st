@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 borderStyleToUse
 	"Answer the borderStyle that should be used for the receiver."
 	

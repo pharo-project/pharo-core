@@ -1,6 +1,7 @@
 initialize
 initialize
 	super initialize.
+	
 	selectionHolder := SelectionValueHolder new.
 	listHolder := Array new asValueHolder.
 	sortingBlockHolder := self defaultSortingBlock asValueHolder.
@@ -12,6 +13,7 @@ initialize
 	allowToSelect := true asValueHolder.
 	listAnnouncer := Announcer new.
 	self registerEvents.
+
 	self
 		on: Character space asShortcut
-		do: [ ^ self clickOnSelectedItem ]
+		do: [ self clickOnSelectedItem ]

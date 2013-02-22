@@ -4,9 +4,10 @@
 	"instance" : {
 		"adjustHeight" : "ls 5/15/2001 22:13",
 		"adjustWidth" : "sps 3/9/2004 17:06",
+		"backgroundColorForRow:" : "BenjaminVanRyseghem 2/21/2013 23:07",
 		"bottomVisibleRowForCanvas:" : "ls 5/17/2001 21:57",
 		"colorForRow:" : "AlainPlantec 9/11/2011 05:41",
-		"display:atRow:on:" : "BenjaminVanRyseghem 2/11/2012 23:56",
+		"display:atRow:on:" : "BenjaminVanRyseghem 2/21/2013 23:15",
 		"drawBackgroundForPotentialDrop:on:" : "IgorStasenko 12/22/2012 03:07",
 		"drawBackgroundForRow:on:color:" : "BenjaminVanRyseghem 9/1/2011 10:39",
 		"drawBackgroundForSearchedRow:on:" : "BenjaminVanRyseghem 9/1/2011 10:39",

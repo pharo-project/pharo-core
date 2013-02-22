@@ -1,4 +1,4 @@
-private
+protocol
 accept
 
 	self okToChange ifFalse: [ ^self ].

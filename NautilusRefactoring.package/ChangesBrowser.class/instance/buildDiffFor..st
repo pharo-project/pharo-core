@@ -1,4 +1,4 @@
-private
+protocol
 buildDiffFor: aChange
 
 	^ aChange

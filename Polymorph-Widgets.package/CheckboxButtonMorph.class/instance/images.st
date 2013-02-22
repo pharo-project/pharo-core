@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 images
 	^ images ifNil: [images := Dictionary newFromPairs: {
 								#off . [self offImage] .

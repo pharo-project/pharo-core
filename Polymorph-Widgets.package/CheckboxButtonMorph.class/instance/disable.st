@@ -1,4 +1,4 @@
-as yet unclassified
+protocol
 disable
 	"Disable the receiver."
 	

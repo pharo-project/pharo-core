@@ -1,17 +1,24 @@
 row management
-display: item atRow: row on: aCanvas 
+display: item atRow: row on: aCanvas
 	"Display the given item at the given row on the given
 	canvas."
-	
-	| c drawBounds frame attrs useDefaultFont |
+
+	| itemColor backgroundColor drawBounds frame attrs useDefaultFont |
 	drawBounds := self drawBoundsForRow: row.
-	c := self colorForRow: row.
-	
-	item listRenderOn: aCanvas atRow: row bounds: drawBounds color: c from: self.
-	
+	itemColor := self colorForRow: row.
+	backgroundColor := self backgroundColorForRow: row.
+	item
+		listRenderOn: aCanvas
+		atRow: row
+		bounds: drawBounds
+		color: itemColor
+		backgroundColor: backgroundColor 
+		from: self.
+		
 	row = self mouseDownRow
-		ifTrue: [aCanvas 
-					frameRectangle: (self selectionFrameForRow: row)
-					width: 1
-					colors: {c. Color transparent}
-					dashes: #(1 1)]
+		ifTrue: [ 
+			aCanvas
+				frameRectangle: (self selectionFrameForRow: row)
+				width: 1
+				colors: {itemColor. (Color transparent)}
+				dashes: #(1 1) ]

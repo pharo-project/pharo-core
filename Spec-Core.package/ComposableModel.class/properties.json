@@ -14,7 +14,8 @@
 		"needRebuild",
 		"keyStrokeForNextFocusHolder",
 		"keyStrokeForPreviousFocusHolder",
-		"additionalKeyBindings" ],
+		"additionalKeyBindings",
+		"announcer" ],
 	"name" : "ComposableModel",
 	"pools" : [
 		 ],

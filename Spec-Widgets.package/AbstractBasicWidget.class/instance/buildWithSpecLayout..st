@@ -8,5 +8,8 @@ buildWithSpecLayout: aSpecLayout
 		ifFalse: [ widget := SpecInterpreter interpretASpec: aSpecLayout model: self ].
 		
 	self ensureExtentFor: widget.
+	self ensureKeyBindingsFor: widget.
+	
+	self announce: (WidgetBuilt model: self widget: widget).
 	
 	^ widget

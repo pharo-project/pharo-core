@@ -1,4 +1,4 @@
-as yet unclassified
+protocol
 beRadioButton
 	"Change the images and round the border
 	to be a radio button."

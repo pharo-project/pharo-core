@@ -1,4 +1,4 @@
-protocol
+private
 pickedChanges
 
 	^ pickList selectedItems

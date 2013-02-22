@@ -1,4 +1,4 @@
-protocol
+private
 changes: aCollection
 
 	| composite |

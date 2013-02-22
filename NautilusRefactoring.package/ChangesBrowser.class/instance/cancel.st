@@ -1,4 +1,4 @@
-private
+protocol
 cancel
 
 	window delete

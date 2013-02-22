@@ -1,4 +1,4 @@
-as yet unclassified
+protocol
 beCheckbox
 	"Change the images and square the border
 	to be a checkbox."

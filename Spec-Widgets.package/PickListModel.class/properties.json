@@ -13,7 +13,8 @@
 		"wrapHolder",
 		"associationsItemToWrapper",
 		"associationsWrapperToItem",
-		"associationsIndexToWrapper" ],
+		"associationsIndexToWrapper",
+		"blockToPerformOnWrappers" ],
 	"name" : "PickListModel",
 	"pools" : [
 		 ],

@@ -1,5 +1,5 @@
 *Morphic-Widgets
-listRenderOn: aCanvas atRow: aRow bounds: bounds color: color from: aMorph
+listRenderOn: aCanvas atRow: aRow bounds: bounds color: color backgroundColor: backgroundColor from: aMorph
 	"Method extracted from LazyListMorph"
 	| attrs useDefaultFont f col itemBounds |
 	

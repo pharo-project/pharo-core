@@ -13,7 +13,8 @@
 		"setStateSelector",
 		"getStateSelector",
 		"enabled",
-		"getEnabledSelector" ],
+		"getEnabledSelector",
+		"labelClickable" ],
 	"name" : "CheckboxMorph",
 	"pools" : [
 		 ],
