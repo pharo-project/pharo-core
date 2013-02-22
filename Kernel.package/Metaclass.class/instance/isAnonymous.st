@@ -1,0 +1,3 @@
+testing
+isAnonymous
+	^thisClass isAnonymous 

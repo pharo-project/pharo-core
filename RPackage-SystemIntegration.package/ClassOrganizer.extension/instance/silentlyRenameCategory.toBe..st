@@ -14,4 +14,4 @@ silentlyRenameCategory: oldCatString toBe: newCatString
 			"if the category already exist, we move all elements inside and remove the old category"
 			SystemAnnouncer uniqueInstance suspendAllWhile: [
 				oldElementsBefore do: [:anElement | self classify: anElement under: newCat ].
-				self removeCategory:  oldCat ] ].
+				self removeCategory: oldCat ] ].

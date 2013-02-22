@@ -2,6 +2,9 @@ testing
 testMethodsWithUnboundGlobals
 	| methodsWithUnboundGlobals |
 	
+	"Ensure the environment is clean"
+	3 timesRepeat: [ Smalltalk garbageCollect ].
+	
 	Smalltalk cleanOutUndeclared. 
 	methodsWithUnboundGlobals := SystemNavigation new methodsWithUnboundGlobals.
 	
