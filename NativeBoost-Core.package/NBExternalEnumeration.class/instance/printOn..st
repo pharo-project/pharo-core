@@ -1,7 +1,7 @@
 printing
-printOn: t1 
-	super printOn: t1.
+printOn: stream
+	super printOn: stream.
 
-	t1 nextPut: $(;
+	stream nextPut: $(;
 		 nextPutAll: self item printString;
 		 nextPut: $)
