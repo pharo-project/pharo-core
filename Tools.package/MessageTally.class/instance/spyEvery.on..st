@@ -35,5 +35,5 @@ spyEvery: millisecs on: aBlock
 			Timer := nil ].
 		"Collect gc statistics"
 		Smalltalk vm getParameters keysAndValuesDo: [ :idx :gcVal | 
-			gcVal ifNotNil: [ gcStats at: idx put: (gcVal - (gcStats at: idx))]].
+			gcVal isNumber ifTrue: [ gcStats at: idx put: (gcVal - (gcStats at: idx))]].
 		time := Time millisecondClockValue - time0]
