@@ -6,5 +6,5 @@ changeModelSelection: anInteger
 		[model perform: setIndexSelector with: anInteger].
 	self isMultipleSelection
 		ifTrue: [ 
-			self listSelectionAt: lastNonZeroIndex put: false.
+			self listSelectionAt: self lastNonZeroIndex put: false.
 			self listSelectionAt: anInteger put: true ]

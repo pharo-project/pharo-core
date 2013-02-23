@@ -2,4 +2,7 @@ geometry
 numberOfItemsPotentiallyInViewWith: listSize 
 	"This is a refactoring for numberOfItemsPotentiallyInView because in some cases the numberOfSubmorhps
 	needs to be passed from the outside. "
-	^ self innerBounds height // (self localSubmorphBounds height / listSize)
+	| height |
+	height := self localSubmorphBounds height.
+	height isZero ifTrue: [ ^ 0 ].
+	^ self innerBounds height // (height / listSize)

@@ -8,7 +8,7 @@ startDrag: evt
 	"Here I ensure at least one element is selected "
 	ActiveHand anyButtonPressed ifFalse: [ ^self ].
 			
-	draggedItem := self getListItem: (self mouseDownRow ifNil: [ lastNonZeroIndex ]).
+	draggedItem := self getListItem: (self mouseDownRow ifNil: [ self lastNonZeroIndex ]).
 	draggedItem ifNil: [ ^ self ].
 	passenger := self model dragPassengersFor: draggedItem inMorph: self.
 	passenger ifNil: [ ^ self ].
