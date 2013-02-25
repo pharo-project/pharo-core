@@ -1,4 +1,4 @@
-writing
+accessing
 nextPut: object
 	self flushBufferIfFull.
 	position := position + 1.

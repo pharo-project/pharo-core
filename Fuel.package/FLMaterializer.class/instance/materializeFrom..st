@@ -2,11 +2,14 @@ materializing
 materializeFrom: aStream
 
 	| aDecoder materialization header |
-	aDecoder := FLDecoder on: aStream migrations: migrations.
+	aDecoder := 
+		FLDecoder 
+			on: aStream 
+			migrations: migrations 
+			globalEnvironment: globalEnvironment.
 	self verifySignatureFrom: aDecoder.
 	self verifyVersionFrom: aDecoder.
-	"Here I cannot use #materializeFrom: again because I will end up in an infinitive loop. Therefore, I use #materializationFactory."
-	header := (FLMaterializer newDefault materializationFactory value: aDecoder) root.
+	header := self decodeHeaderWith: aDecoder.
 	header executePreMaterializationActions.
 	materialization := materializationFactory value: aDecoder.
 	"This is useful because when the user materialize something, what it is answered is the materialization objet, and not the materializer. Hence, it is difficult to query the header (like asking the additionalObjects) because materializer is lost. Therefore, we also set the header to the materialization."

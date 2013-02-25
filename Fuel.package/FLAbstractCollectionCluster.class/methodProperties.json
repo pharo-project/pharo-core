@@ -4,6 +4,8 @@
 	"instance" : {
 		"afterMaterializationStepWith:" : "MarianoMartinezPeck 7/26/2012 14:33",
 		"materializeInstanceWith:" : "MarianoMartinezPeck 7/26/2012 14:06",
+		"materializeReferencesOf:with:" : "MartinDias 2/25/2013 14:44",
 		"materializeReferencesStepWith:" : "MarianoMartinezPeck 7/26/2012 14:24",
 		"serializeInstance:with:" : "MarianoMartinezPeck 7/26/2012 16:07",
+		"serializeReferencesOf:with:" : "MartinDias 2/25/2013 14:44",
 		"serializeReferencesStepWith:" : "MarianoMartinezPeck 7/26/2012 14:22" } }

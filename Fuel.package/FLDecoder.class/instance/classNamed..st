@@ -1,4 +1,4 @@
-decoding
+accessing
 classNamed: className 
 
 	^ (migrations

@@ -4,9 +4,9 @@ serialize: anObject on: aStream
 
 	FLEncoder
 		on: aStream 
+		globalEnvironment: self analyzer globalEnvironment
 		do: [ :anEncoder | 
 			self encodeSignatureWith: anEncoder.
 			self encodeVersionWith: anEncoder.
-			"For the moment, we serialize the header as light. Not sure how well it will work because the header can have closures... but Fuel core cannot serialize methods fully...so... "
-			FLSerializer newDefault serializationFactory value: header value: anEncoder.
+			self encodeHeaderWith: anEncoder.
 			^ self serializationFactory value: anObject value: anEncoder ]

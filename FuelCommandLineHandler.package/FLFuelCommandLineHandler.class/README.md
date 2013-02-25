@@ -1,3 +1,5 @@
+I handle .fuel files that are passed as arguments when starting the image. 
+
 Usage: fuel [save] [quit] <fuelFile>
  
 	save    save the image after loading <fuelFile>

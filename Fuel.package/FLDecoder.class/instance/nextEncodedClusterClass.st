@@ -1,4 +1,4 @@
 decoding
 nextEncodedClusterClass
 
-	^ Smalltalk globals at: self nextEncodedString asSymbol
+	^ self class environment at: self nextEncodedString asSymbol

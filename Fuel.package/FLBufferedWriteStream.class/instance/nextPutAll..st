@@ -1,4 +1,4 @@
-writing
+accessing
 nextPutAll: collection
 	self flushBufferIfFull.
 	collection size <= self bufferFreeSize

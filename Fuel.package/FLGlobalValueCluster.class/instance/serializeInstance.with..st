@@ -1,4 +1,4 @@
 serialize/materialize
 serializeInstance: anObject with: anEncoder
 	
-	self serializeGlobalAssociationKeyed: (Smalltalk keyAtValue: anObject) on: anEncoder
+	self serializeGlobalAssociationKeyed: (anEncoder globalEnvironment keyAtValue: anObject) on: anEncoder

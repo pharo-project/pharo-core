@@ -1,4 +1,4 @@
-initialize-release
+encoding
 flush
 
 	^ stream flush.

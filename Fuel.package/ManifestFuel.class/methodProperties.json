@@ -1,13 +1,8 @@
 {
 	"class" : {
-		"rejectClasses" : "MarianoMartinezPeck 4/21/2012 23:05",
-		"rejectRules" : "MarianoMartinezPeck 4/21/2012 23:05",
-		"ruleBadMessageRuleV1FalsePositive" : "MarianoMartinezPeck 4/21/2012 17:20",
-		"ruleCodeCruftLeftInMethodsRuleV1FalsePositive" : "MarianoMartinezPeck 4/21/2012 17:26",
-		"ruleConsistencyCheckRuleV1FalsePositive" : "MarianoMartinezPeck 4/21/2012 17:27",
-		"ruleContainsRuleV1FalsePositive" : "MarianoMartinezPeck 4/21/2012 17:27",
-		"ruleInconsistentMethodClassificationRuleV1TruePositive" : "MarianoMartinezPeck 4/21/2012 17:34",
-		"ruleLawOfDemeterRuleV1FalsePositive" : "MarianoMartinezPeck 4/21/2012 17:36",
-		"ruleSendsDifferentSuperRuleV1FalsePositive" : "MarianoMartinezPeck 4/21/2012 18:28" },
+		"rejectClasses" : "MartinDias 2/25/2013 14:13",
+		"rejectRules" : "MartinDias 2/25/2013 14:13",
+		"ruleConsistencyCheckRuleV1FalsePositive" : "MartinDias 2/25/2013 14:50",
+		"ruleIfTrueBlocksRuleV1FalsePositive" : "MartinDias 2/25/2013 14:50" },
 	"instance" : {
 		 } }

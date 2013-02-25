@@ -1,6 +1,6 @@
-decoding
+accessing
 globalClassNamed: className
 
-	^ Smalltalk globals 
+	^ globalEnvironment 
 		at: className
 		ifAbsent: [ FLClassNotFound signalWithName: className ]

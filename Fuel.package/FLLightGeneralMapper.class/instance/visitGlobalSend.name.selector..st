@@ -1,5 +1,5 @@
 visiting
 visitGlobalSend: anObject name: globalName selector: aSymbol
 
-	(self clusterKeyedByObjectClass: FLGlobalSendCluster class: anObject class)
+	(self clusterKeyedByClusterName: FLGlobalSendCluster)
 		add: anObject name: globalName selector: aSymbol traceWith: analysis

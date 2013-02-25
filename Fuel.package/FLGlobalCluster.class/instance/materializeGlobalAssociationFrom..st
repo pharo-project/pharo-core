@@ -3,6 +3,6 @@ materializeGlobalAssociationFrom: aDecoder
 
 	| globalName |
 	globalName := aDecoder nextEncodedString asSymbol.
-	^Smalltalk globals 
+	^ aDecoder globalEnvironment
 		associationAt: globalName
 		ifAbsent: [ FLGlobalNotFound signalWithName: globalName ]

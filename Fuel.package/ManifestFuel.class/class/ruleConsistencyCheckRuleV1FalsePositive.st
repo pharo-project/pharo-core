@@ -1,3 +1,3 @@
 meta data
 ruleConsistencyCheckRuleV1FalsePositive
-^ #(#('(RGMethodDefinition className: ''Float'' selector: #serializeOn: isMetaSide: false)' #'2012-04-21T17:27:21.024000001+02:00') )
+^ #(#(#(#RGMethodDefinition #(#Float #serializeOn: #false)) #'2013-02-25T14:50:01.564000001+01:00') )

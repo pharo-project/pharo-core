@@ -1,4 +1,4 @@
-adding
+accessing
 at: key put: value
 
 	| hash |

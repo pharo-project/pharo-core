@@ -1,4 +1,4 @@
 *Fuel
 fuelAccept: aGeneralMapper
 
-	^aGeneralMapper visitWellKnownObject: self
+	^aGeneralMapper visitHookPrimitive: self

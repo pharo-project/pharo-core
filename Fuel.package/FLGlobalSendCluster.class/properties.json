@@ -10,5 +10,5 @@
 	"name" : "FLGlobalSendCluster",
 	"pools" : [
 		 ],
-	"super" : "FLPointerObjectCluster",
+	"super" : "FLGlobalCluster",
 	"type" : "normal" }

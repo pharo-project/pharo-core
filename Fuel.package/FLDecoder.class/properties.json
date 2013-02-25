@@ -11,7 +11,8 @@
 		"isBigEndian",
 		"indexStream",
 		"migrations",
-		"objectsWriteStream" ],
+		"objectsWriteStream",
+		"globalEnvironment" ],
 	"name" : "FLDecoder",
 	"pools" : [
 		 ],

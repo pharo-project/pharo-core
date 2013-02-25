@@ -1,9 +1,12 @@
 materializing
 materializeHeaderFrom: aStream
 
-	| aDecoder materialization header |
-	aDecoder := FLDecoder on: aStream migrations: migrations.
+	| aDecoder |
+	aDecoder := 
+		FLDecoder 
+			on: aStream 
+			migrations: migrations 
+			globalEnvironment: globalEnvironment.
 	self verifySignatureFrom: aDecoder.
 	self verifyVersionFrom: aDecoder.
-	^ (materializationFactory value: aDecoder) root.
-	
+	^ self decodeHeaderWith: aDecoder

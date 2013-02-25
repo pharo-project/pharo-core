@@ -3,5 +3,5 @@ migrateClassNamed: aSymbol variables: aDictionary
 
 	self 
 		migrateClassNamed: aSymbol 
-		toClass: (Smalltalk globals at: aSymbol)
+		toClass: (self class environment at: aSymbol)
 		variables: aDictionary

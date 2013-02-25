@@ -1,10 +1,11 @@
 {
 	"class" : {
 		"clusterBucketIn:" : "MartinDias 1/8/2012 15:37",
+		"initialize" : "MartinDias 2/25/2013 14:31",
 		"setTrailerWithNoChange" : "MartinDias 2/18/2013 17:58",
 		"setTrailerWithNoSource" : "MartinDias 2/18/2013 17:58",
 		"setTrailerWithSourceCode" : "MartinDias 2/18/2013 17:59",
-		"transformationForSerializing" : "MartinDias 2/18/2013 18:07",
+		"transformationForSerializing" : "MartinDias 2/25/2013 14:32",
 		"transformationForSerializing:" : "MartinDias 2/18/2013 17:58" },
 	"instance" : {
 		"materializeInstanceWith:" : "MartinDias 12/29/2011 20:57",

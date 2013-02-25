@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"wellKnownObjectCluster",
-		"globalInstanceSideCluster" ],
+		 ],
 	"name" : "FLLightGeneralMapper",
 	"pools" : [
 		 ],

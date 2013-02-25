@@ -5,3 +5,4 @@ fuelAfterMaterialization
 	class := self class.
 	^ (((class == Dictionary) or: [ class == IdentityDictionary ]) ) 
 		ifFalse: [ self rehash ] 
+		ifTrue: [ self ]

@@ -9,7 +9,8 @@
 		"stream",
 		"objectsIndexes",
 		"objectCount",
-		"indexStream" ],
+		"indexStream",
+		"globalEnvironment" ],
 	"name" : "FLEncoder",
 	"pools" : [
 		 ],

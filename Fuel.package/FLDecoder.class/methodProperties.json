@@ -1,16 +1,17 @@
 {
 	"class" : {
-		"on:migrations:" : "MartinDias 1/5/2012 00:12" },
+		"on:migrations:globalEnvironment:" : "MartinDias 2/21/2013 23:43" },
 	"instance" : {
 		"classNamed:" : "MartinDias 1/5/2012 13:12",
 		"decodeYourself" : "MartinDias 2/17/2012 04:10",
-		"globalClassNamed:" : "MartinDias 1/5/2012 01:07",
-		"initializeOn:migrations:" : "MartinDias 1/5/2012 00:13",
+		"globalClassNamed:" : "MartinDias 2/21/2013 23:48",
+		"globalEnvironment" : "MartinDias 2/21/2013 23:47",
+		"initializeOn:migrations:globalEnvironment:" : "MartinDias 2/21/2013 23:50",
 		"isBigEndian" : "MartinDias 12/29/2011 18:27",
 		"nextEncodedBitmap" : "MarianoMartinezPeck 1/7/2012 20:09",
 		"nextEncodedByte" : "MartinDias 12/29/2011 21:07",
 		"nextEncodedBytesInto:" : "MartinDias 12/30/2011 02:25",
-		"nextEncodedClusterClass" : "MartinDias 2/20/2012 15:37",
+		"nextEncodedClusterClass" : "MartinDias 2/21/2013 15:27",
 		"nextEncodedInt24" : "MarianoMartinezPeck 6/9/2012 20:01",
 		"nextEncodedInt32" : "MarianoMartinezPeck 1/7/2012 14:56",
 		"nextEncodedPositiveInteger" : "MarianoMartinezPeck 1/7/2012 14:57",

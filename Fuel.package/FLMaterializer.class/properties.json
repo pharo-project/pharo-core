@@ -9,7 +9,8 @@
 		"materializationFactory",
 		"signature",
 		"version",
-		"migrations" ],
+		"migrations",
+		"globalEnvironment" ],
 	"name" : "FLMaterializer",
 	"pools" : [
 		 ],

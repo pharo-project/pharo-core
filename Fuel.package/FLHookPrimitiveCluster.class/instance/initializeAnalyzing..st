@@ -1,5 +1,5 @@
 initialize-release
 initializeAnalyzing: aClass
 
-	super initializeAnalyzing.
+	self initializeAnalyzing.
 	theClass := aClass
