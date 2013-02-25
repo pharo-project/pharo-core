@@ -13,6 +13,6 @@ nextChunkPut: aString
 	aString asString includesUnifiedCharacter ifTrue: [
 		self nextPut: terminator.
 		self nextPutAll: ']lang['.
-		aString writeLeadingCharRunsOn: self.
+		aString asString writeLeadingCharRunsOn: self.
 	].
 	self nextPut: terminator.

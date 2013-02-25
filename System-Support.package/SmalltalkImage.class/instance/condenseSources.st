@@ -4,6 +4,10 @@ condenseSources
 	"Smalltalk condenseSources"
 
 	| f dir newVersionString |
+	
+	VirtualMachine isRunningCogit
+		ifTrue: [ self error: 'Sources cannot be condensed in a Cog (JIT enabled) Virtual Machine. Try a Stack VM.' ].
+	
 	self fixUpProblemsWithAllCategory.
 	"The above removes any concrete, spurious '-- all --' categories, which mess up the process."
 	dir := FileSystem workingDirectory.
