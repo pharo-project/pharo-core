@@ -1,9 +1,10 @@
 accessing
 version
-	"Return the version number string of the Virtual machine built"
+	"Return a string of attributes representing the current VM"
 	"
 	Smalltalk vm version
 	"
 	^ String streamContents: [ :s |
-		1007 to: 1009 do: [:n| 
-			s nextPutAll: (self getSystemAttribute: n); cr ]]
+			s nextPutAll: self interpreterClass; cr.
+			self isRunningCogit ifTrue: [ s nextPutAll: self cogitClass; cr ].
+			s nextPutAll: self interpreterSourceVersion; cr ].

@@ -10,4 +10,8 @@ initializeWidgets
 	self initializeAcceptButton.
 	self initializeCancelButton.
 	self initializePickList.
+	self initializeTextArea.
 	self setFocus.
+	self
+		on: $s command do: [ self accept ];
+		on: Character escape do: [ self cancel ]
