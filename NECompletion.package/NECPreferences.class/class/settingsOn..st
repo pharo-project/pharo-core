@@ -35,10 +35,10 @@ settingsOn: aBuilder
 						description: 'Decide if you want eCompletion to use smart characters, e.g, to automatically close brackets.'.
 					(aBuilder setting: #smartCharactersWithSingleSpace)
 						label: 'Smart Characters with Single Space';
-				 		description: 'Enumerate the characters which are automatically insterted with a single space in between.'.
+				 		description: 'Enumerate the characters which are automatically inserted with a single space in between.'.
 					(aBuilder setting: #smartCharactersWithDoubleSpace) 
 						label: 'Smart Characters with Double Space';
-				 		description: 'Enumerate the characters which are automatically instered with a two spaces in between.'.
+				 		description: 'Enumerate the characters which are automatically inserted with a two spaces in between.'.
 					(aBuilder setting: #popupShowAutomatic)
 						default: self defaultPopupShowAutomatic;
 						label: 'Popup is automatic'.

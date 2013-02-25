@@ -1,23 +1,33 @@
 keyboard
 smartBackspace
-
-	| opposite |
-	editor hasSelection
+	| opposite currentText currentEditor smartCharacter |
+	
+	currentEditor := editor.
+	currentEditor hasSelection
 		ifTrue: [ ^ false ].
 	
-	opposite := self smartCharactersMapping
-		at: (editor text
-			at: editor startIndex - 1
-			ifAbsent: [ ^ false ])
-		ifAbsent: [ ^ false ].
-		
-	opposite = (editor text at: editor stopIndex + 1 ifAbsent: [ ^ false ])
-		ifFalse: [ ^ false ].
-		
-	editor closeTypeIn.
-	editor selectInvisiblyFrom: editor startIndex - 1 to: editor stopIndex + 1.
-	editor replaceSelectionWith: editor nullText.
+	currentText := currentEditor text.
+	smartCharacter := currentText at: currentEditor startIndex - 1 ifAbsent: [ ^ false ].	"take the opposite"
+	
+	opposite := self smartCharactersMapping at: smartCharacter ifAbsent: [ ^ false ].	"test if the next char is opposite"
+	
+	opposite = (currentText at: currentEditor stopIndex ifAbsent: [ ^ false ])
+		ifFalse: [ ^ false ].	"test if there is an extra opposite to remove"
+	
+	(self 
+		smartNeedExtraRemoveIn: currentText 
+		for: smartCharacter 
+		opposite: opposite 
+		at: currentEditor startIndex)
+			ifFalse: [  ^ false ].	
+			
+	currentEditor closeTypeIn.
+	
+	currentEditor 
+		selectInvisiblyFrom: currentEditor startIndex - 1 
+		to: currentEditor stopIndex.
+	currentEditor replaceSelectionWith: currentEditor nullText.
+	
 	self invalidateEditorMorph.
 	
 	^ true
-	

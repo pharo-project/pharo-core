@@ -3,6 +3,9 @@ handleKeystrokeWithoutMenu: aKeyboardEvent
 
 	| isSpaceKey |
 	
+	self editor atCompletionPosition ifFalse: [ 
+		^ (self smartInputWithEvent: aKeyboardEvent ) notNil ].	
+	
 	isSpaceKey := #(0 32) includes: aKeyboardEvent keyValue.
 	self stopCompletionDelay.
 
