@@ -2,12 +2,13 @@ background coloring
 backgroundColorFor: aRow
 
 	| return |
-	aRow ifNil: [ ^nil ].
-	
+	aRow ifNil: [ ^ nil ].
+	self enabled
+		ifFalse: [ return := Color white darker darker ].
 	self backgroundColoringBlockOrSelector
 		ifNotNil: [:blockOrSelector || anItem |
 			anItem := getListElementSelector
-						ifNil: [ list at: aRow ifAbsent: [ ^ false ]]
+						ifNil: [ list at: aRow ifAbsent: [ ^ nil ]]
 						ifNotNil: [ model perform: getListElementSelector with: aRow ].
 
 			return := blockOrSelector isBlock

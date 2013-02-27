@@ -27,6 +27,7 @@ buildList
 				
 	self setShortcuts: #NautilusPackageShortcuts to: list.
 	
+	list on: #mouseDown send: #listMouseDown: to: self.
 	list
 		hResizing: #spaceFill;
 		vResizing: #spaceFill.	

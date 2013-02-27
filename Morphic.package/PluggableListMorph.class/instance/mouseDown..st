@@ -12,16 +12,16 @@ mouseDown: evt
 					evt commandKeyPressed
 						ifFalse: [ "right click" 
 							(self yellowButtonActivity: evt shiftPressed) 
-								ifTrue: [ ^ self ]]]
+								ifTrue: [ ^ super mouseDown: evt. ]]]
 				ifFalse: [ (self yellowButtonActivity: evt shiftPressed) 
-				ifTrue: [ ^ self ]]].
+				ifTrue: [ ^ super mouseDown: evt. ]]].
 		
-	self enabled ifFalse: [^self].
+	self enabled ifFalse: [ ^ super mouseDown: evt. ].
 	self wantsKeyboardFocus
 		ifTrue: [self takeKeyboardFocus].
 		
 	row := self rowAtLocation: evt position.
-	row = 0  ifTrue: [^super mouseDown: evt].
+	row = 0  ifTrue: [ ^ super mouseDown: evt ].
 	self mouseDownRow: row.
 	
 	self isMultipleSelection
@@ -32,4 +32,6 @@ mouseDown: evt
 		with: (doubleClickSelector ifNotNil:[#doubleClick:])
 		with: nil
 		with: (self dragEnabled ifTrue:[#startDrag:] ifFalse:[nil]).
+		
 	evt hand waitForClicksOrDrag: self event: evt selectors: selectors threshold: 10 "pixels".
+	super mouseDown: evt.

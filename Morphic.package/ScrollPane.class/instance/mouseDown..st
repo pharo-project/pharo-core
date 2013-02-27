@@ -6,8 +6,9 @@ mouseDown: evt
 	there is no time for study the issue as it would be required"
 	(evt yellowButtonPressed and: [ evt commandKeyPressed not ]) "First check for option (menu) click"
 		ifTrue: [ (self yellowButtonActivity: evt shiftPressed) 
-			ifTrue: [ ^ self ]].
+			ifTrue: [ ^ super mouseDown: evt. ]].
 	"If pane is not empty, pass the event to the last submorph,
 	assuming it is the most appropriate recipient (!)"
 	scroller hasSubmorphs ifTrue:
-		[scroller submorphs last mouseDown: (evt transformedBy: (scroller transformFrom: self))]
+		[scroller submorphs last mouseDown: (evt transformedBy: (scroller transformFrom: self))].
+	super mouseDown: evt.
