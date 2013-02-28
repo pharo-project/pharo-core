@@ -1,4 +1,0 @@
-callbacks
-returnType: aType
-
-	^ #returnType

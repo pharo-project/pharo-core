@@ -10,7 +10,7 @@ allMethodCategoriesIntegratedThrough: mostGenericClass
 	(self allSuperclassesIncluding: mostGenericClass) do: [ :aClass | 
 		 otherClassCategories addAll: aClass organization categories ].
 	otherClassCategories remove: 'no messages' ifAbsent: [  ].
-	thisClassCategories := self organization categories sort: lowercaseSortBlock.
+	thisClassCategories := self organization categories sorted: lowercaseSortBlock.
 													
 	^ thisClassCategories , ((otherClassCategories asSet removeAllSuchThat: [ :each |
 								thisClassCategories includes: each ]) sorted: lowercaseSortBlock)

@@ -1,4 +1,0 @@
-callbacks
-integerConstantArgument: int
-
-	^ #integerConstant
