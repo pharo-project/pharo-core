@@ -13,7 +13,7 @@ initializeWindow
 		fullFrame: LayoutFrame identity.		
 
 	trustedTree := PluggableTreeMorph new.
-	tabs addPage: trustedTree label: 'Configurations'.		
+	tabs addPage: trustedTree label: 'Verified'.		
 	trustedTree 
 		model: self; 
 		setSelectedSelector: #onTrustedSelected:;
@@ -25,7 +25,7 @@ initializeWindow
 	tabs selectedPageIndex: 1.
 	
 	untrustedTree := PluggableTreeMorph new.
-	tabs addPage: untrustedTree label: 'Untrusted'.		
+	tabs addPage: untrustedTree label: 'Unverified'.		
 	untrustedTree 
 		model: self; 
 		setSelectedSelector: #onUntrustedSelected:;

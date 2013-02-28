@@ -1,4 +1,10 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7580:	VM sometimes crashes when running test NBExternalEnumFromPairsTest>>#testCallbackAAA under Windows
-	http://code.google.com/p/pharo/issues/detail?id=7580'
+ ^ 'Issue 7614:	do not do #cleanUpForRelease after every update
+	http://code.google.com/p/pharo/issues/detail?id=7614
+	
+Issue 7613:	Rename tabs in config browser
+	http://code.google.com/p/pharo/issues/detail?id=7613
+	
+Issue 7612:	EUCTextConverter>>nextFromStream: returns the wrong characters
+	http://code.google.com/p/pharo/issues/detail?id=7612'
