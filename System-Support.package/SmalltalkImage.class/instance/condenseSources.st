@@ -30,8 +30,6 @@ for the new source code file...' initialAnswer: Smalltalk  sourceFileVersionStri
 			classOrTrait fileOutOn: f moveSource: true toFile: 1]].
 	f trailer; close.
 	
-	CompiledMethod cleanUp.
-	
 	"Make a new empty changes file"
 	self closeSourceFiles.
 	Smalltalk changesFile renameTo:  Smalltalk changesFile basename, '.old'.

@@ -1,4 +1,4 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7589:	ScriptLoader is too large to ship
-	http://code.google.com/p/pharo/issues/detail?id=7589'
+ ^ 'Issue 7624:	#condenseSources should not do a CompiledMethod cleanUp
+	http://code.google.com/p/pharo/issues/detail?id=7624'
