@@ -1,2 +1,0 @@
-pharo - scripts
-script1

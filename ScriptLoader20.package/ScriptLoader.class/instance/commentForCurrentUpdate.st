@@ -1,14 +1,4 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7621:	Protocols are sometimes messed up
-	https://code.google.com/p/pharo/issues/detail?id=7621
-	
-Issue 7620:	remove IslandVMTweaksTestCase
-	https://code.google.com/p/pharo/issues/detail?id=7620
-	
-Issue 7615:	unload NativeBoost tests for now...
-	https://code.google.com/p/pharo/issues/detail?id=7615
-	
-Issue 7609:	[Horrible Error]: Class creation not logged in changes
-	https://code.google.com/p/pharo/issues/detail?id=7609
-'
+ ^ 'Issue 7589:	ScriptLoader is too large to ship
+	http://code.google.com/p/pharo/issues/detail?id=7589'
