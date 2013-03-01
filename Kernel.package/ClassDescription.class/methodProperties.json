@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"acceptsLoggingOfCompilation" : "CamilloBruni 8/1/2012 15:57",
-		"addAndClassifySelector:withMethod:inProtocol:notifying:" : "EstebanLorenzano 8/3/2012 15:13",
+		"addAndClassifySelector:withMethod:inProtocol:notifying:" : "EstebanLorenzano 3/1/2013 14:42",
 		"addAuthorsTo:" : "StephaneDucasse 11/6/2011 22:18",
 		"addInstVarNamed:" : "StephaneDucasse 8/27/2010 11:04",
 		"allInstVarNamesEverywhere" : "al 11/28/2005 11:50",
@@ -22,7 +22,7 @@
 		"commentInventory" : "StephaneDucasse 10/6/2010 19:46",
 		"compile:classified:notifying:" : "CamilloBruni 4/27/2012 18:42",
 		"compile:classified:withStamp:notifying:" : "CamilloBruni 4/27/2012 18:42",
-		"compile:classified:withStamp:notifying:logSource:" : "",
+		"compile:classified:withStamp:notifying:logSource:" : "EstebanLorenzano 3/1/2013 14:27",
 		"definition" : "GuillermoPolito 4/30/2012 18:17",
 		"fileOutCategory:" : "PeterHugossonMiller 9/3/2009 00:55",
 		"fileOutChangedMessages:on:moveSource:toFile:" : "MarcusDenker 2/19/2010 18:38",

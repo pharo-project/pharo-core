@@ -9,7 +9,7 @@ bindingOf: varName
 	That's why we doing an environment lookup only as a last step of symbol lookup 
 	and taking only the environment of receiver only, not any of it's superclass(es) "
 	
-	| aSymbol binding |
+	| aSymbol |
 	aSymbol := varName asSymbol.
 
 	^ (self innerBindingOf: aSymbol) ifNil: [

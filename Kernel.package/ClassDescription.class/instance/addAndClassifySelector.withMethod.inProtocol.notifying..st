@@ -8,7 +8,7 @@ addAndClassifySelector: selector withMethod: compiledMethod inProtocol: category
 	
 	oldProtocol := self organization categoryOfElement: selector.
 	SystemAnnouncer uniqueInstance 
-		suspendAllWhile: [self organization classify: selector under: category].
+		suspendAllWhile: [ self organization classify: selector under: category ].
 		
 	newProtocol := self organization categoryOfElement: selector.
 	priorMethodOrNil isNil
@@ -20,6 +20,32 @@ addAndClassifySelector: selector withMethod: compiledMethod inProtocol: category
 				class: self 
 				requestor: requestor]
 		ifFalse: [
+			"If protocol changed and someone is from different package, I need to throw a method recategorized"
+			newProtocol = oldProtocol			
+				ifFalse: [ 
+					| oldPackage newPackage |
+							
+					"Check for repackage"
+					newPackage := RPackage organizer 
+						packageForProtocol: newProtocol 
+						inClass: self.
+					oldPackage := RPackage organizer 
+						packageForProtocol: oldProtocol 
+						inClass: self.
+					(newPackage = oldPackage)
+						ifFalse: [ 
+							SystemAnnouncer uniqueInstance 
+								 methodRepackaged: compiledMethod 
+								from: oldPackage 
+								to: newPackage ].
+							
+					"Announce recategorization"
+					SystemAnnouncer uniqueInstance 
+						selector: selector 
+						recategorizedFrom: oldProtocol 
+						to: newProtocol 
+						inClass: self	 ].	
+			
 			SystemAnnouncer uniqueInstance 
 				methodChangedFrom: priorMethodOrNil 
 				to: compiledMethod 
@@ -27,4 +53,4 @@ addAndClassifySelector: selector withMethod: compiledMethod inProtocol: category
 				inClass: self 
 				oldProtocol: oldProtocol 
 				newProtocol: newProtocol 
-				requestor: requestor].
+				requestor: requestor.]. 

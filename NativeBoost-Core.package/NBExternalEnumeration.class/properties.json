@@ -10,5 +10,5 @@
 	"name" : "NBExternalEnumeration",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "SharedPool",
 	"type" : "normal" }
