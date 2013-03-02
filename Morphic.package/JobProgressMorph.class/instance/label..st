@@ -16,4 +16,4 @@ label: aString
 				ifTrue: [ self removeMorph: self labelMorph ].
 			self changed: #width ].
 		
-	self changed
+	self changed: #width

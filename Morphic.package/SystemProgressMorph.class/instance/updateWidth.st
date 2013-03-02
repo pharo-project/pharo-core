@@ -1,6 +1,4 @@
 updating
 updateWidth
 
-	self 
-		resize;
-		refresh
+	self resize
