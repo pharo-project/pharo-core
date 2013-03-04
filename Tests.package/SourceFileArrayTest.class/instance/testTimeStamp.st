@@ -5,7 +5,7 @@ testTimeStamp
 
 	| okCm notOkCm |
 	okCm := Point>>#dist: .
-	self assert: (SourceFiles sourcedDataAt: okCm sourcePointer) =  'Point methodsFor: ''point functions'' stamp: ''lr 7/4/2009 10:42'' prior: 26268465'.
+	self assert: (SourceFiles sourcedDataAt: okCm sourcePointer) =   'Point methodsFor: ''point functions'' stamp: ''lr 7/4/2009 10:42'''.
 	self assert: (SourceFiles timeStampAt: okCm sourcePointer) = 'lr 7/4/2009 10:42'.
 	
 	notOkCm := Behavior >> #supermostPrecodeCommentFor:.
