@@ -1,3 +1,3 @@
 accessing
 reset
-	instance := nil
+	Instance := nil

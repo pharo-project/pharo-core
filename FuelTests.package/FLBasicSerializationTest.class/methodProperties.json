@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"expectedFailures" : "MartinDias 6/25/2012 21:09",
+		"expectedFailures" : "MaxLeske 2/26/2013 22:24",
 		"setUp" : "MaxLeske 10/18/2012 07:42",
 		"tearDown" : "MaxLeske 10/18/2012 07:42",
 		"testAllRangeOfIntegers" : "MarianoMartinezPeck 6/15/2012 19:55",
