@@ -7,4 +7,4 @@ testValueWithinTimingRepeat
 			[500 milliSeconds asDelay wait]
 				valueWithin: 100 milliSeconds onTimeout: []]
 	] durationToRun.
-	self assert: time < 350 milliSeconds.
+	self assert: time < 450 milliSeconds.

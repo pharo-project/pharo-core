@@ -1,0 +1,5 @@
+tests - under design
+testReadFromUTCOffset
+	"self debug: #testReadFromNoOffset"
+	
+	self assert: (DateAndTime readFrom: '2010-01-05T20:33:14.321Z' readStream) offset isZero

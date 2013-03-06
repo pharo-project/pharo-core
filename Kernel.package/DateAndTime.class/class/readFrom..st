@@ -1,22 +1,14 @@
 input
 readFrom: aStream
+	"Parse and return a new DateAndTime instance from stream, 
+	as a Date, a Time and a TimeZone offset."
+	"self readFrom: ' 2013-03-04T23:47:52.876+01:00' readStream"
 
 	| offset date time ch |
-
 	date := Date readFrom: aStream.
-	[aStream peek isDigit]
-		whileFalse: [aStream next].
+	[ aStream peek isDigit ] whileFalse: [ aStream next ].
 	time := Time readFrom: aStream.
-	aStream atEnd
-		ifTrue: [ offset := self localOffset ]
-		ifFalse: [ |upToEnd|
-			ch := aStream next.
-			ch = $+ ifTrue: [ch := Character space].
-			upToEnd := aStream upTo: Character space.
-			(upToEnd includes: $:) ifFalse: [
-				upToEnd := (upToEnd first: 2), ':', (upToEnd allButFirst: 2)].
-			offset := Duration fromString: ch asString, '0:', upToEnd, ':0'].
-		
+	offset := self readTimezoneOffsetFrom: aStream.
 	^ self
 		year: date year
 		month: date monthIndex
@@ -26,7 +18,6 @@ readFrom: aStream
 		second: time second
 		nanoSecond: time nanoSecond
 		offset: offset
-
 
 	"	'-1199-01-05T20:33:14.321-05:00' asDateAndTime
 		' 2002-05-16T17:20:45.1+01:01' asDateAndTime

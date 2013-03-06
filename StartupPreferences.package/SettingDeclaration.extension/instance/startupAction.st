@@ -21,6 +21,6 @@ startupAction
 					s << ') perform: '.
 					self setSelector asSymbol printOn: s.
 					s << ' with: ('.
-					currentValue storeOn: s.
+					currentValue settingStoreOn: s.
 					s <<')' ])
 		runOnce: true

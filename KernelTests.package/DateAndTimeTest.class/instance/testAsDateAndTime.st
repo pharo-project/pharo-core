@@ -23,4 +23,6 @@ testAsDateAndTime
 		' 2002-05-16T17:20:45+01:57' 
  		' 2002-05-16T17:20:45-02:34' 
  		' 2002-05-16T17:20:45+00:00' 
-		' 1997-04-26T01:02:03+01:02:3' ) do: [:each | each printString = each]
+		' 1997-04-26T01:02:03+01:02:3' ) 
+		
+		do: [:each | each asDateAndTime printString = each]
