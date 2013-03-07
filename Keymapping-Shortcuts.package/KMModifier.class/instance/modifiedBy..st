@@ -1,4 +1,4 @@
-as yet unclassified
+printing
 modifiedBy: modifier
 	^ KMComposedModifier new
 		modifiedBy: modifier;

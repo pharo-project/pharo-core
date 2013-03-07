@@ -8,6 +8,7 @@ readFrom: aStream
 	date := Date readFrom: aStream.
 	[ aStream peek isDigit ] whileFalse: [ aStream next ].
 	time := Time readFrom: aStream.
+	aStream skipSeparators.
 	offset := self readTimezoneOffsetFrom: aStream.
 	^ self
 		year: date year

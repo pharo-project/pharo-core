@@ -1,3 +1,3 @@
-as yet unclassified
+comparing
 matches: aKeyboardEvent
 	self shouldNotImplement

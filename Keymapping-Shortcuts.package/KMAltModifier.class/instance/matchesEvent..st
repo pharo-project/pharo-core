@@ -1,3 +1,3 @@
-as yet unclassified
+matching
 matchesEvent: aKeyboardEvent
 	^ aKeyboardEvent altKeyPressed

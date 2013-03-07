@@ -1,3 +1,3 @@
-as yet unclassified
+arithmetic
 + modified
 	^ modified asShortcut modifiedBy: self
