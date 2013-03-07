@@ -9,6 +9,7 @@ recompileCurrentMethodTo: aText notifying: aController
 		and: [selector numArgs = self selectedMessageName numArgs]]) ifFalse:
 		[self inform: 'can''t change selector'.
 		 ^nil].
+	aController setText: aText.
 	selector := classOfMethod
 				compile: aText
 				classified: category
