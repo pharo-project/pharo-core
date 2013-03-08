@@ -1,4 +1,0 @@
-versions
-version20075PreLoad
-	MetacelloScriptLoader showIntegrationMenu.
-	World resetWorldMenu.

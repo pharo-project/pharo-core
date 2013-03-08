@@ -1,5 +1,5 @@
 pharo - scripts
-script560
+script562
 
 	^ 'AST-Core-MarcusDenker.113.mcz
 AST-Semantic-StephaneDucasse.21.mcz
@@ -81,13 +81,13 @@ HelpSystem-Core-StephaneDucasse.89.mcz
 HelpSystem-Tests-StephaneDucasse.19.mcz
 HistoryCollection-MarcusDenker.16.mcz
 HudsonBuildTools20-EstebanLorenzano.25.mcz
-Kernel-MarcusDenker.1330.mcz
-KernelTests-MarcusDenker.474.mcz
+Kernel-EstebanLorenzano.1332.mcz
+KernelTests-EstebanLorenzano.476.mcz
 KeyChain-StephaneDucasse.29.mcz
 Keymapping-Core-EstebanLorenzano.142.mcz
 Keymapping-Pragmas-MarcusDenker.39.mcz
 Keymapping-Settings-MarcusDenker.65.mcz
-Keymapping-Shortcuts-MarcusDenker.63.mcz
+Keymapping-Shortcuts-EstebanLorenzano.65.mcz
 Keymapping-Tests-MarcusDenker.69.mcz
 Keymapping-Tools-Spec-MarcusDenker.16.mcz
 Manifest-Core-MarcusDenker.111.mcz
@@ -104,7 +104,7 @@ Monticello-MarcusDenker.775.mcz
 MonticelloConfigurations-StephaneDucasse.61.mcz
 MonticelloGUI-MarcusDenker.213.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
-Morphic-MarcusDenker.1367.mcz
+Morphic-EstebanLorenzano.1369.mcz
 MorphicTests-MarcusDenker.67.mcz
 Multilingual-Encodings-MarcusDenker.39.mcz
 Multilingual-Languages-MarcusDenker.30.mcz
