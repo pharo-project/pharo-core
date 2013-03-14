@@ -4,6 +4,8 @@ update: aSymbol
 		ifTrue: [ ^ self pageSize: model pageSize ].
 	aSymbol == #chunkSize
 		ifTrue: [ ^ self chunkSize: model chunkSize ].
+	self pager isNil
+		ifTrue: [ ^ super update: aSymbol ].
 	((aSymbol isKindOf: Array)
 		and: [ aSymbol size > 1 and: [ aSymbol first == self nodeListSelector and: [ aSymbol second == #openItemPath ] ] ])
 		ifTrue: [ 

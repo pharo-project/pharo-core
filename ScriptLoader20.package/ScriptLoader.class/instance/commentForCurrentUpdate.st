@@ -1,10 +1,7 @@
 public
 commentForCurrentUpdate
- ^ 'Issue 7660:	comments in isAbstractClass are wrong
-	https://code.google.com/p/pharo/issues/detail?id=7660
-	
-Issue 7659:	use more efficient setSourcePointer: in CompiledMethod
-	https://code.google.com/p/pharo/issues/detail?id=7659
-	
-(almost the last one :)
-'
+ ^ 'Issue 7345:	DNU with Glamour: PaginatedMorphTreeMorph>>setSelectedMorph:
+	https://code.google.com/p/pharo/issues/detail?id=7345
+	https://pharo.fogbugz.com/f/cases/7282
+
+	'
