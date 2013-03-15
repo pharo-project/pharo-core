@@ -8,7 +8,7 @@
 		"retrieveMIMEDocument:" : "mir 3/5/2002 16:21" },
 	"instance" : {
 		"checkForPendingError" : "mir 7/23/2003 16:52",
-		"checkResponse" : "mir 5/9/2003 18:47",
+		"checkResponse" : "BenjaminVanRyseghem 3/14/2013 14:29",
 		"checkResponse:onError:onWarning:" : "mir 7/23/2003 16:51",
 		"checkResponseOnError:onWarning:" : "mir 7/23/2003 16:54",
 		"close" : "mir 3/7/2002 13:10",

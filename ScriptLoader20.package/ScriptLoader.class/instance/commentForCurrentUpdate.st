@@ -1,8 +1,8 @@
 public
 commentForCurrentUpdate
- ^ '10014	World menu > System > Switch User serves no purpose
-	https://pharo.fogbugz.com/f/cases/10014/World-menu-System-Switch-User-serves-no-purpose
-	
-10004	SmalltalkImage current reportCPUandRAM > DNU
-	https://pharo.fogbugz.com/f/cases/10004/SmalltalkImage-current-reportCPUandRAM-DNU
+ ^ '10017 ProtocolCLient do not propagate the erros from the server
+	https://pharo.fogbugz.com/f/cases/10017
+
+7627 FileReference>>deleteAll follows symlinks
+	https://pharo.fogbugz.com/f/cases/7627
 '

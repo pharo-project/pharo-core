@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "cwp 11/18/2009 12:30",
 	"instvars" : [
-		 ],
+		"root" ],
 	"name" : "DeleteVisitor",
 	"pools" : [
 		 ],
