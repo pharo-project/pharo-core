@@ -1,7 +1,7 @@
 menu
 switchUsers: aBuilder 
 	"I build a menu"
-	<worldMenu>
+	"<worldMenu>"
 	(aBuilder item: #'Switch User')
 		parent: #System;
 		order: 1.5;
