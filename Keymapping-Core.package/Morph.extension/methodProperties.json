@@ -14,4 +14,5 @@
 		"hasKeymapCategoryNamed:" : "SeanDeNigris 7/9/2012 23:40",
 		"initializeShortcuts:" : "ThierryGoubier 9/15/2012 21:06",
 		"kmDispatcher" : "ThierryGoubier 9/14/2012 22:21",
-		"on:do:" : "GuillermoPolito 9/12/2011 16:39" } }
+		"on:do:" : "GuillermoPolito 4/2/2013 11:19",
+		"onKeyCombination:do:" : "GuillermoPolito 4/2/2013 11:06" } }

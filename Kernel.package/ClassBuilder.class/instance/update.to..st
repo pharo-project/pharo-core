@@ -17,6 +17,9 @@ update: oldClass to: newClass
 		oldClass superclass removeSubclass: oldClass.
 		oldClass superclass removeObsoleteSubclass: oldClass.
 
+		"make sure that the VM cache is clean"
+		oldClass methodDict keysDo: [:aSelector | aSelector flushCache].
+
 		"Convert the instances of oldClass into instances of newClass"
 		newClass updateInstancesFrom: oldClass.
 

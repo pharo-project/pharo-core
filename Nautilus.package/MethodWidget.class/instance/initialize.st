@@ -2,4 +2,4 @@ private
 initialize
 
 	super initialize.
-	methodsSelection := Dictionary new.
+	methodsSelection := IdentityDictionary new.

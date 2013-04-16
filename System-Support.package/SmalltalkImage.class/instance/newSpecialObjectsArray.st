@@ -51,8 +51,9 @@ newSpecialObjectsArray
 	newArray at: 26 put: #mustBeBoolean.
 	newArray at: 27 put: ByteArray.
 	newArray at: 28 put: Process.
-	"An array of up to 31 classes whose instances will have compact headers"
-	newArray at: 29 put: self newCompactClassesArray.
+	"A 32-element array with up to 32 classes that have compact instances.
+	 Cog inlines table into machine code class lookup so do not regenerate it."
+	newArray at: 29 put: self compactClassesArray.
 	newArray at: 30 put: (self specialObjectsArray ifNil: [ Semaphore new ] ifNotNil: [ self specialObjectsArray at: 30 ]). 	"(delay Semaphore)"
 	newArray at: 31 put: (self specialObjectsArray ifNil: [ Semaphore new ] ifNotNil: [ self specialObjectsArray at: 31 ]). 	"(user interrupt Semaphore)"
 	"Prototype instances that can be copied for fast initialization"

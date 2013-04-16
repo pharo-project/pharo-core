@@ -1,6 +1,8 @@
-public
-commentForCurrentUpdate
- ^ '10196 Change shortcuts default settings of 2.0 to the traditional ones
+pharo - updates
+update20595
+	"self new update20595"
+	Nautilus useOldStyleKeys: true.
+	self withUpdateLog: '10196 Change shortcuts default settings of 2.0 to the traditional ones
 UI: Misc | Milestone: Pharo2.0
 	https://pharo.fogbugz.com/f/cases/10196
 	
@@ -15,4 +17,6 @@ UI: Misc | Milestone: Pharo2.0
 	
 10174 Backport 2.0 Issue 10162: multiple selection of methods in method pane ...
 	https://pharo.fogbugz.com/f/cases/10174
-'
+'.
+	self loadTogether: self script569 merge: false.
+	self flushCaches.
