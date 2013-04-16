@@ -5,6 +5,7 @@ runTestsOfClass: aClass notifying: aBoolean
 	methods := aClass methodDict values select: [ :method | method isTestMethod ] thenCollect: [:e | e selector ].
 
 	blockToEvaluate := [ |result |
+		aClass resetHistory.
 		result := (aClass addToSuite: TestSuite new fromMethods: methods) run.
 		result updateResultsInHistory.
 		ClassesIconsCache removeKey: aClass ifAbsent: [].

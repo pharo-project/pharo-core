@@ -11,6 +11,7 @@
 		"testCreationWithOffsets" : "CamilloBruni 7/13/2012 17:24",
 		"testDateTimeDenotation1" : "CamilloBruni 7/13/2012 16:36",
 		"testDateTimeDenotation2" : "CamilloBruni 7/13/2012 16:36",
+		"testDayOfWeekWithUTC" : "AndyKellens 4/4/2013 09:33",
 		"testDosEpoch" : "PavelKrivanek 7/8/2012 19:46",
 		"testErrorWhenDayIsAfterMonthEnd" : "StephaneDucasse 4/23/2010 21:45",
 		"testErrorWhenDayIsBeforeMonthStart" : "StephaneDucasse 4/23/2010 21:45",

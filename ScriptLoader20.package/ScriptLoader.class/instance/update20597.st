@@ -1,6 +1,7 @@
-public
-commentForCurrentUpdate
- ^ '10249 Backport 2.0: Red Light when all test are green
+pharo - updates
+update20597
+	"self new update20597"
+	self withUpdateLog: '10249 Backport 2.0: Red Light when all test are green
 	https://pharo.fogbugz.com/f/cases/10249
 	
 10230 backport 2.0: 10229 Fix sender of #copyWithTempsFromMethodNode:
@@ -13,4 +14,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/10179
 	
 	
-'
+'.
+	self loadTogether: self script571 merge: false.
+	self flushCaches.

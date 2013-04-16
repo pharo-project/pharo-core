@@ -8,7 +8,7 @@ putSource: sourceStr fromParseNode: methodNode inFile: fileIndex withPreamble: p
 
 	| file remoteString |
 	(SourceFiles == nil or: [(file := SourceFiles at: fileIndex) == nil]) ifTrue:
-		[^self becomeForward: (self copyWithTempsFromMethodNode: methodNode)].
+		[^self becomeForward: (self copyWithSource: methodNode)].
 
 	Smalltalk assureStartupStampLogged.
 	file setToEnd.
