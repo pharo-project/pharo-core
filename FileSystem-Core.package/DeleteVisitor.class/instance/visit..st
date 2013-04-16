@@ -1,5 +1,3 @@
 visiting
 visit: aReference
-
-	root := aReference.
-	PostorderGuide show: aReference to: self.
+	PostorderGuide show: aReference to: self
