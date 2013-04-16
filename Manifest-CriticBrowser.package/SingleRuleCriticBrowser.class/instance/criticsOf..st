@@ -1,8 +1,5 @@
 private
 criticsOf: aRule
 	cache ifNil: [^ {}].
-	criticsModel items: ((cache criticsOf: aRule)
-				sorted: [ :a :b| 
-					a methodClass = b methodClass
-						ifTrue: [ a selector <= b selector ]
-						ifFalse: [ a methodClass name <= b methodClass name ]]).
+	criticsModel 
+			items: ((cache criticsOf: aRule) sorted: [ :a :b|  a name <  b name]).

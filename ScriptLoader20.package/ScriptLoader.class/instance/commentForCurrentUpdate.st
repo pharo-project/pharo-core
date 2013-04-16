@@ -1,5 +1,4 @@
 public
 commentForCurrentUpdate
- ^ '10027 Failing Test: FileReferenceTest>>#testDeleteAl
-	https://pharo.fogbugz.com/f/cases/10027
-'
+ ^ '10123 Bug in warning in CriticBrowser
+	https://pharo.fogbugz.com/f/cases/10123'
