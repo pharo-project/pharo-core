@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testApplicationUrlEncodingAddAll" : "SvenVanCaekenberghe 2/24/2013 10:53",
 		"testMultiPartFormDataWriteRead" : "SvenVanCaekenberghe 1/27/2011 17:15",
 		"testReading" : "SvenVanCaekenberghe 12/3/2010 15:41",
 		"testReadingApplicationFormUrlEncoding" : "SvenVanCaekenberghe 1/25/2013 14:41",
