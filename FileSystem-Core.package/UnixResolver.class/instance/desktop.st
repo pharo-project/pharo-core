@@ -1,3 +1,3 @@
 origins
 desktop
-	^ self home / 'Desktop'
+	^ (self xdgUserDir: 'DESKTOP') ifNil: [ self home / 'Desktop' ]

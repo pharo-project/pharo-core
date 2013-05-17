@@ -1,3 +1,3 @@
 origins
 documents
-	^ self home / 'Documents'
+	^ (self xdgUserDir: 'DOCUMENTS') ifNil: [ self home / 'Documents' ]
