@@ -1,6 +1,4 @@
 public
 commentForCurrentUpdate
- ^ '10537 Backport 2.0: StartupPreferences interferes with zeroconf pharo binary
-	https://pharo.fogbugz.com/f/cases/10537
-	
-'
+ ^ '10653	Some Jenkins images show a stdout is closed error
+	https://pharo.fogbugz.com/f/cases/10653'
