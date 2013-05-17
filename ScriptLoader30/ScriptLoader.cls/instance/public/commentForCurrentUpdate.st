@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10046 Spec new version	https://pharo.fogbugz.com/f/cases/10046'
+commentForCurrentUpdate ^ '10017 ProtocolCLient do not propagate the erros from the server	https://pharo.fogbugz.com/f/cases/100177610 remove #nameForUndoWording from Morph	https://pharo.fogbugz.com/f/cases/7610'
