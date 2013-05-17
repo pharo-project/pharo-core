@@ -1,1 +1,0 @@
-useHistoricalShortcuts: aBoolean	UseHistoricalShortcuts := aBoolean
