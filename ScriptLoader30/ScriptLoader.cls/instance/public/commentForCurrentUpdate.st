@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ 'Release 2.0'
+commentForCurrentUpdate ^ '10021 Duration should have wait	https://pharo.fogbugz.com/f/cases/10021'
