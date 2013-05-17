@@ -1,1 +1,1 @@
-Object subclass: #SpecInterpreter	instanceVariableNames: 'model spec superSpec bindings'	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Core'
+Object subclass: #SpecInterpreter	instanceVariableNames: 'model spec superSpec bindings arrayToInterpret specForChildren index'	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Core'

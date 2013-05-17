@@ -1,0 +1,1 @@
+update30005	"self new update30005"	self withUpdateLog: '10055 Spec better add:withSpec: handling	https://pharo.fogbugz.com/f/cases/10055/Spec-better-add-withSpec-handling	7262 remove #stringRepresentation	https://pharo.fogbugz.com/f/cases/7262/remove-stringRepresentation'.	self loadTogether: self script104 merge: false.	self flushCaches.

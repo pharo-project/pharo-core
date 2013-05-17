@@ -1,0 +1,1 @@
+checkIfRebuildNeeded: anArray	((self model respondsTo: #needRebuild) and: [ self model needRebuild not and: [ self model spec notNil ] ])		ifTrue: [ 			spec := self model spec.			spec removeSubWidgets.			self model needRebuild: true ]		ifFalse: [ spec := self retreiveSpecFrom: anArray first ]

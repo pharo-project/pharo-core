@@ -1,1 +1,0 @@
-doesNotUnderstand: aMessage		^ (self class respondsTo: aMessage selector)		ifTrue: [ self class perform: aMessage selector withArguments: aMessage arguments ]		ifFalse: [ super doesNotUnderstand: aMessage ]

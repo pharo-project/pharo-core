@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10017 ProtocolCLient do not propagate the erros from the server	https://pharo.fogbugz.com/f/cases/100177610 remove #nameForUndoWording from Morph	https://pharo.fogbugz.com/f/cases/7610'
+commentForCurrentUpdate ^ '10055 Spec better add:withSpec: handling	https://pharo.fogbugz.com/f/cases/10055/Spec-better-add-withSpec-handling	7262 remove #stringRepresentation	https://pharo.fogbugz.com/f/cases/7262/remove-stringRepresentation'
