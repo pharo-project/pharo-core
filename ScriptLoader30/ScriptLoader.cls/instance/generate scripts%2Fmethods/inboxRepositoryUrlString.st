@@ -1,1 +1,1 @@
-inboxRepositoryUrlString		^ self rootURLString, 'PharoInbox'
+inboxRepositoryUrlString		^ self rootURLString, 'Pharo30Inbox/main'

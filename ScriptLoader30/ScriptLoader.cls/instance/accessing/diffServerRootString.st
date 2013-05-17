@@ -1,1 +1,1 @@
-diffServerRootString	^  'http://ss3.gemstone.com/ss/Pharo30/'
+diffServerRootString	^  'http://smalltalkhub.com/#!/~Pharo/Pharo30/diff/'

@@ -1,1 +1,1 @@
-loadLatestScriptloader	"self new loadLatestScriptloader"		self class 		loadLatestPackage: 'ScriptLoader', self currentMajorVersionNumberWithoutDot 		fromSqueaksource: 'Pharo30' 	
+loadLatestScriptloader	"self new loadLatestScriptloader"		self class 		loadLatestPackage: 'ScriptLoader', self currentMajorVersionNumberWithoutDot 		fromHub: 'Pharo30' 	

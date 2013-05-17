@@ -1,1 +1,1 @@
-rootURLString 	^ 'http://ss3.gemstone.com/ss/'
+rootURLString 	^ 'http://smalltalkhub.com/mc/Pharo/'

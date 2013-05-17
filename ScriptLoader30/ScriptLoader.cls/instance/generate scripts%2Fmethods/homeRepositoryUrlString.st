@@ -1,1 +1,1 @@
-homeRepositoryUrlString		^ self rootURLString, 'Pharo30'
+homeRepositoryUrlString		^ self rootURLString, 'Pharo30/main'

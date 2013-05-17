@@ -1,1 +1,1 @@
-repository20	^ repository20 ifNil: [		repository20 := MCHttpRepository new			location: self rootURLString, 'Pharo20';			user: '';			password: '']	
+repository20	^ repository20 ifNil: [		repository20 := MCHttpRepository new			location: 'http://ss3.gemstone.com/ss/Pharo20';			user: '';			password: '']	

@@ -1,1 +1,0 @@
-pendingListFileName	^ 'updates', (SystemVersion current majorMinor:''), '.pending'
