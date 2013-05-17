@@ -1,5 +1,5 @@
 accessing
 server
 
-	pharoServer ifNil: [pharoServer := 'pharo.gforge.inria.fr/'].
+	pharoServer ifNil: [pharoServer := 'updates.pharo.org/'].
 	^ pharoServer

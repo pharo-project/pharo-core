@@ -8,7 +8,7 @@ downloadSources
 	self shouldDownloadSourcesFile ifFalse: [ ^ self ].
 	sharedDirectory := self vmDirectory.
 	self sourcesDownloadClient
-		url: 'http://pharo.gforge.inria.fr/ci/image/PharoV20.sources';
+		url: 'http://files.pharo.org/sources/PharoV20.sources';
 		downloadTo: sharedDirectory;
 		close.
 	(sharedDirectory / self sourcesFile basename) exists
