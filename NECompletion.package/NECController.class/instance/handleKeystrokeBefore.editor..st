@@ -62,10 +62,10 @@ handleKeystrokeBefore: aKeyboardEvent editor: anEditor
 		ifTrue: [
 			NECPreferences expandPrefixes
 				ifFalse: [ 
-					(NECPreferences useEnterToAccept not and: [ menuMorph insertSelected ])
+					menuMorph insertSelected
 						ifTrue: [^ true]]
 				ifTrue: [
-					menuMorph insertCommonPrefix
+					menuMorph insertCommonPrefixOrSelected
 						ifTrue: [^ true]]].
 
 	self flag: #todo. "Removing for now... most of the shortcuts are broken and no time or need now to fix them" 

@@ -7,7 +7,6 @@
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		"listCache",
-		"model",
 		"listSize",
 		"isInitialized",
 		"isMultipleSelection",

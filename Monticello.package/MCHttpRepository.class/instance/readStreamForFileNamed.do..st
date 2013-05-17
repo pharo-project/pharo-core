@@ -2,7 +2,8 @@ i/o
 readStreamForFileNamed: aString do: aBlock
 	| client |
 	self displayProgress: 'Downloading ', aString during: [
-		(client := self httpClient)
+		client := self httpClient.
+		client
 			ifFail: [ :exception | self error: 'Could not load ', aString, ': ', exception printString ];
 			get: (self urlForFileNamed: aString).
 		self assertBinaryResponse: client response.

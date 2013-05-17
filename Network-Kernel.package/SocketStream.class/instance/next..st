@@ -1,11 +1,7 @@
 stream in
 next: anInteger
-	"Answer anInteger bytes of data.
+	"Read count elements and return them in a collection.
+	If the receiver is #atEnd before count elements were read, 
+	return a smaller collection and don't signal ConnectionClosed."
 
-	NOTE: This method doesn't honor timeouts if shouldSignal is false!"
-
-	| start |
-	self receiveData: anInteger.
-	start := lastRead + 1.
-	lastRead := (lastRead + anInteger) min: inNextToWrite - 1.
-	^inBuffer copyFrom: start to: lastRead
+	^ self nextInto: (self streamBuffer: anInteger)
