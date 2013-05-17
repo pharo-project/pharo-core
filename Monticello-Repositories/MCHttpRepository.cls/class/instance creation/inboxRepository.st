@@ -1,1 +1,1 @@
-inboxRepository	^ self location: 'http://ss3.gemstone.com/ss/PharoInbox/'.
+inboxRepository	^ self location: 'http://smalltalkhub.com/mc/Pharo/Pharo30Inbox/main'.
