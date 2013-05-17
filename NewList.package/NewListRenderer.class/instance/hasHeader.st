@@ -1,4 +1,0 @@
-accessing
-hasHeader
-
-	^ hasHeader contents

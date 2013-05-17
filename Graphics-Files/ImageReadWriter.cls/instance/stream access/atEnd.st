@@ -1,0 +1,1 @@
+atEnd	^stream atEnd

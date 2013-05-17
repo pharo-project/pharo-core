@@ -1,0 +1,1 @@
+iconClass	^ self class iconClass

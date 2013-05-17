@@ -1,3 +1,0 @@
-testing
-isVariableScope
-	^ true

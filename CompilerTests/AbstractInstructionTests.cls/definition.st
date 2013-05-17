@@ -1,0 +1,1 @@
+Object subclass: #AbstractInstructionTests	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'CompilerTests'

@@ -1,4 +1,0 @@
-*Nautilus
-getListElementSelector
-
-	^ getListElementSelector

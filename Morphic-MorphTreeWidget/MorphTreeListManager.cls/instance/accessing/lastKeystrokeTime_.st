@@ -1,0 +1,1 @@
+lastKeystrokeTime: anObject	lastKeystrokeTime := anObject

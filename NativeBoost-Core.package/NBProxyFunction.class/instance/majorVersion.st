@@ -1,4 +1,0 @@
-accessing
-majorVersion
-
-	^majorVersion

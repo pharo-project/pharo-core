@@ -1,0 +1,1 @@
+isPrimitive	^inlineParseTree isPrimitive

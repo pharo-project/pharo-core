@@ -1,0 +1,1 @@
+A CompilerExceptionsTest is xxxxxxxxx.Instance Variables	status:		<Object>	text:		<Object>status	- xxxxxtext	- xxxxx

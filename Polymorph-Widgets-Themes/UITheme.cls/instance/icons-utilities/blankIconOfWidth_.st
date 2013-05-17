@@ -1,0 +1,1 @@
+blankIconOfWidth: aNumber 	^ ThemeIcons blankIconOfWidth: aNumber 

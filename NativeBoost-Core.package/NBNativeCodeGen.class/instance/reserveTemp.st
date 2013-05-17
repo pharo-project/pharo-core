@@ -1,3 +1,0 @@
-temporaries
-reserveTemp
-	^ asm reserveTemp

@@ -1,0 +1,1 @@
+isSelfBinding	^ false

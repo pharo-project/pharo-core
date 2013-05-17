@@ -1,3 +1,0 @@
-accessing
-one
-	^ 1

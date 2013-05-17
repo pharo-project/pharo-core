@@ -1,3 +1,0 @@
-*Manifest-CriticBrowser
-isMultiEnvironment
-	^ true

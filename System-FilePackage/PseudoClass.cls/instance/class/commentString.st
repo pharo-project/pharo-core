@@ -1,0 +1,1 @@
+commentString	^self comment asString

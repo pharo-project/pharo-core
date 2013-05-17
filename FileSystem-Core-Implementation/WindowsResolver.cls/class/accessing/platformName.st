@@ -1,0 +1,1 @@
+platformName	^ 'Win32'

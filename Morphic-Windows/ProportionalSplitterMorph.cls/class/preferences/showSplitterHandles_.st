@@ -1,0 +1,1 @@
+showSplitterHandles: aBoolean	ShowHandles := aBoolean

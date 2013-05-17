@@ -1,0 +1,1 @@
+acceptContents	self informTarget.

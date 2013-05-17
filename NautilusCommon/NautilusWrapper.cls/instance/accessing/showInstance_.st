@@ -1,0 +1,1 @@
+showInstance: anObject			showInstance := anObject

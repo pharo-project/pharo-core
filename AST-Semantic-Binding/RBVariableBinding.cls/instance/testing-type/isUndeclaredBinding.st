@@ -1,0 +1,1 @@
+isUndeclaredBinding	^ false

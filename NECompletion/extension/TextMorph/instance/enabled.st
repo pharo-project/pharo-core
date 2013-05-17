@@ -1,0 +1,1 @@
+enabled	^super enabled and: [ self lock == false ]

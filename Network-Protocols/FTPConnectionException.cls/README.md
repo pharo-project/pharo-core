@@ -1,0 +1,1 @@
+A FTPConnectionException is xxxxxxxxx.Instance Variables

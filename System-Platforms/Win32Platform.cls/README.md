@@ -1,0 +1,1 @@
+A Win32Platform is xxxxxxxxx.Instance Variables

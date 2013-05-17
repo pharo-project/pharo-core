@@ -1,0 +1,1 @@
+classRemoved: anObject		classRemoved := anObject

@@ -1,0 +1,1 @@
+Trait named: #TAbleToRotate	uses: {}	category: 'Morphic-Basic'

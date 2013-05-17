@@ -1,0 +1,1 @@
+A ClassNameSetter is xxxxxxxxx.Instance Variables	categoryField:		<Object>	categoryLabel:		<Object>	classNameLabel:		<Object>	classNameTextField:		<Object>	descriptionHolder:		<Object>	toolbar:		<Object>categoryField	- xxxxxcategoryLabel	- xxxxxclassNameLabel	- xxxxxclassNameTextField	- xxxxxdescriptionHolder	- xxxxxtoolbar	- xxxxx

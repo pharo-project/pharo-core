@@ -1,0 +1,1 @@
+homeIcon	^ ThemeIcons homeIcon

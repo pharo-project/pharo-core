@@ -1,0 +1,1 @@
+collectionWith1TimeSubcollection	^ collectionWithSubCollection 

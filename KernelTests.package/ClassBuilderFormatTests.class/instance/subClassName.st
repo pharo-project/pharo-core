@@ -1,3 +1,0 @@
-utilities
-subClassName
-	^#DummyClassBuilderFormatTestSubClass

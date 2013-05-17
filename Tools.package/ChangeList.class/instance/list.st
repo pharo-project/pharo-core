@@ -1,3 +1,0 @@
-viewing access
-list
-	^ list

@@ -1,3 +1,0 @@
-private
-dstPort
-	^dstPort

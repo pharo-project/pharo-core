@@ -1,0 +1,1 @@
+asZnMimeType	^ ZnMimeType fromString: self

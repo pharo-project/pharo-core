@@ -1,0 +1,1 @@
+asWordArray	^self

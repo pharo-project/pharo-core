@@ -1,0 +1,1 @@
+package: aMCPackage	package := aMCPackage

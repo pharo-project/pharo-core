@@ -1,0 +1,1 @@
+mainValue	^mainValue

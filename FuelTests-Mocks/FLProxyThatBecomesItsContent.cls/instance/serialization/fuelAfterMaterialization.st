@@ -1,0 +1,1 @@
+fuelAfterMaterialization 	self become: contents

@@ -1,0 +1,1 @@
+sourceErrorString	^ error , ' -> '

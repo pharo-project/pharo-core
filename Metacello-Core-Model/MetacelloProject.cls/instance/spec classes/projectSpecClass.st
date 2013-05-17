@@ -1,0 +1,1 @@
+projectSpecClass	^self subclassResponsibility

@@ -1,0 +1,1 @@
+st	^ self smalltalk

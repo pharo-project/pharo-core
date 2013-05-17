@@ -1,0 +1,1 @@
+smallInspectItIcon	^ ThemeIcons smallInspectItIcon

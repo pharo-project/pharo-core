@@ -1,0 +1,1 @@
+A MCSmalltalkhubRepository is xxxxxxxxx.Instance Variables	owner:		<Object>	project:		<Object>owner	- xxxxxproject	- xxxxx

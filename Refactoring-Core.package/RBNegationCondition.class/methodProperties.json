@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"on:" : "" },
-	"instance" : {
-		"check" : "",
-		"condition:" : "",
-		"errorBlockFor:" : "",
-		"errorStringFor:" : "",
-		"printOn:" : "" } }

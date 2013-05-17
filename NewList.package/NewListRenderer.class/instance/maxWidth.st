@@ -1,4 +1,0 @@
-accessing
-maxWidth
-
-	^ maxWidth contents

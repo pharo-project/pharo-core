@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"setUp" : "zz 12/5/2005 18:33",
-		"testComparison" : "ab 12/29/2008 07:59",
-		"testEquality" : "md 3/8/2004 16:37",
-		"testHash" : "al 10/13/2008 20:32",
-		"testIsSelfEvaluating" : "jb 7/1/2011 10:40" } }

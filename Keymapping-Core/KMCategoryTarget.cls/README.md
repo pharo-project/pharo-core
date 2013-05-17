@@ -1,0 +1,1 @@
+A KMCategoryTarget is xxxxxxxxx.Instance Variables	category:		<Object>	morph:		<Object>	target:		<Object>category	- xxxxxmorph	- xxxxxtarget	- xxxxx

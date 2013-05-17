@@ -1,0 +1,1 @@
+rule: anObject	rule := anObject

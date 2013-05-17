@@ -1,0 +1,1 @@
+methodRecategorized: anObject		methodRecategorized := anObject

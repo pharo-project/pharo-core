@@ -1,0 +1,1 @@
+lightSelectionColor	^ self baseSelectionColor lighter

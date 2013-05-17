@@ -1,0 +1,1 @@
+aLoadedProjectIsNotCurrent	^ aLoadedProjectIsNotCurrent

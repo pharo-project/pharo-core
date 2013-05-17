@@ -1,4 +1,0 @@
-private
-isUnlocked
-
-	^ true

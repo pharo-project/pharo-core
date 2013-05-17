@@ -1,0 +1,1 @@
+memberClass	^ZipArchiveMember

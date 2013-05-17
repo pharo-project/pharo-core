@@ -1,0 +1,1 @@
+A RBMethodRefactoring is xxxxxxxxx.Instance Variables	class:		<Object>class	- xxxxx

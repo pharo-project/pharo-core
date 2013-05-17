@@ -1,0 +1,1 @@
+classesComposedWithMe	^{self}

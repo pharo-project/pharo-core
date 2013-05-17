@@ -1,0 +1,1 @@
+stringFollowingReturn: aString	StringFollowingReturn := aString

@@ -1,0 +1,1 @@
+multiLine: anObject	multiLine := anObject

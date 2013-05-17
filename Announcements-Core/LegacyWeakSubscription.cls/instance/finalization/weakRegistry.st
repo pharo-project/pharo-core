@@ -1,0 +1,1 @@
+weakRegistry	^ WeakRegistry default

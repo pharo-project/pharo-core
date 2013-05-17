@@ -1,4 +1,0 @@
-accessing
-group
-
-	^ 'Intention revealing'

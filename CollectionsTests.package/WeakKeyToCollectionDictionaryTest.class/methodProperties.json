@@ -1,8 +1,0 @@
-{
-	"class" : {
-		"shouldInheritSelectors" : "cyrille.delaunay 7/3/2009 11:00" },
-	"instance" : {
-		"classToBeTested" : "cyrille.delaunay 7/3/2009 10:59",
-		"testKeysAndValuesRemove" : "cyrille.delaunay 7/3/2009 13:49",
-		"testRemoveKey" : "cyrille.delaunay 7/3/2009 13:48",
-		"testRemoveKeyIfAbsent" : "cyrille.delaunay 7/3/2009 11:02" } }

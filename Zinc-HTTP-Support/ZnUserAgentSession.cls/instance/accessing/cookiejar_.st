@@ -1,0 +1,1 @@
+cookiejar: anObject	cookiejar := anObject

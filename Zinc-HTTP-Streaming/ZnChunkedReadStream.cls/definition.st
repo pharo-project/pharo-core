@@ -1,0 +1,1 @@
+Stream subclass: #ZnChunkedReadStream	instanceVariableNames: 'stream chunk position limit atEnd totalSize extraHeaders'	classVariableNames: ''	poolDictionaries: ''	category: 'Zinc-HTTP-Streaming'

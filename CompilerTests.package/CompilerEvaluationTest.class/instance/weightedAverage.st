@@ -1,3 +1,0 @@
-helper methods
-weightedAverage 
-	^weightedAverage 

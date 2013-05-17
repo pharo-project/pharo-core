@@ -1,0 +1,1 @@
+A RBVariableBinding is xxxxxxxxx.Instance Variables	accessors:		<Object>	readers:		<Object>	scope:		<Object>	writers:		<Object>accessors	- xxxxxreaders	- xxxxxscope	- xxxxxwriters	- xxxxx

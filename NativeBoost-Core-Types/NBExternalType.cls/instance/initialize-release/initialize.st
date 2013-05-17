@@ -1,0 +1,1 @@
+initialize	pointerArity := 0.

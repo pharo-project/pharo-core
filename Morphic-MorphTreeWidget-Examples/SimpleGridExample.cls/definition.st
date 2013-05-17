@@ -1,0 +1,1 @@
+MorphTreeModel subclass: #SimpleGridExample	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Morphic-MorphTreeWidget-Examples'

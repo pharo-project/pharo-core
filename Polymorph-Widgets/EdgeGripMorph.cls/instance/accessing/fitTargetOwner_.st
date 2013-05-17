@@ -1,0 +1,1 @@
+fitTargetOwner: anObject	fitTargetOwner := anObject

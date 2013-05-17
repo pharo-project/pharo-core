@@ -1,0 +1,1 @@
+prevFinds	^ self class finds

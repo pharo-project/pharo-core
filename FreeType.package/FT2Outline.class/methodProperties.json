@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"allocateArrays" : "jl 5/24/2006 13:58",
-		"contoursCollection" : "jl 5/24/2006 15:19",
-		"pointCollection" : "jl 5/24/2006 14:26",
-		"primLoadArraysFrom:" : "jl 5/23/2006 17:01",
-		"primLoadSizesFrom:" : "jl 5/23/2006 17:01" } }

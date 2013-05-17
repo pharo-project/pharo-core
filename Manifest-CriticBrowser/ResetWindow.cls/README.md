@@ -1,0 +1,1 @@
+A ResetWindow is xxxxxxxxx.Instance Variables	currentConfigurationModel:		<Object>	resetModel:		<Object>currentConfigurationModel	- xxxxxresetModel	- xxxxx

@@ -1,0 +1,1 @@
+allowBlockArgumentAssignment: aBoolean	AllowBlockArgumentAssignment := aBoolean

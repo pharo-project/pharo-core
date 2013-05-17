@@ -1,0 +1,1 @@
+organizationClass	^RGOrganization

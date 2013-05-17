@@ -1,0 +1,1 @@
+A FT2MemoryFaceData is xxxxxxxxx.Instance Variables	bytes:		<Object>bytes	- xxxxx

@@ -1,0 +1,1 @@
+nextFocusKey	^ NextFocusKey

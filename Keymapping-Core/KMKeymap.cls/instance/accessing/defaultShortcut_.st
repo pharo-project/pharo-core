@@ -1,0 +1,1 @@
+defaultShortcut: aShortcut	defaultShortcut := aShortcut.

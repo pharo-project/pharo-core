@@ -1,3 +1,0 @@
-This is the AppRegistry class for the sound system.
-
-A sound system offers a small protocol for playing sounds and making beeps and works like a facade towards the rest of Squeak. A sound system is registered in this registry and can be accessed by "SoundService default". This way we decouple the sound system from the rest of Squeak and make it pluggable. It also is a perfect spot to check for the SoundSettings class>>soundEnabled.

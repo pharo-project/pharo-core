@@ -1,0 +1,1 @@
+deepCopy	^self copy

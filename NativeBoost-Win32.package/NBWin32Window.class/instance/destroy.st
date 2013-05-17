@@ -1,4 +1,0 @@
-operations
-destroy
-
-	^ self destroyWindow

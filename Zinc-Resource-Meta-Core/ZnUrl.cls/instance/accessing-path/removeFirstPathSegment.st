@@ -1,0 +1,1 @@
+removeFirstPathSegment	segments isEmpty 		ifFalse: [ segments removeFirst ]

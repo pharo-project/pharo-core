@@ -1,0 +1,1 @@
+An AJLineStream is xxxxxxxxx.Instance Variables	lineStart:		<Object>	writeStream:		<Object>lineStart	- xxxxxwriteStream	- xxxxx

@@ -1,0 +1,1 @@
+methodPragma	^'nautilusGlobalMethodMenu'

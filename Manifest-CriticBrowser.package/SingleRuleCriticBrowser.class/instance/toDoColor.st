@@ -1,4 +1,0 @@
-private
-toDoColor
-
-	^ Color orange

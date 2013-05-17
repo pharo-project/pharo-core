@@ -1,0 +1,1 @@
+keepOpen: aBoolean	KeepOpen := aBoolean

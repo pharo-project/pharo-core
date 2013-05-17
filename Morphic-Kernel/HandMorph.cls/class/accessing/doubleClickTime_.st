@@ -1,0 +1,1 @@
+doubleClickTime: milliseconds	DoubleClickTime := milliseconds.

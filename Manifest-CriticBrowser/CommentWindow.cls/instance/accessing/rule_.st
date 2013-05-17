@@ -1,0 +1,1 @@
+rule: aRule	rule := aRule

@@ -1,0 +1,1 @@
+A FileExistsException is xxxxxxxxx.Instance Variables	fileClass:		<Object>fileClass	- xxxxx

@@ -1,0 +1,1 @@
+protocolInstance: aProtocolInstance	protocolInstance := aProtocolInstance

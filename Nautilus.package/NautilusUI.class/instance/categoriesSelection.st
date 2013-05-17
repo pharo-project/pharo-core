@@ -1,4 +1,0 @@
-tests
-categoriesSelection
-
-	^ categoryWidget categoriesSelection

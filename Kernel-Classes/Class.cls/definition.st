@@ -1,0 +1,1 @@
+ClassDescription subclass: #Class	uses: TBehaviorCategorization	instanceVariableNames: 'subclasses name classPool sharedPools environment category traitComposition localSelectors'	classVariableNames: ''	poolDictionaries: ''	category: 'Kernel-Classes'

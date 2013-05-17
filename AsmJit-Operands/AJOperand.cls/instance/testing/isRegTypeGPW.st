@@ -1,0 +1,1 @@
+isRegTypeGPW	^ self isRegType: RegGPW

@@ -1,0 +1,1 @@
+A MCPatchBrowser is xxxxxxxxx.Instance Variables	selection:		<Object>selection	- xxxxx

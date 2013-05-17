@@ -1,4 +1,0 @@
-accessing
-potentialDropIndex
-
-	^ potentialDropIndex contents

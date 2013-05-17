@@ -1,0 +1,1 @@
+A RBSelfBinding is xxxxxxxxx.Instance Variables

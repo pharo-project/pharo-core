@@ -1,0 +1,1 @@
+Object subclass: #AbstractSpec	instanceVariableNames: 'instance bindings'	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Core-Specs'

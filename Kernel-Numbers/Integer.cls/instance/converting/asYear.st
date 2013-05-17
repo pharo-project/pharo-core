@@ -1,0 +1,1 @@
+asYear 	^ Year year: self  

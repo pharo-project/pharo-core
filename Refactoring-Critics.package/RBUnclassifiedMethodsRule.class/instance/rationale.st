@@ -1,3 +1,0 @@
-accessing
-rationale
-	^ 'All methods should be put into a protocol (method category) for better readability.'

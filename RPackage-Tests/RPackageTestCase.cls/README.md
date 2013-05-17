@@ -1,0 +1,1 @@
+A RPackageTestCase is xxxxxxxxx.Instance Variables	announcerForTest:		<Object>	createdCategories:		<Object>	createdClasses:		<Object>	createdPackages:		<Object>	oldSystemAnnouncer:		<Object>announcerForTest	- xxxxxcreatedCategories	- xxxxxcreatedClasses	- xxxxxcreatedPackages	- xxxxxoldSystemAnnouncer	- xxxxx

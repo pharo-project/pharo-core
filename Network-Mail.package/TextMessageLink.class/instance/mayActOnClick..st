@@ -1,3 +1,0 @@
-acting
-mayActOnClick: anEvent
-	^true

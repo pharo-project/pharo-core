@@ -1,0 +1,1 @@
+browseConfiguration	self configurationClass browse

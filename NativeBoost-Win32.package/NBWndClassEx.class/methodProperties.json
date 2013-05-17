@@ -1,8 +1,0 @@
-{
-	"class" : {
-		"fieldsDesc" : "Igor.Stasenko 5/19/2010 09:24",
-		"unregister:" : "Igor.Stasenko 5/17/2010 18:54",
-		"unregister:instance:" : "IgorStasenko 11/24/2012 17:40" },
-	"instance" : {
-		"initialize" : "Igor.Stasenko 4/29/2010 14:05",
-		"register" : "IgorStasenko 11/24/2012 16:24" } }

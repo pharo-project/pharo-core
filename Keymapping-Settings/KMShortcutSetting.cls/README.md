@@ -1,0 +1,1 @@
+A KMShortcutSetting is xxxxxxxxx.Instance Variables	action:		<Object>	category:		<Object>	shortcutName:		<Object>action	- xxxxxcategory	- xxxxxshortcutName	- xxxxx

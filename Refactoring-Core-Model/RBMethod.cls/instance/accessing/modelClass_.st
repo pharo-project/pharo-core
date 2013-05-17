@@ -1,0 +1,1 @@
+modelClass: aRBClass	class := aRBClass

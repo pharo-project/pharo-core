@@ -1,0 +1,1 @@
+fontColor	^ Color black

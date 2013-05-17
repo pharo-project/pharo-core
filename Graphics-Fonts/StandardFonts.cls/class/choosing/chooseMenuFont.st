@@ -1,0 +1,1 @@
+chooseMenuFont	self chooseStandardFont: #menuFont

@@ -1,3 +1,0 @@
-icons
-haloDismissIcon
-	^ ThemeIcons haloDismissIcon

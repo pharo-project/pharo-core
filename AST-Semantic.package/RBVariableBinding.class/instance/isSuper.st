@@ -1,3 +1,0 @@
-testing
-isSuper
-	^ self isSuperBinding

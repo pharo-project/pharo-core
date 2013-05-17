@@ -1,0 +1,1 @@
+atEnd	^self inStream atEnd.

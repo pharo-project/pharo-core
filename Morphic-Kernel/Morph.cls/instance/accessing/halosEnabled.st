@@ -1,0 +1,1 @@
+halosEnabled	^ self class halosEnabled

@@ -1,4 +1,0 @@
-accessing
-issueSummary
-
-	^ issueSummary ifNil: ['']

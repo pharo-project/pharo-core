@@ -1,0 +1,1 @@
+classExternalFunction	^ self simpleCall

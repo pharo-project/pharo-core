@@ -1,0 +1,1 @@
+A ScheduleTest is xxxxxxxxx.Instance Variables	aSchedule:		<Object>	firstEvent:		<Object>	restoredTimeZone:		<Object>aSchedule	- xxxxxfirstEvent	- xxxxxrestoredTimeZone	- xxxxx

@@ -1,0 +1,1 @@
+publishIcon	^ ThemeIcons publishIcon

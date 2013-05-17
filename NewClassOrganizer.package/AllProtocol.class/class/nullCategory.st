@@ -1,4 +1,0 @@
-data
-nullCategory
-
-	^ 'no method'

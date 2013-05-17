@@ -1,0 +1,1 @@
+isRoot	^ self resolve isRoot

@@ -1,0 +1,1 @@
+includesUnifiedCharacter	^ self isUnicodeStringWithCJK

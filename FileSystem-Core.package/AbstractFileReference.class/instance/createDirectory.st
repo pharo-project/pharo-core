@@ -1,3 +1,0 @@
-operations
-createDirectory
-	self resolve createDirectory

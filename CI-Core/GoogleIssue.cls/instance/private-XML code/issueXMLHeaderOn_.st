@@ -1,0 +1,1 @@
+issueXMLHeaderOn: stream	stream nextPutAll: self issueXMLHeader

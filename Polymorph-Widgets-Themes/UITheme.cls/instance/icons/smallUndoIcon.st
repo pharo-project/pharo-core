@@ -1,0 +1,1 @@
+smallUndoIcon	^ ThemeIcons smallUndoIcon

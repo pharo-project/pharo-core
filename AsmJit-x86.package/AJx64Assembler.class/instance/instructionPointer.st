@@ -1,3 +1,0 @@
-register
-instructionPointer
-	^ RIP

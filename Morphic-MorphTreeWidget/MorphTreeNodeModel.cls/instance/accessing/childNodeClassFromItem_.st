@@ -1,0 +1,1 @@
+childNodeClassFromItem: anItem	^ self class

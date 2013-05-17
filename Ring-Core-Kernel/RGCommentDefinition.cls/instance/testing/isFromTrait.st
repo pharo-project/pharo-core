@@ -1,0 +1,1 @@
+isFromTrait	^false

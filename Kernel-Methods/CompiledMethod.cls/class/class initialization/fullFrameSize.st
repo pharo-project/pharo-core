@@ -1,0 +1,1 @@
+fullFrameSize  "CompiledMethod fullFrameSize"	^ LargeFrame

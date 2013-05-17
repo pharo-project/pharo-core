@@ -1,3 +1,0 @@
-accessing
-numAllocatedBlocks
-	^ reservedBlocks size

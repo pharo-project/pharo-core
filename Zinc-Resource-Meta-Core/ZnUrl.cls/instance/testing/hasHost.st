@@ -1,0 +1,1 @@
+hasHost	^ host notNil

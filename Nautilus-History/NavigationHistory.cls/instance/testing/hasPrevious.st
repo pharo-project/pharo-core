@@ -1,0 +1,1 @@
+hasPrevious	^ index > 1

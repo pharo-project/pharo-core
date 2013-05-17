@@ -1,0 +1,1 @@
+Morph subclass: #TheWorldMenu	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Compatibility'

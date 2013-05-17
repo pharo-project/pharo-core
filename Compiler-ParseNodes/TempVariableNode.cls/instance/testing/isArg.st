@@ -1,0 +1,1 @@
+isArg	^argType notNil

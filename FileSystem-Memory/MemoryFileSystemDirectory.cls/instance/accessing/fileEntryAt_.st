@@ -1,0 +1,1 @@
+fileEntryAt: aFIleName	^ entries at: aFIleName

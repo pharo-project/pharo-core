@@ -1,0 +1,1 @@
+A KeyboardEvent is xxxxxxxxx.Instance Variables	charCode:		<Object>	keyValue:		<Object>	scanCode:		<Object>charCode	- xxxxxkeyValue	- xxxxxscanCode	- xxxxx

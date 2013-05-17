@@ -1,0 +1,1 @@
+current: aTestResource	current := aTestResource			

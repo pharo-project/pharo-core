@@ -1,0 +1,1 @@
+RBVariableBinding subclass: #RBLiteralBinding	instanceVariableNames: 'binding'	classVariableNames: ''	poolDictionaries: ''	category: 'AST-Semantic-Binding'

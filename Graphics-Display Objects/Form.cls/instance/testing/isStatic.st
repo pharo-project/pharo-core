@@ -1,0 +1,1 @@
+isStatic	^false

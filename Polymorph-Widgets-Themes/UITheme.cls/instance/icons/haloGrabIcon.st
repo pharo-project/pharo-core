@@ -1,0 +1,1 @@
+haloGrabIcon	^ ThemeIcons haloGrabIcon

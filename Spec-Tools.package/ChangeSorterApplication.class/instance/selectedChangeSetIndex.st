@@ -1,4 +1,0 @@
-protocol
-selectedChangeSetIndex
-
-	 ^ changesListModel selectedIndex

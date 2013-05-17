@@ -1,0 +1,1 @@
+helpIcon	^ ThemeIcons helpIcon

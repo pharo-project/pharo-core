@@ -1,0 +1,1 @@
+A KMMockMorph is xxxxxxxxx.Instance Variables

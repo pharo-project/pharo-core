@@ -1,0 +1,1 @@
+acceptVariableNode: aVariableNode

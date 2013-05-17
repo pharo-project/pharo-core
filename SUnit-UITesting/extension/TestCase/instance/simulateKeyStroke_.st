@@ -1,0 +1,1 @@
+simulateKeyStroke: aCharacterOrShortcut	ActiveHand simulateKeyStroke: aCharacterOrShortcut.

@@ -1,0 +1,1 @@
+A FLSerializationTest is xxxxxxxxx.Instance Variables	classFactory:		<Object>	materializer:		<Object>	serializer:		<Object>	streamFactory:		<Object>classFactory	- xxxxxmaterializer	- xxxxxserializer	- xxxxxstreamFactory	- xxxxx

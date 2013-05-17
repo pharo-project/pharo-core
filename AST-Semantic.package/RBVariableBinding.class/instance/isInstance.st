@@ -1,3 +1,0 @@
-testing
-isInstance
-	^ self isInstanceBinding

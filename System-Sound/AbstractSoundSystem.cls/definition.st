@@ -1,0 +1,1 @@
+Object subclass: #AbstractSoundSystem	instanceVariableNames: ''	classVariableNames: 'SoundEnabled SoundQuickStart'	poolDictionaries: ''	category: 'System-Sound'

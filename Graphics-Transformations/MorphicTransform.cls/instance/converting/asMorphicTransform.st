@@ -1,0 +1,1 @@
+asMorphicTransform	^ self

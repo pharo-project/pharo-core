@@ -1,0 +1,1 @@
+setCurrentManager: aManager	CurrentManager := aManager

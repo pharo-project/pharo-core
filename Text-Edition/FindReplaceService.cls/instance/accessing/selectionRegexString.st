@@ -1,0 +1,1 @@
+selectionRegexString	^ self convertedFindString

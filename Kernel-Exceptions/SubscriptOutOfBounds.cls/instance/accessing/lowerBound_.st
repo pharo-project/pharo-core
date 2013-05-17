@@ -1,0 +1,1 @@
+lowerBound: anObject	lowerBound := anObject

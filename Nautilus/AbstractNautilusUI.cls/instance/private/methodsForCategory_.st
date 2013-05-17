@@ -1,0 +1,1 @@
+methodsForCategory: aCategory	^ self subclassResponsibility

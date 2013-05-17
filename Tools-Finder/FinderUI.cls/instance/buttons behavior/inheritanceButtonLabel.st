@@ -1,0 +1,1 @@
+inheritanceButtonLabel	^'Inheritance'

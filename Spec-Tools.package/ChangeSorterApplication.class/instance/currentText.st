@@ -1,4 +1,0 @@
-protocol
-currentText
-
-	 ^ textModel getText

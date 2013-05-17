@@ -1,0 +1,1 @@
+keyPressedOnElement: anEvent 	^ self subclassResponsibility

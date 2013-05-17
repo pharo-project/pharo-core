@@ -1,0 +1,1 @@
+A MCMockDependency is xxxxxxxxx.Instance Variables	children:		<Object>	hasResolution:		<Object>	name:		<Object>children	- xxxxxhasResolution	- xxxxxname	- xxxxx

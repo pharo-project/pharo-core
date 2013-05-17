@@ -1,0 +1,1 @@
+smallFindIcon	^ ThemeIcons smallFindIcon

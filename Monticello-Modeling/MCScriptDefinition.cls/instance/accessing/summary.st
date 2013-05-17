@@ -1,0 +1,1 @@
+summary	^ packageName, ' ', self scriptSelector

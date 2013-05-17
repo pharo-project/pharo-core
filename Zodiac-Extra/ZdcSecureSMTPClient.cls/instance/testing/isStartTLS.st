@@ -1,0 +1,1 @@
+isStartTLS	^ variant = #startTLS

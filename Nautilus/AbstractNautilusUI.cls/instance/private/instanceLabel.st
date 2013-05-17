@@ -1,0 +1,1 @@
+instanceLabel	^'Instance' asMorph

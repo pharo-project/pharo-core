@@ -1,0 +1,1 @@
+This class is deprecated in Pharo 2.0 since 2012-10-03T18:02:49Z.Use ZnClient to build, execute and process HTTP client requests.

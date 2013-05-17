@@ -1,4 +1,0 @@
-accessing
-hasTranslucentColor
-
-	^true

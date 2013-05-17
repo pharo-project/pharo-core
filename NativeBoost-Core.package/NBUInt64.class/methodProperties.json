@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"coerceReturnValue:" : "IgorStasenko 9/3/2012 00:57",
-		"loadMem:generator:" : "IgorStasenko 9/3/2012 01:10",
-		"pushAsValue:" : "IgorStasenko 9/3/2012 00:25",
-		"readOop:generator:" : "IgorStasenko 9/3/2012 01:11",
-		"valueSize" : "IgorStasenko 9/2/2012 23:22" } }

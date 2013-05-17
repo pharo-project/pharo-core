@@ -1,4 +1,0 @@
-sizes
-baseHeaderSize
-
-	^ self oopSize

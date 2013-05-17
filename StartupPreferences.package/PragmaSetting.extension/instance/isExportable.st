@@ -1,4 +1,0 @@
-*StartupPreferences
-isExportable
-
-	^ false

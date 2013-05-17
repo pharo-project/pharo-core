@@ -1,0 +1,1 @@
+RBVariableBinding subclass: #RBLocalBinding	instanceVariableNames: 'node'	classVariableNames: ''	poolDictionaries: ''	category: 'AST-Semantic-Binding'

@@ -1,0 +1,1 @@
+A SimulateKeystrokesSpecification is xxxxxxxxx.Instance Variables

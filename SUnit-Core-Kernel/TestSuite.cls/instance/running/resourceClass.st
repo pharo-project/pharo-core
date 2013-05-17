@@ -1,0 +1,1 @@
+resourceClass	^TestResource

@@ -1,0 +1,1 @@
+handlesMouseOverDragging: evt	^self dropEnabled

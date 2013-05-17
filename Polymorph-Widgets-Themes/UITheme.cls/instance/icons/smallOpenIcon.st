@@ -1,0 +1,1 @@
+smallOpenIcon	^ ThemeIcons smallOpenIcon

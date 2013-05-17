@@ -1,0 +1,1 @@
+showInstance	^ self model showInstance

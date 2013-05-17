@@ -1,0 +1,1 @@
+cleanUpForProduction	AbstractNautilusUI resetIconCaches.	Nautilus resetCachedLastClasses.

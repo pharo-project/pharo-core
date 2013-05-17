@@ -1,0 +1,1 @@
+showingDirectionHandles	^directionArrowAnchor notNil

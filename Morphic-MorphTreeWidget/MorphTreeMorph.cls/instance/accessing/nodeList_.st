@@ -1,0 +1,1 @@
+nodeList: aCollection 	nodeList := aCollection.

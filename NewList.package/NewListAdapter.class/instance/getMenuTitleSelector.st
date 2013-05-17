@@ -1,4 +1,0 @@
-accessing
-getMenuTitleSelector
-	
-	^ getMenuTitleSelector contents

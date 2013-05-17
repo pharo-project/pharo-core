@@ -1,3 +1,0 @@
-call convention
-nbCallingConvention
-	^ #stdcall

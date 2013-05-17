@@ -1,0 +1,1 @@
+haloDupIcon	^ ThemeIcons haloDupIcon

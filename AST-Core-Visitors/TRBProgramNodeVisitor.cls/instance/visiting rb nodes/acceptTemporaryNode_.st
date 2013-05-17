@@ -1,0 +1,1 @@
+acceptTemporaryNode: anTemporaryNode	^ self acceptVariableNode: anTemporaryNode

@@ -1,3 +1,0 @@
-options
-noStackFrame
-	stackManager noStackFrame.

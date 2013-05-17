@@ -1,0 +1,1 @@
+isIdentityEncoded	^ self isGzipped not

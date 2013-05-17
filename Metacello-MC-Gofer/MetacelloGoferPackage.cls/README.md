@@ -1,0 +1,1 @@
+A MetacelloGoferPackage is xxxxxxxxx.Instance Variables	packageFilename:		<Object>	version:		<Object>	workingCopy:		<Object>packageFilename	- xxxxxversion	- xxxxxworkingCopy	- xxxxx

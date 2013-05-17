@@ -1,0 +1,1 @@
+encrypt: aString	^ SecureHashAlgorithm new hashMessage: aString

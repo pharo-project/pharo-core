@@ -1,0 +1,1 @@
+A RBLawOfDemeterRule is xxxxxxxxx.Instance Variables

@@ -1,0 +1,1 @@
+I am store for the internal smalltalk filesystem

@@ -1,0 +1,1 @@
+standardThemeClass	^ PharoTheme 

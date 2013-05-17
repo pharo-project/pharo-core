@@ -1,0 +1,1 @@
+A RBAllAnyNoneSatisfyRule is xxxxxxxxx.Instance Variables

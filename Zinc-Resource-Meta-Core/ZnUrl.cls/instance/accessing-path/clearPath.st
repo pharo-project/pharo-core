@@ -1,0 +1,1 @@
+clearPath	segments isEmpty 		ifFalse: [ segments removeAll ]

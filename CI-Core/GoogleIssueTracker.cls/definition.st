@@ -1,0 +1,1 @@
+Object subclass: #GoogleIssueTracker	instanceVariableNames: 'authentificationToken project integrated user token'	classVariableNames: ''	poolDictionaries: ''	category: 'CI-Core'

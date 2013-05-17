@@ -1,3 +1,0 @@
-tests-smoke
-testCollectionHierarchy
-	self verifyHierarchy: Collection

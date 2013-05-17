@@ -1,0 +1,1 @@
+objTypes	WNDCLASSEX := #NBWndClassEx

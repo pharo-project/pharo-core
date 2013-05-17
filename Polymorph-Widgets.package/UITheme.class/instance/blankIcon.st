@@ -1,3 +1,0 @@
-icons
-blankIcon
-	^ ThemeIcons blankIcon

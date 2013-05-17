@@ -1,0 +1,1 @@
+sourceText: stringOrText	sourceText := stringOrText

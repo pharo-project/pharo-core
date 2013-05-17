@@ -1,0 +1,1 @@
+smallBackIcon	^ ThemeIcons smallBackIcon

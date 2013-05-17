@@ -1,3 +1,0 @@
-icons
-smallRedoIcon
-	^ ThemeIcons smallRedoIcon

@@ -1,0 +1,1 @@
+smallSelectIcon	^ ThemeIcons smallSelectIcon

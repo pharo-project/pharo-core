@@ -1,0 +1,1 @@
+squeakyMouseIcon	^ ThemeIcons squeakyMouseIcon

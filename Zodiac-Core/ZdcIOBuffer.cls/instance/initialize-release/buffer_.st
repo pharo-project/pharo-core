@@ -1,0 +1,1 @@
+buffer: aSequenceableCollection	buffer := aSequenceableCollection

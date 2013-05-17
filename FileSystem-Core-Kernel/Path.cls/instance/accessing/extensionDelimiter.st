@@ -1,0 +1,1 @@
+extensionDelimiter	^ self class extensionDelimiter

@@ -1,0 +1,1 @@
+chooseRemote	isApplicable := true

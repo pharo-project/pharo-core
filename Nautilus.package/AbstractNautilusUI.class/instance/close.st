@@ -1,4 +1,0 @@
-displaying
-close
-
-	window close

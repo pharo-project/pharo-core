@@ -1,0 +1,1 @@
+fullscreenIcon	^ ThemeIcons fullscreenIcon

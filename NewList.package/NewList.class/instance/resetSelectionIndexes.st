@@ -1,4 +1,0 @@
-private
-resetSelectionIndexes
-
-	selectedIndexes removeAll

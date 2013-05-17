@@ -1,0 +1,1 @@
+useByteOrderMark: aBoolean	useByteOrderMark := aBoolean.

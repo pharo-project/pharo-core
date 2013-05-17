@@ -1,0 +1,1 @@
+isCaseSensitive	^ self shouldBeImplemented

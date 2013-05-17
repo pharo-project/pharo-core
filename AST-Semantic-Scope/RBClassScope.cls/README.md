@@ -1,0 +1,1 @@
+A RBClassScope is xxxxxxxxx.Instance Variables	class:		<Object>class	- xxxxx

@@ -1,0 +1,1 @@
+A RBMinMaxRule is xxxxxxxxx.Instance Variables

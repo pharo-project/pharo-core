@@ -1,0 +1,1 @@
+A SpecImporter is xxxxxxxxx.Instance Variables	desc:		<Object>	order:		<Object>desc	- xxxxxorder	- xxxxx

@@ -1,0 +1,1 @@
+hasGeneratedMethod	^encoder hasGeneratedMethod

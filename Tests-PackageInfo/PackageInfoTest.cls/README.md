@@ -1,0 +1,1 @@
+A PackageInfoTest is xxxxxxxxx.Instance Variables	createdClasses:		<Object>createdClasses	- xxxxx

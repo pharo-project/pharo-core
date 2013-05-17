@@ -1,0 +1,1 @@
+flatMenu: aBoolean		flatMenu := aBoolean

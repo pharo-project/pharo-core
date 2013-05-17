@@ -1,0 +1,1 @@
+visitTemporaries: aNodeCollection 	^ self visitArguments: aNodeCollection

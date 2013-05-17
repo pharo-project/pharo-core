@@ -1,0 +1,1 @@
+shrinkToKernel	self shrinkToKernelWith: #().	

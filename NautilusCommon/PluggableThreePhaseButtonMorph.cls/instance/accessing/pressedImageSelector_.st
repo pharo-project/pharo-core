@@ -1,0 +1,1 @@
+pressedImageSelector: anObject 	pressedImageSelector := anObject

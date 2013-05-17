@@ -1,0 +1,1 @@
+A MockExceptionWithPassAction is xxxxxxxxx.Instance Variables	passAction:		<Object>passAction	- xxxxx

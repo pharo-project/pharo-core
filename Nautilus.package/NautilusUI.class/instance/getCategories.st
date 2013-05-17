@@ -1,4 +1,0 @@
-tests
-getCategories
-
-	^ categoryWidget getCategories

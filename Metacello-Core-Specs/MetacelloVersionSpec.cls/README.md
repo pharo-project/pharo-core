@@ -1,0 +1,1 @@
+A MetacelloVersionSpec is xxxxxxxxx.Instance Variables	author:		<Object>	blessing:		<Object>	description:		<Object>	postLoadDoIt:		<Object>	preLoadDoIt:		<Object>	timestamp:		<Object>	versionString:		<Object>author	- xxxxxblessing	- xxxxxdescription	- xxxxxpostLoadDoIt	- xxxxxpreLoadDoIt	- xxxxxtimestamp	- xxxxxversionString	- xxxxx

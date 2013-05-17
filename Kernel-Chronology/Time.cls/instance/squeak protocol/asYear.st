@@ -1,0 +1,1 @@
+asYear	^ self asDateAndTime asYear

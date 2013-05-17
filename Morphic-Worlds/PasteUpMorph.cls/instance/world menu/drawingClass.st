@@ -1,0 +1,1 @@
+drawingClass	^ ImageMorph

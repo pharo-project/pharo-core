@@ -1,0 +1,1 @@
+A CompiledMethodMemoryHandle is xxxxxxxxx.Instance Variables	source:		<Object>source	- xxxxx

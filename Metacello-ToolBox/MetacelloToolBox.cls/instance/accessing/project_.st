@@ -1,0 +1,1 @@
+project: aMetacelloProject	project := aMetacelloProject

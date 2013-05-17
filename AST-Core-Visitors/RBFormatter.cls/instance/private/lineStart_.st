@@ -1,0 +1,1 @@
+lineStart: aPosition 	lineStart := aPosition

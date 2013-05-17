@@ -1,3 +1,0 @@
-controls
-close
-	^ self delete

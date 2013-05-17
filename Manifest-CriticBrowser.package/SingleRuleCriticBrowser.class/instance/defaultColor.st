@@ -1,4 +1,0 @@
-private
-defaultColor
-
-	^ Color red

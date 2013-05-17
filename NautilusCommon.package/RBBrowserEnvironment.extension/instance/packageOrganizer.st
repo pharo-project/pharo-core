@@ -1,4 +1,0 @@
-*NautilusCommon
-packageOrganizer
-
-	^ RPackageOrganizer default

@@ -1,0 +1,1 @@
+gridVisible	^ self hasProperty: #gridVisible

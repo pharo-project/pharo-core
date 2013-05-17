@@ -1,0 +1,1 @@
+includesMethod: aSymbol	^ methods includes: aSymbol

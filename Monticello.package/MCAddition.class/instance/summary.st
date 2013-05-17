@@ -1,4 +1,0 @@
-accessing
-summary
-
-	^ definition summary

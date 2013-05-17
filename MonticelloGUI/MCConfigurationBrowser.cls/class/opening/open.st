@@ -1,0 +1,1 @@
+open	^self new show

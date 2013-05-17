@@ -1,0 +1,1 @@
+find: aByteString 	self shouldBeImplemented.

@@ -1,0 +1,1 @@
+titleFont	^ StandardFonts windowTitleFont

@@ -1,0 +1,1 @@
+A MCWorkingHistoryBrowser is xxxxxxxxx.Instance Variables

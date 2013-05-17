@@ -1,0 +1,1 @@
+scheduleDuration	^ schedule sum

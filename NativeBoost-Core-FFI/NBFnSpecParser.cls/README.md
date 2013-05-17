@@ -1,0 +1,1 @@
+A NBFnSpecParser is xxxxxxxxx.Instance Variables	fnSpec:		<Object>	requestor:		<Object>	stream:		<Object>fnSpec	- xxxxxrequestor	- xxxxxstream	- xxxxx

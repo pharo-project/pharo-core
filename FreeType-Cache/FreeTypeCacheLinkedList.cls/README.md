@@ -1,0 +1,1 @@
+A FreeTypeCacheLinkedList is xxxxxxxxx.Instance Variables

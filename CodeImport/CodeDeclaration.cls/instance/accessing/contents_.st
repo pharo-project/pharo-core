@@ -1,0 +1,1 @@
+contents: anObject	contents := anObject

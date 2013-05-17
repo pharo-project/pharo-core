@@ -1,0 +1,1 @@
+colons: anArray 	colons := anArray

@@ -1,3 +1,0 @@
-icons
-haloHelpIcon
-	^ ThemeIcons haloHelpIcon

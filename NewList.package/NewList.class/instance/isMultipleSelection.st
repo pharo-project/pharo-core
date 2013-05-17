@@ -1,3 +1,0 @@
-accessing
-isMultipleSelection
-	^ isMultipleSelection contents

@@ -1,0 +1,1 @@
+resetDefault	DefaultUserManager := nil

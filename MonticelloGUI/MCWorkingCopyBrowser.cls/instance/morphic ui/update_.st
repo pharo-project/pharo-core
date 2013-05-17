@@ -1,0 +1,1 @@
+update: anAnnouncement	self workingCopyListChanged.

@@ -1,0 +1,1 @@
+A MCHttpRepository is xxxxxxxxx.Instance Variables	location:		<Object>	password:		<Object>	readerCache:		<Object>	user:		<Object>location	- xxxxxpassword	- xxxxxreaderCache	- xxxxxuser	- xxxxx

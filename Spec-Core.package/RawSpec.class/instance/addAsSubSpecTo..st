@@ -1,2 +1,0 @@
-protocol
-addAsSubSpecTo: anotherSpec

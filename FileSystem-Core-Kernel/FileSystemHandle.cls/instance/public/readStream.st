@@ -1,0 +1,1 @@
+readStream	self subclassResponsibility

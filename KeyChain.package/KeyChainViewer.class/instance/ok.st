@@ -1,3 +1,0 @@
-accessing
-ok
-	^ ok

@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"testBadInterval" : "lr 9/8/2011 20:11",
-		"testBadName" : "lr 9/8/2011 20:11",
-		"testExtractToTemporaryForLastStatementInBlock" : "lr 9/8/2011 20:11",
-		"testExtractToTemporaryInsideBlock" : "lr 9/8/2011 20:11",
-		"testNonExistantSelector" : "lr 9/8/2011 20:11" } }

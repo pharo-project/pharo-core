@@ -1,0 +1,1 @@
+variableBinding	^ self propertyAt: #variableBinding ifAbsent: [ self semanticAnnotationMissing ]

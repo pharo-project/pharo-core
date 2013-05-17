@@ -1,0 +1,1 @@
+isOtherEndConnected	^socket isOtherEndClosed not

@@ -1,0 +1,1 @@
+A TextAlignmentTest is xxxxxxxxx.Instance Variables

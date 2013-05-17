@@ -1,3 +1,0 @@
-accessing
-stackSize
-	^ stackSize

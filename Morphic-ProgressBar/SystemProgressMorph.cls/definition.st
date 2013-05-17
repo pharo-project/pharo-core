@@ -1,0 +1,1 @@
+RectangleMorph subclass: #SystemProgressMorph	instanceVariableNames: 'lock lastRefresh'	classVariableNames: 'UniqueInstance'	poolDictionaries: ''	category: 'Morphic-ProgressBar'

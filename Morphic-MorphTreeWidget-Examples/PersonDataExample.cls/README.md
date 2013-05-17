@@ -1,0 +1,1 @@
+A PersonDataExample is xxxxxxxxx.Instance Variables	age:		<Object>	firstName:		<Object>	married:		<Object>	secondName:		<Object>age	- xxxxxfirstName	- xxxxxmarried	- xxxxxsecondName	- xxxxx

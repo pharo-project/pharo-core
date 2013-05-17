@@ -1,0 +1,1 @@
+newAnnouncer	^ Announcer new

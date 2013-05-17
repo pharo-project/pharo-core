@@ -1,0 +1,1 @@
+smallConfigurationIcon	^ ThemeIcons smallConfigurationIcon

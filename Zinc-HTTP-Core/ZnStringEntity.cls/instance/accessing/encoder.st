@@ -1,0 +1,1 @@
+encoder	self initializeEncoder.	^ encoder

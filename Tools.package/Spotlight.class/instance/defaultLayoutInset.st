@@ -1,3 +1,0 @@
-initialize
-defaultLayoutInset
-	^5

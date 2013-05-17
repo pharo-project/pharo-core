@@ -1,0 +1,1 @@
+nautilusIcon	^ self nautilusIconClass iconNamed: #blank

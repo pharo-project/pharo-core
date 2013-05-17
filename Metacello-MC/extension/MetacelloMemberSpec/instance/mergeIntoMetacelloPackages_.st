@@ -1,0 +1,1 @@
+mergeIntoMetacelloPackages: aMetacelloPackagesSpec	aMetacelloPackagesSpec addMember: self

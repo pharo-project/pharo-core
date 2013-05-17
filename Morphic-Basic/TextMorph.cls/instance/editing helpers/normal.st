@@ -1,0 +1,1 @@
+normal		self changeEmphasis: #normal

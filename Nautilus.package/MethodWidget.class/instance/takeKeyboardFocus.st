@@ -1,4 +1,0 @@
-private
-takeKeyboardFocus
-
-	methodsList takeKeyboardFocus

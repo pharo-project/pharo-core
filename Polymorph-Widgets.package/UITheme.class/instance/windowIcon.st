@@ -1,3 +1,0 @@
-icons
-windowIcon
-	^ ThemeIcons windowIcon

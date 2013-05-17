@@ -1,0 +1,1 @@
+isReadonly	^ true

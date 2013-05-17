@@ -1,0 +1,1 @@
+label		^ self labelMorph contents.

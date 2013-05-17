@@ -1,3 +1,0 @@
-icons
-smallCenteredIcon
-	^ ThemeIcons smallCenteredIcon

@@ -1,0 +1,1 @@
+looksLikeDirectory	^false

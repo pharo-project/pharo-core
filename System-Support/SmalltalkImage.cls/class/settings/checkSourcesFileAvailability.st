@@ -1,0 +1,1 @@
+checkSourcesFileAvailability	^ CheckSourcesFileAvailability ifNil: [CheckSourcesFileAvailability := true]

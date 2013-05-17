@@ -1,0 +1,1 @@
+isWorldMorph	^ worldState notNil

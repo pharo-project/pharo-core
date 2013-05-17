@@ -1,0 +1,1 @@
+subwidget: anObject	subwidget := anObject

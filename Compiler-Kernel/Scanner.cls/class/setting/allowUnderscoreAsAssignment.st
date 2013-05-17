@@ -1,0 +1,1 @@
+allowUnderscoreAsAssignment	^ AllowUnderscoreAsAssignment ifNil: [AllowUnderscoreAsAssignment := false]

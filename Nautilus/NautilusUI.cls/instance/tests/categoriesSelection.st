@@ -1,0 +1,1 @@
+categoriesSelection	^ categoryWidget categoriesSelection

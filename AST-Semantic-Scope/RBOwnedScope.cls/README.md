@@ -1,0 +1,1 @@
+A RBOwnedScope is xxxxxxxxx.Instance Variables	owner:		<Object>owner	- xxxxx

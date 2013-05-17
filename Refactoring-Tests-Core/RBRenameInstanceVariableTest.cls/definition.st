@@ -1,0 +1,1 @@
+RBRefactoringTest subclass: #RBRenameInstanceVariableTest	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Refactoring-Tests-Core'

@@ -1,0 +1,1 @@
+RBVariableRefactoring subclass: #RBPullUpInstanceVariableRefactoring	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Refactoring-Core-Refactorings'

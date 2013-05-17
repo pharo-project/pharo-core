@@ -1,3 +1,0 @@
-accessing
-codeSize
-	^ machineCode size

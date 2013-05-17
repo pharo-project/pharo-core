@@ -1,3 +1,0 @@
-icons
-paintingIcon
-	^ ThemeIcons paintingIcon

@@ -1,0 +1,1 @@
+accept: aProgramNodeVisitor 	^aProgramNodeVisitor visitSequenceNode: self

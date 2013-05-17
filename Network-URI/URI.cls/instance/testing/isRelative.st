@@ -1,0 +1,1 @@
+isRelative	^self isAbsolute not

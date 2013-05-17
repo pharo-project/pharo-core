@@ -1,0 +1,1 @@
+internalIsImmutable: oop	^ self simpleCall

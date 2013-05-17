@@ -1,3 +1,0 @@
-comparing
-fullTimeStamp
-	^TimeStamp current

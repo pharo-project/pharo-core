@@ -1,4 +1,0 @@
-Private
-dateClass
-
-	^ Date

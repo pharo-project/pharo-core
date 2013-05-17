@@ -1,0 +1,1 @@
+unregisterForNotifications	SystemAnnouncer uniqueInstance unsubscribe: self

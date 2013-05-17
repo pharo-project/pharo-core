@@ -1,0 +1,1 @@
+Behavior subclass: #ClassDescription	uses: TClassAndTraitDescription - {#removeSelector:}	instanceVariableNames: 'instanceVariables organization'	classVariableNames: ''	poolDictionaries: ''	category: 'Kernel-Classes'

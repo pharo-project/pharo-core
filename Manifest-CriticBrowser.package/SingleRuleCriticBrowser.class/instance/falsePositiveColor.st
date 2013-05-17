@@ -1,4 +1,0 @@
-private
-falsePositiveColor
-
-	^ Color darkGray

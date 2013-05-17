@@ -1,4 +1,0 @@
-accessing
-issueNumber
-
-	^ issueNumber  ifNil: ['']

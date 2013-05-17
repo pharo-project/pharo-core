@@ -1,0 +1,1 @@
+entireWordsOnly	^ self state entireWordsOnly

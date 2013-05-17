@@ -1,0 +1,1 @@
+downloadUrl	^self asString

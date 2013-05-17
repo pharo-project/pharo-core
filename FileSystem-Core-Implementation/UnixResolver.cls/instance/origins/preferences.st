@@ -1,0 +1,1 @@
+preferences	^ self home / '.config' 

@@ -1,0 +1,1 @@
+A GoferConfigurationReference is xxxxxxxxx.Instance Variables

@@ -1,0 +1,1 @@
+checkBoxOffIcon	^ ThemeIcons checkBoxOffIcon

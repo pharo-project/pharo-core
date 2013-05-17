@@ -1,0 +1,1 @@
+advance: aNumber	^advance := aNumber

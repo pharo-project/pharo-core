@@ -1,7 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"encodeForHTTP" : "yo 7/29/2005 16:04",
-		"encodeForHTTPWithTextEncoding:" : "yo 7/29/2005 16:04",
-		"encodeForHTTPWithTextEncoding:conditionBlock:" : "nice 11/17/2009 12:09" } }

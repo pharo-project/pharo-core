@@ -1,0 +1,1 @@
+A GoferOperation is xxxxxxxxx.Instance Variables	gofer:		<Object>	model:		<Object>gofer	- xxxxxmodel	- xxxxx

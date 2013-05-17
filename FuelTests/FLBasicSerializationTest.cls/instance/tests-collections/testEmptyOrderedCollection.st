@@ -1,0 +1,1 @@
+testEmptyOrderedCollection	self assertSerializationEqualityOf: OrderedCollection new

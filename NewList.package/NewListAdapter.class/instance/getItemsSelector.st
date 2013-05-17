@@ -1,3 +1,0 @@
-accessing
-getItemsSelector
-	^ getItemsSelector contents

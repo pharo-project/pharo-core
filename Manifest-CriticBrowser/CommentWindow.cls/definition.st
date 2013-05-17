@@ -1,0 +1,1 @@
+ComposableModel subclass: #CommentWindow	instanceVariableNames: 'okCancelToolBarModel commentInputFieldModel rule critic'	classVariableNames: ''	poolDictionaries: ''	category: 'Manifest-CriticBrowser'

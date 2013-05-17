@@ -1,0 +1,1 @@
+midnight	"Answer a DateAndTime starting at midnight local time"	self dayMonthYearDo: [ :day :month :year|		^self class 			year: year			month: month			day: day 			offset: offset ].

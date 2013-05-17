@@ -1,4 +1,0 @@
-debugging
-debugOff
-
-	DebugOn := false

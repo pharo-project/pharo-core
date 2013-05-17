@@ -1,4 +1,0 @@
-setting
-icon
-
-	^ThemeIcons smallInfoIcon

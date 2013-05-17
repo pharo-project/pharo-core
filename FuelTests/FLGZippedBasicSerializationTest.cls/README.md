@@ -1,0 +1,1 @@
+A FLGZippedBasicSerializationTest is xxxxxxxxx.Instance Variables

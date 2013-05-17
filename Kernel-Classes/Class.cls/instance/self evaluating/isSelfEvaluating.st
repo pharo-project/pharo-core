@@ -1,0 +1,1 @@
+isSelfEvaluating	^self isObsolete not

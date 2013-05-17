@@ -1,0 +1,1 @@
+adapter	^ self model

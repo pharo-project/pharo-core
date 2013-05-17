@@ -1,0 +1,1 @@
+isEmpty	^ operations isEmpty

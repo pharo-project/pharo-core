@@ -1,4 +1,0 @@
-droplist-labels
-sourceLabel
-
-	^'Source'

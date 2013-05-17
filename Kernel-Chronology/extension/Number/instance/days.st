@@ -1,0 +1,1 @@
+days  	^ Duration days: self

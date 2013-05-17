@@ -1,4 +1,0 @@
-tests
-categoriesLabel
-
-	^ categoryWidget categoriesLabel

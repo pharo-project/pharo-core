@@ -1,0 +1,1 @@
+TestCase subclass: #RBSemanticTest	instanceVariableNames: 'instVar'	classVariableNames: 'ClassVar'	poolDictionaries: ''	category: 'AST-Tests-Semantic'

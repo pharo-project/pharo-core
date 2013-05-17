@@ -1,4 +1,0 @@
-constants
-schemeName
-
-	^ 'ftp'.

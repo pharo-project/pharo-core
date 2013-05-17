@@ -1,0 +1,1 @@
+setContents: aDictionary	contents := aDictionary

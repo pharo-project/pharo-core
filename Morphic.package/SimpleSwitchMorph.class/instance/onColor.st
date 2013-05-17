@@ -1,4 +1,0 @@
-switching
-onColor
-
-	^ onColor

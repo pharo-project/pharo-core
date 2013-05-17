@@ -1,0 +1,1 @@
+A SmalllintManifestChecker is xxxxxxxxx.Instance Variables	manifestClassCache:		<Object>manifestClassCache	- xxxxx

@@ -1,0 +1,1 @@
+Object subclass: #SpecInterpreter	instanceVariableNames: 'model spec superSpec bindings'	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Core'

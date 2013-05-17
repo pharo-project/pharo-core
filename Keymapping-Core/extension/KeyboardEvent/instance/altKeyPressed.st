@@ -1,0 +1,1 @@
+altKeyPressed	^self commandKeyPressed

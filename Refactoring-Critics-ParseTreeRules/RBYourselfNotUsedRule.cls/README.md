@@ -1,0 +1,1 @@
+A RBYourselfNotUsedRule is xxxxxxxxx.Instance Variables

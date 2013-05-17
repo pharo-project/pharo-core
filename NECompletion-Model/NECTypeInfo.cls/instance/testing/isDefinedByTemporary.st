@@ -1,0 +1,1 @@
+isDefinedByTemporary	^ kind == 3

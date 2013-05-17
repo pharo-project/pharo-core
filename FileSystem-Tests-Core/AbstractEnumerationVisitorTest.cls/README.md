@@ -1,0 +1,1 @@
+An AbstractEnumerationVisitorTest is xxxxxxxxx.Instance Variables

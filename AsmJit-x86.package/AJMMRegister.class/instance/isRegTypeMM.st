@@ -1,3 +1,0 @@
-testing
-isRegTypeMM
-	^ true

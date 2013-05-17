@@ -1,0 +1,1 @@
+pointBlock: aCharacterBlock	pointBlock := aCharacterBlock.

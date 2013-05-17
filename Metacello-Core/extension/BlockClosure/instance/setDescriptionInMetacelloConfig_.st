@@ -1,0 +1,1 @@
+setDescriptionInMetacelloConfig: aMetacelloConfig	aMetacelloConfig setDescriptionWithBlock: self

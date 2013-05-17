@@ -1,0 +1,1 @@
+defaultPortForStartTLS	^ 587

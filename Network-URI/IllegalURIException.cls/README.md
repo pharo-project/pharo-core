@@ -1,0 +1,1 @@
+An IllegalURIException is xxxxxxxxx.Instance Variables	uriString:		<Object>uriString	- xxxxx

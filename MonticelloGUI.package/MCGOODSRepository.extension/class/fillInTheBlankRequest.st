@@ -1,3 +1,0 @@
-*MonticelloGUI
-fillInTheBlankRequest
-	^ 'GOODS Repository:'

@@ -1,4 +1,0 @@
-settings
-insertedTextAttributes
-
-	^InsertTextAttributes

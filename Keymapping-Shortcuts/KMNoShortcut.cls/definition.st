@@ -1,0 +1,1 @@
+KMShortcut subclass: #KMNoShortcut	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Keymapping-Shortcuts'

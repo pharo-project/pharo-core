@@ -1,0 +1,1 @@
+RGBehaviorDefinition subclass: #RGClassDescriptionDefinition	instanceVariableNames: 'instanceVariables'	classVariableNames: ''	poolDictionaries: ''	category: 'Ring-Core-Kernel'

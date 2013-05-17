@@ -1,0 +1,1 @@
+Object subclass: #GoogleAttachment	instanceVariableNames: 'comment contents filename issue name url'	classVariableNames: ''	poolDictionaries: ''	category: 'CI-Core'

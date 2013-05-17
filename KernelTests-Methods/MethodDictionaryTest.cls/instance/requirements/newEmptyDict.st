@@ -1,0 +1,1 @@
+newEmptyDict	^ MethodDictionary new

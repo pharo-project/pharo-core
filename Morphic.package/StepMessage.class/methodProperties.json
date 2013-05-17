@@ -1,7 +1,0 @@
-{
-	"class" : {
-		"scheduledAt:stepTime:receiver:selector:arguments:" : "ar 10/22/2000 15:48" },
-	"instance" : {
-		"printOn:" : "ar 10/22/2000 15:59",
-		"stepTime" : "ar 10/22/2000 16:56",
-		"stepTime:" : "ar 10/22/2000 16:56" } }

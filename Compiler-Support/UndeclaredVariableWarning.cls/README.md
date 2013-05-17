@@ -1,0 +1,1 @@
+An UndeclaredVariableWarning is xxxxxxxxx.Instance Variables	class:		<Object>	name:		<Object>	selector:		<Object>class	- xxxxxname	- xxxxxselector	- xxxxx

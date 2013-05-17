@@ -1,3 +1,0 @@
-named colors
-lightBrown
-	^LightBrown

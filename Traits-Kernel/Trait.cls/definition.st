@@ -1,0 +1,1 @@
+TraitDescription subclass: #Trait	uses: TBehaviorCategorization	instanceVariableNames: 'name environment classTrait category'	classVariableNames: ''	poolDictionaries: ''	category: 'Traits-Kernel'

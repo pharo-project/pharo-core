@@ -1,0 +1,1 @@
+A VileFinalizer is xxxxxxxxx.Instance Variables	weakRegistry:		<Object>weakRegistry	- xxxxx

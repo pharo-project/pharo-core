@@ -1,0 +1,1 @@
+subscript: anObject	subscript := anObject

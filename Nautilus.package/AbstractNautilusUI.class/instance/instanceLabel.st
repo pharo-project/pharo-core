@@ -1,4 +1,0 @@
-private
-instanceLabel
-
-	^'Instance' asMorph

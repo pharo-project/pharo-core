@@ -1,0 +1,1 @@
+aLoadedPackageIsNotCurrent: aBoolean	aLoadedPackageIsNotCurrent := aBoolean

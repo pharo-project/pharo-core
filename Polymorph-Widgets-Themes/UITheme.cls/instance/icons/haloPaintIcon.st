@@ -1,0 +1,1 @@
+haloPaintIcon	^ ThemeIcons haloPaintIcon

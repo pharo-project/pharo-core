@@ -1,3 +1,0 @@
-icons
-smallDoItIcon
-	^ ThemeIcons smallDoItIcon

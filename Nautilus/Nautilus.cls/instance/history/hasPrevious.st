@@ -1,0 +1,1 @@
+hasPrevious		^self browsingHistory hasPrevious

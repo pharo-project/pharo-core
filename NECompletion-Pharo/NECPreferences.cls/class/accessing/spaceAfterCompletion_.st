@@ -1,0 +1,1 @@
+spaceAfterCompletion: anObject	spaceAfterCompletion := anObject

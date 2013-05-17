@@ -1,0 +1,1 @@
+A NBExternalStructureFields is xxxxxxxxx.Instance Variables	fields:		<Object>	totalSize:		<Object>fields	- xxxxxtotalSize	- xxxxx

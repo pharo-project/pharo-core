@@ -1,0 +1,1 @@
+defaultBorderColor	^ UITheme current windowColor 

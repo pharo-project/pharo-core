@@ -1,0 +1,1 @@
+resolveToLoadableSpec	^self

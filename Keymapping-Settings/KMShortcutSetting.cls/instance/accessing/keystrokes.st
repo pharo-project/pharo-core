@@ -1,0 +1,1 @@
+keystrokes	^ self keymap shortcut

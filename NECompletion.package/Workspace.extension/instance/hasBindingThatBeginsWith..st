@@ -1,3 +1,0 @@
-*necompletion
-hasBindingThatBeginsWith: aString
-	^false

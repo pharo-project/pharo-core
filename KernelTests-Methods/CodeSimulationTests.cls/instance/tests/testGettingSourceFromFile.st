@@ -1,0 +1,1 @@
+testGettingSourceFromFile	self runSimulated: [self methodWithSourceGetting]  

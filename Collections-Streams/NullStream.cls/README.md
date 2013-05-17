@@ -1,0 +1,1 @@
+I am a stream that does nothing i.e. generates and consumes an infinite number of elements (NullObject pattern). I can be used as an equivalent of /dev/null (for example a logging in off mode) or for performance benchmarks.

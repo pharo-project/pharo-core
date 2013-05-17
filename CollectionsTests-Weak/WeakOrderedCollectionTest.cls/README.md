@@ -1,0 +1,1 @@
+A WeakOrderedCollectionTest is xxxxxxxxx.Instance Variables

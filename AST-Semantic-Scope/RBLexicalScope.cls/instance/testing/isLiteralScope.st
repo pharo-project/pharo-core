@@ -1,0 +1,1 @@
+isLiteralScope	^ false

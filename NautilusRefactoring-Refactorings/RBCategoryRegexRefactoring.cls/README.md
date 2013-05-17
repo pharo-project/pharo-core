@@ -1,0 +1,1 @@
+A RBCategoryRegexRefactoring is xxxxxxxxx.Instance Variables

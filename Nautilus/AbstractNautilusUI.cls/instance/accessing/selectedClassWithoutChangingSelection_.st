@@ -1,0 +1,1 @@
+selectedClassWithoutChangingSelection: aClass 	^ self subclassResponsibility

@@ -1,0 +1,1 @@
+formatCommentWithStatements: aBoolean	FormatCommentWithStatements := aBoolean

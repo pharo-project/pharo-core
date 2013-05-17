@@ -1,0 +1,1 @@
+critic: aCritic	critic := aCritic

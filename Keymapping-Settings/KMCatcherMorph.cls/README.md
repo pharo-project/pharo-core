@@ -1,0 +1,1 @@
+A KMCatcherMorph is xxxxxxxxx.Instance Variables	edited:		<Object>	focused:		<Object>	initialShortcut:		<Object>	keymapSetting:		<Object>	keystrokes:		<Object>	labelMorph:		<Object>edited	- xxxxxfocused	- xxxxxinitialShortcut	- xxxxxkeymapSetting	- xxxxxkeystrokes	- xxxxxlabelMorph	- xxxxx

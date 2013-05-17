@@ -1,3 +1,0 @@
-accessing
-deSelectOnReclick
-	^ deSelectOnReclick contents

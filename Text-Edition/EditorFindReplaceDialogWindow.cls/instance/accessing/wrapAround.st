@@ -1,0 +1,1 @@
+wrapAround	^ self state wrapAround 

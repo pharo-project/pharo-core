@@ -1,0 +1,1 @@
+summary	^ categories asArray printString

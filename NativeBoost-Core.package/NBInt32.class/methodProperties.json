@@ -1,7 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"coerceOopToOperand:ifFailedJumpTo:" : "IgorStasenko 9/2/2012 23:17",
-		"coerceReturnValue:" : "IgorStasenko 9/2/2012 23:17",
-		"pushAsValue:" : "IgorStasenko 9/2/2012 23:17" } }

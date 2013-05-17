@@ -1,0 +1,1 @@
+check	^condition check not

@@ -1,0 +1,1 @@
+baseURL	^ 'http://smalltalkhub.com/mc/'

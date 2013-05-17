@@ -1,0 +1,1 @@
+icon 	^UITheme current iconNamed: #recentMessagesIcon

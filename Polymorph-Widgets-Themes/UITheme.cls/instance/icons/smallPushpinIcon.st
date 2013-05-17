@@ -1,0 +1,1 @@
+smallPushpinIcon	^ ThemeIcons smallPushpinIcon

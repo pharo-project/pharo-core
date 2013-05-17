@@ -1,4 +1,0 @@
-icon
-lockSelector
-
-	^ lockSelector

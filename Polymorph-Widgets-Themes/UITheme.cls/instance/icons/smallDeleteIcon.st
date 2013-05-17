@@ -1,0 +1,1 @@
+smallDeleteIcon	^ ThemeIcons smallDeleteIcon

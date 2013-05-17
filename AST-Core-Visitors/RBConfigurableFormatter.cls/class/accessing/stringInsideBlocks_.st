@@ -1,0 +1,1 @@
+stringInsideBlocks: aString	StringInsideBlocks := aString

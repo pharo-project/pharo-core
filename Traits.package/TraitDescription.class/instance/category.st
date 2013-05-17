@@ -1,3 +1,0 @@
-organization
-category
-	self subclassResponsibility

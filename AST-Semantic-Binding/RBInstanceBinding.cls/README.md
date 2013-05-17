@@ -1,0 +1,1 @@
+A RBInstanceBinding is xxxxxxxxx.Instance Variables	index:		<Object>	name:		<Object>index	- xxxxxname	- xxxxx

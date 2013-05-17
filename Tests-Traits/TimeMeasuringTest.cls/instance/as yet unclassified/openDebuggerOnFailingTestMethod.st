@@ -1,0 +1,1 @@
+openDebuggerOnFailingTestMethod	shouldProfile := true

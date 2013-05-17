@@ -1,0 +1,1 @@
+isVariableScope	^ true

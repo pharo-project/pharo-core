@@ -1,0 +1,1 @@
+checkSourcesFileAvailability: aBoolean	CheckSourcesFileAvailability := aBoolean

@@ -1,0 +1,1 @@
+title	^ 'Method Browser'

@@ -1,0 +1,1 @@
+A RBContextBinding is xxxxxxxxx.Instance Variables

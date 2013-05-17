@@ -1,0 +1,1 @@
+defaultIcon	^ self theme smallConfigurationIcon

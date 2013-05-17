@@ -1,3 +1,0 @@
-accessing
-numPages
-	^ pages size

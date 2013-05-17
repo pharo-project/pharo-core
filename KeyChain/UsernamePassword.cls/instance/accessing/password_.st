@@ -1,0 +1,1 @@
+password: anObject	password := anObject

@@ -1,0 +1,1 @@
+copyWithPath: newPath	self subclassResponsibility

@@ -1,0 +1,1 @@
+chooseDefaultFont	self chooseStandardFont: #defaultFont

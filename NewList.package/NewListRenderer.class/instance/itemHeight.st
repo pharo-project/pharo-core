@@ -1,4 +1,0 @@
-accessing
-itemHeight
-
-	^ itemHeight contents

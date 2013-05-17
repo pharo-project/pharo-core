@@ -1,0 +1,1 @@
+isDefinedByMessageSend	^kind == 2

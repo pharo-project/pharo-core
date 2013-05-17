@@ -1,0 +1,1 @@
+buildInspectItemFor: anAPIMethod 	^ nil

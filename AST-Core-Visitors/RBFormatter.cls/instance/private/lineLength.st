@@ -1,0 +1,1 @@
+lineLength	^codeStream position - lineStart

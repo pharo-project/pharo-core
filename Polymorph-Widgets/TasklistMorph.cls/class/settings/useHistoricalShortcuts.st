@@ -1,0 +1,1 @@
+useHistoricalShortcuts	^ UseHistoricalShortcuts ifNil: [ UseHistoricalShortcuts := false ]

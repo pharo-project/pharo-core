@@ -1,0 +1,1 @@
+writeTo: aStream	self subclassResponsibility

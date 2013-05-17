@@ -1,0 +1,1 @@
+A MCCacheRepository is xxxxxxxxx.Instance Variables	cacheEnabled:		<Object>	packageCaches:		<Object>	seenFiles:		<Object>cacheEnabled	- xxxxxpackageCaches	- xxxxxseenFiles	- xxxxx

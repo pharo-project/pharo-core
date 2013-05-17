@@ -1,4 +1,0 @@
-accessing
-type
-
-	^type

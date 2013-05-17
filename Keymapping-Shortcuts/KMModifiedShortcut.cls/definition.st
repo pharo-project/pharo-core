@@ -1,0 +1,1 @@
+KMShortcut subclass: #KMModifiedShortcut	instanceVariableNames: 'modifier character'	classVariableNames: ''	poolDictionaries: ''	category: 'Keymapping-Shortcuts'

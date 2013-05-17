@@ -1,0 +1,1 @@
+selectedPointSize	^self selectedFont pointSize

@@ -1,0 +1,1 @@
+outsideClasses	^ProtoObject withAllSubclasses difference: self classesAndMetaClasses

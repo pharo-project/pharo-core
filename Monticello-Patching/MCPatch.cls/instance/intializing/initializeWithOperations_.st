@@ -1,0 +1,1 @@
+initializeWithOperations: aCollection	operations := aCollection

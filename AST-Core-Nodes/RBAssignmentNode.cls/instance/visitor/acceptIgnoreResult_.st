@@ -1,0 +1,1 @@
+acceptIgnoreResult: visitor	^ visitor visitAssignmentStatement: self

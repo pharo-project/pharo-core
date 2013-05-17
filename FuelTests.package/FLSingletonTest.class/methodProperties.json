@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"setUp" : "MML 10/19/2012 17:28",
-		"testSingletonMaterialization" : "MML 10/19/2012 17:31",
-		"testSingletonMaterializationEnforced" : "MML 10/19/2012 17:43",
-		"testSingletonMaterializationEnforcedNoInstance" : "MML 10/19/2012 17:31" } }

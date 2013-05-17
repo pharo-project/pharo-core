@@ -1,0 +1,1 @@
+popupShowAutomatic: aBoolean	popupShowAutomatic := aBoolean

@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"isVisible" : "lr 2/24/2009 17:09" },
-	"instance" : {
-		"checkMethod:" : "lr 2/24/2009 08:21",
-		"initialize" : "lr 11/2/2009 00:14",
-		"matcher" : "lr 2/24/2009 00:01",
-		"resetResult" : "lr 2/24/2009 08:21",
-		"resultClass" : "lr 9/8/2011 20:15" } }

@@ -1,8 +1,0 @@
-{
-	"class" : {
-		"initialize" : "MarianoMartinezPeck 5/28/2012 01:16",
-		"permuteHash:" : "ul 12/18/2011 11:24" },
-	"instance" : {
-		"initialize" : "ul 12/18/2011 11:31",
-		"postCopy" : "ul 12/18/2011 11:35",
-		"size" : "ul 12/18/2011 11:33" } }

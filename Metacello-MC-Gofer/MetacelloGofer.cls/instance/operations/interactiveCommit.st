@@ -1,0 +1,1 @@
+interactiveCommit	^ self execute: MetacelloGoferCommit

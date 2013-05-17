@@ -1,4 +1,0 @@
-utilities
-allManagers
-
-	^ MCWorkingCopy allManagers

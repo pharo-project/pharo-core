@@ -1,0 +1,1 @@
+checkForNewDisplaySize	"do nothing"

@@ -1,0 +1,1 @@
+character: aCharacter 	character := aCharacter.

@@ -1,0 +1,1 @@
+switchIsComment	^ switch = #comment.

@@ -1,4 +1,0 @@
-icon
-methodsIconsCache
-
-	^ MethodsIconsCache

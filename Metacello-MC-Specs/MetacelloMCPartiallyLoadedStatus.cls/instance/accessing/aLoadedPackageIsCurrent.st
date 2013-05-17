@@ -1,0 +1,1 @@
+aLoadedPackageIsCurrent	^ aLoadedPackageIsCurrent

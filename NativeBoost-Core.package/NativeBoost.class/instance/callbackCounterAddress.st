@@ -1,3 +1,0 @@
-callback support
-callbackCounterAddress
-	^ callbackCounterAddr

@@ -1,8 +1,0 @@
-{
-	"class" : {
-		"isAbstract" : "lr 10/27/2009 14:01" },
-	"instance" : {
-		"convertInterval:for:" : "",
-		"executeRefactoring:" : "",
-		"objectClassVariable" : "",
-		"proceedThroughWarning:" : "CamilloBruni 1/12/2013 12:49" } }

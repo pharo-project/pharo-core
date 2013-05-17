@@ -1,0 +1,1 @@
+Object subclass: #GoogleIssue	instanceVariableNames: 'attachements changeLoader comments description id labels published relatedPackages slice state status title tracker updated'	classVariableNames: ''	poolDictionaries: ''	category: 'CI-Core'

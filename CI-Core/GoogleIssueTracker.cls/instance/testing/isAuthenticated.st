@@ -1,0 +1,1 @@
+isAuthenticated	^ token isNil not

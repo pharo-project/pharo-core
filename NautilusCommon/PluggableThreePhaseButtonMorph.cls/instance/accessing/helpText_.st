@@ -1,0 +1,1 @@
+helpText: anObject 	helpText := anObject

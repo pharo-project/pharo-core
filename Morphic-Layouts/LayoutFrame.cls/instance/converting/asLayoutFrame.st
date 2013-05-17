@@ -1,0 +1,1 @@
+asLayoutFrame	 ^self

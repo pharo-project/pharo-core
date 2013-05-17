@@ -1,0 +1,1 @@
+A CompiledMethodTrailerTest is xxxxxxxxx.Instance Variables

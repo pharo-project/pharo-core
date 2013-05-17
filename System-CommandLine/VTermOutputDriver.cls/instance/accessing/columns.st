@@ -1,0 +1,1 @@
+columns	^ termcap getnum: 'co'

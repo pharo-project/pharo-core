@@ -1,0 +1,1 @@
+lookupClass: aClass	lookupClass := aClass

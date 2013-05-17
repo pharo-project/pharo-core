@@ -1,0 +1,1 @@
+A RBSemanticAnnotator is xxxxxxxxx.Instance Variables	scope:		<Object>scope	- xxxxx

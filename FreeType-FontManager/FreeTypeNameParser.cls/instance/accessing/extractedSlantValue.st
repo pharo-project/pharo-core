@@ -1,0 +1,1 @@
+extractedSlantValue	^extractedSlantValue

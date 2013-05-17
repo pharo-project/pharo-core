@@ -1,4 +1,0 @@
-protocol
-wrappers
-
-	^ associationsWrapperToItem keys

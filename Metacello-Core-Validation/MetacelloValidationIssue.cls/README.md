@@ -1,0 +1,1 @@
+A MetacelloValidationIssue is xxxxxxxxx.Instance Variables	callSite:		<Object>	configurationClass:		<Object>	explanation:		<Object>	reasonCode:		<Object>callSite	- xxxxxconfigurationClass	- xxxxxexplanation	- xxxxxreasonCode	- xxxxx

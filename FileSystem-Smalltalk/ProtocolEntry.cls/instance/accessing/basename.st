@@ -1,0 +1,1 @@
+basename	^ FSSTFileNameEncoder encode: protocol

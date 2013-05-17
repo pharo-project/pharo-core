@@ -1,0 +1,1 @@
+stateChanged: anObject	stateChanged := anObject

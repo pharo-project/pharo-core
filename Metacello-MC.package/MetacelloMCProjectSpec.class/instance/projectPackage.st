@@ -1,3 +1,0 @@
-querying
-projectPackage
-	^ projectPackage

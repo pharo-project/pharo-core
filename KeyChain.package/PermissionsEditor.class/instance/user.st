@@ -1,4 +1,0 @@
-protocol
-user
-
-	^ user contents

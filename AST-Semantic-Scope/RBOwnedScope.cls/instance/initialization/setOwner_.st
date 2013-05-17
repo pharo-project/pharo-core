@@ -1,0 +1,1 @@
+setOwner: aLexicalScope	owner := aLexicalScope

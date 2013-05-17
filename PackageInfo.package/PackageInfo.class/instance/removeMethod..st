@@ -1,2 +1,0 @@
-modifying
-removeMethod: aMethodReference

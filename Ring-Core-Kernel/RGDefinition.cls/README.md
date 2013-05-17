@@ -1,0 +1,1 @@
+A RGDefinition is xxxxxxxxx.Instance Variables

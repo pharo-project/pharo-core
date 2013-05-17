@@ -1,0 +1,1 @@
+readStream	^ ReadStream on: self

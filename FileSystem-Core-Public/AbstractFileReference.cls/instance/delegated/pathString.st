@@ -1,0 +1,1 @@
+pathString	^ self resolve pathString

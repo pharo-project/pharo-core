@@ -1,0 +1,1 @@
+isNamespace	^true

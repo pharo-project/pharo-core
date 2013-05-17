@@ -1,7 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"testAnnouncementClassRemovedIsRaisedOnRemoveFromSystem" : "EstebanLorenzano 8/3/2012 14:21",
-		"testMethodPackageFromObsoleteClass" : "EstebanLorenzano 7/27/2012 19:40",
-		"testMethodPackageOfRemovedClass" : "GuillermoPolito 5/29/2012 13:25" } }

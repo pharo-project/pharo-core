@@ -1,0 +1,1 @@
+asShortcut	^ self

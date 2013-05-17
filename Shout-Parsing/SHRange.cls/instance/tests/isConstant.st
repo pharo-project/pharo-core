@@ -1,0 +1,1 @@
+isConstant		^self asType notNil

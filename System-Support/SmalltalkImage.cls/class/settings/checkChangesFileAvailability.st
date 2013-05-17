@@ -1,0 +1,1 @@
+checkChangesFileAvailability	^ CheckChangesFileAvailability ifNil: [CheckChangesFileAvailability := true]

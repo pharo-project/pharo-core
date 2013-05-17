@@ -1,0 +1,1 @@
+initializeStringMeasurer	stopConditions := TextStopConditions new

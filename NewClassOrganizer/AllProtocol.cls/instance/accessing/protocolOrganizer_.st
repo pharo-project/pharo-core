@@ -1,0 +1,1 @@
+protocolOrganizer: anObject		protocolOrganizer := anObject.

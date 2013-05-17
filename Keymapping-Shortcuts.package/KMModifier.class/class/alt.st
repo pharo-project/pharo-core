@@ -1,3 +1,0 @@
-building
-alt
-	^ KMAltModifier new

@@ -1,0 +1,1 @@
+isAnonymous	^name isNil

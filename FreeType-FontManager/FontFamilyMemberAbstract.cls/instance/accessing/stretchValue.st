@@ -1,0 +1,1 @@
+stretchValue	self subclassResponsibility

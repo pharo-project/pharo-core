@@ -1,4 +1,0 @@
-morphic
-getIndex
-
-	^ index

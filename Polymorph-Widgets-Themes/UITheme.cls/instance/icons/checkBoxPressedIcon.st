@@ -1,0 +1,1 @@
+checkBoxPressedIcon	^ ThemeIcons checkBoxPressedIcon

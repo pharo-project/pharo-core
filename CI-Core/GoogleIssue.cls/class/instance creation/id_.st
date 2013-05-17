@@ -1,0 +1,1 @@
+id: id	^ self basicNew		initializeWith: id

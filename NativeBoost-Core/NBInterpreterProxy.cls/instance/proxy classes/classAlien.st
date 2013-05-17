@@ -1,0 +1,1 @@
+classAlien	^ self simpleCall

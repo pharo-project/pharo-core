@@ -1,0 +1,1 @@
+An InvalidDirectoryError is xxxxxxxxx.Instance Variables	pathName:		<Object>pathName	- xxxxx

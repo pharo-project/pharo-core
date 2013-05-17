@@ -1,4 +1,0 @@
-protocol
-result
-
-	^ result contents

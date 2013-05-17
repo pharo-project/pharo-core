@@ -1,3 +1,0 @@
-testing
-isConditional
-	^ name ~~ #jmp

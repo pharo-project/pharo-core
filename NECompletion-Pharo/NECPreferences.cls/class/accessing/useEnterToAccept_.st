@@ -1,0 +1,1 @@
+useEnterToAccept: aBoolean	useEnterToAccept := aBoolean

@@ -1,3 +1,0 @@
-parsing
-privateInitializeFromText: aString
-	^self subclassResponsibility

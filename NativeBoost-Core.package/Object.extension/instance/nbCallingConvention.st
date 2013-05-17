@@ -1,3 +1,0 @@
-*NativeBoost-core
-nbCallingConvention
-	^#cdecl

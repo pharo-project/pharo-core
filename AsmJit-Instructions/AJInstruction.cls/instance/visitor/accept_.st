@@ -1,0 +1,1 @@
+accept: anObject	self subclassResponsibility

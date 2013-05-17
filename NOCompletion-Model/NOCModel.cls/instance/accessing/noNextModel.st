@@ -1,0 +1,1 @@
+noNextModel	nextModel := NOCEmptyModel new.

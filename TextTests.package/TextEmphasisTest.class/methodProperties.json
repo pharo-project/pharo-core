@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"setUp" : "mjr 8/20/2003 18:55",
-		"testAppendString" : "sd 6/5/2005 10:03",
-		"testAppendText" : "sd 6/5/2005 10:04",
-		"testPrependString" : "sd 6/5/2005 10:04",
-		"testPrependText" : "sd 6/5/2005 10:04" } }

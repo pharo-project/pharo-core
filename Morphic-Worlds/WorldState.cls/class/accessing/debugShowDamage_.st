@@ -1,0 +1,1 @@
+debugShowDamage: aBoolean	DebugShowDamage := aBoolean

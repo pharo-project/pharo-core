@@ -1,0 +1,1 @@
+methodSignatureOnMultipleLines: aBoolean	MethodSignatureOnMultipleLines := aBoolean

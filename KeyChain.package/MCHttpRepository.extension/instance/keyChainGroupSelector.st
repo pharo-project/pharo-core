@@ -1,4 +1,0 @@
-*keychain
-keyChainGroupSelector
-
-	^ #monticelloDefault

@@ -1,0 +1,1 @@
+withForm: aForm	^ self new image: aForm ; yourself

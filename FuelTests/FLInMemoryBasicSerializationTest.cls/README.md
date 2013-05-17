@@ -1,0 +1,1 @@
+A FLInMemoryBasicSerializationTest is xxxxxxxxx.Instance Variables	byteArray:		<Object>byteArray	- xxxxx

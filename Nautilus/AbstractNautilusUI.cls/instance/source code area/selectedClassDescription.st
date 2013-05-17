@@ -1,0 +1,1 @@
+selectedClassDescription	^ self selectedClass definition

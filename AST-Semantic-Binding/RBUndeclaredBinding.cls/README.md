@@ -1,0 +1,1 @@
+A RBUndeclaredBinding is xxxxxxxxx.Instance Variables

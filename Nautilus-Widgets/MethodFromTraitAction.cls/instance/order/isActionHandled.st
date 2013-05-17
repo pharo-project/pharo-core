@@ -1,0 +1,1 @@
+isActionHandled	^ method isFromTrait

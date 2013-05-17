@@ -1,4 +1,0 @@
-*Nautilus
-realClass
-
-	^ self

@@ -1,0 +1,1 @@
+isLiteralBinding	^ true

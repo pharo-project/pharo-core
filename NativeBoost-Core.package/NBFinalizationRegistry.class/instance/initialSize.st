@@ -1,3 +1,0 @@
-accessing
-initialSize
-	^ 100

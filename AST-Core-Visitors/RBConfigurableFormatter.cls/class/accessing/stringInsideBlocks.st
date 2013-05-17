@@ -1,0 +1,1 @@
+stringInsideBlocks	^ StringInsideBlocks

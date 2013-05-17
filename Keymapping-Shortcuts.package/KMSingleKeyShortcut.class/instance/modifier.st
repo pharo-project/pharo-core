@@ -1,4 +1,0 @@
-accessing
-modifier
-
-	^ KMModifier new.

@@ -1,0 +1,1 @@
+nonEmpty	^ nonEmptySymbol5ElementsNoDuplicates 

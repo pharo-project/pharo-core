@@ -1,0 +1,1 @@
+A MetacelloGofer is xxxxxxxxx.Instance Variables

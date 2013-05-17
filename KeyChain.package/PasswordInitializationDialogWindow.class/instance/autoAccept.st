@@ -1,4 +1,0 @@
-initialize
-autoAccept
-
-	^false

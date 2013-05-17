@@ -1,0 +1,1 @@
+checker: aSmallLintChercker	checker := aSmallLintChercker

@@ -1,0 +1,1 @@
+testLiteralArrayCharacters	self ruleFor: self currentSelector

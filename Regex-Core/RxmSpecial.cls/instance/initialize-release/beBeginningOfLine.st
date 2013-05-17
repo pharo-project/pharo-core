@@ -1,0 +1,1 @@
+beBeginningOfLine	matchSelector := #atBeginningOfLine

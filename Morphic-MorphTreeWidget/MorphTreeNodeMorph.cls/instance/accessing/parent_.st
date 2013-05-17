@@ -1,0 +1,1 @@
+parent: aNodeMorph	parent := aNodeMorph

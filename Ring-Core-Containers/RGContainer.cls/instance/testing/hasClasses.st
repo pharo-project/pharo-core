@@ -1,0 +1,1 @@
+hasClasses	^self definedClasses notEmpty

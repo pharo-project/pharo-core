@@ -1,0 +1,1 @@
+A RBVariableScope is xxxxxxxxx.Instance Variables

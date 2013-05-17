@@ -1,0 +1,1 @@
+A TimeMeasuringTest is xxxxxxxxx.Instance Variables	realTime:		<Object>	shouldProfile:		<Object>realTime	- xxxxxshouldProfile	- xxxxx

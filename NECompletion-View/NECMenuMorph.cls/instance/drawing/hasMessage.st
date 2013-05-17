@@ -1,0 +1,1 @@
+hasMessage	^ true 

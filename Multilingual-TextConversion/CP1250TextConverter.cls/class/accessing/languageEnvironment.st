@@ -1,0 +1,1 @@
+languageEnvironment	^Latin2Environment

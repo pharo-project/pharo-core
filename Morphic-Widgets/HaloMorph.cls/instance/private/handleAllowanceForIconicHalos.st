@@ -1,0 +1,1 @@
+handleAllowanceForIconicHalos	^ 12

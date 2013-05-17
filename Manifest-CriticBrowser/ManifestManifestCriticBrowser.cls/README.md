@@ -1,0 +1,1 @@
+A ManifestManifestCriticBrowser is xxxxxxxxx.Instance Variables

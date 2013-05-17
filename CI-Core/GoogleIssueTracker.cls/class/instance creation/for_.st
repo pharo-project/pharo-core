@@ -1,0 +1,1 @@
+for: projectName	^ self new		initializeWith: projectName.

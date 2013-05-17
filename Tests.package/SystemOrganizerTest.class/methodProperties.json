@@ -1,7 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"testDefault" : "SeanDeNigris 12/2/2011 09:31",
-		"testDefaultEnvironment" : "StephaneDucasse 10/3/2010 14:53",
-		"testThatExistingPackagenamesDoesNotContainIllegalCharacters" : "StephaneDucasse 10/6/2010 20:00" } }

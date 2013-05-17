@@ -1,0 +1,1 @@
+resizeToFit	^self vResizing == #shrinkWrap

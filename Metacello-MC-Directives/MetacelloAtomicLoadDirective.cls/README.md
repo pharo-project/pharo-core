@@ -1,0 +1,1 @@
+A MetacelloAtomicLoadDirective is xxxxxxxxx.Instance Variables	packageloads:		<Object>	postloads:		<Object>	preloads:		<Object>packageloads	- xxxxxpostloads	- xxxxxpreloads	- xxxxx

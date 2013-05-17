@@ -1,4 +1,0 @@
-private
-timeBetweenUnlocks
-
-	^ lastUnlock timeToLive

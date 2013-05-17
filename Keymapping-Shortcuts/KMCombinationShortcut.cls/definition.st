@@ -1,0 +1,1 @@
+Object subclass: #KMCombinationShortcut	instanceVariableNames: 'shortcuts'	classVariableNames: ''	poolDictionaries: ''	category: 'Keymapping-Shortcuts'

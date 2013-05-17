@@ -1,0 +1,1 @@
+matchesCompletely: aShortcut	^ self shortcut = aShortcut asShortcut

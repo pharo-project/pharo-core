@@ -1,0 +1,1 @@
+byteToUnicode: char	^char

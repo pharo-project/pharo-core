@@ -1,0 +1,1 @@
+A TestValueWithinFix is xxxxxxxxx.Instance Variables

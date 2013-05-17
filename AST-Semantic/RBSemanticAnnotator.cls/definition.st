@@ -1,0 +1,1 @@
+RBProgramNodeVisitor subclass: #RBSemanticAnnotator	instanceVariableNames: 'scope'	classVariableNames: ''	poolDictionaries: ''	category: 'AST-Semantic'

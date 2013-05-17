@@ -1,0 +1,1 @@
+newPackage: anObject		newPackage := anObject

@@ -1,0 +1,1 @@
+message: aString	message := aString

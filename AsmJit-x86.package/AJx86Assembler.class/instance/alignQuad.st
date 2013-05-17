@@ -1,3 +1,0 @@
-alignment
-alignQuad
-	self addInstruction: AJAlignmentInstruction alignQuad

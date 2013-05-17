@@ -1,0 +1,1 @@
+writeOn: stream	self subclassResponsibility 

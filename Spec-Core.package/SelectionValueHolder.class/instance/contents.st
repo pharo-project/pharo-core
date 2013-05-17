@@ -1,4 +1,0 @@
-accessing
-contents
-
-	^ {index. selection}

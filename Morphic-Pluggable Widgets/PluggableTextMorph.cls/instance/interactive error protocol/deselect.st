@@ -1,0 +1,1 @@
+deselect	^ textMorph editor deselect

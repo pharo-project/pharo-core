@@ -1,0 +1,1 @@
+allowBlockArgumentAssignment	^ AllowBlockArgumentAssignment ifNil: [AllowBlockArgumentAssignment := false]

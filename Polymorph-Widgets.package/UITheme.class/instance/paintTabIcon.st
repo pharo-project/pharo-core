@@ -1,3 +1,0 @@
-icons
-paintTabIcon
-	^ ThemeIcons paintTabIcon

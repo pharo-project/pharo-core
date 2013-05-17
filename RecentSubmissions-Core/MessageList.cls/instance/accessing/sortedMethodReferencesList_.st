@@ -1,0 +1,1 @@
+sortedMethodReferencesList: anObject	sortedMethodReferencesList := anObject

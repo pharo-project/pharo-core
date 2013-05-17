@@ -1,0 +1,1 @@
+hasResults	^ result notNil

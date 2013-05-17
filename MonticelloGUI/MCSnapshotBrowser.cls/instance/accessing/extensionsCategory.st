@@ -1,0 +1,1 @@
+extensionsCategory	^ '*Extensions'

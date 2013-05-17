@@ -1,0 +1,1 @@
+selectedMethod: anObject			selectedMethod := anObject

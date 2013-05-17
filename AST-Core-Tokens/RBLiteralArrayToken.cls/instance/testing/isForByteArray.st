@@ -1,0 +1,1 @@
+isForByteArray	^value last = $[

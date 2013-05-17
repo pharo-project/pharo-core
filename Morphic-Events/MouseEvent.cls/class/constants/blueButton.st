@@ -1,0 +1,1 @@
+blueButton	^ 1

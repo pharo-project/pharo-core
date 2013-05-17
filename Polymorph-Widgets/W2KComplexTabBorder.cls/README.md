@@ -1,0 +1,1 @@
+A W2KComplexTabBorder is xxxxxxxxx.Instance Variables

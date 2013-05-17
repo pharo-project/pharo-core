@@ -1,0 +1,1 @@
+smallRightFlushIcon	^ ThemeIcons smallRightFlushIcon

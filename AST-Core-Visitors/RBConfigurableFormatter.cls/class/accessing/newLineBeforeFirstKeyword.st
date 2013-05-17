@@ -1,0 +1,1 @@
+newLineBeforeFirstKeyword	^ NewLineBeforeFirstKeyword

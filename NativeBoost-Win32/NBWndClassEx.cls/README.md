@@ -1,0 +1,1 @@
+A NBWndClassEx is xxxxxxxxx.Instance Variables

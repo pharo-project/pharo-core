@@ -1,0 +1,1 @@
+stringForReadout	^ self rounded printString

@@ -1,5 +1,0 @@
-*RPackage-SystemIntegration
-unregisterInterestToSystemAnnouncement
-	"self unregisterInterestToSystemAnnouncement"
-
-	SystemAnnouncer uniqueInstance unsubscribe: self

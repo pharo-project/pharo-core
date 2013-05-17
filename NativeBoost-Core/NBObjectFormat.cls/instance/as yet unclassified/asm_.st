@@ -1,0 +1,1 @@
+asm: anAsm	asm := anAsm

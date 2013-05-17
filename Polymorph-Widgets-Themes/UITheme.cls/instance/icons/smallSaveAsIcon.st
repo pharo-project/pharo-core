@@ -1,0 +1,1 @@
+smallSaveAsIcon	^ ThemeIcons smallSaveAsIcon

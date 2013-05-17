@@ -1,0 +1,1 @@
+binding: aBinding	^ self new initializeBinding: aBinding

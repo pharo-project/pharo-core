@@ -1,0 +1,1 @@
+allSubclasses	^ Array new

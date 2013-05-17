@@ -1,0 +1,1 @@
+renameAction	self renameGroup

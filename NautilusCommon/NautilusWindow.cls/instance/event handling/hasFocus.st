@@ -1,0 +1,1 @@
+hasFocus	^ ActiveHand keyboardFocus == self

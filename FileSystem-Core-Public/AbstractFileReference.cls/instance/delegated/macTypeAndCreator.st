@@ -1,0 +1,1 @@
+macTypeAndCreator	^ self resolve macTypeAndCreator

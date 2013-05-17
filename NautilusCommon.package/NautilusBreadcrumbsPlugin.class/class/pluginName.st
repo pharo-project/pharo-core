@@ -1,4 +1,0 @@
-information
-pluginName
-
-	^ 'BreadCrumbs'

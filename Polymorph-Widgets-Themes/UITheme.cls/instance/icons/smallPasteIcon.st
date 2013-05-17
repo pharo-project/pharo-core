@@ -1,0 +1,1 @@
+smallPasteIcon	^ ThemeIcons smallPasteIcon

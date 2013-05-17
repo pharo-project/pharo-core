@@ -1,4 +1,0 @@
-accessing
-subSpecs
-
-	^ subSpecs

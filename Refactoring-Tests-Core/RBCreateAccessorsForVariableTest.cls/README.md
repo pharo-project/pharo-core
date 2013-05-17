@@ -1,0 +1,1 @@
+A RBCreateAccessorsForVariableTest is xxxxxxxxx.Instance Variables

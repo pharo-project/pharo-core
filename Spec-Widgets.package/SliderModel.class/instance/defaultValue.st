@@ -1,4 +1,0 @@
-morphic
-defaultValue
-
-	^ 50

@@ -1,0 +1,1 @@
+label: aString	^ self subclassResponsibility

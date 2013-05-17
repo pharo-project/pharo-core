@@ -1,0 +1,1 @@
+classToBeTested	^ IdentityDictionary

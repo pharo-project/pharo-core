@@ -1,0 +1,1 @@
+A RBLiteralScope is xxxxxxxxx.Instance Variables

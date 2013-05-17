@@ -1,0 +1,1 @@
+drawable: aBoolean	drawable := aBoolean.

@@ -1,0 +1,1 @@
+A MetacelloCopyMemberSpec is xxxxxxxxx.Instance Variables	sourceName:		<Object>sourceName	- xxxxx

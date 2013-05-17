@@ -1,4 +1,0 @@
-*GroupManagerUI
-elementsToAddInAGroup
-
-	^ { self }

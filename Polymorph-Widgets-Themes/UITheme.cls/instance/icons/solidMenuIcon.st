@@ -1,0 +1,1 @@
+solidMenuIcon	^ ThemeIcons solidMenuIcon

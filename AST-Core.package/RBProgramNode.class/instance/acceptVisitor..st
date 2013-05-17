@@ -1,3 +1,0 @@
-visitor
-acceptVisitor: aProgramNodeVisitor 
-	self subclassResponsibility

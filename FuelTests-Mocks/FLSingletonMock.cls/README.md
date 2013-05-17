@@ -1,0 +1,1 @@
+A FLSingletonMock is xxxxxxxxx.Instance Variables	reference:		<Object>reference	- xxxxx

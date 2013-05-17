@@ -1,0 +1,1 @@
+addObsoleteSubclass: aClass	"Do nothing."

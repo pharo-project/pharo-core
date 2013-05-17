@@ -1,0 +1,1 @@
+glamorousBasePassiveBackgroundColorFor: aButton	^ Color white

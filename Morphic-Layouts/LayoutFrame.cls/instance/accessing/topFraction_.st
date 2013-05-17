@@ -1,0 +1,1 @@
+topFraction: aNumber	topFraction := aNumber

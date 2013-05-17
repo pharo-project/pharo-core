@@ -1,0 +1,1 @@
+An ImageCleaner is xxxxxxxxx.Instance Variables

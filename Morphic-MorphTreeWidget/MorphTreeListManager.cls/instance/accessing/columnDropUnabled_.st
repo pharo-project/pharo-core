@@ -1,0 +1,1 @@
+columnDropUnabled: aBoolean	columnDropUnabled := aBoolean

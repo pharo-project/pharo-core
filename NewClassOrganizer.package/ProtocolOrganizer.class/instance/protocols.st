@@ -1,4 +1,0 @@
-backward compatibility
-protocols
-
-	^ protocols

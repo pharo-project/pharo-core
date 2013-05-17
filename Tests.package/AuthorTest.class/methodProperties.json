@@ -1,7 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"setUp" : "on 5/10/2008 13:31",
-		"tearDown" : "on 5/10/2008 13:21",
-		"testUniqueness" : "on 5/10/2008 13:35" } }

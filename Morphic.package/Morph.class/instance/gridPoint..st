@@ -1,4 +1,0 @@
-geometry
-gridPoint: ungriddedPoint
-
-	^ ungriddedPoint

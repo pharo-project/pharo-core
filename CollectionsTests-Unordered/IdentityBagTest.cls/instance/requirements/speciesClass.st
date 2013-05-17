@@ -1,0 +1,1 @@
+speciesClass	^ IdentityBag

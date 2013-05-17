@@ -1,0 +1,1 @@
+isDoIt	^self selector isDoIt.

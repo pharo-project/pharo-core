@@ -1,3 +1,0 @@
-building
-value: aBuilder
-	^ self

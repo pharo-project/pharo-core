@@ -1,0 +1,1 @@
+resolvedReference: anObject	resolvedReference := anObject

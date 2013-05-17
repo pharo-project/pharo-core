@@ -1,4 +1,0 @@
-accessing
-adds
-
-	^ adds contents

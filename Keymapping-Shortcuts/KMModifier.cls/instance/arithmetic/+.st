@@ -1,0 +1,1 @@
++ modifier	^ modifier asShortcut modifiedBy: self

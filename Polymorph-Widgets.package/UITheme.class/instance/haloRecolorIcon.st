@@ -1,3 +1,0 @@
-icons
-haloRecolorIcon
-	^ ThemeIcons haloRecolorIcon

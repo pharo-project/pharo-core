@@ -1,0 +1,1 @@
+isLogging	^true

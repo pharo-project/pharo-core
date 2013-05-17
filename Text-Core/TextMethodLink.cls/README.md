@@ -1,0 +1,1 @@
+A TextMethodLink is xxxxxxxxx.Instance Variables	browseSenders:		<Object>	hostName:		<Object>	selector:		<Object>browseSenders	- xxxxxhostName	- xxxxxselector	- xxxxx

@@ -1,3 +1,0 @@
-testing
-hasSegmentPrefix
-	^ segmentPrefix notNil

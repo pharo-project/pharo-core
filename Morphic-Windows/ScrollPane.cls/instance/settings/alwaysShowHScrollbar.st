@@ -1,0 +1,1 @@
+alwaysShowHScrollbar	^ self class alwaysShowHScrollbar

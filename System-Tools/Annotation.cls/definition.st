@@ -1,0 +1,1 @@
+Object subclass: #Annotation	instanceVariableNames: ''	classVariableNames: 'AnnotationRequests'	poolDictionaries: ''	category: 'System-Tools'

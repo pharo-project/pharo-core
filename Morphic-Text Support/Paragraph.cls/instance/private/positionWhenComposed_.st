@@ -1,0 +1,1 @@
+positionWhenComposed: pos	positionWhenComposed := pos

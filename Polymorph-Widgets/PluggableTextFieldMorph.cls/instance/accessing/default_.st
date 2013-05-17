@@ -1,0 +1,1 @@
+default: anObject	default := anObject

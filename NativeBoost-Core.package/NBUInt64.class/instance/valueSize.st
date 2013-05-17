@@ -1,3 +1,0 @@
-accessing
-valueSize
-	^ 8

@@ -1,3 +1,0 @@
-icons
-smallObjectCatalogIcon
-	^ ThemeIcons smallObjectCatalogIcon

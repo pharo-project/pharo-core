@@ -1,0 +1,1 @@
+globalEnvironment: aDictionary 	globalEnvironment := aDictionary 

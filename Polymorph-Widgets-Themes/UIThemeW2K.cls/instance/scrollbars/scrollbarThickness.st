@@ -1,0 +1,1 @@
+scrollbarThickness	^16

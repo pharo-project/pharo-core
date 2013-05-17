@@ -1,0 +1,1 @@
+A RBLocalBinding is xxxxxxxxx.Instance Variables	node:		<Object>node	- xxxxx

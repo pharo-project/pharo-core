@@ -1,0 +1,1 @@
+AbstractMethodConverter subclass: #DecompileMethodConverter	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Tools-MethodConverters'

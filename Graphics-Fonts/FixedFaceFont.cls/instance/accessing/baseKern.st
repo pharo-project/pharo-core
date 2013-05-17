@@ -1,0 +1,1 @@
+baseKern	^baseFont baseKern

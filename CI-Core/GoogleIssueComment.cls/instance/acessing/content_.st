@@ -1,0 +1,1 @@
+content: aString	content := aString

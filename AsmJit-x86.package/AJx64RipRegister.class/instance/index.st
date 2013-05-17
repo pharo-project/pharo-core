@@ -1,3 +1,0 @@
-accessing
-index
-	self ripAccessError

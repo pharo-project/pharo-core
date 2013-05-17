@@ -1,0 +1,1 @@
+category: aSymbol	category:= aSymbol

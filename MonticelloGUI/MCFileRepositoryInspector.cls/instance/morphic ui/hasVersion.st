@@ -1,0 +1,1 @@
+hasVersion	^ selectedVersion notNil

@@ -1,0 +1,1 @@
+smallNewIcon	^ ThemeIcons smallNewIcon

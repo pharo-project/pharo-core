@@ -1,0 +1,1 @@
+warningLimit: anObject		warningLimit := anObject

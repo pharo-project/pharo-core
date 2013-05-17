@@ -1,3 +1,0 @@
-icons
-smallRemoteOpenIcon
-	^ ThemeIcons smallRemoteOpenIcon

@@ -1,0 +1,1 @@
+ComposableModel subclass: #AbstractBasicWidget	instanceVariableNames: 'helpHolder borderWidth borderColor enabledHolder'	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Widgets'

@@ -1,0 +1,1 @@
+A MetacelloPlatform is xxxxxxxxx.Instance Variables	bypassGoferLoadUpdateCategories:		<Object>	bypassProgressBars:		<Object>bypassGoferLoadUpdateCategories	- xxxxxbypassProgressBars	- xxxxx

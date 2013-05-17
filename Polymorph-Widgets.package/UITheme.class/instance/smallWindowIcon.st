@@ -1,3 +1,0 @@
-icons
-smallWindowIcon
-	^ ThemeIcons smallWindowIcon

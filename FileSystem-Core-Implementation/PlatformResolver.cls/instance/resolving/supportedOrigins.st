@@ -1,0 +1,1 @@
+supportedOrigins	^ #(home desktop documents preferences)

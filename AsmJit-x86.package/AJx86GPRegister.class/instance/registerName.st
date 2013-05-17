@@ -1,3 +1,0 @@
-accessing
-registerName 
-	^ name asString.

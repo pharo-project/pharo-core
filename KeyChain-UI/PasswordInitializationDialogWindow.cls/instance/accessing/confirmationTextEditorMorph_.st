@@ -1,0 +1,1 @@
+confirmationTextEditorMorph: anObject	confirmationTextEditorMorph := anObject

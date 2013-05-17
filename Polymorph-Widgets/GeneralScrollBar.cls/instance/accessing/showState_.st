@@ -1,0 +1,1 @@
+showState: anObject	showState := anObject

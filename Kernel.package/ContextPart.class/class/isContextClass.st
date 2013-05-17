@@ -1,3 +1,0 @@
-private
-isContextClass
-	^true

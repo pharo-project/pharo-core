@@ -1,0 +1,1 @@
+openChangeSorter	^ self changeSorter open

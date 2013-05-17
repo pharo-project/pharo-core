@@ -1,0 +1,1 @@
+canAssign	^ true

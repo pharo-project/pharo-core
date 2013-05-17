@@ -1,0 +1,1 @@
+myConditions	^self subclassResponsibility

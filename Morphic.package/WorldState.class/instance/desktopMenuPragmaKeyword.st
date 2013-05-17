@@ -1,3 +1,0 @@
-settings
-desktopMenuPragmaKeyword
-	^ self class desktopMenuPragmaKeyword

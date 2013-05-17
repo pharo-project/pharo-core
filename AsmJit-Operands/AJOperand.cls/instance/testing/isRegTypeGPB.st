@@ -1,0 +1,1 @@
+isRegTypeGPB	^ self isRegType: RegGPB

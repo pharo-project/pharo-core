@@ -1,0 +1,1 @@
+isDraggingEvent	^false

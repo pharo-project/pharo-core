@@ -1,3 +1,0 @@
-icons
-smallFullscreenIcon
-	^ ThemeIcons smallFullscreenIcon

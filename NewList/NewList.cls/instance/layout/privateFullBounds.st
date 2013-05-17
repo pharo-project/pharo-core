@@ -1,0 +1,1 @@
+privateFullBounds	^  self bounds

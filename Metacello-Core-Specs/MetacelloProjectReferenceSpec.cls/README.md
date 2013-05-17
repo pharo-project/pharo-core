@@ -1,0 +1,1 @@
+A MetacelloProjectReferenceSpec is xxxxxxxxx.Instance Variables	projectReference:		<Object>projectReference	- xxxxx

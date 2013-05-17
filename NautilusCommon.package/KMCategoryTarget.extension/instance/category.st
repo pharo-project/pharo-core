@@ -1,4 +1,0 @@
-*NautilusCommon-KeyMappingExtensions
-category
-
-	^ category

@@ -1,0 +1,1 @@
+intializeWithDefinition: aDefinition	definition := aDefinition

@@ -1,4 +1,0 @@
-initialize
-buildTextMorph
-
-	^ PluggableTextMorph new

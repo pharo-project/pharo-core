@@ -1,5 +1,0 @@
-PharoKernel
-shrinkToKernel
-
-	self shrinkToKernelWith: #().
-	

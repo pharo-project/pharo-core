@@ -1,0 +1,1 @@
+keystrokeActionSelector: aSymbol	keystrokeActionSelector := aSymbol

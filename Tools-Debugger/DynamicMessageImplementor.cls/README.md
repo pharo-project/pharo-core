@@ -1,0 +1,1 @@
+A DynamicMessageImplementor is xxxxxxxxx.Instance Variables	argumentNames:		<Object>	class:		<Object>	message:		<Object>	stream:		<Object>argumentNames	- xxxxxclass	- xxxxxmessage	- xxxxxstream	- xxxxx

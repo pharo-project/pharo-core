@@ -1,3 +1,0 @@
-private
-randomForPicking
-	^ RandomForPicking

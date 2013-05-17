@@ -1,6 +1,0 @@
-initialize-release
-removeTestPackageModel
-
-	^ removeTestPackageModel
-	
-	

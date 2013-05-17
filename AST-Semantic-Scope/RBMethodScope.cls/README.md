@@ -1,0 +1,1 @@
+A RBMethodScope is xxxxxxxxx.Instance Variables

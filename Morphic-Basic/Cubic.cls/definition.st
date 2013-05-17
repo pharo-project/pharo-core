@@ -1,0 +1,1 @@
+Array variableSubclass: #Cubic	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Morphic-Basic'

@@ -1,3 +1,0 @@
-accessing
-secondSelection
-	^ secondSelection contents

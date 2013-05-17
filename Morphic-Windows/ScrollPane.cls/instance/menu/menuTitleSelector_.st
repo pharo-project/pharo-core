@@ -1,0 +1,1 @@
+menuTitleSelector: aSelector	getMenuTitleSelector := aSelector

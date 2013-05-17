@@ -1,0 +1,1 @@
+metaclassClass	^RGMetaclassDefinition

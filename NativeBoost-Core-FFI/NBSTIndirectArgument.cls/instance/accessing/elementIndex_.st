@@ -1,0 +1,1 @@
+elementIndex: anObject	elementIndex := anObject

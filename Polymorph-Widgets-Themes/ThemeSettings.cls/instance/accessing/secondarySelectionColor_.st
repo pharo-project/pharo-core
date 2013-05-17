@@ -1,0 +1,1 @@
+secondarySelectionColor: anColor	secondarySelectionColor := anColor

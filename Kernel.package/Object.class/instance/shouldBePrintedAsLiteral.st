@@ -1,4 +1,0 @@
-testing
-shouldBePrintedAsLiteral
-
-	^self isLiteral

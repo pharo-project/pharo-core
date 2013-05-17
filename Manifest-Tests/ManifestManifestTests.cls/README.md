@@ -1,0 +1,1 @@
+A ManifestManifestTests is xxxxxxxxx.Instance Variables

@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"keymapEventBuilderClass" : "CamilloBruni 3/18/2011 23:11" },
-	"instance" : {
-		"assertExecutionOnClass:attachingTo:" : "ThierryGoubier 9/19/2012 16:56",
-		"keymapContainer" : "DeboraFortini 12/13/2011 17:23",
-		"testExecute" : "DeboraFortini 12/13/2011 17:33",
-		"testExecuteForSubclass" : "DeboraFortini 12/13/2011 17:33",
-		"testMatching" : "CamilloBruni 3/20/2011 23:31" } }

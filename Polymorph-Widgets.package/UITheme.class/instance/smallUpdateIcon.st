@@ -1,3 +1,0 @@
-icons
-smallUpdateIcon
-	^ ThemeIcons smallUpdateIcon

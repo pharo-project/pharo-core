@@ -1,0 +1,1 @@
+subclassDefinerClass	^nil subclassDefinerClass 

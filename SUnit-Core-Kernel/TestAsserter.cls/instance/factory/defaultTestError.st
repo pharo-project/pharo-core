@@ -1,0 +1,1 @@
+defaultTestError	^ self classForTestResult error

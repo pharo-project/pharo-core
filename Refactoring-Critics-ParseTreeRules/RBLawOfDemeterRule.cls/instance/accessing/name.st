@@ -1,0 +1,1 @@
+name	^ 'Law of demeter'

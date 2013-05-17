@@ -1,0 +1,1 @@
+setFontsToMedium	self setFontsToStyleNamed: #medium

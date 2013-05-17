@@ -1,0 +1,1 @@
+printAsOperandOn: aStream	^ self printOn: aStream 

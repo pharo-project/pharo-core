@@ -1,0 +1,1 @@
+haloFontStyleIcon	^ ThemeIcons haloFontStyleIcon

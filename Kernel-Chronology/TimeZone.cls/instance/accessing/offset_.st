@@ -1,0 +1,1 @@
+offset: aDuration	offset := aDuration

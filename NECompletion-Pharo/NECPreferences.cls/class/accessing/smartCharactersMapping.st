@@ -1,0 +1,1 @@
+smartCharactersMapping	^ smartCharactersMapping

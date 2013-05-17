@@ -1,0 +1,1 @@
+categoryName: anObject		categoryName := anObject

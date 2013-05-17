@@ -1,0 +1,1 @@
+accept: aProgramNodeVisitor 	^aProgramNodeVisitor visitLiteralArrayNode: self

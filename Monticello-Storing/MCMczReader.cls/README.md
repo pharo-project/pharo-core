@@ -1,0 +1,1 @@
+A MCMczReader is xxxxxxxxx.Instance Variables	infoCache:		<Object>	zip:		<Object>infoCache	- xxxxxzip	- xxxxx

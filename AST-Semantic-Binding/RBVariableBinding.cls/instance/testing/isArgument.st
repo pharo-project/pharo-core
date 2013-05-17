@@ -1,0 +1,1 @@
+isArgument	^ self isArgumentBinding

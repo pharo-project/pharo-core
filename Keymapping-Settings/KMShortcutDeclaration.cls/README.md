@@ -1,0 +1,1 @@
+A KMShortcutDeclaration is xxxxxxxxx.Instance Variables	categoryName:		<Object>	declaration:		<Object>	shortcutName:		<Object>categoryName	- xxxxxdeclaration	- xxxxxshortcutName	- xxxxx

@@ -1,0 +1,1 @@
+classVariable: aBoolean 	classVariable := aBoolean

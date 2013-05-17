@@ -1,0 +1,1 @@
+mainType	^self mimeType main

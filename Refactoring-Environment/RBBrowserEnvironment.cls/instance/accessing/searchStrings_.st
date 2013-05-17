@@ -1,0 +1,1 @@
+searchStrings: aCollection 	searchStrings := aCollection

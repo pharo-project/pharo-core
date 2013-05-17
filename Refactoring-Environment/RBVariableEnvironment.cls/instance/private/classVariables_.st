@@ -1,0 +1,1 @@
+classVariables: anObject	classVariables := anObject

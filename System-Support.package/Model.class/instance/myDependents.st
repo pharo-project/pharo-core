@@ -1,3 +1,0 @@
-dependents
-myDependents
-	^ dependents

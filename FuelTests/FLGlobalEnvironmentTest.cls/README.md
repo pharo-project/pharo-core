@@ -1,0 +1,1 @@
+A FLGlobalEnvironmentTest is xxxxxxxxx.Instance Variables	materializationEnvironment:		<Object>	serializationEnvironment:		<Object>materializationEnvironment	- xxxxxserializationEnvironment	- xxxxx

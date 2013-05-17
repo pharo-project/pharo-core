@@ -1,3 +1,0 @@
-icons
-smallForwardIcon
-	^ ThemeIcons smallForwardIcon

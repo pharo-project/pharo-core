@@ -1,0 +1,1 @@
+A NBWeakFinalizerItem is xxxxxxxxx.Instance Variables	index:		<Object>index	- xxxxx

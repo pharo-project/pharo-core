@@ -1,0 +1,1 @@
+anotherValue	^ 66

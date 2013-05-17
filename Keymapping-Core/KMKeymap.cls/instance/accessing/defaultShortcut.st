@@ -1,0 +1,1 @@
+defaultShortcut	^defaultShortcut

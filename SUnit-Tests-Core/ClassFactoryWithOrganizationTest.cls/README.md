@@ -1,0 +1,1 @@
+A ClassFactoryWithOrganizationTest is xxxxxxxxx.Instance Variables	factory:		<Object>factory	- xxxxx

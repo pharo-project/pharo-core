@@ -1,0 +1,1 @@
+hasSubmorphs	^submorphs notEmpty

@@ -1,0 +1,1 @@
+privAccumulator: collection	accumulator := collection

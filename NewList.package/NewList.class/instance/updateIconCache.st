@@ -1,4 +1,0 @@
-updating
-updateIconCache
-
-	self invalidateIconCache

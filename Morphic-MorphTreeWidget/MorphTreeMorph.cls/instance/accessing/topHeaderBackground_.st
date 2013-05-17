@@ -1,0 +1,1 @@
+topHeaderBackground: aFillStyle	topHeaderBackground := aFillStyle

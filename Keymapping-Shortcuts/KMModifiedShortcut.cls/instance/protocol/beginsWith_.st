@@ -1,0 +1,1 @@
+beginsWith: aKMShortcut 	^ self = aKMShortcut 

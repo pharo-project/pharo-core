@@ -1,0 +1,1 @@
+label	^ 'local variable'

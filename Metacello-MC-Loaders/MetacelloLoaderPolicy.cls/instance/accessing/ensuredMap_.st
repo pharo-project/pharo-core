@@ -1,0 +1,1 @@
+ensuredMap: anObject	ensuredMap := anObject

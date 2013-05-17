@@ -1,0 +1,1 @@
+acceptMethodNode: aMethodNode 	self formatMethodPatternFor: aMethodNode.	self formatMethodBodyFor: aMethodNode

@@ -1,4 +1,0 @@
-polymorphism
-blocks
-
-	^ { [ self elements ] }

@@ -1,0 +1,1 @@
+valuesAndCounts	^ contents

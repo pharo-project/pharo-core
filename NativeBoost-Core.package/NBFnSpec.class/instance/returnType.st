@@ -1,4 +1,0 @@
-accessing
-returnType
-
-	^ returnType

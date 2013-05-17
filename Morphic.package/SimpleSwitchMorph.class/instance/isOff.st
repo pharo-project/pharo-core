@@ -1,3 +1,0 @@
-switching
-isOff
-	^ color ~= onColor

@@ -1,0 +1,1 @@
+newLinesAfterMethodComment	^ NewLinesAfterMethodComment

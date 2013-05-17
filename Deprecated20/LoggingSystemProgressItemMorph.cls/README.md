@@ -1,0 +1,1 @@
+A LoggingSystemProgressItemMorph is xxxxxxxxx.Instance Variables	end:		<Object>	start:		<Object>end	- xxxxxstart	- xxxxx

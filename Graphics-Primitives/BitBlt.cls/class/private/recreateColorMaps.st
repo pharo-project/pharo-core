@@ -1,0 +1,1 @@
+recreateColorMaps	CachedFontColorMaps := ColorConvertingMaps := nil

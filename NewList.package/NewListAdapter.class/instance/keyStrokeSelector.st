@@ -1,4 +1,0 @@
-accessing
-keyStrokeSelector
-	
-	^ keyStrokeSelector contents

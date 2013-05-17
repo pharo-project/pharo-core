@@ -1,0 +1,1 @@
+assignment: anInteger	assignment := anInteger

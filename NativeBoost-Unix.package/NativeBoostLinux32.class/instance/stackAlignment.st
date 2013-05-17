@@ -1,4 +1,0 @@
-accessing
-stackAlignment
-
-	^ 1

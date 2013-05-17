@@ -1,0 +1,1 @@
+sourceCodePragma	^ 'nautilusGlobalSourceCodeMenu'

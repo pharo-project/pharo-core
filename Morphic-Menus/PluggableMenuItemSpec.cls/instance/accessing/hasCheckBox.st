@@ -1,0 +1,1 @@
+hasCheckBox		^ checked notNil

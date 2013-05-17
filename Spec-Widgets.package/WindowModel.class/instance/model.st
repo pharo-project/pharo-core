@@ -1,4 +1,0 @@
-morphic
-model
-	
-	^ model contents

@@ -1,0 +1,1 @@
+lastIsReturn	^self isReturn

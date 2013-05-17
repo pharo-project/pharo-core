@@ -1,0 +1,1 @@
+status: aSataneouStatusString	status := aSataneouStatusString

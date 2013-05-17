@@ -1,0 +1,1 @@
+registerToAnnouncements	self 		registerToClassAnnouncements;		registerToMethodAnnouncements

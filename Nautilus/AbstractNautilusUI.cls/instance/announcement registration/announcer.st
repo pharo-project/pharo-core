@@ -1,0 +1,1 @@
+announcer	^ self model announcer

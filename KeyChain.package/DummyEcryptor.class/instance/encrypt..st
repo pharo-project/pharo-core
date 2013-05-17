@@ -1,4 +1,0 @@
-protocol
-encrypt: aString
-
-	^ aString

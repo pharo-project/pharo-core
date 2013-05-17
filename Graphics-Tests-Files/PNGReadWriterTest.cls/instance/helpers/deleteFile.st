@@ -1,0 +1,1 @@
+deleteFile	fileName asFileReference delete

@@ -1,0 +1,1 @@
+b	self haltIf: #testHaltIf.

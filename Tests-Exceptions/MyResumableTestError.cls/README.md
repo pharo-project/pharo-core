@@ -1,0 +1,1 @@
+A MyResumableTestError is xxxxxxxxx.Instance Variables

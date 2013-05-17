@@ -1,0 +1,1 @@
+isClassDefinition	^ true

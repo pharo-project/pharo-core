@@ -1,0 +1,1 @@
+A ZnLimitedReadStreamTests is xxxxxxxxx.Instance Variables

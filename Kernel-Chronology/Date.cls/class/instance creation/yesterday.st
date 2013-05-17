@@ -1,0 +1,1 @@
+yesterday	^ self today previous

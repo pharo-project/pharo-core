@@ -1,3 +1,0 @@
-testing
-hasDefinition
-	^definition notNil

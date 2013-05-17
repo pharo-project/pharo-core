@@ -1,0 +1,1 @@
+MultiDisplayScanner subclass: #EncryptedMultiDisplayScanner	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: 'TextConstants'	category: 'Text-Scanning'

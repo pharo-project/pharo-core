@@ -1,0 +1,1 @@
+chooseBalloonFont	self chooseStandardFont: #balloonFont

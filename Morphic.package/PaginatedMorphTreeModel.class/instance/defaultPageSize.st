@@ -1,3 +1,0 @@
-pager managing
-defaultPageSize
-	^ nil

@@ -1,0 +1,1 @@
+A KMCategoryTest is xxxxxxxxx.Instance Variables	categoryContainer:		<Object>categoryContainer	- xxxxx

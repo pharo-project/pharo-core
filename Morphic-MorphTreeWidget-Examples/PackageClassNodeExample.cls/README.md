@@ -1,0 +1,1 @@
+A PackageClassNodeExample is xxxxxxxxx.Instance Variables

@@ -1,0 +1,1 @@
+smallQuitIcon	^ ThemeIcons smallQuitIcon

@@ -1,0 +1,1 @@
+A MetacelloPackageSpec is xxxxxxxxx.Instance Variables	file:		<Object>	goferPackage:		<Object>	postLoadDoIt:		<Object>	preLoadDoIt:		<Object>	repositories:		<Object>file	- xxxxxgoferPackage	- xxxxxpostLoadDoIt	- xxxxxpreLoadDoIt	- xxxxxrepositories	- xxxxx

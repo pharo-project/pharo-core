@@ -1,4 +1,0 @@
-utilities
-classInXSubcategoryName
-
-	^#ClassInXSubcategory

@@ -1,0 +1,1 @@
+alwaysShowHScrollbar	^ false

@@ -1,3 +1,0 @@
-testing
-isGeneralPurpose
-	^ false

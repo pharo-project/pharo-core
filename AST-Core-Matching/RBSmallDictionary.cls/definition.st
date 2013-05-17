@@ -1,0 +1,1 @@
+Object subclass: #RBSmallDictionary	instanceVariableNames: 'keys values tally'	classVariableNames: ''	poolDictionaries: ''	category: 'AST-Core-Matching'

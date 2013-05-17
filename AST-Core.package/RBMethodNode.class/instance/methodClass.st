@@ -1,3 +1,0 @@
-accessing
-methodClass
-	^classBinding value

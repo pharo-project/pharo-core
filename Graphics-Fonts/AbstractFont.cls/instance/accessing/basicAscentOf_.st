@@ -1,0 +1,1 @@
+basicAscentOf: aCharacter	^ self ascent.

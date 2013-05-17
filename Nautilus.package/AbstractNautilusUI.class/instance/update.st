@@ -1,4 +1,0 @@
-protocol
-update
-	
-	self subclassResponsibility 

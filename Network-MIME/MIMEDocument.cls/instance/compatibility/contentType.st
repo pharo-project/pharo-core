@@ -1,0 +1,1 @@
+contentType	^self mimeType asString

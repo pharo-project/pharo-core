@@ -1,0 +1,1 @@
+childNodeClassFromItem: anItem	^PackageMethodCategoryNodeExample

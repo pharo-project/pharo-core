@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"checkDynamic:" : "mvl 3/13/2007 14:13",
-		"checkLocal:" : "mvl 3/13/2007 14:13",
-		"testDynamicVariable" : "mvl 3/13/2007 15:02",
-		"testDynamicVariableBlockReturnValue" : "SvenVanCaekenberghe 12/3/2012 21:52",
-		"testLocalVariable" : "mvl 3/13/2007 15:03" } }

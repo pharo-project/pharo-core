@@ -1,0 +1,1 @@
+trimmed	^ self trimBoth

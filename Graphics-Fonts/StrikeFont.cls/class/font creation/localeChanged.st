@@ -1,0 +1,1 @@
+localeChanged	self setupDefaultFallbackFont

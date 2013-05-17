@@ -1,4 +1,0 @@
-accessing
-selectedIndex
-
-	^ selectedIndex contents

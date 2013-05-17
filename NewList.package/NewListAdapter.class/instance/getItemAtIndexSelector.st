@@ -1,4 +1,0 @@
-accessing
-getItemAtIndexSelector
-
-	^ getItemAtIndexSelector contents

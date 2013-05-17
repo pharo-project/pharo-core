@@ -1,4 +1,0 @@
-protocol
-askBeforeChanging
-
-	^ askBeforeChangingHolder contents

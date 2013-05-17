@@ -1,0 +1,1 @@
+getThisSessionID		^ self simpleCall

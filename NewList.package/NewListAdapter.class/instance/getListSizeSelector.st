@@ -1,4 +1,0 @@
-accessing
-getListSizeSelector
-
-	^ getListSizeSelector contents

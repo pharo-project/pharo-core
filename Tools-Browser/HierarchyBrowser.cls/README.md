@@ -1,0 +1,1 @@
+A HierarchyBrowser is xxxxxxxxx.Instance Variables	centralClass:		<Object>	classList:		<Object>centralClass	- xxxxxclassList	- xxxxx

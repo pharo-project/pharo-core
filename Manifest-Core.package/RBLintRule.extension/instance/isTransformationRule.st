@@ -1,4 +1,0 @@
-*Manifest-Core
-isTransformationRule
-
-	^ false 

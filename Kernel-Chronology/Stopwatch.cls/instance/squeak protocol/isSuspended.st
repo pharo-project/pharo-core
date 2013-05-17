@@ -1,0 +1,1 @@
+isSuspended	^ self state = #suspended

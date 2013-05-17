@@ -1,0 +1,1 @@
+classFixPragma	^'nautilusGlobalClassFixMenu'

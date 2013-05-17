@@ -1,0 +1,1 @@
+acceptSelfNode: aSelfNode	^ self acceptVariableNode: aSelfNode

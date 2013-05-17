@@ -1,0 +1,1 @@
+isBaseTrait	^true

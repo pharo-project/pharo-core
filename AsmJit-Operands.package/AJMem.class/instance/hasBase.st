@@ -1,3 +1,0 @@
-testing
-hasBase
-	^ base notNil

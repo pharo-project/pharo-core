@@ -1,0 +1,1 @@
+classBinding: anAssociation	classBinding := anAssociation.

@@ -1,0 +1,1 @@
+A RBSmalllintChecker is xxxxxxxxx.Instance Variables	context:		<Object>	environment:		<Object>	methodBlock:		<Object>	rule:		<Object>context	- xxxxxenvironment	- xxxxxmethodBlock	- xxxxxrule	- xxxxx

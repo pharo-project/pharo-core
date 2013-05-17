@@ -1,0 +1,1 @@
+MCTool subclass: #MCCodeTool	instanceVariableNames: 'items'	classVariableNames: 'ShowAnnotationPane'	poolDictionaries: ''	category: 'MonticelloGUI'

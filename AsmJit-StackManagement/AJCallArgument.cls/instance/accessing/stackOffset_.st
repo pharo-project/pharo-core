@@ -1,0 +1,1 @@
+stackOffset: anOffset	stackOffset := anOffset 

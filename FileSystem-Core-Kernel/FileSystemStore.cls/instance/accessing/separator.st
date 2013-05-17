@@ -1,0 +1,1 @@
+separator	^ self class separator

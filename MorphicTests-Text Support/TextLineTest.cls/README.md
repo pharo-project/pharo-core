@@ -1,0 +1,1 @@
+A TextLineTest is xxxxxxxxx.Instance Variables

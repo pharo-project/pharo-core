@@ -1,0 +1,1 @@
+defaultBindings	^ MorphicBindings new

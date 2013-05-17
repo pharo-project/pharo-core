@@ -1,0 +1,1 @@
+itemHalfOffSet	^ self listSource itemHalfOffSet

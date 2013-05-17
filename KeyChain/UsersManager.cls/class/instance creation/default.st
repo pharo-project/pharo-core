@@ -1,0 +1,1 @@
+default	^ DefaultUserManager ifNil: [ DefaultUserManager := self new ]

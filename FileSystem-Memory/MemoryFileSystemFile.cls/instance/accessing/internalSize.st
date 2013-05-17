@@ -1,0 +1,1 @@
+internalSize	^ bytes size

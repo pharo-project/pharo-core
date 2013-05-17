@@ -1,0 +1,1 @@
+A RBUnderscoreAssignmentRule is xxxxxxxxx.Instance Variables

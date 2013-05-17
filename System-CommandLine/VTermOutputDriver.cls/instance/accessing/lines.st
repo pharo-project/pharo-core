@@ -1,0 +1,1 @@
+lines	^ termcap getnum: 'li'

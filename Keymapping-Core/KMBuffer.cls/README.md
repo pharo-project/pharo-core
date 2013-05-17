@@ -1,0 +1,1 @@
+A KMBuffer is xxxxxxxxx.Instance Variables	buffer:		<Object>	currentEvent:		<Object>buffer	- xxxxxcurrentEvent	- xxxxx

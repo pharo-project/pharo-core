@@ -1,3 +1,0 @@
-testing
-isAnonymous
-	^thisClass isAnonymous 

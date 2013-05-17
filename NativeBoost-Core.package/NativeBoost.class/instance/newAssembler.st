@@ -1,4 +1,0 @@
-accessing
-newAssembler
-
-	self subclassResponsibility 

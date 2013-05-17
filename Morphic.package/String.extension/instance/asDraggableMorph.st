@@ -1,4 +1,0 @@
-*Morphic
-asDraggableMorph
-
-	^ self asStringMorph

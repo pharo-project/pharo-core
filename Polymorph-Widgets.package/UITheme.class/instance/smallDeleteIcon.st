@@ -1,3 +1,0 @@
-icons
-smallDeleteIcon
-	^ ThemeIcons smallDeleteIcon

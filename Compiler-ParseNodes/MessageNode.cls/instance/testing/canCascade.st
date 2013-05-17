@@ -1,0 +1,1 @@
+canCascade	^receiver ~~ NodeSuper

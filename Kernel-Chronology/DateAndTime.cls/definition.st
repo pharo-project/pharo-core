@@ -1,0 +1,1 @@
+Magnitude subclass: #DateAndTime	instanceVariableNames: 'seconds offset julianDayNumber nanos'	classVariableNames: 'ClockProvider DaysSinceEpoch LastMilliSeconds LastTick LastTickSemaphore LocalTimeZone MilliSecondOffset OffsetsAreValid'	poolDictionaries: 'ChronologyConstants'	category: 'Kernel-Chronology'

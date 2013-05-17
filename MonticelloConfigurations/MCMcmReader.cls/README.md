@@ -1,0 +1,1 @@
+A MCMcmReader is xxxxxxxxx.Instance Variables	configuration:		<Object>	fileName:		<Object>configuration	- xxxxxfileName	- xxxxx

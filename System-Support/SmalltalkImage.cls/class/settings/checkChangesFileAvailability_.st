@@ -1,0 +1,1 @@
+checkChangesFileAvailability: aBoolean	CheckChangesFileAvailability := aBoolean

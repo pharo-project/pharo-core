@@ -1,0 +1,1 @@
+defaultBrowserTitle	^ 'System Browser'

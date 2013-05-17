@@ -1,3 +1,0 @@
-combination
-platform
-	^#all

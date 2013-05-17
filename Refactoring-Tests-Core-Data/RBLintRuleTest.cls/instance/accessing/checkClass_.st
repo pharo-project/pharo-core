@@ -1,0 +1,1 @@
+checkClass: aSmalllintContext

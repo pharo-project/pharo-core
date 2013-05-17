@@ -1,0 +1,1 @@
+A MetacelloMCVersionSpec is xxxxxxxxx.Instance Variables	packages:		<Object>	repositories:		<Object>packages	- xxxxxrepositories	- xxxxx

@@ -1,0 +1,1 @@
+<< aString	self show: aString

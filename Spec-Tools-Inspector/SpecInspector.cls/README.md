@@ -1,0 +1,1 @@
+A SpecInspector is xxxxxxxxx.Instance Variables	description:		<Object>	extra:		<Object>	list:		<Object>	object:		<Object>	text:		<Object>	windowWidth:		<Object>description	- xxxxxextra	- xxxxxlist	- xxxxxobject	- xxxxxtext	- xxxxxwindowWidth	- xxxxx

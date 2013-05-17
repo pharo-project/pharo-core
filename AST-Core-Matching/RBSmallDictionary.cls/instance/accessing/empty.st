@@ -1,0 +1,1 @@
+empty	tally := 0

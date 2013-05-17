@@ -1,8 +1,0 @@
-{
-	"class" : {
-		"initialize" : "" },
-	"instance" : {
-		"initialize" : "",
-		"testIt:" : "",
-		"toBeOverriden:" : "",
-		"toBeOverridenWithReturn" : "" } }

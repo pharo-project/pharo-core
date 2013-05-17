@@ -1,0 +1,1 @@
+A MCMergingTest is xxxxxxxxx.Instance Variables	conflictBlock:		<Object>	conflicts:		<Object>conflictBlock	- xxxxxconflicts	- xxxxx

@@ -1,4 +1,0 @@
-private
-pickedChanges
-
-	^ pickList selectedItems

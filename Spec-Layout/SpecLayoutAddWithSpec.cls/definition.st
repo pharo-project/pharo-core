@@ -1,0 +1,1 @@
+SpecLayoutSend subclass: #SpecLayoutAddWithSpec	instanceVariableNames: 'layoutFrame subwidget'	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Layout'

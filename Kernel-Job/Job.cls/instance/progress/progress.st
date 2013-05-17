@@ -1,0 +1,1 @@
+progress	^ (currentValue - min) / (max - min)

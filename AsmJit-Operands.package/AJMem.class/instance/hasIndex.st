@@ -1,3 +1,0 @@
-testing
-hasIndex
-	^ index notNil

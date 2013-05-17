@@ -1,0 +1,1 @@
+sortingSelector: anObject	sortingSelector := anObject.

@@ -1,0 +1,1 @@
+hashStream: aStream	^ self subclassResponsibility

@@ -1,0 +1,1 @@
+isoLocale: aString	

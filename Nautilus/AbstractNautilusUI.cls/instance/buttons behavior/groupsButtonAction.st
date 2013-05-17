@@ -1,0 +1,1 @@
+groupsButtonAction	self toggleShowGroups

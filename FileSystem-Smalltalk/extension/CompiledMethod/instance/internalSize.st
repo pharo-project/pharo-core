@@ -1,0 +1,1 @@
+internalSize	^ self getSource byteSize

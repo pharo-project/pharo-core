@@ -1,0 +1,1 @@
+hasStyleName	^super styleName notNil

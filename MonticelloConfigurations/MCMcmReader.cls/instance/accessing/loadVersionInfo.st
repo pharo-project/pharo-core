@@ -1,0 +1,1 @@
+loadVersionInfo	info := self configuration

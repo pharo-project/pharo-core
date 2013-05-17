@@ -1,0 +1,1 @@
+newLinesAfterMethodPattern: anInteger	NewLinesAfterMethodPattern := anInteger

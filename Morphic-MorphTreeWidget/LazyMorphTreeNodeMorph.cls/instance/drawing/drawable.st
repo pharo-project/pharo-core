@@ -1,0 +1,1 @@
+drawable	^ drawable ifNil: [false]

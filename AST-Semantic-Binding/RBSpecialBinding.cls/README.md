@@ -1,0 +1,1 @@
+A RBSpecialBinding is xxxxxxxxx.Instance Variables

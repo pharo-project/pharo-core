@@ -1,0 +1,1 @@
+responseIsWarning	self subclassResponsibility

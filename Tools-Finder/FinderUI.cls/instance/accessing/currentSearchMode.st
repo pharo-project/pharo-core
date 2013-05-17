@@ -1,0 +1,1 @@
+currentSearchMode	^self finder currentSearchMode

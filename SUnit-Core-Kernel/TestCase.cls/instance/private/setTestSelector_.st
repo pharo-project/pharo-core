@@ -1,0 +1,1 @@
+setTestSelector: aSymbol	testSelector := aSymbol

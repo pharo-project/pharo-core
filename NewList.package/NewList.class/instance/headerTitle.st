@@ -1,3 +1,0 @@
-accessing
-headerTitle
-	^ headerTitle contents

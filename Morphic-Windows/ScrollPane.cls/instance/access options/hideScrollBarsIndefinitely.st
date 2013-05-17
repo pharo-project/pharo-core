@@ -1,0 +1,1 @@
+hideScrollBarsIndefinitely	self hideScrollBarsIndefinitely: true

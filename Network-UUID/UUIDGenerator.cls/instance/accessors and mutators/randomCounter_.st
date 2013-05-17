@@ -1,0 +1,1 @@
+randomCounter: aNumber	randomCounter := aNumber

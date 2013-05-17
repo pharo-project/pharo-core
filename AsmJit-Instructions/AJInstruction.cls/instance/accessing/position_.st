@@ -1,0 +1,1 @@
+position: anObject	position := anObject

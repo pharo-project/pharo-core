@@ -1,3 +1,0 @@
-mocking
-changeMock
-	^ RBRefactoringChangeMock

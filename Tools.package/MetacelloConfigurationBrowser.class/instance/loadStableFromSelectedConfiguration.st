@@ -1,3 +1,0 @@
-actions
-loadStableFromSelectedConfiguration
-	self loadConfigurationWithStable: true

@@ -1,0 +1,1 @@
+resolveProjectSpec	^self projectReference

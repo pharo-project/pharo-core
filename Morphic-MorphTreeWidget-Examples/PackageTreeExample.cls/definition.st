@@ -1,0 +1,1 @@
+MorphTreeModel subclass: #PackageTreeExample	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Morphic-MorphTreeWidget-Examples'

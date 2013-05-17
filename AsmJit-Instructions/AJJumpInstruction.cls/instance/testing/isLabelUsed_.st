@@ -1,0 +1,1 @@
+isLabelUsed: anAJJumpLabel	^ label = anAJJumpLabel 

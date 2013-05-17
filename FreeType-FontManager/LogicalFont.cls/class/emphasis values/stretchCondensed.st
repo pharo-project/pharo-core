@@ -1,0 +1,1 @@
+stretchCondensed	^3

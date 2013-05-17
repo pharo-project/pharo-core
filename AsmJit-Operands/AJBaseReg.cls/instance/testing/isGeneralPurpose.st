@@ -1,0 +1,1 @@
+isGeneralPurpose	self subclassResponsibility 

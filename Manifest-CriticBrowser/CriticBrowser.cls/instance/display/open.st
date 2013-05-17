@@ -1,0 +1,1 @@
+open	window := self openWithSpec.	^ window.

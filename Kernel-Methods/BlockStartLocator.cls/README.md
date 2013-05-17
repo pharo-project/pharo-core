@@ -1,0 +1,1 @@
+A BlockStartLocator is xxxxxxxxx.Instance Variables	nextJumpIsAroundBlock:		<Object>nextJumpIsAroundBlock	- xxxxx

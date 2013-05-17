@@ -1,0 +1,1 @@
+resetClassesIconsCache	ClassesIconsCache removeAll.

@@ -1,0 +1,1 @@
+TestCase subclass: #AndreasSystemProfilerTest	instanceVariableNames: 'tally'	classVariableNames: ''	poolDictionaries: ''	category: 'AndreasProfiler'

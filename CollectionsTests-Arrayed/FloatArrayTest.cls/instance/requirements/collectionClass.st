@@ -1,0 +1,1 @@
+collectionClass 		^ FloatArray

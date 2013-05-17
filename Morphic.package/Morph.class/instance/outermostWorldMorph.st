@@ -1,4 +1,0 @@
-structure
-outermostWorldMorph
-
-	^World.

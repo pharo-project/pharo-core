@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"abstractReferences" : "lr 11/2/2009 00:14",
-		"accessorsRefactoring" : "lr 9/8/2011 20:11",
-		"createAccessors" : "",
-		"preconditions" : "",
-		"transform" : "" } }

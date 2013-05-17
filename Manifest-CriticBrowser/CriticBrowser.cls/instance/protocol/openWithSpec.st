@@ -1,0 +1,1 @@
+openWithSpec	window := super openWithSpec.	^ window.

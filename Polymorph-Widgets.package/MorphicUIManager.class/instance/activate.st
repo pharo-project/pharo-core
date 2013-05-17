@@ -1,4 +1,0 @@
-private
-activate
-
-	SystemProgressMorph enable.

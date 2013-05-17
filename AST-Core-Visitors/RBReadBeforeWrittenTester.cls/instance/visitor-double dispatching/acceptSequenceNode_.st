@@ -1,0 +1,1 @@
+acceptSequenceNode: aSequenceNode 	self processStatementNode: aSequenceNode

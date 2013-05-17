@@ -1,0 +1,1 @@
+splitterWidth	^ 4

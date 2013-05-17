@@ -1,0 +1,1 @@
+textMorph: aMorph	textMorph := aMorph

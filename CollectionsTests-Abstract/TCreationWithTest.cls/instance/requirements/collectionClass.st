@@ -1,0 +1,1 @@
+collectionClass 		^ self explicitRequirement

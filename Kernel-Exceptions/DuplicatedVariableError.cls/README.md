@@ -1,0 +1,1 @@
+A DuplicatedVariableError is xxxxxxxxx.Instance Variables	superclass:		<Object>	variable:		<Object>superclass	- xxxxxvariable	- xxxxx

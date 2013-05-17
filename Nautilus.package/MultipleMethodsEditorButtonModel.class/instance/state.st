@@ -1,4 +1,0 @@
-protocol
-state
-
-	^ state

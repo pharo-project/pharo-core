@@ -1,0 +1,1 @@
+retrieveMIMEDocument: aURI	self subclassResponsibility

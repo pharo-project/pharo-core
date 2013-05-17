@@ -1,0 +1,1 @@
+RectangleMorph subclass: #ProgressBarMorph	instanceVariableNames: 'start end value height width'	classVariableNames: 'DefaultHeight DefaultWidth'	poolDictionaries: ''	category: 'Morphic-ProgressBar'

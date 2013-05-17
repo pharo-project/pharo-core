@@ -1,0 +1,1 @@
+diffServerRootString	^  'http://ss3.gemstone.com/ss/Pharo30/'

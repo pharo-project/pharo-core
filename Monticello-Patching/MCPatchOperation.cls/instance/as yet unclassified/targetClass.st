@@ -1,0 +1,1 @@
+targetClass	self subclassResponsibility.

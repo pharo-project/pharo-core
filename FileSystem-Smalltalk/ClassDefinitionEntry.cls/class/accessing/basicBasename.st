@@ -1,0 +1,1 @@
+basicBasename	^ 'definition.st'

@@ -1,0 +1,1 @@
+Object subclass: #RBRefactoringChangeMock	instanceVariableNames: 'instVar'	classVariableNames: 'ClassVar'	poolDictionaries: ''	category: 'Refactoring-Tests-Changes'

@@ -1,0 +1,1 @@
+A NBExternalUnionFields is xxxxxxxxx.Instance Variables	nbFields:		<Object>nbFields	- xxxxx

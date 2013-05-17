@@ -1,4 +1,0 @@
-accessing
-testResult
-
-	^ testResult

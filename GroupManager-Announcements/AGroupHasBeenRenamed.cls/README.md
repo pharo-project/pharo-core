@@ -1,0 +1,1 @@
+An AGroupHasBeenRenamed is xxxxxxxxx.Instance Variables

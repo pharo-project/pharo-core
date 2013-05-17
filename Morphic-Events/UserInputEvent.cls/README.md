@@ -1,0 +1,1 @@
+An UserInputEvent is xxxxxxxxx.Instance Variables	buttons:		<Object>	handler:		<Object>	position:		<Object>	type:		<Object>	wasHandled:		<Object>buttons	- xxxxxhandler	- xxxxxposition	- xxxxxtype	- xxxxxwasHandled	- xxxxx

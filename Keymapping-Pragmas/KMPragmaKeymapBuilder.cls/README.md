@@ -1,0 +1,1 @@
+A KMPragmaKeymapBuilder is xxxxxxxxx.Instance Variables	model:		<Object>	pragmaCollector:		<Object>	pragmaKeywords:		<Object>model	- xxxxxpragmaCollector	- xxxxxpragmaKeywords	- xxxxx

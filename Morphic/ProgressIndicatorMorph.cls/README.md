@@ -1,0 +1,1 @@
+A ProgressIndicatorMorph is xxxxxxxxx.Instance Variables

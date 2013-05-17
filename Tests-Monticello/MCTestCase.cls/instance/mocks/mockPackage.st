@@ -1,0 +1,1 @@
+mockPackage	^ MCSnapshotResource mockPackage

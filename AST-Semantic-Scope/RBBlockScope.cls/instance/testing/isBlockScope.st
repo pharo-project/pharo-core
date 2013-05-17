@@ -1,0 +1,1 @@
+isBlockScope	^ true

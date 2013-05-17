@@ -1,0 +1,1 @@
+defaultYellowButtonMenuEnabled: aBoolean	DefaultYellowButtonMenuEnabled := aBoolean

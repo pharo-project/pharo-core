@@ -1,0 +1,1 @@
+isLoadable	^self actualClass notNil

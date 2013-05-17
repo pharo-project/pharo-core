@@ -1,4 +1,0 @@
-action
-removeMe
-	
-	^self subclassResponsibility

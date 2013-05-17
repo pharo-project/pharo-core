@@ -1,3 +1,0 @@
-accessing
-hash
-	^pointSize hash

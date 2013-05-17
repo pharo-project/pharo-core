@@ -1,4 +1,0 @@
-squeak protocol
-asWeek
-
-	^ self 

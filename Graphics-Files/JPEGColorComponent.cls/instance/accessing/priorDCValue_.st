@@ -1,0 +1,1 @@
+priorDCValue: aNumber 	priorDCValue := aNumber

@@ -1,0 +1,1 @@
+leadingChar	^ self shouldNotImplement

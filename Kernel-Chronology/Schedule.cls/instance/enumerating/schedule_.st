@@ -1,0 +1,1 @@
+schedule: anArrayOfDurations	schedule := anArrayOfDurations

@@ -1,3 +1,0 @@
-accessing
-pointerSize
-	^ 4

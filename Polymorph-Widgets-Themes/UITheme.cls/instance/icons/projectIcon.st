@@ -1,0 +1,1 @@
+projectIcon	^ ThemeIcons projectIcon

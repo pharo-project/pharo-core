@@ -1,3 +1,0 @@
-*Manifest-Core
-category 	
-	^ 'Optimization'

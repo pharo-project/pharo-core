@@ -1,0 +1,1 @@
+smallScreenshotIcon	^ ThemeIcons smallScreenshotIcon

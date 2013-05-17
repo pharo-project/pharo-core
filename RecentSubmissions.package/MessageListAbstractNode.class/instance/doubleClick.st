@@ -1,4 +1,0 @@
-overrided
-doubleClick
-
-	^self subclassResponsibility

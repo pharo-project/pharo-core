@@ -1,0 +1,1 @@
+An IllegalName is xxxxxxxxx.Instance Variables	name:		<Object>name	- xxxxx

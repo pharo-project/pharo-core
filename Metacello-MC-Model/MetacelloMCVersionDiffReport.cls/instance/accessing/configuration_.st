@@ -1,0 +1,1 @@
+configuration: anObject	configuration := anObject

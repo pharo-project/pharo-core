@@ -1,0 +1,1 @@
+type: anObject	type := anObject

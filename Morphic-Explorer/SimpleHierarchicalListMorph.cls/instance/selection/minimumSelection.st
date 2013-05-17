@@ -1,0 +1,1 @@
+minimumSelection	^ 1

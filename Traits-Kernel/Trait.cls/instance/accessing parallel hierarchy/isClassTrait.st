@@ -1,0 +1,1 @@
+isClassTrait	^false

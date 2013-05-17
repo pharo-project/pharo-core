@@ -1,0 +1,1 @@
+isEmpty	^ tally = 0

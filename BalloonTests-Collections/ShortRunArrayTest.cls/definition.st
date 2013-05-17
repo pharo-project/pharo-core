@@ -1,0 +1,1 @@
+TestCase subclass: #ShortRunArrayTest	instanceVariableNames: 'shortRunArray'	classVariableNames: ''	poolDictionaries: ''	category: 'BalloonTests-Collections'

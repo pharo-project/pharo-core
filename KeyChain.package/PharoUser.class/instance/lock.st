@@ -1,4 +1,0 @@
-protocol
-lock
-
-	^ keychain lock

@@ -1,0 +1,1 @@
+A MCStWriterTest is xxxxxxxxx.Instance Variables	stream:		<Object>	writer:		<Object>stream	- xxxxxwriter	- xxxxx

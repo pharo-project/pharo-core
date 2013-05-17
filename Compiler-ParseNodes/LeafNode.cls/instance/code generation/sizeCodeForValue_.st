@@ -1,0 +1,1 @@
+sizeCodeForValue: encoder	self subclassResponsibility

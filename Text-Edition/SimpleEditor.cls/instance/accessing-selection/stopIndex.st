@@ -1,0 +1,1 @@
+stopIndex	^ pointIndex max: markIndex

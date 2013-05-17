@@ -1,4 +1,0 @@
-converting
-asAJOperand
-	
-	^ operands first

@@ -1,5 +1,0 @@
-as yet unclassified
-disabledFillStyle
-	"Return the disabled fillStyle of the receiver."
-	
-	^self theme controlButtonDisabledFillStyleFor: self

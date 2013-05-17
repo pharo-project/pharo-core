@@ -1,0 +1,1 @@
+paintingIcon	^ ThemeIcons paintingIcon

@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"initialize" : "ar 8/4/2003 00:06",
-		"intoWorld:" : "ar 8/4/2003 00:03",
-		"intoWorldCount" : "ar 8/4/2003 00:06",
-		"outOfWorld:" : "ar 8/4/2003 00:03",
-		"outOfWorldCount" : "ar 8/4/2003 00:06" } }

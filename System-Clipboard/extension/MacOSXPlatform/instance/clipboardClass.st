@@ -1,0 +1,1 @@
+clipboardClass	^MacOSClipboard

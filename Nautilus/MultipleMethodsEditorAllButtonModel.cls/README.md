@@ -1,0 +1,1 @@
+A MultipleMethodsEditorAllButtonModel is xxxxxxxxx.Instance Variables	model:		<Object>	state:		<Object>model	- xxxxxstate	- xxxxx

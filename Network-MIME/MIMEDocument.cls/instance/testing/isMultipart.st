@@ -1,0 +1,1 @@
+isMultipart	^self mainType = 'multipart'

@@ -1,0 +1,1 @@
+asWeek	^ self asDateAndTime asWeek

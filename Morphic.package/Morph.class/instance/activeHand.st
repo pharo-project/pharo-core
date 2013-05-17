@@ -1,3 +1,0 @@
-structure
-activeHand
-	^ActiveHand

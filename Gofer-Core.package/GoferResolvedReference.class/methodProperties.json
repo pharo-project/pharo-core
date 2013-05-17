@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"name:repository:" : "lr 12/9/2009 22:55" },
-	"instance" : {
-		"<=" : "lr 3/5/2010 07:19",
-		"initializeName:repository:" : "lr 12/9/2009 22:55",
-		"merge" : "CamilloBruni 12/4/2012 19:29",
-		"repository" : "lr 12/11/2009 22:33",
-		"version" : "lr 12/13/2009 17:22" } }

@@ -1,0 +1,1 @@
+defaultMaxSize	^ NavigationHistory defaultMaxSize

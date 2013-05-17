@@ -1,4 +1,0 @@
-accessing
-getIndexesSelector
-
-	^ getIndexesSelector contents

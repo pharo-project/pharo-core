@@ -1,0 +1,1 @@
+isResponsibleFor: aCommandLineArguments	^ aCommandLineArguments includesSubCommand: self commandName

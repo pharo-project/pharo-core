@@ -1,4 +1,0 @@
-accessing
-displayList
-	
-	^ displayList

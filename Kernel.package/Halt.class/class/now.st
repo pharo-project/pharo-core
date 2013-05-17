@@ -1,4 +1,0 @@
-halting
-now
-
-	self signal.

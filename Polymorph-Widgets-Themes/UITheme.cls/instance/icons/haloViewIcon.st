@@ -1,0 +1,1 @@
+haloViewIcon	^ ThemeIcons haloViewIcon

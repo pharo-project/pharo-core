@@ -1,0 +1,1 @@
+allSubclassesKey	^#allSubclasses

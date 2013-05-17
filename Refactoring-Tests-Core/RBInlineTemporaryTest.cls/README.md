@@ -1,0 +1,1 @@
+A RBInlineTemporaryTest is xxxxxxxxx.Instance Variables

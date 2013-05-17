@@ -1,0 +1,1 @@
+activated: aBoolean	Activated := aBoolean

@@ -1,0 +1,1 @@
+A MockFinalizerAction is xxxxxxxxx.Instance Variables	finAction:		<Object>finAction	- xxxxx

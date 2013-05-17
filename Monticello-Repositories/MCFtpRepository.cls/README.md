@@ -1,0 +1,1 @@
+A MCFtpRepository is xxxxxxxxx.Instance Variables	connection:		<Object>	directory:		<Object>	host:		<Object>	password:		<Object>	user:		<Object>connection	- xxxxxdirectory	- xxxxxhost	- xxxxxpassword	- xxxxxuser	- xxxxx

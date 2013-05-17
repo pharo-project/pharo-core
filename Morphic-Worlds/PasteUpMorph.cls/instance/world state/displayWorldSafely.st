@@ -1,0 +1,1 @@
+displayWorldSafely	worldState displayWorldSafely: self.

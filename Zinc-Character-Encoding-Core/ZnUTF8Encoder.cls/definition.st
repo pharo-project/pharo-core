@@ -1,0 +1,1 @@
+ZnCharacterEncoder subclass: #ZnUTF8Encoder	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Zinc-Character-Encoding-Core'

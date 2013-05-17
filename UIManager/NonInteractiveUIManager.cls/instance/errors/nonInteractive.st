@@ -1,0 +1,1 @@
+nonInteractive	^ ErrorNonInteractive signal

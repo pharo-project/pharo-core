@@ -1,0 +1,1 @@
+RBOwnedScope subclass: #RBClassScope	instanceVariableNames: 'class'	classVariableNames: ''	poolDictionaries: ''	category: 'AST-Semantic-Scope'

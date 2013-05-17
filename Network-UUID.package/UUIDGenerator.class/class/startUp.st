@@ -1,3 +1,0 @@
-initialization
-startUp
-	Default := nil

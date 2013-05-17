@@ -1,3 +1,0 @@
-protocol
-keychainEditingWrapper
-	^ keychainEditingWrapper

@@ -1,0 +1,1 @@
+I am a folder entity for the Smalltalk FileSystem representing the list of extension methods on a class.

@@ -1,4 +1,0 @@
-updating
-invalidateIconCache
-
-	iconCache removeAll

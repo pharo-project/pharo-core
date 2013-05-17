@@ -1,0 +1,1 @@
+A MenuLineMorph is xxxxxxxxx.Instance Variables

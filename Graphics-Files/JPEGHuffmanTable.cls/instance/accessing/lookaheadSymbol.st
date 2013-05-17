@@ -1,0 +1,1 @@
+lookaheadSymbol	^lookaheadSymbol

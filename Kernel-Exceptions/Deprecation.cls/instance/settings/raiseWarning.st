@@ -1,0 +1,1 @@
+raiseWarning	^ self class raiseWarning

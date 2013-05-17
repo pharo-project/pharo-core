@@ -1,0 +1,1 @@
+Object subclass: #MetacelloConfigurationBrowser	instanceVariableNames: 'window selectedConfiguration trustedTree untrustedTree selectedRepository'	classVariableNames: ''	poolDictionaries: ''	category: 'Tools-ConfigurationBrowser'

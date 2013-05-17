@@ -1,0 +1,1 @@
+classNotFound	self changed: #flash.

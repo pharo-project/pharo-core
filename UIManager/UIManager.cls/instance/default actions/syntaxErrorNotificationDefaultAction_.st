@@ -1,0 +1,1 @@
+syntaxErrorNotificationDefaultAction: anException	^ self subclassResponsibility 

@@ -1,4 +1,0 @@
-accessing
-accepted
-
-	^ #Accepted

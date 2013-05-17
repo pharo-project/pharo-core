@@ -1,0 +1,1 @@
+newColor: anObject	newColor := anObject

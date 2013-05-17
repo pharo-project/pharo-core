@@ -1,0 +1,1 @@
+sequenceNodeClass	^ RBSequenceNode

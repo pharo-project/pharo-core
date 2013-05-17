@@ -1,0 +1,1 @@
+acceptVariableNode: aVariableNode 	codeStream nextPutAll: aVariableNode name

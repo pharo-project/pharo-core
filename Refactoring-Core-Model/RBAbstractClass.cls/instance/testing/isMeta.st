@@ -1,0 +1,1 @@
+isMeta	self subclassResponsibility

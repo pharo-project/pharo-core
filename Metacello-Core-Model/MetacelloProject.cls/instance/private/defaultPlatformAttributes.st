@@ -1,0 +1,1 @@
+defaultPlatformAttributes	^ MetacelloPlatform current defaultPlatformAttributes

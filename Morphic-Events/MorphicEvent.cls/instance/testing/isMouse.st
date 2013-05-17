@@ -1,0 +1,1 @@
+isMouse	^false

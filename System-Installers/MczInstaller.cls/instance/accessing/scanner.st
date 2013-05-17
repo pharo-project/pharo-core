@@ -1,0 +1,1 @@
+scanner	^ Scanner new

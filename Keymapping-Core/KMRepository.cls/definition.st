@@ -1,0 +1,1 @@
+Object subclass: #KMRepository	instanceVariableNames: 'categories categoryHolders'	classVariableNames: 'Singleton'	poolDictionaries: ''	category: 'Keymapping-Core'

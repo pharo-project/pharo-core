@@ -1,0 +1,1 @@
+smallExportIcon	^ ThemeIcons smallExportIcon

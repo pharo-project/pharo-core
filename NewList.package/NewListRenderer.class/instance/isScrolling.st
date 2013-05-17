@@ -1,4 +1,0 @@
-private
-isScrolling
-
-	^ self isStepping

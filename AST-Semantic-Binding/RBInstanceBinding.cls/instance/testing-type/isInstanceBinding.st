@@ -1,0 +1,1 @@
+isInstanceBinding	^ true

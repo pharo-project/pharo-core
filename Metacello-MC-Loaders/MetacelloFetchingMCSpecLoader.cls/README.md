@@ -1,0 +1,1 @@
+A MetacelloFetchingMCSpecLoader is xxxxxxxxx.Instance Variables

@@ -1,2 +1,0 @@
-visiting rb nodes
-acceptParseErrorNode: anErrorNode

@@ -1,0 +1,1 @@
+selectedMessageCategoryName	^protocolSelection

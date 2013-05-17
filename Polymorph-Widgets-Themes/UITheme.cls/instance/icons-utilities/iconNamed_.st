@@ -1,0 +1,1 @@
+iconNamed: aSymbol	^ThemeIcons iconNamed: aSymbol

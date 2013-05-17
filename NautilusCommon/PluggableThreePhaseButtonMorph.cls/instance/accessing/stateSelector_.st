@@ -1,0 +1,1 @@
+stateSelector: anObject 	stateSelector := anObject

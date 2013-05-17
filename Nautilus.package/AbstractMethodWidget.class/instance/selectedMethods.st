@@ -1,4 +1,0 @@
-protocol
-selectedMethods
-
-	^ self subclassResponsibility

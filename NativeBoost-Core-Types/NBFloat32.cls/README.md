@@ -1,0 +1,1 @@
+A NBFloat32 is xxxxxxxxx.Instance Variables

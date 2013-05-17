@@ -1,0 +1,1 @@
+atEnd	^currentToken class == RBToken

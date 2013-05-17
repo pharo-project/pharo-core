@@ -1,0 +1,1 @@
+A MetacelloRepositorySpec is xxxxxxxxx.Instance Variables	description:		<Object>	password:		<Object>	type:		<Object>	username:		<Object>description	- xxxxxpassword	- xxxxxtype	- xxxxxusername	- xxxxx

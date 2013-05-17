@@ -1,0 +1,1 @@
+A TraitsTestCase is xxxxxxxxx.Instance Variables	createdClassesAndTraits:		<Object>	oldAnnouncer:		<Object>createdClassesAndTraits	- xxxxxoldAnnouncer	- xxxxx

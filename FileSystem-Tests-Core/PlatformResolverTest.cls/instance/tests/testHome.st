@@ -1,0 +1,1 @@
+testHome	self assertOriginResolves: #home

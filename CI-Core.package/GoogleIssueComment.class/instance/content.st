@@ -1,3 +1,0 @@
-acessing
-content
-	^ content

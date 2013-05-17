@@ -1,0 +1,1 @@
+fastDragging: aBoolean		fastDragging := aBoolean

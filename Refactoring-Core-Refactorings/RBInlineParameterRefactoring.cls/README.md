@@ -1,0 +1,1 @@
+A RBInlineParameterRefactoring is xxxxxxxxx.Instance Variables	expressions:		<Object>expressions	- xxxxx

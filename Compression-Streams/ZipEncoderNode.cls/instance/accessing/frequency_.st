@@ -1,0 +1,1 @@
+frequency: aNumber	frequency := aNumber

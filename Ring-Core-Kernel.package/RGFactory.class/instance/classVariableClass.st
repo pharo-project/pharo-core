@@ -1,4 +1,0 @@
-class factory
-classVariableClass
-
-	^RGClassVariableDefinition

@@ -1,8 +1,0 @@
-{
-	"class" : {
-		"updateAdler32:from:to:in:" : "StephaneDucasse 5/5/2010 22:03" },
-	"instance" : {
-		"on:" : "nk 2/17/2004 16:28",
-		"updateCrc:from:to:in:" : "nk 2/17/2004 16:53",
-		"writeFooter" : "ar 2/29/2004 04:40",
-		"writeHeader" : "nk 2/17/2004 18:23" } }

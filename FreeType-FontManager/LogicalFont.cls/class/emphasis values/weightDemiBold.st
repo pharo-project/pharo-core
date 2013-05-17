@@ -1,0 +1,1 @@
+weightDemiBold	^600

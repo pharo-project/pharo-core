@@ -1,0 +1,1 @@
+newLineBeforeFirstKeyword: aBoolean	NewLineBeforeFirstKeyword := aBoolean

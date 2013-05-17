@@ -1,0 +1,1 @@
+createClassFactory	^ ClassFactoryWithOrganization newWithOrganization: self organizationToTest

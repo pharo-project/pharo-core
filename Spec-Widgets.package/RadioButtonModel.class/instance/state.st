@@ -1,6 +1,0 @@
-morphic
-state
-	<api: #inspect>
-	"Return the current state of the radio button"
-
-	^ stateHolder contents

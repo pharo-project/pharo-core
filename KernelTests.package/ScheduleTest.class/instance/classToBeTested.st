@@ -1,5 +1,0 @@
-Coverage
-classToBeTested
-
-	^ Schedule
-

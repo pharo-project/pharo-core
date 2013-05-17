@@ -1,4 +1,0 @@
-accessing
-integer
-
-	^ integer contents

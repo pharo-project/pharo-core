@@ -1,0 +1,1 @@
+setTimestamp: anObject	timestamp := anObject

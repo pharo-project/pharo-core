@@ -1,0 +1,1 @@
+canDeclareClassVariable	^encoder classEncoding ~~ UndefinedObject

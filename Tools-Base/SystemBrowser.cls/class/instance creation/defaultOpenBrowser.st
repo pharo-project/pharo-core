@@ -1,0 +1,1 @@
+defaultOpenBrowser	^self default openBrowser

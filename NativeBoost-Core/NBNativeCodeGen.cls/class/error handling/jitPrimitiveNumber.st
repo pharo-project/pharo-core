@@ -1,0 +1,1 @@
+jitPrimitiveNumber	^ 220

@@ -1,0 +1,1 @@
+expandBoxIcon	^ ThemeIcons expandBoxIcon

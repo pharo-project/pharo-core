@@ -1,3 +1,0 @@
-testing-type
-isUndeclaredBinding
-	^ false

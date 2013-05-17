@@ -1,0 +1,1 @@
+platform: aSymbol 	platform := aSymbol

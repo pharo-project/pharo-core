@@ -1,0 +1,1 @@
+canBrowse: anObject	canBrowse := anObject

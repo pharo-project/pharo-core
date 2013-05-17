@@ -1,0 +1,1 @@
+A MCMethodDefinitionTest is xxxxxxxxx.Instance Variables	isModified:		<Object>	navigation:		<Object>isModified	- xxxxxnavigation	- xxxxx

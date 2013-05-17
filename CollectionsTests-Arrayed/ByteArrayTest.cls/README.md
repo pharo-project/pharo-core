@@ -1,0 +1,1 @@
+A ByteArrayTest is xxxxxxxxx.Instance Variables

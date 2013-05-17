@@ -1,0 +1,1 @@
+label: aStringOrBlockOrMessageSend	label := aStringOrBlockOrMessageSend

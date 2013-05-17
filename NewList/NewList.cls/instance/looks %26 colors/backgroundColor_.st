@@ -1,0 +1,1 @@
+backgroundColor: aColor	self drawColor: aColor

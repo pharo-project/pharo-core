@@ -1,0 +1,1 @@
+initializeName: aString	name := aString

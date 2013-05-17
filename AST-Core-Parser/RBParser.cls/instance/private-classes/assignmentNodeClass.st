@@ -1,0 +1,1 @@
+assignmentNodeClass	^ RBAssignmentNode

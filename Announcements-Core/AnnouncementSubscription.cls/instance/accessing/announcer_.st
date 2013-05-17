@@ -1,0 +1,1 @@
+announcer: anAnnouncer	announcer := anAnnouncer

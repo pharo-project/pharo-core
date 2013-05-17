@@ -1,0 +1,1 @@
+insideCallback	^ self forCurrentPlatform insideCallback

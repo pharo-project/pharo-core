@@ -1,0 +1,1 @@
+A RBTemporaryBinding is xxxxxxxxx.Instance Variables

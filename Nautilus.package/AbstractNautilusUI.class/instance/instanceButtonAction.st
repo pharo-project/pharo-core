@@ -1,4 +1,0 @@
-buttons behavior
-instanceButtonAction
-
-	self toggleShowInstance

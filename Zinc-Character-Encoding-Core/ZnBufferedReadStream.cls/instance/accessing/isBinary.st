@@ -1,0 +1,1 @@
+isBinary	^ stream isBinary

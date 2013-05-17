@@ -1,0 +1,1 @@
+paintTabIcon	^ ThemeIcons paintTabIcon

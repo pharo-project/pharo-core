@@ -1,0 +1,1 @@
+minorVersion: anObject	minorVersion := anObject

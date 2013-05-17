@@ -1,4 +1,0 @@
-testing
-includesUnifiedCharacter
-
-	^ self isUnicodeStringWithCJK

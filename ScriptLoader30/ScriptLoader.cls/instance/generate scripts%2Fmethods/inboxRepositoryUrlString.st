@@ -1,0 +1,1 @@
+inboxRepositoryUrlString		^ self rootURLString, 'PharoInbox'

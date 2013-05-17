@@ -1,0 +1,1 @@
+A KMStorage is xxxxxxxxx.Instance Variables	annonimousRegistry:		<Object>	namedRegistry:		<Object>annonimousRegistry	- xxxxxnamedRegistry	- xxxxx

@@ -1,4 +1,0 @@
-morphic
-doItContext
-
-	^ doItContext contents

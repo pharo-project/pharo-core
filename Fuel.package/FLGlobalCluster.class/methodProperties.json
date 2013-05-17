@@ -1,8 +1,0 @@
-{
-	"class" : {
-		"clusterBucketIn:" : "MartinDias 1/8/2012 15:38" },
-	"instance" : {
-		"materializeGlobalAssociationFrom:" : "MartinDias 2/21/2013 17:30",
-		"materializeGlobalClassFrom:" : "MartinDias 1/5/2012 01:05",
-		"serializeGlobalAssociationKeyed:on:" : "MartinDias 12/30/2011 12:24",
-		"serializeGlobalClass:on:" : "MartinDias 12/30/2011 12:24" } }

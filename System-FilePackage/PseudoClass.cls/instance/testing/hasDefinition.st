@@ -1,0 +1,1 @@
+hasDefinition	^definition notNil

@@ -1,0 +1,1 @@
+startMinPercentageToExpand	^ 20

@@ -1,0 +1,1 @@
+classSide	^self theMetaClass

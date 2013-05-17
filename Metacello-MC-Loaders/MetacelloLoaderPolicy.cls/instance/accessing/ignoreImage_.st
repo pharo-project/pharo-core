@@ -1,0 +1,1 @@
+ignoreImage: anObject	ignoreImage := anObject

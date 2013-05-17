@@ -1,0 +1,1 @@
+A NBNativeFunctionArgument is xxxxxxxxx.Instance Variables	name:		<Object>	offset:		<Object>	type:		<Object>name	- xxxxxoffset	- xxxxxtype	- xxxxx

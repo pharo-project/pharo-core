@@ -1,3 +1,0 @@
-testing
-isContext
-	^ self isContextBinding

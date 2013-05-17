@@ -1,0 +1,1 @@
+decompileString	^self decompile decompileString

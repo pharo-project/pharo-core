@@ -1,0 +1,1 @@
+An IconicListItem is xxxxxxxxx.Instance Variables	originalObject:		<Object>originalObject	- xxxxx

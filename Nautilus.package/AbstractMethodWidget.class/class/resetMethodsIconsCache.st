@@ -1,4 +1,0 @@
-icon
-resetMethodsIconsCache
-
-	MethodsIconsCache removeAll

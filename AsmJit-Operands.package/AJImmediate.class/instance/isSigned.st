@@ -1,3 +1,0 @@
-testing
-isSigned 
-	^ isUnsigned not

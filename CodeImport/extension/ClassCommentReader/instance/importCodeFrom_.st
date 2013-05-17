@@ -1,0 +1,1 @@
+importCodeFrom: aCodeImporter	aCodeImporter importClassComment: self.

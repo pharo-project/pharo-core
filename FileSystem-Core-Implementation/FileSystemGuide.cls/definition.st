@@ -1,0 +1,1 @@
+Object subclass: #FileSystemGuide	instanceVariableNames: 'visitor work'	classVariableNames: ''	poolDictionaries: ''	category: 'FileSystem-Core-Implementation'

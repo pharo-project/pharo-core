@@ -1,0 +1,1 @@
+A SimpleTestResourceB1 is xxxxxxxxx.Instance Variables

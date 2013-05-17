@@ -1,0 +1,1 @@
+A SimpleTestResourceTestCase is xxxxxxxxx.Instance Variables	resource:		<Object>resource	- xxxxx

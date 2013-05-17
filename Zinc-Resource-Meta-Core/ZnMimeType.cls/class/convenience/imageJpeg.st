@@ -1,0 +1,1 @@
+imageJpeg	^ self predefinedInstanceAt: #imageJpeg

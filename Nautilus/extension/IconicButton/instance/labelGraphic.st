@@ -1,0 +1,1 @@
+labelGraphic		^ graphicalMorph image

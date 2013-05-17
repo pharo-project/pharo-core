@@ -1,0 +1,1 @@
+weightNames	^self class weightNames			

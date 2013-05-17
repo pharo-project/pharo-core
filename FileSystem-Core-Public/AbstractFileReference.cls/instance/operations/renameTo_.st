@@ -1,0 +1,1 @@
+renameTo: newBasename	self subclassResponsibility

@@ -1,7 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"testCommandLineHandlerCondition" : "CamilloBruni 5/4/2012 12:06",
-		"testInstallSourceFilesFail" : "EstebanLorenzano 4/12/2012 14:28",
-		"testLoadSourceFiles" : "EstebanLorenzano 4/12/2012 14:25" } }

@@ -1,0 +1,1 @@
+newLinesAfterMethodComment: anInteger	NewLinesAfterMethodComment := anInteger

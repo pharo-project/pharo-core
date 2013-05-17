@@ -1,0 +1,1 @@
+wantsDropFiles: anEvent	^self isWorldMorph

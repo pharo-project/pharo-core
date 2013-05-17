@@ -1,3 +1,0 @@
-accessing
-numFreeBlocks
-	^ freeBlocks size

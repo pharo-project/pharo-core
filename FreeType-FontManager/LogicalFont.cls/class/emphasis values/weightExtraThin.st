@@ -1,0 +1,1 @@
+weightExtraThin	^100

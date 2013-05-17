@@ -1,3 +1,0 @@
-accessing
-isSet
-	^ isSet == true

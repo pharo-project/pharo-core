@@ -1,0 +1,1 @@
+A KMLog is xxxxxxxxx.Instance Variables

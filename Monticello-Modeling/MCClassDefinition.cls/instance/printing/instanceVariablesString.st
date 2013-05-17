@@ -1,0 +1,1 @@
+instanceVariablesString	^ self stringForVariablesOfType: #isInstanceVariable

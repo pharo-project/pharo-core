@@ -1,4 +1,0 @@
-protocol
-initialExtent
-
-	^ nil

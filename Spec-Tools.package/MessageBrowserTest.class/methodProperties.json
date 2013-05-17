@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"testFindingNotExistingText" : "AlexandreBergel 1/29/2013 15:32",
-		"testFindingText" : "AlexandreBergel 1/29/2013 15:28",
-		"testFindingTextWithColumn" : "AlexandreBergel 1/29/2013 15:42",
-		"testFindingTextWithOneColumn" : "AlexandreBergel 1/29/2013 15:41",
-		"testFindingTextWithoutJunkcharacter" : "AlexandreBergel 1/29/2013 15:51" } }

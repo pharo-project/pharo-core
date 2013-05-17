@@ -1,0 +1,1 @@
+selfNodeClass	^ RBSelfNode

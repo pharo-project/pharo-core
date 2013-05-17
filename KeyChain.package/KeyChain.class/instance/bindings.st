@@ -1,4 +1,0 @@
-private-UI
-bindings
-
-	^ bindings

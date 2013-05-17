@@ -1,0 +1,1 @@
+A MergeJoinSection is xxxxxxxxx.Instance Variables	allowClick:		<Object>	selected:		<Object>	selectedBorderColor:		<Object>	selectionState:		<Object>	stateIcons:		<Object>allowClick	- xxxxxselected	- xxxxxselectedBorderColor	- xxxxxselectionState	- xxxxxstateIcons	- xxxxx

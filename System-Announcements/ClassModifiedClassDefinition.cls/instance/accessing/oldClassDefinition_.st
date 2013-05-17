@@ -1,0 +1,1 @@
+oldClassDefinition: aClass	oldClassDefinition := aClass

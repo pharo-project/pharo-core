@@ -1,0 +1,1 @@
+oldPosition: anObject	oldPosition := anObject

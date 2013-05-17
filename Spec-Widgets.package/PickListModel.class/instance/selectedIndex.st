@@ -1,4 +1,0 @@
-protocol
-selectedIndex
-
-	^ listModel selectedIndex

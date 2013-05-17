@@ -1,0 +1,1 @@
+A MockCustomParser is xxxxxxxxx.Instance Variables

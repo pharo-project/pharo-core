@@ -1,0 +1,1 @@
+ctrl	modifiers add: KMModifier ctrl

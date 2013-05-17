@@ -1,4 +1,0 @@
-protocol
-resetListSelectionSilently
-	
-	selectedIndexes removeAll

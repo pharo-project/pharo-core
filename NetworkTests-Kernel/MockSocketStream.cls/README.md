@@ -1,0 +1,1 @@
+A MockSocketStream is xxxxxxxxx.Instance Variables	atEnd:		<Object>	inStream:		<Object>	outStream:		<Object>atEnd	- xxxxxinStream	- xxxxxoutStream	- xxxxx

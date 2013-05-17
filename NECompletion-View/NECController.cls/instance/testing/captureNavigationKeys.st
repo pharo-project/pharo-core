@@ -1,0 +1,1 @@
+captureNavigationKeys	^ NECPreferences captureNavigationKeys

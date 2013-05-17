@@ -1,0 +1,1 @@
+addDefinitionsTo: aCollection	self subclassResponsibility 

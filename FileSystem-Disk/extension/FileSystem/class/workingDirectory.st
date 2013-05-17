@@ -1,0 +1,1 @@
+workingDirectory	^ self disk workingDirectory

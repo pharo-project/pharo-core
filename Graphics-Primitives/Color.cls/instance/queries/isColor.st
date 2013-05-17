@@ -1,0 +1,1 @@
+isColor	^ true

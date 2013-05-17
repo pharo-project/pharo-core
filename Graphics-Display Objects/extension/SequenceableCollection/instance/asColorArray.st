@@ -1,0 +1,1 @@
+asColorArray	^ColorArray withAll: self

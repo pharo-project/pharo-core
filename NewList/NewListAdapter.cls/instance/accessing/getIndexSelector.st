@@ -1,0 +1,1 @@
+getIndexSelector	^ getIndexSelector contents

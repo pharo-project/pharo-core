@@ -1,0 +1,1 @@
+basename	^ self name, '.cls'

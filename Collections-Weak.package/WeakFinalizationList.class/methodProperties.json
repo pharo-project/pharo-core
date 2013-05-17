@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"checkTestPair" : "Igor.Stasenko 9/22/2010 20:19",
-		"hasNewFinalization" : "Igor.Stasenko 9/22/2010 20:18",
-		"initTestPair" : "Igor.Stasenko 9/22/2010 20:18",
-		"initialize" : "GuillermoPolito 5/1/2012 14:56" },
-	"instance" : {
-		"first" : "Igor.Stasenko 9/22/2010 21:06",
-		"swapWithNil" : "Igor.Stasenko 9/22/2010 21:06" } }

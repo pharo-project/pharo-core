@@ -1,0 +1,1 @@
+emptyDict	^ self empty

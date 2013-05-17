@@ -1,0 +1,1 @@
+A NonBooleanReceiver is xxxxxxxxx.Instance Variables	object:		<Object>object	- xxxxx

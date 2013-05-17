@@ -1,0 +1,1 @@
+An IntegerDigitLogicTest is xxxxxxxxx.Instance Variables

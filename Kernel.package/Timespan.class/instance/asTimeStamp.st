@@ -1,4 +1,0 @@
-conversion
-asTimeStamp
-
-	^ start asTimeStamp

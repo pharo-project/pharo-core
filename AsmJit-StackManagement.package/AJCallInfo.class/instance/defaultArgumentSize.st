@@ -1,3 +1,0 @@
-accessing
-defaultArgumentSize
-	self subclassResponsibility 

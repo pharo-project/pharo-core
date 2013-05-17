@@ -1,4 +1,0 @@
-protocol
-cancel
-
-	window delete

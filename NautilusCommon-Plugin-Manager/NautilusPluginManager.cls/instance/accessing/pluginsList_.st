@@ -1,0 +1,1 @@
+pluginsList: anObject			pluginsList := anObject

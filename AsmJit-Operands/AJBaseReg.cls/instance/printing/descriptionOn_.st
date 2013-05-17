@@ -1,0 +1,1 @@
+descriptionOn: aStream	self subclassResponsibility

@@ -1,0 +1,1 @@
+A TCopyPartOfSequenceable is xxxxxxxxx.

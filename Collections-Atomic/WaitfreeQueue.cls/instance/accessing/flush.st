@@ -1,0 +1,1 @@
+flush	self flush: [:ea | ]

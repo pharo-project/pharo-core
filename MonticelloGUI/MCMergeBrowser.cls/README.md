@@ -1,0 +1,1 @@
+A MCMergeBrowser is xxxxxxxxx.Instance Variables	conflicts:		<Object>	merger:		<Object>	ok:		<Object>conflicts	- xxxxxmerger	- xxxxxok	- xxxxx

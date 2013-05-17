@@ -1,3 +1,0 @@
-named colors
-transparent
-	^Transparent

@@ -1,3 +1,0 @@
-icons
-radioButtonOffIcon
-	^ ThemeIcons radioButtonOffIcon

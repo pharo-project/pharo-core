@@ -1,0 +1,1 @@
+italicAndObliqueNames	^self class italicAndObliqueNames

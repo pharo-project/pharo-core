@@ -1,0 +1,1 @@
+initialize	accessors := readers := writers := #()

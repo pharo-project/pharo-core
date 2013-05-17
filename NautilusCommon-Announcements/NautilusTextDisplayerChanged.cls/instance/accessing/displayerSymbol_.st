@@ -1,0 +1,1 @@
+displayerSymbol: anObject	displayerSymbol := anObject

@@ -1,3 +1,0 @@
-accessing
-startWithoutParentheses
-	^token start

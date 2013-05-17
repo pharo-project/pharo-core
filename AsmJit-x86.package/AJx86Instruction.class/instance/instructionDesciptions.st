@@ -1,3 +1,0 @@
-accessing
-instructionDesciptions
-	^ AJx86InstructionDescription instructions

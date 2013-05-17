@@ -1,0 +1,1 @@
+A RGVariableDefinitionTest is xxxxxxxxx.Instance Variables

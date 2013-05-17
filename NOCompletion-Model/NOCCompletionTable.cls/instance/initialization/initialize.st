@@ -1,0 +1,1 @@
+initialize	table := Dictionary new.

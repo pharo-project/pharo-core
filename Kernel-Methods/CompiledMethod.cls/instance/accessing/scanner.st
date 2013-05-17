@@ -1,0 +1,1 @@
+scanner	^ InstructionStream on: self

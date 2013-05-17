@@ -1,0 +1,1 @@
+tinyMenuIcon	^ ThemeIcons tinyMenuIcon

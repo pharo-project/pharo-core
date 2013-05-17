@@ -1,4 +1,0 @@
-*Morphic-Widgets
-widthToDisplayInList: aList
-
-	^ self contents widthToDisplayInList: aList 

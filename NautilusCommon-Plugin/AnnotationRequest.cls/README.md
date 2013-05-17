@@ -1,0 +1,1 @@
+An AnnotationRequest is xxxxxxxxx.Instance Variables	class:		<Object>	selector:		<Object>	separator:		<Object>class	- xxxxxselector	- xxxxxseparator	- xxxxx

@@ -1,0 +1,1 @@
+run	^ RBSmalllintChecker runRule: self

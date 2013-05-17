@@ -1,0 +1,1 @@
+A MCSqueaksourceRepository is xxxxxxxxx.Instance Variables

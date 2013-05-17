@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"testFourthByteArraysReturnTheCorrectValues" : "jannik.laval 5/2/2010 07:23",
-		"testHex" : "PavelKrivanek 6/4/2011 17:01",
-		"testIsLiteral" : "StephaneDucasse 12/30/2010 14:30",
-		"testindexOfStartingAt" : "StephaneDucasse 9/18/2010 21:27" } }

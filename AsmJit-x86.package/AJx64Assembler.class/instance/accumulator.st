@@ -1,3 +1,0 @@
-register
-accumulator
-	^ RAX

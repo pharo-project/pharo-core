@@ -1,0 +1,1 @@
+isMultipleSelection	^ isMultipleSelection contents

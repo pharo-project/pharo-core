@@ -1,0 +1,1 @@
+isPatternNode	^true

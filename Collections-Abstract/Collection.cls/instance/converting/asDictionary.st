@@ -1,0 +1,1 @@
+asDictionary	^ self as: Dictionary

@@ -1,0 +1,1 @@
+rightCenter	^ bounds rightCenter

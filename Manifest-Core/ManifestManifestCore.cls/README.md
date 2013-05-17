@@ -1,0 +1,1 @@
+A ManifestManifestCore is xxxxxxxxx.Instance Variables

@@ -1,0 +1,1 @@
+argument: arg	argument := arg

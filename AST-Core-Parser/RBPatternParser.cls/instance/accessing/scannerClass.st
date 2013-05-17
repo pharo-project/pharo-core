@@ -1,0 +1,1 @@
+scannerClass	^RBPatternScanner

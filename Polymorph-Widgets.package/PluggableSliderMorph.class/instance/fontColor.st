@@ -1,4 +1,0 @@
-drawing
-fontColor
-
-	^ Color black

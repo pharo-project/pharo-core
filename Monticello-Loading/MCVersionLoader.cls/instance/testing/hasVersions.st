@@ -1,0 +1,1 @@
+hasVersions	^ versions isEmpty not

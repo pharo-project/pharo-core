@@ -1,0 +1,1 @@
+Error subclass: #RBSemanticAnnotationMissing	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'AST-Semantic-Exceptions'

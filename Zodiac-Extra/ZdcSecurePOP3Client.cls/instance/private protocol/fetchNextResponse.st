@@ -1,0 +1,1 @@
+fetchNextResponse	self lastResponse: self nextLineFromStream

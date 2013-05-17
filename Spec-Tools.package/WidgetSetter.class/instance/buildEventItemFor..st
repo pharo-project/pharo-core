@@ -1,4 +1,0 @@
-private
-buildEventItemFor: anAPIMethod 
-
-	^ nil

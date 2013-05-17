@@ -1,0 +1,1 @@
+desktopMenuTitle	^ DesktopMenuTitle ifNil: [DesktopMenuTitle := 'World']

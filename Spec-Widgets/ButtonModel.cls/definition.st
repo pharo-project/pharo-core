@@ -1,0 +1,1 @@
+AbstractBasicWidget subclass: #ButtonModel	instanceVariableNames: 'actionHolder labelHolder stateHolder actionPerformedHolder askBeforeChangingHolder'	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Widgets'

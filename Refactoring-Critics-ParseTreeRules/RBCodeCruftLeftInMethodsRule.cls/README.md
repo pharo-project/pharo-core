@@ -1,0 +1,1 @@
+A RBCodeCruftLeftInMethodsRule is xxxxxxxxx.Instance Variables

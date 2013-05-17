@@ -1,4 +1,0 @@
-protocol
-resetSelection
-
-	listModel resetSelection

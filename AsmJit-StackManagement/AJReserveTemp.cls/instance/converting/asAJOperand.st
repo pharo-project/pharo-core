@@ -1,0 +1,1 @@
+asAJOperand		^ operands first

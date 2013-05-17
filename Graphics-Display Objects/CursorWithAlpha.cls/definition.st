@@ -1,0 +1,1 @@
+Cursor subclass: #CursorWithAlpha	instanceVariableNames: 'fallback'	classVariableNames: 'Constants'	poolDictionaries: ''	category: 'Graphics-Display Objects'

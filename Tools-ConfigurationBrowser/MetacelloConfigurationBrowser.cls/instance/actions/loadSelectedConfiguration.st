@@ -1,0 +1,1 @@
+loadSelectedConfiguration 	self loadConfigurationWithStable: false

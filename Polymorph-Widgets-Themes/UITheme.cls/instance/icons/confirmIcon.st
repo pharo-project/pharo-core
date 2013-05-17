@@ -1,0 +1,1 @@
+confirmIcon	^ ThemeIcons confirmIcon

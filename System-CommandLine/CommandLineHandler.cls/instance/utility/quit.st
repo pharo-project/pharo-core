@@ -1,0 +1,1 @@
+quit	Smalltalk exitSuccess.

@@ -1,0 +1,1 @@
+statementComments	^self comments

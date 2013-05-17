@@ -1,4 +1,0 @@
-protocol
-unlock
-
-	^ self isUnlocked 

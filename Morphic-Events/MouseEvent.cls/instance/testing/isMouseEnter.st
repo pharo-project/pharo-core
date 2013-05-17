@@ -1,0 +1,1 @@
+isMouseEnter	^self type == #mouseEnter

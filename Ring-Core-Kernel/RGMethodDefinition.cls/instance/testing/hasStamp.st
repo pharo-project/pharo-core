@@ -1,0 +1,1 @@
+hasStamp	^stamp isEmptyOrNil not

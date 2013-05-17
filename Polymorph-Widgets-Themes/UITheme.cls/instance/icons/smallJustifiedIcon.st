@@ -1,0 +1,1 @@
+smallJustifiedIcon	^ ThemeIcons smallJustifiedIcon

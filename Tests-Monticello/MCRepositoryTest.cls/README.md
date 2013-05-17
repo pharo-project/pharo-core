@@ -1,0 +1,1 @@
+A MCRepositoryTest is xxxxxxxxx.Instance Variables	ancestors:		<Object>	repository:		<Object>ancestors	- xxxxxrepository	- xxxxx

@@ -1,0 +1,1 @@
+A SmalllintManifestCheckerTest is xxxxxxxxx.Instance Variables

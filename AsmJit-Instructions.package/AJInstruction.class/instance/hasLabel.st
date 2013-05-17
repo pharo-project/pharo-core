@@ -1,3 +1,0 @@
-testing
-hasLabel
-	self shouldBeImplemented.

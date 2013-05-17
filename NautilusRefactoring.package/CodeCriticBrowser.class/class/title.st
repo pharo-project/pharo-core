@@ -1,4 +1,0 @@
-specs
-title
-
-	^ 'Code critics'

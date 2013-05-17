@@ -1,0 +1,1 @@
+reverse	self termcap: 'mr'

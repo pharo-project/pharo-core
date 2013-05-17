@@ -1,3 +1,0 @@
-accessing
-getMenuTitleSelector: anObject
-	getMenuTitleSelector contents: anObject

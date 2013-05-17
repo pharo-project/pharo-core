@@ -1,0 +1,1 @@
+lastFontForegroundColor	^ nil 

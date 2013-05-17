@@ -1,0 +1,1 @@
+pointBlock	^ self editingState pointBlock

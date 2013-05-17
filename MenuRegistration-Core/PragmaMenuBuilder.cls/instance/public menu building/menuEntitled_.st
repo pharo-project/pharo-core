@@ -1,0 +1,1 @@
+menuEntitled: aTitle 	"returns a MenuMorph build from my menuSpec"	^ (self menuSpec label: aTitle) asMenuMorph

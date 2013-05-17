@@ -1,0 +1,1 @@
+A MetacelloProjectSpec is xxxxxxxxx.Instance Variables	className:		<Object>	loads:		<Object>	name:		<Object>	operator:		<Object>	postLoadDoIt:		<Object>	preLoadDoIt:		<Object>	versionString:		<Object>className	- xxxxxloads	- xxxxxname	- xxxxxoperator	- xxxxxpostLoadDoIt	- xxxxxpreLoadDoIt	- xxxxxversionString	- xxxxx

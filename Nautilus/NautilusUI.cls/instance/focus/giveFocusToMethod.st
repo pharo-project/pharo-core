@@ -1,0 +1,1 @@
+giveFocusToMethod	self giveFocusTo: methodWidget

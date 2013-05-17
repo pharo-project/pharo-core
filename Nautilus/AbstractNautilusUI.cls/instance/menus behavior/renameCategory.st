@@ -1,0 +1,1 @@
+renameCategory	^ self subclassResponsibility

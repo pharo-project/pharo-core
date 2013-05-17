@@ -1,0 +1,1 @@
+A MockForCompilation is xxxxxxxxx.Instance Variables	var1:		<Object>var1	- xxxxx

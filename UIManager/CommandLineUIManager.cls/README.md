@@ -1,0 +1,1 @@
+A CommandLineUIManager is xxxxxxxxx.Instance Variables	doNotQuitOnRestart:		<Object>	uiManager:		<Object>doNotQuitOnRestart	- xxxxxuiManager	- xxxxx

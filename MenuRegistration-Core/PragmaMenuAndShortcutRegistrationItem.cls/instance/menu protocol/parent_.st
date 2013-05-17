@@ -1,0 +1,1 @@
+parent: aSymbol 		parent := aSymbol 

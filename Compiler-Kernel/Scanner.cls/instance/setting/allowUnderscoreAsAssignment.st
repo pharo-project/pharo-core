@@ -1,0 +1,1 @@
+allowUnderscoreAsAssignment	^ self class allowUnderscoreAsAssignment

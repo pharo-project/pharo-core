@@ -1,0 +1,1 @@
+smallDebugItIcon	^ ThemeIcons smallDebugItIcon

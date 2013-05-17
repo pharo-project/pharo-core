@@ -1,4 +1,0 @@
-private
-deactivate
-
-	SystemProgressMorph disable.

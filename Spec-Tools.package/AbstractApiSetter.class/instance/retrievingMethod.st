@@ -1,4 +1,0 @@
-accessing
-retrievingMethod
-
-	^ retrievingMethod contents

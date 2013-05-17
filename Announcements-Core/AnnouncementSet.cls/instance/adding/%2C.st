@@ -1,0 +1,1 @@
+, anAnnouncementClass	self add: anAnnouncementClass

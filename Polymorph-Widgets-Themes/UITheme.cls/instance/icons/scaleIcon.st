@@ -1,0 +1,1 @@
+scaleIcon	^ ThemeIcons scaleIcon

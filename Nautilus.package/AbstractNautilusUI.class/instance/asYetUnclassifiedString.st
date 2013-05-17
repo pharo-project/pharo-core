@@ -1,4 +1,0 @@
-private
-asYetUnclassifiedString
-
-	^ ClassOrganizer default
