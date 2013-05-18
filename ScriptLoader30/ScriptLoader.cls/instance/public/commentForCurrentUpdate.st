@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '7238 StrikeFont strikeLength instance variable is only set once in a method and not even used in that method	https://pharo.fogbugz.com/f/cases/7238	7342 CommandLineHandler should use ExitException	https://pharo.fogbugz.com/f/cases/7342	10250 remove Utilities, TheWorldMenu and Preferences	https://pharo.fogbugz.com/f/cases/10250'
+commentForCurrentUpdate ^ '10256 Got startup errors	https://pharo.fogbugz.com/f/cases/10256	10257 Prevent potential UI deadlock for MCWorkingCopyBrowser when saving	https://pharo.fogbugz.com/f/cases/10257		'
