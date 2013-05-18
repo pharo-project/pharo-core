@@ -1,1 +1,1 @@
-Object subclass: #MethodAddition	instanceVariableNames: 'text category changeStamp requestor logSource myClass methodAndNode selector compiledMethod priorMethodOrNil priorCategoryOrNil'	classVariableNames: ''	poolDictionaries: ''	category: 'Monticello-Loading'
+Object subclass: #MethodAddition	instanceVariableNames: 'text category changeStamp requestor logSource myClass selector compiledMethod priorMethodOrNil priorCategoryOrNil'	classVariableNames: ''	poolDictionaries: ''	category: 'Monticello-Loading'

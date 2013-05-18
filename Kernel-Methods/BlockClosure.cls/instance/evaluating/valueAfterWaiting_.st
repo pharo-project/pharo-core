@@ -1,0 +1,1 @@
+valueAfterWaiting: aDelay	"Waits for a delay, then executes the block"		[ aDelay wait. self value ] forkAt: Processor userBackgroundPriority

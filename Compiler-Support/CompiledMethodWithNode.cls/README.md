@@ -1,1 +1,0 @@
-A CompiledMethodWithNode is xxxxxxxxx.Instance Variables	method:		<Object>	node:		<Object>method	- xxxxxnode	- xxxxx
