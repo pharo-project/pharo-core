@@ -1,1 +1,1 @@
-methods	^ self classes gather: [:e | e methodDict values ]
+methods	^ self classes gather: [:e | e methods ]

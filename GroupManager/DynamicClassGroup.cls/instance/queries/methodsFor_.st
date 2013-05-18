@@ -1,1 +1,1 @@
-methodsFor: aClass	^ aClass methodDict values sort: [:a :b | a selector < b selector ]
+methodsFor: aClass	^ aClass methods sort: [:a :b | a selector < b selector ]

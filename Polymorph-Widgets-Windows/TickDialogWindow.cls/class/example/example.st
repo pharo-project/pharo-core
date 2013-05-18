@@ -1,1 +1,1 @@
-example		(self itemsList: Morph methodDict values itemsHeaderName: 'Plop' wrapBlockOrSelector: #selector title: 'Example') choose
+example		(self itemsList: Morph methods itemsHeaderName: 'Plop' wrapBlockOrSelector: #selector title: 'Example') choose

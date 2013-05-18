@@ -1,1 +1,1 @@
-listLoadedModules		self deprecated: 'This method was moved to VirtualMachine' on: '3 May 2013' in: 'Pharo3.0'.		^VirtualMachine listLoadedModules.		"| modules index name |	modules := Array new writeStream.	index := 1.	[true] whileTrue:[		name := self listLoadedModule: index.		name ifNil:[^modules contents].		modules nextPut: name.		index := index + 1.	]."
+listLoadedModules		self deprecated: 'This method was moved to VirtualMachine' on: '3 May 2013' in: 'Pharo3.0'.		^Smalltalk vm listLoadedModules

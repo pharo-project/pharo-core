@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '7215 Cannot use rewrite tool with Nautilus	https://pharo.fogbugz.com/f/cases/7215	10550 CompilerSyntaxErrorNotificationTest should use old Compiler	https://pharo.fogbugz.com/f/cases/10550'
+commentForCurrentUpdate ^ '10543 methodDict values -> methods	https://pharo.fogbugz.com/f/cases/10543	10554 clean up #schematicTempNamesString	https://pharo.fogbugz.com/f/cases/10554	10553 VirtualMachine --> Smalltalk vm	https://pharo.fogbugz.com/f/cases/10553'

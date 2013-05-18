@@ -1,1 +1,1 @@
-addClasses: aCollection	aCollection do: [:e |		self addBlock: [ e theNonMetaClass methodDict values ].		self addBlock: [ e theMetaClass methodDict values ]]
+addClasses: aCollection	aCollection do: [:e |		self addBlock: [ e theNonMetaClass methods ].		self addBlock: [ e theMetaClass methods ]]
