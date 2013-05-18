@@ -1,1 +1,1 @@
-listBuiltinModule: index	"Return the name of the n-th builtin module.	This list is not sorted!"	<primitive: 572>	^self primitiveFailed
+listBuiltinModule: index      self deprecated: 'This method was moved to VirtualMachine' on: '3 May 2013' in: 'Pharo3.0'.	^VirtualMachine listBuiltinModule: index.		"<primitive: 572>	^self primitiveFailed"

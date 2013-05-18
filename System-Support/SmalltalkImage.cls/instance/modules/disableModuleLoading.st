@@ -1,1 +1,1 @@
-disableModuleLoading	"Primitive. Disable a new module loading mechanism for the rest of current session.	This operation is not reversable.	Any subsequent attempts to load either external or internal module(s) will fail"	<primitive: 'primitiveDisableModuleLoading' module: ''>	
+disableModuleLoading	self deprecated: 'This method was moved to VirtualMachine' on: '3 May 2013' in: 'Pharo3.0'.	^VirtualMachine disableModuleLoading.		"<primitive: 'primitiveDisableModuleLoading' module: ''>"	

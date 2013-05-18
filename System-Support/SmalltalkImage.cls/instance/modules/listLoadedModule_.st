@@ -1,1 +1,1 @@
-listLoadedModule: index	"Return the name of the n-th loaded module.	This list is not sorted!"	<primitive: 573>	^self primitiveFailed
+listLoadedModule: index		self deprecated: 'This method was moved to VirtualMachine' on: '3 May 2013' in: 'Pharo3.0'.		^VirtualMachine listLoadedModule: index.		"<primitive: 573>	^self primitiveFailed"	
