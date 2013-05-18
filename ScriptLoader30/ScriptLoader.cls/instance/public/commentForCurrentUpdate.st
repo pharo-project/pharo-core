@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10377 #evaluatorClass --> just use #compiler instead	https://pharo.fogbugz.com/f/cases/10377		'
+commentForCurrentUpdate ^ '10476 fix CompiledMethodTest>>testCopyWithTrailerBytes	https://pharo.fogbugz.com/f/cases/10476	10480 deprecated #decompilerClass	https://pharo.fogbugz.com/f/cases/10480'

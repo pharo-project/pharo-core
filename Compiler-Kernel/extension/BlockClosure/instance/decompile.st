@@ -1,1 +1,1 @@
-decompile	^self method decompilerClass new decompileBlock: self
+decompile	^self method compiler decompileBlock: self
