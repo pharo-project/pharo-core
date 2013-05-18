@@ -1,1 +1,1 @@
-= aObject	^ aObject class = self class and: [manifestClass = aObject manifest ]
+= aObject	^ aObject class = self class and: [ manifestClass = aObject manifest ]

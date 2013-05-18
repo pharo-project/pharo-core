@@ -1,1 +1,1 @@
-rejectRules		^ (manifestClass respondsTo: #rejectRules)		ifTrue: [manifestClass rejectRules]		ifFalse: [ #() ]	
+rejectRules		^ (manifestClass respondsTo: #rejectRules)		ifTrue:  [manifestClass rejectRules ]		ifFalse: [ #() ]	

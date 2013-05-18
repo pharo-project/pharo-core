@@ -1,1 +1,1 @@
-containsRejectedRule: aRuleId		^ self rejectRules  anySatisfy: [:fp| fp = aRuleId]
+containsRejectedRule: aRuleId		^ self rejectRules anySatisfy: [ :fp | fp = aRuleId ]

@@ -1,1 +1,1 @@
-logInManifest: anObject		logInManifest := anObject
+logInManifest: anObject	logInManifest := anObject

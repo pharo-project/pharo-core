@@ -1,1 +1,1 @@
-initialize	super initialize.	manifestClassCache := Dictionary new.
+initialize	super initialize.	manifestClassCache := Dictionary new.

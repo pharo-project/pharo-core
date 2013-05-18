@@ -1,1 +1,1 @@
-falsePositiveColor	^ Color darkGray
+falsePositiveColor	^ Color darkGray

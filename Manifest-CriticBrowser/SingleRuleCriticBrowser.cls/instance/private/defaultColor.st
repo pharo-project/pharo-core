@@ -1,1 +1,1 @@
-defaultColor	^ Color red
+defaultColor	^ Color red

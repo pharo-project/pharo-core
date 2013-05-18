@@ -1,1 +1,1 @@
-toolbarModel	^ toolbarModel
+toolbarModel	^ toolbarModel
