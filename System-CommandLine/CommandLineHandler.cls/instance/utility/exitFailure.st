@@ -1,1 +1,1 @@
-exitFailure 	^ self exitFailure: 'Commandline failed'
+exitFailure	 ^ self exitFailure: 'Command line handler failed'

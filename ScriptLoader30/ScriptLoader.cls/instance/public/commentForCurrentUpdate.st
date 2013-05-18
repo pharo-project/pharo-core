@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10385 Spec: SliderModel DNU updateLabel	https://pharo.fogbugz.com/f/cases/10385	10378 There are 44 direct references to Scanner	https://pharo.fogbugz.com/f/cases/10378'
+commentForCurrentUpdate ^ '10547 Do not run CommandLineHandlers on the existing stack	https://pharo.fogbugz.com/f/cases/10547'

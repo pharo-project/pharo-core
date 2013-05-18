@@ -1,1 +1,1 @@
-exitSuccess	Exit signalSuccess 
+exitSuccess	self hasSessionChanged		ifTrue: [ ^ self ].	Exit signalSuccess 

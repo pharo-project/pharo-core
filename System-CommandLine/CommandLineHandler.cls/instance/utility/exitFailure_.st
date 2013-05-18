@@ -1,1 +1,1 @@
-exitFailure: aMessage 	Exit signalFailure: aMessage 
+exitFailure: aMessage 	self hasSessionChanged		ifTrue: [ ^ self ].	Exit signalFailure: aMessage 

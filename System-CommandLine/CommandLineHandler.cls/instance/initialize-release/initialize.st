@@ -1,1 +1,1 @@
-initialize	super initialize.	self 		initializeStdout;		initializeStderr.	
+initialize	super initialize.	session := Smalltalk session.	self 		initializeStdout;		initializeStderr.	

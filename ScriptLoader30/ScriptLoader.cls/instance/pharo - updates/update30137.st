@@ -1,0 +1,1 @@
+update30137	"self new update30137"	self withUpdateLog: '10547 Do not run CommandLineHandlers on the existing stack	https://pharo.fogbugz.com/f/cases/10547'.	self loadTogether: self script234 merge: false.	self flushCaches.

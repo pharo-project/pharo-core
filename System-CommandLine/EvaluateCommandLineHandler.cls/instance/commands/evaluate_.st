@@ -1,1 +1,1 @@
-evaluate: aStream			[ self stdout print: (Smalltalk evaluate: aStream); lf ]		on: Error, ParserNotification		do: [ :e| 	self handleError: e  ].
+evaluate: aStream	| result |		[ 		result := Smalltalk evaluate: aStream.		self hasSessionChanged			ifFalse: [ self stdout print: result; lf ]	] on: Error, ParserNotification do: [ :error |		self handleError: error ].

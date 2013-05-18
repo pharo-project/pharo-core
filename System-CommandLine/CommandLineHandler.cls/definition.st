@@ -1,1 +1,1 @@
-Object subclass: #CommandLineHandler	instanceVariableNames: 'commandLine stdout stderr'	classVariableNames: ''	poolDictionaries: ''	category: 'System-CommandLine'
+Object subclass: #CommandLineHandler	instanceVariableNames: 'commandLine session stdout stderr'	classVariableNames: ''	poolDictionaries: ''	category: 'System-CommandLine'
