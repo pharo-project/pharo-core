@@ -1,1 +1,1 @@
-reformatMethodAt: selector	| newCodeString method |	newCodeString := self compilerClass 				format: (self sourceCodeAt: selector)				in: self				notifying: nil.	method := self compiledMethodAt: selector.	method 		putSource: newCodeString		class: self		category: (self organization categoryOfElement: selector)		inFile: 2		priorMethod: method
+reformatMethodAt: selector	| newCodeString method |	method := self compiledMethodAt: selector.	newCodeString := method ast formattedCode.	self compile: newCodeString classified:  method category.

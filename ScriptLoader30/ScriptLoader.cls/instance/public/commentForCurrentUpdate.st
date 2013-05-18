@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10401 Add Amber BlockClosure asynchronous methods into Pharo	https://pharo.fogbugz.com/f/cases/10401	10418 cleanUp #methodHeaderFor:	https://pharo.fogbugz.com/f/cases/10418	10419 Remove CompiledMethodWithNode (part 2)	https://pharo.fogbugz.com/f/cases/10419'
+commentForCurrentUpdate ^ '10420 Simplify #reformatMethodAt:	https://pharo.fogbugz.com/f/cases/10420	10416 New Spec polywidget	https://pharo.fogbugz.com/f/cases/10416'

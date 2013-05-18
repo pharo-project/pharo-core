@@ -1,1 +1,0 @@
-putSource: sourceStr class: class category: catName	inFile: fileIndex priorMethod: priorMethod	^ self putSource: sourceStr inFile: fileIndex withPreamble:			[:file | class printCategoryChunk: catName on: file priorMethod: priorMethod.			file cr]
