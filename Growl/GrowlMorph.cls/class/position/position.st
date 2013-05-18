@@ -1,1 +1,1 @@
-position	^ Position ifNil: [ Position := #bottomLeft ]
+position	^ Position ifNil: [ Position := #topRight ]

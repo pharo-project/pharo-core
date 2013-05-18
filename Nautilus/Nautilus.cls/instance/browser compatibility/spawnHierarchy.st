@@ -1,1 +1,1 @@
-spawnHierarchy	self 		showHierarchy:true;		open.	self ui showPackages: false
+spawnHierarchy	self 		showHierarchy: true;		open.	self ui showPackages: false
