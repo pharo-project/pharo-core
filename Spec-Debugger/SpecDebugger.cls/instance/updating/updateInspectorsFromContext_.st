@@ -1,1 +1,1 @@
-updateInspectorsFromContext: aContext	| receiver |		contextInspector inspect: aContext.		receiver := aContext ifNotNil: [ aContext home receiver ].	receiverInspector inspector: receiver eyeInspector.	receiverInspector owner: self.	"	needRefresh		ifTrue: [	self updateReceiverInspector ]"
+updateInspectorsFromContext: aContext	| receiver |		contextInspector inspect: aContext.		receiver := aContext ifNotNil: [ aContext home receiver ].	receiverInspector inspector: receiver eyeInspector.	receiverInspector owner: self.
