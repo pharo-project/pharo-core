@@ -1,1 +1,1 @@
-attachCategory: aCategoryName	self attachCategory: aCategoryName targetting: morph
+attachCategory: aCategory	self attachCategory: aCategory targetting: morph

@@ -1,1 +1,1 @@
-A KMShortcutSetting is xxxxxxxxx.Instance Variables	action:		<Object>	category:		<Object>	shortcutName:		<Object>action	- xxxxxcategory	- xxxxxshortcutName	- xxxxx
+I represent a shortcut setting. I relate a keymap with its default shortcut and its current shortcut, so it can be mutated.

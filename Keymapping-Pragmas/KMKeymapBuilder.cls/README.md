@@ -1,1 +1,1 @@
-A KMKeymapBuilder is xxxxxxxxx.Instance Variables	platform:		<Object>	shortcutName:		<Object>platform	- xxxxxshortcutName	- xxxxx
+I am a specific builder to configure one shortcut.

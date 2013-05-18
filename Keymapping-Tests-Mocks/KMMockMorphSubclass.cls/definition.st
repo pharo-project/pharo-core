@@ -1,1 +1,0 @@
-KMMockMorph subclass: #KMMockMorphSubclass	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Keymapping-Tests-Mocks'

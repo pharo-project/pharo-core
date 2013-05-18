@@ -1,1 +1,0 @@
-A KMMockMorphSubclass is xxxxxxxxx.Instance Variables

@@ -1,1 +1,1 @@
-attachKeymapCategory: aCategoryName	self kmDispatcher attachCategory: aCategoryName.
+attachKeymapCategory: aCategory	self kmDispatcher attachCategory: aCategory.

@@ -1,1 +1,1 @@
-dispatch: buffer	morph kmDispatcher dispatch: KMBuffer uniqueInstance buffer copy
+dispatch: buffer	morph kmDispatcher dispatch: buffer

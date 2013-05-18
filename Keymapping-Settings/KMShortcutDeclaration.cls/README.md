@@ -1,1 +1,1 @@
-A KMShortcutDeclaration is xxxxxxxxx.Instance Variables	categoryName:		<Object>	declaration:		<Object>	shortcutName:		<Object>categoryName	- xxxxxdeclaration	- xxxxxshortcutName	- xxxxx
+I represent a shortcut declaration for the settings pharo framework.
