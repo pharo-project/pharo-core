@@ -1,1 +1,1 @@
-enabled	^super enabled and: [ self lock == false ]
+enabled	^super enabled and: [ self isLocked not ]
