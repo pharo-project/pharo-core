@@ -1,0 +1,1 @@
+inspectionMenu: aMenu inspector: inspector	"specific menu for the current element"		self referenceSubMenu: aMenu inspector: inspector.		self browseSubMenu: aMenu.		self instRefMenu: aMenu inspector: inspector.			self endMenu: aMenu.

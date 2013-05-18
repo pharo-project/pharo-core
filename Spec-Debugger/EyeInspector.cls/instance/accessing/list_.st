@@ -1,0 +1,1 @@
+list: anObject	list := anObject

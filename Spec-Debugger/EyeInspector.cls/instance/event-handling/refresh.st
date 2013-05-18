@@ -1,0 +1,1 @@
+refresh	"refresh the object in the inspector, updating his modified instance variables"	|selectedIndex|		selectedIndex := list selectedIndex.	self inspect: self object.	list setSelectedIndex: selectedIndex.

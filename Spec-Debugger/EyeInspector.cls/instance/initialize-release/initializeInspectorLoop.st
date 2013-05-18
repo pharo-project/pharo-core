@@ -1,0 +1,1 @@
+initializeInspectorLoop		refreshLoop := [ self refresh ] valueWithInterval: self updateTime.

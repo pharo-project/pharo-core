@@ -1,0 +1,1 @@
+fieldName	^ fieldName ifNil: [ self error: 'shouldnt have Instance variable named nil' ]

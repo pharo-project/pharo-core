@@ -1,0 +1,1 @@
+printedValue	^ printedValue ifNil: [ printedValue := object printStringLimitedTo: 2000 ]

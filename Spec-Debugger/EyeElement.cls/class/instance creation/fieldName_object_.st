@@ -1,0 +1,1 @@
+fieldName: aString object: anObject 	^self new 		fieldName: aString;		object: anObject

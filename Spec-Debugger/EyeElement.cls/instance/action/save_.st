@@ -1,0 +1,1 @@
+save: aValue 	^ self saveAction value: aValue

@@ -1,0 +1,1 @@
+fieldName: aString object: anObject printedValue: anotherString saveAction: aBlock	^ (self fieldName: aString object: anObject) 		printedValue: anotherString;		saveAction: aBlock

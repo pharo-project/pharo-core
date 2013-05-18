@@ -1,0 +1,1 @@
+inspectorSpec2	<spec>	^ SpecLayout composed		add: #list origin: 0@0 corner: 0.4@0.70;		add: #description origin: 0.4@0 corner: 1@0.70;		add: #text origin: 0@0.70 corner: 1@1;		yourself

@@ -1,0 +1,1 @@
+initializePresenter	"initialize the event handlings"	object whenChangedDo: [ self objectChanged ].		list whenSelectedItemChanged: [ self printDescription ].		description whenTextIsAccepted: [ self saveElement ].		self initializeShortCuts.			self initializeInspectorLoop.

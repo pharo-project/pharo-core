@@ -1,0 +1,1 @@
+inspectionMenu: aMenu		"self refreshSubMenu: aMenu."		self inspectionSubMenu: aMenu.		self selectedElement inspectionMenu: aMenu inspector: self.				^aMenu

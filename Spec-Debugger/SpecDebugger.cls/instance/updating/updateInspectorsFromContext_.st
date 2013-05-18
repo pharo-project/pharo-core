@@ -1,0 +1,1 @@
+updateInspectorsFromContext: aContext		contextInspector inspect: aContext.	receiverInspector inspect: ( aContext ifNil: [ nil ] ifNotNil: [  aContext receiver ] )

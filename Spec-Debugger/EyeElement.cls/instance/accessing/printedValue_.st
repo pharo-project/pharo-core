@@ -1,0 +1,1 @@
+printedValue: aString	printedValue := aString

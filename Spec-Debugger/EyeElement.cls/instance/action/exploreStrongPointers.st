@@ -1,0 +1,1 @@
+exploreStrongPointers	^ Smalltalk tools strongPointerExplorer openOn: self object

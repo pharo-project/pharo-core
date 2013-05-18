@@ -1,0 +1,1 @@
+save: memento	"This save the state of the inspector to be able to remember it later"	|tempMemento|		tempMemento := memento copy.		memento removeAll.	memento at: 'object' put: self object.	memento at: 'mementoPrev' put: tempMemento.	memento at: 'selectedIndex' put: list selectedIndex.

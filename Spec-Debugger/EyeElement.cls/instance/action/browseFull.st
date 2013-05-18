@@ -1,0 +1,1 @@
+browseFull	"Open an class browser on the selectObject (inst side)"		^ self selectClass browse

@@ -1,0 +1,1 @@
+selectClass	^self object class

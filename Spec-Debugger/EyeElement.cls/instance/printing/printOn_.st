@@ -1,0 +1,1 @@
+printOn: aStream	aStream		<< fieldName printString		<< '->'		<< (object printStringLimitedTo: 50)

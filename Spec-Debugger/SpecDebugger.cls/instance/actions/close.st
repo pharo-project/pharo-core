@@ -1,1 +1,1 @@
-close	self removeActionsForSession: self session.	self session ifNotNil: [ :aSession | aSession terminate]	 
+close	self removeActionsForSession: self session.	self session ifNotNil: [ :aSession | aSession terminate].	contextInspector close.	receiverInspector close.

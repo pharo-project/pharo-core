@@ -1,0 +1,1 @@
+browseInstVarRefs: class	^ self systemNavigation browseInstVarRefs: class
