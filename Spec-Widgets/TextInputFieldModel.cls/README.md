@@ -1,1 +1,1 @@
-A TextInputFieldModel is a spec model for TextInputField.
+I handle one line of text.

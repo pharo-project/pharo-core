@@ -1,0 +1,1 @@
+initializeWidgets	self instantiateModels: #(		tree 		AlainTreeModel		inputField	TextInputFieldModel		label 		LabelModel ).				tree rootNodeHolder: [ :item | 		FilteringTreeNode with: item model: tree ].				label 		text: 'Search:';		color:Color black.		inputField		ghostText: 'search';		entryCompletion: nil;		acceptOnCR: true

@@ -1,0 +1,1 @@
+defaultSpec	<spec: #default>		^ SpecLayout composed		newRow: [:r |			r			add: #label width: 50;			add: #inputField ] height: 25;		newRow: #tree top: 25;		yourself

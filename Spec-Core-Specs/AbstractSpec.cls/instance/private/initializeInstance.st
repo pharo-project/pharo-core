@@ -1,1 +1,1 @@
-initializeInstance	^ SpecInterpreter		private_interpretASpec: 			{ self classSymbol.				#color:. #(Color class white)} 		model: DummyComposableModel new
+initializeInstance	^ SpecInterpreter		private_interpretASpec: 			{ self classSymbol.				#color:. #(Color class black)} 		model: DummyComposableModel new

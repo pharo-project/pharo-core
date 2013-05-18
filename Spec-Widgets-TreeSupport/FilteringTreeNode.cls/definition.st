@@ -1,0 +1,1 @@
+DefaultSpecTreeNode subclass: #FilteringTreeNode	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Widgets-TreeSupport'
