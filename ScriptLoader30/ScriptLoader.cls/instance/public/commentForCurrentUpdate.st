@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10028 Integrate Opal	https://pharo.fogbugz.com/f/cases/10028	(remove destructive tests)'
+commentForCurrentUpdate ^ '10302 RBparser: improve error message	https://pharo.fogbugz.com/f/cases/10302	10286 Remove NaturalLanguageTranslator from image startup list	https://pharo.fogbugz.com/f/cases/10286/	10109 MNU : SmalltalkEditor>>browseItHere:	https://pharo.fogbugz.com/f/cases/10109	and remove Opal repos'
