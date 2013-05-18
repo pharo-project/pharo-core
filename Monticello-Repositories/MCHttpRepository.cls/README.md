@@ -1,1 +1,1 @@
-A MCHttpRepository is xxxxxxxxx.Instance Variables	location:		<Object>	password:		<Object>	readerCache:		<Object>	user:		<Object>location	- xxxxxpassword	- xxxxxreaderCache	- xxxxxuser	- xxxxx
+I am general http repository for monticello.I support the general protocol for listing files in a remote repository.

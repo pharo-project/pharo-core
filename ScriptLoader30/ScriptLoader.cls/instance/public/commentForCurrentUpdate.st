@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10256 Got startup errors	https://pharo.fogbugz.com/f/cases/10256	10257 Prevent potential UI deadlock for MCWorkingCopyBrowser when saving	https://pharo.fogbugz.com/f/cases/10257		'
+commentForCurrentUpdate ^ '10237 MCHttpRepository>>#location: should instantiate specialized repositories if possible	https://pharo.fogbugz.com/f/cases/10237/	7627 FileReference>>deleteAll follows symlinks	https://pharo.fogbugz.com/f/cases/7627/	'

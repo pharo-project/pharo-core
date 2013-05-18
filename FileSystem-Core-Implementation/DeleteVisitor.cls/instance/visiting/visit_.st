@@ -1,1 +1,1 @@
-visit: aReference	PostorderGuide show: aReference to: self
+visit: aReference	PostorderGuide 		show: aReference 		to: self 		selecting: [ :entry | entry isSymlink not ]

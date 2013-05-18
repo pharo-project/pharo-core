@@ -1,0 +1,1 @@
+isResponsibleFor: aUrl	^ aUrl includesSubstring: 'ss3.gemstone.com/'

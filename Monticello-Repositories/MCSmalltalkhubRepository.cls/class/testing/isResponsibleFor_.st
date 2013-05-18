@@ -1,0 +1,1 @@
+isResponsibleFor: aUrl	^ aUrl includesSubstring: self smalltalkhubUrl

@@ -1,1 +1,1 @@
-pushAll: aCollection 	aCollection reverseDo: [ :ea | work add: ea ]
+pushAll: aCollection 	aCollection reverseDo: [ :each | work add: each ]

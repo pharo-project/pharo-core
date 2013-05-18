@@ -1,1 +1,1 @@
-visit: anEntry	anEntry isDirectory		ifTrue: [visitor visitDirectory: anEntry]		ifFalse: [visitor visitFile: anEntry]	
+visit: anEntry	anEntry isDirectory		ifTrue: [ visitor visitDirectory: anEntry ]		ifFalse: [ visitor visitFile: anEntry ]
