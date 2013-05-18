@@ -1,0 +1,1 @@
+update30050	"self new update30050"	self withUpdateLog: '10033 Integrate AST interpreter	https://pharo.fogbugz.com/f/cases/10033'.	self loadTogether: self script148 merge: false.	ScriptLoader new addHomeRepositoryToAllPackages.	self flushCaches.

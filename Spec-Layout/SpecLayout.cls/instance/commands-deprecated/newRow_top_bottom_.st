@@ -1,0 +1,1 @@
+newRow: aBlock top: top bottom: bottom		self add: aBlock top: top bottom: bottom

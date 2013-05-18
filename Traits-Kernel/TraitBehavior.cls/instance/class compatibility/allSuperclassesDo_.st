@@ -1,0 +1,1 @@
+allSuperclassesDo: aBlock

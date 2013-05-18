@@ -1,0 +1,1 @@
+openRecentChangesLog	self changeList browseRecentLog

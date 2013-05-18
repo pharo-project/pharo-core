@@ -1,0 +1,1 @@
+uniqueInstance	self ensureSingletonExistence.	^UniqueInstance

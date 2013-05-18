@@ -1,0 +1,1 @@
+onEventSensorStartup: anEventSensor	anEventSensor flushAllButDandDEvents

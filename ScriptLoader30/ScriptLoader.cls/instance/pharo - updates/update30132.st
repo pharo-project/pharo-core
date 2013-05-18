@@ -1,0 +1,1 @@
+update30132	"self new update30132"	RPackageOrganizer initialize.	self withUpdateLog: '10630 move FamFam package to Polymorph	https://pharo.fogbugz.com/f/cases/10630(second attempt)'.	self loadTogether: self script229 merge: false.	self flushCaches.

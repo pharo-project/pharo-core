@@ -1,0 +1,1 @@
+createComment	^self commentClass new

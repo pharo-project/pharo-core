@@ -1,0 +1,1 @@
+A RPackageTraitTest is xxxxxxxxx.Instance Variables	a1:		<Object>	a2:		<Object>	a3:		<Object>	b1:		<Object>	b2:		<Object>	p4:		<Object>	p5:		<Object>	p6:		<Object>	t1:		<Object>	t2:		<Object>a1	- xxxxxa2	- xxxxxa3	- xxxxxb1	- xxxxxb2	- xxxxxp4	- xxxxxp5	- xxxxxp6	- xxxxxt1	- xxxxxt2	- xxxxx

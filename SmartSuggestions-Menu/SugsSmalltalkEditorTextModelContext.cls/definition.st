@@ -1,0 +1,1 @@
+SugsAbstractContext subclass: #SugsSmalltalkEditorTextModelContext	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'SmartSuggestions-Menu'

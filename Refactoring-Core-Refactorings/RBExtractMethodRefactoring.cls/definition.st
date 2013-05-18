@@ -1,0 +1,1 @@
+RBMethodRefactoring subclass: #RBExtractMethodRefactoring	instanceVariableNames: 'selector extractionInterval extractedParseTree modifiedParseTree parameters needsReturn'	classVariableNames: ''	poolDictionaries: ''	category: 'Refactoring-Core-Refactorings'

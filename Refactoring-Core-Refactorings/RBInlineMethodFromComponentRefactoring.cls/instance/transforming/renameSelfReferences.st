@@ -1,0 +1,1 @@
+renameSelfReferences	self addSelfReferenceToSourceMessage.	self addSelfReferenceToInlineParseTree.

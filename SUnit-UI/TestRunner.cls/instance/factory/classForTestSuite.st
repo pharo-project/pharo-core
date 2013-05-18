@@ -1,0 +1,1 @@
+classForTestSuite	^ TestSuite

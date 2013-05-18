@@ -1,0 +1,1 @@
+browse	self subclassResponsibility

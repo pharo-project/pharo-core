@@ -1,0 +1,1 @@
+comment: aString 	comment := aString

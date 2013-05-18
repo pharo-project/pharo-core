@@ -1,1 +1,1 @@
-interactive	^interactive 
+interactive	^ interactive ifNil: [ false ]

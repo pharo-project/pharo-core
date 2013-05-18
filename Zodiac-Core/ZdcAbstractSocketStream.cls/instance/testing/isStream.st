@@ -1,0 +1,1 @@
+isStream	^ true

@@ -1,0 +1,1 @@
+inspect: anObject	self inspector: anObject eyeInspector.

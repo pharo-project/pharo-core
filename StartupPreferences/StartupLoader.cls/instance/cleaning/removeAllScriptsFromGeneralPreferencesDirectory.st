@@ -1,0 +1,1 @@
+removeAllScriptsFromGeneralPreferencesDirectory	self removeAllScriptsFromDirectory: self preferencesGeneralFolder.		

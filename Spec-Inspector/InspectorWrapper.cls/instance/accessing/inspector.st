@@ -1,0 +1,1 @@
+inspector	^ inspector contents

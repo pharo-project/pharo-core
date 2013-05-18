@@ -1,0 +1,1 @@
+symbolic	^ self method symbolic

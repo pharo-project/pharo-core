@@ -1,0 +1,1 @@
+update30073	"self new update30073"	self withUpdateLog: '10445 Running NonDestructive Regression Tests Headless: wrong error handling	https://pharo.fogbugz.com/f/cases/10445'.	self loadTogether: self script170 merge: false.	self flushCaches.

@@ -1,0 +1,1 @@
+regexpSearch	^ self class regexpSearch

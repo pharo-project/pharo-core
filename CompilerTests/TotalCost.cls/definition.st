@@ -1,1 +1,0 @@
-Object subclass: #TotalCost	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'CompilerTests'

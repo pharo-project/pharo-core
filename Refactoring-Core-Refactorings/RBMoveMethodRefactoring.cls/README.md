@@ -1,0 +1,1 @@
+A RBMoveMethodRefactoring is xxxxxxxxx.Instance Variables	hasOnlySelfReturns:		<Object>	moveToClasses:		<Object>	parseTree:		<Object>	selector:		<Object>	selfVariableName:		<Object>	variable:		<Object>hasOnlySelfReturns	- xxxxxmoveToClasses	- xxxxxparseTree	- xxxxxselector	- xxxxxselfVariableName	- xxxxxvariable	- xxxxx

@@ -1,0 +1,1 @@
+isBasic	^ self class ~= AbstractSpec

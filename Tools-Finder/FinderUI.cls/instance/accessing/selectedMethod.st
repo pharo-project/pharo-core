@@ -1,0 +1,1 @@
+selectedMethod	^ self finder selectedMethod

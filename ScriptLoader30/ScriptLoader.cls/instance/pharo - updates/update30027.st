@@ -1,0 +1,1 @@
+update30027	"self new update30027"	self withUpdateLog: '7603 PositionalStream>>#last is a candidate for removal		https://pharo.fogbugz.com/f/cases/7603	10096 remove Network-URI		https://pharo.fogbugz.com/f/cases/10096'.	self loadTogether: self script126 merge: false.	ScriptLoader new unloadPackage: 'Network-URI'..	self flushCaches.

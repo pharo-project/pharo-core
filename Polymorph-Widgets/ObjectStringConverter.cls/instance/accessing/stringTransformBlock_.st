@@ -1,0 +1,1 @@
+stringTransformBlock: anObject	stringTransformBlock := anObject

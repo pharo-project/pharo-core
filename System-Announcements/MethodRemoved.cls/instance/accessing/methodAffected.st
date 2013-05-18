@@ -1,0 +1,1 @@
+methodAffected	^self methodRemoved

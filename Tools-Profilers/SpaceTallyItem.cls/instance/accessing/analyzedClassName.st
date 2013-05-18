@@ -1,0 +1,1 @@
+analyzedClassName	^ analyzedClassName

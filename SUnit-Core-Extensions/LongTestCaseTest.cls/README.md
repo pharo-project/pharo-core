@@ -1,0 +1,1 @@
+A LongTestCaseTest is xxxxxxxxx.Instance Variables	longTestCaseSettingValue:		<Object>longTestCaseSettingValue	- xxxxx

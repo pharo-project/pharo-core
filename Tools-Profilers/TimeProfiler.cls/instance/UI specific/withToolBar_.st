@@ -1,0 +1,1 @@
+withToolBar: aBoolean	withToolBar := aBoolean

@@ -1,0 +1,1 @@
+update30085	"self new update30085"	self withUpdateLog: '10476 fix CompiledMethodTest>>testCopyWithTrailerBytes	https://pharo.fogbugz.com/f/cases/10476	10480 deprecated #decompilerClass	https://pharo.fogbugz.com/f/cases/10480'.	self loadTogether: self script182 merge: false.	self flushCaches.

@@ -1,0 +1,1 @@
+update30108	"self new update30108"	self withUpdateLog: '10541 Fix fileOut broken by update 30107	https://pharo.fogbugz.com/f/cases/10541	10539 Small cleanup related to #methods in Kernel	https://pharo.fogbugz.com/f/cases/10539'.	self loadTogether: self script205 merge: false.	self flushCaches.

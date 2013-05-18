@@ -1,0 +1,1 @@
+justified	alignment := 3

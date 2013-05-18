@@ -1,0 +1,1 @@
+inspectItem	self settingDeclaration inspect

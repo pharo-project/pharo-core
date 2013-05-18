@@ -1,0 +1,1 @@
+implementorsCanBePrimitives	^self hasPermutedArguments not

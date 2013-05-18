@@ -1,0 +1,1 @@
+errorBlockFor: aBoolean 	^nil

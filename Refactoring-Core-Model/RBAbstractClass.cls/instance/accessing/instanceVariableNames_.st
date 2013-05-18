@@ -1,0 +1,1 @@
+instanceVariableNames: aCollectionOfStrings 	instanceVariableNames := aCollectionOfStrings asOrderedCollection

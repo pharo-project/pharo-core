@@ -1,0 +1,1 @@
+A PseudoClassOrganizer is xxxxxxxxx.Instance Variables

@@ -1,0 +1,1 @@
+update30120	"self new update30120"	self withUpdateLog: '10594 Set compiler option +optLongIvarAccessBytecodes for InstructionStream Hierarchy	https://pharo.fogbugz.com/f/cases/10594	10591 reduce sends of methodDictionary and methodDictionary:	https://pharo.fogbugz.com/f/cases/10591'.	self loadTogether: self script217 merge: false.	self flushCaches.

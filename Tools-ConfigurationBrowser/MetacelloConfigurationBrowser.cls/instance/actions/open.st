@@ -1,0 +1,1 @@
+open	self refresh.	window openInWorld

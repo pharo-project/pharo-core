@@ -1,0 +1,1 @@
+definitionPatterns	self subclassResponsibility

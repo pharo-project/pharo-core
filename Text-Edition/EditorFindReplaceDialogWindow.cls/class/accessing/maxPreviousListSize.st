@@ -1,0 +1,1 @@
+maxPreviousListSize	^ 15

@@ -1,0 +1,1 @@
+Object subclass: #ZnHeaders	instanceVariableNames: 'headers'	classVariableNames: ''	poolDictionaries: ''	category: 'Zinc-HTTP-Core'

@@ -1,0 +1,1 @@
+selectedSelector	 ^ methodsListModel selectedItem

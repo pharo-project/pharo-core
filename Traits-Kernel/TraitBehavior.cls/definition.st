@@ -1,0 +1,1 @@
+Object subclass: #TraitBehavior	uses: TPureBehavior @ {#pureRemoveSelector:->#removeSelector:. #pureAddSelectorSilently:withMethod:->#addSelectorSilently:withMethod:}	instanceVariableNames: 'methodDict traitComposition localSelectors users'	classVariableNames: ''	poolDictionaries: ''	category: 'Traits-Kernel'

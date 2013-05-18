@@ -1,0 +1,1 @@
+withAllSubclasses	^ Array with: self

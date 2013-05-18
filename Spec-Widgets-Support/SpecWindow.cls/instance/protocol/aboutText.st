@@ -1,0 +1,1 @@
+aboutText	^ self model aboutText

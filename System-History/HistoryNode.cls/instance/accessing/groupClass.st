@@ -1,0 +1,1 @@
+groupClass	^ self class

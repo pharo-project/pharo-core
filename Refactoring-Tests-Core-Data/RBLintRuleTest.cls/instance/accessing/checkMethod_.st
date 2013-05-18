@@ -1,0 +1,1 @@
+checkMethod: aSmalllintContext

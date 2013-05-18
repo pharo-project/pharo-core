@@ -1,0 +1,1 @@
+resources	^ Array with: MCSnapshotResource

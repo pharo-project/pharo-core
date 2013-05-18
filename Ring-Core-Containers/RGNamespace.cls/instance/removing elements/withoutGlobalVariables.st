@@ -1,0 +1,1 @@
+withoutGlobalVariables	self removeElementsCategorized: #globalVariables

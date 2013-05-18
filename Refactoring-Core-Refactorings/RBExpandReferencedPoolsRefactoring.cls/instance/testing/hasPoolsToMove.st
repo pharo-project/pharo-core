@@ -1,0 +1,1 @@
+hasPoolsToMove	^pools isEmpty not

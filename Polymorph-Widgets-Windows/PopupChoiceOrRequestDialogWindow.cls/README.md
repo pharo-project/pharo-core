@@ -1,0 +1,1 @@
+A PopupChoiceOrRequestDialogWindow is xxxxxxxxx.Instance Variables	okButton:		<Object>okButton	- xxxxx

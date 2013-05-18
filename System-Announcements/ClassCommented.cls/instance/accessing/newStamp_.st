@@ -1,0 +1,1 @@
+newStamp: aNewStamp	newStamp := aNewStamp

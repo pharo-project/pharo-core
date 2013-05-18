@@ -1,0 +1,1 @@
+removeOldVariable	self subclassResponsibility

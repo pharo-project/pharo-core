@@ -1,0 +1,1 @@
+selectedChangeSet	 ^ changesListModel selectedItem

@@ -1,0 +1,1 @@
+isText	^ true

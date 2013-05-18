@@ -1,0 +1,1 @@
+inspectableContents	^ OrderedCollection with: self

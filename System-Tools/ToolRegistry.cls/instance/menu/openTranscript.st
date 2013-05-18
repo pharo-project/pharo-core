@@ -1,0 +1,1 @@
+openTranscript	^ self transcript open

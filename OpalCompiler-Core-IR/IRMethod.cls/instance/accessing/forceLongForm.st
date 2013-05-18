@@ -1,1 +1,1 @@
-forceLongForm	^forceLongForm
+forceLongForm	compilationContext ifNil: [ ^ false ].	^compilationContext optLongIvarAccessBytecodes		

@@ -1,1 +1,0 @@
-pragma	^Pragma keyword: selector arguments: arguments

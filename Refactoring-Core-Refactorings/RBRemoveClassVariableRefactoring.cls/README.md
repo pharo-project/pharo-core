@@ -1,0 +1,1 @@
+A RBRemoveClassVariableRefactoring is xxxxxxxxx.Instance Variables

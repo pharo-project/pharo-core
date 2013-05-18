@@ -1,0 +1,1 @@
+superclassNameKey		^#superclassName

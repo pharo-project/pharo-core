@@ -1,1 +1,1 @@
-evaluateSelection	| foo |	foo := OpalCompiler new		evaluate: morph editor selectionAsStream		in: nil		to: nil		notifying: morph editor		ifFail: [^failure]		logged: false.	"1halt."	^ foo	
+evaluateSelection	^ OpalCompiler new		source: morph editor selectionAsStream;		requestor: morph editor;		failBlock: [^failure];		evaluate	

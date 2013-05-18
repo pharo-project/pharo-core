@@ -1,0 +1,1 @@
+hashSize	^ self class hashSize

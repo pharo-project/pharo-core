@@ -1,0 +1,1 @@
+update30091	"self new update30091"	ScriptLoader new addHomeRepositoryToAllPackages.	self withUpdateLog: '10490 Eye inspector bug	https://pharo.fogbugz.com/f/cases/10490'.	self loadTogether: self script188 merge: false.	self flushCaches.

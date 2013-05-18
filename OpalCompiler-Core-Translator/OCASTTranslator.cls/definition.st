@@ -1,1 +1,1 @@
-RBProgramNodeVisitor subclass: #OCASTTranslator	instanceVariableNames: 'methodBuilder effectTranslator valueTranslator compilationContext'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-Translator'
+RBProgramNodeVisitor subclass: #OCASTTranslator	instanceVariableNames: 'methodBuilder effectTranslator valueTranslator'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-Translator'

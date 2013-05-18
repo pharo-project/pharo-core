@@ -1,0 +1,1 @@
+object	^ self inspector object

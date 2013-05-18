@@ -1,0 +1,1 @@
+initialize	session := nil asValueHolder.	super initialize.		needRefresh := false.	session whenChangedDo: [:newSession :oldSession |		self removeActionsForSession: oldSession.		self registerActionsForSession: newSession.		self updateToolbarFromSession: newSession.		self updateStackFromSession: newSession ].

@@ -1,0 +1,1 @@
+encodedByteCountForString: string	^ string size

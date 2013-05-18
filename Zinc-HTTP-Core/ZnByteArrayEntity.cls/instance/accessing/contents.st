@@ -1,0 +1,1 @@
+contents	^ self bytes

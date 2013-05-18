@@ -1,0 +1,1 @@
+isTextEditor	^ false 

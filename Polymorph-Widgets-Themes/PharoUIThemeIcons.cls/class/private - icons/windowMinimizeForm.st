@@ -1,0 +1,1 @@
+windowMinimizeForm	^ self current windowMinimizeForm.

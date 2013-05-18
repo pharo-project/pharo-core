@@ -1,0 +1,1 @@
+privShrinkingProcess	self privShrinkingProcessWith: #().

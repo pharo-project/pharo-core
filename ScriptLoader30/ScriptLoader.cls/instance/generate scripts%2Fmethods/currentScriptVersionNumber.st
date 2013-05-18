@@ -1,0 +1,1 @@
+currentScriptVersionNumber	^ CurrentScriptVersionNumber

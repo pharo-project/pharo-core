@@ -1,0 +1,1 @@
+soundEnabled	^ self defaultSoundEnabled

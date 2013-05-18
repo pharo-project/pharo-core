@@ -1,0 +1,1 @@
+A RBChangeMethodNameRefactoring is xxxxxxxxx.Instance Variables	implementors:		<Object>	newSelector:		<Object>	oldSelector:		<Object>	permutation:		<Object>implementors	- xxxxxnewSelector	- xxxxxoldSelector	- xxxxxpermutation	- xxxxx

@@ -1,0 +1,1 @@
+nextSibling: anotherMorph	nextSibling := anotherMorph

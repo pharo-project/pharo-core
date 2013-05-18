@@ -1,0 +1,1 @@
+spec: aSpec	spec := aSpec

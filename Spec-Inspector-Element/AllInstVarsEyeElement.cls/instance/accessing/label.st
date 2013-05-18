@@ -1,0 +1,1 @@
+label	^ 'all inst vars'

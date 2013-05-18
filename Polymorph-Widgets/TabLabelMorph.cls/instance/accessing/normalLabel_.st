@@ -1,0 +1,1 @@
+normalLabel: anObject	normalLabel := anObject

@@ -1,0 +1,1 @@
+label	^ 'Senders' translated

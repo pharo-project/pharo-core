@@ -1,0 +1,1 @@
+result: anObject	result := anObject

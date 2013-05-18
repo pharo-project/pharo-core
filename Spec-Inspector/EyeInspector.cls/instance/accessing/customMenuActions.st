@@ -1,0 +1,1 @@
+customMenuActions	^ customMenuActions ifNil: [ customMenuActions := [  ] ]

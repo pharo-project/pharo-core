@@ -1,0 +1,1 @@
+A RBRenameClassVariableChange is xxxxxxxxx.Instance Variables

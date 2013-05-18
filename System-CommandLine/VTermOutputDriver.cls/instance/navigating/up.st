@@ -1,0 +1,1 @@
+up	self termcap: 'up'

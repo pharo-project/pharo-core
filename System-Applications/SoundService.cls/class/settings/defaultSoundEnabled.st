@@ -1,0 +1,1 @@
+defaultSoundEnabled	^DefaultSoundEnabled ifNil: [false]

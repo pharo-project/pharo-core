@@ -1,0 +1,1 @@
+A RBRemoveMethodRefactoring is xxxxxxxxx.Instance Variables	selectors:		<Object>selectors	- xxxxx

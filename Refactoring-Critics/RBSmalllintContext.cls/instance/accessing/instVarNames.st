@@ -1,0 +1,1 @@
+instVarNames	^self selectedClass allInstVarNames

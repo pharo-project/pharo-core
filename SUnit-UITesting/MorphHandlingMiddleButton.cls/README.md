@@ -1,0 +1,1 @@
+A MorphHandlingMiddleButton is xxxxxxxxx.Instance Variables	menu:		<Object>	receivedBlueButtonDown:		<Object>	receivedBlueButtonUp:		<Object>menu	- xxxxxreceivedBlueButtonDown	- xxxxxreceivedBlueButtonUp	- xxxxx

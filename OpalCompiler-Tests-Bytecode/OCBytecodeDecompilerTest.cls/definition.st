@@ -1,1 +1,1 @@
-TestCase subclass: #OCBytecodeDecompilerTest	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Tests-Bytecode'
+TestCase subclass: #OCBytecodeDecompilerTest	instanceVariableNames: 'currentCompiler'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Tests-Bytecode'

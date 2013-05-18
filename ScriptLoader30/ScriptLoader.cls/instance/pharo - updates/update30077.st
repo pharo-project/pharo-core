@@ -1,0 +1,1 @@
+update30077	"self new update30077"	self withUpdateLog: '10457 Cleaning valueWithInterval API	https://pharo.fogbugz.com/f/cases/10457	10454 finally remove logMethodSource2:... and compile2:	https://pharo.fogbugz.com/f/cases/10454/'.	self loadTogether: self script174 merge: false.	self flushCaches.

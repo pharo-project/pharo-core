@@ -1,0 +1,1 @@
+findBestNodeFor: context	| root node|	root := context selectedMethod 		ifNil:[ RBParser parseFaultyExpression: context code] 		ifNotNil: [ RBParser parseFaultyMethod: context code].	root annotateInClass: context selectedClass.	node := root bestNodeFor: context selectedInterval.	context selectedNode: node.	^node.

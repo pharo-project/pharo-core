@@ -1,0 +1,1 @@
+A SugsSuggestionDelegateTest is xxxxxxxxx.Instance Variables

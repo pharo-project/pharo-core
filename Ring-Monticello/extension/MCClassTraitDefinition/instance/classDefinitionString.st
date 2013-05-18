@@ -1,0 +1,1 @@
+classDefinitionString	^self definitionString

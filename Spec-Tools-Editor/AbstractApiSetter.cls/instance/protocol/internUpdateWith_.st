@@ -1,0 +1,1 @@
+internUpdateWith: aValue	self subclassResponsibility

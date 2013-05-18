@@ -1,0 +1,1 @@
+A RowScrollerMorph is xxxxxxxxx.Instance Variables	leftButton:		<Object>	rightButton:		<Object>	scroller:		<Object>leftButton	- xxxxxrightButton	- xxxxxscroller	- xxxxx

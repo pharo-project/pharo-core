@@ -1,0 +1,1 @@
+windowMaximizeForm	^ self current windowMaximizeForm.

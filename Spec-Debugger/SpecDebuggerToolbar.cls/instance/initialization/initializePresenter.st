@@ -1,0 +1,1 @@
+initializePresenter	super initializePresenter.		selectedContext  whenChangedDo: [		self updateCreateMethodButton ]

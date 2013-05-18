@@ -1,0 +1,1 @@
+A RPackageCompleteSetupButForModificationTest is xxxxxxxxx.Instance Variables	a1:		<Object>	a2:		<Object>	a3:		<Object>	b1:		<Object>	b2:		<Object>	p1:		<Object>	p2:		<Object>	p3:		<Object>a1	- xxxxxa2	- xxxxxa3	- xxxxxb1	- xxxxxb2	- xxxxxp1	- xxxxxp2	- xxxxxp3	- xxxxx

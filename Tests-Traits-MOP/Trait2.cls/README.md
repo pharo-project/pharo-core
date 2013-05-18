@@ -1,0 +1,1 @@
+A Trait2 is xxxxxxxxx.

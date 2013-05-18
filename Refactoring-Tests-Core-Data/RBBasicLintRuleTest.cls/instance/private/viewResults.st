@@ -1,0 +1,1 @@
+viewResults	result openEditor

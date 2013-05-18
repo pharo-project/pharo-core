@@ -1,0 +1,1 @@
+RBMethodRefactoring subclass: #RBPullUpMethodRefactoring	instanceVariableNames: 'removeDuplicates selectors'	classVariableNames: ''	poolDictionaries: ''	category: 'Refactoring-Core-Refactorings'

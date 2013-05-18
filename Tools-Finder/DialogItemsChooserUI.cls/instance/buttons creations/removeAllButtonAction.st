@@ -1,0 +1,1 @@
+removeAllButtonAction	self removeAllItems.

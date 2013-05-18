@@ -1,0 +1,1 @@
+A RBPullUpMethodRefactoring is xxxxxxxxx.Instance Variables	removeDuplicates:		<Object>	selectors:		<Object>removeDuplicates	- xxxxxselectors	- xxxxx

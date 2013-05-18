@@ -1,0 +1,1 @@
+mayActOnEvent: anEvent	^ true

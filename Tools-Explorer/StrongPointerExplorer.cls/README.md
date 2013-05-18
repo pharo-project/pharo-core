@@ -1,0 +1,1 @@
+i doing same job, as my superclass, but do not follow weak references

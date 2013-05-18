@@ -1,0 +1,1 @@
++ aTraitExpression	^ aTraitExpression addCompositionOnLeft: self.

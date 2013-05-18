@@ -1,0 +1,1 @@
+errorWasInUIProcess: boolean	errorWasInUIProcess := boolean

@@ -1,0 +1,1 @@
+update30002	"self new update30002"	self withUpdateLog: '10021 Duration should have wait	https://pharo.fogbugz.com/f/cases/10021'.	self loadTogether: self script101 merge: false.	self flushCaches.

@@ -1,0 +1,1 @@
+A RBCascadedNextPutAllsRule is xxxxxxxxx.Instance Variables

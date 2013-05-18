@@ -1,0 +1,1 @@
+Abstract superclass. See subclasses.

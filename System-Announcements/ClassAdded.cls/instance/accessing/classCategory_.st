@@ -1,0 +1,1 @@
+classCategory: aClassCategoryName	classCategory := aClassCategoryName

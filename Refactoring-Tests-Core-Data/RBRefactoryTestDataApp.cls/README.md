@@ -1,0 +1,1 @@
+A RBRefactoryTestDataApp is xxxxxxxxx.Instance Variables	temporaryVariable:		<Object>temporaryVariable	- xxxxx

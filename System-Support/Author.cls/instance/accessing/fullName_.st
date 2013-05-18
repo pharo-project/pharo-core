@@ -1,0 +1,1 @@
+fullName: aString	fullName := aString.		 Smalltalk globals at: #UserManager 		ifPresent: [:usersManager | usersManager default currentUser setUserName: aString forGroup: #author].

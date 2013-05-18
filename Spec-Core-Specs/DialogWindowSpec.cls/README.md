@@ -1,0 +1,1 @@
+A DialogWindowSpec is xxxxxxxxx.Instance Variables

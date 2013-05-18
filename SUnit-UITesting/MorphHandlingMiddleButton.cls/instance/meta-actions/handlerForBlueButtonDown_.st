@@ -1,0 +1,1 @@
+handlerForBlueButtonDown: anEvent	^ self.

@@ -1,0 +1,1 @@
+inspector: anObject 	^ anObject class eyeClass new		inspect: anObject;		yourself

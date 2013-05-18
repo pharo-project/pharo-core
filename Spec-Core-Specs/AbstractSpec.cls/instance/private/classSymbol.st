@@ -1,0 +1,1 @@
+classSymbol	self subclassResponsibility

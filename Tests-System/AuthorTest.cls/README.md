@@ -1,0 +1,1 @@
+An AuthorTest is xxxxxxxxx.Instance Variables	author:		<Object>author	- xxxxx

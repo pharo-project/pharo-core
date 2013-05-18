@@ -1,0 +1,1 @@
+A RGVariableDefinition is xxxxxxxxx.Instance Variables

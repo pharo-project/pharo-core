@@ -1,0 +1,1 @@
+A RBSizeCheckRule is xxxxxxxxx.Instance Variables

@@ -1,0 +1,1 @@
+allSelectorsWithout: aBehaviorsCollection	"For compatibility"	^ self selectors

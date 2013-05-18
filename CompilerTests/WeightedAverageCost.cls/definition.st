@@ -1,1 +1,0 @@
-AverageCost subclass: #WeightedAverageCost	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'CompilerTests'

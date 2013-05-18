@@ -1,0 +1,1 @@
+updateSelectedMethod	self changed: #selectedMethod

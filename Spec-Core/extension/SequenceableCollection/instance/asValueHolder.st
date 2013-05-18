@@ -1,0 +1,1 @@
+asValueHolder	^ CollectionValueHolder contents: self

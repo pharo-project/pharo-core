@@ -1,0 +1,1 @@
+senders: aBoolean	browseSenders := aBoolean

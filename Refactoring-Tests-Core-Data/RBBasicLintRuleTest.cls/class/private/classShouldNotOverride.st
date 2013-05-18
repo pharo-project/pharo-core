@@ -1,0 +1,1 @@
+classShouldNotOverride	^#(#== #class)

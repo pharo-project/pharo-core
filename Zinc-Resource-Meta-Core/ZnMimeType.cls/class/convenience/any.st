@@ -1,0 +1,1 @@
+any	^ self predefinedInstanceAt: #any	

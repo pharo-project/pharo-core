@@ -1,0 +1,1 @@
+inheritanceButtonAction	self inheritance.

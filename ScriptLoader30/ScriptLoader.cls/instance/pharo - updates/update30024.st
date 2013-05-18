@@ -1,0 +1,1 @@
+update30024	"self new update30024"	self withUpdateLog: '10216 Fix two RB Related failing test	https://pharo.fogbugz.com/f/cases/10216	10214 Spec example update	https://pharo.fogbugz.com/f/cases/10214/	10212 New Spec version	https://pharo.fogbugz.com/f/cases/10212'.	self loadTogether: self script123 merge: false.	self flushCaches.

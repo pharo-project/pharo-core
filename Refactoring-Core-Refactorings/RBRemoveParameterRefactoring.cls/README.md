@@ -1,0 +1,1 @@
+A RBRemoveParameterRefactoring is xxxxxxxxx.Instance Variables	argument:		<Object>	parameterIndex:		<Object>argument	- xxxxxparameterIndex	- xxxxx

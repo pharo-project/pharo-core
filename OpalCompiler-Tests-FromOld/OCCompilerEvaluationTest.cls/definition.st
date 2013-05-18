@@ -1,0 +1,1 @@
+TestCase subclass: #OCCompilerEvaluationTest	instanceVariableNames: 'weightedAverage'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Tests-FromOld'

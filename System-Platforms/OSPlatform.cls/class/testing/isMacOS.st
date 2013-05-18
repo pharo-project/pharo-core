@@ -1,0 +1,1 @@
+isMacOS	^ self platformName = 'Mac OS'

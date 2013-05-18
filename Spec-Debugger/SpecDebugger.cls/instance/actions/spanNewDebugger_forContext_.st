@@ -1,0 +1,1 @@
+spanNewDebugger: aDebuggerClass forContext: aContext 	| currentSession  |		currentSession := self session.	self detachSession.	self window delete.	currentSession updateContextTo: aContext.	aDebuggerClass debugBasedOnSession: currentSession

@@ -1,0 +1,1 @@
+isEmpty	^self transformations isEmpty

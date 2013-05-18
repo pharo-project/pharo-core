@@ -1,1 +1,1 @@
-doSemanticAnalysisIn: classOrScope	self doSemanticAnalysisIn: classOrScope interactive: false.
+doSemanticAnalysisIn: behavior	self doSemanticAnalysisInContext: self compilationContext

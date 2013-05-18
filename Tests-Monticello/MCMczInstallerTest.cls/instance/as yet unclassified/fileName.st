@@ -1,0 +1,1 @@
+fileName	^ 'InstallerTest.mcz'

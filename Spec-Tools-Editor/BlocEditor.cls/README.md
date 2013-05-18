@@ -1,0 +1,1 @@
+A BlocEditor is xxxxxxxxx.Instance Variables	block:		<Object>	ok:		<Object>	post:		<Object>	pre:		<Object>	text:		<Object>block	- xxxxxok	- xxxxxpost	- xxxxxpre	- xxxxxtext	- xxxxx

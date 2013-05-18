@@ -1,0 +1,1 @@
+A LabelModel is a spec model for Labels

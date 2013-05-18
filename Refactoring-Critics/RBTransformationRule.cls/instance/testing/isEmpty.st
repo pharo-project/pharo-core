@@ -1,0 +1,1 @@
+isEmpty	^ builder changes isEmpty

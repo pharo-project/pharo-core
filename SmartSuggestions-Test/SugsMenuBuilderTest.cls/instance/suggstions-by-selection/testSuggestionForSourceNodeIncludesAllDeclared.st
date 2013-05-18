@@ -1,0 +1,1 @@
+testSuggestionForSourceNodeIncludesAllDeclared	| suggestions expected|	suggestions :=SugsMenuBuilder findSuggestionsFor: SugsMockContext sourceContext.	expected := SugsSuggestionFactory commandsForSource  .		self assert: (expected allSatisfy:[:expect | suggestions includes: expect]).

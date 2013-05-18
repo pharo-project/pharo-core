@@ -1,0 +1,1 @@
+soleInstance	^ self theNonMetaClass

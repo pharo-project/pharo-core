@@ -1,0 +1,1 @@
+maxClassNameSize: aNumber	maxClassNameSize := aNumber

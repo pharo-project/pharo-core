@@ -1,1 +1,0 @@
-TotalCost subclass: #AverageCost	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'CompilerTests'

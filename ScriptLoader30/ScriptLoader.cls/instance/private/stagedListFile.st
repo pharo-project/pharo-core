@@ -1,0 +1,1 @@
+stagedListFile	^  self stagedListFileName asFileReference

@@ -1,0 +1,1 @@
+defaultReceiver: anObject	defaultReceiver := anObject

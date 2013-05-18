@@ -1,1 +1,0 @@
-doSemanticAnalysisIn: classOrScope interactive: aBoolean	self doSemanticAnalysisIn: classOrScope interactive: aBoolean notifying: nil.

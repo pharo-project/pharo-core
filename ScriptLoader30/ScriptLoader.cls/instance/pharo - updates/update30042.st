@@ -1,0 +1,1 @@
+update30042	"self new update30042"	self withUpdateLog: '10028 Integrate Opal	https://pharo.fogbugz.com/f/cases/10028	(remove destructive tests)'.	self loadTogether: self script141 merge: false.	ScriptLoader new 	unloadPackage: 'OpalCompiler-RegressionTests';	unloadPackage: 'OpalCompiler-DestructiveRegressionTests'..	self flushCaches.

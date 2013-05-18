@@ -1,0 +1,1 @@
+hasResolution	^ hasResolution

@@ -1,0 +1,1 @@
+getClass	^self item realClass

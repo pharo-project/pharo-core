@@ -1,0 +1,1 @@
+A RBExtractMethodTest is xxxxxxxxx.Instance Variables

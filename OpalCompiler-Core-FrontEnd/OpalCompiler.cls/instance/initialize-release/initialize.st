@@ -1,1 +1,1 @@
-initialize	compilationContext := CompilationContext new.	compilationContext parseOptions: self class defaultOptions.
+initialize	super initialize.	compilationContext := CompilationContext default

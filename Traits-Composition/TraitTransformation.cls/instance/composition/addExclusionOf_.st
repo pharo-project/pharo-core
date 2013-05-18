@@ -1,0 +1,1 @@
+addExclusionOf: aSymbol	^self - {aSymbol}

@@ -1,0 +1,1 @@
+testPrintRefactoringManager	self assert: RBRefactoringManager instance printString isString

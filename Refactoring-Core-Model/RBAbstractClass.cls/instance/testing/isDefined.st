@@ -1,0 +1,1 @@
+isDefined	^self realClass notNil

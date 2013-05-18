@@ -1,0 +1,1 @@
+leftOffset	^ 0

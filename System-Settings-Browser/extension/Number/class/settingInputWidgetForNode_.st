@@ -1,0 +1,1 @@
+settingInputWidgetForNode: aSettingNode	^ aSettingNode inputWidgetForNumber

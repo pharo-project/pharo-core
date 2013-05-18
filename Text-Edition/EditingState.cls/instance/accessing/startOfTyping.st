@@ -1,0 +1,1 @@
+startOfTyping	^ startOfTyping

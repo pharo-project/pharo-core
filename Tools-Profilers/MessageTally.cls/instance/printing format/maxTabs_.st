@@ -1,0 +1,1 @@
+maxTabs: aNumber	maxTabs := aNumber

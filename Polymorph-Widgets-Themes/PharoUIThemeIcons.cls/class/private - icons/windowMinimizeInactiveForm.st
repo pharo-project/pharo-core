@@ -1,0 +1,1 @@
+windowMinimizeInactiveForm	^ self current windowMinimizeInactiveForm.

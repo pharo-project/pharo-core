@@ -1,0 +1,1 @@
+cursorInvisible	self termcap: 'vi'

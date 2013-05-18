@@ -1,0 +1,1 @@
+update30110	"self new update30110"	self withUpdateLog: '7215 Cannot use rewrite tool with Nautilus	https://pharo.fogbugz.com/f/cases/7215	10550 CompilerSyntaxErrorNotificationTest should use old Compiler	https://pharo.fogbugz.com/f/cases/10550'.	self loadTogether: self script207 merge: false.	self flushCaches.

@@ -1,0 +1,1 @@
+preferencesGeneralFolder	^ self class preferencesGeneralFolder.

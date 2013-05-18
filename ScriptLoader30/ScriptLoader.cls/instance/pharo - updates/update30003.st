@@ -1,0 +1,1 @@
+update30003	"self new update30003"	ScriptLoader new 	removeAllRepositories;	addHomeRepositoryToAllPackages.	self withUpdateLog: '10046 Spec new version	https://pharo.fogbugz.com/f/cases/10046'.	self loadTogether: self script102 merge: false.	self flushCaches.

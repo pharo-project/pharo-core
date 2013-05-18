@@ -1,0 +1,1 @@
+isSelectorsSymbol	^self finder isSelectorsSymbol

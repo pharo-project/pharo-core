@@ -1,0 +1,1 @@
+updateStackFromSession: aSession		self stack items: (aSession 		ifNil: [ OrderedCollection new ] 		ifNotNil: [ aSession stack ] )	"self stack setSelectedItem: aStack first"

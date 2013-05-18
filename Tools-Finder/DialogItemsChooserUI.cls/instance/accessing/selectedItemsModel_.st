@@ -1,0 +1,1 @@
+selectedItemsModel: anObject	selectedItemsModel := anObject

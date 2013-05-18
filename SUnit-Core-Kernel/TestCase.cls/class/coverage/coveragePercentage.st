@@ -1,0 +1,1 @@
+coveragePercentage	^ self coverage first

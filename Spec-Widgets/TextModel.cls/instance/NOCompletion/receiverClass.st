@@ -1,0 +1,1 @@
+receiverClass	^ self behavior

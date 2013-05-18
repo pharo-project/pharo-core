@@ -1,0 +1,1 @@
+sslSessionClass	^ ZdcPluginSSLSession 

@@ -1,0 +1,1 @@
+A TextClassLink is xxxxxxxxx.Instance Variables	className:		<Object>className	- xxxxx

@@ -1,0 +1,1 @@
+update30032	"self new update30032"	self withUpdateLog: '10237 MCHttpRepository>>#location: should instantiate specialized repositories if possible	https://pharo.fogbugz.com/f/cases/10237/	7627 FileReference>>deleteAll follows symlinks	https://pharo.fogbugz.com/f/cases/7627/	'.	self loadTogether: self script131 merge: false.	self flushCaches.

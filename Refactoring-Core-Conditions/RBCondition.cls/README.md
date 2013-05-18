@@ -1,0 +1,1 @@
+A RBCondition is xxxxxxxxx.Instance Variables	block:		<Object>	errorBlock:		<Object>	type:		<Object>block	- xxxxxerrorBlock	- xxxxxtype	- xxxxx

@@ -1,0 +1,1 @@
+generateSpecFormat	^ self asArray generateSpecFormat

@@ -1,0 +1,1 @@
+suiteClass	^TestSuite

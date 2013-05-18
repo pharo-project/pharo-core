@@ -1,0 +1,1 @@
+isClassMethodReference	^ self isMetaSide 

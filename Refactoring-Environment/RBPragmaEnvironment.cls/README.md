@@ -1,0 +1,1 @@
+A RBPragmaEnvironment is xxxxxxxxx.Instance Variables	condition:		<Object>	keywords:		<Object>condition	- xxxxxkeywords	- xxxxx

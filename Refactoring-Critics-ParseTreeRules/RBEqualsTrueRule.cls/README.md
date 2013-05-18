@@ -1,0 +1,1 @@
+A RBEqualsTrueRule is xxxxxxxxx.Instance Variables

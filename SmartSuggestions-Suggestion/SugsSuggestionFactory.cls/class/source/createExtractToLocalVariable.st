@@ -1,0 +1,1 @@
+createExtractToLocalVariable	<sourceCodeCommand>	<messageCommand>	^ SugsExtractToLocalVariable 		icon: Smalltalk ui icons smallJumpIcon		position: 20

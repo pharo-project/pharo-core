@@ -1,0 +1,1 @@
+morph: anObject		morph ifNotNil: [ self removeMorph: morph ].		morph := anObject.	self addMorphBack: morph

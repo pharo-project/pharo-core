@@ -1,0 +1,1 @@
+testEmptyCharacterFail	interactive := true.	self initializeErrorMessage.	self flag: 'opal returns nil, old compiler a character was expected'.	"self compile: 'test $' failBlock: [^nil].	self fail."

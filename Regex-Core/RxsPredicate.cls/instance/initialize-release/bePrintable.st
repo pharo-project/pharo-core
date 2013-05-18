@@ -1,0 +1,1 @@
+bePrintable	self		beControl;		negate

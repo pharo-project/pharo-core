@@ -1,0 +1,1 @@
+A MCSnapshotBrowserTest is xxxxxxxxx.Instance Variables	model:		<Object>	morph:		<Object>model	- xxxxxmorph	- xxxxx

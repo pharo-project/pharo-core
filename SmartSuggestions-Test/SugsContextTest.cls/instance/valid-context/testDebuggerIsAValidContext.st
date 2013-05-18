@@ -1,0 +1,1 @@
+testDebuggerIsAValidContext	| debugger |		debugger := Debugger  new.	self assert: (SugsAbstractContext contextFor: debugger) class equals: SugsDebuggerContext .

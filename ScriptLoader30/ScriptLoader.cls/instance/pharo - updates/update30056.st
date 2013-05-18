@@ -1,0 +1,1 @@
+update30056	"self new update30056"	self withUpdateLog: '10363 Boolean clean up	https://pharo.fogbugz.com/f/cases/10363'.	self loadTogether: self script154 merge: false.	self flushCaches.

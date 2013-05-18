@@ -1,0 +1,1 @@
+withoutCategories	self removeElementsCategorized: #categories

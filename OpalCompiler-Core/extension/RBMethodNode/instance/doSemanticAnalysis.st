@@ -1,1 +1,1 @@
-doSemanticAnalysis	self doSemanticAnalysisIn: self methodClass.
+doSemanticAnalysis	self doSemanticAnalysisInContext: self compilationContext

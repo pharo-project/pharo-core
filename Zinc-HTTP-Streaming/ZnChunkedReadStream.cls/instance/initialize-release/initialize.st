@@ -1,0 +1,1 @@
+initialize	atEnd := false.	totalSize := 0

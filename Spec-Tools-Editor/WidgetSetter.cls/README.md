@@ -1,0 +1,1 @@
+A WidgetSetter is xxxxxxxxx.Instance Variables	apiSetters:		<Object>	model:		<Object>apiSetters	- xxxxxmodel	- xxxxx

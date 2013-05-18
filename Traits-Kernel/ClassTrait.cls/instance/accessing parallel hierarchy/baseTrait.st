@@ -1,0 +1,1 @@
+baseTrait	^baseTrait

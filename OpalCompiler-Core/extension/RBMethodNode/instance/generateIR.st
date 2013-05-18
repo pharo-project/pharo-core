@@ -1,1 +1,1 @@
-generateIR	| ir |	scope ifNil: [self doSemanticAnalysis]. 	ir := (OCASTTranslator new			visitNode: self)			ir.	self ir: ir.	^ir
+generateIR	| ir |	scope ifNil: [self doSemanticAnalysisInContext: self compilationContext ]. 	ir := (OCASTTranslator new			visitNode: self)			ir.	self ir: ir.	^ir

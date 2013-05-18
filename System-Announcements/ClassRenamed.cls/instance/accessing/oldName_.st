@@ -1,0 +1,1 @@
+oldName: anObject		oldName := anObject

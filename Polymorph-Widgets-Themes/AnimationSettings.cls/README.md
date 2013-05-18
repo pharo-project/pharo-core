@@ -1,0 +1,1 @@
+An AnimationSettings is xxxxxxxxx.Instance Variables	animateClosing:		<Object>	delay:		<Object>	numberOfSteps:		<Object>	useAnimation:		<Object>animateClosing	- xxxxxdelay	- xxxxxnumberOfSteps	- xxxxxuseAnimation	- xxxxx

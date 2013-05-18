@@ -1,0 +1,1 @@
+isNewImage	^ isNewImage

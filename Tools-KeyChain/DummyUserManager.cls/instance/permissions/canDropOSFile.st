@@ -1,0 +1,1 @@
+canDropOSFile	^ true

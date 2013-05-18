@@ -1,0 +1,1 @@
+initialize	Smalltalk addToShutDownList: self

@@ -1,0 +1,1 @@
+methodRemoved: anObject		methodRemoved := anObject

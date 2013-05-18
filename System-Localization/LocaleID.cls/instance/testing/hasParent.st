@@ -1,0 +1,1 @@
+hasParent	^self isoCountry notNil

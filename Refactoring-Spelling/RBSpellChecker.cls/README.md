@@ -1,0 +1,1 @@
+A RBSpellChecker is xxxxxxxxx.Instance Variables

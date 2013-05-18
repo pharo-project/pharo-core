@@ -1,0 +1,1 @@
+openWithSpec 	| w |	w := super openWithSpec.	w whenClosedDo: [ self close ].	^ w

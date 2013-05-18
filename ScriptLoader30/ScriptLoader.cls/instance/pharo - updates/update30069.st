@@ -1,0 +1,1 @@
+update30069	"self new update30069"	self withUpdateLog: '10423 simplify #firstPrecodeCommentFor:	https://pharo.fogbugz.com/f/cases/10423	10426 move #parseSelector to Compiler	https://pharo.fogbugz.com/f/cases/10426'.	self loadTogether: self script166 merge: false.	self flushCaches.

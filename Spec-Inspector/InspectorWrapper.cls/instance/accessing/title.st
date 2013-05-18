@@ -1,0 +1,1 @@
+title	^ self inspector title

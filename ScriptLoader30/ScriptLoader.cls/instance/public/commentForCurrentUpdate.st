@@ -1,0 +1,1 @@
+commentForCurrentUpdate ^ '10618 loadin latest OpalCompilerTests makes CompilerTests dirty	https://pharo.fogbugz.com/f/cases/10618'

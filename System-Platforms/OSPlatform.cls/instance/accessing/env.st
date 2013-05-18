@@ -1,0 +1,1 @@
+env	^ env ifNil: [ env := NixEnvironment new ]

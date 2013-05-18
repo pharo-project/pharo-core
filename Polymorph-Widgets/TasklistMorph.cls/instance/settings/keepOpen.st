@@ -1,0 +1,1 @@
+keepOpen	^ self class keepOpen

@@ -1,0 +1,1 @@
+refresh	"refresh the object in the inspector, updating his modified instance variables" 		description hasUnacceptedEdits ifFalse: [ 		self printDescription ]

@@ -1,0 +1,1 @@
+A SugsSuggestionCreateAccessorsTest is xxxxxxxxx.Instance Variables

@@ -1,0 +1,1 @@
+A DynamicComposableModel is a model of spec with a dynamic binding for subwidgets

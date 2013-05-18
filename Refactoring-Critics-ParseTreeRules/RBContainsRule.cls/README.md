@@ -1,0 +1,1 @@
+A RBContainsRule is xxxxxxxxx.Instance Variables

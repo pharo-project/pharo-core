@@ -1,0 +1,1 @@
+activate	self activateHelpWithoutArguments		ifTrue: [  ^ self ].	self arguments ifEmpty: [ ^ self evaluateStdIn ].	self evaluateArguments.	self quit.

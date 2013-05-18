@@ -1,0 +1,1 @@
+allowAvailability	^preventAvailability isNil

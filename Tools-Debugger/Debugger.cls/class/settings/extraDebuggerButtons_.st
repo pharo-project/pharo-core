@@ -1,0 +1,1 @@
+extraDebuggerButtons: aBoolean	ExtraDebuggerButtons := aBoolean

@@ -1,0 +1,1 @@
+update30119	"self new update30119"	self withUpdateLog: '10592 Update Opal in Image to latest version	https://pharo.fogbugz.com/f/cases/10592	10585 isExecutingBlock vs. isClosureContext vs. isBlockContext	https://pharo.fogbugz.com/f/cases/10585		'.	self loadTogether: self script216 merge: false.	self flushCaches.

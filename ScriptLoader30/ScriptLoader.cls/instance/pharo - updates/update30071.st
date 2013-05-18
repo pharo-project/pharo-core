@@ -1,0 +1,1 @@
+update30071	"self new update30071"	self withUpdateLog: '10433 Remove showing decompied code from Old Browser	https://pharo.fogbugz.com/f/cases/10433/	10437 Add spec inspectors to Andreis spec debugger	https://pharo.fogbugz.com/f/cases/10437'.	self loadTogether: self script168 merge: false.	self flushCaches.

@@ -1,0 +1,1 @@
+A RBAddParameterRefactoring is xxxxxxxxx.Instance Variables	initializer:		<Object>	senders:		<Object>initializer	- xxxxxsenders	- xxxxx

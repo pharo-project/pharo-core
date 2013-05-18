@@ -1,0 +1,1 @@
+classVariableReader	^ ClassVariable

@@ -1,0 +1,1 @@
+fadedBackgroundWindows: aBoolean	fadedBackgroundWindows := aBoolean

@@ -1,0 +1,1 @@
+bottomFraction	^ layoutFrame bottomFraction

@@ -1,0 +1,1 @@
+A MultipleSettingDeclaration is xxxxxxxxx.Instance Variables	domainValues:		<Object>domainValues	- xxxxx

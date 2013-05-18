@@ -1,0 +1,1 @@
+currentMethod	^ self selectedMessage

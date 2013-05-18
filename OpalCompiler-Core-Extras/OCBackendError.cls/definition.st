@@ -1,1 +1,0 @@
-OCAbstractNotification subclass: #OCBackendError	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-Extras'

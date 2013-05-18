@@ -1,0 +1,1 @@
+update30020	"self new update30020"	self withUpdateLog: '7235 We should move KeyedTree from Polymorph-Widgets to Collections-Unordered	https://pharo.fogbugz.com/f/cases/7235	7540 Etoys related cleanup in CursorWIthAlpha	https://pharo.fogbugz.com/f/cases/7540'.	self loadTogether: self script119 merge: false.	self flushCaches.

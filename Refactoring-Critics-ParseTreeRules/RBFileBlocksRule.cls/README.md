@@ -1,0 +1,1 @@
+A RBFileBlocksRule is xxxxxxxxx.Instance Variables

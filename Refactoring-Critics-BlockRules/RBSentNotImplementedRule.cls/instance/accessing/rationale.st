@@ -1,0 +1,1 @@
+rationale	^ 'Checks for messages that are sent by a method, but no class in the system implements such a message. Further checks if messages sent to self or super exist in the hierarchy, since these can be statically typed. Reported methods will certainly cause a doesNotUnderstand: message when they are executed.'

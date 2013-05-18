@@ -1,0 +1,1 @@
+clearScreen	self termcap: 'cl'

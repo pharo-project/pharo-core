@@ -1,0 +1,1 @@
+A ValueHolder is xxxxxxxxx.Instance Variables	contents:		<Object>contents	- xxxxx

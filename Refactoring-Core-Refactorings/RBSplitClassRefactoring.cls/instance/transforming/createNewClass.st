@@ -1,0 +1,1 @@
+createNewClass	self		addClass;		addInstanceVariables

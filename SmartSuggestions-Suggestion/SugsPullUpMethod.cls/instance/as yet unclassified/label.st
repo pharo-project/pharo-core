@@ -1,0 +1,1 @@
+label	^ 'Pull Up' translated

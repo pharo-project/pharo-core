@@ -1,0 +1,1 @@
+Model subclass: #ComposableModel	instanceVariableNames: 'focusOrder owner window spec extentHolder needRebuild additionalKeyBindings announcer keyStrokesForNextFocusHolder keyStrokesForPreviousFocusHolder windowIcon aboutText'	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Core'

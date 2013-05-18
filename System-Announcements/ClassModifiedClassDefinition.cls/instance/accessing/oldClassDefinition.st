@@ -1,0 +1,1 @@
+oldClassDefinition	^oldClassDefinition

@@ -1,0 +1,1 @@
+update30082	"self new update30082"	self withUpdateLog: '10379 #compilerClass new --> compiler	https://pharo.fogbugz.com/f/cases/10379'.	self loadTogether: self script179 merge: false.	self flushCaches.

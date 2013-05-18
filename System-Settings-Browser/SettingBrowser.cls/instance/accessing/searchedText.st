@@ -1,0 +1,1 @@
+searchedText	^ searchedText ifNil: [searchedText := '']

@@ -1,0 +1,1 @@
+openWorldWithSpecLayout: aSpec	"Build the widget using the spec name provided as argument and display it into the world"	(window notNil and: [ self needRebuild not ])		ifTrue: [			window rebuildWithSpecLayout: aSpec ]		ifFalse: [ 			window := WorldModel new model: self.			window openWorldWithSpecLayout: aSpec.			self takeKeyboardFocus ].			^ window

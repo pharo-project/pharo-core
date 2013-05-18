@@ -1,0 +1,1 @@
+ZnNetworkingUtils subclass: #ZnZodiacNetworkingUtils	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Zinc-Zodiac'

@@ -1,0 +1,1 @@
+useFindReplaceSelection	^ false
