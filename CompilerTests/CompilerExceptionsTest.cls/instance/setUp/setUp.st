@@ -1,1 +1,1 @@
-setUp	self removeGeneratedMethods.	status := Parser warningAllowed.	Parser warnUser.
+setUp	self removeGeneratedMethods.

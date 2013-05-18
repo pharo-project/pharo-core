@@ -1,1 +1,0 @@
-An UndeclaredVariableReference is xxxxxxxxx.Instance Variables
