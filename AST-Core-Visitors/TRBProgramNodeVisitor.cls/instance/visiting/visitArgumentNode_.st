@@ -1,1 +1,1 @@
-visitArgumentNode: anArgumentNode	^ self visitVariableNode: anArgumentNode
+visitArgumentNode: anArgumentNode	"Sent *each time* an argument node is found"	^ self visitVariableNode: anArgumentNode
