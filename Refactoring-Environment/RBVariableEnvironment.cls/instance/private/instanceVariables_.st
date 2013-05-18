@@ -1,1 +1,0 @@
-instanceVariables: anObject	instanceVariables := anObject

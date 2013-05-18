@@ -1,1 +1,0 @@
-isDraggableNode: node	^true

@@ -1,1 +1,0 @@
-A TraitCompositionTest is xxxxxxxxx.Instance Variables

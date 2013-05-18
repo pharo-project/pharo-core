@@ -1,1 +1,0 @@
-label	^'Rename class' translated

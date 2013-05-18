@@ -1,1 +1,0 @@
-textConverter		^ textConverterHolder contents

@@ -1,1 +1,0 @@
-systemDictionary	^ environment systemDictionary

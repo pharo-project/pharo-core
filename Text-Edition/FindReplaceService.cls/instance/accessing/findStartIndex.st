@@ -1,1 +1,0 @@
-findStartIndex	^ findStartIndex

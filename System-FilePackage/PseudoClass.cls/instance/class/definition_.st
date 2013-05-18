@@ -1,1 +1,0 @@
-definition: aString	definition := aString

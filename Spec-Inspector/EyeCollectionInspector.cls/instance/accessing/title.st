@@ -1,1 +1,0 @@
-title	^ super title, ' [', self object size asString, ']'

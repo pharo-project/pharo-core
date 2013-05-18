@@ -1,1 +1,0 @@
-A RBClassEnvironment is xxxxxxxxx.Instance Variables	classes:		<Object>	metaClasses:		<Object>classes	- xxxxxmetaClasses	- xxxxx

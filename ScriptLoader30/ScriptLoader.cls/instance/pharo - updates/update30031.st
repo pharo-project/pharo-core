@@ -1,1 +1,0 @@
-update30031	"self new update30031"	self withUpdateLog: '10256 Got startup errors	https://pharo.fogbugz.com/f/cases/10256	10257 Prevent potential UI deadlock for MCWorkingCopyBrowser when saving	https://pharo.fogbugz.com/f/cases/10257		'.	self loadTogether: self script130 merge: false.	self flushCaches.

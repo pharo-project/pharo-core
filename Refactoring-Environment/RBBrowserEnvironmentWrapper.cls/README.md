@@ -1,1 +1,0 @@
-A RBBrowserEnvironmentWrapper is xxxxxxxxx.Instance Variables	environment:		<Object>environment	- xxxxx

@@ -1,1 +1,0 @@
-ogle	"Eyeinspector should be put one day in Smalltalk tools"	^ EyeInspector inspect: self

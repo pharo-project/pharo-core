@@ -1,1 +1,0 @@
-I represent a query path into the internal representation of a ContextPart. Typically this is a context at a point in the query path of a Debugger. As a StringHolder, the string I represent is the value of the currently selected variable of the observed temporary variable of the context.

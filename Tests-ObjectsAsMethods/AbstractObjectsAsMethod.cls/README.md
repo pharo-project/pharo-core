@@ -1,1 +1,0 @@
-An AbstractObjectsAsMethod is xxxxxxxxx.Instance Variables

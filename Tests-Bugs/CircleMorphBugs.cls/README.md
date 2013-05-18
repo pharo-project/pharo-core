@@ -1,1 +1,0 @@
-A CircleMorphBugs is xxxxxxxxx.Instance Variables

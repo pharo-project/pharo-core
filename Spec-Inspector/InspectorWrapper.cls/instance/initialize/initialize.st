@@ -1,1 +1,0 @@
-initialize	"Initialization code for InspectorWrapper"	super initialize.	history := NavigationHistory new.	inspector := nil asValueHolder.		self initializeShortcuts.	inspector whenChangedDo: [ :new :old | self updateInspectorFrom: old ].	self announcer weak 		on: WidgetBuilt do: [ canBeRefreshed := true ].		canBeRefreshed := false.

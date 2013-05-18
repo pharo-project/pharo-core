@@ -1,1 +1,0 @@
-unexpectedFailureCount	^ self unexpectedFailures size

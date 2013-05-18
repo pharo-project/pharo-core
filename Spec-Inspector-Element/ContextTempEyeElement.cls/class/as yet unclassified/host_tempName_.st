@@ -1,1 +1,0 @@
-host: anObject tempName: aString	^ (self host: anObject) tempName: aString

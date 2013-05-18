@@ -1,1 +1,0 @@
-characterLimit	^ 20000

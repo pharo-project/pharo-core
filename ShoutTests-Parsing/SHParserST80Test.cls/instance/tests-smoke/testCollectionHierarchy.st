@@ -1,1 +1,0 @@
-testCollectionHierarchy	self verifyHierarchy: Collection

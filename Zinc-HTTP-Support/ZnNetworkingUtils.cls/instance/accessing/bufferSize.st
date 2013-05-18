@@ -1,1 +1,0 @@
-bufferSize	^ self class socketBufferSize

@@ -1,1 +1,0 @@
-asZnUrl	^ ZnUrl fromString: self

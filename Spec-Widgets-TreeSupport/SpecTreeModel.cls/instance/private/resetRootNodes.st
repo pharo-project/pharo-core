@@ -1,1 +1,0 @@
-resetRootNodes	rootNodes := nil

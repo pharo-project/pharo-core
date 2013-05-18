@@ -1,1 +1,0 @@
-objectVariableSize	^ self object size

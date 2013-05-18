@@ -1,1 +1,0 @@
-resetHighestUpdate	highestUpdate := nil

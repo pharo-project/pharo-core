@@ -1,1 +1,0 @@
-blockCommand: aBlock 	blockCommand := aBlock.

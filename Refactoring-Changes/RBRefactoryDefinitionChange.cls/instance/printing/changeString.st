@@ -1,1 +1,0 @@
-changeString	^ 'Define ' , self displayClassName

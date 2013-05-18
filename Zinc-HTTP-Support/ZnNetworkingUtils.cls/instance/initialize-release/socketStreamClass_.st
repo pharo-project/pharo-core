@@ -1,1 +1,0 @@
-socketStreamClass: anObject	socketStreamClass := anObject

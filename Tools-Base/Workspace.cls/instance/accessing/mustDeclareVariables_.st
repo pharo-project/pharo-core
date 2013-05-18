@@ -1,1 +1,0 @@
-mustDeclareVariables: aBoolean	mustDeclareVariables := aBoolean

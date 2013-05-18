@@ -1,1 +1,0 @@
-AbstractBasicWidget is an abstract class for basic widgets

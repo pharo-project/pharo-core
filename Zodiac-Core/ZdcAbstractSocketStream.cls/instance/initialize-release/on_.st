@@ -1,1 +1,0 @@
-on: object	socket := object

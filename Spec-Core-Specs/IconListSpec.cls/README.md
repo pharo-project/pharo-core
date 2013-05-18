@@ -1,1 +1,0 @@
-An IconListSpec is a spec use to describe a list with icons

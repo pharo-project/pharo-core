@@ -1,1 +1,0 @@
-errorCount	^self errors size

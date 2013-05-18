@@ -1,1 +1,0 @@
-centered	alignment := 2

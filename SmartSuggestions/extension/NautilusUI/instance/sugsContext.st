@@ -1,1 +1,0 @@
-sugsContext	^ SugsNautilusContext model: self.

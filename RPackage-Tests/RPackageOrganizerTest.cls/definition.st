@@ -1,1 +1,0 @@
-RPackageTestCase subclass: #RPackageOrganizerTest	instanceVariableNames: 'organizer packageOrganizer'	classVariableNames: ''	poolDictionaries: ''	category: 'RPackage-Tests'

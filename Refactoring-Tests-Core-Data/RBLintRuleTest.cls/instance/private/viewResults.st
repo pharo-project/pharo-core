@@ -1,1 +1,0 @@
-viewResults	self subclassResponsibility

@@ -1,1 +1,0 @@
-textPlain	^ self predefinedInstanceAt: #textPlain

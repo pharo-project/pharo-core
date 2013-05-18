@@ -1,1 +1,0 @@
-okayToRemove	^ self okayToRemoveInforming: true

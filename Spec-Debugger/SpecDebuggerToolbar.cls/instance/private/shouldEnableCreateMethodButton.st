@@ -1,1 +1,0 @@
-shouldEnableCreateMethodButton	^ self session 		ifNil: [false]  		ifNotNil: [:aSession |			aSession isInterruptedContextDoesNotUnderstand and: [aSession context = self currentContext] ] 

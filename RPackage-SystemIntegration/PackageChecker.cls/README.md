@@ -1,1 +1,0 @@
-A PackageChecker is xxxxxxxxx.Instance Variables

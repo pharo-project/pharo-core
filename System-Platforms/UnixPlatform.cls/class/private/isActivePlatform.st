@@ -1,1 +1,0 @@
-isActivePlatform	^OSPlatform isUnix

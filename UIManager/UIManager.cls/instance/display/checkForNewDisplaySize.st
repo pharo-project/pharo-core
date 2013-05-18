@@ -1,1 +1,0 @@
-checkForNewDisplaySize			self subclassResponsibility 

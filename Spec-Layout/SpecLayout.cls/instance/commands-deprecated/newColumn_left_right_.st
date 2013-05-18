@@ -1,1 +1,0 @@
-newColumn: aBlock left: left right: right		self add: aBlock left: left right: right

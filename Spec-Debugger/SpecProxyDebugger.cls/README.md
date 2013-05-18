@@ -1,1 +1,0 @@
-SpecProxyDebugger is a simple extension of the existing debugger that adds a button for opening the SpecDebugger in the pre-debugger window.Instance Variables

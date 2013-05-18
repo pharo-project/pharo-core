@@ -1,1 +1,0 @@
-methodNameUI: anObject	methodNameUI := anObject

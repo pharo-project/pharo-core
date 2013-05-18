@@ -1,1 +1,0 @@
-A MOPTestClassA is xxxxxxxxx.Instance Variables

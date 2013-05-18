@@ -1,1 +1,0 @@
-allPoolDictNames	^self theNonMetaClass allPoolDictNames

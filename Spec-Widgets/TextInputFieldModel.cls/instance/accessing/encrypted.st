@@ -1,1 +1,0 @@
-encrypted	^ isEncrypted contents

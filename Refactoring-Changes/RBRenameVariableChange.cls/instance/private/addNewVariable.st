@@ -1,1 +1,0 @@
-addNewVariable	self subclassResponsibility

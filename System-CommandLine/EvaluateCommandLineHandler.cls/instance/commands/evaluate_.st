@@ -1,1 +1,0 @@
-evaluate: aStream			[ self stdout print: (Smalltalk evaluate: aStream); lf ]		on: Error, ParserNotification		do: [ :e| 	self handleError: e  ].

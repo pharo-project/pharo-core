@@ -1,1 +1,0 @@
-hasRedoableOperations	^ redo isEmpty not

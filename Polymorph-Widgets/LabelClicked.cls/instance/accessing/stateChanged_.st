@@ -1,1 +1,0 @@
-stateChanged: anObject	stateChanged := anObject

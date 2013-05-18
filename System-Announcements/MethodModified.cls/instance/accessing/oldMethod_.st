@@ -1,1 +1,0 @@
-oldMethod: aCompiledMethod	oldMethod := aCompiledMethod.

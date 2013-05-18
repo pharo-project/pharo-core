@@ -1,1 +1,0 @@
-A MethodRepackaged is xxxxxxxxx.Instance Variables	methodRepackaged:		<Object>	newPackage:		<Object>	oldPackage:		<Object>methodRepackaged	- xxxxxnewPackage	- xxxxxoldPackage	- xxxxx

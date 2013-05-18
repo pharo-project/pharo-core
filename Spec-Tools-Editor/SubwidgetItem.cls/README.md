@@ -1,1 +1,0 @@
-A SubwidgetItem is xxxxxxxxx.Instance Variables	initialExtent:		<Object>	model:		<Object>	validated:		<Object>initialExtent	- xxxxxmodel	- xxxxxvalidated	- xxxxx

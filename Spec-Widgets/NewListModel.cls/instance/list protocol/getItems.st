@@ -1,1 +1,0 @@
-getItems	^ items contents

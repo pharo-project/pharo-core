@@ -1,1 +1,0 @@
-doubleClick	self selectedNode doubleClick

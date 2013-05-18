@@ -1,1 +1,0 @@
-includesBehavior: aBehavior	^self == aBehavior

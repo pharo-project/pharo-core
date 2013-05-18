@@ -1,1 +1,0 @@
-packageDefiningOrExtendingMethod: aCompiledMethod	^ self packageDefiningOrExtendingSelector: aCompiledMethod selector inClass: aCompiledMethod methodClass

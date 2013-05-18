@@ -1,1 +1,0 @@
-frameworkName	^ 'Zinc HTTP Components'

@@ -1,1 +1,0 @@
-newName: anObject		newName := anObject

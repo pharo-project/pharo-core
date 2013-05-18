@@ -1,1 +1,0 @@
-An ExpanderMorphExpanded is xxxxxxxxx.Instance Variables

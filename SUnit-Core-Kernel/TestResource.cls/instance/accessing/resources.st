@@ -1,1 +1,0 @@
-resources	^self class resources

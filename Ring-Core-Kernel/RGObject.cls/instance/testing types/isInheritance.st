@@ -1,1 +1,0 @@
-isInheritance	^false

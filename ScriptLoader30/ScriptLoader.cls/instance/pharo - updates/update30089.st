@@ -1,1 +1,0 @@
-update30089	"self new update30089"	self withUpdateLog: '10133 Remove RBSmallDictionary	https://pharo.fogbugz.com/f/cases/10133	7325 KMShortcut>>#fromKeyboardEvent: is ignoring alt	https://pharo.fogbugz.com/f/cases/7325	10455 EyeInspector improvements	https://pharo.fogbugz.com/f/cases/10455	'.	self loadTogether: self script186 merge: false.	self flushCaches.

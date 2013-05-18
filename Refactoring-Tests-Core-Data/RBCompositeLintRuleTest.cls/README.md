@@ -1,1 +1,0 @@
-A RBCompositeLintRuleTest is xxxxxxxxx.Instance Variables	rules:		<Object>rules	- xxxxx

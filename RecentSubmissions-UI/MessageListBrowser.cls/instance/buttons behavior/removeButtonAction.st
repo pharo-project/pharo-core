@@ -1,1 +1,0 @@
-removeButtonAction 	self removeSelectedMorph

@@ -1,1 +1,0 @@
-pointIndex	^ pointIndex

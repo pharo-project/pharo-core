@@ -1,1 +1,0 @@
-update30128	"self new update30128"	self withUpdateLog: '10619 Add a mock for the World	https://pharo.fogbugz.com/f/cases/10619	7488 Spec About window text	https://pharo.fogbugz.com/f/cases/74887002 Snapshot announcement	https://pharo.fogbugz.com/f/cases/7002'.	self loadTogether: self script225 merge: false.	self flushCaches.

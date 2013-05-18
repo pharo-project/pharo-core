@@ -1,1 +1,0 @@
-hash	^ selector hash

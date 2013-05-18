@@ -1,1 +1,0 @@
-isUnavailable	^self isAvailable not			

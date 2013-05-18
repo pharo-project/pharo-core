@@ -1,1 +1,0 @@
-A ColorEditor is xxxxxxxxx.Instance Variables	a:		<Object>	b:		<Object>	color:		<Object>	g:		<Object>	morph:		<Object>	r:		<Object>a	- xxxxxb	- xxxxxcolor	- xxxxxg	- xxxxxmorph	- xxxxxr	- xxxxx

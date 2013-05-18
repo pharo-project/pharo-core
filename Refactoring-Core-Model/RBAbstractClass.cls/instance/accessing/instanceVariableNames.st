@@ -1,1 +1,0 @@
-instanceVariableNames	^self privateInstanceVariableNames copy

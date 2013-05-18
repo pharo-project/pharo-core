@@ -1,1 +1,0 @@
-aClassHasBeenAdded: anEvent

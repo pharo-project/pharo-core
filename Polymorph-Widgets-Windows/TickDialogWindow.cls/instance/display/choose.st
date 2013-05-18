@@ -1,1 +1,0 @@
-choose	^ self chooseFromOwner: World

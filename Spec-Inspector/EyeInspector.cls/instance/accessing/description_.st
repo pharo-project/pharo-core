@@ -1,1 +1,0 @@
-description: anObject	description := anObject

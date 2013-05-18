@@ -1,1 +1,0 @@
-imageSvg	^ self predefinedInstanceAt: #imageSvg

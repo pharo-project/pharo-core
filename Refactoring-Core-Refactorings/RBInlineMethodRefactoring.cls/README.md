@@ -1,1 +1,0 @@
-A RBInlineMethodRefactoring is xxxxxxxxx.Instance Variables	inlineClass:		<Object>	inlineParseTree:		<Object>	sourceInterval:		<Object>	sourceMessage:		<Object>	sourceParseTree:		<Object>	sourceSelector:		<Object>inlineClass	- xxxxxinlineParseTree	- xxxxxsourceInterval	- xxxxxsourceMessage	- xxxxxsourceParseTree	- xxxxxsourceSelector	- xxxxx

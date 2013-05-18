@@ -1,1 +1,0 @@
-A FailingTestResourceTestCase is xxxxxxxxx.Instance Variables

@@ -1,1 +1,0 @@
-removeClass: aClass	aClass removeFromSystem.

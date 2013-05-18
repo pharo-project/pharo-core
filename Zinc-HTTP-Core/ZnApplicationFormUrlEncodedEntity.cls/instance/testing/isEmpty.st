@@ -1,1 +1,0 @@
-isEmpty	^ self fields isEmpty

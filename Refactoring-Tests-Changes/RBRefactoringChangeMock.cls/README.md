@@ -1,1 +1,0 @@
-A RBRefactoringChangeMock is xxxxxxxxx.Instance Variables	instVar:		<Object>instVar	- xxxxx

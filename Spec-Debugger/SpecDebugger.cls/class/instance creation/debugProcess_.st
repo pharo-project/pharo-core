@@ -1,1 +1,0 @@
-debugProcess: aProcess	^ self debugContext: aProcess suspendedContext fromProcess: aProcess

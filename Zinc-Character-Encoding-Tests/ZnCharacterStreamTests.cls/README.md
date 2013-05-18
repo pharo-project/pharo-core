@@ -1,1 +1,0 @@
-A ZnCharacterStreamTests is xxxxxxxxx.Instance Variables

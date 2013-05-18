@@ -1,1 +1,0 @@
-A DiffChangeMorph is xxxxxxxxx.Instance Variables	descriptionMorph:		<Object>	diffMorph:		<Object>descriptionMorph	- xxxxxdiffMorph	- xxxxx

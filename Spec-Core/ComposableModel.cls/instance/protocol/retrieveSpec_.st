@@ -1,1 +1,0 @@
-retrieveSpec: aSelector	^ self class perform: aSelector

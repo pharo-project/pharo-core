@@ -1,1 +1,0 @@
-sourceClass: aClass	sourceClass := aClass.

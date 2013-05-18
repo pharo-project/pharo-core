@@ -1,1 +1,0 @@
-packagesSelection	^self finder packagesSelection

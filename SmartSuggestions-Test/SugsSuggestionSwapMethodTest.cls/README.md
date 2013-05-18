@@ -1,1 +1,0 @@
-A SugsSuggestionSwapMethodTest is xxxxxxxxx.Instance Variables

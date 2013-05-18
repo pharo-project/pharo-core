@@ -1,1 +1,0 @@
-isEmpty	^ self result isEmpty

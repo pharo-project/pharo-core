@@ -1,1 +1,0 @@
-Object subclass: #ClassFactoryForTestCase	instanceVariableNames: 'createdClasses'	classVariableNames: ''	poolDictionaries: ''	category: 'SUnit-Core-Extensions'

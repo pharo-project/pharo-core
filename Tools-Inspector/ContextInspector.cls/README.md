@@ -1,1 +1,0 @@
-A ContextInspector is xxxxxxxxx.Instance Variables

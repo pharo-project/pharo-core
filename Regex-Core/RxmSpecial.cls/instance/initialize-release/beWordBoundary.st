@@ -1,1 +1,0 @@
-beWordBoundary	matchSelector := #atWordBoundary

@@ -1,1 +1,0 @@
-defaultPortForSSL	^ 995

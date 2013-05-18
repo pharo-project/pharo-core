@@ -1,1 +1,0 @@
-debugBasedOnSession: aSession	^ self debugSession: ((self spanNewSessionForContext: aSession context fromProcess: aSession process)		errorWasInUIProcess: aSession errorWasInUIProcess)

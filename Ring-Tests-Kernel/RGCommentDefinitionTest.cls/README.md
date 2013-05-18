@@ -1,1 +1,0 @@
-A RGCommentDefinitionTest is xxxxxxxxx.Instance Variables

@@ -1,1 +1,0 @@
-label	^'Create accessors' translated

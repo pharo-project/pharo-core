@@ -1,1 +1,0 @@
-windowMenuInactiveForm	^self form16x16FromContents: self windowMenuInactiveFormContents 

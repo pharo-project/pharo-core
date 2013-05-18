@@ -1,1 +1,0 @@
-instanceVariableWriters: anObject	instanceVariableWriters := anObject

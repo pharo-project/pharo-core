@@ -1,1 +1,0 @@
-mouseDownInterval: anInterval	mouseDownInterval := anInterval

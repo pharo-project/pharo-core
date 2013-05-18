@@ -1,1 +1,0 @@
-A RBRefactoringChangeTests is xxxxxxxxx.Instance Variables	changes:		<Object>changes	- xxxxx

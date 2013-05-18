@@ -1,1 +1,0 @@
-byteToUnicode: map	byteToUnicode := map

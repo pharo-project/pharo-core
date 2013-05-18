@@ -1,1 +1,0 @@
-A RBVariableEnvironment is xxxxxxxxx.Instance Variables	classVariables:		<Object>	instanceVariableReaders:		<Object>	instanceVariableWriters:		<Object>	instanceVariables:		<Object>	selectorCache:		<Object>classVariables	- xxxxxinstanceVariableReaders	- xxxxxinstanceVariableWriters	- xxxxxinstanceVariables	- xxxxxselectorCache	- xxxxx

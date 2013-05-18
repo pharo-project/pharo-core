@@ -1,1 +1,0 @@
-The implementation for a Rubric model.

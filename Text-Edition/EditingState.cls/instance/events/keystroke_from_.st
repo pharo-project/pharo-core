@@ -1,1 +1,0 @@
-keystroke: aKeyboardEvent from: aTextMorph

@@ -1,1 +1,0 @@
-doubleClick: evt	self selectWord

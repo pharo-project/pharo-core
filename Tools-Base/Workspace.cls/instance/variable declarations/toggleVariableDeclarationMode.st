@@ -1,1 +1,0 @@
-toggleVariableDeclarationMode	mustDeclareVariables := mustDeclareVariables not

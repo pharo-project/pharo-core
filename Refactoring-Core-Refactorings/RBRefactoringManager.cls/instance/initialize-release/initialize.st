@@ -1,1 +1,0 @@
-initialize	refactorings := Bag new

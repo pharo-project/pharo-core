@@ -1,1 +1,0 @@
-blockCode	^ block		ifNil: ['']		ifNotNil: [ blockSource ifNil: [blockSource := String 			streamContents: [:s |  block sourceNode 				statements 					do: [:stmt | stmt printOn: s indent: 0]					separatedBy: [s nextPutAll: '.', String cr]]]]

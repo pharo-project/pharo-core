@@ -1,1 +1,0 @@
-A MessageListInspectableNode is xxxxxxxxx.Instance Variables

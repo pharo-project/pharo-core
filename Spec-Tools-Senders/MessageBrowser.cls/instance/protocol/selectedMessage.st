@@ -1,1 +1,0 @@
-selectedMessage	^ listModel selectedItem

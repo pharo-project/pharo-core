@@ -1,1 +1,0 @@
-A RBProtocolEnvironment is xxxxxxxxx.Instance Variables	class:		<Object>	protocols:		<Object>class	- xxxxxprotocols	- xxxxx

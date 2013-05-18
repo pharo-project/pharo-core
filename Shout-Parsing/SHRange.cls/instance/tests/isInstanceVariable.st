@@ -1,1 +1,0 @@
-isInstanceVariable		^type == #instVar

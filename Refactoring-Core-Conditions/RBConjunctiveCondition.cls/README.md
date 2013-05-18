@@ -1,1 +1,0 @@
-A RBConjunctiveCondition is xxxxxxxxx.Instance Variables	failed:		<Object>	left:		<Object>	right:		<Object>failed	- xxxxxleft	- xxxxxright	- xxxxx

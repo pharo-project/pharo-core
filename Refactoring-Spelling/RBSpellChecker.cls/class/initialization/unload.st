@@ -1,1 +1,0 @@
-unload	Smalltalk removeFromShutDownList: self

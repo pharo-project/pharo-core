@@ -1,1 +1,0 @@
-A RBInlineMethodFromComponentRefactoring is xxxxxxxxx.Instance Variables

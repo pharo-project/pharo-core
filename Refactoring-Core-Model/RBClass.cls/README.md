@@ -1,1 +1,0 @@
-A RBClass is xxxxxxxxx.Instance Variables	category:		<Object>	classVariableNames:		<Object>	comment:		<Object>	poolDictionaryNames:		<Object>category	- xxxxxclassVariableNames	- xxxxxcomment	- xxxxxpoolDictionaryNames	- xxxxx

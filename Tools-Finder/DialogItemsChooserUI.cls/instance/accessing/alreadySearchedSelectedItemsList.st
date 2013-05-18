@@ -1,1 +1,0 @@
-alreadySearchedSelectedItemsList	^AlreadySearchedSelectedItemsList ifNil: [AlreadySearchedSelectedItemsList := OrderedCollection new]

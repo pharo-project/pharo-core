@@ -1,1 +1,0 @@
-instanceVariableReaders: anObject	instanceVariableReaders := anObject

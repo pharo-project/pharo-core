@@ -1,1 +1,0 @@
-label	^'Use accessor' translated

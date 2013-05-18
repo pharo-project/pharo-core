@@ -1,1 +1,0 @@
-initializeWidgets		self instantiateModels: #(		list NewListModel		text TextModel		description TextModel ).			text aboutToStyle: true.			 	

@@ -1,1 +1,0 @@
-testingSpec	^ {#Text.		#model:.	#model}.

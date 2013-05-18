@@ -1,1 +1,0 @@
-headerClicked	headerClicked contents value

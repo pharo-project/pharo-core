@@ -1,1 +1,0 @@
-variablesAndOffsetsDo: aBlock	^self

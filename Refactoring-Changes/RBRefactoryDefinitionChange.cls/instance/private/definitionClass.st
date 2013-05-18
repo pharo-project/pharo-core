@@ -1,1 +1,0 @@
-definitionClass	self subclassResponsibility

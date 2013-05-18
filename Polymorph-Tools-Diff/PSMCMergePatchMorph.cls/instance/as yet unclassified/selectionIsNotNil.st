@@ -1,1 +1,0 @@
-selectionIsNotNil	^ self selectedChange notNil

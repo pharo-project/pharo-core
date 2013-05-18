@@ -1,1 +1,0 @@
-searchButtonState	^false.

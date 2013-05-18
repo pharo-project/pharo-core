@@ -1,1 +1,0 @@
-sendInlineParameterMethod	^self inlineParameterMethod: #(#asdf)

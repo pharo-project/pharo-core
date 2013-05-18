@@ -1,1 +1,0 @@
-loadStableFromSelectedConfiguration	self loadConfigurationWithStable: true

@@ -1,1 +1,0 @@
-update30126	"self new update30126"	self withUpdateLog: '10611 restore nautilus buttons bar	https://pharo.fogbugz.com/f/cases/10611'.	self loadTogether: self script223 merge: false.	self flushCaches.

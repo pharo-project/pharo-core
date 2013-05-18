@@ -1,1 +1,0 @@
-debuggerSpec	<spec: #default>		^ SpecLayout composed		add: #inspector withSpec: #debuggerSpecOptimized;		yourself

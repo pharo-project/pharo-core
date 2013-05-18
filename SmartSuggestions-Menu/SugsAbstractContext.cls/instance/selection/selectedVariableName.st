@@ -1,1 +1,0 @@
-selectedVariableName	^selectedNode name

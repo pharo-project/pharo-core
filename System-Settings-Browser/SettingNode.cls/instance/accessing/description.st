@@ -1,1 +1,0 @@
-description	^ self settingDeclaration description

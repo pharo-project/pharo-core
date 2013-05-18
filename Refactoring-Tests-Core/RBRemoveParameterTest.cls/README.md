@@ -1,1 +1,0 @@
-A RBRemoveParameterTest is xxxxxxxxx.Instance Variables

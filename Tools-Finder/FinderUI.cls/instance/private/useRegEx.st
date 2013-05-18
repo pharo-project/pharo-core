@@ -1,1 +1,0 @@
-useRegEx	^ self finder useRegEx

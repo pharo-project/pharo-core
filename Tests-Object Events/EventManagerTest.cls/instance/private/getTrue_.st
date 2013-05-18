@@ -1,1 +1,0 @@
-getTrue: anArg	^true

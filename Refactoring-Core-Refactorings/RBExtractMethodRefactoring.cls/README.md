@@ -1,1 +1,0 @@
-A RBExtractMethodRefactoring is xxxxxxxxx.Instance Variables	extractedParseTree:		<Object>	extractionInterval:		<Object>	modifiedParseTree:		<Object>	needsReturn:		<Object>	parameters:		<Object>	selector:		<Object>extractedParseTree	- xxxxxextractionInterval	- xxxxxmodifiedParseTree	- xxxxxneedsReturn	- xxxxxparameters	- xxxxxselector	- xxxxx

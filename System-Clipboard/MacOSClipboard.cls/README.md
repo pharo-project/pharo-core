@@ -1,1 +1,0 @@
-A MacOSClipboard is xxxxxxxxx.Instance Variables

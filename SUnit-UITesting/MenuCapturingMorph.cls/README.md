@@ -1,1 +1,0 @@
-A MenuCapturingMorph is xxxxxxxxx.Instance Variables	menu:		<Object>menu	- xxxxx

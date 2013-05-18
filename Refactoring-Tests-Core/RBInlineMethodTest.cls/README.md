@@ -1,1 +1,0 @@
-A RBInlineMethodTest is xxxxxxxxx.Instance Variables

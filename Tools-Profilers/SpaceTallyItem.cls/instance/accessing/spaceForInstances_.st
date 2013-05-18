@@ -1,1 +1,0 @@
-spaceForInstances: aNumber	spaceForInstances := aNumber

@@ -1,1 +1,0 @@
-doNotUseLineAfter	self usingLineAfter: false

@@ -1,1 +1,0 @@
-A TextFieldSpec is a spec used to describe a text field

@@ -1,1 +1,0 @@
-doubleClick	doubleClick contents value

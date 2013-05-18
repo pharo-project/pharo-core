@@ -1,1 +1,0 @@
-A RBMissingTranslationsInMenusRule is xxxxxxxxx.Instance Variables

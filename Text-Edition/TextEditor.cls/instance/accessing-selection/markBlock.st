@@ -1,1 +1,0 @@
-markBlock	^ self editingState markBlock

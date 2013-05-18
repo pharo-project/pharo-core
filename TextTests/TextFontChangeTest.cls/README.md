@@ -1,1 +1,0 @@
-A TextFontChangeTest is xxxxxxxxx.Instance Variables

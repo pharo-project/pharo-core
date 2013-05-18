@@ -1,1 +1,0 @@
-classAffected	^self classAdded

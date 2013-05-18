@@ -1,1 +1,0 @@
-variablesCount	^ 10

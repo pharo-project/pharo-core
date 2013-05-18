@@ -1,1 +1,0 @@
-defaultBrowserSettingOn: aBuilder	<systemsettings>		(aBuilder group: #debugging)		with: [			(aBuilder setting: #useAutoRefresh)				target: self;				label: 'Auto Refresh Inspectors' translated;				description: 'If true, refreshes inspectors in regular intervals' translated ]

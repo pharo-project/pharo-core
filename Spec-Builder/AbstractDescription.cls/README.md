@@ -1,1 +1,0 @@
-An AbstractDescription is xxxxxxxxx.Instance Variables

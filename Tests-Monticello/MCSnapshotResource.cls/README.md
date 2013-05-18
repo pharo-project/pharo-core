@@ -1,1 +1,0 @@
-A MCSnapshotResource is xxxxxxxxx.Instance Variables	snapshot:		<Object>snapshot	- xxxxx

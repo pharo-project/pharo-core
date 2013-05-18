@@ -1,1 +1,0 @@
-A MczInstaller is xxxxxxxxx.Instance Variables	stream:		<Object>	zip:		<Object>stream	- xxxxxzip	- xxxxx

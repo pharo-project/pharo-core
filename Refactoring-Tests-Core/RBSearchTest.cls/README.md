@@ -1,1 +1,0 @@
-A RBSearchTest is xxxxxxxxx.Instance Variables	classSearches:		<Object>	currentSelector:		<Object>classSearches	- xxxxxcurrentSelector	- xxxxx

@@ -1,1 +1,0 @@
-applicationXml	^ self predefinedInstanceAt: #applicationXml

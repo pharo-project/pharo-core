@@ -1,1 +1,0 @@
-MorphicBindings is the class holding the bindings between Spec and Morphic

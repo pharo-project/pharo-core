@@ -1,1 +1,0 @@
-Object subclass: #DropListItem	instanceVariableNames: 'actionHolder label'	classVariableNames: ''	poolDictionaries: ''	category: 'Polymorph-Widgets-Utilities'

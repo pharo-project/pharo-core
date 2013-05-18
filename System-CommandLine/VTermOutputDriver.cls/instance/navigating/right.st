@@ -1,1 +1,0 @@
-right	self termcap: 'nd'

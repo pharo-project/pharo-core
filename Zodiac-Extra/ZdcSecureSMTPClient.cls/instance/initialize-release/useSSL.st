@@ -1,1 +1,0 @@
-useSSL	variant := #ssl

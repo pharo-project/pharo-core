@@ -1,1 +1,0 @@
-systemOrganization 	^ Smalltalk globals organization

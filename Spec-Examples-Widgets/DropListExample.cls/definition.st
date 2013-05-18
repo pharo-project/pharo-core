@@ -1,1 +1,0 @@
-ComposableModel subclass: #DropListExample	instanceVariableNames: 'dropList container morph1 morph2 morph3'	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Examples-Widgets'

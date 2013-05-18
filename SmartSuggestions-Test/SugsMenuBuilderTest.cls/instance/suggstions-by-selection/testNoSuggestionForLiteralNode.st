@@ -1,1 +1,0 @@
-testNoSuggestionForLiteralNode	| suggestions |	suggestions :=SugsMenuBuilder findSuggestionsFor: SugsMockContext literalContext.	self assert: suggestions isEmpty.

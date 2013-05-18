@@ -1,1 +1,0 @@
-isResponsibleFor: aCommandLine	^ true

@@ -1,1 +1,0 @@
-fragment: string	fragment := string

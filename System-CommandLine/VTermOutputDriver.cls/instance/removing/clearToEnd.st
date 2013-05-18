@@ -1,1 +1,0 @@
-clearToEnd	self termcap: 'ce'

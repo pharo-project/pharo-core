@@ -1,1 +1,0 @@
-deleteCharacter	self termcap: 'dc'

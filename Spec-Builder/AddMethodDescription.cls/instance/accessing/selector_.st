@@ -1,1 +1,0 @@
-selector: anObject	selector := anObject

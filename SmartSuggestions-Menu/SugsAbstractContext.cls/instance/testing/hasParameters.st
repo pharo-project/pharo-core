@@ -1,1 +1,0 @@
-hasParameters		^self selectedMessageName numArgs > 0.

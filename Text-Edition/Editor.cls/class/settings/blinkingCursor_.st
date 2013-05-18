@@ -1,1 +1,0 @@
-blinkingCursor: aBoolean		BlinkingCursor := aBoolean

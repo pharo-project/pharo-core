@@ -1,1 +1,0 @@
-update30021	"self new update30021"	self withUpdateLog: '10193 newRow: #methods bottom: 0.5	https://pharo.fogbugz.com/f/cases/10193	10121 do #cleanUpForRelease on every update	https://pharo.fogbugz.com/f/cases/10121'.	self loadTogether: self script120 merge: false.	self flushCaches.

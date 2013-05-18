@@ -1,1 +1,0 @@
-resultList: aList	resultList := aList

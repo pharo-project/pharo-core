@@ -1,1 +1,0 @@
-A RBMoveVariableDefinitionTest is xxxxxxxxx.Instance Variables

@@ -1,1 +1,0 @@
-A FreeTypeSystemSettings is xxxxxxxxx.Instance Variables

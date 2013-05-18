@@ -1,1 +1,0 @@
-setTimeStamp	timeStamp := TimeStamp current.

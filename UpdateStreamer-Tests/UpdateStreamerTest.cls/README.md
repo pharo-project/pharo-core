@@ -1,1 +1,0 @@
-An UpdateStreamerTest is xxxxxxxxx.Instance Variables

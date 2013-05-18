@@ -1,1 +1,0 @@
-A ManyTestResourceTestCase is xxxxxxxxx.Instance Variables

@@ -1,1 +1,0 @@
-test: aTest	test := aTest

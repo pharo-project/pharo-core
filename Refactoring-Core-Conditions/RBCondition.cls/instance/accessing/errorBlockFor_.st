@@ -1,1 +1,0 @@
-errorBlockFor: aBoolean	^errorBlock

@@ -1,1 +1,0 @@
-asTraitComposition	^TraitComposition with: self

@@ -1,1 +1,0 @@
-cursorEnhanced	self termcap: 'vs'

@@ -1,1 +1,0 @@
-A SHStyleElement is xxxxxxxxx.Instance Variables	color:		<Object>	emphasis:		<Object>	tokens:		<Object>color	- xxxxxemphasis	- xxxxxtokens	- xxxxx

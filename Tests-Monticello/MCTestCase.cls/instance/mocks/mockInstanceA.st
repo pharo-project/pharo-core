@@ -1,1 +1,0 @@
-mockInstanceA	^ self mockClassA new

@@ -1,1 +1,0 @@
-localeID: anID	id := anID

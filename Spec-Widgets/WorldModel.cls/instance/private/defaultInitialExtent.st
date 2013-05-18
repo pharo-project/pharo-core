@@ -1,1 +1,0 @@
-defaultInitialExtent		^ World extent

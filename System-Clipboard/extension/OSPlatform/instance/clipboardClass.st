@@ -1,1 +1,0 @@
-clipboardClass	^Clipboard

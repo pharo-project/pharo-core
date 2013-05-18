@@ -1,1 +1,0 @@
-name	^ 'Unnecessary size check'

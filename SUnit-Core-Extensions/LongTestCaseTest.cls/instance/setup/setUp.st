@@ -1,1 +1,0 @@
-setUp	longTestCaseSettingValue := LongTestCase shouldRun

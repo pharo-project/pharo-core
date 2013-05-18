@@ -1,1 +1,0 @@
-sourceCode: anObject	sourceCode := anObject

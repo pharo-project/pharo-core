@@ -1,1 +1,0 @@
-AbstractBasicWidget subclass: #TreeModel	instanceVariableNames: 'childrenBlockHolder rootsHolder selectionHolder menuBlockHolder wrapBlockHolder'	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Widgets'

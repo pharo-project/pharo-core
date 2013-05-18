@@ -1,1 +1,0 @@
-A RBExtraBlockRule is xxxxxxxxx.Instance Variables

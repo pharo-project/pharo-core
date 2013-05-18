@@ -1,1 +1,0 @@
-/ object	^ object addedToZnUrl: self

@@ -1,1 +1,0 @@
-A MCClassDefinitionTest is xxxxxxxxx.Instance Variables	previousChangeSet:		<Object>previousChangeSet	- xxxxx

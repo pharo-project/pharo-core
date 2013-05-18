@@ -1,1 +1,0 @@
-A RBBrowserEnvironmentTest is xxxxxxxxx.Instance Variables	universalEnvironment:		<Object>universalEnvironment	- xxxxx

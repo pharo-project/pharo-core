@@ -1,1 +1,0 @@
-okToChange	"This method permits to move from element to element in the left panel list without having to accept the code in the bottom text panel"	description canDiscardEdits ifTrue: [^ true].	description changed: #wantToChange. 	^ description canDiscardEdits

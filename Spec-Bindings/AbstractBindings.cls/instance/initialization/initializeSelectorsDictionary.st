@@ -1,1 +1,0 @@
-initializeSelectorsDictionary	^ IdentityDictionary new

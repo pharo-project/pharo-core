@@ -1,1 +1,0 @@
-maxLines: anInteger	maxLines := anInteger

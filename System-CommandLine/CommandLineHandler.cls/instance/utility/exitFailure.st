@@ -1,1 +1,0 @@
-exitFailure 	^ self exitFailure: 'Commandline failed'

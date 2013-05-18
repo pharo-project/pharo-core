@@ -1,1 +1,0 @@
-toolName	^ 'Time profiler'

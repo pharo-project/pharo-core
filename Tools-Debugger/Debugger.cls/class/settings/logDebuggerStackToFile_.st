@@ -1,1 +1,0 @@
-logDebuggerStackToFile: aBoolean	 LogDebuggerStackToFile := aBoolean

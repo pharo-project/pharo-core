@@ -1,1 +1,0 @@
-A RBAddMethodChange is xxxxxxxxx.Instance Variables	controller:		<Object>	definedSelector:		<Object>	protocols:		<Object>	selector:		<Object>	source:		<Object>controller	- xxxxxdefinedSelector	- xxxxxprotocols	- xxxxxselector	- xxxxxsource	- xxxxx

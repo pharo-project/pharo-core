@@ -1,1 +1,0 @@
-isTestCase	^false

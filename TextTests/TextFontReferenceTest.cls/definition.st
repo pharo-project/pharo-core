@@ -1,1 +1,0 @@
-HashAndEqualsTestCase subclass: #TextFontReferenceTest	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'TextTests'

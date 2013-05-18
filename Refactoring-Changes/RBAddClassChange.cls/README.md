@@ -1,1 +1,0 @@
-A RBAddClassChange is xxxxxxxxx.Instance Variables	category:		<Object>	classVariableNames:		<Object>	instanceVariableNames:		<Object>	poolDictionaryNames:		<Object>	superclassName:		<Object>category	- xxxxxclassVariableNames	- xxxxxinstanceVariableNames	- xxxxxpoolDictionaryNames	- xxxxxsuperclassName	- xxxxx

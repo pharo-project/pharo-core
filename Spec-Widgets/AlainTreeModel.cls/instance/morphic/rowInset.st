@@ -1,1 +1,0 @@
-rowInset	^ rowInset contents

@@ -1,1 +1,0 @@
-classOrMetaClass: aClass 	classOrMetaClass := aClass

@@ -1,1 +1,0 @@
-open		self uniqueInstance open.

@@ -1,1 +1,0 @@
-update30111	"self new update30111"	self withUpdateLog: '10543 methodDict values -> methods	https://pharo.fogbugz.com/f/cases/10543	10554 clean up #schematicTempNamesString	https://pharo.fogbugz.com/f/cases/10554	10553 VirtualMachine --> Smalltalk vm	https://pharo.fogbugz.com/f/cases/10553'.	self loadTogether: self script208 merge: false.	self flushCaches.

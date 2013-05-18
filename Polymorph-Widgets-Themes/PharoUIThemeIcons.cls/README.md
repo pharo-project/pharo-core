@@ -1,1 +1,0 @@
-A PharoUIThemeIcons is xxxxxxxxx.Instance Variables

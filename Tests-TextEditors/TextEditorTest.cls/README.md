@@ -1,1 +1,0 @@
-A TextEditorTest is xxxxxxxxx.Instance Variables

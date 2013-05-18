@@ -1,1 +1,0 @@
-sampleStream	^sample readStream

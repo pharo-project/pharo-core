@@ -1,1 +1,0 @@
-soundEnabled: aBoolean	SoundEnabled := aBoolean

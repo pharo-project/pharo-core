@@ -1,1 +1,0 @@
-searchingString	^searchingString

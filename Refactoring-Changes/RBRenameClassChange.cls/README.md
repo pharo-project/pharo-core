@@ -1,1 +1,0 @@
-A RBRenameClassChange is xxxxxxxxx.Instance Variables	newName:		<Object>	oldName:		<Object>newName	- xxxxxoldName	- xxxxx

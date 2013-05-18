@@ -1,1 +1,0 @@
-announcer	^ announcer contents

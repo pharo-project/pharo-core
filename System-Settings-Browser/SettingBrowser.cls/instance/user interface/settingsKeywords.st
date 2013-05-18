@@ -1,1 +1,0 @@
-settingsKeywords 	^ self class settingsKeywords

@@ -1,1 +1,0 @@
-recordStartupStamp		ChangesLog default recordStartupStamp

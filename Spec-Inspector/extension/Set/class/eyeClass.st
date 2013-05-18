@@ -1,1 +1,0 @@
-eyeClass	^ EyeSetInspector

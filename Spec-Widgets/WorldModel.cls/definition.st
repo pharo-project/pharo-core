@@ -1,1 +1,0 @@
-WindowModel subclass: #WorldModel	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Widgets'

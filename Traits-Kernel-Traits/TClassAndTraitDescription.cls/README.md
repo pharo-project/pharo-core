@@ -1,1 +1,0 @@
-A TClassAndTraitDescription is xxxxxxxxx.

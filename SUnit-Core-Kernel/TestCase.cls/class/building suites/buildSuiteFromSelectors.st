@@ -1,1 +1,0 @@
-buildSuiteFromSelectors	^self buildSuiteFromMethods: self allTestSelectors

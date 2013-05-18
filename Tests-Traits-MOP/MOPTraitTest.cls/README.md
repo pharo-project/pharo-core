@@ -1,1 +1,0 @@
-A MOPTraitTest is xxxxxxxxx.Instance Variables

@@ -1,1 +1,0 @@
-itemsList: anObject		itemsList := anObject

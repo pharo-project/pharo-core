@@ -1,1 +1,0 @@
-setUp	super setUp.	model := Compiler evaluate: self abstractVariableTestData.

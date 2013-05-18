@@ -1,1 +1,0 @@
-classRenamed: anObject		classRenamed := anObject

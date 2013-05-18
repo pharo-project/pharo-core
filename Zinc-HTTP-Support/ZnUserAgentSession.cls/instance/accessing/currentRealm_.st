@@ -1,1 +1,0 @@
-currentRealm: anObject	currentRealm := anObject

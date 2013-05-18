@@ -1,1 +1,0 @@
-maxFilenameLength	^self vm maxFilenameLength

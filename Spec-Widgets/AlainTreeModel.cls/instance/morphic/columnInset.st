@@ -1,1 +1,0 @@
-columnInset	^ columnInset contents

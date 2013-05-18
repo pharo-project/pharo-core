@@ -1,1 +1,0 @@
-A MergeDiffMorph is xxxxxxxxx.Instance Variables	allowJoinClicks:		<Object>allowJoinClicks	- xxxxx

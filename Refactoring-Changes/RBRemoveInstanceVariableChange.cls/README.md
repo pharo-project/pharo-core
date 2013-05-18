@@ -1,1 +1,0 @@
-A RBRemoveInstanceVariableChange is xxxxxxxxx.Instance Variables

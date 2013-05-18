@@ -1,1 +1,0 @@
-subject: aTraitTransformation	subject := aTraitTransformation

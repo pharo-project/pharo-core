@@ -1,1 +1,0 @@
-selectedItemsTextArea: anObject	selectedItemsTextArea := anObject

@@ -1,1 +1,0 @@
-sub: aString	sub := aString

@@ -1,1 +1,0 @@
-A RBExpandReferencedPoolsRefactoring is xxxxxxxxx.Instance Variables	fromClass:		<Object>	parseTree:		<Object>	pools:		<Object>	toClasses:		<Object>fromClass	- xxxxxparseTree	- xxxxxpools	- xxxxxtoClasses	- xxxxx

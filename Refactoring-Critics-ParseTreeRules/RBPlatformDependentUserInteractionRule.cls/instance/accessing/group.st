@@ -1,1 +1,0 @@
-group	^ 'Pharo bugs'

@@ -1,1 +1,0 @@
-lightSelectionColor	^ self baseSelectionColor

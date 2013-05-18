@@ -1,1 +1,0 @@
-startupGeneralPreferencesFolderScriptName	^ 'startupPharo.st'

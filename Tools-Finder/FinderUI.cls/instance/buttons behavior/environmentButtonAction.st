@@ -1,1 +1,0 @@
-environmentButtonAction	self openPackageChooser

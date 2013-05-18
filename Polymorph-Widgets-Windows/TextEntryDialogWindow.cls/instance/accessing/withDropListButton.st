@@ -1,1 +1,0 @@
-withDropListButton	self textEditorMorph withDropListButton

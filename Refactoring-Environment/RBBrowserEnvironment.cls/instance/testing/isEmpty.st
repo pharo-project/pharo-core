@@ -1,1 +1,0 @@
-isEmpty	^ false

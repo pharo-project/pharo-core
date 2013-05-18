@@ -1,1 +1,0 @@
-newColumn: aBlock left: aNumber		self add: aBlock left: aNumber

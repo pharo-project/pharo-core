@@ -1,1 +1,0 @@
-Usage: updateDocumentation:The update the image to the latest version.

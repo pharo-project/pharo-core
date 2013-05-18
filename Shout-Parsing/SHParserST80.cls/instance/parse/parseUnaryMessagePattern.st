@@ -1,1 +1,0 @@
-parseUnaryMessagePattern	self scanPast: #patternUnary

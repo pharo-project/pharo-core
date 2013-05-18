@@ -1,1 +1,0 @@
-fullName: aString	fullName := aString

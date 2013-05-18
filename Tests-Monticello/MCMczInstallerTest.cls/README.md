@@ -1,1 +1,0 @@
-A MCMczInstallerTest is xxxxxxxxx.Instance Variables	diff:		<Object>	expected:		<Object>diff	- xxxxxexpected	- xxxxx

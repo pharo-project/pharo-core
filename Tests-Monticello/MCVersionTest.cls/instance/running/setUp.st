@@ -1,1 +1,0 @@
-setUp	visited := OrderedCollection new.

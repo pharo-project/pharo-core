@@ -1,1 +1,0 @@
-A MCSnapshotTest is xxxxxxxxx.Instance Variables	snapshot:		<Object>snapshot	- xxxxx

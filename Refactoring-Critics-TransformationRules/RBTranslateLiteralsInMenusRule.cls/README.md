@@ -1,1 +1,0 @@
-A RBTranslateLiteralsInMenusRule is xxxxxxxxx.Instance Variables

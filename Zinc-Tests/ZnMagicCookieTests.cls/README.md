@@ -1,1 +1,0 @@
-A ZnMagicCookieTests is xxxxxxxxx.Instance Variables

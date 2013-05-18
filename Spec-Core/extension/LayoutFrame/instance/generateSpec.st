@@ -1,1 +1,0 @@
-generateSpec	^ self asArray generateSpec

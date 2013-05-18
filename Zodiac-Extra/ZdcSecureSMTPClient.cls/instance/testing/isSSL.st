@@ -1,1 +1,0 @@
-isSSL	^ variant = #ssl

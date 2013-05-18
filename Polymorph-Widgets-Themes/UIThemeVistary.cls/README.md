@@ -1,1 +1,0 @@
-A Vista-style UI theme. Do UIThemeVistary beCurrent to use.

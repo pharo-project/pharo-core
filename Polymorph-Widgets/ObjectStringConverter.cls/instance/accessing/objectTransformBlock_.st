@@ -1,1 +1,0 @@
-objectTransformBlock: anObject	objectTransformBlock := anObject

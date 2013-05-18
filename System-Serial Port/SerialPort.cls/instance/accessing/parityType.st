@@ -1,1 +1,0 @@
-parityType	^ parityType

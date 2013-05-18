@@ -1,1 +1,0 @@
-skippedCount	^ self skipped size

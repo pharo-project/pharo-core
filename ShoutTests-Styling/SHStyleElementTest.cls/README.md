@@ -1,1 +1,0 @@
-I am testing the class SHStyleElement

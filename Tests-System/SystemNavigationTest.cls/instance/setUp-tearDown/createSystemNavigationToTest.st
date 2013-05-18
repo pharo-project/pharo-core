@@ -1,1 +1,0 @@
-createSystemNavigationToTest	^SystemNavigation new

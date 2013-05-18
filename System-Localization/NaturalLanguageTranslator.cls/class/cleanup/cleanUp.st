@@ -1,1 +1,0 @@
-cleanUp	AllKnownPhrases := nil

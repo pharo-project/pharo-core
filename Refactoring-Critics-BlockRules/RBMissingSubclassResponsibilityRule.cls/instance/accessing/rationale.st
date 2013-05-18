@@ -1,1 +1,0 @@
-rationale	^ 'Checks classes for methods that are defined in all subclasses, but not defined in self. Such methods should most likely be defined as subclassResponsibility methods to help document the class. Furthermore, this check helps to find similar code that might be occurring in all the subclasses that should be pulled up into the superclass.'

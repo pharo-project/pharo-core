@@ -1,1 +1,0 @@
-oldStamp: anOldStamp	oldStamp := anOldStamp

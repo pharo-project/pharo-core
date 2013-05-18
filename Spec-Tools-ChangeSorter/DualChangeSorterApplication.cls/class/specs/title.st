@@ -1,1 +1,0 @@
-title	^'Dual Change Sorter'

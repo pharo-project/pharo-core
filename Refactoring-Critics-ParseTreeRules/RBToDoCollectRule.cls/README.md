@@ -1,1 +1,0 @@
-A RBToDoCollectRule is xxxxxxxxx.Instance Variables

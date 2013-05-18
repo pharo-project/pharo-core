@@ -1,1 +1,0 @@
-wantsFrameAdornments: aBoolean	self contentMorph wantsFrameAdornments: aBoolean

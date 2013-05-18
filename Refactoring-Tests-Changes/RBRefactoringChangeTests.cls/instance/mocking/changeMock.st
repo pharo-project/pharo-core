@@ -1,1 +1,0 @@
-changeMock	^ RBRefactoringChangeMock

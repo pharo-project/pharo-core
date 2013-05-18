@@ -1,1 +1,0 @@
-openMonticelloBrowser	self monticelloBrowser open	

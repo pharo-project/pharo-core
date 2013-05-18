@@ -1,1 +1,0 @@
-oddRowColor	^ oddRowColor contents

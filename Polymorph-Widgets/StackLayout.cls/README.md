@@ -1,1 +1,0 @@
-A StackLayout is xxxxxxxxx.Instance Variables	cachedMinExtent:		<Object>	cachedMinExtents:		<Object>cachedMinExtent	- xxxxxcachedMinExtents	- xxxxx

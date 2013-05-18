@@ -1,1 +1,0 @@
-lookupSelector: selector	^ self explicitRequirement

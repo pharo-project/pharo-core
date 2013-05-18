@@ -1,1 +1,0 @@
-update30092	"self new update30092"	self withUpdateLog: '10253 Unrecoverable error when deleting methods	https://pharo.fogbugz.com/f/cases/10253	10139 Nautilus does not properly indent hierarchies	https://pharo.fogbugz.com/f/cases/10139'.	self loadTogether: self script189 merge: false.	self flushCaches.

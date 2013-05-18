@@ -1,1 +1,0 @@
-editingStateClass	^ EditingState

@@ -1,1 +1,0 @@
-name	^ 'Float equality comparison'

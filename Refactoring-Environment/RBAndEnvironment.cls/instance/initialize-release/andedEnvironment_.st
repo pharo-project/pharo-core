@@ -1,1 +1,0 @@
-andedEnvironment: aBrowserEnvironment 	andedEnvironment := aBrowserEnvironment

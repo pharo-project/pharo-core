@@ -1,1 +1,0 @@
-hasClassTrait	^classTrait notNil

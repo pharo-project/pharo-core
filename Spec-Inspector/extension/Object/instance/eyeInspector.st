@@ -1,1 +1,0 @@
-eyeInspector	^ EyeInspector inspector: self

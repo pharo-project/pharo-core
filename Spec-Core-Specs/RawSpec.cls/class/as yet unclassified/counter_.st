@@ -1,1 +1,0 @@
-counter: aNumber	counter := aNumber 

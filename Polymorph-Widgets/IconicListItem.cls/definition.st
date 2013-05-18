@@ -1,1 +1,0 @@
-RectangleMorph subclass: #IconicListItem	instanceVariableNames: 'icon morph originalObject'	classVariableNames: ''	poolDictionaries: ''	category: 'Polymorph-Widgets'

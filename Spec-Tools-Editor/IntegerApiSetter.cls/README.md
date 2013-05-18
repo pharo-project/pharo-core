@@ -1,1 +1,0 @@
-An IntegerApiSetter is xxxxxxxxx.Instance Variables

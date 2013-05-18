@@ -1,1 +1,0 @@
-A RBMoveVariableDefinitionRefactoring is xxxxxxxxx.Instance Variables	blockNodes:		<Object>	definingNode:		<Object>	interval:		<Object>	name:		<Object>	parseTree:		<Object>	selector:		<Object>blockNodes	- xxxxxdefiningNode	- xxxxxinterval	- xxxxxname	- xxxxxparseTree	- xxxxxselector	- xxxxx

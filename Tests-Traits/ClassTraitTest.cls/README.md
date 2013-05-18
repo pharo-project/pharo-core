@@ -1,1 +1,0 @@
-A ClassTraitTest is xxxxxxxxx.Instance Variables

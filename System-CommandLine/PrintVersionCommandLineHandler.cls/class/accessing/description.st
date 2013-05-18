@@ -1,1 +1,0 @@
-description	^ 'Print image version'

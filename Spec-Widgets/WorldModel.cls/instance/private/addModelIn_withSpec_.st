@@ -1,1 +1,0 @@
-addModelIn: widget withSpec: aSpec	self model ifNil: [ ^ self ].		widget		addMorph: (self model buildWithSpec: aSpec)		fullFrame: LayoutFrame identity

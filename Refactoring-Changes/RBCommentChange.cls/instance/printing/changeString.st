@@ -1,1 +1,0 @@
-changeString	^ 'Comment ' , self displayClassName

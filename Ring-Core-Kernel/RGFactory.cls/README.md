@@ -1,1 +1,0 @@
-RGFactory is responsible for creating instances of the Ring meta-model classes

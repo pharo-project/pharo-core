@@ -1,1 +1,0 @@
-domain: anObject	domain := anObject

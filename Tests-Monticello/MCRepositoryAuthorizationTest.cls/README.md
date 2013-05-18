@@ -1,1 +1,0 @@
-A MCRepositoryAuthorizationTest is xxxxxxxxx.Instance Variables

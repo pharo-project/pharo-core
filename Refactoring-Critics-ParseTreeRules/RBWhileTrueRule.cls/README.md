@@ -1,1 +1,0 @@
-A RBWhileTrueRule is xxxxxxxxx.Instance Variables

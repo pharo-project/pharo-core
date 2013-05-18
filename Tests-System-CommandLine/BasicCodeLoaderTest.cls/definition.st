@@ -1,1 +1,0 @@
-TestCase subclass: #BasicCodeLoaderTest	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Tests-System-CommandLine'

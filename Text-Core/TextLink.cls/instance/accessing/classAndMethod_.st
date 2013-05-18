@@ -1,1 +1,0 @@
-classAndMethod: aString	classAndMethod := aString

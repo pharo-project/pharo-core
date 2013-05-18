@@ -1,1 +1,0 @@
-setSelector: aSymbol	setSelector := aSymbol

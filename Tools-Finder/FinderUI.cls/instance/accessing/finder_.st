@@ -1,1 +1,0 @@
-finder: aFinder	finder := aFinder

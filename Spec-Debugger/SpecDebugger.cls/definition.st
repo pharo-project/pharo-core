@@ -1,1 +1,0 @@
-ComposableModel subclass: #SpecDebugger	instanceVariableNames: 'session stack code toolbar contextInspector receiverInspector needRefresh'	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Debugger'

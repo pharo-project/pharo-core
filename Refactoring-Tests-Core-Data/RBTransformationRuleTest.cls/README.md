@@ -1,1 +1,0 @@
-A RBTransformationRuleTest is xxxxxxxxx.Instance Variables	builder:		<Object>	class:		<Object>	rewriteRule:		<Object>builder	- xxxxxclass	- xxxxxrewriteRule	- xxxxx

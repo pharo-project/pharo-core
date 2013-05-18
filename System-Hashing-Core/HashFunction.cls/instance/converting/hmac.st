@@ -1,1 +1,0 @@
-hmac	^ HMAC on: self

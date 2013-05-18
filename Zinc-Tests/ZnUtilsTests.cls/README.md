@@ -1,1 +1,0 @@
-A ZnUtilsTests is xxxxxxxxx.Instance Variables

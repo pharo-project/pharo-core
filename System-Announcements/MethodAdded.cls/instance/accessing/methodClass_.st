@@ -1,1 +1,0 @@
-methodClass: aClass	methodClass := aClass

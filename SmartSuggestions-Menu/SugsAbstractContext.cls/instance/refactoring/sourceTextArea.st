@@ -1,1 +1,0 @@
-sourceTextArea	self subclassResponsibility .

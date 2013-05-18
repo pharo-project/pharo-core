@@ -1,1 +1,0 @@
-A RBLintRuleTest is xxxxxxxxx.Instance Variables	foo1:		<Object>	name:		<Object>foo1	- xxxxxname	- xxxxx

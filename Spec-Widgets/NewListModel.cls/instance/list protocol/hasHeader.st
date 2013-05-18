@@ -1,1 +1,0 @@
-hasHeader	^ headerTitle contents notNil
