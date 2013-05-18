@@ -1,1 +1,0 @@
-openRecentSubmissionsBrowser: evt	RecentMessageList openInWorld.

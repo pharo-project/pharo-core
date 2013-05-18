@@ -1,1 +1,1 @@
-openTranscript	^ self transcript open
+openTranscript	^ self transcript open
