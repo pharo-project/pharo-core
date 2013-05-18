@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10168 Spec new layout management	https://pharo.fogbugz.com/f/cases/10168	'
+commentForCurrentUpdate ^ '10127 New cleans for CriticsBrowser	https://pharo.fogbugz.com/f/cases/10127	10175 New transformation rule + some corrections	https://pharo.fogbugz.com/f/cases/10175'

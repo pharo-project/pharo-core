@@ -1,1 +1,1 @@
-rejectRules^ #('MethodHasNoTimeStampRule')
+rejectRules^ #('LawOfDemeterRule' 'MethodHasNoTimeStampRule')

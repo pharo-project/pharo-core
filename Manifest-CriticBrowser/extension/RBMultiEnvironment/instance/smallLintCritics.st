@@ -1,0 +1,1 @@
+smallLintCritics	^ self asSelectorEnvironment smallLintCritics

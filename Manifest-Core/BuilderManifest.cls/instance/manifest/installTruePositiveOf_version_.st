@@ -1,1 +1,1 @@
-installTruePositiveOf: ruleId version: versionId		manifestClass class 		compile: ((self selectorTruePositiveOf: ruleId version: versionId) asString, '^ #()')		classified: 'meta data'
+installTruePositiveOf: ruleId version: versionId		self compileSelector: (self selectorTruePositiveOf: ruleId version: versionId) returnValue: '#()'

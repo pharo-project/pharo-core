@@ -1,1 +1,1 @@
-hash	self flag: 'fct a revoir'.	^ manifestClass hash
+hash	^ manifestClass hash bitXor: self class hash

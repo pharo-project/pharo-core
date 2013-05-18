@@ -1,1 +1,0 @@
-A simple dialog to get a comment for the situation.

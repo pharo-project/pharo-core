@@ -1,0 +1,1 @@
+update30017	"self new update30017"	self withUpdateLog: '10127 New cleans for CriticsBrowser	https://pharo.fogbugz.com/f/cases/10127	10175 New transformation rule + some corrections	https://pharo.fogbugz.com/f/cases/10175'.	self loadTogether: self script116 merge: false.	self flushCaches.

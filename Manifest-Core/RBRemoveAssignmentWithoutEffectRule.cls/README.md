@@ -1,1 +1,1 @@
-A RBRemoveAssignmentWithoutEffectRule is xxxxxxxxx.Instance Variables
+See my #longDescription .

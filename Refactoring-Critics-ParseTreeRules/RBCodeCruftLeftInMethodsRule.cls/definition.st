@@ -1,1 +1,0 @@
-RBParseTreeLintRule subclass: #RBCodeCruftLeftInMethodsRule	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Refactoring-Critics-ParseTreeRules'

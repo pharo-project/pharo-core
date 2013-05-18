@@ -1,1 +1,1 @@
-addRuleToFalsePositive	self flag: #todo."todo"	"| manifestBuilder |	criticsModel selectedItems ifNotNil: [ :criticss |		criticss do: [ :critic |		manifestBuilder := checker manifestBuilderOf: critic. 		manifestBuilder addRejectRule: rule class uniqueIdentifierName]].	self updateList"	
+addRuleToFalsePositive	criticsModel selectedItems ifNotNil: [ :criticss |		criticss do: [ :critic |			cache addFalsePositiveRule: rule forPackage: critic mcWorkingCopy]].

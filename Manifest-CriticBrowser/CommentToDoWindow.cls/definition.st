@@ -1,1 +1,0 @@
-CommentWindow subclass: #CommentToDoWindow	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Manifest-CriticBrowser'

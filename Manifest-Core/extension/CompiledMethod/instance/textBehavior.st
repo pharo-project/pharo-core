@@ -1,0 +1,1 @@
+textBehavior	^ self methodClass

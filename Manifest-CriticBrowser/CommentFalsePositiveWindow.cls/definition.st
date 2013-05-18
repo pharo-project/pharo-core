@@ -1,1 +1,0 @@
-CommentWindow subclass: #CommentFalsePositiveWindow	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Manifest-CriticBrowser'

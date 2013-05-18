@@ -1,1 +1,0 @@
-commentOfToDo: aItem onRule: ruleId version: versionId	(self hasToDoOf: ruleId version: versionId)		ifFalse: [ ^ self ].	^ self version: versionId critic: aItem onRule: ruleId criticSelector: (self selectorToDoOf: ruleId version: versionId)

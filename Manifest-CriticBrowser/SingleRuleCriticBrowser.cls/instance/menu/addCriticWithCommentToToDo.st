@@ -1,1 +1,0 @@
-addCriticWithCommentToToDo	self flag: ' que faire ?'

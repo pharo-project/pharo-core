@@ -1,1 +1,0 @@
-A RBEndTrueFalseRule is xxxxxxxxx.Instance Variables
