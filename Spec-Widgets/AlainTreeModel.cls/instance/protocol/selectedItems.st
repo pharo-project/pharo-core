@@ -1,0 +1,1 @@
+selectedItems	< api: #inspect>	"Return the selected items"		^ treeModel selectedItems

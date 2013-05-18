@@ -1,0 +1,1 @@
+MorphTreeModel subclass: #SpecTreeModel	instanceVariableNames: 'model'	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Widgets-TreeSupport'

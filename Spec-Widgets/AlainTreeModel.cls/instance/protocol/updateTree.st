@@ -1,0 +1,1 @@
+updateTree	< api: #do>	"Force the tree to refresh"	self treeModel changed: #rootNodes.
