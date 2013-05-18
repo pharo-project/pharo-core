@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '7550 Unload keychain	https://pharo.fogbugz.com/f/cases/7550	'
+commentForCurrentUpdate ^ '10614 Spec lack of taskbarIcon mechanism	https://pharo.fogbugz.com/f/cases/10614	10622 enhance access to icons for each tool	https://pharo.fogbugz.com/f/cases/10622'

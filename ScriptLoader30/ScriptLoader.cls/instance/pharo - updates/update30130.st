@@ -1,0 +1,1 @@
+update30130	"self new update30130"	self withUpdateLog: '10614 Spec lack of taskbarIcon mechanism	https://pharo.fogbugz.com/f/cases/10614	10622 enhance access to icons for each tool	https://pharo.fogbugz.com/f/cases/10622'.	self loadTogether: self script227 merge: false.	self flushCaches.

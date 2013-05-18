@@ -1,1 +1,1 @@
-buildFullUpButton	^ IconicButton new 		target: self;		actionSelector: #fullUp;		labelGraphic: (self iconClass iconNamed: #upFull);		color: Color transparent;		extent: 24 @ 24;		borderWidth: 0
+buildFullUpButton	^ IconicButton new 		target: self;		actionSelector: #fullUp;		labelGraphic: (Smalltalk ui icons iconNamed: #upFullIcon);		color: Color transparent;		extent: 24 @ 24;		borderWidth: 0

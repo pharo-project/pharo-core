@@ -1,0 +1,1 @@
+protocolPrivateIcon	^ self protocolNoneIcon 

@@ -1,1 +1,0 @@
-Object subclass: #NautilusIcons	instanceVariableNames: ''	classVariableNames: 'Icons Instance'	poolDictionaries: ''	category: 'NautilusCommon'
