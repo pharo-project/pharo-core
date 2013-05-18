@@ -1,1 +1,0 @@
-lookupVariableForWrite: aName	| var |	var := scope lookupVar: aName.	var ifNil: [^var].	var isTemp ifTrue: [		(var scope outerNotOptimizedScope ~= scope outerNotOptimizedScope) "only escaping when they will end up in different closures"			ifTrue: [ var markEscapingWrite]].	^var

@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10033 Integrate AST interpreter	https://pharo.fogbugz.com/f/cases/10033'
+commentForCurrentUpdate ^ '10333 Update Opal in Image to latest version	https://pharo.fogbugz.com/f/cases/10333/'

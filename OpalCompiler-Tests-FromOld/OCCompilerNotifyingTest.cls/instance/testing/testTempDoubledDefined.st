@@ -1,0 +1,1 @@
+testTempDoubledDefined	self flag: 'Opal answers 1 and does not raise / catch an error. to fix'.	"self setUpForErrorsIn: '| x ` Name is already defined ->`x | x := 1. ^x'.	self enumerateAllSelections"

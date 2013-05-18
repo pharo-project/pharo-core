@@ -1,0 +1,1 @@
+variableNode: anObject	variableNode := anObject

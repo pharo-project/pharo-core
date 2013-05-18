@@ -1,1 +1,1 @@
-indexFromIR	^scope node irInstruction indexForVarNamed: name
+indexFromIR	^scope outerNotOptimizedScope node irInstruction indexForVarNamed: name

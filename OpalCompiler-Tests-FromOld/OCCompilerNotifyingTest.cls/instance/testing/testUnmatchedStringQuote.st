@@ -1,0 +1,1 @@
+testUnmatchedStringQuote	self flag: 'Opal has the correct behavior but the error is not caught'.	"self setUpForErrorsIn: '^nil printString ,  ` Unmatched string quote ->`''unfinished string'.	self enumerateAllSelections"

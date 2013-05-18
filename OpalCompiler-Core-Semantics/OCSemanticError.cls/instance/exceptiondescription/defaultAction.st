@@ -1,0 +1,1 @@
+defaultAction	^self notify:  messageText at: variableNode start.

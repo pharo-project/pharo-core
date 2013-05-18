@@ -1,0 +1,1 @@
+sourceNode	|  activePC |	activePC := pc - 1.	activePC <= self startpc ifTrue: [ activePC := pc ].	^(method sourceNodeForPC: activePC) methodOrBlockNode			

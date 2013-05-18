@@ -1,0 +1,1 @@
+isSpecialVariable	^true
