@@ -1,1 +1,0 @@
-exploreSelection	^ self object explore

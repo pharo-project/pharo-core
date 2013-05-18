@@ -1,1 +1,0 @@
-defsOfSelection: class	^ self systemNavigation browseAllStoresInto: self fieldName from: class

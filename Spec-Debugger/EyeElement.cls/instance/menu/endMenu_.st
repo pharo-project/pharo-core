@@ -1,1 +1,0 @@
-endMenu: aMenu 		aMenu 			add: 'Copy name (c)' translated			target: self 			selector: #copyName;		add: 'Basic inspect' translated 			target: self			selector: #inspectBasic

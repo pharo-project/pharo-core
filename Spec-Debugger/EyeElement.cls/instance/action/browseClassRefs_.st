@@ -1,1 +1,0 @@
-browseClassRefs: class	class isTrait 		ifTrue: [self systemNavigation browseAllUsersOfTrait: class]		ifFalse: [self systemNavigation browseAllCallsOnClass: class]

@@ -1,0 +1,1 @@
+buildWithSpec: aSpec	| result |		result := super buildWithSpec: aSpec.	needRefresh:= true.	^ result

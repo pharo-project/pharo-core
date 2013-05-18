@@ -1,1 +1,0 @@
-inspectBasic	"Bring up a non-special inspector"	^self object basicInspect

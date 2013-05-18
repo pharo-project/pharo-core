@@ -1,1 +1,1 @@
-itemHasBeenSelected	^ [ :item | selectedItem contents: item ]
+itemHasBeenSelected	^ [ :item |  selectedItem contents: item ]

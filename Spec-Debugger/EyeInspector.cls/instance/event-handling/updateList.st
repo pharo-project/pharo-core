@@ -1,1 +1,0 @@
-updateList	"update the list of elements displayed according to the new object"		|elements|	elements := self generateElements.		list items: elements.	list displayBlock: [:e :index | 		(elements at: index ifAbsent: [self elemClass fieldName: '' object: nil ]) fieldName ].	list menu: [ :aMenu | 		self inspectionMenu: aMenu ].	

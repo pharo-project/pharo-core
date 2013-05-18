@@ -1,1 +1,0 @@
-TestCase subclass: #RBSmallDictionaryTest	instanceVariableNames: 'dict'	classVariableNames: ''	poolDictionaries: ''	category: 'AST-Tests-Core'

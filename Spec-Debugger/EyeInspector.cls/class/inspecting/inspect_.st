@@ -1,1 +1,0 @@
-inspect: anObject 	^ anObject eyeClass new		inspect: anObject;		openWithSpec: #inspectorSpec2;		prepareObject;		yourself

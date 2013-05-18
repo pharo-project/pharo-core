@@ -1,1 +1,0 @@
-ComposableModel subclass: #SpecInspector	instanceVariableNames: 'extra list object text description windowWidth'	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Tools-Inspector'

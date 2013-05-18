@@ -1,1 +1,0 @@
-prepareObject	"A fresh new object arrived in the inspector, display it properly" 	list setSelectedIndex: 1.	description text: self object printString	

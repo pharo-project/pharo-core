@@ -1,0 +1,1 @@
+ComposableModel subclass: #InspectorWrapper	instanceVariableNames: 'inspector history canBeRefreshed'	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Inspector'

@@ -1,1 +1,0 @@
-addAllInstVars: elements	"Add AllInstVars to the list of elements you can access in the inspector"	elements add: 		(self elemClass 			fieldName: 'all inst vars'			object: self object 			printedValue: (self object longPrintStringLimitedTo: 2000)).

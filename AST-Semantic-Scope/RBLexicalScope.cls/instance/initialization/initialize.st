@@ -1,1 +1,1 @@
-initialize	bindings := RBSmallDictionary new
+initialize	bindings := SmallDictionary new

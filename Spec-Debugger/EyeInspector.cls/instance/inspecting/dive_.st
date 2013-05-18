@@ -1,1 +1,0 @@
-dive: anObject 	"This is called to update the inspector model with a new object, to remember the prevous object and to update the UI"		self save: mementoPrev.	mementoNext removeAll.	self inspect: anObject.	self prepareObject

@@ -1,1 +1,0 @@
-copyName	"Copy the name of the current variable, so the user can paste it into the 	window below and work with is."	| selection |		selection := self fieldName asInteger 		ifNotNil: [ :index | '(self basicAt: ' , index , ')' ]		ifNil: [ self fieldName ].	Clipboard clipboardText: selection asText

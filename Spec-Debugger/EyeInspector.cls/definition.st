@@ -1,1 +1,0 @@
-ComposableModel subclass: #EyeInspector	instanceVariableNames: 'object list text description mementoPrev mementoNext refreshLoop'	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Debugger'

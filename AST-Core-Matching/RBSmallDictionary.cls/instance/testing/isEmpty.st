@@ -1,1 +1,0 @@
-isEmpty	^ tally = 0

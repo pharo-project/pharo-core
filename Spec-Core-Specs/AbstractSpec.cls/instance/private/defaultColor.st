@@ -1,1 +1,1 @@
-defaultColor	^ #(Color class black)
+defaultColor	^ #(Color class white)

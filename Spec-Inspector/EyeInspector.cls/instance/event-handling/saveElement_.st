@@ -1,0 +1,1 @@
+saveElement: newText	"When you press Cmd+s on the description TextModel, you can save the new value in the inspected object"	|newValue|			newValue := description doItReceiver class evaluatorClass new 		evaluate: newText		in: self doItContext		to: description doItReceiver.			newValue == #failedDoit ifFalse: [ 		self selectedElement save: newValue.		self objectChanged]

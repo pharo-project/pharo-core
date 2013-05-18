@@ -1,1 +1,0 @@
-browseInstClassVariable: class	^ self systemNavigation  browseClassVariables: class

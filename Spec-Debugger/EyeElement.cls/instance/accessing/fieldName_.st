@@ -1,1 +1,0 @@
-fieldName: anObject	fieldName := anObject

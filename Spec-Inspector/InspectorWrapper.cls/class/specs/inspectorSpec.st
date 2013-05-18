@@ -1,0 +1,1 @@
+inspectorSpec	<spec>		^ SpecLayout composed		add: #inspector withSpec: #inspectorSpecOptimized;		yourself

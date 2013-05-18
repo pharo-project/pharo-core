@@ -1,1 +1,0 @@
-Object subclass: #EyeElement	instanceVariableNames: 'object fieldName saveAction printedValue'	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Debugger'

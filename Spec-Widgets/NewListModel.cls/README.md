@@ -1,1 +1,1 @@
-| m |m := NewListModel new.m openWithSpec.m items: (1 to: 10) asOrderedCollection.m headerTitle: 'Fubu'.m setSelectedIndex: 5.
+| m |m := NewListModel new.m items: (10 to: 50) asOrderedCollection.m headerTitle: 'Fubu'.m setSelectedIndex: 5.m openWithSpec.

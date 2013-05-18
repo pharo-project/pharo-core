@@ -1,1 +1,0 @@
-prev	"This is called to put back the previous inpected object into the inspector. It updates the UI"	self save: mementoNext.	self remember: mementoPrev.	mementoPrev := (mementoPrev at: 'mementoPrev')	

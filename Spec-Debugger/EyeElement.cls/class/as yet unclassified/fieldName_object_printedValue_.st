@@ -1,1 +1,0 @@
-fieldName: aString object: anObject printedValue: anotherString	^ (self fieldName: aString object: anObject) printedValue: anotherString	

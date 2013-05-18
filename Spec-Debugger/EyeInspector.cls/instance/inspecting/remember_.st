@@ -1,1 +1,0 @@
-remember: memento 	"This is called to put back a previously inpected object into the inspector"	self inspect: (memento at: 'object').	list setSelectedIndex: (memento at: 'selectedIndex').	

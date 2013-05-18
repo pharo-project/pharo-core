@@ -1,1 +1,1 @@
-keyStrokeAction: anEvent	^ self model keyStrokeAction: anEvent
+keyStrokeAction: anEvent	^ self keyStrokeAction: anEvent

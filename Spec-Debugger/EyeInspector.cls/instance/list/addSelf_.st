@@ -1,1 +1,0 @@
-addSelf: elements	"Add self to the list of elements you can access in the inspector"	elements add: (self elemClass fieldName: 'self' object: self object).
