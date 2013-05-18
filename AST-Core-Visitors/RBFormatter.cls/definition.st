@@ -1,1 +1,0 @@
-RBProgramNodeVisitor subclass: #RBFormatter	instanceVariableNames: 'codeStream lineStart firstLineLength tabs'	classVariableNames: ''	poolDictionaries: ''	category: 'AST-Core-Visitors'

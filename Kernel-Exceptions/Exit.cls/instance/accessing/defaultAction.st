@@ -1,1 +1,1 @@
-defaultAction 	self messageText ifNotNil: [ self printMessage ].	Smalltalk exit: self status
+defaultAction 	self messageText isEmpty		ifFalse: [ self printMessage ].	Smalltalk exit: self status

@@ -1,1 +1,0 @@
-visitPatternBlockNode: aRBPatternBlockNode 	self 		visitBlockNode: aRBPatternBlockNode		startBlockString: '`{'		endBlockString: '}'
