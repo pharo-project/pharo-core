@@ -1,1 +1,1 @@
-initialize	super initialize.	methodsSelection := Dictionary new.
+initialize	super initialize.	methodsSelection := IdentityDictionary new.

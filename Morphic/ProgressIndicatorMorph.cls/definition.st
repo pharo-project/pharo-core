@@ -1,1 +1,0 @@
-Morph subclass: #ProgressIndicatorMorph	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Morphic'
