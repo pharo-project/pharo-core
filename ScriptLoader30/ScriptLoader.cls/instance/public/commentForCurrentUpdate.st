@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10611 restore nautilus buttons bar	https://pharo.fogbugz.com/f/cases/10611'
+commentForCurrentUpdate ^ '10617 fix accessor RBMethodNode>>#compilationContext in Image	https://pharo.fogbugz.com/f/cases/10617	'

@@ -1,1 +1,1 @@
-compilationContext	^compilationContext
+compilationContext	^ compilationContext ifNil: [ compilationContext := self methodClass compiler compilationContext]
