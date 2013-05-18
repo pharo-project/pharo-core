@@ -1,0 +1,1 @@
+A KMKeyCombinationSequence is xxxxxxxxx.Instance Variables	shortcuts:		<Object>shortcuts	- xxxxx

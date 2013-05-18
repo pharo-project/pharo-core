@@ -1,1 +1,0 @@
-A KMShortcut is xxxxxxxxx.Instance Variables

@@ -1,1 +1,0 @@
-A KMChainedShortcut is xxxxxxxxx.Instance Variables	shortcuts:		<Object>shortcuts	- xxxxx

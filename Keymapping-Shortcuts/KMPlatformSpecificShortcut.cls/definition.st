@@ -1,1 +1,0 @@
-Object subclass: #KMPlatformSpecificShortcut	instanceVariableNames: 'shortcut platform'	classVariableNames: ''	poolDictionaries: ''	category: 'Keymapping-Shortcuts'

@@ -1,0 +1,1 @@
+A KMSingleKeyCombination is xxxxxxxxx.Instance Variables	key:		<Object>key	- xxxxx

@@ -1,1 +1,0 @@
-, aShortcut	self addShortcut: aShortcut asShortcut.

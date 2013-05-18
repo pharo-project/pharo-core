@@ -1,0 +1,1 @@
+A KMPlatformSpecificKeyCombination is xxxxxxxxx.Instance Variables	platform:		<Object>	shortcut:		<Object>platform	- xxxxxshortcut	- xxxxx

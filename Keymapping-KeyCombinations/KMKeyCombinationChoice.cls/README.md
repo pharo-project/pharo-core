@@ -1,0 +1,1 @@
+A KMKeyCombinationChoice is xxxxxxxxx.Instance Variables	shortcuts:		<Object>shortcuts	- xxxxx

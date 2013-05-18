@@ -1,1 +1,1 @@
-availablePopupShortcuts	^ {		Character space shift. 		Character tab asShortcut}
+availablePopupShortcuts	^ {		Character space shift. 		Character tab asKeyCombination}

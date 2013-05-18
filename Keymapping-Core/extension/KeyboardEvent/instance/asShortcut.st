@@ -1,1 +1,0 @@
-asShortcut	^ KMShortcut fromKeyboardEvent: self

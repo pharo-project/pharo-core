@@ -1,1 +1,1 @@
-on: aShortcut do: anAction	self kmDispatcher on: aShortcut asShortcut do: anAction
+on: aShortcut do: anAction	self kmDispatcher on: aShortcut asKeyCombination do: anAction

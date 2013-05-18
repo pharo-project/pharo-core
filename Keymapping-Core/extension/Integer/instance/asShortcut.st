@@ -1,1 +1,0 @@
-asShortcut	^ KMSingleKeyShortcut from: self asCharacter

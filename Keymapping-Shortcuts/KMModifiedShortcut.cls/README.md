@@ -1,1 +1,0 @@
-A KMModifiedShortcut is xxxxxxxxx.Instance Variables	character:		<Object>	modifier:		<Object>character	- xxxxxmodifier	- xxxxx
