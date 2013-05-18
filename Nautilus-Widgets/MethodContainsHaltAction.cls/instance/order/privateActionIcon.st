@@ -1,1 +1,1 @@
-privateActionIcon	"Return the icon for this action"	^ self iconClass iconNamed: #haltIcon
+privateActionIcon	"Return the icon for this action"	^ Smalltalk ui icons iconNamed: #haltIcon

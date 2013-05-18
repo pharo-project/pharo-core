@@ -1,1 +1,1 @@
-workspaceIcon	"Private - Generated method"	^ icons			at: #'workspaceIcon'			ifAbsentPut:[ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self workspaceIconContents readStream) ].
+workspaceIcon	self deprecated: 'Use instance side method' on: '10 May 2013' in: '3.0'.	^ self icons workspaceIcon.

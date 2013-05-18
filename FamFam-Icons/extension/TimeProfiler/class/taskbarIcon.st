@@ -1,1 +1,1 @@
-taskbarIcon 	^self theme iconNamed: #smallDebugIcon
+taskbarIcon 	^ Smalltalk ui icons iconNamed: #smallDebugIcon

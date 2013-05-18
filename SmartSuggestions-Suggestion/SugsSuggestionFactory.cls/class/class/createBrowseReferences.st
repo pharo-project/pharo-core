@@ -1,1 +1,1 @@
-createBrowseReferences	<classCommand>	^ SugsBrowseClassReferences 		icon: UITheme current smallInspectItIcon		position: 10
+createBrowseReferences	<classCommand>	^ SugsBrowseClassReferences 		icon: Smalltalk ui icons smallInspectItIcon		position: 10

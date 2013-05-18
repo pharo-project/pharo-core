@@ -1,1 +1,1 @@
-createPullUp	<methodCommand>	^ SugsPullUpMethod 		icon: UITheme current smallRedoIcon		position: 100
+createPullUp	<methodCommand>	^ SugsPullUpMethod 		icon: Smalltalk ui icons smallRedoIcon		position: 100

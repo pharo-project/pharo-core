@@ -1,1 +1,1 @@
-createVariableStoresInto	<instVarCommand>	^ SugsStoresIntoInstVar 		icon: UITheme current smallInspectItIcon		position: 60
+createVariableStoresInto	<instVarCommand>	^ SugsStoresIntoInstVar 		icon: Smalltalk ui icons smallInspectItIcon		position: 60

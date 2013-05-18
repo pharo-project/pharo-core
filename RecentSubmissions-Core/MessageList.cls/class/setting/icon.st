@@ -1,1 +1,1 @@
-icon	^ThemeIcons smallInfoIcon
+icon	^ Smalltalk ui icons smallInfoIcon

@@ -1,1 +1,1 @@
-icon 	^UITheme current iconNamed: #recentMessagesIcon
+icon 	^ Smalltalk ui icons iconNamed: #recentMessagesIcon

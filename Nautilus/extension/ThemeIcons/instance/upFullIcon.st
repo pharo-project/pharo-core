@@ -1,0 +1,1 @@
+upFullIcon 	^ icons			at: #'upIcon'			ifAbsentPut:[ self upFullIconContents ].

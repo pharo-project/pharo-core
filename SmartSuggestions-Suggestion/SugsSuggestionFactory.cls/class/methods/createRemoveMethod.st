@@ -1,1 +1,1 @@
-createRemoveMethod	<methodCommand>	^ SugsRemoveMethod 		icon: UITheme current smallCancelIcon		position: 20
+createRemoveMethod	<methodCommand>	^ SugsRemoveMethod 		icon: Smalltalk ui icons smallCancelIcon		position: 20

@@ -1,1 +1,1 @@
-userIcon	"Private - Generated method"	^icons 		at: #userIcon		ifAbsentPut:[ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self userIconContents readStream) ].
+userIcon	self deprecated: 'Use instance side method' on: '10 May 2013' in: '3.0'.	^ self icons userIcon.

@@ -1,1 +1,1 @@
-smallUnderlineIcon	"Answer a small underlined text icon."	^ThemeIcons smallUnderlineIcon
+smallUnderlineIcon	self deprecated: 'You need to use Smalltalk ui icons' on: '10 May 2013' in: '3.0'.	^ self icons smallUnderlineIcon.

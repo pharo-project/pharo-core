@@ -1,1 +1,0 @@
-iconClass	^ NautilusIcons

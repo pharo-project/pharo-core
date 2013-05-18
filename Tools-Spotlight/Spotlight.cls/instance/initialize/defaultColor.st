@@ -1,1 +1,1 @@
-defaultColor 	^UITheme current selectionColor muchDarker
+defaultColor 	^ Smalltalk ui theme selectionColor muchDarker

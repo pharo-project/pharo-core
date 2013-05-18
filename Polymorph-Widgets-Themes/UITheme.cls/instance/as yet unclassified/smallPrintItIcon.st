@@ -1,1 +1,0 @@
-smallPrintItIcon	^ ThemeIcons smallPrintItIcon

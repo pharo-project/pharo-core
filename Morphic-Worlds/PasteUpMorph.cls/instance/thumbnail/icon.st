@@ -1,1 +1,1 @@
-icon	^self theme homeIcon
+icon	^ Smalltalk ui icons homeIcon

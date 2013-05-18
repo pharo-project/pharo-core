@@ -1,1 +1,1 @@
-icon	"Answer an icon for the receiver."		^self theme lockIcon
+icon	"Answer an icon for the receiver."		^ Smalltalk ui icons lockIcon

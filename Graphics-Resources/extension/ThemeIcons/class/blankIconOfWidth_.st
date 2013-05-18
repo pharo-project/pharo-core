@@ -1,1 +1,1 @@
-blankIconOfWidth: aNumber 	^ icons		at: ('blankIcon-' , aNumber asString) asSymbol		ifAbsentPut: [Form extent: aNumber @ 1 depth: 8]
+blankIconOfWidth: aNumber 	^ self current blankIconOfWidth: aNumber

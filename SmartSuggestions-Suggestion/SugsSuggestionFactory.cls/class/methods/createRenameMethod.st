@@ -1,1 +1,1 @@
-createRenameMethod	<methodCommand>	^ SugsRenameMethod 		icon: UITheme current smallLanguageIcon		position: 10		keyText: 'r,m'
+createRenameMethod	<methodCommand>	^ SugsRenameMethod 		icon: Smalltalk ui icons smallLanguageIcon		position: 10		keyText: 'r,m'

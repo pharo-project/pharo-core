@@ -1,1 +1,1 @@
-processBrowserIcon	"Private - Generated method"	^ icons			at: #'processBrowserIcon'			ifAbsentPut:[ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self processBrowserIconContents readStream) ].
+processBrowserIcon	self deprecated: 'Use instance side method' on: '10 May 2013' in: '3.0'.	^ self icons processBrowserIcon.

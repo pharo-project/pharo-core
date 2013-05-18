@@ -1,1 +1,1 @@
-createFindImplementors	<messageCommand>	^ SugsFindImplementors 		icon: UITheme current smallFindIcon		position: 20		keyText: 'm'
+createFindImplementors	<messageCommand>	^ SugsFindImplementors 		icon: Smalltalk ui icons smallFindIcon		position: 20		keyText: 'm'

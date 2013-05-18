@@ -1,1 +1,1 @@
-toolsIcon	"Private - Generated method"	^ icons			at: #'toolsIcon'			ifAbsentPut:[ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self toolsIconContents readStream) ].
+toolsIcon	self deprecated: 'Use instance side method' on: '10 May 2013' in: '3.0'.	^ self icons toolsIcon.

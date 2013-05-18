@@ -1,1 +1,1 @@
-menuPinForm	"Answer the form to use for the pin button of a menu."	^ThemeIcons smallPushpinIcon
+menuPinForm	"Answer the form to use for the pin button of a menu."	^ self icons smallPushpinIcon

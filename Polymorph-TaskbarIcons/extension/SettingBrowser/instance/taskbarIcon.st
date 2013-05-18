@@ -1,1 +1,1 @@
-taskbarIcon	^ self theme smallConfigurationIcon
+taskbarIcon	^ Smalltalk ui icons smallConfigurationIcon

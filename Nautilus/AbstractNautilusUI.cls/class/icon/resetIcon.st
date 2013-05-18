@@ -1,1 +1,0 @@
-resetIcon	Icon := nil

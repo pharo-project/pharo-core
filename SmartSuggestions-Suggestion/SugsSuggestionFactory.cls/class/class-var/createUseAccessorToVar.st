@@ -1,1 +1,1 @@
-createUseAccessorToVar	<classVarCommand>	^ SugsUseAccessorsForClassVar 		icon: UITheme current smallLanguageIcon		position: 10
+createUseAccessorToVar	<classVarCommand>	^ SugsUseAccessorsForClassVar 		icon: Smalltalk ui icons smallLanguageIcon		position: 10

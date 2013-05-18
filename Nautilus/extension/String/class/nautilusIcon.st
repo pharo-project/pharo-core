@@ -1,1 +1,1 @@
-nautilusIcon	^ self nautilusIconClass iconNamed: #string
+nautilusIcon	^ Smalltalk ui icons iconNamed: #stringIcon

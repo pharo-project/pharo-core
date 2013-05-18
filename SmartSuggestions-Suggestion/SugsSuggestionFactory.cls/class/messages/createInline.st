@@ -1,1 +1,1 @@
-createInline	<messageCommand>	^ SugsInline		icon: UITheme current smallRightFlushIcon		position: 100
+createInline	<messageCommand>	^ SugsInline		icon: Smalltalk ui icons smallRightFlushIcon		position: 100

@@ -1,1 +1,0 @@
-iconClass	^ self model iconClass

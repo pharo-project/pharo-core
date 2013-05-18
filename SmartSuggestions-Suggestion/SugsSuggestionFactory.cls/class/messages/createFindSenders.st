@@ -1,1 +1,1 @@
-createFindSenders	<methodCommand>	<messageCommand>	^ SugsFindSenders 		icon: UITheme current smallFindIcon		position: 10		keyText: 'n'
+createFindSenders	<methodCommand>	<messageCommand>	^ SugsFindSenders 		icon: Smalltalk ui icons smallFindIcon		position: 10		keyText: 'n'

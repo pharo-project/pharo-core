@@ -1,1 +1,1 @@
-defaultColor"answer the default color/fill style for the receiver"	^ UITheme current selectionColor
+defaultColor	"answer the default color/fill style for the receiver"	^ Smalltalk ui theme selectionColor

@@ -1,1 +1,1 @@
-growlFillColorFor: aGrowlMorph	^ UITheme current selectionColor
+growlFillColorFor: aGrowlMorph	^ self selectionColor

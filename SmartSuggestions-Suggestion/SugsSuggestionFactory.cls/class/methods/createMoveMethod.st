@@ -1,1 +1,1 @@
-createMoveMethod	<methodCommand>	^ SugsDelegateMethod 		icon: UITheme current smallRedoIcon		position: 210
+createMoveMethod	<methodCommand>	^ SugsDelegateMethod 		icon: Smalltalk ui icons smallRedoIcon		position: 210

@@ -1,1 +1,1 @@
-theme	^ UITheme current 
+theme	^ Smalltalk ui theme

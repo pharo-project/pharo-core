@@ -1,1 +1,1 @@
-icon	"Answer a form with an icon to represent the receiver"	^ self theme windowIcon
+icon	"Answer a form with an icon to represent the receiver"	^ Smalltalk ui icons windowIcon

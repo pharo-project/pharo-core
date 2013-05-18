@@ -1,1 +1,1 @@
-transcriptIcon	"Private - Generated method"	^ icons			at: #'transcriptIcon'			ifAbsentPut:[ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self transcriptIconContents readStream) ].
+transcriptIcon	self deprecated: 'Use instance side method' on: '10 May 2013' in: '3.0'.	^ self icons transcriptIcon.

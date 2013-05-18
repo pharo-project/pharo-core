@@ -1,1 +1,1 @@
-createSwapMethod	<methodCommand>	^ SugsSwapMethod new		icon: UITheme current smallRedoIcon;		position: 50
+createSwapMethod	<methodCommand>	^ SugsSwapMethod new		icon: Smalltalk ui icons smallRedoIcon;		position: 50

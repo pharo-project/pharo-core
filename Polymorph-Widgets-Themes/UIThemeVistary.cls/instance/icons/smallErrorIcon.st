@@ -1,1 +1,1 @@
-smallErrorIcon	"Answer a small error icon."	^VistaryThemeIcons smallErrorIcon
+smallErrorIcon	self deprecated: 'You need to use Smalltalk ui icons' on: '10 May 2013' in: '3.0'.	^ self icons smallErrorIcon.

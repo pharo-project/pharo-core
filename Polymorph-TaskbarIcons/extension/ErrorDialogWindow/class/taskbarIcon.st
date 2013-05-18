@@ -1,1 +1,1 @@
-taskbarIcon	"Answer the icon for the receiver in a task bar."	^self theme smallErrorIcon
+taskbarIcon	"Answer the icon for the receiver in a task bar."	^ Smalltalk ui icons smallErrorIcon

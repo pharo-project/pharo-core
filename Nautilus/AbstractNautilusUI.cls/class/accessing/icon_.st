@@ -1,1 +1,0 @@
-icon: anObject		Icon := anObject

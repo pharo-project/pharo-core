@@ -1,1 +1,1 @@
-testRunnerIcon	"Private - Generated method"	^ icons			at: #'testRunnerIcon'			ifAbsentPut:[ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self testRunnerIconContents readStream) ].
+testRunnerIcon	self deprecated: 'Use instance side method' on: '10 May 2013' in: '3.0'.	^ self icons testRunnerIcon.

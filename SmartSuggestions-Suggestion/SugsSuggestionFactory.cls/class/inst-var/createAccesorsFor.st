@@ -1,1 +1,1 @@
-createAccesorsFor	<instVarCommand>	^ SugsCreateInstanceVarAccessors 		icon: UITheme current smallLanguageIcon		position: 100
+createAccesorsFor	<instVarCommand>	^ SugsCreateInstanceVarAccessors 		icon: Smalltalk ui icons smallLanguageIcon		position: 100

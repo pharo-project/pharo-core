@@ -1,1 +1,1 @@
-categoriesFrame	^LayoutFrame new		rightFraction: 0.25;		topOffset: (UITheme current textFont height + 13);		bottomOffset: self buttonHeight negated
+categoriesFrame	^LayoutFrame new		rightFraction: 0.25;		topOffset: (Smalltalk ui theme textFont height + 13);		bottomOffset: self buttonHeight negated

@@ -1,1 +1,1 @@
-backgroundColor 	^backgroundColor ifNil: [ 		backgroundColor := (UITheme current settings menuColor ifNil: [ Color white ]) ]
+backgroundColor 	^backgroundColor ifNil: [ 		backgroundColor := (Smalltalk ui theme settings menuColor ifNil: [ Color white ]) ]

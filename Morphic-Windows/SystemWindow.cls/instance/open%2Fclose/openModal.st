@@ -1,1 +1,1 @@
-openModal	self openInWorld.	UITheme current runModal: self.
+openModal	self openInWorld.	Smalltalk ui theme runModal: self.

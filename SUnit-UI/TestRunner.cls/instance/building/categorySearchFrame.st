@@ -1,1 +1,1 @@
-categorySearchFrame	^LayoutFrame new		rightFraction: 0.25;		bottomFraction: 0 offset: (UITheme current textFont height + 10)
+categorySearchFrame	^LayoutFrame new		rightFraction: 0.25;		bottomFraction: 0 offset: (Smalltalk ui theme textFont height + 10)

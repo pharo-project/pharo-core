@@ -1,1 +1,1 @@
-defaultIcon	^ self theme smallConfigurationIcon
+defaultIcon	^ Smalltalk ui icons smallConfigurationIcon

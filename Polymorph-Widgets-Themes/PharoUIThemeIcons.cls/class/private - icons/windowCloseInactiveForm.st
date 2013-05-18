@@ -1,0 +1,1 @@
+windowCloseInactiveForm	^ self current windowCloseInactiveForm.

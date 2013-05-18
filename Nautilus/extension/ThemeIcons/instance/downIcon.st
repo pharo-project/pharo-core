@@ -1,0 +1,1 @@
+downIcon 	^ icons			at: #'downIcon'			ifAbsentPut:[ self downIconContents ].

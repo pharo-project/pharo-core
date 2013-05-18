@@ -1,1 +1,1 @@
-smallDebugItIcon	"Private - Generated method"	^ icons			at: #'smallDebugItIcon'			ifAbsentPut:[ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self smallDebugItIconContents readStream) ].
+smallDebugItIcon	self deprecated: 'Use instance side method' on: '10 May 2013' in: '3.0'.	^ self icons smallDebugItIcon.

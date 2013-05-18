@@ -1,1 +1,1 @@
-icon	^  self theme  smallExpertIcon
+icon	^  Smalltalk ui icons smallExpertIcon

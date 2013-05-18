@@ -1,1 +1,1 @@
-taskbarIcon 	^ self theme smallInspectItIcon
+taskbarIcon 	^ Smalltalk ui icons smallInspectItIcon

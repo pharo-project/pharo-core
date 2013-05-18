@@ -1,1 +1,1 @@
-smallPrintItIcon	"Private - Generated method"	^ icons			at: #'smallPrintItIcon'			ifAbsentPut:[ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self smallPrintItIconContents readStream) ].
+smallPrintItIcon	self deprecated: 'Use instance side method' on: '10 May 2013' in: '3.0'.	^ self icons smallPrintItIcon.

@@ -1,1 +1,1 @@
-privateActionIcon	"Return the icon for this action"	^ self iconClass iconNamed: #breakpoint
+privateActionIcon	"Return the icon for this action"	^ Smalltalk ui icons iconNamed: #breakpointIcon

@@ -1,1 +1,1 @@
-createRenameClass	<classCommand>	^ SugsRenameClass		icon: UITheme current smallLanguageIcon		position: 20		keyText: 'r'
+createRenameClass	<classCommand>	^ SugsRenameClass		icon: Smalltalk ui icons smallLanguageIcon		position: 20		keyText: 'r'

@@ -1,1 +1,1 @@
-createFormatSourceCode	<methodCommand>	<sourceCodeCommand>	^ SugsFormatCode 		icon: UITheme current smallJustifiedIcon		position: 0		keyText: 'u'
+createFormatSourceCode	<methodCommand>	<sourceCodeCommand>	^ SugsFormatCode 		icon: Smalltalk ui icons smallJustifiedIcon		position: 0		keyText: 'u'

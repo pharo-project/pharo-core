@@ -1,1 +1,1 @@
-nautilusIcon	^ self nautilusIconClass iconNamed: #exception
+nautilusIcon	^ Smalltalk ui icons iconNamed: #exceptionIcon

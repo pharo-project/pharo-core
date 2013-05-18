@@ -1,1 +1,1 @@
-createExtractMethod	<sourceCodeCommand>	<messageCommand>	^ SugsExtractMethod 		icon: UITheme current smallRedoIcon		position: 50
+createExtractMethod	<sourceCodeCommand>	<messageCommand>	^ SugsExtractMethod 		icon: Smalltalk ui icons smallRedoIcon		position: 50

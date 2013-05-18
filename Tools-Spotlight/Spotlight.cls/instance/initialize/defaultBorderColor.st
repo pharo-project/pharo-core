@@ -1,1 +1,1 @@
-defaultBorderColor	^ UITheme current windowColor 
+defaultBorderColor	^ Smalltalk ui theme windowColor 

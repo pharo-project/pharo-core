@@ -1,1 +1,1 @@
-taskbarIcon	^self theme smallFindIcon
+taskbarIcon	^ Smalltalk ui icons smallFindIcon

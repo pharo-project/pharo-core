@@ -1,1 +1,1 @@
-icon	"Answer an icon for the receiver."		^self theme questionIcon
+icon	"Answer an icon for the receiver."		^ Smalltalk ui icons questionIcon

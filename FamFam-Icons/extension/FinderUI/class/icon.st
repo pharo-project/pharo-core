@@ -1,1 +1,1 @@
-icon	^ UITheme current iconNamed: #smallFindIcon
+icon	^ Smalltalk ui icons iconNamed: #smallFindIcon

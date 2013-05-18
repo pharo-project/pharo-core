@@ -1,1 +1,1 @@
-privateActionIcon	"Return the icon for this action"	^ self iconClass iconNamed: #blank
+privateActionIcon	"Return the icon for this action"	^ Smalltalk ui icons iconNamed: #emptyIcon

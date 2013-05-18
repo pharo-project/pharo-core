@@ -1,0 +1,1 @@
+defaultThemeIconsClass	^ ThemeIcons

@@ -1,1 +1,1 @@
-icon	^ Icon
+icon	^ Smalltalk ui icons nautilusIcon 

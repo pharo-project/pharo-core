@@ -1,1 +1,1 @@
-menuCommandOn: aBuilder  	<worldMenu>	(aBuilder item: #Tools)		order: 1.0;		target: self;		icon: (self theme iconNamed: #toolsIcon). 
+menuCommandOn: aBuilder  	<worldMenu>	(aBuilder item: #Tools)		order: 1.0;		target: self;		icon: (Smalltalk ui icons iconNamed: #toolsIcon). 

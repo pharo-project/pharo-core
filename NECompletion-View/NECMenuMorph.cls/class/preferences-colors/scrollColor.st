@@ -1,1 +1,1 @@
-scrollColor	^ UITheme current settings selectionColor
+scrollColor	^ Smalltalk ui theme settings selectionColor

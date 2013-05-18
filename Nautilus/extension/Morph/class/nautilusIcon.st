@@ -1,1 +1,1 @@
-nautilusIcon	^ self nautilusIconClass iconNamed: #morph
+nautilusIcon	^ Smalltalk ui icons iconNamed: #morphIcon

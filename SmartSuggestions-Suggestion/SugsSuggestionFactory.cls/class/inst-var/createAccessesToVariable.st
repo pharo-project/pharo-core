@@ -1,1 +1,1 @@
-createAccessesToVariable	<instVarCommand>	^ SugsAccessesToInstVar		icon: UITheme current smallInspectItIcon		position: 50
+createAccessesToVariable	<instVarCommand>	^ SugsAccessesToInstVar		icon: Smalltalk ui icons smallInspectItIcon		position: 50

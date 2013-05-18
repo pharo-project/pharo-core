@@ -1,1 +1,1 @@
-Object subclass: #ThemeIcons	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Polymorph-Widgets-Themes'
+Object subclass: #ThemeIcons	instanceVariableNames: 'icons'	classVariableNames: ''	poolDictionaries: ''	category: 'Polymorph-Widgets-Themes'

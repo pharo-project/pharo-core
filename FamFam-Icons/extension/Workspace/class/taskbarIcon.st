@@ -1,1 +1,1 @@
-taskbarIcon	"Answer the icon for the receiver in a task bar."	^ThemeIcons iconNamed: #workspaceIcon
+taskbarIcon	"Answer the icon for the receiver in a task bar."	^ Smalltalk ui icons iconNamed: #workspaceIcon

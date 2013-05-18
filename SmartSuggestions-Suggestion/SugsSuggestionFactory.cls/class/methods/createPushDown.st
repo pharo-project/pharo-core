@@ -1,1 +1,1 @@
-createPushDown	<methodCommand>	^ SugsPushDownMethod 		icon: UITheme current smallUndoIcon		position: 101
+createPushDown	<methodCommand>	^ SugsPushDownMethod 		icon: Smalltalk ui icons smallUndoIcon		position: 101

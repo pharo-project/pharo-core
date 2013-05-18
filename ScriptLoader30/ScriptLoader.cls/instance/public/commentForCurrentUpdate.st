@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10607 Trait method buttons do not work	https://pharo.fogbugz.com/f/cases/10607	10606 Code Navigation	https://pharo.fogbugz.com/f/cases/10606		'
+commentForCurrentUpdate ^ '10576 reducing references/coupling to UITheme and ThemeIcons	https://pharo.fogbugz.com/f/cases/10576'

@@ -1,1 +1,1 @@
-theme	"Answer the ui theme that provides controls."	^UITheme current
+theme	"Answer the ui theme that provides controls."	^ Smalltalk ui theme 

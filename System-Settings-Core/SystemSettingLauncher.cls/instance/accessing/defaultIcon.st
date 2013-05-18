@@ -1,1 +1,1 @@
-defaultIcon	^ self theme  smallDoItIcon
+defaultIcon	^ Smalltalk ui icons smallDoItIcon

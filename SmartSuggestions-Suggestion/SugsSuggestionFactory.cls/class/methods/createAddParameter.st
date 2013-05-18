@@ -1,1 +1,1 @@
-createAddParameter	<methodCommand>	^ SugsAddParameter 		icon: UITheme current smallPushpinIcon		position: 200
+createAddParameter	<methodCommand>	^ SugsAddParameter 		icon: Smalltalk ui icons smallPushpinIcon		position: 200

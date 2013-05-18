@@ -1,1 +1,1 @@
-taskbarIcon	"Answer the icon for the receiver in a task bar."	^self theme iconNamed: #processBrowserIcon
+taskbarIcon	"Answer the icon for the receiver in a task bar."	^ Smalltalk ui icons iconNamed: #processBrowserIcon

@@ -1,1 +1,1 @@
-createRemoveParameter	<methodCommand>	^ SugsRemoveParameter 		icon: UITheme current smallCancelIcon		position: 210
+createRemoveParameter	<methodCommand>	^ SugsRemoveParameter 		icon: Smalltalk ui icons smallCancelIcon		position: 210
