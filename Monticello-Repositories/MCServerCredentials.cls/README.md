@@ -1,1 +1,1 @@
-A MCServerCredentials is xxxxxxxxx.Instance Variables	password:		<Object>	username:		<Object>password	- xxxxxusername	- xxxxx
+I store a username and password.

@@ -1,0 +1,1 @@
+signalFailure 	^ self failure signal

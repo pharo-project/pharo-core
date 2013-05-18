@@ -1,1 +1,0 @@
-signalFaillure: aMessage 	^ self failure signal: aMessage

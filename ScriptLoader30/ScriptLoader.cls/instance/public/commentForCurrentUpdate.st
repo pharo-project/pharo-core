@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10281 Another fix for AST: remove #visitArgumentNode: in OBSemanticAnnotator	https://pharo.fogbugz.com/f/cases/10281	10280 Remove strange MCRepositories	https://pharo.fogbugz.com/f/cases/10280/	'
+commentForCurrentUpdate ^ '10290 Typo in selector Exit class>>#signalFaillure:	http://pharo.fogbugz.com/f/cases/10290	10258 DivideByZero in SystemProgressMorph	https://pharo.fogbugz.com/f/cases/10258	10272 Monticello should provide a proper UI dialog to ask for username and password	https://pharo.fogbugz.com/f/cases/10272/'
