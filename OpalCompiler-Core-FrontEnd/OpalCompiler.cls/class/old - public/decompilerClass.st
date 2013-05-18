@@ -1,1 +1,1 @@
-decompilerClass	^OCFakeDecompiler
+decompilerClass	^self

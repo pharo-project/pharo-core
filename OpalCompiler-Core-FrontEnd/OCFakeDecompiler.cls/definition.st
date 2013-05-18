@@ -1,1 +1,0 @@
-Object subclass: #OCFakeDecompiler	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-FrontEnd'

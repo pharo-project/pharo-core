@@ -1,0 +1,1 @@
+decompileMethod: aCompiledMethod	^self		decompile: aCompiledMethod selector		in: aCompiledMethod methodClass		method: aCompiledMethod

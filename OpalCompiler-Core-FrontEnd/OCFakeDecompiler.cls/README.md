@@ -1,1 +1,0 @@
-An OCFakeDecompiler is xxxxxxxxx.Instance Variables

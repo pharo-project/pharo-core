@@ -1,1 +1,0 @@
-decompile: selector in: aClass method: aMethod	"to be fixed"	| source |	source := aMethod getSourceFromFile.		source 		ifNil: [Decompiler new decompile: selector in: aClass method: aMethod ]		ifNotNil: [OpalCompiler new parse: source class: aClass]

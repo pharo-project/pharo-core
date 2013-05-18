@@ -1,1 +1,0 @@
-maxOrderNumber	maxOrderNumber ifNil: [		maxOrderNumber := self startSequence orderNumber.		self startSequence withAllSuccessorsDo: [:seq | maxOrderNumber := maxOrderNumber max: seq orderNumber].				].	^ maxOrderNumber.
