@@ -1,1 +1,0 @@
-TestCase subclass: #NondestructiveRecompileTests	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-RegressionTests'

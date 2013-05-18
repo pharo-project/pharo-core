@@ -1,1 +1,0 @@
-recompileClass: class	{class. class class} do: [:behavior |		behavior localSelectors do: [:selector |			verbose ifTrue: [transcript show: behavior name asString, '>>', selector asString;cr.].			[self recompile: selector in: behavior]				on: Error				do: [:ex |self problem: ex description sel: selector in: behavior]]]

@@ -1,1 +1,0 @@
-A DestructiveRecompileTests is xxxxxxxxx.Instance Variables

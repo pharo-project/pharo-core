@@ -1,1 +1,0 @@
-Object subclass: #OCRecompiler	instanceVariableNames: 'transcript problemMethods install verbose'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-RegressionTests'

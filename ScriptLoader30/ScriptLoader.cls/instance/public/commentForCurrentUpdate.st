@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10028 Integrate Opal	https://pharo.fogbugz.com/f/cases/10028	WARNING: ========1) Opal is still not default compiler, it is there to allow us to improve it and put it on shape2) Please, help on it by providing bug reports, etc. :)'
+commentForCurrentUpdate ^ '10028 Integrate Opal	https://pharo.fogbugz.com/f/cases/10028	(remove destructive tests)'

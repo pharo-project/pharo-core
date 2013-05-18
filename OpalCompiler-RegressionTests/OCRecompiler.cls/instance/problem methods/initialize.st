@@ -1,1 +1,0 @@
-initialize	problemMethods := OrderedCollection new.	install := false.	transcript := NonInteractiveTranscript new.	verbose := false.

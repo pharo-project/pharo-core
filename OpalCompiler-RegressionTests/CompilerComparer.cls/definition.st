@@ -1,1 +1,0 @@
-Object subclass: #CompilerComparer	instanceVariableNames: 'problemMethods'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-RegressionTests'

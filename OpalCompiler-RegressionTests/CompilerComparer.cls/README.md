@@ -1,1 +1,0 @@
-A CompilerComparer is xxxxxxxxx.Instance Variables	problemMethods:		<Object>problemMethods	- xxxxx

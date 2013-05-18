@@ -1,1 +1,0 @@
-notify: aString at: anInteger in: aStream	"Called from Parser2 on syntax error. Do nothing and let fail block handle it"

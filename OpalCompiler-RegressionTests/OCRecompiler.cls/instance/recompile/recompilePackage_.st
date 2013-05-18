@@ -1,1 +1,0 @@
-recompilePackage: aString	(PackageInfo named: aString) classes		do:[:each | self recompileClass: each]		displayingProgress: 'Recompiling all classes and traits in package ', aString.

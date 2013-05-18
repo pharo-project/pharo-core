@@ -1,1 +1,0 @@
-decompileAndRecompile: aMethod	^ (aMethod ir) compiledMethodWith: aMethod trailer.	

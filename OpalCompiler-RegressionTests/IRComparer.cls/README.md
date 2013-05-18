@@ -1,1 +1,0 @@
-I am a simple tool to compare methods: Orignal vs. generated from IR.It uses #abstractSymbolic to abstract away from offsets used for temps andsizes of bytecodes between jumps.Use: IRComparer new compare: Object.IRComparer new compareImage.

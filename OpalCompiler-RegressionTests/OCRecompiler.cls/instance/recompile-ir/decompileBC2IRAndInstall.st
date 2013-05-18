@@ -1,1 +1,0 @@
-decompileBC2IRAndInstall	"recompile the image BC->IR->BC and install"	| new |		Smalltalk allClassesAndTraits do: [:class|			class localMethods do: [:method |			new := (method ir) compiledMethodWith: method trailer.			class addSelectorSilently:  method selector withMethod: new.]]

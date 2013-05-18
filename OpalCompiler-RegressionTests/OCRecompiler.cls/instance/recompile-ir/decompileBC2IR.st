@@ -1,1 +1,0 @@
-decompileBC2IR	"decompile all the byteocde of all methods of all classes to IR"	Smalltalk allClassesAndTraits 		do: [:class | class localMethods do: [:method | method ir]] 		displayingProgress: 'decompiling'	
