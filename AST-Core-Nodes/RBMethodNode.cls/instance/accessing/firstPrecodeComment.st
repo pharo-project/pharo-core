@@ -1,0 +1,1 @@
+firstPrecodeComment	| sourceInterval  | 	sourceInterval := self comments first.	^self source copyFrom: sourceInterval first to: sourceInterval last.

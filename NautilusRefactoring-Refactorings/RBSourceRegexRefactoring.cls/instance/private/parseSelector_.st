@@ -1,1 +1,0 @@
-parseSelector: aString	^ RBParser parseMethodPattern: aString

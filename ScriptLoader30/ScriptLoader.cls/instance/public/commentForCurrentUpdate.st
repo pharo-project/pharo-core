@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10402 Cannot print TestCase when testSelector is not set	https://pharo.fogbugz.com/f/cases/10402	10421 Move reformatMethodAt: --> #reformat on CompiledMethod	https://pharo.fogbugz.com/f/cases/10421	10422 cleanup unused code Compiler more		https://pharo.fogbugz.com/f/cases/10422'
+commentForCurrentUpdate ^ '10423 simplify #firstPrecodeCommentFor:	https://pharo.fogbugz.com/f/cases/10423	10426 move #parseSelector to Compiler	https://pharo.fogbugz.com/f/cases/10426'

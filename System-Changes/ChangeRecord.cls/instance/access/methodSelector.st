@@ -1,1 +1,1 @@
-methodSelector	^ type == #method		ifTrue: [ (Smalltalk globals at: class ifAbsent: [ Object ]) parserClass new parseSelector: self string ]
+methodSelector	^ type == #method		ifTrue: [ (Smalltalk globals at: class ifAbsent: [ Object ]) compiler parseSelector: self string ]
