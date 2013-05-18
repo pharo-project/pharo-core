@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '7235 We should move KeyedTree from Polymorph-Widgets to Collections-Unordered	https://pharo.fogbugz.com/f/cases/7235	7540 Etoys related cleanup in CursorWIthAlpha	https://pharo.fogbugz.com/f/cases/7540'
+commentForCurrentUpdate ^ '10193 newRow: #methods bottom: 0.5	https://pharo.fogbugz.com/f/cases/10193	10121 do #cleanUpForRelease on every update	https://pharo.fogbugz.com/f/cases/10121'

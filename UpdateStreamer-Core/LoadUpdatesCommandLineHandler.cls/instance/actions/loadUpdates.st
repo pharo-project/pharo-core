@@ -1,1 +1,1 @@
-loadUpdates	UpdateStreamer new updateFromServer.
+loadUpdates	UpdateStreamer new updateFromServer.	ImageCleaner cleanUpForRelease.
