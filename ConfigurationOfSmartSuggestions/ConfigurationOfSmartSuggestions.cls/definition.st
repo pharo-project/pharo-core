@@ -1,0 +1,1 @@
+Object subclass: #ConfigurationOfSmartSuggestions	instanceVariableNames: 'project'	classVariableNames: 'LastVersionLoad'	poolDictionaries: ''	category: 'ConfigurationOfSmartSuggestions'

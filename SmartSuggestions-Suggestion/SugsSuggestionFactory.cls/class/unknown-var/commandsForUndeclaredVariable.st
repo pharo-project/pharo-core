@@ -1,1 +1,1 @@
-commandsForUndeclaredVariable	^self collectCommandsFrom: self collectorForUndeclaredVariable .
+commandsForUndeclaredVariable	^self collectCommandsFrom: self collectorForUndeclaredVariable  .

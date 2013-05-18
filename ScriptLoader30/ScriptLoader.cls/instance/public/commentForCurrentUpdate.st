@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10618 loadin latest OpalCompilerTests makes CompilerTests dirty	https://pharo.fogbugz.com/f/cases/10618'
+commentForCurrentUpdate ^ '7517 Spec: Document TextModel vs. TextInputFieldModel	https://pharo.fogbugz.com/f/cases/7517	10629 Suggestions not working for deprecated ui icons	https://pharo.fogbugz.com/f/cases/10629	10623 World is not properly updating layout	https://pharo.fogbugz.com/f/cases/10623	10624 WolrdModel does not support delete	https://pharo.fogbugz.com/f/cases/10624'

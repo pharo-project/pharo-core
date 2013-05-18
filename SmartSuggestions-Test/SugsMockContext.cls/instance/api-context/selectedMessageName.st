@@ -1,1 +1,1 @@
-selectedMessageName	^message ifNil:[super selectedMessageName] ifNotNil: [ message ]
+selectedMessageName	^message ifNil:[super selectedMessageName] ifNotNil: [ message ]

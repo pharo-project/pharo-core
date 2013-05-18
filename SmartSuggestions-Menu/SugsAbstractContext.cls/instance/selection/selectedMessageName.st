@@ -1,1 +1,1 @@
-selectedMessageName	^selectedNode selector
+selectedMessageName	^[selectedNode selector] on: MessageNotUnderstood do: [ nil ]

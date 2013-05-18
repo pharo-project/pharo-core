@@ -1,1 +1,1 @@
-hasParameters		^self selectedMessageName numArgs > 0.
+hasParameters		^self selectedMessageName isNil or:[ self selectedMessageName numArgs > 0].

@@ -1,1 +1,1 @@
-sugsContext	^ SugsSmalltalkEditorTextModelContext model: self.
+sugsContext	^ SugsMessageBrowserContext model: self.
