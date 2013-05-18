@@ -1,1 +1,1 @@
-setUp	super setUp.	model := Compiler evaluate: self abstractVariableTestData.
+setUp	super setUp.	model := Smalltalk evaluate: self abstractVariableTestData.

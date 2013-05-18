@@ -1,0 +1,1 @@
+evaluate: aString	^self compilerClass evaluate: aString

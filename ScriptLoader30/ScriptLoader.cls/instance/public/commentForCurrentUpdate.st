@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10376 Clean up underscore assignment	https://pharo.fogbugz.com/f/cases/10376	10392 Suggestions context-dependent	https://pharo.fogbugz.com/f/cases/10392	'
+commentForCurrentUpdate ^ '10400 add #evaluate to TPureBehavior and SmalltakImage	https://pharo.fogbugz.com/f/cases/10400/	10397 Underscore cleanUp, Part 2	https://pharo.fogbugz.com/f/filters/35	10395 DNU SmallInteger>>#add: when loading metacello configuration	https://pharo.fogbugz.com/f/cases/10395	'
