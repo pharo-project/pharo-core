@@ -1,1 +1,1 @@
-TestCase subclass: #SystemAnnouncerTest	instanceVariableNames: 'oldSystemAnnouncer'	classVariableNames: ''	poolDictionaries: ''	category: 'Tests-SystemChangeNotification'
+TestCase subclass: #SystemAnnouncerTest	instanceVariableNames: 'oldSystemAnnouncer factory'	classVariableNames: ''	poolDictionaries: ''	category: 'Tests-SystemChangeNotification'

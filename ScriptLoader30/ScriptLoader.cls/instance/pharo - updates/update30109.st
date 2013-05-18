@@ -1,0 +1,1 @@
+update30109	"self new update30109"	self withUpdateLog: '7001 Protocol Added/Removed	https://pharo.fogbugz.com/f/cases/7001	10542 FailingTest: OSEnvironment under Windows	https://pharo.fogbugz.com/f/cases/10542	10549 IconicListItem improvment	https://pharo.fogbugz.com/f/cases/10549'.	self loadTogether: self script206 merge: false.	self flushCaches.

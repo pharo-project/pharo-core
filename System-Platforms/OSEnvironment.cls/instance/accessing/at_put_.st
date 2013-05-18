@@ -1,1 +1,1 @@
-at: aKey put: aValue	^ self subclassResponsibility
+at: aKey put: aValue	^ self setEnv: aKey value: aValue

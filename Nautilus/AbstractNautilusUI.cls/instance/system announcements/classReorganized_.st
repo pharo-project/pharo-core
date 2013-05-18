@@ -1,1 +1,1 @@
-classReorganized: anAnnouncement		window ifNil: [ ^ self ].	window isDisplayed ifFalse: [ ^ self ].	anAnnouncement classReorganized = self selectedClass		ifTrue: [ self update ].
+classReorganized: anAnnouncement		window ifNil: [ ^ self ].	window isDisplayed ifFalse: [ ^ self ].	self selectedClass = anAnnouncement classReorganized		ifTrue: [ self updateBothView ]

@@ -1,1 +1,1 @@
-tearDown	super tearDown.	SystemAnnouncer announcer: oldSystemAnnouncer.	
+tearDown	super tearDown.	SystemAnnouncer announcer: oldSystemAnnouncer.		factory cleanUp.

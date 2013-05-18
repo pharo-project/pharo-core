@@ -1,0 +1,1 @@
+enabled: aBoolean	self submorphs do:[ :each |		(each respondsTo: #enabled:) ifTrue: [ each enabled: aBoolean ] ].

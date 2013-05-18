@@ -1,1 +1,1 @@
-SystemAnnouncement subclass: #ProtocolAdded	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'System-Announcements'
+ProtocolAnnouncement subclass: #ProtocolAdded	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'System-Announcements'
