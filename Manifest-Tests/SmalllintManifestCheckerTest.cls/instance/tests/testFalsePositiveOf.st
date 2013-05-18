@@ -1,1 +1,0 @@
-testFalsePositiveOf	| rule |	rule  := RBCompositeLintRule allGoodRules.	smc runRules:  rule onPackage: self package. 		self assert: (( smc falsePositiveOf: RBCodeCruftLeftInMethodsRule new) anySatisfy: [ :each | each = (MFClassB>>#method3)]).	self deny: (( smc falsePositiveOf: RBCodeCruftLeftInMethodsRule new) anySatisfy: [ :each | each = (MFClassA>>#method)]).

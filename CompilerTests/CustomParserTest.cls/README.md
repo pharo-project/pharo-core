@@ -1,1 +1,0 @@
-A CustomParserTest is xxxxxxxxx.Instance Variables

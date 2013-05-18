@@ -1,1 +1,1 @@
-label: aString	self label: aString font: TextStyle defaultFont
+label: aString	self label: aString font: StandardFonts buttonFont
