@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10302 RBparser: improve error message	https://pharo.fogbugz.com/f/cases/10302	10286 Remove NaturalLanguageTranslator from image startup list	https://pharo.fogbugz.com/f/cases/10286/	10109 MNU : SmalltalkEditor>>browseItHere:	https://pharo.fogbugz.com/f/cases/10109	and remove Opal repos'
+commentForCurrentUpdate ^ '10317	files.pharo.org: change image to use new update server	https://pharo.fogbugz.com/f/cases/10317'

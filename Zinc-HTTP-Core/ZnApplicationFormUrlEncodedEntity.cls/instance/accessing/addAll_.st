@@ -1,1 +1,1 @@
-addAll: keyedCollection	"Note that we use #addAllMulti:"	self fields addAllMulti: keyedCollection.	^ keyedCollection 
+addAll: keyedCollection	"Note that we use #addAllMulti:"	self invalidateRepresentation.	self fields addAllMulti: keyedCollection.	^ keyedCollection 

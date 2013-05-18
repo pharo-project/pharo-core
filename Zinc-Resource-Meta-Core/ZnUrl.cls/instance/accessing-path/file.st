@@ -1,1 +1,1 @@
-file	^ self isDirectoryPath		ifTrue: [ '' ]		ifFalse: [ segments last ]
+file	^ self isDirectoryPath		ifTrue: [ String new ]		ifFalse: [ segments last ]

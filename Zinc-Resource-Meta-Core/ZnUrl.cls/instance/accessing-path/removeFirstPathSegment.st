@@ -1,1 +1,1 @@
-removeFirstPathSegment	segments isEmpty 		ifFalse: [ segments removeFirst ]
+removeFirstPathSegment	self hasPath		ifTrue: [ segments removeFirst ]

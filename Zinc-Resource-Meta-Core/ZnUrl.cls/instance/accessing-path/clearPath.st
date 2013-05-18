@@ -1,1 +1,1 @@
-clearPath	segments isEmpty 		ifFalse: [ segments removeAll ]
+clearPath	self hasPath		ifTrue: [ segments removeAll ]

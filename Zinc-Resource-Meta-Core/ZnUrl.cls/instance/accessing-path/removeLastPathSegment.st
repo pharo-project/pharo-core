@@ -1,1 +1,1 @@
-removeLastPathSegment	segments isEmpty 		ifFalse: [ segments removeLast ]
+removeLastPathSegment	self hasPath		ifTrue: [ segments removeLast ]

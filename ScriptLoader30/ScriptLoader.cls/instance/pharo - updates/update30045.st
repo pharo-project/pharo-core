@@ -1,0 +1,1 @@
+update30045	"self new update30045"	self withUpdateLog: '10317	files.pharo.org: change image to use new update server	https://pharo.fogbugz.com/f/cases/10317'.	self loadTogether: self script143 merge: false.	self flushCaches.
