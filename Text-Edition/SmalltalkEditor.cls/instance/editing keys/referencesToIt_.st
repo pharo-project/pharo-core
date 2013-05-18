@@ -1,1 +1,1 @@
-referencesToIt: aKeyboardEvent	"Triggered by Cmd-N; browse references to the current selection"	UserManager default currentUser canBrowse ifFalse: [ ^ false ].	self referencesToIt.	^ true
+referencesToIt: aKeyboardEvent	"Triggered by Cmd-N; browse references to the current selection"	Smalltalk tools userManager canBrowse ifFalse: [ ^ false ].	self referencesToIt.	^ true

@@ -1,1 +1,1 @@
-userNames	^UserManager default userNames
+userNames	^ Smalltalk tools userManager userNames

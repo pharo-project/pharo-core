@@ -1,0 +1,1 @@
+canEvaluateCode	^ self currentUser canEvaluateCode

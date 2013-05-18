@@ -1,1 +1,1 @@
-startUp: resuming	"only handle when lauching a new image"	resuming ifFalse: [ ^ self ].	UserManager default currentUser canRunStartupScript ifFalse: [ ^ self ].	Smalltalk addDeferredStartupAction: [ self new activate ]
+startUp: resuming	"only handle when lauching a new image"	resuming ifFalse: [ ^ self ].	Smalltalk tools userManager canRunStartupScript ifFalse: [ ^ self ].	Smalltalk addDeferredStartupAction: [ self new activate ]

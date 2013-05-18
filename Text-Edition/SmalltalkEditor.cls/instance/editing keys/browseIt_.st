@@ -1,1 +1,1 @@
-browseIt: t1 	UserManager default currentUser canBrowse		ifFalse: [^ false].	self browseIt.	^ true
+browseIt: t1 	Smalltalk tools userManager canBrowse		ifFalse: [^ false].	self browseIt.	^ true

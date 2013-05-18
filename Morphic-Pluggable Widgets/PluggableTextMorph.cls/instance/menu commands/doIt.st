@@ -1,1 +1,1 @@
-doIt	UserManager default currentUser canEvaluateCode ifFalse: [ ^ false ].	self handleEdit: [textMorph editor evaluateSelection]
+doIt	Smalltalk tools userManager canEvaluateCode ifFalse: [ ^ false ].	self handleEdit: [textMorph editor evaluateSelection]

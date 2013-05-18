@@ -1,1 +1,1 @@
-methodNamesContainingIt: aKeyboardEvent	"Browse methods whose selectors containing the selection in their names"	UserManager default currentUser canBrowse ifFalse: [ ^ false ].	self methodNamesContainingIt.	^ true
+methodNamesContainingIt: aKeyboardEvent	"Browse methods whose selectors containing the selection in their names"	Smalltalk tools userManager canBrowse ifFalse: [ ^ false ].	self methodNamesContainingIt.	^ true
