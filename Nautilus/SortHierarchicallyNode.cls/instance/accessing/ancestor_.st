@@ -1,0 +1,1 @@
+ancestor: aSortHierarchicallyNode	ancestor := aSortHierarchicallyNode

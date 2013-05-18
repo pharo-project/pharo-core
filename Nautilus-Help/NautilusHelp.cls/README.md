@@ -1,1 +1,1 @@
-A NautilusHelp is xxxxxxxxx.Instance Variables
+I am the help for the Help book about Nautilus

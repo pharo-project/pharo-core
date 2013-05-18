@@ -1,1 +1,1 @@
-setCachedHierarchyClass: aClass	cachedHierarchy := self buildHierarchyFor: aClass.
+setCachedHierarchyClass: aClass	cachedHierarchy := SortHierarchically buildHierarchyFor: aClass.

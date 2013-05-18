@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10490 Eye inspector bug	https://pharo.fogbugz.com/f/cases/10490'
+commentForCurrentUpdate ^ '10253 Unrecoverable error when deleting methods	https://pharo.fogbugz.com/f/cases/10253	10139 Nautilus does not properly indent hierarchies	https://pharo.fogbugz.com/f/cases/10139'
