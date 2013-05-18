@@ -1,1 +1,0 @@
-userPicture	^self valueOfProperty: #remoteUserPicture

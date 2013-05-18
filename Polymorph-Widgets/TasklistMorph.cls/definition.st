@@ -1,1 +1,1 @@
-Morph subclass: #TasklistMorph	instanceVariableNames: 'tasks taskList preview'	classVariableNames: 'KeepOpen UseHistoricalShortcuts'	poolDictionaries: ''	category: 'Polymorph-Widgets'
+Morph subclass: #TasklistMorph	instanceVariableNames: 'tasks taskList preview'	classVariableNames: 'KeepOpen'	poolDictionaries: ''	category: 'Polymorph-Widgets'

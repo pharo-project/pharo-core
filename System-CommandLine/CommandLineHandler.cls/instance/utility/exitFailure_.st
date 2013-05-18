@@ -1,1 +1,1 @@
-exitFailure: aMessage 	Smalltalk isInteractive 		ifTrue: [ Error signal: aMessage ]		ifFalse: [ Smalltalk exitFailure ].
+exitFailure: aMessage 	Smalltalk isInteractive 		ifTrue: [ Error signal: aMessage ]		ifFalse: [ 			self stderr red: aMessage; lf.			Smalltalk exitFailure ].
