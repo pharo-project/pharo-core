@@ -1,0 +1,1 @@
+spec	<spec: #default>		^ SpecLayout composed		newColumn: [ :column | 			column				add: #stack;				add: #toolbar height: 25;				addSplitter;				add: #code ]

@@ -1,0 +1,1 @@
+initializeWidgets 	self instantiateModels: {		#stack -> #MultiColumnListModel. 		#code -> #TextModel.		#toolbar -> #SpecDebuggerToolbar }.	self stack displayBlock: [:aContext | self columnsFor: aContext ].	self code acceptBlock: [:text | self recompileMethodTo: text string inContext: self stack selectedItem ].		self setStackMenu.

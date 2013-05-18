@@ -1,0 +1,1 @@
+stepInto: selectedContext	"Send the selected message in selectedContext, and take control in 	the method invoked to allow further step or send."	(self isContextPostMortem: self context) ifTrue: [^ self].	process step: selectedContext.	self updateContextTo:  process stepToSendOrReturn.		self triggerEvent: #stepInto

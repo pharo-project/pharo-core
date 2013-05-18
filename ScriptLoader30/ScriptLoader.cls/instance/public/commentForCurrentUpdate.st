@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10193 newRow: #methods bottom: 0.5	https://pharo.fogbugz.com/f/cases/10193	10121 do #cleanUpForRelease on every update	https://pharo.fogbugz.com/f/cases/10121'
+commentForCurrentUpdate ^ '10032 Integrate new debugger	https://pharo.fogbugz.com/f/cases/10032'

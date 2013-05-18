@@ -1,0 +1,1 @@
+close	self removeActionsForSession: self session.	self session ifNotNil: [ :aSession | aSession terminate]	 

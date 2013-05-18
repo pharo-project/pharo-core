@@ -1,0 +1,1 @@
+spanNewDebugger: aDebuggerClass forContext: aContext	self debugger spanNewDebugger: aDebuggerClass forContext: aContext

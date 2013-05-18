@@ -1,0 +1,1 @@
+evaluate: expression	^ Compiler new		evaluate: expression		in: context		to: context receiver

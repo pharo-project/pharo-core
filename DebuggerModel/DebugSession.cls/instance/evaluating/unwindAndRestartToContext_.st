@@ -1,0 +1,1 @@
+unwindAndRestartToContext: aContext	|ctx|	ctx := process popTo: aContext.	ctx == aContext ifTrue: [ 		"Only restart the process if the stack was unwind"		process			restartTop;			stepToSendOrReturn ].	self flag: 'Should a warning be displayed if the the unwind failed?'.	self updateContextTo:  aContext
