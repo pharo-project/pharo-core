@@ -1,1 +1,0 @@
-waitForOffsets	OffsetsAreValid ifFalse: [		[			(Delay forSeconds: 1) wait.			OffsetsAreValid		] whileFalse	]
