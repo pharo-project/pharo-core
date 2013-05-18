@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10457 Cleaning valueWithInterval API	https://pharo.fogbugz.com/f/cases/10457	10454 finally remove logMethodSource2:... and compile2:	https://pharo.fogbugz.com/f/cases/10454/'
+commentForCurrentUpdate ^ '10456 undo a dumb bug introduced in 10453	https://pharo.fogbugz.com/f/cases/10456	'
