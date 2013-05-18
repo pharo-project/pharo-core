@@ -1,1 +1,0 @@
-reformatMethodAt: selector	| newCodeString method |	method := self compiledMethodAt: selector.	newCodeString := method ast formattedCode.	self compile: newCodeString classified:  method category.

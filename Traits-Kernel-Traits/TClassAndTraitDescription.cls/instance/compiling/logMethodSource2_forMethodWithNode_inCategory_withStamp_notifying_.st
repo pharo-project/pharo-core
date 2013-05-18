@@ -1,0 +1,1 @@
+logMethodSource2: aText forMethodWithNode: aCompiledMethod inCategory: category withStamp: changeStamp notifying: requestor 	aCompiledMethod				putSource: aText				class: self				category: category				withStamp: changeStamp 				inFile: 2				priorMethod: (self							compiledMethodAt: aCompiledMethod selector							ifAbsent: [])

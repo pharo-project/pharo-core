@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10420 Simplify #reformatMethodAt:	https://pharo.fogbugz.com/f/cases/10420	10416 New Spec polywidget	https://pharo.fogbugz.com/f/cases/10416'
+commentForCurrentUpdate ^ '10402 Cannot print TestCase when testSelector is not set	https://pharo.fogbugz.com/f/cases/10402	10421 Move reformatMethodAt: --> #reformat on CompiledMethod	https://pharo.fogbugz.com/f/cases/10421	10422 cleanup unused code Compiler more		https://pharo.fogbugz.com/f/cases/10422'

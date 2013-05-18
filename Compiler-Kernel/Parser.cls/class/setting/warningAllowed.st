@@ -1,1 +1,0 @@
-warningAllowed	^true

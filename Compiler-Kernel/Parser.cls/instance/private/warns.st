@@ -1,1 +1,1 @@
-warns	"return whether the parser will ask the user for correction"	^ self class warningAllowed
+warns	"return whether the parser will ask the user for correction"	^ true
