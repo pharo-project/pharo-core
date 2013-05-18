@@ -1,0 +1,1 @@
+readWith: anInterpreter	"maybe introduce indirections over the interpreter"	^ self value

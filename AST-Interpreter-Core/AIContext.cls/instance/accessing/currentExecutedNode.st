@@ -1,0 +1,1 @@
+currentExecutedNode	^ currentExecutedNode

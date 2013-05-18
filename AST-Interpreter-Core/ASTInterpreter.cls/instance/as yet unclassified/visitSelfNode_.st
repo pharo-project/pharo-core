@@ -1,0 +1,1 @@
+visitSelfNode: aSelf	^ self currentSelf

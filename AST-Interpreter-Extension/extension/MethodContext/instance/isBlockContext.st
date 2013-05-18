@@ -1,0 +1,1 @@
+isBlockContext	^ closureOrNil isNil not

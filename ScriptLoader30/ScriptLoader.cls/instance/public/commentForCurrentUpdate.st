@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10337 Remove old RBFormatter	https://pharo.fogbugz.com/f/cases/10337	10339 MorphTreeMorph never removeSplitters	https://pharo.fogbugz.com/f/cases/10339	10341 Cannot debug Halt in deferred startup actions when in interactive mode	https://pharo.fogbugz.com/f/cases/10341	10342 Exit notification always prints string on stderr	https://pharo.fogbugz.com/f/cases/10342'
+commentForCurrentUpdate ^ '10033 Integrate AST interpreter	https://pharo.fogbugz.com/f/cases/10033'

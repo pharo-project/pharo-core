@@ -1,0 +1,1 @@
+compile: aString	| ast |	ast := RBExplicitVariableParser parseExpression: aString.	ast annotateInClass: ProtoObject.	^ ast

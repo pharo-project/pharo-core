@@ -1,0 +1,1 @@
+visitAssignmentNode: anAssignmentNode	| value variable |		value := self interpret: anAssignmentNode value.	variable := anAssignmentNode variable.	variable variableBinding accept: self assign: value. 		^ value

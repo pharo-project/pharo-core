@@ -1,0 +1,1 @@
+accept: aVisitor assign: aValue	^self binding value: aValue

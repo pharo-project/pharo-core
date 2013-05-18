@@ -1,0 +1,1 @@
+sourceCodeForPC: anInteger	| interval |	interval := self sourceIntervalForPC: anInteger.	^ self sourceCode copyFrom: interval first to: interval last

@@ -1,0 +1,1 @@
+hasExceptionHandler	^ exceptionHandler isNil not

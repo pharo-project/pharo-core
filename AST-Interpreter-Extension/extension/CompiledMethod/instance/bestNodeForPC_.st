@@ -1,0 +1,1 @@
+bestNodeForPC: anInteger	^ self ast bestNodeFor: (self sourceIntervalForPC: anInteger)

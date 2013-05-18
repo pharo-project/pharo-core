@@ -1,0 +1,1 @@
+sourceIntervalForPC: anInteger	^ self debuggerMap abstractSourceMap at: anInteger

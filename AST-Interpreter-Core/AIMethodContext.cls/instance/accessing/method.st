@@ -1,0 +1,1 @@
+method	^ self closure method
