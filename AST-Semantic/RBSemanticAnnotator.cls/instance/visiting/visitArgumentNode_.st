@@ -1,1 +1,0 @@
-visitArgumentNode: aNode	scope add: (RBArgumentBinding node: aNode)

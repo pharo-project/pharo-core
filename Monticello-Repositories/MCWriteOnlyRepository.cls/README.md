@@ -1,1 +1,0 @@
-A MCWriteOnlyRepository is xxxxxxxxx.Instance Variables

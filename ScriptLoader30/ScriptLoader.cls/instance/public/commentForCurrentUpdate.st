@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10278 Bug in semantic annotator	https://pharo.fogbugz.com/f/cases/10278	10279 fix an undeclared in #condenseSources	https://pharo.fogbugz.com/f/cases/10279	10258 DivideByZero in SystemProgressMorph	https://pharo.fogbugz.com/f/cases/10258	10275 DNU on code completion	https://pharo.fogbugz.com/f/cases/10275'
+commentForCurrentUpdate ^ '10281 Another fix for AST: remove #visitArgumentNode: in OBSemanticAnnotator	https://pharo.fogbugz.com/f/cases/10281	10280 Remove strange MCRepositories	https://pharo.fogbugz.com/f/cases/10280/	'

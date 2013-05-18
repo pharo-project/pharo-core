@@ -1,1 +1,0 @@
-A MCSmtpRepository is xxxxxxxxx.Instance Variables	email:		<Object>email	- xxxxx

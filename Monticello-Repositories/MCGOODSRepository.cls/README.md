@@ -1,1 +1,0 @@
-A MCGOODSRepository is xxxxxxxxx.Instance Variables	connection:		<Object>	hostname:		<Object>	port:		<Object>connection	- xxxxxhostname	- xxxxxport	- xxxxx
