@@ -1,1 +1,1 @@
-diffServerRootString	^  'http://smalltalkhub.com/#!/~Pharo/Pharo30/diff/'
+diffServerRootString	^  'http://smalltalkhub.com/mc/Pharo/Pharo30/main/'

@@ -1,1 +1,0 @@
-compile: code classified: category notifying: requestor trailer: bytes	"Compile code without logging the source in the changes file"	| methodNode |	methodNode := self compiler		compile: code		in: self		classified: category		notifying: requestor		ifFail: [^nil].	^ methodNode generate: bytes

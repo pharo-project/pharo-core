@@ -1,1 +1,1 @@
-Object subclass: #OSPlatform	instanceVariableNames: ''	classVariableNames: 'Current'	poolDictionaries: ''	category: 'System-Platforms'
+Object subclass: #OSPlatform	instanceVariableNames: 'env'	classVariableNames: 'Current'	poolDictionaries: ''	category: 'System-Platforms'

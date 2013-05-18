@@ -1,0 +1,1 @@
+setEnv: nameString value: valueString	"This method calls the Standard C Library getenv() function"	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode >	 ^ self nbCall: #( int SetEnvironmentVariable (String nameString, String valueString, 1) ) module: NativeBoost CLibrary
