@@ -1,1 +1,0 @@
-path	^self schemeSpecificPart

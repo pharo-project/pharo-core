@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '7612 RBParser does not handle primitive error codes properly	https://pharo.fogbugz.com/f/cases/7612	10134 SpecialObjectsArray should not change without voidCogVMState	https://pharo.fogbugz.com/f/cases/10134'
+commentForCurrentUpdate ^ '7603 PositionalStream>>#last is a candidate for removal		https://pharo.fogbugz.com/f/cases/7603	10096 remove Network-URI		https://pharo.fogbugz.com/f/cases/10096'

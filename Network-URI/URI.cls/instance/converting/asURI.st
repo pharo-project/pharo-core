@@ -1,1 +1,0 @@
-asURI	^self

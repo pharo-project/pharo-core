@@ -1,1 +1,0 @@
-isAbsolute	^self scheme notNil

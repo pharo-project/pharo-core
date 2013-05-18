@@ -1,1 +1,0 @@
-Object subclass: #URI	instanceVariableNames: 'fragment scheme schemeSpecificPart'	classVariableNames: ''	poolDictionaries: ''	category: 'Network-URI'

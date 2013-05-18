@@ -1,1 +1,0 @@
-uriString: aString	uriString := aString

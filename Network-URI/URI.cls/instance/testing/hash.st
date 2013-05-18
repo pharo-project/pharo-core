@@ -1,1 +1,0 @@
-hash	^ self asString hash

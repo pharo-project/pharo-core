@@ -1,1 +1,0 @@
-userInfo	^self authority userInfo

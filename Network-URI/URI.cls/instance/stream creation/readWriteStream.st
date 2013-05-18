@@ -1,1 +1,0 @@
-readWriteStream	^self openStream: #readWrite

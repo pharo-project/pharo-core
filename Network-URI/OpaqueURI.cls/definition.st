@@ -1,1 +1,0 @@
-URI subclass: #OpaqueURI	instanceVariableNames: 'pathComponents'	classVariableNames: ''	poolDictionaries: ''	category: 'Network-URI'
