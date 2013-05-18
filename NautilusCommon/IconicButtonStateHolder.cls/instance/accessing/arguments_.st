@@ -1,1 +1,1 @@
-arguments: anObject	arguments := anObject
+arguments: aCollection	arguments := WeakArray withAll: aCollection
