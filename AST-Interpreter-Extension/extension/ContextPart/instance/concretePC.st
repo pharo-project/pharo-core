@@ -1,1 +1,0 @@
-concretePC	^  self method abstractPCForConcretePC: (self method pcPreviousTo: self pc)

@@ -1,1 +1,0 @@
-currentASTNode	^ self method bestNodeForPC: self concretePC
