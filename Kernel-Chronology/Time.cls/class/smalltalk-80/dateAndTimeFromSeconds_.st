@@ -1,1 +1,1 @@
-dateAndTimeFromSeconds: secondCount  	^ Array 		with: (Date fromSeconds: secondCount) 		with: (Time fromSeconds: secondCount \\ 86400) 
+dateAndTimeFromSeconds: secondCountSinceEpoch 	| dateAndTime |	dateAndTime := DateAndTime fromSeconds: secondCountSinceEpoch. 	^ Array 		with: dateAndTime asDate 		with: dateAndTime asTime

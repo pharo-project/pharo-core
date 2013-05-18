@@ -1,1 +1,1 @@
-asTime	^ Time seconds: self localSeconds nanoSeconds: nanos
+asTime	^ Time seconds: self secondsSinceMidnightLocalTime nanoSeconds: nanos

@@ -1,1 +1,1 @@
-fuelSet: julianDay nanoSecond: nanoSeconds seconds: numberOfSeconds offset: anOffset	julianDayNumber := julianDay.	nanos := nanoSeconds.	seconds := numberOfSeconds.	offset := anOffset.
+fuelSet: julianDay nanoSecond: nanoSeconds seconds: numberOfSeconds offset: anOffset	self setJdn: julianDay seconds: numberOfSeconds nano: nanoSeconds offset: anOffset
