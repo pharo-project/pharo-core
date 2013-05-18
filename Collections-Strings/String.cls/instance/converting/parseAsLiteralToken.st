@@ -1,1 +1,1 @@
-parseAsLiteralToken	^ Scanner new scanTokens: self
+parseAsLiteralToken	^ self class compiler parseLiterals: self
