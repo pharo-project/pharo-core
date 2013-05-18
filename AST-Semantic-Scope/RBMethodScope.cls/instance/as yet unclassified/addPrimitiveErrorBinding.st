@@ -1,0 +1,1 @@
+addPrimitiveErrorBinding	"Special check for pragma error code node".	(self node hasPragmaNamed: #primitive:module:error:)		ifTrue: [ |pragma|			pragma := self node pragmaNamed: #primitive:module:error:.			self add: (RBPrimitiveErrorBinding named: pragma arguments last value)]

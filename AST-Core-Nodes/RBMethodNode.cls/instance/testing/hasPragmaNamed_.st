@@ -1,1 +1,1 @@
-hasPragmaNamed: aSymbol		^ self pragmas anySatisfy: [ :pragma| pragma selector = aSymbol]
+hasPragmaNamed: aSymbol		self pragmaNamed: aSymbol ifAbsent: [ ^ false ].	^ true

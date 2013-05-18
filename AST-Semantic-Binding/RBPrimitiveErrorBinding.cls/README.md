@@ -1,0 +1,1 @@
+A RBPrimitiveErrorBinding is xxxxxxxxx.Instance Variables

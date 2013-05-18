@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '7518 ShortPointArray and ShortRunArray not used	https://pharo.fogbugz.com/f/cases/7518	6938 Create Collection>>#reject:thenCollect:	https://pharo.fogbugz.com/f/cases/6938	10245 Run #cleanUpForRelease on every update	https://pharo.fogbugz.com/f/cases/10245'
+commentForCurrentUpdate ^ '7612 RBParser does not handle primitive error codes properly	https://pharo.fogbugz.com/f/cases/7612	10134 SpecialObjectsArray should not change without voidCogVMState	https://pharo.fogbugz.com/f/cases/10134'

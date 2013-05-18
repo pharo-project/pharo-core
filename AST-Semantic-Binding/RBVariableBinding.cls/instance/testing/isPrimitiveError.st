@@ -1,0 +1,1 @@
+isPrimitiveError	^ self isPrimitiveErrorBinding
