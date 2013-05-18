@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10353 Add release test to check uniqueness of SystemAnnouncer	https://pharo.fogbugz.com/f/cases/10353	10357 Simplify #selectedMethodSource in Nautilus	https://pharo.fogbugz.com/f/cases/10357	10369 KeyChain deadlock	https://pharo.fogbugz.com/f/cases/10369	10370 Spec mino fix	https://pharo.fogbugz.com/f/cases/10370	10371 add #compiler to Behavior	https://pharo.fogbugz.com/f/cases/10371	'
+commentForCurrentUpdate ^ '10363 Boolean clean up	https://pharo.fogbugz.com/f/cases/10363'
