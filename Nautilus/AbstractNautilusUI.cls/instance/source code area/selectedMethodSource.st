@@ -1,1 +1,1 @@
-selectedMethodSource	self selectedMethod ifNil: [ ^ '' ].	self showSource ifTrue: [ ^ self selectedMethod sourceCode ].	self showByteCode ifTrue: [ ^ self selectedMethod symbolic ].	self showDecompile ifTrue: [ ^  self selectedMethod  decompileWithTemps decompileString ].	^ 'error'.		
+selectedMethodSource	self selectedMethod ifNil: [ ^ '' ].	self showSource ifTrue: [ ^ self selectedMethod sourceCode ].	self showByteCode ifTrue: [ ^ self selectedMethod symbolic ].	^ 'error'.		

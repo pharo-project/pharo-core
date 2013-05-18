@@ -1,1 +1,0 @@
-showDecompile	^ self currentDisplayChoice = self decompileSymbol
