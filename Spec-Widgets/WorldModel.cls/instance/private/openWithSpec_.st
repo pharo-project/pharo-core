@@ -1,0 +1,1 @@
+openWithSpec: aSpec	window := self buildWithSpec: aSpec.	self updateTitle

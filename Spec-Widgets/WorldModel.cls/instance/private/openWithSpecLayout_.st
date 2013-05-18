@@ -1,0 +1,1 @@
+openWithSpecLayout: aSpec	window := self buildWithSpecLayout: aSpec.	self updateTitle

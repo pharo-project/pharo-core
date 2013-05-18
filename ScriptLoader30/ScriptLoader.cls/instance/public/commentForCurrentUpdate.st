@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10617 fix accessor RBMethodNode>>#compilationContext in Image	https://pharo.fogbugz.com/f/cases/10617	'
+commentForCurrentUpdate ^ '10619 Add a mock for the World	https://pharo.fogbugz.com/f/cases/10619	7488 Spec About window text	https://pharo.fogbugz.com/f/cases/74887002 Snapshot announcement	https://pharo.fogbugz.com/f/cases/7002'

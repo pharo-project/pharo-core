@@ -1,1 +1,1 @@
-ensureExtentFor: old	self extent		ifNotNil: [ :ex | 			(old respondsTo: #extent:)				ifTrue: [ old extent: ex ] ].	self initialExtent		ifNotNil: [ :ex | 			(old respondsTo: #extent:)				ifTrue: [ old extent: ex ] ]
+ensureExtentFor: widget	self extent		ifNotNil: [ :ex | 			(widget respondsTo: #extent:)				ifTrue: [ widget extent: ex ] ].	self initialExtent		ifNotNil: [ :ex | 			(widget respondsTo: #extent:)				ifTrue: [ widget extent: ex ] ]
