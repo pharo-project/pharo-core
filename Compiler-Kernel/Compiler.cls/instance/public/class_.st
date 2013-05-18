@@ -1,0 +1,1 @@
+class: aClass	"ignored by the old compiler"

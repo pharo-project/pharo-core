@@ -1,0 +1,1 @@
+environment: anEnvironment	"ignored by the old compiler"
