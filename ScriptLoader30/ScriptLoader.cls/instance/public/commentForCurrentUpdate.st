@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '7001 Protocol Added/Removed	https://pharo.fogbugz.com/f/cases/7001	10542 FailingTest: OSEnvironment under Windows	https://pharo.fogbugz.com/f/cases/10542	10549 IconicListItem improvment	https://pharo.fogbugz.com/f/cases/10549'
+commentForCurrentUpdate ^ '7215 Cannot use rewrite tool with Nautilus	https://pharo.fogbugz.com/f/cases/7215	10550 CompilerSyntaxErrorNotificationTest should use old Compiler	https://pharo.fogbugz.com/f/cases/10550'

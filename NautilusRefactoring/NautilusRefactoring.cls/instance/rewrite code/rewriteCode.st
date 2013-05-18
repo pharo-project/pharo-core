@@ -1,1 +1,1 @@
-rewriteCode		self model sourceCode: self rewriteCodeText
+rewriteCode	self model rewriteCode: self rewriteCodeText

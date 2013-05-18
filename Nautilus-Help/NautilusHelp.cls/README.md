@@ -1,1 +1,1 @@
-I am the help for the Help book about Nautilus
+I am a page of the Help book related to Nautilus
