@@ -1,1 +1,1 @@
-readFrom: strm  "Symbol readFromString: '#abc'"	strm peek = $# ifFalse: [self error: 'Symbols must be introduced by #'].	^ (Scanner new scan: strm) advance  "Just do what the code scanner does"
+readFrom: strm  	"Symbol readFromString: '#abc'"	strm peek = $# ifFalse: [self error: 'Symbols must be introduced by #'].    	^ strm contents parseAsLiteralToken first. 
