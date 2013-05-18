@@ -1,1 +1,1 @@
-doSemanticAnalysis	^[ast doSemanticAnalysisIn: class interactive: (UIManager default interactiveParserFor: requestor)  notifying: requestor] 		on: OCSemanticError 		do: [ :ex | ex defaultAction. ^failBlock value ]
+doSemanticAnalysis	^[ast doSemanticAnalysisInContext: compilationContext] 		on: OCSemanticError 		do: [ :ex | ex defaultAction. ^failBlock value ]

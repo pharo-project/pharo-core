@@ -1,1 +1,1 @@
-decompileMethod: aCompiledMethod	^self		decompile: aCompiledMethod selector		in: aCompiledMethod methodClass		method: aCompiledMethod
+decompileMethod: aCompiledMethod	| sourceCode |	sourceCode := aCompiledMethod getSourceFromFile.		^sourceCode 		ifNil: [Decompiler new decompile: aCompiledMethod selector in: aCompiledMethod methodClass method: aCompiledMethod ]		ifNotNil: [OpalCompiler new parse: sourceCode class: aCompiledMethod methodClass ]

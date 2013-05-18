@@ -1,1 +1,0 @@
-withTempNames: tempNameArray	^self new withTempNames: tempNameArray

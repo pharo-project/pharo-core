@@ -1,1 +1,1 @@
-decompile: aSelector in: aClass method: aMethod	"to be fixed"	| sourceCode |	sourceCode := aMethod getSourceFromFile.		sourceCode 		ifNil: [Decompiler new decompile: aSelector in: aClass method: aMethod ]		ifNotNil: [OpalCompiler new parse: sourceCode class: aClass]
+decompile: aSelector in: aClass method: aCompiledMethod	self deprecated: 'use #decompileMethod:' on: '09 May 2013' in: 'Pharo 3.0'.	^self decompileMethod: aCompiledMethod

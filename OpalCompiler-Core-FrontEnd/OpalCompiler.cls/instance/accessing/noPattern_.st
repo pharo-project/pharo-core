@@ -1,1 +1,1 @@
-noPattern: aBoolean	noPattern := aBoolean	
+noPattern: aBoolean	noPattern := aBoolean.	compilationContext noPattern: aBoolean.	

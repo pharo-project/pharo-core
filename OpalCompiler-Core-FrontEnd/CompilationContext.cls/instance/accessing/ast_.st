@@ -1,0 +1,1 @@
+ast: anObject	ast := anObject

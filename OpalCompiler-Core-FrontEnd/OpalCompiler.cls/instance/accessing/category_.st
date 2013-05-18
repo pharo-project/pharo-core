@@ -1,1 +1,1 @@
-category: aCategory	category := aCategory
+category: aCategory	category := aCategory.	compilationContext category: aCategory.

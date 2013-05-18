@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10588 Prepare isHeadless for new VMs with double dash -- arguments	https://pharo.fogbugz.com/f/cases/10588	10587 add #options compatibility method to old Compiler class	https://pharo.fogbugz.com/f/cases/10587	10589 clean up #decompileString	https://pharo.fogbugz.com/f/cases/10589'
+commentForCurrentUpdate ^ '10592 Update Opal in Image to latest version	https://pharo.fogbugz.com/f/cases/10592	10585 isExecutingBlock vs. isClosureContext vs. isBlockContext	https://pharo.fogbugz.com/f/cases/10585		'

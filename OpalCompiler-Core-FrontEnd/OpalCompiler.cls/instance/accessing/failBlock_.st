@@ -1,1 +1,1 @@
-failBlock: aBlock	failBlock := aBlock	
+failBlock: aBlock	failBlock := aBlock.	compilationContext failBlock: aBlock.

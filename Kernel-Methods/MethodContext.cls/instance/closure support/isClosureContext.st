@@ -1,1 +1,0 @@
-isClosureContext	^ self isExecutingBlock

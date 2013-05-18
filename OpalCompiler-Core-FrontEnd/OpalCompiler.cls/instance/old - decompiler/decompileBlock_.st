@@ -1,1 +1,0 @@
-decompileBlock: aBlock		^ aBlock sourceNode		
