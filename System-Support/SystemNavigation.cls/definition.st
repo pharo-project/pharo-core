@@ -1,1 +1,1 @@
-Object subclass: #SystemNavigation	instanceVariableNames: 'browserClass environment'	classVariableNames: ''	poolDictionaries: ''	category: 'System-Support'
+Object subclass: #SystemNavigation	instanceVariableNames: 'environment'	classVariableNames: ''	poolDictionaries: ''	category: 'System-Support'

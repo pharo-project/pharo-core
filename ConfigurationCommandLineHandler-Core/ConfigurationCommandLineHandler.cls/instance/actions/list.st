@@ -1,1 +1,1 @@
-list	self hasConfiguration 		ifTrue: [ self listConfigurationDetails ]		ifFalse: [ self listConfigurations ]
+list	(self hasConfiguration or: [ self hasRepositoryUrl ])		ifTrue: [ self listConfigurationDetails ]		ifFalse: [ self listConfigurations ]

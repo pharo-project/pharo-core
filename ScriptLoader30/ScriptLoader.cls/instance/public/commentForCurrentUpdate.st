@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ 'Issue 5188 Stage 3: Announcement>> handlesAnnouncement:	Cleaning after the changes.	https://pharo.fogbugz.com/default.asp?5188	Move ui code of SmallDictionary to Tools package. '
+commentForCurrentUpdate ^ '10236 Make ConfigurationCommandLineHandler more robust	https://pharo.fogbugz.com/f/cases/10236	10270 Cleaned System-support with code crtics	https://pharo.fogbugz.com/f/cases/10270	10276 Small cleanups to ASTNodes	https://pharo.fogbugz.com/f/cases/10276	10277 Remove more deprecated methods	https://pharo.fogbugz.com/f/cases/10277'

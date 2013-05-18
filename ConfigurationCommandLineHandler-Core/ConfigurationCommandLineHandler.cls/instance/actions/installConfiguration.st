@@ -1,1 +1,1 @@
-installConfiguration	self installVersion: ((self optionAt: 'install') ifNil: [ #stable ])
+installConfiguration	self installVersion: self configurationVersion
