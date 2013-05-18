@@ -1,1 +1,1 @@
-printOn: aStream	self decompile printAsIfCompiledOn: aStream.
+printOn: aStream	aStream nextPutAll: '[...]'.

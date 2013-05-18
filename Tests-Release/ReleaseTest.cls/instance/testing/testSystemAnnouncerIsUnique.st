@@ -1,1 +1,0 @@
-testSystemAnnouncerIsUnique	"there should be only one instance of SystemAnnouncer"		self assert: SystemAnnouncer allInstances size equals: 1.

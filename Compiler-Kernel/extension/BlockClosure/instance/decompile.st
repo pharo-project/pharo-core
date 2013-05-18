@@ -1,1 +1,0 @@
-decompile	^self method compiler decompileBlock: self
