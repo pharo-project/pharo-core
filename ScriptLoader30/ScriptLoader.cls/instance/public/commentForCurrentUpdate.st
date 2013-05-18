@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10253 Unrecoverable error when deleting methods	https://pharo.fogbugz.com/f/cases/10253	10139 Nautilus does not properly indent hierarchies	https://pharo.fogbugz.com/f/cases/10139'
+commentForCurrentUpdate ^ '10494 EyeInspector cannot inspect dictionaries	https://pharo.fogbugz.com/f/cases/10494	10486 Cannot edit package cache in monticello browser	https://pharo.fogbugz.com/f/cases/10486	10492 Sharing mc repositories between all packages	https://pharo.fogbugz.com/f/cases/10492'

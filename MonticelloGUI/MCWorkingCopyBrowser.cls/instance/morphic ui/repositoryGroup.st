@@ -1,1 +1,1 @@
-repositoryGroup	^ workingCopy		ifNil: [MCRepositoryGroup default]		ifNotNil: [workingCopy repositoryGroup]
+repositoryGroup		^MCRepositoryGroup default
