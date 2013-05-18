@@ -1,1 +1,0 @@
-framePolyline: vertices on: aCanvas 

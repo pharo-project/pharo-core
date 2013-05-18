@@ -1,1 +1,0 @@
-A W2KGroupboxMorph is xxxxxxxxx.Instance Variables

@@ -1,1 +1,0 @@
-frameOval: aRectangle on: aCanvas
