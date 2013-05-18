@@ -1,1 +1,1 @@
-A MockFinalizerAction is xxxxxxxxx.Instance Variables	finAction:		<Object>finAction	- xxxxx
+I am test object used for the WeakRegisty tests.Upon finalization I trigger a custom finalizationAction (usually a Block)

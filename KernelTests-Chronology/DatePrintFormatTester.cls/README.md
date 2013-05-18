@@ -1,1 +1,1 @@
-A DatePrintFormatTester is xxxxxxxxx.Instance Variables	date:		<Object>	dayPosition:		<Object>	delimiter:		<Object>	monthPosition:		<Object>	monthType:		<Object>	yearPosition:		<Object>	yearType:		<Object>date	- xxxxxdayPosition	- xxxxxdelimiter	- xxxxxmonthPosition	- xxxxxmonthType	- xxxxxyearPosition	- xxxxxyearType	- xxxxx
+I am a helper object used for validating formatted Date strings.

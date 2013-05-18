@@ -1,1 +1,0 @@
-initialize: wr	weakRegistry := wr.	weakRegistry add: self.

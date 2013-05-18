@@ -1,1 +1,0 @@
-sourceText	^ self source asText makeSelectorBold

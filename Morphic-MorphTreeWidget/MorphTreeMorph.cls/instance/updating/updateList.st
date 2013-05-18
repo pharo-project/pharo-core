@@ -1,1 +1,1 @@
-updateList	self updateContentsWithPreviouslyExpanded: self currentlyExpanded 
+updateList	|value|	value := scrollBar value.	self updateContentsWithPreviouslyExpanded: self currentlyExpanded.	self vScrollValue: value

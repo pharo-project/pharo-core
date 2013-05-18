@@ -1,1 +1,1 @@
-finalize	finAction value
+finalize	finalizationAction value

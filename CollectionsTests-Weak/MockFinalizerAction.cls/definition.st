@@ -1,1 +1,1 @@
-Object subclass: #MockFinalizerAction	instanceVariableNames: 'finAction'	classVariableNames: ''	poolDictionaries: ''	category: 'CollectionsTests-Weak'
+Object subclass: #MockFinalizerAction	instanceVariableNames: 'finalizationAction'	classVariableNames: ''	poolDictionaries: ''	category: 'CollectionsTests-Weak'

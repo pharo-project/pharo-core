@@ -1,1 +1,1 @@
-internalGetText	^ method method decompileWithTemps decompileString asText makeSelectorBoldIn: method methodClass
+internalGetText	^ method method decompileWithTemps decompileString

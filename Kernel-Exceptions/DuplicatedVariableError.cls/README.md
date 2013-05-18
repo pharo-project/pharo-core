@@ -1,1 +1,1 @@
-A DuplicatedVariableError is xxxxxxxxx.Instance Variables	superclass:		<Object>	variable:		<Object>superclass	- xxxxxvariable	- xxxxx
+I am an error signalled when a variable is redeclared. For instance when a method is created wich has a temporary or argument with the same name as an instance variable.

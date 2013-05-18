@@ -1,1 +1,0 @@
-finAction: aValuable	finAction := aValuable

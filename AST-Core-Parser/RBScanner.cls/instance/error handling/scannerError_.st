@@ -1,1 +1,1 @@
-scannerError: aString 	"Evaluate the block. If it returns raise an error"	self errorBlock cull: aString cull: self errorPosition cull: self.	self error: aString
+scannerError: aString 	"Evaluate the block. If it returns raise an error"	self errorBlock cull: aString cull: self errorPosition cull: self.	^ SyntaxErrorNotification					inClass: Object					category: nil					withCode: stream contents					doitFlag: false					errorMessage: aString					location: stream position + 1
