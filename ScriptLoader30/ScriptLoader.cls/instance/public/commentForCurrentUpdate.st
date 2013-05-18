@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10547 Do not run CommandLineHandlers on the existing stack	https://pharo.fogbugz.com/f/cases/10547'
+commentForCurrentUpdate ^ '10640 unify CompiledMethod #classBinding and methodClassAssociation	https://pharo.fogbugz.com/f/cases/10640	10655 fix failing test: SymbolTest.testReadFrom	https://pharo.fogbugz.com/f/cases/10655	10643 remove remove CompiledMethod>>receiver:withArguments:executeMethod:	https://pharo.fogbugz.com/f/cases/10643'

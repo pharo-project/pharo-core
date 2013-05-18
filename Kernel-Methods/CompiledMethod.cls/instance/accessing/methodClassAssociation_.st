@@ -1,1 +1,1 @@
-methodClassAssociation: aBinding       "sets the association to the class that I am installed in"       ^self literalAt: self numLiterals put: aBinding.
+methodClassAssociation: aBinding	self deprecated: 'use classBinding:' on: '16 May 2013'  in: 'Pharo3'.      self classBinding: aBinding
