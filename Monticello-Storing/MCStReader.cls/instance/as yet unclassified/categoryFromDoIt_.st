@@ -1,1 +1,1 @@
-categoryFromDoIt: aString	| tokens  |	tokens := Scanner new scanTokens: aString.	tokens size = 3 ifFalse: [self error: 'Unrecognized category definition'].	^ tokens at: 3
+categoryFromDoIt: aString	| tokens  |	tokens := aString parseAsLiteralToken.	tokens size = 3 ifFalse: [self error: 'Unrecognized category definition'].	^ tokens at: 3

@@ -1,0 +1,1 @@
+parseAsLiteralToken	^ Scanner new scanTokens: self
