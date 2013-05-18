@@ -1,1 +1,1 @@
-load		self class evaluatorClass evaluate: self definitionString
+load		self class compiler evaluate: self definitionString

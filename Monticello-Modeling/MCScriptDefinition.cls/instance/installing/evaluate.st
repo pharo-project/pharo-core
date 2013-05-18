@@ -1,1 +1,1 @@
-evaluate	self class evaluatorClass evaluate: script
+evaluate	self class compiler evaluate: script

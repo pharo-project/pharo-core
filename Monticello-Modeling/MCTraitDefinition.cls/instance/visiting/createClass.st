@@ -1,1 +1,1 @@
-createClass	^Trait		named: name		uses: (self class evaluatorClass evaluate: self traitCompositionString)		category: category		
+createClass	^Trait		named: name		uses: (self class compiler evaluate: self traitCompositionString)		category: category		

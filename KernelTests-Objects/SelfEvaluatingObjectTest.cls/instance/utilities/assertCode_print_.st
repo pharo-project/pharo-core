@@ -1,1 +1,1 @@
-assertCode: code print: aString	self assert: (self compile: code) printString = aString
+assertCode: code print: aString	self assert: (self class evaluate: code) printString = aString

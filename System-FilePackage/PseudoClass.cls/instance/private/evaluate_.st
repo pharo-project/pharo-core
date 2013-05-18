@@ -1,1 +1,1 @@
-evaluate: aString	^self class evaluatorClass evaluate: aString for: nil logged: true
+evaluate: aString	^self class compiler evaluate: aString for: nil logged: true

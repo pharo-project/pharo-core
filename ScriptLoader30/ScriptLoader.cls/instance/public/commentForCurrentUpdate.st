@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10474 Undeclared filteringBlockHolder on NewList	https://pharo.fogbugz.com/f/cases/10474	10469 ClassDescriptionTest uncategorized method and make ClassTest >> #testUnCategorizedMethods more verbose	https://pharo.fogbugz.com/f/cases/10469	10473 #equivalentTo: on CompiledMethod should call #methodNode, not decompile	https://pharo.fogbugz.com/f/cases/10473'
+commentForCurrentUpdate ^ '10377 #evaluatorClass --> just use #compiler instead	https://pharo.fogbugz.com/f/cases/10377		'
