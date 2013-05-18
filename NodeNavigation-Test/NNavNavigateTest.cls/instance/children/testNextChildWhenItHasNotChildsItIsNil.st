@@ -1,0 +1,1 @@
+testNextChildWhenItHasNotChildsItIsNil	| child parent |		parent := RBSequenceNode new.		child := NNavNavigateIntoNotAsk childNodeFor:  parent .	self assert: child isNil .

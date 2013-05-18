@@ -1,0 +1,1 @@
+sourceTextArea	^ self dependents at: 1

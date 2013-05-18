@@ -1,0 +1,1 @@
+testNotBrotherWhenOrphan	| orphanNode brother |		orphanNode := RBVariableNode named: 'roque'.	brother := NNavNavigateHorizontal brotherNodeFor: orphanNode.	self assert: brother isNil.

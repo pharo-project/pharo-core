@@ -1,0 +1,1 @@
+NNavNavigateNode subclass: #NNavNavigateOver	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'NodeNavigation-Core'

@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10604 update Opal in image to latest version	https://pharo.fogbugz.com/f/cases/10604	10595 Set environment for #compiler in Smalltalk>>#compiler	https://pharo.fogbugz.com/f/cases/10595	'
+commentForCurrentUpdate ^ '10607 Trait method buttons do not work	https://pharo.fogbugz.com/f/cases/10607	10606 Code Navigation	https://pharo.fogbugz.com/f/cases/10606		'

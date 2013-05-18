@@ -1,0 +1,1 @@
+findSelection: node in: textArea	^self findBest: node selection: textArea selectionInterval step: [:selection :target | self selectionParentScope: selection for: target parent].

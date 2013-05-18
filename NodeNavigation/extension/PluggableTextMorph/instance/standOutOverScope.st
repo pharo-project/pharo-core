@@ -1,0 +1,1 @@
+standOutOverScope	self handleEdit: [NNavNavigateOver standOutFor: textMorph editor] 

@@ -1,0 +1,1 @@
+standOutHorizontalScope	self handleEdit: [NNavNavigateHorizontal standOutFor: textMorph editor] 

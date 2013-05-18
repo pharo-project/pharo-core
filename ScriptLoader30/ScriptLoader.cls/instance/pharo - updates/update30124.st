@@ -1,0 +1,1 @@
+update30124	"self new update30124"	self withUpdateLog: '10607 Trait method buttons do not work	https://pharo.fogbugz.com/f/cases/10607	10606 Code Navigation	https://pharo.fogbugz.com/f/cases/10606		'.	self loadTogether: self script221 merge: false.	self flushCaches.
