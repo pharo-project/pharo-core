@@ -1,1 +1,1 @@
-A KMKeyCombinationChoice is xxxxxxxxx.Instance Variables	shortcuts:		<Object>shortcuts	- xxxxx
+I representing a choice between key combinations.A keyboard event will match with me when any of my key combinations matches with it.

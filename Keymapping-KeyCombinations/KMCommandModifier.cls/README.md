@@ -1,1 +1,1 @@
-A KMCommandModifier is xxxxxxxxx.Instance Variables
+I represent the Command key modifier. Look at my superclass for a more detailed explanaition.

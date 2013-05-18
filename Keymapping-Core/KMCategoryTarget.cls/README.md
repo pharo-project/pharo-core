@@ -1,1 +1,1 @@
-A KMCategoryTarget is xxxxxxxxx.Instance Variables	category:		<Object>	morph:		<Object>	target:		<Object>category	- xxxxxmorph	- xxxxxtarget	- xxxxx
+I am the reification of the relation morph<->category, created when a morph gets attached a category of shortcuts.

@@ -1,1 +1,1 @@
-inspectorSpecOptimized	<spec>	^ SpecLayout composed		add: #list origin: 0@0 corner: 0.4@0.70;		add: #description origin: 0.4@0 corner: 1@0.70;		add: #text origin: 0@0.70 corner: 1@1;		yourself
+inspectorSpecOptimized	<spec>		^ SpecLayout composed		newRow: [ :r |			r 				newColumn: #list right: 0.6;				addSplitter;				newColumn: #description left: 0.4 ]		bottom: 0.3;		addHSplitter;		newRow: #text top: 0.7;		yourself

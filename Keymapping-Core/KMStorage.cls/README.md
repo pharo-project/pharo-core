@@ -1,1 +1,1 @@
-A KMStorage is xxxxxxxxx.Instance Variables	annonimousRegistry:		<Object>	namedRegistry:		<Object>annonimousRegistry	- xxxxxnamedRegistry	- xxxxx
+I am a storage of shortcuts. I store and provide facilities to access named and annonimous shortcuts.

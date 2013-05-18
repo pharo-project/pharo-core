@@ -1,1 +1,1 @@
-I do not respond to any keyboard event. Mostly used in the settings to deactivate a certain command.
+I do not match with any keyboard event.I respond to the Null object pattern, since I represent the inexistance of a key combination.

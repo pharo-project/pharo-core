@@ -1,1 +1,1 @@
-A KMShiftModifier is xxxxxxxxx.Instance Variables
+I represent the Shift key modifier. Look at my superclass for a more detailed explanaition.

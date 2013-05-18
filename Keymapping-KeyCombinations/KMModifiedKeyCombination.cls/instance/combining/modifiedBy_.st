@@ -1,1 +1,1 @@
-modifiedBy: aModifier	modifier := modifier + aModifier.
+modifiedBy: aModifier	^self character asKeyCombination modifiedBy: modifier + aModifier.
