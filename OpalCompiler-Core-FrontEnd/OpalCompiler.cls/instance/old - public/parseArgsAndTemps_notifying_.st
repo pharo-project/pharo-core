@@ -1,1 +1,1 @@
-parseArgsAndTemps: aString notifying: req 	aString ifNil: [^ #()].	self		source: aString;		requestor: req;		parse.	^ ast tempNames
+parseArgsAndTemps: aString notifying: req 	aString ifNil: [^ #()].	ast := self		source: aString;		requestor: req;		parse.	^ ast tempNames

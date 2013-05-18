@@ -1,1 +1,0 @@
-parserClass	^ self class compilerClass parserClass

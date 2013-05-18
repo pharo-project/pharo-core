@@ -1,1 +1,0 @@
-parse: sourceStream class: behavior noPattern: noPattern context: context notifying: req ifFail: aBlock	"Backwards compatibilty"	^OpalCompiler new 		source: sourceStream;		class: behavior;		noPattern: noPattern;		context: context;		requestor: req;		failBlock: aBlock;		translate.

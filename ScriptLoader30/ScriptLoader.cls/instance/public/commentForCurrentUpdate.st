@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10445 Running NonDestructive Regression Tests Headless: wrong error handling	https://pharo.fogbugz.com/f/cases/10445'
+commentForCurrentUpdate ^ '10447 Sync Opal again with 3.0	https://pharo.fogbugz.com/f/cases/10447	10446 deprecate #parserClass	https://pharo.fogbugz.com/f/cases/10446'

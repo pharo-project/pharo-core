@@ -1,1 +1,1 @@
-decompile: selector in: aClass method: aMethod	"needs to be simpler"	| source |	self flag: #FIXME.		^ (source := aMethod getSourceFromFile)		ifNil: [Decompiler new decompile: selector in: aClass method: aMethod ]		ifNotNil: [aMethod parserClass new parse: source class: aMethod methodClass]
+decompile: selector in: aClass method: aMethod	"to be fixed"	| source |	source := aMethod getSourceFromFile.		source 		ifNil: [Decompiler new decompile: selector in: aClass method: aMethod ]		ifNotNil: [OpalCompiler new parse: source class: aClass]

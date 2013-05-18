@@ -1,1 +1,0 @@
-requestor 	"Return the source code editor"	^ requestor
