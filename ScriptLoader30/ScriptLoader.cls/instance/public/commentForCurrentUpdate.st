@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10076 Cleaning code formatting of criticbrowser	https://pharo.fogbugz.com/f/cases/10076/	10101 Object: remove #class	https://pharo.fogbugz.com/f/cases/10101'
+commentForCurrentUpdate ^ '7578 Remove String asPacked/fromPacked: protocol	https://pharo.fogbugz.com/f/cases/7578	7598 Nautilus>>class #cleanUpForProduction --> just cleanUp	https://pharo.fogbugz.com/f/cases/7598/	10117 remove class TestURI	https://pharo.fogbugz.com/f/cases/10117'
