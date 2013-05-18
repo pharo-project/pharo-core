@@ -1,1 +1,1 @@
-install	reference actualClass methodDictionary		at: reference methodSymbol		put: self.	self flushCache
+install	reference actualClass methodDict		at: reference methodSymbol		put: self.	self flushCache

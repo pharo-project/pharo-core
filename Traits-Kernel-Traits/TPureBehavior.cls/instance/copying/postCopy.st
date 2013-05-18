@@ -1,1 +1,1 @@
-postCopy	super postCopy.	self methodDictionary: self copyOfMethodDictionary
+postCopy	super postCopy.	self methodDict: self copyOfMethodDictionary

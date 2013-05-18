@@ -1,1 +1,1 @@
-testIncludesKeyLocalyDefined	" self debug: #testIncludesKeyLocalyDefined "	self assert: (self class methodDictionary includesKey: #testIncludesKeyLocalyDefined).
+testIncludesKeyLocalyDefined	" self debug: #testIncludesKeyLocalyDefined "	self assert: (self class includesSelector: #testIncludesKeyLocalyDefined).

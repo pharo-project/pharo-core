@@ -1,1 +1,1 @@
-uninstall	reference actualClass methodDictionary		at: reference selector		put: method
+uninstall	reference actualClass methodDict		at: reference selector		put: method

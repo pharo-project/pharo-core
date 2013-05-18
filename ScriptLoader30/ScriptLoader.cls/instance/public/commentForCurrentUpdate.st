@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10592 Update Opal in Image to latest version	https://pharo.fogbugz.com/f/cases/10592	10585 isExecutingBlock vs. isClosureContext vs. isBlockContext	https://pharo.fogbugz.com/f/cases/10585		'
+commentForCurrentUpdate ^ '10594 Set compiler option +optLongIvarAccessBytecodes for InstructionStream Hierarchy	https://pharo.fogbugz.com/f/cases/10594	10591 reduce sends of methodDictionary and methodDictionary:	https://pharo.fogbugz.com/f/cases/10591'
