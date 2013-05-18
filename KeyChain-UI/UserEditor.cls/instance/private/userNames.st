@@ -1,1 +1,1 @@
-userNames	^UsersManager default userNames
+userNames	^UserManager default userNames

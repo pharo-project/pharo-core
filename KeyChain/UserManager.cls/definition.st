@@ -1,0 +1,1 @@
+Object subclass: #UserManager	instanceVariableNames: 'currentUser users'	classVariableNames: 'DefaultUserManager'	poolDictionaries: ''	category: 'KeyChain'

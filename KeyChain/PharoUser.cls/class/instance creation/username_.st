@@ -1,1 +1,1 @@
-username: username	^ UsersManager default users		detect: [:e | e username = username ] 		ifNone: [				self new				username: username;				yourself ]
+username: username	^ UserManager default users		detect: [:e | e username = username ] 		ifNone: [				self new				username: username;				yourself ]

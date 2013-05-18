@@ -1,1 +1,1 @@
-fileItIn: aKeyboardEvent	"File in the selection; invoked via a keyboard shortcut, -- for now, cmd-shift-G."	UsersManager default currentUser canDropOSFile ifFalse: [ ^ false ].	self fileItIn.	^ true
+fileItIn: aKeyboardEvent	"File in the selection; invoked via a keyboard shortcut, -- for now, cmd-shift-G."	UserManager default currentUser canDropOSFile ifFalse: [ ^ false ].	self fileItIn.	^ true

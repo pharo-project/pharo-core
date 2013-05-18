@@ -1,1 +1,1 @@
-debugIt: aKeyboardEvent	"Evaluate the current selection in the Debugger."	UsersManager default currentUser canDebug ifFalse: [ ^ false ].	self debugIt.	^ true
+debugIt: aKeyboardEvent	"Evaluate the current selection in the Debugger."	UserManager default currentUser canDebug ifFalse: [ ^ false ].	self debugIt.	^ true
