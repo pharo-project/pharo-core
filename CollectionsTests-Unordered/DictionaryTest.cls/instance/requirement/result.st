@@ -1,1 +1,1 @@
-result	^ Dictionary newFromPairs: {		#a . SmallInteger .		#b . SmallInteger .		#c . SmallInteger .		#d . SmallInteger }
+result	^ self collectionClass newFromPairs: {		#a . SmallInteger .		#b . SmallInteger .		#c . SmallInteger .		#d . SmallInteger }

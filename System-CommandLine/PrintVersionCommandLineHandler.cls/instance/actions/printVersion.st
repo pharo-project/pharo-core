@@ -1,1 +1,1 @@
-printVersion	FileStream stdout 		nextPutAll: '[version] ';		nextPutAll: SystemVersion current major asString;		nextPutAll: '.';		nextPutAll: SystemVersion current minor asString;		nextPutAll: ' #' ;		nextPutAll: SystemVersion current highestUpdate asString;		cr.
+printVersion	self stdout 		nextPutAll: '[version] ';		print: SystemVersion current major;		nextPutAll: '.';		print: SystemVersion current minor;		nextPutAll: ' #' ;		print: SystemVersion current highestUpdate;		lf.
