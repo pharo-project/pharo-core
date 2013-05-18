@@ -1,0 +1,1 @@
+A SSCommand represent a command that can be excuted on a context to obtain a result.For example for raneme an instance variable name.Instance Variables	blockCommand:		<Object>	context:		<Object>blockCommand	- xxxxxcontext	- xxxxx

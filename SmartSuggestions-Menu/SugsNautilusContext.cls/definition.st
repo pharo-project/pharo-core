@@ -1,0 +1,1 @@
+SugsAbstractContext subclass: #SugsNautilusContext	instanceVariableNames: 'model'	classVariableNames: ''	poolDictionaries: ''	category: 'SmartSuggestions-Menu'

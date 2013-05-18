@@ -1,0 +1,1 @@
+findSuggestionsFor: context		"Finds the best suggestions for the context passed as a parameter"	| node suggestions |	node := self findBestNodeFor: context .	suggestions := node ifNotNil: [ node specialCommands ] ifNil: [ #() ] .	suggestions do:[:sugg| sugg context: context].	^suggestions select: [:sugg | sugg isValidForContext ]		

@@ -1,0 +1,1 @@
+selectedInterval	^ self sourceTextArea selectionInterval

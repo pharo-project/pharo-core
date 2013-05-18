@@ -1,1 +1,1 @@
-allowUnderscoreAsAssignment	^ self class allowUnderscoreAsAssignment
+allowUnderscoreAsAssignment	^false

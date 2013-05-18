@@ -1,0 +1,1 @@
+A SugsNautilusContext is xxxxxxxxx.Instance Variables	model:		<Object>model	- xxxxx

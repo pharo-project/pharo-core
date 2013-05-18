@@ -1,0 +1,1 @@
+update30060	"self new update30060"	self withUpdateLog: '10376 Clean up underscore assignment	https://pharo.fogbugz.com/f/cases/10376	10392 Suggestions context-dependent	https://pharo.fogbugz.com/f/cases/10392	'.	self loadTogether: self script158 merge: false.	self flushCaches.

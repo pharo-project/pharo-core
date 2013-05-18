@@ -1,0 +1,1 @@
+A SugsSwapMethod is xxxxxxxxx.Instance Variables

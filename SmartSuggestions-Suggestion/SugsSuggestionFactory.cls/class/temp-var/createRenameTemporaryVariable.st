@@ -1,0 +1,1 @@
+createRenameTemporaryVariable	<tempVarCommand>	^ SugsSuggestion		for: [ :context | 			(NautilusRefactoring model: context)				renameTemporaryNamed: context selectedVariableName				Between: (context nodeStart to: context nodeStop)				from: context selectedMethod ]		named: 'Rename' translated		icon: UITheme current smallLanguageIcon		position: 10		keyText: 'r'

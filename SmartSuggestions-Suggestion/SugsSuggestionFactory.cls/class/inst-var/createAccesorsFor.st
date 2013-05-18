@@ -1,0 +1,1 @@
+createAccesorsFor	<instVarCommand>	^ SugsSuggestion		for: [ :context | (NautilusRefactoring model: context) accessorsInstVarNamed: context selectedVariableName from: context selectedClass ]		named: 'Create Accesors' translated		icon: UITheme current smallLanguageIcon		position: 100		isValidBlock: [:context | context hasUnImplementedAccessors ].

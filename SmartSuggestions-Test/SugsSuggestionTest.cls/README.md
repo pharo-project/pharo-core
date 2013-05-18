@@ -1,0 +1,1 @@
+A SugsSuggestionTest is xxxxxxxxx.Instance Variables	emptyClass:		<Object>emptyClass	- xxxxx

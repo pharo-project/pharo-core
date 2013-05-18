@@ -1,0 +1,1 @@
+Object subclass: #SugsAbstractContext	instanceVariableNames: 'selectedNode'	classVariableNames: ''	poolDictionaries: ''	category: 'SmartSuggestions-Menu'

@@ -1,0 +1,1 @@
+createAccessesToVariable	<instVarCommand>	^ SugsSuggestion		for: [ :context | context tools browseAllAccessesTo: context selectedVariableName from: context selectedClass ]		named: 'Accesses to...' translated		icon: UITheme current smallInspectItIcon		position: 50		isValidBlock: [:context | context hasClassUnImplementedAccessors ].

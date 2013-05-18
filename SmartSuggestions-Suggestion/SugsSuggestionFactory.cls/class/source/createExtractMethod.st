@@ -1,0 +1,1 @@
+createExtractMethod	<sourceCodeCommand>	<messageCommand>	^ SugsSuggestion		for: [ :context | (NautilusRefactoring model: context) extractToMethodTextSelection ]		named: 'Extract method' translated		icon: UITheme current smallRedoIcon		position: 50

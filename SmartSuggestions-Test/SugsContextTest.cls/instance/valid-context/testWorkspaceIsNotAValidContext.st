@@ -1,0 +1,1 @@
+testWorkspaceIsNotAValidContext	| st |	st := Workspace new.	self deny: (SugsAbstractContext isAValidContext: st).

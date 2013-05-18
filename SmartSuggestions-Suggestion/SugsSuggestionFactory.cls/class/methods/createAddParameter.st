@@ -1,0 +1,1 @@
+createAddParameter	<methodCommand>	^ SugsSuggestion		for: [ :context | (NautilusRefactoring model: context) addAParameterFor: context selectedMethod ]		named: 'Add a parameter' translated		icon: UITheme current smallPushpinIcon		position: 200

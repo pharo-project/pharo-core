@@ -1,0 +1,1 @@
+createRenameMethod	<methodCommand>	^ SugsSuggestion		for: [ :context | (NautilusRefactoring model: context) renameMethodFor: context selectedMethod ]		named: 'Rename' translated		icon: UITheme current smallLanguageIcon		position: 10		keyText: 'r,m'

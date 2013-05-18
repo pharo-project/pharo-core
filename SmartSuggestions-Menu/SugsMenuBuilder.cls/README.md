@@ -1,0 +1,1 @@
+A SugsMenuBuilder is xxxxxxxxx.Instance Variables

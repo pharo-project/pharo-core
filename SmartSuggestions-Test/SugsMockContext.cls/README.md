@@ -1,0 +1,1 @@
+A SugsMockContext is xxxxxxxxx.Instance Variables	anInstanceVar:		<Object>	message:		<Object>	selectedClass:		<Object>	selectedInterval:		<Object>	selectedVariable:		<Object>	selectorToUse:		<Object>anInstanceVar	- xxxxxmessage	- xxxxxselectedClass	- xxxxxselectedInterval	- xxxxxselectedVariable	- xxxxxselectorToUse	- xxxxx

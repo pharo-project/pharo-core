@@ -1,0 +1,1 @@
+tools	self subclassResponsibility .

@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10389 Bug when searching for traits (find class option)	https://pharo.fogbugz.com/f/cases/10389	10356 Simplify CompiledMethod>>#argumentNames	https://pharo.fogbugz.com/f/cases/10356	10367 NOCController / NECController need #cleanUp method	https://pharo.fogbugz.com/f/cases/10367	'
+commentForCurrentUpdate ^ '10376 Clean up underscore assignment	https://pharo.fogbugz.com/f/cases/10376	10392 Suggestions context-dependent	https://pharo.fogbugz.com/f/cases/10392	'

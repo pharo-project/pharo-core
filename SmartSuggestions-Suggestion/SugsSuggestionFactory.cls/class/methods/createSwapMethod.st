@@ -1,0 +1,1 @@
+createSwapMethod	<methodCommand>	^ SugsSwapMethod new		icon: UITheme current smallRedoIcon;		position: 50

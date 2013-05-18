@@ -1,0 +1,1 @@
+isAValidContext: aContext 	"right now we only have one valid context and its nautilus ui.	 When we grow up we have to change this nasty implementation for a real one and be really extensible and maybe to offer suggestions based in the actual context also"	^ aContext class = NautilusUI

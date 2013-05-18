@@ -1,0 +1,1 @@
+A SugsSuggestionFactory is xxxxxxxxx.Instance Variables
