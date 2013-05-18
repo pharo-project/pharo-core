@@ -1,0 +1,1 @@
+update30140	"self new update30140"	self withUpdateLog: '10557 ArrowUp and arrowDown not working in keymaps	https://pharo.fogbugz.com/f/cases/10557	7496 openWithSpecLayout: vs. openWithSpec:	https://pharo.fogbugz.com/f/cases/7496'.	self loadTogether: self script237 merge: false.	self flushCaches.

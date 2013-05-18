@@ -1,1 +1,1 @@
-open	window := self openWithSpec.	^ window.
+open	^ self openWithSpec

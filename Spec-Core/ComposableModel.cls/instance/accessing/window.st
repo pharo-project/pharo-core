@@ -1,1 +1,1 @@
-window	^ window		ifNil: [			owner				ifNil: [ nil ]				ifNotNil: [:o | o window ]]
+window	^ window contents		ifNil: [			owner				ifNil: [ nil ]				ifNotNil: [:o | o window ]]

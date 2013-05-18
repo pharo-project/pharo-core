@@ -1,1 +1,1 @@
-cancel	window delete
+cancel	window contents delete

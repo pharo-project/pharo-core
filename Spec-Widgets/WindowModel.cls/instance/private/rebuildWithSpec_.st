@@ -1,1 +1,1 @@
-rebuildWithSpec: aSpec	| sub |		sub := window submorphs copy.	window removeAllMorphs.	sub allButLast do: [:e | window addMorphBack: e ].	self addModelIn: self widget withSpec: aSpec
+rebuildWithSpec: aSpec	| sub |		sub := window contents submorphs copy.	window contents removeAllMorphs.	sub allButLast do: [:e | window contents addMorphBack: e ].	self addModelIn: self widget withSpec: aSpec

@@ -1,1 +1,1 @@
-openWithSpecLayout: aSpec	window := self buildWithSpecLayout: aSpec.	window openInWorld.	self updateTitle
+openWithSpecLayout: aSpec	window contents: (self buildWithSpecLayout: aSpec).	window contents openInWorld.	self updateTitle.

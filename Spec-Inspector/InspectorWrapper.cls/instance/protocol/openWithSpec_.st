@@ -1,1 +1,0 @@
-openWithSpec: aSpec	| w |	w := super openWithSpec: aSpec.	w whenClosedDo: [ self inspector close ].	^ w

@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10656 add Compiler>>#parseLiterals:	https://pharo.fogbugz.com/f/cases/10656	'
+commentForCurrentUpdate ^ '10557 ArrowUp and arrowDown not working in keymaps	https://pharo.fogbugz.com/f/cases/10557	7496 openWithSpecLayout: vs. openWithSpec:	https://pharo.fogbugz.com/f/cases/7496'
