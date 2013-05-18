@@ -1,0 +1,1 @@
+evaluate: textOrStream in: aContext to: aReceiver notifying: aRequestor ifFail: aFailBlock 		^self		source: textOrStream;		context: aContext;		receiver: receiver;		requestor: aRequestor;		failBlock: aFailBlock;		evaluate

@@ -1,0 +1,1 @@
+parse: sourceStreamOrString class: behavior	^  OpalCompiler new 		source: sourceStreamOrString;		class: behavior;		parse

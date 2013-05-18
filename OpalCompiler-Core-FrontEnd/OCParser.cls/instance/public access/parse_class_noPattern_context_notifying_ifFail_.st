@@ -1,1 +1,0 @@
-parse: sourceStream class: behavior noPattern: noPattern context: context notifying: req ifFail: aBlock	"Backwards compatibilty"	context ifNotNil: [self error: 'Use Compiler-evaluate... instead'].	^ self parse: sourceStream class: behavior noPattern: noPattern notifying: req ifFail: aBlock

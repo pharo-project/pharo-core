@@ -1,1 +1,1 @@
-parser	parser ifNil: [parser := self parserClass new].	^parser
+parser	parser ifNil: [parser :=  Parser new].	^parser

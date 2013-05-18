@@ -1,1 +1,0 @@
-testCascadeInASuperSend	self flag: 'Opal answers nil instead of raising / catching an error'.		"self setUpForErrorsIn: 'super yourself` Cascading not expected ->`; yourself'.	self enumerateAllSelections"

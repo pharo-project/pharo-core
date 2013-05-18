@@ -1,1 +1,0 @@
-testLiteralCharacterMissing	self flag: 'Opal answers nil instead of raising / catching an error'.	"self setUpForErrorsIn: '$` A Character was expected ->`'.	self enumerateAllSelections"

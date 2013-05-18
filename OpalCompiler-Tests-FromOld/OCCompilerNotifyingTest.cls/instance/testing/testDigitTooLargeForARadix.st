@@ -1,1 +1,1 @@
-testDigitTooLargeForARadix	self flag: 'Opal has the correct behavior but the error is not caught'	"self setUpForErrorsIn: '2r` a digit between 0 and 1 expected ->`3'.	self enumerateAllSelections"
+testDigitTooLargeForARadix	self setUpForErrorsIn: '2r` Reading a number failed: a digit between 0 and 1 expected ->`3'.	self enumerateAllSelections

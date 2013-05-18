@@ -1,0 +1,1 @@
+translate	[ ast := self parse]		on: SyntaxErrorNotification, OCBackendError   "OCBackendError should not be raised when parsing"		do: [:ex |			requestor  ifNotNil: [  				requestor					notify: ex errorMessage , ' ->'					at: ex location					in: ex errorCode. ].				  ^failBlock value].	self doSemanticAnalysis.	^ast.			

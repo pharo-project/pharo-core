@@ -1,0 +1,1 @@
+noPattern: aBoolean	noPattern := aBoolean	

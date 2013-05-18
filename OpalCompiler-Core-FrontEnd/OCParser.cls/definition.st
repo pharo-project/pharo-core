@@ -1,1 +1,1 @@
-Object subclass: #OCParser	instanceVariableNames: 'source requestor scope doitFlag failBlock endOfMethodPattern'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-FrontEnd'
+Object subclass: #OCParser	instanceVariableNames: 'source requestor scope doitFlag failBlock'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-FrontEnd'

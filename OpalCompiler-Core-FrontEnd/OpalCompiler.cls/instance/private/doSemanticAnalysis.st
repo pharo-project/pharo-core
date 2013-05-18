@@ -1,0 +1,1 @@
+doSemanticAnalysis	^[ast doSemanticAnalysisIn: class interactive: self interactive  notifying: requestor] 		on: OCSemanticError 		do: [ :ex | ex defaultAction. ^failBlock value ]

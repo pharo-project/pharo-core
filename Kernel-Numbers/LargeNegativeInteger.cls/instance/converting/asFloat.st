@@ -1,1 +1,1 @@
-asFloat	^self negated asFloat negated
+asFloat	^super asFloat negated

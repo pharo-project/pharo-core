@@ -1,0 +1,1 @@
+compile	^self translate generate		

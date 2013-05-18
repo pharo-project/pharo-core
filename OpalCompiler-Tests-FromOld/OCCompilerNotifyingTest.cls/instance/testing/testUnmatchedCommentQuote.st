@@ -1,1 +1,1 @@
-testUnmatchedCommentQuote	self flag: 'Opal has the correct behavior but the error is not caught'.		"I put that in a block because was not able to comment it"	[ self setUpForErrorsIn: '1+2   ` Unmatched comment quote ->`"unfinished comment'.	self enumerateAllSelections ]
+testUnmatchedCommentQuote	self setUpForErrorsIn: '1+2   "unfinished comment` Unmatched " in comment. ->`'.	self enumerateAllSelections

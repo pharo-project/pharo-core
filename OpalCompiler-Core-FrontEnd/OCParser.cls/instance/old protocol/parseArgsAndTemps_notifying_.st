@@ -1,0 +1,1 @@
+parseArgsAndTemps: aString notifying: req 	"No initialization required.  Parse the argument, aString, notifying req if an error occurs. Otherwise, answer a two-element Array containing Arrays of strings (the argument names and temporary variable names)."	OpalCompiler new parseArgsAndTemps: aString notifying: req.

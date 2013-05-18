@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10433 Remove showing decompied code from Old Browser	https://pharo.fogbugz.com/f/cases/10433/	10437 Add spec inspectors to Andreis spec debugger	https://pharo.fogbugz.com/f/cases/10437'
+commentForCurrentUpdate ^ '10373 instead of #parserClass, everyone should use the Compiler Frontend	https://pharo.fogbugz.com/f/cases/10373	10435 Fast-up asFloat	https://pharo.fogbugz.com/f/cases/10435	10440 Integrate latest Opal in 3.0	https://pharo.fogbugz.com/f/cases/10440'

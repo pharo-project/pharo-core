@@ -1,1 +1,0 @@
-parseSelector: aString 	"Answer the message selector for the argument, aString, which should parse successfully up to the temporary declaration or the end of the method header."	| methodNode |	[methodNode := self realParserClass parseMethodPattern: aString.	endOfMethodPattern := methodNode methodPatternStop.	^ methodNode selector] on: Error do: [^nil].

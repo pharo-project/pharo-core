@@ -1,1 +1,1 @@
-testInvalidRadix	self flag: 'Opal has the correct behavior but the error is not caught'	"self setUpForErrorsIn: '1` an integer greater than 1 as valid radix expected ->`r0'.	self enumerateAllSelections."
+testInvalidRadix	self setUpForErrorsIn: '1` Reading a number failed: an integer greater than 1 as valid radix expected ->`r0'.	self enumerateAllSelections.

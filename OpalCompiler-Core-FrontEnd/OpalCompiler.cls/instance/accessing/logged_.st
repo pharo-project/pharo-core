@@ -1,0 +1,1 @@
+logged: aBoolean	logged := aBoolean

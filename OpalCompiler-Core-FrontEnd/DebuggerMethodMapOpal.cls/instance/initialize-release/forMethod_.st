@@ -1,1 +1,1 @@
-forMethod: aCompiledMethod 	methodNode := aCompiledMethod parseTree.
+forMethod: aCompiledMethod 	methodNode := aCompiledMethod ast.

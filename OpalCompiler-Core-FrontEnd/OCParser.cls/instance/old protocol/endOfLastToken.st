@@ -1,1 +1,0 @@
-endOfLastToken	^ endOfMethodPattern
