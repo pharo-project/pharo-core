@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10177 Deprecate accept* in visitor	https://pharo.fogbugz.com/f/cases/1017'
+commentForCurrentUpdate ^ 'Issue 5188 - Stage 1: Announcement>> handlesAnnouncement: Supporting symbol as announcement.This part add a new protocol.	https://pharo.fogbugz.com/default.asp?5188	Issue 5819: Implement a way to get the user directories based on the current OS	https://pharo.fogbugz.com/default.asp?5919'

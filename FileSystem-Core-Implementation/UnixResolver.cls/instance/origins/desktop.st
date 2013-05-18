@@ -1,1 +1,1 @@
-desktop	^ self home / 'Desktop'
+desktop	^ (self xdgUserDir: 'DESKTOP') ifNil: [ self home / 'Desktop' ]
