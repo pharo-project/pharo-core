@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10615 RBMethodNode classBinding: move it to compilationContext	https://pharo.fogbugz.com/f/cases/10615/	... and update Opal to the latest version'
+commentForCurrentUpdate ^ '10666 FileList should work on any FileSystem	https://pharo.fogbugz.com/f/cases/10666	10664 Unify and clean a bit the CommandLine class comments	https://pharo.fogbugz.com/f/cases/10664	10663	RPackageOrganizer out of sync		https://pharo.fogbugz.com/f/cases/10663'
