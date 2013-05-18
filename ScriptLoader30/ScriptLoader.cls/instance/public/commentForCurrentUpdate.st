@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10458	New Spec examples	https://pharo.fogbugz.com/f/cases/10458	10463 Decompiler related cleanup	https://pharo.fogbugz.com/f/cases/10463	10465 Better syntax hilighting of start of existing identifier	https://pharo.fogbugz.com/f/cases/10465'
+commentForCurrentUpdate ^ '10462 Add SpecModel for NewList	https://pharo.fogbugz.com/f/cases/10462	10468 More Decompiler related cleanups	https://pharo.fogbugz.com/f/cases/10468'

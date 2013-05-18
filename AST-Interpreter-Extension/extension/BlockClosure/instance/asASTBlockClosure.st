@@ -1,1 +1,1 @@
-asASTBlockClosure	^ASTBlockClosure new		homeContext: self home asASTInterpreterContext;		code: self decompile
+asASTBlockClosure	^ASTBlockClosure new		homeContext: self home asASTInterpreterContext;		code: self sourceNode.
