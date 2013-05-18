@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10317	files.pharo.org: change image to use new update server	https://pharo.fogbugz.com/f/cases/10317'
+commentForCurrentUpdate ^ '10313 initialize SpecProxyDebugger to be able to choose it in pre-debug window	https://pharo.fogbugz.com/f/cases/10313	10303 Duplicated instance #model in NewList (already defined in MorphicModel)	https://pharo.fogbugz.com/f/cases/10303/'
