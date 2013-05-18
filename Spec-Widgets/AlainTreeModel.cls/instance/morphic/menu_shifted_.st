@@ -1,1 +1,1 @@
-menu: aMenu shifted: aBoolean	menuBlockHolder cull: aMenu cull: aBoolean.	^ aMenu
+menu: aMenu shifted: aBoolean	menuBlockHolder contents cull: aMenu cull: aBoolean.	^ aMenu

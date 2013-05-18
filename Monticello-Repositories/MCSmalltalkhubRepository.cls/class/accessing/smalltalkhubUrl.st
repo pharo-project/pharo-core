@@ -1,1 +1,1 @@
-smalltalkhubUrl	^ 'http://smalltalkhub.com/'
+smalltalkhubUrl	^ 'http://', self hostName, '/'

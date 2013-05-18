@@ -1,1 +1,1 @@
-selectedItems	< api: #inspect>	"Return the selected items"		^ treeModel selectedItems
+selectedItems	< api: #inspect>	"Return the selected items"		^ selectionHolder contents

@@ -1,1 +1,1 @@
-ComposableModel subclass: #SearchableTree	instanceVariableNames: 'inputField roots tree label'	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Widgets-PolyWidgets'
+ComposableModel subclass: #SearchableTree	instanceVariableNames: 'inputField roots tree label button'	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Widgets-PolyWidgets'

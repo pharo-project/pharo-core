@@ -1,0 +1,1 @@
+hostName	^ 'smalltalkhub.com'

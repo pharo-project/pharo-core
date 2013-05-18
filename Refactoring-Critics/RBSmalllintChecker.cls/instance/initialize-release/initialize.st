@@ -1,1 +1,1 @@
-initialize	methodBlock := [].	environment := RBSelectorEnvironment new.	context := RBSmalllintContext newNoCache
+initialize	methodBlock := [].	environment := RBBrowserEnvironment new.	context := RBSmalllintContext newNoCache

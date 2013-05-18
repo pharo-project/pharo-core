@@ -1,1 +1,1 @@
-baseURL	^ 'http://smalltalkhub.com/mc/'
+baseURL	^ self smalltalkhubUrl, 'mc/'
