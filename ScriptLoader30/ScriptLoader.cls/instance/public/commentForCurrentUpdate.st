@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10456 undo a dumb bug introduced in 10453	https://pharo.fogbugz.com/f/cases/10456	'
+commentForCurrentUpdate ^ '10458	New Spec examples	https://pharo.fogbugz.com/f/cases/10458	10463 Decompiler related cleanup	https://pharo.fogbugz.com/f/cases/10463'

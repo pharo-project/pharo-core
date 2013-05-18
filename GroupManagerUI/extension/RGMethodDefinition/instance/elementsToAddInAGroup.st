@@ -1,1 +1,0 @@
-elementsToAddInAGroup	^ { self }

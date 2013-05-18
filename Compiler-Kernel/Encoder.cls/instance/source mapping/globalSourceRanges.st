@@ -1,1 +1,0 @@
-globalSourceRanges	^ globalSourceRanges
