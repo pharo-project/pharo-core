@@ -1,1 +1,1 @@
-ok	^ okAction contents value
+ok	input accept.	^ okAction contents value

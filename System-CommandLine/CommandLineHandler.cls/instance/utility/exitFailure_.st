@@ -1,1 +1,1 @@
-exitFailure: aMessage 	Exit signalFaillure: aMessage 
+exitFailure: aMessage 	Exit signalFailure: aMessage 
