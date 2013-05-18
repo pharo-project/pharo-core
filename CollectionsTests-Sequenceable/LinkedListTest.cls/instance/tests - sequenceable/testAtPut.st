@@ -1,0 +1,1 @@
+testAtPut	| ll |	ll := LinkedList new.	ll add: 1.	self shouldnt: [ll at: 1 put: 2] raise:  SubscriptOutOfBounds.	self shouldnt: [self assert: (ll at: 1) equals: 2] raise: SubscriptOutOfBounds
