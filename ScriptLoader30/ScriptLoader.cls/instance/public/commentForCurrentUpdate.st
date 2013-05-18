@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10363 Boolean clean up	https://pharo.fogbugz.com/f/cases/10363'
+commentForCurrentUpdate ^ '10365 #mustBeBooleanIn: should not raise error	https://pharo.fogbugz.com/f/cases/10365	(not yet complete and turned off, we will slowly complete it)	10345 Build menus in SyntaxError the same way like in Workspace	https://pharo.fogbugz.com/f/cases/10345	10380 DNU in RBCondition>>canUnderstand:in:	https://pharo.fogbugz.com/f/cases/10380			'

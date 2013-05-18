@@ -1,1 +1,0 @@
-rewriteTempNamedRead: aTempName forMethod: aMethodNode	| rewriter offset |	offset := context tempNames indexOf: aTempName.	rewriter := RBParseTreeRewriter new.	rewriter 		replace:  aTempName		with: 'ThisContext namedTempAt:', offset asString.			(rewriter executeTree: aMethodNode) 		ifTrue: [^rewriter tree]		ifFalse: [^aMethodNode].

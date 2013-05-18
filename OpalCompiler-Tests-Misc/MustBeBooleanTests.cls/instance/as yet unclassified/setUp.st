@@ -1,0 +1,1 @@
+setUp	OpalCompiler allowNonBooleanReceivers: true.

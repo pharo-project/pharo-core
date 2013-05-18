@@ -1,0 +1,1 @@
+tearDown	OpalCompiler allowNonBooleanReceivers: false.
