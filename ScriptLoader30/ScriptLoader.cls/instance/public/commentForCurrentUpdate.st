@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10530 Add support for platform independent handling keys on keydown and keyup	https://pharo.fogbugz.com/f/cases/10530	10535 Even more decompiler related cleanups	https://pharo.fogbugz.com/f/cases/10535	10538 Remove log from keyboard handling	https://pharo.fogbugz.com/f/cases/10538'
+commentForCurrentUpdate ^ '10541 Fix fileOut broken by update 30107	https://pharo.fogbugz.com/f/cases/10541	10539 Small cleanup related to #methods in Kernel	https://pharo.fogbugz.com/f/cases/10539'
