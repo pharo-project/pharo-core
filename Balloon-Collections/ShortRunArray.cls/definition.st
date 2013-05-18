@@ -1,1 +1,0 @@
-ArrayedCollection variableWordSubclass: #ShortRunArray	instanceVariableNames: ''	classVariableNames: 'LastSaveOrder'	poolDictionaries: ''	category: 'Balloon-Collections'

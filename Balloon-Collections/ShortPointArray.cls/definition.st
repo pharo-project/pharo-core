@@ -1,1 +1,0 @@
-ShortIntegerArray variableWordSubclass: #ShortPointArray	uses: TPointAccess	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Balloon-Collections'

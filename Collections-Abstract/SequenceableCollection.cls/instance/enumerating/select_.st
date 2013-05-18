@@ -1,1 +1,1 @@
-select: aBlock 	"Refer to the comment in Collection|select:."	| aStream each |	aStream := (self species new: self size) writeStream.	1 to: self size do: 		[:index |		(aBlock value: (each := self at: index))			ifTrue: [aStream nextPut: each]].	^ aStream contents
+select: aBlock 	"Optimized version of Collection>>#select:"		| each |		^ self class new: self size streamContents: [ :stream|		1 to: self size do: [ :index |			(aBlock value: (each := self at: index))				ifTrue: [ stream nextPut: each ]]]

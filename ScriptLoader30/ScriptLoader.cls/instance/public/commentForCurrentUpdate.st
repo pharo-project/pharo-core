@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10216 Fix two RB Related failing test	https://pharo.fogbugz.com/f/cases/10216	10214 Spec example update	https://pharo.fogbugz.com/f/cases/10214/	10212 New Spec version	https://pharo.fogbugz.com/f/cases/10212'
+commentForCurrentUpdate ^ '7518 ShortPointArray and ShortRunArray not used	https://pharo.fogbugz.com/f/cases/7518	6938 Create Collection>>#reject:thenCollect:	https://pharo.fogbugz.com/f/cases/6938	10245 Run #cleanUpForRelease on every update	https://pharo.fogbugz.com/f/cases/10245'
