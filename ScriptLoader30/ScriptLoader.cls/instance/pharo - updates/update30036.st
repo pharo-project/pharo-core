@@ -1,0 +1,1 @@
+update30036	"self new update30036"	self withUpdateLog: 'Issue 5188 Stage 3: Announcement>> handlesAnnouncement:	Cleaning after the changes.	https://pharo.fogbugz.com/default.asp?5188	Move ui code of SmallDictionary to Tools package. '.	self loadTogether: self script135 merge: false.	self flushCaches.

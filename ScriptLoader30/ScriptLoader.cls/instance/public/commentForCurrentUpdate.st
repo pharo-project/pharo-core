@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ 'Issue 5602: LinkedList at: index putLink: aLink	https://pharo.fogbugz.com/default.asp?5602	Issue 5188-Stage 2: Announcement>> handlesAnnouncement:	Now we use the new protocol that was introduced in previous stage.	https://pharo.fogbugz.com/default.asp?5188'
+commentForCurrentUpdate ^ 'Issue 5188 Stage 3: Announcement>> handlesAnnouncement:	Cleaning after the changes.	https://pharo.fogbugz.com/default.asp?5188	Move ui code of SmallDictionary to Tools package. '
