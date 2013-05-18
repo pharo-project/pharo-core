@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10423 simplify #firstPrecodeCommentFor:	https://pharo.fogbugz.com/f/cases/10423	10426 move #parseSelector to Compiler	https://pharo.fogbugz.com/f/cases/10426'
+commentForCurrentUpdate ^ '10428 Fast-up significandAsInteger	https://pharo.fogbugz.com/f/cases/10428	10429 Fast up LargeInteger modulo	https://pharo.fogbugz.com/f/cases/10429	10430 add #compiler to PseudoClass (and fix #comment in CompiledMethod)	https://pharo.fogbugz.com/f/cases/10430	10434 add old parser API to Compiler	https://pharo.fogbugz.com/f/cases/1043'
