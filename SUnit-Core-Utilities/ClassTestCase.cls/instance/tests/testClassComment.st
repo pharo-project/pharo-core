@@ -1,1 +1,1 @@
-testClassComment	self should: [self targetClass organization hasComment].
+testClassComment	self assert: self targetClass organization hasComment.

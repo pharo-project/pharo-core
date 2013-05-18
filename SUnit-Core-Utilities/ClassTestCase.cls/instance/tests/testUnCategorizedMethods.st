@@ -1,1 +1,1 @@
-testUnCategorizedMethods	| categories slips  |	categories := self categoriesForClass: self targetClass.	slips := categories select: [:each | each = #'as yet unclassified'].	self should: [slips isEmpty].	
+testUnCategorizedMethods	| uncategorizedMethods  |	uncategorizedMethods := self targetClass methodsInCategory: Categorizer default.	self 		assert: uncategorizedMethods isEmpty		description: uncategorizedMethods asString	
