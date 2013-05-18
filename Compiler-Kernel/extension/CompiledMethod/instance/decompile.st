@@ -1,1 +1,1 @@
-decompile	"Return the decompiled parse tree that represents self"	|  class selector |	class := self methodClass ifNil: [Object].	selector := self selector ifNil: [self defaultSelector].	^class compiler decompile: selector in: class method: self.
+decompile	"Return the decompiled parse tree that represents self"	^self class compiler decompileMethod: self.

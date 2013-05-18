@@ -1,0 +1,1 @@
+key	^OSPlatform current keyForValue: keyValue
