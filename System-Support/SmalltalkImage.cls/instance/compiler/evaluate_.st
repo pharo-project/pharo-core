@@ -1,1 +1,1 @@
-evaluate: aString	^self compilerClass evaluate: aString
+evaluate: aString	^self compiler evaluate: aString

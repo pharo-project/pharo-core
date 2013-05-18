@@ -1,1 +1,1 @@
-oneLineMessages: aString	OneLineMessages := self compilerClass evaluate: aString for: nil logged: false
+oneLineMessages: aString	OneLineMessages := self compiler evaluate: aString

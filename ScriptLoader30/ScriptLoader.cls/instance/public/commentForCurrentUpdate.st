@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10462 Add SpecModel for NewList	https://pharo.fogbugz.com/f/cases/10462	10468 More Decompiler related cleanups	https://pharo.fogbugz.com/f/cases/10468'
+commentForCurrentUpdate ^ '10379 #compilerClass new --> compiler	https://pharo.fogbugz.com/f/cases/10379'

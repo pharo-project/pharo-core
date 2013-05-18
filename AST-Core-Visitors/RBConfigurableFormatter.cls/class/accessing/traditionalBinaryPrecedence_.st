@@ -1,1 +1,1 @@
-traditionalBinaryPrecedence: aString	TraditionalBinaryPrecedence := self compilerClass evaluate: aString for: nil logged: false
+traditionalBinaryPrecedence: aString	TraditionalBinaryPrecedence := self compiler evaluate: aString
