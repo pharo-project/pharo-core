@@ -1,1 +1,1 @@
-writeSourceToLog	logSource ifTrue: [		myClass logMethodSource2: text forMethodWithNode: compiledMethod			inCategory: category withStamp: changeStamp notifying: requestor.	].
+writeSourceToLog	logSource ifTrue: [		myClass logMethodSource: text forMethod: compiledMethod			inCategory: category withStamp: changeStamp	].
