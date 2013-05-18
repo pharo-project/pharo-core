@@ -1,0 +1,1 @@
+An IRReconstructor is xxxxxxxxx.Instance Variables	closureCopiedValues:		<Object>	remoteTemps:		<Object>	temps:		<Object>closureCopiedValues	- xxxxxremoteTemps	- xxxxxtemps	- xxxxx

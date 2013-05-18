@@ -1,0 +1,1 @@
+isArg	^self ocBinding isArg

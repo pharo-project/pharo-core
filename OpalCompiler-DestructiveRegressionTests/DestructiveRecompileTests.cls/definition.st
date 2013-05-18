@@ -1,0 +1,1 @@
+TestCase subclass: #DestructiveRecompileTests	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-DestructiveRegressionTests'

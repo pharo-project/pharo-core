@@ -1,0 +1,1 @@
+Object subclass: #IRComparer	instanceVariableNames: 'problemMethods'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-RegressionTests'

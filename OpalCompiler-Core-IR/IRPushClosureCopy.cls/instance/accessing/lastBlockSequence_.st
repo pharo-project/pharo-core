@@ -1,0 +1,1 @@
+lastBlockSequence: aSequence	lastBlockSequence := aSequence

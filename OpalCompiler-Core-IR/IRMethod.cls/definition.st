@@ -1,0 +1,1 @@
+Object subclass: #IRMethod	instanceVariableNames: 'sourceNode startSequence primitiveNode numArgs properties maxOrderNumber tempMap pragmas additionalLiterals forceLongForm optimize compiledMethod'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-IR'

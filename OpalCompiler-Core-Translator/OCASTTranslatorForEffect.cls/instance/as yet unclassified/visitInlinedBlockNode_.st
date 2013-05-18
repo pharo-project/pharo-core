@@ -1,0 +1,1 @@
+visitInlinedBlockNode: anOptimizedBlockNode	super visitInlinedBlockNode: anOptimizedBlockNode.	methodBuilder popTop.

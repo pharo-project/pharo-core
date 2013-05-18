@@ -1,0 +1,1 @@
+initialize	outerScope := self instanceScope outerScope: (UndefinedObject parseScope outerScope: (OCGlobalScope new)).

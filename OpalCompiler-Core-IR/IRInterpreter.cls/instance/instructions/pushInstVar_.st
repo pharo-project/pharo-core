@@ -1,0 +1,1 @@
+pushInstVar: aSmallInteger 

@@ -1,0 +1,1 @@
+testSendSuper	| ir |	ir := IRBuilderTest new testSendSuper.	self shouldnt: [IRInterpreter new interpret: ir ] raise: Error

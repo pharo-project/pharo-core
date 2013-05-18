@@ -1,0 +1,1 @@
+IRInterpreter subclass: #IRTranslator	instanceVariableNames: 'pending gen currentInstr currentScope trailer tempVectorStack'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-IR'

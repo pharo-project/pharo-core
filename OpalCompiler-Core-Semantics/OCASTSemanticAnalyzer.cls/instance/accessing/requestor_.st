@@ -1,0 +1,1 @@
+requestor: anObject	requestor := anObject.	anObject ifNotNil: [scope := scope outerScope: (OCToolScope new requestor: requestor)].

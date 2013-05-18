@@ -1,0 +1,1 @@
+requestor: editor	"set the source code editor"	requestor := editor

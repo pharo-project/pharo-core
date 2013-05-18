@@ -1,0 +1,1 @@
+initialize	primitiveNode := OCPrimitiveNode null.	tempMap := Dictionary new.	pragmas := OrderedCollection new.	additionalLiterals := OCLiteralSet new.	numArgs := 0.	forceLongForm := false.	optimize := false.

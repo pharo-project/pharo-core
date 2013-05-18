@@ -1,0 +1,1 @@
+initialize	sequence := OrderedCollection new.

@@ -1,0 +1,1 @@
+initialize	gen := IRBytecodeGenerator new.	trailer := CompiledMethodTrailer empty.	currentScope := Stack new.	tempVectorStack := Stack new.

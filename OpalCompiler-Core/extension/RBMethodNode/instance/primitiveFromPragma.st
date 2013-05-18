@@ -1,0 +1,1 @@
+primitiveFromPragma	| aPragmaPrimitive |	pragmas isNil ifTrue: [^OCPrimitiveNode null].	aPragmaPrimitive := pragmas detect: [:each | each isPrimitive ] ifNone:[].	aPragmaPrimitive isNil 				ifTrue: [^OCPrimitiveNode null]				ifFalse: [^aPragmaPrimitive primitive ]

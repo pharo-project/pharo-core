@@ -1,0 +1,1 @@
+recompileImage	"Recomiles all class/instance methods in image. Methods that can't be recompiled 	(because of compile error) are added to problemMethods and are not recompiled"		Smalltalk allClassesAndTraits		do: [:classOrTrait | self recompileClass: classOrTrait]		displayingProgress: 'Recompiling all classes and traits'. 

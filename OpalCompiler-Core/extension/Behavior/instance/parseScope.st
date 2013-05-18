@@ -1,0 +1,1 @@
+parseScope	^ OCClassScope for: self

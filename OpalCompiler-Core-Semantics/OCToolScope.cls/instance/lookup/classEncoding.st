@@ -1,0 +1,1 @@
+classEncoding	"subclass responsibility, default is nil"	^ nil

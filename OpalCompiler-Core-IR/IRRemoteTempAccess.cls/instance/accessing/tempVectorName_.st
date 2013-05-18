@@ -1,0 +1,1 @@
+tempVectorName: anObject	tempVectorName := anObject

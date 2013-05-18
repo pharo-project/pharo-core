@@ -1,0 +1,1 @@
+undeclaredVariable: variableNode	^ OCUndeclaredVariableWarning new		variableNode: variableNode;		errorNotification: errorNotification;		requestor: requestor;		signal

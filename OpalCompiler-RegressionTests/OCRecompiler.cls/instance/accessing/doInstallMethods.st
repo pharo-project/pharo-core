@@ -1,0 +1,1 @@
+doInstallMethods	install := true

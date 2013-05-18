@@ -1,0 +1,1 @@
+interactive	requestor ifNil: [^ false].	(requestor isKindOf: SyntaxError) ifTrue: [^ false].	(requestor respondsTo: #interactive) ifTrue: [^ requestor interactive].	^ true

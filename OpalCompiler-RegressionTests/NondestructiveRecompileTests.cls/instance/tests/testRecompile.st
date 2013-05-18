@@ -1,0 +1,1 @@
+testRecompile	"recompiler has the install code commented out..."	| recompiler |	 recompiler := OCRecompiler new recompileImage.	self assert: recompiler problemMethods isEmpty.

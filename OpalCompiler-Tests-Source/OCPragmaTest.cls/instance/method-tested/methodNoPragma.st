@@ -1,0 +1,1 @@
+methodNoPragma	^'methodNoPragma: aNum		^aNum'

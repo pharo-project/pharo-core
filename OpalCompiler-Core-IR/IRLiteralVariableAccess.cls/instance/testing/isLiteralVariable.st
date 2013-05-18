@@ -1,0 +1,1 @@
+isLiteralVariable	^true

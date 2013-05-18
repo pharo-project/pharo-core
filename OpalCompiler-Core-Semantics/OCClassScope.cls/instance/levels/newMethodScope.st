@@ -1,0 +1,1 @@
+newMethodScope	^ self instanceScope newMethodScope

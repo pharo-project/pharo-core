@@ -1,0 +1,1 @@
+compilerSettingsOn: aBuilder	<systemsettings> 	(aBuilder group: #opal)		label: 'Opal Compiler';  		with: [			(aBuilder pickOne: #compilerClass)			      target: SmalltalkImage;				label: 'Default Compiler';				domainValues: {Compiler. OpalCompiler}]

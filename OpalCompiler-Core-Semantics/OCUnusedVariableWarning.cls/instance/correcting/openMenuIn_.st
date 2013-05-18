@@ -1,0 +1,1 @@
+openMenuIn: aBlock	| index |	index := aBlock value: #('yes' 'no')					value: #()					value: (variableNode name) asWideString, ' appears to be unused in this method. OK to remove it?' withCRs   .	self resume: index = 1

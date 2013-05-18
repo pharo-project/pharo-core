@@ -1,0 +1,1 @@
+isInstance	^self ocBinding isInstance

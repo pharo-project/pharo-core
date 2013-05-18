@@ -1,0 +1,1 @@
+isEmpty	^sequence isEmpty

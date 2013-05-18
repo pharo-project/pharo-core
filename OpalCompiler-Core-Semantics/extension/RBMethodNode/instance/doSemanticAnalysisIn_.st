@@ -1,0 +1,1 @@
+doSemanticAnalysisIn: classOrScope	self doSemanticAnalysisIn: classOrScope interactive: false.

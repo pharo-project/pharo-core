@@ -1,0 +1,1 @@
+methodPrimitiveString	^'methodPrimitiveString		<primitive: ''aFunctionName''>'

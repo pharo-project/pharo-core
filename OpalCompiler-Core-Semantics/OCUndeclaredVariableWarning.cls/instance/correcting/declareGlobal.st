@@ -1,0 +1,1 @@
+declareGlobal	Smalltalk at: variableNode name asSymbol put: nil.	^ (variableNode owningScope lookupVar: variableNode name)		ifNil: [self error: 'should be not happen']

@@ -1,0 +1,1 @@
+variableNode: aVariableNode	super variableNode: aVariableNode.	messageText := 'Uninitialized temp: ', aVariableNode name.

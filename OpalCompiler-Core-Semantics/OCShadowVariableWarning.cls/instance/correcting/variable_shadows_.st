@@ -1,0 +1,1 @@
+variable: varNode shadows: semVar	self interactive		ifFalse: [ 			^ Transcript				show: '(';				show: varNode name;				show: ' is shadowed)';				yourself].	self notify: 'Name already defined --> ' at: varNode start

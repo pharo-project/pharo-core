@@ -1,0 +1,1 @@
+I get signalled when a temporary variable is used before it is assigned to.  My default action is to allow it since all temps get initialized to nil.

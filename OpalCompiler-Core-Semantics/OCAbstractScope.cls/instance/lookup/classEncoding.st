@@ -1,0 +1,1 @@
+classEncoding	^ self outerScope classEncoding

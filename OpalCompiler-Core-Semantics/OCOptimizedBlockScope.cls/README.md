@@ -1,0 +1,1 @@
+An OCOptimizedBlockScope is xxxxxxxxx.Instance Variables	isInlinedLoop:		<Object>isInlinedLoop	- xxxxx

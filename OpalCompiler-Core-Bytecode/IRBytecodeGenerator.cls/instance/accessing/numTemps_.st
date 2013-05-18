@@ -1,0 +1,1 @@
+numTemps: anInteger	numberOfTemps := anInteger

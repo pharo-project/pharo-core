@@ -1,0 +1,1 @@
+primitiveNode	| primNode n |	primNode := OCPrimitiveNode new num: (n := self primitive).	(n = 117 or: [n = 120]) ifTrue: [		primNode spec: (self literalAt: 1)].	^ primNode

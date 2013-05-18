@@ -1,0 +1,1 @@
+isSuperSend    ^superOf notNil

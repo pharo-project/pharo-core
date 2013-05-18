@@ -1,0 +1,1 @@
+OCSemanticWarning subclass: #OCUnknownSelectorWarning	instanceVariableNames: 'messageNode'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-Semantics'

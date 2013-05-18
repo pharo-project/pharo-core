@@ -1,0 +1,1 @@
+parseScope	^ OCGlobalScope new

@@ -1,0 +1,1 @@
+instructionForPC: aPC	^self firstInstructionMatching: [:ir | ir bytecodeOffset = aPC ]

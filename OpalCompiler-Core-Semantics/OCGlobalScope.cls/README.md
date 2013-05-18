@@ -1,0 +1,1 @@
+When the class is not known, use me to at least find global vars.

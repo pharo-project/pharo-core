@@ -1,0 +1,1 @@
+Object subclass: #OCPrimitiveNode	instanceVariableNames: 'primitiveNum spec'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-Extras'

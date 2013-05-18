@@ -1,0 +1,1 @@
+visitArrayNode: anArrayNode 	| elementNodes |	elementNodes := anArrayNode children.	elementNodes do: [:node | valueTranslator visitNode: node].	methodBuilder pushConsArray: elementNodes size.

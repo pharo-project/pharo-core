@@ -1,0 +1,1 @@
+problem: reason sel: selector in: class	problemMethods add: {class. selector. reason}

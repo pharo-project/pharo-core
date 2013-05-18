@@ -1,0 +1,1 @@
+I visit each node in the abstract syntax tree while growing and shrinking a SemScope chain. Each method and block node is linked with its corresponding scope object, and each variable def and ref is linked with its corresponding ScopeVar. Exceptions are raised for undefined variable references and so on (see subclasses of SemanticWarning).

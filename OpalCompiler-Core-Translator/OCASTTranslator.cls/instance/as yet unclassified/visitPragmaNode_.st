@@ -1,0 +1,1 @@
+visitPragmaNode: aPragmaNode	methodBuilder addPragma: (Pragma 									keyword: aPragmaNode selector 									arguments: (aPragmaNode arguments collect: [:each | each value]) asArray).										aPragmaNode isPrimitiveError ifTrue: [		methodBuilder storeTemp: aPragmaNode arguments last value].

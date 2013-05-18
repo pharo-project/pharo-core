@@ -1,0 +1,1 @@
+testRecompileAndInstall	| recompiler |		SmalltalkImage compilerClass: OpalCompiler.	Compiler recompileAll.

@@ -1,0 +1,1 @@
+uninitializedVariable: variableNode	variableNode ocBinding markRead.	^ OCUninitializedVariableWarning new		variableNode: variableNode;		requestor: requestor;		errorNotification: errorNotification;		signal

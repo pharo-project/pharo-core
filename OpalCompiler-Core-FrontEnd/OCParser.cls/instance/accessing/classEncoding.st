@@ -1,0 +1,1 @@
+classEncoding	^ scope classEncoding

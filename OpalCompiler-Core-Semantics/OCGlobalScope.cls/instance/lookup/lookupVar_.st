@@ -1,0 +1,1 @@
+lookupVar: name	"subclass responsibility, default is to look up global vars"	(ProtoObject bindingOf: name asSymbol) ifNotNilDo: [:assoc | 		^ OCLiteralVariable new assoc: assoc; scope: self; yourself].	^ nil

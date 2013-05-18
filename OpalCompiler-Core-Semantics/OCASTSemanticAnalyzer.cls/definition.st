@@ -1,0 +1,1 @@
+RBProgramNodeVisitor subclass: #OCASTSemanticAnalyzer	instanceVariableNames: 'scope blockcounter errorNotification requestor'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-Semantics'

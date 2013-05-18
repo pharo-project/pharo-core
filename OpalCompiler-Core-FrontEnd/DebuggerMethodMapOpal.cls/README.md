@@ -1,0 +1,1 @@
+A DebuggerMethodMapOpal is xxxxxxxxx.Instance Variables	methodNode:		<Object>methodNode	- xxxxx

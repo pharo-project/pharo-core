@@ -1,0 +1,1 @@
+decompile	self halt. 	self flag: 'TBD'	"^ IRDecompiler decompile: self"

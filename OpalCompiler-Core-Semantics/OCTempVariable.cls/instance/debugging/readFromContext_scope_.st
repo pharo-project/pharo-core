@@ -1,0 +1,1 @@
+readFromContext: aContext scope: contextScope	|  offset contextForRead |		offset := contextScope outerOffsetTo: scope.	contextForRead := aContext.	offset timesRepeat: [contextForRead := contextForRead outerContext].	^contextForRead tempAt: self indexFromIR.

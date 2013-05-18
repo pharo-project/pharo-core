@@ -1,0 +1,1 @@
+ocBinding	^self propertyAt: #binding ifAbsent: [nil].

@@ -1,0 +1,1 @@
+generate: trailer		| irTranslator |      irTranslator := IRTranslator new		trailer: trailer;		interpret: self;		pragmas: pragmas;		yourself.	compiledMethod := irTranslator compiledMethod.	self sourceNode ifNotNil: [ 		compiledMethod classBinding: self sourceNode classBinding.		compiledMethod selector: self sourceNode selector.].	^compiledMethod.

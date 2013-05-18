@@ -1,0 +1,1 @@
+Error subclass: #OCAbstractNotification	instanceVariableNames: 'inClass code category doitFlag errorMessage location'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-Extras'

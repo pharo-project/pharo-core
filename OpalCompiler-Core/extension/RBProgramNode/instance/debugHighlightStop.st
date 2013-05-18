@@ -1,0 +1,1 @@
+debugHighlightStop	^ self stop 

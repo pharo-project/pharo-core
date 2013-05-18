@@ -1,0 +1,1 @@
+primitiveNode: aPrimitiveNode	literals isEmpty ifFalse: [self error: 'init prim before adding instructions'].	aPrimitiveNode spec ifNotNil: [literals add: aPrimitiveNode spec].	primNum := aPrimitiveNode num.

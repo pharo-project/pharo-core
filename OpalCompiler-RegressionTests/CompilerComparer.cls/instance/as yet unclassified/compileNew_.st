@@ -1,0 +1,1 @@
+compileNew: aMethod 					^(OpalCompiler new 									compile: aMethod sourceCode									in: aMethod methodClass									classified: nil									notifying: nil									ifFail: [])									generate.

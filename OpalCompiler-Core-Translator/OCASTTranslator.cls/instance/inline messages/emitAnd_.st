@@ -1,0 +1,1 @@
+emitAnd: aMessageNode		valueTranslator visitNode: aMessageNode receiver.	methodBuilder jumpAheadTo: #else if: false.	valueTranslator visitInlinedBlockNode: aMessageNode arguments first.	methodBuilder 		jumpAheadTo: #end;		jumpAheadTarget: #else;		pushLiteral: false;		 	jumpAheadTarget: #end.

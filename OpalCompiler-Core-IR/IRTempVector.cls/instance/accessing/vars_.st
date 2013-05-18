@@ -1,0 +1,1 @@
+vars: anObject	vars := anObject.

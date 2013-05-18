@@ -1,0 +1,1 @@
+An IRRemoteArray is xxxxxxxxx.Instance Variables	index:		<Object>	size:		<Object>index	- xxxxxsize	- xxxxx

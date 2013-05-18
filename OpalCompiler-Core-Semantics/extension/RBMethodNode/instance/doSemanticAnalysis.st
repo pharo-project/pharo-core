@@ -1,0 +1,1 @@
+doSemanticAnalysis	self doSemanticAnalysisIn: self methodClass.

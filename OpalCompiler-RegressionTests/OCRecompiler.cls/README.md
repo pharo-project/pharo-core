@@ -1,0 +1,1 @@
+[OCRecompiler new inspect; recompileImage] forkAt: 30[OCRecompiler new inspect; decompileAndRecompileImage] forkAt: 30

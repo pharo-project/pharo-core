@@ -1,0 +1,1 @@
+defaultAction 	^ self resume: (self variable: self variableNode shadows: self shadowedVar)	

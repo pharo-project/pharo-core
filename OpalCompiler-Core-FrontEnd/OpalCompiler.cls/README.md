@@ -1,0 +1,1 @@
+An OpalCompiler is xxxxxxxxx.Instance Variables	category:		<Object>	class:		<Object>	context:		<Object>	parser:		<Object>	requestor:		<Object>	sourceStream:		<Object>category	- xxxxxclass	- xxxxxcontext	- xxxxxparser	- xxxxxrequestor	- xxxxxsourceStream	- xxxxx

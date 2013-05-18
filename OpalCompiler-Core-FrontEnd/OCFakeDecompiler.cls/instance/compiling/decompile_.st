@@ -1,0 +1,1 @@
+decompile: aMethod	"Answer a MethodNode that is the root of the parse tree for the argument, aMethod.  Selector will be 'unknown' and inst vars will be 'instVarN'.  selector and class can be placed in resulting MethodNode later"	^self		decompile: aMethod selector  		in:  aMethod methodClass		method: aMethod

@@ -1,0 +1,1 @@
+removeReturnSelf	self removeReturn.	self allSequences last removeLast.

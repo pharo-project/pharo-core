@@ -1,0 +1,1 @@
+compare: aClass	| rejected |	rejected := aClass methods reject: [:method |		method abstractSymbolic = (self compileNew: method) abstractSymbolic	].		rejected do: [:method | |assoc|		assoc := method  abstractSymbolic -> (self compileNew: method) abstractSymbolic.		problemMethods at: method selector put: assoc .	].

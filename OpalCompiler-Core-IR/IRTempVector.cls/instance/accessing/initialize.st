@@ -1,0 +1,1 @@
+initialize 	vars := Dictionary new

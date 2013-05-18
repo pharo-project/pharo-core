@@ -1,0 +1,1 @@
+An OCASTCheckerTest is xxxxxxxxx.Instance Variables

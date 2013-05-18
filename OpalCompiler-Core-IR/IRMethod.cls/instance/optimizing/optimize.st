@@ -1,0 +1,1 @@
+optimize	self removeEmptyStart.	optimize ifFalse: [^self].	self absorbJumpsToSingleInstrs.	self absorbConstantConditionalJumps.	self absorbJumpsToSingleInstrs

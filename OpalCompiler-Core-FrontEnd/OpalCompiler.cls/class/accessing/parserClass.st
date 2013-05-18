@@ -1,0 +1,1 @@
+parserClass	"Answer a parser class to use for parsing methods compiled by instances of the receiver."	self flag: 'This needs to be changed later'.	^Parser

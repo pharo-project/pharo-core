@@ -1,0 +1,1 @@
+rangeForPC: aPC contextIsActiveContext: contextIsActive	"return the debug highlight for aPC"	| pc |		pc := self pcFor: aPC when: contextIsActive.	^(methodNode ir instructionForPC:  pc) sourceNode debugHighlightRange	

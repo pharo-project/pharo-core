@@ -1,0 +1,1 @@
+decompileBC2IRAndRegenerate	"decompile all the byteocde of all methods of all classes to IR. Then it      gnerates a new method using IRBuilder"	Smalltalk allClassesAndTraits 		do: [:class | class localMethods do: [:method | (method ir) compiledMethodWith: method trailer]] 		displayingProgress: 'recompiling'

@@ -1,0 +1,1 @@
+addLastLiteral: object	lastLiteral ifNil: [^ lastLiteral := object].	((lastLiteral literalEqual: object) or: [		"case of metaclass, they have no unique association"		(lastLiteral isKindOf: Association) and: [lastLiteral key=nil]])			ifFalse: [self error: 'there can only be one last literal'].

@@ -1,0 +1,1 @@
+instanceScope	^ OCInstanceScope new		vars: #();		outerScope: self;		yourself

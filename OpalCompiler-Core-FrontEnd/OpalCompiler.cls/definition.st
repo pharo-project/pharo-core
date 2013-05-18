@@ -1,0 +1,1 @@
+Object subclass: #OpalCompiler	instanceVariableNames: 'sourceStream requestor class category context parser'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-FrontEnd'

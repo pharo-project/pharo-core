@@ -1,0 +1,1 @@
+variableNode: aVariableNode	variableNode := aVariableNode.
