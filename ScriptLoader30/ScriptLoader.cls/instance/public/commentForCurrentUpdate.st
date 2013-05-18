@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '7603 PositionalStream>>#last is a candidate for removal		https://pharo.fogbugz.com/f/cases/7603	10096 remove Network-URI		https://pharo.fogbugz.com/f/cases/10096'
+commentForCurrentUpdate ^ '10247 testRejectThenCollect / testSelectThenCollect failing for Sets	https://pharo.fogbugz.com/f/cases/10247	6648 Red Light when all test are green	https://pharo.fogbugz.com/f/cases/6648	10242 Port to 3.0: Issue 10200 Date instance	https://pharo.fogbugz.com/f/cases/10242	'
