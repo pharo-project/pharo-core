@@ -1,1 +1,1 @@
-loadList		^ self 		ifGroups: [ self getGroupsKeyList ]		ifNot:[ self getPackagesList ]
+loadList		^ self 		ifGroups: [ self getGroupsKeyList ]		ifNot:[ self getPackagesWithoutExtensionsList ]
