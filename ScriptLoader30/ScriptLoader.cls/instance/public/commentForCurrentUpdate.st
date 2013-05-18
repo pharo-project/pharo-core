@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10333 Update Opal in Image to latest version	https://pharo.fogbugz.com/f/cases/10333/'
+commentForCurrentUpdate ^ '6745 Remove EncryptedMultiDisplayScanner and users	https://pharo.fogbugz.com/f/cases/6745	10351 remove broken textual inst var renaming code	https://pharo.fogbugz.com/f/cases/10351	10344 Fix SpecInterpreter	https://pharo.fogbugz.com/f/cases/10344	10355 AlainTreeModel whenSelectedItemsChanged: fixed	https://pharo.fogbugz.com/f/cases/10355'
