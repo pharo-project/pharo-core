@@ -1,1 +1,1 @@
-hasHeader: aBoolean	self renderer hasHeader: aBoolean 
+hasHeader: aBoolean	self renderer hasHeader: aBoolean

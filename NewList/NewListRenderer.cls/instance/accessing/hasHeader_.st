@@ -1,1 +1,1 @@
-hasHeader: anInteger	hasHeader contents: anInteger
+hasHeader: aBoolean	hasHeader contents: aBoolean

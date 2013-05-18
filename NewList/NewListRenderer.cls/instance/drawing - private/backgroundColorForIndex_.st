@@ -1,1 +1,1 @@
-backgroundColorForIndex: anIndex	^ (self isSelectedIndex: anIndex)		ifTrue: [ self selectedBackgroundColor ]		ifFalse: [ Color white ]
+backgroundColorForIndex: anIndex	^ (self isSelectedIndex: anIndex)		ifTrue: [ self selectedBackgroundColor ]		ifFalse: [ Color transparent ]

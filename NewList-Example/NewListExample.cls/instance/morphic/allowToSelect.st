@@ -1,0 +1,1 @@
+allowToSelect	^ false.

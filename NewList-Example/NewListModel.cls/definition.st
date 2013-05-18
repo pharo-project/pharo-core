@@ -1,1 +1,0 @@
-Model subclass: #NewListModel	instanceVariableNames: 'listMorph index toggleTitle rawList pluggable textMorph'	classVariableNames: ''	poolDictionaries: ''	category: 'NewList-Example'

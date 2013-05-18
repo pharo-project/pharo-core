@@ -1,1 +1,0 @@
-NewListModel is a model used as an example for NewList behavior

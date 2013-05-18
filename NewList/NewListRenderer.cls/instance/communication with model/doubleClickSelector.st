@@ -1,1 +1,0 @@
-doubleClickSelector	^ self listSource doubleClickSelector

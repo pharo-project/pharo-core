@@ -1,1 +1,1 @@
-mouseDownIndex: anInteger	mouseDownIndex contents: anInteger
+mouseDownIndex: anInteger	self allowToSelect ifFalse: [ ^ self ].	mouseDownIndex contents: anInteger

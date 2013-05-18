@@ -1,0 +1,1 @@
+decompileBlock: aBlock	^Decompiler new decompileBlock: aBlock

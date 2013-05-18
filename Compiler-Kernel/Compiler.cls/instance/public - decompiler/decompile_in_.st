@@ -1,0 +1,1 @@
+decompile: aSelector in: aClass 	^Decompiler new decompile: aSelector in: aClass 

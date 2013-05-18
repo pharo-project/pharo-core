@@ -1,0 +1,1 @@
+update30080	"self new update30080"	self withUpdateLog: '10458	New Spec examples	https://pharo.fogbugz.com/f/cases/10458	10463 Decompiler related cleanup	https://pharo.fogbugz.com/f/cases/10463	10465 Better syntax hilighting of start of existing identifier	https://pharo.fogbugz.com/f/cases/10465'.	self loadTogether: self script177 merge: false.	self flushCaches.

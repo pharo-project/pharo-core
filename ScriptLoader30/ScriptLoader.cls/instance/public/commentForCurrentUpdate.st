@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10458	New Spec examples	https://pharo.fogbugz.com/f/cases/10458	10463 Decompiler related cleanup	https://pharo.fogbugz.com/f/cases/10463'
+commentForCurrentUpdate ^ '10458	New Spec examples	https://pharo.fogbugz.com/f/cases/10458	10463 Decompiler related cleanup	https://pharo.fogbugz.com/f/cases/10463	10465 Better syntax hilighting of start of existing identifier	https://pharo.fogbugz.com/f/cases/10465'
