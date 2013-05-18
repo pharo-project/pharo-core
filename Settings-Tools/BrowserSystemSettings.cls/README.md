@@ -1,1 +1,0 @@
-A BrowserSystemSettings is xxxxxxxxx.Instance Variables

@@ -1,1 +1,1 @@
-initialize	"Browser initialize"	self flushCaches.	self registerInAppRegistry	
+initialize	"Browser initialize"	self flushCaches.

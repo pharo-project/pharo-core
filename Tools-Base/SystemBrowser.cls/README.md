@@ -1,1 +1,0 @@
-This is the AppRegistry class for class browsing

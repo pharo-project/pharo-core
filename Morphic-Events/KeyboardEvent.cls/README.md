@@ -1,1 +1,1 @@
-A KeyboardEvent is xxxxxxxxx.Instance Variables	charCode:		<Object>	keyValue:		<Object>	scanCode:		<Object>charCode	- xxxxxkeyValue	- xxxxxscanCode	- xxxxx
+I am a keyboard event. I contain the char code of the event pressed, the modifiers pressed, and the keycode of the key pressed.

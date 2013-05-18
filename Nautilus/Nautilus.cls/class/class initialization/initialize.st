@@ -1,1 +1,0 @@
-initialize	SystemBrowser default: self
