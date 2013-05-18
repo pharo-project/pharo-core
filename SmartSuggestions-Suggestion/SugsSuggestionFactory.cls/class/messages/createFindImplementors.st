@@ -1,0 +1,1 @@
+createFindImplementors	<messageCommand>	^ SugsFindImplementors 		icon: UITheme current smallFindIcon		position: 20		keyText: 'm'

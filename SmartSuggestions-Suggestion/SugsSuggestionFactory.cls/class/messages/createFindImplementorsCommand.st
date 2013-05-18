@@ -1,1 +1,0 @@
-createFindImplementorsCommand	<messageCommand>	^ SugsSuggestion		for: [ :context | 			context tools				browseImplementorsOf: context selectedMessageName				name: 'Implementors of ' , context selectedMessageName				autoSelect: nil ]		named: 'Implementors' translated		icon: UITheme current smallFindIcon		position: 20		keyText: 'm'

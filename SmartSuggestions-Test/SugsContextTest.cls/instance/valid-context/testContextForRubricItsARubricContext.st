@@ -1,0 +1,1 @@
+testContextForRubricItsARubricContext	| rubric |		rubric := self rubricInstance.	rubric ifNotNil: [ self assert: (SugsAbstractContext contextFor: rubric) class equals: SugsRubricContext ]

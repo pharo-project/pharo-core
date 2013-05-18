@@ -1,0 +1,1 @@
+rubricInstance	^ (Smalltalk at: #RubSmalltalkEditor ifAbsent: [ ^ nil ]) new

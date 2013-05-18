@@ -1,1 +1,1 @@
-createAccessors	<classVarCommand>	^ SugsSuggestion		for: [ :context | (NautilusRefactoring model: context) accessorsClassVarNamed: context selectedVariableName from: context selectedClass ]		named: 'Create accessors' translated		icon: UITheme current smallLanguageIcon		position: 30		isValidBlock: [:context | context hasClassUnImplementedAccessors ].
+createAccessors	<classVarCommand>	^ SugsCreateClassVarAccessors 		icon: UITheme current smallLanguageIcon		position: 30

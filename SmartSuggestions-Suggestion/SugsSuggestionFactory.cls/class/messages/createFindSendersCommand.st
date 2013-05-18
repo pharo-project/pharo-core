@@ -1,1 +1,0 @@
-createFindSendersCommand	<methodCommand>	<messageCommand>	^ SugsSuggestion		for: [ :context | 			context tools				browseSendersOf: context selectedMessageName				name: 'Senders of ' translated , context selectedMessageName				autoSelect: nil ]		named: 'Senders' translated		icon: UITheme current smallFindIcon		position: 10		keyText: 'n'

@@ -1,1 +1,1 @@
-createRenameClassVariable	<classVarCommand>	^ SugsSuggestion		for: [ :context | (NautilusRefactoring model: context) renameClassVarNamed: context selectedVariableName from: context selectedClass ]		named: 'Rename' translated		icon: UITheme current smallLanguageIcon		position: 10		keyText: 'r'
+createRenameClassVariable	<classVarCommand>	^ SugsRenameClassVar 		icon: UITheme current smallLanguageIcon		position: 10		keyText: 'r'

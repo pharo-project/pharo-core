@@ -1,1 +1,1 @@
-createMoveMethod	<methodCommand>	^ SugsSuggestion		for: [ :context | (NautilusRefactoring model: context) moveMethodFor: context selectedMethod ]		named: 'Delegate selected method' translated		icon: UITheme current smallRedoIcon		position: 210		isValidBlock: [:context | context hasInstanceVariable ].
+createMoveMethod	<methodCommand>	^ SugsDelegateMethod 		icon: UITheme current smallRedoIcon		position: 210

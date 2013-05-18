@@ -1,1 +1,1 @@
-A SugsMenuBuilder is xxxxxxxxx.Instance Variables
+I'm the one who finds the best suggestion for your selection.I also add the options to the displayed menus.

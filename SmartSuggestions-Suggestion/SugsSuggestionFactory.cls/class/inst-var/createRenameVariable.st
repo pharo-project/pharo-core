@@ -1,1 +1,1 @@
-createRenameVariable	<instVarCommand>	^ SugsSuggestion		for: [ :context | (NautilusRefactoring model: context) renameInstVarNamed: context selectedVariableName from: context selectedClass ]		named: 'Rename' translated		icon: UITheme current smallLanguageIcon		position: 10		keyText: 'r'
+createRenameVariable	<instVarCommand>	^ SugsRenameInstanceVar 		icon: UITheme current smallLanguageIcon		position: 10		keyText: 'r'

@@ -1,1 +1,1 @@
-createRemoveMethod	<methodCommand>	^ SugsSuggestion		for: [ :context | (NautilusRefactoring model: context) removeMethodsFor: (OrderedCollection with: context selectedMethod) ]		named: 'Remove method' translated		icon: UITheme current smallCancelIcon		position: 20
+createRemoveMethod	<methodCommand>	^ SugsRemoveMethod 		icon: UITheme current smallCancelIcon		position: 20

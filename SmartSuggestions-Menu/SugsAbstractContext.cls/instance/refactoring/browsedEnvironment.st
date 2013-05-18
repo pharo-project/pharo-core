@@ -1,1 +1,1 @@
-browsedEnvironment	self subclassResponsibility .
+browsedEnvironment	^RBBrowserEnvironment new

@@ -1,0 +1,1 @@
+browsedEnvironment	self subclassResponsibility .

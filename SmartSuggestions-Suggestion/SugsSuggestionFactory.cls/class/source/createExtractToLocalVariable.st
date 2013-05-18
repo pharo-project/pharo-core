@@ -1,1 +1,1 @@
-createExtractToLocalVariable	<sourceCodeCommand>	<messageCommand>	^ SugsSuggestion		for: [ :context | (NautilusRefactoring model: context) extractToTempTextSelection ]		named: 'Extract local' translated		icon: UITheme current smallJumpIcon		position: 20
+createExtractToLocalVariable	<sourceCodeCommand>	<messageCommand>	^ SugsExtractToLocalVariable 		icon: UITheme current smallJumpIcon		position: 20

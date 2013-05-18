@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10488 DateAndTime now to use microseconds	https://pharo.fogbugz.com/f/cases/10488		'
+commentForCurrentUpdate ^ '10497 Suggestions in debugger and message browser	https://pharo.fogbugz.com/f/cases/10497	10464 Always warn when sources or changes are not available	https://pharo.fogbugz.com/f/cases/10464	10499 Eyeinspector and spec debugger create excessive number of processes	https://pharo.fogbugz.com/f/cases/10499'

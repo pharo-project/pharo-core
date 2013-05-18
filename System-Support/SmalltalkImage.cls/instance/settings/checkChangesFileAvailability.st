@@ -1,1 +1,0 @@
-checkChangesFileAvailability	^ self class checkChangesFileAvailability

@@ -1,1 +1,1 @@
-createBrowseReferences	<classCommand>	^ SugsSuggestion		for: [ :context | context tools browseClassRefsOf: context bindedSelectedClass ]		named: 'Browse references' translated		icon: UITheme current smallInspectItIcon		position: 10
+createBrowseReferences	<classCommand>	^ SugsBrowseClassReferences 		icon: UITheme current smallInspectItIcon		position: 10

@@ -1,0 +1,1 @@
+createFindSenders	<methodCommand>	<messageCommand>	^ SugsFindSenders 		icon: UITheme current smallFindIcon		position: 10		keyText: 'n'

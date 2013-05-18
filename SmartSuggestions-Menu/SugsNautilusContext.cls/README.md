@@ -1,1 +1,1 @@
-A SugsNautilusContext is xxxxxxxxx.Instance Variables	model:		<Object>model	- xxxxx
+The implementation who asumes that my model it's a nautilus object.

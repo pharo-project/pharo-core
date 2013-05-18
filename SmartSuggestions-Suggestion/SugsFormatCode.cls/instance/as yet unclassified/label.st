@@ -1,0 +1,1 @@
+label	^'Format method' translated

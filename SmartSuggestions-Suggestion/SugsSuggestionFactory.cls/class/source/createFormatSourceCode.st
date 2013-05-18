@@ -1,1 +1,1 @@
-createFormatSourceCode	<methodCommand>	<sourceCodeCommand>	^ SugsSuggestion		for: [ :context | (NautilusRefactoring model: context) formatSourceCode ]		named: 'Format' translated		icon: UITheme current smallJustifiedIcon		position: 0		keyText: 'u'
+createFormatSourceCode	<methodCommand>	<sourceCodeCommand>	^ SugsFormatCode 		icon: UITheme current smallJustifiedIcon		position: 0		keyText: 'u'

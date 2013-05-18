@@ -1,1 +1,1 @@
-createInline	<messageCommand>	^ SugsSuggestion		for: [ :context | (NautilusRefactoring model: context) inlineMethodBetween: context selectedInterval from: context selectedMethod ]		named: 'Inline method' translated		icon: UITheme current smallRightFlushIcon		position: 100
+createInline	<messageCommand>	^ SugsInline		icon: UITheme current smallRightFlushIcon		position: 100

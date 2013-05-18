@@ -1,1 +1,1 @@
-createRemoveParameter	<methodCommand>	^ SugsSuggestion		for: [ :context | (NautilusRefactoring model: context) removeParameterFor: context selectedMethod ]		named: 'Remove parameter' translated		icon: UITheme current smallCancelIcon		position: 210		isValidBlock: [:context | context hasParameters ].
+createRemoveParameter	<methodCommand>	^ SugsRemoveParameter 		icon: UITheme current smallCancelIcon		position: 210

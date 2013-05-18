@@ -1,1 +1,1 @@
-createUseAccessorToVar	<classVarCommand>	^ SugsSuggestion		for: [ :context | (NautilusRefactoring model: context) abstractClassVarFrom: context selectedClass ]		named: 'Use accessor' translated		icon: UITheme current smallLanguageIcon		position: 10
+createUseAccessorToVar	<classVarCommand>	^ SugsUseAccessorsForClassVar 		icon: UITheme current smallLanguageIcon		position: 10

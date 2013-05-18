@@ -1,1 +1,1 @@
-createPushDown	<methodCommand>	^ SugsSuggestion		for: [ :context | (NautilusRefactoring model: context) pushDownMethodsFor: (OrderedCollection with: context selectedMethod) ]		named: 'Push Down' translated		icon: UITheme current smallUndoIcon		position: 101		isValidBlock: [:context | context hasSubclasses ].
+createPushDown	<methodCommand>	^ SugsPushDownMethod 		icon: UITheme current smallUndoIcon		position: 101

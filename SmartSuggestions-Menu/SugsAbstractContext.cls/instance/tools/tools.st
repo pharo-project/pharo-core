@@ -1,1 +1,1 @@
-tools	self subclassResponsibility .
+tools	^Smalltalk tools systemNavigation

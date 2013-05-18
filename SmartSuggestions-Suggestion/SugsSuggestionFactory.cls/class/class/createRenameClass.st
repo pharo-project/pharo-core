@@ -1,1 +1,1 @@
-createRenameClass	<classCommand>	^ SugsSuggestion		for: [ :context | (NautilusRefactoring model: context) renameClass: context bindedSelectedClass ]		named: 'Rename class' translated		icon: UITheme current smallLanguageIcon		position: 20		keyText: 'r'
+createRenameClass	<classCommand>	^ SugsRenameClass		icon: UITheme current smallLanguageIcon		position: 20		keyText: 'r'

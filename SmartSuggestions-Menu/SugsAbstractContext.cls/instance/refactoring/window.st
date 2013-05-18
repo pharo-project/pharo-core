@@ -1,1 +1,1 @@
-window	self subclassResponsibility .
+window	^ self sourceTextArea ownerThatIsA: SystemWindow

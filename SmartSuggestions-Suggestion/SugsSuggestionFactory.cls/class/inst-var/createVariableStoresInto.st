@@ -1,1 +1,1 @@
-createVariableStoresInto	<instVarCommand>	^ SugsSuggestion		for: [ :context | context tools browseAllStoresInto: context selectedVariableName from: context selectedClass ]		named: 'Stores Into...' translated		icon: UITheme current smallInspectItIcon		position: 60
+createVariableStoresInto	<instVarCommand>	^ SugsStoresIntoInstVar 		icon: UITheme current smallInspectItIcon		position: 60

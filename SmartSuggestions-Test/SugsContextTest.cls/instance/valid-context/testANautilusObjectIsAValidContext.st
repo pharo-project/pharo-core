@@ -1,1 +1,0 @@
-testANautilusObjectIsAValidContext	| nautilus |	nautilus := NautilusUI new.	self assert: (SugsAbstractContext isAValidContext: nautilus).

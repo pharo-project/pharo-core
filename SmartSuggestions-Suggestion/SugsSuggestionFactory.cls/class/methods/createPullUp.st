@@ -1,1 +1,1 @@
-createPullUp	<methodCommand>	^ SugsSuggestion		for: [ :context | (NautilusRefactoring model: context) pullUpMethodsFor: (OrderedCollection with: context selectedMethod) ]		named: 'Pull Up' translated		icon: UITheme current smallRedoIcon		position: 100
+createPullUp	<methodCommand>	^ SugsPullUpMethod 		icon: UITheme current smallRedoIcon		position: 100
