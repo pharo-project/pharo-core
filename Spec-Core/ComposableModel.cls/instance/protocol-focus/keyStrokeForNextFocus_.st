@@ -1,1 +1,1 @@
-keyStrokeForNextFocus: aKMShortcut	keyStrokeForNextFocusHolder contents: aKMShortcut 
+keyStrokeForNextFocus: aKMShortcut	keyStrokesForNextFocusHolder contents: { aKMShortcut }

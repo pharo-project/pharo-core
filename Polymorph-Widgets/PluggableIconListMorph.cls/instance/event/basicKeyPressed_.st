@@ -1,1 +1,1 @@
-basicKeyPressed: aChar 		aChar == Character space		ifTrue: [ self interactWithSelectedItem ]		ifFalse: [ super basicKeyPressed: aChar ]
+basicKeyPressed: aChar 		^ aChar == Character space		ifTrue: [ self interactWithSelectedItem ]		ifFalse: [ super basicKeyPressed: aChar ]
