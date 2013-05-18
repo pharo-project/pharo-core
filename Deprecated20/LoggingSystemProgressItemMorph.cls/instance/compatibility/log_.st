@@ -1,1 +1,0 @@
-log: aString	self traceCr: aString.

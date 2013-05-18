@@ -1,1 +1,1 @@
-activate	self activateHelp.	self printVersion.	self quit.		
+activate	self activateHelp		ifTrue: [  ^ self ].	self printVersion.	self quit.		

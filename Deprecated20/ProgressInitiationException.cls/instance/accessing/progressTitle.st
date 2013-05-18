@@ -1,1 +1,0 @@
-progressTitle	^progressTitle

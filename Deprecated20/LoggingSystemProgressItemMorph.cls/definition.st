@@ -1,1 +1,0 @@
-Object subclass: #LoggingSystemProgressItemMorph	instanceVariableNames: 'start end'	classVariableNames: ''	poolDictionaries: ''	category: 'Deprecated20'

@@ -1,1 +1,1 @@
-activate	self activateHelp.	self runPackages.
+activate	self activateHelp		ifTrue: [  ^ self ].	self runPackages.

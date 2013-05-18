@@ -1,1 +1,0 @@
-start: aNumber	start := aNumber.

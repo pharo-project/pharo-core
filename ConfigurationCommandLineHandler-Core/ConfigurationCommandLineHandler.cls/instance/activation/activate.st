@@ -1,1 +1,1 @@
-activate	self activateHelp ifTrue: [ ^ self ].		(self hasOption: 'install')		ifFalse: [ ^ self list ].			self installConfiguration.		
+activate	self activateHelpWithoutArguments		ifTrue: [ ^ self ].		(self hasOption: 'install')		ifFalse: [ ^ self list ].			self installConfiguration.		
