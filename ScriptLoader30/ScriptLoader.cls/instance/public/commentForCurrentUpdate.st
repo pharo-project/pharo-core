@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10498 KeyStroke events broken on new list model	https://pharo.fogbugz.com/f/cases/10498	10495 EyeInspector has no resizable panels	https://pharo.fogbugz.com/f/cases/10495	6398 Keymapping: Put announcements in own subcategory	https://pharo.fogbugz.com/f/cases/6398/'
+commentForCurrentUpdate ^ '10488 DateAndTime now to use microseconds	https://pharo.fogbugz.com/f/cases/10488		'

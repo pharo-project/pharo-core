@@ -1,0 +1,1 @@
+nowLocal	"Answer the time since midnight in local timezone"        | microSecondsToday |        microSecondsToday := self primUTCMicrosecondsClock \\ 86400000000 .        ^ self seconds: microSecondsToday // 1000000 + (DateAndTime localTimeZone offset asSeconds) nanoSeconds: microSecondsToday \\ 1000000 * 1000
