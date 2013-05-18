@@ -1,0 +1,1 @@
+update30142	"self new update30142"	self withUpdateLog: '10647 Implement Scanner scanTokens in new compilation chain	https://pharo.fogbugz.com/f/cases/10647'.	self loadTogether: self script239 merge: false.	self flushCaches.

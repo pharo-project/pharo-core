@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10153 Dependency Symbol -> Scanner	https://pharo.fogbugz.com/f/cases/10153'
+commentForCurrentUpdate ^ '10647 Implement Scanner scanTokens in new compilation chain	https://pharo.fogbugz.com/f/cases/10647'
