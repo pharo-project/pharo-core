@@ -1,1 +1,0 @@
-newColumn: aBlock left: aNumber		aNumber isInteger		ifTrue: [ 			self 				newColumn: aBlock  				origin: 0@0 				corner: 1@1 				offsetOrigin: aNumber@0 				offsetCorner: 0@0 ]		ifFalse: [ 			self 				newColumn: aBlock  				origin: aNumber@0 				corner: 1@1				offsetOrigin: 0@0 				offsetCorner: 0@0 ]
