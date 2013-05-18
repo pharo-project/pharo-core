@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10576 reducing references/coupling to UITheme and ThemeIcons	https://pharo.fogbugz.com/f/cases/10576'
+commentForCurrentUpdate ^ '10611 restore nautilus buttons bar	https://pharo.fogbugz.com/f/cases/10611'

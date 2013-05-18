@@ -1,1 +1,1 @@
-resetIconCaches	ClassesIconsCache removeAll.	GroupsIconsCache removeAll.	PackagesIconsCache removeAll.
+resetIconCaches	ClassesIconsCache removeAll.	GroupsIconsCache removeAll.	PackagesIconsCache removeAll.	MethodWidget resetMethodIconCache.
