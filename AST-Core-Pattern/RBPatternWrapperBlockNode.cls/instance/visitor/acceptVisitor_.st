@@ -1,1 +1,1 @@
-acceptVisitor: aProgramNodeVisitor 	^aProgramNodeVisitor acceptPatternWrapperBlockNode: self
+acceptVisitor: aProgramNodeVisitor 	^aProgramNodeVisitor visitPatternWrapperBlockNode: self

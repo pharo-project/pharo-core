@@ -1,0 +1,1 @@
+visitArgumentNode: anArgumentNode	^ self visitVariableNode: anArgumentNode

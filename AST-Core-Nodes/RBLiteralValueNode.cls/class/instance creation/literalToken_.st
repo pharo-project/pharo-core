@@ -1,1 +1,1 @@
-literalToken: aLiteralToken 	^(self new)		literalToken: aLiteralToken;		yourself
+literalToken: aLiteralToken	^ self new		literalToken: aLiteralToken;		yourself

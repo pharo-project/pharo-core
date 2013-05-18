@@ -1,1 +1,0 @@
-acceptVisitor: aProgramNodeVisitor	^ aProgramNodeVisitor acceptParseErrorNode: self.

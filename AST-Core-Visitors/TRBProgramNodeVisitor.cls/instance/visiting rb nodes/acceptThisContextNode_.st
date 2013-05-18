@@ -1,1 +1,0 @@
-acceptThisContextNode: aThisContextNode	^ self acceptVariableNode: aThisContextNode

@@ -1,0 +1,1 @@
+visitLiteralNode: aLiteralNode 	aLiteralNode token storeOn: codeStream

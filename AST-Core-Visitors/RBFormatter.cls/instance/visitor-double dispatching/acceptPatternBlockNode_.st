@@ -1,1 +1,0 @@
-acceptPatternBlockNode: aRBPatternBlockNode 	self 		acceptBlockNode: aRBPatternBlockNode		startBlockString: '`{'		endBlockString: '}'

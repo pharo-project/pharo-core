@@ -1,1 +1,1 @@
-A TRBProgramNodeVisitor is xxxxxxxxx.
+A TRBProgramNodeVisitor is a simple  that define visitor methods. 

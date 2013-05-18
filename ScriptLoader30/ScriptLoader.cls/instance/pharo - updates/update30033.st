@@ -1,0 +1,1 @@
+update30033	"self new update30033"	self withUpdateLog: '10177 Deprecate accept* in visitor	https://pharo.fogbugz.com/f/cases/1017'.	self loadTogether: self script132 merge: false.	self flushCaches.

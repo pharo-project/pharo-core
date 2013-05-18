@@ -1,1 +1,0 @@
-acceptLiteralNode: aLiteralNode 	aLiteralNode token storeOn: codeStream

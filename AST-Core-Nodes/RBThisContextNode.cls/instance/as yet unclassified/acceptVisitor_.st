@@ -1,1 +1,0 @@
-acceptVisitor: aProgramNodeVisitor 	^aProgramNodeVisitor acceptThisContextNode: self

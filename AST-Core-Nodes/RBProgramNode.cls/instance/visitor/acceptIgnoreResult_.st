@@ -1,1 +1,0 @@
-acceptIgnoreResult: aProgramVisitor	^ self accept: aProgramVisitor

@@ -1,1 +1,0 @@
-acceptBlockNode: aBlockNode 	self 		acceptBlockNode: aBlockNode		startBlockString: '['		endBlockString: ']'

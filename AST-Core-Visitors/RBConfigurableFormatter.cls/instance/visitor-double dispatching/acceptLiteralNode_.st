@@ -1,1 +1,0 @@
-acceptLiteralNode: aLiteralNode 	self writeString: aLiteralNode token storeString

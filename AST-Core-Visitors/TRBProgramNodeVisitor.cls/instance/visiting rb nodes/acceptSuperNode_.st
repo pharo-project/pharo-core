@@ -1,1 +1,0 @@
-acceptSuperNode: aSuperNode	^ self acceptVariableNode: aSuperNode

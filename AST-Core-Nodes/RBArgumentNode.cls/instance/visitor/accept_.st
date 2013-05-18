@@ -1,1 +1,0 @@
-accept: aProgramNodeVisitor 	^aProgramNodeVisitor visitArgumentNode: self

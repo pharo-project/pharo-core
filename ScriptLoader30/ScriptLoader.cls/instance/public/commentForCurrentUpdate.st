@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10237 MCHttpRepository>>#location: should instantiate specialized repositories if possible	https://pharo.fogbugz.com/f/cases/10237/	7627 FileReference>>deleteAll follows symlinks	https://pharo.fogbugz.com/f/cases/7627/	'
+commentForCurrentUpdate ^ '10177 Deprecate accept* in visitor	https://pharo.fogbugz.com/f/cases/1017'

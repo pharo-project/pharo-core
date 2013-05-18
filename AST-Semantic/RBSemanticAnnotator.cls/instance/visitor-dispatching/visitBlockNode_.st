@@ -1,0 +1,1 @@
+visitBlockNode: aNode	self scope: aNode with: RBBlockScope during: [ super visitBlockNode: aNode ]

@@ -1,1 +1,0 @@
-acceptVariableNode: aVariableNode 	self variableRead: aVariableNode

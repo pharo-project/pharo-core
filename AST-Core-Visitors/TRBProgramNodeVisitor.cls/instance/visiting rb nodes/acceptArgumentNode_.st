@@ -1,1 +1,0 @@
-acceptArgumentNode: anArgumentNode	^ self acceptVariableNode: anArgumentNode

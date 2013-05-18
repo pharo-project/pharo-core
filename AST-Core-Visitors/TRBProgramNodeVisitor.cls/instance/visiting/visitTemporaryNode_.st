@@ -1,0 +1,1 @@
+visitTemporaryNode: aNode 	^ self visitArgumentNode: aNode

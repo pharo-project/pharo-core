@@ -1,0 +1,1 @@
+visitArgumentNodes: aNodeCollection 	^aNodeCollection do: [ :each | self visitArgumentNode: each ]
