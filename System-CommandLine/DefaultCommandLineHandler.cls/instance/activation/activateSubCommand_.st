@@ -1,0 +1,1 @@
+activateSubCommand: aCommandLinehandler	[ aCommandLinehandler activateWith: commandLine ] on: Exit do: [ :exit |		Smalltalk isInteractive 			ifTrue: [ exit isSuccess ifFalse: [ Error signal: exit messageText ]]			ifFalse: [ exit pass ]]

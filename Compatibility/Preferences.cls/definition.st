@@ -1,1 +1,0 @@
-Object subclass: #Preferences	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Compatibility'
