@@ -1,0 +1,1 @@
+computeSpecFrom: aSymbol	| instance |	instance :=  (SpecBinder 			specFor: aSymbol 			ifAbsent: [ ^ RawSpec new							defaultReceiver: aSymbol 							model: model ]) new.	^ instance 		model: model;		yourself
