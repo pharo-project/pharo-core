@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10647 Implement Scanner scanTokens in new compilation chain	https://pharo.fogbugz.com/f/cases/10647'
+commentForCurrentUpdate ^ '10615 RBMethodNode classBinding: move it to compilationContext	https://pharo.fogbugz.com/f/cases/10615/	... and update Opal to the latest version'

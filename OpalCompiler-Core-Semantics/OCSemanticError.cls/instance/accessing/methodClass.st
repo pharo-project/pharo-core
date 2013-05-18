@@ -1,1 +1,1 @@
-methodClass	^variableNode methodNode methodClass
+methodClass	^self methodNode methodClass

@@ -1,1 +1,1 @@
-interactive	^ UIManager default interactiveParserFor: requestor
+interactive	^ UIManager default interactiveParserFor: self requestor

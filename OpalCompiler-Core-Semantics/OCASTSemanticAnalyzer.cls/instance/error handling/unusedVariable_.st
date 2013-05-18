@@ -1,1 +1,1 @@
-unusedVariable: variableNode	^ OCUnusedVariableWarning new		variableNode: variableNode;		errorNotification: errorNotification;		signal
+unusedVariable: variableNode	^ OCUnusedVariableWarning new		variableNode: variableNode;		compilationContext: compilationContext;		signal

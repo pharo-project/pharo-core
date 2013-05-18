@@ -1,1 +1,1 @@
-errorNotification	^ errorNotification
+errorNotification	^ compilationContext interactive

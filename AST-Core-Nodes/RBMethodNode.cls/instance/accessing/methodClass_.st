@@ -1,1 +1,1 @@
-methodClass: aClass		classBinding := aClass binding.
+methodClass: aClass		compilationContext ifNil: [compilationContext := aClass compiler compilationContext].	self compilationContext class: aClass

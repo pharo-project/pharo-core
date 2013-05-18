@@ -1,1 +1,1 @@
-nameAnalysisNoClosureIn: classOrScope for: ast	"Look up vars in classOrScope.  My tree will be annotated with bindings to Scopes and Variables."	OCASTSemanticAnalyzer new		scope: classOrScope parseScope;		visitNode: ast.
+nameAnalysisNoClosureIn: classOrScope for: ast	"Look up vars in classOrScope.  My tree will be annotated with bindings to Scopes and Variables."	OCASTSemanticAnalyzer new		scope: classOrScope parseScope;		compilationContext: CompilationContext default;		visitNode: ast.

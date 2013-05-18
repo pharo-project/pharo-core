@@ -1,1 +1,1 @@
-methodClass	^classBinding value
+methodClass	^self compilationContext getClass 

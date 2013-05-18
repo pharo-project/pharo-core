@@ -1,1 +1,0 @@
-requestor: anObject	requestor := anObject

@@ -1,1 +1,0 @@
-errorNotification: aBoolean	errorNotification := aBoolean.

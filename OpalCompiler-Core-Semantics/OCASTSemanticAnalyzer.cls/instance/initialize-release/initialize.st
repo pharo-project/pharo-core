@@ -1,1 +1,1 @@
-initialize	blockcounter := 0.	scope := OCGlobalScope new.  "in case never initialized"	errorNotification := false.
+initialize	blockcounter := 0.	scope := OCGlobalScope new.  "in case never initialized"

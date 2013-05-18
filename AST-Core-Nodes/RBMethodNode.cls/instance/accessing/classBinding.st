@@ -1,1 +1,0 @@
-classBinding	^classBinding

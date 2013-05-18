@@ -1,1 +1,1 @@
-Error subclass: #OCSemanticError	instanceVariableNames: 'requestor variableNode'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-Semantics'
+Error subclass: #OCSemanticError	instanceVariableNames: 'variableNode compilationContext'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-Semantics'

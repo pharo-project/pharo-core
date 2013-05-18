@@ -1,1 +1,0 @@
-errorNotification: anObject	errorNotification := anObject

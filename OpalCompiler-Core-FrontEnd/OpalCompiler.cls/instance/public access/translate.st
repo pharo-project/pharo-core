@@ -1,1 +1,1 @@
-translate	[ 	ast := self parse.	self doSemanticAnalysis.	ast generate ]		on: SyntaxErrorNotification		do: [ :ex | 			compilationContext requestor				ifNotNil: [ compilationContext requestor notify: ex errorMessage , ' ->' at: ex location in: ex errorCode ].			^ failBlock value ].	^ ast
+translate	self compile.	^ ast

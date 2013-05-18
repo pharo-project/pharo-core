@@ -1,1 +1,1 @@
-An OCSemanticError is xxxxxxxxx.Instance Variables	requestor:		<Object>	variableNode:		<Object>requestor	- xxxxxvariableNode	- xxxxx
+An OCSemanticError is xxxxxxxxx.Instance Variables	compilationContext:		<Object>	variableNode:		<Object>compilationContext	- xxxxxvariableNode	- xxxxx
