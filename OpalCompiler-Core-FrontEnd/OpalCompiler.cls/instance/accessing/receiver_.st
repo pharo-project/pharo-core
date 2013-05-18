@@ -1,1 +1,1 @@
-receiver: anObject	receiver := anObject.	compilationContext receiver: anObject.
+receiver: anObject	receiver := anObject.

@@ -1,1 +1,0 @@
-logged	^logged ifNil: [ false ].

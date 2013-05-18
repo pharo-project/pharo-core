@@ -1,1 +1,1 @@
-requestor: aRequestor	requestor := aRequestor.	compilationContext requestor: aRequestor.	compilationContext interactive: (UIManager default interactiveParserFor: requestor).
+requestor: aRequestor	compilationContext requestor: aRequestor.	compilationContext interactive: (UIManager default interactiveParserFor: compilationContext requestor).

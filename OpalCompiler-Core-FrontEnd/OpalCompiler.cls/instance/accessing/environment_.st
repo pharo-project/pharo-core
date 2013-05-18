@@ -1,0 +1,1 @@
+environment: anSmallTalkImage	compilationContext environment: anSmallTalkImage 

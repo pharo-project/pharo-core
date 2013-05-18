@@ -1,1 +1,1 @@
-compiler	^self compilerClass new
+compiler	^self compilerClass new		environment: self

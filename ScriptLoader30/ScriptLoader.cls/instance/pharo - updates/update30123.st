@@ -1,0 +1,1 @@
+update30123	"self new update30123"	self withUpdateLog: '10604 update Opal in image to latest version	https://pharo.fogbugz.com/f/cases/10604	10595 Set environment for #compiler in Smalltalk>>#compiler	https://pharo.fogbugz.com/f/cases/10595	'.	self loadTogether: self script220 merge: false.	self flushCaches.

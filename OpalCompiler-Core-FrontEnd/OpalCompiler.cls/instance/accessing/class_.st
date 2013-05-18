@@ -1,1 +1,1 @@
-class: aClass	class := aClass.	compilationContext class: aClass.
+class: aClass	compilationContext class: aClass.

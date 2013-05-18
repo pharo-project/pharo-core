@@ -1,1 +1,1 @@
-logged	^ logged
+logged	^logged ifNil: [ false ].

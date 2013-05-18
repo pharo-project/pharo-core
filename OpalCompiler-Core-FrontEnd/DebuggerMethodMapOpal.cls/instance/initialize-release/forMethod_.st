@@ -1,1 +1,1 @@
-forMethod: aCompiledMethod 	methodNode := aCompiledMethod ast.
+forMethod: aCompiledMethod 	methodNode := aCompiledMethod ast

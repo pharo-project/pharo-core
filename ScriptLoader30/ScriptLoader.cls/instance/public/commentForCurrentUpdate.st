@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10603 add compilationContext to AST node MethodNode	https://pharo.fogbugz.com/f/cases/10603	10602 AlainTreeModel still not properly updated while columns cahnged	https://pharo.fogbugz.com/f/cases/10602	10601 SpecLayout commands refactoring	https://pharo.fogbugz.com/f/cases/10601'
+commentForCurrentUpdate ^ '10604 update Opal in image to latest version	https://pharo.fogbugz.com/f/cases/10604	10595 Set environment for #compiler in Smalltalk>>#compiler	https://pharo.fogbugz.com/f/cases/10595	'

@@ -1,1 +1,0 @@
-class1	^ class

@@ -1,1 +1,1 @@
-Object subclass: #CompilationContext	instanceVariableNames: 'ast requestor failBlock noPattern class category context parser receiver logged interactive options'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-FrontEnd'
+Object subclass: #CompilationContext	instanceVariableNames: 'requestor failBlock noPattern class category logged interactive options environment'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-FrontEnd'
