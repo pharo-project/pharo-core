@@ -1,1 +1,0 @@
-currentText	^ self method sourceCodeForPC: self pc

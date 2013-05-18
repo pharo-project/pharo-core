@@ -1,1 +1,1 @@
-classBinding	^(self literalAt: self numLiterals) 
+classBinding	^self literalAt: self numLiterals

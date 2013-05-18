@@ -1,1 +1,1 @@
-methodClass	"answer the class that I am installed in"	^self numLiterals > 0		ifTrue: [ (self literalAt: self numLiterals) value ]		ifFalse: [ nil ]
+methodClass	"answer the class that I am installed in"	^self classBinding value

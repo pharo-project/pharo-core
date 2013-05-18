@@ -1,1 +1,1 @@
-messageText	^ 'triggered by ', method classBinding value printString, '>>', method selector
+messageText	^ 'triggered by ', method methodClass printString, '>>', method selector
