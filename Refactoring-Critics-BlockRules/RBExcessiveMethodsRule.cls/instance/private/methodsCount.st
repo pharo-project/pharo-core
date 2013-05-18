@@ -1,1 +1,1 @@
-methodsCount	^ 40
+methodsCount	^ 60

@@ -1,1 +1,0 @@
-RBParseTreeLintRule subclass: #RBLawOfDemeterRule	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Refactoring-Critics-ParseTreeRules'

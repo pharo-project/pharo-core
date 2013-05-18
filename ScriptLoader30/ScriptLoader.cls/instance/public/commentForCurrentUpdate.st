@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10127 New cleans for CriticsBrowser	https://pharo.fogbugz.com/f/cases/10127	10175 New transformation rule + some corrections	https://pharo.fogbugz.com/f/cases/10175'
+commentForCurrentUpdate ^ '10178 Changing some rule parameter and kill law of Demeter rule	https://pharo.fogbugz.com/f/cases/10178/	10176 Spec layout enhancement 2	https://pharo.fogbugz.com/f/cases/10176	10038 Wrong deprecated message	https://pharo.fogbugz.com/f/cases/10038	10125 Clean up #showAnnotationPane in Monticello Tools	https://pharo.fogbugz.com/f/cases/10125/'

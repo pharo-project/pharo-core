@@ -1,1 +1,1 @@
-longMethodSize	^ 10
+longMethodSize	^ 20
