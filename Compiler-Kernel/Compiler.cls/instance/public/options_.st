@@ -1,0 +1,1 @@
+options: anArray	"ignored by the old compiler"

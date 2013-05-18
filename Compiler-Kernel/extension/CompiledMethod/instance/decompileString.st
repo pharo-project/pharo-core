@@ -1,1 +1,1 @@
-decompileString	^self decompile decompileString
+decompileString	^self decompile formattedCode

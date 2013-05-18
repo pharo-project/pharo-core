@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10584 Remove the concept of abstractPC from CompiledMethod	https://pharo.fogbugz.com/f/cases/10584	10582 ASTInterpreter: use #sourceNode instead of #currentASTNode	https://pharo.fogbugz.com/f/cases/10582'
+commentForCurrentUpdate ^ '10588 Prepare isHeadless for new VMs with double dash -- arguments	https://pharo.fogbugz.com/f/cases/10588	10587 add #options compatibility method to old Compiler class	https://pharo.fogbugz.com/f/cases/10587	10589 clean up #decompileString	https://pharo.fogbugz.com/f/cases/10589'
