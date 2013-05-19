@@ -1,1 +1,0 @@
-newRow: aBlock top: aNumber		self add: aBlock top: aNumber

@@ -1,1 +1,0 @@
-parseAsLiteralToken	^ self class compiler parseLiterals: self
