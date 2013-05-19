@@ -1,1 +1,1 @@
-Object subclass: #SpecLayout	instanceVariableNames: 'type commands'	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Layout'
+Object subclass: #SpecLayout	instanceVariableNames: 'type commands selector'	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Layout'

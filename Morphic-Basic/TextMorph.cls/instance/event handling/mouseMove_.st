@@ -1,1 +1,1 @@
-mouseMove: evt	evt redButtonPressed ifFalse: [^ self enterClickableRegion: evt].	self handleInteraction: [editor mouseMove: evt]
+mouseMove: event	event redButtonPressed ifFalse: [ ^ self ].	self handleInteraction: [ editor mouseMove: event ]

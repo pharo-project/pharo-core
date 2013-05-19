@@ -1,1 +1,1 @@
-basicInspect: anObject 	^ self new 		inspect: anObject;		openWithSpec: #inspectorSpecOptimized;		yourself
+basicInspect: anObject 	^ self new 		inspect: anObject;		openWithSpec: #inspectorSpec;		yourself
