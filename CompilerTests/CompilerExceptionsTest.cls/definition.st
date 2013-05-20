@@ -1,1 +1,1 @@
-TestCase subclass: #CompilerExceptionsTest	instanceVariableNames: 'text'	classVariableNames: ''	poolDictionaries: ''	category: 'CompilerTests'
+TestCase subclass: #CompilerExceptionsTest	instanceVariableNames: 'text currentCompiler'	classVariableNames: ''	poolDictionaries: ''	category: 'CompilerTests'

@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10578 Improve default Configuration Template	https://pharo.fogbugz.com/f/cases/10578	10686 PluggableTextMorph>>#handlesDoubleClick references doubleClickSelector	https://pharo.fogbugz.com/f/cases/10686	7348 Closing a window with unaccepted content does not trigger any notification	https://pharo.fogbugz.com/f/cases/7348'
+commentForCurrentUpdate ^ '10676 Failing Regressiontests: CompilerExceptionsTest	https://pharo.fogbugz.com/f/cases/10676	10688 SpecInterpreterTest.testDynamicBuild is failing	https://pharo.fogbugz.com/f/cases/10688/'

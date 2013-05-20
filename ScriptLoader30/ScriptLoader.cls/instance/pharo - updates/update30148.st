@@ -1,0 +1,1 @@
+update30148	"self new update30148"	self withUpdateLog: '10676 Failing Regressiontests: CompilerExceptionsTest	https://pharo.fogbugz.com/f/cases/10676	10688 SpecInterpreterTest.testDynamicBuild is failing	https://pharo.fogbugz.com/f/cases/10688/'.	self loadTogether: self script245 merge: false.	self flushCaches.

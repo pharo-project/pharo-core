@@ -1,1 +1,1 @@
-TestCase subclass: #ClosureCompilerTest	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'CompilerTests'
+TestCase subclass: #ClosureCompilerTest	instanceVariableNames: 'currentCompiler'	classVariableNames: ''	poolDictionaries: ''	category: 'CompilerTests'

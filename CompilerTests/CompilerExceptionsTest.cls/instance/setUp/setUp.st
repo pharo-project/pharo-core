@@ -1,1 +1,1 @@
-setUp	self removeGeneratedMethods.
+setUp	currentCompiler := SmalltalkImage compilerClass.	SmalltalkImage compilerClass: Compiler.	self removeGeneratedMethods.
