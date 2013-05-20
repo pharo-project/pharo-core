@@ -1,1 +1,1 @@
-AbstractBasicWidget subclass: #WindowModel	instanceVariableNames: 'model initialExtent title isClosedHolder'	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Widgets'
+AbstractBasicWidget subclass: #WindowModel	instanceVariableNames: 'model initialExtent title isClosedHolder askOkToClose'	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Widgets'

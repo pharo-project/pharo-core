@@ -1,0 +1,1 @@
+askOkToClose	^ self model askOkToClose

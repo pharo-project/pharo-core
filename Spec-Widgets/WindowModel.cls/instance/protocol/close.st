@@ -1,1 +1,1 @@
-close	self widget ifNotNil: [ :w| w close ].
+close	self widget ifNotNil: [ :w | w close ].
