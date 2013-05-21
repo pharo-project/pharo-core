@@ -1,1 +1,1 @@
-fullNamePerSe	"Answer the currently-prevailing author full name, such as it is, empty or not"	^  Smalltalk globals at: #UserManager 		ifPresent: [:usersManager | usersManager default currentUser userNameFor: #author]		ifAbsent: [ fullName ]		
+fullNamePerSe	"Answer the currently-prevailing author full name, such as it is, empty or not"	#UserManager asClassIfPresent: [:usersManager | 		^ usersManager default currentUser userNameFor: #author ].	^ fullName

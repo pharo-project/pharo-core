@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '5562 rename Morphic package to Morphic-Base	https://pharo.fogbugz.com/f/cases/5562'
+commentForCurrentUpdate ^ '10478 Add Symbol >> #asClass	https://pharo.fogbugz.com/f/cases/10478	10705 Safer NativeBoost usage	https://pharo.fogbugz.com/f/cases/10705'

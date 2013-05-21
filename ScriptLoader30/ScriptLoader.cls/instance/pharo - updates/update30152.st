@@ -1,0 +1,1 @@
+update30152	"self new update30152"	self withUpdateLog: '10478 Add Symbol >> #asClass	https://pharo.fogbugz.com/f/cases/10478	10705 Safer NativeBoost usage	https://pharo.fogbugz.com/f/cases/10705'.	self loadTogether: self script249 merge: false.	self flushCaches.
