@@ -1,1 +1,0 @@
-SimpleBorder subclass: #TabPanelBorder	instanceVariableNames: 'tabSelector'	classVariableNames: ''	poolDictionaries: ''	category: 'Morphic-Borders'

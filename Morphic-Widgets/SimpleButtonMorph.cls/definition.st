@@ -1,1 +1,0 @@
-RectangleMorph subclass: #SimpleButtonMorph	instanceVariableNames: 'target actionSelector arguments actWhen oldColor mouseDownTime label helpText'	classVariableNames: ''	poolDictionaries: ''	category: 'Morphic-Widgets'

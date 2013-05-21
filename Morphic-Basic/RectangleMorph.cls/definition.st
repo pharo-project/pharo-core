@@ -1,1 +1,0 @@
-BorderedMorph subclass: #RectangleMorph	uses: TAbleToRotate	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Morphic-Basic'

@@ -1,1 +1,0 @@
-Object subclass: #NullTextStyler	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Morphic-Text Support'

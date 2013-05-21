@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10704 split package Text into smaller components	https://pharo.fogbugz.com/f/cases/10704'
+commentForCurrentUpdate ^ '5562 rename Morphic package to Morphic-Base	https://pharo.fogbugz.com/f/cases/5562'
