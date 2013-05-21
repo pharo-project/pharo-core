@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10478 Add Symbol >> #asClass	https://pharo.fogbugz.com/f/cases/10478	10705 Safer NativeBoost usage	https://pharo.fogbugz.com/f/cases/10705'
+commentForCurrentUpdate ^ '10712 safer use of RPackage in ClassDescription>>#addAndClassifySelector:withMethod:inProtocol:notifying:	https://pharo.fogbugz.com/f/cases/10712'
