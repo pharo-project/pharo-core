@@ -1,1 +1,0 @@
-HashAndEqualsTestCase subclass: #TextKernTest	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'TextTests'

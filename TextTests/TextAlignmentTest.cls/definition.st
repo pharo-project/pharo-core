@@ -1,1 +1,0 @@
-HashAndEqualsTestCase subclass: #TextAlignmentTest	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'TextTests'
