@@ -1,1 +1,0 @@
-An OutOfScopeNotification is xxxxxxxxx.Instance Variables

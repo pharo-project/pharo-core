@@ -1,1 +1,1 @@
-TestCase subclass: #CompilerEvaluationTest	instanceVariableNames: 'weightedAverage'	classVariableNames: ''	poolDictionaries: ''	category: 'CompilerTests'
+TestCase subclass: #CompilerEvaluationTest	instanceVariableNames: 'weightedAverage currentCompiler'	classVariableNames: ''	poolDictionaries: ''	category: 'CompilerTests'

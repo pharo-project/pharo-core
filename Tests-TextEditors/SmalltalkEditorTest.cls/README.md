@@ -1,1 +1,0 @@
-A SmalltalkEditorTest is xxxxxxxxx.Instance Variables
