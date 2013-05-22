@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10715 Spec update	https://pharo.fogbugz.com/f/cases/10715	10701 Remove non-boolean setting	https://pharo.fogbugz.com/f/cases/10701	10678 Failing Regressiontest: FLSortedCollectionSerializationTest	https://pharo.fogbugz.com/f/cases/10678	10716	update shrinking methods	https://pharo.fogbugz.com/f/cases/10716'
+commentForCurrentUpdate ^ '10610 Make ASTInterpreter use OC (Opal) bindings instead of RB bindings	https://pharo.fogbugz.com/f/cases/10610	'

@@ -1,1 +1,1 @@
-RBProgramNodeVisitor subclass: #OCASTSemanticAnalyzer	instanceVariableNames: 'scope blockcounter requestor compilationContext'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-Semantics'
+RBProgramNodeVisitor subclass: #OCASTSemanticAnalyzer	instanceVariableNames: 'scope blockcounter compilationContext'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-Semantics'

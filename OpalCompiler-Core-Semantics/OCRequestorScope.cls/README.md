@@ -1,0 +1,1 @@
+An OCRequestorScope is xxxxxxxxx.Instance Variables	requestor:		<Object>requestor	- xxxxx

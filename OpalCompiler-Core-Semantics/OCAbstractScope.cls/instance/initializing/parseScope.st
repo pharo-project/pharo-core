@@ -1,1 +1,0 @@
-parseScope	^ self

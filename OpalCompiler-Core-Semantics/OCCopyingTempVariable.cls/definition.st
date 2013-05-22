@@ -1,1 +1,1 @@
-OCTempVariable subclass: #OCCopyingTempVariable	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-Semantics'
+OCTempVariable subclass: #OCCopyingTempVariable	instanceVariableNames: 'originalVar'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-Semantics'

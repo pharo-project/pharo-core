@@ -1,0 +1,1 @@
+update30155	"self new update30155"	self withUpdateLog: '10610 Make ASTInterpreter use OC (Opal) bindings instead of RB bindings	https://pharo.fogbugz.com/f/cases/10610	'.	self loadTogether: self script252 merge: false.	self flushCaches.

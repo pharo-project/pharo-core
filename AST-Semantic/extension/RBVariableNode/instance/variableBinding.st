@@ -1,1 +1,1 @@
-variableBinding	^ self propertyAt: #variableBinding ifAbsent: [ self semanticAnnotationMissing ]
+variableBinding	^self ocBinding

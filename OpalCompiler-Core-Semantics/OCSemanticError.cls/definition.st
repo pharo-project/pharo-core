@@ -1,1 +1,0 @@
-Error subclass: #OCSemanticError	instanceVariableNames: 'variableNode compilationContext'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-Semantics'

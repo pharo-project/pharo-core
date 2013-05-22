@@ -1,0 +1,1 @@
+scope	| classScope |	(class isNil and: [requestor isNil]) ifTrue: [ ^OCGlobalScope new ].	classScope := OCClassScope for: class.	requestor ifNotNil: [		"the requestor is allowed to manage variables, the workspace is using it to auto-define vars"  		classScope := (OCRequestorScope new requestor: requestor) outerScope: classScope].	^classScope	

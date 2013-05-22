@@ -1,1 +1,0 @@
-messageNode: aMessageNode	messageNode := aMessageNode. 	messageText := 'Unknown selector: ', aMessageNode selector.

@@ -1,1 +1,0 @@
-defaultColor	^ #(Color class transparent)

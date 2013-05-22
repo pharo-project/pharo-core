@@ -1,1 +1,1 @@
-storeIntoSpecialVariable: variableNode	^ OCSemanticError new		variableNode: variableNode;		compilationContext: compilationContext;		messageText: 'Cannot store into ->';		signal
+storeIntoSpecialVariable: variableNode	^ OCSemanticError new		node: variableNode;		compilationContext: compilationContext;		messageText: 'Cannot store into ->';		signal

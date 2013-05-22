@@ -1,1 +1,1 @@
-variable: variableNode shadows: semVar	^ OCShadowVariableWarning new		variableNode: variableNode;		shadowedVar: semVar;		compilationContext: compilationContext;		signal
+variable: variableNode shadows: semVar	^ OCShadowVariableWarning new		node: variableNode;		shadowedVar: semVar;		compilationContext: compilationContext;		signal

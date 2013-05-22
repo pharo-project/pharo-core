@@ -1,1 +1,1 @@
-at: aCompiledMethod	^ self 		at: aCompiledMethod		ifAbsentPut: [ 			aCompiledMethod parseTree annotateInClass: aCompiledMethod methodClass ]
+at: aCompiledMethod	^ self 		at: aCompiledMethod		ifAbsentPut: [ 			aCompiledMethod parseTree doSemanticAnalysisIn: aCompiledMethod methodClass ]

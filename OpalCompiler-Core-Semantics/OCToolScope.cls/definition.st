@@ -1,1 +1,0 @@
-OCAbstractScope subclass: #OCToolScope	instanceVariableNames: 'requestor'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-Semantics'

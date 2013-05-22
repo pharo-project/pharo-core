@@ -1,0 +1,1 @@
+originalVar: anObject	originalVar := anObject

@@ -1,1 +1,0 @@
-Notification subclass: #OCSemanticWarning	instanceVariableNames: 'variableNode compilationContext'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-Semantics'

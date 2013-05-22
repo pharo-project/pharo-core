@@ -1,1 +1,0 @@
-declareInstVar: name	"Declare an instance variable."	self methodClass addInstVarNamed: name.	"We are changing a class after the scope hierarchy was created, so we need to update the	Instance Scope"	self methodNode scope outerScope vars: self methodClass allInstVarNames.	^ (variableNode owningScope lookupVar: variableNode name)		ifNil: [self error: 'should not happen']

@@ -1,1 +1,1 @@
-undeclaredVariable: variableNode	^ OCUndeclaredVariableWarning new		variableNode: variableNode;		compilationContext: compilationContext;		signal
+undeclaredVariable: variableNode	^ OCUndeclaredVariableWarning new		node: variableNode;		compilationContext: compilationContext;		signal

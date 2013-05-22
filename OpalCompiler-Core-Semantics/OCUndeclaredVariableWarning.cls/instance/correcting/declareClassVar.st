@@ -1,1 +1,0 @@
-declareClassVar	self methodClass theNonMetaClass		addClassVarNamed: variableNode name asSymbol.	^ (variableNode owningScope lookupVar: variableNode name)		ifNil: [self error: 'should be found']

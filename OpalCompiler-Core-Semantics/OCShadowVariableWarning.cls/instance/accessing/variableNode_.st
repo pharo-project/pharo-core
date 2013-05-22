@@ -1,1 +1,0 @@
-variableNode: aVariableNode	super variableNode: aVariableNode.	messageText := 'Temp shadows: ', aVariableNode name.

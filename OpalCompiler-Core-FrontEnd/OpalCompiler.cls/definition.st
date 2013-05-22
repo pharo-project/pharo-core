@@ -1,1 +1,1 @@
-Object subclass: #OpalCompiler	instanceVariableNames: 'ast source failBlock context parser receiver compilationContext'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-FrontEnd'
+Object subclass: #OpalCompiler	instanceVariableNames: 'ast source failBlock context receiver compilationContext'	classVariableNames: 'AllowNonBooleanReceivers'	poolDictionaries: ''	category: 'OpalCompiler-Core-FrontEnd'

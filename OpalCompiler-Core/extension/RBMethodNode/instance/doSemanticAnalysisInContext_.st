@@ -1,1 +1,1 @@
-doSemanticAnalysisInContext: aCompilationContext	"Look up vars in classOrScope.  My tree will be annotated with bindings to LexicalScopes and ScopeVars."	self compilationContext: aCompilationContext.	OCASTSemanticAnalyzer new		scope: 	aCompilationContext getClass parseScope;		compilationContext: aCompilationContext;		requestor: aCompilationContext requestor; 		visitNode: self.		OCASTClosureAnalyzer new visitNode: self.		
+doSemanticAnalysisInContext: aCompilationContext	self compilationContext: aCompilationContext.	self doSemanticAnalysis.	

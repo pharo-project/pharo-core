@@ -1,0 +1,1 @@
+defaultAction	| varName |	^super defaultAction ifNil: [		varName := node name asSymbol.		Undeclared at: varName put: nil.		OCLiteralVariable new assoc: (Undeclared associationAt: varName); scope: 'scope'; yourself]

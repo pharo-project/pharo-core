@@ -1,1 +1,1 @@
-doSemanticAnalysis	self doSemanticAnalysisInContext: self compilationContext
+doSemanticAnalysis	OCASTSemanticAnalyzer new		compilationContext: self compilationContext;		visitNode: self.		OCASTClosureAnalyzer new visitNode: self.		
