@@ -1,1 +1,1 @@
-class: aClass	"ignored by the old compiler"
+class: aClass	"This is used for compatibility with Opal"	class := aClass.	self compilationContext class: aClass

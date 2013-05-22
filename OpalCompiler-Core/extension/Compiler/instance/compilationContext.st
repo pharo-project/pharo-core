@@ -1,1 +1,1 @@
-compilationContext	^CompilationContext default
+compilationContext	^ compilationContext ifNil: [ 		compilationContext := CompilationContext default			requestor: requestor;			class: class;			category: category ]			

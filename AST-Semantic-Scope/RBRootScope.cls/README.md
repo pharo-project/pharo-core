@@ -1,1 +1,0 @@
-A RBRootScope is xxxxxxxxx.Instance Variables

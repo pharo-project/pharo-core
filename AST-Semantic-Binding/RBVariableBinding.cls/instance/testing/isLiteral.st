@@ -1,1 +1,0 @@
-isLiteral	^ self isLiteralBinding

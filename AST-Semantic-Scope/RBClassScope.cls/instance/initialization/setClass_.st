@@ -1,1 +1,0 @@
-setClass: aBehavior	class := aBehavior

@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10723 Use Opal for semantic analisys in suggestions	https://pharo.fogbugz.com/f/cases/10723	10707	Instance variable #askOkToClose is duplicated in WindowModel (already defined in ComposableModel)	https://pharo.fogbugz.com/f/cases/10707	'
+commentForCurrentUpdate ^ '10724 Remove AST Semantic Analysis package	https://pharo.fogbugz.com/f/cases/10724	10722 Old compiler should have iv compilationContext	https://pharo.fogbugz.com/f/cases/10722	'

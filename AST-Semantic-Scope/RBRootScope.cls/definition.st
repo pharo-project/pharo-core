@@ -1,1 +1,0 @@
-RBLexicalScope subclass: #RBRootScope	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'AST-Semantic-Scope'

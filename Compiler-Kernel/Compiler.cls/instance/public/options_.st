@@ -1,1 +1,1 @@
-options: anArray	"ignored by the old compiler"
+options: anArray	"This is used for compatibility with Opal"	self compilationContext compilerOptions: anArray

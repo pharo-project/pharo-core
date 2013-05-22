@@ -1,1 +1,0 @@
-named: primitveErrorVariableName	^ self node: (RBVariableNode named: primitveErrorVariableName)	

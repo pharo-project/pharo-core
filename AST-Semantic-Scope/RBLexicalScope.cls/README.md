@@ -1,1 +1,0 @@
-A RBLexicalScope is xxxxxxxxx.Instance Variables	bindings:		<Object>bindings	- xxxxx

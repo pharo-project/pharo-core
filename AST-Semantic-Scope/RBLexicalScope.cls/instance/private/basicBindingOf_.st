@@ -1,1 +1,0 @@
-basicBindingOf: aString	^ nil

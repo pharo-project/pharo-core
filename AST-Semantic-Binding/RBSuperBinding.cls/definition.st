@@ -1,1 +1,0 @@
-RBSpecialBinding subclass: #RBSuperBinding	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'AST-Semantic-Binding'

@@ -1,1 +1,0 @@
-isInstanceBinding	^ false

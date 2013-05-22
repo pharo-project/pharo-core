@@ -1,1 +1,0 @@
-isMethodScope	^ true

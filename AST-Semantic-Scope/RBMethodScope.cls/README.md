@@ -1,1 +1,0 @@
-A RBMethodScope is xxxxxxxxx.Instance Variables	primitiveErrorVariableNamed:		<Object>primitiveErrorVariableNamed	- xxxxx

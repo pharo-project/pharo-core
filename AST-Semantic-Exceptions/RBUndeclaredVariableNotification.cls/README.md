@@ -1,1 +1,0 @@
-A RBUndeclaredVariableNotification is xxxxxxxxx.Instance Variables	node:		<Object>node	- xxxxx

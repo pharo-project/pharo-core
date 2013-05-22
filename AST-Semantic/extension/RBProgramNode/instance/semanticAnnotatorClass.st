@@ -1,1 +1,0 @@
-semanticAnnotatorClass	^ RBSemanticAnnotator

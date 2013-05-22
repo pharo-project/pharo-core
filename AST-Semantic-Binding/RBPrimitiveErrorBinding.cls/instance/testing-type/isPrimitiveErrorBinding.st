@@ -1,1 +1,0 @@
-isPrimitiveErrorBinding	^ true

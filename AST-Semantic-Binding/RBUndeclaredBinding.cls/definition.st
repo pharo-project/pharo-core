@@ -1,1 +1,0 @@
-RBLocalBinding subclass: #RBUndeclaredBinding	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'AST-Semantic-Binding'

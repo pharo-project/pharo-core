@@ -1,1 +1,0 @@
-hasVariableBinding	^ self hasProperty: #variableBinding

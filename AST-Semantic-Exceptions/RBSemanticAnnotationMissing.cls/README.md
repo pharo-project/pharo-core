@@ -1,1 +1,0 @@
-A RBSemanticAnnotationMissing is xxxxxxxxx.Instance Variables

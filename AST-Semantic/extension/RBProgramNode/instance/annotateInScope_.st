@@ -1,1 +1,0 @@
-annotateInScope: aScope	self semanticAnnotatorClass new		start: self scope: aScope

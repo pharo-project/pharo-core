@@ -1,1 +1,0 @@
-RBTemporaryBinding subclass: #RBPrimitiveErrorBinding	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'AST-Semantic-Binding'

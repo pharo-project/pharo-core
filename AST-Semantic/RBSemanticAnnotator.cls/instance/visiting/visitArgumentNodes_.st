@@ -1,1 +1,0 @@
-visitArgumentNodes: aNodeCollection	aNodeCollection do: [ :e | scope add: (RBArgumentBinding node: e) ]

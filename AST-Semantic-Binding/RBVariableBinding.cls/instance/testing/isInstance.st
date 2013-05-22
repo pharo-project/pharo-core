@@ -1,1 +1,0 @@
-isInstance	^ self isInstanceBinding

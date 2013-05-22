@@ -1,1 +1,0 @@
-Notification subclass: #RBUndeclaredVariableNotification	instanceVariableNames: 'node'	classVariableNames: ''	poolDictionaries: ''	category: 'AST-Semantic-Exceptions'

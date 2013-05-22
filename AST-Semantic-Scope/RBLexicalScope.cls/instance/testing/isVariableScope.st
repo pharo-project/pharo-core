@@ -1,1 +1,0 @@
-isVariableScope	^ false

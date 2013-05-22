@@ -1,1 +1,0 @@
-name	^ binding key asString

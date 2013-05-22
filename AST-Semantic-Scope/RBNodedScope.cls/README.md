@@ -1,1 +1,0 @@
-A RBNodedScope is xxxxxxxxx.Instance Variables	node:		<Object>node	- xxxxx

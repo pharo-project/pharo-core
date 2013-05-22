@@ -1,1 +1,0 @@
-Object subclass: #RBVariableBinding	instanceVariableNames: 'scope accessors readers writers'	classVariableNames: ''	poolDictionaries: ''	category: 'AST-Semantic-Binding'

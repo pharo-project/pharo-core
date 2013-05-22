@@ -1,1 +1,0 @@
-accept: aVisitor assign: aValue	^ aVisitor write: aValue at: index named: name

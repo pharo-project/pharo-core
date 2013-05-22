@@ -1,1 +1,0 @@
-A RBLiteralBinding is xxxxxxxxx.Instance Variables	binding:		<Object>binding	- xxxxx

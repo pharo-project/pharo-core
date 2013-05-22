@@ -1,1 +1,0 @@
-accept: anInterpeter assign: value	^ anInterpeter write: value temporaryAt: -1 named: node name

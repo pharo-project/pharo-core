@@ -1,1 +1,0 @@
-isTemporaryBinding	^ true

@@ -1,1 +1,0 @@
-visitMethodNode: aNode 	self scope: aNode with: RBMethodScope during: [ super visitMethodNode: aNode  ]

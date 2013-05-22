@@ -1,1 +1,0 @@
-initializeBinding: aBinding	binding := aBinding

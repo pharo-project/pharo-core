@@ -1,1 +1,0 @@
-isTemp	^ self isTemporaryBinding

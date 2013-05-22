@@ -1,1 +1,0 @@
-readWith: anInterpreter	^ anInterpreter readTemporaryAt: -1 named: node name

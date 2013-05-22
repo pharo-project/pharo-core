@@ -1,1 +1,0 @@
-A RBSuperBinding is xxxxxxxxx.Instance Variables

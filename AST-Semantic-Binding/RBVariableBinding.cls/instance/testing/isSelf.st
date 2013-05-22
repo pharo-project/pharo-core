@@ -1,1 +1,0 @@
-isSelf	^ self isSelfBinding

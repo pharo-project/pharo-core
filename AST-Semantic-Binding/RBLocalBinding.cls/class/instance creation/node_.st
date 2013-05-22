@@ -1,1 +1,0 @@
-node: aNode	^ self new setNode: aNode

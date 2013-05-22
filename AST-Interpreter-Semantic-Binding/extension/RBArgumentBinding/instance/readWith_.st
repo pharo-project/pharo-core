@@ -1,1 +1,0 @@
-readWith: anInterpreter	| index | 	index := self scope node argumentNames indexOf: node name.	^ anInterpreter readArgumentAt: index node: node

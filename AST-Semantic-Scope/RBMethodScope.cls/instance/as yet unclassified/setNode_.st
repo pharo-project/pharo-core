@@ -1,1 +1,0 @@
-setNode: aMethodNode	super setNode: aMethodNode.	self addPrimitiveErrorBinding.

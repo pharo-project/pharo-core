@@ -1,1 +1,0 @@
-setScope: aLexicalScope	scope := aLexicalScope

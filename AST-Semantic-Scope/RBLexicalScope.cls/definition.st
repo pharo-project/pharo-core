@@ -1,1 +1,0 @@
-Object subclass: #RBLexicalScope	instanceVariableNames: 'bindings'	classVariableNames: ''	poolDictionaries: ''	category: 'AST-Semantic-Scope'

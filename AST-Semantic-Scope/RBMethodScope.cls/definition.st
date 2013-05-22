@@ -1,1 +1,0 @@
-RBNodedScope subclass: #RBMethodScope	instanceVariableNames: 'primitiveErrorVariableNamed'	classVariableNames: ''	poolDictionaries: ''	category: 'AST-Semantic-Scope'
