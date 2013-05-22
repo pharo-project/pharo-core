@@ -1,1 +1,1 @@
-visitAssignmentNode: anAssignmentNode 	valueTranslator visitNode: anAssignmentNode value.	anAssignmentNode variable ocBinding emitStore: methodBuilder
+visitAssignmentNode: anAssignmentNode 	valueTranslator visitNode: anAssignmentNode value.	anAssignmentNode variable binding emitStore: methodBuilder

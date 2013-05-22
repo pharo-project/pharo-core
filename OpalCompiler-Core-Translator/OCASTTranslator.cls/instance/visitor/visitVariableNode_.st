@@ -1,1 +1,1 @@
-visitVariableNode: aVariableNode	aVariableNode ocBinding emitValue: methodBuilder		
+visitVariableNode: aVariableNode	aVariableNode binding emitValue: methodBuilder		

@@ -1,1 +1,1 @@
-isTemp	^self ocBinding isTemp
+isTemp	^self binding isTemp

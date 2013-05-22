@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10724 Remove AST Semantic Analysis package	https://pharo.fogbugz.com/f/cases/10724	10722 Old compiler should have iv compilationContext	https://pharo.fogbugz.com/f/cases/10722	'
+commentForCurrentUpdate ^ '10716	update shrinking methods	https://pharo.fogbugz.com/f/cases/10716	7382 TextModel should allow users to cancel/validate an accept action	https://pharo.fogbugz.com/f/cases/7382	10725 unify #binding, #variableBinding and #ocBinding	https://pharo.fogbugz.com/f/cases/10725'

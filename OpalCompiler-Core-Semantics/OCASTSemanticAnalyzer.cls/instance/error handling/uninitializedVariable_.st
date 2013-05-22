@@ -1,1 +1,1 @@
-uninitializedVariable: variableNode	variableNode ocBinding markRead.	^ OCUninitializedVariableWarning new		node: variableNode;		compilationContext: compilationContext;		signal
+uninitializedVariable: variableNode	variableNode binding markRead.	^ OCUninitializedVariableWarning new		node: variableNode;		compilationContext: compilationContext;		signal

@@ -1,1 +1,1 @@
-isArg	^self ocBinding isArg
+isArg	^self binding isArg

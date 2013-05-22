@@ -1,1 +1,1 @@
-acceptVariableNode: aVariableNode	"there is still this hack with variable binding to make it work with Opal that I'd like to remove. 	cf deprecated RBVariableNode>>binding							^variableBinding"	^ aVariableNode variableBinding readWith: self 
+acceptVariableNode: aVariableNode	^ aVariableNode binding readWith: self 
