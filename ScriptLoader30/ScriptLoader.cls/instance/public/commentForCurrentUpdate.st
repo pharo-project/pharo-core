@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10712 safer use of RPackage in ClassDescription>>#addAndClassifySelector:withMethod:inProtocol:notifying:	https://pharo.fogbugz.com/f/cases/10712'
+commentForCurrentUpdate ^ '10715 Spec update	https://pharo.fogbugz.com/f/cases/10715	10701 Remove non-boolean setting	https://pharo.fogbugz.com/f/cases/10701	10678 Failing Regressiontest: FLSortedCollectionSerializationTest	https://pharo.fogbugz.com/f/cases/10678	10716	update shrinking methods	https://pharo.fogbugz.com/f/cases/10716'

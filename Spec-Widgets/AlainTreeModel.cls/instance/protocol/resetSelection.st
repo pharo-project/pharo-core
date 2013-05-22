@@ -1,0 +1,1 @@
+resetSelection	self selectedItems: {}
