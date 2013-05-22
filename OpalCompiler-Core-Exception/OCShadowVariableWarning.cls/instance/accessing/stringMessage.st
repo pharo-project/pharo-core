@@ -1,0 +1,1 @@
+stringMessage	^ 'Name already defined --> '

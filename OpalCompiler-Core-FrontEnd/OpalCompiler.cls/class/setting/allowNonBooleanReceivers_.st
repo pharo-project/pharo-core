@@ -1,1 +1,0 @@
-allowNonBooleanReceivers: aBoolean	AllowNonBooleanReceivers := aBoolean 

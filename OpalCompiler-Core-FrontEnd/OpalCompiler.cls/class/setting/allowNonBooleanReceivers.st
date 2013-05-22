@@ -1,1 +1,0 @@
-allowNonBooleanReceivers	^AllowNonBooleanReceivers ifNil: [  AllowNonBooleanReceivers := false]

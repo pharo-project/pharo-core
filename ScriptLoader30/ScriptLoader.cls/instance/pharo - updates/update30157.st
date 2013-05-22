@@ -1,0 +1,1 @@
+update30157	"self new update30157"	self withUpdateLog: '10721 Cleanup Setting boolean sends	https://pharo.fogbugz.com/f/cases/10721	10715 Spec update	https://pharo.fogbugz.com/f/cases/10715		'.	self loadTogether: self script254 merge: false.	self flushCaches.

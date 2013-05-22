@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10701 Remove non-boolean setting	https://pharo.fogbugz.com/f/cases/10701	10648	There are 11 direct references to Compiler	https://pharo.fogbugz.com/f/cases/10648'
+commentForCurrentUpdate ^ '10721 Cleanup Setting boolean sends	https://pharo.fogbugz.com/f/cases/10721	10715 Spec update	https://pharo.fogbugz.com/f/cases/10715		'
