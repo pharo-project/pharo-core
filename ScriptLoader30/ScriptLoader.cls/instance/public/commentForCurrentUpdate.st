@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10610 Make ASTInterpreter use OC (Opal) bindings instead of RB bindings	https://pharo.fogbugz.com/f/cases/10610	'
+commentForCurrentUpdate ^ '10701 Remove non-boolean setting	https://pharo.fogbugz.com/f/cases/10701	10648	There are 11 direct references to Compiler	https://pharo.fogbugz.com/f/cases/10648'

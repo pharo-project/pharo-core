@@ -1,1 +1,1 @@
-evaluate: expression	^ Compiler new		evaluate: expression		in: context		to: context receiver
+evaluate: expression	^ Smalltalk compiler		evaluate: expression		in: context		to: context receiver

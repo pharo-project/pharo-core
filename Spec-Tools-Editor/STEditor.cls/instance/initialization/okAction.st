@@ -1,1 +1,1 @@
-okAction	text accept.	object contents: (Compiler evaluate: text getText).
+okAction	text accept.	object contents: (Smalltalk evaluate: text getText).

@@ -1,0 +1,1 @@
+update30156	"self new update30156"	self withUpdateLog: '10701 Remove non-boolean setting	https://pharo.fogbugz.com/f/cases/10701	10648	There are 11 direct references to Compiler	https://pharo.fogbugz.com/f/cases/10648'.	self loadTogether: self script253 merge: false.	ScriptLoader new unloadPackageNamed: 'AST-Tests-Semantic'..	self flushCaches.

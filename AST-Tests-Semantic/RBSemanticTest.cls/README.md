@@ -1,1 +1,0 @@
-A RBSemanticTest is xxxxxxxxx.Instance Variables	instVar:		<Object>instVar	- xxxxx
