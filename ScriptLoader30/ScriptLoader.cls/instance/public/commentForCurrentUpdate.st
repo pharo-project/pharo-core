@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10721 Cleanup Setting boolean sends	https://pharo.fogbugz.com/f/cases/10721	10715 Spec update	https://pharo.fogbugz.com/f/cases/10715		'
+commentForCurrentUpdate ^ '10723 Use Opal for semantic analisys in suggestions	https://pharo.fogbugz.com/f/cases/10723	10707	Instance variable #askOkToClose is duplicated in WindowModel (already defined in ComposableModel)	https://pharo.fogbugz.com/f/cases/10707	'

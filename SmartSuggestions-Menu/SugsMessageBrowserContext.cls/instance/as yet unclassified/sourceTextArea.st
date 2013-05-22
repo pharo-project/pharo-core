@@ -1,1 +1,1 @@
-sourceTextArea	^ (model dependents at: 1).
+sourceTextArea	^ model widget.
