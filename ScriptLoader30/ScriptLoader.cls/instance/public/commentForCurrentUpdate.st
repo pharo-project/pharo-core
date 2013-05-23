@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10716	update shrinking methods	https://pharo.fogbugz.com/f/cases/10716	7382 TextModel should allow users to cancel/validate an accept action	https://pharo.fogbugz.com/f/cases/7382	10725 unify #binding, #variableBinding and #ocBinding	https://pharo.fogbugz.com/f/cases/10725'
+commentForCurrentUpdate ^ '10720 Morphic-Base classes have extension methods of Morphic	https://pharo.fogbugz.com/f/cases/10720'
