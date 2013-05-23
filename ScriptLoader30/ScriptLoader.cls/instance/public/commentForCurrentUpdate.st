@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10720 Morphic-Base classes have extension methods of Morphic	https://pharo.fogbugz.com/f/cases/10720'
+commentForCurrentUpdate ^ '10710 DefaultCommandLineHandler class>>#startUp: cleanup	https://pharo.fogbugz.com/f/cases/10710'
