@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10710 DefaultCommandLineHandler class>>#startUp: cleanup	https://pharo.fogbugz.com/f/cases/10710 		first part, I needed to split the update :('
+commentForCurrentUpdate ^ '10710 DefaultCommandLineHandler class>>#startUp: cleanup	https://pharo.fogbugz.com/f/cases/10710 		second part'

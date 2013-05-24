@@ -1,1 +1,0 @@
-BasicCommandLineHandler subclass: #DefaultCommandLineHandler	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'System-CommandLine'
