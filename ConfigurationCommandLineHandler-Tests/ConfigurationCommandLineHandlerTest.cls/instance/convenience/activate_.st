@@ -1,1 +1,1 @@
-activate: arguments	^ DefaultCommandLineHandler activateWith: (self argumentsWith: arguments)
+activate: arguments	^ PharoCommandLineHandler activateWith: (self argumentsWith: arguments)

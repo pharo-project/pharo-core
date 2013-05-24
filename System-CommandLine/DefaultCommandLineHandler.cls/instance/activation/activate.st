@@ -1,1 +1,0 @@
-activate	self arguments ifEmpty: [ ^ self ].		[ self 		handleArgument: self arguments first;		exitSuccess 	] on: Exit do: [ :exit | 		^ self handleExit: exit ]

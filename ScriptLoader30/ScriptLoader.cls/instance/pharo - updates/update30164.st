@@ -1,0 +1,1 @@
+update30164	"self new update30164"	self withUpdateLog: '10710 DefaultCommandLineHandler class>>#startUp: cleanup	https://pharo.fogbugz.com/f/cases/10710 		first part, I needed to split the update :('.	self loadTogether: self script261 merge: false.	Smalltalk removeFromStartUpList: DefaultCommandLineHandler.	self flushCaches.

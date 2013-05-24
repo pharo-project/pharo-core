@@ -1,1 +1,0 @@
-startUp: resuming	"only handle when lauching a new image"	resuming ifFalse: [ ^ self ].		#ToolRegistry asClassIfPresent: [		"This is a hack for PharoKernel"		Smalltalk tools userManager canRunStartupScript ifFalse: [ ^ self ] ].		Smalltalk addDeferredStartupAction: [ self new activate ]
