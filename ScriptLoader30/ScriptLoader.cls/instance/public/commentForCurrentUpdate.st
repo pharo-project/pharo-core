@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10727 Cleaning trigger: use for deprecation of event	https://pharo.fogbugz.com/f/cases/10727	6489 Spec-ify DropListModel / TextModel	https://pharo.fogbugz.com/f/cases/close/6489'
+commentForCurrentUpdate ^ '10737 Nabujito fails because of Opal	https://pharo.fogbugz.com/f/cases/	10305 FileDialogWindowTest should clean up file after test	https://pharo.fogbugz.com/f/cases/10305	5923 FileBrowser/FileList Add new file menu item in directory list does not work	https://pharo.fogbugz.com/f/cases/5923'

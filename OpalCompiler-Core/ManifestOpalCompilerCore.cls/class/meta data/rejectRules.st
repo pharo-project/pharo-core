@@ -1,1 +1,1 @@
-rejectRules^ #('MissingYourselfRule' 'ClassInstVarNotInitializedRule' 'ExcessiveVariablesRule' 'SearchingLiteralRule' 'AbstractClassRule' 'UsesAddRule' 'LongMethodsRule' 'ExcessiveMethodsRule' 'ExcessiveArgumentsRule' 'IfTrueReturnsRule')
+rejectRules^ #('SearchingLiteralRule' 'ExcessiveArgumentsRule' 'LongMethodsRule' 'ClassInstVarNotInitializedRule' 'UsesAddRule' 'ExcessiveMethodsRule' 'MissingYourselfRule' 'ExcessiveVariablesRule' 'TempsReadBeforeWrittenRule' 'AbstractClassRule' 'IfTrueReturnsRule')

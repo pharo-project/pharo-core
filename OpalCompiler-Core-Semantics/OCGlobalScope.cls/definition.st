@@ -1,1 +1,0 @@
-OCAbstractScope subclass: #OCGlobalScope	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-Semantics'

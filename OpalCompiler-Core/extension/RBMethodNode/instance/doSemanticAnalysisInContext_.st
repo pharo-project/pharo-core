@@ -1,1 +1,1 @@
-doSemanticAnalysisInContext: aCompilationContext	self compilationContext: aCompilationContext.	self doSemanticAnalysis.	
+doSemanticAnalysisInContext: aCompilationContext	self compilationContext: aCompilationContext.	self doSemanticAnalysis.

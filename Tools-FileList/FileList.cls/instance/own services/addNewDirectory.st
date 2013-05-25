@@ -1,1 +1,1 @@
-addNewDirectory	self 		addNew: 'Directory'		byEvaluating: [:newName | (reference /  newName ) ensureDirectory ]
+addNewDirectory	self 		addNew: 'Directory'		byEvaluating: [:newName | 			(self directory / newName ) ensureDirectory ]

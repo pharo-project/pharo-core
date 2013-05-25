@@ -1,1 +1,1 @@
-stringMessage	^ 'Name already defined --> '
+stringMessage	^ 'Name already defined'

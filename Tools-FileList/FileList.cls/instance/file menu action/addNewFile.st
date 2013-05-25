@@ -1,1 +1,1 @@
-addNewFile	self 		addNew: 'File'		byEvaluating: [:newName | (reference / newName) ensureFile ]
+addNewFile	self 		addNew: 'File'		byEvaluating: [:newName | (self directory / newName) ensureFile ]
