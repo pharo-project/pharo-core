@@ -1,1 +1,1 @@
-delete: path	self 		nodeAt: path parent		ifPresent: [ :dict | dict remove: path basename ] 		ifAbsent: [  ]
+delete: path	self 		nodeAt: path parent		ifPresent: [ :dict | dict fileEntryRemove: path basename ] 		ifAbsent: [  ]

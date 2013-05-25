@@ -1,1 +1,1 @@
-delete	^ self resolve delete
+delete	"Delete the receiver, does not raise an error if it is not present."	^ self resolve delete

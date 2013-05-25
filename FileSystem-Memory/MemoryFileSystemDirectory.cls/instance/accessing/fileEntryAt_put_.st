@@ -1,1 +1,1 @@
-fileEntryAt: aFIleName put: anEntry	^ entries 		at: aFIleName 		ifAbsentPut: [			self modified.			anEntry ]
+fileEntryAt: aFileName put: anEntry	^ entries 		at: aFileName 		ifAbsentPut: [			self modified.			anEntry ]

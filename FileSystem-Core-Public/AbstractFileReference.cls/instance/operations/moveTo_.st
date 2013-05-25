@@ -1,1 +1,1 @@
-moveTo: aReference	^ self resolve moveTo: aReference
+moveTo: aReference	"Move the receiver in the location passed as argument.		(FileSystem disk workingDirectory / 'paf' ) ensureFile.	(FileSystem disk workingDirectory / 'fooFolder') ensureDirectory. 	(FileSystem disk workingDirectory / 'paf' ) moveTo: (FileSystem disk workingDirectory / 'fooFolder' / 'paf')	"	^ self resolve moveTo: aReference

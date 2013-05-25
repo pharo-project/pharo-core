@@ -1,1 +1,1 @@
-A FileSystemTest is xxxxxxxxx.Instance Variables	filesystem:		<Object>	toDelete:		<Object>filesystem	- xxxxxtoDelete	- xxxxx
+I am an abstract file system test. I directly test - the public interface of a FileSystem using these methods directly- the FileSystem in general through the operation methods of the FileReference

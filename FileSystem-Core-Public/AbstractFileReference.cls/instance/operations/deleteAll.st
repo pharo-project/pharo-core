@@ -1,1 +1,1 @@
-deleteAll	"delete this directory and all children of it"	DeleteVisitor delete: self resolve
+deleteAll	"delete this directory and all children of it, raise an error if the file does not exist."	DeleteVisitor delete: self resolve

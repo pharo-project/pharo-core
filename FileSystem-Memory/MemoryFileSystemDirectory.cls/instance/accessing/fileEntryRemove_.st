@@ -1,0 +1,1 @@
+fileEntryRemove: aFileName	modificationTime := DateAndTime now.	^ entries removeKey: aFileName

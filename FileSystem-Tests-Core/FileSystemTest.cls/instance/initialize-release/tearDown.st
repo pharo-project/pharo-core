@@ -1,1 +1,1 @@
-tearDown	toDelete do: [:path | filesystem delete: path]
+tearDown	toDelete		select: [ :path | filesystem exists: path ]		thenDo: [ :path | filesystem delete: path ]

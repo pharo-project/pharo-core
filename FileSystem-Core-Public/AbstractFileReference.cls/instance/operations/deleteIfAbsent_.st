@@ -1,1 +1,1 @@
-deleteIfAbsent: aBlock	self resolve deleteIfAbsent: aBlock
+deleteIfAbsent: aBlock	"Delete the receiver, when it does not exist evaluate the block"	self resolve deleteIfAbsent: aBlock

@@ -1,1 +1,1 @@
-buildSmartActionsShortcuts: aBuilder	<keymap>	(aBuilder shortcut: #smartSuggestions)		category: #SmalltalkEditor		default: $t command mac| $t ctrl unix | $t ctrl | $1 ctrl | $1 command mac		do: [ :morph | morph smartSuggestions ]		description: 'Browse suggestions based on selections'.
+buildSmartActionsShortcuts: aBuilder	<keymap>	(aBuilder shortcut: #smartSuggestions)		category: #SmalltalkEditor		default: $t command mac| $t ctrl unix | $t ctrl | $1 ctrl		do: [ :morph | morph smartSuggestions ]		description: 'Browse suggestions based on selections'.
