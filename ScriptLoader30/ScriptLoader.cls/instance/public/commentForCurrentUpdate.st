@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10674 Failing Regressiontest: MethodPragmaTest>>#testCompileInvalid	https://pharo.fogbugz.com/f/cases/10674	10736 Fix shortcut for smart suggestions in mac	https://pharo.fogbugz.com/f/cases/10736	10726 Enhance methods comments in FileSystem	https://pharo.fogbugz.com/f/cases/10726'
+commentForCurrentUpdate ^ '10727 Cleaning trigger: use for deprecation of event	https://pharo.fogbugz.com/f/cases/10727	6489 Spec-ify DropListModel / TextModel	https://pharo.fogbugz.com/f/cases/close/6489'

@@ -1,1 +1,1 @@
-initialize	"Initialization code for DropListItem"	super initialize.	actionHolder := [] asValueHolder.	label := ''.
+initialize	"Initialization code for DropListItem"	super initialize.	actionHolder := [] asValueHolder.	displayBlock := [ :e | e printString ].

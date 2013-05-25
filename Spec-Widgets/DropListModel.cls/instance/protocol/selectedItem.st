@@ -1,1 +1,1 @@
-selectedItem	<api: #inspect>	"Return the selected item"	^ self selectedItemHolder contents
+selectedItem	<api: #inspect>	^ self selectedItemHolder contents model

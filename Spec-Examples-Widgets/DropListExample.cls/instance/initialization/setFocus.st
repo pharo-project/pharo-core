@@ -1,1 +1,1 @@
-setFocus		self focusOrder		add: dropList;		add: container.	
+setFocus		self focusOrder		add: uniformDropList;		add: heterogeneousDropList.	
