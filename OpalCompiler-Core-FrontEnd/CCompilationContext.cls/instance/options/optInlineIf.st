@@ -1,0 +1,1 @@
+optInlineIf	^ options includes: #optInlineIf

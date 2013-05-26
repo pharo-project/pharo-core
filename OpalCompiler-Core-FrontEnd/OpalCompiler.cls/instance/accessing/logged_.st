@@ -1,1 +1,1 @@
-logged: aBoolean	compilationContext logged:  aBoolean.
+logged: aBoolean	self compilationContext logged:  aBoolean.

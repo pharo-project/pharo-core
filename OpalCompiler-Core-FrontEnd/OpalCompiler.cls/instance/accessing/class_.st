@@ -1,1 +1,1 @@
-class: aClass	compilationContext class: aClass.
+class: aClass	self compilationContext class: aClass.

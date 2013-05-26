@@ -1,1 +1,1 @@
-environment: anSmallTalkImage	compilationContext environment: anSmallTalkImage 
+environment: anSmallTalkImage	self compilationContext environment: anSmallTalkImage 

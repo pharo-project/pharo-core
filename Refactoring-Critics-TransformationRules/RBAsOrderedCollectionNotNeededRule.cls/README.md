@@ -1,1 +1,1 @@
-A RBAsOrderedCollectionNotNeededRule is xxxxxxxxx.Instance Variables
+See rationale

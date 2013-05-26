@@ -1,0 +1,1 @@
+failBlock: anObject	failBlock := anObject

@@ -1,1 +1,1 @@
-options: anOptionsArray	compilationContext parseOptions: anOptionsArray
+options: anOptionsArray	self compilationContext parseOptions: anOptionsArray

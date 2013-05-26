@@ -1,1 +1,1 @@
-noPattern: aBoolean	compilationContext noPattern: aBoolean.	
+noPattern: aBoolean	self compilationContext noPattern: aBoolean.	

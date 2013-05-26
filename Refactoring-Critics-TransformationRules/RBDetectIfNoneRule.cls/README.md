@@ -1,1 +1,1 @@
-A RBDetectIfNoneRule is xxxxxxxxx.Instance Variables
+See rationale

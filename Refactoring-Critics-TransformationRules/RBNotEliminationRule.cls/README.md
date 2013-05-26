@@ -1,1 +1,1 @@
-A RBNotEliminationRule is xxxxxxxxx.Instance Variables
+See rationale

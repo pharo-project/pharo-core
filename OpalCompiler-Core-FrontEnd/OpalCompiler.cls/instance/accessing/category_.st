@@ -1,1 +1,1 @@
-category: aCategory	compilationContext category: aCategory.
+category: aCategory	self compilationContext category: aCategory.

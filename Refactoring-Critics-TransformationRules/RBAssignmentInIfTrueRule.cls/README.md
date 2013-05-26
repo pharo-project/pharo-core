@@ -1,1 +1,1 @@
-A RBAssignmentInIfTrueRule is xxxxxxxxx.Instance Variables
+See rationale

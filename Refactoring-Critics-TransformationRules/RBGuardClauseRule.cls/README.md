@@ -1,1 +1,1 @@
-A RBGuardClauseRule is xxxxxxxxx.Instance Variables
+See rationale

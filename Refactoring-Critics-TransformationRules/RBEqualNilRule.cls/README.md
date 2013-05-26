@@ -1,1 +1,1 @@
-A RBEqualNilRule is xxxxxxxxx.Instance Variables
+See rationale

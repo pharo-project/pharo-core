@@ -1,0 +1,1 @@
+Object subclass: #CCompilationContext	instanceVariableNames: 'requestor failBlock noPattern class category logged interactive options environment'	classVariableNames: ''	poolDictionaries: ''	category: 'OpalCompiler-Core-FrontEnd'

@@ -1,1 +1,0 @@
-lookupScopeForVar: name	tempVars at: name ifPresent: [:v | ^ self].	tempVector  at: name ifPresent: [:v | ^ self].	^ self outerScope lookupScopeForVar: name.
