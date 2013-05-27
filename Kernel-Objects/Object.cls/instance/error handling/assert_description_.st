@@ -1,1 +1,1 @@
-assert: aBlock description: aString	"Throw an assertion error if aBlock does not evaluates to true."		aBlock value ifFalse: [AssertionFailure signal: aString ]
+assert: aBlock description: aStringOrBlock	"Throw an assertion error if aBlock does not evaluates to true."		aBlock value 		ifFalse: [ AssertionFailure signal: aStringOrBlock value ]
