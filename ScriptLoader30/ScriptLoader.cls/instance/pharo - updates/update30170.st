@@ -1,0 +1,1 @@
+update30170	"self new update30170"	self withUpdateLog: '10654 Add the --save option to the eval command line handler	https://pharo.fogbugz.com/f/cases/10654	10698 add back Block printing	https://pharo.fogbugz.com/f/cases/10698	(When Opal is Active)	'.	self loadTogether: self script267 merge: false.	self flushCaches.

@@ -1,1 +1,1 @@
-printOn: aStream	aStream nextPutAll: '[...]'.
+printOn: aStream	aStream nextPutAll:  self sourceNode formattedCode.
