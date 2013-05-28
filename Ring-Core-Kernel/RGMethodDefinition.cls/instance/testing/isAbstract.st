@@ -1,0 +1,1 @@
+isAbstract	^ self compiledMethod isAbstract

@@ -1,1 +1,1 @@
-allClassesDo: aBlock	self systemDictionary allClassesDo: [ :each | aBlock value: each; value: each class ]
+allClassesDo: aBlock	self systemDictionary allClassesDo: [ :each | aBlock value: each; value: each theMetaClass ]
