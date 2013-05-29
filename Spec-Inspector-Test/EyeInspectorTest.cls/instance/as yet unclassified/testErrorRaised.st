@@ -1,0 +1,1 @@
+testErrorRaised	| inspector |	self instancesToTry do: [ :each |			self shouldnt: [ inspector := each ogle ] raise: Error.			inspector window close ] 

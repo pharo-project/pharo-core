@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10544 Fixes to RING meta model	https://pharo.fogbugz.com/f/cases/10544	10771 SpecDebugger calls wrong spec	https://pharo.fogbugz.com/f/cases/10771	10772 Smalltalk condenseChanges broken	https://pharo.fogbugz.com/f/cases/10772'
+commentForCurrentUpdate ^ '10781 Proper initialization/cleanup of RecentMessageList	https://pharo.fogbugz.com/f/cases/10781	10783 EyeInspector raise errors on misprinted objects	https://pharo.fogbugz.com/f/cases/10783	7377 Where DateModel should open the calendar		https://pharo.fogbugz.com/f/cases/7377'

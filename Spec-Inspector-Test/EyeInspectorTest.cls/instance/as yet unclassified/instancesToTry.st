@@ -1,0 +1,1 @@
+instancesToTry	^ { Object new . Class . Metaclass . Array new . Dictionary new . WordArray new. ByteArray new. thisContext . PluggableTextMorph new . 12 . #symbol }
