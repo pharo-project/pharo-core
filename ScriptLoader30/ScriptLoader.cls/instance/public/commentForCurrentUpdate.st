@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10781 Proper initialization/cleanup of RecentMessageList	https://pharo.fogbugz.com/f/cases/10781	10783 EyeInspector raise errors on misprinted objects	https://pharo.fogbugz.com/f/cases/10783	7377 Where DateModel should open the calendar		https://pharo.fogbugz.com/f/cases/7377'
+commentForCurrentUpdate ^ '10788 move CompiledMethod>>#protocol to Kernel	https://pharo.fogbugz.com/f/cases/10788	10759 AnObsoleteDefaultCommandLineHandler is in the image	https://pharo.fogbugz.com/f/cases/10759'

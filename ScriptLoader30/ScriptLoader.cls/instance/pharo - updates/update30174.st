@@ -1,0 +1,1 @@
+update30174	"self new update30174"	self withUpdateLog: '10788 move CompiledMethod>>#protocol to Kernel	https://pharo.fogbugz.com/f/cases/10788	10759 AnObsoleteDefaultCommandLineHandler is in the image	https://pharo.fogbugz.com/f/cases/10759'.	self loadTogether: self script271 merge: false.	self flushCaches.
