@@ -1,0 +1,1 @@
+testNextWithAnOpeningStringsGetError	| source scanner |		source := '''only the opening'.	scanner := self buildScannerForText: source.	self should: [scanner next] raise: SyntaxErrorNotification.

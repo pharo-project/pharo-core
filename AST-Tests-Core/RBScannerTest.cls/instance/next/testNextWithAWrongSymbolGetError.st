@@ -1,0 +1,1 @@
+testNextWithAWrongSymbolGetError	| source scanner |		source := '#^'.	scanner := self buildScannerForText: source.	self should: [scanner next] raise: SyntaxErrorNotification.

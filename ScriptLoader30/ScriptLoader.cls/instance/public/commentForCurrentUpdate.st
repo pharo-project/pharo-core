@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10788 move CompiledMethod>>#protocol to Kernel	https://pharo.fogbugz.com/f/cases/10788	10759 AnObsoleteDefaultCommandLineHandler is in the image	https://pharo.fogbugz.com/f/cases/10759'
+commentForCurrentUpdate ^ '10812 CommandlineTestRunner >> #stderr is not returning properly	https://pharo.fogbugz.com/f/cases/10812	10807 Scanning wrong token produces DNU	https://pharo.fogbugz.com/f/cases/10807	10809 Path>>isAbsoluteWindowsPath: can be optimized	https://pharo.fogbugz.com/f/cases/10809'
