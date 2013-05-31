@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10718 More commands for Node Navigation	https://pharo.fogbugz.com/f/cases/10718	10411 flush after nextChunkPut:	https://pharo.fogbugz.com/f/cases/10411	'
+commentForCurrentUpdate ^ '10714 General update	https://pharo.fogbugz.com/f/cases/10714	10816 ReleaseTest>>#testUndeclared fails in Opal RegressionTests	https://pharo.fogbugz.com/f/cases/10816	10815 failing in Opal regressionTEst: DebuggerTest.testBasic	https://pharo.fogbugz.com/f/cases/10815'
