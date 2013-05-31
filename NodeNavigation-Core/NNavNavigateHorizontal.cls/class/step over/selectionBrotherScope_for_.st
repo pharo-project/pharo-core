@@ -1,1 +1,0 @@
-selectionBrotherScope: selected for: node	| brother |	node ifNil: [ ^selected ].	brother := self brotherNodeFor:  node.	^brother start to: brother stop.

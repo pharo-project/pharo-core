@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10770 Comment of on:send:to:	https://pharo.fogbugz.com/f/cases/10770	10805 Obsolete behaviors remaining: an Array(AnObsoleteDefaultCommandLineHandler class AnObsoleteDefaultCommandLineHandler)	https://pharo.fogbugz.com/f/cases/10805	10811 Add an InvalidUTF8 exception	https://pharo.fogbugz.com/f/cases/10811'
+commentForCurrentUpdate ^ '10718 More commands for Node Navigation	https://pharo.fogbugz.com/f/cases/10718	10411 flush after nextChunkPut:	https://pharo.fogbugz.com/f/cases/10411	'

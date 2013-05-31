@@ -1,1 +1,1 @@
-standOutHorizontalScope	self handleEdit: [NNavNavigateHorizontal standOutFor: textMorph editor] 
+standOutHorizontalScope	self handleEdit: [NNavNavigation new navigate: textMorph editor direction: NNavDirectionSibling ] 

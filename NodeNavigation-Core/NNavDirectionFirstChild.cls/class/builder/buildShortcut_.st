@@ -1,0 +1,1 @@
+buildShortcut: aBuilder	<keymap>	(aBuilder shortcut: #firstChild) 		category: #SmalltalkEditor		default: $o command shift  mac| $o ctrl shift unix | $o ctrl shift 		do: [ :morph | morph standOutIntoFirstScope]		description: 'Select the node scope reducing to the first child'

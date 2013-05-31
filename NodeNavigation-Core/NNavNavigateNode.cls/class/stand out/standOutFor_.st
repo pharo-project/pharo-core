@@ -1,1 +1,0 @@
-standOutFor: editor	| node textArea newSelection |		textArea := editor sourceTextArea.	node := self findBestNodeIn: textArea text for: textArea selectionInterval isWorkspace: editor isWorkspace.	newSelection := self findSelection: node in: textArea.	textArea selectFrom: newSelection first to: newSelection last

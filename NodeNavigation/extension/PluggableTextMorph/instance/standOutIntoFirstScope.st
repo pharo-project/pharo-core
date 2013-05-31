@@ -1,1 +1,1 @@
-standOutIntoFirstScope	self handleEdit: [NNavNavigateIntoNotAsk standOutFor: textMorph editor]
+standOutIntoFirstScope	self handleEdit: [NNavNavigation new navigate: textMorph editor direction: NNavDirectionFirstChild ]

@@ -1,1 +1,0 @@
-buildShortcut: aBuilder	<keymap>	(aBuilder shortcut: #nodeOverNavigation)		category: #SmalltalkEditor		default: $p command shift mac| $p ctrl shift unix | $p ctrl shift 		do: [ :morph | morph standOutOverScope ]		description: 'Select the node scope going to the paren node'

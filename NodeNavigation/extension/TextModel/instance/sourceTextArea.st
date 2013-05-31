@@ -1,1 +1,1 @@
-sourceTextArea	^ self dependents at: 1
+sourceTextArea	^ self widget

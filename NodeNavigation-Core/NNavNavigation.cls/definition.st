@@ -1,0 +1,1 @@
+Object subclass: #NNavNavigation	instanceVariableNames: 'currentEditor lastSelection currentSelection'	classVariableNames: 'Instance'	poolDictionaries: ''	category: 'NodeNavigation-Core'

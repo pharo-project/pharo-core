@@ -1,1 +1,1 @@
-standOutOverScope	self handleEdit: [NNavNavigateOver standOutFor: textMorph editor] 
+standOutOverScope	self handleEdit: [NNavNavigation new navigate: textMorph editor direction:  NNavDirectionParent] 

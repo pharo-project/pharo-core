@@ -1,1 +1,0 @@
-buildShortcut: aBuilder	<keymap>	(aBuilder shortcut: #nodeIntoNavigation)		category: #SmalltalkEditor		default: $o command mac | $o ctrl unix | $o ctrl		do: [ :morph | morph standOutIntoScope ]		description: 'Select the node scope reducing to the childs'

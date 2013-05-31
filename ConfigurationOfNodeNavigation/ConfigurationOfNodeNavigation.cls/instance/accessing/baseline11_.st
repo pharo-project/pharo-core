@@ -1,0 +1,1 @@
+baseline11: spec	<version: '1.1-baseline'>	spec		for: #common		do: [ 			spec blessing: #baseline.			spec repository: 'http://smalltalkhub.com/mc/gisela/NodeNavigation/main'.			spec				package: 'NodeNavigation' with: 'NodeNavigation-GiselaDecuzzi.33']

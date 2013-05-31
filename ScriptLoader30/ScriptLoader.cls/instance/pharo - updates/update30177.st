@@ -1,0 +1,1 @@
+update30177	"self new update30177"	self withUpdateLog: '10718 More commands for Node Navigation	https://pharo.fogbugz.com/f/cases/10718	10411 flush after nextChunkPut:	https://pharo.fogbugz.com/f/cases/10411	'.	self loadTogether: self script274 merge: false.	self flushCaches.

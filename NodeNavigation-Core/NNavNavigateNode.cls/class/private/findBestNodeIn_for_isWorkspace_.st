@@ -1,1 +1,0 @@
-findBestNodeIn: text for: selection isWorkspace: isWorkspace 	| root |		isWorkspace 		ifTrue: [root := RBParser parseFaultyExpression: text]		ifFalse:  [root := RBParser parseFaultyMethod: text]. 	^ root bestNodeFor: selection.	
