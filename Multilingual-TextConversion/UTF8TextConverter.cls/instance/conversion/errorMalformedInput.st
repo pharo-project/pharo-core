@@ -1,1 +1,1 @@
-errorMalformedInput	^self error: 'Invalid utf8 input detected'
+errorMalformedInput	^ZnInvalidUTF8 new signal: 'Invalid utf8 input detected'
