@@ -1,4 +1,4 @@
 public
 commentForCurrentUpdate
- ^ '10653	Some Jenkins images show a stdout is closed error
-	https://pharo.fogbugz.com/f/cases/10653'
+ ^ '10415 Integrate 2.0: 10411 flush after nextChunkPut:
+	https://pharo.fogbugz.com/f/cases/10415'

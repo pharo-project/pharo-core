@@ -6,7 +6,7 @@ fileStream
 
 	| theFile |
 	(sourceFileNumber == nil or: [(SourceFiles at: sourceFileNumber) == nil]) ifTrue: [^ nil].
-	theFile := (SourceFiles at: sourceFileNumber) readOnlyCopy.
+	theFile := (SourceFiles at: sourceFileNumber) flush readOnlyCopy.
 	filePositionHi > theFile size ifTrue: [
 		self error: 'RemoteString past end of file' ].
 	theFile position: filePositionHi.
