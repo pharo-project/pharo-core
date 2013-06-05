@@ -1,5 +1,6 @@
-Usage: eval [--help] <smalltalk expression>
+Usage: eval [--help] [--save] <smalltalk expression>
 	--help    list this help message
+      --save   save the image after evaluation of the expression
 	<smallltalk expression>  a valid Smalltalk expression which is evaluated and 
 	                         the result is printed on stdout
 
@@ -12,3 +13,5 @@ This handler either evaluates the arguments passed to the image:
 or it can read directly from stdin:
 
 	echo "1+2" | $PHARO_VM my.image eval 
+
+Important: don't manually save the image at the end of the expression by calling something like 'Smalltalk snapshot: true andSave: true'! Instead, use the safer --save option.
