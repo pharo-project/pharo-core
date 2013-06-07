@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10844 Calling deprecated method triggerEvent:with:ifNotHandled: twice when running regressionTests	https://pharo.fogbugz.com/f/cases/10844	10786 Semantic analysis not working for instance variables	https://pharo.fogbugz.com/f/cases/10786	'
+commentForCurrentUpdate ^ '10842 Recategorize AST interpreter visit methods	https://pharo.fogbugz.com/f/cases/10842	10850 Fix openWorldWithSpec	https://pharo.fogbugz.com/f/cases/10850'
