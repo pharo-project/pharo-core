@@ -1,1 +1,1 @@
-An OCAbstractMethodScope is xxxxxxxxx.Instance Variables	copiedVars:		<Object>	id:		<Object>	tempVars:		<Object>	tempVector:		<Object>	thisContextVar:		<Object>copiedVars	- xxxxxid	- xxxxxtempVars	- xxxxxtempVector	- xxxxxthisContextVar	- xxxxx
+I am an abstract superclass for Block and Method scopes

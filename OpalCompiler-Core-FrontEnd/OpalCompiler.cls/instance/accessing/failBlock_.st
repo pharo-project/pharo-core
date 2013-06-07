@@ -1,1 +1,1 @@
-failBlock: aBlock	failBlock := aBlock.	self compilationContext failBlock: aBlock.
+failBlock: aBlock	self compilationContext failBlock: aBlock.

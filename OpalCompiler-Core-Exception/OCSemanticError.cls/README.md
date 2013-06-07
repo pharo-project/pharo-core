@@ -1,1 +1,1 @@
-Raises a semantic error during semantic analysis, which is currently, only 'cannot store into'
+Raises a semantic error during semantic analysis

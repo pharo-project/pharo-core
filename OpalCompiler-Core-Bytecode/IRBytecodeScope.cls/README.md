@@ -1,1 +1,1 @@
-An IRBytecodeScope is xxxxxxxxx.Instance Variables	copiedValues:		<Object>	numArgs:		<Object>	ownTempVectors:		<Object>	temps:		<Object>copiedValues	- xxxxxnumArgs	- xxxxxownTempVectors	- xxxxxtemps	- xxxxx
+I am an internal class used by the  decompiler to recreat variable information

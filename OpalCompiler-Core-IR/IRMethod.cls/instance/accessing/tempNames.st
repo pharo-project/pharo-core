@@ -1,1 +1,0 @@
-tempNames	"All temp names in context order"	| varNames |	varNames := OrderedCollection new.	self tempKeys do: [:var | | name |		name := var asString.		"vars are unique but inlined to:do: loop vars may have the same name, so munge the names to make them different"		[varNames includes: name] whileTrue: [name := name, 'X'].		varNames add: name.	].	^ varNames asArray

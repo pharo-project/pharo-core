@@ -1,1 +1,1 @@
-An IRTempAccess is xxxxxxxxx.Instance Variables
+I model the pushTemporary Bytecode

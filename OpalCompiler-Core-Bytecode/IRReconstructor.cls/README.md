@@ -1,1 +1,1 @@
-An IRReconstructor is xxxxxxxxx.Instance Variables	closureCopiedValues:		<Object>	remoteTemps:		<Object>	temps:		<Object>closureCopiedValues	- xxxxxremoteTemps	- xxxxxtemps	- xxxxx
+I am a specialized IRBuilder for the decompiler

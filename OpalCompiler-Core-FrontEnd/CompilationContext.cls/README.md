@@ -1,1 +1,1 @@
-A CompilationContext is xxxxxxxxx.Instance Variables	category:		<Object>	class:		<Object>	environment:		<Object>	failBlock:		<Object>	interactive:		<Object>	logged:		<Object>	noPattern:		<Object>	options:		<Object>	requestor:		<Object>category	- xxxxxclass	- xxxxxenvironment	- xxxxxfailBlock	- xxxxxinteractive	- xxxxxlogged	- xxxxxnoPattern	- xxxxxoptions	- xxxxxrequestor	- xxxxx
+The compilationContext holds all information that is needed in the whole compiler chain.

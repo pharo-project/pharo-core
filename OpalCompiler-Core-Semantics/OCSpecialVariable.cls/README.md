@@ -1,1 +1,1 @@
-An OCSpecialVariable is xxxxxxxxx.Instance Variables
+I model self, thisContext and super

@@ -1,1 +1,1 @@
-An OCBlockScope is xxxxxxxxx.Instance Variables
+I modelt the scope of a block

@@ -1,1 +1,1 @@
-An OCMethodScope is xxxxxxxxx.Instance Variables
+I am the scope for a Method

@@ -1,1 +1,1 @@
-An IRRemoteArray is xxxxxxxxx.Instance Variables	index:		<Object>	size:		<Object>index	- xxxxxsize	- xxxxx
+I model the TempVector for the decompiler

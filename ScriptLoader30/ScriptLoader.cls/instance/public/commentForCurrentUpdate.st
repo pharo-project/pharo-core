@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10115 MCClassTraitDefinition DNU printDefinitionOn:	https://pharo.fogbugz.com/f/cases/10115	'
+commentForCurrentUpdate ^ '10813 Update Opal to latest version in image	https://pharo.fogbugz.com/f/cases/10813'
