@@ -1,1 +1,1 @@
-socketClose	socket close 
+socketClose	socket closeAndDestroy 

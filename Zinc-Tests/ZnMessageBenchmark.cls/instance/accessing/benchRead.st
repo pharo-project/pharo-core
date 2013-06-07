@@ -1,0 +1,1 @@
+benchRead	^ [ self read ] bench

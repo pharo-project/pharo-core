@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10733 AssertionFailure shoudl inherit from Error	https://pharo.fogbugz.com/f/cases/1073310314 Debugger: create better argument names	https://pharo.fogbugz.com/f/cases/10314'
+commentForCurrentUpdate ^ '10775 Update Zn+Zdc May 2013	https://pharo.fogbugz.com/default.asp?10775	10785 Auto-complete protocol renaming	https://pharo.fogbugz.com/default.asp?10785'

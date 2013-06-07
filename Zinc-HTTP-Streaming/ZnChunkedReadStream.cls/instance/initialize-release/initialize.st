@@ -1,1 +1,1 @@
-initialize	atEnd := false.	totalSize := 0
+initialize	atEnd := false.	chunkCount := 0.	totalSize := 0

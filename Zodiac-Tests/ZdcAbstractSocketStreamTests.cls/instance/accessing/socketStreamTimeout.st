@@ -1,1 +1,1 @@
-socketStreamTimeout	"Timeout in seconds for SocketStream IO"		^ 10
+socketStreamTimeout	"Timeout in seconds for SocketStream IO"		^ ZnNetworkingUtils socketStreamTimeout

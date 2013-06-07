@@ -1,0 +1,1 @@
+responses	^ #( 		simpleResponse 		textResponse8k textResponse64k textResponse256k		asciiResponse8k asciiResponse64k asciiResponse256k		binaryResponse8k binaryResponse64k binaryResponse256k )

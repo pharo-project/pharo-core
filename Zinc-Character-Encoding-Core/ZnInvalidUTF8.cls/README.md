@@ -1,1 +1,1 @@
-An InvalidUTF8 is an Exception that is raised when attempting to decode an invalid UTF-8 SequenceInstance Variables	string:		<String>string	- the string that were decoded
+I am ZnInvalidUTF8.I am a ZnCharacterEncodingError.I am an Error.I signal when something goes wrong while encoding or decoding UTF8.Part of Zinc HTTP Components

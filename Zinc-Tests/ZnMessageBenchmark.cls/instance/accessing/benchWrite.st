@@ -1,0 +1,1 @@
+benchWrite	^ [ self write ] bench

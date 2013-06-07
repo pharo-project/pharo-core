@@ -1,0 +1,1 @@
+update30187	"self new update30187"	self withUpdateLog: '10775 Update Zn+Zdc May 2013	https://pharo.fogbugz.com/default.asp?10775	10785 Auto-complete protocol renaming	https://pharo.fogbugz.com/default.asp?10785'.	self loadTogether: self script284 merge: false.	self flushCaches.

@@ -1,1 +1,0 @@
-noteRedirect	self log debug: 'Redirecting'

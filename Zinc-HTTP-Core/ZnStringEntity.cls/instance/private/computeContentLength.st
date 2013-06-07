@@ -1,1 +1,1 @@
-computeContentLength	self string isNil ifTrue: [ ^ self ].	self initializeEncoder.	contentLength := encoder encodedByteCountForString: string
+computeContentLength	self string isNil ifTrue: [ ^ self ].	contentLength := self encoder encodedByteCountForString: string

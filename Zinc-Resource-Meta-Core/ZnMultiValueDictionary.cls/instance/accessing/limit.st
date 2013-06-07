@@ -1,1 +1,1 @@
-limit	^ limit ifNil: [ limit := self  defaultLimit ]
+limit	^ limit
