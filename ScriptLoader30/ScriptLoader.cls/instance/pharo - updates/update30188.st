@@ -1,0 +1,1 @@
+update30188	"self new update30188"	self withUpdateLog: '10867 enabled: cleans post fix	https://pharo.fogbugz.com/default.asp?10867	'.	self loadTogether: self script285 merge: false.	self flushCaches.

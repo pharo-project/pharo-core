@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10775 Update Zn+Zdc May 2013	https://pharo.fogbugz.com/default.asp?10775	10785 Auto-complete protocol renaming	https://pharo.fogbugz.com/default.asp?10785'
+commentForCurrentUpdate ^ '10867 enabled: cleans post fix	https://pharo.fogbugz.com/default.asp?10867	'
