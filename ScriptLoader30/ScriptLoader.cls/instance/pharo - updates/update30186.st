@@ -1,0 +1,1 @@
+update30186	"self new update30186"	self withUpdateLog: '10733 AssertionFailure shoudl inherit from Error	https://pharo.fogbugz.com/f/cases/1073310314 Debugger: create better argument names	https://pharo.fogbugz.com/f/cases/10314'.	self loadTogether: self script283 merge: false.	self flushCaches.

@@ -1,0 +1,1 @@
+testAPrefixForClassNameStartingWithConsonant	self testCollection.

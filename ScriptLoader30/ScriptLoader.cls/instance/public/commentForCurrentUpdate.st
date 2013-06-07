@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10828 Cleaning Morphic	https://pharo.fogbugz.com/f/cases/1082810830 Cleaning Morphic (stringMorph enabled)	https://pharo.fogbugz.com/f/cases/10830'
+commentForCurrentUpdate ^ '10733 AssertionFailure shoudl inherit from Error	https://pharo.fogbugz.com/f/cases/1073310314 Debugger: create better argument names	https://pharo.fogbugz.com/f/cases/10314'
