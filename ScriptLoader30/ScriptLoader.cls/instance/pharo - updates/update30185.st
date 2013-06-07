@@ -1,0 +1,1 @@
+update30185	"self new update30185"	self withUpdateLog: '10828 Cleaning Morphic	https://pharo.fogbugz.com/f/cases/1082810830 Cleaning Morphic (stringMorph enabled)	https://pharo.fogbugz.com/f/cases/10830'.	self loadTogether: self script282 merge: false.	ScriptLoader new addHomeRepositoryToAllPackages.	self flushCaches.

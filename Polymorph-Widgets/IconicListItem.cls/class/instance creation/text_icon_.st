@@ -1,0 +1,1 @@
+text: aText icon: form	^ self new		morph:	aText asMorph;		icon: (AlphaImageMorph new form: form);		yourself

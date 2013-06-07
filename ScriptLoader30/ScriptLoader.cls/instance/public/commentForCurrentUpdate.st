@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10857 Add new public API to old compiler	https://pharo.fogbugz.com/f/cases/10857'
+commentForCurrentUpdate ^ '10828 Cleaning Morphic	https://pharo.fogbugz.com/f/cases/1082810830 Cleaning Morphic (stringMorph enabled)	https://pharo.fogbugz.com/f/cases/10830'
