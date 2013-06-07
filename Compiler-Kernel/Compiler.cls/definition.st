@@ -1,1 +1,1 @@
-Object subclass: #Compiler	instanceVariableNames: 'sourceStream requestor class category context parser compilationContext compilationContextClass'	classVariableNames: ''	poolDictionaries: ''	category: 'Compiler-Kernel'
+Object subclass: #Compiler	instanceVariableNames: 'sourceStream requestor receiver class category context parser compilationContext compilationContextClass'	classVariableNames: ''	poolDictionaries: ''	category: 'Compiler-Kernel'

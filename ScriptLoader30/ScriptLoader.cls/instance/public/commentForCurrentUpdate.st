@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10813 Update Opal to latest version in image	https://pharo.fogbugz.com/f/cases/10813'
+commentForCurrentUpdate ^ '10857 Add new public API to old compiler	https://pharo.fogbugz.com/f/cases/10857'
