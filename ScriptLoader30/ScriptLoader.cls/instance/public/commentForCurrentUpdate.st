@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10842 Recategorize AST interpreter visit methods	https://pharo.fogbugz.com/f/cases/10842	10850 Fix openWorldWithSpec	https://pharo.fogbugz.com/f/cases/10850'
+commentForCurrentUpdate ^ '10115 MCClassTraitDefinition DNU printDefinitionOn:	https://pharo.fogbugz.com/f/cases/10115	'
