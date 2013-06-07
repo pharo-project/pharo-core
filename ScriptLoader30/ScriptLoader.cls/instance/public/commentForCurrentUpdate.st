@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10825 Lots of Obsolete classes related to AST Navigation	https://pharo.fogbugz.com/f/cases/1082510837 CheckBox glitch fixed!		https://pharo.fogbugz.com/f/cases/10837	10826 ./pharo Pharo.image -e 1 + 2 does not work	https://pharo.fogbugz.com/f/cases/10826'
+commentForCurrentUpdate ^ '10844 Calling deprecated method triggerEvent:with:ifNotHandled: twice when running regressionTests	https://pharo.fogbugz.com/f/cases/10844	10786 Semantic analysis not working for instance variables	https://pharo.fogbugz.com/f/cases/10786	'
