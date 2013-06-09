@@ -1,1 +1,1 @@
-unload	categories do: [ :c | SystemOrganization removeCategory: c ]
+unload	categories		do: [ :category | 			(SystemOrganization isEmptyCategoryNamed: category)				ifTrue: [ SystemOrganization removeCategory: category ] ]
