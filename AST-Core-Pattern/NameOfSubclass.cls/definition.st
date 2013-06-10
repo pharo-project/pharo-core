@@ -1,0 +1,1 @@
+Object subclass: #NameOfSubclass	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'AST-Core-Pattern'

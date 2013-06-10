@@ -1,0 +1,1 @@
+isFaulty	^self value isFaulty.

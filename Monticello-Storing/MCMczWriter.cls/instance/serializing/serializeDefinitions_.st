@@ -1,1 +1,1 @@
-serializeDefinitions: aCollection	| writer s |	s := RWBinaryOrTextStream on: String new.	writer := self snapshotWriterClass on: s.	writer writeDefinitions: aCollection.	^ s contents
+serializeDefinitions: aCollection	^String streamContents: [:aStream |		| writer |		writer := self snapshotWriterClass on: aStream.		writer writeDefinitions: aCollection]

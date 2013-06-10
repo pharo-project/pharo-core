@@ -1,1 +1,1 @@
-errorMessage: aString token: anRBToken	^ self new		errorMessage: aString;		token: anRBToken;		yourself
+errorMessage: aString token: anRBTokenself haltOnce.	^ self new		errorMessage: aString;		token: anRBToken;		yourself

@@ -1,1 +1,1 @@
-parseMember: fileName	| tokens |	tokens := (self zip contentsOf: fileName) parseLiterals first.	^ self associate: tokens
+parseMember: memberOrName	| member tokens |	member := self zip member: memberOrName.	tokens := (self contentsForMember: member) parseLiterals first.	^ self associate: tokens

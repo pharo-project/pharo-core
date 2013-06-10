@@ -1,1 +1,1 @@
-scanner: aScanner 	scanner := aScanner.	pragmas := nil.	self initialize.	self step
+scanner: aScanner 	scanner := aScanner.	pragmas := nil.	self initialize.	self step.

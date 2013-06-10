@@ -1,1 +1,1 @@
-initializeParserWith: aString 	source := aString.	self scanner: (self scannerClass on: (ReadStream on: aString))
+initializeParserWith: aString 	source := aString.	self scanner: (self scannerClass 						on: (ReadStream on: aString)						errorBlock: [ :errorMsg :position | self parseErrorNode: errorMsg] )
