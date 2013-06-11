@@ -1,0 +1,1 @@
+update30194	"self new update30194"	self withUpdateLog: '10546 Matrix class comment refers to Array2D which does not exist anymore	https://pharo.fogbugz.com/f/cases/10546	10875 CleanUp in PolyMorph	https://pharo.fogbugz.com/f/cases/10875'.	self loadTogether: self script293 merge: false.	self flushCaches.

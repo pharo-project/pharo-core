@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10882 Undeclared ivar string in ZnInvalidUTF8		https://pharo.fogbugz.com/f/cases/1088210881 two tests failing in MCMczInstallerTest due to missing accessor	https://pharo.fogbugz.com/f/cases/10881'
+commentForCurrentUpdate ^ '10546 Matrix class comment refers to Array2D which does not exist anymore	https://pharo.fogbugz.com/f/cases/10546	10875 CleanUp in PolyMorph	https://pharo.fogbugz.com/f/cases/10875'

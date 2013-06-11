@@ -1,0 +1,1 @@
+windowBorderWidthFor: aWindow	^ 4
