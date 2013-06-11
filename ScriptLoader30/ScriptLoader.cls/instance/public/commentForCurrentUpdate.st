@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10779 - Parsing faulty method ends with incorrect ast. Thanks Gisela	https://pharo.fogbugz.com/default.asp?	10801 - Use UTF8 encoding in MC snapshot source.st	https://pharo.fogbugz.com/default.asp?10801	Thanks nicolas cellier and sven.'
+commentForCurrentUpdate ^ '10854 AlainTreeModel: keyboard navigation broken	https://pharo.fogbugz.com/f/cases/10854	10872 Add more date and time tests	https://pharo.fogbugz.com/f/cases/10872	10874 The memory FileSystem has a problem copying files	https://pharo.fogbugz.com/f/cases/10874'
