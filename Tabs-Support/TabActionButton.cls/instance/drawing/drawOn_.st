@@ -1,0 +1,1 @@
+drawOn: aCanvas	super drawOn: aCanvas.	icon ifNil: [ ^ self ].	icon image ifNil: [ ^ self ].	aCanvas		translucentImage: icon image		at: self topLeft

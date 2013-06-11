@@ -1,0 +1,1 @@
+retrievingBlock: anObject	retrievingBlock := anObject.	self softRetrieveMorph.

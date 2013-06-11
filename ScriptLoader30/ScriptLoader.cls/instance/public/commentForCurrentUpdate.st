@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10854 AlainTreeModel: keyboard navigation broken	https://pharo.fogbugz.com/f/cases/10854	10872 Add more date and time tests	https://pharo.fogbugz.com/f/cases/10872	10874 The memory FileSystem has a problem copying files	https://pharo.fogbugz.com/f/cases/10874'
+commentForCurrentUpdate ^ '10818 Integrate tabs	https://pharo.fogbugz.com/f/cases/10818'

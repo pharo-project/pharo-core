@@ -1,0 +1,1 @@
+closeAllTabs	toolbar closeAllTabs

@@ -1,0 +1,1 @@
+menuIcon		^ self class menuIcon

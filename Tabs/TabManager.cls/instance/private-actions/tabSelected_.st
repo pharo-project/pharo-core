@@ -1,0 +1,1 @@
+tabSelected: aTab	self setTabContentFrom: aTab

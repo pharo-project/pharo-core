@@ -1,0 +1,1 @@
+selectedTab	^ selectionHistory lastIfAbsent: [ nil ]

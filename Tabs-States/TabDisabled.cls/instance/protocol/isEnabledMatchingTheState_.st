@@ -1,0 +1,1 @@
+isEnabledMatchingTheState: aBoolean	^ aBoolean not

@@ -1,0 +1,1 @@
+tabAddedToSelection: aTab	self setMultipleContents

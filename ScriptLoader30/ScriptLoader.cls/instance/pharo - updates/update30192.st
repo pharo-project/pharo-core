@@ -1,0 +1,1 @@
+update30192	"self new update30192"	self withUpdateLog: '10818 Integrate tabs	https://pharo.fogbugz.com/f/cases/10818'.	self loadTogether: self script291 merge: false.	ScriptLoader new addHomeRepositoryToAllPackages.	self flushCaches.

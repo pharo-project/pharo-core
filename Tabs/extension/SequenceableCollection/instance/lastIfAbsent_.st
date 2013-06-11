@@ -1,0 +1,1 @@
+lastIfAbsent: aBlock	^ self at: self size ifAbsent: aBlock
