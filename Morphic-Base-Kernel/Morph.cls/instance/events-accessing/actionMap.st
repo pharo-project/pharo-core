@@ -1,1 +1,1 @@
-actionMap	"Answer an action map"	^self updateableActionMap
+actionMap	"Answer an action map"	^ self updateableActionMap

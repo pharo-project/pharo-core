@@ -1,1 +1,1 @@
-addLabelArea	labelArea := (AlignmentMorph newSpacer: Color transparent)			vResizing: #spaceFill;			layoutPolicy: ProportionalLayout new.	self addMorph: labelArea.
+addLabelArea	labelArea :=self theme newWindowHeaderFor: self.	self addMorph: labelArea.

@@ -1,1 +1,1 @@
-testNextWithAnUnknownCharacterGetError	| source scanner |		source := '¿'.	scanner := self buildScannerForText: source.	self should: [scanner next] raise: SyntaxErrorNotification
+testNextWithAnUnknownCharacterGetError	| source scanner scannedToken |		source := '¿'.	scanner := self buildScannerForText: source.	scannedToken := scanner next.	self verifyErrorToken: scannedToken message: 'Unknown character' translated valueExpected: source

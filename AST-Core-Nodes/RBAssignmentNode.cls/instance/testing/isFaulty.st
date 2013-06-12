@@ -1,1 +1,1 @@
-isFaulty	^self variable isFaulty or: [ self assignment isFaulty].
+isFaulty	^self variable isFaulty or: [ self value isFaulty].

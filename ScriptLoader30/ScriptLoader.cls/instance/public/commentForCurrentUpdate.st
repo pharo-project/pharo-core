@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10285 RecentMessageList class>>startup: is not needed	https://pharo.fogbugz.com/f/cases/10285	10758 Two categories in Setting: debugging and Debugging	https://pharo.fogbugz.com/f/cases/10758'
+commentForCurrentUpdate ^ '10847 Scanner should return error tokens when scanning wrong tokens	https://pharo.fogbugz.com/f/cases/10847	10876 CleanUp in Morphic	https://pharo.fogbugz.com/f/cases/10876'

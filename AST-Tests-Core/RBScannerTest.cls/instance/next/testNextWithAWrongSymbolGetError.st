@@ -1,1 +1,1 @@
-testNextWithAWrongSymbolGetError	| source scanner |		source := '#^'.	scanner := self buildScannerForText: source.	self should: [scanner next] raise: SyntaxErrorNotification.
+testNextWithAWrongSymbolGetError	| source scanner scannedToken |	source := '#^'.	scanner := self buildScannerForText: source.	scannedToken := scanner next.	self verifyErrorToken: scannedToken message: 'Expecting a literal type' translated valueExpected: '^'

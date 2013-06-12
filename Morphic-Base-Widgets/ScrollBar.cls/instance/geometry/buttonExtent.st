@@ -1,1 +1,1 @@
-buttonExtent	| size |	size := self theme scrollbarThickness + 1.	^ bounds isWide		ifTrue: [size @ self innerBounds height]		ifFalse: [self innerBounds width @ size]
+buttonExtent	| size |	size := self theme scrollbarThickness.		^ bounds isWide		ifTrue: [ upButton 			ifNil: [  size@size ] 			ifNotNil: [ upButton extent ] ]		ifFalse: [ downButton 			ifNil: [ size@size ] 			ifNotNil: [ downButton extent ] ]
