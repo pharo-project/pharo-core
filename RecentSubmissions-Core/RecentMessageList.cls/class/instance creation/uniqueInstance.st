@@ -1,1 +1,1 @@
-uniqueInstance	self ensureSingletonExistence.	^UniqueInstance
+uniqueInstance	^UniqueInstance ifNil: [UniqueInstance := self basicNew initialize]

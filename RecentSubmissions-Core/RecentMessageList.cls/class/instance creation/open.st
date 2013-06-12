@@ -1,1 +1,1 @@
-open		self uniqueInstance open.
+open		self new open.

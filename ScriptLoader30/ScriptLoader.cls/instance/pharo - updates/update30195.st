@@ -1,0 +1,1 @@
+update30195	"self new update30195"	self withUpdateLog: '10285 RecentMessageList class>>startup: is not needed	https://pharo.fogbugz.com/f/cases/10285	10758 Two categories in Setting: debugging and Debugging	https://pharo.fogbugz.com/f/cases/10758'.	self loadTogether: self script294 merge: false.	Smalltalk removeFromStartUpList: RecentMessageList..	self flushCaches.

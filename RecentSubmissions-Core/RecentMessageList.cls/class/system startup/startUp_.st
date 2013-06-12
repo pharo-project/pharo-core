@@ -1,1 +1,0 @@
-startUp: aBoolean	self ensureSingletonExistence

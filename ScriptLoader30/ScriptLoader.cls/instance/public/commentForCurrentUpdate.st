@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10546 Matrix class comment refers to Array2D which does not exist anymore	https://pharo.fogbugz.com/f/cases/10546	10875 CleanUp in PolyMorph	https://pharo.fogbugz.com/f/cases/10875'
+commentForCurrentUpdate ^ '10285 RecentMessageList class>>startup: is not needed	https://pharo.fogbugz.com/f/cases/10285	10758 Two categories in Setting: debugging and Debugging	https://pharo.fogbugz.com/f/cases/10758'
