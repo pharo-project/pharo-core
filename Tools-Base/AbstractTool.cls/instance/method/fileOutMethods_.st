@@ -1,1 +1,1 @@
-fileOutMethods: aCollection	Cursor write 		showWhile:[			aCollection				ifNotEmpty: [:methods |					 methods do: [:method |						method methodClass fileOutMethod: method selector ]]]
+fileOutMethods: aCollection	self 		do: [ :method | method methodClass fileOutMethod: method selector ]		on: aCollection		displaying: 'Filing out methods...'.

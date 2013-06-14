@@ -1,1 +1,1 @@
-fileOutPackages: aCollection	Cursor write 		showWhile:[			aCollection				ifNotEmpty: [					aCollection do: [:package | package fileOut ]]]
+fileOutPackages: aCollection	self 		do: [ :package |  package fileOut ]		on: aCollection		displaying: 'Filing out packages...'.
