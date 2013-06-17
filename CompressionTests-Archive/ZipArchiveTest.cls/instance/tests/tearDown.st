@@ -1,1 +1,1 @@
-tearDown	fileToZip delete.	zip close.		subdir deleteAll.	zipFile delete.
+tearDown	fileToZip ensureDelete.	zip close.		subdir ensureDeleteAll.	zipFile ensureDelete.
