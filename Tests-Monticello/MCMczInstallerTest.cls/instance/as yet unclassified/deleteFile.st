@@ -1,1 +1,1 @@
-deleteFile	self fileName asFileReference ensureDeleted
+deleteFile	self fileName asFileReference ensureDelete

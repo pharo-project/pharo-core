@@ -1,1 +1,1 @@
-parseLiterals: aString	^RBParser parseLiterals: aString
+parseLiterals: aString	^RBExplicitVariableParser parseLiterals: aString

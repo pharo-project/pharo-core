@@ -1,1 +1,1 @@
-emitOr: aMessageNode		super emitOr: aMessageNode.	methodBuilder popTop.
+emitOr: aMessageNode		self emitIfFalse: aMessageNode

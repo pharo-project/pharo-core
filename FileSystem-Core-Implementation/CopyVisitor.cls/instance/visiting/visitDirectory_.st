@@ -1,1 +1,1 @@
-visitDirectory: anEntry	| reference |	reference := anEntry reference.	reference = source		ifTrue: [dest ensureDirectory]		ifFalse: [self copyDirectory: reference]
+visitDirectory: anEntry	| reference |	reference := anEntry reference.	reference = source		ifTrue: [dest ensureCreateDirectory]		ifFalse: [self copyDirectory: reference]

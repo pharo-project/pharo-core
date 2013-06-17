@@ -1,1 +1,1 @@
-run		'changelog.xml' asFileReference ensureDeleted writeStreamDo: [ :stream|		self generateOn: stream ]
+run		'changelog.xml' asFileReference ensureDelete writeStreamDo: [ :stream|		self generateOn: stream ]

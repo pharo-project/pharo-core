@@ -1,1 +1,1 @@
-defaultDirectory	^ 'package-cache' asFileReference 		ensureDirectory;		yourself
+defaultDirectory	^ 'package-cache' asFileReference 		ensureCreateDirectory;		yourself

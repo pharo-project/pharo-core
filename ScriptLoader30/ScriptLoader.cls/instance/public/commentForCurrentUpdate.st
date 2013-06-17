@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10923 delete should raise error when there is no file	https://pharo.fogbugz.com/f/cases/10923	'
+commentForCurrentUpdate ^ '10927 Update Image with latest Opal	https://pharo.fogbugz.com/f/cases/10927	10926 #fileOutMethod:on: is uncategorized	https://pharo.fogbugz.com/f/cases/10926	10932 RBRefactoringChangeTests should recreate Mock class in setup	https://pharo.fogbugz.com/f/cases/10932'

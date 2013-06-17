@@ -1,1 +1,1 @@
-waitingCacheFolder	^ self packageToBeTestedFolderName asFileReference 		ensureDirectory;		yourself	
+waitingCacheFolder	^ self packageToBeTestedFolderName asFileReference 		ensureCreateDirectory;		yourself	

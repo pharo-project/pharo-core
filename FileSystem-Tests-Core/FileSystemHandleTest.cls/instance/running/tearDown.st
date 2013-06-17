@@ -1,1 +1,1 @@
-tearDown	handle ensureClosed.	reference ensureDeleted.
+tearDown	handle ensureClosed.	reference ensureDelete.

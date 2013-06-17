@@ -1,1 +1,1 @@
-parserClass	^ parserClass ifNil: [ parserClass := RBParser ]
+parserClass	^ parserClass ifNil: [ parserClass := RBExplicitVariableParser ]

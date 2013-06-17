@@ -1,1 +1,1 @@
-createFile: aPath	filesystem ensureDirectory: aPath parent.	(filesystem writeStreamOn: aPath) close
+createFile: aPath	filesystem ensureCreateDirectory: aPath parent.	(filesystem writeStreamOn: aPath) close

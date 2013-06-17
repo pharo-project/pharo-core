@@ -1,1 +1,1 @@
-setUp	super setUp.	changes := RBCompositeRefactoryChange named: 'testing'
+setUp	super setUp.	self createMockClass.	changes := RBCompositeRefactoryChange named: 'testing'

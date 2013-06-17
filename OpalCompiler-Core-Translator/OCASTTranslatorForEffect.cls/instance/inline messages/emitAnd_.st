@@ -1,1 +1,1 @@
-emitAnd: aMessageNode		super emitAnd: aMessageNode.	methodBuilder popTop.
+emitAnd: aMessageNode		self emitIfTrue: aMessageNode

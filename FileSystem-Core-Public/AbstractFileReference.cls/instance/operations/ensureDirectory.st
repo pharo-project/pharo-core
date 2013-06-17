@@ -1,1 +1,0 @@
-ensureDirectory	"Verifies that the directory does not exist and only creates if necessary. Do not remove files contained if they exist."	^ self resolve ensureDirectory
