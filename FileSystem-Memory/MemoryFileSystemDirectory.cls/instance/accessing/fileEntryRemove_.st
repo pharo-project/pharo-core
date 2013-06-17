@@ -1,1 +1,1 @@
-fileEntryRemove: aFileName	modificationTime := DateAndTime now.	^ entries removeKey: aFileName
+fileEntryRemove: aFileName	^ self fileEntryRemove: aFileName ifAbsent: [ FileDoesNotExist signalWith: aFileName ]

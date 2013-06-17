@@ -1,1 +1,1 @@
-lookupDirectory: fullPath filename: fileName 	<primitive: 'primitiveDirectoryEntry' module: 'FilePlugin'>	^ #badDirectoryPath
+lookupDirectory: fullPath filename: fileName 	<primitive: 'primitiveDirectoryEntry' module: 'FilePlugin'>		^ #badDirectoryPath

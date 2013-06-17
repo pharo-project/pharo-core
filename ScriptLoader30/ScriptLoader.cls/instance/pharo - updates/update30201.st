@@ -1,0 +1,1 @@
+update30201	"self new update30201"	self withUpdateLog: '10923 delete should raise error when there is no file	https://pharo.fogbugz.com/f/cases/10923	'.	self loadTogether: self script300 merge: false.	self flushCaches.
