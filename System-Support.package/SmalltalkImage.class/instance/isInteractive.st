@@ -7,7 +7,7 @@ isInteractive
 	self isHeadless ifFalse: [ ^ true ].
 	
 	-1000 to: 1000 do: [ :n | 
-		(#('-interactive') includes: (self vm getSystemAttribute: n)) 
+		(#('-interactive' '--interactive') includes: (self vm getSystemAttribute: n)) 
 			ifTrue: [ ^ true ]].
 	
 	^ false
