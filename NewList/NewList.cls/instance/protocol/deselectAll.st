@@ -1,1 +1,1 @@
-deselectAll	self isMultipleSelection ifFalse: [ ^ self ].		selectedIndexes removeAll.	self secondSelection: 0.	selectedIndex contents: 0.	self changed.
+deselectAll	selectedIndex contents: 0.	self isMultipleSelection 		ifTrue: [			selectedIndexes removeAll.			self secondSelection: 0 ].				self changed.
