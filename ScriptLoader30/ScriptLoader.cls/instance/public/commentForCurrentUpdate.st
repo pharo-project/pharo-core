@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10949 Bug when a method is recategorized	https://pharo.fogbugz.com/f/cases/10949	10963 Nautilus add accessors	https://pharo.fogbugz.com/f/cases/10963	10962 NewList fix in deselectAll	https://pharo.fogbugz.com/f/cases/10962'
+commentForCurrentUpdate ^ '10944 Enable Opal in 3.0	https://pharo.fogbugz.com/f/cases/10944'
