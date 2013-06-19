@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10944 Enable Opal in 3.0	https://pharo.fogbugz.com/f/cases/10944'
+commentForCurrentUpdate ^ '10947 A method in Behavior needs to be recategorized	https://pharo.fogbugz.com/f/cases/10947	10948 Add configuration for enable node navigation using arrows	https://pharo.fogbugz.com/f/cases/10948	10965 BreakPoints do not work with new AST	https://pharo.fogbugz.com/f/cases/10965'

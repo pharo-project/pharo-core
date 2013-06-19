@@ -1,1 +1,1 @@
-buildShortcut: aBuilder	<keymap>	(aBuilder shortcut: #previousSibling) 		category: #SmalltalkEditor 		default: $u command mac| $u ctrl unix | $u ctrl 		do: [ :morph | morph standOutPreviousChild]		description: 'Select the node scope reducing to the previous sibling'
+buildShortcut: aBuilder	<keymap>	(aBuilder shortcut: #previousSibling) 		category: #SmalltalkEditor 		default: self defaultKeyCombination 		do: [ :morph | morph standOutPreviousChild]		description: 'Select the node scope reducing to the previous sibling'
