@@ -1,0 +1,1 @@
+A TabModel is xxxxxxxxx.Instance Variables	actions:		<Object>	closeable:		<Object>	icon:		<Object>	label:		<Object>	menu:		<Object>	morph:		<Object>	retrievingBlock:		<Object>actions	- xxxxxcloseable	- xxxxxicon	- xxxxxlabel	- xxxxxmenu	- xxxxxmorph	- xxxxxretrievingBlock	- xxxxx
