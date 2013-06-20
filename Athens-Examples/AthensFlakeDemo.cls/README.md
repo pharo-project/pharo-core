@@ -1,0 +1,1 @@
+An AthensFlakeDemo is xxxxxxxxx.Instance Variables	circle:		<Object>	frame:		<Object>	spike:		<Object>	surface:		<Object>circle	- xxxxxframe	- xxxxxspike	- xxxxxsurface	- xxxxx

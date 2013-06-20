@@ -1,0 +1,1 @@
+An AthensCairoPatternPaint is xxxxxxxxx.Instance Variables

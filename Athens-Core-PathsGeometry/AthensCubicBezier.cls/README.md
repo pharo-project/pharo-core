@@ -1,0 +1,1 @@
+An AthensCubicBezier is xxxxxxxxx.Instance Variables	x1:		<Object>	x2:		<Object>	x3:		<Object>	x4:		<Object>	y1:		<Object>	y2:		<Object>	y3:		<Object>	y4:		<Object>x1	- xxxxxx2	- xxxxxx3	- xxxxxx4	- xxxxxy1	- xxxxxy2	- xxxxxy3	- xxxxxy4	- xxxxx

@@ -1,0 +1,1 @@
+hslLuminosity	self notAvailable

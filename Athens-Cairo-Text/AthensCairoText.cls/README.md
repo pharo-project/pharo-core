@@ -1,0 +1,1 @@
+An AthensCairoText is xxxxxxxxx.Instance Variables	fontFamily:		<Object>	fontSize:		<Object>	fontSlant:		<Object>	fontWeight:		<Object>	text:		<Object>fontFamily	- xxxxxfontSize	- xxxxxfontSlant	- xxxxxfontWeight	- xxxxxtext	- xxxxx

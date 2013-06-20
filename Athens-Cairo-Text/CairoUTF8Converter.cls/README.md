@@ -1,0 +1,1 @@
+A CairoUTF8Converter is xxxxxxxxx.Instance Variables	asm:		<Object>	buffer:		<Object>	len:		<Object>asm	- xxxxxbuffer	- xxxxxlen	- xxxxx

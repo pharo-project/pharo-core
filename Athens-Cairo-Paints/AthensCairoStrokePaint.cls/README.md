@@ -1,0 +1,1 @@
+An AthensCairoStrokePaint is xxxxxxxxx.Instance Variables	dashLenghts:		<Object>	dashOffset:		<Object>dashLenghts	- xxxxxdashOffset	- xxxxx

@@ -1,0 +1,1 @@
+push: aMorph	currentMorph := aMorph.	stack addLast: aMorph.

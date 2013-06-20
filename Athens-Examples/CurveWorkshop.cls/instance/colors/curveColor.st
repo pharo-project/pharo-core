@@ -1,0 +1,1 @@
+curveColor	^ Color red

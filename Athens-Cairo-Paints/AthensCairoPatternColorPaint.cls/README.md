@@ -1,0 +1,1 @@
+An AthensCairoPatternColorPaint is xxxxxxxxx.Instance Variables	color:		<Object>color	- xxxxx

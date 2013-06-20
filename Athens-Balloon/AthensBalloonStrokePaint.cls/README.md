@@ -1,0 +1,1 @@
+An AthensBalloonStrokePaint is xxxxxxxxx.Instance Variables

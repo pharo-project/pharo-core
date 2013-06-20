@@ -1,0 +1,1 @@
+withMorph: aMorph do: aBlock		self push: aMorph.		"clear geometry for incoming morph"	geometry removeKey: aMorph ifAbsent: nil.	[aBlock value ] ensure: [	self pop ]

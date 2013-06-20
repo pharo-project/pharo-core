@@ -1,0 +1,1 @@
+An AthensBalloonGradientPaint is xxxxxxxxx.Instance Variables	colorRamp:		<Object>colorRamp	- xxxxx

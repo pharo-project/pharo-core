@@ -1,0 +1,1 @@
+newStory	history := OrderedCollection new: 1000.

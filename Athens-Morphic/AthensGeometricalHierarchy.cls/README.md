@@ -1,0 +1,1 @@
+An AthensGeometricalHierarchy is xxxxxxxxx.Instance Variables	currentMorph:		<Object>	geometry:		<Object>	history:		<Object>	stack:		<Object>currentMorph	- xxxxxgeometry	- xxxxxhistory	- xxxxxstack	- xxxxx

@@ -1,0 +1,1 @@
+An AthensMorphicGradientPaint is xxxxxxxxx.Instance Variables	gradient:		<Object>gradient	- xxxxx

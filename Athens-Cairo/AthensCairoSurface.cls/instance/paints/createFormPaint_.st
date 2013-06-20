@@ -1,0 +1,1 @@
+createFormPaint: aForm 	"here we should convert form to cairo surface"		| form32 newSurface paint form2 |	newSurface := self class fromForm: aForm.		^ newSurface asAthensPaintOn: context

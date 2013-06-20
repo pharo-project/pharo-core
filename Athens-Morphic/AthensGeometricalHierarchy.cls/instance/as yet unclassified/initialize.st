@@ -1,0 +1,1 @@
+initialize	geometry := WeakIdentityKeyDictionary new.	stack := OrderedCollection new: 100.

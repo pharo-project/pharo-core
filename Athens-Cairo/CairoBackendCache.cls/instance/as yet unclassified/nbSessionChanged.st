@@ -1,0 +1,1 @@
+nbSessionChanged	self initialize.	

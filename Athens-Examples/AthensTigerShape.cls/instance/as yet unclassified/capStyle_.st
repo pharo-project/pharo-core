@@ -1,0 +1,1 @@
+capStyle: cap	capStyle := cap.

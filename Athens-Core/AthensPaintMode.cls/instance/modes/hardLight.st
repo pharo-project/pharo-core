@@ -1,0 +1,1 @@
+hardLight	self notAvailable

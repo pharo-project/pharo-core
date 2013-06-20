@@ -1,0 +1,1 @@
+AthensCairoPatternPaint subclass: #AthensCairoPatternColorPaint	instanceVariableNames: 'color'	classVariableNames: ''	poolDictionaries: 'AthensCairoDefs'	category: 'Athens-Cairo-Paints'

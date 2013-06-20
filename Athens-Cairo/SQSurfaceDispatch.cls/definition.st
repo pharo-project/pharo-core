@@ -1,0 +1,1 @@
+NBExternalStructure variableByteSubclass: #SQSurfaceDispatch	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Athens-Cairo'

@@ -1,0 +1,1 @@
+is: aSymbol	^ aSymbol = #cairoMatrix or:[ super is: aSymbol ].

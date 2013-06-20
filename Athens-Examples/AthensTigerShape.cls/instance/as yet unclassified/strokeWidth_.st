@@ -1,0 +1,1 @@
+strokeWidth: w	strokeWidth := w

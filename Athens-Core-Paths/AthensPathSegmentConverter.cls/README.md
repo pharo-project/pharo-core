@@ -1,0 +1,1 @@
+An AthensPathSegmentConverter is xxxxxxxxx.Instance Variables	contourStartPt:		<Object>	dest:		<Object>	endPoint:		<Object>contourStartPt	- xxxxxdest	- xxxxxendPoint	- xxxxx

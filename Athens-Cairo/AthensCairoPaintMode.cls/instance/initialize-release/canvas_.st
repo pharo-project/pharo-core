@@ -1,0 +1,1 @@
+canvas: aCanvas	canvas := aCanvas

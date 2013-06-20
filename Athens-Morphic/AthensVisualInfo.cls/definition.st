@@ -1,0 +1,1 @@
+Object subclass: #AthensVisualInfo	instanceVariableNames: 'clipBox shape matrix children'	classVariableNames: ''	poolDictionaries: ''	category: 'Athens-Morphic'

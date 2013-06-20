@@ -1,0 +1,1 @@
+A CairoFreetypeFontRenderer is xxxxxxxxx.Instance Variables	advance:		<Object>	cache:		<Object>	canvas:		<Object>	font:		<Object>	originalFont:		<Object>	surface:		<Object>	utfConverter:		<Object>advance	- xxxxxcache	- xxxxxcanvas	- xxxxxfont	- xxxxxoriginalFont	- xxxxxsurface	- xxxxxutfConverter	- xxxxx

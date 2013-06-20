@@ -1,0 +1,1 @@
+An AthensPluggableTextMorph is xxxxxxxxx.Instance Variables

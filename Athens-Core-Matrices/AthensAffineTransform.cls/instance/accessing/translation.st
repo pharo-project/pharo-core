@@ -1,0 +1,1 @@
+translation	^ x@y

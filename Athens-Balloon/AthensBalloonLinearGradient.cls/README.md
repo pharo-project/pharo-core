@@ -1,0 +1,1 @@
+An AthensBalloonLinearGradient is xxxxxxxxx.Instance Variables	corner:		<Object>	origin:		<Object>corner	- xxxxxorigin	- xxxxx

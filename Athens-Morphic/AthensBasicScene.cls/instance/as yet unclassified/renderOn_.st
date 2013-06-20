@@ -1,0 +1,1 @@
+renderOn: canvas	canvas surface clear: Color black.		canvas pathTransform 		rotateByDegrees: 30.		canvas setPaint: Color yellow.		canvas drawShape: 	(canvas createPath: [:builder | 		builder 			relative;			lineTo: 100@0;			curveVia: 50@50 to: 0@100					]).	

@@ -1,0 +1,1 @@
+An AthensCompositePaint is xxxxxxxxx.Instance Variables	paints:		<Object>paints	- xxxxx

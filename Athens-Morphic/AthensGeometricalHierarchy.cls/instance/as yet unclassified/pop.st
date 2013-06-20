@@ -1,0 +1,1 @@
+pop	| doneMorph |	doneMorph := stack removeLast.	history add: doneMorph.	currentMorph := stack ifEmpty: [ nil ] ifNotEmpty: [ stack last ].

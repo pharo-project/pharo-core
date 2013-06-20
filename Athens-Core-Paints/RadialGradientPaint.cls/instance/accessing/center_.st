@@ -1,0 +1,1 @@
+center: aPoint	center := aPoint

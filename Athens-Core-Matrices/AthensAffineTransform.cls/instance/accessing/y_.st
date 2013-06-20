@@ -1,0 +1,1 @@
+y: number	y := number

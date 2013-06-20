@@ -1,0 +1,1 @@
+releaseCanvas	currentCanvas := nil

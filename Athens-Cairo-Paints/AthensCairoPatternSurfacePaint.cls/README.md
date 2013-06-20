@@ -1,0 +1,1 @@
+An AthensCairoPatternSurfacePaint is xxxxxxxxx.Instance Variables	direction:		<Object>	origin:		<Object>	surface:		<Object>direction	- xxxxxorigin	- xxxxxsurface	- xxxxx
