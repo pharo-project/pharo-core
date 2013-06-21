@@ -1,0 +1,1 @@
+basicOrganization: anOrganization	organization := anOrganization
