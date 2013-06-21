@@ -1,0 +1,1 @@
+traitTransformations 	^ self traitComposition transformations 

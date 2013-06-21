@@ -1,0 +1,1 @@
+Trait named: #TClassDescription	uses: TClassAndTraitDescription	category: 'Traits-Kernel-Traits'

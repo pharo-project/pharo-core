@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10975 integrate athens	https://pharo.fogbugz.com/f/cases/10975/integrate-athens'
+commentForCurrentUpdate ^ '10976 kernel methods refactor	https://pharo.fogbugz.com/f/cases/10976/kernel-methods-refactor'

@@ -1,0 +1,1 @@
+removeObsoleteSubclass: aClass	"Remove aClass from the weakly remembered obsolete subclasses"	| obs |	obs := self obsoleteSubclasses at: self ifAbsent:[^ self].	(obs includes: aClass) ifFalse:[^self].	obs := obs copyWithout: aClass.	obs := obs copyWithout: nil.	self obsoleteSubclasses at: self put: obs

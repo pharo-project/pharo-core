@@ -1,0 +1,1 @@
+hasTraitComposition	^ self traitComposition notEmpty.

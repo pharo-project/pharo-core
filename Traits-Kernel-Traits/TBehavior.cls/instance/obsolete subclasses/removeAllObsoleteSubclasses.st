@@ -1,0 +1,1 @@
+removeAllObsoleteSubclasses	"Remove all the obsolete subclasses of the receiver"	self obsoleteSubclasses removeKey: self ifAbsent: [].
