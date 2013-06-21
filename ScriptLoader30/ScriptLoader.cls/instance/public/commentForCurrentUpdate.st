@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10976 kernel methods refactor	https://pharo.fogbugz.com/f/cases/10976/kernel-methods-refactor(pass 3)'
+commentForCurrentUpdate ^ '10976 kernel methods refactor	https://pharo.fogbugz.com/f/cases/10976/kernel-methods-refactor(pass 4)'

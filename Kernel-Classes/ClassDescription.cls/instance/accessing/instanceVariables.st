@@ -1,1 +1,1 @@
-instanceVariables	^ instanceVariables
+instanceVariables	^instanceVariables.
