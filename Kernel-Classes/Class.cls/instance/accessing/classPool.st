@@ -1,1 +1,1 @@
-classPool	"Answer the dictionary of class variables."	classPool == nil		ifTrue: [^Dictionary new]		ifFalse: [^classPool]
+classPool	"Answer the dictionary of class variables."	classPool == nil		ifTrue: [classPool := Dictionary new].			^classPool.
