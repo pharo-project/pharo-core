@@ -1,1 +1,1 @@
-gather: aBlock	^ Array streamContents:		[:stream |		self do: [:ea | stream nextPutAll: (aBlock value: ea)]]
+gather: aBlock	"This method is kept for compatibility reasons, use flatCollect instead."	^ self flatCollect: aBlock.

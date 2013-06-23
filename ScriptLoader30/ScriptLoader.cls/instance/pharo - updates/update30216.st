@@ -1,0 +1,1 @@
+update30216	"self new update30216"	self withUpdateLog: '10995 remove #printWithClosureAnalysisOn:	https://pharo.fogbugz.com/f/cases/10995	10985 StepList full of useless morphs	https://pharo.fogbugz.com/f/cases/10985	10892 flatCollect added to pharo	https://pharo.fogbugz.com/f/cases/10892'.	self loadTogether: self script315 merge: false.	self flushCaches.
