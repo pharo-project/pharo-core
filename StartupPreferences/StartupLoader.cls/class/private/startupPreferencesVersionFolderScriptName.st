@@ -1,1 +1,1 @@
-startupPreferencesVersionFolderScriptName	^ 'startupPharo',SystemVersion current dottedMajorMinor,'.st'
+startupPreferencesVersionFolderScriptName	^ 'startupPharo', SystemVersion current dottedMajorMinor,'.st'

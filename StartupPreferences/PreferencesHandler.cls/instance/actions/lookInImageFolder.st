@@ -1,1 +1,1 @@
-lookInImageFolder	^ self lookInFolder: FileSystem workingDirectory forFilesMatching: StartupLoader startupScriptName.
+lookInImageFolder	^ self 		lookInFolder: FileSystem workingDirectory 		forFilesMatching: StartupLoader startupScriptName.

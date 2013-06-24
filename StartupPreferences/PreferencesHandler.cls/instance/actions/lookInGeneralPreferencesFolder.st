@@ -1,1 +1,1 @@
-lookInGeneralPreferencesFolder	^ self lookInFolder: StartupLoader preferencesGeneralFolder forFilesMatching: '*.st'.
+lookInGeneralPreferencesFolder	^ self 		lookInFolder: StartupLoader preferencesGeneralFolder 		forFilesMatching: '*.st'.

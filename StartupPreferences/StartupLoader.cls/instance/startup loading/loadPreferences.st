@@ -1,1 +1,1 @@
-loadPreferences	self retreiveFilesStream do: [:file | file fileIn ].
+loadPreferences	self retrieveFilesStream do: [:file | file fileIn ].

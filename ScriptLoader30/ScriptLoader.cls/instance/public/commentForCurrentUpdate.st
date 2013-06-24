@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10995 remove #printWithClosureAnalysisOn:	https://pharo.fogbugz.com/f/cases/10995	10985 StepList full of useless morphs	https://pharo.fogbugz.com/f/cases/10985	10892 flatCollect added to pharo	https://pharo.fogbugz.com/f/cases/10892'
+commentForCurrentUpdate ^ '10972 Tabs example broken	https://pharo.fogbugz.com/f/cases/10972	10996 Same category for = messages	https://pharo.fogbugz.com/f/cases/10996	10997 Some typos in StartupPreferences + updating comments	https://pharo.fogbugz.com/f/cases/10997	'

@@ -1,1 +1,1 @@
-selectedTab	^ selectionHistory lastIfAbsent: [ nil ]
+selectedTab	  ^selectionHistory ifEmpty: [ nil ] ifNotEmpty: [ selectionHistory last ]
