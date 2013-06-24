@@ -1,0 +1,1 @@
+windowRightOffset	^ 0
