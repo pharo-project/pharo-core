@@ -1,8 +1,7 @@
 serialize/materialize
 serializeReferencesOf: anObject with: anEncoder
-	anEncoder encodePositiveInteger: anObject size.
-	anObject keysAndValuesDo: [ :key :value |
-		anEncoder encodeReferenceTo: key.
-		anEncoder encodeReferenceTo: value.
-	]
+	| refs |
+	refs := self references at: anObject ifAbsent: [ ^ self ].
+	anEncoder encodePositiveInteger: refs first.
+	refs allButFirst do: [ :value | anEncoder encodeReferenceTo: value ]
 	

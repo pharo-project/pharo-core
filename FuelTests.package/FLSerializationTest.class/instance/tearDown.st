@@ -5,3 +5,4 @@ tearDown
 	self tearDownTraits.
 	self tearDownClassFactory.
 	self tearDownGlobalVariables.
+	self tearDownInstanceVariables

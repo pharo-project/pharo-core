@@ -2,6 +2,6 @@ instance creation
 materializing: aClass from: aDecoder
 	
 	^ self basicNew
-		initializeWith: aClass;
+		initializeWithClass: aClass;
 		initializeMaterializingFrom: aDecoder;
 		yourself.

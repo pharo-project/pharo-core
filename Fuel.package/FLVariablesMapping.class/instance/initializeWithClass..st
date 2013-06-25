@@ -1,4 +1,4 @@
 initialize-release
-initializeWith: aClass
+initializeWithClass: aClass
 	self initialize.
 	theClass := aClass

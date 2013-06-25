@@ -1,7 +1,11 @@
 public
 commentForCurrentUpdate
- ^ '10938 backport 2.0 : an MCOrganizationDefinition should only remove empty categories during unload
-	https://pharo.fogbugz.com/f/cases/10938
+ ^ '10888 Backport 2.0: Compound Extension Methods Unpackaged
+	https://pharo.fogbugz.com/f/cases/10888/Backport-2-0-Compound-Extension-Methods-Unpackaged
+
+10730 Fix for stack serialization with Fuel
+	https://pharo.fogbugz.com/f/cases/10730/Fix-for-stack-serialization-with-Fuel
 	
-10909 Backport Pharo2.0: Prepare isHeadless for new VMs with double dash -- arguments
-	https://pharo.fogbugz.com/f/cases/10909'
+10994 Backport 2.0: Delays do not work properly directly on image startup
+	https://pharo.fogbugz.com/f/cases/10994/Backport-2-0-Delays-do-not-work-properly-directly-on-image-startup
+'

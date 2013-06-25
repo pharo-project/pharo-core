@@ -3,5 +3,5 @@ initializeWith: anEncoder root: anObject analyzer: anAnalyzer
 			
 	self initialize.
 	encoder := anEncoder.
-	root := anObject.
+	root := anObject fuelReplacement.
 	analyzer := anAnalyzer.

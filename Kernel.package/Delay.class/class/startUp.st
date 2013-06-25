@@ -6,6 +6,8 @@ startUp
 	(DelaySuspended = false) 
 		ifTrue:[^self error: 'Trying to activate Delay twice'].
 	
+	self startTimerEventLoop.
+	
 	DelaySuspended := false.
 	self restoreResumptionTimes.
 	AccessProtect signal.

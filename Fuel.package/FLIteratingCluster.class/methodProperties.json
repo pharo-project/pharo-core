@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"add:traceWith:" : "MartinDias 10/13/2011 16:26",
+		"add:traceWith:" : "MaxLeske 5/4/2013 09:46",
+		"addReferenceFrom:to:" : "MaxLeske 5/3/2013 15:22",
+		"addReferencesFrom:to:" : "MaxLeske 5/3/2013 10:48",
 		"clusterMaterializeStepWith:" : "MarianoMartinezPeck 9/19/2012 14:42",
 		"clusterSerializeStepWith:" : "MarianoMartinezPeck 9/19/2012 14:41",
 		"initializeAnalyzing" : "MartinDias 1/8/2012 14:32",
@@ -12,6 +14,7 @@
 		"objects" : "MartinDias 8/29/2011 00:59",
 		"printNameOn:" : "MartinDias 8/29/2011 01:16",
 		"printOn:" : "MartinDias 8/29/2011 00:52",
+		"references" : "MaxLeske 5/3/2013 08:36",
 		"referencesOf:do:" : "MartinDias 8/29/2011 00:56",
 		"registerIndexesOn:" : "MartinDias 8/29/2011 01:22",
 		"serializeInstance:with:" : "MartinDias 12/30/2011 13:37",

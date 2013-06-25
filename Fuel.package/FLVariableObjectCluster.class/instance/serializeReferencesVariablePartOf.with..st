@@ -1,5 +1,5 @@
 serialize/materialize
 serializeReferencesVariablePartOf: anObject with: anEncoder
 	
-	1 to: anObject basicSize do: [ :index |
-		anEncoder encodeReferenceTo: (anObject basicAt: index) ]
+	(self variableReferences at: anObject ifAbsent: [ ^ self ]) do: [ :value |
+		anEncoder encodeReferenceTo: value ]

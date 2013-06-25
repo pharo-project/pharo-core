@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"objects" ],
+		"objects",
+		"references" ],
 	"name" : "FLIteratingCluster",
 	"pools" : [
 		 ],

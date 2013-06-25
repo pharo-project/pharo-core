@@ -1,5 +1,5 @@
 private registration
 checkPackageExistsOrRegister: packageName
 	(self packages 
-		anySatisfy: [ :each | self category: each packageName matches: packageName ])
+		anySatisfy: [ :each | self category: packageName matches: each packageName ])
 		ifFalse: [ (RPackage named: packageName capitalized) register ] 

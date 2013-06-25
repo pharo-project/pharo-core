@@ -1,5 +1,5 @@
 serialize/materialize
 serializeReferencesOf: anObject with: anEncoder 
 
-	mapping do: [ :index | 
-		anEncoder encodeReferenceTo: (anObject instVarAt: index) ].
+	(self references at: anObject ifAbsent: [ ^ self ]) do: [ :value |
+		anEncoder encodeReferenceTo: value ].
