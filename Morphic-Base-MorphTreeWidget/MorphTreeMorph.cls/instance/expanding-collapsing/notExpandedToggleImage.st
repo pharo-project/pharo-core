@@ -1,1 +1,1 @@
-notExpandedToggleImage	^ notExpandedToggleImage ifNil: [notExpandedToggleImage := ImageMorph new image: self notExpandedForm].
+notExpandedToggleImage	^ notExpandedToggleImage ifNil: [notExpandedToggleImage := ImageMorph new form: self notExpandedForm].

@@ -1,1 +1,1 @@
-labelGraphic		^ graphicalMorph image
+labelGraphic	^ graphicalMorph form

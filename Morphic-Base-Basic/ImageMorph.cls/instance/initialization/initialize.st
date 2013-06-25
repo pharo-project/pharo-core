@@ -1,1 +1,1 @@
-initialize	super initialize.	self image: self defaultImage.
+initialize	super initialize.	self form: self defaultImage.

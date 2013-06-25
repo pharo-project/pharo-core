@@ -1,1 +1,0 @@
-imageExport		^ self image bits asArray

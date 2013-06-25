@@ -1,1 +1,1 @@
-grabFromScreen	self image: Form fromUser.
+grabFromScreen	self form: Form fromUser.

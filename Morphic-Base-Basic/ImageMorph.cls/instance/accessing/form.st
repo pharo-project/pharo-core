@@ -1,1 +1,1 @@
-form	"For compatability with SketchMorph."	^ image
+form	^ image

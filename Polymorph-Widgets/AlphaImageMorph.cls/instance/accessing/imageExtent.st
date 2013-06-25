@@ -1,1 +1,1 @@
-imageExtent	"Answer the extent of the original form."	^self image extent
+imageExtent	"Answer the extent of the original form."	^self form extent

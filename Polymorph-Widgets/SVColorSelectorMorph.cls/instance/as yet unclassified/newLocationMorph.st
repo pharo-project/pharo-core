@@ -1,1 +1,1 @@
-newLocationMorph	"Answer a new morph indicating the location of the selected color."	^ImageMorph new		image: Cursor crossHair withMask asCursorForm
+newLocationMorph	"Answer a new morph indicating the location of the selected color."	^ImageMorph new		form: Cursor crossHair withMask asCursorForm

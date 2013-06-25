@@ -1,1 +1,1 @@
-asMorph	^ImageMorph new image: self
+asMorph	^ImageMorph new form: self

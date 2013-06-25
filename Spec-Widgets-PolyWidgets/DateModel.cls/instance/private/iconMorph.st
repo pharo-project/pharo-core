@@ -1,1 +1,1 @@
-iconMorph	^ ImageMorph new image: Smalltalk ui icons calendarIcon.
+iconMorph	^ ImageMorph new form: Smalltalk ui icons calendarIcon.
