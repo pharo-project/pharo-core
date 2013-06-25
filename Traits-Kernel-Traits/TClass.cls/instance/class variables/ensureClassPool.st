@@ -1,1 +1,1 @@
-ensureClassPool	self classPool.
+ensureClassPool	^self classPool.

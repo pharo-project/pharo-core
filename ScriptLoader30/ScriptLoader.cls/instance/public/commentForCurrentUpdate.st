@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10735 Cleaning ImageMorph API	use form: for ImageMorph new form: ... and not image because image does not convey what is expected. 	https://pharo.fogbugz.com/default.asp?10735'
+commentForCurrentUpdate ^ '10939 Add the method #classBuilder to SmalltalkImage	https://pharo.fogbugz.com/f/cases/10939/Add-the-method-classBuilder-to-SmalltalkImage10990 compileAllFrom: is different due the kernel classes modification	https://pharo.fogbugz.com/f/cases/10990/10991 More needed changes for the polymorphism	https://pharo.fogbugz.com/f/cases/10991/'

@@ -1,0 +1,1 @@
+classBuilder		"Answer the object responsible of creating classes in the system."			^ ClassBuilder new

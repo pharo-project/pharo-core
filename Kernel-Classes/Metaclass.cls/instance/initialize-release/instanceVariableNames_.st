@@ -1,1 +1,1 @@
-instanceVariableNames: instVarString 	"Declare additional named variables for my instance."	^(ClassBuilder new)		class: self		instanceVariableNames: instVarString
+instanceVariableNames: instVarString 	"Declare additional named variables for my instance."	^thisClass classBuilder		class: self		instanceVariableNames: instVarString
