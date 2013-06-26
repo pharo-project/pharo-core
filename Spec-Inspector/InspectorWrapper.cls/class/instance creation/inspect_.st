@@ -1,1 +1,1 @@
-inspect: anObject	^ self openInspector: anObject eyeInspector
+inspect: anObject	^ self openInspector: anObject inspector

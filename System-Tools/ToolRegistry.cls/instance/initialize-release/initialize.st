@@ -1,1 +1,1 @@
-initialize	"symbols used as keys "	tools := IdentityDictionary new.  	inspectorsMap := IdentityDictionary new.		self initDefaultToolSet
+initialize	"symbols used as keys "	tools := IdentityDictionary new.  		self initDefaultToolSet

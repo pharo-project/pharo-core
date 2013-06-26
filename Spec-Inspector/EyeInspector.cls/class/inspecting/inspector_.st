@@ -1,1 +1,1 @@
-inspector: anObject 	^ anObject class eyeClass new		inspect: anObject;		yourself
+inspector: anObject 	^ anObject class inspectorClass new		inspect: anObject;		yourself

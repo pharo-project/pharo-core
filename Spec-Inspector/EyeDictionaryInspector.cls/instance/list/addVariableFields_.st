@@ -1,1 +1,1 @@
-addVariableFields: elements	self object keys sorted do: [ :key |		elements add: (IndexedEyeElement host: self object index: key)]
+addVariableFields: elements	self sortedKeys do: [ :key |		elements add: (IndexedEyeElement host: self object index: key)]

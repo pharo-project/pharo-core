@@ -1,1 +1,1 @@
-objectVariableSize	^ self object size
+objectVariableSize	^ [ self object size ] on: Error do: [ self object basicSize ]

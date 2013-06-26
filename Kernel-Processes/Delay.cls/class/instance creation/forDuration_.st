@@ -1,1 +1,1 @@
-forDuration: aDuration  	^ self forMilliseconds: aDuration asMilliSeconds 
+forDuration: aDuration 	"Return a new Delay for the given duration." 	^ self forMilliseconds: aDuration asMilliSeconds 

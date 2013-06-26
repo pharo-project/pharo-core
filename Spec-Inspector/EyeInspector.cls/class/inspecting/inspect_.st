@@ -1,1 +1,1 @@
-inspect: anObject 	^ InspectorWrapper openInspector: (self inspector: anObject)
+inspect: anObject 	InspectorWrapper openInspector: (self inspector: anObject).	^ anObject

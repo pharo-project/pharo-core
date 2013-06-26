@@ -1,1 +1,1 @@
-Object subclass: #ToolRegistry	instanceVariableNames: 'tools inspectorsMap'	classVariableNames: ''	poolDictionaries: ''	category: 'System-Tools'
+Object subclass: #ToolRegistry	instanceVariableNames: 'tools'	classVariableNames: ''	poolDictionaries: ''	category: 'System-Tools'
