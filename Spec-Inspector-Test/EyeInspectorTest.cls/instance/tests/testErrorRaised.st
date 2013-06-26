@@ -1,0 +1,1 @@
+testErrorRaised	| inspector |	self instancesToTry do: [ :each |		self shouldnt: [ inspector := each inspector ] raise: Error.		inspector close ] 

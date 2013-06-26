@@ -1,1 +1,0 @@
-A WeakSetInspectorTest is xxxxxxxxx.Instance Variables
