@@ -1,1 +1,1 @@
-baseURL	^ 'http://ss3.gemstone.com/ss/'
+baseURL	^ 'http://ss3.gemtalksystems.com/ss/'
