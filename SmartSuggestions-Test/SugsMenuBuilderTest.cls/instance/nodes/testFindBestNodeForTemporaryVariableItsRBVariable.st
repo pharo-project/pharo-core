@@ -1,1 +1,1 @@
-testFindBestNodeForTemporaryVariableItsRBVariable	| node |	node :=SugsMenuBuilder findBestNodeFor:  SugsMockContext tempVarContext .	self assert: node class equals: RBVariableNode.	"Es una forma un tanto molesta de preguntar... es de clase?" 	self assert:( node binding isTemp).
+testFindBestNodeForTemporaryVariableItsRBVariable	| node |	node :=SugsMenuBuilder findBestNodeFor:  SugsMockContext tempVarContext .	self assert: node isTemp.

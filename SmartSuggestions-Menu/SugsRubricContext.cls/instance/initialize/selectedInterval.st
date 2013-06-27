@@ -1,1 +1,0 @@
-selectedInterval	^ model selectionInterval

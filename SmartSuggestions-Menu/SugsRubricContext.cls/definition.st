@@ -1,1 +1,0 @@
-SugsAbstractContext subclass: #SugsRubricContext	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'SmartSuggestions-Menu'

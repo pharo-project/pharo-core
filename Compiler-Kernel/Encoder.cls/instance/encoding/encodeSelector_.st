@@ -1,1 +1,1 @@
-encodeSelector: selector	^self		name: selector		key: selector		class: SelectorNode		type: SendType		set: selectorSet
+encodeSelector: aSelector	^self		name: aSelector		key: aSelector		class: SelectorNode		type: SendType		set: selectorSet

@@ -1,1 +1,1 @@
-code: index type: type	index isNil 		ifTrue: [^type negated].	(CodeLimits at: type) > index 		ifTrue: [^(CodeBases at: type) + index].	^type * 256 + index
+code: argIndex type: type	argIndex isNil 		ifTrue: [^type negated].	(CodeLimits at: type) > argIndex 		ifTrue: [^(CodeBases at: type) + argIndex].	^type * 256 + argIndex

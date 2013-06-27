@@ -1,1 +1,1 @@
-testLinesDoWithCrBetween	| string newString |	string := ' This is a test ', String cr,'of line breaking'.	string linesDo: [ :line |		self assert: ((line size) = 16)]
+testLinesDoWithCrBetween	| aString |	aString := ' This is a test ', String cr,'of line breaking'.	aString linesDo: [ :line |		self assert: ((line size) = 16)]

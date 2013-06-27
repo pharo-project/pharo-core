@@ -1,1 +1,1 @@
-behavior: behavior	^ self new		behavior: behavior;		yourself
+behavior: aBehavior	^ self new		behavior: aBehavior;		yourself

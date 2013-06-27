@@ -1,1 +1,0 @@
-selectedClass	^ Smalltalk globals at: model morph model className

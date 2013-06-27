@@ -1,1 +1,0 @@
-selectedMethod	^ self selectedClass methodDict at: model morph model selector ifAbsent:[self selectedClass class methodDict at: model morph model selector ifAbsent:[nil]].
