@@ -1,1 +1,1 @@
-testAt	self assert: (string at: 1) = $H.
+testAt	self assert: (string at: 1) = $H.
