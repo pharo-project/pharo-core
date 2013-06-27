@@ -1,0 +1,1 @@
+extendWord	self hasFields ifTrue: [		PrimitiveTypeConflict new			layout: self;			subType: #word;			signal ].	^ WordLayout new

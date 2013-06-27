@@ -1,0 +1,1 @@
+I am an adapter of a Slot class builder to the traditional class building protocol.

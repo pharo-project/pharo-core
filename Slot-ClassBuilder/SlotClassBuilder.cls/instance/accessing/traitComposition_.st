@@ -1,0 +1,1 @@
+traitComposition: aTraitComposition	traitComposition := aTraitComposition asTraitComposition

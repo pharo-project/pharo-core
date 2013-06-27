@@ -1,0 +1,1 @@
+applyAndUpdateFormat: classModification	| old new |	old := classModification target.	new := classModification apply.		" Notify the system of the change "	client classFormatChangedFrom: old to: new by: classModification.	" Store the modification for updateClasses "	oldClasses add: old.	newClasses add: new.	^ new

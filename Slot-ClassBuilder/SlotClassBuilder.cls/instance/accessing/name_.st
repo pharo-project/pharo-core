@@ -1,0 +1,1 @@
+name: aName	name := aName.	self validateClassName.

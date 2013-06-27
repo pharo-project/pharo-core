@@ -1,0 +1,1 @@
+checkSanity	super checkSanity.	self checkSlotNames.	self checkSlotIndices.

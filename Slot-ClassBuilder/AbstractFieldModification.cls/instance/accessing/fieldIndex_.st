@@ -1,0 +1,1 @@
+fieldIndex: anObject	fieldIndex := anObject

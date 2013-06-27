@@ -1,0 +1,1 @@
+copyTraitCompositionFrom: old to: new	self installTraitComposition: old traitComposition copyTraitExpression on: new.		

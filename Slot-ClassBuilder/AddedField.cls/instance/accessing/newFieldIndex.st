@@ -1,0 +1,1 @@
+newFieldIndex	^ newSlot index + fieldIndex

@@ -1,0 +1,1 @@
+SlotClassBuilderConflict subclass: #CircularHierarchyConflict	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Slot-ClassBuilder'

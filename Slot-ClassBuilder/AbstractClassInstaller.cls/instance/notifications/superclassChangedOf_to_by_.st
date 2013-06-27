@@ -1,0 +1,1 @@
+superclassChangedOf: aClass to: newClass by: classModification	self subclassResponsibility.

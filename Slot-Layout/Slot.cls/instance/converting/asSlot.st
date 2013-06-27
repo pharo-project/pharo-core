@@ -1,0 +1,1 @@
+asSlot	^ self

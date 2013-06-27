@@ -1,0 +1,1 @@
+metaOfSuper	 ^ superclass ifNil: [ Class ] ifNotNil: [ superclass class ].

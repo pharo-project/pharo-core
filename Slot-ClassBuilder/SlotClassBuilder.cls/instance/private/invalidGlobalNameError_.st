@@ -1,0 +1,1 @@
+invalidGlobalNameError: description	"Throw a name validation exception"		^ InvalidGlobalNameConflict new signal: description

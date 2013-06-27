@@ -1,0 +1,1 @@
+applyPropagations: classModification	classModification propagationsDo: [ :propagation | 		self applyAndUpdateMethods: propagation ]

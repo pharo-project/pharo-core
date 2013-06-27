@@ -1,0 +1,1 @@
+anonymousSubclassOf: newSuper	"Answer an anonymous subclass of the given superclass."	^ self		newSubclassOf: newSuper		type: newSuper typeOfClass		instanceVariables: ''		from: nil

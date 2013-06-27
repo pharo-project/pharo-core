@@ -1,0 +1,1 @@
+initialize	compactClassIndex := 0

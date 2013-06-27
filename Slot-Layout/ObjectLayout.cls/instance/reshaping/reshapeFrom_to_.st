@@ -1,0 +1,1 @@
+reshapeFrom: oldScope to: newLayout	| newScope |	newScope := self slotScope rebase: oldScope to: newLayout slotScope.	^ newLayout extendAgain: self with: newScope.

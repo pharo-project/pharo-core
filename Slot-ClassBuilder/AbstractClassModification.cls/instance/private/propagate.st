@@ -1,0 +1,1 @@
+propagate	target subclassesDo: [ :subclass |		propagations add:			(ClassModificationPropagation				propagate: self				to: subclass) ]			

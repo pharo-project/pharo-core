@@ -1,0 +1,1 @@
+compactClassIndex	^ compactClassIndex

@@ -1,0 +1,1 @@
+basicLayoutFor: aClass	aClass isBits		ifTrue: [			aClass isBytes ifTrue: [ ^ aClass superclass layout extendByte ].			 ^ aClass superclass layout extendWord ].		aClass isWeak 		ifTrue: [ ^ self basicWeakLayoutFor: aClass  ].		aClass isVariable 		ifTrue: [ ^ self basicVariableLayoutFor: aClass ].		^ aClass superclass layout extend: (self layoutScopeFor: aClass).

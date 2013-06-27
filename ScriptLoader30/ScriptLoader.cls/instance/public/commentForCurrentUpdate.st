@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11030 #defaultLabel is uncategorized in Number	https://pharo.fogbugz.com/f/cases/11030	11033 notObsolete IS obselete	https://pharo.fogbugz.com/f/cases/11033	11034 HandMorph>>startUp should be removed	https://pharo.fogbugz.com/f/cases/11034	11039 Start to define default values	https://pharo.fogbugz.com/f/cases/11039'
+commentForCurrentUpdate ^ '10398 Integrate new class builder step 1	https://pharo.fogbugz.com/f/cases/10398'

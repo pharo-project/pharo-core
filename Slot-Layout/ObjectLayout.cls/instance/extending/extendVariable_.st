@@ -1,0 +1,1 @@
+extendVariable: aScope	PrimitiveTypeConflict new		layout: self;		subType: #variable;		signal
