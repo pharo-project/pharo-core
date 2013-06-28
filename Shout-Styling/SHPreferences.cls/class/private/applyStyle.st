@@ -1,1 +1,1 @@
-applyStyle	SHTextStylerST80		styleTable: (Groups values				gather: [:group | group styleForTable])
+applyStyle	| table |	table := Groups values gather: [:group | group styleForTable].	SHTextStylerST80 styleTable: table.	SHRBTextStyler styleTable: table.
