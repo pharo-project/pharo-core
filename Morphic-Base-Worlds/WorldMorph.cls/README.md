@@ -1,0 +1,1 @@
+A WorldMorph is a special morph that represents the world.It is a paste up and it holds active hand
