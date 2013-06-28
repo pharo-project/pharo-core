@@ -1,0 +1,1 @@
+update30228	"self new update30228"	self withUpdateLog: '11059 OpenToolTest failing	https://pharo.fogbugz.com/f/cases/11059	10887 Compound Extension Methods Unpackaged	https://pharo.fogbugz.com/f/cases/10887	10910 Window Menu Registration (like World Menu)	https://pharo.fogbugz.com/f/cases/10910	'.	self loadTogether: self script327 merge: false.	self flushCaches.

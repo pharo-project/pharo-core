@@ -1,1 +1,0 @@
-desktopMenuTitle	^ self class desktopMenuTitle

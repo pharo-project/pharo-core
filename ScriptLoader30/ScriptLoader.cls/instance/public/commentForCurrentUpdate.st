@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10398 Integrate new class builder step 1	https://pharo.fogbugz.com/f/cases/10398'
+commentForCurrentUpdate ^ '11059 OpenToolTest failing	https://pharo.fogbugz.com/f/cases/11059	10887 Compound Extension Methods Unpackaged	https://pharo.fogbugz.com/f/cases/10887	10910 Window Menu Registration (like World Menu)	https://pharo.fogbugz.com/f/cases/10910	'

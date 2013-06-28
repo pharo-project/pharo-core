@@ -1,1 +1,1 @@
-testInspectClass	| inspector |	inspector := Object inspect.	inspector changed.	inspector close.
+testInspectClass	| inspector |	inspector := Object inspector.	inspector changed.	inspector close.

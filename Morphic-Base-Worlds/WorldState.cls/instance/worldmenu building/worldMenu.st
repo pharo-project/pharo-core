@@ -1,1 +1,1 @@
-worldMenu	^ [self discoveredWorldMenu]		on: Error		do: [menuBuilder := nil.			^ self fallbackWorldMenu] 
+worldMenu	^ menuBuilder menuEntitled: self discoveredMenuTitle.

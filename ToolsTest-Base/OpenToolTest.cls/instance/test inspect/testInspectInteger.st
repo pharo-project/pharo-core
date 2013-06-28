@@ -1,1 +1,1 @@
-testInspectInteger	| inspector |	inspector := 1 inspect.	inspector changed.	inspector close.
+testInspectInteger	| inspector |	inspector := 1 inspector.	inspector changed.	inspector close.

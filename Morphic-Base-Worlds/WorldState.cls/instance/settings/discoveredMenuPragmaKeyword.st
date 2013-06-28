@@ -1,0 +1,1 @@
+discoveredMenuPragmaKeyword	^ self class discoveredMenuPragmaKeyword

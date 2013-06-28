@@ -1,1 +1,1 @@
-testInspectDictionary	| inspector |	inspector := (Dictionary new) inspect.	inspector changed.	inspector close.
+testInspectDictionary	| inspector |	inspector := (Dictionary new) inspector.	inspector changed.	inspector close.

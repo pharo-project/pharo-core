@@ -1,1 +1,1 @@
-menuAt: aName	"returns a MenuMorph from my menuSpec"	^  (self menuSpecAt: aName) asMenuMorph
+menuAt: aName	"returns a MenuMorph from my menuSpec"	^ self menuFrom: [ self menuSpecAt: aName ].
