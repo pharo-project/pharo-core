@@ -1,0 +1,1 @@
+update30232	"self new update30232"	self withUpdateLog: '11068 Separating WorldMorph from PasteUpMorph	https://pharo.fogbugz.com/f/cases/11068'.	self loadTogether: self script331 merge: false.	self flushCaches.

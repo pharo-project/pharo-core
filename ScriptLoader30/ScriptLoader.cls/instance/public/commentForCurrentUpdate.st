@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10861 System not filing in class comments from changes file.	https://pharo.fogbugz.com/f/cases/10861	6830 SourceCode styler should use RBParser	https://pharo.fogbugz.com/f/cases/6830	6378 sizeInMemory does not take into account padding	https://pharo.fogbugz.com/f/cases/6378'
+commentForCurrentUpdate ^ '11068 Separating WorldMorph from PasteUpMorph	https://pharo.fogbugz.com/f/cases/11068'
