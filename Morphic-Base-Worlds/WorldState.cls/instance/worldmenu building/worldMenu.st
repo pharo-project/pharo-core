@@ -1,1 +1,1 @@
-worldMenu	^ menuBuilder menuEntitled: self discoveredMenuTitle.
+worldMenu	^self  menuBuilder menuEntitled: self discoveredMenuTitle.

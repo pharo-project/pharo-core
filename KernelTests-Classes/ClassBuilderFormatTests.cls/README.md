@@ -1,1 +1,0 @@
-A ClassBuilderFormatTests is xxxxxxxxx.Instance Variables	baseClass:		<Object>	subClass:		<Object>baseClass	- xxxxxsubClass	- xxxxx

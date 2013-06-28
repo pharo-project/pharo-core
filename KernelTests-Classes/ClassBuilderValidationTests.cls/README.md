@@ -1,1 +1,0 @@
-A ClassBuilderValidationTests is xxxxxxxxx.Instance Variables

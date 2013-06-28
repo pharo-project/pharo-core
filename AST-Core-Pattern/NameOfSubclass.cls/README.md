@@ -1,1 +1,0 @@
-A NameOfSubclass is xxxxxxxxx.Instance Variables
