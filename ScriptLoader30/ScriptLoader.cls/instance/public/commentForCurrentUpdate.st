@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11068 Separating WorldMorph from PasteUpMorph	https://pharo.fogbugz.com/f/cases/11068'
+commentForCurrentUpdate ^ '10670 Scrolling unfocused list	https://pharo.fogbugz.com/f/cases/10670	10791 Spotlight: Mousing Suggestion is not accepted	https://pharo.fogbugz.com/f/cases/10791	11076 Harden testErrorClassCreation	https://pharo.fogbugz.com/f/cases/11076	11073 Duplicated variables and uncategorized methos in SHRBStyler	https://pharo.fogbugz.com/f/cases/11073'
