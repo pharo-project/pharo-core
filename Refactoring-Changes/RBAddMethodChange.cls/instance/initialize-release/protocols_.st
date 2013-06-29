@@ -1,1 +1,1 @@
-protocols: aCollection	protocols := aCollection isString		ifTrue: [ Array with: aCollection ]		ifFalse: [ aCollection ].	protocols isNil		ifTrue: [ protocols := #(accessing) ]
+protocols: aCollectionOrString	protocols := aCollectionOrString isString		ifTrue: [ 				aCollectionOrString = Protocol unclassified 				ifTrue: [ protocols := #(accessing) ]				ifFalse: [ Array with: aCollectionOrString ] ]		ifFalse: [ aCollectionOrString ].		

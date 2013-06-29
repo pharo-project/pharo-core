@@ -1,1 +1,1 @@
-testOrganization	| aClassOrganizer |	aClassOrganizer := ClassDescription organization.	self assert: (aClassOrganizer isKindOf: ClassOrganizer).
+testOrganization	| aClassOrganizer |	aClassOrganizer := ClassDescription organization.	self assert: (aClassOrganizer isKindOf: ClassOrganization).

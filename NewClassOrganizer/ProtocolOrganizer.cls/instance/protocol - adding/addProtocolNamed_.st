@@ -1,1 +1,1 @@
-addProtocolNamed: aName	^ protocols add: (Protocol name: aName)
+addProtocolNamed: aName	^ protocols add: (Protocol name: aName)

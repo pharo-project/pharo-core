@@ -1,1 +1,1 @@
-removeProtocol: aProtocol	aProtocol canBeRemoved		ifFalse: [ ProtocolRemovaleException signal ].		^ protocols remove: aProtocol
+removeProtocol: aProtocol		aProtocol canBeRemoved		ifFalse: [ 			"Virtual protocols who cannot be removed should not raise an error"			aProtocol isVirtualProtocol 				ifTrue: [ ^ self ].			ProtocolRemovalException signal ].		^ protocols 		remove: aProtocol		ifAbsent: [ ]

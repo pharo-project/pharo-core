@@ -1,1 +1,1 @@
-allLabel	^ '--- all ---'
+allLabel	^ AllProtocol defaultName

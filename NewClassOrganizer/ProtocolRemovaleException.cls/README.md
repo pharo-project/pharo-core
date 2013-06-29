@@ -1,1 +1,0 @@
-A ProtocolRemovaleException is an error raised when someone try to remove a protocol that should not be removed

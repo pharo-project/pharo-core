@@ -1,1 +1,1 @@
-protocolsSorted	^ { allProtocol name }, (self protocols collect: #name) asArray sort
+protocolsSorted	^ (self protocols collect: #name as: Array) sort		copyWithFirst: allProtocol name

@@ -1,1 +1,0 @@
-protocolsNames	^ self allProtocolsNames

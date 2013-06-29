@@ -1,1 +1,1 @@
-categoryOfElement: aSelector	^ (self protocolOrganizer protocolsOfSelector: aSelector)		ifEmpty: [ Protocol defaultName ]		ifNotEmpty: [:col | col first name ]
+categoryOfElement: aSelector	^ (self protocolOrganizer protocolsOfSelector: aSelector)		ifEmpty: [ Protocol unclassified ]		ifNotEmpty: [:col | col first name ]

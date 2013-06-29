@@ -1,1 +1,1 @@
-removeEmptyMessageCategories	"Smalltalk removeEmptyMessageCategories"	self garbageCollect.	(ClassOrganizer allInstances copyWith: SystemOrganization)		do: [:org | org removeEmptyCategories]
+removeEmptyMessageCategories	"Smalltalk removeEmptyMessageCategories"	self garbageCollect.	ClassOrganization allInstancesDo: [ :org | org removeEmptyCategories ].	SystemOrganization removeEmptyCategories.

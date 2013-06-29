@@ -1,1 +1,1 @@
-addCategory: aProtocolName before: aUselessArgument	self protocolOrganizer addProtocolNamed: aProtocolName
+addCategory: aProtocolName before: aUselessArgument	self addCategory: aProtocolName

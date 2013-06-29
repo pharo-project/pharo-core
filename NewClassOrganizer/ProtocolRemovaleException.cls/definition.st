@@ -1,1 +1,0 @@
-Error subclass: #ProtocolRemovaleException	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'NewClassOrganizer'

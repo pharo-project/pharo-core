@@ -1,1 +1,1 @@
-uncategorizedMethods	^ self methodsInCategory: ClassOrganizer default
+uncategorizedMethods	^ self methodsInCategory: Protocol unclassified

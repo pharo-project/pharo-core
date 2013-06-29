@@ -1,1 +1,1 @@
-protocolsOfSelector: aSelector	^ (self protocols select: [:e | e includesMethod: aSelector ]) asArray
+protocolsOfSelector: aSelector	^ (self protocols select: [:each | each includesSelector: aSelector ]) asArray

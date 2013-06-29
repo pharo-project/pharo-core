@@ -1,1 +1,1 @@
-canBeRemoved		^ true
+canBeRemoved	^ self isEmpty 

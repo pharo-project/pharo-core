@@ -1,1 +1,1 @@
-defaultName	^ '~~~ all ~~~'
+defaultName	^ '--- all ---'

@@ -1,1 +1,1 @@
-asYetUnclassifiedString	^ ClassOrganizer default
+asYetUnclassifiedString	^ Protocol unclassified.
