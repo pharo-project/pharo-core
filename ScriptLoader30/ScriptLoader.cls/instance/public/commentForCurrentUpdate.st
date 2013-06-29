@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '6757 Should enable the new class organizer	https://pharo.fogbugz.com/f/cases/6757'
+commentForCurrentUpdate ^ '11071 PasteUpMorph cleaning	https://pharo.fogbugz.com/default.asp?11071	11024 Removing>>griddedPoint:	https://pharo.fogbugz.com/default.asp?11024'

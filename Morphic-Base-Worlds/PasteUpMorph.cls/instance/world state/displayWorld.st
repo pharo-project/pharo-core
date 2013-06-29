@@ -1,1 +1,0 @@
-displayWorld	self outermostWorldMorph privateOuterDisplayWorld

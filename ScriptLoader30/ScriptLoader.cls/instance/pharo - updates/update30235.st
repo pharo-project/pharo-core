@@ -1,0 +1,1 @@
+update30235	"self new update30235"	self withUpdateLog: '11071 PasteUpMorph cleaning	https://pharo.fogbugz.com/default.asp?11071	11024 Removing>>griddedPoint:	https://pharo.fogbugz.com/default.asp?11024'.	self loadTogether: self script334 merge: false.	self flushCaches.

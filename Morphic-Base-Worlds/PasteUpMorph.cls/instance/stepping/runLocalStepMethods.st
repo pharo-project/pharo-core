@@ -1,1 +1,0 @@
-runLocalStepMethods	worldState runLocalStepMethodsIn: self

@@ -1,1 +1,0 @@
-world	worldState ifNil: [^super world].	^self
