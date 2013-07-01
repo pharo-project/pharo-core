@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11090Cleaning WorldMorph initialize and UIProcess startup.      https://pharo.fogbugz.com/default.asp?11090'
+commentForCurrentUpdate ^ '11054 PullUp takes the class and not the superclass as input	https://pharo.fogbugz.com/default.asp?11054	11081 failing tests testFileOutCategory & testFileOutTrait	https://pharo.fogbugz.com/default.asp?11081	11084 Remove SystemNavigation>>#allCallsOn:and:	https://pharo.fogbugz.com/default.asp?11084	11048 Dont display a StringMorph if the string is nil	https://pharo.fogbugz.com/default.asp?11048'
