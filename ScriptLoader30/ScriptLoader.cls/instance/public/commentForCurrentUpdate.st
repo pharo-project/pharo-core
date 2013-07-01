@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11071 PasteUpMorph cleaning	https://pharo.fogbugz.com/default.asp?11071	11024 Removing>>griddedPoint:	https://pharo.fogbugz.com/default.asp?11024'
+commentForCurrentUpdate ^ '11090Cleaning WorldMorph initialize and UIProcess startup.      https://pharo.fogbugz.com/default.asp?11090'

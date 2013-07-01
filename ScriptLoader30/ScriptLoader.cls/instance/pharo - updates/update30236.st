@@ -1,0 +1,1 @@
+update30236	"self new update30236"	self withUpdateLog: '11090Cleaning WorldMorph initialize and UIProcess startup.      https://pharo.fogbugz.com/default.asp?11090'.	self loadTogether: self script335 merge: false.	SmalltalkImage initializeShutDownList.SmalltalkImage initializeStartUpList..	self flushCaches.

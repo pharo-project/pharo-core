@@ -1,0 +1,1 @@
+installNewWorld	"let us play God."		[  |  man |		self new install.		man := UIManager default.		man uiProcess ifNotNil: [ man terminateUIProcess  ].		man spawnNewProcess.	 ] forkAt:  Processor userInterruptPriority
