@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11010 The class Trait must use the trait TClass	https://pharo.fogbugz.com/f/cases/11010/(pass 1)'
+commentForCurrentUpdate ^ '11010 The class Trait must use the trait TClass	https://pharo.fogbugz.com/f/cases/11010/(pass 2)'
