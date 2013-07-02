@@ -1,0 +1,1 @@
+update30245	"self new update30245"	self withUpdateLog: '11110 Install could kill the system onPrimitiveError:	https://pharo.fogbugz.com/default.asp?11110	11116 cleaning PasteUp again	https://pharo.fogbugz.com/default.asp?11116'.	self loadTogether: self script344 merge: false.	self flushCaches.

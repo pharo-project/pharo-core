@@ -1,1 +1,1 @@
-releaseCachedState	super releaseCachedState.	self removeModalWindow.	self isWorldMorph ifTrue:[self cleanseStepList].
+releaseCachedState	super releaseCachedState.	self removeModalWindow.

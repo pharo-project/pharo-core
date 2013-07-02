@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11114 Missing methods after make Trait use TClass	https://pharo.fogbugz.com/f/cases/11114/'
+commentForCurrentUpdate ^ '11110 Install could kill the system onPrimitiveError:	https://pharo.fogbugz.com/default.asp?11110	11116 cleaning PasteUp again	https://pharo.fogbugz.com/default.asp?11116'

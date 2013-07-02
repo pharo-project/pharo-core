@@ -1,1 +1,1 @@
-wantsWindowEvent: anEvent	^self isWorldMorph or: [self windowEventHandler notNil]
+wantsWindowEvent: anEvent	^ self windowEventHandler notNil

@@ -1,0 +1,1 @@
+wantsDropFiles: anEvent	^ true
