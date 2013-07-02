@@ -1,1 +1,0 @@
-version10: spec	<version: '1.0'>	spec		for: #common		do: [ 			spec blessing: #release.			spec repository: 'http://smalltalkhub.com/mc/gisela/NodeNavigation/main'.			spec				package: 'NodeNavigation' with: 'NodeNavigation-GiselaDecuzzi.24']

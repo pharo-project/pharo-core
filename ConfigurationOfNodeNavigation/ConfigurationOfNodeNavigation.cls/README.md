@@ -1,1 +1,0 @@
-I'm the configuration of project NodeNavigation

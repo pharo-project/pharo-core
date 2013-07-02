@@ -1,1 +1,0 @@
-version11: spec	<version: '1.1'>	spec		for: #common		do: [ 			spec blessing: #release.			spec repository: 'http://smalltalkhub.com/mc/gisela/SmartSuggestions/main'.			spec				package: 'SmartSuggestions' with: 'SmartSuggestions-GiselaDecuzzi.75']

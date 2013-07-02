@@ -1,1 +1,0 @@
-Object subclass: #ConfigurationOfNodeNavigation	instanceVariableNames: 'project'	classVariableNames: 'LastVersionLoad'	poolDictionaries: ''	category: 'ConfigurationOfNodeNavigation'
