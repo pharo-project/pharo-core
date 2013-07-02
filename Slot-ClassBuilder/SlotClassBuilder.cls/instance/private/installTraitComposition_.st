@@ -1,1 +1,1 @@
-installTraitComposition: classModification	client		installTraitComposition: classModification traitComposition		on: classModification target
+installTraitComposition: classModification	client		installTraitComposition: classModification traitComposition		on: classModification target.	

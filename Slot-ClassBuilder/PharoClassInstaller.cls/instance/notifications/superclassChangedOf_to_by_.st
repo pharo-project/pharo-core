@@ -1,1 +1,0 @@
-superclassChangedOf: aClass to: newClass by: classModification	|oldClass|	oldClass := aClass copy.	aClass superclass removeSubclass: aClass.	aClass superclass: newClass.	newClass addSubclass: aClass.	self systemAnnouncer classDefinitionChangedFrom: oldClass to: aClass.

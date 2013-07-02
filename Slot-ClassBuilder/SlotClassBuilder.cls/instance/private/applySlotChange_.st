@@ -1,1 +1,1 @@
-applySlotChange: classModification	result := self applyAndUpdateMethods: classModification.	classModification propagationsDo: [ :propagation | 		self applyAndUpdateMethods: propagation ]
+applySlotChange: classModification	result := self applyAndUpdateSlots: classModification.	classModification propagationsDo: [ :propagation | 		self applyAndUpdateSlots: propagation ]

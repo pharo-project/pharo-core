@@ -1,1 +1,1 @@
-anonymousSubclassOf: newSuper	"Answer an anonymous subclass of the given superclass."	^ self		newSubclassOf: newSuper		type: newSuper typeOfClass		instanceVariables: ''		from: nil
+anonymousSubclassOf: superClass	"Answer an anonymous subclass of the given superclass."	^ self anonymousClassInstaller make: [ :builder |		builder			superclass: superClass;			layoutClass: superClass layout class ].

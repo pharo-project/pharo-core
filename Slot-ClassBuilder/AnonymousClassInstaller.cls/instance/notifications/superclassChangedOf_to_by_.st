@@ -1,1 +1,0 @@
-superclassChangedOf: aClass to: newClass by: classModification

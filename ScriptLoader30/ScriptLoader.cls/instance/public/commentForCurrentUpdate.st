@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11010 The class Trait must use the trait TClass	https://pharo.fogbugz.com/f/cases/11010/(pass 3)'
+commentForCurrentUpdate ^ '11111 Backport m4te bytearray inspector fix on pharo	https://pharo.fogbugz.com/f/cases/11111	11099 Update SlotClassBuilder		https://pharo.fogbugz.com/f/cases/11099	11103 expandRoots and expandAll to AlainTreeModel	https://pharo.fogbugz.com/f/cases/11103	11011 Using anonymousSubclassOf: for creating anonymous subclasses	https://pharo.fogbugz.com/f/cases/11011'
