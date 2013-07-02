@@ -1,0 +1,1 @@
+update30242	"self new update30242"	self withUpdateLog: '11010 The class Trait must use the trait TClass	https://pharo.fogbugz.com/f/cases/11010/(pass 3)'.	self loadTogether: self script341 merge: false.	self flushCaches.
