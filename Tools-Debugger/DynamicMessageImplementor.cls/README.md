@@ -1,1 +1,1 @@
-A DynamicMessageImplementor is xxxxxxxxx.Instance Variables	argumentNames:		<Object>	class:		<Object>	message:		<Object>	stream:		<Object>argumentNames	- xxxxxclass	- xxxxxmessage	- xxxxxstream	- xxxxx
+Called in the debugger to generate methods when you click on the create button

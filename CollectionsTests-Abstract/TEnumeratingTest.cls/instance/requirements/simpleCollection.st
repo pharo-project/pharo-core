@@ -1,0 +1,1 @@
+simpleCollection	^self explicitRequirement.

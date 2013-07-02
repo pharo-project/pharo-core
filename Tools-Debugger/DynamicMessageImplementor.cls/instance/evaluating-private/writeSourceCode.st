@@ -1,1 +1,1 @@
-writeSourceCode	self writeMethodName.	self writeShouldBeImplemented.	self writeGetterSourceCodeIfNecessary.	self writeSetterSourceCodeIfNecessary
+writeSourceCode	self writeMethodName.	self writeShouldBeImplementedIfNecessary.	self writeGetterSourceCodeIfNecessary.	self writeSetterSourceCodeIfNecessary

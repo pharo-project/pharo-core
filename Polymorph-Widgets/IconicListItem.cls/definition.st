@@ -1,1 +1,1 @@
-RectangleMorph subclass: #IconicListItem	instanceVariableNames: 'icon morph originalObject'	classVariableNames: ''	poolDictionaries: ''	category: 'Polymorph-Widgets'
+BorderedMorph subclass: #IconicListItem	uses: TAbleToRotate	instanceVariableNames: 'icon morph originalObject'	classVariableNames: ''	poolDictionaries: ''	category: 'Polymorph-Widgets'

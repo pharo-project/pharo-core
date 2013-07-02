@@ -1,1 +1,1 @@
-RectangleMorph subclass: #SimpleButtonMorph	instanceVariableNames: 'target actionSelector arguments actWhen oldColor mouseDownTime label helpText'	classVariableNames: ''	poolDictionaries: ''	category: 'Morphic-Base-Widgets'
+BorderedMorph subclass: #SimpleButtonMorph	uses: TAbleToRotate	instanceVariableNames: 'target actionSelector arguments actWhen oldColor mouseDownTime label helpText'	classVariableNames: ''	poolDictionaries: ''	category: 'Morphic-Base-Widgets'
