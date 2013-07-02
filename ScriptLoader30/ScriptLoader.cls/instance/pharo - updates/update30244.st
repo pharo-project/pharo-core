@@ -1,0 +1,1 @@
+update30244	"self new update30244"	self withUpdateLog: '11114 Missing methods after make Trait use TClass	https://pharo.fogbugz.com/f/cases/11114/'.	self loadTogether: self script343 merge: false.	self flushCaches.
