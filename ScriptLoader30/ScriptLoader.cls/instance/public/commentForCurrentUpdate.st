@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11109 Add a hook in tree morph so one can differenciate clicks from keyboard navigation	https://pharo.fogbugz.com/f/cases/11109	11118 TabExample in Pharo3.0 uses deprecated messages	https://pharo.fogbugz.com/f/cases/11118	11117 RBEnvironments add Better class-side instance creation methods	https://pharo.fogbugz.com/f/cases/11117	11072 No cache directory defined	https://pharo.fogbugz.com/f/cases/11072'
+commentForCurrentUpdate ^ '11046 Recategorization is not tracked	https://pharo.fogbugz.com/f/cases/11046'
