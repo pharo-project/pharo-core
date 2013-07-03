@@ -1,1 +1,1 @@
-referencesToInstanceVariable: aString in: aClass	^ self 		on: RBBrowserEnvironment new		referencesToInstanceVariable: aString		in: aClass
+referencesToInstanceVariable: aString in: aClass 	^ self		on: self default 		referencesToInstanceVariable: aString 		in: aClass 

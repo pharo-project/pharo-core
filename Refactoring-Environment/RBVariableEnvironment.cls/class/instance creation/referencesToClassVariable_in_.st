@@ -1,1 +1,1 @@
-referencesToClassVariable: aSymbol in: aClass 	^ self 		on: RBBrowserEnvironment new		referencesToClassVariable: aSymbol		in: aClass
+referencesToClassVariable: aSymbol in: aClass 	^ self 		on: self default		referencesToClassVariable: aSymbol 		in: aClass 

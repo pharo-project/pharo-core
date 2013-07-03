@@ -1,1 +1,1 @@
-onEnvironment: anEnvironment categories: aCollection	^(self onEnvironment: anEnvironment)		categories: aCollection; yourself
+onEnvironment: anEnvironment categories: aCollection	^(self onEnvironment: anEnvironment)		categories: aCollection;		yourself

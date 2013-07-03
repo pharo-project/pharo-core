@@ -1,1 +1,1 @@
-numberSelectors	| total |	total := 0.	self 		allClassesDo: [:each | self selectorsForClass: each do: [:sel | total := total + 1]].	^total
+numberSelectors	| total |	total := 0.	self selectorsDo: [:sel | total := total + 1 ].	^total

@@ -1,1 +1,1 @@
-writersOfInstanceVariable: aString in: aClass 	^ self 		on: RBBrowserEnvironment new		writersOfInstanceVariable: aString		in: aClass
+writersOfInstanceVariable: aString in: aClass 	^ self		on: self default		writersOfInstanceVariable: aString 		in: aClass 

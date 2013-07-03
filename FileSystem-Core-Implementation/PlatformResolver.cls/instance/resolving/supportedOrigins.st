@@ -1,1 +1,1 @@
-supportedOrigins	^ #(home desktop documents preferences)
+supportedOrigins	^ #(home desktop documents preferences cache)

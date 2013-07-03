@@ -1,1 +1,1 @@
-readersOfInstanceVariable: aString in: aClass 	^ self 		on: RBBrowserEnvironment new		readersOfInstanceVariable: aString		in: aClass
+readersOfInstanceVariable: aString in: aClass 	^ self		on: self default		readersOfInstanceVariable: aString		in: aClass
