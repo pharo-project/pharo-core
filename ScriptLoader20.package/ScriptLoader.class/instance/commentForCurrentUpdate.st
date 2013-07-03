@@ -1,7 +1,4 @@
 public
 commentForCurrentUpdate
- ^ '10931 Backport 2.0: Filing out extension package in Nautilus produces empty file
-	https://pharo.fogbugz.com/f/cases/10931
-	
-10946 HistoryCollection package is empty
-	https://pharo.fogbugz.com/f/cases/10946'
+ ^ '11101 fileOutMethod:on: uncategorized in 2.0
+	https://pharo.fogbugz.com/f/cases/11101'
