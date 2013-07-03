@@ -1,1 +1,1 @@
-classToBeTested^ PluggableSet
+classToBeTested	^ PluggableSet

@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11046 Recategorization is not tracked	https://pharo.fogbugz.com/f/cases/11046'
+commentForCurrentUpdate ^ '11121 Missing Set isHealthy test	https://pharo.fogbugz.com/f/cases/11121	10865 Remove old compiler API from Pharo image Part 1	https://pharo.fogbugz.com/f/cases/10865	11123 Eye inspector does not focus automatically on the list	https://pharo.fogbugz.com/f/cases/11123	'
