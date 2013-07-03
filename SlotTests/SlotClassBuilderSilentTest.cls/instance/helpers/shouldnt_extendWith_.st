@@ -1,0 +1,1 @@
+shouldnt: superclassBlock extendWith: subclassBlock	| superclass |	superclass := self buildClassWith: superclassBlock.	self should: [		self buildClassWith: [ :builder | 			builder 				superclass: superclass;				name: self anotherClassName;				in: subclassBlock ] ]		raise: PrimitiveTypeConflict

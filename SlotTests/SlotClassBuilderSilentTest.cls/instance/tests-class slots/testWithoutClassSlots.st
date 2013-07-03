@@ -1,0 +1,1 @@
+testWithoutClassSlots	aClass := self buildClassWith: [ :builder | 		builder classSlots: #() ].		self assert: aClass classVarNames isEmpty

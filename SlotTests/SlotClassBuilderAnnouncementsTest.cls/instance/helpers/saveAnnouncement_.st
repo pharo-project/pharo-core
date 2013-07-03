@@ -1,0 +1,1 @@
+saveAnnouncement: anAnnouncement	announcement := anAnnouncement

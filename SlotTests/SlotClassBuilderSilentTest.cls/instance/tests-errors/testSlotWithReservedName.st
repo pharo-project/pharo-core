@@ -1,0 +1,1 @@
+testSlotWithReservedName	#(#self #super #thisContext #true #false #nil) do: [:reservedName |		self should: [ 			self buildClassWith: [ :builder | 				builder slots: { reservedName } ] ]			raise: InvalidSlotNameConflict ]

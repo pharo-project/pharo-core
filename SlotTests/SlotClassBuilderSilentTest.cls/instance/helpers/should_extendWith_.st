@@ -1,0 +1,1 @@
+should: superclassBlock extendWith: subclassBlock	| superclass |	superclass := self buildClassWith: superclassBlock.	self buildClassWith: [ :builder | 		builder 			superclass: superclass;			name: self anotherClassName;			in: subclassBlock ]

@@ -1,0 +1,1 @@
+A SlotClassBuilderSilentTest is xxxxxxxxx.Instance Variables

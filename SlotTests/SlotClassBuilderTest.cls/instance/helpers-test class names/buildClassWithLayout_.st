@@ -1,0 +1,1 @@
+buildClassWithLayout: aClassLayout	^self buildClassWithLayout: aClassLayout andSlots: {}

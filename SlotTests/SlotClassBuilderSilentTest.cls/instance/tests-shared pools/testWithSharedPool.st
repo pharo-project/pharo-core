@@ -1,0 +1,1 @@
+testWithSharedPool	aClass := self buildClassWith: [ :builder | 		builder sharedPools: 'TestSharedPool' ].	aClass class compile: 'one ^One'.		self assert: (aClass sharedPools includes: TestSharedPool).	self assert: aClass one = 1.

@@ -1,0 +1,1 @@
+testRedefineSuperclass	"This case reproduces a MNU found loading Moose."	| superclass |	superclass := self buildClassWithLayout: PointerLayout.	self buildClassWith: [ :builder |		builder 			superclass: superclass;			layoutClass: ByteLayout;			name: self anotherClassName.		 ].	self buildClassWithLayout: PointerLayout.

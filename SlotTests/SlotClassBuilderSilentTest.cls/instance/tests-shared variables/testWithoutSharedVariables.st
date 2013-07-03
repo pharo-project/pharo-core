@@ -1,0 +1,1 @@
+testWithoutSharedVariables	aClass := self buildClassWith: [ :builder | 		builder sharedVariables: '' ].		self assert: aClass classVarNames isEmpty

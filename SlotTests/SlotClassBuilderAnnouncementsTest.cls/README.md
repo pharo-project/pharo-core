@@ -1,0 +1,1 @@
+A SlotClassBuilderAnnouncementsTest is xxxxxxxxx.Instance Variables	announcement:		<Object>	announcementsCount:		<Object>announcement	- xxxxxannouncementsCount	- xxxxx

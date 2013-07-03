@@ -1,0 +1,1 @@
+A SlotClassBuilderTest is xxxxxxxxx.Instance Variables	aClass:		<Object>	anotherClass:		<Object>	instance:		<Object>aClass	- xxxxxanotherClass	- xxxxxinstance	- xxxxx
