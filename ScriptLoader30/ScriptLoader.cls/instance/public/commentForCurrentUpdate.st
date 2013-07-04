@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '7492 Convert MetacelloConfigurationBrowser to Spec	https://pharo.fogbugz.com/f/cases/7492	11056 Traits in _UnpackagedPackage	https://pharo.fogbugz.com/f/cases/11056'
+commentForCurrentUpdate ^ '11078 preferences directory not properly set on Windows	https://pharo.fogbugz.com/f/cases/11078	11129 Support compiler method class creation in new class builder	https://pharo.fogbugz.com/f/cases/11129'

@@ -1,1 +1,0 @@
-testClassAddedAnnounced	| classAdded |	SystemAnnouncer uniqueInstance weak on: ClassAdded send: #saveAnnouncement: to: self.		classAdded := self buildClassWithLayout: PointerLayout.		self assert: announcement classAdded equals: classAdded.

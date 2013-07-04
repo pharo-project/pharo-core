@@ -1,0 +1,1 @@
+testNewPointerClassWithSlots	aClass := self 		buildClassWithLayout: PointerLayout		andSlots: { #id. #name }.		self assert: (aClass instVarNames includes: 'id').	self assert: (aClass instVarNames includes: 'name').

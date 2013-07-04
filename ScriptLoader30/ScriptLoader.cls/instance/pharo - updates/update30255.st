@@ -1,0 +1,1 @@
+update30255	"self new update30255"	self withUpdateLog: '11078 preferences directory not properly set on Windows	https://pharo.fogbugz.com/f/cases/11078	11129 Support compiler method class creation in new class builder	https://pharo.fogbugz.com/f/cases/11129'.	self loadTogether: self script353 merge: false.	self flushCaches.

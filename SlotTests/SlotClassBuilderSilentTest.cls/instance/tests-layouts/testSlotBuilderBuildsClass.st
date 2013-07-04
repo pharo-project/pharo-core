@@ -1,1 +1,0 @@
-testSlotBuilderBuildsClass	aClass := self buildClassWithLayout: PointerLayout.		self assert: (Smalltalk classNamed: self aClassName) == aClass.	self assert: aClass name = self aClassName.	self deny: aClass layout isNil.
