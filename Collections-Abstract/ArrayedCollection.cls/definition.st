@@ -1,1 +1,1 @@
-SequenceableCollection subclass: #ArrayedCollection	uses: TSortable	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Collections-Abstract'
+SequenceableCollection subclass: #ArrayedCollection	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Collections-Abstract'

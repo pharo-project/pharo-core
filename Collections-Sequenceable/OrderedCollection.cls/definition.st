@@ -1,1 +1,1 @@
-SequenceableCollection subclass: #OrderedCollection	uses: TSortable	instanceVariableNames: 'array firstIndex lastIndex'	classVariableNames: ''	poolDictionaries: ''	category: 'Collections-Sequenceable'
+SequenceableCollection subclass: #OrderedCollection	instanceVariableNames: 'array firstIndex lastIndex'	classVariableNames: ''	poolDictionaries: ''	category: 'Collections-Sequenceable'

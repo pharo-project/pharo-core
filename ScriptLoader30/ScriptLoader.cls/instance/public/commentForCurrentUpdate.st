@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11106 DynamicMessageImplementorTest tests failing	https://pharo.fogbugz.com/f/cases/11106	11008 BasicCodeLoader should be renamed and have a decent help comment	https://pharo.fogbugz.com/f/cases/11008	'
+commentForCurrentUpdate ^ '2302 sorted and sorted: should be moved to TSortable	https://pharo.fogbugz.com/f/cases/2302'

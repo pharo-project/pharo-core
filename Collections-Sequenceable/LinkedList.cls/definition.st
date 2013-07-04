@@ -1,1 +1,1 @@
-SequenceableCollection subclass: #LinkedList	uses: TSortable	instanceVariableNames: 'firstLink lastLink'	classVariableNames: ''	poolDictionaries: ''	category: 'Collections-Sequenceable'
+SequenceableCollection subclass: #LinkedList	instanceVariableNames: 'firstLink lastLink'	classVariableNames: ''	poolDictionaries: ''	category: 'Collections-Sequenceable'
