@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10936 Athens update (was: As yet unclassified)	https://pharo.fogbugz.com/f/cases/10936	'
+commentForCurrentUpdate ^ '7492 Convert MetacelloConfigurationBrowser to Spec	https://pharo.fogbugz.com/f/cases/7492	11056 Traits in _UnpackagedPackage	https://pharo.fogbugz.com/f/cases/11056'

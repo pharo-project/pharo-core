@@ -1,1 +1,1 @@
-Object subclass: #MetacelloConfigurationBrowser	instanceVariableNames: 'window selectedConfiguration trustedTree untrustedTree selectedRepository'	classVariableNames: ''	poolDictionaries: ''	category: 'Tools-ConfigurationBrowser'
+ComposableModel subclass: #MetacelloConfigurationBrowser	instanceVariableNames: 'configBrowserModel toolbarModel'	classVariableNames: ''	poolDictionaries: ''	category: 'Tools-ConfigurationBrowser'

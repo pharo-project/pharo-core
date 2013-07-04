@@ -1,0 +1,1 @@
+selectedConfiguration	^self configurationList selectedItem
