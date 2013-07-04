@@ -1,1 +1,1 @@
-An AthensCairoPathBuilder is xxxxxxxxx.Instance Variables	absolute:		<Object>	context:		<Object>	endPoint:		<Object>absolute	- xxxxxcontext	- xxxxxendPoint	- xxxxx
+i implement cairo-specific path builder. see my superclass for more details.

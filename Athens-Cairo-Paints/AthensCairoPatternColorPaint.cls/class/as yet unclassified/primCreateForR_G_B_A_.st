@@ -1,1 +1,0 @@
-primCreateForR: r G: g B: b A: a	"	Creates a new cairo_pattern_t corresponding to a translucent color. 		"	<primitive: #primitiveNativeCall module: #NativeBoostPlugin>		^self nbCall: #(AthensCairoPatternColorPaint  cairo_pattern_create_rgba(		double r,		double g,		double b,		double a ) )

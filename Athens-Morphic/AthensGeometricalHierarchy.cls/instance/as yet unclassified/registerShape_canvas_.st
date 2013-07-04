@@ -1,1 +1,0 @@
-registerShape: aShape canvas: aCanvas	| infos info |	infos := geometry at: currentMorph ifAbsentPut: [ OrderedCollection new ].	info := 	AthensVisualInfo new		shape: aShape;		clipRect: aCanvas clipRect;		transform: aCanvas pathTransform getMatrix.			infos add: info

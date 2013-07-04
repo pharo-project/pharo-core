@@ -1,1 +1,1 @@
-An AthensBalloonPaint is xxxxxxxxx.Instance Variables
+i am an abstract root of many balloon-specific paints

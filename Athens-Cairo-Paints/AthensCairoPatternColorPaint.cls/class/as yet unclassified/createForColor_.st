@@ -1,1 +1,0 @@
-createForColor: aColor	| pat |	pat := self primCreateForR: aColor red G: aColor green  B: aColor blue  A: aColor alpha .	pat initializeColor: aColor.	^ pat

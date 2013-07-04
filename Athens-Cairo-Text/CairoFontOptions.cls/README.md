@@ -1,1 +1,1 @@
-A CairoFontOptions is xxxxxxxxx.Instance Variables
+i represent various font options exposed by cairo library

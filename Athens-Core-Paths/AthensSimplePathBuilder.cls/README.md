@@ -1,1 +1,1 @@
-An AthensSimplePathBuilder is xxxxxxxxx.Instance Variables	absolute:		<Object>	contourStartPt:		<Object>	lastSegment:		<Object>	open:		<Object>	pathStart:		<Object>	xMax:		<Object>	xMin:		<Object>	yMax:		<Object>	yMin:		<Object>absolute	- xxxxxcontourStartPt	- xxxxxlastSegment	- xxxxxopen	- xxxxxpathStart	- xxxxxxMax	- xxxxxxMin	- xxxxxyMax	- xxxxxyMin	- xxxxx
+i building path containing from AthensPathSegment. the resulting path is backend neutral (while different backend may implement own builder which is more efficient)

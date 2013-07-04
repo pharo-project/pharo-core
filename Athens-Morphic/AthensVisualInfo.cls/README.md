@@ -1,1 +1,0 @@
-An AthensVisualInfo is xxxxxxxxx.Instance Variables	children:		<Object>	clipBox:		<Object>	matrix:		<Object>	shape:		<Object>children	- xxxxxclipBox	- xxxxxmatrix	- xxxxxshape	- xxxxx

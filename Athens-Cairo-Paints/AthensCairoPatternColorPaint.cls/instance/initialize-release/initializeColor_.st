@@ -1,1 +1,0 @@
-initializeColor: aColor	self initialize.	color := aColor .

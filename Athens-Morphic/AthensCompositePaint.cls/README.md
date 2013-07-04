@@ -1,1 +1,1 @@
-An AthensCompositePaint is xxxxxxxxx.Instance Variables	paints:		<Object>paints	- xxxxx
+i am used to convert CompositeFillStyle into paint, used in Morphic.

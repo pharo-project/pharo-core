@@ -1,1 +1,1 @@
-A CairoUTF8Converter is xxxxxxxxx.Instance Variables	asm:		<Object>	buffer:		<Object>	len:		<Object>asm	- xxxxxbuffer	- xxxxxlen	- xxxxx
+i use persistent buffer to convert strings to utf-8 strings (an input neede by cairo)

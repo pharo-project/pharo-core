@@ -1,1 +1,0 @@
-fillRectangle: aRect on: canvas	"This is a terminal method in rendering dispatch scheme	canvas->shape->paint. See AthensCanvas>>fillShape: "		| transformed transform surf |		transform := canvas pathTransform.	transformed := aRect asPolygonTransformedBy: transform.			canvas surface balloonCanvas		drawPolygon: transformed		fillStyle: Color black		

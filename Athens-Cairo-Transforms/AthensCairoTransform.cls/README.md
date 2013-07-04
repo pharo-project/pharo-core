@@ -1,1 +1,1 @@
-An AthensCairoTransform is xxxxxxxxx.Instance Variables	canvas:		<Object>canvas	- xxxxx
+i implement AthensTransform protocol using cairo-specific functions.

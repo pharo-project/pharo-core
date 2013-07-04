@@ -1,1 +1,1 @@
-An AthensParagraph is xxxxxxxxx.Instance Variables	containerRect:		<Object>	lines:		<Object>	positionWhenComposed:		<Object>	selectionStart:		<Object>	selectionStop:		<Object>	text:		<Object>	textStyle:		<Object>containerRect	- xxxxxlines	- xxxxxpositionWhenComposed	- xxxxxselectionStart	- xxxxxselectionStop	- xxxxxtext	- xxxxxtextStyle	- xxxxx
+this class is subject of changes/removal. do not use it.

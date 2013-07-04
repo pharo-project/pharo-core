@@ -1,1 +1,1 @@
-An AthensMorphicGradientPaint is xxxxxxxxx.Instance Variables	gradient:		<Object>gradient	- xxxxx
+i am used to convert gradient fill style(s) used in Morphic to appropriate paint(s) in Athens.

@@ -1,1 +1,1 @@
-An AthensCairoGradientPaint is xxxxxxxxx.Instance Variables
+i used to represent gradient paints (both radial and linear)  in cairo backend

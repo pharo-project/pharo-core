@@ -1,1 +1,0 @@
-AthensPaint subclass: #AthensBalloonMaskPaint	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Athens-Balloon'

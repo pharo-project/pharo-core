@@ -1,1 +1,0 @@
-Object subclass: #AthensGeometricalHierarchy	instanceVariableNames: 'geometry currentMorph stack history'	classVariableNames: ''	poolDictionaries: ''	category: 'Athens-Morphic'

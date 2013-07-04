@@ -1,1 +1,1 @@
-draw	"Fill the shape (anObject) using currently selected paint	an object should implement double-dispatch to currently selected paint"		^ shape paintFillsUsing: paint on: self
+draw	"Fill the currently selected shape with currently selected paint"		^ shape paintFillsUsing: paint on: self

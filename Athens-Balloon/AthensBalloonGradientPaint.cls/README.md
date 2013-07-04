@@ -1,1 +1,1 @@
-An AthensBalloonGradientPaint is xxxxxxxxx.Instance Variables	colorRamp:		<Object>colorRamp	- xxxxx
+my subclasses used internally in balloon backend for Athens to represenet gradient paints.

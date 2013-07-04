@@ -1,1 +1,1 @@
-An AthensBalloonImagePaint is xxxxxxxxx.Instance Variables	direction:		<Object>	form:		<Object>	origin:		<Object>direction	- xxxxxform	- xxxxxorigin	- xxxxx
+i representing an image (form) paint  

@@ -1,1 +1,0 @@
-An AthensBasicScene is xxxxxxxxx.Instance Variables

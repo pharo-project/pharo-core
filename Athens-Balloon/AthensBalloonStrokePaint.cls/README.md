@@ -1,1 +1,1 @@
-An AthensBalloonStrokePaint is xxxxxxxxx.Instance Variables
+i represent stroke paint for balloon backend

@@ -1,1 +1,1 @@
-An AthensCairoSolidPaint is xxxxxxxxx.Instance Variables	a:		<Object>	b:		<Object>	g:		<Object>	r:		<Object>a	- xxxxxb	- xxxxxg	- xxxxxr	- xxxxx
+i represent solid color paint in cairo backend

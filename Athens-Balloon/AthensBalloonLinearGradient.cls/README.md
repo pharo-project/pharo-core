@@ -1,1 +1,1 @@
-An AthensBalloonLinearGradient is xxxxxxxxx.Instance Variables	corner:		<Object>	origin:		<Object>corner	- xxxxxorigin	- xxxxx
+i represent a linear gradient paint in balloon backend.

@@ -1,1 +1,1 @@
-An AthensCairoPatternSurfacePaint is xxxxxxxxx.Instance Variables	direction:		<Object>	origin:		<Object>	surface:		<Object>direction	- xxxxxorigin	- xxxxxsurface	- xxxxx
+i represent texture/image/form/surface paints in cairo backend.

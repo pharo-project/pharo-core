@@ -1,1 +1,1 @@
-An AthensBezier3Scene is xxxxxxxxx.Instance Variables	pt1:		<Object>	pt2:		<Object>	pt3:		<Object>	pt4:		<Object>pt1	- xxxxxpt2	- xxxxxpt3	- xxxxxpt4	- xxxxx
+I just a helper class used to debug & visualize rendering of bezier segment. This class is subject of changes or complete removal
