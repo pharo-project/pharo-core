@@ -1,1 +1,1 @@
-evaluate: textOrStream in: aContext to: receiver notifying: aRequestor ifFail: failBlock	^ self evaluate: textOrStream in: aContext to: receiver notifying: aRequestor ifFail: failBlock logged: false.
+evaluate: textOrStream in: aContext to: aReceiver notifying: aRequestor ifFail: failBlock	^ self evaluate: textOrStream in: aContext to: aReceiver notifying: aRequestor ifFail: failBlock logged: false.

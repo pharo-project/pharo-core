@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11078 preferences directory not properly set on Windows	https://pharo.fogbugz.com/f/cases/11078	11129 Support compiler method class creation in new class builder	https://pharo.fogbugz.com/f/cases/11129'
+commentForCurrentUpdate ^ '11139 Undeclared varis #selectedConfiguration->nil #selectedRepository->nil #trustedTree->nil #untrustedTree->nil	https://pharo.fogbugz.com/f/cases/11139	10945 Shadowed vars and args...	https://pharo.fogbugz.com/f/cases/10945'

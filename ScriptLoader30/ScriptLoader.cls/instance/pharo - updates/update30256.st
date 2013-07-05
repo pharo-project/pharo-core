@@ -1,0 +1,1 @@
+update30256	"self new update30256"	self withUpdateLog: '11139 Undeclared varis #selectedConfiguration->nil #selectedRepository->nil #trustedTree->nil #untrustedTree->nil	https://pharo.fogbugz.com/f/cases/11139	10945 Shadowed vars and args...	https://pharo.fogbugz.com/f/cases/10945'.	self loadTogether: self script354 merge: false.	self flushCaches.

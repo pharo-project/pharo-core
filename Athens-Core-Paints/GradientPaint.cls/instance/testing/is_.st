@@ -1,1 +1,0 @@
-is: aSymbol	^ aSymbol = #pattern or:[ super is: aSymbol]	

@@ -1,1 +1,1 @@
-open	^(self new)		open;		yourself		
+open	^(self new)		open;		yourself		

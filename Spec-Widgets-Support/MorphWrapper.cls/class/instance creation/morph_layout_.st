@@ -1,1 +1,1 @@
-morph: morph layout: layout 	^ self new		layout: layout;		morph: morph;		yourself
+morph: morph layout: aLayout 	^ self new		layout: aLayout;		morph: morph;		yourself

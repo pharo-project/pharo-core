@@ -1,1 +1,1 @@
-scanVersionsOf: method class: class meta: meta category: cat selector: selector	^ ChangeSet scanVersionsOf: method class: class meta: meta category: cat selector: selector
+scanVersionsOf: method class: aClass meta: meta category: cat selector: aSelector	^ ChangeSet scanVersionsOf: method class: aClass meta: meta category: cat selector: aSelector

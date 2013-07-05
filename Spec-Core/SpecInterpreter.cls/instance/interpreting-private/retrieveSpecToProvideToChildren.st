@@ -1,1 +1,1 @@
-retrieveSpecToProvideToChildren	| specForChildren |		"First element is a symbol describing the spec type"	(spec isKindOf: RawSpec)		ifTrue: [ specForChildren := superSpec ]		ifFalse: [ specForChildren := spec ].	^ specForChildren
+retrieveSpecToProvideToChildren	| aSpecForChildren |		"First element is a symbol describing the spec type"	(spec isKindOf: RawSpec)		ifTrue: [ aSpecForChildren := superSpec ]		ifFalse: [ aSpecForChildren := spec ].	^ aSpecForChildren
