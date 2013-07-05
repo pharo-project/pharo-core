@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11143 Update Opal to latest version	https://pharo.fogbugz.com/f/cases/11143'
+commentForCurrentUpdate ^ '11143 Update Opal to latest version	https://pharo.fogbugz.com/f/cases/11143	11095 Array >> #elementsForwardIdentityTo:copyHash: More explicit tests and comments		https://pharo.fogbugz.com/f/cases/11095	11007 Pharo 3 now uses mustBeBooleanInMagic: by default	https://pharo.fogbugz.com/f/cases/11007	'
