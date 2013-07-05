@@ -1,0 +1,1 @@
+update30257	"self new update30257"	self withUpdateLog: '11143 Update Opal to latest version	https://pharo.fogbugz.com/f/cases/11143'.	self loadTogether: self script355 merge: false.	self flushCaches.

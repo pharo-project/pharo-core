@@ -1,1 +1,1 @@
-printOn: stream	class printOn: stream.	stream nextPutAll: ' parseScope'.
+printOn: stream	class printOn: stream.

@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11139 Undeclared varis #selectedConfiguration->nil #selectedRepository->nil #trustedTree->nil #untrustedTree->nil	https://pharo.fogbugz.com/f/cases/11139	10945 Shadowed vars and args...	https://pharo.fogbugz.com/f/cases/10945'
+commentForCurrentUpdate ^ '11143 Update Opal to latest version	https://pharo.fogbugz.com/f/cases/11143'

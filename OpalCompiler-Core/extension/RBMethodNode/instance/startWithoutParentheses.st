@@ -1,0 +1,1 @@
+startWithoutParentheses	^ 1
