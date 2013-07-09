@@ -1,1 +1,1 @@
-- anArray	"the modifier operators #@ and #- bind stronger than +.	Thus, #@ or #- sent to a sum will only affect the most right summand"		self transformations		addLast: (self transformations removeLast - anArray)
+- anArray	"the modifier operators #@ and #- bind stronger than +"		self transformations: (self transformations collect: [ :t | t - anArray ])

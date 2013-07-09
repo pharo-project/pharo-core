@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11143 Update Opal to latest version	https://pharo.fogbugz.com/f/cases/11143	11095 Array >> #elementsForwardIdentityTo:copyHash: More explicit tests and comments		https://pharo.fogbugz.com/f/cases/11095	11007 Pharo 3 now uses mustBeBooleanInMagic: by default	https://pharo.fogbugz.com/f/cases/11007	'
+commentForCurrentUpdate ^ '10848 Problems with parenthesis in TraitComposition	https://pharo.fogbugz.com/f/cases/10848	10859 Monticello freezing the image	https://pharo.fogbugz.com/f/cases/10859'

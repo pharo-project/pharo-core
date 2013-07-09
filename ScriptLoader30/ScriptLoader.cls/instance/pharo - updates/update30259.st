@@ -1,0 +1,1 @@
+update30259	"self new update30259"	self withUpdateLog: '10848 Problems with parenthesis in TraitComposition	https://pharo.fogbugz.com/f/cases/10848	10859 Monticello freezing the image	https://pharo.fogbugz.com/f/cases/10859'.	self loadTogether: self script357 merge: false.	self flushCaches.
