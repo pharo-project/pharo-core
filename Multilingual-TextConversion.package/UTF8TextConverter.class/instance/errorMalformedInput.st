@@ -1,3 +1,3 @@
 conversion
 errorMalformedInput
-	^self error: 'Invalid utf8 input detected'
+	^ UTF8Error new signal: 'Invalid utf8 input detected'

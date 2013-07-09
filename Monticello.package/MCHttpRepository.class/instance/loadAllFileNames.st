@@ -2,7 +2,8 @@ i/o
 loadAllFileNames
 	| client |
 	self displayProgress: 'Loading all file names from ', self description during: [
-		(client := self httpClient)
+		client := self httpClient.
+		client
 			ifFail: [ :exception | 
 				(exception className beginsWith: 'Zn')
 					ifTrue: [ MCRepositoryError signal: 'Could not access ', self location, ': ', exception printString ]
