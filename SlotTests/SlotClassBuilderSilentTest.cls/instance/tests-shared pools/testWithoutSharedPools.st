@@ -1,1 +1,1 @@
-testWithoutSharedPools	aClass := self buildClassWith: [ :builder | 		builder sharedPools: '' ].		self assert: aClass sharedPools isEmpty
+testWithoutSharedPools	aClass := self make: [ :builder | 		builder sharedPools: '' ].		self assert: aClass sharedPools isEmpty

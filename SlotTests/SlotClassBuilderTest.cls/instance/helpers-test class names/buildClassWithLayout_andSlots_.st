@@ -1,1 +1,0 @@
-buildClassWithLayout: aClassLayout andSlots: someSlots	"	I create a class using the Slot class builder given a class layout and a collection of slots.	"	^self buildClassWith: [:builder|		builder			layoutClass: aClassLayout;			slots: someSlots		].

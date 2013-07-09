@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10848 Problems with parenthesis in TraitComposition	https://pharo.fogbugz.com/f/cases/10848	10859 Monticello freezing the image	https://pharo.fogbugz.com/f/cases/10859'
+commentForCurrentUpdate ^ '11150 Reshaping a class does not properly propagate the modification to the subclasses of its subclasses	https://pharo.fogbugz.com/f/cases/11150	'

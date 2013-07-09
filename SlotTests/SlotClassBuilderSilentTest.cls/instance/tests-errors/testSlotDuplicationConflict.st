@@ -1,1 +1,1 @@
-testSlotDuplicationConflict	aClass := self buildClassWith: [ :builder | 		builder slots: { #a } ].	self should: [ 		self buildClassWith: [ :builder | 			builder 				superclass: aClass;				name: self anotherClassName;				slots: { #a } ] ]		raise: SlotDuplicationConflict 
+testSlotDuplicationConflict	aClass := self make: [ :builder | 		builder slots: { #a } ].	self should: [ 		self make: [ :builder | 			builder 				superclass: aClass;				name: self anotherClassName;				slots: { #a } ] ]		raise: SlotDuplicationConflict 

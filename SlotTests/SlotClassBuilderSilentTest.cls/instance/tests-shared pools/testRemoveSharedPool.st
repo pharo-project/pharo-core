@@ -1,1 +1,1 @@
-testRemoveSharedPool	self buildClassWith: [ :builder | 		builder sharedPools: 'TestSharedPool' ].	aClass := self buildClassWith: [ :builder | 		builder sharedPools: '' ].		self assert: aClass sharedPools isEmpty
+testRemoveSharedPool	self make: [ :builder | 		builder sharedPools: 'TestSharedPool' ].	aClass := self make: [ :builder | 		builder sharedPools: '' ].		self assert: aClass sharedPools isEmpty

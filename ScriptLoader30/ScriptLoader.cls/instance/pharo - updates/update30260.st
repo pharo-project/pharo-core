@@ -1,0 +1,1 @@
+update30260	"self new update30260"	self withUpdateLog: '11150 Reshaping a class does not properly propagate the modification to the subclasses of its subclasses	https://pharo.fogbugz.com/f/cases/11150	'.	self loadTogether: self script358 merge: false.	self flushCaches.

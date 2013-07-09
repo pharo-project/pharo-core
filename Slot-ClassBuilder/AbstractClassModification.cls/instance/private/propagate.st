@@ -1,1 +1,1 @@
-propagate	target subclassesDo: [ :subclass |		propagations add:			(ClassModificationPropagation				propagate: self				to: subclass) ]			
+propagate	target subclassesDo: [ :subclass |		propagations add:			(ClassModificationPropagation				propagate: self				to: subclass) ].	"recursively propagate this change down"	self propagationsDo: [ :propagation | propagation propagate ]			
