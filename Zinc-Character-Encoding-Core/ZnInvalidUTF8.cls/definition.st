@@ -1,1 +1,1 @@
-ZnCharacterEncodingError subclass: #ZnInvalidUTF8	instanceVariableNames: 'string'	classVariableNames: ''	poolDictionaries: ''	category: 'Zinc-Character-Encoding-Core'
+ZnCharacterEncodingError subclass: #ZnInvalidUTF8	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Zinc-Character-Encoding-Core'

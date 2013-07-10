@@ -1,1 +1,1 @@
-sub: aString	sub := aString
+sub: aString	sub := aString asLowercase

@@ -1,1 +1,1 @@
-requireStartTLS	(self lastResponse includesSubString: 'STARTTLS')		ifFalse: [ ^ self error: 'Server does not seem to support STARTTLS' ].
+requireStartTLS	(self lastResponse includesSubstring: 'STARTTLS')		ifFalse: [ ^ self error: 'Server does not seem to support STARTTLS' ].
