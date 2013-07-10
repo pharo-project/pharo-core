@@ -2,9 +2,10 @@
 	"class" : {
 		"cmdDotEnabled" : "AlainPlantec 12/5/2009 18:21",
 		"cmdDotEnabled:" : "AlainPlantec 12/5/2009 18:22",
-		"new" : "mir 11/19/2008 14:41" },
+		"new" : "ThierryGoubier 6/28/2013 14:57" },
 	"instance" : {
-		"handleEvent:" : "PavelKrivanek 6/14/2011 09:34",
+		"handleEvent:" : "ThierryGoubier 6/28/2013 14:49",
 		"handleUserInterrupt" : "SeanDeNigris 2/10/2013 14:46",
-		"processToInterrupt" : "md 2/6/2012 14:38",
+		"isKbdEvent:" : "ThierryGoubier 6/28/2013 14:41",
+		"processToInterrupt" : "ThierryGoubier 6/28/2013 14:05",
 		"setInterruptKeyValue:" : "mir 11/19/2008 14:41" } }
