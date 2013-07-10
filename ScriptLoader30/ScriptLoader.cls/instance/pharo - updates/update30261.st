@@ -1,0 +1,1 @@
+update30261	"self new update30261"	self withUpdateLog: '11138 Implementation of user directories is a mess	https://pharo.fogbugz.com/f/cases/11138	11152 Monticello not creating proper changes when moving trait methods to/from class	https://pharo.fogbugz.com/f/cases/11152'.	self loadTogether: self script359 merge: false.	self flushCaches.

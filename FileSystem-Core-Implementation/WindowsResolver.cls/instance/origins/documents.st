@@ -1,1 +1,1 @@
-documents	^ self home / 'My Documents'
+documents	^ self home / 'Documents'

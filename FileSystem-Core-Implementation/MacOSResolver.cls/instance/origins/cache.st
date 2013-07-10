@@ -1,1 +1,1 @@
-cache	^ self home / 'Library' / 'Caches'
+cache	^ self library / 'Caches'

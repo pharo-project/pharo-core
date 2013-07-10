@@ -1,1 +1,1 @@
-home	| pathString |	pathString := self class primitiveGetUntrustedUserDirectory.	^ (self resolveString: pathString) parent parent
+home	"Value of the $USERPROFILE environment variable."	^ self directoryFromEnvVariableNamed: 'USERPROFILE'

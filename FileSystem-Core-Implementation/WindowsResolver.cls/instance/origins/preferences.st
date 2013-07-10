@@ -1,1 +1,1 @@
-preferences	^ [ self resolveString: (Smalltalk os env at: 'APPDATA') ]		on: Error		do: [ self home ]
+preferences	^ self directoryFromEnvVariableNamed: 'APPDATA' or: [ self home ]

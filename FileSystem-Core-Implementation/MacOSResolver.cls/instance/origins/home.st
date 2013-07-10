@@ -1,1 +1,1 @@
-home	^ (self resolveString: self class primitiveGetUntrustedUserDirectory)		parent parent parent parent parent
+home	^ self directoryFromEnvVariableNamed: 'HOME'

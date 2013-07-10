@@ -1,1 +1,0 @@
-nbGetEnv: str	#NativeBoost asClassIfPresent: [ ^ self privNbGetEnv: str ].	^ nil
