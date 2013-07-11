@@ -1,0 +1,1 @@
+isForDragging	^ location isNil

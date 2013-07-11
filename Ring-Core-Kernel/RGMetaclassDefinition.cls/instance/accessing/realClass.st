@@ -1,0 +1,1 @@
+realClass	^baseClass realClass theMetaClass

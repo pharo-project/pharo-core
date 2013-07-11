@@ -1,0 +1,1 @@
+localChosen	^ isApplicable == false

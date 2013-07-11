@@ -1,0 +1,1 @@
+isAnonymous	^thisClass isAnonymous 

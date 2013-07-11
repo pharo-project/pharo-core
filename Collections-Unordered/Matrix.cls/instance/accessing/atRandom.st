@@ -1,0 +1,1 @@
+atRandom	^contents atRandom

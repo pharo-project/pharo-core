@@ -1,0 +1,1 @@
+asDateAndTime	^ DateAndTime today + self

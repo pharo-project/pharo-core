@@ -1,0 +1,1 @@
+allowStartupScript: aBoolean	AllowStartupScript := aBoolean

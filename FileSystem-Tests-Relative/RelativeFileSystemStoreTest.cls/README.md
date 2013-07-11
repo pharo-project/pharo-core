@@ -1,0 +1,1 @@
+A RelativeFileSystemStoreTest is xxxxxxxxx.Instance Variables	fileSystem:		<Object>	originalReference:		<Object>	reference:		<Object>	store:		<Object>fileSystem	- xxxxxoriginalReference	- xxxxxreference	- xxxxxstore	- xxxxx

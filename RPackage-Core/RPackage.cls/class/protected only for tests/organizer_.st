@@ -1,0 +1,1 @@
+organizer: aPackageOrganizer	PackageGlobalOrganizer := aPackageOrganizer

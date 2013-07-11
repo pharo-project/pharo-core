@@ -1,0 +1,1 @@
+A RBExtractMethodToComponentRefactoring is xxxxxxxxx.Instance Variables	extractedMethodSelector:		<Object>	extractionInterval:		<Object>	selector:		<Object>extractedMethodSelector	- xxxxxextractionInterval	- xxxxxselector	- xxxxx

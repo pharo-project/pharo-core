@@ -1,0 +1,1 @@
+initializeSelectors	self initializeSelectorsFor: clazz

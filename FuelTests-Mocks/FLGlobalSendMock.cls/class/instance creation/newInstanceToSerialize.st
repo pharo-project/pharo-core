@@ -1,0 +1,1 @@
+newInstanceToSerialize		^self newWith: #serializing

@@ -1,0 +1,1 @@
+A MetacelloValidationNotification is xxxxxxxxx.Instance Variables	issue:		<Object>issue	- xxxxx

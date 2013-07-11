@@ -1,0 +1,1 @@
+A RBAbstractInstanceVariableRefactoring is xxxxxxxxx.Instance Variables	accessorsRefactoring:		<Object>accessorsRefactoring	- xxxxx

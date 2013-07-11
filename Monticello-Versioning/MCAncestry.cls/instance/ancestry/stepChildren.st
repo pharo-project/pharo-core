@@ -1,0 +1,1 @@
+stepChildren	^ stepChildren ifNil: [#()]

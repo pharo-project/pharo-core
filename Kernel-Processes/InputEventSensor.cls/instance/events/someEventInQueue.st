@@ -1,0 +1,1 @@
+someEventInQueue	^eventQueue isEmpty not

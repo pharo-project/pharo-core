@@ -1,0 +1,1 @@
+clearMemberMap	memberMap := nil.

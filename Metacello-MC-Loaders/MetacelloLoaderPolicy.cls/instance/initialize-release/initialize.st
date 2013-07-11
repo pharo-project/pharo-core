@@ -1,0 +1,1 @@
+initialize	self 		repositoryMap; 		cacheRepository;		ensuredMap.	ignoreImage := false

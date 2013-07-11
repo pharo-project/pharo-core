@@ -1,0 +1,1 @@
+referencesIcon	^ self smallWindowIcon

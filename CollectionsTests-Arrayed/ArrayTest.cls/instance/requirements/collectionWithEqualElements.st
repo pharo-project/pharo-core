@@ -1,0 +1,1 @@
+collectionWithEqualElements	^ withEqualElements.

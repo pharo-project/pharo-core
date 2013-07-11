@@ -1,0 +1,1 @@
+newLinesAfterTemporaries: anInteger	NewLinesAfterTemporaries := anInteger

@@ -1,0 +1,1 @@
+A SortHierarchicallyTests is xxxxxxxxx.Instance Variables	archivesClasses:		<Object>	completeTree:		<Object>	partialTree:		<Object>	unrelatedClasses:		<Object>archivesClasses	- xxxxxcompleteTree	- xxxxxpartialTree	- xxxxxunrelatedClasses	- xxxxx

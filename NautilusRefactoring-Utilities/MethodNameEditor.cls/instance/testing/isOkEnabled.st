@@ -1,0 +1,1 @@
+isOkEnabled	^ self methodName isValid

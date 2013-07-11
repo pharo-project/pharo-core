@@ -1,0 +1,1 @@
+A GoferWorking is xxxxxxxxx.Instance Variables	workingCopies:		<Object>workingCopies	- xxxxx

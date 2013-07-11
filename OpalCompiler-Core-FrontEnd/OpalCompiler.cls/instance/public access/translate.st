@@ -1,0 +1,1 @@
+translate	self compile.	^ ast

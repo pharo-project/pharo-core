@@ -1,0 +1,1 @@
+An AthensTreeView is xxxxxxxxx.Instance Variables	nodeChildsBlock:		<Object>	nodeExtentBlock:		<Object>	root:		<Object>	rows:		<Object>nodeChildsBlock	- xxxxxnodeExtentBlock	- xxxxxroot	- xxxxxrows	- xxxxx

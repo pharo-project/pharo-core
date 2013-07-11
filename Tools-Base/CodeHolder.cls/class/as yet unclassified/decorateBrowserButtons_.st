@@ -1,0 +1,1 @@
+decorateBrowserButtons: aBoolean	DecorateBrowserButtons := aBoolean

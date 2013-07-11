@@ -1,0 +1,1 @@
+sourceFileVersionString: aString	SourceFileVersionString := aString

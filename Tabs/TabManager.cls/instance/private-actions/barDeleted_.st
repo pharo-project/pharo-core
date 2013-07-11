@@ -1,0 +1,1 @@
+barDeleted: aBar	self close

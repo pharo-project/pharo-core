@@ -1,0 +1,1 @@
+A ZnHTTPSocketFacadeTests is xxxxxxxxx.Instance Variables

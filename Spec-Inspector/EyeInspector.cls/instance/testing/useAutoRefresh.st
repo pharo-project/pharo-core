@@ -1,0 +1,1 @@
+useAutoRefresh	^ self class useAutoRefresh

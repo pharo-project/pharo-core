@@ -1,0 +1,1 @@
+I am used to spread slot into an unaffected system.    SlotVirus spread.Initializes default slots and layouts on all objects (note: so far this will break custom objects with custom slots)

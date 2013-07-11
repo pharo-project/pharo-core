@@ -1,0 +1,1 @@
+description	^ 'directory with subdirectories'

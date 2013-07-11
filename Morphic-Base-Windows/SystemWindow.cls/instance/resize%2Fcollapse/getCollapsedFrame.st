@@ -1,0 +1,1 @@
+getCollapsedFrame	^RealEstateAgent assignCollapseFrameFor: self.

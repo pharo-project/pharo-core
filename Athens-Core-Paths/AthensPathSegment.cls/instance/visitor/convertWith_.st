@@ -1,0 +1,1 @@
+convertWith: anObject	self subclassResponsibility

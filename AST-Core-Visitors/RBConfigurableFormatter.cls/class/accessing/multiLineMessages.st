@@ -1,0 +1,1 @@
+multiLineMessages	^ MultiLineMessages printString

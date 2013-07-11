@@ -1,0 +1,1 @@
+critics	^ self result smallLintCritics 

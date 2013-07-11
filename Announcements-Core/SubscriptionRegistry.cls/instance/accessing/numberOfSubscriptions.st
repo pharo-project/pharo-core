@@ -1,0 +1,1 @@
+numberOfSubscriptions	^ subscriptions size

@@ -1,0 +1,1 @@
+hBearing	^hBearingX@hBearingY

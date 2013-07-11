@@ -1,0 +1,1 @@
+compressionStored	^CompressionStored

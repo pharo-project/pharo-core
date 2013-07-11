@@ -1,0 +1,1 @@
+specWidget: anObject	specWidget := anObject.

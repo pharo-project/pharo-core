@@ -1,0 +1,1 @@
+isTraditionalChinese: code	^ false.

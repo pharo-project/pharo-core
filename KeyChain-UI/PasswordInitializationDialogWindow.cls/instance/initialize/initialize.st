@@ -1,0 +1,1 @@
+initialize	"Initialization code for PasswordInitializationDialogWindow"	super initialize.	self textFont: Smalltalk ui theme textFont.

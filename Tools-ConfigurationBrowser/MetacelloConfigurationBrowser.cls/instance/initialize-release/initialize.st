@@ -1,0 +1,1 @@
+initialize	"Initialization code for MessageBrowser"	super initialize.	self windowIcon: self taskbarIcon.	 

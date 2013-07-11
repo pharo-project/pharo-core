@@ -1,0 +1,1 @@
+i am a service class, which responsible to finding and loading cairo dynamic library

@@ -1,0 +1,1 @@
+basenameFromEntry: aMemoryFileSystemEntry	^ aMemoryFileSystemEntry basename

@@ -1,0 +1,1 @@
+warningLimit: anInteger	WarningLimit := anInteger

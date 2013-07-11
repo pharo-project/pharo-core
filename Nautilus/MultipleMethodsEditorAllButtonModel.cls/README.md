@@ -1,0 +1,1 @@
+I am model for multiple methods editor (the -All- button)

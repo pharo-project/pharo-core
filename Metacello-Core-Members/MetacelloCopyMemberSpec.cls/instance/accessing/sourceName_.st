@@ -1,0 +1,1 @@
+sourceName: aString	sourceName := aString

@@ -1,0 +1,1 @@
+A RBPushDownInstanceVariableRefactoring is xxxxxxxxx.Instance Variables

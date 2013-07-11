@@ -1,0 +1,1 @@
+CategoryWidget is the basic implementation of a wiget managing categories

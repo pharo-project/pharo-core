@@ -1,0 +1,1 @@
+A MetacelloGoferCommit is xxxxxxxxx.Instance Variables

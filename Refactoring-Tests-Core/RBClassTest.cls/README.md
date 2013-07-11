@@ -1,0 +1,1 @@
+A RBClassTest is xxxxxxxxx.Instance Variables	messageNodeClass:		<Object>	newClass:		<Object>	objectClass:		<Object>messageNodeClass	- xxxxxnewClass	- xxxxxobjectClass	- xxxxx

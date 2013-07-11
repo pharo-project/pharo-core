@@ -1,0 +1,1 @@
+An AddInstVarDescription is xxxxxxxxx.Instance Variables	name:		<Object>	type:		<Object>name	- xxxxxtype	- xxxxx

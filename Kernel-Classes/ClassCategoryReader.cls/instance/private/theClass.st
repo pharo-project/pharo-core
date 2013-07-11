@@ -1,0 +1,1 @@
+theClass	^ class

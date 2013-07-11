@@ -1,0 +1,1 @@
+cellPositioning: aSymbol	cellPositioning := aSymbol

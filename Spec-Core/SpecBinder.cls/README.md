@@ -1,0 +1,1 @@
+A SpecBinder is a stupid dictionary where keys are spec symbolic name and values are corresponding spec class

@@ -1,0 +1,1 @@
+completion	^ self contents asSymbol

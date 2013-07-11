@@ -1,0 +1,1 @@
+newEntryURL	^ self url: '/issues/full'

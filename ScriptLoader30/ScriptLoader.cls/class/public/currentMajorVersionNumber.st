@@ -1,0 +1,1 @@
+currentMajorVersionNumber	^ CurrentMajorVersionNumber 

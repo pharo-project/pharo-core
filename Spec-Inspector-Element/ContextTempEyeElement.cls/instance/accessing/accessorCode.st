@@ -1,0 +1,1 @@
+accessorCode	^ '(self tempNamed: ', self tempName printString, ')'

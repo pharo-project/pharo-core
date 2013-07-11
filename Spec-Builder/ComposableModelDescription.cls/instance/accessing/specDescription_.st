@@ -1,0 +1,1 @@
+specDescription: aDescription	specDescription := aDescription

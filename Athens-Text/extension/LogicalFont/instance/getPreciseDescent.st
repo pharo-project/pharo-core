@@ -1,0 +1,1 @@
+getPreciseDescent	^ self realFont getPreciseDescent

@@ -1,0 +1,1 @@
+newStateForEnabled: aBoolean	^ self subclassResponsibility

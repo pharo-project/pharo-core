@@ -1,0 +1,1 @@
+ast	^ ASTCache at: self

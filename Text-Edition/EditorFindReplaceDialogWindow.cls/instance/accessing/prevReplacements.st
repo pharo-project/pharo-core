@@ -1,0 +1,1 @@
+prevReplacements	^ self class replacements

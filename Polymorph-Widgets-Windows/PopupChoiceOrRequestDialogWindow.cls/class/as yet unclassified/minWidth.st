@@ -1,0 +1,1 @@
+minWidth	^250

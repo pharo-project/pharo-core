@@ -1,0 +1,1 @@
+A URL which has a hierarchical encoding.  For instance, http and ftp URLs are hierarchical.

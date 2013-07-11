@@ -1,0 +1,1 @@
+formerPosition	^self valueOfProperty: #formerPosition

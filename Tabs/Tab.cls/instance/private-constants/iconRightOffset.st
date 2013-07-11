@@ -1,0 +1,1 @@
+iconRightOffset	^ 10

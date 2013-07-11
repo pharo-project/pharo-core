@@ -1,0 +1,1 @@
+A GlyphForm is xxxxxxxxx.Instance Variables	advance:		<Object>	linearAdvance:		<Object>advance	- xxxxxlinearAdvance	- xxxxx

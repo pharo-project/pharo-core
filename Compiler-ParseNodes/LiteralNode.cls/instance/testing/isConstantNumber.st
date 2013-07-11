@@ -1,0 +1,1 @@
+isConstantNumber	^ key isNumber

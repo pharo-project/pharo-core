@@ -1,0 +1,1 @@
+imagePng	^ self predefinedInstanceAt: #imagePng

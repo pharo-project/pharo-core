@@ -1,0 +1,1 @@
+theNonMetaClass	^self subclassResponsibility.

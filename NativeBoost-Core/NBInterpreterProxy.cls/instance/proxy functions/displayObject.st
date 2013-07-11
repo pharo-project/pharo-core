@@ -1,0 +1,1 @@
+displayObject		^ self simpleCall

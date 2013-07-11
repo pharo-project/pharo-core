@@ -1,0 +1,1 @@
+A RGGlobalVariableDefinition is xxxxxxxxx.Instance Variables	value:		<Object>value	- xxxxx

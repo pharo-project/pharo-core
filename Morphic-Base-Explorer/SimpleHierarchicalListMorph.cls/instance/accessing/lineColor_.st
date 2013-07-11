@@ -1,0 +1,1 @@
+lineColor: aColor	^lineColor := aColor

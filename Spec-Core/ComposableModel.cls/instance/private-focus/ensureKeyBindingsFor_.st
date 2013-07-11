@@ -1,0 +1,1 @@
+ensureKeyBindingsFor: aWidget	self registerKeyStrokesForNextFor: aWidget.	self registerKeyStrokesForPreviousFor: aWidget.		additionalKeyBindings associationsDo: [:association | aWidget on: association key do: association value ]

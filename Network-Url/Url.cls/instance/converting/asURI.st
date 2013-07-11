@@ -1,0 +1,1 @@
+asURI	^self asString asURI

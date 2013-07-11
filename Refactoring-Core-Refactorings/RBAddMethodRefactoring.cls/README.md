@@ -1,0 +1,1 @@
+A RBAddMethodRefactoring is xxxxxxxxx.Instance Variables	protocols:		<Object>	source:		<Object>protocols	- xxxxxsource	- xxxxx

@@ -1,0 +1,1 @@
+hash	^self type hash

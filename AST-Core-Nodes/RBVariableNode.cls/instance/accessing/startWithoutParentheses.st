@@ -1,0 +1,1 @@
+startWithoutParentheses	^token start

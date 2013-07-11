@@ -1,0 +1,1 @@
+doubleClickSelector: anObject	doubleClickSelector contents: anObject

@@ -1,0 +1,1 @@
+getIconSelector: aSymbol	getIconSelector := aSymbol

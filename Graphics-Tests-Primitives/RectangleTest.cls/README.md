@@ -1,0 +1,1 @@
+A RectangleTest is xxxxxxxxx.Instance Variables	emptyRectangle:		<Object>	rectangle1:		<Object>emptyRectangle	- xxxxxrectangle1	- xxxxx

@@ -1,0 +1,1 @@
+scriptSelector	self subclassResponsibility

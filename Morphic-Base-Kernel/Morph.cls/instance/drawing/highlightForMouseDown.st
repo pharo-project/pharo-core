@@ -1,0 +1,1 @@
+highlightForMouseDown	self highlightForMouseDown: true

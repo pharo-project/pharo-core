@@ -1,0 +1,1 @@
+client: anObject	client := anObject.

@@ -1,0 +1,1 @@
+weightSemiBold	^600

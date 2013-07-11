@@ -1,0 +1,1 @@
+A MetacelloConfigurationBrowserToolbar is xxxxxxxxx.Instance Variables	installModel:		<Object>	loadModel:		<Object>installModel	- xxxxxloadModel	- xxxxx

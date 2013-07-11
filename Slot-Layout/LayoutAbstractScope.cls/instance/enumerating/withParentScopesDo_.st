@@ -1,0 +1,1 @@
+withParentScopesDo: aBlock	self subclassResponsibility

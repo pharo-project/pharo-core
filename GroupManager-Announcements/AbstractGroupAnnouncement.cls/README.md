@@ -1,0 +1,1 @@
+An AbstractGroupAnnouncement is xxxxxxxxx.Instance Variables	group:		<Object>	holder:		<Object>group	- xxxxxholder	- xxxxx

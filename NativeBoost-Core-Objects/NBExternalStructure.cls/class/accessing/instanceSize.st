@@ -1,0 +1,1 @@
+instanceSize 		^ self fields totalSize	

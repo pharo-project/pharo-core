@@ -1,0 +1,1 @@
+trailerStep	root := decoder nextEncodedReference

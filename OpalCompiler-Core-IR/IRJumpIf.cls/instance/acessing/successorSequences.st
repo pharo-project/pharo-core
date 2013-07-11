@@ -1,0 +1,1 @@
+successorSequences	^ {destination. otherwise}

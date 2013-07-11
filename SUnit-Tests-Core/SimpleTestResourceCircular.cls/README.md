@@ -1,0 +1,1 @@
+A SimpleTestResourceCircular is xxxxxxxxx.Instance Variables

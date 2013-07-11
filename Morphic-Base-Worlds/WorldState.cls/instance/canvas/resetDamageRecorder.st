@@ -1,0 +1,1 @@
+resetDamageRecorder	damageRecorder reset

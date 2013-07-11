@@ -1,0 +1,1 @@
+extension		^ self fullPath extension.

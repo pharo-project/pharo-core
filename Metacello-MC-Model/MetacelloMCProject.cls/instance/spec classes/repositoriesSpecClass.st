@@ -1,0 +1,1 @@
+repositoriesSpecClass	^MetacelloRepositoriesSpec

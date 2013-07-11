@@ -1,0 +1,1 @@
+collectionWithElementsToRemove	^ nonEmpty copyWithoutFirst.

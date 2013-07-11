@@ -1,0 +1,1 @@
+A PermissionsEditor is a GUI for editing a user permissions

@@ -1,0 +1,1 @@
+leftFraction: aNumber	^ 0

@@ -1,0 +1,1 @@
+isClassPatch	^definition isClassDefinition

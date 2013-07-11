@@ -1,0 +1,1 @@
+defaultYellowButtonMenuEnabled	^ self class defaultYellowButtonMenuEnabled

@@ -1,0 +1,1 @@
+activePC: aContext	^ (self isLatestContext: aContext)		ifTrue: [ context pc ]		ifFalse: [ self previousPC: aContext ].

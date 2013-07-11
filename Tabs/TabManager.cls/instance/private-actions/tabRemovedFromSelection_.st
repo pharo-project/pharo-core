@@ -1,0 +1,1 @@
+tabRemovedFromSelection: aTab	self setMultipleContents

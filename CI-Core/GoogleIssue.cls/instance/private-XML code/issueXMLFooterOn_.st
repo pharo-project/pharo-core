@@ -1,0 +1,1 @@
+issueXMLFooterOn: stream	stream nextPutAll: '</entry>'

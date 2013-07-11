@@ -1,0 +1,1 @@
+registerName 	^ name asString.

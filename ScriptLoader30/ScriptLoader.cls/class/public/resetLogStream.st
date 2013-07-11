@@ -1,0 +1,1 @@
+resetLogStream	LogStream := nil

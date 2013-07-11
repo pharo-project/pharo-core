@@ -1,0 +1,1 @@
+A RBInlineTemporaryRefactoring is xxxxxxxxx.Instance Variables	assignmentNode:		<Object>	definingNode:		<Object>	selector:		<Object>	sourceInterval:		<Object>	sourceTree:		<Object>assignmentNode	- xxxxxdefiningNode	- xxxxxselector	- xxxxxsourceInterval	- xxxxxsourceTree	- xxxxx

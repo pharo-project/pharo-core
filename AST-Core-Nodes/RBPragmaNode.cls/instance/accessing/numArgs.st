@@ -1,0 +1,1 @@
+numArgs	^ self selector numArgs

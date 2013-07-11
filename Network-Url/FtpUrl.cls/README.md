@@ -1,0 +1,1 @@
+A FtpUrl is xxxxxxxxx.Instance Variables

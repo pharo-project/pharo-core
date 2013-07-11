@@ -1,0 +1,1 @@
+isForByteArray	^isByteArray

@@ -1,0 +1,1 @@
+newSlot: anObject	newSlot := anObject

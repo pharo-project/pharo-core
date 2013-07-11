@@ -1,0 +1,1 @@
+cellSpacing: aSymbol	cellSpacing := aSymbol.

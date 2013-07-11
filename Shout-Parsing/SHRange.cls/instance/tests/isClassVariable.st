@@ -1,0 +1,1 @@
+isClassVariable	^type == #classVar

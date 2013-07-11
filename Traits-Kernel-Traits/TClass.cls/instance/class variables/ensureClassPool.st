@@ -1,0 +1,1 @@
+ensureClassPool	^self classPool.

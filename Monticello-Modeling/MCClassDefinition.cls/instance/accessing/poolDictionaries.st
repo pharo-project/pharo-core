@@ -1,0 +1,1 @@
+poolDictionaries	^ self selectVariables: #isPoolImport

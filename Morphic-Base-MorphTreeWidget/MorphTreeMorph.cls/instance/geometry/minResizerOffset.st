@@ -1,0 +1,1 @@
+minResizerOffset	^ 20

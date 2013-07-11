@@ -1,0 +1,1 @@
+code	^self sourceTextArea text

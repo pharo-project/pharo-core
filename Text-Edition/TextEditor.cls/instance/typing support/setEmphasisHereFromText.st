@@ -1,0 +1,1 @@
+setEmphasisHereFromText	self setEmphasisHereFromTextForward: true

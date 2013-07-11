@@ -1,0 +1,1 @@
+wantsStepsIn: aSystemWindow		^ self wantsSteps

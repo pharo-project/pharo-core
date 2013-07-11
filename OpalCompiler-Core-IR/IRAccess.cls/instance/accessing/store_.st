@@ -1,0 +1,1 @@
+store: aBool	store := aBool

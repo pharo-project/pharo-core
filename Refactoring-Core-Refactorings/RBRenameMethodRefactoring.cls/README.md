@@ -1,0 +1,1 @@
+A RBRenameMethodRefactoring is xxxxxxxxx.Instance Variables	hasPermutedArguments:		<Object>hasPermutedArguments	- xxxxx

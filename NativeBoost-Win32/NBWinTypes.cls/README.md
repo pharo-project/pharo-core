@@ -1,0 +1,1 @@
+A NBWinTypes is xxxxxxxxx.Instance Variables

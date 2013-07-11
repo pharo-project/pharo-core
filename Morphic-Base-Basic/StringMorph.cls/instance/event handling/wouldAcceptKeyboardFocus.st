@@ -1,0 +1,1 @@
+wouldAcceptKeyboardFocus	^ self isLocked not

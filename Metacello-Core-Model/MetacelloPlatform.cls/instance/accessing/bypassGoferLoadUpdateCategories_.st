@@ -1,0 +1,1 @@
+bypassGoferLoadUpdateCategories: anObject	bypassGoferLoadUpdateCategories := anObject

@@ -1,0 +1,1 @@
+A RBEqualNotUsedRule is xxxxxxxxx.Instance Variables

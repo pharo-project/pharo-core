@@ -1,0 +1,1 @@
+A GeneratorTest is xxxxxxxxx.Instance Variables

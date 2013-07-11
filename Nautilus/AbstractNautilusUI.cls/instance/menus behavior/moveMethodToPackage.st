@@ -1,0 +1,1 @@
+moveMethodToPackage	^ self subclassResponsibility

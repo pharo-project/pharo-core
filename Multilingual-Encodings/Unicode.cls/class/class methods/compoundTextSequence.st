@@ -1,0 +1,1 @@
+compoundTextSequence	self subclassResponsibility.

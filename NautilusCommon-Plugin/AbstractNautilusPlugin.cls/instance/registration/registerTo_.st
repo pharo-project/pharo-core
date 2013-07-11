@@ -1,0 +1,1 @@
+registerTo: aModel	self subclassResponsibility

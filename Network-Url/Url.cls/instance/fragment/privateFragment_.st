@@ -1,0 +1,1 @@
+privateFragment: aString	fragment := aString

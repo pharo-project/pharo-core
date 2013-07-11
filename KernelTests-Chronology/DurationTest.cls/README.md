@@ -1,0 +1,1 @@
+A DurationTest is xxxxxxxxx.Instance Variables	aDuration:		<Object>aDuration	- xxxxx

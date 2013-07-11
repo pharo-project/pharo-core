@@ -1,0 +1,1 @@
+mockOverrideMethodCategory	^ self mockExtensionMethodCategory, '-override'

@@ -1,0 +1,1 @@
+handlesContext: aMethodContext 		^ true

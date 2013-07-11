@@ -1,0 +1,1 @@
+This class should be used instead of MCMockPackageInfo in the monticello tests

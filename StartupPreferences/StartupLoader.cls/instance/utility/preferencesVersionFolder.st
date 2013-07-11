@@ -1,0 +1,1 @@
+preferencesVersionFolder	^ self class preferencesVersionFolder.

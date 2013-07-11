@@ -1,0 +1,1 @@
+smallFrameSize	^ SmallFrame

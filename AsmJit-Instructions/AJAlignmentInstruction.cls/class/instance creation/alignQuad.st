@@ -1,0 +1,1 @@
+alignQuad	^ self new alignQuad

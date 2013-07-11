@@ -1,0 +1,1 @@
+acceptSelfNode: aSelf	^ self currentSelf

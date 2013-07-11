@@ -1,0 +1,1 @@
+isEffectTranslator	^self == effectTranslator

@@ -1,0 +1,1 @@
+potentialDropIndex	^ potentialDropIndex contents

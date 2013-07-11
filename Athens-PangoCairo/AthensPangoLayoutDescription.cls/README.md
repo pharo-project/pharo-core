@@ -1,0 +1,1 @@
+An AthensPangoLayoutDescription is xxxxxxxxx.Instance Variables	alignment:		<Object>	ellipsize:		<Object>	indentation:		<Object>	justify:		<Object>	spacing:		<Object>	tabs:		<Object>	wrap:		<Object>alignment	- xxxxxellipsize	- xxxxxindentation	- xxxxxjustify	- xxxxxspacing	- xxxxxtabs	- xxxxxwrap	- xxxxx

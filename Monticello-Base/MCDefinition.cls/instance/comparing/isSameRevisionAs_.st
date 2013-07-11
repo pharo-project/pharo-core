@@ -1,0 +1,1 @@
+isSameRevisionAs: aDefinition	^ self = aDefinition

@@ -1,0 +1,1 @@
+class: aBehavior	class := aBehavior

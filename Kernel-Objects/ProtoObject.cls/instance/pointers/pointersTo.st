@@ -1,0 +1,1 @@
+pointersTo	^self pointersToExcept: #()

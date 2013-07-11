@@ -1,0 +1,1 @@
+versionClass	^MetacelloMCVersion

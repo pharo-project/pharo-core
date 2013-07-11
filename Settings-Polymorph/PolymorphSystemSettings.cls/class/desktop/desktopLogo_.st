@@ -1,0 +1,1 @@
+desktopLogo: anImageMorph	DesktopLogo := anImageMorph

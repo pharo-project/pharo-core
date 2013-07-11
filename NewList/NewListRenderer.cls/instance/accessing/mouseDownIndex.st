@@ -1,0 +1,1 @@
+mouseDownIndex	^ mouseDownIndex contents

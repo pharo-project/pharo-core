@@ -1,0 +1,1 @@
+commandName	^ 'printVersion'

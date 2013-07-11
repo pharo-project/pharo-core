@@ -1,0 +1,1 @@
+isActive	^Smalltalk compilerClass == self

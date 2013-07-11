@@ -1,0 +1,1 @@
+shiftedYellowButtonActivity	^ self yellowButtonActivity: true

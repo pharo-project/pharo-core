@@ -1,0 +1,1 @@
+secureSocketStreamClass: anObject	secureSocketStreamClass := anObject

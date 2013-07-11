@@ -1,0 +1,1 @@
+signalCompilationException: errorString	RegexCompilationError new signal: errorString

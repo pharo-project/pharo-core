@@ -1,0 +1,1 @@
+isAbsolute 	self subclassResponsibility 

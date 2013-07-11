@@ -1,0 +1,1 @@
+pharo	^ self for: 'pharo'

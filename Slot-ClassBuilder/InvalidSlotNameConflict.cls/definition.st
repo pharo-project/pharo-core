@@ -1,0 +1,1 @@
+SlotClassBuilderConflict subclass: #InvalidSlotNameConflict	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Slot-ClassBuilder'

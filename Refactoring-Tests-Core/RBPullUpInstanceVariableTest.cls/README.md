@@ -1,0 +1,1 @@
+A RBPullUpInstanceVariableTest is xxxxxxxxx.Instance Variables

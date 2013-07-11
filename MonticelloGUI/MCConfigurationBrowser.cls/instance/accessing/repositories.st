@@ -1,0 +1,1 @@
+repositories	^ self configuration repositories

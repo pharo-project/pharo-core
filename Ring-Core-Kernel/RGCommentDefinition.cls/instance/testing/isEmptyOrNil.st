@@ -1,0 +1,1 @@
+isEmptyOrNil	^content isEmptyOrNil 

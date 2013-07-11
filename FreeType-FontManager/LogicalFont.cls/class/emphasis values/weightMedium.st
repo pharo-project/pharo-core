@@ -1,0 +1,1 @@
+weightMedium	^500

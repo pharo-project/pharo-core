@@ -1,0 +1,1 @@
+initialize	"Initialization code for Tab class"	Icons := Dictionary new.

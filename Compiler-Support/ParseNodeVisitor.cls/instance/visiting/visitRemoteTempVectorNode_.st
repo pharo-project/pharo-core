@@ -1,0 +1,1 @@
+visitRemoteTempVectorNode: aRemoteTempVectorNode

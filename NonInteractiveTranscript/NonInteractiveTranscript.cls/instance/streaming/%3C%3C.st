@@ -1,0 +1,1 @@
+<< anObject	self show: anObject

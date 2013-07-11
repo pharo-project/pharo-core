@@ -1,0 +1,1 @@
+A MCVersionSorter is xxxxxxxxx.Instance Variables	depthIndex:		<Object>	depths:		<Object>	layers:		<Object>	roots:		<Object>	stepparents:		<Object>depthIndex	- xxxxxdepths	- xxxxxlayers	- xxxxxroots	- xxxxxstepparents	- xxxxx

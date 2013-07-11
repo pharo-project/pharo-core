@@ -1,0 +1,1 @@
+basicIsFile: aMemoryFileSystemEntry	^ aMemoryFileSystemEntry isFile

@@ -1,0 +1,1 @@
+isArg	^self binding isArg

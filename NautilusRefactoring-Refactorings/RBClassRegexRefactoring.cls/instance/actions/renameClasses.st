@@ -1,0 +1,1 @@
+renameClasses	mode := #rename:name:

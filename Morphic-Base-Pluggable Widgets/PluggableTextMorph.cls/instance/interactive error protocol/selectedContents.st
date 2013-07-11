@@ -1,0 +1,1 @@
+selectedContents	^ textMorph editor selection

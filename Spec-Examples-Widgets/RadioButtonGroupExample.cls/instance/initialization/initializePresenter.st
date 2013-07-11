@@ -1,0 +1,1 @@
+initializePresenter	self setActions.	

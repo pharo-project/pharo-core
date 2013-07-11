@@ -1,0 +1,1 @@
+handlesMouseWheel: event	^ true

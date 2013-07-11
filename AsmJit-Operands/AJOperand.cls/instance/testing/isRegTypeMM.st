@@ -1,0 +1,1 @@
+isRegTypeMM	^ false

@@ -1,0 +1,1 @@
+A MCRepositoryInspector is xxxxxxxxx.Instance Variables	loaded:		<Object>	packages:		<Object>	repository:		<Object>	selectedPackage:		<Object>	selectedVersion:		<Object>	versions:		<Object>loaded	- xxxxxpackages	- xxxxxrepository	- xxxxxselectedPackage	- xxxxxselectedVersion	- xxxxxversions	- xxxxx

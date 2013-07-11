@@ -1,0 +1,1 @@
+meridianAbbreviation	^ self asTime meridianAbbreviation

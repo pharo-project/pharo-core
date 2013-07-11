@@ -1,0 +1,1 @@
+left 	^ textMorph owner left

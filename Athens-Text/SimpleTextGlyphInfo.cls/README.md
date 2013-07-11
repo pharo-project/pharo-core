@@ -1,0 +1,1 @@
+A SimpleTextGlyphInfo is xxxxxxxxx.Instance Variables

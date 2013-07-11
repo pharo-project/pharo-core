@@ -1,0 +1,1 @@
+methodClass: anObject		methodClass := anObject

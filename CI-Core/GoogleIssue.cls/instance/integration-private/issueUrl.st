@@ -1,0 +1,1 @@
+issueUrl	^ self url: '/issues/full'

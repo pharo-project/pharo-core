@@ -1,0 +1,1 @@
+startPosition: anInteger 	startPosition := anInteger

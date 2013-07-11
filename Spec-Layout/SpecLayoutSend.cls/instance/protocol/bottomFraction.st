@@ -1,0 +1,1 @@
+bottomFraction	^ 0

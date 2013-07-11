@@ -1,0 +1,1 @@
+sourceQuadFor: aRectangle	^ aRectangle innerCorners

@@ -1,0 +1,1 @@
+families	self subclassResponsibility

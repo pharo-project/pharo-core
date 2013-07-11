@@ -1,0 +1,1 @@
+AbstractKeyPressedPlugin is an abstraction of plugin which react to key strokes 

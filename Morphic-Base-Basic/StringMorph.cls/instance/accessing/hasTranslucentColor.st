@@ -1,0 +1,1 @@
+hasTranslucentColor	^true

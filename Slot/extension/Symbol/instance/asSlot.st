@@ -1,0 +1,1 @@
+asSlot	^ Slot named: self.

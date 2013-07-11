@@ -1,0 +1,1 @@
+collector: aCollector	collector := aCollector

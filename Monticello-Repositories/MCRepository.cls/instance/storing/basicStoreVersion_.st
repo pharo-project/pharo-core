@@ -1,0 +1,1 @@
+basicStoreVersion: aVersion	self subclassResponsibility

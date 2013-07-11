@@ -1,0 +1,1 @@
+compileAll	^ self compileAllFrom: self

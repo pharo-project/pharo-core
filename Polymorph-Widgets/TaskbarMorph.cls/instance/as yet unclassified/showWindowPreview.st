@@ -1,0 +1,1 @@
+showWindowPreview	^ self class showWindowPreview

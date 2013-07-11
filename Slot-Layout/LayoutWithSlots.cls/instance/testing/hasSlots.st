@@ -1,0 +1,1 @@
+hasSlots	^ slotScope hasSlots

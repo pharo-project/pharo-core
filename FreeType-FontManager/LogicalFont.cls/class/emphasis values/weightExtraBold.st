@@ -1,0 +1,1 @@
+weightExtraBold	^800

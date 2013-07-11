@@ -1,0 +1,1 @@
+project	^ self configuration project

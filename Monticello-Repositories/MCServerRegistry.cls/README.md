@@ -1,0 +1,1 @@
+A MCServerRegistry is xxxxxxxxx.Instance Variables	registry:		<Object>registry	- xxxxx

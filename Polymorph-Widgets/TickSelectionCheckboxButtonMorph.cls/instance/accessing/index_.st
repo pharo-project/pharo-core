@@ -1,0 +1,1 @@
+index: anIndex	index := anIndex

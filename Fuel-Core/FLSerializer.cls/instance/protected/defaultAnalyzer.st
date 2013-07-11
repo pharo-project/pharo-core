@@ -1,0 +1,1 @@
+defaultAnalyzer	^FLAnalyzer newDefault

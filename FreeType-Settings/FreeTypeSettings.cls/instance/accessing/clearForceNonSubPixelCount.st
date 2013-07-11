@@ -1,0 +1,1 @@
+clearForceNonSubPixelCount		forceNonSubPixelCount := nil. 

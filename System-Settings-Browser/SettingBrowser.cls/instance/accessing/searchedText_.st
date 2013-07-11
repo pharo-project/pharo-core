@@ -1,0 +1,1 @@
+searchedText: aString	searchedText := aString.

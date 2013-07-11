@@ -1,0 +1,1 @@
+protocol: aString	protocol := aString

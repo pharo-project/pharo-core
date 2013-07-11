@@ -1,0 +1,1 @@
+A RBAddClassVariableRefactoring is xxxxxxxxx.Instance Variables

@@ -1,0 +1,1 @@
+newAssembler	^ self forCurrentPlatform  newAssembler

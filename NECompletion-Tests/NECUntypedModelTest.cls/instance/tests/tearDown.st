@@ -1,0 +1,1 @@
+tearDown	NECPreferences caseSensitive: prefValueCase

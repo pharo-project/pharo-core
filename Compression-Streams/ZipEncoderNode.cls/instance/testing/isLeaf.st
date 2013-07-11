@@ -1,0 +1,1 @@
+isLeaf	^left isNil

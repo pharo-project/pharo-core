@@ -1,0 +1,1 @@
+operands: anObject	operands := anObject

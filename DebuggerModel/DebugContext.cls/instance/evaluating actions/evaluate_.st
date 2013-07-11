@@ -1,0 +1,1 @@
+evaluate: expression	^ Smalltalk compiler		evaluate: expression		in: context		to: context receiver

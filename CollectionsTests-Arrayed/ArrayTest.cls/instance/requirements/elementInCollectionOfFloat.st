@@ -1,0 +1,1 @@
+elementInCollectionOfFloat	^ collectionOfCollection atRandom

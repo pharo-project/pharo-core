@@ -1,0 +1,1 @@
+isLiteralNode	^true

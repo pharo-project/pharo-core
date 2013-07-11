@@ -1,0 +1,1 @@
+setUp	morph := CircleMorph new

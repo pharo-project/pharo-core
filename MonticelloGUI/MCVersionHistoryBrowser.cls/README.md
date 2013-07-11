@@ -1,0 +1,1 @@
+A MCVersionHistoryBrowser is xxxxxxxxx.Instance Variables	ancestry:		<Object>	index:		<Object>	infos:		<Object>	package:		<Object>	repositoryGroup:		<Object>ancestry	- xxxxxindex	- xxxxxinfos	- xxxxxpackage	- xxxxxrepositoryGroup	- xxxxx

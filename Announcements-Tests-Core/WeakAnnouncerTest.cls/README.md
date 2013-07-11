@@ -1,0 +1,1 @@
+A WeakAnnouncerTest is xxxxxxxxx.Instance Variables

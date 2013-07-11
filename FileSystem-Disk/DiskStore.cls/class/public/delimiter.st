@@ -1,0 +1,1 @@
+delimiter	^ self current delimiter

@@ -1,0 +1,1 @@
+testChanges	self assertOriginResolves: #changes

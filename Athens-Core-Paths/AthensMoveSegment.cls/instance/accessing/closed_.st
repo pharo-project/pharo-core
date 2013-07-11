@@ -1,0 +1,1 @@
+closed: aBoolean	closed := aBoolean

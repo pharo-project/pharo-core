@@ -1,0 +1,1 @@
+setUp	failure := Object new.

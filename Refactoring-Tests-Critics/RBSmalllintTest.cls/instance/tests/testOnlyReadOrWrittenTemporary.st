@@ -1,0 +1,1 @@
+testOnlyReadOrWrittenTemporary	self ruleFor: self currentSelector

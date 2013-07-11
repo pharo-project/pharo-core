@@ -1,0 +1,1 @@
+showCaret: aBool	showCaret := aBool

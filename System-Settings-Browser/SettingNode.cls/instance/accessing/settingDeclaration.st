@@ -1,0 +1,1 @@
+settingDeclaration	^ self item

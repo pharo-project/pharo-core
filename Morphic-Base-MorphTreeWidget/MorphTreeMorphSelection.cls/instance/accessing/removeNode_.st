@@ -1,0 +1,1 @@
+removeNode: aNode	self subclassResponsibility 

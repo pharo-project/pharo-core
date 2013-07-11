@@ -1,0 +1,1 @@
+classByteArray		^ self simpleCall

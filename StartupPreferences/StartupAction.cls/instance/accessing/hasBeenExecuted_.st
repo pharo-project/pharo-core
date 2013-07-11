@@ -1,0 +1,1 @@
+hasBeenExecuted: anObject		hasBeenExecuted := anObject

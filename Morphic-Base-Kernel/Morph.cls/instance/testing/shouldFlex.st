@@ -1,0 +1,1 @@
+shouldFlex	^ self isFlexMorph.

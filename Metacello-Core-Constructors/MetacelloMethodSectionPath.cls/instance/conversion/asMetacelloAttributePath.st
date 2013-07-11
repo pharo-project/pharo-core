@@ -1,0 +1,1 @@
+asMetacelloAttributePath    ^ self

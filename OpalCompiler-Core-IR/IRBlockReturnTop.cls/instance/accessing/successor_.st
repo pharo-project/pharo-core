@@ -1,0 +1,1 @@
+successor: anObject	successor := anObject. 

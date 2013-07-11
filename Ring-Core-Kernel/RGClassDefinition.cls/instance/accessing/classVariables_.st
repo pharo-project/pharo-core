@@ -1,0 +1,1 @@
+classVariables: aCollection	classVariables:= aCollection

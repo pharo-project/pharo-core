@@ -1,0 +1,1 @@
+commentPosition	^ self class commentPosition

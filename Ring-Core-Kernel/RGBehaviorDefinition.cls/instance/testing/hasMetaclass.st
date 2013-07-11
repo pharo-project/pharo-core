@@ -1,0 +1,1 @@
+hasMetaclass	^ false

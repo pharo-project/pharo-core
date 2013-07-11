@@ -1,0 +1,1 @@
+addVariableFields: elements	self tempNames do: [ :name |		elements add: (ContextTempEyeElement host: self object tempName: name) ]

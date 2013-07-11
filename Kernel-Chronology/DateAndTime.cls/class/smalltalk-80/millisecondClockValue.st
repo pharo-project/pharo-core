@@ -1,0 +1,1 @@
+millisecondClockValue	^ self clock millisecondClockValue

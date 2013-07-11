@@ -1,0 +1,1 @@
+A MCStReaderTest is xxxxxxxxx.Instance Variables

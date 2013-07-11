@@ -1,0 +1,1 @@
+errorMessage: anObject	errorMessage := anObject

@@ -1,0 +1,1 @@
+update30266	"self new update30264"	self withUpdateLog: '11151 More changes needed to trait/classes polymorphism	https://pharo.fogbugz.com/f/cases/11151/(pass 3)'.	self loadTogether: self script102 merge: false.	self flushCaches.

@@ -1,0 +1,1 @@
+newQueue	^ WaitfreeQueue new

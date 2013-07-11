@@ -1,0 +1,1 @@
+A DateAndTimeUnixEpochTest is xxxxxxxxx.Instance Variables	aDateAndTime:		<Object>	aDuration:		<Object>	aTimeZone:		<Object>	localTimeZoneToRestore:		<Object>aDateAndTime	- xxxxxaDuration	- xxxxxaTimeZone	- xxxxxlocalTimeZoneToRestore	- xxxxx

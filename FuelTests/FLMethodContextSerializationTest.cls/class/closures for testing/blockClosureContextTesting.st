@@ -1,0 +1,1 @@
+blockClosureContextTesting	^ [self class] asContext

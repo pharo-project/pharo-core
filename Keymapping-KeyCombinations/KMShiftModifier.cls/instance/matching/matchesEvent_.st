@@ -1,0 +1,1 @@
+matchesEvent: aKeyboardEvent	^ aKeyboardEvent shiftPressed

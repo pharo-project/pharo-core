@@ -1,0 +1,1 @@
+An EUCTextConverterTest is xxxxxxxxx.Instance Variables

@@ -1,0 +1,1 @@
+canEditCode	^ self currentUser canEditCode

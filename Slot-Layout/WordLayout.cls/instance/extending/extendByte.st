@@ -1,0 +1,1 @@
+extendByte	PrimitiveTypeConflict new		layout: self;		subType: #byte;		signal

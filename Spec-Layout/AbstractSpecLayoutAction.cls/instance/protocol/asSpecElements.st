@@ -1,0 +1,1 @@
+asSpecElements	self subclassResponsibility 

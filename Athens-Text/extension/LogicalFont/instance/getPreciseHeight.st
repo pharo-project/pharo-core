@@ -1,0 +1,1 @@
+getPreciseHeight	^ self realFont getPreciseHeight

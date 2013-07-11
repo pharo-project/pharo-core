@@ -1,0 +1,1 @@
+isPushClosureCopy	^false

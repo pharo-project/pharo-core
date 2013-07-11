@@ -1,0 +1,1 @@
+guessTypeWith: anECContext 	^ anECContext theClass

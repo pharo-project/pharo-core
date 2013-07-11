@@ -1,0 +1,1 @@
+A RBRefactoryDefinitionChange is xxxxxxxxx.Instance Variables	controller:		<Object>	definedClass:		<Object>	definition:		<Object>controller	- xxxxxdefinedClass	- xxxxxdefinition	- xxxxx

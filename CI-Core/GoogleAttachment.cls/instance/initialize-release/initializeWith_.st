@@ -1,0 +1,1 @@
+initializeWith: anURLString	super initialize.	url := anURLString. 	self load.

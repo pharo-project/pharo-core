@@ -1,0 +1,1 @@
+vmDirectory 	^ self directory

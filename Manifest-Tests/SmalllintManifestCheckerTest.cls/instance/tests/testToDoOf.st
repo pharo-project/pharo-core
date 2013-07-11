@@ -1,0 +1,1 @@
+testToDoOf	| rule |	rule := RBCompositeLintRule allGoodRules.	smc runRules:  rule onPackage: self package. 	self assert: (( smc toDoOf: RBOnlyReadOrWrittenTemporaryRule new) anySatisfy: [:each| each = (MFClassB>>#method3)]).	self deny: (( smc toDoOf: RBOnlyReadOrWrittenTemporaryRule new) anySatisfy: [:each| each = (MFClassB>>#method2)]).

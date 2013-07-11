@@ -1,0 +1,1 @@
+I convert low-level terminal inputs, like mouse report or a key command.

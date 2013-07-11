@@ -1,0 +1,1 @@
+update30263	"self new update30263"	self withUpdateLog: '10466 Better interruption	https://pharo.fogbugz.com/f/cases/10466	10304 FileStreamTest should cleanup test files created		https://pharo.fogbugz.com/f/cases/10304'.	self loadTogether: self script100 merge: false.	UserInterruptHandler allInstances first setInterruptKeyValue: $. asciiValue..	self flushCaches.

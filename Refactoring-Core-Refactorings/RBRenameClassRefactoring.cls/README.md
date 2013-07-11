@@ -1,0 +1,1 @@
+A RBRenameClassRefactoring is xxxxxxxxx.Instance Variables	class:		<Object>	newName:		<Object>class	- xxxxxnewName	- xxxxx

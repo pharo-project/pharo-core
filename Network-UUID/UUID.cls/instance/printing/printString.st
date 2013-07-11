@@ -1,0 +1,1 @@
+printString	^self asString

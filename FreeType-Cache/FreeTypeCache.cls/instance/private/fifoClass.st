@@ -1,0 +1,1 @@
+fifoClass	^FreeTypeCacheLinkedList

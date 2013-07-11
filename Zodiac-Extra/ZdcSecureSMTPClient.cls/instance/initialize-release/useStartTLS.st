@@ -1,0 +1,1 @@
+useStartTLS	variant := #startTLS

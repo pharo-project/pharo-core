@@ -1,0 +1,1 @@
+testPushConsArray	| ir |	ir := IRBuilderTest new testPushConsArray.	self shouldnt: [IRInterpreter new interpret: ir ] raise: Error

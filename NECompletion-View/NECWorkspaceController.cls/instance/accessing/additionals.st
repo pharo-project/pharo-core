@@ -1,0 +1,1 @@
+additionals	^ self workspace completionAdditionals

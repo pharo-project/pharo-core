@@ -1,0 +1,1 @@
+changeMock	^ Smalltalk at: #RBRefactoringChangeMock

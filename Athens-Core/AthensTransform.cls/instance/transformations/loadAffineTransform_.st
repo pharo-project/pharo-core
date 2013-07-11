@@ -1,0 +1,1 @@
+loadAffineTransform: anAthenTransform	self subclassResponsibility

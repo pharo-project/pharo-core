@@ -1,0 +1,1 @@
+launchUpdate	UpdateStreamer new updateFromServer

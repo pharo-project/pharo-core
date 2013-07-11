@@ -1,0 +1,1 @@
+pragma: aPragma	pragma := aPragma

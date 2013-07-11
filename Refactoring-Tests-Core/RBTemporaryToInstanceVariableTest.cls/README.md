@@ -1,0 +1,1 @@
+A RBTemporaryToInstanceVariableTest is xxxxxxxxx.Instance Variables

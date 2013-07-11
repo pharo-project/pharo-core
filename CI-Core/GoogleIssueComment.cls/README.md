@@ -1,0 +1,1 @@
+A GoogleIssueComment is a representation of a Google Issue Tracker issue's comment

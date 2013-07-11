@@ -1,0 +1,1 @@
+A MetacelloMemberSpec is xxxxxxxxx.Instance Variables	name:		<Object>	spec:		<Object>name	- xxxxxspec	- xxxxx

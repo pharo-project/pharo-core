@@ -1,0 +1,1 @@
+code: argIndex type: type	argIndex isNil 		ifTrue: [^type negated].	(CodeLimits at: type) > argIndex 		ifTrue: [^(CodeBases at: type) + argIndex].	^type * 256 + argIndex

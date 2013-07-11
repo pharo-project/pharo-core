@@ -1,0 +1,1 @@
+category	^ self baseTrait category

@@ -1,0 +1,1 @@
+storeIntoLiteralVariable: index 

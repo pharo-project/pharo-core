@@ -1,0 +1,1 @@
+box: anObject		box := anObject

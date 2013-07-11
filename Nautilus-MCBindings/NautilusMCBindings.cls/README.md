@@ -1,0 +1,1 @@
+A NautilusMCBindings is a class which basically kept bindings between RPackages and MCPackage

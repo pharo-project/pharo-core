@@ -1,0 +1,1 @@
+string: aString 	string := aString

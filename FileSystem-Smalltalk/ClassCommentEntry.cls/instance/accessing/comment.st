@@ -1,0 +1,1 @@
+comment	^ clazz comment

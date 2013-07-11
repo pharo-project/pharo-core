@@ -1,0 +1,1 @@
+basicObsoleteSubclasses	^self explicitRequirement.

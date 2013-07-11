@@ -1,0 +1,1 @@
+isRead	^self isStore not

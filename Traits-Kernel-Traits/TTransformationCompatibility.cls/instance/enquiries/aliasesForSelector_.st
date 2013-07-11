@@ -1,0 +1,1 @@
+aliasesForSelector: aSelector 	^ OrderedCollection new

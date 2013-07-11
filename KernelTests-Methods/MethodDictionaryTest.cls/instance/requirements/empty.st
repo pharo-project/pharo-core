@@ -1,0 +1,1 @@
+empty	^ MethodDictionary new

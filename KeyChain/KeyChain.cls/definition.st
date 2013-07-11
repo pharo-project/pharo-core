@@ -1,0 +1,1 @@
+Object subclass: #KeyChain	instanceVariableNames: 'username password encryptor lastUnlock encryptorDecryptor bindings'	classVariableNames: ''	poolDictionaries: ''	category: 'KeyChain'

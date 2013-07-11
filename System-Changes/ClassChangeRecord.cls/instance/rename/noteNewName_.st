@@ -1,0 +1,1 @@
+noteNewName: newName	thisName := newName

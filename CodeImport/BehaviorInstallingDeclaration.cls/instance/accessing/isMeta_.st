@@ -1,0 +1,1 @@
+isMeta: aBoolean	isMeta := aBoolean

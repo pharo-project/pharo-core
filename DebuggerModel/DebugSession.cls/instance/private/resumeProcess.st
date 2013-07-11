@@ -1,0 +1,1 @@
+resumeProcess	"Make sure the interrupted process is restored properly and restart the low space handler"		process isTerminated		ifFalse: [errorWasInUIProcess				ifTrue: [UIManager default resumeUIProcess: process]				ifFalse: [process resume]].	Smalltalk installLowSpaceWatcher.	"restart low space handler".			

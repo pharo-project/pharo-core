@@ -1,0 +1,1 @@
+showCaret: abool  

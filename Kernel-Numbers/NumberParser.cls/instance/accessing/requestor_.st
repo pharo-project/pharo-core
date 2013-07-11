@@ -1,0 +1,1 @@
+requestor: anObjectOrNil	requestor := anObjectOrNil

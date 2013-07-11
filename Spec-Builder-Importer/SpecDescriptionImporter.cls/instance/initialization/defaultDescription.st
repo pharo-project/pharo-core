@@ -1,0 +1,1 @@
+defaultDescription	^ SpecDescription new

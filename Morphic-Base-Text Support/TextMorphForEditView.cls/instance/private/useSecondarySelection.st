@@ -1,0 +1,1 @@
+useSecondarySelection	^ TextEditor useSecondarySelection

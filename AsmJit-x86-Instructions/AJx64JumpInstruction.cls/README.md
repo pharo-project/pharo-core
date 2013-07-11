@@ -1,0 +1,1 @@
+An AJx64JumpInstruction is xxxxxxxxx.Instance Variables

@@ -1,0 +1,1 @@
+defaultOptions	^ #(	"by default we inline all optimized constructs"	+ optInlineIf	+ optInlineIfNil	+ optInlineAndOr	+ optInlineWhile	+ optInlineToDo	+ optInlineCase		- optIlineNone "to turn off all. Overrides the others" 		- optLongIvarAccessBytecodes "special for Contexts"	+ optOptimizeIR "disabled for now"	)

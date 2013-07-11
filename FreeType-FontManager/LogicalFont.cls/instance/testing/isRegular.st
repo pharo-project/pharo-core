@@ -1,0 +1,1 @@
+isRegular	^emphasis = 0

@@ -1,0 +1,1 @@
+A RBIfTrueBlocksRule is xxxxxxxxx.Instance Variables

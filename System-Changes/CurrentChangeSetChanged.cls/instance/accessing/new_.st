@@ -1,0 +1,1 @@
+new: anObject	new := anObject

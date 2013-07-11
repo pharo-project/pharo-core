@@ -1,0 +1,1 @@
+isMethodProperties	^true

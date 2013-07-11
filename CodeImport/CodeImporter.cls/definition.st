@@ -1,0 +1,1 @@
+Object subclass: #CodeImporter	instanceVariableNames: 'readStream codeDeclarations parserClass'	classVariableNames: ''	poolDictionaries: ''	category: 'CodeImport'

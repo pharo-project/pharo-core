@@ -1,0 +1,1 @@
+i am used to render freetype font(s) with cairo library.

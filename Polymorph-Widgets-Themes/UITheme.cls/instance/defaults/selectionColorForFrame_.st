@@ -1,0 +1,1 @@
+selectionColorForFrame: frame 	^ self selectionColor

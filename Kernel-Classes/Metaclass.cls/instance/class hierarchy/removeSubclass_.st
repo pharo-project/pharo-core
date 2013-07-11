@@ -1,0 +1,1 @@
+removeSubclass: aClass	"Do nothing."

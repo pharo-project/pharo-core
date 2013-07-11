@@ -1,0 +1,1 @@
+A WindowResizing is xxxxxxxxx.Instance Variables	newSize:		<Object>	oldSize:		<Object>newSize	- xxxxxoldSize	- xxxxx

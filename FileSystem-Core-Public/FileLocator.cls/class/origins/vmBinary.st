@@ -1,0 +1,1 @@
+vmBinary	^ self origin: #vmBinary

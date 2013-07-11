@@ -1,0 +1,1 @@
+currentPlatform	^ Locale currentPlatform languageEnvironment.

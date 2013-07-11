@@ -1,0 +1,1 @@
+canDebug: anObject	canDebug := anObject

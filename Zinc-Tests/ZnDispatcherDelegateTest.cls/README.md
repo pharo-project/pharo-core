@@ -1,0 +1,1 @@
+A ZnDispatcherDelegateTest is xxxxxxxxx.Instance Variables

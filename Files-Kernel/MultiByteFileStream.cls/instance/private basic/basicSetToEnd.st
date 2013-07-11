@@ -1,0 +1,1 @@
+basicSetToEnd	^ super setToEnd.

@@ -1,0 +1,1 @@
+rootNodeClassFromItem: anItem	^ClassListNodeExample

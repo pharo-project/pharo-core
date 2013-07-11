@@ -1,0 +1,1 @@
+A FractionTest is xxxxxxxxx.Instance Variables

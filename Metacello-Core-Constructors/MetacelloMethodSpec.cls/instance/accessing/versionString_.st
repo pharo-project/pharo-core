@@ -1,0 +1,1 @@
+versionString: aStringOrSymbol	versionString := aStringOrSymbol

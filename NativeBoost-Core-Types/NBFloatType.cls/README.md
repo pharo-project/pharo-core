@@ -1,0 +1,1 @@
+Abstract class for floating-point native types

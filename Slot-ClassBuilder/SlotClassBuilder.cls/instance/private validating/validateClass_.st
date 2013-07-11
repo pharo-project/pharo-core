@@ -1,0 +1,1 @@
+validateClass: aClass	aClass isBehavior		ifFalse: [ self error: 'Trying to build classes from non-class objects' ].	aClass isMeta		ifTrue: [ self error: 'Metaclasses cannot be used for building classes' ].

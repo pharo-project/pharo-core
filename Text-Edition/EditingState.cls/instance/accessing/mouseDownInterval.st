@@ -1,0 +1,1 @@
+mouseDownInterval	^ mouseDownInterval

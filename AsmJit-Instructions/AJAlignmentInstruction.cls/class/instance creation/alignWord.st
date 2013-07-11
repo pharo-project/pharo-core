@@ -1,0 +1,1 @@
+alignWord	^ self new alignWord

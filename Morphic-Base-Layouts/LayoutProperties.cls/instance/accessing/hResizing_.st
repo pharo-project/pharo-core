@@ -1,0 +1,1 @@
+hResizing: aSymbol	hResizing := aSymbol

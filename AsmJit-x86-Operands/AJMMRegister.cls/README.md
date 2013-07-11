@@ -1,0 +1,1 @@
+An AJMMRegister is xxxxxxxxx.Instance Variables

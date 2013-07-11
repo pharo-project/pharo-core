@@ -1,0 +1,1 @@
+classPool	^ Dictionary new

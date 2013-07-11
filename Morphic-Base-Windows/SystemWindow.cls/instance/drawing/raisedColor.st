@@ -1,0 +1,1 @@
+raisedColor	^self paneColor raisedColor

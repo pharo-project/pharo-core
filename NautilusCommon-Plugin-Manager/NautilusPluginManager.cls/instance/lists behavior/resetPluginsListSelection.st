@@ -1,0 +1,1 @@
+resetPluginsListSelection	pluginsSelected removeAll

@@ -1,0 +1,1 @@
+directlyDefinesClassVariable: aString 	self subclassResponsibility

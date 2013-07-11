@@ -1,0 +1,1 @@
+A SocketTest is xxxxxxxxx.Instance Variables	clientSocket:		<Object>	listenerSocket:		<Object>	serverSocket:		<Object>clientSocket	- xxxxxlistenerSocket	- xxxxxserverSocket	- xxxxx

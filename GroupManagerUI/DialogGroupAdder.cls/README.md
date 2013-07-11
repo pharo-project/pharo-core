@@ -1,0 +1,1 @@
+A DialogGroupAdder is xxxxxxxxx.Instance Variables	elementToAdd:		<Object>	elementsToAdd:		<Object>elementToAdd	- xxxxxelementsToAdd	- xxxxx

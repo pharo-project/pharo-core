@@ -1,0 +1,1 @@
+type: aString	type := aString

@@ -1,0 +1,1 @@
+A MCRepository is xxxxxxxxx.Instance Variables	creationTemplate:		<Object>	storeDiffs:		<Object>creationTemplate	- xxxxxstoreDiffs	- xxxxx

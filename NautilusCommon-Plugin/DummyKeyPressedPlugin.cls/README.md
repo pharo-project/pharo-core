@@ -1,0 +1,1 @@
+A DummyKeyPressedPlugin is a dummy plugin which display the counter of keystrokes

@@ -1,0 +1,1 @@
+defaultContentType	^self defaultMIMEType asString

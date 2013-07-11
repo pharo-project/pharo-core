@@ -1,0 +1,1 @@
+stackIndex: anObject	stackIndex := anObject

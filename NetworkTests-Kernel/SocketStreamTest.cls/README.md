@@ -1,0 +1,1 @@
+A SocketStreamTest is xxxxxxxxx.Instance Variables	clientStream:		<Object>	serverStream:		<Object>clientStream	- xxxxxserverStream	- xxxxx

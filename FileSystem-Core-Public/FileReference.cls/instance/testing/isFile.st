@@ -1,0 +1,1 @@
+isFile	^ filesystem isFile: path

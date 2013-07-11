@@ -1,0 +1,1 @@
+clipboardText	^ Clipboard clipboardText

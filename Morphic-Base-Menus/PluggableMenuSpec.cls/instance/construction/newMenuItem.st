@@ -1,0 +1,1 @@
+newMenuItem	^PluggableMenuItemSpec new

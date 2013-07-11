@@ -1,0 +1,1 @@
+MessageDialogWindow subclass: #ListDialogWindow	instanceVariableNames: 'pattern list searchMorph listMorph listIndex answer listBlock listCreationProcess displayBlock browseBlock'	classVariableNames: ''	poolDictionaries: ''	category: 'Polymorph-Widgets-Windows'

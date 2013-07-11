@@ -1,0 +1,1 @@
+asTimeStamp	^ start asTimeStamp

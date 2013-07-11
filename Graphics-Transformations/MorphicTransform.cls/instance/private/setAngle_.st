@@ -1,0 +1,1 @@
+setAngle: aFloat 	angle := aFloat

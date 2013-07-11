@@ -1,0 +1,1 @@
+A WidgetEditor is xxxxxxxxx.Instance Variables

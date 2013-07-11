@@ -1,0 +1,1 @@
+nextFreeIndex	^ next

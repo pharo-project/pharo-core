@@ -1,0 +1,1 @@
+I interpret IRMethod instructions, sending the appropriate bytecode messages to my BytecodeGenerator (gen).  I hold some messages back in pending awaiting certain sequences of them that can be consolidated into single bytecode instructions, otherwise the pending messages are executed in order as if they were executed when they first appeared.

@@ -1,0 +1,1 @@
+text	^ self string asText

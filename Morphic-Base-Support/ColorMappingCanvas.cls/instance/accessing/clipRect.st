@@ -1,0 +1,1 @@
+clipRect	^myCanvas clipRect

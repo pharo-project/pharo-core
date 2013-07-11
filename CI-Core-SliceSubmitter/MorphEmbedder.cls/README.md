@@ -1,0 +1,1 @@
+A MorphEmbedder is a Spec model which embed a morph into a window

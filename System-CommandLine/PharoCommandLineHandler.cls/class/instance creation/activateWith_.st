@@ -1,0 +1,1 @@
+activateWith: aCommandLine		Smalltalk tools userManager canRunStartupScript ifFalse: [ ^ self ].	"Make sure that the PharoCommandLineHandler starts at the top of the stack in the main UI thread."	WorldState addDeferredUIMessage: [ 		super activateWith: aCommandLine ]

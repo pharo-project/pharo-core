@@ -1,0 +1,1 @@
+note: assembler should set size even before realizing a temp into stack location reference

@@ -1,0 +1,1 @@
+resetSoleInstance	soleInstance := nil.

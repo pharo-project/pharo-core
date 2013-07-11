@@ -1,0 +1,1 @@
+initialize	model := self defaultModel

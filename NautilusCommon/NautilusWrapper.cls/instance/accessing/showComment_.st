@@ -1,0 +1,1 @@
+showComment: anObject			showComment := anObject

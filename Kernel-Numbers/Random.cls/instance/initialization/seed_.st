@@ -1,0 +1,1 @@
+seed: anInteger 	seed := anInteger

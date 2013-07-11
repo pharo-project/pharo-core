@@ -1,0 +1,1 @@
+cause: anObject		cause := anObject

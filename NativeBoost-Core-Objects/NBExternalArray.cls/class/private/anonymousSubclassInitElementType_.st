@@ -1,0 +1,1 @@
+anonymousSubclassInitElementType: aTypeName	"create and initialize the anonymous subclass of me"	| newSubclass |	newSubclass := self classBuilder anonymousSubclassOf: NBExternalArray.	newSubclass initElementType: aTypeName.	^ newSubclass

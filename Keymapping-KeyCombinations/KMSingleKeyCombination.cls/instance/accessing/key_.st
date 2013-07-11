@@ -1,0 +1,1 @@
+key: aKeyString	key := aKeyString.

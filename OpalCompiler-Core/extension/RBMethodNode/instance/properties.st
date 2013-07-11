@@ -1,0 +1,1 @@
+properties	^self propertyAt: #methodProperties ifAbsentPut: [AdditionalMethodState  new]

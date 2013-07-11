@@ -1,0 +1,1 @@
+A ClassAPIHelpBuilderTest is xxxxxxxxx.Instance Variables

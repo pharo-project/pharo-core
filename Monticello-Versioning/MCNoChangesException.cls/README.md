@@ -1,0 +1,1 @@
+A MCNoChangesException is xxxxxxxxx.Instance Variables

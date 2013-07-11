@@ -1,0 +1,1 @@
+categoryName: aCategoryName	categoryName := aCategoryName

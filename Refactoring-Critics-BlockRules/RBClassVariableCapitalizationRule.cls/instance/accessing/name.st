@@ -1,0 +1,1 @@
+name	^ 'Class variable capitalization'

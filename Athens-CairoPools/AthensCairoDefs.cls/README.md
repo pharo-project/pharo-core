@@ -1,0 +1,1 @@
+i hold a lot of different constants needed to work with cairo library

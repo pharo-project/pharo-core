@@ -1,0 +1,1 @@
+A MailSender is xxxxxxxxx.Instance Variables

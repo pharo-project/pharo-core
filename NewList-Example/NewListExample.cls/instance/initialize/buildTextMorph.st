@@ -1,0 +1,1 @@
+buildTextMorph	^ PluggableTextMorph new

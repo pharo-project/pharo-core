@@ -1,0 +1,1 @@
+initialize	LookupComment := Object new

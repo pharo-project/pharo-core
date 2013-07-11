@@ -1,0 +1,1 @@
+Object variableByteSubclass: #NBExternalStructure	instanceVariableNames: ''	classVariableNames: 'Printing'	poolDictionaries: ''	category: 'NativeBoost-Core-Objects'

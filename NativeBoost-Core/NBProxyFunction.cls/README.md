@@ -1,0 +1,1 @@
+A NBProxyFunction is xxxxxxxxx.Instance Variables	arguments:		<Object>	index:		<Object>	majorVersion:		<Object>	minorVersion:		<Object>	requiresAlignment:		<Object>	retType:		<Object>	selector:		<Object>arguments	- xxxxxindex	- xxxxxmajorVersion	- xxxxxminorVersion	- xxxxxrequiresAlignment	- xxxxxretType	- xxxxxselector	- xxxxx

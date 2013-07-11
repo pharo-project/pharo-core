@@ -1,0 +1,1 @@
+categorizeMethod	^ self subclassResponsibility

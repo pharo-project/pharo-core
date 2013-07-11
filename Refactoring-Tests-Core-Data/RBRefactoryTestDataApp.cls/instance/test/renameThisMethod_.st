@@ -1,0 +1,1 @@
+renameThisMethod: anArg	^self

@@ -1,0 +1,1 @@
+hasEncoder	^ encoder notNil

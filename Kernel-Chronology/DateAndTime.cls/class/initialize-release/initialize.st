@@ -1,0 +1,1 @@
+initialize	ClockProvider := Time

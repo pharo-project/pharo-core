@@ -1,0 +1,1 @@
+removeButtonAction	self removeSelectedItems.

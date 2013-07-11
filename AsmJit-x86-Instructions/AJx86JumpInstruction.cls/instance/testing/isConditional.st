@@ -1,0 +1,1 @@
+isConditional	^ name ~~ #jmp

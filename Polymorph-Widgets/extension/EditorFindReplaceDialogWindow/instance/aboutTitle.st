@@ -1,0 +1,1 @@
+aboutTitle	^ 'Find & replace dialog'

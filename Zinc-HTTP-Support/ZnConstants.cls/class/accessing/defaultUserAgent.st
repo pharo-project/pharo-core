@@ -1,0 +1,1 @@
+defaultUserAgent	^ self frameworkNameAndVersion 

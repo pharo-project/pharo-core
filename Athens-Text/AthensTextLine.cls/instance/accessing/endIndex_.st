@@ -1,0 +1,1 @@
+endIndex: anObject	endIndex := anObject

@@ -1,0 +1,1 @@
+announcementClass: anObject	announcementClass := anObject

@@ -1,0 +1,1 @@
+withoutPools	self removeElementsCategorized: #pools

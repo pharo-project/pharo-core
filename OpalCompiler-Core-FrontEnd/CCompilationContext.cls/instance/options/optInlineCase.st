@@ -1,0 +1,1 @@
+optInlineCase	^ options includes: #optInlineCase

@@ -1,0 +1,1 @@
+julianDayNumber		^ julianDayNumber + self julianDayOffset

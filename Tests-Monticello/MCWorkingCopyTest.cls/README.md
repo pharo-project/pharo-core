@@ -1,0 +1,1 @@
+A MCWorkingCopyTest is xxxxxxxxx.Instance Variables	repositoryGroup:		<Object>	savedName:		<Object>	versions:		<Object>	versions2:		<Object>	workingCopy:		<Object>repositoryGroup	- xxxxxsavedName	- xxxxxversions	- xxxxxversions2	- xxxxxworkingCopy	- xxxxx

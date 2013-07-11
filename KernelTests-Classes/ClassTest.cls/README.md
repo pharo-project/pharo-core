@@ -1,0 +1,1 @@
+A ClassTest is xxxxxxxxx.Instance Variables	className:		<Object>	renamedName:		<Object>className	- xxxxxrenamedName	- xxxxx

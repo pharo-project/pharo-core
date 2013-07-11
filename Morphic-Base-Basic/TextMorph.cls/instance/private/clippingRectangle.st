@@ -1,0 +1,1 @@
+clippingRectangle	^ self innerBounds

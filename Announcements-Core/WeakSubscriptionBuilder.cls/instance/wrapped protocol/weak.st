@@ -1,0 +1,1 @@
+weak	"already weak"	^ self

@@ -1,0 +1,1 @@
+isMonitoring	^watcher notNil

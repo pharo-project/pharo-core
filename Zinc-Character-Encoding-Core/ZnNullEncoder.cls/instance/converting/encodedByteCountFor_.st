@@ -1,0 +1,1 @@
+encodedByteCountFor: character	^ 1

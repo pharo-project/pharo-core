@@ -1,0 +1,1 @@
+blockNodeClass	^ RBBlockNode

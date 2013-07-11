@@ -1,0 +1,1 @@
+fontSize: anObject	fontSize := anObject

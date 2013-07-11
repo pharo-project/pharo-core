@@ -1,0 +1,1 @@
+A GrafPort is xxxxxxxxx.Instance Variables	alpha:		<Object>	fillPattern:		<Object>	lastFont:		<Object>	lastFontBackgroundColor:		<Object>	lastFontForegroundColor:		<Object>alpha	- xxxxxfillPattern	- xxxxxlastFont	- xxxxxlastFontBackgroundColor	- xxxxxlastFontForegroundColor	- xxxxx

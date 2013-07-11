@@ -1,0 +1,1 @@
+methodsInCategory: aName 	"Answer a list of the methods of the receiver that are in category named aName"		| aColl |	aColl := Set withAll: (self organization listAtCategoryNamed: aName).	^ aColl asArray sort

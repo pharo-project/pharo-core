@@ -1,0 +1,1 @@
+visitReference: anEntry	self subclassResponsibility

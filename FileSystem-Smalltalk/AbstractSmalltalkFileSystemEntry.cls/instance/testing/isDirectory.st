@@ -1,0 +1,1 @@
+isDirectory	^ self subclassResponsibility

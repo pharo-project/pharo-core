@@ -1,0 +1,1 @@
+relativeCurrentVersion	^self projectReference relativeCurrentVersion

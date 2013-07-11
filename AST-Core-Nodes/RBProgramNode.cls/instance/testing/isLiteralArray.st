@@ -1,0 +1,1 @@
+isLiteralArray	^false

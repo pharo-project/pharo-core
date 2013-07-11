@@ -1,0 +1,1 @@
+separatorColor: aColor	separatorColor := aColor

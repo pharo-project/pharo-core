@@ -1,0 +1,1 @@
+blueButtonUp: anEvent	receivedBlueButtonUp := true.

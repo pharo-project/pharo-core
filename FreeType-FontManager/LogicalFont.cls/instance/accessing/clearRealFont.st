@@ -1,0 +1,1 @@
+clearRealFont	realFont := nil

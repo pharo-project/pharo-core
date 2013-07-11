@@ -1,0 +1,1 @@
+A RBSmalllintTestObject is xxxxxxxxx.Instance Variables	temporaryVariable:		<Object>temporaryVariable	- xxxxx

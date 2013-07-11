@@ -1,0 +1,1 @@
+selectedClass: aClass	selectedClass := aClass.

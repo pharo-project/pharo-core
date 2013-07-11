@@ -1,0 +1,1 @@
+A MetacelloVersion is xxxxxxxxx.Instance Variables	importedVersions:		<Object>	spec:		<Object>	versionNumber:		<Object>	versionStatus:		<Object>importedVersions	- xxxxxspec	- xxxxxversionNumber	- xxxxxversionStatus	- xxxxx

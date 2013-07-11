@@ -1,0 +1,1 @@
+textCss	^ self predefinedInstanceAt: #textCss

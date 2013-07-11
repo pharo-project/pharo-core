@@ -1,0 +1,1 @@
+isTTCFont	^false

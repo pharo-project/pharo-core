@@ -1,0 +1,1 @@
+icon	^model iconOfNode: self

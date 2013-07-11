@@ -1,0 +1,1 @@
+A MCMockASubclass is xxxxxxxxx.Instance Variables	x:		<Object>x	- xxxxx

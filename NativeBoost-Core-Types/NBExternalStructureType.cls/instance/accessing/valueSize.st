@@ -1,0 +1,1 @@
+valueSize 	^ objectClass instanceSize 

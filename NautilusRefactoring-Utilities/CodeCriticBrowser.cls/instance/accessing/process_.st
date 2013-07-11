@@ -1,0 +1,1 @@
+process: anObject		process := anObject

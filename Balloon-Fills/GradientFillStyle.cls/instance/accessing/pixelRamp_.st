@@ -1,0 +1,1 @@
+pixelRamp: aBitmap	pixelRamp := aBitmap

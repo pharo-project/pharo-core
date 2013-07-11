@@ -1,0 +1,1 @@
+defaultDescription	^ ComposableModelDescription new

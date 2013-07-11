@@ -1,0 +1,1 @@
+basicBasename	^ 'extension'

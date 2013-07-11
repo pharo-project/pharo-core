@@ -1,0 +1,1 @@
+dependencies: aCollection	dependencies := aCollection

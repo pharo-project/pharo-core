@@ -1,0 +1,1 @@
+failureCount	^self failures size

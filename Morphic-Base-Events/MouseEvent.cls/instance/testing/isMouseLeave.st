@@ -1,0 +1,1 @@
+isMouseLeave	^self type == #mouseLeave

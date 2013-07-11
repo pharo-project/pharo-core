@@ -1,0 +1,1 @@
+AbstractMethodWidget is an abstraction describing a widget used to manage methods

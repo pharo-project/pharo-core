@@ -1,0 +1,1 @@
+testUnCategorizedMethods	| uncategorizedMethods  |	uncategorizedMethods := self targetClass methodsInCategory: Protocol unclassified.	self 		assert: uncategorizedMethods isEmpty		description: uncategorizedMethods asString	

@@ -1,0 +1,1 @@
+vmEndianness	^ self simpleCall

@@ -1,0 +1,1 @@
+announcer: anAnnouncer	PrivateAnnouncer := anAnnouncer

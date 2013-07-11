@@ -1,0 +1,1 @@
+testUncommonMessageSend	self ruleFor: self currentSelector

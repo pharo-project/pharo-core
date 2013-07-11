@@ -1,0 +1,1 @@
+subType: anObject	subType := anObject

@@ -1,0 +1,1 @@
+makeWeak	^ self

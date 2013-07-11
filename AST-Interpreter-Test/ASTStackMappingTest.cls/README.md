@@ -1,0 +1,1 @@
+An ASTStackMappingTest is xxxxxxxxx.Instance Variables	blockContext:		<Object>	methodContext:		<Object>blockContext	- xxxxxmethodContext	- xxxxx

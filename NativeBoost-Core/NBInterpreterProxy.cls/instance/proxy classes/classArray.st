@@ -1,0 +1,1 @@
+classArray		^ self simpleCall

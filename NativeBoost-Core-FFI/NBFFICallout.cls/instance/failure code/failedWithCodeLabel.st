@@ -1,0 +1,1 @@
+failedWithCodeLabel	^ asm labelNamed: #FFICalloutFailedWithCode

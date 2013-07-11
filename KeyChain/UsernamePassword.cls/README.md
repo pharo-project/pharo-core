@@ -1,0 +1,1 @@
+An UsernamePassword is just a simple wrapper

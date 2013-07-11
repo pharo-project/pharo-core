@@ -1,0 +1,1 @@
+emitCode: asm	

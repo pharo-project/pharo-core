@@ -1,0 +1,1 @@
+morphicDirectoryTreePane	^self morphicDirectoryTreePaneFiltered: #initialDirectoryList

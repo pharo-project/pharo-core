@@ -1,0 +1,1 @@
+smalltalkhubUrl	^ 'http://', self hostName, '/'

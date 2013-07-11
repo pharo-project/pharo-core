@@ -1,0 +1,1 @@
+classVariableWriter	ClassVariable := nil

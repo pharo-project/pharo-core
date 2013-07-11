@@ -1,0 +1,1 @@
+A RBCollectionMessagesToExternalObjectRule is xxxxxxxxx.Instance Variables

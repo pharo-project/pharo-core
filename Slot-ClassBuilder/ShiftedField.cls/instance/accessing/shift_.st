@@ -1,0 +1,1 @@
+shift: anObject	shift := anObject

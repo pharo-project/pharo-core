@@ -1,0 +1,1 @@
+showWarning: aBoolean	ShowWarning := aBoolean

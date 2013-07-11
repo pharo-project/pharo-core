@@ -1,0 +1,1 @@
+A RBAssignmentWithoutEffectRule is xxxxxxxxx.Instance Variables

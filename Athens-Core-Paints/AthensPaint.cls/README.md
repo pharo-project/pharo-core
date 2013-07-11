@@ -1,0 +1,1 @@
+I am a base class, which defines a paint.My subclasses represent a concreate paint by implementing my protocol,  that actually draws a specific shapes with me. My subclasses usually backend-specific, but as long as you implement my protocol, any object can be treated as paint: - fillPath: aPath on: aCanvas - fillRectangle: aRectangle on: aCanvas - asStrokePaint

@@ -1,0 +1,1 @@
+zipFileComment: aString	zipFileComment := aString

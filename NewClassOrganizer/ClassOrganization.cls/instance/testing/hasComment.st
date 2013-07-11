@@ -1,0 +1,1 @@
+hasComment	^ self comment notNil

@@ -1,0 +1,1 @@
+A MCVersion is xxxxxxxxx.Instance Variables	completePackageSnapshot:		<Object>	completeSnapshot:		<Object>	dependencies:		<Object>	info:		<Object>	package:		<Object>	snapshot:		<Object>completePackageSnapshot	- xxxxxcompleteSnapshot	- xxxxxdependencies	- xxxxxinfo	- xxxxxpackage	- xxxxxsnapshot	- xxxxx

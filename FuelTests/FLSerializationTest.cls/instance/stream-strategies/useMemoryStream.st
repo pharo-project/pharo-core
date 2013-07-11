@@ -1,0 +1,1 @@
+useMemoryStream	streamFactory := FLMultiByteStreamStrategy new

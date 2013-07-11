@@ -1,0 +1,1 @@
+handleClass	^ MemoryHandle 

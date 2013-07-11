@@ -1,0 +1,1 @@
+exploreIt	self handleEdit:		[textMorph editor evaluateSelectionAndDo: [:result | result explore]].

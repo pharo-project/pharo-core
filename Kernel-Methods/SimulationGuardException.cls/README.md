@@ -1,0 +1,1 @@
+A SimulationGuardException is xxxxxxxxx.Instance Variables	args:		<Object>	method:		<Object>	receiver:		<Object>args	- xxxxxmethod	- xxxxxreceiver	- xxxxx

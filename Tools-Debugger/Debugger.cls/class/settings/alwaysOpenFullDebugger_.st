@@ -1,0 +1,1 @@
+alwaysOpenFullDebugger: aBoolean	AlwaysOpenFullDebugger := aBoolean.

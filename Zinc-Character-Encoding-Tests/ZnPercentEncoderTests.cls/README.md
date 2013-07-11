@@ -1,0 +1,1 @@
+A ZnPercentEncoderTests is xxxxxxxxx.Instance Variables

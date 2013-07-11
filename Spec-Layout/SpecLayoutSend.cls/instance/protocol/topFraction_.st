@@ -1,0 +1,1 @@
+topFraction: aNumber	^ 0

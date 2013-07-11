@@ -1,0 +1,1 @@
+asFileReference	^ self resolve

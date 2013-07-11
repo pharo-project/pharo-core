@@ -1,0 +1,1 @@
+position: anInteger	position := anInteger.

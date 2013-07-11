@@ -1,0 +1,1 @@
+hasPostscript	^ postscript notNil

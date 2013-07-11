@@ -1,0 +1,1 @@
+defaultBaseColor	^ Color transparent

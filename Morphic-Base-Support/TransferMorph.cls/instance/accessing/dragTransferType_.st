@@ -1,0 +1,1 @@
+dragTransferType: aSymbol	transferType := aSymbol

@@ -1,0 +1,1 @@
+instanceVariables	^self explicitRequirement.

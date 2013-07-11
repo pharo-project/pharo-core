@@ -1,0 +1,1 @@
+A MorphTreeColumnButton is xxxxxxxxx.Instance Variables	model:		<Object>model	- xxxxx

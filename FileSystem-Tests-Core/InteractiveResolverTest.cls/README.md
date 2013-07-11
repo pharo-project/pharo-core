@@ -1,0 +1,1 @@
+An InteractiveResolverTest is xxxxxxxxx.Instance Variables

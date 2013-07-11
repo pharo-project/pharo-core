@@ -1,0 +1,1 @@
+classVariablesString	^ self stringForSortedVariablesOfType: #isClassVariable

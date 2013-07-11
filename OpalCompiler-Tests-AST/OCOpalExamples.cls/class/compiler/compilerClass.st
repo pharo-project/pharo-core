@@ -1,0 +1,1 @@
+compilerClass	^OpalCompiler

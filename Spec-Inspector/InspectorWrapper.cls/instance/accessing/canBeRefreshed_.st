@@ -1,0 +1,1 @@
+canBeRefreshed: anObject	canBeRefreshed := anObject

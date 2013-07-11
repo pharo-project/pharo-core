@@ -1,0 +1,1 @@
+owningScope	^ self scope

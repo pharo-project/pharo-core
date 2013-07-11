@@ -1,0 +1,1 @@
+extend: aScope	PrimitiveTypeConflict new		layout: self;		subType: #slot;		signal

@@ -1,0 +1,1 @@
+giveFocusToSearch	searchMorph takeKeyboardFocus.

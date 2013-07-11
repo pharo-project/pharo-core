@@ -1,0 +1,1 @@
+setSelector: aSymbol	selector := aSymbol.

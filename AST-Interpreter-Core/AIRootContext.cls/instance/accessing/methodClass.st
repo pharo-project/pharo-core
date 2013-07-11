@@ -1,0 +1,1 @@
+methodClass 	^self class

@@ -1,0 +1,1 @@
+collectionWithoutEqualElements	self explicitRequirement

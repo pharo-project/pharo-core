@@ -1,0 +1,1 @@
+hasFragment	^ fragment notNil

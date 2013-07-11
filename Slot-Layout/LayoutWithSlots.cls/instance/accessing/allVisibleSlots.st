@@ -1,0 +1,1 @@
+allVisibleSlots	^ slotScope allVisibleSlots

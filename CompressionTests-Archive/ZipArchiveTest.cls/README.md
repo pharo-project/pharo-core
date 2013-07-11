@@ -1,0 +1,1 @@
+A ZipArchiveTest is xxxxxxxxx.Instance Variables	fileSystem:		<Object>	fileToZip:		<Object>	subdir:		<Object>	zip:		<Object>	zipFile:		<Object>fileSystem	- xxxxxfileToZip	- xxxxxsubdir	- xxxxxzip	- xxxxxzipFile	- xxxxx

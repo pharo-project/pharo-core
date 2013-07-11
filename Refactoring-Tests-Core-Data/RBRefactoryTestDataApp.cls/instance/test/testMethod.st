@@ -1,0 +1,1 @@
+testMethod	^self class

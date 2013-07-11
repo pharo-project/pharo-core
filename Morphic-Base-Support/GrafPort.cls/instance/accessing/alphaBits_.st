@@ -1,0 +1,1 @@
+alphaBits: a	alpha := a

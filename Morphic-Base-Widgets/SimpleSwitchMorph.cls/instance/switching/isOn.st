@@ -1,0 +1,1 @@
+isOn	^ color = onColor

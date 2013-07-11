@@ -1,0 +1,1 @@
+isOptimized	^special > 0

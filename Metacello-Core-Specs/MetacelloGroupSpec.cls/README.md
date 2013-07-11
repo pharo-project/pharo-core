@@ -1,0 +1,1 @@
+A MetacelloGroupSpec is xxxxxxxxx.Instance Variables

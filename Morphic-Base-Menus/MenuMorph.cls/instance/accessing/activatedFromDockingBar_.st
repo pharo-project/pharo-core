@@ -1,0 +1,1 @@
+activatedFromDockingBar: aDockingBar 	activatorDockingBar := aDockingBar

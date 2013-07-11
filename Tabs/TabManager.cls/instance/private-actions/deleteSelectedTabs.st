@@ -1,0 +1,1 @@
+deleteSelectedTabs	toolbar deleteSelectedTabs

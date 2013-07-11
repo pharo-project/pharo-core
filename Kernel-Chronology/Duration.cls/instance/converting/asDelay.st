@@ -1,0 +1,1 @@
+asDelay  	^ Delay forDuration: self

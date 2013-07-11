@@ -1,0 +1,1 @@
+slantCursive	^1

@@ -1,0 +1,1 @@
+isOctetCharacter	^ value < 256.

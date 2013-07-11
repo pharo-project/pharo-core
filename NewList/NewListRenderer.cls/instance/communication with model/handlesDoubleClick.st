@@ -1,0 +1,1 @@
+handlesDoubleClick	^ self listSource handlesDoubleClick

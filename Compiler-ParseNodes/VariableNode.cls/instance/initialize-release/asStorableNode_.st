@@ -1,0 +1,1 @@
+asStorableNode: encoder	^ self

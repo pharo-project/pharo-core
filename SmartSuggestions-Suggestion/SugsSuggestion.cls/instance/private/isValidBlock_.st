@@ -1,0 +1,1 @@
+isValidBlock: aBlock 	isValidBlock := aBlock.

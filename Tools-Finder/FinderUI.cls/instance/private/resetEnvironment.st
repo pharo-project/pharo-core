@@ -1,0 +1,1 @@
+resetEnvironment	self triggerEvent: #resetEnvironment

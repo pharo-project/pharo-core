@@ -1,0 +1,1 @@
+A RGClassDefinitionTest is xxxxxxxxx.Instance Variables

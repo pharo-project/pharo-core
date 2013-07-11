@@ -1,0 +1,1 @@
+A FLSingletonTest is xxxxxxxxx.Instance Variables

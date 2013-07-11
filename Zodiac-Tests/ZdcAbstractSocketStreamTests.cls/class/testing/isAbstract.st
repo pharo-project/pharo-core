@@ -1,0 +1,1 @@
+isAbstract 	^ true

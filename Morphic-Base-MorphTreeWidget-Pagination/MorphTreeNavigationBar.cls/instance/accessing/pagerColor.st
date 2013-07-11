@@ -1,0 +1,1 @@
+pagerColor	^ treeMorph pagerColor

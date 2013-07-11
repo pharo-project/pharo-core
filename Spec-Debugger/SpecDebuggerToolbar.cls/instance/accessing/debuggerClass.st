@@ -1,0 +1,1 @@
+debuggerClass		^ self debugger class

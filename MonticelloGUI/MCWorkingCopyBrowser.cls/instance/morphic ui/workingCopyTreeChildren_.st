@@ -1,0 +1,1 @@
+workingCopyTreeChildren: aWrapper	^ aWrapper contents

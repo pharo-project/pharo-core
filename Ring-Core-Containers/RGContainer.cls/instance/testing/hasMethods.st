@@ -1,0 +1,1 @@
+hasMethods	^self methods notEmpty

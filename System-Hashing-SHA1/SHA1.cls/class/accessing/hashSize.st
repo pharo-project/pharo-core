@@ -1,0 +1,1 @@
+hashSize	^ 20

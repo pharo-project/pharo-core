@@ -1,0 +1,1 @@
+startIndex	^ self startBlock stringIndex

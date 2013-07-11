@@ -1,0 +1,1 @@
+currentMajorVersionNumber	^ self class currentMajorVersionNumber 

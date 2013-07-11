@@ -1,0 +1,1 @@
+setSelection: aSelection	selection := aSelection.

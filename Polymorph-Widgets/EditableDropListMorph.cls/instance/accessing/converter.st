@@ -1,0 +1,1 @@
+converter	^ self contentMorph converter

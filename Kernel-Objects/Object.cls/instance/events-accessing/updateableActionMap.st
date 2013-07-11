@@ -1,0 +1,1 @@
+updateableActionMap	^EventManager updateableActionMapFor: self

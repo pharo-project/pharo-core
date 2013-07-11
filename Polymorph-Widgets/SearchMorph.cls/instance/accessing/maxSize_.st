@@ -1,0 +1,1 @@
+maxSize: aNumber	maxSize := aNumber

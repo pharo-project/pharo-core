@@ -1,0 +1,1 @@
+lazyIncrement: anInteger	lazyIncrement := anInteger 

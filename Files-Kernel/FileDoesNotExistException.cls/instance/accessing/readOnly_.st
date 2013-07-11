@@ -1,0 +1,1 @@
+readOnly: aBoolean	readOnly := aBoolean

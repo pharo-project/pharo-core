@@ -1,0 +1,1 @@
+recategorize: aClass to: aCategory

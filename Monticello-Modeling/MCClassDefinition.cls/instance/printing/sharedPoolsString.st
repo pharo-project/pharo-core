@@ -1,0 +1,1 @@
+sharedPoolsString	^ self stringForSortedVariablesOfType: #isPoolImport

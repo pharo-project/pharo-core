@@ -1,0 +1,1 @@
+isColormap	^true

@@ -1,0 +1,1 @@
+A RBRefactoringTest is xxxxxxxxx.Instance Variables	changeSet:		<Object>	manager:		<Object>	model:		<Object>changeSet	- xxxxxmanager	- xxxxxmodel	- xxxxx

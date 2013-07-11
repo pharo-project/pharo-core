@@ -1,0 +1,1 @@
+n: number	n := number.	

@@ -1,0 +1,1 @@
+Object subclass: #DebugSession	instanceVariableNames: 'context process errorWasInUIProcess'	classVariableNames: ''	poolDictionaries: ''	category: 'DebuggerModel'

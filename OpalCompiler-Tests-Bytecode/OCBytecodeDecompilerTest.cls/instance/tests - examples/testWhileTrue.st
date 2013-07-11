@@ -1,0 +1,1 @@
+testWhileTrue	| cm decompiledIR aCompiledMethod |	cm := (self class)>>#testWhileTrue.	decompiledIR := IRBytecodeDecompiler new decompile: cm.	self shouldnt: [aCompiledMethod := decompiledIR compiledMethod] raise: Error.

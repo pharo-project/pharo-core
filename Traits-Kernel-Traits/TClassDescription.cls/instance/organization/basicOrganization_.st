@@ -1,0 +1,1 @@
+basicOrganization: aClassOrg	^self explicitRequirement.

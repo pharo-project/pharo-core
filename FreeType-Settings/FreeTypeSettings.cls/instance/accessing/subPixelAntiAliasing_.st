@@ -1,0 +1,1 @@
+subPixelAntiAliasing: aBoolean	subPixelAntiAliasing := aBoolean

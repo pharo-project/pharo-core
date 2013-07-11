@@ -1,0 +1,1 @@
+stoppedStateSymbol	^#stopped

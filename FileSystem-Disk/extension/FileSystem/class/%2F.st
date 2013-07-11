@@ -1,0 +1,1 @@
+/ aFileOrDirectoryName	^ self disk / aFileOrDirectoryName

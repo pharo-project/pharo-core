@@ -1,0 +1,1 @@
+doubleClickSelector: aSymbol	doubleClickSelector := aSymbol

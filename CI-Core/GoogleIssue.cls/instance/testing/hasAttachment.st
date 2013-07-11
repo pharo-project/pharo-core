@@ -1,0 +1,1 @@
+hasAttachment	^ self attachments isEmpty not

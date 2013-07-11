@@ -1,0 +1,1 @@
+version	^self projectReference version

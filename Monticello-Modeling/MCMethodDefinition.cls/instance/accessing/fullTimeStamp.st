@@ -1,0 +1,1 @@
+fullTimeStamp		^TimeStamp fromMethodTimeStamp: timeStamp

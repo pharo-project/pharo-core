@@ -1,0 +1,1 @@
+testSmalltalkSelfEvaluating	self assert: Smalltalk isSelfEvaluating

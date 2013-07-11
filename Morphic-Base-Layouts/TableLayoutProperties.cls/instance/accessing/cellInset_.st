@@ -1,0 +1,1 @@
+cellInset: aNumber	cellInset := aNumber

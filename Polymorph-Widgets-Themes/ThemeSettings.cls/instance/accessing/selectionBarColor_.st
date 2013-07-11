@@ -1,0 +1,1 @@
+selectionBarColor: aColor	selectionBarColor := aColor

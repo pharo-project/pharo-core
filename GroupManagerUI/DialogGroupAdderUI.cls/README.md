@@ -1,0 +1,1 @@
+A DialogGroupAdderUI is xxxxxxxxx.Instance Variables

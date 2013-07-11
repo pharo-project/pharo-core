@@ -1,0 +1,1 @@
+elementInForIndexAccessing^ self accessCollection  anyOne.

@@ -1,0 +1,1 @@
+hasRepository	^ self repository notNil

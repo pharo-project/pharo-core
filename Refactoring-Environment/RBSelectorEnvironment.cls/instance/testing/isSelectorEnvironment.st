@@ -1,0 +1,1 @@
+isSelectorEnvironment	^ true

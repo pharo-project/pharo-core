@@ -1,0 +1,1 @@
+imageDirectory	^ self origin: #imageDirectory 

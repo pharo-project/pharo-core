@@ -1,0 +1,1 @@
+A SpecSetter is xxxxxxxxx.Instance Variables	addButton:		<Object>	descriptionHolder:		<Object>	editButton:		<Object>	list:		<Object>	removeButton:		<Object>	toolbar:		<Object>addButton	- xxxxxdescriptionHolder	- xxxxxeditButton	- xxxxxlist	- xxxxxremoveButton	- xxxxxtoolbar	- xxxxx

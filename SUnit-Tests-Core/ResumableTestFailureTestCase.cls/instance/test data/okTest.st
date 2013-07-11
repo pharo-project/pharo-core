@@ -1,0 +1,1 @@
+okTest	self assert: true

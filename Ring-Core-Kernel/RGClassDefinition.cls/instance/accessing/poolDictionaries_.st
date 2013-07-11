@@ -1,0 +1,1 @@
+poolDictionaries: aCollection	poolDictionaries:= aCollection

@@ -1,0 +1,1 @@
+transform	self		createGetterAccessor;		createSetterAccessor

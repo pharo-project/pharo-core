@@ -1,0 +1,1 @@
+checkImageIsUptodate	^ self checkImageIsUptodateSilently	

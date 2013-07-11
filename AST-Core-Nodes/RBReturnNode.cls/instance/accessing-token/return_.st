@@ -1,0 +1,1 @@
+return: anInteger	return := anInteger

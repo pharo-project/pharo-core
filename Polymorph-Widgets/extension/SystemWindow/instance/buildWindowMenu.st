@@ -1,0 +1,1 @@
+buildWindowMenu  	^ self menuBuilder menu.

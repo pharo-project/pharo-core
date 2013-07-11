@@ -1,0 +1,1 @@
+num: n	primitiveNum := n

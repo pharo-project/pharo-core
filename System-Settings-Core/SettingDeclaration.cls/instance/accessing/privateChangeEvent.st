@@ -1,0 +1,1 @@
+privateChangeEvent	^ #privateSettingValueChanged

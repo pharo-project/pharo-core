@@ -1,0 +1,1 @@
+TestCase subclass: #SmalllintManifestCheckerTest	instanceVariableNames: 'smc'	classVariableNames: ''	poolDictionaries: ''	category: 'Manifest-Tests'

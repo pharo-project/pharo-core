@@ -1,0 +1,1 @@
+hasContents	^model hasNodeContents: self

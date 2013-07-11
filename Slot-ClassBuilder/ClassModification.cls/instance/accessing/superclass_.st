@@ -1,0 +1,1 @@
+superclass: aClass	superclass := aClass

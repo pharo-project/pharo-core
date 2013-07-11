@@ -1,0 +1,1 @@
+A SettingTreeBuilder is xxxxxxxxx.Instance Variables	currentParent:		<Object>	currentPragma:		<Object>	nodeList:		<Object>currentParent	- xxxxxcurrentPragma	- xxxxxnodeList	- xxxxx

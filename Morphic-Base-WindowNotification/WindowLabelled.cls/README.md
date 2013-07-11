@@ -1,0 +1,1 @@
+A WindowLabelled is xxxxxxxxx.Instance Variables	label:		<Object>label	- xxxxx

@@ -1,0 +1,1 @@
+A helper type, which takes a byte array argument and pushing its size

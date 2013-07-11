@@ -1,0 +1,1 @@
+setRequiresInMetacelloPackage: aMetacelloPackageSpec	aMetacelloPackageSpec setRequires: self asArray.

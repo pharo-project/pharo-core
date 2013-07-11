@@ -1,0 +1,1 @@
+whenSelectionIndexChanged: aBlock	listModel whenSelectionIndexChanged: aBlock

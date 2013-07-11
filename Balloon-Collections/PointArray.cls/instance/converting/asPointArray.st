@@ -1,0 +1,1 @@
+asPointArray	^ self

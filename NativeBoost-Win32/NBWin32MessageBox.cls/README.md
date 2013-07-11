@@ -1,0 +1,1 @@
+A NBWin32MessageBox is xxxxxxxxx.Instance Variables

@@ -1,0 +1,1 @@
+A ScannerTest is xxxxxxxxx.Instance Variables

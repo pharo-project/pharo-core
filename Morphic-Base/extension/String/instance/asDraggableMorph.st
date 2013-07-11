@@ -1,0 +1,1 @@
+asDraggableMorph	^ self asStringMorph

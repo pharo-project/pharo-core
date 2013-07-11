@@ -1,0 +1,1 @@
+includesClass: aClass	^ true

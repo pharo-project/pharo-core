@@ -1,0 +1,1 @@
+swapMouseButtons	^ OSPlatform current platformFamily ~= #Windows

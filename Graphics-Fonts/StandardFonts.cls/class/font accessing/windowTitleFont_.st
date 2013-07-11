@@ -1,0 +1,1 @@
+windowTitleFont: aFont	WindowTitleFont := aFont

@@ -1,0 +1,1 @@
+expectedInitializerASubclass	^ 'MCMockASubclass initialize'

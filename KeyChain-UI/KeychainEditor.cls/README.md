@@ -1,0 +1,1 @@
+A KeychainEditor is a GUI for editing keychain entrie

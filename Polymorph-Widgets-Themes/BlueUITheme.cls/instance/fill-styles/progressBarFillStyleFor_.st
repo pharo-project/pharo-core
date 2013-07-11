@@ -1,0 +1,1 @@
+progressBarFillStyleFor: aProgressBar	^ self glamorousBasePassiveBackgroundColorFor: aProgressBar

@@ -1,0 +1,1 @@
+process: aProcess context: aContext	aProcess stepToSendOrReturn.	process := aProcess.	context := self filterTopContext: aContext.	context isNil ifTrue: [context := aContext].	

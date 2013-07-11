@@ -1,0 +1,1 @@
+defaultBitmapFillForm	^ImageMorph defaultForm.

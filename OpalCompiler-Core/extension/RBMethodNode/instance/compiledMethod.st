@@ -1,0 +1,1 @@
+compiledMethod	^ self ir compiledMethod

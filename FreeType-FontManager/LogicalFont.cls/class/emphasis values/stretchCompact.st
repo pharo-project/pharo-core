@@ -1,0 +1,1 @@
+stretchCompact	^4

@@ -1,0 +1,1 @@
+An OCMockCompilationClass is xxxxxxxxx.Instance Variables	collection:		<Object>collection	- xxxxx

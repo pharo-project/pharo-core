@@ -1,0 +1,1 @@
+allLabel	^ AllProtocol defaultName

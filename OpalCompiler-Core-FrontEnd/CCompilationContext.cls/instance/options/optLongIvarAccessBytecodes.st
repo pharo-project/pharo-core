@@ -1,0 +1,1 @@
+optLongIvarAccessBytecodes	^ options includes: #optLongIvarAccessBytecodes

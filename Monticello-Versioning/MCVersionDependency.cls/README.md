@@ -1,0 +1,1 @@
+A MCVersionDependency is xxxxxxxxx.Instance Variables	package:		<Object>	versionInfo:		<Object>package	- xxxxxversionInfo	- xxxxx

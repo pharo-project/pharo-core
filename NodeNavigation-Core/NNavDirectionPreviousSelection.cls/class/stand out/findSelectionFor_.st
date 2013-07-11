@@ -1,0 +1,1 @@
+findSelectionFor: navigationContext	^ navigationContext lastSelection 

@@ -1,0 +1,1 @@
+generateDefault	Default := self new

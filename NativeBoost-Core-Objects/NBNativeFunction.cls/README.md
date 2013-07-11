@@ -1,0 +1,1 @@
+A NBNativeFunction is xxxxxxxxx.Instance Variables	annotation:		<Object>	fnSpec:		<Object>annotation	- xxxxxfnSpec	- xxxxx

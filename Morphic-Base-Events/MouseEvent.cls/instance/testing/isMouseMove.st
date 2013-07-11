@@ -1,0 +1,1 @@
+isMouseMove	^self type == #mouseMove

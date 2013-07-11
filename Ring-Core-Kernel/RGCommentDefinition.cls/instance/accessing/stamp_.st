@@ -1,0 +1,1 @@
+stamp: anObject	stamp:= anObject

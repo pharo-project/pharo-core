@@ -1,0 +1,1 @@
+basicCategory: aSymbol	category := aSymbol

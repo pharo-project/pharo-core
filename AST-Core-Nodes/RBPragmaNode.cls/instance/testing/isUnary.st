@@ -1,0 +1,1 @@
+isUnary	^ arguments isEmpty

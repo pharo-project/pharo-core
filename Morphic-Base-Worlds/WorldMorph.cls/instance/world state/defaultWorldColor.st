@@ -1,0 +1,1 @@
+defaultWorldColor	^ self class defaultWorldColor

@@ -1,0 +1,1 @@
+A ClosureTests is xxxxxxxxx.Instance Variables	collection:		<Object>collection	- xxxxx

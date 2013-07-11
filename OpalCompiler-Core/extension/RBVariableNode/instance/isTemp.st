@@ -1,0 +1,1 @@
+isTemp	^self binding isTemp

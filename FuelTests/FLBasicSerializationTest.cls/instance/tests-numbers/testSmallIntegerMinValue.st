@@ -1,0 +1,1 @@
+testSmallIntegerMinValue	self assertSerializationIdentityOf: SmallInteger minVal 

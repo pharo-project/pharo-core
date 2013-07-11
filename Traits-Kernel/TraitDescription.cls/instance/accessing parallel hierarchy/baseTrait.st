@@ -1,0 +1,1 @@
+baseTrait	self subclassResponsibility

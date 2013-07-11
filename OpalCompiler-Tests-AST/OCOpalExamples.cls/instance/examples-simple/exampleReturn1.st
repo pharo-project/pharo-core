@@ -1,0 +1,1 @@
+exampleReturn1	^1

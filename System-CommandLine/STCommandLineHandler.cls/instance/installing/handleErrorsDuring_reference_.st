@@ -1,0 +1,1 @@
+handleErrorsDuring: aBlock reference: aReference 	| exceptionClassToUse |		"workaround to make old Compiler unloadable"	exceptionClassToUse := (Smalltalk compilerClass == OpalCompiler) 		ifTrue: [OCSemanticWarning]		ifFalse: [Smalltalk globals at: #ParserNotification].			aBlock		on: Error, exceptionClassToUse		do: [ :e| 	self handleError: e reference: aReference ].	

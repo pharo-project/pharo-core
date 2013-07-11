@@ -1,0 +1,1 @@
+allPoolDictionaryNames	^self subclassResponsibility

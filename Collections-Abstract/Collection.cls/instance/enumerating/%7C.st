@@ -1,0 +1,1 @@
+| aCollection	^ self union: aCollection

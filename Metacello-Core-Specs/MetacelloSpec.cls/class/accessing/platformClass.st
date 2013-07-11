@@ -1,0 +1,1 @@
+platformClass	^self

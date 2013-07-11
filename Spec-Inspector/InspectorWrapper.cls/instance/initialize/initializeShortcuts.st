@@ -1,0 +1,1 @@
+initializeShortcuts	self on: $[ command do: [ self inspectPrevious ].	self on: $] command do: [ self inspectNext ].	self on: $d command do: [ self dive ].

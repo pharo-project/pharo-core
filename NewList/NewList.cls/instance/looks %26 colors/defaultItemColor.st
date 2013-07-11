@@ -1,0 +1,1 @@
+defaultItemColor	^ Color black

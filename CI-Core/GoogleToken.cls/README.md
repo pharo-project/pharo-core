@@ -1,0 +1,1 @@
+Used to encapsulate the password to avoid a security breach

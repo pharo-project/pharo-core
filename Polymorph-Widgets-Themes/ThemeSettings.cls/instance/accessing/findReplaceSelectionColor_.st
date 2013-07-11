@@ -1,0 +1,1 @@
+findReplaceSelectionColor: anColor	findReplaceSelectionColor := anColor

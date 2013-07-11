@@ -1,0 +1,1 @@
+A ManifestFuel is xxxxxxxxx.Instance Variables

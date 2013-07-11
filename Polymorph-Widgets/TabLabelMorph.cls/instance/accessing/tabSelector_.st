@@ -1,0 +1,1 @@
+tabSelector: anObject	tabSelector := anObject

@@ -1,0 +1,1 @@
+A MetacelloMethodSpec is xxxxxxxxx.Instance Variables	category:		<Object>	methodSections:		<Object>	project:		<Object>	selector:		<Object>	versionString:		<Object>category	- xxxxxmethodSections	- xxxxxproject	- xxxxxselector	- xxxxxversionString	- xxxxx

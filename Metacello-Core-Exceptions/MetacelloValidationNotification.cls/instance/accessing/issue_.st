@@ -1,0 +1,1 @@
+issue: anObject	issue := anObject

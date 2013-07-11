@@ -1,0 +1,1 @@
+A MCSnapshotBrowser is xxxxxxxxx.Instance Variables	categorySelection:		<Object>	classSelection:		<Object>	methodSelection:		<Object>	protocolSelection:		<Object>	switch:		<Object>categorySelection	- xxxxxclassSelection	- xxxxxmethodSelection	- xxxxxprotocolSelection	- xxxxxswitch	- xxxxx

@@ -1,0 +1,1 @@
+representationType: anObject	representationType := anObject

@@ -1,0 +1,1 @@
+isCriticalWarning	^false

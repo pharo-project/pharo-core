@@ -1,0 +1,1 @@
+isInitialized	^ isInitialized contents

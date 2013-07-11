@@ -1,0 +1,1 @@
+item: aSymbol 		item := aSymbol

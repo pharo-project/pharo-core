@@ -1,0 +1,1 @@
+classAffected	^self classRemoved

@@ -1,0 +1,1 @@
+basicObsoleteSubclasses	^WeakKeyToCollectionDictionary new.

@@ -1,0 +1,1 @@
+A FLHashedCollectionSerializationTest is xxxxxxxxx.Instance Variables

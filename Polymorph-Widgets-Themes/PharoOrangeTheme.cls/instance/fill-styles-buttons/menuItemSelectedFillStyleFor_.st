@@ -1,0 +1,1 @@
+menuItemSelectedFillStyleFor: aMenuItem	^ settings selectionColor

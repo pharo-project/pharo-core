@@ -1,0 +1,1 @@
+testOpenBrowseOnTraitMethod	| browser |	browser := (TBehavior>>#localSelectors) browse.	browser changed.	browser close.

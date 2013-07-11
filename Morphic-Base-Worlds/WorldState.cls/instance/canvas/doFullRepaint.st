@@ -1,0 +1,1 @@
+doFullRepaint	damageRecorder doFullRepaint

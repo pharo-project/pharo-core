@@ -1,0 +1,1 @@
+haloEnclosesFullBounds: aBoolean	HaloEnclosesFullBounds := aBoolean

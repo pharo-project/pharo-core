@@ -1,0 +1,1 @@
+default: aKMModifiedShortcut 	default := aKMModifiedShortcut 

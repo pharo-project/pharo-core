@@ -1,0 +1,1 @@
+title	^ 'Class Method Browser'

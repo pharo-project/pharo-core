@@ -1,0 +1,1 @@
+isDead	^currentExecutedNode isNil

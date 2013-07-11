@@ -1,0 +1,1 @@
+compilerClass: aClass	CompilerClass := aClass

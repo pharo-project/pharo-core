@@ -1,0 +1,1 @@
+An AJJumpInstruction is xxxxxxxxx.Instance Variables	description:		<Object>	label:		<Object>description	- xxxxxlabel	- xxxxx

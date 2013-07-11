@@ -1,0 +1,1 @@
+autoMultiSelection: aBoolean	autoMultiSelection := aBoolean

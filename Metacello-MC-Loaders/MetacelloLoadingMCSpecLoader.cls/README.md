@@ -1,0 +1,1 @@
+A MetacelloLoadingMCSpecLoader is xxxxxxxxx.Instance Variables

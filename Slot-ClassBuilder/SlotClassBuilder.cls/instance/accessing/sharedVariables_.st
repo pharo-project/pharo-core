@@ -1,0 +1,1 @@
+sharedVariables: aString 	sharedVariablesString := aString 

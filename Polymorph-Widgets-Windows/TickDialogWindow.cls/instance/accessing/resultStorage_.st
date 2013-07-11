@@ -1,0 +1,1 @@
+resultStorage: anObject		resultStorage := anObject

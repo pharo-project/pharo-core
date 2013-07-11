@@ -1,0 +1,1 @@
+autoDeselection: aBoolean	autoDeselection := aBoolean

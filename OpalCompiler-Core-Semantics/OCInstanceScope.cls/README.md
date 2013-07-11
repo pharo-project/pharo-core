@@ -1,0 +1,1 @@
+An OCInstanceScope is xxxxxxxxx.Instance Variables	selfVar:		<Object>	superVar:		<Object>	vars:		<Object>selfVar	- xxxxxsuperVar	- xxxxxvars	- xxxxx

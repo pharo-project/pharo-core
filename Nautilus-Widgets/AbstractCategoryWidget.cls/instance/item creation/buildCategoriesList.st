@@ -1,0 +1,1 @@
+buildCategoriesList	^ self subclassResponsibility

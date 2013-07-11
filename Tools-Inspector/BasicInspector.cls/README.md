@@ -1,0 +1,1 @@
+A BasicInspector is xxxxxxxxx.Instance Variables

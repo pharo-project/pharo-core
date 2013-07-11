@@ -1,0 +1,1 @@
+A BlockClosureTest is xxxxxxxxx.Instance Variables	aBlockContext:		<Object>	contextOfaBlockContext:		<Object>aBlockContext	- xxxxxcontextOfaBlockContext	- xxxxx

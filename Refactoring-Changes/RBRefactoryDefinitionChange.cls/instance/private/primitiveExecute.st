@@ -1,0 +1,1 @@
+primitiveExecute	definedClass := self definitionClass compiler		evaluate: self definition		notifying: self controller		logged: true

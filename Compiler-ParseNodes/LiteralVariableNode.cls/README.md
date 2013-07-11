@@ -1,0 +1,1 @@
+A LiteralVariableNode is xxxxxxxxx.Instance Variables	writeNode:		<Object>writeNode	- xxxxx

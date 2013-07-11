@@ -1,0 +1,1 @@
+isUndefTemp	^ hasDefs not

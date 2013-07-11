@@ -1,0 +1,1 @@
+A NativeBoostLinux32 is xxxxxxxxx.Instance Variables	heap:		<Object>heap	- xxxxx

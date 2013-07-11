@@ -1,0 +1,1 @@
+searchedTextList	^ self class searchedTextList

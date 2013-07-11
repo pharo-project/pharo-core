@@ -1,0 +1,1 @@
+chooseEmphasisOrAlignment	self editor changeEmphasisOrAlignment.	self updateFromParagraph

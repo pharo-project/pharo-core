@@ -1,0 +1,1 @@
+defaultPopupShortcut	^Character space shift

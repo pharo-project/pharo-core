@@ -1,0 +1,1 @@
+nextChar	^ self class nextChar

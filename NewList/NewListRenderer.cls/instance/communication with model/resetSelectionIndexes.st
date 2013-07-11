@@ -1,0 +1,1 @@
+resetSelectionIndexes	self listSource resetSelectionIndexes

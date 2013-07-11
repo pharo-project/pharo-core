@@ -1,0 +1,1 @@
+Object subclass: #SliceSubmitter	instanceVariableNames: 'issue mcPackage receiver'	classVariableNames: 'tracker'	poolDictionaries: ''	category: 'CI-Core-SliceSubmitter'

@@ -1,0 +1,1 @@
+defaultRepositoryUrl	^ MetacelloConfigurationBrowser new pharoDistribution

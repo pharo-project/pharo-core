@@ -1,0 +1,1 @@
+variableName: aString	variableName := aString

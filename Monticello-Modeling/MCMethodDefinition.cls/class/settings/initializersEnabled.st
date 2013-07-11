@@ -1,0 +1,1 @@
+initializersEnabled	^ InitializersEnabled ifNil: [true]

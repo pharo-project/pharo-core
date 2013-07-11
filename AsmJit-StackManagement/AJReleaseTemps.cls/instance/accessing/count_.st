@@ -1,0 +1,1 @@
+count: anObject	count := anObject

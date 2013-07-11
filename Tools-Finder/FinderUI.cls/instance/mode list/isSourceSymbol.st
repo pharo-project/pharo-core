@@ -1,0 +1,1 @@
+isSourceSymbol	^self finder isSourceSymbol

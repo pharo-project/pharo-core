@@ -1,0 +1,1 @@
+avoidsOcclusions	^ avoidsOcclusions ifNil: [false]

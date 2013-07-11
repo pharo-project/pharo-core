@@ -1,0 +1,1 @@
+parent: aNode	parent := aNode

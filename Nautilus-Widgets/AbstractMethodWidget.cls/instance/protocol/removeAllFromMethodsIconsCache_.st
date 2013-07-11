@@ -1,0 +1,1 @@
+removeAllFromMethodsIconsCache: aMethod	^ self subclassResponsibility

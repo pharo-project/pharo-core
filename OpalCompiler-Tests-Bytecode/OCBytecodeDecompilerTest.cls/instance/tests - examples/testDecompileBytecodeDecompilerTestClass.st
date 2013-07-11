@@ -1,0 +1,1 @@
+testDecompileBytecodeDecompilerTestClass	| decompiledIR aCompiledMethod |	(self class) methodDict do:					[ :each | decompiledIR := IRBytecodeDecompiler new decompile: each.					self shouldnt: [aCompiledMethod := decompiledIR compiledMethod] raise: Error].	

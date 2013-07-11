@@ -1,0 +1,1 @@
+raiseWarning: aBoolean	RaiseWarning := aBoolean

@@ -1,0 +1,1 @@
+entries	^ self resolve entries

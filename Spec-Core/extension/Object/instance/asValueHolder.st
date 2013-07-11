@@ -1,0 +1,1 @@
+asValueHolder	^ NewValueHolder contents: self

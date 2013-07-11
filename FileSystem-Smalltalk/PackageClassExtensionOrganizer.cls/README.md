@@ -1,0 +1,1 @@
+I represent the file list of files in an extension category on a given class.

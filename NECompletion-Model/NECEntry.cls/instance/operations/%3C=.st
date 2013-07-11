@@ -1,0 +1,1 @@
+<= aECEntry 	^ contents <= aECEntry contents

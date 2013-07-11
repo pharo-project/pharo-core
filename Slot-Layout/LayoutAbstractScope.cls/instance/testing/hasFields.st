@@ -1,0 +1,1 @@
+hasFields	self subclassResponsibility

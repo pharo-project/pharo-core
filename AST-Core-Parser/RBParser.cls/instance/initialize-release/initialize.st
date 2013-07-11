@@ -1,0 +1,1 @@
+initialize	comments := OrderedCollection new

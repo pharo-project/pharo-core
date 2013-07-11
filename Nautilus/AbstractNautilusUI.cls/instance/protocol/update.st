@@ -1,0 +1,1 @@
+update		self subclassResponsibility 

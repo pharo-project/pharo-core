@@ -1,0 +1,1 @@
+semaphoreForGenerator: aSema	semaphoreForGenerator := aSema

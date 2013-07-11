@@ -1,0 +1,1 @@
+symbolReference	^ #RBClassToRename

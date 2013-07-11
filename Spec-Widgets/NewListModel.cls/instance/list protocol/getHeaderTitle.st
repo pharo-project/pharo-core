@@ -1,0 +1,1 @@
+getHeaderTitle	 ^ headerTitle contents

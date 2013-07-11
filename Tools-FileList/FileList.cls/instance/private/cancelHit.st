@@ -1,0 +1,1 @@
+cancelHit	modalView delete.

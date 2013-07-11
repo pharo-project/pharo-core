@@ -1,0 +1,1 @@
+currentRoot: aMenuRegistration 	currentRoot := aMenuRegistration

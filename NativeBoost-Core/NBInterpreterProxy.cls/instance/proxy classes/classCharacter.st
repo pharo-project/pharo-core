@@ -1,0 +1,1 @@
+classCharacter		^ self simpleCall

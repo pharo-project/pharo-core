@@ -1,0 +1,1 @@
+gridModulus	^ self gridSpec extent

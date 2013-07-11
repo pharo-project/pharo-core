@@ -1,0 +1,1 @@
+stackOfSize: size	^ context stackOfSize: size

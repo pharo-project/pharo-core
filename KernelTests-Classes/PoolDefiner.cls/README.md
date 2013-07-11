@@ -1,0 +1,1 @@
+A PoolDefiner is xxxxxxxxx.Instance Variables

@@ -1,0 +1,1 @@
+rightFraction: aNumber	rightFraction := aNumber

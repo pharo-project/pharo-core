@@ -1,0 +1,1 @@
+privateClipRect	^clipRect

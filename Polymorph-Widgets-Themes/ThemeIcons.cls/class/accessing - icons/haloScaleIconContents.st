@@ -1,0 +1,1 @@
+haloScaleIconContents	^ self current haloScaleIconContents.

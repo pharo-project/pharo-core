@@ -1,0 +1,1 @@
+initialize	One := 1

@@ -1,0 +1,1 @@
+A MenuCaptureMorph is xxxxxxxxx.Instance Variables	timeout:		<Object>	timer:		<Object>	worldBefore:		<Object>timeout	- xxxxxtimer	- xxxxxworldBefore	- xxxxx

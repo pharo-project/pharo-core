@@ -1,0 +1,1 @@
+title			^self class title

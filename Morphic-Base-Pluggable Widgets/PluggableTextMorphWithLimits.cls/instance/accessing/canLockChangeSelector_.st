@@ -1,0 +1,1 @@
+canLockChangeSelector: aSelector	canLockChangeSelector := aSelector

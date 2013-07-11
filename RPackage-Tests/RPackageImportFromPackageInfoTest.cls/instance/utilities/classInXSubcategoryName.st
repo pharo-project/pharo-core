@@ -1,0 +1,1 @@
+classInXSubcategoryName	^#ClassInXSubcategory

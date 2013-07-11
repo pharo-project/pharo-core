@@ -1,0 +1,1 @@
+collectionOfFloat	^ collectionOfString

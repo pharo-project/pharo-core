@@ -1,0 +1,1 @@
+messageNodeClass	^ RBMessageNode

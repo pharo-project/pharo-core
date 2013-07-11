@@ -1,0 +1,1 @@
+isClassInstanceVariableDefinition	^ false

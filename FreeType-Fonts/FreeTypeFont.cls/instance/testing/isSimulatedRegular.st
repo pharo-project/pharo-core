@@ -1,0 +1,1 @@
+isSimulatedRegular	^simulatedEmphasis = 0

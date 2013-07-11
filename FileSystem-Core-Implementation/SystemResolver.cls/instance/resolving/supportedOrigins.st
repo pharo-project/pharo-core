@@ -1,0 +1,1 @@
+supportedOrigins	^ #(image imageDirectory changes vmBinary vmDirectory workingDirectory)

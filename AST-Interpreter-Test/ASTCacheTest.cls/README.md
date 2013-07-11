@@ -1,0 +1,1 @@
+An ASTCacheTest is xxxxxxxxx.Instance Variables	cache:		<Object>	compiledMethod:		<Object>cache	- xxxxxcompiledMethod	- xxxxx

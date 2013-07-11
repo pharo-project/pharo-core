@@ -1,0 +1,1 @@
+ivarName: anObject	ivarName := anObject

@@ -1,0 +1,1 @@
+pluginClasses: aCollection	PluginClasses := aCollection

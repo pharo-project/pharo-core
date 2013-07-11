@@ -1,0 +1,1 @@
+useMultiByteFileStream	streamFactory := FLFileStreamStrategy newWithMultiByteFileStream

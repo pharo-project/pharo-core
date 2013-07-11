@@ -1,0 +1,1 @@
+newLineAfterCascade: aBoolean	NewLineAfterCascade := aBoolean

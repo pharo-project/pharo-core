@@ -1,0 +1,1 @@
+A RBRefactoryVariableChange is xxxxxxxxx.Instance Variables	variable:		<Object>variable	- xxxxx

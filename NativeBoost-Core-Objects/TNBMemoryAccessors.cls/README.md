@@ -1,0 +1,1 @@
+A TNBMemoryAccessors is xxxxxxxxx.

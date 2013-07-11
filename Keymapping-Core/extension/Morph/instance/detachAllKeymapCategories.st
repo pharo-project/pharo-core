@@ -1,0 +1,1 @@
+detachAllKeymapCategories	self kmDispatcher detachAllKeymapCategories

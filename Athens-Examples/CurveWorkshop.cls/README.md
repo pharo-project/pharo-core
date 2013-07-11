@@ -1,0 +1,1 @@
+A CurveWorkshop is xxxxxxxxx.Instance Variables	surface:		<Object>surface	- xxxxx

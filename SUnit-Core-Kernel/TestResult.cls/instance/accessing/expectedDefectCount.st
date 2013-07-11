@@ -1,0 +1,1 @@
+expectedDefectCount	^ self expectedDefects size

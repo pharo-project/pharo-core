@@ -1,0 +1,1 @@
+issueSummary	^ issueSummary ifNil: ['']

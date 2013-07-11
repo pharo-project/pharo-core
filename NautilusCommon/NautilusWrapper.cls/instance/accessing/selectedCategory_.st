@@ -1,0 +1,1 @@
+selectedCategory: anObject			selectedCategory := anObject

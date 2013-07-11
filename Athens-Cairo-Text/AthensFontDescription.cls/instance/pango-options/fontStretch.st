@@ -1,0 +1,1 @@
+fontStretch	^ options at: #stretch

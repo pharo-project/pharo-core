@@ -1,0 +1,1 @@
+stopPosition: anInteger 	stopPosition := anInteger

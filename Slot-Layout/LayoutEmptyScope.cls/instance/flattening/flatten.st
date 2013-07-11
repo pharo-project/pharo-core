@@ -1,0 +1,1 @@
+flatten	^ OrderedCollection new

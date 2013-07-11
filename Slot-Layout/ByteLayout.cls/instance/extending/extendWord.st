@@ -1,0 +1,1 @@
+extendWord	PrimitiveTypeConflict new		layout: self;		subType: #word;		signal

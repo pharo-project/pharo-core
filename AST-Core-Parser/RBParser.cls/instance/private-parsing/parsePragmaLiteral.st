@@ -1,0 +1,1 @@
+parsePragmaLiteral	^ self parseLiteralArrayObject

@@ -1,0 +1,1 @@
+isInterruptedContextDoesNotUnderstand			^ self context selector == #doesNotUnderstand:

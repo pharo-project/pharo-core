@@ -1,0 +1,1 @@
+keepBlockInMessage: aBoolean	KeepBlockInMessage := aBoolean

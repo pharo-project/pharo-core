@@ -1,0 +1,1 @@
+hasFillStyle	"Answer false."	^false

@@ -1,0 +1,1 @@
+isAssignmentNode	^true

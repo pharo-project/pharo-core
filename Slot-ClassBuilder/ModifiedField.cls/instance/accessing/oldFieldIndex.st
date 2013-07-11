@@ -1,0 +1,1 @@
+oldFieldIndex	^ originalSlot index + fieldIndex

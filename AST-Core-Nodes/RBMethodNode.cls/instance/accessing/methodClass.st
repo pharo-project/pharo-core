@@ -1,0 +1,1 @@
+methodClass	^self compilationContext getClass 

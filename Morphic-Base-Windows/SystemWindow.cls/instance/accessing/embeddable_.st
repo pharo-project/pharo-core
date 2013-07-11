@@ -1,0 +1,1 @@
+embeddable: aBoolean	embeddable := aBoolean

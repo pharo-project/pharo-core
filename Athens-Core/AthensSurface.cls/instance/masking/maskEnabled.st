@@ -1,0 +1,1 @@
+maskEnabled	self subclassResponsibility

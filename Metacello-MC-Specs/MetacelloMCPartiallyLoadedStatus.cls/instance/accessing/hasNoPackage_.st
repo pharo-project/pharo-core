@@ -1,0 +1,1 @@
+hasNoPackage: aBoolean	hasNoPackage := aBoolean

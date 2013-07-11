@@ -1,0 +1,1 @@
+An AthensPangoText is xxxxxxxxx.Instance Variables

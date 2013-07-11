@@ -1,0 +1,1 @@
+isContextClass	^true

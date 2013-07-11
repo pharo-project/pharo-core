@@ -1,0 +1,1 @@
+postscriptName	^self primGetPostscriptName

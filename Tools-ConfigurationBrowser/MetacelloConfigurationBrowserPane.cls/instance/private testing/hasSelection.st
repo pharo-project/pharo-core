@@ -1,0 +1,1 @@
+hasSelection	^self selectedConfiguration notNil

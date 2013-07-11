@@ -1,0 +1,1 @@
+stopPosition	^stopPosition

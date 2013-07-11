@@ -1,0 +1,1 @@
+isUndeclared	^self binding isUndeclared

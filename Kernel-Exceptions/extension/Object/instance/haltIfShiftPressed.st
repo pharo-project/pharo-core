@@ -1,0 +1,1 @@
+haltIfShiftPressed	Halt ifShiftPressed.

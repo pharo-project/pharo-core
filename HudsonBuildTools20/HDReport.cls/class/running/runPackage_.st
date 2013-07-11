@@ -1,0 +1,1 @@
+runPackage: aString	self subclassResponsibility

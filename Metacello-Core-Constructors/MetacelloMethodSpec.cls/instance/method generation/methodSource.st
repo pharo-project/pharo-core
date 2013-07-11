@@ -1,0 +1,1 @@
+methodSource	self subclassResponsibility

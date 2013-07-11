@@ -1,0 +1,1 @@
+An AGroupHasBeenCreated is xxxxxxxxx.Instance Variables

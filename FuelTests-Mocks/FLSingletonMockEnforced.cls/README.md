@@ -1,0 +1,1 @@
+A FLSingletonMockEnforced is xxxxxxxxx.Instance Variables

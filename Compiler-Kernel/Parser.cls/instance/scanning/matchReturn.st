@@ -1,0 +1,1 @@
+matchReturn	^ self match: #upArrow

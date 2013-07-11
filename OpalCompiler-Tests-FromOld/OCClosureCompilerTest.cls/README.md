@@ -1,0 +1,1 @@
+An OCClosureCompilerTest is xxxxxxxxx.Instance Variables	currentCompiler:		<Object>currentCompiler	- xxxxx

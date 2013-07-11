@@ -1,0 +1,1 @@
+testLiteralArray	| ir |	ir := IRBuilderTest new testLiteralArray.	self shouldnt: [IRInterpreter new interpret: ir ] raise: Error

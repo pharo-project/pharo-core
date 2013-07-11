@@ -1,0 +1,1 @@
+testMethodArguments: anObject	^ [ anObject ] value

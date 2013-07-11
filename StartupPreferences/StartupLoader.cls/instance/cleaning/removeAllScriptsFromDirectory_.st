@@ -1,0 +1,1 @@
+removeAllScriptsFromDirectory: aDirectory	aDirectory deleteAllChildren

@@ -1,0 +1,1 @@
+subclasses: aCollection	subclasses := aCollection.

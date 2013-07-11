@@ -1,0 +1,1 @@
+createOrganization	^self organizationClass new

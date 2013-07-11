@@ -1,0 +1,1 @@
+smartCharactersWithSingleSpace	^ smartCharactersWithSingleSpace

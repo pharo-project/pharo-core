@@ -1,0 +1,1 @@
+beBlockArg	argType := #block

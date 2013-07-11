@@ -1,0 +1,1 @@
+primitiveFailFor: errorCode	^ self simpleCall

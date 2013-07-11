@@ -1,0 +1,1 @@
+An OCVectorTempVariable is xxxxxxxxx.Instance Variables	vectorName:		<Object>vectorName	- xxxxx

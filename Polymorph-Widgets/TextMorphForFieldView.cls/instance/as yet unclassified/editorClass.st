@@ -1,0 +1,1 @@
+editorClass	^ TextEditor

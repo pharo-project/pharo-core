@@ -1,0 +1,1 @@
+asBag	^ self

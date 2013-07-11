@@ -1,0 +1,1 @@
+isInstanceScope	^ true

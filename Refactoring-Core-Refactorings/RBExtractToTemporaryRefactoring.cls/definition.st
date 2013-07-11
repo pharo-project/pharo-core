@@ -1,0 +1,1 @@
+RBMethodRefactoring subclass: #RBExtractToTemporaryRefactoring	instanceVariableNames: 'sourceInterval selector newVariableName parseTree'	classVariableNames: ''	poolDictionaries: ''	category: 'Refactoring-Core-Refactorings'

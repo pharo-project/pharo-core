@@ -1,0 +1,1 @@
+methodClass	^ encoder classEncoding

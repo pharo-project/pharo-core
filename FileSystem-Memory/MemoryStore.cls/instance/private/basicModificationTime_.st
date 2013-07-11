@@ -1,0 +1,1 @@
+basicModificationTime: aMemoryFileSystemEntry	^ aMemoryFileSystemEntry modificationTime

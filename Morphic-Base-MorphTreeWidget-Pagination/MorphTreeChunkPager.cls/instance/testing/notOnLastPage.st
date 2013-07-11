@@ -1,0 +1,1 @@
+notOnLastPage	^ self onLastPage not

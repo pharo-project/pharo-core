@@ -1,0 +1,1 @@
+A RBPatternPragmaNode is xxxxxxxxx.Instance Variables	isList:		<Object>isList	- xxxxx

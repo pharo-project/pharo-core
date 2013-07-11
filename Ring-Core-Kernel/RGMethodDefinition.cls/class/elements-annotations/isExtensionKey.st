@@ -1,0 +1,1 @@
+isExtensionKey 	^#isExtension

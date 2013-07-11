@@ -1,0 +1,1 @@
+editableStringMorph: aBoolean	EditableStringMorph := aBoolean

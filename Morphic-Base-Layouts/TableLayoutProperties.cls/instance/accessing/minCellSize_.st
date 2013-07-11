@@ -1,0 +1,1 @@
+minCellSize: aNumber	minCellSize := aNumber.

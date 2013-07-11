@@ -1,0 +1,1 @@
+fileOutInitializerOn: aStream	(self includesSelector: #initialize) ifTrue: 		[aStream cr.		aStream nextChunkPut: thisClass name , ' initialize'].

@@ -1,0 +1,1 @@
+isLiteral	^self isLiteralNode

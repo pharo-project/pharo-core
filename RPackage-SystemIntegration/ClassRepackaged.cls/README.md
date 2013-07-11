@@ -1,0 +1,1 @@
+A ClassRepackaged is xxxxxxxxx.Instance Variables	classRepackaged:		<Object>	newPackage:		<Object>	oldPackage:		<Object>classRepackaged	- xxxxxnewPackage	- xxxxxoldPackage	- xxxxx

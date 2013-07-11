@@ -1,0 +1,1 @@
+A NautilusClassSelected is raised when a class is selected

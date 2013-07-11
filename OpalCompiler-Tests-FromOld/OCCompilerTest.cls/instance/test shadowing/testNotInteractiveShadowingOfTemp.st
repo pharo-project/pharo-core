@@ -1,0 +1,1 @@
+testNotInteractiveShadowingOfTemp	interactive := false.	self initializeErrorMessage.	(OpalCompiler new 		compile: 'temp |temp1 temp1| '		in: MockForCompilation		classified: nil		notifying: self		ifFail: nil).				self assert: ( newTranscript contents =  'MockForCompilation>>temp(temp1 is shadowed)').	

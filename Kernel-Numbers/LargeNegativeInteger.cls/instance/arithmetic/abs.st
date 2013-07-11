@@ -1,0 +1,1 @@
+abs	^ self negated

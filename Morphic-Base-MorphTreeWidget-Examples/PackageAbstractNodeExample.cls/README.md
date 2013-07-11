@@ -1,0 +1,1 @@
+A PackageAbstractNodeExample is xxxxxxxxx.Instance Variables	contents:		<Object>contents	- xxxxx

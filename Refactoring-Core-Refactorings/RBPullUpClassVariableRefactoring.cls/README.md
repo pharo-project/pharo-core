@@ -1,0 +1,1 @@
+A RBPullUpClassVariableRefactoring is xxxxxxxxx.Instance Variables

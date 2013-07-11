@@ -1,0 +1,1 @@
+selectionColor: aColor 	"ignored"

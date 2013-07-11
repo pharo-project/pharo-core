@@ -1,0 +1,1 @@
+signalAddedNewItem	availSema signal

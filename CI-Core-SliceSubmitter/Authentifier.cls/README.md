@@ -1,0 +1,1 @@
+An Authentifier is a UI made for specifying username and password

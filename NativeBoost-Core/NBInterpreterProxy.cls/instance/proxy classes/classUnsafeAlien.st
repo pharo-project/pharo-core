@@ -1,0 +1,1 @@
+classUnsafeAlien	^ self simpleCall

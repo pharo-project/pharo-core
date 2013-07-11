@@ -1,0 +1,1 @@
+Specialized version of inspector showing hex, octal and binary representations

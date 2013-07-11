@@ -1,0 +1,1 @@
+hasGeneratedMethod	^blockExtentsToLocals notNil

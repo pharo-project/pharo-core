@@ -1,0 +1,1 @@
+handlesMouseDown: evt	^isPopup == true

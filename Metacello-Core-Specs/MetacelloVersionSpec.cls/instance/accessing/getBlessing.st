@@ -1,0 +1,1 @@
+getBlessing	^blessing

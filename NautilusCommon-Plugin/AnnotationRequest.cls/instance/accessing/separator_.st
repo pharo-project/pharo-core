@@ -1,0 +1,1 @@
+separator: aString	separator := aString

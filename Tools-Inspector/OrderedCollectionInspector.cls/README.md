@@ -1,0 +1,1 @@
+An OrderedCollectionInspector is xxxxxxxxx.Instance Variables

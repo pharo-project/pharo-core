@@ -1,0 +1,1 @@
+hasFocus	^ methodsList hasKeyboardFocus

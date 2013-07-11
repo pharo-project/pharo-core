@@ -1,0 +1,1 @@
+A ClassTreeNodeExample is xxxxxxxxx.Instance Variables	contents:		<Object>contents	- xxxxx

@@ -1,0 +1,1 @@
+isRadialFill	^radial == true

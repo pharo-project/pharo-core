@@ -1,0 +1,1 @@
+RBChangeMethodNameRefactoring subclass: #RBAddParameterRefactoring	instanceVariableNames: 'initializer senders'	classVariableNames: ''	poolDictionaries: ''	category: 'Refactoring-Core-Refactorings'

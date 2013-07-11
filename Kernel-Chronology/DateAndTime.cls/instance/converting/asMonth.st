@@ -1,0 +1,1 @@
+asMonth	^ Month starting: self

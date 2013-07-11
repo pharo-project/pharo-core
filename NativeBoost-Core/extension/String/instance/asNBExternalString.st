@@ -1,0 +1,1 @@
+asNBExternalString	^ NBExternalAddress fromString: self

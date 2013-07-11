@@ -1,0 +1,1 @@
+defaultSymbolicVersionResolverBlock	^ self defaultSymbolicVersionResolverBlock: self configuration

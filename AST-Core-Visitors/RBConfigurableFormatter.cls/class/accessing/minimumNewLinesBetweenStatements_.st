@@ -1,0 +1,1 @@
+minimumNewLinesBetweenStatements: anInteger	MinimumNewLinesBetweenStatements := anInteger

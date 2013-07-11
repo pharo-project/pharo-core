@@ -1,0 +1,1 @@
+ignoredSelectors	^ #(packageNamesUnderTest classNamesNotUnderTest)

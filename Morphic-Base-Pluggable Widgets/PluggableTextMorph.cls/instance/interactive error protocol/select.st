@@ -1,0 +1,1 @@
+select	^ textMorph editor select

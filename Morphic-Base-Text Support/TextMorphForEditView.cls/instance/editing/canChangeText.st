@@ -1,0 +1,1 @@
+canChangeText	^ self editView enabled

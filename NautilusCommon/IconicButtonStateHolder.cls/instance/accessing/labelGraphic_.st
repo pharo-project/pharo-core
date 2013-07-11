@@ -1,0 +1,1 @@
+labelGraphic: anObject	labelGraphic := anObject

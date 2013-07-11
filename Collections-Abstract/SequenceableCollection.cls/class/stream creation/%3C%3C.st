@@ -1,0 +1,1 @@
+<< blockWithArg	^ self streamContents: blockWithArg

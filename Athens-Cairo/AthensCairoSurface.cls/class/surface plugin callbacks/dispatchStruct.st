@@ -1,0 +1,1 @@
+dispatchStruct	self checkSession.	^ dispatchStruct

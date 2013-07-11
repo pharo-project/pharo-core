@@ -1,0 +1,1 @@
+new: n	^ self new

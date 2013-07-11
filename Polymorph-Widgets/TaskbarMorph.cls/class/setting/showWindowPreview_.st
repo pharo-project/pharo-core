@@ -1,0 +1,1 @@
+showWindowPreview: aBoolean	ShowWindowPreview := aBoolean

@@ -1,0 +1,1 @@
+newLinesAfterMethodPattern	^ NewLinesAfterMethodPattern

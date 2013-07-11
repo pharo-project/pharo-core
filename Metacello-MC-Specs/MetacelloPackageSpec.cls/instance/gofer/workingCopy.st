@@ -1,0 +1,1 @@
+workingCopy	^self goferPackage workingCopy

@@ -1,0 +1,1 @@
+variableInPoolDefiner2	^ VariableInPoolDefiner2

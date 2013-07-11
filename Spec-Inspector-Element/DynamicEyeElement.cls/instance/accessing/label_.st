@@ -1,0 +1,1 @@
+label: anObject	labelBlock := anObject

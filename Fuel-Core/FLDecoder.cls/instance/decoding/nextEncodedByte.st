@@ -1,0 +1,1 @@
+nextEncodedByte	^stream next

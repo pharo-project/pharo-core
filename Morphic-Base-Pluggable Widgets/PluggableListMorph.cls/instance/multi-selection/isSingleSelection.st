@@ -1,0 +1,1 @@
+isSingleSelection	^ self multipleSelection not

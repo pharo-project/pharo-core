@@ -1,0 +1,1 @@
+narrowString	^ narrowString

@@ -1,0 +1,1 @@
+close	self window delete

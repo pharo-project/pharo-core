@@ -1,0 +1,1 @@
+keyText: key	keyText := key.

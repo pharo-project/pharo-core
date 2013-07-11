@@ -1,0 +1,1 @@
+focused: aBoolean	focused := aBoolean

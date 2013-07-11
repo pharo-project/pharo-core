@@ -1,0 +1,1 @@
+setFormat: aFormatInstanceDescription	^self explicitRequirement.

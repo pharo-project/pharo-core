@@ -1,0 +1,1 @@
+A RBMethod is xxxxxxxxx.Instance Variables	class:		<Object>	compiledMethod:		<Object>	selector:		<Object>	source:		<Object>class	- xxxxxcompiledMethod	- xxxxxselector	- xxxxxsource	- xxxxx
