@@ -1,1 +1,0 @@
-A RBAddClassRefactoring is xxxxxxxxx.Instance Variables	category:		<Object>	subclasses:		<Object>	superclass:		<Object>category	- xxxxxsubclasses	- xxxxxsuperclass	- xxxxx

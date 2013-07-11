@@ -1,1 +1,0 @@
-promptOnRefactoring	^ self class promptOnRefactoring

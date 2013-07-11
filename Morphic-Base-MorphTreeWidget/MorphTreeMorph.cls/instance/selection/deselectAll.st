@@ -1,1 +1,0 @@
-deselectAll	self listManager deselectAll

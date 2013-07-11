@@ -1,1 +1,0 @@
-createResolver	self subclassResponsibility 

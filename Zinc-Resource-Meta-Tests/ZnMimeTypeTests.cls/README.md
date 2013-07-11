@@ -1,1 +1,0 @@
-A ZnMimeTypeTests is xxxxxxxxx.Instance Variables

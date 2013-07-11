@@ -1,1 +1,0 @@
-An AndreasSystemProfilerTest is xxxxxxxxx.Instance Variables	tally:		<Object>tally	- xxxxx

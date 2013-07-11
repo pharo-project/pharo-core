@@ -1,1 +1,0 @@
-rowMorphGetSelector	^ rowMorphGetSelector

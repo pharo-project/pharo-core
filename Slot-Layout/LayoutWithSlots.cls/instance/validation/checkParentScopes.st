@@ -1,1 +1,0 @@
-checkParentScopes	| parentScope superclassScope |	parentScope := self slotScope parentScope.	superclassScope := self host superclass layout slotScope.	self 		assert: parentScope = superclassScope		description: 'Parent slot scope is out of sync'

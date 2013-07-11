@@ -1,1 +1,0 @@
-An IdentitySetTest is xxxxxxxxx.Instance Variables	floatCollection:		<Object>floatCollection	- xxxxx

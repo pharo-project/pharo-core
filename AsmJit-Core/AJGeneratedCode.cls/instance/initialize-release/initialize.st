@@ -1,1 +1,0 @@
-initialize	labels := Dictionary new.	

@@ -1,1 +1,0 @@
-floatPrecision: aNumber	floatPrecision := aNumber

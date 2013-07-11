@@ -1,1 +1,0 @@
-A CollapsedMorph is xxxxxxxxx.Instance Variables	uncollapsedMorph:		<Object>uncollapsedMorph	- xxxxx

@@ -1,1 +1,0 @@
-A RBRefactoryClassChange is xxxxxxxxx.Instance Variables	className:		<Object>	isMeta:		<Object>className	- xxxxxisMeta	- xxxxx

@@ -1,1 +1,0 @@
-askOkToClose	^ askOkToClose contents

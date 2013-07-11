@@ -1,1 +1,0 @@
-RBRemoveParameterRefactoring subclass: #RBInlineParameterRefactoring	instanceVariableNames: 'expressions'	classVariableNames: ''	poolDictionaries: ''	category: 'Refactoring-Core-Refactorings'

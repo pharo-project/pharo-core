@@ -1,1 +1,0 @@
-boolean: bool	boolean := bool

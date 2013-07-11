@@ -1,1 +1,0 @@
-stringForReadout	^ self rounded printString

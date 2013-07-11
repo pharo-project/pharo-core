@@ -1,1 +1,0 @@
-maxClassPlusSelectorSize: aNumber	maxClassPlusSelectorSize := aNumber

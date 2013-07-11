@@ -1,1 +1,0 @@
-A LazyMorphTreeNodeMorph is xxxxxxxxx.Instance Variables	drawable:		<Object>drawable	- xxxxx

@@ -1,1 +1,0 @@
-keyboardFocusOnMouseDown: aBoolean	KeyboardFocusOnMouseDown := aBoolean

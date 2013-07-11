@@ -1,1 +1,0 @@
-start	^ token start

@@ -1,1 +1,0 @@
-A RBSubclassOfClassToRename is xxxxxxxxx.Instance Variables	rewriteRule1:		<Object>rewriteRule1	- xxxxx

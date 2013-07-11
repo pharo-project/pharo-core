@@ -1,1 +1,0 @@
-selectedIndex	^ self inspector selectedIndex

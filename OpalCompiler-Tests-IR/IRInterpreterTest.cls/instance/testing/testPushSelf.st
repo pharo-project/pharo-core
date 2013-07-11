@@ -1,1 +1,0 @@
-testPushSelf	| ir |	ir := IRBuilderTest new testPushSelf.	self shouldnt: [IRInterpreter new interpret: ir ] raise: Error

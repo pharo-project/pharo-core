@@ -1,1 +1,0 @@
-A KMKeymapTest is xxxxxxxxx.Instance Variables

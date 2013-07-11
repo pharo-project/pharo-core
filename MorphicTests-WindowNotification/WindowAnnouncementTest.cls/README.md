@@ -1,1 +1,0 @@
-A WindowAnnouncementTest is xxxxxxxxx.Instance Variables	window:		<Object>window	- xxxxx

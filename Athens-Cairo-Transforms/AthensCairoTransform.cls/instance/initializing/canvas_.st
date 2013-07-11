@@ -1,1 +1,0 @@
-canvas: aCairoCanvas	canvas := aCairoCanvas

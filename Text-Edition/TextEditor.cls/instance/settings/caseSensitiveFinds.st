@@ -1,1 +1,0 @@
-caseSensitiveFinds	^ self class caseSensitiveFinds

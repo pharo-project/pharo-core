@@ -1,1 +1,0 @@
-A FreeTypeCacheConstants is xxxxxxxxx.Instance Variables

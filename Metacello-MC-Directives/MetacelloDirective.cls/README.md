@@ -1,1 +1,0 @@
-A MetacelloDirective is xxxxxxxxx.Instance Variables	loader:		<Object>	spec:		<Object>loader	- xxxxxspec	- xxxxx

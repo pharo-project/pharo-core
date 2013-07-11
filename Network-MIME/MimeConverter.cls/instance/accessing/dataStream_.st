@@ -1,1 +1,0 @@
-dataStream: anObject	dataStream := anObject

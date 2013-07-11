@@ -1,1 +1,0 @@
-testIt: aString	self subclassResponsibility 

@@ -1,1 +1,0 @@
-i doing same job as my superclass, PointerExplorerWrapper, but filter out a weak references to object(s).

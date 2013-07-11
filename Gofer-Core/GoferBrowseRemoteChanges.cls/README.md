@@ -1,1 +1,0 @@
-A GoferBrowseRemoteChanges is xxxxxxxxx.Instance Variables

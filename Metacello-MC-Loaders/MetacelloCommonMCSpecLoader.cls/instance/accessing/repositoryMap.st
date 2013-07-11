@@ -1,1 +1,0 @@
-repositoryMap	^self loaderPolicy repositoryMap

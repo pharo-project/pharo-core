@@ -1,1 +1,0 @@
-copyEmpty	^ self class new

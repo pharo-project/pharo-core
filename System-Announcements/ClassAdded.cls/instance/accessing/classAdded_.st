@@ -1,1 +1,0 @@
-classAdded: aClass	classAdded := aClass

@@ -1,1 +1,0 @@
-< comparand	^ self start < comparand	 

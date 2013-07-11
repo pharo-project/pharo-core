@@ -1,1 +1,0 @@
-isDirectory	^ self resolve isDirectory

@@ -1,1 +1,0 @@
-baseURL	^ self smalltalkhubUrl, 'mc/'

@@ -1,1 +1,0 @@
-A MetacelloValueHolderSpec is xxxxxxxxx.Instance Variables	value:		<Object>value	- xxxxx

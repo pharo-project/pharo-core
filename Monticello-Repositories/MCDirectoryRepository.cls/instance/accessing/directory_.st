@@ -1,1 +1,0 @@
-directory: aDirectory	directory := aDirectory

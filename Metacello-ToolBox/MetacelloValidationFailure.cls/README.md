@@ -1,1 +1,0 @@
-A MetacelloValidationFailure is xxxxxxxxx.Instance Variables	issues:		<Object>issues	- xxxxx

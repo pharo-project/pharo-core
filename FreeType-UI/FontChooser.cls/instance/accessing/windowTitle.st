@@ -1,1 +1,0 @@
-windowTitle	^ title translated

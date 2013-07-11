@@ -1,1 +1,0 @@
-timeout	^ self class socketStreamTimeout

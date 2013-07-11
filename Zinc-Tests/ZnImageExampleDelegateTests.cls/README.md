@@ -1,1 +1,0 @@
-A ZnImageExampleDelegateTests is xxxxxxxxx.Instance Variables

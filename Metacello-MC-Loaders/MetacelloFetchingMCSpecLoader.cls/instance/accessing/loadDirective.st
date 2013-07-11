@@ -1,1 +1,0 @@
-loadDirective	^self loaderPolicy loadDirective

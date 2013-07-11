@@ -1,1 +1,0 @@
-An InputEventSensorSystemSettings is xxxxxxxxx.Instance Variables

@@ -1,1 +1,0 @@
-elementInForIndexAccessing	^ withoutEqualElements anyOne

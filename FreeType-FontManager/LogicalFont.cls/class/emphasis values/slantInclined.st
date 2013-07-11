@@ -1,1 +1,0 @@
-slantInclined	^2

@@ -1,1 +1,0 @@
-checkSanity	layout checkSanity.

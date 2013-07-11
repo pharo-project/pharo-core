@@ -1,1 +1,0 @@
-Trait named: #TBehavior	uses: TPureBehavior	category: 'Traits-Kernel-Traits'

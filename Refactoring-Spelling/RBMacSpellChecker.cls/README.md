@@ -1,1 +1,0 @@
-A native spell checker of the Apple OS X platform. Source code is ripped from JMMMacSpelling.1.cs by John McIntosh <johnmci@smalltalkconsulting.com>.

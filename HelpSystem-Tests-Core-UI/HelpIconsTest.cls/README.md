@@ -1,1 +1,0 @@
-A HelpIconsTest is xxxxxxxxx.Instance Variables

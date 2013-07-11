@@ -1,1 +1,0 @@
-isArg	^false

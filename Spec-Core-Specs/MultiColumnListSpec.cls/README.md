@@ -1,1 +1,0 @@
-A MultiColumnListSpec is a spec used to describe a multi column list

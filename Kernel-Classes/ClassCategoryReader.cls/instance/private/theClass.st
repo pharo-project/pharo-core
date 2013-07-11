@@ -1,1 +1,0 @@
-theClass	^ class

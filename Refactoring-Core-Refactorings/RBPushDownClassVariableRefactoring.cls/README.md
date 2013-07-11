@@ -1,1 +1,0 @@
-A RBPushDownClassVariableRefactoring is xxxxxxxxx.Instance Variables	destinationClass:		<Object>destinationClass	- xxxxx

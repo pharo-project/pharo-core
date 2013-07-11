@@ -1,1 +1,0 @@
-isTransferable	^ false

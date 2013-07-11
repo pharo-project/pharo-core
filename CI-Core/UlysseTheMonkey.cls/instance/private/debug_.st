@@ -1,1 +1,0 @@
-debug: anError	debug ifTrue: [ anError debug ].

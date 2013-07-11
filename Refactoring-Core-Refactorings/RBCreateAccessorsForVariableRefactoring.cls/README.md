@@ -1,1 +1,0 @@
-A RBCreateAccessorsForVariableRefactoring is xxxxxxxxx.Instance Variables	classVariable:		<Object>	getterMethod:		<Object>	needsReturn:		<Object>	setterMethod:		<Object>classVariable	- xxxxxgetterMethod	- xxxxxneedsReturn	- xxxxxsetterMethod	- xxxxx

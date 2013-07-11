@@ -1,1 +1,0 @@
-indexUpdateBlock: aBlockOrNil	indexUpdateBlock := aBlockOrNil.

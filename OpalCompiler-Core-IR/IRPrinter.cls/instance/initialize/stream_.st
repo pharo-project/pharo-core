@@ -1,1 +1,0 @@
-stream: stringWriteStream	stream := stringWriteStream

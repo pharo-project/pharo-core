@@ -1,1 +1,0 @@
-methodsIconsCache		^ self methodWidget methodsIconsCache

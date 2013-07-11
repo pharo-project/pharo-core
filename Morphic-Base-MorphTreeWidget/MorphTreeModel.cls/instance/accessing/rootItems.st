@@ -1,1 +1,0 @@
-rootItems	^ rootItems ifNil: [ rootItems := {} ]

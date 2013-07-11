@@ -1,1 +1,0 @@
-A MetacelloSpecLoader is xxxxxxxxx.Instance Variables	spec:		<Object>spec	- xxxxx

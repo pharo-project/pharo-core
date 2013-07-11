@@ -1,1 +1,0 @@
-A StrikeFontFixer is xxxxxxxxx.Instance Variables	charForms:		<Object>	strikeFont:		<Object>charForms	- xxxxxstrikeFont	- xxxxx

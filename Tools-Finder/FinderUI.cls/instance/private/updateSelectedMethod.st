@@ -1,1 +1,0 @@
-updateSelectedMethod	self changed: #selectedMethod

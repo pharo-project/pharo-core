@@ -1,1 +1,0 @@
-isCopying	^true

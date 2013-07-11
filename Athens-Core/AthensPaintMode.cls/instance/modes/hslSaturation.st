@@ -1,1 +1,0 @@
-hslSaturation	self notAvailable

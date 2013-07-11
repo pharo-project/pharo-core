@@ -1,1 +1,0 @@
-isGlobal	^self binding isGlobal

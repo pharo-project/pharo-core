@@ -1,1 +1,0 @@
-rightBar	^ rightBar

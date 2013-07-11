@@ -1,1 +1,0 @@
-temporaryNodeClass	^ RBTemporaryNode

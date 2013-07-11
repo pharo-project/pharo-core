@@ -1,1 +1,0 @@
-isMouseOver	^self type == #mouseOver

@@ -1,1 +1,0 @@
-enableDragNDrop	self enableDragNDrop: true

@@ -1,1 +1,0 @@
-textOwner: ignored  "See TextOnCurve"

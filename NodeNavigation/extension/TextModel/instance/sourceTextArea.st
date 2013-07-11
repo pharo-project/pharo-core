@@ -1,1 +1,0 @@
-sourceTextArea	^ self widget

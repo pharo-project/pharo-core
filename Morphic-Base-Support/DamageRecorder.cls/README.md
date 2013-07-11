@@ -1,1 +1,0 @@
-A DamageRecorder is xxxxxxxxx.Instance Variables	invalidRects:		<Object>	totalRepaint:		<Object>invalidRects	- xxxxxtotalRepaint	- xxxxx

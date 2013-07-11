@@ -1,1 +1,0 @@
-configurationList	^configurationList 

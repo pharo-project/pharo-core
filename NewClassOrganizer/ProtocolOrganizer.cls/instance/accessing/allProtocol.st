@@ -1,1 +1,0 @@
-allProtocol	^ allProtocol

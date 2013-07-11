@@ -1,1 +1,0 @@
-A SystemAnnouncerTest is xxxxxxxxx.Instance Variables	factory:		<Object>	oldSystemAnnouncer:		<Object>factory	- xxxxxoldSystemAnnouncer	- xxxxx

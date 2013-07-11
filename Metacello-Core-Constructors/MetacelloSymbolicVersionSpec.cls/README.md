@@ -1,1 +1,0 @@
-A MetacelloSymbolicVersionSpec is xxxxxxxxx.Instance Variables	versionString:		<Object>versionString	- xxxxx

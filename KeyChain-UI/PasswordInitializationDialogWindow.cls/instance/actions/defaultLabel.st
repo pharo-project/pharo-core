@@ -1,1 +1,0 @@
-defaultLabel	^ 'Enter your password'

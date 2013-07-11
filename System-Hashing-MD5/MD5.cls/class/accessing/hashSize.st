@@ -1,1 +1,0 @@
-hashSize	^ 16

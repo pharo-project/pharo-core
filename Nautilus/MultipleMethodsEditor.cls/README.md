@@ -1,1 +1,0 @@
-A MultipleMethodsEditor is a widget to edit multiple methods in one widget

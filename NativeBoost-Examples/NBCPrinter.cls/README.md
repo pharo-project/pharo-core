@@ -1,1 +1,0 @@
-A NBCPrinter is xxxxxxxxx.Instance Variables

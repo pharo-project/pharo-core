@@ -1,1 +1,0 @@
-title	^'Recent Message List'

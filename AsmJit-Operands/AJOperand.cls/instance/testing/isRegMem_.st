@@ -1,1 +1,0 @@
-isRegMem: aRegType	self shouldBeImplemented 

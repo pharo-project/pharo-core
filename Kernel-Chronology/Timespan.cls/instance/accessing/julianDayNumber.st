@@ -1,1 +1,0 @@
-julianDayNumber 	^ start julianDayNumber 

@@ -1,1 +1,0 @@
-A ParagraphSelectionBlock is xxxxxxxxx.Instance Variables	color:		<Object>	first:		<Object>	last:		<Object>color	- xxxxxfirst	- xxxxxlast	- xxxxx

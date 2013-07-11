@@ -1,1 +1,0 @@
-A SystemOrganizerTest is xxxxxxxxx.Instance Variables

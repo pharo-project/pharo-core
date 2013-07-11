@@ -1,1 +1,0 @@
-discoveredWorldMenu	^ owner discoveredWorldMenu

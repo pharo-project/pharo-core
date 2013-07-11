@@ -1,1 +1,0 @@
-callbackClass: aClass	callbackClass := aClass

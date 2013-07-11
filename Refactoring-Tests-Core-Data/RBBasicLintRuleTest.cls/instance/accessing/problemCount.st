@@ -1,1 +1,0 @@
-problemCount	^result problemCount

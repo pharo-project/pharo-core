@@ -1,1 +1,0 @@
-stringInsideParentheses	^ StringInsideParentheses

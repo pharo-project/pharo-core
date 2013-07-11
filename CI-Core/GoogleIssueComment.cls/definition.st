@@ -1,1 +1,0 @@
-Object subclass: #GoogleIssueComment	instanceVariableNames: 'attachments author content id issue published title updated'	classVariableNames: ''	poolDictionaries: ''	category: 'CI-Core'

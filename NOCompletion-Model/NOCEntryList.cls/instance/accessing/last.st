@@ -1,1 +1,0 @@
-last	^self lastEntry contents

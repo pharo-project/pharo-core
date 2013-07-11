@@ -1,1 +1,0 @@
-changed	^ self lastComment updated

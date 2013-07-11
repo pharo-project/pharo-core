@@ -1,1 +1,0 @@
-bottomCenter	^ bounds bottomCenter

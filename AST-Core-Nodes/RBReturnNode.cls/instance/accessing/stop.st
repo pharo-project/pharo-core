@@ -1,1 +1,0 @@
-stop	^value stop

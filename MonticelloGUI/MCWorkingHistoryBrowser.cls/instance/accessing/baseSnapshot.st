@@ -1,1 +1,0 @@
-baseSnapshot	^ package snapshot

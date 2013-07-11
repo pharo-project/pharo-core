@@ -1,1 +1,0 @@
-A FileDirectoryWrapper is xxxxxxxxx.Instance Variables	balloonText:		<Object>	hasContents:		<Object>	itemName:		<Object>balloonText	- xxxxxhasContents	- xxxxxitemName	- xxxxx

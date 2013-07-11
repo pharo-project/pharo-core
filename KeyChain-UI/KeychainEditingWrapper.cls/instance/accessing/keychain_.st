@@ -1,1 +1,0 @@
-keychain: anObject	keychain := anObject

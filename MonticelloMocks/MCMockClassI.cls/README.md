@@ -1,1 +1,0 @@
-A MCMockClassI is xxxxxxxxx.Instance Variables

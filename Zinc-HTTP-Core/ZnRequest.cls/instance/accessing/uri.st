@@ -1,1 +1,0 @@
-uri	^ self requestLine uri 

@@ -1,1 +1,0 @@
-A JoinSide is xxxxxxxxx.Instance Variables	color:		<Object>	highlights:		<Object>	lineRange:		<Object>	offset:		<Object>	range:		<Object>	text:		<Object>color	- xxxxxhighlights	- xxxxxlineRange	- xxxxxoffset	- xxxxxrange	- xxxxxtext	- xxxxx

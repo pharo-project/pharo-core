@@ -1,1 +1,0 @@
-visitParseErrorNode: anErrorNode

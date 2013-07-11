@@ -1,1 +1,0 @@
-A MetacelloVisitedPackages is xxxxxxxxx.Instance Variables	groups:		<Object>	packages:		<Object>	projects:		<Object>groups	- xxxxxpackages	- xxxxxprojects	- xxxxx

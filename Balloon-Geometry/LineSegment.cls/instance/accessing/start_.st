@@ -1,1 +1,0 @@
-start: aPoint	start := aPoint

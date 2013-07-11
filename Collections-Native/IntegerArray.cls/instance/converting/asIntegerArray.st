@@ -1,1 +1,0 @@
-asIntegerArray	^self

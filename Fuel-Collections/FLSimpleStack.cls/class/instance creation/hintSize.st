@@ -1,1 +1,0 @@
-hintSize	^64

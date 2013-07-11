@@ -1,1 +1,0 @@
-A RBRefactoringManager is xxxxxxxxx.Instance Variables	refactorings:		<Object>refactorings	- xxxxx

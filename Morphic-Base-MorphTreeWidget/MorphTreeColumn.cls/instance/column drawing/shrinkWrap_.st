@@ -1,1 +1,0 @@
-shrinkWrap: aBoolean	shrinkWrap := aBoolean

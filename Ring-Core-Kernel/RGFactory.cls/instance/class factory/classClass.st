@@ -1,1 +1,0 @@
-classClass	^RGClassDefinition

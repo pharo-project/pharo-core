@@ -1,1 +1,0 @@
-initialize	searchedTextListMaxSize := 15

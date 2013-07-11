@@ -1,1 +1,0 @@
-A NBMacExternalHeapManager is xxxxxxxxx.Instance Variables

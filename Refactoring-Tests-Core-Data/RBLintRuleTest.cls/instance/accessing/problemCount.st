@@ -1,1 +1,0 @@
-problemCount	^self subclassResponsibility

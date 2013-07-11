@@ -1,1 +1,0 @@
-A RBAddMetaclassChange is xxxxxxxxx.Instance Variables	classInstanceVariableNames:		<Object>classInstanceVariableNames	- xxxxx

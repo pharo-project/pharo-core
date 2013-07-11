@@ -1,1 +1,0 @@
-A TConcatenationTest is xxxxxxxxx.

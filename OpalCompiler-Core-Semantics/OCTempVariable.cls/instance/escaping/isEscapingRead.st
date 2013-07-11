@@ -1,1 +1,0 @@
-isEscapingRead	^escaping = #escapingRead

@@ -1,1 +1,0 @@
-A MCSerializationTest is xxxxxxxxx.Instance Variables

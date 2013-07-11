@@ -1,1 +1,0 @@
-invalidRect: aRectangle	

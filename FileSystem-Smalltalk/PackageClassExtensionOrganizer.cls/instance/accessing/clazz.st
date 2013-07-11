@@ -1,1 +1,0 @@
-clazz	^ clazz

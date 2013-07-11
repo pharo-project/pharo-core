@@ -1,1 +1,0 @@
-compileMethod	class compileTree: sourceParseTree

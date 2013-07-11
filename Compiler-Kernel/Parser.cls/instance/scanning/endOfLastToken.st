@@ -1,1 +1,0 @@
-endOfLastToken	^ prevEnd ifNil: [mark]

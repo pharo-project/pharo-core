@@ -1,1 +1,0 @@
-A Trait3 is xxxxxxxxx.

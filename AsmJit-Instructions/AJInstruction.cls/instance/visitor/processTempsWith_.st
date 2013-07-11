@@ -1,1 +1,0 @@
-processTempsWith: anObject	"do nothing"

@@ -1,1 +1,0 @@
-pointSize: aSize	pointSize := aSize

@@ -1,1 +1,0 @@
-A MetacelloVersionValidator is xxxxxxxxx.Instance Variables	configurationClass:		<Object>	debug:		<Object>	exludededValidations:		<Object>	recurse:		<Object>	validationReport:		<Object>	visited:		<Object>configurationClass	- xxxxxdebug	- xxxxxexludededValidations	- xxxxxrecurse	- xxxxxvalidationReport	- xxxxxvisited	- xxxxx

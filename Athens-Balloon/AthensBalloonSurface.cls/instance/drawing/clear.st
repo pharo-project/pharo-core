@@ -1,1 +1,0 @@
-clear	^ self clearForm

@@ -1,1 +1,0 @@
-isAbstract	^ self description isNil

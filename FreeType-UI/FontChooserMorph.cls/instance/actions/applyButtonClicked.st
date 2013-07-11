@@ -1,1 +1,0 @@
-applyButtonClicked	self apply.	

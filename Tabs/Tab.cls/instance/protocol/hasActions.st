@@ -1,1 +1,0 @@
-hasActions	^ actions notEmpty

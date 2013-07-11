@@ -1,1 +1,0 @@
-selectedClass	^ self finder selectedClass

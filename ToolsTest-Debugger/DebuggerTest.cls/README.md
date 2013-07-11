@@ -1,1 +1,0 @@
-A DebuggerTest is xxxxxxxxx.Instance Variables

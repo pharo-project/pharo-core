@@ -1,1 +1,0 @@
-outOfWorldCount	^outOfWorldCount

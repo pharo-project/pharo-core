@@ -1,1 +1,0 @@
-listSpacing: aSymbol	listSpacing := aSymbol

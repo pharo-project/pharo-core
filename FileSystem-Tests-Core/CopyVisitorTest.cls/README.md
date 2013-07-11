@@ -1,1 +1,0 @@
-A CopyVisitorTest is xxxxxxxxx.Instance Variables	dest:		<Object>	source:		<Object>dest	- xxxxxsource	- xxxxx

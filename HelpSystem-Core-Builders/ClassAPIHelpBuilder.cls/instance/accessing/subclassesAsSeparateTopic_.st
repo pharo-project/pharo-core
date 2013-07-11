@@ -1,1 +1,0 @@
-subclassesAsSeparateTopic: anObject	subclassesAsSeparateTopic := anObject

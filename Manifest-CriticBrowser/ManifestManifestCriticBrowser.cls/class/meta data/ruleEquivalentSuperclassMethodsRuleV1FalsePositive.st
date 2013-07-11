@@ -1,1 +1,0 @@
-ruleEquivalentSuperclassMethodsRuleV1FalsePositive^ #(#(#(#RGMethodDefinition #(#SingleRuleCriticBrowser #perform:orSendTo: #false)) #'2013-02-01T15:29:56.387000008+01:00') #(#(#RGMethodDefinition #(#'SelectRuleBrowser class' #defaultSpec #true)) #'2013-02-01T15:29:56.387000009+01:00') )

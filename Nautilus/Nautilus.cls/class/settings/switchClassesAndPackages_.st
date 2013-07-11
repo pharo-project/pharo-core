@@ -1,1 +1,0 @@
-switchClassesAndPackages: aBoolean	SwitchClassesAndPackages := aBoolean

@@ -1,1 +1,0 @@
-hasDirectories	^self resolve hasDirectories

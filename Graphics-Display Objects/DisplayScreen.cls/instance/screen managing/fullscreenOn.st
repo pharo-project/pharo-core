@@ -1,1 +1,0 @@
-fullscreenOn	self fullscreen: true

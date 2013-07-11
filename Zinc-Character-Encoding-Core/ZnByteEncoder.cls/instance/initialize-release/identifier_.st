@@ -1,1 +1,0 @@
-identifier: object	identifier := object

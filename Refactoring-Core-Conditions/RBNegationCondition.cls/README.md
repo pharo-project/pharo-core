@@ -1,1 +1,0 @@
-A RBNegationCondition is xxxxxxxxx.Instance Variables	condition:		<Object>condition	- xxxxx

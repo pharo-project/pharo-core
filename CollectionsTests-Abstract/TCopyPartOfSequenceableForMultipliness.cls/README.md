@@ -1,1 +1,0 @@
-A TCopyPartOfSequenceableForMultipliness is xxxxxxxxx.

@@ -1,1 +1,0 @@
-isClassNamesSymbol	^self finder isClassNamesSymbol

@@ -1,1 +1,0 @@
-asMetacelloAttributeList    ^ self

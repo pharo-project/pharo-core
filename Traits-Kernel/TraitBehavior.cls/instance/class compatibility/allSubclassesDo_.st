@@ -1,1 +1,0 @@
-allSubclassesDo: aBlock

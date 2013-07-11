@@ -1,1 +1,0 @@
-lineWidth	^self borderWidth

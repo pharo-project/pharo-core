@@ -1,1 +1,0 @@
-isLiteralToken	^false

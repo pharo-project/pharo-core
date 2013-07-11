@@ -1,1 +1,0 @@
-buildThirdColumn: aWindow	^ self buildCategoryWidget

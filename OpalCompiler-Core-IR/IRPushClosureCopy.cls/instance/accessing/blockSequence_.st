@@ -1,1 +1,0 @@
-blockSequence: anIRSequence 	blockSequence := anIRSequence

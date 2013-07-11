@@ -1,1 +1,0 @@
-classNameLabel		^ classNameLabel

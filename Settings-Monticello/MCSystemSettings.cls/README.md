@@ -1,1 +1,0 @@
-A MCSystemSettings is xxxxxxxxx.Instance Variables

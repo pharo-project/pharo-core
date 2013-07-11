@@ -1,1 +1,0 @@
-asSocketAddress	^SocketAddress fromOldByteAddress: self

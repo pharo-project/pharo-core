@@ -1,1 +1,0 @@
-carColor	^ Color veryVeryLightGray

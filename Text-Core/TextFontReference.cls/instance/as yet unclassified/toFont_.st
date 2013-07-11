@@ -1,1 +1,0 @@
-toFont: aFont	font := aFont

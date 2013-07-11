@@ -1,1 +1,0 @@
-hasHalo	^self hasProperty: #hasHalo.

@@ -1,1 +1,0 @@
-shortcutName: aShortcutName	shortcutName := aShortcutName

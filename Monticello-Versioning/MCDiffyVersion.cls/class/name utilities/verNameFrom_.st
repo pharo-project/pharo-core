@@ -1,1 +1,0 @@
-verNameFrom: diffName	^diffName copyUpTo: $(

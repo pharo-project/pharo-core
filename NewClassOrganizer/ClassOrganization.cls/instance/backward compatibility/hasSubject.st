@@ -1,1 +1,0 @@
-hasSubject	^ organizedClass notNil

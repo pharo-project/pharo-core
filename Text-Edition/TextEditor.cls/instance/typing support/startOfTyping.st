@@ -1,1 +1,0 @@
-startOfTyping	^ self editingState startOfTyping  

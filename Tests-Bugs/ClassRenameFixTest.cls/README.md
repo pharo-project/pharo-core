@@ -1,1 +1,0 @@
-A ClassRenameFixTest is xxxxxxxxx.Instance Variables	newClassName:		<Object>	originalName:		<Object>	previousChangeSet:		<Object>	testsChangeSet:		<Object>newClassName	- xxxxxoriginalName	- xxxxxpreviousChangeSet	- xxxxxtestsChangeSet	- xxxxx

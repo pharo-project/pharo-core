@@ -1,1 +1,0 @@
-redoEnabled	^ self changeManager hasRedoableOperations

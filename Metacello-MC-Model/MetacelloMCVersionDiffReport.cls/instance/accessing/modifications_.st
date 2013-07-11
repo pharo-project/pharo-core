@@ -1,1 +1,0 @@
-modifications: anObject	modifications := anObject

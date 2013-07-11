@@ -1,1 +1,0 @@
-Canvas subclass: #FormCanvas	instanceVariableNames: 'origin clipRect form port'	classVariableNames: ''	poolDictionaries: ''	category: 'Morphic-Base-Support'

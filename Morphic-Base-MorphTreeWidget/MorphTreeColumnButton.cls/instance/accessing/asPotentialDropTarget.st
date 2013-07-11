@@ -1,1 +1,0 @@
-asPotentialDropTarget 	self model asPotentialDropTarget

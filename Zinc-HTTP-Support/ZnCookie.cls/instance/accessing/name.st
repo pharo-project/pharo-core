@@ -1,1 +1,0 @@
-name	^ attributes at: 'name'

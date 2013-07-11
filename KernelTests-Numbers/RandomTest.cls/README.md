@@ -1,1 +1,0 @@
-A RandomTest is xxxxxxxxx.Instance Variables	gen:		<Object>gen	- xxxxx

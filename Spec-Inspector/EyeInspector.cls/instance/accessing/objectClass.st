@@ -1,1 +1,0 @@
-objectClass	^ self object class

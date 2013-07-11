@@ -1,1 +1,0 @@
-hash	^ shortcuts hash

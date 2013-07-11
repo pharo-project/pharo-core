@@ -1,1 +1,0 @@
-itemClass	^ class

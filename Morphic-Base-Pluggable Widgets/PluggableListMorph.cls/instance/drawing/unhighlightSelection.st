@@ -1,1 +1,0 @@
-unhighlightSelection	self searchedElement: nil.

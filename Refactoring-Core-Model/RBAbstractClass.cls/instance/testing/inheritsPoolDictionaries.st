@@ -1,1 +1,0 @@
-inheritsPoolDictionaries	^false

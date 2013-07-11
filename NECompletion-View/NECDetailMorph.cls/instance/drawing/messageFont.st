@@ -1,1 +1,0 @@
-messageFont	^ NECMenuMorph messageFont

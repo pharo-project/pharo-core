@@ -1,1 +1,0 @@
-objectClass	^ objectClass

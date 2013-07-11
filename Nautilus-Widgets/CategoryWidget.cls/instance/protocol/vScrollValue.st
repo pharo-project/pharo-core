@@ -1,1 +1,0 @@
-vScrollValue	^ categoriesList scrollValue y

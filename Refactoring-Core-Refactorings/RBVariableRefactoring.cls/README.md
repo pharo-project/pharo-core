@@ -1,1 +1,0 @@
-A RBVariableRefactoring is xxxxxxxxx.Instance Variables	class:		<Object>	variableName:		<Object>class	- xxxxxvariableName	- xxxxx

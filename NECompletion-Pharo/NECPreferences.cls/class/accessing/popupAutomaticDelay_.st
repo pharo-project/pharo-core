@@ -1,1 +1,0 @@
-popupAutomaticDelay: anObject	popupAutomaticDelay := anObject

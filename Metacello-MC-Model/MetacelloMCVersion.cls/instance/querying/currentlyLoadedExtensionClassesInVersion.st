@@ -1,1 +1,0 @@
-currentlyLoadedExtensionClassesInVersion	^self spec currentlyLoadedExtensionClassesInVersion

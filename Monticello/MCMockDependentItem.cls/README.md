@@ -1,1 +1,0 @@
-A MCMockDependentItem is xxxxxxxxx.Instance Variables	name:		<Object>	provides:		<Object>	requires:		<Object>name	- xxxxxprovides	- xxxxxrequires	- xxxxx

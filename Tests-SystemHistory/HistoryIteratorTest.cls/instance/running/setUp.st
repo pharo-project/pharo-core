@@ -1,1 +1,0 @@
-setUp	historyList := HistoryIterator new.

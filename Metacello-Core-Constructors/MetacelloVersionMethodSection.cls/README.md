@@ -1,1 +1,0 @@
-A MetacelloVersionMethodSection is xxxxxxxxx.Instance Variables	block:		<Object>	methodSections:		<Object>	parent:		<Object>	versionSpec:		<Object>block	- xxxxxmethodSections	- xxxxxparent	- xxxxxversionSpec	- xxxxx

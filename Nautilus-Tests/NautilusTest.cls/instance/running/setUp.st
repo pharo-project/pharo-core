@@ -1,1 +1,0 @@
-setUp	nautilus := Nautilus new.

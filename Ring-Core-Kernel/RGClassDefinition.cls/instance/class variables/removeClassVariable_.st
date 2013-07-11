@@ -1,1 +1,0 @@
-removeClassVariable: aRGClassVariableDefinition	self removeVariable: aRGClassVariableDefinition from: classVariables

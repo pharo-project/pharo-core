@@ -1,1 +1,0 @@
-ComposableModel subclass: #Authentifier	instanceVariableNames: 'gmail passwordField passwordLabel result userField userLabel'	classVariableNames: ''	poolDictionaries: ''	category: 'CI-Core-SliceSubmitter'

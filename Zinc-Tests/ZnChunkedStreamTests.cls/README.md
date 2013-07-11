@@ -1,1 +1,0 @@
-A ZnChunkedStreamTests is xxxxxxxxx.Instance Variables

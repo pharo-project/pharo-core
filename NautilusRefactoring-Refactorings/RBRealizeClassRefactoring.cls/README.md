@@ -1,1 +1,0 @@
-Make a given class concrete, by providing empty templates for all the abstract methods.

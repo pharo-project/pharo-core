@@ -1,1 +1,0 @@
-collectionInForIncluding	^ self nonEmpty copyWithoutFirst.

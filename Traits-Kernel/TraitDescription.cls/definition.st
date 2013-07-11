@@ -1,1 +1,0 @@
-TraitBehavior subclass: #TraitDescription	uses: TClassAndTraitDescription + TComposingDescription + TTransformationCompatibility	instanceVariableNames: 'organization'	classVariableNames: ''	poolDictionaries: ''	category: 'Traits-Kernel'

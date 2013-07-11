@@ -1,1 +1,0 @@
-A TextDoIt is xxxxxxxxx.Instance Variables	evalString:		<Object>evalString	- xxxxx

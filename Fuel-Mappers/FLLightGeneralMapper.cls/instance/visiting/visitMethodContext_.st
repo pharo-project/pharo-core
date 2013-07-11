@@ -1,1 +1,0 @@
-visitMethodContext: aMethodContext	self mapAndTraceByObjectClass: aMethodContext to: FLMethodContextCluster

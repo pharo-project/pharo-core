@@ -1,1 +1,0 @@
-install	reference actualClass methodDict		at: reference methodSymbol		put: self.	self flushCache

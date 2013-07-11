@@ -1,1 +1,0 @@
-ancestry	^ ancestry

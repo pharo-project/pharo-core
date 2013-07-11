@@ -1,1 +1,0 @@
-asDate	^ Date today

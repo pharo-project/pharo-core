@@ -1,1 +1,0 @@
-getMethods	^ methodWidget getMethods

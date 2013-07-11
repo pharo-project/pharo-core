@@ -1,1 +1,0 @@
-updateSelectedClass	self changed: #selectedClass

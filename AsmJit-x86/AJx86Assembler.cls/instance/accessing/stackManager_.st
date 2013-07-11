@@ -1,1 +1,0 @@
-stackManager: aStackManager	stackManager := aStackManager 

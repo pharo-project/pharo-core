@@ -1,1 +1,0 @@
-ifNilReceiver	^receiver

@@ -1,1 +1,0 @@
-prepareForRendering	self fastReset

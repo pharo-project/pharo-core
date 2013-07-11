@@ -1,1 +1,0 @@
-project	^self versionSpec project

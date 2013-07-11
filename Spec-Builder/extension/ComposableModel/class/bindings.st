@@ -1,1 +1,0 @@
-bindings 	^ BindingsHolder new

@@ -1,1 +1,0 @@
-checkImageInSyncWithUpdate: aBoolean	CheckImageInSyncWithUpdate := aBoolean

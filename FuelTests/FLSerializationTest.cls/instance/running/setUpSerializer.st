@@ -1,1 +1,0 @@
-setUpSerializer	serializer := FLSerializer newDefault

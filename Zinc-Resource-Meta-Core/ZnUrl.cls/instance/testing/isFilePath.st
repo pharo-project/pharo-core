@@ -1,1 +1,0 @@
-isFilePath	^ self isDirectoryPath not

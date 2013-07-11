@@ -1,1 +1,0 @@
-defaultValue	^ defaultValueHolder contents

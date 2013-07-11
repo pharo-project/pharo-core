@@ -1,1 +1,0 @@
-isOpaque	^true

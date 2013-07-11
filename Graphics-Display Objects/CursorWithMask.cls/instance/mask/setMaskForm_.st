@@ -1,1 +1,0 @@
-setMaskForm: aForm	maskForm := aForm

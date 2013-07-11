@@ -1,1 +1,0 @@
-aLoadedPackageIsNotCurrent	^ aLoadedPackageIsNotCurrent

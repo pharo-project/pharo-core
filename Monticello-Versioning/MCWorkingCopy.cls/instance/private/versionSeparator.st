@@ -1,1 +1,0 @@
-versionSeparator	^ $_

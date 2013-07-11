@@ -1,1 +1,0 @@
-See #name for the area where I check spelling.

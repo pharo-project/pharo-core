@@ -1,1 +1,0 @@
-nextByte	^self next asInteger

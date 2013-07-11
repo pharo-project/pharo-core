@@ -1,1 +1,0 @@
-compressionLevelNone	^CompressionLevelNone 

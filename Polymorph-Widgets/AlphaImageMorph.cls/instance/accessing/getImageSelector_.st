@@ -1,1 +1,0 @@
-getImageSelector: anObject	getImageSelector := anObject

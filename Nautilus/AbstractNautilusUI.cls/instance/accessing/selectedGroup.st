@@ -1,1 +1,0 @@
-selectedGroup		^ self model selectedGroup

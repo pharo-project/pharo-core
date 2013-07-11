@@ -1,1 +1,0 @@
-step: anObject	step := anObject

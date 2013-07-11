@@ -1,1 +1,0 @@
-instanceVariableReaders	^instanceVariableReaders

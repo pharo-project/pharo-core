@@ -1,1 +1,0 @@
-isEmpty	^protocols isEmpty

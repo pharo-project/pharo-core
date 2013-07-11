@@ -1,1 +1,0 @@
-downFullIcon 	^ icons			at: #'downFullIcon'			ifAbsentPut:[ self downFullIconContents ].

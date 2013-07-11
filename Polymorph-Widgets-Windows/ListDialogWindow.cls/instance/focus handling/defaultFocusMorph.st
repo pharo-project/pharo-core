@@ -1,1 +1,0 @@
-defaultFocusMorph	^ searchMorph

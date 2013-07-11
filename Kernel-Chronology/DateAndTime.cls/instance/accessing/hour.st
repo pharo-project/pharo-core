@@ -1,1 +1,0 @@
-hour	^ self hour24

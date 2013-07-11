@@ -1,1 +1,0 @@
-A RBInlineAllSendersRefactoring is xxxxxxxxx.Instance Variables	numberNotReplaced:		<Object>	numberReplaced:		<Object>	selector:		<Object>numberNotReplaced	- xxxxxnumberReplaced	- xxxxxselector	- xxxxx

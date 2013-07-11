@@ -1,1 +1,0 @@
-asMorph	^ self asTextMorph

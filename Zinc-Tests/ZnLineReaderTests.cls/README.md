@@ -1,1 +1,0 @@
-A ZnLineReaderTests is xxxxxxxxx.Instance Variables

@@ -1,1 +1,0 @@
-content: anObject	content:= anObject

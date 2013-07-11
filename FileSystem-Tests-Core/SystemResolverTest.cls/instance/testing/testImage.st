@@ -1,1 +1,0 @@
-testImage	self assertOriginResolves: #image

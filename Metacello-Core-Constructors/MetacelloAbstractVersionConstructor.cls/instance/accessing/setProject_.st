@@ -1,1 +1,0 @@
-setProject: aProject	project := aProject

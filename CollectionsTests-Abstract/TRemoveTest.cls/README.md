@@ -1,1 +1,0 @@
-A TRemoveTest is xxxxxxxxx.

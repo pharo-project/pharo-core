@@ -1,1 +1,0 @@
-An OCASTClosureAnalyzer is xxxxxxxxx.Instance Variables	scope:		<Object>scope	- xxxxx

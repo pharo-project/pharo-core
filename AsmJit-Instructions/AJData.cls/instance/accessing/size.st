@@ -1,1 +1,0 @@
-size	^ self data size

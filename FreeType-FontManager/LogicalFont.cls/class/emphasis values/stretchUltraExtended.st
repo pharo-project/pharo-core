@@ -1,1 +1,0 @@
-stretchUltraExtended	^9

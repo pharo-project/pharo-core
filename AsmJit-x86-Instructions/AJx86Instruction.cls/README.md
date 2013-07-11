@@ -1,1 +1,0 @@
-An AJx86Instruction is xxxxxxxxx.Instance Variables	description:		<Object>description	- xxxxx

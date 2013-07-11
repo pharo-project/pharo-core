@@ -1,1 +1,0 @@
-identity	^self new setIdentity

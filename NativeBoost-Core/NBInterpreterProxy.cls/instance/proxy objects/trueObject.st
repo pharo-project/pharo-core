@@ -1,1 +1,0 @@
-trueObject		^ self simpleCall

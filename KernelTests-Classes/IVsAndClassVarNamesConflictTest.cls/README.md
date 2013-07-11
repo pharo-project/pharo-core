@@ -1,1 +1,0 @@
-An IVsAndClassVarNamesConflictTest is xxxxxxxxx.Instance Variables	class:		<Object>	className:		<Object>class	- xxxxxclassName	- xxxxx

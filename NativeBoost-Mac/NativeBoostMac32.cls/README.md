@@ -1,1 +1,0 @@
-A NativeBoostMac32 is xxxxxxxxx.Instance Variables

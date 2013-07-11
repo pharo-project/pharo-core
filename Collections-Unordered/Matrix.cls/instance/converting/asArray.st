@@ -1,1 +1,0 @@
-asArray	^contents shallowCopy

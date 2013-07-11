@@ -1,1 +1,0 @@
-target: aVersionInfo	target := aVersionInfo

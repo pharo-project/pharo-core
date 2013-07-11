@@ -1,1 +1,0 @@
-statusValue: val	statusValue := val

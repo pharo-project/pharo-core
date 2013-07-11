@@ -1,1 +1,0 @@
-testInspectTraitClass	| inspector |	inspector := TPureBehavior inspector.	inspector changed.	inspector close.

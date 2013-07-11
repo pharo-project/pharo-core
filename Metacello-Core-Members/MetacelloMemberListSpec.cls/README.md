@@ -1,1 +1,0 @@
-A MetacelloMemberListSpec is xxxxxxxxx.Instance Variables	list:		<Object>	memberMap:		<Object>list	- xxxxxmemberMap	- xxxxx

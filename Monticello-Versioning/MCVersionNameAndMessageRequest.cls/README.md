@@ -1,1 +1,0 @@
-A MCVersionNameAndMessageRequest is xxxxxxxxx.Instance Variables	suggestedLogComment:		<Object>	suggestion:		<Object>suggestedLogComment	- xxxxxsuggestion	- xxxxx

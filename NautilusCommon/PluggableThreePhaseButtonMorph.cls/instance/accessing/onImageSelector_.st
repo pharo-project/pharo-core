@@ -1,1 +1,0 @@
-onImageSelector: anObject 	onImageSelector := anObject

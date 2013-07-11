@@ -1,1 +1,0 @@
-initialize  TextStyle addDependent: self.

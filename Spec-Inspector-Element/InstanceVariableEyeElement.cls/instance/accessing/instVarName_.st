@@ -1,1 +1,0 @@
-instVarName: aString	instVarName := aString

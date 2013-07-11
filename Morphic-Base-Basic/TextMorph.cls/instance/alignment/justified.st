@@ -1,1 +1,0 @@
-justified 	self changeAlignment: #justified

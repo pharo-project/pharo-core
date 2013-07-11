@@ -1,1 +1,0 @@
-hasContentType	^ contentType notNil

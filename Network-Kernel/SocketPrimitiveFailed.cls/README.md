@@ -1,1 +1,0 @@
-A SocketPrimitiveFailed is xxxxxxxxx.Instance Variables

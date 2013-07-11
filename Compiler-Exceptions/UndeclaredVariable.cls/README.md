@@ -1,1 +1,0 @@
-An UndeclaredVariable is xxxxxxxxx.Instance Variables	interval:		<Object>	parser:		<Object>interval	- xxxxxparser	- xxxxx

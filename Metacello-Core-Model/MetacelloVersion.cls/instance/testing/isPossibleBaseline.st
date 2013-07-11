@@ -1,1 +1,0 @@
-isPossibleBaseline	^self spec isPossibleBaseline

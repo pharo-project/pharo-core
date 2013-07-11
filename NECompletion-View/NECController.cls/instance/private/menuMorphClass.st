@@ -1,1 +1,0 @@
-menuMorphClass	^ NECMenuMorph

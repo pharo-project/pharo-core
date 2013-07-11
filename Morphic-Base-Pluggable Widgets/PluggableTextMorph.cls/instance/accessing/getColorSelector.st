@@ -1,1 +1,0 @@
-getColorSelector	^getColorSelector

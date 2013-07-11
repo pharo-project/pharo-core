@@ -1,1 +1,0 @@
-fieldSize	^ slotScope fieldSize

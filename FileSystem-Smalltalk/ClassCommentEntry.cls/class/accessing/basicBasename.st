@@ -1,1 +1,0 @@
-basicBasename	^ 'README.md'

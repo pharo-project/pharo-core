@@ -1,1 +1,0 @@
-hasMatch	^match notNil

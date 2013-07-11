@@ -1,1 +1,0 @@
-mockSnapshot	^ MCSnapshotResource current snapshot

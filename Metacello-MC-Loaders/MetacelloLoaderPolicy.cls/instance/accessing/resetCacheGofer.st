@@ -1,1 +1,0 @@
-resetCacheGofer	cacheGofer := nil

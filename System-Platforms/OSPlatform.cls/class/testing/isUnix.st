@@ -1,1 +1,0 @@
-isUnix	^ self platformName = 'unix'

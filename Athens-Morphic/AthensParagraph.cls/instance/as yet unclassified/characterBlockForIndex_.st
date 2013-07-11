@@ -1,1 +1,0 @@
-characterBlockForIndex: index 		^ self defaultCharacterBlock

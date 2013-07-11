@@ -1,1 +1,0 @@
-echo	self echo: true.

@@ -1,1 +1,0 @@
-fileExtension	^ '.fuel'

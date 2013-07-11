@@ -1,1 +1,0 @@
-A SpecBuilder is xxxxxxxxx.Instance Variables	titi:		<Object>	toto:		<Object>titi	- xxxxxtoto	- xxxxx

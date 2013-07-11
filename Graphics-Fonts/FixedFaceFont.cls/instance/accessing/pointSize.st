@@ -1,1 +1,0 @@
-pointSize	^baseFont pointSize

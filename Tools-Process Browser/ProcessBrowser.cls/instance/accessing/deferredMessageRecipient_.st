@@ -1,1 +1,0 @@
-deferredMessageRecipient: anObject	deferredMessageRecipient := anObject

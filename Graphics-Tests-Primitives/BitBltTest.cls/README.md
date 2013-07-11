@@ -1,1 +1,0 @@
-A BitBltTest is xxxxxxxxx.Instance Variables

@@ -1,1 +1,0 @@
-A MCChangeSelectionRequest is xxxxxxxxx.Instance Variables	label:		<Object>	patch:		<Object>label	- xxxxxpatch	- xxxxx

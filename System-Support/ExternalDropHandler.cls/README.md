@@ -1,1 +1,0 @@
-An ExternalDropHandler is xxxxxxxxx.Instance Variables	action:		<Object>	extension:		<Object>	type:		<Object>action	- xxxxxextension	- xxxxxtype	- xxxxx

@@ -1,1 +1,0 @@
-textStyle	^ self paragraph textStyle

@@ -1,1 +1,0 @@
-setUpClassFactory	classFactory := ClassFactoryForTestCase new

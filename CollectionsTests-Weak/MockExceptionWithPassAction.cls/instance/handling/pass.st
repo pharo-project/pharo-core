@@ -1,1 +1,0 @@
-pass	^ passAction cull: self

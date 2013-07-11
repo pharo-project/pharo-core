@@ -1,1 +1,0 @@
-isInterruptedContextATest	^ (self isTestObject: self context receiver) and: [ self isTestMethod: self context method of: self context receiver ]

@@ -1,1 +1,0 @@
-centered 	textStyle centered

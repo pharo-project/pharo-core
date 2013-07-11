@@ -1,1 +1,0 @@
-An AJBaseReg is xxxxxxxxx.Instance Variables	code:		<Object>	name:		<Object>	size:		<Object>code	- xxxxxname	- xxxxxsize	- xxxxx

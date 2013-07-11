@@ -1,1 +1,0 @@
-trait	^self subject trait

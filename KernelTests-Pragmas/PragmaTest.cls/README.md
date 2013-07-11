@@ -1,1 +1,0 @@
-A PragmaTest is xxxxxxxxx.Instance Variables	anotherAtPragma:		<Object>	atPragma:		<Object>	atPutPragma:		<Object>	yetAnotherAtPragma:		<Object>anotherAtPragma	- xxxxxatPragma	- xxxxxatPutPragma	- xxxxxyetAnotherAtPragma	- xxxxx

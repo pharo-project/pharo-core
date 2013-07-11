@@ -1,1 +1,0 @@
-wasClickedWithMiddleButton	^ receivedBlueButtonDown and: [ receivedBlueButtonUp ].

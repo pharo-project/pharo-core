@@ -1,1 +1,0 @@
-smartCharactersWithSingleSpace: aString	smartCharactersWithSingleSpace := aString

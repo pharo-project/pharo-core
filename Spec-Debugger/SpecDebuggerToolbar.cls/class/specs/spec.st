@@ -1,1 +1,0 @@
-spec	<spec>		^ SpecLayout composed		newRow: [ :r | 			r				add: #resumeButton;				add: #restartButton;				add: #stepIntoButton;				add: #stepOverButton;				add: #stepThroughButton;				add: #runToSelectionButton;				add: #whereIsButton;				add: #createMethodButton ]

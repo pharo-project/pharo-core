@@ -1,1 +1,0 @@
-method: aCompiledMethod 	compiledMethod := aCompiledMethod

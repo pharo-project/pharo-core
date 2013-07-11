@@ -1,1 +1,0 @@
-A MCFileInTest is xxxxxxxxx.Instance Variables	diff:		<Object>	expected:		<Object>	stream:		<Object>diff	- xxxxxexpected	- xxxxxstream	- xxxxx

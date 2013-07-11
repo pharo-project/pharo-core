@@ -1,1 +1,0 @@
-isReturnSelf	^false

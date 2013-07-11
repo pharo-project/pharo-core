@@ -1,1 +1,0 @@
-mockPackageName	^ 'MonticelloMocks'

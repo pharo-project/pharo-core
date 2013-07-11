@@ -1,1 +1,0 @@
-defaultTestFailure	^ self classForTestResult failure

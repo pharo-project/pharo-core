@@ -1,1 +1,0 @@
-itemHeight	^ NECMenuMorph itemHeight

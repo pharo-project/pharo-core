@@ -1,1 +1,0 @@
-startOfTyping: anIntegerIndex	startOfTyping := anIntegerIndex

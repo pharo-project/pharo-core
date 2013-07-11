@@ -1,1 +1,0 @@
-isScriptDefinition	^false

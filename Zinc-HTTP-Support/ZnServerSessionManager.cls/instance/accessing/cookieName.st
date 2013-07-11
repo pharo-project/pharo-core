@@ -1,1 +1,0 @@
-cookieName	^ 'session-id'

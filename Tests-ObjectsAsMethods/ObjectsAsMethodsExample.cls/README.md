@@ -1,1 +1,0 @@
-An ObjectsAsMethodsExample is xxxxxxxxx.Instance Variables

@@ -1,1 +1,0 @@
-colorForInsets	^self paneColor colorForInsets

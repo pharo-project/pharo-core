@@ -1,1 +1,0 @@
-currentlyLoadedClassesInVersion	^self spec currentlyLoadedClassesInVersion

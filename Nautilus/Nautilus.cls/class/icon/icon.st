@@ -1,1 +1,0 @@
-icon 	^ AbstractNautilusUI icon

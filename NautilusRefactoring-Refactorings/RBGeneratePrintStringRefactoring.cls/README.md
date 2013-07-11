@@ -1,1 +1,0 @@
-A RBGeneratePrintStringRefactoring is xxxxxxxxx.Instance Variables	variables:		<Object>variables	- xxxxx

@@ -1,1 +1,0 @@
-A ZipCrcTests is xxxxxxxxx.Instance Variables

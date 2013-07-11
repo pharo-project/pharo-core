@@ -1,1 +1,0 @@
-defaultSpec	<spec>	| delta |	delta := 25.	^SpecLayout composed 			add: #configBrowserModel origin: 0@0 corner: 1@1 offsetOrigin: 0@0 offsetCorner: 0@(delta negated);			 add: #toolbarModel origin: 0@1 corner: 1@1 offsetOrigin: 0@(delta negated) offsetCorner: 0@0; 		 			yourself

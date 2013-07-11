@@ -1,1 +1,0 @@
-asTimeStamp	^ start asTimeStamp

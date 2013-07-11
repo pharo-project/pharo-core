@@ -1,1 +1,0 @@
-chooseButtonFont	self chooseStandardFont: #buttonFont

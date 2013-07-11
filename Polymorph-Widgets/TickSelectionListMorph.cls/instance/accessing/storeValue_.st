@@ -1,1 +1,0 @@
-storeValue: anObject		storeValue := anObject

@@ -1,1 +1,0 @@
-selectedMessageName	"Answer the message selector of the current context.	 If the method is unbound we can still usefully answer its old selector."	| selector |	selector := context methodSelector.	^(selector ~~ context method selector	    and: [selector beginsWith: 'DoIt'])		ifTrue: [context method selector]		ifFalse: [selector]

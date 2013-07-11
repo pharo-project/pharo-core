@@ -1,1 +1,0 @@
-hBearingY	^hBearingY

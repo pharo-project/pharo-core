@@ -1,1 +1,0 @@
-A MCClassTraitDefinition is xxxxxxxxx.Instance Variables	baseTrait:		<Object>	category:		<Object>	classTraitComposition:		<Object>baseTrait	- xxxxxcategory	- xxxxxclassTraitComposition	- xxxxx

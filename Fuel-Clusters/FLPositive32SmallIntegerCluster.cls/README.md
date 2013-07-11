@@ -1,1 +1,0 @@
-A FLPositive32SmallIntegerCluster is xxxxxxxxx.Instance Variables

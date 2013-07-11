@@ -1,1 +1,0 @@
-A TAbleToRotate is xxxxxxxxx.

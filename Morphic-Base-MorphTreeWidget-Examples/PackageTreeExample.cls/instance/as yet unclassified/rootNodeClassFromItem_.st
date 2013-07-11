@@ -1,1 +1,0 @@
-rootNodeClassFromItem: anItem	^ PackageNodeExample

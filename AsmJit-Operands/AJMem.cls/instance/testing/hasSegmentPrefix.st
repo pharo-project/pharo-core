@@ -1,1 +1,0 @@
-hasSegmentPrefix	^ segmentPrefix notNil

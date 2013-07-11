@@ -1,1 +1,0 @@
-linearVerticalAdvance	^linearVerticalAdvance

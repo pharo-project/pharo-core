@@ -1,1 +1,0 @@
-expectedFailures	^ super expectedFailures, #(testWideString)

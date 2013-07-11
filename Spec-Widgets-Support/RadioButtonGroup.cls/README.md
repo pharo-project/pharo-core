@@ -1,1 +1,0 @@
-A RadioButtonGroup is a group for radio buttons which ensure that only radio button of this group is activated at the same time.

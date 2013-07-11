@@ -1,1 +1,0 @@
-defaultFocusMorph	^ self findTextFieldMorph textMorph

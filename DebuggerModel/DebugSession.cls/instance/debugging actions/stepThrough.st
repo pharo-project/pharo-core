@@ -1,1 +1,0 @@
-stepThrough	self stepThrough: context

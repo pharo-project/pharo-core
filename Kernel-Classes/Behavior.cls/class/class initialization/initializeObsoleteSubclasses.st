@@ -1,1 +1,0 @@
-initializeObsoleteSubclasses	ObsoleteSubclasses := WeakKeyToCollectionDictionary new.

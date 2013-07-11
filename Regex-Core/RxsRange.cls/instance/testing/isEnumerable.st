@@ -1,1 +1,0 @@
-isEnumerable	^true

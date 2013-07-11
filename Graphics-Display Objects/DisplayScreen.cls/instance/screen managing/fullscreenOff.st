@@ -1,1 +1,0 @@
-fullscreenOff	self fullscreen: false

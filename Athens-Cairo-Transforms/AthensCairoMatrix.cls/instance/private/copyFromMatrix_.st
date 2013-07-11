@@ -1,1 +1,0 @@
-copyFromMatrix: m	NativeBoost memCopy: m to: self size: self class instanceSize.

@@ -1,1 +1,0 @@
-joinStyle	^ joinStyle

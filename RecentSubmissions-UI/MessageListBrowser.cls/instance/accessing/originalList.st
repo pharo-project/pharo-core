@@ -1,1 +1,0 @@
-originalList	^ self model sortedMethodReferencesList

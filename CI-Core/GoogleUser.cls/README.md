@@ -1,1 +1,0 @@
-A user entity needed by Google to ensure authentification

@@ -1,1 +1,0 @@
-status: anObject		status := anObject

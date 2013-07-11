@@ -1,1 +1,0 @@
-A DirectoryEntryTest is xxxxxxxxx.Instance Variables

@@ -1,1 +1,0 @@
-classCommented: aClass	classCommented := aClass

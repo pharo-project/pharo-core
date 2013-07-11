@@ -1,1 +1,0 @@
-address	"Shortcut"	^self localAddress

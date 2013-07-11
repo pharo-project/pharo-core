@@ -1,1 +1,0 @@
-readStream	^ self string readStream

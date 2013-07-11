@@ -1,1 +1,0 @@
-A HTTPEncodingTest is xxxxxxxxx.Instance Variables

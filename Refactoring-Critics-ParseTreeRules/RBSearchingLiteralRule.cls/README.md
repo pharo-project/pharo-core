@@ -1,1 +1,0 @@
-A RBSearchingLiteralRule is xxxxxxxxx.Instance Variables

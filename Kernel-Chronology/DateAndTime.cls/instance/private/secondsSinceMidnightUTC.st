@@ -1,1 +1,0 @@
-secondsSinceMidnightUTC	^ seconds

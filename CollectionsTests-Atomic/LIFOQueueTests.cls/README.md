@@ -1,1 +1,0 @@
-A LIFOQueueTests is xxxxxxxxx.Instance Variables

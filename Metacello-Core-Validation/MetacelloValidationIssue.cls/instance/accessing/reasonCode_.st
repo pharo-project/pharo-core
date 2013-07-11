@@ -1,1 +1,0 @@
-reasonCode: anObject	reasonCode := anObject

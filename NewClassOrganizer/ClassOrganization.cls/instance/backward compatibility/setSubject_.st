@@ -1,1 +1,0 @@
-setSubject: anObject		organizedClass := anObject

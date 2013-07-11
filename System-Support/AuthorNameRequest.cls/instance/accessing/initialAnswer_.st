@@ -1,1 +1,0 @@
-initialAnswer: anObject		initialAnswer := anObject

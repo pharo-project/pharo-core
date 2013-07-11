@@ -1,1 +1,0 @@
-isMultiKeyword	^true

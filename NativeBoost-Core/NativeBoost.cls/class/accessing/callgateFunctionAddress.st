@@ -1,1 +1,0 @@
-callgateFunctionAddress	^ self forCurrentPlatform callgateFunctionAddress

@@ -1,1 +1,0 @@
-firstClickedMorph: aNodeMorph	firstClickedMorph := aNodeMorph

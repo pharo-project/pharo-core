@@ -1,1 +1,0 @@
-keyStroke: anEvent from: aTreeView

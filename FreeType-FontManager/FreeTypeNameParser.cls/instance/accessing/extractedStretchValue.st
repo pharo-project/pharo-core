@@ -1,1 +1,0 @@
-extractedStretchValue	^extractedStretchValue

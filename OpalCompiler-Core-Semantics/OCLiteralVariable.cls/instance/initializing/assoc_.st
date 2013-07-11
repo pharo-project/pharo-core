@@ -1,1 +1,0 @@
-assoc: anAssociation	assoc := anAssociation

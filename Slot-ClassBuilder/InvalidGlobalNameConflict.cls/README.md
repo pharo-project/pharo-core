@@ -1,1 +1,0 @@
-I am an error raised by SlotClassBuilder.

@@ -1,1 +1,0 @@
-hasNoScaleOrRotation	^true

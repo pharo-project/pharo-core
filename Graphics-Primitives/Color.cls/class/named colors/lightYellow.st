@@ -1,1 +1,0 @@
-lightYellow	^LightYellow

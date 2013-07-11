@@ -1,1 +1,0 @@
-answer: anObject	answer := anObject

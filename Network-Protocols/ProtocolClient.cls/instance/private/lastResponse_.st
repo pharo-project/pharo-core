@@ -1,1 +1,0 @@
-lastResponse: aString	lastResponse := aString.

@@ -1,1 +1,0 @@
-startWidth: anInteger	currentWidth := anInteger

@@ -1,1 +1,0 @@
-desktop	^ self origin: #desktop

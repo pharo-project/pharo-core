@@ -1,1 +1,0 @@
-direction: aPoint	direction := aPoint

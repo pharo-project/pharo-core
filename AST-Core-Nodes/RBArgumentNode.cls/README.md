@@ -1,1 +1,0 @@
-I am a specific variable node for method and block arguments.

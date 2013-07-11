@@ -1,1 +1,0 @@
-activeHand	^ worldState activeHand

@@ -1,1 +1,0 @@
-store	^ self fileSystem store

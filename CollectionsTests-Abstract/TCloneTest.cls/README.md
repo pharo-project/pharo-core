@@ -1,1 +1,0 @@
-A TCloneTest is xxxxxxxxx.

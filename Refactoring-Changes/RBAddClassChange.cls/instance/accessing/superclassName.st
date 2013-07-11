@@ -1,1 +1,0 @@
-superclassName	^ superclassName

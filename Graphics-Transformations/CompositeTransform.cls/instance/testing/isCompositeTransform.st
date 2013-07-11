@@ -1,1 +1,0 @@
-isCompositeTransform	^true

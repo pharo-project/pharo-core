@@ -1,1 +1,0 @@
-forceRefreshOnNextChange	lastRefresh := 0.

@@ -1,1 +1,0 @@
-hslColor	self notAvailable

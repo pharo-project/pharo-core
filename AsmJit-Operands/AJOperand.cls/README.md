@@ -1,1 +1,0 @@
-An AJOperand is xxxxxxxxx.Instance Variables	annotation:		<Object>	compilerData:		<Object>	data:		<Object>	operandId:		<Object>	x64padding:		<Object>annotation	- xxxxxcompilerData	- xxxxxdata	- xxxxxoperandId	- xxxxxx64padding	- xxxxx

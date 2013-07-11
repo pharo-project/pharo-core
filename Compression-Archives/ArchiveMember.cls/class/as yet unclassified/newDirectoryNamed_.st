@@ -1,1 +1,0 @@
-newDirectoryNamed: aString	self subclassResponsibility

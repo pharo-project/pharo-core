@@ -1,1 +1,0 @@
-mouseDown: anEvent

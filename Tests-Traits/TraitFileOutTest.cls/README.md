@@ -1,1 +1,0 @@
-A TraitFileOutTest is xxxxxxxxx.Instance Variables	ca:		<Object>	cb:		<Object>	ta:		<Object>	tb:		<Object>	tc:		<Object>	td:		<Object>ca	- xxxxxcb	- xxxxxta	- xxxxxtb	- xxxxxtc	- xxxxxtd	- xxxxx

@@ -1,1 +1,0 @@
-A GoferReferenceTest is xxxxxxxxx.Instance Variables

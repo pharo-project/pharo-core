@@ -1,1 +1,0 @@
-A FreeTypeSubPixelAntiAliasedGlyphRenderer is xxxxxxxxx.Instance Variables

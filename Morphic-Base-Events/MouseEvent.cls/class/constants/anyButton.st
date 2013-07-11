@@ -1,1 +1,0 @@
-anyButton	^ 7

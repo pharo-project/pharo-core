@@ -1,1 +1,0 @@
-A RBSplitClassRefactoring is xxxxxxxxx.Instance Variables	class:		<Object>	instanceVariables:		<Object>	newClass:		<Object>	newClassName:		<Object>	referenceVariableName:		<Object>class	- xxxxxinstanceVariables	- xxxxxnewClass	- xxxxxnewClassName	- xxxxxreferenceVariableName	- xxxxx

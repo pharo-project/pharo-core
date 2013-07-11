@@ -1,1 +1,0 @@
-command	^ KMCommandModifier new

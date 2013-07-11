@@ -1,1 +1,0 @@
-MorphTreeNodeModel subclass: #PackageAbstractNodeExample	instanceVariableNames: 'contents'	classVariableNames: ''	poolDictionaries: ''	category: 'Morphic-Base-MorphTreeWidget-Examples'

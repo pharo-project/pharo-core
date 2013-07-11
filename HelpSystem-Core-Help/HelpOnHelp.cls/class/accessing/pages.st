@@ -1,1 +1,0 @@
-pages	^#(introduction HelpHowToHelpTopics HelpAPIDocumentation)

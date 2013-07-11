@@ -1,1 +1,0 @@
-A MetacelloAddMemberSpec is xxxxxxxxx.Instance Variables

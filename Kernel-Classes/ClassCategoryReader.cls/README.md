@@ -1,1 +1,0 @@
-I represent a mechanism for retrieving class descriptions stored on a file.

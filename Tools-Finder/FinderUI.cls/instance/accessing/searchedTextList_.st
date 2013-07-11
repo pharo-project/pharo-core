@@ -1,1 +1,0 @@
-searchedTextList: aCollection	SearchedTextList := aCollection

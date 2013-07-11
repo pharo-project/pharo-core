@@ -1,1 +1,0 @@
-A TIndexAccessForMultipliness is xxxxxxxxx.

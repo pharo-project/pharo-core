@@ -1,1 +1,0 @@
-A TRemoveByIndexTest is xxxxxxxxx.

@@ -1,1 +1,0 @@
-isMouseMove	^false

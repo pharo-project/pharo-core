@@ -1,1 +1,0 @@
-isArgument	^type == #methodArg

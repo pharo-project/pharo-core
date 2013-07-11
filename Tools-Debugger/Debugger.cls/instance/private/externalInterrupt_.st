@@ -1,1 +1,0 @@
-externalInterrupt: aBoolean	externalInterrupt := aBoolean 

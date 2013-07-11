@@ -1,1 +1,0 @@
-fileClass	^ fileClass ifNil: [StandardFileStream]

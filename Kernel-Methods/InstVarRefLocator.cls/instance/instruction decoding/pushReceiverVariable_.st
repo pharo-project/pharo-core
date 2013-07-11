@@ -1,1 +1,0 @@
-pushReceiverVariable: offset	bingo := true

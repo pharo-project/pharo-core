@@ -1,1 +1,0 @@
-A RBAssignmentInBlockRule is xxxxxxxxx.Instance Variables

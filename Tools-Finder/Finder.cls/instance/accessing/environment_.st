@@ -1,1 +1,0 @@
-environment: aCollection	 environment := aCollection

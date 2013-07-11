@@ -1,1 +1,0 @@
-isIndirectTempVector	^false

@@ -1,1 +1,0 @@
-A MCMczWriter is xxxxxxxxx.Instance Variables	infoWriter:		<Object>	zip:		<Object>infoWriter	- xxxxxzip	- xxxxx

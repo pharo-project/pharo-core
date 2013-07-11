@@ -1,1 +1,0 @@
-& aCollection	^ self intersection: aCollection

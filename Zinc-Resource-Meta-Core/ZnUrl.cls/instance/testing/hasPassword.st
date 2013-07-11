@@ -1,1 +1,0 @@
-hasPassword	^ password notNil

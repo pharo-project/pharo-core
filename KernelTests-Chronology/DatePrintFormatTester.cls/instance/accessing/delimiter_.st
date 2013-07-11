@@ -1,1 +1,0 @@
-delimiter: aCharacter 	delimiter := aCharacter.

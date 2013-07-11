@@ -1,1 +1,0 @@
-fullPath	^ self resolve path

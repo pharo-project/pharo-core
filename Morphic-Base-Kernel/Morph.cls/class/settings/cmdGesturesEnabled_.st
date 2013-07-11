@@ -1,1 +1,0 @@
-cmdGesturesEnabled: aBoolean	CmdGesturesEnabled := aBoolean

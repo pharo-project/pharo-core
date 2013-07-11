@@ -1,1 +1,0 @@
-An IRPushClosureCopy is xxxxxxxxx.Instance Variables	arguments:		<Object>	blockSequence:		<Object>	copiedValues:		<Object>	lastBlockSequence:		<Object>	numArgs:		<Object>	tempMap:		<Object>arguments	- xxxxxblockSequence	- xxxxxcopiedValues	- xxxxxlastBlockSequence	- xxxxxnumArgs	- xxxxxtempMap	- xxxxx

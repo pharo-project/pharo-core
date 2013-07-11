@@ -1,1 +1,0 @@
-A RBAbstractClassVariableTest is xxxxxxxxx.Instance Variables

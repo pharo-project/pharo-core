@@ -1,1 +1,0 @@
-A TClass is xxxxxxxxx.

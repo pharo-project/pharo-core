@@ -1,1 +1,0 @@
-testCollectionMessagesToExternalObject	self ruleFor: self currentSelector

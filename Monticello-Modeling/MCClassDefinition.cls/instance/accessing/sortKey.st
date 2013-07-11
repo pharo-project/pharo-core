@@ -1,1 +1,0 @@
-sortKey	^ self className

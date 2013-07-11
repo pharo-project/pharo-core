@@ -1,1 +1,0 @@
-wheelColor	^ Color brown darker

@@ -1,1 +1,0 @@
-selectedClassOrMetaClass	^ self selectedClass.

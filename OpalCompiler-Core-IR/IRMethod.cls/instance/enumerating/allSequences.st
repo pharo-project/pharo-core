@@ -1,1 +1,0 @@
-allSequences	^ startSequence withAllSuccessors

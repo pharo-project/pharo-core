@@ -1,1 +1,0 @@
-periods: anArray	periods := anArray

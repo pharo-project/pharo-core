@@ -1,1 +1,0 @@
-A MetacelloPackageLoadDirective is xxxxxxxxx.Instance Variables	externalReference:		<Object>	resolvedReference:		<Object>externalReference	- xxxxxresolvedReference	- xxxxx

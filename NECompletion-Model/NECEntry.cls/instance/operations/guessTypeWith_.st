@@ -1,1 +1,0 @@
-guessTypeWith: anECContext 	^ nil

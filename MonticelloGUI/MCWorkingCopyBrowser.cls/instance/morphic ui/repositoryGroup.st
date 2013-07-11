@@ -1,1 +1,0 @@
-repositoryGroup		^MCRepositoryGroup default

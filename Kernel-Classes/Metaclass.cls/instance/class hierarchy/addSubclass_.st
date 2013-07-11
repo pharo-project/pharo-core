@@ -1,1 +1,0 @@
-addSubclass: aClass	"Do nothing."

@@ -1,1 +1,0 @@
-An IRInterpreterTest is xxxxxxxxx.Instance Variables

@@ -1,1 +1,0 @@
-A RBCompositeRefactoryChange is xxxxxxxxx.Instance Variables	changes:		<Object>changes	- xxxxx

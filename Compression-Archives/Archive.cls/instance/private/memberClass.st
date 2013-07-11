@@ -1,1 +1,0 @@
-memberClass	self subclassResponsibility

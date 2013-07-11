@@ -1,1 +1,0 @@
-hierarchyButtonState	^self selectedClass isNil.

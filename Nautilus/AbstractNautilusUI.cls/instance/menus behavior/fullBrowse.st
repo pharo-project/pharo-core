@@ -1,1 +1,0 @@
-fullBrowse	^ self subclassResponsibility

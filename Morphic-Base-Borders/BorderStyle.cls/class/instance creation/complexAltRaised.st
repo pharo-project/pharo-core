@@ -1,1 +1,0 @@
-complexAltRaised	^ComplexBorder style: #complexAltRaised

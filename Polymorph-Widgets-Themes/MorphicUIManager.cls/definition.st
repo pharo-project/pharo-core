@@ -1,1 +1,0 @@
-UIManager subclass: #MorphicUIManager	uses: TEasilyThemed	instanceVariableNames: 'interactiveParser'	classVariableNames: 'UIProcess'	poolDictionaries: ''	category: 'Polymorph-Widgets-Themes'

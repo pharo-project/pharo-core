@@ -1,1 +1,0 @@
-labels: aCollection 	labels := aCollection

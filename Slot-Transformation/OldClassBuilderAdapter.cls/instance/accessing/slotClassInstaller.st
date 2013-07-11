@@ -1,1 +1,0 @@
-slotClassInstaller	^ PharoClassInstaller

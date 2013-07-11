@@ -1,1 +1,0 @@
-TestCase subclass: #ClassOrganizationTest	instanceVariableNames: 'organization'	classVariableNames: ''	poolDictionaries: ''	category: 'NewClassOrganizer'

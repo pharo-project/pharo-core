@@ -1,1 +1,0 @@
-currentMajorVersionNumber: aNumber	CurrentMajorVersionNumber := aNumber

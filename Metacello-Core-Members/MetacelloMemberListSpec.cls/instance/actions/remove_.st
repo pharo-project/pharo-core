@@ -1,1 +1,0 @@
-remove: aSpec	self subclassResponsibility

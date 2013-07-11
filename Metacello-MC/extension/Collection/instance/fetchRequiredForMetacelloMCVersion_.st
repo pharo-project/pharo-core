@@ -1,1 +1,0 @@
-fetchRequiredForMetacelloMCVersion: aMetacelloMCVersion	^aMetacelloMCVersion doFetchRequiredFromArray: self.

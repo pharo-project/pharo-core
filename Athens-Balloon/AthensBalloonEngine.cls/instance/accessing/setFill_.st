@@ -1,1 +1,0 @@
-setFill: aFill	currentFill := aFill

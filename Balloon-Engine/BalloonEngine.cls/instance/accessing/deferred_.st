@@ -1,1 +1,0 @@
-deferred: aBoolean	deferred := aBoolean.

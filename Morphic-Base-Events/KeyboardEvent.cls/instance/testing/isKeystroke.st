@@ -1,1 +1,0 @@
-isKeystroke	^self type == #keystroke

@@ -1,1 +1,0 @@
-customStyleTable	^ CustomStyleTable

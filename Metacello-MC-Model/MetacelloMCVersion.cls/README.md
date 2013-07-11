@@ -1,1 +1,0 @@
-A MetacelloMCVersion is xxxxxxxxx.Instance Variables	loaderPolicy:		<Object>loaderPolicy	- xxxxx

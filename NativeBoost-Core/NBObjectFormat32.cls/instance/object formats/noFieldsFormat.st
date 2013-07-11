@@ -1,1 +1,0 @@
-noFieldsFormat	^ 0

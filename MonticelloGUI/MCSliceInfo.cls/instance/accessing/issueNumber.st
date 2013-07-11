@@ -1,1 +1,0 @@
-issueNumber	^ issueNumber  ifNil: ['']

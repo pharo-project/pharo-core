@@ -1,1 +1,0 @@
-A RBUnoptimizedToDoRule is xxxxxxxxx.Instance Variables

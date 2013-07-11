@@ -1,1 +1,0 @@
-RBMethodRefactoring subclass: #RBMoveVariableDefinitionRefactoring	instanceVariableNames: 'selector interval name parseTree blockNodes definingNode'	classVariableNames: ''	poolDictionaries: ''	category: 'Refactoring-Core-Refactorings'

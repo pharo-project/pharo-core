@@ -1,1 +1,0 @@
-resetDisplay		self privateSetContents: initialContents.	

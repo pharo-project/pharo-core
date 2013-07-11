@@ -1,1 +1,0 @@
-lightBlue	^LightBlue

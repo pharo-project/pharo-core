@@ -1,1 +1,0 @@
-cellSpacing	"Default"	^#none

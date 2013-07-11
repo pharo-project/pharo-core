@@ -1,1 +1,0 @@
-applyFormatChange: classModification	result := self applyAndUpdateFormat: classModification.	classModification propagationsDo: [ :propagation | 		self applyAndUpdateFormat: propagation ]

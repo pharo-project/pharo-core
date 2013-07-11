@@ -1,1 +1,0 @@
-defaultRulesRootName	^ 'Selected Rules'

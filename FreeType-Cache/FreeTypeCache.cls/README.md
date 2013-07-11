@@ -1,1 +1,0 @@
-A FreeTypeCache is xxxxxxxxx.Instance Variables	fifo:		<Object>	fontTable:		<Object>	maximumSize:		<Object>	used:		<Object>fifo	- xxxxxfontTable	- xxxxxmaximumSize	- xxxxxused	- xxxxx

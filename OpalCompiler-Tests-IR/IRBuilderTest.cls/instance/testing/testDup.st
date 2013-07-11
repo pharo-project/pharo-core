@@ -1,1 +1,0 @@
-testDup	| iRMethod aCompiledMethod |	iRMethod := IRBuilder new		pushLiteral: 3;		pushDup;		send: #=;		returnTop;		ir.	aCompiledMethod := iRMethod compiledMethod.	self assert: (aCompiledMethod isKindOf: CompiledMethod).  	self assert: (aCompiledMethod valueWithReceiver: nil arguments: #() ).	^iRMethod	

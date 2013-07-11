@@ -1,1 +1,0 @@
-I'm a cache of values, given a key I return a Value from the cache or from the factory

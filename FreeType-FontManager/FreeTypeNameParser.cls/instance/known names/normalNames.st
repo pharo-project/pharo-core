@@ -1,1 +1,0 @@
-normalNames	^self class normalNames

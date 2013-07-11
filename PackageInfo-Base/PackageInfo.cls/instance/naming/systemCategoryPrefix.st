@@ -1,1 +1,0 @@
-systemCategoryPrefix	^ self packageName

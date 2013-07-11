@@ -1,1 +1,0 @@
-category: aByteSymbol 		category := aByteSymbol

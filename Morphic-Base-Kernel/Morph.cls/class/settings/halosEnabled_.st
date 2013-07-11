@@ -1,1 +1,0 @@
-halosEnabled: aBoolean	HalosEnabled := aBoolean

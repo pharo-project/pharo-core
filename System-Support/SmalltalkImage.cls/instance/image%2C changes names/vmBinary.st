@@ -1,1 +1,0 @@
-vmBinary	^ self vm binary

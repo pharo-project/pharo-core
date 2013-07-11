@@ -1,1 +1,0 @@
-tearDown	LongTestCase shouldRun: longTestCaseSettingValue

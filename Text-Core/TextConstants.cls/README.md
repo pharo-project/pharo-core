@@ -1,1 +1,0 @@
-A TextConstants is xxxxxxxxx.Instance Variables

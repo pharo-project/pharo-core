@@ -1,1 +1,0 @@
-A BooleanApiSetter is xxxxxxxxx.Instance Variables

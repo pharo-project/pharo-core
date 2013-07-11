@@ -1,1 +1,0 @@
-takeKeyboardFocus	self listSource takeKeyboardFocus

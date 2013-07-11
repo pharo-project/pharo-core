@@ -1,1 +1,0 @@
-setUp	super setUp.	model := Smalltalk evaluate: self abstractVariableTestData.

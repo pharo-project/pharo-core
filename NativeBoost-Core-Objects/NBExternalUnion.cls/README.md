@@ -1,1 +1,0 @@
-A NBExternalUnion is xxxxxxxxx.Instance Variables

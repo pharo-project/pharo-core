@@ -1,1 +1,0 @@
-recategorize: aClass to: newCategory	| oldCategory |		oldCategory := aClass category.	oldCategory == newCategory  		ifTrue: [ ^ self ].			environment organization 		classify: aClass name 		under: newCategory.			self systemAnnouncer 		class: aClass 		recategorizedFrom: oldCategory 		to: newCategory

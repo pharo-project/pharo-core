@@ -1,1 +1,0 @@
-A TCopyPreservingIdentityTest is xxxxxxxxx.

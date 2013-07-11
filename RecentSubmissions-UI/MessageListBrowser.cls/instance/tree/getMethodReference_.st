@@ -1,1 +1,0 @@
-getMethodReference: aMessageListInspectableNode	^aMessageListInspectableNode item.

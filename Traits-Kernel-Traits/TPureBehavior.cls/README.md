@@ -1,1 +1,0 @@
-A TPureBehavior is xxxxxxxxx.

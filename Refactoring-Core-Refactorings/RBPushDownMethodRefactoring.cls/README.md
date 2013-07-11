@@ -1,1 +1,0 @@
-A RBPushDownMethodRefactoring is xxxxxxxxx.Instance Variables	selectors:		<Object>selectors	- xxxxx

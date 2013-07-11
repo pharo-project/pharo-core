@@ -1,1 +1,0 @@
-lineCount	^ string lineCount

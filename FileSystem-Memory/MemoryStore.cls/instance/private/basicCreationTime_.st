@@ -1,1 +1,0 @@
-basicCreationTime: aMemoryFileSystemEntry	^ aMemoryFileSystemEntry creationTime

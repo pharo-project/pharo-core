@@ -1,1 +1,0 @@
-A GoferMerge is xxxxxxxxx.Instance Variables

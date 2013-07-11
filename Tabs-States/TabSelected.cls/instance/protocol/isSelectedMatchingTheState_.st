@@ -1,1 +1,0 @@
-isSelectedMatchingTheState: aBoolean	^ aBoolean

@@ -1,1 +1,0 @@
-createBlockFor: aRBBlockNode 	| source |	self replacePatternNodesIn: aRBBlockNode.	source := aRBBlockNode formattedCode.	^Smalltalk compiler 		evaluate: source		for: self		logged: false

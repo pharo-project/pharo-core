@@ -1,1 +1,0 @@
-pathName: aPathName 	pathName := aPathName  

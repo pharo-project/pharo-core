@@ -1,1 +1,0 @@
-A NautilusPackageSelected is raised when a package is selected

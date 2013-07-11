@@ -1,1 +1,0 @@
-startOn: anInitialTarget	initialTarget := anInitialTarget.

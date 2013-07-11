@@ -1,1 +1,0 @@
-resetSelection	self criticsModel resetSelection

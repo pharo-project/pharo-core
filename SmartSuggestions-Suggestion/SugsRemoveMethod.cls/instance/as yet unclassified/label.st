@@ -1,1 +1,0 @@
-label	^'Remove method' translated

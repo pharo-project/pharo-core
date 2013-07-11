@@ -1,1 +1,0 @@
-A MetacelloCleanLoadAndTestsNotification is xxxxxxxxx.Instance Variables

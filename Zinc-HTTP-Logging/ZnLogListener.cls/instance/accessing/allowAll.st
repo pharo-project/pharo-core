@@ -1,1 +1,0 @@
-allowAll	self filter: nil

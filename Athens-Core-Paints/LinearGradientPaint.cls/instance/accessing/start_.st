@@ -1,1 +1,0 @@
-start: anObject		start := anObject

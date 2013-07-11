@@ -1,1 +1,0 @@
-shouldInheritSelectors	^true

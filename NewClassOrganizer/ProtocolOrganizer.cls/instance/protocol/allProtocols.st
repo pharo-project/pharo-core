@@ -1,1 +1,0 @@
-allProtocols	^ { allProtocol }, protocols asArray

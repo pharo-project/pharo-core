@@ -1,1 +1,0 @@
-workingCopyTreeLabel: aWrapper	^ aWrapper asString

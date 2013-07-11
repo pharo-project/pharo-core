@@ -1,1 +1,0 @@
-borderWidth	^self borderStyle width

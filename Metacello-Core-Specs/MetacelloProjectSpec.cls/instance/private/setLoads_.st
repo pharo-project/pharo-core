@@ -1,1 +1,0 @@
-setLoads: aCollection	loads := aCollection

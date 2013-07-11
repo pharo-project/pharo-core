@@ -1,1 +1,0 @@
-SimplestPaginatedClassListExample subclass: #SimplestClassListWithChunkExample	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Morphic-Base-MorphTreeWidget-Examples'

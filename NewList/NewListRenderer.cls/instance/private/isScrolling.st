@@ -1,1 +1,0 @@
-isScrolling	^ self isStepping

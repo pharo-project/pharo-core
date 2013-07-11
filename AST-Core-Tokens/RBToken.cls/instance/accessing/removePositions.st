@@ -1,1 +1,0 @@
-removePositions	sourcePointer := nil

@@ -1,1 +1,0 @@
-isoCountry	^self localeID isoCountry

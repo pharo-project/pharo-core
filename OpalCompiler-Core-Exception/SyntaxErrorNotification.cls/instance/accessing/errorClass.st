@@ -1,1 +1,0 @@
-errorClass	^inClass

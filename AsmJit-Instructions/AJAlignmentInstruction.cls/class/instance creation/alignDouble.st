@@ -1,1 +1,0 @@
-alignDouble	^ self new alignDouble

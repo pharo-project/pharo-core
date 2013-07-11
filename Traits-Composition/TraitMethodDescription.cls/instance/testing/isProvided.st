@@ -1,1 +1,0 @@
-isProvided	^ self providedMethod notNil

@@ -1,1 +1,0 @@
-A NBExternalEnumerationType is xxxxxxxxx.Instance Variables	objectClass:		<Object>	representationType:		<Object>objectClass	- xxxxxrepresentationType	- xxxxx

@@ -1,1 +1,0 @@
-digestSize	^ hash hashSize

@@ -1,1 +1,0 @@
-I am a propagation to subclasses of a modification in a class.

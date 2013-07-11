@@ -1,1 +1,0 @@
-I'm a class related to the computation of characters counting for text flow.

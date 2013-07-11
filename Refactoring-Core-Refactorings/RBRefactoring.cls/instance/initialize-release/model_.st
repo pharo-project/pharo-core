@@ -1,1 +1,0 @@
-model: aRBNamespace 	model := aRBNamespace

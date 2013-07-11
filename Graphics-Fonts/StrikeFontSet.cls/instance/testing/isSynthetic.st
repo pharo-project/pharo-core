@@ -1,1 +1,0 @@
-isSynthetic	^ fontArray first isSynthetic

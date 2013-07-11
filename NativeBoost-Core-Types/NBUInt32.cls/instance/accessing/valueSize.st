@@ -1,1 +1,0 @@
-valueSize	^ 4

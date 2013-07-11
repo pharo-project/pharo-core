@@ -1,1 +1,0 @@
-selectionChanged	self changed

@@ -1,1 +1,0 @@
-pointSize: anInteger 	pointSize := anInteger

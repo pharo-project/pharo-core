@@ -1,1 +1,0 @@
-save: aValue	self host tempNamed: self tempName put: aValue

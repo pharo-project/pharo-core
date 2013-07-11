@@ -1,1 +1,0 @@
-ascent	^baseFont ascent

@@ -1,1 +1,0 @@
-An IRPrinterTest is xxxxxxxxx.Instance Variables

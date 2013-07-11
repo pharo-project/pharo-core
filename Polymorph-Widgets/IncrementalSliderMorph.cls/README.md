@@ -1,1 +1,0 @@
-An IncrementalSliderMorph is xxxxxxxxx.Instance Variables	getEnabledSelector:		<Object>	getValueSelector:		<Object>	setValueSelector:		<Object>	sliderMorph:		<Object>getEnabledSelector	- xxxxxgetValueSelector	- xxxxxsetValueSelector	- xxxxxsliderMorph	- xxxxx

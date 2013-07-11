@@ -1,1 +1,0 @@
-iterationsBeforeTimeout: anInteger	iterationsBeforeTimeout := anInteger

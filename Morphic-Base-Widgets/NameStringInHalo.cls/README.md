@@ -1,1 +1,0 @@
-Shows the name of the morph in the halo. 

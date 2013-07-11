@@ -1,1 +1,0 @@
-wantsHaloFromClick	^ false

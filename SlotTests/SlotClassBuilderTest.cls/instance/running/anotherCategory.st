@@ -1,1 +1,0 @@
-anotherCategory	^ 'SlotTestTmp-Another'

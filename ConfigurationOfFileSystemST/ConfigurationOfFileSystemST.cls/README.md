@@ -1,1 +1,0 @@
-A ConfigurationOfFileSystemST is xxxxxxxxx.Instance Variables	project:		<Object>project	- xxxxx

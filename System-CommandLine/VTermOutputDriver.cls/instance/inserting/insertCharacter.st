@@ -1,1 +1,0 @@
-insertCharacter	self termcap:  'ic'

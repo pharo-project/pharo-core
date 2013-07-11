@@ -1,1 +1,0 @@
-sourcesSuffix	^ 'sources'

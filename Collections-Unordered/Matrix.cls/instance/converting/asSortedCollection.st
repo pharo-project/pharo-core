@@ -1,1 +1,0 @@
-asSortedCollection	^contents asSortedCollection

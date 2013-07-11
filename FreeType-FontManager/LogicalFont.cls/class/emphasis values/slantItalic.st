@@ -1,1 +1,0 @@
-slantItalic	^1

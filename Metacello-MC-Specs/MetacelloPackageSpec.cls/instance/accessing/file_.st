@@ -1,1 +1,0 @@
-file: aString	file := aString

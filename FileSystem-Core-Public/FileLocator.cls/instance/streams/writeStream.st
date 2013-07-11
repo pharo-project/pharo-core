@@ -1,1 +1,0 @@
-writeStream	^ self resolve writeStream 

@@ -1,1 +1,0 @@
-A ZipEncoder is xxxxxxxxx.Instance Variables	bitBuffer:		<Object>	bitPosition:		<Object>	encodedStream:		<Object>bitBuffer	- xxxxxbitPosition	- xxxxxencodedStream	- xxxxx

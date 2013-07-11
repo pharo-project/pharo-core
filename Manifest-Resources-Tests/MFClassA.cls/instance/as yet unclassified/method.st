@@ -1,1 +1,0 @@
-method	|foo|	self halt.

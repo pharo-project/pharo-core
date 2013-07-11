@@ -1,1 +1,0 @@
-ComposableModel subclass: #IssueCreator	instanceVariableNames: 'description issue title type'	classVariableNames: ''	poolDictionaries: ''	category: 'CI-Core-SliceSubmitter'

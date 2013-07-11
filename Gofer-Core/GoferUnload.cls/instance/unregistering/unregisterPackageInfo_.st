@@ -1,1 +1,0 @@
-unregisterPackageInfo: aWorkingCopy	PackageOrganizer default		unregisterPackageNamed: aWorkingCopy packageName

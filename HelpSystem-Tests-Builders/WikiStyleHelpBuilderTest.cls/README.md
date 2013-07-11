@@ -1,1 +1,0 @@
-A WikiStyleHelpBuilderTest is xxxxxxxxx.Instance Variables	builder:		<Object>builder	- xxxxx

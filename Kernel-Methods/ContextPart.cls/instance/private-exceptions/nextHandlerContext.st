@@ -1,1 +1,0 @@
-nextHandlerContext	^ self sender findNextHandlerContextStarting

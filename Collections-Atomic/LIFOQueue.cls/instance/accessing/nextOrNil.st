@@ -1,1 +1,0 @@
-nextOrNil	^ self nextIfNone: [ nil ]

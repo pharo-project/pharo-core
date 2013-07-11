@@ -1,1 +1,0 @@
-localDefinition	^ self baseDefinition

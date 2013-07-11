@@ -1,1 +1,0 @@
-findReplaceService	^ FindReplaceService default

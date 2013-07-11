@@ -1,1 +1,0 @@
-installConfiguration	self owner installConfiguration 

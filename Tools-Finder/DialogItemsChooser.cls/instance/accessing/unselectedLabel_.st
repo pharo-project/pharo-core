@@ -1,1 +1,0 @@
-unselectedLabel: anObject	unselectedLabel := anObject

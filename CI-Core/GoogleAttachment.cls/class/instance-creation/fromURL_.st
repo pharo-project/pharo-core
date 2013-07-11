@@ -1,1 +1,0 @@
-fromURL: anURLString	^ self basicNew		initializeWith: anURLString;		yourself

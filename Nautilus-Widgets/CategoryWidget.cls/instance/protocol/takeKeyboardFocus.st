@@ -1,1 +1,0 @@
-takeKeyboardFocus	categoriesList takeKeyboardFocus

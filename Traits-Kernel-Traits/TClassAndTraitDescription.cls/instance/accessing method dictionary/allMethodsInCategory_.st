@@ -1,1 +1,0 @@
-allMethodsInCategory: aName 	self explicitRequirement.

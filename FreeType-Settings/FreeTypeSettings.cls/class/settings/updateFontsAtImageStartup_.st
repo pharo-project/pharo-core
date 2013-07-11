@@ -1,1 +1,0 @@
-updateFontsAtImageStartup: aBoolean	UpdateFontsAtImageStartup := aBoolean

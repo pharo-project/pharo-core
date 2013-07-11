@@ -1,1 +1,0 @@
-styleNameExtracted	^styleNameExtracted

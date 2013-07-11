@@ -1,1 +1,0 @@
-reset	soleInstance := self new.

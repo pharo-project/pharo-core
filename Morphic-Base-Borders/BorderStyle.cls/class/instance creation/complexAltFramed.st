@@ -1,1 +1,0 @@
-complexAltFramed	^ComplexBorder style: #complexAltFramed

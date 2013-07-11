@@ -1,1 +1,0 @@
-An ObjectTest is xxxxxxxxx.Instance Variables

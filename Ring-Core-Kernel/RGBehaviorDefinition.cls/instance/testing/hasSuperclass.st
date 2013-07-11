@@ -1,1 +1,0 @@
-hasSuperclass	^superclass notNil

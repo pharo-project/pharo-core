@@ -1,1 +1,0 @@
-periods	^ periods

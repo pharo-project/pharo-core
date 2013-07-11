@@ -1,1 +1,0 @@
-setPostLoadDoIt: aSymbol	postLoadDoIt := aSymbol

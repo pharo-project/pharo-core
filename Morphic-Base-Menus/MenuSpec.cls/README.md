@@ -1,1 +1,0 @@
-A MenuSpec is xxxxxxxxx.Instance Variables	help:		<Object>	name:		<Object>help	- xxxxxname	- xxxxx

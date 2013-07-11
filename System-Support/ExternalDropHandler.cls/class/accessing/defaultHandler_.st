@@ -1,1 +1,0 @@
-defaultHandler: externalDropHandler	DefaultHandler := externalDropHandler

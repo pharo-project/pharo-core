@@ -1,1 +1,0 @@
-canvas	^ worldState canvas

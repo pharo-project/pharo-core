@@ -1,1 +1,0 @@
-spacingBetweenChilds	^ 10

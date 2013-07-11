@@ -1,1 +1,0 @@
-A TextAnchorTest is xxxxxxxxx.Instance Variables

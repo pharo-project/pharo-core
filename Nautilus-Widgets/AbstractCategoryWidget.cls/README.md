@@ -1,1 +1,0 @@
-AbstractCategoryWidget is an abstraction describing a widget used to manage categories

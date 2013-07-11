@@ -1,1 +1,0 @@
-itemsCount	^context model entryCount

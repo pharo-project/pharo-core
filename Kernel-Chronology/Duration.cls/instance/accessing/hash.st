@@ -1,1 +1,0 @@
-hash	^seconds bitXor: nanos 

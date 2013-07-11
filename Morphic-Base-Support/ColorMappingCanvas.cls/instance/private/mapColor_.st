@@ -1,1 +1,0 @@
-mapColor: aColor	^aColor

@@ -1,1 +1,0 @@
-colorBurn	self notAvailable

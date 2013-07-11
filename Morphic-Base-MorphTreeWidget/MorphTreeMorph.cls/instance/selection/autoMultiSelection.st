@@ -1,1 +1,0 @@
-autoMultiSelection	^ self listManager autoMultiSelection

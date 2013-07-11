@@ -1,1 +1,0 @@
-A ClassCommentReader is xxxxxxxxx.Instance Variables

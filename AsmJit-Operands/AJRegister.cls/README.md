@@ -1,1 +1,0 @@
-An AJRegister is xxxxxxxxx.Instance Variables

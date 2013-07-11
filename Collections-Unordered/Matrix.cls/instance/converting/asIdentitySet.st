@@ -1,1 +1,0 @@
-asIdentitySet	^contents asIdentitySet

@@ -1,1 +1,0 @@
-normalLabel	^ normalLabel

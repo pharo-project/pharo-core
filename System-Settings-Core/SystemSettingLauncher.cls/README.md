@@ -1,1 +1,0 @@
-A SystemSettingLauncher is xxxxxxxxx.Instance Variables	script:		<Object>script	- xxxxx

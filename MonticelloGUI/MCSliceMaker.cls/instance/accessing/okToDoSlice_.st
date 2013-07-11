@@ -1,1 +1,0 @@
-okToDoSlice: aBoolean	okToDoSlice := aBoolean

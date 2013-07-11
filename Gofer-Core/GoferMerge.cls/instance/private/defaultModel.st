@@ -1,1 +1,0 @@
-defaultModel	^ MCVersionMerger new

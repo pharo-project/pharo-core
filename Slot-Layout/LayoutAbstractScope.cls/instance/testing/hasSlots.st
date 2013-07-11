@@ -1,1 +1,0 @@
-hasSlots	self subclassResponsibility

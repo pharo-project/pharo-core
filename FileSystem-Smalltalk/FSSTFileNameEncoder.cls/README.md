@@ -1,1 +1,0 @@
-A FSSTFileNameEncoder is xxxxxxxxx.Instance Variables

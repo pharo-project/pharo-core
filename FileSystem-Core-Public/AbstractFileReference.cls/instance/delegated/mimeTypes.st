@@ -1,1 +1,0 @@
-mimeTypes	^ self resolve mimeTypes

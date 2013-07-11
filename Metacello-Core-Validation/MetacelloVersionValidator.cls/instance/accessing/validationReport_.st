@@ -1,1 +1,0 @@
-validationReport: anObject	validationReport := anObject

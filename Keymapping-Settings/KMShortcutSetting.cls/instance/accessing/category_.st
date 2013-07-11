@@ -1,1 +1,0 @@
-category: aCategory	category := aCategory

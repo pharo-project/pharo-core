@@ -1,1 +1,0 @@
-slantKursiv	^1

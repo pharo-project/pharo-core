@@ -1,1 +1,0 @@
-name	^ 'Instance variable capitalization'

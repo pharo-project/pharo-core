@@ -1,1 +1,0 @@
-A ParserNotification is xxxxxxxxx.Instance Variables	name:		<Object>name	- xxxxx

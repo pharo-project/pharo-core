@@ -1,1 +1,0 @@
-contextChanged	self triggerEvent: #contextChanged

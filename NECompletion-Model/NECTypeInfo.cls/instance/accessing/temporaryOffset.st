@@ -1,1 +1,0 @@
-temporaryOffset	^temporaryOffset

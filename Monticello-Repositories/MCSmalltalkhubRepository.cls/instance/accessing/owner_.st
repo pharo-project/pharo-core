@@ -1,1 +1,0 @@
-owner: aString		owner := aString

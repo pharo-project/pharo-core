@@ -1,1 +1,0 @@
-Trait named: #TPureBehavior	uses: {}	category: 'Traits-Kernel-Traits'

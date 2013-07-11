@@ -1,1 +1,0 @@
-rectangle: aValue	rectangle := aValue.

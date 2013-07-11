@@ -1,1 +1,0 @@
-chooseDefaultFont	self chooseStandardFont: #defaultFont

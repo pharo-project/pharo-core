@@ -1,1 +1,0 @@
-nonce: anObject	nonce := anObject

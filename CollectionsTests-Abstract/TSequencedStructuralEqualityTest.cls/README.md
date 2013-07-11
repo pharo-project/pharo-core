@@ -1,1 +1,0 @@
-A TSequencedStructuralEqualityTest is xxxxxxxxx.

@@ -1,1 +1,0 @@
-initializeInstance: anInstance	self subclassResponsibility

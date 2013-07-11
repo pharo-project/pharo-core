@@ -1,1 +1,0 @@
-checkWidth	^ 10

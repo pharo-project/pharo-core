@@ -1,1 +1,0 @@
-NBNativeCodeGen subclass: #NBFFICallout	instanceVariableNames: 'fnSpec requestor methodArgs coercionMayFail callInfo'	classVariableNames: 'CustomErrorCodes CustomErrorMessages TypeAliases'	poolDictionaries: ''	category: 'NativeBoost-Core-FFI'

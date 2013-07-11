@@ -1,1 +1,0 @@
-bufferFreeSize	^ self bufferSize - position

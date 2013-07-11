@@ -1,1 +1,0 @@
-subType	^self mimeType sub

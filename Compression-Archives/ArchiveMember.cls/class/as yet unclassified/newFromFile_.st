@@ -1,1 +1,0 @@
-newFromFile: aFileName	self subclassResponsibility

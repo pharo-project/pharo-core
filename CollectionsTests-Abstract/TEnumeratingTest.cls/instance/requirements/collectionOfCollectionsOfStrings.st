@@ -1,1 +1,0 @@
-collectionOfCollectionsOfStrings	^self explicitRequirement.

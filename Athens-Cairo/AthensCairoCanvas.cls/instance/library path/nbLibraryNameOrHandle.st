@@ -1,1 +1,0 @@
-nbLibraryNameOrHandle	^ self class nbLibraryNameOrHandle

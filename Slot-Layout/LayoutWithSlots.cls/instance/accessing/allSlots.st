@@ -1,1 +1,0 @@
-allSlots	^ slotScope flatten

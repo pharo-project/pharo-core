@@ -1,1 +1,0 @@
-isIdentifier	^false

@@ -1,1 +1,0 @@
-A RBVariableTypeTest is xxxxxxxxx.Instance Variables

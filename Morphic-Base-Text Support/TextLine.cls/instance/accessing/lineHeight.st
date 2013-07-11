@@ -1,1 +1,0 @@
-lineHeight	^ bottom - top

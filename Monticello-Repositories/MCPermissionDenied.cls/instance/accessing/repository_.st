@@ -1,1 +1,0 @@
-repository: anObject	repository := anObject

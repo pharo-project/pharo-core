@@ -1,1 +1,0 @@
-documents	^ self home / 'Documents'

@@ -1,1 +1,0 @@
-methodsSelection	^ methodWidget methodsSelection

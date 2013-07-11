@@ -1,1 +1,0 @@
-sendersButtonLabel	^'Senders'

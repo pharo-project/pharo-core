@@ -1,1 +1,0 @@
-A RBMoveMethodTest is xxxxxxxxx.Instance Variables

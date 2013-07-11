@@ -1,1 +1,0 @@
-A TBeginsEndsWith is xxxxxxxxx.

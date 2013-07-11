@@ -1,1 +1,0 @@
-stretchExtraExpanded	^8

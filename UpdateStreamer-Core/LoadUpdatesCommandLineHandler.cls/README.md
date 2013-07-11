@@ -1,1 +1,0 @@
-Usage: update [ --from-file=<updateFile> ]	--from-file    Use a local <updateFile> instead of updates.pharo.org	<updateFile>   An update file containing a list of .cs files	Documentation:	The update the image to the latest version.Usage:	pharo Pharo.image update

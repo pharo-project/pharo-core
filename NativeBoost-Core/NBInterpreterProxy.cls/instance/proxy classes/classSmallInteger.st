@@ -1,1 +1,0 @@
-classSmallInteger		^ self simpleCall

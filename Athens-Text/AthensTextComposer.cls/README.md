@@ -1,1 +1,0 @@
-An AthensTextComposer is xxxxxxxxx.Instance Variables	lines:		<Object>	text:		<Object>lines	- xxxxxtext	- xxxxx

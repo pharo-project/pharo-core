@@ -1,1 +1,0 @@
-readStream: aReadStream	readStream := aReadStream

@@ -1,1 +1,0 @@
-removeSubclass: aClass	"Do nothing."

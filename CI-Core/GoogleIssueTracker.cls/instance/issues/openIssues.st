@@ -1,1 +1,0 @@
-openIssues		^ self issuesWithParams: 'can=open'.

@@ -1,1 +1,0 @@
-mimeStream: anObject	mimeStream := anObject

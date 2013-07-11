@@ -1,1 +1,0 @@
-An IRSequence is xxxxxxxxx.Instance Variables	method:		<Object>	orderNumber:		<Object>	sequence:		<Object>method	- xxxxxorderNumber	- xxxxxsequence	- xxxxx

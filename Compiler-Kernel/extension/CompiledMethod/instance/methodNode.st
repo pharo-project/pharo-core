@@ -1,1 +1,0 @@
-methodNode	"Return the parse tree that represents self"	| aClass source |	aClass := self methodClass.	source := self sourceCode.	^(aClass compiler		parse: source class: aClass)			sourceText: source;			yourself

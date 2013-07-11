@@ -1,1 +1,0 @@
-A FLNotSerializableMock is xxxxxxxxx.Instance Variables

@@ -1,1 +1,0 @@
-An AnnouncementSetTest is xxxxxxxxx.Instance Variables

@@ -1,1 +1,0 @@
-showComment	^ self model showComment

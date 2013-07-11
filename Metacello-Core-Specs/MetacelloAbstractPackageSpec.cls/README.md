@@ -1,1 +1,0 @@
-A MetacelloAbstractPackageSpec is xxxxxxxxx.Instance Variables	answers:		<Object>	includes:		<Object>	name:		<Object>	requires:		<Object>answers	- xxxxxincludes	- xxxxxname	- xxxxxrequires	- xxxxx

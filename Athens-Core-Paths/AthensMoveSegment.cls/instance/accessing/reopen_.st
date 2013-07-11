@@ -1,1 +1,0 @@
-reopen: aBoolean	closed := aBoolean

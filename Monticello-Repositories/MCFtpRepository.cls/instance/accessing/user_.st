@@ -1,1 +1,0 @@
-user: userString	user := userString

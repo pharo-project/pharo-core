@@ -1,1 +1,0 @@
-A TextPrintIt is xxxxxxxxx.Instance Variables

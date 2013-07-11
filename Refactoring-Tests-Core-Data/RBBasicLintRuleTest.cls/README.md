@@ -1,1 +1,0 @@
-A RBBasicLintRuleTest is xxxxxxxxx.Instance Variables	classBlock:		<Object>	methodBlock:		<Object>	result:		<Object>classBlock	- xxxxxmethodBlock	- xxxxxresult	- xxxxx

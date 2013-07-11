@@ -1,1 +1,0 @@
-browsedEnvironment	^ self model browsedEnvironment

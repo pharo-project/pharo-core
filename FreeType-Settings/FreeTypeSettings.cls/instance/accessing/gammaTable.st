@@ -1,1 +1,0 @@
-gammaTable	^gammaTable

@@ -1,1 +1,0 @@
-valueWithArguments: aSequenceOfArguments	^self

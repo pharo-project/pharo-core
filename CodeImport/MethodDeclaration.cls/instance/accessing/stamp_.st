@@ -1,1 +1,0 @@
-stamp: aMethodStamp	stamp := aMethodStamp

@@ -1,1 +1,0 @@
-equalNotIdenticalElement	^ self element copy

@@ -1,1 +1,0 @@
-text: aText 	text := aText

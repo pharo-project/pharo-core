@@ -1,1 +1,0 @@
-numberOfSubscriptions	^ registry numberOfSubscriptions

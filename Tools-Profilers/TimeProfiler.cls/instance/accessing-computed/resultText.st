@@ -1,1 +1,0 @@
-resultText	^ result printString

@@ -1,1 +1,0 @@
-controller: aController 	controller := aController

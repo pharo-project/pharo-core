@@ -1,1 +1,0 @@
-responseIsError	^self lastResponse beginsWith: '-'

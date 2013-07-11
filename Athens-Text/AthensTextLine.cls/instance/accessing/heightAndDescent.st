@@ -1,1 +1,0 @@
-heightAndDescent	^ height + maxDescent

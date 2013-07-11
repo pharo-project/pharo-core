@@ -1,1 +1,0 @@
-epoch	^ DateAndTime dosEpoch.

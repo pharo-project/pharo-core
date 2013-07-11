@@ -1,1 +1,0 @@
-shutDown		self reset.

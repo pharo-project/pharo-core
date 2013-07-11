@@ -1,1 +1,0 @@
-reshapeTo: aModification	^ self class buildFrom: aModification layout scope: LayoutEmptyScope instance host: self host

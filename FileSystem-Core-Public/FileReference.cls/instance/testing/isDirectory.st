@@ -1,1 +1,0 @@
-isDirectory	^ filesystem isDirectory: path

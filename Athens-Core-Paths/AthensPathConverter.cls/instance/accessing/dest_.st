@@ -1,1 +1,0 @@
-dest: anObject	dest := anObject

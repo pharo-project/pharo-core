@@ -1,1 +1,0 @@
-ComposableModel subclass: #MorphEmbedder	instanceVariableNames: 'morph container title'	classVariableNames: ''	poolDictionaries: ''	category: 'CI-Core-SliceSubmitter'

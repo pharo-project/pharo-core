@@ -1,1 +1,0 @@
-A RBAbstractCondition is xxxxxxxxx.Instance Variables	errorMacro:		<Object>errorMacro	- xxxxx

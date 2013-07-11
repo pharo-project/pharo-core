@@ -1,1 +1,0 @@
-GoogleIssueComment subclass: #GoogleIssueDescription	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'CI-Core'

@@ -1,1 +1,0 @@
-A HDChangeReport is xxxxxxxxx.Instance Variables	gofer:		<Object>gofer	- xxxxx

@@ -1,1 +1,0 @@
-A RBRegexRefactoring is xxxxxxxxx.Instance Variables	matchers:		<Object>matchers	- xxxxx

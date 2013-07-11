@@ -1,1 +1,0 @@
-A RBAddTraitChange is xxxxxxxxx.Instance Variables	category:		<Object>category	- xxxxx

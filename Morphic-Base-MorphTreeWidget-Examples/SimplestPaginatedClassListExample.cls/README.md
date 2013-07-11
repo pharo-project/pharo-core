@@ -1,1 +1,0 @@
-A SimplestPaginatedClassListExample is xxxxxxxxx.Instance Variables	rootClass:		<Object>rootClass	- xxxxx

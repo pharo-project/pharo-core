@@ -1,1 +1,0 @@
-slantOblique	^2

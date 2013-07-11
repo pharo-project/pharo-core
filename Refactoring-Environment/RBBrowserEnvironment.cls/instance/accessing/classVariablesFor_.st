@@ -1,1 +1,0 @@
-classVariablesFor: aClass 	^aClass classVarNames

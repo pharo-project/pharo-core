@@ -1,1 +1,0 @@
-buildMethodsList	^ self subclassResponsibility

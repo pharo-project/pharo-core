@@ -1,1 +1,0 @@
-argumentLoader: anObject	argumentLoader := anObject

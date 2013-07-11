@@ -1,1 +1,0 @@
-isInstanceScope	^ false

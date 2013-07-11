@@ -1,1 +1,0 @@
-tempNames	^ encoder tempNames

@@ -1,1 +1,0 @@
-findString	^ self state findString

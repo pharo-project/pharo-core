@@ -1,1 +1,0 @@
-type: mimeType	type := mimeType

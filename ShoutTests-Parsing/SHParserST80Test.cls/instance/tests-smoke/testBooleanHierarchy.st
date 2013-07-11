@@ -1,1 +1,0 @@
-testBooleanHierarchy	self verifyHierarchy: Boolean

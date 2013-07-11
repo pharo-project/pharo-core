@@ -1,1 +1,0 @@
-An AthensPangoLayout is xxxxxxxxx.Instance Variables

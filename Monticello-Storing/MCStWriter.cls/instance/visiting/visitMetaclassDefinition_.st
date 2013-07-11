@@ -1,1 +1,0 @@
-visitMetaclassDefinition: definition	self writeMetaclassDefinition: definition

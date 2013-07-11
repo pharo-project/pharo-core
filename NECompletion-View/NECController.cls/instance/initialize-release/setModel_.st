@@ -1,1 +1,0 @@
-setModel: aStringHolder 	model := aStringHolder

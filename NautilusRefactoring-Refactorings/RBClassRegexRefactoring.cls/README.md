@@ -1,1 +1,0 @@
-A RBClassRegexRefactoring is xxxxxxxxx.Instance Variables	mode:		<Object>	rootClass:		<Object>mode	- xxxxxrootClass	- xxxxx

@@ -1,1 +1,0 @@
-mouseFocus: aMorphOrNil	mouseFocus := aMorphOrNil

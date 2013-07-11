@@ -1,1 +1,0 @@
-sourceFileSuffixes	^#('st' 'cs')

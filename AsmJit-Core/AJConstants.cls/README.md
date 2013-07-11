@@ -1,1 +1,0 @@
-An AJConstants is xxxxxxxxx.Instance Variables

@@ -1,1 +1,0 @@
-asFullRingDefinition	^ self theNonMetaClass asFullRingDefinition theMetaClass

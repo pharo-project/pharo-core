@@ -1,1 +1,0 @@
-isResizeable	^ true

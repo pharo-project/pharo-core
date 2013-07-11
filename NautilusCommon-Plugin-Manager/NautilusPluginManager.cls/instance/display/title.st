@@ -1,1 +1,0 @@
-title	^ 'Nautilus Plugins Manager'

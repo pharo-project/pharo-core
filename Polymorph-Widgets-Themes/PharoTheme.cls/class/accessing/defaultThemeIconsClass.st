@@ -1,1 +1,0 @@
-defaultThemeIconsClass 	^ PharoUIThemeIcons

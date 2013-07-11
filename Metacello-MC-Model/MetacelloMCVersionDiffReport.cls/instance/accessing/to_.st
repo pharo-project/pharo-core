@@ -1,1 +1,0 @@
-to: anObject	to := anObject

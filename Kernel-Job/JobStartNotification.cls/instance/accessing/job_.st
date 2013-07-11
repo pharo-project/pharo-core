@@ -1,1 +1,0 @@
-job: anObject		job := anObject

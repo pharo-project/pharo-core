@@ -1,1 +1,0 @@
-receiverInspector	^ receiverInspector

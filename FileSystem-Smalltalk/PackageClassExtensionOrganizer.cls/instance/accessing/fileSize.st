@@ -1,1 +1,0 @@
-fileSize	^ self methods size

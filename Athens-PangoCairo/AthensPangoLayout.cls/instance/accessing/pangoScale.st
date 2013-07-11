@@ -1,1 +1,0 @@
-pangoScale	^ PANGO_SCALE

@@ -1,1 +1,0 @@
-A NBWinConstants is xxxxxxxxx.Instance Variables

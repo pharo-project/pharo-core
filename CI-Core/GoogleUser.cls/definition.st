@@ -1,1 +1,0 @@
-Object subclass: #GoogleUser	instanceVariableNames: 'email'	classVariableNames: ''	poolDictionaries: ''	category: 'CI-Core'

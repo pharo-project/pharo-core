@@ -1,1 +1,0 @@
-localCoveragePercentage	^ self localCoverage first

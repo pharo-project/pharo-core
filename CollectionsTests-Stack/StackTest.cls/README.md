@@ -1,1 +1,0 @@
-A StackTest is xxxxxxxxx.Instance Variables	empty:		<Object>	nonEmpty:		<Object>empty	- xxxxxnonEmpty	- xxxxx

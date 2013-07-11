@@ -1,1 +1,0 @@
-fullscreenMargin: anInteger	FullscreenMargin := anInteger

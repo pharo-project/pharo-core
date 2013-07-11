@@ -1,1 +1,0 @@
-announcer	^ self morph announcer

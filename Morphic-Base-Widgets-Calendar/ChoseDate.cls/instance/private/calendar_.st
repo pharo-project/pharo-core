@@ -1,1 +1,0 @@
-calendar: aCalendarChooserMorph 	calendar := aCalendarChooserMorph.

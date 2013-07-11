@@ -1,1 +1,0 @@
-A NBSTIndirectArgument is xxxxxxxxx.Instance Variables	argumentLoader:		<Object>	elementIndex:		<Object>argumentLoader	- xxxxxelementIndex	- xxxxx

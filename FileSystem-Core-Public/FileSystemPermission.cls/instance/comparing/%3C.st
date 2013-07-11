@@ -1,1 +1,0 @@
-< other	^ posixPermission < other posixPermission

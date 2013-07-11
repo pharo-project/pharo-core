@@ -1,1 +1,0 @@
-stretchExtended	^7

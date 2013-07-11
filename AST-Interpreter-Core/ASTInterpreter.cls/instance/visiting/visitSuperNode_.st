@@ -1,1 +1,0 @@
-visitSuperNode: aSelf	^ self currentSelf

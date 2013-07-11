@@ -1,1 +1,0 @@
-testedOrganization	^factory organization

@@ -1,1 +1,0 @@
-workingCopySearchMaxSize	^self class workingCopySearchMaxSize

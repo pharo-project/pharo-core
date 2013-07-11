@@ -1,1 +1,0 @@
-isCaseSensitive	^ self store isCaseSensitive

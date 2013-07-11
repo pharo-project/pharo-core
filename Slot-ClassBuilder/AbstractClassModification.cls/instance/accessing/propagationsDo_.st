@@ -1,1 +1,0 @@
-propagationsDo: aBlock	propagations do: [ :aPropagation |		aBlock value: aPropagation.		aPropagation propagationsDo: aBlock ]

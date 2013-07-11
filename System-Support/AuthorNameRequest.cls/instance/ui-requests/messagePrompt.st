@@ -1,1 +1,0 @@
-messagePrompt	^ self class messagePrompt

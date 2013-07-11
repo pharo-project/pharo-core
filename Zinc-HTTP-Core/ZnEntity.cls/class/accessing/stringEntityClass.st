@@ -1,1 +1,0 @@
-stringEntityClass	^ ZnStringEntity

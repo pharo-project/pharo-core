@@ -1,1 +1,0 @@
-selectedClassIndex	 ^ classesListModel selectedIndex

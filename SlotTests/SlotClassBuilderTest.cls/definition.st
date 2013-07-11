@@ -1,1 +1,0 @@
-TestCase subclass: #SlotClassBuilderTest	instanceVariableNames: 'aClass instance anotherClass'	classVariableNames: ''	poolDictionaries: ''	category: 'SlotTests'

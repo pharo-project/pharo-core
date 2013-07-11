@@ -1,1 +1,0 @@
-compoundTextSequence	^ compoundTextSequence

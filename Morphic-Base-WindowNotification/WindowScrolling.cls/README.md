@@ -1,1 +1,0 @@
-A WindowScrolling is xxxxxxxxx.Instance Variables	step:		<Object>step	- xxxxx

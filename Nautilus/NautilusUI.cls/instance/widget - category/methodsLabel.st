@@ -1,1 +1,0 @@
-methodsLabel	^ methodWidget methodsLabel

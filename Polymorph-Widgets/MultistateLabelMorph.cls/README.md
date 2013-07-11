@@ -1,1 +1,0 @@
-A MultistateLabelMorph is xxxxxxxxx.Instance Variables	colorMap:		<Object>colorMap	- xxxxx

@@ -1,1 +1,0 @@
-A MetacelloLoadData is xxxxxxxxx.Instance Variables	dataMap:		<Object>	packageNameMap:		<Object>	versionInfoMap:		<Object>dataMap	- xxxxxpackageNameMap	- xxxxxversionInfoMap	- xxxxx

@@ -1,1 +1,0 @@
-settingInputWidgetForNode: aSettingNode	^ aSettingNode inputWidgetForBoolean

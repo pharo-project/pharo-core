@@ -1,1 +1,0 @@
-A MorphTreeChunkPager is xxxxxxxxx.Instance Variables	atBottom:		<Object>	lastIndex:		<Object>	nextPageAllowed:		<Object>	pageSizeEditor:		<Object>atBottom	- xxxxxlastIndex	- xxxxxnextPageAllowed	- xxxxxpageSizeEditor	- xxxxx

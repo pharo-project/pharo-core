@@ -1,1 +1,0 @@
-An AJAssembler is xxxxxxxxx.Instance Variables

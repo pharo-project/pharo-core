@@ -1,1 +1,0 @@
-startIndex	^ startIndex

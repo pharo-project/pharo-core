@@ -1,1 +1,0 @@
-A MCWriter is xxxxxxxxx.Instance Variables	stream:		<Object>stream	- xxxxx

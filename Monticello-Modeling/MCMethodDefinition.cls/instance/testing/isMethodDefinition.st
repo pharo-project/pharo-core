@@ -1,1 +1,0 @@
-isMethodDefinition	^true

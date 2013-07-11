@@ -1,1 +1,0 @@
-A MetacelloMCVersionSpecLoader is xxxxxxxxx.Instance Variables	loader:		<Object>	loaderPolicy:		<Object>	packages:		<Object>	required:		<Object>	versionSpec:		<Object>loader	- xxxxxloaderPolicy	- xxxxxpackages	- xxxxxrequired	- xxxxxversionSpec	- xxxxx

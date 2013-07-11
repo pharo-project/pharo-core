@@ -1,1 +1,0 @@
-regex: anObject	regex := anObject

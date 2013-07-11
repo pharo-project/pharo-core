@@ -1,1 +1,0 @@
-defaultTestClass	^WikiStyleHelpBuilder

@@ -1,1 +1,0 @@
-symbol: anObject	symbol := anObject

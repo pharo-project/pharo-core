@@ -1,1 +1,0 @@
-A NewHandleMorph is xxxxxxxxx.Instance Variables	hand:		<Object>	waitingForClickInside:		<Object>hand	- xxxxxwaitingForClickInside	- xxxxx

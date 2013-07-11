@@ -1,1 +1,0 @@
-isBinary	^ isBinary

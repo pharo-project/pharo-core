@@ -1,1 +1,0 @@
-extendingPackages	^ self realClass extendingPackages

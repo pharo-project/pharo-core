@@ -1,1 +1,0 @@
-loadConfiguration	self owner loadConfiguration 

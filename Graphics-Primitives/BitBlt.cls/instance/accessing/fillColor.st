@@ -1,1 +1,0 @@
-fillColor	^ halftoneForm

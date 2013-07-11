@@ -1,1 +1,0 @@
-A KeymapBuilderTest is xxxxxxxxx.Instance Variables

@@ -1,1 +1,0 @@
-categorySelectionChanged	methodWidget 		resetMethodCache;		updateList.

@@ -1,1 +1,0 @@
-oopSize	^ objectFormat oopSize

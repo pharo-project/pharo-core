@@ -1,1 +1,0 @@
-doneTyping	self startOfTyping: nil

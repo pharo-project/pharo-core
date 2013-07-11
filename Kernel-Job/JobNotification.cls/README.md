@@ -1,1 +1,0 @@
-A JobNotification class is an abstract class representing the root of JobNotification.

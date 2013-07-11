@@ -1,1 +1,0 @@
-interactSelector	 ^ #interact

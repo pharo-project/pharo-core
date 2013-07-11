@@ -1,1 +1,0 @@
-isSelfEvaluating 	^ true

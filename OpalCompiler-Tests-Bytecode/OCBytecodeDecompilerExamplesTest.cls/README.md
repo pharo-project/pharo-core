@@ -1,1 +1,0 @@
-An OCBytecodeDecompilerExamplesTest is xxxxxxxxx.Instance Variables

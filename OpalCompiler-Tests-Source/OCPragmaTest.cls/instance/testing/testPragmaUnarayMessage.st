@@ -1,1 +1,0 @@
-testPragmaUnarayMessage	| aRBMethode |	aRBMethode := OpalCompiler new parse: self methodPragmaUnarayMessage in: self class notifying: [nil].		self assert: (aRBMethode compiledMethod pragmas first keyword = #hello)

@@ -1,1 +1,0 @@
-fontVariant	^ options at: #variant 

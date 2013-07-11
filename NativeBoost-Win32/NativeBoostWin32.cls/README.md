@@ -1,1 +1,0 @@
-A NativeBoostWin32 is xxxxxxxxx.Instance Variables	heapHandle:		<Object>heapHandle	- xxxxx

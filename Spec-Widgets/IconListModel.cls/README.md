@@ -1,1 +1,0 @@
-An IconListModel is a spec model for icon list

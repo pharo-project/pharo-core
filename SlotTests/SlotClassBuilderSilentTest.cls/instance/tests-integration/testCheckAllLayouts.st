@@ -1,1 +1,0 @@
-testCheckAllLayouts	self shouldnt: [SlotVirus checkAllLayouts] raise: Error

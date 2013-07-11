@@ -1,1 +1,0 @@
-integerCollection	^example1 .

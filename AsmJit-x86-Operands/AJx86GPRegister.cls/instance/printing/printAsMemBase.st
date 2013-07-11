@@ -1,1 +1,0 @@
-printAsMemBase	^ self registerName 

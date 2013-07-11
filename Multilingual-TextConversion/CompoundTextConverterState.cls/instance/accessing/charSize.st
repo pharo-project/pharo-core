@@ -1,1 +1,0 @@
-charSize	^ charSize

@@ -1,1 +1,0 @@
-nodeListSelector	^ #rootNodes

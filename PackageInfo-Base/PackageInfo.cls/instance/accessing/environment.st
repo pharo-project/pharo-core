@@ -1,1 +1,0 @@
-environment	^  Smalltalk globals	

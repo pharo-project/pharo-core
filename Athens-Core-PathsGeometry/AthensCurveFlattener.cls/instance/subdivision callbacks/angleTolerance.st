@@ -1,1 +1,0 @@
-angleTolerance	^ CurveAngleToleranceEpsilon 

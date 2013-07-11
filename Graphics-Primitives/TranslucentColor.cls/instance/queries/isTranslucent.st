@@ -1,1 +1,0 @@
-isTranslucent	^ alpha < 255

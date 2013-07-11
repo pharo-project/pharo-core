@@ -1,1 +1,0 @@
-enabled: aBoolean	enabled := aBoolean

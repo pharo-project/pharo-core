@@ -1,1 +1,0 @@
-backColor	^ Color white.

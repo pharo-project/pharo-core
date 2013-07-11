@@ -1,1 +1,0 @@
-heightInBlocks: anInteger 	heightInBlocks := anInteger

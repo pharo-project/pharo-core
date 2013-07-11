@@ -1,1 +1,0 @@
-formatterClass	^ self class formatterClass

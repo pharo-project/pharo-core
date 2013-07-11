@@ -1,1 +1,0 @@
-A MetacelloCachingGoferResolvedReference is xxxxxxxxx.Instance Variables	cachedVersion:		<Object>cachedVersion	- xxxxx

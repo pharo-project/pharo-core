@@ -1,1 +1,0 @@
-loadDirectives: anObject	loadDirectives := anObject

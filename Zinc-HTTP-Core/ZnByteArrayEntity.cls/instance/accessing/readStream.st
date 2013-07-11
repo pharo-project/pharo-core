@@ -1,1 +1,0 @@
-readStream	^ self bytes readStream

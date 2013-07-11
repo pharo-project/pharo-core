@@ -1,1 +1,0 @@
-classNames: aClassNameCollection 	classNames := aClassNameCollection

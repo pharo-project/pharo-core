@@ -1,1 +1,0 @@
-isSpecialConstant	^expr isSpecialConstant

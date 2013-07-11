@@ -1,1 +1,0 @@
-chooseAlignment	self changeAlignment

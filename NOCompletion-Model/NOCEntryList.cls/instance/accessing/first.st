@@ -1,1 +1,0 @@
-first	^self firstEntry contents

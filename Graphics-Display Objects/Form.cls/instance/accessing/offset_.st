@@ -1,1 +1,0 @@
-offset: aPoint	offset := aPoint

@@ -1,1 +1,0 @@
-A GoferChanges is xxxxxxxxx.Instance Variables

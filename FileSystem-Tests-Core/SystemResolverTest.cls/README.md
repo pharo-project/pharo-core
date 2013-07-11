@@ -1,1 +1,0 @@
-A SystemResolverTest is xxxxxxxxx.Instance Variables

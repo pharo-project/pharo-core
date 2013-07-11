@@ -1,1 +1,0 @@
-An ExceptionTests is xxxxxxxxx.Instance Variables

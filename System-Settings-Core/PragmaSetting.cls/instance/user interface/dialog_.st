@@ -1,1 +1,0 @@
-dialog: aValuable	dialog := aValuable

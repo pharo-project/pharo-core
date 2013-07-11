@@ -1,1 +1,0 @@
-email: email	^ self new		email: email;		yourself

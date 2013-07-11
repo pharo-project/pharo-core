@@ -1,1 +1,0 @@
-A HDTestCoverage is xxxxxxxxx.Instance Variables	hasRun:		<Object>	method:		<Object>	reference:		<Object>hasRun	- xxxxxmethod	- xxxxxreference	- xxxxx

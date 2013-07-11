@@ -1,1 +1,0 @@
-longDescription	^ self rationale 

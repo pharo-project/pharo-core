@@ -1,1 +1,0 @@
-windowIndex: aValue	windowIndex := aValue

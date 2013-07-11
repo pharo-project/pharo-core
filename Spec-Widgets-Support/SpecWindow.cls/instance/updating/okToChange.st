@@ -1,1 +1,0 @@
-okToChange	^ self model okToChange

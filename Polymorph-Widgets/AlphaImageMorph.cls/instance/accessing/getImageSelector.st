@@ -1,1 +1,0 @@
-getImageSelector	^ getImageSelector

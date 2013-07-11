@@ -1,1 +1,0 @@
-browse	^ self version browse

@@ -1,1 +1,0 @@
-A MCDictionaryRepositoryTest is xxxxxxxxx.Instance Variables	dict:		<Object>dict	- xxxxx

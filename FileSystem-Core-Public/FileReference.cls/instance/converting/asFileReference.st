@@ -1,1 +1,0 @@
-asFileReference	^ self

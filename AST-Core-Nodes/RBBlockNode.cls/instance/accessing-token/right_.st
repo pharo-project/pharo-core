@@ -1,1 +1,0 @@
-right: anInteger	right := anInteger

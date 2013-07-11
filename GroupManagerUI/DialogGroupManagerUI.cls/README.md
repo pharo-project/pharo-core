@@ -1,1 +1,0 @@
-A DialogGroupManagerUI is xxxxxxxxx.Instance Variables	groupManager:		<Object>	tree:		<Object>	treeModel:		<Object>groupManager	- xxxxxtree	- xxxxxtreeModel	- xxxxx

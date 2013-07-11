@@ -1,1 +1,0 @@
-A RBPlatform is xxxxxxxxx.Instance Variables

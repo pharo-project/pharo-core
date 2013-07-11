@@ -1,1 +1,0 @@
-initializeLayout	(self allInstVarNames includes: #layout) 		ifFalse: [ ^ self ].			layout isNil ifFalse: [ ^ self ].		self superclass isNil 		ifFalse: [ self superclass initializeLayout ].		layout := SlotVirus newLayoutFor: self

@@ -1,1 +1,0 @@
-diffsWithPrettyPrint: aBoolean	DiffsWithPrettyPrint := aBoolean

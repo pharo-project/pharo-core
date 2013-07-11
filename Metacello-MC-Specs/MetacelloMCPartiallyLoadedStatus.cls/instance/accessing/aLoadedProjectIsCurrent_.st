@@ -1,1 +1,0 @@
-aLoadedProjectIsCurrent: aBoolean	aLoadedProjectIsCurrent := aBoolean

@@ -1,1 +1,0 @@
-upperBound: anObject	upperBound := anObject

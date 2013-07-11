@@ -1,1 +1,0 @@
-oldSize	^ oldSize

@@ -1,1 +1,0 @@
-isMeta	^self isClassSide

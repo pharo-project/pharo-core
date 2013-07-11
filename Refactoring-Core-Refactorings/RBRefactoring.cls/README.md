@@ -1,1 +1,0 @@
-A RBRefactoring is xxxxxxxxx.Instance Variables	model:		<Object>	options:		<Object>model	- xxxxxoptions	- xxxxx

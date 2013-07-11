@@ -1,2 +1,0 @@
-snapshotErrorImage
-	^ SnapshotErrorImage == true

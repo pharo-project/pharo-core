@@ -1,1 +1,0 @@
-isBold	^self isBoldOrBolder

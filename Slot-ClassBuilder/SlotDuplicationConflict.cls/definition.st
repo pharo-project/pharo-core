@@ -1,1 +1,0 @@
-SlotClassBuilderConflict subclass: #SlotDuplicationConflict	instanceVariableNames: 'newSlot oldSlot host'	classVariableNames: ''	poolDictionaries: ''	category: 'Slot-ClassBuilder'

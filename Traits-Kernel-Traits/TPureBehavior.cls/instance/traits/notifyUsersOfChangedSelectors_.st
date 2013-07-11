@@ -1,1 +1,0 @@
-notifyUsersOfChangedSelectors: aCollection

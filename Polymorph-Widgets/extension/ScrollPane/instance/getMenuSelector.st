@@ -1,1 +1,0 @@
-getMenuSelector	^ getMenuSelector

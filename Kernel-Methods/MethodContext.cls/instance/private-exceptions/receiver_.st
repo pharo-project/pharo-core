@@ -1,1 +1,0 @@
-receiver: r	receiver := r

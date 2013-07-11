@@ -1,1 +1,0 @@
-I am an c87 Floating Point register

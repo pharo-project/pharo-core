@@ -1,1 +1,0 @@
-A MockSourceEditor is xxxxxxxxx.Instance Variables	selectionEnd:		<Object>	selectionStart:		<Object>	text:		<Object>selectionEnd	- xxxxxselectionStart	- xxxxxtext	- xxxxx

@@ -1,1 +1,0 @@
-allManagers	^ self registry values

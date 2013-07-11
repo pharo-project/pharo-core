@@ -1,1 +1,0 @@
-labelRightOffset	^ 12

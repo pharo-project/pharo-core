@@ -1,1 +1,0 @@
-allMethodsInCategory: aName 	"Answer a list of all the method categories of the receiver"		| aColl |	aColl := self organization listAtCategoryNamed: aName.	^aColl asSet asArray sort

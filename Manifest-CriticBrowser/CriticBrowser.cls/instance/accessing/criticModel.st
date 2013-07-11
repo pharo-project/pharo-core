@@ -1,1 +1,0 @@
-criticModel	^ criticModel

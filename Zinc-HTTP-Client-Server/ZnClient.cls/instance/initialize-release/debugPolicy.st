@@ -1,1 +1,0 @@
-debugPolicy	self 		beOneShot

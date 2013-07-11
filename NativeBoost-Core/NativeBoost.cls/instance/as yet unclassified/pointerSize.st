@@ -1,1 +1,0 @@
-pointerSize	self subclassResponsibility 

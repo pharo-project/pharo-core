@@ -1,1 +1,0 @@
-A RBChildrenToSiblingsRefactoring is xxxxxxxxx.Instance Variables	parent:		<Object>	subclasses:		<Object>parent	- xxxxxsubclasses	- xxxxx

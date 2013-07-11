@@ -1,1 +1,0 @@
-current: aKindOfFreeTypeGlyphRender	current := aKindOfFreeTypeGlyphRender

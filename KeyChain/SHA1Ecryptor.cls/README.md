@@ -1,1 +1,0 @@
-A SHA1Ecryptor is an encryptor using SHA1 algorithm

@@ -1,1 +1,0 @@
-A MCMockDefinition is xxxxxxxxx.Instance Variables	token:		<Object>token	- xxxxx

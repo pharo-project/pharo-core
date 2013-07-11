@@ -1,1 +1,0 @@
-initialize 	session := NativeBoost uniqueSessionObject 

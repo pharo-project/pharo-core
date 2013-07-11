@@ -1,1 +1,0 @@
-A RBExtractToTemporaryRefactoring is xxxxxxxxx.Instance Variables	newVariableName:		<Object>	parseTree:		<Object>	selector:		<Object>	sourceInterval:		<Object>newVariableName	- xxxxxparseTree	- xxxxxselector	- xxxxxsourceInterval	- xxxxx

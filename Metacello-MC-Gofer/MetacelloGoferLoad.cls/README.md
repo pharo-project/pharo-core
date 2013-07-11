@@ -1,1 +1,0 @@
-A MetacelloGoferLoad is xxxxxxxxx.Instance Variables

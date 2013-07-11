@@ -1,1 +1,0 @@
-definedClasses	 ^self classes

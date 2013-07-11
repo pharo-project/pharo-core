@@ -1,1 +1,0 @@
-A BreadthFirstGuideTest is xxxxxxxxx.Instance Variables

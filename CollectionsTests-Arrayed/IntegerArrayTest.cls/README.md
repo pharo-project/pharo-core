@@ -1,1 +1,0 @@
-An IntegerArrayTest is xxxxxxxxx.Instance Variables

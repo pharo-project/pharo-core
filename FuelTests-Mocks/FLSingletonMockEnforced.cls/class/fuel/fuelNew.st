@@ -1,1 +1,0 @@
-fuelNew	^ self instance

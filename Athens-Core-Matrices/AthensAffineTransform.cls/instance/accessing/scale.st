@@ -1,1 +1,0 @@
-scale	^ sx@sy

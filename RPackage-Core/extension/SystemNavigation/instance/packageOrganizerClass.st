@@ -1,1 +1,0 @@
-packageOrganizerClass	^ RPackageOrganizer

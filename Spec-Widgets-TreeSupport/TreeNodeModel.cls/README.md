@@ -1,1 +1,0 @@
-A TreeNodeModel is xxxxxxxxx.Instance Variables	item:		<Object>item	- xxxxx

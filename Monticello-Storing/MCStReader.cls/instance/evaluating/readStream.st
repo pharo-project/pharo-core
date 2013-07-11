@@ -1,1 +1,0 @@
-readStream	^ ('!!', stream contents) readStream

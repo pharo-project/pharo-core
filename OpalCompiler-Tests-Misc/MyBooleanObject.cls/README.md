@@ -1,1 +1,0 @@
-A MyBooleanObject is xxxxxxxxx.Instance Variables

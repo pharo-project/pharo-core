@@ -1,1 +1,0 @@
-versionsButtonLabel	^'Versions'

@@ -1,1 +1,0 @@
-hasRunnable	^ classesSelected notEmpty.

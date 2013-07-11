@@ -1,1 +1,0 @@
-root: aMetacelloSpec	root := aMetacelloSpec

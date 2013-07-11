@@ -1,1 +1,0 @@
-success: flag	^ self simpleCall

@@ -1,1 +1,0 @@
-I present an ArrayedCollection whose elements are objects.

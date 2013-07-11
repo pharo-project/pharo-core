@@ -1,1 +1,0 @@
-testToPush: anObject	TestToPush := anObject

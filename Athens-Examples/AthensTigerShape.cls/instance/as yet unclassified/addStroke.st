@@ -1,1 +1,0 @@
-addStroke	stroke := true.

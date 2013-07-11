@@ -1,1 +1,0 @@
-walkAlongDisplayedLine: aBoolean	WalkAlongDisplayedLine := aBoolean

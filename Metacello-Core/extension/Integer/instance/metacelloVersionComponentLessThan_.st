@@ -1,1 +1,0 @@
-metacelloVersionComponentLessThan: aMetacelloVersonComponent	^aMetacelloVersonComponent metacelloIntegerLessThanSelf: self

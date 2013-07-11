@@ -1,1 +1,0 @@
-A FileLocatorTest is xxxxxxxxx.Instance Variables	locator:		<Object>locator	- xxxxx

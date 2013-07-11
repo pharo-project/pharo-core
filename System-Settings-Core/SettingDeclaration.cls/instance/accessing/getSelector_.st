@@ -1,1 +1,0 @@
-getSelector: aSymbol	getSelector := aSymbol

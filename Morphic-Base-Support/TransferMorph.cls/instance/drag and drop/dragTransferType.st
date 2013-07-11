@@ -1,1 +1,0 @@
-dragTransferType	^transferType

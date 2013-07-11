@@ -1,1 +1,0 @@
-setItem: anObject	item := anObject

@@ -1,1 +1,0 @@
-pluginName	^ self name

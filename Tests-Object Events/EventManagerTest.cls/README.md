@@ -1,1 +1,0 @@
-An EventManagerTest is xxxxxxxxx.Instance Variables	eventListener:		<Object>	eventSource:		<Object>	succeeded:		<Object>eventListener	- xxxxxeventSource	- xxxxxsucceeded	- xxxxx

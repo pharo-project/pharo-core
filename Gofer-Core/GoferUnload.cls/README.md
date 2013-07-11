@@ -1,1 +1,0 @@
-A GoferUnload is xxxxxxxxx.Instance Variables

@@ -1,1 +1,0 @@
-loadingSpecLoader	^self

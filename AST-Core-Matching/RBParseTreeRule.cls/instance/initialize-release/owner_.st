@@ -1,1 +1,0 @@
-owner: aParseTreeSearcher	owner := aParseTreeSearcher

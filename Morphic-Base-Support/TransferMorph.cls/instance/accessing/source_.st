@@ -1,1 +1,0 @@
-source: anObject	source := anObject

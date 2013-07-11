@@ -1,1 +1,0 @@
-CompositionScanners are used to measure text and determine where line breaks and space padding should occur.

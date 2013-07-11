@@ -1,1 +1,0 @@
-selectedItemsSetterSelector: aSelector	selectedItemsSetterSelector := aSelector

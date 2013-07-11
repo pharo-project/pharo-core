@@ -1,1 +1,0 @@
-A RBBrowserEnvironment is xxxxxxxxx.Instance Variables	label:		<Object>	searchStrings:		<Object>label	- xxxxxsearchStrings	- xxxxx

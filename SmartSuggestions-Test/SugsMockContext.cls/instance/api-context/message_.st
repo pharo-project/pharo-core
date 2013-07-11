@@ -1,1 +1,0 @@
-message: theName	^ message:= theName.

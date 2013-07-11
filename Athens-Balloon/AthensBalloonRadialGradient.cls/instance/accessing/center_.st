@@ -1,1 +1,0 @@
-center: anObject	center := anObject

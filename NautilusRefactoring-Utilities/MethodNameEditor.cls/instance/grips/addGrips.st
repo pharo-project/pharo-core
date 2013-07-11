@@ -1,1 +1,0 @@
-addGrips	self addEdgeGrips

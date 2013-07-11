@@ -1,1 +1,0 @@
-classReorganized: anObject	classReorganized := anObject

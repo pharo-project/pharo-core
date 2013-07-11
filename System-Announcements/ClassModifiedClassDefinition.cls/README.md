@@ -1,1 +1,0 @@
-This announcement will be emitted when a class or a trait definition changes: when an inst var or a classVariable is added

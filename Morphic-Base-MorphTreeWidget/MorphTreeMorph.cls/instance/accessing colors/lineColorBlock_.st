@@ -1,1 +1,0 @@
-lineColorBlock: aValuable	lineColorBlock := aValuable

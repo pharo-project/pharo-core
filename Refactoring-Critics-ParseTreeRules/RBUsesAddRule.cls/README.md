@@ -1,1 +1,0 @@
-A RBUsesAddRule is xxxxxxxxx.Instance Variables

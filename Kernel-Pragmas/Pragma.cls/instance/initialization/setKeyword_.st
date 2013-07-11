@@ -1,1 +1,0 @@
-setKeyword: aSymbol	keyword := aSymbol

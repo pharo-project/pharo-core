@@ -1,1 +1,0 @@
-target: newTarget	target := newTarget

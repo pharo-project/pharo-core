@@ -1,1 +1,0 @@
-stylingClass: aClass	StylingClass := aClass

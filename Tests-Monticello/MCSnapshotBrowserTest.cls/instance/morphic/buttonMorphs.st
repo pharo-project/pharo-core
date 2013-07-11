@@ -1,1 +1,0 @@
-buttonMorphs	^ self morphsOfClass: PluggableButtonMorph

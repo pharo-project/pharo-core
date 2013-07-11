@@ -1,1 +1,0 @@
-A ColorTest is xxxxxxxxx.Instance Variables

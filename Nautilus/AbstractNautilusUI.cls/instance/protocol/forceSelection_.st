@@ -1,1 +1,0 @@
-forceSelection: anObject

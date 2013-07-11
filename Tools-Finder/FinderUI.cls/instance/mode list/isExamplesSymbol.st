@@ -1,1 +1,0 @@
-isExamplesSymbol	^self finder isExamplesSymbol

@@ -1,1 +1,0 @@
-testGradientFillStyle	self assertSerializationEqualityOf: GradientFillStyle sample

@@ -1,1 +1,0 @@
-inspectableContents		^self subclassResponsibility

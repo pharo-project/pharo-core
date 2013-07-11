@@ -1,1 +1,0 @@
-testVmBinary	self assertOriginResolves: #vmBinary

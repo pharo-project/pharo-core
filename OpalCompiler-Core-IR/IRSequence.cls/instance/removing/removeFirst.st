@@ -1,1 +1,0 @@
-removeFirst	^sequence removeFirst.

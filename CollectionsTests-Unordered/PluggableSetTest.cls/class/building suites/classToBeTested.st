@@ -1,1 +1,0 @@
-classToBeTested^ IdentitySet

@@ -1,1 +1,0 @@
-isRectangle	^false

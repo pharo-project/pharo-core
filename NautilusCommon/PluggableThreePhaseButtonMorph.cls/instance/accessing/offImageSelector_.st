@@ -1,1 +1,0 @@
-offImageSelector: anObject 	offImageSelector := anObject

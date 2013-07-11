@@ -1,1 +1,0 @@
-setAnswers: aCollection	answers := aCollection

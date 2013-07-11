@@ -1,1 +1,0 @@
-start: anInteger 	start := anInteger

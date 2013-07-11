@@ -1,1 +1,0 @@
-acTableIndex: anInteger 	acTableIndex := anInteger

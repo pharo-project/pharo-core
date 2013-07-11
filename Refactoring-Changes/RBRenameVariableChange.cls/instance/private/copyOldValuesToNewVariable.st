@@ -1,1 +1,0 @@
-copyOldValuesToNewVariable	self subclassResponsibility

@@ -1,1 +1,0 @@
-isInspectable	^false

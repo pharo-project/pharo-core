@@ -1,1 +1,0 @@
-selectedGroup: anObject			selectedGroup := anObject

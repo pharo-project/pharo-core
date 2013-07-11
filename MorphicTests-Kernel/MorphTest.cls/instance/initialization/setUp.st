@@ -1,1 +1,0 @@
-setUp	morph := Morph new

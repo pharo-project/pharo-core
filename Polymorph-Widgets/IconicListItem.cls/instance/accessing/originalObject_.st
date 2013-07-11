@@ -1,1 +1,0 @@
-originalObject: anObject		originalObject := anObject

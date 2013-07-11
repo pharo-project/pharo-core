@@ -1,1 +1,0 @@
-isBlockStart	^type beginsWith: 'blockStart'

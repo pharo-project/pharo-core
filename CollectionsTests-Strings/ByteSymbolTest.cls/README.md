@@ -1,1 +1,0 @@
-A ByteSymbolTest is xxxxxxxxx.Instance Variables

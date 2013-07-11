@@ -1,1 +1,0 @@
-A ZLibReadStream is xxxxxxxxx.Instance Variables

@@ -1,1 +1,0 @@
-derivativeFonts	^derivativeFonts copyWithout: nil

@@ -1,1 +1,0 @@
-A PharoUserPermissions is a wrapper which stores the permissions of a PharoUser

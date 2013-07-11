@@ -1,1 +1,0 @@
-stepThrough: selectedContext	"Send messages until you return to selectedContext.	 Used to step into a block in the method."		(self isContextPostMortem: self context) ifTrue: [^ self].		process stepToHome: selectedContext.	self updateContextTo:  process stepToSendOrReturn.				self triggerEvent: #stepThrough 

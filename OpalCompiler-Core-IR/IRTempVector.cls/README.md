@@ -1,1 +1,0 @@
-An IRTempVector is xxxxxxxxx.Instance Variables	name:		<Object>	vars:		<Object>name	- xxxxxvars	- xxxxx

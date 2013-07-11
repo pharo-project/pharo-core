@@ -1,1 +1,0 @@
-A NBUnixConstants is xxxxxxxxx.Instance Variables

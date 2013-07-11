@@ -1,1 +1,0 @@
-A MCChangeNotificationTest is xxxxxxxxx.Instance Variables	workingCopy:		<Object>workingCopy	- xxxxx

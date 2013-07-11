@@ -1,1 +1,0 @@
-A MCVersionNotification is xxxxxxxxx.Instance Variables	ancestor:		<Object>	changes:		<Object>	repository:		<Object>	version:		<Object>ancestor	- xxxxxchanges	- xxxxxrepository	- xxxxxversion	- xxxxx

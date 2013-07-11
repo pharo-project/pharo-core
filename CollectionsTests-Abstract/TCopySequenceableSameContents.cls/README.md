@@ -1,1 +1,0 @@
-A TCopySequenceableSameContents is xxxxxxxxx.

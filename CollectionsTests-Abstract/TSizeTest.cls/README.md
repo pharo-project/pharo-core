@@ -1,1 +1,0 @@
-A TSizeTest is xxxxxxxxx.

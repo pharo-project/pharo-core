@@ -1,1 +1,0 @@
-autoAcceptOnFocusLoss	^ autoAcceptOnFocusLoss ~~ false

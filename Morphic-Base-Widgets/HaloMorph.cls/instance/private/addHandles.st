@@ -1,1 +1,0 @@
-addHandles	self addCircleHandles.

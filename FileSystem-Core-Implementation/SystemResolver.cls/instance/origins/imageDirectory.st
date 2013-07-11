@@ -1,1 +1,0 @@
-imageDirectory	^ self image parent

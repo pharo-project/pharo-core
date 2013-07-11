@@ -1,1 +1,0 @@
-clearLog	log := nil

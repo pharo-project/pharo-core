@@ -1,1 +1,0 @@
-versionSummary	^ self version summary

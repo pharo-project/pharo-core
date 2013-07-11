@@ -1,1 +1,0 @@
-isNamespace	^false

@@ -1,1 +1,0 @@
-updateInspector	inspector := self parentObject inspector.	inspector selectedObject: self object.	inspector close.

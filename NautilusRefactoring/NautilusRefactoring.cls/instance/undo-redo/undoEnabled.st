@@ -1,1 +1,0 @@
-undoEnabled	^ self changeManager hasUndoableOperations

@@ -1,1 +1,0 @@
-A NBWin32Hdc is xxxxxxxxx.Instance Variables

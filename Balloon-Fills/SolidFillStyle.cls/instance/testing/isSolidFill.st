@@ -1,1 +1,0 @@
-isSolidFill	^true

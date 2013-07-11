@@ -1,1 +1,0 @@
-initializeOnFileNamed: aFileName	fileName := aFileName.

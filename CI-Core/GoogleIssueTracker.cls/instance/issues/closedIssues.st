@@ -1,1 +1,0 @@
-closedIssues	^ self issuesWithParams: 'can=closed'.	

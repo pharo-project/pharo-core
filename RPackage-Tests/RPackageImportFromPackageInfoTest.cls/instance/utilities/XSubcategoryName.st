@@ -1,1 +1,0 @@
-XSubcategoryName	^ 'X-Subcategory'

@@ -1,1 +1,0 @@
-A TConcatenationEqualElementsRemovedTest is xxxxxxxxx.

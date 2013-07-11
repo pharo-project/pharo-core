@@ -1,1 +1,0 @@
-clearFromBeginning	self termcap: 'cb'

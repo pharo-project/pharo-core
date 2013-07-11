@@ -1,1 +1,0 @@
-A MCReader is xxxxxxxxx.Instance Variables	stream:		<Object>stream	- xxxxx

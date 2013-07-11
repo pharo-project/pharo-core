@@ -1,1 +1,0 @@
-openMenu	^ self openMenuFor: editor.

@@ -1,1 +1,0 @@
-A SMTPClientTest is xxxxxxxxx.Instance Variables	smtp:		<Object>	socket:		<Object>smtp	- xxxxxsocket	- xxxxx

@@ -1,1 +1,0 @@
-saveBlock: anObject	saveBlock := anObject

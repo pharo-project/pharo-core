@@ -1,1 +1,0 @@
-compilationContextClass	^compilationContextClass ifNil: [ CompilationContext  ]

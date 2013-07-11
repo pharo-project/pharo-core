@@ -1,1 +1,0 @@
-A HelpBrowserTest is xxxxxxxxx.Instance Variables

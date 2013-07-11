@@ -1,1 +1,0 @@
-capStyle	^ capStyle

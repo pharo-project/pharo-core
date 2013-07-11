@@ -1,1 +1,0 @@
-A NBExternalStructureType is xxxxxxxxx.Instance Variables	objectClass:		<Object>	returnOop:		<Object>objectClass	- xxxxxreturnOop	- xxxxx

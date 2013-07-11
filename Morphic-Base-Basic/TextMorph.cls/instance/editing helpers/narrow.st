@@ -1,1 +1,0 @@
-narrow		self changeEmphasis: #narrow

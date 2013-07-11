@@ -1,1 +1,0 @@
-A WeekTest is xxxxxxxxx.Instance Variables	restoredStartDay:		<Object>	week:		<Object>restoredStartDay	- xxxxxweek	- xxxxx

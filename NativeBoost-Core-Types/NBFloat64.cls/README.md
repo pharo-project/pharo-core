@@ -1,1 +1,0 @@
-A NBFloat64 is xxxxxxxxx.Instance Variables

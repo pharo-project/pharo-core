@@ -1,1 +1,0 @@
-A ZnResourceMetaUtilsTests is xxxxxxxxx.Instance Variables

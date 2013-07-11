@@ -1,1 +1,0 @@
-not	^RBNegationCondition on: self

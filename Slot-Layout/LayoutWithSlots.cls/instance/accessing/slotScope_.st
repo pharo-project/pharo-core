@@ -1,1 +1,0 @@
-slotScope: anObject	slotScope := anObject

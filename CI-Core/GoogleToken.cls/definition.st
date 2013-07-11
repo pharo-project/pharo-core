@@ -1,1 +1,0 @@
-Object subclass: #GoogleToken	instanceVariableNames: 'service token user'	classVariableNames: ''	poolDictionaries: ''	category: 'CI-Core'

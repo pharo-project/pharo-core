@@ -1,1 +1,0 @@
-theNonMetaClassName	^self theNonMetaParentName 

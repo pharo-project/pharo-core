@@ -1,1 +1,0 @@
-interactive: anObject	interactive := anObject

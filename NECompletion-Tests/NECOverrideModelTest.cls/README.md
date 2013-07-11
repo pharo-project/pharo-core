@@ -1,1 +1,0 @@
-A NECOverrideModelTest is xxxxxxxxx.Instance Variables	model:		<Object>model	- xxxxx

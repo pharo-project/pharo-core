@@ -1,1 +1,0 @@
-A ByteTextConverterTest is xxxxxxxxx.Instance Variables

@@ -1,1 +1,0 @@
-athensDrawSelectionOn: anAthensCanvas 	self value

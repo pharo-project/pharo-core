@@ -1,1 +1,0 @@
-isSilent	^QuietMode == true

@@ -1,1 +1,0 @@
-canBeDragged	^model isDraggableNode: self

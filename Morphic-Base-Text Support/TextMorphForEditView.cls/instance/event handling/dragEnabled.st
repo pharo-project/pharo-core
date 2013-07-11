@@ -1,1 +1,0 @@
-dragEnabled	^ self editView dragEnabled

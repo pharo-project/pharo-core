@@ -1,1 +1,0 @@
-exclusion	self notAvailable

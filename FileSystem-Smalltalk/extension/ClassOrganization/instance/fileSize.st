@@ -1,1 +1,0 @@
-fileSize	^ self protocolOrganizer size

@@ -1,1 +1,0 @@
-operator: anObject	" #= #~= #> #< #>= #<= #~> "		operator := anObject

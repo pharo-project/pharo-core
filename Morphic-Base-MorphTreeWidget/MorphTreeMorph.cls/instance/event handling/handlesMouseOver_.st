@@ -1,1 +1,0 @@
-handlesMouseOver: evt	^ self mouseOverAllowed 

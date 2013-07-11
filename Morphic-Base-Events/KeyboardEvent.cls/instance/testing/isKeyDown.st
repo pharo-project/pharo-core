@@ -1,1 +1,0 @@
-isKeyDown	^self type == #keyDown

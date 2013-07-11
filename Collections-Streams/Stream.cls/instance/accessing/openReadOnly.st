@@ -1,1 +1,0 @@
-openReadOnly	^self

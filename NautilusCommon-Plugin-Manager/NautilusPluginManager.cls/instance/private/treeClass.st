@@ -1,1 +1,0 @@
-treeClass	^ NautilusPluginManagerTree

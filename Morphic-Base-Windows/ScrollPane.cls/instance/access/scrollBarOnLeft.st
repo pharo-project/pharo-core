@@ -1,1 +1,0 @@
-scrollBarOnLeft	^ scrollBarOnLeft

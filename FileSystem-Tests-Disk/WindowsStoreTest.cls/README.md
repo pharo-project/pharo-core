@@ -1,1 +1,0 @@
-A WindowsStoreTest is xxxxxxxxx.Instance Variables

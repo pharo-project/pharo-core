@@ -1,1 +1,0 @@
-withMask	^CursorWithMask derivedFrom: self

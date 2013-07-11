@@ -1,1 +1,0 @@
-A ListSpec is a spec used to describe a list

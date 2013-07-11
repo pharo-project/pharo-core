@@ -1,1 +1,0 @@
-middleRayColor	^ Color blue

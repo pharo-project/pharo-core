@@ -1,1 +1,0 @@
-key	^ self character key.

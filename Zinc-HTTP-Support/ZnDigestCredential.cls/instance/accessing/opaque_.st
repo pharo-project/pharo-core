@@ -1,1 +1,0 @@
-opaque: anObject	opaque := anObject

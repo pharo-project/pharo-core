@@ -1,1 +1,0 @@
-A WindowAnnouncement is xxxxxxxxx.Instance Variables	event:		<Object>	window:		<Object>event	- xxxxxwindow	- xxxxx

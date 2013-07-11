@@ -1,1 +1,0 @@
-An ExceptionTester is xxxxxxxxx.Instance Variables	iterationsBeforeTimeout:		<Object>	log:		<Object>	suiteLog:		<Object>iterationsBeforeTimeout	- xxxxxlog	- xxxxxsuiteLog	- xxxxx

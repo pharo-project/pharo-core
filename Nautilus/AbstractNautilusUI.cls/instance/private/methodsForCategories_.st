@@ -1,1 +1,0 @@
-methodsForCategories: aCollection	^ self subclassResponsibility

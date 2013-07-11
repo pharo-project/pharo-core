@@ -1,1 +1,0 @@
-I am a filesystem store that delegates all operations to an existing file reference. This way it is possible to translate the root of an existing fileystem to any filerefernece within that filesystem.

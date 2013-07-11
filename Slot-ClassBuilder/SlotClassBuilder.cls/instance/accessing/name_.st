@@ -1,1 +1,0 @@
-name: aName	[ name := aName asSymbol ]		on: Error do: [ :error|			self invalidGlobalNameError: aName ].	self validateClassName.

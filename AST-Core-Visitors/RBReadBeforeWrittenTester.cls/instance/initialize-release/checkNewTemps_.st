@@ -1,1 +1,0 @@
-checkNewTemps: aBoolean 	checkNewTemps := aBoolean

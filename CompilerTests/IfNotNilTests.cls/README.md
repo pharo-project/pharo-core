@@ -1,1 +1,0 @@
-An IfNotNilTests is xxxxxxxxx.Instance Variables

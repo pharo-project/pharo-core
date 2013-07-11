@@ -1,1 +1,0 @@
-projectReferenceSpecClass	^MetacelloProjectReferenceSpec

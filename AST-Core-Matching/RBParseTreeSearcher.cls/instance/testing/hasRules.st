@@ -1,1 +1,0 @@
-hasRules	^searches notEmpty

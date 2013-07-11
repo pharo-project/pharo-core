@@ -1,1 +1,0 @@
-A LayoutFrameTest is xxxxxxxxx.Instance Variables

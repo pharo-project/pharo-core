@@ -1,1 +1,0 @@
-offsetLabel	^ offsetLabel

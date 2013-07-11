@@ -1,1 +1,0 @@
-itemHalfOffSet	^ 1

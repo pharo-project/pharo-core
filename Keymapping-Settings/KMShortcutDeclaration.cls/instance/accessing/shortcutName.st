@@ -1,1 +1,0 @@
-shortcutName	^shortcutName

@@ -1,1 +1,0 @@
-defaultSystemConverter	^LanguageEnvironment defaultSystemConverter

@@ -1,1 +1,0 @@
-A MetacelloCommonMCSpecLoader is xxxxxxxxx.Instance Variables	disablePackageCache:		<Object>	loaderPolicy:		<Object>	operator:		<Object>disablePackageCache	- xxxxxloaderPolicy	- xxxxxoperator	- xxxxx

@@ -1,1 +1,0 @@
-I am a Smalltalk FileSystem entry for a class definition.Since the class definitoin is a simple String we cannot simply add the extension methods on String needed to include the class definition into the Smalltalk filesystem.

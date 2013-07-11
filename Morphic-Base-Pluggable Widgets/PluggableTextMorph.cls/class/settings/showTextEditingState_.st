@@ -1,1 +1,0 @@
-showTextEditingState: aBoolean	ShowTextEditingState := aBoolean

@@ -1,1 +1,0 @@
-A FLPair is xxxxxxxxx.Instance Variables	left:		<Object>	right:		<Object>left	- xxxxxright	- xxxxx

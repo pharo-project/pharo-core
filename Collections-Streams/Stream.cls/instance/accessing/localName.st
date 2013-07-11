@@ -1,1 +1,0 @@
-localName	^'a stream'

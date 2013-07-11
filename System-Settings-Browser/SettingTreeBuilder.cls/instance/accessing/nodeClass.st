@@ -1,1 +1,0 @@
-nodeClass	^ SettingNode

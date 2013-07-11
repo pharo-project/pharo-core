@@ -1,1 +1,0 @@
-fullFrame	^ fullFrame

@@ -1,1 +1,0 @@
-resetContainer		container removeAllMorphs

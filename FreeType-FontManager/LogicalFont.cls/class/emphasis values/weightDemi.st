@@ -1,1 +1,0 @@
-weightDemi	^600

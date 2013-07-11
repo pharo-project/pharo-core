@@ -1,1 +1,0 @@
-handlesMouseStillDown: evt	^actWhen == #whilePressed

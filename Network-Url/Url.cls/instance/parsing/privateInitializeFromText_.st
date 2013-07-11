@@ -1,1 +1,0 @@
-privateInitializeFromText: aString	^self subclassResponsibility

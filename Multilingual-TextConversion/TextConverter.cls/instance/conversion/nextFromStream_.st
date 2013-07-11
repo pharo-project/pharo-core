@@ -1,1 +1,0 @@
-nextFromStream: aStream	self subclassResponsibility.

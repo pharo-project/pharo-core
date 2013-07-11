@@ -1,1 +1,0 @@
-- an object format for 32-bit images

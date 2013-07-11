@@ -1,1 +1,0 @@
-newLayoutFor: aClass	|aLayout|		aLayout := (self basicLayoutFor: aClass).	aLayout := aClass traitComposition composeWithLayout: aLayout.			"fill in the instvars without triggering any slots"	^ aLayout		instVarNamed: #host put: aClass;		instVarNamed: #compactClassIndex put: aClass indexIfCompact;		yourself

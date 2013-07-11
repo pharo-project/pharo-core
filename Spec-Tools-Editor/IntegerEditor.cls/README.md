@@ -1,1 +1,0 @@
-An IntegerEditor is xxxxxxxxx.Instance Variables	integer:		<Object>	slider:		<Object>	text:		<Object>integer	- xxxxxslider	- xxxxxtext	- xxxxx

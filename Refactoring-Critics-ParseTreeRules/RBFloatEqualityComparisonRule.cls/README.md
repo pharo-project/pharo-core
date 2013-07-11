@@ -1,1 +1,0 @@
-A RBFloatEqualityComparisonRule is xxxxxxxxx.Instance Variables

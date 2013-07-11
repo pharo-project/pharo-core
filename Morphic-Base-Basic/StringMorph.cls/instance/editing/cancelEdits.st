@@ -1,1 +1,0 @@
-cancelEdits	self doneWithEdits

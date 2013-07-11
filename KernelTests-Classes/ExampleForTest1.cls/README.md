@@ -1,1 +1,0 @@
-An ExampleForTest1 is xxxxxxxxx.Instance Variables

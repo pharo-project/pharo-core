@@ -1,1 +1,0 @@
-isEmpty	^self dataMap isEmpty

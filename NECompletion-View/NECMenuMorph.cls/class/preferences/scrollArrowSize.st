@@ -1,1 +1,0 @@
-scrollArrowSize	^ 8

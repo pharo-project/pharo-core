@@ -1,1 +1,0 @@
-I represent a collection of objects ordered by the collector.

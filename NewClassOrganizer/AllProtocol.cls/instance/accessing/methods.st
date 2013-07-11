@@ -1,1 +1,0 @@
-methods	^ self protocolOrganizer allMethods

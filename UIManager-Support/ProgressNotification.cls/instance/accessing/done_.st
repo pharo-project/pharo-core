@@ -1,1 +1,0 @@
-done: aNumber	done := aNumber

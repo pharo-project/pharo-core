@@ -1,1 +1,0 @@
-extendCompiledMethod	self hasFields ifTrue: [		PrimitiveTypeConflict new			layout: self;			subType: #compiledMethod;			signal ].	^ CompiledMethodLayout new

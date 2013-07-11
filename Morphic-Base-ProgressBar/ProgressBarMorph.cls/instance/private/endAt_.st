@@ -1,1 +1,0 @@
-endAt: aNumber 	end := aNumber.

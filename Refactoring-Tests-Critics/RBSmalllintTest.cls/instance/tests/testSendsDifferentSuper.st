@@ -1,1 +1,0 @@
-testSendsDifferentSuper	self ruleFor: self currentSelector

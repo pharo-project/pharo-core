@@ -1,1 +1,0 @@
-replaceText	^ self state replaceText

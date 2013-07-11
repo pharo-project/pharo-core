@@ -1,1 +1,0 @@
-localName: aString	localName := aString

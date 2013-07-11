@@ -1,1 +1,0 @@
-criticTheNonMetaclassClass	^thisClass 

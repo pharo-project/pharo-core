@@ -1,1 +1,0 @@
-addSubclasses: anObject	addSubclasses := anObject

@@ -1,1 +1,0 @@
-usedStrategy: aSelector	UsedStrategy := aSelector

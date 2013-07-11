@@ -1,1 +1,0 @@
-A MetacelloNullRecordingMCSpecLoader is xxxxxxxxx.Instance Variables	afterLoads:		<Object>	beforeLoads:		<Object>	evalDoits:		<Object>afterLoads	- xxxxxbeforeLoads	- xxxxxevalDoits	- xxxxx

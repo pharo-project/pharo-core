@@ -1,1 +1,0 @@
-dragSelectionColor	^ Color magenta

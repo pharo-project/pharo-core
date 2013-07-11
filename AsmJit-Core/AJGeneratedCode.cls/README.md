@@ -1,1 +1,0 @@
-An AJGeneratedCode is xxxxxxxxx.Instance Variables	bytes:		<Object>	labels:		<Object>bytes	- xxxxxlabels	- xxxxx

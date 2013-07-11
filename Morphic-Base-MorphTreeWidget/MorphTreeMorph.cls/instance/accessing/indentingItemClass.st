@@ -1,1 +1,0 @@
-indentingItemClass		^ MorphTreeNodeMorph

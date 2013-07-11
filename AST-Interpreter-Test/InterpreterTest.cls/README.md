@@ -1,1 +1,0 @@
-An InterpreterTest is xxxxxxxxx.Instance Variables

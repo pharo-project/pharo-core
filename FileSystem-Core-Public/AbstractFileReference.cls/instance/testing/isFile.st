@@ -1,1 +1,0 @@
-isFile	^ self resolve isFile

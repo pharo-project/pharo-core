@@ -1,1 +1,0 @@
-A FLGlobalSendSerializationTest is xxxxxxxxx.Instance Variables

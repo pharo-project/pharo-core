@@ -1,1 +1,0 @@
-lastCharacterIndex	^ self paragraph lastCharacterIndex

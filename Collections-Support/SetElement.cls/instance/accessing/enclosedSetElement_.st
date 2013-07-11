@@ -1,1 +1,0 @@
-enclosedSetElement: anObject	enclosedElement := anObject

@@ -1,1 +1,0 @@
-rationale	^ 'Checks for methods that appear to be modifying a collection that is owned by another object. Such modifications can cause problems especially if other variables are modified when the collection is modified. For example, CompositePart must set the container''s of all its parts when adding a new component.'

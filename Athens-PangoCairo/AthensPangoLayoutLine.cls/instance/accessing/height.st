@@ -1,1 +1,0 @@
-height	^ self extent y 

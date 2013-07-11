@@ -1,1 +1,0 @@
-A RBRenameTemporaryRefactoring is xxxxxxxxx.Instance Variables	interval:		<Object>	newName:		<Object>	oldName:		<Object>	parseTree:		<Object>	selector:		<Object>interval	- xxxxxnewName	- xxxxxoldName	- xxxxxparseTree	- xxxxxselector	- xxxxx

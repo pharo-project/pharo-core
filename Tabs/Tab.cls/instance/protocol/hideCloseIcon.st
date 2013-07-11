@@ -1,1 +1,0 @@
-hideCloseIcon	closeIcon hide

@@ -1,1 +1,0 @@
-initializeWithVersion: aVersion	version := aVersion

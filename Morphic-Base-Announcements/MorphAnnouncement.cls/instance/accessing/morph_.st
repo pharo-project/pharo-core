@@ -1,1 +1,0 @@
-morph: anObject	morph := anObject

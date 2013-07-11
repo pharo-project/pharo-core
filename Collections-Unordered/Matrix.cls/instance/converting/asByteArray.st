@@ -1,1 +1,0 @@
-asByteArray	^contents asByteArray

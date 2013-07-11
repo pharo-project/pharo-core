@@ -1,1 +1,0 @@
-semanticAnalyzerClass: anObject	semanticAnalyzerClass := anObject

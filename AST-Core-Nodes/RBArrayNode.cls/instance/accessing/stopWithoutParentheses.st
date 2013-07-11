@@ -1,1 +1,0 @@
-stopWithoutParentheses 	^ right

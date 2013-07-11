@@ -1,1 +1,0 @@
-I am a block closure for Eliot's closure implementation.  Not to be confused with the old BlockClosure.

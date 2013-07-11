@@ -1,1 +1,0 @@
-A NBMemoryPage is xxxxxxxxx.Instance Variables	address:		<Object>	initialBlock:		<Object>	length:		<Object>address	- xxxxxinitialBlock	- xxxxxlength	- xxxxx

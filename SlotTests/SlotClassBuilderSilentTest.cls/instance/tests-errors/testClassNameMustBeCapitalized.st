@@ -1,1 +1,0 @@
-testClassNameMustBeCapitalized	self assertInvalidClassName: #aNotCapitalizedClassName

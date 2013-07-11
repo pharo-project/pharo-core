@@ -1,1 +1,0 @@
-A tool to read and browse class comment versions.

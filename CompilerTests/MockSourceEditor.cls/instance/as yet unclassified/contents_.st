@@ -1,1 +1,0 @@
-contents: aText	text := aText

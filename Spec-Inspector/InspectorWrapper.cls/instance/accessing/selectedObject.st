@@ -1,1 +1,0 @@
-selectedObject	^ self inspector selectedObject

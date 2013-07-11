@@ -1,1 +1,0 @@
-I am a node representing a source code segement that could not be parsed. I am manly used for source-code coloring where we should parse as far as possible and mark the rest as a failure.

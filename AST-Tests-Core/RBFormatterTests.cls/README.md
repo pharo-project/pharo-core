@@ -1,1 +1,0 @@
-A RBFormatterTests is xxxxxxxxx.Instance Variables

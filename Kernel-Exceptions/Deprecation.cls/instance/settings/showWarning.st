@@ -1,1 +1,0 @@
-showWarning	^ self class showWarning

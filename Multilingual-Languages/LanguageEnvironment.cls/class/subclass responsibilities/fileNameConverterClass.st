@@ -1,1 +1,0 @@
-fileNameConverterClass	^UTF8TextConverter

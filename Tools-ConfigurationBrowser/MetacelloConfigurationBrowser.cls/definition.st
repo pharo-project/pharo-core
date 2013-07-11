@@ -1,1 +1,0 @@
-ComposableModel subclass: #MetacelloConfigurationBrowser	instanceVariableNames: 'configBrowserModel toolbarModel'	classVariableNames: ''	poolDictionaries: ''	category: 'Tools-ConfigurationBrowser'

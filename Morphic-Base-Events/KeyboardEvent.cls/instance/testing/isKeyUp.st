@@ -1,1 +1,0 @@
-isKeyUp	^self type == #keyUp

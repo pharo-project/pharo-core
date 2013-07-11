@@ -1,1 +1,0 @@
-complexInset	^ComplexBorder style: #complexInset

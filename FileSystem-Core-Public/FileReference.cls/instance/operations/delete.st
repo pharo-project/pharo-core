@@ -1,1 +1,0 @@
-delete	filesystem delete: path

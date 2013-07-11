@@ -1,1 +1,0 @@
-index: anInteger	index := anInteger

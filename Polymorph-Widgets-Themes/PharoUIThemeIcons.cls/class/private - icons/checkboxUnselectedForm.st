@@ -1,1 +1,0 @@
-checkboxUnselectedForm	^ self current checkboxUnselectedForm.

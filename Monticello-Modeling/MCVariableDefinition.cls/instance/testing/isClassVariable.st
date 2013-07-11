@@ -1,1 +1,0 @@
-isClassVariable	^ false

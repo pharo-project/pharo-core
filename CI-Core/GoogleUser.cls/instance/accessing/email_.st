@@ -1,1 +1,0 @@
-email: anObject		email := anObject

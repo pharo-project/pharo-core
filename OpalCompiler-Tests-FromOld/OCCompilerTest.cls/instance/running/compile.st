@@ -1,1 +1,0 @@
-compile	^ self compileWithFailBlock: [^ nil]

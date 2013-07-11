@@ -1,1 +1,0 @@
-A MCFileBasedRepository is xxxxxxxxx.Instance Variables	allFileNames:		<Object>	cache:		<Object>	cacheFileNames:		<Object>allFileNames	- xxxxxcache	- xxxxxcacheFileNames	- xxxxx

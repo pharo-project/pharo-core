@@ -1,1 +1,0 @@
-subscriber: aSubscriber	subscriber := aSubscriber

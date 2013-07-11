@@ -1,1 +1,0 @@
-testedEnvironment	^self testedOrganization environment

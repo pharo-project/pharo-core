@@ -1,1 +1,0 @@
-encodeString: string	^ string asByteArray

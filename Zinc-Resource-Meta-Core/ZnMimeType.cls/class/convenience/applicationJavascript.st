@@ -1,1 +1,0 @@
-applicationJavascript	^ self predefinedInstanceAt: #applicationJavascript

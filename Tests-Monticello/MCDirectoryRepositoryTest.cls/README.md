@@ -1,1 +1,0 @@
-A MCDirectoryRepositoryTest is xxxxxxxxx.Instance Variables	directory:		<Object>directory	- xxxxx

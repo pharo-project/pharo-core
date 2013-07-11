@@ -1,1 +1,0 @@
-commentForCurrentUpdate ^ '11151 More changes needed to trait/classes polymorphism	https://pharo.fogbugz.com/f/cases/11151/(pass 1)'

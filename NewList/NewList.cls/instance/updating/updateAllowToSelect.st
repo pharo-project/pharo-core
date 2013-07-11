@@ -1,1 +1,0 @@
-updateAllowToSelect	allowToSelect contents: self retrieveAllowToSelect

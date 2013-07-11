@@ -1,1 +1,0 @@
-doSomethingElseString	^'Do something else.'

@@ -1,1 +1,0 @@
-A TRemoveForMultiplenessTest is xxxxxxxxx.

@@ -1,1 +1,0 @@
-choicesMorph: aMorph	choicesMorph := aMorph

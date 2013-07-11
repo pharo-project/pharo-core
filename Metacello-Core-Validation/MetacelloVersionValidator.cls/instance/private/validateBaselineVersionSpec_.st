@@ -1,1 +1,0 @@
-validateBaselineVersionSpec: versionSpec	self subclassResponsibility

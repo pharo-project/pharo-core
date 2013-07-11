@@ -1,1 +1,0 @@
-A FilePackage is xxxxxxxxx.Instance Variables	classOrder:		<Object>	classes:		<Object>	doIts:		<Object>	fullName:		<Object>	sourceSystem:		<Object>classOrder	- xxxxxclasses	- xxxxxdoIts	- xxxxxfullName	- xxxxxsourceSystem	- xxxxx

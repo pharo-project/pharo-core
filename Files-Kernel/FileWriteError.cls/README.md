@@ -1,1 +1,0 @@
-A FileWriteError is xxxxxxxxx.Instance Variables

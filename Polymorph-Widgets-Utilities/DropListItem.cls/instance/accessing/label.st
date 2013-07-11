@@ -1,1 +1,0 @@
-label		^ displayBlock cull: model.

@@ -1,1 +1,0 @@
-An AddIntoMethodDescription is xxxxxxxxx.Instance Variables	code:		<Object>	order:		<Object>	selector:		<Object>code	- xxxxxorder	- xxxxxselector	- xxxxx

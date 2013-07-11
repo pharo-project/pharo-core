@@ -1,1 +1,0 @@
-A MCVersionReader is xxxxxxxxx.Instance Variables	definitions:		<Object>	dependencies:		<Object>	info:		<Object>	package:		<Object>definitions	- xxxxxdependencies	- xxxxxinfo	- xxxxxpackage	- xxxxx

@@ -1,1 +1,0 @@
-zipFileComment	^zipFileComment asString

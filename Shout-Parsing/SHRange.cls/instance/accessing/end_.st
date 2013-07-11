@@ -1,1 +1,0 @@
-end: anInteger 	end := anInteger

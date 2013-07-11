@@ -1,1 +1,0 @@
-extraRootsRegistry	^ self forCurrentPlatform extraRootsRegistry

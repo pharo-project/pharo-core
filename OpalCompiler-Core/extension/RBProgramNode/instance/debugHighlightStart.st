@@ -1,1 +1,0 @@
-debugHighlightStart	^ self start 

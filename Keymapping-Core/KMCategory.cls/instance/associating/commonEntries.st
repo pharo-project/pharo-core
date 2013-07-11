@@ -1,1 +1,0 @@
-commonEntries	^self entriesAt: #all

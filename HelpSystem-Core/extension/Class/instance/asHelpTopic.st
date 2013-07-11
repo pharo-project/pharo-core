@@ -1,1 +1,0 @@
-asHelpTopic	^SystemReference forClass: self

@@ -1,1 +1,0 @@
-selectedNode: theSelectedNode	selectedNode := theSelectedNode .

@@ -1,1 +1,0 @@
-withoutClasses	self removeElementsCategorized: #definedClasses

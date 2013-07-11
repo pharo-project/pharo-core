@@ -1,1 +1,0 @@
-worldMenu	^ owner worldMenu	

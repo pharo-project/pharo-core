@@ -1,1 +1,0 @@
-An AJJumpLabel is xxxxxxxxx.Instance Variables	isSet:		<Object>isSet	- xxxxx

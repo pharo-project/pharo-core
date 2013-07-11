@@ -1,1 +1,0 @@
-A RBRefactoryChangeManager is xxxxxxxxx.Instance Variables	isPerformingRefactoring:		<Object>	redo:		<Object>	undo:		<Object>isPerformingRefactoring	- xxxxxredo	- xxxxxundo	- xxxxx

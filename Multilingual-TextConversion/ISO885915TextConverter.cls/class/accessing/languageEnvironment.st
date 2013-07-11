@@ -1,1 +1,0 @@
-languageEnvironment	^Latin9Environment

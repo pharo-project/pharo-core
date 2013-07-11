@@ -1,1 +1,0 @@
-identityHash	^self hashMultiply

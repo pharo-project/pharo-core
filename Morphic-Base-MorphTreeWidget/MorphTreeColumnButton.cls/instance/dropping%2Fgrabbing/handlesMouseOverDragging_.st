@@ -1,1 +1,0 @@
-handlesMouseOverDragging: evt	^ true

@@ -1,1 +1,0 @@
-fullName: aString	fullName := aString.		#UserManager asClassIfPresent: [:usersManager | 		usersManager default currentUser setUserName: aString forGroup: #author ].

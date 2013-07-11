@@ -1,1 +1,0 @@
-specialCommands	^self binding specialCommands

@@ -1,1 +1,0 @@
-A MethodNodeTest is xxxxxxxxx.Instance Variables

@@ -1,1 +1,0 @@
-testDoPop	| selector methodNode scanner |	selector := (methodNode := self compile2methodNode: 'popStackBytecode 3 + 4') selector.	scanner := InstructionStream on: methodNode method.	3		timesRepeat: [scanner nextInstruction].	self assert: scanner peekInstruction selector == #doPop description: 'Failed ' , selector

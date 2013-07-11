@@ -1,1 +1,0 @@
-A MetacelloPackagesSpec is xxxxxxxxx.Instance Variables

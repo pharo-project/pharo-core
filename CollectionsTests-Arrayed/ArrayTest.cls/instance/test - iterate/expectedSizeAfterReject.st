@@ -1,1 +1,0 @@
-expectedSizeAfterReject	^1

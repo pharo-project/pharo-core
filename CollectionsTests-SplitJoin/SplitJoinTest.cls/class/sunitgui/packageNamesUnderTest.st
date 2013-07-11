@@ -1,1 +1,0 @@
-packageNamesUnderTest	<ignoreForCoverage>	^ #('SplitJoin')

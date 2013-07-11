@@ -1,1 +1,0 @@
-A RBGenerateEqualHashRefactoring is xxxxxxxxx.Instance Variables	variables:		<Object>variables	- xxxxx

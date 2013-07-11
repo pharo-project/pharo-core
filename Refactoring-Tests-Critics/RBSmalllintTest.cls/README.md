@@ -1,1 +1,0 @@
-A RBSmalllintTest is xxxxxxxxx.Instance Variables

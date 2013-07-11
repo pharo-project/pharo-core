@@ -1,1 +1,0 @@
-basicIsSymlink: aNode	^self subclassResponsibility 	

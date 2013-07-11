@@ -1,1 +1,0 @@
-merge: aSpec	self subclassResponsibility

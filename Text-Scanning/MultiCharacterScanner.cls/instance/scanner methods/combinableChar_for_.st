@@ -1,1 +1,0 @@
-combinableChar: char for: prevEntity

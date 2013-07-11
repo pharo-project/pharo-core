@@ -1,1 +1,0 @@
-snapshotWriterClass	^ MCStWriter

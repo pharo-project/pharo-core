@@ -1,1 +1,0 @@
-A RBInlineMethodFromComponentTest is xxxxxxxxx.Instance Variables

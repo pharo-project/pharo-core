@@ -1,1 +1,0 @@
-basicNext	^ self next.

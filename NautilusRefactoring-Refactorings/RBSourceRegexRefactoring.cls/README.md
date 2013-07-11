@@ -1,1 +1,0 @@
-A RBSourceRegexRefactoring is xxxxxxxxx.Instance Variables

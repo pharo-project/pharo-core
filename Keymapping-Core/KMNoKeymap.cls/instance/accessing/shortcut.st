@@ -1,1 +1,0 @@
-shortcut	^ KMNoShortcut new

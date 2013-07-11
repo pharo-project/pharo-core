@@ -1,1 +1,0 @@
-asDuration  	^ self 

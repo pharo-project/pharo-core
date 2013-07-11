@@ -1,1 +1,0 @@
-A RBSendsDeprecatedMethodToGlobalRule is xxxxxxxxx.Instance Variables

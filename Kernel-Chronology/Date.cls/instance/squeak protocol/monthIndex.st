@@ -1,1 +1,0 @@
-monthIndex	^ super month

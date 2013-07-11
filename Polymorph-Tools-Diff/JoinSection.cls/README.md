@@ -1,1 +1,0 @@
-A JoinSection is xxxxxxxxx.Instance Variables	borderColor:		<Object>	borderWidth:		<Object>	dst:		<Object>	shape:		<Object>	src:		<Object>	type:		<Object>	width:		<Object>borderColor	- xxxxxborderWidth	- xxxxxdst	- xxxxxshape	- xxxxxsrc	- xxxxxtype	- xxxxxwidth	- xxxxx

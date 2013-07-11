@@ -1,1 +1,0 @@
-title: anObject		title := anObject

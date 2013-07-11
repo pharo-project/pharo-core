@@ -1,1 +1,0 @@
-isEscapingWrite	^escaping = #escapingWrite

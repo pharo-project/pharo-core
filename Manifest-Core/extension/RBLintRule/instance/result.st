@@ -1,1 +1,0 @@
-result	^ self subclassResponsibility

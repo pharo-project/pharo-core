@@ -1,1 +1,0 @@
-errorPosition	^stream position

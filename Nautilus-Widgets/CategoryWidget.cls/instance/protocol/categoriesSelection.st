@@ -1,1 +1,0 @@
-categoriesSelection	^ categoriesSelection

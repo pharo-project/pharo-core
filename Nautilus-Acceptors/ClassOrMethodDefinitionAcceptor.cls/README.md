@@ -1,1 +1,0 @@
-I am an acceptor in the "weird" context when the text entered could be a class definition or a method definition.

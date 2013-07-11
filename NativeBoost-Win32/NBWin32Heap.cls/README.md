@@ -1,1 +1,0 @@
-A NBWin32Heap is xxxxxxxxx.Instance Variables

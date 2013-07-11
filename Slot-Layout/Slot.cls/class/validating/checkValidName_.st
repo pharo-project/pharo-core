@@ -1,1 +1,0 @@
-checkValidName: aSymbol	aSymbol isPseudovariableName ifTrue: [ 		^ InvalidSlotNameConflict signal: aSymbol, ' is an invalid name for a slot' ]

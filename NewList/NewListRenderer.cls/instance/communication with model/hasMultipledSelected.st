@@ -1,1 +1,0 @@
-hasMultipledSelected	^ self listSource hasMultipledSelected

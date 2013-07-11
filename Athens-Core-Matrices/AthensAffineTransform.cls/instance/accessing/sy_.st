@@ -1,1 +1,0 @@
-sy: number	sy := number

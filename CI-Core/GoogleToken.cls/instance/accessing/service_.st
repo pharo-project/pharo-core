@@ -1,1 +1,0 @@
-service: anObject		service := anObject

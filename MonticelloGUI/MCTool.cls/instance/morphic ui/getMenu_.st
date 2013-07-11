@@ -1,1 +1,0 @@
-getMenu: aMenu	^aMenu

@@ -1,1 +1,0 @@
-instanceVariableClass	^RGInstanceVariableDefinition

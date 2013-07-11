@@ -1,1 +1,0 @@
-isSpecialVariable	^false

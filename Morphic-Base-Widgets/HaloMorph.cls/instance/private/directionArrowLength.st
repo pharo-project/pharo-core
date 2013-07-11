@@ -1,1 +1,0 @@
-directionArrowLength	^ 25

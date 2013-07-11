@@ -1,1 +1,0 @@
-potentialDropMorph: anObject	potentialDropMorph := anObject

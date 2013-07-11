@@ -1,1 +1,0 @@
-language: aString	language := aString

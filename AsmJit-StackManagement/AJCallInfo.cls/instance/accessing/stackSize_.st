@@ -1,1 +1,0 @@
-stackSize: anObject	stackSize := anObject

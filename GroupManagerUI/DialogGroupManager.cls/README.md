@@ -1,1 +1,0 @@
-A DialogGroupManager is xxxxxxxxx.Instance Variables	groups:		<Object>groups	- xxxxx

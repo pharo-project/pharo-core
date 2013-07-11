@@ -1,1 +1,0 @@
-fullName	^ self resolve fullName

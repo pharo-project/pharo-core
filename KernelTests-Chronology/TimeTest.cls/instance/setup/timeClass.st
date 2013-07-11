@@ -1,1 +1,0 @@
-timeClass	^ Time

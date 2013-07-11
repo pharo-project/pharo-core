@@ -1,1 +1,0 @@
-A FLGlobalSendNotPresentMock is xxxxxxxxx.Instance Variables

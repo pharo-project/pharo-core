@@ -1,1 +1,0 @@
-haloEnclosesFullBounds	^ self class haloEnclosesFullBounds

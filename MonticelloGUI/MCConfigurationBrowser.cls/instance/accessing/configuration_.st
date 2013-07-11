@@ -1,1 +1,0 @@
-configuration: aConfiguration	configuration := aConfiguration

@@ -1,1 +1,0 @@
-categoryContainer	^ KMFactory keymapContainer

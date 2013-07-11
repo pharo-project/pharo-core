@@ -1,1 +1,0 @@
-A WriteStreamTest is xxxxxxxxx.Instance Variables

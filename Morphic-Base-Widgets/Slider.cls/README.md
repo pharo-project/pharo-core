@@ -1,1 +1,0 @@
-A Slider is xxxxxxxxx.Instance Variables	descending:		<Object>	setValueSelector:		<Object>	slider:		<Object>	sliderColor:		<Object>	sliderShadow:		<Object>	value:		<Object>descending	- xxxxxsetValueSelector	- xxxxxslider	- xxxxxsliderColor	- xxxxxsliderShadow	- xxxxxvalue	- xxxxx

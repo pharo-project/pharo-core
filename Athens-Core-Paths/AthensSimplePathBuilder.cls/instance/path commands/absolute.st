@@ -1,1 +1,0 @@
-absolute	absolute := true.

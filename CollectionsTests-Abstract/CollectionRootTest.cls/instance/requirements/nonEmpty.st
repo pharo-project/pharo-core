@@ -1,1 +1,0 @@
-nonEmpty	self subclassResponsibility

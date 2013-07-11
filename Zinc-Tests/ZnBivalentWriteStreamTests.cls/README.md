@@ -1,1 +1,0 @@
-A ZnBivalentWriteStreamTests is xxxxxxxxx.Instance Variables

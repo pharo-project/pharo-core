@@ -1,1 +1,0 @@
-bypassProgressBars: anObject	bypassProgressBars := anObject

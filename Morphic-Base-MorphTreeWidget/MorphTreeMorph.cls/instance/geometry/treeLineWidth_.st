@@ -1,1 +1,0 @@
-treeLineWidth: anInteger	treeLineWidth := anInteger

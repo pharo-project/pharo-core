@@ -1,1 +1,0 @@
-hasName	^name notNil

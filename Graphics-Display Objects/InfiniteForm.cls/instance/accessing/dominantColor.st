@@ -1,1 +1,0 @@
-dominantColor	^ patternForm dominantColor

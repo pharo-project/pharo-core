@@ -1,1 +1,0 @@
-isWrite	^usage = #write

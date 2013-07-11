@@ -1,1 +1,0 @@
-A GoogleIssueDescription is a representation of a Google Issue Tracker issue first comment (the Google API have a special name for it)

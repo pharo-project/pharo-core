@@ -1,1 +1,0 @@
-An ExpanderMorphAnnouncement is xxxxxxxxx.Instance Variables	expanderMorph:		<Object>expanderMorph	- xxxxx

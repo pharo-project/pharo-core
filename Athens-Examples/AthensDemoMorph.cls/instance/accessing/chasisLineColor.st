@@ -1,1 +1,0 @@
-chasisLineColor	^ Color white

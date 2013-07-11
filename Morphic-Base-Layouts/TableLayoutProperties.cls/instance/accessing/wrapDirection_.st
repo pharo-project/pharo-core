@@ -1,1 +1,0 @@
-wrapDirection: aSymbol	wrapDirection := aSymbol

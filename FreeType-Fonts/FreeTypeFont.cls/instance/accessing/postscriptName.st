@@ -1,1 +1,0 @@
-postscriptName	^self face postscriptName

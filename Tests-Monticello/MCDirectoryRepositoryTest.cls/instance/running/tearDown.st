@@ -1,1 +1,0 @@
-tearDown	self directory deleteAll.	

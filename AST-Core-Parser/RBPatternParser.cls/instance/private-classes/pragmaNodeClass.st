@@ -1,1 +1,0 @@
-pragmaNodeClass	^RBPatternPragmaNode

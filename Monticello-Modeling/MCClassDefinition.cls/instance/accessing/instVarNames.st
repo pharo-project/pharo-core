@@ -1,1 +1,0 @@
-instVarNames	^ self selectVariables: #isInstanceVariable

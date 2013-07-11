@@ -1,1 +1,0 @@
-gravatarAddress	^ gravatarAddress

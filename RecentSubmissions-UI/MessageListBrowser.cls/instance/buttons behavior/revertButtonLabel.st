@@ -1,1 +1,0 @@
-revertButtonLabel	^'Revert'

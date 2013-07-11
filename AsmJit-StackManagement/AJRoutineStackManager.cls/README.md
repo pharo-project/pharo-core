@@ -1,1 +1,0 @@
-An AJRoutineStackManager is xxxxxxxxx.Instance Variables	assembler:		<Object>	calls:		<Object>	extraStackBytes:		<Object>	instructions:		<Object>	maxTemps:		<Object>	noStackFrame:		<Object>	temps:		<Object>assembler	- xxxxxcalls	- xxxxxextraStackBytes	- xxxxxinstructions	- xxxxxmaxTemps	- xxxxxnoStackFrame	- xxxxxtemps	- xxxxx

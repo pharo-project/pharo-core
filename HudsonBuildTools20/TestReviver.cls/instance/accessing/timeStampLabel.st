@@ -1,1 +1,0 @@
-timeStampLabel	^ timeStampLabel

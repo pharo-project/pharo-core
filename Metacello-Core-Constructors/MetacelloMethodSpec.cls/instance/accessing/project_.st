@@ -1,1 +1,0 @@
-project: anObject	project := anObject

@@ -1,1 +1,0 @@
-CommandLineHandler subclass: #TestRunnerCommandLineHandler	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'HudsonBuildTools20'

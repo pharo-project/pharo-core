@@ -1,1 +1,0 @@
-variableAssignedLiteral	temporaryVariable := #() 

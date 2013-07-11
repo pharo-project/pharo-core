@@ -1,1 +1,0 @@
-A ClassListNodeExample is xxxxxxxxx.Instance Variables

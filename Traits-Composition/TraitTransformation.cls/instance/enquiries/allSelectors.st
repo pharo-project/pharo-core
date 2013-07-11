@@ -1,1 +1,0 @@
-allSelectors	^self subclassResponsibility

@@ -1,1 +1,0 @@
-A BasicClassOrganizer is xxxxxxxxx.Instance Variables	classComment:		<Object>	commentStamp:		<Object>	subject:		<Object>classComment	- xxxxxcommentStamp	- xxxxxsubject	- xxxxx

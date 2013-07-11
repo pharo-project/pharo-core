@@ -1,1 +1,0 @@
-progressBarEnabled: aBoolean  ProgressBarEnabled := aBoolean

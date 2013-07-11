@@ -1,1 +1,0 @@
-An AGroupHasBeenUnregistered is xxxxxxxxx.Instance Variables

@@ -1,1 +1,0 @@
-isGeneralPurpose	^ true

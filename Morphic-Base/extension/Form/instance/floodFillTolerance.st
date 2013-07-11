@@ -1,1 +1,0 @@
-floodFillTolerance	^ self class floodFillTolerance

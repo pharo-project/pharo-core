@@ -1,1 +1,0 @@
-A ContextCompilationTest is xxxxxxxxx.Instance Variables

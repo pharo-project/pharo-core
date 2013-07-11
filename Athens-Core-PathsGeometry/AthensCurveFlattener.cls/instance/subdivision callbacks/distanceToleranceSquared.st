@@ -1,1 +1,0 @@
-distanceToleranceSquared	^ self lengthToleranceSquared 

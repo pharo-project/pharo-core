@@ -1,1 +1,0 @@
-isRemote	^true

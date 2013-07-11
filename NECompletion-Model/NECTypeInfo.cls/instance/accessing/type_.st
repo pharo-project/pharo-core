@@ -1,1 +1,0 @@
-type: aClass 	type := aClass

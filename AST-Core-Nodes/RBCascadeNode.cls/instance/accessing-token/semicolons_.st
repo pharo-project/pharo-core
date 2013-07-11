@@ -1,1 +1,0 @@
-semicolons: anArray	semicolons := anArray

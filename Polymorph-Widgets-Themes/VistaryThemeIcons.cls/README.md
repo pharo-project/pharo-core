@@ -1,1 +1,0 @@
-Vistary theme specific icons.

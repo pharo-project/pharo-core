@@ -1,1 +1,0 @@
-visitInstanceVariableNode: anInstanceVariableNode

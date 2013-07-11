@@ -1,1 +1,0 @@
-composeWithLayout: aLayout	" Standard traits don't have any state "	^ aLayout

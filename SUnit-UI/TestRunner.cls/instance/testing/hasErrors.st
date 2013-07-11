@@ -1,1 +1,0 @@
-hasErrors	^ result hasErrors.

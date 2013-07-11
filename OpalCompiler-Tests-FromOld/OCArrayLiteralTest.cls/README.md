@@ -1,1 +1,0 @@
-An OCArrayLiteralTest is xxxxxxxxx.Instance Variables

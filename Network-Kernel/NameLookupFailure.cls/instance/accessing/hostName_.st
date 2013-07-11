@@ -1,1 +1,0 @@
-hostName: aString	hostName := aString

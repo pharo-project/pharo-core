@@ -1,1 +1,0 @@
-browsedEnvironment	^RBBrowserEnvironment new

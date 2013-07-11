@@ -1,1 +1,0 @@
-allMethodSelectors		^ protocolOrganizer allMethods

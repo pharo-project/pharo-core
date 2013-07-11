@@ -1,1 +1,0 @@
-pageSearchText	^ pageSearchText ifNil: [pageSearchText := '']

@@ -1,1 +1,0 @@
-A Cookie is a simple object which kept a value during a defined amount of time.

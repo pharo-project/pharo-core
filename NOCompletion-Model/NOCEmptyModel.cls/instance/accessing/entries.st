@@ -1,1 +1,0 @@
-entries	^ Array new

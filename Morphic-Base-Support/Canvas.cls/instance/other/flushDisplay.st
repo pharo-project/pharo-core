@@ -1,1 +1,0 @@
-flushDisplay	"Empty hook method."

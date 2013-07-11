@@ -1,1 +1,0 @@
-A NBNativeCodeError is xxxxxxxxx.Instance Variables	errorCode:		<Object>errorCode	- xxxxx

@@ -1,1 +1,0 @@
-testJumpBackTo	| ir |	ir := IRBuilderTest new testJumpBackTo.	self shouldnt: [IRInterpreter new interpret: ir ] raise: Error

@@ -1,1 +1,0 @@
-processBrowser	^ Smalltalk tools processBrowser

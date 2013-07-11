@@ -1,1 +1,0 @@
-A NBMemoryBlock is xxxxxxxxx.Instance Variables	address:		<Object>	free:		<Object>	left:		<Object>	length:		<Object>	right:		<Object>address	- xxxxxfree	- xxxxxleft	- xxxxxlength	- xxxxxright	- xxxxx

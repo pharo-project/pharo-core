@@ -1,1 +1,0 @@
-newQueue	^ LIFOQueue new

@@ -1,1 +1,0 @@
-hasNoProject: aBoolean	hasNoProject := aBoolean

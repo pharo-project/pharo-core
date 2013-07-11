@@ -1,1 +1,0 @@
-A ClassHierarchyTest is xxxxxxxxx.Instance Variables

@@ -1,1 +1,0 @@
-A SwitchUsers is a GUI to swith the current user

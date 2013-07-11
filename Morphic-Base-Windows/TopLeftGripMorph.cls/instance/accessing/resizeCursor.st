@@ -1,1 +1,0 @@
-resizeCursor	^ Cursor resizeForEdge: #topLeft

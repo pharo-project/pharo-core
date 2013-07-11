@@ -1,1 +1,0 @@
-readFrom: stream	self subclassResponsibility 

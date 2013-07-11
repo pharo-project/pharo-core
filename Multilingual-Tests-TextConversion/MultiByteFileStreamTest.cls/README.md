@@ -1,1 +1,0 @@
-A MultiByteFileStreamTest is xxxxxxxxx.Instance Variables

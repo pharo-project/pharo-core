@@ -1,1 +1,0 @@
-labelGraphic	^ labelGraphic

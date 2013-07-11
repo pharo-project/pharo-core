@@ -1,1 +1,0 @@
-collection	^ collectionWith4Elements.

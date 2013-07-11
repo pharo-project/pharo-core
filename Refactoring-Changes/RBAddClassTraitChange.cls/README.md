@@ -1,1 +1,0 @@
-A RBAddClassTraitChange is xxxxxxxxx.Instance Variables

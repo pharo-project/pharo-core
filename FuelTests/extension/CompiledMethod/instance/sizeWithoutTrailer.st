@@ -1,1 +1,0 @@
-sizeWithoutTrailer	^ self trailer endPC

@@ -1,1 +1,0 @@
-A ZnServerTests is xxxxxxxxx.Instance Variables

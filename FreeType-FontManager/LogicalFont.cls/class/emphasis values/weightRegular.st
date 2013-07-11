@@ -1,1 +1,0 @@
-weightRegular	^400

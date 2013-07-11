@@ -1,1 +1,0 @@
-ancestors	^self goferPackage ancestors

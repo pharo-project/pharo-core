@@ -1,1 +1,0 @@
-initialExtent 	^ 800@500

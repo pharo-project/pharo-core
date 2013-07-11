@@ -1,1 +1,0 @@
-temporaries	^ self body temporaries

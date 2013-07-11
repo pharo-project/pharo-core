@@ -1,1 +1,0 @@
-handlesDoubleClick		^ doubleClickSelector notNil

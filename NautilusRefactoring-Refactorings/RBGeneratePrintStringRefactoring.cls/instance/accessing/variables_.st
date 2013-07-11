@@ -1,1 +1,0 @@
-variables: anArray	variables := anArray

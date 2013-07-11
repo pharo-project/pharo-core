@@ -1,1 +1,0 @@
-firstClickedMorph	^ firstClickedMorph

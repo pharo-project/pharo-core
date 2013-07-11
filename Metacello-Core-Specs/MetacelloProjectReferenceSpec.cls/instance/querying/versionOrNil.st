@@ -1,1 +1,0 @@
-versionOrNil	^self projectReference versionOrNil

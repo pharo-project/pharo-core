@@ -1,1 +1,0 @@
-isRead	^usage = #read

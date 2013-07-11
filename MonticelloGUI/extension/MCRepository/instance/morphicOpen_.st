@@ -1,1 +1,0 @@
-morphicOpen: aWorkingCopy	self subclassResponsibility 

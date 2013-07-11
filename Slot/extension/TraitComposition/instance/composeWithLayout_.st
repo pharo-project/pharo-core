@@ -1,1 +1,0 @@
-composeWithLayout: aLayout	| result |	result := aLayout.	transformations do: [ :aTransformation |		result := aTransformation composeWithLayout: result ].	^ result

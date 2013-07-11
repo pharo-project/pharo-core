@@ -1,1 +1,0 @@
-A RBTemporaryToInstanceVariableRefactoring is xxxxxxxxx.Instance Variables	selector:		<Object>	temporaryVariableName:		<Object>selector	- xxxxxtemporaryVariableName	- xxxxx

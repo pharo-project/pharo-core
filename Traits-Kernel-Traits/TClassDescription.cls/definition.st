@@ -1,1 +1,0 @@
-Trait named: #TClassDescription	uses: TClassAndTraitDescription - {#removeSelector:}	category: 'Traits-Kernel-Traits'

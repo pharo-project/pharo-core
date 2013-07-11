@@ -1,1 +1,0 @@
-removeLast	self history removeLast

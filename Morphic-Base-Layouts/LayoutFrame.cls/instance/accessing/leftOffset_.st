@@ -1,1 +1,0 @@
-leftOffset: anInteger	leftOffset := anInteger

@@ -1,1 +1,0 @@
-A MetacelloToolBoxConstructor is xxxxxxxxx.Instance Variables	currentSection:		<Object>	methodSections:		<Object>currentSection	- xxxxxmethodSections	- xxxxx

@@ -1,1 +1,0 @@
-narrowWith: aString	self subclassResponsibility 

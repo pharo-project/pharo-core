@@ -1,1 +1,0 @@
-isAbsolute	^ path isAbsolute

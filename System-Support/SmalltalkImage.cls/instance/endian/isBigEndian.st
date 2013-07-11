@@ -1,1 +1,0 @@
-isBigEndian	^self endianness == #big

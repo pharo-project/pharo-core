@@ -1,1 +1,0 @@
-builderManifestClass	^ BuilderManifest

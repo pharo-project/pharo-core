@@ -1,1 +1,0 @@
-unregister	GroupsManager unregister: self
