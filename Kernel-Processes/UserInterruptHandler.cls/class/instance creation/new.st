@@ -1,1 +1,1 @@
-new	^super new setInterruptKeyValue: ($. asciiValue bitOr: 16r0800)
+new	^ super new setInterruptKeyValue: $. asciiValue

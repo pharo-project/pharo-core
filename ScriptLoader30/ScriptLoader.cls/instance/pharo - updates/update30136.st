@@ -1,1 +1,0 @@
-update30136	"self new update30136"	self withUpdateLog: '10385 Spec: SliderModel DNU updateLabel	https://pharo.fogbugz.com/f/cases/10385	10378 There are 44 direct references to Scanner	https://pharo.fogbugz.com/f/cases/10378'.	self loadTogether: self script233 merge: false.	self flushCaches.

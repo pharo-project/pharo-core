@@ -1,1 +1,0 @@
-update30210	"self new update30210"	self withUpdateLog: '10976 kernel methods refactor	https://pharo.fogbugz.com/f/cases/10976/kernel-methods-refactor'.	self loadTogether: self script309 merge: false.	self flushCaches.

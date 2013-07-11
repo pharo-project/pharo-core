@@ -1,1 +1,0 @@
-update30247	"self new update30247"	self withUpdateLog: '11046 Recategorization is not tracked	https://pharo.fogbugz.com/f/cases/11046'.	self loadTogether: self script346 merge: false.	MCWorkingCopy registerForNotifications..	self flushCaches.

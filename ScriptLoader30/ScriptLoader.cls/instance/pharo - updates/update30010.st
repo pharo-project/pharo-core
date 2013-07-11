@@ -1,1 +1,0 @@
-update30010	"self new update30010"	self withUpdateLog: '10076 Cleaning code formatting of criticbrowser	https://pharo.fogbugz.com/f/cases/10076/	10101 Object: remove #class	https://pharo.fogbugz.com/f/cases/10101'.	self loadTogether: self script109 merge: false.	self flushCaches.

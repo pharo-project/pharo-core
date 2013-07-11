@@ -1,1 +1,0 @@
-update30153	"self new update30153"	self withUpdateLog: '10712 safer use of RPackage in ClassDescription>>#addAndClassifySelector:withMethod:inProtocol:notifying:	https://pharo.fogbugz.com/f/cases/10712'.	self loadTogether: self script250 merge: false.	self flushCaches.

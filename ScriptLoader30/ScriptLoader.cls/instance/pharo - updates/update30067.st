@@ -1,1 +1,0 @@
-update30067	"self new update30067"	self withUpdateLog: '10420 Simplify #reformatMethodAt:	https://pharo.fogbugz.com/f/cases/10420	10416 New Spec polywidget	https://pharo.fogbugz.com/f/cases/10416'.	self loadTogether: self script164 merge: false.	self flushCaches.

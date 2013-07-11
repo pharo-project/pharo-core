@@ -1,1 +1,0 @@
-update30169	"self new update30169"	self withUpdateLog: '10621 Create a lint rule to make sure UITheme and ThemeIcons are not used anymore	https://pharo.fogbugz.com/f/cases/10621	10763	Lots of Opal test failing in 168: update tests	https://pharo.fogbugz.com/f/cases/10763			'.	self loadTogether: self script266 merge: false.	self flushCaches.

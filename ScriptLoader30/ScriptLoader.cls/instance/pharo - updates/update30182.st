@@ -1,1 +1,0 @@
-update30182	"self new update30182"	self withUpdateLog: '10115 MCClassTraitDefinition DNU printDefinitionOn:	https://pharo.fogbugz.com/f/cases/10115	'.	self loadTogether: self script279 merge: false.	RPackageOrganizer initialize.	self flushCaches.

@@ -1,1 +1,0 @@
-update30254	"self new update30254"	self withUpdateLog: '7492 Convert MetacelloConfigurationBrowser to Spec	https://pharo.fogbugz.com/f/cases/7492	11056 Traits in _UnpackagedPackage	https://pharo.fogbugz.com/f/cases/11056'.	self loadTogether: self script352 merge: false.	RPackageOrganizer initialize..	self flushCaches.

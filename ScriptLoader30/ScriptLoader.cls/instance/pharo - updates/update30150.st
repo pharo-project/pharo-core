@@ -1,1 +1,0 @@
-update30150	"self new update30150"	self withUpdateLog: '10704 split package Text into smaller components	https://pharo.fogbugz.com/f/cases/10704'.	self loadTogether: self script247 merge: false.	ScriptLoader new     unregisterPackage: 'Text';    unregisterPackage: 'TextTests'.	self flushCaches.

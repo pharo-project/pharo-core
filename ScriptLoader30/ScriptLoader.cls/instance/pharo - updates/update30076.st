@@ -1,1 +1,0 @@
-update30076	"self new update30076"	self withUpdateLog: '10453 cleanup logMethodSource2:... and compile2:	https://pharo.fogbugz.com/f/cases/10453	10451 Compiler API: compatibility API class side --> instance side	https://pharo.fogbugz.com/f/cases/10451		'.	self loadTogether: self script173 merge: false.	self flushCaches.

@@ -1,1 +1,0 @@
-update30161	"self new update30161"	self withUpdateLog: '10720 Morphic-Base classes have extension methods of Morphic	https://pharo.fogbugz.com/f/cases/10720'.	self loadTogether: self script258 merge: false.	self flushCaches.

@@ -1,1 +1,0 @@
-update30016	"self new update30016"	self withUpdateLog: '10168 Spec new layout management	https://pharo.fogbugz.com/f/cases/10168	'.	self loadTogether: self script115 merge: false.	self flushCaches.

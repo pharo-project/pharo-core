@@ -1,1 +1,0 @@
-update30184	"self new update30184"	self withUpdateLog: '10857 Add new public API to old compiler	https://pharo.fogbugz.com/f/cases/10857'.	self loadTogether: self script281 merge: false.	self flushCaches.

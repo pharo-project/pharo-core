@@ -1,1 +1,0 @@
-update30197	"self new update30197"	self withUpdateLog: '10636 consider change "findString: arg startingAt:1 > 0" to "includesSubstring: arg"	https://pharo.fogbugz.com/f/cases/10636	10877 Cleanup in polymorphic ver2	https://pharo.fogbugz.com/f/cases/10877'.	self loadTogether: self script296 merge: false.	self flushCaches.

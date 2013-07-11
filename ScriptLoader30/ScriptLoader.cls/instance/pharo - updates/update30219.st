@@ -1,1 +1,0 @@
-update30219	"self new update30219"	self withUpdateLog: '10735 Cleaning ImageMorph API	use form: for ImageMorph new form: ... and not image because image does not convey what is expected. 	https://pharo.fogbugz.com/default.asp?10735'.	self loadTogether: self script318 merge: false.	self flushCaches.

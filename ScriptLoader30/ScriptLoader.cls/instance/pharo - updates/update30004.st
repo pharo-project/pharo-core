@@ -1,1 +1,0 @@
-update30004	"self new update30004"	self withUpdateLog: '10017 ProtocolCLient do not propagate the erros from the server	https://pharo.fogbugz.com/f/cases/100177610 remove #nameForUndoWording from Morph	https://pharo.fogbugz.com/f/cases/7610'.	self loadTogether: self script103 merge: false.	self flushCaches.

@@ -1,1 +1,0 @@
-update30196	"self new update30196"	self withUpdateLog: '10847 Scanner should return error tokens when scanning wrong tokens	https://pharo.fogbugz.com/f/cases/10847	10876 CleanUp in Morphic	https://pharo.fogbugz.com/f/cases/10876'.	self loadTogether: self script295 merge: false.	self flushCaches.

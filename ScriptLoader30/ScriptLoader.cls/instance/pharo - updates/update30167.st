@@ -1,1 +1,0 @@
-update30167	"self new update30167"	self withUpdateLog: '10727 Cleaning trigger: use for deprecation of event	https://pharo.fogbugz.com/f/cases/10727	6489 Spec-ify DropListModel / TextModel	https://pharo.fogbugz.com/f/cases/close/6489'.	self loadTogether: self script264 merge: false.	self flushCaches.

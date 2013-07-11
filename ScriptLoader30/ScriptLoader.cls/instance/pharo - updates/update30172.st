@@ -1,1 +1,0 @@
-update30172	"self new update30172"	self withUpdateLog: '10544 Fixes to RING meta model	https://pharo.fogbugz.com/f/cases/10544	10771 SpecDebugger calls wrong spec	https://pharo.fogbugz.com/f/cases/10771	10772 Smalltalk condenseChanges broken	https://pharo.fogbugz.com/f/cases/10772'.	self loadTogether: self script269 merge: false.	self flushCaches.

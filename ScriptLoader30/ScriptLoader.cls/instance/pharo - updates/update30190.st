@@ -1,1 +1,0 @@
-update30190	"self new update30190"	self withUpdateLog: '10779 - Parsing faulty method ends with incorrect ast. Thanks Gisela	https://pharo.fogbugz.com/default.asp?	10801 - Use UTF8 encoding in MC snapshot source.st	https://pharo.fogbugz.com/default.asp?10801	Thanks nicolas cellier and sven.'.	self loadTogether: self script289 merge: false.	self flushCaches.

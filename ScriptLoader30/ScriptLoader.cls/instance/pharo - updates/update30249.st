@@ -1,1 +1,0 @@
-update30249	"self new update30249"	self withUpdateLog: '11047 Integrate new class builder step 2	https://pharo.fogbugz.com/f/cases/11047		'.	self loadTogether: self script348 merge: false.	SlotVirus spread..	self flushCaches.

@@ -1,1 +1,0 @@
-update30162	"self new update30162"	self withUpdateLog: '10710 DefaultCommandLineHandler class>>#startUp: cleanup	https://pharo.fogbugz.com/f/cases/10710'.	self loadTogether: self script259 merge: false.	self flushCaches.

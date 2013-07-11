@@ -1,1 +1,0 @@
-update30141	"self new update30141"	self withUpdateLog: '10153 Dependency Symbol -> Scanner	https://pharo.fogbugz.com/f/cases/10153'.	self loadTogether: self script238 merge: false.	self flushCaches.

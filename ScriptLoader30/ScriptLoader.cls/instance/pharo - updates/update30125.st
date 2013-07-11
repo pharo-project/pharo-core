@@ -1,1 +1,0 @@
-update30125	"self new update30125"	self withUpdateLog: '10576 reducing references/coupling to UITheme and ThemeIcons	https://pharo.fogbugz.com/f/cases/10576'.	self loadTogether: self script222 merge: false.	ThemeIcons current: PharoUIThemeIcons new.World resetWorldMenu.NautilusUI resetIconCaches.	self flushCaches.

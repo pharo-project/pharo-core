@@ -1,1 +1,0 @@
-update30217	"self new update30217"	self withUpdateLog: '10972 Tabs example broken	https://pharo.fogbugz.com/f/cases/10972	10996 Same category for = messages	https://pharo.fogbugz.com/f/cases/10996	10997 Some typos in StartupPreferences + updating comments	https://pharo.fogbugz.com/f/cases/10997	'.	self loadTogether: self script316 merge: false.	self flushCaches.

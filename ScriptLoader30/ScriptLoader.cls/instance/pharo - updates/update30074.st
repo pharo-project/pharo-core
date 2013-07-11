@@ -1,1 +1,0 @@
-update30074	"self new update30074"	self withUpdateLog: '10447 Sync Opal again with 3.0	https://pharo.fogbugz.com/f/cases/10447	10446 deprecate #parserClass	https://pharo.fogbugz.com/f/cases/10446'.	self loadTogether: self script171 merge: false.	self flushCaches.

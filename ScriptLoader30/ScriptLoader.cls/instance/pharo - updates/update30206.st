@@ -1,1 +1,0 @@
-update30206	"self new update30206"	self withUpdateLog: '10949 Bug when a method is recategorized	https://pharo.fogbugz.com/f/cases/10949	10963 Nautilus add accessors	https://pharo.fogbugz.com/f/cases/10963	10962 NewList fix in deselectAll	https://pharo.fogbugz.com/f/cases/10962'.	self loadTogether: self script305 merge: false.	self flushCaches.

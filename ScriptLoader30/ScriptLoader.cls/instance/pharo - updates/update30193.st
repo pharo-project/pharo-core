@@ -1,1 +1,0 @@
-update30193	"self new update30193"	self withUpdateLog: '10882 Undeclared ivar string in ZnInvalidUTF8		https://pharo.fogbugz.com/f/cases/1088210881 two tests failing in MCMczInstallerTest due to missing accessor	https://pharo.fogbugz.com/f/cases/10881'.	self loadTogether: self script292 merge: false.	self flushCaches.

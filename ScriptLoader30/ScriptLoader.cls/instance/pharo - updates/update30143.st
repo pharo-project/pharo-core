@@ -1,1 +1,0 @@
-update30143	"self new update30143"	self withUpdateLog: '10615 RBMethodNode classBinding: move it to compilationContext	https://pharo.fogbugz.com/f/cases/10615/	... and update Opal to the latest version'.	self loadTogether: self script240 merge: false.	self flushCaches.

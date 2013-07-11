@@ -1,1 +1,0 @@
-update30227	"self new update30227"	self withUpdateLog: '10398 Integrate new class builder step 1	https://pharo.fogbugz.com/f/cases/10398'.	self loadTogether: self script326 merge: false.	ScriptLoader new addHomeRepositoryToAllPackages.	self flushCaches.

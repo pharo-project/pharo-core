@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11138 Implementation of user directories is a mess	https://pharo.fogbugz.com/f/cases/11138	11152 Monticello not creating proper changes when moving trait methods to/from class	https://pharo.fogbugz.com/f/cases/11152'
+commentForCurrentUpdate ^ '10466 Better interruption	https://pharo.fogbugz.com/f/cases/10466	10304 FileStreamTest should cleanup test files created		https://pharo.fogbugz.com/f/cases/10304'

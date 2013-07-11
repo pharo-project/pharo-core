@@ -1,1 +1,0 @@
-update30207	"self new update30207"	self withUpdateLog: '10944 Enable Opal in 3.0	https://pharo.fogbugz.com/f/cases/10944'.	self loadTogether: self script306 merge: false.	SmalltalkImage compilerClass: OpalCompiler.OpalCompiler recompileAll.	self flushCaches.

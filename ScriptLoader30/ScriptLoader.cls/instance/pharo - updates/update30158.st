@@ -1,1 +1,0 @@
-update30158	"self new update30158"	self withUpdateLog: '10723 Use Opal for semantic analisys in suggestions	https://pharo.fogbugz.com/f/cases/10723	10707	Instance variable #askOkToClose is duplicated in WindowModel (already defined in ComposableModel)	https://pharo.fogbugz.com/f/cases/10707	'.	self loadTogether: self script255 merge: false.	self flushCaches.
