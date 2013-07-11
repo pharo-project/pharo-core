@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10466 Better interruption	https://pharo.fogbugz.com/f/cases/10466	10304 FileStreamTest should cleanup test files created		https://pharo.fogbugz.com/f/cases/10304'
+commentForCurrentUpdate ^ '11151 More changes needed to trait/classes polymorphism	https://pharo.fogbugz.com/f/cases/11151/(pass 1)'

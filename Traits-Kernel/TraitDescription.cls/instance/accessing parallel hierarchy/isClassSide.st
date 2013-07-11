@@ -1,0 +1,1 @@
+isClassSide	^self == self classSide

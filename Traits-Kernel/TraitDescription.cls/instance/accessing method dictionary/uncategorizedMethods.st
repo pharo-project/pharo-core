@@ -1,0 +1,1 @@
+uncategorizedMethods	^ self methodsInCategory: Protocol unclassified
