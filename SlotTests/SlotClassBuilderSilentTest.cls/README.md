@@ -1,1 +1,1 @@
-A SlotClassBuilderSilentTest is xxxxxxxxx.Instance Variables
+A SlotClassBuilderSilentTest is xxxxxxxxx.Instance Variables	yetAnotherClass:		<Object>	yetYetAnotherClass:		<Object>yetAnotherClass	- xxxxxyetYetAnotherClass	- xxxxx

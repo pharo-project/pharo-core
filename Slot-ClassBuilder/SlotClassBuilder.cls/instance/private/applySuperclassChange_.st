@@ -1,1 +1,1 @@
-applySuperclassChange: classModification	result := self applyAndUpdateSuperclass: classModification.	classModification propagationsDo: [ :propagation | 		self applyAndUpdateSuperclass: propagation ]
+applySuperclassChange: classModification	result := self applyAndUpdateSuperclass: classModification.	classModification allPropagationsDo: [ :propagation | 		self applyAndUpdateSuperclass: propagation ]

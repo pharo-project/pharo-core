@@ -1,1 +1,0 @@
-buildFrom: superLayout scope: aScope host: aClass	self flag: #todo. "Seems that #extendByte already checks for #hasFields, so next code shouldnt be needed, right?"	"	aScope hasFields 		ifTrue: [ self error: 'No fields expected!' ]."	^ superLayout extendByte		host: aClass;		yourself

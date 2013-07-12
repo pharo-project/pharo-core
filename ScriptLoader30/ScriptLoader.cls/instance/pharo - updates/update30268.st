@@ -1,0 +1,1 @@
+update30268	"self new update30268"	self withUpdateLog: '11022 MorphicEvent>>readFrom: aStream is unused	https://pharo.fogbugz.com/f/cases/11022	11155 Cannot load some package with new class builder	https://pharo.fogbugz.com/f/cases/11155'.	self loadTogether: self script104 merge: false.	self flushCaches.

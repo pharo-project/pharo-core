@@ -1,1 +1,1 @@
-modify: aClass extend: aSuperclass withLayoutType: layoutClass slots: someSlots traitComposition: aTraitComposition	^ self new		target: aClass;		superclass: aSuperclass;		traitComposition: aTraitComposition;		layoutType: layoutClass	slots: someSlots
+modify: aClass extend: aSuperclass withLayoutType: layoutClass slots: someSlots traitComposition: aTraitComposition	^ self new		target: aClass;		superclass: aSuperclass;		traitComposition: aTraitComposition;		layoutClass: layoutClass slots: someSlots;		yourself

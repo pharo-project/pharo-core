@@ -1,1 +1,0 @@
-yetAnotherClassName	^ #NewSlotTestObject3

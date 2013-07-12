@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11151 More changes needed to trait/classes polymorphism	https://pharo.fogbugz.com/f/cases/11151/(pass 4)'
+commentForCurrentUpdate ^ '11022 MorphicEvent>>readFrom: aStream is unused	https://pharo.fogbugz.com/f/cases/11022	11155 Cannot load some package with new class builder	https://pharo.fogbugz.com/f/cases/11155'

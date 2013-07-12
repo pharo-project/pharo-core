@@ -1,0 +1,1 @@
+layoutClass: layoutClass slots: slotArray	| parentLayout newScope |	parentLayout := self superLayout.	newScope := parentLayout slotScope extend: slotArray.	self layout: (layoutClass extending: parentLayout scope: newScope host: self target)
