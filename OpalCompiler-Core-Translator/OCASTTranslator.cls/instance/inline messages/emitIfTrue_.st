@@ -1,0 +1,1 @@
+emitIfTrue: aMessageNode	self shouldBeSentToValueOrEffectTranslator

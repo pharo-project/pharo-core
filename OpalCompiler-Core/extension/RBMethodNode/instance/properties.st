@@ -1,1 +1,1 @@
-properties	^self propertyAt: #methodProperties ifAbsentPut: [AdditionalMethodState  new]
+properties	^self propertyAt: #methodProperties ifAbsent: nil
