@@ -1,0 +1,4 @@
+icons
+taskbarIcon
+ 
+	^ ThemeIcons smallLoadProjectIcon

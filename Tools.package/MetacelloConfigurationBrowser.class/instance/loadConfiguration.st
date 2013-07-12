@@ -1,0 +1,4 @@
+actions
+loadConfiguration
+
+	configBrowserModel loadConfiguration

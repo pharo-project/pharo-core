@@ -1,0 +1,4 @@
+accessing
+configBrowserModel
+	
+	^ configBrowserModel

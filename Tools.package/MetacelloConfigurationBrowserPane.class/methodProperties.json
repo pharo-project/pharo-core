@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"defaultSpec" : "BenjaminVanRyseghem 5/14/2013 18:07",
+		"example" : "tbn 2/18/2013 21:33",
+		"pharoDistributionRepository" : "TorstenBergmann 7/4/2013 08:46",
+		"retrieveConfigurationsFrom:" : "tbn 2/18/2013 20:42",
+		"title" : "tbn 2/18/2013 21:30" },
+	"instance" : {
+		"availableRepositories" : "TorstenBergmann 7/4/2013 08:47",
+		"browseConfiguration" : "TorstenBergmann 7/3/2013 21:37",
+		"configurationList" : "tbn 6/19/2013 21:29",
+		"configurationList:" : "tbn 2/18/2013 20:20",
+		"configurationListMenu:" : "TorstenBergmann 7/4/2013 08:24",
+		"hasSelection" : "TorstenBergmann 7/3/2013 21:36",
+		"initConfigurationList" : "tbn 6/19/2013 22:31",
+		"initializeWidgets" : "TorstenBergmann 7/4/2013 08:49",
+		"installConfiguration" : "TorstenBergmann 7/3/2013 21:28",
+		"loadConfiguration" : "TorstenBergmann 7/3/2013 21:28",
+		"loadConfigurationWithStable:" : "TorstenBergmann 7/3/2013 21:37",
+		"repository" : "TorstenBergmann 7/3/2013 20:47",
+		"repository:" : "TorstenBergmann 7/4/2013 08:49",
+		"selectedConfiguration" : "TorstenBergmann 7/3/2013 21:31",
+		"selectedConfigurationClass" : "TorstenBergmann 7/3/2013 21:38",
+		"selectedConfigurationName" : "TorstenBergmann 7/3/2013 21:44",
+		"switchRepository" : "TorstenBergmann 7/4/2013 08:41",
+		"updateList" : "TorstenBergmann 7/3/2013 21:10" } }

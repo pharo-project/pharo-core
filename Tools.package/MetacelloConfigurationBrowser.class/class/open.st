@@ -1,6 +1,4 @@
-instance creation
+interface opening
 open
-	^(self new)
-		open;
-		yourself
-		
+
+	^self new openWithSpec

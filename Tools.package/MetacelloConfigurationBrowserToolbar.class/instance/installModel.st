@@ -1,0 +1,4 @@
+initialization
+installModel
+
+	^installModel

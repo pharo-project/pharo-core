@@ -2,13 +2,13 @@ private
 loadConfigurationWithStable: loadStable
 	"Load the configuration and (depending on the flag) load the latest stable version"
 	| configName |
-
-	configName := selectedConfiguration readStream upTo: $-.
+	self hasSelection ifFalse: [ ^self ].
+	configName := self selectedConfigurationName.
 	Gofer new
-		url: selectedRepository; 
+		url: self repository; 
 		package: configName;
 		load.
 	loadStable ifFalse: [^self].
 	
 	"Now load the latest stable version"
-	(Smalltalk at: (configName) asSymbol) project stableVersion load.
+	self selectedConfigurationClass project stableVersion load.

@@ -1,0 +1,4 @@
+accessing
+selectedConfiguration
+
+	^self configurationList selectedItem

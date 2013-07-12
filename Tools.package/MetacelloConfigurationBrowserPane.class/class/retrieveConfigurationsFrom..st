@@ -1,7 +1,10 @@
-private
-retrieveConfigurationMorphsFrom: locationString
-	| repo reductionMap split configName author version last topMostItems item |
+accessing
+retrieveConfigurationsFrom: locationString
+	"
+	self retrieveConfigurationsFrom:  self pharoDistribution
+	"
 
+	| repo reductionMap split configName author version last topMostItems item |
 	repo := MCHttpRepository location: locationString.
 				
 	"Reduce to display only the latest"			
@@ -19,8 +22,7 @@ retrieveConfigurationMorphsFrom: locationString
 			topMostItems := SortedCollection sortBlock: [:e1 :e2 | e1 asString <= e2 asString ].
 
 	reductionMap keysAndValuesDo: [:key :val | 
-		topMostItems add: ((PluggableListItemWrapper with: (key, '-', val key, '.', val value asString))
-			string: (key allButFirst: 15), ' (', val key, '.', val value asString, ')'; 
-			yourself)].	
+		topMostItems add: (key, '-', val key, '.', val value asString)
+	].	
 
 	^topMostItems

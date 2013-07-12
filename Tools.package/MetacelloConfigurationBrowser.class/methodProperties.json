@@ -1,19 +1,15 @@
 {
 	"class" : {
-		"menuCommandOn:" : "FernandoOlivero 4/12/2011 10:01",
-		"open" : "tbn 8/4/2010 10:56",
-		"theme" : "FernandoOlivero 4/12/2011 10:01" },
+		"defaultSpec" : "TorstenBergmann 7/3/2013 21:00",
+		"menuCommandOn:" : "TorstenBergmann 7/4/2013 09:48",
+		"open" : "TorstenBergmann 7/4/2013 09:49",
+		"title" : "tbn 6/20/2013 08:13" },
 	"instance" : {
-		"configurationMenu:" : "MarcusDenker 10/7/2012 11:19",
-		"initialize" : "EstebanLorenzano 6/20/2012 11:01",
-		"initializeWindow" : "tbn 2/28/2013 08:08",
-		"loadConfigurationWithStable:" : "EstebanLorenzano 6/20/2012 11:22",
-		"loadSelectedConfiguration" : "EstebanLorenzano 6/20/2012 11:06",
-		"loadStableFromSelectedConfiguration" : "tbn 4/2/2012 19:10",
-		"onTrustedSelected:" : "EstebanLorenzano 6/20/2012 11:21",
-		"onUntrustedSelected:" : "EstebanLorenzano 6/20/2012 11:21",
-		"open" : "tbn 8/4/2010 11:06",
-		"pharoDistribution" : "tbn 7/5/2012 09:22",
-		"refresh" : "EstebanLorenzano 6/20/2012 11:03",
-		"retrieveConfigurationMorphsFrom:" : "SeanDeNigris 8/26/2012 11:35",
-		"untrustedDistribution" : "EstebanLorenzano 6/20/2012 11:06" } }
+		"configBrowserModel" : "TorstenBergmann 7/3/2013 20:59",
+		"initialExtent" : "tbn 6/19/2013 21:47",
+		"initializeWidgets" : "TorstenBergmann 7/4/2013 08:44",
+		"installConfiguration" : "TorstenBergmann 7/3/2013 21:28",
+		"loadConfiguration" : "TorstenBergmann 7/3/2013 21:29",
+		"taskbarIcon" : "tbn 6/19/2013 21:43",
+		"title" : "tbn 6/20/2013 08:13",
+		"toolbarModel" : "tbn 6/20/2013 08:14" } }
