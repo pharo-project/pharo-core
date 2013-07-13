@@ -1,1 +1,1 @@
-changed: aSymbol	WorldState addDeferredUIMessage: [ super changed: aSymbol ]
+changed: aSymbol	UIManager default defer: [ super changed: aSymbol ]

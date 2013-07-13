@@ -1,1 +1,1 @@
-updateList	self criticsOf: rule.	thread ifNotNil: [ thread terminate ].	thread := [ WorldState addDeferredUIMessage: [ criticsModel updateList ]] fork.
+updateList	self criticsOf: rule.	thread ifNotNil: [ thread terminate ].	thread := [ UIManager default defer:  [ criticsModel updateList ]] fork.

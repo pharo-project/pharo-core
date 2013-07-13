@@ -1,1 +1,1 @@
-new	self default
+new	^ self default

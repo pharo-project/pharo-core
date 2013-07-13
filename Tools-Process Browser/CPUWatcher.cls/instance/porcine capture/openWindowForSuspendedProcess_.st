@@ -1,1 +1,1 @@
-openWindowForSuspendedProcess: aProcess	 WorldState addDeferredUIMessage: [ self openMorphicWindowForSuspendedProcess: aProcess ] 	
+openWindowForSuspendedProcess: aProcess	 UIManager default defer: [ self openMorphicWindowForSuspendedProcess: aProcess ] 	
