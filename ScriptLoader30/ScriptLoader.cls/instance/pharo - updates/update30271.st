@@ -1,0 +1,1 @@
+update30271	"self new update30271"	self withUpdateLog: '11160 add #classBuilder to nil	https://pharo.fogbugz.com/f/cases/1116011153 Introduce Exception >> #signalIn:	https://pharo.fogbugz.com/f/cases/11153	'.	self loadTogether: self script107 merge: false.	self flushCaches.

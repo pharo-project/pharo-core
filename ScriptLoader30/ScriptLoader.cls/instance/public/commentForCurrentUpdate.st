@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11140 #addDeferredUIMessage: is always sent directly to WorldState	https://pharo.fogbugz.com/f/cases/11140	11159 NautilusMonticello new returns the NautilusMonticello class	https://pharo.fogbugz.com/f/cases/11159'
+commentForCurrentUpdate ^ '11160 add #classBuilder to nil	https://pharo.fogbugz.com/f/cases/1116011153 Introduce Exception >> #signalIn:	https://pharo.fogbugz.com/f/cases/11153	'
