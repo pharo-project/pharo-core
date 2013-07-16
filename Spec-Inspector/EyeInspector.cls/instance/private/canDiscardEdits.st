@@ -1,0 +1,1 @@
+canDiscardEdits	^ true
