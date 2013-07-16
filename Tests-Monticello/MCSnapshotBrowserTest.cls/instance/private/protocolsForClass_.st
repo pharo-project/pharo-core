@@ -1,1 +1,1 @@
-protocolsForClass: aClass	^ aClass organization realCategories
+protocolsForClass: aClass	^ aClass organization categories

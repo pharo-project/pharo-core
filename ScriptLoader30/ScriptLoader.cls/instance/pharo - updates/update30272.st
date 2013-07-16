@@ -1,0 +1,1 @@
+update30272	"self new update30272"	self withUpdateLog: '11164 ASTInterpreterTest >> #testSignalHalt failing	https://pharo.fogbugz.com/f/cases/11164	11086 Failing MCSnapshotBrowserTest >> #testClassSelected, #testMethodSelected and #testProtocolSelected	https://pharo.fogbugz.com/f/cases/11086'.	self loadTogether: self script108 merge: false.	self flushCaches.

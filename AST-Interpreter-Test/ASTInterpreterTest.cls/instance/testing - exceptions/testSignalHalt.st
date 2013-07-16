@@ -1,1 +1,1 @@
-testSignalHalt	[ self interpret: '1 halt' ]		on: InterpretationError do: [ :error |			self assert: (error cause class = Halt).			^ self ].	self fail.
+testSignalHalt	[ self interpret: '[1 halt] value' ]		on: InterpretationError do: [ :error |			self assert: error cause class equals: Halt.			^ self ].	self fail.

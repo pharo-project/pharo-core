@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11160 add #classBuilder to nil	https://pharo.fogbugz.com/f/cases/1116011153 Introduce Exception >> #signalIn:	https://pharo.fogbugz.com/f/cases/11153	'
+commentForCurrentUpdate ^ '11164 ASTInterpreterTest >> #testSignalHalt failing	https://pharo.fogbugz.com/f/cases/11164	11086 Failing MCSnapshotBrowserTest >> #testClassSelected, #testMethodSelected and #testProtocolSelected	https://pharo.fogbugz.com/f/cases/11086'
