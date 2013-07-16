@@ -1,1 +1,0 @@
-crcTable	^CrcTable

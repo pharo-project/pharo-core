@@ -1,0 +1,1 @@
+compilerExpectionClass	^ Smalltalk compilerClass == OpalCompiler		ifTrue: [ OCSemanticWarning ]		ifFalse: [ Smalltalk globals at: #ParserNotification ]

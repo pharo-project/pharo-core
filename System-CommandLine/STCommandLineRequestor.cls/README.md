@@ -1,0 +1,1 @@
+I am an Object used to interact with the OpalCompiler.

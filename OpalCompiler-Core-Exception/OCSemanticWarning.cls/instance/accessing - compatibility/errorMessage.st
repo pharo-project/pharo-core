@@ -1,0 +1,1 @@
+errorMessage	^ self messageText

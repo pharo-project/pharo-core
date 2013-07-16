@@ -1,1 +1,1 @@
-Object subclass: #CodeImporter	instanceVariableNames: 'readStream codeDeclarations parserClass'	classVariableNames: ''	poolDictionaries: ''	category: 'CodeImport'
+Object subclass: #CodeImporter	instanceVariableNames: 'readStream codeDeclarations parserClass requestor'	classVariableNames: ''	poolDictionaries: ''	category: 'CodeImport'

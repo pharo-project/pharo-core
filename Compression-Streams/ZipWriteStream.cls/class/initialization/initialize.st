@@ -1,1 +1,1 @@
-initialize	"ZipWriteStream initialize"	VerboseLevel := 0.	self initializeCrcTable.
+initialize	"ZipWriteStream initialize"	VerboseLevel := 0
