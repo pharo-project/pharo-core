@@ -1,1 +1,1 @@
-browseImplementors	SystemNavigation new browseAllImplementorsOf: self item.
+browseImplementors	SystemNavigation new browseAllImplementorsOf: self item selector.

@@ -1,1 +1,1 @@
-A MetacelloConfigurationBrowserPane is xxxxxxxxx.Instance Variables	configurationList:		<Object>	repository:		<Object>configurationList	- xxxxxrepository	- xxxxx
+A MetacelloConfigurationBrowserPane is xxxxxxxxx.Instance Variables	configurationList:		<Object>	configurationPattern:		<Object>	configurations:		<Object>	repository:		<Object>configurationList	- xxxxxconfigurationPattern	- xxxxxconfigurations	- xxxxxrepository	- xxxxx

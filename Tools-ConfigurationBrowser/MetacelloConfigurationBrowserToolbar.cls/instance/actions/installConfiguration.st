@@ -1,1 +1,1 @@
-installConfiguration	self owner installConfiguration 
+installConfiguration	owner installConfiguration 

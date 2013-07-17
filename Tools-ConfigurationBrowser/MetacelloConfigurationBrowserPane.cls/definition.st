@@ -1,1 +1,1 @@
-ComposableModel subclass: #MetacelloConfigurationBrowserPane	instanceVariableNames: 'configurationList repository'	classVariableNames: ''	poolDictionaries: ''	category: 'Tools-ConfigurationBrowser'
+ComposableModel subclass: #MetacelloConfigurationBrowserPane	instanceVariableNames: 'configurationList configurations repository configurationPattern'	classVariableNames: ''	poolDictionaries: ''	category: 'Tools-ConfigurationBrowser'

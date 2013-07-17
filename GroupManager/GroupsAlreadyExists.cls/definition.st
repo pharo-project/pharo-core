@@ -1,1 +1,0 @@
-Error subclass: #GroupsAlreadyExists	instanceVariableNames: 'groupName'	classVariableNames: ''	poolDictionaries: ''	category: 'GroupManager'

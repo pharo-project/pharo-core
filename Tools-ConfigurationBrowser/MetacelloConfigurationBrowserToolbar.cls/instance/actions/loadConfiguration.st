@@ -1,1 +1,1 @@
-loadConfiguration	self owner loadConfiguration 
+loadConfiguration	owner loadConfiguration 
