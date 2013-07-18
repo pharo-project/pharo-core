@@ -1,1 +1,1 @@
-A StandardSystemFontsTest is xxxxxxxxx.Instance Variables
+A StandardSystemFontsTest is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A TestObjectsAsMethods is xxxxxxxxx.Instance Variables
+A TestObjectsAsMethods is xxxxxxxxx.

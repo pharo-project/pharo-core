@@ -1,1 +1,1 @@
-A RBModifiesCollectionRule is xxxxxxxxx.Instance Variables
+A RBModifiesCollectionRule is xxxxxxxxx.

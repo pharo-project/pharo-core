@@ -1,1 +1,1 @@
-A KMShortcutTest is xxxxxxxxx.Instance Variables
+A KMShortcutTest is xxxxxxxxx.

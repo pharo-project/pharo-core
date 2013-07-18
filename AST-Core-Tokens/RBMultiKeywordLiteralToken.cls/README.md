@@ -1,1 +1,1 @@
-A RBMultiKeywordLiteralToken is xxxxxxxxx.Instance Variables
+A RBMultiKeywordLiteralToken is xxxxxxxxx.

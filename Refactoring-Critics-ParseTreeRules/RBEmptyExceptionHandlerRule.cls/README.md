@@ -1,1 +1,1 @@
-A RBEmptyExceptionHandlerRule is xxxxxxxxx.Instance Variables
+A RBEmptyExceptionHandlerRule is xxxxxxxxx.

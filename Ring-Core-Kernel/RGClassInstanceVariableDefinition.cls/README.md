@@ -1,1 +1,1 @@
-A RGClassInstanceVariableDefinition is xxxxxxxxx.Instance Variables
+A RGClassInstanceVariableDefinition is xxxxxxxxx.

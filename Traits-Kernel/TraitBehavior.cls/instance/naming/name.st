@@ -1,1 +1,1 @@
-name	^ self explicitRequirement
+name	^ self subclassResponsability.

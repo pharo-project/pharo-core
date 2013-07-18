@@ -1,1 +1,1 @@
-A NECStringSortingTest is xxxxxxxxx.Instance Variables
+A NECStringSortingTest is xxxxxxxxx.

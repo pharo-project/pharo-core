@@ -1,1 +1,1 @@
-A ZnStaticFileServerDelegateTests is xxxxxxxxx.Instance Variables
+A ZnStaticFileServerDelegateTests is xxxxxxxxx.

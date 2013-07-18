@@ -1,1 +1,1 @@
-A MethodMapExamples is xxxxxxxxx.Instance Variables
+A MethodMapExamples is xxxxxxxxx.

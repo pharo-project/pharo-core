@@ -1,1 +1,1 @@
-A TaskListSystemSettings is xxxxxxxxx.Instance Variables
+A TaskListSystemSettings is xxxxxxxxx.

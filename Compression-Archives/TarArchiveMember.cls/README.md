@@ -1,1 +1,1 @@
-A TarArchiveMember is xxxxxxxxx.Instance Variables
+A TarArchiveMember is xxxxxxxxx.

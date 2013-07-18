@@ -1,1 +1,1 @@
-A SHParserST80Test is xxxxxxxxx.Instance Variables
+A SHParserST80Test is xxxxxxxxx.

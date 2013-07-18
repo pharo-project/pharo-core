@@ -1,1 +1,1 @@
-An OCASTClosureAnalyzerTest is xxxxxxxxx.Instance Variables
+An OCASTClosureAnalyzerTest is xxxxxxxxx.

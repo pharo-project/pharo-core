@@ -1,1 +1,1 @@
-A RGPackageTest is xxxxxxxxx.Instance Variables
+A RGPackageTest is xxxxxxxxx.

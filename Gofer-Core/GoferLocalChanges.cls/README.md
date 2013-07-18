@@ -1,1 +1,1 @@
-A GoferLocalChanges is xxxxxxxxx.Instance Variables
+A GoferLocalChanges is xxxxxxxxx.

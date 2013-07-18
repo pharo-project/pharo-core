@@ -1,1 +1,1 @@
-A FLNegative16SmallIntegerCluster is xxxxxxxxx.Instance Variables
+A FLNegative16SmallIntegerCluster is xxxxxxxxx.

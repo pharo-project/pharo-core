@@ -1,1 +1,1 @@
-A NBMacConstants is xxxxxxxxx.Instance Variables
+A NBMacConstants is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A MCOrganizationTest is xxxxxxxxx.Instance Variables
+A MCOrganizationTest is xxxxxxxxx.

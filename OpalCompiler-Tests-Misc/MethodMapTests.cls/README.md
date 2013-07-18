@@ -1,1 +1,1 @@
-A MethodMapTests is xxxxxxxxx.Instance Variables
+A MethodMapTests is xxxxxxxxx.

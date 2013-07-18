@@ -1,1 +1,1 @@
-A MetacelloSymbolicVersionMethodSpec is xxxxxxxxx.Instance Variables
+A MetacelloSymbolicVersionMethodSpec is xxxxxxxxx.

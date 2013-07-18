@@ -1,1 +1,1 @@
-A ZnLogSupportTests is xxxxxxxxx.Instance Variables
+A ZnLogSupportTests is xxxxxxxxx.

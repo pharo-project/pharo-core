@@ -1,1 +1,1 @@
-A PluggableDictionaryTest is xxxxxxxxx.Instance Variables
+A PluggableDictionaryTest is xxxxxxxxx.

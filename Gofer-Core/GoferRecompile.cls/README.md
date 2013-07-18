@@ -1,1 +1,1 @@
-A GoferRecompile is xxxxxxxxx.Instance Variables
+A GoferRecompile is xxxxxxxxx.

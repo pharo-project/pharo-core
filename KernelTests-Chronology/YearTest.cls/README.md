@@ -1,1 +1,1 @@
-A YearTest is xxxxxxxxx.Instance Variables
+A YearTest is xxxxxxxxx.

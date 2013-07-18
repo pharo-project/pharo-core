@@ -1,1 +1,1 @@
-A WeakMessageSendTest is xxxxxxxxx.Instance Variables
+A WeakMessageSendTest is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A ClassQueryTest is xxxxxxxxx.Instance Variables
+A ClassQueryTest is xxxxxxxxx.

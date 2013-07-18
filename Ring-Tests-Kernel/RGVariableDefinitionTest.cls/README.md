@@ -1,1 +1,1 @@
-A RGVariableDefinitionTest is xxxxxxxxx.Instance Variables
+A RGVariableDefinitionTest is xxxxxxxxx.

@@ -1,1 +1,1 @@
-An AbstractObjectsAsMethod is xxxxxxxxx.Instance Variables
+An AbstractObjectsAsMethod is xxxxxxxxx.

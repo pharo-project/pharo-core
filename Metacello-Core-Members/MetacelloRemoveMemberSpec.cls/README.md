@@ -1,1 +1,1 @@
-A MetacelloRemoveMemberSpec is xxxxxxxxx.Instance Variables
+A MetacelloRemoveMemberSpec is xxxxxxxxx.

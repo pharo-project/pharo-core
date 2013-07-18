@@ -1,1 +1,1 @@
-A RBPlatformDependentUserInteractionRule is xxxxxxxxx.Instance Variables
+A RBPlatformDependentUserInteractionRule is xxxxxxxxx.

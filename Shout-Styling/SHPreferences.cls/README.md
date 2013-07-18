@@ -1,1 +1,1 @@
-A SHPreferences is xxxxxxxxx.Instance Variables
+A SHPreferences is xxxxxxxxx.

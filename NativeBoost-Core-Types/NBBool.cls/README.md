@@ -1,1 +1,1 @@
-A NBBool is xxxxxxxxx.Instance Variables
+A NBBool is xxxxxxxxx.

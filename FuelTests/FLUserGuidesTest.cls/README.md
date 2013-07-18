@@ -1,1 +1,1 @@
-A FLUserGuidesTest is xxxxxxxxx.Instance Variables
+A FLUserGuidesTest is xxxxxxxxx.

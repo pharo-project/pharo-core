@@ -1,1 +1,1 @@
-A PSMCMergePatchMorph is xxxxxxxxx.Instance Variables
+A PSMCMergePatchMorph is xxxxxxxxx.

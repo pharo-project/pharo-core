@@ -1,1 +1,1 @@
-A NBQSortCallback is xxxxxxxxx.Instance Variables
+A NBQSortCallback is xxxxxxxxx.

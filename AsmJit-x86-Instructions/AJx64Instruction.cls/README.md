@@ -1,1 +1,1 @@
-An AJx64Instruction is xxxxxxxxx.Instance Variables
+An AJx64Instruction is xxxxxxxxx.

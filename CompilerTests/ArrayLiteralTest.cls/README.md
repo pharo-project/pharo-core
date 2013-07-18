@@ -1,1 +1,1 @@
-An ArrayLiteralTest is xxxxxxxxx.Instance Variables
+An ArrayLiteralTest is xxxxxxxxx.

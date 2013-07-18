@@ -1,1 +1,1 @@
-A NBVoid is xxxxxxxxx.Instance Variables
+A NBVoid is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A CollectVisitorTest is xxxxxxxxx.Instance Variables
+A CollectVisitorTest is xxxxxxxxx.

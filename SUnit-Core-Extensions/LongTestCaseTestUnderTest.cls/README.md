@@ -1,1 +1,1 @@
-A LongTestCaseTestUnderTest is xxxxxxxxx.Instance Variables
+A LongTestCaseTestUnderTest is xxxxxxxxx.

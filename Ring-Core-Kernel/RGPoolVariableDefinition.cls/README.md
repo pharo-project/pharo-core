@@ -1,1 +1,1 @@
-A RGPoolVariableDefinition is xxxxxxxxx.Instance Variables
+A RGPoolVariableDefinition is xxxxxxxxx.

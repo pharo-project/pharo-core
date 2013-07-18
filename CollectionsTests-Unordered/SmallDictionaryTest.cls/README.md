@@ -1,1 +1,1 @@
-A SmallDictionaryTest is xxxxxxxxx.Instance Variables
+A SmallDictionaryTest is xxxxxxxxx.

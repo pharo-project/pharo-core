@@ -1,1 +1,1 @@
-A RBNotEnvironment is xxxxxxxxx.Instance Variables
+A RBNotEnvironment is xxxxxxxxx.

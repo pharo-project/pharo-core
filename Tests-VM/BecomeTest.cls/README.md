@@ -1,1 +1,1 @@
-A BecomeTest is xxxxxxxxx.Instance Variables
+A BecomeTest is xxxxxxxxx.

@@ -1,1 +1,1 @@
-An OCCaseOfTest is xxxxxxxxx.Instance Variables
+An OCCaseOfTest is xxxxxxxxx.

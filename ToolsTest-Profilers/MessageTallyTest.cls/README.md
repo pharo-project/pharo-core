@@ -1,1 +1,1 @@
-A MessageTallyTest is xxxxxxxxx.Instance Variables
+A MessageTallyTest is xxxxxxxxx.

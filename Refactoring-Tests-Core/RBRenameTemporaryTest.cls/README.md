@@ -1,1 +1,1 @@
-A RBRenameTemporaryTest is xxxxxxxxx.Instance Variables
+A RBRenameTemporaryTest is xxxxxxxxx.

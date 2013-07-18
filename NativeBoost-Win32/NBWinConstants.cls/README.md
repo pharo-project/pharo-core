@@ -1,1 +1,1 @@
-A NBWinConstants is xxxxxxxxx.Instance Variables
+A NBWinConstants is xxxxxxxxx.

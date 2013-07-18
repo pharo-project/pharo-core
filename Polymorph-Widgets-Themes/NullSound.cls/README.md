@@ -1,1 +1,1 @@
-A NullSound is xxxxxxxxx.Instance Variables
+A NullSound is xxxxxxxxx.

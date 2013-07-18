@@ -1,1 +1,1 @@
-An OSPlatformTest is xxxxxxxxx.Instance Variables
+An OSPlatformTest is xxxxxxxxx.

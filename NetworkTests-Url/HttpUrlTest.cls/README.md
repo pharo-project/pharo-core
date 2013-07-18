@@ -1,1 +1,1 @@
-A HttpUrlTest is xxxxxxxxx.Instance Variables
+A HttpUrlTest is xxxxxxxxx.

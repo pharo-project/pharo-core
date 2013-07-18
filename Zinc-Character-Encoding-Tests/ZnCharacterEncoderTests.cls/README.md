@@ -1,1 +1,1 @@
-A ZnCharacterEncoderTests is xxxxxxxxx.Instance Variables
+A ZnCharacterEncoderTests is xxxxxxxxx.

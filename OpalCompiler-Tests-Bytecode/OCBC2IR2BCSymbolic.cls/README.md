@@ -1,1 +1,1 @@
-An OCBC2IR2BCSymbolic is xxxxxxxxx.Instance Variables
+An OCBC2IR2BCSymbolic is xxxxxxxxx.

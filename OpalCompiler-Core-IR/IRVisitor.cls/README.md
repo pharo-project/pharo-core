@@ -1,1 +1,1 @@
-An IRVisitor is xxxxxxxxx.Instance Variables
+An IRVisitor is xxxxxxxxx.

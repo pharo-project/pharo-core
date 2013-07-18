@@ -1,1 +1,1 @@
-A GoferMetacelloLoadDevelopment is xxxxxxxxx.Instance Variables
+A GoferMetacelloLoadDevelopment is xxxxxxxxx.

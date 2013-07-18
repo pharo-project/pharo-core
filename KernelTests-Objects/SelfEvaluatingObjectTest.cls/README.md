@@ -1,1 +1,1 @@
-A SelfEvaluatingObjectTest is xxxxxxxxx.Instance Variables
+A SelfEvaluatingObjectTest is xxxxxxxxx.

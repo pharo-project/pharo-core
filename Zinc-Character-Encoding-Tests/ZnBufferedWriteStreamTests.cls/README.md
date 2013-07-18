@@ -1,1 +1,1 @@
-A ZnBufferedWriteStreamTests is xxxxxxxxx.Instance Variables
+A ZnBufferedWriteStreamTests is xxxxxxxxx.

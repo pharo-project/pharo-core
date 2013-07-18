@@ -1,1 +1,1 @@
-A NativeBoostMac32 is xxxxxxxxx.Instance Variables
+A NativeBoostMac32 is xxxxxxxxx.

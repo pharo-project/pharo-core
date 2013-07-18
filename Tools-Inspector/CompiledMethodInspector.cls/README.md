@@ -1,1 +1,1 @@
-A CompiledMethodInspector is xxxxxxxxx.Instance Variables
+A CompiledMethodInspector is xxxxxxxxx.

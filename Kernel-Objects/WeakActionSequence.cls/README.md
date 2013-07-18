@@ -1,1 +1,1 @@
-A WeakActionSequence is xxxxxxxxx.Instance Variables
+A WeakActionSequence is xxxxxxxxx.

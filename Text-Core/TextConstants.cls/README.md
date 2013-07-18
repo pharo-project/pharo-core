@@ -1,1 +1,1 @@
-A TextConstants is xxxxxxxxx.Instance Variables
+A TextConstants is xxxxxxxxx.

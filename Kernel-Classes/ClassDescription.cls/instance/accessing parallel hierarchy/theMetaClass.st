@@ -1,1 +1,1 @@
-theMetaClass	^self subclassResponsibility.
+theMetaClass	^self classClass

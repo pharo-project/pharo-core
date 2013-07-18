@@ -1,1 +1,1 @@
-An AthensPangoExternalObject is xxxxxxxxx.Instance Variables
+An AthensPangoExternalObject is xxxxxxxxx.

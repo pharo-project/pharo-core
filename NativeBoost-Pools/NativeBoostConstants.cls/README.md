@@ -1,1 +1,1 @@
-A NativeBoostConstants is xxxxxxxxx.Instance Variables
+A NativeBoostConstants is xxxxxxxxx.

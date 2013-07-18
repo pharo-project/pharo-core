@@ -1,1 +1,1 @@
-A WidgetEditor is xxxxxxxxx.Instance Variables
+A WidgetEditor is xxxxxxxxx.

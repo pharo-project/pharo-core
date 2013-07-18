@@ -1,1 +1,1 @@
-A KMPerInstanceTests is xxxxxxxxx.Instance Variables
+A KMPerInstanceTests is xxxxxxxxx.

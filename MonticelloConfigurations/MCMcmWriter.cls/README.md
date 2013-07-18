@@ -1,1 +1,1 @@
-A MCMcmWriter is xxxxxxxxx.Instance Variables
+A MCMcmWriter is xxxxxxxxx.

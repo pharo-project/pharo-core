@@ -1,1 +1,1 @@
-A HDReport is xxxxxxxxx.Instance Variables
+A HDReport is xxxxxxxxx.

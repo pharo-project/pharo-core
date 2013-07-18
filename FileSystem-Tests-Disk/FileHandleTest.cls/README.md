@@ -1,1 +1,1 @@
-A FileHandleTest is xxxxxxxxx.Instance Variables
+A FileHandleTest is xxxxxxxxx.

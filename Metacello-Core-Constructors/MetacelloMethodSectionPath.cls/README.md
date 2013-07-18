@@ -1,1 +1,1 @@
-A MetacelloMethodSectionPath is xxxxxxxxx.Instance Variables
+A MetacelloMethodSectionPath is xxxxxxxxx.

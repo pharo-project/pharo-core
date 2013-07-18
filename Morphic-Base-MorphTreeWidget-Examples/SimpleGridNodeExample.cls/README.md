@@ -1,1 +1,1 @@
-A SimpleGridNodeExample is xxxxxxxxx.Instance Variables
+A SimpleGridNodeExample is xxxxxxxxx.

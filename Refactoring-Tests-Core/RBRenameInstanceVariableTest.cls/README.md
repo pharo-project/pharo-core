@@ -1,1 +1,1 @@
-A RBRenameInstanceVariableTest is xxxxxxxxx.Instance Variables
+A RBRenameInstanceVariableTest is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A DropFilesEvent is xxxxxxxxx.Instance Variables
+A DropFilesEvent is xxxxxxxxx.

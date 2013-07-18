@@ -1,1 +1,1 @@
-An AJx86JumpInstruction is xxxxxxxxx.Instance Variables
+An AJx86JumpInstruction is xxxxxxxxx.

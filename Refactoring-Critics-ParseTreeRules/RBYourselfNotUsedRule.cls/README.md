@@ -1,1 +1,1 @@
-A RBYourselfNotUsedRule is xxxxxxxxx.Instance Variables
+A RBYourselfNotUsedRule is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A SmalltalkImageTest is xxxxxxxxx.Instance Variables
+A SmalltalkImageTest is xxxxxxxxx.

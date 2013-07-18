@@ -1,1 +1,1 @@
-A RGMethodDefinitionTest is xxxxxxxxx.Instance Variables
+A RGMethodDefinitionTest is xxxxxxxxx.

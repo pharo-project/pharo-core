@@ -1,1 +1,1 @@
-A NECClassVarTypeGuesserTest is xxxxxxxxx.Instance Variables
+A NECClassVarTypeGuesserTest is xxxxxxxxx.

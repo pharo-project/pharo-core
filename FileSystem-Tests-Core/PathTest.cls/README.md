@@ -1,1 +1,1 @@
-A PathTest is xxxxxxxxx.Instance Variables
+A PathTest is xxxxxxxxx.

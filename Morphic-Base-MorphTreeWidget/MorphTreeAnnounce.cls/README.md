@@ -1,1 +1,1 @@
-A MorphTreeAnnounce is xxxxxxxxx.Instance Variables
+A MorphTreeAnnounce is xxxxxxxxx.

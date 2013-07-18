@@ -1,1 +1,1 @@
-A RBDetectContainsRule is xxxxxxxxx.Instance Variables
+A RBDetectContainsRule is xxxxxxxxx.

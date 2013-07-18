@@ -1,1 +1,1 @@
-A ProvideAnswerNotification is xxxxxxxxx.Instance Variables
+A ProvideAnswerNotification is xxxxxxxxx.

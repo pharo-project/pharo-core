@@ -1,1 +1,1 @@
-A KOI8RTextConverter is xxxxxxxxx.Instance Variables
+A KOI8RTextConverter is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A GoferRevert is xxxxxxxxx.Instance Variables
+A GoferRevert is xxxxxxxxx.

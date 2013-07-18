@@ -1,1 +1,1 @@
-A NBWinTest is xxxxxxxxx.Instance Variables
+A NBWinTest is xxxxxxxxx.

@@ -1,1 +1,1 @@
-An UnknownSystemChange is xxxxxxxxx.Instance Variables
+An UnknownSystemChange is xxxxxxxxx.

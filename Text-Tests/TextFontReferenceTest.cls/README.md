@@ -1,1 +1,1 @@
-A TextFontReferenceTest is xxxxxxxxx.Instance Variables
+A TextFontReferenceTest is xxxxxxxxx.

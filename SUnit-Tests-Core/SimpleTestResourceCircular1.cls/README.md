@@ -1,1 +1,1 @@
-A SimpleTestResourceCircular1 is xxxxxxxxx.Instance Variables
+A SimpleTestResourceCircular1 is xxxxxxxxx.

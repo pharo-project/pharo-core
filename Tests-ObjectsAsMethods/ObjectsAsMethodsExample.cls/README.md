@@ -1,1 +1,1 @@
-An ObjectsAsMethodsExample is xxxxxxxxx.Instance Variables
+An ObjectsAsMethodsExample is xxxxxxxxx.

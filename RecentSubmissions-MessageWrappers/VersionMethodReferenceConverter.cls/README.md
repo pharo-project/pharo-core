@@ -1,1 +1,1 @@
-A VersionMethodReferenceConverter is xxxxxxxxx.Instance Variables
+A VersionMethodReferenceConverter is xxxxxxxxx.

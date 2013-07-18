@@ -1,1 +1,1 @@
-A MCDataStreamTest is xxxxxxxxx.Instance Variables
+A MCDataStreamTest is xxxxxxxxx.

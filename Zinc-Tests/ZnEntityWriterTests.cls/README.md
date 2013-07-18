@@ -1,1 +1,1 @@
-A ZnEntityWriterTests is xxxxxxxxx.Instance Variables
+A ZnEntityWriterTests is xxxxxxxxx.

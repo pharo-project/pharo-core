@@ -1,1 +1,1 @@
-A PluggableSetTest is xxxxxxxxx.Instance Variables
+A PluggableSetTest is xxxxxxxxx.

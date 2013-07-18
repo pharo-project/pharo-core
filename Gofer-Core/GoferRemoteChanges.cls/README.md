@@ -1,1 +1,1 @@
-A GoferRemoteChanges is xxxxxxxxx.Instance Variables
+A GoferRemoteChanges is xxxxxxxxx.

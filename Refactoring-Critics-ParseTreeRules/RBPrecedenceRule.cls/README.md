@@ -1,1 +1,1 @@
-A RBPrecedenceRule is xxxxxxxxx.Instance Variables
+A RBPrecedenceRule is xxxxxxxxx.

@@ -1,1 +1,1 @@
-An ObjectFinalizerTests is xxxxxxxxx.Instance Variables
+An ObjectFinalizerTests is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A MetacelloRepositoriesSpec is xxxxxxxxx.Instance Variables
+A MetacelloRepositoriesSpec is xxxxxxxxx.

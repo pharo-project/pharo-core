@@ -1,1 +1,1 @@
-A PackageDependencyTest is xxxxxxxxx.Instance Variables
+A PackageDependencyTest is xxxxxxxxx.

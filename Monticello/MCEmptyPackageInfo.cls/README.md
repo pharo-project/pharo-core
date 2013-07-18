@@ -1,1 +1,1 @@
-A MCEmptyPackageInfo is xxxxxxxxx.Instance Variables
+A MCEmptyPackageInfo is xxxxxxxxx.

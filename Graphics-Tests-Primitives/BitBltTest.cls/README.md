@@ -1,1 +1,1 @@
-A BitBltTest is xxxxxxxxx.Instance Variables
+A BitBltTest is xxxxxxxxx.

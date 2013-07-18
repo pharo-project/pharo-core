@@ -1,1 +1,1 @@
-A StreamBugz is xxxxxxxxx.Instance Variables
+A StreamBugz is xxxxxxxxx.

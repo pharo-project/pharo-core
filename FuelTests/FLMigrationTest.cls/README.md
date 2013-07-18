@@ -1,1 +1,1 @@
-A FLMigrationTest is xxxxxxxxx.Instance Variables
+A FLMigrationTest is xxxxxxxxx.

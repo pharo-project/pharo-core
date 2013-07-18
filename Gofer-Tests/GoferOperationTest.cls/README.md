@@ -1,1 +1,1 @@
-A GoferOperationTest is xxxxxxxxx.Instance Variables
+A GoferOperationTest is xxxxxxxxx.

@@ -1,1 +1,1 @@
-An IntegerArrayTest is xxxxxxxxx.Instance Variables
+An IntegerArrayTest is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A ReduceTest is xxxxxxxxx.Instance Variables
+A ReduceTest is xxxxxxxxx.

@@ -1,1 +1,1 @@
-An OCIfNotNilTests is xxxxxxxxx.Instance Variables
+An OCIfNotNilTests is xxxxxxxxx.

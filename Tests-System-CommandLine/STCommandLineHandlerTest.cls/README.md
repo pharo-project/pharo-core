@@ -1,1 +1,1 @@
-A STCommandLineHandlerTest is xxxxxxxxx.Instance Variables
+A STCommandLineHandlerTest is xxxxxxxxx.

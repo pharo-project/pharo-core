@@ -1,1 +1,1 @@
-A MetacelloPrePostLoadDirective is xxxxxxxxx.Instance Variables
+A MetacelloPrePostLoadDirective is xxxxxxxxx.

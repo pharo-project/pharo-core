@@ -1,1 +1,1 @@
-A NBExternalLibraryWrapper is xxxxxxxxx.Instance Variables
+A NBExternalLibraryWrapper is xxxxxxxxx.

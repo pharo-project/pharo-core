@@ -1,1 +1,1 @@
-A RBExtractToTemporaryTest is xxxxxxxxx.Instance Variables
+A RBExtractToTemporaryTest is xxxxxxxxx.

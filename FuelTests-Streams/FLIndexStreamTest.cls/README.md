@@ -1,1 +1,1 @@
-A FLIndexStreamTest is xxxxxxxxx.Instance Variables
+A FLIndexStreamTest is xxxxxxxxx.

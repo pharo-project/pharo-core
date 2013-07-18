@@ -1,1 +1,1 @@
-A NECEntryTest is xxxxxxxxx.Instance Variables
+A NECEntryTest is xxxxxxxxx.

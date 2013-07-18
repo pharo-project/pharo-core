@@ -1,1 +1,1 @@
-A HistoryNodeTest is xxxxxxxxx.Instance Variables
+A HistoryNodeTest is xxxxxxxxx.

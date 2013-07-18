@@ -1,1 +1,1 @@
-A RBConsistencyCheckRule is xxxxxxxxx.Instance Variables
+A RBConsistencyCheckRule is xxxxxxxxx.

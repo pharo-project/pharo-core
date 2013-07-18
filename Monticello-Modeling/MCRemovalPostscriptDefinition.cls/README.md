@@ -1,1 +1,1 @@
-A MCRemovalPostscriptDefinition is xxxxxxxxx.Instance Variables
+A MCRemovalPostscriptDefinition is xxxxxxxxx.

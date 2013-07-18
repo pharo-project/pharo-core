@@ -1,1 +1,1 @@
-A RBCollectSelectNotUsedRule is xxxxxxxxx.Instance Variables
+A RBCollectSelectNotUsedRule is xxxxxxxxx.

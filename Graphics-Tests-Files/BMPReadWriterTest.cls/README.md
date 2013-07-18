@@ -1,1 +1,1 @@
-A BMPReadWriterTest is xxxxxxxxx.Instance Variables
+A BMPReadWriterTest is xxxxxxxxx.

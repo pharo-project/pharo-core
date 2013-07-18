@@ -1,1 +1,1 @@
-A MCPostscriptDefinition is xxxxxxxxx.Instance Variables
+A MCPostscriptDefinition is xxxxxxxxx.

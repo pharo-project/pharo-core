@@ -1,1 +1,1 @@
-A MCStReaderTest is xxxxxxxxx.Instance Variables
+A MCStReaderTest is xxxxxxxxx.

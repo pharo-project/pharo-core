@@ -1,1 +1,1 @@
-A MCMockAPoolDictionary is xxxxxxxxx.Instance Variables
+A MCMockAPoolDictionary is xxxxxxxxx.

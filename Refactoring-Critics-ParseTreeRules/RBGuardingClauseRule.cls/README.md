@@ -1,1 +1,1 @@
-A RBGuardingClauseRule is xxxxxxxxx.Instance Variables
+A RBGuardingClauseRule is xxxxxxxxx.

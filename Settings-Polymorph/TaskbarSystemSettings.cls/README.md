@@ -1,1 +1,1 @@
-A TaskbarSystemSettings is xxxxxxxxx.Instance Variables
+A TaskbarSystemSettings is xxxxxxxxx.

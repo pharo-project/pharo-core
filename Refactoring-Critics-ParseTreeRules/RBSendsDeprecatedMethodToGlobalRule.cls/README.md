@@ -1,1 +1,1 @@
-A RBSendsDeprecatedMethodToGlobalRule is xxxxxxxxx.Instance Variables
+A RBSendsDeprecatedMethodToGlobalRule is xxxxxxxxx.

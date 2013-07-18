@@ -1,1 +1,1 @@
-A RBRefactoringBrowserTest is xxxxxxxxx.Instance Variables
+A RBRefactoringBrowserTest is xxxxxxxxx.

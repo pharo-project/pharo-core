@@ -1,1 +1,1 @@
-A ManifestOpalCompilerCore is xxxxxxxxx.Instance Variables
+A ManifestOpalCompilerCore is xxxxxxxxx.

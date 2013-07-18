@@ -1,1 +1,1 @@
-A MCSystemSettings is xxxxxxxxx.Instance Variables
+A MCSystemSettings is xxxxxxxxx.

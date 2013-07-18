@@ -1,1 +1,1 @@
-A PackageMethodCategoryNodeExample is xxxxxxxxx.Instance Variables
+A PackageMethodCategoryNodeExample is xxxxxxxxx.

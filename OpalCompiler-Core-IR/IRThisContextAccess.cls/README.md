@@ -1,1 +1,1 @@
-An IRThisContextAccess is xxxxxxxxx.Instance Variables
+An IRThisContextAccess is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A HierarchicalUrlTest is xxxxxxxxx.Instance Variables
+A HierarchicalUrlTest is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A FLHashedCollectionSerializationTest is xxxxxxxxx.Instance Variables
+A FLHashedCollectionSerializationTest is xxxxxxxxx.

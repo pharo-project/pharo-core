@@ -1,1 +1,1 @@
-testOpenBrowseOnInstalledTraitMethod	| browser |	browser := (Behavior>>#localSelectors) browse.	browser changed.	browser close.
+testOpenBrowseOnInstalledTraitMethod	| browser |	browser := (Class>>#localSelectors) browse.	browser changed.	browser close.

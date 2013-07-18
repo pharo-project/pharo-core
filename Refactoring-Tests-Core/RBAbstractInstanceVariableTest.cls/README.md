@@ -1,1 +1,1 @@
-A RBAbstractInstanceVariableTest is xxxxxxxxx.Instance Variables
+A RBAbstractInstanceVariableTest is xxxxxxxxx.

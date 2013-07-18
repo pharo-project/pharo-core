@@ -1,1 +1,1 @@
-A MyTestError is xxxxxxxxx.Instance Variables
+A MyTestError is xxxxxxxxx.

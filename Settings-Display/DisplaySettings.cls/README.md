@@ -1,1 +1,1 @@
-A DisplaySettings is xxxxxxxxx.Instance Variables
+A DisplaySettings is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A Shape is xxxxxxxxx.Instance Variables
+A Shape is xxxxxxxxx.

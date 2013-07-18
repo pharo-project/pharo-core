@@ -1,1 +1,1 @@
-A WriteStreamTest is xxxxxxxxx.Instance Variables
+A WriteStreamTest is xxxxxxxxx.

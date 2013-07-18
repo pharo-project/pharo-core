@@ -1,1 +1,1 @@
-A GraphicFontSettings is xxxxxxxxx.Instance Variables
+A GraphicFontSettings is xxxxxxxxx.

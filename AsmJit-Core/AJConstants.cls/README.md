@@ -1,1 +1,1 @@
-An AJConstants is xxxxxxxxx.Instance Variables
+An AJConstants is xxxxxxxxx.

@@ -1,1 +1,1 @@
-An OCASTTranslatorTest is xxxxxxxxx.Instance Variables
+An OCASTTranslatorTest is xxxxxxxxx.

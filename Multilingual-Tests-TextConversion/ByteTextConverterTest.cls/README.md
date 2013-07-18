@@ -1,1 +1,1 @@
-A ByteTextConverterTest is xxxxxxxxx.Instance Variables
+A ByteTextConverterTest is xxxxxxxxx.

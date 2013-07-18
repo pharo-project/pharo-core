@@ -1,1 +1,1 @@
-A MetacelloExplicitLoadDirective is xxxxxxxxx.Instance Variables
+A MetacelloExplicitLoadDirective is xxxxxxxxx.

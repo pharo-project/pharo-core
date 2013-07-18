@@ -1,1 +1,1 @@
-theNonMetaClass	^self subclassResponsibility.
+theNonMetaClass	^self baseClass

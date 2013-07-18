@@ -1,1 +1,1 @@
-A MetacelloSymbolicVersionDoesNotExistError is xxxxxxxxx.Instance Variables
+A MetacelloSymbolicVersionDoesNotExistError is xxxxxxxxx.

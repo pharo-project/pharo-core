@@ -1,1 +1,1 @@
-A RBSendsUnknownMessageToGlobalRule is xxxxxxxxx.Instance Variables
+A RBSendsUnknownMessageToGlobalRule is xxxxxxxxx.

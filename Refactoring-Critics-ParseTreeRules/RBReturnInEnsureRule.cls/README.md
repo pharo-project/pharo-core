@@ -1,1 +1,1 @@
-A RBReturnInEnsureRule is xxxxxxxxx.Instance Variables
+A RBReturnInEnsureRule is xxxxxxxxx.

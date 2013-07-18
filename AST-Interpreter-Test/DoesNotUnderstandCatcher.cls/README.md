@@ -1,1 +1,1 @@
-A DoesNotUnderstandCatcher is xxxxxxxxx.Instance Variables
+A DoesNotUnderstandCatcher is xxxxxxxxx.

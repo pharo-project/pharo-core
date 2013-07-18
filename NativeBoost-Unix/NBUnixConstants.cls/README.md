@@ -1,1 +1,1 @@
-A NBUnixConstants is xxxxxxxxx.Instance Variables
+A NBUnixConstants is xxxxxxxxx.

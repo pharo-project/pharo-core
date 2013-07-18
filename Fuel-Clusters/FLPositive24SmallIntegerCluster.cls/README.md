@@ -1,1 +1,1 @@
-A FLPositive24SmallIntegerCluster is xxxxxxxxx.Instance Variables
+A FLPositive24SmallIntegerCluster is xxxxxxxxx.

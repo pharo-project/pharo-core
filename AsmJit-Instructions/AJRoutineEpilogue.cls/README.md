@@ -1,1 +1,1 @@
-An AJRoutineEpilogue is xxxxxxxxx.Instance Variables
+An AJRoutineEpilogue is xxxxxxxxx.

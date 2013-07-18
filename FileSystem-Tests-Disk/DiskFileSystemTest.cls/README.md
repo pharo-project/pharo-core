@@ -1,1 +1,1 @@
-A DiskFileSystemTest is xxxxxxxxx.Instance Variables
+A DiskFileSystemTest is xxxxxxxxx.

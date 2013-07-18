@@ -1,1 +1,1 @@
-A MCTestCase is xxxxxxxxx.Instance Variables
+A MCTestCase is xxxxxxxxx.

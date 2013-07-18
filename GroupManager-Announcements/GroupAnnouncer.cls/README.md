@@ -1,1 +1,1 @@
-A GroupAnnouncer is xxxxxxxxx.Instance Variables
+A GroupAnnouncer is xxxxxxxxx.

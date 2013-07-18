@@ -1,1 +1,1 @@
-A RBCollectionProtocolRule is xxxxxxxxx.Instance Variables
+A RBCollectionProtocolRule is xxxxxxxxx.

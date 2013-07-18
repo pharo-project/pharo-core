@@ -1,1 +1,1 @@
-A ColorArray is xxxxxxxxx.Instance Variables
+A ColorArray is xxxxxxxxx.

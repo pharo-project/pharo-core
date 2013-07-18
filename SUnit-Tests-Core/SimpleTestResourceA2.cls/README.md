@@ -1,1 +1,1 @@
-A SimpleTestResourceA2 is xxxxxxxxx.Instance Variables
+A SimpleTestResourceA2 is xxxxxxxxx.

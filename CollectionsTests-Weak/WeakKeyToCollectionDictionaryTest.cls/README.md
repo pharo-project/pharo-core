@@ -1,1 +1,1 @@
-A WeakKeyToCollectionDictionaryTest is xxxxxxxxx.Instance Variables
+A WeakKeyToCollectionDictionaryTest is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A RBAccessorClassRefactoring is xxxxxxxxx.Instance Variables
+A RBAccessorClassRefactoring is xxxxxxxxx.

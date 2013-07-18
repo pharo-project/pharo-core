@@ -1,1 +1,1 @@
-A ZnUrlExtensionTests is xxxxxxxxx.Instance Variables
+A ZnUrlExtensionTests is xxxxxxxxx.

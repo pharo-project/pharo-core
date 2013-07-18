@@ -1,1 +1,1 @@
-A SizeInMemoryTest is xxxxxxxxx.Instance Variables
+A SizeInMemoryTest is xxxxxxxxx.

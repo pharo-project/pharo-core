@@ -1,1 +1,1 @@
-An EyeInspectorTest is xxxxxxxxx.Instance Variables
+An EyeInspectorTest is xxxxxxxxx.

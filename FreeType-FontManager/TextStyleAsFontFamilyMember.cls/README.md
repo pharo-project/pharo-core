@@ -1,1 +1,1 @@
-A TextStyleAsFontFamilyMember is xxxxxxxxx.Instance Variables
+A TextStyleAsFontFamilyMember is xxxxxxxxx.

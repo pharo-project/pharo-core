@@ -1,1 +1,1 @@
-A MyTestNotification is xxxxxxxxx.Instance Variables
+A MyTestNotification is xxxxxxxxx.

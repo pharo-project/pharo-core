@@ -1,1 +1,1 @@
-A NBFloat128 is xxxxxxxxx.Instance Variables
+A NBFloat128 is xxxxxxxxx.

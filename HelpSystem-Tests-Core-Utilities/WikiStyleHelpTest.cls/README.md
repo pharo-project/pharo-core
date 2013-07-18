@@ -1,1 +1,1 @@
-A WikiStyleHelpTest is xxxxxxxxx.Instance Variables
+A WikiStyleHelpTest is xxxxxxxxx.

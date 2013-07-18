@@ -1,1 +1,1 @@
-An ExtendedNumberParserTest is xxxxxxxxx.Instance Variables
+An ExtendedNumberParserTest is xxxxxxxxx.

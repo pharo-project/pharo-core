@@ -1,1 +1,1 @@
-A ReparseAfterSourceEditing is xxxxxxxxx.Instance Variables
+A ReparseAfterSourceEditing is xxxxxxxxx.

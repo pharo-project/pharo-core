@@ -1,1 +1,1 @@
-A MCAncestryTest is xxxxxxxxx.Instance Variables
+A MCAncestryTest is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A RBMetaclass is xxxxxxxxx.Instance Variables
+A RBMetaclass is xxxxxxxxx.

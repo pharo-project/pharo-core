@@ -1,1 +1,1 @@
-A BlueUIThemeIcons is xxxxxxxxx.Instance Variables
+A BlueUIThemeIcons is xxxxxxxxx.

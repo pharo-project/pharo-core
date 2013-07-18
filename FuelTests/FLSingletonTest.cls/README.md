@@ -1,1 +1,1 @@
-A FLSingletonTest is xxxxxxxxx.Instance Variables
+A FLSingletonTest is xxxxxxxxx.

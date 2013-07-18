@@ -1,0 +1,1 @@
+fuelAccept: aGeneralMapper	^self explicitRequirement.

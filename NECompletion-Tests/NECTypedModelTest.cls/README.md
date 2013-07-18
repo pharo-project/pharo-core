@@ -1,1 +1,1 @@
-A NECTypedModelTest is xxxxxxxxx.Instance Variables
+A NECTypedModelTest is xxxxxxxxx.

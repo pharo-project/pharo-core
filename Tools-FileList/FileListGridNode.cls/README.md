@@ -1,1 +1,1 @@
-A FileListGridNode is xxxxxxxxx.Instance Variables
+A FileListGridNode is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A MCPackageTest is xxxxxxxxx.Instance Variables
+A MCPackageTest is xxxxxxxxx.

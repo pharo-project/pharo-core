@@ -1,1 +1,1 @@
-A RBPrettyPrintCodeRefactoring is xxxxxxxxx.Instance Variables
+A RBPrettyPrintCodeRefactoring is xxxxxxxxx.

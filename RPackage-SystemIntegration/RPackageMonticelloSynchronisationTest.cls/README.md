@@ -1,1 +1,1 @@
-A RPackageMonticelloSynchronisationTest is xxxxxxxxx.Instance Variables
+A RPackageMonticelloSynchronisationTest is xxxxxxxxx.

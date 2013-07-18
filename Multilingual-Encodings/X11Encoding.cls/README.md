@@ -1,1 +1,1 @@
-A X11Encoding is xxxxxxxxx.Instance Variables
+A X11Encoding is xxxxxxxxx.

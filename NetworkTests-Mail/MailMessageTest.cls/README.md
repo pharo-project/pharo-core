@@ -1,1 +1,1 @@
-A MailMessageTest is xxxxxxxxx.Instance Variables
+A MailMessageTest is xxxxxxxxx.

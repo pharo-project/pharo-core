@@ -1,1 +1,1 @@
-A PSMCOrganizationChangeWrapper is xxxxxxxxx.Instance Variables
+A PSMCOrganizationChangeWrapper is xxxxxxxxx.

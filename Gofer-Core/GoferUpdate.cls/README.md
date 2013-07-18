@@ -1,1 +1,1 @@
-A GoferUpdate is xxxxxxxxx.Instance Variables
+A GoferUpdate is xxxxxxxxx.

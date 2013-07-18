@@ -1,1 +1,1 @@
-A FreeTypeSystemSettings is xxxxxxxxx.Instance Variables
+A FreeTypeSystemSettings is xxxxxxxxx.

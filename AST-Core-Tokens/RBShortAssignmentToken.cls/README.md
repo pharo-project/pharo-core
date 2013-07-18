@@ -1,1 +1,1 @@
-A RBShortAssignmentToken is xxxxxxxxx.Instance Variables
+A RBShortAssignmentToken is xxxxxxxxx.

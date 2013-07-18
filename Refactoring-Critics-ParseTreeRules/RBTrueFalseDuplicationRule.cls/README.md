@@ -1,1 +1,1 @@
-A RBTrueFalseDuplicationRule is xxxxxxxxx.Instance Variables
+A RBTrueFalseDuplicationRule is xxxxxxxxx.

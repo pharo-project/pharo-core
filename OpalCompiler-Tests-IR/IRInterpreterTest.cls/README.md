@@ -1,1 +1,1 @@
-An IRInterpreterTest is xxxxxxxxx.Instance Variables
+An IRInterpreterTest is xxxxxxxxx.

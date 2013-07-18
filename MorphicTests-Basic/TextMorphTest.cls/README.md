@@ -1,1 +1,1 @@
-A TextMorphTest is xxxxxxxxx.Instance Variables
+A TextMorphTest is xxxxxxxxx.

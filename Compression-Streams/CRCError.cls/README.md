@@ -1,1 +1,1 @@
-A CRCError is xxxxxxxxx.Instance Variables
+A CRCError is xxxxxxxxx.

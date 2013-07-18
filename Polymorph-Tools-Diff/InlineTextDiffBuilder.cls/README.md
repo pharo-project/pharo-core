@@ -1,1 +1,1 @@
-An InlineTextDiffBuilder is xxxxxxxxx.Instance Variables
+An InlineTextDiffBuilder is xxxxxxxxx.

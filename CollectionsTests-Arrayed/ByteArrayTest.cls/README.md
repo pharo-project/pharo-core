@@ -1,1 +1,1 @@
-A ByteArrayTest is xxxxxxxxx.Instance Variables
+A ByteArrayTest is xxxxxxxxx.

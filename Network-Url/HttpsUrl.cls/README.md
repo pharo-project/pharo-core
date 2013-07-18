@@ -1,1 +1,1 @@
-A HttpsUrl is xxxxxxxxx.Instance Variables
+A HttpsUrl is xxxxxxxxx.

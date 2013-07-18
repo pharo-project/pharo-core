@@ -1,1 +1,1 @@
-A RBRemovePoolVariableChange is xxxxxxxxx.Instance Variables
+A RBRemovePoolVariableChange is xxxxxxxxx.

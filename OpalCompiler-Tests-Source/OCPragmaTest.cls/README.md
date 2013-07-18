@@ -1,1 +1,1 @@
-An OCPragmaTest is xxxxxxxxx.Instance Variables
+An OCPragmaTest is xxxxxxxxx.

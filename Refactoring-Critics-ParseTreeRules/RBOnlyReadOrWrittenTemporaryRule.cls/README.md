@@ -1,1 +1,1 @@
-A RBOnlyReadOrWrittenTemporaryRule is xxxxxxxxx.Instance Variables
+A RBOnlyReadOrWrittenTemporaryRule is xxxxxxxxx.

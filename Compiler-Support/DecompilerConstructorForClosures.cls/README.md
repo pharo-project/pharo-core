@@ -1,1 +1,1 @@
-A DecompilerConstructorForClosures is xxxxxxxxx.Instance Variables
+A DecompilerConstructorForClosures is xxxxxxxxx.

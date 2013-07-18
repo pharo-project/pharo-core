@@ -1,1 +1,1 @@
-A HelpTopicListItemWrapperTest is xxxxxxxxx.Instance Variables
+A HelpTopicListItemWrapperTest is xxxxxxxxx.

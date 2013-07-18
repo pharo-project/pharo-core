@@ -1,1 +1,1 @@
-A GroupNode is xxxxxxxxx.Instance Variables
+A GroupNode is xxxxxxxxx.

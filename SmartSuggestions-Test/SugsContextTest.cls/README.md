@@ -1,1 +1,1 @@
-A SugsContextTest is xxxxxxxxx.Instance Variables
+A SugsContextTest is xxxxxxxxx.

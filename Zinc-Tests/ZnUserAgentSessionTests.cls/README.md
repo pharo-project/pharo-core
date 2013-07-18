@@ -1,1 +1,1 @@
-A ZnUserAgentSessionTests is xxxxxxxxx.Instance Variables
+A ZnUserAgentSessionTests is xxxxxxxxx.

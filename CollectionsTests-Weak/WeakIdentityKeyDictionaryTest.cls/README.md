@@ -1,1 +1,1 @@
-A WeakIdentityKeyDictionaryTest is xxxxxxxxx.Instance Variables
+A WeakIdentityKeyDictionaryTest is xxxxxxxxx.

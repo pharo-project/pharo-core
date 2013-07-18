@@ -1,1 +1,1 @@
-A MethodPragmaTest is xxxxxxxxx.Instance Variables
+A MethodPragmaTest is xxxxxxxxx.

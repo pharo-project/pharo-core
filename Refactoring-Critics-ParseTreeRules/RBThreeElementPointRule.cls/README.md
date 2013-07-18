@@ -1,1 +1,1 @@
-A RBThreeElementPointRule is xxxxxxxxx.Instance Variables
+A RBThreeElementPointRule is xxxxxxxxx.

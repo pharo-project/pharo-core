@@ -1,1 +1,1 @@
-A RPackageReleaseTest is xxxxxxxxx.Instance Variables
+A RPackageReleaseTest is xxxxxxxxx.

@@ -1,1 +1,1 @@
-An AJRegister is xxxxxxxxx.Instance Variables
+An AJRegister is xxxxxxxxx.

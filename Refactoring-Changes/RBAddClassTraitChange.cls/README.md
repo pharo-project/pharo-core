@@ -1,1 +1,1 @@
-A RBAddClassTraitChange is xxxxxxxxx.Instance Variables
+A RBAddClassTraitChange is xxxxxxxxx.

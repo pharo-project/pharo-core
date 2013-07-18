@@ -1,1 +1,1 @@
-An OCNewCompilerWithChangesFunctionalTests is xxxxxxxxx.Instance Variables
+An OCNewCompilerWithChangesFunctionalTests is xxxxxxxxx.

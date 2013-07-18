@@ -1,1 +1,1 @@
-A ScriptLoaderTest is xxxxxxxxx.Instance Variables
+A ScriptLoaderTest is xxxxxxxxx.

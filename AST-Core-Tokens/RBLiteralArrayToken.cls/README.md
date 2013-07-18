@@ -1,1 +1,1 @@
-A RBLiteralArrayToken is xxxxxxxxx.Instance Variables
+A RBLiteralArrayToken is xxxxxxxxx.

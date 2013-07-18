@@ -1,1 +1,1 @@
-A GoferCleanup is xxxxxxxxx.Instance Variables
+A GoferCleanup is xxxxxxxxx.

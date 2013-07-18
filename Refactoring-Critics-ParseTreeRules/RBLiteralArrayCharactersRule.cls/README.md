@@ -1,1 +1,1 @@
-A RBLiteralArrayCharactersRule is xxxxxxxxx.Instance Variables
+A RBLiteralArrayCharactersRule is xxxxxxxxx.

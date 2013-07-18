@@ -1,1 +1,1 @@
-A ZnDigestAuthenticatorTests is xxxxxxxxx.Instance Variables
+A ZnDigestAuthenticatorTests is xxxxxxxxx.

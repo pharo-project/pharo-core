@@ -1,1 +1,1 @@
-A MenuLineMorph is xxxxxxxxx.Instance Variables
+A MenuLineMorph is xxxxxxxxx.

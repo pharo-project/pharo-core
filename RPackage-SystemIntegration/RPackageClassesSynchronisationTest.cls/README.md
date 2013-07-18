@@ -1,1 +1,1 @@
-A RPackageClassesSynchronisationTest is xxxxxxxxx.Instance Variables
+A RPackageClassesSynchronisationTest is xxxxxxxxx.

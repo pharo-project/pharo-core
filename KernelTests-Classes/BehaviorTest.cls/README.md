@@ -1,1 +1,1 @@
-A BehaviorTest is xxxxxxxxx.Instance Variables
+A BehaviorTest is xxxxxxxxx.

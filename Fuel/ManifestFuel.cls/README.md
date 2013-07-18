@@ -1,1 +1,1 @@
-A ManifestFuel is xxxxxxxxx.Instance Variables
+A ManifestFuel is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A StApiSetter is xxxxxxxxx.Instance Variables
+A StApiSetter is xxxxxxxxx.

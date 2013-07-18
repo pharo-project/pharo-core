@@ -1,1 +1,1 @@
-A BooleanApiSetter is xxxxxxxxx.Instance Variables
+A BooleanApiSetter is xxxxxxxxx.

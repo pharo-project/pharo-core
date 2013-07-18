@@ -1,1 +1,1 @@
-A NBWideString is xxxxxxxxx.Instance Variables
+A NBWideString is xxxxxxxxx.

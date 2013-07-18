@@ -1,1 +1,1 @@
-A FLIgnoredVariablesTest is xxxxxxxxx.Instance Variables
+A FLIgnoredVariablesTest is xxxxxxxxx.

@@ -1,1 +1,1 @@
-An AthensTextRenderTest is xxxxxxxxx.Instance Variables
+An AthensTextRenderTest is xxxxxxxxx.

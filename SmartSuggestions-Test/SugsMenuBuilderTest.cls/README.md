@@ -1,1 +1,1 @@
-A SugsMenuBuilderTest is xxxxxxxxx.Instance Variables
+A SugsMenuBuilderTest is xxxxxxxxx.

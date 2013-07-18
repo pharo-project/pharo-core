@@ -1,1 +1,1 @@
-A StartupUIManager is xxxxxxxxx.Instance Variables
+A StartupUIManager is xxxxxxxxx.

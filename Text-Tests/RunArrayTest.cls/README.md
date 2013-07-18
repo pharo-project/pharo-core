@@ -1,1 +1,1 @@
-A RunArrayTest is xxxxxxxxx.Instance Variables
+A RunArrayTest is xxxxxxxxx.

@@ -1,1 +1,1 @@
-An AGroupHasBeenRemoved is xxxxxxxxx.Instance Variables
+An AGroupHasBeenRemoved is xxxxxxxxx.

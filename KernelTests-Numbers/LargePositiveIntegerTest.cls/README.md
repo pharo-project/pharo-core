@@ -1,1 +1,1 @@
-A LargePositiveIntegerTest is xxxxxxxxx.Instance Variables
+A LargePositiveIntegerTest is xxxxxxxxx.

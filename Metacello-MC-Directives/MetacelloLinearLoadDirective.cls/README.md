@@ -1,1 +1,1 @@
-A MetacelloLinearLoadDirective is xxxxxxxxx.Instance Variables
+A MetacelloLinearLoadDirective is xxxxxxxxx.

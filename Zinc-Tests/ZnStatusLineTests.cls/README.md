@@ -1,1 +1,1 @@
-A ZnStatusLineTests is xxxxxxxxx.Instance Variables
+A ZnStatusLineTests is xxxxxxxxx.

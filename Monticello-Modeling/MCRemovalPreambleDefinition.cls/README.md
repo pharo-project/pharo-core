@@ -1,1 +1,1 @@
-A MCRemovalPreambleDefinition is xxxxxxxxx.Instance Variables
+A MCRemovalPreambleDefinition is xxxxxxxxx.

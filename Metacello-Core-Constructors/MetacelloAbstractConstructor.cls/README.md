@@ -1,1 +1,1 @@
-A MetacelloAbstractConstructor is xxxxxxxxx.Instance Variables
+A MetacelloAbstractConstructor is xxxxxxxxx.

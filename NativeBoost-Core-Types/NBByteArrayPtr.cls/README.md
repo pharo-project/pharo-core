@@ -1,1 +1,1 @@
-A NBByteArrayPtr is xxxxxxxxx.Instance Variables
+A NBByteArrayPtr is xxxxxxxxx.

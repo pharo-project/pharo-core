@@ -1,1 +1,1 @@
-An IRTransformTest is xxxxxxxxx.Instance Variables
+An IRTransformTest is xxxxxxxxx.

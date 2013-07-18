@@ -1,1 +1,1 @@
-A MetacelloPharoPlatform is xxxxxxxxx.Instance Variables
+A MetacelloPharoPlatform is xxxxxxxxx.

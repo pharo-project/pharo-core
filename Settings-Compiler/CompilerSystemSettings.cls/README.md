@@ -1,1 +1,1 @@
-A CompilerSystemSettings is xxxxxxxxx.Instance Variables
+A CompilerSystemSettings is xxxxxxxxx.

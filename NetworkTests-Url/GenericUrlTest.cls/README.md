@@ -1,1 +1,1 @@
-A GenericUrlTest is xxxxxxxxx.Instance Variables
+A GenericUrlTest is xxxxxxxxx.

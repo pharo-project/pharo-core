@@ -1,1 +1,1 @@
-A ZnBase64EncoderTests is xxxxxxxxx.Instance Variables
+A ZnBase64EncoderTests is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A DosTimestampTest is xxxxxxxxx.Instance Variables
+A DosTimestampTest is xxxxxxxxx.

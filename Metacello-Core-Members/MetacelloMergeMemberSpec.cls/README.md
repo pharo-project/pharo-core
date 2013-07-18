@@ -1,1 +1,1 @@
-A MetacelloMergeMemberSpec is xxxxxxxxx.Instance Variables
+A MetacelloMergeMemberSpec is xxxxxxxxx.

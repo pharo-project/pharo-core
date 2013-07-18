@@ -1,1 +1,1 @@
-A RBUnconditionalRecursionRule is xxxxxxxxx.Instance Variables
+A RBUnconditionalRecursionRule is xxxxxxxxx.

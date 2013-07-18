@@ -1,1 +1,1 @@
-A RBUnnecessaryAssignmentRule is xxxxxxxxx.Instance Variables
+A RBUnnecessaryAssignmentRule is xxxxxxxxx.

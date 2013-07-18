@@ -1,1 +1,1 @@
-A TrueTest is xxxxxxxxx.Instance Variables
+A TrueTest is xxxxxxxxx.

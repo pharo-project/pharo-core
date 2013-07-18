@@ -1,1 +1,1 @@
-A SimpleTextGlyphInfo is xxxxxxxxx.Instance Variables
+A SimpleTextGlyphInfo is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A PSMCSystemSettings is xxxxxxxxx.Instance Variables
+A PSMCSystemSettings is xxxxxxxxx.

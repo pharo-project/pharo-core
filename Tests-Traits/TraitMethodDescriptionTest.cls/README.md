@@ -1,1 +1,1 @@
-A TraitMethodDescriptionTest is xxxxxxxxx.Instance Variables
+A TraitMethodDescriptionTest is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A MOPTestClassD is xxxxxxxxx.Instance Variables
+A MOPTestClassD is xxxxxxxxx.

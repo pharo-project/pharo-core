@@ -1,1 +1,1 @@
-A CustomHelpTest is xxxxxxxxx.Instance Variables
+A CustomHelpTest is xxxxxxxxx.

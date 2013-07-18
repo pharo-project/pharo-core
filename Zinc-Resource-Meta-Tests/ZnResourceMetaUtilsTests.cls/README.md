@@ -1,1 +1,1 @@
-A ZnResourceMetaUtilsTests is xxxxxxxxx.Instance Variables
+A ZnResourceMetaUtilsTests is xxxxxxxxx.

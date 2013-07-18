@@ -1,1 +1,1 @@
-A PointerFinderTest is xxxxxxxxx.Instance Variables
+A PointerFinderTest is xxxxxxxxx.

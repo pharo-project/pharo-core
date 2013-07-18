@@ -1,1 +1,1 @@
-A SharedQueueTest is xxxxxxxxx.Instance Variables
+A SharedQueueTest is xxxxxxxxx.

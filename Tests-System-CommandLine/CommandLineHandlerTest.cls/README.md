@@ -1,1 +1,1 @@
-A CommandLineHandlerTest is xxxxxxxxx.Instance Variables
+A CommandLineHandlerTest is xxxxxxxxx.

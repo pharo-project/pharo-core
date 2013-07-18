@@ -1,1 +1,1 @@
-A DebugSystemSettings is xxxxxxxxx.Instance Variables
+A DebugSystemSettings is xxxxxxxxx.

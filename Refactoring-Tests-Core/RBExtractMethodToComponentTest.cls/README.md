@@ -1,1 +1,1 @@
-A RBExtractMethodToComponentTest is xxxxxxxxx.Instance Variables
+A RBExtractMethodToComponentTest is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A TraitPureBehaviorTest is xxxxxxxxx.Instance Variables
+A TraitPureBehaviorTest is xxxxxxxxx.

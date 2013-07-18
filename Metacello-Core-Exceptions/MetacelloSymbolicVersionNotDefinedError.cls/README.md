@@ -1,1 +1,1 @@
-A MetacelloSymbolicVersionNotDefinedError is xxxxxxxxx.Instance Variables
+A MetacelloSymbolicVersionNotDefinedError is xxxxxxxxx.

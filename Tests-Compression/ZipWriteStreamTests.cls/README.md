@@ -1,1 +1,1 @@
-A ZipWriteStreamTests is xxxxxxxxx.Instance Variables
+A ZipWriteStreamTests is xxxxxxxxx.

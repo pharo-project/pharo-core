@@ -1,1 +1,1 @@
-A DiffMethodReferenceConverter is xxxxxxxxx.Instance Variables
+A DiffMethodReferenceConverter is xxxxxxxxx.

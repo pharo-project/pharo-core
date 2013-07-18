@@ -1,1 +1,1 @@
-A PlatformResolverTest is xxxxxxxxx.Instance Variables
+A PlatformResolverTest is xxxxxxxxx.

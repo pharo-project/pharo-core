@@ -1,1 +1,1 @@
-A RBProtocolRegexRefactoring is xxxxxxxxx.Instance Variables
+A RBProtocolRegexRefactoring is xxxxxxxxx.

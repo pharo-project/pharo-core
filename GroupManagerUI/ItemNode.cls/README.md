@@ -1,1 +1,1 @@
-An ItemNode is xxxxxxxxx.Instance Variables
+An ItemNode is xxxxxxxxx.

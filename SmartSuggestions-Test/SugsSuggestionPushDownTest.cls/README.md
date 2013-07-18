@@ -1,1 +1,1 @@
-A SugsSuggestionPushDownTest is xxxxxxxxx.Instance Variables
+A SugsSuggestionPushDownTest is xxxxxxxxx.

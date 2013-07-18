@@ -1,1 +1,1 @@
-A FLWeakObjectsTest is xxxxxxxxx.Instance Variables
+A FLWeakObjectsTest is xxxxxxxxx.

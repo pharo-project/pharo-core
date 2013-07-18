@@ -1,1 +1,1 @@
-A RBPushDownMethodTest is xxxxxxxxx.Instance Variables
+A RBPushDownMethodTest is xxxxxxxxx.

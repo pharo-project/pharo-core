@@ -1,1 +1,1 @@
-An OpenToolTest is xxxxxxxxx.Instance Variables
+An OpenToolTest is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A MetacelloMCProject is xxxxxxxxx.Instance Variables
+A MetacelloMCProject is xxxxxxxxx.

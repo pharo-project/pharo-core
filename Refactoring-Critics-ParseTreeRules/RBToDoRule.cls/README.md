@@ -1,1 +1,1 @@
-A RBToDoRule is xxxxxxxxx.Instance Variables
+A RBToDoRule is xxxxxxxxx.

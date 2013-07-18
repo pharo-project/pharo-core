@@ -1,1 +1,1 @@
-A KMCombinationTests is xxxxxxxxx.Instance Variables
+A KMCombinationTests is xxxxxxxxx.

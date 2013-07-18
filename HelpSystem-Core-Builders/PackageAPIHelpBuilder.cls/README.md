@@ -1,1 +1,1 @@
-A PackageAPIHelpBuilder is xxxxxxxxx.Instance Variables
+A PackageAPIHelpBuilder is xxxxxxxxx.

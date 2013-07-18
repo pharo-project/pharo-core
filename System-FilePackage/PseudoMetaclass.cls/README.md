@@ -1,1 +1,1 @@
-A PseudoMetaclass is xxxxxxxxx.Instance Variables
+A PseudoMetaclass is xxxxxxxxx.

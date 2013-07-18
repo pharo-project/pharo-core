@@ -1,1 +1,1 @@
-A RPackageExtensionMethodsSynchronisationTest is xxxxxxxxx.Instance Variables
+A RPackageExtensionMethodsSynchronisationTest is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A ZnClientTests is xxxxxxxxx.Instance Variables
+A ZnClientTests is xxxxxxxxx.

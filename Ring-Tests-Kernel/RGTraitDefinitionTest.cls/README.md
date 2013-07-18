@@ -1,1 +1,1 @@
-A RGTraitDefinitionTest is xxxxxxxxx.Instance Variables
+A RGTraitDefinitionTest is xxxxxxxxx.

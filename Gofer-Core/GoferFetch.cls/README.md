@@ -1,1 +1,1 @@
-A GoferFetch is xxxxxxxxx.Instance Variables
+A GoferFetch is xxxxxxxxx.

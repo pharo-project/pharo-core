@@ -1,1 +1,1 @@
-An UndefinedVariable is xxxxxxxxx.Instance Variables
+An UndefinedVariable is xxxxxxxxx.

@@ -1,1 +1,1 @@
-An ArgumentNamesTest is xxxxxxxxx.Instance Variables
+An ArgumentNamesTest is xxxxxxxxx.

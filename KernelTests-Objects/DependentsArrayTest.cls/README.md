@@ -1,1 +1,1 @@
-A DependentsArrayTest is xxxxxxxxx.Instance Variables
+A DependentsArrayTest is xxxxxxxxx.

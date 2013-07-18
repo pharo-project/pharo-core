@@ -1,1 +1,1 @@
-A MFClassB is xxxxxxxxx.Instance Variables
+A MFClassB is xxxxxxxxx.

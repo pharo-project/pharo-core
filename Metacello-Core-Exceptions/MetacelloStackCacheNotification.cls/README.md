@@ -1,1 +1,1 @@
-A MetacelloStackCacheNotification is xxxxxxxxx.Instance Variables
+A MetacelloStackCacheNotification is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A GoferPush is xxxxxxxxx.Instance Variables
+A GoferPush is xxxxxxxxx.

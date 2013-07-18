@@ -1,1 +1,1 @@
-A MetacelloProjectSpecLoadConflict is xxxxxxxxx.Instance Variables
+A MetacelloProjectSpecLoadConflict is xxxxxxxxx.

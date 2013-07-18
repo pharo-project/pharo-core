@@ -1,1 +1,1 @@
-A StringApiSetter is xxxxxxxxx.Instance Variables
+A StringApiSetter is xxxxxxxxx.

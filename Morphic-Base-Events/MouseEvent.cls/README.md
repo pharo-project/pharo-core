@@ -1,1 +1,1 @@
-A MouseEvent is xxxxxxxxx.Instance Variables
+A MouseEvent is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A PangoTypes is xxxxxxxxx.Instance Variables
+A PangoTypes is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A RBProtectInstanceVariableRefactoring is xxxxxxxxx.Instance Variables
+A RBProtectInstanceVariableRefactoring is xxxxxxxxx.

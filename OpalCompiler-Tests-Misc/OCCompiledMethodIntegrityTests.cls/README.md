@@ -1,1 +1,1 @@
-An OCCompiledMethodIntegrityTests is xxxxxxxxx.Instance Variables
+An OCCompiledMethodIntegrityTests is xxxxxxxxx.

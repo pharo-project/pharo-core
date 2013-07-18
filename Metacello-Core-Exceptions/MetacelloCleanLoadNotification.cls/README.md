@@ -1,1 +1,1 @@
-A MetacelloCleanLoadNotification is xxxxxxxxx.Instance Variables
+A MetacelloCleanLoadNotification is xxxxxxxxx.

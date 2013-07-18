@@ -1,1 +1,1 @@
-A WindowsStoreTest is xxxxxxxxx.Instance Variables
+A WindowsStoreTest is xxxxxxxxx.

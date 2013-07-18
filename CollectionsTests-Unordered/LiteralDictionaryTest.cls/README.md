@@ -1,1 +1,1 @@
-A LiteralDictionaryTest is xxxxxxxxx.Instance Variables
+A LiteralDictionaryTest is xxxxxxxxx.

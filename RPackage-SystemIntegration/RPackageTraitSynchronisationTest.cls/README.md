@@ -1,1 +1,1 @@
-A RPackageTraitSynchronisationTest is xxxxxxxxx.Instance Variables
+A RPackageTraitSynchronisationTest is xxxxxxxxx.

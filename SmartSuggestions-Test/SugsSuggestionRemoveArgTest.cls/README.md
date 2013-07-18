@@ -1,1 +1,1 @@
-A SugsSuggestionRemoveArgTest is xxxxxxxxx.Instance Variables
+A SugsSuggestionRemoveArgTest is xxxxxxxxx.

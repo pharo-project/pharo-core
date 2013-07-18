@@ -1,1 +1,1 @@
-A TextKernTest is xxxxxxxxx.Instance Variables
+A TextKernTest is xxxxxxxxx.

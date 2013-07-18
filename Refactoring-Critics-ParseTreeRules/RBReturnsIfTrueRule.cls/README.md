@@ -1,1 +1,1 @@
-A RBReturnsIfTrueRule is xxxxxxxxx.Instance Variables
+A RBReturnsIfTrueRule is xxxxxxxxx.

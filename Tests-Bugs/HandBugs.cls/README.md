@@ -1,1 +1,1 @@
-A HandBugs is xxxxxxxxx.Instance Variables
+A HandBugs is xxxxxxxxx.

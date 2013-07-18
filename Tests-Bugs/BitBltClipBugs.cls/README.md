@@ -1,1 +1,1 @@
-A BitBltClipBugs is xxxxxxxxx.Instance Variables
+A BitBltClipBugs is xxxxxxxxx.

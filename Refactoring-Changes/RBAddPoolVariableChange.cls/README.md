@@ -1,1 +1,1 @@
-A RBAddPoolVariableChange is xxxxxxxxx.Instance Variables
+A RBAddPoolVariableChange is xxxxxxxxx.

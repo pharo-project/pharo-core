@@ -1,1 +1,1 @@
-A ZnEntityTests is xxxxxxxxx.Instance Variables
+A ZnEntityTests is xxxxxxxxx.

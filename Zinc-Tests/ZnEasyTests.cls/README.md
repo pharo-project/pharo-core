@@ -1,1 +1,1 @@
-A ZnEasyTests is xxxxxxxxx.Instance Variables
+A ZnEasyTests is xxxxxxxxx.

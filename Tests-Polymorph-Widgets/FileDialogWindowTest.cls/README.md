@@ -1,1 +1,1 @@
-A FileDialogWindowTest is xxxxxxxxx.Instance Variables
+A FileDialogWindowTest is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A SystemDictionaryTest is xxxxxxxxx.Instance Variables
+A SystemDictionaryTest is xxxxxxxxx.

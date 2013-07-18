@@ -1,1 +1,1 @@
-A MCPreambleDefinition is xxxxxxxxx.Instance Variables
+A MCPreambleDefinition is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A RBProtectInstanceVariableTest is xxxxxxxxx.Instance Variables
+A RBProtectInstanceVariableTest is xxxxxxxxx.

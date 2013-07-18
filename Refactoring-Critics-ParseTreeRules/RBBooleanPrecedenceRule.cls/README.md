@@ -1,1 +1,1 @@
-A RBBooleanPrecedenceRule is xxxxxxxxx.Instance Variables
+A RBBooleanPrecedenceRule is xxxxxxxxx.

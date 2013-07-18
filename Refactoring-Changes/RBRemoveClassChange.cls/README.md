@@ -1,1 +1,1 @@
-A RBRemoveClassChange is xxxxxxxxx.Instance Variables
+A RBRemoveClassChange is xxxxxxxxx.

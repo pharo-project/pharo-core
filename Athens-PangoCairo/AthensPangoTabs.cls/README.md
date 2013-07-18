@@ -1,1 +1,1 @@
-An AthensPangoTabs is xxxxxxxxx.Instance Variables
+An AthensPangoTabs is xxxxxxxxx.

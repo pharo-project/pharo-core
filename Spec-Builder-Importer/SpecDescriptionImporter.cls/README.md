@@ -1,1 +1,1 @@
-A SpecDescriptionImporter is xxxxxxxxx.Instance Variables
+A SpecDescriptionImporter is xxxxxxxxx.

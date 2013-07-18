@@ -1,1 +1,1 @@
-A KMDispatchChainTest is xxxxxxxxx.Instance Variables
+A KMDispatchChainTest is xxxxxxxxx.

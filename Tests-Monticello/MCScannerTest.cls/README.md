@@ -1,1 +1,1 @@
-A MCScannerTest is xxxxxxxxx.Instance Variables
+A MCScannerTest is xxxxxxxxx.

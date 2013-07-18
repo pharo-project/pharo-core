@@ -1,1 +1,1 @@
-A FLSignatureTest is xxxxxxxxx.Instance Variables
+A FLSignatureTest is xxxxxxxxx.

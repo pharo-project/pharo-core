@@ -1,1 +1,1 @@
-A FreeTypeFontFamily is xxxxxxxxx.Instance Variables
+A FreeTypeFontFamily is xxxxxxxxx.

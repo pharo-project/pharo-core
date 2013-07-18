@@ -1,0 +1,1 @@
+criticTheNonMetaclassClass	^self theNonMetaClass 

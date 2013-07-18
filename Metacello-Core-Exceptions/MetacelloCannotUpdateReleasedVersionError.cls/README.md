@@ -1,1 +1,1 @@
-A MetacelloCannotUpdateReleasedVersionError is xxxxxxxxx.Instance Variables
+A MetacelloCannotUpdateReleasedVersionError is xxxxxxxxx.

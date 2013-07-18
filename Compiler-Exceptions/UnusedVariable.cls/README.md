@@ -1,1 +1,1 @@
-An UnusedVariable is xxxxxxxxx.Instance Variables
+An UnusedVariable is xxxxxxxxx.

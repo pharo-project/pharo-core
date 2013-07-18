@@ -1,1 +1,1 @@
-A FLHookedSubstitutionTest is xxxxxxxxx.Instance Variables
+A FLHookedSubstitutionTest is xxxxxxxxx.

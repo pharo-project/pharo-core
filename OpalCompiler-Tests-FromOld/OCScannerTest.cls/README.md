@@ -1,1 +1,1 @@
-An OCScannerTest is xxxxxxxxx.Instance Variables
+An OCScannerTest is xxxxxxxxx.

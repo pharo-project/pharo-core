@@ -1,1 +1,1 @@
-A RGContainerTest is xxxxxxxxx.Instance Variables
+A RGContainerTest is xxxxxxxxx.

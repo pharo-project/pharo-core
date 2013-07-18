@@ -1,1 +1,1 @@
-A RBAddInstanceVariableChange is xxxxxxxxx.Instance Variables
+A RBAddInstanceVariableChange is xxxxxxxxx.

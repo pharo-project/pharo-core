@@ -1,1 +1,1 @@
-A RGOrganization is xxxxxxxxx.Instance Variables
+A RGOrganization is xxxxxxxxx.

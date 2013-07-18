@@ -1,1 +1,1 @@
-A RGGlobalDefinitionTest is xxxxxxxxx.Instance Variables
+A RGGlobalDefinitionTest is xxxxxxxxx.

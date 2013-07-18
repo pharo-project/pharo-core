@@ -1,1 +1,1 @@
-A RBParserTest is xxxxxxxxx.Instance Variables
+A RBParserTest is xxxxxxxxx.

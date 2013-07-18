@@ -1,1 +1,1 @@
-A WeakSetTest is xxxxxxxxx.Instance Variables
+A WeakSetTest is xxxxxxxxx.

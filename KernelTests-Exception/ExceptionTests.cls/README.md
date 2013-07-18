@@ -1,1 +1,1 @@
-An ExceptionTests is xxxxxxxxx.Instance Variables
+An ExceptionTests is xxxxxxxxx.

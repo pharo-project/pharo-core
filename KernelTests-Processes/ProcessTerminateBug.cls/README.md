@@ -1,1 +1,1 @@
-A ProcessTerminateBug is xxxxxxxxx.Instance Variables
+A ProcessTerminateBug is xxxxxxxxx.

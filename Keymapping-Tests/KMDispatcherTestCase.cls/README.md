@@ -1,1 +1,1 @@
-A KMDispatcherTestCase is xxxxxxxxx.Instance Variables
+A KMDispatcherTestCase is xxxxxxxxx.

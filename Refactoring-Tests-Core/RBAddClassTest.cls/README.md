@@ -1,1 +1,1 @@
-A RBAddClassTest is xxxxxxxxx.Instance Variables
+A RBAddClassTest is xxxxxxxxx.

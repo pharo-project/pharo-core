@@ -1,1 +1,1 @@
-A SystemSystemSettings is xxxxxxxxx.Instance Variables
+A SystemSystemSettings is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A DelayTest is xxxxxxxxx.Instance Variables
+A DelayTest is xxxxxxxxx.

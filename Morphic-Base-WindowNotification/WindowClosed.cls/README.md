@@ -1,1 +1,1 @@
-A WindowClosed is xxxxxxxxx.Instance Variables
+A WindowClosed is xxxxxxxxx.

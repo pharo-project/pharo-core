@@ -1,1 +1,1 @@
-A DummySystemProgressItem is xxxxxxxxx.Instance Variables
+A DummySystemProgressItem is xxxxxxxxx.

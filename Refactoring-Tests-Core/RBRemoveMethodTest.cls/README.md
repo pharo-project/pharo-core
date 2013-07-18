@@ -1,1 +1,1 @@
-A RBRemoveMethodTest is xxxxxxxxx.Instance Variables
+A RBRemoveMethodTest is xxxxxxxxx.

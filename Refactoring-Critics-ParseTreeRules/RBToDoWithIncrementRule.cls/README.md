@@ -1,1 +1,1 @@
-A RBToDoWithIncrementRule is xxxxxxxxx.Instance Variables
+A RBToDoWithIncrementRule is xxxxxxxxx.

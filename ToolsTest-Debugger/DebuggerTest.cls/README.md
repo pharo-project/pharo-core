@@ -1,1 +1,1 @@
-A DebuggerTest is xxxxxxxxx.Instance Variables
+A DebuggerTest is xxxxxxxxx.

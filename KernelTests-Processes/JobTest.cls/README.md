@@ -1,1 +1,1 @@
-A JobTest is xxxxxxxxx.Instance Variables
+A JobTest is xxxxxxxxx.

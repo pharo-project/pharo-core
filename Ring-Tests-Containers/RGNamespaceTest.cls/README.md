@@ -1,1 +1,1 @@
-A RGNamespaceTest is xxxxxxxxx.Instance Variables
+A RGNamespaceTest is xxxxxxxxx.

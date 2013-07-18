@@ -1,1 +1,1 @@
-A NBSessionChangeAnnouncement is xxxxxxxxx.Instance Variables
+A NBSessionChangeAnnouncement is xxxxxxxxx.

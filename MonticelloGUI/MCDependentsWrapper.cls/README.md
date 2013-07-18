@@ -1,1 +1,1 @@
-A MCDependentsWrapper is xxxxxxxxx.Instance Variables
+A MCDependentsWrapper is xxxxxxxxx.

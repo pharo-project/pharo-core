@@ -1,1 +1,1 @@
-A ShadowLabelMorph is xxxxxxxxx.Instance Variables
+A ShadowLabelMorph is xxxxxxxxx.

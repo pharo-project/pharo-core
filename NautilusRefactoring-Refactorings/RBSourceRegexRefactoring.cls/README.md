@@ -1,1 +1,1 @@
-A RBSourceRegexRefactoring is xxxxxxxxx.Instance Variables
+A RBSourceRegexRefactoring is xxxxxxxxx.

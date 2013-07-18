@@ -1,1 +1,1 @@
-A HashFunction is xxxxxxxxx.Instance Variables
+A HashFunction is xxxxxxxxx.

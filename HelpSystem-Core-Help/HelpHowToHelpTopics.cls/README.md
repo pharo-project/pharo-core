@@ -1,1 +1,1 @@
-A HelpHowToHelpTopics is xxxxxxxxx.Instance Variables
+A HelpHowToHelpTopics is xxxxxxxxx.

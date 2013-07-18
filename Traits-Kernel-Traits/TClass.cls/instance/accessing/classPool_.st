@@ -1,0 +1,1 @@
+classPool: aDictionary	^self explicitRequirement.

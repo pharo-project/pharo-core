@@ -1,1 +1,1 @@
-A RBPushDownInstanceVariableTest is xxxxxxxxx.Instance Variables
+A RBPushDownInstanceVariableTest is xxxxxxxxx.

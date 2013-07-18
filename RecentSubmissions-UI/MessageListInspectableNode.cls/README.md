@@ -1,1 +1,1 @@
-A MessageListInspectableNode is xxxxxxxxx.Instance Variables
+A MessageListInspectableNode is xxxxxxxxx.

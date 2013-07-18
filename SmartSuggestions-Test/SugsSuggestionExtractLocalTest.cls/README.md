@@ -1,1 +1,1 @@
-A SugsSuggestionExtractLocalTest is xxxxxxxxx.Instance Variables
+A SugsSuggestionExtractLocalTest is xxxxxxxxx.

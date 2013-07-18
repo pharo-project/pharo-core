@@ -1,1 +1,1 @@
-A NBExternalAddressType is xxxxxxxxx.Instance Variables
+A NBExternalAddressType is xxxxxxxxx.

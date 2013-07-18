@@ -1,1 +1,1 @@
-A MCPTest is xxxxxxxxx.Instance Variables
+A MCPTest is xxxxxxxxx.

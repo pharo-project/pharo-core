@@ -1,1 +1,1 @@
-A MustBeBooleanTests is xxxxxxxxx.Instance Variables
+A MustBeBooleanTests is xxxxxxxxx.

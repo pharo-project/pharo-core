@@ -1,1 +1,1 @@
-A CodeHolderSystemSettings is xxxxxxxxx.Instance Variables
+A CodeHolderSystemSettings is xxxxxxxxx.

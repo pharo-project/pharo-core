@@ -1,1 +1,1 @@
-A RBUnoptimizedAndOrRule is xxxxxxxxx.Instance Variables
+A RBUnoptimizedAndOrRule is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A MemoryHandleTest is xxxxxxxxx.Instance Variables
+A MemoryHandleTest is xxxxxxxxx.

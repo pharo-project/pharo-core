@@ -1,1 +1,1 @@
-A WorkspaceTest is xxxxxxxxx.Instance Variables
+A WorkspaceTest is xxxxxxxxx.

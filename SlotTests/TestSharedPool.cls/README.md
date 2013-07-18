@@ -1,1 +1,1 @@
-A TestSharedPool is xxxxxxxxx.Instance Variables
+A TestSharedPool is xxxxxxxxx.

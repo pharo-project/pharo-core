@@ -1,1 +1,1 @@
-A PackageMethodNodeExample is xxxxxxxxx.Instance Variables
+A PackageMethodNodeExample is xxxxxxxxx.

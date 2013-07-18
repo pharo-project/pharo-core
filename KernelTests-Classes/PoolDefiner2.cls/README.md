@@ -1,1 +1,1 @@
-A PoolDefiner2 is xxxxxxxxx.Instance Variables
+A PoolDefiner2 is xxxxxxxxx.

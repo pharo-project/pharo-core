@@ -1,1 +1,1 @@
-A ColorApiSetter is xxxxxxxxx.Instance Variables
+A ColorApiSetter is xxxxxxxxx.

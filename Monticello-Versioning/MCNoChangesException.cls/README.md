@@ -1,1 +1,1 @@
-A MCNoChangesException is xxxxxxxxx.Instance Variables
+A MCNoChangesException is xxxxxxxxx.

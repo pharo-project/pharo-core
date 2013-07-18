@@ -1,1 +1,1 @@
-A TextAction is xxxxxxxxx.Instance Variables
+A TextAction is xxxxxxxxx.

@@ -1,1 +1,1 @@
-A SimpleBalloonMorph is xxxxxxxxx.Instance Variables
+A SimpleBalloonMorph is xxxxxxxxx.

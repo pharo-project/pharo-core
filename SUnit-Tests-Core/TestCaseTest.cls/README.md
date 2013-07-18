@@ -1,1 +1,1 @@
-A TestCaseTest is xxxxxxxxx.Instance Variables
+A TestCaseTest is xxxxxxxxx.

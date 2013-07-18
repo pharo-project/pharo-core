@@ -1,1 +1,1 @@
-A GoferLoad is xxxxxxxxx.Instance Variables
+A GoferLoad is xxxxxxxxx.

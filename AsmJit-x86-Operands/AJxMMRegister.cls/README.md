@@ -1,1 +1,1 @@
-An AJxMMRegister is xxxxxxxxx.Instance Variables
+An AJxMMRegister is xxxxxxxxx.

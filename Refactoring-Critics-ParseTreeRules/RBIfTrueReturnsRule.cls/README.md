@@ -1,1 +1,1 @@
-A RBIfTrueReturnsRule is xxxxxxxxx.Instance Variables
+A RBIfTrueReturnsRule is xxxxxxxxx.

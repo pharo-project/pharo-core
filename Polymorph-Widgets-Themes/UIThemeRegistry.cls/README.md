@@ -1,1 +1,1 @@
-An UIThemeRegistry is xxxxxxxxx.Instance Variables
+An UIThemeRegistry is xxxxxxxxx.

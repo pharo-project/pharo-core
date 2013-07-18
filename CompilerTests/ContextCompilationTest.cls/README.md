@@ -1,1 +1,1 @@
-A ContextCompilationTest is xxxxxxxxx.Instance Variables
+A ContextCompilationTest is xxxxxxxxx.

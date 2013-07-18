@@ -1,1 +1,1 @@
-A TraitTest is xxxxxxxxx.Instance Variables
+A TraitTest is xxxxxxxxx.

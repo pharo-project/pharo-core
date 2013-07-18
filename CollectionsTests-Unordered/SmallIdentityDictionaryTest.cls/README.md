@@ -1,1 +1,1 @@
-A SmallIdentityDictionaryTest is xxxxxxxxx.Instance Variables
+A SmallIdentityDictionaryTest is xxxxxxxxx.

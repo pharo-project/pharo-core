@@ -1,1 +1,1 @@
-A RBContainsRule is xxxxxxxxx.Instance Variables
+A RBContainsRule is xxxxxxxxx.

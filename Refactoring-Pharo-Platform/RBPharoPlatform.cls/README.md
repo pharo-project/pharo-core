@@ -1,1 +1,1 @@
-A RBPharoPlatform is xxxxxxxxx.Instance Variables
+A RBPharoPlatform is xxxxxxxxx.

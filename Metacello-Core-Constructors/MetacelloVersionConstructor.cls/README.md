@@ -1,1 +1,1 @@
-A MetacelloVersionConstructor is xxxxxxxxx.Instance Variables
+A MetacelloVersionConstructor is xxxxxxxxx.

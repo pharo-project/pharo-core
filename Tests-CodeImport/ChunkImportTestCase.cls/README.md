@@ -1,1 +1,1 @@
-A ChunkImportTestCase is xxxxxxxxx.Instance Variables
+A ChunkImportTestCase is xxxxxxxxx.

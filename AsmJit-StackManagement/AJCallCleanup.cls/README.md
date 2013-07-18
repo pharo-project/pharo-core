@@ -1,1 +1,1 @@
-An AJCallCleanup is xxxxxxxxx.Instance Variables
+An AJCallCleanup is xxxxxxxxx.

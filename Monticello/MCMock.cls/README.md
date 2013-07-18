@@ -1,1 +1,1 @@
-A MCMock is xxxxxxxxx.Instance Variables
+A MCMock is xxxxxxxxx.

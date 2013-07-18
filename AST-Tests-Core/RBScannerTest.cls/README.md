@@ -1,1 +1,1 @@
-A RBScannerTest is xxxxxxxxx.Instance Variables
+A RBScannerTest is xxxxxxxxx.

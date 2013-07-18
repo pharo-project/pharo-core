@@ -1,1 +1,1 @@
-A CannotDeleteFileException is xxxxxxxxx.Instance Variables
+A CannotDeleteFileException is xxxxxxxxx.

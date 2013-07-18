@@ -1,1 +1,1 @@
-A NBWin32Shell is xxxxxxxxx.Instance Variables
+A NBWin32Shell is xxxxxxxxx.

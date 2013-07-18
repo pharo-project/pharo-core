@@ -1,1 +1,1 @@
-A WeakFinalizersTest is xxxxxxxxx.Instance Variables
+A WeakFinalizersTest is xxxxxxxxx.

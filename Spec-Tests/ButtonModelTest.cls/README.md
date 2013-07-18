@@ -1,1 +1,1 @@
-A ButtonModelTest is xxxxxxxxx.Instance Variables
+A ButtonModelTest is xxxxxxxxx.

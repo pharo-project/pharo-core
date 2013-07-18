@@ -1,1 +1,1 @@
-A MCDirtyPackageInfo is xxxxxxxxx.Instance Variables
+A MCDirtyPackageInfo is xxxxxxxxx.

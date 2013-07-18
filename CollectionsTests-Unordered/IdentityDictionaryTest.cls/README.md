@@ -1,1 +1,1 @@
-An IdentityDictionaryTest is xxxxxxxxx.Instance Variables
+An IdentityDictionaryTest is xxxxxxxxx.

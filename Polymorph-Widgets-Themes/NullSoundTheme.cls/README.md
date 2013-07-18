@@ -1,1 +1,1 @@
-A NullSoundTheme is xxxxxxxxx.Instance Variables
+A NullSoundTheme is xxxxxxxxx.

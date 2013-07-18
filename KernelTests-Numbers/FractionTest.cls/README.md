@@ -1,1 +1,1 @@
-A FractionTest is xxxxxxxxx.Instance Variables
+A FractionTest is xxxxxxxxx.

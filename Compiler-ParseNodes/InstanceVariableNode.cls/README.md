@@ -1,1 +1,1 @@
-An InstanceVariableNode is xxxxxxxxx.Instance Variables
+An InstanceVariableNode is xxxxxxxxx.

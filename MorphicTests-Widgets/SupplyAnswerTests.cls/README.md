@@ -1,1 +1,1 @@
-A SupplyAnswerTests is xxxxxxxxx.Instance Variables
+A SupplyAnswerTests is xxxxxxxxx.

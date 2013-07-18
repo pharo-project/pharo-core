@@ -1,1 +1,1 @@
-A TranslucentColorTest is xxxxxxxxx.Instance Variables
+A TranslucentColorTest is xxxxxxxxx.

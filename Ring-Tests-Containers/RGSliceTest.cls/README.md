@@ -1,1 +1,1 @@
-A RGSliceTest is xxxxxxxxx.Instance Variables
+A RGSliceTest is xxxxxxxxx.

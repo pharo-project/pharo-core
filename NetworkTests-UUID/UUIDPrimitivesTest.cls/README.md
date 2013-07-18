@@ -1,1 +1,1 @@
-An UUIDPrimitivesTest is xxxxxxxxx.Instance Variables
+An UUIDPrimitivesTest is xxxxxxxxx.

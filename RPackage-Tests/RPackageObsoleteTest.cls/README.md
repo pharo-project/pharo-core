@@ -1,1 +1,1 @@
-A RPackageObsoleteTest is xxxxxxxxx.Instance Variables
+A RPackageObsoleteTest is xxxxxxxxx.

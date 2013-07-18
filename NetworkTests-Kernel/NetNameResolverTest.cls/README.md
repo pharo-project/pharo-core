@@ -1,1 +1,1 @@
-A NetNameResolverTest is xxxxxxxxx.Instance Variables
+A NetNameResolverTest is xxxxxxxxx.
