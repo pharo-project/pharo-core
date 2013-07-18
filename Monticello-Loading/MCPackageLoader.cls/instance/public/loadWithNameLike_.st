@@ -1,1 +1,1 @@
-loadWithNameLike: baseName	self analyze.	unloadableDefinitions isEmpty ifFalse: [self warnAboutDependencies].	self useNewChangeSetNamedLike: baseName during: [self basicLoad]
+loadWithNameLike: baseName	self validate.	self useNewChangeSetNamedLike: baseName during: [self basicLoad]

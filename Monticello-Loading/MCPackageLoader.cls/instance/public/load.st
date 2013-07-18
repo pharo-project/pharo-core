@@ -1,1 +1,1 @@
-load	self analyze.	unloadableDefinitions isEmpty ifFalse: [self warnAboutDependencies].	self useNewChangeSetDuring: [self basicLoad].	MCMethodDefinition cachedDefinitions finalizeValues.
+load	self validate.	self useNewChangeSetDuring: [self basicLoad].	MCMethodDefinition cachedDefinitions finalizeValues.

@@ -1,1 +1,1 @@
-Exception subclass: #SlotClassBuilderConflict	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Slot-ClassBuilder'
+Error subclass: #SlotClassBuilderConflict	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Slot-ClassBuilder'

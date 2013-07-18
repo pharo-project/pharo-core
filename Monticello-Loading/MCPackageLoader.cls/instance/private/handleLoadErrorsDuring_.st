@@ -1,0 +1,1 @@
+handleLoadErrorsDuring: aBlock	[aBlock		on: InMidstOfFileinNotification do: [ :notification | notification resume: true ]]		on: SlotClassBuilderConflict do: [ :error | 						error resume. ]		
