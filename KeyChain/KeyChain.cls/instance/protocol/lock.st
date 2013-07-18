@@ -1,1 +1,1 @@
-lock	lastUnlock contents: false.
+lock	nextLockTime := DateAndTime new

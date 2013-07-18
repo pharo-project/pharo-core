@@ -1,1 +1,1 @@
-stepToCallee	"Step to callee or sender"	| ctxt |	ctxt := self.	[(ctxt := ctxt step) == self] whileTrue.	^ ctxt
+stepToCallee	"Step to callee or sender"	| context |	context := self.	[ (context := context step) == self ] whileTrue.	^ context

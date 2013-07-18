@@ -1,1 +1,1 @@
-exceptionHandlerBlock	"handlercontext only. access temporaries from BlockClosure>>on: do:"	^self tempAt: 2
+exceptionHandlerBlock	"handlercontext only. access temporaries from BlockClosure>>#on:do:"	^self tempAt: 2

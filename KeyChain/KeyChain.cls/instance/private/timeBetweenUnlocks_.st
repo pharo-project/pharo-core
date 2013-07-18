@@ -1,1 +1,1 @@
-timeBetweenUnlocks: aDuration	lastUnlock timeToLive: aDuration
+timeBetweenUnlocks: aDuration	timeBetweenUnlocks := aDuration

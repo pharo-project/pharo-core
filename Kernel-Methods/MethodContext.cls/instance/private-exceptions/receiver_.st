@@ -1,1 +1,1 @@
-receiver: r	receiver := r
+receiver: anObject	receiver := anObject

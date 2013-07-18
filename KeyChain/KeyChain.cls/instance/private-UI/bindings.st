@@ -1,1 +1,1 @@
-bindings	^ bindings
+bindings	^ groups

@@ -1,1 +1,1 @@
-return: value to: sendr 	"Simulate the return of value to sendr."	self releaseTo: sendr.	sendr ifNil: [^ nil].	^ sendr push: value
+return: value to: aSender	"Simulate the return of value to aSender."	self releaseTo: aSender.	aSender ifNil: [^ nil].	^ aSender push: value

@@ -1,1 +1,1 @@
-userNameFor: aGroup	^ self isUnlocked		ifTrue: [ (bindings at: aGroup ifAbsent: [ ^ nil ]) username ]
+userNameFor: aGroup	^ self isUnlocked		ifTrue: [ (groups at: aGroup ifAbsent: [ ^ nil ]) username ]

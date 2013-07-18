@@ -1,1 +1,1 @@
-Object subclass: #KeyChain	instanceVariableNames: 'username password encryptor lastUnlock encryptorDecryptor bindings'	classVariableNames: ''	poolDictionaries: ''	category: 'KeyChain'
+Object subclass: #KeyChain	instanceVariableNames: 'username password encryptor encryptorDecryptor nextLockTime timeBetweenUnlocks groups'	classVariableNames: ''	poolDictionaries: ''	category: 'KeyChain'

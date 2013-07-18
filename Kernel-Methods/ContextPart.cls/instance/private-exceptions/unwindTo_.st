@@ -1,1 +1,1 @@
-unwindTo: aContext	| ctx unwindBlock |	ctx := self.	[(ctx := ctx findNextUnwindContextUpTo: aContext) isNil] whileFalse: [		(ctx unwindComplete) ifNil:[			ctx unwindComplete: true.			unwindBlock := ctx unwindBlock.			unwindBlock value]	].
+unwindTo: aContext	| context unwindBlock |	context := self.	[ (context := context findNextUnwindContextUpTo: aContext) isNil ] whileFalse: [		(context unwindComplete) ifNil: [			context unwindComplete: true.			unwindBlock := context unwindBlock.			unwindBlock value ]].

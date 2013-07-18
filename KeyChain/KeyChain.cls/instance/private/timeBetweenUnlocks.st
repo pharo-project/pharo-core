@@ -1,1 +1,1 @@
-timeBetweenUnlocks	^ lastUnlock timeToLive
+timeBetweenUnlocks	^ timeBetweenUnlocks ifNil: [ self defaultTimeBetweenUnlocks ]

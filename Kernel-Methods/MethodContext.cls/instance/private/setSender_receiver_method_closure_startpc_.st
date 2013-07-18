@@ -1,1 +1,1 @@
-setSender: s receiver: r method: m closure: c startpc: startpc	"Create the receiver's initial state."	sender := s.	receiver := r.	method := m.	closureOrNil := c.	pc := startpc.	stackp := 0
+setSender: newSender receiver: newReceiver method: newMethod closure: newClosure startpc: startpc	"Create the receiver's initial state."	sender := newSender.	receiver := newReceiver.	method := newMethod.	closureOrNil := newClosure.	pc := startpc.	stackp := 0

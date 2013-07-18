@@ -1,1 +1,1 @@
-groups	^ bindings keys
+groups	^ groups keys

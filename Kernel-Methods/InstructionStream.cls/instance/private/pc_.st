@@ -1,1 +1,1 @@
-pc: n	pc := n
+pc: anInteger	pc := anInteger

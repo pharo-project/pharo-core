@@ -1,1 +1,1 @@
-testMethodSourceNodeAtPC	self assert: (((Object>>#halt) sourceNodeForPC:  28) isKindOf: RBMessageNode).
+testMethodSourceNodeAtPC	self assert: (((Object>>#halt) sourceNodeForPC:  22) isKindOf: RBMessageNode).

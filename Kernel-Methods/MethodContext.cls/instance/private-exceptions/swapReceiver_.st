@@ -1,1 +1,1 @@
-swapReceiver: r	receiver := r
+swapReceiver: newReceiver	receiver := newReceiver
