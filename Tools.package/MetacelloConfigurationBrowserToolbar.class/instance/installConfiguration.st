@@ -1,3 +1,3 @@
 actions
 installConfiguration
-	self owner installConfiguration 
+	owner installConfiguration 

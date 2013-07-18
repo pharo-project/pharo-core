@@ -1,4 +1,4 @@
 public
 commentForCurrentUpdate
- ^ '11132 Backport to 2.0: Convert MetacelloConfigurationBrowser to Spec
-	https://pharo.fogbugz.com/f/cases/11132'
+ ^ '11179 Config browser buttons broken due to missing method
+	https://pharo.fogbugz.com/f/cases/11179'

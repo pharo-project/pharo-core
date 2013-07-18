@@ -1,11 +1,14 @@
 {
 	"class" : {
-		"defaultSpec" : "TorstenBergmann 7/3/2013 21:00",
+		"configurationSearchList" : "TorstenBergmann 7/17/2013 13:44",
+		"defaultSpec" : "TorstenBergmann 7/17/2013 13:37",
 		"menuCommandOn:" : "TorstenBergmann 7/4/2013 09:48",
 		"open" : "TorstenBergmann 7/4/2013 09:49",
 		"title" : "tbn 6/20/2013 08:13" },
 	"instance" : {
 		"configBrowserModel" : "TorstenBergmann 7/3/2013 20:59",
+		"configurationSearchAccept:" : "TorstenBergmann 7/17/2013 14:18",
+		"configurationSearchField" : "TorstenBergmann 7/17/2013 13:45",
 		"initialExtent" : "tbn 6/19/2013 21:47",
 		"initializeWidgets" : "TorstenBergmann 7/4/2013 08:44",
 		"installConfiguration" : "TorstenBergmann 7/3/2013 21:28",

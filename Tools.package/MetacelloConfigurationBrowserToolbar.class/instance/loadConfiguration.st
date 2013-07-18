@@ -1,3 +1,3 @@
 actions
 loadConfiguration
-	self owner loadConfiguration 
+	owner loadConfiguration 
