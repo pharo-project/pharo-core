@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11173 Monticello class migrations do not work well with the new ClassBuilder	https://pharo.fogbugz.com/f/cases/11173	11187 printing [self] shows source of Doit	https://pharo.fogbugz.com/f/cases/11187	'
+commentForCurrentUpdate ^ '10992 Some methods in Class could be moved to TClass	https://pharo.fogbugz.com/f/cases/10992/	(pass 2)'

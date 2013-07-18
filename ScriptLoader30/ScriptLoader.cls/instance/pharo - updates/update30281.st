@@ -1,0 +1,1 @@
+update30281	"self new update30281"	self withUpdateLog: '10992 Some methods in Class could be moved to TClass	https://pharo.fogbugz.com/f/cases/10992/	(pass 2)'.	self loadTogether: self script116 merge: false.	self flushCaches.
