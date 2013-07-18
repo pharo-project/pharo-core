@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10992 Some methods in Class could be moved to TClass	https://pharo.fogbugz.com/f/cases/10992/	(pass 2)'
+commentForCurrentUpdate ^ '10889 ExplicitRequirement methods bug	https://pharo.fogbugz.com/f/cases/10889/'
