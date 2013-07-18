@@ -1,1 +1,0 @@
-createCompileRequestor: aFileReference	compileRequestor := STCommandLineRequestor fileReference: aFileReference

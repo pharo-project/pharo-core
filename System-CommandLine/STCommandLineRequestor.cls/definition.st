@@ -1,1 +1,0 @@
-Object subclass: #STCommandLineRequestor	instanceVariableNames: 'fileReference contents'	classVariableNames: ''	poolDictionaries: ''	category: 'System-CommandLine'

@@ -1,1 +1,1 @@
-hasComment	^ self comment notNil
+hasComment	^ self comment isEmptyOrNil not 
