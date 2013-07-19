@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10889 ExplicitRequirement methods bug	https://pharo.fogbugz.com/f/cases/10889/'
+commentForCurrentUpdate ^ '11193 add a #bytecode method to CompiledMethod	https://pharo.fogbugz.com/f/cases/11193	11127 Tests.CodeImport.ChunkImportTestCase.testImportAClassCategory failing	https://pharo.fogbugz.com/f/cases/11127	11191 Tests failing in traits	https://pharo.fogbugz.com/f/cases/11191'
