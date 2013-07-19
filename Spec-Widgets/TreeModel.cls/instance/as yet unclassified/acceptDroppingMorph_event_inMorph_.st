@@ -1,0 +1,1 @@
+acceptDroppingMorph: draggedMorph event: event inMorph: source	| item |		item := source scrollerSubMorphFromPoint: event position.	^ self acceptDropBlock valueWithEnoughArguments: { draggedMorph. event. source. item }

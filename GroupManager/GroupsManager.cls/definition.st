@@ -1,1 +1,0 @@
-Object subclass: #GroupsManager	instanceVariableNames: 'groups'	classVariableNames: 'CurrentManager'	poolDictionaries: ''	category: 'GroupManager'

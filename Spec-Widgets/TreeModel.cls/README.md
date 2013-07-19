@@ -1,1 +1,1 @@
-A TreeModel is a spec model of a Tree ;)
+I am the Spec model of a MorphTreeMorph tree.
