@@ -1,4 +1,4 @@
 public
 commentForCurrentUpdate
- ^ '11179 Config browser buttons broken due to missing method
-	https://pharo.fogbugz.com/f/cases/11179'
+ ^ '11192 Config browser does not update when switching repos
+	https://pharo.fogbugz.com/f/cases/11192'

@@ -7,7 +7,9 @@ switchRepository
 			title: 'Repository Search';
 			yourself.
 	dialog browseBlock: [ :el |
-		el ifNotNil: [ NBWin32Shell shellBrowse: el ]].
+		el ifNotNil: [
+			"only available onWin until other platforms can open a URL too"			 
+			OSPlatform isWin32 ifTrue: [ NBWin32Shell shellBrowse: el ] ]].
 	
 	(dialog openModal) cancelled ifFalse: [
 		dialog listIndex > 0 ifTrue: [ self repository: (self availableRepositories at: dialog listIndex) ]]
