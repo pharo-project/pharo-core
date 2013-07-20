@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10823 Kill old list model	https://pharo.fogbugz.com/f/cases/10823	11136 RadioButtonGroupExample new openWithSpec is not working	https://pharo.fogbugz.com/f/cases/11136	11174 Add support for sync position of multiple widgets with just one scroll bar	https://pharo.fogbugz.com/f/cases/11174'
+commentForCurrentUpdate ^ '11188 Be able to set an initial Filter in ListDialogWindow	https://pharo.fogbugz.com/f/cases/11188	11196 Drag not working on AlainTreeModel	https://pharo.fogbugz.com/f/cases/11196'
