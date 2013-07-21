@@ -1,1 +1,1 @@
-initialize	"Initialization code for IssueCreator"	issue := nil asValueHolder.	super initialize.
+initialize	issue := nil asValueHolder.	super initialize.

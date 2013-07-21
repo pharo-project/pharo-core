@@ -1,1 +1,1 @@
-initialize	"Initialization code for BlocEditor"	super initialize.	integer := 0 asValueHolder
+initialize	super initialize.	integer := 0 asValueHolder

@@ -1,1 +1,1 @@
-initialize	"Initialization code for InstVarAdder"		description := nil asValueHolder.	selectedClass := nil asValueHolder.	super initialize.
+initialize	description := nil asValueHolder.	selectedClass := nil asValueHolder.	super initialize.

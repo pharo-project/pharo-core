@@ -1,1 +1,1 @@
-initialize	"Initialization code for VersionMessageConverter"	super initialize.	referencesList := #()
+initialize	super initialize.	referencesList := #()

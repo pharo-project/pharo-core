@@ -1,1 +1,1 @@
-initialize	"Initialization code for InstVarSetter"	descriptionHolder := nil asValueHolder.	textBindings := Dictionary new.	super initialize.		self announcer weak		on: WidgetBuilt do: [ text widget ifNotNil: [:m | m styler workspace: self ] ]
+initialize	descriptionHolder := nil asValueHolder.	textBindings := Dictionary new.	super initialize.		self announcer weak		on: WidgetBuilt do: [ text widget ifNotNil: [:m | m styler workspace: self ] ]

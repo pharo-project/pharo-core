@@ -1,1 +1,1 @@
-initialize	"Initialization code for PragmaMenuAndShortcutRegistration"	super initialize.	items := OrderedCollection new.
+initialize	super initialize.	items := OrderedCollection new.

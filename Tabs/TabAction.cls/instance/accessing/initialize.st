@@ -1,1 +1,1 @@
-initialize	"Initialization code for TabAction"	super initialize.	icon := ImageMorph new
+initialize	super initialize.	icon := ImageMorph new

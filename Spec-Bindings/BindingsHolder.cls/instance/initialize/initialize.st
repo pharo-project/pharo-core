@@ -1,1 +1,1 @@
-initialize	"Initialization code for BindingsHolder"	super initialize.	bindings := MorphicBindings new asValueHolder.
+initialize	super initialize.	bindings := MorphicBindings new asValueHolder.

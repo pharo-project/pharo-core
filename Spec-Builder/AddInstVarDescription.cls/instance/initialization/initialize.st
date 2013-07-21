@@ -1,1 +1,1 @@
-initialize	"Initialization code for AddInstVarDescription"	super initialize.	name := ''.
+initialize	super initialize.	name := ''.

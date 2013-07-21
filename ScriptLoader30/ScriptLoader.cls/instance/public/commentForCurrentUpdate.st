@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11188 Be able to set an initial Filter in ListDialogWindow	https://pharo.fogbugz.com/f/cases/11188	11196 Drag not working on AlainTreeModel	https://pharo.fogbugz.com/f/cases/11196'
+commentForCurrentUpdate ^ '11202 PluggableTreeMorph(Object)>>doesNotUnderstand: #initializeColumsFrom:	https://pharo.fogbugz.com/f/cases/11202	11185 Remove comment from #initialization template in Nautilus	https://pharo.fogbugz.com/f/cases/11185'

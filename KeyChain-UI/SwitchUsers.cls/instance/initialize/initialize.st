@@ -1,1 +1,1 @@
-initialize	"Initialization code for SwitchUsers"	usersManager := nil asValueHolder.	selectedUser := nil asValueHolder.		super initialize.
+initialize	usersManager := nil asValueHolder.	selectedUser := nil asValueHolder.		super initialize.

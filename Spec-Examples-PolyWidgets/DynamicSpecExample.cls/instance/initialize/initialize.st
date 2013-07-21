@@ -1,1 +1,1 @@
-initialize	"Initialization code for NameOfSubclass"	super initialize.	object := nil asValueHolder.
+initialize	super initialize.	object := nil asValueHolder.

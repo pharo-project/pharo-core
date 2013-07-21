@@ -1,1 +1,1 @@
-initialize	"Initialization code for DynamicWidgetChange"	super initialize.	boolean := true
+initialize	super initialize.	boolean := true

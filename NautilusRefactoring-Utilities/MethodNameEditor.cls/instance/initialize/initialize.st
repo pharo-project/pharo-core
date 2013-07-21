@@ -1,1 +1,1 @@
-initialize	"Initialization code for MethodNameEditor"	super initialize.	self beResizeable
+initialize	super initialize.	self beResizeable

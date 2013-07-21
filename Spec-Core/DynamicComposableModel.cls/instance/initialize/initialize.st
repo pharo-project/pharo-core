@@ -1,1 +1,1 @@
-initialize	"Initialization code for DynamicComposableModel"	widgets := OrderedIdentityDictionary new asValueHolder.	super initialize.	
+initialize	widgets := OrderedIdentityDictionary new asValueHolder.	super initialize.	
