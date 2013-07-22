@@ -1,1 +1,1 @@
-I am ArithmeticError, the superclass of all exceptions related to arithmentic.
+I am ArithmeticError, the superclass of all exceptions related to arithmetic.

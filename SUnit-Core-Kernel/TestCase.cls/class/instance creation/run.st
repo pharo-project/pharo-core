@@ -1,0 +1,1 @@
+run	^ self suite run

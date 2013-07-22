@@ -1,0 +1,1 @@
+Error subclass: #InvalidArgument	instanceVariableNames: 'argument'	classVariableNames: ''	poolDictionaries: ''	category: 'Kernel-Exceptions'

@@ -1,0 +1,1 @@
+update30288	"self new update30288"	self withUpdateLog: '11201 InvalidArgument + a few exceptions comments	https://pharo.fogbugz.com/f/cases/1120111163 TestCase class>run convenience method	https://pharo.fogbugz.com/f/cases/11163'.	self loadTogether: self script123 merge: false.	self flushCaches.

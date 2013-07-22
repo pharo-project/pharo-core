@@ -1,0 +1,1 @@
+signal: signallerText for: argument	^ self new		argument: argument;		signal: signallerText
