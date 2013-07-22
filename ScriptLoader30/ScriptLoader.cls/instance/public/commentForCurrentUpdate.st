@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11201 InvalidArgument + a few exceptions comments	https://pharo.fogbugz.com/f/cases/1120111163 TestCase class>run convenience method	https://pharo.fogbugz.com/f/cases/11163'
+commentForCurrentUpdate ^ '11204 Crash if changes file is not writable	https://pharo.fogbugz.com/f/cases/11204	11198 Update Pharo with latest Opal	https://pharo.fogbugz.com/f/cases/11198	'
