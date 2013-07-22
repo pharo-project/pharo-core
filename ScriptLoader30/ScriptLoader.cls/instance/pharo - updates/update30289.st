@@ -1,1 +1,0 @@
-update30289	"self new update30289"	self withUpdateLog: '11204 Crash if changes file is not writable	https://pharo.fogbugz.com/f/cases/11204	11198 Update Pharo with latest Opal	https://pharo.fogbugz.com/f/cases/11198	'.	self loadTogether: self script124 merge: false.	self flushCaches.

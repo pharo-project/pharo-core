@@ -1,1 +1,0 @@
-update30280	"self new update30279"	self withUpdateLog: '10992 Some methods in Class could be moved to TClass	https://pharo.fogbugz.com/f/cases/10992/	(pass 1)'.	self flushCaches.

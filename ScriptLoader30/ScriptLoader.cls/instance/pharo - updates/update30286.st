@@ -1,1 +1,0 @@
-update30286	"self new update30286"	self withUpdateLog: '11188 Be able to set an initial Filter in ListDialogWindow	https://pharo.fogbugz.com/f/cases/11188	11196 Drag not working on AlainTreeModel	https://pharo.fogbugz.com/f/cases/11196'.	self loadTogether: self script121 merge: false.	self flushCaches.

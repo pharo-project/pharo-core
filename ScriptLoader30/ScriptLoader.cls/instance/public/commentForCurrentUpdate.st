@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '4533 UIThemeWatery and UIThemeWatery2 should be merged...	https://pharo.fogbugz.com/f/cases/4533	11207 clean up some dead code in FileContentsBrowser	https://pharo.fogbugz.com/f/cases/11207	'
+commentForCurrentUpdate ^ '11211 clean up Watery2 theme	https://pharo.fogbugz.com/f/cases/11211	11206 clean up externalInterrupt in old Debugger	https://pharo.fogbugz.com/f/cases/11206'

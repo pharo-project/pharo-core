@@ -1,1 +1,0 @@
-update30279	"self new update30279"	self withUpdateLog: '11173 Monticello class migrations do not work well with the new ClassBuilder	https://pharo.fogbugz.com/f/cases/11173	11187 printing [self] shows source of Doit	https://pharo.fogbugz.com/f/cases/11187	'.	self loadTogether: self script115 merge: false.	self flushCaches.

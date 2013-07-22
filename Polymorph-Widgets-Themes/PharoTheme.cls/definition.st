@@ -1,1 +1,1 @@
-UIThemeWatery2 subclass: #PharoTheme	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Polymorph-Widgets-Themes'
+UIThemeWatery subclass: #PharoTheme	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Polymorph-Widgets-Themes'

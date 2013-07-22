@@ -1,1 +1,0 @@
-update30270	"self new update30270"	self withUpdateLog: '11140 #addDeferredUIMessage: is always sent directly to WorldState	https://pharo.fogbugz.com/f/cases/11140	11159 NautilusMonticello new returns the NautilusMonticello class	https://pharo.fogbugz.com/f/cases/11159'.	self loadTogether: self script106 merge: false.	self flushCaches.
