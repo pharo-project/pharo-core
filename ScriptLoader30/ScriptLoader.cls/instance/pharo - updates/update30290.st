@@ -1,0 +1,1 @@
+update30290	"self new update30290"	self withUpdateLog: '10393 Add RPackageSet cache	https://pharo.fogbugz.com/f/cases/10393'.	self loadTogether: self script125 merge: false.	self flushCaches.

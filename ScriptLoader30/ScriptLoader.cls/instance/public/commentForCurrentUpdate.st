@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11204 Crash if changes file is not writable	https://pharo.fogbugz.com/f/cases/11204	11198 Update Pharo with latest Opal	https://pharo.fogbugz.com/f/cases/11198	'
+commentForCurrentUpdate ^ '10393 Add RPackageSet cache	https://pharo.fogbugz.com/f/cases/10393'
