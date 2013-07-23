@@ -1,1 +1,1 @@
-initialize	super initialize.	"Add ourselves to registry. See [Smalltalk tools]" 	Smalltalk tools register: self as: #debugger
+initialize	"Add ourselves to registry. See [Smalltalk tools]" 	Smalltalk tools register: self as: #debugger

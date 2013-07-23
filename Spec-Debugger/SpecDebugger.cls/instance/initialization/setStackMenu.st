@@ -1,1 +1,1 @@
-setStackMenu	self stack menu: [ :menu |		menu addAllFromPragma:'specDebuggerStackActionMenu' target: self toolbar.		menu addAllFromPragma:'specDebuggerStackExtensionMenu' target: self toolbar]
+setStackMenu	self stack menu: [ :aMenu |		self contextStackMenu: aMenu]

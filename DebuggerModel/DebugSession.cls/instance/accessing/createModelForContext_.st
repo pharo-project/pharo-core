@@ -1,1 +1,1 @@
-createModelForContext: aContext	^ (DebugContext forContext: aContext) topContext: context
+createModelForContext: aContext	^ (DebugContext forContext: aContext) topContext: interruptedContext

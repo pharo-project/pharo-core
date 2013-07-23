@@ -1,1 +1,0 @@
-spanNewSessionForProcess: aProcess	^ self spanNewSessionForContext: aProcess suspendedContext fromProcess: aProcess

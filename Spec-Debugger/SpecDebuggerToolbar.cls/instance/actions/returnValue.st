@@ -1,0 +1,1 @@
+returnValue	self currentContext 		ifNotNilDo: [ :aContext | self session returnValueFrom: aContext ]

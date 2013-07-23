@@ -1,1 +1,1 @@
-isLatestContext: aContext	^ process suspendedContext == aContext
+isLatestContext: aContext	^ interruptedProcess suspendedContext == aContext

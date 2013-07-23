@@ -1,1 +1,1 @@
-ComposableModel subclass: #SpecDebuggerToolbar	instanceVariableNames: 'session selectedContext resumeButton restartButton stepIntoButton stepOverButton stepThroughButton runToSelectionButton whereIsButton createMethodButton'	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Debugger'
+DynamicComposableModel subclass: #SpecDebuggerToolbar	instanceVariableNames: 'session selectedContext'	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Debugger'

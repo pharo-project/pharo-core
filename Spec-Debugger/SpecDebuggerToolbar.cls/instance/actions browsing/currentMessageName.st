@@ -1,0 +1,1 @@
+currentMessageName	^ self currentContext messageName

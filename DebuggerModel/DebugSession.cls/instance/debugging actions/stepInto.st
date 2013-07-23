@@ -1,1 +1,1 @@
-stepInto	self stepInto: context
+stepInto	self stepInto: interruptedContext

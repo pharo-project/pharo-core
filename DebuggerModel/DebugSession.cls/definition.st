@@ -1,1 +1,1 @@
-Object subclass: #DebugSession	instanceVariableNames: 'context process errorWasInUIProcess'	classVariableNames: ''	poolDictionaries: ''	category: 'DebuggerModel'
+Object subclass: #DebugSession	instanceVariableNames: 'interruptedContext interruptedProcess errorWasInUIProcess'	classVariableNames: ''	poolDictionaries: ''	category: 'DebuggerModel'

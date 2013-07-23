@@ -1,1 +1,1 @@
-initializePresenter	super initializePresenter.		selectedContext  whenChangedDo: [		self updateCreateMethodButton ]
+initializePresenter	super initializePresenter.		"session whenChangedDo: [		self update	]."		selectedContext  whenChangedDo: [		self updateCreateMethodButton ]

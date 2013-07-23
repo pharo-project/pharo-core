@@ -1,1 +1,1 @@
-process: aProcess context: aContext	aProcess stepToSendOrReturn.	process := aProcess.	context := self filterTopContext: aContext.	context isNil ifTrue: [context := aContext].	
+process: aProcess context: aContext	"aProcess stepToSendOrReturn ."	"aProcess isSuspended ifTrue: [ aProcess stepToSendOrReturn ]."	interruptedProcess := aProcess.	interruptedContext := self filterTopContext: aContext.	interruptedContext isNil ifTrue: [interruptedContext := aContext].	

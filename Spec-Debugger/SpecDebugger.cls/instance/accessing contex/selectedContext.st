@@ -1,0 +1,1 @@
+selectedContext		^ self stack selectedItem

@@ -1,1 +1,1 @@
-stepOver	self stepOver: context
+stepOver	self stepOver: interruptedContext

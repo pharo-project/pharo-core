@@ -1,1 +1,1 @@
-process	^ process
+process	^ interruptedProcess

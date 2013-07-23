@@ -1,1 +1,1 @@
-stepThrough	self stepThrough: context
+stepThrough	self stepThrough: interruptedContext

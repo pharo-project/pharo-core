@@ -1,1 +1,1 @@
-updateWithContext: newContext fromProcess: aProcess	self process: aProcess context: newContext
+updateWithContext: newContext fromProcess: aProcess	self process: aProcess context: newContext

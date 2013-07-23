@@ -1,1 +1,1 @@
-stackOfSize: size	^ context stackOfSize: size
+stackOfSize: size	^ interruptedContext stackOfSize: size

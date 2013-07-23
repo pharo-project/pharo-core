@@ -1,1 +1,1 @@
-errorWasInUIProcess: aBoolean	errorWasInUIProcess := aBoolean
+errorWasInUIProcess: aBoolean	errorWasInUIProcess := aBoolean

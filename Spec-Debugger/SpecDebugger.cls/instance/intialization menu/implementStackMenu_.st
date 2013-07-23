@@ -1,0 +1,1 @@
+implementStackMenu: aMenu 	^ aMenu addAllFromPragma: 'specDebuggerStackImplementMenu' target: self toolbar

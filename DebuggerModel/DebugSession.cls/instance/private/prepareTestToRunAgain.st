@@ -1,1 +1,1 @@
-prepareTestToRunAgain	self context receiver prepareToRunAgain
+prepareTestToRunAgain	self interruptedContext receiver prepareToRunAgain
