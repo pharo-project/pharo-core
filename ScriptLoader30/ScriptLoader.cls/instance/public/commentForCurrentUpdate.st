@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11211 clean up Watery2 theme	https://pharo.fogbugz.com/f/cases/11211	11206 clean up externalInterrupt in old Debugger	https://pharo.fogbugz.com/f/cases/11206'
+commentForCurrentUpdate ^ '11215 EyeInspector>>selectedElement fails when selectedIndex=0 and the list is empty	https://pharo.fogbugz.com/f/cases/11215	11199 CodeCritics browser cannot be opened any more.	https://pharo.fogbugz.com/f/cases/11199	11214 Fix for Theme Watery	https://pharo.fogbugz.com/f/cases/11214'
