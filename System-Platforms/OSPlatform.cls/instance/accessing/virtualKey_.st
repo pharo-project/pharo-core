@@ -1,1 +1,1 @@
-virtualKey: virtualKeyCode	^self class virtualKey: virtualKeyCode
+virtualKey: virtualKeyCode	"Subclass responsibility to override if necessary"	^nil

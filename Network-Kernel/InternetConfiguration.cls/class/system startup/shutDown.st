@@ -1,1 +1,1 @@
-shutDown	OSPlatform isMacOS		ifTrue: [ NetworkSystemSettings useHTTPProxy: false ]	
+shutDown	Smalltalk os isMacOS		ifTrue: [ NetworkSystemSettings useHTTPProxy: false ]	

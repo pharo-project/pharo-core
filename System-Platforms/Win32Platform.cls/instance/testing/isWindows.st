@@ -1,0 +1,1 @@
+isWindows	^ true

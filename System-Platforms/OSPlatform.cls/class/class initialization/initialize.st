@@ -1,1 +1,1 @@
-initialize	"Initialize the receiver"	"OSPlatform initialize"	Smalltalk removeFromStartUpList: self.	Smalltalk addToStartUpList: self after: Delay.	Smalltalk removeFromShutDownList: self.	Smalltalk addToShutDownList: self after: DisplayScreen.	self startUp: true.
+initialize	"Initialize the receiver"	"OSPlatform initialize"	Smalltalk 		removeFromStartUpList: self;		addToStartUpList: self after: Delay;		removeFromShutDownList: self;		addToShutDownList: self after: DisplayScreen.	self startUp: true.

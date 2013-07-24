@@ -1,1 +1,1 @@
-commandOrCrontrolKeyPressed: anEvent	^ (OSPlatform current platformFamily ~= #MacOSX) 		ifTrue: [anEvent controlKeyPressed]		ifFalse: [anEvent commandKeyPressed]
+commandOrCrontrolKeyPressed: anEvent	^ (Smalltalk os isMacOS) 		ifTrue: [anEvent controlKeyPressed]		ifFalse: [anEvent commandKeyPressed]

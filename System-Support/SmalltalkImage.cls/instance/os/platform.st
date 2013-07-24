@@ -1,1 +1,1 @@
-platform	"Answer the object to query about os."		^ OSPlatform
+platform	"Answer the object to query about os."		^ self os

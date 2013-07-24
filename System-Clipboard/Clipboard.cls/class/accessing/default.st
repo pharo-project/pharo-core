@@ -1,1 +1,1 @@
-default	^Default ifNil: [Default := OSPlatform current clipboardClass new].
+default	^Default ifNil: [Default := Smalltalk os clipboardClass new].

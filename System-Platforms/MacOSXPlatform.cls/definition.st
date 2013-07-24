@@ -1,1 +1,1 @@
-OSPlatform subclass: #MacOSXPlatform	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'System-Platforms'
+MacOSPlatform subclass: #MacOSXPlatform	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'System-Platforms'

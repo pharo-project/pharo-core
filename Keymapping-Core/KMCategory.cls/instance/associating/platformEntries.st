@@ -1,1 +1,1 @@
-platformEntries	^self entriesAt: Smalltalk os current platformFamily
+platformEntries	^self entriesAt: Smalltalk os platformFamily

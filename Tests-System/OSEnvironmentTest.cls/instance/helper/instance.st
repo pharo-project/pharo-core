@@ -1,1 +1,1 @@
-instance	^ Smalltalk os env
+instance	^ Smalltalk os environment

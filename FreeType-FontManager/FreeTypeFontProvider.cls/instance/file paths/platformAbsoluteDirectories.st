@@ -1,1 +1,1 @@
-platformAbsoluteDirectories	OSPlatform isWin32		ifTrue: [ ^ self winFontDirectories ].	OSPlatform isUnix		ifTrue: [ ^ self unixFontDirectories ].	OSPlatform isMacOSX		ifTrue: [ ^ self macOSXFolderDirectories ].	^ {}
+platformAbsoluteDirectories	Smalltalk os isWin32		ifTrue: [ ^ self winFontDirectories ].	Smalltalk os isUnix		ifTrue: [ ^ self unixFontDirectories ].	Smalltalk os isMacOSX		ifTrue: [ ^ self macOSXFolderDirectories ].	^ {}

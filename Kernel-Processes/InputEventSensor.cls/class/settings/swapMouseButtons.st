@@ -1,1 +1,1 @@
-swapMouseButtons	^ OSPlatform current platformFamily ~= #Windows
+swapMouseButtons	^ Smalltalk os isWindows

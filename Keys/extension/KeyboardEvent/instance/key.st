@@ -1,1 +1,1 @@
-key	^OSPlatform current keyForValue: keyValue
+key	^Smalltalk os keyForValue: keyValue

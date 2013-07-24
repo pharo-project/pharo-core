@@ -1,1 +1,1 @@
-isCaseSensitive	"except for OSX the default is case sensitive"	^ OSPlatform isMacOSX not
+isCaseSensitive	"except for OSX the default is case sensitive"	^ Smalltalk os isMacOSX not

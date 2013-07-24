@@ -1,1 +1,0 @@
-env	^ env ifNil: [ env := Win32Environment new ]
