@@ -1,1 +1,0 @@
-openDebuggerOn: process context: context label: title contents: contentsStringOrNil fullView: bool 	^ self nonInteractiveWarning: 'Opening Debugger'

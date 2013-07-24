@@ -1,1 +1,1 @@
-peelToFirst	self currentContext 		ifNotNilDo: [ :aContext | self session peelToFirstLike: aContext ]
+peelToFirst	self okToChange ifTrue: [ 		self session peelToFirstLike: self currentContext ]

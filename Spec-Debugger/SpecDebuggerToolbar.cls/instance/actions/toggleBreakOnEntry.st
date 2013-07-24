@@ -1,1 +1,1 @@
-toggleBreakOnEntry	self currentContext 		ifNotNilDo: [ :aContext | self session toggleBreakOnEntryFor: aContext ]
+toggleBreakOnEntry	self okToChange ifTrue: [ 		self session toggleBreakOnEntryFor: self currentContext ]
