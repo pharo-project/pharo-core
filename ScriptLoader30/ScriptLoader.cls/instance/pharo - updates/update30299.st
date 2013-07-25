@@ -1,0 +1,1 @@
+update30299	"self new update30299"	self withUpdateLog: '11239 ContextPart>>errorReportOn: uses deprecated methods	https://pharo.fogbugz.com/f/cases/11239	11232 Fuel out stack menu entry is missing	https://pharo.fogbugz.com/f/cases/11232'.	self loadTogether: self script134 merge: false.	self flushCaches.

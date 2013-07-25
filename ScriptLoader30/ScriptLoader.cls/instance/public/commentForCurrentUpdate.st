@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11236 Proceed action does not close the refresh processes	https://pharo.fogbugz.com/f/cases/11236	11235 The new debugger is missing some utilities methods	https://pharo.fogbugz.com/f/cases/11235	11231 Predebugger window too small & not skipped to full debugger	https://pharo.fogbugz.com/f/cases/11231'
+commentForCurrentUpdate ^ '11239 ContextPart>>errorReportOn: uses deprecated methods	https://pharo.fogbugz.com/f/cases/11239	11232 Fuel out stack menu entry is missing	https://pharo.fogbugz.com/f/cases/11232'
