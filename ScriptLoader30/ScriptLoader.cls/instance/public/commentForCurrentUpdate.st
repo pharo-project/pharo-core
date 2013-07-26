@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11248 right click not handled	https://pharo.fogbugz.com/f/cases/11248	'
+commentForCurrentUpdate ^ '11036 Compiler options for Opal with intention revealing names	https://pharo.fogbugz.com/f/cases/11036'

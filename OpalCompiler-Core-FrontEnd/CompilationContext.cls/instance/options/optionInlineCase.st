@@ -1,0 +1,1 @@
+optionInlineCase	^ options includes: #optionInlineCase

@@ -1,1 +1,1 @@
-optimize	self removeEmptyStart.	self compilationContext optOptimizeIR ifFalse: [^self].	self absorbJumpsToSingleInstrs.	self absorbConstantConditionalJumps.	self absorbJumpsToSingleInstrs
+optimize	self removeEmptyStart.	self compilationContext optionOptimizeIR ifFalse: [^self].	self absorbJumpsToSingleInstrs.	self absorbConstantConditionalJumps.	self absorbJumpsToSingleInstrs

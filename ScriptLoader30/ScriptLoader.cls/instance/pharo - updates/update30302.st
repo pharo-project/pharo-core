@@ -1,0 +1,1 @@
+update30302	"self new update30302"	SmalltalkImage compilerClass: Compiler..	self withUpdateLog: '11036 Compiler options for Opal with intention revealing names	https://pharo.fogbugz.com/f/cases/11036'.	self loadTogether: self script137 merge: false.	SmalltalkImage compilerClass: OpalCompiler.	self flushCaches.
