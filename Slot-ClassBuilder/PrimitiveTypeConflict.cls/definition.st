@@ -1,1 +1,0 @@
-SlotClassBuilderConflict subclass: #PrimitiveTypeConflict	instanceVariableNames: 'layout subType'	classVariableNames: ''	poolDictionaries: ''	category: 'Slot-ClassBuilder'

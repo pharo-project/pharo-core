@@ -1,1 +1,1 @@
-extend: aScope	PrimitiveTypeConflict new		layout: self;		subType: #slot;		signal
+extend: aScope	IncompatibleLayoutConflict new		layout: self;		subType: #slot;		signal

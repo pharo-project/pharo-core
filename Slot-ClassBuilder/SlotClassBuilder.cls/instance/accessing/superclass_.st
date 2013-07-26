@@ -1,1 +1,1 @@
-superclass: aSuperclass	superclass := aSuperclass.	superclass ifNotNil: [ self validateClass: superclass ].
+superclass: aSuperclass	superclass := aSuperclass.	superclass ifNotNil: [ self validateSuperclass: superclass ].

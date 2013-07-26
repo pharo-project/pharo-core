@@ -1,1 +1,1 @@
-assertInvalidClassName: aName	self should: [		self make: [ :builder | 			builder name: aName ] ]		raise: InvalidGlobalNameConflict.	self flag: 'should remove class if not raised'.			self should: [		PharoClassInstaller 			validateClassName: aName ]		raise: InvalidGlobalNameConflict
+assertInvalidClassName: aName	self should: [		self make: [ :builder | 			builder name: aName ] ]		raise: InvalidGlobalName.	self flag: 'should remove class if not raised'.			self should: [		PharoClassInstaller 			validateClassName: aName ]		raise: InvalidGlobalName

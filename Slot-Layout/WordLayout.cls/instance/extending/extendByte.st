@@ -1,1 +1,1 @@
-extendByte	PrimitiveTypeConflict new		layout: self;		subType: #byte;		signal
+extendByte	IncompatibleLayoutConflict new		layout: self;		subType: #byte;		signal

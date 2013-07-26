@@ -1,1 +1,1 @@
-extendByte	self hasFields ifTrue: [		PrimitiveTypeConflict new			layout: self;			subType: #byte;			signal ].	^ ByteLayout new
+extendByte	self hasFields ifTrue: [		IncompatibleLayoutConflict new			layout: self;			subType: #byte;			signal ].	^ ByteLayout new

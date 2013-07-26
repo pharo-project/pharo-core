@@ -1,1 +1,0 @@
-I am signaled the name of default Slot is an invalid variable name.

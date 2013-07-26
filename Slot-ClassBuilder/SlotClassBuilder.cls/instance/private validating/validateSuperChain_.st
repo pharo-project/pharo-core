@@ -1,1 +1,1 @@
-validateSuperChain: oldClass	superclass ifNil: [ ^ nil ].	superclass withAllSuperclassesDo: [ :class |		class == oldClass			ifTrue: [ CircularHierarchyConflict signal: 'Trying to build a circular hierarchy' ]].
+validateSuperChain: oldClass	superclass ifNil: [ ^ nil ].	superclass withAllSuperclassesDo: [ :class |		class == oldClass			ifTrue: [ CircularHierarchyError signalFor: oldClass ]].

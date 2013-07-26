@@ -1,1 +1,1 @@
-extendVariable: aScope	PrimitiveTypeConflict new		layout: self;		subType: #variable;		signal
+extendVariable: aScope	IncompatibleLayoutConflict new		layout: self;		subType: #variable;		signal

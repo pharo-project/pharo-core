@@ -1,1 +1,1 @@
-extendWord	PrimitiveTypeConflict new		layout: self;		subType: #word;		signal
+extendWord	IncompatibleLayoutConflict new		layout: self;		subType: #word;		signal

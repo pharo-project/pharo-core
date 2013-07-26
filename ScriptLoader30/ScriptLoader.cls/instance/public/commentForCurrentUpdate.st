@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11239 ContextPart>>errorReportOn: uses deprecated methods	https://pharo.fogbugz.com/f/cases/11239	11232 Fuel out stack menu entry is missing	https://pharo.fogbugz.com/f/cases/11232'
+commentForCurrentUpdate ^ '11203 Dont try resuming an exception that you have made non-resumable	https://pharo.fogbugz.com/f/cases/11203	11240 PreDebugWindow allows to proceed for post mortem contexts	https://pharo.fogbugz.com/f/cases/11240	11237 #sorted no longer copies Arrays	https://pharo.fogbugz.com/f/cases/11237'
