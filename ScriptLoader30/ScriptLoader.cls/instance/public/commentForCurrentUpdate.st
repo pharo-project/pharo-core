@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11203 Dont try resuming an exception that you have made non-resumable	https://pharo.fogbugz.com/f/cases/11203	11240 PreDebugWindow allows to proceed for post mortem contexts	https://pharo.fogbugz.com/f/cases/11240	11237 #sorted no longer copies Arrays	https://pharo.fogbugz.com/f/cases/11237'
+commentForCurrentUpdate ^ '11248 right click not handled	https://pharo.fogbugz.com/f/cases/11248	'

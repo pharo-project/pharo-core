@@ -1,1 +1,1 @@
-swapMouseButtons	^ Smalltalk os isWindows
+swapMouseButtons	^ Smalltalk os isWindows not
