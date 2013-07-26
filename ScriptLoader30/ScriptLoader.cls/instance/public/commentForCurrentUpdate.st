@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11036 Compiler options for Opal with intention revealing names	https://pharo.fogbugz.com/f/cases/11036'
+commentForCurrentUpdate ^ '11234 LargeNegativeInteger inherits from LargePositiveInteger (part 1)	https://pharo.fogbugz.com/f/cases/11234	'
