@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11234 LargeNegativeInteger inherits from LargePositiveInteger (part 1)	https://pharo.fogbugz.com/f/cases/11234	'
+commentForCurrentUpdate ^ '11234 LargeNegativeInteger inherits from LargePositiveInteger (part 2)	https://pharo.fogbugz.com/f/cases/11234'

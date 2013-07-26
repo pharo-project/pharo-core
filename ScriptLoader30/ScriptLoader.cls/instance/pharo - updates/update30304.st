@@ -1,0 +1,1 @@
+update30304	"self new update30304"	self withUpdateLog: '11234 LargeNegativeInteger inherits from LargePositiveInteger (part 2)	https://pharo.fogbugz.com/f/cases/11234'.	self loadTogether: self script139 merge: false.	self flushCaches.

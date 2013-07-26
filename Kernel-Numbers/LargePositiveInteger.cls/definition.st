@@ -1,1 +1,1 @@
-Integer variableByteSubclass: #LargePositiveInteger	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Kernel-Numbers'
+LargeInteger variableByteSubclass: #LargePositiveInteger	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Kernel-Numbers'
