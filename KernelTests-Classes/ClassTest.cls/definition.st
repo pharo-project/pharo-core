@@ -1,1 +1,1 @@
-TestCase subclass: #ClassTest	instanceVariableNames: 'className renamedName'	classVariableNames: ''	poolDictionaries: ''	category: 'KernelTests-Classes'
+ClassTestCase subclass: #ClassTest	instanceVariableNames: 'className renamedName'	classVariableNames: ''	poolDictionaries: ''	category: 'KernelTests-Classes'

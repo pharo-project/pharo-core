@@ -1,1 +1,1 @@
-TestCase subclass: #BehaviorTest	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'KernelTests-Classes'
+ClassTestCase subclass: #BehaviorTest	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'KernelTests-Classes'
