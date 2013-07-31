@@ -1,4 +1,5 @@
 public
 commentForCurrentUpdate
- ^ '11252 backport 2.0: have SliceMaker use fogbugz
-	https://pharo.fogbugz.com/f/cases/11252'
+ ^ '11280 Integrate ProfStef into 2.0
+	https://pharo.fogbugz.com/f/cases/11280
+'
