@@ -1,24 +1,11 @@
 actions
 downloadIssueSummary
-	|page pageStream summary|
-	self flag: #TODO "replace by proper use of google API".
-	ZnClient new
-		systemPolicy;
-		setAcceptEncodingGzip;
-		accept: ZnMimeType textHtml;
-		http;
-		host: 'code.google.com';
-		path: '/p/pharo/issues/detail';
-		queryAt: 'id' put: self issueIdString;
-		contentReader: [ :entity | page := entity  ];
-		streaming: false;
-		ifFail: [ :exception | self downloadIssueSummaryFailed. ^ self ];
-		get.
+	"If the slice number is unknown, or for whatever failure, use a default summary."
 
-	pageStream := page readStream.
-	(pageStream match: 'Issue <a href="detail?id=', self issueIdString, '">', self issueIdString,'</a>')
-		ifFalse: [self downloadIssueSummaryFailed].
-	(pageStream match: '<span class="h3" >')
-		ifFalse: [self downloadIssueSummaryFailed].
-	summary := pageStream upTo: $<. 
-	self info issueSummary: summary
+	| title request |
+	title := (request := ZnClient new)
+		url: 'http://bugs.pharo.org/issues/name/' , self issueIdString;
+		get.
+	request isSuccess
+		ifFalse: [ title := '-unable-to-get-summary-' ].
+	self info issueSummary: title
