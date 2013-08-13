@@ -1,0 +1,6 @@
+{
+	"category" : "CollectionsTests-Unordered",
+	"classtraitcomposition" : "TDictionaryIncludesTest classTrait",
+	"commentStamp" : "",
+	"name" : "TDictionaryIncludesWithIdentityCheckTest",
+	"traitcomposition" : "TDictionaryIncludesTest" }

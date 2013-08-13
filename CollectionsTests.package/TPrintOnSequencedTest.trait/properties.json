@@ -1,0 +1,6 @@
+{
+	"category" : "CollectionsTests-Abstract",
+	"classtraitcomposition" : "TPrintTest classTrait",
+	"commentStamp" : "",
+	"name" : "TPrintOnSequencedTest",
+	"traitcomposition" : "TPrintTest" }

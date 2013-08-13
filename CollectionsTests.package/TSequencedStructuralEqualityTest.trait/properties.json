@@ -1,0 +1,6 @@
+{
+	"category" : "CollectionsTests-Abstract",
+	"classtraitcomposition" : "TStructuralEqualityTest classTrait",
+	"commentStamp" : "",
+	"name" : "TSequencedStructuralEqualityTest",
+	"traitcomposition" : "TStructuralEqualityTest" }

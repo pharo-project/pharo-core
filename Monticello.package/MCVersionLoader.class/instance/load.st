@@ -1,3 +1,3 @@
 loading
 load
-	self loadWithNameLike: versions first info name.
+	RPackageSet withCacheDo: [ self loadWithNameLike: versions first info name ]

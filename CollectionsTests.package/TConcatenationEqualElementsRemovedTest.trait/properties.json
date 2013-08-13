@@ -1,0 +1,6 @@
+{
+	"category" : "CollectionsTests-Abstract",
+	"classtraitcomposition" : "TConcatenationTest classTrait",
+	"commentStamp" : "",
+	"name" : "TConcatenationEqualElementsRemovedTest",
+	"traitcomposition" : "TConcatenationTest" }

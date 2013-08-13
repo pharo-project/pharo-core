@@ -1,0 +1,6 @@
+{
+	"category" : "CollectionsTests-Abstract",
+	"classtraitcomposition" : "TAsStringCommaAndDelimiterTest classTrait",
+	"commentStamp" : "",
+	"name" : "TAsStringCommaAndDelimiterSequenceableTest",
+	"traitcomposition" : "TAsStringCommaAndDelimiterTest" }

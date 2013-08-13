@@ -1,0 +1,6 @@
+{
+	"category" : "CollectionsTests-Abstract",
+	"classtraitcomposition" : "TOccurrencesTest classTrait",
+	"commentStamp" : "",
+	"name" : "TOccurrencesForMultiplinessTest",
+	"traitcomposition" : "TOccurrencesTest" }

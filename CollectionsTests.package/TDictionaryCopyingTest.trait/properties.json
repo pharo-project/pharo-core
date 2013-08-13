@@ -1,0 +1,6 @@
+{
+	"category" : "CollectionsTests-Unordered",
+	"classtraitcomposition" : "TCloneTest classTrait",
+	"commentStamp" : "",
+	"name" : "TDictionaryCopyingTest",
+	"traitcomposition" : "TCloneTest" }

@@ -1,6 +1,13 @@
 {
 	"class" : {
-		"named:" : "EstebanLorenzano 10/19/2012 14:04" },
+		"basicNamed:" : "ThierryGoubier 7/22/2013 13:29",
+		"cacheActive:" : "ThierryGoubier 7/22/2013 13:32",
+		"cachePackageAt:ifAbsentPut:" : "ThierryGoubier 7/22/2013 13:33",
+		"cachePackages" : "ThierryGoubier 7/22/2013 13:33",
+		"isCacheActive" : "ThierryGoubier 7/22/2013 13:33",
+		"named:" : "ThierryGoubier 7/22/2013 13:35",
+		"resetCache" : "ThierryGoubier 7/22/2013 13:33",
+		"withCacheDo:" : "ThierryGoubier 7/22/2013 13:33" },
 	"instance" : {
 		"asRPackageSet" : "MarcusDenker 2/7/2013 08:35",
 		"category:matches:" : "CamilloBruni 9/14/2012 00:29",
