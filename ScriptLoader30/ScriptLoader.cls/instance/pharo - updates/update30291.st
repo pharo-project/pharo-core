@@ -1,1 +1,0 @@
-update30291	"self new update30291"	self withUpdateLog: '4533 UIThemeWatery and UIThemeWatery2 should be merged...	https://pharo.fogbugz.com/f/cases/4533	11207 clean up some dead code in FileContentsBrowser	https://pharo.fogbugz.com/f/cases/11207	'.	self loadTogether: self script126 merge: false.	self flushCaches.

@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11208 Uncategorized method in Class	https://pharo.fogbugz.com/f/cases/11208	10993 A rule or test must make sure we don not add methods to Class	https://pharo.fogbugz.com/f/cases/10993	'
+commentForCurrentUpdate ^ '2173 ExternalDropHandler initialize	https://pharo.fogbugz.com/f/cases/2173	11241 There are still some references to the old debugger	https://pharo.fogbugz.com/f/cases/11241'

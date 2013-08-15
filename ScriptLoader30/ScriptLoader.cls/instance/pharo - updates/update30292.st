@@ -1,1 +1,0 @@
-update30292	"self new update30292"	self withUpdateLog: '11211 clean up Watery2 theme	https://pharo.fogbugz.com/f/cases/11211	11206 clean up externalInterrupt in old Debugger	https://pharo.fogbugz.com/f/cases/11206'.	self loadTogether: self script127 merge: false.	self flushCaches.

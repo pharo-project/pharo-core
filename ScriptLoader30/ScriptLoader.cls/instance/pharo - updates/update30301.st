@@ -1,1 +1,0 @@
-update30301	"self new update30301"	self withUpdateLog: '11248 right click not handled	https://pharo.fogbugz.com/f/cases/11248	'.	self loadTogether: self script136 merge: false.	self flushCaches.
