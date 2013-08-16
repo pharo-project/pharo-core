@@ -1,0 +1,1 @@
+tempIndex: anObject	tempIndex := anObject

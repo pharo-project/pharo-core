@@ -1,1 +1,1 @@
-save: aValue	self host tempNamed: self tempName put: aValue
+save: aValue	self host namedTempAt: self tempIndex put: aValue

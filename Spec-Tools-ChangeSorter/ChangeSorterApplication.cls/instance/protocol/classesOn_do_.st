@@ -1,1 +1,1 @@
-classesOn: aShortcut do: aBlock	classesListModel on:aShortcut do: aBlock
+classesOn: aShortcut do: aBlock	classesListModel bindKeyCombination: aShortcut toAction: aBlock

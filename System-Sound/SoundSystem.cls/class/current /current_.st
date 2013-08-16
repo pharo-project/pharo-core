@@ -1,0 +1,1 @@
+current: aSoundSystem	Current deactivate.	Current := aSoundSystem.	Current activate.

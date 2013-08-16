@@ -1,1 +1,1 @@
-changesModelOn: aShortcut do: aBlock	changesListModel on: aShortcut do: aBlock
+changesModelOn: aShortcut do: aBlock	changesListModel bindKeyCombination: aShortcut toAction: aBlock

@@ -1,1 +1,0 @@
-A MailSender is xxxxxxxxx.

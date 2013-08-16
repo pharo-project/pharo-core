@@ -1,1 +1,1 @@
-AbstractEyeElement subclass: #ContextTempEyeElement	instanceVariableNames: 'tempName'	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Inspector-Element'
+AbstractEyeElement subclass: #ContextTempEyeElement	instanceVariableNames: 'tempName tempIndex'	classVariableNames: ''	poolDictionaries: ''	category: 'Spec-Inspector-Element'

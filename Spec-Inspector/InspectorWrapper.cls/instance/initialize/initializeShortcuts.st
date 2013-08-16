@@ -1,1 +1,1 @@
-initializeShortcuts	self on: $[ command do: [ self inspectPrevious ].	self on: $] command do: [ self inspectNext ].	self on: $d command do: [ self dive ].
+initializeShortcuts	self bindKeyCombination: $[ command toAction: [ self inspectPrevious ].	self bindKeyCombination: $] command toAction: [ self inspectNext ].	self bindKeyCombination: $d command toAction: [ self dive ].

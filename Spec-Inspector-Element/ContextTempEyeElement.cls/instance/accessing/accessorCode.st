@@ -1,1 +1,1 @@
-accessorCode	^ '(self tempNamed: ', self tempName printString, ')'
+accessorCode	^ '(self namedTempAt: ', self tempIndex printString, ')'
