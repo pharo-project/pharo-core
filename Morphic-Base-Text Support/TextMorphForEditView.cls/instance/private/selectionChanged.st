@@ -1,1 +1,1 @@
-selectionChanged	self sharesFindReplace 		ifTrue: [self changed: #findReplaceSelection].	self useExtraSelection		ifTrue: [self refreshExtraSelection].	super selectionChanged
+selectionChanged	self sharesFindReplace 		ifTrue: [self editor findReplaceService changed: #findReplaceSelection].	self useExtraSelection		ifTrue: [self refreshExtraSelection].	super selectionChanged

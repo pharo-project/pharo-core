@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '5469 SHA1 duplicated implementations	https://pharo.fogbugz.com/f/cases/5469'
+commentForCurrentUpdate ^ '11213 Kill changed from Object	https://pharo.fogbugz.com/f/cases/11213	'

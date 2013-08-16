@@ -1,0 +1,1 @@
+addDependent: anObject	self announcer 		on: MorphChanged		do: [ :ann | anObject update: ann selector ].			self announcer 		on: MorphChangedWithArguments		do: [ :ann | anObject update: ann selector with: ann arguments ].				^ anObject

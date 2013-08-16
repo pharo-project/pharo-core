@@ -1,1 +1,1 @@
-index: anIndex	index := anIndex.	self changed: #index
+index: anIndex	index := anIndex.	self contentsChanged: index

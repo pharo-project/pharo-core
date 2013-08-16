@@ -1,1 +1,1 @@
-selection: aSelection	selection := aSelection.	self changed: #selection
+selection: aSelection	selection := aSelection.	self contentsChanged: selection

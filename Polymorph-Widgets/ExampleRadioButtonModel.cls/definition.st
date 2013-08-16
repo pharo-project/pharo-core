@@ -1,1 +1,1 @@
-Object subclass: #ExampleRadioButtonModel	instanceVariableNames: 'option'	classVariableNames: ''	poolDictionaries: ''	category: 'Polymorph-Widgets'
+Model subclass: #ExampleRadioButtonModel	instanceVariableNames: 'option'	classVariableNames: ''	poolDictionaries: ''	category: 'Polymorph-Widgets'
