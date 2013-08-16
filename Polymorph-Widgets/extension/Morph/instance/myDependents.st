@@ -1,1 +1,1 @@
-myDependents	"Improved performance dependents."		^(self valueOfProperty: #myDependents) ifNil: [super myDependents]
+myDependents	"Improved performance dependents."		^ (self valueOfProperty: #myDependents) ifNil: [ #() ]

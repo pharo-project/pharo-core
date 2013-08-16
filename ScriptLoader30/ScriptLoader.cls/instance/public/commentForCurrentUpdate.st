@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11278 Refactoring menu should not show some items for traits	https://pharo.fogbugz.com/f/cases/11278'
+commentForCurrentUpdate ^ '11281 Move references to DependentField to proper classes	https://pharo.fogbugz.com/f/cases/11281'
