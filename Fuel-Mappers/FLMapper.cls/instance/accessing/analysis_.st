@@ -1,1 +1,1 @@
-analysis: anAnalysis	analysis := anAnalysis.	next isNil ifFalse: [ next analysis: anAnalysis ]
+analysis: anAnalysis	analysis := anAnalysis.	next ifNotNil: [ next analysis: anAnalysis ]

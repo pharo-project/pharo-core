@@ -1,1 +1,1 @@
-analyzer	analyzer isNil ifTrue: [ analyzer := self defaultAnalyzer ].	^ analyzer
+analyzer	^ analyzer ifNil: [ analyzer := self defaultAnalyzer ]

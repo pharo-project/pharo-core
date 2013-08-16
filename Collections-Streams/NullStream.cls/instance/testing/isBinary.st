@@ -1,1 +1,1 @@
-isBinary	"Return true if the receiver is a binary byte stream"	^binary
+isBinary	"Return true if the receiver is a binary byte stream"	^binary 

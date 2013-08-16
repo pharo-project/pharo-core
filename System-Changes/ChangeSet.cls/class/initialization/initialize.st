@@ -1,1 +1,1 @@
-initialize	"ChangeSet initialize"	AllChangeSets isNil		ifTrue: [ AllChangeSets := OrderedCollection new ].	self gatherChangeSets.	FileServices registerFileReader: self
+initialize	"ChangeSet initialize"	AllChangeSets ifNil: [ AllChangeSets := OrderedCollection new ].	self gatherChangeSets.	FileServices registerFileReader: self

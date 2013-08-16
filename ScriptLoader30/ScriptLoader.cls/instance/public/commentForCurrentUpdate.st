@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11226 Kill update: from Object	https://pharo.fogbugz.com/f/cases/11226'
+commentForCurrentUpdate ^ '4142 Suggestions: move examples from UIThemes class to ExampleBuilderMorph class	https://pharo.fogbugz.com/f/cases/4142	11261 isNil ifTrue: to ifNil: part 1	https://pharo.fogbugz.com/f/cases/11261	11262 isNil ifTrue: to ifNil: part 2	https://pharo.fogbugz.com/f/cases/11262'

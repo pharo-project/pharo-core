@@ -1,1 +1,0 @@
-ClassListExample subclass: #LazyClassListExample	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Morphic-Base-MorphTreeWidget-Examples'
