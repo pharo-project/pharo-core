@@ -1,1 +1,1 @@
-allowsKeymapping	^ true
+allowsKeymapping	^ self valueOfProperty: #allowsKeymapping ifAbsent: [ true]
