@@ -1,1 +1,1 @@
-dpsTrace: reportObject  	Transcript myDependents isNil ifTrue: [^self].	self dpsTrace: reportObject levels: 1 withContext: thisContext		" nil dpsTrace: 'sludder'. "
+dpsTrace: reportObject  	Transcript myDependents ifNil: [^self].	self dpsTrace: reportObject levels: 1 withContext: thisContext		" nil dpsTrace: 'sludder'. "

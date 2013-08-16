@@ -1,1 +1,1 @@
-lockTextArea	self selectedMethod isNil ifTrue: [ ^ self ].		sourceTextArea lockFrom: self selectedMethod.	self buildNewSourceTextArea.	multipleMethodsEditor addEditor: sourceTextArea.	self changed: #sourceCodeFrom:.
+lockTextArea	self selectedMethod ifNil: [ ^ self ].		sourceTextArea lockFrom: self selectedMethod.	self buildNewSourceTextArea.	multipleMethodsEditor addEditor: sourceTextArea.	self changed: #sourceCodeFrom:.

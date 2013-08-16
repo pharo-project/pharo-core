@@ -1,1 +1,1 @@
-order	Order isNil		ifTrue: [ Order := 5 ].	^Order
+order	^ Order ifNil: [ Order := 5 ]
