@@ -1,0 +1,1 @@
+finalizeResourceData: object	object value

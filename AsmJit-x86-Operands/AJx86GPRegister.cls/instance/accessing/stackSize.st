@@ -1,0 +1,1 @@
+stackSize	^ self size

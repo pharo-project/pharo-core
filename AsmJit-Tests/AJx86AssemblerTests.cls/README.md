@@ -1,0 +1,1 @@
+An AJx86AssemblerTests is xxxxxxxxx.Instance Variables	asm:		<Object>asm	- xxxxx

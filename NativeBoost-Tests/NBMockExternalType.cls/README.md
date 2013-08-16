@@ -1,0 +1,1 @@
+A NBMockExternalType is xxxxxxxxx.

@@ -1,0 +1,1 @@
+A NBExternalEnumTests is xxxxxxxxx.

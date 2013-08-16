@@ -1,0 +1,1 @@
+cbClass	 ^NBTestCallbackReturnEnum

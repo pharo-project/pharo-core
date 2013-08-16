@@ -1,0 +1,1 @@
+enumClass	^NBTestEnumeration 

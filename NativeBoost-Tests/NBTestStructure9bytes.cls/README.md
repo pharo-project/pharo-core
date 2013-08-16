@@ -1,0 +1,1 @@
+A NBTestStructure9bytes is xxxxxxxxx.

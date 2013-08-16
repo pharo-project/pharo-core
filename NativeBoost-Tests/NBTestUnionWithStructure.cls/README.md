@@ -1,0 +1,1 @@
+A NBTestUnionWithStructure is xxxxxxxxx.

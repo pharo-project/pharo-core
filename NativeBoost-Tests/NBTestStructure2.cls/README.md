@@ -1,0 +1,1 @@
+A NBTestStructure2 is xxxxxxxxx.

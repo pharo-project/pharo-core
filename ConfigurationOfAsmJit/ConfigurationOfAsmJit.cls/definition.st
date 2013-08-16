@@ -1,0 +1,1 @@
+Object subclass: #ConfigurationOfAsmJit	instanceVariableNames: 'project'	classVariableNames: 'LastVersionLoad'	poolDictionaries: ''	category: 'ConfigurationOfAsmJit'

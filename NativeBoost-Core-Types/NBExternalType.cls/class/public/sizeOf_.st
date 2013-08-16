@@ -1,1 +1,1 @@
-sizeOf: aTypeName	^ (NBFFICallout new resolveType: aTypeName) valueSize
+sizeOf: aTypeName	^ (NBFFICallout new resolveType: aTypeName) typeSize

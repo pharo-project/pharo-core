@@ -1,1 +1,1 @@
-size	^ size ifNil: [ base size ]
+size	^ size

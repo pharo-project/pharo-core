@@ -1,1 +1,1 @@
-obsoleteDontUseThisFetchWord: index ofObject: zap	self shouldNotImplement
+obsoleteDontUseThisFetchWord: index ofObject: zap	self shouldNotUse

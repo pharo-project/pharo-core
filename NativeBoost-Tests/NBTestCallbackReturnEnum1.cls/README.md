@@ -1,0 +1,1 @@
+A NBTestCallbackReturnEnum1 is xxxxxxxxx.

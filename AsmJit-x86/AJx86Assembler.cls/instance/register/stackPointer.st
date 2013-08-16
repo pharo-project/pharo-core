@@ -1,1 +1,1 @@
-stackPointer	^ self is32BitMode ifTrue: [ ESP ] ifFalse: [ SP ]
+stackPointer	^ self is32 ifTrue: [ ESP ] ifFalse: [ RSP ]

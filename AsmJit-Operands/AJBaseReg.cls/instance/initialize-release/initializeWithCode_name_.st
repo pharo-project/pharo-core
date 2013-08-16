@@ -1,1 +1,1 @@
-initializeWithCode: aRegisterCode name: aSymbol	super initialize.	code := aRegisterCode.	name := aSymbol
+initializeWithCode: aRegisterCode name: aSymbol	super initialize.	self code: aRegisterCode.	"Also sets size"	name := aSymbol

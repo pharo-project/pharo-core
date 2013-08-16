@@ -1,1 +1,1 @@
-asHighByte	self isHighByte ifTrue: [ ^ self ].	self isLowByte		ifFalse: [ Error signal: 'Can only convert high byte 8bit register to low byte' ].	^ AJx86Registers code: self index + 2r100
+asHighByte	self isHighByte		ifTrue: [ ^ self ].	self isLowByte		ifFalse: [ Error signal: 'Can only convert AH, BH, CH, or DH to high byte' ].	^ AJx86Registers		generalPurposeWithIndex: self index + 2r100		size: 1		requiresRex: false		prohibitsRex: true

@@ -1,1 +1,0 @@
-fieldsDesc  	valueType ifNil: [ ^ #() ].		^ { valueType. #value }

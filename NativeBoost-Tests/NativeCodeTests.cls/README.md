@@ -1,0 +1,1 @@
+A NativeCodeTests is xxxxxxxxx.Instance Variables	did:		<Object>did	- xxxxx

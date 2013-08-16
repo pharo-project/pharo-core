@@ -1,0 +1,1 @@
+A NBMockExternalObject is xxxxxxxxx.Instance Variables	data:		<Object>data	- xxxxx

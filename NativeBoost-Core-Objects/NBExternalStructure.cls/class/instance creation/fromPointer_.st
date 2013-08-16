@@ -1,1 +1,1 @@
-fromPointer: externalAddress	| inst |		inst:= self new.	NativeBoost memCopy: externalAddress to: inst size: self instanceSize.	^ inst
+fromPointer: externalAddress	"Create an instance of receiver from given external address. "		^self basicNew initializeWithAddress: externalAddress.	

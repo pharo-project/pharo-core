@@ -1,0 +1,1 @@
+A NBPointerArgumentsTests is xxxxxxxxx.Instance Variables	toBeFreed:		<Object>toBeFreed	- xxxxx

@@ -1,1 +1,0 @@
-NBFFICallback subclass: #NBQSortCallback	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'NativeBoost-Core-Objects'

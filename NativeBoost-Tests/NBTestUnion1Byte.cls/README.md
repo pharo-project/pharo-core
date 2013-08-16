@@ -1,0 +1,1 @@
+A NBTestUnion1Byte is xxxxxxxxx.

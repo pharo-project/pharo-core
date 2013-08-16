@@ -1,1 +1,1 @@
-reserveTemp: anAJReserveTemp	self stackFrameCheck.	temps := temps + 1.	maxTemps := maxTemps max: temps .		anAJReserveTemp operand: (assembler strackFrameValueAtOffset: extraStackBytes + (temps * assembler wordSize )).
+reserveTemp: anAJReserveTemp	self stackFrameCheck.	temps := temps + 1.	maxTemps := maxTemps max: temps .		anAJReserveTemp operand: (assembler stackFrameValueAtOffset: extraStackBytes + (temps * assembler wordSize )).

@@ -1,0 +1,1 @@
+A NBTestEnumeration is xxxxxxxxx.

@@ -1,0 +1,1 @@
+structClass	^NBTestStructure 

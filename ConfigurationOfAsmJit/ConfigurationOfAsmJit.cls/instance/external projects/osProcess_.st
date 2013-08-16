@@ -1,0 +1,1 @@
+osProcess: spec	spec project: 'OSProcess' with: [		spec			repository: 'http://squeaksource.com/MetacelloRepository';			className: 'ConfigurationOfOSProcess';			versionString: #stable ].

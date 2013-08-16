@@ -1,1 +1,1 @@
-new	^ (self basicNew: self fields totalSize) initialize
+new	^self basicNew initializeInternal

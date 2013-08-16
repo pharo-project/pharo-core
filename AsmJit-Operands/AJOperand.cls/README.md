@@ -1,1 +1,1 @@
-An AJOperand is xxxxxxxxx.Instance Variables	annotation:		<Object>	compilerData:		<Object>	data:		<Object>	operandId:		<Object>	x64padding:		<Object>annotation	- xxxxxcompilerData	- xxxxxdata	- xxxxxoperandId	- xxxxxx64padding	- xxxxx
+I am a generic operand used in the ASMJit assembler.I define the interface for setting the final instruction code and annotations.

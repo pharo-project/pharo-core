@@ -1,1 +1,0 @@
-allocateOnObjectMemory	^ self allocateOnCHeap not

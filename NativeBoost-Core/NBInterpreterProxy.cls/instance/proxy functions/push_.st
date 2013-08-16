@@ -1,1 +1,1 @@
-push: anObject	"not recommended for use in native code"	self shouldNotImplement  
+push: anObject	"not recommended for use in native code"	self shouldNotUse  

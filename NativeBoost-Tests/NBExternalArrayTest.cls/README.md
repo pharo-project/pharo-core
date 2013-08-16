@@ -1,0 +1,1 @@
+A NBExternalArrayTest is xxxxxxxxx.

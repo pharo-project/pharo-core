@@ -1,0 +1,1 @@
+newHeap	^  NBMockExternalHeapManager new

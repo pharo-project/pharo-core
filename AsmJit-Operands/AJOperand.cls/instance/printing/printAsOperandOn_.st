@@ -1,1 +1,1 @@
-printAsOperandOn: aStream	^ self printOn: aStream 
+printAsOperandOn: aStream	self printAnnotationOn: aStream.	^ self printOn: aStream 

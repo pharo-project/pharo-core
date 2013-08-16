@@ -1,0 +1,1 @@
+A NBExternalEnumFromPairsTest is xxxxxxxxx.

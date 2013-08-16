@@ -1,0 +1,1 @@
+structType	^self structClass name 

@@ -1,0 +1,1 @@
+A NBFnSpecParserTest is xxxxxxxxx.Instance Variables	types:		<Object>types	- xxxxx
