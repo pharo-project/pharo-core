@@ -1,1 +1,1 @@
-addReplacement: aStringReplacement 	replacements isNil ifTrue: [^self].	replacements add: aStringReplacement
+addReplacement: aStringReplacement 	replacements ifNil: [^self].	replacements add: aStringReplacement

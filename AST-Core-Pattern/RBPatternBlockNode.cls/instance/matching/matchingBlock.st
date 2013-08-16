@@ -1,1 +1,1 @@
-matchingBlock	^valueBlock isNil 		ifTrue: [valueBlock := self createMatchingBlock]		ifFalse: [valueBlock]
+matchingBlock	^ valueBlock ifNil: [valueBlock := self createMatchingBlock]

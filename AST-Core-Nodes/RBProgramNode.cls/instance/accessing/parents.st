@@ -1,1 +1,1 @@
-parents	^ parent isNil		ifTrue: [ OrderedCollection with: self ]		ifFalse: [ 			parent parents				addLast: self;				yourself ]
+parents	^ parent 		ifNil: [ OrderedCollection with: self ]		ifNotNil: [ 			parent parents				addLast: self;				yourself ]

@@ -1,1 +1,1 @@
-currentlyIntegratingChanges	CurrentlyIntegratingChanges isNil ifTrue: [self hideIntegrationMenu].	^ CurrentlyIntegratingChanges
+currentlyIntegratingChanges	CurrentlyIntegratingChanges ifNil: [self hideIntegrationMenu].	^ CurrentlyIntegratingChanges

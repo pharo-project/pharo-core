@@ -1,1 +1,1 @@
-needsParenthesis	^parent isNil 		ifTrue: [false]		ifFalse: [self precedence > parent precedence]
+needsParenthesis	^parent		ifNil: [false]		ifNotNil: [self precedence > parent precedence]

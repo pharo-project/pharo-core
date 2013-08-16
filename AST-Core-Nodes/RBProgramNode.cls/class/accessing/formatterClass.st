@@ -1,1 +1,1 @@
-formatterClass	^ FormatterClass isNil 		ifTrue: [ RBConfigurableFormatter ] 		ifFalse: [ FormatterClass ]
+formatterClass	^ FormatterClass 		ifNil: [ RBConfigurableFormatter ] 		ifNotNil: [ FormatterClass ]

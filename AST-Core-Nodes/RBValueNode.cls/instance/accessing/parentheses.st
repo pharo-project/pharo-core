@@ -1,1 +1,1 @@
-parentheses	^parentheses isNil ifTrue: [#()] ifFalse: [parentheses]
+parentheses	^parentheses ifNil: [#()] ifNotNil: [parentheses]

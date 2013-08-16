@@ -1,1 +1,1 @@
-isAsciiString	| c |	c := self detect: [:each | each asciiValue > 127] ifNone: [nil].	^ c isNil.
+isAsciiString	^ self anySatisfy: [ :each | each asciiValue > 127 ]

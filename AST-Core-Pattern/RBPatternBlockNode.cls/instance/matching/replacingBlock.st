@@ -1,1 +1,1 @@
-replacingBlock	^valueBlock isNil 		ifTrue: [valueBlock := self createReplacingBlock]		ifFalse: [valueBlock]
+replacingBlock	^ valueBlock ifNil: [valueBlock := self createReplacingBlock]

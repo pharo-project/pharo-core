@@ -1,1 +1,1 @@
-start	^parentheses isNil 		ifTrue: [self startWithoutParentheses]		ifFalse: [parentheses last first]
+start	^parentheses 		ifNil: [self startWithoutParentheses]		ifNotNil: [parentheses last first]

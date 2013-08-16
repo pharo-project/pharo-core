@@ -1,1 +1,1 @@
-nextToken	^nextToken isNil ifTrue: [nextToken := scanner next] ifFalse: [nextToken]
+nextToken	^nextToken ifNil: [nextToken := scanner next] ifNotNil: [nextToken]

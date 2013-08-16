@@ -1,1 +1,1 @@
-errorBlock	^errorBlock isNil ifTrue: [[:message :position | ]] ifFalse: [errorBlock]
+errorBlock	^errorBlock ifNil: [[:message :position | ]] ifNotNil: [errorBlock]

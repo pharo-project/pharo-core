@@ -1,1 +1,1 @@
-addReplacement: aStringReplacement	parent isNil ifTrue: [^self].	parent addReplacement: aStringReplacement
+addReplacement: aStringReplacement	parent ifNil: [^self].	parent addReplacement: aStringReplacement

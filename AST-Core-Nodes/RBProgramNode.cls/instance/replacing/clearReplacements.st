@@ -1,1 +1,1 @@
-clearReplacements	parent isNil ifTrue: [^self].	parent clearReplacements
+clearReplacements	parent ifNil: [^self].	parent clearReplacements

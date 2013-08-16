@@ -1,1 +1,1 @@
-stop	^ sourcePointer isNil 		ifTrue: [ -1 ]		ifFalse: [ self start + self length - 1 ]
+stop	^ sourcePointer 		ifNil: [ -1 ]		ifNotNil: [ self start + self length - 1 ]

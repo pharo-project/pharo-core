@@ -1,1 +1,1 @@
-mappingFor: aNode	| method |	method := self methodNode.	method isNil ifTrue: [^aNode].	^method mappingFor: aNode
+mappingFor: aNode	| method |	method := self methodNode.	method ifNil: [^aNode].	^method mappingFor: aNode

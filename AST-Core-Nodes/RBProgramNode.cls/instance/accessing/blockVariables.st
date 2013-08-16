@@ -1,1 +1,1 @@
-blockVariables	^parent isNil ifTrue: [#()] ifFalse: [parent blockVariables]
+blockVariables	^parent ifNil: [#()] ifNotNil: [parent blockVariables]

@@ -1,1 +1,1 @@
-classificationTable	classificationTable isNil 		ifTrue: [ self initializeClassificationTable ].	^ classificationTable
+classificationTable	classificationTable 		ifNil: [ self initializeClassificationTable ].	^ classificationTable

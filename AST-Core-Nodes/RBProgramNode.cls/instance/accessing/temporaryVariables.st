@@ -1,1 +1,1 @@
-temporaryVariables	^parent isNil ifTrue: [#()] ifFalse: [parent temporaryVariables]
+temporaryVariables	^parent ifNil: [#()] ifNotNil: [parent temporaryVariables]

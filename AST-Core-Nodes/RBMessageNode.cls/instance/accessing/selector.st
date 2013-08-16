@@ -1,1 +1,1 @@
-selector	^selector isNil		ifTrue: [selector := self buildSelector]		ifFalse: [selector]
+selector	^ selector ifNil: [selector := self buildSelector]

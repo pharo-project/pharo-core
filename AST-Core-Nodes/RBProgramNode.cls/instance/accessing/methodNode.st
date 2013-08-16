@@ -1,1 +1,1 @@
-methodNode	^parent isNil ifTrue: [nil] ifFalse: [parent methodNode]
+methodNode	^parent ifNotNil: [parent methodNode]

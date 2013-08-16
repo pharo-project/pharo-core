@@ -1,1 +1,1 @@
-addPragma: aPragma	pragmas isNil		ifTrue: [ pragmas := OrderedCollection new ].	pragmas addLast: aPragma
+addPragma: aPragma	pragmas ifNil: [ pragmas := OrderedCollection new ].	pragmas addLast: aPragma

@@ -1,1 +1,1 @@
-stop	^parentheses isNil		ifTrue: [self stopWithoutParentheses]		ifFalse: [parentheses last last]
+stop	^parentheses 		ifNil: [self stopWithoutParentheses]		ifNotNil: [parentheses last last]
