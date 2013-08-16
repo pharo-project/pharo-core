@@ -1,1 +1,1 @@
-host: anObject	host := anObject
+host: aClass	host := aClass

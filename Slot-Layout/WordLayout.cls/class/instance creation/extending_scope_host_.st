@@ -1,1 +1,1 @@
-extending: superLayout scope: aScope host: aClass	self flag: #todo. "Seems that #extendByte already checks for #hasFields, so next code shouldnt be needed, right?""	aScope hasFields 		ifTrue: [ self error: 'No fields expected!' ]."	^ superLayout extendWord		host: aClass;		yourself
+extending: superLayout scope: aScope host: aClass	^ superLayout extendWord		host: aClass;		yourself

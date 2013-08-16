@@ -1,1 +1,0 @@
-SlotClassBuilderTest subclass: #SlotClassBuilderAnnouncementsTest	instanceVariableNames: 'announcement announcementsCount'	classVariableNames: ''	poolDictionaries: ''	category: 'SlotTests'

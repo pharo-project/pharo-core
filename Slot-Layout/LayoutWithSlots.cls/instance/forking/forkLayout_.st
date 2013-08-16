@@ -1,1 +1,0 @@
-forkLayout: aLayout	| forkScope |	forkScope := slotScope forkScope: aLayout slotScope. 	^ aLayout species extending: self scope: forkScope host: self host

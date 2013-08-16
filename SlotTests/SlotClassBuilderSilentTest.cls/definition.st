@@ -1,1 +1,0 @@
-SlotClassBuilderTest subclass: #SlotClassBuilderSilentTest	instanceVariableNames: 'yetAnotherClass yetYetAnotherClass'	classVariableNames: ''	poolDictionaries: ''	category: 'SlotTests'

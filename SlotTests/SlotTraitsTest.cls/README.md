@@ -1,0 +1,1 @@
+A SlotTraitsTest is xxxxxxxxx.
