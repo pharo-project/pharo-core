@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11258 update 30308 lost class instance variable in ChangeSet	https://pharo.fogbugz.com/f/cases/11258	10097 HandMorph>>showDebugEvents:true --> too small a rectangle with bigger fonts	https://pharo.fogbugz.com/f/cases/10097	'
+commentForCurrentUpdate ^ '5469 SHA1 duplicated implementations	https://pharo.fogbugz.com/f/cases/5469'
