@@ -1,1 +1,1 @@
-choicesList	choicesList isNil		ifTrue: [choicesList := OrderedCollection new].	^choicesList
+choicesList	^ choicesList ifNil: [ choicesList := OrderedCollection new ]

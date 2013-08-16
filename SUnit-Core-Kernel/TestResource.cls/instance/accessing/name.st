@@ -1,1 +1,1 @@
-name	name isNil		ifTrue: [^self printString].	^name
+name	name ifNil: [^self printString].	^name

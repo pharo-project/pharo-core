@@ -1,1 +1,1 @@
-defaultHelpBrowser	DefaultHelpBrowser isNil ifTrue: [DefaultHelpBrowser := self].	^DefaultHelpBrowser	
+defaultHelpBrowser	^ DefaultHelpBrowser ifNil: [DefaultHelpBrowser := self]	

@@ -1,1 +1,1 @@
-subtopics 	"Returns the receivers list of subtopics"		subtopics isNil ifTrue: [subtopics := OrderedCollection new].	^subtopics
+subtopics 	"Returns the receivers list of subtopics"		^ subtopics ifNil: [subtopics := OrderedCollection new]

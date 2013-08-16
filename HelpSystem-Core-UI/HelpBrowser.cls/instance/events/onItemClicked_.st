@@ -1,1 +1,1 @@
-onItemClicked: anItem	anItem isNil ifTrue: [^contentMorph setText: rootTopic asHelpTopic contents].	contentMorph setText: anItem contents
+onItemClicked: anItem	anItem ifNil: [^contentMorph setText: rootTopic asHelpTopic contents].	contentMorph setText: anItem contents

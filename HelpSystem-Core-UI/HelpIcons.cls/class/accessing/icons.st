@@ -1,1 +1,1 @@
-icons	Icons isNil ifTrue: [Icons := Dictionary new].	^Icons
+icons	^ Icons ifNil: [Icons := Dictionary new]

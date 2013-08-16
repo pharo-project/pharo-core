@@ -1,1 +1,1 @@
-installed	Installed isNil ifTrue:[Installed := IdentityDictionary new].	^Installed
+installed	^ Installed ifNil: [Installed := IdentityDictionary new]
