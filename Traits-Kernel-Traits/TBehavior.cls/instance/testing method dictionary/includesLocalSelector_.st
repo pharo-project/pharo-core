@@ -1,1 +1,1 @@
-includesLocalSelector: aSymbol	^self basicLocalSelectors isNil		ifTrue: [self includesSelector: aSymbol]		ifFalse: [self localSelectors includes: aSymbol]
+includesLocalSelector: aSymbol	^self basicLocalSelectors 		ifNil: [self includesSelector: aSymbol]		ifNotNil: [self localSelectors includes: aSymbol]

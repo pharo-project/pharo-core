@@ -1,1 +1,1 @@
-whichSuperclassSatisfies: aBlock 	(aBlock value: self) ifTrue: [^self].	^self superclass isNil 		ifTrue: [nil]		ifFalse: [self superclass whichSuperclassSatisfies: aBlock]
+whichSuperclassSatisfies: aBlock 	(aBlock value: self) ifTrue: [^self].	^self superclass ifNotNil: [self superclass whichSuperclassSatisfies: aBlock]

@@ -1,1 +1,1 @@
-world	^owner isNil ifTrue: [nil] ifFalse: [owner world]
+world	^owner ifNotNil: [owner world]

@@ -1,1 +1,1 @@
-newMouseFocus: aMorph event: event 	aMorph isNil 		ifFalse: [targetOffset := event cursorPoint - aMorph position].	^self newMouseFocus: aMorph
+newMouseFocus: aMorph event: event 	aMorph ifNotNil: [targetOffset := event cursorPoint - aMorph position].	^self newMouseFocus: aMorph

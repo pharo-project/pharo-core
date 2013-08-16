@@ -1,1 +1,1 @@
-myDependents: aCollectionOrNil	"Improved performance dependents."		aCollectionOrNil isNil 		ifTrue: [self removeProperty: #myDependents]		ifFalse: [self setProperty: #myDependents toValue: aCollectionOrNil]
+myDependents: aCollectionOrNil	"Improved performance dependents."		aCollectionOrNil 		ifNil: [self removeProperty: #myDependents]		ifNotNil: [self setProperty: #myDependents toValue: aCollectionOrNil]

@@ -1,1 +1,1 @@
-shoutAboutToStyle: aPluggableShoutMorphOrView	aPluggableShoutMorphOrView classOrMetaClass: self selectedClass.	self selectedClass isNil		ifTrue: [	^ false].	self selectedMethod isNil		ifTrue: [^ false].	^ true
+shoutAboutToStyle: aPluggableShoutMorphOrView	aPluggableShoutMorphOrView classOrMetaClass: self selectedClass.	self selectedClass ifNil: [^ false].	self selectedMethod ifNil: [^ false].	^ true

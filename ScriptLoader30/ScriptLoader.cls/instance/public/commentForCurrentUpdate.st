@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11267 isNil ifTrue: to ifNil: part 7	https://pharo.fogbugz.com/f/cases/11267	11268 isNil ifTrue: to ifNil: part 8	https://pharo.fogbugz.com/f/cases/11268	'
+commentForCurrentUpdate ^ '11269 isNil ifTrue: to ifNil: part 9	https://pharo.fogbugz.com/f/cases/11269	11277 isNil ifTrue: to: ifNil: Morphic Kernel	https://pharo.fogbugz.com/f/cases/11277	11272 isNil ifTrue: to ifNil: part 12 (last before morphic)	https://pharo.fogbugz.com/f/cases/resolve/11272'

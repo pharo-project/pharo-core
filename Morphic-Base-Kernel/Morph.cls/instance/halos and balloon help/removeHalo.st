@@ -1,1 +1,1 @@
-removeHalo	"remove the surrounding halo (if any)"	self halo isNil		ifFalse: [self primaryHand removeHalo]
+removeHalo	"remove the surrounding halo (if any)"	self halo ifNotNil: [self primaryHand removeHalo]
