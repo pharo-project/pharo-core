@@ -1,1 +1,1 @@
-current: aSoundSystem	Current deactivate.	Current := aSoundSystem.	Current activate.
+current: aSoundSystem	Current ifNotNil: [Current deactivate].	Current := aSoundSystem.	Current activate.
