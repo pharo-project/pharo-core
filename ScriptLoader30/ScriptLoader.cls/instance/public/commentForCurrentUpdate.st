@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11263 isNil ifTrue: to ifNil: part 3	https://pharo.fogbugz.com/f/cases/11263	11264 isNil ifTrue: to ifNil: part 4	https://pharo.fogbugz.com/f/cases/11264/'
+commentForCurrentUpdate ^ '11273 ExampleBuilder should only be used by the examples	https://pharo.fogbugz.com/f/cases/11273	11265 isNil ifTrue: to ifNil: part 5	https://pharo.fogbugz.com/f/cases/11265	11266 isNil ifTrue: to ifNil: part 6	https://pharo.fogbugz.com/f/cases/11266'
