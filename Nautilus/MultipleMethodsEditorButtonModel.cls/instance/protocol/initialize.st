@@ -1,1 +1,1 @@
-initialize	super initialize.	state := false
+initialize	"Initialization code for MultipleMethodsEditorButtonModel"	super initialize.	state := false

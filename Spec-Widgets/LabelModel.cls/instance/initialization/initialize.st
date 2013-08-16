@@ -1,1 +1,1 @@
-initialize	super initialize.	textHolder := '' asValueHolder.	enabledHolder := true asValueHolder.	textHolder whenChangedDo: [ self changed: #getText ].
+initialize	"Initialization code for LabelModel"	super initialize.	textHolder := '' asValueHolder.	enabledHolder := true asValueHolder.	textHolder whenChangedDo: [ self changed: #getText ].

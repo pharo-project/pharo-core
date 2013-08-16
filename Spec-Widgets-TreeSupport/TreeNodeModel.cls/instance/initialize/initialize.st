@@ -1,1 +1,1 @@
-initialize	super initialize.	item := nil asValueHolder.
+initialize	"Initialization code for TreeNodeModel"	super initialize.	item := nil asValueHolder.

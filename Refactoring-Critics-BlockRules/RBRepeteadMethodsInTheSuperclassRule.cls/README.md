@@ -1,0 +1,1 @@
+A RBRepeteadMethodsInTheSuperclassRule is xxxxxxxxx.

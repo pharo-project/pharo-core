@@ -1,1 +1,1 @@
-load	RPackageSet withCacheDo: [   		self loadWithNameLike: versions first info name ].
+load	self loadWithNameLike: versions first info name.

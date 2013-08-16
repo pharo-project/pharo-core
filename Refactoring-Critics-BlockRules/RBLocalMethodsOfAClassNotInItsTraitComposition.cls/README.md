@@ -1,0 +1,1 @@
+A RBLocalMethodsOfAClassNotInItsTraitComposition is xxxxxxxxx.

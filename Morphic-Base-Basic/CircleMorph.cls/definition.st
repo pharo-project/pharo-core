@@ -1,1 +1,1 @@
-EllipseMorph subclass: #CircleMorph	uses: TAbleToRotate	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Morphic-Base-Basic'
+EllipseMorph subclass: #CircleMorph	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Morphic-Base-Basic'

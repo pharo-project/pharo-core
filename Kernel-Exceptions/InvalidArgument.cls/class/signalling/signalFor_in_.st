@@ -1,1 +1,0 @@
-signalFor: argument in: object	^ self		signal: 'Illegal argument'		for: argument		in: object

@@ -1,1 +1,1 @@
-initialize	super initialize.	model := ChangeSorterModel new.	isRefreshing := false.		SystemAnnouncer uniqueInstance weak on: CurrentChangeSetChanged do: [:each | self updateTitle]
+initialize	"Initialization code for DualChangeSorterApplication"	super initialize.	model := ChangeSorterModel new.	isRefreshing := false.		SystemAnnouncer uniqueInstance weak on: CurrentChangeSetChanged do: [:each | self updateTitle]

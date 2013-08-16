@@ -1,1 +1,1 @@
-initialize	super initialize.	textMorphClass := TextMorphForFieldView.	self beDecrypted
+initialize	"Initialization code for PluggableEncryptedTextFieldMorph"	super initialize.	textMorphClass := TextMorphForFieldView.	self beDecrypted

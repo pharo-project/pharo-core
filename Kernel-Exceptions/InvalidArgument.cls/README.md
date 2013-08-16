@@ -1,1 +1,0 @@
-I am InvalidArgument, an Error indicating that some argument does not fit the method's preconditions.For numeric arguments and range checking, consider using DomainError instead.

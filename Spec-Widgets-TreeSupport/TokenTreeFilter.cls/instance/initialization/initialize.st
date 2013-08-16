@@ -1,1 +1,1 @@
-initialize	super initialize.	token := ''.
+initialize	"Initialization code for TokenTreeFilter"	super initialize.	token := ''.
