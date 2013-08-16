@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '2173 ExternalDropHandler initialize	https://pharo.fogbugz.com/f/cases/2173	11241 There are still some references to the old debugger	https://pharo.fogbugz.com/f/cases/11241'
+commentForCurrentUpdate ^ '11162 clean up #noteClassStructure: in Changeset	https://pharo.fogbugz.com/f/cases/11162/'
