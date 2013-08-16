@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11213 Kill changed from Object	https://pharo.fogbugz.com/f/cases/11213	'
+commentForCurrentUpdate ^ '11226 Kill update: from Object	https://pharo.fogbugz.com/f/cases/11226'
