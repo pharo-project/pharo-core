@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11271 isNil ifTrue: to ifNil: part 11	https://pharo.fogbugz.com/f/cases/11271	11270 isNil ifTrue: to ifNil: part 10	https://pharo.fogbugz.com/f/cases/11270'
+commentForCurrentUpdate ^ '11278 Refactoring menu should not show some items for traits	https://pharo.fogbugz.com/f/cases/11278'

@@ -1,0 +1,1 @@
+instVarRefactoringSubmenu: aBuilder	^self explicitRequirement.
