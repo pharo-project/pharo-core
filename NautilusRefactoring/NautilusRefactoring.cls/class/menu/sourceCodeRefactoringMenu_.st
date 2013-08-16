@@ -1,1 +1,1 @@
-sourceCodeRefactoringMenu: aBuilder	<nautilusGlobalSourceCodeMenu>	| target |	target := aBuilder model.		target selectedClass sourceCodeRefactoringMenu: aBuilder.
+sourceCodeRefactoringMenu: aBuilder	<nautilusGlobalSourceCodeMenu>	| target |	target := aBuilder model.		target selectedClass sourceCodeRefactoring: aBuilder.

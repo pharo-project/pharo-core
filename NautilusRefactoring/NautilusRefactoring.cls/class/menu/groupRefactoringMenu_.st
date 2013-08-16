@@ -1,1 +1,1 @@
-groupRefactoringMenu: aBuilder	<nautilusGlobalGroupMenu>	| target |	target := aBuilder model.		target selectedClass groupRefactoringMenu: aBuilder.
+groupRefactoringMenu: aBuilder	<nautilusGlobalGroupMenu>	| target |	target := aBuilder model.		target selectedClass groupRefactoring: aBuilder.

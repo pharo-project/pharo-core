@@ -1,1 +1,1 @@
-testOpenBrowseOnTraitMethod	| browser |	browser := (TBehavior>>#classPool) browse.	browser changed.	browser close.
+testOpenBrowseOnTraitMethod	| browser |	browser := (TBehavior>>#name) browse.	browser changed.	browser close.
