@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11281 Move references to DependentField to proper classes	https://pharo.fogbugz.com/f/cases/11281'
+commentForCurrentUpdate ^ '11284 Split the kernel fix in two for integration	https://pharo.fogbugz.com/f/cases/11284'
