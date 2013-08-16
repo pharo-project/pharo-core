@@ -1,1 +1,1 @@
-initialize	"Initialization code for PermissionsEditor"	lock := false.	user := nil asValueHolder.		super initialize.
+initialize	lock := false.	user := nil asValueHolder.		super initialize.

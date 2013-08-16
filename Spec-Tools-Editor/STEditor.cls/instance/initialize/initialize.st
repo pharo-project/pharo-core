@@ -1,1 +1,1 @@
-initialize	"Initialization code for BlocEditor"	super initialize.	object := nil asValueHolder
+initialize	super initialize.	object := nil asValueHolder

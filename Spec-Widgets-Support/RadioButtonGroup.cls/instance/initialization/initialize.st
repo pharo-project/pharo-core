@@ -1,1 +1,1 @@
-initialize	"Initialization code for RadioButtonGroup"	super initialize.	buttons := OrderedCollection new.
+initialize	super initialize.	buttons := OrderedCollection new.

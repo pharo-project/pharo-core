@@ -1,1 +1,1 @@
-initialize	"Initialization code for MethodToolbar"	methodHolder := nil asValueHolder.	model := AbstractTool new.		super initialize.
+initialize	methodHolder := nil asValueHolder.	model := AbstractTool new.		super initialize.

@@ -1,1 +1,1 @@
-initializeWidgets	"Initialization code for DualChangeSorterApplication"	self instantiateModels: #(		changeSorterLeft  ChangeSorterApplication		changeSorterRight  ChangeSorterApplication ).			self menusRegistration.	self shortcutsRegistration.	self setFocusOrder
+initializeWidgets	self instantiateModels: #(		changeSorterLeft  ChangeSorterApplication		changeSorterRight  ChangeSorterApplication ).			self menusRegistration.	self shortcutsRegistration.	self setFocusOrder

@@ -1,1 +1,1 @@
-initialize	"Initialization code for ColorEditor"	super initialize.	color := Color black asValueHolder.	morph := Morph new 				color: self color;				extent: 25@25;				yourself
+initialize	super initialize.	color := Color black asValueHolder.	morph := Morph new 				color: self color;				extent: 25@25;				yourself

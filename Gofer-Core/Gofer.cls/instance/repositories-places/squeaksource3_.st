@@ -1,1 +1,1 @@
-squeaksource3: aProjectName	self repository: (MCGemstoneRepository location: 'http://ss3.gemstone.com/ss/' , aProjectName)
+squeaksource3: aProjectName	self repository: (MCGemstoneRepository location: 'http://ss3.gemtalksystems.com/ss/' , aProjectName)

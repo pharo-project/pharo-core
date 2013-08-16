@@ -1,1 +1,1 @@
-initialize	"Initialization code for WorkingCopyToolBar"	super initialize.	workingCopyHolder := nil asValueHolder
+initialize	super initialize.		workingCopyHolder := nil asValueHolder
