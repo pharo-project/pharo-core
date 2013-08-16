@@ -1,1 +1,1 @@
-privateImplementorsOf: aSelector 	| classes |	classes := Set new.	self allClassesDo: [ :class |		(class directlyDefinesMethod: aSelector)			ifTrue: [ classes add: class ] ].	^ classes
+privateImplementorsOf: aSelector 	| classes |	classes := Set new.	self allClassesDo: [ :class |		(class directlyDefinesLocalMethod: aSelector)			ifTrue: [ classes add: class ] ].	^ classes

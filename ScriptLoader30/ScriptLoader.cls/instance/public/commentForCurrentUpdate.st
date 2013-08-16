@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11200 Repeated methods in superclasses, explicit requirement no implemented, repeated methods in traits	https://pharo.fogbugz.com/f/cases/11200'
+commentForCurrentUpdate ^ '11294 Bugs in refactoring when using traits	https://pharo.fogbugz.com/f/cases/11294'
