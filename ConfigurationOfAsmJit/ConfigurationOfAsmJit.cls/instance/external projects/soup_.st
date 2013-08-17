@@ -1,1 +1,0 @@
-soup: spec		spec project: 'Soup' with: [		spec			className: 'ConfigurationOfSoup';			repository: 'http://squeaksource.com/Soup' ].

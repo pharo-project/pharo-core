@@ -1,1 +1,0 @@
-pinocchio: spec		spec project: 'Pinocchio' with: [		spec			repository: 'http://smalltalkhub.com/mc/mate/p4/main';			className: 'ConfigurationOfPinocchio';			versionString: #'development' ].
