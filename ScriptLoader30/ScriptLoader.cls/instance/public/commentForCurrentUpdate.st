@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '- 11416 Integrate latest changes to NB	https://pharo.fogbugz.com/default.asp?11416'
+commentForCurrentUpdate ^ '- issue 11418 RBBrowserEnvironment definesClass: is unfinished	https://pharo.fogbugz.com/default.asp?11418- issue 11417 Test for checking repeated code in superclasses must not watch in nativeBoost classes	https://pharo.fogbugz.com/default.asp?11417	- issue 11415	More green tests for BehaviorTest and MetaclassTesthttps://pharo.fogbugz.com/default.asp?11415'
