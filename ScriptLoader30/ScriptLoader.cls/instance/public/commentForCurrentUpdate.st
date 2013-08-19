@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '- issue 11420 Monticello is looking for all ancestors even when there are none	https://pharo.fogbugz.com/default.asp?11420	- issue 11408 https://pharo.fogbugz.com/default.asp?11408	https://pharo.fogbugz.com/default.asp?11408'
+commentForCurrentUpdate ^ '11394 Needed support for traits in ClassFactoryForTestCase	https://pharo.fogbugz.com/f/cases/11394	'

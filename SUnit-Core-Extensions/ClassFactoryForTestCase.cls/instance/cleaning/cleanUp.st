@@ -1,1 +1,1 @@
-cleanUp	| createdClassNames |	createdClassNames := self createdClassNames.	self deleteClasses.	self deletePackage.	self cleanUpChangeSetForClassNames: createdClassNames
+cleanUp	| createdClassNames createdTraitNames |	createdClassNames := self createdClassNames.	createdTraitNames := self createdTraitNames.	self deleteClasses.	self deleteTraits.	self deletePackage.	self cleanUpChangeSetForClassNames: createdClassNames.	self cleanUpChangeSetForClassNames: createdTraitNames

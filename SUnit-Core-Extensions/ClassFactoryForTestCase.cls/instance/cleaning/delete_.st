@@ -1,1 +1,1 @@
-delete: aClass	aClass isObsolete ifTrue: [^self].	aClass removeFromChanges.	aClass removeFromSystemUnlogged
+delete: aBehavior	aBehavior isObsolete ifTrue: [^self].	aBehavior removeFromChanges.	aBehavior removeFromSystemUnlogged
