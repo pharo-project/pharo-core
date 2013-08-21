@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11394 Needed support for traits in ClassFactoryForTestCase	https://pharo.fogbugz.com/f/cases/11394	'
+commentForCurrentUpdate ^ '11428 Remove a buggy redundant test in FuelTests	https://pharo.fogbugz.com/f/cases/11428	11417 Test for checking repeated code in superclasses must not watch in nativeBoost classes	https://pharo.fogbugz.com/f/cases/11417	'
