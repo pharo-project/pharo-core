@@ -1,1 +1,1 @@
-<= other	^ self path <= self other path
+<= other	^ self path <= other path

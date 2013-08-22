@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11428 Remove a buggy redundant test in FuelTests	https://pharo.fogbugz.com/f/cases/11428	11417 Test for checking repeated code in superclasses must not watch in nativeBoost classes	https://pharo.fogbugz.com/f/cases/11417	'
+commentForCurrentUpdate ^ '11443 Icon for explicitRequirement methods	https://pharo.fogbugz.com/f/cases/11443	11147 FileReference(Object)>>doesNotUnderstand: #other	https://pharo.fogbugz.com/f/cases/11147'
