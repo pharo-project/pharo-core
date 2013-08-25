@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11443 Icon for explicitRequirement methods	https://pharo.fogbugz.com/f/cases/11443	11147 FileReference(Object)>>doesNotUnderstand: #other	https://pharo.fogbugz.com/f/cases/11147'
+commentForCurrentUpdate ^ '11453 Disable some shady tests in NB	https://pharo.fogbugz.com/f/cases/11453	11445 Monticello refactoring to allow better FileTree support	https://pharo.fogbugz.com/f/cases/11445'
