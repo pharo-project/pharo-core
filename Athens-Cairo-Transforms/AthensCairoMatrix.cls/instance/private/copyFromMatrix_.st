@@ -1,1 +1,1 @@
-copyFromMatrix: m	NativeBoost memCopy: m to: self size: self class instanceSize.
+copyFromMatrix: m	NativeBoost memCopy: m address to: self address size: self class instanceSize.

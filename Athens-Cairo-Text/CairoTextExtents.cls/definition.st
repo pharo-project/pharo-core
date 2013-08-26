@@ -1,1 +1,1 @@
-NBExternalStructure variableByteSubclass: #CairoTextExtents	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Athens-Cairo-Text'
+NBExternalStructure subclass: #CairoTextExtents	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Athens-Cairo-Text'
