@@ -1,0 +1,1 @@
+exampleTraits	^ { TBehavior. TClass. TAssertable }
