@@ -1,1 +1,1 @@
-uninstall	reference actualClass methodDict		at: reference methodSymbol		put: method.	self flushCache
+uninstall	reference actualClass methodDict		at: reference selector		put: method.	self flushCache

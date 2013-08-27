@@ -1,1 +1,1 @@
-flushCache	reference methodSymbol flushCache.	method flushCache
+flushCache	reference selector flushCache.	method flushCache

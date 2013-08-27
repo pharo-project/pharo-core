@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11452 Adding a trait to a composition makes too many changes to a class	https://pharo.fogbugz.com/f/cases/11452	11426 Extract the logic that opens the .sources and .changes files	https://pharo.fogbugz.com/f/cases/11426'
+commentForCurrentUpdate ^ '11464 Switch RBPackageEnvironment to RPackage	https://pharo.fogbugz.com/f/cases/11464	11449 Remove Time class >> #namesForTimes:	https://pharo.fogbugz.com/f/cases/11449'
