@@ -1,1 +1,1 @@
-testPushDownMethodOnNonAbstractClass	| refactoring |	refactoring := RBPushDownMethodRefactoring pushDown: #(#yourself)				from: Object.	self shouldFail: refactoring
+testPushDownMethodOnNonAbstractClass	| refactoring |	refactoring := RBPushDownMethodRefactoring pushDown: #(#isArray) from: Array.	self shouldFail: refactoring
