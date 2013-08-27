@@ -1,1 +1,0 @@
-sorted: aSortBlockOrNil	"sorted should return a copy"		^self copy sort: aSortBlockOrNil

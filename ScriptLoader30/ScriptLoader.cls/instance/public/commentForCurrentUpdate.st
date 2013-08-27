@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11447 Improve Chronology	https://pharo.fogbugz.com/f/cases/11447	11456 RBLiteralValueNode does not Understand shortPrintOn:	https://pharo.fogbugz.com/f/cases/11456'
+commentForCurrentUpdate ^ '6821 Inconsistent String>>asDate behaviour	https://pharo.fogbugz.com/f/cases/6821	11446 recategorize compareWith:ifLesser:ifEqual:ifGreater:	https://pharo.fogbugz.com/f/cases/11446	11431 #sorted: is broken for some collections	https://pharo.fogbugz.com/f/cases/11431'
