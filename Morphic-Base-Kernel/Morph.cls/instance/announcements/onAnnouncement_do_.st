@@ -1,1 +1,1 @@
-onAnnouncement: anAnnouncement do: aValuable	self announcer on: anAnnouncement do: aValuable.
+onAnnouncement: anAnnouncement do: aValuable	self announcer when: anAnnouncement do: aValuable.

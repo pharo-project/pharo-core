@@ -1,0 +1,1 @@
+on: anAnnouncementClass do: aValuable	"This method is deprecated!	Declare that when anAnnouncementClass is raised, aValuable is executed."		^ self when: anAnnouncementClass do: aValuable
