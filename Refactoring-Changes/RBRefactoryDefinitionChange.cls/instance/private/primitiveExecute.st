@@ -1,1 +1,1 @@
-primitiveExecute	definedClass := self definitionClass compiler		evaluate: self definition		notifying: self controller		logged: true
+primitiveExecute	definedClass := self definitionClass compiler		source: self definition;		requestor: self controller;		logged: true;		evaluate

@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '10608 ShortCut for browse scope does not work	https://pharo.fogbugz.com/f/cases/10608	11480 refactor old compiler api evaluate:for:logged:	https://pharo.fogbugz.com/f/cases/11480	11482 [Fix] broken pointer explorer menu	https://pharo.fogbugz.com/f/cases/11482	- undo 11473 	'
+commentForCurrentUpdate ^ '11177 Inst var push down refactoring is buggy	https://pharo.fogbugz.com/f/cases/1117711481 More compiler API refactorings	https://pharo.fogbugz.com/f/cases/11481	'

@@ -1,1 +1,1 @@
-parse: aStringOrStream 	^(self new)		on: aStringOrStream;		nextNumber
+parse: aStringOrStream 	^self new		on: aStringOrStream;		nextNumber
