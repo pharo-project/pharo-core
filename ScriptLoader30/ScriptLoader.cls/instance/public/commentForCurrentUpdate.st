@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11478 Critics Browser cannot run anymore	https://pharo.fogbugz.com/f/cases/11478	11489 fix for #subclassDefinerClass	https://pharo.fogbugz.com/f/cases/11489	11486 add method parse: to Compiler and OpalCompiler	https://pharo.fogbugz.com/f/cases/11486'
+commentForCurrentUpdate ^ '11484 Strong pointer explorer showing weak references	https://pharo.fogbugz.com/f/cases/11484	11490 Failing tests in RBPushDownInstanceVariables	https://pharo.fogbugz.com/f/cases/11490		'
