@@ -1,1 +1,1 @@
-Model subclass: #ObjectExplorer	instanceVariableNames: 'rootObject inspector monitorList currentSelection'	classVariableNames: 'ShowIcons'	poolDictionaries: ''	category: 'Tools-Explorer'
+Model subclass: #ObjectExplorer	instanceVariableNames: 'rootObject monitorList currentSelection'	classVariableNames: 'ShowIcons'	poolDictionaries: ''	category: 'Tools-Explorer'

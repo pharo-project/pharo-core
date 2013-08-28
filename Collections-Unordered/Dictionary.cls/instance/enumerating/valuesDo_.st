@@ -1,1 +1,1 @@
-valuesDo: aBlock 	"Evaluate aBlock for each of the receiver's values.	Optimized version of:		^ self associationsDo: [:association | aBlock value: association value]"	tally = 0 ifTrue: [^ self].	array do: [:each |		each == nil			ifFalse: [ aBlock value: each value ]]
+valuesDo: aBlock 	"Evaluate aBlock for each of the receiver's values."	self associationsDo: [:association | aBlock value: association value]

@@ -1,1 +1,1 @@
-keysDo: aBlock 	"Evaluate aBlock for each of the receiver's keys.	Optimized version of:		^ self associationsDo: [:association | aBlock value: association key ]"	tally = 0 ifTrue: [^ self].	array do: [:each |		each == nil			ifFalse: [ aBlock value: each key ]]
+keysDo: aBlock 	"Evaluate aBlock for each of the receiver's keys."	self associationsDo: [:association | aBlock value: association key]

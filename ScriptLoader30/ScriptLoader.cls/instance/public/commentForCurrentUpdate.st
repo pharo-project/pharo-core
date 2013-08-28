@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11473 Optimize Dictionary >> #valuesDo:	https://pharo.fogbugz.com/f/cases/11473	11422 Support quantifiers in regular expressions	https://pharo.fogbugz.com/f/cases/11422	'
+commentForCurrentUpdate ^ '10608 ShortCut for browse scope does not work	https://pharo.fogbugz.com/f/cases/10608	11480 refactor old compiler api evaluate:for:logged:	https://pharo.fogbugz.com/f/cases/11480	11482 [Fix] broken pointer explorer menu	https://pharo.fogbugz.com/f/cases/11482	- undo 11473 	'
