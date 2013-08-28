@@ -1,1 +1,1 @@
-updateTree	thread ifNotNil: [ thread terminate ].	thread := [ UIManager default defer:  [ 			criticModel updateList. 			rulesModel updateTree ]] fork.
+updateTree	criticModel updateList. 	rulesModel updateTree
