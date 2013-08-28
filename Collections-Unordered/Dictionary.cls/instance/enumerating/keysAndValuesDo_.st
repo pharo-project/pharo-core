@@ -1,1 +1,1 @@
-keysAndValuesDo: aBlock	^self associationsDo:[:assoc|		aBlock value: assoc key value: assoc value].
+keysAndValuesDo: aBlock	"Optimized version of:	^ self associationsDo: [ :association | 		aBlock			value: association key			value: association value ]"	tally = 0 ifTrue: [^ self].	array do: [ :association |		association == nil			ifFalse: [ 				aBlock 					value: association key 					value: association value ]]
