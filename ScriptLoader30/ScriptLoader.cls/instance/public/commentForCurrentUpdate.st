@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11484 Strong pointer explorer showing weak references	https://pharo.fogbugz.com/f/cases/11484	11490 Failing tests in RBPushDownInstanceVariables	https://pharo.fogbugz.com/f/cases/11490		'
+commentForCurrentUpdate ^ '11493 Support negative lookahead in Regex	https://pharo.fogbugz.com/f/cases/11493	11491 unsubscribe from editor in NECController	https://pharo.fogbugz.com/f/cases/11491'
