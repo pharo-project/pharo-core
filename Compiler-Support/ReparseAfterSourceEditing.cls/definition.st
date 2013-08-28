@@ -1,1 +1,1 @@
-Notification subclass: #ReparseAfterSourceEditing	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Compiler-Support'
+Notification subclass: #ReparseAfterSourceEditing	instanceVariableNames: 'newSource'	classVariableNames: ''	poolDictionaries: ''	category: 'Compiler-Support'

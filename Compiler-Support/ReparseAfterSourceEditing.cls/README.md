@@ -1,1 +1,1 @@
-A ReparseAfterSourceEditing is xxxxxxxxx.
+A ReparseAfterSourceEditing is xxxxxxxxx.Instance Variables	newSource:		<Object>newSource	- xxxxx

@@ -1,1 +1,1 @@
-A RBRepeteadMethodsInTheSuperclassRule is xxxxxxxxx.
+See my #rationale.
