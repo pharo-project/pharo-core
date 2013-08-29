@@ -1,1 +1,0 @@
-Object subclass: #UlysseTheMonkey	instanceVariableNames: 'tracker previousTestResult loadStopwatch testStopwatch extraTests errors testErrors testFailures testResult issue verbose debug'	classVariableNames: ''	poolDictionaries: ''	category: 'CI-Core'

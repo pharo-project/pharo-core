@@ -1,1 +1,0 @@
-Exception subclass: #ErrorWhileCreationException	instanceVariableNames: 'response'	classVariableNames: ''	poolDictionaries: ''	category: 'CI-Core'

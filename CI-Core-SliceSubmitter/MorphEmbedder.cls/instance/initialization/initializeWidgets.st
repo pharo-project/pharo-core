@@ -1,1 +1,0 @@
-initializeWidgets	morph whenChangedDo: [:m | container := m ]

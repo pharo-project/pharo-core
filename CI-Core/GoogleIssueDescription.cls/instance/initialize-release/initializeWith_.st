@@ -1,1 +1,0 @@
-initializeWith: anIssueId	super initializeWith: 0

@@ -1,1 +1,0 @@
-asComment	^ self

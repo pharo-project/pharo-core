@@ -1,1 +1,0 @@
-mcPackage: anObject	mcPackage := anObject

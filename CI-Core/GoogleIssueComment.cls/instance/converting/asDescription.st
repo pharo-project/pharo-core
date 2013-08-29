@@ -1,1 +1,0 @@
-asDescription	GoogleIssueDescription adoptInstance: self.	^ self 

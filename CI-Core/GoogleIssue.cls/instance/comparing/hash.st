@@ -1,1 +1,0 @@
-hash	^ self url hash

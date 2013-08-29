@@ -1,1 +1,0 @@
-checkedInLabel	^ self class checkedInLabel

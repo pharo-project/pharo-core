@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11493 Support negative lookahead in Regex	https://pharo.fogbugz.com/f/cases/11493	11491 unsubscribe from editor in NECController	https://pharo.fogbugz.com/f/cases/11491'
+commentForCurrentUpdate ^ '11126 Unused CI packages load by default in pharo	https://pharo.fogbugz.com/f/cases/11126	'

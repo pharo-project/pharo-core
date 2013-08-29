@@ -1,1 +1,0 @@
-testResult: anObject	testResult := anObject

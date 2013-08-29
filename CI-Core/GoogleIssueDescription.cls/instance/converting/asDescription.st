@@ -1,1 +1,0 @@
-asDescription	^ self
