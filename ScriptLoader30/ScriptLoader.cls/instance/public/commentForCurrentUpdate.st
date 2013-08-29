@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '- issue 2489 Strange behavior of Rectangle (first part)	https://pharo.fogbugz.com/default.asp?2489	- issue 11441 Use SmalllintManifestChecker in assertValidLintRule:	https://pharo.fogbugz.com/default.asp?11441'
+commentForCurrentUpdate ^ '- issue 2489 Strange Behavior of Rectangle Part Two	https://pharo.fogbugz.com/default.asp?2489	- issue 11502 Override Class >> #setName:	https://pharo.fogbugz.com/default.asp?11502	- issue 11505 Remove obsolete icons	https://pharo.fogbugz.com/default.asp?11505'
