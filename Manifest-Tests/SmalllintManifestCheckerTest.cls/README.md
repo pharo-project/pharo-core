@@ -1,1 +1,1 @@
-A SmalllintManifestCheckerTest is xxxxxxxxx.Instance Variables	smc:		<Object>smc	- xxxxx
+A SmalllintManifestCheckerTest is xxxxxxxxx.Instance Variables	checker:		<Object>checker	- xxxxx

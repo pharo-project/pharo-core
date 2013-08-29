@@ -1,1 +1,0 @@
-assertValidLintRule: aLintRule	| result |	result := aLintRule runOnEnvironment: self targetClassEnvironment.	self assert: result isEmpty.

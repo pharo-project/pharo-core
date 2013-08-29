@@ -1,0 +1,1 @@
+asEnvironment	^ RBClassEnvironment class: self

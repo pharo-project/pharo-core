@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11126 Unused CI packages load by default in pharo	https://pharo.fogbugz.com/f/cases/11126	'
+commentForCurrentUpdate ^ '- issue 2489 Strange behavior of Rectangle (first part)	https://pharo.fogbugz.com/default.asp?2489	- issue 11441 Use SmalllintManifestChecker in assertValidLintRule:	https://pharo.fogbugz.com/default.asp?11441'

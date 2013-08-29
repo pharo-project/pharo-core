@@ -1,1 +1,0 @@
-testLocalMethodsOfTheClassShouldNotBeRepeatedInItsTraits	"If a class is using a trait with an explicit requirement method, this class should implement the method"	| result |	result := RBLocalMethodsOfAClassNotInItsTraitComposition new run.	self assert: result isEmpty.
