@@ -1,1 +1,1 @@
-childrenItems	^ self parentNode item methodsInCategory: self item
+childrenItems	^ self parentNode item selectorsInProtocol: self item

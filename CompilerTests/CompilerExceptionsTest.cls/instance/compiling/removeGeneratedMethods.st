@@ -1,1 +1,1 @@
-removeGeneratedMethods	self class removeCategory: 'generated'
+removeGeneratedMethods	self class removeProtocol: 'generated'

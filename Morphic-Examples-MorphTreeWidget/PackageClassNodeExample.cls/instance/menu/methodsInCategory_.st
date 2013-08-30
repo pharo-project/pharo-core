@@ -1,1 +1,1 @@
-methodsInCategory: aCat	^ self item  methodsInCategory: aCat
+methodsInCategory: aCat	^ self item  selectorsInProtocol: aCat
