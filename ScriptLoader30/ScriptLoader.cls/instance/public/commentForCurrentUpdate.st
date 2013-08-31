@@ -1,1 +1,1 @@
-commentForCurrentUpdate ^ '11512 CI: Release tests are being run multiple times	https://pharo.fogbugz.com/f/cases/11512	11500 Wrong use of #defer: causes growing stack in CommandLineHandler	https://pharo.fogbugz.com/f/cases/11500	11499 CMD-Click is very slow in Nautilus	https://pharo.fogbugz.com/f/cases/11499/'
+commentForCurrentUpdate ^ '11510 Endless loop trying to get a menu on AbstractNautilusUI	https://pharo.fogbugz.com/f/cases/11510	11518 Failing test: .testLocalMethodsOfTheClassShouldNotBeRepeatedInItsTraits	https://pharo.fogbugz.com/f/cases/11518	'
