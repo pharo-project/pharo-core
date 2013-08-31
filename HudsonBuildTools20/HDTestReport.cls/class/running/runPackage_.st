@@ -1,1 +1,1 @@
-runPackage: aString	^ self runClasses: (RPackage organizer packageNamed: aString) classes named: aString
+runPackage: aString	^ self runClasses: (RPackage organizer packageNamed: aString) definedClasses named: aString
