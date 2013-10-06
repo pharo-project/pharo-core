@@ -4,5 +4,5 @@ printOn: aStream
 		nextPutAll: ' classComment: ';
 		print: (self comment copyReplaceAll: '!' with: '!!');
 		nextPutAll: ' stamp: ';
-		print: (RBPlatform current changeStamp);
+		print: (self changeStamp);
 		nextPutAll: '!'

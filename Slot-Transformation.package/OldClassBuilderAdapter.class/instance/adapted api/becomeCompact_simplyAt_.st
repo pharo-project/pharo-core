@@ -6,8 +6,8 @@ becomeCompact: aClass simplyAt: index
 		ifTrue: [^ self error: 'You must not make a weak class compact'].
 	compactClassesArray := Smalltalk compactClassesArray.
 	(aClass isCompact or: [compactClassesArray includes: aClass])
-		ifTrue: [^ self halt: aClass name, 'is already compact'].		
-	(compactClassesArray at: index) ifNotNil: [^ self halt: 'compact table slot already in use'].
+		ifTrue: [^ self error: aClass name, 'is already compact'].		
+	(compactClassesArray at: index) ifNotNil: [^ self error: 'compact table slot already in use'].
 	"Install this class in the compact class table"
 	compactClassesArray at: index put: aClass.
 

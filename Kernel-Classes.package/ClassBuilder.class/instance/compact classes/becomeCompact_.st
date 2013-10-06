@@ -11,9 +11,9 @@ becomeCompact: aClass
 	aClass isWeak ifTrue: [^ self error: 'You must not make a weak class compact'].
 	compactClassesArray := Smalltalk compactClassesArray.
 	(aClass isCompact or: [compactClassesArray includes: aClass])
-		ifTrue: [^ self halt: aClass name , 'is already compact'].
+		ifTrue: [^ self error: aClass name , 'is already compact'].
 	index := compactClassesArray indexOf: nil
-		ifAbsent: [^ self halt: 'compact class table is full'].
+		ifAbsent: [^ self error: 'compact class table is full'].
 	"Install this class in the compact class table"
 	compactClassesArray at: index put: aClass.
 	"Update instspec so future instances will be compact"

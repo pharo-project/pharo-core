@@ -5,7 +5,7 @@ hasReportableSlip
 	best efforts here, make certain that the Preference 'checkForSlips' is set 
 	to true."
 
-	#(#doOnlyOnce: #halt #halt: #hottest #printDirectlyToDisplay #toRemove #urgent #haltOnce #haltOnce: #haltIf:)
+	#(#doOnlyOnce: #halt #halt: #printDirectlyToDisplay #toRemove #urgent #haltOnce #haltOnce: #haltIf:)
 		do: [ :aLit | 
 			(self hasLiteral: aLit)
 				ifTrue: [ ^ true ] ].

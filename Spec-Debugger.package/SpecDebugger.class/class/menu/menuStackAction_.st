@@ -17,7 +17,7 @@ menuStackAction: aBuilder
 	(aBuilder item: #'Step Into (e)')
 		"keyText: 'e';"
 		selector: #stepIntoAction.
-	(aBuilder item: #'Where (w)')
+	(aBuilder item: #'Where')
 		"keyText: 'w';"
 		selector: #whereIsAction.
 	(aBuilder item: #'Peel to first like this')

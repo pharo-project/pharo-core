@@ -1,5 +1,5 @@
 RBTransformationRule subclass: #RBCodeCruftLeftInMethodsRule
-	instanceVariableNames: ''
+	instanceVariableNames: 'cruftPatterns'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Refactoring-Critics-TransformationRules'

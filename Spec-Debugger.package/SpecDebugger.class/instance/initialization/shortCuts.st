@@ -10,7 +10,7 @@ shortCuts
 	shortCuts at: $t command put: [self toolbar stepOverAction].
 	shortCuts at: $t command shift put: [self toolbar stepThroughAction].
 	shortCuts at: $e command put: [self toolbar stepIntoAction].
-	shortCuts at: $w command put: [self toolbar whereIsAction].
+	"shortCuts at: $w command put: [self toolbar whereIsAction]."
 	
 	shortCuts at: $n command put: [self toolbar browseSendersOfMessages].
 	shortCuts at: $m command put: [self toolbar browseMessages].

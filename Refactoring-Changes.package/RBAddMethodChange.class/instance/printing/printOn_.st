@@ -5,7 +5,7 @@ printOn: aStream
 		nextPutAll: ' methodsFor: ''';
 		nextPutAll: self protocol;
 		nextPutAll: ''' stamp: ';
-		print: RBPlatform current changeStamp;
+		print: self changeStamp;
 		nextPut: $!;
 		cr;
 		nextPutAll: (source copyReplaceAll: '!' with: '!!');

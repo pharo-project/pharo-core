@@ -1,6 +1,6 @@
 primitiveExecute
 	self changeClass 
 		classComment: comment
-		stamp: RBPlatform current changeStamp.
+		stamp: self changeStamp.
 	SystemAnnouncer uniqueInstance 
 		classCommented: self changeClass
