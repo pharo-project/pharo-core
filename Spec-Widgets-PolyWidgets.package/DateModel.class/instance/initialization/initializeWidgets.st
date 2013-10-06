@@ -1,6 +1,5 @@
 initializeWidgets
 
-	| typeItems |
 	self instantiateModels: #(
 		dateLabel LabelModel
 		dateModel TextInputFieldModel
@@ -9,8 +8,8 @@ initializeWidgets
 	dateLabel
 		text: 'Date'.
 		
+	self date: Date today.
 	dateModel
-		text: Date today asString;
 		isCodeCompletionAllowed: false.
 	
 	chooseDateButton

@@ -7,4 +7,5 @@ isInlined
 	self isInlineToDo  ifTrue: [^true].
 	self isInlineTimesRepeat  ifTrue: [^true].
 	self isInlineCase  ifTrue: [^true].
+	self isInlineTimesRepeat ifTrue: [ ^true].
 	^false.

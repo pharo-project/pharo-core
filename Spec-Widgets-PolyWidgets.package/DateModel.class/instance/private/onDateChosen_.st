@@ -1,4 +1,4 @@
 onDateChosen: aChoseDate
 
 	aChoseDate calendar delete.
-	dateModel text: aChoseDate date asString.
+	self date: aChoseDate date.

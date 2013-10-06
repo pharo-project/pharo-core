@@ -1,3 +1,5 @@
 date: aDate
 
-	^ self dateModel text: aDate asString.
+	| string |
+	string := displayBlockHolder contents value: aDate.
+	^ self dateModel text: string.
