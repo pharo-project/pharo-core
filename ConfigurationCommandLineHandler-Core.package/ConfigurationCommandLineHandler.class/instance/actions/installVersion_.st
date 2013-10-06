@@ -6,7 +6,7 @@ installVersion: aVersionName
 	
 	self handleMergeConflictDuring: [
 		(self hasOption: 'group')
-			ifTrue: [ metacelloVersion load: (self optionAt: 'group') ]
+			ifTrue: [ metacelloVersion load: self groups ]
 			ifFalse: [ metacelloVersion load ]].
 	
 	Smalltalk snapshot: true andQuit: true.
