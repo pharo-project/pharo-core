@@ -8,6 +8,6 @@ returnStruct1Byte
 			asm mov: 42 to: asm EAX]
 			ifFalse:[
 				asm mov: asm ESP ptr to: asm EAX;
-				mov: 42 to: asm EAX ptr]
+				mov: 42 to: asm EAX ptr32]
 		]
 	
