@@ -1,0 +1,2 @@
+useTreeInspector
+	self inspectorType: EyeTreeInspector

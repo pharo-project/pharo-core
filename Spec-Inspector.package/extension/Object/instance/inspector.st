@@ -1,2 +1,2 @@
 inspector
-	^ Smalltalk tools inspector: self
+	^ Smalltalk tools inspector inspector: self

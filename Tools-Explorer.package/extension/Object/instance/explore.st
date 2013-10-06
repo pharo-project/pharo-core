@@ -1,2 +1,2 @@
 explore
-	^Smalltalk tools objectExplorer openOn: self
+	^Smalltalk tools inspector explore: self

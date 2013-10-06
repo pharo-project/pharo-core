@@ -1,2 +1,2 @@
 inspectInMorphic: evt
-	Smalltalk tools inspect: self
+	Smalltalk tools inspector inspect: self
