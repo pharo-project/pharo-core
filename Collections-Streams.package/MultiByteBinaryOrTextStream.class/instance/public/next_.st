@@ -1,7 +1,6 @@
 next: anInteger 
 
 	| multiString |
-	"self halt."
 	self isBinary ifTrue: [^ (super next: anInteger) asByteArray].
 	multiString := WideString new: anInteger.
 	1 to: anInteger do: [:index |

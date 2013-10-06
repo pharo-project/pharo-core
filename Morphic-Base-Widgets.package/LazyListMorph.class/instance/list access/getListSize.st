@@ -1,4 +1,7 @@
 getListSize
 	"return the number of items in the list"
-	listSource ifNil: [ ^0 ].
-	^listSource getListSize
+	^listSource 
+		ifNil: [ 0 ]
+		ifNotNil: [ :source | source getListSize]
+		
+	

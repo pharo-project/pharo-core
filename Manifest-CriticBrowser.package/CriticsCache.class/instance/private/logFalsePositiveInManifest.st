@@ -2,9 +2,6 @@ logFalsePositiveInManifest
 	| removeFp addFp |
 	falsePositives
 		keysAndValuesDo: [ :rule :criticss | 
-			| rld rV |
-			rld := rule class uniqueIdentifierName.
-			rV := rule class identifierMinorVersionNumber.
 			removeFp := (checker falsePositiveOf: rule) \ criticss.
 			addFp := criticss \ (checker falsePositiveOf: rule).
 			(removeFp groupedBy: [ :each | self builderManifestClass of: each ])

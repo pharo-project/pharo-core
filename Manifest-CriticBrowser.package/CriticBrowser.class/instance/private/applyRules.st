@@ -20,8 +20,8 @@ applyRules
 					<< nbPackage asString
 					<< ')' ].				
 			self setTitle: windowTitle.
-			package packageSet packages do: [ :RPa |
-				checker runRules: rules onPackage: RPa withoutTestCase: removeTestCase] ].
+			package packageSet packages do: [ :rpackage |
+				checker runRules: rules onPackage: rpackage withoutTestCase: removeTestCase] ].
 		checker rule: rules.
 		self setTitle: 'Critics Browser'.
 		cache packages: rbEnvironment.

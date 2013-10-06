@@ -1,8 +1,7 @@
 highlightColor
 	
-	| val |
-	^ (val := self valueOfProperty: #highlightColor)
+	^ (self valueOfProperty: #highlightColor)
 		ifNotNil:
-			[val ifNil: [self error: 'nil highlightColor']]
+			[:val | val ifNil: [self error: 'nil highlightColor']]
 		ifNil:
 			[owner ifNil: [self color] ifNotNil: [owner highlightColor]]

@@ -18,9 +18,9 @@ characterBlockAtPoint: aPoint index: index in: textLine
 	destX := leftMargin := line leftMarginForAlignment: alignment.
 	destY := line top.
 	runLength := text runLengthFor: line first.
-	characterIndex
-		ifNotNil:	[lineStop := characterIndex  "scanning for index"]
-		ifNil:	[lineStop := line last  "scanning for point"].
+	lineStop := characterIndex
+		ifNotNil:	[characterIndex  "scanning for index"]
+		ifNil:	[line last  "scanning for point"].
 	runStopIndex := lastIndex + (runLength - 1) min: lineStop.
 	lastCharacterExtent := 0 @ line lineHeight.
 	spaceCount := 0.

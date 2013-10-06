@@ -2,9 +2,6 @@ logToDosInManifest
 	| removeFp addFp |
 	toDos
 		keysAndValuesDo: [ :rule :criticss | 
-			| rId rV |
-			rId := rule class uniqueIdentifierName.
-			rV := rule class identifierMinorVersionNumber.
 			removeFp := (checker toDoOf: rule) \ criticss.
 			addFp := criticss \ (checker toDoOf: rule).
 			(removeFp groupedBy: [ :each | self builderManifestClass of: each ])

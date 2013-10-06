@@ -4,8 +4,8 @@ reapplyRule: aRule
 	oldCritics := aRule critics.
 	aRule resetResult.
 	rbEnvironment packages do: [ :package |
-		package packageSet packages do: [ :RPa |
-				checker runRules: aRule onPackage: RPa withoutTestCase: removeTestCase]]. 	
+		package packageSet packages do: [ :rpackage |
+				checker runRules: aRule onPackage: rpackage withoutTestCase: removeTestCase]]. 	
 	(oldCritics \ (aRule critics)) do: [ :each |
 		cache removeCritic: each forRule: aRule.
 		cache removeFalsePositive: each forRule: aRule.

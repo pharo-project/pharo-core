@@ -11,7 +11,8 @@ nextAction
 	rules := rules reject: [ :each | each rules isEmpty ].
 	rbRule := RBCompositeLintRule new
 				name: self defaultRulesRootName;
-				rules: rules.
+				rules: rules;
+				yourself.
 	
 	CriticWorkingConfiguration current
 		rule: rbRule;

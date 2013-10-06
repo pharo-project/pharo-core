@@ -5,13 +5,12 @@ doLayoutIn: layoutBounds
 	figure out if we need an invalidation afterwards but #outerBounds
 	is what we need for all leaf nodes so we use that."
 
-	| layout box priorBounds |
+	| box priorBounds |
 	priorBounds := self outerBounds.
 	submorphs isEmpty ifTrue: [^fullBounds := priorBounds].
 	"Send #ownerChanged to our children"
 	submorphs do: [:m | m ownerChanged].
-	layout := self layoutPolicy.
-	layout ifNotNil: [layout layout: self in: layoutBounds].
+	self layoutPolicy ifNotNil: [:layout | layout layout: self in: layoutBounds].
 	self adjustLayoutBounds.
 	fullBounds := self privateFullBounds.
 	box := self outerBounds.

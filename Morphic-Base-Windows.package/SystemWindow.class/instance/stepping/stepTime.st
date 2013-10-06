@@ -1,6 +1,4 @@
 stepTime
 	^ model
-		ifNotNil:
-			[model stepTimeIn: self]
-		ifNil:
-			[200] "milliseconds"
+		ifNotNil: [model stepTimeIn: self]
+		ifNil: [200] "milliseconds"
