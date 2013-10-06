@@ -1,0 +1,3 @@
+receiver
+
+	^ self preDebugWindow

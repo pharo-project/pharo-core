@@ -1,0 +1,2 @@
+asFilter
+ 	^ BlockFilter forBlock: self. 

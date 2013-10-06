@@ -1,0 +1,4 @@
+interruptedContext
+	
+	^ self debugger interruptedContext
+	

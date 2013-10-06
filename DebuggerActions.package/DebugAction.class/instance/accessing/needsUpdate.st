@@ -1,0 +1,3 @@
+needsUpdate
+
+	^ needsUpdate ifNil: [ true ]

@@ -1,5 +1,4 @@
 updateInspectorsFromContext: aContext
-
 	| receiver |
 	
 	contextInspector inspect: aContext.

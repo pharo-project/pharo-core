@@ -1,3 +1,3 @@
 columnsFor: anEntry
 	
-	^ self class debuggerClass columnsFor: anEntry
+	^ self debugger stack columnsFor: anEntry

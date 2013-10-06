@@ -3,14 +3,19 @@ createMethodInContext: aContext
 	MessageNotUnderstood exception. Create a stub for the method that was
 	missing and proceed into it."
 	
-	| msg chosenClass |
+	| msg msgCategory chosenClass |
 
 	"Added due to error 3011 - Hernan"
 	aContext = self interruptedContext ifFalse: [ ^ UIManager default inform: 'Please select the #doesNotUnderstand: context'].
-	
+
 	msg := self interruptedContext tempAt: 1.
 	chosenClass := self
 		askForSuperclassOf: self interruptedContext receiver class
 		toImplement: msg selector
 		ifCancel: [^self].
-	self implement: msg inClass: chosenClass.
+	msgCategory := (self askForCategoryIn: chosenClass default: 'as yet unclassified').
+	self  
+		implement: msg 
+		classified: msgCategory 
+		inClass: chosenClass 
+		forContext: self interruptedContext

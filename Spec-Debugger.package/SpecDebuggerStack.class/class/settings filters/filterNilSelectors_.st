@@ -1,0 +1,2 @@
+filterNilSelectors: aBoolean
+	NilSelectorsFilterEnabled := aBoolean

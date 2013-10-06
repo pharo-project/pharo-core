@@ -1,0 +1,3 @@
+needsSeparatorAfter: aBoolean
+
+	needsSeparatorAfter := aBoolean

@@ -1,1 +1,0 @@
-I maintain a list of buttons for the most important debugging actions. The execution of all actions is delegated to the session.When I'm created I do not have any buttons. To update the buttons users should send me the message 'update'. The session can be set before or after opening the toolbar.

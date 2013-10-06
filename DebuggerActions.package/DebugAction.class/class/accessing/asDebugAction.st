@@ -1,0 +1,3 @@
+asDebugAction
+
+	^ self new

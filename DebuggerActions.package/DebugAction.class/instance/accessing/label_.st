@@ -1,0 +1,3 @@
+label: aString
+
+	label := aString

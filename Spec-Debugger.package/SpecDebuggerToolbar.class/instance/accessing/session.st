@@ -1,3 +1,0 @@
-session
-	
-	^ session contents 

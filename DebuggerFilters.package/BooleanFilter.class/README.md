@@ -1,0 +1,1 @@
+A BooleanFilter is xxxxxxxxx.Instance Variables	booleanOperator:		<Object>	filters:		<Object>booleanOperator	- xxxxxfilters	- xxxxx

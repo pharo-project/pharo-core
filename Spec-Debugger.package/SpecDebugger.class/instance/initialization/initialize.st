@@ -1,7 +1,7 @@
 initialize
 
-	session := nil asValueHolder.
-	label := nil asValueHolder.
+	sessionHolder := nil asValueHolder.
+	labelHolder := nil asValueHolder.
 	super initialize.
 	
 	needRefresh := false.
@@ -12,13 +12,13 @@ initialize
 		to: self.
 		
 	self whenWindowChanged: [ :w | 
-		w whenClosedDo: [ self close ] ].
+		w whenClosedDo: [ self clear ] ].
 	
-	session whenChangedDo: [:newSession :oldSession |
+	sessionHolder whenChangedDo: [:newSession :oldSession |
 		self removeActionsForSession: oldSession.
 		self registerActionsForSession: newSession.
 		self updateToolbarFromSession: newSession.
 		self updateStackFromSession: newSession ].
 	
-	label whenChangedDo: [ 
+	labelHolder whenChangedDo: [ 
 		self updateTitle ]

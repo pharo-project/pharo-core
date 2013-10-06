@@ -1,0 +1,3 @@
+needsValidation: anObject
+
+	needsValidation := anObject

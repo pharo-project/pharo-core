@@ -1,0 +1,2 @@
+shouldDisplay: aContext
+	^self subclassResponsibility 

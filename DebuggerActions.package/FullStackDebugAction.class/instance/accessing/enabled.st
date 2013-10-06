@@ -1,0 +1,3 @@
+enabled
+
+	^ self shouldEnableFullStackButton

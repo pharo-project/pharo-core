@@ -1,3 +1,3 @@
 session: aSession
 
-	session contents: aSession 
+	sessionHolder contents: aSession 

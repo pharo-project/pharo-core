@@ -44,12 +44,9 @@ debugSettingsOn: aBuilder
 				label: 'Directly open the full Debugger' translated;
 				target: Smalltalk tools debugger;
 				description: 'When true, always directly open the full Debugger view when debugging instead of showing only a small popup' translated.
-				
-			(aBuilder setting: #filterCommonMessageSends)
-				label: 'Filter out common message sends' translated;
-				target: Smalltalk tools debugger;
-				description: 'When true, filter out uninteresting message sends in the Debugger view while debugging' translated.
-				
+			
+			self addDebugFilterSessingsOn: aBuilder.
+			
 			(aBuilder setting: #ObjectExplorerShowIcons)
 				label: 'Icons in explorer' translated;
 				selector: #showIcons;

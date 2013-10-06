@@ -1,0 +1,1 @@
+A StackFilter is xxxxxxxxx.Instance Variables	stack:		<Object>stack	- xxxxx

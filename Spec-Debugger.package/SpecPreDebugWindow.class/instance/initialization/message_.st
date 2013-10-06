@@ -1,3 +1,0 @@
-message: messageString
-
-	message := messageString

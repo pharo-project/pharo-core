@@ -1,0 +1,3 @@
+debugger: anObject
+
+	debugger := anObject

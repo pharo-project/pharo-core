@@ -1,0 +1,3 @@
+needsUpdate: aBoolean
+
+	needsUpdate := aBoolean

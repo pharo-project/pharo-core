@@ -1,0 +1,3 @@
+kernelClassesFilter
+	^ KernelClassesFilter new.
+	

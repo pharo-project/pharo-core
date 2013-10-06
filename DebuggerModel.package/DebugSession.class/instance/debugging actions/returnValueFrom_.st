@@ -3,6 +3,7 @@ returnValueFrom: aContext
 
 	| previous expression value |
 	self flag: 'should be called only on the selected context'.	
+	self flag: 'remove me'.
 	(self isContextPostMortem: aContext) ifTrue: [^ self].
 	
 	expression := UIManager default request: 'Enter expression for return value:'.

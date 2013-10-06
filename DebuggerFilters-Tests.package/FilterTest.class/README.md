@@ -1,0 +1,1 @@
+A FilterTest is xxxxxxxxx.Instance Variables	context:		<Object>	nilContext:		<Object>	otherProcess:		<Object>	otherSession:		<Object>	process:		<Object>	session:		<Object>context	- xxxxxnilContext	- xxxxxotherProcess	- xxxxxotherSession	- xxxxxprocess	- xxxxxsession	- xxxxx

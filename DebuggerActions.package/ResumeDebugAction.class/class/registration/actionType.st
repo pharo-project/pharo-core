@@ -1,0 +1,3 @@
+actionType
+	<debuggingAction>
+	<contextMenuDebuggingAction>

@@ -1,0 +1,3 @@
+defaultIcon
+
+	^ self class defaultIcon

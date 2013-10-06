@@ -1,3 +1,0 @@
-selectedContext
-	
-	^ selectedContext contents 

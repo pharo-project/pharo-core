@@ -1,0 +1,3 @@
+preDebugWindow: anObject
+	
+	preDebugWindow := anObject

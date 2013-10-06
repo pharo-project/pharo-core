@@ -1,0 +1,3 @@
+for: aBlock
+
+	blockCondition := aBlock

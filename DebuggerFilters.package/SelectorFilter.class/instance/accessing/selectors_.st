@@ -1,0 +1,2 @@
+selectors: someSelectors
+	selectors := someSelectors

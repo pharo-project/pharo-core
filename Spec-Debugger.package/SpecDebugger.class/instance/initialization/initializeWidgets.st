@@ -1,19 +1,16 @@
 initializeWidgets
 	self
 		instantiateModels:
-			{(#stack -> #MultiColumnListModel).
-			(#toolbar -> #SpecDebuggerToolbar).
+			{(#stack -> #SpecDebuggerStack).
+			(#toolbar -> #SpecDebuggerDynamicToolbar).
 			(#code -> #TextModel).
 			(#receiverInspector -> #InspectorNavigator).
 			(#contextInspector -> #EyeDebuggerContextInspector)}.
 	
-	self stack displayBlock: [ :aContext | self columnsFor: aContext ].
 	self code acceptBlock: [ :text :notifyer |
 		self 
 			recompileMethodTo: text string 
 			inContext: self stack selectedItem
 			notifying: notifyer ].
-		
-	self setStackMenu.
-	self setStackShortcuts.
+
 	self setFocusOrder

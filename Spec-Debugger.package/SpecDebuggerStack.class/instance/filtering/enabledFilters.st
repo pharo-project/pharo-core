@@ -1,0 +1,3 @@
+enabledFilters
+
+	^ self class enabledFilters
