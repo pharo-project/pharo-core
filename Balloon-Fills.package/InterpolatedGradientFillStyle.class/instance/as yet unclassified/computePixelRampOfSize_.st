@@ -5,7 +5,7 @@ computePixelRampOfSize: length
 	ramp := colorRamp asSortedCollection:[:a1 :a2| a1 key < a2 key].
 	bits := Bitmap new: length.
 	lastColor := ramp first value.
-	lastWord := lastColor pixelWord32.
+	lastWord := self pixelWord32Of: lastColor .
 	lastIndex := 0.
 	ramp do:[:assoc| | distance nextColor theta nextWord nextIndex step |
 		nextIndex := (assoc key * length) rounded.

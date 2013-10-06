@@ -150,7 +150,7 @@ next:put: nextPut: nextPutAll: "printing" print:
 "groups of shades" darkShades: lightShades: mix:shades: wheel:
 "printing" shortPrintString
 "other" colorForInsets rgbTriplet
-"conversions" asB3DColor asColor balancedPatternForDepth: bitPatternForDepth: closestPixelValue1 closestPixelValue2 closestPixelValue4 closestPixelValue8 dominantColor halfTonePattern1 halfTonePattern2 indexInMap: pixelValueForDepth: pixelWordFor:filledWith: pixelWordForDepth: scaledPixelValue32
+"conversions" asB3DColor asColor  bitPatternForDepth: closestPixelValue1 closestPixelValue2 closestPixelValue4 closestPixelValue8 dominantColor halfTonePattern1 halfTonePattern2 indexInMap: pixelValueForDepth: pixelWordFor:filledWith: pixelWordForDepth: scaledPixelValue32
 "private" privateAlpha privateBlue privateGreen privateRGB privateRed "copying"
 	) do: [:sel | Approved add: sel].
 
