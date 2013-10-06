@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '7131 Do we need the code for retractable scrollbars?
-	https://pharo.fogbugz.com/f/cases/7131
+ ^ '11745 Remove unused iVar retractableScrollBar in ScrollPane
+	https://pharo.fogbugz.com/f/cases/11745
 	
-11753 Remove [aBlock value]
-	https://pharo.fogbugz.com/f/cases/11753
-	
-11752 Small keys do: -> keysDo: replacement (and some critic cleanups)
-	https://pharo.fogbugz.com/f/cases/11752'
+11470 remove old ClassOrganizer
+	https://pharo.fogbugz.com/f/cases/11470'

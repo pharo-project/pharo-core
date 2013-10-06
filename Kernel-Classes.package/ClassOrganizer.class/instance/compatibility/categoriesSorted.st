@@ -1,3 +1,0 @@
-categoriesSorted
-
-	^ self categories

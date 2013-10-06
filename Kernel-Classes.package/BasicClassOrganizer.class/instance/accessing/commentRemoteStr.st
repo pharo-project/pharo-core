@@ -1,2 +1,0 @@
-commentRemoteStr
-	^ classComment

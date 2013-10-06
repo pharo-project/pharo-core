@@ -1,2 +1,0 @@
-ambiguous
-	^ #ambiguous

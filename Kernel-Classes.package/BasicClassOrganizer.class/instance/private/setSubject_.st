@@ -1,2 +1,0 @@
-setSubject: aClassDescription
-	subject := aClassDescription
