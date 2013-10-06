@@ -1,1 +1,0 @@
-An AddClassDescription is xxxxxxxxx.Instance Variables	category:		<Object>	name:		<Object>category	- xxxxxname	- xxxxx

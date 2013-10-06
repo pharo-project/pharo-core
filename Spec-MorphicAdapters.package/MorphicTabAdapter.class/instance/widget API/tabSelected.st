@@ -1,0 +1,3 @@
+tabSelected
+
+	^ self model tabSelected

@@ -1,2 +1,0 @@
-superclass: anObject
-	superclass := anObject

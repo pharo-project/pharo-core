@@ -1,0 +1,3 @@
+selectedIndex
+
+	^ self model selectedIndex

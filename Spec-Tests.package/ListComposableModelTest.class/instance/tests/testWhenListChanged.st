@@ -4,7 +4,7 @@ testWhenListChanged
 	50
 		timesRepeat: [ 
 			| list ok |
-			list := ListComposableModel new.
+			list := ListModel new.
 			list items: #(1 2).
 			list whenListChanged: [ :aList | ok := aList = list listItems ].
 			list listItems.	"Call listItems to set the cache"

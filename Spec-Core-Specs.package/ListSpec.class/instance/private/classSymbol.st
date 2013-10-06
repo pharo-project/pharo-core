@@ -1,3 +1,0 @@
-classSymbol
-
-	^ #List

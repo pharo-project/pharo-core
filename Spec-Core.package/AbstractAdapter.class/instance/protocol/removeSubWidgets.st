@@ -1,0 +1,3 @@
+removeSubWidgets
+
+	self subclassResponsibility

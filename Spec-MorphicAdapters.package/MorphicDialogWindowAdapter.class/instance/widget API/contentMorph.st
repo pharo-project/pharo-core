@@ -1,0 +1,3 @@
+contentMorph
+
+	^ self model contents

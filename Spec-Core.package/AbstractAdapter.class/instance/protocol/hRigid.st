@@ -1,0 +1,3 @@
+hRigid
+
+	self subclassResponsibility

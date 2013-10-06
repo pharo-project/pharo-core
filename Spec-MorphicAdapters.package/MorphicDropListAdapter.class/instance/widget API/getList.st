@@ -1,0 +1,3 @@
+getList
+
+	^ self model getList

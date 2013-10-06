@@ -1,0 +1,3 @@
+initialExtent
+
+	^ self model initialExtent

@@ -1,7 +1,7 @@
 internSpec
 	<spec>
 	
-	^{#ComposableSpec .
+	^{#ContainerModel .
 			#add: . {{#model . #groupLabel } . #layout: .  #(FrameLayout
 																rightFraction: 0
 																bottomFraction: 0

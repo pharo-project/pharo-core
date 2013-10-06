@@ -1,2 +1,0 @@
-fractionField
-	^ fractionField

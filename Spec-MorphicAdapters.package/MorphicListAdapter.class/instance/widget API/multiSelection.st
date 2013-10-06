@@ -1,0 +1,3 @@
+multiSelection
+
+	^ self model multiSelection

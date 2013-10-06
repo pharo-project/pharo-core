@@ -1,3 +1,0 @@
-possibleEvents
-
-	^ #(whenTextChanged:)

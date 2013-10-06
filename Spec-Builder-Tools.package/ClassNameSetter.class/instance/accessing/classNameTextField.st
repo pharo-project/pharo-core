@@ -1,3 +1,0 @@
-classNameTextField
-	
-	^ classNameTextField

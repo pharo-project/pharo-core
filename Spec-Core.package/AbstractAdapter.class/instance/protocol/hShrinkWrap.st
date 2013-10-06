@@ -1,0 +1,3 @@
+hShrinkWrap
+
+	self subclassResponsibility

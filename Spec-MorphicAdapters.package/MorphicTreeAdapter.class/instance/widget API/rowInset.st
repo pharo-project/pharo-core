@@ -1,0 +1,3 @@
+rowInset
+
+	^ self model rowInset

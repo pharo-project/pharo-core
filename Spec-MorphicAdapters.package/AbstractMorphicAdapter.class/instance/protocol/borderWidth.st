@@ -1,0 +1,3 @@
+borderWidth
+
+	^ self model borderWidth

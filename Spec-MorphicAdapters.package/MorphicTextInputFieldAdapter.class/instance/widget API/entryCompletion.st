@@ -1,0 +1,3 @@
+entryCompletion
+
+	^ self model entryCompletion

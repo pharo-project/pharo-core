@@ -1,0 +1,3 @@
+bindings
+
+	^ self class bindings

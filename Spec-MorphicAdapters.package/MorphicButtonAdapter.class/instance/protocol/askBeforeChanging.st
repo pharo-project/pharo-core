@@ -1,0 +1,3 @@
+askBeforeChanging
+
+	^ self model askBeforeChanging

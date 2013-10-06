@@ -1,2 +1,0 @@
-instVars
-	^ instVars

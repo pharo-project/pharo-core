@@ -1,2 +1,2 @@
 newList
-	^ self instantiate: ListComposableModel
+	^ self instantiate: ListModel

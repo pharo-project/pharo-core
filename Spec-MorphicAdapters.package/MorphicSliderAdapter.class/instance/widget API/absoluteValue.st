@@ -1,0 +1,3 @@
+absoluteValue
+
+	^ self model absoluteValue

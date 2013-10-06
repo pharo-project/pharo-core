@@ -1,0 +1,3 @@
+bottomOffset: anObject
+	
+	bottomOffset := anObject

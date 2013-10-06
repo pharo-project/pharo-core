@@ -1,0 +1,3 @@
+contents
+
+	^ self model contents

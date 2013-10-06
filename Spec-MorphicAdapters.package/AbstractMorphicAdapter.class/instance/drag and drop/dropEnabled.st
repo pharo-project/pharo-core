@@ -1,0 +1,3 @@
+dropEnabled
+
+	^ self model dropEnabled

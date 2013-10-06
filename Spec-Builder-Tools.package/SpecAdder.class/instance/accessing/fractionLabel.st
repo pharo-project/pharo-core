@@ -1,2 +1,0 @@
-fractionLabel
-	^ fractionLabel

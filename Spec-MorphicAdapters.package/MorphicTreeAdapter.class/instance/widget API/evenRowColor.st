@@ -1,0 +1,3 @@
+evenRowColor
+
+	^ self model evenRowColor

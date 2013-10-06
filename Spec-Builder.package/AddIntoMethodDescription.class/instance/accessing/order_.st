@@ -1,2 +1,0 @@
-order: anObject
-	order := anObject

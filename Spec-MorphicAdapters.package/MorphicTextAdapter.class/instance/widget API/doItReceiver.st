@@ -1,0 +1,3 @@
+doItReceiver
+
+	^ self model doItReceiver

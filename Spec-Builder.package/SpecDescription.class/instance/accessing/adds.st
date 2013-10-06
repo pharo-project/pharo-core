@@ -1,3 +1,0 @@
-adds
-
-	^ adds contents

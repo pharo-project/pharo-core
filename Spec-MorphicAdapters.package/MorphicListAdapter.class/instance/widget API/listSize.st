@@ -1,0 +1,3 @@
+listSize
+
+	^ self model listSize

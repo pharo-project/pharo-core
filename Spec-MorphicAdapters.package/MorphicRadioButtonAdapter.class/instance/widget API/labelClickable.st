@@ -1,0 +1,3 @@
+labelClickable
+
+	^ self model labelClickable

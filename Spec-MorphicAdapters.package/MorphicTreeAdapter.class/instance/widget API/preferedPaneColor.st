@@ -1,0 +1,3 @@
+preferedPaneColor
+
+	^ self model preferedPaneColor

@@ -1,0 +1,3 @@
+readSelection
+
+	^ self model readSelection

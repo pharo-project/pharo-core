@@ -1,0 +1,3 @@
+closeable
+
+	^ self model closeable

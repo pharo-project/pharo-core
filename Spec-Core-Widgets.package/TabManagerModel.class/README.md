@@ -1,0 +1,1 @@
+I am a spec model representing a tab manager. My role is to gather multiple tabs, and make them work together

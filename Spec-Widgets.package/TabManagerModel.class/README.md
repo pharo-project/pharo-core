@@ -1,1 +1,0 @@
-A TabManagerModel is xxxxxxxxx.Instance Variables	tabSelectedAction:		<Object>	tabs:		<Object>tabSelectedAction	- xxxxxtabs	- xxxxx

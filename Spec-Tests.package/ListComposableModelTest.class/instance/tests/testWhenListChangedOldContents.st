@@ -2,7 +2,7 @@ testWhenListChangedOldContents
 	"access to old and new contents in whenListChanged."
 
 	| list oldL newL ok |
-	list := ListComposableModel new.
+	list := ListModel new.
 	oldL := #(1 2).
 	newL := #(1 2 3).
 	list items: oldL.

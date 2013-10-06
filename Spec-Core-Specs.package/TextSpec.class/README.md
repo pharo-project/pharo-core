@@ -1,1 +1,0 @@
-A TextSpec is a spec used to describe a text area

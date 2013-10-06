@@ -1,3 +1,0 @@
-generateSpec
-
-	^ self subclassResponsibility

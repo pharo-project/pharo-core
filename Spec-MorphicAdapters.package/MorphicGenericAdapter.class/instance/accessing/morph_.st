@@ -1,0 +1,3 @@
+morph: anObject
+
+	widget := anObject

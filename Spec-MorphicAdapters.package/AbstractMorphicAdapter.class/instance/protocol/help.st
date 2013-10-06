@@ -1,0 +1,3 @@
+help
+
+	^ self model help

@@ -1,0 +1,3 @@
+contents
+
+	^ morph contents

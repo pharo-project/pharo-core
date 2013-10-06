@@ -12,9 +12,11 @@ editPassword
 			editor := KeychainEditor new
 						keychainEditingWrapper: wrapper;
 						yourself.
-			self window ifNotNil: [: w | w openModal: editor openDialogWithSpec window ].
-			editor cancelled ifTrue: [ ^ self ].
-			it key: wrapper group.
-			it value: wrapper usernamePassword.
-			keychain contentsChanged.
-			list setSelectedItem: it ]
+			self window ifNotNil: [: w | w openModal: (editor openDialogWithSpec window
+				okAction: [
+					it key: wrapper group.
+					it value: wrapper usernamePassword.
+					keychain contentsChanged.
+					list setSelectedItem: it];
+				yourself) ].
+			 ]

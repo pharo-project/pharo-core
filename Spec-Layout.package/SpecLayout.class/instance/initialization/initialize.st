@@ -1,5 +1,5 @@
 initialize 
 	super initialize.
 	
-	type := #ComposableSpec.
+	type := #ContainerModel.
 	self commands: OrderedCollection new.

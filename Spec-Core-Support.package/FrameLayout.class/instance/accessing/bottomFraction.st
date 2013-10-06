@@ -1,0 +1,3 @@
+bottomFraction
+	
+	^ bottomFraction

@@ -1,3 +1,0 @@
-setExtra: source
-
-	extra := source

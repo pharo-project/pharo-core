@@ -3,7 +3,7 @@ internSpec
 	| imageHeight |
 	imageHeight := 140.
 	
-	^{#ComposableSpec.
+	^{#ContainerModel.
 			#add:. {	{#model. #avatar}.
 							#layout:.{#FrameLayout.
 											#leftFraction:. 0.5 .

@@ -4,7 +4,6 @@ initialize
 	model := AbstractTool new.
 	maxClassSize = nil.
 	searchedStringHolder := '' asValueHolder.
-	titleHolder := super title asValueHolder.
 	topologicSortHolder := true asValueHolder.
 
 	super initialize.

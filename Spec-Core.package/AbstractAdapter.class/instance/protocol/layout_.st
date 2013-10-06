@@ -1,0 +1,3 @@
+layout: aLayout
+
+	self subclassResponsibility

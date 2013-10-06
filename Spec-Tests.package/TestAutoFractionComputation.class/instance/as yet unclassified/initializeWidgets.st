@@ -2,5 +2,5 @@ initializeWidgets
 
 	self instantiateModels: #(
 		button ButtonModel
-		list ListComposableModel 
+		list #ListModel 
 		text TextModel ).

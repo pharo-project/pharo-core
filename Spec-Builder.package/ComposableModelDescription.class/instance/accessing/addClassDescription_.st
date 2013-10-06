@@ -1,3 +1,0 @@
-addClassDescription: aDescription
-
-	addClassDescription := aDescription

@@ -1,1 +1,0 @@
-A DropListSpec is a spec to describe a drop list

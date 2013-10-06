@@ -1,2 +1,0 @@
-newDialog
-	^ self instantiate: DialogWindowModel

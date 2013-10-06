@@ -1,3 +1,0 @@
-initializeInstance
-
-	^ self defaultReceiver new

@@ -1,3 +1,0 @@
-selector: aSelector
-
-	selector := aSelector

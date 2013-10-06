@@ -3,7 +3,8 @@ buildWithSpecLayout: aSpecLayout
 	| widget |
 	
 	widget := SpecInterpreter interpretASpec: aSpecLayout model: self.
-		
+	widget := widget asWidget.
+	
 	self ensureExtentFor: widget.
 	self ensureKeyBindingsFor: widget.
 	

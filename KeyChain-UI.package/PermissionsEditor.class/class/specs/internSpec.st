@@ -1,7 +1,7 @@
 internSpec
 <spec>
 
-	^{#ComposableSpec.
+	^{#ContainerModel.
 			#add:. {{#model. #isRoot }.
 						#layout:. #(FrameLayout
 										bottomFraction: 0

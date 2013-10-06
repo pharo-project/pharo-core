@@ -1,0 +1,3 @@
+dragEnabled
+
+	^ self model dragEnabled

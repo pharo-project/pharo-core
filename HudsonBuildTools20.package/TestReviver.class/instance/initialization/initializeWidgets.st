@@ -2,7 +2,7 @@ initializeWidgets
 
 	| serializedErrors |
 	self instantiateModels: #(
-		errorListModel ListComposableModel
+		errorListModel #ListModel
 		debugButton ButtonModel
 		browseButton ButtonModel
 		vmVersionLabel LabelModel

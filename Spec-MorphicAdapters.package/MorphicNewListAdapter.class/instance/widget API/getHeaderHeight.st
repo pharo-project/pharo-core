@@ -1,0 +1,3 @@
+getHeaderHeight
+
+	^ self model getHeaderHeight

@@ -1,5 +1,5 @@
 Object subclass: #SpecInterpreter
-	instanceVariableNames: 'model spec superSpec bindings arrayToInterpret specForChildren index'
+	instanceVariableNames: 'model spec arrayToInterpret index'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-Core'

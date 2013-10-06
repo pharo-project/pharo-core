@@ -1,0 +1,2 @@
+newTab
+	^ self instantiate: TabModel

@@ -1,3 +1,3 @@
-bindings: aBinding
+bindings: anAdapterBinding
 
-	self bindings bindings: aBinding
+	bindings := anAdapterBinding

@@ -1,3 +1,0 @@
-categoryLabel
-	
-	^ categoryLabel

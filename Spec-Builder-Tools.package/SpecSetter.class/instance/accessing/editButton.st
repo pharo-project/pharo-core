@@ -1,2 +1,0 @@
-editButton
-	^ editButton

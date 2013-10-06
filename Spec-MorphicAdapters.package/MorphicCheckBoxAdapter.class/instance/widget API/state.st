@@ -1,0 +1,3 @@
+state
+	
+	^ self model state

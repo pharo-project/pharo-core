@@ -1,3 +1,0 @@
-specDescription
-
-	^ specDescription

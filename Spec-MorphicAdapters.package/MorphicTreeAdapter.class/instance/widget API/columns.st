@@ -1,0 +1,3 @@
+columns
+
+	^ self model columns

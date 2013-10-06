@@ -1,0 +1,3 @@
+unselectOnChange
+
+	^ self model unselectOnChange

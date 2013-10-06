@@ -1,0 +1,3 @@
+isRedrawable
+	
+	^ self instance isRedrawable

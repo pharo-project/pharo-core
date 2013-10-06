@@ -1,1 +1,0 @@
-A SpecDescription is xxxxxxxxx.Instance Variables	adds:		<Object>	extra:		<Object>	selector:		<Object>adds	- xxxxxextra	- xxxxxselector	- xxxxx

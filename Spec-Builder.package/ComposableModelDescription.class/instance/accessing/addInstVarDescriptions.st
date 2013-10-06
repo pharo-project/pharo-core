@@ -1,2 +1,0 @@
-addInstVarDescriptions
-	^ addInstVarDescriptions

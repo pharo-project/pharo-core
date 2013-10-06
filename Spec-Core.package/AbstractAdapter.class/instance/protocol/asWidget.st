@@ -1,0 +1,3 @@
+asWidget
+
+	^ self widget

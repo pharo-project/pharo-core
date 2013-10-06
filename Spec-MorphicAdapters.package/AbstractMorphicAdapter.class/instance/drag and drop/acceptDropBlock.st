@@ -1,0 +1,3 @@
+acceptDropBlock
+
+	^ self model acceptDropBlock

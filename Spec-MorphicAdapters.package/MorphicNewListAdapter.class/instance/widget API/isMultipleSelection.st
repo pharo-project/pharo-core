@@ -1,0 +1,3 @@
+isMultipleSelection
+
+	^ self model isMultipleSelection

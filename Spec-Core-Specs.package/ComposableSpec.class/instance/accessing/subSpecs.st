@@ -1,3 +1,0 @@
-subSpecs
-
-	^ subSpecs

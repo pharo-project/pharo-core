@@ -1,2 +1,0 @@
-okCancelToolbar
-	^ okCancelToolbar

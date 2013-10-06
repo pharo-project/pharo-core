@@ -5,7 +5,7 @@ freshListTab
 		icon: nil
 		retrievingBlock: [ 
 			1 second asDelay wait.
-			ListComposableModel new
+			ListModel new
 				items: (1 to: 50) asOrderedCollection;
 				buildWithSpec ]
 		actions: { (TabAction

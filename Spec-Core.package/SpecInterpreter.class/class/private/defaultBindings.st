@@ -1,0 +1,3 @@
+defaultBindings
+	
+	^ MorphicAdapterBindings new

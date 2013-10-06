@@ -12,9 +12,11 @@ initialize
 	windowIcon := nil asValueHolder.
 	window := nil asValueHolder.
 	askOkToClose := false asValueHolder.
+	titleHolder := self class title asValueHolder.
 	
 	self initializeWidgets.
 	self initializePresenter.
 	
 	keyStrokesForNextFocusHolder whenChangedDo: [ self registerKeyStrokesForNextFor: self widget ].
 	keyStrokesForPreviousFocusHolder whenChangedDo: [ self registerKeyStrokesForPreviousFor: self widget ].
+	titleHolder whenChangedDo: [ self updateTitle ]

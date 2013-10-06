@@ -1,0 +1,3 @@
+menu
+
+	^ self model menu

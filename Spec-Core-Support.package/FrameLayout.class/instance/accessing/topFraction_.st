@@ -1,0 +1,3 @@
+topFraction: anObject
+	
+	topFraction := anObject

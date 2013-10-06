@@ -1,0 +1,3 @@
+quantum
+
+	^ self model quantum

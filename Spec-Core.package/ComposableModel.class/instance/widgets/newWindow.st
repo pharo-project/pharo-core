@@ -1,2 +1,0 @@
-newWindow
-	^ self instantiate: WindowModel

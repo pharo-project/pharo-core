@@ -1,0 +1,3 @@
+selectedBehavior
+
+	^ self model selectedBehavior

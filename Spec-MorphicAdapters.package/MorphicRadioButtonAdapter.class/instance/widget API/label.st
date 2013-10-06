@@ -1,0 +1,3 @@
+label
+
+	^ self model label

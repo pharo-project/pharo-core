@@ -1,3 +1,0 @@
-defaultValue
-
-	^ 50

@@ -1,2 +1,0 @@
-typeField
-	^ typeField

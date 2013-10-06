@@ -1,3 +1,0 @@
-newClassName
-
-	^ name

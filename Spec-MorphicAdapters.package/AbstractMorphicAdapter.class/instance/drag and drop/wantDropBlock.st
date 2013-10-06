@@ -1,0 +1,3 @@
+wantDropBlock
+
+	^ self model wantDropBlock

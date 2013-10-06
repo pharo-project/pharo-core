@@ -1,0 +1,3 @@
+getList
+
+	^ listHolder contents

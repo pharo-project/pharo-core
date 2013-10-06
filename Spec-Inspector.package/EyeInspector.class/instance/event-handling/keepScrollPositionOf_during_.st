@@ -3,6 +3,6 @@ keepScrollPositionOf: specHolder during: aBlock
 	specHolder widget 
 		ifNil: [ ^ aBlock value ].
 		
-	scrollValue := description widget scrollValue.
+	scrollValue := description scrollValue.
 	aBlock value.
-	description widget scrollValue: scrollValue.
+	description scrollValue: scrollValue.

@@ -1,3 +1,0 @@
-beginSpec
-
-	^ #(ComposableSpec)
