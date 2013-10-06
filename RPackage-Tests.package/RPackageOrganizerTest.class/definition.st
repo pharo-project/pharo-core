@@ -1,5 +1,5 @@
 RPackageTestCase subclass: #RPackageOrganizerTest
-	instanceVariableNames: 'packageOrganizer'
+	instanceVariableNames: 'packageOrganizer previousAuthor quadrangleClass'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'RPackage-Tests'

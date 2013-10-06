@@ -1,5 +1,7 @@
 tearDown 
-
+	
+	Author fullName: previousAuthor.
+	
 	(createdClasses reject: [:c| c isObsolete])
 		do: [:cls| 
 				"(self packageClass organizer includesClass: cls)
@@ -7,3 +9,4 @@ tearDown
 				cls removeFromSystem ].
 	"createdPackages do:
 		[:each | self packageOrganizer unregisterPackage: each]"
+	

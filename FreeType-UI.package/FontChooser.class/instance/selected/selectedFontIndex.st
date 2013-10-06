@@ -1,5 +1,6 @@
 selectedFontIndex
 	| font textStyleName family |
+	
 	selectedFontIndex ifNotNil: [^selectedFontIndex].
 	selectedFontIndex := 0.
 	font := (getSelector isSymbol and:[target notNil])

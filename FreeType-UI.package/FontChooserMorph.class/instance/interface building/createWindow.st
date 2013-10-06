@@ -11,13 +11,16 @@ createWindow
 	buttonBarOffset := buttonBar minExtent y negated - (2 * ProportionalSplitterMorph splitterWidth).
 	self 
 		addMorph: (self newFontList borderWidth: 0)
-		frame: (0.0 @ 0.0 corner: 0.5 @ 0.4).
+		frame: (0.0 @ 0.0 corner: 0.4 @ 0.4).
 	self 
 		addMorph: ((styleList := self newFontStyleList) borderWidth: 0)
-		frame: (0.5 @ 0.0 corner: 0.9 @ 0.4).
+		frame: (0.4 @ 0.0 corner: 0.6 @ 0.4).
 	self 
 		addMorph: (pointSizeList := self newPointSizeList borderWidth:0)
-		frame: (0.9 @ 0.0 corner: 1.0 @ 0.4).
+		frame: (0.6 @ 0.0 corner: 0.75 @ 0.4).
+		self 
+		addMorph: (languageList := self newLanguageList borderWidth:0)
+		frame: (0.75 @ 0.0 corner: 1.0 @ 0.4).
 	self 
 		addMorph: self fontPreviewPanel
 		fullFrame: ((0 @ 0.4 corner: 1 @1) asLayoutFrame bottomOffset: buttonBarOffset). 

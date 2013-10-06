@@ -5,5 +5,5 @@ pointRectangleInGraphElement
 	p addMethod: Point>>#x.
 	p addMethod: Point>>#rotateBy:about:. 
 	p addClassDefinition: Rectangle.
-	p addMethod: Quadrangle>>#intersect:.
+	p addMethod: self quadrangleClass >>#intersect:.
 	^ p

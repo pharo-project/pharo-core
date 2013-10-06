@@ -1,3 +1,11 @@
 commentForCurrentUpdate
- ^ '11412 Scenario for potential bug in MC/Classbuilder
-	https://pharo.fogbugz.com/default.asp?11412'
+ ^ '7097 Class Quadrangle only is used in Tests
+	https://pharo.fogbugz.com/f/cases/7097
+	
+3829 Pangrams
+	https://pharo.fogbugz.com/f/cases/3829/Pangrams
+	
+
+	
+	
+'

@@ -5,10 +5,10 @@ previewText
 	f := model selectedFont.
 	f isNil ifTrue: [ ^'' ].
 	sample := String new writeStream.
-	f isSymbolFont ifFalse: [
+f isSymbolFont ifFalse: [|pangram| pangram := self selectedPangram.
 		sample 
-			nextPutAll: 'the quick brown fox jumps over the lazy dog' ;cr;
-			nextPutAll:  'THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.';
+			nextPutAll: pangram ;cr;
+			nextPutAll:  pangram asUppercase ;
 			cr ].
 	i := 0.
 	33 to: 255 do: [:ci |
