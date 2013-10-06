@@ -7,6 +7,7 @@ initialize
 	end := 100.
 	height := DefaultHeight.
 	width := DefaultWidth.
+	cachedWidth := 0.
 	self 
 		fillStyle: (self theme progressBarFillStyleFor: self);
 		borderStyle: (self theme progressBarBorderStyleFor: self);

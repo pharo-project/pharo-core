@@ -1,4 +1,4 @@
 commentForCurrentUpdate
- ^ '11285 Handle MCMergeOrLoadWarning in config command line handler
-	https://pharo.fogbugz.com/f/cases/11285
-	'
+ ^ '11520 Give Job its own announcer, no longer use the SystemAnnouncer
+	https://pharo.fogbugz.com/f/cases/11520
+'

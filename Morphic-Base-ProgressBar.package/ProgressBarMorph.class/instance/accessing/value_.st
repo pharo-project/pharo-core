@@ -1,4 +1,7 @@
 value: aNumber
-
+	|testWidth|
 	value := aNumber.
-	self changed.
+	testWidth := self completedWidth.
+	testWidth ~= cachedWidth ifTrue: [  
+		cachedWidth := testWidth.
+		self changed]
