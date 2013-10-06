@@ -1,0 +1,2 @@
+setName: aSymbol
+	name := aSymbol.
