@@ -1,0 +1,3 @@
+selectedIndex
+
+	^ self list selectedIndex

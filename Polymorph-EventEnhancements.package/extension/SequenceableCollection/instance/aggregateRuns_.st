@@ -11,12 +11,11 @@ aggregateRuns: aBlock
 	eStr := Array new writeStream.
 	self do: [:e | | t |
 		(t := aBlock value: e) = r
-			ifTrue: [eStr nextPut: e]
 			ifFalse: [r := t.
 					eStr isEmpty
 						ifFalse: [str nextPut: (eStr contents as: self species).
-								eStr reset].
-					eStr nextPut: e]].
+								eStr reset]].
+				eStr nextPut: e].
 	eStr isEmpty ifFalse: [str nextPut: (eStr contents as: self species)].
 	^str contents as: self species
 	

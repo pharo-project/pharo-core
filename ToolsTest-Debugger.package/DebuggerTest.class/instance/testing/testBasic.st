@@ -10,7 +10,7 @@ testBasic
 						process: process
 						controller: nil
 						context: context.
-	debugger expandStack.
+	debugger stack expand.
 
 	self assert: debugger stack selectedIndex = 1.
 	printedString := OpalCompiler isActive 

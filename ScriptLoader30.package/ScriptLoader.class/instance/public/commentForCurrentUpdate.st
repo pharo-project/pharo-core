@@ -1,3 +1,9 @@
 commentForCurrentUpdate
- ^ '11719 integrate all the changes from the repository of the new debugger
-	https://pharo.fogbugz.com/f/cases/11719'
+ ^ '11773 SpecDebugger(Object)>>doesNotUnderstand: #expandStack
+	https://pharo.fogbugz.com/f/cases/11773
+	
+11774 sync RPackage-SystemIntegration
+	https://pharo.fogbugz.com/f/cases/11774
+	
+11775 trivial clean PolyMorph
+	https://pharo.fogbugz.com/f/cases/11775'
