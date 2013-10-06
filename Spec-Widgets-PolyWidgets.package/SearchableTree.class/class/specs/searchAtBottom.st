@@ -7,7 +7,7 @@ searchAtBottom
 				add: #tree;
 				newRow: [:r |
 					r
-					add: #label width: 50;
+					"add: #label width: 50;"
 					add: #inputField;
 					add: #button width: 25 ] height: 25 ];
 		yourself

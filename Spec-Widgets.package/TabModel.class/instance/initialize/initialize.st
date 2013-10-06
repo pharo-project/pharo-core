@@ -1,4 +1,5 @@
 initialize
+	"Initialization code for TabModel"
 
 	super initialize.
 
@@ -9,6 +10,7 @@ initialize
 	menu := nil asValueHolder.
 	actions := OrderedCollection new asValueHolder.
 	closeable := true asValueHolder.
+	tabSelectedAction := [] asValueHolder.
 	
 	label whenChangedDo: [ :new | self widget ifNotNil: [ :w | w label: new ] ].
 	icon whenChangedDo: [ :new | self widget ifNotNil: [ :w | w icon: new ] ].

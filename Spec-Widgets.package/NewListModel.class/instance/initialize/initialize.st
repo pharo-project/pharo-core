@@ -1,4 +1,5 @@
 initialize
+	"Initialization code for NewListModel"
 
 	super initialize.
 	
@@ -26,5 +27,6 @@ initialize
 	selectedItem := nil asValueHolder.
 	selectedIndexes := #() asValueHolder.
 	selectedItems := #() asValueHolder.
+	separatorBlock := [ false ] asValueHolder.
 	
 	self registerEvents

@@ -1,5 +1,5 @@
 delete
 
 	super delete.
-	retrievingProcess terminate.
+	retrievingProcess ifNotNil: [ retrievingProcess terminate ].
 	self triggerEvent: #tabDeleted with: self

@@ -1,7 +1,7 @@
 initializeWidgets
 
 	self instantiateModels: #(
-		tree 		#TreeModel
+		tree 		TreeModel
 		inputField	TextInputFieldModel
 		label 		LabelModel
 		button 		ButtonModel).
@@ -20,6 +20,10 @@ initializeWidgets
 		color:Color black.
 	
 	inputField
-		ghostText: 'search';
+		ghostText: 'Search';
 		entryCompletion: nil;
-		acceptOnCR: true
+		acceptOnCR: true.
+		
+	self focusOrder
+		add: tree;
+		add: inputField

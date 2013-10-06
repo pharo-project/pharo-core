@@ -6,7 +6,7 @@ computeLength
 	width := self width - self extraSpace + ((size-1) * self overlap).
 	
 	length := width / size.
-	length := length min: 200.
+	length := length min: 150.
 	length := length max: 33.
 
 	^ length

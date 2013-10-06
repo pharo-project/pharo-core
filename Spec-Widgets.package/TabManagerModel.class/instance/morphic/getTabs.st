@@ -1,3 +1,3 @@
 getTabs
 
-	^ [ self tabs collect: [ :each | each widget ifNil: [ each buildWithSpec ] ] ]
+	^ [ self tabs collect: [ :each | each ensureWidget ] ]

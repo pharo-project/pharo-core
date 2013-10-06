@@ -1,5 +1,5 @@
 AbstractBasicWidget subclass: #TabManagerModel
-	instanceVariableNames: 'tabs'
+	instanceVariableNames: 'tabs tabSelectedAction'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-Widgets'

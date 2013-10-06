@@ -1,6 +1,6 @@
 tabs: aCollection
 
-	
+	tabs do: [ :e | e silentlySelected: false ].
 	tabs := aCollection.
 	selectionHistory removeAll.
 	
