@@ -1,0 +1,2 @@
+inspectorType
+	^ self inspector class

@@ -6,5 +6,5 @@ previousButton
 			previousButton
 				action: [ 
 					self inspectorWrapper inspectPrevious.
-					self updateButtonStatus. ] ].
+					self update. ] ].
 	^ previousButton

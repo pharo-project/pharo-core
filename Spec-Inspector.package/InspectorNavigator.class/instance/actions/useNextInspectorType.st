@@ -1,0 +1,2 @@
+useNextInspectorType
+	self inspectorType: self nextInspectorType

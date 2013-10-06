@@ -1,0 +1,2 @@
+inspectorTypes
+	^ self inspectorWrapper inspectorTypes

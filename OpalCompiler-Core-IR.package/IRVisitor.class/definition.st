@@ -1,4 +1,5 @@
 Object subclass: #IRVisitor
+	uses: TIRVisitor
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

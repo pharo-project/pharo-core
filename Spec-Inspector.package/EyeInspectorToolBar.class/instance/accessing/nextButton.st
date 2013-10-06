@@ -2,9 +2,9 @@ nextButton
 	nextButton
 		ifNil: [ 
 			nextButton := self instantiate: ButtonModel.
-			nextButton label: '>'.
-			nextButton
+			nextButton 
+				label: '>';
 				action: [ 
 					self inspectorWrapper inspectNext.
-					self updateButtonStatus. ]].
+					self update. ]].
 	^ nextButton

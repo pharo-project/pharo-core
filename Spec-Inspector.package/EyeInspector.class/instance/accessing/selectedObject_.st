@@ -1,7 +1,7 @@
 selectedObject: anObject
 	"Sets the selectedElement of the inspector to anObject. If anObject is not in the list, then sets the selectedElement to 1"
 
-	list setSelectedIndex: 1.
-	list listItems withIndexDo: [ :item :index | 
+	self list setSelectedIndex: 1.
+	self list listItems withIndexDo: [ :item :index | 
 		item value == anObject 
-			ifTrue: [ list setSelectedIndex: index ] ]
+			ifTrue: [ self list setSelectedIndex: index ] ]

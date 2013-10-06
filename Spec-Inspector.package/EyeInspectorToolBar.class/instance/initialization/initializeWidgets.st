@@ -1,2 +1,2 @@
 initializeWidgets
-	"nothing here, done when calling load, new, saveButton, update .."
+	" nothing to do"

@@ -1,1 +1,1 @@
-a Spec Inspector that does exactly the same thing as the old inspector Inspector.To do a specific inspector subclass this and override EyeInspector>>addSpecialFieldsThen on your object overrideObject>>eyeClassso it returns your new inspector
+To do a specific inspector subclass this and override 	EyeInspector>>addSpecialFieldsThen on your object override	Object>>eyeClassso it returns your new inspector

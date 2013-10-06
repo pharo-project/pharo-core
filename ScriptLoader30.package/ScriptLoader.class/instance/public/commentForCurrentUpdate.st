@@ -1,12 +1,7 @@
 commentForCurrentUpdate
- ^ '11652 Undeclared variable in PluggableTextMorphWithLimits >> #acceptBasic
-	https://pharo.fogbugz.com/f/cases/11652
+ ^ '11645 missing visitSequence: method
+	https://pharo.fogbugz.com/f/cases/11645
 	
-11651 Filing testInstanceSideMethodsWithNilKeyInLastLiteral
-	https://pharo.fogbugz.com/f/cases/11651
-	
-11629 Obsolete Class in the release: AnObsoleteKMCommandModifier
-	https://pharo.fogbugz.com/f/cases/11629
-	
-11647 DropListModel >> #setSelectedItem: mixes up model, items and labels
-	https://pharo.fogbugz.com/f/cases/11647'
+11646 Add Inspector Views / Types
+	https://pharo.fogbugz.com/f/cases/11646
+'

@@ -1,0 +1,2 @@
+dive
+	^ self owner dive

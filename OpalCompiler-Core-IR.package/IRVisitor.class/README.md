@@ -1,1 +1,1 @@
-An IRVisitor is xxxxxxxxx.
+I am a generic visitor implementation for the OpalCompiler IR

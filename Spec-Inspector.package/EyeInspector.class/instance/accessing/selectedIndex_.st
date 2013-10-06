@@ -1,2 +1,2 @@
 selectedIndex: integer
-	^ list setSelectedIndex: integer
+	^ self list setSelectedIndex: integer

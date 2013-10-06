@@ -1,0 +1,2 @@
+iconFor: anEyeElement
+	^ anEyeElement icon

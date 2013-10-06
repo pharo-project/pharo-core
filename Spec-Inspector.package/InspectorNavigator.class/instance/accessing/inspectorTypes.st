@@ -1,0 +1,2 @@
+inspectorTypes
+	^ self inspector variants

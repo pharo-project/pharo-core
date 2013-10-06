@@ -1,0 +1,2 @@
+title
+	^ self object printString 

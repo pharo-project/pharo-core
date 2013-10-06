@@ -1,0 +1,2 @@
+useBasicInspector
+	self inspectorType: EyeBasicInspector

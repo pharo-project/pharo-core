@@ -1,1 +1,1 @@
-An IRSequence is xxxxxxxxx.Instance Variables	method:		<Object>	orderNumber:		<Object>	sequence:		<Object>method	- xxxxxorderNumber	- xxxxxsequence	- xxxxx
+A sequence is corresponds to a block in the control flow graph.
