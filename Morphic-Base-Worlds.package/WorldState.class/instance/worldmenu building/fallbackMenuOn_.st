@@ -6,7 +6,7 @@ fallbackMenuOn: menu
 	menu addLine.
 	menu
 		defaultTarget: Smalltalk tools;
-		addList: Smalltalk tools mainMenuItems.
+		addList: Smalltalk tools menuItems.
 	menu addLine.
 	menu add: 'Save'
 		target: self class

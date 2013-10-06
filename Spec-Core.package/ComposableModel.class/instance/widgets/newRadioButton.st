@@ -1,0 +1,2 @@
+newRadioButton
+	^ self instantiate: RadioButtonModel

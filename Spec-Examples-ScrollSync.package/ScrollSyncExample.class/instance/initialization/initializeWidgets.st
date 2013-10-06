@@ -1,6 +1,6 @@
 initializeWidgets
 
-	self instantiateModels: #( text TextModel ).
+	text := self newText.
 		
 	text announcer
 		when: WidgetBuilt

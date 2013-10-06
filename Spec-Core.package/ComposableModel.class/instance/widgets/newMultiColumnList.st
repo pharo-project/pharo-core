@@ -1,0 +1,2 @@
+newMultiColumnList
+	^ self instantiate: MultiColumnListModel

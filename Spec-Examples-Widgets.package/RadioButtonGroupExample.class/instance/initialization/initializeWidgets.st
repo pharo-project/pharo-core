@@ -1,9 +1,8 @@
 initializeWidgets
 
-	self instantiateModels: #(
-		button1 RadioButtonModel
-		button2 RadioButtonModel
-		button3 RadioButtonModel ).
+	button1 := self newRadioButton.
+	button2 := self newRadioButton.
+	button3 := self newRadioButton.
 	
 	button1 label: 'Button 1'.
 	button2 label: 'Button 2'.

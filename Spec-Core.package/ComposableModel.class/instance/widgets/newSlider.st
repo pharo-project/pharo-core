@@ -1,0 +1,2 @@
+newSlider
+	^ self instantiate: SliderModel

@@ -1,0 +1,2 @@
+newButton
+	^ self instantiate: ButtonModel

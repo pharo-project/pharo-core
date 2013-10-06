@@ -1,0 +1,2 @@
+newText
+	^ self instantiate: TextModel

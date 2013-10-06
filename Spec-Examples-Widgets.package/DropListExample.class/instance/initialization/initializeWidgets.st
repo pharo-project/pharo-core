@@ -1,8 +1,7 @@
 initializeWidgets 
 
-	self instantiateModels: #(
-		uniformDropList #DropListModel
-		heterogeneousDropList #DropListModel).
+	uniformDropList := self newDropList.
+	heterogeneousDropList  := self newDropList.
 
 	uniformDropList
 		items: {morph1. morph2. morph3};

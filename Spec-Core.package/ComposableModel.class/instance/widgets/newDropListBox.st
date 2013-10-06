@@ -1,0 +1,2 @@
+newDropListBox
+	^ self instantiate: DropListModel

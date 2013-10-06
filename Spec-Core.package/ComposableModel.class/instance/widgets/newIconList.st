@@ -1,0 +1,2 @@
+newIconList
+	^ self instantiate: IconListModel

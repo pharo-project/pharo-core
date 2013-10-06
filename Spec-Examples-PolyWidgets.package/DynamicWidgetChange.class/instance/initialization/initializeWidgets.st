@@ -1,8 +1,7 @@
 initializeWidgets
 
-	self instantiateModels: #(
-		button ButtonModel
-		bottom ListComposableModel ).
+	button := self newButton.
+	bottom := self newList.
 		
 	button 
 		label: 'Change';

@@ -1,8 +1,7 @@
 initializeWidgets
 
-	self instantiateModels: #(
-		methodBrowser MethodBrowser
-		textField TextInputFieldModel ).
+	methodBrowser := self instantiate: MethodBrowser.
+	textField := self newTextInput.
 	
 	textField 
 		ghostText: 'Enter a class name';

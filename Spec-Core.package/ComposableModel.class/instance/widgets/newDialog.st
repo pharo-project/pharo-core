@@ -1,0 +1,2 @@
+newDialog
+	^ self instantiate: DialogWindowModel

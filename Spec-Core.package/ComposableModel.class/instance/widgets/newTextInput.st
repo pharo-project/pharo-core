@@ -1,0 +1,2 @@
+newTextInput
+	^ self instantiate: TextInputFieldModel
