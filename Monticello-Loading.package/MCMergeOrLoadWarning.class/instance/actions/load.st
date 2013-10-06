@@ -1,2 +1,2 @@
 load
-	^ self return: true
+	^ self resume: true

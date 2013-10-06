@@ -1,4 +1,4 @@
-testEnsureDeleted
+testEnsureDelete
 	| reference |
 	reference := filesystem / 'plonk'.	"Deletes the file if it exists"
 	reference ensureCreateFile.

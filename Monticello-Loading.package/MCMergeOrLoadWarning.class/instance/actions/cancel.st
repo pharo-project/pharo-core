@@ -1,2 +1,2 @@
 cancel
-	^ self return: nil
+	^ self resume: nil

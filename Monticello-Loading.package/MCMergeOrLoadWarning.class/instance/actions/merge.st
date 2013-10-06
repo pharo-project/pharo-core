@@ -1,2 +1,2 @@
 merge
-	^ self return: false
+	^ self resume: false
