@@ -3,7 +3,7 @@ basicSaveVersionIn: aRepository
 	waitForVersion := Semaphore new.
 	
 	UIManager default defer: [
-		newVersion := workingCopy newVersion.
+		newVersion := workingCopy newVersionIn: aRepository.
 		waitForVersion signal ].
 	
 	Processor activeProcess == UIManager default uiProcess

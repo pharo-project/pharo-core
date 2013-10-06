@@ -1,4 +1,4 @@
 currentVersionInfo
 	^ (self needsSaving or: [ancestry ancestors isEmpty])
-		ifTrue: [self newVersion info]
+		ifTrue: [ (self newVersionIn: self repositoryGroup) info]
 		ifFalse: [ancestry ancestors first]

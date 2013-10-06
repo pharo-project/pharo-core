@@ -1,3 +1,4 @@
 commentForCurrentUpdate
- ^ '11509 Working on MorphMargin
-	https://pharo.fogbugz.com/f/cases/11509'
+ ^ '11540 Monticello unique names should be calculated in destination repository, not all
+	https://pharo.fogbugz.com/f/cases/11540
+'

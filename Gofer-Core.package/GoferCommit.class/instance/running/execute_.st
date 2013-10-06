@@ -4,7 +4,7 @@ execute: aWorkingCopy
 		reject: [ :repository | (aWorkingCopy changesRelativeToRepository: repository) isEmpty ].
 	repositories isEmpty
 		ifTrue: [ ^ self ].
-	version := [ aWorkingCopy newVersion ]
+	version := [ aWorkingCopy newVersionIn: (MCRepositoryGroup withRepositories: repositories) ]
 		on: MCVersionNameAndMessageRequest
 		do: [ :notifcation |
 			self message ifNil: [ message := notifcation outer last ].

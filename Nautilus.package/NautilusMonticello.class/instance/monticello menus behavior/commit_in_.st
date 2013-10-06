@@ -1,9 +1,9 @@
-commit: workingCopy in: repo
+commit: workingCopy in: aRepository
 	| newVersion |
 
-	newVersion := workingCopy newVersion.
+	newVersion := workingCopy newVersionIn: aRepository.
 	newVersion ifNil: [ ^ self ].
 	Cursor wait showWhile: [
-		[ 	repo storeVersion: newVersion.
-			repo storeDependencies: newVersion ] 
+		[ 	aRepository storeVersion: newVersion.
+			aRepository storeDependencies: newVersion ] 
 		ensure: [ (MCVersionInspector new version: newVersion) show ]]

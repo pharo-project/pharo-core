@@ -7,4 +7,5 @@ savePackage: aWorkingCopy in: aRepository with: aMessageString
 
 	aRepository storeVersion: (aWorkingCopy 
 		newVersionWithName: aWorkingCopy uniqueVersionName
-		message: aMessageString)
+		message: aMessageString
+		in: aRepository)
