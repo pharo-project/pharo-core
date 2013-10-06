@@ -1,6 +1,6 @@
 itemRemoved: aItem
 
-	critics values do: [ :each | each remove: aItem ifAbsent: []].
-	toDos values do: [ :each | each remove: aItem ifAbsent: []].
-	falsePositives values do: [ :each | each remove: aItem ifAbsent: []].	
+	critics valuesDo: [ :each | each remove: aItem ifAbsent: []].
+	toDos valuesDo: [ :each | each remove: aItem ifAbsent: []].
+	falsePositives valuesDo: [ :each | each remove: aItem ifAbsent: []].	
 	self updateBrowser  

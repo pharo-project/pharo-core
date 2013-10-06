@@ -1,5 +1,5 @@
 displayMultiString: aString on: aBitBlt from: startIndex to: stopIndex at: aPoint kern: kernDelta baselineY: baselineY 
-	| nextWide destX leftX rightX glyphInfo char displayInfo destY gfont charIndex |
+	| nextWide destX leftX rightX glyphInfo char destY gfont charIndex |
 	destX := aPoint x.
 	charIndex := startIndex.
 	glyphInfo := Array new: 5.

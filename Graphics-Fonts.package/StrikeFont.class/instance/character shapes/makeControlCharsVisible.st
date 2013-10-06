@@ -1,5 +1,5 @@
 makeControlCharsVisible
-	| glyph d |
+	| glyph |
 	self characterToGlyphMap.
 	glyph := self characterFormAt: Character space.
 	glyph 

@@ -1,7 +1,9 @@
 commentForCurrentUpdate
- ^ '11734 Clean up the Object>>#veryDeepCopyWith:
-	https://pharo.fogbugz.com/f/cases/11734
+ ^ '7131 Do we need the code for retractable scrollbars?
+	https://pharo.fogbugz.com/f/cases/7131
 	
-11735 Addressing GreekEnvironment undeclared in MiniImage
-	https://pharo.fogbugz.com/f/cases/11735
-'
+11753 Remove [aBlock value]
+	https://pharo.fogbugz.com/f/cases/11753
+	
+11752 Small keys do: -> keysDo: replacement (and some critic cleanups)
+	https://pharo.fogbugz.com/f/cases/11752'

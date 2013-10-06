@@ -1,5 +1,5 @@
 fontsSpecForStyleNamed: aSymbol
-	| k s small regular big |
+	| k small regular big |
 	k := StrikeFont defaultFontKey.
 	small := self smallPointSizeForStyleNamed: aSymbol.
 	regular := self pointSizeForStyleNamed: aSymbol.

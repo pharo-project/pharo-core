@@ -10,5 +10,5 @@ setScrollDeltas
 	"scroller fullBounds." "force recompute so that leftoverScrollRange will be up-to-date"
 	self hideOrShowScrollBars.
 	
-	(retractableScrollBar or: [ self vIsScrollbarShowing ]) ifTrue:[ self vSetScrollDelta ].
-	(retractableScrollBar or: [ self hIsScrollbarShowing ]) ifTrue:[ self hSetScrollDelta ].
+	self vIsScrollbarShowing ifTrue:[ self vSetScrollDelta ].
+	self hIsScrollbarShowing ifTrue:[ self hSetScrollDelta ].

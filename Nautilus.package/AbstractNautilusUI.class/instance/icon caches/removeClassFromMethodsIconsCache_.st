@@ -1,6 +1,6 @@
 removeClassFromMethodsIconsCache: aClass
 
-	self methodsIconsCache keys do: [:method | 
+	self methodsIconsCache keysDo: [:method | 
 		" for overrides "
 		method methodClass = aClass
 			ifTrue: [ 

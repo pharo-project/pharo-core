@@ -1,18 +1,18 @@
 replaceAll: oldMethod by: newMethod
 
-	critics values do: [:each |  
+	critics valuesDo: [:each |  
 		(each includes: oldMethod)
 			ifTrue: [
 				each remove: oldMethod.
 				each add: newMethod ]].
 		
-	falsePositives values do: [:each |  
+	falsePositives valuesDo: [:each |  
 		(each includes: oldMethod)
 			ifTrue: [
 				each remove: oldMethod.
 				each add: newMethod ]].
 
-	toDos values do: [:each |  
+	toDos valuesDo: [:each |  
 		(each includes: oldMethod)
 			ifTrue: [
 				each remove: oldMethod.

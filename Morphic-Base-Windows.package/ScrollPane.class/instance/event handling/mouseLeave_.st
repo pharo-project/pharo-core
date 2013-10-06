@@ -1,4 +1,3 @@
 mouseLeave: event
 	hasFocus := false.
-	retractableScrollBar ifTrue: [self hideScrollBars].
-	(owner isSystemWindow) ifTrue: [owner paneTransition: event]
+	owner isSystemWindow ifTrue: [owner paneTransition: event]

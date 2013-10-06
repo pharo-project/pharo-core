@@ -1,7 +1,6 @@
 displayResourceFormOn: aForm
 	"a special display method for blowing up resource thumbnails"
-
-	| engine tx cmap blitter |
+	
 	self extent = aForm extent
 		ifTrue: [ ^ self displayOn: aForm ].
 

@@ -4,6 +4,5 @@ areasRemainingToFill: aRectangle
 		ifTrue: [^ areas "good news -- complete occlusion"].
 	"Check for special case that this is scrollbar damage"
 	((bounds topLeft - (14@0) corner: bounds bottomRight) containsRect: aRectangle) ifTrue:
-		[paneMorphs do: [:p | ((p isKindOf: ScrollPane) and: [p scrollBarFills: aRectangle])
-							ifTrue: [^ Array new]]].
+		[paneMorphs do: [:p | (p isKindOf: ScrollPane) ifTrue: [^ Array new]]].
 	^ areas

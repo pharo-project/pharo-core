@@ -9,7 +9,7 @@ becomeActiveDuring: aBlock
 	ActiveWorld := self.
 	ActiveHand := self hands first. "default"
 	ActiveEvent := nil. "not in event cycle"
-	[aBlock value]
+	aBlock
 		on: Error
 		do: [:ex | 
 			ActiveWorld := priorWorld.

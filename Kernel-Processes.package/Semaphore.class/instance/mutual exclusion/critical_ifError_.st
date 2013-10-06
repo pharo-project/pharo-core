@@ -5,7 +5,7 @@ critical: mutuallyExcludedBlock ifError: errorBlock
 	| blockValue hasError errMsg errRcvr |
 	hasError := false.
 	self critical:[
-		blockValue := [mutuallyExcludedBlock value] ifError:[:msg :rcvr|
+		blockValue := mutuallyExcludedBlock ifError: [ :msg :rcvr|
 			hasError := true.
 			errMsg := msg.
 			errRcvr := rcvr

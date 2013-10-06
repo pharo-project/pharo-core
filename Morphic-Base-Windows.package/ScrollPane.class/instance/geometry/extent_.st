@@ -27,11 +27,9 @@ extent: newExtent
 	
 	"Now resetScrollDeltas where appropriate, first the vScrollBar..."
 	((self height ~~ oldH) or: [ wasHShowing ~~ self hIsScrollbarShowing]) ifTrue:
-		[(retractableScrollBar or: [ self vIsScrollbarShowing ]) ifTrue:
-			[ self vSetScrollDelta ]].
+		[self vIsScrollbarShowing ifTrue: [ self vSetScrollDelta ]].
 			
 	"...then the hScrollBar"
 	((self width ~~ oldW) or: [wasVShowing ~~ self vIsScrollbarShowing]) ifTrue:
-		[(retractableScrollBar or: [ self hIsScrollbarShowing ]) ifTrue:
-			[ self hSetScrollDelta ]].
+		[self hIsScrollbarShowing ifTrue: [ self hSetScrollDelta ]].
 

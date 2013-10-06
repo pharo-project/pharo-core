@@ -5,7 +5,7 @@ setDefaultFonts: defaultFontsSpec
 	fontNames := defaultFontsSpec collect: [:array | array second].
 	map := IdentityDictionary new.
 	emphases := IdentityDictionary new.
-	fontNames do: [:originalName | | decoded style response |
+	fontNames do: [:originalName | | decoded style |
 		decoded := TextStyle decodeStyleName: originalName.
 		style := map at: originalName put: (TextStyle named: decoded second).
 		emphases at: originalName put: decoded first.

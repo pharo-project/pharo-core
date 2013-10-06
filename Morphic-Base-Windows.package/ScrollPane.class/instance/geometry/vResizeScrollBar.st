@@ -1,14 +1,5 @@
 vResizeScrollBar
-	| w topLeft borderHeight innerWidth |
+	| w topLeft  |
 	w := self scrollBarThickness.
-	innerWidth := self flatColoredScrollBarLook
-		ifTrue: [ 
-			borderHeight := borderWidth.
-			0 ]
-		ifFalse: [ 
-			borderHeight := 0.
-			1 ].
-	topLeft := retractableScrollBar
-		ifTrue: [ bounds topRight - (borderWidth @ (0 - borderHeight)) ]
-		ifFalse: [ bounds topRight - ((w + borderWidth - innerWidth) @ (0 - borderHeight)) ].
+	topLeft := bounds topRight - ((w + borderWidth - 0) @ (0 - borderWidth)).
 	scrollBar bounds: (topLeft extent: w @ self vScrollBarHeight)

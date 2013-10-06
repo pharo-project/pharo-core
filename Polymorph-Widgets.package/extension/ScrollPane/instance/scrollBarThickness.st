@@ -1,8 +1,4 @@
 scrollBarThickness
 	"Includes border"
+	^ self theme scrollbarThickness
 	
-	| result |
-	result := self theme scrollbarThickness.
-	self flatColoredScrollBarLook
-		ifFalse: [result := result + 2].
-	^ result

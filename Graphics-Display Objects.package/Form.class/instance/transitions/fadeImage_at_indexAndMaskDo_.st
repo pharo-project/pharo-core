@@ -6,7 +6,7 @@ fadeImage: otherImage at: topLeft
 	ones in the halftone produce the 'otherImage'.
 	IndexAndMaskBlock gets evaluated prior to each cycle,
 	and the resulting boolean determines whether to continue cycling."
-	| index imageRect maskForm resultForm pix returnPix|
+	| index imageRect maskForm resultForm |
 	imageRect := otherImage boundingBox.
 	resultForm := self copy: (topLeft extent: imageRect extent).
 	maskForm := Form extent: 32@32.

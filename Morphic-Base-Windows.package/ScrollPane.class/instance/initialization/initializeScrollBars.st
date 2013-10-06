@@ -8,11 +8,8 @@ initializeScrollBars
 		borderWidth: 1;
 		borderColor: Color black.
 	self initializeScroller.
-	retractableScrollBar
-		ifFalse: [ 
-			self
-				addMorph: scrollBar;
-				addMorph: hScrollBar ].
+	self addMorph: scrollBar.
+	self addMorph: hScrollBar.
 	self alwaysShowVScrollbar
 		ifTrue: [ self alwaysShowVScrollBar: true ].
 	self alwaysHideHScrollbar

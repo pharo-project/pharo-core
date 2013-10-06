@@ -1,6 +1,6 @@
 removeActionsSatisfying: aBlock
 
-	self actionMap keys do:
+	self actionMap keysDo:
 		[:eachEventSelector |
 			self
    				removeActionsSatisfying: aBlock

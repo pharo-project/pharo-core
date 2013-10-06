@@ -15,7 +15,7 @@ setFontsFromSpec: fontsSpec
 	emphases := IdentityDictionary new.
 	fontNames
 		do: [:originalName | 
-			| decoded style response |
+			| decoded style |
 			decoded := TextStyle decodeStyleName: originalName.
 			style := map
 						at: originalName
