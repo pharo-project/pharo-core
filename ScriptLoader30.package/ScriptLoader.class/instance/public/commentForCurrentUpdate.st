@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '10913 Global Session object should have creation time stamp
-	https://pharo.fogbugz.com/f/cases/10913
+ ^ '11587 Spotlight does not allow browsing of selectors with spaces
+	https://pharo.fogbugz.com/f/cases/11587
 	
-11568 World > System > System Reporter MNU #platformSubtype
-	https://pharo.fogbugz.com/f/cases/11568'
+11585 Settings should not ask for name
+	https://pharo.fogbugz.com/f/cases/11585
+
+11586 FormCanvas should always use the accessor to access TranslucentPattern
+	https://pharo.fogbugz.com/f/cases/11586'

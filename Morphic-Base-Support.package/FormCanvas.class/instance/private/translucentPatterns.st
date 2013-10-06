@@ -1,3 +1,2 @@
 translucentPatterns
-	TranslucentPatterns isNil ifTrue:[ self initializeTranslucentPatterns ].
-	^ 	TranslucentPatterns  
+	^ self class translucentPatterns

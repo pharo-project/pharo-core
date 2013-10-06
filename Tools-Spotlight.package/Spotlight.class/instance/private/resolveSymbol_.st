@@ -1,6 +1,6 @@
 resolveSymbol: symbol
 	(self symbolIsSelector: symbol) ifTrue: [ 
-		^self systemNavigation browseAllImplementorsOf: symbol ].
+		^self systemNavigation browseAllImplementorsOf: symbol findSelector ].
 	(self symbolIsClass: symbol) ifTrue: [ 
 		^Smalltalk tools browser openOnClass: (Smalltalk globals at: symbol) ].
 	(self symbolIsPackage: symbol) ifTrue: [ 
