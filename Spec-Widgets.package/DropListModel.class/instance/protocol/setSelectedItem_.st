@@ -3,7 +3,7 @@ setSelectedItem: anItem
 	"Force the selection of the item anItem"
 	| index realItem |
 	
-	index := self getList indexOf: anItem ifAbsent: [ ^ self ].
-	realItem := (self listItems at: index) value.
+	index := self listItems indexOf: anItem ifAbsent: [ ^ self ].
+	realItem := listHolder at: index.
 	selectionHolder index contents: index.
 	selectionHolder selection contents: realItem.
