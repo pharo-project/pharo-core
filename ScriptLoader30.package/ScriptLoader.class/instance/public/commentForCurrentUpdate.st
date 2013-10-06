@@ -1,7 +1,9 @@
 commentForCurrentUpdate
- ^ '11572 Cannot create new protocols
-	https://pharo.fogbugz.com/f/cases/11572
+ ^ '11622 remove bogus method in Number
+	https://pharo.fogbugz.com/f/cases/11622
 	
-11471 Number >> #asDuration should default to seconds
-	https://pharo.fogbugz.com/f/cases/11471/
-'
+11621 New widget to edit an ordered list
+	https://pharo.fogbugz.com/f/cases/11621
+	
+11627 prevent completion from popping out with empty list
+	https://pharo.fogbugz.com/f/cases/11627'

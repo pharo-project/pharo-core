@@ -7,7 +7,7 @@ openMenuFor: aParagraphEditor
 				class: model selectedClassOrMetaClass 
 				source: aParagraphEditor text string
 				position: aParagraphEditor caret - 1.
-				
+	
 	editor := aParagraphEditor.
 
 	theMenu := self menuMorphClass
@@ -17,5 +17,5 @@ openMenuFor: aParagraphEditor
 	theMenu isClosed
 		ifFalse: [ menuMorph := theMenu ].
 	
-	"(context isNil or: [ context model isEmpty ])
-		ifTrue: [ ^self closeMenu ]."
+	(context isNil or: [ context model isEmpty ])
+		ifTrue: [ ^self closeMenu ].

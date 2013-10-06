@@ -2,10 +2,7 @@ initializeInstVars
 	(clazz isNil or: [ includeVariables not ]) ifTrue: [ ^ self ].
 	instVars := clazz allInstVarNames asSortedCollection.
 	instVars := instVars collect: 
-		[ :each | 
-		NECInstVarEntry 
-			contents: each
-			type: #instVar ].
+		[ :each |  NECInstVarEntry contents: each ].
 	instVars add: (NECSelfEntry 
 			contents: 'self'
 			type: #self).

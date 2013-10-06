@@ -1,2 +1,2 @@
 isInstance
-^true
+	^true

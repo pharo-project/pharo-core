@@ -1,5 +1,6 @@
 browseWith: anECContext 
-	type := self guessTypeWith: anECContext.
-	type ifNil: [^ false].
-	SystemNavigation new browseClass: type.
+	| guessType |
+	guessType := self guessTypeWith: anECContext.
+	guessType ifNil: [^ false].
+	SystemNavigation new browseClass: guessType.
 	^ true

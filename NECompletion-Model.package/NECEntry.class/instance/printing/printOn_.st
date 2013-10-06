@@ -3,5 +3,5 @@ printOn: aStream
 		 nextPut: $(;
 		 nextPutAll: contents asString;
 		 nextPut: $,;
-		 nextPutAll: type;
+		 nextPutAll: self type;
 		 nextPut: $)

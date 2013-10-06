@@ -3,6 +3,4 @@ initializeClassVars
 	classVars := clazz theNonMetaClass allClassVarNames asSortedCollection.
 	classVars := classVars collect: 
 		[ :each | 
-		NECClassVarEntry 
-			contents: each
-			type: #classVar ]
+		NECClassVarEntry contents: each ]

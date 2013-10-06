@@ -1,3 +1,3 @@
-iconMaxSize: anInteger
+iconMaxSize: aPoint
 
-	iconMaxSize contents: anInteger
+	iconMaxSize contents: aPoint

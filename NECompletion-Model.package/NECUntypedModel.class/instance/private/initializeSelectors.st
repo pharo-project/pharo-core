@@ -2,9 +2,7 @@ initializeSelectors
 	self resetSelectors.
 	includeSelectors ifFalse: 
 		[ Smalltalk keysAndValuesDo: [ :each :class |
-			selectors add: (NECGlobalEntry 
-					contents: each
-					type: #globalVar) ].
+			selectors add: (NECGlobalEntry contents: each) ].
 		^ self ].
 	narrowString ifEmpty: [ ^ self ].
 	NECSymbols 
