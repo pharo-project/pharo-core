@@ -15,7 +15,7 @@ buildRenameShortcutsOn: aBuilder
 
 	(aBuilder shortcut: #renameProtocol)
 		category: #NautilusGlobalShortcuts
-		default: $r command , $m command 
+		default: $r command , $t command 
 		do: [ :target | target renameCategory ]
 		description: 'Rename the selected protocol'.
 		

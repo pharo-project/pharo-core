@@ -36,7 +36,7 @@ categoriesMenu: aBuilder
 	target selectedCategory ifNil: [ ^ target ].
 	
 	(aBuilder item: #'Rename...')
-		keyText: 'r, m' if: Nautilus useOldStyleKeys not;
+		keyText: 'r, t' if: Nautilus useOldStyleKeys not;
 		keyText: 'r' if: Nautilus useOldStyleKeys;
 		action: [ target renameCategory ];
 		order: 1300;
