@@ -1,3 +1,0 @@
-pathName
-
-	^ squeakPathName.

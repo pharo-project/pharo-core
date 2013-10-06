@@ -1,6 +1,6 @@
 giveFocusToPreviousFrom: aModel 
-
 	| focus |
+	
 	focus := self focusOrder.
 
 	(focus includes: aModel)
