@@ -2,4 +2,4 @@ commentForCurrentUpdate
  ^ '11544 Memory leak when using weak announcements with blocks
 	https://pharo.fogbugz.com/f/cases/11544
 
-(step 1/2)'
+(step 2/2)'
