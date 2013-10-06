@@ -2,7 +2,7 @@ saveDirtyPackages: aCollection
 	
 	
 	aCollection isEmptyOrNil ifTrue: [ ^ self ].
-	aCollection do: [:package || workCopy browser wrap index |
+	aCollection do: [:package || workCopy browser |
 		
 		workCopy := MCWorkingCopy forPackage: (MCPackage named: package name).
 		browser :=MCWorkingCopyBrowser new.

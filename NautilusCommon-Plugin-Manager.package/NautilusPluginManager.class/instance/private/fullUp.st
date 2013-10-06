@@ -1,6 +1,6 @@
 fullUp
 
-	| list selection maxSize |
+	| list selection |
 	list := pluginsList copy.
 	selection := self selectedPlugins.
 	selection reverse doWithIndex: [:idx :count || each |

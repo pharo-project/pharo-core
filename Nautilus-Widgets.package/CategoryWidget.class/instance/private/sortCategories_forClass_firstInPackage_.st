@@ -5,11 +5,8 @@ sortCategories: allProtocols forClass: class firstInPackage: currentPackage
 		3. the extension protocols
 		4. the normal protocols"
 		
-	| packageExtensionName packageExtensionStart sortBlock currentPackageProtocols otherProtocols |
+	|  sortBlock currentPackageProtocols otherProtocols |
 
-	packageExtensionName := '*', currentPackage name asLowercase.
-	packageExtensionStart := packageExtensionName, '-'.
-	
 	currentPackageProtocols := allProtocols reject: [ :protocolName | protocolName beginsWith: '*' ].
 	
 	"Filter out the existing protocols so that we can sort them later separately"

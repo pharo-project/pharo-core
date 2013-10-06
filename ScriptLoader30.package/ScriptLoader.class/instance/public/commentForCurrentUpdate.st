@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '11691 Failing test: testLocalMethodsOfTheClassShouldNotBeRepeatedInItsTraits
-	https://pharo.fogbugz.com/f/cases/11691
+ ^ '11700 Small code critics cleanup in Tools
+	https://pharo.fogbugz.com/f/cases/11700
+
+11697 Small code critics cleanup Nautilus+Nautilus common
+	https://pharo.fogbugz.com/f/cases/11697
 	
-11693 Spec building is taking ages due to changes in PragmaCollector
-	https://pharo.fogbugz.com/f/cases/11693'
+11696 Small kernel clean up
+	https://pharo.fogbugz.com/f/cases/11696'

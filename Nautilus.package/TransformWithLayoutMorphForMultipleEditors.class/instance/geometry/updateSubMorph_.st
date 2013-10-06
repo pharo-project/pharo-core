@@ -1,7 +1,6 @@
 updateSubMorph: newBounds
-	| submorph delta |
+	| submorph |
 	
-	delta := StandardFonts codeFont height *2 + 10.
 	self submorphs ifEmpty: [ ^ self ].
 	submorph := self submorphs first.
 	submorph submorphs ifEmpty: [ ^ self ].

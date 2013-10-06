@@ -1,5 +1,5 @@
 mcWorkingCopyCreated: anAnnouncement
-	| package rpackage mcPackage |
+	| package rpackage |
 	window ifNil: [^ self ].
 	window isDisplayed ifFalse: [ ^ self ].
 	

@@ -1,6 +1,6 @@
 findClass: aSearchInstance
 	"select the class returned by the search block"
-	| aClass recentList |
+	| aClass |
 	self okToChange ifFalse: [^ self flashPackage ].
 	aClass := aSearchInstance chooseFromOwner: self window.
 	aClass ifNil: [^ self flashPackage].

@@ -1,6 +1,6 @@
 addSubclassesOf: aClass in: result withIndex: index fromRestrictedCollection: aCollection
 
-	| classes intersection |
+	| classes |
 
 	classes := aClass subclasses" intersection: self shownClasses".
 	

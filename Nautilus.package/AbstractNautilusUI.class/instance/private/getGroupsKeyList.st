@@ -3,4 +3,4 @@ getGroupsKeyList
 	env := self browsedEnvironment.
 	^ env isSystem
 		ifTrue: [ self groupsManager groups ]
-		ifFalse: [ self groupsManager groups select: [:g | (g classes intersection: self model classes) isEmpty not ]]
+		ifFalse: [ self groupsManager groups reject: [ :g | (g classes intersection: self model classes) isEmpty ] ]

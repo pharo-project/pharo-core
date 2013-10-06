@@ -3,10 +3,10 @@ forEvent: anEventSelector
 
     | action |
     action := actionSequence asMinimalRepresentation.
-    action == nil
-        ifTrue:
+    action 
+	  ifNil:
             [self removeActionsForEvent: anEventSelector]
-        ifFalse:
+        ifNotNil:
             [self updateableActionMap
                 at: anEventSelector asSymbol
                 put: action]

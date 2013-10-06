@@ -1,7 +1,6 @@
 privateActionIcon
 	"Return the icon for this action"
 
-	| testMethod |
 	isOverride
 		ifTrue: [ 
 			isOverridden

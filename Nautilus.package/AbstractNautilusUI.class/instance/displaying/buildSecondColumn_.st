@@ -12,8 +12,7 @@ buildSecondColumn: aWindow
 						bottomRightOffset: 0@25 );
 		hResizing: #spaceFill;
 		vResizing: #rigid;
-		height: 25;
-		yourself.
+		height: 25.
 		
 	^ secondColumn :=  PanelMorph new
 						changeProportionalLayout;

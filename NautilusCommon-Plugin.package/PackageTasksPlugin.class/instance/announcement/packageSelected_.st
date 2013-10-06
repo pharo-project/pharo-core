@@ -1,6 +1,6 @@
 packageSelected: anAnnouncement
 	
-	| package name |
+	| package |
 	package := anAnnouncement package.
 	package
 		ifNil: [ tasks removeAll ]

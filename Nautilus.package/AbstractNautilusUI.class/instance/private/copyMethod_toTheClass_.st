@@ -1,8 +1,8 @@
 copyMethod: aMethod toTheClass: aClass 
-	| newMethod shouldBeInstall |
+	| newMethod |
 	
 	aMethod realClass = aClass ifTrue: [ ^ self ].
-	shouldBeInstall := aClass methodDict
+	aClass methodDict
 						at: aMethod selector
 						ifPresent: [:sel | 
 							" here I have to fork to release the drag & drop "

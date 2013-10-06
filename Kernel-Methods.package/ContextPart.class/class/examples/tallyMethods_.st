@@ -9,9 +9,9 @@ tallyMethods: aBlock
 		contextAtEachStep:
 			[:current |
 			current == prev ifFalse: "call or return"
-				[prev sender == nil ifFalse: "call only"
+				[prev sender ifNotNil: "call only"
 					[tallies add: current printString].
 				prev := current]].
-	^tallies sortedCounts
+	^ tallies sortedCounts
 
 	"ContextPart tallyMethods: [3.14159 printString]"

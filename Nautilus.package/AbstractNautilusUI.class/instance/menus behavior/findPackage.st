@@ -1,7 +1,7 @@
 findPackage
 
 	"Search for a package from a pattern or from the recent list"
-	| foundPackage packagesList |
+	| foundPackage |
 	self okToChange ifFalse: [^ self ].
 
 	"packagesList := (self model recentClasses elements collect: [:each | each package name]) asSet asArray sort.

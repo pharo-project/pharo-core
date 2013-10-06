@@ -5,10 +5,9 @@ testCaseStarted: anAnnouncement
 	class := anAnnouncement testCase class.
 	selector := anAnnouncement testSelector.
 	self selectedClass = class
-		ifTrue: [| method correspondingClass icon |
+		ifTrue: [| method icon |
 			icon := Smalltalk ui icons iconNamed: #testNotRunIcon.
 			method := class methodNamed: selector.
-			correspondingClass := class correspondingClass.
 			self methodWidget 
 				setIcon: icon for: method;
 				updateList ]

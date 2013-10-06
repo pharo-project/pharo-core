@@ -3,7 +3,7 @@ removeMethods
 	self selectedClass 
 		ifNotNil: [:class |
 			self selectedMethods
-				ifNotEmpty: [:items || scroll needToUpdate selectedMethodStillExists |
+				ifNotEmpty: [:items || scroll needToUpdate |
 					scroll := methodWidget vScrollValue.
 					needToUpdate := self removeMethods: items inClass: class.
 					

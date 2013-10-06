@@ -1,4 +1,4 @@
 environment
 
-	environment == nil ifTrue: [^ super environment].
+	environment ifNil: [^ super environment].
 	^ environment

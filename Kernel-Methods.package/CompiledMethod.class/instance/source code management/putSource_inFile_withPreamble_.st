@@ -6,8 +6,8 @@ putSource: sourceStr inFile: fileIndex withPreamble: preambleBlock
 	in each case, storing a 4-byte source code pointer at the method end."
 
 	| file remoteString |
-	(SourceFiles == nil or: [(file := SourceFiles at: fileIndex) == nil]) ifTrue:
-		[^self becomeForward: (self copyWithSource: sourceStr)].
+	(SourceFiles isNil or: [ (file := SourceFiles at: fileIndex) isNil ]) ifTrue:
+		[ ^ self becomeForward: (self copyWithSource: sourceStr) ].
 
 	Smalltalk assureStartupStampLogged.
 	file setToEnd.
@@ -15,5 +15,5 @@ putSource: sourceStr inFile: fileIndex withPreamble: preambleBlock
 	preambleBlock value: file.  "Write the preamble"
 	remoteString := RemoteString newString: sourceStr onFileNumber: fileIndex toFile: file.
 	file nextChunkPut: ' '.
-	InMidstOfFileinNotification signal ifFalse: [file flush].
+	InMidstOfFileinNotification signal ifFalse: [ file flush ].
 	self setSourcePosition: remoteString position inFile: fileIndex

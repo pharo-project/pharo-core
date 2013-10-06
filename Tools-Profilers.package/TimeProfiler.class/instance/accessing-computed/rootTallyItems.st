@@ -1,11 +1,13 @@
 rootTallyItems
 	| res sons groups |
 	res := OrderedCollection new.
-	rootMessageTally 
+	rootMessageTally
 		ifNotNil: [ 
 			sons := rootMessageTally sonsOver: self threshold.
-			groups := sons groupBy: [ :aTally | aTally process] having: [ :g | true].
-			groups do:[:g | self reportOtherProcesses 
-				ifTrue: [res addAll: g asSortedCollection]
-				ifFalse: [res addAll: (g asSortedCollection reject: [:gg | gg process isNil])]]].
+			groups := sons groupBy: [ :aTally | aTally process ] having: [ :g | true ].
+			groups
+				do: [ :g | 
+					self reportOtherProcesses
+						ifTrue: [ res addAll: g ]
+						ifFalse: [ res addAll: (g asSortedCollection reject: [ :gg | gg process isNil ]) ] ] ].
 	^ res

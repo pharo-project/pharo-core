@@ -3,9 +3,9 @@ definition
 
 	| aStream |
 	aStream := (String new: 800) writeStream.
-	superclass == nil
-		ifTrue: [aStream nextPutAll: 'ProtoObject']
-		ifFalse: [aStream nextPutAll: superclass name].
+	superclass 
+		ifNil: [aStream nextPutAll: 'ProtoObject']
+		ifNotNil: [aStream nextPutAll: superclass name].
 	aStream nextPutAll: self kindOfSubclass;
 			store: self name.
 	(self hasTraitComposition) ifTrue: [

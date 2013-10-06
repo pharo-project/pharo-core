@@ -3,7 +3,7 @@ startUp
 	"Details: The virtual machine requires that there is aways some runnable process that can be scheduled; this background process ensures that this is the case."
 
 	Smalltalk installLowSpaceWatcher.
-	BackgroundProcess == nil ifFalse: [BackgroundProcess terminate].
+	BackgroundProcess ifNotNil: [BackgroundProcess terminate].
 	BackgroundProcess := [self idleProcess] newProcess.
 	BackgroundProcess priority: SystemRockBottomPriority.
 	BackgroundProcess name: 'Idle Process'.

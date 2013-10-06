@@ -1,6 +1,6 @@
 buildButtonsColumn
 
-	| column fill |
+	| column |
 	column := PanelMorph new.
 	column 
 		changeTableLayout;
