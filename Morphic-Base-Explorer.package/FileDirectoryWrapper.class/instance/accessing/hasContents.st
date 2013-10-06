@@ -8,6 +8,10 @@ hasContents
 	2. If it's the root directory of a given volume 
 	3. If there is an error computing the FileDirectory's contents
 	"
-	hasContents
-		ifNil: [hasContents := item isDirectory and: [ item hasDirectories ]].
+	hasContents ifNil: [
+		hasContents := [ 
+				item isDirectory 
+				and: [ item isReadable 
+				and: [ item hasDirectories ]]
+			] on: Error do: [ :error | false ]].
 	^ hasContents

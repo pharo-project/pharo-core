@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '11502 Override Class >> #setName:
-	https://pharo.fogbugz.com/f/cases/11502
-
-10548 All system processes should have proper names
-	https://pharo.fogbugz.com/f/cases/10548'
+ ^ '11530 AbstractNautilusUI >> categorizeAllUncategorizedMethods broken
+	https://pharo.fogbugz.com/f/cases/11530
+	
+11497 pharo CI.image --list shows empty entry for default command line handler
+	https://pharo.fogbugz.com/f/cases/11497
+	
+11528 Harden FileDirectoryWrapper
+	https://pharo.fogbugz.com/f/cases/11528'

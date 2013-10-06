@@ -2,5 +2,6 @@ hasDirectories: aResolvable
 	self
 		entriesAt: aResolvable
 		ifAbsent: [  ^ false ]
-		do: [ :entry | entry isDirectory ifTrue: [ ^true ] ].
+		do: [ :entry | 
+			entry isDirectory ifTrue: [ ^true ] ].
 	^false

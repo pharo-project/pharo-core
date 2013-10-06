@@ -2,8 +2,9 @@ list
 	| handlers shortNames maxShortNameSize |
 	self stdout 
 		nextPutAll: 'Currently installed Command Line Handlers:'; lf.
-		
-	handlers := self allHandlers reject: [ :cls| cls = self class ].
+
+	handlers := self allHandlers reject: [ :cls | 
+			cls includesBehavior: BasicCommandLineHandler ].
 	shortNames := handlers collect: #commandName.
 	maxShortNameSize := (shortNames detectMax: [ :name|  name size ]) size.
 	
