@@ -11,8 +11,8 @@ fromString: aString
 		ifFalse: [ aString ].
 		
 	"try to match aColorHex with known named colors, case insensitive."
-	namedColor := self registeredColorNames detect:[:each| each sameAs: aColorHex ].
-	namedColor notNil ifTrue:[ ^ namedColor ].
+	namedColor := self registeredColorNames detect:[:each| each sameAs: aColorHex ] ifNone: nil .
+	namedColor notNil ifTrue:[ ^ self named: namedColor ].
 	
 	(aColorHex size = 6 and: [ aColorHex allSatisfy: [ :character | '0123456789ABCDEFabcdef' includes: character ] ])
 		ifTrue: [ ^self fromHexString: aColorHex ]
