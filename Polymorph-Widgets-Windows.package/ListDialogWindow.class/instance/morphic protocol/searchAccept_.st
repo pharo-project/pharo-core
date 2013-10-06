@@ -7,6 +7,6 @@ searchAccept: aString
 	(list detect: [ :item | (self displayItem: item) = aString] ifNone: [ nil])
 		ifNotNilDo: [ :item| ^ self accept: item ].
 		
-	acceptNewEntry ifTrue: [ self accept: aString ].
-		
+	acceptNewEntry ifTrue: [ ^ self accept: aString ].
+	
 	list ifNotEmpty: [ ^ self giveFocusToList].

@@ -1,0 +1,2 @@
+searchString
+	^ searchMorph searchString

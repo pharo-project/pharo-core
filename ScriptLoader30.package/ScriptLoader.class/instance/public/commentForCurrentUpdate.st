@@ -1,9 +1,7 @@
 commentForCurrentUpdate
- ^ '11617 ConfigurationCommandLine does not handle merge correctly
-	https://pharo.fogbugz.com/f/cases/11617
+ ^ '11572 Cannot create new protocols
+	https://pharo.fogbugz.com/f/cases/11572
 	
-11609 Diff morph should only use colored icons to indicate add / remove
-	https://pharo.fogbugz.com/f/cases/11609
-
-	
+11471 Number >> #asDuration should default to seconds
+	https://pharo.fogbugz.com/f/cases/11471/
 '
