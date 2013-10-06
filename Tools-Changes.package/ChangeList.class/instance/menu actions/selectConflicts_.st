@@ -1,6 +1,5 @@
 selectConflicts: changeSetOrList
 	"Selects all method definitions for which there is ALSO an entry in the specified changeSet or changList"
-	| systemChanges |
 	Cursor read showWhile: 
 	[ | change class |(changeSetOrList isKindOf: ChangeSet) ifTrue: [
 	1 to: changeList size do:

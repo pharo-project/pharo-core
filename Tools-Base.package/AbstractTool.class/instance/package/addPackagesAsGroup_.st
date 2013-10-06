@@ -1,7 +1,7 @@
 addPackagesAsGroup: aCollection
 
 	aCollection
-		ifNotEmpty: [| packages list blocks name | 
+		ifNotEmpty: [| packages blocks name | 
 			packages := aCollection sort: [:a :b | a name <= b name ].
 			blocks := OrderedCollection new.
 			packages do: [:package | blocks add: [ package orderedClasses]].

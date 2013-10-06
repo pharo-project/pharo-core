@@ -1,9 +1,10 @@
 commentForCurrentUpdate
- ^ '11537 remove #classVersion methods and friends
-	https://pharo.fogbugz.com/f/cases/11537
+ ^ '11671 remove empty packages
+	https://pharo.fogbugz.com/f/cases/11671
 	
-11664 SHA1>>#hashStream: should return a ByteArray of size 20
-	https://pharo.fogbugz.com/f/cases/11664
+11672 tiny code critic cleanup in Network, Graphics and Tools
+	https://pharo.fogbugz.com/f/cases/11672
 	
-11663 remove ViewHierarchyExplorer
-	https://pharo.fogbugz.com/f/cases/11663'
+11669 Move classes in System-Applications to Deprecated30
+	https://pharo.fogbugz.com/f/cases/11669
+'

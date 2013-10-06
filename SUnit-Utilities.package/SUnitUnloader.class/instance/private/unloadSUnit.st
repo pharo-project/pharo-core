@@ -7,5 +7,3 @@ unloadSUnit
 		
 	(self sortedForRemovePackages: self sunitPackages) 
 		do: [ :each | (MCPackage named: each name) unload ].
-	
-	AppRegistry removeObsolete.

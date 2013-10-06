@@ -1,5 +1,5 @@
 Object subclass: #AbstractMethodConverter
-	instanceVariableNames: 'shouldShout method'
+	instanceVariableNames: 'method'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Tools-MethodConverters'

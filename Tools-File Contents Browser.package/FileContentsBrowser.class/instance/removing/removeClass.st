@@ -1,5 +1,5 @@
 removeClass
-	| class |
+	| class | 
 	classListIndex = 0 ifTrue: [^ self].
 	class := self selectedClass.
 	(self confirm:'Are you certain that you

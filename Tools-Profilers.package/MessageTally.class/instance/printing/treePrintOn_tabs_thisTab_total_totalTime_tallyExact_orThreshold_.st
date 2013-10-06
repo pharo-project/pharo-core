@@ -13,7 +13,7 @@ treePrintOn: aStream tabs: tabs thisTab: myTab total: total totalTime: totalTime
 		ifFalse: 
 			[tabs addLast: myTab.
 			sons := sons asSortedCollection.
-			(1 to: sons size) do: 
+			1 to: sons size do: 
 					[:i | 
 					sonTab := i < sons size ifTrue: ['  |'] ifFalse: ['  '].
 					(sons at: i) 

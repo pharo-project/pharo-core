@@ -1,5 +1,5 @@
 buildDiffCodePane
-	| morph old new |
+	| old new |
 		
 	listIndex = changeList size
 		ifTrue: [ old := '' ]

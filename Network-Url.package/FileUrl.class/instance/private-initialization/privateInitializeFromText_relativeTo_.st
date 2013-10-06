@@ -2,7 +2,7 @@ privateInitializeFromText: pathString relativeTo: aUrl
 	"<pathString> should be a filesystem path.
 	This url is adjusted to be aUrl + the path."
 
-	| bare newPath |
+	| newPath |
 	self host: aUrl host.
 	self initializeFromPathString: pathString.
 	self isAbsolute: aUrl isAbsolute.
