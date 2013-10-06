@@ -1,7 +1,8 @@
 commentForCurrentUpdate
- ^ '11676 A user with no save right should not be asked
-	https://pharo.fogbugz.com/f/cases/11676
+ ^ '11684 Make Compiler unloadable part 1
+	https://pharo.fogbugz.com/f/cases/11684
 	
-11666 ClassOrganization>>ownCategories missing
-	https://pharo.fogbugz.com/f/cases/11666
-	'
+11685 Make Compiler unloadable part 2
+	https://pharo.fogbugz.com/f/cases/11685
+	
+'
