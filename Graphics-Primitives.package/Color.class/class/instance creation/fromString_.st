@@ -3,7 +3,7 @@ fromString: aString
 	"Color fromString: '#FFCCAA'.
 	 Color fromString: 'orange'"
 	
-	| aColorHex |
+	| aColorHex  namedColor |
 	aString isEmptyOrNil ifTrue: [ ^self white ].
 	
 	aColorHex := aString first = $#
@@ -11,8 +11,8 @@ fromString: aString
 		ifFalse: [ aString ].
 		
 	"try to match aColorHex with known named colors, case insensitive."
-	(ColorNames detect: [:each | each sameAs: aColorHex] ifNone: [ nil ])
-		ifNotNil: [:colorSymbol | ^self perform: colorSymbol].
+	namedColor := self registeredColorNames detect:[:each| each sameAs: aColorHex ].
+	namedColor notNil ifTrue:[ ^ namedColor ].
 	
 	(aColorHex size = 6 and: [ aColorHex allSatisfy: [ :character | '0123456789ABCDEFabcdef' includes: character ] ])
 		ifTrue: [ ^self fromHexString: aColorHex ]

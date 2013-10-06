@@ -1,0 +1,2 @@
+veryPaleRed
+	^  ColorRegistry at: #veryPaleRed

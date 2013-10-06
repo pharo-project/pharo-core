@@ -1,2 +1,0 @@
-yellow
-	^Yellow

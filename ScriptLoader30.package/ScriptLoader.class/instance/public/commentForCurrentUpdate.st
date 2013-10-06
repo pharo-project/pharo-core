@@ -1,11 +1,5 @@
 commentForCurrentUpdate
- ^ '7097 Class Quadrangle only is used in Tests
-	https://pharo.fogbugz.com/f/cases/7097
-	
-3829 Pangrams
-	https://pharo.fogbugz.com/f/cases/3829/Pangrams
-	
-
-	
+ ^ '11433 Move ClassVars in Color referring to named colors to a color cache
+	https://pharo.fogbugz.com/f/cases/11433
 	
 '

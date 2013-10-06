@@ -1,2 +1,0 @@
-lightGray
-	^LightGray

@@ -1,6 +1,7 @@
 initialize
-	"Color initialize"
-	"Details: Externally, the red, green, and blue components of color
+	"Color initialize
+	
+	Details: Externally, the red, green, and blue components of color
 	are floats in the range [0.0..1.0]. Internally, they are represented
 	as integers in the range [0..ComponentMask] packing into a
 	small integer to save space and to allow fast hashing and
@@ -17,32 +18,8 @@ initialize
 	RedShift := 20.
 	GreenShift := 10.
 	BlueShift := 0.
-	PureRed := self 
-		r: 1
-		g: 0
-		b: 0.
-	PureGreen := self 
-		r: 0
-		g: 1
-		b: 0.
-	PureBlue := self 
-		r: 0
-		g: 0
-		b: 1.
-	PureYellow := self 
-		r: 1
-		g: 1
-		b: 0.
-	PureCyan := self 
-		r: 0
-		g: 1
-		b: 1.
-	PureMagenta := self 
-		r: 1
-		g: 0
-		b: 1.
 	RandomStream := Random new.
 	self initializeIndexedColors.
+	self initializeColorRegistry.
 	self initializeGrayToIndexMap.
-	self initializeNames.
-	self initializeHighLights
+	self initializeHighLights.

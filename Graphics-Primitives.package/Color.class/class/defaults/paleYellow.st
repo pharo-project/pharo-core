@@ -1,0 +1,2 @@
+paleYellow
+	^  ColorRegistry at: #paleYellow.

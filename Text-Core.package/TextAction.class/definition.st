@@ -1,5 +1,5 @@
 TextAttribute subclass: #TextAction
 	instanceVariableNames: ''
-	classVariableNames: 'Purple'
+	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Text-Core'

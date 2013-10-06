@@ -1,0 +1,2 @@
+magenta
+	^ ColorRegistry at: #magenta

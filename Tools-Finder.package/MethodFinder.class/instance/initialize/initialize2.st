@@ -124,7 +124,7 @@ next:put: nextPut: nextPutAll: "printing" print:
 "accessing" x y "comparing" "arithmetic" "truncation and round off"
 "polar coordinates" degrees r theta
 "point functions" bearingToPoint: crossProduct: dist: dotProduct: eightNeighbors flipBy:centerAt: fourNeighbors grid: nearestPointAlongLineFrom:to: nearestPointOnLineFrom:to: normal normalized octantOf: onLineFrom:to: onLineFrom:to:within: quadrantOf: rotateBy:centerAt: transposed unitVector
-"converting" asFloatPoint asIntegerPoint corner: extent: rectangle:
+"converting" asFloatPoint asIntegerPoint corner: extent: rect:
 "transforming" adhereTo: rotateBy:about: scaleBy: scaleFrom:to: translateBy: "copying"
 "interpolating" interpolateTo:at:) do: [:sel | Approved add: sel].
 
@@ -142,7 +142,7 @@ next:put: nextPut: nextPutAll: "printing" print:
 "Color"
 	#("in class, instance creation" colorFrom: colorFromPixelValue:depth: fromRgbTriplet: gray: h:s:v: r:g:b: r:g:b:alpha: r:g:b:range:
 	"named colors" black blue brown cyan darkGray gray green lightBlue lightBrown lightCyan lightGray lightGreen lightMagenta lightOrange lightRed lightYellow magenta orange red transparent veryDarkGray veryLightGray veryVeryDarkGray veryVeryLightGray white yellow
-	"other" colorNames indexedColors pixelScreenForDepth: quickHighLight:
+	"other"  indexedColors pixelScreenForDepth: quickHighLight:
 "access" alpha blue brightness green hue luminance red saturation
 "equality"
 "queries" isBitmapFill isBlack isGray isSolidFill isTranslucent isTranslucentColor

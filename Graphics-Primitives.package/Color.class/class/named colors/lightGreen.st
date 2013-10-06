@@ -1,2 +1,0 @@
-lightGreen
-	^LightGreen

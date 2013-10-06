@@ -1,2 +1,0 @@
-lightOrange
-	^LightOrange
