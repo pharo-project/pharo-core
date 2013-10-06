@@ -1,4 +1,9 @@
 commentForCurrentUpdate
- ^ '11540 Monticello unique names should be calculated in destination repository, not all
-	https://pharo.fogbugz.com/f/cases/11540
-'
+ ^ '11541 testInsettingByPointPairShouldNotProduceNegativeRectangle
+	https://pharo.fogbugz.com/f/cases/11541
+	
+11538 remove #defaultMethodTrailer in TBehavior
+	https://pharo.fogbugz.com/f/cases/11538
+	
+
+	'
