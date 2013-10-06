@@ -2,4 +2,4 @@ lookInImageFolder
 
 	^ self 
 		lookInFolder: FileSystem workingDirectory 
-		forFilesMatching: StartupLoader startupScriptName.
+		forFilesMatching: StartupPreferencesLoader startupScriptName.

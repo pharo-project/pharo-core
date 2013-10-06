@@ -1,0 +1,3 @@
+runPreferences
+
+	StartupPreferencesLoader default loadFromDefaultLocations

@@ -7,18 +7,18 @@ example4
 		FileStream stdout lf; nextPutAll: 'Setting general preferences for all Pharo versions'; lf.
 		FileStream stdout lf; nextPutAll: 'Finished'; lf.
 		 ]).
-	StartupLoader default addAtStartupInGeneralPreferenceFolder: items named: 'generalSettings.st'.
+	StartupPreferencesLoader default addAtStartupInGeneralPreferenceFolder: items named: 'generalSettings.st'.
 	
 	items removeAll.
 	items add: (StartupAction name: 'Settings' code: [ 
 		FileStream stdout lf; nextPutAll: 'Setting general preferences for Pharo 2.0'; lf.
 		FileStream stdout lf; nextPutAll: 'Finished'; lf.
 		 ]).
-	StartupLoader default addAtStartupInPreferenceVersionFolder: items named: 'settings.st'.
+	StartupPreferencesLoader default addAtStartupInPreferenceVersionFolder: items named: 'settings.st'.
 	
 	items removeAll.
 	items add: (StartupAction name: 'Image diretory' code: [ 
 		FileStream stdout lf; nextPutAll: 'Setting preferences for image directory'; lf.
 		FileStream stdout lf; nextPutAll: 'Finished'; lf.
 		 ]).
-	StartupLoader default addAtStartupInImageDirectory: items 
+	StartupPreferencesLoader default addAtStartupInImageDirectory: items 

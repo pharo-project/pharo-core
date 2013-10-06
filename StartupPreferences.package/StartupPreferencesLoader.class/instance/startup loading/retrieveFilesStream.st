@@ -1,0 +1,3 @@
+retrieveFilesStream
+
+	^ StartupPreferencesHandler new perform

@@ -1,5 +1,5 @@
 Object subclass: #StartupLoader
-	instanceVariableNames: 'errors actions'
-	classVariableNames: 'AllowStartupScript UniqueInstance'
+	instanceVariableNames: ''
+	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'StartupPreferences'

@@ -7,6 +7,6 @@ execute
 				ifFalse: [[ self class compiler evaluate: self code ]].
 	correctlyExecuted := true. 
 	block on: Halt, Error do: [ :ex | 
-		StartupLoader default errors add: {ex. self}.
+		StartupPreferencesLoader default errors add: {ex. self}.
 		ex pass ].
 	self hasBeenExecuted: correctlyExecuted.

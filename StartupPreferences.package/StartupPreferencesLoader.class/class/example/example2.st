@@ -5,13 +5,13 @@ example2
 	items := OrderedCollection new.
 	items add: (StartupAction name: 'Set the Author' code: [ Author fullName: Author fullName printString ]). "replace it by your name"
 	
-	StartupLoader default addAtStartupInPreferenceVersionFolder: items named: 'author.st'.
+	StartupPreferencesLoader default addAtStartupInPreferenceVersionFolder: items named: 'author.st'.
 	items removeAll.
 	
 	items add: (StartupAction name: 'Debugger option' code: [ Smalltalk tools debugger alwaysOpenFullDebugger: true ]).
 	items add: (StartupAction name: 'Dragging Option' code: [ UITheme defaultSettings fastDragging: true ]).
 	items add: (StartupAction name: 'Dialog Auto Accept' code: [ TextEditorDialogWindow autoAccept: true ]).
-	StartupLoader default addAtStartupInPreferenceVersionFolder: items named: 'settings.st'.
+	StartupPreferencesLoader default addAtStartupInPreferenceVersionFolder: items named: 'settings.st'.
 	items removeAll.
 	
 	items add: (StartupAction name: 'Fonts option' code: [ FreeTypeSystemSettings loadFt2Library: true.
@@ -20,8 +20,8 @@ StandardFonts defaultFont: (LogicalFont familyName: 'Lucida Grande' pointSize: 1
 GraphicFontSettings resetAllFontToDefault.
 StandardFonts codeFont: (LogicalFont familyName: 'Consolas' pointSize: 10).] runOnce: true).
 	
-	StartupLoader default addAtStartupInPreferenceVersionFolder: items named: 'fonts.st'.
+	StartupPreferencesLoader default addAtStartupInPreferenceVersionFolder: items named: 'fonts.st'.
 	items removeAll.
-	StartupLoader default addAtStartupInImageDirectory: items.
+	StartupPreferencesLoader default addAtStartupInImageDirectory: items.
 	
-	StartupLoader default loadStartupScript.
+	StartupPreferencesLoader default loadFromDefaultLocations.

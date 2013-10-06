@@ -1,3 +1,0 @@
-retrieveFilesStream
-
-	^ PreferencesHandler new perform

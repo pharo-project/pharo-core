@@ -17,6 +17,6 @@ exportSettings
 		actions := actions reject: [:e | e isNil ].
 		
 	actions groupsOf: groupSize atATimeDo: [:l | 
-		StartupLoader default addAtStartupInPreferenceVersionFolder: l named: 'exported_settings',index printString, '.st'.
+		StartupPreferencesLoader default addAtStartupInPreferenceVersionFolder: l named: 'exported_settings',index printString, '.st'.
 		index := index +1 ].
-	StartupLoader default addAtStartupInPreferenceVersionFolder: (actions last: (actions size rem: groupSize)) named: 'exported_settings',index printString, '.st'
+	StartupPreferencesLoader default addAtStartupInPreferenceVersionFolder: (actions last: (actions size rem: groupSize)) named: 'exported_settings',index printString, '.st'

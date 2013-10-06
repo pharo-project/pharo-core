@@ -1,4 +1,4 @@
-Object subclass: #PreferencesHandler
+Object subclass: #StartupPreferencesHandler
 	instanceVariableNames: 'firstLink actions'
 	classVariableNames: ''
 	poolDictionaries: ''

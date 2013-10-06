@@ -2,7 +2,7 @@ startupLoaderMenuOn: aBuilder
 	<worldMenu>
 	
 	(aBuilder item: #startupLoader)
-		action: [ self default loadStartupScript ];
+		action: [ self default loadFromDefaultLocations ];
 		label: 'Run startup scripts';
 		parent: #System;
 		order: 2;

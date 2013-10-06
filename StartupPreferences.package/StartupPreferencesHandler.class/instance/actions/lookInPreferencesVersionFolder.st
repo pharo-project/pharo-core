@@ -1,5 +1,5 @@
 lookInPreferencesVersionFolder
 
 	^ self 
-		lookInFolder: StartupLoader preferencesVersionFolder 
+		lookInFolder: StartupPreferencesLoader preferencesVersionFolder 
 		forFilesMatching: '*.st'.

@@ -6,7 +6,7 @@ I should only be displayed once.
 	
  You can also see StartupLoader class>>#example'' label: ''Help''' runOnce: true.
 	item2 := StartupAction name: 'Open Workspace' code:  [ Workspace openContents: 'I should be displayed each time' ].
-	StartupLoader default addAtStartupInGeneralPreferenceFolder: {item1. item2}.
+	StartupPreferencesLoader default addAtStartupInGeneralPreferenceFolder: {item1. item2}.
 	
-	StartupLoader default loadStartupScript.
-	StartupLoader default loadStartupScript.
+	StartupPreferencesLoader default loadFromDefaultLocations.
+	StartupPreferencesLoader default loadFromDefaultLocations.

@@ -5,6 +5,6 @@ example3
 	items := OrderedCollection new.
 	items add: (StartupAction name: 'Self halt' code: [ self halt ]). "replace it by your name"
 	items add: (StartupAction name: 'WS' code: [ Workspace open ]). "replace it by your name"
-	StartupLoader default addAtStartupInPreferenceVersionFolder: items named: 'author.st'.
+	StartupPreferencesLoader default addAtStartupInPreferenceVersionFolder: items named: 'author.st'.
 
-	StartupLoader default loadStartupScript.
+	StartupPreferencesLoader default loadFromDefaultLocations.
