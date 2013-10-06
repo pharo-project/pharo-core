@@ -1,4 +1,4 @@
-KMModifier subclass: #KMCommandModifier
+KMModifier subclass: #KMMetaModifier
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

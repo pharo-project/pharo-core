@@ -1,0 +1,2 @@
+meta
+	^ KMModifier meta + self

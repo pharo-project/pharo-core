@@ -1,2 +1,2 @@
 printOn: aStream
-	aStream nextPutAll: (self printStringFor: key) asString asUppercase.
+	aStream nextPutAll: self name asUppercase.

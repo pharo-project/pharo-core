@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '11622 remove bogus method in Number
-	https://pharo.fogbugz.com/f/cases/11622
+ ^ '11618 Introduce KMMetaModifier and KMUntypeableSingleKeyCombination
+	https://pharo.fogbugz.com/f/cases/11618
 	
-11621 New widget to edit an ordered list
-	https://pharo.fogbugz.com/f/cases/11621
 	
-11627 prevent completion from popping out with empty list
-	https://pharo.fogbugz.com/f/cases/11627'
+'
