@@ -9,4 +9,4 @@ kernelPackageNames
 'System-FileRegistry' 'System-Finalization' 'System-Localization' 'System-Object Events' 'System-Platforms' 
 'System-Support' 'Text-Core' 'Traits' 'UIManager' 'Transcript' 'FileSystem-AnsiStreams' 'FileSystem-Core' 
 'FileSystem-Disk' 'FileSystem-Memory' 'CodeImport' 'Regex-Core' 'SystemProgress' 'System-Announcements' 'Ring-Core-Kernel' 
-'Ring-Core-Containers' 'System-PragmaCollector' 'OpalCompiler-Core' 'ClassOrganizer-Core')
+'Ring-Core-Containers' 'System-PragmaCollector' 'OpalCompiler-Core' 'ClassOrganizer-Core' 'Slot' 'NonInteractiveTranscript')
