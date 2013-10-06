@@ -1,13 +1,9 @@
 commentForCurrentUpdate
- ^ '11599 Transcript menu is broken
-	https://pharo.fogbugz.com/f/cases/11599
+ ^ '11569 World > System > System Reporter Win32 Environment Variables
+	https://pharo.fogbugz.com/f/cases/11569
 	
-11600 RBPlatform and RBPharoPlatform can be removed
-	https://pharo.fogbugz.com/f/cases/11600
+11608 #testSendSuper failing
+	https://pharo.fogbugz.com/f/cases/11608
 	
-11604 remove more sender of #halt:
-	https://pharo.fogbugz.com/f/cases/11604
-	
-11496 SpecDebugger close window keyboard shortcut not working when freshly opened
-	https://pharo.fogbugz.com/f/cases/11496
-	'
+11598 shadowForm is very slow for what it does
+	https://pharo.fogbugz.com/f/cases/11598'

@@ -11,6 +11,6 @@ testSendSuper
 
 
 	self assert: (aCompiledMethod isKindOf: CompiledMethod).
-     self should: [(aCompiledMethod valueWithReceiver: (self class new) arguments: #())] raise: Halt.
+     self should: [(aCompiledMethod valueWithReceiver: (self class new) arguments: #())] raise: Error.
 	^iRMethod
 	
