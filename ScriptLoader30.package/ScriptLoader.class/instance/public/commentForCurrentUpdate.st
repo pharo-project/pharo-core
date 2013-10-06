@@ -1,4 +1,6 @@
 commentForCurrentUpdate
- ^ '11740 Remove Morphic dependency from Spec
-	https://pharo.fogbugz.com/f/cases/11740
-	'
+ ^ '11777 Fix SpecTests
+	https://pharo.fogbugz.com/f/cases/11777
+	
+11776 Fix Create action on #subclassResponsibility
+	https://pharo.fogbugz.com/f/cases/11776'

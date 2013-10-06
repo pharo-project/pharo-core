@@ -6,7 +6,12 @@ executeAction
 		selector: senderContext selector
 		arguments: senderContext arguments.
 	msgCategory := senderContext methodClass organization categoryOfElement: msg selector.
-	chosenClass := self interruptedContext receiver class.
+	
+	chosenClass := self 
+		askForSuperclassOf: senderContext receiver class 
+		to: senderContext methodClass 
+		toImplement: senderContext selector 
+		ifCancel: [ ^ self ].
 
 	self session 
 		implement: msg 

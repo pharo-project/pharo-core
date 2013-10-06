@@ -1,4 +1,4 @@
 testingSpec
 
-	^ {#Text.
+	^ {#PluggableTextMorph.
 		#model:.	#model}.
