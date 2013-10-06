@@ -3,7 +3,7 @@ stepToSendOrReturn
 	returning a value to the receiver (that is, until switching contexts)."
 
 	| context |
-	[ self willSend | self willReturn | self willStore ]
+	[ self willSend or: [  self willReturn or: [ self willStore ] ] ]
 		whileFalse: [
 			context := self step.
 			context == self ifFalse: [

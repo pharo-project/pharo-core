@@ -1,6 +1,6 @@
 drawOn: aCanvas 
 	| stringColor stringBounds |
-	isSelected & isEnabled
+	(isSelected and: [ isEnabled ])
 		ifTrue: [aCanvas fillRectangle: self bounds fillStyle: self selectionFillStyle.
 			stringColor := color negated]
 		ifFalse: [stringColor := color].

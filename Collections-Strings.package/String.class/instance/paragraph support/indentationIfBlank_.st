@@ -11,5 +11,5 @@ indentationIfBlank: aBlock
 	[ reader atEnd not and: [ ch isSeparator and: [ ch ~= cr ] ] ] whileTrue: 
 		[ lastSeparator := lastSeparator + 1.
 		ch := reader next ].
-	lastSeparator = self size | (ch = cr) ifTrue: [ ^ aBlock value: leadingTabs ].
+	(lastSeparator = self size or: [ ch = cr ]) ifTrue: [ ^ aBlock value: leadingTabs ].
 	^ leadingTabs

@@ -19,7 +19,7 @@ extractMinusParameters
 	args ifEmpty: [ ^ dict ].
 
 	previous := previousWithMinus := args detect: [ :each | each first = $- ].
-	[ (args first = previous) & (args isEmpty not) ] whileFalse: [ args removeFirst ].
+	[ (args first = previous) and: [args isEmpty not] ] whileFalse: [ args removeFirst ].
 	
 	args do: [ :each |
 		(each first = $-)

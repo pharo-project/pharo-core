@@ -2,7 +2,7 @@ coefficientsForMoreThanThreePoints
 	"Less than three points handled as segments by our lineSegmentsDo:"
 	| verts coefficients vertXs slopeXs vertYs slopeYs bestSegments |
 	verts := self vertices. 
-	(self isCurvier) not & closed ifTrue: [
+	(self isCurvier not and: [ closed ]) ifTrue: [
 		verts := verts , verts first asOrderedCollection].
 	
 	coefficients := {

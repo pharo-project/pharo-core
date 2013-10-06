@@ -1,6 +1,6 @@
 withNoLineLongerThan: aNumber
 	"Answer a string with the same content as receiver, but rewrapped so that no line has more characters than the given number"
-	aNumber isNumber not | (aNumber < 1) ifTrue: [self error: 'too narrow'].
+	(aNumber isNumber not or: [ aNumber < 1 ]) ifTrue: [self error: 'too narrow'].
 	^self class
 		new: self size * (aNumber + 1) // aNumber "provision for supplementary line breaks"
 		streamContents: [ :stream |

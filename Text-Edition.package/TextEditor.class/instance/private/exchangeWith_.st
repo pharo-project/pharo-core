@@ -5,10 +5,10 @@ exchangeWith: prior
 	 exchanged with a caret).  If both selections are carets, flash & do nothing.
 	 Don't affect the paste buffer.  Undoer: itself; Redoer: Undoer."
 
-	| start stop before currSelection priorSelection delta redoArgs altInterval undoArgs undoRec |
+	| start stop before currSelection priorSelection delta redoArgs altInterval undoArgs |
 	start := self startIndex.
 	stop := self stopIndex - 1.
-	((prior first <= prior last) | (start <= stop) "Something to exchange" and:
+	(((prior first <= prior last) or: [ start <= stop]) "Something to exchange" and:
 			[self isDisjointFrom: prior])
 		ifTrue:
 			[before := prior last < start.

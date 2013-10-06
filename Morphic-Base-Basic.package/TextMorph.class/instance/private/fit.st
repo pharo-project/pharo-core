@@ -16,7 +16,7 @@ fit
 							[para := paragraph.	"Save para (layoutChanged smashes it)"
 							super extent: newExtent.
 							paragraph := para]].
-			container notNil & successor isNil 
+			(container notNil and: [successor isNil])
 				ifTrue: 
 					[cBounds := container bounds truncated.
 					"23 sept 2000 - try to allow vertical growth"

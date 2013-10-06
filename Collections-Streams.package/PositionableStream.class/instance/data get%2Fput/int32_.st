@@ -2,7 +2,7 @@ int32: anInteger
 	"Store the given signed, 32-bit integer on this (binary) stream."
 
 	| n |
-	(anInteger < -16r80000000) | (anInteger >= 16r80000000)
+	(anInteger < -16r80000000 or: [anInteger >= 16r80000000])
 		ifTrue: [self error: 'outside 32-bit integer range'].
 
 	anInteger < 0

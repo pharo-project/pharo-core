@@ -15,9 +15,9 @@ by which the dashes will move in each step of animation]' translated
 		[^ self stopStepping; dashedBorder: nil].
 	newSpec := [self class compiler evaluate: executableSpec] ifError:
 		[^ self stopStepping; dashedBorder: nil].
-	newSpec first isNumber & newSpec second isNumber & newSpec third isColor ifFalse:
+	(newSpec first isNumber and: [newSpec second isNumber and: [newSpec third isColor]]) ifFalse:
 		[^ self stopStepping; dashedBorder: nil].
 	newSpec size = 3 ifTrue:
 		[^ self stopStepping; dashedBorder: newSpec].
-	(newSpec size = 5 and: [newSpec fourth isNumber & newSpec fifth isNumber]) ifTrue:
+	(newSpec size = 5 and: [newSpec fourth isNumber and: [newSpec fifth isNumber]]) ifTrue:
 		[^ self dashedBorder: newSpec; startStepping].

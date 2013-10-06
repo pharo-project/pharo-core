@@ -2,7 +2,7 @@ int16: anInteger
 	"Store the given signed, 16-bit integer on this (binary) stream."
 
 	| n |
-	(anInteger < -16r8000) | (anInteger >= 16r8000)
+	((anInteger < -16r8000) or: [anInteger >= 16r8000])
 		ifTrue: [self error: 'outside 16-bit integer range'].
 
 	anInteger < 0

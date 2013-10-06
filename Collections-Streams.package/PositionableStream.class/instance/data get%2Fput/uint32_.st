@@ -1,7 +1,7 @@
 uint32: anInteger
 	"Store the given unsigned, 32-bit integer on this (binary) stream."
 
-	(anInteger < 0) | (anInteger >= 16r100000000)
+	(anInteger < 0 or: [ anInteger >= 16r100000000 ])
 		ifTrue: [self error: 'outside unsigned 32-bit integer range'].
 
 	self nextPut: (anInteger digitAt: 4).
