@@ -1,5 +1,5 @@
 nextChunk
-	| out next |
+	| out |
 	out := (String new: 1000) writeStream.
 	readStream skipSeparators.
 	[ self isChunkEnd ] whileFalse: [

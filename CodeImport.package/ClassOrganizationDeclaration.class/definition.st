@@ -1,5 +1,5 @@
 BehaviorInstallingDeclaration subclass: #ClassOrganizationDeclaration
-	instanceVariableNames: 'classOrganizer'
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'CodeImport'

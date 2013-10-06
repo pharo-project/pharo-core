@@ -14,26 +14,26 @@ parseMethodDeclarations: methodsPreamble
 	#(#CodeImportTestCaseTestClass #methodsFor: 'some protocol')
 	
 	"
-	
 	behaviorName := methodsPreamble first.
-	isMeta := (methodsPreamble second = #methodsFor:) not.
-	category := isMeta 
-					ifTrue: [ methodsPreamble at: 4 ]
-					ifFalse: [ methodsPreamble at: 3 ].
-	
+	isMeta := methodsPreamble second ~= #methodsFor:.
+	category := isMeta
+		ifTrue: [ methodsPreamble at: 4 ]
+		ifFalse: [ methodsPreamble at: 3 ].
 	stamp := ''.
-	methodsPreamble size > 4 ifTrue: [
-		stamp := isMeta ifTrue: [ methodsPreamble at: 6 ] ifFalse: [ methodsPreamble at: 5 ].
-	].
-	
-	[
-		methodSource := self nextChunk.
-		methodSource notEmpty
-	] whileTrue: [ 
-		self addDeclaration: (MethodDeclaration
-								contents: methodSource
-								behaviorName: behaviorName asSymbol
-								isMeta: isMeta
-								category: category
-								stamp: stamp).
-	]
+	methodsPreamble size > 4
+		ifTrue: [ 
+			stamp := isMeta
+				ifTrue: [ methodsPreamble at: 6 ]
+				ifFalse: [ methodsPreamble at: 5 ] ].
+	[ 
+	methodSource := self nextChunk.
+	methodSource notEmpty ]
+		whileTrue: [ 
+			self
+				addDeclaration:
+					(MethodDeclaration
+						contents: methodSource
+						behaviorName: behaviorName asSymbol
+						isMeta: isMeta
+						category: category
+						stamp: stamp) ]

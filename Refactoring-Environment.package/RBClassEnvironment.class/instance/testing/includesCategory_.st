@@ -8,4 +8,4 @@ includesCategory: aCategory
 					class := self systemDictionary at: each ifAbsent: [ nil ].
 					class notNil 
 						and: [ (self includesClass: class)
-						or: [ self includesClass: class class ] ] ] ] ]
+						or: [ self includesClass: class class ]]]]]

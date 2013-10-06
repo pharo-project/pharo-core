@@ -6,12 +6,9 @@ parseClassOrganization: classOrganizationPreamble
 	if class side:
 	
 	#(#CodeImportTestCaseTestClass #class #reorganize)
-	
 	"
-	| behaviorName isMeta stamp |
+
+	| behaviorName isMeta |
 	behaviorName := classOrganizationPreamble first.
-	isMeta := (classOrganizationPreamble second = #reorganize) not.
-	self addDeclaration: (ClassOrganizationDeclaration
-							contents: self nextChunk
-							behaviorName: behaviorName
-							isMeta: isMeta)
+	isMeta := classOrganizationPreamble second ~= #reorganize.
+	self addDeclaration: (ClassOrganizationDeclaration contents: self nextChunk behaviorName: behaviorName isMeta: isMeta)

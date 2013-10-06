@@ -8,13 +8,17 @@ parseCommentDeclaration: commentPreamble
 	#(#CodeImportTestCaseTestClass #class #commentStamp: '<historical>' #prior: 0)
 	allButFirst:
 	"
+
 	| behaviorName isMeta stamp |
 	behaviorName := commentPreamble first asSymbol.
-	isMeta := (commentPreamble second = #commentStamp:) not.
-	stamp := isMeta ifTrue: [commentPreamble at: 4] ifFalse: [commentPreamble at: 3].
-	
-	self addDeclaration: (ClassCommentDeclaration
-							contents: self nextChunk
-							behaviorName: behaviorName
-							isMeta: isMeta
-							stamp: stamp)
+	isMeta := commentPreamble second ~= #commentStamp:.
+	stamp := isMeta
+		ifTrue: [ commentPreamble at: 4 ]
+		ifFalse: [ commentPreamble at: 3 ].
+	self
+		addDeclaration:
+			(ClassCommentDeclaration
+				contents: self nextChunk
+				behaviorName: behaviorName
+				isMeta: isMeta
+				stamp: stamp)

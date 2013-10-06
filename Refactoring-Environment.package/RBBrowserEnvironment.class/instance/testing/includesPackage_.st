@@ -1,0 +1,2 @@
+includesPackage: packageName
+	^ true
