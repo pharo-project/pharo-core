@@ -1,8 +1,7 @@
 assertMethodChunkIsWellFormed: chunk
 	self class compiler
-		parse: chunk readStream 
-		class: UndefinedObject 
-		noPattern: false
-		context: nil
-		notifying: nil
-		ifFail: [self assert: false]
+		source: chunk readStream;
+		class: UndefinedObject;
+		failBlock: [self assert: false];
+		translate.
+	

@@ -8,10 +8,11 @@ evaluateSelectionAndDo: aBlock
 				ctxt := model doItContext]
 		ifFalse: [ rcvr := ctxt := nil].
 	result := rcvr class compiler
-			evaluate: self selectionForDoitAsStream
-			in: ctxt
-			to: rcvr
-			notifying: self morph  "don't set it to self.. The receiver can be destroyed as a result of evaluateSelection"
-			ifFail: [self morph flash. ^nil]
-			logged: true.
+			source: self selectionForDoitAsStream;
+			context: ctxt;
+			receiver: rcvr;
+			requestor: self morph  "don't set it to self.. The receiver can be destroyed as a result of evaluateSelection";
+			failBlock:  [self morph flash. ^ nil];
+			evaluate.		
+			
 	^ aBlock value: result

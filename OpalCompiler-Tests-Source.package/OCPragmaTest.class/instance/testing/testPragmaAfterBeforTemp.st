@@ -1,7 +1,7 @@
 testPragmaAfterBeforTemp
 	"self debug: #testPragmaAfterBeforTemp"
 	| aRBMethode |
-	aRBMethode := OpalCompiler new parse: self methodPragmaAfterBeforTemps in: self class notifying: nil.
+	aRBMethode := OpalCompiler new parse: self methodPragmaAfterBeforTemps.
 
 
 	self assert: (aRBMethode compiledMethod pragmas first keyword = #hello:).

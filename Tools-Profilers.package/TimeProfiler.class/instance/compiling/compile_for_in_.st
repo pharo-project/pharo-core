@@ -2,9 +2,12 @@ compile: codeString for: anObject in: evalContext
 
 	| methodNode |
 	methodNode := Smalltalk compiler
-		compileNoPattern: ('self runBlock: [', codeString, ']')
-		in: anObject class
-		context: evalContext
-		notifying: self
-		ifFail: [^nil].
+		source: ('self runBlock: [', codeString, ']');
+		class: anObject class;
+		context: evalContext;
+		requestor: self;
+		noPattern: true;
+		failBlock: [^nil];
+		translate.
+		
 	^ methodNode generateWithSource.

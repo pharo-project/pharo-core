@@ -4,9 +4,8 @@ recompile: selector from: oldClass
 	| method methodNode |
 	method := oldClass compiledMethodAt: selector.
 	methodNode := self compiler
-				compile: (oldClass sourceCodeAt: selector)
-				in: self
-				notifying: nil
-				ifFail: [^ self].   "Assume OK after proceed from SyntaxError"
+				source: (oldClass sourceCodeAt: selector);
+				failBlock:  [^ self];
+				translate.
 	selector == methodNode selector ifFalse: [self error: 'selector changed!'].
 	self basicAddSelector: selector withMethod: (methodNode generate: method trailer).

@@ -1,6 +1,5 @@
 testPrimitivePragmaNumber
 	| aRBMethode |
 
-	aRBMethode := OpalCompiler new parse: self methodPrimitivePragma in: self class notifying: [^nil].
-	
+	aRBMethode := OpalCompiler new parse: self methodPrimitivePragma.
 	self assert: (aRBMethode compiledMethod primitive = 4)

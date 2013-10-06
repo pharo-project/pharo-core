@@ -1,15 +1,13 @@
 accept: aString 
 	| result |
 	result := self doItReceiver class compiler
-		evaluate: aString readStream
-		in: self doItContext
-		to: self doItReceiver
-		notifying: nil
-		ifFail: 
-			[ "fix this"
-			self changed: #flash.
-			^ false ].
-	result == #failedDoit ifTrue: [ ^ false ].
+		source: aString readStream;
+		context: self doItContext;
+		receiver: self doItReceiver;
+		failBlock: [self changed: #flash.
+			^ false];
+		evaluate.
+	
 	self replaceSelectionValue: result.
 	self changed: #contents.
 	^ true

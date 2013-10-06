@@ -4,10 +4,11 @@ saveElement: newText
 	|newValue|
 		
 	newValue := description doItReceiver class compiler
-		evaluate: newText
-		in: self doItContext
-		to: description doItReceiver.
-		
-	newValue == #failedDoit ifFalse: [ 
-		self selectedElement save: newValue.
-		self objectChanged]
+		source: newText;
+		context: self doItContext;
+		receiver: description doItReceiver;
+		failBlock: [^ self];
+		evaluate.
+	
+	self selectedElement save: newValue.
+	self objectChanged.

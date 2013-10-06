@@ -6,13 +6,13 @@ testEvaluationOfInlinedToDo
 				in: nil
 				to: nil
 				notifying: nil 
-				ifFail: [^ #failedDoit]
+				ifFail: [^ self]
 				logged: false.
 	notInlinedResult := Compiler new
 				evaluate: '| aBlock | aBlock := [:i | ]. 1+1 to: 0 do: aBlock'
 				in: nil
 				to: nil
 				notifying: nil 
-				ifFail: [^ #failedDoit]
+				ifFail: [^ self]
 				logged: false.
 	self assert: inlinedResult = notInlinedResult

@@ -1,9 +1,7 @@
 commentForCurrentUpdate
- ^ '11530 AbstractNautilusUI >> categorizeAllUncategorizedMethods broken
-	https://pharo.fogbugz.com/f/cases/11530
+ ^ '11487 Less failed block: First #failedDoit removal in new compiler
+	https://pharo.fogbugz.com/f/cases/11487
 	
-11497 pharo CI.image --list shows empty entry for default command line handler
-	https://pharo.fogbugz.com/f/cases/11497
-	
-11528 Harden FileDirectoryWrapper
-	https://pharo.fogbugz.com/f/cases/11528'
+11531 More refactorings: system should use new compiler API
+	https://pharo.fogbugz.com/f/cases/11531
+'

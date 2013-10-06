@@ -3,11 +3,12 @@ saveElement
 
 	|newValue|
 		
-	newValue := description doItReceiver class compiler
-		evaluate: description text readStream
-		in: nil "should be object in case of methodContext"
-		to: description doItReceiver.
+	newValue := description doItReceiver class compiler		
+		source: description text readStream;
+		context: nil "should be object in case of methodContext";
+		receiver:  description doItReceiver;
+		failBlock: [^ self];
+		evaluate.
 		
-	newValue == #failedDoit ifFalse: [ 
-		self selectedElement save: newValue.
-		self objectChanged]
+	self selectedElement save: newValue.
+	self objectChanged

@@ -1,5 +1,6 @@
 evaluate: expression
 	^ Smalltalk compiler
-		evaluate: expression
-		in: context
-		to: context receiver
+		source: expression;
+		context: context;
+		receiver: context receiver;
+		evaluate

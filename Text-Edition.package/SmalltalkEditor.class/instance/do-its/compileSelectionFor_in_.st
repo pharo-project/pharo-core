@@ -1,12 +1,14 @@
 compileSelectionFor: anObject in: evalContext
-	| methodNode failed |
-	 failed :=  false.
+	| methodNode  |
+
 	methodNode :=  self class compiler
-			compileNoPattern: self selectionAsStream
-			in: anObject class
-			context: evalContext
-			notifying: self morph
-			ifFail: [ failed :=  true ].
-	failed ifTrue: [ ^ nil ].	
+		source: self selectionAsStream;
+		class: anObject class;
+		context: evalContext;
+		requestor: self morph;
+		noPattern: true;
+		failBlock:  [ ^nil ];
+		translate.
+			
 	^methodNode generateWithSource.
 	

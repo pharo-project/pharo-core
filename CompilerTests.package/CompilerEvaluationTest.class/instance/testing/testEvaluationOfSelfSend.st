@@ -8,6 +8,6 @@ testEvaluationOfSelfSend
 				in: self methodContext 
 				to: nil
 				notifying: nil 
-				ifFail: [^ #failedDoit]
+				ifFail: [^ self]
 				logged: true.
 	self assert: result = (6250 / 3)

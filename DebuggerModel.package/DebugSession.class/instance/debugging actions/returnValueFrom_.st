@@ -7,9 +7,11 @@ returnValueFrom: aContext
 	
 	expression := UIManager default request: 'Enter expression for return value:'.
 	value := self class compiler
-				evaluate: expression
-				in: aContext
-				to: aContext receiver.
+					source: expression;
+			context: aContext;
+			receiver: aContext receiver;
+			evaluate.
+				
 	previous := aContext sender.
 "	self resetContext: previous."
 	interruptedProcess popTo: previous value: value.
