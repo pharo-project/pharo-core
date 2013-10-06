@@ -1,5 +1,7 @@
 browseUndeclaredReferences
-	"SystemNavigation new browseUndeclaredReferences"
+	"
+	SystemNavigation new browseUndeclaredReferences
+	"
 	
 	Undeclared removeUnreferencedKeys.
 	Undeclared associations do: [:binding |

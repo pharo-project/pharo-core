@@ -1,5 +1,5 @@
 DisplayObject subclass: #DisplayMedium
 	instanceVariableNames: ''
-	classVariableNames: ''
+	classVariableNames: 'HighLightBitmaps'
 	poolDictionaries: ''
 	category: 'Graphics-Display Objects'

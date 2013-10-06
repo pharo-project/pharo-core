@@ -5,7 +5,7 @@ authorSettingOn: aBuilder
 		parent: #codeEditing;
 		label: 'Author identification' translated;
 		target: Author;
-		getSelector: #fullNamePerSe;
+		getSelector: #fullName;
 		setSelector: #fullName:;
 		notInStyle;
 		default: '';

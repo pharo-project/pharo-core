@@ -1,6 +1,6 @@
 initializeTranslucentPatterns
 	
-	TranslucentPatterns := Array new: 8.
+	TranslucentPatterns := Array new: 8. 
 	#(1 2 4 8 ) do: 
 		[ :d | | mask bits pattern patternList | 
 		patternList := Array new: 5.
