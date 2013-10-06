@@ -11,7 +11,8 @@
 		"end",
 		"value",
 		"height",
-		"width" ],
+		"width",
+		"cachedWidth" ],
 	"name" : "ProgressBarMorph",
 	"pools" : [
 		 ],

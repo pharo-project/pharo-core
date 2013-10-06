@@ -1,4 +1,4 @@
 enabling/disabling
 disable
 
-	SystemAnnouncer uniqueInstance unsubscribe: self.
+	Job jobAnnouncer unsubscribe: self.

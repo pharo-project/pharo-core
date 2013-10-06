@@ -6,3 +6,5 @@ A Job is a task to run and potentially notified to the user.
 			JobProgress progress: (0.1 * each); title: 'Youpi ', each printString .
 			(Delay forMilliseconds: 100) wait. 
 			] ]  asJob run
+	
+A Job will announce its evolution on its jobAnnouncer; it is used, for example, to update the progress bar displayed on screen.

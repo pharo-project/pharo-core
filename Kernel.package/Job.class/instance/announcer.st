@@ -1,4 +1,4 @@
 progress
 announcer
 
-	^ announcer ifNil: [ announcer := Announcer new ].
+	^Job jobAnnouncer

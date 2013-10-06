@@ -6,6 +6,6 @@ drawOn: aCanvas
 	area := self innerBounds.
 	aCanvas fillRectangle: area fillStyle: self fillStyle.
 	value > 0 ifTrue: [
-		area := area origin extent: self completedWidth @ area height.
+		area := area origin extent: cachedWidth @ area height.
 		aCanvas fillRectangle: area fillStyle: self barFillStyle].
 	self borderStyle frameRectangle: self bounds on: aCanvas

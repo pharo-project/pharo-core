@@ -1,7 +1,7 @@
 {
 	"category" : "Kernel-Job",
 	"classinstvars" : [
-		 ],
+		"jobAnnouncer" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -14,8 +14,7 @@
 		"children",
 		"isRunning",
 		"parent",
-		"process",
-		"announcer" ],
+		"process" ],
 	"name" : "Job",
 	"pools" : [
 		 ],

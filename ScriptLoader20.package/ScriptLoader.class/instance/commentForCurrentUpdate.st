@@ -1,10 +1,7 @@
 public
 commentForCurrentUpdate
- ^ '11217 backport 20 No timestamp in MCMethodDefinition>>=
-	https://pharo.fogbugz.com/f/cases/11217
+ ^ '11678 ConfigurationCommandLineHandler should allow multiple groups
+	https://pharo.fogbugz.com/f/cases/11678
 	
-11624 backport Pharo2: Add missing asLayoutFrame in Browser openAsMorphClassEditing:
-	https://pharo.fogbugz.com/f/cases/11624
-	
-11662 Pharo 2.0 20619: Undeclared
-	https://pharo.fogbugz.com/f/cases/11662'
+11628 Give Job its own announcer, no longer use the SystemAnnouncer [Backport]	
+	https://pharo.fogbugz.com/f/cases/11628'

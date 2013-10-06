@@ -3,7 +3,7 @@ Usage: config [--help] <repository url> [<configuration>] [--install[=<version>]
 	<repository url>    A Monticello repository name 
 	<configuration>     A valid Metacello Configuration name
 	<version>           A valid version for the given configuration
-	<group>             A valid Metacello group name
+	<group>             A valid Metacello group name (or comma-separated list of names)
 	<username>          An optional username to access the configuration's repository
 	<password>          An optional password to access the configuration's repository
 	
@@ -25,3 +25,6 @@ Examples:
 	
 	#install a specific version '1.5' and only a specific group 'Tests'
 	$PharoVM My.image config $MC_REPOS_URL ConfigurationOfFoo --install=1.5 --group=Tests
+
+	#install 2 groups
+	$PharoVM My.image config $MC_REPOS_URL ConfigurationOfFoo --install=1.5 --group=Tests,Core
