@@ -1,4 +1,4 @@
-closedCubicSlopes
+closedCubicSlopesOf: knots 
 	"Sent to knots returns the slopes of a closed cubic spline.
 	From the same set of java sources as naturalCubic. This is a squeak  
 	transliteration of the java code."
@@ -7,14 +7,13 @@ closedCubicSlopes
 	b1+4*b2+b3=3*(a3-a1)
 	where a1 is (knots atWrap: index + 1) etc.
 	and the b's are the slopes .
-	
 	by decomposing the matrix into upper triangular and lower matrices  
 	and then back sustitution. See Spath 'Spline Algorithms for Curves  
 	and Surfaces' pp 19--21. The D[i] are the derivatives at the knots.  
 	"
 	
 	| v w x y z n1  D F G H |
-	n1 := self size.
+	n1 := knots size.
 	n1 < 3
 		ifTrue: [self error: 'Less than 3 points makes a poor curve'].
 	v := Array new: n1.
@@ -22,7 +21,7 @@ closedCubicSlopes
 	y := Array new: n1.
 	
 	D := Array new: n1.
-	x := self.
+	x := knots.
 	z := 1.0 / 4.0.
 	v at: 2 put: z.
 	w at: 2 put: z.

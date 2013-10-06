@@ -6,4 +6,4 @@ lowSpaceWatcherDefaultAction: preemptedProcess
 	ctx ifNil: [ ctx := thisContext sender ]. 
 	self quitFrom: ctx withMessage: 'Low space signal received.'.
 	
-	self halt. "what else we can do? "
+	self error. "what else we can do? "

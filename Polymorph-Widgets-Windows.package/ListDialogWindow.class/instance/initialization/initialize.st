@@ -7,5 +7,6 @@ initialize
 	displayBlock := [:e | e printString ].
 	browseBlock :=  [:tmp | tmp browse ].
 	pattern := '.' asRegexIgnoringCase.
+	acceptNewEntry := false.
 	
 	super initialize.

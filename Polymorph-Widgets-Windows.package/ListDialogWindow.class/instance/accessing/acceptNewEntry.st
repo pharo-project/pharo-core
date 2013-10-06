@@ -1,0 +1,3 @@
+acceptNewEntry
+
+	^ acceptNewEntry

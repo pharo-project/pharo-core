@@ -1,4 +1,4 @@
-naturalCubicSlopes
+naturalCubicSlopesOf: knots 
 	"Sent to knots returns the slopes of a natural cubic curve fit."
 	"We solve the equation for knots with end conditions:  
 	2*b1+b2 = 3(a1 - a0) 
@@ -15,10 +15,10 @@ naturalCubicSlopes
 	knots."
 	
 	| x gamma delta D n1 |
-	n1 := self size.
+	n1 := knots size.
 	n1 < 3
 		ifTrue: [self error: 'Less than 3 points makes a poor curve'].
-	x := self.
+	x := knots.
 	gamma := Array new: n1.
 	delta := Array new: n1.
 	

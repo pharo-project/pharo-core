@@ -1,0 +1,3 @@
+acceptNewEntry: aBoolean
+
+	acceptNewEntry := aBoolean

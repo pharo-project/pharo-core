@@ -5,6 +5,6 @@ subdivideToBeMonoton
 	v2 := (end - via).
 	t := (v1 y / (v2 y - v1 y)) negated asFloat.
 	other := self subdivideAt: t.
-	self isMonoton ifFalse:[self halt].
-	other isMonoton ifFalse:[self halt].
+	self assert: [self isMonoton].
+	self assert: [other isMonoton].
 	^other
