@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '11532 deprecate Behavior>>compile:classified:notifying:trailer:ifFail:
-	https://pharo.fogbugz.com/f/cases/11532'
+ ^ '11412 Scenario for potential bug in MC/Classbuilder
+	https://pharo.fogbugz.com/default.asp?11412'

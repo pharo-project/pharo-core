@@ -2,4 +2,4 @@ LayoutAbstractScope subclass: #LayoutEmptyScope
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Slot-Layout'
+	category: 'Slot-Scope'
