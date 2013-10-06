@@ -1,4 +1,0 @@
-pair: anotherPoint
-	"Answers a pair of points composed by the receiver and the argument, anotherPoint"
-	
-	^ PointPair point1: self point2: anotherPoint

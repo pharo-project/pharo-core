@@ -1,4 +1,4 @@
 tabLabelInsetFor: aButton
 	"Answer the inset to use for a tab label."
 
-	^4@2 corner: 4@0
+	^ Margin left: 4 top: 2 right: 4 bottom: 0

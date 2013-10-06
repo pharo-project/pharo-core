@@ -1,4 +1,3 @@
 commentForCurrentUpdate
- ^ '11520 Give Job its own announcer, no longer use the SystemAnnouncer
-	https://pharo.fogbugz.com/f/cases/11520
-'
+ ^ '11509 Working on MorphMargin
+	https://pharo.fogbugz.com/f/cases/11509'

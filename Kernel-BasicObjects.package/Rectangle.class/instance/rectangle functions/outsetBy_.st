@@ -1,11 +1,5 @@
-outsetBy: delta 
-	"Answer a Rectangle that is outset from the receiver by delta. delta is a 
-	Rectangle, Point, or scalar."
+outsetBy: deltaMargin 
+	"Answer a Rectangle that is outset from the receiver by deltaMargin"
 
-	(delta isRectangle)
-		ifTrue: [^Rectangle 
-					origin: origin - delta origin 
-					corner: corner + delta corner]
-		ifFalse: [^Rectangle 
-					origin: origin - delta 
-					corner: corner + delta]
+	self deprecated: 'use expandBy:' on: '9 August 2013'  in: 'Pharo30'.
+	^ self expandBy: deltaMargin. 

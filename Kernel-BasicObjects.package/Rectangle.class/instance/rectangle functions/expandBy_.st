@@ -1,17 +1,5 @@
 expandBy: delta 
 	"Answer a Rectangle that is outset from the receiver by delta. delta is a 
 	Rectangle, Point, or scalar."
-	"delta class = PointPair 
-		ifTrue: [^Rectangle 
-					origin: origin + delta point1 
-					corner: corner - delta point2
-				]
-		ifFalse:[
-			(delta isRectangle)
-				ifTrue: [^Rectangle 
-					origin: origin - delta origin 
-					corner: corner + delta corner]
-				ifFalse: [^Rectangle 
-					origin: origin - delta 
-					corner: corner + delta]]"
-	^ delta expandRectangle: self
+	
+	^ delta asMargin expandRectangle: self

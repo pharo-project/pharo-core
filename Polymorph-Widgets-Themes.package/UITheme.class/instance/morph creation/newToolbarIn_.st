@@ -4,7 +4,7 @@ newToolbarIn: aThemedMorph
 	|bar|
 	bar := PanelMorph new
 		changeTableLayout;
-		layoutInset: (0@1 corner: 0@1);
+		layoutInset: 0@1;
 		listDirection: #leftToRight;
 		hResizing: #shrinkWrap;
 		vResizing: #shrinkWrap.

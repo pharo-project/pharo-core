@@ -1,4 +1,4 @@
 editableDropListMargins
 	"Answer the text margins for an editable drop list for this theme."
 	
-	^0 @ 1 pair: 2 @ 1
+	^Margin left: 0 top: 1 right: 2 bottom: 1

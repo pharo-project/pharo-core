@@ -1,4 +1,4 @@
 dropListInsetFor: aDropList
 	"Answer the inset to use for drop-list layout."
 
-	^(1@0 pair: -1@0)
+	^Margin left: 1 top: 0 right: -1 bottom: 0
