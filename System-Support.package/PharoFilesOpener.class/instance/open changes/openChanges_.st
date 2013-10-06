@@ -1,28 +1,10 @@
 openChanges: changesPath
-"find the changes file by looking in
-a) the directory derived from the image name
-b) the DefaultDirectory (which will normally be the directory derived from the image name or the SecurityManager's choice)
-If an old file is not found in either place, check for a read-only file in the same places. If that fails, return nil"
-	| changesFile changesName |
-	
-	changesFile := changesPath asFileReference.
-	changesName := changesFile basename.
-	
-	"look for the changes file or an alias to it in the image directory"
-	(changesFile exists and: [ changesFile isWritable ])
-		ifTrue: [ changesFile writeStream ifNotNilDo: [ :stream| ^ stream ]].
-
-	"look for the changes in the default directory"
-	((changesFile := FileSystem workingDirectory / changesName) exists and: [ changesFile isWritable ]) 
-		ifTrue: [ changesFile writeStream ifNotNilDo: [ :stream| ^ stream ]].
-
-	"look for read-only changes in the image directory"
-	(((changesFile := changesPath asFileReference) exists) and: [ changesFile isReadable ]) 
-		ifTrue: [ changesFile readStream ifNotNilDo: [ :stream| ^ stream ]].
-
-	"look for read-only changes in the default directory"
-	((changesFile := FileSystem workingDirectory / changesName) exists and: [ changesFile isReadable ]) 
-		ifTrue: [ changesFile readStream ifNotNilDo: [ :stream| ^ stream ]].
+	| fileColocatedWithImage fileInWorkingDirectory locations |
+	fileColocatedWithImage := changesPath asFileReference.
+	fileInWorkingDirectory := FileSystem workingDirectory / fileColocatedWithImage basename.	"locations references all possible path where to search for the .changes file."
+	locations := Array with: fileColocatedWithImage with: fileInWorkingDirectory.	
 		
-	"failed to open a changes file"
+	"We first try to open a writeStream and, if we can't, we open a readStream. We have to use #ignoreIfFail: here because Pharo has no way to really tell us beforehand if opening a writeStream will work. Sending #isWritable is not enough because #isWritable does not check if the current user is the owner of the file or not."
+	locations do: [ :file | self ignoreIfFail: [ ^ file writeStream ] ].
+	locations do: [ :file | self ignoreIfFail: [ ^ file readStream ] ].
 	^ nil

@@ -1,2 +1,0 @@
-version: aVersionString
-	self shouldNotImplement
