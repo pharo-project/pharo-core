@@ -3,8 +3,8 @@ findThePig
 	This runs at a very high priority, so make it fast"
 	| countAndProcess | 
 	countAndProcess := tally sortedCounts first.
-	(countAndProcess key / tally size > self threshold) ifTrue: [ | proc |
-		proc := countAndProcess value.
-		proc == Processor backgroundProcess ifTrue: [ ^self ].	"idle process? OK"
-		self catchThePig: proc
+	(countAndProcess key / tally size > self threshold) ifTrue: [ | process |
+		process := countAndProcess value.
+		process == Processor backgroundProcess ifTrue: [ ^self ].	"idle process? OK"
+		self catchThePig: process
 	].

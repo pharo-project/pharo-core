@@ -7,5 +7,7 @@ restartFinalizationProcess
 	FinalizationSemaphore := Smalltalk specialObjectsArray at: 42.
 	FinalizationDependents ifNil: [FinalizationDependents := WeakArray new: 10].
 	FinalizationLock := Semaphore forMutualExclusion.
+	
 	FinalizationProcess := [self finalizationProcess]
-		forkAt: Processor userInterruptPriority
+		forkAt: Processor userInterruptPriority.
+	FinalizationProcess name: 'WeakArray Finalization Process'.

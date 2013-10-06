@@ -10,27 +10,27 @@ registerWellKnownProcesses
 		allowDebug: false.
 	self
 		registerWellKnownProcess: [ Smalltalk lowSpaceWatcherProcess ]
-		label: 'the low space watcher'
+		label: nil
 		allowStop: false
 		allowDebug: false.
 	self
 		registerWellKnownProcess: [ WeakArray runningFinalizationProcess ]
-		label: 'the WeakArray finalization process'
+		label: nil
 		allowStop: false
 		allowDebug: false.
 	self
 		registerWellKnownProcess: [ Processor backgroundProcess ]
-		label: 'the idle process'
+		label: nil
 		allowStop: false
 		allowDebug: false.
 	self
-		registerWellKnownProcess: [ InputEventFetcher default  fetcherProcess ]
-		label: 'Input event fetcher process'
+		registerWellKnownProcess: [ InputEventFetcher default fetcherProcess ]
+		label: nil
 		allowStop: false
 		allowDebug: false.
 	self
 		registerWellKnownProcess: [ UIManager default uiProcess ]
-		label: 'the Morphic UI process'
+		label: nil
 		allowStop: false
 		allowDebug: false.
 	self
@@ -46,6 +46,6 @@ registerWellKnownProcesses
 		
 	self
 		registerWellKnownProcess: [ Delay schedulingProcess ]
-		label: 'Delay scheduling process'
+		label: nil
 		allowStop: false
 		allowDebug: false

@@ -12,7 +12,7 @@ startTimerEventLoop
 	
 	TimerEventLoop := [ self runTimerEventLoop ] newProcess.
 	TimerEventLoop 
-		name: 'Delay scheduling process';
+		name: 'Delay Scheduling Process';
 		priority: Processor timingPriority.
 	TimerEventLoop resume.
 	

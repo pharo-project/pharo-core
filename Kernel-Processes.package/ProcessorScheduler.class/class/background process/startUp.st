@@ -6,4 +6,5 @@ startUp
 	BackgroundProcess == nil ifFalse: [BackgroundProcess terminate].
 	BackgroundProcess := [self idleProcess] newProcess.
 	BackgroundProcess priority: SystemRockBottomPriority.
+	BackgroundProcess name: 'Idle Process'.
 	BackgroundProcess resume.

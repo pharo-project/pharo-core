@@ -4,4 +4,4 @@ installEventLoop
 
 	self terminateEventLoop..
 	fetcherProcess := [self eventLoop] forkAt: Processor lowIOPriority.
-	fetcherProcess name: 'Input events fetching process'
+	fetcherProcess name: 'Input Event Fetcher Process'

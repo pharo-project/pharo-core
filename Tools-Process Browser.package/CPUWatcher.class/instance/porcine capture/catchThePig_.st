@@ -5,6 +5,7 @@ catchThePig: aProcess
 
 	(self processBrowser isUIProcess: aProcess)
 		ifTrue: [ "aProcess debugWithTitle: 'Interrupted from the CPUWatcher'." ]
-		ifFalse: [ rules second ifFalse: [ ^self ].
-				self processBrowser suspendProcess: aProcess.
-				self openWindowForSuspendedProcess: aProcess ]
+		ifFalse: [ 
+			rules second ifFalse: [ ^self ].
+			self processBrowser suspendProcess: aProcess.
+			self openWindowForSuspendedProcess: aProcess ]

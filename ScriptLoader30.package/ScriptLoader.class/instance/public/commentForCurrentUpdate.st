@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '11515 Rename protocols shortcut changed
-	https://pharo.fogbugz.com/f/cases/11515
-		
-11450 Protocol rename duplication
-	https://pharo.fogbugz.com/f/cases/11450
-	
+ ^ '11502 Override Class >> #setName:
+	https://pharo.fogbugz.com/f/cases/11502
 
-	'
+10548 All system processes should have proper names
+	https://pharo.fogbugz.com/f/cases/10548'
