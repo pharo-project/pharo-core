@@ -4,7 +4,7 @@ secondsWhenClockTicks
 
 	| lastSecond |
 
-	lastSecond := self primSecondsClock.
-	[ lastSecond = self primSecondsClock ] whileTrue: [ (Delay forMilliseconds: 1) wait ].
+	lastSecond := self primUTCSecondsClock.
+	[ lastSecond = self primUTCSecondsClock ] whileTrue: [ (Delay forMilliseconds: 1) wait ].
  
 	^ lastSecond + 1 
