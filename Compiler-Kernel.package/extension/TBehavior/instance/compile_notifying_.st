@@ -6,12 +6,11 @@ compile: code notifying: requestor
 	a PositionableStream. This method also saves the source code."
 	
 	| method |
-	method  := self
-		compile: code "a Text"
-		classified: nil
-		notifying: requestor
-		trailer: self defaultMethodTrailer
-		ifFail: [ ^nil ].
+	method  := self compiler
+		source: code;
+		requestor: requestor;
+		failBlock: [ ^nil ];
+		compile.
 		
 	method putSource: code inFile: 2
 			withPreamble: [:f | f cr; nextPut: $!; nextChunkPut: 'Behavior method'; cr].

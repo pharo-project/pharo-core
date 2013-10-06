@@ -1,13 +1,13 @@
 compile: text classified: category withStamp: changeStamp notifying: requestor logSource: logSource
-
+ 
 	| method |
 
-	method := self
-		compile: text 
-		classified: category
-		notifying: requestor
-		trailer: self defaultMethodTrailer
-		ifFail: [ ^nil ].
+	method := self compiler
+		source: text;
+		requestor: requestor;
+		category: category;
+		failBlock:  [ ^nil ];
+		compile.
 		
 	logSource ifTrue: [
 		self 

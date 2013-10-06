@@ -1,10 +1,10 @@
 createCompiledMethod
-	compiledMethod := myClass
-		compile: text asString
-		classified: category
-		notifying: requestor
-		trailer: myClass defaultMethodTrailer
-		ifFail: [ ^nil ].
+	compiledMethod := myClass compiler 
+		source: text asString;
+		requestor: requestor;
+		category: category;
+		failBlock: [ ^nil ];
+		compile.
 	selector := compiledMethod selector.
 	self writeSourceToLog.
 	priorMethodOrNil := myClass compiledMethodAt: selector ifAbsent: [ nil ].

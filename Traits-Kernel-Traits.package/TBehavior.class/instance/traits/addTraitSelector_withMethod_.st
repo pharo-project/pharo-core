@@ -7,12 +7,11 @@ addTraitSelector: aSymbol withMethod: aCompiledMethod
 	self ensureLocalSelectors.
 		
 	source := aCompiledMethod getSourceReplacingSelectorWith: aSymbol.
-	method  := self
-		compile: source
-		classified: aCompiledMethod category
-		notifying: nil
-		trailer: self defaultMethodTrailer
-		ifFail: [ ^nil ].
+	method  := self compiler
+		source: source;
+		category: aCompiledMethod category;
+		failBlock:  [ ^nil ];
+		compile.
 		
 	method putSource: source inFile: 2
 		withPreamble: [:f | f cr; nextPut: $!; nextChunkPut: 'Trait method'; cr].
