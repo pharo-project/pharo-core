@@ -14,15 +14,15 @@ testClassDescriptionRespectsPolymorphismWithTraitDescription
 			self assert: (TClassDescription >> selector) isRequired ].	"Only a few methods are allowed to belong to one class and not to the other
 	If you want to remove methods for this list, then go ahead. But is NOT good idea add methods to this list"	"superclass:layout, initializeLayout, initializeLayoutWithSlots:, layoutSized -> the access instance variables that are in ClassDescription but not in TraitDescription
 	layout is the getter of the instance variable layout (which is in ClassDescription but not in TraitDescription)
-	baseClass classClass classVersion -> they have their equivalens in TraitDescription (baseTrait classTrait traitVersion)"
+	baseClass classClass -> they have their equivalens in TraitDescription (baseTrait classTrait )"
 	self
 		assert: (ClassDescription localSelectors difference: TraitDescription localSelectors)
 		equals:
-			#(#superclass:layout: #initializeLayout #baseClass #superclass:withLayoutType:slots: #classClass #initializeLayoutWithSlots: #layoutSized: #classVersion)
-				asSet.	"isClassTrait, baseTrait, traitVersion, isBaseTrait, classTrait -> They have their equivalents in ClassDescription but with different name,
+			#(#superclass:layout: #initializeLayout #baseClass #superclass:withLayoutType:slots: #classClass #initializeLayoutWithSlots: #layoutSized: )
+				asSet.	"isClassTrait, baseTrait, , isBaseTrait, classTrait -> They have their equivalents in ClassDescription but with different name,
 	the problem comes from the name of the selector, they are not good names
 	copyTraitExpresion addExclusionOf: have no equivalent in classes"
 	self
 		assert: (TraitDescription localSelectors difference: ClassDescription localSelectors)
 		equals:
-			#(#isClassTrait #addExclusionOf: #copyTraitExpression #baseTrait #- #traitVersion #isBaseTrait #classTrait) asSet
+			#(#isClassTrait #addExclusionOf: #copyTraitExpression #baseTrait #-  #isBaseTrait #classTrait) asSet

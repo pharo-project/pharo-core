@@ -58,7 +58,7 @@ initialize
 
 "ClassDescription"
 	#("initialize-release" 
-"accessing" classVersion isMeta name theNonMetaClass
+"accessing"  isMeta name theNonMetaClass
 "copying" 
 "printing" classVariablesString instanceVariablesString sharedPoolsString
 "instance variables" checkForInstVarsOK: 

@@ -34,5 +34,4 @@ buildDebugMenu: aHand
 				add: 'browse model class'
 				target: self model
 				selector: #browseHierarchy].
-	aMenu add: 'explore view hierarchy' translated target: self selector: #exploreViewHierarchy.
 	^ aMenu

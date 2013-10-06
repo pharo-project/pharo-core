@@ -1,7 +1,9 @@
 commentForCurrentUpdate
- ^ '11661 Small cleanup of dead code
-	https://pharo.fogbugz.com/f/cases/11661
+ ^ '11537 remove #classVersion methods and friends
+	https://pharo.fogbugz.com/f/cases/11537
 	
-11659 Add basic Morph Viewer for the Inspectors
-	https://pharo.fogbugz.com/f/cases/11659
-'
+11664 SHA1>>#hashStream: should return a ByteArray of size 20
+	https://pharo.fogbugz.com/f/cases/11664
+	
+11663 remove ViewHierarchyExplorer
+	https://pharo.fogbugz.com/f/cases/11663'
