@@ -17,8 +17,8 @@ cleanUpForProduction
 	(MCPackage named: 'HudsonBuildTools20') unload.
 	(MCPackage named: 'Announcements-Help') unload.
 	(MCPackage named: 'Regex-Help') unload.	
-	(MCPackage named: 'Deprecated20') unload.
-	(MCPackage named: 'ScriptLoader20') unload.	
+	(MCPackage named: 'Deprecated30') unload.
+	(MCPackage named: 'ScriptLoader30') unload.	
 		
 	World resetWorldMenu.	
 	self cleanUpForRelease.

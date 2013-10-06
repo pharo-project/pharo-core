@@ -1,2 +1,0 @@
-resultClass
-	^ RBClassEnvironment

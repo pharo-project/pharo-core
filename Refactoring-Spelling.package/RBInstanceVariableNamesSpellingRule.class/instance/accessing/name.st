@@ -1,2 +1,0 @@
-name
-	^ 'Instance variable names'

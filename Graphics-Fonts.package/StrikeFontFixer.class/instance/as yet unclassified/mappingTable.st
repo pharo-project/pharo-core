@@ -1,3 +1,0 @@
-mappingTable
-
-	^ MappingTable.

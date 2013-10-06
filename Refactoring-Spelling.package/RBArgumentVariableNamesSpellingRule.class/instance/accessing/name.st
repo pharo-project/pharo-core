@@ -1,2 +1,0 @@
-name
-	^ 'Argument variable names'

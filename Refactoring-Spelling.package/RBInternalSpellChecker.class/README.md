@@ -1,1 +1,0 @@
-A stupid spell checker implementation, to be used in case no native spell checker is available. Uses a combined word-list of <http://sourceforge.net/projects/jazzy/> and <http://norvig.com/spell-correct.html>.

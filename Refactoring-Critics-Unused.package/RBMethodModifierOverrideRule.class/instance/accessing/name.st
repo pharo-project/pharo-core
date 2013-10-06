@@ -1,2 +1,0 @@
-name
-	^ 'Missing super implementation'

@@ -1,2 +1,0 @@
-name
-	^ 'Super call required'
