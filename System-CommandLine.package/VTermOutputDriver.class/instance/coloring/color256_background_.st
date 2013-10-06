@@ -5,8 +5,6 @@ color256: aColor background: isBackground
 
 	colors 232-255 are a grayscale ramp, intentionally leaving out black and white"
 	
-	| colorIndex |
-	
 	self csiEscape.
 
 	outStream nextPutAll: (isBackground 

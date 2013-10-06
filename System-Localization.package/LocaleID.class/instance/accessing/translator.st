@@ -1,2 +1,0 @@
-translator
-	^ NaturalLanguageTranslator localeID: self 

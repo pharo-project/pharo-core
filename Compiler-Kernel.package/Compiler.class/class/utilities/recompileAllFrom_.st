@@ -1,10 +1,11 @@
 recompileAllFrom: firstName 
-	"Recompile all classes, starting with given name."
+	"Recompile all classes, starting with given name.
+	usefull for debugging"
 
-	Smalltalk allClassesAndTraitsDo: 
+	Smalltalk globals allClassesAndTraitsDo: 
 		[:class | class name >= firstName
 			ifTrue: 
 				[Transcript show: class name; cr.
-				class compileAll]]
+				class recompile]]
 
 	"Compiler recompileAllFrom: 'AAABodyShop'."

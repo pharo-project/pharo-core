@@ -3,7 +3,6 @@ getent: aString
 	It returns 1 on success, 
 	0 if there is no such entry,
 	 and -1 if the terminfo database could not be found."
-	| result |
 	
 	"result := (PipeableOSProcess command: 'tput ', aString) output asInteger.
 	result = 1 ifTrue: [ ^ self ].

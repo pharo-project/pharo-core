@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '11738 add #recompile to Class/Trait, the image and compiledMethod
+update30437
+	"self new update30437"
+	self withUpdateLog: '11738 add #recompile to Class/Trait, the image and compiledMethod
 	https://pharo.fogbugz.com/f/cases/11738
 	
 11736 remove public API retractable scrollbars
@@ -9,4 +10,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/11650
 	
 11728 trivial critic cleanup in System-*
-	https://pharo.fogbugz.com/f/cases/11728'
+	https://pharo.fogbugz.com/f/cases/11728'.
+	self loadTogether: self script116 merge: false.
+	self flushCaches.

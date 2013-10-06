@@ -1,2 +1,0 @@
-localeID
-	^id

@@ -1,5 +1,5 @@
 buildWindowIn: aWindow 
-	| statusView toolBar treeMorph toolBarY gap menuBar packageListView statusViewHeight |
+	| statusView toolBar treeMorph toolBarY gap packageListView statusViewHeight |
 	treeMorph := self treeMorphIn: aWindow.
 	statusView := self statusViewIn: aWindow.
 	statusViewHeight := 100.
