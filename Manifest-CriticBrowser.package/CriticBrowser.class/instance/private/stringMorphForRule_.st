@@ -8,11 +8,11 @@ stringMorphForRule: rule
 		streamContents: [ :s | 
 			s
 				<< rule name;
-				<< ' (Unclassified: ';
+				<< ' (To sort: ';
 				print: unclassified;
 				<< ', ToDo: ';
 				print: toDos;
-				<< ', FP: ';
+				<< ', Wrong: ';
 				print: falsePositives;
 				<< ')' ].
 	^ text asMorph

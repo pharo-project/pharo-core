@@ -2,6 +2,6 @@ setFalsepositiveModel
 	
 	falsepositiveModel
 		state: false;
-		label: 'False Positive';
+		label: 'Mark as wrong';
 		action: [  ].
 	

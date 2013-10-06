@@ -1,1 +1,0 @@
-A RBPharoPlatform is xxxxxxxxx.

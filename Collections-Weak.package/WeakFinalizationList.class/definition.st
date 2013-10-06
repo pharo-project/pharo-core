@@ -1,5 +1,5 @@
 Object subclass: #WeakFinalizationList
 	instanceVariableNames: 'first'
-	classVariableNames: 'HasNewFinalization TestItem TestList'
+	classVariableNames: 'HasNewFinalization'
 	poolDictionaries: ''
 	category: 'Collections-Weak'

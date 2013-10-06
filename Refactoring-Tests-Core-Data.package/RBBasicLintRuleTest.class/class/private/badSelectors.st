@@ -1,2 +1,2 @@
 badSelectors
-	^#(#become: #isKindOf: #changeClassToThatOf: #respondsTo: #isMemberOf: #performMethod: #performMethod:arguments: #performMethod:with: #performMethod:with:with: #performMethod:with:with:with: #allOwners #allOwnersWeakly: #firstOwner #instVarAt: #instVarAt:put: #nextInstance #nextObject #ownerAfter: #primBecome:  #halt)
+	^#(#become: #isKindOf: #changeClassToThatOf: #respondsTo: #isMemberOf: #perform: #perform:arguments: #perform:with: #perform:with:with: #perform:with:with:with: #allOwners #allOwnersWeakly: #firstOwner #instVarAt: #instVarAt:put: #nextInstance #nextObject #ownerAfter: #primBecome:  #halt)

@@ -16,8 +16,5 @@ replaceAll: oldMethod by: newMethod
 		(each includes: oldMethod)
 			ifTrue: [
 				each remove: oldMethod.
-				each add: newMethod ]].
-	
-	browser updateTree 	
-
+				each add: newMethod ]]
 	

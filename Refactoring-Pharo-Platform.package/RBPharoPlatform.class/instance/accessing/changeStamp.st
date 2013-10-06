@@ -1,2 +1,0 @@
-changeStamp
-	^ Author changeStamp

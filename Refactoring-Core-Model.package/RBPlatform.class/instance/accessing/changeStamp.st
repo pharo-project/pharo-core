@@ -1,2 +1,0 @@
-changeStamp
-	self subclassResponsibility

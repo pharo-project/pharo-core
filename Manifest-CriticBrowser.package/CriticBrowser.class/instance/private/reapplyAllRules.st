@@ -10,4 +10,3 @@ reapplyAllRules
 		self setTitle: (String streamContents: [:s | s << 'run rules: ' << r name << ' (' << ruleCount asString << '/' << total asString <<')']).
 		self reapplyRule: r ]. 	
 	self setTitle: 'Critics Browser'.
-	 rulesModel updateTree
