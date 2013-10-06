@@ -1,0 +1,2 @@
+merge
+	^ self return: false

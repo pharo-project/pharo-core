@@ -4,8 +4,9 @@ installVersion: aVersionName
 	
 	metacelloVersion := (self metacelloVersion: aVersionName).
 	
-	(self hasOption: 'group')
-		ifTrue: [ metacelloVersion load: (self optionAt: 'group') ]
-		ifFalse: [ metacelloVersion load ].
+	self handleMergeConflictDuring: [
+		(self hasOption: 'group')
+			ifTrue: [ metacelloVersion load: (self optionAt: 'group') ]
+			ifFalse: [ metacelloVersion load ]].
 	
 	Smalltalk snapshot: true andQuit: true.

@@ -1,3 +1,4 @@
 commentForCurrentUpdate
- ^ '11534 ColorTest is failing
-	https://pharo.fogbugz.com/f/cases/11534'
+ ^ '11285 Handle MCMergeOrLoadWarning in config command line handler
+	https://pharo.fogbugz.com/f/cases/11285
+	'

@@ -1,0 +1,2 @@
+load
+	^ self return: true

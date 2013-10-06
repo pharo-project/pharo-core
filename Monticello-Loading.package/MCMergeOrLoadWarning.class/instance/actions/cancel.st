@@ -1,0 +1,2 @@
+cancel
+	^ self return: nil
