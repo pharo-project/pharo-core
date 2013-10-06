@@ -1,2 +1,2 @@
 name
-	^ self subclassResponsability.
+	^ self subclassResponsibility.

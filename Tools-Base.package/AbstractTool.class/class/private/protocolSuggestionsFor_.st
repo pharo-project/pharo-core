@@ -4,6 +4,7 @@ protocolSuggestionsFor: aClass
 	reject := Set new.
 	reject
 		addAll: aClass organization categories;
+		add: AllProtocol defaultName;
 		add: Protocol nullCategory;
 		add: Protocol unclassified.
 	allExistingProtocols := Smalltalk allClassesAndTraits inject: Set new into: [ :col :e | 

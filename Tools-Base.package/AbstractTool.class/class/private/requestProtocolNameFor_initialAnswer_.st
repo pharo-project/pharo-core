@@ -1,10 +1,11 @@
 requestProtocolNameFor: aClass initialAnswer: aString
-	
-	| entryCompletion |
-	entryCompletion := EntryCompletion new
-		dataSourceBlock: [ :currText | self protocolSuggestionsFor: aClass ];
-		filterBlock: [ :currApplicant :currText | currApplicant  beginsWith: currText ].
-	^ UIManager default
-		request: 'Please type new category name'
-		initialAnswer: aString
-		entryCompletion: entryCompletion.
+	| ui |
+
+	ui := ListDialogWindow new
+			getList: [ :r| (AbstractTool protocolSuggestionsFor: aClass) select: [:e | r search: e name ] ];
+			displayBlock: [:e | e ];
+			initialAnswer: aString;
+			title: 'New Protocol';
+			yourself.
+			
+	^ ui chooseFromOwner: World.

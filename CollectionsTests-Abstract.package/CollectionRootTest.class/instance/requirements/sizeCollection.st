@@ -1,3 +1,3 @@
 sizeCollection
 	"Answers a collection not empty"
-	^ self subclassResponsability
+	^ self subclassResponsibility

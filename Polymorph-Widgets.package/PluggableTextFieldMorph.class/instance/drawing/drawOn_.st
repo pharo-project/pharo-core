@@ -14,4 +14,4 @@ drawOn: aCanvas
 						font: self theme  textFont
 						color: Color lightGray]].
 	entryCompletion 
-		ifNotNil: [entryCompletion closeIfNotOver: self].
+		ifNotNil: [entryCompletion closeIfNotNeeded: self].
