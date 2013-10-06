@@ -1,74 +1,59 @@
-handleKeystrokeBefore: aKeyboardEvent editor: anEditor 
+handleKeystrokeBefore: aKeyboardEvent editor: anEditor
 	"I return a boolean. 
 	true when I have handled the event and no futher processing is needed by the caller."
-	| keyCharacter controlKeyPressed isSpaceKey |
-	self flag: #fixme. "this method should be split up".
 
+	| keyCharacter controlKeyPressed |
+	self flag: #fixme.	"this method should be split up"
 	self setEditor: anEditor.
 	self setModel: editor model.
-	
 	keyCharacter := aKeyboardEvent keyCharacter.
 	controlKeyPressed := aKeyboardEvent controlKeyPressed.
-	isSpaceKey := keyCharacter = Character null or: [ keyCharacter = Character space ].
-	
 	self isMenuOpen
 		ifFalse: [ ^ self handleKeystrokeWithoutMenu: aKeyboardEvent ].
-	
 	(keyCharacter = Character home and: [ self captureNavigationKeys ])
-		ifTrue: [
+		ifTrue: [ 
 			menuMorph home.
-			^ true].
-
-	(keyCharacter = Character end and: [controlKeyPressed not and: [ self captureNavigationKeys ]]) 
-		ifTrue: [
-			menuMorph end. 
-			^ true].
-
+			^ true ].
+	(keyCharacter = Character end and: [ controlKeyPressed not and: [ self captureNavigationKeys ] ])
+		ifTrue: [ 
+			menuMorph end.
+			^ true ].
 	(keyCharacter = Character arrowRight and: [ self captureNavigationKeys ])
-		ifTrue: [
+		ifTrue: [ 
 			menuMorph showDetail.
-			^ true].
-
+			^ true ].
 	(keyCharacter = Character arrowLeft and: [ self captureNavigationKeys ])
 		ifTrue: [ ^ self leftArrow ].
-
 	keyCharacter = Character arrowUp
-		ifTrue: [
+		ifTrue: [ 
 			menuMorph moveUp.
-			^ true].
-
+			^ true ].
 	keyCharacter = Character arrowDown
-		ifTrue: [
+		ifTrue: [ 
 			menuMorph moveDown.
-			^ true].
-
+			^ true ].
 	keyCharacter = Character pageUp
-		ifTrue: [
+		ifTrue: [ 
 			menuMorph pageUp.
-			^ true].
-
+			^ true ].
 	keyCharacter = Character pageDown
-		ifTrue: [
+		ifTrue: [ 
 			menuMorph pageDown.
-			^ true].
-
-	(keyCharacter = Character cr and: [ NECPreferences useEnterToAccept])
-		ifTrue: [
+			^ true ].
+	(keyCharacter = Character cr and: [ NECPreferences useEnterToAccept ])
+		ifTrue: [ 
 			menuMorph insertSelected
-				ifTrue: [^ true]].
-	
+				ifTrue: [ ^ true ] ].
 	keyCharacter = Character tab
-		ifTrue: [
+		ifTrue: [ 
 			NECPreferences expandPrefixes
 				ifFalse: [ 
 					menuMorph insertSelected
-						ifTrue: [^ true]]
-				ifTrue: [
+						ifTrue: [ ^ true ] ]
+				ifTrue: [ 
 					menuMorph insertCommonPrefixOrSelected
-						ifTrue: [^ true]]].
-
-	self flag: #todo. "Removing for now... most of the shortcuts are broken and no time or need now to fix them" 
-	"(keyCharacter = $h and: [ controlKeyPressed ]) ifTrue: [ 
+						ifTrue: [ ^ true ] ] ].
+	self flag: #todo.	"Removing for now... most of the shortcuts are broken and no time or need now to fix them"	"(keyCharacter = $h and: [ controlKeyPressed ]) ifTrue: [ 
 		menuMorph help.
 		^ true ].
 
@@ -78,21 +63,16 @@ handleKeystrokeBefore: aKeyboardEvent editor: anEditor
 
 	(keyCharacter = $u and: [ controlKeyPressed ]) ifTrue: [ 
 		menuMorph switchToUntyped.
-		^ true ].	"
-
-	"All keys but the alphanumeric chars (without command and control ) 
+		^ true ].	"	"All keys but the alphanumeric chars (without command and control ) 
 	and the backspace key do close the menu"
 	keyCharacter = Character backspace
-		ifTrue: [
-			editor isCaretBehindChar not
-				ifTrue: [
-					self closeMenu].
-					^ false].
-	
+		ifTrue: [ 
+			editor isCaretBehindChar
+				ifFalse: [ self closeMenu ].
+			^ false ].
 	(controlKeyPressed not & aKeyboardEvent commandKeyPressed not
-			and: [aKeyboardEvent keyCharacter isCompletionCharacter ])
-		ifFalse: [
+		and: [ aKeyboardEvent keyCharacter isCompletionCharacter ])
+		ifFalse: [ 
 			self closeMenu.
-			^ keyCharacter = Character escape].
-	
-	^ false.
+			^ keyCharacter = Character escape ].
+	^ false

@@ -1,5 +1,5 @@
 NECMenuMorph subclass: #NOCMenuMorph
-	instanceVariableNames: 'lastActivity'
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'NOCompletion-View'

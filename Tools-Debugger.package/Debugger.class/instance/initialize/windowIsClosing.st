@@ -4,7 +4,6 @@ windowIsClosing
 	interruptedProcess == nil ifTrue: [^ self].
 	interruptedProcess terminate.
 	interruptedProcess := nil.
-	interruptedController := nil.
 	contextStack := nil.
 	contextStackTop := nil.
 	receiverInspector := nil.
