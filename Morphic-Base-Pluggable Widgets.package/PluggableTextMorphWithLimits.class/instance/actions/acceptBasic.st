@@ -2,7 +2,7 @@ acceptBasic
 	"should be refactored with accept that comes from PluggableTextMorphPlus "
 	"Inform the model of text to be accepted, and return true if OK."
 
-	| ok saveSelection saveScrollerOffset |
+	| saveSelection saveScrollerOffset |
 	
 	self locked ifFalse: [ ^ super acceptBasic ].
 	

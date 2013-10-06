@@ -1,5 +1,5 @@
 keystrokeAction: event 
-	| args returnValue |
+	| returnValue |
 	
 	keystrokeSelector ifNil: [ ^ nil ].
 

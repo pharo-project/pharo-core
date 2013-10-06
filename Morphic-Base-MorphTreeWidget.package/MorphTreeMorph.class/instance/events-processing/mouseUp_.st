@@ -1,6 +1,6 @@
 mouseUp: event 
 	"Fixed up highlight problems."
-	| nodeMorph wasHigh selHolder |
+	| nodeMorph wasHigh |
 	
 	mouseOverAllowed := false.
 	nodeMorph := self scrollerSubMorphFromPoint: event position.

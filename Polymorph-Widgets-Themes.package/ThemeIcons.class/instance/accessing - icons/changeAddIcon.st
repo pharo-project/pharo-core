@@ -1,0 +1,2 @@
+changeAddIcon 
+	^ self smallAddIcon

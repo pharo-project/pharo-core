@@ -1,6 +1,6 @@
 updateColor
 	"Update the color of the menu."
-	| fill title bc |
+	| title |
 	self theme preferGradientFill ifFalse: [^ self].
 	self fillStyle: (self theme menuFillStyleFor: self).
 

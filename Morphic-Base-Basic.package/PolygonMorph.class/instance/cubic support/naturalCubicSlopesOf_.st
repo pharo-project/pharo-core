@@ -24,8 +24,7 @@ naturalCubicSlopesOf: knots
 	
 	D := Array new: n1.
 	gamma at: 1 put: 1.0 / 2.0.
-	(2 to: n1 - 1)
-		do: [:i | gamma at: i put: 1.0 / (4.0
+	2 to: n1 - 1 do: [:i | gamma at: i put: 1.0 / (4.0
 						- (gamma at: i - 1))].
 	gamma at: n1 put: 1.0 / (2.0
 				- (gamma at: n1 - 1)).

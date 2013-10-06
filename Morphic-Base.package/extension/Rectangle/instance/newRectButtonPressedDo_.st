@@ -1,6 +1,6 @@
 newRectButtonPressedDo: newRectBlock 
 	"Track the outline of a new rectangle until mouse button changes. newFrameBlock produces each new rectangle from the previous. Only tracks while mouse is down."
-	| rect newRect buttonNow delay hand |
+	| rect newRect buttonNow hand |
 	
 	hand := World activeHand.
 	

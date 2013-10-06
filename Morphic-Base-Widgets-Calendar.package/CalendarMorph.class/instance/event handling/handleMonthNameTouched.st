@@ -1,6 +1,6 @@
 handleMonthNameTouched
 
-	| newMonthName dayCount dialog |
+	| newMonthName dayCount |
 	newMonthName := UIManager default 
 		chooseDropList: 'Choose a month:'
 		list: #('January' 'February' 'March' 'April' 'May' 'June' 'July'

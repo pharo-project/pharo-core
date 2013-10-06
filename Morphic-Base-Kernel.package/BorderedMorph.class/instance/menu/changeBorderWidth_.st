@@ -1,8 +1,7 @@
 changeBorderWidth: evt
-	| aHand origin oldWidth handle newWidth |
+	| aHand origin handle newWidth |
 	aHand := evt ifNil: [self primaryHand] ifNotNil: [evt hand].
 	origin := aHand position.
-	oldWidth := borderWidth.
 	handle := HandleMorph new
 		forEachPointDo:
 			[:newPoint | handle removeAllMorphs.

@@ -2,7 +2,7 @@ display: item atRow: row on: aCanvas
 	"Display the given item at the given row on the given
 	canvas."
 
-	| itemColor backgroundColor drawBounds frame attrs useDefaultFont |
+	| itemColor backgroundColor drawBounds |
 	drawBounds := self drawBoundsForRow: row.
 	itemColor := self colorForRow: row.
 	backgroundColor := self backgroundColorForRow: row.

@@ -2,7 +2,7 @@ fromHandFreehand: hand
 	"Let the user draw a polygon, holding the mouse down, and ending by clicking within 5 of the first point..."
 	"self fromHandFreehand: ActiveHand"
 	
-	| p1 poly oldVerts pN opposite stop |
+	| p1 poly pN opposite |
 	"wait till guy will press the mouse button"
 	hand captureEventsUntil: [:evt |
 		evt isMouse ifTrue: [ p1 := evt cursorPoint].

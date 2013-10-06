@@ -1,8 +1,7 @@
 changeMargins: evt
-	| handle origin aHand oldMargin newMargin |
+	| handle origin aHand newMargin |
 	aHand := evt ifNil: [self primaryHand] ifNotNil: [evt hand].
 	origin := aHand position.
-	oldMargin := margins.
 	handle := HandleMorph new
 		forEachPointDo:
 			[:newPoint | handle removeAllMorphs.

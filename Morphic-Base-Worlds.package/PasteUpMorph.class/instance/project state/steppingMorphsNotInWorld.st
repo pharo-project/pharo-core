@@ -1,6 +1,4 @@
 steppingMorphsNotInWorld
 	| all |
 	all := self allMorphs.
-	^ self listOfSteppingMorphs select: [:m | (all includes: m) not]
-
-	"self currentWorld steppingMorphsNotInWorld do: [:m | m delete]"
+	^ self listOfSteppingMorphs reject: [ :m | all includes: m ]	"self currentWorld steppingMorphsNotInWorld do: [:m | m delete]"

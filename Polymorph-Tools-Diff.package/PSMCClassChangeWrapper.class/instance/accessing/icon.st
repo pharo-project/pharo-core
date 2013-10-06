@@ -2,5 +2,6 @@ icon
 	"Answer a form with an icon to represent the receiver"
 	
 	self isConflict ifTrue: [
-		self localChosen ifTrue: [ ^ Smalltalk ui icons smallBackIconGray ] ].
+		self localChosen 
+			ifTrue: [ ^ Smalltalk ui icons changeBlockIcon ]].
 	^ super icon

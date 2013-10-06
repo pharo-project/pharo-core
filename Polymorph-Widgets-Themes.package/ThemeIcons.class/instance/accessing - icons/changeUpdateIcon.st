@@ -1,0 +1,2 @@
+changeUpdateIcon 
+	^ self smallForwardIconGray

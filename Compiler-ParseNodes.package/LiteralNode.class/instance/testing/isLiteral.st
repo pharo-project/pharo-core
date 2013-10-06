@@ -1,3 +1,3 @@
 isLiteral
 
-	^ true
+	^ self isLiteralNode

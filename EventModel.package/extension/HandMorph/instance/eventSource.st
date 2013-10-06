@@ -1,2 +1,2 @@
 eventSource
-	^ eventSource ifNil: [ Sensor ]
+	^ Sensor

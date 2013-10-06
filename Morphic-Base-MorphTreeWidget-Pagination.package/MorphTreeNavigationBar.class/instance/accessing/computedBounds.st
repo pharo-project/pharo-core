@@ -1,5 +1,5 @@
 computedBounds
-	| bw tb tsb tbw li yGap |
+	| tb tbw yGap |
 	tb := treeMorph bounds.
 	tbw := treeMorph borderWidth.
 	yGap := self layoutInset asPoint y + self cellInset asPoint y.

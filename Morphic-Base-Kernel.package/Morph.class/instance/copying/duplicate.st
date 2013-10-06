@@ -1,7 +1,7 @@
 duplicate
 	"Make and return a duplicate of the receiver"
 
-	| newMorph w topRend |
+	| newMorph topRend |
 	((topRend := self topRendererOrSelf) ~~ self) ifTrue: [^ topRend duplicate].
 	newMorph := self veryDeepCopy.
 	newMorph arrangeToStartStepping.

@@ -29,8 +29,7 @@ closedCubicSlopesOf: knots
 	H := 4.0.
 	F := 3 * ((x at: 1) - (x at: n1 - 1)).
 	G := 1.
-	(2 to: n1 - 1)
-		do: [:k | 
+	2 to: n1 - 1 do: [:k | 
 			z := 1.0 / (4.0 - (v at: k)).
 			v at: k + 1 put: z.
 			w at: k + 1 put: z negated

@@ -1,6 +1,6 @@
 setSelectionIndexFromKeyboard: index multiSelection: multiSelect event: anEvent
 	"Called internally to select the index-th item."
-	| targetMorph  nodes |
+	| targetMorph |
 	index ifNil: [^ self].
 	index > self allNodeMorphs size ifTrue: [^self].
 	targetMorph := index = 0 ifTrue: [nil] ifFalse: [self allNodeMorphs at: index].

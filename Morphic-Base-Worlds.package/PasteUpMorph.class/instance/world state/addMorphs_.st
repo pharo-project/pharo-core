@@ -2,13 +2,16 @@ addMorphs: aMorphOrList
 	"Dump in submorphs, and stepList from aMorphOrList.  Used to bring a world, paste-up, or other morph in from an object file."
 
 	aMorphOrList isMorph 
-		ifTrue:  [aMorphOrList isWorldMorph 
+		ifTrue:  
+			[
+			aMorphOrList privateOwner: nil.
+			aMorphOrList isWorldMorph 
 					ifFalse:  
-						[ aMorphOrList privateOwner: nil.
+						[ 
 						self firstHand attachMorph: aMorphOrList.
 						self startSteppingSubmorphsOf: aMorphOrList]
 					ifTrue: 
-						[ aMorphOrList privateOwner: nil.
+						[
 						self addMorph: aMorphOrList ].
 					aMorphOrList privateSubmorphs reverseDo: 
 						[:m | 

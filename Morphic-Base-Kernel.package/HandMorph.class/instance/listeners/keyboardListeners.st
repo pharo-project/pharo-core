@@ -1,2 +1,2 @@
 keyboardListeners
-	^keyboardListeners
+	^nil

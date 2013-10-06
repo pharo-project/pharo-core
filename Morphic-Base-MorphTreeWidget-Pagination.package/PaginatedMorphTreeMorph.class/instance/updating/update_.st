@@ -12,7 +12,7 @@ update: aSymbol
 			rest := aSymbol allButFirst: 2.
 			[ rest notEmpty ]
 				whileTrue: [ 
-					| i res |
+					| res |
 					res := (1 to: self nodeList size) select: [ :li | (self nodeList at: li) item = rest first ].
 					res isEmpty
 						ifTrue: [ ^ self ].

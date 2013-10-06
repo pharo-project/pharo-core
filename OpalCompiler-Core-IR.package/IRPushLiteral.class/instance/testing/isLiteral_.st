@@ -1,2 +1,2 @@
 isLiteral: valueTest
-	^ valueTest value: literal
+	^ self isPushLiteral: valueTest
