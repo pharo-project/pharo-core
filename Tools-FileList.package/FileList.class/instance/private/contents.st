@@ -22,4 +22,4 @@ contents
 	(TextConverter allEncodingNames includes: brevityState) 
 		ifTrue: [ ^self readContentsAsEncoding: brevityState].
 
-	Halt halt: 'unknown state ' , brevityState printString
+	self error: 'unknown state ' , brevityState printString

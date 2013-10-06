@@ -2,7 +2,8 @@ becomeCompact: aClass simplyAt: index
 	"The same as #becomeCompact: but without updating the instances."
 
 	| compactClassesArray |
-	aClass isWeak ifTrue: [^ Halt halt: 'You must not make a weak class compact'].
+	aClass isWeak 
+		ifTrue: [^ self error: 'You must not make a weak class compact'].
 	compactClassesArray := Smalltalk compactClassesArray.
 	(aClass isCompact or: [compactClassesArray includes: aClass])
 		ifTrue: [^ self halt: aClass name, 'is already compact'].		

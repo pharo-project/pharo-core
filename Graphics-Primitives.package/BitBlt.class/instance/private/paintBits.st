@@ -2,7 +2,7 @@ paintBits
 	"Perform the paint operation, which requires two calls to BitBlt."
 	| color oldMap saveRule |
 	sourceForm depth = 1 ifFalse: 
-		[ ^ Halt halt: 'paint operation is only defined for 1-bit deep sourceForms' ].
+		[ ^ self error: 'paint operation is only defined for 1-bit deep sourceForms' ].
 	saveRule := combinationRule.
 	color := halftoneForm.
 	halftoneForm := nil.
