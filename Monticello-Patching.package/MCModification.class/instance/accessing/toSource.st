@@ -1,2 +1,2 @@
 toSource
-	^ modification source
+	^ modification diffSource

@@ -4,5 +4,7 @@ previousButton
 			previousButton := self instantiate: ButtonModel.
 			previousButton label: '<'.
 			previousButton
-				action: [ self inspectorWrapper inspectPrevious ] ].
+				action: [ 
+					self inspectorWrapper inspectPrevious.
+					self updateButtonStatus. ] ].
 	^ previousButton

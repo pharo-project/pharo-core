@@ -1,2 +1,2 @@
 fromSource
-	^ definition source
+	^ definition diffSource

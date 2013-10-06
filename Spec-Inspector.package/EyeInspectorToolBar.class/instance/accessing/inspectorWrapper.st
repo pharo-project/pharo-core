@@ -1,2 +1,2 @@
 inspectorWrapper
-	^ self owner owner
+	^ self owner

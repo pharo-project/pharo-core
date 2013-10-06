@@ -1,1 +1,1 @@
-I am a browser for the SmallLint CriticsExample: | rule environment |rule :=  RBExcessiveArgumentsRule new.environment := (RBPackageEnvironment new packages: {RPackageSet named: 'Manifest-Core'}).(CriticBrowser openOnRule: rule onEnvironment: environment)	
+I display code critics, the results obtained when running a lint rule.Example: | rule env |rule :=  RBExcessiveArgumentsRule new.env := (RBPackageEnvironment packageName: 'Manifest-Core').(CriticBrowser openOnRule: rule onEnvironment: env).

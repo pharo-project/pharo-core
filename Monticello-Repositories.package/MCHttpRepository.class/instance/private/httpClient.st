@@ -6,6 +6,6 @@ httpClient
 		systemPolicy;
 		beOneShot;
 		username: self user password: self password;
-		setAcceptEncodingGzip;
+	
 		signalProgress: true;
 		yourself

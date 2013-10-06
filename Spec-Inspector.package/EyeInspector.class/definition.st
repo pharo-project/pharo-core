@@ -1,5 +1,5 @@
 ComposableModel subclass: #EyeInspector
-	instanceVariableNames: 'object list text description refreshLoop customMenuActions toolbar'
+	instanceVariableNames: 'object list text description refreshLoop customMenuActions'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-Inspector'

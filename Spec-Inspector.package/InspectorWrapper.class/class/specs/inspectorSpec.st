@@ -2,5 +2,9 @@ inspectorSpec
 	<spec>
 	
 	^ SpecLayout composed
-		add: #inspector withSpec: #inspectorSpec;
+	
+		newColumn: [ :c | 
+			c 
+				add: #toolbar height: 18;
+				add: #inspector withSpec: #inspectorSpec ];
 		yourself

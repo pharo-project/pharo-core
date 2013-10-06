@@ -1,5 +1,4 @@
 initializeWidgets
-
 	self instantiateModels: #(
 		criticsModel IconListModel
 		sourceCodeModel TextModel 

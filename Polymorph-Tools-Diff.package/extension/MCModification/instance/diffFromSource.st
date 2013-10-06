@@ -7,4 +7,4 @@ diffFromSource
 				obsoletion classDefinitionString, String cr, String cr,
 				obsoletion commentStamp, String cr,
 				obsoletion comment]
-		ifFalse: [self fromSource]
+		ifFalse: [obsoletion diffSource]

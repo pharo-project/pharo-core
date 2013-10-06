@@ -10,7 +10,7 @@ initializeWidgets
 	self setLogButton.
 	self setResetButton.
 	 
-	criticModel := SingleRuleCriticBrowser new.
+	criticModel := SingleCodeCriticResultList new.
 	rulesModel childrenBlock: [ :rule | 
 		rule isComposite 
 			ifTrue: [ rule rules ]

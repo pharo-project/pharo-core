@@ -4,5 +4,7 @@ nextButton
 			nextButton := self instantiate: ButtonModel.
 			nextButton label: '>'.
 			nextButton
-				action: [ self inspectorWrapper inspectNext ]].
+				action: [ 
+					self inspectorWrapper inspectNext.
+					self updateButtonStatus. ]].
 	^ nextButton
