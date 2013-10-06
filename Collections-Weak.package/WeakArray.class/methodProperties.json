@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"addWeakDependent:" : "HenrikSperreJohansen 5/20/2010 22:39",
-		"finalizationProcess" : "IgorStasenko 5/23/2011 12:41",
+		"finalizationProcess" : "EstebanLorenzano 10/2/2013 13:36",
 		"initialize" : "GuillermoPolito 5/21/2012 16:16",
 		"pvtCreateTemporaryObjectIn:" : "ar 10/7/1998 15:24",
 		"removeWeakDependent:" : "HenrikSperreJohansen 5/20/2010 22:39",

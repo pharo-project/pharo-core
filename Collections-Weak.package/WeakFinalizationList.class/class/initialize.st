@@ -1,5 +1,5 @@
 class initialization
-initialize
-	TestList := self new.
-	self initTestPair.
-	self checkTestPair.
+initialize 
+	Smalltalk 
+		removeFromStartUpList: self;
+		addToStartUpList: self after: SmalltalkImage 

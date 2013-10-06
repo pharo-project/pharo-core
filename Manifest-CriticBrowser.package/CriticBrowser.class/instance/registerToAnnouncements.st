@@ -9,4 +9,5 @@ registerToAnnouncements
 		on: MethodRemoved send: #methodRemoved: to: self.
 		
 	
-	self window window announcer on: WindowClosed do: [self onWindowClosed]	
+	self window window announcer 
+		on: WindowClosed send: #onWindowClosed to: self

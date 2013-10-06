@@ -7,4 +7,5 @@ initialize
 	model := ChangeSorterModel new.
 	isRefreshing := false.
 	
-	SystemAnnouncer uniqueInstance weak on: CurrentChangeSetChanged do: [:each | self updateTitle]
+	SystemAnnouncer uniqueInstance weak 
+		on: CurrentChangeSetChanged send: #updateTitle to: self.

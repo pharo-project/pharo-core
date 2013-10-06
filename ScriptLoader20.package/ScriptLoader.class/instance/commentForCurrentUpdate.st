@@ -1,7 +1,5 @@
 public
 commentForCurrentUpdate
- ^ '11678 ConfigurationCommandLineHandler should allow multiple groups
-	https://pharo.fogbugz.com/f/cases/11678
-	
-11628 Give Job its own announcer, no longer use the SystemAnnouncer [Backport]	
-	https://pharo.fogbugz.com/f/cases/11628'
+ ^ '11639 Backport Pharo2.0: Memory leak when using weak announcements with blocks
+	https://pharo.fogbugz.com/f/cases/11639
+'

@@ -6,12 +6,14 @@ whenListChanged: aBlock
 
 	<api: #event>
 	| block |
+	
 	block := [ :announcement :ann | 
-	aBlock
-		cull: announcement newContents
-		cull: announcement oldContents
-		cull: announcement
-		cull: ann ].
-	listAnnouncer weak
+		aBlock
+			cull: announcement newContents
+			cull: announcement oldContents
+			cull: announcement
+			cull: ann ].
+	
+	listAnnouncer
 		on: ValueChanged
 		do: block
