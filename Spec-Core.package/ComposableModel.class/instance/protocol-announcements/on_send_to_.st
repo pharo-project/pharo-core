@@ -1,6 +1,6 @@
 on: anAnnouncement send: aSelector to: aTarget
 
-	self announcer weak
+	self announcer
 		on: anAnnouncement 
 		send: aSelector 
 		to: aTarget

@@ -4,5 +4,5 @@ initialize
 	textBindings := Dictionary new.
 	super initialize.
 	
-	self announcer weak
+	self announcer
 		on: WidgetBuilt send: #widgetBuilt to: self

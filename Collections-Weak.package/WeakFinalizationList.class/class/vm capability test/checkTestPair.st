@@ -1,2 +1,3 @@
 checkTestPair
-	HasNewFinalization := TestList swapWithNil notNil.
+	self flag: #removeMe. "In second step"
+	^ true

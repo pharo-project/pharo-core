@@ -6,12 +6,13 @@ initialize
 	
 	needRefresh := false.
 	
-	self announcer weak
+	self announcer
 		on: WidgetBuilt
 		send: #onWidgetBuilt
 		to: self.
 		
-	self whenWindowChanged: [:w | w whenClosedDo: [ self close ] ].
+	self whenWindowChanged: [ :w | 
+		w whenClosedDo: [ self close ] ].
 	
 	session whenChangedDo: [:newSession :oldSession |
 		self removeActionsForSession: oldSession.

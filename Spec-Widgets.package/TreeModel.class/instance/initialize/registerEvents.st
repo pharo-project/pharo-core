@@ -1,5 +1,5 @@
 registerEvents
-	treeModel announcer weak
+	treeModel announcer
 		on: MorphTreeSelectionChanged
 		send: #onMorphTreeSelectionChanged:
 		to: self.

@@ -7,7 +7,7 @@ initialize
 	
 	self initializeShortcuts.
 	inspector whenChangedDo: [ :new :old | self updateInspectorFrom: old ].
-	self announcer weak 
+	self announcer
 		on: WidgetBuilt send: #setRefreshedToTrue to: self.
 	
 	canBeRefreshed := false.

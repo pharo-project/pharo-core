@@ -11,6 +11,6 @@ whenListChanged: aBlock
 		cull: announcement oldContents
 		cull: announcement
 		cull: ann ].
-	listAnnouncer weak
+	listAnnouncer
 		when: ValueChanged
 		do: block

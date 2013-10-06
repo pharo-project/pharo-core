@@ -12,8 +12,7 @@ initialize
 	self windowIcon: self taskbarIcon.
 	self registerToAnnouncements.
 
-	self announcer weak
+	self announcer
 		when: WidgetBuilt 
-		do: [ 
-			self updateTitle.
-			textModel text: textModel getText. ]
+		send: #buildUpdateTitle
+		to: self
