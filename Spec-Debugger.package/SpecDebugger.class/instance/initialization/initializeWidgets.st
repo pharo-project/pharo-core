@@ -4,7 +4,7 @@ initializeWidgets
 			{(#stack -> #MultiColumnListModel).
 			(#toolbar -> #SpecDebuggerToolbar).
 			(#code -> #TextModel).
-			(#receiverInspector -> #InspectorWrapper).
+			(#receiverInspector -> #InspectorNavigator).
 			(#contextInspector -> #EyeDebuggerContextInspector)}.
 	
 	self stack displayBlock: [ :aContext | self columnsFor: aContext ].
