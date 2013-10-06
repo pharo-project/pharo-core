@@ -30,7 +30,7 @@ openAsMorphClassEditing: editString
 
 	window 
 		addMorph: self buildMorphicMessageList
-		fullFrame: ((0.5@0 corner: 1.0@hSepFrac) topOffset: switchHeight).
+		fullFrame: ((0.5@0 corner: 1.0@hSepFrac) asLayoutFrame topOffset: switchHeight).
 
 	window setUpdatablePanesFrom: #(messageCategoryList messageList).
 	^ window
