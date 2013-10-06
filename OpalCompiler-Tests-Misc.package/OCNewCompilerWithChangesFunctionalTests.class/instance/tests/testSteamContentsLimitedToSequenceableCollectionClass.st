@@ -1,18 +1,15 @@
 testSteamContentsLimitedToSequenceableCollectionClass
 	| aCompiledMethod bytecode index |
 	
-	aCompiledMethod := (OpalCompiler new 
-									compile: 'streamContents: blockWithArg limitedTo: sizeLimit
+	aCompiledMethod := OpalCompiler new 
+									source: 'streamContents: blockWithArg limitedTo: sizeLimit
 												| stream |
 												stream := LimitedWriteStream on: (self new: (100 min: sizeLimit)).
 												stream setLimit: sizeLimit limitBlock: [^ stream contents].
 												blockWithArg value: stream.
-												^ stream contents'
-									in: SequenceableCollection class
-									classified: nil
-									notifying: nil
-									ifFail: [])
-									generate.
+												^ stream contents';
+									class: SequenceableCollection class;
+									compile.
 									
 	bytecode := aCompiledMethod symbolic asString subStrings: '
 '.

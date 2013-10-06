@@ -3,12 +3,12 @@ testNotInteractiveInBlockTempShadowing
 	interactive := false.
 	self initializeErrorMessage.
 
-	(OpalCompiler new
-		compile: 'temp |var2| [:temp| |var2|]'
-		in: MockForCompilation
-		classified: nil
-		notifying: self
-		ifFail: [self fail]).
+	OpalCompiler new
+		source: 'temp |var2| [:temp| |var2|]';
+		class: MockForCompilation;
+		requestor: self;
+		failBlock: [self fail];
+		translate.
 	
 	self assert: newTranscript contents equals:  '
 MockForCompilation>>temp(var2 is shadowed)'

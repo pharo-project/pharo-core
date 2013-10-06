@@ -1,14 +1,10 @@
 testMultiElementArray
 	| aCompiledMethod bytecode index |
-	aCompiledMethod := (OpalCompiler new 
-									compile: 'method
-	^{1. 2. 3. 4. 5. 6 }'
-									in: OCMockCompilationClass
-									classified: nil
-									notifying: nil
-									ifFail: [])
-									generate.
-									
+	aCompiledMethod := OpalCompiler new 
+									source: 'method
+	^{1. 2. 3. 4. 5. 6 }';
+									class: OCMockCompilationClass;
+									compile.
 	bytecode := aCompiledMethod symbolic asString subStrings: '
 '.
 	index := 0.

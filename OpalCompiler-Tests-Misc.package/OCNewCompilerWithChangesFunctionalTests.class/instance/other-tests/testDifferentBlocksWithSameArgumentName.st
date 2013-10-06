@@ -1,20 +1,17 @@
 testDifferentBlocksWithSameArgumentName
 	
 	| aCompiledMethod bytecode index |
-	aCompiledMethod := (OpalCompiler new 
-									compile: 'exampleNestedBlock
+	aCompiledMethod := OpalCompiler new 
+									source: 'exampleNestedBlock
 												| b c z |
 												b := [:a | 
 														z := 2.
 														z + a].
 												c := [:a |
 														z + a].
-											^ (b value: 2) + (c value: 1)'
-									in: OCMockCompilationClass
-									classified: nil
-									notifying: nil
-									ifFail: [])
-									generate.
+											^ (b value: 2) + (c value: 1)';
+									class: OCMockCompilationClass;
+									compile.
 									
 	bytecode := aCompiledMethod symbolic asString subStrings: '
 '.

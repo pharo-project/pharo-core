@@ -1,15 +1,12 @@
 testSetUp
 	
 	| aCompiledMethod bytecode index |
-	aCompiledMethod := (OpalCompiler new 
-									compile: 'setUp
+	aCompiledMethod := OpalCompiler new 
+									source: 'setUp
 												super setUp.
-												collection := OrderedCollection new'
-									in: OCMockCompilationClass
-									classified: nil
-									notifying: nil
-									ifFail: [])
-									generate.
+												collection := OrderedCollection new';
+									class: OCMockCompilationClass;
+									compile.
 	
 	bytecode := aCompiledMethod symbolic asString subStrings: '
 '.

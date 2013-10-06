@@ -7,9 +7,12 @@ accept: aText notifying: aController
 		ifNotNil: [:changeClass | changeClass compiler ].
 		
 	compiler
-		compile: aText asString in: self changeClass
-		classified: nil notifying: aController
-		ifFail: [ ^ false ].
+		source: aText asString;
+		class:  self changeClass;
+		requestor: aController;
+		failBlock: [ ^ false ];
+		translate.
+	
 		
 	self 
 		class: self changeClass

@@ -1,8 +1,8 @@
 testDoDup
-	| selector methodNode scanner |
-	methodNode := self compile2methodNode: 'duplicateTopBytecode 3 + 4; yourself'.
-	selector := methodNode selector.
-	scanner := InstructionStream on: methodNode method.
+	| selector method scanner |
+	method := self compile2method: 'duplicateTopBytecode 3 + 4; yourself'.
+	selector := method selector.
+	scanner := InstructionStream on:  method.
 	1
 		timesRepeat: [scanner nextInstruction].
 	self assert: scanner peekInstruction selector == #doDup description: 'Failed ' , selector

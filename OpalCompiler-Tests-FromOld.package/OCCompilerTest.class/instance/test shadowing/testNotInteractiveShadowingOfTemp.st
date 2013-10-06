@@ -3,12 +3,11 @@ testNotInteractiveShadowingOfTemp
 	interactive := false.
 	self initializeErrorMessage.
 
-	(OpalCompiler new 
-		compile: 'temp |temp1 temp1| '
-		in: MockForCompilation
-		classified: nil
-		notifying: self
-		ifFail: nil).
+	OpalCompiler new 
+		source: 'temp |temp1 temp1| ';
+		class: MockForCompilation;
+		requestor: self;
+		translate.
 			
 	self assert: ( newTranscript contents =  '
 MockForCompilation>>temp(temp1 is shadowed)').

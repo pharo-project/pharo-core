@@ -1,14 +1,11 @@
 testSimpleArray
 	
 	| aCompiledMethod bytecode index |
-	aCompiledMethod := (OpalCompiler new 
-									compile: 'method
-	^{1}'
-									in: OCMockCompilationClass
-									classified: nil
-									notifying: nil
-									ifFail: [])
-									generate.
+	aCompiledMethod := OpalCompiler new 
+									source: 'method
+	^{1}';
+									class: OCMockCompilationClass;
+									compile.
 									
 	bytecode := aCompiledMethod symbolic asString subStrings: '
 '.

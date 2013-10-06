@@ -1,6 +1,6 @@
 testPushReceiverBytecode
-	| selector methodNode scanner |
-	selector := (methodNode := self compile2methodNode: 'pushReceiverBytecode ^ self yourself') selector.
-	scanner := InstructionStream on: methodNode method.
+	| selector method scanner |
+	selector := (method := self compile2method: 'pushReceiverBytecode ^ self yourself') selector.
+	scanner := InstructionStream on: method.
 	self assert: scanner peekInstruction selector == #pushReceiver
 		description: 'Failed ' , selector

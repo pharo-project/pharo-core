@@ -1,7 +1,7 @@
 testPrimDoWith
-	| selector methodNode scanner did |
-	selector := (methodNode := self compile2methodNode: 'bytecodeDoWith self do: #something') selector.
-	scanner := InstructionStream on: methodNode method.
+	| selector method scanner did |
+	selector := (method := self compile2method: 'bytecodeDoWith self do: #something') selector.
+	scanner := InstructionStream on:  method.
 	2
 		timesRepeat: [scanner nextInstruction].
 	self

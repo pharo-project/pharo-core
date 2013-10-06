@@ -1,7 +1,7 @@
 testPrimEqual
-	| selector methodNode scanner did |
-	selector := (methodNode := self compile2methodNode: 'bytecodePrimEqual 3 = 4') selector.
-	scanner := InstructionStream on: methodNode method.
+	| selector method scanner did |
+	selector := (method  := self compile2method: 'bytecodePrimEqual 3 = 4') selector.
+	scanner := InstructionStream on:  method.
 	2
 		timesRepeat: [scanner nextInstruction].
 	self

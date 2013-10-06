@@ -1,18 +1,15 @@
 testModulePrimitive
 	
 	| aCompiledMethod bytecode index |
-	aCompiledMethod := (OpalCompiler new 
-	compile: 'copyBitsAgain
+	aCompiledMethod := OpalCompiler new 
+	source: 'copyBitsAgain
 	"Primitive. See BitBlt|copyBits, also a Primitive. Essential. See Object
 	documentation whatIsAPrimitive."
 
 	<primitive: ''primitiveCopyBits'' module: ''BitBltPlugin''>
-	self primitiveFailed'
-	in: BitBlt
-	classified: nil
-	notifying: nil
-	ifFail: [])
-	generate.
+	self primitiveFailed';
+	class: BitBlt;
+	compile.
 									
 	bytecode := aCompiledMethod symbolic asString subStrings: '
 '.

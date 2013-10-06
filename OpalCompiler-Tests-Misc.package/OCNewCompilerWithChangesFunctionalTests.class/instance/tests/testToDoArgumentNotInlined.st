@@ -1,19 +1,15 @@
 testToDoArgumentNotInlined
 	
 	| aCompiledMethod bytecode index |
-	aCompiledMethod := (OpalCompiler new 
-									compile: 'testToDoArgumentNotInlined
+	aCompiledMethod := OpalCompiler new 
+									source: 'testToDoArgumentNotInlined
 													| block |
 													block := [ :index |
 														collection add: [ index ] ].
 													1 to: 5 do: block.
-													self assertValues: #(1 2 3 4 5)'
-									in: OCMockCompilationClass
-									classified: nil
-									notifying: nil
-									ifFail: [])
-									generate.
-									
+													self assertValues: #(1 2 3 4 5)';
+									class: OCMockCompilationClass;
+									compile.
 	bytecode := aCompiledMethod symbolic asString subStrings: '
 '.
 	index := 0.

@@ -1,7 +1,7 @@
 testPrimGreaterThan
-	| selector methodNode scanner did |
-	selector := (methodNode := self compile2methodNode: 'bytecodePrimGreaterThan 3 > 4') selector.
-	scanner := InstructionStream on: methodNode method.
+	| selector method scanner did |
+	selector := (method := self compile2method: 'bytecodePrimGreaterThan 3 > 4') selector.
+	scanner := InstructionStream on:  method.
 	2
 		timesRepeat: [scanner nextInstruction].
 	self

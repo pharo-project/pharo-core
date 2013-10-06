@@ -5,11 +5,11 @@ testReservedNameAsMethodArgumentShadowing
 		self initializeErrorMessage.
 		[ :exit | 
 			OpalCompiler new 
-				compile: 'temp: ' , each , ' ^ ' , each
-				in: MockForCompilation
-				classified: nil
-				notifying: self
-				ifFail: [ exit value ].
+				source: 'temp: ' , each , ' ^ ' , each;
+				class:  MockForCompilation;
+				requestor: self;
+				failBlock: [ exit value ];
+				translate.
 			self fail ] valueWithExit.
 		self assert: ((errorMessage = 'Variable name expected ->' )or: [ errorMessage =  'Name already defined ->' ]).
 		self assert: errorLocation = 7 ]

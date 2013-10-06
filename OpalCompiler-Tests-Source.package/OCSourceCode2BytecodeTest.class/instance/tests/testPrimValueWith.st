@@ -1,7 +1,7 @@
 testPrimValueWith
-	| selector methodNode scanner did |
-	selector := (methodNode := self compile2methodNode: 'bytecodeValueWith self value: 3') selector.
-	scanner := InstructionStream on: methodNode method.
+	| selector method scanner did |
+	selector := (method := self compile2method: 'bytecodeValueWith self value: 3') selector.
+	scanner := InstructionStream on: method.
 	2
 		timesRepeat: [scanner nextInstruction].
 	self

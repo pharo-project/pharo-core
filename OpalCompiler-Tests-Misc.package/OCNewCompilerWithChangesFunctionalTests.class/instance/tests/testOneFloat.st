@@ -1,15 +1,12 @@
 testOneFloat
 	
 	| aCompiledMethod bytecode index |
-	aCompiledMethod := (OpalCompiler new 
-	compile: 'one
+	aCompiledMethod := OpalCompiler new 
+	source: 'one
 	
-	^1.0'
-	in: Float class
-	classified: nil
-	notifying: nil
-	ifFail: [])
-	generate.
+	^1.0';
+	class: Float class;
+	compile.
 
 									
 	bytecode := aCompiledMethod symbolic asString subStrings: '

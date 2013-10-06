@@ -1,8 +1,0 @@
-compile2methodNode: sourceStream 
-			"Compile code without logging the source in the changes file"
-			| methodNode |
-			methodNode := OpalCompiler new
-						compile: sourceStream 
-						in: self class classified: nil 
-						notifying: nil ifFail: [^ nil].
-			^ methodNode generate: CompiledMethodTrailer empty

@@ -4,25 +4,20 @@ testPragmas
 	
 	(Smalltalk hasClassNamed: #Compiler) ifFalse: [^self skip].
 	
-	newCompiledMethod := (OpalCompiler new 
-									compile:'methodDoublePragma
+	newCompiledMethod := OpalCompiler new 
+									source: 'methodDoublePragma
 											<hello: 5>
-											<hello: 2>'
-									in: OCMockCompilationClass
-									classified: nil
-									notifying: nil
-									ifFail: [])
-									generate.
+											<hello: 2>';
+									class: OCMockCompilationClass;
+									compile.
 
-	originalCompiledMethod := ((Smalltalk classNamed: #Compiler) new 
-									compile:'methodDoublePragma
+	originalCompiledMethod := (Smalltalk classNamed: #Compiler) new 
+									source: 'methodDoublePragma
 											<hello: 5>
-											<hello: 2>'
-									in: OCMockCompilationClass
-									classified: nil
-									notifying: nil
-									ifFail: [])
-									generate.
+											<hello: 2>';
+									class: OCMockCompilationClass;
+									compile.
+
 							
 	self assert: newCompiledMethod numArgs = originalCompiledMethod numArgs.
 	self assert: newCompiledMethod numLiterals = originalCompiledMethod numLiterals.

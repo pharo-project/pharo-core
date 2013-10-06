@@ -3,14 +3,15 @@ testNotInteractiveSiblingBlocksInstanceVariableShadowing
 	interactive := false.
 	self initializeErrorMessage.
 	
-	(OpalCompiler new
-		compile: 'temp [:temp | ].[:temp | |var1|]'
-		in: MockForCompilation
-		classified: nil
-		notifying: self
-		ifFail: [self fail.
-				^nil]).
-			self assert: ( newTranscript contents = '
+	OpalCompiler new
+		source: 'temp [:temp | ].[:temp | |var1|]';
+		class:  MockForCompilation;
+		requestor: self;
+		failBlock: [self fail.
+				^nil];
+		translate.
+	
+	self assert: ( newTranscript contents = '
 MockForCompilation>>temp(var1 is shadowed)').
 
 

@@ -1,19 +1,16 @@
 testToDoOutsideTempNotInlined
 	"there seems to be a better indexzation of the temps we have one more"
 	| aCompiledMethod bytecode index |
-	aCompiledMethod := (OpalCompiler new 
-										compile: 'testToDoOutsideTempNotInlined
+	aCompiledMethod := OpalCompiler new 
+										source: 'testToDoOutsideTempNotInlined
 														| block temp |
 														block := [ :index | 
 																	temp := index. 
 																	collection add: [ temp ] ].
 														1 to: 5 do: block.
-														self assertValues: #(5 5 5 5 5)'
-	in: OCMockCompilationClass
-	classified: nil
-	notifying: nil
-	ifFail: [])
-	generate.
+														self assertValues: #(5 5 5 5 5)';
+	class: OCMockCompilationClass;
+	compile.
 									
 	bytecode := aCompiledMethod symbolic asString subStrings: '
 '.

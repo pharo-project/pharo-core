@@ -1,19 +1,16 @@
 testBlockTemp
 	
 	| aCompiledMethod bytecode index |
-	aCompiledMethod := (OpalCompiler new 
-									compile: 'testBlockTemp
+	aCompiledMethod := OpalCompiler new 
+									source: 'testBlockTemp
 	| block block1 block2 |
 	block := [ :arg | [ arg ] ].
 	block1 := block value: 1.
 	block2 := block value: 2.
 	self assert: block1 value = 1.
-	self assert: block2 value = 2'
-									in: OCMockCompilationClass
-									classified: nil
-									notifying: nil
-									ifFail: [])
-									generate.
+	self assert: block2 value = 2';
+									class: OCMockCompilationClass;
+									compile.
 									
 	bytecode := aCompiledMethod symbolic asString subStrings: '
 '.

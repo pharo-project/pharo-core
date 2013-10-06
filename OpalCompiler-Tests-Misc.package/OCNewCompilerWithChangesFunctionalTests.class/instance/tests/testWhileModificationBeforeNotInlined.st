@@ -1,20 +1,17 @@
 testWhileModificationBeforeNotInlined
 	"The bytecodes integers are different in some cases."
 	| aCompiledMethod bytecode index |
-	aCompiledMethod := (OpalCompiler new 
-										compile: 'testWhileModificationBeforeNotInlined
+	aCompiledMethod := OpalCompiler new 
+										source: 'testWhileModificationBeforeNotInlined
 														| index block |
 														index := 0.
 														block := [ 
 																index := index + 1.
 																collection add: [ index ] ].
 														[ index < 5 ] whileTrue: block.
-														self assertValues: #(5 5 5 5 5)'
-	in: OCMockCompilationClass
-	classified: nil
-	notifying: nil
-	ifFail: [])
-	generate.
+														self assertValues: #(5 5 5 5 5)';
+	class: OCMockCompilationClass;
+	compile.
 									
 	bytecode := aCompiledMethod symbolic asString subStrings: '
 '.

@@ -1,20 +1,17 @@
 testToDoInsideTempNotInlined
 	"Some instructions are the same but we have a different number at he begining, and the storeTemp and popIntoTemp issue"
 	| aCompiledMethod bytecode index |
-	aCompiledMethod := (OpalCompiler new 
-										compile: 'testToDoInsideTempNotInlined
+	aCompiledMethod := OpalCompiler new 
+										source: 'testToDoInsideTempNotInlined
 														| block |
 														block := [ :index | 
 																		| temp | 
 																		temp := index. 
 																		collection add: [ temp ] ].
 														1 to: 5 do: block.
-														self assertValues: #(1 2 3 4 5)'
-	in: OCMockCompilationClass
-	classified: nil
-	notifying: nil
-	ifFail: [])
-	generate.
+														self assertValues: #(1 2 3 4 5)';
+	class: OCMockCompilationClass;
+	compile.
 									
 	bytecode := aCompiledMethod symbolic asString subStrings: '
 '.

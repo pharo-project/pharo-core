@@ -1,14 +1,11 @@
 testReturnBlockInMethod
 	
 	| aCompiledMethod bytecode index |
-	aCompiledMethod := (OpalCompiler new 
-											compile: 'methodArgument: anObject
-														^ [ anObject ]'
-											in: OCMockCompilationClass
-											classified: nil
-											notifying: nil
-											ifFail: [])
-											generate. 
+	aCompiledMethod := OpalCompiler new 
+											source: 'methodArgument: anObject
+														^ [ anObject ]';
+											class: OCMockCompilationClass;
+											compile.
 									
 	bytecode := aCompiledMethod symbolic asString subStrings: '
 '.

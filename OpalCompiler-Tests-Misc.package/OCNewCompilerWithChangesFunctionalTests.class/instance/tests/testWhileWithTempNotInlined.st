@@ -1,8 +1,8 @@
 testWhileWithTempNotInlined
 	"The bytecodes integers are different in some cases."
 	| aCompiledMethod bytecode index |
-	aCompiledMethod := (OpalCompiler new 
-										compile: 'testWhileWithTempNotInlined
+	aCompiledMethod := OpalCompiler new 
+										source: 'testWhileWithTempNotInlined
 	| index block |
 	index := 0.
 	block := [
@@ -10,12 +10,10 @@ testWhileWithTempNotInlined
 		temp := index := index + 1.
 		collection add: [ temp ] ].
 	[ index < 5 ] whileTrue: block.
-	self assertValues: #(1 2 3 4 5)'
-	in: OCMockCompilationClass
-	classified: nil
-	notifying: nil
-	ifFail: [])
-	generate.
+	self assertValues: #(1 2 3 4 5)';
+	class: OCMockCompilationClass;
+	compile.
+	
 									
 	bytecode := aCompiledMethod symbolic asString subStrings: '
 '.

@@ -1,7 +1,7 @@
 testPrimNext
-	| selector methodNode scanner did |
-	selector := (methodNode := self compile2methodNode: 'bytecodePrimSize self next') selector.
-	scanner := InstructionStream on: methodNode method.
+	| selector method scanner did |
+	selector := (method := self compile2method: 'bytecodePrimSize self next') selector.
+	scanner := InstructionStream on:  method.
 	1
 		timesRepeat: [scanner nextInstruction].
 	self

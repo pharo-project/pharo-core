@@ -1,7 +1,7 @@
 testReturnNilBytecode
-	| selector methodNode scanner did |
-	selector := (methodNode := self compile2methodNode: 'returnNilBytecode 3 + 4. ^ nil') selector.
-	scanner := InstructionStream on: methodNode method.
+	| selector method scanner did |
+	selector := (method := self compile2method: 'returnNilBytecode 3 + 4. ^ nil') selector.
+	scanner := InstructionStream on: method.
 	4
 		timesRepeat: [scanner nextInstruction].
 	self

@@ -3,15 +3,15 @@ testSiblingBlocksInstanceVariableShadowing
 	interactive := true.
 	self initializeErrorMessage.
 	
-	(OpalCompiler new
-		compile: 'temp [:temp | ].[:temp | |var1|]'
-		in: MockForCompilation
-		classified: nil
-		notifying: self
-		ifFail: [
+	OpalCompiler new
+		source: 'temp [:temp | ].[:temp | |var1|]';
+		class: MockForCompilation;
+		requestor: self;
+		failBlock: [
 				self assert: (errorMessage = 'Name already defined ->').
 				self assert: (errorLocation = 27).
-				^nil]).
+				^nil];
+		translate.
 	self fail.
 
 

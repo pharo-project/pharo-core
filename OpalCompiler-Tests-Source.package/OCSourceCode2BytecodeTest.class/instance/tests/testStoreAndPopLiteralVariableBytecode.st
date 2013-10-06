@@ -1,7 +1,7 @@
 testStoreAndPopLiteralVariableBytecode
-	| selector methodNode scanner did |
-	selector := (methodNode := self compile2methodNode: 'storeAndPopLiteralVariableBytecode ClassVar := nil') selector.
-	scanner := InstructionStream on: methodNode method.
+	| selector method scanner did |
+	selector := (method := self compile2method: 'storeAndPopLiteralVariableBytecode ClassVar := nil') selector.
+	scanner := InstructionStream on: method.
 	self
 		assert: ((did := scanner nextInstruction; peekInstruction) selector == #popIntoLiteralVariable:
 				and: [did arguments first = (#ClassVar -> nil)])

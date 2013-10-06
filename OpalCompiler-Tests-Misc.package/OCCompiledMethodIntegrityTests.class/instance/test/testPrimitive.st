@@ -4,25 +4,19 @@ testPrimitive
 	
 	(Smalltalk hasClassNamed: #Compiler) ifFalse: [^self skip].
 	
-	newCompiledMethod := (OpalCompiler new 
-								compile: 'size
+	newCompiledMethod := OpalCompiler new 
+								source: 'size
 											<primitive: 62>
-											^ self basicSize.'
-								in: OCMockCompilationClass
-								classified: nil
-								notifying: nil
-								ifFail: [])
-									generate.
+											^ self basicSize.';
+								class: OCMockCompilationClass;
+								compile.
 
-	originalCompiledMethod := ((Smalltalk classNamed: #Compiler) new 
-								compile: 'size
+	originalCompiledMethod := (Smalltalk classNamed: #Compiler) new 
+								source: 'size
 											<primitive: 62>
-											^ self basicSize.'
-								in: OCMockCompilationClass
-								classified: nil
-								notifying: nil
-								ifFail: [])
-									generate.
+											^ self basicSize.';
+								class: OCMockCompilationClass;
+								compile.
 							
 	self assert: newCompiledMethod numArgs = originalCompiledMethod numArgs.
 	self assert: newCompiledMethod numLiterals = originalCompiledMethod numLiterals.

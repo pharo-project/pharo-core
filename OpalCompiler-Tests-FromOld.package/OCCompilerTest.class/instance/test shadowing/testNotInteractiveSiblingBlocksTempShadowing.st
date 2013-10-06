@@ -3,13 +3,13 @@ testNotInteractiveSiblingBlocksTempShadowing
 	interactive := false.
 	self initializeErrorMessage.
 
-	(OpalCompiler new
-		compile: 'temp [:temp | ]. [:temp | ]'
-		in: MockForCompilation
-		classified: nil
-		notifying: self
-		ifFail: [self fail.
-						^nil]).
+	OpalCompiler new
+		source: 'temp [:temp | ]. [:temp | ]';
+		class: MockForCompilation;
+		requestor: self;
+		failBlock: [self fail.
+						^nil];
+		translate.
 	self assert: ( newTranscript contents = '').
 
 

@@ -1,7 +1,7 @@
 testStoreAndPopReceiverVariableBytecode
-	| selector methodNode scanner did |
-	selector := (methodNode := self compile2methodNode: 'storeAndPopReceiverVariableBytecode instVar := self') selector.
-	scanner := InstructionStream on: methodNode method.
+	| selector method scanner did |
+	selector := (method := self compile2method: 'storeAndPopReceiverVariableBytecode instVar := self') selector.
+	scanner := InstructionStream on: method.
 	self
 		assert: ((did := scanner nextInstruction; peekInstruction) selector == #popIntoReceiverVariable:
 				and: [did arguments first == 2])

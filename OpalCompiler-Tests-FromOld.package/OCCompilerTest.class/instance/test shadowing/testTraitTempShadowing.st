@@ -3,13 +3,12 @@ testTraitTempShadowing
 	self initializeErrorMessage.
 
 	OpalCompiler new 
-	compile: 'testReplaceFromToWithStartingAt
+	source: 'testReplaceFromToWithStartingAt
 	| result  repStart collection replacementCollection firstIndex secondIndex |
-		replacementCollection := 1.'
-	in: ArrayTest
-	classified: nil
-	notifying: nil
-	ifFail: [self fail.].
+		replacementCollection := 1.';
+	class: ArrayTest;
+	failBlock: [self fail.];
+	translate.
 	self assert: ( newTranscript contents =  '
 ArrayTest>>testReplaceFromToWithStartingAt(replacementCollection is shadowed)
 ArrayTest>>testReplaceFromToWithStartingAt(firstIndex is shadowed)

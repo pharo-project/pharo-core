@@ -1,7 +1,7 @@
 testPushLiteralVariableBytecode
-	| selector methodNode scanner did |
-	selector := (methodNode := self compile2methodNode: 'pushLiteralVariableBytecode ClassVar yourself') selector.
-	scanner := InstructionStream on: methodNode method.
+	| selector method scanner did |
+	selector := (method := self compile2method: 'pushLiteralVariableBytecode ClassVar yourself') selector.
+	scanner := InstructionStream on: method.
 	self
 		assert: ((did := scanner peekInstruction) selector == #pushLiteralVariable:
 				and: [did arguments first = (#ClassVar -> nil)])

@@ -1,7 +1,7 @@
 testPushTemporaryVariableBytecode
-	| selector methodNode scanner did |
-	selector := (methodNode := self compile2methodNode: 'pushTemporaryVariableBytecode: t0 t0 yourself') selector.
-	scanner := InstructionStream on: methodNode method.
+	| selector method scanner did |
+	selector := (method := self compile2method: 'pushTemporaryVariableBytecode: t0 t0 yourself') selector.
+	scanner := InstructionStream on: method.
 	self
 		assert: ((did := scanner peekInstruction) selector == #pushTemporaryVariable:
 				and: [did arguments first == 0])

@@ -1,15 +1,12 @@
 testBlockReturning
 	
 	| aCompiledMethod bytecode index |
-	aCompiledMethod := (OpalCompiler new 
-									compile: 'open
+	aCompiledMethod := OpalCompiler new 
+									source: 'open
 	(self announcements at: self index ifAbsent: [ ^ self ]) 
-		open'
-									in: OCMockCompilationClass
-									classified: nil
-									notifying: nil
-									ifFail: [])
-									generate.
+		open';
+									class: OCMockCompilationClass;
+									compile.
 									
 	bytecode := aCompiledMethod symbolic asString subStrings: '
 '.

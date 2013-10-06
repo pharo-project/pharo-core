@@ -1,15 +1,12 @@
 testPragma
 	
 	| aCompiledMethod bytecode index |
-	aCompiledMethod := (OpalCompiler new 
-									compile:'methodDoublePragma
+	aCompiledMethod := OpalCompiler new 
+									source: 'methodDoublePragma
 											<hello: 5>
-											<hello: 2>'
-									in: OCMockCompilationClass
-									classified: nil
-									notifying: nil
-									ifFail: [])
-									generate.
+											<hello: 2>';
+									class:  OCMockCompilationClass;
+									compile.
 									
 	bytecode := aCompiledMethod symbolic asString subStrings: '
 '.

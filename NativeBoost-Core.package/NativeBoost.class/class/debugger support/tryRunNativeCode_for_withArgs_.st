@@ -1,7 +1,7 @@
 tryRunNativeCode: aCompiledMethod for: aReceiver withArgs: arguments
 	"run only a native code of given method,
 	and if it fails evaluate aFailBlock instead"
-	| src node m |
+	| src m |
 	"self assert: (self isNativeMethod: aCompiledMethod)."
 	
 	src := String streamContents: [:str |
@@ -18,14 +18,13 @@ tryRunNativeCode: aCompiledMethod for: aReceiver withArgs: arguments
 		nextPutAll: ' ^ ContextPart primitiveFailTokenFor: errorCode'.
 	].
 
-	node := Compiler new 
-		compile: src 
-		in: aCompiledMethod methodClass
-		classified: nil 
-		notifying: nil 
-		ifFail: [ ^ ContextPart primitiveFailTokenFor: nil ].
-
-	m := node generate: aCompiledMethod trailer.
+	m := Compiler new 
+		source: src;
+		class: aCompiledMethod methodClass;
+		compiledMethodTrailer: aCompiledMethod trailer;
+		failBlock: [ ^ ContextPart primitiveFailTokenFor: nil ];
+		compile.
+	
 	m flushCache.
 	m selector flushCache.
 	
