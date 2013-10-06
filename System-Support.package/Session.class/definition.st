@@ -1,5 +1,5 @@
 Object subclass: #Session
-	instanceVariableNames: ''
+	instanceVariableNames: 'creationTime'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'System-Support'
