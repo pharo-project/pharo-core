@@ -1,13 +1,10 @@
 newUpdatesFromString: aString
-	"
-	A string should be of following format:
+	"A string should be of following format:
 
-#Pharo2.0a
-20000-Pha-Empty.cs
-20001-Pha-Empty2.cs
-20002-Pha-DelScriptLoader.cs
-	
-	 "
+	#Pharo2.0a
+	20000-Pha-Empty.cs
+	20001-Pha-Empty2.cs
+	20002-Pha-DelScriptLoader.cs "
 	
 	| list out existing |
 	
@@ -21,10 +18,7 @@ newUpdatesFromString: aString
 			ifFalse: [ (itsNumber isNil or: [itsNumber <= self upToNumber])
 							ifTrue: [out addFirst: self updateFolderURL, fileName]]
 			ifTrue: [^ out]].
-	"("
-	(out size > 0) "or: 
-			[char := doc reset; skipSeparators; next.
-			(char == $*) | (char == $#)])"  ifTrue:
+	out notEmpty  ifTrue:
 				[^ out "we have our list"].	
 	self feedback: 'All code update servers seem to be unavailable'.
 	^ out

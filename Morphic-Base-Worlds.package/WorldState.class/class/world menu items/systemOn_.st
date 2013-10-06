@@ -22,8 +22,11 @@ systemOn: aBuilder
 			(aBuilder item: #'Start profiling UI ') 
 				action: [self startThenBrowseMessageTally].
 			(aBuilder item: #'Space left') 
-				action: [Smalltalk informSpaceLeftAfterGarbageCollection];
+				action: [Smalltalk informSpaceLeftAfterGarbageCollection].
+			(aBuilder item: #'Do Image Cleanup') 
+				action: [Smalltalk cleanUp: true ];
 			withSeparatorAfter.
+			
 			
 			(aBuilder item: #'Start drawing again') 
 				action: [World  resumeAfterDrawError].

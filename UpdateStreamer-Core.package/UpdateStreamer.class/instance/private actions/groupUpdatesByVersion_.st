@@ -8,7 +8,7 @@ groupUpdatesByVersion: updateContents
 	strm := updateContents readStream.
 	[ strm atEnd ] whileFalse: 
 		[ line := strm nextLine.
-		line size > 0 ifTrue: 
+		line notEmpty ifTrue: 
 			[ line first = $# 
 				ifTrue: 
 					[ vers ifNotNil: [ sections addLast: {  vers. (fileNames asArray)  } ].

@@ -1,3 +1,2 @@
 saveLocally
-
-	^ saveLocally ifNil: [saveLocally := false]
+	^false

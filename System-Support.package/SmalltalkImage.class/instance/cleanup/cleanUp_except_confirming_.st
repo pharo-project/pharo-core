@@ -10,7 +10,7 @@ cleanUp: aggressive except: exclusions confirming: aBool
 	| classes |
 	aBool ifTrue:[
 		"Give the user a chance to bail"
-		(self confirm: 'Cleanup will destroy projects, change sets and more.
+		(self confirm: 'Cleanup will destroy change sets and more.
 Are you sure you want to proceed?') ifFalse: [^self]].
 
 	"Find all classes implementing #cleanUp or cleanUp:"

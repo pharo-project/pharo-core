@@ -1,3 +1,0 @@
-server: aStringWithHTTPColon
-
-	pharoServer := aStringWithHTTPColon

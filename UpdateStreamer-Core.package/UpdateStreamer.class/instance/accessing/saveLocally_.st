@@ -1,3 +1,0 @@
-saveLocally: aBoolean
-
-	saveLocally := aBoolean
