@@ -4,10 +4,7 @@ ObjectExplorer new openExplorerFor: Smalltalk
 "
 
 	| win |
+	self rootObject: anObject.
 	win := (self explorerFor: anObject) openInWorld.
-	Cursor wait showWhile:
-		[win submorphs do:
-			[:sm|
-			(sm respondsTo: #expandRoots) ifTrue:
-				[sm expandRoots]]].
+	self expandTreeInMorph: win.
 	^self

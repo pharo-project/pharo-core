@@ -1,0 +1,2 @@
+rootObject
+	^ rootObject
