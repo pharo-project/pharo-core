@@ -1,10 +1,4 @@
 commentForCurrentUpdate
- ^ '11549 PluggableTextMorph closes completion menu on keydown
-	https://pharo.fogbugz.com/f/cases/11549
-	
-11543 Select protocol name with suggestions
-	https://pharo.fogbugz.com/f/cases/11543
-	
-11556 subclassResponsability -> subclassResponsibility
-	https://pharo.fogbugz.com/f/cases/11556
+ ^ '11542 Load FileTree in the image core
+	https://pharo.fogbugz.com/f/cases/11542
 '
