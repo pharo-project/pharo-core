@@ -10,7 +10,7 @@ doRot: evt with: rotHandle
 		ifTrue: [self setColor: Color lightBlue toHandle: rotHandle]
 		ifFalse: [self setColor: Color blue toHandle: rotHandle].
 	rotHandle submorphsDo:
-		[:m | m color: rotHandle color makeForegroundColor].
+		[:m | m color: rotHandle color contrastingForegroundColor].
 	self removeAllHandlesBut: rotHandle.
 	self showingDirectionHandles ifFalse:
 		[self showDirectionHandles: true addHandles: false].

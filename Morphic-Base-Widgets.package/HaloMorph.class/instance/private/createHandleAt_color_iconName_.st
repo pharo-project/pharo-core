@@ -19,7 +19,7 @@ createHandleAt: aPoint color: aColor iconName: iconName
 				ifFalse: [| image | 
 					image := ImageMorph new.
 					image form: form.
-					image color: aColor makeForegroundColor.
+					image color: aColor contrastingForegroundColor.
 					image lock.
 					handle addMorphCentered: image]].
 	""

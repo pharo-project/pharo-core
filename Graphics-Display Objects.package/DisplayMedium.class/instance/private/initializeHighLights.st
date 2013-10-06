@@ -1,6 +1,6 @@
-initializeHighLights
+initializeHighLights 
+	
 	"Create a set of Bitmaps for quickly reversing areas of the screen without converting colors. "
-	"Color initializeHighLights"
 	| t |
 	t := Array new: 32.
 	t 
@@ -21,4 +21,4 @@ initializeHighLights
 	t 
 		at: 32
 		put: (Bitmap with: 4294967295).
-	HighLightBitmaps := t
+	^ t

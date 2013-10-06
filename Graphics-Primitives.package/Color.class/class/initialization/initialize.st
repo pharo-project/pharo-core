@@ -22,4 +22,4 @@ initialize
 	self initializeIndexedColors.
 	self initializeColorRegistry.
 	self initializeGrayToIndexMap.
-	self initializeHighLights.
+	

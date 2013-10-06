@@ -8,7 +8,7 @@ growlDismissHandleFor: aGrowlMorph
 	form ifNotNil: [
 		image := ImageMorph new.
 		image form: form.
-		image color: handle color makeForegroundColor.
+		image color: handle color contrastingForegroundColor.
 		image lock.
 		handle addMorphCentered: image].
 	^ handle

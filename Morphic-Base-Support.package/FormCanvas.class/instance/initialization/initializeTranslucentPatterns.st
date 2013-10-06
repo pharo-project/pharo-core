@@ -1,5 +1,4 @@
 initializeTranslucentPatterns
-	"Color initializeTranslucentPatterns"
 	
 	TranslucentPatterns := Array new: 8.
 	#(1 2 4 8 ) do: 

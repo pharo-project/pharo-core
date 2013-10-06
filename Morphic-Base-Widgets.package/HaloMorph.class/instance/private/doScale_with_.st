@@ -9,5 +9,5 @@ doScale: evt with: scaleHandle
 						ifFalse: [Color orange].
 	self setColor: colorToUse toHandle: scaleHandle.
 	scaleHandle
-		submorphsDo: [:m | m color: colorToUse makeForegroundColor].
+		submorphsDo: [:m | m color: colorToUse contrastingForegroundColor].
 	scaleHandle position: newHandlePos.

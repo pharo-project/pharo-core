@@ -25,7 +25,7 @@ setFillColor: aColor
 			ifFalse:[port combinationRule: Form blend].
 		^self].
 	"Can't represent actual transparency -- use stipple pattern"
-	screen := Color translucentMaskFor: fillColor alpha depth: self depth.
+	screen := self translucentMaskFor: fillColor alpha depth: self depth.
 	patternWord := form pixelWordFor: fillColor.
 	port fillPattern: (screen collect: [:maskWord | maskWord bitAnd: patternWord]).
 	port combinationRule: Form paint.
