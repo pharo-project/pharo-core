@@ -1,5 +1,5 @@
 RPackageIncrementalTest subclass: #RPackageObsoleteTest
-	instanceVariableNames: ''
+	instanceVariableNames: 'notRun'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'RPackage-Tests'

@@ -10,10 +10,10 @@ registerInterestToAnnouncer: anAnnouncer
 		on: CategoryRemoved send: #systemCategoryRemovedActionFrom: to: self;
 		on: CategoryRenamed send: #systemCategoryRenamedActionFrom: to: self;
 		on:  ClassAdded send: #systemClassAddedActionFrom: to: self;
-		on:  ClassCommented do: [:ann | 
-				 "Only re-emit public corresponding announcement"
-			"Not yet implemented?"
-			];
+		"on:  ClassCommented do: [:ann | 
+				 ""Only re-emit public corresponding announcement""
+			""Not yet implemented?""
+			];"
 		on:  ClassRecategorized send: #systemClassRecategorizedActionFrom: to: self;
 		on:  ClassRemoved send: #systemClassRemovedActionFrom: to: self;
 		on:  ClassRenamed send: #systemClassRenamedActionFrom: to: self;
