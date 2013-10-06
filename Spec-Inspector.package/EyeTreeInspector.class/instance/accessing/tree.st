@@ -6,4 +6,4 @@ tree
 			iconBlock:     [ :treeNode | self iconFor: treeNode item ];
 			displayBlock:  [ :anObject | self labelFor: anObject ];
 			doubleClick: [
-				 self diveInto: tree selectedItem ]]
+				 self diveInto: self selectedObject ]]

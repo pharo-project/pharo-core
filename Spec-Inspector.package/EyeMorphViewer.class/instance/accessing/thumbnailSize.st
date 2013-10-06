@@ -1,0 +1,2 @@
+thumbnailSize
+	^ self container extent

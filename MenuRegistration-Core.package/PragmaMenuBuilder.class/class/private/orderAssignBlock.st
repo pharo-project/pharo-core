@@ -8,8 +8,7 @@ orderAssignBlock
 				idx := list indexOf: firstWithOrder.
 				order := firstWithOrder order.
 				idx > 1
-					ifTrue: [(idx - 1 to: 1) 
-						do: [:pos | 
+					ifTrue: [idx - 1 to: 1 do: [:pos | 
 							(list at: pos) order: order - 1. 
 							order := order - 1]].
 				order := firstWithOrder order.

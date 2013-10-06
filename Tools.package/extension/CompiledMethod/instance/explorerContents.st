@@ -9,7 +9,7 @@ explorerContents
 								[:i| i = 0 ifTrue: [self header] ifFalse: [{tokens at: i - 1. tokens at: i}]])
 						name: 'header'
 						model: self).
-		(1 to: self numLiterals) do:
+		1 to: self numLiterals do:
 			[:key|
 			s nextPut: (ObjectExplorerWrapper
 							with: (self literalAt: key)

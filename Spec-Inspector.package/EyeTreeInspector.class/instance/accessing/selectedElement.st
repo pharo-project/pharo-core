@@ -1,0 +1,2 @@
+selectedElement
+	^ self tree selectedItem

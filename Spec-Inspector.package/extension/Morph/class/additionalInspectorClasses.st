@@ -1,2 +1,2 @@
 additionalInspectorClasses
-	^ super additionalInspectorClasses, { EyeViewHierarchyInspector }
+	^ super additionalInspectorClasses, { EyeViewHierarchyInspector. EyeMorphViewer }
