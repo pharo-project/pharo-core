@@ -1,0 +1,3 @@
+installAsGlobalCategory
+
+	KMRepository default setAsGlobalCategory: self

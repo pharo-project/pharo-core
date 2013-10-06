@@ -1,2 +1,2 @@
 perInstanceTarget
-	^KMCategoryTarget target: morph morph: morph category: self directKeymaps.
+	^KMCategoryBinding target: morph morph: morph category: self directKeymaps.

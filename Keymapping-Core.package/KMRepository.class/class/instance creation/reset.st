@@ -3,5 +3,9 @@ reset
 	
 	"TODO: a better reset, allowing the KMDispatcher instances to reload all named, updated, keymaps from the resetted KMRepository."
 
+	World setProperty: #kmDispatcher toValue: nil.
 	self default: self new.
-	KMPragmaKeymapBuilder uniqueInstance reset
+	KMCategory allSubclasses
+		select: [ :c | c isGlobalCategory ]
+		thenDo: [ :c | c new installAsGlobalCategory ].
+	KMPragmaKeymapBuilder uniqueInstance reset.
