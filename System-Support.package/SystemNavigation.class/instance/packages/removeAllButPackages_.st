@@ -32,7 +32,10 @@ removeAllButPackages: packagesList
       packagesList anySatisfy: [:package |
         ((category asLowercase allButFirst = package asLowercase) or: [package asLowercase, '-*' match: category asLowercase allButFirst])]].
     extensionCategories do: [:category | 
-      class removeCategory: category ]. 
+      | protocol |
+      protocol := class organization  protocolOrganizer getProtocolNamed: category.
+      (protocol methods intersection: class localSelectors) do: [:sel | class removeSelector: sel ].
+      "class removeProtocol: category" ]. 
     class isTrait ifFalse: [
       extensionCategories := (class class organization ownCategories select: [:category | 
         category first = $*]) asOrderedCollection.
@@ -40,5 +43,8 @@ removeAllButPackages: packagesList
         packagesList anySatisfy: [:package |
           ((category asLowercase allButFirst = package asLowercase) or: [package asLowercase, '-*' match: category asLowercase allButFirst])]].
       extensionCategories do: [:category | 
-        class class removeCategory: category ]]].
+        | protocol |
+        protocol := class class organization  protocolOrganizer getProtocolNamed: category.
+        (protocol methods intersection: class class localSelectors) do: [:sel | class class removeSelector: sel ].
+        "class class removeProtocol: category" ]]].
       

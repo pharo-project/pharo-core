@@ -4,6 +4,5 @@ updateInspectorsFromContext: aContext
 	
 	contextInspector inspect: aContext.
 	
-	receiver := aContext ifNotNil: [ aContext home receiver ].
+	receiver := aContext ifNotNil: [ aContext home receiver ]. 
 	receiverInspector inspector: receiver inspector.
-	receiverInspector owner: self.

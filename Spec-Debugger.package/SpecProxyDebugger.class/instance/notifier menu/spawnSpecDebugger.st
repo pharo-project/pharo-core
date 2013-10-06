@@ -8,4 +8,4 @@ spawnSpecDebugger
 	
 	(self debuggerClass debugSession: ((self debuggerClass 
 		spanNewSessionForContext: self interruptedContext fromProcess: self interruptedProcess)
-			errorWasInUIProcess: errorWasInUIProcess)) updateToolbar
+			errorWasInUIProcess: errorWasInUIProcess)) updateToolbar 

@@ -7,4 +7,5 @@ debugAction
 	currentDebugger 
 		openWithSpec;
 		updateToolbar;
+		resetAutoRefresh;
 		label: title

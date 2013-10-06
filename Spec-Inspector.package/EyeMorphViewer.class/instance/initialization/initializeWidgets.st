@@ -2,4 +2,8 @@ initializeWidgets
 	super initializeWidgets.
 	
 	self whenWindowChanged: [ self objectChanged ].
-	updateProcess := [ self objectChanged ] valueWithInterval: 2 seconds.
+	updateProcess := [ 
+		self objectChanged. 
+		self hasWindow 
+			ifFalse: [ updateProcess terminate ] 
+	] valueWithInterval: self updateTime.

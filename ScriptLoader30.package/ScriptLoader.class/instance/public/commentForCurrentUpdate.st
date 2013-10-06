@@ -1,8 +1,7 @@
 commentForCurrentUpdate
- ^ '11684 Make Compiler unloadable part 1
-	https://pharo.fogbugz.com/f/cases/11684
+ ^ '11688 Pharo Kernel shrinking update for 30424
+	https://pharo.fogbugz.com/f/cases/11688
 	
-11685 Make Compiler unloadable part 2
-	https://pharo.fogbugz.com/f/cases/11685
-	
+11689 Spec Inspectors still let update process in some circumstances
+	https://pharo.fogbugz.com/f/cases/11689
 '
