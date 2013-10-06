@@ -23,7 +23,7 @@ readLocalDirectoryFileHeaderFrom: aStream
 	fileNameLength := aStream nextLittleEndianNumber: 2.
 	extraFieldLength := aStream nextLittleEndianNumber: 2.
 
-	fileName := (aStream next: fileNameLength) asString asSqueakPathName.
+	fileName := (aStream next: fileNameLength) asString.
 	localExtraField := (aStream next: extraFieldLength) asByteArray.
 
 	dataOffset := aStream position.

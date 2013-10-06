@@ -1,3 +1,2 @@
 asVmPathName
-
-	^ (FilePath pathName: self) asVmPathName.
+	^ FilePathEncoder encode: self

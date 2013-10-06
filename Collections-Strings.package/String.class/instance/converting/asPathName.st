@@ -1,0 +1,3 @@
+asPathName
+
+	^ self.

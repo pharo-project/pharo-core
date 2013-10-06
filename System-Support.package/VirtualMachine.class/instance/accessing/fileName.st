@@ -1,3 +1,2 @@
 fileName
-
-	^ (FilePath pathName: (self fullPath) isEncoded: true) asSqueakPathName
+	^ FilePathEncoder decode: self fullPath

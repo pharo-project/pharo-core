@@ -23,7 +23,7 @@ readCentralDirectoryFileHeaderFrom: aStream
 	externalFileAttributes := aStream nextLittleEndianNumber: 4.
 	localHeaderRelativeOffset := aStream nextLittleEndianNumber: 4.
 
-	fileName := (aStream next: fileNameLength) asString asSqueakPathName.
+	fileName := (aStream next: fileNameLength) asString.
 	cdExtraField := (aStream next: extraFieldLength) asByteArray asString.
 	fileComment := (aStream next: fileCommentLength) asString convertFromSystemString.
 

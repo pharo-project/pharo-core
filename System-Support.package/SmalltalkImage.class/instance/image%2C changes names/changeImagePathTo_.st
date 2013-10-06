@@ -1,4 +1,4 @@
 changeImagePathTo: aString
 	
-	self imagePath: aString asSqueakPathName.
+	self imagePath: aString.
 	LastImagePath := self imagePath

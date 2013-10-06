@@ -4,5 +4,5 @@ asFileName
 
 	| string checkedString |
 	string := FileSystem disk checkName: self fixErrors: true.
-	checkedString := (FilePath pathName: string) asVmPathName.
-	^ (FilePath pathName: checkedString isEncoded: true) asSqueakPathName.
+	checkedString := FilePathEncoder encode: string.
+	^ FilePathEncoder decode: checkedString

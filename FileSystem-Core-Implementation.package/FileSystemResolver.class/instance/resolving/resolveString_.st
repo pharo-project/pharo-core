@@ -1,7 +1,7 @@
-resolveString: aString 
+resolveString: aString
 	| decoded fs |
-	decoded := (FilePath pathName: aString isEncoded: true) asSqueakPathName.
+	decoded := FilePathEncoder decode: aString.
 	fs := FileSystem disk.
-	^ FileReference
-		fileSystem: fs
+	^ FileReference 
+		fileSystem: fs 
 		path: (fs pathFromString: decoded)
