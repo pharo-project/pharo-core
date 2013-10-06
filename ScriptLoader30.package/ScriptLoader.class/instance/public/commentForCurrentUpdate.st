@@ -1,12 +1,3 @@
 commentForCurrentUpdate
- ^ '11708 all users of old Inspector framework needs to use the new one
-	https://pharo.fogbugz.com/f/cases/11708
-	
-11721 Replace | and & with and: [] and or: []
-	https://pharo.fogbugz.com/f/cases/11721
-	
-11722 Replace | and & with and: [] and or: [] part 2
-	https://pharo.fogbugz.com/f/cases/11722
-	
-11723 Replace | and & with and: [] and or: [] part 3 (last)
-	https://pharo.fogbugz.com/f/cases/11723'
+ ^ '7130 Scrollbars on the left. Nobody needed it for years --> remove
+	https://pharo.fogbugz.com/f/cases/7130'

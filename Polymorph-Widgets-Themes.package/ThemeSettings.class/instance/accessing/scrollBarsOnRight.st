@@ -1,2 +1,0 @@
-scrollBarsOnRight
-	^ true

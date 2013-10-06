@@ -30,7 +30,6 @@ addMorph: aMorph fullFrame: aLayoutFrame
 	aMorph
 		borderStyle: (self theme windowPaneBorderStyleFor: aMorph in: self);
 		color: (aMorph initialColorInSystemWindow: self).
-	self theme settings scrollBarsOnRight	"reorder panes so flop-out right-side scrollbar is visible"
-		ifTrue: [self addMorphBack: aMorph].
+	self addMorphBack: aMorph. "reorder panes so flop-out right-side scrollbar is visible"
 		
 	self owner ifNotNil: [self addPaneSplitters] "do when opened for performance"
