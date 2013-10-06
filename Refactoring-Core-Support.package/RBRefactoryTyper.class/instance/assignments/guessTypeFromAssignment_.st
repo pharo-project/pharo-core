@@ -6,7 +6,7 @@ guessTypeFromAssignment: aNode
 			[^self guessTypeFromAssignment: (RBAssignmentNode variable: aNode variable
 						value: aNode value value)].
 	aNode value isBlock ifTrue: [type := model classFor: [] class].
-	aNode value isLiteral 
+	aNode value isLiteralNode 
 		ifTrue: 
 			[aNode value value isNil ifTrue: [^self].
 			type := model classFor: (self typeFor: aNode value value)].

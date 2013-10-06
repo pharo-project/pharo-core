@@ -23,7 +23,7 @@ variableAssignedLiteral
 								[| tree searcher |
 								searcher := RBParseTreeSearcher new.
 								searcher addSearch: (each , ' := ``@object')
-											-> [:aNode :answer | answer isNil and: [aNode value isLiteral]].
+											-> [:aNode :answer | answer isNil and: [aNode value isLiteralNode]].
 								tree := defClass parseTreeFor: selector.
 								tree notNil ifTrue: 
 										[(searcher executeTree: tree initialAnswer: nil) == true

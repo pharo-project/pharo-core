@@ -11,11 +11,11 @@ initialize
 					condition := (node statements at: node statements size - 1) arguments first 
 						body statements 
 						last value.	"``@value1"
-					((condition isLiteral 
+					((condition isLiteralNode
 						and: [ #(true false) includes: condition value ]) 
 						or: [ 
 							condition := 	node statements last value.
-							condition isLiteral and: [ #(true false) includes: condition value ] ]) 
+							condition isLiteralNode and: [ #(true false) includes: condition value ] ]) 
 								ifTrue: [ node ]
 								ifFalse: [ nil ] ]
 				ifFalse: [ answer ] ]

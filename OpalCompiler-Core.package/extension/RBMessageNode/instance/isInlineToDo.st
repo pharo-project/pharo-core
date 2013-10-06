@@ -17,7 +17,7 @@ isInlineToDo
 	].
 	self arguments size = 3 "to:by:do:" ifTrue: [
 		step := self arguments second.
-		step isLiteral ifFalse: [^ false].
+		step isLiteralNode ifFalse: [^ false].
 		step value = 0 ifTrue: [^ false].
 	].
 	^ true

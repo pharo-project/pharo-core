@@ -6,7 +6,7 @@ emitToDo: aMessageNode step: step
 	iterator := block arguments first binding.
 	
 	limitEmit := [valueTranslator visitNode: limit].
-	limit isLiteral | limit isSelf | limit isSuper ifFalse: [
+	limit isLiteralNode | limit isSelf | limit isSuper ifFalse: [
 		valueTranslator visitNode: limit.
 		methodBuilder addTemp: (iterator name, #limit).
 		methodBuilder storeTemp: (iterator name, #limit).

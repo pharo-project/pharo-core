@@ -9,7 +9,7 @@ testDelete
 		ir.
 
 	((iRMethod allSequences last) 
-		detect: [:each | each isLiteral: [:c | c == 2]]) delete.
+		detect: [:each | each isPushLiteral: [:c | c == 2]]) delete.
 			
 
 	aCompiledMethod := iRMethod compiledMethod.

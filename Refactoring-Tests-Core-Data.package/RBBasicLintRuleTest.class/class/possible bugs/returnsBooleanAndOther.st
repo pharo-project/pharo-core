@@ -15,11 +15,11 @@ returnsBooleanAndOther
 			(matcher executeTree: context parseTree initialAnswer: Set new) do: 
 					[:each | 
 					hasBool := hasBool or: 
-									[(each isLiteral and: [{true. false} includes: each value])
+									[(each isLiteralNode and: [{true. false} includes: each value])
 										or: [each isMessage and: [#(#and: #or:) includes: each selector]]].
 					hasSelf := hasSelf or: 
 									[(each isVariable and: [each name = 'self'])
-										or: [each isLiteral and: [({true. false} includes: each value) not]]]].
+										or: [each isLiteralNode and: [({true. false} includes: each value) not]]]].
 			hasSelf & hasBool
 				ifTrue: [result addClass: context selectedClass selector: context selector]].
 	^detector

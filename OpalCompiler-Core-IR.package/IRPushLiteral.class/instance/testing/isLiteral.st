@@ -1,3 +1,0 @@
-isLiteral
-
-	^ self isPushLiteral

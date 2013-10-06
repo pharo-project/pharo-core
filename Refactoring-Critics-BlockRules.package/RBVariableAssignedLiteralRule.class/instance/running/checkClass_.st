@@ -18,7 +18,7 @@ checkClass: aContext
 			searcher := RBParseTreeSearcher new.
 			searcher 
 				matches: each , ' := ``@object'
-				do: [ :aNode :answer | answer isNil and: [ aNode value isLiteral ] ].
+				do: [ :aNode :answer | answer isNil and: [ aNode value isLiteralNode ] ].
 			tree := defClass parseTreeFor: selector.
 			tree notNil ifTrue: 
 				[ (searcher 

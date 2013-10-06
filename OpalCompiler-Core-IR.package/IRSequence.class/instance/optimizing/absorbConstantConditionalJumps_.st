@@ -16,7 +16,7 @@ absorbConstantConditionalJumps: alreadySeen
 
 	[(seq := self successorSequences) notEmpty  "not return"
 	  and: [(seq := seq first "destination") size = 2
-	   and: [(seq first isLiteral: [:obj | (bool := obj) isKindOf: Boolean])
+	   and: [(seq first isPushLiteral: [:obj | (bool := obj) isKindOf: Boolean])
 	    and: [seq last isGoto
 	     and: [(if := seq last destination first) isIf]]]]
 	] whileTrue: [ "absorb"

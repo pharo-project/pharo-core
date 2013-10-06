@@ -1,0 +1,2 @@
+isPushLiteral
+	^false

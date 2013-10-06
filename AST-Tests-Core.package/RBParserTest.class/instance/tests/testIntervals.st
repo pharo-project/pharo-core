@@ -3,7 +3,7 @@ testIntervals
 	tree := self treeWithReallyEverything.
 	tree nodesDo: 
 			[:each | 
-			(each parent isNil or: [each parent isCascade not and: [ each parent isLiteral not]]) 
+			(each parent isNil or: [each parent isCascade not and: [ each parent isLiteralNode not]]) 
 				ifTrue: 
 					[| newNode source |
 					source := tree source copyFrom: each start to: each stop.

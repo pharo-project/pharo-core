@@ -5,7 +5,7 @@ definition: aString for: aController context: aDictionary
 		dictionary at: key formattedCode put: (node isVariable
 			ifTrue: [ node name ]
 			ifFalse: [ 
-				node isLiteral
+				node isLiteralNode
 					ifTrue: [ node value ]
 					ifFalse: [ node ] ]) ].
 	^ self new

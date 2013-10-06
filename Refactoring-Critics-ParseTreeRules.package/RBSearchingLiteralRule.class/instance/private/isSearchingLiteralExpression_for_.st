@@ -7,9 +7,9 @@ isSearchingLiteralExpression: aSearchingNode for: anObjectNode
 	(#(#= #==) includes: aSearchingNode selector) 
 		ifTrue: 
 			[^(aSearchingNode receiver = anObjectNode 
-				and: [aSearchingNode arguments first isLiteral]) or: 
+				and: [aSearchingNode arguments first isLiteralNode]) or: 
 						[aSearchingNode arguments first = anObjectNode 
-							and: [aSearchingNode receiver isLiteral]]].
+							and: [aSearchingNode receiver isLiteralNode]]].
 	aSearchingNode selector = #| 
 		ifTrue: 
 			[^(self isSearchingLiteralExpression: aSearchingNode receiver

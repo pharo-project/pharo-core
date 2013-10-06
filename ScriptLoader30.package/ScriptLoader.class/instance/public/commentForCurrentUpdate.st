@@ -1,12 +1,3 @@
 commentForCurrentUpdate
- ^ '11738 add #recompile to Class/Trait, the image and compiledMethod
-	https://pharo.fogbugz.com/f/cases/11738
-	
-11736 remove public API retractable scrollbars
-	https://pharo.fogbugz.com/f/cases/11736
-	
-11650 fix shadowed vars in Opal examples
-	https://pharo.fogbugz.com/f/cases/11650
-	
-11728 trivial critic cleanup in System-*
-	https://pharo.fogbugz.com/f/cases/11728'
+ ^ '11641 #isLiteral should only be true for literal objects --> everyone else should use isLiteralNode or isLiteralToken
+	https://pharo.fogbugz.com/f/cases/11641'

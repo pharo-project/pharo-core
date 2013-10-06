@@ -10,10 +10,10 @@ ifTrueReturns
 				or: 
 					[| node |
 					node := (aNode statements at: aNode statements size - 1) arguments first body statements last value. "``@value1"
-					(node isLiteral and: [{true. false} includes: node value])
+					(node isLiteralNode and: [{true. false} includes: node value])
 						or: 
 							[node := aNode statements last value.
-							node isLiteral and: [{true. false} includes: node value]]]].
+							node isLiteralNode and: [{true. false} includes: node value]]]].
 	detector methodBlock: [:context :result | (matcher executeTree: context parseTree initialAnswer: false)
 			ifTrue: [result addClass: context selectedClass selector: context selector]].
 	^detector
