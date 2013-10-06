@@ -1,4 +1,3 @@
 test0FixtureConverAsSortedTest
-
-	self shouldnt: [self collectionWithSortableElements ] raise: Error.
-	self deny: self collectionWithSortableElements isEmpty .
+	self collectionWithSortableElements.
+	self deny: self collectionWithSortableElements isEmpty

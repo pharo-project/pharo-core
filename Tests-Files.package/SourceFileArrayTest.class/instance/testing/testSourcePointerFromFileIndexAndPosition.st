@@ -3,16 +3,15 @@ testSourcePointerFromFileIndexAndPosition
 
 	| sf |
 	sf := SourceFileArray new.
-	self should: [sf sourcePointerFromFileIndex: 0 andPosition: 0] raise: Error.
-	self shouldnt: [sf sourcePointerFromFileIndex: 1 andPosition: 0] raise: Error.
-	self shouldnt: [sf sourcePointerFromFileIndex: 2 andPosition: 0] raise: Error.
-	self should: [sf sourcePointerFromFileIndex: 0 andPosition: 3] raise: Error.
-	self should: [sf sourcePointerFromFileIndex: 1 andPosition: -1] raise: Error.
-	self shouldnt: [sf sourcePointerFromFileIndex: 1 andPosition: 16r1FFFFFF] raise: Error.
-	self shouldnt: [sf sourcePointerFromFileIndex: 1 andPosition: 16r2000000] raise: Error.
-	self should: [sf sourcePointerFromFileIndex: 3 andPosition: 0] raise: Error.
-	self should: [sf sourcePointerFromFileIndex: 4 andPosition: 0] raise: Error.
-	
+	self should: [ sf sourcePointerFromFileIndex: 0 andPosition: 0 ] raise: Error.
+	sf sourcePointerFromFileIndex: 1 andPosition: 0.
+	sf sourcePointerFromFileIndex: 2 andPosition: 0.
+	self should: [ sf sourcePointerFromFileIndex: 0 andPosition: 3 ] raise: Error.
+	self should: [ sf sourcePointerFromFileIndex: 1 andPosition: -1 ] raise: Error.
+	sf sourcePointerFromFileIndex: 1 andPosition: 16r1FFFFFF.
+	sf sourcePointerFromFileIndex: 1 andPosition: 16r2000000.
+	self should: [ sf sourcePointerFromFileIndex: 3 andPosition: 0 ] raise: Error.
+	self should: [ sf sourcePointerFromFileIndex: 4 andPosition: 0 ] raise: Error.
 	self assert: 16r1000000 = (sf sourcePointerFromFileIndex: 1 andPosition: 0).
 	self assert: 16r1000013 = (sf sourcePointerFromFileIndex: 1 andPosition: 16r13).
 	self assert: 16r1FFFFFF = (sf sourcePointerFromFileIndex: 1 andPosition: 16rFFFFFF).

@@ -1,12 +1,6 @@
 test0FixtureAddForUniquenessTest
-	self 
-		shouldnt: [ self element ]
-		raise: Error.
-	self 
-		shouldnt: [ self collectionWithElement ]
-		raise: Error.
+	self element.
+	self collectionWithElement.
 	self assert: (self collectionWithElement includes: self element).
-	self 
-		shouldnt: [ self collectionWithoutElement ]
-		raise: Error.
+	self collectionWithoutElement.
 	self assert: (self collectionWithElement includes: self element)

@@ -1,24 +1,14 @@
 test0FixtureIncludeTest
 	| anElementIn |
-	self shouldnt: [ self nonEmpty ]raise: Error.
+	self nonEmpty.
 	self deny: self nonEmpty isEmpty.
-	
-	self shouldnt: [ self elementNotIn ]raise: Error.
-		
+	self elementNotIn.
 	anElementIn := true.
-	self nonEmpty detect: 
-		[ :each | each = self elementNotIn ]
-		ifNone: [ anElementIn := false ].
+	self nonEmpty detect: [ :each | each = self elementNotIn ] ifNone: [ anElementIn := false ].
 	self assert: anElementIn = false.
-	
-	self shouldnt: [ self anotherElementNotIn ]raise: Error.
-		
+	self anotherElementNotIn.
 	anElementIn := true.
-	self nonEmpty detect: 
-	[ :each | each = self anotherElementNotIn ]
-	ifNone: [ anElementIn := false ].
+	self nonEmpty detect: [ :each | each = self anotherElementNotIn ] ifNone: [ anElementIn := false ].
 	self assert: anElementIn = false.
-	
-	self shouldnt: [ self empty ] raise: Error.
-	self assert: self empty isEmpty.
-	
+	self empty.
+	self assert: self empty isEmpty

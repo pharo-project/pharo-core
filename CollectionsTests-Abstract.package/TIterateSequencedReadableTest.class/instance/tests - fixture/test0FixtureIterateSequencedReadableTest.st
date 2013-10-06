@@ -2,11 +2,11 @@ test0FixtureIterateSequencedReadableTest
 
 	| res |
 	
-	self shouldnt: self nonEmptyMoreThan1Element  raise: Error.
+	self nonEmptyMoreThan1Element.
 	self assert: self nonEmptyMoreThan1Element  size > 1.
 	
 	
-	self shouldnt: self empty raise: Error.
+	self empty.
 	self assert: self empty isEmpty .
 	
 	res := true.

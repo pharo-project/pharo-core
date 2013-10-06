@@ -1,4 +1,6 @@
 checkMethod: aContext 
+	aContext compiledMethod isFromTrait
+		ifTrue: [ ^ self ].
 	(self rewriteRule canMatchMethod: aContext compiledMethod) 
 		ifFalse: [ ^ self ].
 	class := aContext selectedClass.

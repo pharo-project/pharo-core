@@ -1,6 +1,8 @@
 testLocalChanges
 	| changes |
-	gofer package: 'GoferBar'; load.
+	gofer
+		package: 'GoferBar';
+		load.
 	(Smalltalk globals classNamed: #GoferBar) compile: 'foo'.
-	self shouldnt: [ changes := gofer localChanges ] raise: Error.
+	changes := gofer localChanges.
 	self assert: changes operations size = 1

@@ -1,17 +1,9 @@
 test0FixtureOccurrencesTest
-	self 
-		shouldnt: self empty
-		raise: Error.
+	self empty.
 	self assert: self empty isEmpty.
-	self 
-		shouldnt: self nonEmpty
-		raise: Error.
+	self nonEmpty.
 	self deny: self nonEmpty isEmpty.
-	self 
-		shouldnt: self elementInForOccurrences
-		raise: Error.
+	self elementInForOccurrences.
 	self assert: (self nonEmpty includes: self elementInForOccurrences).
-	self 
-		shouldnt: self elementNotInForOccurrences
-		raise: Error.
+	self elementNotInForOccurrences.
 	self deny: (self nonEmpty includes: self elementNotInForOccurrences)

@@ -4,6 +4,9 @@ checkClass: aContext
 	explicitRequirementMethods := Set new.
 	selectedClass := aContext selectedClass.
 	
+	selectedClass isTrait 
+		ifTrue: [ ^ self ].
+		
 	selectedClass traitComposition allSelectors do: [ :selector | | method |
 				method := selectedClass>>selector.
 				 (method isRequired and: [ method isSubclassResponsibility not ]) 

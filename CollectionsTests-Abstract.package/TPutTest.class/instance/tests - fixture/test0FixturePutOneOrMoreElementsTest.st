@@ -1,8 +1,8 @@
 test0FixturePutOneOrMoreElementsTest
-	self shouldnt: self aValue raise: Error.
+	self aValue.
 
 	
-	self shouldnt: self indexArray  raise: Error.
+	self indexArray.
 	self indexArray do: [
 		:each| 
 		self assert: each class = SmallInteger. 
@@ -11,8 +11,8 @@ test0FixturePutOneOrMoreElementsTest
 	
 	self assert: self indexArray size = self valueArray size.
 	
-	self shouldnt: self empty raise: Error.
+	self empty.
 	self assert: self empty isEmpty .
 	
-	self shouldnt: self nonEmpty  raise: Error.
+	self nonEmpty.
 	self deny: self nonEmpty  isEmpty.

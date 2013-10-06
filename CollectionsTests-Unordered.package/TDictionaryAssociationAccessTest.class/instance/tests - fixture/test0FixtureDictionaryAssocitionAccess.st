@@ -1,7 +1,5 @@
 test0FixtureDictionaryAssocitionAccess
-
-self shouldnt: [self nonEmpty ] raise: Error.
-self deny: self nonEmpty isEmpty.
-
-self shouldnt: [self keyNotIn ] raise: Error.
-self deny: ( self nonEmpty keys includes: self keyNotIn ).
+	self nonEmpty.
+	self deny: self nonEmpty isEmpty.
+	self keyNotIn.
+	self deny: (self nonEmpty keys includes: self keyNotIn)

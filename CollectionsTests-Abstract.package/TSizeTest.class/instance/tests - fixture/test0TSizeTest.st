@@ -1,5 +1,5 @@
 test0TSizeTest
-	self shouldnt: [self empty] raise: Error.
-	self shouldnt: [self sizeCollection] raise: Error.
+	self empty.
+	self sizeCollection.
 	self assert: self empty isEmpty.
-	self deny: self sizeCollection isEmpty.
+	self deny: self sizeCollection isEmpty

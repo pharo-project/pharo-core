@@ -1,8 +1,5 @@
 test0FixtureCopySameContentsTest
-
-	self shouldnt: [self nonEmpty ] raise: Error.
+	self nonEmpty.
 	self deny: self nonEmpty isEmpty.
-	
-	self shouldnt: [self empty  ] raise: Error.
-	self assert: self empty isEmpty.
-	
+	self empty.
+	self assert: self empty isEmpty

@@ -1,10 +1,7 @@
 test0FixtureAsStringCommaAndDelimiterTest
-	
-	self shouldnt: [self nonEmpty] raise:Error .
+	self nonEmpty.
 	self deny: self nonEmpty isEmpty.
-	
-	self shouldnt: [self empty] raise:Error .
+	self empty.
 	self assert: self empty isEmpty.
-	
-       self shouldnt: [self nonEmpty1Element ] raise:Error .
-	self assert: self nonEmpty1Element size=1.
+	self nonEmpty1Element.
+	self assert: self nonEmpty1Element size = 1

@@ -5,5 +5,5 @@ testUpToAfterCloseNonSignaling
 	clientStream nextPutAll: 'A line of text'.
 	clientStream close.
 	serverStream shouldSignal: false.
-	self shouldnt: [resp := serverStream upTo: Character cr] raise: ConnectionClosed.
+	resp := serverStream upTo: Character cr.
 	self assert: resp = 'A line of text'.

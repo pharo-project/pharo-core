@@ -1,5 +1,2 @@
 testPerformWithArgsSmallFrame
-
-	self shouldnt: [self doPerformOldSmallFrame] raise: Error.
-
-	 
+	self doPerformOldSmallFrame

@@ -1,3 +1,0 @@
-nonEmpty
-
-	^ self explicitRequirement 

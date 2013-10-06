@@ -1,7 +1,7 @@
 run
 	rule resetResult.
-	environment classesDo: [ :class |
-		(class isTrait or: [ class isManifest ]) 
+	environment allClassesAndTraitsDo: [ :class |
+		class isManifest 
 			ifFalse: [
 				self checkClass: class.
 				self checkMethodsForClass: class ]]

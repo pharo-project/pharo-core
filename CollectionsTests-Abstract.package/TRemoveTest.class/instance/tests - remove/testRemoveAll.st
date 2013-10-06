@@ -1,11 +1,9 @@
 testRemoveAll
 	"self debug: #testRemoveElementThatExists"
-	| el aSubCollection collection |
+	| el aSubCollection collection res |
 	collection := self nonEmptyWithoutEqualElements.
 	el := collection anyOne.
 	aSubCollection := collection copyWithout: el.
-	self 
-		shouldnt: [ | res | res := collection removeAll: aSubCollection ]
-		raise: Error.
+	res := collection removeAll: aSubCollection.
 	self assert: collection size = 1.
 	self nonEmptyWithoutEqualElements do: [ :each | self assert: each = el ]

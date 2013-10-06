@@ -4,6 +4,6 @@ testRevert
 		package: 'GoferBar';
 		load.
 	(Smalltalk globals classNamed: #GoferBar) category: 'GoferFoo'.
-	self shouldnt: [ gofer revert ] raise: Error.
+	gofer revert.
 	self assert: (Smalltalk globals classNamed: #GoferFoo) category asSymbol = #GoferFoo.
 	self assert: (Smalltalk globals classNamed: #GoferBar) category asSymbol = #GoferBar

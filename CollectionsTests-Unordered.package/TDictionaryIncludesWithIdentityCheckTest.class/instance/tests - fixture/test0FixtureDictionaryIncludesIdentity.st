@@ -1,8 +1,4 @@
 test0FixtureDictionaryIncludesIdentity
-	| |
-	self	shouldnt: [ self nonEmptyWithCopyNonIdentical  ]raise: Error.
-	self deny: self nonEmptyWithCopyNonIdentical  isEmpty.
-	
-	self nonEmptyWithCopyNonIdentical do: [ :each | self deny: each == each copy ].
-	
-	
+	self nonEmptyWithCopyNonIdentical.
+	self deny: self nonEmptyWithCopyNonIdentical isEmpty.
+	self nonEmptyWithCopyNonIdentical do: [ :each | self deny: each == each copy ]

@@ -1,18 +1,13 @@
 test0FixtureOccurrencesTest
 	| tmp |
-	self shouldnt: [self empty ]raise: Error.
+	self empty.
 	self assert: self empty isEmpty.
-
-	self shouldnt: [ self collectionWithoutEqualElements ] raise: Error.
+	self collectionWithoutEqualElements.
 	self deny: self collectionWithoutEqualElements isEmpty.
-	
 	tmp := OrderedCollection new.
-	self collectionWithoutEqualElements do: [ 
-		:each |
-		self deny: (tmp includes: each).
-		tmp add: each.
-		 ].
-	
-	
-	self shouldnt: [ self elementNotInForOccurrences ] raise: Error.
+	self collectionWithoutEqualElements
+		do: [ :each | 
+			self deny: (tmp includes: each).
+			tmp add: each ].
+	self elementNotInForOccurrences.
 	self deny: (self collectionWithoutEqualElements includes: self elementNotInForOccurrences)

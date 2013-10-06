@@ -1,12 +1,7 @@
 testAllowInclusionOfNils
 	| set |
-	
-	set := self classToBeTested  new.
-	
-	self shouldnt: [ set add: nil ] raise: Error.
-	
-	self assert: ( set includes: nil ).
-
-	self shouldnt: [ set remove: nil ] raise: Error.
-
-	self deny: ( set includes: nil ).
+	set := self classToBeTested new.
+	set add: nil.
+	self assert: (set includes: nil).
+	set remove: nil.
+	self deny: (set includes: nil)

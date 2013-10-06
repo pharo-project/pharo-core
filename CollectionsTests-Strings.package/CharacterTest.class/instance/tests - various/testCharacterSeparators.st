@@ -2,5 +2,5 @@ testCharacterSeparators
 	"Regression test"
 
 	| result |
-	self shouldnt: [result := '/', Character separators] raise: Error.
-	self assert: result size = (Character separators size + 1).
+	result := '/' , Character separators.
+	self assert: result size = (Character separators size + 1)

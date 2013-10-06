@@ -1,14 +1,8 @@
 testEnsureDeleted
-
 	| reference |
-	reference := filesystem / 'plonk'.
-	
-	"Deletes the file if it exists"
+	reference := filesystem / 'plonk'.	"Deletes the file if it exists"
 	reference ensureCreateFile.
-	self assert: reference exists. 
-	reference ensureDelete. 
-	self deny: reference exists. 
-
-	"No-op if file does not exist"
-	self shouldnt: [reference ensureDelete] raise: Error.
-
+	self assert: reference exists.
+	reference ensureDelete.
+	self deny: reference exists.	"No-op if file does not exist"
+	reference ensureDelete

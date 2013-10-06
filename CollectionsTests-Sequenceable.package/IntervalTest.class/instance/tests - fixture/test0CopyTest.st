@@ -1,20 +1,10 @@
 test0CopyTest
-	self 
-		shouldnt: [ self empty ]
-		raise: Error.
+	self empty.
 	self assert: self empty size = 0.
-	self 
-		shouldnt: [ self nonEmpty ]
-		raise: Error.
+	self nonEmpty.
 	self assert: (self nonEmpty size = 0) not.
-	self 
-		shouldnt: [ self collectionWithElementsToRemove ]
-		raise: Error.
+	self collectionWithElementsToRemove.
 	self assert: (self collectionWithElementsToRemove size = 0) not.
-	self 
-		shouldnt: [ self elementToAdd ]
-		raise: Error.
-	self 
-		shouldnt: [ self collectionNotIncluded ]
-		raise: Error.
+	self elementToAdd.
+	self collectionNotIncluded.
 	self collectionNotIncluded do: [ :each | self deny: (self nonEmpty includes: each) ]

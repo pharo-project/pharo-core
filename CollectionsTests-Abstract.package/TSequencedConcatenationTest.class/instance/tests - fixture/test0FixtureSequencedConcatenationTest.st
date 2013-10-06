@@ -1,11 +1,5 @@
 test0FixtureSequencedConcatenationTest
-	self 
-		shouldnt: self empty
-		raise: Exception.
+	self empty.
 	self assert: self empty isEmpty.
-	self 
-		shouldnt: self firstCollection
-		raise: Exception.
-	self 
-		shouldnt: self secondCollection
-		raise: Exception
+	self firstCollection.
+	self secondCollection

@@ -1,9 +1,10 @@
 commentForCurrentUpdate
- ^ '11525 TabModel improved
-	https://pharo.fogbugz.com/f/cases/11525
+ ^ '11444 Improving MiniKernel
+	https://pharo.fogbugz.com/f/cases/11444
 	
-11527 Inspector List Broken due to changes in NewListModel
-	https://pharo.fogbugz.com/f/cases/11527
+11507 NautilusAbstractUI should be accept different classifiers
+	https://pharo.fogbugz.com/f/cases/11507
+	(This was alreay in, at least I did not see any changes when merging)
 	
-11526 Improve Tabs
-	https://pharo.fogbugz.com/f/cases/11526'
+11148 shouldnt:raise: should not be used
+	https://pharo.fogbugz.com/f/cases/11148'

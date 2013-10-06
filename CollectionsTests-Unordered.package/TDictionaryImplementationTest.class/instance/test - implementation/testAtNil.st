@@ -1,6 +1,8 @@
 testAtNil
 	"(self run: #testAtNil)"
+
 	"nil is a valid key in Pharo. In VW nil is not a valid key"
+
 	"Ansi 1.9 p, 168
     		5.7.2.5 Message: at: key put: newElement
     		Synopsis
@@ -13,11 +15,8 @@ testAtNil
     		The result is undefined if the key is nil.
 
 		This clearly indicates that different smalltalks where doing different assumptions."
-	
-	
-	
-	| dict1  |
+
+	| dict1 |
 	dict1 := self emptyDict.
-	self shouldnt: [ dict1 at: nil put: #none] raise: Error.
-	self assert: (dict1 at: nil) = #none. 
-	
+	dict1 at: nil put: #none.
+	self assert: (dict1 at: nil) = #none

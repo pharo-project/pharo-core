@@ -1,5 +1,7 @@
 testUnload
-	gofer package: 'GoferFoo'; load.
-	self shouldnt: [ gofer unload ] raise: Error.
+	gofer
+		package: 'GoferFoo';
+		load.
+	gofer unload.
 	self deny: (self hasPackage: 'GoferFoo').
 	self deny: (self hasClass: #GoferFoo)

@@ -6,9 +6,9 @@ testExplicitRequirementDoesNotTakePrecedenceInDeepHierarchy
 	self t11 compile: 'm ^self explicitRequirement'.
 	self should: [ self c11 new m ] raise: Error.
 	self t9 compile: 'm ^2'.
-	self shouldnt: [ self c9 new m ] raise: Error.
-	self shouldnt: [ self c10 new m ] raise: Error.
-	self shouldnt: [ self c11 new m ] raise: Error.
+	self c9 new m.
+	self c10 new m.
+	self c11 new m.
 	self assert: self c9 new m equals: 2.
 	self assert: self c10 new m equals: 2.
 	self assert: self c11 new m equals: 2

@@ -1,3 +1,4 @@
 testIfNotNilDo
 
-	self shouldnt: [ nil ifNotNil: [self halt]] raise: Halt.
+	nil ifNotNil: [
+		self fail: 'should not get here' ].

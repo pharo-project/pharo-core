@@ -1,5 +1,4 @@
 testAtPutOutsideBounds
 	| ll |
 	ll := LinkedList new.
-	self shouldnt: [self should: [ll at: 1 put: 1] raise: SubscriptOutOfBounds] raise: Error.
-	
+	self should: [ ll at: 1 put: 1 ] raise: SubscriptOutOfBounds

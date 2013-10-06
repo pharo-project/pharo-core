@@ -28,3 +28,6 @@ initialize
 		bar label: 'Updating Case Mappings'.
 		self parseCaseMappingFrom: result contents readStream ].
 	"
+	
+	EncodedCharSet declareEncodedCharSet: self atIndex: 0+1.
+	EncodedCharSet declareEncodedCharSet: self atIndex: 256.

@@ -1,3 +1,2 @@
 testFlag
-	
-	self shouldnt: [ProtoObject new flag: #hallo] raise: Error.
+	ProtoObject new flag: #hallo

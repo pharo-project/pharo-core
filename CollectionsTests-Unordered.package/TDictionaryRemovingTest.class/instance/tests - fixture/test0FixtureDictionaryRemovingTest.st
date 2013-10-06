@@ -1,7 +1,5 @@
 test0FixtureDictionaryRemovingTest
-
-self shouldnt: [self nonEmptyDict ] raise: Error.
-self deny: self nonEmptyDict  isEmpty.
-
-self shouldnt: [self keyNotInNonEmptyDict ] raise: Error.
-self deny: (self nonEmptyDict keys includes: self keyNotInNonEmptyDict ).
+	self nonEmptyDict.
+	self deny: self nonEmptyDict isEmpty.
+	self keyNotInNonEmptyDict.
+	self deny: (self nonEmptyDict keys includes: self keyNotInNonEmptyDict)

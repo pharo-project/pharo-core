@@ -1,6 +1,8 @@
 testRemoteChanges
 	| changes |
-	gofer package: 'GoferBar'; load.
+	gofer
+		package: 'GoferBar';
+		load.
 	(Smalltalk globals classNamed: #GoferBar) compile: 'foo'.
-	self shouldnt: [ changes := gofer remoteChanges ] raise: Error.
+	changes := gofer remoteChanges.
 	self assert: changes operations size = 1

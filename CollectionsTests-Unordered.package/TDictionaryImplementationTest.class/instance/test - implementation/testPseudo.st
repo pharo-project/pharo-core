@@ -1,11 +1,11 @@
 testPseudo
 	"(self run: #testPseudo)"
+
 	"true and false are valid keys"
-	
-	| dict1  |
+
+	| dict1 |
 	dict1 := self emptyDict.
-	self shouldnt: [dict1 at: true put: #true] raise: Error.
+	dict1 at: true put: #true.
 	self assert: (dict1 at: true) = #true.
-		
-	self shouldnt: [dict1 at: false put: #false] raise: Error.
-	self assert: (dict1 at: false) = #false.
+	dict1 at: false put: #false.
+	self assert: (dict1 at: false) = #false

@@ -1,13 +1,8 @@
 testEnsureDirectoryCreatesParent
 	| path |
 	path := Path * 'plonk' / 'griffle'.
-	
 	self markForCleanup: path.
 	self markForCleanup: path parent.
-	
-	self 
-		shouldnt: [filesystem ensureCreateDirectory: path]
-		raise: FileSystemError.
-	self assert: (filesystem isDirectory: (Path * 'plonk')).
-	self assert: (filesystem isDirectory: path).
-	
+	filesystem ensureCreateDirectory: path.
+	self assert: (filesystem isDirectory: Path * 'plonk').
+	self assert: (filesystem isDirectory: path)

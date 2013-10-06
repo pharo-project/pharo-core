@@ -1,2 +1,2 @@
 testNotification
-	self shouldnt: [self interpret: 'Notification signal'] raise: Error.
+	self interpret: 'Notification signal'

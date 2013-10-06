@@ -1,3 +1,2 @@
 testSimpleReport
-
-	self shouldnt: [ AndreasSystemProfiler new report ] raise: Error.
+	AndreasSystemProfiler new report

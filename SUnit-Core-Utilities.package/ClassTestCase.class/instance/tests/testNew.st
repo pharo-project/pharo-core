@@ -1,2 +1,2 @@
 testNew
-	self shouldnt: [self targetClass new] raise: Error.
+	self targetClass new

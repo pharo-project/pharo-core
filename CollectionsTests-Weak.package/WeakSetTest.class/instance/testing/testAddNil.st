@@ -1,7 +1,5 @@
 testAddNil
-
 	| ws |
 	ws := WeakSet new.
-	self shouldnt: [ws add: nil] raise: Error.
-	
+	ws add: nil.
 	self assert: (ws includes: nil)

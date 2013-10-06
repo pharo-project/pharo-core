@@ -1,5 +1,3 @@
 testAssert
-
-	self should: [self interpret: 'ASTInterpreterTest new assert: false '] raise: InterpretationError.
-	self shouldnt: [self interpret: 'ASTInterpreterTest new assert: true '] raise: InterpretationError.
-	
+	self should: [ self interpret: 'ASTInterpreterTest new assert: false ' ] raise: InterpretationError.
+	self interpret: 'ASTInterpreterTest new assert: true '
