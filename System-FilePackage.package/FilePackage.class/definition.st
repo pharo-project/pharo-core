@@ -1,5 +1,5 @@
 Object subclass: #FilePackage
 	instanceVariableNames: 'fullName sourceSystem classes doIts classOrder'
-	classVariableNames: 'LogFileStream'
+	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'System-FilePackage'

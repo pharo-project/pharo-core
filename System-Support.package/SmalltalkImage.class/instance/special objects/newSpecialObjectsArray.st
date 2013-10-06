@@ -11,7 +11,7 @@ newSpecialObjectsArray
 	 think of playing here unless you know what you are doing."
 	
 	| newArray |
-	newArray := Array new: 56.
+	newArray := Array new: 59.
 	"Nil false and true get used throughout the interpreter"
 	newArray at: 1 put: nil.
 	newArray at: 2 put: false.
@@ -99,5 +99,9 @@ newSpecialObjectsArray
 
 	"Weak reference finalization"
 	newArray at: 56 put: (self at: #WeakFinalizationList ifAbsent: []).
+	
+	newArray at: 57 put: nil. "Reserved for ForeignCallbackProcess"
+	newArray at: 58 put: #respondsToUnknownBytecode. 
+	newArray at: 59 put: #conditionalBranchCounterTrippedOn:. "Reserved for SistaStackToRegisterCogit"
 
 	^newArray

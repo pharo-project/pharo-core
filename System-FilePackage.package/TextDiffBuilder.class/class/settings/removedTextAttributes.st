@@ -1,3 +1,0 @@
-removedTextAttributes
-
-	^RemoveTextAttributes

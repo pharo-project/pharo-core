@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '11603 Better name for Critics UI
-	https://pharo.fogbugz.com/f/cases/11603
+ ^ '11637 Special Object Array not in sync with VM
+	https://pharo.fogbugz.com/f/cases/11637
 	
-11638 remove not used class variables in WeakFinalizationList
-	https://pharo.fogbugz.com/f/cases/11638
+11642 Small Code-Critic cleanup of FilePackage	
+	https://pharo.fogbugz.com/f/cases/11642
 	
-11636 Fix Form >> #asGrayScaleWithAlpha
-	https://pharo.fogbugz.com/f/cases/11636'
+11640 Guard pretty printing of AST when using RBLiteralNode for non-Literals
+	https://pharo.fogbugz.com/f/cases/11640'
