@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '11745 Remove unused iVar retractableScrollBar in ScrollPane
-	https://pharo.fogbugz.com/f/cases/11745
+ ^ '11757 NautilusMCBindings misses a reset method
+	https://pharo.fogbugz.com/f/cases/11757
 	
-11470 remove old ClassOrganizer
-	https://pharo.fogbugz.com/f/cases/11470'
+11758 Small fix to make FileContentBrowser work again
+	https://pharo.fogbugz.com/f/cases/11758'
