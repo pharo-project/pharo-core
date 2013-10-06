@@ -1,7 +1,7 @@
 commentForCurrentUpdate
- ^ '11563 Color>>pixelValue32 should be moved to its single sender
-	https://pharo.fogbugz.com/f/cases/11563
+ ^ '11566 MorphFrameGhost should be renamed and subclassed from BorderedMorph
+	https://pharo.fogbugz.com/f/cases/11566
 	
-11561 Leftover System Progress morph
-	https://pharo.fogbugz.com/f/cases/11561
-	'
+11564 ThumbnailImageMorph should be removed
+	https://pharo.fogbugz.com/f/cases/11564
+'
