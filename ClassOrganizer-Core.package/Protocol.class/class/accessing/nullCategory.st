@@ -1,3 +1,3 @@
 nullCategory
 
-	^ 'no messages'
+	^ #'no messages'

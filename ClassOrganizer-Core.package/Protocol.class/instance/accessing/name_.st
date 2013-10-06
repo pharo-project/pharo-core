@@ -1,3 +1,3 @@
 name: anObject
 	
-	name := anObject
+	name := anObject asSymbol

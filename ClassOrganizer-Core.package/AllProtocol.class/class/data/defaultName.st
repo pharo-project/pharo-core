@@ -1,3 +1,3 @@
 defaultName
 
-	^ '--- all ---'
+	^ #'--- all ---'

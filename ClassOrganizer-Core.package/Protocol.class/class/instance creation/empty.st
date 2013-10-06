@@ -1,2 +1,2 @@
 empty 
-	 ^ self name: ''
+	 ^ self name: #''
