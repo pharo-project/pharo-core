@@ -20,11 +20,7 @@ buildDebugMenu: aHand
 	aMenu lastItem icon: Smalltalk ui icons smallInspectItIcon.
 	self isMorphicModel ifTrue: [
 		aMenu add: 'inspect model' translated target: self model action: #inspect.
-		aMenu lastItem icon: Smalltalk ui icons smallInspectItIcon.
-		(self model class inheritsFrom: ComposableModel)
-			ifTrue: [ 
-				aMenu add: 'edit model' translated target: self model action: #edit.
-				aMenu lastItem icon: Smalltalk ui icons smallInspectItIcon ]].
+		aMenu lastItem icon: Smalltalk ui icons smallInspectItIcon ].
      aMenu add: 'explore morph' translated target: self selector: #explore.
 	aMenu lastItem icon: Smalltalk ui icons smallInspectItIcon.
 	aMenu addLine.

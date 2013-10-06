@@ -1,2 +1,0 @@
-openDualChangeSorter
-	self dualChangeSorter open

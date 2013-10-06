@@ -5,23 +5,3 @@ forgetAllChangesFoundIn: otherChangeSet
 	otherChangeSet changedClassNames do:
 		[:className | self forgetChangesForClass: className in: otherChangeSet].
 	self expungeEmptyClassChangeEntries.
-
-"  Old code...
-	aChangeSet changedClassNames do: 
-		[:className |
-			(cls := Smalltalk classNamed: className) ~~ nil ifTrue:
-				[itsMethodChanges := aChangeSet methodChanges at: className 
-						ifAbsent: [Dictionary new].
-				itsMethodChanges associationsDo: [:assoc | 
-					self forgetChange: assoc value forSelector: assoc key class: cls].
-				myClassChange := self classChangeAt: className.
-				myClassChange size > 0 ifTrue:
-					[(aChangeSet classChangeAt: className) do:
-						[:aChange | myClassChange remove: aChange ifAbsent: []]].
-				self noteClassForgotten: className]].
-
-	aChangeSet classRemoves do:
-		[:className | (recorder := changeRecords at: className ifAbsent: [])
-			ifNotNil: [recorder forgetClassRemoval]].
-	self expungeEmptyClassChangeEntries
-"

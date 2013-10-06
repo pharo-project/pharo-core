@@ -1,5 +1,3 @@
 inspect: anObject label: aString
-
-	self flag: #FIXME. "should consider the label here"
-	^ self inspect: anObject
-	
+	(InspectorNavigator openInspector: (self inspector: anObject)) window title: aString.
+	^ anObject

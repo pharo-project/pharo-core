@@ -4,7 +4,7 @@ menuCommandOn: aBuilder
 		parent: #Tools;  
 		with: [
 			(aBuilder item: #'Change Sorter')
-				action:[self new openWithSpec]; 
+				action:[self open]; 
 				icon: self taskbarIcon.
 			(aBuilder item: #'Recover lost changes...') 
 				icon: Smalltalk ui icons recoverLostChangesIcon;

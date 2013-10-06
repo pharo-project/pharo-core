@@ -13,5 +13,5 @@ menuItems
 		-
 		('Monticello Browser'		#openMonticelloBrowser)
 		('Recover lost changes...'	#openRecentChangesLog)
-		('Change Sorter'			#openDualChangeSorter)
+		('Change Sorter'			#openChangeSorter)
 	)
