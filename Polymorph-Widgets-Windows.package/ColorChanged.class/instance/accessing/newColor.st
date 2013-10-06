@@ -1,0 +1,2 @@
+newColor
+	^ newColor

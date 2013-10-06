@@ -1,1 +1,0 @@
-projectLabel	^self spec projectLabel

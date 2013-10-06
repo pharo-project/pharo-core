@@ -1,0 +1,3 @@
+size
+
+	^ self methodReferenceList size

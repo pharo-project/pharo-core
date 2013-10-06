@@ -1,0 +1,2 @@
+newSource
+	^self formattedCode

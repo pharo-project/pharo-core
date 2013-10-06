@@ -1,0 +1,2 @@
+hash
+	^ packageName hash

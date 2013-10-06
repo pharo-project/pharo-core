@@ -1,0 +1,2 @@
+asCharacterSet
+	^contents asCharacterSet

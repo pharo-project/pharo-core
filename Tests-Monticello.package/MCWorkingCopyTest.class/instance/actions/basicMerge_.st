@@ -1,0 +1,2 @@
+basicMerge: aVersion
+	aVersion merge

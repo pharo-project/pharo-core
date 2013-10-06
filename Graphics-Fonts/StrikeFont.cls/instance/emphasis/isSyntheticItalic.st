@@ -1,1 +1,0 @@
-isSyntheticItalic	^type = 5

@@ -1,1 +1,0 @@
-newAssembler	self subclassResponsibility 

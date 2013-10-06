@@ -1,1 +1,0 @@
-growlPosition	^GrowlMorph position

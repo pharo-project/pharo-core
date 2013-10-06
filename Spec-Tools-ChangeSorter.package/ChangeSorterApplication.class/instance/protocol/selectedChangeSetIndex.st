@@ -1,0 +1,3 @@
+selectedChangeSetIndex
+
+	 ^ changesListModel selectedIndex

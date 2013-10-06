@@ -1,1 +1,0 @@
-handlesDoubleClick	^ self editView handlesDoubleClick

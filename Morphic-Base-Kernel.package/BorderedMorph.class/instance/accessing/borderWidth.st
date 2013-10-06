@@ -1,0 +1,2 @@
+borderWidth
+	^ borderWidth

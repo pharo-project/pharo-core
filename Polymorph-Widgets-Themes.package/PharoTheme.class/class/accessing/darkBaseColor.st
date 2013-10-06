@@ -1,0 +1,2 @@
+darkBaseColor
+	^ self baseColor darker

@@ -1,1 +1,0 @@
-enumType	^self enumClass name 

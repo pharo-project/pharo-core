@@ -1,0 +1,2 @@
+rubberBandCells
+	^false

@@ -1,0 +1,3 @@
+selector: symbol
+
+	selectorOrFalse := symbol

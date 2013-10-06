@@ -1,0 +1,2 @@
+readCode
+	^self nextBits

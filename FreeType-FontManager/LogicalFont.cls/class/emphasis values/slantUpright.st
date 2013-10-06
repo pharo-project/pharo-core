@@ -1,1 +1,0 @@
-slantUpright	^0

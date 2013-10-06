@@ -1,1 +1,0 @@
-anyOne	^ self first

@@ -1,1 +1,0 @@
-startUp	self guessDefaultLineEndConvention.

@@ -1,1 +1,0 @@
-title	^ self nextModel title

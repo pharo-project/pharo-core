@@ -1,1 +1,0 @@
-encrypt: aString	^ self subclassResponsibility

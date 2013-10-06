@@ -1,0 +1,3 @@
+closure: anObject
+	
+	closure := anObject

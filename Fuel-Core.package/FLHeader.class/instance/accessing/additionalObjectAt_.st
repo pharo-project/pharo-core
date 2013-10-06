@@ -1,0 +1,2 @@
+additionalObjectAt: key
+	^ additionalObjects at: key

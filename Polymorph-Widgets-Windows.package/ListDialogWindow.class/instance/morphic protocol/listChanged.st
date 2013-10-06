@@ -1,0 +1,2 @@
+listChanged
+	self changed: #list.

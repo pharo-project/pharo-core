@@ -1,1 +1,0 @@
-criticalWarningReasonCodes	^ #(#packageNameMismatch #projectClassNameFileMismatch #duplicateVersionDefinitions)

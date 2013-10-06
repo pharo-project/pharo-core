@@ -1,0 +1,3 @@
+onColor: aColor
+
+	onColor := aColor.

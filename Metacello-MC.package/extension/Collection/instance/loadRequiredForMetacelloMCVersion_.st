@@ -1,0 +1,3 @@
+loadRequiredForMetacelloMCVersion: aMetacelloMCVersion
+
+	^aMetacelloMCVersion doLoadRequiredFromArray: self.

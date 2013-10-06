@@ -1,1 +1,0 @@
-easySelectingWorld: aBoolean	EasySelectingWorld := aBoolean

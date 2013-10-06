@@ -1,1 +1,0 @@
-sortingSelector: s	sortingSelector := s

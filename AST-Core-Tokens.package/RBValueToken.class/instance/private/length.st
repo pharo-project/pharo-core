@@ -1,0 +1,2 @@
+length
+	^value size

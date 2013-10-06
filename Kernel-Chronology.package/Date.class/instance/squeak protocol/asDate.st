@@ -1,0 +1,3 @@
+asDate
+
+	^ self

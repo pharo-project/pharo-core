@@ -1,0 +1,2 @@
+baseDefinition
+	^ obsoletion

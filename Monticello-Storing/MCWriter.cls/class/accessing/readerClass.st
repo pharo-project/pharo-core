@@ -1,1 +1,0 @@
-readerClass	^ self subclassResponsibility 

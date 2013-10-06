@@ -1,1 +1,0 @@
-location: aUrlString	location := aUrlString

@@ -1,0 +1,2 @@
+numberOfSteps: anInteger
+	numberOfSteps := anInteger

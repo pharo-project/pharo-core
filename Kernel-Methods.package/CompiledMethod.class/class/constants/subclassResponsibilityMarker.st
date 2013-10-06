@@ -1,0 +1,2 @@
+subclassResponsibilityMarker
+	^ #subclassResponsibility

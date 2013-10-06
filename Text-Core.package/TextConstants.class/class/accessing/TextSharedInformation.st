@@ -1,0 +1,2 @@
+TextSharedInformation
+	^TextSharedInformation

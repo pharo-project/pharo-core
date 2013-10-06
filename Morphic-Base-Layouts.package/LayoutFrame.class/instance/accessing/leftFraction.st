@@ -1,0 +1,2 @@
+leftFraction
+	^leftFraction

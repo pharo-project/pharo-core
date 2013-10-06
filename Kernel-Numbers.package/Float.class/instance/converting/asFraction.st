@@ -1,0 +1,2 @@
+asFraction
+	^ self asTrueFraction 

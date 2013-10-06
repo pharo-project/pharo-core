@@ -1,0 +1,2 @@
+useRoundedCorners
+	self cornerStyle: #rounded

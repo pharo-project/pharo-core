@@ -1,0 +1,2 @@
+isBlockEnd
+	^ type beginsWith: 'blockEnd'

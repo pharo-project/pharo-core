@@ -1,1 +1,0 @@
-isMove	^ false

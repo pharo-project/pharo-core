@@ -1,0 +1,2 @@
+bytes: anObject
+	bytes := anObject

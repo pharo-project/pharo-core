@@ -1,1 +1,0 @@
-point: anObject	point := anObject

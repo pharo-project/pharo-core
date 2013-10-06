@@ -1,0 +1,2 @@
+color
+	^Color transparent

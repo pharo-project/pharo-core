@@ -1,1 +1,0 @@
-expandedStackSize	^ 100000

@@ -1,0 +1,2 @@
+contextStack
+	^object stack

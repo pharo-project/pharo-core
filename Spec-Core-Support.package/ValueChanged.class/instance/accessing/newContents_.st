@@ -1,0 +1,3 @@
+newContents: anObject
+	
+	newContents := anObject

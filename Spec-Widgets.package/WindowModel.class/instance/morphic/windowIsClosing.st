@@ -1,0 +1,3 @@
+windowIsClosing
+
+	isClosedHolder contents: true

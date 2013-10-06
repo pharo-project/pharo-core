@@ -1,0 +1,2 @@
+hasParentheses
+	^self parentheses notEmpty

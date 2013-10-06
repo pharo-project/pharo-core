@@ -1,0 +1,3 @@
+analyzedClassName: aClassName
+
+	analyzedClassName := aClassName

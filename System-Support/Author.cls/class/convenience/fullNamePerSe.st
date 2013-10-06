@@ -1,1 +1,0 @@
-fullNamePerSe	^ Author uniqueInstance fullNamePerSe

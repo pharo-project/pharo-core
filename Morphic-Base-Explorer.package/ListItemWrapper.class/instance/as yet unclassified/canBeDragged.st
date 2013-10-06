@@ -1,0 +1,3 @@
+canBeDragged
+
+	^true

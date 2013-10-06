@@ -1,0 +1,2 @@
+weightValue
+	self subclassResponsibility

@@ -1,0 +1,2 @@
+cookies
+	self subclassResponsibility 

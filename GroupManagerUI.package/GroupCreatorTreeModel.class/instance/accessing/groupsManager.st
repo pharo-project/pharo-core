@@ -1,0 +1,3 @@
+groupsManager
+
+	^ self model groupsManager

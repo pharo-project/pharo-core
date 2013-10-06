@@ -1,0 +1,2 @@
+streaming
+	streaming := true

@@ -1,1 +1,0 @@
-on: aModel getItemsSelector: getItems getDisplaySelector: getDisplay		| listModel instance |	listModel := self adapterOn: aModel.		listModel		on: aModel 		getItemsSelector: getItems		getDisplaySelector: getDisplay.		instance := self on: listModel.	listModel list: instance.		^ instance

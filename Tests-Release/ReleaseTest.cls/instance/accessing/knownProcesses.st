@@ -1,1 +1,0 @@
-knownProcesses	^ self class knownProcesses

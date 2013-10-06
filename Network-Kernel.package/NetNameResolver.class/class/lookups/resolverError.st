@@ -1,0 +1,2 @@
+resolverError
+	^self primNameResolverError

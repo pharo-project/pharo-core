@@ -1,1 +1,0 @@
-asNanoSeconds  	^ (seconds * NanosInSecond) + nanos 

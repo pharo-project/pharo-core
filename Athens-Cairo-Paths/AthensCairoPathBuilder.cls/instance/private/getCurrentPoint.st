@@ -1,1 +1,0 @@
-getCurrentPoint	^ context getCurrentPoint

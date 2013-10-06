@@ -1,1 +1,0 @@
-secondCollection	^anotherCollection 

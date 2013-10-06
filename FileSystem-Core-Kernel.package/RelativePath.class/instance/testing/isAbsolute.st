@@ -1,0 +1,2 @@
+isAbsolute
+	^ false

@@ -1,0 +1,3 @@
+handlesKeyStroke: anEvet
+
+	^ true

@@ -1,1 +1,0 @@
-rootURLString 	^ self class rootURLString

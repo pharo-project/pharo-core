@@ -1,0 +1,2 @@
+preferGradientFill
+	^ self settings preferGradientFill

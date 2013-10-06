@@ -1,1 +1,0 @@
-setBlessingInMetacelloConfig: aMetacelloConfig	aMetacelloConfig setBlessingWithString: self

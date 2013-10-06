@@ -1,1 +1,0 @@
-selectedMethod	^ selectedMethod

@@ -1,1 +1,0 @@
-= anObject	^ self == anObject

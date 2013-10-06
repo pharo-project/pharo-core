@@ -1,0 +1,10 @@
+testSuperSend
+	| selector methodNode scanner did |
+	selector := (methodNode := self compile2methodNode: 'bytecodeSuperSend super yourself') selector.
+	scanner := InstructionStream on: methodNode method.
+	1
+		timesRepeat: [scanner nextInstruction].
+	self
+		assert: ((did := scanner peekInstruction) selector == #send:super:numArgs:
+				and: [did arguments = {#yourself. true. 0}])
+		description: 'Failed ' , selector

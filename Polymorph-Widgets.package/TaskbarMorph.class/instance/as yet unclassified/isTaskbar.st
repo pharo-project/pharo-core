@@ -1,0 +1,4 @@
+isTaskbar
+	"Answer true."
+
+	^true

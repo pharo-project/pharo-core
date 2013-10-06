@@ -1,0 +1,2 @@
+defaultEnvironment
+	 ^ Smalltalk globals allClassesAndTraits.

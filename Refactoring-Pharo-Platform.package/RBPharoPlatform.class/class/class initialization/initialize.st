@@ -1,0 +1,2 @@
+initialize
+	Current := self new

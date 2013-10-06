@@ -1,1 +1,0 @@
-asYetUnclassifiedString	^ Protocol unclassified.

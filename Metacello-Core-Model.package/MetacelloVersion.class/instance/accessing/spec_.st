@@ -1,0 +1,3 @@
+spec: aMetacellVersionSpec
+
+	spec := aMetacellVersionSpec

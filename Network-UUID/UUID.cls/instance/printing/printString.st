@@ -1,1 +1,0 @@
-printString	^self asString

@@ -1,0 +1,2 @@
+anonymousClassInstaller
+	^ AnonymousClassInstaller

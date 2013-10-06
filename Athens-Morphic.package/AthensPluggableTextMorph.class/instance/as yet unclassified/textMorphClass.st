@@ -1,0 +1,2 @@
+textMorphClass
+	^ AthensTextMorph

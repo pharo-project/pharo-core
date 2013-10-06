@@ -1,1 +1,0 @@
-lightBaseColor	^ self class lightBaseColor

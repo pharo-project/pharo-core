@@ -1,1 +1,0 @@
-asWeek	^ self 

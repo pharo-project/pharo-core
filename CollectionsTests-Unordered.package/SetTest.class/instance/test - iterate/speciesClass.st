@@ -1,0 +1,3 @@
+speciesClass
+	
+	^ Set

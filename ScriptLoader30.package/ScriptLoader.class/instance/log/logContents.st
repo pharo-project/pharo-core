@@ -1,0 +1,3 @@
+logContents
+
+	^ self logStream contents

@@ -1,0 +1,2 @@
+classFactory
+	^classFactory

@@ -1,0 +1,2 @@
+translateBy: delta
+	self releaseCachedState

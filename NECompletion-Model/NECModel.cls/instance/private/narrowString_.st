@@ -1,1 +1,0 @@
-narrowString: aString 	narrowString := aString

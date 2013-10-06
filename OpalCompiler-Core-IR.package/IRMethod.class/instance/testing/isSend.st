@@ -1,0 +1,2 @@
+isSend
+	^false.

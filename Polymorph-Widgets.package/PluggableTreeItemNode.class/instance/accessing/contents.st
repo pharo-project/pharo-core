@@ -1,0 +1,2 @@
+contents
+	^model contentsOfNode: self

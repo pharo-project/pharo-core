@@ -1,0 +1,3 @@
+pluginsSelected: anObject
+	
+		pluginsSelected := anObject

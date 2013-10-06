@@ -1,0 +1,4 @@
+testingSpec
+
+	^ {#Text.
+		#model:.	#model}.

@@ -1,0 +1,2 @@
+event: anObject
+	event := anObject

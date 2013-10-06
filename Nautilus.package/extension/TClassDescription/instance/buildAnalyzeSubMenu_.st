@@ -1,0 +1,2 @@
+buildAnalyzeSubMenu: aBuilder
+	self explicitRequirement.

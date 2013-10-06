@@ -1,0 +1,2 @@
+allAliasesDict
+	^IdentityDictionary new

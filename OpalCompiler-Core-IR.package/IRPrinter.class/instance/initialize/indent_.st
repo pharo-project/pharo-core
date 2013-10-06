@@ -1,0 +1,3 @@
+indent: tabs
+
+	indent := tabs

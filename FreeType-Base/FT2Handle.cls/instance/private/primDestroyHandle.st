@@ -1,1 +1,0 @@
-primDestroyHandle	self subclassResponsibility

@@ -1,0 +1,4 @@
+transform
+	self
+		reparentSubclasses;
+		removeClasses

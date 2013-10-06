@@ -1,0 +1,3 @@
+extraSelector: aSymbol
+
+	stateSelector := aSymbol

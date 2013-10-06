@@ -1,0 +1,3 @@
+narrow
+	
+	self changeEmphasis: #narrow

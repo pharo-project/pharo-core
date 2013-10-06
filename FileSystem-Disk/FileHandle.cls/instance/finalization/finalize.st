@@ -1,1 +1,0 @@
-finalize	self primCloseNoError: id.

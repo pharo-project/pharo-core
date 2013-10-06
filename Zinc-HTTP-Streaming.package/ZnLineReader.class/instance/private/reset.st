@@ -1,0 +1,2 @@
+reset
+	position := 0

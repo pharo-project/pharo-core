@@ -1,1 +1,0 @@
-passenger: anObject	passenger := anObject

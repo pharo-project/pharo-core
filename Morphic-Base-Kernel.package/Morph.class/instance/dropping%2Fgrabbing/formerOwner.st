@@ -1,0 +1,2 @@
+formerOwner
+	^self valueOfProperty: #formerOwner

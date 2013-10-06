@@ -1,1 +1,0 @@
-bindings	^ bindings contents

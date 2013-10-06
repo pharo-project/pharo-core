@@ -1,0 +1,2 @@
+hasWideCharacters
+	^false

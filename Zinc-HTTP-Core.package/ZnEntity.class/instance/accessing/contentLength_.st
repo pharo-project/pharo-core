@@ -1,0 +1,2 @@
+contentLength: integer
+	contentLength := integer

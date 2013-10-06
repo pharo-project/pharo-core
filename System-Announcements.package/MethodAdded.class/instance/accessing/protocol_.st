@@ -1,0 +1,2 @@
+protocol: aProtocolName
+	protocol := aProtocolName

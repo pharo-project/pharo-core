@@ -1,0 +1,2 @@
+instanceSide
+	^ self theNonMetaClass

@@ -1,0 +1,5 @@
+Morph subclass: #MorphFrameGhost
+	instanceVariableNames: 'target startGap location'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Morphic-Base-Windows'

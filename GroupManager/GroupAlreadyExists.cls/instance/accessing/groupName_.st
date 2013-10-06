@@ -1,1 +1,0 @@
-groupName: anObject	groupName := anObject

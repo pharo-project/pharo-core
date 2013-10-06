@@ -1,1 +1,0 @@
-canonicalArgumentName	^ 'aTrait'.

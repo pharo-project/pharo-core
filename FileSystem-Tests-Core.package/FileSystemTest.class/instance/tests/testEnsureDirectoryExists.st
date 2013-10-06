@@ -1,0 +1,11 @@
+testEnsureDirectoryExists
+	| path |
+	
+	path := Path * 'plonk'.
+	self markForCleanup: path.
+	
+	filesystem createDirectory: path.
+	self 
+		shouldnt: [filesystem ensureCreateDirectory: path]
+		raise: FileSystemError.
+	

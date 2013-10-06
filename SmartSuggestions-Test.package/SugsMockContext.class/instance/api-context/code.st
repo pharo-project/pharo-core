@@ -1,0 +1,2 @@
+code
+	^ self selectedMethod sourceCode

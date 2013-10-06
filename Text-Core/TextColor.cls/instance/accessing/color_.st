@@ -1,1 +1,0 @@
-color: aColor	color := aColor

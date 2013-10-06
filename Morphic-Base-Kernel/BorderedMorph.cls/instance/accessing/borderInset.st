@@ -1,1 +1,0 @@
-borderInset	self borderColor: #inset

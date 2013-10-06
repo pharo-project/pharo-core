@@ -1,0 +1,3 @@
+upperHandLimit: anInteger
+
+	UpperHandLimit := anInteger

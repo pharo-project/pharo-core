@@ -1,0 +1,2 @@
+includesCategory: aCategory
+	^ true

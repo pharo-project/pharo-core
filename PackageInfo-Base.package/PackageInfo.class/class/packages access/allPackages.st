@@ -1,0 +1,2 @@
+allPackages
+	^PackageOrganizer default packages

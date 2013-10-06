@@ -1,0 +1,2 @@
+fileName: aString
+	fileName := aString

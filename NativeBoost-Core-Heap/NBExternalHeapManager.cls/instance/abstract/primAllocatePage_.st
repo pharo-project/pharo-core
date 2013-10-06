@@ -1,1 +1,0 @@
-primAllocatePage: numBytes	self subclassResponsibility 

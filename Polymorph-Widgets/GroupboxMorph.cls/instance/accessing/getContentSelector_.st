@@ -1,1 +1,0 @@
-getContentSelector: anObject	getContentSelector := anObject

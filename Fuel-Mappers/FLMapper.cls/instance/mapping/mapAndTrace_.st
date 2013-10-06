@@ -1,1 +1,0 @@
-mapAndTrace: anObject	self subclassResponsibility

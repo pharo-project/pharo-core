@@ -1,0 +1,2 @@
+firstHand
+	^ worldState hands first

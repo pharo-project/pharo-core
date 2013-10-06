@@ -1,0 +1,3 @@
+compoundTextFinalChar
+
+	self shouldNotImplement.

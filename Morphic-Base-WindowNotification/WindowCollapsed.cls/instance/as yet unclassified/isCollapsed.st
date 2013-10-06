@@ -1,1 +1,0 @@
-isCollapsed	^ true

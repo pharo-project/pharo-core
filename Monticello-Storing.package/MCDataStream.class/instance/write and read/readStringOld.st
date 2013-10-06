@@ -1,0 +1,3 @@
+readStringOld
+
+   ^ byteStream nextStringOld

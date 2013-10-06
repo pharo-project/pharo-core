@@ -1,0 +1,2 @@
+newTransformMorph
+	^ MorphTreeTransformMorph new 

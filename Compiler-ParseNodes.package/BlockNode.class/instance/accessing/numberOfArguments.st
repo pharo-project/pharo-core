@@ -1,0 +1,3 @@
+numberOfArguments
+
+	^arguments size

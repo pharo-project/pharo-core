@@ -1,0 +1,3 @@
+isTrait
+
+	^true

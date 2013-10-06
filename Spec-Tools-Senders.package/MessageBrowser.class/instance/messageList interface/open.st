@@ -1,0 +1,3 @@
+open
+
+	self openWithSpec

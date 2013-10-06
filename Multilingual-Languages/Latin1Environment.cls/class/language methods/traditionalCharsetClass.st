@@ -1,1 +1,0 @@
-traditionalCharsetClass	^ Latin1.

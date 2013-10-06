@@ -1,1 +1,0 @@
-startWithoutParentheses	^receiver start

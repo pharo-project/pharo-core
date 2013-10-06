@@ -1,0 +1,2 @@
+anyButtonPressed
+	^lastMouseEvent anyButtonPressed

@@ -1,0 +1,2 @@
+toBeOverridenWithReturn
+	^ 'saga'

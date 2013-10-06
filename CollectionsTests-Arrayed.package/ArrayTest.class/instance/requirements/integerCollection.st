@@ -1,0 +1,2 @@
+integerCollection
+	^example1 .

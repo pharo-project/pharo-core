@@ -1,0 +1,3 @@
+fullFrame: anObject
+	
+	layout := anObject

@@ -1,0 +1,3 @@
+method
+	|foo|
+	self halt.

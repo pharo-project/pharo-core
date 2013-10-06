@@ -1,0 +1,2 @@
+debuggerClass
+	^ SpecDebugger 

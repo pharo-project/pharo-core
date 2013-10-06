@@ -1,1 +1,0 @@
-columns: anArray	columns := anArray

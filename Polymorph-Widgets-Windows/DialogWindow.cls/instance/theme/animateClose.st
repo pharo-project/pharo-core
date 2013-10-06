@@ -1,1 +1,0 @@
-animateClose	"Animate closing."

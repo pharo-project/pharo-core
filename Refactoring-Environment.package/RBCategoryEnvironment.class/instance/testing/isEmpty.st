@@ -1,0 +1,2 @@
+isEmpty
+	^categories isEmpty

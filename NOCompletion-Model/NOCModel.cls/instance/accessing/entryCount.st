@@ -1,1 +1,0 @@
-entryCount	^ self entries size

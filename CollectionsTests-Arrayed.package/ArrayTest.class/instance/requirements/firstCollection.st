@@ -1,0 +1,2 @@
+firstCollection
+	^example1 

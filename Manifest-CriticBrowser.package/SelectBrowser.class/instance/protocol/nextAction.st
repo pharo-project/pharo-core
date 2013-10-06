@@ -1,0 +1,2 @@
+nextAction
+	self subclassResponsibility

@@ -1,0 +1,3 @@
+selectedGroup: anObject
+	
+		selectedGroup := anObject

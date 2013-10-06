@@ -1,0 +1,2 @@
+versionSelection
+	^ versions indexOf: selectedVersion

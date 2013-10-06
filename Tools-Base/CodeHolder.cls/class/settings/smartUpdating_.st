@@ -1,1 +1,0 @@
-smartUpdating: aBoolean	SmartUpdating := aBoolean

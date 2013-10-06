@@ -1,0 +1,2 @@
+changeSymbol
+	^ #removeInstVarNamed:

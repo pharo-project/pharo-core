@@ -1,1 +1,0 @@
-uiClass	^DialogItemsChooserUI

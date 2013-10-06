@@ -1,0 +1,3 @@
+useFloatingPoint
+
+	^ false

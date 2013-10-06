@@ -1,1 +1,0 @@
-isWindowEvent	^false

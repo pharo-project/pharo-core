@@ -1,1 +1,0 @@
-startOfTyping	^ beginTypeInIndex

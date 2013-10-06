@@ -1,0 +1,2 @@
+simpleMethod
+	^FooValue1

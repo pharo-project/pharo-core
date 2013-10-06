@@ -1,1 +1,0 @@
-mimeMappings	^StandardMIMEMappings

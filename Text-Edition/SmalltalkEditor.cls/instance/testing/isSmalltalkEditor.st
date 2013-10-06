@@ -1,1 +1,0 @@
-isSmalltalkEditor	^ true 

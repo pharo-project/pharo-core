@@ -1,1 +1,0 @@
-layoutInset: aNumber	layoutInset := aNumber

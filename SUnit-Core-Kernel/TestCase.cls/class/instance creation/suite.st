@@ -1,1 +1,0 @@
-suite	^self buildSuite

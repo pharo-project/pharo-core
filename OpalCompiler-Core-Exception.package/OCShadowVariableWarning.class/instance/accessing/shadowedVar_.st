@@ -1,0 +1,3 @@
+shadowedVar: aVar
+
+	shadowedVar := aVar

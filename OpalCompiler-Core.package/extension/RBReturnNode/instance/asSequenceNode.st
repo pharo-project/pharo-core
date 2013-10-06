@@ -1,0 +1,2 @@
+asSequenceNode
+	^RBSequenceNode statements: {self} 

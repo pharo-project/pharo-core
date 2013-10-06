@@ -1,0 +1,2 @@
+linearHorizontalAdvance
+	^linearHorizontalAdvance

@@ -1,0 +1,2 @@
+rightFlush 
+	textStyle rightFlush

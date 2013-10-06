@@ -1,1 +1,0 @@
-rootEnvironment	^ environment rootEnvironment

@@ -1,0 +1,2 @@
+enableMask
+	^ surface enableMask

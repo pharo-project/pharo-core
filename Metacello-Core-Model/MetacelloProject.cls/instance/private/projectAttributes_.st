@@ -1,1 +1,0 @@
-projectAttributes: aList	projectAttributes := aList

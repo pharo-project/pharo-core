@@ -1,0 +1,3 @@
+wrapDropListItem: anItem
+
+	^ anItem label

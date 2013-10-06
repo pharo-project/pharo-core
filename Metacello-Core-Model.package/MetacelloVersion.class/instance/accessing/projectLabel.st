@@ -1,0 +1,3 @@
+projectLabel
+
+	^self spec projectLabel

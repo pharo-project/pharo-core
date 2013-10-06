@@ -1,0 +1,3 @@
+asString
+
+	^ token

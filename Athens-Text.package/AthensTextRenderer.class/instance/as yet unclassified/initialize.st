@@ -1,0 +1,2 @@
+initialize
+	color := Color black.

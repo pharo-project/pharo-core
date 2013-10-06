@@ -1,0 +1,2 @@
+returningBlock
+	^ [^ 2]

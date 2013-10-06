@@ -1,1 +1,0 @@
-remoteChosen	^ isApplicable ~~ false

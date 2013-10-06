@@ -1,0 +1,3 @@
+complexContents
+
+	^self

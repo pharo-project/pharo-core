@@ -1,0 +1,2 @@
+stdcall
+	options add: #optStdcall

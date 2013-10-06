@@ -1,1 +1,0 @@
-shortcuts: someShortcuts	shortcuts := someShortcuts

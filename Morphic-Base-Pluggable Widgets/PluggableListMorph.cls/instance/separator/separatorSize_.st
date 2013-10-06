@@ -1,1 +1,0 @@
-separatorSize: anInteger	separatorSize := anInteger

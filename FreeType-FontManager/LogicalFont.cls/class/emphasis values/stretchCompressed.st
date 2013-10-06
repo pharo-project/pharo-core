@@ -1,1 +1,0 @@
-stretchCompressed	^2

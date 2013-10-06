@@ -1,1 +1,0 @@
-stretchNames	^self class stretchNames

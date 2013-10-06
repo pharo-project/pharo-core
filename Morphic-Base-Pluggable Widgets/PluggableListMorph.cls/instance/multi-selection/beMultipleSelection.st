@@ -1,1 +1,0 @@
-beMultipleSelection	multipleSelection := true

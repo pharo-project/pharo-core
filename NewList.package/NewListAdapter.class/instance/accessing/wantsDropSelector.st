@@ -1,0 +1,2 @@
+wantsDropSelector
+	^ wantsDropSelector contents

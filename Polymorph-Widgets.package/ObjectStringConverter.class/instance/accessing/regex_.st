@@ -1,0 +1,3 @@
+regex: anObject
+
+	regex := anObject

@@ -1,0 +1,2 @@
+createClasses
+	mode := #create:name:

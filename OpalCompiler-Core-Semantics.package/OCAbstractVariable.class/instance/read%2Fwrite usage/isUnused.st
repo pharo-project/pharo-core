@@ -1,0 +1,3 @@
+isUnused
+
+	^ usage isNil

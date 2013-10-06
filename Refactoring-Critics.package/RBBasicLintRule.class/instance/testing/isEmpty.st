@@ -1,0 +1,2 @@
+isEmpty
+	^ self result isEmpty

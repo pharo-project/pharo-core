@@ -1,0 +1,2 @@
+isRegTypeX87
+	^ true

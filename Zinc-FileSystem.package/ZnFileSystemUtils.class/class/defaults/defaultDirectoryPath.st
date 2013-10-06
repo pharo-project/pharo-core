@@ -1,0 +1,2 @@
+defaultDirectoryPath
+	^ self defaultDirectory fullName

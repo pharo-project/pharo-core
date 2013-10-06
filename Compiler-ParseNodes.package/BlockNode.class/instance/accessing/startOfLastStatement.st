@@ -1,0 +1,2 @@
+startOfLastStatement
+	^startOfLastStatement

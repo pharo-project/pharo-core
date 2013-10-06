@@ -1,0 +1,3 @@
+setProject: aProject
+
+	project := aProject

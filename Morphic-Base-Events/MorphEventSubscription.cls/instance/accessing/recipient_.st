@@ -1,1 +1,0 @@
-recipient: anObject	recipient := anObject

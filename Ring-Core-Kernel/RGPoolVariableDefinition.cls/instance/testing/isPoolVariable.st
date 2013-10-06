@@ -1,1 +1,0 @@
-isPoolVariable	^true

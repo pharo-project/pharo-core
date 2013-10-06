@@ -1,0 +1,2 @@
+operand
+	^ operands first

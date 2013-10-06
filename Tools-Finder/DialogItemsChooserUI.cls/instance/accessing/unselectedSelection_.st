@@ -1,1 +1,0 @@
-unselectedSelection: anObject	unselectedSelection := anObject

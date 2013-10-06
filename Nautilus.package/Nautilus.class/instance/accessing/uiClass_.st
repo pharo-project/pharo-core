@@ -1,0 +1,3 @@
+uiClass: aClass
+
+	uiClass := aClass

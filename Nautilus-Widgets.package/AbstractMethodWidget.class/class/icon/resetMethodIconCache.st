@@ -1,0 +1,3 @@
+resetMethodIconCache
+
+	MethodsIconsCache removeAll

@@ -1,1 +1,0 @@
-handleSize	^ 20

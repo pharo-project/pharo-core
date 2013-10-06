@@ -1,0 +1,2 @@
+colorMap
+	^ colorMap

@@ -1,0 +1,2 @@
+aProjectIsLoaded: aBoolean
+	aProjectIsLoaded := aBoolean

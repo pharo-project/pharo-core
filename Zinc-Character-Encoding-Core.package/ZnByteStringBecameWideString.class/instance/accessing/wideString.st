@@ -1,0 +1,2 @@
+wideString
+	^ wideString

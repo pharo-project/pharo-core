@@ -1,1 +1,0 @@
-getListSize	^ self getItems size

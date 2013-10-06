@@ -1,0 +1,6 @@
+open
+
+	^(self new)
+		open;
+		yourself
+		

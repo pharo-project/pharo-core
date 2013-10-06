@@ -1,0 +1,2 @@
+gradientLook: aBoolean
+	gradientLook := aBoolean

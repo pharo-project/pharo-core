@@ -1,1 +1,0 @@
-clipY	^clipY

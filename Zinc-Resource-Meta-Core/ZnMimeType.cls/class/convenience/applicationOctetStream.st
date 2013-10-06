@@ -1,1 +1,0 @@
-applicationOctetStream	^ self predefinedInstanceAt: #applicationOctetStream

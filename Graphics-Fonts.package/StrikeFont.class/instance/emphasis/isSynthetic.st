@@ -1,0 +1,2 @@
+isSynthetic
+	^type > 0

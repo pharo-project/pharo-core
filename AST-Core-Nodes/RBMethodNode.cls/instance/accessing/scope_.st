@@ -1,1 +1,0 @@
-scope: aScopedNode	scope := aScopedNode

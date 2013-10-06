@@ -1,0 +1,2 @@
+defaultAction
+	Smalltalk signalLowSpace.

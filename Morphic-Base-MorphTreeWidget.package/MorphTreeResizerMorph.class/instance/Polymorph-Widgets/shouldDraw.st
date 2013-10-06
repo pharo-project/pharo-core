@@ -1,0 +1,2 @@
+shouldDraw
+	^ true

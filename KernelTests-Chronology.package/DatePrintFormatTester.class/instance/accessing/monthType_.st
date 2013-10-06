@@ -1,0 +1,3 @@
+monthType: anInteger 
+
+	monthType := anInteger.

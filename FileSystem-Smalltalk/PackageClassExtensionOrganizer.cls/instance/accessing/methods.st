@@ -1,1 +1,0 @@
-methods	^ package extensionMethodsForClass: clazz

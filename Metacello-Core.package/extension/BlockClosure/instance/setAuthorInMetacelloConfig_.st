@@ -1,0 +1,3 @@
+setAuthorInMetacelloConfig: aMetacelloConfig
+
+	aMetacelloConfig setAuthorWithBlock: self

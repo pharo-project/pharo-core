@@ -1,0 +1,2 @@
+sizeCollection
+	^ collectionWith4Elements 

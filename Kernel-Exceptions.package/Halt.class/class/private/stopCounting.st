@@ -1,0 +1,3 @@
+stopCounting
+
+	callsUntilHaltOnCount := 0.

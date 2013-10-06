@@ -1,0 +1,2 @@
+textLine: aLine 
+	textLine := aLine

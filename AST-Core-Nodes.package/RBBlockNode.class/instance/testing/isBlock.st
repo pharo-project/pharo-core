@@ -1,0 +1,2 @@
+isBlock
+	^true

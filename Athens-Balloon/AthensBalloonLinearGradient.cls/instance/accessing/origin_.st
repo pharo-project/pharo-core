@@ -1,1 +1,0 @@
-origin: anObject	origin := anObject

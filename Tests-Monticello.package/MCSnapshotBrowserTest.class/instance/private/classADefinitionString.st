@@ -1,0 +1,2 @@
+classADefinitionString
+	^ self mockClassA definition

@@ -1,1 +1,0 @@
-collector  "Private"	^ array

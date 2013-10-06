@@ -1,0 +1,2 @@
+classTrait
+	^classTrait

@@ -1,0 +1,2 @@
+directory
+	^ FileSystem disk workingDirectory

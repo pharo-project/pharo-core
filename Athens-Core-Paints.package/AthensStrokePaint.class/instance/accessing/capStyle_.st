@@ -1,0 +1,3 @@
+capStyle: anObject
+
+	capStyle := anObject

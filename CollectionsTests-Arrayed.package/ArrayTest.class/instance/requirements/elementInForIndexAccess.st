@@ -1,0 +1,2 @@
+elementInForIndexAccess
+	^ elementInForCopy 

@@ -1,1 +1,0 @@
-additionalLiterals: aSet	additionalLiterals := aSet.	

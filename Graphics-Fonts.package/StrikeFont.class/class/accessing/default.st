@@ -1,0 +1,2 @@
+default
+	^TextStyle default defaultFont

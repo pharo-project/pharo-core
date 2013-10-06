@@ -1,0 +1,2 @@
+maxClassPlusSelectorSize
+	^maxClassPlusSelectorSize

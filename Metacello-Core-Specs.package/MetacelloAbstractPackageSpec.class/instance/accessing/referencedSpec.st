@@ -1,0 +1,3 @@
+referencedSpec
+
+	^self

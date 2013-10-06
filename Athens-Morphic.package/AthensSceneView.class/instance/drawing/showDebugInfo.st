@@ -1,0 +1,2 @@
+showDebugInfo
+	^ true 

@@ -1,1 +1,0 @@
-hasClassSide	^false

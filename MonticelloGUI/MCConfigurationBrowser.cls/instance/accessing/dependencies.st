@@ -1,1 +1,0 @@
-dependencies	^self configuration dependencies

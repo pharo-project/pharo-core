@@ -1,1 +1,0 @@
-fieldsClass	^NBExternalStructureFields 

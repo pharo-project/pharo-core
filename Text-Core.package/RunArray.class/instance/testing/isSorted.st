@@ -1,0 +1,2 @@
+isSorted
+	^values isSorted

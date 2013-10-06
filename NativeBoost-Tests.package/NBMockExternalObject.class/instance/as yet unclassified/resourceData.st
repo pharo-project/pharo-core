@@ -1,0 +1,2 @@
+resourceData
+	^ data

@@ -1,0 +1,2 @@
+mustTakeIntoAccountCheckSpace
+	^container listManager isCheckList

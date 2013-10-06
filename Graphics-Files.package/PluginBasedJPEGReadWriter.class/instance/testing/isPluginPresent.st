@@ -1,0 +1,2 @@
+isPluginPresent
+	^self primJPEGPluginIsPresent

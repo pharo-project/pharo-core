@@ -1,1 +1,0 @@
-doCancel	self delete

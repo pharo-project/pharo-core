@@ -1,0 +1,2 @@
+platformName
+	^  'Mac OS'

@@ -1,0 +1,3 @@
+columnDropUnabled
+
+	^ columnDropUnabled

@@ -1,0 +1,2 @@
+name
+	^ 'Menus missing translations'

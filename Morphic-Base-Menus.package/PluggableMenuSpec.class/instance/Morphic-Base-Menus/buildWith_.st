@@ -1,0 +1,3 @@
+buildWith: aBuilder
+
+	^ self asMenuMorph

@@ -1,1 +1,0 @@
-shadowColor	^canvas shadowColor

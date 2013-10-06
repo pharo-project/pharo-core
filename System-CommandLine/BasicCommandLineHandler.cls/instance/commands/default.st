@@ -1,1 +1,0 @@
-default	^ self 		help;		exitSuccess

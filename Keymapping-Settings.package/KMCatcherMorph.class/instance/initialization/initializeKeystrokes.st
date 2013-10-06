@@ -1,0 +1,2 @@
+initializeKeystrokes
+	keystrokes := OrderedCollection new.

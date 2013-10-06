@@ -1,0 +1,2 @@
+selectionBarColor
+	^ self theme  selectionBarColor

@@ -1,1 +1,0 @@
-hasNext	^ index < storage size

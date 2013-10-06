@@ -1,0 +1,2 @@
+lastSelection
+	^ lastSelection

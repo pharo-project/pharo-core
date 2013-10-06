@@ -1,0 +1,2 @@
+instanceSpecificationBase
+	^ 2

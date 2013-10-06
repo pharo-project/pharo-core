@@ -1,0 +1,2 @@
+isZero
+	^ value = 0

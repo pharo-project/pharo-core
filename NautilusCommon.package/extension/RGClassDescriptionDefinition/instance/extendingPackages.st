@@ -1,0 +1,3 @@
+extendingPackages
+
+	^ self realClass extendingPackages

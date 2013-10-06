@@ -1,0 +1,2 @@
+filter: symbolOrBlock
+	filter := symbolOrBlock 

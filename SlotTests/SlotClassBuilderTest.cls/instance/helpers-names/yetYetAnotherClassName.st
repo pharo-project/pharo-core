@@ -1,1 +1,0 @@
-yetYetAnotherClassName	^ #SlotTestsClassD

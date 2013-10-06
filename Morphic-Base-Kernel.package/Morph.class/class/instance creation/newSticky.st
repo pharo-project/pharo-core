@@ -1,0 +1,3 @@
+newSticky
+
+	^ self new beSticky

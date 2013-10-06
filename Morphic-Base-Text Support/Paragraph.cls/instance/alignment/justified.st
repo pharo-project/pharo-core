@@ -1,1 +1,0 @@
-justified 	textStyle justified

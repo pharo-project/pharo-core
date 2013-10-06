@@ -1,1 +1,0 @@
-literalToken: aLiteralToken 	token := aLiteralToken

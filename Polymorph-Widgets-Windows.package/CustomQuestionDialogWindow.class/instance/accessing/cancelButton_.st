@@ -1,0 +1,3 @@
+cancelButton: anObject
+
+	cancelButton := anObject

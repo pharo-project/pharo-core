@@ -1,0 +1,2 @@
+privateStyle: aText 
+	self shouldBeImplemented

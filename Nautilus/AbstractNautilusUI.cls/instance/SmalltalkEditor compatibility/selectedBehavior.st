@@ -1,1 +1,0 @@
-selectedBehavior	^ self selectedClass

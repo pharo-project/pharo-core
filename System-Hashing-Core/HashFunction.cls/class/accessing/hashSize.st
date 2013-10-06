@@ -1,1 +1,0 @@
-hashSize	^ self subclassResponsibility

@@ -1,1 +1,0 @@
-snapshot	^ self package snapshot

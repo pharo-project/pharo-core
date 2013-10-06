@@ -1,0 +1,2 @@
+matcherClass
+	^ RxMatcher

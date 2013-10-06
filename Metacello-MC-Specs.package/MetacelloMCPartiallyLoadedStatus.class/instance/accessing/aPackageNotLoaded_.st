@@ -1,0 +1,2 @@
+aPackageNotLoaded: aBoolean
+	aPackageNotLoaded := aBoolean

@@ -1,1 +1,0 @@
-testValidateClassName					PharoClassInstaller 		validateClassName: #GoodClassNameThatShouldNotExist

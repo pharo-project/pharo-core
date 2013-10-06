@@ -1,1 +1,0 @@
-bufferFreeSize	^ buffer size - position

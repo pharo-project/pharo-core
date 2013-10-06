@@ -1,0 +1,3 @@
+primitiveFailToken
+
+	^ self primitiveFailTokenFor: nil

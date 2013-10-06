@@ -1,0 +1,3 @@
+fromByteArray: aByteArray
+
+	^ aByteArray asString

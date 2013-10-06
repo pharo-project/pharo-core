@@ -1,0 +1,3 @@
+isExtended
+
+	^ self extendingPackages isEmpty

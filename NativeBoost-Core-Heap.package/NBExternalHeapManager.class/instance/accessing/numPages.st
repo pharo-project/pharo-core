@@ -1,0 +1,2 @@
+numPages
+	^ pages size

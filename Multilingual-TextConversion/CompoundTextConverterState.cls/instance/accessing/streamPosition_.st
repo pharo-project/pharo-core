@@ -1,1 +1,0 @@
-streamPosition: pos	streamPosition := pos.

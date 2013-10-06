@@ -1,0 +1,3 @@
+keyPressed: anAnnouncement
+
+	self subclassResponsibility

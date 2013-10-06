@@ -1,1 +1,0 @@
-load	MCVersionLoader loadVersion: self

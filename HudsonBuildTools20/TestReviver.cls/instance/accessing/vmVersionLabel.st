@@ -1,1 +1,0 @@
-vmVersionLabel	^ vmVersionLabel.

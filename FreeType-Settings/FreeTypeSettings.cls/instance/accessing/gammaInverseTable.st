@@ -1,1 +1,0 @@
-gammaInverseTable	^gammaInverseTable

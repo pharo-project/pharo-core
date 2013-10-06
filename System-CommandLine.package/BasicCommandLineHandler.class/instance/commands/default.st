@@ -1,0 +1,4 @@
+default
+	^ self 
+		help;
+		exitSuccess

@@ -1,0 +1,2 @@
+workingCopy
+	^ package workingCopy

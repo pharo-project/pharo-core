@@ -1,0 +1,2 @@
+localHostAddressIsLoopBackAddress
+		^NetNameResolver localHostAddress = NetNameResolver loopBackAddress

@@ -1,0 +1,2 @@
+successor: succ
+	successor := succ

@@ -1,0 +1,2 @@
+initialize 
+	registry := NBFinalizationRegistry new

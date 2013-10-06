@@ -1,0 +1,3 @@
+projectSpecClass
+
+	^MetacelloMCProjectSpec

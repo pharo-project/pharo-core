@@ -1,0 +1,3 @@
+separatorBlockOrSelector: aBlockOrSelector
+
+	separatorBlockOrSelector := aBlockOrSelector

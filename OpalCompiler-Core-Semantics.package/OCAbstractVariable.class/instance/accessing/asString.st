@@ -1,0 +1,3 @@
+asString
+
+	^ self name

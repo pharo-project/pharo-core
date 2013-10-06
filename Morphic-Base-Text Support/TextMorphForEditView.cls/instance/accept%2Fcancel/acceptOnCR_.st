@@ -1,1 +1,0 @@
-acceptOnCR: trueOrFalse	acceptOnCR := trueOrFalse

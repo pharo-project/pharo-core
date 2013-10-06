@@ -1,0 +1,2 @@
+preferredCornerStyle
+	^ self theme preferredCornerStyle

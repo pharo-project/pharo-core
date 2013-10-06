@@ -1,0 +1,3 @@
+originalIndex
+
+	^self subclassResponsibility

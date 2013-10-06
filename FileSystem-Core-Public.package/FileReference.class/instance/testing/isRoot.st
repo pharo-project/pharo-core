@@ -1,0 +1,2 @@
+isRoot
+	^ path isRoot

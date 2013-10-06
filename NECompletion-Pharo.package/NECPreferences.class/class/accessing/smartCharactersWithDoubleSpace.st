@@ -1,0 +1,2 @@
+smartCharactersWithDoubleSpace
+	^ smartCharactersWithDoubleSpace

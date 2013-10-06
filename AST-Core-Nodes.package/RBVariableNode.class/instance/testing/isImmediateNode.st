@@ -1,0 +1,2 @@
+isImmediateNode
+	^true

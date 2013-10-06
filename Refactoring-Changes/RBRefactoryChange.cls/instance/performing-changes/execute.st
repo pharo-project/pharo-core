@@ -1,1 +1,0 @@
-execute	^self executeNotifying: []

@@ -1,0 +1,2 @@
+xTable: anObject 
+	xTable := anObject

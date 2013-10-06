@@ -1,0 +1,2 @@
+lightCyan
+	^LightCyan

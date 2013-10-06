@@ -1,1 +1,0 @@
-arcLengths: anArrayOfIntegers	arcLengths := anArrayOfIntegers

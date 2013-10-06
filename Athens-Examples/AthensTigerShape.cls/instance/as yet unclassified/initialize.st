@@ -1,1 +1,0 @@
-initialize 	fill := stroke := false.

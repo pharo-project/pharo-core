@@ -1,0 +1,3 @@
+address: anObject
+
+	address := anObject

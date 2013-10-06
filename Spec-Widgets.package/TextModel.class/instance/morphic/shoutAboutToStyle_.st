@@ -1,0 +1,3 @@
+shoutAboutToStyle: aMorph
+	
+	^ self isAboutToStyle

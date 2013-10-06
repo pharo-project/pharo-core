@@ -1,0 +1,3 @@
+resultClass
+
+	^ TestAsserter classForTestResult

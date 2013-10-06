@@ -1,0 +1,2 @@
+stylingEnabled: aBoolean
+	stylingEnabled := aBoolean

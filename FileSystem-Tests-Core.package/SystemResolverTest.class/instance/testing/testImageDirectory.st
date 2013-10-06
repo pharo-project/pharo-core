@@ -1,0 +1,2 @@
+testImageDirectory
+	self assertOriginResolves: #imageDirectory

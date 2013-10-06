@@ -1,0 +1,2 @@
+alt
+	^ KMAltModifier new

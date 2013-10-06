@@ -1,0 +1,3 @@
+objectClass: anObject
+
+	objectClass := anObject

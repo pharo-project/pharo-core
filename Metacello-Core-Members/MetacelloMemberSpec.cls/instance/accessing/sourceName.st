@@ -1,1 +1,0 @@
-sourceName	^self name

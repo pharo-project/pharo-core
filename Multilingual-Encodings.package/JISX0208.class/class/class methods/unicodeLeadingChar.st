@@ -1,0 +1,3 @@
+unicodeLeadingChar
+
+	^ JapaneseEnvironment leadingChar.

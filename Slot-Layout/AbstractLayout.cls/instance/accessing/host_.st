@@ -1,1 +1,0 @@
-host: aClass	host := aClass

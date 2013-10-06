@@ -1,0 +1,2 @@
+accumulator
+	^ RAX

@@ -1,0 +1,2 @@
+xor: aBoolean
+	^aBoolean value

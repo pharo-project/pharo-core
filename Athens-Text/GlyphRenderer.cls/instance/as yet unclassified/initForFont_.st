@@ -1,1 +1,0 @@
-initForFont: aFont	self subclassResponsibility 

@@ -1,0 +1,2 @@
+menuButtonWidth
+	^ 16

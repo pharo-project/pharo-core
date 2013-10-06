@@ -1,0 +1,2 @@
+variableNodeClass
+	^ currentVariableNodeClass ifNil: [ RBVariableNode ]

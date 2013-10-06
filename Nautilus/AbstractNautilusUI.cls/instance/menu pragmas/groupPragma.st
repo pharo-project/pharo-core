@@ -1,1 +1,0 @@
-groupPragma	^'nautilusGlobalGroupMenu'

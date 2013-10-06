@@ -1,1 +1,0 @@
-byVersionSelector	^ #groupedByVersion

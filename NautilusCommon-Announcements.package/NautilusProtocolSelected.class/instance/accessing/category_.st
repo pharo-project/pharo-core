@@ -1,0 +1,3 @@
+category: anObject
+	
+		category := anObject

@@ -1,1 +1,0 @@
-numberOfLines	^	self primGetLineCount

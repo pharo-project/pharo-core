@@ -1,0 +1,2 @@
+selector: sel
+	selector := sel

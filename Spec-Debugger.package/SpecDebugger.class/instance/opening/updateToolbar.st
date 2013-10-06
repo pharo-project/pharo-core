@@ -1,0 +1,3 @@
+updateToolbar
+	
+	self toolbar update

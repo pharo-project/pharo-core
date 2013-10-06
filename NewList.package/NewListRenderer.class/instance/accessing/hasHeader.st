@@ -1,0 +1,3 @@
+hasHeader
+
+	^ hasHeader contents

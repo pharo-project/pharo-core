@@ -1,0 +1,2 @@
+getHelpSelector: aSymbol
+	getHelpSelector := aSymbol

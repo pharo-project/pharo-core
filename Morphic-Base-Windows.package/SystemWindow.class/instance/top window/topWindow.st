@@ -1,0 +1,2 @@
+topWindow
+	^ self class topWindow

@@ -1,1 +1,0 @@
-defaultSortBlock	^ self class defaultSortBlock

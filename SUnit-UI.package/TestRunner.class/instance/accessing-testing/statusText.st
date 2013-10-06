@@ -1,0 +1,2 @@
+statusText
+	^ result printString.

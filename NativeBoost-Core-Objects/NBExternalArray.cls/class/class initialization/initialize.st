@@ -1,1 +1,0 @@
-initialize	NBExternalArray allSubclassesDo: #installAccessors.

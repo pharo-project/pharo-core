@@ -1,0 +1,3 @@
+isArray: oop
+	
+	^ self simpleCall

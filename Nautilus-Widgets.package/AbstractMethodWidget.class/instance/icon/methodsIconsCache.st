@@ -1,0 +1,3 @@
+methodsIconsCache
+
+	^ MethodsIconsCache

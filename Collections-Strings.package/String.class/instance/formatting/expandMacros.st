@@ -1,0 +1,2 @@
+expandMacros
+	^self expandMacrosWithArguments: #()

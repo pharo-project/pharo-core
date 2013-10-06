@@ -1,1 +1,0 @@
-hasClassSide	^self subclassResponsibility.

@@ -1,0 +1,2 @@
+initialize 
+	fill := stroke := false.

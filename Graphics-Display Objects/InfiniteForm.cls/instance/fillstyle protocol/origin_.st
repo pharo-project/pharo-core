@@ -1,1 +1,0 @@
-origin: aPoint	"Ignored"

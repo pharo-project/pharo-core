@@ -1,1 +1,0 @@
-conflictMarker	^ #traitConflict

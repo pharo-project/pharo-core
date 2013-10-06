@@ -1,0 +1,2 @@
+resourceData 
+	^ handle value

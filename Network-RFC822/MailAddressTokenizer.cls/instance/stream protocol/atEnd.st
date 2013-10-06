@@ -1,1 +1,0 @@
-atEnd	^self peek == nil

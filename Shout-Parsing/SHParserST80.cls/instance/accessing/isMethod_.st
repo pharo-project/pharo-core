@@ -1,1 +1,0 @@
-isMethod: aBoolean	isMethod := aBoolean.

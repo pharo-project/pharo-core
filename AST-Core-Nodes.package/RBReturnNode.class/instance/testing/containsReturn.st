@@ -1,0 +1,2 @@
+containsReturn
+	^true

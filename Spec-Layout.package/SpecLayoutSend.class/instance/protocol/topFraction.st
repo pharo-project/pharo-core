@@ -1,0 +1,3 @@
+topFraction
+
+	^ 0

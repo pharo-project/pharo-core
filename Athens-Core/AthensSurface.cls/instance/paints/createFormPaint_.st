@@ -1,1 +1,0 @@
-createFormPaint: aForm 	self subclassResponsibility.

@@ -1,0 +1,2 @@
+wantsColumnBreaks: aBoolean 
+	wantsColumnBreaks := aBoolean

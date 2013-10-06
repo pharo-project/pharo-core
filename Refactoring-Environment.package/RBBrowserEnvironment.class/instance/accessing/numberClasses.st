@@ -1,0 +1,2 @@
+numberClasses
+	^self classNames size

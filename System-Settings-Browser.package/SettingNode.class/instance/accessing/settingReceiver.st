@@ -1,0 +1,2 @@
+settingReceiver
+	^ item settingReceiver

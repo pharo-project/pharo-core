@@ -1,0 +1,2 @@
+alwaysStoreDiffs
+	^ storeDiffs ifNil: [false]

@@ -1,0 +1,2 @@
+asAnnouncement
+	^ self new

@@ -1,1 +1,0 @@
-finalValue	^state

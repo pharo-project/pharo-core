@@ -1,0 +1,2 @@
+imageVersion
+	^ imageVersion

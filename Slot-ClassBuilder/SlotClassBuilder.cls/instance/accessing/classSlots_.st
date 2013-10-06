@@ -1,1 +1,0 @@
-classSlots: someClassSlots	classSlots := someClassSlots

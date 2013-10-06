@@ -1,0 +1,2 @@
+errorSelected
+	^ errorList indexOf: errorSelected.

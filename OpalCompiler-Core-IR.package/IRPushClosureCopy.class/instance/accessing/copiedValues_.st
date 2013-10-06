@@ -1,0 +1,2 @@
+copiedValues: anArray 
+	copiedValues := anArray.

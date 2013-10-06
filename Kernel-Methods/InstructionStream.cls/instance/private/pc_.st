@@ -1,1 +1,0 @@
-pc: anInteger	pc := anInteger

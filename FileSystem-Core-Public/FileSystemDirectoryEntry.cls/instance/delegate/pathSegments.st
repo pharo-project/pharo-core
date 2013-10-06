@@ -1,1 +1,0 @@
-pathSegments	^ reference pathSegments

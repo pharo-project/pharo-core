@@ -1,0 +1,2 @@
+nextLink: aLink
+	nextLink := aLink

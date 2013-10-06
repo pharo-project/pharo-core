@@ -1,0 +1,3 @@
+aboutText
+
+	^ aboutText contents

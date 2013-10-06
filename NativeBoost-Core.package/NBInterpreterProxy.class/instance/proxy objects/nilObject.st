@@ -1,0 +1,3 @@
+nilObject
+	
+	^ self simpleCall

@@ -1,1 +1,0 @@
-blabEmail	^ BlabEmail ifNil: [ BlabEmail := '' ]

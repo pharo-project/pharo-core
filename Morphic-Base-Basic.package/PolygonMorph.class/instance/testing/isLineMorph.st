@@ -1,0 +1,2 @@
+isLineMorph
+	^closed not

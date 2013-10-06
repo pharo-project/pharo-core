@@ -1,0 +1,3 @@
+fontArray: anArray
+
+	fontArray := anArray.

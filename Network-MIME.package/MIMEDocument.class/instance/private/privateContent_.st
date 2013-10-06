@@ -1,0 +1,2 @@
+privateContent: aString
+	contents := aString

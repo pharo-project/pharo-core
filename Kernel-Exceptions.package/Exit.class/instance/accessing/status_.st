@@ -1,0 +1,2 @@
+status: anInteger
+	status := anInteger .

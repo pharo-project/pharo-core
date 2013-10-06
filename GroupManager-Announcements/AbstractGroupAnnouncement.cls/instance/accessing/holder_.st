@@ -1,1 +1,0 @@
-holder: anObject			holder := anObject

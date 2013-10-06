@@ -1,0 +1,2 @@
+removeGCRoot: addr
+	^ self simpleCall

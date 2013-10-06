@@ -1,1 +1,0 @@
-firstCharacterIndex	^ firstCharacterIndex

@@ -1,0 +1,2 @@
+underline
+	self termcap: 'us'

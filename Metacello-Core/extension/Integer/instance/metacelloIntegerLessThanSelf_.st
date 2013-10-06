@@ -1,1 +1,0 @@
-metacelloIntegerLessThanSelf: anInteger	^anInteger < self

@@ -1,1 +1,0 @@
-removeFromMetacelloRepositories: aMetacelloRepositoriesSpec	aMetacelloRepositoriesSpec addMember: self

@@ -1,0 +1,2 @@
+collectionOfFloat
+	^ collectionOfCollection

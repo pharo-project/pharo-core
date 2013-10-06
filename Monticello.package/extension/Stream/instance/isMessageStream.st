@@ -1,0 +1,2 @@
+isMessageStream
+	^ false

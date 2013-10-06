@@ -1,0 +1,3 @@
+selectedCategory: anObject
+
+	^ self subclassResponsibility

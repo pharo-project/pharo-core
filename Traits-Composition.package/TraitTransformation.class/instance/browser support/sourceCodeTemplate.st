@@ -1,0 +1,2 @@
+sourceCodeTemplate
+	^ self subject sourceCodeTemplate

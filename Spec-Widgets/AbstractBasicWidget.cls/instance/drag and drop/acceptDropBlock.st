@@ -1,1 +1,0 @@
-acceptDropBlock	^ acceptDropBlock contents

@@ -1,1 +1,0 @@
-miterLimit: lim	miterLimit := lim.

@@ -1,0 +1,2 @@
+primitiveTypesStyle
+	^ Groups at: #primitiveTypes

@@ -1,1 +1,0 @@
-initializeNetwork	self class initializeNetwork

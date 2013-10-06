@@ -1,0 +1,3 @@
+soundNamed: soundName
+
+	self subclassResponsibility

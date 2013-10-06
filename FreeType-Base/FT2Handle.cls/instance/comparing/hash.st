@@ -1,1 +1,0 @@
-hash	^ handle hash

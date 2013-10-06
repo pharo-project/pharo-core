@@ -1,0 +1,2 @@
+createRectanglePath: aRectangle 
+	^ aRectangle

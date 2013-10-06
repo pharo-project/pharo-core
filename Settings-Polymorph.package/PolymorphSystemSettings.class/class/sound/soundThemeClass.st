@@ -1,0 +1,2 @@
+soundThemeClass
+	^ SoundTheme current class

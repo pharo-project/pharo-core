@@ -1,1 +1,0 @@
-isSymlink 	^ filesystem isSymlink: path

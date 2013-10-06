@@ -1,1 +1,0 @@
-defaultAttachmentPointSpecs	^{ 		{ #firstVertex } .		{ #midpoint  } .		{ #lastVertex }	}

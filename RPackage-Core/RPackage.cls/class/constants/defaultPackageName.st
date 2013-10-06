@@ -1,1 +1,0 @@
-defaultPackageName	^ #'_UnpackagedPackage'

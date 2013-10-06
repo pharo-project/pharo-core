@@ -1,1 +1,0 @@
-isTempVector	^true

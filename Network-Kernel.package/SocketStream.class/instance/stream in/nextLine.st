@@ -1,0 +1,2 @@
+nextLine
+	^self nextLineCrLf

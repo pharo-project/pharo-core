@@ -1,1 +1,0 @@
-historyEntries	^ self browsingHistory entries

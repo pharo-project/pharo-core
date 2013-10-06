@@ -1,1 +1,0 @@
-binary	"do nothing"	^self 

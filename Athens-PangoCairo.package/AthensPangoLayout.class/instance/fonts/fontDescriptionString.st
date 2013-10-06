@@ -1,0 +1,3 @@
+fontDescriptionString
+	^ self primGetFontDescription asString.
+	

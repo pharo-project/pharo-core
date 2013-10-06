@@ -1,1 +1,0 @@
-spec: aMetacelloSpec	spec := aMetacelloSpec

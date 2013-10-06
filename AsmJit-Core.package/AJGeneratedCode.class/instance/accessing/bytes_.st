@@ -1,0 +1,4 @@
+bytes: aBytes 
+
+	bytes := aBytes
+	

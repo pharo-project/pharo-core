@@ -1,0 +1,2 @@
+useSecondarySelection: aBoolean
+	UseSecondarySelection := aBoolean

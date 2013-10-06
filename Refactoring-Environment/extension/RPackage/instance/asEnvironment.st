@@ -1,1 +1,0 @@
-asEnvironment	^ RBPackageEnvironment package: self

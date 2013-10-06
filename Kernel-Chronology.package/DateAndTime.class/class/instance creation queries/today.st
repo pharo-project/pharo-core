@@ -1,0 +1,3 @@
+today
+
+	^ self midnight

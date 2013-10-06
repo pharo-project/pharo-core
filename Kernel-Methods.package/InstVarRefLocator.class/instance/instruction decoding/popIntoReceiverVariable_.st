@@ -1,0 +1,3 @@
+popIntoReceiverVariable: offset 
+
+	bingo := true

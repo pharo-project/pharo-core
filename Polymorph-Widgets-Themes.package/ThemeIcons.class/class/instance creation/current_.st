@@ -1,0 +1,2 @@
+current: aThemeIcons
+	current := aThemeIcons

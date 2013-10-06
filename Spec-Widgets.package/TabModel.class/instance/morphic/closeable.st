@@ -1,0 +1,3 @@
+closeable
+
+	^ closeable contents

@@ -1,0 +1,2 @@
+nbLibraryNameOrHandle
+	^ PangoCairoLibraryLoader getLibraryHandle

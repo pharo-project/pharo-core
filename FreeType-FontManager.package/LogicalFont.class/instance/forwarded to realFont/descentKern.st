@@ -1,0 +1,2 @@
+descentKern
+	^self realFont descentKern

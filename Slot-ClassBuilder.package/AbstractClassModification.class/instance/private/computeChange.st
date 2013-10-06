@@ -1,0 +1,2 @@
+computeChange
+	self checkSanity.

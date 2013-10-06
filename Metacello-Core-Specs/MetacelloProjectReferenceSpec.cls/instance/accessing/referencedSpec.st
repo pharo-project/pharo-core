@@ -1,1 +1,0 @@
-referencedSpec	^self projectReference

@@ -1,0 +1,3 @@
+setTimestampInMetacelloConfig: aMetacelloConfig
+
+	aMetacelloConfig setTimestampWithBlock: self

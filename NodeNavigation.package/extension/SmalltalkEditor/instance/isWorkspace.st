@@ -1,0 +1,2 @@
+isWorkspace
+	^ model isWorkspace

@@ -1,0 +1,3 @@
+testEmptyDictionary
+
+	self assertSerializationEqualityOf: Dictionary new

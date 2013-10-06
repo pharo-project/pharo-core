@@ -1,0 +1,3 @@
+group: aSymbol
+
+	group := aSymbol

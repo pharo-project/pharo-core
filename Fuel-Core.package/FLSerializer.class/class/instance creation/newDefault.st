@@ -1,0 +1,3 @@
+newDefault
+
+	^self newLight

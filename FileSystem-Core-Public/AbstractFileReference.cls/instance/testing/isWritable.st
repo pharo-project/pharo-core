@@ -1,1 +1,0 @@
-isWritable	^ self resolve isWritable

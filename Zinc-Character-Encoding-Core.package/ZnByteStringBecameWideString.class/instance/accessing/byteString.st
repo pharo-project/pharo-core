@@ -1,0 +1,2 @@
+byteString
+	^ byteString

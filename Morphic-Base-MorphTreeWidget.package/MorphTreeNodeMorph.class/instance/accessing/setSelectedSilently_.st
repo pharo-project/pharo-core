@@ -1,0 +1,2 @@
+setSelectedSilently: aBoolean
+	selected := aBoolean.

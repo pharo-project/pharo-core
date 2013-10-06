@@ -1,1 +1,0 @@
-versionString: anObject	versionString := anObject

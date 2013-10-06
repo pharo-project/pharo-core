@@ -1,0 +1,2 @@
+hasComment
+	^ comment isEmptyOrNil not

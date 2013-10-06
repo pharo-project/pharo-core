@@ -1,0 +1,3 @@
+newStateForSelected: aBoolean
+
+	^ self subclassResponsibility

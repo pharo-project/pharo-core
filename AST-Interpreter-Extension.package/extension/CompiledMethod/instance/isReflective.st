@@ -1,0 +1,2 @@
+isReflective
+	^ (self hasPragmaNamed: #reflective:)

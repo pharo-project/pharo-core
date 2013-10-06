@@ -1,0 +1,3 @@
+backgroundColoringBlockOrSelector: aSelector
+
+	backgroundColoringBlockOrSelector := aSelector

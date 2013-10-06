@@ -1,0 +1,3 @@
+justify
+	^ justify = 1
+		

@@ -1,0 +1,2 @@
+newSize: anObject
+	newSize := anObject

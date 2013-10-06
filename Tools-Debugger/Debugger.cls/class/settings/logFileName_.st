@@ -1,1 +1,0 @@
-logFileName: newName	LogFileName := newName

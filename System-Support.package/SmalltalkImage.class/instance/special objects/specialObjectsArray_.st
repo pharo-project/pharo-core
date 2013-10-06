@@ -1,0 +1,2 @@
+specialObjectsArray: anArray
+	specialObjectsArray := anArray

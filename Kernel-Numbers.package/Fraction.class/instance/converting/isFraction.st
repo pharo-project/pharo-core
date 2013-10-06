@@ -1,0 +1,2 @@
+isFraction
+	^ true

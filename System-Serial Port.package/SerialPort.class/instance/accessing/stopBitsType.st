@@ -1,0 +1,3 @@
+stopBitsType
+
+	^ stopBitsType

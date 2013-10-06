@@ -1,1 +1,0 @@
-getDisplaySelector	^ getDisplaySelector contents

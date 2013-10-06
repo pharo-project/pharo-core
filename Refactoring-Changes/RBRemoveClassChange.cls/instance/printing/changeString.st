@@ -1,1 +1,0 @@
-changeString	^ 'Remove ' , self displayClassName

@@ -1,0 +1,3 @@
+literal: object
+
+	literal := object

@@ -1,0 +1,2 @@
+matchesCompletely: anEventBuffer
+	^ false

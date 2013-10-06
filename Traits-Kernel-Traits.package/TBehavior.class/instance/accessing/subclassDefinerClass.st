@@ -1,0 +1,2 @@
+subclassDefinerClass
+	^self explicitRequirement.

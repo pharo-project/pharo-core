@@ -1,0 +1,3 @@
+autoAccept: aBoolean
+
+	AutoAccept := aBoolean

@@ -1,0 +1,2 @@
+methodClass
+	^node methodNode methodClass

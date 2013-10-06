@@ -1,0 +1,2 @@
+asString
+	^ text asString

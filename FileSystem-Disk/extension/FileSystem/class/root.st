@@ -1,1 +1,0 @@
-root	^ self disk root

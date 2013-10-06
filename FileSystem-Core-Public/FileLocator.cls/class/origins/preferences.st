@@ -1,1 +1,0 @@
-preferences	^ self origin: #preferences

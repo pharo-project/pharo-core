@@ -1,0 +1,2 @@
+canMatch: aProgramNode 
+	^true

@@ -1,0 +1,2 @@
+isLiteral
+	^ true

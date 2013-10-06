@@ -1,0 +1,2 @@
+secondCollection
+	^example2 

@@ -1,0 +1,2 @@
+showIcons: aBoolean
+	ShowIcons := aBoolean

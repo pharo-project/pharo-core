@@ -1,0 +1,2 @@
+organizer
+	^ self class organizer

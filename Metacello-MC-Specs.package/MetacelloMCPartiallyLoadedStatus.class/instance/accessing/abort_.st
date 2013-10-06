@@ -1,0 +1,2 @@
+abort: aBoolean
+	abort := aBoolean

@@ -1,0 +1,2 @@
+isBitmapFill
+	^true

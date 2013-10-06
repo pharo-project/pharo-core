@@ -1,1 +1,0 @@
-previous	^Locale previous localeID

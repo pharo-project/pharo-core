@@ -1,0 +1,2 @@
+merge
+	self version merge

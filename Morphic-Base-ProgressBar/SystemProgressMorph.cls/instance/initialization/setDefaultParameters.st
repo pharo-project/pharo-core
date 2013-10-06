@@ -1,1 +1,0 @@
-setDefaultParameters	self theme setSystemProgressMorphDefaultParameters: self

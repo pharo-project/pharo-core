@@ -1,0 +1,5 @@
+RBTransformationRule subclass: #RBSuperSendsRule
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Refactoring-Critics-TransformationRules'

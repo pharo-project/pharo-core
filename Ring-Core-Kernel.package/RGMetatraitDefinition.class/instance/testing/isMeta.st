@@ -1,0 +1,3 @@
+isMeta
+
+	^true

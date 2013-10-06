@@ -1,1 +1,0 @@
-griddingOn	^ griddingOn ifNil: [false]

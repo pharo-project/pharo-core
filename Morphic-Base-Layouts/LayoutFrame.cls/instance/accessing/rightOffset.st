@@ -1,1 +1,0 @@
-rightOffset	^rightOffset

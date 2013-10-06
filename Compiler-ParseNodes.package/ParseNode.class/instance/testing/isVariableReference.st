@@ -1,0 +1,3 @@
+isVariableReference
+
+	^false

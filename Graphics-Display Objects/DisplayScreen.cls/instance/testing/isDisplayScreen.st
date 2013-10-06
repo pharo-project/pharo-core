@@ -1,1 +1,0 @@
-isDisplayScreen	^true

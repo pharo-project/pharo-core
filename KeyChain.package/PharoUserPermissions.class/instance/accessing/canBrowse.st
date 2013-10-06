@@ -1,0 +1,2 @@
+canBrowse
+	^ canBrowse

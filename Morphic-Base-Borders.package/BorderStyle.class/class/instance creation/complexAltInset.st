@@ -1,0 +1,2 @@
+complexAltInset
+	^ComplexBorder style: #complexAltInset

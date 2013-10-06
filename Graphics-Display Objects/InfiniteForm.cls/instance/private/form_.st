@@ -1,1 +1,0 @@
-form: aForm	patternForm := aForm

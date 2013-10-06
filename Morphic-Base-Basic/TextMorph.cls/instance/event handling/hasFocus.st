@@ -1,1 +1,0 @@
-hasFocus	^editor notNil

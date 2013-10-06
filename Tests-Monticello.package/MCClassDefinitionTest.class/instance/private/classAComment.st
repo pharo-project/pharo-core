@@ -1,0 +1,2 @@
+classAComment
+	^ self class classAComment

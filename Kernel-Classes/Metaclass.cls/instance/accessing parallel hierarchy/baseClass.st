@@ -1,1 +1,0 @@
-baseClass	^thisClass.

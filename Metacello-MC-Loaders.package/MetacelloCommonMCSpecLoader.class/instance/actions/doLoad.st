@@ -1,0 +1,3 @@
+doLoad
+
+	self subclassResponsibility

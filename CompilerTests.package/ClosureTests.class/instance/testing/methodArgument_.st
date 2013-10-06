@@ -1,0 +1,3 @@
+methodArgument: anObject
+	^ [ anObject ]
+	

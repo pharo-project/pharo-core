@@ -1,0 +1,2 @@
+asASTInterpreterContext
+	^ nil

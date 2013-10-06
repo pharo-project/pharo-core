@@ -1,1 +1,0 @@
-stringMorph: anObject			stringMorph := anObject

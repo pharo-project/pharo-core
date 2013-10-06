@@ -1,0 +1,4 @@
+hasContents
+
+	^item hasContentsInExplorer
+	

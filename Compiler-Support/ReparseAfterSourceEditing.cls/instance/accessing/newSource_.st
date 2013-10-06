@@ -1,1 +1,0 @@
-newSource: anObject		newSource := anObject

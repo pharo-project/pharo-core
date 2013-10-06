@@ -1,0 +1,3 @@
+buildVerticesFrom: borderVertices
+
+	^ borderVertices

@@ -1,0 +1,2 @@
+classExternalAddress
+	^ self simpleCall

@@ -1,0 +1,2 @@
+leftFlush
+	alignment := 0

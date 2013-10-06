@@ -1,0 +1,2 @@
+isInstanceSide
+	^self isClassSide not

@@ -1,1 +1,0 @@
-fileSize	^ self definition byteSize

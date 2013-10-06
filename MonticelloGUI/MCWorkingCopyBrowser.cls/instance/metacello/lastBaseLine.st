@@ -1,1 +1,0 @@
-lastBaseLine	^ self baseLines last

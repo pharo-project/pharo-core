@@ -1,0 +1,2 @@
+shutDown
+	^ Smalltalk closeSourceFiles

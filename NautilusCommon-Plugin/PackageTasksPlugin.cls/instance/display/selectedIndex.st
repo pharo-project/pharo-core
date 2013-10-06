@@ -1,1 +1,0 @@
-selectedIndex	^index

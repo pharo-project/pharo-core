@@ -1,0 +1,2 @@
+subMorph: aMorph
+	subMorph := aMorph

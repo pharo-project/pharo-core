@@ -1,1 +1,0 @@
-selected	^ self item selected

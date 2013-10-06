@@ -1,0 +1,2 @@
+isInstalled
+	^ Transcript class = self

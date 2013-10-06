@@ -1,1 +1,0 @@
-backgroundColor	^NECPreferences backgroundColor

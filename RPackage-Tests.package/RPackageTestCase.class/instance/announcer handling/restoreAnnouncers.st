@@ -1,0 +1,2 @@
+restoreAnnouncers
+	SystemAnnouncer announcer: oldSystemAnnouncer.

@@ -1,1 +1,0 @@
-hash	^charCode hash

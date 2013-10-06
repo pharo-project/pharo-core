@@ -1,1 +1,0 @@
-selectedMorphList	^ self listManager selectedMorphList

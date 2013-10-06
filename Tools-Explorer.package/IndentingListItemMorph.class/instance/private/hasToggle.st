@@ -1,0 +1,2 @@
+hasToggle
+	^ complexContents hasContents

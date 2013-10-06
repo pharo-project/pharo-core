@@ -1,1 +1,0 @@
-protocol	^ self protocols first

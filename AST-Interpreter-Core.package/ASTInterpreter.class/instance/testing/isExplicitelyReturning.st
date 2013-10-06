@@ -1,0 +1,2 @@
+isExplicitelyReturning
+	^ gotoContext ~= false

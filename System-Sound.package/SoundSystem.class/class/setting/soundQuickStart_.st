@@ -1,0 +1,2 @@
+soundQuickStart: aBoolean
+	SoundQuickStart := aBoolean

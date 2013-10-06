@@ -1,0 +1,3 @@
+bytecodeIndex: index
+
+	bytecodeIndex := index

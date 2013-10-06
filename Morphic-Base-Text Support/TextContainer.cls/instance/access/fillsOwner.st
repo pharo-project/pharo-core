@@ -1,1 +1,0 @@
-fillsOwner	^ fillsOwner ifNil: [true]

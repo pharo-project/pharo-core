@@ -1,1 +1,0 @@
-streamSpecies	^ String

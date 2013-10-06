@@ -1,0 +1,2 @@
+method2
+	|foo|

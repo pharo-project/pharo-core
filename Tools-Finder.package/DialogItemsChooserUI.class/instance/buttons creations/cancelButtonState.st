@@ -1,0 +1,2 @@
+cancelButtonState
+	^false

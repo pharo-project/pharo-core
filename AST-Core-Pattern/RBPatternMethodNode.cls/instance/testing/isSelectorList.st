@@ -1,1 +1,0 @@
-isSelectorList	^isList

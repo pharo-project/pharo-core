@@ -1,0 +1,2 @@
+isActivePlatform
+	^ self currentPlatformName = 'unix'

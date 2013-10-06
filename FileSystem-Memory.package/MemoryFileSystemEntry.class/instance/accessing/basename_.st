@@ -1,0 +1,2 @@
+basename: aString
+	basename := aString

@@ -1,1 +1,0 @@
-isReadable	^ self ownerRead

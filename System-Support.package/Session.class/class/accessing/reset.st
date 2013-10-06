@@ -1,0 +1,2 @@
+reset
+	current := nil

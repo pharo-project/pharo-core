@@ -1,0 +1,3 @@
+textArea: anObject
+
+	textArea := anObject

@@ -1,1 +1,0 @@
-aValue	^ self class >> #aValue

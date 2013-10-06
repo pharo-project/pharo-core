@@ -1,0 +1,3 @@
+defaultSpec
+
+	^ self subclassResponsibility

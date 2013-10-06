@@ -1,0 +1,2 @@
+isConfigurationReference
+	^ true

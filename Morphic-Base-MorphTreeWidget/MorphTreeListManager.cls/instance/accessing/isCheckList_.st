@@ -1,1 +1,0 @@
-isCheckList: aBoolean	isCheckList := aBoolean

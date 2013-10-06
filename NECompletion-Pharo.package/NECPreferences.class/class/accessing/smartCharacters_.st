@@ -1,0 +1,2 @@
+smartCharacters: aBoolean
+	smartCharacters := aBoolean

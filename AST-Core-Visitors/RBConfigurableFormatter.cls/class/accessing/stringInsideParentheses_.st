@@ -1,1 +1,0 @@
-stringInsideParentheses: aString	StringInsideParentheses := aString

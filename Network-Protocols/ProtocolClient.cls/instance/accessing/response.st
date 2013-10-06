@@ -1,1 +1,0 @@
-response	^self protocolInstance lastResponse

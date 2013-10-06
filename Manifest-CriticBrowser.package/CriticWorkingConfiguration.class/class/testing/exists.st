@@ -1,0 +1,3 @@
+exists
+
+	^ Current notNil

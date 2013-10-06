@@ -1,0 +1,3 @@
+classSmallInteger
+	
+	^ self simpleCall

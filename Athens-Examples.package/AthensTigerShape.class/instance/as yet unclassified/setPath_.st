@@ -1,0 +1,2 @@
+setPath: anAthensCairoPath
+		path := anAthensCairoPath

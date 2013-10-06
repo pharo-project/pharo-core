@@ -1,0 +1,2 @@
+method
+	^self parent method

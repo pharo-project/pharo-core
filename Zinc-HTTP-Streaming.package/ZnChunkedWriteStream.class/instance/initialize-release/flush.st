@@ -1,0 +1,2 @@
+flush
+	stream flush

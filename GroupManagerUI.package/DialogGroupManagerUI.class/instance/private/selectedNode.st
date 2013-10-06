@@ -1,0 +1,3 @@
+selectedNode
+
+	^ self treeModel selectedNode

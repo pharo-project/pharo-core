@@ -1,0 +1,2 @@
+classInstanceVariablesString
+	^ self stringForVariablesOfType: #isClassInstanceVariable

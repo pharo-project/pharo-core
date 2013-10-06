@@ -1,0 +1,3 @@
+suggestedLogComment: aLogMessage
+
+	suggestedLogComment := aLogMessage

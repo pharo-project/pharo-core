@@ -1,0 +1,2 @@
+classIcon 
+	^ self blankIcon

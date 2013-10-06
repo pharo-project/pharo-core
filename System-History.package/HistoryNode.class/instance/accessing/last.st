@@ -1,0 +1,2 @@
+last
+	^ self history last

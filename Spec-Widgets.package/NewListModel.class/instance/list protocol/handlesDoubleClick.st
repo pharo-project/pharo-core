@@ -1,0 +1,3 @@
+handlesDoubleClick
+
+	^ handlesDoubleClick contents

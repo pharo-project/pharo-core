@@ -1,0 +1,2 @@
+privateFormat: aText 
+	self shouldBeImplemented

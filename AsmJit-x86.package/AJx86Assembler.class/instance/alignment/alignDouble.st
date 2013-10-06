@@ -1,0 +1,2 @@
+alignDouble
+	self addInstruction: AJAlignmentInstruction alignDouble

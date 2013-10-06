@@ -1,1 +1,0 @@
-isSymlink 	^isSymlink

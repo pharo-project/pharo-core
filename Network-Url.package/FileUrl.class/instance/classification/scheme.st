@@ -1,0 +1,2 @@
+scheme
+	^self class schemeName

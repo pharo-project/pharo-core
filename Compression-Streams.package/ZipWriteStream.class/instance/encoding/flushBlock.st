@@ -1,0 +1,2 @@
+flushBlock
+	^self flushBlock: false

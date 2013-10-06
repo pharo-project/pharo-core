@@ -1,0 +1,2 @@
+isArray
+	^true

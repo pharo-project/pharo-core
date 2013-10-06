@@ -1,1 +1,0 @@
-haloFont: aFont	HaloFont := aFont

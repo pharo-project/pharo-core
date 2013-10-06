@@ -1,0 +1,2 @@
+squeakSlantItalic
+	^2

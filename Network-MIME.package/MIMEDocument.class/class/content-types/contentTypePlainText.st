@@ -1,0 +1,2 @@
+contentTypePlainText
+	^'text/plain'

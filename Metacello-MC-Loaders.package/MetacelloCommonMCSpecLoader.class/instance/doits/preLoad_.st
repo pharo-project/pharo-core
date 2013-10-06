@@ -1,0 +1,3 @@
+preLoad: packageOrVersionSpec
+
+	self subclassResponsibility

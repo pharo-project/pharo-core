@@ -1,0 +1,2 @@
+decodeBytes: bytes
+	^ bytes asString

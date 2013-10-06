@@ -1,1 +1,0 @@
-asSet	^self

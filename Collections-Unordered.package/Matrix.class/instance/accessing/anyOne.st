@@ -1,0 +1,2 @@
+anyOne
+	^contents anyOne

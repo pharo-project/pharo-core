@@ -1,1 +1,0 @@
-hasModelYellowButtonMenuItems	^Morph cmdGesturesEnabled

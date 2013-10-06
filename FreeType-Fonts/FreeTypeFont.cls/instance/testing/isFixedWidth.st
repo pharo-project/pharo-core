@@ -1,1 +1,0 @@
-isFixedWidth	^self face isFixedWidth 

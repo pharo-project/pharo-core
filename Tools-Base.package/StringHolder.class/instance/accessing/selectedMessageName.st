@@ -1,0 +1,3 @@
+selectedMessageName
+
+	^ nil

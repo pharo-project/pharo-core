@@ -1,0 +1,3 @@
+getTextSelector
+
+	^ getTextSelector

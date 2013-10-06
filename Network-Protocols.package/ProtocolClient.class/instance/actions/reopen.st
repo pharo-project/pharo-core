@@ -1,0 +1,2 @@
+reopen
+	self ensureConnection

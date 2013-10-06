@@ -1,0 +1,3 @@
+charSize: s
+
+	charSize := s.

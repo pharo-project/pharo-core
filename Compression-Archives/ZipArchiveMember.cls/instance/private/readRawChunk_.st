@@ -1,1 +1,0 @@
-readRawChunk: n	self subclassResponsibility

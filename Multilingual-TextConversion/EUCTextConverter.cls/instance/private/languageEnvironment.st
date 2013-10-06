@@ -1,1 +1,0 @@
-languageEnvironment	self subclassResponsibility

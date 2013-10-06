@@ -1,0 +1,2 @@
+hasIconBlock
+	^ iconBlock notNil

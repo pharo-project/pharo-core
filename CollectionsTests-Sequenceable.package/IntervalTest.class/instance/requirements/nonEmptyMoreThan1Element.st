@@ -1,0 +1,2 @@
+nonEmptyMoreThan1Element
+	^nonEmpty .

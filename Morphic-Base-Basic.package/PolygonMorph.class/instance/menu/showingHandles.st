@@ -1,0 +1,2 @@
+showingHandles
+	^ handles notNil

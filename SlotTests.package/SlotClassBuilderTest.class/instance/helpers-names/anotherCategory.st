@@ -1,0 +1,2 @@
+anotherCategory
+	^ 'SlotTestsTmp-Another'

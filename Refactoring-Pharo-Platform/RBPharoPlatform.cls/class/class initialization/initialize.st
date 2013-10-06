@@ -1,1 +1,0 @@
-initialize	Current := self new

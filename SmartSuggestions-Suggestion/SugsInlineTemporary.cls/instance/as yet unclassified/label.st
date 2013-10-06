@@ -1,1 +1,0 @@
-label	 ^'Inline temporary' translated

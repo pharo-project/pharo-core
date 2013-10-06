@@ -1,0 +1,3 @@
+browseCommentVersionsOf: aRGCommentDefinition
+
+	ClassCommentVersionsBrowser browseCommentOf: aRGCommentDefinition realClass

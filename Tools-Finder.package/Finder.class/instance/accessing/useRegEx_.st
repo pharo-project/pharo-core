@@ -1,0 +1,3 @@
+useRegEx: aBoolean
+
+	useRegEx :=  aBoolean.

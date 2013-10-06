@@ -1,0 +1,2 @@
+isCodeCompletionAllowed
+	^false

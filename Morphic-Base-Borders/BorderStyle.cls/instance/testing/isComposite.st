@@ -1,1 +1,0 @@
-isComposite	"Answer false."	^false

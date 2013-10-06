@@ -1,0 +1,2 @@
+functions
+	^ self class functions

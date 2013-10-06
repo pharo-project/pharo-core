@@ -1,0 +1,3 @@
+clearBitBltSubPixelAvailable	
+	
+	bitBltSubPixelAvailable := nil.

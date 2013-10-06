@@ -1,0 +1,3 @@
+backgroundColor
+	
+	^ Color fromHexString: 'aaaaaa'

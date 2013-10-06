@@ -1,0 +1,2 @@
+containsReference: aReference
+	^ false

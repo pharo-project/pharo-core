@@ -1,1 +1,0 @@
-isWin32	^ true

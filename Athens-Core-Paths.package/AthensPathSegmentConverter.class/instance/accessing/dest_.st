@@ -1,0 +1,2 @@
+dest: aDest
+	dest := aDest

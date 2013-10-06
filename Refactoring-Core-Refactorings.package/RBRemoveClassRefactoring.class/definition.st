@@ -1,0 +1,5 @@
+RBRefactoring subclass: #RBRemoveClassRefactoring
+	instanceVariableNames: 'classNames'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Refactoring-Core-Refactorings'

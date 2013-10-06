@@ -1,0 +1,2 @@
+inverse
+	^ MCAddition of: definition

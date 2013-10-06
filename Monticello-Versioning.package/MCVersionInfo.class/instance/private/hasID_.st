@@ -1,0 +1,2 @@
+hasID: aUUID
+	^ id = aUUID

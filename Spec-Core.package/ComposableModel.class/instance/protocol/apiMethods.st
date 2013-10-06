@@ -1,0 +1,3 @@
+apiMethods
+
+	^ self class apiMethods

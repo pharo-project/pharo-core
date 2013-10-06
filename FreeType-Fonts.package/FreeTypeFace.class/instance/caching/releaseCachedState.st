@@ -1,0 +1,3 @@
+releaseCachedState
+
+	hasKerning := nil.

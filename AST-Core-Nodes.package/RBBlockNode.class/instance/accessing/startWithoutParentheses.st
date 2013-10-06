@@ -1,0 +1,2 @@
+startWithoutParentheses
+	^left

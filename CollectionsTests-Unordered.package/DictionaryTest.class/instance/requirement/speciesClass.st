@@ -1,0 +1,2 @@
+speciesClass
+	^ Dictionary

@@ -1,1 +1,0 @@
-lastBlockSequence 	^lastBlockSequence

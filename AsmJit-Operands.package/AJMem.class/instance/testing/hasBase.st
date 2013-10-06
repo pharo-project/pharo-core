@@ -1,0 +1,2 @@
+hasBase
+	^ base notNil

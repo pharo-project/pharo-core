@@ -1,0 +1,3 @@
+token: anObject
+	
+	token := anObject

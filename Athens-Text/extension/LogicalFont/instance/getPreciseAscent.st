@@ -1,1 +1,0 @@
-getPreciseAscent	^ self realFont getPreciseAscent

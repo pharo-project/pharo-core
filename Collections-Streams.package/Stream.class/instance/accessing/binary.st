@@ -1,0 +1,3 @@
+binary
+	"do nothing"
+	^self 

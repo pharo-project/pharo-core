@@ -1,1 +1,0 @@
-changeString	^ self displayClassName

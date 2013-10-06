@@ -1,1 +1,0 @@
-findStartIndex: anInteger	findStartIndex := anInteger

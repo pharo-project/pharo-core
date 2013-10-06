@@ -1,0 +1,3 @@
+codeSize: aNumber
+
+	codeSize := aNumber

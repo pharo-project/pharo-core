@@ -1,1 +1,0 @@
-directory: dirPath	directory := dirPath

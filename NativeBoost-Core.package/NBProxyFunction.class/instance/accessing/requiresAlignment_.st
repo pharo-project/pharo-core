@@ -1,0 +1,2 @@
+requiresAlignment: aBool
+	requiresAlignment := aBool

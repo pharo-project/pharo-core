@@ -1,1 +1,0 @@
-step	Transcript show: 'moving'.

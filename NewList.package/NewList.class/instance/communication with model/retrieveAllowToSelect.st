@@ -1,0 +1,3 @@
+retrieveAllowToSelect
+
+	^ self model allowToSelect

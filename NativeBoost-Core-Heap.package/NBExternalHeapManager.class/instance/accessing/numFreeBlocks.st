@@ -1,0 +1,2 @@
+numFreeBlocks
+	^ freeBlocks size

@@ -1,0 +1,2 @@
+lastIndex: anIndex
+	lastIndex := anIndex

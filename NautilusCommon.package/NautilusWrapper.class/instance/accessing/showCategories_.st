@@ -1,0 +1,3 @@
+showCategories: anObject
+	
+		showCategories := anObject

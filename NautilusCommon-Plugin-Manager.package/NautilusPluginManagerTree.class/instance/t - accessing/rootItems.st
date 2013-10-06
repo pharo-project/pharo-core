@@ -1,0 +1,3 @@
+rootItems
+
+	^ self model getPluginsList

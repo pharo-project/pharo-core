@@ -1,0 +1,2 @@
+addNewVariable
+	self subclassResponsibility

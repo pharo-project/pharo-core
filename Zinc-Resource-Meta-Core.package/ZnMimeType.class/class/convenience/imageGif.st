@@ -1,0 +1,2 @@
+imageGif
+	^ self predefinedInstanceAt: #imageGif

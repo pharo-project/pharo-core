@@ -1,1 +1,0 @@
-withClass	SugsMockContext .

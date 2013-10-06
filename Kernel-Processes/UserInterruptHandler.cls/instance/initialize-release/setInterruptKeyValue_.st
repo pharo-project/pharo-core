@@ -1,1 +1,0 @@
-setInterruptKeyValue: anInt	interruptKey := anInt

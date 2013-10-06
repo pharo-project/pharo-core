@@ -1,0 +1,3 @@
+asTimeStamp
+
+	^ self asDateAndTime asTimeStamp

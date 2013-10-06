@@ -1,0 +1,2 @@
+list: aList
+	list := aList

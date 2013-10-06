@@ -1,0 +1,2 @@
+defaultPackagesSelection
+	 ^ self environment

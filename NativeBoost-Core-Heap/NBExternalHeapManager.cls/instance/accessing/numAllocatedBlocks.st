@@ -1,1 +1,0 @@
-numAllocatedBlocks	^ reservedBlocks size

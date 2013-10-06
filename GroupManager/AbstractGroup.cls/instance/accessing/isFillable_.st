@@ -1,1 +1,0 @@
-isFillable: aBoolean	isFillable := aBoolean

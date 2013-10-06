@@ -1,1 +1,0 @@
-isOpen	^isOpen

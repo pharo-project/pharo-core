@@ -1,1 +1,0 @@
-manifestClass: aClass	 manifestClass := aClass		

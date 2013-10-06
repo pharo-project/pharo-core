@@ -1,0 +1,2 @@
+visibleSlotNames
+	self subclassResponsibility

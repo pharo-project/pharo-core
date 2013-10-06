@@ -1,1 +1,0 @@
-leftOffset	^ layoutFrame leftOffset

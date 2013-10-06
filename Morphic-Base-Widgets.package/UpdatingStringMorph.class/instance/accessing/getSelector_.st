@@ -1,0 +1,3 @@
+getSelector: aSymbol
+
+	getSelector := aSymbol.

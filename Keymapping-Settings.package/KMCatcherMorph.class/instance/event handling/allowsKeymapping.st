@@ -1,0 +1,2 @@
+allowsKeymapping
+	^ false

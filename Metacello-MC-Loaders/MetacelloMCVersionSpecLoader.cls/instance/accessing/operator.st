@@ -1,1 +1,0 @@
-operator	^self loader operator

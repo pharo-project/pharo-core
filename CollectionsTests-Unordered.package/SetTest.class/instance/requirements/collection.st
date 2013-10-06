@@ -1,0 +1,3 @@
+collection
+
+	^ collectionWith3Elements

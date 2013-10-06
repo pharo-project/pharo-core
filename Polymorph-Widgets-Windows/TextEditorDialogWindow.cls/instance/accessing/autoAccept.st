@@ -1,1 +1,0 @@
-autoAccept	^ self class autoAccept

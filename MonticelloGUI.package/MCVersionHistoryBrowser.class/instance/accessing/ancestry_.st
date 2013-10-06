@@ -1,0 +1,2 @@
+ancestry: anAncestry
+	ancestry := anAncestry

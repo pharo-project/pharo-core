@@ -1,0 +1,2 @@
+newSurface:  extent
+	self subclassResponsibility

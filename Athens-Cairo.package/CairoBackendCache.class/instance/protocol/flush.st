@@ -1,0 +1,3 @@
+flush
+
+	cache := WeakIdentityKeyDictionary new

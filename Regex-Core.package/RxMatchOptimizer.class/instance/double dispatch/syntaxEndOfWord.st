@@ -1,0 +1,3 @@
+syntaxEndOfWord
+
+	conditions add: #atEndOfWord

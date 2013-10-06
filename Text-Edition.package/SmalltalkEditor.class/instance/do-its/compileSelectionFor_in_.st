@@ -1,0 +1,12 @@
+compileSelectionFor: anObject in: evalContext
+	| methodNode failed |
+	 failed :=  false.
+	methodNode :=  self class compiler
+			compileNoPattern: self selectionAsStream
+			in: anObject class
+			context: evalContext
+			notifying: self morph
+			ifFail: [ failed :=  true ].
+	failed ifTrue: [ ^ nil ].	
+	^methodNode generateWithSource.
+	

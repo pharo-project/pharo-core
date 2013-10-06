@@ -1,0 +1,3 @@
+maxSize: anInteger
+
+	maxSize := anInteger

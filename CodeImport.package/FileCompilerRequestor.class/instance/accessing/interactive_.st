@@ -1,0 +1,2 @@
+interactive: aBoolean
+	interactive := aBoolean

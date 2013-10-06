@@ -1,0 +1,3 @@
+initForFont: aFont
+
+	self subclassResponsibility 

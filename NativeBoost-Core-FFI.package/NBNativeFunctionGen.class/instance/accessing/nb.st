@@ -1,0 +1,2 @@
+nb
+	^ NativeBoost forCurrentPlatform 

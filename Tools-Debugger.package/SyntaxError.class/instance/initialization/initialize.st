@@ -1,0 +1,2 @@
+initialize
+	dependents := Set new.

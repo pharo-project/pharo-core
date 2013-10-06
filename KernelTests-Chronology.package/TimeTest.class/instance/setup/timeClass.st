@@ -1,0 +1,3 @@
+timeClass
+
+	^ Time

@@ -1,0 +1,2 @@
+isSet: anObject
+	isSet := anObject

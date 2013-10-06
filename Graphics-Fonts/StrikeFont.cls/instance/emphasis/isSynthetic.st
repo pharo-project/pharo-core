@@ -1,1 +1,0 @@
-isSynthetic	^type > 0

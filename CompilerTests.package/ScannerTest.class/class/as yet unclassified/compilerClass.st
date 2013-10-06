@@ -1,0 +1,2 @@
+compilerClass
+	^Compiler

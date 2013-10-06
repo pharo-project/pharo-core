@@ -1,0 +1,2 @@
+isRelative
+	^ path isRelative

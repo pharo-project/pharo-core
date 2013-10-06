@@ -1,0 +1,2 @@
+unload
+	self installScript: nil

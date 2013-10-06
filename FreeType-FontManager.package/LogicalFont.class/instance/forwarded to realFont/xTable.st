@@ -1,0 +1,2 @@
+xTable
+	^self realFont xTable

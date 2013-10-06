@@ -1,0 +1,3 @@
+seconds
+ 
+ 	^ Duration seconds: self

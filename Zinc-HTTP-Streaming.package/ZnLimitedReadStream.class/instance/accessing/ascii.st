@@ -1,0 +1,2 @@
+ascii
+	binary := false

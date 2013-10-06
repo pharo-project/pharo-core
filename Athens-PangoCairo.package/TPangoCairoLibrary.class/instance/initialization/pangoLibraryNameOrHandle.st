@@ -1,0 +1,2 @@
+pangoLibraryNameOrHandle
+	^ self class pangoLibraryNameOrHandle

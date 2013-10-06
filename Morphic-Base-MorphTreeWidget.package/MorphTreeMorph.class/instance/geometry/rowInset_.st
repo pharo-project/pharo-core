@@ -1,0 +1,2 @@
+rowInset: anInteger
+	rowInset := anInteger.

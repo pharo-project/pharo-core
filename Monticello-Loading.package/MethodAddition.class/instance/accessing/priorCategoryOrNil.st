@@ -1,0 +1,2 @@
+priorCategoryOrNil
+	^ priorCategoryOrNil

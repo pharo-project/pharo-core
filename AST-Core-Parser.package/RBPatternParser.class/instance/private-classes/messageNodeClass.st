@@ -1,0 +1,2 @@
+messageNodeClass
+	^RBPatternMessageNode

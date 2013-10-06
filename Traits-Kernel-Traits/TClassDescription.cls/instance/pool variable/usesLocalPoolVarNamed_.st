@@ -1,1 +1,0 @@
-usesLocalPoolVarNamed: aString	^false.

@@ -1,0 +1,5 @@
+SharedPool subclass: #ZipFileConstants
+	instanceVariableNames: ''
+	classVariableNames: 'CentralDirectoryFileHeaderSignature CompressionDeflated CompressionLevelDefault CompressionLevelNone CompressionStored DataDescriptorLength DefaultDirectoryPermissions DefaultFilePermissions DeflatingCompressionFast DeflatingCompressionMaximum DeflatingCompressionNormal DeflatingCompressionSuperFast DirectoryAttrib EndOfCentralDirectorySignature FaMsdos FaUnix FileAttrib IfaBinaryFile IfaTextFile LocalFileHeaderSignature'
+	poolDictionaries: ''
+	category: 'Compression-Archives'

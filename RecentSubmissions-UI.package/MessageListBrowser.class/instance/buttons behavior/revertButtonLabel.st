@@ -1,0 +1,3 @@
+revertButtonLabel
+
+	^'Revert'

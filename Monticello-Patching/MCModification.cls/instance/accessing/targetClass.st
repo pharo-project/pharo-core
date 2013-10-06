@@ -1,1 +1,0 @@
-targetClass	^ obsoletion actualClass

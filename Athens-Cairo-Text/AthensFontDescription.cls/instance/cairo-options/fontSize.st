@@ -1,1 +1,0 @@
-fontSize	^ size 

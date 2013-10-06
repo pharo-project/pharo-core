@@ -1,0 +1,2 @@
+setSubject: aClassDescription
+	subject := aClassDescription

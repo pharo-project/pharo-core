@@ -1,0 +1,2 @@
+decompileString
+	^self decompile formattedCode

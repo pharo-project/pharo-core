@@ -1,0 +1,2 @@
+setUp
+	fileName := nil.

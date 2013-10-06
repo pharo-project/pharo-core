@@ -1,0 +1,2 @@
+directlyUses: aNode
+	^true

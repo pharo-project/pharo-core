@@ -1,1 +1,0 @@
-instanceVariableNames: instVarString	^self explicitRequirement.

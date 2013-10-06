@@ -1,1 +1,0 @@
-defaultFont	^ self textStyle defaultFont

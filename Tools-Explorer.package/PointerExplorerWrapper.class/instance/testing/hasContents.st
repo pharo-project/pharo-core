@@ -1,0 +1,2 @@
+hasContents
+	^true

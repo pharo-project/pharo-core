@@ -1,1 +1,0 @@
-projectReference: anObject	projectReference := anObject

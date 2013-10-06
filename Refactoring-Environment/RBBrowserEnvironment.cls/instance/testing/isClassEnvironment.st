@@ -1,1 +1,0 @@
-isClassEnvironment	^ false

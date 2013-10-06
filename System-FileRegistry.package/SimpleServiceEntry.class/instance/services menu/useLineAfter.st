@@ -1,0 +1,3 @@
+useLineAfter
+
+	self usingLineAfter: true

@@ -1,1 +1,0 @@
-itemsForTest	^ rootClass allSubclasses

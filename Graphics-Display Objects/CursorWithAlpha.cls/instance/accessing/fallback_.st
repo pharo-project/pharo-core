@@ -1,1 +1,0 @@
-fallback: aCursor	fallback := aCursor

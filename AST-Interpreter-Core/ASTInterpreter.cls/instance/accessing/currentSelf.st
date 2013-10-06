@@ -1,1 +1,0 @@
-currentSelf	^ self context receiver

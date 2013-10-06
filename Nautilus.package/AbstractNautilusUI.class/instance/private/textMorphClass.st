@@ -1,0 +1,3 @@
+textMorphClass
+
+	^ PluggableTextMorphWithLimits

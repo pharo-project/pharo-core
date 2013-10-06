@@ -1,0 +1,2 @@
+instSize
+	^0

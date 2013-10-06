@@ -1,0 +1,2 @@
+getAuthor
+	^author

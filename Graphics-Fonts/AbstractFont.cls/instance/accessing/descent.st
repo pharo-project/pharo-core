@@ -1,1 +1,0 @@
-descent	self subclassResponsibility.

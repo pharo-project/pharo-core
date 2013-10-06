@@ -1,0 +1,2 @@
+resultDictionary 
+	^self finder resultDictionary 

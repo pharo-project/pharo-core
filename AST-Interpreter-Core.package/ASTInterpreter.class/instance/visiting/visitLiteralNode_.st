@@ -1,0 +1,3 @@
+visitLiteralNode: aLiteralNode
+	^ aLiteralNode value
+	

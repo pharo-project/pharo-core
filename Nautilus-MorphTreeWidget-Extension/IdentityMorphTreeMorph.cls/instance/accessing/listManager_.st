@@ -1,1 +1,0 @@
-listManager: aManager	listManager := aManager

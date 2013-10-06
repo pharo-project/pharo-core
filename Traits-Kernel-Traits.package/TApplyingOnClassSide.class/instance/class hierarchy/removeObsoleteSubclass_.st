@@ -1,0 +1,2 @@
+removeObsoleteSubclass: aClass
+	"Do nothing."

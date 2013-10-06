@@ -1,0 +1,7 @@
+initialize
+
+	super initialize.
+
+	tabs := OrderedCollection new asValueHolder.
+	self myDependents: WeakSet new.
+	tabs whenChangedDo: [ :new | self widget ifNotNil: [ :w | w tabs: new ] ].

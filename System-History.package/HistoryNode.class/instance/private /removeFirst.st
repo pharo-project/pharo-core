@@ -1,0 +1,2 @@
+removeFirst
+	self history removeFirst

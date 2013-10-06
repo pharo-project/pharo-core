@@ -1,0 +1,2 @@
+versionReferences
+	^ versionReferences

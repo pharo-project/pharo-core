@@ -1,0 +1,2 @@
+cellPositioning
+	^#center

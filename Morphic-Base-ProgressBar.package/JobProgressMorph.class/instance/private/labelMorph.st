@@ -1,0 +1,3 @@
+labelMorph
+
+	^ labelMorph.

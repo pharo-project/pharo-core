@@ -1,1 +1,0 @@
-supportedSyntaxes	^#(pier) 

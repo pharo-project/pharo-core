@@ -1,0 +1,2 @@
+announcer 
+	^SystemAnnouncer uniqueInstance private

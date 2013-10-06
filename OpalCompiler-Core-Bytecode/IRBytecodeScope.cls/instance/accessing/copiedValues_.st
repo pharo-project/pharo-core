@@ -1,1 +1,0 @@
-copiedValues: someCopiedValues	copiedValues := someCopiedValues

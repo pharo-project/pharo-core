@@ -1,1 +1,0 @@
-resolverStatus	^self primNameResolverStatus

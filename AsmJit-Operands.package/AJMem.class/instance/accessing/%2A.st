@@ -1,0 +1,2 @@
+* aScale
+	self scale: aScale

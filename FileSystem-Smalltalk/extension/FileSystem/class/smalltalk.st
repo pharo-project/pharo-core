@@ -1,1 +1,0 @@
-smalltalk	^ SmalltalkStore currentFileSystem

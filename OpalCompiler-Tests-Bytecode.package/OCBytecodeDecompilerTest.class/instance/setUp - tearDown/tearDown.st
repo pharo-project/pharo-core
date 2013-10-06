@@ -1,0 +1,2 @@
+tearDown
+	SmalltalkImage compilerClass: currentCompiler.

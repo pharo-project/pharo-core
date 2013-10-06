@@ -1,0 +1,2 @@
+isWritable
+	^ filesystem isWritable: path

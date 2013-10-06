@@ -1,1 +1,0 @@
-isRemote	^remoteNode notNil

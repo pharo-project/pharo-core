@@ -1,0 +1,3 @@
+clearUserEditFlag
+	
+	self changed: #clearUserEdits

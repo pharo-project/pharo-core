@@ -1,0 +1,2 @@
+beOblique
+	self slant: #oblique

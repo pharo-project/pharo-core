@@ -1,1 +1,0 @@
-isImmediate	^self isImmediateNode

@@ -1,0 +1,5 @@
+initialize
+	mouseOverMorphs := #().
+	
+	self initializeTrackedMorphs
+	

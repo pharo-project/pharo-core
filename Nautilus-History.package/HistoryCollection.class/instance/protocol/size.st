@@ -1,0 +1,3 @@
+size
+
+	^ storage size

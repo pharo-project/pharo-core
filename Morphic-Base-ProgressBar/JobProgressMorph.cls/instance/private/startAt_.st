@@ -1,1 +1,0 @@
-startAt: aNumber 	startValue := aNumber.

@@ -1,1 +1,0 @@
-versionNumber: aVersionNumber	versionNumber := aVersionNumber

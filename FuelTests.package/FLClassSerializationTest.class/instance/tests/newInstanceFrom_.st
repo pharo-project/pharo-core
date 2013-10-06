@@ -1,0 +1,3 @@
+newInstanceFrom: aClass
+
+	^ aClass new

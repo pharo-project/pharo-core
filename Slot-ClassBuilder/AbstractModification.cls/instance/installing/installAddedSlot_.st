@@ -1,1 +1,0 @@
-installAddedSlot: addedSlot	self subclassResponsibility

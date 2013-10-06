@@ -1,1 +1,0 @@
-isEasySelecting	^ self class easySelectingWorld

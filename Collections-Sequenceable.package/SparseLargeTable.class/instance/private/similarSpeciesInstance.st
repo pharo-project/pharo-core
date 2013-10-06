@@ -1,0 +1,3 @@
+similarSpeciesInstance
+
+	^self similarInstance

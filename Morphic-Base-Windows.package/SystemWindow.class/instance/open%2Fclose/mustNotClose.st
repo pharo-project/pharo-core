@@ -1,0 +1,2 @@
+mustNotClose
+	^ mustNotClose == true

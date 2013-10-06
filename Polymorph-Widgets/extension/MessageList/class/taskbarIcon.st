@@ -1,1 +1,0 @@
-taskbarIcon	^ self icon

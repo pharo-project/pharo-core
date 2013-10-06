@@ -1,1 +1,0 @@
-instanceSize 	^ NBExternalType pointerSize 

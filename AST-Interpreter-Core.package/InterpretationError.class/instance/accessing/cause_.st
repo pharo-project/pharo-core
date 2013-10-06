@@ -1,0 +1,3 @@
+cause: anObject
+	
+	cause := anObject

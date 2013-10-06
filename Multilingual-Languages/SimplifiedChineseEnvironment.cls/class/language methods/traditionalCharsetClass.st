@@ -1,1 +1,0 @@
-traditionalCharsetClass	^ GB2312

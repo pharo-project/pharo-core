@@ -1,1 +1,0 @@
-mouseOverForKeyboardFocus	^ self class mouseOverForKeyboardFocus

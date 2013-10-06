@@ -1,1 +1,0 @@
-randomBitsFromSoundInput: bitCount	self subclassResponsibility

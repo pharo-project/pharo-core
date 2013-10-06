@@ -1,1 +1,0 @@
-extractTypeFromDescription	^MetacelloPlatform current extractTypeFromDescription: self description

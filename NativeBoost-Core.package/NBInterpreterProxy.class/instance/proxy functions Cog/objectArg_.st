@@ -1,0 +1,2 @@
+objectArg: index
+	self shouldBeImplemented 

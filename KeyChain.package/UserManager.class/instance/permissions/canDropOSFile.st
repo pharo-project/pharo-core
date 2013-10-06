@@ -1,0 +1,3 @@
+canDropOSFile
+
+	^ self currentUser canDropOSFile

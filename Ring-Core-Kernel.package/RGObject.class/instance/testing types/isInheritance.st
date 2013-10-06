@@ -1,0 +1,3 @@
+isInheritance
+
+	^false

@@ -1,1 +1,0 @@
-environmentButtonLabel	^ 'Choose Packages'

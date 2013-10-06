@@ -1,0 +1,2 @@
+emphasisHere
+	^ self editingState emphasisHere

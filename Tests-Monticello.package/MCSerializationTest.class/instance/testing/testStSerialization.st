@@ -1,0 +1,2 @@
+testStSerialization
+	self assertSnapshotsMatchWith: MCStWriter.

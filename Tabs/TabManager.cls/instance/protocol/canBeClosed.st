@@ -1,1 +1,0 @@
-canBeClosed	^ toolbar canBeClosed

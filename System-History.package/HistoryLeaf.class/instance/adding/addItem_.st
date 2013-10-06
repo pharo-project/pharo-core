@@ -1,0 +1,2 @@
+addItem: anHistoryItem 
+	^ false

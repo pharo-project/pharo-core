@@ -1,0 +1,2 @@
+veryLightSelectionColor
+	^ self lightSelectionColor lighter

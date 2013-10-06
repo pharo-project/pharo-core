@@ -1,0 +1,2 @@
+transformationForSerializing: aBlockWithOneArgument 
+	transformationForSerializing := aBlockWithOneArgument

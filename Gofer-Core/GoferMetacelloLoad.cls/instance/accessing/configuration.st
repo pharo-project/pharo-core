@@ -1,1 +1,0 @@
-configuration	^ self configurationReference project

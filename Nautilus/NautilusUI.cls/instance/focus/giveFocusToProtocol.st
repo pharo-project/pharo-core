@@ -1,1 +1,0 @@
-giveFocusToProtocol	self giveFocusTo: categoryWidget

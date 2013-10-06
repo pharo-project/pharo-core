@@ -1,1 +1,0 @@
-nodeList: aCollection 	nodeList := aCollection.

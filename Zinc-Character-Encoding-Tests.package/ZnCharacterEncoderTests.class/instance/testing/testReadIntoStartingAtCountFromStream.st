@@ -1,0 +1,16 @@
+testReadIntoStartingAtCountFromStream
+	| encoder |
+	encoder := ZnUTF8Encoder new.
+	#( 'ccc' 'ÁÁÁ' 'c' 'Á' 'Ác' 'cÁ' 'ÁÁ' ) do: [ :each |
+		#( ( '' '' ) ( 'ABC' '' ) ( '' 'ABC' ) ( 'ABC' 'ABC' ) 
+			( 'AÈC' '' ) ( '' 'AËC' ) ( 'AÈC' 'AËC' ) 
+			( 'AXC' 'AËC' ) ( 'AÈC' 'AXC' ) 
+			( 'PRE' 'Á' ) ) do: [ :extra |
+				| prefix postfix string bytes buffer |
+				prefix := extra first.
+				postfix := extra last.
+				string := prefix, each.
+				bytes := encoder encodeString: string, postfix.
+				buffer := String new: string size.
+				encoder readInto: buffer startingAt: 1 count: string size fromStream: bytes readStream.
+				self assert: buffer equals: string ] ]

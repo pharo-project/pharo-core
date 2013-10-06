@@ -1,0 +1,2 @@
+indentsForKeywords: anInteger
+	IndentsForKeywords := anInteger

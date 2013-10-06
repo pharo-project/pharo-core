@@ -1,0 +1,2 @@
+specialKeys
+	 ^self class specialKeys

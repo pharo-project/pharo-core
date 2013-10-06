@@ -1,1 +1,0 @@
-loadData	^self loaderPolicy loadData

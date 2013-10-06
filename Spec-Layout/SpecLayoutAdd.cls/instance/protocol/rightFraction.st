@@ -1,1 +1,0 @@
-rightFraction	^ layoutFrame rightFraction

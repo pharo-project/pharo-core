@@ -1,1 +1,0 @@
-canRunStartupScript: anObject	canRunStartupScript := anObject

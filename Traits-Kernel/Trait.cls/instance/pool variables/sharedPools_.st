@@ -1,1 +1,0 @@
-sharedPools: aCollection	"Compatibilty purposes"

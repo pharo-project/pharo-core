@@ -1,1 +1,0 @@
-insetRectangle: aRectangle	"Answer a rectangle whose size has been reduced by the receiver from all sides"	| newOrigin newCorner |	newOrigin := aRectangle origin + self.	newCorner := aRectangle corner - self.	^ Rectangle origin:  newOrigin extent: (newCorner - newOrigin)

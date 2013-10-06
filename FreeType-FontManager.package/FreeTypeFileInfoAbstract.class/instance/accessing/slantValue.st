@@ -1,0 +1,2 @@
+slantValue
+	^slantValue

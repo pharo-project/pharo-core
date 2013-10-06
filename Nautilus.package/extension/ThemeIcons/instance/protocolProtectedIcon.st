@@ -1,0 +1,2 @@
+protocolProtectedIcon
+	^ self protocolNoneIcon 

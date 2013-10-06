@@ -1,0 +1,2 @@
+users: aCollection
+	^self explicitRequirement.

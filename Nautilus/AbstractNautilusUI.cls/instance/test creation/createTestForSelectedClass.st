@@ -1,1 +1,0 @@
-createTestForSelectedClass	self createTestForClass: self selectedClass

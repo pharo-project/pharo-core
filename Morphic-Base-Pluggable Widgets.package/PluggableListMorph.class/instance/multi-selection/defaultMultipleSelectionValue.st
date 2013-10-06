@@ -1,0 +1,3 @@
+defaultMultipleSelectionValue
+
+	^ false

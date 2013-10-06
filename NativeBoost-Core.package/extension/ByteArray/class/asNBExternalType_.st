@@ -1,0 +1,3 @@
+asNBExternalType: gen
+
+	^ NBByteArrayPtr new

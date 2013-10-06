@@ -1,0 +1,2 @@
+extraParam: anObject
+	extra := anObject

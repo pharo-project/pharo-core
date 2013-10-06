@@ -1,0 +1,3 @@
+switchClassesAndPackages
+
+	^ self class switchClassesAndPackages

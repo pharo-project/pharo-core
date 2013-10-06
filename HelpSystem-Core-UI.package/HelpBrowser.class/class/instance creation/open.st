@@ -1,0 +1,2 @@
+open
+	^self openOn: SystemHelp

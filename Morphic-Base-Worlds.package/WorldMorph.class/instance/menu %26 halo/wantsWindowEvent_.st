@@ -1,0 +1,2 @@
+wantsWindowEvent: anEvent
+	^ true

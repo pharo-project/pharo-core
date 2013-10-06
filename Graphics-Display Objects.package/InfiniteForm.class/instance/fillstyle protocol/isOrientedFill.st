@@ -1,0 +1,2 @@
+isOrientedFill
+	^true

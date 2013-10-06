@@ -1,0 +1,2 @@
+haloBox: aBox
+	haloBox := aBox

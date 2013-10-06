@@ -1,0 +1,2 @@
+packageClass
+	^ RPackage

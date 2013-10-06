@@ -1,1 +1,0 @@
-instance: anObject	instance := anObject

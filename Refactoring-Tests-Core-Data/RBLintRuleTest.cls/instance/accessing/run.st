@@ -1,1 +1,0 @@
-run	^Object printOn: self

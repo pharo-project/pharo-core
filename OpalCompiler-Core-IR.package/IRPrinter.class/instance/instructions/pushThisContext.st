@@ -1,0 +1,3 @@
+pushThisContext
+
+	stream nextPutAll: 'pushThisContext'

@@ -1,1 +1,0 @@
-daysLeftInYear	^ start daysLeftInYear

@@ -1,1 +1,0 @@
-isTransparent	^color isTransparent

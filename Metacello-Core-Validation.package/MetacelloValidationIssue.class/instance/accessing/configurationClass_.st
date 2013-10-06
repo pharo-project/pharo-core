@@ -1,0 +1,2 @@
+configurationClass: aClass
+	configurationClass := aClass

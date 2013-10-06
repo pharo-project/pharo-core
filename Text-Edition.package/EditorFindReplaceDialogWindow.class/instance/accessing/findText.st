@@ -1,0 +1,2 @@
+findText
+	^ self state findText

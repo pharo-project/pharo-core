@@ -1,0 +1,2 @@
+sliderThickness
+	^ 7

@@ -1,0 +1,2 @@
+defaultModel
+	^ MCVersionLoader new

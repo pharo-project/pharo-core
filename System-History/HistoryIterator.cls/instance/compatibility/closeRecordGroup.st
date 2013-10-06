@@ -1,1 +1,0 @@
-closeRecordGroup	^ self closeGroup

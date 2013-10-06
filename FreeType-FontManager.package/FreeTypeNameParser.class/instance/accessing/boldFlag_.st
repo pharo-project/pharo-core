@@ -1,0 +1,2 @@
+boldFlag: aBoolean
+	boldFlag := aBoolean

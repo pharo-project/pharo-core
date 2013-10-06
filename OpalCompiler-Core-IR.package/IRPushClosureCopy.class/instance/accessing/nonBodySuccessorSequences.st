@@ -1,0 +1,3 @@
+nonBodySuccessorSequences
+
+	^ {destination}

@@ -1,0 +1,3 @@
+canEditCode
+
+	^ true

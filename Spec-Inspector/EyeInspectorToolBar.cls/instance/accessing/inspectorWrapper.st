@@ -1,1 +1,0 @@
-inspectorWrapper	^ self owner owner

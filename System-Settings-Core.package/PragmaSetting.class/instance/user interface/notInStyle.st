@@ -1,0 +1,2 @@
+notInStyle
+	allowedInStyle := false

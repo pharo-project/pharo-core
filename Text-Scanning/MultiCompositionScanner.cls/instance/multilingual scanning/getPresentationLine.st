@@ -1,1 +1,0 @@
-getPresentationLine	^ presentationLine.

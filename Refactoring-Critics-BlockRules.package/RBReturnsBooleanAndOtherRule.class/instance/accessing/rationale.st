@@ -1,0 +1,2 @@
+rationale
+	^ 'Checks for methods that return a boolean value (true or false) and return some other value such as (nil or self). If the method is supposed to return a boolean, then this signifies that there is one path through the method that might return a non-boolean. If the method doesn''t need to return a boolean, you should probably rewrite it to return some non-boolean value since other programmers reading your method might assume that it returns a boolean.'

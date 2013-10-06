@@ -1,0 +1,2 @@
+byteSize
+	^self size

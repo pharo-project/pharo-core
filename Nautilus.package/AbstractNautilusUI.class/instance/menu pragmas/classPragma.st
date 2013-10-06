@@ -1,0 +1,2 @@
+classPragma
+	^'nautilusGlobalClassMenu'

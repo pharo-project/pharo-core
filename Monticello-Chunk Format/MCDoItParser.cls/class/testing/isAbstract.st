@@ -1,1 +1,0 @@
-isAbstract	^ self pattern isNil

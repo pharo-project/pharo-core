@@ -1,1 +1,0 @@
-wantsDropSelector: aSymbol	wantsDropSelector := aSymbol

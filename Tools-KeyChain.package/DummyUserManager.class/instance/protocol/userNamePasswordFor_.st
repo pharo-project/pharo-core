@@ -1,0 +1,3 @@
+userNamePasswordFor: aGroup
+
+	^ nil

@@ -1,1 +1,0 @@
-accessorCode	^ self instVarName

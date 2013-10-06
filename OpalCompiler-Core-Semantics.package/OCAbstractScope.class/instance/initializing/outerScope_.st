@@ -1,0 +1,3 @@
+outerScope: aSemScope
+
+	outerScope := aSemScope

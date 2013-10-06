@@ -1,0 +1,2 @@
+extendWord
+	^ WordLayout new

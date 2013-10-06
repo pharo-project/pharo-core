@@ -1,0 +1,3 @@
+windowIcon
+
+	^ windowIcon contents

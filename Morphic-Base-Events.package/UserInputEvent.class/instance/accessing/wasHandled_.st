@@ -1,0 +1,2 @@
+wasHandled: aBool
+	wasHandled := aBool.

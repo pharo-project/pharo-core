@@ -1,0 +1,2 @@
+isSolidFill
+	^true

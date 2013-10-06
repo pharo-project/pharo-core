@@ -1,1 +1,0 @@
-fillRule: rule 	fillRule := rule.

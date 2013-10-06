@@ -1,1 +1,0 @@
-windowTitle	^ 'Settings browser'

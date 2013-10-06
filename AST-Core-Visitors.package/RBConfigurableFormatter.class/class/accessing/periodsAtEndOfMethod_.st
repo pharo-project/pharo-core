@@ -1,0 +1,2 @@
+periodsAtEndOfMethod: aBoolean
+	PeriodsAtEndOfMethod := aBoolean

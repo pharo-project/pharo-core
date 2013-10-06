@@ -1,0 +1,2 @@
+scrollDeltaHeight
+	^ super scrollDeltaHeight 

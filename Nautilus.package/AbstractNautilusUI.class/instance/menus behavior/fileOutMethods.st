@@ -1,0 +1,2 @@
+fileOutMethods
+	^ self subclassResponsibility

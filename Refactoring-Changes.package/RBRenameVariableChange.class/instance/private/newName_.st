@@ -1,0 +1,2 @@
+newName: aString 
+	newName := aString

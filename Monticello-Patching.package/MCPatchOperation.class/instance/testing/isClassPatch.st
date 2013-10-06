@@ -1,0 +1,2 @@
+isClassPatch
+	^false

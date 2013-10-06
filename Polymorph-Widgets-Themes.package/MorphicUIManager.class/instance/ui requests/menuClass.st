@@ -1,0 +1,2 @@
+menuClass
+	^MenuMorph

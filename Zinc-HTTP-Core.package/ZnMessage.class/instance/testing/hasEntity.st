@@ -1,0 +1,2 @@
+hasEntity
+	^ self entity notNil

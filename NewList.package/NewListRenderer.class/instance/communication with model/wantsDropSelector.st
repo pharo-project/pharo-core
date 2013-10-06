@@ -1,0 +1,3 @@
+wantsDropSelector
+
+	^ self listSource wantsDropSelector

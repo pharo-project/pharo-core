@@ -1,0 +1,2 @@
+isUnusedTemp
+	^ hasRefs not

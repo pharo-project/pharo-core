@@ -1,0 +1,2 @@
+isBlockStart
+	^type beginsWith: 'blockStart'

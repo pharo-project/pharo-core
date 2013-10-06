@@ -1,0 +1,2 @@
+isSpecialConstant
+	^ false

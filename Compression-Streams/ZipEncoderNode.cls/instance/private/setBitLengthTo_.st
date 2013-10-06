@@ -1,1 +1,0 @@
-setBitLengthTo: bl	bitLength := bl

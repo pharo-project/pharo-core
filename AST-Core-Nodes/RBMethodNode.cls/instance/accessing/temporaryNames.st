@@ -1,1 +1,0 @@
-temporaryNames	^ self body temporaryNames

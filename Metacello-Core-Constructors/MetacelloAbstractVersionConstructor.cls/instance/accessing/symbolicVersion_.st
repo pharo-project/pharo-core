@@ -1,1 +1,0 @@
-symbolicVersion: aSymbol	symbolicVersion := aSymbol

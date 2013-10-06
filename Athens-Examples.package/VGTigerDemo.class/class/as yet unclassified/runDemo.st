@@ -1,0 +1,2 @@
+runDemo
+	^ self new runDemo

@@ -1,0 +1,2 @@
+theme
+	^ UIManager default theme

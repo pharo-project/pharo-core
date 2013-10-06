@@ -1,0 +1,2 @@
+useFilePlugin
+	Primitives := FilePluginPrims new

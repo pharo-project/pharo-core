@@ -1,0 +1,2 @@
+instanceVariableWriters
+	^instanceVariableWriters

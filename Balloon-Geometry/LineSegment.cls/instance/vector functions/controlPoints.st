@@ -1,1 +1,0 @@
-controlPoints	^{start. end}

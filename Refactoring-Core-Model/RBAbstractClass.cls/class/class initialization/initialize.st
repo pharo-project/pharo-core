@@ -1,1 +1,0 @@
-initialize	LookupSuperclass := Object new

@@ -1,0 +1,2 @@
+defaultSortingBlock 
+	^ [:a :b | true]

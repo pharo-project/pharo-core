@@ -1,1 +1,0 @@
-initialize	collection := OrderedCollection new

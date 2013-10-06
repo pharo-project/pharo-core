@@ -1,0 +1,2 @@
+valueNoContextSwitch
+	^ self value

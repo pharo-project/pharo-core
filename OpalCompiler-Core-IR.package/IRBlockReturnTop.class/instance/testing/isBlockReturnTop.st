@@ -1,0 +1,3 @@
+isBlockReturnTop
+
+	^true.

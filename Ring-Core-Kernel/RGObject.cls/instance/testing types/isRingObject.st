@@ -1,1 +1,0 @@
-isRingObject	^true

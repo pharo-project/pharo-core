@@ -1,1 +1,0 @@
-free	^self destroyHandle

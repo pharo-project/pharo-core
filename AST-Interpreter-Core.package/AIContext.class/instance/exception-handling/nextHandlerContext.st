@@ -1,0 +1,3 @@
+nextHandlerContext
+
+	^ self outerContext findNextHandlerContextStarting

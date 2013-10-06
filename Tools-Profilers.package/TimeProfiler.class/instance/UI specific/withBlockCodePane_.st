@@ -1,0 +1,2 @@
+withBlockCodePane: aBoolean
+	withBlockCodePane := aBoolean

@@ -1,0 +1,3 @@
+bytes
+
+	^ self generatedCode bytes.

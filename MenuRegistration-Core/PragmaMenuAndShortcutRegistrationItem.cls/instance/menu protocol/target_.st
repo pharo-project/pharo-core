@@ -1,1 +1,0 @@
-target: aSymbol 		target := aSymbol 

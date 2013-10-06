@@ -1,0 +1,2 @@
+isRegTypeGPD
+	^ self isRegType: RegGPD

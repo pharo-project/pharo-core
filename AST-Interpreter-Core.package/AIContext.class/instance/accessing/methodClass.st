@@ -1,0 +1,2 @@
+methodClass
+	^ closure methodClass

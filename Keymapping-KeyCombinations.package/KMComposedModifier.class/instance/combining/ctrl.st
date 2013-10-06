@@ -1,0 +1,2 @@
+ctrl
+	self control

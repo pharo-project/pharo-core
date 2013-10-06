@@ -1,0 +1,2 @@
+instanceVariablesFor: aClass 
+	^aClass instVarNames

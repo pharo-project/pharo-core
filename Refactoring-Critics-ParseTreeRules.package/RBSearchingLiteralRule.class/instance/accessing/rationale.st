@@ -1,0 +1,2 @@
+rationale
+	^ 'Checks for repeated literal equalitity tests that should rather be implemented as a search in a literal collection.'

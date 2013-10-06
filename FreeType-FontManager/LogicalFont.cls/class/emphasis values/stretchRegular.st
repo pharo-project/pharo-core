@@ -1,1 +1,0 @@
-stretchRegular	^5

@@ -1,1 +1,0 @@
-isOpen	^ closed not

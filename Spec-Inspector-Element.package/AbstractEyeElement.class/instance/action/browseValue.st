@@ -1,0 +1,2 @@
+browseValue
+	^ self value browse

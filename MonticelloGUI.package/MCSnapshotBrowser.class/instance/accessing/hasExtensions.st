@@ -1,0 +1,2 @@
+hasExtensions
+	^self extensionClassNames notEmpty

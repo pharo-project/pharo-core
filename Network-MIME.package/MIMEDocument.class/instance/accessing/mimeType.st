@@ -1,0 +1,2 @@
+mimeType
+	^type

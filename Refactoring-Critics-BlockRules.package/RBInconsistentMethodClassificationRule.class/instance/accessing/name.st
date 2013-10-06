@@ -1,0 +1,2 @@
+name
+	^ 'Inconsistent method classification'

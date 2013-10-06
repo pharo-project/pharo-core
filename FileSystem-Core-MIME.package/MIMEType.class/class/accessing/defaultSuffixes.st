@@ -1,0 +1,4 @@
+defaultSuffixes
+	"MIMEType defaultSuffixes"
+
+	^DefaultSuffixes

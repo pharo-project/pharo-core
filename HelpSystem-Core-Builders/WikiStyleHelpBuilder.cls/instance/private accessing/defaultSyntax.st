@@ -1,1 +1,0 @@
-defaultSyntax	^#pier

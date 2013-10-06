@@ -1,1 +1,0 @@
-byVersionLabel	^'By Version'

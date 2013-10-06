@@ -1,0 +1,3 @@
+flushElements
+
+	elements:= IdentityDictionary new

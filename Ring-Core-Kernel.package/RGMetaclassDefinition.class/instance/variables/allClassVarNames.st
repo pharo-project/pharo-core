@@ -1,0 +1,3 @@
+allClassVarNames
+
+	^self theNonMetaClass allClassVarNames

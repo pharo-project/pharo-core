@@ -1,0 +1,2 @@
+tryNamedPrimitiveTemplateMethod
+	^ TryNamedPrimitiveTemplateMethod

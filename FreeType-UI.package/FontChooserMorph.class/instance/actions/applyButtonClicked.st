@@ -1,0 +1,3 @@
+applyButtonClicked
+	self apply.
+	

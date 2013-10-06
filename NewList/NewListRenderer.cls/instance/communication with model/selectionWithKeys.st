@@ -1,1 +1,0 @@
-selectionWithKeys	^ self listSource selectionWithKeys

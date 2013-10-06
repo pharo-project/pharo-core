@@ -1,0 +1,2 @@
+hasSubject
+	^ self subject notNil

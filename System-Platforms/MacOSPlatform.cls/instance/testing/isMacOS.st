@@ -1,1 +1,0 @@
-isMacOS	^ true

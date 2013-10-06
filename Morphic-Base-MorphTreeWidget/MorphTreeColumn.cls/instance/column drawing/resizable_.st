@@ -1,1 +1,0 @@
-resizable: aBoolean	resizable := aBoolean

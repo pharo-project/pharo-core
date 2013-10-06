@@ -1,0 +1,2 @@
+removals: aCollection
+	removals := aCollection

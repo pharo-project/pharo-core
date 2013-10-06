@@ -1,0 +1,3 @@
+versionString
+
+	^self projectReference versionString

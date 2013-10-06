@@ -1,1 +1,0 @@
-stableVersion	^self version: #stable

@@ -1,0 +1,2 @@
+defaultPortNumber
+	^self class defaultPortNumber

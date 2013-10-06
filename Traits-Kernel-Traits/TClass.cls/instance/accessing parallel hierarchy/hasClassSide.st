@@ -1,1 +1,0 @@
-hasClassSide	^self classSide notNil.

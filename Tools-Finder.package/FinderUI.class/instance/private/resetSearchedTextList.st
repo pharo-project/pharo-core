@@ -1,0 +1,2 @@
+resetSearchedTextList
+	self searchedTextList removeAll.

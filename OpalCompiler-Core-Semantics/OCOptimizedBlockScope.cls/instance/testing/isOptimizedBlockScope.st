@@ -1,1 +1,0 @@
-isOptimizedBlockScope	^ true

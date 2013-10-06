@@ -1,0 +1,2 @@
+inspectItem
+	self inspect

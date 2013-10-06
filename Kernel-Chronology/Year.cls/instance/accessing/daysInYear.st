@@ -1,1 +1,0 @@
-daysInYear	^ self duration days.

@@ -1,1 +1,0 @@
-asDirectory	^self

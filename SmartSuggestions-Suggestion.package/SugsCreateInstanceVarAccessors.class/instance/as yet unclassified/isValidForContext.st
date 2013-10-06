@@ -1,0 +1,2 @@
+isValidForContext
+	^ context hasUnImplementedAccessors

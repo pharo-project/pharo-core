@@ -1,0 +1,3 @@
+method: aMessage
+
+	method := aMessage

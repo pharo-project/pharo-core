@@ -1,0 +1,2 @@
+needsAlignment
+	^ stackAlignment > 1

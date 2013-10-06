@@ -1,0 +1,2 @@
+isResumable
+	^ false

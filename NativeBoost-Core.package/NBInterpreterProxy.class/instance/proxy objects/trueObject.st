@@ -1,0 +1,3 @@
+trueObject
+	
+	^ self simpleCall

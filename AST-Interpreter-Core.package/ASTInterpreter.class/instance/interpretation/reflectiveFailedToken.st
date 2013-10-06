@@ -1,0 +1,2 @@
+reflectiveFailedToken
+	^#primitiveFailedASTInterpreterToken

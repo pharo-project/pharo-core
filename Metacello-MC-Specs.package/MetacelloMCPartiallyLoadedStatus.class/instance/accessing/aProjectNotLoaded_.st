@@ -1,0 +1,2 @@
+aProjectNotLoaded: aBoolean
+	aProjectNotLoaded := aBoolean

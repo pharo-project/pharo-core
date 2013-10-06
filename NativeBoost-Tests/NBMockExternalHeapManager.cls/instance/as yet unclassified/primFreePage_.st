@@ -1,1 +1,0 @@
-primFreePage: aMemoryPage	^ 0

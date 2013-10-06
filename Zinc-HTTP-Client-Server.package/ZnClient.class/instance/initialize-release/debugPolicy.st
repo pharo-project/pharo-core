@@ -1,0 +1,3 @@
+debugPolicy
+	self 
+		beOneShot

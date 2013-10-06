@@ -1,1 +1,0 @@
-raised	^RaisedBorder new

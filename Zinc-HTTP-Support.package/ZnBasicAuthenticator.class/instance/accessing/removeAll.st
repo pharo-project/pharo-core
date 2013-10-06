@@ -1,0 +1,2 @@
+removeAll
+	credentials removeAll

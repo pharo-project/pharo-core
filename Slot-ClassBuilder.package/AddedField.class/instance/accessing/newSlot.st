@@ -1,0 +1,2 @@
+newSlot
+	^ newSlot

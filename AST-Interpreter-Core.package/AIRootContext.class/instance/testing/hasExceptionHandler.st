@@ -1,0 +1,2 @@
+hasExceptionHandler
+	^ true

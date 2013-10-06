@@ -1,0 +1,2 @@
+widthForRounding
+	^0

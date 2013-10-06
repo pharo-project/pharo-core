@@ -1,1 +1,0 @@
-isBalloonCanvas	^canvas isBalloonCanvas

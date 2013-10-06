@@ -1,0 +1,2 @@
+rationale
+	^ 'Checks for literal arrays that contain the #, symbol. The user may have thought that it was a separator'

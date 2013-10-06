@@ -1,0 +1,3 @@
+message: aStringOrText
+	
+	message := aStringOrText

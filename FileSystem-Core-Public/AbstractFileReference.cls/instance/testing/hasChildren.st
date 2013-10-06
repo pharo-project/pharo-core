@@ -1,1 +1,0 @@
-hasChildren	^self resolve hasChildren

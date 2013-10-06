@@ -1,0 +1,2 @@
+instanceVariableNames
+	^ instanceVariableNames

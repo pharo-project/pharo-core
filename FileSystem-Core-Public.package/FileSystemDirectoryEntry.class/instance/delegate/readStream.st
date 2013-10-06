@@ -1,0 +1,2 @@
+readStream
+	^ reference readStream

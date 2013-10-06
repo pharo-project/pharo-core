@@ -1,0 +1,2 @@
+rowCount
+	^nrows

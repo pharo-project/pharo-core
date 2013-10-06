@@ -1,0 +1,2 @@
+returnNodeClass
+	^ RBReturnNode

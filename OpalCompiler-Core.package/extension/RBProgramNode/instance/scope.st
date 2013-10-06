@@ -1,0 +1,2 @@
+scope
+	^self methodOrBlockNode scope

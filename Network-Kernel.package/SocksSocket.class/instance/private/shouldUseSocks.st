@@ -1,0 +1,2 @@
+shouldUseSocks
+	^vers notNil

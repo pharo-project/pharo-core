@@ -1,0 +1,10 @@
+testPrimGreaterThan
+	| selector methodNode scanner did |
+	selector := (methodNode := self compile2methodNode: 'bytecodePrimGreaterThan 3 > 4') selector.
+	scanner := InstructionStream on: methodNode method.
+	2
+		timesRepeat: [scanner nextInstruction].
+	self
+		assert: ((did := scanner peekInstruction) selector == #send:super:numArgs:
+				and: [did arguments = {#>. false. 1}])
+		description: 'Failed ' , selector

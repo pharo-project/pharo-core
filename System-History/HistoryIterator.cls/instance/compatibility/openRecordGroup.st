@@ -1,1 +1,0 @@
-openRecordGroup	^ self openGroup

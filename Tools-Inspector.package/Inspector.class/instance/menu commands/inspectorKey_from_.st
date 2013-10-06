@@ -1,0 +1,11 @@
+inspectorKey: aChar from: view
+	"Respond to a Command key issued while the cursor is over my field list"
+
+	aChar == $i ifTrue: [^ self selection inspect].
+	aChar == $I ifTrue: [^ self selection explore].
+	aChar == $b ifTrue:	[^ self browseMethodFull].
+	aChar == $h ifTrue:	[^ self classHierarchy].
+	aChar == $c ifTrue: [^ self copyName].
+	aChar == $N ifTrue: [^ self browseClassRefs].
+
+	^ false

@@ -1,1 +1,0 @@
-sharedPools: poolString 	sharedPoolsString := poolString

@@ -1,0 +1,3 @@
+lastKeystrokes: anObject
+
+	lastKeystrokes := anObject

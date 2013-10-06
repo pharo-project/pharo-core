@@ -1,1 +1,0 @@
-reset	myCanvas reset.

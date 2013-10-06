@@ -1,0 +1,3 @@
+toggleButtonState
+
+	^ self showPackages not

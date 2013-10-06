@@ -1,1 +1,0 @@
-fullscreenMargin	^ self class fullscreenMargin

@@ -1,1 +1,0 @@
-basename	^ clazz name asString

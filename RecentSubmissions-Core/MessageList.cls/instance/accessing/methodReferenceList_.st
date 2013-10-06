@@ -1,1 +1,0 @@
-methodReferenceList: anObject	methodReferenceList := anObject

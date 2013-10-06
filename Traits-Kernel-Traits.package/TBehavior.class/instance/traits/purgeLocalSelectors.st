@@ -1,0 +1,2 @@
+purgeLocalSelectors
+	self basicLocalSelectors: nil

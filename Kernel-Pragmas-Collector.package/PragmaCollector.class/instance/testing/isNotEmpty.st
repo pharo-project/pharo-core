@@ -1,0 +1,2 @@
+isNotEmpty
+	^ self collected isNotEmpty

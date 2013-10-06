@@ -1,0 +1,3 @@
+defaultHeight: aNumber
+
+	DefaultHeight := aNumber

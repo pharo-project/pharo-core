@@ -1,0 +1,2 @@
+transform: aPoint 
+	self subclassResponsibility

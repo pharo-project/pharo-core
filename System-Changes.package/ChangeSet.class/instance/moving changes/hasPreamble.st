@@ -1,0 +1,2 @@
+hasPreamble
+	^ preamble notNil

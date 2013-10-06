@@ -1,0 +1,3 @@
+visited: anIdentitySet
+
+	visited := anIdentitySet

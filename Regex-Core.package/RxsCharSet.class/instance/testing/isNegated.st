@@ -1,0 +1,3 @@
+isNegated
+
+	^negated

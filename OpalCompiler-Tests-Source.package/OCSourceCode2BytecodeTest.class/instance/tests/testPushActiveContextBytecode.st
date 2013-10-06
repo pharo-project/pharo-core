@@ -1,0 +1,6 @@
+testPushActiveContextBytecode
+	| selector methodNode scanner |
+	selector := (methodNode := self compile2methodNode: 'pushActiveContextBytecode thisContext yourself') selector.
+	scanner := InstructionStream on: methodNode method.
+	self assert: scanner peekInstruction selector == #pushActiveContext
+		description: 'Failed ' , selector

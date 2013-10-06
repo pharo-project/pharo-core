@@ -1,0 +1,3 @@
+dispatchStruct
+	self checkSession.
+	^ dispatchStruct

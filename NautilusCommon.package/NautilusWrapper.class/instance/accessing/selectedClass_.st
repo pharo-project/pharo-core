@@ -1,0 +1,3 @@
+selectedClass: anObject
+	
+		selectedClass := anObject

@@ -1,0 +1,5 @@
+initializePresenter
+
+	self whenSelectedItemChangesOnListModel.
+	
+

@@ -1,0 +1,2 @@
+getChildrenSelector: aSymbol
+	getChildrenSelector := aSymbol.

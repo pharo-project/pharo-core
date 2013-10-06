@@ -1,0 +1,2 @@
+isAbstract
+	^ self = MCTestCase

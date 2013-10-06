@@ -1,1 +1,0 @@
-hasFocus		^ categoriesList hasKeyboardFocus

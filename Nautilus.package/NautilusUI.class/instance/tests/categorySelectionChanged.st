@@ -1,0 +1,5 @@
+categorySelectionChanged
+
+	methodWidget 
+		resetMethodCache;
+		updateList.

@@ -1,0 +1,3 @@
+defaultColor
+
+	^ #(Color class white)

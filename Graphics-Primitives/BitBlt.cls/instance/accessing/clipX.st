@@ -1,1 +1,0 @@
-clipX	^clipX

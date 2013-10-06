@@ -1,0 +1,3 @@
+executeOn: interpreter
+
+	^ interpreter pushDup

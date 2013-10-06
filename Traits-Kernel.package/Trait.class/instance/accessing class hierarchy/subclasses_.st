@@ -1,0 +1,2 @@
+subclasses: aCollection
+	"Compatibility purposes"

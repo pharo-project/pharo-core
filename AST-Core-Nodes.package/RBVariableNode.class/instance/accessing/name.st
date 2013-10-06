@@ -1,0 +1,2 @@
+name
+	^token value asSymbol

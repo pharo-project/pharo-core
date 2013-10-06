@@ -1,0 +1,3 @@
+canEvaluateCode
+
+	^ true

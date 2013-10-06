@@ -1,0 +1,5 @@
+nonEmpty
+
+	^ nonEmpty
+	
+	

@@ -1,1 +1,0 @@
-asString	^ String with: self

@@ -1,0 +1,2 @@
+disableTableLayout: aBool
+	disableLayout := aBool

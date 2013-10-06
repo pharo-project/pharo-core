@@ -1,1 +1,0 @@
-name	^ 'Excessive inheritance depth'

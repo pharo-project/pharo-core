@@ -1,0 +1,2 @@
+okButton: aMorph
+	okButton := aMorph

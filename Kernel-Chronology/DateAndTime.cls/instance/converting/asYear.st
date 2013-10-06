@@ -1,1 +1,0 @@
-asYear	^ Year starting: self

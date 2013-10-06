@@ -1,0 +1,3 @@
+methods
+	
+	^ self methodDict values

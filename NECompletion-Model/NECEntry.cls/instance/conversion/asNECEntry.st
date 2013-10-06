@@ -1,1 +1,0 @@
-asNECEntry	^ self

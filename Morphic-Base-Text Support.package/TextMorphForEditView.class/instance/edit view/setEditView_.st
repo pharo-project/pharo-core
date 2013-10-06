@@ -1,0 +1,2 @@
+setEditView: editPane
+	editView := editPane

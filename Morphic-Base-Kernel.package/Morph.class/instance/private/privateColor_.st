@@ -1,0 +1,3 @@
+privateColor: aColor
+
+	color := aColor.

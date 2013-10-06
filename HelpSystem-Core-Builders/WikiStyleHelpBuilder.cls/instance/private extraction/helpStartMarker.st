@@ -1,1 +1,0 @@
-helpStartMarker	^  '<', self helpTag, '>'

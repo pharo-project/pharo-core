@@ -1,0 +1,2 @@
+testVmDirectory
+	self assertOriginResolves: #vmDirectory

@@ -1,0 +1,3 @@
+noteChangesFrom: oldMethodDict
+	^self explicitRequirement.
+	

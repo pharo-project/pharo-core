@@ -1,1 +1,0 @@
-currentText	^ self textArea text

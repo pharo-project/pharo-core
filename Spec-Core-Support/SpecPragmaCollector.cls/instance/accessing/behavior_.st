@@ -1,1 +1,0 @@
-behavior: anObject	behavior := anObject

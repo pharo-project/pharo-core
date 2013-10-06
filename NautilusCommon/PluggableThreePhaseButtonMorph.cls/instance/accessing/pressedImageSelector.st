@@ -1,1 +1,0 @@
-pressedImageSelector	^ pressedImageSelector

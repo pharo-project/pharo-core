@@ -1,1 +1,0 @@
-basicNew	^self explicitRequirement.

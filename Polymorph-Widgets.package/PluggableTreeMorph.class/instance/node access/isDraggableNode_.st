@@ -1,0 +1,2 @@
+isDraggableNode: node
+	^true

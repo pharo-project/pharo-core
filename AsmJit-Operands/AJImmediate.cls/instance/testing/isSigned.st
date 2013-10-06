@@ -1,1 +1,0 @@
-isSigned 	^ isUnsigned not

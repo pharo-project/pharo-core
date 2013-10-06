@@ -1,0 +1,2 @@
+defaultChangeSetDirectoryName
+	^ DefaultChangeSetDirectoryName ifNil: [DefaultChangeSetDirectoryName := '.']

@@ -1,1 +1,0 @@
-initialize	compactClassIndex := 0

@@ -1,1 +1,0 @@
-isTTCFont	^self realFont isTTCFont

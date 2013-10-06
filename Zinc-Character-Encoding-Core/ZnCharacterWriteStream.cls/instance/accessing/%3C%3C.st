@@ -1,1 +1,0 @@
-<< collection	^ self nextPutAll: collection

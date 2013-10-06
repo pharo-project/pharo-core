@@ -1,0 +1,2 @@
+isRemoval
+	^ false

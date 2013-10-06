@@ -1,0 +1,2 @@
+slantBook
+	^0

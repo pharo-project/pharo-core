@@ -1,1 +1,0 @@
-nodeStart	^selectedNode start.

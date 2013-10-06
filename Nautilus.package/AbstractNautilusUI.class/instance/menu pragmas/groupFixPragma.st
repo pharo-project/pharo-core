@@ -1,0 +1,2 @@
+groupFixPragma
+	^'nautilusGlobalGroupFixMenu'

@@ -1,0 +1,2 @@
+multiPartFormData
+	^ self predefinedInstanceAt: #multiPartFormData

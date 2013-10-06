@@ -1,0 +1,2 @@
+discoveredMenuTitle
+	^ self class discoveredMenuTitle

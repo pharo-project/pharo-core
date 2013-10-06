@@ -1,1 +1,0 @@
-packageSelection	^ packages indexOf: selectedPackage

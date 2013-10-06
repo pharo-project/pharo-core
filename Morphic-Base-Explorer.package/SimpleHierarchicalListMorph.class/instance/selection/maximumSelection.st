@@ -1,0 +1,3 @@
+maximumSelection
+
+	^ scroller submorphs size

@@ -1,1 +1,0 @@
-defaultSocksPort	^ NetworkSystemSettings httpProxyPort

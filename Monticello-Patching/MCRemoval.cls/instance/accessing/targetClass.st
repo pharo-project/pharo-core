@@ -1,1 +1,0 @@
-targetClass	^ definition actualClass

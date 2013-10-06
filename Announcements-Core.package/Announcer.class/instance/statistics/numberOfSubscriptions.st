@@ -1,0 +1,2 @@
+numberOfSubscriptions
+	^ registry numberOfSubscriptions

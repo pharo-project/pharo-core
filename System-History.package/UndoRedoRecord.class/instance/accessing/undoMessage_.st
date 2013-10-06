@@ -1,0 +1,3 @@
+undoMessage: aMessageSend
+
+	undoMessage := aMessageSend

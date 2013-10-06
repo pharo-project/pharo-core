@@ -1,1 +1,0 @@
-hasSelection	^self hasCaret not

@@ -1,0 +1,2 @@
+initialize
+	self deferUpdates: false.

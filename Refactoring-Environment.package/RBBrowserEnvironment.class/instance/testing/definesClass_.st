@@ -1,0 +1,2 @@
+definesClass: aClass
+	^ true

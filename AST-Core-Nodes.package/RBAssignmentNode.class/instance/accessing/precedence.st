@@ -1,0 +1,2 @@
+precedence
+	^5

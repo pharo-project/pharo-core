@@ -1,1 +1,0 @@
-basicBasename	^ 'resources'

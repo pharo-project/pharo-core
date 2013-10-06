@@ -1,1 +1,0 @@
-requestor: aTextMorph	requestor := aTextMorph

@@ -1,1 +1,0 @@
-current	^ self currentFileSystem store

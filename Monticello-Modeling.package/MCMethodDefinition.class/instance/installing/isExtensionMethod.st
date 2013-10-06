@@ -1,0 +1,2 @@
+isExtensionMethod
+	^ category beginsWith: '*'

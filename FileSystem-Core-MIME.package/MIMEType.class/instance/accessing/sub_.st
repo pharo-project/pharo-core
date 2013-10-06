@@ -1,0 +1,2 @@
+sub: subType
+	sub := subType

@@ -1,0 +1,3 @@
+updateIconCache
+
+	self invalidateIconCache

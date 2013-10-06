@@ -1,0 +1,2 @@
+size: number
+	size := number

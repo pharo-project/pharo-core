@@ -1,1 +1,0 @@
-addItem: anHistoryItem 	^ false

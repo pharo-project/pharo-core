@@ -1,1 +1,0 @@
-setFormat: aFormatInstanceDescription	"Compatibility purposes"

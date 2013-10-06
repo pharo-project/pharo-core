@@ -1,1 +1,0 @@
-getHelpSelector: aSymbol	getHelpSelector := aSymbol

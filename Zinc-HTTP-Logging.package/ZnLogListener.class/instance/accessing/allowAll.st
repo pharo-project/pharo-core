@@ -1,0 +1,2 @@
+allowAll
+	self filter: nil

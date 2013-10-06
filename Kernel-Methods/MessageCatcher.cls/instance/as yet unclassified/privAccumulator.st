@@ -1,1 +1,0 @@
-privAccumulator	^ accumulator

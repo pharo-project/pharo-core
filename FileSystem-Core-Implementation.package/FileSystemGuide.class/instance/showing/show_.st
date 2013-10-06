@@ -1,0 +1,2 @@
+show: aReference
+	self subclassResponsibility

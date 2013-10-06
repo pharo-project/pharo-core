@@ -1,0 +1,2 @@
+xValue: anInteger
+	xValue := anInteger

@@ -1,1 +1,0 @@
-interruptedProcess	^ self session interruptedProcess

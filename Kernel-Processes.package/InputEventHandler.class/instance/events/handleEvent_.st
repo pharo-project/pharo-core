@@ -1,0 +1,2 @@
+handleEvent: eventBuffer
+	self subclassResponsibility

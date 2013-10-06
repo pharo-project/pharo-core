@@ -1,0 +1,2 @@
+themeName
+	^ 'Orange Pharo'

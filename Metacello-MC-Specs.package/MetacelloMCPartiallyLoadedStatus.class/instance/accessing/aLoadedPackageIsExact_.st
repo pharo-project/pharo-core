@@ -1,0 +1,2 @@
+aLoadedPackageIsExact: aBoolean
+	aLoadedPackageIsExact := aBoolean

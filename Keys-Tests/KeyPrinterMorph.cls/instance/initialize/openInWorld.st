@@ -1,1 +1,0 @@
-openInWorld	self  openInWindowLabeled: 'KeyPrinter'

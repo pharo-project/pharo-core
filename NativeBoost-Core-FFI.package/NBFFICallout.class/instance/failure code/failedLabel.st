@@ -1,0 +1,2 @@
+failedLabel
+	^ asm labelNamed: #FFICalloutFailed

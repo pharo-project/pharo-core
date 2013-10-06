@@ -1,1 +1,0 @@
-stretchNarrow	^4

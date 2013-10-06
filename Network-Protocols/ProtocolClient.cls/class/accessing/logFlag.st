@@ -1,1 +1,0 @@
-logFlag	self subclassResponsibility

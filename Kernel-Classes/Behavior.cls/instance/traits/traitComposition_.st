@@ -1,1 +1,0 @@
-traitComposition: aTraitComposition	"Compatibility purposes"

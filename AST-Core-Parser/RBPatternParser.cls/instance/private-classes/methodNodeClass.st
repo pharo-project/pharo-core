@@ -1,1 +1,0 @@
-methodNodeClass	^RBPatternMethodNode

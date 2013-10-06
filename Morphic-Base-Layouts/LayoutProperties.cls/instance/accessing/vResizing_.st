@@ -1,1 +1,0 @@
-vResizing: aSymbol	vResizing := aSymbol

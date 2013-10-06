@@ -1,0 +1,2 @@
+reasonCode: anObject
+	reasonCode := anObject

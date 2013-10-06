@@ -1,0 +1,2 @@
+selectionInterval
+	^ contentMorph selectionInterval

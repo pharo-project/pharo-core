@@ -1,0 +1,3 @@
+destroy
+
+	^ self destroyWindow

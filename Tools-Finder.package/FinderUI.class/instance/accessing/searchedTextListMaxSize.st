@@ -1,0 +1,2 @@
+searchedTextListMaxSize
+	^self class searchedTextListMaxSize

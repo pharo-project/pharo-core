@@ -1,0 +1,2 @@
+clearRequiredPackages
+	requiredPackages := nil

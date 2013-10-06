@@ -1,0 +1,3 @@
+isReadOnly
+
+	^ readOnly == true

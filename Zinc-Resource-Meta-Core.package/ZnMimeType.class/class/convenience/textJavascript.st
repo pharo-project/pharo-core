@@ -1,0 +1,2 @@
+textJavascript
+	^ self predefinedInstanceAt: #textJavascript

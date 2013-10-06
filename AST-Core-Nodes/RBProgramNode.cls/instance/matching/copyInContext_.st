@@ -1,1 +1,0 @@
-copyInContext: aDictionary	^ self copy

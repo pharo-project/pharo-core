@@ -1,0 +1,3 @@
+isRedrawable
+
+	^ false

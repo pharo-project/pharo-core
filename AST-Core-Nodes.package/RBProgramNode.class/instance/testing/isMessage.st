@@ -1,0 +1,2 @@
+isMessage
+	^false

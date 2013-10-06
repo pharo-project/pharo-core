@@ -1,1 +1,0 @@
-repositories: aCollection	repositories := aCollection

@@ -1,0 +1,2 @@
+nextButtonState
+	^ true

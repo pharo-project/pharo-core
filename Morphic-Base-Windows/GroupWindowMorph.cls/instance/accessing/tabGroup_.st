@@ -1,1 +1,0 @@
-tabGroup: anObject	tabGroup := anObject

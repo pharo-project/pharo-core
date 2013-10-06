@@ -1,0 +1,3 @@
+methodDictionary
+	"Convenience"
+	^self methodDict

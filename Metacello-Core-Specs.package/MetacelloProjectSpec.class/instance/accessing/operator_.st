@@ -1,0 +1,4 @@
+operator: anObject
+	" #= #~= #> #< #>= #<= #~> "
+	
+	operator := anObject

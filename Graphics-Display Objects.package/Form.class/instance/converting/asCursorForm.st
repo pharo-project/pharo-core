@@ -1,0 +1,3 @@
+asCursorForm
+
+	^ Form newFrom: self

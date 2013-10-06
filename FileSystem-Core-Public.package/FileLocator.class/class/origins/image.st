@@ -1,0 +1,2 @@
+image
+	^ self origin: #image 

@@ -1,0 +1,2 @@
+directory: path
+	^ path asFileReference

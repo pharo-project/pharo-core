@@ -1,1 +1,0 @@
-haveClassName	^ self selectedClass notNil

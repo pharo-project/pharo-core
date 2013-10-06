@@ -1,0 +1,3 @@
+lock
+
+	self locked: true

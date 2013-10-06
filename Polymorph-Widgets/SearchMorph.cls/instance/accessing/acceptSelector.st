@@ -1,1 +1,0 @@
-acceptSelector	^ self setIndexSelector

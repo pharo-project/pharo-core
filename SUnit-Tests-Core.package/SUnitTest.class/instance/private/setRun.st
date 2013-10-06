@@ -1,0 +1,2 @@
+setRun
+	hasRun := true

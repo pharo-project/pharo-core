@@ -1,1 +1,0 @@
-showHierarchy: anObject			showHierarchy := anObject

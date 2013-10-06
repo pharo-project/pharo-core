@@ -1,0 +1,3 @@
+asAnnouncement
+
+	^ self

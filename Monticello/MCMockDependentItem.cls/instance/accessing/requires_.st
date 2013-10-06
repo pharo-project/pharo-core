@@ -1,1 +1,0 @@
-requires: anArray	requires := anArray

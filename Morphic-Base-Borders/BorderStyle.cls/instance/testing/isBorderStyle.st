@@ -1,1 +1,0 @@
-isBorderStyle	^true

@@ -1,0 +1,2 @@
+maybeAddCollapseItemTo: aMenu
+	"... don't "

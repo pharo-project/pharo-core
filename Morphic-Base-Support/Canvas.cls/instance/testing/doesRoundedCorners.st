@@ -1,1 +1,0 @@
-doesRoundedCorners 	^ true

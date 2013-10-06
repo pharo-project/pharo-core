@@ -1,0 +1,3 @@
+undoOperation 
+
+	self changeManager undoOperation

@@ -1,0 +1,2 @@
+isDirectory
+	^ true

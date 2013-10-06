@@ -1,0 +1,2 @@
+model: aRBSmalltalk
+	model := aRBSmalltalk

@@ -1,0 +1,2 @@
+alwaysShowVScrollbar
+	^ false

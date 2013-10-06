@@ -1,1 +1,0 @@
-isClassPatch	^obsoletion isClassDefinition

@@ -1,1 +1,0 @@
-label	 ^'Inline method' translated

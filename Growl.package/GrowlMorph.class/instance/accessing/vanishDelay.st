@@ -1,0 +1,3 @@
+vanishDelay
+
+	^ vanishDelay

@@ -1,0 +1,2 @@
+nextString
+	^ stream nextDelimited: $'

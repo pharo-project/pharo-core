@@ -1,0 +1,4 @@
+extraCountryDefinitions
+	^{
+	{'Kids'. 'KIDS'. 'KIDS'.}.
+	}

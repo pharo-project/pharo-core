@@ -1,0 +1,2 @@
+captureNavigationKeys: aBoolean
+	captureNavigationKeys := aBoolean

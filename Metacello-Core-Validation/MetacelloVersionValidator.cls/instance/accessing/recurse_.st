@@ -1,1 +1,0 @@
-recurse: anObject	recurse := anObject

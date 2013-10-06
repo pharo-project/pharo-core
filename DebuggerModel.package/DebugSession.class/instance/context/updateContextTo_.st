@@ -1,0 +1,3 @@
+updateContextTo: aContext
+
+	interruptedContext := aContext

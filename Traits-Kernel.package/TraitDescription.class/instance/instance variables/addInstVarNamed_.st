@@ -1,0 +1,2 @@
+addInstVarNamed: aString
+	"Compatibility purposes"

@@ -1,0 +1,2 @@
+startWithoutParentheses
+	^messages first start

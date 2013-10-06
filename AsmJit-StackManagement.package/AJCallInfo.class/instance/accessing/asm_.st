@@ -1,0 +1,2 @@
+asm: assembler
+	asm := assembler

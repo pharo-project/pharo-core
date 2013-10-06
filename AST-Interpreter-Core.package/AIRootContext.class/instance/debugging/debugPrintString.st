@@ -1,0 +1,2 @@
+debugPrintString
+	^self methodClass

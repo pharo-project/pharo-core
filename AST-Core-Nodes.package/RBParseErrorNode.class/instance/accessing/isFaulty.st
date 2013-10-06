@@ -1,0 +1,2 @@
+isFaulty
+	^true.

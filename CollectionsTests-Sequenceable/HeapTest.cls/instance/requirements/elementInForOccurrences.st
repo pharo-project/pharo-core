@@ -1,1 +1,0 @@
-elementInForOccurrences	^self nonEmpty anyOne

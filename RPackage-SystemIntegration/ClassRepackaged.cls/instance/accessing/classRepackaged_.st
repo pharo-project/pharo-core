@@ -1,1 +1,0 @@
-classRepackaged: anObject		classRepackaged := anObject

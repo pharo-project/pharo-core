@@ -1,1 +1,0 @@
-removeMockClass	Smalltalk removeClassNamed: #RBRefactoringChangeMock.

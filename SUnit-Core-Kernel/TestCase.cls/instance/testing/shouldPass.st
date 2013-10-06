@@ -1,1 +1,0 @@
-shouldPass	^self isExpectedFailure not

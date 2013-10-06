@@ -1,0 +1,2 @@
+methodClass
+	^ instructionStream  method methodClass

@@ -1,1 +1,0 @@
-selectionColor: anUndefinedObject 	self shouldBeImplemented.

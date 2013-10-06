@@ -1,1 +1,0 @@
-collectionWithElement	^ full

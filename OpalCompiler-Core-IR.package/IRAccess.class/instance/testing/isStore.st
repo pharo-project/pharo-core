@@ -1,0 +1,2 @@
+isStore
+	^store

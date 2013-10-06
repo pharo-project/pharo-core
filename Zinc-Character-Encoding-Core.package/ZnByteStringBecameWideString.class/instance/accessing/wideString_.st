@@ -1,0 +1,2 @@
+wideString: anObject
+	wideString := anObject

@@ -1,1 +1,0 @@
-maxClassNameSize	^maxClassNameSize

@@ -1,0 +1,3 @@
+browsedEnvironment: anEnvironment
+
+	browsedEnvironment := anEnvironment

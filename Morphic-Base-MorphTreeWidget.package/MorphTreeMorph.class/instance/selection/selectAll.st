@@ -1,0 +1,2 @@
+selectAll
+	self listManager selectAll

@@ -1,0 +1,2 @@
+processTempsWith: anObject
+	"do nothing"

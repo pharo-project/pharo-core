@@ -1,0 +1,3 @@
+scope: aLexicalScope
+
+	scope := aLexicalScope

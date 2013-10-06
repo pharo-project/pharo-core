@@ -1,0 +1,3 @@
+numElements
+
+	^ elements size

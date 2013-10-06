@@ -1,0 +1,2 @@
+label
+	^ labelBlock value

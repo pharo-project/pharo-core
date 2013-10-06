@@ -1,1 +1,0 @@
-initializeWithDefinitions: aCollection	definitions := aCollection.

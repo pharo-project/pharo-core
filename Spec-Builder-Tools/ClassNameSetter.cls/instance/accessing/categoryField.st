@@ -1,1 +1,0 @@
-categoryField		^ categoryField

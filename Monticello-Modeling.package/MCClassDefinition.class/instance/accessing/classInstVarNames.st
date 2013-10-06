@@ -1,0 +1,2 @@
+classInstVarNames
+	^ self selectVariables: #isClassInstanceVariable

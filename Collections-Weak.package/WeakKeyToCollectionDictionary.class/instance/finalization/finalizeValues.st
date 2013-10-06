@@ -1,0 +1,2 @@
+finalizeValues 
+	self rehash

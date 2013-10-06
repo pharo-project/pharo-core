@@ -1,0 +1,3 @@
+initializersEnabled: aBoolean
+
+	InitializersEnabled := aBoolean

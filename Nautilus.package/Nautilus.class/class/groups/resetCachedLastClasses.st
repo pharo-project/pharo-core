@@ -1,0 +1,3 @@
+resetCachedLastClasses
+
+	^ cachedLastClasses := nil

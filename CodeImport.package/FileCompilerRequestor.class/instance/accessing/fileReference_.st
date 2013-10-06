@@ -1,0 +1,2 @@
+fileReference: anObject
+	fileReference := anObject

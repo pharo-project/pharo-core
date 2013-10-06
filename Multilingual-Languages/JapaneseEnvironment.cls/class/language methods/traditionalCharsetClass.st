@@ -1,1 +1,0 @@
-traditionalCharsetClass	^ JISX0208.

@@ -1,1 +1,0 @@
-projectSpec: aMetacelloMCProjectSpec	projectSpec := aMetacelloMCProjectSpec

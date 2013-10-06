@@ -1,0 +1,2 @@
+internalSize
+	^ self fileSize

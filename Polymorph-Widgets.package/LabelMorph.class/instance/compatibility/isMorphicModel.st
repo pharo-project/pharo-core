@@ -1,0 +1,2 @@
+isMorphicModel
+	^true

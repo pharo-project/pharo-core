@@ -1,1 +1,0 @@
-encodedStream	^encoder encodedStream

@@ -1,0 +1,2 @@
+category: aSymbol 
+	category := aSymbol

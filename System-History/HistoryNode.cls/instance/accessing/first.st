@@ -1,1 +1,0 @@
-first	^ self history first

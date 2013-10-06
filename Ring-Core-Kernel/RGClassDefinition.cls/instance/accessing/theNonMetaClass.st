@@ -1,1 +1,0 @@
-theNonMetaClass	^self

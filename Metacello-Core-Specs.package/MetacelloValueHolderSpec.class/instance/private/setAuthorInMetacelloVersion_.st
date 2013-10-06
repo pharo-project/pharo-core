@@ -1,0 +1,3 @@
+setAuthorInMetacelloVersion: aMetacelloVersionSpec
+
+	aMetacelloVersionSpec setAuthor: self

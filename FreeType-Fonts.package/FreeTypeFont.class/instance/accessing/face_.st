@@ -1,0 +1,2 @@
+face: aFace
+	face := aFace

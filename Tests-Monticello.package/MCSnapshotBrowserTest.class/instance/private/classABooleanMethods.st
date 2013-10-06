@@ -1,0 +1,2 @@
+classABooleanMethods
+	^ #(falsehood moreTruth truth)

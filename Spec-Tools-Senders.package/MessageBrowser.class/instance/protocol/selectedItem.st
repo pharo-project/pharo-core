@@ -1,0 +1,3 @@
+selectedItem
+
+	^ listModel selectedItem

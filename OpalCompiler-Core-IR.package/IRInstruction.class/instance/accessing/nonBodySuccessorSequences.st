@@ -1,0 +1,2 @@
+nonBodySuccessorSequences
+	^self successorSequences

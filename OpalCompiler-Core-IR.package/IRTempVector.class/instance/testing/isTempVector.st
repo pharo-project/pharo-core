@@ -1,0 +1,2 @@
+isTempVector
+	^true

@@ -1,0 +1,2 @@
+getLabelSelector: aSymbol
+	getLabelSelector := aSymbol

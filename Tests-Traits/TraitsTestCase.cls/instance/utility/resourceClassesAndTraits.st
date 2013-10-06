@@ -1,1 +1,0 @@
-resourceClassesAndTraits	^TraitsResource current createdClassesAndTraits

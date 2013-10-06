@@ -1,1 +1,0 @@
-classes		^ self browsedEnvironment classes

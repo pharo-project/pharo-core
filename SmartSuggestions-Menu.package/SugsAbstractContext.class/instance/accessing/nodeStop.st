@@ -1,0 +1,2 @@
+nodeStop
+	^selectedNode stop.

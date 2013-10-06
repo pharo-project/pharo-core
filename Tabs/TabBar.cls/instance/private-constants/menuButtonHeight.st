@@ -1,1 +1,0 @@
-menuButtonHeight	^ 16

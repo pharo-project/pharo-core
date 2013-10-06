@@ -1,1 +1,0 @@
-giveFocusToPackage	self giveFocusTo: list

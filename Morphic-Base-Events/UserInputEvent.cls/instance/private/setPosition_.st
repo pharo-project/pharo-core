@@ -1,1 +1,0 @@
-setPosition: aPoint	position := aPoint

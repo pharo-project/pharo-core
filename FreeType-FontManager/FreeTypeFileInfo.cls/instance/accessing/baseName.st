@@ -1,1 +1,0 @@
-baseName	^ absolutePath asFileReference basename

@@ -1,1 +1,0 @@
-hasMask	^true

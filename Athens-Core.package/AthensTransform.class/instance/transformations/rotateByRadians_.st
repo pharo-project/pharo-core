@@ -1,0 +1,3 @@
+rotateByRadians: angle
+
+	self subclassResponsibility

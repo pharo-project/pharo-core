@@ -1,0 +1,3 @@
+mustDeclareVariables: aBoolean
+
+	mustDeclareVariables := aBoolean

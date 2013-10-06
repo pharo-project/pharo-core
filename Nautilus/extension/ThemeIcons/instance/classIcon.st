@@ -1,1 +1,0 @@
-classIcon 	^ self blankIcon

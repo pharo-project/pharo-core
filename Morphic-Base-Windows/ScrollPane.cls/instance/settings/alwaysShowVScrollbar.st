@@ -1,1 +1,0 @@
-alwaysShowVScrollbar	^ self class alwaysShowVScrollbar

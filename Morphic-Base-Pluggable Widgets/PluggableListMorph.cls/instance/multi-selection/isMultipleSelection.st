@@ -1,1 +1,0 @@
-isMultipleSelection	^ self multipleSelection

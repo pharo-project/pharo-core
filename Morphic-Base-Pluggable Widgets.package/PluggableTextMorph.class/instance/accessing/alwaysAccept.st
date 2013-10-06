@@ -1,0 +1,2 @@
+alwaysAccept
+	^ alwaysAccept ifNil: [false]

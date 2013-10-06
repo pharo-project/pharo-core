@@ -1,0 +1,3 @@
+initializeAnalyzing
+
+	self initialize.

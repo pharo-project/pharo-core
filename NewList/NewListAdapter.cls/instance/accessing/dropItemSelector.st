@@ -1,1 +1,0 @@
-dropItemSelector	^ dropItemSelector contents

@@ -1,0 +1,3 @@
+shortcutName: aSymbol 
+	
+	shortcutName := aSymbol

@@ -1,1 +1,0 @@
-insertedTextAttributes	^InsertTextAttributes

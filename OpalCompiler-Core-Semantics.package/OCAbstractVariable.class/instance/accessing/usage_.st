@@ -1,0 +1,3 @@
+usage: anObject
+
+	usage := anObject

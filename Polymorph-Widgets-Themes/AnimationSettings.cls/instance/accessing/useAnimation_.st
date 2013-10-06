@@ -1,1 +1,0 @@
-useAnimation: aBoolean	useAnimation := aBoolean

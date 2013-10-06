@@ -1,0 +1,2 @@
+beSlantNormal
+	self fontSlant: CAIRO_FONT_SLANT_NORMAL

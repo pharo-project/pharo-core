@@ -1,0 +1,3 @@
+max: aNumber
+ 
+	endValue := aNumber.

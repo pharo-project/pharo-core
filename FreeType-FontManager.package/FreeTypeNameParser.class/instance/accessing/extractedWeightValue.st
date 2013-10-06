@@ -1,0 +1,2 @@
+extractedWeightValue
+	^extractedWeightValue

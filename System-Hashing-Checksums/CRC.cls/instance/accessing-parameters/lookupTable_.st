@@ -1,1 +1,0 @@
-lookupTable: anArray	lookupTable := anArray

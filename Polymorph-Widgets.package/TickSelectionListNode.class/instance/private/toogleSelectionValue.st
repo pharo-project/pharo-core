@@ -1,0 +1,3 @@
+toogleSelectionValue
+	
+	self item toogleSelectionValue

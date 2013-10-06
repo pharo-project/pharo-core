@@ -1,0 +1,2 @@
+exploreValue
+	^ self value explore

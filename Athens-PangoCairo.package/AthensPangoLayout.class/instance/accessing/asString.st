@@ -1,0 +1,2 @@
+asString
+	^ self primGetText

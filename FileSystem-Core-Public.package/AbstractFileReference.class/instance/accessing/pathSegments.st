@@ -1,0 +1,2 @@
+pathSegments
+	^ self fullPath segments

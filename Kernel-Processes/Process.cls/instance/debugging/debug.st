@@ -1,1 +1,0 @@
-debug	^ self debugWithTitle: 'Debug'.

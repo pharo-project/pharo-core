@@ -1,1 +1,0 @@
-asWideString	^ WideString fromByteArray: self.

@@ -1,1 +1,0 @@
-name: aSymbol 	name := aSymbol

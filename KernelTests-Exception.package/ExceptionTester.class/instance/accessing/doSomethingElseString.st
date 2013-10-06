@@ -1,0 +1,3 @@
+doSomethingElseString
+
+	^'Do something else.'

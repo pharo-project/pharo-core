@@ -1,1 +1,0 @@
-balloonHelpEnabled: aBoolean	balloonHelpEnabled := aBoolean

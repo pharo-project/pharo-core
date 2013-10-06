@@ -1,0 +1,3 @@
+schemeName
+
+	^ 'mailto'

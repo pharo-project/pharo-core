@@ -1,0 +1,3 @@
+uiClass
+
+	^ DialogGroupManagerUI

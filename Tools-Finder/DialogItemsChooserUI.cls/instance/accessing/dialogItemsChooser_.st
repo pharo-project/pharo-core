@@ -1,1 +1,0 @@
-dialogItemsChooser: aDialogItemsChooser	dialogItemsChooser := aDialogItemsChooser

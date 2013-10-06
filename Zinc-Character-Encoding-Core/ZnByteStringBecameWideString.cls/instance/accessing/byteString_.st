@@ -1,1 +1,0 @@
-byteString: anObject	byteString := anObject

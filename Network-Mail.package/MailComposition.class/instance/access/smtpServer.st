@@ -1,0 +1,2 @@
+smtpServer
+	^MailSender smtpServer

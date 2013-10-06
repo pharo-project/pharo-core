@@ -1,1 +1,0 @@
-giveFocusToSourceCode	self giveFocusTo: sourceTextArea 

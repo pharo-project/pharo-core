@@ -1,0 +1,2 @@
+smallProfileIcon
+	^ self smallDebugIcon

@@ -1,0 +1,3 @@
+instanceScope
+
+	^self outerScope instanceScope

@@ -1,0 +1,2 @@
+die
+	currentExecutedNode := nil

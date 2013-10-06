@@ -1,0 +1,3 @@
+isSlice
+
+	^false

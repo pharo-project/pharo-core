@@ -1,1 +1,0 @@
-data: anObject	data := anObject

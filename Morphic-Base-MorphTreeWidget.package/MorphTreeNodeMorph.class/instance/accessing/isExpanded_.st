@@ -1,0 +1,3 @@
+isExpanded: aBoolean
+
+	isExpanded := aBoolean

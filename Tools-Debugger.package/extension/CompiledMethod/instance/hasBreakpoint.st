@@ -1,0 +1,2 @@
+hasBreakpoint
+	^BreakpointManager methodHasBreakpoint: self

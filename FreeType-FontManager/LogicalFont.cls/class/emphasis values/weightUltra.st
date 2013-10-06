@@ -1,1 +1,0 @@
-weightUltra	^800

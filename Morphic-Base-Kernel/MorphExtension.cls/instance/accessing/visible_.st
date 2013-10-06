@@ -1,1 +1,0 @@
-visible: newValue	visible := newValue

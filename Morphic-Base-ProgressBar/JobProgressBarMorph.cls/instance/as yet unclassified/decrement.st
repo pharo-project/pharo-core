@@ -1,1 +1,0 @@
-decrement	^ progressBar decrement

@@ -1,0 +1,2 @@
+executeOn: interpreter
+	interpreter pushReceiver.

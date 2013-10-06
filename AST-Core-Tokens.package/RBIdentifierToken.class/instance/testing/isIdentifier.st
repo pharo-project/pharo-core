@@ -1,0 +1,2 @@
+isIdentifier
+	^true

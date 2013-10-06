@@ -1,0 +1,2 @@
+cmdGesturesEnabled
+	^ self class cmdGesturesEnabled

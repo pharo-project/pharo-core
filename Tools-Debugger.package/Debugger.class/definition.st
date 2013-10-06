@@ -1,0 +1,5 @@
+CodeHolder subclass: #Debugger
+	instanceVariableNames: 'interruptedProcess interruptedController contextStack contextStackTop contextStackIndex contextStackList receiverInspector contextVariablesInspector externalInterrupt proceedValue selectingPC savedCursor errorWasInUIProcess labelString widget'
+	classVariableNames: 'AlwaysOpenFullDebugger ContextStackKeystrokes ErrorRecursion ExtraDebuggerButtons FilterCommonMessageSends LogDebuggerStackToFile LogFileName RestartAlsoProceeds'
+	poolDictionaries: ''
+	category: 'Tools-Debugger'

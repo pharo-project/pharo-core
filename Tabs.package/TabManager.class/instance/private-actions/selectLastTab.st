@@ -1,0 +1,3 @@
+selectLastTab
+
+	toolbar selectLastTab

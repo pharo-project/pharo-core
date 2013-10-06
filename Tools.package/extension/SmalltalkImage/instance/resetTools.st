@@ -1,0 +1,3 @@
+resetTools
+
+	Tools := nil

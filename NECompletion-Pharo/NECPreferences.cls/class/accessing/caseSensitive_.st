@@ -1,1 +1,0 @@
-caseSensitive: aBoolean	caseSensitive := aBoolean

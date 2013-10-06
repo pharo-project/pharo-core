@@ -1,0 +1,3 @@
+selectedClassOrMetaClass
+
+	^ self selectedItem methodClass.

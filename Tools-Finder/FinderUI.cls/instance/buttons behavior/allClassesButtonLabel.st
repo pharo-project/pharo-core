@@ -1,1 +1,0 @@
-allClassesButtonLabel	^ 'All Packages'

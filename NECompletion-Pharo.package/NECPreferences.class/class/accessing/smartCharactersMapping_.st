@@ -1,0 +1,2 @@
+smartCharactersMapping: aDictionary
+	smartCharactersMapping := aDictionary

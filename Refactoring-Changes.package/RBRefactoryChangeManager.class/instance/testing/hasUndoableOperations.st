@@ -1,0 +1,2 @@
+hasUndoableOperations
+	^ undo isEmpty not

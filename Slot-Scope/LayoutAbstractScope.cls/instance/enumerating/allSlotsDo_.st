@@ -1,1 +1,0 @@
-allSlotsDo: aBlock	self subclassResponsibility

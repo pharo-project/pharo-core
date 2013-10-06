@@ -1,1 +1,0 @@
-getSelectedPathSelector: aSymbol	getSelectedPathSelector := aSymbol.

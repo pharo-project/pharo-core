@@ -1,0 +1,3 @@
+midnight
+
+	^ self now midnight

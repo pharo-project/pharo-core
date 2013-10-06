@@ -1,0 +1,2 @@
+pointSize
+	self subclassResponsibility.

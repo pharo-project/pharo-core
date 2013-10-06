@@ -1,0 +1,3 @@
+atEnd
+	self ensureChunkOrAtEnd.
+	^ atEnd

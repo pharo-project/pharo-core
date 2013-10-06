@@ -1,0 +1,2 @@
+isFullscreen
+	^ self lastScreenModeSelected.

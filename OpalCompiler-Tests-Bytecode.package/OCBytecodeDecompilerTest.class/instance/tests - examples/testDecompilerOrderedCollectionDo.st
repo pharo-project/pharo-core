@@ -1,0 +1,5 @@
+testDecompilerOrderedCollectionDo
+	| cm decompiledIR  |
+	cm := OrderedCollection>>#do:.
+	decompiledIR := IRBytecodeDecompiler new decompile: cm.
+	self shouldnt: [decompiledIR compiledMethod] raise: Error.

@@ -1,1 +1,0 @@
-instanceVariables: aCollection	instanceVariables:= aCollection

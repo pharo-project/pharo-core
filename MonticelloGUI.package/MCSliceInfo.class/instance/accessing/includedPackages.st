@@ -1,0 +1,3 @@
+includedPackages
+
+	^ includedPackages ifNil: [#()]

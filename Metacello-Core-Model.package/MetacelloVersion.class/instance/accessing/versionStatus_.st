@@ -1,0 +1,3 @@
+versionStatus: aSymbol
+
+	versionStatus := aSymbol

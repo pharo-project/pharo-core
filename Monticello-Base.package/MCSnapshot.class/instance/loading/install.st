@@ -1,0 +1,2 @@
+install
+	MCPackageLoader installSnapshot: self

@@ -1,0 +1,2 @@
+truth
+	^ true

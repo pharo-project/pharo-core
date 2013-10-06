@@ -1,0 +1,3 @@
+notAtWordBoundary
+
+	^self atWordBoundary not

@@ -1,1 +1,0 @@
-isSimulatedRegular	^simulatedEmphasis = 0

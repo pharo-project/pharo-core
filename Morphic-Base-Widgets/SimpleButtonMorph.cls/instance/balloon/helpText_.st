@@ -1,1 +1,0 @@
-helpText: aString	helpText := aString

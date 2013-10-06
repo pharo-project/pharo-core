@@ -1,1 +1,0 @@
-baseColor	^Color transparent

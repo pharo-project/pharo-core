@@ -1,0 +1,2 @@
+touchCVar
+	CVar := #touched

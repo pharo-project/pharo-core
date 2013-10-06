@@ -1,0 +1,2 @@
+rejectRules
+^ #('LawOfDemeterRule')

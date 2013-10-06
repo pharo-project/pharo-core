@@ -1,1 +1,0 @@
-acceptsDroppingMorphForReference	^ acceptDroppedMorphs		

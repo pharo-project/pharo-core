@@ -1,0 +1,3 @@
+versionSpec
+
+	^self spec

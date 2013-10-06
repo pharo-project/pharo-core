@@ -1,1 +1,0 @@
-rawResponseCodes	self subclassResponsibility

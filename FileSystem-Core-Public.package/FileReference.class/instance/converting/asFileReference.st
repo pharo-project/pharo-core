@@ -1,0 +1,2 @@
+asFileReference
+	^ self

@@ -1,1 +1,0 @@
-cr	self termcap: 'cr'

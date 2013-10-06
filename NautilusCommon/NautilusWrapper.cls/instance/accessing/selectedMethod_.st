@@ -1,1 +1,0 @@
-selectedMethod: anObject			selectedMethod := anObject

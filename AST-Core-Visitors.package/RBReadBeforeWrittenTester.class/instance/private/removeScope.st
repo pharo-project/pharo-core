@@ -1,0 +1,2 @@
+removeScope
+	^scopeStack removeLast

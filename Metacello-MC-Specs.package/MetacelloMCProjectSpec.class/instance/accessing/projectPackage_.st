@@ -1,0 +1,2 @@
+projectPackage: anObject
+	projectPackage := anObject

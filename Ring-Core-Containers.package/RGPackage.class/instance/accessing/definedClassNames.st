@@ -1,0 +1,3 @@
+definedClassNames
+
+	^ super classNames

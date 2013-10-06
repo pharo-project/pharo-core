@@ -1,0 +1,2 @@
+systemAnnouncer
+	^ SystemAnnouncer uniqueInstance

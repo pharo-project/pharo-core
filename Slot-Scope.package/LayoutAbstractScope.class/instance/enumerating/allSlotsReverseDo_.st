@@ -1,0 +1,2 @@
+allSlotsReverseDo: aBlock
+	self subclassResponsibility

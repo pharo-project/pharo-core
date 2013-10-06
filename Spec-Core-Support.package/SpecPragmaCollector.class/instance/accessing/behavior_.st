@@ -1,0 +1,2 @@
+behavior: anObject
+	behavior := anObject

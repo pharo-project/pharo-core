@@ -1,0 +1,2 @@
+headers: object
+	headers := object

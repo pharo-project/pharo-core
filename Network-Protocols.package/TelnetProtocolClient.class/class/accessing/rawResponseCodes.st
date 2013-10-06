@@ -1,0 +1,2 @@
+rawResponseCodes
+	self subclassResponsibility

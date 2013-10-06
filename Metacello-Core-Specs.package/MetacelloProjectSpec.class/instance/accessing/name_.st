@@ -1,0 +1,3 @@
+name: aString
+
+	name := aString

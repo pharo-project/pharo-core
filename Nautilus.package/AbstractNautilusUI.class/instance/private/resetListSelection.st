@@ -1,0 +1,3 @@
+resetListSelection
+
+	self listSelection removeAll.

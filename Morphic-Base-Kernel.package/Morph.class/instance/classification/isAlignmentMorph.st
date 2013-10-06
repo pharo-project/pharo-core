@@ -1,0 +1,3 @@
+isAlignmentMorph
+
+	^ false

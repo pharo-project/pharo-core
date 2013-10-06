@@ -1,1 +1,0 @@
-shiftPressed	^lastMouseEvent shiftPressed

@@ -1,0 +1,2 @@
+menuBrowse
+	self browseDeclaration

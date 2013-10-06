@@ -1,1 +1,0 @@
-position: aPosition		position := aPosition

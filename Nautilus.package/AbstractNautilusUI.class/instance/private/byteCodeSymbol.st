@@ -1,0 +1,3 @@
+byteCodeSymbol
+
+	^ #ByteCode

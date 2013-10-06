@@ -1,0 +1,2 @@
+expression
+	^self expressionEvaluated

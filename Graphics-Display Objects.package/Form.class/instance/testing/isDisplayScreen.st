@@ -1,0 +1,2 @@
+isDisplayScreen
+	^false

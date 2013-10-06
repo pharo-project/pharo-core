@@ -1,0 +1,2 @@
+lookahead
+	^ lookahead

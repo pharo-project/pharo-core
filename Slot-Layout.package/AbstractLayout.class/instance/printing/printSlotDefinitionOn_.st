@@ -1,0 +1,2 @@
+printSlotDefinitionOn: aStream
+	aStream << '{}'

@@ -1,1 +1,0 @@
-copyStack	^ self copyTo: nil

@@ -1,0 +1,2 @@
+methodComments
+	^self comments

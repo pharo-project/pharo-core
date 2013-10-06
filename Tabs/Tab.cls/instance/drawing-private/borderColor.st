@@ -1,1 +1,0 @@
-borderColor	^ Color gray

@@ -1,1 +1,0 @@
-instSize	^self explicitRequirement.

@@ -1,1 +1,0 @@
-buildVerticesFrom: borderVertices	^ borderVertices

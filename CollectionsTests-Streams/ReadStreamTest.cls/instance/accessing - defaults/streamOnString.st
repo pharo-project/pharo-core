@@ -1,1 +1,0 @@
-streamOnString	^ ReadStream on: 'abcde'.

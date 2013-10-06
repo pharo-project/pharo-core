@@ -1,1 +1,0 @@
-buttonHeight	^ 26

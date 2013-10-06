@@ -1,1 +1,0 @@
-textOwner: anUndefinedObject 	self shouldBeImplemented.

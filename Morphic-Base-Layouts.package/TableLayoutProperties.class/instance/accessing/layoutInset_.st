@@ -1,0 +1,2 @@
+layoutInset: aNumber
+	layoutInset := aNumber

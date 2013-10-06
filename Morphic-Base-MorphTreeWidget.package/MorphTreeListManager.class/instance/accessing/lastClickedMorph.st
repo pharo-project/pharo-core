@@ -1,0 +1,3 @@
+lastClickedMorph
+
+	^ lastClickedMorph

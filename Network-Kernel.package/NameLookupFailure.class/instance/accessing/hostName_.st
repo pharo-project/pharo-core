@@ -1,0 +1,2 @@
+hostName: aString
+	hostName := aString

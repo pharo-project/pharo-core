@@ -1,0 +1,2 @@
+veryDarkGray
+	^VeryDarkGray

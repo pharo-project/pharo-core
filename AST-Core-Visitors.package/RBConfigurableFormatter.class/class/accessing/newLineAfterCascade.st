@@ -1,0 +1,2 @@
+newLineAfterCascade
+	^ NewLineAfterCascade

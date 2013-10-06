@@ -1,0 +1,2 @@
+applicationFormUrlEncoded
+	^ self predefinedInstanceAt: #applicationFormUrlEncoded

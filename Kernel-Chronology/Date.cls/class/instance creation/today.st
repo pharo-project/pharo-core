@@ -1,1 +1,0 @@
-today	^ self current

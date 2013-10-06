@@ -1,1 +1,0 @@
-rotateByDegrees: angle	self subclassResponsibility

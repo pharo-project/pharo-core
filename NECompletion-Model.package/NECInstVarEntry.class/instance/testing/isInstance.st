@@ -1,0 +1,2 @@
+isInstance
+^true

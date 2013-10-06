@@ -1,0 +1,2 @@
+foundMatchFor: aProgramNode 
+	self subclassResponsibility

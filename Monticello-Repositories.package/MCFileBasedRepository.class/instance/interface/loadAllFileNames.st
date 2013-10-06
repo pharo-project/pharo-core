@@ -1,0 +1,2 @@
+loadAllFileNames
+	self subclassResponsibility

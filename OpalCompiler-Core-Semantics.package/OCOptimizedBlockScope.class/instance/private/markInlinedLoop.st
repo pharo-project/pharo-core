@@ -1,0 +1,2 @@
+markInlinedLoop
+	isInlinedLoop := true

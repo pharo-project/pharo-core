@@ -1,0 +1,3 @@
+startUp
+
+	self clearDefault.

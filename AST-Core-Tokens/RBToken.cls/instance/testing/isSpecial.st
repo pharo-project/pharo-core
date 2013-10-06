@@ -1,1 +1,0 @@
-isSpecial	^false

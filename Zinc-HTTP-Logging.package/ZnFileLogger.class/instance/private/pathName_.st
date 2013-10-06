@@ -1,0 +1,2 @@
+pathName: aPathName 
+	pathName := aPathName  

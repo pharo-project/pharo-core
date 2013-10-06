@@ -1,0 +1,2 @@
+defaultSpaceAfterCompletion
+	^true

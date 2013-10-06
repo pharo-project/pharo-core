@@ -1,0 +1,2 @@
+it
+	^ self new

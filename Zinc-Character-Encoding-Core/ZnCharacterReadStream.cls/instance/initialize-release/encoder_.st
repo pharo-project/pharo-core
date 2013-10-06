@@ -1,1 +1,0 @@
-encoder: characterEncoder	encoder := characterEncoder

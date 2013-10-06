@@ -1,1 +1,0 @@
-categoryName	^self class category

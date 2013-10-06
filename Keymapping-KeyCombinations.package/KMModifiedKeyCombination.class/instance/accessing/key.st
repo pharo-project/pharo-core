@@ -1,0 +1,3 @@
+key
+
+	^ self character key.

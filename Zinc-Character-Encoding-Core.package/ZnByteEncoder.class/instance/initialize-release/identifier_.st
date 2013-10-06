@@ -1,0 +1,2 @@
+identifier: object
+	identifier := object

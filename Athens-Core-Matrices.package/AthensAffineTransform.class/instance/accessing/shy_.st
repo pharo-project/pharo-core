@@ -1,0 +1,2 @@
+shy: number
+	shy := number

@@ -1,0 +1,2 @@
+aCategory
+	^ 'SlotTestsTmp'

@@ -1,0 +1,2 @@
+methodReturnReceiver
+	"Return Self bytecode."

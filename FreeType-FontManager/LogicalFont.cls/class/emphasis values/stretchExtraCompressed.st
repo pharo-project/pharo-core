@@ -1,1 +1,0 @@
-stretchExtraCompressed	^1

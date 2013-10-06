@@ -1,0 +1,2 @@
+preferenceValue
+	^ self realValue

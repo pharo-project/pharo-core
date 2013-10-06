@@ -1,0 +1,2 @@
+command
+	^ KMModifier command + self

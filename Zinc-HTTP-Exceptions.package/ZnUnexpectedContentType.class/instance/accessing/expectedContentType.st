@@ -1,0 +1,2 @@
+expectedContentType
+	^ expectedContentType

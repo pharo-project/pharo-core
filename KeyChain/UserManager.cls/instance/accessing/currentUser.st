@@ -1,1 +1,0 @@
-currentUser	^ currentUser

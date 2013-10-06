@@ -1,0 +1,2 @@
+do
+	^self redo

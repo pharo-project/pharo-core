@@ -1,1 +1,0 @@
-resources	^ Array with: GoferResource

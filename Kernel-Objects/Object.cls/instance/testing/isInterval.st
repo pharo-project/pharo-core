@@ -1,1 +1,0 @@
-isInterval	^ false

@@ -1,1 +1,0 @@
-lineBorderColor	^self borderColor

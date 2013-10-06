@@ -1,1 +1,0 @@
-isUndeclared	^ false

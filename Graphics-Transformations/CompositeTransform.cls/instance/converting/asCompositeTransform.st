@@ -1,1 +1,0 @@
-asCompositeTransform	^self

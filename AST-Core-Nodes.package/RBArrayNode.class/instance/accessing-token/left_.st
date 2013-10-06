@@ -1,0 +1,2 @@
+left: anInteger
+	left := anInteger

@@ -1,0 +1,2 @@
+extent
+	^myCanvas extent

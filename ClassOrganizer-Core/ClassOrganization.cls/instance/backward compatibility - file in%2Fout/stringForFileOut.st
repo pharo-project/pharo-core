@@ -1,1 +1,0 @@
-stringForFileOut	^ self protocolOrganizer stringForFileOut

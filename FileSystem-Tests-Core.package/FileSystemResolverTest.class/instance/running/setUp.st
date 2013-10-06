@@ -1,0 +1,2 @@
+setUp
+	resolver := self createResolver.

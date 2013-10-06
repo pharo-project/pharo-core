@@ -1,0 +1,2 @@
+initialize
+	SuperClassVar := Dictionary new

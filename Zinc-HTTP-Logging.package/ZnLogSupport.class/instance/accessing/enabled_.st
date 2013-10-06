@@ -1,0 +1,2 @@
+enabled: boolean
+	enabled := boolean 

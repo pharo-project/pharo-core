@@ -1,1 +1,0 @@
-defaultStackSize	^ 20

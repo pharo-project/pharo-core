@@ -1,1 +1,0 @@
-transform	class removeInstanceVariable: variableName

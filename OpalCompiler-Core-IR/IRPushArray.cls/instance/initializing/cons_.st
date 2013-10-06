@@ -1,1 +1,0 @@
-cons: aBool	cons := aBool.

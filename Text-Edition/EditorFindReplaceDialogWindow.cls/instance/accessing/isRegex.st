@@ -1,1 +1,0 @@
-isRegex	^ self state isRegex

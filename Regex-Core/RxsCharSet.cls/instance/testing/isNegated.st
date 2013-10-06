@@ -1,1 +1,0 @@
-isNegated	^negated

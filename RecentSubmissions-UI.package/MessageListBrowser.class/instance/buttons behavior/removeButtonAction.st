@@ -1,0 +1,3 @@
+removeButtonAction 
+
+	self removeSelectedMorph

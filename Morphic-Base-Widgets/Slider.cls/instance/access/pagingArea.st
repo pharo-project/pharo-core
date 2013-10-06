@@ -1,1 +1,0 @@
-pagingArea	^self

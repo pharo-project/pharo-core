@@ -1,1 +1,0 @@
-unstyledTextFrom: aText	^aText

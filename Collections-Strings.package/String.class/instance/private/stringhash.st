@@ -1,0 +1,3 @@
+stringhash
+
+	^ self hash.

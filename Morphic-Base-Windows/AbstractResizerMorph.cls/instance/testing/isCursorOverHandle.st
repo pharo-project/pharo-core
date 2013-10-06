@@ -1,1 +1,0 @@
-isCursorOverHandle	^ true

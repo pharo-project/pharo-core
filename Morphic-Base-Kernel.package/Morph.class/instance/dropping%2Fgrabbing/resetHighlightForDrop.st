@@ -1,0 +1,2 @@
+resetHighlightForDrop
+	self highlightForDrop: false

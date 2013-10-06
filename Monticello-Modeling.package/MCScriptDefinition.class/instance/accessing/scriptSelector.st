@@ -1,0 +1,2 @@
+scriptSelector
+	^ self class scriptSelector

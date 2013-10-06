@@ -1,0 +1,3 @@
+heightAndDescent
+
+	^ height + maxDescent

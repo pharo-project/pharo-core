@@ -1,0 +1,2 @@
+isClosure
+	^false

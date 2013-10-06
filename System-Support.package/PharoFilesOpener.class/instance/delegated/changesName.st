@@ -1,0 +1,2 @@
+changesName
+	^ Smalltalk changesName

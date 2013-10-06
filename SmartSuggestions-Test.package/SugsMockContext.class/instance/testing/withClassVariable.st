@@ -1,0 +1,2 @@
+withClassVariable
+	ClassVariable

@@ -1,0 +1,2 @@
+keys
+	^self classPool keys

@@ -1,1 +1,0 @@
-testNumberHierarchy	self verifyHierarchy: Number

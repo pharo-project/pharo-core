@@ -1,0 +1,3 @@
+currentItem
+
+	^ items last

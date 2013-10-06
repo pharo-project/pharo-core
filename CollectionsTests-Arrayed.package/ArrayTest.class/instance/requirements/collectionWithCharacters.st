@@ -1,0 +1,2 @@
+collectionWithCharacters
+	^ withCharacters.

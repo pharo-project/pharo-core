@@ -1,0 +1,3 @@
+configurationClass
+
+	^self configuration class

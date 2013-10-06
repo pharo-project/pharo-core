@@ -1,1 +1,0 @@
-topFraction	^topFraction

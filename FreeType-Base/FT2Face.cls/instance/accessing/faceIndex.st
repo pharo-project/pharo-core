@@ -1,1 +1,0 @@
-faceIndex	^faceIndex

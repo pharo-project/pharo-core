@@ -1,0 +1,2 @@
+treeMorphClass
+	^ PaginatedMorphTreeMorph 

@@ -1,0 +1,2 @@
+isAssignment
+	^false

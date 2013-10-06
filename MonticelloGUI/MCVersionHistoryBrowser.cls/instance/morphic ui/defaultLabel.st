@@ -1,1 +1,0 @@
-defaultLabel	^ ancestry name, ' History'

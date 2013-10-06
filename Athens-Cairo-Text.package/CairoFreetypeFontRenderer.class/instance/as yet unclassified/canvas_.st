@@ -1,0 +1,3 @@
+canvas: aCairoCanvas
+	
+	canvas := aCairoCanvas.

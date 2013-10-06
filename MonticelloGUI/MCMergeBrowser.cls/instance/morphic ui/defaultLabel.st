@@ -1,1 +1,0 @@
-defaultLabel	^ 'Merge Browser'

@@ -1,1 +1,0 @@
-obsoletion	^ obsoletion

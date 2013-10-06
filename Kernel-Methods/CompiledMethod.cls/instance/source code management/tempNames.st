@@ -1,1 +1,0 @@
-tempNames	^self methodNode tempNames.

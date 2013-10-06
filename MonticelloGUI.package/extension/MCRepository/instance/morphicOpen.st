@@ -1,0 +1,2 @@
+morphicOpen
+	self morphicOpen: nil

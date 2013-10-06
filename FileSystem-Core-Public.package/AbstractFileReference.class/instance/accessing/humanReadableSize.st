@@ -1,0 +1,2 @@
+humanReadableSize
+	^ self size humanReadableSIByteSize

@@ -1,0 +1,2 @@
+basicLocalSelectors: aSetOrNil
+	localSelectors := aSetOrNil

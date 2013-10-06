@@ -1,1 +1,0 @@
-minCellSize	^0

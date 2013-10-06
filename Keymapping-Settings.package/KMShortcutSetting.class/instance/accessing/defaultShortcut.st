@@ -1,0 +1,2 @@
+defaultShortcut
+	^ self keymap defaultShortcut

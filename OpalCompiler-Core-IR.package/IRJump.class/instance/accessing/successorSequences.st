@@ -1,0 +1,3 @@
+successorSequences
+
+	^ {destination. successor} 

@@ -1,0 +1,2 @@
+stretchWide
+	^6

@@ -1,0 +1,3 @@
+takeKeyboardFocus
+
+	^ self listModel takeKeyboardFocus

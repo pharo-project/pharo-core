@@ -1,0 +1,4 @@
+nanoSecond
+ 
+ 	^ self nanoSeconds
+ 

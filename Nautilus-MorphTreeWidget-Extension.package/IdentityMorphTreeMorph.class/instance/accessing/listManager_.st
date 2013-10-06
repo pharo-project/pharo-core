@@ -1,0 +1,3 @@
+listManager: aManager
+
+	listManager := aManager

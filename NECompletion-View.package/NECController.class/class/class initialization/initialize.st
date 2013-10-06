@@ -1,0 +1,2 @@
+initialize 
+	self register

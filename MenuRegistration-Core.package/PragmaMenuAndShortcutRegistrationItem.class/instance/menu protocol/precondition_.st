@@ -1,0 +1,3 @@
+precondition: aBlock
+	
+	precondition := aBlock 

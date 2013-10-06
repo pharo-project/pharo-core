@@ -1,1 +1,0 @@
-compilationContextClass: aClass	compilationContextClass := aClass.

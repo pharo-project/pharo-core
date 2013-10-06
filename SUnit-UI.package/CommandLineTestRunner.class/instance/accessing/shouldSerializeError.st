@@ -1,0 +1,2 @@
+shouldSerializeError
+	^ shouldSerializeError

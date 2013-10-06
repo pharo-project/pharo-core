@@ -1,0 +1,3 @@
+emptySelection
+	
+	self selection: nil

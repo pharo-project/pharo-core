@@ -1,0 +1,2 @@
+asBalloonCanvas
+	^self

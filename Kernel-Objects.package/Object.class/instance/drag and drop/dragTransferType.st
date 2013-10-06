@@ -1,0 +1,2 @@
+dragTransferType
+	^nil

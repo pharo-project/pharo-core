@@ -1,0 +1,3 @@
+bindings: anObject
+
+	bindings := anObject

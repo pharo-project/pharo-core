@@ -1,0 +1,2 @@
+selectorPatternsStyle
+	^ Groups at: #selectorPatterns

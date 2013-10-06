@@ -1,0 +1,2 @@
+rowMorphGetSelector: aSelector
+	rowMorphGetSelector := aSelector

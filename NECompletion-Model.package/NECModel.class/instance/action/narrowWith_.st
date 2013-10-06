@@ -1,0 +1,2 @@
+narrowWith: aString
+	self subclassResponsibility 

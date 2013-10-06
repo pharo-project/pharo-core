@@ -1,0 +1,2 @@
+commentStamp: aStamp
+	commentStamp := aStamp

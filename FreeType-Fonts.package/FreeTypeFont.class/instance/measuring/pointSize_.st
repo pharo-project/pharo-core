@@ -1,0 +1,2 @@
+pointSize: aSize
+	pointSize := aSize

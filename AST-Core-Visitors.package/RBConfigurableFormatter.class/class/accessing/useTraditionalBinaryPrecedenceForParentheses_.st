@@ -1,0 +1,2 @@
+useTraditionalBinaryPrecedenceForParentheses: aBoolean
+	UseTraditionalBinaryPrecedenceForParentheses := aBoolean

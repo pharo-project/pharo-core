@@ -1,0 +1,2 @@
+superclass
+	^ superclass

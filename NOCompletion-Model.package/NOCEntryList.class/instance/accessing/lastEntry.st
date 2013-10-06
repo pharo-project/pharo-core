@@ -1,0 +1,2 @@
+lastEntry
+	^ entryHead next

@@ -1,0 +1,2 @@
+initialize
+	handle := NBExternalHandle new

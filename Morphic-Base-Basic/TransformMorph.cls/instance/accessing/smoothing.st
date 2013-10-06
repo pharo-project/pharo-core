@@ -1,1 +1,0 @@
-smoothing	^smoothing

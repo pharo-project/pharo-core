@@ -1,1 +1,0 @@
-isWithSeparatorAfter		^ withSeparatorAfter

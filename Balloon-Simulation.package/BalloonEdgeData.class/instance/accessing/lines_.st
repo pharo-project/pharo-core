@@ -1,0 +1,2 @@
+lines: anInteger
+	^lines := anInteger

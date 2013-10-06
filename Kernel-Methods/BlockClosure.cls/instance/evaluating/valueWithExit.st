@@ -1,1 +1,0 @@
-valueWithExit 	  self value: [ ^nil ]

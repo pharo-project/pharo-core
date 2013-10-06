@@ -1,1 +1,0 @@
-order: anInteger	Order := anInteger

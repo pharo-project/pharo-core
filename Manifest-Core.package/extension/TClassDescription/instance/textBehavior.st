@@ -1,0 +1,2 @@
+textBehavior
+	^ nil

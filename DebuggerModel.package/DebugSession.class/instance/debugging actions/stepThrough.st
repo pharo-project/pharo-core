@@ -1,0 +1,3 @@
+stepThrough
+
+	self stepThrough: interruptedContext

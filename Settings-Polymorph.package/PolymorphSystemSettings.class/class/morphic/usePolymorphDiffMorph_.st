@@ -1,0 +1,2 @@
+usePolymorphDiffMorph: aBoolean
+	usePolymorphDiffMorph := aBoolean

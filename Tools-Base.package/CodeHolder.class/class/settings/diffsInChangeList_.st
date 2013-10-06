@@ -1,0 +1,2 @@
+diffsInChangeList: aBoolean
+	DiffsInChangeList := aBoolean

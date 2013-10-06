@@ -1,0 +1,2 @@
+shouldDisablePackageCache: anObject
+	disablePackageCache := anObject

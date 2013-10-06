@@ -1,1 +1,0 @@
-complexRaised	^ComplexBorder style: #complexRaised

@@ -1,1 +1,0 @@
-inStream: aStream	inStream := aStream

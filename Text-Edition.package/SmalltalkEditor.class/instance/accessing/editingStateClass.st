@@ -1,0 +1,2 @@
+editingStateClass
+	^ SmalltalkEditingState

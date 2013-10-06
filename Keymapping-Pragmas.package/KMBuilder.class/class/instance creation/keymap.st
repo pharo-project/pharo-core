@@ -1,0 +1,2 @@
+keymap
+	^self keymap: #all

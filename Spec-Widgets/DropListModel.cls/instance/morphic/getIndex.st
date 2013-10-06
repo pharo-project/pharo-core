@@ -1,1 +1,0 @@
-getIndex	^ selectionHolder index contents

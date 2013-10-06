@@ -1,1 +1,0 @@
-classVariableNames	^self privateClassVariableNames copy

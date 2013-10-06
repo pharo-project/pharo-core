@@ -1,0 +1,3 @@
+innerJoinStyle
+
+	^ innerJoinStyle

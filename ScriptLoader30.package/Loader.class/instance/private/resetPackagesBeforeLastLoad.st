@@ -1,0 +1,2 @@
+resetPackagesBeforeLastLoad
+	PackagesBeforeLastLoad := Set new

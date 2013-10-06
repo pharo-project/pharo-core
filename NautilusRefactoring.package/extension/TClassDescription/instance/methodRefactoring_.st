@@ -1,0 +1,2 @@
+methodRefactoring: aBuilder
+	^self explicitRequirement.

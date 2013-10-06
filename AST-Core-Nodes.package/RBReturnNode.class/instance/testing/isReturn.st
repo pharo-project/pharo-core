@@ -1,0 +1,2 @@
+isReturn
+	^true

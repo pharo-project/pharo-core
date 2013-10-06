@@ -1,0 +1,3 @@
+italic
+	
+	self changeEmphasis: #italic

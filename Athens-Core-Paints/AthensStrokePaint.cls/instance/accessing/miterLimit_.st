@@ -1,1 +1,0 @@
-miterLimit: anObject	miterLimit := anObject

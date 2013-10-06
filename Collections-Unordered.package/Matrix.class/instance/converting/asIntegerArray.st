@@ -1,0 +1,2 @@
+asIntegerArray
+	^contents asIntegerArray

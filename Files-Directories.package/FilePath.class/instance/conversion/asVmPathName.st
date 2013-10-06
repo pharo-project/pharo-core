@@ -1,0 +1,3 @@
+asVmPathName
+
+	^ vmPathName.

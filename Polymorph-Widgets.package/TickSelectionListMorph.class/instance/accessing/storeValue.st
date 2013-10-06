@@ -1,0 +1,3 @@
+storeValue
+
+	^ storeValue

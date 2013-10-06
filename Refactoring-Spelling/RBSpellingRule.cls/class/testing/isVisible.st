@@ -1,1 +1,0 @@
-isVisible	^ self name ~= #RBSpellingRule

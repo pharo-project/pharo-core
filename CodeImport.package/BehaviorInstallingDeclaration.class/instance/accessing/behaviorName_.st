@@ -1,0 +1,2 @@
+behaviorName: aBehaviorName
+	behaviorName := aBehaviorName

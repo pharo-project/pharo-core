@@ -1,1 +1,0 @@
-leftFraction: aNumber	^ 0

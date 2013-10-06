@@ -1,1 +1,0 @@
-layoutPolicy: aLayoutPolicy 		layoutPolicy := aLayoutPolicy

@@ -1,1 +1,0 @@
-rootToBuildFrom: anObject	rootToBuildFrom := anObject

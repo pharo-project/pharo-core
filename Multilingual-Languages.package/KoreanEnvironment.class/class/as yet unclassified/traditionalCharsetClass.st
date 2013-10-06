@@ -1,0 +1,3 @@
+traditionalCharsetClass
+
+	^ KSX1001.

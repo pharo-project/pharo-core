@@ -1,0 +1,2 @@
+fileSystem
+	^ self resolve fileSystem

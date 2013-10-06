@@ -1,0 +1,3 @@
+doItReceiver
+
+	^object receiver

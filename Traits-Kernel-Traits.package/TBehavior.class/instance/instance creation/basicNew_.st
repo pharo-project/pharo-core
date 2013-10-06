@@ -1,0 +1,2 @@
+basicNew: sizeRequested 
+	^self explicitRequirement.

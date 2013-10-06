@@ -1,1 +1,0 @@
-clipWidth	^clipWidth

@@ -1,1 +1,0 @@
-hash	^ store hash

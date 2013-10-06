@@ -1,0 +1,2 @@
+lastImagePath
+	^ Smalltalk lastImagePath

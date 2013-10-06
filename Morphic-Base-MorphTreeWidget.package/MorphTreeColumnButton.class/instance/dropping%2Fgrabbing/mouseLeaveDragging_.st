@@ -1,0 +1,2 @@
+mouseLeaveDragging: evt
+	self noMorePotentialDropTarget 

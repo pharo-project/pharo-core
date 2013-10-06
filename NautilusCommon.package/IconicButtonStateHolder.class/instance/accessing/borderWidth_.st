@@ -1,0 +1,2 @@
+borderWidth: anObject
+	borderWidth := anObject

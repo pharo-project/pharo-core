@@ -1,1 +1,0 @@
-weightedAverage 	^weightedAverage 

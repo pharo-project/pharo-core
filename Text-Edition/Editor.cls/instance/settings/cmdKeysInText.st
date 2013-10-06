@@ -1,1 +1,0 @@
-cmdKeysInText	^ self class cmdKeysInText

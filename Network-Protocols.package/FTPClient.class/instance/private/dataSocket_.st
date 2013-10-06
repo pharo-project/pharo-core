@@ -1,0 +1,2 @@
+dataSocket: aSocket
+	dataSocket := aSocket

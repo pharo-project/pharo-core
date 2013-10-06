@@ -1,1 +1,0 @@
-isSupported	^ self primitiveGetUniqueSpellingTag notNil

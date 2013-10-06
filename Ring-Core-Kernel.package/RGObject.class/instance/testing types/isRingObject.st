@@ -1,0 +1,3 @@
+isRingObject
+
+	^true

@@ -1,1 +1,0 @@
-getClassesList	^ self model classes

@@ -1,1 +1,0 @@
-addVersion: aVersion	self subclassResponsibility 

@@ -1,0 +1,3 @@
+classTraitComposition
+	^classTraitComposition
+

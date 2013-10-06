@@ -1,1 +1,0 @@
-getCharMap	self primGetCharMap.

@@ -1,0 +1,2 @@
+mustCheckForSlips: aBoolean
+	MustCheckForSlips := aBoolean

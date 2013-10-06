@@ -1,1 +1,0 @@
-destination: aSequence	destination := aSequence

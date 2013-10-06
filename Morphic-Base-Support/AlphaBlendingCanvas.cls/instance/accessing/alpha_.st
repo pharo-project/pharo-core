@@ -1,1 +1,0 @@
-alpha: newAlpha	alpha := newAlpha.

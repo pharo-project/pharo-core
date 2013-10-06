@@ -1,1 +1,0 @@
-classVariableForTesting: anObject		ClassVariableForTesting := anObject 

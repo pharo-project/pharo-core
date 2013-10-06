@@ -1,1 +1,0 @@
-platformName	^ self name

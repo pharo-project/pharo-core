@@ -1,1 +1,0 @@
-coloredCarColor	^ Color red

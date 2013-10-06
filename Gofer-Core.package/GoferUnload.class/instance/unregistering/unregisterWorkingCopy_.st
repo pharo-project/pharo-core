@@ -1,0 +1,2 @@
+unregisterWorkingCopy: aWorkingCopy
+	aWorkingCopy unregister

@@ -1,0 +1,2 @@
+clearChoice
+	isApplicable := nil

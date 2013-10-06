@@ -1,0 +1,2 @@
+curvierByDefault: aBoolean
+	CurvierByDefault := aBoolean

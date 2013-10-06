@@ -1,0 +1,2 @@
+classTraitCompositionString
+	^self classTraitComposition ifNil: ['{}'].

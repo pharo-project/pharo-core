@@ -1,1 +1,0 @@
-normalizedX: x	^ x

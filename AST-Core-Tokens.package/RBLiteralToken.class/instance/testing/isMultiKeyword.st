@@ -1,0 +1,2 @@
+isMultiKeyword
+	^false

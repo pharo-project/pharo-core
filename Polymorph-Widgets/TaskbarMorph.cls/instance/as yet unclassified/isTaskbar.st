@@ -1,1 +1,0 @@
-isTaskbar	"Answer true."	^true

@@ -1,0 +1,3 @@
+labelClickable
+	
+	^ labelClickableHolder contents

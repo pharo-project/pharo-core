@@ -1,0 +1,2 @@
+hostClass
+	^ host class

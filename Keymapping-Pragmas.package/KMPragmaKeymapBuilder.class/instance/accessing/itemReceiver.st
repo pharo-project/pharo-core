@@ -1,0 +1,2 @@
+itemReceiver
+	^ model

@@ -1,0 +1,3 @@
+asText
+
+	^ self asString asText

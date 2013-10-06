@@ -1,0 +1,3 @@
+metacelloStringLessThanSelf: aString
+
+	^aString < self

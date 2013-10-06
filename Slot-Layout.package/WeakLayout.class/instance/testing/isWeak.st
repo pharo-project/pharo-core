@@ -1,0 +1,2 @@
+isWeak
+	^ true

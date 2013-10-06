@@ -1,0 +1,3 @@
+hasNext
+
+	^ index < storage size

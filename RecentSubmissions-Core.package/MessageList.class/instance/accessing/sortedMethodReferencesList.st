@@ -1,0 +1,3 @@
+sortedMethodReferencesList
+
+	^sortedMethodReferencesList

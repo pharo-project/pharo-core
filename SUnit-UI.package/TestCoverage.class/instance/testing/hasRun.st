@@ -1,0 +1,2 @@
+hasRun
+	^ hasRun

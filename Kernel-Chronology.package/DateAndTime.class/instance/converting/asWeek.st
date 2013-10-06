@@ -1,0 +1,3 @@
+asWeek
+
+	^ Week starting: self 

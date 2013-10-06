@@ -1,0 +1,3 @@
+sourceCode
+
+	^ self sourceText.

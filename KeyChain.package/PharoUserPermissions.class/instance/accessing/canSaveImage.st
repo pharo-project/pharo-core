@@ -1,0 +1,2 @@
+canSaveImage
+	^ canSaveImage

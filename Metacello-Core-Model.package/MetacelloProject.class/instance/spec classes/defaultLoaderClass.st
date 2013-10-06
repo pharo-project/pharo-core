@@ -1,0 +1,3 @@
+defaultLoaderClass
+
+	^MetacelloSpecLoader

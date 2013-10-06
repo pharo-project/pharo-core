@@ -1,0 +1,3 @@
+isSelectedMatchingTheState: aBoolean
+
+	^ aBoolean

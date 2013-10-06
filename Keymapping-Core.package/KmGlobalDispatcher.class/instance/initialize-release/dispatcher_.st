@@ -1,0 +1,2 @@
+dispatcher: aDispatcher
+	dispatcher := aDispatcher

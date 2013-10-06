@@ -1,0 +1,2 @@
+browseButtonLabel
+	^'Browse'

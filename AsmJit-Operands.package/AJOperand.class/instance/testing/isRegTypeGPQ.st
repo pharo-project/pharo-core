@@ -1,0 +1,2 @@
+isRegTypeGPQ
+	^ self isRegType: RegGPQ

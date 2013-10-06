@@ -1,0 +1,2 @@
+morphicConfigure
+	^ self new

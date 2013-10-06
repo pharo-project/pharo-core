@@ -1,1 +1,0 @@
-referenceScopesAndIndicesDo: aBinaryBlock	self shouldNotImplement

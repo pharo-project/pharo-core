@@ -1,0 +1,3 @@
+setDescriptionInMetacelloConfig: aMetacelloConfig
+
+	aMetacelloConfig setDescriptionWithString: self

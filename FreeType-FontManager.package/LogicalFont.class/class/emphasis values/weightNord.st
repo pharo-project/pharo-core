@@ -1,0 +1,2 @@
+weightNord
+	^900

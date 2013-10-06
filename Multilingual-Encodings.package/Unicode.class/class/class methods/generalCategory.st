@@ -1,0 +1,4 @@
+generalCategory
+
+	^ GeneralCategory.
+

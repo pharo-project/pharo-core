@@ -1,1 +1,0 @@
-next: anObject	next := anObject

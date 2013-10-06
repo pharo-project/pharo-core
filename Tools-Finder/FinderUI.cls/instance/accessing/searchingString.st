@@ -1,1 +1,0 @@
-searchingString	^self finder searchingString

@@ -1,0 +1,2 @@
+poolDictionaryNames
+	^self privatePoolDictionaryNames copy

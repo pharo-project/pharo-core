@@ -1,1 +1,0 @@
-instanceVariableNames: instVarString	"Compatibility purposes"

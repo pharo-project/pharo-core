@@ -1,1 +1,0 @@
-wantsLineEndConversion	^wantsLineEndConversion == true

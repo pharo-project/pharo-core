@@ -1,1 +1,0 @@
-browseWithPrettyPrint	^ self class browseWithPrettyPrint 

@@ -1,0 +1,2 @@
+isTransparent
+	^ alpha = 0

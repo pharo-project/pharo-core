@@ -1,0 +1,2 @@
+integerConstantArgument: aValue
+	^ aValue

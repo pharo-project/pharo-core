@@ -1,1 +1,0 @@
-removals: anObject	removals := anObject

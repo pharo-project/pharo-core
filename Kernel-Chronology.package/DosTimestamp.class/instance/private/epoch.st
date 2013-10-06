@@ -1,0 +1,3 @@
+epoch
+
+	^ self class epoch.

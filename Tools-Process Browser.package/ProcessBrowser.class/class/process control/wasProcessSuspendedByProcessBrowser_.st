@@ -1,0 +1,2 @@
+wasProcessSuspendedByProcessBrowser: aProcess
+	^self suspendedProcesses includesKey: aProcess

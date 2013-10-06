@@ -1,0 +1,2 @@
+isLocal
+	^ false

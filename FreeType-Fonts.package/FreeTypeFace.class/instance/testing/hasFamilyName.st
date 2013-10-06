@@ -1,0 +1,2 @@
+hasFamilyName
+	^super familyName notNil

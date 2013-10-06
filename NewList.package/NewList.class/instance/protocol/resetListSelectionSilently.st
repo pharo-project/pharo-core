@@ -1,0 +1,3 @@
+resetListSelectionSilently
+	
+	selectedIndexes removeAll

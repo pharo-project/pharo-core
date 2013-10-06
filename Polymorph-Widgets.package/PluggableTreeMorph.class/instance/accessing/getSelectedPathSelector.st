@@ -1,0 +1,2 @@
+getSelectedPathSelector
+	^getSelectedPathSelector

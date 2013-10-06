@@ -1,0 +1,2 @@
+variablesCount
+	^ 10

@@ -1,0 +1,4 @@
+createNewClass
+	self
+		addClass;
+		addInstanceVariables

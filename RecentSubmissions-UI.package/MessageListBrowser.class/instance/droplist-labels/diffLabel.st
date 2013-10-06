@@ -1,0 +1,3 @@
+diffLabel
+
+	^'Diffs'

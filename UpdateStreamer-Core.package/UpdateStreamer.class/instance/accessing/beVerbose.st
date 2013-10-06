@@ -1,0 +1,3 @@
+beVerbose
+
+	silent := false

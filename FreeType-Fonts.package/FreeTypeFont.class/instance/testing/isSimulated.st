@@ -1,0 +1,2 @@
+isSimulated
+	^simulatedEmphasis notNil

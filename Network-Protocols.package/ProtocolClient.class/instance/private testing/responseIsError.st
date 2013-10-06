@@ -1,0 +1,2 @@
+responseIsError
+	self subclassResponsibility

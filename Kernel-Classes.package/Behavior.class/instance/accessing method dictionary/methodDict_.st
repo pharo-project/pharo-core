@@ -1,0 +1,2 @@
+methodDict: aDictionary
+	methodDict := aDictionary

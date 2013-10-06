@@ -1,1 +1,0 @@
-scrollDeltaHeight	^ scroller firstSubmorph height

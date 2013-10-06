@@ -1,0 +1,2 @@
+CtrlQ
+	^CtrlQ

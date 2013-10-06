@@ -1,0 +1,2 @@
+uri: aURI
+	uri := aURI

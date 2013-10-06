@@ -1,0 +1,3 @@
+newClassName: anObject
+
+	name := anObject

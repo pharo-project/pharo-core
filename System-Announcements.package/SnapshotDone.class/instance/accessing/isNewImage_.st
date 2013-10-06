@@ -1,0 +1,2 @@
+isNewImage: anObject
+	isNewImage := anObject

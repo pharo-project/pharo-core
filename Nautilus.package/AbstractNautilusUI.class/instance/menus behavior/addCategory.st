@@ -1,0 +1,2 @@
+addCategory
+	^ self subclassResponsibility

@@ -1,0 +1,2 @@
+asSocketAddress
+	^SocketAddress fromOldByteAddress: self

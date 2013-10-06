@@ -1,0 +1,2 @@
+methodRefs
+	^ #()

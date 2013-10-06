@@ -1,0 +1,3 @@
+systemNavigationToTest
+	^navigator
+	

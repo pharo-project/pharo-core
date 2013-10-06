@@ -1,0 +1,3 @@
+materialize: fuelFileReference
+
+	FLMaterializer materializeFromFileNamed: fuelFileReference fullName

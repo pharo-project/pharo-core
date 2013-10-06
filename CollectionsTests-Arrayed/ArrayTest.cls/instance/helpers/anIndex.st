@@ -1,1 +1,0 @@
-anIndex	^ 2

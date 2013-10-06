@@ -1,0 +1,2 @@
+model: aModel
+	model := aModel

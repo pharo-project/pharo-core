@@ -1,0 +1,3 @@
+packagesWithoutExtensions
+
+	^ self packageOrganizer packagesWithoutExtensions

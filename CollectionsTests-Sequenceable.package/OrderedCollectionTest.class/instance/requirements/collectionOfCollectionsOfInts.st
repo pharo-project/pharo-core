@@ -1,0 +1,2 @@
+collectionOfCollectionsOfInts
+	^collectionOfCollectionsOfInts.

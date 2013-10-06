@@ -1,0 +1,2 @@
+lastVertex
+	^vertices last

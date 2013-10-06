@@ -1,1 +1,0 @@
-descent	^baseFont descent

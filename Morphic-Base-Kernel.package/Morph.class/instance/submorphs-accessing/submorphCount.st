@@ -1,0 +1,3 @@
+submorphCount
+
+	^ submorphs size

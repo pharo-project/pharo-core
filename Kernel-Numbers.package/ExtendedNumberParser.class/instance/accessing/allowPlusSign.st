@@ -1,0 +1,2 @@
+allowPlusSign
+	^true

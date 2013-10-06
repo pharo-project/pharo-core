@@ -1,1 +1,0 @@
-goferPriority	^ 0

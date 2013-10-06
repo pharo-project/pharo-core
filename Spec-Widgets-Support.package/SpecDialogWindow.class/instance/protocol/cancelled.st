@@ -1,0 +1,3 @@
+cancelled
+
+	^ self toolbar cancelled

@@ -1,0 +1,3 @@
+removeState
+
+	^ self selectedGroup notNil

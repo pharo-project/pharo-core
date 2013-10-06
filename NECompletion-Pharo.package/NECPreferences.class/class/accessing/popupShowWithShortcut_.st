@@ -1,0 +1,2 @@
+popupShowWithShortcut: anObject
+	popupShowWithShortcut := anObject

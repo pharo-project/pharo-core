@@ -1,0 +1,3 @@
+keystrokeActionSelector: aSelectorOrBlock
+
+	keystrokeActionSelector := aSelectorOrBlock

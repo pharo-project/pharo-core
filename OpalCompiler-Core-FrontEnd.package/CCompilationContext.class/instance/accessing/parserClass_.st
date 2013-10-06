@@ -1,0 +1,2 @@
+parserClass: anObject
+	parserClass := anObject

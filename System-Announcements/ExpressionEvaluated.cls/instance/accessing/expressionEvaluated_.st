@@ -1,1 +1,0 @@
-expressionEvaluated: anObject		expressionEvaluated := anObject

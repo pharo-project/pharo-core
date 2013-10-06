@@ -1,0 +1,2 @@
+changeString
+	^self class name

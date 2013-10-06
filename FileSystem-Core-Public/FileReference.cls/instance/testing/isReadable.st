@@ -1,1 +1,0 @@
-isReadable	^ filesystem isReadable: path

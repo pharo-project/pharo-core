@@ -1,1 +1,0 @@
-ownFieldSize	self subclassResponsibility

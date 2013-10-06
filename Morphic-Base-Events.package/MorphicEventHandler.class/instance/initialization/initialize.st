@@ -1,0 +1,2 @@
+initialize
+	subscriptions := Dictionary new.

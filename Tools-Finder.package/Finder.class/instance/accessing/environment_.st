@@ -1,0 +1,3 @@
+environment: aCollection
+
+	 environment := aCollection

@@ -1,1 +1,0 @@
-textArea: anObject	textArea := anObject

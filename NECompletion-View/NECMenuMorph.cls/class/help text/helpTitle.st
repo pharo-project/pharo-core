@@ -1,1 +1,0 @@
-helpTitle	^ 'Completion Keyboard Help'

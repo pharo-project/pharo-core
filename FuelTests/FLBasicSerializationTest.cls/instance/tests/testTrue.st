@@ -1,1 +1,0 @@
-testTrue	self assertSerializationIdentityOf: true

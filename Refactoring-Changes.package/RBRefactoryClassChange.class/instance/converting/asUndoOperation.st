@@ -1,0 +1,2 @@
+asUndoOperation
+	^self subclassResponsibility

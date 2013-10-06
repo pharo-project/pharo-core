@@ -1,1 +1,0 @@
-preferRoundCornerByDefault	^ true

@@ -1,0 +1,2 @@
+selectionRects
+	^ #()

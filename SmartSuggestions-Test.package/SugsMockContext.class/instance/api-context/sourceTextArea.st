@@ -1,0 +1,2 @@
+sourceTextArea
+	^ PluggableTextMorph new.

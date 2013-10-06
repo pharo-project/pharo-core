@@ -1,0 +1,2 @@
+selectedMethod
+	^model owner selectedMessage.

@@ -1,1 +1,0 @@
-testObjectClass	self verifyClass: Object

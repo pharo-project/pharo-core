@@ -1,0 +1,2 @@
+intoWorldCount
+	^intoWorldCount

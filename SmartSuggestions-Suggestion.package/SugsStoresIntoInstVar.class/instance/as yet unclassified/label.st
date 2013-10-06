@@ -1,0 +1,2 @@
+label
+	^'Stores Into...' translated

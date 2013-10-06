@@ -1,1 +1,0 @@
-firstCollection	^ nonEmpty.

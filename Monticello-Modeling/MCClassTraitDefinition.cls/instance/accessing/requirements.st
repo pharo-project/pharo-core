@@ -1,1 +1,0 @@
-requirements	^Array with: baseTrait

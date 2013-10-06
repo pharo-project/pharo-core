@@ -1,1 +1,0 @@
-isMenuOpen	^menuMorph notNil

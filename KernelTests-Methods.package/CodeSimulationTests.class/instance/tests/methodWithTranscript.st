@@ -1,0 +1,2 @@
+methodWithTranscript
+	Transcript show: 'something'

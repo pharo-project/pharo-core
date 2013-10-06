@@ -1,1 +1,0 @@
-browseWithPrettyPrint: aBoolean	BrowseWithPrettyPrint := aBoolean

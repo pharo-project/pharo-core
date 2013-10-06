@@ -1,1 +1,0 @@
-pathName	^pathName

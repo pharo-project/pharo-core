@@ -1,0 +1,18 @@
+encode: readStream to: writeStream
+	| bytes buffer byte |
+	buffer := (bytes := ByteArray new: 4) writeStream.
+	self safeSet; characterEncoder.
+	[ readStream atEnd ]
+		whileFalse: [ 
+			buffer reset.
+			characterEncoder nextPut: readStream next toStream: buffer.
+			1 to: buffer position do: [ :index | 
+				(safeSet includes: (byte := bytes at: index))
+					ifTrue: [ writeStream nextPut: byte asCharacter ]
+					ifFalse: [
+						byte = 58 "$: asInteger"
+							ifTrue: [ writeStream nextPut: $_ ]
+							ifFalse: [ 
+								writeStream nextPut: $%.
+								byte printOn: writeStream base: 16 length: 2 padded: true ]]]].
+		writeStream nextPutAll: '.st'.

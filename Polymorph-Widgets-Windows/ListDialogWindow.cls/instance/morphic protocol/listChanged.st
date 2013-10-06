@@ -1,1 +1,0 @@
-listChanged	self changed: #list.

@@ -1,1 +1,0 @@
-label	^ 'Extract local' translated

@@ -1,1 +1,0 @@
-currentScope 	^currentScope top

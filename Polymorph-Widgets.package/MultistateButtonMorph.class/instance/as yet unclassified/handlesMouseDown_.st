@@ -1,0 +1,4 @@
+handlesMouseDown: evt
+	"Yes."
+	
+	^true

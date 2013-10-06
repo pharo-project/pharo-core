@@ -1,1 +1,0 @@
-tempIndex	^ tempIndex

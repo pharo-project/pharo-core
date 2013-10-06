@@ -1,1 +1,0 @@
-pointSize: aNumber	pointSize := aNumber

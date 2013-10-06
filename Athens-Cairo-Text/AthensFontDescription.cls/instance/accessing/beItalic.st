@@ -1,1 +1,0 @@
-beItalic	self slant: #italic

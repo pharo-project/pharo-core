@@ -1,0 +1,2 @@
+initializeWithDefinitions: aCollection
+	definitions := aCollection.

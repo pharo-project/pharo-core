@@ -1,0 +1,13 @@
+testNotInteractiveInBlockArgumentInstanceVariableShadowing
+
+	interactive := false.
+	self initializeErrorMessage.
+
+	OpalCompiler new 
+		compile: 'temp [:var1 | ]'
+		in: MockForCompilation
+		classified: nil
+		notifying: self
+		ifFail: nil.
+		self assert: ( newTranscript contents = '
+MockForCompilation>>temp(var1 is shadowed)').

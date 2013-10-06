@@ -1,0 +1,3 @@
+emitValue: methodBuilder
+
+	self subclassResponsibility

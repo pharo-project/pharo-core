@@ -1,1 +1,0 @@
-packagesIconsCache: anObject			PackagesIconsCache := anObject

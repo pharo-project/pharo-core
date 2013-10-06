@@ -1,0 +1,2 @@
+baseClass
+	^ TestCase

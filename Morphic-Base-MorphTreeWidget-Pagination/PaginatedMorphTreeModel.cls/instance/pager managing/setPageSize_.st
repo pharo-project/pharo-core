@@ -1,1 +1,0 @@
-setPageSize: anIntegerOrNil	pageSize := anIntegerOrNil.

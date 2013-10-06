@@ -1,0 +1,5 @@
+RBRefactoring subclass: #RBExpandReferencedPoolsRefactoring
+	instanceVariableNames: 'pools fromClass parseTree toClasses'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Refactoring-Core-Refactorings'

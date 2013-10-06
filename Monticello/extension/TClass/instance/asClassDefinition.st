@@ -1,1 +1,0 @@
-asClassDefinition	^self explicitRequirement.

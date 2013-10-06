@@ -1,1 +1,0 @@
-initialize	default := ExactFloatPrintPolicy new

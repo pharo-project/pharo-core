@@ -1,0 +1,3 @@
+inspectedClass
+
+	^ descriptionHolder contents addClassDescription

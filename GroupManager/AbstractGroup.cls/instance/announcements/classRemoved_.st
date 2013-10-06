@@ -1,1 +1,0 @@
-classRemoved: anAnnouncement	self subclassResponsibility

@@ -1,0 +1,2 @@
+nuke
+	RecursiveSelfRule := nil

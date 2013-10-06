@@ -1,0 +1,3 @@
+operator
+
+	^self loader operator

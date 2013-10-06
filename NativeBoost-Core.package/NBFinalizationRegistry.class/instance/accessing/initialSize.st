@@ -1,0 +1,2 @@
+initialSize
+	^ 100

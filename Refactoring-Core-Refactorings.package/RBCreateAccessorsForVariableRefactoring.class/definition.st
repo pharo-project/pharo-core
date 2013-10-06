@@ -1,0 +1,5 @@
+RBVariableRefactoring subclass: #RBCreateAccessorsForVariableRefactoring
+	instanceVariableNames: 'getterMethod setterMethod classVariable needsReturn'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Refactoring-Core-Refactorings'

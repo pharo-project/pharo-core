@@ -1,1 +1,0 @@
-asActionSequence	^self

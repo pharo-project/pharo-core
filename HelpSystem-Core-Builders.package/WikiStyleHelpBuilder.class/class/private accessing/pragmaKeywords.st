@@ -1,0 +1,2 @@
+pragmaKeywords
+	 ^#(wikiStyleHelp: wikiStyleHelp:syntax:)

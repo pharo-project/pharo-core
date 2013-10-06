@@ -1,1 +1,0 @@
-workingDirectoryPath	^ workingDirectory

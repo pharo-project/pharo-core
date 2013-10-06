@@ -1,0 +1,3 @@
+primitiveFailTokenFor: errorCode
+
+	^ { PrimitiveFailToken. errorCode }

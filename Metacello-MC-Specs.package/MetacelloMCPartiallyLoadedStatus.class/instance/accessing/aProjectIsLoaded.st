@@ -1,0 +1,2 @@
+aProjectIsLoaded
+	^aProjectIsLoaded

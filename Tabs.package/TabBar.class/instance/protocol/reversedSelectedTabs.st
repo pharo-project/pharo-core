@@ -1,0 +1,3 @@
+reversedSelectedTabs
+
+	^ selectionHistory last: numberOfSelectedTabs

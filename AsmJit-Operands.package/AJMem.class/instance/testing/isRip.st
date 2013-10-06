@@ -1,0 +1,2 @@
+isRip
+	^ self base isRip

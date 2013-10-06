@@ -1,0 +1,2 @@
+waitForInput
+	inputSemaphore wait.

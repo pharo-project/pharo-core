@@ -1,1 +1,0 @@
-resizeScrollBars	self vResizeScrollBar; hResizeScrollBar

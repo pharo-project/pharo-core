@@ -1,0 +1,2 @@
+viewResults
+	result openEditor

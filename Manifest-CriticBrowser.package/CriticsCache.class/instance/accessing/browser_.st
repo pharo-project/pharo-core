@@ -1,0 +1,2 @@
+browser: aCodeCritiicBrowser
+	browser := aCodeCritiicBrowser 

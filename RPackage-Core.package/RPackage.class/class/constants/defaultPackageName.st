@@ -1,0 +1,2 @@
+defaultPackageName
+	^ #'_UnpackagedPackage'

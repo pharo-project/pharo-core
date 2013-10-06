@@ -1,0 +1,2 @@
+maxTabs
+	^maxTabs

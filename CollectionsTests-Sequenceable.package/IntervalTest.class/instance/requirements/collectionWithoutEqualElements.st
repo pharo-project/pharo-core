@@ -1,0 +1,2 @@
+collectionWithoutEqualElements
+	^ nonEmpty 

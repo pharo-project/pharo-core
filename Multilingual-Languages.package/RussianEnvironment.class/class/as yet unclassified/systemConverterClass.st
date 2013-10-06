@@ -1,0 +1,3 @@
+systemConverterClass
+
+	^ UTF8TextConverter

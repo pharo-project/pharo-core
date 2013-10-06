@@ -1,0 +1,2 @@
+versionSpec: anObject
+	versionSpec := anObject

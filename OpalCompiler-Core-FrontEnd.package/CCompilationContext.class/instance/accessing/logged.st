@@ -1,0 +1,2 @@
+logged
+	^logged ifNil: [ false ].

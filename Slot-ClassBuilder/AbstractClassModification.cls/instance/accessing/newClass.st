@@ -1,1 +1,0 @@
-newClass	^ newClass

@@ -1,1 +1,0 @@
-byteCodeLabel	^ 'Byte Code'

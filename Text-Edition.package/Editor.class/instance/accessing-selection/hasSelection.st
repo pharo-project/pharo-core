@@ -1,0 +1,2 @@
+hasSelection
+	^self hasCaret not

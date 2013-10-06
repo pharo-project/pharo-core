@@ -1,1 +1,0 @@
-doubleClickTime	^ DoubleClickTime

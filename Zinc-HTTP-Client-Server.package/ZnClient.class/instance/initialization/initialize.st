@@ -1,0 +1,2 @@
+initialize
+	request := ZnRequest empty

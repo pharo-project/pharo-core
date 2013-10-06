@@ -1,1 +1,0 @@
-fieldSize	^ 0

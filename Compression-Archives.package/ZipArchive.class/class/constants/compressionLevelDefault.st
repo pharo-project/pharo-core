@@ -1,0 +1,2 @@
+compressionLevelDefault
+	^CompressionLevelDefault

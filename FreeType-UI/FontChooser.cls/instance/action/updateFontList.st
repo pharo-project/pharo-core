@@ -1,1 +1,0 @@
-updateFontList	FreeTypeFontProvider current updateFromSystem.	self refreshFontList

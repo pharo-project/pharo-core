@@ -1,0 +1,2 @@
+isDiffy
+	^ true

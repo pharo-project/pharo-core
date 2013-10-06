@@ -1,0 +1,3 @@
+hardResetBindings
+
+	bindings := nil

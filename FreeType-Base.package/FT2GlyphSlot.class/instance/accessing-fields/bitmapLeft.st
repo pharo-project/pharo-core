@@ -1,0 +1,2 @@
+bitmapLeft
+	^bitmapLeft

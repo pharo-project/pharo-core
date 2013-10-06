@@ -1,0 +1,2 @@
+resetCachedSymbols
+	cachedSymbols := nil

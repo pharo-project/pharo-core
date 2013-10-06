@@ -1,1 +1,0 @@
-commonPragma	^'nautilusGlobalCommonMenu'

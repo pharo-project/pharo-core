@@ -1,0 +1,2 @@
+buildPackagesTree
+	^ self defaultTreeMorph

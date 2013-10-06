@@ -1,1 +1,0 @@
-fontNumber	^ fontNumber

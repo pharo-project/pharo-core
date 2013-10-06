@@ -1,0 +1,3 @@
+classToBeTested
+
+	^ SmallDictionary

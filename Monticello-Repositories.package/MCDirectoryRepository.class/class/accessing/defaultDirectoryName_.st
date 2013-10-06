@@ -1,0 +1,2 @@
+defaultDirectoryName: aDirectoryName
+	DefaultDirectoryName := aDirectoryName.

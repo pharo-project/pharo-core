@@ -1,0 +1,2 @@
+startOfLine
+	^ self cr

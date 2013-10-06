@@ -1,0 +1,2 @@
+packageExtension
+	^ PackageExtensionEntry package: self

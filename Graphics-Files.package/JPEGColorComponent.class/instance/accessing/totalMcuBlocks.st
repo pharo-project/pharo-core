@@ -1,0 +1,3 @@
+totalMcuBlocks
+
+	^ heightInBlocks * widthInBlocks

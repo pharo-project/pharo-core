@@ -1,0 +1,3 @@
+newButtonRow
+
+	^ self toolbar buildWithSpec

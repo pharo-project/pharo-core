@@ -1,0 +1,2 @@
+replaceText
+	^ replaceText ifNil: [replaceText := '']

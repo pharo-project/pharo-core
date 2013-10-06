@@ -1,1 +1,0 @@
-currentClassOrMetaClass	^ self currentContext classOrMetaClass

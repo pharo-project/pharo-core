@@ -1,0 +1,3 @@
+packageClass
+
+	^RGPackage

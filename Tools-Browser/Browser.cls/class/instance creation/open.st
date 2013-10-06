@@ -1,1 +1,0 @@
-open	^self openBrowser

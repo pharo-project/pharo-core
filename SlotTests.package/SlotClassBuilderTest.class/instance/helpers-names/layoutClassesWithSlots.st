@@ -1,0 +1,2 @@
+layoutClassesWithSlots
+	^ { PointerLayout. VariableLayout. WeakLayout }

@@ -1,0 +1,2 @@
+removeClass: aClass
+	aClass removeFromSystem.

@@ -1,1 +1,0 @@
-testRootPrintString	| path actual |	path := Path root.	actual := path printString.	self assert: actual = 'Path root'

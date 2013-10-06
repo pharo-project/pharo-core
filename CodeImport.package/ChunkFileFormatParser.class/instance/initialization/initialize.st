@@ -1,0 +1,2 @@
+initialize
+	parsedDeclarations := OrderedCollection new.

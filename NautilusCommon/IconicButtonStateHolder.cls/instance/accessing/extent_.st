@@ -1,1 +1,0 @@
-extent: anObject	extent := anObject

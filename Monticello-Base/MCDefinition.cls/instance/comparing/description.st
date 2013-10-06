@@ -1,1 +1,0 @@
-description	self subclassResponsibility

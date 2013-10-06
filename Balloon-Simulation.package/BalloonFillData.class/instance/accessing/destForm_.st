@@ -1,0 +1,2 @@
+destForm: aForm
+	destForm := aForm

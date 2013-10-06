@@ -1,0 +1,2 @@
+classOne
+	^ 1

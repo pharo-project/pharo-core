@@ -1,1 +1,0 @@
-getPresentation	^ presentation contents.

@@ -1,1 +1,0 @@
-errorBlock: anObject	errorBlock := anObject

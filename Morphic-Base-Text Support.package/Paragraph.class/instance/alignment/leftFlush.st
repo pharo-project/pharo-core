@@ -1,0 +1,2 @@
+leftFlush 
+	textStyle leftFlush

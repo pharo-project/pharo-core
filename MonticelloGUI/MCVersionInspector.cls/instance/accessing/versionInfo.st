@@ -1,1 +1,0 @@
-versionInfo	^ self version info

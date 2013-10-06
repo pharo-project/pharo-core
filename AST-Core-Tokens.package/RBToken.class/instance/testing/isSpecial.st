@@ -1,0 +1,2 @@
+isSpecial
+	^false

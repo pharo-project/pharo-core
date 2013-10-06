@@ -1,0 +1,2 @@
+wordSize
+	^ Smalltalk vm wordSize

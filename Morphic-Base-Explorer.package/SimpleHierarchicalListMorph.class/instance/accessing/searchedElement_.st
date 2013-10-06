@@ -1,0 +1,3 @@
+searchedElement: anElement
+
+	searchedElement := anElement.

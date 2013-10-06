@@ -1,0 +1,3 @@
+errorNotification
+
+	^ compilationContext interactive

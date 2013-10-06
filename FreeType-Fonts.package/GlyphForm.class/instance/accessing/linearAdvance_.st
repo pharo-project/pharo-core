@@ -1,0 +1,2 @@
+linearAdvance: aNumber
+	^linearAdvance := aNumber

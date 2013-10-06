@@ -1,0 +1,2 @@
+bookName
+	^'Announcements framework'

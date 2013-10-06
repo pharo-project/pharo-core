@@ -1,0 +1,3 @@
+methodPragmaUnarayMessage
+	^'methodPragmaUnarayMessage
+		<hello>'

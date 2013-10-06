@@ -1,0 +1,2 @@
+fullName
+	^ Author uniqueInstance fullName

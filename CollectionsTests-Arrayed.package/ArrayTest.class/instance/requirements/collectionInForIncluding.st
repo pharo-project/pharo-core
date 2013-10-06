@@ -1,0 +1,2 @@
+collectionInForIncluding
+	^ self nonEmpty copyWithoutFirst.

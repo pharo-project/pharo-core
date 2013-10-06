@@ -1,0 +1,2 @@
+locked: anObject
+	locked := anObject

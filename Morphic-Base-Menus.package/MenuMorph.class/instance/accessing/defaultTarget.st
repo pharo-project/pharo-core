@@ -1,0 +1,2 @@
+defaultTarget
+	^defaultTarget

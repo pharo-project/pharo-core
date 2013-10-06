@@ -1,0 +1,2 @@
+selectedIndex
+	^ list selectedIndex

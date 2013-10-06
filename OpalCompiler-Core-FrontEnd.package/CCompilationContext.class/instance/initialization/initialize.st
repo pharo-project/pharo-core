@@ -1,0 +1,2 @@
+initialize
+	options := Set new

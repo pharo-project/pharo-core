@@ -1,0 +1,2 @@
+theClass
+	^theClass

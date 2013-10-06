@@ -1,0 +1,2 @@
+beBold
+	self weight: #bold

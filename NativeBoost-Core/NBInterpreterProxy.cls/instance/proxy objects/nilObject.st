@@ -1,1 +1,0 @@
-nilObject		^ self simpleCall

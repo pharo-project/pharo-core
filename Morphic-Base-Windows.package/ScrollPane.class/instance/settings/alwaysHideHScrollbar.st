@@ -1,0 +1,2 @@
+alwaysHideHScrollbar
+	^ self class alwaysHideHScrollbar

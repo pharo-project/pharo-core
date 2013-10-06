@@ -1,0 +1,2 @@
+initialize
+	self customStyleTable: SHTextStylerST80 defaultStyleTable

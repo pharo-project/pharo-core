@@ -1,0 +1,3 @@
+textModel: anObject
+	
+	textModel := anObject

@@ -1,0 +1,3 @@
+doubleClick
+
+	self item browse

@@ -1,1 +1,0 @@
-platform: aPlatform	platform := aPlatform

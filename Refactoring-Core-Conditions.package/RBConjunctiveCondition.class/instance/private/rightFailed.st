@@ -1,0 +1,2 @@
+rightFailed
+	^right errorStringFor: false

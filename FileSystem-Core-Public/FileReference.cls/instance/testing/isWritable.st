@@ -1,1 +1,0 @@
-isWritable	^ filesystem isWritable: path

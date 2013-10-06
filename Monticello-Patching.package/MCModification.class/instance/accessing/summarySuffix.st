@@ -1,0 +1,2 @@
+summarySuffix
+	^ modification summarySuffixOver: obsoletion

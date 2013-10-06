@@ -1,0 +1,2 @@
+isPatternVariable
+	^false

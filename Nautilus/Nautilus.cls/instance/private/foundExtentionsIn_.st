@@ -1,1 +1,0 @@
-foundExtentionsIn: aClass	^ aClass extendingPackages.

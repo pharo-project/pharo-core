@@ -1,0 +1,3 @@
+abbreviation: aString
+
+	abbreviation := aString

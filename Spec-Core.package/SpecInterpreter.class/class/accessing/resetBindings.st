@@ -1,0 +1,3 @@
+resetBindings
+
+	self bindings resetBinding

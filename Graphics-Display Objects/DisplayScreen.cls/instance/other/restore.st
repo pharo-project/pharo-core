@@ -1,1 +1,0 @@
-restore		UIManager default restoreDisplay

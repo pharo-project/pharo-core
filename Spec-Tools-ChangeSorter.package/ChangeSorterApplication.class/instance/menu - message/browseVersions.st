@@ -1,0 +1,10 @@
+browseVersions
+	"Create and schedule a changelist browser on the versions of the 
+	selected message."
+	
+	self selectedClass ifNotNil: [:class |
+		self selectedSelector ifNotNil: [:selector || method |
+			method := class methodDict 
+								at: selector 
+								ifAbsent: [ ^ self inform: 'Sorry, only actual methods have retrievable versions.' ].
+			self model browseVersionsFrom: method ]]

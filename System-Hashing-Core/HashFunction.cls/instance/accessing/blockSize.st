@@ -1,1 +1,0 @@
-blockSize	^ self class blockSize

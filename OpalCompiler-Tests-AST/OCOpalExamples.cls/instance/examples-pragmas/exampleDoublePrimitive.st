@@ -1,1 +1,0 @@
-exampleDoublePrimitive	<primitive: 1>

@@ -1,1 +1,0 @@
-astTranslatorClass: anObject	astTranslatorClass := anObject

@@ -1,0 +1,3 @@
+callsUntilHaltOnCount: anInteger
+
+	callsUntilHaltOnCount := anInteger.

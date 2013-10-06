@@ -1,1 +1,0 @@
-clear	list := next := nil.

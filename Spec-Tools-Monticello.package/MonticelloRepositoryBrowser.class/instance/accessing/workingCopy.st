@@ -1,0 +1,2 @@
+workingCopy
+	^ workingCopies selectedItem

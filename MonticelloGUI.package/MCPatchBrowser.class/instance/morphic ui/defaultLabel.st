@@ -1,0 +1,2 @@
+defaultLabel
+	^ 'Patch Browser'

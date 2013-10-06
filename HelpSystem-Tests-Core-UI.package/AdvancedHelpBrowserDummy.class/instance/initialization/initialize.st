@@ -1,0 +1,2 @@
+initialize
+	isOpen := false

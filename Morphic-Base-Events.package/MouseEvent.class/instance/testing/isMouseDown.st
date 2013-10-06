@@ -1,0 +1,2 @@
+isMouseDown
+	^self type == #mouseDown

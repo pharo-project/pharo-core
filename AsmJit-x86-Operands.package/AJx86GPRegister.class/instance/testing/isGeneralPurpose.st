@@ -1,0 +1,2 @@
+isGeneralPurpose
+	^ true

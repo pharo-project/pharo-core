@@ -1,0 +1,3 @@
+setMultipleSelection: aBoolean
+
+	multipleSelection := aBoolean

@@ -1,1 +1,0 @@
-allowMenuOnNoItem	^ allowMenuOnNoItem contents

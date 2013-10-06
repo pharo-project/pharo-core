@@ -1,0 +1,2 @@
+slotScope
+	^ slotScope

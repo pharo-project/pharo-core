@@ -1,1 +1,0 @@
-languageEnvironment	^ SimplifiedChineseEnvironment.

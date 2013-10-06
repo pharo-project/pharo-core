@@ -1,0 +1,2 @@
+removedCategoryName
+	^'*** removed methods ***' asSymbol

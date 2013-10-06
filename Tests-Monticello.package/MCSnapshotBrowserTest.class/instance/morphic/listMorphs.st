@@ -1,0 +1,2 @@
+listMorphs
+	^ self morphsOfClass: PluggableListMorph

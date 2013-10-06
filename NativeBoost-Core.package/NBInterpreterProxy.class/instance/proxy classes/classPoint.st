@@ -1,0 +1,3 @@
+classPoint
+	
+	^ self simpleCall

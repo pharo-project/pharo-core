@@ -1,0 +1,2 @@
+arguments
+	^ self commandLine arguments

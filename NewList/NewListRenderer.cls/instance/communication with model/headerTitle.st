@@ -1,1 +1,0 @@
-headerTitle	^ self listSource headerTitle

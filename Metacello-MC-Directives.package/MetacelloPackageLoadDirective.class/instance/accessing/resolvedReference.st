@@ -1,0 +1,2 @@
+resolvedReference
+	^ resolvedReference

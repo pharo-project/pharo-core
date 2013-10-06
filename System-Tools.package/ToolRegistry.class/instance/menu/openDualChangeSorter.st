@@ -1,0 +1,2 @@
+openDualChangeSorter
+	self dualChangeSorter open

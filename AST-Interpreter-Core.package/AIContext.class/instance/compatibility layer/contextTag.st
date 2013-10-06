@@ -1,0 +1,2 @@
+contextTag
+	^ self

@@ -1,0 +1,2 @@
+log: aStream
+	log := aStream.

@@ -1,1 +1,0 @@
-timestamp	^DateAndTime now printString

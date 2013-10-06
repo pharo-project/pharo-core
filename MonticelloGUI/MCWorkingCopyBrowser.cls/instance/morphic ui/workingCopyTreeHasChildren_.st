@@ -1,1 +1,0 @@
-workingCopyTreeHasChildren: aWrapper	^ aWrapper hasContents

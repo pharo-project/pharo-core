@@ -1,0 +1,2 @@
+isColorForm
+	^false

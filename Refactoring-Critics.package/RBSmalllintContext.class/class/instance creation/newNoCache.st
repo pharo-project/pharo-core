@@ -1,0 +1,2 @@
+newNoCache
+	^self basicNew

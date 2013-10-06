@@ -1,0 +1,3 @@
+comment: newComment
+
+	comment := newComment

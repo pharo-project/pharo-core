@@ -1,0 +1,2 @@
+reverseTableCells: aBool
+	reverseTableCells := aBool

@@ -1,1 +1,0 @@
-isLiteralArrayToken	^true

@@ -1,0 +1,2 @@
+accessCollection
+	^ nonEmpty5ElementsWithoutDuplicate

@@ -1,0 +1,2 @@
+scrollForward
+	self termcap: 'sf'

@@ -1,1 +1,0 @@
-resetCategoriesListSelection	categoryWidget resetCategoriesListSelection

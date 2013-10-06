@@ -1,0 +1,2 @@
+composedWithGlobal: aTransformation
+	^aTransformation

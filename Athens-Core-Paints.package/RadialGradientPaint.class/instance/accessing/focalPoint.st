@@ -1,0 +1,3 @@
+focalPoint
+	
+	^ focalPoint

@@ -1,0 +1,3 @@
+dayNames
+
+	^ DayNames 

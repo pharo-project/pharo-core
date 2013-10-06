@@ -1,0 +1,3 @@
+customizeExplorerContents
+
+	^ false.

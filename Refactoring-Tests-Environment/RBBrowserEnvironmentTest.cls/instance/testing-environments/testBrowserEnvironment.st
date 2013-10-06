@@ -1,1 +1,0 @@
-testBrowserEnvironment	self universalTestFor: RBBrowserEnvironment new

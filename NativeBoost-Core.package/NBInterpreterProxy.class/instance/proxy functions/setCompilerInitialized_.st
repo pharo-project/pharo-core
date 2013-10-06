@@ -1,0 +1,3 @@
+setCompilerInitialized: initFlag
+	
+	^ self simpleCall

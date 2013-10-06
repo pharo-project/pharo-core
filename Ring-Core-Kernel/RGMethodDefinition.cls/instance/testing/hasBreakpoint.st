@@ -1,1 +1,0 @@
-hasBreakpoint	^ self compiledMethod hasBreakpoint

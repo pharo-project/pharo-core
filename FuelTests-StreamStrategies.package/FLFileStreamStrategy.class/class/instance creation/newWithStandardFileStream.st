@@ -1,0 +1,3 @@
+newWithStandardFileStream
+
+	^self newWith: StandardFileStream

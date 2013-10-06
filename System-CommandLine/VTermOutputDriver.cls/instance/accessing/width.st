@@ -1,1 +1,0 @@
-width	^ self columns

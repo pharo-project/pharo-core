@@ -1,0 +1,2 @@
+isCallback
+	^ true

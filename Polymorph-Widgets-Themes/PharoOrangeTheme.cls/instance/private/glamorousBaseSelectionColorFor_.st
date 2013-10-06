@@ -1,1 +1,0 @@
-glamorousBaseSelectionColorFor: aButton	^ settings selectionColor

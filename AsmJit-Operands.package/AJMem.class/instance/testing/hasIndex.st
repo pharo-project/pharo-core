@@ -1,0 +1,2 @@
+hasIndex
+	^ index notNil

@@ -1,0 +1,2 @@
+setHierarchy: nodes
+	hierarchy := nodes

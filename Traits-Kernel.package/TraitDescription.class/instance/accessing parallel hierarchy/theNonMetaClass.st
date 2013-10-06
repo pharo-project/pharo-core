@@ -1,0 +1,2 @@
+theNonMetaClass
+	^ self baseTrait

@@ -1,1 +1,0 @@
-withEqualElements	^ sameAtEndAndBegining 

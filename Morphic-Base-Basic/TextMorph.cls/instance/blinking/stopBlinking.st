@@ -1,1 +1,0 @@
-stopBlinking	self stopSteppingSelector: #onBlinkCursor.

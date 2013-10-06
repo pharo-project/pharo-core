@@ -1,1 +1,0 @@
-windowCloseForm	^ self current windowCloseForm.

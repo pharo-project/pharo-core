@@ -1,1 +1,0 @@
-valid	self dialogItemsChooser sendSelection

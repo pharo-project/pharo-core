@@ -1,0 +1,2 @@
+numArgs: aSmallInteger 
+	numArgs := aSmallInteger

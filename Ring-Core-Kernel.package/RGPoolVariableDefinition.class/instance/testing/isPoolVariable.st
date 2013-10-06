@@ -1,0 +1,3 @@
+isPoolVariable
+
+	^true

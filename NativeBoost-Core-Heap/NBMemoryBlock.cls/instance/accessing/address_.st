@@ -1,1 +1,0 @@
-address: anObject	address := anObject

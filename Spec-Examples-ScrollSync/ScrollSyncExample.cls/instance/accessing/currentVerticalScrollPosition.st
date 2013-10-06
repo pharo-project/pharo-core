@@ -1,1 +1,0 @@
-currentVerticalScrollPosition	^ currentVerticalScrollPosition

@@ -1,0 +1,3 @@
+state: aSymbol
+
+	state := aSymbol

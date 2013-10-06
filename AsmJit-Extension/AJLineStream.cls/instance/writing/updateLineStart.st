@@ -1,1 +1,0 @@
-updateLineStart	lineStart := writeStream position

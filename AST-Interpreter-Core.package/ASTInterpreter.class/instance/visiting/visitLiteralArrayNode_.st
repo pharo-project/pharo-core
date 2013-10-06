@@ -1,0 +1,2 @@
+visitLiteralArrayNode: aNode
+	^ aNode value

@@ -1,1 +1,0 @@
-slot: anObject	slot := anObject

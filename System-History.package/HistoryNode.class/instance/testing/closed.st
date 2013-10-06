@@ -1,0 +1,2 @@
+closed
+	^ self opened not

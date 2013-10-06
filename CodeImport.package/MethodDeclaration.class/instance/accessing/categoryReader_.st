@@ -1,0 +1,2 @@
+categoryReader: aClassCategoryReader 
+	categoryReader := aClassCategoryReader

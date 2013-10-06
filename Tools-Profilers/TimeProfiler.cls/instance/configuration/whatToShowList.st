@@ -1,1 +1,0 @@
-whatToShowList	^ #(#'Full tree' #'Leaves')

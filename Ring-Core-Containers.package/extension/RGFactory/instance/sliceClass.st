@@ -1,0 +1,3 @@
+sliceClass
+
+	^RGSlice

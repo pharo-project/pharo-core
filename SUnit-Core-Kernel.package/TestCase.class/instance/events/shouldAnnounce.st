@@ -1,0 +1,2 @@
+shouldAnnounce
+	^ self class shouldAnnounce

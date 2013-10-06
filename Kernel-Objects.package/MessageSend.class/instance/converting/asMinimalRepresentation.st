@@ -1,0 +1,2 @@
+asMinimalRepresentation
+	^self

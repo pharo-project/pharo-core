@@ -1,0 +1,2 @@
+customMenuActions: anObject
+	customMenuActions := anObject

@@ -1,0 +1,2 @@
+asIdentitySet
+	^self

@@ -1,0 +1,3 @@
+privateFirstInMapperChain
+
+	^ self privateMappers first

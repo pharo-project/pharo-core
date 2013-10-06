@@ -1,0 +1,3 @@
+textToDisplay
+
+	^ self name

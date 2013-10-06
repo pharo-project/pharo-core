@@ -1,1 +1,0 @@
-isTransformationRule	^ false 

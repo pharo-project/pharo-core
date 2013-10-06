@@ -1,0 +1,2 @@
+isTextMorph
+	^true

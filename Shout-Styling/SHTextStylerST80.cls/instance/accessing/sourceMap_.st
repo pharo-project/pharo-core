@@ -1,1 +1,0 @@
-sourceMap: aSortedCollection 	^ self

@@ -1,1 +1,0 @@
-category	^ self theNonMetaClass category

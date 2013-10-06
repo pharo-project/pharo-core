@@ -1,0 +1,2 @@
+selectedItemsSetterSelector: aSelector
+	selectedItemsSetterSelector := aSelector

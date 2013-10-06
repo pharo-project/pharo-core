@@ -1,0 +1,2 @@
+superclass: anObject
+	superclass := anObject

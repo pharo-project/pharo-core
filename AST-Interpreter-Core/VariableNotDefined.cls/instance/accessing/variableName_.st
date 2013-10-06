@@ -1,1 +1,0 @@
-variableName: anObject	variableName := anObject

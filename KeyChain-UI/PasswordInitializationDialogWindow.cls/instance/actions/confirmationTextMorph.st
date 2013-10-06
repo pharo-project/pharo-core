@@ -1,1 +1,0 @@
-confirmationTextMorph	^ confirmationTextMorph

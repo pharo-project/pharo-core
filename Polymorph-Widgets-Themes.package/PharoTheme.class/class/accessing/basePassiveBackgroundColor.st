@@ -1,0 +1,2 @@
+basePassiveBackgroundColor
+	^ self baseColor lighter

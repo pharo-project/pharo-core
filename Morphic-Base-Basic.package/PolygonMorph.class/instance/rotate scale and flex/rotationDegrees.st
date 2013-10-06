@@ -1,0 +1,3 @@
+rotationDegrees
+
+	^ self forwardDirection

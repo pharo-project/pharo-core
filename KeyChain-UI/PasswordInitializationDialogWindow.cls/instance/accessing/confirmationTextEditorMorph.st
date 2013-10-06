@@ -1,1 +1,0 @@
-confirmationTextEditorMorph	^ confirmationTextEditorMorph

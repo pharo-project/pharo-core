@@ -1,0 +1,2 @@
+defaultWindowLabel
+	^'Finder'.

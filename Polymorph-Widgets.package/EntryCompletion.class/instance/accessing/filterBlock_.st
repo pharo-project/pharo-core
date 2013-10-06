@@ -1,0 +1,3 @@
+filterBlock: aBlock
+
+	filterBlock := aBlock

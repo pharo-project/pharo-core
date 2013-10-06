@@ -1,0 +1,3 @@
+password: aString 
+
+	password := aString.

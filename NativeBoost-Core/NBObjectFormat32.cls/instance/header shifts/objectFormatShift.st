@@ -1,1 +1,0 @@
-objectFormatShift	^ 8

@@ -1,1 +1,0 @@
-apiClass	^ NBExternalArray 

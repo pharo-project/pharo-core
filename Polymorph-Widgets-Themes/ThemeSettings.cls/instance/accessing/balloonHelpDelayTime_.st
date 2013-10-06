@@ -1,1 +1,0 @@
-balloonHelpDelayTime: anInteger	balloonHelpDelayTime := anInteger

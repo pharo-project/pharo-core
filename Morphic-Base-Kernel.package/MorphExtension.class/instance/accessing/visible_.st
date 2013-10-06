@@ -1,0 +1,2 @@
+visible: newValue
+	visible := newValue

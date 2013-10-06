@@ -1,0 +1,2 @@
+classPool: aDictionary
+	"Compatibility purposes"

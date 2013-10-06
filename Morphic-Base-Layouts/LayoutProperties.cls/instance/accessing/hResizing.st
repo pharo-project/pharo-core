@@ -1,1 +1,0 @@
-hResizing	^hResizing

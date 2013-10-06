@@ -1,0 +1,2 @@
+canDebug
+	^ canDebug

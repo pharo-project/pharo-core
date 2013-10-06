@@ -1,0 +1,2 @@
+default
+	^ EditorFindReplaceDialogWindow singleton state

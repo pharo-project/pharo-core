@@ -1,1 +1,0 @@
-pangoLibraryNameOrHandle	^  PangoLibraryLoader getLibraryHandle

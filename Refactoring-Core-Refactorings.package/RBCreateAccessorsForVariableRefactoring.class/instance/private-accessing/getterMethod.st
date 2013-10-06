@@ -1,0 +1,2 @@
+getterMethod
+	^getterMethod

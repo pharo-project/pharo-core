@@ -1,0 +1,3 @@
+isInfinite
+
+	^ false

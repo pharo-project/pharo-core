@@ -1,1 +1,0 @@
-& aNumber	^ self bitAnd: aNumber

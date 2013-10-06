@@ -1,0 +1,2 @@
+coloredCarColor
+	^ Color red

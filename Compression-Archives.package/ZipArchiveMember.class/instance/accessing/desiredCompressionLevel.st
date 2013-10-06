@@ -1,0 +1,2 @@
+desiredCompressionLevel
+	^desiredCompressionLevel

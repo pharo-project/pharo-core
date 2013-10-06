@@ -1,0 +1,2 @@
+animateClosing: aBoolean
+	animateClosing := aBoolean

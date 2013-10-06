@@ -1,0 +1,2 @@
+expectedContentType: anObject
+	expectedContentType := anObject

@@ -1,1 +1,0 @@
-refersToClass	^ RBRefactoryTestDataApp

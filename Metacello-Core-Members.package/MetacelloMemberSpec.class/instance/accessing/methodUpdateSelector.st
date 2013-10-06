@@ -1,0 +1,3 @@
+methodUpdateSelector
+
+	^self subclassResponsibility

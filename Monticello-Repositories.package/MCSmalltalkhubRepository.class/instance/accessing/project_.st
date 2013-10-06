@@ -1,0 +1,3 @@
+project: aString
+	
+	project := aString

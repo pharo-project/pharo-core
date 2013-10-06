@@ -1,1 +1,0 @@
-originX	^ originX

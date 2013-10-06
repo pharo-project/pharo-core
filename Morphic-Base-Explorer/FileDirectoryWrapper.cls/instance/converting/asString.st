@@ -1,1 +1,0 @@
-asString	 ^itemName translatedIfCorresponds

@@ -1,0 +1,2 @@
+isHandlerContext
+	^false

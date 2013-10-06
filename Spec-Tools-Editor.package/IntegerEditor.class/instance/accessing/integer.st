@@ -1,0 +1,3 @@
+integer
+
+	^ integer contents

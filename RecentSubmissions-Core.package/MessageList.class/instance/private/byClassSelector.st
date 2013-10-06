@@ -1,0 +1,3 @@
+byClassSelector
+
+	^ #groupedByClass

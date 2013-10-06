@@ -1,0 +1,2 @@
+indexInForCollectionWithoutDuplicates
+	^ 2.

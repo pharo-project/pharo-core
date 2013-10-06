@@ -1,0 +1,2 @@
+packageName
+	^ self mockPackage name

@@ -1,0 +1,3 @@
+isHeap
+
+	^ true

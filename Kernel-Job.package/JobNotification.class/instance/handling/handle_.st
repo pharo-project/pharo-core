@@ -1,0 +1,2 @@
+handle: aJob
+	self subclassResponsibility

@@ -1,0 +1,2 @@
+specialCommands
+	^SugsSuggestionFactory commandsForTemporaryVariable.

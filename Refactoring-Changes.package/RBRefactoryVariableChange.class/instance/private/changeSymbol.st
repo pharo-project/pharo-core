@@ -1,0 +1,2 @@
+changeSymbol
+	self subclassResponsibility

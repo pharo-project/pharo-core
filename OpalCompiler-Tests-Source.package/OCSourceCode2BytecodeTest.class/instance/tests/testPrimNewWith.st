@@ -1,0 +1,10 @@
+testPrimNewWith
+	| selector methodNode scanner did |
+	selector := (methodNode := self compile2methodNode: 'bytecodeNewWith self new: 3') selector.
+	scanner := InstructionStream on: methodNode method.
+	2
+		timesRepeat: [scanner nextInstruction].
+	self
+		assert: ((did := scanner peekInstruction) selector == #send:super:numArgs:
+				and: [did arguments = {#new:. false. 1}])
+		description: 'Failed ' , selector

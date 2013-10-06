@@ -1,0 +1,2 @@
+precondition
+	^ precondition ifNil: [[true]]

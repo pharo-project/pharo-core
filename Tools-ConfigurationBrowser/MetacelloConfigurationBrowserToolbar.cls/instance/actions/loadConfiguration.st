@@ -1,1 +1,0 @@
-loadConfiguration	owner loadConfiguration 

@@ -1,0 +1,2 @@
+tally
+	^ rootMessageTally tally

@@ -1,0 +1,2 @@
+classExternalData
+	^ self simpleCall

@@ -1,0 +1,2 @@
+clearVersionInfo
+	Versions := Dictionary new

@@ -1,0 +1,2 @@
+startIndex
+	^ pointIndex min: markIndex

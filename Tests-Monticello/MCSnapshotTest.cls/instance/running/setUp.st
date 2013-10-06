@@ -1,1 +1,0 @@
-setUp	snapshot :=  self mockSnapshot.

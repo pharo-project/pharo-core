@@ -1,1 +1,0 @@
-packages: anObject	packages := anObject

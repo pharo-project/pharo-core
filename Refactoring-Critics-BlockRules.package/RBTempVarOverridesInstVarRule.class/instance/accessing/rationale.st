@@ -1,0 +1,2 @@
+rationale
+	^ 'Finds methods whose temporary variables override an instance variable. This causes problems if you want to use the instance variable inside the method.'

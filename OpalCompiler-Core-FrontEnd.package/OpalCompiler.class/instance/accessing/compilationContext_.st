@@ -1,0 +1,2 @@
+compilationContext: anObject
+	compilationContext := anObject

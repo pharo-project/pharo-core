@@ -1,0 +1,2 @@
+leadingChar
+	^ 0

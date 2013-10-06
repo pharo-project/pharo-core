@@ -1,0 +1,2 @@
+host: anObject
+	host := anObject

@@ -1,0 +1,2 @@
+icons
+	^ Smalltalk ui icons

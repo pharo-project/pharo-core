@@ -1,0 +1,3 @@
+selectedIndexHolder
+
+	^ selectionHolder index

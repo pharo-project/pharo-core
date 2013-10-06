@@ -1,0 +1,2 @@
+popTop
+	^ IRPop new

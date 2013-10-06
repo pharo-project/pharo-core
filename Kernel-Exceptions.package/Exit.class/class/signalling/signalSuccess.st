@@ -1,0 +1,2 @@
+signalSuccess
+ 	^self success signal

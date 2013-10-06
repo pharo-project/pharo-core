@@ -1,0 +1,3 @@
+hash
+
+	^ rgb bitXor: alpha

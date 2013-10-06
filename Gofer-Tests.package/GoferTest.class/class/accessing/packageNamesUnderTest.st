@@ -1,0 +1,2 @@
+packageNamesUnderTest
+	^ #('Gofer-Core')

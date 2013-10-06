@@ -1,0 +1,2 @@
+currentSequence
+	^currentSequence 

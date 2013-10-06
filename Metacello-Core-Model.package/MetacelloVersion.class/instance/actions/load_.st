@@ -1,0 +1,3 @@
+load: required
+
+	^self subclassResponsibility

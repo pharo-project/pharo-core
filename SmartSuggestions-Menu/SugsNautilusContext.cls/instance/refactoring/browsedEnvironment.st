@@ -1,1 +1,0 @@
-browsedEnvironment	^model browsedEnvironment .

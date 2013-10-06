@@ -1,0 +1,2 @@
+name
+	^ 'Temporary variable capitalization'

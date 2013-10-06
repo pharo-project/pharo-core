@@ -1,1 +1,0 @@
-isGlobal	^ true

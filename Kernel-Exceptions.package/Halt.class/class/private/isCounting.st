@@ -1,0 +1,3 @@
+isCounting
+
+	^ callsUntilHaltOnCount > 0.

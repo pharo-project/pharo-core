@@ -1,1 +1,0 @@
-defaultPosition	^ #middle

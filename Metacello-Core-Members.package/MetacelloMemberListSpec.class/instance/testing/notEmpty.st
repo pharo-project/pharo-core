@@ -1,0 +1,3 @@
+notEmpty
+
+	^self list notEmpty

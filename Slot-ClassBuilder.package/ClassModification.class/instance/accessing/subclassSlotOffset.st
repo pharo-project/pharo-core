@@ -1,0 +1,2 @@
+subclassSlotOffset
+	^ subclassSlotOffset

@@ -1,0 +1,3 @@
+unselectOnChange
+
+	^ unselectOnChange contents

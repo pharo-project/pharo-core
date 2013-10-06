@@ -1,0 +1,2 @@
+smallerIndex
+	^ firstIndex -1

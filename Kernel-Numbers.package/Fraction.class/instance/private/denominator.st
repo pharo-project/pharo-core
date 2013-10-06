@@ -1,0 +1,3 @@
+denominator
+
+	^denominator

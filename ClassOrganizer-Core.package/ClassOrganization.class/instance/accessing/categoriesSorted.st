@@ -1,0 +1,3 @@
+categoriesSorted
+
+	^ self protocolOrganizer protocolsSorted

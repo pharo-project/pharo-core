@@ -1,0 +1,2 @@
+complexFramed
+	^ComplexBorder style: #complexFramed

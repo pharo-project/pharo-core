@@ -1,0 +1,2 @@
+setFontsToHuge
+	self setFontsToStyleNamed: #huge

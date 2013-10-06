@@ -1,1 +1,0 @@
-elementInCollectionOfFloat	^ collectionOfFloat anyOne.

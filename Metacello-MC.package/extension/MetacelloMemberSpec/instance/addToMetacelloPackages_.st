@@ -1,0 +1,3 @@
+addToMetacelloPackages: aMetacelloPackagesSpec
+
+	aMetacelloPackagesSpec addMember: self

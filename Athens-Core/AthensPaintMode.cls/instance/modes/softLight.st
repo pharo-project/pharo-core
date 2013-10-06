@@ -1,1 +1,0 @@
-softLight	self notAvailable

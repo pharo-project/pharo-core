@@ -1,1 +1,0 @@
-setName: aString	name := aString

@@ -1,1 +1,0 @@
-leftBar: anInteger	leftBar := anInteger

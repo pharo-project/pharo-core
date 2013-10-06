@@ -1,0 +1,3 @@
+dateClass
+
+	^ Date

@@ -1,0 +1,2 @@
+topLeft
+	self termcap: 'ho'

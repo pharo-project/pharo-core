@@ -1,1 +1,0 @@
-isMethodArg	^#method == argType

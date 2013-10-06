@@ -1,1 +1,0 @@
-setPath: anAthensCairoPath		path := anAthensCairoPath

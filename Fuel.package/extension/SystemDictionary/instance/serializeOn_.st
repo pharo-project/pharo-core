@@ -1,0 +1,2 @@
+serializeOn: anEncoder
+	"Do nothing"

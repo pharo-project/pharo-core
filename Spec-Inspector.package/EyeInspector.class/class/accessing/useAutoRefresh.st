@@ -1,0 +1,2 @@
+useAutoRefresh
+	^ useAutoRefresh ifNil: [ true ]

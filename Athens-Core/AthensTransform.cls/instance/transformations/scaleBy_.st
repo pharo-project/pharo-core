@@ -1,1 +1,0 @@
-scaleBy: factor	self subclassResponsibility

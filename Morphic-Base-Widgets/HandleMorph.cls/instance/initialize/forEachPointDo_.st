@@ -1,1 +1,0 @@
-forEachPointDo: aBlock	pointBlock := aBlock

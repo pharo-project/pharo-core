@@ -1,1 +1,0 @@
-storeIntoReceiverVariable: offset 	bingo := true

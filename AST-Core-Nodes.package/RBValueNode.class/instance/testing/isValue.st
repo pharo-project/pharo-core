@@ -1,0 +1,2 @@
+isValue
+	^true

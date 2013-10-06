@@ -1,0 +1,2 @@
+isResized
+	^ false

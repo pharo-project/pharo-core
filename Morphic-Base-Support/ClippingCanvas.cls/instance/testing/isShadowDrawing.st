@@ -1,1 +1,0 @@
-isShadowDrawing	^canvas isShadowDrawing

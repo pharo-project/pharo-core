@@ -1,1 +1,0 @@
-renameState	^ self selectedGroup notNil

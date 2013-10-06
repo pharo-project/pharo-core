@@ -1,0 +1,2 @@
+host: aClass
+	host := aClass

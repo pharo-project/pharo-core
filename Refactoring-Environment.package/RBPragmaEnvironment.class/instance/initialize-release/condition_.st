@@ -1,0 +1,2 @@
+condition: aBlock
+	condition := aBlock

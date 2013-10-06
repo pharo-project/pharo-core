@@ -1,0 +1,2 @@
+traitComposition
+	^self explicitRequirement.

@@ -1,1 +1,0 @@
-functionName: anObject	functionName := anObject

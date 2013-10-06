@@ -1,0 +1,2 @@
+hash
+	^ versionInfo hash

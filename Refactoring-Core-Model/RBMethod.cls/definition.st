@@ -1,1 +1,0 @@
-Object subclass: #RBMethod	instanceVariableNames: 'class compiledMethod source selector'	classVariableNames: ''	poolDictionaries: ''	category: 'Refactoring-Core-Model'

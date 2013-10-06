@@ -1,0 +1,2 @@
+isAbstract
+	^ self description isNil

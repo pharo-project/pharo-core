@@ -1,1 +1,0 @@
-topInactiveGap	^ 5

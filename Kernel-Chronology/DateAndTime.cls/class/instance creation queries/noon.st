@@ -1,1 +1,0 @@
-noon	^ self now noon

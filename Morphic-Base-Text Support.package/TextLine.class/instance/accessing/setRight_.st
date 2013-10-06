@@ -1,0 +1,2 @@
+setRight: x
+	right := x

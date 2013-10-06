@@ -1,0 +1,3 @@
+unselectedSelection: anObject
+
+	unselectedSelection := anObject

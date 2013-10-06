@@ -1,1 +1,0 @@
-radius: anObject	radius := anObject

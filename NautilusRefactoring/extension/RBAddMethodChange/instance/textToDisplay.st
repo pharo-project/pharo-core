@@ -1,1 +1,0 @@
-textToDisplay	^ self source

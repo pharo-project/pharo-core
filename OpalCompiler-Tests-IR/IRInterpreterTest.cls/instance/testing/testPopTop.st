@@ -1,1 +1,0 @@
-testPopTop	| ir |	ir := IRBuilderTest new testPopTop.	self shouldnt: [IRInterpreter new interpret: ir ] raise: Error

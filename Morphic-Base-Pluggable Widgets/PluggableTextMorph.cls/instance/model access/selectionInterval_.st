@@ -1,1 +1,0 @@
-selectionInterval: sel	selectionInterval := sel

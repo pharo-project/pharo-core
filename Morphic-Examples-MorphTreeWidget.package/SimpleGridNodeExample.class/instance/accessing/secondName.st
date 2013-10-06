@@ -1,0 +1,2 @@
+secondName
+	^ self item secondName

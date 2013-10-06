@@ -1,1 +1,0 @@
-lastCharacterIndex	^ lines last last

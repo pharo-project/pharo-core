@@ -1,1 +1,0 @@
-commentClass	^RGCommentDefinition

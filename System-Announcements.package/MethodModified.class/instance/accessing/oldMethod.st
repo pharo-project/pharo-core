@@ -1,0 +1,2 @@
+oldMethod
+	^ oldMethod

@@ -1,1 +1,0 @@
-file 	"MetacelloPackageSpec compatibility"		^nil

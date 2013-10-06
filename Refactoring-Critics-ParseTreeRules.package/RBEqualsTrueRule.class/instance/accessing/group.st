@@ -1,0 +1,2 @@
+group
+	^ 'Unnecessary code'

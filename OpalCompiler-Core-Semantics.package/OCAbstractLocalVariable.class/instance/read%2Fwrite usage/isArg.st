@@ -1,0 +1,3 @@
+isArg
+
+	^usage = #arg

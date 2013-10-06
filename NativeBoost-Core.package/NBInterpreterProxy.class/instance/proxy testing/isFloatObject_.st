@@ -1,0 +1,3 @@
+isFloatObject: oop
+	 
+	^ self simpleCall

@@ -1,0 +1,3 @@
+saveStateOf: aStream
+
+	^ aStream position.

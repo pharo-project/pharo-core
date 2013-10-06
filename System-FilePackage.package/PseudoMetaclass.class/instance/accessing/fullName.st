@@ -1,0 +1,2 @@
+fullName
+	^self name,' class'

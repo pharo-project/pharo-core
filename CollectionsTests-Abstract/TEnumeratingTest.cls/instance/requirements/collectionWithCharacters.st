@@ -1,1 +1,0 @@
-collectionWithCharacters	^self explicitRequirement.

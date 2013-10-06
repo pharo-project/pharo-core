@@ -1,0 +1,2 @@
+reason: string
+	reason := string

@@ -1,0 +1,2 @@
+isGradientFill
+	^false

@@ -1,0 +1,2 @@
+filter: aOneArgValuable
+	filter := aOneArgValuable

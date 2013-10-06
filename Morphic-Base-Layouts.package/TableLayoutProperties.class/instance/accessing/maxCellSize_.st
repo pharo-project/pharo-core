@@ -1,0 +1,2 @@
+maxCellSize: aNumber
+	maxCellSize := aNumber.

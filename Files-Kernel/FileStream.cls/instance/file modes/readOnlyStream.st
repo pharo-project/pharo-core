@@ -1,1 +1,0 @@
-readOnlyStream	^self readOnly

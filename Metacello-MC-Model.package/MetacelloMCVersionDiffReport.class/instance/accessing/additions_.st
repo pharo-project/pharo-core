@@ -1,0 +1,2 @@
+additions: anObject
+	additions := anObject

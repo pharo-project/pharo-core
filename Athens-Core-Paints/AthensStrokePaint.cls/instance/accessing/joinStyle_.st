@@ -1,1 +1,0 @@
-joinStyle: anObject	joinStyle := anObject

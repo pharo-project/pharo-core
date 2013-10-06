@@ -1,0 +1,2 @@
+fullBoundingBox
+	^ super boundingBox

@@ -1,0 +1,3 @@
+messages
+
+	^ listModel listItems

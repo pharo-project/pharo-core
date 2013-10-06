@@ -1,1 +1,0 @@
-resetHighlightForDrop	self highlightForDrop: false

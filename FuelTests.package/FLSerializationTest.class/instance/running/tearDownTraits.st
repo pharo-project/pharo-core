@@ -1,0 +1,2 @@
+tearDownTraits
+	self cleanUpTraits

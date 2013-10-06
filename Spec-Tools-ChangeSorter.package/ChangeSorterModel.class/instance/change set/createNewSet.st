@@ -1,0 +1,3 @@
+createNewSet
+
+	^ ChangeSet newChangeSet.

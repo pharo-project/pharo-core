@@ -1,0 +1,3 @@
+removeButtonState 
+
+	^self selectedItem isNil.

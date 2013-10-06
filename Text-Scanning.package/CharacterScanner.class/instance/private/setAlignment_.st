@@ -1,0 +1,2 @@
+setAlignment: style 
+	alignment := style

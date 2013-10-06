@@ -1,0 +1,2 @@
+parseKeywordMessage
+	^self parseKeywordMessageWith: self parseBinaryMessage

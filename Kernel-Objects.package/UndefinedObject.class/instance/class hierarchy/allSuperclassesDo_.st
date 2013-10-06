@@ -1,0 +1,2 @@
+allSuperclassesDo: aBlockContext 
+	self shouldBeImplemented

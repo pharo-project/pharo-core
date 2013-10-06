@@ -1,1 +1,0 @@
-newClassDefinition	^newClassDefinition

@@ -1,1 +1,0 @@
-testAssignmentWithoutEffect	self ruleFor: self currentSelector

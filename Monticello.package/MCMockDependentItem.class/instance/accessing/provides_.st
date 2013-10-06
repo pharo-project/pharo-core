@@ -1,0 +1,3 @@
+provides: anArray
+
+	provides := anArray

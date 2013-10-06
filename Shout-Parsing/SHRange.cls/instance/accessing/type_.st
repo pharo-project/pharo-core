@@ -1,1 +1,0 @@
-type: aSymbol 	type := aSymbol

@@ -1,1 +1,0 @@
-initialize	interactive := false.

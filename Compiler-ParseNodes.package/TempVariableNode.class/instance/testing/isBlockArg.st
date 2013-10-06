@@ -1,0 +1,2 @@
+isBlockArg
+	^#block == argType

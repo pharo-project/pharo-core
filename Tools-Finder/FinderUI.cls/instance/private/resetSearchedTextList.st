@@ -1,1 +1,0 @@
-resetSearchedTextList	self searchedTextList removeAll.

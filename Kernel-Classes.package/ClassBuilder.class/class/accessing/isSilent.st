@@ -1,0 +1,2 @@
+isSilent
+	^QuietMode == true

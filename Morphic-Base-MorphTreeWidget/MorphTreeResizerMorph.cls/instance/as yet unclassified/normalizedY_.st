@@ -1,1 +1,0 @@
-normalizedY: y 	^y

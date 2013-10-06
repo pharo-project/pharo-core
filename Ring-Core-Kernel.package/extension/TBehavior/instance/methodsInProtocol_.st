@@ -1,0 +1,4 @@
+methodsInProtocol: aString
+
+	^ (self organization listAtCategoryNamed: aString) 
+			collect: [ :each | (self methodDict at: each) ]

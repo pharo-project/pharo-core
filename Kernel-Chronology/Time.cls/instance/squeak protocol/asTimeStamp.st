@@ -1,1 +1,0 @@
-asTimeStamp	^ self asDateAndTime asTimeStamp

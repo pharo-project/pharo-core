@@ -1,0 +1,2 @@
+originalScope
+	^ target layout slotScope

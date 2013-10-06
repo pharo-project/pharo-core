@@ -1,0 +1,5 @@
+ArchiveMember subclass: #ZipArchiveMember
+	instanceVariableNames: 'lastModFileDateTime fileAttributeFormat versionMadeBy versionNeededToExtract bitFlag compressionMethod desiredCompressionMethod desiredCompressionLevel internalFileAttributes externalFileAttributes cdExtraField localExtraField fileComment crc32 compressedSize uncompressedSize writeLocalHeaderRelativeOffset readDataRemaining'
+	classVariableNames: ''
+	poolDictionaries: 'ZipFileConstants'
+	category: 'Compression-Archives'

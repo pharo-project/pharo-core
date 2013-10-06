@@ -1,0 +1,2 @@
+bindingOf: varName
+	^self explicitRequirement.

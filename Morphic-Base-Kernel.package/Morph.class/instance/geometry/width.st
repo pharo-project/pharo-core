@@ -1,0 +1,3 @@
+width
+
+	^ bounds width

@@ -1,1 +1,0 @@
-beSingleSelection	multipleSelection := false

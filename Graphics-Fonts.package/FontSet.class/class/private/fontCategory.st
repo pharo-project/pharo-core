@@ -1,0 +1,2 @@
+fontCategory
+	^ 'Graphics-Fonts' asSymbol

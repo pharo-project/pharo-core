@@ -1,0 +1,2 @@
+toggleBounds
+	^self toggleRectangle

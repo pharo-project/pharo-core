@@ -1,0 +1,3 @@
+fontSlant
+
+	^ fontSlant

@@ -1,0 +1,2 @@
+failedSelected
+	^ failedList indexOf: failedSelected.

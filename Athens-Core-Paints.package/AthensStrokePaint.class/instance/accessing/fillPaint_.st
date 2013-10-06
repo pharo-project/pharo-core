@@ -1,0 +1,3 @@
+fillPaint: anObject
+
+	fillPaint := anObject

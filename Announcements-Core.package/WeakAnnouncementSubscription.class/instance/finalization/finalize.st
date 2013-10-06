@@ -1,0 +1,4 @@
+finalize
+
+	announcer removeSubscription: self.
+	

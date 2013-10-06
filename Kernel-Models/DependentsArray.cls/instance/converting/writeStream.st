@@ -1,1 +1,0 @@
-writeStream	^ WriteStream on: self

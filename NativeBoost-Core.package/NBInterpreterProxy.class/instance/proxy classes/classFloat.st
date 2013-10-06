@@ -1,0 +1,3 @@
+classFloat
+	
+	^ self simpleCall

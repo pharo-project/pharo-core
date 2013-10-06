@@ -1,0 +1,2 @@
+hostWindowIndex
+	^ 1

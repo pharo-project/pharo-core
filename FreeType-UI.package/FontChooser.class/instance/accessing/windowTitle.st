@@ -1,0 +1,2 @@
+windowTitle
+	^ title translated

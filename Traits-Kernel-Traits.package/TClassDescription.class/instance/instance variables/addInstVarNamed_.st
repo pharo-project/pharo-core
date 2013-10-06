@@ -1,0 +1,2 @@
+addInstVarNamed: aString
+	^self explicitRequirement.

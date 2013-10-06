@@ -1,0 +1,2 @@
+selectedInterval: interval
+	selectedInterval := interval.

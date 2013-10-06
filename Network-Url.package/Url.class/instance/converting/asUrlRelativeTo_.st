@@ -1,0 +1,2 @@
+asUrlRelativeTo: aUrl
+	^self

@@ -1,1 +1,0 @@
-tigerPointsCount 	^ 16988

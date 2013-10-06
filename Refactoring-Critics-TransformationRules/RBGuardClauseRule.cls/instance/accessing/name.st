@@ -1,1 +1,0 @@
-name	^ 'Eliminate guarding clauses'

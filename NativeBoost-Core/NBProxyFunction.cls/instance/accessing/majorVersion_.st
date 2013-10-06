@@ -1,1 +1,0 @@
-majorVersion: anObject	majorVersion := anObject

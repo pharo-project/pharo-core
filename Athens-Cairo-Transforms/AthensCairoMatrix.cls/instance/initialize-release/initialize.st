@@ -1,1 +1,0 @@
-initialize	self loadIdentity.

@@ -1,0 +1,3 @@
+doSemanticAnalysis
+	^ self method doSemanticAnalysis.
+	

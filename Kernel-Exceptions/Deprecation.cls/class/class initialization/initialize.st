@@ -1,1 +1,0 @@
-initialize	Log  := nil

@@ -1,0 +1,6 @@
+linkTo: stackOrNil
+
+	stackOrNil ifNil: [^ self class startAt: self position].
+	^ self position = stackOrNil start
+		ifTrue: [stackOrNil]
+		ifFalse: [self error: 'stack out of sync in bytecode generator']

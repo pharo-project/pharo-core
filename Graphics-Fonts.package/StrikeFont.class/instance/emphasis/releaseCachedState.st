@@ -1,0 +1,3 @@
+releaseCachedState
+
+	self reset.

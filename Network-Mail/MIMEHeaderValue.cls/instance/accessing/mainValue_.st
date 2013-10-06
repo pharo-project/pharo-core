@@ -1,1 +1,0 @@
-mainValue: anObject	mainValue := anObject

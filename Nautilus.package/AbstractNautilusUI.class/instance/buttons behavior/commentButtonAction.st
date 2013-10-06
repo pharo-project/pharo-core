@@ -1,0 +1,3 @@
+commentButtonAction
+
+	self toggleShowComment.

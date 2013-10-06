@@ -1,0 +1,2 @@
+size
+	^ self recorder size

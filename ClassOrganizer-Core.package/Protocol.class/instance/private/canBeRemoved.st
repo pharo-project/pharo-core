@@ -1,0 +1,2 @@
+canBeRemoved
+	^ self isEmpty 

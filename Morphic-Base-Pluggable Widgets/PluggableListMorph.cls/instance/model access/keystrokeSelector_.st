@@ -1,1 +1,0 @@
-keystrokeSelector: aSymbol	keystrokeSelector := aSymbol

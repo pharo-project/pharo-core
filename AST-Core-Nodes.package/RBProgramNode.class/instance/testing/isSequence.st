@@ -1,0 +1,2 @@
+isSequence
+	^false

@@ -1,0 +1,2 @@
+fileName
+	^ self detectContentDispositionValue: 'filename'

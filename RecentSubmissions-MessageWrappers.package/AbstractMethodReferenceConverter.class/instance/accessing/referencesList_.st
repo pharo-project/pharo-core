@@ -1,0 +1,3 @@
+referencesList: aListOfReferences
+
+	referencesList := aListOfReferences

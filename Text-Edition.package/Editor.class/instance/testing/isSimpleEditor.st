@@ -1,0 +1,2 @@
+isSimpleEditor 
+	^ false 

@@ -1,0 +1,2 @@
+secondsSinceMidnightLocalTime
+	^ self localSeconds \\ SecondsInDay

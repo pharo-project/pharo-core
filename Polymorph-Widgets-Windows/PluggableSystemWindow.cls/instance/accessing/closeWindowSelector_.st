@@ -1,1 +1,0 @@
-closeWindowSelector: aSymbol	closeWindowSelector := aSymbol

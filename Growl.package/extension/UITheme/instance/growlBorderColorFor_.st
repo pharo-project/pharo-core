@@ -1,0 +1,2 @@
+growlBorderColorFor: aGrowlMorph
+	^ Color transparent 

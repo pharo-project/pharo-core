@@ -1,0 +1,2 @@
+subclassesAsSeparateTopic: anObject
+	subclassesAsSeparateTopic := anObject

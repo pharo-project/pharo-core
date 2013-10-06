@@ -1,1 +1,0 @@
-isOn	^ state == #on

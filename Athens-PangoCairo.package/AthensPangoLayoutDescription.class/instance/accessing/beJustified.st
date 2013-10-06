@@ -1,0 +1,2 @@
+beJustified
+	self justify: true.

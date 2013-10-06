@@ -1,0 +1,2 @@
+workingCopy
+	^ MCWorkingCopy forPackage: self.

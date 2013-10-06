@@ -1,0 +1,2 @@
+mayActOnClick: anEvent
+	^true

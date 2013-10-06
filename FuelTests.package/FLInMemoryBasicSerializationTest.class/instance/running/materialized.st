@@ -1,0 +1,3 @@
+materialized
+
+	^ FLMaterializer materializeFromByteArray: byteArray.

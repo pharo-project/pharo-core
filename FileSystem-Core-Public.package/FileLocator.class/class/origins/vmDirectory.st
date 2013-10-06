@@ -1,0 +1,2 @@
+vmDirectory
+	^ self origin: #vmDirectory

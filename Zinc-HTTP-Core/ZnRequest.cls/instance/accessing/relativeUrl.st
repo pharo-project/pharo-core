@@ -1,1 +1,0 @@
-relativeUrl	^ self url asRelativeUrl 

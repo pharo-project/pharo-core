@@ -1,0 +1,2 @@
+addSelfReturn
+	inlineParseTree addSelfReturn

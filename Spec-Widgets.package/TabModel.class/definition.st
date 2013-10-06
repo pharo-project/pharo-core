@@ -1,0 +1,5 @@
+AbstractBasicWidget subclass: #TabModel
+	instanceVariableNames: 'label icon morph retrievingBlock menu actions closeable'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Spec-Widgets'

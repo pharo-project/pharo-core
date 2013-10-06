@@ -1,1 +1,0 @@
-exception: anObject	exception := anObject

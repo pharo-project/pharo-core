@@ -1,0 +1,5 @@
+negative
+ 
+ 
+ 	^ self positive not
+ 

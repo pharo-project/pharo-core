@@ -1,0 +1,3 @@
+selectionColor: aColor
+	selectionColor := aColor.
+	

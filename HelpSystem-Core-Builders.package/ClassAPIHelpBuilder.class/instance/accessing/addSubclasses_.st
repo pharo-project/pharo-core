@@ -1,0 +1,2 @@
+addSubclasses: anObject
+	addSubclasses := anObject

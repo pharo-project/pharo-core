@@ -1,0 +1,2 @@
+temporaryOffset: anInteger 
+	temporaryOffset := anInteger

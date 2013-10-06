@@ -1,0 +1,2 @@
+nonEmpty
+	^ nonEmptyDict

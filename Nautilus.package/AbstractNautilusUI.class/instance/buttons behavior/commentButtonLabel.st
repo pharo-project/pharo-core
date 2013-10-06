@@ -1,0 +1,3 @@
+commentButtonLabel
+
+	^ self commentLabel

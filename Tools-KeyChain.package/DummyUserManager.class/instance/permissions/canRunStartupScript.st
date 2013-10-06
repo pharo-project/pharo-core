@@ -1,0 +1,3 @@
+canRunStartupScript
+
+	^ true

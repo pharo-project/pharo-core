@@ -1,1 +1,0 @@
-isGlobalDispatcher	^true

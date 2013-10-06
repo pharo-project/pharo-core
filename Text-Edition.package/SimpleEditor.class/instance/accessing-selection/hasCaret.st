@@ -1,0 +1,2 @@
+hasCaret
+	^markIndex = pointIndex

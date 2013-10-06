@@ -1,0 +1,2 @@
+binary
+	stream binary

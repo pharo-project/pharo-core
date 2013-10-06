@@ -1,0 +1,2 @@
+buildTopPlugins
+	^ self subclassResponsibility

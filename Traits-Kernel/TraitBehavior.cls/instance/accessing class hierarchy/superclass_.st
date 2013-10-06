@@ -1,1 +1,0 @@
-superclass: aClass 	"Compatibility purposes"

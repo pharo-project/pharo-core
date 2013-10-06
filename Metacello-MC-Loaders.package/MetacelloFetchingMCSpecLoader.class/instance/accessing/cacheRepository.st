@@ -1,0 +1,3 @@
+cacheRepository
+
+	^self loaderPolicy cacheRepository

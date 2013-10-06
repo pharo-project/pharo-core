@@ -1,0 +1,3 @@
+isSetting: aBoolean 
+
+	isSetting := aBoolean 

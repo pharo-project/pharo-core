@@ -1,0 +1,3 @@
+center
+
+	^ self boundingBox center

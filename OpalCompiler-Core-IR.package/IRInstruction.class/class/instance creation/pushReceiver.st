@@ -1,0 +1,2 @@
+pushReceiver
+	^IRReceiverAccess new

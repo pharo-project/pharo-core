@@ -1,0 +1,2 @@
+hasRedoableOperations
+	^ redo isEmpty not

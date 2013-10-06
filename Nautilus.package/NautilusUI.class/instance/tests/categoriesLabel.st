@@ -1,0 +1,3 @@
+categoriesLabel
+
+	^ categoryWidget categoriesLabel

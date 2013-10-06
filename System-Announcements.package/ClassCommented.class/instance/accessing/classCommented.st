@@ -1,0 +1,2 @@
+classCommented
+	^classCommented

@@ -1,0 +1,3 @@
+myDependents: aCollectionOrNil
+
+	dependents := aCollectionOrNil

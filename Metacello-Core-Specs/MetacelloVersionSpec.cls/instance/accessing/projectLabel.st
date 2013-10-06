@@ -1,1 +1,0 @@
-projectLabel	^self project label

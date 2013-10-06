@@ -1,0 +1,2 @@
+arguments: list
+	arguments := list

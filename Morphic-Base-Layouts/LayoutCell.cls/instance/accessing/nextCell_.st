@@ -1,1 +1,0 @@
-nextCell: aCell	nextCell := aCell

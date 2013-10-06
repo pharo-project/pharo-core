@@ -1,1 +1,0 @@
-treeMorph: aTreeMorph 	treeMorph := aTreeMorph.

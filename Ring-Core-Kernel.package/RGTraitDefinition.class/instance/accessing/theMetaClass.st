@@ -1,0 +1,3 @@
+theMetaClass
+
+	^metaClass

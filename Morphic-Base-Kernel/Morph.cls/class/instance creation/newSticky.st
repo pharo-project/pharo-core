@@ -1,1 +1,0 @@
-newSticky	^ self new beSticky

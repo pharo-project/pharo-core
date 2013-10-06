@@ -1,0 +1,2 @@
+isFile
+	^ self isDirectory not

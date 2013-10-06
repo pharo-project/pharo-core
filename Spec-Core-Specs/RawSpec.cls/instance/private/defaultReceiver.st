@@ -1,1 +1,0 @@
-defaultReceiver	^ defaultReceiver

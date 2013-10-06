@@ -1,0 +1,3 @@
+skippedCount
+
+	^ self skipped size

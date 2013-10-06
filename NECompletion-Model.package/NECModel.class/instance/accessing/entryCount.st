@@ -1,0 +1,2 @@
+entryCount
+	^entries size

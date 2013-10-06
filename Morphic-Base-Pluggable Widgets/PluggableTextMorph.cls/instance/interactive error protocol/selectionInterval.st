@@ -1,1 +1,0 @@
-selectionInterval	^ textMorph editor selectionInterval

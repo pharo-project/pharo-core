@@ -1,0 +1,2 @@
+variables
+	^ x + Y + MCMockClassA

@@ -1,1 +1,0 @@
-selectedPackage	^ self model selectedPackage

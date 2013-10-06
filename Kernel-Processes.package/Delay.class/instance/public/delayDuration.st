@@ -1,0 +1,2 @@
+delayDuration
+	^delayDuration

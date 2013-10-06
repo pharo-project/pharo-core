@@ -1,0 +1,3 @@
+setSelectionListSelector: getListSel.
+
+	setSelectionListSelector := getListSel

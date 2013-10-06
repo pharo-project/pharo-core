@@ -1,0 +1,2 @@
+failureLog
+	^self stream

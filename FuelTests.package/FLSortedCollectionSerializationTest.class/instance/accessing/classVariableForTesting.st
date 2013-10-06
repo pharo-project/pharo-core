@@ -1,0 +1,3 @@
+classVariableForTesting
+	
+	^ ClassVariableForTesting

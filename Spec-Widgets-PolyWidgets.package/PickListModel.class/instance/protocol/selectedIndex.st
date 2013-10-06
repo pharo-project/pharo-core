@@ -1,0 +1,3 @@
+selectedIndex
+
+	^ listModel selectedIndex

@@ -1,0 +1,3 @@
+restrictedBrowseGroup
+
+	self restrictedBrowseGroups: self selectedGroups

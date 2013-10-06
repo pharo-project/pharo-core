@@ -1,0 +1,2 @@
+fullTimeStamp
+	^TimeStamp current

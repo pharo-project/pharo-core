@@ -1,1 +1,0 @@
-selector: symbol	selector := symbol

@@ -1,0 +1,3 @@
+openBrowser
+	
+	self open.

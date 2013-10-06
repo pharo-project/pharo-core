@@ -1,0 +1,3 @@
+validated
+
+	^ validated contents

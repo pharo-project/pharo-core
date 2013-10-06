@@ -1,1 +1,0 @@
-showBoundsInHalo	^ self class showBoundsInHalo

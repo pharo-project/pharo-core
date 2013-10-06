@@ -1,0 +1,2 @@
+asSeconds
+	^ Duration seconds: self

@@ -1,0 +1,2 @@
+setTimeStamp: stamp
+	timeStamp := stamp.

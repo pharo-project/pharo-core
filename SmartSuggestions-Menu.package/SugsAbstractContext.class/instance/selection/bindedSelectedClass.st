@@ -1,0 +1,2 @@
+bindedSelectedClass
+	^selectedNode binding value.

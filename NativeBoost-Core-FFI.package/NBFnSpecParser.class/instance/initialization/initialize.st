@@ -1,0 +1,2 @@
+initialize
+	requestor := self. 

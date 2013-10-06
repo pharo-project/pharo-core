@@ -1,1 +1,0 @@
-actionLabel	^'Recording '

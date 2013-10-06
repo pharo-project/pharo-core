@@ -1,1 +1,0 @@
-isFile	^ filesystem isFile: path

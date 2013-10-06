@@ -1,1 +1,0 @@
-categories	^ self protocolOrganizer allProtocolsNames

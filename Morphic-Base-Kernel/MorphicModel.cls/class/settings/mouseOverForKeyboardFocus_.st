@@ -1,1 +1,0 @@
-mouseOverForKeyboardFocus: aBoolean	MouseOverForKeyboardFocus := aBoolean

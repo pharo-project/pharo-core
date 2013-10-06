@@ -1,1 +1,0 @@
-lastParenLocation: anIntegerIndex	lastParenLocation := anIntegerIndex

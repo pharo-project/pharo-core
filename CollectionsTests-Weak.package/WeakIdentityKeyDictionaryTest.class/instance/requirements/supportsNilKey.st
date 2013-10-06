@@ -1,0 +1,2 @@
+supportsNilKey
+	^ false

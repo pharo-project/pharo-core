@@ -1,0 +1,3 @@
+label: anObject
+
+	label := anObject

@@ -1,1 +1,0 @@
-currentContext		^ self debugger currentContext

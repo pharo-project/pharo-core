@@ -1,1 +1,0 @@
-atEnd: aBoolean	atEnd := aBoolean.

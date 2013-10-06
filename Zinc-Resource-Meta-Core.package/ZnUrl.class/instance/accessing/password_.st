@@ -1,0 +1,2 @@
+password: string
+	password := string

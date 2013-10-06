@@ -1,0 +1,3 @@
+unregisterInterestToSystemAnnouncement
+
+	self default unregisterInterestToSystemAnnouncement

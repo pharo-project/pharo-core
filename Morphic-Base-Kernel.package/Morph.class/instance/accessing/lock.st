@@ -1,0 +1,2 @@
+lock
+	self lock: true

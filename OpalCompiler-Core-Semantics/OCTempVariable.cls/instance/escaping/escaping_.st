@@ -1,1 +1,0 @@
-escaping: anObject	escaping := anObject

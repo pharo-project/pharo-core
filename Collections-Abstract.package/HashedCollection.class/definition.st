@@ -1,0 +1,5 @@
+Collection subclass: #HashedCollection
+	instanceVariableNames: 'tally array'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Collections-Abstract'

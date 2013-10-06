@@ -1,0 +1,3 @@
+sortingSelector: s
+
+	sortingSelector := s

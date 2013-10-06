@@ -1,0 +1,2 @@
+retainBlankLinesBetweenStatements: aBoolean
+	RetainBlankLinesBetweenStatements := aBoolean

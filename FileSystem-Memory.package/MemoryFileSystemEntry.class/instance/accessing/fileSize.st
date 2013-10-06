@@ -1,0 +1,2 @@
+fileSize
+	self subclassResponsibility 

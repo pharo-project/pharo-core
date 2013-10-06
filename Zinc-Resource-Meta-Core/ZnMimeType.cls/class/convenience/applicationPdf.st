@@ -1,1 +1,0 @@
-applicationPdf	^ self predefinedInstanceAt: #applicationPdf

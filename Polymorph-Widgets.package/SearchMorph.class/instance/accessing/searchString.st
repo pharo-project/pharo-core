@@ -1,0 +1,2 @@
+searchString
+	^ content

@@ -1,1 +1,0 @@
-autoAccept	^false

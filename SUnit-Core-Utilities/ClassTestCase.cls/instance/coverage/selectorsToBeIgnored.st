@@ -1,1 +1,0 @@
-selectorsToBeIgnored	^ #(#DoIt #DoItIn:)

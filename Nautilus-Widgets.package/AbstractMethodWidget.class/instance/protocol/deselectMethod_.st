@@ -1,0 +1,3 @@
+deselectMethod: aMethod
+
+	self subclassResponsibility

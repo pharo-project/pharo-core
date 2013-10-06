@@ -1,0 +1,2 @@
+fallback
+	^fallback ifNil: [NormalCursor]

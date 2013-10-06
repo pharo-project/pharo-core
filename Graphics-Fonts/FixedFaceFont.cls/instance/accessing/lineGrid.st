@@ -1,1 +1,0 @@
-lineGrid	^baseFont lineGrid

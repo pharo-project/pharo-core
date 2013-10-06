@@ -1,0 +1,3 @@
+point
+
+	^ point

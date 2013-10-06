@@ -1,0 +1,2 @@
+borderRaised
+	self borderColor: #raised

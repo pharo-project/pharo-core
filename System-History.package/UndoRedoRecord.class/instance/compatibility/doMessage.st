@@ -1,0 +1,3 @@
+doMessage
+
+	^ self redoMessage

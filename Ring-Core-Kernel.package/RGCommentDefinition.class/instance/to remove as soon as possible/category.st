@@ -1,0 +1,2 @@
+category
+	^self realClass category

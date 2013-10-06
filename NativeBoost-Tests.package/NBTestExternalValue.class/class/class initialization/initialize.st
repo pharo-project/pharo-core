@@ -1,0 +1,3 @@
+initialize
+
+	self initValueType: 'int'.

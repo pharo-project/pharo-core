@@ -1,0 +1,3 @@
+asMetacelloVersionNumber
+
+	^MetacelloVersionNumber fromString: ''

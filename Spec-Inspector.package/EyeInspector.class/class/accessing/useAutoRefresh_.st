@@ -1,0 +1,2 @@
+useAutoRefresh: anObject
+	useAutoRefresh := anObject

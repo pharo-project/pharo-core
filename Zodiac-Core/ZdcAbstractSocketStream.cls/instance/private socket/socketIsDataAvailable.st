@@ -1,1 +1,0 @@
-socketIsDataAvailable	^ socket dataAvailable 

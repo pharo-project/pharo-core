@@ -1,0 +1,2 @@
+resultList: aList
+	resultList := aList

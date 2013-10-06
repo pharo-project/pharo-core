@@ -1,0 +1,2 @@
+cascadeNodeClass
+	^ RBCascadeNode

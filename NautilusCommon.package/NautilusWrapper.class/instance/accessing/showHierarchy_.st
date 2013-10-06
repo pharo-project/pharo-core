@@ -1,0 +1,3 @@
+showHierarchy: anObject
+	
+		showHierarchy := anObject

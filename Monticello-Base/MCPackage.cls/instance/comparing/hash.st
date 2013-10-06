@@ -1,1 +1,0 @@
-hash	^ name asLowercase hash

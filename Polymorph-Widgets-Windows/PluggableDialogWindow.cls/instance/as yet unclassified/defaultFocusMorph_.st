@@ -1,1 +1,0 @@
-defaultFocusMorph: aMorph	defaultFocusMorph := aMorph

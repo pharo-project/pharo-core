@@ -1,1 +1,0 @@
-traitNamePrefix	^'FLTraitForTesting'

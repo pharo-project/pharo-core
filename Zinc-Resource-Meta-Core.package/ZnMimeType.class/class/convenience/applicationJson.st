@@ -1,0 +1,2 @@
+applicationJson
+	^ self predefinedInstanceAt: #applicationJson

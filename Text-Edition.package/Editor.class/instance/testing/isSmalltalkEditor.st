@@ -1,0 +1,2 @@
+isSmalltalkEditor
+	^ false 

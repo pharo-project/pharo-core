@@ -1,1 +1,0 @@
-familyName: aString	familyName := aString

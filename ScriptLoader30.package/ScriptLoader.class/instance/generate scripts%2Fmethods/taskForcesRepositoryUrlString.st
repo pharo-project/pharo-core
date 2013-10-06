@@ -1,0 +1,3 @@
+taskForcesRepositoryUrlString
+	
+	^ self rootURLString , 'PharoTaskForces'

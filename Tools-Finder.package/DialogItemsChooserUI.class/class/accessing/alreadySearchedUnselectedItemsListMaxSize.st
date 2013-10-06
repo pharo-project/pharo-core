@@ -1,0 +1,3 @@
+alreadySearchedUnselectedItemsListMaxSize
+
+	^ alreadySearchedUnselectedItemsListMaxSize

@@ -1,0 +1,3 @@
+displayBlock: aBlock
+
+	displayBlock := aBlock

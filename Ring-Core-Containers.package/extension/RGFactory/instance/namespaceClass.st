@@ -1,0 +1,3 @@
+namespaceClass
+
+	^RGNamespace

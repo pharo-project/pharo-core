@@ -1,0 +1,2 @@
+newFromFile: aFileName
+	self subclassResponsibility

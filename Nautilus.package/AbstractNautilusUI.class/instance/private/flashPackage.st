@@ -1,0 +1,3 @@
+flashPackage
+
+	^ nil

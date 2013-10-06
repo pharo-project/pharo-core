@@ -1,0 +1,2 @@
+ruleCollectionMessagesToExternalObjectRuleV1FalsePositive
+^ #(#(#(#RGMethodDefinition #(#CriticsCache #addFalsePositiveRule:forPackage: #false)) #'2013-02-01T15:29:52.973000011+01:00') #(#(#RGMethodDefinition #(#CriticsCache #addToDo:forRule: #false)) #'2013-02-01T15:29:52.973000012+01:00') #(#(#RGMethodDefinition #(#CriticsCache #addFalsePositive:forRule: #false)) #'2013-02-01T15:29:52.973000013+01:00') #(#(#RGMethodDefinition #(#CriticsCache #addCritic:forRule: #false)) #'2013-02-01T15:29:52.973000014+01:00') )

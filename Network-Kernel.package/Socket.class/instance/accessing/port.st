@@ -1,0 +1,3 @@
+port
+	"Shortcut"
+	^self localPort

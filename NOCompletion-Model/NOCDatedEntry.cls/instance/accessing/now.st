@@ -1,1 +1,0 @@
-now	date := DateAndTime now

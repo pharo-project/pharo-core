@@ -1,0 +1,3 @@
+resizeCursor
+
+	^ Cursor resizeForEdge: #topRight

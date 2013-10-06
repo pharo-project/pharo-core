@@ -1,0 +1,3 @@
+releaseActionMap
+
+    actionMap := nil

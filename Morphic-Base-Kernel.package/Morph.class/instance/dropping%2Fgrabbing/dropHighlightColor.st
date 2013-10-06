@@ -1,0 +1,2 @@
+dropHighlightColor
+	^ Color blue

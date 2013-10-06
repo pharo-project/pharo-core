@@ -1,0 +1,2 @@
+blabEmail: aBlabEmailString
+	BlabEmail := aBlabEmailString

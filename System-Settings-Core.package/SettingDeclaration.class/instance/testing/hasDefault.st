@@ -1,0 +1,2 @@
+hasDefault
+	^ true

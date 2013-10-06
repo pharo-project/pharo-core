@@ -1,1 +1,0 @@
-hasScheme	^ scheme notNil

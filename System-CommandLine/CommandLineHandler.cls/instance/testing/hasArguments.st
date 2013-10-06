@@ -1,1 +1,0 @@
-hasArguments	^ self commandLine hasArguments

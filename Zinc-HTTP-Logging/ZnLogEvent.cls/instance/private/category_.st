@@ -1,1 +1,0 @@
-category: symbol	category := symbol

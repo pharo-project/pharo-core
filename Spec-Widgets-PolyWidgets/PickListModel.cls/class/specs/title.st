@@ -1,1 +1,0 @@
-title	^ 'Pick List Example'

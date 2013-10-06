@@ -1,1 +1,0 @@
-testLocalMethodsOfTheClassShouldNotBeRepeatedInItsTraits		self assertValidLintRule: RBLocalMethodsOfAClassNotInItsTraitComposition new

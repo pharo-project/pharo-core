@@ -1,1 +1,0 @@
-reopen	self ensureConnection

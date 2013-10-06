@@ -1,1 +1,0 @@
-maxLiteralCodes	^MaxLiteralCodes

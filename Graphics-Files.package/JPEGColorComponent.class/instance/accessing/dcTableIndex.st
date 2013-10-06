@@ -1,0 +1,3 @@
+dcTableIndex
+
+	^dcTableIndex

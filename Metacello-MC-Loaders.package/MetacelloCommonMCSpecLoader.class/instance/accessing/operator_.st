@@ -1,0 +1,3 @@
+operator: aSymbol
+
+	operator := aSymbol

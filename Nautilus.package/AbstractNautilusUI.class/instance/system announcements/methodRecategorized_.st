@@ -1,0 +1,3 @@
+methodRecategorized: anAnnouncement
+	
+	^ self subclassResponsibility

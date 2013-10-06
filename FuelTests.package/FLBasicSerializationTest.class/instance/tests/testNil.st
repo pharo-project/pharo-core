@@ -1,0 +1,3 @@
+testNil
+
+	self assertSerializationIdentityOf: nil

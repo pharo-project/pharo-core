@@ -1,0 +1,2 @@
+qTableIndex: anInteger 
+	qTableIndex := anInteger

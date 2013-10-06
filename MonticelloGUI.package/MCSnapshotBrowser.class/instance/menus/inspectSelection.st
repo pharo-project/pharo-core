@@ -1,0 +1,2 @@
+inspectSelection
+	^ self methodSelection inspect

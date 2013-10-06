@@ -1,0 +1,3 @@
+selectedItemsSearchingString
+
+	^ selectedItemsSearchingString

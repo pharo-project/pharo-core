@@ -1,1 +1,0 @@
-defaultUseEnterToAccept		^ false

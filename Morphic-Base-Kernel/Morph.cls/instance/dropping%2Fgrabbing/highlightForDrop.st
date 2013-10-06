@@ -1,1 +1,0 @@
-highlightForDrop	self highlightForDrop: true

@@ -1,0 +1,2 @@
+buffer
+	^ KMBuffer uniqueInstance buffer

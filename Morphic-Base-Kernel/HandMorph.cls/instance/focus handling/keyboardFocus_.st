@@ -1,1 +1,0 @@
-keyboardFocus: aMorphOrNil	keyboardFocus := aMorphOrNil

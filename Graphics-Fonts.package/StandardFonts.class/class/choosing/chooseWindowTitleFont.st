@@ -1,0 +1,2 @@
+chooseWindowTitleFont
+	self chooseStandardFont: #windowTitleFont

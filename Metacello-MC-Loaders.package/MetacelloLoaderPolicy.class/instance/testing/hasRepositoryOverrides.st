@@ -1,0 +1,3 @@
+hasRepositoryOverrides
+
+	^self overrideRepositories ~~ nil

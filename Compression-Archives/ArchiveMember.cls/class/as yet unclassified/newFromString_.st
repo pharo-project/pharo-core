@@ -1,1 +1,0 @@
-newFromString: aString	self subclassResponsibility

@@ -1,1 +1,0 @@
-definition	^ clazz definition

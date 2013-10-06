@@ -1,1 +1,0 @@
-setTimeStamp: stamp	timeStamp := stamp.

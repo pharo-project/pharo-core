@@ -1,1 +1,0 @@
-supportedOrigins	^ super supportedOrigins , #( library )

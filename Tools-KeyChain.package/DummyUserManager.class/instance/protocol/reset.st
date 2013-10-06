@@ -1,0 +1,3 @@
+reset
+
+	self class reset

@@ -1,0 +1,2 @@
+contentTypeXml
+	^'text/xml'

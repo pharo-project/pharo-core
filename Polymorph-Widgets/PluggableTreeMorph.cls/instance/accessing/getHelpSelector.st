@@ -1,1 +1,0 @@
-getHelpSelector	^getHelpSelector

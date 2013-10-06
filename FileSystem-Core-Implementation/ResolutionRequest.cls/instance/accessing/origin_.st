@@ -1,1 +1,0 @@
-origin: aSymbol	origin := aSymbol

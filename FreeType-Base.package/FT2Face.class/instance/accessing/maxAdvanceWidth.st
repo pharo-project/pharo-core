@@ -1,0 +1,2 @@
+maxAdvanceWidth
+	^maxAdvanceWidth

@@ -1,0 +1,2 @@
+analyzer
+	^serializer analyzer

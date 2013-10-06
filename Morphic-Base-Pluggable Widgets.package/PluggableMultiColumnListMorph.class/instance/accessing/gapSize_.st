@@ -1,0 +1,3 @@
+gapSize: anInteger
+
+	gapSize := anInteger.

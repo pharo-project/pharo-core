@@ -1,1 +1,0 @@
-findString	^ self findText asString

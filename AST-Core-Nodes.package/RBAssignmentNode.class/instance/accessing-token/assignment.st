@@ -1,0 +1,2 @@
+assignment
+	^ assignment

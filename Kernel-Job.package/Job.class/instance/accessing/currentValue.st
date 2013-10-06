@@ -1,0 +1,3 @@
+currentValue
+	
+	^ currentValue

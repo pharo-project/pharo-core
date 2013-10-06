@@ -1,1 +1,0 @@
-treeModelClass	^ GroupCreatorTreeModel

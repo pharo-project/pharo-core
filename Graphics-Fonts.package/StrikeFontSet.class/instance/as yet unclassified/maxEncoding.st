@@ -1,0 +1,3 @@
+maxEncoding
+
+	^ fontArray size.

@@ -1,0 +1,2 @@
+changeClassName
+	^ className

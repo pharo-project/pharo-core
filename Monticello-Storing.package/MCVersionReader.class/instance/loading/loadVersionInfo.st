@@ -1,0 +1,2 @@
+loadVersionInfo
+	self subclassResponsibility

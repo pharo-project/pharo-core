@@ -1,1 +1,0 @@
-scheme: anObject	scheme := anObject

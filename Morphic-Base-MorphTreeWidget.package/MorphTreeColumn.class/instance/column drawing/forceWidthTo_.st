@@ -1,0 +1,2 @@
+forceWidthTo: anInteger
+	currentWidth := anInteger

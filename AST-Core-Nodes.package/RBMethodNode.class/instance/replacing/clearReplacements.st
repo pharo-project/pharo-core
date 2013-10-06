@@ -1,0 +1,2 @@
+clearReplacements
+	replacements := nil

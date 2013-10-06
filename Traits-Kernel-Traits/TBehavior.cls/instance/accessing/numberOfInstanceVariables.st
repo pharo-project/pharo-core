@@ -1,1 +1,0 @@
-numberOfInstanceVariables	^ self instVarNames size

@@ -1,0 +1,3 @@
+getMethods
+
+	^ methodWidget getMethods

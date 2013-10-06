@@ -1,0 +1,2 @@
+name
+	^ 'Empty exception handler'

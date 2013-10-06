@@ -1,0 +1,2 @@
+job: aJob
+	job := aJob

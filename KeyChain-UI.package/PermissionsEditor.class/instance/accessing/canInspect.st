@@ -1,0 +1,2 @@
+canInspect
+	^ canInspect

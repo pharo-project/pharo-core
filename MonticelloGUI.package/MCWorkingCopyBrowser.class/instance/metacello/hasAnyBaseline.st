@@ -1,0 +1,2 @@
+hasAnyBaseline 
+	^ self baseLines notEmpty

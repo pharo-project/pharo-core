@@ -1,1 +1,0 @@
-deleteSelectedTabs	toolbar deleteSelectedTabs

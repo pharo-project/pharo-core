@@ -1,1 +1,0 @@
-resultClass	^ RBSelectorEnvironment

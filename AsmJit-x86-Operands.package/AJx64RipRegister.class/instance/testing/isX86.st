@@ -1,0 +1,2 @@
+isX86 
+	^ false

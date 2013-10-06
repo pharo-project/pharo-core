@@ -1,1 +1,0 @@
-textColor	^ self colorBlock value

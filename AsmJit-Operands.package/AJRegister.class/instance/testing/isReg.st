@@ -1,0 +1,2 @@
+isReg
+	^ true

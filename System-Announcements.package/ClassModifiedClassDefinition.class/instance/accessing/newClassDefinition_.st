@@ -1,0 +1,2 @@
+newClassDefinition: aClass
+	newClassDefinition := aClass

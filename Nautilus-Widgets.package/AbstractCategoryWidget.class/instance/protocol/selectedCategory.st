@@ -1,0 +1,3 @@
+selectedCategory
+
+	^ self model selectedCategory

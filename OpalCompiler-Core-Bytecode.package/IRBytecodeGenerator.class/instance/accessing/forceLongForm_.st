@@ -1,0 +1,2 @@
+forceLongForm: aBoolean
+	forceLongForm := aBoolean

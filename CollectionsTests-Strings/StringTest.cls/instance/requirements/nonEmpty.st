@@ -1,1 +1,0 @@
-nonEmpty	^ nonEmpty5ElementsSorted

@@ -1,1 +1,0 @@
-textHtml	^ self predefinedInstanceAt: #textHtml

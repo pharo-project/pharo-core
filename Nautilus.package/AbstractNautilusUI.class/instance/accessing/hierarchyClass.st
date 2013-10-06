@@ -1,0 +1,3 @@
+hierarchyClass
+
+	^ hierarchyClass

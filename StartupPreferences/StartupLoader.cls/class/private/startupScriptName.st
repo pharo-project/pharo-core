@@ -1,1 +1,0 @@
-startupScriptName	^ 'startup.st'

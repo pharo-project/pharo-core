@@ -1,0 +1,2 @@
+useTraditionalBinaryPrecedenceForParentheses
+	^ UseTraditionalBinaryPrecedenceForParentheses

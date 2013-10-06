@@ -1,0 +1,2 @@
+isEmpty
+	^ self history isEmpty

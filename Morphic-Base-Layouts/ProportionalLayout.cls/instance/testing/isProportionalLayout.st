@@ -1,1 +1,0 @@
-isProportionalLayout	^true

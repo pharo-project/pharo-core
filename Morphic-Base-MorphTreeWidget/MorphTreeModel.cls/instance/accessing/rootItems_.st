@@ -1,1 +1,0 @@
-rootItems: aCollection	rootItems := aCollection.

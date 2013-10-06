@@ -1,1 +1,0 @@
-doubleClickSelector	^ doubleClickSelector contents

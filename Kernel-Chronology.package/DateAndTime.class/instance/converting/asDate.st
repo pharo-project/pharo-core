@@ -1,0 +1,3 @@
+asDate
+
+	^ Date starting: self

@@ -1,1 +1,0 @@
-textSelector: aSymbol	textSelector := aSymbol

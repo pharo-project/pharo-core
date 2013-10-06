@@ -1,0 +1,2 @@
+justified 
+	textStyle justified

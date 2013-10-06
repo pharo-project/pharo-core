@@ -1,0 +1,2 @@
+values: anObject 
+	values := anObject

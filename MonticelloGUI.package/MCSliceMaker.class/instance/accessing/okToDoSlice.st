@@ -1,0 +1,2 @@
+okToDoSlice
+	^ okToDoSlice ifNil: [false]

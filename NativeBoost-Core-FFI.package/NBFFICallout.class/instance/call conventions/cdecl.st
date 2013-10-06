@@ -1,0 +1,2 @@
+cdecl
+	options add: #optCdecl

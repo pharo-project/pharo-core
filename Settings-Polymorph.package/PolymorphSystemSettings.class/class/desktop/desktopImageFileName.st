@@ -1,0 +1,2 @@
+desktopImageFileName
+	^ DesktopImageFileName ifNil: [DesktopImageFileName := '']

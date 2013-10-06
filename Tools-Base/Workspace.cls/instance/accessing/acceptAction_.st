@@ -1,1 +1,0 @@
-acceptAction: anAction	acceptAction := anAction.

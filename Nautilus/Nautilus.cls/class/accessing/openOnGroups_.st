@@ -1,1 +1,0 @@
-openOnGroups:aBoolean	OpenOnGroups := aBoolean

@@ -1,1 +1,0 @@
-showUpdateOptionInWorldMenu: aBoolean	ShowUpdateOptionInWorldMenu := aBoolean

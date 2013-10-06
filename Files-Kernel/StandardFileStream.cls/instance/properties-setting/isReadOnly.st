@@ -1,1 +1,0 @@
-isReadOnly	^ rwmode not

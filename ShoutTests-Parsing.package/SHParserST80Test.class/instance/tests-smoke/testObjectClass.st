@@ -1,0 +1,2 @@
+testObjectClass
+	self verifyClass: Object

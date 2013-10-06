@@ -1,1 +1,0 @@
-asRepositorySpecFor: aMetacelloMCProject	self subclassResponsibility

@@ -1,0 +1,2 @@
+copyEmpty
+	^ self class new

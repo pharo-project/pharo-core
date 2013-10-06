@@ -1,1 +1,0 @@
-isBlockEnd	^ type beginsWith: 'blockEnd'

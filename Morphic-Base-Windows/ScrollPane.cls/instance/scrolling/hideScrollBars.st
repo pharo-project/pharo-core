@@ -1,1 +1,0 @@
-hideScrollBars	self		vHideScrollBar;		hHideScrollBar

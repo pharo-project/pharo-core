@@ -1,0 +1,3 @@
+putSelector: aSymbol
+
+	putSelector := aSymbol.

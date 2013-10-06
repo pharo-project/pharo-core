@@ -1,0 +1,2 @@
+getStringSelector
+	^getStringSelector

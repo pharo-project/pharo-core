@@ -1,1 +1,0 @@
-minutes	^ self asDuration minutes

@@ -1,0 +1,3 @@
+multipleSelection: anObject
+
+	multipleSelection := anObject

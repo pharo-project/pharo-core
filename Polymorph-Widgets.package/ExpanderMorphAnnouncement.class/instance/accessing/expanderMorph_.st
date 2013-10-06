@@ -1,0 +1,3 @@
+expanderMorph: anObject
+
+	expanderMorph := anObject

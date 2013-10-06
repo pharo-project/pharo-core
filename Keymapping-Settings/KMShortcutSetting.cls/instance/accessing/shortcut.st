@@ -1,1 +1,0 @@
-shortcut	^ self keymap shortcut

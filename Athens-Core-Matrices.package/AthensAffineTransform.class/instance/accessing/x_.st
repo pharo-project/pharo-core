@@ -1,0 +1,2 @@
+x: number
+	x := number

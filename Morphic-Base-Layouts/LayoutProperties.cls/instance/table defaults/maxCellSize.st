@@ -1,1 +1,0 @@
-maxCellSize	^SmallInteger maxVal

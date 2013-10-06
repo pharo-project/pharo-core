@@ -1,0 +1,3 @@
+saveLocally: aBoolean
+
+	saveLocally := aBoolean

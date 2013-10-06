@@ -1,1 +1,0 @@
-showScrollBars	self  vShowScrollBar; hShowScrollBar

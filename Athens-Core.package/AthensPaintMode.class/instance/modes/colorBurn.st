@@ -1,0 +1,2 @@
+colorBurn
+	self notAvailable

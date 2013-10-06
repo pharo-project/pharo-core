@@ -1,0 +1,2 @@
+withHLines: aBoolean
+	withHLines := aBoolean

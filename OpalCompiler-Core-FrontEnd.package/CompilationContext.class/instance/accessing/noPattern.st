@@ -1,0 +1,2 @@
+noPattern
+	^noPattern ifNil: [ false ].

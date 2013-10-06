@@ -1,1 +1,0 @@
-useStringFormat	format := #string.

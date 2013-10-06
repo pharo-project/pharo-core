@@ -1,1 +1,0 @@
-icon: anIcon		icon := anIcon

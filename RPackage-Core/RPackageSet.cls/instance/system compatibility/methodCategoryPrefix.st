@@ -1,1 +1,0 @@
-methodCategoryPrefix	^ '*', self name asLowercase

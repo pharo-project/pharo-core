@@ -1,0 +1,2 @@
+argumentsCount
+	^ 5

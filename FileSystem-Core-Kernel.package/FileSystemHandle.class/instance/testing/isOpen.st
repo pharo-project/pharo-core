@@ -1,0 +1,2 @@
+isOpen
+	self subclassResponsibility

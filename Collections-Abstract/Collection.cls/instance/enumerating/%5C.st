@@ -1,1 +1,0 @@
-\ aCollection	^ self difference: aCollection

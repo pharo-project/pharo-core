@@ -1,0 +1,3 @@
+negative
+
+	^numerator negative

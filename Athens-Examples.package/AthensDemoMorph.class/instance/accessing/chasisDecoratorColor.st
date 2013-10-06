@@ -1,0 +1,2 @@
+chasisDecoratorColor
+	^ Color black

@@ -1,1 +1,0 @@
-testCommaAddsExtensionAgain	| path result |	path := Path * 'plonk.griffle'.	result := path, 'nurp'.	self assert: result basename = 'plonk.griffle.nurp'

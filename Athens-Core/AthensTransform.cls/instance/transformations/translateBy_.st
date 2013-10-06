@@ -1,1 +1,0 @@
-translateBy: aPoint	self subclassResponsibility

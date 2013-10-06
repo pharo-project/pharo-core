@@ -1,0 +1,3 @@
+systemNavigation
+
+	^ SystemNavigation new

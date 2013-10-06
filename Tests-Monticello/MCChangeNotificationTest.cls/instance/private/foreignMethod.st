@@ -1,1 +1,0 @@
-foreignMethod	"see testForeignMethodModified"

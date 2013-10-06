@@ -1,1 +1,0 @@
-initialize	Icons := Dictionary new.

@@ -1,0 +1,2 @@
+handleClass
+	^ self store handleClass

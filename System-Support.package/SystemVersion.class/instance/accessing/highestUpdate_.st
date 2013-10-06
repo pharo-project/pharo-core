@@ -1,0 +1,2 @@
+highestUpdate: anInteger
+	highestUpdate := anInteger

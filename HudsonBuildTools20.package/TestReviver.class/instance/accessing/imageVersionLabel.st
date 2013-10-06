@@ -1,0 +1,2 @@
+imageVersionLabel
+	^ imageVersionLabel

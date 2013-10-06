@@ -1,1 +1,0 @@
-alignmentInsertionPoint: instruction	alignInsertionPoint := instruction

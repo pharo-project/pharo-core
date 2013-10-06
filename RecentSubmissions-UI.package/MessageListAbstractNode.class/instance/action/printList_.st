@@ -1,0 +1,3 @@
+printList: aStream
+
+	^self subclassResponsibility

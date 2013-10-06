@@ -1,1 +1,0 @@
-dictionaryClass	^Dictionary

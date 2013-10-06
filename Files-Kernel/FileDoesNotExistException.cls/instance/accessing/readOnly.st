@@ -1,1 +1,0 @@
-readOnly	^readOnly == true

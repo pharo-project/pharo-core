@@ -1,0 +1,2 @@
+typeChoice
+	^ typeChoice

@@ -1,0 +1,2 @@
+rationale
+	^ 'Check methods that send messages that perform low level things. You might want to limit the number of such messages in your application. For example, using become: throughout your application might not be the best thing. Also, messages such as isKindOf: can signify a lack of polymorphism. You can change which methods are "questionable" by editing the BasicLintRule>>badSelectors method.'

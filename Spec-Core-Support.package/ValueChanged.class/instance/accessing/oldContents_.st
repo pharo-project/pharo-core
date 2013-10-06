@@ -1,0 +1,3 @@
+oldContents: anObject
+	
+	oldContents := anObject

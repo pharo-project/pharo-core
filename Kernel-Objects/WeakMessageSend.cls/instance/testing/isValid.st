@@ -1,1 +1,0 @@
-isValid	^self isReceiverOrAnyArgumentGarbage not

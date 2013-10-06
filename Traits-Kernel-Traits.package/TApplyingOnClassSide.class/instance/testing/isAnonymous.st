@@ -1,0 +1,2 @@
+isAnonymous
+	^self soleInstance isAnonymous 

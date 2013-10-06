@@ -1,0 +1,2 @@
+month
+	^ self asMonth

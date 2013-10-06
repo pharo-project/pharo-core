@@ -1,0 +1,2 @@
+isArgument
+	^ true

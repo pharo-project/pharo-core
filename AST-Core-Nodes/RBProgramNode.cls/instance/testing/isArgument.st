@@ -1,1 +1,0 @@
-isArgument	^false

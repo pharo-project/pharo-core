@@ -1,0 +1,2 @@
+label
+	^ 'Create Accesors' translated

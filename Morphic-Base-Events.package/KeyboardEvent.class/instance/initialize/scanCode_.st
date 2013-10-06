@@ -1,0 +1,2 @@
+scanCode: anInt
+	scanCode := anInt

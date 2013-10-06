@@ -1,1 +1,0 @@
-basicOrganization: aClassOrg	organization := aClassOrg

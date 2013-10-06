@@ -1,1 +1,0 @@
-dumbbellCursor: aBoolean	DumbbellCursor := aBoolean

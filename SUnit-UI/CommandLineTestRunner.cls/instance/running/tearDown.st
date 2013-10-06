@@ -1,1 +1,0 @@
-tearDown	self printReport

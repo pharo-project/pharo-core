@@ -1,0 +1,2 @@
+defaultLabel
+	^'some methods'

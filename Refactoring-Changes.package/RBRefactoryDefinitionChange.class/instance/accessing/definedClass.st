@@ -1,0 +1,2 @@
+definedClass
+	^ definedClass

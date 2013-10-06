@@ -1,0 +1,2 @@
+syntaxStyle
+	^ Groups at: #syntax

@@ -1,0 +1,2 @@
+currentConfigurationModel
+	^ currentConfigurationModel

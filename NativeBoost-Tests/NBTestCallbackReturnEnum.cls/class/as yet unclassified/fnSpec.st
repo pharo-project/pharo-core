@@ -1,1 +1,0 @@
-fnSpec 	^#(#NBTestEnumeration (NBInt32))

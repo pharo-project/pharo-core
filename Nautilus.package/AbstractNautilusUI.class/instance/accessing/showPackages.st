@@ -1,0 +1,3 @@
+showPackages
+
+	^  self model showPackages

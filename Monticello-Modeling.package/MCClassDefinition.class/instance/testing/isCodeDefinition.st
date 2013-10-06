@@ -1,0 +1,2 @@
+isCodeDefinition
+	^ true

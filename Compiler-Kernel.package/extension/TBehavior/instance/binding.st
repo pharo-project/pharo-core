@@ -1,0 +1,2 @@
+binding
+	^ nil -> self

@@ -1,0 +1,3 @@
+characterLimit
+
+	^ 20000

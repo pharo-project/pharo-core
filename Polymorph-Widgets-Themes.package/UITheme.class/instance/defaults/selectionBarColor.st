@@ -1,0 +1,4 @@
+selectionBarColor
+
+	^ self settings selectionBarColor
+

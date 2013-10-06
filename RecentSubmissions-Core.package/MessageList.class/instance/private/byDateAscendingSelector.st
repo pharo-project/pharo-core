@@ -1,0 +1,3 @@
+byDateAscendingSelector
+
+	^ #groupedByDateAscending

@@ -1,1 +1,0 @@
-RBChangeMethodNameRefactoring subclass: #RBRenameMethodRefactoring	instanceVariableNames: 'hasPermutedArguments'	classVariableNames: ''	poolDictionaries: ''	category: 'Refactoring-Core-Refactorings'

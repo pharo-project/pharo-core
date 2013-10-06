@@ -1,0 +1,3 @@
+selectedItemsTextArea: anObject
+
+	selectedItemsTextArea := anObject

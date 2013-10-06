@@ -1,0 +1,2 @@
+asFloat
+	^super asFloat negated

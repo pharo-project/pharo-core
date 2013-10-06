@@ -1,0 +1,2 @@
+optionInlineAndOr
+	^ options includes: #optionInlineAndOr

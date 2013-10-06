@@ -1,1 +1,0 @@
-slantValue	self subclassResponsibility

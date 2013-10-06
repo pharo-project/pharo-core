@@ -1,1 +1,0 @@
-receiverClass: anObject	receiverClass := anObject

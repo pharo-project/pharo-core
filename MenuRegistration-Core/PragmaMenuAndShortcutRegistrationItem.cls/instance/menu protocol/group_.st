@@ -1,1 +1,0 @@
-group: aSymbol	group := aSymbol

@@ -1,0 +1,3 @@
+descent
+
+	self subclassResponsibility.

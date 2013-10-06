@@ -1,0 +1,3 @@
+applyToList: aListSpec
+
+	self subclassResponsibility

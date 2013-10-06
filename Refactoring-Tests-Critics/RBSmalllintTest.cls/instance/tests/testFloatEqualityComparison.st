@@ -1,1 +1,0 @@
-testFloatEqualityComparison	self ruleFor: self currentSelector

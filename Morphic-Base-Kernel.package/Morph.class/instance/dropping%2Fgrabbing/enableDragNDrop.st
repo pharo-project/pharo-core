@@ -1,0 +1,2 @@
+enableDragNDrop
+	self enableDragNDrop: true

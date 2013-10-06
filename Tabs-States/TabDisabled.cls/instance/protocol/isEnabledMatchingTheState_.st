@@ -1,1 +1,0 @@
-isEnabledMatchingTheState: aBoolean	^ aBoolean not

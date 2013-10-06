@@ -1,0 +1,2 @@
+expired
+	^value == self

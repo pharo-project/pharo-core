@@ -1,0 +1,2 @@
+instVarRefactoring: aBuilder
+	^self explicitRequirement.

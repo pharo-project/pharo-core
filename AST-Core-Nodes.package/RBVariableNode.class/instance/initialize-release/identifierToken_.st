@@ -1,0 +1,2 @@
+identifierToken: anIdentifierToken 
+	token := anIdentifierToken

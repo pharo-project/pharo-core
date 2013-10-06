@@ -1,1 +1,0 @@
-maxAscii	^ SmallInteger maxVal

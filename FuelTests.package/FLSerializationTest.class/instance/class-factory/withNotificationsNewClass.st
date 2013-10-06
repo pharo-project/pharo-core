@@ -1,0 +1,2 @@
+withNotificationsNewClass
+	^ self classFactory withNotificationsNewClass

@@ -1,0 +1,3 @@
+helpText: aString
+
+	helpText := aString

@@ -1,0 +1,2 @@
+uppercase
+	^ self asUppercase

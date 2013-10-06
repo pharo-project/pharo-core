@@ -1,0 +1,2 @@
+getTextSelector
+	^getTextSelector

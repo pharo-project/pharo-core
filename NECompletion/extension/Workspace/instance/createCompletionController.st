@@ -1,1 +1,0 @@
-createCompletionController	^NECWorkspaceController model: self

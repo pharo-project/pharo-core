@@ -1,1 +1,0 @@
-rootItems	^ PackageOrganizer default packages 

@@ -1,0 +1,3 @@
+menu: aMenu
+	
+	menu := aMenu

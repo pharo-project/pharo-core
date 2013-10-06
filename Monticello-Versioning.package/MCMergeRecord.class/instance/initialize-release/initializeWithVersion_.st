@@ -1,0 +1,2 @@
+initializeWithVersion: aVersion
+	version := aVersion

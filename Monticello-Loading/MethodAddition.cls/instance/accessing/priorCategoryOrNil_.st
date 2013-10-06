@@ -1,1 +1,0 @@
-priorCategoryOrNil: anObject	priorCategoryOrNil := anObject

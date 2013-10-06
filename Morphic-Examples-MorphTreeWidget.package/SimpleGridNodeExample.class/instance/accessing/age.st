@@ -1,0 +1,2 @@
+age
+	^ self item age

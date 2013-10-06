@@ -1,0 +1,2 @@
+toggleShowInstance
+	^ self subclassResponsibility

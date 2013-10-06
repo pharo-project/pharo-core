@@ -1,0 +1,3 @@
+fullscreenOn
+
+	self fullscreen: true

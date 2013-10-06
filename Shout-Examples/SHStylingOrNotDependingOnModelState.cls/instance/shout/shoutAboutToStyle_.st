@@ -1,1 +1,0 @@
-shoutAboutToStyle: ATextView	^ self codeEditing

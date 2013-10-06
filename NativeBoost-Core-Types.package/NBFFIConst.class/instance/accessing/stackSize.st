@@ -1,0 +1,2 @@
+stackSize
+	^ 4

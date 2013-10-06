@@ -1,0 +1,2 @@
+sharedPools: aCollection
+	"Compatibilty purposes"

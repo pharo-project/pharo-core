@@ -1,0 +1,2 @@
+asByteArray
+	^ self comment asByteArray

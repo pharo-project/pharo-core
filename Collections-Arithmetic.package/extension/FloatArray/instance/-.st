@@ -1,0 +1,2 @@
+- anObject
+	^self shallowCopy -= anObject

@@ -1,0 +1,2 @@
+doDup
+	irBuilder pushDup

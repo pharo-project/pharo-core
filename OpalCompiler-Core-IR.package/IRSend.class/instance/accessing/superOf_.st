@@ -1,0 +1,3 @@
+superOf: behavior
+
+	superOf := behavior

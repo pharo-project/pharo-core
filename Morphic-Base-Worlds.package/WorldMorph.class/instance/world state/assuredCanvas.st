@@ -1,0 +1,2 @@
+assuredCanvas
+	^ worldState assuredCanvas

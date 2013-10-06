@@ -1,1 +1,0 @@
-methodAdded: anAnnouncement	^ self subclassResponsibility

@@ -1,0 +1,3 @@
+emitStore: methodBuilder
+
+	self shouldNotImplement

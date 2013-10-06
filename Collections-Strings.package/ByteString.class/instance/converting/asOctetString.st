@@ -1,0 +1,3 @@
+asOctetString
+
+	^ self.

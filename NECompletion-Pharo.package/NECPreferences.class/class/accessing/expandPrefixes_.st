@@ -1,0 +1,2 @@
+expandPrefixes: aBoolean
+	expandPrefixes := aBoolean

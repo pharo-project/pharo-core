@@ -1,1 +1,0 @@
-label	^'Extract method' translated

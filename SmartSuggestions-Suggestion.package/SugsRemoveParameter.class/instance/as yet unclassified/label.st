@@ -1,0 +1,2 @@
+label
+	^'Remove parameter' translated

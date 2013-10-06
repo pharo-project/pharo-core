@@ -1,0 +1,3 @@
+redoOperation 
+
+	self changeManager redoOperation

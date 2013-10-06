@@ -1,0 +1,3 @@
+initializeInstance
+
+	^ self defaultReceiver basicNew.

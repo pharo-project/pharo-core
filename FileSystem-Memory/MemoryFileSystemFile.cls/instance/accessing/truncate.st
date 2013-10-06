@@ -1,1 +1,0 @@
-truncate	self truncateTo: size

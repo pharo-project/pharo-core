@@ -1,1 +1,0 @@
-asAthensPaintOn: surf	^ self 

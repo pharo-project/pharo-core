@@ -1,0 +1,2 @@
+setScale: aFloat 
+	scale := aFloat

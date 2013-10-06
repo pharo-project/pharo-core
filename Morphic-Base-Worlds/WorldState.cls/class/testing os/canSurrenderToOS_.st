@@ -1,1 +1,0 @@
-canSurrenderToOS: aBoolean	CanSurrenderToOS := aBoolean

@@ -1,0 +1,2 @@
+visitCloseSegment: closeSegment
+	self closePath

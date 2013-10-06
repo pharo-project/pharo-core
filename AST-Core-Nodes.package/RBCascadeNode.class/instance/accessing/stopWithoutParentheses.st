@@ -1,0 +1,2 @@
+stopWithoutParentheses
+	^messages last stop

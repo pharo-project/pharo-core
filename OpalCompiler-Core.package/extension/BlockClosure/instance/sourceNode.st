@@ -1,0 +1,2 @@
+sourceNode
+	^ self asContext sourceNode

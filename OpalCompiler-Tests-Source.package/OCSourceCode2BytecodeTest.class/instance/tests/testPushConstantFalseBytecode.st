@@ -1,0 +1,8 @@
+testPushConstantFalseBytecode
+	| selector methodNode scanner did |
+	selector := (methodNode := self compile2methodNode: 'pushConstantFalseBytecode false yourself') selector.
+	scanner := InstructionStream on: methodNode method.
+	self
+		assert: ((did := scanner peekInstruction) selector == #pushConstant:
+				and: [did arguments first not])
+		description: 'Failed ' , selector

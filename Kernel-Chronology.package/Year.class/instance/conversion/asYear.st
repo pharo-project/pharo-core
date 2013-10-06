@@ -1,0 +1,3 @@
+asYear 
+
+	^ self 

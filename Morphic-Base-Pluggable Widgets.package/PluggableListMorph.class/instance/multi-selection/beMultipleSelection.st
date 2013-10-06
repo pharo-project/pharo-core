@@ -1,0 +1,3 @@
+beMultipleSelection
+
+	multipleSelection := true

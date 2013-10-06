@@ -1,0 +1,3 @@
+isLiteral: valueTest
+
+	^ false

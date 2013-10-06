@@ -1,0 +1,3 @@
+isFile
+	^ true
+	

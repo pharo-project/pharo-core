@@ -1,1 +1,0 @@
-sequence: anNumber	sequence := anNumber

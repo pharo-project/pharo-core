@@ -1,1 +1,0 @@
-dragTransferTypeForMorph: aMorph	^#file

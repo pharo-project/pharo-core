@@ -1,0 +1,2 @@
+hasScheme
+	^ scheme notNil

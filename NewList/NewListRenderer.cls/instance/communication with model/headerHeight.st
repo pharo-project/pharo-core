@@ -1,1 +1,0 @@
-headerHeight	^ self listSource headerHeight

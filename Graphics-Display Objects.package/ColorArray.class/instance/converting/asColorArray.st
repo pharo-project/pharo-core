@@ -1,0 +1,2 @@
+asColorArray
+	^self

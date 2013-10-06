@@ -1,0 +1,3 @@
+endAt: aNumber 
+
+	end := aNumber.

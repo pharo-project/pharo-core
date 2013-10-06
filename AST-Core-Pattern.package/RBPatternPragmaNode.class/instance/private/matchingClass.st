@@ -1,0 +1,2 @@
+matchingClass
+	^ RBPragmaNode

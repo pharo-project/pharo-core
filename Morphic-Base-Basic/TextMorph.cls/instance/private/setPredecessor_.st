@@ -1,1 +1,0 @@
-setPredecessor: newPredecessor	predecessor := newPredecessor

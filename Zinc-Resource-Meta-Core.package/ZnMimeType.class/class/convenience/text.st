@@ -1,0 +1,3 @@
+text
+	^ self predefinedInstanceAt: #text
+	

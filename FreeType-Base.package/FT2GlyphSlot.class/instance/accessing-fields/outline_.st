@@ -1,0 +1,2 @@
+outline: anOutline
+	outline := anOutline

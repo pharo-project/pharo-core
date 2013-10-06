@@ -1,1 +1,0 @@
-asActionSequence	^WeakActionSequence with: self

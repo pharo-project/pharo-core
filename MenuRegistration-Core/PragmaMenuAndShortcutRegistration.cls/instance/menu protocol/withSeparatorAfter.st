@@ -1,1 +1,0 @@
-withSeparatorAfter	self currentItem withSeparatorAfter

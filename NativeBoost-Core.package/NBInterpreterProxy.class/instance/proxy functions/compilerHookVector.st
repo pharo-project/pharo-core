@@ -1,0 +1,3 @@
+compilerHookVector
+	
+	^ self simpleCall

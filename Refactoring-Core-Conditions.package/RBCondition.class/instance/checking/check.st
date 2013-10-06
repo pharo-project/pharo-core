@@ -1,0 +1,2 @@
+check
+	^block value

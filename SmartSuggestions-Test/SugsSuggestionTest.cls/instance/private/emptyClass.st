@@ -1,1 +1,0 @@
-emptyClass	^ emptyClass

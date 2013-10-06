@@ -1,1 +1,0 @@
-initializeWithOperations: aCollection	operations := aCollection

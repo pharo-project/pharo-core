@@ -1,1 +1,0 @@
-objectTransformBlock	^ objectTransformBlock

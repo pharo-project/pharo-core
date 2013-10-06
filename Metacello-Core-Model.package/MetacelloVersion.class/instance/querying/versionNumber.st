@@ -1,0 +1,3 @@
+versionNumber
+
+	^versionNumber

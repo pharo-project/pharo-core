@@ -1,0 +1,2 @@
+classOf: anObject
+	^ anObject class

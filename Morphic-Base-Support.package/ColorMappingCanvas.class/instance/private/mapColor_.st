@@ -1,0 +1,2 @@
+mapColor: aColor
+	^aColor

@@ -1,0 +1,3 @@
+swapReceiver: newReceiver
+
+	receiver := newReceiver

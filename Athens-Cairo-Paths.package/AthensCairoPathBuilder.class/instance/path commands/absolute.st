@@ -1,0 +1,2 @@
+absolute
+	absolute := true

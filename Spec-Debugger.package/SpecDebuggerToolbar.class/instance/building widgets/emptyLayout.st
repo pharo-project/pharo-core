@@ -1,0 +1,3 @@
+emptyLayout
+	
+	^ SpecLayout composed

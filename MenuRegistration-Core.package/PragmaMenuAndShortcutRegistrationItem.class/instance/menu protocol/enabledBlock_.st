@@ -1,0 +1,3 @@
+enabledBlock: aBlock
+
+	enabledBlock := aBlock

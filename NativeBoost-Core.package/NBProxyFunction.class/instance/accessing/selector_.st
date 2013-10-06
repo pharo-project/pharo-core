@@ -1,0 +1,3 @@
+selector: aSelector
+
+	selector := aSelector

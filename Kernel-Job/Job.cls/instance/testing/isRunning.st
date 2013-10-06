@@ -1,1 +1,0 @@
-isRunning	^ isRunning

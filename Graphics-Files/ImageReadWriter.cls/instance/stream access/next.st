@@ -1,1 +1,0 @@
-next	^stream next

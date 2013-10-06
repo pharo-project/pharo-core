@@ -1,1 +1,0 @@
-checkGap	^ 2

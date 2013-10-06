@@ -1,0 +1,2 @@
+stretchNarrow
+	^4

@@ -1,0 +1,2 @@
+current
+	^Locale current localeID

@@ -1,0 +1,3 @@
+pushReceiver
+
+	stream nextPutAll: 'pushReceiver'

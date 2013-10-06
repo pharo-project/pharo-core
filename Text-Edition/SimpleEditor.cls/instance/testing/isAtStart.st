@@ -1,1 +1,0 @@
-isAtStart	^pointIndex = 1

@@ -1,1 +1,0 @@
-growlContentsColorFor: aGrowlMorph	^ Color white

@@ -1,0 +1,2 @@
+bits: anObject 
+	bits := anObject

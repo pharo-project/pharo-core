@@ -1,0 +1,2 @@
+canBeRefreshed
+	^ canBeRefreshed

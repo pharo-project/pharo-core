@@ -1,0 +1,2 @@
+classRecategorized
+	^classRecategorized

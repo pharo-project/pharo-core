@@ -1,0 +1,2 @@
+isPoolImport
+	^ true

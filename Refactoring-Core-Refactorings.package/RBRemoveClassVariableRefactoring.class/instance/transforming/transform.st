@@ -1,0 +1,2 @@
+transform
+	class removeClassVariable: variableName

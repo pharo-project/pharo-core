@@ -1,1 +1,0 @@
-repositoryToArray: aRepository	^ {aRepository description}

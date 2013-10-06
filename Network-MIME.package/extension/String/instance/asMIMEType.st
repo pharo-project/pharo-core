@@ -1,0 +1,2 @@
+asMIMEType
+	^MIMEType fromMIMEString: self

@@ -1,0 +1,3 @@
+resizerWidth
+
+	^ resizerWidth contents

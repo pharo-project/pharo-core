@@ -1,0 +1,3 @@
+itemClass
+
+	^ PragmaMenuAndShortcutRegistrationItem

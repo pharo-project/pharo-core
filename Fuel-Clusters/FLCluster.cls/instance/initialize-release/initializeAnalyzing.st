@@ -1,1 +1,0 @@
-initializeAnalyzing	self initialize.

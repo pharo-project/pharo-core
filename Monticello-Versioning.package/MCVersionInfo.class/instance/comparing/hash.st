@@ -1,0 +1,2 @@
+hash
+	^ id hash

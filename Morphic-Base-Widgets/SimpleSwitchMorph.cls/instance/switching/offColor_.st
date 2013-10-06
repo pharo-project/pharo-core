@@ -1,1 +1,0 @@
-offColor: aColor	offColor := aColor.

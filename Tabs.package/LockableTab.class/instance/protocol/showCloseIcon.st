@@ -1,0 +1,3 @@
+showCloseIcon
+
+	closeIcon show

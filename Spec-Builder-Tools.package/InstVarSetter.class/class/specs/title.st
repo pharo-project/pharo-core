@@ -1,0 +1,3 @@
+title
+
+	^'Inst var setter'

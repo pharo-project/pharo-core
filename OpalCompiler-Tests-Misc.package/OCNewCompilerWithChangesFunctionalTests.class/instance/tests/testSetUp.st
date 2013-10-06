@@ -1,0 +1,23 @@
+testSetUp
+	
+	| aCompiledMethod bytecode index |
+	aCompiledMethod := (OpalCompiler new 
+									compile: 'setUp
+												super setUp.
+												collection := OrderedCollection new'
+									in: OCMockCompilationClass
+									classified: nil
+									notifying: nil
+									ifFail: [])
+									generate.
+	
+	bytecode := aCompiledMethod symbolic asString subStrings: '
+'.
+	index := 0.
+	self assert: (bytecode at: (index := index + 1)) =  '21 <70> self'.
+	self assert: (bytecode at: (index := index + 1)) =  '22 <85 00> superSend: setUp'.
+	self assert: (bytecode at: (index := index + 1)) =  '24 <87> pop'.
+	self assert: (bytecode at: (index := index + 1)) =  '25 <41> pushLit: OrderedCollection'.
+	self assert: (bytecode at: (index := index + 1)) =  '26 <CC> send: new'.
+	self assert: (bytecode at: (index := index + 1)) =  '27 <60> popIntoRcvr: 0'.
+	self assert: (bytecode at: (index := index + 1)) =  '28 <78> returnSelf'.

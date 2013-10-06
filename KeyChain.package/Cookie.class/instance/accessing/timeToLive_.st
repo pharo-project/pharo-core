@@ -1,0 +1,3 @@
+timeToLive: aDuration
+
+	timeToLive := aDuration

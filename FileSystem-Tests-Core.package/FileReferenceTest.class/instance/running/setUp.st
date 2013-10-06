@@ -1,0 +1,2 @@
+setUp
+	filesystem := FileSystem memory.

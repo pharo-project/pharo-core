@@ -1,1 +1,0 @@
-classOrMetaClass		^ self methodClass

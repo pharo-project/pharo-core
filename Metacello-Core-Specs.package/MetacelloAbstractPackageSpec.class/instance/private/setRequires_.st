@@ -1,0 +1,3 @@
+setRequires: aCollection
+
+	requires := aCollection

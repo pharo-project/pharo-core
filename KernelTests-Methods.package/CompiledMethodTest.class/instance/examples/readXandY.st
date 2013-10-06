@@ -1,0 +1,4 @@
+readXandY
+	
+	^ x + y
+	

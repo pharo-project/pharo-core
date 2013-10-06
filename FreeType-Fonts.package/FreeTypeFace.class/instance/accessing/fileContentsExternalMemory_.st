@@ -1,0 +1,2 @@
+fileContentsExternalMemory: aFreeTypeExternalMemory
+	fileContentsExternalMemory := aFreeTypeExternalMemory

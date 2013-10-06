@@ -1,0 +1,3 @@
+browseButtonAction 
+
+	self browseSelectedMorph

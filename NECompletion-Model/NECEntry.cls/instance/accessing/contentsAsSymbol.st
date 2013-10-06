@@ -1,1 +1,0 @@
-contentsAsSymbol	^ contents asSymbol 

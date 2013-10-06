@@ -1,1 +1,0 @@
-methodOrigin: anObject	methodOrigin := anObject 

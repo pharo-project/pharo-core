@@ -1,0 +1,3 @@
+ellipsize
+
+	^ ellipsize

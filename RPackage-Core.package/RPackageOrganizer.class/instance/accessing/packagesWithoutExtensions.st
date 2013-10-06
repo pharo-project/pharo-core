@@ -1,0 +1,3 @@
+packagesWithoutExtensions
+	
+	^self packages.

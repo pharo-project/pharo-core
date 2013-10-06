@@ -1,1 +1,0 @@
-selectedNodePath	^ selectedNodePath

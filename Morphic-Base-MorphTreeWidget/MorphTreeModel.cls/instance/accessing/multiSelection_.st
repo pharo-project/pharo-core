@@ -1,1 +1,0 @@
-multiSelection: aBoolean	multiSelection := aBoolean

@@ -1,0 +1,3 @@
+offColor: aColor
+
+	offColor := aColor.

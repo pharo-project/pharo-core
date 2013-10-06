@@ -1,0 +1,2 @@
+realClass
+	^super realClass class

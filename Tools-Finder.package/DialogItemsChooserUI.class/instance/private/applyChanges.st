@@ -1,0 +1,2 @@
+applyChanges
+	self valid

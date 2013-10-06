@@ -1,1 +1,0 @@
-showBoundsInHalo: aBoolean	ShowBoundsInHalo := aBoolean

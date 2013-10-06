@@ -1,0 +1,2 @@
+baseStreamType
+	^ MCDataStream

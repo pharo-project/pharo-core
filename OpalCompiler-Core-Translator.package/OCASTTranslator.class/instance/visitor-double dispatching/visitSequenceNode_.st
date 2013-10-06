@@ -1,0 +1,3 @@
+visitSequenceNode: aSequenceNode 
+
+	self shouldBeSentToValueOrEffectTranslator

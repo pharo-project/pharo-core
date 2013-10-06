@@ -1,0 +1,2 @@
+allPoolDictionaryNames
+	^ self theNonMetaClass allPoolDictionaryNames

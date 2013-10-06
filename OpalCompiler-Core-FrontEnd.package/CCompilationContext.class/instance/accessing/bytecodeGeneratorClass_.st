@@ -1,0 +1,2 @@
+bytecodeGeneratorClass: anObject
+	bytecodeGeneratorClass := anObject

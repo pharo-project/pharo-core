@@ -1,0 +1,2 @@
+weightThin
+	^100

@@ -1,0 +1,2 @@
+empty
+	^ emptyString

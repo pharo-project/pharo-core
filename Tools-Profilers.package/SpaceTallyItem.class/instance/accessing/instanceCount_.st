@@ -1,0 +1,3 @@
+instanceCount: aNumber
+
+	instanceCount := aNumber

@@ -1,0 +1,3 @@
+accessCollection
+
+	^ example1

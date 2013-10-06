@@ -1,1 +1,0 @@
-nextEncodedBitmap	^ Bitmap newFromStream: stream

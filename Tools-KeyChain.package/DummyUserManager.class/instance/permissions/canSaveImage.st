@@ -1,0 +1,3 @@
+canSaveImage
+
+	^ true

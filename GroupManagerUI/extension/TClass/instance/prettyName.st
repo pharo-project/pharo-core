@@ -1,1 +1,0 @@
-prettyName	^ self printString

@@ -1,0 +1,2 @@
+restartAlsoProceeds: aBoolean
+	RestartAlsoProceeds := aBoolean

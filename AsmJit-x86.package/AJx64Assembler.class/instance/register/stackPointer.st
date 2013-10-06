@@ -1,0 +1,2 @@
+stackPointer
+	^ RSP

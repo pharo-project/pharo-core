@@ -1,0 +1,3 @@
+wantsDirectionHandles
+
+	^ false

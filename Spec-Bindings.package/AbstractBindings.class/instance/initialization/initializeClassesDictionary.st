@@ -1,0 +1,3 @@
+initializeClassesDictionary
+
+	^ IdentityDictionary new

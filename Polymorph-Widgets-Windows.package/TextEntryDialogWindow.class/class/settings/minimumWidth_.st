@@ -1,0 +1,2 @@
+minimumWidth: anInteger
+	MinimumWidth := anInteger

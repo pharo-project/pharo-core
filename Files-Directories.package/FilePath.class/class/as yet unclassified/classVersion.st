@@ -1,0 +1,3 @@
+classVersion
+
+	^ 1.

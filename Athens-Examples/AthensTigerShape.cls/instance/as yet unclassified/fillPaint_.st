@@ -1,1 +1,0 @@
-fillPaint: aColor 	fillPaint := aColor

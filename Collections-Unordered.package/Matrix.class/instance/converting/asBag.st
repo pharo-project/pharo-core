@@ -1,0 +1,2 @@
+asBag
+	^contents asBag

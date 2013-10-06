@@ -1,0 +1,2 @@
+attemptToRecurseDrawing
+	^ self 

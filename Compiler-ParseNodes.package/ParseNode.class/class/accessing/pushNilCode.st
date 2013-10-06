@@ -1,0 +1,3 @@
+pushNilCode
+
+	^LdNil

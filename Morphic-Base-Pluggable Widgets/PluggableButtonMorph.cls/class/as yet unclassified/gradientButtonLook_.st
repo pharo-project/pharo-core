@@ -1,1 +1,0 @@
-gradientButtonLook: aBoolean	UseGradientLook := aBoolean

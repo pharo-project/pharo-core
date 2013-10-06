@@ -1,0 +1,3 @@
+timeZoneName
+
+	^ self timeZone name

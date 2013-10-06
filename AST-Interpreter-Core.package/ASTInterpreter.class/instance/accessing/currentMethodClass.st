@@ -1,0 +1,2 @@
+currentMethodClass
+	^ context methodClass

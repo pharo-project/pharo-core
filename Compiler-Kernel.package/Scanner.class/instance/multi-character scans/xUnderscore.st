@@ -1,0 +1,2 @@
+xUnderscore
+	^ self xIllegal

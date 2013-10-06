@@ -1,0 +1,2 @@
+stretchSemiExtended
+	^6

@@ -1,0 +1,2 @@
+resizerWidth: anInteger
+	resizerWidth := anInteger.

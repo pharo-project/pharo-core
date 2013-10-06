@@ -1,0 +1,2 @@
+optionInlineWhile
+	^ options includes: #optionInlineWhile

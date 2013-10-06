@@ -1,1 +1,0 @@
-resultClass	^ RBVariableEnvironment

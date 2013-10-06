@@ -1,0 +1,3 @@
+text: anObject
+
+	text := anObject

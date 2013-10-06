@@ -1,1 +1,0 @@
-isClassDefinition	^false

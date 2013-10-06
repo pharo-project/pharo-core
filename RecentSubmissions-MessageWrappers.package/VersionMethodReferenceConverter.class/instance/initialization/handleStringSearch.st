@@ -1,0 +1,3 @@
+handleStringSearch
+
+	^ false

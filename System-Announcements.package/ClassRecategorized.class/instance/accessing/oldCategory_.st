@@ -1,0 +1,2 @@
+oldCategory: anOldCategory
+	oldCategory := anOldCategory

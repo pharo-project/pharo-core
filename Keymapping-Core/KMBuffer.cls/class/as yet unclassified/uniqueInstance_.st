@@ -1,1 +1,0 @@
-uniqueInstance: aBuffer	uniqueInstance := aBuffer.

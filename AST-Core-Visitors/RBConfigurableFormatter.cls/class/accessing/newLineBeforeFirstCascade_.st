@@ -1,1 +1,0 @@
-newLineBeforeFirstCascade: aBoolean	NewLineBeforeFirstCascade := aBoolean

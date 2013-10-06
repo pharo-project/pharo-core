@@ -1,1 +1,0 @@
-lastSelection: anObject	lastSelection := anObject

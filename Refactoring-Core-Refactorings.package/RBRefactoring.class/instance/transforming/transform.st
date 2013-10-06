@@ -1,0 +1,2 @@
+transform
+	self subclassResponsibility

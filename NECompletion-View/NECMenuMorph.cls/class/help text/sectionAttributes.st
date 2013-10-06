@@ -1,1 +1,0 @@
-sectionAttributes	^ {TextEmphasis bold}

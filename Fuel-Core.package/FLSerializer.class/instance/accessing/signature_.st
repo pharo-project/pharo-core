@@ -1,0 +1,2 @@
+signature: anObject
+	signature := anObject

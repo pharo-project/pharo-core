@@ -1,1 +1,0 @@
-summary	^ definition summary

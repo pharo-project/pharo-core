@@ -1,0 +1,3 @@
+loader
+
+	^self spec loader

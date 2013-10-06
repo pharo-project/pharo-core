@@ -1,0 +1,2 @@
+maxCode: aNumber
+	maxCode := aNumber.

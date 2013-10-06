@@ -1,0 +1,2 @@
+superclass
+	^ origin newClass

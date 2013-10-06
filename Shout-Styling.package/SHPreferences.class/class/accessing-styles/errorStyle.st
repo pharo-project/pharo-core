@@ -1,0 +1,2 @@
+errorStyle
+	^ Groups at: #error

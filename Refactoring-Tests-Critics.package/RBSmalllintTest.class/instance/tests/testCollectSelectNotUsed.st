@@ -1,0 +1,2 @@
+testCollectSelectNotUsed
+	self ruleFor: self currentSelector

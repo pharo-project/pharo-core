@@ -1,0 +1,2 @@
+leadingChar
+	^self class leadingChar

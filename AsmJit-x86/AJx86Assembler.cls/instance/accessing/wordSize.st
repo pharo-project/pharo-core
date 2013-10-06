@@ -1,1 +1,0 @@
-wordSize	^ 4

@@ -1,1 +1,0 @@
-defaultTolerance	^ 1

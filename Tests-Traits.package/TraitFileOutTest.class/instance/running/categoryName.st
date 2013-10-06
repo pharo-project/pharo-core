@@ -1,0 +1,2 @@
+categoryName
+	^'Traits-Tests-FileOut'

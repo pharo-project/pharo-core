@@ -1,0 +1,3 @@
+for: aProject
+
+	project := aProject

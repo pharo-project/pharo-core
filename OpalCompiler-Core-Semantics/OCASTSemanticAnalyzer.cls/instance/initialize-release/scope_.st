@@ -1,1 +1,0 @@
-scope: aSemScope	scope := aSemScope

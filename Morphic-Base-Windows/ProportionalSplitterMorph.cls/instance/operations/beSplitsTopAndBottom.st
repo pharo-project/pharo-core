@@ -1,1 +1,0 @@
-beSplitsTopAndBottom	splitsTopAndBottom := true.	

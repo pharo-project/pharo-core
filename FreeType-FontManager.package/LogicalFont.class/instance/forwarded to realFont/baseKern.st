@@ -1,0 +1,2 @@
+baseKern
+	^self realFont baseKern

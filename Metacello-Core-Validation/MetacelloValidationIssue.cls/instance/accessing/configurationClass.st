@@ -1,1 +1,0 @@
-configurationClass	^ configurationClass

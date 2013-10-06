@@ -1,0 +1,2 @@
+defaultLabel
+	^ 'Monticello Browser'

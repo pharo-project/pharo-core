@@ -1,0 +1,2 @@
+widget: aUIWidget
+	widget := aUIWidget

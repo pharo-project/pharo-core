@@ -1,1 +1,0 @@
-defaultBalloonFont	^ BalloonMorph balloonFont

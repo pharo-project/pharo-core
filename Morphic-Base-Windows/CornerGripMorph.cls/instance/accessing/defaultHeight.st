@@ -1,1 +1,0 @@
-defaultHeight	^ 22

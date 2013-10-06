@@ -1,1 +1,0 @@
-abandonAction		self window delete

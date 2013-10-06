@@ -1,0 +1,2 @@
+logInManifest
+	cache logInManifest

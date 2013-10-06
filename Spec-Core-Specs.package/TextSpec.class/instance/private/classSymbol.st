@@ -1,0 +1,3 @@
+classSymbol
+
+	^ #Text

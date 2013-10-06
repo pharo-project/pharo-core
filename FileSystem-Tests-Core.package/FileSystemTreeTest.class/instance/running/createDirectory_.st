@@ -1,0 +1,2 @@
+createDirectory: aString
+	self subclassResponsibility

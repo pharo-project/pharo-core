@@ -1,1 +1,0 @@
-soundEnabled	^ self class soundEnabled

@@ -1,1 +1,0 @@
-unload	MailSender unregister: self 

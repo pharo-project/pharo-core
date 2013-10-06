@@ -1,0 +1,2 @@
+logProgressToTranscript
+	self progressObservers add: Transcript

@@ -1,0 +1,2 @@
+isKern
+	^true

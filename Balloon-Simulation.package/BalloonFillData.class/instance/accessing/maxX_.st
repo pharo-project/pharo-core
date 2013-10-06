@@ -1,0 +1,2 @@
+maxX: anInteger
+	maxX := anInteger

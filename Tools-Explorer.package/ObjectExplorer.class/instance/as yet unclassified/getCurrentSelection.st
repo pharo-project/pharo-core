@@ -1,0 +1,3 @@
+getCurrentSelection
+
+	^currentSelection

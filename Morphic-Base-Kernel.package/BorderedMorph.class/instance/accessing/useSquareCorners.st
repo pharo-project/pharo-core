@@ -1,0 +1,2 @@
+useSquareCorners
+	self cornerStyle: #square

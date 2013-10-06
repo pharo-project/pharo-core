@@ -1,1 +1,0 @@
-defaultOptions	^ self class defaultOptions

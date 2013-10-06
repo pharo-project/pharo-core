@@ -1,0 +1,2 @@
+externalName
+	^ externalName

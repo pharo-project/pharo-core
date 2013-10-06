@@ -1,0 +1,2 @@
+locator
+	^locator

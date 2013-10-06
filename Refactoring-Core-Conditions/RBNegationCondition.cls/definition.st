@@ -1,1 +1,0 @@
-RBAbstractCondition subclass: #RBNegationCondition	instanceVariableNames: 'condition'	classVariableNames: ''	poolDictionaries: ''	category: 'Refactoring-Core-Conditions'

@@ -1,1 +1,0 @@
-blockClosureWithSelfSend	^ [ self printString ]

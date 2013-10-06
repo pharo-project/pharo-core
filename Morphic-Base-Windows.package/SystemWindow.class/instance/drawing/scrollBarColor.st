@@ -1,0 +1,2 @@
+scrollBarColor
+	^self paneColor

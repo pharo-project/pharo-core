@@ -1,0 +1,3 @@
+label
+
+	^self versionSpec label

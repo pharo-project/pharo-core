@@ -1,1 +1,0 @@
-canRunStartupScript	^ self currentUser canRunStartupScript
