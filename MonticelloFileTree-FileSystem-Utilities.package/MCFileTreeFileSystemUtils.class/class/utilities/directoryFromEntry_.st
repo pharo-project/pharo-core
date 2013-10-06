@@ -1,0 +1,2 @@
+directoryFromEntry: directoryEntry
+    ^ directoryEntry asFileReference

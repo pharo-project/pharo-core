@@ -1,0 +1,2 @@
+useSnapShotWriter
+    ^ MCFileTreeRepository defaultPackageExtension = '.pkg'

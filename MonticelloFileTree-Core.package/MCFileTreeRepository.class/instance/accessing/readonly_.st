@@ -1,0 +1,2 @@
+readonly: anObject
+	readonly := anObject

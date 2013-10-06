@@ -1,0 +1,1 @@
+A MCFileTreeAbstractStWriter is xxxxxxxxx.Instance Variables	initializers:		<Object>	orderedClassNames:		<Object>	orderedTraitNames:		<Object>	stWriter:		<Object>initializers	- xxxxxorderedClassNames	- xxxxxorderedTraitNames	- xxxxxstWriter	- xxxxx

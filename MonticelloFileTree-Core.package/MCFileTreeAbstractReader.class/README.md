@@ -1,0 +1,1 @@
+A MCFileTreeAbstractReader is xxxxxxxxx.Instance Variables	packageDirectory:		<Object>	packageProperties:		<Object>packageDirectory	- xxxxxpackageProperties	- xxxxx

@@ -1,0 +1,1 @@
+A MCFileTreeStCypressWriter is xxxxxxxxx.Instance Variables	fileStream:		<Object>fileStream	- xxxxx

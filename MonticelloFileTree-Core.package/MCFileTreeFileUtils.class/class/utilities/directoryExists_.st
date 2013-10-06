@@ -1,0 +1,2 @@
+directoryExists: aDirectory
+    self subclassResponsibility

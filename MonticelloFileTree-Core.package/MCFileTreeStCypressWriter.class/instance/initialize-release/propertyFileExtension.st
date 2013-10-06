@@ -1,0 +1,2 @@
+propertyFileExtension
+  ^ self repository propertyFileExtension

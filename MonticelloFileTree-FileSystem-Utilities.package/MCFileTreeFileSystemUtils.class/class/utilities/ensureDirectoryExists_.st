@@ -1,0 +1,2 @@
+ensureDirectoryExists: aDirectory
+    aDirectory ensureCreateDirectory

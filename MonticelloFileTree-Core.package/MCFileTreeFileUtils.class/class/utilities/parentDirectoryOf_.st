@@ -1,0 +1,2 @@
+parentDirectoryOf: aDirectory
+    self subclassResponsibility

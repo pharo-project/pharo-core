@@ -1,0 +1,2 @@
+directoryExists: aDirectory
+    ^ aDirectory isDirectory

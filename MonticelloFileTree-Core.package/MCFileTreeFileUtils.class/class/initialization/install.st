@@ -1,0 +1,2 @@
+install
+    Current := self

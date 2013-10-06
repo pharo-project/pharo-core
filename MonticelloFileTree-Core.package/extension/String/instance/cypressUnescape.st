@@ -1,0 +1,2 @@
+cypressUnescape
+    ^ self unescapePercents

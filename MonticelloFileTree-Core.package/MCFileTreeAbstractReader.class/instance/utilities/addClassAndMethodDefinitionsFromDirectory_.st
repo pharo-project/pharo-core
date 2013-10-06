@@ -1,0 +1,2 @@
+addClassAndMethodDefinitionsFromDirectory: aDirectory
+    self subclassResponsibility

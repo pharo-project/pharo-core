@@ -1,0 +1,1 @@
+A MCFileTreeStSnapshotWriter is xxxxxxxxx.Instance Variables	classDefinitions:		<Object>	classTraitDefinitions:		<Object>	methodDefinitions:		<Object>	traitDefinitions:		<Object>classDefinitions	- xxxxxclassTraitDefinitions	- xxxxxmethodDefinitions	- xxxxxtraitDefinitions	- xxxxx

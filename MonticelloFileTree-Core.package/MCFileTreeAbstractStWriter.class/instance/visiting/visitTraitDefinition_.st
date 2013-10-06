@@ -1,0 +1,2 @@
+visitTraitDefinition: definition
+    self subclassResponsibility
