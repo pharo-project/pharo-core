@@ -1,5 +1,4 @@
 emitCodeForStorePop: stack encoder: encoder
-	self type ~= 1 ifTrue:
-		[self halt].
+	self assert: [self type ~= 1].
 	encoder genStorePopInstVar: index.
 	stack pop: 1

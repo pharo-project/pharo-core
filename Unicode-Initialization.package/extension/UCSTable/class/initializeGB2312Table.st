@@ -15,7 +15,7 @@ initializeGB2312Table
 	gb23122 := Array new: 94*94 withAll: -1.
 	gb2312 withIndexDo: [:elem :index | | uIndex code u |
 		code := (elem // 256 - 33) * 94 + (elem \\ 256 - 33) + 1.
-		(gb23122 at: code) ~= -1 ifTrue: [self halt].
+		(gb23122 at: code) ~= -1 ifTrue: [self error].
 		uIndex := gb2312 indexOf: elem.
 		uIndex = 0 ifFalse: [
 			u := unicode at: uIndex.

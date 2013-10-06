@@ -15,7 +15,7 @@ initializeKSX1001Table
 	ksX10012 := Array new: 94*94 withAll: -1.
 	ksX1001 withIndexDo: [:elem :index | | uIndex u code |
 		code := (elem // 256 - 33) * 94 + (elem \\ 256 - 33) + 1.
-		(ksX10012 at: code) ~= -1 ifTrue: [self halt].
+		(ksX10012 at: code) ~= -1 ifTrue: [self error].
 		uIndex := ksX1001 indexOf: elem.
 		uIndex = 0 ifFalse: [
 			u := unicode at: uIndex.

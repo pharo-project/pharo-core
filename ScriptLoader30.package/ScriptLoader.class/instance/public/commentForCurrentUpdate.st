@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '11575 Add a Spec model for DiffMorph
-	https://pharo.fogbugz.com/f/cases/11575
+ ^ '11592 remove more senders of #halt
+	https://pharo.fogbugz.com/f/cases/11592
 	
-11533 Change testEnsureDeleted into testEnsureDelete
-	https://pharo.fogbugz.com/f/cases/11533
+11591 RBCollectionCopyEmptyRule does not work on traits
+	https://pharo.fogbugz.com/f/cases/11591
 	
-11593 MCMergeOrLoadWarning actions should use #resume: instead of #return
-	https://pharo.fogbugz.com/f/cases/11593'
+7514 matching of 0 length regex
+	https://pharo.fogbugz.com/f/cases/7514'

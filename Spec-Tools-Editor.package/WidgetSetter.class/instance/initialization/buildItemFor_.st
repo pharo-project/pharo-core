@@ -23,4 +23,4 @@ buildItemFor: anAPIMethod
 	first = #event
 		ifTrue: [ ^ self buildEventItemFor: anAPIMethod  ].
 		
-	^ self halt.
+	^ self error.

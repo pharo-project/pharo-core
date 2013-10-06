@@ -76,7 +76,7 @@ testRandom
 				tab;
 				show: aa first printString ].	" | (cnt > Skip)"
 	cnt > (Smalltalk globals at: #StopHere)
-		ifTrue: [ self halt ].	"stop just before crash"
+		ifTrue: [ self error ].	"stop just before crash"
 	cnt > (Smalltalk globals at: #Skip)
 		ifTrue: [ 
 			"skip this many at start"

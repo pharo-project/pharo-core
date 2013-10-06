@@ -3,7 +3,7 @@ readFromStrike2: fileName
 	"Build an instance from the strike font stored in strike2 format.
 	fileName is of the form: <family name><pointSize>.sf2"
 	| file |
-	('*.sf2' match: fileName) ifFalse: [ self halt	"likely incompatible" ].
+	self assert:['*.sf2' match: fileName]. "likely incompatible"
 	name := fileName copyUpTo: $..	"Drop filename extension"
 	file := FileStream readOnlyFileNamed: fileName.
 	file binary.

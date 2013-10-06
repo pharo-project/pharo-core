@@ -15,7 +15,7 @@ initializeJISX0208Table
 	jisX02082 := Array new: 94*94 withAll: -1.
 	jisX0208 withIndexDo: [:elem :index | | uIndex u code |
 		code := (elem // 256 - 33) * 94 + (elem \\ 256 - 33) + 1.
-		(jisX02082 at: code) ~= -1 ifTrue: [self halt].
+		(jisX02082 at: code) ~= -1 ifTrue: [self error].
 		uIndex := jisX0208 indexOf: elem.
 		uIndex = 0 ifFalse: [
 			u := unicode at: uIndex.

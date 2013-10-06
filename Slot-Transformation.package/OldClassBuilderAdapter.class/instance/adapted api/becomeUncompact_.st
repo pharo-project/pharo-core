@@ -5,8 +5,7 @@ becomeUncompact: aClass
 	compactClassesArray := Smalltalk compactClassesArray.
 	(index := aClass indexIfCompact) = 0
 		ifTrue: [^ self].
-	(compactClassesArray includes: aClass)
-		ifFalse: [^ self halt  "inconsistent state"].
+	self assert:[compactClassesArray includes: aClass].
 	aClass checkCanBeUncompact.
 
 	"Update instspec so instances will be compact. 

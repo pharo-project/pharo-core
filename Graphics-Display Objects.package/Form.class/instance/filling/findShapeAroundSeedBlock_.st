@@ -5,7 +5,7 @@ findShapeAroundSeedBlock: seedBlock
 	there is no change in the smear when it fills the region, ie,
 	when smearing hits a black border and thus goes no further."
 	| smearForm previousSmear all count smearPort |
-	self depth > 1 ifTrue: [self halt]. "Only meaningful for B/W forms."
+	self assert: [self depth > 1]. "Only meaningful for B/W forms."
 	all := self boundingBox.
 	smearForm := Form extent: self extent.
 	smearPort := BitBlt current toForm: smearForm.
