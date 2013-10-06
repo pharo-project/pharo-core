@@ -1,4 +1,4 @@
 removeIcon 
 	^ icons
 			at: #'removeIcon'
-			ifAbsentPut:[ self removeIconContents ].
+			ifAbsentPut:[ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self removeIconContents readStream) ].

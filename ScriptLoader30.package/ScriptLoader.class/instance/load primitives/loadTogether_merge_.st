@@ -7,9 +7,10 @@ loadTogether: aCollection merge: aBoolean
 		do: [:fn | loader addVersion: (self loadVersionFromFileNamed: fn)]
   	  	displayingProgress: 'Adding versions...'.
 	aBoolean
-		ifTrue: [[loader merge] on: MCMergeResolutionRequest do: [:request |
-					request merger conflicts isEmpty
-						ifTrue: [request resume: true]
-						ifFalse: [request pass]]]
-		ifFalse: [loader hasVersions ifTrue: [loader load]]
+		ifTrue: [
+			[loader merge] on: MCMergeResolutionRequest do: [:request |
+				request autoMerge ]]
+		ifFalse: [
+			loader hasVersions 
+				ifTrue: [loader load]]
 

@@ -19,4 +19,4 @@ initialize
 		addPaneSplitters.
 	self updateDescriptionFillStyle: self paneColor.
 	self splitters first delete.
-	self onAnnouncement: MorphOpened do: [self changeTree expandAll]
+	self onAnnouncement: MorphOpened do: [ self expandChangeTree ]

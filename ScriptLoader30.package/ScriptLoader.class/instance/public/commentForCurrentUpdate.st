@@ -1,11 +1,9 @@
 commentForCurrentUpdate
- ^ '11250 Inspector scrolls up on refresh
-	https://pharo.fogbugz.com/f/cases/11250
+ ^ '11617 ConfigurationCommandLine does not handle merge correctly
+	https://pharo.fogbugz.com/f/cases/11617
 	
-11594 Activate NonInteractiveTranscript when using CommandLineUIManager
-	https://pharo.fogbugz.com/f/cases/11594
-	
-11557 Color class>>fromRGBTriplet: is redundant now that Color holds alpha
-	https://pharo.fogbugz.com/f/cases/11557
+11609 Diff morph should only use colored icons to indicate add / remove
+	https://pharo.fogbugz.com/f/cases/11609
+
 	
 '

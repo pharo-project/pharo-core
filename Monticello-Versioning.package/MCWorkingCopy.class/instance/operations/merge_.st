@@ -20,7 +20,8 @@ merge: targetVersion
 				target: targetVersion snapshot
 				ancestor: ancestorSnapshot.
 	((MCMergeResolutionRequest new merger: merger)
-		signal: 'Merging ', targetVersion info name) = true ifTrue:
-			[merger loadWithNameLike: targetVersion info name.
-			ancestry addAncestor: targetVersion info].
+		signal: 'Merging ', targetVersion info name) = true 
+			ifTrue:[
+				merger loadWithNameLike: targetVersion info name.
+				ancestry addAncestor: targetVersion info ].
 	self changed

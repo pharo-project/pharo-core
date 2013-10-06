@@ -7,10 +7,9 @@ loadOneAfterTheOther: aCollection merge: aBoolean
 				ifFalse: [ MCVersionLoader new].
 			loader addVersion: (self repository loadVersionFromFileNamed: fn).
 			aBoolean
-				ifTrue: [[loader merge] on: MCMergeResolutionRequest do: [:request |
-							request merger conflicts isEmpty
-								ifTrue: [request resume: true]
-								ifFalse: [request pass]]]
+				ifTrue: [
+					[loader merge] on: MCMergeResolutionRequest do: [:request |
+							request autoMerge ]]
 				ifFalse: [loader load]].
 	
 

@@ -1,8 +1,5 @@
 execute
 	[ self model merge ]
 		on: MCMergeResolutionRequest
-		do: [ :request |
-			request merger conflicts isEmpty
-				ifTrue: [ request resume: true ]
-				ifFalse: [ request pass ]].
+		do: [ :request |  request autoMerge ].
 	self gofer cleanup

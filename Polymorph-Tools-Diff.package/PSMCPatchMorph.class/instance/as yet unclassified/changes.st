@@ -14,4 +14,6 @@ changes
 				(classes includes: o targetClassName)
 					ifFalse: [classes add: o targetClassName.
 							changes add: (PSMCClassChangeWrapper with: o targetClassName model: self model)]]]].
-	^(changes reject: [:e | e isKindOf: PSMCClassChangeWrapper]) , ((changes select: [:e | e isKindOf: PSMCClassChangeWrapper]) sorted: [:a :b | a item <= b item])
+			
+	^(changes reject: [:e | e isKindOf: PSMCClassChangeWrapper]) , 
+	((changes select: [:e | e isKindOf: PSMCClassChangeWrapper]) sorted: [:a :b | a item <= b item])
