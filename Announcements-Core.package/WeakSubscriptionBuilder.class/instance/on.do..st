@@ -1,3 +1,3 @@
 wrapped protocol
 on: anAnnouncementClass do: aValuable
-	self error: 'The absense of ephemerons makes the use of weak block announcements imposible.'
+	^ self subscribe: anAnnouncementClass do: aValuable

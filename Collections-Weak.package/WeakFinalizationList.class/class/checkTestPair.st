@@ -1,3 +1,0 @@
-vm capability test
-checkTestPair
-	
