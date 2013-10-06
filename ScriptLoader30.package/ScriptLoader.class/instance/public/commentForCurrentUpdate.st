@@ -1,7 +1,6 @@
 commentForCurrentUpdate
- ^ '11688 Pharo Kernel shrinking update for 30424
-	https://pharo.fogbugz.com/f/cases/11688
+ ^ '11691 Failing test: testLocalMethodsOfTheClassShouldNotBeRepeatedInItsTraits
+	https://pharo.fogbugz.com/f/cases/11691
 	
-11689 Spec Inspectors still let update process in some circumstances
-	https://pharo.fogbugz.com/f/cases/11689
-'
+11693 Spec building is taking ages due to changes in PragmaCollector
+	https://pharo.fogbugz.com/f/cases/11693'
