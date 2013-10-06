@@ -1,2 +1,2 @@
 printDescription
-	self printDescription: self selectedElement
+	^ description text

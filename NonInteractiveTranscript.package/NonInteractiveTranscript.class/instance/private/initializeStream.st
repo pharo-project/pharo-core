@@ -5,9 +5,12 @@ initializeStream
 	
 	stream := self isStdout 
 		ifTrue: [ FileStream stdout ]
-		ifFalse: [ FileStream fileNamed: self fileName ].
+		ifFalse: [ 
+			self isStderr
+				ifTrue: [ FileStream stderr ]
+				ifFalse: [ FileStream fileNamed: self fileName ]].
 	stream wantsLineEndConversion: true.
-	self isStdout
+	(self isStdout or: [ self isStderr ])
 		ifTrue: [ stream converter "Force lazy initialization of converter" ] 
 		ifFalse: [ stream setToEnd ].
 	^ stream

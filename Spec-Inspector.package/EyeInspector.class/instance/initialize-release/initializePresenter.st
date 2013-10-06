@@ -4,10 +4,10 @@ initializePresenter
 	object whenChangedDo: [ self objectChanged ].
 	
 	list whenSelectedItemChanged: [ :item |
-		self printDescription: item ].
+		self refreshDescription: item ].
 	
 	description whenTextIsAccepted: [ :newText |
 		self saveElement: newText.
-		self printDescription ].
+		self refreshDescription ].
 	
 	self initializeShortcuts.	

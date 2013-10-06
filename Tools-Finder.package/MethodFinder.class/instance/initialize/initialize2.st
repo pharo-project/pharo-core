@@ -140,7 +140,7 @@ next:put: nextPut: nextPutAll: "printing" print:
 	) do: [:sel | Approved add: sel].
 
 "Color"
-	#("in class, instance creation" colorFrom: colorFromPixelValue:depth: fromRgbTriplet: gray: h:s:v: r:g:b: r:g:b:alpha: r:g:b:range:
+	#("in class, instance creation" colorFrom: colorFromPixelValue:depth: gray: h:s:v: r:g:b: r:g:b:alpha: r:g:b:range:
 	"named colors" black blue brown cyan darkGray gray green lightBlue lightBrown lightCyan lightGray lightGreen lightMagenta lightOrange lightRed lightYellow magenta orange red transparent veryDarkGray veryLightGray veryVeryDarkGray veryVeryLightGray white yellow
 	"other"  indexedColors pixelScreenForDepth: quickHighLight:
 "access" alpha blue brightness green hue luminance red saturation
@@ -150,7 +150,7 @@ next:put: nextPut: nextPutAll: "printing" print:
 "groups of shades" darkShades: lightShades: mix:shades: wheel:
 "printing" shortPrintString
 "other" colorForInsets rgbTriplet
-"conversions" asB3DColor asColor  bitPatternForDepth: closestPixelValue1 closestPixelValue2 closestPixelValue4 closestPixelValue8 dominantColor halfTonePattern1 halfTonePattern2 indexInMap: pixelValueForDepth: pixelWordFor:filledWith: pixelWordForDepth: scaledPixelValue32
+"conversions" asB3DColor asColor balancedPatternForDepth: bitPatternForDepth: closestPixelValue1 closestPixelValue2 closestPixelValue4 closestPixelValue8 dominantColor halfTonePattern1 halfTonePattern2 indexInMap: pixelValueForDepth: pixelWordFor:filledWith: pixelWordForDepth: scaledPixelValue32
 "private" privateAlpha privateBlue privateGreen privateRGB privateRed "copying"
 	) do: [:sel | Approved add: sel].
 

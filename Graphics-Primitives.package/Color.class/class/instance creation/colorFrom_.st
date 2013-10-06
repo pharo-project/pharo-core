@@ -9,7 +9,7 @@ colorFrom: parm
 		ifTrue:
 			[firstParm := parm first.
 			(firstParm isKindOf: Number) ifTrue:
-				[^ self fromRgbTriplet: parm].
+				[^ self fromArray: parm].
 			aColor := self colorFrom: firstParm.
 			parm doWithIndex:
 				[:sym :ind | ind > 1 ifTrue:
