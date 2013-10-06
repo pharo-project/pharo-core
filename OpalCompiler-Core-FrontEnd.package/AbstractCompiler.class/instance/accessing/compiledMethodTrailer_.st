@@ -1,0 +1,2 @@
+compiledMethodTrailer: aClass
+	self subclassResponsibility

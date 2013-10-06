@@ -1,0 +1,2 @@
+parseSelector: aString 
+	self subclassResponsibility

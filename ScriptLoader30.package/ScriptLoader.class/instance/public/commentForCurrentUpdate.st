@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '11718 SyntaxError is a really bad name
-	https://pharo.fogbugz.com/f/cases/11718'
+ ^ '11687 Merge Opal with Opal Repository
+	https://pharo.fogbugz.com/f/cases/11687'

@@ -1,0 +1,2 @@
+compile
+	self subclassResponsibility

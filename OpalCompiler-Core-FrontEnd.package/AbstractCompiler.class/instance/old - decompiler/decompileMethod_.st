@@ -1,0 +1,2 @@
+decompileMethod: aCompiledMethod
+	self subclassResponsibility

@@ -1,2 +1,2 @@
 printAsIfCompiledOn: aStream 
-		aStream nextPutAll: self formattedCode
+	aStream nextPutAll: self formattedCode

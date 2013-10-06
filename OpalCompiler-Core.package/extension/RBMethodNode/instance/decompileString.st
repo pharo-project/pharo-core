@@ -1,3 +1,3 @@
 decompileString 
 
-	^self formattedCode 
+	^ self formattedCode 

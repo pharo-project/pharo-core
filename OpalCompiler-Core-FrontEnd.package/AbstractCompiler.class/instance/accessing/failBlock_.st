@@ -1,0 +1,2 @@
+failBlock: aBlock
+	self subclassResponsibility

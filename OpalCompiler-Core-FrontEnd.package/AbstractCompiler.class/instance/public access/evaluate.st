@@ -1,0 +1,2 @@
+evaluate
+	self subclassResponsibility

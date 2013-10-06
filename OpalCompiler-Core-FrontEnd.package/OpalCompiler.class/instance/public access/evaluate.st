@@ -9,9 +9,9 @@ evaluate
 	| methodNode method value selectedSource itsSelection itsSelectionString |
 	self
 		class:
-			(context isNil
-				ifTrue: [ receiver class ]
-				ifFalse: [ context method methodClass ]).
+			(context 
+				ifNil: [ receiver class ]
+				ifNotNil: [ context method methodClass ]).
 	self noPattern: true.
 	selectedSource := ((self compilationContext requestor respondsTo: #selection)
 		and: [ 

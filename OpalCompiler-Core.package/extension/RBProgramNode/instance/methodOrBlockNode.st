@@ -1,2 +1,2 @@
 methodOrBlockNode
-	^parent isNil ifTrue: [nil] ifFalse: [parent methodOrBlockNode]
+	^ parent ifNotNil: [ parent methodOrBlockNode ]

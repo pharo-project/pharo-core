@@ -3,4 +3,4 @@ generate
 	argument, trailer, is the references to the source code that is stored with 
 	every CompiledMethod."
 
-	^self generate: CompiledMethodTrailer empty
+	^ self generate: CompiledMethodTrailer empty

@@ -4,5 +4,4 @@ generateIR
  	ir := (self compilationContext astTranslatorClass new
 			visitNode: self)
 			ir.
-	self ir: ir.
-	^ir
+	^ self ir: ir

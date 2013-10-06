@@ -1,0 +1,2 @@
+useFaultyForParsing: anObject
+	self subclassResponsibility

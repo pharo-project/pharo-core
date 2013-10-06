@@ -1,2 +1,2 @@
 methodOrBlockNode
-	^self.
+	"^ self"

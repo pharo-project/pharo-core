@@ -1,4 +1,4 @@
-Object subclass: #OpalCompiler
+AbstractCompiler subclass: #OpalCompiler
 	instanceVariableNames: 'ast source context receiver compilationContext compilationContextClass useFaultyForParsing'
 	classVariableNames: ''
 	poolDictionaries: ''

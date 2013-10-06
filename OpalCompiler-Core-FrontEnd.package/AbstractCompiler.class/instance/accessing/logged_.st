@@ -1,0 +1,2 @@
+logged: aBoolean
+	self subclassResponsibility

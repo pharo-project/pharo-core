@@ -9,8 +9,8 @@ outerOffsetTo: aScope
 		scope isOptimizedBlockScope 
 			ifTrue: [scope := scope outerNotOptimizedScope]
 			ifFalse: [ 
-		offset := offset + 1.
-		scope isInstanceScope ifTrue: [^0]. 
-		scope := scope outerScope ] ].
+			offset := offset + 1. 
+			scope isInstanceScope ifTrue: [^0]. 
+			scope := scope outerScope ] ].
 	^offset.
 	

@@ -1,0 +1,2 @@
+source: aString
+	self subclassResponsibility
