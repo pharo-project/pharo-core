@@ -5,8 +5,12 @@ cursorLeft: aKeyboardEvent
 	beginning of text"
 
 	self closeTypeIn.
-	self
-		moveCursor:[:position | position - 1 max: 1]
+	self      
+		moveCursor:[:position | 
+			self class skipOverMultipleSpaces 
+				ifTrue: [ self previousNonBlank: position ]
+				ifFalse: [ position - 1 max: 1 ]
+			 ]
 		forward: false
 		specialBlock:[:position | self previousWord: position]
 		event: aKeyboardEvent.

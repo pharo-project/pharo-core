@@ -6,7 +6,11 @@ cursorRight: aKeyboardEvent
 
 	self closeTypeIn.
 	self
-		moveCursor: [:position | position + 1]
+		moveCursor: [:position |
+			self class skipOverMultipleSpaces 
+				ifTrue: [ self nextNonBlank: position ] 
+				ifFalse: [ position + 1 ]
+			]
 		forward: true
 		specialBlock:[:position | self nextWord: position]
 		event: aKeyboardEvent.

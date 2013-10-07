@@ -64,6 +64,10 @@ codeEditingSettingsOn: aBuilder
 				label: 'Dumbbell-shaped text cursor' translated;
 				target: Editor;
 		 		description: 'When true, the text cursor assumes the shape of a dumbbell, otherwise a vertical bar.' translated.
+			(aBuilder setting: #skipOverMultipleSpaces) 
+				label: 'Skip over white space' translated;
+				target: Editor;
+		 		description: 'When true, the text cursor treats multiple white-space characters as a single space for navigating (moving left/right).' translated.
 			(aBuilder setting: #walkAlongDisplayedLine) 
 				label: 'Walk along displayed line' translated;
 				target: TextEditor;
