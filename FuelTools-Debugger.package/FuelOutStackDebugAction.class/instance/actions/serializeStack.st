@@ -13,7 +13,7 @@ serializeStack
 			<< '-'; print: date hour24; print: date minute; print: date second;
 			<< '.fuel'].
 
-	[ self class 
+	[ self class
 		serializeTestFailureContext: self interruptedContext copyStack		
 		toFileNamed: fileName	] 
 	on: Error 

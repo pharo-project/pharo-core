@@ -1,12 +1,7 @@
 commentForCurrentUpdate
- ^ '11804 Small cleanup in SystemNavigation
-	https://pharo.fogbugz.com/f/cases/11804
-	(from me)
+ ^ '11807 openWorldWithSpec does not work
+	https://pharo.fogbugz.com/f/cases/11807
 	
-11806 Refactor the Create action for #doesNotUnderstand
-	https://pharo.fogbugz.com/f/cases/11806
-	(from Andrei)
-	
-11805 [ENH] Editor skip over multiple white space (+ setting option)
-	https://pharo.fogbugz.com/f/cases/11805
-	(From Igor)'
+11741 Add Fuel out Stack as an action to the new debugger
+	https://pharo.fogbugz.com/f/cases/11741
+'

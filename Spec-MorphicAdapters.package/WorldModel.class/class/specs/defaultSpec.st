@@ -2,4 +2,4 @@ defaultSpec
 	<spec>
 	
 	self setUpWorld.
-	^ World
+	^ World asSpecAdapter

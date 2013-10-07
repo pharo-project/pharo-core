@@ -7,7 +7,7 @@ serializeError: error of: aTestCase
 		ctx receiver == aTestCase and: [ ctx methodSelector == #performTest ]].
 	context := context copyTo: testCaseMethodContext.
 	
-	[ Smalltalk tools debugger 
+	[ FuelOutStackDebugAction
 		serializeTestFailureContext: context sender 		
 		toFileNamed: aTestCase class name asString,'-', aTestCase selector, '.fuel'	] 
 	on: Error 
