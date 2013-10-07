@@ -1,4 +1,2 @@
 elementsDo: aBlock
-
-	elements values
-		do:[ :collection| collection do:[ :each| aBlock value: each ] ]
+	elements valuesDo: [ :collection | collection do: [ :each | aBlock value: each ] ]

@@ -1,6 +1,6 @@
 sourcedDataAt: sourcePointer
 
-	| index position file preamble data tokens dataPosition |
+	| index position file preamble |
 	index:= self fileIndexFromSourcePointer: sourcePointer.
 	index = 0 ifTrue: [ ^'' ].  "no source pointer for this element"
 	position := self filePositionFromSourcePointer: sourcePointer.

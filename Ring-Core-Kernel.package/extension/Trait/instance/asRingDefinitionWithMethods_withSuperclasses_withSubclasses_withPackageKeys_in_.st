@@ -1,6 +1,6 @@
 asRingDefinitionWithMethods: methodsBoolean withSuperclasses: supersBoolean withSubclasses: subsBoolean withPackageKeys: packageKeys in: aRGSlice
 	
-	| rgClass rgMethod rgSuper rgSub sup |	
+	| rgClass rgMethod rgSuper sup |	
 	rgClass := self asRingDefinition.
 	aRGSlice loadClass: rgClass using: packageKeys.
 

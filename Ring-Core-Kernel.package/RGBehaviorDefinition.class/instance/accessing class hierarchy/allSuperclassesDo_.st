@@ -1,6 +1,7 @@
-allSuperclassesDo: aBlock 
+allSuperclassesDo: aBlock
 	"Evaluate the argument, aBlock, for each of the receiver's superclasses."
 
-	self superclass == nil
-		ifFalse: [aBlock value: superclass.
-				superclass allSuperclassesDo: aBlock]
+	self superclass isNil
+		ifFalse: [ 
+			aBlock value: superclass.
+			superclass allSuperclassesDo: aBlock ]

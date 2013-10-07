@@ -1,5 +1,5 @@
 Object subclass: #MCMergeRecord
-	instanceVariableNames: 'version packageSnapshot ancestorInfo ancestor ancestorSnapshot imagePatch mergePatch'
+	instanceVariableNames: 'version packageSnapshot ancestorInfo ancestorSnapshot imagePatch mergePatch'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Monticello-Versioning'

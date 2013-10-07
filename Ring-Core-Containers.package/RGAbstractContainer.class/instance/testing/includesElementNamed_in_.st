@@ -4,4 +4,4 @@ includesElementNamed: elementName in: aCollection
 	aSymbol:= elementName asSymbol.
 	^aCollection isDictionary
 		ifTrue: [ aCollection includesKey:  aSymbol ]
-		ifFalse:[ (aCollection detect:[ :each| each name = aSymbol ] ifNone:[ nil ]) notNil ]
+		ifFalse:[ aCollection anySatisfy: [ :each| each name = aSymbol ] ]

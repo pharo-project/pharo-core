@@ -1,16 +1,15 @@
 next
 	"Answer the next object in the stream."
-	| type selector anObject isARefType pos internalObject |
+	| type selector anObject isARefType internalObject |
 
 	type := byteStream next.
-	type ifNil: [pos := byteStream position.	"absolute!!"
+	type ifNil: [
 		byteStream close.	"clean up"
 		byteStream position = 0 
 			ifTrue: [self error: 'The file did not exist in this directory'] 
 			ifFalse: [self error: 'Unexpected end of object file'].
-		pos.	"so can see it in debugger"
 		^ nil].
-	type = 0 ifTrue: [pos := byteStream position.	"absolute!!"
+	type = 0 ifTrue: [
 		byteStream close.	"clean up"
 		self error: 'Expected start of object, but found 0'.
 		^ nil].
@@ -21,7 +20,7 @@ next
 			readClass readUser readFloat readRectangle readShortInst 	"<-16"
 			readString readWordArray foo 	"foo is a replacement for readWordArrayForSegment<-19"
 			readWordLike readMethod "<-21") at: type.
-	selector = 0 ifTrue: [pos := byteStream position.	"absolute!!"
+	selector = 0 ifTrue: [
 			byteStream close. 
 			self error: 'file is more recent than this system'. ^ nil].
 	anObject := self perform: selector. "A method that recursively

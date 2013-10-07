@@ -1,6 +1,6 @@
 allSendersOf: selector inClass: aClass 
 	| senders special byte |
-	senders := WeakOrderedCollection Collection new.
+	senders := OrderedCollection new.
 	special := Smalltalk hasSpecialSelector: selector ifTrueSetByte: [:b | byte := b ].
 	self 
 		addSelectorsReferingTo: selector

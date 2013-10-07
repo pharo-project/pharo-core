@@ -1,5 +1,5 @@
 Announcement subclass: #MCVersionCreated
-	instanceVariableNames: 'name nameString version'
+	instanceVariableNames: 'nameString version'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Monticello-Announcements'

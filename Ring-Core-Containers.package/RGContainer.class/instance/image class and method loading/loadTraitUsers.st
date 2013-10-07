@@ -1,10 +1,9 @@
 loadTraitUsers
 	"Set the users of a trait"
-	| users traits traitNames rgTrait |
+	| users |
 	
-	traits := self traits.
-	users := self classes select:[ :cls| cls hasTraitComposition ].
-	users do:[ :each|
+	users := self classes select: [ :cls | cls hasTraitComposition ].
+	users do:[ :each |  | rgTrait |
 		each traitNames do:[ :tname|
 			rgTrait := self traitNamed: tname.
 			rgTrait notNil ifTrue: [
