@@ -14,7 +14,7 @@ onlyReadOrWritten
 					writes := false.
 					allSubclasses detect: 
 							[:class | 
-							reads ifFalse: [reads := (class whichSelectorsReallyRead: each) isEmpty not].
+							reads ifFalse: [reads := (class whichSelectorsRead: each) isEmpty not].
 							writes ifFalse: [writes := (class whichSelectorsWrite: each) isEmpty not].
 							reads & writes]
 						ifNone: [result addInstVar: each for: context selectedClass]]].

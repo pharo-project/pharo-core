@@ -1,4 +1,3 @@
 existsProtocolNamed: aProtocolName
 	
-	self allProtocols detect: [ :e | e name = aProtocolName ] ifNone: [ ^ false].
-	^true.
+	^self allProtocols anySatisfy: [ :e | e name = aProtocolName ] 

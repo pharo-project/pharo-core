@@ -1,4 +1,9 @@
-whichSelectorsRead: instVarName 
-	"Answer a Set of selectors whose methods access the argument, 
-	instVarName, as a named instance variable."
-	^self whichSelectorsAccess: instVarName
+whichSelectorsRead: aString
+	
+	| index |
+	index := self
+		instVarIndexFor: aString
+		ifAbsent: [ ^ IdentitySet new ].
+	^ self selectors select: [ :each |
+		(self compiledMethodAt: each)
+			readsField: index ]

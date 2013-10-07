@@ -5,7 +5,7 @@ on: anEnvironment referencesToInstanceVariable: aString in: aClass
 				yourself.
 	(aClass whichClassDefinesInstVar: aString) withAllSubclassesDo: 
 			[:cls | 
-			((cls whichSelectorsReallyRead: aString) isEmpty not 
+			((cls whichSelectorsRead: aString) isEmpty not 
 				or: [(cls whichSelectorsAssign: aString) isEmpty not]) 
 					ifTrue: [newEnv addClass: cls instanceVariable: aString]].
 	^newEnv

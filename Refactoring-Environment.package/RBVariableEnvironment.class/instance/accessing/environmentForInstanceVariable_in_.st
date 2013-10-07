@@ -19,6 +19,6 @@ environmentForInstanceVariable: aString in: aClass
 						do: [:sel | selectorEnvironment addClass: each selector: sel]].
 			isReader 
 				ifTrue: 
-					[(each whichSelectorsReallyRead: aString) 
+					[(each whichSelectorsRead: aString) 
 						do: [:sel | selectorEnvironment addClass: each selector: sel]]].
 	^selectorEnvironment

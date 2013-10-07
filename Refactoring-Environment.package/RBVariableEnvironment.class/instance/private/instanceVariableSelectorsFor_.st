@@ -2,7 +2,7 @@ instanceVariableSelectorsFor: aClass
 	| selectors |
 	selectors := Set new.
 	#(#instanceVariables #instanceVariableReaders #instanceVariableWriters) 
-		with: #(#whichSelectorsAccess: #whichSelectorsReallyRead: #whichSelectorsAssign:)
+		with: #(#whichSelectorsAccess: #whichSelectorsRead: #whichSelectorsAssign:)
 		do: [:var :sel | 
 			| instVars |
 			instVars := Set new.

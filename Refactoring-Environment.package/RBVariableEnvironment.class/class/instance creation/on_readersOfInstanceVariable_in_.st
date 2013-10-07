@@ -5,6 +5,6 @@ on: anEnvironment readersOfInstanceVariable: aString in: aClass
 				yourself.
 	(aClass whichClassDefinesInstVar: aString) withAllSubclassesDo: 
 			[:cls | 
-			(cls whichSelectorsReallyRead: aString) isEmpty
+			(cls whichSelectorsRead: aString) isEmpty
 				ifFalse: [newEnv addClass: cls instanceVariableReader: aString]].
 	^newEnv

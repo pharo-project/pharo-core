@@ -7,7 +7,7 @@ checkClass: aContext
 		isWritten := false.
 		allSubclasses 
 			detect: [ :class | 
-				isRead ifFalse: [ isRead := (class whichSelectorsReallyRead: each) isEmpty not ].
+				isRead ifFalse: [ isRead := (class whichSelectorsRead: each) isEmpty not ].
 				isWritten ifFalse: [ isWritten := (class whichSelectorsAssign: each) isEmpty not ].
 				isRead and: [ isWritten ] ]
 			ifNone: [

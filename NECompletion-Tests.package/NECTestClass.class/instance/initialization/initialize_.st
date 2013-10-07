@@ -11,6 +11,7 @@ initialize: aRectangle
 				sortBlock: [:a :b | a <= b].
 	globalVarKeyword2 := SortedCollection new: 15.
 	constantNil := nil.
+	typeSuggestingParameter2 := nil.
 	complexInit := 15 > 16
 				ifTrue: [#Symbol]
 				ifFalse: ['String'].
