@@ -1,8 +1,8 @@
 allSendersOf: selector inClassCategory: category 
-	| classes sortedSenders special byte |
+	| classes senders special byte |
 	classes := self environment organization classesInCategory: category.
-	sortedSenders := SortedCollection new.
-	classes ifEmpty: [ ^ sortedSenders ].
+	senders := OrderedCollection new.
+	classes ifEmpty: [ ^ senders ].
 	special := Smalltalk
 				hasSpecialSelector: selector
 				ifTrueSetByte: [ :b | byte := b ].
@@ -11,7 +11,7 @@ allSendersOf: selector inClassCategory: category
 		self 
 			addSelectorsReferingTo: selector
 			in: class
-			to: sortedSenders
+			to: senders
 			special: special
 			byte: byte ].
-	^ sortedSenders
+	^ senders

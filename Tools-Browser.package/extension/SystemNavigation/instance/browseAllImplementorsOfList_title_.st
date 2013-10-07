@@ -6,7 +6,7 @@ browseAllImplementorsOfList: selectorList title: aTitle
 	| implementorLists flattenedList |
 
 	implementorLists := selectorList collect: [:each | self allImplementorsOf: each].
-	flattenedList := SortedCollection new.
+	flattenedList := OrderedCollection new.
 	implementorLists
 		do: [:each | flattenedList addAll: each].
 	^ self browseMessageList: flattenedList name: aTitle

@@ -1,7 +1,9 @@
 commentForCurrentUpdate
- ^ '11807 openWorldWithSpec does not work
-	https://pharo.fogbugz.com/f/cases/11807
+ ^ '11794 Speed up for SystemNavigation >> #implementorsOf:
+	https://pharo.fogbugz.com/f/cases/11794
 	
-11741 Add Fuel out Stack as an action to the new debugger
-	https://pharo.fogbugz.com/f/cases/11741
+11784 ConfigurationBrowser needs update after Spec change
+	https://pharo.fogbugz.com/f/cases/11784
+	
+
 '

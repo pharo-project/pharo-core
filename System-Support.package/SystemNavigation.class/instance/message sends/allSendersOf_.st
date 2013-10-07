@@ -1,6 +1,6 @@
 allSendersOf: selector 
-	|  sortedSenders special byte |
-	sortedSenders := SortedCollection new.
+	|  senders special byte |
+	senders := OrderedCollection new.
 	special := Smalltalk 
 				hasSpecialSelector: selector
 				ifTrueSetByte: [ :b | byte := b ].
@@ -8,5 +8,5 @@ allSendersOf: selector
 		(behavior
 			thoroughWhichSelectorsReferTo: selector
 			special: special
-			byte: byte) do: [ :sel| sortedSenders add: (self createMethodNamed: sel realParent: behavior) ] ].
-	^ sortedSenders
+			byte: byte) do: [ :sel| senders add: (self createMethodNamed: sel realParent: behavior) ] ].
+	^ senders
