@@ -14,8 +14,8 @@ testChangeSuperclass
 	self deny: (self c2 >> #m52) == (self t5 >> #m52). "no sharing!!"
 	
 	self assert: self c2 traitCompositionString = 'T5 - {#m11}'.
-	self assert: self c2 selectors sort =  #(bar foo m12 m13 m21 m22 m51 m52 m53).
-	self assert: self c2 localSelectors sort =  #(bar foo).
+	self assert: self c2 selectors sorted =  #(bar foo m12 m13 m21 m22 m51 m52 m53).
+	self assert: self c2 localSelectors sorted =  #(bar foo).
 
 
 	"change superclass of C2 from C1 to X"

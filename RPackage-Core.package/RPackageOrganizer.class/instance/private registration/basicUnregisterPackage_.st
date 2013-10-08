@@ -3,7 +3,6 @@ basicUnregisterPackage: aPackage
 	
 	| symbol |
 	symbol := aPackage name asSymbol.
-	(self includesPackageNamed: symbol)
-		ifTrue: [ packages removeKey: symbol ifAbsent: []]
-		ifFalse: [self reportExtraRemovalOf: aPackage  ]
-	
+	packages
+		removeKey: symbol
+		ifAbsent: [ self reportExtraRemovalOf: aPackage ]

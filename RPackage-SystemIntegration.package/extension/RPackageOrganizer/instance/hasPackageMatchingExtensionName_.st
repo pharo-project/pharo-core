@@ -1,9 +1,10 @@
 hasPackageMatchingExtensionName: anExtensionName
 
-	|tmpPackage tmpPackageName|
-	
 	(self hasPackageExactlyMatchingExtensionName: anExtensionName)
 		ifTrue: [ ^true ].
-	
-	^packages keys anySatisfy: [:aSymbol | aSymbol asString,'*'  match: anExtensionName ].
+		
+	packages keysDo: [ :aSymbol | 
+		(anExtensionName beginsWithEmpty: aSymbol caseSensitive: false)
+			ifTrue: [ ^ true]].
+	^ false
 	
