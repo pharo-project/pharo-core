@@ -1,4 +1,4 @@
 fileEntriesDo: aBlock
 	
-	entries keys sorted do: [ :fileName|
+	entries keys sort do: [ :fileName|
 		aBlock value: (entries at: fileName)].

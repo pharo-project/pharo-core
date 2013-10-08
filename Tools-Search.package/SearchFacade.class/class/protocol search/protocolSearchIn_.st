@@ -1,7 +1,7 @@
 protocolSearchIn: aCollection
 	| rawList |
 	
-	rawList := aCollection sorted.
+	rawList := aCollection sort.
 	
 	^ ListDialogWindow new
 				getList: [ :r| rawList select: [:e | r search: e ]];

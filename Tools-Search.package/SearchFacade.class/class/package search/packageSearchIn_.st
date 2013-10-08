@@ -1,7 +1,7 @@
 packageSearchIn: anEnvironment 
 	| rawList |
 	
-	rawList := anEnvironment organization categories sorted.
+	rawList := anEnvironment organization categories sort.
 	
 	^ ListDialogWindow new
 				getList: [ :r| rawList select: [:e | r search: e ]];
