@@ -2,7 +2,7 @@ unimplemented
 	"Answer an Array of each message that is sent by an expression in a method but is not implemented by any object in the system."
 	
 	| all unimplemented |
-	all := IdentitySet new: Symbol instanceCount * 2.
+	all := IdentitySet new.
 	self allBehaviorsDo: [:cl | cl selectorsDo: [:aSelector | all add: aSelector]].
 
 	unimplemented := IdentityDictionary new.

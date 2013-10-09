@@ -1,9 +1,4 @@
 removeClassNamed: aName
-	"Invoked from fileouts:  if there is currently a class in the system named aName, then remove it.  If anything untoward happens, report it in the Transcript.  "
+	"Invoked from fileouts:  if there is currently a class in the system named aName, then remove it"
 
-	| oldClass |
-	(oldClass := self at: aName asSymbol ifAbsent: [ nil ]) 
-		ifNil: [ 
-			self crTrace: 'Removal of class named ' , aName , ' ignored because ' , aName , ' does not exist.'.
-			^ self ].
-	oldClass removeFromSystem
+	self at: aName asSymbol ifPresent: [:oldClass | oldClass removeFromSystem]
