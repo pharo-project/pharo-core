@@ -1,2 +1,2 @@
 forString: aString
-	^super basicNew initialize: aString
+	^self basicNew initialize: aString

@@ -1,2 +1,0 @@
-qualifiedHostNameCode
-	^3

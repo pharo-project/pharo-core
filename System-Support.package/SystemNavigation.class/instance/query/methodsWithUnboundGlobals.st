@@ -4,7 +4,7 @@ methodsWithUnboundGlobals
 
 	"SystemNavigation new methodsWithUnboundGlobals"
 
-	^self allSelect:
+	^self allMethodsSelect:
 		[:m|
 		m literals anySatisfy:
 			[:l|

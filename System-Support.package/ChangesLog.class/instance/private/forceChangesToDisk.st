@@ -3,9 +3,9 @@ forceChangesToDisk
 
 	| changesFile |
 	changesFile := SourceFiles at: 2.
-	(changesFile isKindOf: FileStream) ifTrue: [
-		changesFile flush.
-		changesFile close.
-		changesFile open: changesFile name forWrite: true.
-		changesFile setToEnd.
-	].
+	(changesFile isKindOf: FileStream)
+		ifFalse: [ ^ self ].
+	changesFile flush.
+	changesFile close.
+	changesFile open: changesFile name forWrite: true.
+	changesFile setToEnd

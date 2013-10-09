@@ -2,7 +2,7 @@ privateInitializeFromText: aString
 	"Calculate host and path from a file URL in String format.
 	Some malformed formats are allowed and interpreted by guessing."
 
-	| schemeName pathString bare stream char i |
+	| schemeName pathString bare char i |
 	bare := aString trimBoth.
 	schemeName := Url schemeNameForString: bare.
 	(schemeName isNil or: [schemeName ~= self schemeName])

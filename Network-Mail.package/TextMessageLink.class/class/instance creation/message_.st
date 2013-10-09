@@ -1,2 +1,2 @@
 message: aMessage
-	^super new initialize: aMessage
+	^self new initialize: aMessage

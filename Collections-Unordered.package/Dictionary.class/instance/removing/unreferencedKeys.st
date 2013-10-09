@@ -10,7 +10,7 @@ unreferencedKeys
 			n := 0.
 			associations := self associations asIdentitySet.
 			referencedAssociations := IdentitySet new: associations size.
-			self systemNavigation allSelect:
+			self systemNavigation allMethodsSelect:
 				[:m|
 				m methodClass ~~ currentClass ifTrue:
 					[currentClass := m methodClass.

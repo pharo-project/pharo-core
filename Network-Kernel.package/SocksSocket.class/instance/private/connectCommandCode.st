@@ -1,2 +1,0 @@
-connectCommandCode
-	^1

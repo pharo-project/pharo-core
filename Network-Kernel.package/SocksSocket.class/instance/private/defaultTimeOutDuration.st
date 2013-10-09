@@ -1,2 +1,0 @@
-defaultTimeOutDuration
-	^20000

@@ -1,2 +1,0 @@
-noAutorizationMethod
-	^0

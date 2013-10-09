@@ -1,5 +1,5 @@
 HierarchicalUrl subclass: #HttpUrl
 	instanceVariableNames: ''
-	classVariableNames: 'Passwords'
+	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Network-Url'

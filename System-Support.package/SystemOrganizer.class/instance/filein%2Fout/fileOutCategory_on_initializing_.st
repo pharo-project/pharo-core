@@ -7,7 +7,7 @@ fileOutCategory: category on: aFileStream initializing: aBool
 	classes := self superclassOrder: category.
 	poolSet := Set new.
 	classes do:  [:class | class sharedPools do: [:eachPool | poolSet add: eachPool]].
-	poolSet size > 0 ifTrue: [
+	poolSet notEmpty ifTrue: [
 		tempClass := Class new.
 		tempClass shouldFileOutPools ifTrue: [
 			poolSet := poolSet select: [:aPool |

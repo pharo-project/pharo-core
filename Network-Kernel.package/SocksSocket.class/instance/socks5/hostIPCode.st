@@ -1,2 +1,0 @@
-hostIPCode
-	^1
