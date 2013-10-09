@@ -3,8 +3,7 @@ browseVersions
 	currently selected message. Answer the browser or nil."
 	| selector class | 
 	self classCommentIndicated
-		ifTrue: [ ClassCommentVersionsBrowser browseCommentOf: self selectedClass.
-			^nil ].
+		ifTrue: [ ^nil ].
 
 	(selector := self selectedMessageName)
 		ifNil:[ self inform: 'Sorry, only actual methods have retrievable versions.'. ^nil ]
