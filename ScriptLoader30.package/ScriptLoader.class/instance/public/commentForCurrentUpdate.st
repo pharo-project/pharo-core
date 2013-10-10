@@ -1,3 +1,5 @@
 commentForCurrentUpdate
- ^ '11831 Simplifying SystemNavigation
-	https://pharo.fogbugz.com/f/cases/11831'
+ ^ '11786 CheckBoxModel>>doesNotUnderstand: #widthToDisplayInList:
+	https://pharo.fogbugz.com/f/cases/11786
+	
+'
