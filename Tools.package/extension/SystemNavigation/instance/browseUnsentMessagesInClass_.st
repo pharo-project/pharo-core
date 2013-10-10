@@ -3,6 +3,6 @@ browseUnsentMessagesInClass: aClass
 	| unsentMessages |
 	unsentMessages := self unsentMessagesWithProgressBarInClass: aClass.
 	^self 
-		browseMessageList: unsentMessages asSortedCollection
+		browseMessageList: unsentMessages
 		name: 'Unsent messages in class ', aClass name 
  
