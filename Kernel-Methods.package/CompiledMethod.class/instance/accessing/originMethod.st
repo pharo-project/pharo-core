@@ -8,4 +8,4 @@ originMethod
 	"Use the method dictionary because traits do not have method for accesing methods by selector"
 	
 	selector := self methodClass traitComposition originSelectorOf: self selector.
-	^ (self methodClass traitOrClassOfSelector: selector) methodDict at: selector. 
+	^ (self methodClass traitOrClassOfSelector: selector)>>selector. 

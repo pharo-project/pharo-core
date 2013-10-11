@@ -12,8 +12,8 @@ explicitRequirement
 		ifFalse: errorBlock.
 	originalClass superclass
 		withAllSuperclassesDo: [ :superCl | 
-			superCl methodDict
-				at: originalSelector
+			superCl 
+				compiledMethodAt: originalSelector
 				ifPresent: [ :method | 
 					(method isProvided or: [ method isFromTrait not ])
 						ifTrue: [ ^ method valueWithReceiver: originalReceiver arguments: originalArguments ] ]

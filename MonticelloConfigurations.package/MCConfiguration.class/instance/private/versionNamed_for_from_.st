@@ -1,7 +1,7 @@
 versionNamed: verName for: aDependency from: repo
 
 	| baseName fileName ver |
-	(repo filterFileNames: repo cachedFileNames forVersionNamed: verName) ifNotEmptyDo: [:cachedNames |
+	(repo filterFileNames: repo cachedFileNames forVersionNamed: verName) ifNotEmpty: [:cachedNames |
 		fileName := cachedNames anyOne.
 		ProgressNotification signal: '' extra: 'Using cached ', fileName.
 		ver := repo versionFromFileNamed: fileName].

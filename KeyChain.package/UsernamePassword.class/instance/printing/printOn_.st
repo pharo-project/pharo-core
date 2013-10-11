@@ -7,5 +7,4 @@ printOn: aStream
 		nextPutAll: username printString;
 		nextPutAll: ' -> ';
 		nextPutAll: password asString;
-		nextPutAll: ')';
-		yourself
+		nextPutAll: ')'.

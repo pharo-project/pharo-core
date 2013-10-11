@@ -1,5 +1,5 @@
 Link subclass: #Process
-	instanceVariableNames: 'suspendedContext priority myList threadId name env'
+	instanceVariableNames: 'suspendedContext priority myList name env'
 	classVariableNames: 'PSKeys PSKeysSema'
 	poolDictionaries: ''
 	category: 'Kernel-Processes'

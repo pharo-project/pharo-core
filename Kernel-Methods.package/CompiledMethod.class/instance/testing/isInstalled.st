@@ -3,5 +3,5 @@ isInstalled
 		[:class|
 		self selector ifNotNil:
 			[:selector|
-			^self == (class methodDict at: selector ifAbsent: [])]].
+			^self == (class compiledMethodAt: selector ifAbsent: [])]].
 	^false

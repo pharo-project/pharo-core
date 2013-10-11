@@ -30,17 +30,15 @@ silentlyMoveInstVarNamed: instVarName from: srcClass to: dstClass after: prevIns
 		copyOfOldClassTraitComposition ifNotNil: [
 			newClass class setTraitComposition: copyOfOldClassTraitComposition ].
 	] ifFalse:[
-		(dstClass inheritsFrom: srcClass) ifTrue:[
-			newClass := self reshapeClass: srcClass toSuper: srcClass superclass.
-			self recompile: false from: srcClass to: newClass mutate: true.
-		] ifFalse:[ "Disjunct hierarchies"
+		newClass := self reshapeClass: srcClass toSuper: srcClass superclass.
+		(dstClass inheritsFrom: srcClass) ifFalse:[ "Disjunct hierarchies"
 			srcClass == dstClass ifFalse:[
 				newClass := self reshapeClass: dstClass toSuper: dstClass superclass.
 				self recompile: false from: dstClass to: newClass mutate: true.
 			].
 			newClass := self reshapeClass: srcClass toSuper: srcClass superclass.
-			self recompile: false from: srcClass to: newClass mutate: true.
 		].
+		self recompile: false from: srcClass to: newClass mutate: true.
 	].
 	self doneCompiling: srcClass.
 	self doneCompiling: dstClass.

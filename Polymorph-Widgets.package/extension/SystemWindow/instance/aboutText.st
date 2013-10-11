@@ -5,4 +5,4 @@ aboutText
 		ifNil: ['This is a system window without a model' translated]
 		ifNotNil: [self model class instanceSide organization classComment
 					ifEmpty: ['The model of this window has no class comment']
-					ifNotEmptyDo: [:comment | comment]]
+					ifNotEmpty: [:comment | comment]]

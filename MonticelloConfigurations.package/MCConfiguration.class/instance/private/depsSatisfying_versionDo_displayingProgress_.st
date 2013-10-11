@@ -5,7 +5,7 @@ depsSatisfying: selectBlock versionDo: verBlock displayingProgress: progressStri
 		MCRepositoryGroup default addRepository: repo.
 		repo allVersionNames
 			ifEmpty: [self logWarning: 'cannot read from ', repo description]
-			ifNotEmptyDo: [:all | all do: [:ver | repoMap at: ver put: repo]]].
+			ifNotEmpty: [:all | all do: [:ver | repoMap at: ver put: repo]]].
 
 	count := 0.
 	self dependencies do: [:dep |
