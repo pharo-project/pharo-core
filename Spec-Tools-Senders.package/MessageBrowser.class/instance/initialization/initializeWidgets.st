@@ -7,6 +7,7 @@ initializeWidgets
 	
 	listModel displayBlock: [ :item | self wrapItem: item ].
 	textModel aboutToStyle: true.
+	textModel whenBuiltDo: [ :ann | ann widget font: self codeFont ].
 	refreshingBlockHolder := [ :item | true ] asValueHolder.
 				
 	self

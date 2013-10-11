@@ -1,4 +1,7 @@
 commentForCurrentUpdate
- ^ '11839 New L&F for Pharo30 (first iteration, second try)
-	https://pharo.fogbugz.com/f/cases/11839
+ ^ '11848 debugger should set code font
+	https://pharo.fogbugz.com/f/cases/11848/
+	
+11851 MessageBrowser text should be codeFont
+	https://pharo.fogbugz.com/f/cases/11851/
 '

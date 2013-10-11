@@ -13,4 +13,6 @@ initializeWidgets
 			inContext: self stack selectedItem
 			notifying: notifyer ].
 
+	self code whenBuiltDo: [ :ann | ann widget font: self codeFont ].
+
 	self setFocusOrder
