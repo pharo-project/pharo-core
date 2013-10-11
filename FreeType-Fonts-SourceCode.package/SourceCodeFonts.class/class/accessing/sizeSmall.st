@@ -1,0 +1,2 @@
+sizeSmall 
+	^ 10

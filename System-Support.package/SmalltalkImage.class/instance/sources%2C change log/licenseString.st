@@ -28,4 +28,12 @@ http://www.apache.org/licenses/LICENSE-2.0
 
 Pharo uses icons by Mark James (http://www.famfamfam.com) under 
 Creative Commons Attribution 2.5 License.
+
+Pharo uses icons by Eclipse under 
+Eclipse Public License - v 1.0
+http://www.eclipse.org/legal/epl-v10.html
+
+Pharo uses Source Code Pro Fonts by Adobe under 
+SIL Open Font License, v 1.1
+http://scripts.sil.org/OFL
 '

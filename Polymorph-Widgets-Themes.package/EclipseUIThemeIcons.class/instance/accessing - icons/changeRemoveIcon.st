@@ -1,0 +1,2 @@
+changeRemoveIcon 
+	^ self smallCancelIcon

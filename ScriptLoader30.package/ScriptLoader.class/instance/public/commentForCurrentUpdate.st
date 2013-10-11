@@ -1,10 +1,4 @@
 commentForCurrentUpdate
- ^ '11842 Trivia critic cleanup in Kernel
-	https://pharo.fogbugz.com/f/cases/11842
-	
-11845 Do not use the *do: versions of #*ifNotEmpty*
-	https://pharo.fogbugz.com/f/cases/11845
-	
-11843 Trivial critic cleanup in keychain
-	https://pharo.fogbugz.com/f/cases/11843
+ ^ '11839 New L&F for Pharo30 (first iteration)
+	https://pharo.fogbugz.com/f/cases/11839
 '
