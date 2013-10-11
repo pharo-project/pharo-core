@@ -1,4 +1,4 @@
-Object subclass: #SourceSansProRegular
+Object subclass: #OpenSansRegular
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

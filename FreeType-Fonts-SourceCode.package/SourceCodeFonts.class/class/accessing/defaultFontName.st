@@ -1,0 +1,2 @@
+defaultFontName
+	^ 'Open Sans'

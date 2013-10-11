@@ -36,4 +36,9 @@ http://www.eclipse.org/legal/epl-v10.html
 Pharo uses Source Code Pro Fonts by Adobe under 
 SIL Open Font License, v 1.1
 http://scripts.sil.org/OFL
+
+Pharo uses Open Sans by Steve Matteson under 
+Apache License, 2.0
+http://www.apache.org/licenses/LICENSE-2.0.html
+
 '

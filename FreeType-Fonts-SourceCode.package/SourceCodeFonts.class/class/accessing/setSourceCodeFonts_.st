@@ -1,9 +1,9 @@
 setSourceCodeFonts: pointSize
-	StandardFonts 
-		setAllStandardFontsTo: (LogicalFont familyName: 'Source Code Pro' pointSize: pointSize);
-		haloFont: (LogicalFont familyName: 'Source Code Pro' pointSize: pointSize - 1);
-		balloonFont: (LogicalFont familyName: 'Source Code Pro' pointSize: pointSize - 1);
-		windowTitleFont: (LogicalFont familyName: 'Source Code Pro' pointSize: pointSize + 1);
-		"listFont: (LogicalFont familyName: 'Source Code Pro' pointSize: pointSize);
-		menuFont: (LogicalFont familyName: 'Source Code Pro' pointSize: pointSize);"
-		codeFont: (LogicalFont familyName: 'Source Code Pro' pointSize: pointSize)
+	StandardFonts
+		setAllStandardFontsTo: (LogicalFont familyName: self defaultFontName pointSize: pointSize);
+		haloFont: (LogicalFont familyName: self defaultFontName pointSize: pointSize - 1);
+		balloonFont: (LogicalFont familyName: self defaultFontName pointSize: pointSize - 1);
+		windowTitleFont: (LogicalFont familyName: self defaultFontName pointSize: pointSize + 1);
+		listFont: (LogicalFont familyName: self defaultFontName pointSize: pointSize);
+		menuFont: (LogicalFont familyName: self defaultFontName pointSize: pointSize);
+		codeFont: (LogicalFont familyName: self fontName pointSize: pointSize)

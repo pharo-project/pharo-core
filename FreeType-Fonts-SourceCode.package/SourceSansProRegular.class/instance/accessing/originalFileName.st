@@ -1,2 +1,0 @@
-originalFileName
-	^ 'SourceSansPro-Regular.ttf'
