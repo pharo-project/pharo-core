@@ -1,0 +1,2 @@
+cleanUp
+	PrimarySelection := nil.
