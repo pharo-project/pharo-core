@@ -5,13 +5,11 @@ registerEvents
 	displayBlock whenChangedDo: [ self updateTree ].
 	
 	iconBlock whenChangedDo: [ self updateTree ].
-	autoDeselection
-		whenChangedDo: [ :boolean | 
-			self
-				update:
-					{#autoDeselection:.
-					boolean} ].
-	columns whenChangedDo: [ :col | self widget ifNotNil: [ :w | w columns: col ] ].
+	autoDeselection whenChangedDo: [ :boolean | self update: {#autoDeselection:. boolean} ].
+	columns whenChangedDo: [ :col | self changed: #columns: with: { col } ].
+	selectionHolder whenChangedDo: [:items | self changed: { #selectItems. items } ].
+	
+	
 	self announcer weak
 		on: WidgetBuilt
 		send: #onWidgetBuilt
