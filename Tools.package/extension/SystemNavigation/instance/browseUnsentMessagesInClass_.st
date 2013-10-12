@@ -1,5 +1,5 @@
 browseUnsentMessagesInClass: aClass
-	"SystemNavigation new browseUnsentMessagesInClass: Browser"
+	"SystemNavigation new browseUnsentMessagesInClass: SystemNavigation"
 	| unsentMessages |
 	unsentMessages := self unsentMessagesWithProgressBarInClass: aClass.
 	^self 
