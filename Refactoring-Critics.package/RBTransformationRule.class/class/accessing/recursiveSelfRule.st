@@ -1,2 +1,2 @@
 recursiveSelfRule
-	^ RecursiveSelfRule
+	^ RecursiveSelfRule ifNil: [ self initializeRecursiveSelfRule ]

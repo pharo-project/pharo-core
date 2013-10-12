@@ -1,8 +1,5 @@
 usedWidthByPredominantDockingBarsOfChastes: predominantChastes 
 	"Private - convenience"
-	| predominants |
-	predominants := self predominantDockingBarsOfChastes: predominantChastes.
-	^ predominants isEmpty
-		ifTrue: [0]
-		ifFalse: [(predominants
-				collect: [:each | each width]) sum]
+	^(self predominantDockingBarsOfChastes: predominantChastes)
+		ifEmpty: [0]
+		ifNotEmpty: [:predominants | (predominants collect: [:each | each width]) sum]

@@ -1,15 +1,9 @@
 browseAllStoresInto: instVarName from: aClass
-	"Create and schedule a Message Set browser for all the receiver's methods 
-	or any methods of a subclass/superclass that refer to the instance variable name."
-	
-	"self new browseAllStoresInto: 'contents' from: Collection."
+    "Create and schedule a Message Set browser for all the receiver's methods 
+    or any methods of a subclass/superclass that refer to the instance variable name."
 
-	| coll |
-	coll := OrderedCollection new.
-	aClass withAllSubAndSuperclassesDo: [:class | 
-			(class whichSelectorsStoreInto: instVarName) do: [:sel |
-					coll add: (self createMethodNamed: sel realParent: class)]].
-	^ self
-		browseMessageList: coll 
-		name: 'Stores into ' , instVarName 
-		autoSelect: instVarName
+    "self new browseAllStoresInto: 'youpi' from: BalloonEdgeData class."
+
+    ^ self browseMessageList: (self allStoresInto: instVarName of: aClass)
+                name: 'Stores into ' , instVarName 
+                autoSelect: instVarName
