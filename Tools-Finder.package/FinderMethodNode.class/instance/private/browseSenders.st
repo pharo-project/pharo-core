@@ -1,2 +1,2 @@
 browseSenders
-	SystemNavigation new browseAllCallsOn: self item.
+	SystemNavigation new browseAllSendersOf: self item.

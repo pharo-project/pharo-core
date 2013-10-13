@@ -2,4 +2,4 @@ browseSenders
 	"Browse the method senders."
 
 	self systemNavigation
-		browseAllCallsOn: (self selectedMessageName ifNil: [^self])
+		browseAllSendersOf: (self selectedMessageName ifNil: [^self])

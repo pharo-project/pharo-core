@@ -10,7 +10,7 @@ messageListKey: aChar from: view
 	aChar == $m ifTrue:  "These next two put up a type in if no message selected"
 		[^ self useSelector: sel orGetSelectorAndSendQuery: #browseAllImplementorsOf: to: self systemNavigation].
 	aChar == $n ifTrue: 
-		[^ self useSelector: sel orGetSelectorAndSendQuery: #browseAllCallsOn: to: self systemNavigation].
+		[^ self useSelector: sel orGetSelectorAndSendQuery: #browseAllSendersOf: to: self systemNavigation].
 
 	"The following require a class selection"
 	(class := self selectedClassOrMetaClass) ifNil: [^ self arrowKey: aChar from: view].

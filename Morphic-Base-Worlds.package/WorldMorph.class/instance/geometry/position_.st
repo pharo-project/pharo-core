@@ -2,5 +2,5 @@ position: aPoint
 	"Prevent moving a world (e.g. via HandMorph>>specialGesture:)"
 
 	super position: aPoint.
-	self viewBox ifNotNil: [self viewBox: (aPoint extent: self viewBox extent)].
+	self viewBox ifNotNil: [:viewBox | self viewBox: (aPoint extent:  viewBox extent)].
 

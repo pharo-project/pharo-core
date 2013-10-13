@@ -19,4 +19,4 @@ removeMessage
 	self setClassOrganizer.
 	"In case organization not cached"
 	confirmation = 2
-		ifTrue: [self systemNavigation browseAllCallsOn: messageName]
+		ifTrue: [self systemNavigation browseAllSendersOf: messageName]

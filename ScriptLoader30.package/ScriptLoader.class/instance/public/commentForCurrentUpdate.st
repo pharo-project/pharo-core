@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '11860 NonInteractiveTranscript should not close stderr on shutdown
-	https://pharo.fogbugz.com/f/cases/11860
+ ^ '11856 Some trivial critic changes related to ifNotNil:
+	https://pharo.fogbugz.com/f/cases/11856
 	
-11858 remove #inspectGlobals move some methods out of Tools-Inspector
-	https://pharo.fogbugz.com/f/cases/11858
+11861 Deprecated #browseAllCallsOn:, use #browseAllSendersOf:
+	https://pharo.fogbugz.com/f/cases/11861
 	
-11849 Add better support for selection in MorphTreeMorph
-	https://pharo.fogbugz.com/f/cases/11849'
+11857 add #cleanUp to SystemProgressMorph to reset singleton
+	https://pharo.fogbugz.com/f/cases/11857'

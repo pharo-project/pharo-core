@@ -11,4 +11,4 @@ referencesTo: aVariableOrClassName
 
 	ref:= (env bindingOf: aVariableOrClassName) ifNil: [ ^ self ].
 	
-	self systemNavigation browseAllCallsOn: ref
+	self systemNavigation browseAllReferencesTo: ref

@@ -3,4 +3,4 @@ browseSenders
 	currently selected message selector. Do nothing if no message is selected."
 
 	messageListIndex ~= 0 
-		ifTrue: [self systemNavigation browseAllCallsOn: self selectedMessageName]
+		ifTrue: [self systemNavigation browseAllSendersOf: self selectedMessageName]

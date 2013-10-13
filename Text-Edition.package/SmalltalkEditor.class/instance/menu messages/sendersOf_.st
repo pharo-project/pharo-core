@@ -1,3 +1,3 @@
 sendersOf: selectedSelector
 	" opens a Browser on the given selector"
-	self model systemNavigation browseAllCallsOn: selectedSelector
+	self model systemNavigation browseAllSendersOf: selectedSelector

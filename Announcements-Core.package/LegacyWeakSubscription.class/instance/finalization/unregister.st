@@ -1,8 +1,4 @@
 unregister
 
-	| sub |
-	sub := self subscriber.
-	sub ifNotNil: [
-		self weakRegistry 
-			remove: sub ]
+	self subscriber ifNotNil: [:sub |  self weakRegistry remove: sub ]
 		

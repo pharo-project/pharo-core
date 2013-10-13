@@ -31,7 +31,7 @@ confirmRemovalOfSelectors: aCollection on: aClass
 				'Forget it -- do nothing -- sorry I asked') title: caption.
 	answer = 3
 		ifTrue: [
-			collection do: [:aSelector | self browseAllCallsOn:aSelector ]].
+			collection do: [:aSelector | self browseAllSendersOf: aSelector ]].
 	answer = 0
 		ifTrue: [answer := 3].
 	"If user didn't answer, treat it as cancel"

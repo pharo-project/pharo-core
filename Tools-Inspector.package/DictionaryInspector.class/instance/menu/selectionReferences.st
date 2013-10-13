@@ -3,4 +3,4 @@ selectionReferences
 
 	self selectionIndex = 0 ifTrue: [^ self changed: #flash].
 	object class == MethodDictionary ifTrue: [^ self changed: #flash].
-	self systemNavigation browseAllCallsOn: (object associationAt: (keyArray at: selectionIndex  - self numberOfFixedFields)).
+	self systemNavigation browseAllSendersOf: (object associationAt: (keyArray at: selectionIndex  - self numberOfFixedFields)).

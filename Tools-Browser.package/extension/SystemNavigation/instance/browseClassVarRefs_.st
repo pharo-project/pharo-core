@@ -20,5 +20,5 @@ browseClassVarRefs: aClass
 	labelStream skip: -1 "cut last CR".
 	index := (UIManager default chooseFrom: (labelStream contents substrings) lines: lines).
 	index = 0 ifTrue: [^ self].
-	^ self browseAllCallsOn:
+	^ self browseAllReferencesTo:
 		((owningClasses at: index) classPool associationAt: (allVars at: index))

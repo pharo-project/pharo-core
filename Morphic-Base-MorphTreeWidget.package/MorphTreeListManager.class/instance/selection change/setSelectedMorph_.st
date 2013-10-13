@@ -1,10 +1,9 @@
 setSelectedMorph: aMorph
-	| path  |
-	
-		path := aMorph ifNotNil: [aMorph path collect: [:m | m complexContents]].
-		lastClickedMorph := aMorph.
-		self emptySelection.
-		aMorph isNil ifFalse: [self addToSelection: lastClickedMorph].
-		self selectionUpdateFromViewWhile: [ | selHolder |
-			selHolder := self newSelectionHolderWithNodePath: path.
-			self listModel selection: selHolder]
+	| path |
+	path := aMorph ifNotNil: [ aMorph path collect: [ :m | m complexContents ] ].
+	lastClickedMorph := aMorph.
+	self emptySelection.
+	aMorph 
+		ifNotNil: [ self addToSelection: lastClickedMorph ].
+	self selectionUpdateFromViewWhile: [ 
+			self listModel selection: (self newSelectionHolderWithNodePath: path) ]
