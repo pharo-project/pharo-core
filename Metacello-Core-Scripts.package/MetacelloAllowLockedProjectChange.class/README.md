@@ -1,0 +1,1 @@
+A MetacelloAllowLockedProjectChange is xxxxxxxxx.Instance Variables	operationString:		<Object>operationString	- xxxxx

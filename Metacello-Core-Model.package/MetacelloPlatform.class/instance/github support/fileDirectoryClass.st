@@ -1,0 +1,3 @@
+fileDirectoryClass
+
+	^FileDirectory

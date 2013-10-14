@@ -1,3 +1,3 @@
 setPreLoadDoIt: aSymbol
-
-	preLoadDoIt := aSymbol
+    self shouldBeMutable.
+    preLoadDoIt := aSymbol

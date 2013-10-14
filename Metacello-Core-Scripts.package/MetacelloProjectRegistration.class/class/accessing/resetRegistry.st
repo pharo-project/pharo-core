@@ -1,0 +1,2 @@
+resetRegistry
+    Registry := nil

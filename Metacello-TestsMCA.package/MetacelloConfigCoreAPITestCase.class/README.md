@@ -1,0 +1,1 @@
+A MetacelloConfigCoreAPITestCase is xxxxxxxxx.

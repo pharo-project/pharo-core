@@ -1,0 +1,1 @@
+A MetacelloRepositorySqueakCommonTestCase is xxxxxxxxx.

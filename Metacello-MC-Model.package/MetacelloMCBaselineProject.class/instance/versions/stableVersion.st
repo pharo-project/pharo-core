@@ -1,0 +1,2 @@
+stableVersion
+    ^ nil

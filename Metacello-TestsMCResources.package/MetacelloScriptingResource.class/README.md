@@ -1,0 +1,1 @@
+A MetacelloScriptingResource is xxxxxxxxx.Instance Variables	configurationRepository:		<Object>	externalRepository:		<Object>	sampleRepository:		<Object>configurationRepository	- xxxxxexternalRepository	- xxxxxsampleRepository	- xxxxx

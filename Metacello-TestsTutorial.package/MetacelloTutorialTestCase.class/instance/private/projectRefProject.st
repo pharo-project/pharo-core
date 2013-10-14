@@ -1,0 +1,3 @@
+projectRefProject
+
+	^MetacelloProjectRefTutorialConfig project

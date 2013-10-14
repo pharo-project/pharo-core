@@ -1,0 +1,2 @@
+retryPackageResolution: aBool
+    RetryPackageResolution := aBool

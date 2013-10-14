@@ -1,0 +1,1 @@
+A MetacelloMCCachingLoaderTestCase is xxxxxxxxx.Instance Variables	platformCacheRepository:		<Object>platformCacheRepository	- xxxxx

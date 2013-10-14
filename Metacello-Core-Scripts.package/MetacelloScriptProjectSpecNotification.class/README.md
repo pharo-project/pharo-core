@@ -1,0 +1,1 @@
+A MetacelloScriptProjectSpecNotification is xxxxxxxxx.Instance Variables	projectSpec:		<Object>projectSpec	- xxxxx

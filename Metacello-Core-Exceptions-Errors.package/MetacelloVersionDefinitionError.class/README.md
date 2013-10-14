@@ -1,0 +1,1 @@
+A MetacelloVersionDefinitionError is xxxxxxxxx.Instance Variables	exception:		<Object>exception	- xxxxx

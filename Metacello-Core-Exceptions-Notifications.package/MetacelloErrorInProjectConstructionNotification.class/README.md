@@ -1,0 +1,1 @@
+A MetacelloErrorInProjectConstructionNotification is xxxxxxxxx.Instance Variables	exception:		<Object>	versionString:		<Object>exception	- xxxxxversionString	- xxxxx

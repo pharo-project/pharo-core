@@ -1,3 +1,0 @@
-nonOverridable
-
-	^super nonOverridable, #( projectPackage )

@@ -1,0 +1,2 @@
+projectClass
+    ^ MetacelloMCProject

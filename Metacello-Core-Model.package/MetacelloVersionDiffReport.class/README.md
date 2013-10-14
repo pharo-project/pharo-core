@@ -1,0 +1,1 @@
+A MetacelloVersionDiffReport is xxxxxxxxx.Instance Variables	additions:		<Object>	configuration:		<Object>	from:		<Object>	modifications:		<Object>	removals:		<Object>	to:		<Object>additions	- xxxxxconfiguration	- xxxxxfrom	- xxxxxmodifications	- xxxxxremovals	- xxxxxto	- xxxxx

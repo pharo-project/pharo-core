@@ -1,0 +1,2 @@
+isLocked
+  ^ self registration locked

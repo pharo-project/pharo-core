@@ -1,5 +1,5 @@
 Object subclass: #MetacelloProject
-	instanceVariableNames: 'versionMap symbolicVersionMap loader loaderClass loadType configuration projectAttributes'
+	instanceVariableNames: 'versionMap symbolicVersionMap errorMap loader loaderClass loadType configuration projectAttributes versionNumberClass'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Metacello-Core-Model'

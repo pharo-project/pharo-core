@@ -1,0 +1,3 @@
+projectProject
+
+	^MetacelloVersionQueryProjectConfig new project

@@ -1,0 +1,2 @@
+lessonView: aLessonView
+	lessonView := aLessonView.

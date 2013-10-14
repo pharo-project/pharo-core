@@ -1,3 +1,2 @@
 repository: anObject
-
-	self root repository: anObject
+    self root repository: anObject constructor: self

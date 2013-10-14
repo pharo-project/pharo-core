@@ -1,4 +1,2 @@
 postLoadDoIt: aSymbol
-
-	self validateDoItSelector: aSymbol.
-	self root postLoadDoIt: aSymbol
+    self root postLoadDoIt: aSymbol constructor: self

@@ -1,6 +1,9 @@
 asRepositorySpecFor: aMetacelloMCProject
 
+	| desc |
+	desc := self description.
+	desc ifNil: [ desc := 'dictionary://Metacello_Dictionary' ].
 	^(aMetacelloMCProject repositorySpec)
-		description:  'dictionary://Metacello_Dictionary';
+		description:  desc;
 	 	type: 'dictionary';
 		yourself

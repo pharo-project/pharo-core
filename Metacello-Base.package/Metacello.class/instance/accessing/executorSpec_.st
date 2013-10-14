@@ -1,0 +1,2 @@
+executorSpec: anAssoc
+    executorSpec := anAssoc

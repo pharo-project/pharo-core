@@ -1,0 +1,3 @@
+projectWith: projectAttributes
+
+	self subclassResponsibility

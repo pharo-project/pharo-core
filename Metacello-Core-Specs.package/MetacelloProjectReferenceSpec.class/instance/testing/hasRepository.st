@@ -1,0 +1,2 @@
+hasRepository
+    ^ self projectReference hasRepository

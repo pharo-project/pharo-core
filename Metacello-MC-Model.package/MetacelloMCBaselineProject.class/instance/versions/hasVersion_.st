@@ -1,0 +1,2 @@
+hasVersion: versionString
+    ^ versionString = 'baseline'

@@ -1,0 +1,2 @@
+metacelloProjectClassFor: aScriptEngine
+    ^ MetacelloMCBaselineProject

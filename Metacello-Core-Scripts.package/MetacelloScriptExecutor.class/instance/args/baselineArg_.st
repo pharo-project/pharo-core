@@ -1,0 +1,2 @@
+baselineArg: anObject
+	baselineArg := anObject

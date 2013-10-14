@@ -1,0 +1,1 @@
+A MetacelloScriptingSuccessTestCase is xxxxxxxxx.

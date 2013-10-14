@@ -1,0 +1,1 @@
+**MetacelloDetermineCurrentVersionForLoadScriptTest** takes the **MetacelloDetermineCurrentVersionForLoadTest** test cases and casts them use the scripting api

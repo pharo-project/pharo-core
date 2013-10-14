@@ -1,5 +1,5 @@
 MetacelloAbstractVersionConstructor subclass: #MetacelloVersionConstructor
-	instanceVariableNames: ''
+	instanceVariableNames: 'errorMap'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Metacello-Core-Constructors'

@@ -1,0 +1,2 @@
+statements: anObject
+	statements := anObject

@@ -1,0 +1,2 @@
+projectSpec: aProjectSpec
+    projectSpec := aProjectSpec

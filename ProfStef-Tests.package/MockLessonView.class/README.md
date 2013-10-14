@@ -1,0 +1,1 @@
+A MockLessonView is xxxxxxxxx.Instance Variables	lesson:		<Object>	title:		<Object>lesson	- xxxxxtitle	- xxxxx

@@ -1,0 +1,6 @@
+tutorial 
+	^ #(
+firstLesson
+secondLesson
+thirdLesson
+)

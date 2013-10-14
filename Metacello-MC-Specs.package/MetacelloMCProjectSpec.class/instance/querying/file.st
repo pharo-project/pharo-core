@@ -1,3 +1,3 @@
 file
-	
-	^self projectPackage file
+    file ifNil: [ ^ self className ].
+    ^ file

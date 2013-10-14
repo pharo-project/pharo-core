@@ -1,0 +1,2 @@
+hasOverride
+    ^ self overrideProjectSpec ~~ nil

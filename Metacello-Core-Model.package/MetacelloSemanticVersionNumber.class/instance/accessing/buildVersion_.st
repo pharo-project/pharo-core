@@ -1,0 +1,2 @@
+buildVersion: anObject
+	buildVersion := anObject

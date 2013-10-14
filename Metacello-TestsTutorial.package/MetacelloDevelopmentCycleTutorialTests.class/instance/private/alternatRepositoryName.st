@@ -1,0 +1,3 @@
+alternatRepositoryName
+
+	^#'Metacello_Dev_Cycle_Alternate_Repository'

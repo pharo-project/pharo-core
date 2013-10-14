@@ -1,0 +1,2 @@
+classNameArg
+    ^ classNameArg

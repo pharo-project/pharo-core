@@ -1,5 +1,5 @@
 MetacelloVersionSpec subclass: #MetacelloMCVersionSpec
-	instanceVariableNames: 'packages repositories'
+	instanceVariableNames: 'repositories packages'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Metacello-MC-Specs'

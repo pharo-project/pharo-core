@@ -1,0 +1,2 @@
+lock
+    actionArg := #'lock' -> #()

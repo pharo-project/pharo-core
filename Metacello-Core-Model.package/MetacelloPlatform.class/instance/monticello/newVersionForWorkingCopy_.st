@@ -1,0 +1,2 @@
+newVersionForWorkingCopy: aWorkingCopy
+  ^ aWorkingCopy newVersion

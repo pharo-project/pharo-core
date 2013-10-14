@@ -1,3 +1,0 @@
-packageSpecsInLoadOrder
-
-	^self packages packageSpecsInLoadOrder

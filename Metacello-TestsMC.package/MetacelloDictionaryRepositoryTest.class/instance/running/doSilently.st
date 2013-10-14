@@ -1,0 +1,3 @@
+doSilently
+
+	^true

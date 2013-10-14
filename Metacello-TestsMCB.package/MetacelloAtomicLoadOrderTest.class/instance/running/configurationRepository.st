@@ -1,0 +1,4 @@
+configurationRepository
+	"MetacelloConfigurationResource reset"
+
+	^ MetacelloAtomicConfigurationResource current monticelloRepository

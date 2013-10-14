@@ -1,0 +1,2 @@
+hasRepository
+    ^ self repositorySpecs notEmpty

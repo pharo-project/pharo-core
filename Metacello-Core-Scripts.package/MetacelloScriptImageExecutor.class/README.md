@@ -1,0 +1,1 @@
+A MetacelloScriptImageExecutor is xxxxxxxxx.

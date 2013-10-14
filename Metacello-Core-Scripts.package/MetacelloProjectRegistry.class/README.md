@@ -1,0 +1,1 @@
+A MetacelloProjectRegistry is xxxxxxxxx.Instance Variables	baselineRegistry:		<Object>	configurationRegistry:		<Object>baselineRegistry	- xxxxxconfigurationRegistry	- xxxxx

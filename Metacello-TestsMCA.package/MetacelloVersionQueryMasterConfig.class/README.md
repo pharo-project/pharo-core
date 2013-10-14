@@ -1,0 +1,1 @@
+A MetacelloVersionQueryMasterConfig is xxxxxxxxx.

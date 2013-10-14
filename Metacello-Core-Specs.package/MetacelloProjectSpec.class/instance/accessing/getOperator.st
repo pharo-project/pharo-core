@@ -1,0 +1,3 @@
+getOperator
+
+	^operator

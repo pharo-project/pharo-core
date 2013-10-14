@@ -1,1 +1,1 @@
-A MetacelloVersionConstructor is xxxxxxxxx.
+A MetacelloVersionConstructor is xxxxxxxxx.Instance Variables	errorMap:		<Object>errorMap	- xxxxx

@@ -1,0 +1,1 @@
+A MetacelloToolBoxAPITestCase is xxxxxxxxx.Instance Variables	tempRepositories:		<Object>tempRepositories	- xxxxx

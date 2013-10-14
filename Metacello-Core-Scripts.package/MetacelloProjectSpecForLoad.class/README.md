@@ -1,0 +1,1 @@
+A MetacelloProjectSpecForLoad is xxxxxxxxx.Instance Variables	overrideProjectSpec:		<Object>	projectSpec:		<Object>	useDetermineVersionForLoad:		<Object>overrideProjectSpec	- xxxxxprojectSpec	- xxxxxuseDetermineVersionForLoad	- xxxxx

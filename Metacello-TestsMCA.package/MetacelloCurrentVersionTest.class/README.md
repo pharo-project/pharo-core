@@ -1,0 +1,1 @@
+A MetacelloCurrentVersionTest is xxxxxxxxx.

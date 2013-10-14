@@ -1,0 +1,1 @@
+A ProfStefTestNavigation is xxxxxxxxx.Instance Variables	mockView:		<Object>	prof:		<Object>mockView	- xxxxxprof	- xxxxx

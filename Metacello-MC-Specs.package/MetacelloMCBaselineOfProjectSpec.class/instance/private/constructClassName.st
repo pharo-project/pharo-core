@@ -1,0 +1,2 @@
+constructClassName
+    ^ 'BaselineOf' , self name

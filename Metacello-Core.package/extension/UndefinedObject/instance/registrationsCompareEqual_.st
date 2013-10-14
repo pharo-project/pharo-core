@@ -1,0 +1,2 @@
+registrationsCompareEqual: aMetacelloProjectSpec
+    ^ self = aMetacelloProjectSpec

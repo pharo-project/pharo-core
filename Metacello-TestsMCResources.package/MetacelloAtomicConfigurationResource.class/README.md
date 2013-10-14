@@ -1,0 +1,1 @@
+A MetacelloAtomicConfigurationResource is xxxxxxxxx.Instance Variables	monticelloRepository:		<Object>monticelloRepository	- xxxxx

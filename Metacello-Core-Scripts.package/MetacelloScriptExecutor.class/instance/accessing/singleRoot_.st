@@ -1,0 +1,2 @@
+singleRoot: aBool
+    singleRoot := aBool

@@ -1,0 +1,2 @@
+asProjectRegistration
+    ^ MetacelloProjectRegistration fromMCConfigurationProjectSpec: self

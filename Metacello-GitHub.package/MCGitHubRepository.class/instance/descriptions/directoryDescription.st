@@ -1,0 +1,2 @@
+directoryDescription
+    ^ self directory pathName

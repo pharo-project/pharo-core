@@ -1,0 +1,2 @@
+tearDownPackageList
+    ^ super tearDownPackageList , #('ConfigurationOfLockConfigurations')

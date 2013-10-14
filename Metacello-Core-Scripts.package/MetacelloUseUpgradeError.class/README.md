@@ -1,0 +1,1 @@
+A MetacelloUseUpgradeError is xxxxxxxxx.

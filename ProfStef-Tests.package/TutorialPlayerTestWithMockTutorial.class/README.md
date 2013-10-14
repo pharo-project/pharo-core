@@ -1,0 +1,1 @@
+A TutorialPlayerTestWithMockTutorial is xxxxxxxxx.Instance Variables	player:		<Object>player	- xxxxx

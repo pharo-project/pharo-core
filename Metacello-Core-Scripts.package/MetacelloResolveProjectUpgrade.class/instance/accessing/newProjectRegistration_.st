@@ -1,0 +1,2 @@
+newProjectRegistration: anObject
+	newProjectRegistration := anObject

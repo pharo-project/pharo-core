@@ -1,3 +1,3 @@
 for: aProject
-
-	project := aProject
+    self shouldBeMutable.
+    project := aProject

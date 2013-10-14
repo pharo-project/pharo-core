@@ -1,0 +1,1 @@
+A MetacelloBaselineSpecGenerator is xxxxxxxxx.

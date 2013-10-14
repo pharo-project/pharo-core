@@ -1,1 +1,1 @@
-A MetacelloMCProjectSpec is xxxxxxxxx.Instance Variables	projectPackage:		<Object>projectPackage	- xxxxx
+A MetacelloMCProjectSpec is xxxxxxxxx.Instance Variables	file:		<Object>file	- xxxxx

@@ -1,0 +1,2 @@
+singletonVersionName
+    ^ self class singletonVersionName

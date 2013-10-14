@@ -1,0 +1,1 @@
+A MetacelloDictionaryRepositoryTest is xxxxxxxxx.Instance Variables	tempRepositories:		<Object>tempRepositories	- xxxxx

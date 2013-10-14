@@ -1,3 +1,2 @@
 project: aString
-
-	self project: aString with: ''
+    self root project: aString constructor: self

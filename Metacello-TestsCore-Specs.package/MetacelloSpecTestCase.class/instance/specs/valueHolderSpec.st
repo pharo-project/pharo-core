@@ -1,0 +1,2 @@
+valueHolderSpec
+    ^ self project valueHolderSpec

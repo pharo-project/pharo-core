@@ -1,0 +1,3 @@
+masterProject
+
+	^MetacelloVersionQueryMasterConfig new project

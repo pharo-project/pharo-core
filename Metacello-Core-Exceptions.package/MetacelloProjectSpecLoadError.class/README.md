@@ -1,1 +1,0 @@
-A MetacelloProjectSpecLoadError is xxxxxxxxx.Instance Variables	projectSpec:		<Object>projectSpec	- xxxxx

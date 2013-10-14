@@ -6,6 +6,6 @@ setFor: attributeList do: aBlock
             | blockList |
             blockList := self attributeMap
                 at: attribute
-                ifAbsentPut: [ OrderedCollection new ].
-            blockList add: aBlock .
+                ifAbsent: [ self attributeMap at: attribute put: (blockList := OrderedCollection new) ].
+            blockList add: aBlock.
             self addAttribute: attribute ]

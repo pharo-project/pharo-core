@@ -1,0 +1,2 @@
+projectPath: anObject
+	projectPath := anObject

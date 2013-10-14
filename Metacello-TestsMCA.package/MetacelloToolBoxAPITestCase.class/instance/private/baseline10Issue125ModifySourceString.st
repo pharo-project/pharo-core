@@ -1,0 +1,54 @@
+baseline10Issue125ModifySourceString
+    ^ 'baseline100: spec
+	<version: ''1.0-baseline''>
+
+	spec for: #''common'' do: [
+		spec blessing: #''baseline''.
+		spec repository: ''dictionary://Metacello_Dev_Cycle_Repository''.
+		spec project: ''MetacelloTestConfigurationOfFoo'' with: [
+				spec
+					className: ''MetacelloTestConfigurationOfFoo'';
+					versionString: #''bleedingEdge'';
+					repository: ''dictionary://Metacello_Dev_Cycle_Repository'' ].
+		spec 
+			package: ''GeauxFaux'' with: [
+				spec requires: #(''MetacelloTestConfigurationOfFoo'' ). ];
+			package: ''GeauxBeau'' with: [
+				spec requires: #(''GeauxFaux'' ). ].
+		spec 
+			group: ''default'' with: #(''Core'' );
+			group: ''Core'' with: #(''GeauxFaux'' );
+			group: ''Tests'' with: #(''GeauxBeau'' );
+			group: ''Core Tests'' with: #(''Core'' ''Tests'' ). ].
+
+	spec for: #(#''pharo1.0.x'' #''pharo1.3.x'' ) do: [
+		spec blessing: #''baseline''.
+		spec 
+			package: ''GeauxFaux'' with: [
+				spec 
+					requires: #(''GoferFoo'' );
+					includes: #(''GoferFaux'' );
+					repository: ''http://www.squeaksource.com/CommandShell''. ];
+			package: ''GeauxBeau'' with: [
+				spec requires: #(''GeauxFaux'' ). ];
+			package: ''GoferBar'' with: [
+				spec 
+					repositories: [
+						spec
+							repository: ''http://example.com/repo1'';
+							repository: ''http://example.com/repo2'' ];
+					preLoadDoIt: #''preloadGoferBar''. ];
+			package: ''GoferBeau'' with: [
+				spec 
+					supplyingAnswers: #( #( ''list of packages'' ''Kernel* Collection*'' ) );
+					file: ''GoferBeau.pharo'';
+					postLoadDoIt: #''postloadGoferBar''. ];
+			package: ''GoferFaux'' with: [
+				spec repository: ''http://example.com/repo2''. ];
+			package: ''GoferFoo''.
+		spec 
+			group: ''default'' with: #(''Core'' );
+			group: ''Core'' with: #(''GeauxFaux'' );
+			group: ''Tests'' with: #(''GeauxBeau'' );
+			group: ''Core Tests'' with: #(''Core'' ''Tests'' ). ].
+'

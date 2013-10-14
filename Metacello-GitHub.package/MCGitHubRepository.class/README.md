@@ -1,0 +1,1 @@
+A MCGitHubRepository is xxxxxxxxx.Instance Variables	projectPath:		<Object>	projectVersion:		<Object>	repoPath:		<Object>projectPath	- xxxxxprojectVersion	- xxxxxrepoPath	- xxxxx

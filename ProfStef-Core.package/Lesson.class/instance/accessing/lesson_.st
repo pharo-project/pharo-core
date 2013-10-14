@@ -1,0 +1,2 @@
+lesson: aString
+	lesson := aString

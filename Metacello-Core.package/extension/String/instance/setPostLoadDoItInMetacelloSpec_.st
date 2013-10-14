@@ -1,0 +1,2 @@
+setPostLoadDoItInMetacelloSpec: aMetacelloSpec
+    self asSymbol setPostLoadDoItInMetacelloSpec: aMetacelloSpec

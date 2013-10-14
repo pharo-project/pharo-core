@@ -1,0 +1,2 @@
+blueplane: projectName
+    self repository: 'http://squeaksource.blueplane.jp/' , projectName

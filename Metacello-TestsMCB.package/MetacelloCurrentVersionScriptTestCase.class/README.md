@@ -1,0 +1,1 @@
+**MetacelloCurrentVersionScriptTestCase** takes the **MetacelloCurrentVersionTest** test cases and casts them use the scripting api

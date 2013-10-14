@@ -1,0 +1,2 @@
+determineCurrentVersionForLoad
+    self subclassResponsibility

@@ -1,0 +1,2 @@
+operationString
+    self subclassResponsibility

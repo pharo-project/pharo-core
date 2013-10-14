@@ -1,0 +1,1 @@
+A MetacelloScriptingFetchRecordTestCase is xxxxxxxxx.

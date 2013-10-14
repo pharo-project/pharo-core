@@ -1,0 +1,1 @@
+A MetacelloScriptingRegistryTestCase is xxxxxxxxx.

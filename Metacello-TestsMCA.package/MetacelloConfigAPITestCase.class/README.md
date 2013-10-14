@@ -1,0 +1,1 @@
+A MetacelloConfigAPITestCase is xxxxxxxxx.Instance Variables	alternatePreLoadExecuted:		<Object>	postLoadExecuted:		<Object>	postloadAnswer:		<Object>	preLoadExecuted:		<Object>	preloadAnswer:		<Object>alternatePreLoadExecuted	- xxxxxpostLoadExecuted	- xxxxxpostloadAnswer	- xxxxxpreLoadExecuted	- xxxxxpreloadAnswer	- xxxxx

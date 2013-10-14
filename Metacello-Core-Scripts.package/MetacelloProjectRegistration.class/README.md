@@ -1,0 +1,1 @@
+A MetacelloProjectRegistration is xxxxxxxxx.Instance Variables	baselineProjectSpec:		<Object>	configurationProjectSpec:		<Object>	loadedInImage:		<Object>	locked:		<Object>	mutable:		<Object>	projectName:		<Object>baselineProjectSpec	- xxxxxconfigurationProjectSpec	- xxxxxloadedInImage	- xxxxxlocked	- xxxxxmutable	- xxxxxprojectName	- xxxxx

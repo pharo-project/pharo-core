@@ -1,0 +1,1 @@
+A MetacelloAlternateResource is xxxxxxxxx.Instance Variables	monticelloRepository:		<Object>	versionReferences:		<Object>monticelloRepository	- xxxxxversionReferences	- xxxxx

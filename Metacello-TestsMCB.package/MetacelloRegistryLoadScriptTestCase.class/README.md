@@ -1,0 +1,1 @@
+MetacelloRegistryLoadScriptTestCase has the test cases that exihibit the different load behavior (as expected) by the scripting api

@@ -1,3 +1,2 @@
 version: anObject
-
-	self root versionString: anObject
+    self root version: anObject constructor: self

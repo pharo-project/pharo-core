@@ -1,3 +1,2 @@
 project
-
-	^self spec project
+    ^ self basicSpec project

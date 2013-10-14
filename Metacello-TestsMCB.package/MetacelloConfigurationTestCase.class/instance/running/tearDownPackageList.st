@@ -1,0 +1,2 @@
+tearDownPackageList
+    ^ #('ConfigurationOfInvalidConfigurations' 'ConfigurationOfExternal')

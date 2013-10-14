@@ -1,0 +1,1 @@
+A SmalltalkSyntaxTutorialTest is xxxxxxxxx.

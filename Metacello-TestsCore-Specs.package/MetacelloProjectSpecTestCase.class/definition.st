@@ -1,0 +1,5 @@
+MetacelloSpecTestCase subclass: #MetacelloProjectSpecTestCase
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Metacello-TestsCore-Specs'

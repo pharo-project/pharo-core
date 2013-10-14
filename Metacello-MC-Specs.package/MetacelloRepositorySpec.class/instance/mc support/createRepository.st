@@ -1,3 +1,4 @@
 createRepository
-
-	^self project createRepository: self 
+    | repo |
+    repo := self project createRepository: self.
+    ^ MCRepositoryGroup default repositories detect: [ :each | each = repo ] ifNone: [ repo ]

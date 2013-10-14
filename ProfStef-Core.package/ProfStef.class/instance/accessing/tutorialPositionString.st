@@ -1,0 +1,2 @@
+tutorialPositionString
+	^ player tutorialPosition asString.

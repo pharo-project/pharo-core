@@ -1,3 +1,2 @@
 projectLabel
-
-	^self spec projectLabel
+    ^ self basicSpec projectLabel

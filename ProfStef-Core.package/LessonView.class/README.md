@@ -1,0 +1,1 @@
+A LessonView displays a Lesson instance

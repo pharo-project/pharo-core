@@ -1,9 +1,2 @@
 group: aString with: aStringOrCollection
-
-	| spec |
-	spec := 
-		(self project groupSpec)
-			name: aString;
-			includes: aStringOrCollection;
-			yourself.
-	self root packages merge: spec.
+    self root group: aString with: aStringOrCollection constructor: self

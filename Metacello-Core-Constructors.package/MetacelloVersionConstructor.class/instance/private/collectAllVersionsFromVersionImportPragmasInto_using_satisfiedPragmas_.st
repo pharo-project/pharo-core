@@ -15,6 +15,7 @@ collectAllVersionsFromVersionImportPragmasInto: versionMap using: executionBlock
                     | versionSpec |
                     versionSpec := nil.
                     defined := false.
+                    [ 
                     pragmaColl
                         do: [ :pragma | 
                             (completed includes: pragma)
@@ -36,7 +37,15 @@ collectAllVersionsFromVersionImportPragmasInto: versionMap using: executionBlock
                                                                 ifTrue: [ versionSpec := version spec copy ]
                                                                 ifFalse: [ versionSpec := versionSpec mergeSpec: version spec copy ].
                                                             versionSpec versionString: versionString.
-                                                            executionBlock value: versionSpec value: pragma ] ] ] ] ].
+                                                            executionBlock value: versionSpec value: pragma ] ] ] ] ] ]
+                        on: Error
+                        do: [ :ex | 
+                            (MetacelloErrorInProjectConstructionNotification versionString: versionSpec versionString exception: ex)
+                                ifTrue: [ ^ ex pass ]
+                                ifFalse: [ 
+                                    self errorMap at: versionSpec versionString put: ex.
+                                    done := true.
+                                    defined := false ] ].
                     defined
                         ifTrue: [ 
                             | version importedVersions |

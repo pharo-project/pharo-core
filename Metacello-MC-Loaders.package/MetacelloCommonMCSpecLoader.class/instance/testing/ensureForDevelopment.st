@@ -1,3 +1,2 @@
 ensureForDevelopment
-
-	^true
+  ^ true

@@ -1,3 +1,4 @@
 commentForCurrentUpdate
- ^ '11865 Fixing Author annoying resetting behavior
-	https://pharo.fogbugz.com/f/cases/11865'
+ ^ '10821 Integrate Metacello 2
+	https://pharo.fogbugz.com/f/cases/10821
+'

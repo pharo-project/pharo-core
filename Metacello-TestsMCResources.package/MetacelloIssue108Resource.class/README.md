@@ -1,0 +1,1 @@
+A MetacelloIssue108Resource is xxxxxxxxx.Instance Variables	monticelloRepository:		<Object>	versionReferences:		<Object>monticelloRepository	- xxxxxversionReferences	- xxxxx

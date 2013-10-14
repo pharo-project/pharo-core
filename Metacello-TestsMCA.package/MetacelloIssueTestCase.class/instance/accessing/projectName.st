@@ -1,0 +1,2 @@
+projectName
+    ^ self subclassResponsibility

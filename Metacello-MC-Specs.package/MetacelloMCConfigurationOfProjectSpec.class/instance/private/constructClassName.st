@@ -1,0 +1,2 @@
+constructClassName
+    ^ 'ConfigurationOf' , self name

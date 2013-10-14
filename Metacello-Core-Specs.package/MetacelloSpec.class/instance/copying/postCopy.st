@@ -1,4 +1,5 @@
 postCopy
-
-	super postCopy.
-	loader ~~ nil  ifTrue: [ self loader: loader ]
+    super postCopy.
+    mutable := nil.
+    loader ~~ nil
+        ifTrue: [ self loader: loader ].

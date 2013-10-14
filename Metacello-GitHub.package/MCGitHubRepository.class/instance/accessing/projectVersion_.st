@@ -1,0 +1,2 @@
+projectVersion: anObject
+    projectVersion := anObject

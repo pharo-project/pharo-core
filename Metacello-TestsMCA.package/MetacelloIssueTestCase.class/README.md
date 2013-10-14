@@ -1,0 +1,1 @@
+A MetacelloIssueTestCase is xxxxxxxxx.Instance Variables	gofer:		<Object>gofer	- xxxxx

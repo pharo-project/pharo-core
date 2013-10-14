@@ -1,0 +1,2 @@
+lesson
+	^ lesson ifNil: [lesson := '']

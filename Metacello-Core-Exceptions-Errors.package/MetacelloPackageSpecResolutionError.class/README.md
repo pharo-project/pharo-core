@@ -1,0 +1,1 @@
+A MetacelloPackageSpecResolutionError is xxxxxxxxx.Instance Variables	packageSpec:		<Object>	repositories:		<Object>	repositoryError:		<Object>packageSpec	- xxxxxrepositories	- xxxxxrepositoryError	- xxxxx

@@ -1,0 +1,1 @@
+A MetacelloScriptingError is xxxxxxxxx.

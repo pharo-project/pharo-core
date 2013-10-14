@@ -1,0 +1,1 @@
+A MetacelloScriptGitHubDownloadNotification is xxxxxxxxx.Instance Variables	projectPath:		<Object>	versionString:		<Object>projectPath	- xxxxxversionString	- xxxxx

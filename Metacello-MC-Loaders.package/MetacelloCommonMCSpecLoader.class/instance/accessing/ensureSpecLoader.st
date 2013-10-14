@@ -1,0 +1,2 @@
+ensureSpecLoader
+	^ self

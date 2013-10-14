@@ -1,0 +1,1 @@
+A MetacelloScriptRegistryExecutor is xxxxxxxxx.

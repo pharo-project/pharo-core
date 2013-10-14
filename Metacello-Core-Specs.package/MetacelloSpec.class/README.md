@@ -1,1 +1,1 @@
-A MetacelloSpec is xxxxxxxxx.Instance Variables	loader:		<Object>	project:		<Object>loader	- xxxxxproject	- xxxxx
+A MetacelloSpec is xxxxxxxxx.Instance Variables	loader:		<Object>	mutable:		<Object>	project:		<Object>loader	- xxxxxmutable	- xxxxxproject	- xxxxx

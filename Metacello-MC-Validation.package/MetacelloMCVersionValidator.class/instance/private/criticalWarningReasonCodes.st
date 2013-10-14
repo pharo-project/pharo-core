@@ -1,3 +1,3 @@
 criticalWarningReasonCodes
 	^ super criticalWarningReasonCodes
-		, #(#noLoadableVersions #noTests #testDeprecation #loadDeprecation #noVersionSpecified)
+		, #(#noLoadableVersions #noTests #testDeprecation #loadDeprecation #noVersionSpecified #'missingRecommendedProjectSpecField' )

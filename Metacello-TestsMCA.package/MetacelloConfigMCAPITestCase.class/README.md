@@ -1,0 +1,1 @@
+A MetacelloConfigMCAPITestCase is xxxxxxxxx.

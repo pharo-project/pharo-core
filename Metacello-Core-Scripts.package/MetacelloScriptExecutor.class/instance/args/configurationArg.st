@@ -1,0 +1,2 @@
+configurationArg
+    ^ configurationArg

@@ -1,8 +1,4 @@
 projectPackage: aBlock
+    "projectPackage spec data folded into project spec"
 
-	| spec |
-	(spec := self root projectPackage) == nil
-		ifTrue: [ 
-			spec := self project packageSpec.
-			self root projectPackage: spec ].
-	self with: spec during: aBlock
+    self root projectPackage: aBlock constructor: self

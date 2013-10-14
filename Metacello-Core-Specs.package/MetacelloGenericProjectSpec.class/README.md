@@ -1,0 +1,1 @@
+A MetacelloGenericProjectSpec is xxxxxxxxx.Instance Variables	projectPackage:		<Object>	repositories:		<Object>projectPackage	- xxxxxrepositories	- xxxxx

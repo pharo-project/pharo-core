@@ -1,0 +1,1 @@
+A MetacelloProjectSpecGenerator is xxxxxxxxx.Instance Variables	target:		<Object>target	- xxxxx

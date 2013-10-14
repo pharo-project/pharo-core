@@ -1,3 +1,0 @@
-repository
-	
-	^self projectPackage packageRepository

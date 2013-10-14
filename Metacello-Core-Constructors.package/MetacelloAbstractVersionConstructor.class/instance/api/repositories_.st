@@ -1,3 +1,2 @@
 repositories: aBlock
-
-	self with: self root repositories during: aBlock
+    self root repositories: aBlock constructor: self

@@ -1,0 +1,2 @@
+operationString: aString
+  operationString := aString

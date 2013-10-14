@@ -1,0 +1,1 @@
+**MetacelloGoferBasedLoaderScriptTestCase** takes the **MetacelloGoferBasedLoaderTest** test cases and casts them use the scripting api

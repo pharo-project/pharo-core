@@ -1,0 +1,1 @@
+A MetacelloRepositorySpecTestCase is xxxxxxxxx.

@@ -14,6 +14,6 @@ projectPackage
 				ifNone: [ 
 					Transcript cr; show: 'Using cache repository for ', self label, ' project package'.
 					MCCacheRepository default ].
-			pkgSpec repository: repo description.
+			pkgSpec repository: (repo asRepositorySpecFor: self).
 			^pkgSpec].
 	^nil

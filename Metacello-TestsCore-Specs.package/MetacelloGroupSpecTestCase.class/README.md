@@ -1,0 +1,1 @@
+A MetacelloGroupSpecTestCase is xxxxxxxxx.

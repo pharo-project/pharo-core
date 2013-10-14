@@ -1,0 +1,1 @@
+A MetacelloCoreSymbolicVersionTest is xxxxxxxxx.

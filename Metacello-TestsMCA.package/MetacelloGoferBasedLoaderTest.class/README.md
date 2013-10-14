@@ -1,0 +1,1 @@
+A MetacelloGoferBasedLoaderTest is xxxxxxxxx.Instance Variables	postLoadExecuted:		<Object>	postloadAnswer:		<Object>	preLoadExecuted:		<Object>postLoadExecuted	- xxxxxpostloadAnswer	- xxxxxpreLoadExecuted	- xxxxx

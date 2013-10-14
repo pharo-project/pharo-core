@@ -1,0 +1,1 @@
+A MetacelloConfigurationSpecGenerator is xxxxxxxxx.

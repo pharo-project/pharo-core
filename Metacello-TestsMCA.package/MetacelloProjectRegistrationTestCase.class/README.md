@@ -1,0 +1,1 @@
+A MetacelloProjectRegistrationTestCase is xxxxxxxxx.

@@ -1,5 +1,5 @@
 MetacelloSpecLoader subclass: #MetacelloCommonMCSpecLoader
 	instanceVariableNames: 'operator loaderPolicy disablePackageCache'
-	classVariableNames: ''
+	classVariableNames: 'RetryPackageResolution'
 	poolDictionaries: ''
 	category: 'Metacello-MC-Loaders'

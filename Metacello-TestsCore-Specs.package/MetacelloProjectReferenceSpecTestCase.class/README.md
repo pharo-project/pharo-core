@@ -1,0 +1,1 @@
+A MetacelloProjectReferenceSpecTestCase is xxxxxxxxx.

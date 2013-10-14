@@ -20,6 +20,6 @@ savePackageUsing: repositorySpecs
 							'Do you really want to save this version?') ifFalse: [ ^false ]] ] 
 				on: Error 
 				do: [:ignored | ^false ] ].
-	(newVersion :=  (wc newVersionIn: repo)) == nil ifTrue: [ ^false ].
+	(newVersion :=  MetacelloPlatform current newVersionForWorkingCopy: wc) == nil ifTrue: [ ^false ].
 	repo storeVersion: newVersion.
 	^true

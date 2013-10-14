@@ -1,0 +1,3 @@
+atomicConfigurationRepository
+
+	^MetacelloAtomicConfigurationResource current monticelloRepository

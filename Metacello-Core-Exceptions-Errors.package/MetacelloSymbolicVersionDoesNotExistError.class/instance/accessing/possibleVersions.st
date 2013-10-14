@@ -1,0 +1,2 @@
+possibleVersions
+    ^ self project symbolicVersionSymbols

@@ -1,0 +1,2 @@
+baselineOfVersionSpecClass
+    ^ self subclassResponsibility

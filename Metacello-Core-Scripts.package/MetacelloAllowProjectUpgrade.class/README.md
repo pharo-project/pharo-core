@@ -1,0 +1,1 @@
+A MetacelloAllowProjectUpgrade is xxxxxxxxx.

@@ -1,0 +1,2 @@
+versionClass
+    ^ MetacelloSemanticVersionNumber

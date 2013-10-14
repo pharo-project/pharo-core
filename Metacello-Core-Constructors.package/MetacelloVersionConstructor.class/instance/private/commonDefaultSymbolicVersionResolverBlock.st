@@ -1,2 +1,2 @@
 commonDefaultSymbolicVersionResolverBlock
-	^ self defaultSymbolicVersionResolverBlock: (MetacelloBaseConfiguration new project: self project)
+	^ self defaultSymbolicVersionResolverBlock: (ConfigurationOf new project: self project)

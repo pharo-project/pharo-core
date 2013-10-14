@@ -1,0 +1,1 @@
+A MetacelloResolveProjectUpgrade is xxxxxxxxx.Instance Variables	existingProjectRegistration:		<Object>	newProjectRegistration:		<Object>existingProjectRegistration	- xxxxxnewProjectRegistration	- xxxxx

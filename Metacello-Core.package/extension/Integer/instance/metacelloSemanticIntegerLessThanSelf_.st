@@ -1,0 +1,2 @@
+metacelloSemanticIntegerLessThanSelf: anInteger
+    ^ anInteger < self

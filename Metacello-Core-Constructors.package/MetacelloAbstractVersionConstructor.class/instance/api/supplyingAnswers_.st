@@ -1,3 +1,2 @@
 supplyingAnswers: aCollection
-
-	self root answers: aCollection
+    self root supplyingAnswers: aCollection constructor: self

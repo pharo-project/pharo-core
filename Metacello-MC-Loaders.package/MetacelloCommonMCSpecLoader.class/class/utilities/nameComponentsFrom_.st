@@ -1,7 +1,6 @@
 nameComponentsFrom: aVersionName
 	| ar |
-	ar := (aVersionName last isDigit and: [ (aVersionName indexOf: $.) > 0 ])
-		ifFalse: [Array with: aVersionName with: '' with: 0 with: aVersionName with: self]
+	ar := (aVersionName last isDigit and: [ (aVersionName indexOf: $.) > 0 ])ifFalse: [Array with: aVersionName with: '' with: 0 with: aVersionName with: self]
 		ifTrue: [ | vrsn str |
 			str := ((aVersionName copyAfterLast: $-) copyAfterLast: $.).
 			vrsn := str isEmpty

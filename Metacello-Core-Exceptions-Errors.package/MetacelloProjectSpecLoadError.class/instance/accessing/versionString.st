@@ -1,0 +1,2 @@
+versionString
+    ^ self versionDoesNotExistException versionString

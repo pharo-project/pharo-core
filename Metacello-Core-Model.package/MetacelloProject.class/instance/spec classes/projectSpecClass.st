@@ -1,3 +1,2 @@
 projectSpecClass
-
-	^self subclassResponsibility
+    ^ MetacelloProjectSpec

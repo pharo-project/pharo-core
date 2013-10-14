@@ -1,2 +1,0 @@
-projectPackage
-	^ projectPackage

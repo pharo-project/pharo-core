@@ -1,0 +1,2 @@
+timestampForVersion: aBlockOrStringOrDateAndTime
+    aBlockOrStringOrDateAndTime setTimestampInMetacelloConfig: self

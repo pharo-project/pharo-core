@@ -1,0 +1,2 @@
+versionNumberClass: aClass
+    versionNumberClass := aClass
