@@ -1,5 +1,3 @@
 commentForCurrentUpdate
- ^ '11014 Remove old Debugger
-	https://pharo.fogbugz.com/f/cases/11014/
-	
-	'
+ ^ '11865 Fixing Author annoying resetting behavior
+	https://pharo.fogbugz.com/f/cases/11865'

@@ -1,2 +1,0 @@
-tearDown
-	Author uniqueInstance: author
