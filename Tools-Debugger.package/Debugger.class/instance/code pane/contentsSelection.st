@@ -1,3 +1,0 @@
-contentsSelection
-
-	^ self pcRange

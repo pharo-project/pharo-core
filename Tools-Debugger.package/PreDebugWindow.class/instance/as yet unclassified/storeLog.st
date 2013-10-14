@@ -1,2 +1,0 @@
-storeLog
-	model storeLog

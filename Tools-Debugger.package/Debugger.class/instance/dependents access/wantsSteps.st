@@ -1,3 +1,0 @@
-wantsSteps
- 
-	^ true

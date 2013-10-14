@@ -1,2 +1,0 @@
-spawnSpecDebugger
-	model spawnSpecDebugger

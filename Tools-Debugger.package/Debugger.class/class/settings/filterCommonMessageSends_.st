@@ -1,2 +1,0 @@
-filterCommonMessageSends: aBoolean
-	FilterCommonMessageSends := aBoolean

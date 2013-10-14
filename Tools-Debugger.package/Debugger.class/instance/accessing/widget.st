@@ -1,2 +1,0 @@
-widget
-	^ widget

@@ -1,2 +1,0 @@
-widget: aUIWidget
-	widget := aUIWidget

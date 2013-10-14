@@ -1,3 +1,0 @@
-tally
-
-	self getTextMorph tallyIt.
