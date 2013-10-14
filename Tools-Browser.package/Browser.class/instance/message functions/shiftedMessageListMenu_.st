@@ -21,7 +21,5 @@ shiftedMessageListMenu: aMenu
 		 #(('Show category (C)'						showHomeCategory))].
 	aMenu addList: #(
 		-
-		('Copy up or copy down...'				copyUpOrCopyDown)
-		-
 		('More...' 								unshiftedYellowButtonActivity)).
 	^ aMenu

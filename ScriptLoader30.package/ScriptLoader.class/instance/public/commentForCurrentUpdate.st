@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '11856 Some trivial critic changes related to ifNotNil:
-	https://pharo.fogbugz.com/f/cases/11856
+ ^ '11864 More cleanups in SystemNavigation
+	https://pharo.fogbugz.com/f/cases/11864
 	
-11861 Deprecated #browseAllCallsOn:, use #browseAllSendersOf:
-	https://pharo.fogbugz.com/f/cases/11861
-	
-11857 add #cleanUp to SystemProgressMorph to reset singleton
-	https://pharo.fogbugz.com/f/cases/11857'
+11868 Fixing users DNU on CS dropping on desktop
+	https://pharo.fogbugz.com/f/cases/11868'
