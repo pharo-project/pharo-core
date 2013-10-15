@@ -1,2 +1,2 @@
 testAllParameters
-	self assert: self commandLine arguments equals: self parameters
+	self assertCollection: self commandLine arguments equals: self parameters

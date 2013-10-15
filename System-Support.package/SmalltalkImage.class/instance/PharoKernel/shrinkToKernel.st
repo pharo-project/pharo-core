@@ -1,4 +1,0 @@
-shrinkToKernel
-
-	self shrinkToKernelWith: #().
-	

@@ -1,2 +1,2 @@
 testBytecode
-	self assert: (Object>>#halt) bytecode equals:  #[64 209 135 120]
+	self assertCollection: (Object>>#halt) bytecode equals:  #[64 209 135 120]
