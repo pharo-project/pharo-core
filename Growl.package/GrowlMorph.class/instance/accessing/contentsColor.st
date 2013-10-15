@@ -1,3 +1,2 @@
 contentsColor
-
-	^ self theme growlContentsColorFor: self
+	^ contentsColor ifNil: [ contentsColor := self theme growlContentsColorFor: self ]

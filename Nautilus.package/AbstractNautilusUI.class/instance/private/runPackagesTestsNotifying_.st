@@ -11,10 +11,10 @@ runPackagesTestsNotifying: aBoolean
 			aBoolean
 				ifTrue: [ 
 					| color |
-					(classes anySatisfy:[:e  | e hasPassedTest ]) ifTrue: [ color :=  Color green ].
-					(classes anySatisfy:[:e  | e hasFailedTest ]) ifTrue: [ color :=  Color yellow ].
-					(classes anySatisfy:[:e  | e hasErrorTest ]) ifTrue: [ color :=  Color red ].
+					(classes anySatisfy:[:e  | e hasPassedTest ]) ifTrue: [ color := Color green ].
+					(classes anySatisfy:[:e  | e hasFailedTest ]) ifTrue: [ color := Color yellow ].
+					(classes anySatisfy:[:e  | e hasErrorTest ]) ifTrue: [ color := Color red ].
 					self 
 						notifyTitle: 'Test Finished'
-						contents: label,((packages collect: #name) joinUsing: ', ')
+						contents: label , ((packages collect: #name) joinUsing: ', ')
 						color: color ]].

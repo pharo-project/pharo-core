@@ -5,4 +5,4 @@ selectionColor
 	Display depth = 2 ifTrue: [^ Color gray].
 	^self autoSelectionColor
 		ifTrue: [self derivedSelectionColor]
-		ifFalse: [selectionColor ifNil: [selectionColor := TranslucentColor r: 0.0 g: 0.0 b: 0.8 alpha: 0.25]]
+		ifFalse: [selectionColor ifNil: [selectionColor := Color r: 0.0 g: 0.0 b: 0.8 alpha: 0.25]]

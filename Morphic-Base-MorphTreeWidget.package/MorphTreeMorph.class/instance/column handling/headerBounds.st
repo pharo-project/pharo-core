@@ -17,6 +17,6 @@ headerBounds
 			].
 	self columnResizers size < self columns size ifTrue: [
 		currLeft := currPos + self resizerWidth .
-		controlBounds add: (currLeft @ topHeader top corner: (scroller right) @ topHeader bottom)].
+		controlBounds add: ( (currLeft min: scroller right) @ topHeader top corner: (scroller right) @ topHeader bottom)].
 	^ controlBounds 
 	

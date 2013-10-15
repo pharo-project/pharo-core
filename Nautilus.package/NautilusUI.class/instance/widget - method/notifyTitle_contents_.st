@@ -1,5 +1,5 @@
 notifyTitle: title contents: contents
 
 	 GrowlMorph 
-				openWithLabel: title
-				contents: contents
+		openWithLabel: title
+		contents: contents

@@ -24,5 +24,5 @@ selectionRectsFrom: characterBlock1 to: characterBlock2
 			ifFalse: [ "differing margins; cannot merge"
 					rects add: line rectangle ] ].
 
-	rects addLast: ((lines at: line2) topLeft corner: cb2 bottomLeft).
+	rects addLast: ((lines at: line2) topLeft rectangle: cb2 bottomLeft).
 	^ rects

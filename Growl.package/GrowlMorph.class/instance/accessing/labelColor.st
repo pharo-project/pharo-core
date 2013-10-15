@@ -1,2 +1,2 @@
 labelColor
-	^ self theme growlLabelColorFor: self
+	^ labelColor ifNil: [ labelColor := self theme growlLabelColorFor: self ]
