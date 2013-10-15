@@ -44,7 +44,7 @@ handleTimerEvent
 	"Since we have processed all outstanding requests, reset the timing semaphore so
 	that only new work will wake us up again. Do this RIGHT BEFORE setting the next
 	wakeup call from the VM because it is only signaled once so we mustn't miss it."
-	TimingSemaphore initSignals.
+	TimingSemaphore consumeAllSignals.
 	Delay primSignal: TimingSemaphore atMilliseconds: nextTick.
 
 	"This last test is necessary for the obscure case that the msecs clock rolls over
