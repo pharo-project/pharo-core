@@ -1,5 +1,2 @@
 startUp
-	World
-		ifNotNil: [ 
-			World restoreMorphicDisplay.
-			World triggerEvent: #aboutToEnterWorld ]
+	World ifNotNil: [:world | world restoreMorphicDisplay]

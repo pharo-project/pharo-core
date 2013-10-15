@@ -1,2 +1,2 @@
 shutDown
-	World ifNotNil: [ World triggerEvent: #aboutToLeaveWorld ]
+	World ifNotNil: [:world | world triggerEvent: #aboutToLeaveWorld ]

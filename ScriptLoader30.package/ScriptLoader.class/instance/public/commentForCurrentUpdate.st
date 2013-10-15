@@ -1,14 +1,9 @@
 commentForCurrentUpdate
- ^ '
-issue	11867: 
-GrowlEnhancements so that we can see the text when Sunit is running
-	https://pharo.fogbugz.com/f/cases/11867
+ ^ '11883 Clean 2 classes from Startup and Shutdownlist each
+	https://pharo.fogbugz.com/f/cases/11883
 	
-issue 	11866
-	More Degenerated Rectangle fixed
-		https://pharo.fogbugz.com/f/cases/11866
-		
-issue 	11519
-		Merge Color and Translucent Color (part 1)
-		Just the little improvements first
-		https://pharo.fogbugz.com/f/cases/11519'
+11884 Remove global ImageImports
+	https://pharo.fogbugz.com/f/cases/11884
+	
+11882 Small cleanup in Manifest
+	https://pharo.fogbugz.com/f/cases/11882'
