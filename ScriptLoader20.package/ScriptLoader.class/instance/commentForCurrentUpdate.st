@@ -1,7 +1,10 @@
 public
 commentForCurrentUpdate
- ^ '11639 Backport Pharo2.0: Memory leak when using weak announcements with blocks
-	https://pharo.fogbugz.com/f/cases/11639
-
-(pass 2/2)
-'
+ ^ '11872 PreferenceStartup raises an exception on StackVM 2.0 Version On Raspberry
+	https://pharo.fogbugz.com/f/cases/11872
+	
+11853 Inst Var Pull Up does not work
+	https://pharo.fogbugz.com/f/cases/11853
+	
+11859 Backport 2.0: Issue 11549 PluggableTextMorph closes completion menu on keydown
+	https://pharo.fogbugz.com/f/cases/11859'

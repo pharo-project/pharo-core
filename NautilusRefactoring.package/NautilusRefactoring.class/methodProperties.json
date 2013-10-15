@@ -87,7 +87,7 @@
 		"privateMoveMethodFor:" : "",
 		"privateMoveVariableDefinitionBetween:from:" : "",
 		"privatePullUpClassVarFrom:" : "",
-		"privatePullUpInstVarFrom:" : "",
+		"privatePullUpInstVarFrom:" : "SeanDeNigris 10/11/2013 13:29",
 		"privatePullUpMethodsFor:" : "",
 		"privatePushDownClassVarFrom:" : "",
 		"privatePushDownInstVarFrom:" : "",

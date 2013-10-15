@@ -5,4 +5,4 @@ privatePullUpInstVarFrom: aClass
 		RBPullUpInstanceVariableRefactoring 
 			model: environment
 			variable: variable
-			class: class ]
+			class: class superclass ]
