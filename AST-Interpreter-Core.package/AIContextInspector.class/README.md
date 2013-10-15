@@ -1,1 +1,0 @@
-Permits to inspect the stack of contexts while inspecting a context in the Pharo inspector. Was used before the ASTDebugger was implemented.

@@ -1,1 +1,0 @@
-A BasicInspector is xxxxxxxxx.

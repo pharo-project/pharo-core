@@ -1,1 +1,0 @@
-An OrderedCollectionInspector is xxxxxxxxx.
