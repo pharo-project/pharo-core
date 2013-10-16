@@ -1,1 +1,0 @@
-A MetacelloHTTPRepositoryLoadTestCase is xxxxxxxxx.Instance Variables	gofer:		<Object>gofer	- xxxxx

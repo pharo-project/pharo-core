@@ -1,1 +1,0 @@
-A MetacelloConfigurationTestCase is xxxxxxxxx.

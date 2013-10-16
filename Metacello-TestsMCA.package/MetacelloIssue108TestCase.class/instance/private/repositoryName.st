@@ -1,3 +1,0 @@
-repositoryName
-
-	^#'Metacello_Repository'

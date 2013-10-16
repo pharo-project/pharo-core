@@ -1,1 +1,0 @@
-A MetacelloScriptingLockTestCase is xxxxxxxxx.

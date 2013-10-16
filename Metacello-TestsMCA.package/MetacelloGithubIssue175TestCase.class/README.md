@@ -1,1 +1,0 @@
-A MetacelloGithubIssue175TestCase is xxxxxxxxx.

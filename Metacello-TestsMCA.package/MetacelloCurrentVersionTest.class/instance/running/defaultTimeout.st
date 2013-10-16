@@ -1,3 +1,0 @@
-defaultTimeout
-
-	^MetacelloPlatform current defaultTimeout

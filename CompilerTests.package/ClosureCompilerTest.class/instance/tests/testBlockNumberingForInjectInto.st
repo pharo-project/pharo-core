@@ -7,7 +7,7 @@ testBlockNumberingForInjectInto
 						encoderClass: EncoderForV3PlusClosures;
 						parse: (Collection sourceCodeAt: #inject:into:)
 						class: Collection.
-	method := methodNode generate.
+	method := methodNode generateWithSource.
 	tempRefs := methodNode encoder blockExtentsToTempsMap.
 	self assert: tempRefs keys asSet = (method debuggerMap startpcsToBlockExtents: method) values asSet.
 	self assert: ((tempRefs includesKey: (0 to: 6))

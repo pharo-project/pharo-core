@@ -1,1 +1,0 @@
-A MetacelloPlatformAttributesTestCase is xxxxxxxxx.

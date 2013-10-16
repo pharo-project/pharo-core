@@ -1,3 +1,0 @@
-preloadForCore
-
-	preLoadExecuted := true

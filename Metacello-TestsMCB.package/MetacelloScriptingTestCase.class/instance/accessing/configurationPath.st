@@ -1,2 +1,0 @@
-configurationPath
-    ^ 'metacello-tests/configuration'

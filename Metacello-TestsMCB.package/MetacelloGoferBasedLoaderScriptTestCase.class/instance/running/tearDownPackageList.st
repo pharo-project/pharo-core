@@ -1,2 +1,0 @@
-tearDownPackageList
-    ^ #('GoferFoo' 'GoferBar' 'GoferFaux' 'GoferBeau' 'MetacelloTestConfigurationOfFoo' 'GeauxBar' 'GeauxBeau' 'MetacelloTestConfigurationOfFix' 'MetacelloTestConfigurationOfIssue77B' 'MetacelloTestConfigurationOfIssue77C' 'MetacelloTestConfigurationOfIssue77D' 'MetacelloTestConfigurationOfProjectLoop' 'MetacelloTestConfigurationOfProjectInfinite' 'MetacelloTestConfigurationOfProjectIssue95' 'MetacelloTestConfigurationOfProjectToolBox')

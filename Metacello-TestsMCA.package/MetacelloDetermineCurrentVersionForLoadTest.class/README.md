@@ -1,1 +1,0 @@
-A MetacelloDetermineCurrentVersionForLoadTest is xxxxxxxxx.

@@ -1,1 +1,0 @@
-A MetacelloGoferPackageTestCase is xxxxxxxxx.

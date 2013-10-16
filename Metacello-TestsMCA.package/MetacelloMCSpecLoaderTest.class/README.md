@@ -1,1 +1,0 @@
-A MetacelloMCSpecLoaderTest is xxxxxxxxx.

@@ -1,1 +1,0 @@
-A MetacelloSymbolicVersionTest is xxxxxxxxx.

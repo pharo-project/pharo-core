@@ -1,1 +1,0 @@
-A MetacelloScriptingStandardTestHarness is xxxxxxxxx.Instance Variables	configurationRepository:		<Object>	monticelloRepository:		<Object>	registry:		<Object>configurationRepository	- xxxxxmonticelloRepository	- xxxxxregistry	- xxxxx

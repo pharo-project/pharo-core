@@ -1,1 +1,0 @@
-A MetacelloIssue188TestCase is xxxxxxxxx.

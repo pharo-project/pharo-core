@@ -1,2 +1,0 @@
-samplePath
-    ^ 'metacello-tests/sample'

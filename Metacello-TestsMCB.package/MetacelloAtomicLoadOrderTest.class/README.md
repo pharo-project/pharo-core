@@ -1,1 +1,0 @@
-A MetacelloAtomicLoadOrderTest is xxxxxxxxx.Instance Variables	loadType:		<Object>loadType	- xxxxx

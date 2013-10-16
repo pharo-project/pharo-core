@@ -1,1 +1,0 @@
-A MetacelloBasicScriptingTestCase is xxxxxxxxx.

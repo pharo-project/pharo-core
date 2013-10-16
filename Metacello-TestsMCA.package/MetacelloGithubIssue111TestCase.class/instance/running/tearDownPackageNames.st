@@ -1,2 +1,0 @@
-tearDownPackageNames
-    ^ {'ConfigurationOfIssue111'}

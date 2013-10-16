@@ -1,1 +1,0 @@
-A MetacelloScriptingErrorsTestCase is xxxxxxxxx.

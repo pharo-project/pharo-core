@@ -94,11 +94,6 @@ changeListMenu: aBuilder
 		help: 'Open a message-list browser showing the current (in-image) counterparts of the selected methods';
 		target: target;
 		selector: #browseCurrentVersionsOfSelections.
-	(aBuilder item: #'Destroy current methods of selections')
-		help: 'Remove (*destroy*) the in-image counterparts of all selected methods';
-		target: target;
-		selector: #destroyCurrentCodeOfSelections;
-		withSeparatorAfter.
 		
 	(aBuilder item: #'Remove doIts')
 		help: 'Remove all items that are doIts rather than methods';

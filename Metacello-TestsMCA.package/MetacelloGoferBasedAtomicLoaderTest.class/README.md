@@ -1,1 +1,0 @@
-A MetacelloGoferBasedAtomicLoaderTest is xxxxxxxxx.

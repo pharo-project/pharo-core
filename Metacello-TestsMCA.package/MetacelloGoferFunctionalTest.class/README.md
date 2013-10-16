@@ -1,1 +1,0 @@
-A MetacelloGoferFunctionalTest is xxxxxxxxx.

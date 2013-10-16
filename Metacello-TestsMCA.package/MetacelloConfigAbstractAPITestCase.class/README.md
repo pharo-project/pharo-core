@@ -1,1 +1,0 @@
-A MetacelloConfigAbstractAPITestCase is xxxxxxxxx.

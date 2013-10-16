@@ -1,3 +1,0 @@
-fullConfigurationNameList
-
-	^self configurationNameList, #('MetacelloTestConfigurationOfProjectToolBox')

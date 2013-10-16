@@ -1,3 +1,0 @@
-loadType
-
-	^#atomic

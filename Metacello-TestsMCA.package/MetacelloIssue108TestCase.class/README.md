@@ -1,1 +1,0 @@
-A MetacelloIssue108TestCase is xxxxxxxxx.Instance Variables	tempRepositories:		<Object>tempRepositories	- xxxxx

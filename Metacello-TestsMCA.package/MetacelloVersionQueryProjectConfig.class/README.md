@@ -1,1 +1,0 @@
-A MetacelloVersionQueryProjectConfig is xxxxxxxxx.

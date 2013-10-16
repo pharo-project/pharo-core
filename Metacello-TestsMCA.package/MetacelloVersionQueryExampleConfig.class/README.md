@@ -1,1 +1,0 @@
-A MetacelloVersionQueryExampleConfig is xxxxxxxxx.
