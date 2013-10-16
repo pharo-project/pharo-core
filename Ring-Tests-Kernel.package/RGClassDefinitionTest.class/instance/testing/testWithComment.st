@@ -13,7 +13,7 @@ testWithComment
 	self assert: (newClass hasStamp).
 	self assert: (newClass = newComment parent).
 	self assert: (newComment content = 'This is a comment for test').
-	self assert: (newComment authorAlias = 'VeronicaUquillas').
+	self assert: (newComment author = 'VeronicaUquillas').
 	self assert: (newComment timeStamp = '3/22/2011 14:51' asDateAndTime).
 	
 	newClass comment: nil.

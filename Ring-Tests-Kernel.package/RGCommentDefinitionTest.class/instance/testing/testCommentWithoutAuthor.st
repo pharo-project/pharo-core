@@ -6,4 +6,4 @@ testCommentWithoutAuthor
 						stamp: '3/22/2011 14:51';
 						yourself.
 	
-	self assert: (newComment hasAuthorAlias not).
+	self assert: (newComment hasAuthor not).

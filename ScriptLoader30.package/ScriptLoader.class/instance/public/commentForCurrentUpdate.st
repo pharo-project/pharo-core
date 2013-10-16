@@ -1,10 +1,9 @@
 commentForCurrentUpdate
- ^ '11891 Remove Slowest Metacello Tests
-	https://pharo.fogbugz.com/f/cases/11891
-	
-11904 Fix some Undeclared
-	https://pharo.fogbugz.com/f/cases/11904
+ ^ '11907 add Nautilus to shutDownList
+	https://pharo.fogbugz.com/f/cases/11907
+		
+11906 HDTestReport measures the wrong duration
+	https://pharo.fogbugz.com/f/cases/11906
 
-11905 testBlockNumberingForInjectInto should generate method with emedded source
-	https://pharo.fogbugz.com/f/cases/11905
-'
+5548 author should be added to RGMethodDefinition and authors to RGClassDefinition
+	https://pharo.fogbugz.com/f/cases/5548/'

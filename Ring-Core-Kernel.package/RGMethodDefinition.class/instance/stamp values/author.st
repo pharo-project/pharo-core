@@ -1,5 +1,5 @@
-authorAlias 
+author 
 
 	^self 
-		annotationNamed: self class authorAliasKey
+		annotationNamed: self class authorKey
 		ifAbsentPut: [ self class parseAuthorAliasFrom: self stamp ]
