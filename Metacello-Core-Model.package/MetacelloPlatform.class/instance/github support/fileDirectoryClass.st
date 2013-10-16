@@ -1,3 +1,3 @@
 fileDirectoryClass
 
-	^FileDirectory
+	^Smalltalk at: #FileDirectory
