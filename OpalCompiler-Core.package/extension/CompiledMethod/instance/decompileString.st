@@ -1,2 +1,3 @@
 decompileString
-	^self decompile formattedCode
+	self deprecated: 'decompiling bc->text is not supported'.
+	^self codeForNoSource.

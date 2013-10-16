@@ -1,12 +1,4 @@
 commentForCurrentUpdate
- ^ '11893 move MCVersionLoader>>#versions
-	https://pharo.fogbugz.com/f/cases/11893
-	
-11898 Move DialogWindowModel deprecated methods to Deprecated30 package	
-	https://pharo.fogbugz.com/f/cases/11886
-	
-11810 undeclared MailSender
-	https://pharo.fogbugz.com/f/cases/11810
-	
-11881 Metacello references non-existing classes FileDirectory SystemChangeNotifier and OSProcess
-	https://pharo.fogbugz.com/f/cases/11881'
+ ^ '11107 never call decompiler, add a #codeForNoSource backstop to CompiledMethod
+	https://pharo.fogbugz.com/f/cases/11107
+	'
