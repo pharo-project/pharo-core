@@ -1,10 +1,10 @@
 customSubMenu: aMenu
 	
 	aMenu 
-		add: 'Method refs to this inst var'
+		add: 'List Methods Using "', self instVarName, '"'
 			target: self 
 			selector: #referencesToInstanceVariable;
-		add: 'Methods storing into this inst var'
+		add: 'List Methods Storing into "', self instVarName, '"'
 			target: self 
 			selector: #storingsIntoInstanceVariable.
 

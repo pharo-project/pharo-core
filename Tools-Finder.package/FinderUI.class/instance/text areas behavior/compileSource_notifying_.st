@@ -1,6 +1,6 @@
 compileSource: aString notifying: aController
 
-	| association class method |
+	| class method |
 	(self selectedClass isNil or: [ self selectedMethod isNil ])
 		ifTrue:[
 			self changed: #clearUserEdits.

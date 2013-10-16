@@ -18,7 +18,7 @@ autoSelection
 			firstIndex := aString findString: list first.
 			lastIndex := (aString findString: list last startingAt: firstIndex) + list last size - 1.
 			interval := firstIndex to: lastIndex]
-		ifFalse: [| index |
+		ifFalse: [
 			firstIndex := aString findString: string.
 			size := string size.
 			interval := firstIndex to: (firstIndex + size - 1)].

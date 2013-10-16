@@ -1,2 +1,2 @@
 selectors
-	^self sourceCode keys
+	^self sourceCode keys sorted

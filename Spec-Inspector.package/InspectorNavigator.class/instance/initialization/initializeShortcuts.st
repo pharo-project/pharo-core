@@ -7,6 +7,7 @@ initializeShortcuts
 
 	self bindKeyCombination: $0 command toAction: [ self useBasicInspector ].
 	self bindKeyCombination: $0 shift command toAction: [ self useDefaultInspector ].
+	
 	"code duplication? yes, but still easier than capturing arguments ;)"
 	self bindKeyCombination: $1 command toAction: [ self useInspectorAt: 1 ].
 	self bindKeyCombination: $2 command toAction: [ self useInspectorAt: 2 ].
@@ -17,6 +18,3 @@ initializeShortcuts
 	self bindKeyCombination: $7 command toAction: [ self useInspectorAt: 7 ].
 	self bindKeyCombination: $8 command toAction: [ self useInspectorAt: 8 ].
 	self bindKeyCombination: $9 command toAction: [ self useInspectorAt: 9 ].
-	
-
-	self bindKeyCombination: $d command toAction: [ self dive ].

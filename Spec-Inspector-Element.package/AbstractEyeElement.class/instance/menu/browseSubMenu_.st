@@ -1,14 +1,14 @@
 browseSubMenu: aMenu
 	
 	aMenu 
-		add: 'Browse full (b)' translated
+		add: 'Browse Full (b)' translated
 			target: self
-			selector: #browseValue;
-		add: 'Browse class' translated
+			selector: #browseSelectedObject;
+		add: 'Browse Class' translated
 			target: self
-			selector: #browseValueClass;
-		add: 'Browse hierarchy (h)' translated
+			selector: #browseSelectedObjectClass;
+		add: 'Browse Hierarchy (h)' translated
 			target: self
-			selector: #browseValueClassHierarchy.
+			selector: #browseSelectedObjectClassHierarchy.
 			
 	aMenu addLine.

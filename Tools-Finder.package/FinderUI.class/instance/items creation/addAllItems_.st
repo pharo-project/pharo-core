@@ -1,5 +1,5 @@
 addAllItems: aWindow
-	| container toolbar height  btnFont  btnToolbar cst |
+	| toolbar height  btnFont  btnToolbar cst |
 	toolbar := self buildSearchModeToolBar: aWindow.
 	height := toolbar minExtent y.
 	cst := 15.

@@ -17,7 +17,7 @@ printSpaceAnalysis: threshold on: aStream
 		displayProgressFrom: 0 to: Smalltalk classNames size
 		during: [:bar |
 		(Smalltalk globals allClasses) do:
-			[:cl | | codeSpace instCount instSpace eltSize | codeSpace := cl spaceUsed.
+			[:cl | | codeSpace instCount instSpace | codeSpace := cl spaceUsed.
 			bar current: (n := n+1).
 			Smalltalk garbageCollectMost.
 			instCount := cl instanceCount.

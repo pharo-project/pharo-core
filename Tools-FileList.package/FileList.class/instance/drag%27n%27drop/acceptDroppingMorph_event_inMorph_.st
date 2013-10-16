@@ -1,5 +1,5 @@
 acceptDroppingMorph: aTransferMorph event: evt inMorph: dest
-	| oldFile oldEntry destDirectory newFile newEntry baseName response |
+	| oldEntry destDirectory newEntry response |
 	destDirectory := self dropDestinationDirectory: dest event: evt.
 	oldEntry := FileSystem disk referenceTo: aTransferMorph passenger.
 	newEntry := destDirectory / oldEntry basename.

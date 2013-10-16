@@ -1,3 +1,3 @@
 icon
 	^ (self value iconOrThumbnailOfSize: 16)
-		ifNil: [ self valueClass nautilusIcon ]
+		ifNil: [ self value class nautilusIcon ]

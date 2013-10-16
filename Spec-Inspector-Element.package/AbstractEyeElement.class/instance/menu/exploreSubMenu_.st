@@ -1,6 +1,6 @@
 exploreSubMenu: aMenu
 	aMenu 
-		add: 'Explore pointers'
+		add: 'Explore Pointers'
 		target: self 
 		selector: #explorePointers;
 		addLine

@@ -1,0 +1,3 @@
+extent
+
+	^ self widget extent

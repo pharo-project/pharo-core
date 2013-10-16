@@ -1,7 +1,7 @@
 fileListIndex: anInteger
 	"Select the file name having the given index, and display its contents."
 
-	| item name |
+	| item |
 	self okToChange ifFalse: [^ self].
 	listIndex := anInteger.
 	listIndex = 0 

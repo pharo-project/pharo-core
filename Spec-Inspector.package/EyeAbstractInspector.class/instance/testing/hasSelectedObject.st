@@ -1,0 +1,2 @@
+hasSelectedObject
+	^ self selectedElement isNotNil

@@ -1,7 +1,7 @@
 destroyCurrentCodeOfSelections
 	"Actually remove from the system any in-memory methods with class and selector identical to items current selected.  This may seem rather arcane but believe me it has its great uses, when trying to split out code.  To use effectively, first file out a change set that you wish to split off.  Then open a ChangeList browser on that fileout.  Now look through the methods, and select any of them which you want to remove completely from the system, then issue this command.  For those methods where you have made changes to pre-existing versions, of course, you won't want to remove them from the system, so use this mechanism with care!"
 
-	|  aClass aChange aList |
+	| aChange aList |
 	aList := OrderedCollection new.
 	1 to: changeList size do:
 		[:index |

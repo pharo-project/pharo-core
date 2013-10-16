@@ -12,7 +12,7 @@ constructDictionaryWithMethodFinder: aString
 					| index |
 					(index := listOfSelectors indexOf: method selector) = 0
 						ifFalse: [ 
-							| key value receiver receiverString |
+							| key value |
 							key := listOfStrings at: index.
 							value := method methodClass.
 							(result includesKey: key)

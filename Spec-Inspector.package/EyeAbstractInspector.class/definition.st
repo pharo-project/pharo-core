@@ -1,5 +1,6 @@
 ComposableModel subclass: #EyeAbstractInspector
-	instanceVariableNames: 'object'
+	uses: TInspectorActions
+	instanceVariableNames: 'object customMenuActions'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-Inspector'

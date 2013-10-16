@@ -1,7 +1,7 @@
 container
 	^ container ifNil: [ 
-		container := Morph new.
+		container := Morph new asSpecAdapter.
 		container 
 			color: Color white;
-			hResizing: #spaceFill;
-			vResizing: #spaceFill ]
+			hSpaceFill;
+			vSpaceFill ]

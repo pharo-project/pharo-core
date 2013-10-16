@@ -3,7 +3,7 @@ retrieveConfigurationsFrom: locationString
 	self retrieveConfigurationsFrom:  self pharoDistribution
 	"
 
-	| repo reductionMap split configName author version last topMostItems item |
+	| repo reductionMap split configName author version last topMostItems |
 	repo := MCHttpRepository location: locationString.
 				
 	"Reduce to display only the latest"			

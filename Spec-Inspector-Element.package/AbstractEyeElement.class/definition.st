@@ -1,4 +1,5 @@
 Object subclass: #AbstractEyeElement
+	uses: TInspectorActions
 	instanceVariableNames: 'host'
 	classVariableNames: ''
 	poolDictionaries: ''

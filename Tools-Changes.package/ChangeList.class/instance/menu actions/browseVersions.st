@@ -1,5 +1,5 @@
 browseVersions
-	| change class browser |
+	| change browser |
 	listIndex = 0
 		ifTrue: [^ nil ].
 	change := changeList at: listIndex.

@@ -1,2 +1,2 @@
 inspectItem
-	self hasParentNode ifTrue: [ (self parentNode item methodDict at: self item) inspect ].
+	self hasParentNode ifTrue: [ (self parentNode item compiledMethodAt: self item) inspect ].

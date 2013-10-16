@@ -4,6 +4,5 @@ objectChanged
 	newThumbnail 
 		hResizing: #spaceFill;
 		vResizing: #spaceFill.
-	self container 
-		removeAllMorphs;
-		addMorphCentered: newThumbnail
+	self container removeSubWidgets.
+	self container morph addMorphCentered: newThumbnail

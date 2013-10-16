@@ -13,5 +13,5 @@ browseUnusedMethodsOf: aClass
 	classes
 		do: [:c | (c selectors
 				select: [:s | unsent includes: s]) asSortedCollection
-				do: [:sel | messageList add: ((c methodDict at: sel) methodReference) ]].
+				do: [:sel | messageList add: ((c compiledMethodAt: sel) methodReference) ]].
 	self systemNavigation browseMessageList: messageList name: 'Unsent Methods in ' , aClass name
