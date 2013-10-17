@@ -1,1 +1,0 @@
-A MetacelloReferenceTestCase is xxxxxxxxx.

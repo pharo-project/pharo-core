@@ -7,4 +7,5 @@ highlightCategory: aMethod
 				category = self selectedCategory
 					ifFalse:[ 
 						index := self getCategories indexOf: ( category ).
-						categoryWidget searchedElement: index ]]
+						index > 0 ifTrue: [
+							categoryWidget searchedElement: index] ] ]

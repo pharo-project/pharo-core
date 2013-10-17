@@ -1,7 +1,10 @@
 commentForCurrentUpdate
- ^ '11910 1 RPackage should be = 1 MCPackage
-	https://pharo.fogbugz.com/f/cases/11910
+ ^ '11917 add setting to choose IconSet
+	https://pharo.fogbugz.com/f/cases/11917
 	
-11911 Nautilus should show a package tree instead a simple list
-	https://pharo.fogbugz.com/f/cases/11911
+11918 division by zero when creating a new method
+	https://pharo.fogbugz.com/f/cases/11918
+	
+11919 unload more metacello tests
+	https://pharo.fogbugz.com/f/cases/11919
 '

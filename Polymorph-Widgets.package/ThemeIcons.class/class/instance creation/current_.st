@@ -1,2 +1,6 @@
 current: aThemeIcons
-	current := aThemeIcons
+	current := aThemeIcons.
+	"Polymorph depends on Morphic, so coupling with WorldState is ok, the problem is with 
+	 other tools (like Nautilus), that may need to refresh its icon caches"
+	World resetWorldMenu.
+	SystemAnnouncer uniqueInstance announce: IconSetChanged

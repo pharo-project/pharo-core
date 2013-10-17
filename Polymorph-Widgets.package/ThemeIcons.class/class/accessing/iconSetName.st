@@ -1,0 +1,2 @@
+iconSetName
+	^ nil

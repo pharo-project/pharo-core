@@ -7,3 +7,5 @@ initialize
 	
 	NextFocusKey := Character arrowRight.
 	PreviousFocusKey := Character arrowLeft.
+	
+	self registerSystemAnnouncements.
