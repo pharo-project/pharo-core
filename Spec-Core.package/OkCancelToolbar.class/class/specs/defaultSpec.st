@@ -1,15 +1,8 @@
 defaultSpec
 	<spec>
-	^ { #Panel.
-			#changeTableLayout.
-			#listDirection:.		#rightToLeft.
-			#add:. {#model.	#hFill}.
-			#add:. {#model.	#hFill}.
-			#add:. {#model.	#hFill}.
-			#add:. {#model.	#hFill}.
-			#add:. {#model.	#hFill}.
-			#add:. {#model.	#hFill}.
-			#add:. {#model.	#okButton.	}.
-			#add:. {#model.	#cancelButton.}.
-			#hSpaceFill.
-			#vShrinkWrap.	}
+	
+	^ SpecLayout composed
+		add: #okButton origin: 1@0 corner: 1@1 offsetOrigin: (2*(self buttonWidth negated))@0 offsetCorner: (self buttonWidth negated)@0;
+		add: #cancelButton origin: 1@0 corner: 1@1 offsetOrigin: (self buttonWidth negated)@0 offsetCorner: 0@0;
+		send: #vShrinkWrap;
+		yourself

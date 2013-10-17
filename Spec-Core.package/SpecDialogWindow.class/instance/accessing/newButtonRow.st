@@ -1,3 +1,5 @@
 newButtonRow
 
-	^ self toolbar buildWithSpec
+	^ self toolbar buildWithSpec"
+		vResizing: #shrinkWrap;
+		yourself"

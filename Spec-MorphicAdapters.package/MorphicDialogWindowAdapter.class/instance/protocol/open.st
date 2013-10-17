@@ -1,0 +1,3 @@
+open
+
+	self widget openInWorld

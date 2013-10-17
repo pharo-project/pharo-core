@@ -1,7 +1,7 @@
 defaultSpec
 	<spec>
 	
-	^ #( DialogWindowSpec 
+	^ #( SpecDialogWindow 
 			specWidget: #(model contentMorph)
 			initialize
 			model: model )
