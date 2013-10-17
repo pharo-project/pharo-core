@@ -1,2 +1,6 @@
 testNoExceptionWithNoMatchingString
-	self shouldnt: [ Object obsolete ] raise: Error whoseDescriptionDoesNotInclude: 'NOT' description: 'tested obsoleting Object'
+	self
+		shouldnt: [ Object messageNotUnderstoodByObject ]
+		raise: MessageNotUnderstood
+		whoseDescriptionDoesNotInclude: 'messageNotUnderstoodByObject'
+		description: 'tested obsoleting Object'

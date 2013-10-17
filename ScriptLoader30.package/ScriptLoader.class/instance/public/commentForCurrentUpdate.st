@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '11912 faster #allMethods on SystemNavigation
-	https://pharo.fogbugz.com/f/cases/11912
+ ^ '11913 Trivial critic clean NewList
+	https://pharo.fogbugz.com/f/cases/11913
 	
-11894 Tests.Release.ReleaseTest.testKernelExtensions fails
-	https://pharo.fogbugz.com/f/cases/11894
+11876 Do not allow shouldnt:raise: Error
+	https://pharo.fogbugz.com/f/cases/11876
 	
-11909 MorphTreeMorph lacks enable/disable
-	https://pharo.fogbugz.com/f/cases/11909
-	
-11886 Typo at method name: RBMoveMethodRefactor>>compileDelagatorMethod
-	https://pharo.fogbugz.com/f/cases/11886'
+11879 Obtain selected statements for suggestions
+	https://pharo.fogbugz.com/f/cases/11879'

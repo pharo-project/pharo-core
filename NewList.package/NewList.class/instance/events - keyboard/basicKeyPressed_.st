@@ -1,5 +1,5 @@
 basicKeyPressed: aChar 
-	| nextSelection milliSeconds slowKeyStroke  nextSelectionText oldSelection |
+	| nextSelection milliSeconds slowKeyStroke oldSelection |
 	
 	nextSelection := oldSelection := self selectedIndex.
 	milliSeconds := Time millisecondClockValue.

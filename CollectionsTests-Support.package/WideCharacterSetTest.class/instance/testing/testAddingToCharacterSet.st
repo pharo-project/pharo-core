@@ -5,7 +5,8 @@ testAddingToCharacterSet
 	wcs := cs copy.
 	wc := 4452 asCharacter.
 	
-	self shouldnt: [wcs add: wc] raise: Error description: 'adding a WideCharacter to an ordinary CharacterSet should turn it into a WideCharacterSet'.
+	"adding a WideCharacter to an ordinary CharacterSet should turn it into a WideCharacterSet"
+	wcs add: wc.
 
 	self should: [wcs size = (cs size + 1)] description: 'We just added a Character, size should be increased by one'.
 	self shouldnt: [wcs = cs] description: 'We just added a Character, sets should not be equal'.

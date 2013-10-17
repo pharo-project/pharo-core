@@ -1,8 +1,7 @@
 setIndex: idx
-
-	pluggable 
-		ifTrue: [
-			idx = index
-				ifTrue: [ index := 0 ]
-				ifFalse: [ index := idx ].
-			self changed: #getIndex ].
+	pluggable
+		ifFalse: [ ^ self ].
+	index := idx = index
+		ifTrue: [ 0 ]
+		ifFalse: [ idx ].
+	self changed: #getIndex
