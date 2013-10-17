@@ -1,0 +1,2 @@
+viewBox
+	^ self pasteUpMorph viewBox

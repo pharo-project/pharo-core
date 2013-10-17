@@ -1,0 +1,5 @@
+Morph subclass: #HandMorph
+	instanceVariableNames: 'mouseFocus keyboardFocus eventListeners mouseListeners keyboardListeners mouseClickState mouseOverHandler lastMouseEvent targetOffset damageRecorder cacheCanvas cachedCanvasHasHoles temporaryCursor temporaryCursorOffset hardwareCursor hasChanged savedPatch lastEventBuffer lastKeyScanCode combinedChar eventSource lastSystemEvent captureBlock recentModifiers'
+	classVariableNames: 'DoubleClickTime EventSource EventStats NormalCursor PasteBuffer ShowEvents UpperHandLimit'
+	poolDictionaries: 'EventSensorConstants'
+	category: 'Morphic-Core-Kernel'
