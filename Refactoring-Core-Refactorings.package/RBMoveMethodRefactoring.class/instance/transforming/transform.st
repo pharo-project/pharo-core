@@ -5,4 +5,4 @@ transform
 		replaceSelfReferences;
 		replaceVariableReferences;
 		compileNewMethods;
-		compileDelagatorMethod
+		compileDelegatorMethod

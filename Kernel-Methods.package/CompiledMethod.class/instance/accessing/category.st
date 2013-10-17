@@ -1,3 +1,3 @@
 category
 
-	^self methodClass organization categoryOfElement:self selector
+	^self methodClass organization categoryOfElement: self selector

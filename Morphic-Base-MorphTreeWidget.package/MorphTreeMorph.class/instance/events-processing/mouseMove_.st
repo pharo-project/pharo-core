@@ -1,7 +1,7 @@
 mouseMove: evt
 
 	| targetMorph |
-
+	self enabled ifFalse: [ ^self ].
 	targetMorph := self scrollerSubMorphFromPoint: evt position.
 	evt hand hasSubmorphs 
 		ifFalse: [(self innerBounds containsPoint: evt position)

@@ -14,3 +14,4 @@ drawSubmorphsOn: aCanvas
 					myCanvas fullDrawMorph: m] ]
 		smoothing: smoothing.
 	owner withTreeLines ifTrue: [owner drawLinesOn: aCanvas].
+	owner enabled ifFalse: [ aCanvas fillRectangle: owner innerBounds fillStyle: (owner paneColor alpha: 0.2) ]

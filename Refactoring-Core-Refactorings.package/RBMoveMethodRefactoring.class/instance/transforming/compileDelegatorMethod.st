@@ -1,4 +1,4 @@
-compileDelagatorMethod
+compileDelegatorMethod
 	| statementNode delegatorNode tree |
 	delegatorNode := RBMessageNode 
 				receiver: (RBVariableNode named: variable)

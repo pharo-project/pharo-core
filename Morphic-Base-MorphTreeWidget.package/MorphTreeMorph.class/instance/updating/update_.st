@@ -1,4 +1,5 @@
 update: aSymbol
+	aSymbol == #enabled ifTrue: [ self enabledFromModel ].
 	aSymbol == #selection ifTrue: [^ self listManager updateSelectionFromModel].
 	((aSymbol  isKindOf: Array)	and: [aSymbol size > 1 and: [aSymbol first == #selectItems and: [aSymbol second isCollection]]])
 		ifTrue: [^ self selectedItems: aSymbol second].

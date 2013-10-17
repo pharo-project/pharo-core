@@ -1,6 +1,7 @@
 mouseDown: event 
 	"Changed to take keybaord focus."
 	| targetMorph selectors |
+	self enabled ifFalse: [ ^self ].
 	mouseOverAllowed := true.
 	self wantsKeyboardFocus
 		ifTrue: [self takeKeyboardFocus].
