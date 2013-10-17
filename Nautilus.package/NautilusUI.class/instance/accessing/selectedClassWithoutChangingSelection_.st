@@ -8,7 +8,7 @@ selectedClassWithoutChangingSelection: aClass
 		ifTrue: [| package packageChanged cl |
 			package := self selectedPackage.
 			(self showPackages not or: [self showGroups ])
-				ifTrue: [ aClass ifNotNil: [ package := aClass package ]].
+				ifTrue: [ aClass ifNotNil: [ package := self parentOfClass: aClass ] ].
 				
 			aClass 
 				ifNil: [ 

@@ -1,3 +1,0 @@
-day
- 
- 	^ self days

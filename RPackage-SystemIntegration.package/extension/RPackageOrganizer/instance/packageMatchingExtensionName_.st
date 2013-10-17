@@ -10,7 +10,7 @@ packageMatchingExtensionName: anExtensionName
 	"if no package was found, we try to find one matching the begining of the name specified"
 	tmpPackageName := ''.
 	packages keysDo: [:aSymbol |
-		(anExtensionName beginsWithEmpty: aSymbol caseSensitive: false)
+		(anExtensionName beginsWithEmpty: (aSymbol, '-') caseSensitive: false)
 			ifTrue: [
 				"we keep the longest package name found"
 				(aSymbol size > tmpPackageName size) 

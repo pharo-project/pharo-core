@@ -1,5 +1,4 @@
 initializeDefaultFromMC
 
 	"self initializeDefault"
-	default := nil.
-	self fillUpFromMC.
+	self setDefault:  self new initializeFromMC.

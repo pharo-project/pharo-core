@@ -1,2 +1,2 @@
 initialize
-	self initializeDefault.
+	self initializeDefaultFromMC.

@@ -1,3 +1,0 @@
-hour
- 
- 	^ self hours

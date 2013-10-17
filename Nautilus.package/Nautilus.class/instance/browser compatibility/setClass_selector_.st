@@ -7,7 +7,7 @@ setClass: aClass selector: aSelector
 					ifNotNil: [ method protocol ].
 	self 
 		showGroups: false;
-		selectedPackage: aClass package;
+		selectedPackage: (self parentOfClass: aClass);
 		selectedClass: aClass;
 		showInstance: aClass isMeta not;
 		selectedCategory: protocol;

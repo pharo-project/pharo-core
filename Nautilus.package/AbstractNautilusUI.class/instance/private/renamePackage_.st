@@ -1,7 +1,6 @@
-renamePackage: anRPackage
-
+renamePackage: aPackage
 	| isCurrent |
-	isCurrent := anRPackage = self selectedPackage.
-	super renamePackage: anRPackage.	
-	isCurrent ifTrue: [ self selectedPackage: anRPackage ].
-	packagesSelection at: anRPackage put: true.
+	isCurrent := self isSelectedPackage: aPackage.
+	super renamePackage: aPackage.	
+	isCurrent ifTrue: [ self selectedPackage: aPackage ].
+	packagesSelection at: aPackage put: true.

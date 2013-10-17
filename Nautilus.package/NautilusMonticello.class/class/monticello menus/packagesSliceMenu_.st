@@ -1,6 +1,8 @@
 packagesSliceMenu: aBuilder
 	<nautilusGlobalPackageMenu>
+	
 	| target |
+	
 	target := aBuilder model.
 	(aBuilder item: #'Create Slice and commit it')
 		order: 1298;

@@ -1,6 +1,8 @@
 packageRefactoringMenu: aBuilder
 	<nautilusGlobalPackageMenu>
+	
 	| target |
+	
 	target := aBuilder model.
 	
 	(aBuilder item: #'Rewrite Code')

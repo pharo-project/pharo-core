@@ -5,7 +5,7 @@ testAddClassAddItIntoPackageBestMatchName
 	self addXCategory.
 	self addXMatchCategory.
 	
-	tmpPackage := self organizer packageNamed: #'XXXXX-YYYY'.
+	tmpPackage := self organizer packageNamed: #'XXXXX'.
 	class := self createNewClassNamed: 'NewClass' inCategory: 'XXXXX-YYYY'.
 
 	self assert: (tmpPackage definesClass: class).

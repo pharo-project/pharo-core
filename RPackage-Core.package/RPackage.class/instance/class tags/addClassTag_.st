@@ -1,4 +1,6 @@
 addClassTag: aSymbol
 	"Add the class tag from the receiver, if already added do nothing."
 	
-	classTags at: aSymbol ifAbsentPut: [Set new] 
+	^ self 
+		classTagNamed: aSymbol 
+		ifAbsent: [ classTags add: (RPackageTag package: self name: aSymbol) ]

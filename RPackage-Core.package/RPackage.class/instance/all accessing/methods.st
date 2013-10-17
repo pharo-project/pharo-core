@@ -13,4 +13,4 @@ methods
 	classDefinedSelectors keysAndValuesDo: [:key :val | 
 		val do: [:sel | methods add: ((Smalltalk at: key) >> sel)]].
 	
-	^methods
+	^ methods

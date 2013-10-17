@@ -1,4 +1,0 @@
-milliSeconds
- 
- 	^ Duration milliSeconds: self
- 

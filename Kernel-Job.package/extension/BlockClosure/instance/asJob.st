@@ -1,3 +1,0 @@
-asJob
-
-	^ Job block: self.

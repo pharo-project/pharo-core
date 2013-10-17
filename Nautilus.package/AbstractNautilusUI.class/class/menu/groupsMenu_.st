@@ -2,6 +2,7 @@ groupsMenu: aBuilder
 	<contextMenu>
 	<nautilusGlobalGroupMenu>
 	| target |
+	
 	target := aBuilder model.
 	target selectedGroup ifNil: [ ^ target ].
 		

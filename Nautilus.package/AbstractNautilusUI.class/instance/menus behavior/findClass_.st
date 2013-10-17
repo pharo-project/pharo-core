@@ -5,6 +5,6 @@ findClass: aSearchInstance
 	aClass := aSearchInstance chooseFromOwner: self window.
 	aClass ifNil: [^ self flashPackage].
 	self showGroups: false.
-	self selectedPackage: aClass package.
+	self selectedPackage: (self parentOfClass: aClass).
 	self selectedClass: aClass.
 	self updateBothView

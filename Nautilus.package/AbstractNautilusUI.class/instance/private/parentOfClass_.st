@@ -1,0 +1,2 @@
+parentOfClass: aClass 
+	^ aClass package.

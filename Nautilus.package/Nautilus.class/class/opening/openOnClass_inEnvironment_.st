@@ -6,7 +6,10 @@ openOnClass: aClass inEnvironment: anEnvironment
 		browsedEnvironment: anEnvironment;
 		showInstance: aClass isMeta not;
 	 	showGroups: false;
-	 	package: aClass package class: aClass category: nil method: nil;
+	 	package: (self parentOfClass: aClass) 
+			class: aClass 
+			category: nil 
+			method: nil;
 	 	open.
 	 instance ui 
 		showPackages: (self switchClassesAndPackages not);

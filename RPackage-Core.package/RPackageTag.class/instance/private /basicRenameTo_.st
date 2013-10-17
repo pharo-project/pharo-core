@@ -1,0 +1,2 @@
+basicRenameTo: aString
+	name := aString.

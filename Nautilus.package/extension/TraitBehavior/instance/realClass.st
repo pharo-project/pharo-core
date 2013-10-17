@@ -1,0 +1,3 @@
+realClass
+
+	^ self

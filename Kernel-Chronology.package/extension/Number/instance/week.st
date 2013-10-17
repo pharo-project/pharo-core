@@ -1,4 +1,0 @@
-week
- 
- 	^ self weeks
- 

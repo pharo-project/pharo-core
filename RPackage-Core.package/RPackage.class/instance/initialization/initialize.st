@@ -5,4 +5,4 @@ initialize
 	classExtensionSelectors := Dictionary new.
 	classDefinedSelectors := Dictionary new.
 	metaclassDefinedSelectors := Dictionary new.
-	classTags := Dictionary new.
+	classTags := Set new.

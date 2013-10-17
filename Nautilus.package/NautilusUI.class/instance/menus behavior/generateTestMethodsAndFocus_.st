@@ -9,7 +9,7 @@ generateTestMethodsAndFocus: aBoolean
 	(aBoolean and: [ self okToChange ])
 		ifTrue: [
 			self showGroups: false.
-			self selectedPackage: focus methodClass package.
+			self selectedPackage: (self parentOfClass: focus methodClass).
 			self selectedClass: focus methodClass.
 			self selectedCategory: 'tests'.
 			methodWidget selectMethod: focus.

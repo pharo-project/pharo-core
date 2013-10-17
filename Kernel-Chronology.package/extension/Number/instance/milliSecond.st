@@ -1,4 +1,0 @@
-milliSecond
- 
- 	^ self milliSeconds
- 

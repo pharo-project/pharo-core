@@ -1,9 +1,7 @@
 commentForCurrentUpdate
- ^ '11913 Trivial critic clean NewList
-	https://pharo.fogbugz.com/f/cases/11913
+ ^ '11910 1 RPackage should be = 1 MCPackage
+	https://pharo.fogbugz.com/f/cases/11910
 	
-11876 Do not allow shouldnt:raise: Error
-	https://pharo.fogbugz.com/f/cases/11876
-	
-11879 Obtain selected statements for suggestions
-	https://pharo.fogbugz.com/f/cases/11879'
+11911 Nautilus should show a package tree instead a simple list
+	https://pharo.fogbugz.com/f/cases/11911
+'

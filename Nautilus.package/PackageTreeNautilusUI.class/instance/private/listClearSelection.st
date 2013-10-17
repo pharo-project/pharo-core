@@ -1,0 +1,2 @@
+listClearSelection
+	list model deselectAll.

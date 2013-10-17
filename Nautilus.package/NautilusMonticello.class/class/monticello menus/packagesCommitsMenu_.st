@@ -1,6 +1,8 @@
 packagesCommitsMenu: aBuilder
 	<nautilusGlobalPackageMenu>
+	
 	| package mcpackage target |
+	
 	target := aBuilder model.
 	(package := target selectedPackage) ifNil: [ ^ target ].
 	mcpackage := (NautilusMCBindings default mcPackageFor: package).

@@ -1,3 +1,0 @@
-haltOnce
-
-	Halt once.

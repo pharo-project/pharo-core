@@ -6,7 +6,7 @@ listWrapper2: anElement
 			ifFalse: [
 				 self selectedPackage 
 						ifNil: [anElement name]
-						ifNotNil: [:package | 
-							( anElement package = package)
+						ifNotNil: [ :package | 
+							(package includesClass: anElement)
 								ifTrue: [ anElement name asStringMorph ]
 								ifFalse: [ anElement name asStringMorph color: self extensionColor;yourself]]]

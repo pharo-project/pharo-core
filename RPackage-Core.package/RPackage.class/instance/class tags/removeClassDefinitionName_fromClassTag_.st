@@ -1,7 +1,8 @@
 removeClassDefinitionName: aClassName fromClassTag: aSymbol
 	"Detags the class aClass with the tag aSymbol"
+	| tag |
 	
-	| res |
-	res :=  classTags at: aSymbol ifAbsent: [^ self].
-	res remove: aClassName ifAbsent: [ ^ self ].
-	res ifEmpty: [ self removeClassTag: aSymbol ]
+	tag := self classTagNamed: aSymbol ifAbsent: [ ^ self ].
+	tag removeClassNamed: aClassName.
+	tag isEmpty 
+		ifTrue: [ self basicRemoveTag: tag ].

@@ -11,7 +11,7 @@ classRemoved: anAnnouncement
 				self selectedClass = class
 					ifTrue: [ self selectedClass: nil ].
 				window isDisplayed ifFalse: [ ^ self ].
-				oldPackage := RPackageOrganizer default packageNamed: (anAnnouncement categoryName).
+				oldPackage := RPackageOrganizer default packageMatchingExtensionName: (anAnnouncement categoryName).
 				self removeFromPackagesIconsCache: oldPackage.
 				self updateBothView ].
 	

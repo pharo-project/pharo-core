@@ -1,0 +1,2 @@
+asNautilusSelection 
+	^ PackageTreeGroupSelection group: self

@@ -1,9 +1,7 @@
 systemCategoryAddedActionFrom: ann
-
-	| rPackage packageSymbol |
-	self flag: #fixMe. "a categoryName should always be a symbol, but for some reason it is keeping a string some times" 
-	packageSymbol := ann categoryName asSymbol.
-	(self includesPackageNamed: packageSymbol)
-		ifFalse: [ 
-			rPackage := self packageClass named: packageSymbol.
-			self registerPackage: rPackage ]
+	| package |
+	
+	package := self packageMatchingExtensionName: ann categoryName asString.
+	package ifNil: [ 
+		package := self registerPackage: (self packageClass named: ann categoryName asSymbol) ].
+	package addClassTag: ann categoryName asSymbol.
