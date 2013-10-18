@@ -2,5 +2,5 @@ inspectorSpec
 	<spec>
 	
 	^ SpecLayout composed
-		newRow: #container
+		add: #container
 		yourself

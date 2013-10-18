@@ -1,3 +1,10 @@
 testJoinUsingLastOnArray
-	self assert: ((1 to: 4) joinUsing: ', ' last: ' and ')
-		equals: '1, 2, 3 and 4'
+	
+	{	{  1. 2. 3 } 	-> '1, 2 and 3' .
+		{  1. 2 } 	-> '1 and 2' .
+		{  1 } 		-> '1' .
+		{  }			-> ''.
+	} 	asDictionary keysAndValuesDo: 
+		[ 	:testCollection :resultString |
+			self	 assert: ( testCollection joinUsing: ', ' last: ' and ') equals: resultString. 
+		]

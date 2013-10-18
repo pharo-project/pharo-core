@@ -1,8 +1,9 @@
 objectChanged
 	| newThumbnail |
+	
 	newThumbnail := self thumbnailMorph.
-	newThumbnail 
-		hResizing: #spaceFill;
-		vResizing: #spaceFill.
-	self container removeSubWidgets.
-	self container morph addMorphCentered: newThumbnail
+	newThumbnail when: #extent send: #resize: to: newThumbnail.
+	self container morph removeAllMorphs.
+	self container morph
+		addMorph: newThumbnail
+		fullFrame: LayoutFrame identity

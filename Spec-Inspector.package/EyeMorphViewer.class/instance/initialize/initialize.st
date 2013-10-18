@@ -1,7 +1,6 @@
-initializeWidgets
-	super initializeWidgets.
-	
-	self whenWindowChanged: [ self objectChanged ].
+initialize
+	super initialize.
+
 	updateProcess := [ 
 		self objectChanged. 
 		self hasWindow 
