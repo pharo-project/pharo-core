@@ -1,0 +1,2 @@
+isOpaque
+	^ alpha = 255 

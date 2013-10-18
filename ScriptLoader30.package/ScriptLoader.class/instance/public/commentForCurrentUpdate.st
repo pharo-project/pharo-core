@@ -1,10 +1,8 @@
 commentForCurrentUpdate
- ^ '11835 Cannnot revert <Make uncloseable>
-	https://pharo.fogbugz.com/f/cases/11835
-
-11924 Resize the morph while inspecting it
-	https://pharo.fogbugz.com/f/cases/11924
-
-11915 #joinUsing:last: incorrect for single item collection
-	https://pharo.fogbugz.com/f/cases/11915
-'
+ ^ '- Issue 11948
+Finally really sorting the methods in the FileContentsBrowser
+	https://pharo.fogbugz.com/f/cases/11948
+	
+- Issue 	11519
+	Merge Color and Translucent Color
+		https://pharo.fogbugz.com/f/cases/11519'

@@ -1,0 +1,2 @@
+paleTan
+	^  ColorRegistry at: #paleTan

@@ -1,0 +1,2 @@
+brown
+	^ ColorRegistry at: #brown

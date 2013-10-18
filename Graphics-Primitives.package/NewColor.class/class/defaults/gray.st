@@ -1,0 +1,2 @@
+gray
+	^ ColorRegistry at: #gray

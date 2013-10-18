@@ -1,0 +1,2 @@
+white
+	^  ColorRegistry at: #white

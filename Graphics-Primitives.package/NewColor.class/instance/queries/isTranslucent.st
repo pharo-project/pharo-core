@@ -1,0 +1,3 @@
+isTranslucent
+
+	^ alpha < 255 

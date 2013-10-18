@@ -1,0 +1,2 @@
+blue
+	^ ColorRegistry at: #blue

@@ -1,0 +1,2 @@
+tan
+	^  ColorRegistry at: #tan

@@ -1,0 +1,2 @@
+lightRed
+	^  ColorRegistry at: #lightRed

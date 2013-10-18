@@ -1,0 +1,2 @@
+lightCyan
+	^  ColorRegistry at: #lightCyan

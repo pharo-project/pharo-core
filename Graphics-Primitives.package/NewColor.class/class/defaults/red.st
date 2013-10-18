@@ -1,0 +1,2 @@
+red
+	^  ColorRegistry at: #red

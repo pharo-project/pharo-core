@@ -1,0 +1,2 @@
+palePeach
+	^  ColorRegistry at: #palePeach 
