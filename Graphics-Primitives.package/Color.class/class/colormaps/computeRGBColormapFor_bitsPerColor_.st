@@ -9,7 +9,7 @@ computeRGBColormapFor: destDepth bitsPerColor: bitsPerColor
 		to: map size - 1
 		do: 
 			[ :i | 
-			c := Color 
+			c := self 
 				r: ((i bitShift: 0 - (2 * bitsPerColor)) bitAnd: mask)
 				g: ((i bitShift: 0 - bitsPerColor) bitAnd: mask)
 				b: ((i bitShift: 0) bitAnd: mask)
@@ -19,5 +19,5 @@ computeRGBColormapFor: destDepth bitsPerColor: bitsPerColor
 				put: (c pixelValueForDepth: destDepth) ].
 	map 
 		at: 1
-		put: (Color transparent pixelWordForDepth: destDepth).	"zero always transparent"
+		put: (self transparent pixelWordForDepth: destDepth).	"zero always transparent"
 	^ map

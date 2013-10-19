@@ -1,2 +1,0 @@
-paleOrange
-	^  ColorRegistry at: #paleOrange

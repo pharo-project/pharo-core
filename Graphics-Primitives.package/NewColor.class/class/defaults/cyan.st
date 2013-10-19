@@ -1,2 +1,0 @@
-cyan
-	^ ColorRegistry at: #cyan

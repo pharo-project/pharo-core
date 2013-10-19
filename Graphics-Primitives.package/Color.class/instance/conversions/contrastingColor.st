@@ -1,7 +1,7 @@
 contrastingColor
 	"Answer black or white depending on the luminance."
 
-	self isTransparent ifTrue: [^Color black].
+	self isTransparent ifTrue: [ ^ self class black].
 	^self luminance > 0.5
-		ifTrue: [Color black]
-		ifFalse: [Color white]
+		ifTrue: [self class black]
+		ifFalse: [self class white]

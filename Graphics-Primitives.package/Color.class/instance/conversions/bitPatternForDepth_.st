@@ -5,6 +5,9 @@ bitPatternForDepth: depth
 	"Details: The pattern for the most recently requested depth is cached."
 	"Note for depths > 2, there are stippled and non-stippled versions (generated with #balancedPatternForDepth: and #bitPatternForDepth:, respectively). The stippled versions don't work with the window bit caching of StandardSystemView, so we make sure that for these depths, only unstippled patterns are returned"
 	(depth = cachedDepth and: [ depth <= 2 or: [ cachedBitPattern size = 1 ] ]) ifTrue: [ ^ cachedBitPattern ].
+	( self isTransparent and: [ cachedBitPattern isNil] )
+			 ifTrue: [ cachedBitPattern := Bitmap with: 0 . 
+					^ cachedBitPattern ].
 	cachedDepth := depth.
 	depth > 2 ifTrue: [ ^ cachedBitPattern := Bitmap with: (self pixelWordForDepth: depth) ].
 	depth = 1 ifTrue: [ ^ cachedBitPattern := self halfTonePattern1 ].

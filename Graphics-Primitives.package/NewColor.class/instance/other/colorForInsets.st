@@ -1,2 +1,0 @@
-colorForInsets
-	^ self

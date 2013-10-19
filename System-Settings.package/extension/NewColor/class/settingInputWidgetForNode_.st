@@ -1,2 +1,0 @@
-settingInputWidgetForNode: aSettingNode
-	^ aSettingNode inputWidgetForColor

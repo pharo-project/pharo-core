@@ -1,5 +1,5 @@
 contrastingForegroundColor
         "Make a foreground color contrasting with me"
         ^self luminance >= 0.5
-                ifTrue: [Color black]
-                ifFalse: [Color white]
+                ifTrue: [self class black]
+                ifFalse: [self class white]

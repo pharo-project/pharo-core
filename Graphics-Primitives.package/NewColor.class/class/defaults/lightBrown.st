@@ -1,2 +1,0 @@
-lightBrown
-	^ ColorRegistry at: #lightBrown

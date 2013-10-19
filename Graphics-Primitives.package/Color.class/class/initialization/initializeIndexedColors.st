@@ -8,13 +8,13 @@ initializeIndexedColors
 	"1-bit colors (monochrome)"
 	a 
 		at: 1
-		put: (Color 
+		put: (self 
 				r: 1.0
 				g: 1.0
 				b: 1.0).	"white or transparent"
 	a 
 		at: 2
-		put: (Color 
+		put: (self 
 				r: 0.0
 				g: 0.0
 				b: 0.0).	"black"
@@ -22,13 +22,13 @@ initializeIndexedColors
 	"additional colors for 2-bit color"
 	a 
 		at: 3
-		put: (Color 
+		put: (self 
 				r: 1.0
 				g: 1.0
 				b: 1.0).	"opaque white"
 	a 
 		at: 4
-		put: (Color 
+		put: (self 
 				r: 0.5
 				g: 0.5
 				b: 0.5).	"1/2 gray"
@@ -36,73 +36,73 @@ initializeIndexedColors
 	"additional colors for 4-bit color"
 	a 
 		at: 5
-		put: (Color 
+		put: (self 
 				r: 1.0
 				g: 0.0
 				b: 0.0).	"red"
 	a 
 		at: 6
-		put: (Color 
+		put: (self 
 				r: 0.0
 				g: 1.0
 				b: 0.0).	"green"
 	a 
 		at: 7
-		put: (Color 
+		put: (self 
 				r: 0.0
 				g: 0.0
 				b: 1.0).	"blue"
 	a 
 		at: 8
-		put: (Color 
+		put: (self 
 				r: 0.0
 				g: 1.0
 				b: 1.0).	"cyan"
 	a 
 		at: 9
-		put: (Color 
+		put: (self 
 				r: 1.0
 				g: 1.0
 				b: 0.0).	"yellow"
 	a 
 		at: 10
-		put: (Color 
+		put: (self 
 				r: 1.0
 				g: 0.0
 				b: 1.0).	"magenta"
 	a 
 		at: 11
-		put: (Color 
+		put: (self 
 				r: 0.125
 				g: 0.125
 				b: 0.125).	"1/8 gray"
 	a 
 		at: 12
-		put: (Color 
+		put: (self 
 				r: 0.25
 				g: 0.25
 				b: 0.25).	"2/8 gray"
 	a 
 		at: 13
-		put: (Color 
+		put: (self 
 				r: 0.375
 				g: 0.375
 				b: 0.375).	"3/8 gray"
 	a 
 		at: 14
-		put: (Color 
+		put: (self 
 				r: 0.625
 				g: 0.625
 				b: 0.625).	"5/8 gray"
 	a 
 		at: 15
-		put: (Color 
+		put: (self 
 				r: 0.75
 				g: 0.75
 				b: 0.75).	"6/8 gray"
 	a 
 		at: 16
-		put: (Color 
+		put: (self 
 				r: 0.875
 				g: 0.875
 				b: 0.875).	"7/8 gray"
@@ -145,7 +145,7 @@ initializeIndexedColors
 							index > 256 ifTrue: [ self error: 'index out of range in color table compuation' ].
 							a 
 								at: index
-								put: (Color 
+								put: (self 
 										r: r
 										g: g
 										b: b

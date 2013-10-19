@@ -1,2 +1,0 @@
-paleMagenta
-	^  ColorRegistry at: #paleMagenta

@@ -10,4 +10,4 @@ initializeColorRegistry
 		blue := values at: index +3.
 		color :=  self  r: red g: green b: blue .
 		self registerColor: color named: colorName ].
-	self registerColor: (TranslucentColor new alpha: 0.0) named: #transparent. 
+	self registerColor: (self r: 0 g: 0 b: 0 alpha: 0.0) named: #transparent. 

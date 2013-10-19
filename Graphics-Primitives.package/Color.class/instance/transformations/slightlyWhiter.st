@@ -1,3 +1,3 @@
 slightlyWhiter
 
-	^ self alphaMixed: 0.85 with: Color white
+	^ self alphaMixed: 0.85 with: (ColorRegistry at: #white)

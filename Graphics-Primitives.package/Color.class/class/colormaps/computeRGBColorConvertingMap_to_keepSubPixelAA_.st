@@ -25,7 +25,7 @@ computeRGBColorConvertingMap: targetColor to: destDepth keepSubPixelAA: keepSubP
 				ifTrue: 
 					[ (keepSubPix and: [ destDepth > 8 ]) 
 						ifTrue: 
-							[ Color 
+							[ self 
 								r: (1.0 - (r / mask)) * targetColor red
 								g: (1.0 - (g / mask)) * targetColor green
 								b: (1.0 - (b / mask)) * targetColor blue
@@ -36,9 +36,9 @@ computeRGBColorConvertingMap: targetColor to: destDepth keepSubPixelAA: keepSubP
 								ifFalse: 
 									[ targetColor 
 										alphaMixed: f * 1.5
-										with: Color white ] ] ]
+										with: self white ] ] ]
 				ifFalse: 
-					[ Color 
+					[ self  
 						r: r
 						g: g
 						b: b

@@ -1,7 +1,7 @@
 fromString: aString
 	"for HTML color spec: #FFCCAA or white/black"
-	"Color fromString: '#FFCCAA'.
-	 Color fromString: 'orange'"
+	"NewColor fromString: '#FFCCAA'.
+	 NewColor fromString: 'orange'"
 	
 	| aColorHex  namedColor |
 	aString isEmptyOrNil ifTrue: [ ^self white ].

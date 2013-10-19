@@ -1,2 +1,0 @@
-purple
- 	^  ColorRegistry at: #purple

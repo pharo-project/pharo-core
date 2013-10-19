@@ -1,2 +1,0 @@
-lightMagenta
-	^  ColorRegistry at: #lightMagenta

@@ -1,2 +1,0 @@
-green
-	^ ColorRegistry at: #green

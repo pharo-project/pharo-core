@@ -1,8 +1,6 @@
 commentForCurrentUpdate
- ^ '- Issue 11948
-Finally really sorting the methods in the FileContentsBrowser
-	https://pharo.fogbugz.com/f/cases/11948
+ ^ '11947 Added stackTop and Removed class in the debugger stack inspector.
+	https://pharo.fogbugz.com/f/cases/11947
 	
-- Issue 	11519
-	Merge Color and Translucent Color
-		https://pharo.fogbugz.com/f/cases/11519'
+11519 Merge Color and Translucent Color. Thanks Luc Fabresse for the last part!
+	https://pharo.fogbugz.com/f/cases/11519'

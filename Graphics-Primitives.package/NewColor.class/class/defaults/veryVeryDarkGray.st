@@ -1,2 +1,0 @@
-veryVeryDarkGray
-	^ ColorRegistry at: #veryVeryDarkGray 

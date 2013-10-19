@@ -1,3 +1,3 @@
 muchDarker
 
-	^ self alphaMixed: 0.5 with: Color black
+	^ self alphaMixed: 0.5 with: (ColorRegistry at: #black)

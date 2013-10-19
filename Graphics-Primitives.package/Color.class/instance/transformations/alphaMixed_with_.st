@@ -9,7 +9,7 @@ alphaMixed: proportion with: aColor
 		min: 1.0
 		max: 0.0.
 	frac2 := 1.0 - frac1.
-	^ Color 
+	^ self class 
 		r: self red * frac1 + (aColor red * frac2)
 		g: self green * frac1 + (aColor green * frac2)
 		b: self blue * frac1 + (aColor blue * frac2)

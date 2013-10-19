@@ -1,3 +1,3 @@
 quiteBlacker
 
-	^ self alphaMixed: 0.8 with: Color black
+	^ self alphaMixed: 0.8 with: (ColorRegistry at: #black)

@@ -12,9 +12,9 @@ colorFromPixelValue: p depth: d
 		g := (p bitShift: -5) bitAnd: 31.
 		b := p bitAnd: 31.
 		(r = 0 and: [ g = 0 ]) ifTrue: 
-			[ b = 0 ifTrue: [ ^ Color transparent ].
-			b = 1 ifTrue: [ ^ Color black ] ].
-		^ Color 
+			[ b = 0 ifTrue: [ ^ self transparent ].
+			b = 1 ifTrue: [ ^ self black ] ].
+		^ self 
 			r: r
 			g: g
 			b: b
@@ -25,17 +25,17 @@ colorFromPixelValue: p depth: d
 		g := (p bitShift: -8) bitAnd: 255.
 		b := p bitAnd: 255.
 		alpha := p bitShift: -24.
-		alpha = 0 ifTrue: [ ^ Color transparent ].
-		(r = 0 and: [ g = 0 and: [ b = 0 ] ]) ifTrue: [ ^ Color transparent ].
+		alpha = 0 ifTrue: [ ^ self transparent ].
+		(r = 0 and: [ g = 0 and: [ b = 0 ] ]) ifTrue: [ ^ self transparent ].
 		alpha < 255 
 			ifTrue: 
-				[ ^ (Color 
+				[ ^ (self 
 					r: r
 					g: g
 					b: b
 					range: 255) alpha: alpha asFloat / 255.0 ]
 			ifFalse: 
-				[ ^ Color 
+				[ ^ self 
 					r: r
 					g: g
 					b: b
@@ -45,7 +45,7 @@ colorFromPixelValue: p depth: d
 		r := (p bitShift: -8) bitAnd: 15.
 		g := (p bitShift: -4) bitAnd: 15.
 		b := p bitAnd: 15.
-		^ Color 
+		^ self 
 			r: r
 			g: g
 			b: b
@@ -55,7 +55,7 @@ colorFromPixelValue: p depth: d
 		r := (p bitShift: -6) bitAnd: 7.
 		g := (p bitShift: -3) bitAnd: 7.
 		b := p bitAnd: 7.
-		^ Color 
+		^ self 
 			r: r
 			g: g
 			b: b

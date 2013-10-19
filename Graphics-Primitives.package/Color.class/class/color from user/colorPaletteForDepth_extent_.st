@@ -22,17 +22,17 @@ colorPaletteForDepth: depth extent: chartExtent
 		basicHue := Color h: h asFloat s: 1.0 v: 1.0.
 		y := transHt+1.
 		0 to: vSteps do: [ :n | | c |
- 			c := basicHue mixed: (n asFloat / vSteps asFloat) with: Color white.
+ 			c := basicHue mixed: (n asFloat / vSteps asFloat) with: self white.
 			palette fill: (x@y extent: 1@1) fillColor: c.
 			y := y + 1].
 		1 to: vSteps do: [ :n | | c |
- 			c := Color black mixed: (n asFloat / vSteps asFloat) with: basicHue.
+ 			c := self black mixed: (n asFloat / vSteps asFloat) with: basicHue.
 			palette fill: (x@y extent: 1@1) fillColor: c.
 			y := y + 1].
 		x := x + 1].
 	y := transHt + 1.
 	1 to: vSteps * 2 do: [ :n | | c |
- 		c := Color black mixed: (n asFloat / (vSteps*2) asFloat) with: Color white.
+ 		c := self black mixed: (n asFloat / (vSteps*2) asFloat) with: self white.
 		palette fill: (x@y extent: 10@1) fillColor: c.
 		y := y + 1].
 	^ palette

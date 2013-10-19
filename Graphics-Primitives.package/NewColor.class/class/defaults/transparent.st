@@ -1,2 +1,0 @@
-transparent
-  ^   ColorRegistry at: #transparent 

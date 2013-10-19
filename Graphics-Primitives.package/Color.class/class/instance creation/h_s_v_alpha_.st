@@ -1,3 +1,5 @@
-h: h s: s v: v alpha: alpha
-
-	^ (self h: h s: s v: v) alpha: alpha
+h: hue s: saturation v: brightness alpha: alpha
+	^ self basicNew
+		intializeHue: hue saturation: saturation brightness: brightness alpha: alpha ;
+		yourself 
+	

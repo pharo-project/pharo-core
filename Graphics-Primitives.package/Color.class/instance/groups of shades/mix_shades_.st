@@ -11,7 +11,7 @@ mix: color2 shades: thisMany
 	bb := self blue.
 	out := (1 to: thisMany) collect: 
 		[ :num | | c | 
-		c := Color 
+		c := self class 
 			r: rr
 			g: gg
 			b: bb.

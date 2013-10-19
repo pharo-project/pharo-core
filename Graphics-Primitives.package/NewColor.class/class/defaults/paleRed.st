@@ -1,2 +1,0 @@
-paleRed
-	^  ColorRegistry at: #paleRed

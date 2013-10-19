@@ -8,4 +8,4 @@ colorMapIfNeededFrom: sourceDepth to: destDepth
 		"mapping is done in BitBlt by zero-filling or truncating each color component"
 		^ nil].
 
-	^ Color cachedColormapFrom: sourceDepth to: destDepth
+	^ self cachedColormapFrom: sourceDepth to: destDepth

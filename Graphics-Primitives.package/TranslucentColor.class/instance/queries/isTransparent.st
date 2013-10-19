@@ -1,2 +1,0 @@
-isTransparent
-	^ alpha = 0

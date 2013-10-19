@@ -12,7 +12,7 @@ computeIndexedColorConvertingMap: targetColor from: sourceDepth to: destDepth
 					ifFalse: 
 						[ targetColor 
 							alphaMixed: f * 1.5
-							with: Color white ] ]
+							with: self white ] ]
 			ifFalse: [ cc ].
 		destDepth = 32 
 			ifTrue: [ c pixelValueForDepth: destDepth ]

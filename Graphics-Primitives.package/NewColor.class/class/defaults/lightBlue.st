@@ -1,2 +1,0 @@
-lightBlue
-	^ ColorRegistry at: #lightBlue

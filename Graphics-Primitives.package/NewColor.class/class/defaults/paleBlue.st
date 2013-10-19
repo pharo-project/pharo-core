@@ -1,2 +1,0 @@
-paleBlue
-	^  ColorRegistry at: #paleBlue 

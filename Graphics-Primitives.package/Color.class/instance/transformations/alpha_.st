@@ -1,5 +1,4 @@
-alpha: alphaValue 
+alpha: aFloat 
 	"Answer a new Color with the given amount of opacity ('alpha')."
 
-	alphaValue = 1.0
-		ifFalse: [^ TranslucentColor basicNew setRgb: rgb alpha: alphaValue]
+	^ self class r: self red g: self green b: self blue alpha: aFloat 

@@ -1,5 +1,5 @@
 initialize
-	"Color initialize
+	"self initialize
 	
 	Details: Externally, the red, green, and blue components of color
 	are floats in the range [0.0..1.0]. Internally, they are represented

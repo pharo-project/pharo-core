@@ -1,2 +1,2 @@
 asNontranslucentColor
-	^ self
+	^ self alpha: 1.0.

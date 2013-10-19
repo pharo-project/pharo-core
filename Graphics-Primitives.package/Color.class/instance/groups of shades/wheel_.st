@@ -7,7 +7,7 @@ wheel: thisMany
 	step := 360.0 / (thisMany max: 1).
 	^ (1 to: thisMany) collect: 
 		[ :num | | c | 
-		c := Color 
+		c := self class 
 			h: hue
 			s: sat
 			v: bri.	"hue is taken mod 360"

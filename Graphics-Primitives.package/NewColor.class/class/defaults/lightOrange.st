@@ -1,2 +1,0 @@
-lightOrange
-	^ ColorRegistry at: #lightOrange
