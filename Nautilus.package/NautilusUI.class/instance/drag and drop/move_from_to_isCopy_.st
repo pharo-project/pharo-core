@@ -9,5 +9,5 @@ move: item from: oldCategory to: newCategory isCopy: isCopy
 			item methodClass organization
 				classify: item selector
 				under: category 
-				suppressIfDefault: false.
+				suppressIfDefault: true.
 			self selectedMethod: item ] 

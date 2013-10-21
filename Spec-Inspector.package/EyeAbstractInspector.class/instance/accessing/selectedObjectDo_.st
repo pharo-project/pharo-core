@@ -1,3 +1,3 @@
 selectedObjectDo: aBlock
-	self selectedElement ifNotNilDo: [ :element |
+	self selectedElement ifNotNil: [ :element |
 		aBlock value: element value ]

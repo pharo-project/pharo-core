@@ -3,5 +3,8 @@ removeMethod: aMethod inClass: aClass
 	the currently selected message should be removed from the system. If 
 	so, remove it. "
 	
+	| result |
 	self okToChange ifFalse: [^ false].
-	^ super removeMethod: aMethod inClass: aClass
+	result := super removeMethod: aMethod inClass: aClass.
+	result ifTrue: [ self update ].
+	^result

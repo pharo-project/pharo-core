@@ -3,7 +3,7 @@ inspectionSubMenu: aMenu
 	aMenu 
 		add: 'Inspect (i)' translated
 		target: self
-		selector: #inspectSelectedObject.
+		selector: #inspectSelectedObjectInNewWindow.
 	
 	aMenu
 		add: 'Explore (I)' translated

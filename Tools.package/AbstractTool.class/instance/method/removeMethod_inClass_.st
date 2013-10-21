@@ -16,4 +16,6 @@ removeMethod: aMethod inClass: aClass
 	"In case organization not cached"
 	confirmation = 2
 		ifTrue: [self systemNavigation browseAllSendersOf: messageName].
+		
+	self removeEmptyUnclassifiedCategoryFrom: aClass.
 	^ true

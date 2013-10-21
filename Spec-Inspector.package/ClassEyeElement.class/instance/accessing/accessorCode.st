@@ -1,2 +1,2 @@
 accessorCode
-	^ super label
+	^ 'self class'
