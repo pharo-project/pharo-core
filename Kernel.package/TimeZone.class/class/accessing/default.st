@@ -1,5 +1,6 @@
 default
  	"Answer the default time zone - GMT"
  
- 	^ self timeZones detect: [ :tz | tz offset = Duration zero ]
+ 	^ self timeZones detect: [ :timeZone |
+		timeZone offset = Duration zero ]
  

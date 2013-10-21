@@ -1,0 +1,2 @@
+offset
+	^ self primOffset minutes

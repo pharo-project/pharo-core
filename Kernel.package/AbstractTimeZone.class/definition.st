@@ -1,5 +1,5 @@
-AbstractTimeZone subclass: #TimeZone
-	instanceVariableNames: 'offset abbreviation name'
+Object subclass: #AbstractTimeZone
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: 'ChronologyConstants'
 	category: 'Kernel-Chronology'
