@@ -1,4 +1,4 @@
 reset
 	"Reset the canvas."
 
-	super initWithTarget:self class defaultTarget.
+	self initWithTarget:self class defaultTarget.

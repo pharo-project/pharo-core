@@ -17,7 +17,7 @@ classFromPattern: pattern withCaption: aCaption
 			self environment
 				at: patternSymbol
 				ifPresent: [ :maybeClass | 
-					((maybeClass isKindOf: Class) or: [ maybeClass isKindOf: Trait ])
+					maybeClass isClassOrTrait
 						ifTrue: [ ^ maybeClass ] ] ].
 	toMatch := (toMatch copyWithout: $.) asLowercase.
 	potentialClassNames := (self environment classNames , self environment traitNames) asOrderedCollection.

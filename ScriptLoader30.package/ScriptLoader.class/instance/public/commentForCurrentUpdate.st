@@ -1,6 +1,7 @@
 commentForCurrentUpdate
- ^ '11916 openWithDialogWindow is broken
-	https://pharo.fogbugz.com/f/cases/11916
+ ^ '11962 Small Morphic-Core critic clean
+	https://pharo.fogbugz.com/f/cases/11962
 	
-11946 Add a way to specify an OK action on the EditableList widget
-	https://pharo.fogbugz.com/f/cases/11946'
+11921 add #isClass and #isClassOrTrait
+	https://pharo.fogbugz.com/f/cases/11921
+'

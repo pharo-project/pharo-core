@@ -1,0 +1,2 @@
+isClass
+	^ false

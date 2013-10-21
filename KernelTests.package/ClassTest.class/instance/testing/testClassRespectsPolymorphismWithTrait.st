@@ -24,7 +24,7 @@ testClassRespectsPolymorphismWithTrait
 		assertCollection: (Class localSelectors difference: Trait localSelectors)
 		equals: #(
 			#traitComposition: #setName: #baseClass #basicLocalSelectors 
-			#classClass #localSelectors #localSelectors: 
+			#classClass #localSelectors #localSelectors:  isClass
 			#basicLocalSelectors: #traitComposition #addInstVarNamed:
 			) asSet.
 		

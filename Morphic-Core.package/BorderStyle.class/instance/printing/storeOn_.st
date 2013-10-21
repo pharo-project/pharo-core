@@ -3,7 +3,10 @@ storeOn: aStream
 	receiver on the given stream."
 
 	aStream
-		nextPutAll: '(' , self class name;
-		nextPutAll: ' width: '; print: self width;
-		nextPutAll: ' color: '; print: self color;
+		nextPutAll: '(';
+		nextPutAll: self class name;
+		nextPutAll: ' width: ';
+		print: self width;
+		nextPutAll: ' color: ';
+		print: self color;
 		nextPutAll: ')'

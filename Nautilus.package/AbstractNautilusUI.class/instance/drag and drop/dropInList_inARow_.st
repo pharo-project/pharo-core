@@ -3,7 +3,7 @@ dropInList: aCollection inARow: aRow
 	
 	(aRow = 0) ifTrue: [ ^ self ].
 	receiver := self getList at: aRow.
-	( receiver isKindOf: Class )
+	receiver isClass
 		ifTrue: [ self selectedClass isMeta
 					ifTrue: [ receiver := receiver theMetaClass ]
 					ifFalse: [ receiver := receiver theNonMetaClass ]].

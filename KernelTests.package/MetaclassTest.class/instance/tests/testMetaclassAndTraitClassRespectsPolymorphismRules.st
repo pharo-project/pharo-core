@@ -24,6 +24,7 @@ testMetaclassAndTraitClassRespectsPolymorphismRules
 					#basicLocalSelectors.
 					#basicLocalSelectors:.
 					#classClass.
+					#isClass.
 					#environment.
 					#fileOutOn:moveSource:toFile:.
 					#fileOutOn:moveSource:toFile:initializing:.

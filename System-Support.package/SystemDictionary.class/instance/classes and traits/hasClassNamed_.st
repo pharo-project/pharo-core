@@ -3,5 +3,5 @@ hasClassNamed: aString
 
 	Symbol 
 		hasInterned: aString 
-		ifTrue:  [:aSymbol | ^ (self at: aSymbol ifAbsent: [nil]) isKindOf: Class].
+		ifTrue:  [:aSymbol | ^ (self at: aSymbol ifAbsent: [nil]) isClass].
 	^ false

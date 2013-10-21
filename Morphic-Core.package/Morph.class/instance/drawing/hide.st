@@ -1,3 +1,6 @@
 hide
-	owner ifNil: [^ self].
-	self visible ifTrue: [self visible: false.  self changed]
+	owner ifNil: [ ^ self ].
+	self visible
+		ifFalse: [ ^ self ].
+	self visible: false.
+	self changed
