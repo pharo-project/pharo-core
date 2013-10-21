@@ -5,4 +5,8 @@ objectChanged
 	
 	self text doItReceiver: self object. 
 	self description doItReceiver: self object.
+	  
+	self text doItContext: self doItContext. 
+	self description doItContext: self doItContext.
+	
 	

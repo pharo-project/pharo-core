@@ -12,5 +12,5 @@ loadTogether: aCollection merge: aBoolean
 				request autoMerge ]]
 		ifFalse: [
 			loader hasVersions 
-				ifTrue: [loader load]]
+				ifTrue: [ [loader load] on: MCMergeOrLoadWarning do: [:ex | ex resume: true]]]
 
