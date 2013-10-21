@@ -1,12 +1,7 @@
 commentForCurrentUpdate
- ^ '11958 Add support for window menu addition
-	https://pharo.fogbugz.com/f/cases/11958
+ ^ '11959 CMD+/ => Comment Selection or Line In PluggableTextMorph (Workspace, Nautilus code pane, ...)
+	https://pharo.fogbugz.com/f/cases/11959
 	
-11956 Move CompiledMethods deprecated methods to Deprecated30 package
-	https://pharo.fogbugz.com/f/cases/11956
-	
-11957 Move OpalCompiler deprecated methods to Deprecated30 package
-	https://pharo.fogbugz.com/f/cases/11957
-	
-11492 Kill UpdatingStringMorph, UpdatingMenu, and NameInHaloMorph
-	https://pharo.fogbugz.com/f/cases/11492'
+11903 unused MorphicUnknownEvent
+	https://pharo.fogbugz.com/f/cases/11903
+	'

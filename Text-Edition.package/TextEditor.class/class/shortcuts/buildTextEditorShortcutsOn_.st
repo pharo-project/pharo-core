@@ -1,5 +1,11 @@
 buildTextEditorShortcutsOn: aBuilder
 	<keymap>
+	
+	(aBuilder shortcut: #toggleCommentOnSelectionOrLine)
+		category: #TextEditor
+		shortcut: $/ ctrl win | $/ ctrl unix | $/ command mac
+		do: [ :target  | target handleEdit: [ target toggleCommentOnSelectionOrLine ] ].
+		
 	(aBuilder shortcut: #selectAll) 
 		category: #TextEditor
 		shortcut: $a ctrl win | $a ctrl unix | $a command mac
