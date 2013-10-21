@@ -1,7 +1,6 @@
 commentForCurrentUpdate
- ^ '11955 TabGroupMorph minExtent is broken
-	https://pharo.fogbugz.com/f/cases/11955
+ ^ '11916 openWithDialogWindow is broken
+	https://pharo.fogbugz.com/f/cases/11916
 	
-11961 non-send method accesses undeclared ivar in PackageTreePacakgeSelection
-	https://pharo.fogbugz.com/f/cases/11961
-'
+11946 Add a way to specify an OK action on the EditableList widget
+	https://pharo.fogbugz.com/f/cases/11946'

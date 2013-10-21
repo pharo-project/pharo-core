@@ -4,3 +4,4 @@ initialize
 	title := 'Title' asValueHolder.
 	
 	super initialize.
+	okBlock := [ ].
