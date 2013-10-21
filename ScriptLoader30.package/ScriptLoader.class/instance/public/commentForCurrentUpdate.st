@@ -1,3 +1,7 @@
 commentForCurrentUpdate
- ^ '7444 Synchronizing DateAndTime with system OS date and time
-	https://pharo.fogbugz.com/f/cases/7444/'
+ ^ '11955 TabGroupMorph minExtent is broken
+	https://pharo.fogbugz.com/f/cases/11955
+	
+11961 non-send method accesses undeclared ivar in PackageTreePacakgeSelection
+	https://pharo.fogbugz.com/f/cases/11961
+'
