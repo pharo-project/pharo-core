@@ -1,3 +1,0 @@
-useSymbolFormat
-
-	format := #symbol.

@@ -3,7 +3,7 @@ addNameBeneath: outerRectangle string: aString
 
 	| namePosition w |
 	w := self world ifNil:[target world].
-	nameMorph := NameStringInHalo contents: aString font: StandardFonts haloFont.
+	nameMorph := StringMorph contents: aString font: StandardFonts haloFont.
 	nameMorph wantsYellowButtonMenu: false.
 	nameMorph color: Color black.
 	nameMorph useStringFormat; target: innerTarget; putSelector: #renameTo:.

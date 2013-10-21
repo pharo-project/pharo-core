@@ -10,9 +10,6 @@ popUpAt: aPoint forHand: hand in: aWorld allowKeyboard: aBoolean
 	self items isEmpty
 		ifTrue: [^ self].
 
-	(self submorphs
-		select: [:m | m isKindOf: UpdatingMenuItemMorph])
-		do: [:m | m updateContents].
 	self layoutItems.
 	"precompute width"
 	self

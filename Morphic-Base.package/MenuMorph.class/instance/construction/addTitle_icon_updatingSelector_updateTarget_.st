@@ -36,12 +36,11 @@ addTitle: aString icon: aForm updatingSelector: aSelector updateTarget: aTarget
 			aString asString
 				linesDo: [:line | titleContainer
 						addMorphBack: (StringMorph contents: line font: StandardFonts menuFont)]]
-		ifNotNil: [| usm | 
-			usm := UpdatingStringMorph on: aTarget selector: aSelector.
-			usm font: StandardFonts menuFont.
-			usm useStringFormat.
-			usm lock.
-			titleContainer addMorphBack: usm].
+		ifNotNil: [| stringMorph | 
+			stringMorph := (aTarget perform: aSelector) asStringMorph.
+			stringMorph font: StandardFonts menuFont.
+			stringMorph lock.
+			titleContainer addMorphBack: stringMorph].
 	""
 	title setProperty: #titleString toValue: aString.
 	self addMorphFront: title.

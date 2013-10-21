@@ -1,3 +1,0 @@
-getSelector
-
-	^ getSelector

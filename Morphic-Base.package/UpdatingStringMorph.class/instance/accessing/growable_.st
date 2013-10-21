@@ -1,3 +1,0 @@
-growable: aBoolean
-
-	growable := aBoolean.
