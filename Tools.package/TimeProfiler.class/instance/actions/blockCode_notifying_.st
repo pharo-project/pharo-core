@@ -8,10 +8,11 @@ blockCode: aString notifying: aRequestor
 	compiledMethod ifNil: [^ self].
 	self showResult: ( compiledMethod valueWithReceiver: self arguments: #()).
 	self changed: #blockCode.
-	self changed: #rootNodes.
 	self changed: #summaryText.
 	self changed: #fullReport.
 	self selection: nil.
+	self updateList.
 	self startState.
+	
 
 	

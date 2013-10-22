@@ -1,2 +1,2 @@
 deselectAll
-	self changed: #deselectAll
+	self  requestView: MorphTreeChangeRequest deselectAll

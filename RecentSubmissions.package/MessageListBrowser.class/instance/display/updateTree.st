@@ -1,5 +1,5 @@
 updateTree
 	| prevSelected |
 	prevSelected := self selectedItem.
-	self changed: #rootNodes.
-	prevSelected ifNotNil: [self selectItems: prevSelected]
+	self updateList.
+	prevSelected ifNotNil: [self selectItems: (Array with: prevSelected)]

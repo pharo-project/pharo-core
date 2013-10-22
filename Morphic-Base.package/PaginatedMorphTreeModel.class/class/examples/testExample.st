@@ -11,5 +11,5 @@ testExample
 	treeMorph buildContents.
 	aWindow addMorph: treeMorph fullFrame: (LayoutFrame fractions: (0 @ 0 corner: 1 @ 1) offsets: (0 @ 0 corner: 0 @ 0)).
 	aWindow open.
-	aModel changed: #(#rootNodes #openItemPath 40).
+	aModel expandItemPath: {40}.
 	self assert: treeMorph pager currentPage == 2

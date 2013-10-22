@@ -1,0 +1,2 @@
+changeListRequest: anAnnounce
+	self updateList

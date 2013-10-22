@@ -1,6 +1,6 @@
 treeMorph
 	| treeMorph |
-	treeMorph := (LazyMorphTreeMorph on: self)
+	treeMorph := (MorphTreeMorph on: self)
 				beMultiple;
 				columns: {
 					MorphTreeColumn new startWidth: 300; rowMorphGetSelector: #classButton; headerButtonLabel: 'Class' font:  nil.

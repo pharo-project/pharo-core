@@ -1,10 +1,8 @@
 commentForCurrentUpdate
- ^ '11965 Remove RPackageSetTest
-	https://pharo.fogbugz.com/f/cases/11965
+ ^ '11969 Move some methods from Opal to AST
+	https://pharo.fogbugz.com/f/cases/11969
 	
-11966 failing tests testLocalMethodsOfTheClassShouldNotBeRepeatedInItsTraits and testBehaviorRespectsPolymorphismWithTraitBehavior
-	https://pharo.fogbugz.com/f/cases/11966
-	
-11967 failing test: testUnknownProcesses
-	https://pharo.fogbugz.com/f/cases/11967
+11954 MorphTreeMorph selection cleanup
+	https://pharo.fogbugz.com/f/cases/11954
+
 '

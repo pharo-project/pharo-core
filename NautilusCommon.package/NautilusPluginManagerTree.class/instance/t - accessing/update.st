@@ -1,3 +1,3 @@
 update
 
-	self changed: #rootNodes
+	self updateList

@@ -1,3 +1,3 @@
 chunkSize: anIntegerOrNil
 	self setPageSize: anIntegerOrNil.
-	self changed: #chunkSize
+	self announce: (MorphTreeChangeRequest chunkSize: anIntegerOrNil)

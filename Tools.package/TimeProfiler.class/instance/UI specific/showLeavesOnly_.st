@@ -4,4 +4,4 @@ showLeavesOnly: aBoolean
 			treeMorph treeLineWidth: (aBoolean ifTrue: [0] ifFalse: [1]).
 			showLeavesOnly := aBoolean.
 			self changed: #showLeavesOnly.
-			self changed: #rootNodes]
+			self updateList]

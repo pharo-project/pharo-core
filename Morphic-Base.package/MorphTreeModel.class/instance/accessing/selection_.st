@@ -1,3 +1,0 @@
-selection: aSelection
-	self setSelection: aSelection.
-	self changed: #selection.

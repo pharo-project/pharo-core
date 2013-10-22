@@ -1,3 +1,3 @@
 pageSize: anIntegerOrNil
 	self setPageSize: anIntegerOrNil.
-	self changed: #pageSize
+	self announce: (MorphTreeChangeRequest pageSize: anIntegerOrNil)

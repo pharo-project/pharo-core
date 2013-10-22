@@ -1,2 +1,2 @@
 openPathFrom: aNode
-	self changed: { #rootNodes. #openNodeRecursively. aNode}
+	self expandNodePath: aNode path

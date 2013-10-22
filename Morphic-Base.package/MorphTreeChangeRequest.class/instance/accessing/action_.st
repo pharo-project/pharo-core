@@ -1,0 +1,2 @@
+action: aSymbol
+	action := aSymbol

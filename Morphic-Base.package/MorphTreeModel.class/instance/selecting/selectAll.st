@@ -1,2 +1,2 @@
 selectAll
-	self changed: #selectAll
+	self requestView: MorphTreeChangeRequest selectAll
