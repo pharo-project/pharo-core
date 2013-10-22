@@ -1,8 +1,9 @@
 commentForCurrentUpdate
- ^ '11969 Move some methods from Opal to AST
-	https://pharo.fogbugz.com/f/cases/11969
+ ^ '11970 simplify #privateFullMoveBy: and fix Halos
+	https://pharo.fogbugz.com/f/cases/11970
 	
-11954 MorphTreeMorph selection cleanup
-	https://pharo.fogbugz.com/f/cases/11954
-
-'
+11971 PackageTreeNautilus drag and drop on the package tree
+	https://pharo.fogbugz.com/f/cases/resolve/11971
+	
+11795 RBBrowserEnvironment packages method is too broad
+	https://pharo.fogbugz.com/f/cases/11795'

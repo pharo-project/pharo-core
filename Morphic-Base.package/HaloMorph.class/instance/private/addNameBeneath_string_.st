@@ -6,7 +6,7 @@ addNameBeneath: outerRectangle string: aString
 	nameMorph := StringMorph contents: aString font: StandardFonts haloFont.
 	nameMorph wantsYellowButtonMenu: false.
 	nameMorph color: Color black.
-	nameMorph useStringFormat; target: innerTarget; putSelector: #renameTo:.
+	nameMorph target: innerTarget.
 	namePosition := outerRectangle bottomCenter -
 		((nameMorph width // 2) @ (self handleSize negated // 2 - 1)).
 	nameMorph position: (namePosition min: w viewBox bottomRight - nameMorph extent y + 2).
