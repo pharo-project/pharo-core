@@ -1,9 +1,6 @@
 testObsoleteClasses
 	| obsoleteClasses |
 	
-	"Ensure the environment is clean"
-	3 timesRepeat: [ Smalltalk garbageCollect ].
-	
 	Smalltalk fixObsoleteReferences.
 	obsoleteClasses := SystemNavigation new obsoleteClasses
 		select: [ :each | each isAnonymous not ].

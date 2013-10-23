@@ -5,9 +5,7 @@ fixObsoleteReferences
 			self error:'Still have obsolete behaviors. See inspector']"
 
 	| obsoleteBindings obsName realName realClass |
-	Smalltalk
-		garbageCollect;
-		garbageCollect.
+	Smalltalk garbageCollect.
 	CompiledMethod allInstances
 		do: [ :method | 
 			obsoleteBindings := method literals
@@ -20,8 +18,7 @@ fixObsoleteReferences
 						traceCr: obsName.
 					realName := obsName copyReplaceAll: 'AnObsolete' with: ''.
 					realClass := Smalltalk globals at: realName asSymbol ifAbsent: [ UndefinedObject ].
-					binding key: binding key value: realClass ] ].
+					binding key: binding key value: realClass ].
+			"do not forget to flush the JIT cache"
+			obsoleteBindings ifNotEmpty: [ method flushCache ]].
 	Behavior flushObsoleteSubclasses.
-	Smalltalk
-		garbageCollect;
-		garbageCollect
