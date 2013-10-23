@@ -1,4 +1,3 @@
 visitBlockNode: aBlockNode 
 
-	super visitBlockNode: aBlockNode.
-	methodBuilder popTop.
+	"A block has no side effect, so a block translated for effect just doesn't generate anything" 

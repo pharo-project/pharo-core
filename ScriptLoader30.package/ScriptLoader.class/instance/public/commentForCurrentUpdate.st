@@ -1,4 +1,3 @@
 commentForCurrentUpdate
- ^ '11694 Trait methods wrong after recompiling the image
-	https://pharo.fogbugz.com/f/cases/11694
-	'
+ ^ '11975 Sync with Opal Repository
+	https://pharo.fogbugz.com/f/cases/11975'

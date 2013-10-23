@@ -1,3 +1,3 @@
 markRead
-
-	(usage isNil or: [usage = #arg]) ifTrue: [usage := #read]
+	"reading does not change a #write, nor an #arg"
+	usage ifNil: [usage := #read]

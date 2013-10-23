@@ -1,2 +1,2 @@
 isRead
-	^usage = #read
+	^usage = #read or: [ usage = #arg ] "we treat arguments as read by default"
