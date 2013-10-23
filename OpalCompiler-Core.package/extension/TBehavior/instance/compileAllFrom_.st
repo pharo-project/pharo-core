@@ -3,5 +3,5 @@ compileAllFrom: oldClass
 	This validates sourceCode and variable references and forces
 	all methods to use the current bytecode set"
 	
-	oldClass selectorsDo: [:sel | self recompile: sel from: oldClass].
+	oldClass localSelectorsDo: [:sel | self recompile: sel from: oldClass].
 	
