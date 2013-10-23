@@ -1,2 +1,2 @@
 asZnMimeType
-	^ ZnMimeType main: self main sub: self
+	^ ZnMimeType main: self main sub: self sub

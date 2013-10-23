@@ -1,2 +1,2 @@
 applicationJavascript
-	^ self predefinedInstanceAt: #applicationJavascript
+	^ self main: 'application' sub: 'javascript'

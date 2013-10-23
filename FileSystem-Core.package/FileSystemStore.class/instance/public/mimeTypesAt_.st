@@ -1,2 +1,6 @@
 mimeTypesAt: aPath
-	^ MIMEType forExtensionReturnMimeTypesOrNil: aPath extension
+	| mimeType |
+	mimeType := ZnMimeType 
+						forFilenameExtension: aPath extension 
+						ifAbsent: [  ^ nil ].
+	^ Array with: mimeType

@@ -1,2 +1,2 @@
 applicationXml
-	^ self predefinedInstanceAt: #applicationXml
+	^ self main: 'application' sub: 'xml'

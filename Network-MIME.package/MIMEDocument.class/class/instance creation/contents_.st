@@ -1,2 +1,4 @@
 contents: aString
-	^self contents: aString mimeType: MIMEType defaultStream
+	^ self 
+		contents: aString 
+		mimeType: self defaultMIMEType

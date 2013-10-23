@@ -1,2 +1,2 @@
 applicationJson
-	^ self predefinedInstanceAt: #applicationJson
+	^ self main: 'application' sub: 'json'

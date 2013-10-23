@@ -1,2 +1,2 @@
 applicationFormUrlEncoded
-	^ self predefinedInstanceAt: #applicationFormUrlEncoded
+	^ self main: 'application' sub: 'x-www-form-urlencoded'

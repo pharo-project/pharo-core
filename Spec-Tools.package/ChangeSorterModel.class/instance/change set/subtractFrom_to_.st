@@ -1,3 +1,3 @@
-substractFrom: source to: destination
+subtractFrom: source to: destination
 
 	source forgetAllChangesFoundIn: destination.

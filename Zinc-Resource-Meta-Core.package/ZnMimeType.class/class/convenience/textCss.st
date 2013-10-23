@@ -1,2 +1,2 @@
 textCss
-	^ self predefinedInstanceAt: #textCss
+	^ self main: 'text' sub: 'css'

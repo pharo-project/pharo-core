@@ -1,2 +1,2 @@
 applicationPdf
-	^ self predefinedInstanceAt: #applicationPdf
+	^ self main: 'application' sub: 'pdf'

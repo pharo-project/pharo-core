@@ -1,2 +1,2 @@
 defaultMIMEType
-	^MIMEType fromMIMEString: 'application/octet-stream'
+	^ ZnMimeType default

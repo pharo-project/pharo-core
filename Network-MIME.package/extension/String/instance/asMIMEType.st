@@ -1,2 +1,2 @@
 asMIMEType
-	^MIMEType fromMIMEString: self
+	^ self asZnMimeType

@@ -1,2 +1,2 @@
 asMIMEType
-	^self
+	^ self asZnMimeType 

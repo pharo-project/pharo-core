@@ -1,2 +1,2 @@
 imageJpeg
-	^ self predefinedInstanceAt: #imageJpeg
+	^ self main: 'image' sub: 'jpeg'

@@ -5,5 +5,5 @@ initializeStandardMIMETypes
 	self standardMIMETypes keysAndValuesDo:[:extension :mimeStrings |
 		StandardMIMEMappings
 			at: extension asString asLowercase
-			put: (mimeStrings collect: [:mimeString | MIMEType fromMIMEString: mimeString]).
+			put: (mimeStrings collect: [:mimeString | self fromMIMEString: mimeString]).
 	].

@@ -1,2 +1,4 @@
 contentStream: aStream
-	^self contentStream: aStream mimeType: MIMEType defaultStream
+	^ self 
+		contentStream: aStream 
+		mimeType: self defaultMIMEType

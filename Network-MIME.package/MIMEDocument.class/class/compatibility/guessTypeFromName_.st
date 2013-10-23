@@ -1,3 +1,8 @@
 guessTypeFromName: url
 	"guesses a content type from the url"
-	^ MIMEType forFileNameReturnSingleMimeTypeOrNil: url asString
+	
+	| extension |
+	extension := url asString copyAfterLast: $..
+	^ ZnMimeType
+		forFilenameExtension: extension
+		ifAbsent: [ nil ]

@@ -6,6 +6,6 @@ subtractFrom: src to: dest
 	
 	self checkThatSidesDiffer: [^ self].
 	
-	self model substractFrom: source to: destination.
+	self model subtractFrom: source to: destination.
 	
 	changeSorterRight setSelectedChangeSet: source.

@@ -1,4 +1,4 @@
 forFilenameExtension: extension
-	^ ExtensionsMap 
-		at: extension 
+	^ self 
+		forFilenameExtension: extension 
 		ifAbsent: [ self default ]
