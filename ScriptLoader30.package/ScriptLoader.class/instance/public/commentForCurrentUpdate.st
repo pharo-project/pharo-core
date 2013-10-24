@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '11964 Update Zinc-Resource-Meta-Core
-	https://pharo.fogbugz.com/f/cases/11964
+ ^ '11982 testExplicitRequirementMethodsShouldBeImp...
+	https://pharo.fogbugz.com/f/cases/11982
 	
-4255 Deprecate MIMEType
-	https://pharo.fogbugz.com/f/cases/4255
+11991 remove #recompileAllFrom:
+	https://pharo.fogbugz.com/f/cases/11991
 	
-11981 Typo in two comments of NotFound
-	https://pharo.fogbugz.com/f/cases/11981
-	
-11979 Typo in ChangeSorterModel>>substractFrom:to:
-	https://pharo.fogbugz.com/f/cases/11979'
+11988 MorphTreeMorph incorrect bounds
+	https://pharo.fogbugz.com/f/cases/11988'

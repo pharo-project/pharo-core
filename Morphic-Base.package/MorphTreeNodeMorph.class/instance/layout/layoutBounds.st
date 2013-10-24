@@ -5,4 +5,4 @@ layoutBounds
 	
 	lb := super layoutBounds.
 	container ifNil: [ ^ lb ].
-	^ lb withLeft: lb left + self spacerWidth
+	^ (lb left: (lb left + self spacerWidth)) right: (lb right max: lb left + self spacerWidth)
