@@ -1,9 +1,5 @@
 commentForCurrentUpdate
- ^ '11982 testExplicitRequirementMethodsShouldBeImp...
-	https://pharo.fogbugz.com/f/cases/11982
+ ^ '11995 MenuMorph>>addList: sends #iconNamed: to an instance of Pharo3Theme, which raises a warning of deprecation.
+	https://pharo.fogbugz.com/f/cases/11995
 	
-11991 remove #recompileAllFrom:
-	https://pharo.fogbugz.com/f/cases/11991
-	
-11988 MorphTreeMorph incorrect bounds
-	https://pharo.fogbugz.com/f/cases/11988'
+#localSelectors add to Trait so cleanup is possible in a second step'
