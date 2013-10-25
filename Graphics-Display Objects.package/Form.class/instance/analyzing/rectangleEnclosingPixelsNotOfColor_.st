@@ -9,12 +9,12 @@ rectangleEnclosingPixelsNotOfColor: aColor
 
 	"build a 1-pixel high horizontal slice and BitBlts for counting pixels of interest"
 	slice := Form extent: width@1 depth: 1.
-	copyBlt := (BitBlt current toForm: slice)
+	copyBlt := (BitBlt toForm: slice)
 		sourceForm: self;
 		combinationRule: Form over;
 		destX: 0 destY: 0 width: width height: 1;
 		colorMap: cm.
-	countBlt := (BitBlt current toForm: slice)
+	countBlt := (BitBlt toForm: slice)
 		fillColor: (Bitmap with: 0);
 		destRect: (0@0 extent: slice extent);
 		combinationRule: 32.

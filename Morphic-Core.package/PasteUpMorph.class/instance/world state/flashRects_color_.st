@@ -3,7 +3,7 @@ flashRects: rectangleList color: aColor
 	"Details: Uses two reverses so that the display is restored to its original state. This is necessary when in deferred update mode."
 
 	| blt |
-	blt := (BitBlt current toForm: Display)
+	blt := (BitBlt toForm: Display)
 		sourceForm: nil;
 		sourceOrigin: 0@0;
 		clipRect: self viewBox;

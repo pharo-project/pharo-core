@@ -3,7 +3,7 @@ border: rect width: borderWidth rule: rule fillColor: fillColor
 width of the border of each side is borderWidth. Uses fillColor for drawing
 the border."
         | blt |
-        blt := (BitBlt current toForm: self) combinationRule: rule; fillColor: fillColor.
+        blt := (BitBlt toForm: self) combinationRule: rule; fillColor: fillColor.
         blt sourceOrigin: 0@0.
         blt destOrigin: rect origin.
         blt width: rect width; height: borderWidth; copyBits.

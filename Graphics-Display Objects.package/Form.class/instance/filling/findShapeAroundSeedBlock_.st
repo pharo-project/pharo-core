@@ -8,7 +8,7 @@ findShapeAroundSeedBlock: seedBlock
 	self assert: [self depth > 1]. "Only meaningful for B/W forms."
 	all := self boundingBox.
 	smearForm := Form extent: self extent.
-	smearPort := BitBlt current toForm: smearForm.
+	smearPort := BitBlt toForm: smearForm.
 	seedBlock value: smearForm.		"Blacken seeds to be smeared"
 	smearPort copyForm: self to: 0 @ 0 rule: Form erase.  "Clear any in black"
 	previousSmear := smearForm deepCopy.

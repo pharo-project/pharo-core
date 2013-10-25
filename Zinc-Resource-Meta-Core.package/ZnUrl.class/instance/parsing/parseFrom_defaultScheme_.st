@@ -10,10 +10,10 @@ parseFrom: string defaultScheme: defaultScheme
 		ifTrue: [
 			self query: (ZnResourceMetaUtils parseQueryFrom: (ReadStream on: string from: index + 1 to: end)).
 			end := index - 1 ].
-	(index := string indexOfSubCollection: '://') > 0
+	(index := string indexOf: $:) > 0
 		ifTrue: [
 			self scheme: (string copyFrom: 1 to: index - 1).
-			start := index + 3 ]
+			start := index + ((string indexOfSubCollection: '://') > 0 ifTrue: [ 3 ] ifFalse: [ 1 ]) ]
 		ifFalse: [ 
 			defaultScheme ifNotNil: [ self scheme: defaultScheme ] ].
 	self hasScheme 

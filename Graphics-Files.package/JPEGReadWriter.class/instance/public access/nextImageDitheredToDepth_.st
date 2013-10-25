@@ -10,7 +10,7 @@ nextImageDitheredToDepth: depth
 	form := Form 
 		extent: width @ height
 		depth: depth.
-	bb := BitBlt current toForm: form.
+	bb := BitBlt toForm: form.
 	bb sourceForm: mcuImageBuffer.
 	bb colorMap: (mcuImageBuffer colormapIfNeededFor: form).
 	bb sourceRect: mcuImageBuffer boundingBox.

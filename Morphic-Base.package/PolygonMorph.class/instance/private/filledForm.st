@@ -6,7 +6,7 @@ filledForm
 	filledForm := Form extent: bounds extent+2.
 
 	"Draw the border..."
-	bb := (BitBlt current toForm: filledForm) sourceForm: nil; fillColor: Color black;
+	bb := (BitBlt toForm: filledForm) sourceForm: nil; fillColor: Color black;
 			combinationRule: Form over; width: 1; height: 1.
 	origin := bounds topLeft asIntegerPoint-1.
 	self lineSegmentsDo: [:p1 :p2 | bb drawFrom: p1 asIntegerPoint-origin

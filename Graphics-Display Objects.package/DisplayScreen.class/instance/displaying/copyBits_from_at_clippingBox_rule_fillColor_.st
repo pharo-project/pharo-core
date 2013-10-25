@@ -1,5 +1,5 @@
 copyBits: rect from: sf at: destOrigin clippingBox: clipRect rule: cr fillColor: hf 
-	(BitBlt current
+	(BitBlt
 		destForm: self
 		sourceForm: sf
 		fillColor: hf

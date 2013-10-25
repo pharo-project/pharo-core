@@ -9,12 +9,12 @@ pixelCompare: aRect with: otherForm at: otherLoc
 	pixPerWord := 32//self depth.
 	(aRect left\\pixPerWord = 0 and: [aRect right\\pixPerWord = 0]) ifTrue:
 		["If word-aligned, use on-the-fly difference"
-		^ (BitBlt current toForm: self) copy: aRect from: otherLoc in: otherForm
+		^ (BitBlt toForm: self) copy: aRect from: otherLoc in: otherForm
 				fillColor: nil rule: 32].
 	"Otherwise, combine in a word-sized form and then compute difference"
 	temp := self copy: aRect.
 	temp copy: aRect from: otherLoc in: otherForm rule: 21.
-	^ (BitBlt current toForm: temp) copy: aRect from: otherLoc in: nil
+	^ (BitBlt toForm: temp) copy: aRect from: otherLoc in: nil
 				fillColor: (Bitmap with: 0) rule: 32
 "  Dumb example prints zero only when you move over the original rectangle...
  | f diff | f := Form fromUser.

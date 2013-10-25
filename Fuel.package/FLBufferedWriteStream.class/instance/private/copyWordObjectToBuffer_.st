@@ -2,7 +2,7 @@ copyWordObjectToBuffer: aWordObject
 
 	| blt |
 	
-	blt := (BitBlt current
+	blt := (BitBlt
 				toForm: (Form new hackBits: self buffer))
 				sourceForm: (Form new hackBits: aWordObject).
 	blt combinationRule: Form over. "store"

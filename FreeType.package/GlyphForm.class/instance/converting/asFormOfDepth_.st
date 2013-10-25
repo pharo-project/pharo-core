@@ -2,7 +2,7 @@ asFormOfDepth: d
 	| newForm |
 	d = self depth ifTrue:[^self].
 	newForm := self class extent: self extent depth: d.
-	(BitBlt current toForm: newForm)
+	(BitBlt toForm: newForm)
 		colorMap: (self colormapIfNeededFor: newForm);
 		copy: (self boundingBox)
 		from: 0@0 in: self

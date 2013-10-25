@@ -1,7 +1,7 @@
 tallyPixelValuesInRect: destRect into: valueTable
 	"Tally the selected pixels of this Form into valueTable, a Bitmap of depth 2^depth similar to a color map. Answer valueTable."
 
-	(BitBlt current toForm: self)
+	(BitBlt toForm: self)
 		sourceForm: self;  "src must be given for color map ops"
 		sourceOrigin: 0@0;
 		tallyMap: valueTable;

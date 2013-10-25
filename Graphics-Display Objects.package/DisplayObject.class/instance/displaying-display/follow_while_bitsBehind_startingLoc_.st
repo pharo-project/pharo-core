@@ -5,9 +5,9 @@ follow: locationBlock while: durationBlock bitsBehind: initialBitsBehind startin
    location := loc.
    rect1 := location extent: self extent.
    save1 := initialBitsBehind.
-   save1Blt := BitBlt current toForm: save1.
+   save1Blt := BitBlt toForm: save1.
    buffer := Form extent: self extent*2 depth: Display depth.  "Holds overlapping region"
-   bufferBlt := BitBlt current toForm: buffer.
+   bufferBlt := BitBlt toForm: buffer.
 
    Display deferUpdates: true.
    self displayOn: Display at: location rule: Form paint.

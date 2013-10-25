@@ -1,7 +1,7 @@
 copyPixelsGrayAlpha: y 
 	"Handle non-interlaced grayscale with alpha color mode (colorType = 4)"
 	| i pixel gray b |
-	b := BitBlt current bitPokerToForm: form.
+	b := BitBlt bitPokerToForm: form.
 	bitsPerChannel = 8 
 		ifTrue: 
 			[ 0 

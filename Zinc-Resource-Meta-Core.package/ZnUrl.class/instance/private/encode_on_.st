@@ -1,2 +1,2 @@
 encode: string on: stream
-	stream nextPutAll: (ZnPercentEncoder new encode: string)
+	stream nextPutAll: (ZnResourceMetaUtils encodePercent: string encoding: 'utf-8')

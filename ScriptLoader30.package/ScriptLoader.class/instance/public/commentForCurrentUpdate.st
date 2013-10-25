@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '11938 A lot of empty Spec packages which should be deleted
-	https://pharo.fogbugz.com/f/cases/11938
+ ^ '- Issue: 12009 BitBlt current -> BitBlt
+	https://pharo.fogbugz.com/f/cases/12009/BitBlt-current-BitBlt
+	
+- Issue: 12013: Zinc Character Encoding and Resource Meta update
+	https://pharo.fogbugz.com/f/cases/12013/
 
-12003 UIManager small cleanup
-	https://pharo.fogbugz.com/f/cases/12003
-
-12006 RPackage/RPackageTag get out of sync on class rename
-	https://pharo.fogbugz.com/f/cases/12006/'
+- Issue: 12014 Extract History from Nautilus-History
+	https://pharo.fogbugz.com/f/cases/12014/'

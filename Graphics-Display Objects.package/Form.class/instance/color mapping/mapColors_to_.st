@@ -11,7 +11,7 @@ mapColors: oldColorBitsCollection to: newColorBits
 			map := Color computeRGBColormapFor: self depth bitsPerColor: 5].
 	oldColorBitsCollection do:[ :oldColor | map at: oldColor put: newColorBits].
 
-	(BitBlt current toForm: self)
+	(BitBlt toForm: self)
 		sourceForm: self;
 		sourceOrigin: 0@0;
 		combinationRule: Form over;

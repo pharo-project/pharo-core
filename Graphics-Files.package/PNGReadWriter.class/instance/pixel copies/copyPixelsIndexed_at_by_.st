@@ -29,7 +29,7 @@ copyPixelsIndexed: y at: startX by: incX
 		[ pixPerByte := 2.
 		mask := 15.
 		shifts := #(4 0 ) ].
-	blitter := BitBlt current bitPokerToForm: form.
+	blitter := BitBlt bitPokerToForm: form.
 	pixelNumber := 0.
 	startX 
 		to: width - 1

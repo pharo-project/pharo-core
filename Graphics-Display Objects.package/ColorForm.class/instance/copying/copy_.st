@@ -3,7 +3,7 @@ copy: aRect
 
 	| newForm |
 	newForm := self class extent: aRect extent depth: depth.
-	((BitBlt current
+	((BitBlt
 		destForm: newForm
 		sourceForm: self
 		fillColor: nil

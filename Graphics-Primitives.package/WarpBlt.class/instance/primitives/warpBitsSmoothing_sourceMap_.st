@@ -51,8 +51,8 @@ warpBitsSmoothing: n sourceMap: sourceMap
 			startFrom: p4y
 			to: p3y
 			offset: nSteps * deltaP43 y).
-	picker := BitBlt current bitPeekerFromForm: sourceForm.
-	poker := BitBlt current bitPokerToForm: destForm.
+	picker := BitBlt bitPeekerFromForm: sourceForm.
+	poker := BitBlt bitPokerToForm: destForm.
 	poker clipRect: self clipRect.
 	nSteps := width - 1 max: 1.
 	destY 

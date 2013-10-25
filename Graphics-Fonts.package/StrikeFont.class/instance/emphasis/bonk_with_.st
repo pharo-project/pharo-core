@@ -5,7 +5,7 @@ bonk: glyphForm with: bonkForm
 	"Uses the bonkForm to erase at every character boundary in glyphs."
 	| bb offset x |
 	offset := bonkForm offset x.
-	bb := BitBlt current toForm: glyphForm.
+	bb := BitBlt toForm: glyphForm.
 	bb
 		sourceForm: bonkForm;
 		sourceRect: bonkForm boundingBox;

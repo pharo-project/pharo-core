@@ -12,7 +12,7 @@ asGrayScale
 	map := Bitmap new: 256.
 	2 to: 256 do: [:i | map at: i put: i - 1].
 	map at: 1 put: 1.  "map zero pixel values to near-black"
-	bb := (BitBlt current toForm: result)
+	bb := (BitBlt toForm: result)
 		sourceForm: srcForm;
 		combinationRule: Form over;
 		colorMap: map.
@@ -24,7 +24,7 @@ asGrayScale
 	"final BitBlt to zero-out pixels that were truely transparent in the original"
 	map := Bitmap new: 512.
 	map at: 1 put: 16rFF.
-	(BitBlt current toForm: result)
+	(BitBlt toForm: result)
 		sourceForm: self;
 		sourceRect: self boundingBox;
 		destOrigin: 0@0;

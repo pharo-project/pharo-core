@@ -1,6 +1,6 @@
 copyBits: sourceForm at: destOrigin translucent: factor
 	"Make up a BitBlt table and copy the bits with the given colorMap."
-	(BitBlt current 
+	(BitBlt  
 		destForm: self
 		sourceForm: sourceForm
 		halftoneForm: nil

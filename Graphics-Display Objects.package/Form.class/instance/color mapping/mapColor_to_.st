@@ -5,7 +5,7 @@ mapColor: oldColor to: newColor
 	| map |
 	map := (Color cachedColormapFrom: self depth to: self depth) copy.
 	map at: (oldColor indexInMap: map) put: (newColor pixelWordForDepth: self depth).
-	(BitBlt current toForm: self)
+	(BitBlt toForm: self)
 		sourceForm: self;
 		sourceOrigin: 0@0;
 		combinationRule: Form over;

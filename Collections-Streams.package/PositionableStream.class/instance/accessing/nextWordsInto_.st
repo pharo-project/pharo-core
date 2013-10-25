@@ -17,7 +17,7 @@ nextWordsInto: aBitmap
 			pos := 0].
 
 	"Now use BitBlt to copy the bytes to the bitmap."
-	blt := (BitBlt current
+	blt := (BitBlt
 				toForm: (Form new hackBits: aBitmap))
 				sourceForm: (Form new hackBits: source).
 	blt combinationRule: Form over. "store"

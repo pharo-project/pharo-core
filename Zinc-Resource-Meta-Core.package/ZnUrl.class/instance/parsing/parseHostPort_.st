@@ -1,5 +1,5 @@
 parseHostPort: stream
-	| hostString |
+	| hostString portNumber |
 	self isFile
 		ifTrue: [ 
 			(hostString := stream upTo: $/) isEmpty
@@ -8,4 +8,7 @@ parseHostPort: stream
 			(hostString := stream upTo: $:) isEmpty
 				ifFalse: [ self host: (self decodePercent: hostString) ].
 			stream atEnd
-				ifFalse: [ self port: (Integer readFrom: stream ifFail: [ ZnPortNotANumber signal ]) ] ]
+				ifFalse: [
+					portNumber := Integer readFrom: stream ifFail: [ ZnPortNotANumber signal ].
+					(portNumber between: 1 and: 65535) ifFalse: [ DomainError signalFrom: 1 to: 65535 ].
+					self port: portNumber ] ]

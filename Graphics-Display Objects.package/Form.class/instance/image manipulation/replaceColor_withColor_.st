@@ -12,7 +12,7 @@ replaceColor: oldColor withColor: newColor
 		ifTrue: [ff := Form extent: self extent depth: depth.
 			ff fillWithColor: newColor.  ff]
 		ifFalse: [self].
-	(BitBlt current toForm: target)
+	(BitBlt toForm: target)
 		sourceForm: self;
 		sourceOrigin: 0@0;
 		combinationRule: Form paint;

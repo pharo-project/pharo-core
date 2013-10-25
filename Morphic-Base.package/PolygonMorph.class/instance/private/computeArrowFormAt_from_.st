@@ -7,7 +7,7 @@ computeArrowFormAt: endPoint from: priorPoint
 	pts := self arrowBoundsAt: endPoint from: priorPoint.
 	box := ((pts first rectangle: pts last) encompass: (pts second)) expandBy: 1.
 	arrowForm := Form extent: box extent asIntegerPoint.
-	bb := (BitBlt current toForm: arrowForm)
+	bb := (BitBlt toForm: arrowForm)
 				sourceForm: nil;
 				fillColor: Color black;
 				combinationRule: Form over;

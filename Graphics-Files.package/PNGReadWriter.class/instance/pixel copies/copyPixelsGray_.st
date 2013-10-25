@@ -5,7 +5,7 @@ copyPixelsGray: y
 	bitsPerChannel = 16 ifTrue: [
 		"Warning: This is extremely slow. Besides we are downsampling to 8 bits!"
 		| blitter |
-		blitter := BitBlt current bitPokerToForm: form.
+		blitter := BitBlt bitPokerToForm: form.
 		0 to: width - 1 do: [ :x |
 			blitter pixelAt: x @ y put: 255 - (thisScanline at: x * 2 + 1) ].
 			^self ].

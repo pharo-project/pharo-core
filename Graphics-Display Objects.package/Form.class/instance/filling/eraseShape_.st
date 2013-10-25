@@ -1,6 +1,6 @@
 eraseShape: bwForm
 	"use bwForm as a mask to clear all pixels where bwForm has 1's"
-	((BitBlt current destForm: self sourceForm: bwForm 
+	((BitBlt  destForm: self sourceForm: bwForm 
 		fillColor: nil
 		combinationRule: Form erase1bitShape	"Cut a hole in the picture with my mask"
 		destOrigin: bwForm offset 

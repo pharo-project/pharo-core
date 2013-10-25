@@ -2,7 +2,7 @@ copyPixelsGray: y at: startX by: incX
 	"Handle interlaced grayscale color mode (colorType = 0)"
 	| offset bits blitter pixPerByte shifts b pixel mask pixelNumber |
 	bitsPerChannel = 16 ifTrue: 
-		[ b := BitBlt current bitPokerToForm: form.
+		[ b := BitBlt bitPokerToForm: form.
 		startX 
 			to: width - 1
 			by: incX

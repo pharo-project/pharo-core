@@ -8,4 +8,4 @@ displayLine: aString at: aPoint
 		rule: Form over
 		fillColor: nil
 		kernDelta: 0
-		on: (BitBlt current toForm: Display).
+		on: (BitBlt toForm: Display).

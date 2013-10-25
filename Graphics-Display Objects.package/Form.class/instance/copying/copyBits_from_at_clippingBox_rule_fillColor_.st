@@ -1,7 +1,7 @@
 copyBits: sourceRect from: sourceForm at: destOrigin clippingBox: clipRect rule: rule fillColor: aForm 
 	"Make up a BitBlt table and copy the bits."
 
-	(BitBlt current 
+	(BitBlt  
 		destForm: self
 		sourceForm: sourceForm
 		fillColor: aForm
