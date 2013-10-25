@@ -1,4 +1,4 @@
-*NautilusCommon
+accessing
 packages
 
 	^ self packageOrganizer packages
