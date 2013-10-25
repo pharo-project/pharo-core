@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '11521 Error with soundEnabled:
+update30526
+	"self new update30526"
+	self withUpdateLog: '11521 Error with soundEnabled:
 	https://pharo.fogbugz.com/f/cases/11521
 	
 12010 trivial cleanup in Nautilus
@@ -7,4 +8,6 @@ commentForCurrentUpdate
 	
 11968 failing tests in RPackageReadOnlyCompleteSetupTest
 	https://pharo.fogbugz.com/f/cases/11968/
-	'
+	'.
+	self loadTogether: self script181 merge: false.
+	self flushCaches.

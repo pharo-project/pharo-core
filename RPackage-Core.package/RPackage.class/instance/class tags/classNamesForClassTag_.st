@@ -1,6 +1,6 @@
 classNamesForClassTag: aSymbol
 	"Returns the classes tagged using aSymbol"
 	
-	^ self 
+	^ (self 
 		classTagNamed: aSymbol 
-		ifAbsent: [ ^ #() ].
+		ifAbsent: [ ^ #() ]) classNames.
