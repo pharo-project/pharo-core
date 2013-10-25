@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '12001 moved some isKindOf: to isXXX
-	https://pharo.fogbugz.com/f/cases/12001
-	
-12004 delete empty packages
-	https://pharo.fogbugz.com/f/cases/12004
-	
-12002 DeepCopier>>isItTimeToCheckVariables is candidate to be removed	
-	https://pharo.fogbugz.com/f/cases/12002
-	
-12005 unload BaselineOfFileTree, BaselineOfMetacello
-	https://pharo.fogbugz.com/f/cases/12005'
+ ^ '11938 A lot of empty Spec packages which should be deleted
+	https://pharo.fogbugz.com/f/cases/11938
+
+12003 UIManager small cleanup
+	https://pharo.fogbugz.com/f/cases/12003
+
+12006 RPackage/RPackageTag get out of sync on class rename
+	https://pharo.fogbugz.com/f/cases/12006/'

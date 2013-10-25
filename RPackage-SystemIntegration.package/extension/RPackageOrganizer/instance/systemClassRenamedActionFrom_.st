@@ -6,7 +6,7 @@ systemClassRenamedActionFrom: ann
 	packageName := ann category.
 	oldName := ann oldName.
 	newName := ann newName.
-	rPackage := self packageNamed: packageName.
+	rPackage := self packageOfClassNamed: oldName.
 	extendingRPackages := self extendingPackagesOfClassNamed: oldName.
 	
 	rPackage updateDefinedClassNamed: oldName withNewName: newName.
