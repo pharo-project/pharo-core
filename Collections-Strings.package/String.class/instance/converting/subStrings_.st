@@ -3,7 +3,7 @@ subStrings: separators
 	by the elements of separators."
 	| result sourceStream subStringStream |
 	
-	(separators isString or: [ separators allSatisfy: [ :element | element isKindOf: Character ] ])
+	(separators isString or: [ separators allSatisfy: [ :element | element isCharacter ] ])
 		ifFalse: [ ^ self error: 'separators must be Characters.' ].
 	sourceStream := self readStream.
 	result := OrderedCollection new.

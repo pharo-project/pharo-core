@@ -1,5 +1,5 @@
 Object subclass: #DeepCopier
 	instanceVariableNames: 'references'
-	classVariableNames: 'NextVariableCheckTime'
+	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Kernel-Objects'

@@ -1,1 +1,0 @@
-A BaselineOfMetacello is xxxxxxxxx.

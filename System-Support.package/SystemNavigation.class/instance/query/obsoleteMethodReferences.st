@@ -9,19 +9,18 @@ obsoleteMethodReferences
 	'Scanning for methods referencing obsolete classes' 
 		displayProgressFrom: 0 to: obsClasses size
 		during: 
-			[:bar | 
+			[ :bar | 
 			obsClasses keysAndValuesDo: 
-					[:index :each | | obsRefs | 
+					[ :index :each | | obsRefs | 
 					bar current: index.
 					obsRefs := each pointersToExcept: obsClasses.
 					obsRefs do: 
-							[:ref | 
+							[ :ref | 
 							"Figure out if it may be a global"
-
 							(ref isVariableBinding and: [ref key isString	"or Symbol"]) 
 								ifTrue: 
 									[(ref pointersTo) do: 
 											[:meth | 
-											(meth isKindOf: CompiledMethod) 
+											meth isCompiledMethod
 												ifTrue: [meth methodReference ifNotNil: [:mref | references nextPut: mref]]]]]]].
-	^references contents
+	^ references contents

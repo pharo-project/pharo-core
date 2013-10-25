@@ -8,9 +8,9 @@ checkClass: aClass
 	(aClass includesSelector: #veryDeepInner:) ifTrue: [ 
 		((aClass compiledMethodAt: #veryDeepInner:) writesField: aClass instSize) ifFalse: [
 			aClass instSize > 0 ifTrue: [
-				self warnIverNotCopiedIn: aClass sel: #veryDeepInner:]]].
+				self warnInstanceVariableNotCopiedIn: aClass selector: #veryDeepInner:]]].
 	(aClass includesSelector: #veryDeepCopyWith:) ifTrue: [
 		meth := aClass compiledMethodAt: #veryDeepCopyWith:.
 		(meth size > 20) & (meth literals includes: #veryDeepCopyWith:) not ifTrue: [
 			(meth writesField: aClass instSize) ifFalse: [
-				self warnIverNotCopiedIn: aClass sel: #veryDeepCopyWith:]]].
+				self warnInstanceVariableNotCopiedIn: aClass selector: #veryDeepCopyWith:]]].

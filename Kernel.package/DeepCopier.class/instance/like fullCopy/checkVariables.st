@@ -10,11 +10,11 @@ checkVariables
 			((aClass compiledMethodAt: #veryDeepInner:) writesField: aClass instSize) 
 				ifFalse: 
 					[aClass instSize > 0 
-						ifTrue: [self warnIverNotCopiedIn: aClass sel: #veryDeepInner:]]].
+						ifTrue: [self warnInstanceVariableNotCopiedIn: aClass selector: #veryDeepInner:]]].
 	(self systemNavigation allClassesImplementing: #veryDeepCopyWith:) do: 
 			[:aClass | | meth |
 			meth := aClass compiledMethodAt: #veryDeepCopyWith:.
 			meth size > 20 & (meth literals includes: #veryDeepCopyWith:) not 
 				ifTrue: 
 					[(meth writesField: aClass instSize) 
-						ifFalse: [self warnIverNotCopiedIn: aClass sel: #veryDeepCopyWith:]]]
+						ifFalse: [self warnInstanceVariableNotCopiedIn: aClass selector: #veryDeepCopyWith:]]]
