@@ -21,14 +21,13 @@ testMetaclassAndTraitClassRespectsPolymorphismRules
 				=
 					{#externalTypeAlias:.
 					#baseClass.
-					#basicLocalSelectors.
 					#basicLocalSelectors:.
+					#basicLocalSelectors.
 					#classClass.
 					#isClass.
 					#environment.
 					#fileOutOn:moveSource:toFile:.
 					#fileOutOn:moveSource:toFile:initializing:.
-					#localSelectors.
 					#localSelectors:.
 					#postCopy.
 					#traitComposition.
