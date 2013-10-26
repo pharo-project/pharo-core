@@ -1,7 +1,7 @@
 testAbsolutePortErrorFix
 	
-	Url absoluteFromText: 'http://swikis.ddo.jp:8823/'.
+	'http://swikis.ddo.jp:8823/' asUrl.
 
-	self should: [Url absoluteFromText: 'http://swikis.ddo.jp:-1/'] raise: Error.
-	self should: [Url absoluteFromText: 'http://swikis.ddo.jp:65536/'] raise: Error.
-	self should: [Url absoluteFromText: 'http://swikis.ddo.jp:auau/'] raise: Error.
+	self should: ['http://swikis.ddo.jp:-1/' asUrl] raise: Error.
+	self should: ['http://swikis.ddo.jp:65536/' asUrl] raise: Error.
+	self should: ['http://swikis.ddo.jp:auau/' asUrl] raise: Error.

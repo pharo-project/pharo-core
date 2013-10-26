@@ -6,10 +6,10 @@ newFromRelativeText: aString
 	| newSchemeName remainder fragmentStart newFragment newUrl bare |
 
 	bare := aString trimBoth.
-	newSchemeName := Url schemeNameForString: bare.
+	newSchemeName := self class schemeNameForString: bare.
 	(newSchemeName notNil and: [ newSchemeName ~= self schemeName ]) ifTrue: [
 		"different scheme -- start from scratch"
-		^Url absoluteFromText: aString ].
+		^self absoluteFromText: aString ].
 
 	remainder := bare.
 

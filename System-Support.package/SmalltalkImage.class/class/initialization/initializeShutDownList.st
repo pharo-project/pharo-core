@@ -4,7 +4,7 @@ initializeShutDownList
 	| oldList |
 	oldList := ShutDownList.
 	ShutDownList := OrderedCollection new.	"These get processed from the bottom up..."
-	#(#Delay #DisplayScreen #InputEventFetcher #Form #WorldMorph #StrikeFont #Color #SoundPlayer #HttpUrl #Password)
+	#(#Delay #DisplayScreen #InputEventFetcher #Form #WorldMorph #StrikeFont #Color #SoundPlayer #Password)
 		do: [ :clsName | Smalltalk globals at: clsName ifPresent: [ :cls | Smalltalk addToShutDownList: cls ] ].
 	oldList
 		ifNotNil: [ 

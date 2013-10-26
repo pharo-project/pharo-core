@@ -11,9 +11,9 @@ testUsernamePasswordEncoded2
 				(urlParts at: 2) encodeForHTTP.
 				urlParts at: 3. urlParts at: 4. urlParts at: 5.
 			}) asUrl.
-		self assert: (theUrl schemeName = 'http').
+		self assert: (theUrl scheme = 'http').
 		self assert: (theUrl username = (urlParts at: 1)).
 		self assert: (theUrl password = (urlParts at: 2)).
-		self assert: (theUrl authority = (urlParts at: 3)).
+		self assert: (theUrl host = (urlParts at: 3)).
 		self assert: (theUrl port = (urlParts at: 4)).
-		self assert: theUrl path first = ((urlParts at: 5) copyUpTo: $/ )]
+		self assert: theUrl firstPathSegment = ((urlParts at: 5) copyUpTo: $/ )]

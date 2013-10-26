@@ -2,7 +2,7 @@ privateInitializeFromText: aString
 	| remainder ind specifiedSchemeName |
 	remainder := aString.
 	schemeName ifNil: 
-			[specifiedSchemeName := Url schemeNameForString: remainder.
+			[specifiedSchemeName := self class schemeNameForString: remainder.
 			specifiedSchemeName ifNotNil: 
 					[schemeName := specifiedSchemeName.
 					remainder := remainder copyFrom: schemeName size + 2 to: remainder size].

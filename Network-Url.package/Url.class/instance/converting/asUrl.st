@@ -1,2 +1,2 @@
 asUrl
-	^self
+	^ self asZnUrl
