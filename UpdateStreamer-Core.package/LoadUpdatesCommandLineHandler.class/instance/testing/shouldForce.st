@@ -1,0 +1,2 @@
+shouldForce
+	^ self hasOption: 'force'

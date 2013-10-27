@@ -23,9 +23,9 @@ the front of 'updates.list', and that is the index file used."
 		pair := anUpdateBlock value.
 		failed := pair first.
 		loaded := pair second.
-		failed ifNil: ["is OK"
+		failed ifNil: [
+			"is OK"
 			 self feedback:  (loaded printString ,' new update file(s) processed.')]] 
-	on: (Smalltalk globals at: #MCMergeOrLoadWarning ifAbsent: [ nil ]) do: [ :e| e resume: false ]] 
-	on: (Smalltalk globals at: #MCNoChangesException ifAbsent: [ nil ]) do: [ :e| e resume]]
- 	on: MCMergeResolutionRequest do: [ :request |
-			request autoMerge ].
+	on: MCMergeOrLoadWarning do: [ :e | e merge ]] 
+	on: MCNoChangesException do: [ :e | e resume ]]
+ 	on: MCMergeResolutionRequest do: [ :request | request autoMerge ].

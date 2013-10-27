@@ -1,0 +1,3 @@
+loadDefaultUpdates
+	UpdateStreamer new updateFromServer.
+	ImageCleaner cleanUpForRelease.

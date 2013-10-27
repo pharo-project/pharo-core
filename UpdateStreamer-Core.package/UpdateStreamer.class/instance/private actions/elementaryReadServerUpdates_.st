@@ -44,5 +44,6 @@ elementaryReadServerUpdates: urls
 			str := loaded printString , ' new update file(s) processed.'.
 			str := str , '\Could not load ' withCRs , (urls size - loaded) printString , ' update file(s).'
 				, '\Starting with "' withCRs , failed , '".'.
-			self feedback: str ].
+			self feedback: str.
+			UpdateFileNotLoaded signalFile: failed ].
 	^ Array with: failed with: loaded

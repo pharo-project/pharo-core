@@ -8,9 +8,8 @@ loadTogether: aCollection merge: aBoolean
   	  	displayingProgress: 'Adding versions...'.
 	aBoolean
 		ifTrue: [
-			[loader merge] on: MCMergeResolutionRequest do: [:request |
-				request autoMerge ]]
+			[loader merge] on: MCMergeResolutionRequest do: [:request | request autoMerge ]]
 		ifFalse: [
 			loader hasVersions 
-				ifTrue: [ [loader load] on: MCMergeOrLoadWarning do: [:ex | ex resume: true]]]
+				ifTrue: [ [loader load] on: MCMergeOrLoadWarning do: [:ex | ex load ]]]
 
