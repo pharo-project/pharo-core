@@ -2,7 +2,9 @@ processNextChunk
 	| length chunkType crc chunkCrc |
 	length := self nextLong.
 	chunkType := (self next: 4) asString.
-	chunk := self next: length.
+ 	(chunk isNil or: [ chunk size ~= length ])
+ 		ifTrue: [ chunk := self next: length ]
+ 		ifFalse: [ stream next: length into: chunk startingAt: 1 ].
 	chunkCrc := self nextLong bitXor: 4294967295.
 	crc := self 
 		updateCrc: 4294967295
@@ -29,8 +31,8 @@ processNextChunk
 		chunks, stitch them all together first. later,
 		if memory is an issue, we need to figure out how
 		to do this on the fly---"
-		globalDataChunk := globalDataChunk 
-			ifNil: [ chunk ]
-			ifNotNil: [ globalDataChunk , chunk ].
+ 		idatChunkStream
+ 			ifNil: [ idatChunkStream := WriteStream with: chunk copy ]
+ 			ifNotNil: [ idatChunkStream nextPutAll: chunk ].
 		^ self ].
 	unknownChunks add: chunkType

@@ -4,10 +4,10 @@ processInterlaced
 	colIncrement := #(8 8 4 4 2 2 1 ).
 	rowIncrement := #(8 8 8 4 4 2 2 ).
 	startingRow := #(0 0 4 0 2 0 1 ).
-	z := ZLibReadStream 
-		on: chunk
-		from: 1
-		to: chunk size.
+ 	z := ZLibReadStream 
+ 		on: idatChunkStream originalContents
+ 		from: 1
+ 		to: idatChunkStream position.
 	1 
 		to: 7
 		do: 

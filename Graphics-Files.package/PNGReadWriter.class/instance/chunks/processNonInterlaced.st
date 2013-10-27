@@ -10,22 +10,18 @@ processNonInterlaced
 		nil
 		#copyPixelsRGBA:
 	) at: colorType + 1.
-	debug ifTrue: 
-		[ Transcript
-			cr;
-			nextPutAll: 'NI chunk size=';
-			print: chunk size ].
-	z := ZLibReadStream 
-		on: chunk
-		from: 1
-		to: chunk size.
+ 	debug ifTrue: [ Transcript cr; nextPutAll: 'NI chunk size='; print: idatChunkStream position ].
+ 	z := ZLibReadStream 
+ 		on: idatChunkStream originalContents
+ 		from: 1
+ 		to: idatChunkStream position.
 	prevScanline := ByteArray new: bytesPerScanline.
 	thisScanline := ByteArray new: bytesPerScanline.
 	0 
 		to: height - 1
 		do: 
 			[ :y | 
-			filter := (z next: 1) first.
+			filter := z next.
 			debug ifTrue: [ filtersSeen add: filter ].
 			thisScanline := z 
 				next: bytesPerScanline

@@ -1,7 +1,7 @@
 nextImage
 	bigEndian := Smalltalk isBigEndian.
 	filtersSeen := Bag new.
-	globalDataChunk := nil.
+	idatChunkStream := nil.
 	transparentPixelValue := nil.
 	unknownChunks := Set new.
 	stream reset.
@@ -20,8 +20,9 @@ nextImage
 			form colors: palette]
 		ifFalse: [form := Form extent: width @ height depth: depth].
 	backColor ifNotNil: [form fillColor: backColor].
-	chunk := globalDataChunk ifNil: [self error: 'image data is missing'].
-	chunk ifNotNil: [self processIDATChunk].
+ 	idatChunkStream 
+ 		ifNil: [ self error: 'image data is missing' ]
+ 		ifNotNil: [ self processIDATChunk ].
 	unknownChunks isEmpty 
 		ifFalse: 
 			["Transcript show: ' ',unknownChunks asSortedCollection asArray printString."].

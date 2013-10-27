@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '12019 Optimize Dictionary>>#includesKey:
-	https://pharo.fogbugz.com/f/cases/12019
+ ^ '11673 No timestamp in MCMethodDefinition>>=
+	https://pharo.fogbugz.com/f/cases/11673
 	
-12018 Gofer failing due to ZnUrl missing mcRepositoryAsUser:withPassword:
-	https://pharo.fogbugz.com/f/cases/12018
+12020 Optimize PNG reading for larger files
+	https://pharo.fogbugz.com/f/cases/12020
 	
-11989 shouldnt:raise: Error from issue #11876 is too offensive
-	https://pharo.fogbugz.com/f/cases/11989'
+11985 Code duplication for accessing as read-only the SourceFiles
+	https://pharo.fogbugz.com/f/cases/11985'
