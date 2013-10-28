@@ -1,2 +1,2 @@
 cypressUnescape
-    ^ self unescapePercents
+    ^ self urlDecoded

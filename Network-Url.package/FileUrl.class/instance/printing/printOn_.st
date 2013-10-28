@@ -19,4 +19,4 @@ printOn: aStream
 	fragment ifNotNil:
 		[aStream
 			nextPut: $#;
-			nextPutAll: fragment encodeForHTTP].
+			nextPutAll: fragment urlEncoded].

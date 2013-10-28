@@ -1,2 +1,2 @@
 urlForFileNamed: aString
-	^ self locationWithTrailingSlash, aString encodeForHTTP
+	^ self locationWithTrailingSlash, aString urlEncoded

@@ -8,4 +8,4 @@ pathString
 		self path do: [ :p |
 			first ifFalse: [ s nextPut: $/ ].
 			first := false.
-			s nextPutAll: p encodeForHTTP ] ]
+			s nextPutAll: p urlEncoded ] ]

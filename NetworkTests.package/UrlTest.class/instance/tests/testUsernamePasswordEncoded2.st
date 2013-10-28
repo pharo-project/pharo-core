@@ -7,8 +7,8 @@ testUsernamePasswordEncoded2
 	('HaXor@roxor:fnac' 'my~Pa$§wert' 'cbase' 42 'do/not_try')
 	) do: [:urlParts | |theUrl|
 			theUrl := ('http://{1}:{2}@{3}:{4}/{5}' format: {
-				(urlParts at: 1) encodeForHTTP. 
-				(urlParts at: 2) encodeForHTTP.
+				(urlParts at: 1) urlEncoded. 
+				(urlParts at: 2) urlEncoded.
 				urlParts at: 3. urlParts at: 4. urlParts at: 5.
 			}) asUrl.
 		self assert: (theUrl scheme = 'http').

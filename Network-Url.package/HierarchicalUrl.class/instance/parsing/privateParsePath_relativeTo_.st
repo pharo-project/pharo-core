@@ -8,7 +8,7 @@ privateParsePath: remainder relativeTo: basePath
 	[ s peek = $/ ifTrue: [ s next ].
 	nextTok := String new writeStream.
 	[ s atEnd or: [ s peek = $/ ] ] whileFalse: [ nextTok nextPut: s next ].
-	nextTok := nextTok contents unescapePercents.
+	nextTok := nextTok contents urlDecoded.
 	nextTok = '..' 
 		ifTrue: [ parsedPath size > 0 ifTrue: [ parsedPath removeLast ] ]
 		ifFalse: [ nextTok ~= '.' ifTrue: [ parsedPath add: nextTok ] ].

@@ -5,7 +5,7 @@ initializeFromPathString: aPathString
 	| pathString hasDriveLetter |
 	pathString := aPathString.
 	pathString isEmpty ifTrue: [pathString := '/'].
-	path := (pathString findTokens: '/') collect: [:token | token unescapePercents].
+	path := (pathString findTokens: '/') collect: [:token | token urlDecoded].
 
 	"A path like 'C:' refers in practice to 'c:/'"
 	((pathString endsWith: '/') or:

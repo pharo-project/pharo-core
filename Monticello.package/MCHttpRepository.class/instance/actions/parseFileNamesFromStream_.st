@@ -6,5 +6,5 @@ parseFileNamesFromStream: aStream
 		aStream upTo: $".
 		aStream atEnd ifFalse: [
 			fullName := aStream upTo: $".
-			names add: fullName unescapePercents]].
+			names add: fullName urlDecoded ]].
 	^ names

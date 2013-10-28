@@ -42,8 +42,8 @@ privateInitializeFromText: aString
 						to: authority size.
 			(username includes: $:) 
 				ifTrue: 
-					[password := (username copyFrom: (username indexOf: $:) + 1 to: username size) unescapePercents.
-					username := (username copyUpTo: $:) unescapePercents]].
+					[password := (username copyFrom: (username indexOf: $:) + 1 to: username size) urlDecoded.
+					username := (username copyUpTo: $:) urlDecoded]].
 
 	"Extract the port"
 	(authority includes: $:) 

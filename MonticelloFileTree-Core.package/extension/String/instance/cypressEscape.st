@@ -1,2 +1,2 @@
 cypressEscape
-    ^ self encodeForHTTP
+    ^ self urlEncoded

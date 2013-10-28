@@ -11,7 +11,7 @@ privateInitializeFromText: pathString relativeTo: aUrl
 	newPath removeLast.	"empty string that says its a directory"
 	path do: [ :token |
 		((token ~= '..') and: [token ~= '.']) ifTrue: [ 
-			newPath addLast: token unescapePercents ].
+			newPath addLast: token urlDecoded ].
 		token = '..' ifTrue: [ 
 			newPath isEmpty ifFalse: [ 
 				newPath last = '..' ifFalse: [ newPath removeLast ] ] ].
