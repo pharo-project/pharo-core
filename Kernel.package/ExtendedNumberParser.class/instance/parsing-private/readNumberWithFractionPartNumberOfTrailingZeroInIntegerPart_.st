@@ -14,7 +14,7 @@ readNumberWithFractionPartNumberOfTrailingZeroInIntegerPart: numberOfTrailingZer
 			numberOfNonZeroFractionDigits := lastNonZero.
 			numberOfTrailingZeroInFractionPart := nDigits - lastNonZero].
 	self readExponent
-		ifFalse: [self readScale
+		ifFalse: [(self readScale: numberOfNonZeroFractionDigits + numberOfTrailingZeroInFractionPart)
 				ifTrue: [^self makeScaledDecimalWithNumberOfNonZeroFractionDigits: numberOfNonZeroFractionDigits
 					andNumberOfTrailingZeroInFractionPart: numberOfTrailingZeroInFractionPart]].
 

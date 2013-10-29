@@ -6,6 +6,6 @@ makeIntegerOrScaledInteger
 		ifTrue: [integerPart := integerPart negated].
 	self readExponent
 		ifTrue: [^integerPart * (base raisedToInteger: exponent)].
-	self readScale
+	(self readScale: 0)
 		ifTrue: [^integerPart asScaledDecimal: scale].
 	^ integerPart
