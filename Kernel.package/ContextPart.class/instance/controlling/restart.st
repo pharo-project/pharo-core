@@ -6,11 +6,11 @@ restart
 	self privRefresh.
 	context := thisContext.
 	[	context := context findNextUnwindContextUpTo: self.
-		context isNil
+		context isNil 
 	] whileFalse: [
-		(context tempAt: 2) ifNil:[
-			context tempAt: 2 put: true.
-			unwindBlock := context tempAt: 1.
+		context unwindComplete ifNil:[
+			context unwindComplete: true.
+			unwindBlock := context unwindBlock.
 			thisContext terminateTo: context.
 			unwindBlock value ]].
 	

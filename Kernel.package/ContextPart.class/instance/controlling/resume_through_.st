@@ -8,9 +8,9 @@ resume: value through: firstUnwindContext
 		ifTrue: [ self cannotReturn: value to: self ].
 	context := firstUnwindContext.
 	[ context isNil ] whileFalse: [	
-		(context tempAt: 2) ifNil: [
-			context tempAt: 2 put: true.
-			unwindBlock := context tempAt: 1.
+		context unwindComplete ifNil:[
+			context unwindComplete: true.
+			unwindBlock := context unwindBlock.
 			thisContext terminateTo: context.
 			unwindBlock value].
 		context := context findNextUnwindContextUpTo: self].

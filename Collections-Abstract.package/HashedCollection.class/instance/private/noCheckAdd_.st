@@ -1,0 +1,3 @@
+noCheckAdd: anObject
+
+    self subclassResponsibility
