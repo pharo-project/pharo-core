@@ -1,3 +1,3 @@
 isFixedWidth
 	styleFlags == nil ifTrue:[^false].
-	^faceFlags allMask: 4 "FT:=FACE:=FLAG:=FIXED:=WIDTH" 
+	^faceFlags allMask: 4 "FT_FACE_FLAG_FIXED_WIDTH" 

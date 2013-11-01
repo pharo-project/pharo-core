@@ -27,7 +27,7 @@ getWindowsFontFolderPath
 		with: 16r0014
 		with: 0
 		with: 0
-		with: buff	"CSIDL:=FONTS" ]
+		with: buff	"CSIDL_FONTS" ]
 		on: Error
 		do: [ :e | 
 			"will get error if ffiplugin is missing"

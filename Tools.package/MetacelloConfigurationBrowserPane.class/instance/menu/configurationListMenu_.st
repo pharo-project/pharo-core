@@ -11,5 +11,5 @@ configurationListMenu: aMenu
 		
 	aMenu	
 		add: 'Switch Repository' action: #switchRepository;
-		add: 'Refresh' action: #updateList.	
+		add: 'Refresh' action: #refreshRepository.	
 	^aMenu

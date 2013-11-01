@@ -1,6 +1,6 @@
 tokenize: aString 
 	"answer an OrderedCollection of {string. start. end} tuples.
-	tokens are separated by $- $:= $, $. and whitespace"
+	tokens are separated by $- $_ $, $. and whitespace"
 	| currentTokens answer start |
 	
 	currentTokens := aString findTokens: delimiters keep: delimiters.

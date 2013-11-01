@@ -1,4 +1,4 @@
 initialize
 	super initialize.
-	delimiters := ',.-:='.
+	delimiters := ',.-_'.
 	Character separators do:[:c | delimiters := delimiters , c asString].

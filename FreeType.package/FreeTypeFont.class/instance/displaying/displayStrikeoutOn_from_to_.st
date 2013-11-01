@@ -1,7 +1,7 @@
 displayStrikeoutOn: aDisplayContext from: baselineStartPoint to: baselineEndPoint
 	| top bottom strikeoutThickness s e |
 	
-	"the strikeout size/position for TrueType fonts should really come from the TT:=OS2 table.
+	"the strikeout size/position for TrueType fonts should really come from the TT_OS2 table.
 	This needs to be read by the plugin when the face is created.
 	For now, we use the underlineThickness, and 1/4 of the ascender from the baseline"
 	strikeoutThickness := (self face underlineThickness * self pixelSize / self face unitsPerEm). 			
