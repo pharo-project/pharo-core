@@ -15,7 +15,7 @@ composeLinesFrom: argStart to: argStop delta: argDelta into: argLinesCollection 
 				and: [theContainer isMemberOf: Rectangle].
 	nowSliding := false.
 	prevIndex := 1.
-	scanner := LegacyCompositionScanner new text: theText textStyle: theTextStyle.
+	scanner := CompositionScanner new text: theText textStyle: theTextStyle.
 	scanner wantsColumnBreaks: wantsColumnBreaks.
 	isFirstLine := true.
 	self composeAllLines.
