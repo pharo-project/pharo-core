@@ -2,4 +2,4 @@ Object subclass: #PharoFilesOpener
 	instanceVariableNames: 'shouldInformAboutReadOnlyChanges'
 	classVariableNames: 'Default'
 	poolDictionaries: ''
-	category: 'System-Support'
+	category: 'Files-System'

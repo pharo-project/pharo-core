@@ -5,7 +5,8 @@ snapshot: save andQuit: quit
 	The latter part of this method runs when resuming a previously saved image. This resume logic checks for a document file to process when starting up."
 
 	| snapshotResult isNewImage |
-	self addSnapshotRecord: save andQuit: quit.
+	ChangesLog default logSnapshot: save andQuit: quit.
+	
 	self shutDownImage: quit.
 									
 	save

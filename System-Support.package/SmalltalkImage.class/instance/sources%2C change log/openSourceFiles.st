@@ -4,5 +4,5 @@ openSourceFiles
 		ifFalse: ["Reset the author full name to blank when the image gets moved"
 			LastImagePath := self imagePath.
 			Author reset].
-	PharoFilesOpener default checkAndOpenSourcesAndChanges.
-	SourceFileArray install
+
+	SourceFiles ensureOpen.
