@@ -1,3 +1,0 @@
-presentationText: t
-
-	text := t.

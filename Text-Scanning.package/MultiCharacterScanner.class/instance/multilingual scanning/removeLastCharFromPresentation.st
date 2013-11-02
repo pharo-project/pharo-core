@@ -1,2 +1,0 @@
-removeLastCharFromPresentation
-	destX := destX - lastWidth.
