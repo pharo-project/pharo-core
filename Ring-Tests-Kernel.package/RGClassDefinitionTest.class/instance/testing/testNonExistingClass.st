@@ -5,7 +5,7 @@ testNonExistingClass
 	self assert: (newClass isClass).
 	self assert: (newClass instanceVariables isEmpty).
 	self assert: (newClass classVariables isEmpty).
-	self assert: (newClass poolDictionaries isEmpty).
+	self assert: (newClass sharedPools isEmpty).
 	self assert: (newClass hasMetaclass not).
 	self assert: (newClass hasComment not).
 	self assert: (newClass hasStamp not).

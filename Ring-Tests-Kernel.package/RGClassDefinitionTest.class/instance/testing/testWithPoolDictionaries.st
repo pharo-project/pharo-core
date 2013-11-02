@@ -2,15 +2,15 @@ testWithPoolDictionaries
 	| newClass poolVar |
 	
 	newClass:= (RGFactory current createClassNamed: #Text)
-						addPoolDictNamed: #TextConstants;
+						addSharedPoolNamed: #TextConstants;
 						yourself.
 
-	self assert: (newClass poolDictionaries size = 1).
-	self assert: (newClass poolDictNames size = 1).
-	self assert: (newClass allPoolDictionaries size = 1).  "no hierarchy"
-	self assert: (newClass allPoolDictNames size = 1).
+	self assert: (newClass sharedPools size = 1).
+	self assert: (newClass sharedPoolNames size = 1).
+	self assert: (newClass allSharedPools size = 1).  "no hierarchy"
+	self assert: (newClass allSharedPoolNames size = 1).
 	
-	poolVar:= newClass poolDictNamed: #TextConstants.
+	poolVar:= newClass sharedPoolNamed: #TextConstants.
 	self assert: (poolVar notNil).
 	self assert: (poolVar isPoolVariable).
 	self assert: (poolVar isVariable).
@@ -19,7 +19,7 @@ testWithPoolDictionaries
 	self assert: (poolVar realClass = Text).
 	
 	newClass withMetaclass.
-	self assert: (newClass theMetaClass allPoolDictNames size = 1).
+	self assert: (newClass theMetaClass allSharedPoolNames size = 1).
 	
-	newClass removePoolDictNamed: #TextConstants.
-	self assert: (newClass poolDictionaries isEmpty).
+	newClass removeSharedPoolNamed: #TextConstants.
+	self assert: (newClass sharedPools isEmpty).

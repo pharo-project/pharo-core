@@ -1,0 +1,2 @@
+doesTheLineBreaksAfterLastChar
+	^nextIndexAfterLineBreak > text size

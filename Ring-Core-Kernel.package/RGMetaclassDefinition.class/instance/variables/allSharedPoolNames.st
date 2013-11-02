@@ -1,0 +1,3 @@
+allSharedPoolNames
+
+	^self theNonMetaClass allSharedPoolNames

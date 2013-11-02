@@ -10,7 +10,7 @@ testPoolDefinition
 	pool addUser: newClass.
 	self assert: (pool users size = 1).
 	self assert: (pool includesUser: newClass).
-	self assert: ((newClass poolDictNamed: #TextConstants) isPoolVariable).
+	self assert: ((newClass sharedPoolNamed: #TextConstants) isPoolVariable).
 	
 	pool:= RGFactory current createClassNamed: #TextConstants.
 	pool superclassName: #SharedPool.

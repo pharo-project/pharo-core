@@ -1,3 +1,0 @@
-removePoolDictionary: aRGPoolVariableDefinition
-
-	self removeVariable: aRGPoolVariableDefinition from: poolDictionaries

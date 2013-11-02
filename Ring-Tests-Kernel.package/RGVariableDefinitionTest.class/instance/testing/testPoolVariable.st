@@ -13,7 +13,7 @@ testPoolVariable
 	poolVar:= RGFactory current createPoolVariableNamed: 'TextConstants' parent: newClass.
 	
 	self assert: (poolVar parent = newClass).
-	self assert: (newClass poolDictionaries isEmpty).
+	self assert: (newClass sharedPools isEmpty).
 	
-	newClass poolDictionaries add: poolVar.
-	self assert: (newClass poolDictionaries size = 1).
+	newClass sharedPools add: poolVar.
+	self assert: (newClass sharedPools size = 1).

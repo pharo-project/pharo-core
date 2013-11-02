@@ -1,0 +1,2 @@
+canComputeDefaultLineHeight
+	^ rightMargin notNil

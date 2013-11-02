@@ -7,7 +7,7 @@ asRingDefinition
 		traitCompositionSource: self traitCompositionString;
 		addInstanceVariables: self instVarNames;
 		addClassVariables: self classVarNames;
-		addPoolDictionaries: self poolDictionaries;
+		addSharedPools: self poolDictionaries;
 		comment: self comment;
 		stamp: self commentStamp;
 		definitionSource: self definitionString;
