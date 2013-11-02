@@ -1,2 +1,0 @@
-postCopy
-	stops := stops copy

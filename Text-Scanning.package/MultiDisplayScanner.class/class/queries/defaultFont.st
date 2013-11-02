@@ -1,2 +1,0 @@
-defaultFont
-	^ TextStyle defaultFont
