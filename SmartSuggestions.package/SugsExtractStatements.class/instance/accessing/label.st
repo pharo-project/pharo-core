@@ -1,0 +1,3 @@
+label
+	^'Extract method' translated.
+	
