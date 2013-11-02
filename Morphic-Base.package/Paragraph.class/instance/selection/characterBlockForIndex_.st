@@ -5,7 +5,7 @@ characterBlockForIndex: index
 	^ ((text string isWideString) ifTrue: [
 		MultiCharacterBlockScanner new text: text textStyle: textStyle
 	] ifFalse: [
-		CharacterBlockScanner new text: text textStyle: textStyle
+		LegacyCharacterBlockScanner new text: text textStyle: textStyle
 	])
 		characterBlockAtPoint: nil index: ((index max: line first) min: text size+1)
 		in: line

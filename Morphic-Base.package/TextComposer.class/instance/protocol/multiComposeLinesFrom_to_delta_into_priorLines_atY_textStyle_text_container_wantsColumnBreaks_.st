@@ -15,7 +15,7 @@ multiComposeLinesFrom: argStart to: argStop delta: argDelta into: argLinesCollec
 				and: [theContainer isMemberOf: Rectangle].
 	nowSliding := false.
 	prevIndex := 1.
-	scanner := MultiCompositionScanner new text: theText textStyle: theTextStyle.
+	scanner := LegacyCompositionScanner new text: theText textStyle: theTextStyle.
 	scanner wantsColumnBreaks: wantsColumnBreaks.
 	isFirstLine := true.
 	self composeAllLines.
