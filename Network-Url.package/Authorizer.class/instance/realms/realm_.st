@@ -1,2 +1,0 @@
-realm: aString
-	realm := aString

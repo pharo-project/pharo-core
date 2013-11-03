@@ -1,2 +1,2 @@
 matchesCompletely: aKeyboardEvent
-	^self = aKeyboardEvent asKeyCombination
+	^ self = aKeyboardEvent asKeyCombination

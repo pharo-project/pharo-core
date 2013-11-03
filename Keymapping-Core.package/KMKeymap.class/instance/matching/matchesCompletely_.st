@@ -1,2 +1,2 @@
 matchesCompletely: aShortcut
-	^ self shortcut = aShortcut asKeyCombination
+	^ self shortcut matchesCompletely: aShortcut

@@ -28,7 +28,6 @@ testMetaclassAndTraitClassRespectsPolymorphismRules
 					#environment.
 					#fileOutOn:moveSource:toFile:.
 					#fileOutOn:moveSource:toFile:initializing:.
-					#localSelectors:.
 					#postCopy.
 					#traitComposition.
 					#traitComposition:.
