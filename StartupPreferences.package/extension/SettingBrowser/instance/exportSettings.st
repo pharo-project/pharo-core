@@ -1,8 +1,6 @@
 exportSettings
-	| title nodes actions index groupSize |
+	| title nodes actions   |
 	
-	groupSize := 50.
-	index := 1.
 	nodes := self treeHolder nodeList.
 	title := 'Exporting settings'.
 	title
@@ -14,9 +12,5 @@ exportSettings
 															s << title << ' (' << (e item label) << ')']).
 											e item exportSettingAction ]].
 		
-		actions := actions reject: [:e | e isNil ].
-		
-	actions groupsOf: groupSize atATimeDo: [:l | 
-		StartupPreferencesLoader default addAtStartupInPreferenceVersionFolder: l named: 'exported_settings',index printString, '.st'.
-		index := index +1 ].
-	StartupPreferencesLoader default addAtStartupInPreferenceVersionFolder: (actions last: (actions size rem: groupSize)) named: 'exported_settings',index printString, '.st'
+	actions := actions reject: [:e | e isNil ].
+	self exportAllSettings: actions by: 50 withBasename: 'exported_settings'.

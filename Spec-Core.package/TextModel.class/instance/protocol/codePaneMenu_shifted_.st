@@ -3,6 +3,4 @@ codePaneMenu: aMenu shifted: shifted
 	PluggableTextController will respond to all menu items in a 
 	text pane"
 	
-	^ shifted
-			ifTrue: [SmalltalkEditor shiftedYellowButtonMenu]
-			ifFalse: [SmalltalkEditor yellowButtonMenu].
+	^ menuHolder contents cull: aMenu cull: shifted
