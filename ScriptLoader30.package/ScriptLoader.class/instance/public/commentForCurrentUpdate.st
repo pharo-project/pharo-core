@@ -1,9 +1,7 @@
 commentForCurrentUpdate
- ^ '12057 #localSelectors: can be implemented in TBehavior
-	https://pharo.fogbugz.com/f/cases/12057
+ ^ '11635 Race condition in SequenceableCollection>>shuffle
+	https://pharo.fogbugz.com/f/cases/11635
 	
-12058 Move all the old Url Classes to Deprecated30
-	https://pharo.fogbugz.com/f/cases/12058
-	
-12050 KM modification to make plateform specific shortcuts work when defined without pragmas
-	https://pharo.fogbugz.com/f/cases/12050'
+12059 CriticBrowser: DNU when selecting a class
+	https://pharo.fogbugz.com/f/cases/12059
+	'

@@ -1,3 +1,2 @@
 shuffle
-
-	^self shuffleBy: Collection randomForPicking
+	^ self shuffleBy: Random new

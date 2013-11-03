@@ -1,4 +1,4 @@
-script197
+script198
 
 	^ 'AST-Core-MarcusDenker.197.mcz
 AST-Interpreter-Core-MarcusDenker.112.mcz
@@ -29,7 +29,7 @@ BalloonTests-MarcusDenker.3.mcz
 ClassOrganizer-Core-EstebanLorenzano.14.mcz
 ClassOrganizer-Tests-MarcusDenker.5.mcz
 CodeImport-MarcusDenker.37.mcz
-Collections-Abstract-MarcusDenker.232.mcz
+Collections-Abstract-MarcusDenker.233.mcz
 Collections-Arithmetic-StephaneDucasse.12.mcz
 Collections-Arrayed-EstebanLorenzano.69.mcz
 Collections-Atomic-MarcusDenker.10.mcz
@@ -40,7 +40,7 @@ Collections-Streams-StephaneDucasse.155.mcz
 Collections-Strings-MarcusDenker.294.mcz
 Collections-Support-StephaneDucasse.52.mcz
 Collections-Traits-MarcusDenker.17.mcz
-Collections-Unordered-MarcusDenker.174.mcz
+Collections-Unordered-MarcusDenker.176.mcz
 Collections-Weak-MarcusDenker.84.mcz
 CollectionsTests-MarcusDenker.638.mcz
 Compiler-MarcusDenker.542.mcz
@@ -91,14 +91,14 @@ Kernel-MarcusDenker.1667.mcz
 KernelTests-MarcusDenker.577.mcz
 KeyChain-MarcusDenker.62.mcz
 Keymapping-Core-MarcusDenker.173.mcz
-Keymapping-KeyCombinations-MarcusDenker.24.mcz
+Keymapping-KeyCombinations-MarcusDenker.26.mcz
 Keymapping-Pragmas-MarcusDenker.46.mcz
 Keymapping-Settings-MarcusDenker.77.mcz
 Keymapping-Tests-MarcusDenker.82.mcz
 Keymapping-Tools-Spec-MarcusDenker.19.mcz
 Keys-MarcusDenker.10.mcz
 Manifest-Core-MarcusDenker.168.mcz
-Manifest-CriticBrowser-MarcusDenker.126.mcz
+Manifest-CriticBrowser-MarcusDenker.128.mcz
 Manifest-Resources-Tests-MarcusDenker.11.mcz
 Manifest-Tests-StephaneDucasse.36.mcz
 MenuRegistration-EstebanLorenzano.66.mcz
@@ -128,7 +128,7 @@ MonticelloFileTree-FileSystem-Utilities-EstebanLorenzano.29.mcz
 MonticelloGUI-MarcusDenker.260.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 Morphic-Base-MarcusDenker.177.mcz
-Morphic-Core-MarcusDenker.15.mcz
+Morphic-Core-MarcusDenker.17.mcz
 Morphic-Examples-MarcusDenker.16.mcz
 MorphicTests-MarcusDenker.78.mcz
 Multilingual-Encodings-MarcusDenker.43.mcz
