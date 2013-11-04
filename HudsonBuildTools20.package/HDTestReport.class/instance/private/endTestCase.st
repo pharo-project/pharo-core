@@ -1,3 +1,3 @@
 endTestCase
-	stream tab; nextPutAll: '</testcase>'; nextPut: Character lf.
+	stream tab; nextPutAll: '</testcase>'; lf.
 	progressFile nextPutAll: 'finished' ; crlf; flush.

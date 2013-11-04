@@ -1,4 +1,4 @@
 fuelAccept: aGeneralMapper
-	^ self >= -2147483648
+	^ self >= -4294967295
 		ifTrue: [ aGeneralMapper  mapAndTraceByClusterName: self to: FLNegative32SmallIntegerCluster ]
 		ifFalse: [ aGeneralMapper visitBytesObject: self]

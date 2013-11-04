@@ -1,14 +1,9 @@
 commentForCurrentUpdate
- ^ '- Issue 12066: Add Image support in Spec
-	https://pharo.fogbugz.com/f/cases/12066/Add-Image-support
-	Thanks Benjamin van Ryseghem and Sergi Reyner
+ ^ '12052 Fuel could store LargeNegativeInteger up to 32bits magnitude
+	https://pharo.fogbugz.com/f/cases/12052
 	
-- Issue 12056: flatCollect: should return the same species
-	https://pharo.fogbugz.com/f/cases/12066/Add-Image-support
+12067 A TextAnchor should never try to placeEmbeddedObject: by itself
+	https://pharo.fogbugz.com/f/cases/12067
 	
-- Issue 11895 Theme: Dont use Gradients in menus
-	https://pharo.fogbugz.com/f/cases/11895/Theme-Don-t-use-Gradients-in-menus
-		UITheme current settings preferGradientFill: false.
-
-- Issue 11427: Clean up SqNumberParser Hierarchy
-	https://pharo.fogbugz.com/f/cases/11427/Clean-up-SqNumberParser-Hierarchy'
+11906 HDTestReport measures the wrong duration
+	https://pharo.fogbugz.com/f/cases/11906'
