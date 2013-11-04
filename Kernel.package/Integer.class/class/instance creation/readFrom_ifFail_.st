@@ -5,4 +5,4 @@ readFrom: aStringOrStream ifFail: aBlock
 	class readFrom: for that.
 	Execute aBlock if there are no digits."
 
-	^(SqNumberParser on: aStringOrStream) nextIntegerBase: 10 ifFail: aBlock
+	^(NumberParser on: aStringOrStream) nextIntegerBase: 10 ifFail: aBlock

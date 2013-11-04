@@ -6,4 +6,4 @@ readFrom: aStringOrStream base: base
 	Raise an Error if there are no digits.
 	If stringOrStream dos not start with a valid number description, answer 0 for backward compatibility. This is not clever and should better be changed."
 
-	^(SqNumberParser on: aStringOrStream) nextIntegerBase: base
+	^(NumberParser on: aStringOrStream) nextIntegerBase: base

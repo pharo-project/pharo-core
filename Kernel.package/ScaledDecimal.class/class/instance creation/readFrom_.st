@@ -5,4 +5,4 @@ readFrom: stringOrStream
 	It might have a scale specification at end or not like 10.3s2
 	If not, number of digits after decimal point will be used as scale"
 	
-	^(SqNumberParser on: stringOrStream) nextScaledDecimal
+	^(NumberParser on: stringOrStream) nextScaledDecimal

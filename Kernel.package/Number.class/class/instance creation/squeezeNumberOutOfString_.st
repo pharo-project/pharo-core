@@ -5,4 +5,4 @@ squeezeNumberOutOfString: stringOrStream
 	string makes a number. Repeat the process until no characters
 	are left or the number has been found. As soon as a number is
 	found, it is returned. Otherwise, the method fails."
-	^ SqNumberParser squeezeNumberOutOfString: stringOrStream
+	^ NumberParser squeezeNumberOutOfString: stringOrStream

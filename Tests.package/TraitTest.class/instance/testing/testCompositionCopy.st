@@ -7,7 +7,7 @@ testCompositionCopy
 	self assert: self t6 traitComposition allTraits 
 				= self t6 traitComposition copyTraitExpression allTraits.
 	self 
-		assert: self t6 asTraitComposition copyTraitExpression allTraits = { (self t1). (self t2). (self t6) }.
+		assert: (self t6 asTraitComposition copyTraitExpression allTraits includesAll: { (self t1). (self t2). (self t6) }).
 	"make no undue sharing happens of exclusions and aliases after an expression copy"
 	t6compositionCopyFirst := self t6 traitComposition copyTraitExpression.
 	t6compositionCopyFirst transformations at: 1 put: #m22Alias -> #m33.

@@ -22,15 +22,10 @@ testFloatFromStreamWithExponent
 	self assert: 1.0e14 = aFloat.
 	self assert: rs upToEnd = 'e10'.
 
-	rs := '1.0e+14e' readStream. "Plus sign is not parseable in Smalltalk syntax"
-	aFloat := Number readSmalltalkSyntaxFrom: rs.
+	rs := '1.0e+14e' readStream.
+	aFloat := Number readFrom: rs.
 	self assert: 1.0 = aFloat.
 	self assert: rs upToEnd = 'e+14e'.
-	
-	rs := '1.0e+14e' readStream. "Plus sign is parseable in extended syntax"
-	aFloat := Number readFrom: rs.
-	self assert: 1.0e14 = aFloat.
-	self assert: rs upToEnd = 'e'.
 
 	rs := '1.0e' readStream.
 	aFloat := Number readFrom: rs.

@@ -9,6 +9,7 @@ initializeBindings
 		at: #LabelAdapter 				put: #LabelAdapter;
 		at: #ListAdapter 				put: #ListAdapter;
 		at: #IconListAdapter 			put: #IconListAdapter;
+		at: #ImageAdapter				put: #ImageAdapter;
 		at: #MultiColumnListAdapter 	put: #MultiColumnListAdapter;
 		at: #NewListAdapter 			put: #NewListAdapter;
 		at: #RadioButtonAdapter 		put: #RadioButtonAdapter;

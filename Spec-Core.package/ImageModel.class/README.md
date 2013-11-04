@@ -1,0 +1,1 @@
+An ImageModel is a spec model for images

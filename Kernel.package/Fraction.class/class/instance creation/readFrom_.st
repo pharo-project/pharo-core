@@ -5,4 +5,4 @@ readFrom: stringOrStream
 	- denominator must immediately follow fraction sign and can specify a different radix (like 16rABC).
 	If stringOrStream does not start with a valid number description, fail."
 	
-	^(SqNumberParser on: stringOrStream) nextFraction
+	^(NumberParser on: stringOrStream) nextFraction

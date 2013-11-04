@@ -15,9 +15,9 @@ testIntegerReadFrom
 	i := Number readFrom: rs.
 	self assert: i = 123.
 	s := rs upToEnd.
-	self assert: 'A has unary message sA' = s.
+	self assert: 'sA has unary message sA' = s.
 	rs := '123sB has unary message sB' readStream.
 	i := Number readFrom: rs.
 	self assert: i = 123.
 	s := rs upToEnd.
-	self assert: 'B has unary message sB' = s
+	self assert: 'sB has unary message sB' = s

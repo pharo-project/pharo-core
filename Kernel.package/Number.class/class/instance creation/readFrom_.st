@@ -5,4 +5,4 @@ readFrom: stringOrStream
 	It can as well be NaN, Infinity or -Infinity for conveniency.
 	If stringOrStream does not start with a valid number description, fail."
 	
-	^(ExtendedNumberParser on: stringOrStream) nextNumber
+	^(NumberParser on: stringOrStream) nextNumber

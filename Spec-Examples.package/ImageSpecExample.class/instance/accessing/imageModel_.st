@@ -1,0 +1,2 @@
+imageModel: anObject
+	imageModel := anObject

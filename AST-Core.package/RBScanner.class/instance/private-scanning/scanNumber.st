@@ -2,7 +2,7 @@ scanNumber
 	| start number stop string |
 	start := stream position.
 	stream position: start - 1.
-	number := [SqNumberParser parse: stream] on: Error do: [:err | self scannerError: err messageText].
+	number := [NumberParser parse: stream] on: Error do: [:err | self scannerError: err messageText].
 	stop := stream position.
 	stream position: start - 1.
 	string := stream next: stop - start + 1.

@@ -1,11 +1,14 @@
 commentForCurrentUpdate
- ^ '12061 SettingBrowser>>exportSettings need refactoring
-	https://pharo.fogbugz.com/f/cases/12061
+ ^ '- Issue 12066: Add Image support in Spec
+	https://pharo.fogbugz.com/f/cases/12066/Add-Image-support
+	Thanks Benjamin van Ryseghem and Sergi Reyner
+	
+- Issue 12056: flatCollect: should return the same species
+	https://pharo.fogbugz.com/f/cases/12066/Add-Image-support
+	
+- Issue 11895 Theme: Dont use Gradients in menus
+	https://pharo.fogbugz.com/f/cases/11895/Theme-Don-t-use-Gradients-in-menus
+		UITheme current settings preferGradientFill: false.
 
-11920 NewValueHolder should use value instead of contents
-	https://pharo.fogbugz.com/f/cases/11920
-	
-11819 TextModel>>#codePaneMenu:shifted: should work with a value holder
-	https://pharo.fogbugz.com/f/cases/11819
-	
-'
+- Issue 11427: Clean up SqNumberParser Hierarchy
+	https://pharo.fogbugz.com/f/cases/11427/Clean-up-SqNumberParser-Hierarchy'
