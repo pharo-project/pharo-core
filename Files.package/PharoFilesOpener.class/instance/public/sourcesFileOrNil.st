@@ -1,4 +1,4 @@
-tryToOpenSources
+sourcesFileOrNil
 	| sources |
 	sources := self openOrDownloadSources.
 	^ (sources isNil or: [ sources atEnd ])

@@ -1,3 +1,3 @@
 epoch
 
-	^ '1 January 1901' asDate.
+	^ Date year: 1901 month: 1 day: 1

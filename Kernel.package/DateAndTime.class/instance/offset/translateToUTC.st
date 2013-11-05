@@ -1,3 +1,3 @@
 translateToUTC
-	" Move this reprsenation to UTC"
+	" Move this represenation to UTC"
 	^ self translateTo: 0 asDuration 

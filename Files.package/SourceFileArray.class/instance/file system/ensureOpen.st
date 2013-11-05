@@ -1,5 +1,7 @@
 ensureOpen
 	"Ensure that the source and changes files are opened."
 
-	PharoFilesOpener default checkAndOpenSourcesAndChanges.
-	SourceFileArray install.
+	files :=
+		Array
+			with: PharoFilesOpener default sourcesFileOrNil
+			with: PharoFilesOpener default changesFileOrNil

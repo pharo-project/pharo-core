@@ -1,4 +1,4 @@
-tryToOpenChanges
+changesFileOrNil
 	| changes |
 	changes := self openChanges: self changesName.
 	changes

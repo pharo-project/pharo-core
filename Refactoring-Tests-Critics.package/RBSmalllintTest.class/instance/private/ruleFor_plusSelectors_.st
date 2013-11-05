@@ -21,6 +21,10 @@ ruleFor: aSelector plusSelectors: symbolCollection
 		returnedEnvironment 
 			addClass: RBSmalllintTestObject
 			selector: each ].
+	self
+		assert: (RBSmalllintTestObject includesSelector: selector)
+		description: 'Missing test method RBSmalllintTestObject>>', selector printString.
+		
 	self 
 		assert: (rule name isString and: [ rule name notEmpty ])
 		description: 'Missing rule name'.
