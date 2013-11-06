@@ -1,10 +1,3 @@
 commentForCurrentUpdate
- ^ '12074 Do not check if SourceFiles is nil
-	https://pharo.fogbugz.com/f/cases/12074
-	
-12071 #executeMethod: not in Pharo
-	https://pharo.fogbugz.com/f/cases/12071
-	
-2895 SocketStream not robuts against integer
-	https://pharo.fogbugz.com/f/cases/2895
-'
+ ^ '12078 Move more deprecated methods to Deprecated30 package
+	https://pharo.fogbugz.com/f/cases/12078'
