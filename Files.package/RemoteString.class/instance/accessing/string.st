@@ -4,10 +4,9 @@ string
 	multiple processes."
 	
 	| theFile |
-	(sourceFileNumber == nil or: [(SourceFiles at: sourceFileNumber) == nil]) ifTrue: [^''].
+	(sourceFileNumber isNil or: [ (SourceFiles at: sourceFileNumber) isNil ]) ifTrue: [ ^ '' ].
 	theFile := (SourceFiles at: sourceFileNumber) readOnlyCopy.
-	^[filePositionHi > theFile size ifTrue: [
+	^ [ filePositionHi > theFile size ifTrue: [
 		self error: 'RemoteString past end of file' ].
 		theFile position: filePositionHi.
-		theFile nextChunk] ensure: [theFile close] 
-	
+		theFile nextChunk] ensure: [ theFile close ]

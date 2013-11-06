@@ -3,4 +3,6 @@ upTo: aCharacterOrByte
 
 	"Note: The 100k limit below is compatible with the previous version though arguably incorrect. If you need unbounded behavior either up the argument or provide nil in which case we'll read until we get it or run out of memory"
 
-	^self upTo: aCharacterOrByte limit: 100000
+	^ binary 
+		ifTrue: [self upTo: aCharacterOrByte asInteger limit: 100000]
+		ifFalse: [ self upTo: aCharacterOrByte asCharacter limit: 100000]

@@ -2,8 +2,7 @@ logChange: aStringOrText
 	"Write the argument, aString, onto the changes file."
 
 	| aString changesFile |
-	(SourceFiles isNil or: [ (SourceFiles at: 2) isNil ])
-		ifTrue: [ ^ self ].
+	(SourceFiles at: 2) ifNil: [ ^ self ].
 	self assureStartupStampLogged.
 	aString := aStringOrText asString.
 	(aString findFirst: [ :char | char isSeparator not ]) = 0

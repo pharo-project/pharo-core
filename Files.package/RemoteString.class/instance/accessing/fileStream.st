@@ -4,7 +4,7 @@ fileStream
 	multiple processes."
 
 	| theFile |
-	(sourceFileNumber == nil or: [(SourceFiles at: sourceFileNumber) == nil]) ifTrue: [^ nil].
+	(sourceFileNumber isNil or: [ (SourceFiles at: sourceFileNumber) isNil ]) ifTrue: [ ^ nil ].
 	theFile := (SourceFiles at: sourceFileNumber) readOnlyCopy.
 	filePositionHi > theFile size ifTrue: [
 		self error: 'RemoteString past end of file' ].

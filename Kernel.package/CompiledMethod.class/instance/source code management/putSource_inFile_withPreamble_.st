@@ -6,8 +6,8 @@ putSource: sourceStr inFile: fileIndex withPreamble: preambleBlock
 	in each case, storing a 4-byte source code pointer at the method end."
 
 	| file remoteString |
-	(SourceFiles isNil or: [ (file := SourceFiles at: fileIndex) isNil ]) ifTrue:
-		[ ^ self becomeForward: (self copyWithSource: sourceStr) ].
+	(file := SourceFiles at: fileIndex) 
+		ifNil: [ ^ self becomeForward: (self copyWithSource: sourceStr) ].
 
 	Smalltalk assureStartupStampLogged.
 	file setToEnd.
