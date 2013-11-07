@@ -1,0 +1,3 @@
+toggleShowOnlyRepositoriesFromWorkingCopy
+	
+	ShowOnlyRepositoriesFromWorkingCopy := ShowOnlyRepositoriesFromWorkingCopy not 

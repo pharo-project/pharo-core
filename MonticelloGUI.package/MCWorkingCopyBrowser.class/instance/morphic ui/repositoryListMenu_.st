@@ -6,5 +6,8 @@ repositoryListMenu: aMenu
 					ifFalse: ['Store diffs'])
 		target: self
 		selector: #toggleDiffs.
+	
+	aMenu addUpdating: #showOnlyRepositoriesFromWorkingCopyString action: #showOnlyRepositoriesFromWorkingCopy.
+	
 	^ aMenu
 				

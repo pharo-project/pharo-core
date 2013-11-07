@@ -7,5 +7,6 @@ initWithContents: anObject prior: priorMorph forList: hostList indentLevel: newL
 	nextSibling := firstChild := nil.
 	priorMorph ifNotNil: [priorMorph nextSibling: self].
 	indentLevel := newLevel.
+	self setBalloonText: anObject helpText.
 	self initRow
 	

@@ -4,3 +4,4 @@ browseImplementorsOf: aSelector name: labelString autoSelect: autoSelectString
 		browseMessageList: (self allImplementorsOf: aSelector)
 		name: labelString
 		autoSelect: autoSelectString
+		refreshingBlockSelector:#setRefreshingBlockForImplementorsOf: 

@@ -4,3 +4,4 @@ browseSendersOf: aSelector name: labelString autoSelect: autoSelectString
 		browseMessageList: (self allCallsOn: aSelector)
 		name: labelString
 		autoSelect: autoSelectString
+		refreshingBlockSelector: #setRefreshingBlockForSendersOf: 		
