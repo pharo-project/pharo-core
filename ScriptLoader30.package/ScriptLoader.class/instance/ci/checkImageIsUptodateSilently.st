@@ -6,7 +6,6 @@ checkImageIsUptodateSilently
 	
 	self updatesListFile writeStreamDo:  [ :stream |
 		stream contents linesDo: [ :each | last := each ]].
-	
 	last isNil 
 		ifTrue: [^ false]. "in case the file is empty"
 	 (last copyUpTo: $-) isAllDigits

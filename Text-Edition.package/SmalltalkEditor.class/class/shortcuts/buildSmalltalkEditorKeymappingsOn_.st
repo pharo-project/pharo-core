@@ -4,28 +4,27 @@ buildSmalltalkEditorKeymappingsOn: aBuilder
 		category: #SmalltalkEditor
 		default: $b command mac | $b ctrl win | $b ctrl unix
 		do: [ :morph | morph browseIt ].
-					
-	(aBuilder shortcut: #doIt) 
+	(aBuilder shortcut: #doIt)
 		category: #SmalltalkEditor
 		default: $d command mac | $d ctrl win | $d ctrl unix
 		do: [ :morph | morph doIt ].
-			
-	(aBuilder shortcut: #inspectIt) 
+	(aBuilder shortcut: #inspectIt)
 		category: #SmalltalkEditor
 		default: $i command mac | $i ctrl win | $i ctrl unix
 		do: [ :morph | morph inspectIt ].
-		
-	(aBuilder shortcut: #implementorsOfIt) 
+	(aBuilder shortcut: #implementorsOfIt)
 		category: #SmalltalkEditor
 		default: $m command mac | $m ctrl win | $m ctrl unix
 		do: [ :morph | morph implementorsOfIt ].
-		
 	(aBuilder shortcut: #sendersOfIt)
 		category: #SmalltalkEditor
 		default: $n command mac | $n ctrl win | $n ctrl unix
 		do: [ :morph | morph sendersOfIt ].
-		
-	(aBuilder shortcut: #printIt) 
+	(aBuilder shortcut: #formatCode)
+		category: #SmalltalkEditor
+		default: $f ctrl shift
+		do: [ :morph | morph formatSourceCode ].
+	(aBuilder shortcut: #printIt)
 		category: #SmalltalkEditor
 		default: $p command mac | $p ctrl win | $p ctrl unix
-		do: [ :morph | morph printIt ].
+		do: [ :morph | morph printIt ]

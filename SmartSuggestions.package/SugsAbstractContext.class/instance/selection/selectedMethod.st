@@ -1,2 +1,2 @@
 selectedMethod
-	self subclassResponsibility .
+	self subclassResponsibility 

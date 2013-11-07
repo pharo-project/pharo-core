@@ -1,5 +1,4 @@
 contextFor: aModel
-
 	(aModel respondsTo: #sugsContext)
 		ifTrue: [ ^ aModel sugsContext ].
 	(aModel model respondsTo: #sugsContext)

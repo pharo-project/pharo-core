@@ -1,2 +1,2 @@
 sourceTextArea
-	self subclassResponsibility .
+	self subclassResponsibility 

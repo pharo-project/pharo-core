@@ -1,0 +1,2 @@
+sugsContext
+	^SugsMorphicTextAdapterContext model: self

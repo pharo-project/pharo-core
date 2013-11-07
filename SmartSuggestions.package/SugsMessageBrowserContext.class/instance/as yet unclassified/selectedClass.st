@@ -1,2 +1,0 @@
-selectedClass
-	^model selectedBehavior.

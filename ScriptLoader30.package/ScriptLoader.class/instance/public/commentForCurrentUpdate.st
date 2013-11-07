@@ -1,6 +1,8 @@
 commentForCurrentUpdate
- ^ '- Issue 12081: Show the package in the senders and implementors window
-	https://pharo.fogbugz.com/f/cases/12088/
+ ^ '- Issue 12091:
+	Smart Suggestions is not working in message browser and debugger anymore
+	https://pharo.fogbugz.com/f/cases/12091
 	
-- Issue 12093: Make RGComment polymorphic to RGMEthod for packages
-		https://pharo.fogbugz.com/f/cases/12093'
+- Issue 12100
+	Add shortcut for code formatting
+	https://pharo.fogbugz.com/f/cases/12100'
