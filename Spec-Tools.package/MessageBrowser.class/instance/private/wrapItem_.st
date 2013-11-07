@@ -8,5 +8,5 @@ wrapItem: anItem
 		anItem isFromTrait
 			ifTrue: [ aStream << anItem compiledMethod origin name; space ].
 		aStream << (anItem category ifNil: ['']) <<')'].
-	
-	^ {s. anItem selector}.
+
+	^ {s. anItem selector.  '[',anItem package name,']'.}.

@@ -12,4 +12,9 @@ tearDown
 		nextPutAll: '" errors="'; print: suiteErrors; 
 		nextPutAll: '" time="'; print: suiteTime asMilliSeconds / 1000.0; 
 		nextPutAll: '">'.
-	stream close
+	stream close.
+	
+	progressFile 
+		nextPutAll: 'finished running suite: ';
+		nextPutAll: suite name;
+		close

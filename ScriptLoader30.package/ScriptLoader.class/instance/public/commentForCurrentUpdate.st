@@ -1,9 +1,12 @@
 commentForCurrentUpdate
- ^ '11739 STCommandLineHandler cannot save
-	https://pharo.fogbugz.com/f/cases/11739
+ ^ '- Issue 12088: Show the package in the senders and implementors window
+	https://pharo.fogbugz.com/f/cases/12088/
 	
-6155 Locale plugin returning wrong isoCountry code
-	https://pharo.fogbugz.com/f/cases/6155
+- Issue 12060:
+	The Quit menu entry is not asking for a confirmation anymore?
+	https://pharo.fogbugz.com/f/cases/12060/
+	Smalltalk tools userManager currentUser permissions canSaveImage:  true
 	
-11393 allFileNamesOrCache seems to be inconsistent with other methods
-	https://pharo.fogbugz.com/f/cases/11393'
+- Issue 12079:	
+	HDTestReport improvements
+	https://pharo.fogbugz.com/f/cases/12079/'
