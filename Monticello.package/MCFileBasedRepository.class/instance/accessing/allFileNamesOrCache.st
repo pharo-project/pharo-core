@@ -1,4 +1,4 @@
 allFileNamesOrCache
-	cacheFileNames ifFalse: [ ^ self allFileNames ].
+	cacheFileNames == true ifFalse: [ ^ self allFileNames ].
 	^ allFileNames ifNil: [
 			allFileNames := self allFileNames]

@@ -5,7 +5,7 @@ determineLocaleID
 	isoLang := langCode
 		ifNil: [^self localeID]
 		ifNotNil: [langCode].
-	countryCode := self primCountry.
+	countryCode := self primCountry copyUpTo: 0 asCharacter.
 	isoCountry := countryCode
 		ifNil: [^LocaleID isoLanguage: isoLang]
 		ifNotNil: [countryCode].
