@@ -1,2 +1,3 @@
-fullNameForChangesNamed: aName
-	^ (self fileForChangesNamed: aName) fullName
+fullNameForChangesNamed: aString
+
+	^(self fileForChangesNamed: aString) fullName

@@ -1,2 +1,3 @@
 fullNameForImageNamed: aString
-	^ (self fileForImageNamed: aString) fullName
+
+	^(self fileForImageNamed: aString) fullName

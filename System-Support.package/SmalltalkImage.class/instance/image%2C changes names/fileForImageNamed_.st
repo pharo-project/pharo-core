@@ -1,2 +1,3 @@
 fileForImageNamed: aString
-	^ (self imageDirectory resolve: aString), self imageSuffix
+
+	^(self imageDirectory resolve: aString), self imageSuffix

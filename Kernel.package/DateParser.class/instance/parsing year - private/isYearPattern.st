@@ -1,0 +1,3 @@
+isYearPattern
+
+	^ char = $y

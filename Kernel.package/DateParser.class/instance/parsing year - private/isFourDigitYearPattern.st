@@ -1,0 +1,3 @@
+isFourDigitYearPattern
+
+	^ patternStream nextMatchAll: 'yyy'

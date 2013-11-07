@@ -1,0 +1,3 @@
+isTwoDigitDayPattern
+
+	^ patternStream peekFor: $d

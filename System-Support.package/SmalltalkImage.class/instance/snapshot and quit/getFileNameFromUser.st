@@ -1,16 +1,14 @@
 getFileNameFromUser
 
-	| newName |
-	newName := UIManager default
+	| givenName strippedName imageFile changesFile |
+	givenName := UIManager default
 		request: 'New File Name?' translated
 		initialAnswer: (self imageFile basename copyUpToLast:  Path extensionDelimiter).
-		
-	newName isEmptyOrNil 
-		ifTrue: [^nil].
-	
-	((self fileForImageNamed: newName) exists 
-	or: [ (self fileForChangesNamed: newName) exists ]) 
-		ifTrue: [ 
-			(self confirm: ('{1} already exists. Overwrite?' translated format: {newName})) 
-				ifFalse: [ ^ nil ]].
-	^newName
+	strippedName := self stripImageExtensionFrom: givenName.
+	strippedName isEmptyOrNil ifTrue: [^nil].
+	imageFile := self fileForImageNamed: strippedName.
+	changesFile := self fileForChangesNamed: strippedName.
+	((imageFile exists or: [changesFile exists]) and:
+		[(self confirm: ('{1} already exists. Overwrite?' translated format: {strippedName})) not])
+			ifTrue: [^nil].
+	^strippedName

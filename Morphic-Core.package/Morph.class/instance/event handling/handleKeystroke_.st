@@ -4,11 +4,8 @@ handleKeystroke: anEvent
 	anEvent wasHandled
 		ifTrue: [^ self].
 	
-	self allowsKeymapping 
-		ifTrue: [
-			self dispatchKeystrokeForEvent: anEvent.
-			anEvent wasHandled
-				ifTrue: [^ self]].	
+	Smalltalk tools shortcuts handleKeystroke: anEvent inMorph: self.
+	anEvent wasHandled ifTrue: [^ self].
 	
 	(self handlesKeyStroke: anEvent)
 		ifFalse: [^ self].

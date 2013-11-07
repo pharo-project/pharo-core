@@ -1,0 +1,3 @@
+readNextChar
+
+	char := patternStream next

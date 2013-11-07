@@ -1,2 +1,3 @@
-fileForChangesNamed: aName
-	^ (self imageDirectory resolve: aName) , self changesSuffix.
+fileForChangesNamed: aString
+
+	^(self imageDirectory resolve: aString), self changesSuffix

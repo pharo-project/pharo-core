@@ -1,0 +1,3 @@
+isMonthPattern
+
+	^ char = $m

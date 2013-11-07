@@ -52,7 +52,7 @@ readFrom: aStream
 	(year < 100 and: [year >= 0]) 
 		ifTrue: [
 			year < 69 
-				ifTrue: [	year := 2000 + year]
+				ifTrue: [year := 2000 + year]
 				ifFalse: [year := 1900 + year]].
 
 	^ self
