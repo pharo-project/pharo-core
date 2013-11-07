@@ -13,6 +13,7 @@ asRingDefinition
 		comment: self organization classComment;
 		stamp: self organization commentStamp;
 		definitionSource: self definition;
+		package: self package asRingDefinition;
 		withMetaclass.
 	ring theMetaClass 
 		traitCompositionSource: self theMetaClass traitCompositionString;

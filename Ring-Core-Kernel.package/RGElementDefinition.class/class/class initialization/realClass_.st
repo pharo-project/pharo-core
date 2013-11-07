@@ -3,5 +3,5 @@ realClass: aClass
 	However it is not set as parent but only its name and scope (instance/class)"
 
 	^self new
-		setParentInfo: aClass;
+		parent: aClass asRingDefinition;
 		yourself
