@@ -7,7 +7,7 @@ asClassDefinition
 		category: self category 
 		instVarNames: self instVarNames
 		classVarNames: self classVarNames
-		poolDictionaryNames: self poolDictionaryNames
+		poolDictionaryNames: self sharedPoolNames
 		classInstVarNames: self class instVarNames
 		type: self typeOfClass
 		comment: self organization classComment	 asString

@@ -21,7 +21,7 @@ definitionString
 				nextPut: $ ].
 	definitionStream nextPutAll: '''
 	poolDictionaries: '''.
-	self poolDictionaryNames do: 
+	self sharedPoolNames do: 
 			[:each | 
 			definitionStream
 				nextPutAll: each;

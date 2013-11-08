@@ -6,7 +6,7 @@ checkClass: aContext
 			result 
 				addClass: aContext selectedClass
 				classVariable: each ] ].
-	aContext selectedClass poolDictionaryNames do: [ :each | 
+	aContext selectedClass sharedPoolNames do: [ :each | 
 		each first isUppercase ifFalse: [ 
 			result 
 				addClass: aContext selectedClass

@@ -27,6 +27,6 @@ defineClass: aString
 		ifFalse: [ newClass theMetaClass superclass: newClass superclass theMetaClass ].
 	newClass instanceVariableNames: change instanceVariableNames.
 	newClass classVariableNames: change classVariableNames.
-	newClass poolDictionaryNames: change poolDictionaryNames.
+	newClass poolDictionaryNames: change sharedPoolNames.
 	newClass category: change category.
 	^ change

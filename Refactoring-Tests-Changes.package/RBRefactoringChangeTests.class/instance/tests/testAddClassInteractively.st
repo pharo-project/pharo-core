@@ -14,7 +14,7 @@ testAddClassInteractively
 	self assert: change instanceVariableNames first = 'instVar'.
 	self assert: change classVariableNames size = 1.
 	self assert: change classVariableNames first = 'ClassVar'.
-	self assert: change poolDictionaryNames size = 1.
-	self assert: change poolDictionaryNames first = 'PoolDict'.
+	self assert: change sharedPoolNames size = 1.
+	self assert: change sharedPoolNames first = 'PoolDict'.
 	self assert: change category = self class category.
 	self universalTestFor: change

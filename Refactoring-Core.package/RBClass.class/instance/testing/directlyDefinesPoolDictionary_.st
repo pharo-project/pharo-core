@@ -1,2 +1,2 @@
 directlyDefinesPoolDictionary: aString 
-	^self poolDictionaryNames includes: aString asSymbol
+	^self sharedPoolNames includes: aString asSymbol

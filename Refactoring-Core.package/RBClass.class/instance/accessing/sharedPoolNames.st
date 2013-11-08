@@ -1,2 +1,2 @@
-poolDictionaryNames
+sharedPoolNames
 	^self privatePoolDictionaryNames copy

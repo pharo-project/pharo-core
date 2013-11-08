@@ -3,5 +3,5 @@ pullUpPoolVariables
 
 	| newSuperclass |
 	newSuperclass := self abstractSuperclass.
-	parent poolDictionaryNames 
+	parent sharedPoolNames 
 		do: [:each | newSuperclass addPoolDictionary: each]

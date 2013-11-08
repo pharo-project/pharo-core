@@ -1,2 +1,2 @@
 oldComment
-	oldComment
+	^ oldComment

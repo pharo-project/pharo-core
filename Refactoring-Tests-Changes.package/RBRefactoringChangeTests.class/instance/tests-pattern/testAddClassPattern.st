@@ -12,6 +12,6 @@ testAddClassPattern
 				ifFalse: [ change definitionClass = class superclass ]).
 			self assert: (change instanceVariableNames = class instVarNames asArray).
 			self assert: (change classVariableNames = class classVarNames asArray).
-			self assert: (change poolDictionaryNames = class poolDictionaryNames asArray).
+			self assert: (change sharedPoolNames = class sharedPoolNames asArray).
 			self assert: (change category = class category).
 			self universalTestFor: change ] ]
