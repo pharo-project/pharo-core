@@ -22,7 +22,7 @@ startDrag: anEvent
 				withEnoughArguments: { itemMorph withoutListWrapper. self } ].
 			
 	passenger
-		ifNotNil: [aTransferMorph := TransferMorph withPassenger: passenger from: self.
+		ifNotNil: [aTransferMorph := self model transferFor: passenger from: self.
 			aTransferMorph dragTransferType: #dragTransfer.
 			aTransferMorph align: aTransferMorph draggedMorph center with: anEvent position.
 			anEvent hand grabMorph: aTransferMorph].

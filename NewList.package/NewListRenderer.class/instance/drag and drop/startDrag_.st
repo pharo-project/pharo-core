@@ -8,11 +8,11 @@ startDrag: evt
 	draggedIndex := self indexAtLocation: evt position.
 	draggedItem := self listSource model draggedItemAtIndex: draggedIndex.
 	draggedItem ifNil: [ ^ self ].
-	passenger := self listSource model dragPassengersFor: draggedItem inMorph: self listSource.
+	passenger := self listSource transferFor: draggedItem from: self listSource.
 	passenger ifNil: [ ^ self ].
 		
 	self releaseKeyboardFocus.
-	transferMorph := TransferMorph withPassenger: passenger from: self.
+	transferMorph := self listSource withPassenger: passenger from: self.
 	transferMorph dropNotifyRecipient: self.
 	transferMorph align: transferMorph draggedMorph bottomLeft  with: ((evt position) translateBy: (self listSource bounds left)@(self listSource bounds top - self topDifference + self headerHeight - (3*self itemHeight/2))).
 	
