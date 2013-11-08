@@ -6,5 +6,5 @@ on: aList named: aString autoSelect: aSelector refreshingBlockSelector:aRefreshi
 		autoSelect: aSelector;
 		yourself.
 		
-	out refreshingBlock: (aRefreshingBlockSelector ifNil:[nil] ifNotNil:[(out perform:aRefreshingBlockSelector with:aSelector)]).
+	aRefreshingBlockSelector ifNotNil:[(out perform:aRefreshingBlockSelector with:aSelector)].
 	^out

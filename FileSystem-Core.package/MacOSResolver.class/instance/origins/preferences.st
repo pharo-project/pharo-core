@@ -1,2 +1,2 @@
 preferences 
-	^ self library / 'Preferences'
+	^ self home / 'Library' / 'Preferences'
