@@ -1,3 +1,3 @@
 adoptIndexes: aDictionary
 
-	selectedIndexes contents: aDictionary
+	selectedIndexes value: aDictionary

@@ -1,3 +1,3 @@
 dragItemSelector: anObject
 
-	dragItemSelector contents: anObject
+	dragItemSelector value: anObject

@@ -1,4 +1,4 @@
 title
 	"Return the window's title"
 
-	^ titleHolder contents
+	^ titleHolder value

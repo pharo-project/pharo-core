@@ -1,3 +1,3 @@
 getDisplaySelector
 
-	^ getDisplaySelector contents
+	^ getDisplaySelector value

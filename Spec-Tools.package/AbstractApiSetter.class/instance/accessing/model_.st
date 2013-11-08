@@ -1,3 +1,3 @@
 model: anObject
 
-	model contents: anObject
+	model value: anObject

@@ -1,2 +1,2 @@
 getMenuTitleSelector: anObject
-	getMenuTitleSelector contents: anObject
+	getMenuTitleSelector value: anObject

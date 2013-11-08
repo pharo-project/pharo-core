@@ -1,2 +1,2 @@
 getIndexSelector
-	^ getIndexSelector contents
+	^ getIndexSelector value

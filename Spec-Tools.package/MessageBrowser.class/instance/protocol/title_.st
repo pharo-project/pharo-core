@@ -1,3 +1,3 @@
 title: aString
 
-	titleHolder contents: aString.
+	titleHolder value: aString.

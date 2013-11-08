@@ -2,4 +2,4 @@ initialize
 
 	super initialize.
 	
-	self contents: Dictionary new.
+	self value: Dictionary new.

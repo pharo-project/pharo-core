@@ -1,3 +1,3 @@
 additionalKeyBindings
 
-	^ additionalKeyBindings contents
+	^ additionalKeyBindings value

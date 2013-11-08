@@ -1,3 +1,3 @@
 askOkToClose: aBoolean
 
-	askOkToClose contents: aBoolean
+	askOkToClose value: aBoolean

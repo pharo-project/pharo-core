@@ -1,7 +1,7 @@
 endOfInitialization
 
 	getItemsSelector whenChangedDo: [:e | self list updateItems ].
-	setIndexSelector contents ifNotNil: [:s |
+	setIndexSelector value ifNotNil: [:s |
 		self list whenSelectedIndexChangedDo: [:a :b :c :d | 
 			self model perform: s withEnoughArguments: {a. b. c. d } ]].
 

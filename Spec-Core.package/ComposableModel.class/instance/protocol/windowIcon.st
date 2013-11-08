@@ -1,3 +1,3 @@
 windowIcon
 
-	^ windowIcon contents
+	^ windowIcon value

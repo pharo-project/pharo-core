@@ -1,2 +1,2 @@
 list: anObject
-	list contents: anObject
+	list value: anObject

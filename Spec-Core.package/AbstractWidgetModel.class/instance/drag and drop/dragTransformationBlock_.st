@@ -1,3 +1,3 @@
 dragTransformationBlock: aBlock
 
-	dragTransformationBlock contents: aBlock
+	dragTransformationBlock value: aBlock

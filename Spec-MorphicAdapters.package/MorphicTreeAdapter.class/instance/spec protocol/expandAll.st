@@ -1,3 +1,3 @@
 expandAll
 
-	self treeModel expandAll
+	self treeModel changed: #(rootNodes expandAll)

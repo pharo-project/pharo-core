@@ -1,3 +1,3 @@
 autoMultiSelection: aBoolean
 
-	autoMultiSelection contents: aBoolean
+	autoMultiSelection value: aBoolean

@@ -1,2 +1,2 @@
 inspector
-	^ inspector contents
+	^ inspector value

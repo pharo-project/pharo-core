@@ -1,3 +1,3 @@
 childrenFor: anItem
 
-	^ childrenBlockHolder contents cull: anItem cull: self
+	^ childrenBlockHolder value cull: anItem cull: self

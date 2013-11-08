@@ -1,3 +1,3 @@
 tabSelectedAction
 
-	^ tabSelectedAction contents
+	^ tabSelectedAction value

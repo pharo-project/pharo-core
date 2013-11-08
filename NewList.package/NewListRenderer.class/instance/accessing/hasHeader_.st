@@ -1,3 +1,3 @@
 hasHeader: aBoolean
 
-	hasHeader contents: aBoolean
+	hasHeader value: aBoolean

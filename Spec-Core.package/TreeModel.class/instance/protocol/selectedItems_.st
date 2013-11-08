@@ -4,5 +4,5 @@ selectedItems: aCollection
 	"In the case of a multiple selection list, it returns the last selected item"
 
 	"treeModel selectNodePath: aCollection."
-	selectionHolder contents: aCollection.
+	selectionHolder value: aCollection.
 	

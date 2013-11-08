@@ -1,3 +1,3 @@
 transferBlock
 
-	^ transferBlock contents
+	^ transferBlock value

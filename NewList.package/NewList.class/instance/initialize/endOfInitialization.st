@@ -1,6 +1,6 @@
 endOfInitialization
 
-	isInitialized contents: true.
+	isInitialized value: true.
 
 	self updateItems.
 	self updateDisplayListCache.
@@ -11,11 +11,11 @@ endOfInitialization
 	
 	self updateRenderer.
 	
-	selectedItem contents: self retrieveSelectedItem.
-	selectedItems contents: self retrieveSelectedItems.
+	selectedItem value: self retrieveSelectedItem.
+	selectedItems value: self retrieveSelectedItems.
 	
 	listCache whenChangedDo: [:e |
-			listSize contents: e size.
+			listSize value: e size.
 			self updateDisplayListCache.
 			self unselectOnChange
 				ifTrue: [ self deselectAll ].
@@ -26,7 +26,7 @@ endOfInitialization
 		self setViewToIndex: idx. 
 		self renderer updateRectFor: idx ].
 	selectedIndex whenChangedDo: [:newIndex :oldIndex | 
-		selectedItem contents: self retrieveSelectedItem.
+		selectedItem value: self retrieveSelectedItem.
 		self renderer updateRectFor: oldIndex. ].
-	selectedIndexes whenChangedDo: [:newIndex :oldIndex | selectedItems contents: self retrieveSelectedItems ].
+	selectedIndexes whenChangedDo: [:newIndex :oldIndex | selectedItems value: self retrieveSelectedItems ].
 	headerTitle whenChangedDo: [:t | self renderer invalidHeader ].

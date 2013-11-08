@@ -1,3 +1,3 @@
 retrievingBlock
 
-	^ retrievingBlock contents
+	^ retrievingBlock value

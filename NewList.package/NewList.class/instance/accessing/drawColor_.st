@@ -1,2 +1,2 @@
 drawColor: anObject
-	drawColor contents: anObject
+	drawColor value: anObject

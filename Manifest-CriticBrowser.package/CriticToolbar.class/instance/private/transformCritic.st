@@ -1,4 +1,4 @@
 transformCritic
-	 criticHolder contents
-		ifNotNil: [:critic | ruleHolder contents transform: critic ]
+	 criticHolder value
+		ifNotNil: [:critic | ruleHolder value transform: critic ]
 	

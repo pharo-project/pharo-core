@@ -11,8 +11,8 @@ initialize
 	steppingTime := 100.
 	mouseDownIndex := 0 asValueHolder.
 	listSource whenChangedDo: [:e | 
-		itemHeight contents: e itemHeight.
-		e whenItemsChangedDo: [ maxWidth contents: 0 ]].
+		itemHeight value: e itemHeight.
+		e whenItemsChangedDo: [ maxWidth value: 0 ]].
 	potentialDropIndex whenChangedDo: [:new :old | self updateRectFor: new and: old ].
 	mouseDownIndex whenChangedDo: [:new :old |
 		(old ~~ 0 and: [ new ~~ 0 ]) 

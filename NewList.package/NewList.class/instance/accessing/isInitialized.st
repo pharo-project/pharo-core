@@ -1,2 +1,2 @@
 isInitialized
-	^ isInitialized contents
+	^ isInitialized value

@@ -1,4 +1,4 @@
 iconMaxSize
 
-	^ iconMaxSize contents ifNil: [ 
-		iconMaxSize contents: self retrieveIconMaxSize ]
+	^ iconMaxSize value ifNil: [ 
+		iconMaxSize value: self retrieveIconMaxSize ]

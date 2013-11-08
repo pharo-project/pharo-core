@@ -1,2 +1,2 @@
 isClosed
-	^ isClosedHolder contents
+	^ isClosedHolder value

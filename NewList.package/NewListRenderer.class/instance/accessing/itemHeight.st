@@ -1,3 +1,3 @@
 itemHeight
 
-	^ itemHeight contents
+	^ itemHeight value

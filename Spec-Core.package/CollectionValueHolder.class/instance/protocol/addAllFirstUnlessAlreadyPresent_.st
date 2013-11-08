@@ -1,6 +1,6 @@
 addAllFirstUnlessAlreadyPresent: anOrderedCollection
 	
 	| result |
-	result := contents addAllFirstUnlessAlreadyPresent: anOrderedCollection.
-	self contentsChanged: anOrderedCollection.
+	result := value addAllFirstUnlessAlreadyPresent: anOrderedCollection.
+	self valueChanged: anOrderedCollection.
 	^ result

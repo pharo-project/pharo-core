@@ -1,3 +1,3 @@
 listSize
 
-	^ listSize contents ifNil: [ self retrieveListSize ]
+	^ listSize value ifNil: [ self retrieveListSize ]

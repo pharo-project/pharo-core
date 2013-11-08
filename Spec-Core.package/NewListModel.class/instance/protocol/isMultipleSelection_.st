@@ -1,3 +1,3 @@
 isMultipleSelection: aBoolean
 
-	isMultipleSelection contents: aBoolean
+	isMultipleSelection value: aBoolean

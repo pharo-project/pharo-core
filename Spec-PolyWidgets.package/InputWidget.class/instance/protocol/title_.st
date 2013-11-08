@@ -1,3 +1,3 @@
 title: aString
 
-	title contents: aString
+	title value: aString

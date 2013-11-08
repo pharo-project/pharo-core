@@ -1,3 +1,3 @@
 actions
 
-	^ actions contents
+	^ actions value

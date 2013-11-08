@@ -1,2 +1,2 @@
 selectionWithKeys: anObject
-	selectionWithKeys contents: anObject
+	selectionWithKeys value: anObject

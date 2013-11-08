@@ -1,3 +1,3 @@
 wantDropBlock: aBlock
 
-	wantDropBlock contents: aBlock
+	wantDropBlock value: aBlock

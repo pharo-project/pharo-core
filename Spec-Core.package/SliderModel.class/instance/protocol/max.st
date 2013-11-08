@@ -2,4 +2,4 @@ max
 	<api: #inspect>
 	"Return the maximun value"
 	
-	^ max contents
+	^ max value

@@ -1,8 +1,8 @@
 basicInspector: anEyeInspector
-	inspector contents 
+	inspector value 
 		ifNotNil: [ :inspect | 
 			inspect owner: nil ].
-	inspector contents: anEyeInspector.
+	inspector value: anEyeInspector.
 	
 	anEyeInspector 
 		owner: self;

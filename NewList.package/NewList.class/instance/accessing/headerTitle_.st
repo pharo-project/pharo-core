@@ -1,2 +1,2 @@
 headerTitle: anObject
-	headerTitle contents: anObject
+	headerTitle value: anObject

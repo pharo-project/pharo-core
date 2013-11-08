@@ -7,5 +7,5 @@ registerEvents
 	wrapBlockHolder whenChangedDo:[ self changed: #listElementAt: ].
 	sortingBlockHolder
 		whenChangedDo: [ 
-			listHolder contents: (listHolder contents sorted: sortingBlockHolder contents).
+			listHolder value: (listHolder value sorted: sortingBlockHolder value).
 			self changed: #listElementAt: ].

@@ -1,6 +1,6 @@
 initialExtent
 
-	^ initialExtent contents
+	^ initialExtent value
 		ifNil: [ self model 
 				ifNil: [ self defaultInitialExtent ]
 				ifNotNil: [:m | m initialExtent

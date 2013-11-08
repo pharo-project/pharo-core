@@ -1,2 +1,2 @@
 deSelectOnReclick
-	^ deSelectOnReclick contents
+	^ deSelectOnReclick value

@@ -1,3 +1,3 @@
 contextClass
 
-	^ contextClassHolder contents
+	^ contextClassHolder value

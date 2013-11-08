@@ -1,3 +1,3 @@
 icon: anIcon
 
-	iconHolder contents: anIcon
+	iconHolder value: anIcon

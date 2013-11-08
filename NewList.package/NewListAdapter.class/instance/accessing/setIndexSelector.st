@@ -1,2 +1,2 @@
 setIndexSelector
-	^ setIndexSelector contents
+	^ setIndexSelector value

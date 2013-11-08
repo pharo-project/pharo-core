@@ -1,3 +1,3 @@
 columns
 	
-	^ columns contents
+	^ columns value

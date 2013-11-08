@@ -1,3 +1,3 @@
 contents
 
-	^ morph contents
+	^ morph value

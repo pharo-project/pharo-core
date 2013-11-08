@@ -1,3 +1,3 @@
 updateAllowToSelect
 
-	allowToSelect contents: self retrieveAllowToSelect
+	allowToSelect value: self retrieveAllowToSelect

@@ -1,3 +1,3 @@
 extent
 
-	^  extentHolder contents
+	^  extentHolder value

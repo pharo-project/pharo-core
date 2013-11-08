@@ -1,3 +1,3 @@
 okAction
 
-	^ okAction contents
+	^ okAction value

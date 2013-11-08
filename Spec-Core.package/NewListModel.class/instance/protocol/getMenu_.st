@@ -1,10 +1,10 @@
 getMenu: shiftKeyState
 	| menu |
 	
-	menuHolder contents ifNil: [ ^ nil ].
+	menuHolder value ifNil: [ ^ nil ].
 	menu := UIManager default newMenuIn: self for: self.
 	
-	menuHolder contents cull: menu cull: shiftKeyState.
-	menuTitle contents ifNotNil: [ :title | menu addTitle: title ].
+	menuHolder value cull: menu cull: shiftKeyState.
+	menuTitle value ifNotNil: [ :title | menu addTitle: title ].
 	
 	^ menu

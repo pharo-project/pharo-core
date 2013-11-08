@@ -1,2 +1,2 @@
 getMenuSelector
-	^ getMenuSelector contents
+	^ getMenuSelector value

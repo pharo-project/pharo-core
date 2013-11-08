@@ -1,2 +1,2 @@
 selectionChanged: ann
-	^ selectionHolder contents: ann selection selectedItems
+	^ selectionHolder value: ann selection selectedItems

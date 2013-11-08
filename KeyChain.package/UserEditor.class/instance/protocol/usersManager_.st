@@ -1,3 +1,3 @@
 usersManager: aUsersManager
 
-	usersManager contents: aUsersManager
+	usersManager value: aUsersManager

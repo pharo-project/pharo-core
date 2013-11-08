@@ -1,3 +1,3 @@
 separatorBlock: aBlock
 
-	separatorBlock contents: aBlock
+	separatorBlock value: aBlock

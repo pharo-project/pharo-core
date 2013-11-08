@@ -1,2 +1,2 @@
 runningProcesses: aCollection
-	runningProcesses contents: aCollection
+	runningProcesses value: aCollection

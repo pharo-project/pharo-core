@@ -1,3 +1,3 @@
 isCheckList: aBoolean
 
-	isCheckList contents: aBoolean
+	isCheckList value: aBoolean

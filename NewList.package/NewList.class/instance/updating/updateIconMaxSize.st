@@ -1,3 +1,3 @@
 updateIconMaxSize
 
-	iconMaxSize contents: self retrieveIconMaxSize
+	iconMaxSize value: self retrieveIconMaxSize

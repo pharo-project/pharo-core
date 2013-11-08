@@ -1,6 +1,6 @@
 addAllLast: aCollection 
 	
 	| result |
-	result := contents addAllLast: aCollection.
-	self contentsChanged: aCollection.
+	result := value addAllLast: aCollection.
+	self valueChanged: aCollection.
 	^ result

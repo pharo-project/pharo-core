@@ -1,3 +1,3 @@
 debugAction
 
-	^ debugActionHolder contents 
+	^ debugActionHolder value 

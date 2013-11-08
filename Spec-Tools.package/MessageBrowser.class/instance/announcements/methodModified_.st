@@ -8,7 +8,7 @@ methodModified: anAnnouncement
 	sel := listModel selectedItem.
 	sel ifNil: [ ^ self ].
 	(sel notNil and: [(sel methodClass = oldItem methodClass and: [ sel selector = oldItem selector ])]) ifFalse: [ ^ self ].
-	(refreshingBlockHolder contents cull: item cull: anAnnouncement cull: self) ifFalse: [ ^ self ].	
+	(refreshingBlockHolder value cull: item cull: anAnnouncement cull: self) ifFalse: [ ^ self ].	
 		index := listModel selectedIndex .
 	UIManager default defer:  [	| text list edits |
 		edits := textModel hasUnacceptedEdits.

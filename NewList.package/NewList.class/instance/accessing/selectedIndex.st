@@ -1,3 +1,3 @@
 selectedIndex
 
-	^ selectedIndex contents
+	^ selectedIndex value

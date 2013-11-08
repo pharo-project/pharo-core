@@ -1,2 +1,2 @@
 onWidgetBuilt
-	^ self selectedItems: selectionHolder contents
+	^ self selectedItems: selectionHolder value

@@ -1,3 +1,3 @@
 draggedItemAtIndex: anIndex
 
-	^ draggedItemAtIndex contents cull: anIndex.
+	^ draggedItemAtIndex value cull: anIndex.

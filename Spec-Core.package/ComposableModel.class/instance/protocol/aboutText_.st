@@ -1,3 +1,3 @@
 aboutText: aString
 
-	aboutText contents: aString
+	aboutText value: aString

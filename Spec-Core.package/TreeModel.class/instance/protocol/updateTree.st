@@ -3,4 +3,4 @@ updateTree
 	"Force the tree to refresh"
 
 	self changed: #updateTree with: {}.
-	treeUpdated contents: nil.
+	treeUpdated value: nil.

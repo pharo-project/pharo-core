@@ -1,3 +1,3 @@
 rootNodeFromItem: item
 
-	^ rootNodeHolder contents cull:item
+	^ rootNodeHolder value cull:item

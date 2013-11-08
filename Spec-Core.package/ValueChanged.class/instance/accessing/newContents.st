@@ -1,3 +1,0 @@
-newContents
-
-	^ newContents

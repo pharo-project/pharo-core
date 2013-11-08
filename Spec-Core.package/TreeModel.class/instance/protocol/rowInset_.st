@@ -1,3 +1,3 @@
 rowInset: anInteger
 
-	rowInset contents: anInteger
+	rowInset value: anInteger

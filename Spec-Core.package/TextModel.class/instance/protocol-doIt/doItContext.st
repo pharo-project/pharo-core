@@ -1,3 +1,3 @@
 doItContext
 
-	^ doItContext contents
+	^ doItContext value

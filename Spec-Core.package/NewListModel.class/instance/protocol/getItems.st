@@ -1,3 +1,3 @@
 getItems
 
-	^ items contents
+	^ items value

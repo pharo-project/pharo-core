@@ -1,3 +1,3 @@
 dragEnabled: anObject
 
-	dragEnabled contents: anObject
+	dragEnabled value: anObject

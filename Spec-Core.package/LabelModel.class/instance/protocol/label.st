@@ -1,4 +1,4 @@
 label
 	<api: #inspect>
 
-	^ textHolder contents
+	^ textHolder value

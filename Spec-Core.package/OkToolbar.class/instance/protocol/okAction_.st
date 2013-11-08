@@ -1,3 +1,3 @@
 okAction: aBlock
 
-	^ okAction contents: aBlock
+	^ okAction value: aBlock

@@ -1,2 +1,2 @@
 unselectOnChange
-	^ unselectOnChange contents
+	^ unselectOnChange value

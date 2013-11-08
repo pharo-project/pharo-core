@@ -1,2 +1,2 @@
 isMultipleSelection: anObject
-	isMultipleSelection contents: anObject
+	isMultipleSelection value: anObject

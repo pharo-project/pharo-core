@@ -1,8 +1,8 @@
 setIndex: anIndex
 	| item |
 
-	selectionHolder index contents: anIndex.
-	item := (listHolder contents at: anIndex ifAbsent: [ nil ]).
+	selectionHolder index value: anIndex.
+	item := (listHolder value at: anIndex ifAbsent: [ nil ]).
 	item value.
-	selectionHolder selection contents: item.
+	selectionHolder selection value: item.
 	self changed: #getIndex

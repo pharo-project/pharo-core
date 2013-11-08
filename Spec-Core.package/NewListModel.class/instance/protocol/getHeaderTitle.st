@@ -1,3 +1,3 @@
 getHeaderTitle
 
-	 ^ headerTitle contents
+	 ^ headerTitle value

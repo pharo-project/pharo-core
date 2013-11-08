@@ -1,3 +1,3 @@
 multiSelection
 
-	^ multiSelection contents
+	^ multiSelection value

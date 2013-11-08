@@ -1,3 +1,3 @@
 enabled
 	<api: #inspect>
-	^ enabledHolder contents
+	^ enabledHolder value

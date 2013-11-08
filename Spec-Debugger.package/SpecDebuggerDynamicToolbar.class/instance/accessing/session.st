@@ -1,3 +1,3 @@
 session
 	
-	^ sessionHolder contents 
+	^ sessionHolder value 

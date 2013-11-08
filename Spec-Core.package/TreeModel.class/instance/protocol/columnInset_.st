@@ -1,3 +1,3 @@
 columnInset: anInteger
 
-	columnInset contents: anInteger
+	columnInset value: anInteger

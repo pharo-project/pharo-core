@@ -1,2 +1,2 @@
 wantsDropSelector: anObject
-	wantsDropSelector contents: anObject
+	wantsDropSelector value: anObject

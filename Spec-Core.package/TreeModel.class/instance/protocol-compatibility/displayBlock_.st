@@ -5,4 +5,4 @@ displayBlock: aBlock
 		- the item
 		- the tree"
 
-	displayBlock contents: aBlock
+	displayBlock value: aBlock

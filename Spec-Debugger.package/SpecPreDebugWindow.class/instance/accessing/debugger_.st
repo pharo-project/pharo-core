@@ -1,3 +1,3 @@
 debugger: anOnject
 
-	debugger contents: anOnject
+	debugger value: anOnject

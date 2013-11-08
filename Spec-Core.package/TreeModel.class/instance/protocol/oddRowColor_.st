@@ -1,3 +1,3 @@
 oddRowColor: aColor
 
-	oddRowColor contents: aColor
+	oddRowColor value: aColor

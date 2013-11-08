@@ -1,3 +1,3 @@
 iconMaxSize: aPoint
 
-	iconMaxSize contents: aPoint
+	iconMaxSize value: aPoint

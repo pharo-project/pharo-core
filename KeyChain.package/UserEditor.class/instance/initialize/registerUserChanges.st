@@ -11,7 +11,7 @@ registerUserChanges
 			editPublic enabled: usr notNil.
 			usr
 				ifNotNil: [ 
-					userName text: user contents username.
+					userName text: user value username.
 					container removeAllMorphs.
 					container addMorph: usr avatar copy fullFrame: LayoutFrame identity.
 					originalEmail := usr userNameFor: #gravatar.

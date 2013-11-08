@@ -1,6 +1,6 @@
 atAllPut: anObject 
 	
 	| result |
-	result := contents atAllPut: anObject.
-	self contentsChanged: anObject.
+	result := value atAllPut: anObject.
+	self valueChanged: anObject.
 	^ result

@@ -1,3 +1,3 @@
 dragTransformationBlock
 
-	^ dragTransformationBlock contents
+	^ dragTransformationBlock value

@@ -1,2 +1,2 @@
 separatorSelector: anObject
-	separatorSelector contents: anObject
+	separatorSelector value: anObject

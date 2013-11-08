@@ -1,3 +1,3 @@
 getList
 
-	^ listHolder contents
+	^ listHolder value

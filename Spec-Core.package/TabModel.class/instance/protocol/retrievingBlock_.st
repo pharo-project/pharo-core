@@ -1,3 +1,3 @@
 retrievingBlock: aBlock
 
-	retrievingBlock contents: aBlock
+	retrievingBlock value: aBlock

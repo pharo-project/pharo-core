@@ -1,12 +1,12 @@
 accept: aText notifying: aNotifyier
 	| accept |
 	
-	accept := actionToPerformHolder contents cull: aText cull: aNotifyier.
+	accept := actionToPerformHolder value cull: aText cull: aNotifyier.
 	accept == false ifTrue: [ ^ self ].
 	
-	textHolder contents: aText.
+	textHolder value: aText.
 	
 	"Dummy changed to raise an announcement"
-	actionPerformedHolder contents: aText.
+	actionPerformedHolder value: aText.
 	
 	self changed: #clearUserEdits.

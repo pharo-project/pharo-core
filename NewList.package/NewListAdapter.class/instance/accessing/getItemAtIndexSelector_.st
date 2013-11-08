@@ -1,3 +1,3 @@
 getItemAtIndexSelector: aSelector
 
-	getItemAtIndexSelector contents: aSelector
+	getItemAtIndexSelector value: aSelector

@@ -1,7 +1,7 @@
 testGravatarAddress
 	| email newAvatar |
 	email := gravatarAddress getText.
-	newAvatar := [ user contents retrieveGravatarFromMail: email ]
+	newAvatar := [ user value retrieveGravatarFromMail: email ]
 						on: Error
 						do: [ nil ].
 	newAvatar

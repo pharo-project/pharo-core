@@ -1,3 +1,3 @@
 model
 
-	^ model contents
+	^ model value

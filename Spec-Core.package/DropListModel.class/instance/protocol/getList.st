@@ -1,3 +1,3 @@
 getList
 
-	^ listHolder contents collect: #label
+	^ listHolder value collect: #label

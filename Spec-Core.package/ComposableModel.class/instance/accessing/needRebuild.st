@@ -1,3 +1,3 @@
 needRebuild
 
-	^ needRebuild contents
+	^ needRebuild value

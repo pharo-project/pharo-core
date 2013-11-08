@@ -2,4 +2,4 @@ selectedItems
 	< api: #inspect>
 	"Return the selected items"
 	
-	^ selectionHolder contents
+	^ selectionHolder value

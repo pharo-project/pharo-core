@@ -2,7 +2,7 @@ initializeDialogWindow: aWindow
 
 	aWindow
 		okAction: [ 
-			user contents
+			user value
 				ifNotNil: [ :usr | 
 					usr canBrowse: canBrowse state.
 					usr canDebug: canDebug state.

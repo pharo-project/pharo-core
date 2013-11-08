@@ -1,3 +1,3 @@
 at: anObject
 
-	^ contents at: anObject
+	^ value at: anObject

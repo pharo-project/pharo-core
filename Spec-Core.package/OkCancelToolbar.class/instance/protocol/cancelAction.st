@@ -1,3 +1,3 @@
 cancelAction
 
-	^ cancelAction contents
+	^ cancelAction value

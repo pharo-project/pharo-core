@@ -1,3 +1,3 @@
 keyStrokeSelector
 	
-	^ keyStrokeSelector contents
+	^ keyStrokeSelector value

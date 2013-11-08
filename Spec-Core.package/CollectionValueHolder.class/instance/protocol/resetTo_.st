@@ -1,4 +1,4 @@
 resetTo: index
 
-	contents resetTo: index.
-	self contentsChanged
+	value resetTo: index.
+	self valueChanged

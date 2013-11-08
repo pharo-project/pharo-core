@@ -1,3 +1,3 @@
 closeable: aBoolean
 
-	closeable contents: aBoolean
+	closeable value: aBoolean

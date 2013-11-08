@@ -1,3 +1,3 @@
 contents: aMorph
 
-	morph contents: aMorph
+	morph value: aMorph

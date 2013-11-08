@@ -1,3 +1,3 @@
 tabs: aCollection
 
-	tabs contents: aCollection
+	tabs value: aCollection

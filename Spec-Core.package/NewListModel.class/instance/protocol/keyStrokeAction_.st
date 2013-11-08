@@ -1,3 +1,3 @@
 keyStrokeAction: anEvent
 
-	^ keyStrokeAction contents cull: anEvent
+	^ keyStrokeAction value cull: anEvent

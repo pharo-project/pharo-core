@@ -2,8 +2,8 @@ selectAll
 
 	self isMultipleSelection ifFalse: [ ^ self ].
 	
-	1 to: self listSize do: [: i | selectedIndexes contents at: i put: true ].
-	selectedIndexes contentsChanged.
+	1 to: self listSize do: [: i | selectedIndexes value at: i put: true ].
+	selectedIndexes valueChanged.
 	self secondSelection: 0.
-	selectedIndex contents: self listSize.
+	selectedIndex value: self listSize.
 	self changed.

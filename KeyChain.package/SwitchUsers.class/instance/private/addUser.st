@@ -23,6 +23,6 @@ addUser
 				yourself.
 				
 	self window openModal: editor window window.
-	usersManager contents addUser: user.
+	usersManager value addUser: user.
 	
 	users setSelectedItem: user username.

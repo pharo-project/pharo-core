@@ -1,4 +1,4 @@
 listSource: anObject
 	
-	listSource contents: anObject.
+	listSource value: anObject.
 	

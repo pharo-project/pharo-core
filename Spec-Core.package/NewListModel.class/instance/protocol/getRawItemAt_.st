@@ -1,3 +1,3 @@
 getRawItemAt: index
 
-	^ items contents at: index ifAbsent: [ nil ]
+	^ items value at: index ifAbsent: [ nil ]

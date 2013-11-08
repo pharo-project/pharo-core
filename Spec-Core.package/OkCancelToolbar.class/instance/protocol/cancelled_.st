@@ -1,3 +1,3 @@
 cancelled: aBoolean
 
-	cancelled contents: aBoolean
+	cancelled value: aBoolean

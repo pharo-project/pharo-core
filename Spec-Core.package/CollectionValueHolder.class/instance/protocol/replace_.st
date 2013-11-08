@@ -1,4 +1,4 @@
 replace: aBlock 
 
-	contents replace: aBlock .
-	self contentsChanged
+	value replace: aBlock .
+	self valueChanged

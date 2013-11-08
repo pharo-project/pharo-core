@@ -1,8 +1,8 @@
 enabled: aBoolean
 	"Set the value of enabled"
 
-	enabled contents = aBoolean ifTrue: [^self].
-	enabled contents: aBoolean.
+	enabled value = aBoolean ifTrue: [^self].
+	enabled value: aBoolean.
 	self changed: #enabled.
 	self
 		adoptPaneColor: self paneColor;

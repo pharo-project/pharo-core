@@ -1,3 +1,3 @@
 whenTabSelected: aBlock
 
-	tabSelectedAction contents: aBlock
+	tabSelectedAction value: aBlock

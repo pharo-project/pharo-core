@@ -1,5 +1,5 @@
 privateSetState: aBoolean
 	"Should only be used by RadioButtonGroup"
 	
-	stateHolder contents: aBoolean.
+	stateHolder value: aBoolean.
 	self changed: #state

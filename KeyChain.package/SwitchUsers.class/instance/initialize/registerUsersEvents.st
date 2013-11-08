@@ -2,10 +2,10 @@ registerUsersEvents
 
 	users
 		whenSelectedItemChanged: [ :item |
-			(usersManager contents isNil or: [ item isNil ])
+			(usersManager value isNil or: [ item isNil ])
 				ifTrue: [ remove enabled: false ]
 				ifFalse: [ | um isRoot uMUsers |
-					um := usersManager contents.
+					um := usersManager value.
 					uMUsers := um users.
 					isRoot := um currentUser canEditUser.
 					remove enabled: 	((item label ~= um currentUser username) and: 

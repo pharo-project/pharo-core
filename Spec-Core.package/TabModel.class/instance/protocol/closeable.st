@@ -1,3 +1,3 @@
 closeable
 
-	^ closeable contents
+	^ closeable value

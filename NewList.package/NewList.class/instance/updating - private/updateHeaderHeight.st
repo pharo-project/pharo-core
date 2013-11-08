@@ -1,4 +1,4 @@
 updateHeaderHeight
 	self isInitialized ifFalse: [ ^ self ].
 	
-	headerHeight contents: self model getHeaderHeight.
+	headerHeight value: self model getHeaderHeight.

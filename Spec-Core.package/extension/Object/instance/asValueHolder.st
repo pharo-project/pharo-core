@@ -1,3 +1,3 @@
 asValueHolder
 
-	^ NewValueHolder contents: self
+	^ NewValueHolder value: self

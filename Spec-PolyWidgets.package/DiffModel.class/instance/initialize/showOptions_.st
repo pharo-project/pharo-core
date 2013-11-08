@@ -1,3 +1,3 @@
 showOptions: aBoolean
 
-	showOptions contents: aBoolean
+	showOptions value: aBoolean

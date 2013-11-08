@@ -1,3 +1,3 @@
 acceptDropBlock: aBlock
 
-	acceptDropBlock contents: aBlock
+	acceptDropBlock value: aBlock

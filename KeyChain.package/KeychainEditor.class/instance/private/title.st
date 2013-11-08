@@ -1,6 +1,6 @@
 title
 
-	^ keychainEditingWrapper contents
+	^ keychainEditingWrapper value
 		ifNil: [ 'Group editor' ]
 		ifNotNil: [:it | 
 			it group 

@@ -1,3 +1,3 @@
 preferedPaneColor: aColor
 
-	preferedPaneColor contents: aColor
+	preferedPaneColor value: aColor

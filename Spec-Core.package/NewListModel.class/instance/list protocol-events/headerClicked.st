@@ -1,3 +1,3 @@
 headerClicked
 
-	headerClicked contents value
+	headerClicked value value

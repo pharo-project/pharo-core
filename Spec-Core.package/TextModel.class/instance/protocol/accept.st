@@ -5,4 +5,4 @@ accept
 	self widget ifNotNil: [:w | w accept ].
 	
 	"Dummy changed to raise an announcement"
-	actionPerformedHolder contents: self text.
+	actionPerformedHolder value: self text.

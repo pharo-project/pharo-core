@@ -1,2 +1,2 @@
 deSelectOnReclick: anObject
-	deSelectOnReclick contents: anObject
+	deSelectOnReclick value: anObject

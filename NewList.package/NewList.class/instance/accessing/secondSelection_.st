@@ -1,2 +1,2 @@
 secondSelection: anObject
-	secondSelection contents: anObject
+	secondSelection value: anObject

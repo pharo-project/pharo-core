@@ -1,3 +1,3 @@
 wantDropBlock
 
-	^ wantDropBlock contents
+	^ wantDropBlock value

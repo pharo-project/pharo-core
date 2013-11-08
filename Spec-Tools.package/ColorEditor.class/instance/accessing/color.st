@@ -1,2 +1,2 @@
 color
-	^ color contents
+	^ color value

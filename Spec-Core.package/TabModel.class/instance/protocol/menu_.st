@@ -1,3 +1,3 @@
 menu: aBlock
 
-	menu contents: aBlock
+	menu value: aBlock

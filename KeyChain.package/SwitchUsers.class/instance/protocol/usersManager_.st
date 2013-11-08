@@ -1,4 +1,4 @@
 usersManager: anUsersManager
 
-	usersManager contents: anUsersManager.
-	anUsersManager users whenChangedDo: [ usersManager contentsChanged ]
+	usersManager value: anUsersManager.
+	anUsersManager users whenChangedDo: [ usersManager valueChanged ]

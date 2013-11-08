@@ -1,3 +1,3 @@
 wrapItem: anItem
 
-	^ displayBlock contents cull: anItem cull: self
+	^ displayBlock value cull: anItem cull: self

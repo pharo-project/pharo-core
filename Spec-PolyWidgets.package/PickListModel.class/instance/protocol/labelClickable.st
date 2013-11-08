@@ -1,3 +1,3 @@
 labelClickable
 	
-	^ labelClickableHolder contents
+	^ labelClickableHolder value

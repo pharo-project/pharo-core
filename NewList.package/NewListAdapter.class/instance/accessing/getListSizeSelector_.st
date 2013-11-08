@@ -1,3 +1,3 @@
 getListSizeSelector: aSelector
 
-	getListSizeSelector contents: aSelector
+	getListSizeSelector value: aSelector

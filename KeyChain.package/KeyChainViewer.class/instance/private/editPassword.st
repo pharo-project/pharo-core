@@ -3,9 +3,9 @@ editPassword
 	list selectedItem
 		ifNil: [ ^ self ]
 		ifNotNil: [:it || wrapper editor |
-			keychain contents ifNotNil:[:kc | kc unlock ].
+			keychain value ifNotNil:[:kc | kc unlock ].
 			wrapper :=  KeychainEditingWrapper new
-							keychain: keychain contents;
+							keychain: keychain value;
 							group: it key;
 							usernamePassword: it value.
 							
@@ -16,7 +16,7 @@ editPassword
 				okAction: [
 					it key: wrapper group.
 					it value: wrapper usernamePassword.
-					keychain contentsChanged.
+					keychain valueChanged.
 					list setSelectedItem: it];
 				yourself) ].
 			 ]

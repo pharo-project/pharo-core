@@ -1,3 +1,3 @@
 dropEnabled: aBoolean
 
-	dropEnabled contents: aBoolean
+	dropEnabled value: aBoolean

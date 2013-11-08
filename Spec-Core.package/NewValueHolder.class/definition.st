@@ -1,5 +1,5 @@
 Object subclass: #NewValueHolder
-	instanceVariableNames: 'announcer contents lock'
+	instanceVariableNames: 'announcer lock value'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-Core-Support'

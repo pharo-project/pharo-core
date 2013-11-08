@@ -1,5 +1,5 @@
 Announcement subclass: #ValueChanged
-	instanceVariableNames: 'newContents oldContents'
+	instanceVariableNames: 'newValue oldValue'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-Core-Support'

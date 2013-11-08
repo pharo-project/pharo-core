@@ -3,5 +3,5 @@ setIndex: anIndex
 
 	self allowToSelect ifFalse: [ ^ self ].
 	self okToChange ifFalse: [ ^ self ].
-	selectionHolder index contents: anIndex.
-	selectionHolder selection contents: (self listElementAt: anIndex).
+	selectionHolder index value: anIndex.
+	selectionHolder selection value: (self listElementAt: anIndex).

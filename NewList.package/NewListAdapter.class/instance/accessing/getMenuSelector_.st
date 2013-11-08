@@ -1,3 +1,3 @@
 getMenuSelector: aSelector
 
-	getMenuSelector contents: aSelector
+	getMenuSelector value: aSelector

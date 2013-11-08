@@ -1,2 +1,2 @@
 getItemsSelector
-	^ getItemsSelector contents
+	^ getItemsSelector value

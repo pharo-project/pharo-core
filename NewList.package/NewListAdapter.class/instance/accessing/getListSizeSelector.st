@@ -1,3 +1,3 @@
 getListSizeSelector
 
-	^ getListSizeSelector contents
+	^ getListSizeSelector value

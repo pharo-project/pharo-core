@@ -1,2 +1,2 @@
 getIconSelector
-	^ getIconSelector contents
+	^ getIconSelector value

@@ -5,5 +5,5 @@ setSelectedItem: anItem
 
 	self okToChange ifFalse: [ ^ self ].
 	index := self listItems identityIndexOf: anItem ifAbsent: [ ^ self ].
-	selectionHolder index contents: index.
-	selectionHolder selection contents: anItem
+	selectionHolder index value: index.
+	selectionHolder selection value: anItem

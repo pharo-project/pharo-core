@@ -1,3 +1,3 @@
 dropEnabled
 
-	^ dropEnabled contents
+	^ dropEnabled value

@@ -1,3 +1,3 @@
 tabs
 
-	^ tabs contents
+	^ tabs value

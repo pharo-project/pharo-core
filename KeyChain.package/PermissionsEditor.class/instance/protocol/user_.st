@@ -1,3 +1,3 @@
 user: anUser
 
-	^ user contents: anUser
+	^ user value: anUser

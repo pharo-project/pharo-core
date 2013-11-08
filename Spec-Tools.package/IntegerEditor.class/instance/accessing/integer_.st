@@ -1,3 +1,3 @@
 integer: aBlock
 
-	integer contents: aBlock 
+	integer value: aBlock 

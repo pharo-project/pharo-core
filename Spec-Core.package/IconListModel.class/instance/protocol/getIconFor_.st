@@ -1,3 +1,3 @@
 getIconFor: anItem
 
-	^ iconHolder contents cull: anItem cull: self
+	^ iconHolder value cull: anItem cull: self

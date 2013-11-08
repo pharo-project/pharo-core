@@ -1,2 +1,2 @@
 doubleClickSelector: anObject
-	doubleClickSelector contents: anObject
+	doubleClickSelector value: anObject

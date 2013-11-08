@@ -1,6 +1,6 @@
 ok
 
-	selectedUser contents ifNotNil: [:user |
+	selectedUser value ifNotNil: [:user |
 		user unlock ifFalse: [ ^ false ].
-		usersManager contents setCurrentUser: user.
+		usersManager value setCurrentUser: user.
 		user lock ]

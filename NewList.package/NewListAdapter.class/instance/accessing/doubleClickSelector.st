@@ -1,2 +1,2 @@
 doubleClickSelector
-	^ doubleClickSelector contents
+	^ doubleClickSelector value

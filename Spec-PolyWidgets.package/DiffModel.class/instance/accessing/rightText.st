@@ -1,3 +1,3 @@
 rightText
 
-	^ rightTextHolder contents
+	^ rightTextHolder value

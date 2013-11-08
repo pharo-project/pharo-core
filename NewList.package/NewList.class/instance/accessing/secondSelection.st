@@ -1,2 +1,2 @@
 secondSelection
-	^ secondSelection contents
+	^ secondSelection value

@@ -1,2 +1,2 @@
 isInitialized: anObject
-	isInitialized contents: anObject
+	isInitialized value: anObject

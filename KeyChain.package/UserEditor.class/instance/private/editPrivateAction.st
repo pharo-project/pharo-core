@@ -1,6 +1,6 @@
 editPrivateAction
 
-	user contents 
+	user value 
 		ifNil: [ self ]
 		ifNotNil: [:usr || editor kc |
 			kc := usr keychain.

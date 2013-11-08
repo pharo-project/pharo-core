@@ -1,3 +1,3 @@
 hasHeader
 
-	^ headerTitle contents notNil
+	^ headerTitle value notNil

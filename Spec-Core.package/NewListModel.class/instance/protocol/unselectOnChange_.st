@@ -1,3 +1,3 @@
 unselectOnChange: aBoolean
 
-	unselectOnChange contents: aBoolean.
+	unselectOnChange value: aBoolean.

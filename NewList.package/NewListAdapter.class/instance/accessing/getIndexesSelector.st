@@ -1,3 +1,3 @@
 getIndexesSelector
 
-	^ getIndexesSelector contents
+	^ getIndexesSelector value

@@ -1,2 +1,2 @@
 drawColor
-	^ drawColor contents
+	^ drawColor value

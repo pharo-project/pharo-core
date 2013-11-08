@@ -1,3 +1,3 @@
 icons: aBlock
 
-	iconHolder contents: aBlock
+	iconHolder value: aBlock

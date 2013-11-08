@@ -1,2 +1,2 @@
 getIconSelector: anObject
-	getIconSelector contents: anObject
+	getIconSelector value: anObject

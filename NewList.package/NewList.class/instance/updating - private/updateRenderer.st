@@ -12,4 +12,4 @@ updateRenderer
 		height: (self listSize*self itemHeight+self headerHeight).
 				
 	self scroller addMorph: morph.
-	renderer contents: morph.
+	renderer value: morph.

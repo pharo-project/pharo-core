@@ -1,3 +1,3 @@
 keychain: aKeyChain
 
-	keychain contents: aKeyChain
+	keychain value: aKeyChain

@@ -1,3 +1,3 @@
 doItReceiver: anObject
 
-	doItReceiver contents: anObject
+	doItReceiver value: anObject

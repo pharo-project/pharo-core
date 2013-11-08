@@ -1,3 +1,3 @@
 selectTabModel: tabModel
 
-	tabSelectedAction contents cull: tabModel cull: self
+	tabSelectedAction value cull: tabModel cull: self

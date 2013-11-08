@@ -1,3 +1,3 @@
 user: anObject
 
-	user contents: anObject
+	user value: anObject

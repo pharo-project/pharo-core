@@ -1,3 +1,3 @@
 columnInset
 
-	^ columnInset contents
+	^ columnInset value

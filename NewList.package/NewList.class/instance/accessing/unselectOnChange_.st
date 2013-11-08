@@ -1,2 +1,2 @@
 unselectOnChange: anObject
-	unselectOnChange contents: anObject
+	unselectOnChange value: anObject

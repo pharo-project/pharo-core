@@ -1,3 +1,3 @@
 selectedTab
 
-	^ selectedTab contents
+	^ selectedTab value

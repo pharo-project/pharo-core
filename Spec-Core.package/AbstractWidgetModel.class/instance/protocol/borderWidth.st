@@ -2,4 +2,4 @@ borderWidth
 	<api: #inspect>
 	"Return the border width"
 	
-	^ borderWidth contents
+	^ borderWidth value

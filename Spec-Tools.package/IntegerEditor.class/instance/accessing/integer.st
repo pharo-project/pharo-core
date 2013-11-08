@@ -1,3 +1,3 @@
 integer
 
-	^ integer contents
+	^ integer value

@@ -1,3 +1,3 @@
 topologicSort: aBoolean
 	
-	^ topologicSortHolder contents: aBoolean
+	^ topologicSortHolder value: aBoolean

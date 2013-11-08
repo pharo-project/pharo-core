@@ -1,3 +1,3 @@
 iconFor: aNode
 
-	^ iconBlock contents cull: aNode
+	^ iconBlock value cull: aNode

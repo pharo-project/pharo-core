@@ -1,3 +1,3 @@
 defaultValue: aBoolean
 
-	defaultValueHolder contents: aBoolean
+	defaultValueHolder value: aBoolean

@@ -1,3 +1,3 @@
 itemHeight: anInteger
 
-	itemHeight contents: anInteger
+	itemHeight value: anInteger

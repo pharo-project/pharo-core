@@ -1,4 +1,4 @@
 mouseDownOnHeader: anEvent
 
 	"Just to rise an announcement"
-	clickOnHeader contents: anEvent
+	clickOnHeader value: anEvent

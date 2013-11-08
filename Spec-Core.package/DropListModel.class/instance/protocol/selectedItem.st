@@ -1,4 +1,4 @@
 selectedItem
 	<api: #inspect>
 
-	^ self selectedItemHolder contents model
+	^ self selectedItemHolder value model

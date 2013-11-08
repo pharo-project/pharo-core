@@ -1,3 +1,3 @@
 object: aBlock
 
-	object contents: aBlock 
+	object value: aBlock 

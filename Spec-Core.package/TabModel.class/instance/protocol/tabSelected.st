@@ -1,3 +1,3 @@
 tabSelected 
 
-	tabSelectedAction contents cull: self
+	tabSelectedAction value cull: self

@@ -1,3 +1,3 @@
 needRebuild: aBoolean
 
-	needRebuild contents: aBoolean
+	needRebuild value: aBoolean

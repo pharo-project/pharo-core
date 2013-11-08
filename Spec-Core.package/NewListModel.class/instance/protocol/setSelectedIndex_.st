@@ -3,5 +3,5 @@ setSelectedIndex: anIndex
 	"Set the index of the item you want to be selected"
 	
 	self widget
-		ifNil: [ selectedIndex contents: anIndex ]
+		ifNil: [ selectedIndex value: anIndex ]
 		ifNotNil: [ self changed: { #setIndex: .anIndex } ]

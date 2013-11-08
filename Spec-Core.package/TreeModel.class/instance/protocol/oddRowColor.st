@@ -1,3 +1,3 @@
 oddRowColor
 
-	^ oddRowColor contents
+	^ oddRowColor value

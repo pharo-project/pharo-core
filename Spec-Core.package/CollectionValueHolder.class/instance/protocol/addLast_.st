@@ -1,6 +1,6 @@
 addLast: newObject 
 
 	| result |
-	result := contents addLast: newObject .
-	self contentsChanged: newObject.
+	result := value addLast: newObject .
+	self valueChanged: newObject.
 	^ result

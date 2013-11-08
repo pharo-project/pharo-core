@@ -1,3 +1,3 @@
 keyStroke: aKeyStroke
 
-	keyStroke contents cull: aKeyStroke
+	keyStroke value cull: aKeyStroke

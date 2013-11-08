@@ -1,3 +1,3 @@
 debugAction: aDebugAction
 
-	debugActionHolder contents: aDebugAction
+	debugActionHolder value: aDebugAction

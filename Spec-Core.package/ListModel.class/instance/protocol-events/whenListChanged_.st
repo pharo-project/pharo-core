@@ -7,8 +7,8 @@ whenListChanged: aBlock
 	| block |
 	block := [ :announcement :ann | 
 	aBlock
-		cull: announcement newContents
-		cull: announcement oldContents
+		cull: announcement newValue
+		cull: announcement oldValue
 		cull: announcement
 		cull: ann ].
 	

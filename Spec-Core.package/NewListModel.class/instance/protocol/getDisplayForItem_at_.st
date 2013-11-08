@@ -1,3 +1,3 @@
 getDisplayForItem: item at: index
 
-	^ displayBlock contents cull: item cull: index
+	^ displayBlock value cull: item cull: index

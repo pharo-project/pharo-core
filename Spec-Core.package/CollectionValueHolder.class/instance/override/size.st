@@ -1,3 +1,3 @@
 size 
 
-	^ contents size
+	^ value size

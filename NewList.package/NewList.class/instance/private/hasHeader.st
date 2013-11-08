@@ -1,3 +1,3 @@
 hasHeader
 
-	^ headerHeight contents ~~ 0
+	^ headerHeight value ~~ 0

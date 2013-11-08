@@ -1,2 +1,2 @@
 keyStrokeSelector: anObject
-	keyStrokeSelector contents: anObject
+	keyStrokeSelector value: anObject

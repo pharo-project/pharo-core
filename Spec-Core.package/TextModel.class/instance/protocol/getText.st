@@ -1,3 +1,3 @@
 getText
 	<api: #inspect>	
-	^ textHolder contents
+	^ textHolder value

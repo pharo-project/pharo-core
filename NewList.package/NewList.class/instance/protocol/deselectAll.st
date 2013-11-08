@@ -1,6 +1,6 @@
 deselectAll
 
-	selectedIndex contents: 0.
+	selectedIndex value: 0.
 
 	self isMultipleSelection 
 		ifTrue: [

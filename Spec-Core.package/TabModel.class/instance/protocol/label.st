@@ -1,3 +1,3 @@
 label
 
-	^ label contents
+	^ label value

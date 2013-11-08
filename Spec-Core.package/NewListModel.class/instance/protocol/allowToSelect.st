@@ -1,3 +1,3 @@
 allowToSelect
 
-	^ allowToSelect contents
+	^ allowToSelect value

@@ -5,6 +5,6 @@ items: aList
 
 	<api: #st getter: #listItems registration: #whenListChanged:>
 	| oldContents |
-	oldContents := items contents.
-	items contents: (aList sorted: sortingBlock contents).
-	listAnnouncer announce: (ValueChanged oldContents: oldContents newContents: items contents)
+	oldContents := items value.
+	items value: (aList sorted: sortingBlock value).
+	listAnnouncer announce: (ValueChanged oldValue: oldContents newValue: items value)

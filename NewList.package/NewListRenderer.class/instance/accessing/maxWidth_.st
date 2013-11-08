@@ -1,3 +1,3 @@
 maxWidth: anInteger
 
-	maxWidth contents: anInteger
+	maxWidth value: anInteger

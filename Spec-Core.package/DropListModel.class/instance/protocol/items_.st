@@ -5,4 +5,4 @@ items: aList
 	
 	| dropListItems |
 	dropListItems := aList collect: [ :e | DropListItem on: e do: [] ].
-	listHolder contents: dropListItems
+	listHolder value: dropListItems

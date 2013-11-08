@@ -1,3 +1,3 @@
 displayBlock: aBlock
 
-	wrapHolder contents: aBlock
+	wrapHolder value: aBlock

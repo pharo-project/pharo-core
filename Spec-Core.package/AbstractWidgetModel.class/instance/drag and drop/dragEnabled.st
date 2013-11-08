@@ -1,3 +1,3 @@
 dragEnabled
 
-	^ dragEnabled contents
+	^ dragEnabled value

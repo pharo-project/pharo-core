@@ -1,3 +1,3 @@
 critic: aCritic
 
-	criticHolder contents: aCritic
+	criticHolder value: aCritic

@@ -1,2 +1,2 @@
 renderer
-	^ renderer contents
+	^ renderer value

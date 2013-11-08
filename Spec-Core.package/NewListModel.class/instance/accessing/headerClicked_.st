@@ -1,3 +1,3 @@
 headerClicked: aBlock
 
-	headerClicked contents: aBlock
+	headerClicked value: aBlock

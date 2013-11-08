@@ -1,7 +1,7 @@
 setTitle: aString
 	| string |
 	
-	string := (user contents isNil or: [ aString isNil ])
+	string := (user value isNil or: [ aString isNil ])
 					ifTrue: [ 'Editing' ]
 					ifFalse: [ 'Editing ', aString, '''s profile' ].
 		

@@ -1,3 +1,3 @@
 getIconMaxSizeSelector
 
-	^ getIconMaxSizeSelector contents
+	^ getIconMaxSizeSelector value

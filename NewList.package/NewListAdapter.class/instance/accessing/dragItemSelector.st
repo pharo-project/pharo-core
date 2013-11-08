@@ -1,2 +1,2 @@
 dragItemSelector
-	^ dragItemSelector contents
+	^ dragItemSelector value

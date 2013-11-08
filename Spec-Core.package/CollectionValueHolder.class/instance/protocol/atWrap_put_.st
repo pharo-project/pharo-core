@@ -1,6 +1,6 @@
 atWrap: index put: value
 	
 	| result |
-	result := contents atWrap: index put: value.
-	self contentsChanged: value.
+	result := value atWrap: index put: value.
+	self valueChanged: value.
 	^ result

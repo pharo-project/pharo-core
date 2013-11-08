@@ -1,3 +1,3 @@
 iconBlock: aBlock
 
-	iconBlock contents: aBlock
+	iconBlock value: aBlock

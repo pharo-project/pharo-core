@@ -1,2 +1,2 @@
 list
-	^ list contents
+	^ list value

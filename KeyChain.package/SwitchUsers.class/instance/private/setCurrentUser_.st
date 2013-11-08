@@ -1,7 +1,7 @@
 setCurrentUser: anUser
 
 	| mh |
-	selectedUser contents: anUser.
+	selectedUser value: anUser.
 	container removeAllMorphs.
 	mh := anUser
 		ifNil: [ ImageMorph new ]

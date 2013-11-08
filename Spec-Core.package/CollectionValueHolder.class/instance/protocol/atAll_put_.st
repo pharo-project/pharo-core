@@ -1,6 +1,6 @@
 atAll: aCollection put: anObject 
 	
 	| result |
-	result := contents atAll: aCollection put: anObject .
-	self contentsChanged: anObject.
+	result := value atAll: aCollection put: anObject .
+	self valueChanged: anObject.
 	^ result

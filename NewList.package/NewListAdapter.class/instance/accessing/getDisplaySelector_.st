@@ -1,2 +1,2 @@
 getDisplaySelector: anObject
-	getDisplaySelector contents: anObject
+	getDisplaySelector value: anObject

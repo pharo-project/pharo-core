@@ -1,3 +1,3 @@
 cancel
 
-	window contents delete
+	window value delete

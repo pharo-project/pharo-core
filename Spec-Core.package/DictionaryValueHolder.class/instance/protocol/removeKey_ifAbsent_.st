@@ -1,6 +1,6 @@
 removeKey: key ifAbsent: aBlock 
 	| result |
 	
-	result := contents removeKey: key ifAbsent: aBlock.
-	self contentsChanged.
+	result := value removeKey: key ifAbsent: aBlock.
+	self valueChanged.
 	^ result

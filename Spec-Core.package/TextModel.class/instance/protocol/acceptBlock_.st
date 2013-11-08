@@ -4,4 +4,4 @@ acceptBlock: aBlockWithOneArgument
 	The block must have one argument, which will be the accepted text.
 	The block can return false if the candidate text is to be rejected"
 
-	actionToPerformHolder contents: aBlockWithOneArgument
+	actionToPerformHolder value: aBlockWithOneArgument

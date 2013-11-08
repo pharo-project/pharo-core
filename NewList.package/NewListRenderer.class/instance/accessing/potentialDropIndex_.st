@@ -1,3 +1,3 @@
 potentialDropIndex: anInteger
 
-	potentialDropIndex contents: anInteger
+	potentialDropIndex value: anInteger

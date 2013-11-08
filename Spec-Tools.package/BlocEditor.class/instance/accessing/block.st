@@ -1,3 +1,3 @@
 block
 
-	^ block contents
+	^ block value

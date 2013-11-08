@@ -1,3 +1,3 @@
 contextClass: anObject
 
-	contextClassHolder contents: anObject 
+	contextClassHolder value: anObject 

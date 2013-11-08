@@ -1,3 +1,3 @@
 textConverter
 	
-	^ textConverterHolder contents
+	^ textConverterHolder value

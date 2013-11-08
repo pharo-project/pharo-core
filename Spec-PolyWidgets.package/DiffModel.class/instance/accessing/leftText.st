@@ -1,3 +1,3 @@
 leftText
 
-	^ leftTextHolder contents
+	^ leftTextHolder value

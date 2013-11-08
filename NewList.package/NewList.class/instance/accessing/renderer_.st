@@ -1,2 +1,2 @@
 renderer: anObject
-	renderer contents: anObject
+	renderer value: anObject

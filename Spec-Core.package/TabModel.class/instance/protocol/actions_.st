@@ -1,3 +1,3 @@
 actions: aCollection
 
-	actions contents: aCollection
+	actions value: aCollection

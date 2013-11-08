@@ -1,3 +1,3 @@
 askBeforeChanging: aBoolean
 
-	askBeforeChangingHolder contents: aBoolean
+	askBeforeChangingHolder value: aBoolean

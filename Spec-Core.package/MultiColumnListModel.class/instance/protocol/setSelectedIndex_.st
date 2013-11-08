@@ -12,5 +12,5 @@ setSelectedIndex: anIndex
 					ifAbsent: [ idx := 0.
 								nil ].
 	
-	selectionHolder index contents: idx.
-	selectionHolder selection contents: selection.
+	selectionHolder index value: idx.
+	selectionHolder selection value: selection.

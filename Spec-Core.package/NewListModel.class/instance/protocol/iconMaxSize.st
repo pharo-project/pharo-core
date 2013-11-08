@@ -1,3 +1,3 @@
 iconMaxSize
 
-	^ iconMaxSize contents
+	^ iconMaxSize value

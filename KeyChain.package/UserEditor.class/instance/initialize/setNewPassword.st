@@ -1,7 +1,7 @@
 setNewPassword
 	| usr newPassword w |
 	
-	(usr := user contents) ifNil: [ ^ self ].
+	(usr := user value) ifNil: [ ^ self ].
 	usr unlock ifFalse: [ ^ self ].
 	
 	w := PasswordInitializationDialogWindow new.

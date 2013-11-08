@@ -1,3 +1,3 @@
 extent: aPoint
 
-	^  extentHolder contents: aPoint
+	^  extentHolder value: aPoint

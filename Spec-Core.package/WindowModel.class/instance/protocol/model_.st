@@ -1,3 +1,3 @@
 model: aModel
 
-	model contents: aModel
+	model value: aModel

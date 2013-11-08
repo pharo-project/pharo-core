@@ -1,3 +1,3 @@
 acceptDropBlock
 
-	^ acceptDropBlock contents
+	^ acceptDropBlock value

@@ -1,3 +1,3 @@
 announcer
 
-	^ announcer contents
+	^ announcer value

@@ -1,3 +1,3 @@
 retrieveItems
 
-	^ self model getItems	ifNil: [ selectedItems contents ]
+	^ self model getItems	ifNil: [ selectedItems value ]

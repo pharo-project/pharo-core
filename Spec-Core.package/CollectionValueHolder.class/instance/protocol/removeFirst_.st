@@ -1,6 +1,6 @@
 removeFirst: n 
 
 	| result |
-	result := contents removeFirst: n .
-	self contentsChanged: result.
+	result := value removeFirst: n .
+	self valueChanged: result.
 	^ result

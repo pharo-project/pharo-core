@@ -1,3 +1,3 @@
 deSelectOnReclick: aBoolean
 
-	deSelectOnReclick contents: aBoolean
+	deSelectOnReclick value: aBoolean

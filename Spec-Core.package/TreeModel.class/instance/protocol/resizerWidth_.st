@@ -1,3 +1,3 @@
 resizerWidth: anInteger
 
-	resizerWidth contents: anInteger
+	resizerWidth value: anInteger

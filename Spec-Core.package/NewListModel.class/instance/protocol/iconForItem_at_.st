@@ -1,3 +1,3 @@
 iconForItem: anItem at: anIndex
 
-	^ iconHolder contents cull: anItem cull: anIndex
+	^ iconHolder value cull: anItem cull: anIndex

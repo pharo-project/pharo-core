@@ -1,3 +1,3 @@
 value
 
-	^ value contents
+	^ value value

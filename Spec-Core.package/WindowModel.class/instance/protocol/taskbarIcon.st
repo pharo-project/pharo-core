@@ -1,6 +1,6 @@
 taskbarIcon
 
-	^ model contents 
+	^ model value 
 		ifNil: [ super taskbarIcon ]
 		ifNotNil: [ :m |
 			m windowIcon

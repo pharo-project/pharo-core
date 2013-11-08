@@ -1,3 +1,3 @@
 askOkToClose
 
-	^ askOkToClose contents
+	^ askOkToClose value

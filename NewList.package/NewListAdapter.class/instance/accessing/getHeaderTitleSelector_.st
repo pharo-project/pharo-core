@@ -1,2 +1,2 @@
 getHeaderTitleSelector: anObject
-	getHeaderTitleSelector contents: anObject
+	getHeaderTitleSelector value: anObject

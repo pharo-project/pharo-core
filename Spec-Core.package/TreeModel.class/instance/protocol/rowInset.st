@@ -1,3 +1,3 @@
 rowInset
 
-	^ rowInset contents
+	^ rowInset value

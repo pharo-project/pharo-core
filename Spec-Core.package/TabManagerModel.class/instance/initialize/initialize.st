@@ -10,4 +10,4 @@ initialize
 	self myDependents: WeakSet new.
 	
 	tabs whenChangedDo: [ :new | self widget ifNotNil: [ :w | w tabs: self getTabs value ] ].
-	selectedTab whenChangedDo: [:newTab | tabSelectedAction contents cull: newTab cull: self ]
+	selectedTab whenChangedDo: [:newTab | tabSelectedAction value cull: newTab cull: self ]

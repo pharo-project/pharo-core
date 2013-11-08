@@ -1,3 +1,3 @@
 columns: aCollection
 	
-	columns contents: aCollection
+	columns value: aCollection

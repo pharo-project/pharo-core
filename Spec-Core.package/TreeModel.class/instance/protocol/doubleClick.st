@@ -1,3 +1,3 @@
 doubleClick
 
-	doubleClick contents value
+	doubleClick value value

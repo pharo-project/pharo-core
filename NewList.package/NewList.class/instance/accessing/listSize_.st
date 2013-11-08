@@ -1,2 +1,2 @@
 listSize: anObject
-	listSize contents: anObject
+	listSize value: anObject

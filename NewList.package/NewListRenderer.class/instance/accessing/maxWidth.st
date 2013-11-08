@@ -1,3 +1,3 @@
 maxWidth
 
-	^ maxWidth contents
+	^ maxWidth value

@@ -4,5 +4,5 @@ inverseSelection
 	
 	1 to: self listSize do: [: i | self toggleAtIndexes: i ].
 	self secondSelection: 0.
-	selectedIndex contents: self selectedIndexes first.
+	selectedIndex value: self selectedIndexes first.
 	self changed.

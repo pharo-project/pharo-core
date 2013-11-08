@@ -1,6 +1,6 @@
 editPublicAction
 
-	user contents 
+	user value 
 		ifNil: [ self ]
 		ifNotNil: [:usr || editor |
 			editor := KeyChainViewer new

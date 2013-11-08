@@ -1,7 +1,7 @@
 setNewPassword
 	| it newPassword w |
 	
-	(it := keychainEditingWrapper contents) ifNil: [ ^ self ].
+	(it := keychainEditingWrapper value) ifNil: [ ^ self ].
 	it keychain unlock ifFalse: [ ^ self ].
 	
 	w := PasswordInitializationDialogWindow new.

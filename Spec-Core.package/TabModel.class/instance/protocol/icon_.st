@@ -1,3 +1,3 @@
 icon: aForm
 
-	icon contents: aForm
+	icon value: aForm

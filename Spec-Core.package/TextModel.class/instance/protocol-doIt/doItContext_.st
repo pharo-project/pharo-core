@@ -1,3 +1,3 @@
 doItContext: anObject
 
-	doItContext contents: anObject
+	doItContext value: anObject

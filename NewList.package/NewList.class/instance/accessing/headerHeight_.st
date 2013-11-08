@@ -1,2 +1,2 @@
 headerHeight: anObject
-	headerHeight contents: anObject
+	headerHeight value: anObject

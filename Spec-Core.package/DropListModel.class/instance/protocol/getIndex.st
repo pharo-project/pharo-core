@@ -1,3 +1,3 @@
 getIndex
 
-	^ selectionHolder index contents
+	^ selectionHolder index value

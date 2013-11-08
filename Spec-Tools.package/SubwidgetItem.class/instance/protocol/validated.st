@@ -1,3 +1,3 @@
 validated
 
-	^ validated contents
+	^ validated value

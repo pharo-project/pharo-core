@@ -1,3 +1,3 @@
 getIndexesSelector: aSelector
 
-	getIndexesSelector contents: aSelector
+	getIndexesSelector value: aSelector

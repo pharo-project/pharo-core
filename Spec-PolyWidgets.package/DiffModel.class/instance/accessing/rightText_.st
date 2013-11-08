@@ -1,3 +1,3 @@
 rightText: anObject
 
-	rightTextHolder contents: anObject 
+	rightTextHolder value: anObject 

@@ -1,3 +1,3 @@
 method
 
-	^ method contents
+	^ method value

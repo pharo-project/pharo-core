@@ -1,3 +1,3 @@
 potentialDropIndex
 
-	^ potentialDropIndex contents
+	^ potentialDropIndex value

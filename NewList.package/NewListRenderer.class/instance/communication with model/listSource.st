@@ -1,2 +1,2 @@
 listSource
-	^ listSource contents
+	^ listSource value

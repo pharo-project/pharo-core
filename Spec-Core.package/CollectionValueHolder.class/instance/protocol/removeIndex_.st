@@ -1,6 +1,6 @@
 removeIndex: removedIndex
 
 	| result |
-	result := contents removeIndex: removedIndex.
-	self contentsChanged: result.
+	result := value removeIndex: removedIndex.
+	self valueChanged: result.
 	^ result

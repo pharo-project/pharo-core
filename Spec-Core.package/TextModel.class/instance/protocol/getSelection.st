@@ -3,4 +3,4 @@ getSelection
 	"Get the text selection"
 
 	selection ifNil: [ ^(1 to: 0) ].
-	^ selection contents
+	^ selection value

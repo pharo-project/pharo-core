@@ -1,3 +1,3 @@
 multiSelection: aBoolean
 
-	multiSelection contents: aBoolean
+	multiSelection value: aBoolean

@@ -1,2 +1,2 @@
 dropItemSelector: anObject
-	dropItemSelector contents: anObject
+	dropItemSelector value: anObject

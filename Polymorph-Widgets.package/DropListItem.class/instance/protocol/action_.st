@@ -1,3 +1,3 @@
 action: aBlock
 
-	actionHolder contents: aBlock
+	actionHolder value: aBlock

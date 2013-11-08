@@ -1,2 +1,2 @@
 getItemsSelector: anObject
-	getItemsSelector contents: anObject
+	getItemsSelector value: anObject

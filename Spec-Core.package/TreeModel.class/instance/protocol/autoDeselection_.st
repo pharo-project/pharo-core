@@ -1,3 +1,3 @@
 autoDeselection: aBoolean
 
-	autoDeselection contents: aBoolean
+	autoDeselection value: aBoolean

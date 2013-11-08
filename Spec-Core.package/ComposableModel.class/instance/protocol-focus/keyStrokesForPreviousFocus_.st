@@ -1,3 +1,3 @@
 keyStrokesForPreviousFocus: aCollection
 
-	keyStrokesForPreviousFocusHolder contents: aCollection 
+	keyStrokesForPreviousFocusHolder value: aCollection 

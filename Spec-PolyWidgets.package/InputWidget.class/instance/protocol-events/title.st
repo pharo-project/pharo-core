@@ -1,3 +1,3 @@
 title
 
-	^ title contents
+	^ title value

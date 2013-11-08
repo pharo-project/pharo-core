@@ -1,3 +1,3 @@
 defaultValue
 
-	^ defaultValueHolder contents
+	^ defaultValueHolder value

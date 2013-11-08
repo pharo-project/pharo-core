@@ -5,4 +5,4 @@ childrenBlock: aBlock
 		- the node
 		- the tree"
 
-	childrenBlockHolder contents: aBlock
+	childrenBlockHolder value: aBlock

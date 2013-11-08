@@ -1,6 +1,6 @@
 ok
 	| pharoUser newName newAddress |
-	(pharoUser := user contents) ifNil: [ ^ self ].
+	(pharoUser := user value) ifNil: [ ^ self ].
 	newName := userName getText asString asSymbol.
 	newAddress := gravatarAddress getText.
 	pharoUser username = newName

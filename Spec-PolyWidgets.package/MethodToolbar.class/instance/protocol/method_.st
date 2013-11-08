@@ -1,3 +1,3 @@
 method: aMethod
 
-	methodHolder contents: aMethod
+	methodHolder value: aMethod

@@ -1,3 +1,3 @@
 selectedItem: anIndex
 
-	selectedItem contents: anIndex
+	selectedItem value: anIndex

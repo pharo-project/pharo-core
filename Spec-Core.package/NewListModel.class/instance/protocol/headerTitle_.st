@@ -1,3 +1,3 @@
 headerTitle: aTitle
 
-	headerTitle contents: aTitle
+	headerTitle value: aTitle

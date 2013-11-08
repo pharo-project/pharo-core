@@ -1,3 +1,3 @@
 emptyList
 	
-	listHolder contents: OrderedCollection new
+	listHolder value: OrderedCollection new

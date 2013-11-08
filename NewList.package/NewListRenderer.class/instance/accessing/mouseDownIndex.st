@@ -1,3 +1,3 @@
 mouseDownIndex
 
-	^ mouseDownIndex contents
+	^ mouseDownIndex value

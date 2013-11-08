@@ -3,7 +3,7 @@ setSelectedIndex: anIndex
 	"Force the selection of the item at index anIndex"
 	| selection |
 
-	selection := listHolder contents at: anIndex ifAbsent: [ ^ self ].
+	selection := listHolder value at: anIndex ifAbsent: [ ^ self ].
 	selection value.
-	selectionHolder index contents: anIndex.
-	selectionHolder selection contents: selection
+	selectionHolder index value: anIndex.
+	selectionHolder selection value: selection

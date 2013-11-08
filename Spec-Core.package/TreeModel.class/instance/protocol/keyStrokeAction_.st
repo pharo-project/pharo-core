@@ -1,3 +1,3 @@
 keyStrokeAction: aBlock
 
-	keyStroke contents: aBlock
+	keyStroke value: aBlock

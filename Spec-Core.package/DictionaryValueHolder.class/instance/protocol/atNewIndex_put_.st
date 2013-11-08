@@ -1,4 +1,4 @@
 atNewIndex: index put: anObject
 	
-	contents atNewIndex: index put: anObject.
-	self contentsChanged: anObject.
+	value atNewIndex: index put: anObject.
+	self valueChanged: anObject.

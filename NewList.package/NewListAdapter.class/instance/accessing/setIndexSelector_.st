@@ -1,2 +1,2 @@
 setIndexSelector: anObject
-	setIndexSelector contents: anObject
+	setIndexSelector value: anObject

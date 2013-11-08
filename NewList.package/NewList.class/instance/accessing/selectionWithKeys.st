@@ -1,2 +1,2 @@
 selectionWithKeys
-	^ selectionWithKeys contents
+	^ selectionWithKeys value

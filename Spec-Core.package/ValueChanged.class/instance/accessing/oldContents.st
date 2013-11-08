@@ -1,3 +1,0 @@
-oldContents
-
-	^ oldContents

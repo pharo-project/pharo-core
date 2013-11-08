@@ -1,3 +1,3 @@
 doItReceiver
 
-	^ doItReceiver contents
+	^ doItReceiver value

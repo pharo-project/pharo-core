@@ -1,3 +1,3 @@
 allowMenuOnNoItem: aBoolean
 
-	allowMenuOnNoItem contents: aBoolean
+	allowMenuOnNoItem value: aBoolean

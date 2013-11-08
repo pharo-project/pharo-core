@@ -1,3 +1,3 @@
 doubleClick: aBlock
 
-	doubleClick contents: aBlock
+	doubleClick value: aBlock

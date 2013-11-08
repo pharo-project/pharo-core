@@ -1,2 +1,2 @@
 separatorSelector
-	^ separatorSelector contents
+	^ separatorSelector value

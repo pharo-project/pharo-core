@@ -1,3 +1,3 @@
 aboutText
 
-	^ aboutText contents
+	^ aboutText value

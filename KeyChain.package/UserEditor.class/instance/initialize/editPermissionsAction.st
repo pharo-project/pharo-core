@@ -1,7 +1,7 @@
 editPermissionsAction
 	| usr editor |
 	
-	(usr := user contents) ifNil: [ ^ self ].
+	(usr := user value) ifNil: [ ^ self ].
 	usr unlock ifFalse: [ ^ self ].
 	
 	editor := PermissionsEditor new

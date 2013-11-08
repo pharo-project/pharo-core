@@ -1,4 +1,4 @@
 initialize: n
 	
-	contents initialize: n.
-	self contentsChanged.
+	value initialize: n.
+	self valueChanged.

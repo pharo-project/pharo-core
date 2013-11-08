@@ -1,4 +1,4 @@
 getIndex
 	"Return the index of the selected item"
 	
-	^  selectionHolder index contents
+	^  selectionHolder index value

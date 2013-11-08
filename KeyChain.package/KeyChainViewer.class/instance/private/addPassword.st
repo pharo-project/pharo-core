@@ -1,10 +1,10 @@
 addPassword
 
 	| wrapper editor |
-	keychain contents ifNotNil:[:kc | kc unlock ].
+	keychain value ifNotNil:[:kc | kc unlock ].
 	
 	wrapper :=  KeychainEditingWrapper new
-					keychain: keychain contents;
+					keychain: keychain value;
 					group: '';
 					usernamePassword: UsernamePassword new.
 					
@@ -13,7 +13,7 @@ addPassword
 				yourself.
 	self window ifNotNil: [: w | w openModal: (editor openDialogWithSpec window
 		okAction: [ wrapper :=  KeychainEditingWrapper new
-					keychain: keychain contents;
+					keychain: keychain value;
 					group: '';
 					usernamePassword: UsernamePassword new ];
 		yourself)].

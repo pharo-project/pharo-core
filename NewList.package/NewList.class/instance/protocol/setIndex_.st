@@ -2,12 +2,12 @@ setIndex: index
 
 	| oldIndex newIndex |
 
-	oldIndex := selectedIndex contents.
+	oldIndex := selectedIndex value.
 	newIndex := index.
 	self secondSelection: 0.
 	self setViewToIndex: index.
 	
-	selectedIndex contents: newIndex.
+	selectedIndex value: newIndex.
 	(self deSelectOnReclick and: [ oldIndex == newIndex ])
 		ifTrue: [ self toggleAtIndexes: newIndex ]
 		ifFalse: [ self addAtIndexes: newIndex ]

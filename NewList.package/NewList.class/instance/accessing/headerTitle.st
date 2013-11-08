@@ -1,2 +1,2 @@
 headerTitle
-	^ headerTitle contents
+	^ headerTitle value

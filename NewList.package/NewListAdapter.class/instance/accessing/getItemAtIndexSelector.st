@@ -1,3 +1,3 @@
 getItemAtIndexSelector
 
-	^ getItemAtIndexSelector contents
+	^ getItemAtIndexSelector value

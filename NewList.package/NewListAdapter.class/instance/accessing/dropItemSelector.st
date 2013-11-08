@@ -1,2 +1,2 @@
 dropItemSelector
-	^ dropItemSelector contents
+	^ dropItemSelector value

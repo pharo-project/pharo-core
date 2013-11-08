@@ -1,3 +1,3 @@
 label: aString
 
-	label contents: aString
+	label value: aString

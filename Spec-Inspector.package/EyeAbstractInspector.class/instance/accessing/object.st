@@ -1,3 +1,3 @@
 object
 
-	^ object contents
+	^ object value

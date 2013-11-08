@@ -2,4 +2,4 @@ updateListSize
 
 	self isInitialized ifFalse: [ ^ self ].
 
-	listSize contents: self retrieveListSize
+	listSize value: self retrieveListSize

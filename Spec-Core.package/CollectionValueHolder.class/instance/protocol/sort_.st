@@ -1,4 +1,4 @@
 sort: aSortBlock 
 
-	contents sort: aSortBlock .
-	self contentsChanged
+	value sort: aSortBlock .
+	self valueChanged

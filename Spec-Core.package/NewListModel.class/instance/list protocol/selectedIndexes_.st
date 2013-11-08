@@ -1,3 +1,3 @@
 selectedIndexes: anIndex
 
-	selectedIndexes contents: anIndex
+	selectedIndexes value: anIndex

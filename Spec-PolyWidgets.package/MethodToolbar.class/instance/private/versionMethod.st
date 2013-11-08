@@ -1,4 +1,4 @@
 versionMethod
 
-	methodHolder contents
+	methodHolder value
 		ifNotNil: [:aMethod | self model browseVersionsFrom: aMethod ]

@@ -1,3 +1,3 @@
 showOptions
 
-	^ showOptions contents
+	^ showOptions value

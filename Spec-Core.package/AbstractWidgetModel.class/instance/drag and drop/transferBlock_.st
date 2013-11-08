@@ -1,3 +1,3 @@
 transferBlock: aBlock
 
-	transferBlock contents: aBlock
+	transferBlock value: aBlock

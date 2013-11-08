@@ -1,3 +1,3 @@
 askBeforeChanging
 
-	^ askBeforeChangingHolder contents
+	^ askBeforeChangingHolder value

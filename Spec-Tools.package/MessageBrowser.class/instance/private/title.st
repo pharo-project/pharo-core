@@ -1,3 +1,3 @@
 title
 		
-	^ titleHolder contents , ' [' , listModel listSize printString , ']'
+	^ titleHolder value , ' [' , listModel listSize printString , ']'

@@ -1,3 +1,3 @@
 evenRowColor: aColor
 
-	evenRowColor contents: aColor
+	evenRowColor value: aColor

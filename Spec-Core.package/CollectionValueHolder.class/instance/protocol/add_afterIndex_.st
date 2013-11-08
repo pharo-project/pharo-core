@@ -1,6 +1,6 @@
 add: newObject afterIndex: index 
 	
 	| result |
-	result := contents add: newObject afterIndex: index.
-	self contentsChanged: newObject.
+	result := value add: newObject afterIndex: index.
+	self valueChanged: newObject.
 	^ result
