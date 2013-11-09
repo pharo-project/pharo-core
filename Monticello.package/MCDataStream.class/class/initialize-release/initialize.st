@@ -3,11 +3,11 @@ initialize
 	Classes named here have special formats in the file.  If such a class has a subclass, it will use type 9 and write correctly.  It will just be slow.  (Later write the class name in the special format, then subclasses can use the type also.)
 	 See nextPut:, next, typeIDFor:, & ReferenceStream>>isAReferenceType:"
 
-	"DataStream initialize"
+	"MCDataStream initialize"
 
 	| refTypes t |
 	refTypes := OrderedCollection new.
-	t := TypeMap := Dictionary new: 80.	"sparse for fast hashing"
+	t := TypeMap := WeakKeyDictionary new: 80.	"sparse for fast hashing"
 	t at: UndefinedObject put: 1.
 	refTypes add: 0.
 	t at: True put: 2.
