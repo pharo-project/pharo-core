@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '12121 Nautilus menu code pane menu does not open when only selecting a package but no class
-	https://pharo.fogbugz.com/f/cases/12121
+ ^ '12128 Settings do not open due to MNU: SettingTree >> #helpText
+	https://pharo.fogbugz.com/f/cases/12128
 	
-12119 Inspector double click without wrapping Navigator should open new inspector
-	https://pharo.fogbugz.com/f/cases/12119
+2486 Linux VM: Umlaute in file/directory names: UTF8 unicode problem?
+	https://pharo.fogbugz.com/f/cases/2486
 	
-12054 Add TreeNodeModel and TreeColumnModel	
-	https://pharo.fogbugz.com/f/cases/12054'
+12115 Newly added Monticello Packages do not include the default repository group
+	https://pharo.fogbugz.com/f/cases/12115'

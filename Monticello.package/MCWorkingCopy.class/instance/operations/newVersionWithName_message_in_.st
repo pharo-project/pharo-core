@@ -6,6 +6,9 @@ newVersionWithName: nameString message: messageString in: aRepository
 	self modified: true; modified: false.
 	
 	deps := self collectDependenciesWithMessage: messageString in: aRepository.
+	
+	(self repositoryGroup includes: aRepository) 
+		ifFalse: [ self repositoryGroup addRepository: aRepository ].
 
 	^ MCVersion
 		package: package

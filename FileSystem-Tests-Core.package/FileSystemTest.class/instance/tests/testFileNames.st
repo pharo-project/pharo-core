@@ -1,6 +1,6 @@
 testFileNames
 	| reference |
-	#('test one' 'test with two') do: [ :each |
+	#('test one' 'test with two' 'test-הצü' 'test.הצü') do: [ :each |
 		reference := filesystem workingDirectory / each.
 		self assert: reference basename = each.
 		self deny: reference exists.
