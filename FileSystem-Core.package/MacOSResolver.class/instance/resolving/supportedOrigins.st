@@ -1,2 +1,2 @@
 supportedOrigins
-	^ super supportedOrigins , #( userApplicationSupport systemApplicationSupport )
+	^ super supportedOrigins , #(userApplicationSupport systemApplicationSupport systemLibrary userLibrary)

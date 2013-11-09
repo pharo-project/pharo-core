@@ -2,5 +2,6 @@ debuggerSpec
 	<spec: #default>
 	
 	^ SpecLayout composed
-		add: #inspector withSpec: #debuggerSpec; 
+		newRow: #toolbar height: self toolbarHeight;
+		add: #inspector withSpec: #debuggerSpec top: self toolbarHeight;
 		yourself

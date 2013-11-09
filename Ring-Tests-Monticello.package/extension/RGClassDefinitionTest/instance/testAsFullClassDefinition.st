@@ -6,7 +6,7 @@ testAsFullClassDefinition
 	self assert: rgClass methods isEmpty.
 	self assert: rgClass superclass isNil.
 	self assert: rgClass subclasses isEmpty.
-	self assert: rgClass package isNil.
+	self assert: rgClass package name equals: #Kernel.
 
 	rgClass := Class asFullRingDefinition.
 	self assert: rgClass methods notEmpty.
@@ -21,8 +21,8 @@ testAsFullClassDefinition
 	self assert: rgClass extensionMethods notEmpty.
 	
 	self assert: rgClass superclass superclass isNil.
-	self assert: rgClass superclass package isNil.
-	self assert: rgClass subclasses first package isNil.
+	self assert: rgClass superclass package name equals: #Kernel.
+	self assert: rgClass subclasses first package name equals: #Kernel.
 	
 	rgClass := RGClassDefinition theMetaClass asFullRingDefinition.
 	self assert: rgClass package = rgClass theNonMetaClass package.

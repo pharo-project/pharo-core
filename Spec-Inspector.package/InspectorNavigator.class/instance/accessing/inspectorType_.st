@@ -6,6 +6,9 @@ inspectorType: anInspectorClass
 	anInspectorClass isNil
 		ifTrue: [ ^ self ].
 		
+	(self inspectorTypes includes: anInspectorClass)
+		ifFalse: [ ^ self ].
+		
 	self basicInspector: (anInspectorClass new 
 		inspect: self object;
 		yourself).

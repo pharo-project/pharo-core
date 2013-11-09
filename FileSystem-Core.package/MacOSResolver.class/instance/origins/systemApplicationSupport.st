@@ -1,2 +1,2 @@
 systemApplicationSupport
-	^ FileSystem root / 'Library' / 'Application Support'
+	^ self systemLibrary / 'Application Support'

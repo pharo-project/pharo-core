@@ -10,6 +10,6 @@ testAsFullMethodDefinition
 	self assert: rgMethod parent notNil.
 	self assert: rgMethod parentName = #Trait.
 	self assert: rgMethod parent methods size = 1.
-	self assert: rgMethod parent package isNil.	
+	self assert: rgMethod parent package name equals: #Traits.	
 	self assert: rgMethod package notNil.
 	self assert: rgMethod package name = #'Ring-Core-Kernel'.

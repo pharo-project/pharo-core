@@ -1,2 +1,2 @@
 userApplicationSupport
-	^ self home / 'Library' / 'Application Support'
+	^self userLibrary / 'Application Support'

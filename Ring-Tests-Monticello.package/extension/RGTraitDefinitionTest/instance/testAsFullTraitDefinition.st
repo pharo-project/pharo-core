@@ -20,7 +20,7 @@ testAsFullTraitDefinition
 	self assert: rgClass category = #'Traits-Kernel-Traits'.
 	
 	self assert: rgClass superclass superclass isNil.
-	self assert: rgClass superclass package isNil.
+	self assert: rgClass superclass package name equals: #Traits.
 	
 	rgClass := TBehavior theMetaClass asFullRingDefinition.
 	self assert: rgClass package = rgClass theNonMetaClass package.
