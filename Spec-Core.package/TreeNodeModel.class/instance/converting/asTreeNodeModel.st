@@ -1,0 +1,3 @@
+asTreeNodeModel
+
+	^ self

@@ -1,0 +1,3 @@
+childrenBlock
+
+	^ [ self model children ]

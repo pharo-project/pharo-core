@@ -3,8 +3,8 @@ initializeBindings
 	
 	bindings
 		at: #ButtonAdapter 			put: #MorphicButtonAdapter;
-		at: #CheckBoxAdapter 		put: #MorphicCheckBoxAdapter;
-		at: #ContainerAdapter 		put: #MorphicContainerAdapter;
+		at: #CheckBoxAdapter			put: #MorphicCheckBoxAdapter;
+		at: #ContainerAdapter			put: #MorphicContainerAdapter;
 		at: #DropListAdapter 			put: #MorphicDropListAdapter;
 		at: #LabelAdapter 				put: #MorphicLabelAdapter;
 		at: #ListAdapter 				put: #MorphicListAdapter;
@@ -18,6 +18,8 @@ initializeBindings
 		at: #TextAdapter 				put: #MorphicTextAdapter;
 		at: #TextInputFieldAdapter 	put: #MorphicTextInputFieldAdapter;
 		at: #TreeAdapter 				put: #MorphicTreeAdapter;
+		at: #TreeColumnAdapter		put: #MorphicTreeColumnAdapter;
+		at: #TreeNodeAdapter			put: #MorphicTreeNodeAdapter;
 		at: #WindowAdapter 			put: #MorphicWindowAdapter;
 		at: #DialogWindowAdapter 	put: #MorphicDialogWindowAdapter;
 		yourself

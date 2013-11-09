@@ -1,5 +1,5 @@
 SimpleButtonMorph subclass: #MorphTreeColumnButton
-	instanceVariableNames: 'model'
+	instanceVariableNames: 'model icon'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Morphic-Base-MorphTreeWidget'

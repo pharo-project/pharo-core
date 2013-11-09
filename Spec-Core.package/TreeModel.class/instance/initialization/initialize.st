@@ -20,10 +20,14 @@ initialize
 	preferedPaneColor := Color white asValueHolder.
 	resizerWidth := 2 asValueHolder.
 	rowInset := 2 asValueHolder.
-	iconBlock := [:e | ] asValueHolder.
+	iconBlock := [ :each | each icon ] asValueHolder.
+	rootNodeHolder := [ :item |
+		TreeNodeModel new 
+			content: item;
+			children: (self childrenFor: item) ] asValueHolder.
 	
-	columns := { MorphTreeColumn new
-		rowMorphGetSelector: [:node | (self wrapItem: node item) asMorph ] } asValueHolder.
+	columns := { TreeColumnModel new
+		displayBlock: [:node | (self wrapItem: node content) ] } asValueHolder.
 
 	isCheckList whenChangedDo: [ :boolean | self widget ifNotNil: [ :w | w isCheckList: boolean ] ].
 	

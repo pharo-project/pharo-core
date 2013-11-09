@@ -1,0 +1,2 @@
+nodeModel: anObject
+	nodeModel := anObject

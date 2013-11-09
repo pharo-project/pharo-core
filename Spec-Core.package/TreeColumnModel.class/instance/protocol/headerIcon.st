@@ -1,0 +1,3 @@
+headerIcon
+
+	^ headerIcon value

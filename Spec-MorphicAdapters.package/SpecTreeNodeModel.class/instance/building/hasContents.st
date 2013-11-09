@@ -1,0 +1,3 @@
+hasContents
+
+	^ self childrenItems notEmpty

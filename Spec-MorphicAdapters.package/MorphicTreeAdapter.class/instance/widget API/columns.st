@@ -1,3 +1,3 @@
 columns
 
-	^ self model columns
+	^ self model columns collect: [ :each | each buildWithSpec ]

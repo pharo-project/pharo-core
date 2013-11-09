@@ -3,7 +3,7 @@ customMenuActions
 	aMenu 
 		add: 'Dive Into (d)' translated
 		target: self
-		selector: #dive.
+		selector: #diveIntoSelectedObject.
 	
 	(history hasPrevious or: [ history hasNext ])
 		ifTrue: [ aMenu addLine ].

@@ -5,4 +5,4 @@ list
 			handlesDoubleClick: true;
 			whenSelectedItemChanged: [ :item |
 				self refreshDescription: item ];
-			doubleClickAction: [ self dive ]. ]
+			doubleClickAction: [ self diveIntoSelectedObject ]. ]

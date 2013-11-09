@@ -1,1 +1,1 @@
-An EyeFileSystemInspector is xxxxxxxxx.
+I am an inspector dedicated to the visualization of file systems

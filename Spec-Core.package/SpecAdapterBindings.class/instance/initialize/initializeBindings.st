@@ -9,7 +9,6 @@ initializeBindings
 		at: #LabelAdapter 				put: #LabelAdapter;
 		at: #ListAdapter 				put: #ListAdapter;
 		at: #IconListAdapter 			put: #IconListAdapter;
-		at: #ImageAdapter				put: #ImageAdapter;
 		at: #MultiColumnListAdapter 	put: #MultiColumnListAdapter;
 		at: #NewListAdapter 			put: #NewListAdapter;
 		at: #RadioButtonAdapter 		put: #RadioButtonAdapter;
@@ -19,6 +18,8 @@ initializeBindings
 		at: #TextAdapter 				put: #TextAdapter;
 		at: #TextInputFieldAdapter 	put: #TextInputFieldAdapter;
 		at: #TreeAdapter 				put: #TreeAdapter;
+		at: #TreeColumnAdapter		put: #TreeColumnAdapter;
+		at: #TreeNodeAdapter			put: #TreeNodeAdapter;
 		at: #WindowAdapter 			put: #WindowAdapter;
 		at: #DialogWindowAdapter 	put: #DialogWindowAdapter;
 		yourself

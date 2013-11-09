@@ -1,3 +1,3 @@
 rootNodeHolder
 
-	^ rootNodeHolder contents
+	^ self model rootNodeHolder

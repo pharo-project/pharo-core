@@ -1,13 +1,15 @@
 updateRootFor: aText
-	| aFilter |
+	| aFilter nodes |
 	
 	aFilter := TokenTreeFilter token: aText.
 
 	tree selection: nil.
 	tree updateTree.
 
-	tree rootNodes do: [:r | r updateAccordingTo: aFilter].
-	tree rootNodes removeAllSuchThat: [:n | (aFilter keepTreeNode: n) not and: [n isEmpty]].
+	nodes := (tree roots collect: [ :e | (tree rootNodeHolder cull: e) ]) asOrderedCollection.
+	nodes do: [:r | r updateAccordingTo: aFilter].
+	
+	tree changed: #removeRootsSuchAs: with: { [:n | (aFilter keepTreeNode: n) not and: [n isEmpty]] }.
 
 	tree expandAll.
 

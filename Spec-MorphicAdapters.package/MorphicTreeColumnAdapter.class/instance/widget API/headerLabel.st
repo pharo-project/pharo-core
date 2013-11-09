@@ -1,0 +1,3 @@
+headerLabel
+
+	^ self model headerLabel

@@ -1,2 +1,2 @@
 inspectSelectedObjectInNewWindow
-	self selectedObjectDo: [ :anObject | anObject inspect ].
+	self selectedObjectDo: [ :anObject | self inspectInNewWindow: anObject ].

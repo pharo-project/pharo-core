@@ -1,0 +1,3 @@
+resizable
+
+	^ resizable value
