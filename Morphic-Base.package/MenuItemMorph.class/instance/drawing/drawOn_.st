@@ -16,7 +16,7 @@ drawOn: aCanvas
 		ifTrue: [stringBounds := stringBounds left: stringBounds left + self submorphBounds width + 8].
 	stringBounds := stringBounds top: stringBounds top + stringBounds bottom - self fontToUse height // 2.
 	aCanvas
-		drawString: contents
+		drawString: self contents
 		in: stringBounds
 		font: self fontToUse
 		color: stringColor.

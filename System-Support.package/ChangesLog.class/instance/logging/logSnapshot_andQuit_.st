@@ -19,7 +19,7 @@ logSnapshot: save andQuit: quit
 										ifTrue: [ 'QUIT/NOSAVE' ]
 										ifFalse: [ 'NOP' ] ]);
 				nextPutAll: '----';
-				print: Time dateAndTimeNow;
+				print: DateAndTime now;
 				space;
 				nextPutAll: (Smalltalk imageFile basename);
 				nextPutAll: ' priorSource: ';

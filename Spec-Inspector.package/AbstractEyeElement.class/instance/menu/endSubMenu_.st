@@ -1,6 +1,7 @@
 endSubMenu: aMenu 
 	
-	aMenu 	
-		add: 'Copy Name (c)' translated
-			target: self 
-			selector: #copyAccessorCode
+	aMenu addGroup: [ :aGroup |
+		aGroup addItem: [ :anItem |
+			anItem name: 'Copy Name';
+			action: [ self copyAccessorCode ];
+			shortcut: $c command mac | $c alt win | $c alt unix ] ]

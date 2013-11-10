@@ -1,3 +1,3 @@
 recordStartupStamp
 	
-	startupStamp := '----STARTUP----', Time dateAndTimeNow printString, ' as ', Smalltalk imagePath.
+	startupStamp := '----STARTUP----', DateAndTime now printString, ' as ', Smalltalk imagePath.

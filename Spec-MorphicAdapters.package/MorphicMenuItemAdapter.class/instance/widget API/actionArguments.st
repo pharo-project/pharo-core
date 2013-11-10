@@ -1,0 +1,3 @@
+actionArguments
+
+	^ [ Array with: self ]

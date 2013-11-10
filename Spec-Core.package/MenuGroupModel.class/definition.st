@@ -1,5 +1,5 @@
 AbstractWidgetModel subclass: #MenuGroupModel
-	instanceVariableNames: 'items'
+	instanceVariableNames: 'items autoRefresh'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-Core-Widgets'

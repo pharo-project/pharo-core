@@ -9,3 +9,5 @@ registerEvents
 	isMultipleSelection whenChangedDo: [ :bool | self changed: { #isMultipleSelection: . bool } ].
 	unselectOnChange whenChangedDo: [ :bool | self changed: { #unselectOnChange: . bool } ].
 	handlesDoubleClick whenChangedDo: [ :bool | self changed: { #handlesDoubleClick . bool } ].
+	
+	menuHolder whenChangedDo: [ :aMenuModel | aMenuModel isBlock ifFalse: [ aMenuModel applyTo: self ] ]

@@ -1,9 +1,12 @@
 commentForCurrentUpdate
- ^ '12129 FileLocator is not initialized at the right point during startup
-	https://pharo.fogbugz.com/f/cases/12129
+ ^ '12073 Writing jpeg files to disk
+	https://pharo.fogbugz.com/f/cases/12073
 	
-12075 Fix TextActions and Add SourceWebBrowser for TextUrl
-	https://pharo.fogbugz.com/f/cases/12075
-
-1047 MCDataStream has strong Dictionary a class variable, preventing classes to be GCd.
-	https://pharo.fogbugz.com/f/cases/1047	'
+12051 Add MenuModels
+	https://pharo.fogbugz.com/f/cases/12051
+	
+7021 Remove Time dateAndTimeNow
+	https://pharo.fogbugz.com/f/cases/7021
+	
+12105 Senders does not work in FinderUI from the right click menu
+	https://pharo.fogbugz.com/f/cases/12105'

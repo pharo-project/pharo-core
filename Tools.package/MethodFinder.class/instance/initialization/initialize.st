@@ -109,7 +109,7 @@ initialize
 
 "Date, Time"
 	#("in class, instance creation" fromDays: fromSeconds: fromString: today
-	"in class, general inquiries" dateAndTimeNow dayOfWeek: daysInMonth:forYear: daysInYear: firstWeekdayOfMonth:year: indexOfMonth: nameOfDay: nameOfMonth:
+	"in class, general inquiries" dayOfWeek: daysInMonth:forYear: daysInYear: firstWeekdayOfMonth:year: indexOfMonth: nameOfDay: nameOfMonth:
 "accessing" day leap monthIndex monthName weekday year
 "arithmetic" addDays: subtractDate: subtractDays:
 "comparing"
@@ -118,7 +118,7 @@ initialize
 "printing"  mmddyyyy printFormat: 
 "private" weekdayIndex 
 	"in class, instance creation" fromSeconds: now 
-	"in class, general inquiries" dateAndTimeFromSeconds: dateAndTimeNow millisecondClockValue millisecondsToRun: totalSeconds
+	"in class, general inquiries" dateAndTimeFromSeconds: millisecondClockValue millisecondsToRun: totalSeconds
 "accessing" hours minutes seconds
 "arithmetic" addTime: subtractTime:
 "comparing"

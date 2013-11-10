@@ -2,8 +2,8 @@ timeStamp: aStream
 	"Writes system version and current time on stream aStream."
 
 	| dateTime |
-	dateTime := Time dateAndTimeNow.
+	dateTime := DateAndTime now.
 	aStream
-		nextPutAll: 'From ' , self datedVersion , ' [' , self lastUpdateString , '] on ' , (dateTime at: 1) printString;
+		nextPutAll: 'From ' , self datedVersion , ' [' , self lastUpdateString , '] on ' , dateTime asDate printString;
 		nextPutAll: ' at ';
-		nextPutAll: (dateTime at: 2) printString
+		nextPutAll: dateTime asTime printString

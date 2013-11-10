@@ -1,0 +1,3 @@
+menuGroups
+
+	^ self model menuGroups
