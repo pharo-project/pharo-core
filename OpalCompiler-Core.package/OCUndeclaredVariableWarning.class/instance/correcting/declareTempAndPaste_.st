@@ -1,10 +1,17 @@
 declareTempAndPaste: name
-	| insertion delta theTextString characterBeforeMark tempsMark |
+	| insertion delta theTextString characterBeforeMark tempsMark newMethodNode |
 
-	theTextString := self methodNode source.
-	tempsMark :=  self methodNode body  leftBar ifNil: [ self methodNode body start ].
-	characterBeforeMark := theTextString at: tempsMark-1 ifAbsent: [$ ].
+	"Below we are getting the text that is actually seen in the morph. This is rather ugly. Maybe there is a better way to do this."
+	theTextString := self requestor textMorph editor paragraph text.
+
+	"We parse again the method displayed in the morph. The variable methodNode has the first version of the method, without temporary declarations. "
+	newMethodNode := RBParser parseMethod: theTextString.
 	
+	"We check if there is a declaration of temporary variables"
+	tempsMark :=  newMethodNode body  rightBar ifNil: [ self methodNode body start ].	
+	
+	characterBeforeMark := theTextString at: tempsMark-1 ifAbsent: [$ ].
+
 	(theTextString at: tempsMark) = $| ifTrue:  [
   		"Paste it before the second vertical bar"
 		insertion := name, ' '.
