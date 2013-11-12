@@ -21,6 +21,8 @@ initializeBindings
 		at: #TextAdapter				put: #MorphicTextAdapter;
 		at: #TextInputFieldAdapter		put: #MorphicTextInputFieldAdapter;
 		at: #TreeAdapter				put: #MorphicTreeAdapter;
+		at: #TreeColumnAdapter		put: #MorphicTreeColumnAdapter;
+		at: #TreeNodeAdapter			put: #MorphicTreeNodeAdapter;
 		at: #WindowAdapter			put: #MorphicWindowAdapter;
 		at: #DialogWindowAdapter		put: #MorphicDialogWindowAdapter;
 		yourself

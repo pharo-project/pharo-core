@@ -21,6 +21,8 @@ initializeBindings
 		at: #TextAdapter				put: #TextAdapter;
 		at: #TextInputFieldAdapter		put: #TextInputFieldAdapter;
 		at: #TreeAdapter				put: #TreeAdapter;
+		at: #TreeColumnAdapter		put: #TreeColumnAdapter;
+		at: #TreeNodeAdapter			put: #TreeNodeAdapter;		
 		at: #WindowAdapter			put: #WindowAdapter;
 		at: #DialogWindowAdapter		put: #DialogWindowAdapter;
 		yourself

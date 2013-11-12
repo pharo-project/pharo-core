@@ -48,25 +48,43 @@ keyStroke: evt
 			self selectItem: nil event: evt.
 			evt hand newMouseFocus: popUpOwner owner.
 			^evt hand newKeyboardFocus: popUpOwner owner].
-	(asc = 28 or: [asc = 29]) 
+		
+	"Left arrow key - If we are in a submenu, then we remove myself (i.e., the current morph) and move the focus to the owner popup"
+	(asc = 28 and: [ popUpOwner notNil ])
+		ifTrue: [ self delete.
+					evt hand newMouseFocus: popUpOwner owner. 
+					^evt hand newKeyboardFocus: popUpOwner owner ].
+	
+	"Right arrow key - If the selected menu item has a submenu, then we move the focus to the submenu "
+	(asc = 29) 
 		ifTrue: 
-			["left or right arrow key"
-
+			["right arrow key"
 			(selectedItem notNil and: [selectedItem hasSubMenu]) 
 				ifTrue: 
 					[evt hand newMouseFocus: selectedItem subMenu.
 					selectedItem subMenu moveSelectionDown: 1 event: evt.
 					^evt hand newKeyboardFocus: selectedItem subMenu]].
+			
 	asc = 30 ifTrue: [^self moveSelectionDown: -1 event: evt].	"up arrow key"
 	asc = 31 ifTrue: [^self moveSelectionDown: 1 event: evt].	"down arrow key"
 	asc = 11 ifTrue: [^self moveSelectionDown: -5 event: evt].	"page up key"
 	asc = 12 ifTrue: [^self moveSelectionDown: 5 event: evt].	"page down key"
-	matchString := self valueOfProperty: #matchString ifAbsentPut: [String new].
-	matchString := char = Character backspace 
-				ifTrue: 
-					[matchString isEmpty ifTrue: [matchString] ifFalse: [matchString allButLast]]
-				ifFalse: [matchString copyWith: evt keyCharacter].
-	self setProperty: #matchString toValue: matchString.
+		
+	"If we reach this point, it means that we are editing the filter associated to each menu. "
+	"In case ther eis no filter associated to the menu, we simply create one"
+	matchString := self valueOfProperty: #matchString ifAbsentPut: [ String new ].
+
+	"If we press the backspace, then we simply remove the last character from matchString"
+	(char = Character backspace and: [ matchString notEmpty ])
+		ifTrue: [ matchString := matchString allButLast. 
+				   self recordFiltering: matchString.
+				   self displayFiltered: evt. ].
+	
+	"No need to go further if the character is not alphanumeric, i.e., not useful for filtering"
+	char isAlphaNumeric ifFalse: [ ^ self ].
+	matchString := matchString, char asString.
+		
+	self recordFiltering: matchString.
 	self displayFiltered: evt.
 	help := BalloonMorph string: 'Enter text to\narrow selection down\to matching items ' withCRs for: self corner: #topLeft.
 	help popUpForHand: self activeHand.
