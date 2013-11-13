@@ -1,9 +1,7 @@
 commentForCurrentUpdate
- ^ '12153 Issue with the old TreeModel API
-	https://pharo.fogbugz.com/f/cases/12153
+ ^ '11782 SearchableTree not working
+	https://pharo.fogbugz.com/f/cases/11782
 	
-12151 Ring definitions should respond to #asRingDefinition
-	https://pharo.fogbugz.com/f/cases/12151
-	
-12152 RGClassDescriptionDefinition should not override #instVarNamed:
-	https://pharo.fogbugz.com/f/cases/12152'
+12132 MNU: TreeNodeModel>>#item
+		https://pharo.fogbugz.com/f/cases/12132
+		'

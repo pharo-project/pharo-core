@@ -1,4 +1,4 @@
 roots: aCollection
 
-	roots value: aCollection.	
-	tree roots: aCollection
+	roots value: aCollection asOrderedCollection.	
+	tree roots: aCollection asOrderedCollection
