@@ -1,3 +1,3 @@
 initialize
-	annonimousRegistry := Set new.
+	anonymousRegistry := Set new.
 	namedRegistry := Dictionary new.

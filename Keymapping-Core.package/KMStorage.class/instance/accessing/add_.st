@@ -1,4 +1,4 @@
 add: aKeymap
 	aKeymap hasName
 		ifTrue: [ namedRegistry at: aKeymap name put: aKeymap ]
-		ifFalse: [ annonimousRegistry add: aKeymap ].
+		ifFalse: [ anonymousRegistry add: aKeymap ].

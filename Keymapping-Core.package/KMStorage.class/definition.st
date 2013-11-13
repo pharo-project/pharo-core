@@ -1,5 +1,5 @@
 Object subclass: #KMStorage
-	instanceVariableNames: 'namedRegistry annonimousRegistry'
+	instanceVariableNames: 'namedRegistry anonymousRegistry'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Keymapping-Core'
