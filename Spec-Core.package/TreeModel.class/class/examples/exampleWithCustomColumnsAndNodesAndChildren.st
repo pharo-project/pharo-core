@@ -7,8 +7,8 @@ exampleWithCustomColumnsAndNodesAndChildren
 	m rootNodeHolder: [ :item | 
 		TreeNodeModel new
 			content: item;
-			children: ((1 to: item asString first asciiValue) collect: [:e | 
-				TreeNodeModel new content: e ]);
+			children: [ (1 to: item asString first asciiValue) collect: [:e | 
+				TreeNodeModel new content: e ] ];
 			icon: Smalltalk ui icons smallConfigurationIcon
 	].
 	

@@ -1,3 +1,3 @@
 removeInstVarNamed: aString
 
-	self removeVariable: (self instVarNamed: aString) from: instanceVariables
+	self removeVariable: (self instanceVariableNamed: aString) from: instanceVariables

@@ -1,3 +1,5 @@
 childNodeFromItem: anItem
 	
-	^ anItem asTreeNodeModel buildWithSpec
+	^ anItem asTreeNodeModel
+	container: self model;
+	buildWithSpec

@@ -2,7 +2,7 @@ initialize
 
 	super initialize.
 
-	children := OrderedCollection new asValueHolder.
+	children := [ self container childrenFor: self content ] asValueHolder.
 	content := nil asValueHolder.
 	icon := nil asValueHolder.
 	container := nil asValueHolder.

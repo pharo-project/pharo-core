@@ -10,7 +10,7 @@ testWithClassInstanceVariables
 	self assert: (metaClass instVarNames size = 1).
 	self assert: (metaClass allInstVarNames size = 1).
 	
-	classInstVar:= metaClass instVarNamed: #sizes.
+	classInstVar:= metaClass instanceVariableNamed: #sizes.
 	self assert: (classInstVar notNil).
 	self assert: (classInstVar parent = metaClass).
 	self assert: (classInstVar isClassInstanceVariable).
@@ -20,5 +20,5 @@ testWithClassInstanceVariables
 	
 	metaClass removeInstVarNamed: #sizes.
 	self assert: (metaClass instanceVariables isEmpty).
-	self assert: ((metaClass instVarNamed: #sizes) isNil).
+	self assert: ((metaClass instanceVariableNamed: #sizes) isNil).
 	

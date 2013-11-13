@@ -1,3 +1,3 @@
-children: aCollection
+children: aBlock
 
-	children value: aCollection
+	children value: aBlock

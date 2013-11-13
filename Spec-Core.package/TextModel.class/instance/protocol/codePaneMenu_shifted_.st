@@ -3,4 +3,4 @@ codePaneMenu: aMenu shifted: shifted
 	PluggableTextController will respond to all menu items in a 
 	text pane"
 	
-	^ menuHolder contents cull: aMenu cull: shifted
+	^ menuHolder value cull: aMenu cull: shifted

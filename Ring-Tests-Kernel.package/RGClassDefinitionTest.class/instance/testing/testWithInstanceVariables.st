@@ -9,7 +9,7 @@ testWithInstanceVariables
 	self assert: (newClass instVarNames size = 3).
 	self assert: (newClass allInstVarNames size = 3).
 	
-	instVar:= newClass instVarNamed: #firstIndex.
+	instVar:= newClass instanceVariableNamed: #firstIndex.
 	self assert: (instVar notNil).
 	self assert: (instVar parent = newClass).
 	self assert: (instVar isInstanceVariable).
@@ -19,5 +19,5 @@ testWithInstanceVariables
 	
 	newClass removeInstVarNamed: #array.
 	self assert: (newClass instanceVariables size = 2).
-	self assert: ((newClass instVarNamed: #array) isNil).
+	self assert: ((newClass instanceVariableNamed: #array) isNil).
 	

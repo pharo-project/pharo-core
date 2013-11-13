@@ -24,7 +24,7 @@ initialize
 	rootNodeHolder := [ :item |
 		TreeNodeModel new 
 			content: item;
-			children: (self childrenFor: item) ] asValueHolder.
+			children: [ self childrenFor: item ] ] asValueHolder.
 	
 	columns := { TreeColumnModel new
 		displayBlock: [:node | (self wrapItem: node content) ] } asValueHolder.
