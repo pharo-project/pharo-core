@@ -1,2 +1,6 @@
 loadRepositoryUrl
-	^ self argumentAt: 1.
+	| possibleUrl |
+	possibleUrl := self argumentAt: 1.
+	(possibleUrl includesSubstring: '://')
+		ifTrue: [ ^ possibleUrl asUrl ].
+	^ possibleUrl asFileReference

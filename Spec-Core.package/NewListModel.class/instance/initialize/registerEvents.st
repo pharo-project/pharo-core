@@ -10,4 +10,6 @@ registerEvents
 	unselectOnChange whenChangedDo: [ :bool | self changed: { #unselectOnChange: . bool } ].
 	handlesDoubleClick whenChangedDo: [ :bool | self changed: { #handlesDoubleClick . bool } ].
 	
-	menuHolder whenChangedDo: [ :aMenuModel | aMenuModel isBlock ifFalse: [ aMenuModel applyTo: self ] ]
+	menuHolder whenChangedDo: [ :aMenuModel :oldMenu | 
+		(oldMenu isNil or: [ oldMenu isBlock ]) ifFalse: [ oldMenu neglect: self ].
+		(aMenuModel isNil or: [ aMenuModel isBlock ]) ifFalse: [ aMenuModel applyTo: self ] ]

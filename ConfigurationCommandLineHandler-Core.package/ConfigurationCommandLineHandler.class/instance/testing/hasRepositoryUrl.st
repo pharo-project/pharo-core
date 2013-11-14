@@ -1,4 +1,6 @@
 hasRepositoryUrl
 	^ self arguments size > 0 and: [ 
+		| possibleUrl |
+		possibleUrl := self arguments first.
 		"check if the first argument is some sort of a URL"
-		self arguments first includesSubstring: '://' ]
+		(possibleUrl includesSubstring: '://') or: [ possibleUrl first = $. ]]
