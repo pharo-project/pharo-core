@@ -6,8 +6,7 @@ addBorderStyleMenuItems: aMenu hand: aHandMorph
 					newMenuIn: self for: self.
 	subMenu addStayUpItemSpecial.
 	subMenu addList: 
-		{{'border color...' translated. #changeBorderColor:}.
-		{'border width...' translated. #changeBorderWidth:}}.
+		{{'border width...' translated. #changeBorderWidth:}}.
 	subMenu addLine.
 	BorderStyle borderStyleChoices do:
 		[:sym | (self borderStyleForSymbol: sym)

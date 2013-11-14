@@ -1,2 +1,2 @@
 initialize
-	self cbSize: (self basicSize).
+      self cbSize: (self class instanceSize).

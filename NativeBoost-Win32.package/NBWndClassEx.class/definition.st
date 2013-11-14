@@ -1,4 +1,4 @@
-NBExternalStructure variableByteSubclass: #NBWndClassEx
+NBExternalStructure subclass: #NBWndClassEx
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: 'NBWinTypes'

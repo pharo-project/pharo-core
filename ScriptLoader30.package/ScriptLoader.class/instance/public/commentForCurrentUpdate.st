@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '11999 Move MimeType to Deprecated30
-	https://pharo.fogbugz.com/f/cases/11999
+ ^ '12142 Cannot execute self xxxx in a message list
+	https://pharo.fogbugz.com/f/cases/12142
 	
-12131 Metacello Browser: more revealing button labels
-	https://pharo.fogbugz.com/f/cases/12131
+12161 Nativeboost crash NBWndClassEx
+	https://pharo.fogbugz.com/f/cases/12161
 	
-12159 ZnUrl should respond to asUrl
-	https://pharo.fogbugz.com/f/cases/12159'
+12008 Removed methods that calls not implemented message
+	https://pharo.fogbugz.com/f/cases/12008'

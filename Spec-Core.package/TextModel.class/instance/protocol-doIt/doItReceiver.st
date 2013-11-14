@@ -1,3 +1,3 @@
 doItReceiver
 
-	^ doItReceiver value
+	^ doItReceiver value theNonMetaClass
