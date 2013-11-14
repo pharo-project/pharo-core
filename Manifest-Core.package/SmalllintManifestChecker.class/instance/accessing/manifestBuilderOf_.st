@@ -1,4 +1,4 @@
-manifestBuilderOf: aCritic
+manifestBuilderOf: aPackage
 
-	^ aCritic manifestBuilderForRuleChecker: self
+	^ aPackage manifestBuilderForRuleChecker: self
 	

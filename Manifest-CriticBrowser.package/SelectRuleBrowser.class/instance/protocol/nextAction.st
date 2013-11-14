@@ -18,4 +18,4 @@ nextAction
 		rule: rbRule;
 		environment: environment;
 		removeTestCase: removeTestCase.
-	CriticBrowser openOnWorkspace: CriticWorkingConfiguration current
+	CriticBrowser openOnWorkingConfiguration: CriticWorkingConfiguration current

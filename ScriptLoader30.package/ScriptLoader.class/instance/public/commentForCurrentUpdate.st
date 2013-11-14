@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '12142 Cannot execute self xxxx in a message list
+ ^ '12162 Critics run on all extended classes
+	https://pharo.fogbugz.com/f/cases/12162
+	
+12142 Cannot execute self xxxx in a message list
 	https://pharo.fogbugz.com/f/cases/12142
 	
-12161 Nativeboost crash NBWndClassEx
-	https://pharo.fogbugz.com/f/cases/12161
-	
-12008 Removed methods that calls not implemented message
-	https://pharo.fogbugz.com/f/cases/12008'
+12164 One Click on Mac is broken due to new source file lookup
+	https://pharo.fogbugz.com/f/cases/12164'

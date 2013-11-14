@@ -1,4 +1,5 @@
-checkMethodsForClass: aClass 
+checkMethodsForClass: aClass 	
+	context selectedClass: aClass.
 	^environment 
 		selectorsForClass: aClass
 		do: [:each | 

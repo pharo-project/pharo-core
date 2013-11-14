@@ -9,7 +9,7 @@ checkMethod: aContext
 					aContext selectedClass superclass isNil or: [ (aContext selectedClass superclass canUnderstand: each) not ] ]
 				ifNone: 
 					[ aContext selfMessages 
-						detect: [ :each | (aContext selectedClass canUnderstand: each) not ]
+						detect: [ :each | (aContext selectedClass allSelectors includes: each) not ]
 						ifNone: [ nil ] ] ].
 	message notNil ifTrue: 
 		[ result addSearchString: message.

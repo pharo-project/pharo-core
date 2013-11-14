@@ -2,5 +2,5 @@ setCurrentConfigurationModel
 	currentConfigurationModel  
 		state: false;
 		label: 'Uses Current Configuration';
-		action: [ CriticBrowser openOnWorkspace: CriticWorkingConfiguration current. 
+		action: [ CriticBrowser openOnWorkingConfiguration: CriticWorkingConfiguration current. 
 				self delete ]

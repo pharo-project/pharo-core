@@ -1,9 +1,9 @@
 nextAction
 
-	| env package|	
+	| env packages |	
 		
-	package := selectedModel listItems.
-	env := RBPackageEnvironment new packages: package.
+	packages := selectedModel listItems.
+	env := RBPackageEnvironment new packages: packages.
 	SelectRuleBrowser openWithEnvironment: env removeTestCase: self addTestCaseClasses state.
 	self delete
 	

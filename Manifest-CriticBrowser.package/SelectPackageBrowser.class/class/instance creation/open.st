@@ -1,4 +1,4 @@
 open
 	
-	self new items: MCWorkingCopy allManagers;
+	self new items: RPackageOrganizer default packages;
 		openWithSpec 
