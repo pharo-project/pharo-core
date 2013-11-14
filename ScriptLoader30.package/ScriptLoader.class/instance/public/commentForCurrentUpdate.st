@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '12156 Move code in SmalltalkImage>>closeSourceFiles to SourceFileArray
-	https://pharo.fogbugz.com/f/cases/12156
+ ^ '11999 Move MimeType to Deprecated30
+	https://pharo.fogbugz.com/f/cases/11999
 	
-10890 Converting FileUrl w. spaces to FileReference (was Load configs from local folders)
-	https://pharo.fogbugz.com/f/cases/10890
+12131 Metacello Browser: more revealing button labels
+	https://pharo.fogbugz.com/f/cases/12131
 	
-12150 Better Menu support
-	https://pharo.fogbugz.com/f/cases/12150'
+12159 ZnUrl should respond to asUrl
+	https://pharo.fogbugz.com/f/cases/12159'

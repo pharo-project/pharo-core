@@ -2,7 +2,7 @@ setLoadModel
 	
 	loadModel
 		state: false;
-		label: 'Load';
+		label: 'Load Configuration';
 		action: [ self loadConfiguration ].
 	
 

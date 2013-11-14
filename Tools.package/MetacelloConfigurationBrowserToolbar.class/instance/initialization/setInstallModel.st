@@ -2,7 +2,7 @@ setInstallModel
 	
 	installModel
 		state: false;
-		label: 'Install';
+		label: 'Install Stable Version';
 		action: [ self installConfiguration ].
 	
 
