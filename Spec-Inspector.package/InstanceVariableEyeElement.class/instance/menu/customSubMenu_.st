@@ -1,13 +1,14 @@
 customSubMenu: aMenu
 	
-	aMenu 
-		add: 'List Methods Using "', self instVarName, '"'
-			target: self 
-			selector: #referencesToInstanceVariable;
-		add: 'List Methods Storing into "', self instVarName, '"'
-			target: self 
-			selector: #storingsIntoInstanceVariable.
-
-	aMenu addLine.
-	
-	
+	aMenu addGroup: [ :aGroup | 
+		aGroup 
+			addItem: [:anItem | 
+				anItem 
+					name: 'List Methods Using "', self instVarName, '"';
+					action: [ self referencesToInstanceVariable] ];
+			addItem: [:anItem | 
+				anItem 
+					name: 'List Methods Storing into "', self instVarName, '"';
+					action: [ self storingsIntoInstanceVariable].
+			].
+		]

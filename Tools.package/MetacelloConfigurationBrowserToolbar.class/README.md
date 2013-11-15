@@ -1,1 +1,1 @@
-A MetacelloConfigurationBrowserToolbar is xxxxxxxxx.Instance Variables	installModel:		<Object>	loadModel:		<Object>installModel	- xxxxxloadModel	- xxxxx
+A MetacelloConfigurationBrowserToolbar is a toolbar for the configuration browser.Instance Variables	installModel:		<ButtonModel>	loadModel:		<ButtonModel>installModel	- button model to install a configurationloadModel	- button model to load a configuration
