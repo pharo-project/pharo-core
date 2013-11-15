@@ -6,7 +6,8 @@ testObsoleteBehaviors
 	
 	Smalltalk fixObsoleteReferences.
 	obsoleteBehaviors := SystemNavigation new obsoleteBehaviors
-		select: [ :each | each isAnonymous not ].
+		select: [ :each | each isAnonymous not and: [(each isKindOf: NBExternalArray) not ] ].
+	"we skip all anonymous behaviors and classes that might be created by NB tests"
 	
 	self 
 		assert: obsoleteBehaviors isEmpty

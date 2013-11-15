@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '12168 Menu actions of MetacelloConfigurationBrowser do not fit buttons
-	https://pharo.fogbugz.com/f/cases/12168
-		
-12169 Inspector contextual menu raises DNU MenuModel>>#add:target:selector:
-	https://pharo.fogbugz.com/f/cases/12169'
+ ^ '12172 relax #testUnknownProcesses a little
+	https://pharo.fogbugz.com/f/cases/12172
+	
+12171 Fix last reference to ExtendedNumberParser
+	https://pharo.fogbugz.com/f/cases/12171
+	
+12165 #testObsoleteBehaviors failing after running native boost tests
+	https://pharo.fogbugz.com/f/cases/12165'

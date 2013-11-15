@@ -6,4 +6,4 @@ readFrom: stringOrStream ifFail: aBlock
 	If input does not represent a valid number, then execute fail block
 	and leave the stream positioned before offending character"
 	
-	^(ExtendedNumberParser on: stringOrStream) failBlock: aBlock; nextNumber
+	^(NumberParser on: stringOrStream) failBlock: aBlock; nextNumber
