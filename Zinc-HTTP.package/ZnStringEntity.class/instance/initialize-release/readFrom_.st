@@ -15,7 +15,7 @@ readFrom: stream
 						position := stringStream position.
 						wideString := WideString from: stringStream originalContents.
 						stringStream on: wideString; setFrom: position + 1 to: position ].
-					notification pass ].
+					notification resume ].
 		totalRead := totalRead + read.
 		totalRead > ZnConstants maximumEntitySize
 			ifTrue: [ ZnEntityTooLarge signal ].

@@ -1,6 +1,6 @@
 testGetLargeWideStringHTML
 	| client text |
-	text := '<html>{1}<h1>Czech is in Czech {2}e{2}tina.</h1>{3}</html>' 
+	text := '<html>{1}<h1>Czech in Czech is {2}e{3}tina.</h1>{1}</html>' 
 		format: { 
 			String new: ZnUtils streamingBufferSize withAll: $X.
 			269 asCharacter. 

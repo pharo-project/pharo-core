@@ -1,0 +1,2 @@
+isLittleEndian
+	^ endianness = #little

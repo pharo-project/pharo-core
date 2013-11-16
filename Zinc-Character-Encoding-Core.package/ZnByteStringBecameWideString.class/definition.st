@@ -1,4 +1,4 @@
-Notification subclass: #ZnByteStringBecameWideString
+Error subclass: #ZnByteStringBecameWideString
 	instanceVariableNames: 'byteString wideString'
 	classVariableNames: ''
 	poolDictionaries: ''

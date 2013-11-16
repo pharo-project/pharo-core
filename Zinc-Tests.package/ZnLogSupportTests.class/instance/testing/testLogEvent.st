@@ -1,6 +1,6 @@
 testLogEvent
 	| logEvent now |
-	now := TimeStamp now.
+	now := DateAndTime now.
 	logEvent := ZnLogEvent info: 'Testing'.
 	self assert: logEvent timeStamp >= now.
 	self assert: logEvent processId isInteger.

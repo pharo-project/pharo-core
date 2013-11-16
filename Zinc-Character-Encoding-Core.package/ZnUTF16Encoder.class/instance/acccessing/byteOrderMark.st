@@ -1,0 +1,2 @@
+byteOrderMark
+	^ 16rFEFF

@@ -1,3 +1,3 @@
 expiresTimeStamp
-	self expires ifNil: [ ^ TimeStamp current plusDays: 1 ].
+	self expires ifNil: [ ^ DateAndTime now + 1 day ].
 	^ ZnUtils parseHttpDate: self expires

@@ -1,6 +1,6 @@
 encodedByteCountFor: character
 	| code |
-	code := character charCode.
+	code := character codePoint.
 	code < 128 ifTrue: [ ^ 1 ].
 	code < 2048 ifTrue: [ ^ 2 ].
 	code < 65535 ifTrue: [ ^ 3 ].

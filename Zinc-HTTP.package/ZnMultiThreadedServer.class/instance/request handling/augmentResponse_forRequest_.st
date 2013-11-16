@@ -3,3 +3,4 @@ augmentResponse: response forRequest: request
 
 	super augmentResponse: response forRequest: request.
 	response setKeepAliveFor: request.
+	response setConnectionCloseFor: request

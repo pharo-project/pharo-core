@@ -7,7 +7,7 @@ testBasicGet
 			get.
 		self assert: client isSuccess.
 		self assert: client response contentType = ZnMimeType textHtml.
-		self assert: (client contents includesSubstring: 'Small').
+		self assert: client contents equals: self smallHtml.
 		self 
 			assert: (ZnUtils parseHttpDate: (client response headers at: 'Modification-Date'))
 			equals: (ZnFileSystemUtils modificationTimeFor: 'small.html') asUTC asTimeStamp.

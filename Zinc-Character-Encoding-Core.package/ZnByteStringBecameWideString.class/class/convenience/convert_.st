@@ -1,5 +1,5 @@
 convert: byteString
-	"Convert byteString to a wideString, signalling a notification"
+	"Convert byteString to a wideString, signalling a resumable error"
 	
 	| wideString |
 	wideString := WideString from: byteString.
