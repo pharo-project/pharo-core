@@ -5,7 +5,7 @@ declareVariableNode: aVariableNode
 	var
 		ifNotNil: [ 
 			self variable: aVariableNode shadows: var.
-			(var scope ~= scope and: [ scope isOptimizedBlockScope not ])
+			(var scope ~= scope)
 				ifTrue: [ 
 					"Create new var that shadows outer one"
 					var := scope addTemp: name ]

@@ -1,9 +1,10 @@
 commentForCurrentUpdate
- ^ '12172 relax #testUnknownProcesses a little
-	https://pharo.fogbugz.com/f/cases/12172
+ ^ '12184 RBStringConcatenationRule>>longdescription hint to use #join:
+	https://pharo.fogbugz.com/f/cases/12184
 	
-12171 Fix last reference to ExtendedNumberParser
-	https://pharo.fogbugz.com/f/cases/12171
+12173 Sync Opal with repo
+	https://pharo.fogbugz.com/f/cases/12173
 	
-12165 #testObsoleteBehaviors failing after running native boost tests
-	https://pharo.fogbugz.com/f/cases/12165'
+12148 DateParser with year 3000 bug inside
+	https://pharo.fogbugz.com/f/cases/12148
+'
