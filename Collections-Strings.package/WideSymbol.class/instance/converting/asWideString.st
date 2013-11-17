@@ -1,0 +1,3 @@
+asWideString 
+
+	^ self.
