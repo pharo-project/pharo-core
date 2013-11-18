@@ -5,4 +5,4 @@ updateInspectorChoice
 				ifTrue: [  ^ self ].
 			self inspectorChoice
 				items: variants;
-				displayBlock: [ :inspectorClass | inspectorClass label ]]
+				displayBlock: [ :label | label ]]

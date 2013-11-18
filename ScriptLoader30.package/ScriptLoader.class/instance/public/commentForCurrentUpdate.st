@@ -1,3 +1,5 @@
 commentForCurrentUpdate
- ^ '11565 Spec, displayBlock: [] should be called automatically after each list changes
-	https://pharo.fogbugz.com/f/cases/11565'
+ ^ '12192 Debugger/Inspector is broken because of display block
+	https://pharo.fogbugz.com/f/cases/12192
+	
+'
