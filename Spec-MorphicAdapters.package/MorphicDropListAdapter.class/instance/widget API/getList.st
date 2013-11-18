@@ -1,3 +1,3 @@
 getList
 
-	^ self model getList
+	^ self model getList collect: [ :each | self model displayForItem: each ]

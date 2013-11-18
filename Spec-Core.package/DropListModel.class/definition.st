@@ -1,5 +1,5 @@
 AbstractWidgetModel subclass: #DropListModel
-	instanceVariableNames: 'listHolder selectionHolder'
+	instanceVariableNames: 'listHolder selectionHolder displayBlock'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-Core-Widgets'

@@ -1,3 +1,4 @@
 displayBlock: aBlock
 	
-	listHolder replace: [ :e | e display: aBlock; yourself  ].
+	displayBlock value: aBlock 
+	"listHolder replace: [ :e | e display: aBlock; yourself  ]."

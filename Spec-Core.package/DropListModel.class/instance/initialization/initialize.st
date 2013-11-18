@@ -10,4 +10,5 @@ initialize
 					self internalResetSelection. ].
 				
 	selectionHolder whenChangedDo: [ self changed: #getIndex ].
+	displayBlock := [:item | item asString ] asValueHolder.
 	self whenSelectedItemChanged: [:item | item value ]
