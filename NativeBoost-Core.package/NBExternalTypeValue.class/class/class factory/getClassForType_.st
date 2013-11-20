@@ -11,10 +11,8 @@ getClassForType: aTypeName
 	"
 
 	| newSubclass |
-	newSubclass := ClassBuilder new
-		newSubclassOf: NBExternalTypeValue
-		type: NBExternalTypeValue typeOfClass
-		instanceVariables: ''
-		from: nil.	"we're not using 'self' to avoid wrong subclassing from anonymous subclass "
+	newSubclass := AnonymousClassInstaller make: [ :builder |
+		"we're not using 'self' to avoid wrong subclassing from anonymous subclass "
+		builder superclass: NBExternalTypeValue ].
 	newSubclass initValueType: aTypeName.
 	^ newSubclass

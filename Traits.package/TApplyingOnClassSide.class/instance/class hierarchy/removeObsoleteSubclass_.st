@@ -1,2 +1,0 @@
-removeObsoleteSubclass: aClass
-	"Do nothing."

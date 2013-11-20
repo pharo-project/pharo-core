@@ -2,10 +2,8 @@ anonymousSubclassInitElementType: aTypeName
 	"create and initialize the anonymous subclass of me"
 
 	| newSubclass |
-	newSubclass := ClassBuilder new
-		newSubclassOf: NBExternalArray
-		type: NBExternalArray typeOfClass
-		instanceVariables: ''
-		from: nil.	"we're not using 'self' to avoid wrong subclassing from anonymous subclass "
+	newSubclass := AnonymousClassInstaller make: [ :builder |
+		"we're not using 'self' to avoid wrong subclassing from anonymous subclass"
+		builder superclass: NBExternalArray ].
 	newSubclass initElementType: aTypeName.
 	^ newSubclass

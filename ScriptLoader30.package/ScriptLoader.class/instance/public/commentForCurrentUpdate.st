@@ -1,7 +1,6 @@
 commentForCurrentUpdate
- ^ '2919 should remove TimeStamp Step1
-	https://pharo.fogbugz.com/f/cases/2919
+ ^ '12203 remove old class builder
+	https://pharo.fogbugz.com/f/cases/12203
 	
-	
-12193 temp variable mapping wrong in the debugger
-	https://pharo.fogbugz.com/f/cases/12193'
+12199 Definitively remove HTTPSocket
+	https://pharo.fogbugz.com/f/cases/12199'
