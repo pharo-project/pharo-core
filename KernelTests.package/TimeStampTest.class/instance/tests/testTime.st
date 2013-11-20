@@ -1,2 +1,2 @@
 testTime
-	self assert: aTimeStamp time =  '00:34:56' asTime
+	self assert: aTimeStamp asTime =  '00:34:56' asTime

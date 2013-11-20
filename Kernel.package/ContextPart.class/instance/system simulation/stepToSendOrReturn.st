@@ -3,10 +3,9 @@ stepToSendOrReturn
 	returning a value to the receiver (that is, until switching contexts)."
 
 	| context |
-	[ self willSend or: [  self willReturn or: [ self willStore ] ] ]
+	[ self willSend or: [  self willReturn or: [ self willStore or: [self willCreateBlock ] ] ] ]
 		whileFalse: [
 			context := self step.
 			context == self ifFalse: [
-				self halt. 
 				"Caused by mustBeBoolean handling"
 				^context ]]

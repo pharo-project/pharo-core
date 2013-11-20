@@ -1,4 +1,4 @@
 resetVanishTimer
 
-	vanishTime := TimeStamp now + self vanishDelay.
+	vanishTime := DateAndTime now + self vanishDelay.
 	self resetAlpha.

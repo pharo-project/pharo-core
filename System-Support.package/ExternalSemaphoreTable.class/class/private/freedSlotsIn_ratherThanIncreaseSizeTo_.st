@@ -12,7 +12,7 @@ freedSlotsIn: externalObjects ratherThanIncreaseSizeTo: newSize
 				
 				needToGrow 
 					ifTrue: ["If we did GC, warn we had to gc so actions could be taken if appropriate."
-						self traceCr: TimeStamp now printString;
+						self traceCr: DateAndTime now printString;
 							traceCr:  'WARNING:  Had to GC to make room for more external objects.';
 							traceCr: 'If this happens often, it would be a good idea to either:';
 							traceCr: '- Raise the maxExternalObjects size.';

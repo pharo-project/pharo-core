@@ -1,4 +1,4 @@
 now
-	"Answer the current date and time as a TimeStamp."
+	"Answer the date and time now, rounded to the nearest whole second, as a TimeStamp."
 
-	^self current
+	^ super now rounded asTimeStamp

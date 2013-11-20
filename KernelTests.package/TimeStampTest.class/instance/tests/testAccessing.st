@@ -5,5 +5,5 @@ testAccessing
 	t := '11:55:00 am' asTime.
 
 	self
-		assert: timestamp date asString = d asString;
-		assert: timestamp time asString = t asString.
+		assert: timestamp asDate asString = d asString;
+		assert: timestamp asTime asString = t asString.

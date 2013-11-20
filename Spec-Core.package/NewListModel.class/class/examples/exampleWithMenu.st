@@ -5,8 +5,8 @@ exampleWithMenu
 	menu := MenuModel new.
 	group1 := MenuGroupModel new.
 	item11 := MenuItemModel new
-		name: [ TimeStamp now asString  ];
-		enabled: [ TimeStamp now seconds even ];
+		name: [ DateAndTime now asString  ];
+		enabled: [ DateAndTime now seconds even ];
 		yourself.
 		
 	item12 := MenuItemModel new
@@ -24,8 +24,8 @@ exampleWithMenu
 	group2 := MenuGroupModel new.
 	item21 := MenuItemModel new
 		name: 'item3';
-		state: [ TimeStamp now seconds odd ];
-		description: [ TimeStamp now asString  ];
+		state: [ DateAndTime now seconds odd ];
+		description: [ DateAndTime now asString  ];
 		yourself.
 		
 	item22 := MenuItemModel new
@@ -34,7 +34,7 @@ exampleWithMenu
 			autoRefresh: true;
 			addGroup: [ :g |
 				g addItem: [ :i| i 
-					name: [ 'sub' , ((Character value: (TimeStamp now seconds + 60))) asString ];
+					name: [ 'sub' , ((Character value: (DateAndTime now seconds + 60))) asString ];
 					action: [ self halt ];
 					shortcut: $d shift command mac | $d alt shift win | $d alt shift unix
 					]];

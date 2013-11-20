@@ -1,9 +1,7 @@
 commentForCurrentUpdate
- ^ '12195 CollectionValueHolder >> #atWrap:put: has variable name clashes
-	https://pharo.fogbugz.com/f/cases/12195
+ ^ '2919 should remove TimeStamp Step1
+	https://pharo.fogbugz.com/f/cases/2919
 	
-12194 RBTempVarOverridesInstVarRule missed #postCopy
-	https://pharo.fogbugz.com/f/cases/12194
 	
-12196 Minor mistakes in class comment of Number class
-	https://pharo.fogbugz.com/f/cases/12196'
+12193 temp variable mapping wrong in the debugger
+	https://pharo.fogbugz.com/f/cases/12193'

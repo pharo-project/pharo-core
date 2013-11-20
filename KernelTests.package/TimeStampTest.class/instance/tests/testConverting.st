@@ -8,6 +8,4 @@ testConverting
 		assert: timestamp asSeconds = (d asSeconds + t asSeconds);
 		assert: timestamp asDate asString = d asString;
 		assert: timestamp asTime = t;
-		assert: timestamp asTimeStamp == timestamp;
-		assert: timestamp dateAndTime first asString =  d asString;
-		assert: timestamp dateAndTime second asString =  t asString.
+		assert: timestamp asTimeStamp == timestamp
