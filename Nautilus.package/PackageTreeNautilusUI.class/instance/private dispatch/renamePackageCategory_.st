@@ -1,2 +1,2 @@
 renamePackageCategory: package
-	super renamePackage: package
+	self basicRenamePackage: package

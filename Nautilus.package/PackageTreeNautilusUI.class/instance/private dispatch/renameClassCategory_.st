@@ -1,7 +1,7 @@
 renameClassCategory: packageTag
 	| newName oldName |
 
-	oldName := packageTag nameWthoutPackagePrefix.
+	oldName := packageTag nameWithoutPackagePrefix.
 	newName := UIManager default 
 		request: ('New name of category {1}' format: { packageTag name }) 
 		initialAnswer: oldName
