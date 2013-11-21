@@ -6,4 +6,6 @@ initialize
 	content := nil asValueHolder.
 	icon := nil asValueHolder.
 	container := nil asValueHolder.
-	matchTokenFilter := [ :aFilter | false ] asValueHolder
+	matchTokenFilter := [ :aFilter | false ] asValueHolder.
+	parentNode := nil asValueHolder.
+	childNodeClass := self class asValueHolder.

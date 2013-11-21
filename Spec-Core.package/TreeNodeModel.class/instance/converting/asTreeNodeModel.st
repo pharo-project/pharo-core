@@ -1,3 +1,0 @@
-asTreeNodeModel
-
-	^ self

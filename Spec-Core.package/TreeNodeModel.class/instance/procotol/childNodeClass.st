@@ -1,0 +1,3 @@
+childNodeClass
+
+	^ childNodeClass value

@@ -1,0 +1,3 @@
+childNodeClassFor: anItem
+
+	^ childNodeClass value
