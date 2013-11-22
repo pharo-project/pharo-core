@@ -1,5 +1,5 @@
 StandardWindow subclass: #NautilusWindow
-	instanceVariableNames: 'container'
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'NautilusCommon'

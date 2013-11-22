@@ -1,5 +1,5 @@
 AbstractCategoryWidget subclass: #CategoryWidget
-	instanceVariableNames: 'categoriesList categoriesGroup categoriesSelection categories'
+	instanceVariableNames: 'categoriesList categoriesSelection categories'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Nautilus-Widgets'

@@ -1,3 +1,2 @@
 toggleButtonEnabled
-
-	^ (self selectedClass ~~ nil or: [ self showPackages not ])
+	^ self selectedClass notNil or: [ self showPackages not ]

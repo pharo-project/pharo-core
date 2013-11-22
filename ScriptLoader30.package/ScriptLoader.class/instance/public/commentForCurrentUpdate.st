@@ -1,13 +1,6 @@
 commentForCurrentUpdate
- ^ '12165 #testObsoleteBehaviors failing after running native boost tests
-	https://pharo.fogbugz.com/f/cases/12165
+ ^ '12215 Tweak the DiffMorph to display only the destination
+	https://pharo.fogbugz.com/f/cases/12215
 	
-12220 Move AST-Cores deprecated methods to Deprecated30 package
-	https://pharo.fogbugz.com/f/cases/12220
-	
-12208 Fix tree filtering
-	https://pharo.fogbugz.com/f/cases/12208
-	
-12219 Move System-Platforms deprecated methods to Deprecated30 package
-	https://pharo.fogbugz.com/f/cases/12219
-	'
+12213 Small code critic pass Nautilus
+	https://pharo.fogbugz.com/f/cases/12213'

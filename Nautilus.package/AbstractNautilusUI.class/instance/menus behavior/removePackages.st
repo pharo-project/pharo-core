@@ -9,7 +9,7 @@ removePackages
 				ifTrue: [| scroll |
 					packages do: [:package |
 						package definedClasses do:[: classToRemove |
-									classToRemove subclasses size > 0
+									classToRemove subclasses notEmpty
 									ifTrue: [ | message |
 										message := 'Are you certain that you
 want to REMOVE the class ', classToRemove name, '

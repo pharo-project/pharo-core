@@ -1,8 +1,12 @@
 initialize
 	"Initialize the receiver."
-
 	| exv exh ppCheckbox |
+	
 	super initialize.
+	showOnlyDestination := false.
+	showOnlySource := false.
+	showOptions := true.
+	
 	self prettyPrint: CodeHolder diffsWithPrettyPrint.
 	ppCheckbox := self newPrettyPrintCheckboxMorph.
 	optionsPanel := self newPanel 
@@ -41,4 +45,4 @@ initialize
 			exclusive: exh.
 	self
 		linkSubmorphsToSplitters;
-		extent: self initialExtent
+		extent: self initialExtent.

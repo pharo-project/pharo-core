@@ -14,7 +14,7 @@ buildSecondColumn: aWindow
 		vResizing: #rigid;
 		height: 25.
 		
-	^ secondColumn :=  PanelMorph new
+	  ^PanelMorph new
 						changeProportionalLayout;
 						addMorph: self buildList2
 						fullFrame: (LayoutFrame identity

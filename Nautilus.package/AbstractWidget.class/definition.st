@@ -1,5 +1,5 @@
 Model subclass: #AbstractWidget
-	instanceVariableNames: 'model iconClass'
+	instanceVariableNames: 'model'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Nautilus-Widgets'

@@ -17,7 +17,7 @@ buildFirstColumn: aWindow
 		vResizing: #rigid;
 		height: 25.
 		
-	^ firstColumn := PanelMorph new
+	^ PanelMorph new
 		changeProportionalLayout;
 		addMorph: self buildList
 		fullFrame: ( LayoutFrame identity bottomOffset: -25);

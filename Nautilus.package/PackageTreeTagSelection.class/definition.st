@@ -1,5 +1,5 @@
 PackageTreePackageSelection subclass: #PackageTreeTagSelection
-	instanceVariableNames: 'tag'
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Nautilus-Tree'

@@ -10,5 +10,5 @@ methodAdded: anAnnouncement
 			self resetMethodsListSelection.
 			self removeAllFromMethodsIconsCache: method.
 			self update.
-			(method methodClass isMeta and: [ method methodClass methodDict size = 1 ])
+			(method methodClass isMeta and: [ method methodClass methods size = 1 ])
 				ifTrue: [ self changed: #instanceButtonLabel ] ]
