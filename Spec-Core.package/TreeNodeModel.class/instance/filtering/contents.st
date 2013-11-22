@@ -1,2 +1,4 @@
 contents
-	^ contents ifNil: [ contents := self children ]
+	^ contents ifNil: [ 
+		self buildChildren.
+		contents ]

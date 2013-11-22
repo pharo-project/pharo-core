@@ -16,14 +16,14 @@ testClassRespectsPolymorphismWithTrait
 	"Only a few methods are allowed to belong to one class and not to the other.
 	It would be excelent to remove these methods somehow, but is NOT good idea add methods to this list.
 	Accessors to instance variables that do not belong to Trait:
-		#setName: #traitComposition #traitComposition: #localSelectors #localSelectors: #basicLocalSelectors #basicLocalSelectors
+		#setName: #getName #traitComposition #traitComposition: #localSelectors #localSelectors: #basicLocalSelectors #basicLocalSelectors
 		
 	#baseClass and #classClass have their equivalent in Trait, but the problem is the name of the selector, they are bad names.
 	#addInstVarNamed: for traits is implemeted in TraitDescription"
 	self
 		assertCollection: (Class localSelectors difference: Trait localSelectors)
 		equals: #(
-			#traitComposition: #setName: #baseClass #basicLocalSelectors 
+			#traitComposition: #setName: #getName #baseClass #basicLocalSelectors 
 			#classClass isClass
 			#basicLocalSelectors: #traitComposition #addInstVarNamed:
 			) asSet.

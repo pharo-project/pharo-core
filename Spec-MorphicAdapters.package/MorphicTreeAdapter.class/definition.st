@@ -1,5 +1,5 @@
 AbstractMorphicAdapter subclass: #MorphicTreeAdapter
-	instanceVariableNames: 'treeModel rootNodeHolder'
+	instanceVariableNames: 'treeModel'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-MorphicAdapters'

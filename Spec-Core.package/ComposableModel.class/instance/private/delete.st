@@ -1,6 +1,5 @@
 delete
 
-	self widget
-		ifNotNil: [:widget | window value
-						ifNil: [ widget delete ]
-						ifNotNil: [:o | o delete ]]
+	window value
+		ifNil: [ self changed: #delete with: #() ]
+		ifNotNil: [ :w | w delete ]

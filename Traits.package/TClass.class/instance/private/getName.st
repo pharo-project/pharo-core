@@ -1,0 +1,2 @@
+getName
+	^ self name

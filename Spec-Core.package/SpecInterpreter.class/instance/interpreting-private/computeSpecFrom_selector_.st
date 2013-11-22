@@ -5,7 +5,9 @@ computeSpecFrom: aSymbol selector: aSelector
 		ifTrue: [ | result |
 			result := self convertSymbolOfClassToInstance: aSymbol.
 			aSymbol == #ContainerModel
-				ifTrue: [ result := result buildAdapterWithSpec ].
+				ifTrue: [ 
+					result := result buildAdapterWithSpec.
+					model addDependent: result ].
 			result ]
 		ifFalse: [ self class private_interpretASpec: aSymbol model: model selector: aSelector ].
 		

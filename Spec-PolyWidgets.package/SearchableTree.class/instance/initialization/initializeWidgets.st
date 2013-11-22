@@ -7,12 +7,12 @@ initializeWidgets
 		button 		ButtonModel).
 			
 	tree rootNodeHolder: [ :item | 
-		TreeNodeModel new
-			content: item;
+		(tree defaultNodeFor: item)
 			matchTokenFilterBlock: [ :aFilter |
 				aFilter token
 					ifEmpty: [ true ]
-					ifNotEmpty: [ item asString asLowercase includesSubstring: aFilter token asLowercase ] ] ].
+					ifNotEmpty: [ item asString asLowercase includesSubstring: aFilter token asLowercase ] ];
+			yourself ].
 			
 	button 
 		label: '';

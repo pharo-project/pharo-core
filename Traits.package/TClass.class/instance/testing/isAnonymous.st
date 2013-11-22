@@ -1,2 +1,2 @@
 isAnonymous
-	^self name isNil
+	^self getName isNil
