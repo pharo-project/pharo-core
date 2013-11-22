@@ -1,0 +1,2 @@
+removeOnlyLastSelected
+	^ removeOnlyLastSelected

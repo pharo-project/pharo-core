@@ -1,6 +1,7 @@
 commentForCurrentUpdate
- ^ '12215 Tweak the DiffMorph to display only the destination
-	https://pharo.fogbugz.com/f/cases/12215
+ ^ '12221 Fix a warning raised by the monkey in DiffMorph
+	https://pharo.fogbugz.com/f/cases/12221
 	
-12213 Small code critic pass Nautilus
-	https://pharo.fogbugz.com/f/cases/12213'
+12214 Propagate the notion of last node clicked to the node model
+	https://pharo.fogbugz.com/f/cases/12214
+'

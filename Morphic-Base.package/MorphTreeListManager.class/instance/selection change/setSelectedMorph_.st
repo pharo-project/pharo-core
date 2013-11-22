@@ -1,7 +1,7 @@
 setSelectedMorph: aMorph
 	| path |
 	path := aMorph ifNotNil: [ aMorph path collect: [ :m | m complexContents ] ].
-	lastClickedMorph := aMorph.
+	self lastClickedMorph: aMorph.
 	self emptySelection.
 	aMorph 
 		ifNotNil: [ self addToSelection: lastClickedMorph ].

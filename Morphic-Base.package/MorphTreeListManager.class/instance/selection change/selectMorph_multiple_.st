@@ -1,6 +1,6 @@
 selectMorph: aNodeMorph multiple: withMultipleSelection 
 	| path mult |
-	lastClickedMorph := aNodeMorph.
+	self lastClickedMorph: aNodeMorph.
 	aNodeMorph isNil
 		ifTrue: [
 			self emptySelection.

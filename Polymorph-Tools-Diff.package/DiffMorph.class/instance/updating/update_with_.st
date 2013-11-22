@@ -5,4 +5,4 @@ update: aSymbol with: aValue
 	aSymbol == #showOptions	
 		ifTrue: [ ^ self showOptions: aValue ].
 		
-	^ super update: aSymbol
+	^ super update: aSymbol with: aValue

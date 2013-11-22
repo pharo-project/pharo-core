@@ -4,10 +4,17 @@ mouseDown: event on: aTargetMorph
 	((self autoMultiSelection) and: [event shiftPressed not])
 		ifTrue: [
 			firstClickedMorph := aTargetMorph.
-			lastClickedMorph := aTargetMorph.
+			
 			aTargetMorph selected
-				ifTrue: [self removeFromSelection: aTargetMorph]
-				ifFalse: [self addToSelection:  aTargetMorph]].
+				ifTrue: [
+					self removeOnlyLastSelected
+						ifTrue: [
+							self removeFromSelection: aTargetMorph.
+							aTargetMorph = self lastClickedMorph 
+								ifFalse: [ self addToSelection: aTargetMorph ] ]
+						ifFalse: [ self removeFromSelection: aTargetMorph ] ]
+				ifFalse: [self addToSelection:  aTargetMorph].
+			self lastClickedMorph: aTargetMorph ].
 			
 	(event shiftPressed not or: [firstClickedMorph isNil])
 			ifTrue: [firstClickedMorph := aTargetMorph].

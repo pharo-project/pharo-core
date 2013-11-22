@@ -7,5 +7,5 @@ shiftSelectMorph: aNodeMorph
 		from: firstClickedMorph 
 		to: m 
 		do: [:nd | self addToSelection: nd]. 
-	lastClickedMorph := m.
+	self lastClickedMorph: m.
 	^ m path collect: [:p | p complexContents]

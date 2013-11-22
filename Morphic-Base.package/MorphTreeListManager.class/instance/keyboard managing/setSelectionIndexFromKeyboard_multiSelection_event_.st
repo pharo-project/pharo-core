@@ -13,7 +13,7 @@ setSelectionIndexFromKeyboard: index multiSelection: multiSelect event: anEvent
 			(multiSelect and: [anEvent shiftPressed])
 				ifTrue: [self autoMultiSelect: targetMorph]
 				ifFalse: [self setSelectedMorph: targetMorph]].
-	lastClickedMorph := firstClickedMorph := targetMorph.
+	self lastClickedMorph: (firstClickedMorph := targetMorph).
 	anEvent shiftPressed
 		ifTrue: [lastClickedMorph highlightForMouseDown: true].
 

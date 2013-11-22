@@ -6,3 +6,5 @@ selected: aBoolean
 		ifFalse: [selected 
 			ifNotNil: [container selectedMorphList remove: self]].
 	selected := aBoolean.
+
+	self model selected: aBoolean

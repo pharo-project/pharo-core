@@ -14,5 +14,5 @@ mouseUp: event on: aNodeMorph
 	self selectionUpdateFromViewWhile: [ | selHolder | 
 		selHolder := self newSelectionHolderWithNodePath: path.
 		self listModel selection: selHolder].
-	lastClickedMorph := aNodeMorph.
+	self lastClickedMorph: aNodeMorph.
 	self selectionChanged. 

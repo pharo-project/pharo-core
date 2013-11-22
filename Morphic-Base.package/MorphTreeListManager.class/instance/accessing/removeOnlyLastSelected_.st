@@ -1,0 +1,3 @@
+removeOnlyLastSelected: aBoolean
+
+	removeOnlyLastSelected := aBoolean
