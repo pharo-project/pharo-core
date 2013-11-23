@@ -3,6 +3,7 @@ addMorphsAfter: parentMorph fromCollection: aCollection
 	| priorMorph morphList  subs |
 	priorMorph := nil.
 	morphList := OrderedCollection new.
+	
 	"prepare the list of nodes to be added"
 	aCollection do: [:item | 
 		priorMorph := self indentingItemClass new 
@@ -10,7 +11,9 @@ addMorphsAfter: parentMorph fromCollection: aCollection
 			prior: priorMorph 
 			forList: self
 			indentLevel: parentMorph indentLevel + 1.
-		morphList add: priorMorph].
+		morphList add: priorMorph.
+		item selected ifTrue: [ priorMorph selected: true ] ].
+	
 	"Set new child morphs index"
 	1 to: morphList size do: [:i | | m | (m := morphList at: i) index: i + parentMorph index].
 	"Add the new morph list in the scroller"

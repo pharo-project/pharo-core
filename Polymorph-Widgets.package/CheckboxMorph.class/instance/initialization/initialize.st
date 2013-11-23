@@ -13,8 +13,8 @@ initialize
 		listDirection: #leftToRight;
 		wrapCentering: #center;
 		cellInset: 4;
-		buttonMorph: self newButtonMorph;
 		labelMorph: self newLabelMorph;
+		buttonMorph: self newButtonMorph;
 		on: #click send: #labelClicked to: self;
 		on: #mouseMove send: #updateButton: to: self;
 		on: #mouseUp send: #updateButton: to: self

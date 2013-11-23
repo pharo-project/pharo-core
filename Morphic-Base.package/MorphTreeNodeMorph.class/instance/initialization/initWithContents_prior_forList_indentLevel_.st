@@ -3,6 +3,7 @@ initWithContents: anObject prior: priorMorph forList: hostList indentLevel: newL
 	
 	self cellInset: (container resizerWidth @ 0).
 	complexContents := anObject.
+	anObject addDependent: self.	
 	isExpanded := false.
 	nextSibling := firstChild := nil.
 	priorMorph ifNotNil: [priorMorph nextSibling: self].

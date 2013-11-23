@@ -7,10 +7,10 @@ mouseDown: event on: aTargetMorph
 			
 			aTargetMorph selected
 				ifTrue: [
-					self removeOnlyLastSelected
+					(self removeOnlyLastSelected  and: [ aTargetMorph hasContentToShow ])
 						ifTrue: [
 							self removeFromSelection: aTargetMorph.
-							aTargetMorph = self lastClickedMorph 
+							aTargetMorph = self lastClickedMorph
 								ifFalse: [ self addToSelection: aTargetMorph ] ]
 						ifFalse: [ self removeFromSelection: aTargetMorph ] ]
 				ifFalse: [self addToSelection:  aTargetMorph].

@@ -1,0 +1,3 @@
+isPartialMatch
+	
+	^ self complexContents isPartialMatch

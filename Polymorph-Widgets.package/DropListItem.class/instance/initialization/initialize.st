@@ -4,3 +4,4 @@ initialize
 
 	actionHolder := [] asValueHolder.
 	displayBlock := [ :e | e printString ].
+	icon := nil

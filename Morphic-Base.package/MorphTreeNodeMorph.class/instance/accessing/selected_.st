@@ -7,4 +7,4 @@ selected: aBoolean
 			ifNotNil: [container selectedMorphList remove: self]].
 	selected := aBoolean.
 
-	self model selected: aBoolean
+	self complexContents selected: aBoolean
