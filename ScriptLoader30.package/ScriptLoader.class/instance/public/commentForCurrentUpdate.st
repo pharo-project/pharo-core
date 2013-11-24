@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '12225 Enhancement in MorphTreeMorph
-	https://pharo.fogbugz.com/f/cases/12225
+ ^ '12227 Move System-Support deprecated methods to Deprecated30 package
+	https://pharo.fogbugz.com/f/cases/12227
 	
-12226 Minor additions
-	https://pharo.fogbugz.com/f/cases/12226
+12198 should remove TimeStamp Step2
+	https://pharo.fogbugz.com/f/cases/12198
 	
-12224 Move Kernel deprecated methods to Deprecated30 package
-	https://pharo.fogbugz.com/f/cases/12224
-	
-12228 Move Compiler deprecated methods to Deprecated30 package
-	https://pharo.fogbugz.com/f/cases/12228'
+12202 Exception Handling improvement to ignore some specific Exception
+	https://pharo.fogbugz.com/f/cases/12202'

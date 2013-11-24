@@ -1,7 +1,7 @@
 , anotherException
-	"Create an exception set."
+	"Create an exception set containing the receiver and anotherException"
 
-	^ExceptionSet new
+	^ ExceptionSet new
 		add: self;
 		add: anotherException;
 		yourself
