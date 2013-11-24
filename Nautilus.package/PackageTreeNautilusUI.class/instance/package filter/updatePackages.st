@@ -1,0 +1,3 @@
+updatePackages
+
+	list buildContents

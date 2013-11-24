@@ -11,8 +11,7 @@ addMorphsAfter: parentMorph fromCollection: aCollection
 			prior: priorMorph 
 			forList: self
 			indentLevel: parentMorph indentLevel + 1.
-		morphList add: priorMorph.
-		item selected ifTrue: [ priorMorph selected: true ] ].
+		morphList add: priorMorph ].
 	
 	"Set new child morphs index"
 	1 to: morphList size do: [:i | | m | (m := morphList at: i) index: i + parentMorph index].

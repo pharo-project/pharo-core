@@ -1,5 +1,5 @@
 NautilusUI subclass: #PackageTreeNautilusUI
-	instanceVariableNames: ''
+	instanceVariableNames: 'packagePattern'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Nautilus-Tree'

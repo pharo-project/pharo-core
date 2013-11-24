@@ -16,10 +16,12 @@ buildFirstColumn: aWindow
 		vResizing: #rigid;
 		height: 25.
 		
-	^PanelMorph new
+	^ firstColumn := PanelMorph new
 		changeProportionalLayout;
+		addMorph: self buildPackageSearch
+		fullFrame: ((0@0 corner: 1@0.1) "bottomOffset: -25");
 		addMorph: self buildList
-		fullFrame: ( LayoutFrame identity bottomOffset: -25);
+		fullFrame: ((0@0.1 corner: 1@1) asLayoutFrame bottomOffset: -25);
 		addMorph: buttons
 		fullFrame: ((0@1 corner: 1@1) asLayoutFrame topOffset: -25);
 		hResizing: #spaceFill;

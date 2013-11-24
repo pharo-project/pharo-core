@@ -2,7 +2,7 @@ toggleExpandedState
 
  	| toDelete |
 
-	isExpanded := isExpanded not.
+	self isExpanded: self isExpanded not.
 	toDelete := OrderedCollection new.
 	firstChild ifNotNil: [
 		firstChild withSiblingsDo: [ :aNode | aNode recursiveAddTo: toDelete].
