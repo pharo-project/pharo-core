@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '- Issue 12232 More enhancement in MorphTreeMorph
-	https://pharo.fogbugz.com/f/cases/12232/More-enhancement-in-MorphTreeMorph
+ ^ '12233 Move a class related method on class side in MCSaveVersionDialog
+	https://pharo.fogbugz.com/f/cases/12233
 	
-- Issue 12179 Nautilus - Add package filter input box
-	https://pharo.fogbugz.com/f/cases/12179 '
+12239 Move Network-Protocols deprecated methods to Deprecated30 package
+	https://pharo.fogbugz.com/f/cases/12239'
