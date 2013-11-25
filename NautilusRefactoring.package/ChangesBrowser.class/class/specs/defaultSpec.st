@@ -3,12 +3,17 @@ defaultSpec
 	
 	^ SpecLayout composed
 		newColumn: [:c |
-			c
-				add: #pickList;
+			c 
+				newColumn: [:c2 |
+					c2 
+						newRow: [ :r| 
+							r add: #scopeChooser ]
+						height: 25;
+						add: #pickList ];
 				addSplitter;
 				add: #textArea;
 				newRow: [:r |
 					r
 						add: #acceptButton;
 						add: #cancelButton]
-				height: 25 ]
+				height: self toolbarHeight ]

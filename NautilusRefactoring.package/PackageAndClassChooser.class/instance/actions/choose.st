@@ -1,0 +1,2 @@
+choose
+	^ self chooseModalTo: World

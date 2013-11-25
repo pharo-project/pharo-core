@@ -1,0 +1,1 @@
+This node uses an optimized match method. Instead of converting the wrapped item with #asString it directly calls a #name method for the match source. This avoids potential expensive string and stream operations on a big tree.

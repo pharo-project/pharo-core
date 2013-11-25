@@ -1,0 +1,2 @@
+searchPattern
+	^ searchPattern
