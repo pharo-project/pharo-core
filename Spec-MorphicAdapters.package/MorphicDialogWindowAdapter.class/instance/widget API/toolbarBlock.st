@@ -1,0 +1,3 @@
+toolbarBlock
+
+	^ [ self model toolbar ]

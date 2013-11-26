@@ -1,0 +1,3 @@
+showOnlyDestination
+
+	^ showOnlyDestination value

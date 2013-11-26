@@ -1,0 +1,3 @@
+showOnlyDestination
+
+	^ self model showOnlyDestination

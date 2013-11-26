@@ -1,0 +1,3 @@
+hasContentToShow
+
+	^ hasContentToShow value

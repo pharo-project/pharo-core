@@ -1,5 +1,6 @@
 inspect: anObject
 	| oldInspectorType |
 	oldInspectorType := self inspectorType.
-	self inspector: anObject inspector.
-	self inspectorType: oldInspectorType.
+	self 
+		inspector: (EyeInspector inspector: anObject);
+		inspectorType: oldInspectorType.

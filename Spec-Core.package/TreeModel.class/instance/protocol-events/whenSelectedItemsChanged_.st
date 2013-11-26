@@ -1,4 +1,4 @@
 whenSelectedItemsChanged: aBlock
 	"Set a block to perform when a new item is selected"
 
-	selectionHolder whenChangedDo: aBlock
+	selectionHolder whenChangedDo: [ :col | aBlock cull: (col collect: [:e | e content ]) ]

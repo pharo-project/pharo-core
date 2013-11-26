@@ -11,6 +11,7 @@ registerEvents
 		self changed: #columns: with: { col } ].
 	selectionHolder whenChangedDo: [:items | self changed: { #selectItems. items } ].
 	rootNodeHolder whenChangedDo: [ :aBlock | self updateTree ].
+	isCheckList whenChangedDo: [ :boolean | self changed: #isCheckList: with: { boolean }].
 	
 	self announcer weak
 		on: WidgetBuilt

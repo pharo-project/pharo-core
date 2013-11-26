@@ -1,0 +1,3 @@
+isExpanded
+
+	^ self nodeModel isExpanded

@@ -1,3 +1,3 @@
 expandRoots
 
-	self treeModel changed: #(rootNodes expandRoots)
+	self treeModel expandRoots

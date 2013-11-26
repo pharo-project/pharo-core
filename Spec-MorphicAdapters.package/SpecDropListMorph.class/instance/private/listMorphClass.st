@@ -1,0 +1,3 @@
+listMorphClass
+
+	^ PluggableIconListMorph

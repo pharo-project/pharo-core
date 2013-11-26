@@ -1,8 +1,9 @@
 defaultSpec
 	<spec>
 	
-	^ {#DropListMorph.
+	^ {#SpecDropListMorph.
 			#color:. Color white.
+			#wrapSelector:.					#wrap:withIndex:.
 	    		#on:list:selected:changeSelected:. 	#model. #getList. #getIndex. #setIndex:.
 			#hResizing:. 						#spaceFill.
 			#vResizing:. 						#spaceFill.

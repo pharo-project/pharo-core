@@ -1,3 +1,3 @@
 buttonWidth
 
-	^ 150
+	^ 76

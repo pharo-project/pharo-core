@@ -5,7 +5,7 @@ defaultSpec
 	    		#on:selected:changeSelected:. 	#model. #state. #state:.
 			#label:.								{	#model. #label		}.
 			#beCheckbox.
-			#hResizing:. 						#shrinkWrap.
+			#hResizing:. 						#spaceFill.
 			#vResizing:. 						#shrinkWrap.
 			#setBalloonText:.					{ #model . #help}.
 			#borderWidth:.						#(model borderWidth).

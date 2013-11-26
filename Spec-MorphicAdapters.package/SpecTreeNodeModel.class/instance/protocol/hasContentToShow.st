@@ -1,0 +1,3 @@
+hasContentToShow
+
+	^ self nodeModel hasContentToShow

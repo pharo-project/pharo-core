@@ -5,6 +5,7 @@ initializeBindings
 		at: #ButtonAdapter				put: #MorphicButtonAdapter;
 		at: #CheckBoxAdapter			put: #MorphicCheckBoxAdapter;
 		at: #ContainerAdapter			put: #MorphicContainerAdapter;
+		at: #DiffAdapter				put: #MorphicDiffAdapter;
 		at: #DropListAdapter			put: #MorphicDropListAdapter;
 		at: #LabelAdapter				put: #MorphicLabelAdapter;
 		at: #ListAdapter				put: #MorphicListAdapter;

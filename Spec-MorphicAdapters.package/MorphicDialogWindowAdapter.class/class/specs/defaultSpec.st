@@ -3,5 +3,5 @@ defaultSpec
 	
 	^ #( SpecDialogWindow 
 			specWidget: #(model contentMorph)
-			initialize
-			model: model )
+			setToolbarFrom: #(model toolbarBlock)
+			initialize)

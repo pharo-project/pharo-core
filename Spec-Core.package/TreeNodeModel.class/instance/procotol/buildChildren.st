@@ -1,5 +1,5 @@
 buildChildren
-	
+
 	contents := self children value collect: [ :each || node | 
 		node := each isTreeNodeModel
 			ifTrue: [ each ]
@@ -7,7 +7,6 @@ buildChildren
 				content: each  ].
 		node 
 			parentNode: self;
-			container: self container;
 			yourself ].
 		
 	^ contents

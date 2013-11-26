@@ -1,5 +1,5 @@
 newButtonRow
 
-	^ self toolbar buildWithSpec"
-		vResizing: #shrinkWrap;
-		yourself"
+	^ self toolbar 
+		ifNil: [ nil ]
+		ifNotNil: [ : t | t buildWithSpec ]

@@ -2,7 +2,7 @@ accept
 	<api: #do>
 	"Accep the current pendingtext"
 	
-	self widget ifNotNil: [:w | w accept ].
+	self changed: #accept with: #().
 	
 	"Dummy changed to raise an announcement"
 	actionPerformedHolder value: self text.

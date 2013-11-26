@@ -1,0 +1,3 @@
+showOptions
+
+	^ self model showOptions

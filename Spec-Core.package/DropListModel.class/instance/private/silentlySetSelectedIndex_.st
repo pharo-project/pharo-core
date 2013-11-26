@@ -4,4 +4,4 @@ silentlySetSelectedIndex: anIndex
 
 	selection := listHolder value at: anIndex ifAbsent: [ ^ self ].
 	selectionHolder index value: anIndex.
-	selectionHolder selection value: selection
+	selectionHolder selection value: selection.

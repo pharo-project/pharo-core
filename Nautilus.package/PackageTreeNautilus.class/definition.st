@@ -1,5 +1,5 @@
 Nautilus subclass: #PackageTreeNautilus
 	instanceVariableNames: ''
-	classVariableNames: ''
+	classVariableNames: 'ShowGroupsOnTop'
 	poolDictionaries: ''
 	category: 'Nautilus-Tree'

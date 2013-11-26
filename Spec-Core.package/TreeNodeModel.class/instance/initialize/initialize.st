@@ -9,3 +9,11 @@ initialize
 	matchTokenFilter := [ :aFilter | false ] asValueHolder.
 	parentNode := nil asValueHolder.
 	childNodeClass := self class asValueHolder.
+	selected := false asValueHolder.
+	lastClicked := false asValueHolder.
+	mouseDownAction := [:event | ] asValueHolder.
+	hasContentToShow := false asValueHolder.
+	isExpanded := false asValueHolder.
+	
+	selected whenChangedDo: [ :aBoolean | self changed: #selected: with: { aBoolean } ].
+	isExpanded whenChangedDo: [ :aBoolean | self changed: #isExpanded: with: { aBoolean } ].

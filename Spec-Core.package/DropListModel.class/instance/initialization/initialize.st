@@ -7,8 +7,11 @@ initialize
 	
 	listHolder whenChangedDo: [ 
 					self changed: #getList.
-					self internalResetSelection. ].
+					self changed: #getIconFor:.
+					self internalResetSelection.].
 				
 	selectionHolder whenChangedDo: [ self changed: #getIndex ].
-	displayBlock := [:item | item asString ] asValueHolder.
+	displayBlock := [ :model :item | item label ] asValueHolder.
+	iconHolder := [ :model :item | item icon ] asValueHolder.
+	
 	self whenSelectedItemChanged: [:item | item value ]

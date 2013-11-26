@@ -1,5 +1,5 @@
 childNodeFromItem: anItem
-	
+
 	^ (anItem
 		container: self model;
 		buildWithSpec)

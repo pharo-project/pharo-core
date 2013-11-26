@@ -1,0 +1,3 @@
+rightText
+
+	^ self model rightText

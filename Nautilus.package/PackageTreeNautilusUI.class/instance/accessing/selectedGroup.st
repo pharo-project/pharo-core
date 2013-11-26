@@ -1,0 +1,3 @@
+selectedGroup
+	
+	^ self selectedPackage
