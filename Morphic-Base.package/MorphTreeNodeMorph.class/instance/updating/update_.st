@@ -5,5 +5,8 @@ update: aSymbol
 		
 	aSymbol = #deselect
 		ifTrue: [ ^ self selected: false ].
+		
+	aSymbol = #takeHighlight
+		ifTrue: [ ^ self takeHighlight ].
 
 	super update: aSymbol

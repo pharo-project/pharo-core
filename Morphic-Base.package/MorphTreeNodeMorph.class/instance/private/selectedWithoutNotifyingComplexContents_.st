@@ -1,8 +1,7 @@
 selectedWithoutNotifyingComplexContents: aBoolean
-	selected = aBoolean
-		ifTrue: [^ self].
-	aBoolean
-		ifTrue: [container selectedMorphList add: self]
-		ifFalse: [selected 
-			ifNotNil: [container selectedMorphList remove: self]].
+	"Only called at creation"
+	
+	aBoolean ifFalse: [ ^ self ].
+	
+	container listManager silentlySetSelectedMorph: self.
 	selected := aBoolean.
