@@ -1,11 +1,7 @@
 commentForCurrentUpdate
- ^ '12248 Add Job class>>current to know the current (running) job
-	https://pharo.fogbugz.com/f/cases/12248
-	
-12238 ProtocolOrganizer allProtocols vs protocols are inconsistent
-	https://pharo.fogbugz.com/f/cases/12238
-	
-12246 package tree does not search packages by key pressing
-	https://pharo.fogbugz.com/f/cases/12246
+ ^ '10160 Give a nice way to duplicate classes for test purpose
+	https://pharo.fogbugz.com/f/cases/10160
 
+12256 ListDialogWindow>>chooseFromOwner is not well implemented
+	https://pharo.fogbugz.com/f/cases/12256
 '

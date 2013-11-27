@@ -1,3 +1,4 @@
 chooseFromOwner: aMorph
 
-	^ (aMorph openModal: self) answer
+	aMorph openModal: self.
+	^ self answer
