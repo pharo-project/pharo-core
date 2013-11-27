@@ -1,3 +1,3 @@
 protocols
 
-	^ protocols
+	^ protocols asArray

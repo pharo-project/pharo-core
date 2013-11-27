@@ -1,17 +1,23 @@
 keyStroke: anEvent
 	| char args |
+
 	char := anEvent keyValue asCharacter. 
 
 	(self arrowEvent: anEvent key: char)
-		ifTrue: [^true].
+		ifTrue: [ ^ true ].
 
+	char = Character cr
+		ifTrue: [ 
+			self selectSearchedElement. 
+			^ true ].
+		
 	anEvent anyModifierKeyPressed 
 		ifFalse: [
 			self basicKeyPressed: char.
-			^true].
+			^ true].
 
 	self keystrokeActionSelector 
-		ifNil: [^ false].
+		ifNil: [ ^ false].
 		
 	args := self keystrokeActionSelector numArgs.
 	(args = 0 or: [args > 2]) 

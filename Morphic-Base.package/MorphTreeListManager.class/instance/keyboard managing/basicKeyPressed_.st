@@ -1,9 +1,11 @@
 basicKeyPressed: aChar 
-
 	| nextSelection oldSelection milliSeconds slowKeyStroke nextSelectionNodeMorph |
-	(aChar == Character space and: [lastClickedMorph notNil])
+	
+	(aChar == Character space and: [ lastClickedMorph notNil ])
 		ifTrue: [
-			self selectMorph: lastClickedMorph multiple: (self isMultiple or: [self autoMultiSelection]).
+			self 
+				selectMorph: lastClickedMorph 
+				multiple: (self isMultiple or: [self autoMultiSelection]).
 			self selectionUpdateFromViewWhile: [ | selHolder | 
 				selHolder := self newSelectionHolderWithNodePath: lastClickedMorph complexContents path.
 				self listModel selection: selHolder]].
@@ -22,7 +24,7 @@ basicKeyPressed: aChar
 			lastKeystrokes := lastKeystrokes , aChar asLowercase asString.].
 	"Get rid of blanks and style used in some lists"
 	nextSelectionNodeMorph := self allNodeMorphs
-		detect: [:a | a complexContents item asString trimBoth asLowercase beginsWith: lastKeystrokes]
+		detect: [:a | a complexContents asString trimBoth asLowercase beginsWith: lastKeystrokes]
 		ifNone: [^ self ].
 	nextSelection := nextSelectionNodeMorph index.
 	"No change if model is locked"
