@@ -1,5 +1,5 @@
 initialize
 
-	super initialize.
 	textMorphClass := TextMorphForFieldView.
+	super initialize.
 	self beDecrypted

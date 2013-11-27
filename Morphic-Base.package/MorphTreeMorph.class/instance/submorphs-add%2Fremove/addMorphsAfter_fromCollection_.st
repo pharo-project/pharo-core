@@ -11,7 +11,15 @@ addMorphsAfter: parentMorph fromCollection: aCollection
 			prior: priorMorph 
 			forList: self
 			indentLevel: parentMorph indentLevel + 1.
-		morphList add: priorMorph ].
+		morphList add: priorMorph.
+		"Was this row expanded ? if true -> expand it
+			again " 
+			priorMorph isExpanded
+				ifTrue: [priorMorph isExpanded: true.
+					priorMorph
+						addChildrenForList: self
+						addingTo: morphList
+						withExpandedItems: #()] ].
 	
 	"Set new child morphs index"
 	1 to: morphList size do: [:i | | m | (m := morphList at: i) index: i + parentMorph index].

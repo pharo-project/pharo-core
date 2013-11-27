@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '12245 put back pragmas in #findSubstringViaPrimitive:...
-	https://pharo.fogbugz.com/f/cases/12245
+ ^ '12251 MorphTreeMorph improvment
+	https://pharo.fogbugz.com/f/cases/12251
 	
-12244 Enhancement again in MorphTreeNodeMorph
-	https://pharo.fogbugz.com/f/cases/12244'
+12250 Categorization in Polymorph
+	https://pharo.fogbugz.com/f/cases/12250
+	
+12247 New fix in Spec
+	https://pharo.fogbugz.com/f/cases/12247'

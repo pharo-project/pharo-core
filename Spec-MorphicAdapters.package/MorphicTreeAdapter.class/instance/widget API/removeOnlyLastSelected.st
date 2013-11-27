@@ -1,3 +1,0 @@
-removeOnlyLastSelected
-
-	^ self model removeOnlyLastSelected

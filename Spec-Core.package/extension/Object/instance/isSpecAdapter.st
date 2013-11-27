@@ -1,0 +1,3 @@
+isSpecAdapter
+
+	^ false

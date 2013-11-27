@@ -10,5 +10,4 @@ initWithContents: anObject prior: priorMorph forList: hostList indentLevel: newL
 	indentLevel := newLevel.
 	self setBalloonText: anObject helpText.
 	self initRow.
-	anObject selected ifTrue: [ self selectedWithoutNotifyingComplexContents: true ] 
-	
+	anObject selected ifTrue: [ self selectedWithoutNotifyingComplexContents: true ]

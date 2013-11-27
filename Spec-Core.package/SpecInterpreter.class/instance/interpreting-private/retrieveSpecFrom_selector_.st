@@ -4,9 +4,12 @@ retrieveSpecFrom: aPresenter selector: aSelector
 		ifTrue: [
 			spec := self model spec.
 			self model needRebuild: true.
-			spec isRedrawable
-				ifTrue: [ spec removeSubWidgets ]
-				ifFalse: [ ^ spec instance ] ]
+			((spec respondsTo: #isRedrawable) and: [ spec instance isSpecAdapter ])
+				ifFalse: [ spec := self computeSpecFrom: arrayToInterpret first selector: aSelector ]
+				ifTrue: [ 
+					spec isRedrawable
+						ifTrue: [ spec removeSubWidgets ]
+						ifFalse: [ ^ spec instance ] ] ]
 		ifFalse: [ spec := self computeSpecFrom: arrayToInterpret first selector: aSelector ].
 	
 	aSelector

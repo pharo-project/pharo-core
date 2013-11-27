@@ -1,0 +1,3 @@
+inputTextHeight
+
+	^ 26

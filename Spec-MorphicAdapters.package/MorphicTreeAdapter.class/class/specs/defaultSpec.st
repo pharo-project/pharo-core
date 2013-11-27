@@ -18,7 +18,7 @@ defaultSpec
 		#preferedPaneColor:. #(model preferedPaneColor).
 		#multiSelection:.	#(model multiSelection).
 		#autoMultiSelection:.	#(model autoMultiSelection).
-		#removeOnlyLastSelected:. #(model removeOnlyLastSelected).
+		#removeOnlyLastSelected:. #(model #selectOnlyLastHighlighted).
 		#isCheckList:. #(model isCheckList).
 		#doubleClickSelector:. #doubleClick.
 		#getMenuSelector:. #menu:shifted:.
