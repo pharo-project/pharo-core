@@ -1,3 +1,0 @@
-resetOrganizerToBenchmark
-
-	OrganizerToBenchmark := nil

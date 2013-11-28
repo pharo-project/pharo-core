@@ -1,0 +1,3 @@
+isEmpty
+
+	^ self package isEmpty

@@ -1,0 +1,3 @@
+newSlice
+
+	^ KomitNewSlice new

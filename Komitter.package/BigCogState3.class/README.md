@@ -1,0 +1,1 @@
+The last state of the loading animation

@@ -1,0 +1,3 @@
+getDefinitions
+
+	^ self content definitions

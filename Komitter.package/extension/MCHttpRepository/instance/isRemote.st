@@ -1,0 +1,2 @@
+isRemote
+	^ self isPrivatePharoRepository not

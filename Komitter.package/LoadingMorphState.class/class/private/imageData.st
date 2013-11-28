@@ -1,0 +1,3 @@
+imageData
+
+	^ self subclassResponsibility

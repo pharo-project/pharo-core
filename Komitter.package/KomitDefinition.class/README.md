@@ -1,0 +1,1 @@
+Iam a komit object representing a change in a class definition

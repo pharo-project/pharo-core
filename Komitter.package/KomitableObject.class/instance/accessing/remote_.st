@@ -1,0 +1,2 @@
+remote: anObject
+	remote := anObject

@@ -1,0 +1,3 @@
+commitMessage
+
+	^ commitMessage

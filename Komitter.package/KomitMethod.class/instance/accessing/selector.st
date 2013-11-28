@@ -1,0 +1,3 @@
+selector
+
+	^ self method selector

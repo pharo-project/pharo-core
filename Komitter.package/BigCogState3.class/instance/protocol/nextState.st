@@ -1,0 +1,3 @@
+nextState
+
+	^ BigCogInitialState new

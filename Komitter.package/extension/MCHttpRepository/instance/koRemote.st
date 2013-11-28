@@ -1,0 +1,3 @@
+koRemote
+
+	^ self subclassResponsibility

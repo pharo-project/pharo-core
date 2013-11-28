@@ -1,0 +1,3 @@
+stepTime
+
+	^ currentState stepTime

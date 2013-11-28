@@ -1,0 +1,2 @@
+unselectedEntities: anObject
+	unselectedEntities := anObject

@@ -1,0 +1,1 @@
+I am a new UI to help Pharo coder to save their code with a finer granularity that a whole package

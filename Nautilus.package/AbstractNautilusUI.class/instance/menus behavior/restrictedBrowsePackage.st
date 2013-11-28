@@ -2,5 +2,5 @@ restrictedBrowsePackage
 
 	self selectedPackages
 		ifEmpty: [ ^ self ]
-		ifNotEmpty: [:packages |
+		ifNotEmpty: [ :packages |
 			^ self restrictedBrowsePackages: packages ]

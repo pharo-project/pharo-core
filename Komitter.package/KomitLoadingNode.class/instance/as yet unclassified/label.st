@@ -1,0 +1,3 @@
+label
+
+	^ 'Loading...' asTextMorph italic 

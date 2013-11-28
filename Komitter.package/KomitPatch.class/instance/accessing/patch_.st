@@ -1,0 +1,2 @@
+patch: anObject
+	patch := anObject

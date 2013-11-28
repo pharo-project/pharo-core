@@ -1,0 +1,3 @@
+titleText
+
+	^ titleWidget text

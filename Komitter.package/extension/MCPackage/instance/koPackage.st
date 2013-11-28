@@ -1,0 +1,3 @@
+koPackage
+
+	^ KomitPackage package: self

@@ -1,0 +1,3 @@
+isMethodPatch
+
+	^ definition isMethodDefinition

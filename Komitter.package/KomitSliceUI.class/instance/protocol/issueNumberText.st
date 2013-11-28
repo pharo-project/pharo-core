@@ -1,0 +1,3 @@
+issueNumberText
+
+	^ issueNumber text

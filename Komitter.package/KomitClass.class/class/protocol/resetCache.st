@@ -1,0 +1,3 @@
+resetCache
+
+	classes removeAll

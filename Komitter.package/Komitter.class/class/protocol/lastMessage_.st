@@ -1,0 +1,3 @@
+lastMessage: aString
+
+	lastMessage := aString

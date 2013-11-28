@@ -1,0 +1,2 @@
+trackedClass: anObject
+	trackedClass := anObject

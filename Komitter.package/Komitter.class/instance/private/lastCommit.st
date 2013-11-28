@@ -1,0 +1,3 @@
+lastCommit
+
+	^ lastCommit value

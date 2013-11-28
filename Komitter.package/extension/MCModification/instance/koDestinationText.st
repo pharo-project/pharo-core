@@ -1,0 +1,3 @@
+koDestinationText
+
+	^ modification koDestinationText

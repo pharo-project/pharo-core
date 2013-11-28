@@ -1,0 +1,1 @@
+I am an abstract super class keeping track of the state of the object (added/modified/removed)

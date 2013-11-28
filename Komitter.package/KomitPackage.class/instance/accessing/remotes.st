@@ -1,0 +1,3 @@
+remotes
+
+	^ self package remotes

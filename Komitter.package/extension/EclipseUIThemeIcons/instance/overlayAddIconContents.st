@@ -1,0 +1,4 @@
+overlayAddIconContents
+	"Private - Method generated"
+	^ 'R0lGODlhCwAKAKIAAD8/X////19fXwAAAP///wAAAAAAAAAAACH5BAEAAAQALAAAAAALAAoA
+AAMkSLHMpALIGV4AQoQ8qsIa511N0FngJpxfprLXIMvAWDpPrj8JADs='

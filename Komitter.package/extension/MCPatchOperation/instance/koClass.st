@@ -1,0 +1,3 @@
+koClass
+
+	^ self subclassResponsibility

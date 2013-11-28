@@ -1,0 +1,1 @@
+Another state in the loading animation
