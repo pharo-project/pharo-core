@@ -1,2 +1,2 @@
 readStream
-	^ ReadStream on: bytes from: 1 to: size
+	^ ReadStream on: bytes asString from: 1 to: size

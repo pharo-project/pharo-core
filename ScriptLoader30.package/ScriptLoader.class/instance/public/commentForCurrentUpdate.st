@@ -1,10 +1,7 @@
 commentForCurrentUpdate
- ^ '12253 Move some class behavior on class side in MCSaveVersionXXX
-	https://pharo.fogbugz.com/f/cases/12253
+ ^ '12259 FileSystem memory reads/writes using a binary stream by default
+	https://pharo.fogbugz.com/f/cases/12259
 	
-12257 Add a way to hide the orange corner in Text
-	https://pharo.fogbugz.com/f/cases/12257
-	
-12258 Add Spec support for changes made in 12257
-	https://pharo.fogbugz.com/f/cases/12258
+12265 Copying class does not copy comment
+	https://pharo.fogbugz.com/f/cases/12265
 '
