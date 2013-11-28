@@ -1,6 +1,6 @@
 testDuplicateClassWithNewName
 	| createdClass allClasses |
-	createdClass := factory duplicateClass: TestCase withNewName: #MyTestClass.
+	createdClass := [ factory duplicateClass: TestCase withNewName: #MyTestClass ] on: Error do: [ #MyTestClass asClass ].
 	allClasses := SystemNavigation new allClasses.
 	self assert: (factory createdClasses allSatisfy: [:class| allClasses includes: class]).
 	factory cleanUp.	
