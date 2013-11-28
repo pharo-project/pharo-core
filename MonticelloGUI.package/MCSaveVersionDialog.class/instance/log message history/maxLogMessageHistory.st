@@ -1,2 +1,3 @@
 maxLogMessageHistory
-	^ 15
+
+	^ self maxLogMessageHistory

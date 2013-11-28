@@ -18,6 +18,9 @@ initialize
 	menuHolder := [ :menu :shifted | shifted
 			ifTrue: [ SmalltalkEditor shiftedYellowButtonMenu ]
 			ifFalse: [ SmalltalkEditor yellowButtonMenu ] ] asValueHolder.
+	autoAccept := false asValueHolder.
+	wantsVisualFeedback := true asValueHolder.
+	askBeforeDiscardingEdits := true asValueHolder.
 	
 	self registerEvents.
 	self registerEventsForShout

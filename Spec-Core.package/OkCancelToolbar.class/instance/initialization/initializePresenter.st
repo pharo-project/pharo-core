@@ -1,11 +1,4 @@
-initializePresenter 
+initializePresenter
 
 	super initializePresenter.
-	cancelButton 
-		action: [
-			cancelAction value value == false
-					ifFalse: [
-						cancelled value: true.
-						owner 
-							ifNil: [ self delete ]
-							ifNotNil: [ owner delete ]]].
+	cancelButton action: [ self performCancelAction ]
