@@ -1,0 +1,2 @@
+removable 
+	^ self item removable 
