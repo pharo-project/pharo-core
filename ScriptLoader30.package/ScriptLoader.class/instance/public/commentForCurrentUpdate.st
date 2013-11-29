@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '12266 EyeTreeInspector inspect element opens on TreeNodeModel
-	https://pharo.fogbugz.com/f/cases/12266
+ ^ '12276 Remove not needed ifNotNil: check in OCASTSemanticAnalyzer>>visitSequenceNode:
+	https://pharo.fogbugz.com/f/cases/12276
 	
-12185 Settings Browser does not show proper top-level help text
-	https://pharo.fogbugz.com/f/cases/12185
-	
-12282 scoped browsing broken with new PackageTree
-	https://pharo.fogbugz.com/f/cases/12282'
+12286 TreeInspector menus do not work
+	https://pharo.fogbugz.com/f/cases/12286'
