@@ -1,12 +1,7 @@
 commentForCurrentUpdate
- ^ '12269 Add support for easily centering a window
-	https://pharo.fogbugz.com/f/cases/12269
+ ^ '12271 Add keyboard focus on PreDebuggerWindow
+	https://pharo.fogbugz.com/f/cases/12271
 	
-12270 Remove unused TreeNode classes
-	https://pharo.fogbugz.com/f/cases/12270
-	
-12275 RxsCharSet>>isEnumerable must be using anySatisfy
-	https://pharo.fogbugz.com/f/cases/12275
-	
-12267 Nautilus Search Bar should not resize
-	https://pharo.fogbugz.com/f/cases/12267'
+12277 Cleanup some Network methods
+	https://pharo.fogbugz.com/f/cases/12277
+	'
