@@ -1,2 +1,2 @@
 setShortcuts
-	self pickList attachKeymapCategory: #ChangesBrowserGlobalShortcuts targetting: self
+	self changesTree attachKeymapCategory: #ChangesBrowserGlobalShortcuts targetting: self

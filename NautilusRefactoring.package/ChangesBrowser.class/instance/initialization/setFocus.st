@@ -1,7 +1,7 @@
 setFocus
 
 	self focusOrder
-		add: pickList;
+		add: changesTree;
 		add: textArea;
 		add: acceptButton;
 		add: cancelButton.

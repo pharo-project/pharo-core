@@ -11,5 +11,6 @@ silentlyNewSubclassOf: aClass instanceVariableNames: ivNamesString classVariable
 	].
 
 	self createdClasses add: newClass.
+	createdSilently add: newClass.
 	^newClass
 	

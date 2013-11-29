@@ -1,3 +1,3 @@
 pickedChanges
 
-	^ pickList selectedItems
+	^ changesTree selectedItems

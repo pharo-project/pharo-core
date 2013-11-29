@@ -1,14 +1,13 @@
 initializeWidgets
 
-	self instantiateModels:  #(
-		cancelButton 	ButtonModel
-		acceptButton 	ButtonModel
-		pickList 		PickListModel
-		textArea 		TextModel ).
-
+	cancelButton := self newButton.
+	acceptButton := self newButton.
+	changesTree := self newTree.
+	textArea := self newText.
+	
 	self initializeAcceptButton.
 	self initializeCancelButton.
-	self initializePickList.
+	self initializeChangesTree.
 	self initializeTextArea.
 	self setFocus.
 	self

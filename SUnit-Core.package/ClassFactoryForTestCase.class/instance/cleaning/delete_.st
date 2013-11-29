@@ -1,4 +1,7 @@
 delete: aBehavior
-	aBehavior isObsolete ifTrue: [^self].
+	aBehavior isObsolete
+		ifTrue: [ ^ self ].
 	aBehavior removeFromChanges.
-	aBehavior removeFromSystemUnlogged
+	(createdSilently includes: aBehavior)
+		ifTrue: [ aBehavior removeFromSystemUnlogged ]
+		ifFalse: [ aBehavior removeFromSystem ].

@@ -9,7 +9,7 @@ defaultSpec
 						newRow: [ :r| 
 							r add: #scopeChooser ]
 						height: 25;
-						add: #pickList ];
+						add: #changesTree ];
 				addSplitter;
 				add: #textArea;
 				newRow: [:r |

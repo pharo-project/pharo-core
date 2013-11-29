@@ -1,10 +1,7 @@
 testDuplicateClassWithNewName
-	| createdClass allClasses |
-	createdClass := [ factory duplicateClass: TestCase withNewName: #MyTestClass ] on: Error do: [ #MyTestClass asClass ].
-	allClasses := SystemNavigation new allClasses.
-	self assert: (factory createdClasses allSatisfy: [:class| allClasses includes: class]).
-	factory cleanUp.	
-	self assert: (factory createdClasses allSatisfy: [:class| class isObsolete]). 
-	allClasses := SystemNavigation new allClasses.
-	self assert: (factory createdClasses noneSatisfy: [:class| allClasses includes: class]).
+	| createdClass |
+	createdClass := factory duplicateClass: TestCase withNewName: #MyTestClass.
+	self assert: (factory createdClasses allSatisfy: [:class| self class environment includesKey: class name ]).
+	factory cleanUp.
+	self assert: (factory createdClasses allSatisfy: [:class| class isObsolete]).
 	self deny: (ChangeSet current changedClassNames includes: createdClass).

@@ -1,2 +1,5 @@
 newClass
-	^self newSubclassOf: self defaultSuperclass instanceVariableNames: '' classVariableNames: ''
+	^ self 
+		newSubclassOf: self defaultSuperclass
+		instanceVariableNames: ''
+		classVariableNames: ''

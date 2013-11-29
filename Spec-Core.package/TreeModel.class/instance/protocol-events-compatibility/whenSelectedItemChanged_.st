@@ -6,6 +6,6 @@ whenSelectedItemChanged: aBlock
 			ifNil: [ aBlock value: nil ]
 			ifNotNil: [ col isEmpty
 					ifTrue: [ aBlock value: nil ]
-					ifFalse: [ aBlock value: (col last nodeModel lastClicked
-						ifTrue: [ col last item ]
+					ifFalse: [ aBlock value: (col last lastClicked
+						ifTrue: [ col last content ]
 						ifFalse: [ nil ]) ] ] ]

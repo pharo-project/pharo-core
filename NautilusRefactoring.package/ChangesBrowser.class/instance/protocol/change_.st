@@ -1,3 +1,2 @@
 change: aCompositeChange
-
-	pickList items: (aCompositeChange whatToDisplayIn: self)
+	changesTree roots: (aCompositeChange whatToDisplayIn: self)

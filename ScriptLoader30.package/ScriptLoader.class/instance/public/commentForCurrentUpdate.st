@@ -1,9 +1,7 @@
 commentForCurrentUpdate
- ^ '12288 groups menu in PackageTree is broken
-	https://pharo.fogbugz.com/f/cases/12288
+ ^ '12274 ClassFactoryForTestCase do not clean properly created behaviors
+	https://pharo.fogbugz.com/f/cases/12274
 	
-12283 drag&drop with PackageTree is not working fine
-	https://pharo.fogbugz.com/f/cases/12283
-	
-12280 Nautilus treats should: messages as tests and tries to run them
-	https://pharo.fogbugz.com/f/cases/12280'
+12287 ChangesBrowser on refactoring does not well display diffs
+	https://pharo.fogbugz.com/f/cases/12287
+'
