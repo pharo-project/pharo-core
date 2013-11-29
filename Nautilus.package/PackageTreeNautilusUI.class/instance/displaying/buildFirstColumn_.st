@@ -8,24 +8,30 @@ buildFirstColumn: aWindow
 	buttons 
 		changeProportionalLayout;
 		addMorph: self buildGroupsButton 
-			fullFrame: ((0@0 corner: 0.5@0) asLayoutFrame 
-				bottomRightOffset: (-2)@25);
+			fullFrame: ((0@0 corner: 0.5@1) asLayoutFrame 
+				rightOffset: -2);
 		addMorph: self buildToggleButton
-			fullFrame: ((0.5@0 corner: 1@0) asLayoutFrame
-				topLeftOffset: 2@0;
-				bottomRightOffset: 0@25);
+			fullFrame: ((0.5@0 corner: 1@1) asLayoutFrame
+				topLeftOffset: 2@0);
 		hResizing: #spaceFill;
-		vResizing: #rigid;
-		height: 25.
+		vResizing: #spaceFill.
 		
 	^ PanelMorph new
 		changeProportionalLayout;
 		addMorph: self buildPackageSearch 
-			fullFrame: ((0@0 corner: 1@0.1) "bottomOffset: -25");
+			fullFrame: (LayoutFrame identity
+				bottomFraction: 0;
+				bottomOffset: 25;
+				leftOffset: -1;
+				rightOffset: 1);
 		addMorph: self buildList 
-			fullFrame: ((0@0.1 corner: 1@1) asLayoutFrame bottomOffset: -25);
+			fullFrame: (LayoutFrame identity
+				topOffset: 30;
+				bottomOffset: -30);
 		addMorph: buttons 
-			fullFrame: ((0@1 corner: 1@1) asLayoutFrame topOffset: -25);
+			fullFrame: ((0@1 corner: 1@1) asLayoutFrame 
+				topOffset: -25;
+				bottomOffset: -1);
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;
 		yourself.

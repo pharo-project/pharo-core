@@ -1,3 +1,0 @@
-matchTokenFilter: aFilter
-
-	^ false

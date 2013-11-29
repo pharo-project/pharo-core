@@ -18,7 +18,7 @@ buildSecondColumn: aWindow
 						changeProportionalLayout;
 						addMorph: self buildList2
 						fullFrame: (LayoutFrame identity
-										bottomOffset: -25);
+										bottomOffset: -29);
 						addMorph: buttons
 						fullFrame: ( (0@1 corner: 1@1 ) asLayoutFrame topOffset: -25);
 						hResizing: #spaceFill;

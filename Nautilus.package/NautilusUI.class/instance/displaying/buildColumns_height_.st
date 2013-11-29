@@ -1,6 +1,8 @@
 buildColumns: aWindow height: height
 	| delta |		
-	delta := StandardFonts defaultFont height + 10.
+			
+	delta := StandardFonts defaultFont height + 15.
+	
 	aWindow 
 		addMorph: (self buildFirstColumn: aWindow)
 		fullFrame: ((0 @ 0 corner: 0.25 @ 0.5) asLayoutFrame 
@@ -24,4 +26,4 @@ buildColumns: aWindow height: height
 	aWindow
 		addMorph: self buildNavigationList
 		fullFrame: ((0.5 @ 0.5 corner: 1 @ 0.5) asLayoutFrame
-						topOffset: delta negated ).
+						topOffset: delta negated).
