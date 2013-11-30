@@ -2,8 +2,8 @@ moveMethodsFrom: fromProtocolNamed to: toProtocolNamed
 
 	| fromProtocol toProtocol |
 	
-	fromProtocol := self getProtocolNamed: fromProtocolNamed.
-	toProtocol := self getProtocolNamed: toProtocolNamed.
+	fromProtocol := self protocolNamed: fromProtocolNamed.
+	toProtocol := self protocolNamed: toProtocolNamed.
 	
 	toProtocol addAllMethodsFrom: fromProtocol.
 	fromProtocol removeAllMethods.

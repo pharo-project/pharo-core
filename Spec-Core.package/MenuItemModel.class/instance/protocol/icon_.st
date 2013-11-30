@@ -1,3 +1,3 @@
-icon: aString
+icon: anIcon
 
-	icon value: aString
+	icon value: anIcon

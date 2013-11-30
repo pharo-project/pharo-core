@@ -9,4 +9,5 @@ initialize
 	name := '' asValueHolder.
 	shortcut := nil asValueHolder.
 	subMenu := nil asValueHolder.
-	autoRefresh := false asValueHolder
+	autoRefresh := false asValueHolder.
+	icon := nil asValueHolder

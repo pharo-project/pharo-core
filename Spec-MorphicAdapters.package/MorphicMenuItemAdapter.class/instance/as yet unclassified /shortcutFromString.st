@@ -1,0 +1,2 @@
+shortcutFromString
+	self shouldBeImplemented.

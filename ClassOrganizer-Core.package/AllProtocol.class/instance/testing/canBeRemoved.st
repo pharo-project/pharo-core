@@ -1,3 +1,2 @@
 canBeRemoved
-	
 	^ false

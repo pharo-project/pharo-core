@@ -1,5 +1,5 @@
 removeProtocolNamed: aName
 	| protocolToRemove |
 	
-	protocolToRemove := self getProtocolNamed: aName.
+	protocolToRemove := self protocolNamed: aName.
 	^ self removeProtocol: protocolToRemove
