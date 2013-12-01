@@ -1,15 +1,7 @@
 commentForCurrentUpdate
- ^ '12291 Improvement in menus
-	https://pharo.fogbugz.com/f/cases/12291
+ ^ '11873 when deleting a class, the packages that have extension in it are not dirty
+	https://pharo.fogbugz.com/f/cases/11873
 	
-11994 Remove MenuMorph inform:
-	https://pharo.fogbugz.com/f/cases/11994
-	
-12303 Rename category in TabModel to Deprecated30
-	https://pharo.fogbugz.com/f/cases/12303
-	
-12302 Move Compiler deprecated methods to Deprecated30 package again
-	https://pharo.fogbugz.com/f/cases/12302
-	
-11439 Renaming --all-- protocol should not be possible
-	https://pharo.fogbugz.com/f/cases/11439'
+12269 Add support for easily centering a window
+	https://pharo.fogbugz.com/f/cases/12269
+	'

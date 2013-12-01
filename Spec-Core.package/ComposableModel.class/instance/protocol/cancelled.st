@@ -1,5 +1,5 @@
 cancelled
 
-	^ window value
+	^ self window
 		ifNil: [ false ]
 		ifNotNil: [ :w | w cancelled ]
