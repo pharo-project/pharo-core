@@ -13,8 +13,8 @@ selection: aSelectionHolder
 		ifTrue: [
 			path first isSingle
 				ifTrue: [
-					method := path first item selector.
-					class := path first item methodClass ]
+					method := path first itemMethod selector.
+					class := path first itemMethod methodClass ]
 				ifFalse: [
 					methodNode := path first.
 					classNode := path at: 2 ifAbsent: [ nil ]]].

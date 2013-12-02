@@ -1,3 +1,3 @@
 displayString 
 
-	^ self item selector, ' (',self item methodClass name,')'
+	^ self itemMethod selector, ' (',self itemMethod methodClass name,')'

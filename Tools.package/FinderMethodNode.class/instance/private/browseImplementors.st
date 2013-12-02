@@ -1,8 +1,7 @@
 browseImplementors
 	
-	self item ifNotNil: [ :method | | selector |
-				selector := method selector.
+	self item ifNotNil: [ :selector |
 		 		SystemNavigation new 
 					browseImplementorsOf: selector 
-					name: 'Implementors of ', selector asString 
+					name: 'Implementors of ', selector
 					autoSelect: nil]
