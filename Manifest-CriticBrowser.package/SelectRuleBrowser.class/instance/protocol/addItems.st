@@ -1,5 +1,5 @@
 addItems
 	
 	toSelectModel selectedItem
-		ifNotNil: [ :item | selectRule addAll: item leaves ].
+		ifNotNil: [ :item | selectRule add: item content  ].
 	self updateTree   	  

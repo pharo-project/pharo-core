@@ -1,13 +1,8 @@
 ofPackageNamed: aPackageName
-	| mb manifestClass |
-	
-	mb := self new. 
-	manifestClass := self allManifestClasses 
-		detect: [:each | each category = aPackageName  ]
-		ifNone: [ nil ].
-		
-	manifestClass 
-		ifNil: [mb createManifestNamed: aPackageName	 ] 
-	 	ifNotNil:[ mb manifestClass: manifestClass]. 	
-
-	^ mb	
+	| builder |
+	builder := self new.
+	self allManifestClasses
+		detect: [ :each | each category = aPackageName ]
+		ifFound: [ :manifestClass | builder manifestClass: manifestClass ]
+		ifNone: [ builder createManifestNamed: aPackageName ].
+	^ builder

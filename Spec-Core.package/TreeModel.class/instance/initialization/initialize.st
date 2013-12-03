@@ -21,7 +21,7 @@ initialize
 	preferedPaneColor := Color white asValueHolder.
 	resizerWidth := 2 asValueHolder.
 	rowInset := 2 asValueHolder.
-	iconBlock := [ :each | each icon ] asValueHolder.
+	iconBlock := [ :each : node | node icon ] asValueHolder.
 	highlightedItem := nil asValueHolder.
 	rootNodeHolder := [ :item |
 		TreeNodeModel new 

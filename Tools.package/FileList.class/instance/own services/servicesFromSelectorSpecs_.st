@@ -3,17 +3,12 @@ servicesFromSelectorSpecs: symbolArray
 
 	"FileList new servicesFromSelectorSpecs: #(fileIn: fileIntoNewChangeSet: browseChangesFile:)"
 
-	| services col | 
-	col := OrderedCollection new.
-	services := self class allRegisteredServices.
-	symbolArray do: 
-		[:sel | | res | 
+	| registeredServices services |
+	services := OrderedCollection new.
+	registeredServices := self class allRegisteredServices.
+	symbolArray
+		do: [ :sel | 
 			sel == #-
-				ifTrue:
-					[col add: sel]
-				ifFalse:
-					[res := services
-							detect: [:each | each selector = sel] ifNone: [nil].
-					res notNil
-							ifTrue: [col add: res]]].
-	^ col
+				ifTrue: [ services add: sel ]
+				ifFalse: [ registeredServices detect: [ :each | each selector = sel ] ifFound: [ :service | services add: service ] ] ].
+	^ services

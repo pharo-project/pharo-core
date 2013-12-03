@@ -1,10 +1,8 @@
 removeEmptyUnclassifiedCategoryFrom: aClass
 	"Remove the 'as yet unclassified' category from the class if empty"
-	| unclassifiedProtocol protocolOrganizer |
 
+	| protocolOrganizer |
 	protocolOrganizer := aClass organization protocolOrganizer.
-	unclassifiedProtocol := protocolOrganizer protocols 
-		detect: [ :protocol | protocol name = Protocol unclassified ]
-		ifNone: [ ^ self ].
-	unclassifiedProtocol isEmpty 
-		ifTrue: [ protocolOrganizer removeProtocol: unclassifiedProtocol ]
+	protocolOrganizer protocols
+		detect: [ :protocol | protocol name = Protocol unclassified and: [ protocol isEmpty ] ]
+		ifFound: [ :unclassifiedProtocol | protocolOrganizer removeProtocol: unclassifiedProtocol ]

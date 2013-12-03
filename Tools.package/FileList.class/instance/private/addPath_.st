@@ -12,8 +12,7 @@ addPath: aString
 	RecentDirs removeAllSuchThat: [ :aDir | ((aDir, '*') match: full)].
 
 "If a sub-directory is in the list, do nothing."
-	(RecentDirs detect: [ :aDir | ((full, '*') match: aDir)] ifNone: [nil])
-		ifNotNil: [^self].
+	RecentDirs detect: [ :aDir | ((full, '*') match: aDir)] ifFound: [^self].
 
 	[RecentDirs size >= 10]
 		whileTrue: [RecentDirs removeFirst].
