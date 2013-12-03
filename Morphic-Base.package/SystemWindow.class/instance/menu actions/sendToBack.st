@@ -1,8 +1,8 @@
 sendToBack
-	| aWorld nextWindow |
+	| aWorld |
 	aWorld := self world.
-	nextWindow := aWorld submorphs 
-				detect: [:m | (m isSystemWindow) and: [m ~~ self]]
-				ifNone: [^self].
-	nextWindow activate.
-	aWorld addMorphBack: self
+	aWorld submorphs
+		detect: [ :m | m isSystemWindow and: [ m ~~ self ] ]
+		ifFound: [ :nextWindow | 
+			nextWindow activate.
+			aWorld addMorphBack: self ]

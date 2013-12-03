@@ -1,15 +1,15 @@
 commentForCurrentUpdate
- ^ '12289 Komitter has improper repositories assigned
-	https://pharo.fogbugz.com/f/cases/12289
+ ^ '12321 less senders of #methodDict
+	https://pharo.fogbugz.com/f/cases/12321
 	
-12311 Cleanup on some Tools related methods
-	https://pharo.fogbugz.com/f/cases/12311
+12328 TreeInspector DNU
+	https://pharo.fogbugz.com/f/cases/12328
 	
-12323 TreeModel example broken
-	https://pharo.fogbugz.com/f/cases/12323
+12314 Add a view to link/add new remotes
+	https://pharo.fogbugz.com/f/cases/12314
 	
-12285 Critics browser broken
-	https://pharo.fogbugz.com/f/cases/12285
+12325 HaloMorph >> #worldBoundsForMorph: calls deprecated outsetBy:
+	https://pharo.fogbugz.com/f/cases/12325
 	
-12313 Few enhancements in TreeModel and TreeNodeModel	
-	https://pharo.fogbugz.com/f/cases/12313'
+12312 Cleanup on some Morphic methods
+	https://pharo.fogbugz.com/f/cases/12312'

@@ -1,8 +1,8 @@
 makeSecondTopmost
-	| aWorld nextWindow |
+	| aWorld |
 	aWorld := self world.
-	nextWindow := aWorld submorphs 
-				detect: [:m | (m isSystemWindow) and: [m ~~ self]]
-				ifNone: [^self].
-	nextWindow activate.
-	aWorld addMorph: self behind: nextWindow
+	aWorld submorphs
+		detect: [ :m | m isSystemWindow and: [ m ~~ self ] ]
+		ifFound: [ :nextWindow | 
+			nextWindow activate.
+			aWorld addMorph: self behind: nextWindow ]

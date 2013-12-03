@@ -11,7 +11,7 @@ updateTasks
 	(newTasks isEmpty and: [deadTasks isEmpty])
 		ifTrue: [^self]. "no changes"
 	newTasks copy do: [:t |
-		(self orderedTasks detect: [:ot | ot morph = t morph] ifNone: []) ifNotNil: [:ot |
+		self orderedTasks detect: [:ot | ot morph = t morph] ifFound: [:ot |
 			self orderedTasks replaceAll: ot with: t.
 			deadTasks remove: ot.
 			newTasks remove: t]]. "replace in order any changed tasks."

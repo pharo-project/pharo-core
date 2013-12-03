@@ -6,5 +6,5 @@ worldBoundsForMorph: aMorph
 	r := (self haloEnclosesFullBounds)
 		ifFalse: [ aMorph boundsIn: nil ]
 		ifTrue: [ aMorph fullBoundsInWorld ].
-	self showBoundsInHalo ifTrue: [ ^r outsetBy: 2 ].
+	self showBoundsInHalo ifTrue: [ ^r expandBy: 2 ].
 	^r

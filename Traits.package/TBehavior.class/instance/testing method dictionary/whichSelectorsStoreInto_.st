@@ -3,6 +3,6 @@ whichSelectorsStoreInto: instVarName
 	instVarName, as a named instance variable."
 	| instVarIndex |
 	instVarIndex := self instVarIndexFor: instVarName ifAbsent: [^IdentitySet new].
-	^ self selectors select: [:sel | (self methodDict at: sel) writesField: instVarIndex]
+	^ self selectors select: [:sel | (self compiledMethodAt: sel) writesField: instVarIndex]
 
 	"Point whichSelectorsStoreInto: 'x'."

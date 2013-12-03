@@ -1,0 +1,2 @@
+isCache
+	^ false

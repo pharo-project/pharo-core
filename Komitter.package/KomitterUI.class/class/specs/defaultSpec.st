@@ -30,8 +30,9 @@ defaultSpec
 										newRow: [ :r1 |
 											r1 
 												add: #remoteLabel width: 50;
-												add: #remotes
-										] height: self buttonHeight + 4
+												add: #remotes;
+												add: #manageRemotes width: self buttonHeight
+										] height: self buttonHeight
 								] width: 250								
 						] height: (4*self buttonHeight + 12)
 				] ] bottom: 0.4;

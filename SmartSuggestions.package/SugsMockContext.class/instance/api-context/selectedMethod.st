@@ -1,6 +1,6 @@
 selectedMethod
 	^selectorToUse 
-		ifNotNil: [self selectedClass methodDict 
-					at: selectorToUse 
+		ifNotNil: [self selectedClass 
+					compiledMethodAt: selectorToUse 
 					ifAbsent: [self selectedClass class methodDict at: selectorToUse]]
  		ifNil:[nil].

@@ -1,3 +1,5 @@
 koRemote
 
-	^ self subclassResponsibility
+	^ KomitHttpRemote new
+		remote: self;
+		yourself

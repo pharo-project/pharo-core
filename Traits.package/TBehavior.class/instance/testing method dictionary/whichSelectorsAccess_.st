@@ -5,8 +5,8 @@ whichSelectorsAccess: instVarName
 	| instVarIndex |
 	instVarIndex := self instVarIndexFor: instVarName ifAbsent: [^IdentitySet new].
 	^ self selectors select:  [:sel | 
-		((self methodDict at: sel)
+		((self compiledMethodAt: sel)
 			readsField: instVarIndex)
-			or: [(self methodDict at: sel) writesField: instVarIndex]]
+			or: [(self compiledMethodAt: sel) writesField: instVarIndex]]
 
 	"Point whichSelectorsAccess: 'x'."

@@ -10,6 +10,7 @@ initializeWidgets
 	remoteLabel := self newLabel.
 	checkCommit := self newCheckBox.
 	previousMessages := self newButton.
+	manageRemotes := self newButton.
 	
 	tree 
 		removeOnlyLastSelected: true;
@@ -36,7 +37,7 @@ initializeWidgets
 		autoAccept: true.
 		
 	previousMessages
-		icon: self class historyIcon;
+		icon: self historyIcon;
 		action: [ self chooseFromPreviousMessages ];
 		bindKeyCombination: Character space asKeyCombination 
 		toAction: [ previousMessages action value ];
@@ -48,6 +49,10 @@ initializeWidgets
 		bindKeyCombination: Character tab shift
 		toAction: [ self giveFocusToPreviousFrom: message ];
 		wantsVisualFeedback: false.
+	
+	manageRemotes
+		icon: self manageRemotesIcon;
+		action: [ self openRemoteManager ].
 	
 	self whenBuiltDo: [ 
 		checkCommit labelOnLeft.

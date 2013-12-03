@@ -1,5 +1,3 @@
 methodNamed: aSelector ifAbsent: aBlock
 
-	^ self methodDict 
-		at: aSelector
-		ifAbsent: aBlock
+	^ self compiledMethodAt: aSelector ifAbsent: aBlock

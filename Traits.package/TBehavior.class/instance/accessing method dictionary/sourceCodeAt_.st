@@ -1,3 +1,3 @@
 sourceCodeAt: selector
 
-	^ (self methodDict at: selector) sourceCode.
+	^ (self compiledMethodAt: selector) sourceCode.
