@@ -15,4 +15,5 @@ open
 		cancelAction: [ 
 			self lastCommit: nil.
 			view cancel ];
+		centered;
 		modalRelativeTo: World.

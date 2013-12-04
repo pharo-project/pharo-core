@@ -1,6 +1,8 @@
 analogousCodeTo: aMethodProperties
 	| bs |
-	(bs := self basicSize) ~= aMethodProperties basicSize ifTrue:
+	self class == aMethodProperties class ifFalse:
+		[^false].
+	(bs := self basicSize) = aMethodProperties basicSize ifFalse:
 		[^false].
 	1 to: bs do:
 		[:i|

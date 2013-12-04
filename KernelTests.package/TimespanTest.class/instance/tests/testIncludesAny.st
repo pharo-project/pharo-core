@@ -1,4 +1,4 @@
-testIncludesAnyOf
+testIncludesAny
 	self deny: (aTimespan includesAnyOf: (Bag with: dec31)).
 	self assert: (aTimespan includesAnyOf: (Bag with: jan01 with: jan08))
 	"Error is due to bug in Timespan 

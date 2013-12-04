@@ -4,6 +4,7 @@ commitSlice: aSlice
 	slice := MCSliceInfo new.
 	view := KomitSliceUI new.
 	view openDialogWithSpec
+		centered;
 		modalRelativeTo: World.
 
 	view cancelled ifTrue: [ ^ self ].
