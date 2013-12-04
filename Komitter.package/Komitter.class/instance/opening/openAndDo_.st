@@ -1,4 +1,5 @@
-open
+openAndDo: aBlock
+	
 	self stagingArea packages
 		ifEmpty: [ ^ self inform: 'No changes to commit' ].
 
@@ -9,11 +10,10 @@ open
 	view openDialogWithSpec
 		okAction: [ | valid |
 			valid := view validate.
-			valid
-				ifTrue: [ self lastCommit: view komit ].
+			valid ifTrue: [ self lastCommit: view komit ].
+			aBlock value.
 			valid ];
 		cancelAction: [ 
 			self lastCommit: nil.
 			view cancel ];
-		centered;
-		modalRelativeTo: World.
+		centered

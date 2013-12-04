@@ -1,3 +1,3 @@
 stagingArea
 
-	^ stagingArea value
+	^ stagingArea value 

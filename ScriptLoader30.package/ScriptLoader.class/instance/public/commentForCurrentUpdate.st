@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '12272 Better algorithm for finding the inbox
-	https://pharo.fogbugz.com/f/cases/12272
+ ^ '- issue 12317: Better way to let the user handle missing class when loading code
+	https://pharo.fogbugz.com/f/cases/12317/Better-way-to-let-the-user-handle-missing-class-when-loading-code
+
+- issue 12335: Some fixes
+	https://pharo.fogbugz.com/f/cases/12335/Some-fixes
 	
-12334 Nautilus codepane hides first lines if pin is set
-	https://pharo.fogbugz.com/f/cases/12334
-	
-11423 Running unit tests that raise deprecation warnings makes them fail incomprehensibly
-	https://pharo.fogbugz.com/f/cases/11423'
+- issue 12336: Do not open Komitter modal
+	https://pharo.fogbugz.com/f/cases/12336/Do-not-open-Komitter-modal'

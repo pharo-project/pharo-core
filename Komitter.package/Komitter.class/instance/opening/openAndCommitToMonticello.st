@@ -1,4 +1,3 @@
 openAndCommitToMonticello
 
-	self open.
-	self lastCommit ifNotNil: [ self lastCommit commitToMonticello ]
+	self openAndDo: [ self lastCommit ifNotNil: [ self lastCommit commitToMonticello ]]

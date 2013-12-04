@@ -1,0 +1,3 @@
+superclassName: aString
+
+	superclassName := aString

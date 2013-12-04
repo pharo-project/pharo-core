@@ -7,6 +7,6 @@ initialize
 	entryCompletion := self defaultEntryCompletion asValueHolder.
 	isEncrypted := false asValueHolder.
 	
-	ghostText  whenChangedDo: [:txt | self widget ifNotNil: [:w | w ghostText: txt ]].
-	acceptOnCR whenChangedDo: [:bool | self widget ifNotNil: [:w | w acceptOnCR: bool ]].
-	isEncrypted whenChangedDo: [:bool | self widget ifNotNil: [:w | w encrypted: bool ]].
+	ghostText  whenChangedDo: [ :txt | self changed: #ghostText: with: { txt } ].
+	acceptOnCR whenChangedDo: [ :bool | self changed: #acceptOnCR: with: { bool } ].
+	isEncrypted whenChangedDo: [ :bool | self changed: #encrypted: with: { bool } ].

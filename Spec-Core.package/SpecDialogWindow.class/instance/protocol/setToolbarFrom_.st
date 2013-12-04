@@ -1,3 +1,7 @@
 setToolbarFrom: aBlock
-
-	self toolbar: aBlock value
+	| newToolbar |
+	
+	newToolbar := aBlock value.
+	
+	toolbar := newToolbar.
+	newToolbar owner: self
