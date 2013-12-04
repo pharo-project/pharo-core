@@ -2,4 +2,4 @@ Object subclass: #OldClassBuilderAdapter
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Slot-Transformation'
+	category: 'Slot-Compatibility'
