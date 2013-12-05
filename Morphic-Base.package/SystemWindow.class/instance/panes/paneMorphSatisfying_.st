@@ -1,2 +1,2 @@
 paneMorphSatisfying: aBlock
-	^ paneMorphs detect: [:aPane | aBlock value: aPane] ifNone: [nil]
+	^ paneMorphs detect: aBlock ifNone: [ nil ]
