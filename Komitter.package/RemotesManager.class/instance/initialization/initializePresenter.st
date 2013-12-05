@@ -1,4 +1,6 @@
 initializePresenter
 
 	packages whenSelectedItemChanged: [ :item |	self updateRemoteSelectionFrom: item ].
-	remotes whenHighlightedItemChanged: [ :item | removeRemote enabled: item notNil ]
+	remotes whenHighlightedItemChanged: [ :item | 
+		editRemote enabled: item notNil.
+		removeRemote enabled: item notNil ]

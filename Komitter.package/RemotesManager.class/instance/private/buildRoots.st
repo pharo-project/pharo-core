@@ -11,6 +11,7 @@ buildRoots
 			remote := each koRemote.
 			TreeNodeModel new
 				content: remote;
+				hasContentToShow: true;
 				selected: (repos includes: each);
 				whenSelectedChanged: [ :bool | self doIfNotSilent: [ self change: bool forRemote: remote ] ];
 				yourself ]

@@ -4,7 +4,7 @@ updateLayoutForSingleWithButtons
 	self 
 		addMorph: current
 		fullFrame: (LayoutFrame identity 
-						topOffset: -25).
+						bottomOffset: -25).
 					
 	self 
 		addMorph: buttonsContainer

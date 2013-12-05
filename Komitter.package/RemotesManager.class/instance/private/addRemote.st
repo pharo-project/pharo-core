@@ -1,5 +1,5 @@
-addRepository
+addRemote
 	
-	self newRepository ifNotNil: [ :repo | 
+	self newRemote ifNotNil: [ :repo | 
 		MCRepositoryGroup default addRepository: repo.
 		remotes roots: self buildRoots ]

@@ -1,7 +1,7 @@
-removeRepository
+removeRemote
 	| item |
 	
-	item := remotes selectedItem content.
+	item := remotes highlightedItem content.
 	MCRepositoryGroup default
 		removeRepository: item remote.
 		

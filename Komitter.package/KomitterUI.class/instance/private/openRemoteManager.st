@@ -3,6 +3,6 @@ openRemoteManager
 
 	view := RemotesManager new
 		packages: (MCWorkingCopy allManagers sorted: [:a :b | a packageName < b packageName ]).
-	view openWithSpec
+	view openDialogWithSpec
 		centered;
 		modalRelativeTo: self window

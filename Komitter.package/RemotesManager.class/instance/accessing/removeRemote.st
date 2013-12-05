@@ -1,2 +1,0 @@
-removeRemote
-	^ removeRemote

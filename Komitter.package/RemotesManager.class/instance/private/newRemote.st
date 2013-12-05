@@ -1,4 +1,4 @@
-newRepository
+newRemote
 	| types index |
 	
 	types := MCRepository allConcreteSubclasses asArray.

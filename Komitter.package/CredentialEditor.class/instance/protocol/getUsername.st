@@ -1,0 +1,3 @@
+getUsername
+	
+	^ username text

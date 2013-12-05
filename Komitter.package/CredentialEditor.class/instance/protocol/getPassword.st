@@ -1,0 +1,3 @@
+getPassword
+
+	^ password text

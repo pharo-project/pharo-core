@@ -1,6 +1,9 @@
 initializeLatelyPresenter
 	
-	tree whenHighlightedItemChanged: [ :item |
+	tree whenHighlightedItemChanged: [ :node || item |
+		item := node 
+			ifNil: [ nil ]
+			ifNotNil: [ node content ].
 		diff
 			leftText: (self leftTextFor: item);
 			rightText: (self rightTextFor: item).

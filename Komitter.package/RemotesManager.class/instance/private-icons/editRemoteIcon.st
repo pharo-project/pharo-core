@@ -1,0 +1,3 @@
+editRemoteIcon
+
+	^ self class editRemoteIcon
