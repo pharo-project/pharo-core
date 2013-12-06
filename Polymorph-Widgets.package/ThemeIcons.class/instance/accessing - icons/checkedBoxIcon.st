@@ -3,4 +3,8 @@ checkedBoxIcon
 	
 	^ icons
 			at: #checkedBox
-			ifAbsent: [ nil ]
+			ifAbsentPut: [ Form
+				extent: 12@12
+				depth: 32
+				fromArray: self checkedBoxIconContents 
+				offset: 0@0 ]

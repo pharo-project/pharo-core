@@ -1,2 +1,5 @@
 systemFontLabelOf: aSelector
-	^ (self systemFontAspectsAndLabels detect: [:assoc | assoc key = aSelector] ifNone: [^ '']) value
+	^ self systemFontAspectsAndLabels
+		detect: [ :assoc | assoc key = aSelector ]
+		ifFound: [ :assoc | assoc value ]
+		ifNone: [ '' ]

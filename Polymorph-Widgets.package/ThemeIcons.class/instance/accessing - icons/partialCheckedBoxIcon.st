@@ -3,4 +3,8 @@ partialCheckedBoxIcon
 	
 	^ icons
 			at: #partialCheckedBox
-			ifAbsent: [ nil ]
+			ifAbsentPut: [ Form
+				extent: 12@12
+				depth: 32
+				fromArray: self partialCheckedBoxIconContents 
+				offset: 0@0 ]

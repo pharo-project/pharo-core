@@ -13,7 +13,7 @@ drawOn: aCanvas
 		ifTrue: [self drawToggleOn: aCanvas in: self toggleRectangle]. 
 		
 	container listManager isCheckList
-		ifTrue: [self drawCheckOn: aCanvas in: self checkRectangle].
+		ifTrue: [self drawCheckOn: aCanvas ].
 	
 
 		

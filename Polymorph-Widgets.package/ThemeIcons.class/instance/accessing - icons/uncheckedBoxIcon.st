@@ -3,4 +3,8 @@ uncheckedBoxIcon
 	
 	^ icons
 			at: #uncheckedBox
-			ifAbsent: [ nil ]
+			ifAbsentPut: [ Form
+				extent: 12@12
+				depth: 32
+				fromArray: self uncheckedBoxIconContents 
+				offset: 0@0 ]
