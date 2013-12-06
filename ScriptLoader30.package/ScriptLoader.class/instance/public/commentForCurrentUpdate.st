@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '12252 Canceling Save As... triggers a MNU
-	https://pharo.fogbugz.com/f/cases/12252
+ ^ '12355 Adapters should inherit form Model
+	https://pharo.fogbugz.com/f/cases/12355
 	
-12353 MorphTreeMorph should allow to click on the checkbox
-	https://pharo.fogbugz.com/f/cases/12353
+12344 Cleanup on some Keymapping methods
+	https://pharo.fogbugz.com/f/cases/12344
 	
-7365 Either remove or run MCWorkingCopyBrowser>>checkForNewerVersions
-	https://pharo.fogbugz.com/f/cases/7365
-	
-12339 Cleanup on some Font methods
-	https://pharo.fogbugz.com/f/cases/12339'
+11817 MorphTreeMorph draws wrongly when it is outside the screen
+	https://pharo.fogbugz.com/f/cases/11817'

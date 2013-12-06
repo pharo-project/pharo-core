@@ -1,6 +1,6 @@
 drawRawColorOn: aCanvas forSubmorph: aSubMorph
 	| c frame |
-	frame := aSubMorph fullBounds withRight: owner right + owner scroller offset x.
+	frame := (aSubMorph fullBounds withWidth: owner scroller innerBounds width) translateBy:(owner scroller offset x)@0.
 	aSubMorph = owner listManager searchedElement
 		ifTrue: [ 
 			aCanvas fillRectangle: frame color: owner secondarySelectionColor.

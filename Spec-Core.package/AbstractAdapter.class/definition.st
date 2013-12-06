@@ -1,4 +1,4 @@
-Object subclass: #AbstractAdapter
+Model subclass: #AbstractAdapter
 	instanceVariableNames: 'model widget selector'
 	classVariableNames: ''
 	poolDictionaries: ''
