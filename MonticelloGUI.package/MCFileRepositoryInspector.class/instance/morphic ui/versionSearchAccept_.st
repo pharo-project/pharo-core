@@ -1,5 +1,9 @@
-versionSearchAccept: aString
-	aString isEmptyOrNil
-		ifTrue: [ versionPattern := nil ]
-		ifFalse: [ versionPattern := [ aString asRegexIgnoringCase ] on: RegexSyntaxError do: [ aString ]].
-	self changed: #versionList.
+versionSearchAccept: string
+	| aString |
+
+	aString := string ifNil: [ '' ].
+	versionPattern = aString asLowercase ifTrue: [ ^ self ].
+	versionPattern := aString asLowercase.
+
+	versionProcess ifNotNil: [ versionProcess terminate ].
+	versionProcess := [ self changed: #versionList ] fork.

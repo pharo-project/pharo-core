@@ -1,5 +1,9 @@
-packageSearchAccept: aString
-	aString isEmptyOrNil
-		ifTrue: [ packagePattern := nil ]
-		ifFalse: [ packagePattern := [ aString asRegexIgnoringCase ] on: RegexSyntaxError do: [ aString ]].
-	self changed: #packageList.
+packageSearchAccept: string
+	| aString |
+
+	aString := string ifNil: [ '' ].
+	packagePattern = aString asLowercase ifTrue: [ ^ self ].
+	packagePattern :=  aString asLowercase.
+
+	packageProcess ifNotNil: [ packageProcess terminate ].	
+	packageProcess := [ self changed: #packageList ] fork.

@@ -1,6 +1,9 @@
-workingCopySearchAccept: aString
-	aString isEmptyOrNil
-		ifTrue: [ workingCopyPattern := nil ]
-		ifFalse: [ 
-			workingCopyPattern := [ aString asRegexIgnoringCase ] on: RegexSyntaxError do: [ aString ] ].
-	self workingCopyListChanged.
+workingCopySearchAccept: string
+	| aString |
+
+	aString := string ifNil: [ '' ].
+	workingCopyPattern = aString asLowercase ifTrue: [ ^ self ].
+	workingCopyPattern := aString asLowercase.
+		
+	packageProcess ifNotNil: [ packageProcess terminate ].	
+	packageProcess := [ self workingCopyListChanged ] fork.

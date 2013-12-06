@@ -7,7 +7,7 @@ versionList
 	sortBlock ifNotNil: [
 		result := result asSortedCollection: [:a :b | [sortBlock value: a value: b] on: Error do: [true]]].
 	
-	versionPattern ifNotNil: [
-		result := result select: [ :package| versionPattern search: package name ]].
+	versionPattern ifNotEmpty: [
+		result := result select: [ :package| package fourth asLowercase includesSubstring: versionPattern ]].
 					
 	^ result collect: [ :each | self versionHighlight: each fourth ]

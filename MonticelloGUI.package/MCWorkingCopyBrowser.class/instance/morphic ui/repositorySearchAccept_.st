@@ -1,5 +1,9 @@
-repositorySearchAccept: aString
-	aString isEmptyOrNil
-		ifTrue: [ repositoryPattern := nil ]
-		ifFalse: [ repositoryPattern := [ aString asRegexIgnoringCase ] on: RegexSyntaxError do: [ aString ]].
-	self repositoryListChanged.
+repositorySearchAccept: string
+	| aString |
+
+	aString := string ifNil: [ '' ].
+	repositoryPattern = aString asLowercase ifTrue: [ ^ self ].
+	repositoryPattern := aString asLowercase.
+		
+	repositoryProcess ifNotNil: [ repositoryProcess terminate ].
+	repositoryProcess := [ self repositoryListChanged ] fork.
