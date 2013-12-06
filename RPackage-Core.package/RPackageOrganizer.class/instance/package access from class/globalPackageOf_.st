@@ -3,9 +3,8 @@ globalPackageOf: aClass
 
 	"RPackageOrganizer default globalPackageOf: Object"
 
-	| globalPackage classPackage |
+	| classPackage |
 	classPackage := self packageOf: aClass.
-	globalPackage := self packages
+	^ self packages
 		detect: [ :aRPackage | aRPackage ~= classPackage and: [ aRPackage systemCategories includes: classPackage name ] ]
-		ifNone: [ ^ classPackage ].
-	^ globalPackage
+		ifNone: [ classPackage ]

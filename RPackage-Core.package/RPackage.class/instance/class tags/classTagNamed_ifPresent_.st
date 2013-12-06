@@ -1,5 +1,2 @@
-classTagNamed: aSymbol ifPresent: aBlock 
-	^ (classTags 
-		detect: [ :each | each name = aSymbol ]
-		ifNone: [ nil ])
-		ifNotNil: [ :tag | aBlock cull: tag ]
+classTagNamed: aSymbol ifPresent: aBlock
+	^ classTags detect: [ :each | each name = aSymbol ] ifFound: [ :tag | aBlock cull: tag ] ifNone: [ nil ]

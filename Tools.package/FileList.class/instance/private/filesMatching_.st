@@ -4,6 +4,6 @@ filesMatching: aRegex
 	Each pattern can include a '*' or '#' as wildcards - see String>>match:"
 
 	| files |
-	files :=  self directory files.
+	files :=  [self directory files] on:DirectoryDoesNotExist do:[#()].
 	pattern ifNil: [ ^ files ].
 	^ files select: [:entry | (aRegex search: entry basename)]
