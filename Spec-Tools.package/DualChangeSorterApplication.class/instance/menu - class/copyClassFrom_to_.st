@@ -3,8 +3,8 @@ copyClassFrom: src to: dest
 
 	| otherChangeSet |
 	self checkThatSidesDiffer: [ ^ self ].
-	self okToChange ifFalse: [ ^ Beeper beep ].
-	src selectedClass ifNil: [ ^ Beeper beep ].
+	self okToChange ifFalse: [ ^ self inform: 'Can''t discard edits.' ].
+	src selectedClass ifNil: [ ^ self inform: 'Selected class is nil.' ].
 	otherChangeSet := dest selectedChangeSet.
 	
 	self model copyClass: src selectedClass from: src selectedChangeSet to: otherChangeSet.

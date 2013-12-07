@@ -5,7 +5,7 @@ findWindow: evt
 	expanded := self  windowsSatisfying: [:w | w isCollapsed not].
 	collapsed := self  windowsSatisfying: [:w | w isCollapsed].
 	nakedMorphs := self submorphsSatisfying:[:m | m isSystemWindow not].
-	(expanded isEmpty and: [collapsed isEmpty and: [nakedMorphs isEmpty]]) ifTrue: [^ Beeper beep].
+	(expanded isEmpty and: [collapsed isEmpty and: [nakedMorphs isEmpty]]) ifTrue: [^ self inform: 'No morph in world'].
 	(expanded asSortedCollection: [:w1 :w2 | w1 label caseInsensitiveLessOrEqual: w2 label]) do:
 		[:w | menu add: w label target: w action: #activateAndForceLabelToShow.
 			w model canDiscardEdits ifFalse: [menu lastItem color: Color red]].

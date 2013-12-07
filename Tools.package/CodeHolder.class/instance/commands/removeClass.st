@@ -3,7 +3,7 @@ removeClass
 
 	| message  className classToRemove result |
 	self okToChange ifFalse: [^ false].
-	classToRemove := self selectedClassOrMetaClass ifNil: [Beeper beep. ^ false].
+	classToRemove := self selectedClassOrMetaClass ifNil: [self inform: 'Selected class or metaclass is nil'. ^ false].
 	classToRemove := classToRemove theNonMetaClass.
 	className := classToRemove name.
 	message := 'Are you certain that you

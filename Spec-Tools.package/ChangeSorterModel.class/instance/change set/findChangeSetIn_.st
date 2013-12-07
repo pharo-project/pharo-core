@@ -8,7 +8,7 @@ findChangeSetIn: aCollectionOfChangeSets
 	candidates := aCollectionOfChangeSets select:
 			[:c | (nameList includes: c name) and: 
 				[c name includesSubstring: pattern caseSensitive: false]].
-	candidates size = 0 ifTrue: [ ^ Beeper beep ].
+	candidates size = 0 ifTrue: [ ^ self inform: 'No matching change sets.' ].
 	candidates size = 1 ifTrue: [ ^ candidates first ].
 	index := UIManager default chooseFrom: (candidates collect: [:each | each name]).
 	index = 0 ifFalse: [ ^ (candidates at: index) ].

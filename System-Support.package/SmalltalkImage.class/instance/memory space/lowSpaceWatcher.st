@@ -6,7 +6,7 @@ lowSpaceWatcher
 		ifTrue: [self garbageCollect <= self lowSpaceThreshold
 				ifTrue: ["free space must be above threshold before
 					starting low space watcher"
-					^ Beeper beep]].
+					^ self inform: 'Not enough memory to launch the lowSpaceWatcher.']].
 	self specialObjectsArray at: 23 put: nil.
 	"process causing low space will be saved here"
 	LowSpaceSemaphore := Semaphore new.

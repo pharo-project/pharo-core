@@ -1,7 +1,7 @@
 testAllCallsOnASymbol
 
 	| set cm |
-	set := Beeper allCallsOn: #beep.
-	cm := (set detect: [ :rgMethod | rgMethod selector == #play ]) compiledMethod.
-	self assert: (cm methodClass == Beeper).
-	self assert:  (cm literals includes: #beep)
+	set := Object allCallsOn: #shallowCopy.
+	cm := (set detect: [ :rgMethod | rgMethod selector == #copy ]) compiledMethod.
+	self assert: (cm methodClass == Object).
+	self assert:  (cm literals includes: #shallowCopy)

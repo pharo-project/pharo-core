@@ -6,7 +6,7 @@ rename: aChangeSet
 						initialAnswer: aChangeSet name.
 						
 	(newName = aChangeSet name or: [newName isEmptyOrNil]) ifTrue:
-			[ ^ Beeper beep ].
+			[ ^ UIManager default inform: 'Please give a new name' ].
 
 	(ChangeSet named: newName) ifNotNil:
 			[ ^ UIManager default inform: 'Sorry that name is already used' ].

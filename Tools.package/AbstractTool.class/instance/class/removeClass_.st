@@ -2,7 +2,8 @@ removeClass: aClass
 	"Remove the selected class from the system, at interactive user request.  Make certain the user really wants to do this, since it is not reversible.  Answer true if removal actually happened."
 
 	| message  className classToRemove result |
-	classToRemove := aClass ifNil: [Beeper beep. ^ false].
+	"This should probably be an assertion, but since this is a tool, we give user feedback."
+	classToRemove := aClass ifNil: [self inform: 'Argument to #removeClass: is nil'. ^ false].
 	classToRemove := classToRemove theNonMetaClass.
 	className := classToRemove name.
 	message := 'Are you certain that you

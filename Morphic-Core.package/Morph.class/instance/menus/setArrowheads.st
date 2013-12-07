@@ -7,4 +7,4 @@ setArrowheads
 	result ifNotNil:
 			[self renderedMorph  setProperty: #arrowSpec toValue: result]
 		ifNil:
-			[Beeper beep]
+			[ self inform: 'Invalid input']

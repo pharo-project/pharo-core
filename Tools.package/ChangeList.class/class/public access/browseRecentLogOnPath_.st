@@ -5,5 +5,5 @@ browseRecentLogOnPath: fullName
 		ifNotNil:
 			[self browseRecentLogOn: (FileStream readOnlyFileNamed: fullName)]
 		ifNil:
-			[Beeper beep]
+			[self inform: 'Missing file name' ]
 	

@@ -3,7 +3,7 @@ grabScreenAndSaveOnDisk
 	| form fileName |
 	
 	form := Form fromUser.
-	form bits size = 0 ifTrue: [ ^ Beeper beep ].
+	form bits size = 0 ifTrue: [ ^ self inform: 'Empty region selected.' ].
 	
 	fileName := (FileSystem disk workingDirectory / 'Pharo', 'gif') fullName.
 		

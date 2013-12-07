@@ -6,7 +6,7 @@ acceptDroppingMorph: dropped event: evt
 	self addMorphFront: aMorph.
 	(aMorph fullBounds intersects: self viewBox)
 		ifFalse: [ 
-			Beeper beep.
+			self inform: 'Dropped morph not in bounds'.
 			aMorph position: self bounds center ].
 	aMorph
 		submorphsDo: [ :m | 

@@ -6,7 +6,7 @@ recent
 	| className class recentList |
 	recentList := RecentClasses select: [ :n | Smalltalk globals includesKey: n ].
 	recentList size = 0
-		ifTrue: [ ^ Beeper beep ].
+		ifTrue: [ ^ self inform: 'No recent classes found' ].
 	className := UIManager default chooseFrom: recentList values: recentList.
 	className isNil
 		ifTrue: [ ^ self ].

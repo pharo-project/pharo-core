@@ -1,9 +1,3 @@
 commentForCurrentUpdate
- ^ '12364 Cherry pick does not work for slices
-	https://pharo.fogbugz.com/f/cases/12364
-	
-12365 Critics browser menu not working
-	https://pharo.fogbugz.com/f/cases/12365
-	
-12338 Cleanup on some Monticello related methods
-	https://pharo.fogbugz.com/f/cases/12338'
+ ^ '11986 Replace all Beeper beep by self inform: a nice explanation
+	https://pharo.fogbugz.com/f/cases/11986'

@@ -3,10 +3,11 @@ browseClassVarRefs: aClass
 	that refer to the selected class variable"
 	| lines labelStream allVars index owningClasses |
 	
+	"This method should be split into two -- one part that can be tested, and a wrapper that does the UI stuff."
 	lines := OrderedCollection new.
 	allVars := OrderedCollection new.
 	owningClasses := OrderedCollection new.
-	labelStream := (String new: 200) writeStream.
+	labelStream := (String new: 200) writeStream. "Why the heck is a writeStream needed?"
 	aClass withAllSuperclasses reverseDo:
 		[:class | | vars |
 		vars := class classVarNames.
@@ -16,7 +17,7 @@ browseClassVarRefs: aClass
 			allVars add: var.
 			owningClasses add: class].
 		vars isEmpty ifFalse: [lines add: allVars size]].
-	labelStream contents isEmpty ifTrue: [^Beeper beep]. "handle nil superclass better"
+	labelStream contents isEmpty ifTrue: [^self inform: 'No class variables found']. "handle nil superclass better"
 	labelStream skip: -1 "cut last CR".
 	index := (UIManager default chooseFrom: (labelStream contents substrings) lines: lines).
 	index = 0 ifTrue: [^ self].

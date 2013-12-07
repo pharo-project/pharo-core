@@ -1,5 +1,5 @@
 okHit
 	ok := true.
 	self directory
-		ifNil: [Beeper beep]
+		ifNil: [self inform: 'Missing directory']
 		ifNotNil: [modalView delete]

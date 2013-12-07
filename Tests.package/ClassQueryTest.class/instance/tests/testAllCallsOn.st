@@ -1,8 +1,5 @@
 testAllCallsOn
-
-	| set |
-	set := Beeper allCallsOn.
-	self assert: (set allSatisfy: [ :cm | (cm compiledMethod literals
-									select: [ :l | l isKindOf: Association ]
-									thenCollect: #value)
-										 includes: Beeper])
+	| calls |
+	calls := ClassQueryTest allCallsOn.
+	self assert: calls size equals: 1.
+	self assert: calls first compiledMethod equals: ClassQueryTest>>#testAllCallsOn
