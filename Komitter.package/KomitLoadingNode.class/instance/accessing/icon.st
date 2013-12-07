@@ -1,3 +1,0 @@
-icon
-
-	^ LoadingMorph new

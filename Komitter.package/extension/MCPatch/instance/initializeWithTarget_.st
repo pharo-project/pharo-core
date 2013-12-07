@@ -4,4 +4,4 @@ initializeWithTarget: targetSnapshot
 	operations := OrderedCollection new.
 	target := MCDefinitionIndex definitions: targetSnapshot definitions.
 	
-	target definitions do: [ :definition | operations add: (MCAddition of: definition) ].
+	operations := (target definitions collect: [ :definition | MCAddition of: definition ] asOrderedCollection).

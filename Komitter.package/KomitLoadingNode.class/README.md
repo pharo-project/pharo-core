@@ -1,1 +1,0 @@
-I am a special node diaplyed when the retreiving of information is going on

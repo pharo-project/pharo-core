@@ -37,4 +37,5 @@ defaultSpec
 						] height: (4*self buttonHeight + 12)
 				] ] bottom: 0.4;
 		addHSplitter;
-		newRow: [ :row | row add: #diff ] top: 0.6
+		newRow: [ :row | row add: #diff ] top: 0.6;
+		yourself

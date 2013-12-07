@@ -1,0 +1,3 @@
+hash
+
+	^ self content hash

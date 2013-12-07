@@ -1,5 +1,5 @@
 commitSlice: aSlice
-	| versions slice view workingCopy version |
+	| versions slice view workingCopy version packages name |
 
 	slice := MCSliceInfo new.
 	view := KomitSliceUI new.
@@ -13,11 +13,23 @@ commitSlice: aSlice
 	slice issueSummary: view titleText.
 	
 	versions := self createVersionFor: aSlice.
-	slice includedPackages: versions.
-		
-	workingCopy := slice makeSlice.
+	
+	KomitterManager current reset.
+	
+	packages := versions collect: [ :each | 
+		KomitterManager current 
+			storeVersion: each
+			for: each package.
+		each package ].
+	
+	slice includedPackages: packages.
+	workingCopy := slice makeKomitSlice.
+	
+	name := workingCopy silentUniqueVersionNameIn: aSlice remote remote.
+	
 	version := workingCopy 
-		newVersionWithMessage: aSlice message
+		silentlyNewSliceVersionWithName: name 
+		message: aSlice message 
 		in: aSlice remote remote.
 		
 	Cursor wait showWhile: [

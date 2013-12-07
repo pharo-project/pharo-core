@@ -1,3 +1,0 @@
-stagingArea
-
-	^ KomitStagingArea forDirtyPackages

@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '12315 Menu World/System/Switch User raises Error and MNU
-	https://pharo.fogbugz.com/f/cases/12315
+ ^ '12364 Cherry pick does not work for slices
+	https://pharo.fogbugz.com/f/cases/12364
 	
-12361 Bug in MorphTreeMorph if click is made on no item
-	https://pharo.fogbugz.com/f/cases/12361
+12365 Critics browser menu not working
+	https://pharo.fogbugz.com/f/cases/12365
 	
-12345 Cleanup on more Opal methods
-	https://pharo.fogbugz.com/f/cases/12345'
+12338 Cleanup on some Monticello related methods
+	https://pharo.fogbugz.com/f/cases/12338'

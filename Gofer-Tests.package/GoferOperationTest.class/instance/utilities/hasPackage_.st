@@ -1,6 +1,2 @@
 hasPackage: aString
-	| package |
-	package := self allManagers
-		detect: [ :each | each packageName = aString ]
-		ifNone: [ nil ].
-	^ package notNil
+	^ self allManagers anySatisfy: [ :package | package packageName = aString ]

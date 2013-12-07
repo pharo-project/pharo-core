@@ -10,7 +10,7 @@ initializeLatelyPresenter
 		(item isNil or: [ item added ])
 			ifTrue: [ diff showOnlyDestination: true ]
 			ifFalse: [
-		( item removed or: [ item isPackage or: [ (item isClass and: [ item isDirty not ]) ] ] )
+		( item removed or: [ item isPackage or: [ (item isKomitClass and: [ item isDirty not ]) ] ] )
 			ifTrue: [ diff showOnlySource: true ]
 			ifFalse: [ diff showBoth ] ] ].
 	

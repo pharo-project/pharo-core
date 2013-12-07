@@ -1,0 +1,3 @@
+new
+
+	^ self shouldNotImplement

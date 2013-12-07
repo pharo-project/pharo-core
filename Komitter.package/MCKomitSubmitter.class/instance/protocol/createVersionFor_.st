@@ -7,7 +7,7 @@ createVersionFor: aKomitableObject
 		collect: [ :each | 
 			| workingCopy name version patcher |
 			workingCopy := each package workingCopy.
-			name := workingCopy uniqueVersionNameIn: aKomitableObject repository.
+			name := workingCopy silentUniqueVersionNameIn: aKomitableObject repository.
 			version := workingCopy silentlyNewVersionWithName: name message: aKomitableObject message in: aKomitableObject repository.
 			workingCopy modified: each isFullyCommited not.
 			patcher := MCPatcher snapshot: each patch base.
