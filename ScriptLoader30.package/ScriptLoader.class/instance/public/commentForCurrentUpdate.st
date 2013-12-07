@@ -1,15 +1,9 @@
 commentForCurrentUpdate
- ^ '12308 GroupManager looks useless
-	https://pharo.fogbugz.com/f/cases/12308
+ ^ '12315 Menu World/System/Switch User raises Error and MNU
+	https://pharo.fogbugz.com/f/cases/12315
 	
-12348 Cleanup on some Fuel methods
-	https://pharo.fogbugz.com/f/cases/12348
+12361 Bug in MorphTreeMorph if click is made on no item
+	https://pharo.fogbugz.com/f/cases/12361
 	
-12362 Restrict the RemotesManager to the dirty packages
-	https://pharo.fogbugz.com/f/cases/12362
-	
-12360 Add missing protocol to SearchableTree
-	https://pharo.fogbugz.com/f/cases/12360
-	
-12359 Add missing protocol to OkToolbar
-	https://pharo.fogbugz.com/f/cases/12359'
+12345 Cleanup on more Opal methods
+	https://pharo.fogbugz.com/f/cases/12345'

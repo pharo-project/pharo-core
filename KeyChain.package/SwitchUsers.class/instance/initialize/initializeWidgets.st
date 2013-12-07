@@ -8,6 +8,9 @@ initializeWidgets
 	
 	self initializeButtons.
 	
+	users 
+		displayBlock: [ :e | e label ].
+	
 	self initializeContainer.
 	self focusOrder 
 		add: users;
