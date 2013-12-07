@@ -52,7 +52,8 @@ initializeWidgets
 	
 	manageRemotes
 		icon: self manageRemotesIcon;
-		action: [ self openRemoteManager ].
+		action: [ self openRemoteManager ];
+		help: 'Open the remotes manager'.
 	
 	self whenBuiltDo: [ 
 		checkCommit labelOnLeft.

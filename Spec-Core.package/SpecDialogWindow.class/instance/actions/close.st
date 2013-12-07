@@ -1,4 +1,4 @@
 close
 
 	super close.
-	self toolbar cancelled: true.
+	self toolbar cancel
