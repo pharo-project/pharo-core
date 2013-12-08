@@ -2,7 +2,7 @@ evaluate: string
 	| output |
 	output := String streamContents: [ :out | 
 		[ 	| result |
-			result := Compiler evaluate: string. 
+			result := self class compiler evaluate: string. 
 			out print: result; cr ]
 			on: Error, ParserNotification
 			do: [ :exception |

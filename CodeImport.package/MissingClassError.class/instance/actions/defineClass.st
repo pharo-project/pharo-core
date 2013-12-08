@@ -1,6 +1,6 @@
 defineClass
 
-	Compiler evaluate: 
+	Smalltalk compiler evaluate: 
 		self superclassName,  ' subclass: #', className, 
 	' instanceVariableNames: ''''
 	classVariableNames: ''''

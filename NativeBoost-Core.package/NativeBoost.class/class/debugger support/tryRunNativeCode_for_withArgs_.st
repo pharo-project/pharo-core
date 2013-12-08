@@ -18,7 +18,7 @@ tryRunNativeCode: aCompiledMethod for: aReceiver withArgs: arguments
 		nextPutAll: ' ^ ContextPart primitiveFailTokenFor: errorCode'.
 	].
 
-	m := Compiler new 
+	m := Smalltalk compiler new 
 		source: src;
 		class: aCompiledMethod methodClass;
 		compiledMethodTrailer: aCompiledMethod trailer;

@@ -1,2 +1,2 @@
 compilerClass
-	^CompilerClass ifNil: [CompilerClass := Compiler].
+	^CompilerClass ifNil: [CompilerClass := OpalCompiler].
