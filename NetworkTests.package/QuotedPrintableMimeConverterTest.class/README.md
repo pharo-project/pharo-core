@@ -1,0 +1,1 @@
+A QuotedPrintableMimeConverterTest is xxxxxxxxx.Instance Variables	coder:		<Object>coder	- xxxxx

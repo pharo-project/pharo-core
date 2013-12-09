@@ -1,5 +1,5 @@
 MimeConverter subclass: #QuotedPrintableMimeConverter
-	instanceVariableNames: ''
+	instanceVariableNames: 'newline'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Network-MIME'
