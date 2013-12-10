@@ -2,7 +2,7 @@ defaultSpec
 	<spec>
 	^ {#PluggableButtonMorph.
 			#color:. Color white.
-	    		#on:getState:action:label:menu:. 	#model. #state. #action. #label. #nil.
+	    		#on:getState:action:label:menu:. 	#model. #state. #action. #label. nil.
 			#getEnabledSelector:. 				#enabled.
 			#hResizing:. 						#spaceFill.
 			#vResizing:. 						#spaceFill.

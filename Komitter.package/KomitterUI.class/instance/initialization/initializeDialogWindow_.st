@@ -1,7 +1,6 @@
 initializeDialogWindow: aWindow
 
-	self removeKeyCombination: $m control.
-	self bindKeyCombination: $m control toAction: [ aWindow triggerOkAction ].
+	self bindKeyCombination: (Character cr control unix | $m control mac) toAction: [ aWindow triggerOkAction ].
 
 	aWindow toolbar okButton enabled: canCommit value.
 

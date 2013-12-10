@@ -1,5 +1,5 @@
 KomitObject subclass: #KomitPackage
-	instanceVariableNames: 'fork package patch semaphore classes semaphoreValid isFullyCommited'
+	instanceVariableNames: 'package classes isFullyCommited dataRetriever'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Komitter-Models'
