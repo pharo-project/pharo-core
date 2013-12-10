@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '12376 Finder raises an error when right clicking on the main panel
-	https://pharo.fogbugz.com/f/cases/12376
+ ^ '12368 Dive Into option from Inpector context menu fails
+	https://pharo.fogbugz.com/f/cases/12368
 	
-12380 The logic to retrieve the patch of KomitPackage should be extracted
-	https://pharo.fogbugz.com/f/cases/12380
+12379 Shape is missing a comment
+	https://pharo.fogbugz.com/f/cases/12379
 	
-12378 On Unix, the shortcut to validate the Komitter window is not working
-	https://pharo.fogbugz.com/f/cases/12378
-	
-12375 PluggableButtonMorph error on getMenuSelector
-	https://pharo.fogbugz.com/f/cases/12375'
+12324 There should be no class side implementations of #packages except for ClassDescription
+	https://pharo.fogbugz.com/f/cases/12324'

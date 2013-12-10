@@ -3,8 +3,8 @@ customMenuActions
 		currentGroup addItem: [ :item |
 			item
 				name: 'Dive Into' translated;
-				action: [ self dive ];
-				shortcut: $d command mac | $d ctrl ].
+				action: [ self diveIntoSelectedObject  ];
+				shortcut: $d command mac | $d alt win | $d alt unix].
 	
 		(history hasPrevious or: [ history hasNext ])
 			ifTrue: [ 
@@ -21,4 +21,4 @@ customMenuActions
 							item
 								name: 'Forward' translated;
 								action: [ self inspectNext ];
-								shortcut: $] command mac | $] ctrl ] ] ] ] ]
+								shortcut: $] command mac | $] ctrl  ] ] ] ] ]

@@ -1,2 +1,2 @@
-packages
+helpPackages
 	^ #('ProfStef-Core')
