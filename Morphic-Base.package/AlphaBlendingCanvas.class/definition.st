@@ -2,4 +2,4 @@ ColorMappingCanvas subclass: #AlphaBlendingCanvas
 	instanceVariableNames: 'alpha'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Morphic-Base-Support'
+	category: 'Morphic-Base-Canvas'

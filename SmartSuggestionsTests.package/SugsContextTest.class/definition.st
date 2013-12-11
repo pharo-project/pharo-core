@@ -1,5 +1,5 @@
-PluggableCanvas subclass: #NullCanvas
+TestCase subclass: #SugsContextTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Morphic-Base-Canvas'
+	category: 'SmartSuggestionsTests'

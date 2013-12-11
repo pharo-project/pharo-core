@@ -1,5 +1,5 @@
-PluggableCanvas subclass: #NullCanvas
+TestCase subclass: #TestRPackagePrequisites
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Morphic-Base-Canvas'
+	category: 'RPackage-Tests'
