@@ -1,2 +1,2 @@
 environmentButtonLabel
-	^ 'Choose Packages'
+	^ 'Packages...'

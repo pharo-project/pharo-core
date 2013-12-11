@@ -1,0 +1,2 @@
+enabledBlock
+	^ self spec enabledBlock

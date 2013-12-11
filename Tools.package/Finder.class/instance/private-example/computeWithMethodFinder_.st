@@ -20,7 +20,7 @@ computeWithMethodFinder: aString
 				streamContents: [ :strm | 
 					node isMessage
 						ifTrue: [ strm nextPut: $( ].
-					node formattedCode printOn: strm.
+					strm << node formattedCode.
 					node isMessage
 						ifTrue: [ strm nextPut: $) ] ] ].
 	dataObjects size < 2
