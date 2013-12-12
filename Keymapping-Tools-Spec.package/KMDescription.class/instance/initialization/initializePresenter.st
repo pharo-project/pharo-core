@@ -1,5 +1,4 @@
 initializePresenter
 		
-	displayList whenSelectedItemChanged: [ updatingBlock value: categories value ].
-	categories whenChangedDo: [:col | updatingBlock value: col ].
+	categories whenChangedDo: [:col | self initCategoryList:col ].
 	okToolbar okAction: [ self delete ].

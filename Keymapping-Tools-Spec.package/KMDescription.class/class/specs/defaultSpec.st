@@ -6,7 +6,7 @@ defaultSpec
 			c 
 				newRow: [:r | 
 					r 
-						add: #dropList;
-						add: #displayList ] height: 25;
-				add: #list;
+						add: #categoryList;
+						add: #orderingList ] height: 25;
+				add: #shortcutList;
 				add: #okToolbar height: 25 ]

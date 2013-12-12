@@ -1,5 +1,5 @@
 ComposableModel subclass: #KMDescription
-	instanceVariableNames: 'list collectingBlock categories displayList sortingBlock updatingBlock okToolbar dropList'
+	instanceVariableNames: 'shortcutList collectingBlock categories orderingList sortingBlock updatingBlock okToolbar categoryList'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Keymapping-Tools-Spec'

@@ -2,4 +2,5 @@ categories: aCollectionOfSymbols
 	| cats |
 	
 	cats := aCollectionOfSymbols collect: [:e | KMRepository default categoryForName: e].
-	categories value: cats
+	categories value: cats.
+	self updateShortcutList

@@ -1,24 +1,20 @@
 initializeWidgets
 
 	self instantiateModels: #(
-		#dropList DropListModel
-		list MultiColumnListModel
+		categoryList DropListModel
+		shortcutList MultiColumnListModel
 		okToolbar OkToolbar
-		displayList DropListModel ).
+		orderingList DropListModel ).
 	
-	displayList items: {
-		DropListItem 
-			named:'shortcut	:	description' 
-			do: [ 
-					collectingBlock := [:e | {e shortcut asString. ':'. e description asString} ].
-					sortingBlock := [:a :b | a first < b first ]].
-		DropListItem 
-			named:'description	:	shortcut' 
-			do: [ 
-					collectingBlock := [:e | {e description asString. ':'. e shortcut asString} ].
-					sortingBlock := [:a :b | a first < b first ]]}.
+	orderingList 
+		addItemLabeled:'shortcut	:	description' 
+			do: [self collectShortcutDescription.
+				 self updateShortcutList];
+		addItemLabeled:'description	:	shortcut' 
+			do: [self collectDescriptionShortcut.
+				 self updateShortcutList].
 	
-	list 
+	shortcutList 
 		displayBlock: [ :e | e ];
 		allowToSelect: false.
 
