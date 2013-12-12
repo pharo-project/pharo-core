@@ -1,4 +1,2 @@
-includes: aNode 
-	^ self = aNode complexContents | (self contents
-			detect: [:each | each includes: aNode]
-			ifNone: []) notNil 
+includes: aNode
+	^ self = aNode complexContents or: [ self contents anySatisfy: [ :each | each includes: aNode ] ]

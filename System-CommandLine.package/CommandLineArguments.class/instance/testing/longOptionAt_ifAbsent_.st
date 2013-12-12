@@ -1,7 +1,7 @@
 longOptionAt: aString ifAbsent: absentBlock
-	| option optionStart |
-	optionStart := '--', aString, '='.
-	option := self arguments 
-		detect: [ :arg| arg beginsWith: optionStart ] 
-		ifNone: [ ^ absentBlock value ].
-	^ (option splitOn: '=') second
+	| optionStart |
+	optionStart := '--' , aString , '='.
+	^ self arguments
+		detect: [ :arg | arg beginsWith: optionStart ]
+		ifFound: [ :option | (option splitOn: '=') second ]
+		ifNone: absentBlock
