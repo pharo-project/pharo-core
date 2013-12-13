@@ -1,0 +1,3 @@
+lineEnding
+
+	^ self subclassResponsibility
