@@ -6,7 +6,7 @@ initialize
 	sharedVariablesString := ''.
 	classSlots := {}.
 	slots := {}.
-	layoutClass := PointerLayout.
+	layoutClass := FixedLayout.
 	superclass := Object.
 	classTraitComposition := {} asTraitComposition.
 	traitComposition := {} asTraitComposition.

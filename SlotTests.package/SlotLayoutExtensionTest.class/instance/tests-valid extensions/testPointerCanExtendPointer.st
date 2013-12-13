@@ -1,6 +1,6 @@
 testPointerCanExtendPointer
 
 	self should: [ :builder | 
-			builder layoutClass: PointerLayout ]
+			builder layoutClass: FixedLayout ]
 		extendWith: [ :builder | 
-			builder layoutClass: PointerLayout ]
+			builder layoutClass: FixedLayout ]

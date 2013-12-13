@@ -2,7 +2,7 @@ testRedefineSuperclass
 	"This case reproduces a MNU found loading Moose."
 
 	| superclass class |
-	superclass := self makeWithLayout: PointerLayout.
+	superclass := self makeWithLayout: FixedLayout.
 	class := self make: [ :builder |
 		builder 
 			superclass: superclass;
@@ -10,7 +10,7 @@ testRedefineSuperclass
 			name: self anotherClassName.
 		 ].
 
-	self makeWithLayout: PointerLayout.
+	self makeWithLayout: FixedLayout.
 
 	superclass layout checkIntegrity.
 	class layout checkIntegrity.

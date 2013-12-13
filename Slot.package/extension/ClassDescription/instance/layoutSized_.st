@@ -1,6 +1,6 @@
 layoutSized: size
 	|layoutInstance layoutClass|
-	layoutClass := PointerLayout.
+	layoutClass := FixedLayout.
 	
 	self isBits
 		ifTrue: [

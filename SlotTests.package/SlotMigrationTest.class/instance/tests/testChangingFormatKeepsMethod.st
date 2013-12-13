@@ -3,7 +3,7 @@ testChangingFormatKeepsMethod
 	aClass := self make: [ :builder | 
 		builder 
 			name: self aClassName;
-			layoutClass: PointerLayout ].
+			layoutClass: FixedLayout ].
 
 	aClass compile: 'a ^self'.
 	self assert: (aClass methodDictionary includesKey: #a).

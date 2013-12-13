@@ -1,2 +1,2 @@
 extend: newScope
-	^ PointerLayout new slotScope: newScope
+	^ FixedLayout new slotScope: newScope

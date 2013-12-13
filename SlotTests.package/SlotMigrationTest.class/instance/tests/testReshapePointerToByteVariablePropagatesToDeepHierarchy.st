@@ -5,25 +5,25 @@ testReshapePointerToByteVariablePropagatesToDeepHierarchy
 		builder 
 			name: self aClassName;
 			superclass: Object;
-			layoutClass: PointerLayout ]. 
+			layoutClass: FixedLayout ]. 
 
 	anotherClass := self make: [ :builder |
 		builder 
 			name:self anotherClassName;
 			superclass: aClass;
-			layoutClass: PointerLayout ].
+			layoutClass: FixedLayout ].
 
 	yetAnotherClass := self make: [ :builder |
 		builder 
 			name:self yetAnotherClassName;
 			superclass: anotherClass;
-			layoutClass: PointerLayout ].
+			layoutClass: FixedLayout ].
 
 	yetYetAnotherClass := self make: [ :builder |
 		builder 
 			name:self yetYetAnotherClassName;
 			superclass: yetAnotherClass;
-			layoutClass: PointerLayout ].
+			layoutClass: FixedLayout ].
 
 	"all the classes in the hierarchy should be of type fixed pointers"
 	{ aClass. anotherClass. yetAnotherClass. yetYetAnotherClass } do: [ :each | 

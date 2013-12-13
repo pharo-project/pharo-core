@@ -3,7 +3,7 @@ buildNewClass
 	metaclass := Metaclass new.
 	metaclass
 		superclass: self superMetaclass
-		withLayoutType: PointerLayout
+		withLayoutType: FixedLayout
 		slots: classSlots.
 
 	newClass := metaclass new.

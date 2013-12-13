@@ -36,7 +36,7 @@ testReshapeByteVariableToPointerPropagatesToDeepHierarchy
 		builder 
 			name: self aClassName;
 			superclass: Object;
-			layoutClass: PointerLayout;
+			layoutClass: FixedLayout;
 			slots: { #x } ]. 
 
 	"all the classes in the hierarchy should be reshaped as fixed"

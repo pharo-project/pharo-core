@@ -7,7 +7,7 @@ build
 	metaChange := ClassModification
 							modify: oldClass class
 							extend: self superMetaclass
-							withLayoutType: PointerLayout
+							withLayoutType: FixedLayout
 							slots: classSlots
 							traitComposition: classTraitComposition
 							compactClassIndex: oldClass class indexIfCompact.

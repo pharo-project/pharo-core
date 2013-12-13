@@ -10,7 +10,7 @@ testSuperclassChangeLayoutType
 			name: self anotherClassName.
 		 ].
 	"Change the layout of the superclass from bytes to pointer"
-	self makeWithLayout: PointerLayout.
+	self makeWithLayout: FixedLayout.
 
 	superclass layout checkIntegrity.
 	class layout checkIntegrity.

@@ -1,1 +1,1 @@
-I am the default layout for objects.I contain a fixed number of Slots.Instances of classes using this kind of layout have always the same size.
+I am the superclass for all layouts with Slots.

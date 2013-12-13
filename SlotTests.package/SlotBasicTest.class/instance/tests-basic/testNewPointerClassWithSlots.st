@@ -1,7 +1,7 @@
 testNewPointerClassWithSlots
 
 	aClass := self 
-		makeWithLayout: PointerLayout
+		makeWithLayout: FixedLayout
 		andSlots: { #id. #name }.
 	
 	self assert: (aClass instVarNames includes: 'id').

@@ -10,5 +10,5 @@ layoutForType: typeSymbol
 	typeSymbol = #variable 
 		ifTrue: [ ^ VariableLayout ].
 	typeSymbol = #normal 
-		ifTrue: [ ^ PointerLayout ].
+		ifTrue: [ ^ FixedLayout ].
 	Error signal: 'Invalid layout type: ', typeSymbol asString.

@@ -1,6 +1,6 @@
 testSwitchSlotsAndMigrate
 
-	aClass := self makeWithLayout: PointerLayout andSlots: { #a. #b }.
+	aClass := self makeWithLayout: FixedLayout andSlots: { #a. #b }.
 	aClass 
 		compile: 'a ^a';
 		compile: 'b ^b'.
@@ -10,7 +10,7 @@ testSwitchSlotsAndMigrate
 	instance instVarNamed: #b put: $B.
 
 	"now we switch the slots. The class definition should've changed"
-	self makeWithLayout: PointerLayout andSlots: { #b. #a }.
+	self makeWithLayout: FixedLayout andSlots: { #b. #a }.
 
 	self assert: (instance instVarAt: 1) equals: $B.
 	self assert: (instance instVarAt: 2) equals: $A.

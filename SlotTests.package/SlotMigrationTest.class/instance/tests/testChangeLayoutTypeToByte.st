@@ -1,6 +1,6 @@
 testChangeLayoutTypeToByte
 	aClass := self 
-		makeWithLayout: PointerLayout
+		makeWithLayout: FixedLayout
 		andSlots: { #id. #name }.
 	"Change the layout of the class from pointer to bytes"
 	aClass := self makeWithLayout: ByteLayout.

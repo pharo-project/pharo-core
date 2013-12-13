@@ -1,3 +1,3 @@
 extend: someSlots
-	^ PointerLayout new
+	^ FixedLayout new
 		slotScope: (LayoutEmptyScope instance extend: someSlots)

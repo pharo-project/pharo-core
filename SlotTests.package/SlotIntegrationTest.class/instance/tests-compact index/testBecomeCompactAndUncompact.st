@@ -1,7 +1,7 @@
 testBecomeCompactAndUncompact
 
 	| originalCompactClassesArray |
-	aClass := self makeWithLayout: PointerLayout.	
+	aClass := self makeWithLayout: FixedLayout.	
 	self assert: aClass indexIfCompact equals: 0.
 	originalCompactClassesArray := Smalltalk compactClassesArray copy.
 

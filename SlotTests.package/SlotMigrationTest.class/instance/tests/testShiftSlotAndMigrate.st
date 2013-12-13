@@ -1,6 +1,6 @@
 testShiftSlotAndMigrate
 
-	aClass := self makeWithLayout: PointerLayout andSlots: { #a. #c }.
+	aClass := self makeWithLayout: FixedLayout andSlots: { #a. #c }.
 	aClass compile: 'a ^a'.
 	aClass compile: 'c ^c'.
 	
@@ -9,7 +9,7 @@ testShiftSlotAndMigrate
 	instance instVarNamed: #c put: 3.
 
 	"now we extend it with slots.  The class definition should've changed"
-	self makeWithLayout: PointerLayout andSlots: { #a. #b. #c }.
+	self makeWithLayout: FixedLayout andSlots: { #a. #b. #c }.
 
 	"it should have added an instance variable with nil in the middle"
 	self assert: (instance instVarAt: 1) equals: 1.

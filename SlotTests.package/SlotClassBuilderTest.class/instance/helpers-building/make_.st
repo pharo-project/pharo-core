@@ -5,7 +5,7 @@ make: anUnaryBlock
 		builder
 			superclass: Object;
 			name: self aClassName;
-			layoutClass: PointerLayout;
+			layoutClass: FixedLayout;
 			category: self aCategory.
 		anUnaryBlock value: builder
 		].

@@ -1,6 +1,6 @@
 testCopyPreservesLayout
 
-	aClass := self makeWithLayout: PointerLayout.
+	aClass := self makeWithLayout: FixedLayout.
 	anotherClass := aClass copy.
 	
 	self deny: anotherClass layout isNil.

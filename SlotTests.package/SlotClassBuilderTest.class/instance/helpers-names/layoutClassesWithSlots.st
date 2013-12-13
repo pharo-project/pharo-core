@@ -1,2 +1,2 @@
 layoutClassesWithSlots
-	^ { PointerLayout. VariableLayout. WeakLayout }
+	^ { FixedLayout. VariableLayout. WeakLayout }

@@ -1,2 +1,2 @@
 layoutClasses
-	^ { ByteLayout. WordLayout. PointerLayout. VariableLayout. WeakLayout }
+	^ { ByteLayout. WordLayout. FixedLayout. VariableLayout. WeakLayout }

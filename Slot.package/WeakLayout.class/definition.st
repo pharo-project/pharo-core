@@ -1,4 +1,4 @@
-LayoutWithSlots subclass: #WeakLayout
+PointerLayout subclass: #WeakLayout
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

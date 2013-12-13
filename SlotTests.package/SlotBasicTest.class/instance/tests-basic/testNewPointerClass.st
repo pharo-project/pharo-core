@@ -1,6 +1,6 @@
 testNewPointerClass
 
-	aClass := self makeWithLayout: PointerLayout.
+	aClass := self makeWithLayout: FixedLayout.
 	
 	self deny: aClass isCompact.
 	self assert: aClass isPointers.

@@ -1,4 +1,4 @@
-PointerLayout subclass: #VariableLayout
+PointerLayout subclass: #FixedLayout
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
