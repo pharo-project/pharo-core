@@ -1,10 +1,6 @@
 commentForCurrentUpdate
- ^ '11983 testOnForkErrorTakesLessThanOneSecond failing
-	https://pharo.fogbugz.com/f/cases/11983
+ ^ '12395 ThreadSafeTranscript examples do not work due to a missing method
+	https://pharo.fogbugz.com/f/cases/12395
 	
-12424 testSizeInMemoryClasses is buggy
-	https://pharo.fogbugz.com/f/cases/12424
-	
-12422 move icons from komitter to theme icons class
-	https://pharo.fogbugz.com/f/cases/12422
-'
+12428 Error while printing element
+	https://pharo.fogbugz.com/f/cases/12428'
