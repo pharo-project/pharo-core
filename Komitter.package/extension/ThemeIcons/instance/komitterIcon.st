@@ -1,0 +1,2 @@
+komitterIcon
+	^ self blankIcon.

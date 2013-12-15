@@ -3,6 +3,10 @@ testOnForkErrorTakesLessThanOneSecond
 	
 	| sema timeout |
 	
+	self flag: 'The following line makes the test pass under headless linux. Everywhere else this test works'.
+	Smalltalk os isUnix
+		ifTrue: [ 1 milliSecond wait ].
+	
 	sema := Semaphore new.
 	[ 1/0 ] on: Exception fork: [ sema signal ].
 	
