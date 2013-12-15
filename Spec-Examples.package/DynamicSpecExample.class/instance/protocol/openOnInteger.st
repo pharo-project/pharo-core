@@ -8,20 +8,20 @@ openOnInteger
 		plus ButtonModel
 		minus ButtonModel ).
 		
-	ui text text: object contents asString.
+	ui text text: object value asString.
 	ui minus 
 		label: '-';
 		state: false;
 		action: 	[ 
-			object contents: object contents -1.
-			ui text text: object contents asString ].
+			object value: object value -1.
+			ui text text: object value asString ].
 
 	ui plus 
 		label: '+';
 		state: false;
 		action: 	[ 
-			object contents: object contents +1.
-			ui text text: object contents asString ].
+			object value: object value +1.
+			ui text text: object value asString ].
 	
 	layout := SpecLayout composed
 		newColumn: [ :c |

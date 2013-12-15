@@ -9,17 +9,17 @@ openOnString
 		text TextInputFieldModel
 		button ButtonModel ).
 		
-	ui label text: object contents.
+	ui label text: object value.
 
 			
 	object whenChangedDo: [ :o | ui label text: o asString ].
 		
 	ui text 
-		text: object contents;
+		text: object value;
 		enabled: true;
 		acceptBlock: [ :string | self object: string ].
 	
-	temp := object contents.
+	temp := object value.
 	
 	ui button
 		label: 'reset';

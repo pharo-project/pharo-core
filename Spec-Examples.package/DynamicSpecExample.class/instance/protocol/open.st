@@ -1,5 +1,5 @@
 open
 
-	object contents ifNil: [ ^ self openOnNil ].
-	object contents isInteger ifTrue: [ ^ self openOnInteger ].
-	object contents isString ifTrue: [ ^ self openOnString ]
+	object value ifNil: [ ^ self openOnNil ].
+	object value isInteger ifTrue: [ ^ self openOnInteger ].
+	object value isString ifTrue: [ ^ self openOnString ]
