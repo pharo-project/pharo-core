@@ -7,9 +7,9 @@ defaultOptions
 	+ optionInlineWhile
 	+ optionInlineToDo
 	+ optionInlineCase
-	+ optionInlineTimesRepeat
+	- optionInlineTimesRepeat
 	
 	- optionIlineNone "to turn off all. Overrides the others" 	
 	- optionLongIvarAccessBytecodes "special for Contexts"
-	+ optionOptimizeIR "disabled for now"
+	+ optionOptimizeIR 
 	)

@@ -1,7 +1,7 @@
 compile
 	| cm |
 	[ast := self parse.
-	self doSemanticAnalysis.
+	self doSemanticAnalysis. 
 	cm := ast generate: self compilationContext compiledMethodTrailer ]
 		on: SyntaxErrorNotification 
 		do: [ :exception | 

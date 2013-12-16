@@ -6,4 +6,8 @@ compilerSettingsOn: aBuilder
 			(aBuilder pickOne: #compilerClass)
 			      target: SmalltalkImage;
 				label: 'Default Compiler';
-				domainValues: {Compiler. OpalCompiler}]
+				domainValues: {Compiler. OpalCompiler}.
+			(aBuilder setting: #warningAllowed)
+			      target: CompilationContext;
+				label: 'Allow Warnings';
+				default: true]

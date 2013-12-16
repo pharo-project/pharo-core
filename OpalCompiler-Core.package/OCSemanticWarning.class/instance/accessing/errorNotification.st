@@ -1,3 +1,3 @@
 errorNotification
 
-	^ compilationContext interactive
+	^ compilationContext interactive and: [ compilationContext warningAllowed ]
