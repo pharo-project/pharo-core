@@ -12,7 +12,7 @@ createModel
 	modelClass := NECUntypedModel.		
 	(controller model respondsTo: #modelClass) 
 		ifTrue: [
-			controller model modelClass ifNotNilDo: [:class | modelClass :=  class]].	
+			controller model modelClass ifNotNil: [:class | modelClass :=  class]].	
 			
 	
 	^ modelClass

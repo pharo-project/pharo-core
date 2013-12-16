@@ -5,7 +5,7 @@ popUpFor: aMorph event: evt
 	self flag: #workAround.	"We should really have some event/hand here..."
 	anEvent := evt isNil 
 				ifTrue: 
-					[hand := aMorph world ifNotNilDo: [:w | w activeHand].
+					[hand := aMorph world ifNotNil: [:w | w activeHand].
 					hand ifNil: [hand := aMorph world primaryHand]. 
 					hand lastEvent transformedBy: (aMorph transformedFrom: nil)]
 				ifFalse: 

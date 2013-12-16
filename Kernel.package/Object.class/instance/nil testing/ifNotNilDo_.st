@@ -1,4 +1,4 @@
 ifNotNilDo: aBlock
-	"Evaluate the given block with the receiver as its argument."
+	"Please use #ifNotNil: instead"
 
 	^ aBlock value: self

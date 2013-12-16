@@ -3,6 +3,6 @@ modalUnlockFrom: aSystemWindow
 
 	aSystemWindow removeProperty: #modalOwner.
 	self removeProperty: #modalChild.
-	closeBox ifNotNilDo: [:cl | cl enabled: (self valueOfProperty: #preModalCloseEnabled ifAbsent: [true])].
+	closeBox ifNotNil: [:cl | cl enabled: (self valueOfProperty: #preModalCloseEnabled ifAbsent: [true])].
 	self removeProperty: #preModalCloseEnabled.
 	self activate

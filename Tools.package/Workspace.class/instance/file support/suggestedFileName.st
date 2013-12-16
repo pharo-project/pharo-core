@@ -5,4 +5,4 @@ suggestedFileName
 						
 	^ (self containingWindow 
 		ifNil: ['Untitled']
-		ifNotNilDo:	[ :window |  window label ]), '.ws'
+		ifNotNil:	[ :window |  window label ]), '.ws'

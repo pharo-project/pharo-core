@@ -2,4 +2,4 @@ sourceCodeRefactoringMenuHolder: aBuilder
 	<nautilusGlobalSourceCodeMenu>
 	| target |
 	target := aBuilder model.	
-	target selectedClass ifNotNilDo: [:selectedClass |  selectedClass sourceCodeRefactoringMenu: aBuilder ].
+	target selectedClass ifNotNil: [:selectedClass |  selectedClass sourceCodeRefactoringMenu: aBuilder ].

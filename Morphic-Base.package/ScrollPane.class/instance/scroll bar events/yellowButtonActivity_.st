@@ -1,7 +1,7 @@
 yellowButtonActivity: shiftKeyState
 	
 	(self getMenu: shiftKeyState) 
-		ifNotNilDo: [ :menu|
+		ifNotNil: [ :menu|
 			menu setInvokingView: self.
 			menu popUpEvent: self activeHand lastEvent in: self world.
 			^ true].

@@ -1,4 +1,4 @@
 narrowWith: aString
 	self narrowString: aString.
 	self loadEntries.
-	self nextModel ifNotNilDo: [:nm | nm narrowWith: aString].
+	self nextModel ifNotNil: [:nm | nm narrowWith: aString].

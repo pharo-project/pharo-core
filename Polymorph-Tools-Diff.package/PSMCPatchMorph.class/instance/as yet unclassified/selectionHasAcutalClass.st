@@ -4,4 +4,4 @@ selectionHasAcutalClass
 
 	^self selectedChangeWrapper
 		ifNil: [false]
-		ifNotNilDo: [:w | w actualClass notNil]
+		ifNotNil: [:w | w actualClass notNil]

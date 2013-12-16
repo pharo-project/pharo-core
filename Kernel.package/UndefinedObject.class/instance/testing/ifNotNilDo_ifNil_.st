@@ -1,4 +1,4 @@
 ifNotNilDo: ifNotNilBlock ifNil: nilBlock 
-	"If I got here, I am nil, so evaluate the block nilBlock"
+	"please use #ifNotNil:ifNil: "
 
 	^ nilBlock value

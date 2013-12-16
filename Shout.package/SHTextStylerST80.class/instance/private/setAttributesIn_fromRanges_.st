@@ -1,13 +1,13 @@
 setAttributesIn: aText fromRanges: ranges 
 	"use the . to find and assign TextAttributes to aText"
 	
-	| charAttr newRuns newValues lastAttr oldRuns lastCount attr |
+	| charAttr oldRuns |
 	
 	oldRuns := aText runs.
 	charAttr := Array new: aText size withAll: (self attributesFor: #default).
 	
 	ranges do: [:range | 
-		(self attributesFor: range type) ifNotNilDo: [ :attribute|
+		(self attributesFor: range type) ifNotNil: [ :attribute|
 			charAttr 
 				from: range start
 				to: range end

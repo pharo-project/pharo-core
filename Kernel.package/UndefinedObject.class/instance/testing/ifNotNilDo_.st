@@ -1,4 +1,4 @@
 ifNotNilDo: aBlock
-	"Override to do nothing."
+	"Please use #ifNotNil: instead"
 
 	^ self

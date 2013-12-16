@@ -1,7 +1,7 @@
 basicAsMCMethodDefinition
    "Creates a MCMethodDefinition from the receiver"
    self isActive ifTrue: [ 
-		self compiledMethod sourceFileStream ifNotNilDo: [ :file|
+		self compiledMethod sourceFileStream ifNotNil: [ :file|
 			^ self asMCMethodDefinitionFromFile: file]].
 	
    ^ MCMethodDefinition

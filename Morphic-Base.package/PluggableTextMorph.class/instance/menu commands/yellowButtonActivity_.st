@@ -2,7 +2,7 @@ yellowButtonActivity: shiftKeyState
 	"Called when the shifted-menu's 'more' item is chosen"
 	
 	(self getMenu: shiftKeyState)
-		ifNotNilDo: [ :menu|
+		ifNotNil: [ :menu|
 			menu setInvokingView: self.
 			menu invokeModal.
 			^ true].

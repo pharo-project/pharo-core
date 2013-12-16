@@ -4,4 +4,4 @@ hasYellowButtonMenu
 	^ self wantsYellowButtonMenu
 			or: [self modelOrNil
 				ifNil: [false]
-				ifNotNilDo: [:aModel | aModel hasModelYellowButtonMenuItems]]
+				ifNotNil: [:aModel | aModel hasModelYellowButtonMenuItems]]

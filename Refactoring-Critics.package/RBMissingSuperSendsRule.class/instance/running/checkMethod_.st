@@ -1,7 +1,7 @@
 checkMethod: aContext 
 	| definer superMethod |
 	(aContext selectedClass isMeta not and: [ self superMessages includes: aContext selector ]) ifTrue: 
-		[ definer := aContext selectedClass superclass ifNotNilDo: [ :sc | sc whichClassIncludesSelector: aContext selector ].
+		[ definer := aContext selectedClass superclass ifNotNil: [ :sc | sc whichClassIncludesSelector: aContext selector ].
 		definer ifNotNil: 
 			[ "super defines same method"
 			(aContext superMessages includes: aContext selector) ifFalse: 

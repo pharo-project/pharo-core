@@ -19,8 +19,6 @@ isInlineIfNil
 		ifTrue: [assertNone value: self arguments first.  assertOneOrNone value: self arguments last].
 	self selector == #ifNotNil: 
 		ifTrue: [assertOneOrNone value: self arguments first].
-	self selector ==#ifNotNilDo: 
-		ifTrue: [assertOneOrNone value: self arguments first].
 	self selector == #ifNotNil:ifNil: 
 		ifTrue: [assertOneOrNone value: self arguments first. assertNone value: self arguments last].
 	^ true

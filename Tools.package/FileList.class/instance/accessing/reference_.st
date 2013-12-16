@@ -4,7 +4,7 @@ reference: dir
 	self okToChange ifFalse: [^ self].
 	
 	tmpReference := dir 
-		ifNotNilDo: [ :d| d asFileReference]
+		ifNotNil: [ :d| d asFileReference]
 		ifNil: [ FileSystem disk workingDirectory ].
 	tmpReference isReadable 
 		ifFalse: [ ^ self inform: ('Cannot read {1}' translated format: { tmpReference})].

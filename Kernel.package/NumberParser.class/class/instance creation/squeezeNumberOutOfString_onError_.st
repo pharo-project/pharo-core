@@ -12,7 +12,7 @@ squeezeNumberOutOfString: stringOrStream onError: errorBlock
 				
 	stringOrStream size timesRepeat: [
 		(self parse: string onError: [ nil ])
-			ifNotNilDo: [ :result| ^ result ].
+			ifNotNil: [ :result| ^ result ].
 		string := string allButFirst ].
 	
 	^ errorBlock value

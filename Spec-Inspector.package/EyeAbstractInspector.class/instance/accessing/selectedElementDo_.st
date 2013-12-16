@@ -1,2 +1,2 @@
 selectedElementDo: aBlock
-	self selectedElement ifNotNilDo: aBlock
+	self selectedElement ifNotNil: aBlock

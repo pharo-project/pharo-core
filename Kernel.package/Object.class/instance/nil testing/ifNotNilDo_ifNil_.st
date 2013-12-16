@@ -1,4 +1,4 @@
 ifNotNilDo: aBlock ifNil: nilBlock
-	"Evaluate aBlock with the receiver as its argument."
+	"please use #ifNotNil:ifNil: "
 
 	^ aBlock value: self
