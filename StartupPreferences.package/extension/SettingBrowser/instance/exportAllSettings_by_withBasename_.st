@@ -4,8 +4,8 @@ exportAllSettings: actions by: groupSize withBasename: aString
 	index := 1.
 	actions
 		groupsOf: groupSize
-		atATimeDo: [ :l | 
-			self exportSettings: l toFilenamed: aString , index printString , '.st'.
+		atATimeDo: [ :setting | 
+			self exportSettings: setting toFileNamed: aString , index printString , '.st'.
 			index := index + 1 ].
 	self
 		exportSettings: (actions last: (actions size rem: groupSize))
