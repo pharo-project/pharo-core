@@ -1,2 +1,2 @@
 smtpServer
-	^MailSender smtpServer
+	^self class smtpServer

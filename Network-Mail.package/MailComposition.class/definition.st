@@ -1,5 +1,5 @@
 Model subclass: #MailComposition
 	instanceVariableNames: 'messageText textEditor morphicWindow'
-	classVariableNames: ''
+	classVariableNames: 'SmtpServer'
 	poolDictionaries: ''
 	category: 'Network-Mail'

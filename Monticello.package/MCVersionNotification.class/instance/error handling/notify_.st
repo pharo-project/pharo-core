@@ -5,4 +5,4 @@ notify: aString
 		deliverMailFrom: message from
 		to: (Array with: message to)
 		text: message text
-		usingServer: MailSender smtpServer
+		usingServer: MailComposition smtpServer
