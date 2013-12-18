@@ -4,7 +4,7 @@ mcRepositoryAsUser: usernameString withPassword: passwordString
 	self isFile
 		ifTrue: [ ^ MCDirectoryRepository new directory: self asFileReference ].
 	self scheme = #filetree
-		ifTrue: [ ^ MCFileTreeRepository new directory: self asFileReference ].
+		ifTrue: [ ^ MCFileTreeRepository new directory: self asFileReferenceWithRelativePath ].
 	self scheme = #ftp
 		ifTrue: [ ^ MCFtpRepository
 			host: (self hasPort ifTrue: [ self host, ':', self port asString ] ifFalse: [ self host ])
