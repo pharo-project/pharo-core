@@ -1,4 +1,4 @@
 canBeMaximized
 	"Answer whether we are not we can be maximised."
 
-	^self isNotMaximized
+	^ self isResizeable and: [ self isNotMaximized ]

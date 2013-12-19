@@ -1,5 +1,5 @@
 StandardWindow subclass: #DialogWindow
-	instanceVariableNames: 'cancelled isResizeable'
+	instanceVariableNames: 'cancelled'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Polymorph-Widgets-Windows'
