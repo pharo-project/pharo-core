@@ -1,0 +1,2 @@
+methodBinding
+	^ self method classBinding

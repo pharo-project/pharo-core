@@ -1,5 +1,7 @@
 classDefinitionChangedFrom: oldClass to: newClass by: classModification
 	
-	^ self
+	self
 		copyMethodsFrom: oldClass to: newClass using: classModification;
-		basicClassDefinitionChangedFrom: oldClass to: newClass.
+		basicClassDefinitionChangedFrom: oldClass to: newClass;
+		fixClassBindings: newClass
+	

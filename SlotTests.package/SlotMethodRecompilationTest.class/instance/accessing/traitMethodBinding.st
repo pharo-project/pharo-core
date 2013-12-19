@@ -1,0 +1,2 @@
+traitMethodBinding
+	^ self traitMethod classBinding

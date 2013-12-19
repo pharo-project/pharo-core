@@ -1,3 +1,3 @@
 browseRule
 
-	rulesModel selectedItem ifNotNil: [ :rule | rule browse ]
+	rulesModel selectedItem ifNotNil: [ :item | item content browse ]
