@@ -1,14 +1,15 @@
 name: aSymbol
-	| oldName |
+	| oldName newName |
 	
 	oldName := name.
-	name := aSymbol asSymbol.
+	newName := aSymbol asSymbol.
 	
-	self renameTagsPrefixedWith: oldName to: name. 
+	self renameTagsPrefixedWith: oldName to: newName. 
+	name := newName.
 	
 	oldName ifNotNil: [ 
 		SystemAnnouncer uniqueInstance 
 			announce: (RPackageRenamed 
 				to: self 
 				oldName: oldName 
-				newName: aSymbol) ]
+				newName: newName) ].

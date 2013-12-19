@@ -1,9 +1,7 @@
-renameTo: aString 
-	| oldName categoryName |
+renameTo: aString category: categoryName
+	| oldName |
 	
 	oldName := self toCategoryName: self name.
-	categoryName := self toCategoryName: aString. 
-	
 	oldName = categoryName ifTrue: [ ^ self ].
 	
 	self basicRenameTo: aString.

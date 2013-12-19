@@ -1,4 +1,4 @@
 classTagForClass: aClass 
 	^ self 
-		classTagNamed: aClass category 
+		classTagNamed: (self toTagName: aClass category) 
 		ifAbsent: [ nil ]

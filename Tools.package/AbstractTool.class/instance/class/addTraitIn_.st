@@ -3,9 +3,10 @@ addTraitIn: aPackage
 	|  systemCategory classDefinition |
 	
 	systemCategory := aPackage
+		ifNotNil: [ aPackage categoryName ]
 		ifNil: [ 'Unknown' ].
 	classDefinition := self class defineTraitTemplate 
-		format: { #TNameOfTrait. '{}'. systemCategory name}.
+		format: { #TNameOfTrait. '{}'. systemCategory }.
 	classDefinition := UIManager default 
 		multiLineRequest: 'Define class definition:'
 		initialAnswer: classDefinition

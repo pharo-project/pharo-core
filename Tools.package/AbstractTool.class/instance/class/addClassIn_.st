@@ -4,6 +4,7 @@ addClassIn: aPackage
 	| classSymbol systemCategory classDefinition |
 	classSymbol := #NameOfSubclass.
 	systemCategory := aPackage
+		ifNotNil: [ aPackage categoryName ]
 		ifNil: [ 'Unknown' ].
 	classDefinition := self class defineClassTemplate 
 		format: { classSymbol. systemCategory } .

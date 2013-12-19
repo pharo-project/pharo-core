@@ -1,2 +1,2 @@
 updateCodeFromContext
-self updateCodeFromContext:self context
+self updateCodeFromContext:self currentContext

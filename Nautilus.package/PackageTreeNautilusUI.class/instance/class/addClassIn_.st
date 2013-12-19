@@ -1,2 +1,2 @@
 addClassIn: aPackage
-	super addClassIn: aPackage asNautilusSelection package name.
+	super addClassIn: aPackage asNautilusSelection item.

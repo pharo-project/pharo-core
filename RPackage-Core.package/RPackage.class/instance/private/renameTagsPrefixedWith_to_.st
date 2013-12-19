@@ -1,9 +1,17 @@
 renameTagsPrefixedWith: oldName to: newName
-	| prefix |
+	| oldPrefix newPrefix |
 	
 	oldName ifNil: [ ^ self ].
 	
-	prefix := oldName, '-'.
+	self 
+		classTagNamed: oldName 
+		ifPresent: [ :tag | tag renameTo: newName category: newName ].	
+	
+	oldPrefix := oldName, '-'.
+	newPrefix := newName, '-'.
 	(self classTags 
-		select: [ :each | each name beginsWith: prefix ])
-		do: [ :each | each renameTo: (newName, (each name allButFirst: oldName size)) asSymbol ]
+		select: [ :each | each categoryName beginsWith: oldPrefix ])
+		do: [ :each | 
+			each 
+				renameTo: each name 
+				category: newPrefix, (each name) ]

@@ -5,4 +5,4 @@ childrenItems
 	"If there is just one, do not show"
 	^ (tags size = 1 and: [ tags anyOne name = self item name ])
 		ifTrue: [ #() ]
-		ifFalse: [ tags sorted: [ :a :b | a name < b name ] ]
+		ifFalse: [ tags sorted: [ :a :b | a categoryName < b categoryName ] ]
