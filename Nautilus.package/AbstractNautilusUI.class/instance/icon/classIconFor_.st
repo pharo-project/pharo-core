@@ -40,4 +40,4 @@ classIconFor: aClass
 					 ClassesIconsCache at: aClass put: (IconicButtonStateHolder forNautilus: button).
 					^ button ]].
 
-	^ ClassesIconsCache at: aClass put: (aClass nautilusIcon)
+	^ ClassesIconsCache at: aClass put: (aClass systemIcon)
