@@ -1,13 +1,6 @@
 commentForCurrentUpdate
- ^ '11656 In HelpTopic when a subtopic is added, the subtopic does not point back to its owner
-	https://pharo.fogbugz.com/f/cases/11656
+ ^ '12278 Changesorter menus are broken
+	https://pharo.fogbugz.com/f/cases/12278
 	
-12463 de-skip testCurrent	
-	https://pharo.fogbugz.com/f/cases/12463
-
-12210 Superfluous Snapshot Message
-	https://pharo.fogbugz.com/f/cases/12210
-	
-12466 Nautilus does not refresh when deleting a category
-	https://pharo.fogbugz.com/f/cases/12466
-'
+12418 Athens tutorial should be updated to work with spec 3.0 for 3.0
+	https://pharo.fogbugz.com/f/cases/12418'

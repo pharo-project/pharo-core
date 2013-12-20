@@ -7,15 +7,15 @@ changesMenu: menu shifted: shifted from: src to: dest
 	menuSrc2 := menu copy. 
 	src changeSetMenu1: menuSrc2 shifted: shifted.
 	 
-	menuDest := (PragmaMenuBuilder 
+	menuDest := MenuModel new fromSpec: (PragmaMenuBuilder 
 		pragmaKeyword: 'dualChangeSorteChangesListMenu'
 		model: {self. src. dest}) 
-		menu.
+		menuSpec.
 
-	menu addAllFrom: (MenuMorph new 
+	"menu addAllFrom: (MenuMorph new 
 		addAllMorphs: menuSrc1 submorphs;
 		addAllMorphs: menuDest submorphs;
 		addAllMorphs: menuSrc2 submorphs;
-		yourself).
+		yourself)."
 		
 	^menu

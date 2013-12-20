@@ -3,7 +3,6 @@ messageMenu: aMenu shifted: shifted
 
 	self selectedSelector ifNil: [ ^ nil ].	
 	aMenu title: 'Message list'.
-	aMenu target: self.
 
 	aMenu addAllFromPragma:'changeSorterMessageListMenu' target: self.
 
