@@ -1,5 +1,4 @@
 testCurrent
-	self skip. "checking if this is the reason for stale processes"
 	self assert: Job current isNil.
 
 	[ :aJob | 

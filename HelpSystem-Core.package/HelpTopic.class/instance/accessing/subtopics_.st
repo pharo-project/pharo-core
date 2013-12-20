@@ -1,4 +1,5 @@
 subtopics: aCollection 
 	"Sets the receivers subtopics"
 	
-	subtopics := aCollection 
+	aCollection do: [ :topic|  topic owner: self  ].
+	subtopics := aCollection.

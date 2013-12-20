@@ -33,5 +33,4 @@ logSnapshot: save andQuit: quit
 				setToEnd;
 				position) ].
 
-	self logChange: message.
-	self traceCr: message.
+	self logChange: message
