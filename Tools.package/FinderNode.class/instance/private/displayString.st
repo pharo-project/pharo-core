@@ -1,3 +1,3 @@
 displayString
-
+	
 	^ self item asString

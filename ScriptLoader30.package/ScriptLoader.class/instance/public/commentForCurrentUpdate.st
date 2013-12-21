@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '12278 Changesorter menus are broken
-	https://pharo.fogbugz.com/f/cases/12278
+ ^ '12477 Move MethodFinder old tests from code to TestsPackages
+	https://pharo.fogbugz.com/f/cases/12477
 	
-12418 Athens tutorial should be updated to work with spec 3.0 for 3.0
-	https://pharo.fogbugz.com/f/cases/12418'
+12055 The Spec Debugger should not require the registered inspector to be built on Spec
+	https://pharo.fogbugz.com/f/cases/12055
+
+11743 Debugger fix the key shortcuts
+	https://pharo.fogbugz.com/f/cases/11743'

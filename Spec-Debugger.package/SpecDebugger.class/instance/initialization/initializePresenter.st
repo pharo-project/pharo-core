@@ -12,8 +12,6 @@ initializePresenter
 	self stack whenSelectedItemChanged: [:aContext |
 		self updateCodeFromContext: aContext.
 		self updateInspectorsFromContext: aContext.
-		self stack 
-			expand;
-			takeKeyboardFocus "This is needed, as otherwise, the inspectors will take the focus"].
+		self stack updateForSelectionChanged ].
 	
 	self contextInspector initializeAutoRefresh.

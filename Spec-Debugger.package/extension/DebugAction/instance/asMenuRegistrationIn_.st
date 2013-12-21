@@ -2,9 +2,8 @@ asMenuRegistrationIn: aBuilder
 	| item |
 	
 	item := (aBuilder item: self specId)
-		label: self label;
+		label: self label, (self keyText ifNil: [ '' ] ifNotNil: [ '  (', self keyText, ')' ] );
 		icon: self icon;
-		keyText: self keyText;
 		enabled: self enabled;
 		order: self order asFloat;
 		target: self; 
