@@ -7,7 +7,7 @@ initialize
 	topologicSortHolder := true asValueHolder.
 
 	super initialize.
-
+      askOkToClose:= true asValueHolder.
 	self windowIcon: self taskbarIcon.
 	self registerToAnnouncements.
 

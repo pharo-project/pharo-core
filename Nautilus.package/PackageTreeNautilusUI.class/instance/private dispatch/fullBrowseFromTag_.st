@@ -1,8 +1,7 @@
-fullBrowse
-	"I override my parent to call with proper package selection"
+fullBrowseFromTag: aPackageTag
 	
 	self model class 
-		openOnPackage: self selectedPackage package
+		openOnPackage: aPackageTag asNautilusSelection
 		class: self selectedClass
 		category: self selectedCategory
 		method: self selectedMethod

@@ -26,8 +26,7 @@ applyTo: aNautilus
 		cl
 			ifNil: [ interface showInstance: false ] 
 			ifNotNil: [ 
-				interface showInstance: cl isMeta not.
-				cl := cl theNonMetaClass ].
+				interface showInstance: cl isMeta not].
 			
 		interface
 			selectedPackageWithoutChangingSelectionInternally: self selectedPackage;
