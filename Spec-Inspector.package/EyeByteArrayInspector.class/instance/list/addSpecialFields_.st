@@ -1,22 +1,20 @@
 addSpecialFields: elements
-
 	elements add: (DynamicEyeElement 
-			host: self object 
-			label: 'hex' 
-			value: [ String streamContents: [ :s | 
-					s nextPutAll: '['.
-					self object
-						do: [ :each | s << (each printPaddedWith: $0 to: 2 base: 16)  ]
-						separatedBy: [ s nextPut: $ ].
-					s nextPut: $] ] limitedTo: 5000.
-			 ] ).
-		
+		host: self object 
+		label: 'hex bytes' 
+		value: [ self objectAsHexBytes ]).
 	elements add: (DynamicEyeElement 
-			host: self object 
-			label: 'string' 
-			value: [ | str width |
-				str := String new: (width := self object size < 5000 
-					ifTrue: [ self object size ]
-					ifFalse: [ 5000 ] ).
-				str replaceFrom: 1 to: str size with: (self object copyFrom: 1 to: width).
-				str ] ).
+		host: self object 
+		label: 'hex string' 
+		value: [ self objectAsHexString ]).
+	elements add: (DynamicEyeElement 
+		host: self object 
+		label: 'latin-1 string' 
+		value: [ self objectAsLatin1String ]).
+	elements add: (DynamicEyeElement 
+		host: self object 
+		label: 'utf-8 string' 
+		value: [ 
+			[ self objectAsUTF8String ] 
+				on: ZnInvalidUTF8 
+				do: [ :exception | exception asString ] ]).

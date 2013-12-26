@@ -1,12 +1,6 @@
 commentForCurrentUpdate
- ^ '12426 Morph menu has strange behavior when the Morph label is too large
-	https://pharo.fogbugz.com/f/cases/12426
+ ^ '12388 finder does not display the methods that got really executed
+	https://pharo.fogbugz.com/f/cases/12388
 	
-12505 Workaround: skip testChangeInSuperclass
-	https://pharo.fogbugz.com/f/cases/12505
-	
-12474 Cleaning Nautilus extensions
-	https://pharo.fogbugz.com/f/cases/12474
-	
-12436 Move ReleaseTest to its own package
-	https://pharo.fogbugz.com/f/cases/12436'
+12484 Give the Eye Inspector some love
+	https://pharo.fogbugz.com/f/cases/12484'
