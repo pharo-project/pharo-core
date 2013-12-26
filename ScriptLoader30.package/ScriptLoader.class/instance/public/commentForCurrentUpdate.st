@@ -1,9 +1,12 @@
 commentForCurrentUpdate
- ^ '12477 Move MethodFinder old tests from code to TestsPackages
-	https://pharo.fogbugz.com/f/cases/12477
+ ^ '12426 Morph menu has strange behavior when the Morph label is too large
+	https://pharo.fogbugz.com/f/cases/12426
 	
-12055 The Spec Debugger should not require the registered inspector to be built on Spec
-	https://pharo.fogbugz.com/f/cases/12055
-
-11743 Debugger fix the key shortcuts
-	https://pharo.fogbugz.com/f/cases/11743'
+12505 Workaround: skip testChangeInSuperclass
+	https://pharo.fogbugz.com/f/cases/12505
+	
+12474 Cleaning Nautilus extensions
+	https://pharo.fogbugz.com/f/cases/12474
+	
+12436 Move ReleaseTest to its own package
+	https://pharo.fogbugz.com/f/cases/12436'

@@ -1,3 +1,0 @@
-classesOfExtensionMethods
-
-	^ self extendedClasses
