@@ -1,4 +1,4 @@
 smallJumpIconGray
 	^ icons
 			at: #'smallBack'
-			ifAbsentPut:[ self smallJumpIcon asGrayScaleWithAlpha ].
+			ifAbsentPut: [ self smallJumpIcon asGrayScaleWithAlpha ].

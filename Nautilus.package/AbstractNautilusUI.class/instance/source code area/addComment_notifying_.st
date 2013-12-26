@@ -8,4 +8,4 @@ addComment: aText notifying: aController
 					package comment: aText"]]
 		ifNotNil: [:class |
 			commentTextArea update: #clearUserEdits.
-			class comment: aText ]
+			class comment: aText stamp: Author changeStamp]

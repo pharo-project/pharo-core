@@ -2,4 +2,4 @@ smallForwardIconGray
 	"Private - Generated method"
 	^ icons
 			at: #'smallForwardGray'
-			ifAbsentPut:[ self smallForwardIcon asGrayScaleWithAlpha ].
+			ifAbsentPut: [ self smallForwardIcon asGrayScaleWithAlpha ].

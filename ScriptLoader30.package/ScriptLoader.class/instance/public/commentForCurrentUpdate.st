@@ -1,6 +1,12 @@
 commentForCurrentUpdate
- ^ '12388 finder does not display the methods that got really executed
-	https://pharo.fogbugz.com/f/cases/12388
+ ^ '12489 Hidden dependencies between Nautilus and ThemeIcons
+	https://pharo.fogbugz.com/f/cases/12489
 	
-12484 Give the Eye Inspector some love
-	https://pharo.fogbugz.com/f/cases/12484'
+12507 run tests from package throws DNU
+	https://pharo.fogbugz.com/f/cases/12507
+	
+12485 Splits and refactorings in the SpecLayout
+	https://pharo.fogbugz.com/f/cases/12485
+	
+12509 Nautilus does not use changeStamp on newly modified class comment
+	https://pharo.fogbugz.com/f/cases/12509'

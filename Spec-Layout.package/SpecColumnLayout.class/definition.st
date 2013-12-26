@@ -1,5 +1,5 @@
 SpecLayout subclass: #SpecColumnLayout
-	instanceVariableNames: ''
+	instanceVariableNames: 'size numberOfProportionals lastFractionIndex autoFractionComputation height currentProportional currentOffset'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-Layout'
