@@ -1,2 +1,0 @@
-prevButton
-	^ prev

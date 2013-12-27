@@ -10,11 +10,11 @@ methodHierarchyBrowserForClass: aClass selector: sel
 
 	aClass allSuperclasses reverseDo: [:cl |
 		(cl includesSelector: sel) ifTrue: [
-			list addLast: ( (cl>>sel) methodReference )]].
+			list addLast: (self createMethodNamed: sel realParent: cl)]].
 	aClass allSubclassesDo: [:cl | 
 		(cl includesSelector: sel) ifTrue: [
-			list addLast: ( (cl>>sel) methodReference )]].
+			list addLast: ( self createMethodNamed: sel realParent: cl)]].
 
-	list addLast: ((aClass>>sel) methodReference).
+	list addLast: (self createMethodNamed: sel realParent: aClass).
 	^ self browseMessageList: list name: 'Inheritance of ' , sel
 

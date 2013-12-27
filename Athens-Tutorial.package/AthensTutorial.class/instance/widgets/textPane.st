@@ -1,2 +1,0 @@
-textPane
-	^ textpane 
