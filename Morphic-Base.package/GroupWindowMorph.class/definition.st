@@ -1,4 +1,5 @@
 Morph subclass: #GroupWindowMorph
+	uses: TEasilyThemed
 	instanceVariableNames: 'tabGroup'
 	classVariableNames: ''
 	poolDictionaries: ''
