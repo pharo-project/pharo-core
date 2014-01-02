@@ -3,4 +3,3 @@ loadUpdatesFromFile: updatesFile
 		ifFalse: [ ^ self exitFailure: (updatesFile fullName, ' does not exist!') ].
 	
 	UpdateStreamer new updateFromFile: updatesFile.
-	ImageCleaner cleanUpForRelease.
