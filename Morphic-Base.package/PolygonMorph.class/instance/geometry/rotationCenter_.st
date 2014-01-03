@@ -4,5 +4,4 @@ rotationCenter: aPointOrNil
 	aPointOrNil isNil
 		ifTrue: [self removeProperty: #referencePosition]
 		ifFalse: [box := self bounds.
-				self setProperty: #referencePosition
-					toValue: box origin + (aPointOrNil * box extent)]
+				self setProperty: #referencePosition toValue: box origin + (aPointOrNil * box extent)]

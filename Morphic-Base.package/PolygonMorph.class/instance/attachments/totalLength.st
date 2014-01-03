@@ -3,4 +3,4 @@ totalLength
 	| length |
 	length := 0.
 	self lineSegmentsDo: [ :a :b | length := length + (a dist: b) ].
-	^length.
+	^ length.

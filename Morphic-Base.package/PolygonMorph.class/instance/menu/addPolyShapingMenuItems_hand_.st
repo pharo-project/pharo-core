@@ -7,5 +7,5 @@ addPolyShapingMenuItems: aMenu hand: aHandMorph
 			aMenu
 				addWithLabel: 'make enclosing rectangleOval'
 				enablement: [self isClosed ]
-					action: #rectOval.
+					action: #rectangleOval.
 					

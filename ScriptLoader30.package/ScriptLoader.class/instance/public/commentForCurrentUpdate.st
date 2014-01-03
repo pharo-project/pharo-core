@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '12540 PackageDependencyTest has no testmethods
-	https://pharo.fogbugz.com/f/cases/12540
+ ^ '12550 MNU on Browse scoped from a Group
+	https://pharo.fogbugz.com/f/cases/12550
 	
-12498 ClassDescription appears twice in <Hierarchical> view
-	https://pharo.fogbugz.com/f/cases/12498
+12526 Change Groups/packages in Nautilus can freeze the UI
+	https://pharo.fogbugz.com/f/cases/12526
 	
-12527 Add as Group creates an unbrowsable group
-	https://pharo.fogbugz.com/f/cases/12527
-	
-11811 GroupWindowMorph class definition not evaluable
-	https://pharo.fogbugz.com/f/cases/11811'
+12495 Cleaning PolygonMorph
+	https://pharo.fogbugz.com/f/cases/12495'

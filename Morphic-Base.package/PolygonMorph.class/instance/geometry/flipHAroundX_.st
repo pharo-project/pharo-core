@@ -3,10 +3,6 @@ flipHAroundX: centerX
 
 	| cent |
 	cent := centerX 
-		ifNil: [bounds center x
-			"cent := 0.
-			vertices do: [:each | cent := cent + each x].
-			cent asFloat / vertices size"]		"average is the center"
-		ifNotNil: [centerX].
-	self setVertices: (vertices collect: [:vv |
-			((vv x - cent) * -1 + cent) @ vv y]) reversed.
+		ifNil: [ bounds center x ] "average is the center"
+		ifNotNil: [ centerX ].
+	self setVertices: (vertices collect: [ :vv | ((vv x - cent) * -1 + cent) @ vv y ]) reversed.

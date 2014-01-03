@@ -4,7 +4,6 @@ coefficientsForMoreThanThreePoints
 	verts := self vertices. 
 	(self isCurvier not and: [ closed ]) ifTrue: [
 		verts := verts , verts first asOrderedCollection].
-	
 	coefficients := {
 		vertXs := verts collect: [:p | p x asFloat].
 		slopeXs := self slopes: vertXs. 

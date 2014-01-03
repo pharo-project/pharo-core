@@ -8,7 +8,6 @@ changeInSlopes: slopes of: verts
 	n = slopes size ifFalse: [^ self error: 'vertices and slopes differ in number'].
 	slopeChanges := Array new: n.
 	1 to: n do: [:i | slopeChanges at: i put: (verts atWrap: i + 1)
-					- (verts at: i) * 3 - ((slopes at: i)
-						* 2)
+					- (verts at: i) * 3 - ((slopes at: i) * 2)
 					- (slopes atWrap: i + 1)].
 	^ slopeChanges

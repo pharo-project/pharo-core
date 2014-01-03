@@ -11,8 +11,7 @@ midVertices
 	self
 		lineSegmentsDo: [:p1 :p2 | 
 			tweens addLast: p2 asIntegerPoint.
-			p2
-					= (vertices atWrap: nextVertIx)
+			p2 = (vertices atWrap: nextVertIx)
 				ifTrue: ["Found endPoint."
 					midPts addLast: (tweens atWrap: tweens size + 1 // 2)
 							+ (tweens at: tweens size // 2 + 1) // 2.

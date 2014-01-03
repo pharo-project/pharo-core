@@ -1,3 +1,4 @@
 isSelectedPackage: aSelection 
-	^ aSelection notNil 
-		and: [ aSelection asNautilusSelection = self selectedPackage ]
+         aSelection 
+      ifNil:[^ self selectedPackage isNil]
+	ifNotNil:[^ aSelection asNautilusSelection = self selectedPackage ]	

@@ -2,7 +2,6 @@ arrowsContainPoint: aPoint
 	"Answer an Array of two Booleans that indicate whether the given point is inside either arrow"
 
 	| retval f |
-
 	retval := { false . false }.
 	(super containsPoint: aPoint) ifFalse: [^ retval ].
 	(closed or: [arrows == #none or: [vertices size < 2]]) ifTrue: [^ retval].
