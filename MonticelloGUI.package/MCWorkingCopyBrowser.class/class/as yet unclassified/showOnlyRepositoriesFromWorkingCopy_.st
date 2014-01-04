@@ -1,2 +1,0 @@
-showOnlyRepositoriesFromWorkingCopy: aBoolean
-	ShowOnlyRepositoriesFromWorkingCopy  := aBoolean

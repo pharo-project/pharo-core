@@ -1,0 +1,2 @@
+getShowOnlyRepositoriesFromWorkingCopySettings
+	^#('All' 'Package')

@@ -9,3 +9,4 @@ basicDeleteDirectory
 	self volumeListIndex: self volumeListIndex-1.
 
 	reference delete.
+	self directory: reference parent
