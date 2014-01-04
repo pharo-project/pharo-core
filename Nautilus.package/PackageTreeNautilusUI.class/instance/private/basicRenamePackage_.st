@@ -8,5 +8,5 @@ basicRenamePackage: aPackage
 	newName = aPackage name ifTrue: [ ^ self ].
 	
 	(self isValidPackageName: newName)
-		ifTrue: [ aPackage name: newName ]
+		ifTrue: [ aPackage renameTo: newName ]
 		ifFalse: [ self alertInvalidPackageName:newName ].

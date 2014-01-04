@@ -1,1 +1,0 @@
-A ChangeDebuggerAction is xxxxxxxxx.Instance Variables	debuggerClass:		<Object>debuggerClass	- xxxxx

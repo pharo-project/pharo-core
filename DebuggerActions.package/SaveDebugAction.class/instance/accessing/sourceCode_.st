@@ -1,3 +1,0 @@
-sourceCode: aText
-
-	sourceCode := aText
