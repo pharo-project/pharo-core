@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '12571 #evaluate should always #generateWithSource
+update30672
+	"self new update30672"
+	self withUpdateLog: '12571 #evaluate should always #generateWithSource
 	https://pharo.fogbugz.com/f/cases/12571
 	
 12562 NewList separatorAt bug fix
@@ -12,4 +13,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/12563
 	
 12564 Error in #initializeWithTarget:
-	https://pharo.fogbugz.com/f/cases/12564'
+	https://pharo.fogbugz.com/f/cases/12564'.
+	self loadTogether: self script325 merge: false.
+	self flushCaches.

@@ -1,3 +1,3 @@
 cacheAt: index
 
-	^ listCache contents at: index ifAbsent: [ ^ nil ]
+	^ listCache value at: index ifAbsent: [ nil ]

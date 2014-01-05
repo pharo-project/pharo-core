@@ -6,10 +6,8 @@ evaluate
 	 compiled method is invoked from here via withArgs:executeMethod:, hence
 	 the system no longer creates Doit method litter on errors."
 
-	| methodNode method value selectedSource itsSelection itsSelectionString |
-	self
-		class:
-			(context 
+	| value selectedSource itsSelection itsSelectionString |
+	self class: (context 
 				ifNil: [ receiver class ]
 				ifNotNil: [ context method methodClass ]).
 	self noPattern: true.
@@ -20,11 +18,7 @@ evaluate
 		ifTrue: [ itsSelectionString ]
 		ifFalse: [ source ].
 	self source: selectedSource.
-	methodNode := self translate.
-	method := self compilationContext interactive
-		ifTrue: [ methodNode generateWithSource ]
-		ifFalse: [ methodNode generate ].
-	value := receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod: method.
+	value := receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod:  self translate generateWithSource.
 	self compilationContext logged
 		ifTrue: [ SystemAnnouncer uniqueInstance evaluated: selectedSource contents context: context ].
 	^ value
