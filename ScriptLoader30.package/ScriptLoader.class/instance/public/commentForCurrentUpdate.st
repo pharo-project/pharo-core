@@ -1,15 +1,6 @@
 commentForCurrentUpdate
- ^ '12571 #evaluate should always #generateWithSource
-	https://pharo.fogbugz.com/f/cases/12571
+ ^ '12574 SpecDebugActionButton has a bad Layout
+	https://pharo.fogbugz.com/f/cases/12574
 	
-12562 NewList separatorAt bug fix
-	https://pharo.fogbugz.com/f/cases/12562
-	
-12556 debugger is not showing correct icon in taskbar
-	https://pharo.fogbugz.com/f/cases/12556
-	
-12563 Comments in CompiledMethod
-	https://pharo.fogbugz.com/f/cases/12563
-	
-12564 Error in #initializeWithTarget:
-	https://pharo.fogbugz.com/f/cases/12564'
+12575 Add support for Git repo	
+	https://pharo.fogbugz.com/f/cases/12575'
