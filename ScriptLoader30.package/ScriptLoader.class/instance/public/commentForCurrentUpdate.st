@@ -1,6 +1,5 @@
 commentForCurrentUpdate
- ^ '12574 SpecDebugActionButton has a bad Layout
-	https://pharo.fogbugz.com/f/cases/12574
+ ^ '12569 TextModel should not move scroll when accepting text
+	https://pharo.fogbugz.com/f/cases/12569
 	
-12575 Add support for Git repo	
-	https://pharo.fogbugz.com/f/cases/12575'
+'

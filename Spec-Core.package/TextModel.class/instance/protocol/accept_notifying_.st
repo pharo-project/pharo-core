@@ -2,7 +2,7 @@ accept: aText notifying: aNotifyier
 	| accept |
 	
 	accept := actionToPerformHolder value cull: aText cull: aNotifyier.
-	accept == false ifTrue: [ ^ self ].
+	accept == false ifTrue: [ ^ false ].
 	
 	textHolder value: aText.
 	
@@ -10,3 +10,4 @@ accept: aText notifying: aNotifyier
 	actionPerformedHolder value: aText.
 	
 	self changed: #clearUserEdits.
+	^ true
