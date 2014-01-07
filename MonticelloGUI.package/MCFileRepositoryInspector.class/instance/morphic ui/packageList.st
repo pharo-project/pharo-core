@@ -18,5 +18,5 @@ packageList
 			ifFalse: [ loadedA ] ].
 	
 	packagePattern ifNotEmpty: [
-		result := result select: [ :package|  package name includesSubstring: packagePattern ]].
+		result := result select: [ :package|  package name asLowercase includesSubstring: packagePattern ]].
 	^packageList := result collect: [ :each | self packageHighlight: each ]

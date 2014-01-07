@@ -1,0 +1,3 @@
+packagePatternString
+	
+	^ searchWidget searchString

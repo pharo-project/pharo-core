@@ -1,6 +1,6 @@
 fullBrowse
 
-	self model class 
+	^ self model class 
 		openOnPackage: self selectedPackage
 		class: self selectedClass
 		category: self selectedCategory

@@ -4,6 +4,7 @@ showGroups: aBoolean
 	
 	self model selectedPackage: nil.
 	self clearPackageSelections.
+	self listClearSelection.
 	self model showGroups: aBoolean.
 	self updatePackageView.
 	self updateClassView.
