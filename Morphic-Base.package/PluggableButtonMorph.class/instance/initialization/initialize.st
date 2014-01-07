@@ -20,4 +20,5 @@ initialize
 		borderStyle: BorderStyle thinGray;
 		extent: 20 @ 15;
 		setProperty: #lastState toValue: false;
-		cornerStyle: (self theme buttonCornerStyleIn: nil)
+		cornerStyle: (self theme buttonCornerStyleIn: nil).
+	self clipSubmorphs: true

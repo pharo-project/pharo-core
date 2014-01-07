@@ -16,7 +16,7 @@ backgroundColorFor: aRow
 					blockOrSelector isSymbol
 						ifTrue: [ blockOrSelector numArgs == 0
 									ifTrue: [ anItem perform: blockOrSelector ]
-									ifFalse: [ self model perform: blockOrSelector withEnoughArguments: { anItem. (list indexOf: anItem)} ]]
+									ifFalse: [ self model perform: blockOrSelector withEnoughArguments: { anItem. aRow} ]]
 						ifFalse: [ nil ]]].
 		
 		^ return isColor

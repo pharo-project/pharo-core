@@ -14,8 +14,7 @@ findMethod
 	self categoryWidget resetSelection.
 	self methodWidget resetSelection.
 	self categoryWidget selectProtocol: foundMethod category.
- 	self model package: class package class: class category: foundMethod protocol method: foundMethod.
+ 	self model package: self selectedPackage class: self selectedClass category: foundMethod protocol method: foundMethod.
 	
-	self updateBothView.
 	self update.
 	self changed: #sourceCodeFrom:
