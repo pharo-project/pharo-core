@@ -12,7 +12,7 @@ viewChanges
 			ifTrue: [
 				workingCopy modified: false.
 				bar current: 10.
-				self inform: 'No changes' ]
+				MCNoChangesException signal ]
 			ifFalse: [
 				workingCopy modified: true.
 				bar current: 5.
