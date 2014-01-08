@@ -1,7 +1,5 @@
 commentForCurrentUpdate
- ^ '12494 Replace usage of TimeStamp with DateAndTime for methods stamps
-	https://pharo.fogbugz.com/f/cases/12494
+ ^ '12377 ZnHTTPSTests.>>testGetPharoVersion fails on Windows slave
+	https://pharo.fogbugz.com/f/cases/12377
 	
-12592 Text Embedded Morphs Broken
-	https://pharo.fogbugz.com/f/cases/12592
 '
