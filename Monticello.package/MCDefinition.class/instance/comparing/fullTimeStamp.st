@@ -1,2 +1,2 @@
 fullTimeStamp
-	^TimeStamp current
+	^ DateAndTime current

@@ -1,9 +1,7 @@
 commentForCurrentUpdate
- ^ '12234 Compiling a method often makes nautilus deselect the package
-	https://pharo.fogbugz.com/f/cases/12234
+ ^ '12494 Replace usage of TimeStamp with DateAndTime for methods stamps
+	https://pharo.fogbugz.com/f/cases/12494
 	
-12518 Shared package filter history list
-	https://pharo.fogbugz.com/f/cases/12518
-	
-12542 MCBrowser filter does not work well
-	https://pharo.fogbugz.com/f/cases/12542'
+12592 Text Embedded Morphs Broken
+	https://pharo.fogbugz.com/f/cases/12592
+'
