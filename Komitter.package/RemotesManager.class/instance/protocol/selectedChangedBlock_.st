@@ -1,0 +1,2 @@
+selectedChangedBlock: aBlock
+	selectedChangedBlock := aBlock

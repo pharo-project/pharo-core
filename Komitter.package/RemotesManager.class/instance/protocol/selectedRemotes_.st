@@ -1,0 +1,2 @@
+selectedRemotes: aRemoteList
+	selectedRemotes := aRemoteList

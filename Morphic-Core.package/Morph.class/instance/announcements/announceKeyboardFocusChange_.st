@@ -3,5 +3,5 @@ announceKeyboardFocusChange: gotFocus
 	announcement := gotFocus 
 						ifTrue: [ MorphGotFocus morph: self ]
 						ifFalse: [ MorphLostFocus morph: self ].
-	self announcer announce: announcement.
+	self doAnnounce: announcement.
 	Morph announcer announce: announcement.

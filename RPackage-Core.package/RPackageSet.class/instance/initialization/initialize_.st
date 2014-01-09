@@ -11,7 +11,13 @@ initialize: aString
 	sadly, that's incredible slow, so, we changed. 
 	BEWARE: Don't change this code without paying attention to speed. 
 	"
-	| size separatorIndex first |
+	self initialize.
+	packageName := aString asSymbol.
+	packages := { 
+		RPackage organizer 
+			packageNamed: aString
+			ifAbsent: [ (RPackage named: aString) register ] }.
+	"| size separatorIndex first |
 	
 	self initialize.
 		
@@ -28,4 +34,4 @@ initialize: aString
 						and: [ 
 							(((each name at: separatorIndex) == $-)
 							and: [ (each name at: 1) == first ])							
-							and: [ (each name beginsWith: packageName) ] ] ] ]
+							and: [ (each name beginsWith: packageName) ] ] ] ]"
