@@ -4,4 +4,4 @@ packageNamedIgnoreCase: aSymbol ifAbsent: aBlock
 		(each name sameAs: aSymbol) 
 			ifTrue: [  ^ each  ]  ].
 		
-	aBlock value.
+	^ aBlock value.
