@@ -5,7 +5,7 @@ basicAdd: anEntry
 	self checkSize.
 	index := index +1.
 	index > storage size
-		ifTrue: [ storage addLast:  (anEntry -> TimeStamp now)]
+		ifTrue: [ storage addLast:  (anEntry -> DateAndTime now)]
 		ifFalse: [ 
 			storage := storage copyFrom: 1 to: index.
-			storage at: index put: (anEntry -> TimeStamp now)]
+			storage at: index put: (anEntry -> DateAndTime now)]

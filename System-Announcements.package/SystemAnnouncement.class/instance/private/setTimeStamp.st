@@ -1,3 +1,3 @@
 setTimeStamp
 
-	timeStamp := TimeStamp current.
+	timeStamp := DateAndTime current

@@ -5,8 +5,8 @@ changeSetMenu1NewGeneration: aMenuModel
 	
 	
 	menuItem := MenuItemModel new
-		name: [ TimeStamp now asString  ];
-		enabled: [ TimeStamp now seconds even ];
+		name: [ DateAndTime now asString  ];
+		enabled: [ DateAndTime now seconds even ];
 		yourself.
 	
 	aMenuModel

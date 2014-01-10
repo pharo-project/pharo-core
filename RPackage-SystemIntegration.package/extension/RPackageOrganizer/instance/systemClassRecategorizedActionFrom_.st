@@ -5,7 +5,7 @@ systemClassRecategorizedActionFrom: ann
 
 	newCategoryName := ann newCategory asSymbol.
 	oldCategoryName := ann oldCategory asSymbol.
-	oldRPackage := self packageMatchingExtensionName: oldCategoryName.
+	oldRPackage := self packageMatchingExtensionName: oldCategoryName includingClass: class.
 	newRPackage := (self packageMatchingExtensionName: newCategoryName) 
 		ifNil: [ self registerPackage: (self packageClass named: newCategoryName) ].
 
