@@ -3,4 +3,7 @@ quitSession
 	save := Smalltalk tools userManager canSaveImage
 		ifFalse: [ false ]
 		ifTrue: [ self confirm: 'Save changes before quitting?' translated orCancel: [ ^ self ] ].
-	Cursor write showWhile: [ Smalltalk snapshot: save andQuit: true ]
+	save 
+		ifTrue: [Cursor write showWhile: [ Smalltalk snapshot: true andQuit: true ]] 
+		ifFalse: [Smalltalk snapshot: false andQuit: true]
+ 

@@ -3,8 +3,6 @@ testChangeInSuperclass
 	
 	|  aClass aClassSubclass instance materializedInstance |	
 		
-	self skip. "lead to crashes on the build server, temporary disabled"	
-	
 	aClass := self newClassWithInstanceVariableNames: 'a b c' superclass: Object.
 	aClassSubclass := self newClassWithInstanceVariableNames: 'd e' superclass: aClass.
 	
