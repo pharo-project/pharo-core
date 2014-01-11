@@ -10,6 +10,5 @@ addCategoryIn: aClass before: aCategory
 	aClass organization
 		addCategory: newName
 		before: aCategory.
-	self selectedCategory: newName.
 	
 	^ newName

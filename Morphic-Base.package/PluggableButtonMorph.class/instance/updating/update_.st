@@ -2,11 +2,7 @@ update: aParameter
 
 	|state|
 	aParameter  ifNil: [^self].
-	getLabelSelector ifNotNil: [
-		aParameter == getLabelSelector ifTrue: [
-			(self labelMorph respondsTo: #font)
-				ifTrue: [self label: (model perform: getLabelSelector) font: self labelMorph font]
-				ifFalse: [self label: (model perform: getLabelSelector)]]].
+	getLabelSelector ifNotNil: [	aParameter == getLabelSelector ifTrue: [ self label: (model perform: getLabelSelector) ]].
 	state := self getModelState.
 	(state ~= (self valueOfProperty: #lastState) or: [
 	getStateSelector isNil and: [aParameter == #onOffColor]])

@@ -1,3 +1,3 @@
 addCategoryIn: aClass
 
-	self addCategoryIn: aClass before: nil
+	^ self addCategoryIn: aClass before: nil

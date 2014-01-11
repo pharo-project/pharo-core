@@ -1,2 +1,0 @@
-shortcutFromString
-	self shouldBeImplemented.
