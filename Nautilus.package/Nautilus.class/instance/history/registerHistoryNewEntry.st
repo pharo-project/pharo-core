@@ -10,9 +10,6 @@ registerHistoryNewEntry
 			and: [ wrapper selectedMethod = lastEntry selectedMethod 
 			and: [ wrapper selectedClass theNonMetaClass = lastEntry selectedClass theNonMetaClass ] ] ) ] ) 
 				ifTrue: [ ^ self ] ].
-	wrapper showGroups
-			ifTrue: [ wrapper selectedGroup ifNil: [ ^ self ] ]
-			ifFalse: [ wrapper selectedClass ifNil: [ ^ self ] ].
 	
 	self browsingHistory add: wrapper.
 	self triggerEvent: #historyChanged.

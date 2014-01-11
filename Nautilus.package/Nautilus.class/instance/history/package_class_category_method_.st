@@ -6,4 +6,4 @@ package: aPackage class: aClass category: aCategory method: aMethod
 		selectedCategory: aCategory;
 		selectedMethod: aMethod.
 		
-	self registerHistoryNewEntry.
+	self selectedClass notNil ifTrue:[self registerHistoryNewEntry ]

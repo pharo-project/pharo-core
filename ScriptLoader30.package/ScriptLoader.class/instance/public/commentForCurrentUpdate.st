@@ -1,10 +1,7 @@
 commentForCurrentUpdate
- ^ '12315 Menu World/System/Switch User raises Error and MNU.
-	https://pharo.fogbugz.com/f/cases/12315
+ ^ '12623 add #linesOfCode to RPackage
+	https://pharo.fogbugz.com/f/cases/12623
 	
-12620 Issue in AbstractTool
-	https://pharo.fogbugz.com/f/cases/12620
-	
-12413 ButtonModel should have shortcut support
-	https://pharo.fogbugz.com/f/cases/12413
+12621 no new history entries after selecting a group
+	https://pharo.fogbugz.com/f/cases/12621
 '
