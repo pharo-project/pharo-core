@@ -1,0 +1,2 @@
+removeAll
+	head := tail := nil

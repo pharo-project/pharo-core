@@ -1,0 +1,2 @@
+hasSuccessor
+	^ nextLink notNil

@@ -1,0 +1,2 @@
+isBelowMaximum
+	^ total <= maximum 

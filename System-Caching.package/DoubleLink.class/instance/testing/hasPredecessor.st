@@ -1,0 +1,2 @@
+hasPredecessor
+	^ previousLink notNil

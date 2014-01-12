@@ -1,0 +1,1 @@
+I am DoubleLinkedList, an ordered list data structure consisting of objects, most likely DoubleLinks or something compatible, connected to each other by forward and backwards links.

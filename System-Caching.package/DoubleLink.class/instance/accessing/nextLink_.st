@@ -1,0 +1,2 @@
+nextLink: anObject
+	nextLink := anObject

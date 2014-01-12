@@ -1,0 +1,2 @@
+newCache
+	^ TTLCache new

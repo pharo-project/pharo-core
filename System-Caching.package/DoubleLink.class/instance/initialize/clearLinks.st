@@ -1,0 +1,2 @@
+clearLinks
+	nextLink := previousLink := nil
