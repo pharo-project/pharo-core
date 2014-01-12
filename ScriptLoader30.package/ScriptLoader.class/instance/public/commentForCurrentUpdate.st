@@ -1,4 +1,4 @@
 commentForCurrentUpdate
- ^ '12481 Update LRUCache Implementation - Step 2 - Load the new LRUCache code
-	https://pharo.fogbugz.com/f/cases/12481
+ ^ '12482 Update LRUCache Implementation - Step 3 - Use the new LRUCache code
+	https://pharo.fogbugz.com/f/cases/12482
 '
