@@ -1,11 +1,6 @@
 pixelRamp
+	"Compute a pixel ramp, and cache it for future accesses"
 
-"Compute a pixel ramp, and cache it for future accesses"
-
-^pixelRamp ifNil:[
-	"Insure the PixelRampCache is in place"
-	PixelRampCache ifNil:[ self class initPixelRampCache  ].
-
-	"Ask my cache for an existing instance if one is available"
-	pixelRamp := PixelRampCache at: colorRamp	
-].
+	^ pixelRamp ifNil: [
+		"Ask my cache for an existing instance or to create one"
+		pixelRamp := self class pixelRampCache at: colorRamp ]

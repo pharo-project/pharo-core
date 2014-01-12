@@ -1,6 +1,6 @@
 createArrowImagesCache
 	"creates the cache to store the arrow forms"
-	^ LRUCache
+	^ OldLRUCache
 		size: 40
 		factory: [:key | ""
 			self

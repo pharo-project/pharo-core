@@ -1,7 +1,4 @@
 commentForCurrentUpdate
- ^ '12623 add #linesOfCode to RPackage
-	https://pharo.fogbugz.com/f/cases/12623
-	
-12621 no new history entries after selecting a group
-	https://pharo.fogbugz.com/f/cases/12621
+ ^ '12615 Update LRUCache Implementation - Step 1B - Changed existing instances of LRUCache to OldLRUCache
+	https://pharo.fogbugz.com/f/cases/12615
 '
