@@ -10,6 +10,7 @@ initializeBindings
 		at: #LabelAdapter				put: #MorphicLabelAdapter;
 		at: #ListAdapter				put: #MorphicListAdapter;
 		at: #IconListAdapter			put: #MorphicIconListAdapter;
+		at: #ImageAdapter			put: #MorphicImageAdapter;
 		at: #MultiColumnListAdapter	put: #MorphicMultiColumnListAdapter;
 		at: #MenuAdapter				put: #MorphicMenuAdapter;
 		at: #MenuGroupAdapter		put: #MorphicMenuGroupAdapter;

@@ -1,5 +1,5 @@
 AbstractWidgetModel subclass: #ImageModel
-	instanceVariableNames: 'imageHolder'
+	instanceVariableNames: 'imageHolder action'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-Core-Widgets'

@@ -3,5 +3,6 @@ initialize
 	super initialize.
 
 	imageHolder := nil asValueHolder.
-	enabledHolder := true asValueHolder.
+	action := [] asValueHolder. 
+	
 	imageHolder whenChangedDo: [ self changed: #getImage ].

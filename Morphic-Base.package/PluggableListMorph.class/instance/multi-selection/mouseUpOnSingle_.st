@@ -13,6 +13,9 @@ mouseUpOnSingle: event
 
 	"No change if model is locked or receiver disabled"
 	row == self selectionIndex
-		ifTrue: [self autoDeselect ifTrue:[row = 0 ifFalse: [self changeModelSelection: 0] ]]
-		ifFalse: [self changeModelSelection: row].
+		ifTrue: [
+			self autoDeselect 
+				ifTrue: [ row = 0 ifFalse: [ self changeModelSelection: 0 ] ]
+				ifFalse: [ self changeModelSelection: row ] ]
+		ifFalse: [ self changeModelSelection: row ].
 	Cursor normal show

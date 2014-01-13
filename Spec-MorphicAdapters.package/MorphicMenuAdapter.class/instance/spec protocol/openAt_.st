@@ -1,3 +1,3 @@
 openAt: aPoint 
 
-	self widgetDo: [ :w | w invokeAt: aPoint in: World allowKeyboard: true ]
+	self widgetDo: [ :w | w invokeAt: (aPoint + (2@7)) in: World allowKeyboard: true ]

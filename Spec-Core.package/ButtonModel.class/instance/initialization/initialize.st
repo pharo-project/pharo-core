@@ -20,5 +20,10 @@ initialize
 		self unregisterShortcut: oldShortcut.
 		self registerShortcut: newShortcut.
 		self changed: #label ].
+	
+	menuHolder := MenuModel new asValueHolder.	
+	menuHolder whenChangedDo: [ :aMenuModel :oldMenu | 
+		(oldMenu isNil or: [ oldMenu isBlock ]) ifFalse: [ oldMenu neglect: self ].
+		(aMenuModel isNil or: [ aMenuModel isBlock ]) ifFalse: [ aMenuModel applyTo: self ] ].
 		
 	self bindKeyCombination: Character space toAction: [ self action ].

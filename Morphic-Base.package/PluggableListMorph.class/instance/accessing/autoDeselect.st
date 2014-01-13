@@ -1,3 +1,5 @@
 autoDeselect
 
-	^ self resetListSelector notNil or: [ autoDeselect ifNil: [ true ] ]
+	^ autoDeselect
+		ifNil: [ self resetListSelector notNil ]
+		ifNotNil: [ autoDeselect ]

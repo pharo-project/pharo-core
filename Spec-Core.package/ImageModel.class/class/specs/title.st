@@ -1,3 +1,0 @@
-title
-
-	^ 'AlphaImage Morph'

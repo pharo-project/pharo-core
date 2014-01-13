@@ -1,0 +1,3 @@
+isEmpty
+
+	^ items isEmpty

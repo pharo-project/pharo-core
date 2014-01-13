@@ -1,3 +1,3 @@
 widgetDo: aBlock
 
-	self widget ifNotNil: aBlock
+	^ self widget ifNotNil: aBlock

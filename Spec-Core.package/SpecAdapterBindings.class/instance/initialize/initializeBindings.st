@@ -6,10 +6,11 @@ initializeBindings
 		at: #CheckBoxAdapter			put: #CheckBoxAdapter;
 		at: #ContainerAdapter			put: #ContainerAdapter;
 		at: #DiffAdapter				put: #MorphicDiffAdapter;
-		at: #DropListAdapter			put: #DropListAdapter;
+		at: #ImageAdapter				put: #ImageAdapter;
 		at: #LabelAdapter				put: #LabelAdapter;
 		at: #ListAdapter				put: #ListAdapter;
 		at: #IconListAdapter			put: #IconListAdapter;
+		at: #DropListAdapter			put: #DropListAdapter;
 		at: #MultiColumnListAdapter	put: #MultiColumnListAdapter;
 		at: #MenuAdapter				put: #MenuAdapter;
 		at: #MenuGroupAdapter		put: #MenuGroupAdapter;

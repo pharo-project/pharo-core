@@ -1,3 +1,3 @@
 hasUnacceptedEdits: aBoolean
 
-	self widget hasUnacceptedEdits: aBoolean
+	self model hasUnacceptedEdits: aBoolean

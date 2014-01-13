@@ -1,3 +1,3 @@
-notify: errorMessage at: postion in: sourceCode 
-	
-	self widgetDo: [ :w | w notify: errorMessage at: postion in: sourceCode ]
+notify: errorMessage at: position in: sourceCode
+
+	self widgetDo: [ :w | w notify: errorMessage at: position in: sourceCode ]
