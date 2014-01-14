@@ -1,8 +1,3 @@
 commentForCurrentUpdate
- ^ '7542 NB system example
-	Part1: add Class>>#newAnonymousSubclass
-	https://pharo.fogbugz.com/f/cases/7542
-	
-12605 promptForCancel is sometimes unclosable
-	https://pharo.fogbugz.com/f/cases/12605
-	'
+ ^ '12644 fix ClassTest>>#testClassRespectsPolymorphismWithTrait: add exception for anonymous class
+	https://pharo.fogbugz.com/f/cases/12644'
