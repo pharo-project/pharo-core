@@ -9,6 +9,7 @@ version10: spec
 	spec for: #common do: [
 		spec 
 			description: 'Version 1.0 the current stable release';
+			blessing: #release;
 			author: 'John Doe';
 			timestamp: '2013-05-01'.
 		

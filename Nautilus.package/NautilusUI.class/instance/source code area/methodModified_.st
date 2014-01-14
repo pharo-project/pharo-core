@@ -1,12 +1,13 @@
 methodModified: anAnnouncement 
-	| collection |
+	| collection nonMetaMethodClass |
 
 	window ifNil: [ ^ self ].
 	window isDisplayed ifFalse: [ ^ self ].
 	
 	collection := self getList2.
-	
-	((collection includes: anAnnouncement methodClass) or: [ anAnnouncement methodClass users includes: self selectedClass  ])
+	nonMetaMethodClass:=anAnnouncement methodClass.
+	self showInstance ifFalse:[nonMetaMethodClass:=nonMetaMethodClass theNonMetaClass].
+	((collection includes: nonMetaMethodClass) or: [ anAnnouncement methodClass users includes: self selectedClass  ])
 		ifTrue: [
 			| method selectedMethod oldMethod |
 			method := anAnnouncement newMethod.
