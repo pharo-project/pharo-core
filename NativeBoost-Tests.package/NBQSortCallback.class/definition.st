@@ -2,4 +2,4 @@ NBFFICallback subclass: #NBQSortCallback
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'NativeBoost-Tests'
+	category: 'NativeBoost-Tests-Core'

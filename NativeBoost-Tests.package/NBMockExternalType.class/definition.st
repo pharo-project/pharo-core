@@ -2,4 +2,4 @@ Object subclass: #NBMockExternalType
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'NativeBoost-Tests'
+	category: 'NativeBoost-Tests-Core'

@@ -8,8 +8,6 @@ pushArguments
 	    2              1             1
 	    3              0             0
 	"
-	asm decorateWith: 'FFI: prepare arguments' during: [   
-		fnSpec arguments do: [:arg | arg prepareArgumentUsing: self ] ].
 
 	"both cdecl/apicall using reverse argument order on stack"
 	fnSpec arguments notEmpty ifTrue: [

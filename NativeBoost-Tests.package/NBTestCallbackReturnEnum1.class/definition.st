@@ -2,4 +2,4 @@ NBFFICallback subclass: #NBTestCallbackReturnEnum1
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'NativeBoost-Tests'
+	category: 'NativeBoost-Tests-Core'

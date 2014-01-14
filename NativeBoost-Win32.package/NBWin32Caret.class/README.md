@@ -1,0 +1,1 @@
+A NBWin32Caret is xxxxxxxxx.

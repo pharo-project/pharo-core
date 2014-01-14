@@ -2,4 +2,4 @@ NBExternalEnumeration subclass: #NBTestEnumerationFromPairs
 	instanceVariableNames: ''
 	classVariableNames: 'AAA BBB CCC DDD'
 	poolDictionaries: ''
-	category: 'NativeBoost-Tests'
+	category: 'NativeBoost-Tests-Core'

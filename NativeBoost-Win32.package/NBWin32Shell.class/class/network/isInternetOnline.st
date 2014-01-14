@@ -1,0 +1,3 @@
+isInternetOnline
+
+	^self isInternetOffline not

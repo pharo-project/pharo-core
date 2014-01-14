@@ -2,4 +2,4 @@ TestCase subclass: #NBInterpreterProxyTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'NativeBoost-Tests'
+	category: 'NativeBoost-Tests-Core'

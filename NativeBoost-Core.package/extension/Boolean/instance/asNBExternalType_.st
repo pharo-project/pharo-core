@@ -3,4 +3,4 @@ asNBExternalType: gen
 	
 	#( true false )  - turned into a 1 and 0
 	"
-	^ NBFFIConst value: (self ifTrue: [1] ifFalse:[0])
+	^ NBFFIConst value: self asBit

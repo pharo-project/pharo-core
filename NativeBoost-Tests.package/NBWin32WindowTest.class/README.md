@@ -1,0 +1,1 @@
+A NBWin32WindowTest is xxxxxxxxx.

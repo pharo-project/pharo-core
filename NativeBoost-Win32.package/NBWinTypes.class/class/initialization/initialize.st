@@ -3,6 +3,8 @@ initialize
 	BOOL := #bool.
 	DWORD := #ulong.
 	HWND := #NBWin32Window.
+	POINT := #NBWin32Point.
+	RECT := #NBWin32Rectangle.
 	HDC := #NBWin32Hdc.
 	HMENU := #HANDLE.
 	UINT := #ulong.

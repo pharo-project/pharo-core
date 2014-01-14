@@ -4,6 +4,9 @@ generateInstructions: aFunctionBodyBlock
 	proxy prepareForCallout.
 	"prepare & push arguments"	
 	
+	asm decorateWith: 'FFI: prepare arguments' during: [ fnSpec arguments do: [:arg | arg prepareArgumentUsing: self ] ].
+
+	
 	self foreignCall: [:call |
 		"do not align, if its not required"
 		self optNoAlignment ifTrue: [ call alignment: 1].

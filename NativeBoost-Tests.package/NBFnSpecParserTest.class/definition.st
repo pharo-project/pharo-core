@@ -2,4 +2,4 @@ TestCase subclass: #NBFnSpecParserTest
 	instanceVariableNames: 'types'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'NativeBoost-Tests'
+	category: 'NativeBoost-Tests-Core'
