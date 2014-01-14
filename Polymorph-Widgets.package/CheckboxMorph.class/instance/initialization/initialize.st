@@ -15,6 +15,6 @@ initialize
 		cellInset: 4;
 		labelMorph: self newLabelMorph;
 		buttonMorph: self newButtonMorph;
-		on: #click send: #labelClicked to: self;
+		on: #click send: #updateButton: to: self;
 		on: #mouseMove send: #updateButton: to: self;
 		on: #mouseUp send: #updateButton: to: self
