@@ -1,40 +1,19 @@
-selectedClassWithoutChangingSelection: aClass 
+"protocol: accessing"
+selectedClassWithoutChangingSelection: aClass
 	categoryWidget resetCategoryCache.
-	commentTextArea ifNotNil: [
-				aClass 
-					ifNil: [ commentTextArea disable ]
-					ifNotNil: [ commentTextArea enable ]].
 	self okToChangeBoth
-		ifTrue: [| package packageChanged cl |
-			package := self selectedPackage.
-			(self showPackages not or: [self showGroups ])
-				ifTrue: [ aClass ifNotNil: [ package := self parentOfClass: aClass ] ].
-				
-			aClass 
-				ifNil: [ 
-					acceptor := ClassDefinitionAcceptor model: self.
-					classesSelection removeAll ]
-				ifNotNil: [ acceptor := ClassOrMethodDefinitionAcceptor model: self ].
-				
-			packageChanged := (package ~= self selectedPackage).
-			self model package: package class: aClass category: nil method: nil.
-			cl := aClass.
-			cl ifNotNil: [ cl := cl theNonMetaClass ].
-			classesSelection at: cl put: true.
-			self changed: #toggleButtonEnabled.
-			self setWindowTitle.
-			
-			packageChanged ifTrue: [
-				packagesSelection removeAll.
-				packagesSelection at: package put: true.
-				self showGroups
-					ifTrue: [ self updateClassView ]
-					ifFalse: [ self updateBothView ]].
-
-			self resetCategoriesListSelection.
-			self resetMethodsListSelection.
-			self update.
-			self changed: #isAClassSelected.
-			self changed: #getComments.
-			self changed: #instanceButtonLabel.
-			self changed: #sourceCodeFrom:]
+		ifFalse: [ ^ self ].
+	aClass
+		ifNil: [ self unselectClass ]
+		ifNotNil: [ 
+			acceptor := ClassOrMethodDefinitionAcceptor model: self.
+			classesSelection at: aClass theNonMetaClass put: true.
+			((self selectedPackage notNil) and:[ self selectedPackage includesClass: aClass theNonMetaClass])
+				ifTrue: [ 
+					self model
+						package: self selectedPackage
+						class: aClass
+						category: nil
+						method: nil ]
+				ifFalse: [ self selectedClass: aClass withSelection: (self parentOfClass: aClass) ].
+			self updateOnClassSelection ]
