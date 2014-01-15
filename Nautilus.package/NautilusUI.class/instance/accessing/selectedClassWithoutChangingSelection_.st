@@ -8,7 +8,7 @@ selectedClassWithoutChangingSelection: aClass
 		ifNotNil: [ 
 			acceptor := ClassOrMethodDefinitionAcceptor model: self.
 			classesSelection at: aClass theNonMetaClass put: true.
-			((self selectedPackage notNil) and:[ self selectedPackage includesClass: aClass theNonMetaClass])
+			(self selectedPackageIncludes: aClass theNonMetaClass)
 				ifTrue: [ 
 					self model
 						package: self selectedPackage

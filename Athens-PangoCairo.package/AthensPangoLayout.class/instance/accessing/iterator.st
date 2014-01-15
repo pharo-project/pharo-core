@@ -1,3 +1,0 @@
-iterator
-	^ self primGetIterator.
-	

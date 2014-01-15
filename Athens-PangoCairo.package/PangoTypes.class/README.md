@@ -1,1 +1,0 @@
-A PangoTypes is xxxxxxxxx.

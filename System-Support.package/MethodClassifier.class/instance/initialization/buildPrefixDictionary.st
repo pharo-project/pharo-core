@@ -4,7 +4,7 @@ buildPrefixDictionary
 		at: 'test' put: 'tests';
 	 	at: 'bench' put: 'benchmarking';
 	 	at: 'copy' put: 'copying';
-		at: 'initialize' put: 'initialize-release';
+		at: 'initialize' put: 'initialization';
 		at: 'accept' put: 'visitor';
 		at: 'visit' put: 'visitor';
 		at: 'signal' put: 'signalling';
@@ -12,4 +12,4 @@ buildPrefixDictionary
 		at: 'add' put: 'adding';
 		at: 'is' put: 'testing';
 		at: 'as' put: 'converting';
-		at: 'new' put: 'instance-creation'.
+		at: 'new' put: 'instance creation'.

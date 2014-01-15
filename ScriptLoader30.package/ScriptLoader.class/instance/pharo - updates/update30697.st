@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '12589 Nautilus: Package file-outs are empty
+update30697
+	"self new update30697"
+	self withUpdateLog: '12589 Nautilus: Package file-outs are empty
 	https://pharo.fogbugz.com/f/cases/12589
 	
 12625 toggling hierarchy/flat shows wrong package and hides selected class
@@ -10,4 +11,7 @@ commentForCurrentUpdate
 	
 12652 MethodClassifier wrong values
 	https://pharo.fogbugz.com/f/cases/12652
-	'
+	'.
+	self loadTogether: self script350 merge: false.
+	ScriptLoader new deletePackage: 'Athens-PangoCairo'.
+	self flushCaches.

@@ -1,1 +1,0 @@
-A TPangoCairoLibrary is xxxxxxxxx.
