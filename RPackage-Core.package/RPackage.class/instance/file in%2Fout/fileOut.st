@@ -4,7 +4,10 @@ fileOut
 	internalStream := (String new: 1000) writeStream.
 
 	self classTags do: [ :each | 
-		SystemOrganization fileOutCategory: each name on: internalStream ].	
+		SystemOrganization 
+			fileOutCategory: each categoryName 
+			on: internalStream ].	
+	
 	classExtensionSelectors keysAndValuesDo: [ :className :selectors | 
 		selectors do: [ :selector | | extendedClass |
 			extendedClass := Smalltalk globals classNamed: className.
