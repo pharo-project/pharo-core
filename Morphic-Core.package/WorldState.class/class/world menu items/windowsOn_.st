@@ -28,4 +28,7 @@ windowsOn: aBuilder
 			(aBuilder item: # 'Delete all windows discarding edits') 
 				action: [World closeAllWindowsDiscardingChanges];
 				help: 'Deletes all windows even if they have unsaved text edits.' translated.
+			(aBuilder item: # 'Toggle full screen mode') 
+				action: [Display toggleFullscreen];
+				help: 'Turn full screen mode on when it is off, off when it is on.' translated.
 			]
