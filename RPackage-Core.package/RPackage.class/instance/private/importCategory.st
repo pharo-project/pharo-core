@@ -5,5 +5,5 @@ importCategory
 	cat := Smalltalk globals organization categories select: [:each | each beginsWith: self name ]. 
 	classesInCat := cat gather: [:c | Smalltalk globals organization listAtCategoryNamed: c].
 	classesInCat do: [:each | 
-		self importClass: (Smalltalk globals at: each).
-		self importClass: (Smalltalk globals at: each) theMetaClass]
+		self addClass: (Smalltalk globals at: each).
+		self addClass: (Smalltalk globals at: each) theMetaClass]

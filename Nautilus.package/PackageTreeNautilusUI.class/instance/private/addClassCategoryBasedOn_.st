@@ -9,13 +9,7 @@ addClassCategoryBasedOn: aSelection
 		title: 'Create a new category'.
 	
 	(self isValidPackageName: name)
-		ifTrue: [ 
-			| categoryName |
-			categoryName := (package name, '-', name) asSymbol.
-			SystemOrganization addCategory: categoryName.
-			packageTag := package 
-				classTagNamed: name 
-				ifAbsent: [ self error: 'Ther was a problem with package registration' ] ]
+		ifTrue: [ packageTag := package addClassTag: name ]
 		ifFalse: [ self alertInvalidPackageName: name ].
 	
 	^ packageTag

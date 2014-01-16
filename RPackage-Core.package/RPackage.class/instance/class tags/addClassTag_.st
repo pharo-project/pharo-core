@@ -4,7 +4,6 @@ addClassTag: aSymbol
 
 	"strip package name if needed"
 	tagName := self toTagName: aSymbol.
-	
 	^ self 
 		classTagNamed: tagName
-		ifAbsent: [ classTags add: (RPackageTag package: self name: tagName) ]
+		ifAbsent: [ self basicAddClassTag: tagName ]

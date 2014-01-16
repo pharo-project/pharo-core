@@ -3,8 +3,10 @@ renameCategory: aCategory from: aClass
 	current selection, or at the end if no current selection"
 	
 	| oldName newName |
+	
 	aClass ifNil: [^ nil].
 	aCategory ifNil: [^ nil].
+	
 	oldName := aCategory.
 	newName := self class requestProtocolNameFor: aClass initialAnswer: oldName.
 	newName isEmptyOrNil
@@ -14,4 +16,5 @@ renameCategory: aCategory from: aClass
 	aClass organization
 		renameCategory: oldName
 		toBe: newName.
+	
 	^ newName

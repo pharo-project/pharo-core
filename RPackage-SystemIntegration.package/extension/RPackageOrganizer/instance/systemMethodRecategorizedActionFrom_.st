@@ -9,54 +9,38 @@ systemMethodRecategorizedActionFrom: ann
 		
 	| oldProtocol newProtocol method methodPackage destinationPackage |
 
-	oldProtocol := ann oldProtocol.
-	"old protocol might be nil:"
-	oldProtocol asString ifNil: [oldProtocol := ''].
-	newProtocol := ann  newProtocol.
 	method := ann methodRecategorized.
-	
-	"1). See compiledMethod >> packageFromOrganizer:"
-	
-	"we have to pay attention that this announcement can come from TraitDescription>>updateOrganizationSelector:oldCategory:newCategory: . In this context, it can happen that the method referenced by the event is nil. In this case I think we should change nothing"
-	
-	
-	method isNil ifFalse: [
-		"If the method origin is not the one of the event, we do not care about that method"
-		method origin = ann methodClass ifFalse: [^ self].
-		
-		methodPackage := method packageFromOrganizer: self.
-		"if newProtocol is nil, it means that we are in a 'methodRemoved' case. Nothing should be modified (all the work will be done when catching methodRemovedAnnouncement) " 
-		newProtocol isNil ifTrue: [^self].
-		"it can happen that oldProtocol is Nil. in this case we should do nothing"
-		oldProtocol ifNil: [^ self].
-		"maybe the category has changed"
-		newProtocol asLowercase = oldProtocol asLowercase
-			ifFalse: [
-				"according the extension specified is valid or not, the method will be defined as an extension of an external package or in the class parent package"
-				destinationPackage := (self hasPackageForProtocol: newProtocol inClass: method methodClass)
-					ifTrue: [ self packageForProtocol: newProtocol inClass: method methodClass ]
-					ifFalse: [ 
-						(newProtocol beginsWith: '*')
-							ifTrue: [ self ensureExistAndRegisterPackageNamed: newProtocol allButFirst capitalized ]
-							ifFalse: [ method methodClass package ] ].
-				methodPackage := (self hasPackageForProtocol: oldProtocol inClass: method methodClass)
-					ifTrue: [ self packageForProtocol: oldProtocol inClass: method methodClass ]
-					ifFalse: [ method methodClass package ].
+	method ifNil: [ ^ self ].
+	method origin = ann methodClass ifFalse: [ ^ self].
 
-				"then, we will remove the method from the method package, and add it to the destination package (we check before that the source package and the destination package are different)."
-				methodPackage = destinationPackage
-					ifFalse: [
-						(methodPackage methods includes: method) 
-							ifTrue: [ methodPackage removeMethod: method ].
-						
-						destinationPackage addMethod: method.
-						
-						SystemAnnouncer uniqueInstance
-											methodRepackaged: method
-											from: methodPackage
-											to: destinationPackage.
-						]
-				]
-		]
+	newProtocol := ann  newProtocol.
+	newProtocol ifNil: [ ^ self ].
+
+	oldProtocol := ann oldProtocol ifNil: [ '' ].
 	
-	
+	methodPackage := method packageFromOrganizer: self.
+	newProtocol asLowercase = oldProtocol asLowercase
+		ifFalse: [
+			destinationPackage := (self hasPackageForProtocol: newProtocol inClass: method methodClass)
+				ifTrue: [ 
+					self packageForProtocol: newProtocol inClass: method methodClass ]
+				ifFalse: [ 
+					(newProtocol beginsWith: '*')
+						ifTrue: [ self ensureExistAndRegisterPackageNamed: newProtocol allButFirst capitalized ]
+						ifFalse: [ method methodClass package ] ].
+					
+			methodPackage := (self hasPackageForProtocol: oldProtocol inClass: method methodClass)
+				ifTrue: [ self packageForProtocol: oldProtocol inClass: method methodClass ]
+				ifFalse: [ method methodClass package ].
+
+			methodPackage = destinationPackage
+				ifFalse: [
+					(methodPackage methods includes: method) 
+						ifTrue: [ methodPackage removeMethod: method ].
+					
+					destinationPackage addMethod: method.
+					
+					SystemAnnouncer uniqueInstance
+						methodRepackaged: method
+						from: methodPackage
+						to: destinationPackage ] ]

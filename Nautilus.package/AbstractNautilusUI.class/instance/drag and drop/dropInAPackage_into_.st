@@ -9,7 +9,7 @@ dropInAPackage: aCollection into: receiver
 						self selectedGroup removeClass: aClass.
 						self updateClassView ]]
 			ifFalse: [
-				aClass theNonMetaClass category: receiver categoryName.
+				receiver addClass: aClass theNonMetaClass.
 				ActiveHand shiftPressed
 					ifTrue: [ 
 						self selectedClass: nil.

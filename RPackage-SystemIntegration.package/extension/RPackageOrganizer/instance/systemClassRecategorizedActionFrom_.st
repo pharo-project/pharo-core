@@ -10,11 +10,11 @@ systemClassRecategorizedActionFrom: ann
 		ifNil: [ self registerPackage: (self packageClass named: newCategoryName) ].
 
 	oldRPackage removeClass: class.	
-	newRPackage importClass: class.
+	newRPackage addClass: class.
 	newRPackage 
 		addClassDefinition: class 
 		toClassTag: class category asSymbol.
-	newRPackage importClass: class theMetaClass	.
+	newRPackage addClass: class theMetaClass	.
 
 	SystemAnnouncer uniqueInstance 
 		classRepackaged: class 

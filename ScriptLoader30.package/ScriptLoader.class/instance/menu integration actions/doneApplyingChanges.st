@@ -6,7 +6,7 @@ doneApplyingChanges
 	
 	comment := UIManager default
 		multiLineRequest: 'Comment for this update.'
-		initialAnswer: self commentForCurrentUpdate
+		initialAnswer: self generateCommentForCurrentUpdate
 		answerHeight: 200.
 	comment ifNil: [^ self].
 	
