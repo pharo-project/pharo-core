@@ -1,8 +1,8 @@
 commentForCurrentUpdate
- ^ '12643 MNU if a ButtonModel label is nil
-	https://pharo.fogbugz.com/f/cases/12643
+ ^ '12461 MultiByteBinaryOrTextStream cannot use TextConverters like MultiByteFileStream unless patched
+	https://pharo.fogbugz.com/f/cases/12461
 
-12663 #cleanUpForRelease should only be run on the build server
-	https://pharo.fogbugz.com/f/cases/12663
+12488 Can not create newAnonymousSubclass of ByteLayout classes
+	https://pharo.fogbugz.com/f/cases/12488
 
 '

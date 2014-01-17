@@ -1,3 +1,8 @@
 basicNext
+	| nextChar |
 
-	^ super next 
+	^ isBinary
+		ifTrue: [super next]
+		ifFalse: [
+			(nextChar := super next)
+				ifNotNil: [nextChar asCharacter]].
