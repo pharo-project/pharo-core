@@ -1,0 +1,3 @@
+adapterName
+
+	^ #MenuGroupAdapter

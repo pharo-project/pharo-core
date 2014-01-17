@@ -1,3 +1,3 @@
 defaultSpec
 
-	^ SpecLayout composed
+	^ { self adapterName. #adapt:. #model }
