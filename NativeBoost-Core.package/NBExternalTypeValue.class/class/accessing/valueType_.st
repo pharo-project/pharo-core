@@ -1,3 +1,5 @@
 valueType: aTypeName
 	valueType := aTypeName.
-	self rebuildFieldAccessors
+	valueSize  := (NBFFICallout new requestor: self; resolveType: valueType) typeSize.
+	self installAccessors.
+	

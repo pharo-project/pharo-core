@@ -9,5 +9,5 @@ getClassForType: aTypeName
 	float value.
 	
 	"
-	^ NBExternalTypeValue newAnonymousSubclass valueType: aTypeName.
+	^ NBExternalTypeValue newAnonymousSubclass initValueType: aTypeName.
 

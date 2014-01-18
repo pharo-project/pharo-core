@@ -1,5 +1,5 @@
 isDirty
-	| modifiedPackages  |
 	
-	modifiedPackages := MCWorkingCopy allManagers select: [ :each | each modified ].
-	^ modifiedPackages anySatisfy: [:wc | wc package = self ]
+	^ self workingCopy
+		ifNil: [ false ]
+		ifNotNilDo: [ :wc | wc modified ]
