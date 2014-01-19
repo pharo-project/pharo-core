@@ -16,7 +16,7 @@ methodModified: anAnnouncement
 			ifTrue: [ text := textModel pendingText ].
 		list := listModel listItems 
 				remove: sel ifAbsent: [];
-				add: item asRingDefinition; "to ensure it's still as RGMethod"
+				add: item asFullRingDefinition; "to ensure it's still as RGMethod"
 				yourself. 
 		self messages: list.
 		listModel setSelectedIndex: index.

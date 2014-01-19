@@ -10,7 +10,7 @@ methodAdded: anAnnouncement
 		boolean := textModel hasUnacceptedEdits.
 		boolean ifTrue: [ text := textModel pendingText ].
 		sel := listModel selectedItem.
-		self messages: (listModel listItems add: item; yourself).
+		self messages: (listModel listItems add: item asFullRingDefinition; yourself).
 		listModel setSelectedItem: sel.
 		boolean ifTrue: [ textModel pendingText: text ]
 	]

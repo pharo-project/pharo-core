@@ -1,5 +1,5 @@
 commentForCurrentUpdate
- ^ '5541 SequenceableCollection>>#copyReplaceAll:with:asTokens:   should be moved to string
-	https://pharo.fogbugz.com/f/cases/5541
+ ^ '12547 In the messageBrowser the [package] -> [nil]
+	https://pharo.fogbugz.com/f/cases/12547
 
 '
