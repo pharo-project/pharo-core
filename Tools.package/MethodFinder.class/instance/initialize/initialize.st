@@ -189,7 +189,7 @@ initialize
 "copying" , copyAfterLast: copyAt:put: copyFrom:to: copyReplaceAll:with: copyReplaceFrom:to:with: copyUpTo: copyUpToLast: copyWith: copyWithout: copyWithoutAll: forceTo:paddingWith: shuffled sort:
 "enumerating" collectWithIndex: findFirst: findLast: pairsCollect: with:collect: withIndexCollect: polynomialEval:
 "converting" asArray asDictionary asFloatArray asIntegerArray asStringWithCr asWordArray reversed
-"private" copyReplaceAll:with:asTokens: ) do: [:sel | Approved add: sel].
+ ) do: [:sel | Approved add: sel].
 	#( swap:with:) do: [:sel | AddAndRemove add: sel].
 
 "ArrayedCollection, Bag"

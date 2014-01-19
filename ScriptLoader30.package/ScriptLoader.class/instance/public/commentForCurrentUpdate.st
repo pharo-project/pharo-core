@@ -1,11 +1,5 @@
 commentForCurrentUpdate
- ^ '12679 change package of ClassTrait >> #soleInstance
-	https://pharo.fogbugz.com/f/cases/12679
-
-12649 Closing AnnouncementSpy does not unregister from associatedAnnouncer
-	https://pharo.fogbugz.com/f/cases/12649
-
-12585 asFullRingDefinition does not (always) find the package of a method
-	https://pharo.fogbugz.com/f/cases/12585
+ ^ '5541 SequenceableCollection>>#copyReplaceAll:with:asTokens:   should be moved to string
+	https://pharo.fogbugz.com/f/cases/5541
 
 '
