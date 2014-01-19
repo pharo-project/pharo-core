@@ -1,0 +1,2 @@
+windowIsClosing
+	self close
