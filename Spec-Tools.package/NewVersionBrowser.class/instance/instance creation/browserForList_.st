@@ -1,23 +1,31 @@
 browserForList: aList
 
-	browser:=  MessageBrowser new.
+	browser :=  MessageBrowser new.
 	browser
-		textConverter: DiffMethodReferenceConverter new;
 		topologicSort: false;
-		sortingBlock: [:a :b | a timeStamp > b timeStamp ];
-		displayBlock: [:changeRecord | {	changeRecord stamp firstWord. 
-											changeRecord timeStamp asString.
-											changeRecord class name.
-											changeRecord methodSelector.
+		refreshingBlock: [:m | false];
+		sortingBlock: [:a :b | (a annotationNamed:#versionIndex ifAbsent:[0]) < (b annotationNamed:#versionIndex ifAbsent:[0]) ];
+		displayBlock: [:changeRecord|  {	changeRecord stamp firstWord. 
+											changeRecord stamp substrings allButFirst joinUsing:' '.
+											changeRecord  realClass name.
+											changeRecord selector.
 											'{',changeRecord  category,'}'} ].
 										
 	browser toolbarModel
 		emptyDropList;
-		addItemLabeled: 'Diff' do: [ browser textConverter: (DiffChangeRecordConverter methodReference: browser textConverter method referencesList: aList) ];
-		addItemLabeled: 'Source' do: [ browser textConverter: (SourceMethodConverter method: browser textConverter method) ].
+		addItemLabeled: 'Side By Side' do: [ 
+			self showDiffMorphWithConverter: (DiffMorphChangeRecordConverter 
+				methodReference: browser textConverter method 
+				referencesList: aList) ];
+		addItemLabeled: 'Source' do: [ 
+			self showSourceWithConverter: (SourceMethodConverter method: browser textConverter method) ];
+		addItemLabeled: 'Diff' do: [ 
+			self showSourceWithConverter: (DiffChangeRecordConverter 
+				methodReference: browser textConverter method 
+				referencesList: aList) ].
 		
 	browser toolbarModel versionModel 
 		label: 'Revert';
 		action: [ self revert: browser selectedItem ].
-										
+	browser listModel menu:[:menu | menu addAllFromPragma:'newVersionBrowserListMenu' target:self].
 	^ browser.

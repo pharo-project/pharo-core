@@ -1,10 +1,17 @@
 buildBrowser
-	| changeList |
-	
+	| changeList b |
+
 	changeList := self buildChangeList.
+	
 	self browserForList: changeList.
 	
-	^ browser
+	b := browser
 		messages: changeList;
 		title: 'Versions of ' , class name , '>>' , selector;
-		openWithSpec
+		openWithSpec.
+		
+	self showDiffMorphWithConverter: (DiffMorphChangeRecordConverter 
+		methodReference: browser textConverter method 
+		referencesList: changeList).
+		
+	^ b	

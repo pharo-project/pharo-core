@@ -1,0 +1,2 @@
+behavior
+	^ self contextClass
