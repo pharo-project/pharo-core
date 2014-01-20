@@ -1,8 +1,8 @@
-subclass: t uses: aTraitCompositionOrArray instanceVariableNames: f classVariableNames: d poolDictionaries: s category: cat 
+subclass: aTraitName uses: aTraitCompositionOrArray instanceVariableNames: f classVariableNames: d poolDictionaries: s category: cat 
 	| newClass copyOfOldClass |
 	copyOfOldClass := self copy.
 	newClass := self
-		subclass: t
+		subclass: aTraitName
 		instanceVariableNames: f
 		classVariableNames: d
 		poolDictionaries: s

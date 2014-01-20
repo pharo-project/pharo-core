@@ -1,3 +1,3 @@
 selectedClassDescription
 
-	^ self selectedClass definition
+	^ self selectedClass definitionForNautilus

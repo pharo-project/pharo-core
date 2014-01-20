@@ -1,8 +1,8 @@
 commentForCurrentUpdate
- ^ '12449 Nautilus setting "Show groups on top" breaks automatic group update
-	https://pharo.fogbugz.com/f/cases/12449
+ ^ '12163 New class template without poolDictionaries: line
+	https://pharo.fogbugz.com/f/cases/12163
 
-12490 Unloading package does not unload correctly
-	https://pharo.fogbugz.com/f/cases/12490
+12632 window menu close all debuggers does not work anymore
+	https://pharo.fogbugz.com/f/cases/12632
 
 '
