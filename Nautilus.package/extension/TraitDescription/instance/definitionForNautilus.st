@@ -1,3 +1,0 @@
-definitionForNautilus
-
-	^ self definition

@@ -5,11 +5,7 @@ browserForList: aList
 		topologicSort: false;
 		refreshingBlock: [:m | false];
 		sortingBlock: [:a :b | (a annotationNamed:#versionIndex ifAbsent:[0]) < (b annotationNamed:#versionIndex ifAbsent:[0]) ];
-		displayBlock: [:changeRecord|  {	changeRecord stamp firstWord. 
-											changeRecord stamp substrings allButFirst joinUsing:' '.
-											changeRecord  realClass name.
-											changeRecord selector.
-											'{',changeRecord  category,'}'} ].
+		displayBlock: [:changeRecord | self displayStringsFor: changeRecord].
 										
 	browser toolbarModel
 		emptyDropList;

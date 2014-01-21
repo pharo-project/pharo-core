@@ -1,8 +1,10 @@
 commentForCurrentUpdate
- ^ '12163 New class template without poolDictionaries: line
-	https://pharo.fogbugz.com/f/cases/12163
+ ^ '12685 wrong version ordering in NewVersionBrowser compareTo
+	https://pharo.fogbugz.com/f/cases/12685
 
-12632 window menu close all debuggers does not work anymore
-	https://pharo.fogbugz.com/f/cases/12632
+12686 Failing test: testClassRespectsPolymorphismWithTrait
+	https://pharo.fogbugz.com/f/cases/12686
 
+12688 Fix WorldModel layout
+	https://pharo.fogbugz.com/f/cases/12688
 '
