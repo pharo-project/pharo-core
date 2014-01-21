@@ -1,0 +1,3 @@
+isResizeable
+
+	^ isResizeable value

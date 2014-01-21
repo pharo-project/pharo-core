@@ -1,5 +1,5 @@
 ComposableModel subclass: #DynamicComposableModel
-	instanceVariableNames: 'widgets'
+	instanceVariableNames: 'widgets layout'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-Core'

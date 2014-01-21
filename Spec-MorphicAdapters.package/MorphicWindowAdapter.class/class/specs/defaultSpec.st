@@ -2,4 +2,5 @@ defaultSpec
 	<spec>
 	
 	^ #( SpecWindow 
-		model: model )
+		model: model
+		isResizeable: #(model isResizeable ))

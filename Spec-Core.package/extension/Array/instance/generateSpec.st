@@ -2,7 +2,7 @@ generateSpec
 	| str spec |
 	str := self readStream.	
 	
-	spec :=  OrderedCollection with: #FrameLayout.
+	spec :=  OrderedCollection with: #SpecLayoutFrame.
 		
 	#( leftFraction: topFraction: rightFraction: bottomFraction: leftOffset: topOffset: rightOffset: bottomOffset: ) do: [:sel |
 		spec add: sel.

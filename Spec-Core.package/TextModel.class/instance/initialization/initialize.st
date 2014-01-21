@@ -6,7 +6,7 @@ initialize
 	behaviorHolder := nil asValueHolder.
 	aboutToStyleHolder := [ false ] asValueHolder.
 	actionToPerformHolder := [ :text |  ] asValueHolder.
-	readSelectionHolder := [ 1 to: 0 ] asValueHolder.
+	readSelectionHolder := [ selection value ] asValueHolder.
 	enabledHolder := true asValueHolder.
 	actionPerformedHolder := '' asValueHolder.
 	isCodeCompletionAllowedHolder := true asValueHolder.
