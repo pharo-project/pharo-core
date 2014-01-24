@@ -1,9 +1,10 @@
 fromKeyboardEvent: evt
-	| modifier control command shift hasModifier keyString |
+	| modifier control command shift alt |
 	control := evt controlKeyPressed.
 	command := evt commandKeyPressed.
 	shift := evt shiftPressed.
-	(shift | command | control)
+	alt := evt altKeyPressed.
+	(shift | command | control | alt)
 		ifFalse: [^ KMSingleKeyCombination from: evt keyCharacter ].
 	modifier := KMNoShortcut new.
 	control
@@ -12,4 +13,6 @@ fromKeyboardEvent: evt
 		ifTrue: [ modifier := modifier + KMModifier command ].
 	shift
 		ifTrue: [ modifier := modifier + KMModifier shift ].
+	alt
+		ifTrue: [ modifier := modifier + KMModifier alt ].
 	^ modifier + evt modifiedCharacter
