@@ -15,7 +15,7 @@ newTaskbarThumbnailIn: aThemedMorph for: aWindow
 				color: Color white).
 	answer
 		extent: answer minExtent;
-		fillStyle: (self tasklistFillStyleFor: answer);
+		fillStyle: (self taskListFillStyleFor: answer);
 		borderStyle: (self taskbarThumbnailNormalBorderStyleFor: aWindow);
 		cornerStyle: (self taskbarThumbnailCornerStyleFor: answer).
 	^answer

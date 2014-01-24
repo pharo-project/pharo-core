@@ -14,7 +14,7 @@ newTaskbarThumbnailIn: aThemedMorph for: aWindow
 			buttonLabelForText: (aWindow labelString truncateWithElipsisTo: 50)).
 	answer
 		extent: answer minExtent;
-		fillStyle: (self tasklistFillStyleFor: answer);
+		fillStyle: (self taskListFillStyleFor: answer);
 		borderStyle: (self taskbarThumbnailNormalBorderStyleFor: aWindow);
 		cornerStyle: (self taskbarThumbnailCornerStyleFor: answer).
 	^answer

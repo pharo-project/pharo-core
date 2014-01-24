@@ -1,0 +1,3 @@
+isWindowNavigation
+
+	^ TaskListMorph isNavigationEvent: self.
