@@ -1,3 +1,4 @@
 pointSize: aNumber
+
 	pointSize := aNumber.
-	self changed: #pointSize
+	self announcer announce: #pointSizeChanged.

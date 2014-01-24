@@ -1,3 +1,3 @@
 pointSize
 
-	^pointSize ifNil: [pointSize := 10.0]
+	^ pointSize ifNil: [pointSize := 10.0]

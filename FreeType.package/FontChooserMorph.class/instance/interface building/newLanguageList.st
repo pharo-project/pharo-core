@@ -1,13 +1,14 @@
 newLanguageList
-	| answer |
-	answer := PluggableListMorph
+
+	| widget |
+	widget := PluggableListMorph
 		on: self 
 		list: #languages
 		selected: #languageIndex
 		changeSelected: #languageIndex:.
-	answer	
+	^ widget	
 			color: Color white;
 			borderInset;
 			vResizing: #spaceFill;
-			hResizing: #spaceFill.
-	^answer
+			hResizing: #spaceFill;
+			yourself.

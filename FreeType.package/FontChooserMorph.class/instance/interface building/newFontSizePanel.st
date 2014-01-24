@@ -1,5 +1,7 @@
 newFontSizePanel
-	^Morph new
+
+	pointSizeMorph := self newFontPointSizeField.
+	^ Morph new
 		borderWidth: 1;
 		borderColor: Color black;
 		hResizing: #spaceFill;
@@ -11,8 +13,6 @@ newFontSizePanel
 		listDirection: #leftToRight;
 		cellPositioning: #leftCenter;
 		clipSubmorphs: true;
-		"addMorphBack: self newFontEmphasisBoldButton;
-		addMorphBack: self newFontEmphasisItalicButton;"
 		addMorphBack: self newFontPointSizeLabel;
-		addMorphBack: (pointSizeMorph := self newFontPointSizeField)
+		addMorphBack: pointSizeMorph.
 		

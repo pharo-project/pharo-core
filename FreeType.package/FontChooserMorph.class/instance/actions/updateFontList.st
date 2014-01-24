@@ -1,3 +1,4 @@
 updateFontList
+
 	model updateFontList.
-	self triggerEvent: #fontsUpdated.
+	self announcer announce: #fontsUpdated.

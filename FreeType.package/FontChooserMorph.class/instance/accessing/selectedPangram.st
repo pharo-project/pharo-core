@@ -1,2 +1,2 @@
 selectedPangram
-	^selectedPangram ifNil: [ self pangrams first value ]
+	^ selectedPangram ifNil: [ self pangrams first value ]

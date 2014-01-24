@@ -1,4 +1,3 @@
-setSelector: anObject
-	"Set the value of setSelector"
+setSelector: selector
 
-	setSelector := anObject
+	setSelector := selector

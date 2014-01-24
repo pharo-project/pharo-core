@@ -1,11 +1,8 @@
 commentForCurrentUpdate
- ^ '12519 Codepanel in ByteCode view should be read only
-	https://pharo.fogbugz.com/f/cases/12519
+ ^ '12703 revert DockingBarMorph>>updatePosition
+	https://pharo.fogbugz.com/f/cases/12703
 
-12693 TasklistMorph Navigation Cleanup
-	https://pharo.fogbugz.com/f/cases/12693
-
-12705 Better implementation of a method from case 12163
-	https://pharo.fogbugz.com/f/cases/12705
+12704 clean FontMorphChooser
+	https://pharo.fogbugz.com/f/cases/12704
 
 '

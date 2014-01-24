@@ -1,7 +1,7 @@
 selectedFontIndex: anIndex
+
 	| family member newStyleIndex |
-	anIndex = 0
-		ifTrue: [^self].
+	anIndex = 0 ifTrue: [^self].
 	selectedFontIndex := anIndex.
 	"change the selected style to be the closest to the last
 	user selected weight slant and stretch values. 
@@ -12,5 +12,6 @@ selectedFontIndex: anIndex
 	newStyleIndex := self fontStyleList indexOf: member.
 	selectedFontStyleIndex := newStyleIndex. 
 	self setPointSizeListFrom: member.
-	self changed: #selectedFontIndex.
-	self changed: #selectedFontStyleIndex.
+	self announcer announce: #selectedFontStyleIndex.
+	self announcer announce: #selectedFontIndex.
+	

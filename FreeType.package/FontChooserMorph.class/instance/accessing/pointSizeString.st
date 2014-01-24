@@ -1,2 +1,3 @@
 pointSizeString
-	^model pointSize asString
+
+	^ model pointSize asString.

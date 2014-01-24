@@ -1,3 +1,3 @@
 languages
 	
-	^self pangrams collect: #key
+	^ self pangrams collect: #key

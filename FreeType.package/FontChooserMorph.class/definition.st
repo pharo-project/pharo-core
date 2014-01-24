@@ -1,5 +1,5 @@
 StandardWindow subclass: #FontChooserMorph
-	instanceVariableNames: 'mainPanel fontPreviewPanel okButton cancelButton applyButton updateButton result pointSizeMorph fontListStylePanel styleList pointSizeList selectedPangram languageList'
+	instanceVariableNames: 'fontPreviewPanel okButton cancelButton applyButton updateButton result pointSizeMorph styleList pointSizeList selectedPangram languageList fontList'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'FreeType-UI'

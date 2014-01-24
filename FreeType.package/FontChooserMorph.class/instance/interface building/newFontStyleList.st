@@ -1,19 +1,22 @@
 newFontStyleList 
-	| answer fon max |
-	answer := PluggableListMorph
+
+	| widget minWidth requiredWidth |
+	widget := PluggableListMorph
 		on: self model
 		list: #fontStyleListStrings
 		selected: #selectedFontStyleIndex
 		changeSelected: #selectedFontStyleIndex:.
-	fon := answer font.
-	max := fon widthOfStringOrText: 'Condensed Extra Bold Oblique' "long, but not the longest".
-	model fontStyleList do:[:fontFamilyMember |
-		max := max max: (fon widthOfStringOrText: fontFamilyMember styleName)].	
-	answer	
+		
+	minWidth := widget font widthOfStringOrText: 'Condensed Extra Bold Oblique' "long, but not the longest".
+	requiredWidth := self
+		widthRequiredFor: [ :each | result font widthOfStringOrText: each styleName ]
+		from: model fontStyleList
+		noLessThan: minWidth.
+
+	^ widget	
 			color: Color white;
 			borderInset;
 			vResizing: #spaceFill;
 			hResizing: #spaceFill;
-			"hResizing: #rigid;"
-			width: max + answer scrollBarThickness + (fon widthOfStringOrText: '  ').
-	^answer
+			width: requiredWidth + widget scrollBarThickness + (widget font widthOfStringOrText: '  ');
+			yourself.

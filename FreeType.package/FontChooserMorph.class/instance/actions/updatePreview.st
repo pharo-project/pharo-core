@@ -1,5 +1,3 @@
 updatePreview
 
-	Cursor wait showWhile: 
-		[ self fontPreviewPanel
-			scrollTarget: self newFontPreviewInnerPanel ]
+	 self fontPreviewPanel scrollTarget: self newFontPreviewInnerPanel

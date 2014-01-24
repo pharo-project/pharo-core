@@ -1,4 +1,3 @@
-title: anObject
-	"Set the value of title"
+title: aString
 
-	title := anObject
+	title := aString
