@@ -1,8 +1,8 @@
 commentForCurrentUpdate
- ^ '12600 MessageBrowser "senders of"-list adds new created messages
-	https://pharo.fogbugz.com/f/cases/12600
+ ^ '12170 temp var definitions in optimized blocks wrongly compiled
+	https://pharo.fogbugz.com/f/cases/12170
 
-12692 KeyboardEvent>>#asKeyCombination ignores Option key
-	https://pharo.fogbugz.com/f/cases/12692
+12695 InputWidget example broken
+	https://pharo.fogbugz.com/f/cases/12695
 
 '

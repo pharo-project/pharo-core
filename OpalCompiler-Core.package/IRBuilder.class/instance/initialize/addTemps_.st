@@ -3,6 +3,5 @@ addTemps: newKeys
 	offset := self currentScope tempMap size.
 	i := 1.
 	newKeys do: [:key |
-		self  currentScope tempMap at: key ifAbsentPut: [offset + i].
-		i := i + 1.
+		self  currentScope tempMap at: key ifAbsentPut: [i:=i+1.offset + i - 1].
 	].

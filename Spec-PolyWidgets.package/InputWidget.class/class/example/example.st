@@ -1,12 +1,11 @@
 example
-	| widget |
-	
+	"self example inspect"
+
+	| widget |	
 	widget := self new.
 	widget
 		title: 'Name';
 		label: 'What''s your name?';
 		ghostText: 'John Doe'.
-
-	World openModal: widget openDialogWithSpec window.
-
-	widget value
+	widget openDialogWithSpec modalRelativeTo: self currentWorld.
+	^ widget value
