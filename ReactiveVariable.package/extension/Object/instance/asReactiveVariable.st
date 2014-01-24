@@ -1,0 +1,3 @@
+asReactiveVariable
+
+	^ ReactiveVariable value: self

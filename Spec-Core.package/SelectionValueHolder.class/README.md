@@ -1,1 +1,0 @@
-A SelectionValueHolder is a value holder especially designed to contains a list selection (an index + an object)

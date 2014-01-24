@@ -2,8 +2,8 @@ initialize
 
 	super initialize.
 
-	listHolder := OrderedCollection new asValueHolder.
-	selectionHolder := SelectionValueHolder new.
+	listHolder := OrderedCollection new asReactiveVariable.
+	selectionHolder := SelectionReactiveVariable new.
 	
 	listHolder whenChangedDo: [ 
 					self changed: #getList.
@@ -11,7 +11,7 @@ initialize
 					self internalResetSelection.].
 				
 	selectionHolder whenChangedDo: [ self changed: #getIndex ].
-	displayBlock := [ :model :item | item label ] asValueHolder.
-	iconHolder := [ :model :item | item icon ] asValueHolder.
+	displayBlock := [ :model :item | item label ] asReactiveVariable.
+	iconHolder := [ :model :item | item icon ] asReactiveVariable.
 	
 	self whenSelectedItemChanged: [:item | item value ]

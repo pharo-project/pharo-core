@@ -2,4 +2,4 @@ initialize
 
 	super initialize.
 
-	iconHolder := [:item | nil ] asValueHolder.
+	iconHolder := [:item | nil ] asReactiveVariable.

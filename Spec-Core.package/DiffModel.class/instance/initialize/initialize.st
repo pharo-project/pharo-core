@@ -2,12 +2,12 @@ initialize
 
 	super initialize.
 	
-	leftTextHolder := '' asValueHolder.
-	rightTextHolder := '' asValueHolder.
-	contextClassHolder := nil asValueHolder.
-	showOptions := true asValueHolder.
-	showOnlyDestination := false asValueHolder.
-	showOnlySource := false asValueHolder.	
+	leftTextHolder := '' asReactiveVariable.
+	rightTextHolder := '' asReactiveVariable.
+	contextClassHolder := nil asReactiveVariable.
+	showOptions := true asReactiveVariable.
+	showOnlyDestination := false asReactiveVariable.
+	showOnlySource := false asReactiveVariable.	
 		
 	leftTextHolder whenChangedDo: [ :newText | self changed: #leftText: with: { newText } ].
 	rightTextHolder whenChangedDo: [ :newText | self changed: #rightText: with: { newText } ].

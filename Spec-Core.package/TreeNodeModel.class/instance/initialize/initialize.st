@@ -2,18 +2,18 @@ initialize
 
 	super initialize.
 
-	children := [ self container childrenFor: self content ] asValueHolder.
-	content := nil asValueHolder.
-	icon := nil asValueHolder.
-	container := nil asValueHolder.
-	matchTokenFilter := [ :aFilter | false ] asValueHolder.
-	parentNode := nil asValueHolder.
-	childNodeClass := self class asValueHolder.
-	selected := false asValueHolder.
-	lastClicked := false asValueHolder.
-	mouseDownAction := [:event | ] asValueHolder.
-	hasContentToShow := false asValueHolder.
-	isExpanded := false asValueHolder.
+	children := [ self container childrenFor: self content ] asReactiveVariable.
+	content := nil asReactiveVariable.
+	icon := nil asReactiveVariable.
+	container := nil asReactiveVariable.
+	matchTokenFilter := [ :aFilter | false ] asReactiveVariable.
+	parentNode := nil asReactiveVariable.
+	childNodeClass := self class asReactiveVariable.
+	selected := false asReactiveVariable.
+	lastClicked := false asReactiveVariable.
+	mouseDownAction := [:event | ] asReactiveVariable.
+	hasContentToShow := false asReactiveVariable.
+	isExpanded := false asReactiveVariable.
 	
 	selected whenChangedDo: [ :aBoolean | self changed: #selected: with: { aBoolean } ].
 	isExpanded whenChangedDo: [ :aBoolean | self changed: #isExpanded: with: { aBoolean } ].

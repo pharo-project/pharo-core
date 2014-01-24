@@ -1,1 +1,0 @@
-A NewValueHolder is a new implementation of ValueHolder based on Announcements

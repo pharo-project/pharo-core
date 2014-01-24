@@ -2,14 +2,14 @@ initialize
 
 	super initialize.
 
-	actionHolder := [] asValueHolder.
-	labelHolder := '' asValueHolder.
-	iconHolder := nil asValueHolder.
-	stateHolder := false asValueHolder.
-	helpHolder := nil asValueHolder.
-	actionPerformedHolder := nil asValueHolder.
-	askBeforeChangingHolder := false asValueHolder.
-	shortcut := nil asValueHolder.
+	actionHolder := [] asReactiveVariable.
+	labelHolder := '' asReactiveVariable.
+	iconHolder := nil asReactiveVariable.
+	stateHolder := false asReactiveVariable.
+	helpHolder := nil asReactiveVariable.
+	actionPerformedHolder := nil asReactiveVariable.
+	askBeforeChangingHolder := false asReactiveVariable.
+	shortcut := nil asReactiveVariable.
 	
 	labelHolder whenChangedDo: [ self changed: #label ].
 	iconHolder whenChangedDo: [ self changed: #label ].
@@ -21,7 +21,7 @@ initialize
 		self registerShortcut: newShortcut.
 		self changed: #label ].
 	
-	menuHolder := MenuModel new asValueHolder.	
+	menuHolder := MenuModel new asReactiveVariable.	
 	menuHolder whenChangedDo: [ :aMenuModel :oldMenu | 
 		(oldMenu isNil or: [ oldMenu isBlock ]) ifFalse: [ oldMenu neglect: self ].
 		(aMenuModel isNil or: [ aMenuModel isBlock ]) ifFalse: [ aMenuModel applyTo: self ] ].

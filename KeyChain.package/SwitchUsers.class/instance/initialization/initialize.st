@@ -1,6 +1,6 @@
 initialize
 
-	usersManager := nil asValueHolder.
-	selectedUser := nil asValueHolder.
+	usersManager := nil asReactiveVariable.
+	selectedUser := nil asReactiveVariable.
 	
 	super initialize.

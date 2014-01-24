@@ -1,8 +1,8 @@
 initialize
 
 	super initialize.
-	criticHolder := nil asValueHolder.
-	ruleHolder := nil asValueHolder.
+	criticHolder := nil asReactiveVariable.
+	ruleHolder := nil asReactiveVariable.
 	browseModel := self instantiate: ButtonModel.
 	transformModel := self instantiate: ButtonModel.
 	falsepositiveModel := self instantiate: ButtonModel.

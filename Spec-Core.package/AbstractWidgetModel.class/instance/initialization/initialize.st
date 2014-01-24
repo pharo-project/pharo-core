@@ -2,16 +2,16 @@ initialize
 
 	super initialize.
 
-	helpHolder := nil asValueHolder.
-	borderWidth := 0 asValueHolder.
-	borderColor := Color transparent asValueHolder.
-	enabledHolder := true asValueHolder.
-	dragEnabled := false asValueHolder.
-	dropEnabled := false asValueHolder.
-	dragTransformationBlock := [ :item :source | item ] asValueHolder.
-	wantDropBlock := [ :draggedItem :event :source | self dropEnabled ] asValueHolder.
-	acceptDropBlock := [ :draggedItem :event :source | ] asValueHolder.
-	transferBlock := [:passenger :source | super transferFor: passenger from: source ] asValueHolder.
+	helpHolder := nil asReactiveVariable.
+	borderWidth := 0 asReactiveVariable.
+	borderColor := Color transparent asReactiveVariable.
+	enabledHolder := true asReactiveVariable.
+	dragEnabled := false asReactiveVariable.
+	dropEnabled := false asReactiveVariable.
+	dragTransformationBlock := [ :item :source | item ] asReactiveVariable.
+	wantDropBlock := [ :draggedItem :event :source | self dropEnabled ] asReactiveVariable.
+	acceptDropBlock := [ :draggedItem :event :source | ] asReactiveVariable.
+	transferBlock := [:passenger :source | super transferFor: passenger from: source ] asReactiveVariable.
 	
 	helpHolder whenChangedDo: [:string | 
 		self widget ifNotNil: [:w | w update: #setBalloonText: with: { string } ] ].

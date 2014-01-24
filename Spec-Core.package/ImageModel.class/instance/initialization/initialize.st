@@ -2,7 +2,7 @@ initialize
 
 	super initialize.
 
-	imageHolder := nil asValueHolder.
-	action := [] asValueHolder. 
+	imageHolder := nil asReactiveVariable.
+	action := [] asReactiveVariable. 
 	
 	imageHolder whenChangedDo: [ self changed: #getImage ].

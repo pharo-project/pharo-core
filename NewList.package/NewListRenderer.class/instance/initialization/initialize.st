@@ -3,13 +3,13 @@ initialize
 	super initialize.
 	
 	wantsSteps := false.
-	listSource := nil asValueHolder.
-	itemHeight := nil asValueHolder.
-	maxWidth := 0 asValueHolder.
-	hasHeader := false asValueHolder.
-	potentialDropIndex := 0 asValueHolder.
+	listSource := nil asReactiveVariable.
+	itemHeight := nil asReactiveVariable.
+	maxWidth := 0 asReactiveVariable.
+	hasHeader := false asReactiveVariable.
+	potentialDropIndex := 0 asReactiveVariable.
 	steppingTime := 100.
-	mouseDownIndex := 0 asValueHolder.
+	mouseDownIndex := 0 asReactiveVariable.
 	listSource whenChangedDo: [:e | 
 		itemHeight value: e itemHeight.
 		e whenItemsChangedDo: [ maxWidth value: 0 ]].

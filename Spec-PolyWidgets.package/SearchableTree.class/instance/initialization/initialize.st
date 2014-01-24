@@ -2,4 +2,4 @@ initialize
 
 	super initialize.
 
-	roots := OrderedCollection new asValueHolder
+	roots := OrderedCollection new asReactiveVariable

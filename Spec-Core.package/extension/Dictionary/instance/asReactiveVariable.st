@@ -1,0 +1,3 @@
+asReactiveVariable
+
+	^ DictionaryReactiveVariable value: self

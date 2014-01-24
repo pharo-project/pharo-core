@@ -1,4 +1,4 @@
 initialize
 
 	super initialize.
-	okAction := [ true ] asValueHolder.
+	okAction := [ true ] asReactiveVariable.

@@ -1,7 +1,7 @@
 initialize
 
-	okAction := [ ] asValueHolder.
-	value := '' asValueHolder.
-	title := 'Title' asValueHolder.
+	okAction := [ ] asReactiveVariable.
+	value := '' asReactiveVariable.
+	title := 'Title' asReactiveVariable.
 	
 	super initialize.

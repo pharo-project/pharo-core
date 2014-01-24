@@ -1,7 +1,7 @@
 initialize
 	"Initialization code for EditableList"
 
-	title := 'Title' asValueHolder.
+	title := 'Title' asReactiveVariable.
 	
 	super initialize.
 	okBlock := [ ].

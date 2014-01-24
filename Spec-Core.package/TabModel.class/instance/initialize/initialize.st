@@ -3,14 +3,14 @@ initialize
 
 	super initialize.
 
-	label := '' asValueHolder.
-	icon := self defaultIcon asValueHolder.
-	morph := nil asValueHolder.
-	retrievingBlock := nil asValueHolder.
-	menu := nil asValueHolder.
-	actions := OrderedCollection new asValueHolder.
-	closeable := true asValueHolder.
-	tabSelectedAction := [] asValueHolder.
+	label := '' asReactiveVariable.
+	icon := self defaultIcon asReactiveVariable.
+	morph := nil asReactiveVariable.
+	retrievingBlock := nil asReactiveVariable.
+	menu := nil asReactiveVariable.
+	actions := OrderedCollection new asReactiveVariable.
+	closeable := true asReactiveVariable.
+	tabSelectedAction := [] asReactiveVariable.
 	
 	label whenChangedDo: [ :new | self widget ifNotNil: [ :w | w label: new ] ].
 	icon whenChangedDo: [ :new | self widget ifNotNil: [ :w | w icon: new ] ].

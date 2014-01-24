@@ -2,10 +2,10 @@ initialize
 
 	super initialize.
 	
-	ghostText := '' asValueHolder.
-	acceptOnCR := true asValueHolder.
-	entryCompletion := self defaultEntryCompletion asValueHolder.
-	isEncrypted := false asValueHolder.
+	ghostText := '' asReactiveVariable.
+	acceptOnCR := true asReactiveVariable.
+	entryCompletion := self defaultEntryCompletion asReactiveVariable.
+	isEncrypted := false asReactiveVariable.
 	
 	ghostText  whenChangedDo: [ :txt | self changed: #ghostText: with: { txt } ].
 	acceptOnCR whenChangedDo: [ :bool | self changed: #acceptOnCR: with: { bool } ].

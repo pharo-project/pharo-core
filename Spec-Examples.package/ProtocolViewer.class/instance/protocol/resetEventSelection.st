@@ -1,0 +1,3 @@
+resetEventSelection
+
+	events resetSelection

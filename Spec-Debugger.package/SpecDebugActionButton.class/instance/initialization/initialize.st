@@ -2,7 +2,7 @@ initialize
 
 	super initialize.
 
-	debugActionHolder := nil asValueHolder.
+	debugActionHolder := nil asReactiveVariable.
 	debugActionHolder whenChangedDo: [ self update ]
 	
 	

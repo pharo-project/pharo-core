@@ -1,6 +1,6 @@
 initialize
 
-	sessionHolder := nil asValueHolder.
+	sessionHolder := nil asReactiveVariable.
 	actionsCache := nil.
 	super initialize.
 	

@@ -1,17 +1,17 @@
 initialize
 	super initialize.
 	
-	selectionHolder := SelectionValueHolder new.
-	listHolder := Array new asValueHolder.
-	sortingBlockHolder := self defaultSortingBlock asValueHolder.
-	filteringBlockHolder := self defaultFilteringBlock asValueHolder.
-	wrapBlockHolder := [ :object | object asStringOrText ] asValueHolder.
-	menuHolder := [ :menu :shifted | nil ] asValueHolder.
-	multiSelectionHolder := IdentityDictionary new asValueHolder.
-	multiSelection := false asValueHolder.
-	allowToSelect := true asValueHolder.
-	backgroundColorBlock := [ :item :index | Color white ] asValueHolder.
-	autoDeselect := true asValueHolder.
+	selectionHolder := SelectionReactiveVariable new.
+	listHolder := Array new asReactiveVariable.
+	sortingBlockHolder := self defaultSortingBlock asReactiveVariable.
+	filteringBlockHolder := self defaultFilteringBlock asReactiveVariable.
+	wrapBlockHolder := [ :object | object asStringOrText ] asReactiveVariable.
+	menuHolder := [ :menu :shifted | nil ] asReactiveVariable.
+	multiSelectionHolder := IdentityDictionary new asReactiveVariable.
+	multiSelection := false asReactiveVariable.
+	allowToSelect := true asReactiveVariable.
+	backgroundColorBlock := [ :item :index | Color white ] asReactiveVariable.
+	autoDeselect := true asReactiveVariable.
 	listAnnouncer := Announcer new.
 	self registerEvents.
 

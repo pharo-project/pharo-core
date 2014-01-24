@@ -1,6 +1,6 @@
 initialize
-	enableCustom := true asValueHolder.
-	enableGlobal := true asValueHolder.
-	environmentsHolder := #() asValueHolder.
-	environmentHolder := nil asValueHolder.
+	enableCustom := true asReactiveVariable.
+	enableGlobal := true asReactiveVariable.
+	environmentsHolder := #() asReactiveVariable.
+	environmentHolder := nil asReactiveVariable.
 	super initialize.

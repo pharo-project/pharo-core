@@ -1,0 +1,3 @@
+asReactiveVariable
+
+	^ CollectionReactiveVariable value: self
