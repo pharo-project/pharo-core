@@ -9,3 +9,4 @@ isRoot: aBoolean
 	canRunStartupScript := aBoolean.
 	canShowMorphHalo := aBoolean.
 	canEditUser := aBoolean.
+	canSaveImage := aBoolean.

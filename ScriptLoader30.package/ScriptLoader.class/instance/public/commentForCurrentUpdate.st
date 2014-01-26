@@ -1,14 +1,11 @@
 commentForCurrentUpdate
- ^ '12701 In GZipReadStream #unzip:to: answer the new file name, but not #unzip:
-	https://pharo.fogbugz.com/f/cases/12701
+ ^ '12077 MNU in AdditionalMethodState>>analogousCodeTo:
+	https://pharo.fogbugz.com/f/cases/12077
 
-11755 When removing an instance variable, far too many package are dirty after
-	https://pharo.fogbugz.com/f/cases/11755
+12712 make sure that all class definition messages without "poolDictionaries" part exist
+	https://pharo.fogbugz.com/f/cases/12712
 
-12713 RecentMessageList>>lastClasses: includes obsolete testclasses
-	https://pharo.fogbugz.com/f/cases/12713
+12711 ReleaseTest #testObsoleteClasses fails
+	https://pharo.fogbugz.com/f/cases/12711
 
-12726 add command line handler for ImageCleaner
-	https://pharo.fogbugz.com/f/cases/12726
-
-'
+(with postscript)'
