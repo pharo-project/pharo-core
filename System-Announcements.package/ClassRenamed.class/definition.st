@@ -1,4 +1,4 @@
-SystemAnnouncement subclass: #ClassRenamed
+ClassAnnouncement subclass: #ClassRenamed
 	instanceVariableNames: 'category classRenamed newName oldName'
 	classVariableNames: ''
 	poolDictionaries: ''

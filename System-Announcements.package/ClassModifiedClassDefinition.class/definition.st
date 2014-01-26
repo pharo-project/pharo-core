@@ -1,4 +1,4 @@
-SystemAnnouncement subclass: #ClassModifiedClassDefinition
+ClassAnnouncement subclass: #ClassModifiedClassDefinition
 	instanceVariableNames: 'newClassDefinition oldClassDefinition'
 	classVariableNames: ''
 	poolDictionaries: ''

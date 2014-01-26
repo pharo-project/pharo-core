@@ -6,11 +6,14 @@ methodAdded: anAnnouncement
 	item := anAnnouncement method.
 	(refreshingBlockHolder value cull: item cull: anAnnouncement cull: self) ifFalse: [ ^ self ].
 	
-	UIManager default defer: [ 	| sel text boolean |
-		boolean := textModel hasUnacceptedEdits.
-		boolean ifTrue: [ text := textModel pendingText ].
-		sel := listModel selectedItem.
-		self messages: (listModel listItems add: item asFullRingDefinition; yourself).
-		listModel setSelectedItem: sel.
-		boolean ifTrue: [ textModel pendingText: text ]
+	UIManager default defer: [ 
+		((item methodClass notNil) and:[item methodClass isObsolete not])
+		ifTrue:[	| sel text boolean |
+			boolean := textModel hasUnacceptedEdits.
+			boolean ifTrue: [ text := textModel pendingText ].
+			sel := listModel selectedItem.
+			self messages: (listModel listItems add: item asFullRingDefinition; yourself).
+			listModel setSelectedItem: sel.
+			boolean ifTrue: [ textModel pendingText: text ]
+		]
 	]

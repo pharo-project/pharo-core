@@ -1,4 +1,4 @@
-SystemAnnouncement subclass: #ClassRecategorized
+ClassAnnouncement subclass: #ClassRecategorized
 	instanceVariableNames: 'newCategory oldCategory classRecategorized'
 	classVariableNames: ''
 	poolDictionaries: ''

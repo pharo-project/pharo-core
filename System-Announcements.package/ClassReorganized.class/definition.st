@@ -1,4 +1,4 @@
-SystemAnnouncement subclass: #ClassReorganized
+ClassAnnouncement subclass: #ClassReorganized
 	instanceVariableNames: 'classReorganized'
 	classVariableNames: ''
 	poolDictionaries: ''

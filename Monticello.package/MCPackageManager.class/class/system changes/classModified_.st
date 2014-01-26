@@ -1,2 +1,6 @@
 classModified: anEvent
-	self managersForClass: anEvent classAffected do:[:mgr| mgr modified: true].
+	anEvent isPropagation ifTrue:  [ ^ self ].
+	
+	self 
+		managersForClass: anEvent classAffected 
+		do:[ :mgr | mgr modified: true ].

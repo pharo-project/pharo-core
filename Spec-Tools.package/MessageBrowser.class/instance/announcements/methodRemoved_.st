@@ -8,7 +8,8 @@ methodRemoved: anAnnouncement
 	self okToChange
 		ifFalse: [ ^ self ].
 	UIManager default defer:  [ 
-			| sel itm |
+			((item methodClass notNil) and:[item methodClass isObsolete not])
+			ifTrue:[	| sel itm |
 			sel := listModel selectedIndex.
 			itm := listModel selectedItem.
 			(itm notNil and: [ itm methodClass = item methodClass and: [ itm selector = item selector ] ])
@@ -19,3 +20,4 @@ methodRemoved: anAnnouncement
 						remove: item asFullRingDefinition ifAbsent: [ nil ];
 						yourself).
 			listModel setSelectedIndex: sel ]
+		]

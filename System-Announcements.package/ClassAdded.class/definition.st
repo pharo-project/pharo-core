@@ -1,4 +1,4 @@
-SystemAnnouncement subclass: #ClassAdded
+ClassAnnouncement subclass: #ClassAdded
 	instanceVariableNames: 'classAdded classCategory'
 	classVariableNames: ''
 	poolDictionaries: ''
