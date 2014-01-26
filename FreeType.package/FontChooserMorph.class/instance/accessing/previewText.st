@@ -18,7 +18,7 @@ previewText
 		character := Character value: asciiValue.
 		sample nextPut: character.
 		i := i + 1.
-		((endOfLineCharacters includes: character) or: [ i := maxLineLength ]) 
+		((endOfLineCharacters includes: character) or: [ i = maxLineLength ]) 
 			ifTrue: [ 
 				i := 0.
 				sample cr ] ].

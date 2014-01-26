@@ -9,7 +9,7 @@ newFontStyleList
 		
 	minWidth := widget font widthOfStringOrText: 'Condensed Extra Bold Oblique' "long, but not the longest".
 	requiredWidth := self
-		widthRequiredFor: [ :each | result font widthOfStringOrText: each styleName ]
+		widthRequiredFor: [ :each | widget font widthOfStringOrText: each styleName ]
 		from: model fontStyleList
 		noLessThan: minWidth.
 

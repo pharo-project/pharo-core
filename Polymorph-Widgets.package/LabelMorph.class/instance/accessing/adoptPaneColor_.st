@@ -1,0 +1,1 @@
+adoptPaneColor: aColor

@@ -8,7 +8,7 @@ newFontList
 		changeSelected: #selectedFontIndex:.
 
 	requiredWidth := self
-		widthRequiredFor: [ :each | result font widthOfStringOrText: each familyName ]
+		widthRequiredFor: [ :each | widget font widthOfStringOrText: each familyName ]
 		from: model fontList
 		noLessThan: 20.
 
@@ -17,9 +17,8 @@ newFontList
 		borderInset;
 		vResizing: #spaceFill;
 		hResizing: #spaceFill;
-		width: requiredWidth + widget scrollBarThickness + (result font widthOfStringOrText: '  ').
+		width: requiredWidth + widget scrollBarThickness + (widget font widthOfStringOrText: '  ').
 		
 	self model announcer when: #fontsUpdated send: #verifyContents to: widget.
-	self model announcer when: #selectedFontIndex send: #updateSelectionIndex to: widget.
 	
 	^ widget.

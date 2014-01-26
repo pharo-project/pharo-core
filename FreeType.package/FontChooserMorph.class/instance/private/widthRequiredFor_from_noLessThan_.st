@@ -2,5 +2,5 @@ widthRequiredFor: aBlock from: aCollection noLessThan: anInteger
 	"aBlock - takes each item as an argument, and returns the width it needs"
 
 	^ aCollection inject: anInteger into: [ :max :each | | itemWidth |
-		itemWidth := each value: aBlock.
+		itemWidth := aBlock value: each.
 		max max: itemWidth ].
