@@ -1,0 +1,2 @@
+createEnvironment
+	^ OSEnvironment environmentFor: self

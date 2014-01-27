@@ -1,2 +1,2 @@
 environment
-	^ environment ifNil: [ environment := NixEnvironment new ]
+	^ environment ifNil: [ environment := self createEnvironment ]

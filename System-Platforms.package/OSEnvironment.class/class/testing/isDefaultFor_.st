@@ -1,0 +1,2 @@
+isDefaultFor: aPlatform
+	^ false

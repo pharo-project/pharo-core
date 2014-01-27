@@ -1,4 +1,4 @@
-OSEnvironment subclass: #NixEnvironment
+OSEnvironment subclass: #PlatformIndependentEnvironment
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

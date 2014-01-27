@@ -1,0 +1,2 @@
+isAvailable 
+	^ true
