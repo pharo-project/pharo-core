@@ -1,11 +1,7 @@
 commentForCurrentUpdate
- ^ '12259 FileSystem memory reads/writes using a binary stream by default
-	https://pharo.fogbugz.com/f/cases/12259
+ ^ '12719 Creating Unnamed Package Kills Nautilus
+	https://pharo.fogbugz.com/f/cases/12719
 
-12683 Color change of LabelModel when used with openWorldWithSpec
-	https://pharo.fogbugz.com/f/cases/12683
-
-12704 clean FontMorphChooser
-	https://pharo.fogbugz.com/f/cases/12704
-
+12718 rpackage not reorganising properly moved classes
+	https://pharo.fogbugz.com/f/cases/12718
 '
