@@ -1,3 +1,5 @@
 absolutePath
 	"Return the absolute of the receiver"
-	^ self path
+	^ self path isRelative
+		ifFalse: [ self path ]
+		ifTrue: [ filesystem resolve: self path ]
