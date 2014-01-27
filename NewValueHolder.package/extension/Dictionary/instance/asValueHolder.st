@@ -1,0 +1,3 @@
+asValueHolder
+
+	^ DictionaryValueHolder value: self

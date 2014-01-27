@@ -1,7 +1,7 @@
 initialize
 
-	model := nil asReactiveVariable.
-	canCommit := false asReactiveVariable.
+	model := nil asValueHolder.
+	canCommit := false asValueHolder.
 	
 	super initialize.
 	model

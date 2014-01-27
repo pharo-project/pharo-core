@@ -1,6 +1,6 @@
 initialize
 
 	lock := false.
-	user := nil asReactiveVariable.
+	user := nil asValueHolder.
 	
 	super initialize.

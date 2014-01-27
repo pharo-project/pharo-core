@@ -4,7 +4,7 @@ initialize
 
 	users := SortedCollection new 
 					sortBlock: [:a :b | a username printString < b username printString ];
-					asReactiveVariable.
+					asValueHolder.
 	
 	currentUser := nil.
 	self addDefaultUser.

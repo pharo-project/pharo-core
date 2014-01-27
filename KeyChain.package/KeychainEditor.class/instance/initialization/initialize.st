@@ -1,4 +1,4 @@
 initialize
 
-	keychainEditingWrapper := nil asReactiveVariable.
+	keychainEditingWrapper := nil asValueHolder.
 	super initialize.

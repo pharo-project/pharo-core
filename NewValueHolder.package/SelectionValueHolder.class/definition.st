@@ -1,5 +1,5 @@
-ReactiveVariable subclass: #SelectionReactiveVariable
+NewValueHolder subclass: #SelectionValueHolder
 	instanceVariableNames: 'index selection'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'ReactiveVariable'
+	category: 'NewValueHolder'

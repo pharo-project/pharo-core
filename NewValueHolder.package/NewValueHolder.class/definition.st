@@ -1,5 +1,5 @@
-Object subclass: #ReactiveVariable
+Object subclass: #NewValueHolder
 	instanceVariableNames: 'announcer lock value'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'ReactiveVariable'
+	category: 'NewValueHolder'

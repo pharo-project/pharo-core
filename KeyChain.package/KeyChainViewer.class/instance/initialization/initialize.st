@@ -1,5 +1,5 @@
 initialize
 
-	keychain := nil asReactiveVariable.
+	keychain := nil asValueHolder.
 	
 	super initialize.
