@@ -1,1 +1,1 @@
-I am a propagation to subclasses of a modification in a class.
+I represent a modification in a class that is produced because of a change in one of its superclasses. This is called a propagation.

@@ -1,6 +1,6 @@
 build
 	| oldClass metaChange classChange |
-	result := oldClass := client classAt: name ifAbsent: [ ^ self buildNewClass ].
+	result := oldClass := installer classAt: name ifAbsent: [ ^ self buildNewClass ].
 
 	self validateSuperChain: oldClass.
 	
@@ -28,6 +28,6 @@ build
 		sharing: sharedPoolsString.
 
 	result isMeta ifFalse: [
-		client recategorize: result to: category ].
+		installer recategorize: result to: category ].
 	
 	^ result instanceSide

@@ -1,5 +1,5 @@
 installTraitComposition: classModification
-	client
+	installer
 		installTraitComposition: classModification traitComposition
 		on: classModification target.
 	

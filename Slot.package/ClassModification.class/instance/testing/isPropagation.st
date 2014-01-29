@@ -1,0 +1,2 @@
+isPropagation
+	^ false

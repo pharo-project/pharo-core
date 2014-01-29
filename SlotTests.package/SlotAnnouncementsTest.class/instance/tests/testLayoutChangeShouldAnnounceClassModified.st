@@ -1,13 +1,16 @@
-testClassFormatChangedAnnounced
+testLayoutChangeShouldAnnounceClassModified
+
 	| classAdded classModified |
-	SystemAnnouncer uniqueInstance weak on: ClassModifiedClassDefinition send: #saveAnnouncementOnce: to: self.
+	self subscribeOn: ClassModifiedClassDefinition.
 	
-	"We create a new class without slots"
+	"Create a class"
 	classAdded := self makeWithLayout: FixedLayout.
 	
-	"now we extend it with slots.  The class definition should've changed"
+	"Modify its format"
 	classModified := self makeWithLayout: WeakLayout.
-	
+
+	self assert: self collectedAnnouncements size equals: 1.
+	announcement := self collectedAnnouncements first.
 	self assert: announcement newClassDefinition equals: classModified.
 	self assert: announcement oldClassDefinition format equals: classAdded format.
 	self assert: announcement newClassDefinition format equals: classModified format.

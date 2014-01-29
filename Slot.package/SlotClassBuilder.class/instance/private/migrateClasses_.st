@@ -1,6 +1,6 @@
 migrateClasses: classModification.
 	
-	client
+	installer
 		migrateClasses: oldClasses asArray
 		to: newClasses asArray
 		using: classModification instanceModification.

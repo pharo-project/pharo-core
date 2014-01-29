@@ -1,3 +1,4 @@
 setUp
 	super setUp.
-	announcementsCount := 0.
+	
+	collectedAnnouncements := OrderedCollection new.

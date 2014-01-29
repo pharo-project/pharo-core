@@ -1,2 +1,4 @@
-client: aClient
-	client := aClient
+client: anInstaller
+	"deprecated"
+	
+	installer := anInstaller

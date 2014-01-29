@@ -3,4 +3,4 @@ shallowClassDefinitionChangedFrom: oldClass to: newClass by: classModification
 	" Update the superclass links "
 	self 
 		shallowCopyMethodsFrom: oldClass to: newClass using: classModification;
-		basicClassDefinitionChangedFrom: oldClass to: newClass
+		basicClassDefinitionChangedFrom: oldClass to: newClass using: classModification

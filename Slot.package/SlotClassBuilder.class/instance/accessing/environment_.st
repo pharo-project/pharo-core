@@ -1,2 +1,2 @@
 environment: globals
-	client environment: globals
+	installer environment: globals

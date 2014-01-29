@@ -1,5 +1,5 @@
 SlotClassBuilderTest subclass: #SlotAnnouncementsTest
-	instanceVariableNames: 'announcement announcementsCount'
+	instanceVariableNames: 'announcement collectedAnnouncements'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'SlotTests'

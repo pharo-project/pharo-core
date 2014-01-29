@@ -1,0 +1,2 @@
+installer: anInstaller
+	installer := anInstaller

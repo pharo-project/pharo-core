@@ -1,1 +1,1 @@
-A SlotAnnouncementsTest is xxxxxxxxx.Instance Variables	announcement:		<Object>	announcementsCount:		<Object>announcement	- xxxxxannouncementsCount	- xxxxx
+A SlotAnnouncementsTest is xxxxxxxxx.Instance Variables	announcement:		<Object>	collectedAnnouncements:		<Object>announcement	- xxxxxcollectedAnnouncements	- xxxxx

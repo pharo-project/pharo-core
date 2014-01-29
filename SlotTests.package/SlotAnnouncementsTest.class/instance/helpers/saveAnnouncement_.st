@@ -1,2 +1,0 @@
-saveAnnouncement: anAnnouncement
-	announcement := anAnnouncement

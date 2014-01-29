@@ -17,9 +17,9 @@ buildNewClass
 	newClass declare: sharedVariablesString.
 	newClass sharing: sharedPoolsString.
 	
-	client classAdded: newClass inCategory: category.
+	installer classAdded: newClass inCategory: category.
 	
-	client installTraitComposition: traitComposition on: newClass.
-	client installTraitComposition: classTraitComposition on: metaclass.
+	installer installTraitComposition: traitComposition on: newClass.
+	installer installTraitComposition: classTraitComposition on: metaclass.
 	
 	^ newClass

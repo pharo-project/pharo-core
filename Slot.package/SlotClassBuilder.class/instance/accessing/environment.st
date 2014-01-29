@@ -1,2 +1,2 @@
 environment
-	^ client environment
+	^ installer environment
