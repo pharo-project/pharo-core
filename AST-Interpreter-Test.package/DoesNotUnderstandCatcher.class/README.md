@@ -1,1 +1,1 @@
-A DoesNotUnderstandCatcher is xxxxxxxxx.
+Utility class to catch messages

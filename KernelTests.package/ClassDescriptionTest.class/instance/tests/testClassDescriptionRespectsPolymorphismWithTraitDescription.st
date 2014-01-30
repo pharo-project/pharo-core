@@ -31,4 +31,4 @@ testClassDescriptionRespectsPolymorphismWithTraitDescription
 	self
 		assertCollection: (TraitDescription localSelectors difference: ClassDescription localSelectors)
 		equals:
-			#(#isClassTrait #addExclusionOf: #copyTraitExpression #baseTrait #-  #isBaseTrait #classTrait) asSet
+			#(#isClassTrait #addExclusionOf: #copyTraitExpression #baseTrait #-  #isBaseTrait #classTrait syntacticallyEquals:) asSet
