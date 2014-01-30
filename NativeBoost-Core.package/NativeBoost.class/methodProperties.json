@@ -25,6 +25,7 @@
 		"newAssembler" : "Igor.Stasenko 5/5/2010 16:46",
 		"notifyAboutSessionChange:" : "IgorStasenko 3/28/2012 17:48",
 		"platformId" : "Igor.Stasenko 5/2/2010 11:07",
+		"prepareForProduction" : "DamienCassou 11/8/2013 16:49",
 		"primitiveLoadMainModule" : "Igor.Stasenko 9/25/2010 05:16",
 		"registerPrimitiveSimulators" : "IgorStasenko 3/19/2012 12:42",
 		"resetInstance" : "IgorStasenko 5/11/2011 00:48",

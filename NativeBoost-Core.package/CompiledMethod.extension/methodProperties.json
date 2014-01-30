@@ -3,5 +3,7 @@
 		 },
 	"instance" : {
 		"forceJIT" : "IgorStasenko 11/9/2012 04:13",
+		"hasNativeCallPrimitive" : "DamienCassou 11/8/2013 16:50",
 		"hasNativeCode" : "Igor.Stasenko 5/18/2010 08:20",
+		"nbArgumentNames" : "DamienCassou 11/8/2013 16:47",
 		"trailerKind" : "Igor.Stasenko 5/18/2010 08:19" } }

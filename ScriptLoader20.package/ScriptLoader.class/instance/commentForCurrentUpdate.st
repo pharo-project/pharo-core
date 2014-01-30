@@ -1,4 +1,6 @@
 public
 commentForCurrentUpdate
- ^ '12071 #executeMethod: not in Pharo
-	https://pharo.fogbugz.com/f/cases/12071'
+ ^ '12120 Let NativeBoost work without sources
+	https://pharo.fogbugz.com/f/cases/12120
+	
+'
