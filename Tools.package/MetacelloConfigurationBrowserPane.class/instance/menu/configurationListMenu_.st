@@ -3,10 +3,10 @@ configurationListMenu: aMenu
 	aMenu title:  'Configuration'.
 	self selectedConfiguration ifNotNil: [ 
 		
-		aMenu add: 'Install stable version' action: #installConfiguration.
+		aMenu add: 'Install Stable Version' action: #installConfiguration.
 		self selectedConfigurationClass isNil 
-			ifTrue:  [ aMenu add: 'Load configuration' action: #loadConfiguration ]
-			ifFalse: [ aMenu add: 'Browse configuration class' action: #browseConfiguration ].	
+			ifTrue:  [ aMenu add: 'Load Configuration' action: #loadConfiguration ]
+			ifFalse: [ aMenu add: 'Browse Configuration Class' action: #browseConfiguration ].	
 		aMenu addLine ].
 		
 	aMenu	

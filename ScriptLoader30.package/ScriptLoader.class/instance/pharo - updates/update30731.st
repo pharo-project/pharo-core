@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '12732 #sourceNode broken
+update30731
+	"self new update30731"
+	self withUpdateLog: '12732 #sourceNode broken
 	https://pharo.fogbugz.com/f/cases/12732
 
 12751 Improve #cleanUpForProduction
@@ -9,4 +10,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/12750
 
 
-'
+'.
+	self loadTogether: self script384 merge: false.
+	self flushCaches.

@@ -1,2 +1,2 @@
 sourceNode
-	^ self asContext sourceNode
+	^ self method sourceNodeForPC: startpc - 1
