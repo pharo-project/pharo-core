@@ -2,6 +2,9 @@ defaultSpec
 	<spec: #default>
 	
 	^ SpecLayout composed
-		newColumn: [ :r |
-			r add: #models; add: #protocols; add: #events ];
+		newColumn: [ :column |
+			column 
+				add: #models; 
+				add: #protocols; 
+				add: #events ];
 		yourself

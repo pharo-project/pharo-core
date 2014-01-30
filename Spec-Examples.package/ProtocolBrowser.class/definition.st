@@ -1,4 +1,4 @@
-ComposableModel subclass: #ProtocolEditor
+ComposableModel subclass: #ProtocolBrowser
 	instanceVariableNames: 'viewer text'
 	classVariableNames: ''
 	poolDictionaries: ''

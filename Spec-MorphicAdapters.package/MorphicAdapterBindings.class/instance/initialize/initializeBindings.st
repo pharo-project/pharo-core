@@ -1,5 +1,4 @@
 initializeBindings
-	"This implementation is stupid, but it exposes all the container which need to be bound"
 	
 	bindings
 		at: #ButtonAdapter				put: #MorphicButtonAdapter;

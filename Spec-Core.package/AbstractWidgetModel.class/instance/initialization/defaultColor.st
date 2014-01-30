@@ -1,0 +1,3 @@
+defaultColor
+
+	^ Color white

@@ -9,4 +9,7 @@ initializePresenter
 				events items: #() ]
 			ifNotNil: [ 
 				protocols items: (self methodsIn: class for: 'protocol').
-				events items: (self methodsIn: class for: 'protocol-events') ] ]
+				events items: (self methodsIn: class for: 'protocol-events') ] ].
+	
+	protocols whenSelectedItemChanged: [ :method | method ifNotNil: [ self resetEventSelection ] ].
+	events whenSelectedItemChanged: [ :method | method ifNotNil: [ self resetProtocolSelection ] ].

@@ -11,6 +11,7 @@ addToMenuModel: aMenuModel
 			ifTrue: [ 
 				groups add: tmp copy.
 				tmp removeAll ] ].
+	tmp ifNotEmpty: [ groups add: tmp copy ].
 	
 	groups do: [ :each | aMenuModel 
 		addGroup: [ :group | each do: [ :spec | 

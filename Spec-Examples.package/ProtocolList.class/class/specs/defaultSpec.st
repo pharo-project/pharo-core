@@ -2,8 +2,8 @@ defaultSpec
 	<spec: #default>
 
 	^ SpecLayout composed
-		newColumn: [ :r |
-			r 
+		newColumn: [ :column |
+			column 
 				add: #label
 				height: self toolbarHeight;
 				add: #protocols ];
