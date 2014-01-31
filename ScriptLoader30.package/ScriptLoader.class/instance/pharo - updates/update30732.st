@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '12757 #cleanUpForProduction should not unload Deprecated and Jenkins
+update30732
+	"self new update30732"
+	self withUpdateLog: '12757 #cleanUpForProduction should not unload Deprecated and Jenkins
 	https://pharo.fogbugz.com/f/cases/12757
 
 12755 Licensestring still shows 2013 instead of current year
@@ -14,4 +15,6 @@ commentForCurrentUpdate
 12752 Non-Empty list of pooldictionaries is still cut from the class description in Nautilus
 	https://pharo.fogbugz.com/f/cases/12752
 
-'
+'.
+	self loadTogether: self script385 merge: false.
+	self flushCaches.

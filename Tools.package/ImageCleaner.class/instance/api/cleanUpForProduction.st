@@ -10,10 +10,7 @@ cleanUpForProduction
 	self packagesForCleanUpInProduction do: [ :each | (MCPackage named: each) unload ].	
 	self helpPackages do: [ :each | (MCPackage named: each) unload ].	
 	self testPackages do: [ :each | (MCPackage named: each) unload ].			
-	(MCPackage named: 'HudsonBuildTools20') unload.
-	(MCPackage named: 'Deprecated30') unload.
 	(MCPackage named: 'ScriptLoader30') unload.	
-		
-	World resetWorldMenu.	
+	
 	self cleanUpForRelease.
 	

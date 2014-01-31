@@ -1,1 +1,1 @@
-A TextFontChangeTest is xxxxxxxxx.
+SUnit tests for class TextFontChange

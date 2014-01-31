@@ -1,1 +1,1 @@
-A TextMethodLink is xxxxxxxxx.Instance Variables	browseSenders:		<Object>	hostName:		<Object>	selector:		<Object>browseSenders	- xxxxxhostName	- xxxxxselector	- xxxxx
+An active link in a text linking to a method

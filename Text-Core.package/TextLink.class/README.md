@@ -1,1 +1,1 @@
-A TextLink is xxxxxxxxx.Instance Variables	classAndMethod:		<Object>classAndMethod	- xxxxx
+A link in text referring to class and methods. 

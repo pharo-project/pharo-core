@@ -1,1 +1,1 @@
-A TextVariableLink is xxxxxxxxx.Instance Variables	variableName:		<Object>variableName	- xxxxx
+An active link in a text linking to a variable

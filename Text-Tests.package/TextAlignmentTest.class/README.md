@@ -1,1 +1,1 @@
-A TextAlignmentTest is xxxxxxxxx.
+SUnit tests for class TextAlignment

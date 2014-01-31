@@ -1,1 +1,1 @@
-A TextKernTest is xxxxxxxxx.
+SUnit tests for class TextKern

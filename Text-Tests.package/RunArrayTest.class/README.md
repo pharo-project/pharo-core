@@ -1,1 +1,1 @@
-A RunArrayTest is xxxxxxxxx.
+SUnit tests for class RunArray

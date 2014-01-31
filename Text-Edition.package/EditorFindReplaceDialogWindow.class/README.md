@@ -1,1 +1,1 @@
-An EditorFindReplaceDialogWindow is xxxxxxxxx.Instance Variables	state:		<Object>state	- xxxxx
+A find/replace dialog window for editors

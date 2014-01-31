@@ -1,1 +1,1 @@
-A TextClassLink is xxxxxxxxx.Instance Variables	className:		<Object>className	- xxxxx
+An active link in a text linking to a class

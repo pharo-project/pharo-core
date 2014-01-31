@@ -1,11 +1,14 @@
 selected: aNode
-	| selection |
+	| selections |
+
+	selections := aNode selectedNodes collect: [ :each |each asNautilusSelection].
+	"leave if selection contains no node that isn't already selected"
+	(selections contains:[:each | (self isSelectedPackage:each) not]) ifFalse:[^ self].
 	
 	self clearPackageSelections.
 	self resetShowHierarchy.
-	
-	selection := aNode selectedNodes do: [ :each |
-		self selectedPackageWithoutChangingSelection: each asNautilusSelection ].
+
+	selections do:[: each |  self selectedPackageWithoutChangingSelection: each].
 	
 	self changed: #selected.
 	self changed: #currentHistoryIndex.

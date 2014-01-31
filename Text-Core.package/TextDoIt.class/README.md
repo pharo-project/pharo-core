@@ -1,1 +1,1 @@
-A TextDoIt is xxxxxxxxx.Instance Variables	evalString:		<Object>evalString	- xxxxx
+A doIt action on a text. When the text is clicked the text is seen as source code and evaluated
