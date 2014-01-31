@@ -1,1 +1,1 @@
-A ScannerTest is xxxxxxxxx.
+SUnit tests for the scanner

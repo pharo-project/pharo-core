@@ -1,1 +1,1 @@
-An AJInstructionDecoration is xxxxxxxxx.Instance Variables	end:		<Object>end	- xxxxx
+Used to decorate instructions with annotations

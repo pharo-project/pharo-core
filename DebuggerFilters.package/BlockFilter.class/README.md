@@ -1,1 +1,1 @@
-A BlockFilter is xxxxxxxxx.Instance Variables	block:		<Object>block	- xxxxx
+A filter for blocks

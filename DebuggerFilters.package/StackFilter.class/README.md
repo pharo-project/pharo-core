@@ -1,1 +1,1 @@
-A StackFilter is xxxxxxxxx.Instance Variables	stack:		<Object>stack	- xxxxx
+A filter on the current stack for debugging

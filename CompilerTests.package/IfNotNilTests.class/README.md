@@ -1,1 +1,1 @@
-An IfNotNilTests is xxxxxxxxx.
+SUnit tests for ifNotNil: variations

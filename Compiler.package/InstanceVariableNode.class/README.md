@@ -1,1 +1,1 @@
-An InstanceVariableNode is xxxxxxxxx.
+I am a parse tree leaf representing an instance variable.

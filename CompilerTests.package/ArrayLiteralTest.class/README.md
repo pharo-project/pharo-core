@@ -1,1 +1,1 @@
-An ArrayLiteralTest is xxxxxxxxx.
+SUnit tests for array literals

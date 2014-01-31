@@ -1,1 +1,1 @@
-An UndefinedVariable is xxxxxxxxx.
+Notify about an undefined variable

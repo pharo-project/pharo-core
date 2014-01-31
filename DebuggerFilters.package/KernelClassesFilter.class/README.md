@@ -1,1 +1,1 @@
-A KernelClassesFilter is xxxxxxxxx.Instance Variables	kernelClasses:		<Object>kernelClasses	- xxxxx
+A filter for kernel classes

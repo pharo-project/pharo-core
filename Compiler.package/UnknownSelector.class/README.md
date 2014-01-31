@@ -1,1 +1,1 @@
-An UnknownSelector is xxxxxxxxx.
+Notify about an unknown selector

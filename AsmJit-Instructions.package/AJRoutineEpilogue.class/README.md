@@ -1,1 +1,1 @@
-An AJRoutineEpilogue is xxxxxxxxx.
+In assembly language programming an epilogue is a few lines of code that appears at the end of a routine

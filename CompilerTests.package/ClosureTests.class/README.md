@@ -1,1 +1,1 @@
-A ClosureTests is xxxxxxxxx.Instance Variables	collection:		<Object>collection	- xxxxx
+SUnit tests for closures

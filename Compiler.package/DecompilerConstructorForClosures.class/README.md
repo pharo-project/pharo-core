@@ -1,1 +1,1 @@
-A DecompilerConstructorForClosures is xxxxxxxxx.
+Similar to superclass but for closures

@@ -1,1 +1,1 @@
-A ReparseAfterSourceEditing is xxxxxxxxx.Instance Variables	newSource:		<Object>newSource	- xxxxx
+Notify about the need to reparse after source code was edited

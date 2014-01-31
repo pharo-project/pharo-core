@@ -1,1 +1,1 @@
-An AJInstruction is xxxxxxxxx.Instance Variables	annotation:		<Object>	level:		<Object>	machineCode:		<Object>	name:		<Object>	next:		<Object>	operands:		<Object>	position:		<Object>annotation	- xxxxxlevel	- xxxxxmachineCode	- xxxxxname	- xxxxxnext	- xxxxxoperands	- xxxxxposition	- xxxxx
+Implement machine code instructions

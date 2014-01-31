@@ -1,1 +1,1 @@
-An AJJumpInstruction is xxxxxxxxx.Instance Variables	description:		<Object>	label:		<Object>description	- xxxxxlabel	- xxxxx
+An assembler jump instruction including a jump label and a description

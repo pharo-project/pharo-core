@@ -1,1 +1,1 @@
-A SelectorFilter is xxxxxxxxx.Instance Variables	selectors:		<Object>selectors	- xxxxx
+A filter for selectors

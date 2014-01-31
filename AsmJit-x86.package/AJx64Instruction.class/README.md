@@ -1,1 +1,1 @@
-An AJx64Instruction is xxxxxxxxx.
+The x86 - 64 bit machine instructions

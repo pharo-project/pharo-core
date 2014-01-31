@@ -1,1 +1,1 @@
-A ClosureCompilerTest is xxxxxxxxx.Instance Variables	currentCompiler:		<Object>currentCompiler	- xxxxx
+SUnit tests for the closure compiler

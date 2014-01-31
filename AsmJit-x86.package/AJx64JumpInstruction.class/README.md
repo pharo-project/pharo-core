@@ -1,1 +1,1 @@
-An AJx64JumpInstruction is xxxxxxxxx.
+Jump instruction for X64

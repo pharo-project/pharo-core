@@ -1,1 +1,1 @@
-A MethodHighlightingTests is xxxxxxxxx.Instance Variables	creator:		<Object>	duration:		<Object>	timeStamp:		<Object>	tracks:		<Object>creator	- xxxxxduration	- xxxxxtimeStamp	- xxxxxtracks	- xxxxx
+SUnit tests for method highlighting

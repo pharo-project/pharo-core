@@ -1,1 +1,1 @@
-A LiteralVariableNode is xxxxxxxxx.Instance Variables	writeNode:		<Object>writeNode	- xxxxx
+I am a parse tree leaf representing a literal variable.

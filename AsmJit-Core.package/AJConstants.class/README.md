@@ -1,1 +1,1 @@
-An AJConstants is xxxxxxxxx.
+A shared pool for constants from AsmJIT

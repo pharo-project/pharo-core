@@ -1,1 +1,1 @@
-An UnusedVariable is xxxxxxxxx.
+Notify about an unused temporary variable

@@ -14,8 +14,14 @@ packagesForCleanUpInProduction
 	'Metacello-Platform'
 	'Metacello-Core'
 	'Metacello-Base'
-	"CI"
-	'CI-Core-SliceSubmitter'
-	'CI-Loader'
-	'CI-Core'
+	'Metacello-ProfStef'
+	'Metacello-Tutorial'
+	'Metacello-TestsCore'
+	'Metacello-TestsMC'
+	'Metacello-TestsMCCore'
+	'Metacello-TestsMCResources'
+	'Metacello-TestsPharo20MC'
+	'Metacello-TestsPlatform'
+	'Metacello-TestsTutorial'
+
 	)
