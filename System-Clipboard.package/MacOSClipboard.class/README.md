@@ -1,1 +1,1 @@
-A MacOSClipboard is xxxxxxxxx.
+The clipboard for MacOS

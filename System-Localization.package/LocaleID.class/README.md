@@ -1,1 +1,1 @@
-A LocaleID is xxxxxxxxx.Instance Variables	isoCountry:		<Object>	isoLanguage:		<Object>isoCountry	- xxxxxisoLanguage	- xxxxx
+The ID for localization

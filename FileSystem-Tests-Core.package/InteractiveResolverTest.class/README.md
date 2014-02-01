@@ -1,1 +1,1 @@
-An InteractiveResolverTest is xxxxxxxxx.
+SUnit tests for InteractiveResolver

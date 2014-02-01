@@ -1,1 +1,1 @@
-A WindowsStoreTest is xxxxxxxxx.
+SUnit tests for class WindowsStore

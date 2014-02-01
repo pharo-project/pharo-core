@@ -1,1 +1,1 @@
-A PlatformResolverTest is xxxxxxxxx.
+SUnit tests for PlatformResolver

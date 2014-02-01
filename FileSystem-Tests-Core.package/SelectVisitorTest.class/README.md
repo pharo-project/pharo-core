@@ -1,1 +1,1 @@
-A SelectVisitorTest is xxxxxxxxx.
+SUnit tests for class SelectVistor

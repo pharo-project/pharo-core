@@ -1,1 +1,1 @@
-A DeleteVisitorTest is xxxxxxxxx.
+SUnit tests for class DeleteVisitor

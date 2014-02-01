@@ -1,1 +1,1 @@
-A CollectVisitorTest is xxxxxxxxx.
+SUnit tests for class CollectVisitor

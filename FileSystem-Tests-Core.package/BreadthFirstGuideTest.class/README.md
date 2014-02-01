@@ -1,1 +1,1 @@
-A BreadthFirstGuideTest is xxxxxxxxx.
+SUnit tests for class BreadthFirstGuide

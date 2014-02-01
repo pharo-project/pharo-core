@@ -1,1 +1,1 @@
-A FileSystemResolverTest is xxxxxxxxx.Instance Variables	resolver:		<Object>resolver	- xxxxx
+SUnit tests for FileSystemResolver

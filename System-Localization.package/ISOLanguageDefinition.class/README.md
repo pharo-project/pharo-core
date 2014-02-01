@@ -1,1 +1,1 @@
-An ISOLanguageDefinition is xxxxxxxxx.Instance Variables	iso2:		<Object>	iso3:		<Object>	iso3Alternate:		<Object>	language:		<Object>iso2	- xxxxxiso3	- xxxxxiso3Alternate	- xxxxxlanguage	- xxxxx
+The language definitions from International Organization for Standardization

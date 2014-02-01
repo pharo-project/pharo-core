@@ -6,4 +6,5 @@ isTerminated
 		   If so, and the pc is greater than the startpc, the bock has alrteady sent and returned
 		   from value and there is nothing more to do."
 		suspendedContext isBottomContext
-		and: [suspendedContext pc > suspendedContext startpc]]
+		and: [ suspendedContext isDead not 
+  	  	and: [ suspendedContext pc > suspendedContext startpc ] ] ]

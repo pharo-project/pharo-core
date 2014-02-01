@@ -1,1 +1,1 @@
-A PreorderGuideTest is xxxxxxxxx.
+SUnit tests for class PreorderGuide

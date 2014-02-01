@@ -1,1 +1,1 @@
-A MultipleSettingDeclaration is xxxxxxxxx.Instance Variables	domainValues:		<Object>domainValues	- xxxxx
+A declaration for multiple settings

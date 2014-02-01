@@ -1,1 +1,1 @@
-A SettingNodeBuilder is xxxxxxxxx.Instance Variables	builder:		<Object>	node:		<Object>builder	- xxxxxnode	- xxxxx
+Used to build nodes from the settings framework

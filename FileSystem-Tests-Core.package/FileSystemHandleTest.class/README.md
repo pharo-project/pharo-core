@@ -1,1 +1,1 @@
-A FileSystemHandleTest is xxxxxxxxx.Instance Variables	filesystem:		<Object>	handle:		<Object>	reference:		<Object>filesystem	- xxxxxhandle	- xxxxxreference	- xxxxx
+SUnit tests for FileSystemHandle

@@ -1,1 +1,1 @@
-A FileHandleTest is xxxxxxxxx.
+SUnit tests for file handles, the tests may be found in superclass

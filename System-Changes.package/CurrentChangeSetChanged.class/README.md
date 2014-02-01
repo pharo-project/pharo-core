@@ -1,1 +1,1 @@
-A CurrentChangeSetChanged is xxxxxxxxx.Instance Variables	new:		<Object>	old:		<Object>new	- xxxxxold	- xxxxx
+Announce that the current change set has changed

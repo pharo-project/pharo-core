@@ -1,1 +1,1 @@
-A PseudoMetaclass is xxxxxxxxx.
+I provide an inert model of a Metaclass, used by FileContentsBrowser to manipulate filedout code. 

@@ -1,1 +1,1 @@
-A HashFunction is xxxxxxxxx.
+Common superclass for hash functions

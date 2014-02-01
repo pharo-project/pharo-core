@@ -1,1 +1,1 @@
-A PathTest is xxxxxxxxx.
+SUnit tests for file system paths

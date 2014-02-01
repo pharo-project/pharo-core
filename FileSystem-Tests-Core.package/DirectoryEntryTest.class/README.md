@@ -1,1 +1,1 @@
-A DirectoryEntryTest is xxxxxxxxx.
+SUnit tests for FileSystemDirectoryEntry

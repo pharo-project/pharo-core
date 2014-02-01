@@ -1,1 +1,1 @@
-An AbstractEnumerationVisitorTest is xxxxxxxxx.
+SUnit tests for AbstractEnumerationVisitor

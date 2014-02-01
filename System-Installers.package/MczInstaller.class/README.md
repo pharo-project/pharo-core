@@ -1,1 +1,1 @@
-A MczInstaller is xxxxxxxxx.Instance Variables	stream:		<Object>	zip:		<Object>stream	- xxxxxzip	- xxxxx
+An installer for Monticello files with the *.mcz extension.    MczInstaller installFileNamed: 'MyKillerApp-Core-Author.1.mcz'

@@ -1,1 +1,1 @@
-An IllegalName is xxxxxxxxx.Instance Variables	name:		<Object>name	- xxxxx
+I am raised on an attempt to use an illegal file name

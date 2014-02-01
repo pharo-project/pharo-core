@@ -1,1 +1,1 @@
-A PostorderGuideTest is xxxxxxxxx.
+SUnit tests for class PostorderGuide

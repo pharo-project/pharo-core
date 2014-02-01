@@ -1,1 +1,1 @@
-A GuideTest is xxxxxxxxx.Instance Variables	guide:		<Object>	visited:		<Object>guide	- xxxxxvisited	- xxxxx
+Common superclass for tests of guidance through the filesystem
