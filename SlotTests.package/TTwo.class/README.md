@@ -1,1 +1,1 @@
-A TTwo is xxxxxxxxx.
+I am a trait used for testing.

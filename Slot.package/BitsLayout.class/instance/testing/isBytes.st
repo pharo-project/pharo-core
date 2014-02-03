@@ -1,0 +1,2 @@
+isBytes
+	^ self subclassResponsibility

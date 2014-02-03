@@ -1,0 +1,2 @@
+isBytes
+	^ false

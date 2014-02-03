@@ -9,5 +9,8 @@ renameClassCategory: packageTag
 	newName = oldName ifTrue: [ ^ self ].
 	
 	(self isValidPackageName: newName)
-		ifTrue: [ packageTag renameTo: newName ]
-		ifFalse: [ self alertInvalidPackageName:newName ].		
+		ifFalse: [ ^ self alertInvalidPackageName:newName ].		
+	(self category:newName existsIn:packageTag package)
+		ifTrue:[ ^  self alertCategoryName:newName exitstsAlreadyIn:packageTag package].
+	packageTag renameTo: newName.
+
