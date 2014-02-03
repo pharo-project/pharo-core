@@ -2,5 +2,5 @@ testIsClassAManifest
 	"self debug: #testIsClassAManifest"
 	
 	self deny: Point isManifest.
-	BuilderManifest of: MFClassA. 
+	TheManifestBuilder of: MFClassA. 
 	self assert: ( (Smalltalk at: #ManifestManifestResourcesTests) isManifest)

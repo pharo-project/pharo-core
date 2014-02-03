@@ -1,6 +1,6 @@
 testCreationManifestOn
 	| manifestBuilder cl |
-	manifestBuilder := BuilderManifest new.
+	manifestBuilder := TheManifestBuilder new.
 	cl := Smalltalk globals at: #ManifestManifestResourcesTests ifAbsent: [ nil ].
 	cl
 		ifNotNil: [ 
@@ -8,5 +8,5 @@ testCreationManifestOn
 				removeFromChanges;
 				removeFromSystemUnlogged ].
 	self assert: (manifestBuilder manifestOf: MFClassA ) isNil.
-	self assert: (BuilderManifest of: MFClassA) notNil.
+	self assert: (TheManifestBuilder of: MFClassA) notNil.
 	self assert: (manifestBuilder manifestOf: MFClassA) notNil

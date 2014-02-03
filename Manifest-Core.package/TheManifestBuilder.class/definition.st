@@ -1,4 +1,4 @@
-AbstractTool subclass: #BuilderManifest
+AbstractTool subclass: #TheManifestBuilder
 	instanceVariableNames: 'manifestClass'
 	classVariableNames: ''
 	poolDictionaries: ''

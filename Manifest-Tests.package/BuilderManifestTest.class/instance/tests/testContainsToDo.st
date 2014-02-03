@@ -3,7 +3,7 @@ testContainsToDo
 	| manifestBuilder |
 	
 
-	manifestBuilder := BuilderManifest of: MFClassA .
+	manifestBuilder := TheManifestBuilder of: MFClassA .
 	manifestBuilder  installToDoOf: 'test' version: 0.
 	
 	manifestBuilder addToDo: MFClassA of: 'test' version: 0. 

@@ -2,7 +2,7 @@ testAddClass
 	
 	| manifestBuilder|
 	
-	manifestBuilder := BuilderManifest of: MFClassA .
+	manifestBuilder := TheManifestBuilder of: MFClassA .
 	
 	self deny: ((manifestBuilder rejectClasses) anySatisfy: [:each| each = MFClassA]).
 	

@@ -3,7 +3,7 @@ testResetFalsePositive
 	| manifestBuilder array|
 	
 	array := {MFClassA. MFClassB  }.
-	manifestBuilder := BuilderManifest of: MFClassA .
+	manifestBuilder := TheManifestBuilder of: MFClassA .
 	manifestBuilder  installFalsePositiveOf: 'test' version: 0.
 	
 	manifestBuilder addAllFalsePositive: array of: 'test' version: 0. 

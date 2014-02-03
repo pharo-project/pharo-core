@@ -3,7 +3,7 @@ testDateOfToDo
 	| manifestBuilder date1 date2 |
 	
 
-	manifestBuilder := BuilderManifest of: MFClassA .
+	manifestBuilder := TheManifestBuilder of: MFClassA .
 	manifestBuilder  installToDoOf: 'test' version: 0.
 	
 	date1 :=  DateAndTime current.

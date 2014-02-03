@@ -3,7 +3,7 @@ testAddFalsePositive
 	| manifestBuilder cl mth|
 	cl := MFClassA.
 	mth := MFClassA >> #method.
-	manifestBuilder := BuilderManifest of: MFClassA .
+	manifestBuilder := TheManifestBuilder of: MFClassA .
 	manifestBuilder  installFalsePositiveOf: 'test' version: 0.
 	
 	self deny: ((manifestBuilder falsePositiveOf: 'test' version: 0) anySatisfy: [:each| each = cl]).

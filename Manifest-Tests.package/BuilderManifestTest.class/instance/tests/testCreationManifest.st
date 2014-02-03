@@ -1,6 +1,6 @@
 testCreationManifest
 	| manifestBuilder cl |
-	manifestBuilder := BuilderManifest new.
+	manifestBuilder := TheManifestBuilder new.
 	cl := Smalltalk globals at: #ManifestManifestResourcesTests ifAbsent: [ nil ].
 	cl
 		ifNotNil: [ 

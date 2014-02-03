@@ -1,8 +1,8 @@
 commentForCurrentUpdate
- ^ '12771 KeyNotFound: key #localSelectors not found in MethodDictionary
-	https://pharo.fogbugz.com/f/cases/12771
+ ^ '12772 Missing example methods in Spec
+	https://pharo.fogbugz.com/f/cases/12772
 
-12769 Add a full class definition menu in nautilus
-	https://pharo.fogbugz.com/f/cases/12769
+12309 Manifest-Core should be cleaned
+	https://pharo.fogbugz.com/f/cases/12309
 
 '

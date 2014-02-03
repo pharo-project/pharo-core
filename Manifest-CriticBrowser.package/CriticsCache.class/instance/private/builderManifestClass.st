@@ -1,2 +1,2 @@
 builderManifestClass
-	^ BuilderManifest
+	^ TheManifestBuilder

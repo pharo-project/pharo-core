@@ -3,7 +3,7 @@ testAddToDo
 	| manifestBuilder cl mth|
 	cl := MFClassA.
 	mth := MFClassA >> #method.
-	manifestBuilder := BuilderManifest of: MFClassA .
+	manifestBuilder := TheManifestBuilder of: MFClassA .
 	manifestBuilder  installToDoOf: 'test' version: 0.
 	
 	self deny: ((manifestBuilder toDoOf: 'test' version: 0) anySatisfy: [:each| each = cl]).

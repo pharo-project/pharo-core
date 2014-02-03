@@ -1,6 +1,6 @@
 testInstallFalsePositive
 	| manifestBuilder |
-	manifestBuilder := BuilderManifest of: MFClassA. .
+	manifestBuilder := TheManifestBuilder of: MFClassA. .
 	self deny: (manifestBuilder hasFalsePositiveOf: 'test' version: 0).
 	manifestBuilder installFalsePositiveOf: 'test' version: 0.
 	self assert: (manifestBuilder hasFalsePositiveOf: 'test' version: 0).
