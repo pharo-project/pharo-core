@@ -24,6 +24,10 @@ classesFixMenu: aBuilder
 		action: [ target addClass ];
 		order: 400;
 		help: 'Create a new class'.
+	(aBuilder item: #'Add full Class...')
+		action: [ target addFullClass ];
+		order: 400;
+		help: 'Propose full class definition'.	
 	(aBuilder item: #'Add Trait...')
 		action: [ target addTrait ];
 		order: 500;
