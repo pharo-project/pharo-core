@@ -1,1 +1,1 @@
-A TBehaviorCategorization is xxxxxxxxx.
+Kernel trait for Behavior categorization

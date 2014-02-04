@@ -1,1 +1,1 @@
-A ClassCommentReader is xxxxxxxxx.
+I represent a mechanism for retrieving class comment stored on a file.

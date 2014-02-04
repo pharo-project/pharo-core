@@ -1,4 +1,4 @@
-EyeContextInspector subclass: #EyeDebuggerContextInspector
+AnObsoleteEyeContextInspector subclass: #EyeDebuggerContextInspector
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

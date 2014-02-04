@@ -1,1 +1,1 @@
-A WorkspaceTest is xxxxxxxxx.
+SUnit tests for Workspace

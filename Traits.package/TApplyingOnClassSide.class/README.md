@@ -1,1 +1,1 @@
-A TApplyingOnClassSide is xxxxxxxxx.
+Kernel trait for applying on the class side

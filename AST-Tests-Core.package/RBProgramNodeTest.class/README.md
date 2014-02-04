@@ -1,1 +1,1 @@
-A RBProgramNodeTest is xxxxxxxxx.Instance Variables	node:		<Object>	previous:		<Object>node	- xxxxxprevious	- xxxxx
+SUnit tests for RBProgramNode

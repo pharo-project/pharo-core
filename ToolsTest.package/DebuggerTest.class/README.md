@@ -1,1 +1,1 @@
-A DebuggerTest is xxxxxxxxx.
+SUnit tests for Debugger

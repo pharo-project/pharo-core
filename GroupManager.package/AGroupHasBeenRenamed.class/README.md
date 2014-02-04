@@ -1,1 +1,1 @@
-An AGroupHasBeenRenamed is xxxxxxxxx.
+Notify that a group has been renamed

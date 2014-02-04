@@ -1,1 +1,1 @@
-An ArgumentNamesTest is xxxxxxxxx.
+SUnit tests for generating argument names

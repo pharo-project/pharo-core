@@ -1,1 +1,1 @@
-A DialogGroupManager is xxxxxxxxx.Instance Variables	groups:		<Object>groups	- xxxxx
+Dialog group manager for groups in Nautilus

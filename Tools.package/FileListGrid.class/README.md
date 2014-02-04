@@ -1,1 +1,1 @@
-A FileListGrid is xxxxxxxxx.Instance Variables	parent:		<Object>	treeMorph:		<Object>parent	- xxxxxtreeMorph	- xxxxx
+A grid for a list of files

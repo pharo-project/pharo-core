@@ -1,1 +1,1 @@
-A SpotlightShortcuts is xxxxxxxxx.
+A shortcut for spotlight

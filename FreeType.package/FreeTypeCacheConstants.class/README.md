@@ -1,1 +1,1 @@
-A FreeTypeCacheConstants is xxxxxxxxx.
+Constants for the FreeType cache

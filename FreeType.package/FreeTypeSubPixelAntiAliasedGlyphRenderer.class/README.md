@@ -1,1 +1,1 @@
-A FreeTypeSubPixelAntiAliasedGlyphRenderer is xxxxxxxxx.
+A SubPixel-AntiAliased GlyphRenderer for FreeType

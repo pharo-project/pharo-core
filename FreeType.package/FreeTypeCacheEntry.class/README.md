@@ -1,1 +1,1 @@
-A FreeTypeCacheEntry is xxxxxxxxx.Instance Variables	charCode:		<Object>	font:		<Object>	object:		<Object>	previousLink:		<Object>	type:		<Object>charCode	- xxxxxfont	- xxxxxobject	- xxxxxpreviousLink	- xxxxxtype	- xxxxx
+An entry for the FreeTypeCache

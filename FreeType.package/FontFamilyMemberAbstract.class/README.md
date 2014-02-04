@@ -1,1 +1,1 @@
-A FontFamilyMemberAbstract is xxxxxxxxx.Instance Variables	family:		<Object>	styleName:		<Object>family	- xxxxxstyleName	- xxxxx
+Abstract member for a font family

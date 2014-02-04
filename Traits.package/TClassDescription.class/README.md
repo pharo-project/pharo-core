@@ -1,1 +1,1 @@
-A TClassDescription is xxxxxxxxx.
+Kernel trait for ClassDescription

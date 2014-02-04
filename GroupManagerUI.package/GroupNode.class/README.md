@@ -1,1 +1,1 @@
-A GroupNode is xxxxxxxxx.
+A group node in the morph tree

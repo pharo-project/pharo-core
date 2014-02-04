@@ -1,1 +1,1 @@
-A FreeTypeFileInfo is xxxxxxxxx.Instance Variables	absoluteOrRelativePath:		<Object>	absolutePath:		<Object>	fileSize:		<Object>	locationType:		<Object>	modificationTime:		<Object>absoluteOrRelativePath	- xxxxxabsolutePath	- xxxxxfileSize	- xxxxxlocationType	- xxxxxmodificationTime	- xxxxx
+File infos for a FreeType font

@@ -1,1 +1,1 @@
-A FreeTypeCacheTest is xxxxxxxxx.Instance Variables	cache:		<Object>	cache1K:		<Object>	font1:		<Object>	font1XGlyph:		<Object>	font1YGlyph:		<Object>	font1ZGlyph:		<Object>	font2:		<Object>	font3:		<Object>	fullCache:		<Object>cache	- xxxxxcache1K	- xxxxxfont1	- xxxxxfont1XGlyph	- xxxxxfont1YGlyph	- xxxxxfont1ZGlyph	- xxxxxfont2	- xxxxxfont3	- xxxxxfullCache	- xxxxx
+SUnit tests for FreeType cache

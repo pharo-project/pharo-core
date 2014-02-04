@@ -1,1 +1,1 @@
-A SimulationExceptionWrapper is xxxxxxxxx.Instance Variables	exception:		<Object>exception	- xxxxx
+Notify about an exception while simulating an execution

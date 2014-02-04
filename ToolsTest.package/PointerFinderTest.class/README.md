@@ -1,1 +1,1 @@
-A PointerFinderTest is xxxxxxxxx.
+SUnit tests for PointerFinder

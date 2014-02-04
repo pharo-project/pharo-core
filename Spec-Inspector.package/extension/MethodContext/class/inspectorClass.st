@@ -1,2 +1,2 @@
 inspectorClass
-	^ EyeContextInspector
+	^ EyeMethodContextInspector

@@ -1,1 +1,1 @@
-A GroupAnnouncer is xxxxxxxxx.
+Announcer for group announcements

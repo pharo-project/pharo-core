@@ -1,1 +1,1 @@
-A TClass is xxxxxxxxx.
+Kernel trait for Class

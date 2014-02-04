@@ -1,4 +1,4 @@
-EyeInspector subclass: #EyeContextInspector
+EyeInspector subclass: #EyeMethodContextInspector
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

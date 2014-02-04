@@ -1,1 +1,1 @@
-An AGroupHasBeenRemoved is xxxxxxxxx.
+Notify that a group has been removed

@@ -1,1 +1,1 @@
-A FreeTypeFace is xxxxxxxxx.Instance Variables	fileContentsExternalMemory:		<Object>	filename:		<Object>	hasKerning:		<Object>	index:		<Object>	session:		<Object>	valid:		<Object>fileContentsExternalMemory	- xxxxxfilename	- xxxxxhasKerning	- xxxxxindex	- xxxxxsession	- xxxxxvalid	- xxxxx
+Do not rearrange these fields!

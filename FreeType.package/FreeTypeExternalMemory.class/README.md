@@ -1,1 +1,1 @@
-A FreeTypeExternalMemory is xxxxxxxxx.Instance Variables	bytes:		<Object>bytes	- xxxxx
+FreeType externalMemory 

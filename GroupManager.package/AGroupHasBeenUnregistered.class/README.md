@@ -1,1 +1,1 @@
-An AGroupHasBeenUnregistered is xxxxxxxxx.
+Notify that a group has been unregistered

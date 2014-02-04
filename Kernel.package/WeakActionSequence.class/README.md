@@ -1,1 +1,1 @@
-A WeakActionSequence is xxxxxxxxx.
+Weak action sequences for events

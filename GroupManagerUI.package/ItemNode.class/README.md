@@ -1,1 +1,1 @@
-An ItemNode is xxxxxxxxx.
+An item in the group UI

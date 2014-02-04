@@ -1,1 +1,1 @@
-A TextStyleAsFontFamily is xxxxxxxxx.Instance Variables	textStyle:		<Object>textStyle	- xxxxx
+Text style as font family

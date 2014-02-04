@@ -1,1 +1,1 @@
-A MessageTallyTest is xxxxxxxxx.
+SUnit tests for MessageTally

@@ -1,1 +1,1 @@
-A RBScannerTest is xxxxxxxxx.
+SUnit tests for RBScanner

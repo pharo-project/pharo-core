@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '12794 Class comments missing in UpdateStreamer package
+update30742
+	"self new update30742"
+	self withUpdateLog: '12794 Class comments missing in UpdateStreamer package
 	https://pharo.fogbugz.com/f/cases/12794
 
 12802 Class comments missing for Kernel package
@@ -23,4 +24,6 @@ commentForCurrentUpdate
 12800 EyeContextInspector should be renamed to EyeMethodContextInspector
 	https://pharo.fogbugz.com/f/cases/12800
 
-'
+'.
+	self loadTogether: self script395 merge: false.
+	self flushCaches.

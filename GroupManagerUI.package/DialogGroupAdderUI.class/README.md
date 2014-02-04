@@ -1,1 +1,1 @@
-A DialogGroupAdderUI is xxxxxxxxx.
+Dialog UI for the group adder

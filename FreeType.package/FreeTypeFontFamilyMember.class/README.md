@@ -1,1 +1,1 @@
-A FreeTypeFontFamilyMember is xxxxxxxxx.Instance Variables	fileInfo:		<Object>	simulated:		<Object>	slantName:		<Object>	slantValue:		<Object>	stretchName:		<Object>	stretchValue:		<Object>	weightName:		<Object>	weightValue:		<Object>fileInfo	- xxxxxsimulated	- xxxxxslantName	- xxxxxslantValue	- xxxxxstretchName	- xxxxxstretchValue	- xxxxxweightName	- xxxxxweightValue	- xxxxx
+FreeType FontFamily member  

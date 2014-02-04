@@ -1,1 +1,1 @@
-A FreeTypeFont is xxxxxxxxx.Instance Variables	cachedAscent:		<Object>	cachedDescent:		<Object>	cachedHeight:		<Object>	face:		<Object>	pixelSize:		<Object>	pointSize:		<Object>	simulatedEmphasis:		<Object>	subPixelPositioned:		<Object>	symbolFont:		<Object>	widthAndKernedWidthCache:		<Object>cachedAscent	- xxxxxcachedDescent	- xxxxxcachedHeight	- xxxxxface	- xxxxxpixelSize	- xxxxxpointSize	- xxxxxsimulatedEmphasis	- xxxxxsubPixelPositioned	- xxxxxsymbolFont	- xxxxxwidthAndKernedWidthCache	- xxxxx
+A FreeType font

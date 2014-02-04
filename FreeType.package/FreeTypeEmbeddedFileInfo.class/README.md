@@ -1,1 +1,1 @@
-A FreeTypeEmbeddedFileInfo is xxxxxxxxx.Instance Variables	baseName:		<Object>	fileContents:		<Object>baseName	- xxxxxfileContents	- xxxxx
+File info for embbeded FreeType fonts

@@ -1,1 +1,1 @@
-An InterpreterTest is xxxxxxxxx.
+Common superclass for SUnit tests of interpreter tests

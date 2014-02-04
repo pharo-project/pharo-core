@@ -1,1 +1,1 @@
-An AGroupHasBeenAdded is xxxxxxxxx.
+Notify that a group has been added

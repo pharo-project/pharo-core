@@ -1,1 +1,1 @@
-An OpenToolTest is xxxxxxxxx.
+SUnit tests for opening of tools

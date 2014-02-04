@@ -1,1 +1,1 @@
-An ImageCleaner is xxxxxxxxx.
+Used for cleaning the image

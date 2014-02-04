@@ -1,1 +1,1 @@
-A TComposingDescription is xxxxxxxxx.
+Kernel trait for ComposingDescription

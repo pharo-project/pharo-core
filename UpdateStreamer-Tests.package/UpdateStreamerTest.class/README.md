@@ -1,1 +1,1 @@
-An UpdateStreamerTest is xxxxxxxxx.
+SUnit test for update streamer

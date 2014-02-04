@@ -1,1 +1,1 @@
-A TBehavior is xxxxxxxxx.
+Kernel trait for Behavior

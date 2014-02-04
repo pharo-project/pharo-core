@@ -1,1 +1,1 @@
-A FreeTypeCacheLinkedList is xxxxxxxxx.
+A linked list for the FreeTypeCache

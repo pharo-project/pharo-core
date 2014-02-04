@@ -1,1 +1,1 @@
-A SimulationGuardException is xxxxxxxxx.Instance Variables	args:		<Object>	method:		<Object>	receiver:		<Object>args	- xxxxxmethod	- xxxxxreceiver	- xxxxx
+Notify about an exception while simulating a guard

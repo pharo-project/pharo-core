@@ -1,1 +1,1 @@
-A RBFormatterTests is xxxxxxxxx.
+SUnit tests for RBFormatter

@@ -1,1 +1,1 @@
-An Abort is xxxxxxxxx.
+Notify to abort a task
