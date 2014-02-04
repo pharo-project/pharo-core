@@ -1,0 +1,2 @@
+fontHeight
+	^ fontExtents height

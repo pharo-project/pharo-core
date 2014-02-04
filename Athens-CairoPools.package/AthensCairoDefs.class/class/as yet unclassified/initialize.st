@@ -17,5 +17,6 @@ initialize
 		initialize_cairo_extend_t;
 		initialize_cairo_hint_style_t;
 		initialize_cairo_antialias_t;
-		init_cairo_subpixel_order_t.
+		init_cairo_subpixel_order_t;
+		initialize_cairo_hint_metrics_t.
 		

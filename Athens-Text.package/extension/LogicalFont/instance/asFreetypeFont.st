@@ -1,0 +1,2 @@
+asFreetypeFont
+	^ self realFont asFreetypeFont

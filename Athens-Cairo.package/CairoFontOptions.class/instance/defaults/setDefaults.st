@@ -1,3 +1,3 @@
 setDefaults
 
-	self hintStyleNone; subpixelOrderRGB; aaSubpixel
+	self hintStyleSlight; hintMetricsOff; subpixelOrderRGB; aaSubpixel

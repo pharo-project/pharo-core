@@ -1,2 +1,2 @@
 capSquare
-	self capStyle: CAIRO_LINE_CAP_SQUARE
+	capStyle := CAIRO_LINE_CAP_SQUARE

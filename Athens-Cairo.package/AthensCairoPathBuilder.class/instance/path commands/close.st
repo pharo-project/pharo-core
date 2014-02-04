@@ -2,4 +2,5 @@ close
 
 	self closePath.
 	
-	endPoint := self getCurrentPoint
+	endPoint := self getCurrentPoint.
+	lastControlPoint := nil

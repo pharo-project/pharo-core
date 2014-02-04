@@ -5,7 +5,7 @@ arcTo: newEndPoint angle: angle cw: aBool
 	"
 
 	| start end center v radius startAngle endAngle cwAngle |	
-		
+	lastControlPoint := nil.
 	angle isZero ifTrue: [ ^ self lineTo: newEndPoint ].
 	 
 	start := endPoint.

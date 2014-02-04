@@ -1,28 +1,19 @@
 renderCharacters: aString from: start to: end
 
-	| utfString extents currentPt |
+	| glyphs |
 
-	utfConverter convert: aString from: start to: end.
-
+	glyphs := self glyphsOf: aString from: start to: end.
+	
 	font lock.
 	
-	canvas
-		setScaledFont: font;
-		setFontSize: originalFont pixelSize.
-		
 	canvas 
-		setPathMatrix;
-		newPath;
-		moveToX: advance x Y: advance y.
+		setScaledFont: font;
+		setPathMatrix.
 
-	canvas paint loadOn: canvas.
+	canvas paint loadOnCairoCanvas: canvas.
 
-	currentPt := canvas getCurrentPoint.
-	
-	canvas	showText: utfConverter buffer.
+	canvas showGlyphs: glyphs address size: glyphs size.
+
 	font unlock.		
 	
-	^ canvas getCurrentPoint - currentPt.
-
-	"cairo_show_text ()"
 	

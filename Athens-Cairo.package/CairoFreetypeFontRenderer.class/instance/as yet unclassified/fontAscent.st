@@ -1,0 +1,2 @@
+fontAscent
+	^ fontExtents ascent

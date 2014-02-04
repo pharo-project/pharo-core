@@ -1,0 +1,2 @@
+fontHeight
+	^ extents height

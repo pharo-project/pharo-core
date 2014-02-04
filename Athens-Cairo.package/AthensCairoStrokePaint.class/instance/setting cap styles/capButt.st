@@ -1,2 +1,2 @@
 capButt
-	self capStyle: CAIRO_LINE_CAP_BUTT.
+	capStyle := CAIRO_LINE_CAP_BUTT.

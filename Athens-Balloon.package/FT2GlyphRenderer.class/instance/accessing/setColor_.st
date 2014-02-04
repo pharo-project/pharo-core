@@ -4,7 +4,7 @@ setColor: color
 	| clr rgb alpha |
 	currentColor = color ifTrue: [ ^ self ].
 	currentColor := color.
-	clr := self pixelValue32Of: color. 
+	clr := color pixelValue32.
 	rgb := clr bitAnd: 16rFFFFFF.
 	alpha := clr >> 24.
 	

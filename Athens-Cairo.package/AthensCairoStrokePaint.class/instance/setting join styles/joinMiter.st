@@ -1,2 +1,2 @@
 joinMiter
-	self joinStyle: CAIRO_LINE_JOIN_MITER
+	joinStyle := CAIRO_LINE_JOIN_MITER

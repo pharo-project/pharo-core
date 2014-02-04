@@ -2,7 +2,11 @@ drawOn: canvas
 	| px py |
 	canvas fillRectangle: bounds color: self backgroundColor.
 	self renderScene.
-	canvas translucentImage: surface asForm at: bounds origin.
+
+	surface displayOnMorphicCanvas: canvas at: bounds origin.
+
+"	 translucentImage: surface asForm at: bounds origin."
+	
 	self showDebugInfo
 		ifTrue: [ 
 			px := transform x printShowingDecimalPlaces: 3.

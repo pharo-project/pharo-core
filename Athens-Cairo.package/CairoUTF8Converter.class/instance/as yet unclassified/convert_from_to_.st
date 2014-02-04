@@ -6,5 +6,5 @@ convert: aString from: start to: end
 	
 	stream next: end-start+1 putAll: aString startingAt: start.
 "	start to: end do: [:i| 	stream nextPut: (aString at: i) ].
-"	bs nextPut: 0.
+"	"bs nextPut: 0."
 	^ bs position.

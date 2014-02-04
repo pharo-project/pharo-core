@@ -1,0 +1,1 @@
+A CairoFontRenderer is xxxxxxxxx.Instance Variables	cache:		<Object>	cairoFont:		<Object>	extents:		<Object>	font:		<Object>	glyphExtents:		<Object>	utfConverter:		<Object>cache	- xxxxxcairoFont	- xxxxxextents	- xxxxxfont	- xxxxxglyphExtents	- xxxxxutfConverter	- xxxxx

@@ -1,3 +1,0 @@
-innerJoinStyle: anObject
-
-	innerJoinStyle := anObject

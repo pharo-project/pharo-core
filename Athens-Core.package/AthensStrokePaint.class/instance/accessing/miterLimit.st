@@ -1,3 +1,0 @@
-miterLimit
-
-	^ miterLimit

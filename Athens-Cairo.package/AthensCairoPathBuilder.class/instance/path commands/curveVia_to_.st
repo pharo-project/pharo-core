@@ -5,7 +5,8 @@ curveVia: p1 to: aPoint
 	pt0 := endPoint.
 	pt1 := self toAbsolute: p1.
 	endPoint := self toAbsolute: aPoint.
-
+	lastControlPoint := nil.
+	
 "Any quadratic spline can be expressed as a cubic (where the cubic term is zero). The end points of the cubic will be the same as the quadratic's.
 
 	CP0 = QP0

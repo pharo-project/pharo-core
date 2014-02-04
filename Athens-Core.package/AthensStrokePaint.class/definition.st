@@ -1,5 +1,5 @@
 AthensPaint subclass: #AthensStrokePaint
-	instanceVariableNames: 'fillPaint width capStyle joinStyle innerJoinStyle miterLimit'
+	instanceVariableNames: 'fillPaint width miterLimit'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Athens-Core-Paints'

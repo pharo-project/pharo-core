@@ -1,0 +1,2 @@
+isCubic
+	^true

@@ -1,6 +1,6 @@
 AthensStrokePaint subclass: #AthensCairoStrokePaint
 	uses: TCairoLibrary
-	instanceVariableNames: 'dashLenghts dashOffset'
+	instanceVariableNames: 'capStyle joinStyle dashLenghts dashOffset'
 	classVariableNames: ''
 	poolDictionaries: 'AthensCairoDefs'
 	category: 'Athens-Cairo-Paints'
