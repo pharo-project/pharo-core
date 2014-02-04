@@ -1,1 +1,1 @@
-A FLNegative8SmallIntegerCluster is xxxxxxxxx.
+A cluster of unsigned int 8bit

@@ -1,1 +1,1 @@
-A FLClassWithRecursiveSubstitution is xxxxxxxxx.Instance Variables	index:		<Object>index	- xxxxx
+A test mock for a class with recursive substitution

@@ -1,1 +1,1 @@
-A FLGlobalSendSerializationTest is xxxxxxxxx.
+SUnit tests for fuel serialization of global sends

@@ -1,1 +1,1 @@
-A SugsMenuBuilderTest is xxxxxxxxx.
+SUnit tests for the Smart suggestions menu builder

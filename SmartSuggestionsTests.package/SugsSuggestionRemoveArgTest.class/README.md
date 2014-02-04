@@ -1,1 +1,1 @@
-A SugsSuggestionRemoveArgTest is xxxxxxxxx.
+SUnit tests for the remove argument suggestion

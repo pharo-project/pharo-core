@@ -1,1 +1,1 @@
-A SugsSuggestionCreateAccessorsTest is xxxxxxxxx.
+SUnit tests for accessor creation

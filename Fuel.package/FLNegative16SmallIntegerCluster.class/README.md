@@ -1,1 +1,1 @@
-A FLNegative16SmallIntegerCluster is xxxxxxxxx.
+A cluster of unsigned int 16bit

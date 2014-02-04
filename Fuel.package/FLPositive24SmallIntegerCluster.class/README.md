@@ -1,1 +1,1 @@
-A FLPositive24SmallIntegerCluster is xxxxxxxxx.
+unsigned, 24-bit integer

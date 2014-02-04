@@ -1,1 +1,1 @@
-A FtpUrl is xxxxxxxxx.
+An FTP Url

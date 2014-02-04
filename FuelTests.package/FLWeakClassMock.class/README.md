@@ -1,1 +1,1 @@
-A FLWeakClassMock is xxxxxxxxx.Instance Variables	instVar1:		<Object>instVar1	- xxxxx
+Test mock for a weak class

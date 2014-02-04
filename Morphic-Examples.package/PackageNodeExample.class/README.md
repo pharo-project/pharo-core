@@ -1,1 +1,1 @@
-A PackageNodeExample is xxxxxxxxx.
+Example for a pakage node

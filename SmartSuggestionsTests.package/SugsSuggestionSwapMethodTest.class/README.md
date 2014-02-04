@@ -1,1 +1,1 @@
-A SugsSuggestionSwapMethodTest is xxxxxxxxx.
+SUnit tests for the swap method suggestion

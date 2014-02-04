@@ -1,1 +1,1 @@
-A FLIgnoredVariablesTest is xxxxxxxxx.
+SUnit tests for serialization with ignored variables

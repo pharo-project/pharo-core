@@ -1,1 +1,1 @@
-A FLIndexStreamTest is xxxxxxxxx.
+SUnit tests for index streams

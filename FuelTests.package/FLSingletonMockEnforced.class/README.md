@@ -1,1 +1,1 @@
-A FLSingletonMockEnforced is xxxxxxxxx.
+A test mock where a new instance is enforced

@@ -1,1 +1,1 @@
-A FLGlobalSendMock is xxxxxxxxx.Instance Variables	contents:		<Object>contents	- xxxxx
+A mock for a global send

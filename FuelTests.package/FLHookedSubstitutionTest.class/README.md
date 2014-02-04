@@ -1,1 +1,1 @@
-A FLHookedSubstitutionTest is xxxxxxxxx.
+SUnit tests for hooked serialization using fuel

@@ -1,1 +1,1 @@
-A FLPositive32SmallIntegerCluster is xxxxxxxxx.
+unsigned, 32-bit integer

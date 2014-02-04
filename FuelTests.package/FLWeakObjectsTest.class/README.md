@@ -1,1 +1,1 @@
-A FLWeakObjectsTest is xxxxxxxxx.
+SUnit tests for fuel serialization of weak objects

@@ -1,1 +1,1 @@
-A FLNotSerializableMock is xxxxxxxxx.
+A test mock which is not serializable

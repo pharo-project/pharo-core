@@ -1,1 +1,1 @@
-A ZLibReadStream is xxxxxxxxx.
+A ZLib read stream

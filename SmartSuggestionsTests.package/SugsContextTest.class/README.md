@@ -1,1 +1,1 @@
-A SugsContextTest is xxxxxxxxx.
+SUnit tests for the Smart suggestions context

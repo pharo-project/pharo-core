@@ -1,1 +1,1 @@
-A FLHashedCollectionSerializationTest is xxxxxxxxx.
+SUnit tests for fuel serialization of hashed collections

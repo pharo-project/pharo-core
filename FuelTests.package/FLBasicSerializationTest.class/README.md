@@ -1,1 +1,1 @@
-A FLBasicSerializationTest is xxxxxxxxx.Instance Variables	currentTimeZone:		<Object>currentTimeZone	- xxxxx
+SUnit tests for basic fuel serialization

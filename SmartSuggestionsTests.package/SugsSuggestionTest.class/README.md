@@ -1,1 +1,1 @@
-A SugsSuggestionTest is xxxxxxxxx.Instance Variables	emptyClass:		<Object>emptyClass	- xxxxx
+Superclass for SUnit tests for smart suggestions

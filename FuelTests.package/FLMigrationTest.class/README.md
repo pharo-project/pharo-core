@@ -1,1 +1,1 @@
-A FLMigrationTest is xxxxxxxxx.
+SUnit tests for migrations

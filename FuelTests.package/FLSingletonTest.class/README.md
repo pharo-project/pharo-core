@@ -1,1 +1,1 @@
-A FLSingletonTest is xxxxxxxxx.
+SUnit tests for fuel serialization of singletons

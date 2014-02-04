@@ -1,1 +1,1 @@
-A SimpleGridNodeExample is xxxxxxxxx.
+Example for a simple grid node

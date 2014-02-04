@@ -1,1 +1,1 @@
-A TarArchiveMember is xxxxxxxxx.
+A member of a TAR archive

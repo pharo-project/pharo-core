@@ -1,1 +1,1 @@
-A WidgetExamples is xxxxxxxxx.
+Examples for different widgets

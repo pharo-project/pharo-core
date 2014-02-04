@@ -1,1 +1,1 @@
-A FLPositive16SmallIntegerCluster is xxxxxxxxx.
+unsigned, 16-bit integer cluster

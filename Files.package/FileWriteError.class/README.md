@@ -1,1 +1,1 @@
-A FileWriteError is xxxxxxxxx.
+Notify about an error when trying to attempt to write to a file

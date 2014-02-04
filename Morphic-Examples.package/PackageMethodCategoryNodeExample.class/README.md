@@ -1,1 +1,1 @@
-A PackageMethodCategoryNodeExample is xxxxxxxxx.
+Example for a package method node

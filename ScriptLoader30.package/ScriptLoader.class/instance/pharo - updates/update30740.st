@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '12778 NB generated code user initials
+update30740
+	"self new update30740"
+	self withUpdateLog: '12778 NB generated code user initials
 	https://pharo.fogbugz.com/f/cases/12778
 
 12788 Please review  ProtocolClient(class)>>retrieveMIMEDocument:
@@ -26,4 +27,6 @@ commentForCurrentUpdate
 12783 Class comments missing in Fuel package
 	https://pharo.fogbugz.com/f/cases/12783
 
-'
+'.
+	self loadTogether: self script393 merge: false.
+	self flushCaches.

@@ -1,1 +1,1 @@
-A MailSender is xxxxxxxxx.
+A mail sender

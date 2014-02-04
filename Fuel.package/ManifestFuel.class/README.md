@@ -1,1 +1,1 @@
-A ManifestFuel is xxxxxxxxx.
+Manifest for Fuel package

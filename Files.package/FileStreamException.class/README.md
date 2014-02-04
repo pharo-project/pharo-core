@@ -1,1 +1,1 @@
-A FileStreamException is xxxxxxxxx.Instance Variables	fileName:		<Object>fileName	- xxxxx
+Common superclass for exceptions while using file streams

@@ -1,1 +1,1 @@
-A SugsSuggestionExtractLocalTest is xxxxxxxxx.
+SUnit tests for extract locale suggestion

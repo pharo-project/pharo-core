@@ -1,1 +1,1 @@
-A FLBlockClosureSerializationTest is xxxxxxxxx.
+SUnit tests for fuel serialization of block closures

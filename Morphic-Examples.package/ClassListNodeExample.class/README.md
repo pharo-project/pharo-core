@@ -1,1 +1,1 @@
-A ClassListNodeExample is xxxxxxxxx.
+Example for a class list node

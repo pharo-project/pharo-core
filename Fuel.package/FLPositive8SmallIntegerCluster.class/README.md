@@ -1,1 +1,1 @@
-A FLPositive8SmallIntegerCluster is xxxxxxxxx.
+unsigned, 8-bit integer

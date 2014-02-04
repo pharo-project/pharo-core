@@ -1,1 +1,1 @@
-A SugsSuggestionDelegateTest is xxxxxxxxx.
+SUnit tests for smart suggestions delegates

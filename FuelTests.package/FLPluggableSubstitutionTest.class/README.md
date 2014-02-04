@@ -1,1 +1,1 @@
-A FLPluggableSubstitutionTest is xxxxxxxxx.
+SUnit tests for fuels pluggable substitutions
