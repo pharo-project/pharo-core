@@ -1,1 +1,1 @@
-A PharoUIThemeIcons is xxxxxxxxx.
+Theme icons for Pharo UI

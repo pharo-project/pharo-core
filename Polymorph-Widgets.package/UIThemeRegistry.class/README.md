@@ -1,1 +1,1 @@
-An UIThemeRegistry is xxxxxxxxx.
+Registry for UI themes

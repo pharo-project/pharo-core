@@ -1,1 +1,1 @@
-An UIThemeWatery is xxxxxxxxx.Instance Variables	windowActiveDropShadowStyle:		<Object>windowActiveDropShadowStyle	- xxxxx
+Watery UI theme

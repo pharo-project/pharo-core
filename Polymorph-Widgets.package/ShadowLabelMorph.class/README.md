@@ -1,1 +1,1 @@
-A ShadowLabelMorph is xxxxxxxxx.
+A label with shadow

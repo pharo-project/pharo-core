@@ -1,1 +1,1 @@
-A NullSound is xxxxxxxxx.
+The NullSound means silence 

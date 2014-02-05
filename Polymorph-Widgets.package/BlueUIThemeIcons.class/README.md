@@ -1,1 +1,1 @@
-A BlueUIThemeIcons is xxxxxxxxx.
+Theme icons for blue UI theme

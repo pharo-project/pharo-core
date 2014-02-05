@@ -1,1 +1,1 @@
-A NullSoundTheme is xxxxxxxxx.
+A silent sound theme
