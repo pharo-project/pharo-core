@@ -1,1 +1,1 @@
-An AJx86AssemblerTests is xxxxxxxxx.Instance Variables	asm:		<Object>asm	- xxxxx
+SUnit tests for x86 assembler

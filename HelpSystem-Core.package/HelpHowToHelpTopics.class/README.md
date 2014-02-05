@@ -1,1 +1,1 @@
-A HelpHowToHelpTopics is xxxxxxxxx.
+Explains help topics

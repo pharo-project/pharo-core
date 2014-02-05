@@ -1,1 +1,1 @@
-A CustomHelpTest is xxxxxxxxx.
+SUnit tests for class CustomHelp

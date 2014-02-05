@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '12801 Class comments missing in AsmJIT package
+update30743
+	"self new update30743"
+	self withUpdateLog: '12801 Class comments missing in AsmJIT package
 	https://pharo.fogbugz.com/f/cases/12801
 
 12805 Class comments missing in ClassOrganizer package
@@ -14,4 +15,6 @@ commentForCurrentUpdate
 12799 Class comments missing in Help package
 	https://pharo.fogbugz.com/f/cases/12799
 
-'
+'.
+	self loadTogether: self script396 merge: false.
+	self flushCaches.

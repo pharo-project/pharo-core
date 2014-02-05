@@ -1,1 +1,1 @@
-A ClassOrganizationTest is xxxxxxxxx.Instance Variables	organization:		<Object>organization	- xxxxx
+SUnit tests for class organization

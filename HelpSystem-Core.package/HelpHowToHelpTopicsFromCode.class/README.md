@@ -1,1 +1,1 @@
-A HelpHowToHelpTopicsFromCode is xxxxxxxxx.
+How to create help topics from code

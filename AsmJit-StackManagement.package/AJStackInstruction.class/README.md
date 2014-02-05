@@ -1,1 +1,1 @@
-An AJStackInstruction is xxxxxxxxx.Instance Variables	callInfo:		<Object>callInfo	- xxxxx
+Stack instructions

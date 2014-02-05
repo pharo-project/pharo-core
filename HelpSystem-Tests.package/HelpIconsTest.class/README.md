@@ -1,1 +1,1 @@
-A HelpIconsTest is xxxxxxxxx.
+SUnit tests for the icons used in the help system

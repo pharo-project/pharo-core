@@ -1,1 +1,1 @@
-An AJCallArgument is xxxxxxxxx.Instance Variables	first:		<Object>	size:		<Object>	stackOffset:		<Object>first	- xxxxxsize	- xxxxxstackOffset	- xxxxx
+Argument for a call

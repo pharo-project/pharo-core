@@ -1,1 +1,1 @@
-A ClassAPIHelpBuilderTest is xxxxxxxxx.
+SUnit tests for ClassAPIHelpBuilder

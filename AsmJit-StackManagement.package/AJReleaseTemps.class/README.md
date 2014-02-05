@@ -1,1 +1,1 @@
-An AJReleaseTemps is xxxxxxxxx.Instance Variables	count:		<Object>count	- xxxxx
+Handling release of temps

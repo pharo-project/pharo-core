@@ -1,1 +1,1 @@
-A WikiStyleHelpTest is xxxxxxxxx.
+SUnit tests for WikiStyleHelp

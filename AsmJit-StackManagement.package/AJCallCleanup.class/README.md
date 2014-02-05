@@ -1,1 +1,1 @@
-An AJCallCleanup is xxxxxxxxx.
+Cleanup for calls

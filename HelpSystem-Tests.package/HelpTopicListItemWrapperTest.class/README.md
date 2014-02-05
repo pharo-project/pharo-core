@@ -1,1 +1,1 @@
-A HelpTopicListItemWrapperTest is xxxxxxxxx.
+SUnit tests for class HelpTopicListItemWrapper

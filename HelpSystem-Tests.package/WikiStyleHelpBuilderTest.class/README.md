@@ -1,1 +1,1 @@
-A WikiStyleHelpBuilderTest is xxxxxxxxx.Instance Variables	builder:		<Object>builder	- xxxxx
+SUnit tests for class WikiStyleHelpBuilder

@@ -1,1 +1,1 @@
-An AJx64AssemblerTests is xxxxxxxxx.
+SUnit tests for 64 bit assembler

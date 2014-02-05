@@ -1,1 +1,1 @@
-A HelpTopicTest is xxxxxxxxx.Instance Variables	topic:		<Object>topic	- xxxxx
+SUnit tests for HelpTopic class

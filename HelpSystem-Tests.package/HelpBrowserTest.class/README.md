@@ -1,1 +1,1 @@
-A HelpBrowserTest is xxxxxxxxx.
+SUnit tests for the help browser

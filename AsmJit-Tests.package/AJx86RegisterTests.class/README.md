@@ -1,1 +1,1 @@
-An AJx86RegisterTests is xxxxxxxxx.
+SUnit tests for x86 registers
