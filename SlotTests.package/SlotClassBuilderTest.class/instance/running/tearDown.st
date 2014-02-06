@@ -13,3 +13,5 @@ tearDown
 	self 
 		cleanUpTrait: TOne;
 		cleanUpTrait: TTwo.
+		
+	Smalltalk organization removeCategory: self aCategory.
