@@ -1,1 +1,1 @@
-An ObjectTest is xxxxxxxxx.
+SUnit tests for objects

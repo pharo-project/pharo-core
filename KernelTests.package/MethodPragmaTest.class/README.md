@@ -1,1 +1,1 @@
-A MethodPragmaTest is xxxxxxxxx.
+SUnit tests for method pragmas

@@ -1,1 +1,1 @@
-An ExceptionTests is xxxxxxxxx.
+SUnit tests for exceptions

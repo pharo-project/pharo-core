@@ -1,1 +1,1 @@
-A GoferFetch is xxxxxxxxx.
+Fetch packages using Gofer

@@ -1,1 +1,1 @@
-An IntegerDigitLogicTest is xxxxxxxxx.
+SUnit test to test digit logic of integers

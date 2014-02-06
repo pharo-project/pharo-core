@@ -1,1 +1,1 @@
-A MultiByteFileStreamTest is xxxxxxxxx.
+SUnit tests for MultiByteFileStream 

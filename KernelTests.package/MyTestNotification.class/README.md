@@ -1,1 +1,1 @@
-A MyTestNotification is xxxxxxxxx.
+A notification for tests 

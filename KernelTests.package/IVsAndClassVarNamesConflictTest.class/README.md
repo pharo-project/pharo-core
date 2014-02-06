@@ -1,1 +1,1 @@
-An IVsAndClassVarNamesConflictTest is xxxxxxxxx.Instance Variables	class:		<Object>	className:		<Object>class	- xxxxxclassName	- xxxxx
+SUnit tests to tests conflicts for instance variables and class variable names

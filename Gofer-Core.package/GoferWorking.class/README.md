@@ -1,1 +1,1 @@
-A GoferWorking is xxxxxxxxx.Instance Variables	workingCopies:		<Object>workingCopies	- xxxxx
+Common superclass for workin copies in Gofer

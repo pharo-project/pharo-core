@@ -1,1 +1,1 @@
-An UTF8TextConverterTest is xxxxxxxxx.
+SUnit tests for UTF8TextConverter

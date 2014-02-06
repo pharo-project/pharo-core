@@ -1,1 +1,1 @@
-A PoolDefiner2 is xxxxxxxxx.
+A pool used for testing purposes

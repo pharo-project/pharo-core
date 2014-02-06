@@ -1,1 +1,1 @@
-A GoferBrowseRemoteChanges is xxxxxxxxx.
+Browse remote changes

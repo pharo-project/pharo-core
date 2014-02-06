@@ -1,1 +1,1 @@
-A WeakMessageSendTest is xxxxxxxxx.
+SUnit tests for WeakMessageSend

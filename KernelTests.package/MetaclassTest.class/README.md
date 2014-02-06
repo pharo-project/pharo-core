@@ -1,1 +1,1 @@
-A MetaclassTest is xxxxxxxxx.
+Sunit tests for metaclasses

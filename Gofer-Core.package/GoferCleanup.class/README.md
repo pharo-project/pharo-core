@@ -1,1 +1,1 @@
-A GoferCleanup is xxxxxxxxx.
+Cleanup working copies

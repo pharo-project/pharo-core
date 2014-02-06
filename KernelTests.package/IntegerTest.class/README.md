@@ -1,1 +1,1 @@
-An IntegerTest is xxxxxxxxx.
+SUnit tests for integers

@@ -1,1 +1,1 @@
-A TrueTest is xxxxxxxxx.
+SUnit tests for true/True class

@@ -1,1 +1,1 @@
-A MyResumableTestError is xxxxxxxxx.
+A resumable error for tests

@@ -1,1 +1,1 @@
-A X11Encoding is xxxxxxxxx.
+X11 encoding

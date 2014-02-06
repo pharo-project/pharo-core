@@ -1,1 +1,1 @@
-A ByteTextConverterTest is xxxxxxxxx.
+SUnit tests for ByteTextConverter

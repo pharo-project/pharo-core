@@ -1,1 +1,1 @@
-A MyTestError is xxxxxxxxx.
+An error for tests

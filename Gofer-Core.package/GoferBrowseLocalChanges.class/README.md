@@ -1,1 +1,1 @@
-A GoferBrowseLocalChanges is xxxxxxxxx.
+Browse local changes

@@ -1,1 +1,1 @@
-A GoferCommit is xxxxxxxxx.Instance Variables	message:		<Object>message	- xxxxx
+Commit work

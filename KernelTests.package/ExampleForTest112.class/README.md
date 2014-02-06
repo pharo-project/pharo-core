@@ -1,1 +1,1 @@
-An ExampleForTest112 is xxxxxxxxx.
+An example class at level 3 (indirectly below Object) used for testing class hierarchy

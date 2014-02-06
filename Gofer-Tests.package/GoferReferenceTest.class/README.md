@@ -1,1 +1,1 @@
-A GoferReferenceTest is xxxxxxxxx.
+SUnit tests for GoferReference and subclasses

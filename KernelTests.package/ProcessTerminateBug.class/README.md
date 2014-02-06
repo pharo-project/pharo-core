@@ -1,1 +1,1 @@
-A ProcessTerminateBug is xxxxxxxxx.
+SUnit tests for Process termination

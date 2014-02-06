@@ -1,1 +1,1 @@
-An AdditionalMethodStateTest is xxxxxxxxx.Instance Variables	atState:		<Object>atState	- xxxxx
+SUnit tests for AdditionalMethodState

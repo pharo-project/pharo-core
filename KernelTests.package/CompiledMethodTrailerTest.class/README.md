@@ -1,1 +1,1 @@
-A CompiledMethodTrailerTest is xxxxxxxxx.
+SUnit tests for CompiledMethodTrailer

@@ -1,1 +1,1 @@
-A SelfEvaluatingObjectTest is xxxxxxxxx.
+SUnit tests for self evaluting objects 

@@ -1,1 +1,1 @@
-An EUCTextConverterTest is xxxxxxxxx.
+SUnit tests for EUC-JP encoding

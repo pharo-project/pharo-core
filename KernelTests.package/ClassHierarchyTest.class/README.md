@@ -1,1 +1,1 @@
-A ClassHierarchyTest is xxxxxxxxx.
+SUnit tests for the class hierarchy

@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '12813 Class comments missing in Gofer package
+update30745
+	"self new update30745"
+	self withUpdateLog: '12813 Class comments missing in Gofer package
 	https://pharo.fogbugz.com/f/cases/12813
 
 12816 Class comments missing in Multilingual package
@@ -14,4 +15,7 @@ commentForCurrentUpdate
 12792 remove empty package ReactiveVariable
 	https://pharo.fogbugz.com/f/cases/12792
 
-'
+'.
+	self loadTogether: self script398 merge: false.
+	ScriptLoader new unregisterPackage: 'ReactiveVariable'.
+	self flushCaches.

@@ -1,1 +1,1 @@
-A BehaviorTest is xxxxxxxxx.
+SUnit tests for Behavior

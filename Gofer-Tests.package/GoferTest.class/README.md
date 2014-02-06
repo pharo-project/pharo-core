@@ -1,1 +1,1 @@
-A GoferTest is xxxxxxxxx.Instance Variables	gofer:		<Object>gofer	- xxxxx
+SUnit tests for Gofer
