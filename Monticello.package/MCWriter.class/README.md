@@ -1,1 +1,1 @@
-A MCWriter is xxxxxxxxx.Instance Variables	stream:		<Object>stream	- xxxxx
+Common superclass for metacello writers

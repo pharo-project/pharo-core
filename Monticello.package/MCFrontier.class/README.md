@@ -1,1 +1,1 @@
-A MCFrontier is xxxxxxxxx.Instance Variables	bag:		<Object>	frontier:		<Object>bag	- xxxxxfrontier	- xxxxx
+Utility class

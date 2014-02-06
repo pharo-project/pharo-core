@@ -1,1 +1,1 @@
-A ConfigurationCommandLineHandlerTest is xxxxxxxxx.
+SUnit tests for class ConfigurationCommandLineHandler

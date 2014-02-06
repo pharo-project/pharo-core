@@ -1,1 +1,1 @@
-A MCMergeRecord is xxxxxxxxx.Instance Variables	ancestorInfo:		<Object>	ancestorSnapshot:		<Object>	imagePatch:		<Object>	mergePatch:		<Object>	packageSnapshot:		<Object>	version:		<Object>ancestorInfo	- xxxxxancestorSnapshot	- xxxxximagePatch	- xxxxxmergePatch	- xxxxxpackageSnapshot	- xxxxxversion	- xxxxx
+A record for merging

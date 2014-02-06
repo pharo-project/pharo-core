@@ -1,1 +1,1 @@
-A MCMockAPoolDictionary is xxxxxxxxx.
+Mocking a pool

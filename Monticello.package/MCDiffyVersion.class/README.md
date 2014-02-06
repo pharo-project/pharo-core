@@ -1,1 +1,1 @@
-A MCDiffyVersion is xxxxxxxxx.Instance Variables	base:		<Object>	patch:		<Object>base	- xxxxxpatch	- xxxxx
+A diffy version

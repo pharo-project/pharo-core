@@ -1,1 +1,1 @@
-A MCEmptyPackageInfo is xxxxxxxxx.
+A mock for empty package info used for testing purposes

@@ -1,1 +1,1 @@
-A MCReader is xxxxxxxxx.Instance Variables	stream:		<Object>stream	- xxxxx
+Common superclass for Monticello readers

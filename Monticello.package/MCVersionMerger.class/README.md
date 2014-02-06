@@ -1,1 +1,1 @@
-A MCVersionMerger is xxxxxxxxx.Instance Variables	merger:		<Object>	records:		<Object>merger	- xxxxxrecords	- xxxxx
+Merge versions

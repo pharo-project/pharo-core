@@ -1,1 +1,1 @@
-A MCPostscriptDefinition is xxxxxxxxx.
+A postscript evaluated after load

@@ -1,1 +1,1 @@
-A MCMergeResolutionRequest is xxxxxxxxx.Instance Variables	merger:		<Object>merger	- xxxxx
+Notify to resolve conflicts by merging

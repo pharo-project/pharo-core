@@ -1,1 +1,1 @@
-A MCDirectoryRepository is xxxxxxxxx.Instance Variables	directory:		<Object>directory	- xxxxx
+A metacello repository in a directory 

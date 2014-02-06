@@ -1,1 +1,1 @@
-A MCRemovalPostscriptDefinition is xxxxxxxxx.
+A postscript evaluated after unloading/removing

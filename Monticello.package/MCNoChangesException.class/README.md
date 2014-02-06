@@ -1,1 +1,1 @@
-A MCNoChangesException is xxxxxxxxx.
+Notify that no changes have to be merged

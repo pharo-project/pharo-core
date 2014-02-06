@@ -4,4 +4,5 @@ openMenuIn: aBlock
 uninitialized at this point.
 Proceed anyway?'.
 	index := aBlock value: #('yes' 'no') value: #() value: caption.
-	^ self resume: index = 1
+	(index = 1) ifFalse:[^self compilationContext failBlock value].
+	^ self resume: true.

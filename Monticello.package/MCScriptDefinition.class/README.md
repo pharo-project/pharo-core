@@ -1,1 +1,1 @@
-A MCScriptDefinition is xxxxxxxxx.Instance Variables	packageName:		<Object>	script:		<Object>packageName	- xxxxxscript	- xxxxx
+Common superclass for script definitions

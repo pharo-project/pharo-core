@@ -1,1 +1,1 @@
-A MCMcdWriter is xxxxxxxxx.
+Writing MCD format

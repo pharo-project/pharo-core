@@ -1,1 +1,1 @@
-A MCMcdReader is xxxxxxxxx.Instance Variables	baseInfo:		<Object>	patch:		<Object>baseInfo	- xxxxxpatch	- xxxxx
+Reader for an MCD format

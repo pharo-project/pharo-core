@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '12514 OCSemanticWarnings ignore "cancel" from a confirmation dialog
+update30746
+	"self new update30746"
+	self withUpdateLog: '12514 OCSemanticWarnings ignore "cancel" from a confirmation dialog
 	https://pharo.fogbugz.com/f/cases/12514
 
 12824 Class comment missing for package ConfigurationCommandLineHandler
@@ -14,4 +15,6 @@ commentForCurrentUpdate
 12823 Class comment missing in Monticello package
 	https://pharo.fogbugz.com/f/cases/12823
 
-'
+'.
+	self loadTogether: self script399 merge: false.
+	self flushCaches.

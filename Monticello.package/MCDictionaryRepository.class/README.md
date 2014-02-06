@@ -1,1 +1,1 @@
-A MCDictionaryRepository is xxxxxxxxx.Instance Variables	description:		<Object>	dict:		<Object>description	- xxxxxdict	- xxxxx
+A dictionary repository (in nemory)

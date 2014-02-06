@@ -1,1 +1,1 @@
-A MCRemovalPreambleDefinition is xxxxxxxxx.
+A preamble evaluated before unloading/removing

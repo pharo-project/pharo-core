@@ -9,10 +9,11 @@ defaultAction
 		title: node name asWideString, ' appears to be unused in this method. OK to remove it?' withCRs.
 	
 	(answer = 2 ) ifTrue: [ ^self].
-	self methodNode body removeTemporaryNamed: node name.
+      (answer = 0 ) ifTrue: [ self compilationContext failBlock value].
+	self node parent scope removeTemp: (self node parent scope lookupVar:(node name)).
+	self node parent removeTemporaryNamed: node name.
 	self requestor correctFrom: node start to: node stop with: ''.
-	
-	ReparseAfterSourceEditing signalWithNewSource: self requestor text.
+
 	
 	
 	

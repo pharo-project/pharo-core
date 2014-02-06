@@ -8,6 +8,6 @@ visitSequenceNode: aSequenceNode
 				ifFound: [ :pragma | self declareVariableNode: (RBVariableNode named: pragma arguments last value asString) ] ].
 	aSequenceNode statements do: [ :each | self visitNode: each ].
 	aSequenceNode temporaries
-		do: [ :node | 
+		reverseDo: [ :node | 
 			node binding isUnused
 				ifTrue: [ self unusedVariable: node ] ]

@@ -1,1 +1,1 @@
-A MCMock is xxxxxxxxx.
+Common superclass for mocks
