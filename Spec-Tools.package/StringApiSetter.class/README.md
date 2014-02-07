@@ -1,1 +1,1 @@
-A StringApiSetter is xxxxxxxxx.
+Widget setter API for strings

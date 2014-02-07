@@ -1,1 +1,1 @@
-An AbstractApiSetter is xxxxxxxxx.Instance Variables	choice:		<Object>	isSetting:		<Object>	method:		<Object>	model:		<Object>	retrievingMethod:		<Object>	selector:		<Object>choice	- xxxxxisSetting	- xxxxxmethod	- xxxxxmodel	- xxxxxretrievingMethod	- xxxxxselector	- xxxxx
+Abstract Widget setter API

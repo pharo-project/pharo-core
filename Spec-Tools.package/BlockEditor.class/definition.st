@@ -1,4 +1,4 @@
-ComposableModel subclass: #BlocEditor
+ComposableModel subclass: #BlockEditor
 	instanceVariableNames: 'block ok post pre text'
 	classVariableNames: ''
 	poolDictionaries: ''

@@ -1,1 +1,1 @@
-An IntegerApiSetter is xxxxxxxxx.
+Widget setter API for integers

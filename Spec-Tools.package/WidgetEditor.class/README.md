@@ -1,1 +1,1 @@
-A WidgetEditor is xxxxxxxxx.
+Widget editor

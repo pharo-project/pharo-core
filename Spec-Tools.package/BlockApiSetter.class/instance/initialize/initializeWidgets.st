@@ -2,7 +2,7 @@ initializeWidgets
 	
 	self instantiateModels: #(
 		selector 	LabelModel 
-		choice 		BlocEditor ).
+		choice 		#BlockEditor ).
 				
 	self selector text: ''.
 	self choice whenBlockChangedDo: [:b | self setValueTo: b ]

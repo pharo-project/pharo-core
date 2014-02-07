@@ -1,1 +1,1 @@
-A BooleanApiSetter is xxxxxxxxx.
+Widget setter API for boolean

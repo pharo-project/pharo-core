@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '12789 RPackage>>#moveClass:fromPackage:toTag: Ignores Tag
+update30748
+	"self new update30748"
+	self withUpdateLog: '12789 RPackage>>#moveClass:fromPackage:toTag: Ignores Tag
 	https://pharo.fogbugz.com/f/cases/12789
 
 12827 Part II : Compiling a method often makes nautilus deselect the package
@@ -11,4 +12,6 @@ commentForCurrentUpdate
 12812 Class comments missing in package Spec-Tools and Spec-Tests and BlocEditor should be renamed to BlockEditor
 	https://pharo.fogbugz.com/f/cases/12812
 
-'
+'.
+	self loadTogether: self script401 merge: false.
+	self flushCaches.

@@ -1,1 +1,1 @@
-A BlockApiSetter is xxxxxxxxx.
+Widget setter API for BlocEditor

@@ -1,1 +1,1 @@
-A StApiSetter is xxxxxxxxx.
+Widget setter API for STEditor

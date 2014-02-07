@@ -1,1 +1,1 @@
-A ColorApiSetter is xxxxxxxxx.
+Widget setter API for colors

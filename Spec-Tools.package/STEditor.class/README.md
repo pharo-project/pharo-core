@@ -1,1 +1,1 @@
-A STEditor is xxxxxxxxx.Instance Variables	object:		<Object>	ok:		<Object>	text:		<Object>object	- xxxxxok	- xxxxxtext	- xxxxx
+ST Editor

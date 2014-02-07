@@ -1,6 +1,7 @@
 buildPackageSearch
 	"It is an search dialog which filters package list"
-
+	| textMorph |
+	
 	searchWidget := SearchMorph new
 		model: self;
 		updateSelector: #packageSearchUpdate:;
@@ -9,4 +10,10 @@ buildPackageSearch
 		useSelectionIndex: false;
 		setIndexSelector: #packageSearchUpdate:;
 		yourself.
+		
+	textMorph := searchWidget contentMorph textMorph.	
+	self setShortcuts: #NautilusGlobalShortcuts to: textMorph.
+	textMorph bindKeyCombination: Character tab asKeyCombination toAction: [ textMorph navigateFocusForward ].
+	
+	
 	^ searchWidget
