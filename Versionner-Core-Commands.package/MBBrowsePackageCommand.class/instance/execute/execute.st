@@ -1,0 +1,2 @@
+execute
+	target classForBrowsing browse

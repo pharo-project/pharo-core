@@ -1,0 +1,1 @@
+A MBAddConfigurationCommand is xxxxxxxxx.

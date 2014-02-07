@@ -1,0 +1,1 @@
+A MTDependencyTest is xxxxxxxxx.Instance Variables	project:		<Object>	version:		<Object>project	- xxxxxversion	- xxxxx

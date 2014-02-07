@@ -1,0 +1,1 @@
+A MBLoadConfigurationCommand is xxxxxxxxx.

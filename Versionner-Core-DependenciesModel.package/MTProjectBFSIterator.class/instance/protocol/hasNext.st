@@ -1,0 +1,3 @@
+hasNext
+	^ queue isEmpty not
+	

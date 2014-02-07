@@ -1,0 +1,3 @@
+validateAll: aBool
+
+	ValidateAll := aBool

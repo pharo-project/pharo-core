@@ -1,0 +1,2 @@
+helpDocumentation
+	^self documentation

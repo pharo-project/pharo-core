@@ -1,0 +1,1 @@
+A MBAbstractVersionInfoTest is xxxxxxxxx.

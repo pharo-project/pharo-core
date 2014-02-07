@@ -1,0 +1,1 @@
+A MBValidateAllConfigurationCommand is xxxxxxxxx.

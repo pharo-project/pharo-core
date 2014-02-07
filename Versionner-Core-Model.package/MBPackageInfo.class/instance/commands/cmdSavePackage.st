@@ -1,0 +1,3 @@
+cmdSavePackage
+	<command>
+	^ MBSavePackageCommand

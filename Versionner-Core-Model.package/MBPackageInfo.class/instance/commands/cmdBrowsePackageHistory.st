@@ -1,0 +1,4 @@
+cmdBrowsePackageHistory
+	<command>
+	^ MBPackageHistoryCommand
+	

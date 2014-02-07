@@ -1,0 +1,3 @@
+cmdRemove
+	<command>
+	^ VSRemoveCommand

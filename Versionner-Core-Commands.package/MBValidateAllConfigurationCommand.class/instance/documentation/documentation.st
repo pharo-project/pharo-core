@@ -1,0 +1,2 @@
+documentation
+	^ 'Validate all configuration.'

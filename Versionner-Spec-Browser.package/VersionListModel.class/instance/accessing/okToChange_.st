@@ -1,0 +1,2 @@
+okToChange: aBoolean
+	okToChange := aBoolean

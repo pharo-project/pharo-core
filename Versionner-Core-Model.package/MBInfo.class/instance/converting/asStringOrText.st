@@ -1,0 +1,3 @@
+asStringOrText
+
+	^self text

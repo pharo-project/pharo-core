@@ -1,0 +1,1 @@
+A MBConfigurationInfoCommand is xxxxxxxxx.

@@ -1,0 +1,2 @@
+targetNode
+	^ targetNode

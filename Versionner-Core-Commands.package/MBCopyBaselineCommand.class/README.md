@@ -1,0 +1,1 @@
+A MBCopyBaselineCommand is xxxxxxxxx.

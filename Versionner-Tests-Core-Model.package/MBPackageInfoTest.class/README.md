@@ -1,0 +1,1 @@
+A MBPackageInfoTest is xxxxxxxxx.Instance Variables	browser:		<Object>	package:		<Object>browser	- xxxxxpackage	- xxxxx

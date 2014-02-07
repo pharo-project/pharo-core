@@ -1,0 +1,3 @@
+key
+
+	^'Metacello Configuration help'

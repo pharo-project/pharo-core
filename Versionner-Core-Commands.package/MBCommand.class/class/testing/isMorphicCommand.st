@@ -1,0 +1,3 @@
+isMorphicCommand
+
+	^true

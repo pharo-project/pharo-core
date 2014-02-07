@@ -1,0 +1,2 @@
+execute
+	target inspect

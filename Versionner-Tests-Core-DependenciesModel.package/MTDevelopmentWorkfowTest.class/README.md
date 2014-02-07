@@ -1,0 +1,1 @@
+A MTDevelopmentWorkfowTest is xxxxxxxxx.Instance Variables	class:		<Object>	classFactory:		<Object>	project:		<Object>	visitor:		<Object>class	- xxxxxclassFactory	- xxxxxproject	- xxxxxvisitor	- xxxxx

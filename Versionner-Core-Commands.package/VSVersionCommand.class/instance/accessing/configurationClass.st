@@ -1,0 +1,2 @@
+configurationClass
+	^ target configurationClass

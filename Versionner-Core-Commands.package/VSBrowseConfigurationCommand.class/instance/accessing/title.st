@@ -1,0 +1,2 @@
+title
+	^ 'browse configuration'

@@ -1,0 +1,1 @@
+A VSValidateConfigurationCommandTest is xxxxxxxxx.

@@ -1,0 +1,3 @@
+isOBCommand
+
+	^true

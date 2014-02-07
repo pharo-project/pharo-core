@@ -1,0 +1,1 @@
+A MBLoadConfigurationCommandTest is xxxxxxxxx.

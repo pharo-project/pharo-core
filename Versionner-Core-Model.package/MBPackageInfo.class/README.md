@@ -1,0 +1,1 @@
+A MBPackageInfo is xxxxxxxxx.

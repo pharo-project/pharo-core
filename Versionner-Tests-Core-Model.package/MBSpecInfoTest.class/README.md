@@ -1,0 +1,1 @@
+A MBSpecInfoTest is xxxxxxxxx.

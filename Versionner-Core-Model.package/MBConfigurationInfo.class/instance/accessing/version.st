@@ -1,0 +1,3 @@
+version
+
+	^self currentVersion

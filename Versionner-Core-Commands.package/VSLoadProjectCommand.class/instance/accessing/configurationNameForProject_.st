@@ -1,0 +1,2 @@
+configurationNameForProject: aProjectName
+	^ 'ConfigurationOf', aProjectName

@@ -1,0 +1,2 @@
+targetNode: anObject
+	targetNode := anObject

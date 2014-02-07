@@ -1,0 +1,1 @@
+A MBLabelInfo is xxxxxxxxx.

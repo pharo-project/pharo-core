@@ -1,0 +1,2 @@
+projectName
+	^ self configurationClass configurationBaseName

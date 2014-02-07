@@ -1,0 +1,3 @@
+uiManager
+
+	^ UIManager default

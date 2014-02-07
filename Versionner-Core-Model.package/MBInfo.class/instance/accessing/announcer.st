@@ -1,0 +1,3 @@
+announcer 
+
+	^self configurationRoot announcer

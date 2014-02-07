@@ -1,0 +1,1 @@
+A MBAnnouncement is xxxxxxxxx.

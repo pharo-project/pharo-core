@@ -1,0 +1,4 @@
+cmdBrowsePackageChanges
+	<command>
+	^ MBPackageChangesCommand
+	

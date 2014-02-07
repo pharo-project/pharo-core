@@ -1,0 +1,1 @@
+A MBBaselineInfoTest is xxxxxxxxx.Instance Variables	browser:		<Object>	info:		<Object>browser	- xxxxxinfo	- xxxxx

@@ -1,0 +1,3 @@
+calculateInfoList
+
+	^self subclassResponsibility 

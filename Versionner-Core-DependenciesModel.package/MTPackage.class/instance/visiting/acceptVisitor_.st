@@ -1,0 +1,2 @@
+acceptVisitor: anMTProjectVisitor
+	anMTProjectVisitor visitPackage: self

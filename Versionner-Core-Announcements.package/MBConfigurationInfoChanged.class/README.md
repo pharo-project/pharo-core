@@ -1,0 +1,1 @@
+A MBConfigurationInfoChanged is xxxxxxxxx.Instance Variables	configurationInfo:		<Object>configurationInfo	- xxxxx

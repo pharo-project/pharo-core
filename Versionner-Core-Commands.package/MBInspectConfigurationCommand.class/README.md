@@ -1,0 +1,1 @@
+A MBInspectConfigurationCommand is xxxxxxxxx.

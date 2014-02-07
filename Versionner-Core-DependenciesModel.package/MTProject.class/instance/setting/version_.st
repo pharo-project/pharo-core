@@ -1,0 +1,2 @@
+version: aMTVersion 
+	version := aMTVersion

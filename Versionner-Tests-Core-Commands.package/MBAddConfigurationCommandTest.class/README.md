@@ -1,0 +1,1 @@
+A MBAddConfigurationCommandTest is xxxxxxxxx.Instance Variables	command:		<Object>command	- xxxxx

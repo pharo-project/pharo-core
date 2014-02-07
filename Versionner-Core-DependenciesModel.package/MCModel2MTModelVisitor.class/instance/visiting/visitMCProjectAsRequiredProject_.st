@@ -1,0 +1,18 @@
+visitMCProjectAsRequiredProject: aProject
+	"visit a Metacello Project to add it as a required projet. It is quite the same as visitMCProject except that we won't dive into the project structure.
+	aProject is an instance of MetacelloMCProjectSpec."
+	| version requiredProject |
+	
+	requiredProject := MTDependantProject new.
+	requiredProject displayName: aProject name.
+	requiredProject name: (aProject className ifNil: [aProject name] ifNotNil: [ :className | className configurationBaseName]).
+	requiredProject configurationClass: aProject projectClass.
+	requiredProject repositories: (aProject repositorySpecs collect: [ :aRepoSpec | aRepoSpec description]).
+	
+	version := MTVersion fromVersionString: aProject versionString.
+	requiredProject version: version.
+	
+	"requiredProject repository: aProject repository."
+	
+	project addDependency: requiredProject.
+	^ requiredProject.

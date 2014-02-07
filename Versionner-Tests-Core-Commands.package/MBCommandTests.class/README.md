@@ -1,0 +1,1 @@
+A MBCommandTests is xxxxxxxxx.Instance Variables	authorName:		<Object>	gofer:		<Object>	tearDownPackages:		<Object>authorName	- xxxxxgofer	- xxxxxtearDownPackages	- xxxxx

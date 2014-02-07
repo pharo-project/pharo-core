@@ -1,0 +1,1 @@
+A VSRequirementsNode is used to display dependencies requirements in a tree.

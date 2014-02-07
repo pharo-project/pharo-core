@@ -1,0 +1,3 @@
+configurationName
+
+	^'ConfigurationOfDummyConfiguration'

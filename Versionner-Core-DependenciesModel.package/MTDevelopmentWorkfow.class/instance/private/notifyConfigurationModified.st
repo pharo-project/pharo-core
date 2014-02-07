@@ -1,0 +1,3 @@
+notifyConfigurationModified
+	(MBConfigurationRoot current configurationInfoFor: project configurationClass class) 
+		configurationClassModified

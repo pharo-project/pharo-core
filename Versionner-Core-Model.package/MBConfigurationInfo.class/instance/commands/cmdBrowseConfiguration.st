@@ -1,0 +1,3 @@
+cmdBrowseConfiguration
+	<command>
+	^ VSBrowseConfigurationCommand

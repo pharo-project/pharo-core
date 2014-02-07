@@ -1,0 +1,2 @@
+referenceModel
+	^ MTProjectExampleBuilder projectA

@@ -1,0 +1,3 @@
+cmdReleaseDevelopmentVersion
+	<command>
+	^ VSReleaseDevelopmentVersionCommand

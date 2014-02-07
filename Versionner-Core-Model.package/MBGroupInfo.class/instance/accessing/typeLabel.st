@@ -1,0 +1,3 @@
+typeLabel
+
+	^'group'
