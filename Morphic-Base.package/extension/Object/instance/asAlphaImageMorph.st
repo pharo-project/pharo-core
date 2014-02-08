@@ -1,0 +1,3 @@
+asAlphaImageMorph
+
+	^ self asMorph

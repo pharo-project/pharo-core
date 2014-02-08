@@ -5,13 +5,15 @@ systemMethodRecategorizedActionFrom: ann
 		-maybe from the classic category to an extending package
 		-maybe from an extending package to another extending package
 		-maybe from an extending package to a classic category
-		- maybe from a classic category to another classic category"
+		- maybe from a classic category to another classic category.
+	Get out of here if my organizer has no package for the class! (Anonymous classes)"
 		
 	| oldProtocol newProtocol method methodPackage destinationPackage |
 
 	method := ann methodRecategorized.
 	method ifNil: [ ^ self ].
 	method origin = ann methodClass ifFalse: [ ^ self].
+	(self packageOfClassNamed: ann methodClass name) ifNil: [ ^ self ].
 
 	newProtocol := ann  newProtocol.
 	newProtocol ifNil: [ ^ self ].
