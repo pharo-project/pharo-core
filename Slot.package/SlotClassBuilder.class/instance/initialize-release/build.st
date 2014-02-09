@@ -9,6 +9,8 @@ build
 							extend: self superMetaclass
 							withLayoutType: FixedLayout
 							slots: classSlots
+							sharedVariables: ''
+							sharedPools: ''
 							traitComposition: classTraitComposition
 							compactClassIndex: oldClass class indexIfCompact.
 	
@@ -17,6 +19,8 @@ build
 							extend: superclass
 							withLayoutType: self layoutClass
 							slots: slots
+							sharedVariables: sharedVariablesString
+							sharedPools: sharedPoolsString
 							traitComposition: traitComposition
 							compactClassIndex: oldClass indexIfCompact.
 	

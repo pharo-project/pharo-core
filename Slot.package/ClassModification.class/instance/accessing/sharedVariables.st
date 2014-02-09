@@ -1,0 +1,3 @@
+sharedVariables
+	
+	^ sharedVariables

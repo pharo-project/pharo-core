@@ -14,7 +14,8 @@ addNew: aString byEvaluating: aBlock
 		aBlock value: newName].
 	self updateFileList.
 	self updateDirectory.
+	list ifNotNil:[
 	index := list indexOf: newName.
 	index = 0 ifTrue: [
 		index := list findFirst: [:line | line basename endsWith: newName]].
-	self fileListIndex: index.
+	self fileListIndex: index.]

@@ -143,7 +143,7 @@ initialize
 "testing" isPowerOfTwo
 "arithmetic" alignedTo:
 "comparing"
-"truncation and round off" atRandom normalize
+"truncation and round off" normalize
 "enumerating" timesRepeat:
 "mathematical functions" degreeCos degreeSin factorial gcd: lcm: take:
 "bit manipulation" << >> allMask: anyMask: bitAnd: bitClear: bitInvert bitInvert32 bitOr: bitShift: bitXor: lowBit noMask:
@@ -184,7 +184,7 @@ initialize
 
 "SequenceableCollection"
 	#("comparing" hasEqualElements:
-"accessing" allButFirst allButLast at:ifAbsent: atAll: atPin: atRandom: atWrap: fifth first first: fourth identityIndexOf: identityIndexOf:ifAbsent: indexOf: indexOf:ifAbsent: indexOf:startingAt:ifAbsent: indexOfSubCollection:startingAt: indexOfSubCollection:startingAt:ifAbsent: last second sixth third
+"accessing" allButFirst allButLast at:ifAbsent: atAll: atPin: atWrap: fifth first first: fourth identityIndexOf: identityIndexOf:ifAbsent: indexOf: indexOf:ifAbsent: indexOf:startingAt:ifAbsent: indexOfSubCollection:startingAt: indexOfSubCollection:startingAt:ifAbsent: last second sixth third
 "removing"
 "copying" , copyAfterLast: copyAt:put: copyFrom:to: copyReplaceAll:with: copyReplaceFrom:to:with: copyUpTo: copyUpToLast: copyWith: copyWithout: copyWithoutAll: forceTo:paddingWith: shuffled sort:
 "enumerating" collectWithIndex: findFirst: findLast: pairsCollect: with:collect: withIndexCollect: polynomialEval:

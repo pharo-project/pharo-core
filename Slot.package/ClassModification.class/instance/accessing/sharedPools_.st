@@ -1,0 +1,3 @@
+sharedPools: anObject
+	
+	sharedPools := anObject

@@ -1,0 +1,3 @@
+sharedVariables: anObject
+	
+	sharedVariables := anObject
