@@ -8,8 +8,9 @@ addClassCategoryBasedOn: aSelection
 		initialAnswer: '' 
 		title: 'Create a new category'.
 	
-	(self isValidPackageName: name)
+	[ (self isValidPackageName: name)
 		ifTrue: [ packageTag := package addClassTag: name ]
-		ifFalse: [ self alertInvalidPackageName: name ].
+		ifFalse: [ self alertInvalidPackageName: name ] ]
+	on: RPackageConflictError do: [ :e | UIManager default inform: e messageText ].
 	
 	^ packageTag

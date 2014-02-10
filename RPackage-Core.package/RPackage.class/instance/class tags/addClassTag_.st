@@ -4,6 +4,11 @@ addClassTag: aSymbol
 
 	"strip package name if needed"
 	tagName := self toTagName: aSymbol.
+	
 	^ self 
 		classTagNamed: tagName
-		ifAbsent: [ self basicAddClassTag: tagName ]
+		ifAbsent: [ 
+			self class organizer 
+				validateCanBeAddedPackage: self
+				tagName: tagName.
+			self basicAddClassTag: tagName ]

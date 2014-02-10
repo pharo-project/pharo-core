@@ -1,11 +1,8 @@
 commentForCurrentUpdate
- ^ '12830 MethodFinderTest>>testPower
-	https://pharo.fogbugz.com/f/cases/12830
+ ^ '12832 OpalCompiler / Debugger - Unknown variable:  please correct, or cancel
+	https://pharo.fogbugz.com/f/cases/12832
 
-11579 When adding a class variable, the monticello package is not dirty
-	https://pharo.fogbugz.com/f/cases/11579
-
-12500 No accept/ok button in FileList
-	https://pharo.fogbugz.com/f/cases/12500
+12831 rpackages should not be registered is name matches packagetag name
+	https://pharo.fogbugz.com/f/cases/12831
 
 '

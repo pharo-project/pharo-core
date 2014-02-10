@@ -1,6 +1,7 @@
 registerPackage: aPackage
 	"A new package is now available and declared in the receiver. "
 	
+	self validateCanBeAddedPackage: aPackage.
 	
 	self basicRegisterPackage: aPackage.
 	aPackage extendedClasses 
