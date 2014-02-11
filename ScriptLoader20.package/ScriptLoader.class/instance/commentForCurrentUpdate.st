@@ -1,6 +1,4 @@
 public
 commentForCurrentUpdate
- ^ '12120 Let NativeBoost work without sources
-	https://pharo.fogbugz.com/f/cases/12120
-	
-'
+ ^ '12145 Settings: Replace references to FileDirectory
+	https://pharo.fogbugz.com/f/cases/12145'
