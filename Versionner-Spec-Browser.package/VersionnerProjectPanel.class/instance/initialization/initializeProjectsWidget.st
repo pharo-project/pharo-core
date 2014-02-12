@@ -22,6 +22,7 @@ initializeProjectsWidget
 		help: 'Add a new dependent project to this project'.
 	
 	removeProjectButton  := (self instantiate: ButtonModel)
+		label: nil;
 		icon: (Smalltalk ui icons iconNamed: #deleteIcon);
 		enabled: false;
 		help: 'Remove a dependent project from this project'.

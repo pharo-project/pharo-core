@@ -3,7 +3,7 @@ execute
 	configClass := self configurationClass.
 	message := self uiManager
 		multilineRequest:
-			'Enter commit message for ' , (configClass configurationBaseName) , ' '
+			'Enter commit message for ' , (configClass name configurationBaseName) , ' '
 				, (target project version: #development) versionString
 		initialAnswer: (target project version: #development) versionString, ' ():'.
 	message == nil

@@ -1,1 +1,0 @@
-A MBAddDescriptionCommandTest is xxxxxxxxx.

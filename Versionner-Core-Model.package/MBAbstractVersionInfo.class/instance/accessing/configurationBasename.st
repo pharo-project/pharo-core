@@ -1,2 +1,2 @@
 configurationBasename
-	^ self configurationClass configurationBaseName
+	^ self configurationClass name configurationBaseName

@@ -8,7 +8,7 @@ repositoryOfPackageNamed: packageName
 	repositories
 		ifEmpty: [ 
 			| projectName answer squeakSourceURL |
-			projectName := self configurationClass configurationBaseName.
+			projectName := self configurationClass name configurationBaseName.
 			squeakSourceURL := 'http://www.squeaksource.com/' , projectName.
 			answer := self uiManager
 				confirm: 'No repository associated with your project. Do you want to add ' , squeakSourceURL.

@@ -1,2 +1,0 @@
-icon
-	^HelpIcons iconNamed: #packageIcon

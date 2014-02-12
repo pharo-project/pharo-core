@@ -5,7 +5,7 @@ execute
 	Smalltalk globals
 		at: configurationClassName asSymbol
 		ifPresent: [ :ex | ^ self error: 'Class ' , configurationClassName printString , ' already exist' ].
-	projectName := configurationClassName configurationBaseName.
+	projectName := configurationClassName name configurationBaseName.
 	(repository := self repositoryFor: projectName) ifNil: [ ^ self ].
 
 	versionNumber := self uiManager request: 'Enter initial version number' 
