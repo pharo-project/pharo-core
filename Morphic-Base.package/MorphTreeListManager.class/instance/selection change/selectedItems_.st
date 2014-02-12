@@ -1,7 +1,8 @@
 selectedItems: aNodeItemCollection
 	self listModel okToDiscardEdits ifFalse: [^ self].
 	self emptySelection.
-	self addAllToSelection: (self nodeMorphsWithAllNodeItems: aNodeItemCollection).
+	(self nodeMorphsWithAllNodeItems: aNodeItemCollection) ifNotEmpty:[:selection |
+	self addAllToSelection: selection].
 	lastClickedMorph
 		ifNil: [lastClickedMorph := self selectedMorphList
 						ifEmpty: []

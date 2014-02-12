@@ -1,1 +1,1 @@
-A ColorArray is xxxxxxxxx.
+An array of colors

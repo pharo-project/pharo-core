@@ -28,7 +28,7 @@ buildEditorKeymappingsOn: aBuilder
 	(aBuilder shortcut: #cancel) 
 		category: #NautilusSourceCodeShortcuts
 		default: $l command
-		do: [ :target | target sourceTextArea cancel ].
+		do: [ :target | target sourceTextArea cancelWithoutConfirmation ].
 		
 	(aBuilder shortcut: #paste) 
 		category: #NautilusSourceCodeShortcuts

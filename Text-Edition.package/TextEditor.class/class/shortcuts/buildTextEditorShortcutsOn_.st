@@ -34,7 +34,7 @@ buildTextEditorShortcutsOn: aBuilder
 	(aBuilder shortcut: #cancel) 
 		category: #TextEditor
 		default: $l ctrl win | $l ctrl unix | $l command mac
-		do: [ :target | target cancel ].
+		do: [ :target | target cancelWithoutConfirmation ].
 		
 	(aBuilder shortcut: #paste) 
 		category: #TextEditor
