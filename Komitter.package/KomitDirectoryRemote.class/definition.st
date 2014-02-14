@@ -1,4 +1,4 @@
-KomitRemote subclass: #KomitCacheRemote
+KomitRemote subclass: #KomitDirectoryRemote
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

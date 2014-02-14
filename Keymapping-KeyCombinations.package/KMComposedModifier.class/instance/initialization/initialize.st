@@ -1,3 +1,3 @@
 initialize
 	super initialize.
-	modifiers := Set new.
+	modifiers := OrderedCollection new.

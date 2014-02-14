@@ -1,5 +1,5 @@
 koRemote
 	
-	^ KomitCacheRemote new
+	^ KomitDirectoryRemote new
 		remote: self;
 		yourself

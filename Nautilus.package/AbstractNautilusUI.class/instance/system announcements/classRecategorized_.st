@@ -2,5 +2,7 @@ classRecategorized: anAnnouncement
 	
 	window ifNil: [ ^ self ].
 	window isDisplayed ifFalse: [ ^ self ].
-	self selectedClass = anAnnouncement classRecategorized
-		ifTrue: [ self updateBothView ]
+
+	({ anAnnouncement oldCategory. anAnnouncement newCategory }
+		anySatisfy: [ :each | self selectedPackage includesCategory: each ])
+			ifTrue: [ self updateBothView ]
