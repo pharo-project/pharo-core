@@ -1,1 +1,1 @@
-A RGClassDefinitionTest is xxxxxxxxx.
+SUnit tests for class definitions

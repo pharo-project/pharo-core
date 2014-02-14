@@ -1,1 +1,1 @@
-A RGDefinition is xxxxxxxxx.
+Common superclass for definitions

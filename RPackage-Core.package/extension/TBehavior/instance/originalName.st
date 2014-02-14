@@ -1,4 +1,4 @@
 originalName
-	^self isObsolete 
-		ifTrue: [ (self name copyFrom:   'AnObsolete' size + 1 to: self name size ) asSymbol ]
-		ifFalse:  [  self name asSymbol ].
+	^ ((self isObsolete and: [ self name beginsWith: 'AnObsolete' ])
+		ifTrue: [ (self name copyFrom:   'AnObsolete' size + 1 to: self name size ) ]
+		ifFalse:  [ self name ]) asSymbol

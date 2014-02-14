@@ -1,1 +1,1 @@
-A RGMethodDefinitionTest is xxxxxxxxx.
+SUnit tests for method definitions

@@ -1,1 +1,1 @@
-A RGNamespaceTest is xxxxxxxxx.
+SUnit tests for namespaces

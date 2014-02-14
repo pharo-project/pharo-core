@@ -1,1 +1,1 @@
-A RGInstanceVariableDefinition is xxxxxxxxx.
+An instance variable definition

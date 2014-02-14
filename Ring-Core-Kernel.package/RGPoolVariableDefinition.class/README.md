@@ -1,1 +1,1 @@
-A RGPoolVariableDefinition is xxxxxxxxx.
+A pool variable definition

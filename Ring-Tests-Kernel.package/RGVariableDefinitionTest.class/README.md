@@ -1,1 +1,1 @@
-A RGVariableDefinitionTest is xxxxxxxxx.
+SUnit tests for variable definitions

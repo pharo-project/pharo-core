@@ -1,1 +1,1 @@
-A RGOrganization is xxxxxxxxx.
+An organization with categories

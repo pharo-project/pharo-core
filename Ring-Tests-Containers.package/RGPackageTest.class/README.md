@@ -1,1 +1,1 @@
-A RGPackageTest is xxxxxxxxx.
+SUnit tests for packages

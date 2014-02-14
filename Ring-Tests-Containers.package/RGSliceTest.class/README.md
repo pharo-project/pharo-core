@@ -1,1 +1,1 @@
-A RGSliceTest is xxxxxxxxx.
+SUnit tests for slices

@@ -1,1 +1,1 @@
-A RGTraitDefinitionTest is xxxxxxxxx.
+SUnit tests for trait definitions

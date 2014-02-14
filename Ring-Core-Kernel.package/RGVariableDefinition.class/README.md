@@ -1,1 +1,1 @@
-A RGVariableDefinition is xxxxxxxxx.
+A variable definition

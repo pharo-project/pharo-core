@@ -1,1 +1,1 @@
-A RGCommentDefinitionTest is xxxxxxxxx.
+SUnit tests for comment definitions
