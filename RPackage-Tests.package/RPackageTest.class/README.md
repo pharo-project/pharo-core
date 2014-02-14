@@ -1,1 +1,1 @@
-A RPackageTest is xxxxxxxxx.
+SUnit tests for RPackage 

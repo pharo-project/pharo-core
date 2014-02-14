@@ -1,1 +1,1 @@
-A LessonTestInstanciation is xxxxxxxxx.
+SUnit tests for lessons

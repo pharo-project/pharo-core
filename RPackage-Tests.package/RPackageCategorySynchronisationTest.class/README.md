@@ -1,1 +1,1 @@
-A RPackageCategorySynchronisationTest is xxxxxxxxx.
+SUnit tests for RPackage category synchronization

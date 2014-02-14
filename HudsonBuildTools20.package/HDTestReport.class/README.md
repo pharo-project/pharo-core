@@ -1,1 +1,1 @@
-A HDTestReport is xxxxxxxxx.Instance Variables	progressFile:		<Object>	stream:		<Object>	suite:		<Object>	suiteErrors:		<Object>	suiteFailures:		<Object>	suitePosition:		<Object>	suiteTime:		<Object>progressFile	- xxxxxstream	- xxxxxsuite	- xxxxxsuiteErrors	- xxxxxsuiteFailures	- xxxxxsuitePosition	- xxxxxsuiteTime	- xxxxx
+Hudson report for test results

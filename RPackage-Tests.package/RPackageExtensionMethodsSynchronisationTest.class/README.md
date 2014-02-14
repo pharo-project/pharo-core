@@ -1,1 +1,1 @@
-A RPackageExtensionMethodsSynchronisationTest is xxxxxxxxx.
+SUnit tests for RPackage extension methods

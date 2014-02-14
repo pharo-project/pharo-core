@@ -1,1 +1,1 @@
-A RPackageMonticelloSynchronisationTest is xxxxxxxxx.
+SUnit tests for RPackage Monticello synchronization

@@ -1,1 +1,1 @@
-A RPackageTraitSynchronisationTest is xxxxxxxxx.
+SUnit tests for RPackage trait synchronization

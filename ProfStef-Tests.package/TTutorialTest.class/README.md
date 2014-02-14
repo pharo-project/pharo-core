@@ -1,1 +1,1 @@
-A TTutorialTest is xxxxxxxxx.
+Trait for testing tutorials

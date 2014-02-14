@@ -1,1 +1,1 @@
-A TestRPackagePrequisites is xxxxxxxxx.
+SUnit tests for RPackage prerequisites

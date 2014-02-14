@@ -1,1 +1,1 @@
-A RPackageObsoleteTest is xxxxxxxxx.Instance Variables	notRun:		<Object>notRun	- xxxxx
+SUnit tests for RPackage

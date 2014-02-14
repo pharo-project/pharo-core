@@ -1,1 +1,1 @@
-A RPackageTagTest is xxxxxxxxx.
+SUnit tests for RPackage tags

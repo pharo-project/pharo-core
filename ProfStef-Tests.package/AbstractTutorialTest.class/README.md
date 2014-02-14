@@ -1,1 +1,1 @@
-An AbstractTutorialTest is xxxxxxxxx.
+SUnit tests for AbstractTutorial

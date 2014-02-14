@@ -1,1 +1,1 @@
-A HDCoverageReport is xxxxxxxxx.Instance Variables	covered:		<Object>	packages:		<Object>	wrappers:		<Object>covered	- xxxxxpackages	- xxxxxwrappers	- xxxxx
+Hudson report for test coverage

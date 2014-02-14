@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '12662 "Unknown Variable" name correction doesnt work properly in Nautilus
+update30757
+	"self new update30757"
+	self withUpdateLog: '12662 "Unknown Variable" name correction doesnt work properly in Nautilus
 	https://pharo.fogbugz.com/f/cases/12662
 
 12864 Class comments missing in package Hudson
@@ -14,4 +15,6 @@ commentForCurrentUpdate
 12863 Class comments missing in Graphics-Transformations package
 	https://pharo.fogbugz.com/f/cases/12863
 
-'
+'.
+	self loadTogether: self script410 merge: false.
+	self flushCaches.

@@ -1,1 +1,1 @@
-A ProfStefHelpTutorialBuilderTest is xxxxxxxxx.
+SUnit tests for ProfStefHelpTutorialBuilder

@@ -1,1 +1,1 @@
-A TutorialPlayerTestTutorialAccessor is xxxxxxxxx.
+SUnit tests for tutorial player

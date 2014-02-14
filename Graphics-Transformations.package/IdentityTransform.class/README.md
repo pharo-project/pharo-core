@@ -1,1 +1,1 @@
-An IdentityTransform is xxxxxxxxx.
+Identity transformation

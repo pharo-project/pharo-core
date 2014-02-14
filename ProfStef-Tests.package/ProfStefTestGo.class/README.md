@@ -1,1 +1,1 @@
-A ProfStefTestGo is xxxxxxxxx.
+SUnit tests for tutorial navigation

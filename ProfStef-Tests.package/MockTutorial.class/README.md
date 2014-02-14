@@ -1,1 +1,1 @@
-A MockTutorial is xxxxxxxxx.
+Mocking a tutorial for test purposes

@@ -1,1 +1,1 @@
-A PackageChecker is xxxxxxxxx.
+Utility class to check packages

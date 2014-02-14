@@ -1,1 +1,1 @@
-A ProfStefTestGoOnMockTutorial is xxxxxxxxx.
+SUnit tests for tutorial navigation

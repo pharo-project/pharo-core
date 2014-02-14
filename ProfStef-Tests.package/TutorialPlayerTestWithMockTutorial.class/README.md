@@ -1,1 +1,1 @@
-A TutorialPlayerTestWithMockTutorial is xxxxxxxxx.Instance Variables	player:		<Object>player	- xxxxx
+SUnit tests for tutorial player

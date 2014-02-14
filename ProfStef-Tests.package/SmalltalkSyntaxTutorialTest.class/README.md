@@ -1,1 +1,1 @@
-A SmalltalkSyntaxTutorialTest is xxxxxxxxx.
+SUnit tests for SmalltalkSyntaxTutorial

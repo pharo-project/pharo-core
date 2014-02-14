@@ -1,1 +1,1 @@
-A RPackageAnnouncement is xxxxxxxxx.Instance Variables	package:		<Object>package	- xxxxx
+Common superclass for package related announcements

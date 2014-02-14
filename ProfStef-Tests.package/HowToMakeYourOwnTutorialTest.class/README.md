@@ -1,1 +1,1 @@
-A HowToMakeYourOwnTutorialTest is xxxxxxxxx.
+Tests for HowToMakeYourOwnTutorial
