@@ -1,0 +1,2 @@
+enclosingMethodOrBlockNode
+	^ self methodOrBlockNode 
