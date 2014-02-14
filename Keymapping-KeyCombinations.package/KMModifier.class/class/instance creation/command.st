@@ -1,2 +1,2 @@
 command
-	^ self meta
+	^ KMCommandModifier new

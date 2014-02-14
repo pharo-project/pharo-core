@@ -1,7 +1,7 @@
 = aShortcut
 	super = aShortcut
 		ifFalse: [ ^ false ]. 
-	aShortcut modifier = modifier 
+	 modifier = aShortcut modifier
 		ifFalse: [ ^ false ].
 	aShortcut character = character
 		ifFalse: [ ^ false ].
