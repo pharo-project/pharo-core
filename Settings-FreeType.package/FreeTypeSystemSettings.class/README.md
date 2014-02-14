@@ -1,1 +1,1 @@
-A FreeTypeSystemSettings is xxxxxxxxx.
+Settings for the FreeType system

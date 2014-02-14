@@ -1,1 +1,1 @@
-A CodeHolderSystemSettings is xxxxxxxxx.
+Settings for code holder

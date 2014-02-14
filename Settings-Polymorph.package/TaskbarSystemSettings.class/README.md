@@ -1,1 +1,1 @@
-A TaskbarSystemSettings is xxxxxxxxx.
+Settings for the task bar

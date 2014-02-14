@@ -1,1 +1,1 @@
-An InputEventSensorSystemSettings is xxxxxxxxx.
+Settings for the InputEventSensor

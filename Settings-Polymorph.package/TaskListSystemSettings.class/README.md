@@ -1,1 +1,1 @@
-A TaskListSystemSettings is xxxxxxxxx.
+Settings for the task list

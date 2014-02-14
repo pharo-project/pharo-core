@@ -1,1 +1,1 @@
-A DebugSystemSettings is xxxxxxxxx.
+Settings for debugging

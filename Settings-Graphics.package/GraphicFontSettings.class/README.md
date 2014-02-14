@@ -1,1 +1,1 @@
-A GraphicFontSettings is xxxxxxxxx.
+Settings for the fonts

@@ -1,1 +1,1 @@
-A DisplaySettings is xxxxxxxxx.
+Settings for the display

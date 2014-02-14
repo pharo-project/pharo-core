@@ -1,1 +1,1 @@
-A SystemSystemSettings is xxxxxxxxx.
+Settings for the system itself

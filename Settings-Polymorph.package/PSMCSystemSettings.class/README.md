@@ -1,1 +1,1 @@
-A PSMCSystemSettings is xxxxxxxxx.
+Settings for the polymorph system
