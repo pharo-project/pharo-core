@@ -3,7 +3,7 @@ changesListMenu: aBuilder
 	<dualChangeSorteChangesListMenu>
 	
 	| target src dest |
-	
+
 	self flag: #todo. "I do not like how I'm getting the parameters (an Array), but looks the faster way now :(
 	And I need src and dest parameters because it is called in two sides of change sorter"
 	target := aBuilder model first.

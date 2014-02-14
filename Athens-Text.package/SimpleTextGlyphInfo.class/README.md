@@ -1,1 +1,1 @@
-A SimpleTextGlyphInfo is xxxxxxxxx.
+Simple glyph infos

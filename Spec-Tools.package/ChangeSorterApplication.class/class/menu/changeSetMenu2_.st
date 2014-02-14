@@ -3,7 +3,6 @@ changeSetMenu2: aBuilder
 	<changeSorterChangeSetList2Menu>
 	
 	| target cs |
-	
 	target := aBuilder model.
 	cs := target selectedChangeSet.
 	cs ifNil: [ ^self ].

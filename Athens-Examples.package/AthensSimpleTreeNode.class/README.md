@@ -1,1 +1,1 @@
-An AthensSimpleTreeNode is xxxxxxxxx.Instance Variables	box:		<Object>	children:		<Object>	childsHeight:		<Object>	color:		<Object>	extent:		<Object>	layoutWidth:		<Object>	originX:		<Object>	originY:		<Object>	subject:		<Object>box	- xxxxxchildren	- xxxxxchildsHeight	- xxxxxcolor	- xxxxxextent	- xxxxxlayoutWidth	- xxxxxoriginX	- xxxxxoriginY	- xxxxxsubject	- xxxxx
+A node in an AthensTreeView

@@ -1,1 +1,1 @@
-An AthensTextBackground is xxxxxxxxx.Instance Variables	color:		<Object>color	- xxxxx
+Athens text background 

@@ -1,5 +1,6 @@
 buildWidget
 
+
 	widget := super buildWidget.
 	self menuGroups 
 		do: [ :group || items |

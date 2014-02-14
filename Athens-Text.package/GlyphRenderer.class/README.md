@@ -1,1 +1,1 @@
-A GlyphRenderer is xxxxxxxxx.Instance Variables	font:		<Object>font	- xxxxx
+Renderer for font glyphs

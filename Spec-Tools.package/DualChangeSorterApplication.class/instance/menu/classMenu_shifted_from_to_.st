@@ -1,15 +1,13 @@
-classMenu: menu shifted: shifted from: src to: dest
+classMenu: menu shifted: shifted from: sourcePanel to: destinationPanel
 	"Fill aMenu with items appropriate for the class list"
-	| menuSrc menuDual |
-	
-	src selectedClass ifNil: [ ^nil ].
-	
-	menuSrc := menu copy.
-	src classMenu: menuSrc shifted: shifted.
 
-	menuDual := MenuModel new fromSpec: (PragmaMenuBuilder 
+	| menuDest |
+	
+	sourcePanel selectedClass ifNil: [ ^ nil ].
+	sourcePanel classMenu: menu shifted: shifted.
+	menuDest := MenuModel new fromSpec: (PragmaMenuBuilder
 		pragmaKeyword: 'dualChangeSorterClassListMenu'
-		model: {self. src. dest}) menuSpec.
-
-		
-	^menu	
+		model: {self. sourcePanel. destinationPanel}) 
+		menuSpec.
+	menuDest menuGroups do: [ :each | menu addMenuGroup: each ].
+	^ menu

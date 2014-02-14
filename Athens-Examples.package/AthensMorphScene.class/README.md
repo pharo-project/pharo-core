@@ -1,1 +1,1 @@
-An AthensMorphScene is xxxxxxxxx.Instance Variables	morph:		<Object>morph	- xxxxx
+Allows to render a morph as a scene in athens
