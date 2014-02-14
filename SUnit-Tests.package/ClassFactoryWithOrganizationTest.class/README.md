@@ -1,1 +1,1 @@
-A ClassFactoryWithOrganizationTest is xxxxxxxxx.Instance Variables	factory:		<Object>factory	- xxxxx
+SUnit tests for ClassFactoryWithOrganization

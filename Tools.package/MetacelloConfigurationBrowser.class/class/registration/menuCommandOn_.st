@@ -3,6 +3,6 @@ menuCommandOn: aBuilder
 	
 	(aBuilder item: 'Configuration Browser')
 		parent: #Tools;
-		order: 0.5;
+		order: 0.20;
 		action: [self new openWithSpec]; 
-		icon: Smalltalk ui icons smallLoadProjectIcon
+		icon: Smalltalk ui icons configIcon

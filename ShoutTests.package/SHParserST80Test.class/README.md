@@ -1,1 +1,1 @@
-A SHParserST80Test is xxxxxxxxx.
+SUnit tests for shouts ST80 parser

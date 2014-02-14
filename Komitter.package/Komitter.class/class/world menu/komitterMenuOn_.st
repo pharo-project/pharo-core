@@ -3,7 +3,8 @@ komitterMenuOn: aBuilder
 	
 	(aBuilder item: #Komitter)
 		action: [ self openAndCommitToMonticello ];
-		order: 0;
+		order: 0.29;
 		parent: #Tools;
 		help: 'Cherry pick what you commit';
-		icon: self taskbarIcon
+		icon: self taskbarIcon.
+	aBuilder withSeparatorAfter.	

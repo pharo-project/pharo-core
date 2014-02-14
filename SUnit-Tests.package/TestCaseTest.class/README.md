@@ -1,1 +1,1 @@
-A TestCaseTest is xxxxxxxxx.
+SUnit test for TestCase class

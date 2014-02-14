@@ -1,1 +1,1 @@
-A TestAnnouncement is xxxxxxxxx.Instance Variables	test:		<Object>test	- xxxxx
+Notify about testing a test

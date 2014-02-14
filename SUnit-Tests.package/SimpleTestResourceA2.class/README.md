@@ -1,1 +1,1 @@
-A SimpleTestResourceA2 is xxxxxxxxx.
+I'm a simple test ressource for test purposes

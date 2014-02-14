@@ -1,1 +1,1 @@
-A SimpleTestResource is xxxxxxxxx.Instance Variables	hasRun:		<Object>	hasSetup:		<Object>	runningState:		<Object>hasRun	- xxxxxhasSetup	- xxxxxrunningState	- xxxxx
+I'm a simple test ressource for test purposes

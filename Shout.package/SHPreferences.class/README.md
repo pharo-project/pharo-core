@@ -1,1 +1,1 @@
-A SHPreferences is xxxxxxxxx.
+Preferences for Shout

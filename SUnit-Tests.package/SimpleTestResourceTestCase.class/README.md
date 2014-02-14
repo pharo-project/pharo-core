@@ -1,1 +1,1 @@
-A SimpleTestResourceTestCase is xxxxxxxxx.Instance Variables	resource:		<Object>resource	- xxxxx
+SUnit tests for simple test resources

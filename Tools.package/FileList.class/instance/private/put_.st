@@ -4,11 +4,11 @@ put: aText
 	| ff type |
 	brevityState == #fullFile 
 		ifTrue:[
-			ff := reference  writeStream.
+			ff := StandardFileStream newFileNamed:reference  fullName.
 			Cursor write showWhile: [ff nextPutAll: aText asString; close].
 			reference basename = ff localName 
 				ifTrue: [contents := aText asString]
-				ifFalse: [	 self updateList. "user renamed the file" ].
+				ifFalse: [	 self updateFileList. "user renamed the file" ].
 			^ true  "accepted"].
 
 	listIndex = 0 

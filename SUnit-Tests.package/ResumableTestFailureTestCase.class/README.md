@@ -1,1 +1,1 @@
-A ResumableTestFailureTestCase is xxxxxxxxx.Instance Variables	duplicateFailureLog:		<Object>duplicateFailureLog	- xxxxx
+SUnit tests for ResumableTestFailure

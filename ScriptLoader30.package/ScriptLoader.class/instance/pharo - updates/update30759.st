@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '12849 Tools menu should be more clean
+update30759
+	"self new update30759"
+	self withUpdateLog: '12849 Tools menu should be more clean
 	https://pharo.fogbugz.com/f/cases/12849
 
 12870 Class comments missing for Shout package
@@ -11,4 +12,6 @@ commentForCurrentUpdate
 12869 Class comments missing in SUnit packages
 	https://pharo.fogbugz.com/f/cases/12869
 
-'
+'.
+	self loadTogether: self script412 merge: false.
+	self flushCaches.

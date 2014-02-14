@@ -1,1 +1,1 @@
-A SUnitExtensionsTest is xxxxxxxxx.Instance Variables	stream:		<Object>stream	- xxxxx
+SUnit tests for extensions to SUnit

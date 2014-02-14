@@ -1,1 +1,1 @@
-A FailingTestResourceTestCase is xxxxxxxxx.
+SUnit tests for failing test resources

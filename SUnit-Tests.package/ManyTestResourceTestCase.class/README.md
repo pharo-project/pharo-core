@@ -1,1 +1,1 @@
-A ManyTestResourceTestCase is xxxxxxxxx.
+SUnit tests for handling of many test resources
