@@ -1,11 +1,5 @@
 commentForCurrentUpdate
- ^ '12508 Really strange error with Komitter on windows
-	https://pharo.fogbugz.com/f/cases/12508
-
-12875 Still some problems with #sourceNode
-	https://pharo.fogbugz.com/f/cases/12875
-
-12884 Cannot add a class to a dynamic group with drag and drop
-	https://pharo.fogbugz.com/f/cases/12884
+ ^ '12880 Monticello shows new class-side extension methods as local (i.e. not as extensions)
+	https://pharo.fogbugz.com/f/cases/12880
 
 '

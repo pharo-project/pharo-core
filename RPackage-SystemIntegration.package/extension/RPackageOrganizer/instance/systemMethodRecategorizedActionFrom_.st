@@ -13,7 +13,7 @@ systemMethodRecategorizedActionFrom: ann
 	method := ann methodRecategorized.
 	method ifNil: [ ^ self ].
 	method origin = ann methodClass ifFalse: [ ^ self].
-	(self packageOfClassNamed: ann methodClass name) ifNil: [ ^ self ].
+	(self packageOfClassNamed: ann methodClass theNonMetaClass name) ifNil: [ ^ self ].
 
 	newProtocol := ann  newProtocol.
 	newProtocol ifNil: [ ^ self ].
@@ -21,28 +21,28 @@ systemMethodRecategorizedActionFrom: ann
 	oldProtocol := ann oldProtocol ifNil: [ '' ].
 	
 	methodPackage := method packageFromOrganizer: self.
-	newProtocol asLowercase = oldProtocol asLowercase
-		ifFalse: [
-			destinationPackage := (self hasPackageForProtocol: newProtocol inClass: method methodClass)
-				ifTrue: [ 
-					self packageForProtocol: newProtocol inClass: method methodClass ]
-				ifFalse: [ 
-					(newProtocol beginsWith: '*')
-						ifTrue: [ self ensureExistAndRegisterPackageNamed: newProtocol allButFirst capitalized ]
-						ifFalse: [ method methodClass package ] ].
-					
-			methodPackage := (self hasPackageForProtocol: oldProtocol inClass: method methodClass)
-				ifTrue: [ self packageForProtocol: oldProtocol inClass: method methodClass ]
-				ifFalse: [ method methodClass package ].
+	newProtocol asLowercase = oldProtocol asLowercase ifTrue: [ ^ self ].
+		
+	destinationPackage := (self hasPackageForProtocol: newProtocol inClass: method methodClass)
+		ifTrue: [ 
+			self packageForProtocol: newProtocol inClass: method methodClass ]
+		ifFalse: [ 
+			(newProtocol beginsWith: '*')
+				ifTrue: [ self ensureExistAndRegisterPackageNamed: newProtocol allButFirst capitalized ]
+				ifFalse: [ method methodClass package ] ].
+			
+	methodPackage := (self hasPackageForProtocol: oldProtocol inClass: method methodClass)
+		ifTrue: [ self packageForProtocol: oldProtocol inClass: method methodClass ]
+		ifFalse: [ method methodClass package ].
 
-			methodPackage = destinationPackage
-				ifFalse: [
-					(methodPackage methods includes: method) 
-						ifTrue: [ methodPackage removeMethod: method ].
-					
-					destinationPackage addMethod: method.
-					
-					SystemAnnouncer uniqueInstance
-						methodRepackaged: method
-						from: methodPackage
-						to: destinationPackage ] ]
+	methodPackage = destinationPackage
+		ifFalse: [
+			(methodPackage methods includes: method) 
+				ifTrue: [ methodPackage removeMethod: method ].
+			
+			destinationPackage addMethod: method.
+			
+			SystemAnnouncer uniqueInstance
+				methodRepackaged: method
+				from: methodPackage
+				to: destinationPackage ]
