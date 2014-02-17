@@ -4,7 +4,7 @@ makeAScreenshot
 	(UIManager default
 		chooseFrom: {'The entire world' translated. 'A selected area' translated}
 		values: #(#world #area )
-		message: 'What do you want to shoot ?' translated
+		message: 'What do you want to shoot? (File will be saved in image directory)' translated
 		title: 'Make a screenshot')
 		ifNotNil: [:choice | 
 				|form |
