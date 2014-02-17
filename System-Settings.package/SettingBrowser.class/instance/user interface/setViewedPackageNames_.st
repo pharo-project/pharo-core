@@ -2,7 +2,7 @@ setViewedPackageNames: aText
 	| allViewed |
 	allViewed := Set new.
 	aText asString substrings
-		do: [:sub | (PackageOrganizer default
+		do: [:sub | (RPackageOrganizer default
 						packageNamed: sub
 						ifAbsent: [])
 				ifNotNil: [:pkg | allViewed add: pkg]].

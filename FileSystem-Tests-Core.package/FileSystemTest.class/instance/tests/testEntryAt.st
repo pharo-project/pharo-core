@@ -1,18 +1,23 @@
 testEntryAt
-	| path now entry then |
-	then := DateAndTime now - 1 asSeconds.
-	path := Path * 'plonk'.
-	filesystem createDirectory: path.
-	self markForCleanup: path.
+	| path1 path2 entry1 entry2  |
+	Transcript show: $. ; flush.
+	path1 := Path * 'plonk1'.
+	path2 := Path * 'plonk2'.
+	self markForCleanup: path1.
+	self markForCleanup: path2.
 	
-	entry := filesystem entryAt: path.
-	now := (DateAndTime now + 1 asSeconds).
+	filesystem createDirectory: path1.
+	(Delay forSeconds: 2) wait. "#creationTime seems limited to 1 second resolution"
+	filesystem createDirectory: path2.
 	
-	self assert: entry isDirectory.
-	self assert: entry reference = (filesystem referenceTo: path) asAbsolute.
+	entry1 := filesystem entryAt: path1.
+	entry2 := filesystem entryAt: path2.
 	
-	self assert: entry creationTime >= then.
-	self assert: entry creationTime <= now.
-	
-	self assert: entry modificationTime >= then.
-	self assert: entry modificationTime <= now.
+	self assert: entry1 isDirectory.
+	self assert: entry2 isDirectory.
+	self assert: entry1 reference = (filesystem referenceTo: path1) asAbsolute.
+	self assert: entry2 reference = (filesystem referenceTo: path2) asAbsolute.
+
+Transcript crShow: entry1 creationTime printString , '   ', entry2 creationTime printString.
+	self assert: entry1 creationTime < entry2 creationTime.
+	self assert: entry1 modificationTime < entry2 modificationTime.

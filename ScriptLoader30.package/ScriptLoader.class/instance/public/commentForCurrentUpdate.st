@@ -1,8 +1,8 @@
 commentForCurrentUpdate
- ^ '12896 Screenshot tool: tell save location
-	https://pharo.fogbugz.com/f/cases/12896
+ ^ '12892 DiskFileSystemTest>>#testEntryAt
+	https://pharo.fogbugz.com/f/cases/12892
 
-12895 #centeredAlert:title:configure dialog is not centered
-	https://pharo.fogbugz.com/f/cases/12895
+12897 Settings Browser is slow when opened on a package
+	https://pharo.fogbugz.com/f/cases/12897
 
 '
