@@ -3,11 +3,11 @@ testReceiverConstant
 	text := 'testIt
 	15r16 printS'.
 	context := self createContextFor: text at: text size.
-	self assert: context receiverClass == Number.
+	self assert: context receiverClass == SmallInteger.
 	text := 'testIt
 	''test'' printS'.
 	context := self createContextFor: text at: text size.
-	self assert: context receiverClass == String.
+	self assert: context receiverClass == ByteString.
 	text := 'testIt
 	true ifTrue:'.
 	context := self createContextFor: text at: text size.
@@ -34,3 +34,11 @@ testReceiverConstant
 	#( 1 2 3) as'.
 	context := self createContextFor: text at: text size.
 	self assert: context receiverClass == Array.
+	text:='testIt
+	2r1.1e2 as'.
+	context := self createContextFor: text at: text size.
+	self assert: context receiverClass == Float.
+	text:='testIt
+	23s32 as'.
+	context := self createContextFor: text at: text size.
+	self assert: context receiverClass == ScaledDecimal.

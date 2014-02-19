@@ -6,7 +6,7 @@ testCaseSensitive
 		temporaries: OrderedCollection new.
 	model loadEntries.
 	locals := model entriesOfType: #instVar.
-	self assert: locals size == 17.
+	self assert: locals size == 18.
 	self assert: (locals includes: 'third').
 	self assert: (locals includes: 'constantInteger').
 	self assert: (locals includes: 'complexInit2').

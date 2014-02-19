@@ -5,4 +5,4 @@ testMakeRelative
 	parent := Path / 'griffle' / 'bibb'.
 	child := Path / 'griffle' / 'plonk' / 'nurp'.
 	relative := parent makeRelative: child.
-	self assert: relative = (Path parent / 'plonk' / 'nurp')
+	self assert: relative equals: (Path parent / 'plonk' / 'nurp')

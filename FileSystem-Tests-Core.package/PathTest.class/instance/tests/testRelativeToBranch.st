@@ -3,4 +3,4 @@ testRelativeToBranch
 	parent := Path / 'griffle' / 'bibb'.
 	child := Path / 'griffle' / 'plonk' / 'nurp'.
 	relative := child relativeTo: parent.
-	self assert: relative = (Path parent / 'plonk' / 'nurp')
+	self assert: relative  equals: (Path parent / 'plonk' / 'nurp')

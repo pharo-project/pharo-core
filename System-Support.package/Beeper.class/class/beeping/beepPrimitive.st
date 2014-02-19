@@ -5,6 +5,5 @@ beepPrimitive
 	since this method bypasses the current
 	registered playable entity."
 
-	(#SoundService asClassIfAbsent: [ ^ self primitiveBeep ])
-		 soundEnabled 
-				ifTrue: [self primitiveBeep]
+	SoundSystem current soundEnabled
+		ifTrue: [self primitiveBeep]

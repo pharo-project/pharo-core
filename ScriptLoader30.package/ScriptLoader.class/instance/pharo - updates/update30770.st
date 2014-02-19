@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '12905 Completion is bugging under Linux/Ubuntu 13.04 with factorial method
+update30770
+	"self new update30770"
+	self withUpdateLog: '12905 Completion is bugging under Linux/Ubuntu 13.04 with factorial method
 	https://pharo.fogbugz.com/f/cases/12905
 
 12919 Beeper>>#beepPrimitive calls deprecated code
@@ -14,4 +15,6 @@ commentForCurrentUpdate
 12872 Issues with resolving parent Path
 	https://pharo.fogbugz.com/f/cases/12872
 
-'
+'.
+	self loadTogether: self script423 merge: false.
+	self flushCaches.

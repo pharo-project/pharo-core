@@ -6,11 +6,11 @@ testAbsolutePath
 	self assert: (Path root isAbsolute).
 	
 	path := AbsolutePath from: 'parent/child/grandChild' delimiter: $/.
-	self assert: path size = 3.
-	self assert: (path at: 1) = 'parent'.
-	self assert: (path at: 2) = 'child'.
-	self assert: (path at: 3) = 'grandChild'.
+	self assert: path size equals: 3.
+	self assert: (path at: 1) equals: 'parent'.
+	self assert: (path at: 2) equals: 'child'.
+	self assert: (path at: 3) equals: 'grandChild'.
 	
 	path := AbsolutePath from: '/' delimiter: $/.
-	self assert: path = Path root.
+	self assert: path equals: Path root.
 	

@@ -6,4 +6,4 @@ testRelativeTo
 	parent := Path / 'griffle'.
 	child := Path / 'griffle' / 'plonk' / 'nurp'.
 	relative := child relativeTo: parent.
-	self assert: relative = (Path * 'plonk' / 'nurp')
+	self assert: relative equals: (Path * 'plonk' / 'nurp')
