@@ -4,6 +4,7 @@ openFullNoSuspendLabel: aString
 	self 
 		openWithSpec;
 		updateToolbar;
+		updateCodeFromContext;
 		label: aString.
 	
 	self flag: 'Would ne better to move this into the session'.

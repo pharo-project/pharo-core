@@ -1,2 +1,2 @@
 packagePattern
-	^ packagePattern ifNil: [ '.*' asRegexIgnoringCase ]
+	^ packagePattern ifNil: [ nil ]

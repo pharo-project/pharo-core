@@ -1,1 +1,1 @@
-A HTTPEncodingTest is xxxxxxxxx.
+SUnit tests for HTTPEncoding

@@ -1,1 +1,1 @@
-A HttpUrlTest is xxxxxxxxx.
+SUnit tests for HttpUrl 

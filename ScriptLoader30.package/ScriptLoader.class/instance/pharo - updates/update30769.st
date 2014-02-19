@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '12925 MorphTreeNodeModel speedup
+update30769
+	"self new update30769"
+	self withUpdateLog: '12925 MorphTreeNodeModel speedup
 	https://pharo.fogbugz.com/f/cases/12925
 
 12923 DateAndTime gets into infinite loop when a time is missing
@@ -23,4 +24,6 @@ commentForCurrentUpdate
 12888 NoTitle menu title in inspector context menu
 	https://pharo.fogbugz.com/f/cases/12888
 
-'
+'.
+	self loadTogether: self script422 merge: false.
+	self flushCaches.

@@ -1,1 +1,1 @@
-An UUIDPrimitivesTest is xxxxxxxxx.
+SUnit tests for UUIDPrimitives 

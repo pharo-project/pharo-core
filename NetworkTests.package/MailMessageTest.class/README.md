@@ -1,1 +1,1 @@
-A MailMessageTest is xxxxxxxxx.
+SUnit tests for MailMessage

@@ -1,1 +1,1 @@
-A NetNameResolverTest is xxxxxxxxx.
+SUnit tests for NetNameResolver 

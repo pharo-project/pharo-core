@@ -1,1 +1,1 @@
-An UUIDTest is xxxxxxxxx.
+SUnit tests for UUID

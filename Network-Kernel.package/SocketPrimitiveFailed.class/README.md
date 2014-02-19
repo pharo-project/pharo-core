@@ -1,1 +1,1 @@
-A SocketPrimitiveFailed is xxxxxxxxx.
+Notify that a socket primitive failed
