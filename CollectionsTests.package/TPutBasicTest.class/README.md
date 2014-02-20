@@ -1,1 +1,1 @@
-A TPutBasicTest is xxxxxxxxx.
+A trait for test purposes

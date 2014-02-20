@@ -1,1 +1,1 @@
-A TIndexAccessForMultipliness is xxxxxxxxx.
+A trait for test purposes

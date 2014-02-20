@@ -1,1 +1,1 @@
-A TGrowableTest is xxxxxxxxx.
+A trait for test purposes

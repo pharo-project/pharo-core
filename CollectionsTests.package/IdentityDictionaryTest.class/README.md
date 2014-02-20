@@ -1,1 +1,1 @@
-An IdentityDictionaryTest is xxxxxxxxx.
+SUnit tests for identity dictionaries

@@ -1,1 +1,1 @@
-A MCWorkingHistoryBrowser is xxxxxxxxx.
+Browser for working history

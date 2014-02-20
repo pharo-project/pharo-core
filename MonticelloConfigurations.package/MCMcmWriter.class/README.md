@@ -1,1 +1,1 @@
-A MCMcmWriter is xxxxxxxxx.
+Writer for Metacello MCM

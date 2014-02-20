@@ -1,1 +1,1 @@
-A MCTool is xxxxxxxxx.Instance Variables	label:		<Object>	modal:		<Object>	modalValue:		<Object>	morph:		<Object>label	- xxxxxmodal	- xxxxxmodalValue	- xxxxxmorph	- xxxxx
+Common superclass for Monticello tools

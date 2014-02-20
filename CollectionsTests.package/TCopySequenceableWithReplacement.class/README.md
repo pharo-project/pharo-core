@@ -1,1 +1,1 @@
-A TCopySequenceableWithReplacement is xxxxxxxxx.
+A trait for test purposes

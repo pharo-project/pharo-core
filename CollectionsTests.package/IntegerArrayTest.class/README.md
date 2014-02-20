@@ -1,1 +1,1 @@
-An IntegerArrayTest is xxxxxxxxx.
+SUnit tests for integer arrays

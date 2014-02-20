@@ -1,1 +1,1 @@
-A TDictionaryAssociationAccessTest is xxxxxxxxx.
+A trait for test purposes

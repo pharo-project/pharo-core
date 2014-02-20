@@ -1,1 +1,1 @@
-A SharedQueueTest is xxxxxxxxx.
+SUnit tests for shared queues

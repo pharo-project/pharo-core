@@ -1,1 +1,1 @@
-A TSequencedElementAccessTest is xxxxxxxxx.
+A trait for test purposes

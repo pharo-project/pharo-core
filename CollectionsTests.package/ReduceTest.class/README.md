@@ -1,1 +1,1 @@
-A ReduceTest is xxxxxxxxx.
+SUnit tests for reducing collections

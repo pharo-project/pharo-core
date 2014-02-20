@@ -1,1 +1,1 @@
-An AssociationTest is xxxxxxxxx.Instance Variables	a:		<Object>	b:		<Object>a	- xxxxxb	- xxxxx
+SUnit tests for Associations

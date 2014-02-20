@@ -1,1 +1,1 @@
-A TDictionaryCopyingTest is xxxxxxxxx.
+A trait for test purposes

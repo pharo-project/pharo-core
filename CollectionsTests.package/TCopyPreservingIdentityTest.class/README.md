@@ -1,1 +1,1 @@
-A TCopyPreservingIdentityTest is xxxxxxxxx.
+A trait for test purposes

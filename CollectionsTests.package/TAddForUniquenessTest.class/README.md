@@ -1,1 +1,1 @@
-A TAddForUniquenessTest is xxxxxxxxx.
+A trait for test purposes

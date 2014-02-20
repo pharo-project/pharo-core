@@ -1,1 +1,1 @@
-A MBAddConfigurationCommand is xxxxxxxxx.
+Command to add a configuration in Versionner

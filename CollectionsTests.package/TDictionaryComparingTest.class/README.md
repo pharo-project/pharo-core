@@ -1,1 +1,1 @@
-A TDictionaryComparingTest is xxxxxxxxx.
+A trait for test purposes

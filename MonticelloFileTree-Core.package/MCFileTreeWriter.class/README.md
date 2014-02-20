@@ -1,1 +1,1 @@
-A MCFileTreeWriter is xxxxxxxxx.Instance Variables	cachedPackageFileDirectoryEntries:		<Object>	directory:		<Object>	packageFileDirectory:		<Object>cachedPackageFileDirectoryEntries	- xxxxxdirectory	- xxxxxpackageFileDirectory	- xxxxx
+Writer for the file tree

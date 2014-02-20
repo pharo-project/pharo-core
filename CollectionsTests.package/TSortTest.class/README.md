@@ -1,1 +1,1 @@
-A TSortTest is xxxxxxxxx.
+A trait for test purposes

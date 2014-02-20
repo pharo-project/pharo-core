@@ -1,1 +1,1 @@
-A TAddForIdentityCollectionsTest is xxxxxxxxx.
+A trait for test purposes

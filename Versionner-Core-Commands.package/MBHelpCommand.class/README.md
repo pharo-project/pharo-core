@@ -1,1 +1,1 @@
-A MBHelpCommand is xxxxxxxxx.
+Command to open help for Versionner

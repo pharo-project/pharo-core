@@ -1,1 +1,1 @@
-A WeakAnnouncerTest is xxxxxxxxx.
+SUnit tests for weak announcements

@@ -1,1 +1,1 @@
-A TCopyPartOfSequenceableForMultipliness is xxxxxxxxx.
+A trait for test purposes

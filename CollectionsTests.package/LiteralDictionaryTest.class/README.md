@@ -1,1 +1,1 @@
-A LiteralDictionaryTest is xxxxxxxxx.
+SUnit tests for literal dictionaries

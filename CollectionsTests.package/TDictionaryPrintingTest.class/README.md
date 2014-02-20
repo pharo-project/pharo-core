@@ -1,1 +1,1 @@
-A TDictionaryPrintingTest is xxxxxxxxx.
+A trait for test purposes

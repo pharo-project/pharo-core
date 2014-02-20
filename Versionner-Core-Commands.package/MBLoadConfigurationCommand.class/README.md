@@ -1,1 +1,1 @@
-A MBLoadConfigurationCommand is xxxxxxxxx.
+Command to load a configuration in Versionner

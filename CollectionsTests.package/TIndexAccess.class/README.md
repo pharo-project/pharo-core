@@ -1,1 +1,1 @@
-A TIndexAccess is xxxxxxxxx.
+A trait for test purposes

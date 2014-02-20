@@ -1,1 +1,1 @@
-A TSequencedConcatenationTest is xxxxxxxxx.
+A trait for test purposes

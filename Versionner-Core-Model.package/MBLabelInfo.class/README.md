@@ -1,1 +1,1 @@
-A MBLabelInfo is xxxxxxxxx.
+A label info

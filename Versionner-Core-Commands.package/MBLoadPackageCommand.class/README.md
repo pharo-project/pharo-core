@@ -1,1 +1,1 @@
-A MBLoadPackageCommand is xxxxxxxxx.
+Command to load a package in versionner

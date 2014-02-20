@@ -1,1 +1,1 @@
-A WeakKeyToCollectionDictionaryTest is xxxxxxxxx.
+SUnit tests for weak key to collection dictionaries 

@@ -1,1 +1,1 @@
-A MBVersionCommand is xxxxxxxxx.
+Superclass for commands on versions

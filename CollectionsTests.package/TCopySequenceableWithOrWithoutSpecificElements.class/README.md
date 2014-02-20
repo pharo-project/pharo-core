@@ -1,1 +1,1 @@
-A TCopySequenceableWithOrWithoutSpecificElements is xxxxxxxxx.
+A trait for test purposes

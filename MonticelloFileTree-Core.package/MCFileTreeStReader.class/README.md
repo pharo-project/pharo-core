@@ -1,1 +1,1 @@
-A MCFileTreeStReader is xxxxxxxxx.
+A reader for Smalltalk code

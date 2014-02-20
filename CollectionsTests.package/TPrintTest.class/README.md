@@ -1,1 +1,1 @@
-A TPrintTest is xxxxxxxxx.
+A trait for test purposes

@@ -1,1 +1,1 @@
-A TSequencedStructuralEqualityTest is xxxxxxxxx.
+A trait for test purposes

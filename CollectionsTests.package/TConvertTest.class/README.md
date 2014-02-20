@@ -1,1 +1,1 @@
-A TConvertTest is xxxxxxxxx.
+A trait for test purposes

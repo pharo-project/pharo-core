@@ -1,1 +1,1 @@
-A MBVersionInfo is xxxxxxxxx.
+A version info

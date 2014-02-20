@@ -1,1 +1,1 @@
-A GeneratorTest is xxxxxxxxx.
+SUnit tests for class Generator

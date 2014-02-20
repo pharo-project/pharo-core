@@ -1,1 +1,1 @@
-A ByteSymbolTest is xxxxxxxxx.
+SUnit tests for byte symbols

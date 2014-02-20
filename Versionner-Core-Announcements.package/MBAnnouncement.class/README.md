@@ -1,1 +1,1 @@
-A MBAnnouncement is xxxxxxxxx.
+Common superclass for Versionner announcements

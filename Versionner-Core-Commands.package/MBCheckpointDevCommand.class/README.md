@@ -1,1 +1,1 @@
-A MBCheckpointDevCommand is xxxxxxxxx.
+Command for a check point in Versionner

@@ -1,1 +1,1 @@
-A MBBrowsePackageCommand is xxxxxxxxx.
+Command to browse a package in versionner

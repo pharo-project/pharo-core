@@ -1,3 +1,3 @@
 menu: aMenu shifted: aBoolean
 
-	^ (self model menu: aMenu shifted: aBoolean) ifNotNil: [ :menu | menu buildWithSpec ]
+	^ (self model menu: aMenu shifted: aBoolean) buildWithSpecAsPopup

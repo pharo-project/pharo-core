@@ -1,1 +1,1 @@
-A TCopySequenceableSameContents is xxxxxxxxx.
+A trait for test purposes

@@ -1,1 +1,1 @@
-A MBSpecInfoTest is xxxxxxxxx.
+SUnit tests for MBSpecInfo in Versionner

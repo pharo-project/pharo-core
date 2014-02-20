@@ -1,1 +1,1 @@
-A TIncludesWithIdentityCheckTest is xxxxxxxxx.
+A trait for test purposes

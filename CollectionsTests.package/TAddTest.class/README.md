@@ -1,1 +1,1 @@
-A TAddTest is xxxxxxxxx.
+A trait for test purposes

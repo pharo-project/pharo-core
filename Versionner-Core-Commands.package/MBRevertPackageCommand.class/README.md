@@ -1,1 +1,1 @@
-A MBRevertPackageCommand is xxxxxxxxx.
+Command to revert a package in versionner

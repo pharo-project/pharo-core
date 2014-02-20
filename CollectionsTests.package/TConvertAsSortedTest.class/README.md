@@ -1,1 +1,1 @@
-A TConvertAsSortedTest is xxxxxxxxx.
+A trait for test purposes

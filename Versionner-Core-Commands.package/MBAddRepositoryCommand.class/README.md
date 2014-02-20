@@ -1,1 +1,1 @@
-A MBAddRepositoryCommand is xxxxxxxxx.
+Command to add a repository in Versionner

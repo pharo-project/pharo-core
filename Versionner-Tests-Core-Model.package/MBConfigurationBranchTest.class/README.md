@@ -1,1 +1,1 @@
-A MBConfigurationBranchTest is xxxxxxxxx.Instance Variables	configurationRoot:		<Object>	gofer:		<Object>configurationRoot	- xxxxxgofer	- xxxxx
+SUnit tests for configuration branches in Versionner

@@ -1,1 +1,1 @@
-A WeakFinalizersTest is xxxxxxxxx.
+A trait for test purposes

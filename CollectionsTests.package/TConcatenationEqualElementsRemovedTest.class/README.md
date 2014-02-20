@@ -1,1 +1,1 @@
-A TConcatenationEqualElementsRemovedTest is xxxxxxxxx.
+A trait for test purposes

@@ -1,1 +1,1 @@
-A TDictionaryAddingTest is xxxxxxxxx.
+A trait for test purposes

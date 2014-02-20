@@ -1,1 +1,1 @@
-An AnnouncementSetTest is xxxxxxxxx.
+SUnit tests for announcement sets

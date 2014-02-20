@@ -1,1 +1,1 @@
-A MCFileTreeFileUtils is xxxxxxxxx.
+Utility class for file access

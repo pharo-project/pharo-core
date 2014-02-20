@@ -1,1 +1,1 @@
-A TDictionaryRemovingTest is xxxxxxxxx.
+A trait for test purposes

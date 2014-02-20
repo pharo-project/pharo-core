@@ -1,1 +1,1 @@
-A PluggableDictionaryTest is xxxxxxxxx.
+SUnit tests for pluggable dictionaries

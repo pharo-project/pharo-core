@@ -1,1 +1,1 @@
-A MBInfo is xxxxxxxxx.Instance Variables	name:		<Object>	text:		<Object>	validationIcon:		<Object>	validationIconSymbol:		<Object>	validationResult:		<Object>name	- xxxxxtext	- xxxxxvalidationIcon	- xxxxxvalidationIconSymbol	- xxxxxvalidationResult	- xxxxx
+Common superclass for Versionner infos

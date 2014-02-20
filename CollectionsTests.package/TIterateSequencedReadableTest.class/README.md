@@ -1,1 +1,1 @@
-A TIterateSequencedReadableTest is xxxxxxxxx.
+A trait for test purposes

@@ -1,1 +1,1 @@
-A MBGroupInfoTest is xxxxxxxxx.
+SUnit tests for MBGroupInfo in Versionner

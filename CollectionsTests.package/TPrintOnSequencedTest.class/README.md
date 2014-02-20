@@ -1,1 +1,1 @@
-A TPrintOnSequencedTest is xxxxxxxxx.
+A trait for test purposes

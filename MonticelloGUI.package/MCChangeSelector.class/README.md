@@ -1,1 +1,1 @@
-A MCChangeSelector is xxxxxxxxx.Instance Variables	kept:		<Object>kept	- xxxxx
+Monticello selector for changes

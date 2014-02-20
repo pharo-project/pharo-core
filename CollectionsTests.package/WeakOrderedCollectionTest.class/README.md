@@ -1,1 +1,1 @@
-A WeakOrderedCollectionTest is xxxxxxxxx.
+A trait for test purposes

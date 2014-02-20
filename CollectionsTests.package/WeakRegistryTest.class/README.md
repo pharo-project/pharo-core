@@ -1,1 +1,1 @@
-A WeakRegistryTest is xxxxxxxxx.Instance Variables	errorWasHere:		<Object>errorWasHere	- xxxxx
+A trait for test purposes

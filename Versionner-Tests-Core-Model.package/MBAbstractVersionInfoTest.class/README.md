@@ -1,1 +1,1 @@
-A MBAbstractVersionInfoTest is xxxxxxxxx.
+Abstract superclass for version info tests for Versionner

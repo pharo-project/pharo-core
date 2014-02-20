@@ -1,1 +1,1 @@
-A MCFileTreeStCypressReader is xxxxxxxxx.
+Reader for Cypress formatsee https://github.com/CampSmalltalk/Cypress

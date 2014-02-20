@@ -1,3 +1,3 @@
 buttonHeight
 
-	^ 26
+	^ StandardFonts defaultFont height + 12

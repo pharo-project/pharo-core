@@ -1,1 +1,1 @@
-A TSetArithmetic is xxxxxxxxx.
+A trait for test purposes

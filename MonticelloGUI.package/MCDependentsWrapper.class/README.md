@@ -1,1 +1,1 @@
-A MCDependentsWrapper is xxxxxxxxx.
+Specialized list item wrapper for dependents

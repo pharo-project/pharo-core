@@ -1,1 +1,1 @@
-A MBMonticelloPackagesResource is xxxxxxxxx.Instance Variables	monticelloRepository:		<Object>monticelloRepository	- xxxxx
+A test resource for test purposes for Versionner

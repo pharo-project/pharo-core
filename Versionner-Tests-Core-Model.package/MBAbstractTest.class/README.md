@@ -1,1 +1,1 @@
-A MBAbstractTest is xxxxxxxxx.Instance Variables	configuration:		<Object>configuration	- xxxxx
+Common superclass for test for Versionner

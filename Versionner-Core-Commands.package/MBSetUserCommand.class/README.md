@@ -1,1 +1,1 @@
-A MBSetUserCommand is xxxxxxxxx.
+Command to bset the user in Versionner

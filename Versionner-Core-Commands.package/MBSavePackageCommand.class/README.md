@@ -1,1 +1,1 @@
-A MBSavePackageCommand is xxxxxxxxx.
+Command to save a package in versionner

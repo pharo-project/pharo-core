@@ -1,1 +1,1 @@
-A MCSliceInfo is xxxxxxxxx.Instance Variables	includedPackages:		<Object>	issueNumber:		<Object>	issueSummary:		<Object>includedPackages	- xxxxxissueNumber	- xxxxxissueSummary	- xxxxx
+A slice info

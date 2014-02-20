@@ -1,1 +1,1 @@
-A MBSaveConfigurationCommand is xxxxxxxxx.
+Command to load a configuration in versionner

@@ -1,1 +1,1 @@
-A WeakIdentityKeyDictionaryTest is xxxxxxxxx.
+SUnit tests for weak identity key dictionaries

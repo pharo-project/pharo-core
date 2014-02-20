@@ -1,1 +1,1 @@
-A MCFileTreeStCypressWriter is xxxxxxxxx.Instance Variables	fileStream:		<Object>fileStream	- xxxxx
+Writer for Cypress format see https://github.com/CampSmalltalk/Cypress

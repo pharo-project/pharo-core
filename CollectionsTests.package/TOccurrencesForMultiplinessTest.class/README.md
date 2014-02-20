@@ -1,1 +1,1 @@
-A TOccurrencesForMultiplinessTest is xxxxxxxxx.
+A trait for test purposes

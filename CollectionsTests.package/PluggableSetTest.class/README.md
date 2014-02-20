@@ -1,1 +1,1 @@
-A PluggableSetTest is xxxxxxxxx.
+SUnit tests for pluggable sets

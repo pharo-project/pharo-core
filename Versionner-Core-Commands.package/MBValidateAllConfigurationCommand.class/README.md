@@ -1,1 +1,1 @@
-A MBValidateAllConfigurationCommand is xxxxxxxxx.
+Command to validate all configurations in versionner

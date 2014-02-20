@@ -1,1 +1,1 @@
-A MBConfigurationChangesCommand is xxxxxxxxx.
+Command to browse changes on a configuration in versionner

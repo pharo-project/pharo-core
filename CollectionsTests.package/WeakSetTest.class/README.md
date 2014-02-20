@@ -1,1 +1,1 @@
-A WeakSetTest is xxxxxxxxx.
+A trait for test purposes

@@ -1,1 +1,1 @@
-A LIFOQueueTests is xxxxxxxxx.
+SUnit tests for LIFO queues

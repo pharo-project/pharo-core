@@ -1,1 +1,1 @@
-A MBProjectInfo is xxxxxxxxx.Instance Variables	currentVersion:		<Object>currentVersion	- xxxxx
+Infos about a project

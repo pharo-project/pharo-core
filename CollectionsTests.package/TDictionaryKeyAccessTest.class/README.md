@@ -1,1 +1,1 @@
-A TDictionaryKeyAccessTest is xxxxxxxxx.
+A trait for test purposes

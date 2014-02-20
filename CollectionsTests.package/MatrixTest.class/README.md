@@ -1,1 +1,1 @@
-A MatrixTest is xxxxxxxxx.Instance Variables	matrix1:		<Object>	matrix2:		<Object>	matrix3:		<Object>matrix1	- xxxxxmatrix2	- xxxxxmatrix3	- xxxxx
+SUnit tests for matrix

@@ -1,14 +1,17 @@
 commentForCurrentUpdate
- ^ '12290 Newly loaded SLICE does not have PharoInbox in the repository group
-	https://pharo.fogbugz.com/f/cases/12290
+ ^ '12939 Class comments missing for Announcements-Tests package
+	https://pharo.fogbugz.com/f/cases/12939
 
-12865 Class comments missing in Manifest package
-	https://pharo.fogbugz.com/f/cases/12865
+12928 Spec new update
+	https://pharo.fogbugz.com/f/cases/12928
 
-12898 When creating a subclass -that includes a Trait- with a VariableLayout it uses a ByteLayout instead
-	https://pharo.fogbugz.com/f/cases/12898
+12937 Class comments missing in Versionner package
+	https://pharo.fogbugz.com/f/cases/12937
 
-12934 Class comments missing in RecentSubmissions package
-	https://pharo.fogbugz.com/f/cases/12934
+12940 Class comments missing for CollectionsTests package
+	https://pharo.fogbugz.com/f/cases/12940
+
+12943 Class comments missing for Monticello- packages
+	https://pharo.fogbugz.com/f/cases/12943
 
 '

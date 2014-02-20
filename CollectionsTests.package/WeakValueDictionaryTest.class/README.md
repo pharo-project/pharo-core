@@ -1,1 +1,1 @@
-A WeakValueDictionaryTest is xxxxxxxxx.
+SUnit tests for weak value dictionaries

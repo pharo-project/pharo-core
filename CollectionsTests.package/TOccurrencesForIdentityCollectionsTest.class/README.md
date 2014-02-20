@@ -1,1 +1,1 @@
-A TOccurrencesForIdentityCollectionsTest is xxxxxxxxx.
+A trait for test purposes

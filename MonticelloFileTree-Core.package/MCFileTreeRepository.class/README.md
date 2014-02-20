@@ -1,1 +1,1 @@
-A MCFileTreeRepository is xxxxxxxxx.Instance Variables	readonly:		<Object>	repositoryProperties:		<Object>readonly	- xxxxxrepositoryProperties	- xxxxx
+A file tree repository

@@ -1,1 +1,1 @@
-A ByteArrayTest is xxxxxxxxx.
+SUnit tests for ByteArray

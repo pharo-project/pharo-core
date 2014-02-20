@@ -1,1 +1,1 @@
-A SmallIdentityDictionaryTest is xxxxxxxxx.
+SUnit tests for small identity dictionaries

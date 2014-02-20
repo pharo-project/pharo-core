@@ -1,1 +1,1 @@
-A TCloneTest is xxxxxxxxx.
+A trait for test purposes

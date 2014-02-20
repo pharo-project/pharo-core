@@ -1,1 +1,1 @@
-A WriteStreamTest is xxxxxxxxx.
+A trait for test purposes

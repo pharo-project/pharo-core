@@ -1,1 +1,1 @@
-A MCFileTreeStWriter is xxxxxxxxx.
+A writer for Smalltalk code

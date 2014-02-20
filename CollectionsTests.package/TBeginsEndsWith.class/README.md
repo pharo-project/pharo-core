@@ -1,1 +1,1 @@
-A TBeginsEndsWith is xxxxxxxxx.
+A trait for test purposes

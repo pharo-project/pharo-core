@@ -1,1 +1,1 @@
-A MBAbstractVersionInfo is xxxxxxxxx.Instance Variables	configurationInfo:		<Object>	version:		<Object>configurationInfo	- xxxxxversion	- xxxxx
+Abstract info for a version in Versionner

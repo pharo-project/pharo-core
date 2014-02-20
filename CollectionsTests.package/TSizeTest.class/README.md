@@ -1,1 +1,1 @@
-A TSizeTest is xxxxxxxxx.
+A trait for test purposes

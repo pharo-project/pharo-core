@@ -1,1 +1,1 @@
-A TRemoveTest is xxxxxxxxx.
+A trait for test purposes

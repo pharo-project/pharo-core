@@ -1,1 +1,1 @@
-A MBInfoListChanged is xxxxxxxxx.Instance Variables	configurationInfo:		<Object>configurationInfo	- xxxxx
+The info list changed

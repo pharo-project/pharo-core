@@ -1,1 +1,1 @@
-A MBConfigurationInfoDeleted is xxxxxxxxx.
+A configuration info was deleted

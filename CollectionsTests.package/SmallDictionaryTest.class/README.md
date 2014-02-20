@@ -1,1 +1,1 @@
-A SmallDictionaryTest is xxxxxxxxx.
+SUnit tests for small dictionaries

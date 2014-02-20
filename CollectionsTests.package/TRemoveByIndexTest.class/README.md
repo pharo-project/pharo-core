@@ -1,1 +1,1 @@
-A TRemoveByIndexTest is xxxxxxxxx.
+A trait for test purposes

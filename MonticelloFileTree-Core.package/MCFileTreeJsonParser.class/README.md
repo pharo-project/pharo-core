@@ -1,1 +1,1 @@
-A MCFileTreeJsonParser is xxxxxxxxx.Instance Variables	stream:		<Object>stream	- xxxxx
+JSON parser

@@ -1,1 +1,1 @@
-A MCFileTreePackageStructureStWriter is xxxxxxxxx.
+Writer for a package structure

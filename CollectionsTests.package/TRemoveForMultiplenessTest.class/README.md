@@ -1,1 +1,1 @@
-A TRemoveForMultiplenessTest is xxxxxxxxx.
+A trait for test purposes

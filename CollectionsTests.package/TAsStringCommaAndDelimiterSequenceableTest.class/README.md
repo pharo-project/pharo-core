@@ -1,1 +1,1 @@
-A TAsStringCommaAndDelimiterSequenceableTest is xxxxxxxxx.
+A trait for test purposes

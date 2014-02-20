@@ -1,1 +1,1 @@
-A MBInspectConfigurationCommand is xxxxxxxxx.
+Command to inspect a configuration in versionner

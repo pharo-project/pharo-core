@@ -1,1 +1,1 @@
-A MBInfoTest is xxxxxxxxx.
+Common SUnit tests for MBInfo

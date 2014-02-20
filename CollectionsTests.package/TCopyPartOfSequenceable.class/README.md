@@ -1,1 +1,1 @@
-A TCopyPartOfSequenceable is xxxxxxxxx.
+A trait for test purposes

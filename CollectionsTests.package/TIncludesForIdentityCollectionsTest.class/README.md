@@ -1,1 +1,1 @@
-A TIncludesForIdentityCollectionsTest is xxxxxxxxx.
+A trait for test purposes

@@ -1,1 +1,1 @@
-A MBConfigurationInfoCreated is xxxxxxxxx.
+A configuration info was created

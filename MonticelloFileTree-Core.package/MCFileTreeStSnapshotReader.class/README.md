@@ -1,1 +1,1 @@
-A MCFileTreeStSnapshotReader is xxxxxxxxx.
+Snapshot reader

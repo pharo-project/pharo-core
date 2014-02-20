@@ -1,1 +1,1 @@
-A TDictionaryEnumeratingTest is xxxxxxxxx.
+A trait for test purposes

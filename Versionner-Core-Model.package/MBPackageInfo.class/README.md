@@ -1,1 +1,1 @@
-A MBPackageInfo is xxxxxxxxx.
+Infos about a package

@@ -1,1 +1,1 @@
-A TConvertAsSetForMultiplinessTest is xxxxxxxxx.
+A trait for test purposes

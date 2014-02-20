@@ -1,1 +1,1 @@
-A MBLoadProjectFromArchiveCommand is xxxxxxxxx.
+Command to load project from archive in versionner
