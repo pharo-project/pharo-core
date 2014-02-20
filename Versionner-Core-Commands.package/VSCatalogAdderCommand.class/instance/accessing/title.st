@@ -1,0 +1,2 @@
+title
+	^ 'Add catalog methods'

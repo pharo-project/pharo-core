@@ -6,5 +6,6 @@ defaultSpec
 		newRow: [ :row | 
 			row
 				add: #newButton;
-				add: #loadButton ];
+				add: #loadButton;
+				add: #openButton ];
 	yourself.

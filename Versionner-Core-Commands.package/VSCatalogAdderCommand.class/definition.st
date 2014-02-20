@@ -1,0 +1,5 @@
+VSConfigurationCommand subclass: #VSCatalogAdderCommand
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Versionner-Core-Commands'

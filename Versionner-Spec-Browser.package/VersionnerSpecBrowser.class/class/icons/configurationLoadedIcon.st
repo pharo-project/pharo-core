@@ -1,0 +1,2 @@
+configurationLoadedIcon
+	^Smalltalk ui icons configIconLoaded
