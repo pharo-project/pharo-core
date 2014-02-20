@@ -1,1 +1,1 @@
-A MFClassB is xxxxxxxxx.
+I'm a dummy class for test purposes  

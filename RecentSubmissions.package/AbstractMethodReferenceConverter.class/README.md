@@ -1,1 +1,1 @@
-An AbstractMethodReferenceConverter is xxxxxxxxx.Instance Variables	referencesList:		<Object>referencesList	- xxxxx
+Abstract wrapper for method references

@@ -1,1 +1,1 @@
-A MessageListInspectableNode is xxxxxxxxx.
+Node model for inspectable nodes

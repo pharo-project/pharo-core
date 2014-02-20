@@ -1,1 +1,1 @@
-A SmalllintManifestCheckerTest is xxxxxxxxx.Instance Variables	checker:		<Object>checker	- xxxxx
+SUnit tests for SmalllintManifestChecker

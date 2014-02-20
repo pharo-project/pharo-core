@@ -1,1 +1,1 @@
-A ManifestManifestTests is xxxxxxxxx.
+The manifest for Manifest-Tests package

@@ -13,4 +13,5 @@ testVariableClassWithTraitCreatedShouldntAnnounceClassModified
 
 	self assert: self collectedAnnouncements size isZero.
 	self assert: aClass layout isVariable.
+	self deny: aClass layout isBits .
 	self assert: (aClass traitComposition syntacticallyEquals: TOne asTraitComposition).
