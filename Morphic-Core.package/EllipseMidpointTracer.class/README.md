@@ -1,1 +1,1 @@
-An EllipseMidpointTracer is xxxxxxxxx.Instance Variables	a:		<Object>	aSquared:		<Object>	b:		<Object>	bSquared:		<Object>	d1:		<Object>	d2:		<Object>	inFirstRegion:		<Object>	rect:		<Object>	x:		<Object>	y:		<Object>a	- xxxxxaSquared	- xxxxxb	- xxxxxbSquared	- xxxxxd1	- xxxxxd2	- xxxxxinFirstRegion	- xxxxxrect	- xxxxxx	- xxxxxy	- xxxxx
+Utility class for calculating

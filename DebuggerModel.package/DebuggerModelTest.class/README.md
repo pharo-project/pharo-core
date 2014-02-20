@@ -1,1 +1,1 @@
-A DebuggerModelTest is xxxxxxxxx.Instance Variables	context:		<Object>	process:		<Object>	session:		<Object>context	- xxxxxprocess	- xxxxxsession	- xxxxx
+SUnit tests for the debugger model

@@ -1,1 +1,1 @@
-A MouseOverHandler is xxxxxxxxx.Instance Variables	enteredMorphs:		<Object>	leftMorphs:		<Object>	mouseOverMorphs:		<Object>	overMorphs:		<Object>enteredMorphs	- xxxxxleftMorphs	- xxxxxmouseOverMorphs	- xxxxxoverMorphs	- xxxxx
+Mouse over handler in a hand morph

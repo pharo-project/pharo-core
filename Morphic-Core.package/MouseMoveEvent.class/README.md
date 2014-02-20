@@ -1,1 +1,1 @@
-A MouseMoveEvent is xxxxxxxxx.Instance Variables	startPoint:		<Object>	trail:		<Object>startPoint	- xxxxxtrail	- xxxxx
+A move event from the mouse

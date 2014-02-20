@@ -1,1 +1,1 @@
-A MouseEvent is xxxxxxxxx.
+Superclass for mouse events

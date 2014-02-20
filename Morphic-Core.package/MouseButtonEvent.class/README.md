@@ -1,1 +1,1 @@
-A MouseButtonEvent is xxxxxxxxx.Instance Variables	whichButton:		<Object>whichButton	- xxxxx
+A button event from a mouse

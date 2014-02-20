@@ -3,6 +3,7 @@ setUp
 		nextPutAll: suite name ; crlf; flush.
 		
 	stream := StandardFileStream forceNewFileNamed: suite name , '-Test.xml'.
+	stream := MultiByteFileStream newFrom: stream.
 	stream nextPutAll: '<?xml version="1.0" encoding="UTF-8"?>'; lf.
 	stream nextPutAll: '<testsuite name="'; nextPutAll: (self encode: suite name); 
 		nextPutAll: '" tests="'; print: suite tests size; nextPutAll: '">'.
