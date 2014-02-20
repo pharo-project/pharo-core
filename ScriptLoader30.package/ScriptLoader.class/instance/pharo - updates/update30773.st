@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '12730 Message>>sentTo: could be faster
+update30773
+	"self new update30773"
+	self withUpdateLog: '12730 Message>>sentTo: could be faster
 	https://pharo.fogbugz.com/f/cases/12730
 
 12913 Issue in IconicListItem
@@ -11,4 +12,6 @@ commentForCurrentUpdate
 12914 Spec Menu Shortcut Printing: DNU #prettyPrintOn: on OSX with fonts supporting special characters
 	https://pharo.fogbugz.com/f/cases/12914
 
-'
+'.
+	self loadTogether: self script426 merge: false.
+	self flushCaches.

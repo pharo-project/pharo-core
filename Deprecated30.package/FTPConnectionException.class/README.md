@@ -1,1 +1,1 @@
-A FTPConnectionException is xxxxxxxxx.
+An exception occured while connection using FTP
