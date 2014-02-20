@@ -5,7 +5,11 @@ testEnsureDefaultEnvironmentNotUsed
 	self assert: allClasses isEmpty.
 	orginalProtoObjectClass := Smalltalk globals at: #ProtoObject.		
 	orginalObjectClass := Smalltalk globals at: #Object.
+	
+	DangerousClassNotifier disableForTesting.
 	anotherObjectClass := self classFactory newClassNamed: #Object subclassOf: orginalProtoObjectClass instanceVariableNames: '' classVariableNames:  'DependentsFields'.
+	DangerousClassNotifier restoreAfterTesting.
+	
 	self assert: ((self environmentToTest at: #Object) = anotherObjectClass).
 	self assert: ((Smalltalk globals at: #Object) = orginalObjectClass).
 	

@@ -5,3 +5,4 @@ name: aName
 				signal: 'Global names should be symbols' 
 				for: aName ].
 	self validateClassName.
+	self warnOfDangerousClasses.

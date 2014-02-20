@@ -1,0 +1,2 @@
+warnOfDangerousClasses
+	DangerousClassNotifier check: name 
