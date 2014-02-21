@@ -2,7 +2,7 @@ scrollSelectionIntoView: event
 	"Scroll my text into view if necessary and return true, else return false"
 	| selRects delta selRect rectToTest transform cpHere editor |
 	editor := textMorph editor.
-	selectionInterval := editor selectionInterval.
+	self selectionInterval: editor selectionInterval.
 	selRects := textMorph paragraph selectionRects.
 	selRects isEmpty ifTrue: [^ false].
 	rectToTest := selRects first merge: selRects last.

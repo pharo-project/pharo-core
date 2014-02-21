@@ -1,1 +1,1 @@
-A MorphHandlingMiddleButton is xxxxxxxxx.Instance Variables	menu:		<Object>	receivedBlueButtonDown:		<Object>	receivedBlueButtonUp:		<Object>menu	- xxxxxreceivedBlueButtonDown	- xxxxxreceivedBlueButtonUp	- xxxxx
+I log when the middle mouse button has been clicked on me, which is useful for testing.

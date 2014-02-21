@@ -5,3 +5,4 @@ on: anObject text: getTextSel accept: setTextSel readSelection: getSelectionSel 
 		accept: setTextSel
 		readSelection: getSelectionSel
 		menu: getMenuSel
+		setSelection: nil

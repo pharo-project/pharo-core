@@ -1,8 +1,8 @@
 commentForCurrentUpdate
- ^ '12951 Skip KernelTests.Methods.BlockClosureTest.testOnForkErrorTakesLessThanOneSecond
-	https://pharo.fogbugz.com/f/cases/12951
+ ^ '12144 TextModel>>getSelection
+	https://pharo.fogbugz.com/f/cases/12144
 
-12938 Class "UnknownSystemChange" should be deprecated for Pharo 3.0
-	https://pharo.fogbugz.com/f/cases/12938
-	
+12936 SUnit-UITesting package should be cleaned up
+	https://pharo.fogbugz.com/f/cases/12936
+
 '
