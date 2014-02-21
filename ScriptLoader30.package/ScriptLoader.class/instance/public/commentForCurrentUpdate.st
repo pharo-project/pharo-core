@@ -1,17 +1,8 @@
 commentForCurrentUpdate
- ^ '12924 PluggableTextMorph does not notify changes when pasting/cutting text
-	https://pharo.fogbugz.com/f/cases/12924
+ ^ '12951 Skip KernelTests.Methods.BlockClosureTest.testOnForkErrorTakesLessThanOneSecond
+	https://pharo.fogbugz.com/f/cases/12951
 
-12949 Class comments missing in Morphic-Core package
-	https://pharo.fogbugz.com/f/cases/12949
-
-12944 Class comments missing for DebuggerModel package
-	https://pharo.fogbugz.com/f/cases/12944
-
-12930 Sliders / ScrollBars in inspectors have black borders
-	https://pharo.fogbugz.com/f/cases/12930
-
-12946 HDTestReport cannot write error with UTF-8 text
-	https://pharo.fogbugz.com/f/cases/12946
-
+12938 Class "UnknownSystemChange" should be deprecated for Pharo 3.0
+	https://pharo.fogbugz.com/f/cases/12938
+	
 '
