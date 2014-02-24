@@ -26,3 +26,9 @@ initializeProjectsWidget
 		icon: (Smalltalk ui icons iconNamed: #deleteIcon);
 		enabled: false;
 		help: 'Remove a dependent project from this project'.
+		
+	editProjectButton := self newButton
+		label: nil;
+		icon: (Smalltalk ui icons iconNamed: #editIcon);
+		enabled: false;
+		help: 'Edit the dependent project loads list'.

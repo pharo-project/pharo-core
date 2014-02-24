@@ -6,7 +6,7 @@ coerceReturnValue: gen
 	lfalse := asm uniqueLabelName: 'false'.
 	done := asm uniqueLabelName: 'done'.
 	asm 
-		or: asm EAX with: asm EAX;
+		or: asm AL with: asm AL;
 		je: lfalse.
 	proxy trueObject.
 	asm jmp: done.

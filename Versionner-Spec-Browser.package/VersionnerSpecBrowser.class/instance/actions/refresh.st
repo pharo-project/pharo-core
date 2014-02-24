@@ -1,2 +1,2 @@
 refresh
-	self configurationList: (MBConfigurationRoot current configurations).
+	self configurationList: self class imageConfigurations

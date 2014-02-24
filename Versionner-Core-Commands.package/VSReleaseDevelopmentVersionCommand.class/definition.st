@@ -1,4 +1,4 @@
-VSDevCycleCommands subclass: #VSReleaseDevelopmentVersionCommand
+VSDevCycleCommand subclass: #VSReleaseDevelopmentVersionCommand
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

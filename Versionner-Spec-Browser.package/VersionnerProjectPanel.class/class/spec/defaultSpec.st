@@ -9,7 +9,8 @@ defaultSpec
 									r1
 										add: #projectsLabel origin: 0@0 corner: 1@1;
 										add: #addProjectButton width: 50;
-										add: #removeProjectButton width: 50]
+										add: #removeProjectButton width: 50;
+										add: #editProjectButton width: 50]
 							height: 25;
 						add: #projectList;
 						addSplitter;

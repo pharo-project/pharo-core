@@ -2,8 +2,7 @@ execute
 	|  workflow |
 
 	workflow := target.	
-	[ workflow developmentVersion ]
-		on: MetacelloVersionDoesNotExistError
-		do: [ self createDevelopmentVersion ].
+	self ensureDevelopmentVersionExists.
+	self ensureDevelopmentVersionIsBaseline.
 		
 	workflow updateDevelopment.

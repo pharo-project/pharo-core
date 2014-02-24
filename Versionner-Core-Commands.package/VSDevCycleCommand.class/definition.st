@@ -1,4 +1,4 @@
-VSCommand subclass: #VSDevCycleCommands
+VSCommand subclass: #VSDevCycleCommand
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

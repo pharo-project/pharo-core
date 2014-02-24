@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '12835 NBExternalArray ofType: bool is wrong
+update30779
+	"self new update30779"
+	self withUpdateLog: '12835 NBExternalArray ofType: bool is wrong
 	https://pharo.fogbugz.com/f/cases/12835
 
 12955 Wrong name on protocol addition in Nautilus
@@ -17,4 +18,6 @@ commentForCurrentUpdate
 12903 Versionner rewrite of baseline renames project labels and strips off sub project load
 	https://pharo.fogbugz.com/f/cases/12903
 
-'
+'.
+	self loadTogether: self script432 merge: false.
+	self flushCaches.

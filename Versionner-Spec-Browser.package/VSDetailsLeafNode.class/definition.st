@@ -1,4 +1,4 @@
-TreeNodeModel subclass: #VSRequirementsNode
+TreeNodeModel subclass: #VSDetailsLeafNode
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

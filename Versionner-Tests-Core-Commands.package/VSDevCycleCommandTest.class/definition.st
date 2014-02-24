@@ -1,4 +1,4 @@
-TestCase subclass: #VSReleaseDevelopmentVersionCommandTest
+TestCase subclass: #VSDevCycleCommandTest
 	instanceVariableNames: 'version project'
 	classVariableNames: ''
 	poolDictionaries: ''

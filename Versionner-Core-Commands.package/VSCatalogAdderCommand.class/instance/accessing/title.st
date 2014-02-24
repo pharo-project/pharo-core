@@ -1,2 +1,2 @@
 title
-	^ 'Add catalog methods'
+	^ 'add catalog methods'
