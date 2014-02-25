@@ -1,5 +1,5 @@
 printOn: aStream
 	aStream 
-		nextPutAll: 'a ProfStef Tutorial (';
+		nextPutAll: 'a Pharo Tutorial (';
 		nextPutAll: self class title;
 		nextPutAll: ')'.    

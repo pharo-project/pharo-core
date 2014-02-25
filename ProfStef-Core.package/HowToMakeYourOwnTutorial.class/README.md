@@ -1,1 +1,1 @@
-I'm a ProfStef tutorial which teach to create a ProfStef tutorial. Open me withProfStef goOn: HowToMakeYourOwnTutorial.
+I'm a Pharo tutorial which teach to create a Pharo tutorial. Open me withPharoTutorial goOn: HowToMakeYourOwnTutorial.

@@ -1,1 +1,0 @@
-The default ProfStef tutorial to learn Smalltalk syntax

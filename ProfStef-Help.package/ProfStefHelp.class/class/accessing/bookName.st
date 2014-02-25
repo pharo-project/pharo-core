@@ -1,2 +1,0 @@
-bookName 
-	^ 'ProfStef'

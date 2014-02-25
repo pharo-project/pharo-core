@@ -8,7 +8,7 @@ allMethodsWithSourceString: aString matchCase: caseSensitive
 	addComment := [ :mrClass | list add: (RGCommentDefinition realClass: mrClass)].
 										
 	'Searching all source code...'
-		displayProgressFrom: 0 to: Smalltalk globals classNames size
+		displayProgressFrom: 0 to: (2*Smalltalk globals classAndTraitNames size)
 		during: [:bar | | count |
 			count := 0.
 			self allBehaviorsDo: [:each |

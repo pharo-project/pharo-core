@@ -1,0 +1,2 @@
+tearDown
+	PharoTutorial default close

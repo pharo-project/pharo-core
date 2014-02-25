@@ -1,2 +1,0 @@
-go
-	^ self goOn: SmalltalkSyntaxTutorial.

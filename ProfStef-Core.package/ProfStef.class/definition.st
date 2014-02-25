@@ -1,5 +1,5 @@
-Object subclass: #ProfStef
-	instanceVariableNames: 'lessonView player'
+PharoTutorial subclass: #ProfStef
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'ProfStef-Core'

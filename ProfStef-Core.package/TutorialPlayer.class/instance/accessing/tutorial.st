@@ -1,2 +1,2 @@
 tutorial
-	^ tutorial  ifNil: [tutorial := SmalltalkSyntaxTutorial new]
+	^ tutorial  ifNil: [tutorial := PharoSyntaxTutorial new]

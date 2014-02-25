@@ -2,7 +2,8 @@ addSpecialFields: elements
 	elements add: (DynamicEyeElement 
 		host: self object 
 		label: 'hex bytes' 
-		value: [ self objectAsHexBytes ]).
+		description: [ self objectAsHexBytes ]
+		value: [ self object ]).
 	elements add: (DynamicEyeElement 
 		host: self object 
 		label: 'hex string' 

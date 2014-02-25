@@ -33,4 +33,4 @@ addSpecialFields: elements
 	elements add: (DynamicEyeElement 
 		host: self object 
 		label: 'utc' 
-		value: [ self object asUTC asString ])
+		value: [ self object asUTC ])
