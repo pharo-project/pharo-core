@@ -1,11 +1,5 @@
 commentForCurrentUpdate
- ^ '12458 PointerExplorer MNU MenuMorph>>addGroup:
-	https://pharo.fogbugz.com/f/cases/12458
-
-12211 Special #inform: in headless mode no longer required
-	https://pharo.fogbugz.com/f/cases/12211
-
-12985 Sometimes multi-selection is lost on trees
-	https://pharo.fogbugz.com/f/cases/12985
+ ^ '12601 Can not split Packages
+	https://pharo.fogbugz.com/f/cases/12601
 
 '

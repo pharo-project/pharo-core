@@ -1,0 +1,2 @@
+demoteSelectedPackageAsPackageWithTag
+	self subclassResponsibility

@@ -37,6 +37,20 @@ packagesMenu: aBuilder
 		order: 1250;
 		help: 'Run tests';
 		withSeparatorAfter.
+	
+	(aBuilder item: #'Promote as package')
+		action: [ target promoteSelectedPackageTagAsPackage ];
+		enabled: package isPackageTag;
+		order: 1260;
+		help: 'Promote this package tag as one package'.
+		
+	(aBuilder item: #'Demote to package with tag')
+		action: [ target demoteSelectedPackageAsPackageWithTag  ];
+		enabled: (package isPackageTag not and: [ package name includes: $- ]);
+		order: 1261;
+		help: 'Downgrade this package as one package with a tag';
+		withSeparatorAfter.
+		
 		
 	(aBuilder item: #'File Out')
 		action: [target fileOutPackage];

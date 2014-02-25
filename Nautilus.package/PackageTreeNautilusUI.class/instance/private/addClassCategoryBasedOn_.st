@@ -11,6 +11,7 @@ addClassCategoryBasedOn: aSelection
 	[ (self isValidPackageName: name)
 		ifTrue: [ packageTag := package addClassTag: name ]
 		ifFalse: [ self alertInvalidPackageName: name ] ]
-	on: RPackageConflictError do: [ :e | UIManager default inform: e messageText ].
+	on: RPackageConflictError 
+	do: [ :e | UIManager default inform: e messageText, '. You need to use promote/demote options instead.' ].
 	
 	^ packageTag

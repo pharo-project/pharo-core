@@ -1,0 +1,3 @@
+isPackageTag
+
+	^ true

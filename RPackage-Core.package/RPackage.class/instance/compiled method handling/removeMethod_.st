@@ -1,13 +1,16 @@
 removeMethod: aCompiledMethod 
 	"Remove the method to the receiver as a defined method."
-
-	| mr mthClass |
-	mthClass := aCompiledMethod methodClass. 
-	mthClass isMeta
+	|  methodClass |
+	
+	methodClass := aCompiledMethod methodClass. 
+	methodClass isMeta
 		ifTrue: [
-			self removeSelector: aCompiledMethod selector ofMetaclassName: mthClass theNonMetaClass originalName.
-		]
+			self 
+				removeSelector: aCompiledMethod selector 
+				ofMetaclassName: methodClass theNonMetaClass originalName ]
 		ifFalse: [
-			self removeSelector: aCompiledMethod selector ofClassName: mthClass originalName.
-		].
+			self 
+				removeSelector: aCompiledMethod selector 
+				ofClassName: methodClass originalName ].
+
 	^ aCompiledMethod.

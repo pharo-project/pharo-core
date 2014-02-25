@@ -13,8 +13,8 @@ testIsDirty
 		poolDictionaries: ''
 		category: 'FooBarZork'.
 		
-	self deny: (package isDirty).
-	self assert: (package printString =  'FooBarZork ---').
+	self assert: (package isDirty).
+	"self assert: (package printString =  'FooBarZork ---')."
 
 	(Smalltalk includesKey: #TMPClass)
 		ifTrue: [ (Smalltalk at: #TMPClass) removeFromSystem ].

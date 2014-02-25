@@ -28,10 +28,10 @@ packagesFixMenu: aBuilder
 		order: 200;
 		help: 'Add a package'.
 		
-	(aBuilder item: #'Add category...')
+	(aBuilder item: #'Add tag...')
 		action: [ target addClassCategory ];
 		order: 210;
-		help: 'Add a category in package';
+		help: 'Add a tag/category in package';
 		withSeparatorAfter.
 		
 	(aBuilder item: #'Browse full')
