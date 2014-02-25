@@ -9,8 +9,8 @@ startDrag: anEvent
 		ifTrue: [^ self].
 	itemMorph highlightForMouseDown: false.
 	
-	itemMorph ~= self listManager selectedMorph
-		ifTrue: [self listManager setSelectedMorph: itemMorph].
+	(self listManager selectedMorphList includes: itemMorph)
+		ifFalse: [self listManager setSelectedMorph: itemMorph].
 		
 	passenger := self model dragPassengerFor: itemMorph inMorph: self.
 	passenger

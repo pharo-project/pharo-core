@@ -12,7 +12,5 @@ inform: aString
 			nextPutAll: aString; cr;
 			nextPutAll: (String new: 79 withAll: $= ); cr].
 
-	Smalltalk logDuring: logBlock.
-	self logYellowDuring: logBlock.
-		
-	Transcript show: aString; cr.
+	Smalltalk logDuring: logBlock.		
+	aString logCr.

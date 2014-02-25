@@ -6,7 +6,7 @@ buildMenuForSelection: aMenu
 	element := SelfEyeElement host: self object.
 	
 	element mainInspectSubMenu: aMenu.
-	element inspectionMenu: aMenu.
+	self addTo:aMenu fromMenuModelOf:element.
 		
 	aMenu addLine;
 		add: 'monitor changes'
