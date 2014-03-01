@@ -7,6 +7,6 @@ is: anMTProject equalsTo: anOtherMTProject
 	[ true ] whileTrue: [ | referenceElement elementToCompare |
 			referenceElement := referenceModelIterator next.
 			elementToCompare := modelToCompareIterator next.
-			(referenceModelIterator next = modelToCompareIterator next) 
+			(referenceElement = elementToCompare ) 
 				ifFalse: [ ^false ].
 			referenceModelIterator hasNext ifFalse: [ ^true ]  ]

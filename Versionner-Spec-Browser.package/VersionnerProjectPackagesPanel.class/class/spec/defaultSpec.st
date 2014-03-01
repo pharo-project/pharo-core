@@ -9,8 +9,7 @@ defaultSpec
 						add: #addPackageButton;
 						add: #removePackageButton;
 						add: #editPackageButton;
-						add: #savePackageButton;
-						add: #packageChangesButton]
+						add: #savePackageButton]
 					height: 25;
 				add: #packages
 		];"
@@ -19,7 +18,6 @@ defaultSpec
 		add: #addPackageButton origin: 1/4@0 corner: 2/4@0 offsetOrigin: 0@0 offsetCorner: 0@25;
 		add: #removePackageButton origin: 2/4@0 corner: 3/4@0 offsetOrigin: 0@0 offsetCorner: 0@25;
 		add: #editPackageButton origin: 3/4@0 corner: 4/4@0 offsetOrigin: 0@0 offsetCorner: 0@25;
-		"add: #savePackageButton origin: 4/6@0 corner: 5/6@0 offsetOrigin: 0@0 offsetCorner: 0@25;
-		add: #packageChangesButton origin: 5/6@0 corner: 1@0 offsetOrigin: 0@0 offsetCorner: 0@25;"
+		"add: #savePackageButton origin: 4/6@0 corner: 5/6@0 offsetOrigin: 0@0 offsetCorner: 0@25;"
 		add: #packagesList origin: 0@0 corner: 1@1 offsetOrigin: 0@25 offsetCorner: 0@0;
 	yourself.

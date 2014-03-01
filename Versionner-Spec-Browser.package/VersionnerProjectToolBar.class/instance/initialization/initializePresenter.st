@@ -1,7 +1,9 @@
 initializePresenter
 	"Initialize widgets behavior"
 
-	updateButton action: [ self executeWithDevWorkflow: VSUpdateDevelopmentVersionCommand ].
+	updateButton action: [  self browser hasChanges 
+								ifTrue: [ self executeWithDevWorkflow: VSUpdateDevelopmentVersionCommand ]
+								ifFalse: [ UIManager default inform: 'Nothing to save' ] ].
 	
 	releaseButton action: [ self executeWithDevWorkflow: VSReleaseDevelopmentVersionCommand ].
 	

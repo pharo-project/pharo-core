@@ -3,7 +3,9 @@ remove: aDependency fromGroup: aGroup
 
 	aDependency
 		ifNotNil: [ 
-			(UIManager default confirm: 'Are your sure you want to remove ', aDependency label: 'Remove a group')
+			(UIManager default 
+					confirm: 'Are your sure you want to remove ', aDependency asString
+					label: 'Remove a group')
 				ifTrue: [ 
 					aGroup
 						ifNil: [ project removeDependencyNamed: aDependency name ]

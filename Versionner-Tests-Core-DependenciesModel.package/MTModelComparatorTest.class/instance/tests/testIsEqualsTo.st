@@ -1,22 +1,26 @@
 testIsEqualsTo
 	| projectA projectB |
 	
-	projectA := MTProjectExampleBuilder projectA.
-	projectB := MTProjectExampleBuilder projectA.
+	projectA := self referenceModel.
+	projectB := self referenceModel.
 	self deny: projectA == projectB.
 	self assert: (MTModelComparator is: projectA equalsTo: projectB).
 	
 	projectB removeDependencyNamed: 'PackageA2'.
 	self deny: (MTModelComparator is: projectA equalsTo: projectB).
 	
-	projectB := MTProjectExampleBuilder projectA.
+	projectB :=self referenceModel.
 	projectB removeDependencyNamed: 'LibXYZ'.
 	self deny: (MTModelComparator is: projectA equalsTo: projectB).
 
-	projectB := MTProjectExampleBuilder projectA.
+	projectB := self referenceModel.
 	projectB removeDependencyNamed: 'All'.
 	self deny: (MTModelComparator is: projectA equalsTo: projectB).
 
-	projectB := MTProjectExampleBuilder projectA.
+	projectB := self referenceModel.
 	(projectB dependencyNamed: 'All') removeDependency: (projectB dependencyNamed: 'SmallGroup').
+	self deny: (MTModelComparator is: projectA equalsTo: projectB).
+	
+	projectB := self referenceModel.
+	(projectB dependencyNamed: 'LibXYZ') addDependency: 'Core'.
 	self deny: (MTModelComparator is: projectA equalsTo: projectB).

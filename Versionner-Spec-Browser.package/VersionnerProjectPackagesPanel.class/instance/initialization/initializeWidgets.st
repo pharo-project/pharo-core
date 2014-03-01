@@ -43,7 +43,3 @@ initializeWidgets
 		icon: (Smalltalk ui icons iconNamed: #smallSaveIcon);
 		enabled: false;
 		help: 'Save the selected package'.
-	
-	packageChangesButton  := self instantiate: ButtonModel .
-	packageChangesButton label: 'changes'.
-	

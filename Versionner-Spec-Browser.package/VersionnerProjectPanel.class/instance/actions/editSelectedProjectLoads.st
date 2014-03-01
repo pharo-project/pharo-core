@@ -3,7 +3,7 @@ editSelectedProjectLoads
 	
 	| selectedProject editionWidget |
 
-	selectedProject := projectList selectedItem content.
+	selectedProject := self projectBoundToSelection.
 	selectedProject ifNil: [ ^self ].
 	editionWidget := (EditableList new: selectedProject dependencies) 
 		title: selectedProject name , ' load directives';
