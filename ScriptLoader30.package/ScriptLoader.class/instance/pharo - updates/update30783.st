@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '12997 Class comment missing for package PackageInfo
+update30783
+	"self new update30783"
+	self withUpdateLog: '12997 Class comment missing for package PackageInfo
 	https://pharo.fogbugz.com/f/cases/12997
 
 12952 Context menu for dependentProjcts gives DNU for a new project
@@ -17,4 +18,6 @@ commentForCurrentUpdate
 13015 Fix MessageBrowser button size
 	https://pharo.fogbugz.com/f/cases/13015
 
-'
+'.
+	self loadTogether: self script436 merge: false.
+	self flushCaches.

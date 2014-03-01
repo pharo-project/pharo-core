@@ -1,1 +1,1 @@
-A PackageOrganizer is xxxxxxxxx.Instance Variables	packages:		<Object>packages	- xxxxx
+The package organizer. Access using   PackageOrganizer default

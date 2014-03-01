@@ -6,6 +6,6 @@ testSpec
 				col 
 					add: #listModel;
 					addSplitter;
-					add: #toolbarModel height: 25;
+					add: #toolbarModel height: self buttonHeight;
 					add: #textModel ]
 				

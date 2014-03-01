@@ -1,3 +1,6 @@
 instanceLike: aDefinition
-	Instances ifNil: [Instances := WeakSet new].
-	^ (Instances like: aDefinition) ifNil: [Instances add: aDefinition]
+	Instances ifNil: [ Instances := WeakSet new ].
+	InstancesWriteLock ifNil: [ InstancesWriteLock := Semaphore forMutualExclusion ].
+	^ (Instances like: aDefinition) 
+		ifNil: [
+			InstancesWriteLock critical: [ Instances add: aDefinition ]]
