@@ -8,7 +8,7 @@ testSearchForClass
 		instanceVariableNames: ''
 		classVariableNames: ''
 		poolDictionaries: ''
-		category: 'KernelTests-Methods'.
+		category: self categoryNameForTemporaryClasses.
 	cls compile: 'foo ^ 10'.
 	method := cls >> #foo.
 	Smalltalk removeClassNamed: #TUTU.
