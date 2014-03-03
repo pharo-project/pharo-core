@@ -5,4 +5,4 @@ addClass
 				superclass: Object
 				subclasses: #()
 				category: class category).
-	newClass := self model classNamed: newClassName
+	newClass := self model classNamed: newClassName asSymbol
