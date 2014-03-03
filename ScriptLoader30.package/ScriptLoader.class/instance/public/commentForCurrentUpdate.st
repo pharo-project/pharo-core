@@ -1,11 +1,10 @@
 commentForCurrentUpdate
- ^ '13021 ClassTest>>#testRenaming is failing - make temporary package consistent across ClassTest and CompiledMethodTest
-	https://pharo.fogbugz.com/f/cases/13021
+ ^ '13016 Skip KernelTests.Methods.BlockClosureTest.testOnForkSplit
+	https://pharo.fogbugz.com/f/cases/13016
 
-12920 Primitive Pragma not parsed in all cases, error code not supported
-	https://pharo.fogbugz.com/f/cases/12920
+12907 TreeInspector a MetacelloMCProject gives Error: Name not found: Example-AddOn
+	https://pharo.fogbugz.com/f/cases/12907
 
-12996 ClassTest>>#testRenaming leaves dirty package Dummy-Tests-Class behind
-	https://pharo.fogbugz.com/f/cases/12996
-
+13033 LargeInteger are not compact classes any more
+	https://pharo.fogbugz.com/f/cases/13033
 '

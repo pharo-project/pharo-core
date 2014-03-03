@@ -6,8 +6,8 @@ updateList
 	elements := self generateElements.
 	"first reset the items to make sure we don't interfere with the display block"
 	self list items: #().
-	self list displayBlock: [ :e :index | 
-		(elements at: index ifAbsent: [ InstanceVariableEyeElement host: nil ]) label ].
+	self list displayBlock: [ :eyeElement :index | 
+		self labelFor: (elements at: index ifAbsent: [ InstanceVariableEyeElement host: nil ])].
 	self list items: elements.
 	
 	self list menu: [ :aMenu | 
