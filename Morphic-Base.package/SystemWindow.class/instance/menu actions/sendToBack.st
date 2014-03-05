@@ -1,8 +1,8 @@
 sendToBack
-	| aWorld |
-	aWorld := self world.
-	aWorld submorphs
-		detect: [ :m | m isSystemWindow and: [ m ~~ self ] ]
-		ifFound: [ :nextWindow | 
-			nextWindow activate.
-			aWorld addMorphBack: self ]
+    "Relies on #submorphs array being ordered top to bottom."
+	| otherSystemWindows |
+	otherSystemWindows := self world submorphs select: [ :morph | morph isSystemWindow and: morph ~~ self ].
+	otherSystemWindows ifNotEmpty: 
+	[	otherSystemWindows first activate.
+		self world addMorph: self behind: otherSystemWindows last. 
+	].
