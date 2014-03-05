@@ -1,14 +1,8 @@
 commentForCurrentUpdate
- ^ '13006 Browsers do not synchronize class definitions
-	https://pharo.fogbugz.com/f/cases/13006
+ ^ '13045 Integer>>#printSeparatedBy:every:signed:base:on: does not respect the given delimiter
+	https://pharo.fogbugz.com/f/cases/13045
 
-13032 Transcript red screen of death
-	https://pharo.fogbugz.com/f/cases/13032
-
-13046 Error when browsing a Traits class-side in Monticello Browser
-	https://pharo.fogbugz.com/f/cases/13046
-
-13005 SystemWindow>>sendToBack should only consider other SystemWindows
-	https://pharo.fogbugz.com/f/cases/13005
+13040 Spec update
+	https://pharo.fogbugz.com/f/cases/13040
 
 '

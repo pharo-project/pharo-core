@@ -6,4 +6,4 @@ subMenu
 	
 	^ (subMenu isBlock or: [ subMenu isMessageSend ])
 		ifTrue: [ subMenu cull: self model ]
-		ifFalse: [ subMenu buildWithSpec ]
+		ifFalse: [ subMenu buildWithSpecAsPopup ]

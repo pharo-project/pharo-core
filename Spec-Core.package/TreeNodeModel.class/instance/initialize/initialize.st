@@ -3,6 +3,7 @@ initialize
 	super initialize.
 
 	children := [ self container childrenFor: self content ] asReactiveVariable.
+	hasChildren := [ self container hasChildrenFor: self content ] asReactiveVariable.
 	content := nil asReactiveVariable.
 	icon := nil asReactiveVariable.
 	container := nil asReactiveVariable.

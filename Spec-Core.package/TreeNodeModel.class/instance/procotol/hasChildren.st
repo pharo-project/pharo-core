@@ -1,0 +1,3 @@
+hasChildren
+
+	^ hasChildren value
