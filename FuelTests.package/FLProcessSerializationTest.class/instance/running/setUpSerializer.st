@@ -1,0 +1,2 @@
+setUpSerializer
+	^ serializer := FLDelayedSerializerMock newDefault

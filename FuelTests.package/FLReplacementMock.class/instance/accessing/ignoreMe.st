@@ -1,0 +1,2 @@
+ignoreMe
+	^ ignoreMe := true

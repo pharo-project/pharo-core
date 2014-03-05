@@ -2,7 +2,7 @@ testChangeInSuperclass
 	"Tests that serializer tolarates when there is a change in the superclass between serialization and materialization"
 	
 	|  aClass aClassSubclass instance materializedInstance |	
-		
+	
 	aClass := self newClassWithInstanceVariableNames: 'a b c' superclass: Object.
 	aClassSubclass := self newClassWithInstanceVariableNames: 'd e' superclass: aClass.
 	

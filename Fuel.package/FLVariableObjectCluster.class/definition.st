@@ -1,5 +1,5 @@
 FLPointerObjectCluster subclass: #FLVariableObjectCluster
-	instanceVariableNames: ''
+	instanceVariableNames: 'variableReferences'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Fuel-Clusters'

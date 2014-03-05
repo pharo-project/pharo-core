@@ -1,5 +1,7 @@
-classNamed: className
-	^ migrations
-		detect: [ :m | m sourceClassName = className ]
-		ifFound: [ :migration | migration targetClass ]
-		ifNone: [ self globalClassNamed: className ]
+classNamed: className 
+
+	^ (migrations
+		detect: [:m | m sourceClassName = className ]
+		ifNone: [ ^ self globalClassNamed: className ])
+		targetClass.
+		

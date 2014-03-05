@@ -1,0 +1,2 @@
+fuelReplacement
+	^ self

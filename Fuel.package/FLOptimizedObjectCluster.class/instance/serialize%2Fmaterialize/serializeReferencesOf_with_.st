@@ -1,2 +1,3 @@
 serializeReferencesOf: anObject with: anEncoder
-	^ self subclassResponsibility 
+	(self references at: anObject ifAbsent: [ ^ self ]) do: [ :value |
+		anEncoder encodeReferenceTo: value ]

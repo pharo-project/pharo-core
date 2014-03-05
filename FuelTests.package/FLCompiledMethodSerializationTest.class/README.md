@@ -1,0 +1,1 @@
+A FLCompiledMethodSerializationTest is xxxxxxxxx.Instance Variables	theClass:		<Object>	theCompiledMethod:		<Object>theClass	- xxxxxtheCompiledMethod	- xxxxx

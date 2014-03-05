@@ -1,5 +1,5 @@
 FLCluster subclass: #FLIteratingCluster
-	instanceVariableNames: 'objects'
+	instanceVariableNames: 'objects references'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Fuel-Clusters'
