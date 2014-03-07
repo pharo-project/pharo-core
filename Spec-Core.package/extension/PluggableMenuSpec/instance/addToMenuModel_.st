@@ -2,7 +2,7 @@ addToMenuModel: aMenuModel
 	| groups tmp |
 	
 	groups := OrderedCollection new.
-	aMenuModel title: self label.
+	self label ifNotNil: [ aMenuModel title: self label ]. "only change the title when a new one is specified"
 	
 	tmp := OrderedCollection new.
 	self items do: [ :each | 

@@ -1,9 +1,15 @@
 compile
 	| cm |
-	[ast := self parse.
-	self doSemanticAnalysis. 
-	cm := ast generate: self compilationContext compiledMethodTrailer ]
-		on: SyntaxErrorNotification 
+	[ 	[	ast := self parse.
+			self doSemanticAnalysis. 
+		] 	on: OCSourceCodeChanged 
+			do: 
+			[  	:notification | 
+				self source: notification newSourceCode. 
+				notification retry. 
+			]. 
+		cm := ast generate: self compilationContext compiledMethodTrailer 
+	]	on: SyntaxErrorNotification 
 		do: [ :exception | 
 			self compilationContext requestor
                 ifNotNil: [
