@@ -1,0 +1,1 @@
+storeInstVar: index

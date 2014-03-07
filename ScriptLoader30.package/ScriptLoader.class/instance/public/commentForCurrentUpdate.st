@@ -1,11 +1,9 @@
 commentForCurrentUpdate
- ^ '13043 losing menu title when building menus with spec
-	https://pharo.fogbugz.com/f/cases/13043
+ ^ '13053 Sync image with repo
+	https://pharo.fogbugz.com/f/cases/13053
 
-12954 Workspace Undeclared variable change broken: missing TextMorphForEditView>>#setText:
-	https://pharo.fogbugz.com/f/cases/12954
-
-13049 Dragging and dropping a class to another package fails: #MNU receiver of includesCategory: is nil
-	https://pharo.fogbugz.com/f/cases/13049
-
-'
+13002 StoreInstVar: is missing in IRPrinter
+	https://pharo.fogbugz.com/f/cases/13002
+	
+13003 Opal cannot optimize twice an IRMethod
+	https://pharo.fogbugz.com/f/cases/13003'
