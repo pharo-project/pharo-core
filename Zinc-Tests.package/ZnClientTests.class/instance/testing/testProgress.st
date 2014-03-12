@@ -1,10 +1,15 @@
 testProgress
-	"UIManager default informUserDuring: [ :bar |
-		[ ^ ZnClient new
-				signalProgress: true;
-				get: 'http://zn.stfx.eu/echo?delay=2' ]
+	"[ :bar |
+		bar title: 'Downloading Sources...'.
+		[
+			ZnClient new 
+				url: 'http://files.pharo.org/image/PharoV20.sources'; 
+				signalProgress: true;	
+				downloadTo: FileLocator temp ]
 			on: HTTPProgress 
-			do: [ :progress | bar value: progress printString. progress resume ] ]"
+			do: [ :progress |
+				progress isEmpty ifFalse: [ bar current: progress percentage ]. 
+				progress resume ] ] asJob run."
 		
 	self 
 		should: [ 

@@ -1,5 +1,10 @@
 runningOnWindowsInriaCI
 	| platform ci |
+	self runningOnWindows
+		ifFalse: [ ^ false ].
+	^ [ 
 	platform := OSPlatform current.
 	ci := platform environment at: #CI ifAbsent: [ '' ].
-	^ platform isWindows and: [ ci = 'ci.inria.fr' ]
+	ci = 'ci.inria.fr' ]
+		on: MessageNotUnderstood
+		do: [ false ]

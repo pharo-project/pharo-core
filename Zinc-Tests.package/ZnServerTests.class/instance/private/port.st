@@ -1,2 +1,2 @@
 port
-	^ 1700 + 10 atRandom
+	^ 1700 + 32 atRandom

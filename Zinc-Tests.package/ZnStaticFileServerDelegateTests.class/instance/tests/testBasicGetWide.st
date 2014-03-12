@@ -10,7 +10,7 @@ testBasicGetWide
 		self assert: client contents equals: self wideHtml.
 		self 
 			assert: (ZnUtils parseHttpDate: (client response headers at: 'Modification-Date'))
-			equals: (ZnFileSystemUtils modificationTimeFor: 'large.html') asUTC asTimeStamp.
+			equals: (ZnFileSystemUtils modificationTimeFor: 'large.html') asUTC.
 		self 
 			assert: (ZnUtils parseHttpDate: (client response headers at: 'Expires')) > (DateAndTime now + 10 days).
 		self 

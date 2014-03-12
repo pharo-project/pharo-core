@@ -1,8 +1,11 @@
 evaluate: string
 	| output |
 	output := String streamContents: [ :out | 
-		[ 	| result |
-			result := self class compiler evaluate: string. 
+		[ 	| compiler result |
+			compiler := [ self class compiler ] 
+								on: MessageNotUnderstood 
+								do: [ Compiler ].		
+			result := compiler evaluate: string. 
 			out print: result; cr ]
 			on: Error, ParserNotification
 			do: [ :exception |
