@@ -10,5 +10,5 @@ duplicateClassWithNewName: aSymbol
 	class classSide instanceVariableNames: self classSide instanceVariablesString.
 	class copyAllCategoriesFrom: self.
 	class class copyAllCategoriesFrom: self class.
-	class comment: self comment stamp: self organization commentStamp.
+	self hasComment ifTrue: [ class comment: self comment stamp: self organization commentStamp ].
 	^ class
