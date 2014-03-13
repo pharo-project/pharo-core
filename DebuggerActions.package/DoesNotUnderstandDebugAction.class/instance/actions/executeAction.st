@@ -15,4 +15,5 @@ executeAction
 		implement: msg 
 		classified: msgCategory 
 		inClass: chosenClass 
-		forContext: self interruptedContext
+		forContext: self interruptedContext.
+	self debugger selectTopContext

@@ -3,6 +3,5 @@ openModal: aSystemWindow
 	Set the pane color to match the current theme.
 	Answer the system window."
 	
-	aSystemWindow
-		setWindowColor: self theme windowColor.
-	^super openModal: aSystemWindow
+	aSystemWindow setWindowColor: self theme windowColor.
+	^ super openModal: aSystemWindow

@@ -1,8 +1,8 @@
 commentForCurrentUpdate
- ^ '13019 Browser method-pane menuitem [Add breakpoint] corrupts debugger stepping behavior
-	https://pharo.fogbugz.com/f/cases/13019
+ ^ '12658 Debugger: Create Method not from DNU Context
+	https://pharo.fogbugz.com/f/cases/12658
 
-12294 Copying class copies comment template
-	https://pharo.fogbugz.com/f/cases/12294
+12697 UIManager Merge Support
+	https://pharo.fogbugz.com/f/cases/12697
 
 '
