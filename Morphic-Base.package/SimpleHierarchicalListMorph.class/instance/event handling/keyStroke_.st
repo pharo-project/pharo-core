@@ -6,6 +6,7 @@ keyStroke: event
 	event anyModifierKeyPressed ifFalse: [
 		self basicKeyPressed: aCharacter.
 		^false].
+	(self scrollByKeyboard: event) ifTrue: [^true].
 	keystrokeActionSelector isNil ifTrue: [^false].
 	(args := keystrokeActionSelector numArgs) = 1 
 		ifTrue: [^model perform: keystrokeActionSelector with: aCharacter].

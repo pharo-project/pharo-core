@@ -16,7 +16,7 @@ parseFrom: string defaultScheme: defaultScheme
 			start := index + 3 ]
 		ifFalse: [ 
 			((index := string indexOf: $:) > 0 
-					and: [ self class schemesNotUsingDoubleSlash includes: (string copyFrom: 1 to: index - 1) ])
+					and: [ self isSchemeNotUsingDoubleSlash: (string copyFrom: 1 to: index - 1) ])
 				ifTrue: [ 
 					self scheme: (string copyFrom: 1 to: index - 1).
 					start := index + 1 ]

@@ -1,11 +1,9 @@
 testAbsoluteFILE3
 	"Just a few selected tests for FileUrl, not complete by any means."
 
-
-	{'file:'. 'file:/'. 'file://'} do: [:s |
-	 	url := s asUrl.
-		self assert: (url asString = 'file:///').
-		self deny: url hasHost ].
+	url := 'file://' asUrl.
+	self assert: (url asString = 'file:///').
+	self deny: url hasHost.
 	
 	url := 'file://localhost/dir/file.txt' asUrl.
 	self assert: (url asString = 'file://localhost/dir/file.txt').
