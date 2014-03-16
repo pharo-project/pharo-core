@@ -1,0 +1,2 @@
+inspectorClass
+	^ EyeStringInspector

@@ -1,7 +1,6 @@
 classDefinitionModified: anAnnouncement 
 
 	| class |
-	self haltOnce.
 	window ifNil: [^ self ].
 	window isDisplayed ifFalse: [ ^ self ].
 	class := anAnnouncement oldClassDefinition. 

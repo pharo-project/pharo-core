@@ -14,5 +14,6 @@ initialize
 			collect: [ :each | KomitClassNode new
 				content: each;
 				yourself ].
-		self children: [ childrenNode ] ] 
-		
+		self children: [ childrenNode ] ].
+	
+	self hasChildren: [ self isEmpty not ]

@@ -1,0 +1,2 @@
+showClass
+	^ self class showClass

@@ -8,4 +8,6 @@ initialize
 	
 	self whenContentChanged: [ :c |
 		self silentWhile: [ self selected: c selected ].
-		self isExpanded: c expanded ]
+		self isExpanded: c expanded ].
+
+	self hasChildren: [ self children value isEmptyOrNil not ]
