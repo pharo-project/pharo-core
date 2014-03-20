@@ -2,13 +2,19 @@ arrowEvent: event key: aChar
 	"Handle a keyboard navigation character. Answer true if handled, false
 	if not."
 	| newIndex targetMorph targetIndex multi |
-	self allNodeMorphs
-		ifEmpty: [^ false].
+	
+	self allNodeMorphs ifEmpty: [ ^ false].
+	
 	newIndex := nil.
 	targetMorph := lastClickedMorph.
+	"Give the oportunity to model to handle the keystroke event. 
+	 This is an ugly HACK due to the lack of proper key handling... but I can live with it for now"
+	(self listModel arrowEvent: event key: aChar target: targetMorph)
+		ifTrue:  [ ^  true ].
+
 	targetIndex := targetMorph
-				ifNil: [0]
-				ifNotNil: [targetMorph index].
+		ifNil: [ 0 ]
+		ifNotNil: [ targetMorph index ].
 	multi := (event shiftPressed and: [self isMultiple]) or: [self autoMultiSelection].
 	aChar = Character arrowDown
 		ifTrue: [newIndex := targetIndex + 1].
@@ -29,7 +35,7 @@ arrowEvent: event key: aChar
 				ifTrue: [
 					self toggleExpandedState: targetMorph.
 					^ true]
-				ifFalse: [newIndex := targetIndex + 1]].
+				ifFalse: [ newIndex := targetIndex + 1 ] ].
 	aChar = Character arrowLeft
 		ifTrue: [
 			targetMorph ifNil: [^ false].
