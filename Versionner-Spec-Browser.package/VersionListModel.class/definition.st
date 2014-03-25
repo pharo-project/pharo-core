@@ -1,5 +1,5 @@
 IconListModel subclass: #VersionListModel
-	instanceVariableNames: 'okToChange changedBlock'
+	instanceVariableNames: 'okToChange changedBlock selectionVersionString'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Versionner-Spec-Browser'

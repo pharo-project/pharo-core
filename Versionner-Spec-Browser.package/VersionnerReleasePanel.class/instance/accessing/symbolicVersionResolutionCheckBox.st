@@ -1,0 +1,2 @@
+symbolicVersionResolutionCheckBox
+	^ symbolicVersionResolutionCheckBox

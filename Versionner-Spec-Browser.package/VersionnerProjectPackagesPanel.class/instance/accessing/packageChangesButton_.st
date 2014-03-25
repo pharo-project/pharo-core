@@ -1,2 +1,0 @@
-packageChangesButton: anObject
-	packageChangesButton := anObject

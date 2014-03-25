@@ -9,4 +9,5 @@ is: anMTProject equalsTo: anOtherMTProject
 			elementToCompare := modelToCompareIterator next.
 			(referenceElement = elementToCompare ) 
 				ifFalse: [ ^false ].
-			referenceModelIterator hasNext ifFalse: [ ^true ]  ]
+			referenceModelIterator hasNext 
+				ifFalse: [ ^ modelToCompareIterator hasNext not ]  ]

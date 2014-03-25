@@ -24,3 +24,9 @@ testIsEqualsTo
 	projectB := self referenceModel.
 	(projectB dependencyNamed: 'LibXYZ') addDependency: 'Core'.
 	self deny: (MTModelComparator is: projectA equalsTo: projectB).
+	
+	projectA := MTProjectExampleBuilder projectC.
+	projectB := MTProjectExampleBuilder projectC.
+	(projectB dependencyNamed: 'LibXYZ') addDependency: 'Core'.
+	self deny: (MTModelComparator is: projectA equalsTo: projectB).
+	self deny: (MTModelComparator is: projectB equalsTo: projectA).

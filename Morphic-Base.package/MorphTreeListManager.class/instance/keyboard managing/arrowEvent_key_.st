@@ -9,8 +9,9 @@ arrowEvent: event key: aChar
 	targetMorph := lastClickedMorph.
 	"Give the oportunity to model to handle the keystroke event. 
 	 This is an ugly HACK due to the lack of proper key handling... but I can live with it for now"
-	(self listModel arrowEvent: event key: aChar target: targetMorph)
-		ifTrue:  [ ^  true ].
+	targetMorph ifNotNil: [  
+		(self listModel arrowEvent: event key: aChar target: targetMorph)
+			ifTrue:  [ ^  true ]].
 
 	targetIndex := targetMorph
 		ifNil: [ 0 ]

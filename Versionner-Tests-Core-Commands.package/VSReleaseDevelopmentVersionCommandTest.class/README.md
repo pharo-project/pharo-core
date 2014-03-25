@@ -1,0 +1,1 @@
+A VSReleaseDevelopmentVersionCommandTest is xxxxxxxxx.Instance Variables	classFactory:		<Object>	cmd:		<Object>	project:		<Object>classFactory	- xxxxxcmd	- xxxxxproject	- xxxxx

@@ -1,9 +1,8 @@
-releaseDevelopment: newDevVersionString
-	"Release the development baseline (will give a version method) and prepare the next development baseline."
+releaseDevelopment: versionName
+	"Release the development baseline (will give a version method) with the given version name."
 
-	| devVersionString versionName |
+	| devVersionString |
 	devVersionString := self developmentVersion versionString.
-	versionName :=  self developmentVersionNumber: devVersionString.
 	MetacelloToolBox
 		createVersion: versionName
 		for: project name
@@ -14,10 +13,8 @@ releaseDevelopment: newDevVersionString
 		stableVersion: versionName 
 		for: project name
 		platformAttribute: #common. 
-	"keep the development version pointing to the baseline, and ..."	
+	"keep the development version pointing to the baseline"	
 	self
 		developmentVersion: devVersionString
 		platformAttribute: #common.
-	" ... create the new dev version"
-	self createNextDevelopment: newDevVersionString.
-	self notifyConfigurationModified.
+	self notifyConfigurationModified

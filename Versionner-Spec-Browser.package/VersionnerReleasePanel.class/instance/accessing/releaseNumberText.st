@@ -1,0 +1,2 @@
+releaseNumberText
+	^ releaseNumber text

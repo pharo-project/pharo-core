@@ -1,2 +1,0 @@
-packageChangesButton
-	^ packageChangesButton
