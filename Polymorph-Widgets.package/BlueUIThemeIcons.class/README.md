@@ -1,1 +1,0 @@
-Theme icons for blue UI theme

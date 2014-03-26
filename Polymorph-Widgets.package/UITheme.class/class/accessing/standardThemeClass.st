@@ -1,2 +1,2 @@
 standardThemeClass
-	^ PharoTheme 
+	^ Pharo3Theme 

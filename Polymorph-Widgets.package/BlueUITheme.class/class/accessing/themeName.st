@@ -1,2 +1,0 @@
-themeName
-	^ 'Blue Pharo'

@@ -44,7 +44,23 @@ exampleOtherControls
 			'Alpha'->((dialog newAlphaSelector: fuzzy getAlpha: #alpha setAlpha: #alpha:
 					help: 'The fuzzy label alpha')
 					vResizing: #shrinkWrap;
-					minHeight: 16) } } );
+					minHeight: 16)}.
+		dialog newVerticalSeparator.
+		dialog newTitle: 'Expanders' for: (
+			(dialog newColumn: {
+				(dialog newExpander: 'An Expander' forAll: {
+					dialog newLabel: 'Expanded!'.
+					builder newMorphListFor: (ListModel new items: ((Color red wheel: 15)
+									collect: [:c | Morph new extent: 80@12; color: c]))
+							list: #getList getSelected: #selectedIndex setSelected: #setSelectedIndex:
+							help: 'This is a morph drop list'}) minWidth: 100.
+				dialog newExpander: 'Another' forAll: {
+					dialog newLabel: 'Expanded!'.
+					builder newMorphDropListFor: (ListModel new items: ((Color red wheel: 8)
+									collect: [:c | Morph new extent: 80@12; color: c]))
+							list: #getList getSelected: #selectedIndex setSelected: #setSelectedIndex:
+							help: 'This is a morph drop list'}})
+				cellInset: 0;
+				borderStyle: (BorderStyle inset baseColor: dialog paneColor; width: 1))});
 		model: nil.
-		
-		builder openModal: dialog
+	builder openModal: dialog

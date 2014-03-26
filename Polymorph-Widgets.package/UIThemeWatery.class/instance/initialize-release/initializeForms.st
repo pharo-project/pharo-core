@@ -36,4 +36,9 @@ initializeForms
 		at: #radioButton put: self newRadioButtonForm;
 		at: #radioButtonSelected put: self newRadioButtonSelectedForm;
 		at: #checkbox put: self newCheckboxForm;
-		at: #checkboxSelected put: self newCheckboxSelectedForm
+		at: #checkboxSelected put: self newCheckboxSelectedForm;
+		at: #windowClosePassive put: self newWindowInactiveControlForm;
+		at: #windowMinimizePassive put: self newWindowInactiveControlForm;
+		at: #windowMaximizePassive put: self newWindowInactiveControlForm;
+		at: #windowMenuPassive put: self newWindowMenuPassiveForm;
+		at: #windowMenuOver put: self newWindowMenuOverForm

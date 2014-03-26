@@ -1,1 +1,1 @@
-Examples for different widgets
+Examples for different widgets:WidgetExamples new exampleBasicControlsWidgetExamples new exampleOtherControlsWidgetExamples new exampleColorControlsWidgetExamples new exampleDialogsWidgetExamples new exampleGroupsWidgetExamples new exampleTextEntryWithCompletionDialogWidgetExamples new exampleWindowWithToolbars

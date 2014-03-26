@@ -3,5 +3,5 @@ current
 	WARNING: Direct access to this method is ill-adviced, use Smalltalk ui theme instead."
 
 	^Current ifNil: [
-		Current := PharoTheme newDefault.
+		Current := Pharo3Theme newDefault.
 		Current ]

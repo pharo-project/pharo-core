@@ -10,4 +10,7 @@ initializeForms
 		at: #windowClose put: self newWindowCloseForm;
 		at: #windowMinimize put: self newWindowMinimizeForm;
 		at: #windowMaximize put: self newWindowMaximizeForm;
-		at: #windowMenu put: self newWindowMenuForm
+		at: #windowMenu put: self newWindowMenuForm;
+		at: #windowCloseOver put: self newWindowCloseOverForm;
+		at: #windowMinimizeOver put: self newWindowMinimizeOverForm;
+		at: #windowMaximizeOver put: self newWindowMaximizeOverForm
