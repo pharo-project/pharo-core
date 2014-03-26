@@ -102,17 +102,29 @@ testNumbers
 	self assert: types = #(patternUnary number unary).
 	self assert: tokens = #('x' '1' 'yourself').
 	
-	s := 'x 1s'. 
+	s := 'x 1size'. 
 	types := self tokenTypesIn: s.
 	tokens := self tokensIn: s. 
 	self assert: types = #(patternUnary number unary).
-	self assert: tokens = #('x' '1' 's').
+	self assert: tokens = #('x' '1' 'size').
+	
+	s := 'x 1.1size'. 
+	types := self tokenTypesIn: s.
+	tokens := self tokensIn: s. 
+	self assert: types = #(patternUnary number unary).
+	self assert: tokens = #('x' '1.1' 'size').	
+	
+	s := 'x 1s'. 
+	types := self tokenTypesIn: s.
+	tokens := self tokensIn: s. 
+	self assert: types = #(patternUnary number).
+	self assert: tokens = #('x' '1s').
 	
 	s := 'x 1.1s'. 
 	types := self tokenTypesIn: s.
 	tokens := self tokensIn: s. 
-	self assert: types = #(patternUnary number unary).
-	self assert: tokens = #('x' '1.1' 's').	
+	self assert: types = #(patternUnary number).
+	self assert: tokens = #('x' '1.1s').	
 	
 	s := 'x 2r1e26'. 
 	types := self tokenTypesIn: s.
