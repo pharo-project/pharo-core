@@ -17,10 +17,10 @@ nextScaledDecimal
 								ifFalse: [integerPart asScaledDecimal: 0]].
 			numberOfNonZeroFractionDigits := lastNonZero.
 			numberOfTrailingZeroInFractionPart := nDigits - lastNonZero.
-			self readScale
+			(self readScaleWithDefaultNumberOfDigits: nDigits)
 				ifFalse: ["No scale were provided. use number of digits after decimal point as scale"
 					scale := nDigits].
 			^self makeScaledDecimalWithNumberOfNonZeroFractionDigits: numberOfNonZeroFractionDigits andNumberOfTrailingZeroInFractionPart: numberOfTrailingZeroInFractionPart].
-	self readScale.
+	self readScaleWithDefaultNumberOfDigits: 0.
 	neg	ifTrue: [integerPart := integerPart negated].
 	^integerPart asScaledDecimal: scale
