@@ -9,6 +9,7 @@ buildTextAreaButtonsColumn: aWindow
 		{	self buildSwitchToSourceCodeButton.
 			self buildSwitchToByteCodeButton.
 			self buildSeparator.
+			self buildSeparator.
 			self buildBrowseInstVarsButton.
 			self buildBrowseClassVarsButton} reverse do: [:each | column addMorph: each ].
 	

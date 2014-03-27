@@ -1,9 +1,11 @@
 accepted
-	| symbol |
+	| input |
 	
 	self close.
 	
-	symbol := self model contents trimBoth asSymbol.
-	symbol isEmpty ifTrue: [ ^self ].
+	input := self model contents trimBoth.
+	input isEmpty ifTrue: [ ^self ].
 	
-	self resolveSymbol: symbol
+	input first = $:
+		ifTrue: [ self resolveExpression: input allButFirst ]
+		ifFalse: [ self resolveSymbol: input asSymbol ]

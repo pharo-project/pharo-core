@@ -1,0 +1,2 @@
+showClassVarsButtonLabel
+	^' C'	

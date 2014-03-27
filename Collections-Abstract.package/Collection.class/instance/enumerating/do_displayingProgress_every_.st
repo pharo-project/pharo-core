@@ -18,7 +18,7 @@ do: aBlock displayingProgress: aStringOrBlock every: msecs
 		labelBlock := aStringOrBlock isString
 			ifTrue: [
 				bar label: aStringOrBlock.
-				[ :item | aStringOrBlock]]
+				[ :dummyItem | aStringOrBlock]]
 			ifFalse: [aStringOrBlock].
 		self do: [:each| | newLabel |
 				"Special handling for first and last element"
@@ -27,7 +27,10 @@ do: aBlock displayingProgress: aStringOrBlock every: msecs
 						ifTrue: [ 
 							bar current: count.
 							oldLabel = (newLabel := (labelBlock cull: each) ifNil: [oldLabel]) 
-								ifFalse: [ProgressNotification signal: '' extra: (oldLabel := newLabel)].
+								ifFalse: 
+								[	bar label: newLabel.	
+									ProgressNotification signal: '' extra: (oldLabel := newLabel)
+								].
 				lastUpdate := Time millisecondClockValue ].
                        aBlock value: each.
                        count := count + 1]]

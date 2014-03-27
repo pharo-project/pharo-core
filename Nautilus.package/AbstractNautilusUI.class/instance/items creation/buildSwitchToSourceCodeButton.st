@@ -1,12 +1,8 @@
 buildSwitchToSourceCodeButton
-	
-	^ ( PluggableThreePhaseButtonMorph on: self )
-					actionSelector: # switchToSourceCodeButton;
-					stateSelector: #showSource ;
-					onImage: (Smalltalk ui icons iconNamed: #sourceSelectedIcon);
-					offImage: (Smalltalk ui icons iconNamed: #sourceUnselectedIcon);
-					pressedImage: (Smalltalk ui icons iconNamed: #sourcePressedIcon);	
-					extent: 24@24;
-					state: #on;
-					helpText: 'Show source code';
-					yourself.
+	^ (PluggableButtonMorph
+		on: self 
+		getState: #showSource
+		action: #switchToSourceCodeButton
+		label: #showSourceCodeButtonLabel)  extent: 24@24; 
+		setBalloonText: 'Show source code';
+		yourself

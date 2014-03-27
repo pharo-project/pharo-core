@@ -1,0 +1,2 @@
+showInstanceVarsButtonLabel
+	^' I'	
