@@ -3,4 +3,5 @@ nextPut: anObject
 	receiver. Answer anObject."
 
 	position := position + 1.
+	lastElement := anObject.
 	^anObject

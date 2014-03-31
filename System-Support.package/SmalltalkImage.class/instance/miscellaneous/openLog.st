@@ -4,7 +4,7 @@ openLog
 	we should delegate to it at some point "
 
 	^ (FileStream fileNamed: Smalltalk tools debugger logFileName)
-		ifNil: [ Transcript ]
+		ifNil: [ NullStream new ]
 		ifNotNil: [ :stream | 
 			stream
 				wantsLineEndConversion: true;

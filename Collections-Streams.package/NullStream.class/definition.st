@@ -1,5 +1,5 @@
 Stream subclass: #NullStream
-	instanceVariableNames: 'binary position'
+	instanceVariableNames: 'binary position lastElement'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Collections-Streams'

@@ -9,5 +9,4 @@ showContextMenu
 			menu add: 'cancel' translated action: #cancel.
 			].
 		
-	self theme decorateMenu: menu.
-	menu popUpInWorld: self currentWorld
+	menu popUpInWorld
