@@ -16,7 +16,7 @@ reciprocalModulo: n
 	u := n bitShift: b.
 	fPlusN := f + n.
 	[v >= fPlusN] whileTrue:
-		[v := u \\\ (u := v)].
+		[v := u \\ (u := v)].
 	result := v - f.
 	(result2 := result + n) > 0
 		ifFalse: [self error: 'no inverse'].

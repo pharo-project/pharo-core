@@ -13,14 +13,14 @@ slidingLeftRightRaisedTo: n modulo: m
 	w := (k highBit - 1 >> 1 min: 16) max: 1.
 	oddPowersOfSelf := Array new: 1 << w.
 	oddPowersOfSelf at: 1 put: (pow := self).
-	square := self * self \\\ m.
-	2 to: oddPowersOfSelf size do: [:i | pow := oddPowersOfSelf at: i put: pow * square \\\ m].
+	square := self * self \\ m.
+	2 to: oddPowersOfSelf size do: [:i | pow := oddPowersOfSelf at: i put: pow * square \\ m].
 	
 	"Now exponentiate by searching precomputed bit patterns with a sliding window"
 	pow := 1.
 	[k > 0]
 		whileTrue:
-			[pow := pow * pow \\\ m.
+			[pow := pow * pow \\ m.
 			"Skip bits set to zero (the sliding window)"
 			(n bitAt: k) = 0
 				ifFalse:
@@ -33,11 +33,11 @@ slidingLeftRightRaisedTo: n modulo: m
 					compute the index of this bit pattern in the precomputed powers."
 					index := 0.
 					[k > j] whileTrue:
-						[pow := pow * pow \\\ m.
+						[pow := pow * pow \\ m.
 						index := index << 1 + (n bitAt: k).
 						k := k - 1].
 					"Perform a single multiplication for the whole bit pattern.
 					This saves up to (k-j) multiplications versus a naive algorithm operating bit by bit"
-					pow := pow * (oddPowersOfSelf at: index + 1) \\\ m].
+					pow := pow * (oddPowersOfSelf at: index + 1) \\ m].
 			k := k - 1].
 	^pow normalize

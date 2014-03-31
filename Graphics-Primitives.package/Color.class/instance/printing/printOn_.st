@@ -4,6 +4,6 @@ printOn: aStream
 	name = #unnamed
 		ifFalse: [ 
 			^ aStream
-				nextPutAll: 'NewColor ';
+				nextPutAll: 'Color ';
 				nextPutAll: name ].
 	self storeOn: aStream
