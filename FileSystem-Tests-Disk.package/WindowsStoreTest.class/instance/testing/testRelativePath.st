@@ -1,5 +1,5 @@
 testRelativePath
 
-	#('a' 'bin\foo' 'temp\test' '\test\bar') do: [:each |
+	#('a' 'bin\foo' 'temp\test' 'C:temp\test') do: [:each |
 		self assert: (WindowsStore current pathFromString: each) isRelative ] 
 	

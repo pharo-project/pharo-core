@@ -12,7 +12,7 @@ parseStatementList: pragmaBoolean into: sequenceNode
 		or: [currentToken isSpecial and: ['])}' includes: currentToken value]]] 
 			whileFalse: [
 				return ifTrue: [ 
-					(self parserError: 'End of statement list encounted') 
+					(self parserError: 'End of statement list encountered') 
 						ifNotNil: [ :errorNode | 
 								statements add: errorNode. 
 								sequenceNode statements: statements.
