@@ -1,14 +1,7 @@
 commentForCurrentUpdate
- ^ '13065 Windows FileSystem \test\bar not an absolute path
-	https://pharo.fogbugz.com/f/cases/13065
+ ^ '13156 EyeInspector does not automatically refresh its list
+	https://pharo.fogbugz.com/f/cases/13156
 
-13162 Fix comment of Form>>magnifyBy:
-	https://pharo.fogbugz.com/f/cases/13162
-
-13067 Error message on accept has a typo: End of statement list encounted
-	https://pharo.fogbugz.com/f/cases/13067
-	
-13026 IdentitySet>>size reports wrong size
-	https://pharo.fogbugz.com/f/cases/13026
-
+13163 Splitters move more morphs that needed
+	https://pharo.fogbugz.com/f/cases/13163
 '
