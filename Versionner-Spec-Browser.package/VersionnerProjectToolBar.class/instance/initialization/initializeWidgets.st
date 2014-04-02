@@ -1,6 +1,6 @@
 initializeWidgets
 	updateButton := (self instantiate: ButtonModel)
-		label: ' Save development (baseline)';
+		label: ' Save to development';
 		icon: (Smalltalk ui icons iconNamed: #smallSaveIcon);
 		help: 'Save the current modifications into the development baseline.';
 		yourself.
@@ -9,6 +9,7 @@ initializeWidgets
 		label: ' Release version';
 		icon: (Smalltalk ui icons iconNamed: #smallPublishIcon);
 		help: 'Make a release. It will create a version method for this release and a new development baseline.';
+		enabled: false;
 		yourself.
 	
 	commitButton := (self instantiate: ButtonModel)

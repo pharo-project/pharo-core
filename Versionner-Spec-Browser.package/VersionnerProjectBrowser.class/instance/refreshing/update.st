@@ -6,7 +6,7 @@ update
 		ifNotNilDo: [ :selectedVersion | 
 			project := MTProject 
 						newFromVersion: selectedVersion version
-						inRepository: configuration configurationClass.
+						inConfiguration: configuration configurationClass.
 			projectPanel project: project.					
 			repository text: project repository.
 			versionDescription text: project version description.

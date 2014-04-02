@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '13143 Integrate Versionner 2.7
+update30809
+	"self new update30809"
+	self withUpdateLog: '13143 Integrate Versionner 2.7
 	https://pharo.fogbugz.com/f/cases/13143
 	
 	
@@ -18,4 +19,6 @@ Which include these:
 	https://pharo.fogbugz.com/f/cases/13144
 	
 13141 List of package dependencies contains absurd values
-	https://pharo.fogbugz.com/f/cases/13141'
+	https://pharo.fogbugz.com/f/cases/13141'.
+	self loadTogether: self script462 merge: false.
+	self flushCaches.

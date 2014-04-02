@@ -5,6 +5,7 @@ initializePresenter
 								ifTrue: [ self executeWithDevWorkflow: VSUpdateDevelopmentVersionCommand ]
 								ifFalse: [ UIManager default inform: 'Nothing to save' ] ].
 	
-	releaseButton action: [ self executeWithDevWorkflow: VSReleaseDevelopmentVersionCommand ].
+	releaseButton action: [ self browser ignoreUnsavedChangesOnDevelopmentIfAny
+								ifTrue: [ self executeWithDevWorkflow: VSReleaseDevelopmentVersionCommand ] ].
 	
 	commitButton action: [ 	(VSSaveProjectCommand target: browser project for: self) execute ].

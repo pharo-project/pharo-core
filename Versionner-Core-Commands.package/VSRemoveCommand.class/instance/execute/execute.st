@@ -17,12 +17,14 @@ execute
 			| cm |
 			self configurationClass project symbolicVersionSymbols
 				do: [ :symbolicVersion | 
-					(MetacelloToolBox configurationNamed: self configurationClass name asString)
-						modifySymbolicVersionMethodFor: symbolicVersion
-							symbolicVersionSpecsDo: [ :symbolicVersionSpec | 
+						[ (MetacelloToolBox configurationNamed: self configurationClass name asString)
+							modifySymbolicVersionMethodFor: symbolicVersion
+								symbolicVersionSpecsDo: [ :symbolicVersionSpec | 
 									symbolicVersionSpec versionString = target versionString
 										ifTrue: [ symbolicVersionSpec versionString: #notDefined ].
 									true ];
-						commitMethod ].
+						commitMethod ]
+					on: MetacelloValidationFailure 
+					do: [ :error | "ignore" ] ].
 			cm := MetacelloToolBox compiledMethodForVersion: target version.
 			cm methodClass removeSelector: cm selector ]

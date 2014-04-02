@@ -7,5 +7,5 @@ createDevelopmentVersion
 					'Version number for the next development version'
 		initialAnswer: 1.0
 		title: 'Create a development version'.
-	newDevVersionString ifNotNil: [ newDevVersionString := self standardizeDevVersionString: newDevVersionString.
+	newDevVersionString ifNotNil: [ newDevVersionString := workflow standardizeDevVersionString: newDevVersionString.
 									workflow createNextDevelopment: newDevVersionString ]

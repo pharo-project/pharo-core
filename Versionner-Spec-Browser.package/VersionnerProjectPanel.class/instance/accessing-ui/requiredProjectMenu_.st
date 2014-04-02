@@ -5,7 +5,8 @@ requiredProjectMenu: aMenu
 	menuGroup addMenuItem: 
 		(MenuItemModel new
 			name: #'edit version';
-			action: [  projectList selectedItem content editVersion ]).
+			action: [  projectList selectedItem content editVersion.
+					projectList roots: project requiredProjects ]).
 	menuGroup addMenuItem: 
 		(MenuItemModel new
 			name: #'edit repositories';

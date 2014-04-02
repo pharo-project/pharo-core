@@ -1,11 +1,12 @@
 nextDevelopmentVersionString: aDevelopmentVersionString
-	| versionNumber lastPointIndex |
+	| versionNumber lastPointIndex newVersionNumber |
 	versionNumber := self developmentVersionNumber: aDevelopmentVersionString.
 	lastPointIndex := versionNumber 
 						lastIndexOf: $. 
 						ifAbsent: [ nil ].
-	^ lastPointIndex 
+	newVersionNumber := lastPointIndex 
 		ifNil: [ versionNumber + 1 ]
 		ifNotNil: [ | newMinorVersion |
 				newMinorVersion := (versionNumber allButFirst: lastPointIndex) asInteger + 1.
-				(versionNumber  copyFrom: 1 to: lastPointIndex) , (newMinorVersion asString) ]
+				(versionNumber  copyFrom: 1 to: lastPointIndex) , (newMinorVersion asString) ].
+	^ self standardizeDevVersionString: newVersionNumber

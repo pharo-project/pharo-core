@@ -6,4 +6,4 @@ latestVersionString
 		detectMax: [ :aVersion | aVersion ].
 	^ latestVersion 
 		ifNotNil:  [ latestVersion versionString ]
-		ifNil: [ '1.0' ] 
+		ifNil: [ nil ] 

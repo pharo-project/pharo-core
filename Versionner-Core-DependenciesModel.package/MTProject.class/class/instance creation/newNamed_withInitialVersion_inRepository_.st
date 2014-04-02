@@ -4,6 +4,7 @@ newNamed: projectName withInitialVersion: version inRepository: repositoryURL
 
 	project := self new.
 	project name: projectName.
+	project repository: repositoryURL.
 	project configurationClass: project devWorkflow createInitialDevelopment.
 	^ project.
 	

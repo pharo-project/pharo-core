@@ -5,8 +5,8 @@ initializeWidgets
 		autoAccept: true.
 
 	(symbolicVersionResolutionCheckBox := self newCheckBox)
-		label: 'Solve symbolic versions?';
+		label: 'Resolve symbolic dependencies? (e.g. stable -> 3.0)';
 		state: true;
 		whenBuiltDo: [ symbolicVersionResolutionCheckBox labelOnLeft.
-						releaseNumber accept: self latestVersionString ];
+						releaseNumber accept: self nextVersionString ];
 		whenDesactivatedDo: [ self confirmSymbolicVersionResolutionDesactivation ].
