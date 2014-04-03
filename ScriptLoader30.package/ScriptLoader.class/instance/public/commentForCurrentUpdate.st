@@ -1,21 +1,5 @@
 commentForCurrentUpdate
- ^ '13143 Integrate Versionner 2.7
-	https://pharo.fogbugz.com/f/cases/13143
-	
-	
-Which include these:
+ ^ '13150 Different memory alignment on different platforms
+	https://pharo.fogbugz.com/f/cases/13150
 
-13056 Versioneer: MNU - receiver of treeNodeClass is nil
-	https://pharo.fogbugz.com/f/cases/13056
-	
-13148 check if the version does not exist before creating a new development version
-	https://pharo.fogbugz.com/f/cases/13148
-	
-13140 No tree in Versionner panes
-	https://pharo.fogbugz.com/f/cases/13140
-
-13144 wrong name for generated development version
-	https://pharo.fogbugz.com/f/cases/13144
-	
-13141 List of package dependencies contains absurd values
-	https://pharo.fogbugz.com/f/cases/13141'
+'
