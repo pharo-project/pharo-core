@@ -2,12 +2,11 @@
 	"operand conforms to protocol DateAndTime or protocol Duration"
 
 	^ (operand respondsTo: #asDateAndTime)
-		ifTrue: [ | lticks rticks |
-			lticks := self asLocal ticks.
-			rticks := operand asDateAndTime asLocal ticks.
-			
+		ifTrue: [ 
+			| other |
+			other := operand asDateAndTime.
 			Duration
- 				seconds: (SecondsInDay *(lticks first - rticks first)) + 
-							(lticks second - rticks second)
- 				nanoSeconds: (lticks third - rticks third) ]
-		ifFalse: [ self + (operand negated) ].
+				seconds: (SecondsInDay * (julianDayNumber - other julianDayNumberUTC))
+							+ (seconds - other secondsSinceMidnightUTC)
+				nanoSeconds: nanos - other nanoSecond ]
+		ifFalse: [ self + operand negated ]

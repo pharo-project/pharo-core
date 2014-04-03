@@ -1,10 +1,11 @@
 + operand
 	"operand conforms to protocol Duration"
 
-	|  ticks |
-	ticks := self ticks with: (operand asDuration ticks) collect: [:ticks1 :dticks | ticks1 + dticks ].
-
+	| durationTicks |
+	durationTicks := operand asDuration ticks.
 	^ self class basicNew
-		ticks: ticks
-		offset: self offset; 
-		yourself.
+		setJdn: julianDayNumber + durationTicks first
+			seconds: seconds + durationTicks second
+			nano: nanos + durationTicks third
+			offset: self offset;
+		yourself

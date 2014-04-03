@@ -1,5 +1,8 @@
 commentForCurrentUpdate
- ^ '13150 Different memory alignment on different platforms
-	https://pharo.fogbugz.com/f/cases/13150
+ ^ '13145 Speed Up DateAndTime Arithmetic
+	https://pharo.fogbugz.com/f/cases/13145
+
+13164 komitter should allow commit to local directories
+	https://pharo.fogbugz.com/f/cases/13164
 
 '
