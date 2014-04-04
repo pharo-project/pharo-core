@@ -1,0 +1,1 @@
+I represent the Mac shell. As a beginning, I can execute simple system calls.
