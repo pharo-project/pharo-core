@@ -26,5 +26,6 @@ initializeBindings
 		at: #TreeColumnAdapter		put: #TreeColumnAdapter;
 		at: #TreeNodeAdapter			put: #TreeNodeAdapter;		
 		at: #WindowAdapter			put: #WindowAdapter;
+		at: #TickingWindowAdapter	put: #TickingWindowAdapter;
 		at: #DialogWindowAdapter		put: #DialogWindowAdapter;
 		yourself

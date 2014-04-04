@@ -1,5 +1,5 @@
 EyeAbstractInspector subclass: #EyeMorphViewer
-	instanceVariableNames: 'container updateProcess'
+	instanceVariableNames: 'container'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-Inspector'

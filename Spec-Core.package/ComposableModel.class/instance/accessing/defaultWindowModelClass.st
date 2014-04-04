@@ -1,0 +1,2 @@
+defaultWindowModelClass 
+	^ WindowModel

@@ -1,2 +1,2 @@
 title
-	^ super title, ' [', self objectVariableSize asString, ']'
+	^ super title, ' [', self objectVariableSize asString, ']' 

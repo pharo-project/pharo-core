@@ -2,7 +2,7 @@
 columnsFor: anEntry
 	"Answer the array of contexts."
 	| method classLocation receiverClass |
-	
+	 
 	method := anEntry home method.
 	classLocation := method methodClass.
 	receiverClass := anEntry receiver class.

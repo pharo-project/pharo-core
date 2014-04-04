@@ -1,11 +1,8 @@
 commentForCurrentUpdate
- ^ '13114 Broken PharoTheme
-	https://pharo.fogbugz.com/f/cases/13114
+ ^ '12777 Athens font cacheing bug
+	https://pharo.fogbugz.com/f/cases/12777
 
-12966 FileLocator does not support adding extension with ,
-	https://pharo.fogbugz.com/f/cases/12966
-
-13151 Fix side bar buttons
-	https://pharo.fogbugz.com/f/cases/13151
+12460 eyeinspector refresh loop
+	https://pharo.fogbugz.com/f/cases/12460
 
 '

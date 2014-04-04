@@ -25,5 +25,6 @@ initializeBindings
 		at: #TreeColumnAdapter		put: #MorphicTreeColumnAdapter;
 		at: #TreeNodeAdapter			put: #MorphicTreeNodeAdapter;
 		at: #WindowAdapter			put: #MorphicWindowAdapter;
+		at: #TickingWindowAdapter	put: #MorphicTickingWindowAdapter;
 		at: #DialogWindowAdapter		put: #MorphicDialogWindowAdapter;
 		yourself

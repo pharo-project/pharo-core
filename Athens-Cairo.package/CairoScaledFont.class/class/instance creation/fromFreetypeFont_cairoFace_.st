@@ -6,7 +6,8 @@ fromFreetypeFont: aFont cairoFace: face
 		at: #AAOptions ifAbsentPut: [ CairoFontOptions new ].
 	fontMatrix := AthensCairoMatrix new.
 	deviceMatrix := AthensCairoMatrix new.
-	fontMatrix scaleBy: (aFont pointSize).
+
+	fontMatrix scaleBy: (TextStyle pointsToPixels: aFont pointSize).
 	
 	font := self primCreate: face fontMatrix: fontMatrix  userToDeviceMatrix: deviceMatrix options: options. 
 	
