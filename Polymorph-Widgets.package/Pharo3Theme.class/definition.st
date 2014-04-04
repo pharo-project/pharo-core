@@ -1,4 +1,4 @@
-UITheme subclass: #Pharo3Theme
+UIThemeWatery subclass: #Pharo3Theme
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

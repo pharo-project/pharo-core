@@ -1,8 +1,11 @@
 commentForCurrentUpdate
- ^ '13170 Hanging process after running DebuggerTest>>testBasic
-	https://pharo.fogbugz.com/f/cases/13170
+ ^ '13114 Broken PharoTheme
+	https://pharo.fogbugz.com/f/cases/13114
 
-13147 NB Mac System Call Example
-	https://pharo.fogbugz.com/f/cases/13147
+12966 FileLocator does not support adding extension with ,
+	https://pharo.fogbugz.com/f/cases/12966
+
+13151 Fix side bar buttons
+	https://pharo.fogbugz.com/f/cases/13151
 
 '

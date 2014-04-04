@@ -1,0 +1,2 @@
+scrollbarPagingAreaCornerStyleIn: aThemedMorph	
+	^#square
