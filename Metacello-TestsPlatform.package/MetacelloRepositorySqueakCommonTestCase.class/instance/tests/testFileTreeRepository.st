@@ -18,7 +18,7 @@ testFileTreeRepository
     assert: repo class == (Smalltalk at: #'MCFileTreeRepository' ifAbsent: [  ]).
   self
     assert:
-      repo description = ('filetree://' , fileUtils default fullName , '/temp/repo') ]
+      repo description equals: ('filetree://' , (fileUtils default fullName , '/temp/repo') asFileReference fullName )]
     ensure: [ 
       (fileUtils directoryExists: tempDir)
         ifTrue: [ fileUtils deleteAll: tempDir ] ]

@@ -5,4 +5,6 @@ checkBufferSpace: minimalSize
 	
 	size < minimalSize ifTrue: [
 		buffer := ByteArray new: minimalSize.
+		bs := buffer writeStream.
+		
 		]

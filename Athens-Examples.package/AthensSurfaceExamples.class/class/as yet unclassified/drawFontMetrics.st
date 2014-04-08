@@ -1,16 +1,14 @@
 drawFontMetrics
 "
-self subclasses anyOne exampleDrawText
+self  drawFontMetrics
 "
-	| surf  font |
+	|   font |
+	
 	
 	font := LogicalFont familyName: 'Arial' pointSize: 10.
+	self openViewOn: [ :can |
 
-	surf := self newSurface: 400@400.
-	
-	surf drawDuring: [:can |
-		surf clear: Color white.
-		can pathTransform loadIdentity.
+		can pathTransform restoreAfter: [
 
 		can pathTransform translateX: 30 Y: 30;
 		scaleBy: 20.
@@ -46,5 +44,6 @@ self subclasses anyOne exampleDrawText
 		can setPaint: (Color black).
 		can pathTransform translateX: 0 Y: (font getPreciseAscent).
 		can drawString: 'yh'.
-	].
-	Display getCanvas drawImage: 	surf asForm  at: 0@0
+		] ]
+
+ 

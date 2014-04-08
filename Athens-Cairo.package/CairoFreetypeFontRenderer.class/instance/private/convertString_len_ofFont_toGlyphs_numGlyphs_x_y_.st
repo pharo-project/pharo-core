@@ -6,7 +6,7 @@ http://www.cairographics.org/manual/cairo-User-Fonts.html#cairo-user-scaled-font
 "
 	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
 	
-	^self nbCall: #( 
+	^self nbCall: #(
 		cairo_status_t cairo_scaled_font_text_to_glyphs (CairoScaledFont aScaledFont,
 			double x,
 			double y,

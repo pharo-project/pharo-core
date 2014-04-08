@@ -6,14 +6,7 @@ self example2.
 
 
 "
-
-	| surf |
-	
-	surf := self newSurface: 100@100.
-	
-	surf drawDuring: [:can |
-		surf clear.
-		
+	self openViewOn: [ :can |
 		can setPaint: Color blue.
 		
 		can drawShape: (
@@ -22,9 +15,8 @@ self example2.
 					absolute;
 					lineTo: 50@0;
 					lineTo: 50@50;
-					lineTo: 0@50
+					lineTo: 0@100
 			])
 	
 	].
-
-	Display getCanvas drawImage: 	surf asForm  at: 0@0
+ 
