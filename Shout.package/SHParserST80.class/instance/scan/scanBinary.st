@@ -12,6 +12,8 @@ scanBinary
 		ifTrue: [currentToken := currentToken , d asString.
 			self nextChar.
 			^ currentToken].
+	((c == $|) and:[self parsingBlockarguments])
+		ifTrue: [^ currentToken].
 	[self isSelectorCharacter: d]
 		whileTrue: [currentToken := currentToken , d asString.
 			d := self nextChar].

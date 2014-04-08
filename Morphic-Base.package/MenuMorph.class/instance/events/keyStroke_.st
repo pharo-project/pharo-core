@@ -45,15 +45,15 @@ keyStroke: evt
 			"If a stand-alone menu, just delete it"
 			popUpOwner ifNil: [^self delete].
 			"If a sub-menu, then deselect, and return focus to outer menu"
-			self selectItem: nil event: evt.
-			evt hand newMouseFocus: popUpOwner owner.
-			^evt hand newKeyboardFocus: popUpOwner owner].
+			^ self deselectAndFocusOutermenuOn: evt].
 		
 	"Left arrow key - If we are in a submenu, then we remove myself (i.e., the current morph) and move the focus to the owner popup"
-	(asc = 28 and: [ popUpOwner notNil ])
-		ifTrue: [ self delete.
-					evt hand newMouseFocus: popUpOwner owner. 
-					^evt hand newKeyboardFocus: popUpOwner owner ].
+	(asc = 28)
+		ifTrue: [ 			
+				"If a stand-alone menu, do nothing"
+				popUpOwner ifNil: [^self].
+				"If a sub-menu, then deselect, and return focus to outer menu"
+				^ self deselectAndFocusOutermenuOn: evt].
 	
 	"Right arrow key - If the selected menu item has a submenu, then we move the focus to the submenu "
 	(asc = 29) 

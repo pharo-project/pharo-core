@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '13080 Shout does not recognize doubled vertical bar || as a binary selector
+update30815
+	"self new update30815"
+	self withUpdateLog: '13080 Shout does not recognize doubled vertical bar || as a binary selector
 	https://pharo.fogbugz.com/f/cases/13080
 
 12178 Extended class shown twice in Browser. 
@@ -11,4 +12,6 @@ commentForCurrentUpdate
 13108 MNU in class menu
 	https://pharo.fogbugz.com/f/cases/13108
 
-'
+'.
+	self loadTogether: self script468 merge: false.
+	self flushCaches.

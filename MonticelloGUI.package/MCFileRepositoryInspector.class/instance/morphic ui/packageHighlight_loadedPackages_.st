@@ -1,7 +1,7 @@
-packageHighlight: aString
+packageHighlight: aString loadedPackages: loadedPackages
 
 	newer ifNil: [newer := #()].
-	^(loaded anySatisfy: [:each | (each copyUpToLast: $-) = aString])
+	^(loadedPackages anySatisfy: [:each | each = aString])
 		ifTrue: [
 			Text string: aString
 				attribute: (TextEmphasis new emphasisCode: (
