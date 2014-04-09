@@ -1,4 +1,4 @@
-EmbeddedFreetypeFont subclass: #SourceCodeProRegular
+Object subclass: #EmbeddedFreetypeFont
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

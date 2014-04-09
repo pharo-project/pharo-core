@@ -1,4 +1,4 @@
-Object subclass: #OpenSansRegular
+EmbeddedFreetypeFont subclass: #OpenSansRegular
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

@@ -1,2 +1,2 @@
 initialize 
-	self new install.
+	FreeTypeFontProvider registerFont: self
