@@ -6,9 +6,6 @@ defaultSpec
 			c 
 				newColumn: [:c2 |
 					c2 
-						newRow: [ :r| 
-							r add: #scopeChooser ]
-						height: 25;
 						add: #changesTree ];
 				addSplitter;
 				add: #textArea;
