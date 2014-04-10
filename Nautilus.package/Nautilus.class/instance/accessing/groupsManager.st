@@ -1,3 +1,3 @@
 groupsManager
 	
-	^ self class groupsManagerFrom: self
+	^ self class groupsManager

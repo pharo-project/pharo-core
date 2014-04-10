@@ -1,11 +1,11 @@
-buildGroupManagerFor: anInstance
+buildGroupManager
 	| holder |
 	
 	holder := GroupHolder new.
 	
 	(holder 
 		addADynamicClassGroupSilentlyNamed: 'Most Viewed Classes' 
-		block: [ anInstance recentClassesElements ]) removable: false.
+		block: [ self recentClassesElements ]) removable: false.
 	(holder
 		addADynamicClassGroupSilentlyNamed: 'Last Modified Classes'
 		block: [ self lastModifiedClasses ]) removable: false.	
