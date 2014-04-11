@@ -1,8 +1,8 @@
 commentForCurrentUpdate
- ^ '13197 When clicking Groups/Packages button, the button label does not change
-	https://pharo.fogbugz.com/f/cases/13197
+ ^ '13188 Renaming issue when trying to load Glorp
+	https://pharo.fogbugz.com/f/cases/13188
 
-12729 Smalltalk condenseChanges raises ZnInvalidUTF8
-	https://pharo.fogbugz.com/f/cases/12729
+13181 MCVersion should NEVER cache a snapshot of the working copy
+	https://pharo.fogbugz.com/f/cases/13181
 
 '

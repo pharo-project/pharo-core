@@ -1,4 +1,4 @@
-Cache subclass: #LRUCache
+AbtractCache subclass: #LRUCache
 	instanceVariableNames: 'lruList keyIndex'
 	classVariableNames: ''
 	poolDictionaries: ''
