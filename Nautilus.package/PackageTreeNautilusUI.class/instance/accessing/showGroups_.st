@@ -8,4 +8,5 @@ showGroups: aBoolean
 	self model showGroups: aBoolean.
 	self updatePackageView.
 	self updateClassView.
+	self changed: #groupsButtonLabel.
 	
