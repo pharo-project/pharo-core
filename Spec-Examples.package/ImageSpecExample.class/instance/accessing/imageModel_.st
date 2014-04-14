@@ -1,2 +1,0 @@
-imageModel: anObject
-	imageModel := anObject
