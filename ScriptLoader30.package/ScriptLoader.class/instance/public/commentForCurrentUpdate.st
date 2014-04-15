@@ -1,5 +1,5 @@
 commentForCurrentUpdate
- ^ '12836 ImageSpecExample throws DNU
-	https://pharo.fogbugz.com/f/cases/12836
+ ^ '13202 self halt <Restart> then several <Over> gives endless DNU
+	https://pharo.fogbugz.com/f/cases/13202
 
 '
