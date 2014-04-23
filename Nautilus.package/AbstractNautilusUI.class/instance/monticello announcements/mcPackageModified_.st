@@ -5,7 +5,8 @@ mcPackageModified: anAnnouncement
 	window ifNil: [^ self ].
 	window isDisplayed ifFalse: [ ^ self ].
 
-	rpackages := (NautilusMCBindings default rPackagesFor: anAnnouncement package).
+	rpackages := anAnnouncement package packageSet packages.
+	rpackages isEmptyOrNil ifTrue: [ ^ self ].
 	(self model packages includesAnyOf: rpackages )
 		ifTrue: [ 
 			rpackages do: [:rpackage | PackagesIconsCache removeKey: rpackage ifAbsent: []].

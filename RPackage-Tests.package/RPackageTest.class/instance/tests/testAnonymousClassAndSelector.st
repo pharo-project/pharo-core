@@ -5,7 +5,7 @@ testAnonymousClassAndSelector
 
 	| ghost method uPackage |
 	ghost := Object newAnonymousSubclass.
-	uPackage := self organizer packageNamed: #_UnpackagedPackage.
+	uPackage := self organizer packageNamed: #'_UnpackagedPackage'.
 	method := ghost compiler compile: 'rpackagetest'.
 	ghost addSelector: #rpackagetest withMethod: method.
 	self deny: (uPackage includesDefinedSelector: #rpackagetest ofClass: ghost).

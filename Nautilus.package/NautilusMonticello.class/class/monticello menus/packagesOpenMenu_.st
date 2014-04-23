@@ -5,7 +5,7 @@ packagesOpenMenu: aBuilder
 	
 	target := aBuilder model.
 	(package := target selectedPackage) ifNil: [ ^ target ].
-	mcpackage := NautilusMCBindings default mcPackageFor: package.
+	mcpackage := package correspondingMcPackage.
 	mcpackage ifNil: [ ^ self ].
 	
 	(aBuilder item: #('Open ',package name))

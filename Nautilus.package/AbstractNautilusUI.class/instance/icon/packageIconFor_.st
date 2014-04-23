@@ -9,7 +9,7 @@ packageIconFor: aPackage
 
 	aPackage classes isEmpty ifTrue: [^ PackagesIconsCache at: aPackage put: (Smalltalk ui icons iconNamed: #emptyPackageIcon) ].
 	
-	mcpackage := (NautilusMCBindings default mcPackageFor: aPackage).
+	mcpackage := aPackage correspondingMcPackage.
 	(mcpackage notNil and: [ mcpackage isDirty ])
 		ifTrue: [ | icon |
 			icon := IconicButton new 
