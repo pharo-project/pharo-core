@@ -26,7 +26,7 @@ defaultSpec
 												add: #authorName width: 50;
 												add: #author
 										] height: self inputTextHeight +4 ;
-										add: #checkCommit height: self buttonHeight;
+										"add: #checkCommit height: self buttonHeight;"
 										newRow: [ :r1 |
 											r1 
 												add: #remoteLabel width: 50;

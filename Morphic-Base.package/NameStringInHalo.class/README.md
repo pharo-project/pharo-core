@@ -1,0 +1,1 @@
+A NameStringInHalo is xxxxxxxxx.

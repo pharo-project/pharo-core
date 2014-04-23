@@ -1,11 +1,8 @@
 commentForCurrentUpdate
- ^ '13218 Fix issue with custom bindings
-	https://pharo.fogbugz.com/f/cases/13218
+ ^ '12978 Komitter hide Check Lint Rules
+	https://pharo.fogbugz.com/f/cases/12978
 
-13195 testAllSetsAreHealthy fails on ci server for mac only
-	https://pharo.fogbugz.com/f/cases/13195
-
-11082 UndefinedObject should implement #allSuperclassesDo:
-	https://pharo.fogbugz.com/f/cases/11082
+13204 Hard to see Morph halo label
+	https://pharo.fogbugz.com/f/cases/13204
 
 '
