@@ -1,2 +1,0 @@
-= aModifier 
-	^ aModifier = self delegatedModifier

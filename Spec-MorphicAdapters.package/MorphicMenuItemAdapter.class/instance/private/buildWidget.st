@@ -6,4 +6,7 @@ buildWidget
 		ifFalse: [ self class defaultSpec ].
 
 
-	^ SpecInterpreter interpretASpec: spec model: self
+	^ SpecInterpreter 
+		private_interpretASpec: spec 
+		model: self
+		selector: nil

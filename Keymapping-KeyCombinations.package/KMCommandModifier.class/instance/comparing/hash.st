@@ -1,2 +1,0 @@
-hash
-	^ self delegatedModifier hash
