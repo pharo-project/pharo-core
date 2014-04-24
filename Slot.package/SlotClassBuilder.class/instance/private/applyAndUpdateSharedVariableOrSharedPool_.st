@@ -1,4 +1,3 @@
 applyAndUpdateSharedVariableOrSharedPool: classModification
 	^ self track: classModification during: [ :old :new |
-		installer classDefinitionChangedFrom: old to:  new by: classModification.
-		classModification propagate ].
+		installer classDefinitionChangedFrom: old to:  new by: classModification ].
