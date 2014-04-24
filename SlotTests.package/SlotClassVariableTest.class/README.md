@@ -1,0 +1,1 @@
+A SlotClassVariableTest is xxxxxxxxx.Instance Variables	announcement:		<Object>	collectedAnnouncements:		<Object>announcement	- xxxxxcollectedAnnouncements	- xxxxx
