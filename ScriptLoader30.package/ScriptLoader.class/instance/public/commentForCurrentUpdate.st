@@ -1,2 +1,4 @@
 commentForCurrentUpdate
- ^ 'sync dirty packages'
+ ^ 'Postscript:
+
+Smalltalk allClassesDo: [ :c | c superclass addSubclass: c ]'
