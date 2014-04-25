@@ -1,2 +1,5 @@
 commentForCurrentUpdate
- ^ 'revert #applyAndUpdateSharedVariableOrSharedPool: for now'
+ ^ '13225 SpecInterpreter should not reset bindings
+	https://pharo.fogbugz.com/f/cases/13225
+
+'

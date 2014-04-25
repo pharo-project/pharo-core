@@ -3,7 +3,12 @@ buildAdapterWithSpec
 	| adapter widget aSpecLayout |
 	
 	aSpecLayout := (self retrieveSpec: self defaultSpecSelector).
-	adapter := SpecInterpreter interpretASpec: aSpecLayout model: self.
+	
+	adapter := SpecInterpreter 
+		private_interpretASpec: aSpecLayout
+		model: self
+		selector: self defaultSpecSelector.
+		
 	widget := adapter widget.
 	
 	self ensureExtentFor: widget.
