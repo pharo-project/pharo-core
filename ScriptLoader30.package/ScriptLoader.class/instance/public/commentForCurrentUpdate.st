@@ -1,5 +1,6 @@
 commentForCurrentUpdate
- ^ '13225 SpecInterpreter should not reset bindings
-	https://pharo.fogbugz.com/f/cases/13225
+ ^ '11931 Use new flat Pharo logo
+
+	https://pharo.fogbugz.com/f/cases/11931
 
 '
