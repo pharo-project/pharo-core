@@ -1,2 +1,2 @@
 nbLibraryNameOrHandle
-	^ CairoLibraryLoader getLibraryHandle
+	self methodHasNoSourceCode

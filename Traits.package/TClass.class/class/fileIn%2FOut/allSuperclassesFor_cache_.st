@@ -1,2 +1,2 @@
-allSuperclassesFor: aClass cache: cache 	
-	^ cache at: aClass ifAbsentPut: [aClass allSuperclasses asArray]
+allSuperclassesFor: var1cache: var2
+	self methodHasNoSourceCode
