@@ -1,6 +1,13 @@
 commentForCurrentUpdate
- ^ '11931 Use new flat Pharo logo
+ ^ '13230 clean system organization
+	https://pharo.fogbugz.com/f/cases/13230
+- clean ScriptLoader
+	
+Postscript:
 
-	https://pharo.fogbugz.com/f/cases/11931
-
-'
+Smalltalk globals organization removeMissingClasses.
+ScriptLoader new
+	removeScriptMethods;
+	removeUpdateMethods.
+ScriptLoader resetLogStream.
+	'
