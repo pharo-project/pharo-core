@@ -1,10 +1,6 @@
 commentForCurrentUpdate
- ^ '11934 Last Modified Classed group in Nautilus does not work
-	https://pharo.fogbugz.com/f/cases/11934
+ ^ '13136 Pharo3Theme scrollbars looking like dead without visual indicators
+	https://pharo.fogbugz.com/f/cases/13136
 
-13235 PharoSourcesCondenser: fix commentStamp to use class name
-	https://pharo.fogbugz.com/f/cases/13235
-	
-13234 After writing a new sources file, TClass class side methods have no source pointer
-	https://pharo.fogbugz.com/f/cases/13234
+It was ok, I just restored the old scrollbar colors because the new ones are breaking completely the theme style. 
 '

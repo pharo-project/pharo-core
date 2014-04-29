@@ -5,5 +5,4 @@ scrollbarNormalThumbFillStyleFor: aScrollbar
 		direction: (aScrollbar bounds isWide
 			ifTrue: [0 @ aScrollbar height]
 			ifFalse: [aScrollbar width @ 0])"
-"	^ SolidFillStyle color: Color lightGray lighter."
-	^ self glamorousVeryLightFillStyleFor: aScrollbar height: aScrollbar height
+	^ self glamorousNormalFillStyleFor: aScrollbar height: aScrollbar height
