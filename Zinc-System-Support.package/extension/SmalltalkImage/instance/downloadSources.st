@@ -7,13 +7,13 @@ downloadSources
 	self shouldDownloadSourcesFile ifFalse: [ ^ self ].
 	sharedDirectory := self vmDirectory.
 	self sourcesDownloadClient
-		url: 'http://files.pharo.org/image/PharoV20.sources';
+		url: 'http://files.pharo.org/sources/PharoV30.sources';
 		downloadTo: sharedDirectory;
 		close.
 	(sharedDirectory / self sourcesFile basename) exists
 		ifTrue: [ ^ self ].
 	self sourcesDownloadClient
-		url: 'http://stfx.eu/PharoV20.sources';
+		url: 'http://stfx.eu/PharoV30.sources';
 		downloadTo: sharedDirectory;
 		close.
 		
