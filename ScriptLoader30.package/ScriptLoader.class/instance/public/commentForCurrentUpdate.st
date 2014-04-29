@@ -1,2 +1,3 @@
 commentForCurrentUpdate
- ^ '- cut MC history. Saves 5MB image size'
+ ^ '13028 Adding ClassVariables corrupts class hierarchy
+	https://pharo.fogbugz.com/f/cases/13028'
