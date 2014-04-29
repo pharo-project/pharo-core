@@ -13,8 +13,7 @@ writeClassComment: aClass
 			nextPutAll: ' commentStamp: '.
 		stamp := organizer commentStamp 
 			ifNil: ['<historical>'].
-		stamp storeOn: strm.
-		strm nextPutAll: ' prior: 0' ].
+		stamp storeOn: strm ].
 	
 	self 
 		writeRemoteString: organizer classComment

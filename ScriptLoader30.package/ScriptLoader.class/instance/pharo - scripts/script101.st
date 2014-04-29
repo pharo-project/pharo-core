@@ -1,4 +1,4 @@
-script100
+script101
 
 	^ 'AST-Core-MarcusDenker.208.mcz
 AST-Interpreter-Core-MarcusDenker.112.mcz
@@ -213,8 +213,8 @@ Settings-System-MarcusDenker.31.mcz
 Settings-Tools-MarcusDenker.51.mcz
 Shout-MarcusDenker.208.mcz
 ShoutTests-MarcusDenker.23.mcz
-Slot-MarcusDenker.421.mcz
-SlotTests-MarcusDenker.85.mcz
+Slot-MarcusDenker.424.mcz
+SlotTests-MarcusDenker.87.mcz
 SmartSuggestions-StephaneDucasse.122.mcz
 SmartSuggestionsTests-MarcusDenker.4.mcz
 Spec-Core-MarcusDenker.331.mcz

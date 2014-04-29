@@ -1,2 +1,2 @@
 classOne
-	self methodHasNoSourceCode
+	^ 1

@@ -3,7 +3,7 @@ testProgress
 		bar title: 'Downloading Sources...'.
 		[
 			ZnClient new 
-				url: 'http://files.pharo.org/image/PharoV30.sources'; 
+				url: 'http://files.pharo.org/image/PharoV20.sources'; 
 				signalProgress: true;	
 				downloadTo: FileLocator temp ]
 			on: HTTPProgress 

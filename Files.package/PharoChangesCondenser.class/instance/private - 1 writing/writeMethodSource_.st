@@ -6,8 +6,7 @@ writeMethodSource: aMethod
 			nextPutAll: ' methodsFor: ';
 			store: aMethod category asString;
 			nextPutAll: ' stamp: ';
-			store: (self stampOfMethod: aMethod);
-			nextPutAll: ' prior: 0' ].
+			store: (self stampOfMethod: aMethod) ].
 	
 	self
 		writeRemoteString: (self sourceCodeOfMethod: aMethod)
