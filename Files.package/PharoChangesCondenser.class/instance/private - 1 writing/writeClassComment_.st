@@ -9,7 +9,7 @@ writeClassComment: aClass
 		
 	self nextCommentChunkDo: [ :strm |
 		strm 
-			nextPutAll: self name;
+			nextPutAll: aClass name;
 			nextPutAll: ' commentStamp: '.
 		stamp := organizer commentStamp 
 			ifNil: ['<historical>'].

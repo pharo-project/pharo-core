@@ -5,5 +5,5 @@ swapSourcePointerOfClassOrTrait: classOrTrait
 	classOrTrait methodsDo: [ :method | 
 		self swapSourcePointerOfMethod: method ].
 	
-	classOrTrait class methodsDo: [ :method | 
+	classOrTrait classSide methodsDo: [ :method | 
 		self swapSourcePointerOfMethod: method ]
