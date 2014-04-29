@@ -1,2 +1,2 @@
 commentForCurrentUpdate
- ^ '- fix direct links to sources file in image'
+ ^ '- cut MC history. Saves 5MB image size'
