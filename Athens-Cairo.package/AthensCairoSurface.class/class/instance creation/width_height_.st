@@ -1,2 +1,2 @@
 width: aWidth height: aHeight
-	^ (self primWidth: aWidth height: aHeight) initialize
+	^ (self primWidth: aWidth height: aHeight+1) initialize
