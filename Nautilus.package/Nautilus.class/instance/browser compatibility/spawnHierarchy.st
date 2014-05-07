@@ -1,5 +1,5 @@
 spawnHierarchy
-
+ 
 	self 
 		showHierarchy: true;
 		open.

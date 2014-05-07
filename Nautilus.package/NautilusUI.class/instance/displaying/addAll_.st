@@ -1,6 +1,6 @@
 addAll: aWindow
-			
 	| topHeight middleHeight bottomMorph bottomHeight delta |
+	
 	delta := 0.
 	bottomHeight := 0.
 	middleHeight := 0.

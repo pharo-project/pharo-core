@@ -5,4 +5,4 @@ updateLayoutForSingle
 		addMorph: current
 		fullFrame: LayoutFrame identity.
 					
-	current color: Color white.
+	"current color: Color white."

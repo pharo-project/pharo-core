@@ -2,7 +2,7 @@ initialize
 
 	super initialize.
 	self changeProportionalLayout.
-	self color: Color white.
+	"self color: Color white."
 	lock := false.
 	buttonsContainer := PanelMorph new
 							changeTableLayout;
