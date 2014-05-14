@@ -1,8 +1,5 @@
 commentForCurrentUpdate
- ^ '13247 copying a class also copies his comment
-	https://pharo.fogbugz.com/f/cases/13247
-
-13241 switching between package and  hierarchy view loses tag selection
-	https://pharo.fogbugz.com/f/cases/13241
+ ^ '13261 rpackage renameTo: is renaming all classes, not just defined ones
+	https://pharo.fogbugz.com/f/cases/13261
 
 '
