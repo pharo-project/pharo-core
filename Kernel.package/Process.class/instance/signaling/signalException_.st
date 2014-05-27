@@ -13,7 +13,7 @@ signalException: anException
 	myList ifNotNil:[oldList := self suspend].
 
 	"Add a new method context to the stack that will signal the exception"
-	suspendedContext := MethodContext
+	suspendedContext := Context
 		sender: suspendedContext
 		receiver: self
 		method: (self class lookupSelector: #pvtSignal:list:)

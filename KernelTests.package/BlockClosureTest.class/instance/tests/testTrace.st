@@ -1,2 +1,2 @@
 testTrace
-	self assert: (ContextPart trace: aBlockContext) class = Rectangle.
+	self assert: (Context trace: aBlockContext) class = Rectangle.

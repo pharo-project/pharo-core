@@ -15,7 +15,7 @@ tryRunNativeCode: aCompiledMethod for: aReceiver withArgs: arguments
 		].
 		str cr;
 		nextPutAll: ' <primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode >'; cr;
-		nextPutAll: ' ^ ContextPart primitiveFailTokenFor: errorCode'.
+		nextPutAll: ' ^ Context primitiveFailTokenFor: errorCode'.
 	].
 
 	node := Smalltalk compiler
@@ -23,7 +23,7 @@ tryRunNativeCode: aCompiledMethod for: aReceiver withArgs: arguments
 		in: aCompiledMethod methodClass
 		classified: nil 
 		notifying: nil 
-		ifFail: [ ^ ContextPart primitiveFailTokenFor: nil ].
+		ifFail: [ ^ Context primitiveFailTokenFor: nil ].
 
 	m := node generate: aCompiledMethod trailer.
 	m flushCache.

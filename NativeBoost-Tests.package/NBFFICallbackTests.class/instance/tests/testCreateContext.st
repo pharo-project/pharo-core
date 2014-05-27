@@ -3,7 +3,7 @@ testCreateContext
 	| context |
 	
 	context := 
-		MethodContext 
+		Context 
 			sender: nil
 			receiver: 1
 			method: (self class compiledMethodAt: #dummyMethod: )

@@ -2,7 +2,7 @@ testVariablesAndOffsetsDo
 
 	"ContextCompilationTest new testVariablesAndOffsetsDo"
 	| contextClasses |
-	contextClasses := ContextPart withAllSuperclasses, ContextPart allSubclasses asArray.
+	contextClasses := Context withAllSuperclasses, Context allSubclasses asArray.
 	contextClasses do:
 		[:class|
 		class variablesAndOffsetsDo:

@@ -1,2 +1,2 @@
 testRunSimulated
-	self assert: (ContextPart runSimulated: aBlockContext) class = Rectangle.
+	self assert: (Context runSimulated: aBlockContext) class = Rectangle.

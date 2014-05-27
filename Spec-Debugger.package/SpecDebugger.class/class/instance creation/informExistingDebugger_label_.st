@@ -4,7 +4,7 @@ informExistingDebugger: aContext label: aString
 	if the methods were excuted outside of the debugger."
 	| ctx quickStepMethod oldSender baseContext |
 	ctx := thisContext.
-	quickStepMethod := ContextPart compiledMethodAt: #quickSend:to:with:super:.
+	quickStepMethod := Context compiledMethodAt: #quickSend:to:with:super:.
 	[ctx sender == nil or: [ctx sender method == quickStepMethod]] whileFalse: [ctx := ctx sender].
 	ctx sender == nil ifTrue: [^self].
 	baseContext := ctx.

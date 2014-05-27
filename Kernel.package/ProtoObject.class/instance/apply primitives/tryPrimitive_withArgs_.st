@@ -3,4 +3,4 @@ tryPrimitive: primIndex withArgs: argumentArray
 	execute primitives. See Object documentation whatIsAPrimitive."
 
 	<primitive: 118 error: code >
-	^ ContextPart primitiveFailTokenFor: code
+	^ Context primitiveFailTokenFor: code

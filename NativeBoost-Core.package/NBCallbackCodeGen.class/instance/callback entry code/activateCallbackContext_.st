@@ -2,7 +2,7 @@ activateCallbackContext: callbackClass
 
 	"Activate a callback context, which is a 
 	
-	MethodContext sender: s receiver: r method: m arguments: args 
+	Context sender: s receiver: r method: m arguments: args 
 	"
 
 		| ctx method fld |
@@ -14,26 +14,26 @@ activateCallbackContext: callbackClass
 		proxy positive32BitIntegerFor: EBP.		
 		proxy pushRemappableOop: EAX.  "push EBP -> remappable oops stack"
 	
-		proxy createInstanceOf: MethodContext size: method frameSize.
+		proxy createInstanceOf: Context size: method frameSize.
 		asm mov: EAX to: ctx.
 		
 		"Fill the context state, which is #('sender' 'pc' 'stackp' 'method' 'closureOrNil' 'receiver')"
 	
 		proxy integerObjectOf: method initialPC.
 		asm mov: ctx to: ECX;
-			mov: EAX to: ECX ptr + (proxy ivar: #pc in: MethodContext).
+			mov: EAX to: ECX ptr + (proxy ivar: #pc in: Context).
 	
 		proxy integerObjectOf: method numTemps.
 		asm mov: ctx to: ECX;
-			mov: EAX to: ECX ptr + (proxy ivar: #stackp in: MethodContext).
+			mov: EAX to: ECX ptr + (proxy ivar: #stackp in: Context).
 		
 		NativeBoost extraRootsRegistry emitFetchCallback: cbIndex generator: gen.
 		"EAX - callback oop"
 	
 		asm mov: ctx to: ECX;
-			mov: EAX to: ECX ptr + (proxy ivar: #receiver in: MethodContext);
+			mov: EAX to: ECX ptr + (proxy ivar: #receiver in: Context);
 			mov: EAX ptr + (proxy ivar: #enterMethod in: NBFFICallback) to: EDX;
-			mov: EDX to: ECX ptr + (proxy ivar: #method in: MethodContext).
+			mov: EDX to: ECX ptr + (proxy ivar: #method in: Context).
 			
 		
 
@@ -62,4 +62,4 @@ activateCallbackContext: callbackClass
 		"set a sender in new context to be the old context
 		ctx - old context, EAX - new context"
 		asm mov: ctx to: ECX.
-		asm mov: ECX to: EAX ptr + (proxy ivar: #sender in: MethodContext).
+		asm mov: ECX to: EAX ptr + (proxy ivar: #sender in: Context).

@@ -2,8 +2,8 @@ simulateValueWithArguments: anArray caller: aContext
 	| newContext sz |
 	(anArray class ~~ Array
 	 or: [numArgs ~= anArray size]) ifTrue:
-		[^ContextPart primitiveFailToken].
-	newContext := (MethodContext newForMethod: outerContext method)
+		[^Context primitiveFailToken].
+	newContext := (Context newForMethod: outerContext method)
 						setSender: aContext
 						receiver: outerContext receiver
 						method: outerContext method

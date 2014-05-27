@@ -5,7 +5,7 @@ testErrorCodeNotFoundIndexed
 	
 	result := self indexedBasicAt: 100.
 		
-	ctx := MethodContext 
+	ctx := Context 
 		sender: nil
 		receiver: nil
 		method: (Object>>#at: )
@@ -18,5 +18,5 @@ testErrorCodeNotFoundIndexed
 		
 	self assert: resultSimu isArray.	
 	self assert: resultSimu size = 2.
-	self assert: ContextPart  primitiveFailToken first == resultSimu first.
+	self assert: Context  primitiveFailToken first == resultSimu first.
 	self assert: result = resultSimu second.

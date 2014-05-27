@@ -4,7 +4,7 @@ tooDangerousClasses
 		"Object will break immediately"
 		#ProtoObject #Object
 		"Contexts and their superclasses"
-		#InstructionStream #ContextPart #MethodContext #BlockClosure
+		#InstructionStream #Context #Context #BlockClosure
 		"Superclasses of basic collections"
 		#Collection #SequenceableCollection #ArrayedCollection
 		"Collections known to the VM"

@@ -3,7 +3,7 @@ kernelClassesToExclude
 	True.
 	False.
 	BlockClosure.
-	MethodContext.
+	Context.
 	Array.
 	OrderedCollection.
 	Set.

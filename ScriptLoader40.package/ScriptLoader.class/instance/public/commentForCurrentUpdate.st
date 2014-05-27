@@ -1,0 +1,3 @@
+commentForCurrentUpdate
+ ^ '13258 indexOf: can be much faster...
+	https://pharo.fogbugz.com/f/cases/13258'

@@ -1,15 +1,15 @@
 hasPrimitiveFailed: result
-	"A primitive that fails doesn't always return ContextPart primitiveFailToken but returns ContextPart primitiveFailTokenFor: errorCode.
-	A possible errorCode is nil, which corresponds to ContextPart primitiveFailToken.
+	"A primitive that fails doesn't always return Context primitiveFailToken but returns Context primitiveFailTokenFor: errorCode.
+	A possible errorCode is nil, which corresponds to Context primitiveFailToken.
 	Here we loop over the errorCodes to know if the primitive has failed."
 	
 	|errorCodes|
 	
-	(self classOf: result) = ContextPart primitiveFailToken class
+	(self classOf: result) = Context primitiveFailToken class
 		ifFalse: [  ^ false ].
 		
 	errorCodes := SmalltalkImage current specialObjectsArray at: 52.
 	errorCodes do: [ :errorCode |
-		result = (ContextPart primitiveFailTokenFor: errorCode) ifTrue: [
+		result = (Context primitiveFailTokenFor: errorCode) ifTrue: [
 			^true ] ].
 	^false

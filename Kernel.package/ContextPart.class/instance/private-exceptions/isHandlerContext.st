@@ -1,2 +1,0 @@
-isHandlerContext
-	^false

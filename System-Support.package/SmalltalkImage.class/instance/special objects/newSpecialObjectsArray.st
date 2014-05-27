@@ -25,7 +25,7 @@ newSpecialObjectsArray
 	newArray at: 8 put: Array.
 	newArray at: 9 put: Smalltalk.
 	newArray at: 10 put: Float.
-	newArray at: 11 put: MethodContext.
+	newArray at: 11 put: Context.
 	newArray at: 12 put: nil. "Was BlockContext"
 	newArray at: 13 put: Point.
 	newArray at: 14 put: LargePositiveInteger.
@@ -61,8 +61,8 @@ newSpecialObjectsArray
 	newArray at: 34 put: 0@0.
 	newArray at: 35 put: #cannotInterpret:.
 	"Note: This must be fixed once we start using context prototypes (yeah, right)"
-	"(MethodContext new: CompiledMethod fullFrameSize)."
-	newArray at: 36 put: (self primitiveGetSpecialObjectsArray at: 36). "Is the prototype MethodContext (unused by the VM)"
+	"(Context new: CompiledMethod fullFrameSize)."
+	newArray at: 36 put: (self primitiveGetSpecialObjectsArray at: 36). "Is the prototype Context (unused by the VM)"
 	newArray at: 37 put: BlockClosure.
 	"(BlockContext new: CompiledMethod fullFrameSize)."
 	newArray at: 38 put: (self primitiveGetSpecialObjectsArray at: 38). "Is the prototype BlockContext (unused by the VM)"

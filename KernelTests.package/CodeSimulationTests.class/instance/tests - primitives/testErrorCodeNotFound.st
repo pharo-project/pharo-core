@@ -5,7 +5,7 @@ testErrorCodeNotFound
 	
 	result := self veryBasicAt: 1.
 		
-	ctx := MethodContext 
+	ctx := Context 
 		sender: nil
 		receiver: nil
 		method: (Object>>#at: )
@@ -17,5 +17,5 @@ testErrorCodeNotFound
 		doPrimitive: 117  method:  (self class>>#veryBasicAt:) receiver: self args: #(999).
 		
 	self assert: resultSimu isArray.	
-	self assert: ContextPart  primitiveFailToken first == resultSimu first.
+	self assert: Context  primitiveFailToken first == resultSimu first.
 	self assert: result = resultSimu second.
