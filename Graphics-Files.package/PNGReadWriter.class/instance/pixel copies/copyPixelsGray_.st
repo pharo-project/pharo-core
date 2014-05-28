@@ -7,7 +7,13 @@ copyPixelsGray: y
 		| blitter |
 		blitter := BitBlt bitPokerToForm: form.
 		0 to: width - 1 do: [ :x |
-			blitter pixelAt: x @ y put: 255 - (thisScanline at: x * 2 + 1) ].
+			| high low value |
+			high := thisScanline at: x * 2 + 1.
+			low := thisScanline at: x * 2 + 2.
+			value := (high * 256 + low = transparentPixelValue)
+				ifTrue: [0 "transparent"]
+				ifFalse: [high max: 1].
+			blitter pixelAt: x @ y put: value ].
 			^self ].
 
 	"Just copy the bits"
