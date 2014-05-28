@@ -1,2 +1,0 @@
-defaultOrNil
-	^ default

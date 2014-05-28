@@ -1,3 +1,0 @@
-askForNewDefaultOnNextRequest
-
-	default := nil.

@@ -1,1 +1,0 @@
-URLs that instruct a browser to do something.

@@ -1,2 +1,0 @@
-args: arguments
-	args := arguments

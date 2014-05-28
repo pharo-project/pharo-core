@@ -3,4 +3,4 @@ setUp
 	aCompiledMethod := Rectangle methodDict at: #rightCenter.
 	aReceiver := 100@100 corner: 200@200.
 	aSender := thisContext.
-	aContext := Context sender: aSender receiver: aReceiver method: aCompiledMethod arguments: #(). 
+	aMethodContext := Context sender: aSender receiver: aReceiver method: aCompiledMethod arguments: #(). 

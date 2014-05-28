@@ -1,4 +1,8 @@
 commentForCurrentUpdate
- ^ '13280 integrate pharo dark theme
-	https://pharo.fogbugz.com/f/cases/13280
-'
+ ^ '13278 ContextPart and MethodContext merged, remaining bugs
+	https://pharo.fogbugz.com/f/cases/13278
+
+13282 Failing test: testGForceInria
+	https://pharo.fogbugz.com/f/cases/13282
+
+- Unload Deprecated30'

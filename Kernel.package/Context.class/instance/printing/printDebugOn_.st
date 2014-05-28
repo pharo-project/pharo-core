@@ -4,7 +4,7 @@ printDebugOn: aStream
 		For blocks only print the first line"
 	| blockSource blockSourceSize |
 	
-	super printOn: aStream.
+	self printOn: aStream.
 	self outerContext ifNil: [ ^ self ].
 	"print the block..."
 	aStream 

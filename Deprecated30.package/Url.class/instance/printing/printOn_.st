@@ -1,2 +1,0 @@
-printOn: aStream
-	^self subclassResponsibility

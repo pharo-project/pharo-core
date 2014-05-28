@@ -1,2 +1,0 @@
-parameters: params
-	parameters := params

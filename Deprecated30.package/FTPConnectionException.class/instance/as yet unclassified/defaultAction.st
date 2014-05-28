@@ -1,3 +1,0 @@
-defaultAction
-
-	self resume

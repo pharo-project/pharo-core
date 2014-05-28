@@ -1,2 +1,0 @@
-asText
-	^self asString asText

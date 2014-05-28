@@ -1,2 +1,0 @@
-main: mainType
-	main := mainType

@@ -1,3 +1,3 @@
 testActivateReturnValue
-	self assert:  ((aSender activateReturn: aContext value: #()) isKindOf: Context).
-	self assert:  ((aSender activateReturn: aContext value: #()) receiver = aContext).
+	self assert:  ((aSender activateReturn: aMethodContext value: #()) isKindOf: Context).
+	self assert:  ((aSender activateReturn: aMethodContext value: #()) receiver = aMethodContext).

@@ -1,2 +1,0 @@
-receiver: aReceiver
-	receiver := aReceiver

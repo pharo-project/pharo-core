@@ -1,3 +1,0 @@
-schemeName
-
-	^ 'browser'
