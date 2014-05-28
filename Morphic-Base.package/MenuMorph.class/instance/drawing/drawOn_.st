@@ -10,6 +10,6 @@ drawOn: aCanvas
 			aCanvas
 				frameAndFillRectangle: self innerBounds
 				fillColor: Color transparent
-				borderWidth: self theme settings menuBorderWidth
-				borderColor: self theme settings menuKeyboardFocusColor
+				borderWidth: self theme menuBorderWidth
+				borderColor: self theme menuKeyboardFocusColor
 		].

@@ -1,12 +1,12 @@
 backgroundColorFor: rect
 	"Return the current fillStyle of the receiver."
 	| basicColor defaultColor |
+
+	defaultColor := self theme textEditorNormalFillStyleFor: self.
 	
-	defaultColor := Smalltalk ui theme textEditorNormalFillStyleFor: self.
-	
-	"The next line is the minimal change to get Vistary Theme working for Case 13112 during Pharo 3 Beta. 
-	Case 13121 is logged to clean this further in Pharo 4"
-	(defaultColor isKindOf: FillStyle) ifTrue: [ ^defaultColor ].
+	"The next line is the minimal change to get Vistary Theme working for Case 
+	13112 during Pharo 3 Beta. Case 13121 is logged to clean this further in Pharo 4"
+	(defaultColor isKindOf: FillStyle) ifTrue: [ ^ defaultColor ].
 	
 	basicColor := self basicColor.
 	
@@ -39,7 +39,6 @@ backgroundColorFor: rect
 						direction: (rect width)@0;
 						normal: 1@0;
 						radial: false;
-						yourself }
-"				^ transitionColor mixed: overshoot / transitionSpan with: basicColor" ] ].
+						yourself } ] ].
 	
 	^ basicColor

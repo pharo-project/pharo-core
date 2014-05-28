@@ -11,7 +11,7 @@ newTreeIn: aThemedMorph for: aModel list: listSelector selected: getSelector cha
 		menu: nil
 		keystroke: nil;
 		cornerStyle: aThemedMorph preferredCornerStyle;
-		color: Color white;
+		"color: Color white;"
 		borderStyle: (BorderStyle inset width: 1);
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;

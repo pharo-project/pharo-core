@@ -2,10 +2,11 @@ drawOn: aCanvas
 	| tRect sRect columnScanner colorToUse columnLeft |
 	tRect := self toggleRectangle.
 	sRect := bounds withLeft: tRect right + 4.
+
 	self 
 		drawToggleOn: aCanvas
 		in: tRect.
-	colorToUse := complexContents preferredColor ifNil: [ color ].
+	colorToUse := complexContents preferredColor ifNil: [ self theme textColor ].
 	icon isNil ifFalse: 
 		[ aCanvas 
 			translucentImage: icon
@@ -18,8 +19,7 @@ drawOn: aCanvas
 				treeRenderOn: aCanvas 
 				bounds: sRect 
 				color: colorToUse 
-				font: self 
-				fontToUse 
+				font: self fontToUse 
 				from: self ]
 		ifFalse: 
 			[ columnLeft := sRect left.

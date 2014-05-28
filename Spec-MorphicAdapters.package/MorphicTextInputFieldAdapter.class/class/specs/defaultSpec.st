@@ -8,8 +8,8 @@ defaultSpec
 			#ghostText:.						{	#model. 	#ghostText			}.
 			#enabled:.							{	#model. 	#enabled				}.
 			#encrypted:.						{ 	#model.	#encrypted			}.
-			#borderWidth:.						#(model borderWidth).
-			#borderColor:.						#(model borderColor).
+			"#borderWidth:.						#(model borderWidth).
+			#borderColor:.						#(model borderColor)."
 			#setBalloonText:.					{ #model . #help}.
 			#dragEnabled:.						#(model dragEnabled).
 			#dropEnabled:.						#(model dropEnabled).	

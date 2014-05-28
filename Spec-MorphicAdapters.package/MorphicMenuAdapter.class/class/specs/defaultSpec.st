@@ -4,4 +4,4 @@ defaultSpec
 	^ {#ToolDockingBarMorph.
 		#hResizing:. #spaceFill.
 		#vResizing:. #spaceFill.
-		#borderColor:. Color transparent}
+		"#borderColor:. Color transparent"}

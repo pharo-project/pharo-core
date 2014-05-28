@@ -7,7 +7,7 @@ inAColumn: aCollectionOfMorphs
 		vResizing: #shrinkWrap;
 		hResizing: #shrinkWrap;
 		layoutInset: 1;
-		borderColor: Color black;
+		borderColor: self theme borderColor;
 		borderWidth: 1;
 		wrapCentering: #center;
 		cellPositioning: #topCenter.

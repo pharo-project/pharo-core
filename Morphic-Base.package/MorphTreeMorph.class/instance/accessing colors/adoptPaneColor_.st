@@ -3,4 +3,4 @@ adoptPaneColor: paneColor
 	
 	super adoptPaneColor: paneColor.
 	paneColor ifNil: [^self].
-	self color: (self preferedPaneColor ifNil: [paneColor veryMuchLighter]).
+	self color: (self preferedPaneColor ifNil: [ Smalltalk ui theme backgroundColor ] ).

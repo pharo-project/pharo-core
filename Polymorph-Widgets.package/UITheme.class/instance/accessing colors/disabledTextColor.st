@@ -1,0 +1,2 @@
+disabledTextColor 
+	^ self disabledColor

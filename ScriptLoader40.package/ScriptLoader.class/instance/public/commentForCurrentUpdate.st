@@ -1,3 +1,4 @@
 commentForCurrentUpdate
- ^ '13258 indexOf: can be much faster...
-	https://pharo.fogbugz.com/f/cases/13258'
+ ^ '13280 integrate pharo dark theme
+	https://pharo.fogbugz.com/f/cases/13280
+'

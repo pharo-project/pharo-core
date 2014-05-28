@@ -2,6 +2,6 @@ minHeight
 	"answer the receiver's minHeight"
 	^ self isInDockingBar
 		ifTrue: [owner isVertical
-				ifTrue: [2]
+				ifTrue: [ self theme menuBorderWidth ]
 				ifFalse: [10]]
-		ifFalse: [2]
+		ifFalse: [ self theme menuBorderWidth ]

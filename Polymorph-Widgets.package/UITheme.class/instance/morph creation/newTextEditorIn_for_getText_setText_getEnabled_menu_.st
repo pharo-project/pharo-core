@@ -14,6 +14,6 @@ newTextEditorIn: aThemedMorph for: aModel getText: getSel setText: setSel getEna
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;
 		borderStyle: (BorderStyle inset width: 1);
-		color: Color white;
-		selectionColor: self selectionColor;
+		"color: Color darkGray;
+		selectionColor: self selectionColor;"
 		removeProperty: #theme

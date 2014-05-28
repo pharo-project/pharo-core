@@ -6,5 +6,7 @@ buildStatus
 		accept: nil 
 		readSelection: nil 
 		menu: #statusMenu:)
-			getColorSelector: #statusColor ; yourself.
+			textColor: self theme textColorForNonStandardBackground;
+			getColorSelector: #statusColor ; 
+			yourself.
 	

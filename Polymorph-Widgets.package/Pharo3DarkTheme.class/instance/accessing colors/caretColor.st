@@ -1,0 +1,2 @@
+caretColor
+	^ Color lightBlue.

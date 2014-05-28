@@ -14,5 +14,4 @@ newAutoAcceptTextEditorIn: aThemedMorph for: aModel getText: getSel setText: set
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;
 		borderStyle: (BorderStyle inset width: 1);
-		color: Color white;
 		selectionColor: self selectionColor

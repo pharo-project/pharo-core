@@ -1,8 +1,8 @@
 defaultSpec
 	<spec>
 	^ {#PluggableIconListMorph.
-			#color:. Color white.
-	    		#model:. 						#model.
+			"#color:. Color white."
+	    	#model:. 						#model.
 			#getListSizeSelector:. 			#listSize.
 			#getListElementSelector:. 		#listElementAt:.
 			#getIndexSelector:. 			#getIndex.
@@ -14,8 +14,8 @@ defaultSpec
 			#getMenuSelector:.			#menu:shifted:.
 			#setMultipleSelection:.			{#model. #multiSelection}.
 			#wrapSelector:. 				#wrapItem:index:.
-			#borderWidth:.						#(model borderWidth).
-			#borderColor:.						#(model borderColor).
+			"#borderWidth:.						#(model borderWidth).
+			#borderColor:.						#(model borderColor)."
 			#dragEnabled:.						#(model dragEnabled).
 			#dropEnabled:.						#(model dropEnabled).	
 			#setBalloonText:.					{ #model . #help}.

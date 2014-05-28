@@ -5,7 +5,6 @@ buildCommentPane
 		accept: #addComment:notifying:
 		readSelection: nil
 		menu: #codePaneMenu:shifted:.		
-	"commentTextArea color: Color white."
 	commentTextArea
 		askBeforeDiscardingEdits: true;
 		vResizing: #spaceFill;

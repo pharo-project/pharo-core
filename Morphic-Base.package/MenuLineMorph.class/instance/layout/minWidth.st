@@ -3,5 +3,5 @@ minWidth
 	^ self isInDockingBar
 		ifTrue: [owner isVertical
 				ifTrue: [10]
-				ifFalse: [2]]
-		ifFalse: [10]
+				ifFalse: [ self theme menuBorderWidth ] ]
+		ifFalse: [ 10 ]

@@ -1,3 +1,2 @@
 defaultItemColor
-
-	^ Color black
+	^ self theme textColor

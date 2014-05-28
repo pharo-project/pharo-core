@@ -21,7 +21,6 @@ newAutoAcceptTextEntryIn: aThemedMorph for: aModel  get: getSel set: setSel clas
 		hResizing: #spaceFill;
 		vResizing: #rigid;
 		borderStyle: (BorderStyle inset width: 1);
-		color: Color white;
 		selectionColor: self selectionColor;
 		hideScrollBarsIndefinitely;
 		extent: 24@(aFont height + 8);

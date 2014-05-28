@@ -3,7 +3,6 @@ defaultSpec
 	
 	^ {#MorphTreeMorph.
 		#model:.  		#(model treeModel).
-		
 		#dragEnabled:. #(model dragEnabled).
 		#dropEnabled:. #(model dropEnabled).
 		#initializeColumsFrom:. #(model).
@@ -15,12 +14,12 @@ defaultSpec
 		#iconBlock:.	#(model iconBlock).
 		#rowInset:.		#(model rowInset).
 		#keystrokeActionSelector:. #keyStroke:.
-		#preferedPaneColor:. #(model preferedPaneColor).
+		"#preferedPaneColor:. #(model preferedPaneColor)."
 		#multiSelection:.	#(model multiSelection).
 		#autoMultiSelection:.	#(model autoMultiSelection).
 		#removeOnlyLastSelected:. #(model #selectOnlyLastHighlighted).
 		#isCheckList:. #(model isCheckList).
 		#doubleClickSelector:. #doubleClick.
 		#getMenuSelector:. #menu:shifted:.
-		#rowColorForEven:odd:. #(model evenRowColor). #(model oddRowColor). 
+		"#rowColorForEven:odd:. #(model evenRowColor). #(model oddRowColor)." 
 		#buildContents }

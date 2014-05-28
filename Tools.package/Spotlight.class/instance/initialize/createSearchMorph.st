@@ -16,7 +16,7 @@ createSearchMorph
 		hResizing: #spaceFill;
 		vResizing: #rigid;
 		borderStyle: (BorderStyle inset width: 0);
-		color: Color white ;
+		color: self theme backgroundColor;
 		selectionColor:  Smalltalk ui theme selectionColor ;
 		hideScrollBarsIndefinitely;
 		extent: 24@(Smalltalk ui theme textFont height + 8);

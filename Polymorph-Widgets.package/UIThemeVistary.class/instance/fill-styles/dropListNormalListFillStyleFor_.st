@@ -2,6 +2,7 @@ dropListNormalListFillStyleFor: aDropList
 	"Return the normal fillStyle for the list of the given drop list."
 	
 	|c inner|
+
 	c := aDropList paneColor alphaMixed: 0.1 with: Color white.
 	inner := aDropList listMorph innerBounds.
 	^(GradientFillStyle ramp: {

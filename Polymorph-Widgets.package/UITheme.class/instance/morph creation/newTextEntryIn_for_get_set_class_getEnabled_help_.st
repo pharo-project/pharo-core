@@ -17,7 +17,7 @@ newTextEntryIn: aThemedMorph for: aModel get: getSel set: setSel class: aClass g
 		hResizing: #spaceFill;
 		vResizing: #rigid;
 		borderStyle: (BorderStyle inset width: 1);
-		color: Color white;
+		"color: Color white;"
 		selectionColor: self selectionColor;
 		hideScrollBarsIndefinitely;
 		extent: 24@(self textFont height + 8);

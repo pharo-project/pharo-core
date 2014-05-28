@@ -1,0 +1,2 @@
+selectionTextColor
+ ^ self settings selectionTextColor

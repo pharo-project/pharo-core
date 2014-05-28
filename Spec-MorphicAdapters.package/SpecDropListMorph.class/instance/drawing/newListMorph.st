@@ -14,7 +14,7 @@ newListMorph
 			wrapSelector: #wrapItem:index:;
 			roundedCorners: #(2 3);
 			setProperty: #morphicLayerNumber toValue: 5;
-			color: self color;
+			"color: self color;"
 			borderStyle: (self theme dropListNormalListBorderStyleFor: self);
 			on: #mouseDown send: #listMouseDown: to: self;
 			yourself.

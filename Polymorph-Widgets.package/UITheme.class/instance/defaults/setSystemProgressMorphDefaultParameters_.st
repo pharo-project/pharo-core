@@ -3,6 +3,6 @@ setSystemProgressMorphDefaultParameters: aProgressMorph
 	aProgressMorph color: self settings derivedMenuColor.
 	self settings preferRoundCorner
 		ifTrue: [aProgressMorph useRoundedCorners].
-	aProgressMorph borderWidth: self settings menuBorderWidth.
-	aProgressMorph borderColor: self settings menuBorderColor.
+	aProgressMorph borderWidth: self menuBorderWidth.
+	aProgressMorph borderColor: self menuBorderColor.
 	aProgressMorph updateColor.

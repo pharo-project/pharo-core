@@ -1,2 +1,2 @@
 width: aNumber
-	^self width: aNumber color: Color black
+	^self width: aNumber color: Smalltalk ui theme borderColor

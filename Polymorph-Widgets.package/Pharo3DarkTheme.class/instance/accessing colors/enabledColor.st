@@ -1,0 +1,2 @@
+enabledColor 
+	^ self textColor

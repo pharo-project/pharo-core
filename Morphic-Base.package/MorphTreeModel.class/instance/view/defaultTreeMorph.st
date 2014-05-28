@@ -14,9 +14,9 @@ defaultTreeMorph
 			columnInset: 0; 
 			rowInset: 2; 
 			keystrokeActionSelector: #keyStroke:;
-			preferedPaneColor: Color white;
+			"preferedPaneColor: Color white;"
 			multiSelection: self multiSelection;
 			autoMultiSelection: self autoMultiSelection;
 			itemStringGetter: [:item | self wrapItem: item];
-			isCheckList: self isCheckList;
-			rowColorForEven: Color veryLightGray muchLighter odd: Color white.
+			isCheckList: self isCheckList";
+			rowColorForEven: Color veryLightGray muchLighter odd: Color white".

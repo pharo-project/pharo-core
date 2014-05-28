@@ -1,2 +1,2 @@
 secondarySelectionColor
-	^  self theme currentSettings secondarySelectionColor
+	^  self theme secondarySelectionColor

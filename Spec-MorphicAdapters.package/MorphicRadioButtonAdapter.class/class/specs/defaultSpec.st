@@ -1,7 +1,7 @@
 defaultSpec
 	<spec>
 	^ {#CheckboxMorph.
-	    		#on:selected:changeSelected:. 	#model. #state. #state:.
+	    	#on:selected:changeSelected:. 	#model. #state. #state:.
 			#label:.								{	#model. #label		}.
 			#labelClickable:.					{	#model. #labelClickable}.
 			#beRadioButton.
@@ -12,5 +12,5 @@ defaultSpec
 			#dropEnabled:.						#(model dropEnabled).	
 			#dragEnabled:.						#(model dragEnabled).
 			#dropEnabled:.						#(model dropEnabled).					
-			#borderWidth:.						#(model borderWidth).
-			#borderColor:.						#(model borderColor)}
+			"#borderWidth:.						#(model borderWidth).
+			#borderColor:.						#(model borderColor)"}

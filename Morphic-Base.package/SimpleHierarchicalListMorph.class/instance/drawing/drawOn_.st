@@ -6,10 +6,10 @@ drawOn: aCanvas
 		[aCanvas clipBy: self innerBounds during: [:c |
 			c
 				fillRectangle: self searchedFrame
-				color: (self secondarySelectionColor ifNil: [self theme settings  secondarySelectionColor])]].
+				color: (self secondarySelectionColor ifNil: [self theme secondarySelectionColor])]].
 	selectedMorph ifNotNil:
 		[aCanvas clipBy: self innerBounds during: [:c |
 			c
 				fillRectangle: self selectionFrame
-				color: (self selectionColorToUse ifNil: [self theme settings  selectionColor])]].
+				color: (self selectionColorToUse ifNil: [ self theme selectionColor ]) ] ].
 	self drawLinesOn: aCanvas

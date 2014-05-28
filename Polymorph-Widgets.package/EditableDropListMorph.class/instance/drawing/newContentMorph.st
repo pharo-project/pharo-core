@@ -17,7 +17,6 @@ newContentMorph
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;
 		borderStyle: (BorderStyle simple width: 0);
-		color: Color white;
 		hideScrollBarsIndefinitely;
 		setBalloonText: nil.
 		

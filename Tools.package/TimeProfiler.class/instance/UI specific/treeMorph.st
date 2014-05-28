@@ -9,5 +9,5 @@ treeMorph
 		treeLineDashes: {5. 1};
 		lineColorBlock: [:node | {Color gray. Color orange. Color brown. Color magenta. Color blue} at: ((node level \\ 5) + 1)];
 		doubleClickSelector: #browseItem;
-		rowColorForEven: Color white darker;
+		rowColorForEven: Smalltalk ui theme lightBackgroundColor;
 		yourself

@@ -4,4 +4,4 @@ initialize
 	owner := nil.
 	submorphs := EmptyArray.
 	bounds := self defaultBounds.
-	color := self defaultColor
+	color := self defaultColor.

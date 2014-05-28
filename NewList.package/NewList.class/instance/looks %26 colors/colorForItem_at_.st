@@ -1,5 +1,5 @@
 colorForItem: item at: index
 
 	^ (self isSelectedIndex: index)
-		ifTrue: [ self theme currentSettings selectionTextColor ]
+		ifTrue: [ self theme selectionTextColor ]
 		ifFalse: [ self defaultItemColor ]

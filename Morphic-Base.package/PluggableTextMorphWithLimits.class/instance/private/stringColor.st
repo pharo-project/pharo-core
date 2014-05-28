@@ -2,10 +2,10 @@ stringColor
 	| size |
 	
 	size := self textSize.
-	self warningLimit negative ifTrue: [ ^ Color black ].
+	self warningLimit negative ifTrue: [ ^ self theme textColor ].
 	^ size >= self warningLimit
 			ifTrue: [
 				size >= self alertLimit
 					ifTrue: [ Color red ]
 					ifFalse: [ Color orange ]]
-			ifFalse: [ Color black ].
+			ifFalse: [ self theme textColor ].

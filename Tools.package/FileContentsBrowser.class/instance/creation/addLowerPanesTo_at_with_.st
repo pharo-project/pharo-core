@@ -7,7 +7,7 @@ addLowerPanesTo: window at: nominalFractions with: editString
 		vResizing: #spaceFill;
 		layoutInset: 0;
 		borderWidth: 1;
-		borderColor: Color black;
+		borderColor: Smalltalk ui theme borderColor;
 		layoutPolicy: ProportionalLayout new.
 
 	codePane := PluggableTextMorph on: self text: #contents accept: #contents:notifying:

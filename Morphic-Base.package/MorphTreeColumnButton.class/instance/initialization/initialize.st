@@ -1,5 +1,5 @@
 initialize
 	super initialize.
 	self enableDragNDrop: true.
-	self fillStyle: (Color veryLightGray lighter).
-	self borderColor: Color veryLightGray
+	self fillStyle: (Smalltalk ui theme buttonColorFor: self).
+	self borderColor: Smalltalk ui theme borderColor

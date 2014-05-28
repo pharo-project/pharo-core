@@ -1,0 +1,2 @@
+basicBorderColor: aColor 
+	borderColor := aColor

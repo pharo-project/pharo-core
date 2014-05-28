@@ -1,2 +1,2 @@
 defaultColor 
-	^ Smalltalk ui theme selectionColor muchDarker
+	^ self theme spotlightWindowColor.

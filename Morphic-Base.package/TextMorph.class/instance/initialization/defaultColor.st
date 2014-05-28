@@ -1,3 +1,3 @@
 defaultColor
 
-	^ defaultColor ifNil: [ Color black ]
+	^ defaultColor ifNil: [ self theme textColor ]

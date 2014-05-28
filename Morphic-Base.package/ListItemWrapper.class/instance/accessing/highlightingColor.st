@@ -1,0 +1,2 @@
+highlightingColor
+	^ self theme selectionColor

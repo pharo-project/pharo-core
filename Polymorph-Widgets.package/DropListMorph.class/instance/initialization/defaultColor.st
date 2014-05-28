@@ -1,4 +1,4 @@
 defaultColor
 	"Answer the default color of the receiver."
 
-	^Color white
+	^ self theme backgroundColor

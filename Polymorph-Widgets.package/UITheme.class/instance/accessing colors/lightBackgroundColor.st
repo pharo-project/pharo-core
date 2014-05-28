@@ -1,0 +1,2 @@
+lightBackgroundColor 
+	^ Color veryLightGray muchLighter

@@ -1,0 +1,2 @@
+flatMenu
+	^ self settings flatMenu

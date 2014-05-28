@@ -1,3 +1,3 @@
 fontColor
 
-	^ Color black
+	^ self theme textColor

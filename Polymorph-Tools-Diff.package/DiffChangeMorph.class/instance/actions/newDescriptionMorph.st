@@ -8,6 +8,6 @@ newDescriptionMorph
 			listCentering: #bottomRight})
 		layoutInset: 0;
 		cellInset: 2;
-		fillStyle: Color white;
+		"fillStyle: Color white;"
 		borderStyle: (self theme listNormalBorderStyleFor: self)
 		

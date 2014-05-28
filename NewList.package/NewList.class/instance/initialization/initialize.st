@@ -6,7 +6,7 @@ initialize
 	lastKeystrokeTime := 0.
 	lastKeystrokes := ''.
 	
-	drawColor := Color white asValueHolder.
+	drawColor := self theme backgroundColor asValueHolder.
 	model := nil asValueHolder.
 	isInitialized := false asValueHolder.
 	isMultipleSelection := false asValueHolder.

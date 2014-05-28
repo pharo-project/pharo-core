@@ -14,10 +14,10 @@ defaultTreeMorph
 			columnInset: 0; 
 			rowInset: 2; 
 			keystrokeActionSelector: #keyStroke:;
-			preferedPaneColor: Color white;
+			"preferedPaneColor: Color white;"
 			multiSelection: self multiSelection;
 			autoMultiSelection: self autoMultiSelection;
 			isCheckList: self isCheckList;
 			doubleClickSelector: #doubleClick;
-			getMenuSelector: #menu:shifted:;
-			rowColorForEven: Color veryLightGray muchLighter odd: Color white.
+			getMenuSelector: #menu:shifted:";
+			rowColorForEven: Color veryLightGray muchLighter odd: Color white".

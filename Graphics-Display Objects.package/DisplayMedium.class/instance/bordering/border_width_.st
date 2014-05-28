@@ -1,6 +1,9 @@
 border: aRectangle width: borderWidth 
 	"Paint a border whose rectangular area is defined by aRectangle. The 
-	width of the border of each side is borderWidth. Uses black for 
+	width of the border of each side is borderWidth. Uses theme borderColor for 
 	drawing the border."
 
-	self border: aRectangle width: borderWidth fillColor: Color black.
+	self 
+		border: aRectangle 
+		width: borderWidth 
+		fillColor: Smalltalk ui theme borderColor.

@@ -11,8 +11,8 @@ defaultSpec
 		send: #max: withArguments: #(#(model max));
 		send: #min: withArguments: #(#(model min));		
 		send: #quantum: withArguments: #(#(model quantum));
-		send: #borderWidth: withArguments: #(#(model borderWidth));
-		send: #borderColor: withArguments: #(#(model borderColor));
+		"send: #borderWidth: withArguments: #(#(model borderWidth));
+		send: #borderColor: withArguments: #(#(model borderColor));"
 		send:#setBalloonText: withArguments:	#(#(model help));
 		send: #vResizing: withArguments: #(spaceFill);
 		send: #hResizing: withArguments: #(spaceFill);

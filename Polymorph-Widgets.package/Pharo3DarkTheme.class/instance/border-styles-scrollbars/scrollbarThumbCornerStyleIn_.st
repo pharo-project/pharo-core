@@ -1,0 +1,2 @@
+scrollbarThumbCornerStyleIn: aThemedMorph	
+	^#square

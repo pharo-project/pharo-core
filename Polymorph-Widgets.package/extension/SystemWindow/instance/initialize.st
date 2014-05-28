@@ -6,12 +6,8 @@ initialize
 	isCollapsed := false.
 	activeOnlyOnTop := true.
 	paneMorphs := Array new.
-	borderColor := Color lightGray.
-	borderWidth := 1.
-	self color: Color lightGray lighter lighter lighter.
 	self layoutPolicy: ProportionalLayout new.
 	self clipSubmorphs: true.
-	
 	self theme
 		configureWindowBorderFor: self;
 		configureWindowDropShadowFor: self.	

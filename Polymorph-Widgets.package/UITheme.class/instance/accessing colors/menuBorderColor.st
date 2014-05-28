@@ -1,0 +1,2 @@
+menuBorderColor
+	^  self settings menuBorderColor

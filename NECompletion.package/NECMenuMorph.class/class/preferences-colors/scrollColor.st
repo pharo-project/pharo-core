@@ -1,2 +1,2 @@
 scrollColor
-	^ Smalltalk ui theme settings selectionColor
+	^ Smalltalk ui theme selectionColor

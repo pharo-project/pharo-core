@@ -1,9 +1,9 @@
 defaultSpec
 	<spec>
 	^ {#PluggableMultiColumnListMorph.
-			#color:. Color white.
+			"#color:. Color white."
 			#wrapSelector:. 				#wrapItem:index:.
-	    		#model:. 						#model.
+	    	#model:. 						#model.
 			#getListSizeSelector:. 			#listSize.
 			#getIndexSelector:. 			#getIndex.
 			#setIndexSelector:. 			#setIndex:.
@@ -15,8 +15,8 @@ defaultSpec
 			#dragEnabled:.						#(model dragEnabled).
 			#dropEnabled:.						#(model dropEnabled).	
 			#setMultipleSelection:.			{#model. #multiSelection}.
-			#borderWidth:.						#(model borderWidth).
-			#borderColor:.						#(model borderColor).
+			"#borderWidth:.						#(model borderWidth)."
+			"#borderColor:.						#(model borderColor)."
 			#setBalloonText:.					{ #model . #help}.
 			#hResizing:. 					#spaceFill.
 			#vResizing:. 					#spaceFill}

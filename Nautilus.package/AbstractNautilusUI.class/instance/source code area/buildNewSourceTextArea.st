@@ -9,7 +9,6 @@ buildNewSourceTextArea
 				
 	sourceTextArea
 		askBeforeDiscardingEdits: true;
-		"color: Color white;"
 		lockSelector: #lockTextArea:from:;
 		canLockChangeSelector: #canChangeLockFor:;
 		vResizing: #spaceFill;

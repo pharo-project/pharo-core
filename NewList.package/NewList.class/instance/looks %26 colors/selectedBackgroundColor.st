@@ -1,3 +1,3 @@
 selectedBackgroundColor
 
-	^ self theme settings selectionColor
+	^ self theme selectionColor

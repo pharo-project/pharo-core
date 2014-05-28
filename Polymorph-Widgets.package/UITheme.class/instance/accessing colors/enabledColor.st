@@ -1,0 +1,2 @@
+enabledColor 
+	^ Color black

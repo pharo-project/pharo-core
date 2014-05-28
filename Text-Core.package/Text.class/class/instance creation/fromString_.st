@@ -8,7 +8,4 @@ fromString: aString
 
   ^ self
     string: aString
-    attributes:{
-      (TextFontChange fontNumber: fontNumber).
-      ( TextColor color: Color black ) 
-      }
+    attributes:{ "No default attributes" }
