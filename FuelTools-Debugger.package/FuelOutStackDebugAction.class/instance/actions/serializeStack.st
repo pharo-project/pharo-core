@@ -15,6 +15,7 @@ serializeStack
 
 	[ self class
 		serializeTestFailureContext: self interruptedContext copyStack		
-		toFileNamed: fileName	] 
+		toFileNamed: fileName.
+		self inform: 'Stack fuelled to file: ' , fileName asFileReference fullName ] 
 	on: Error 
-	do: [:err| "simply continue..." ].
+	do: [:err| self inform: 'Stack fuelling failed ', String cr, err printString "and simply continue..." ].
