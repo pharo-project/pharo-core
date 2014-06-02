@@ -10,8 +10,5 @@ addMiscExtrasTo: aMenu
 		[subMenu add: 'adhere to edge...' translated action: #adhereToEdge.
 		subMenu addLine].
 
-	subMenu
-		add: 'add mouse up action' translated action: #addMouseUpAction;
-		add: 'remove mouse up action' translated action: #removeMouseUpAction.
 	subMenu addLine.
 	aMenu add: 'extras...' translated subMenu: subMenu
