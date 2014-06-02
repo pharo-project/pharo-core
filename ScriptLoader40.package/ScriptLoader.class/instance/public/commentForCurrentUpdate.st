@@ -1,5 +1,5 @@
 commentForCurrentUpdate
- ^ '13270 Starting to Clean Fonts - Package introduction
-	https://pharo.fogbugz.com/f/cases/13270
+ ^ '12858 Remove hasRolloverBorder (Part 0)
+	https://pharo.fogbugz.com/f/cases/12858
 
 '

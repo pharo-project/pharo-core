@@ -3,5 +3,4 @@ outerBounds
 	| box |
 	box := self bounds.
 	self hasDropShadow ifTrue:[box := self expandFullBoundsForDropShadow: box].
-	self hasRolloverBorder ifTrue:[box := self expandFullBoundsForRolloverBorder: box].
 	^box

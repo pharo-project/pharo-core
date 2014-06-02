@@ -11,8 +11,6 @@ fullDrawOn: aCanvas
 		multi-canvas so that we can cross-optimize some drawing operations."
 		"Pass 1: Draw eventual drop-shadow"
 		self hasDropShadow ifTrue: [ self drawDropShadowOn: aCanvas ].
-		(self hasRolloverBorder and: [(aCanvas seesNothingOutside: self bounds) not])
-			ifTrue: [self drawRolloverBorderOn: aCanvas].
 
 		"Pass 2: Draw receiver itself"
 		
