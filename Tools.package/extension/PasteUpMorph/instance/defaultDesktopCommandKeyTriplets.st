@@ -8,7 +8,6 @@ that will provide the default desktop command key handlers.  If the selector tak
 		{ $b.	Smalltalk tools browser.			#open.										'Open a new System Browser'}.
 		{ $k.	Smalltalk tools workspace.			#open.										'Open a new, blank Workspace'}.
 		{ $t.	Smalltalk tools transcript.			#open.										'Make a System Transcript visible'}.
-		{ $C.	self.								#findAChangeSorter:.						'Make a Change Sorter visible'}.
 		{ $R.	Smalltalk tools recentMessageList.#open.										'Open a Recent Submissions browser'}.
 		{ $W.	Smalltalk tools finder. 				#open.						         		  	'Open a new Finder'}.
 		{ $Z.	Smalltalk tools changeList. 			#browseRecentLog.						'Browse recently-logged changes'}.
