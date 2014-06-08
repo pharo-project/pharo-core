@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '13281 Wrong environment when browsing scoped
+update40015
+	"self new update40015"
+	self withUpdateLog: '13281 Wrong environment when browsing scoped
 	https://pharo.fogbugz.com/f/cases/13281
 
 13301 Update metacelloPlatformAttributes
@@ -11,4 +12,6 @@ commentForCurrentUpdate
 13285 duplicated test: testLocalMethodsOfTheClassShouldNotBeRepeatedInItsTraits
 	https://pharo.fogbugz.com/f/cases/13285
 
-'
+'.
+	self loadTogether: self script15 merge: false.
+	self flushCaches.
