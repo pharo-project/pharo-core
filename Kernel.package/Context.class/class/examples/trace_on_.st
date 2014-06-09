@@ -1,4 +1,4 @@
-trace: aBlock on: aStream		"ContextPart trace: [3 factorial]"
+trace: aBlock on: aStream
 	"This method uses the simulator to print calls to a file."
 	| prev |
 	prev := aBlock.

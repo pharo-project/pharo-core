@@ -22,7 +22,7 @@ errorReportOn: stream
 		nextPutAll: ']';
 		cr.
 	stream cr.
-	"Note: The following is an open-coded version of  ContextPart>>stackOfSize: since this method may be called during a  low space condition and we might run out of space for allocating the  full stack."	
+	"Note: The following is an open-coded version of  Context>>stackOfSize: since this method may be called during a  low space condition and we might run out of space for allocating the  full stack."	
 	stackDepth := 0.  
 	startPos := stream position.
 	aContext := self.

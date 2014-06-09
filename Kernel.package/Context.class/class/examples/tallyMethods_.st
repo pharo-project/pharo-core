@@ -14,4 +14,4 @@ tallyMethods: aBlock
 				prev := current]].
 	^ tallies sortedCounts
 
-	"ContextPart tallyMethods: [3.14159 printString]"
+	"Contex tallyMethods: [3.14159 printString]"

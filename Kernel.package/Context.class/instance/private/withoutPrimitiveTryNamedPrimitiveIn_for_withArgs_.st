@@ -7,7 +7,7 @@ To solve the mentioned problem, we use the following trick: We have the orignal 
 
 tryNamedPrimitive
 	<primitive:'' module:''>
-	^ ContextPart primitiveFailToken'
+	^ Context primitiveFailToken'
 
  Since this method does not change its bytecodes for every invokation, we can reuse it for all methods with primitives. There are only 2 things we have to change in the template: the number of arguments and the primitive declaration (to use the correct primitive name and module name).
 

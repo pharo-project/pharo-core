@@ -10,4 +10,4 @@ tallyInstructions: aBlock
 			[:current | tallies add: current nextByte].
 	^tallies sortedElements
 
-	"ContextPart tallyInstructions: [3.14159 printString]"
+	"Context tallyInstructions: [3.14159 printString]"

@@ -1,6 +1,6 @@
 pushArgs: arguments from: senderContext
 	"Helps simulate action of the value primitive for closures.
-	 This is used by ContextPart>>runSimulated:contextAtEachStep:"
+	 This is used by Context>>runSimulated:contextAtEachStep:"
 
 	closureOrNil
 		ifNil: [self error: 'context needs a closure!']

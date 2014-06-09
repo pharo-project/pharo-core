@@ -41,7 +41,7 @@ howToModifyPrimitives
 	Any class with					== 
 	Any class with 					@ 
 	Point with either of				x y 
-	ContextPart with					blockCopy: 
+	Context with					blockCopy: 
 	BlockContext with either of 		value value:
 	"
 

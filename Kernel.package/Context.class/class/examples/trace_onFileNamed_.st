@@ -1,4 +1,4 @@
-trace: aBlock onFileNamed: fileName		"ContextPart trace: [3 factorial] onFileNamed: 'trace'"
+trace: aBlock onFileNamed: fileName
 	"This method uses the simulator to print calls to a file."
 
 	| aStream |

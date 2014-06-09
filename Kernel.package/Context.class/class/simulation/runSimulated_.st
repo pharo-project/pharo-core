@@ -6,4 +6,4 @@ runSimulated: aBlock
 		runSimulated: aBlock
 		contextAtEachStep: [:ignored]
 
-	"ContextPart runSimulated: [Pen new defaultNib: 5; go: 100]"
+	"Context runSimulated: [Pen new defaultNib: 5; go: 100]"

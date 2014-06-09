@@ -1,8 +1,6 @@
 commentForCurrentUpdate
- ^ '13316 Nautilus sorts instVarNames
-	https://pharo.fogbugz.com/f/cases/13316
+ ^ '13289 Failing test: ReleaseTest>>#testObsoleteClasses	
+	https://pharo.fogbugz.com/f/cases/13289
 
-13277 Speed up String>>=
-	https://pharo.fogbugz.com/f/cases/13277
-
-'
+13288 Failing test: CodeSimulationTests>>#testErrorCodeNotFound
+	https://pharo.fogbugz.com/f/cases/13288'
