@@ -4,10 +4,10 @@ findSubstringViaPrimitive: key in: body startingAt: start matchTable: matchTable
 	The algorithm below is not optimum -- it is intended to be translated to C which will go so fast that it wont matter."
 	| index |
 	<primitive: 'primitiveFindSubstring' module: 'MiscPrimitivePlugin'>
-	<var: #key declareC: 'unsigned char *key'>
-	<var: #body declareC: 'unsigned char *body'>
-	<var: #matchTable declareC: 'unsigned char *matchTable'>
-
+	<var: #key declareC: 'unsigned char *key'>
+	<var: #body  declareC: 'unsigned char *body'>
+	<var: #matchTable declareC: 'unsigned char *matchTable'>
+	
 	key size = 0 ifTrue: [^ 0].
 	start to: body size - key size + 1 do:
 		[:startIndex |
