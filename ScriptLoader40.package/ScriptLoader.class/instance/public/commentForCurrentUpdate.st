@@ -1,8 +1,8 @@
 commentForCurrentUpdate
- ^ '13320 Clean old condense sources/changes
-	https://pharo.fogbugz.com/f/cases/13320
+ ^ '13089 reciprocalFloorLog: should be deprecated or just removed
+	https://pharo.fogbugz.com/f/cases/13089
 
-13321 findSubstringViaPrimitive: key in: body startingAt: start matchTable: matchTable do not rely to correct character in source.
-	https://pharo.fogbugz.com/f/cases/13321
+13303 komitter is still using Pharo30Inbox as destination of new slices
+	https://pharo.fogbugz.com/f/cases/13303
 
 '

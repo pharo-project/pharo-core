@@ -160,7 +160,7 @@ initialize
 
 "Float"
 	#("arithmetic"
-"mathematical functions" reciprocalFloorLog: reciprocalLogBase2 timesTwoPower:
+"mathematical functions" reciprocalLogBase2 timesTwoPower:
 "comparing" "testing"
 "truncation and round off" exponent fractionPart integerPart significand significandAsInteger
 "converting" asApproximateFraction asIEEE32BitWord asTrueFraction

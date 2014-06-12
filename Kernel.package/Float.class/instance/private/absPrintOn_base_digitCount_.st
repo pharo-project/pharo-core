@@ -5,10 +5,7 @@ absPrintOn: aStream base: base digitCount: digitCount
 	self isInfinite ifTrue: [^ aStream nextPutAll: 'Infinity'].
 	fBase := base asFloat.
 	"x is myself normalized to [1.0, fBase), exp is my exponent"
-	exp := 
-		self < 1.0
-			ifTrue: [self reciprocalFloorLog: fBase]
-			ifFalse: [self floorLog: fBase].
+	exp := self floorLog: fBase.
 	scale := 1.0.
 	logScale := 0.
 	[(x := fBase raisedTo: (exp + logScale)) = 0]
