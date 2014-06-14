@@ -1,8 +1,8 @@
 renameClass
-	| oldName newName obs  okToRename |
+	| oldName newName obs okToRename |
 	classListIndex = 0
 		ifTrue: [ ^ self ].
-	self okToChange 
+	self okToChange
 		ifFalse: [ ^ self ].
 	oldName := self selectedClass name.
 	newName := self request: 'Please type new class name' initialAnswer: oldName.
@@ -13,14 +13,14 @@ renameClass
 		ifTrue: [ ^ self ].
 	(Smalltalk globals includesKey: newName)
 		ifTrue: [ ^ self inform: newName , ' already exists' ].
-	okToRename := [self selectedClass classBuilder validateClassName: newName] 
-		on: Error 
-		do: [ :ex | ^ self inform: ex printString].
+	okToRename := [ self selectedClass classBuilder validateClassName: newName ]
+		on: Error
+		do: [ :ex | ^ self inform: ex printString ].
 	okToRename
-		ifTrue: [
-			self selectedClass rename: newName.
-			self changed: #classList.
-			self classListIndex: ((systemOrganizer listAtCategoryNamed: self selectedSystemCategoryName) indexOf: newName).
-			obs := self systemNavigation allReferencesTo: (self selectedClass environment associationAt: newName).
-			obs isEmpty
-				ifFalse: [ self systemNavigation browseMessageList: obs name: 'Obsolete References to ' , oldName autoSelect: oldName ]]
+		ifFalse: [ ^ self ].
+	self selectedClass rename: newName.
+	self changed: #classList.
+	self classListIndex: ((systemOrganizer listAtCategoryNamed: self selectedSystemCategoryName) indexOf: newName).
+	obs := self systemNavigation allReferencesTo: (self selectedClass environment associationAt: newName).
+	obs isEmpty
+		ifFalse: [ self systemNavigation browseMessageList: obs name: 'Obsolete References to ' , oldName autoSelect: oldName ]

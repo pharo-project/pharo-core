@@ -1,6 +1,6 @@
 buildSelectedItemsList
 
-	^selectedItemsList := (PluggableListMorph
+	^(PluggableListMorph
 		on: self 
 		list: #selectedItemsProbablyRestricted 
 		primarySelection: #selectedSelectionIndex

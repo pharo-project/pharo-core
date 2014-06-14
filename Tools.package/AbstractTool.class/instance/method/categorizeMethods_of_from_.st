@@ -1,7 +1,7 @@
 categorizeMethods: aCollection of: aClass from: aCategory
 	"Present a choice of categories or prompt for a new category name and add it before the current selection, or at the end if no current selection"
 	
-	| labels lines oldIndex newName |
+	| labels lines newName |
 	aCollection ifEmpty: [^ self].
 	aClass ifNil: [^self].	
 	labels := OrderedCollection new.

@@ -1,8 +1,8 @@
 browseHierarchy: aClass selector: aSelector
 	"Open a browser"
-	(aClass == nil)  ifTrue: [^ self].
 
+	aClass isNil
+		ifTrue: [ ^ self ].
 	^ Smalltalk tools browser new
-			spawnHierarchyForClass: aClass 
-			selector: aSelector;
-			yourself.
+		spawnHierarchyForClass: aClass selector: aSelector;
+		yourself

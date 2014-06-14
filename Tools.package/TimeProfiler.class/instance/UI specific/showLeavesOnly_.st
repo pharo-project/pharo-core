@@ -1,7 +1,11 @@
 showLeavesOnly: aBoolean
 	self showLeavesOnly ~= aBoolean
-		ifTrue: [
-			treeMorph treeLineWidth: (aBoolean ifTrue: [0] ifFalse: [1]).
-			showLeavesOnly := aBoolean.
-			self changed: #showLeavesOnly.
-			self updateList]
+		ifFalse: [ ^ self ].
+	treeMorph
+		treeLineWidth:
+			(aBoolean
+				ifTrue: [ 0 ]
+				ifFalse: [ 1 ]).
+	showLeavesOnly := aBoolean.
+	self changed: #showLeavesOnly.
+	self updateList

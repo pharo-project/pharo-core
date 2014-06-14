@@ -1,3 +1,0 @@
-wrapFile: aFile
-
-	^ aFile basename

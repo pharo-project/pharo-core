@@ -13,7 +13,7 @@ createInstVarAccessorsOf: aClass
 	
 	instVars ifNil: [ ^ self ].
 	
-	instVars do: [:aName || setter newMessage |
+	instVars do: [:aName || newMessage |
 		(aClass canUnderstand: aName asSymbol)
 			ifFalse: [
 				newMessage := self buildGetterFor: aName.

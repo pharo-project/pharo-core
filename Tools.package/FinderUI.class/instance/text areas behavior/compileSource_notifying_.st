@@ -6,7 +6,7 @@ compileSource: aString notifying: aController
 			self changed: #clearUserEdits.
 			^self].
 	class := self selectedClass.
-	method := class methodDict at: self selectedMethod.
+	method := class compiledMethodAt: self selectedMethod.
 	(class compile: (aString asString) classified: method category notifying: aController)
 			ifNil: [^ self ]
 			ifNotNil: [:selector |
