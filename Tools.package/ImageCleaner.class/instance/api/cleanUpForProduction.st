@@ -11,7 +11,7 @@ cleanUpForProduction
 	self helpPackages do: [ :each | (MCPackage named: each) unload ].	
 	self testPackages do: [ :each | (MCPackage named: each) unload ].
 	self examplePackages do: [ :each | (MCPackage named: each) unload ].
-	(MCPackage named: 'ScriptLoader30') unload.	
+	(MCPackage named: 'ScriptLoader40') unload.	
 		
 		
 	(MCPackage named: 'MonticelloMocks') unload.	
