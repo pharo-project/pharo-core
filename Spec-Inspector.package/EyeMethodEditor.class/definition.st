@@ -1,5 +1,5 @@
 EyeEditor subclass: #EyeMethodEditor
-	instanceVariableNames: 'text toolbar'
+	instanceVariableNames: 'toolbar'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-Inspector'

@@ -1,5 +1,5 @@
 EyeAbstractInspector subclass: #EyeTreeInspector
-	instanceVariableNames: 'tree text'
+	instanceVariableNames: 'tree'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-Inspector'

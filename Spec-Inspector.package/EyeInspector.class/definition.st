@@ -1,5 +1,5 @@
 EyeAbstractInspector subclass: #EyeInspector
-	instanceVariableNames: 'list text description'
+	instanceVariableNames: 'list description'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-Inspector'
