@@ -1,7 +1,7 @@
 testMethodContextWithTemp
 	"This test should be improved"
 	| methodContext1  materializedMethodContext1  |
-	methodContext1 := (MethodContext newForMethod: FLPair >> #methodWithTemp).
+	methodContext1 := (Context newForMethod: FLPair >> #methodWithTemp).
 	methodContext1 
 		initializeWith: nil 
 		stackPtr: 1 

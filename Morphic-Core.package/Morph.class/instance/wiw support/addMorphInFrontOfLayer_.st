@@ -2,10 +2,10 @@ addMorphInFrontOfLayer: aMorph
 
 	| targetLayer |
 
-	targetLayer := aMorph morphicLayerNumberWithin: self.
+	targetLayer := aMorph morphicLayerNumber.
 	submorphs do: [ :each | | layerHere |
 		each == aMorph ifTrue: [^self].
-		layerHere := each morphicLayerNumberWithin: self.
+		layerHere := each morphicLayerNumber.
 		"the <= is the difference - it insures we go to the front of our layer"
 		targetLayer <= layerHere ifTrue: [
 			^self addMorph: aMorph inFrontOf: each
