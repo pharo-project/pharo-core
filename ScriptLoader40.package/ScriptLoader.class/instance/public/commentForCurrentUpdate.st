@@ -1,11 +1,8 @@
 commentForCurrentUpdate
- ^ '13341 small simplification: #morphicLayerNumberWithin:
-	https://pharo.fogbugz.com/f/cases/13341
+ ^ '11987 Launching ProfStef should now require initials
+	https://pharo.fogbugz.com/f/cases/11987
 
-13345 Fix some references to non-existing classes: MethodContext, MIMEType
-	https://pharo.fogbugz.com/f/cases/13345
-	
-12859 colorChangedForSubmorph: unused
-	https://pharo.fogbugz.com/f/cases/12859
+12579  SyntaxErrorNotification>>messageText
+	https://pharo.fogbugz.com/f/cases/12579
 
 '
