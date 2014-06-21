@@ -1,7 +1,7 @@
 class: aClass andInstVariable: aBlock
 	| variables index variable class |
 	
-	variables := aClass theNonMetaClass allInstVarNames asArray sort.
+	variables := aClass theNonMetaClass instVarNames asArray sort.
 	index := UIManager default chooseFrom: variables.
 	variable := variables at: index ifAbsent: [ ^ nil ].
 	class := aClass theNonMetaClass whichClassDefinesInstVar: variable.
