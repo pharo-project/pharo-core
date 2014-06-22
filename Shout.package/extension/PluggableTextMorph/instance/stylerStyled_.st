@@ -1,4 +1,5 @@
 stylerStyled: styledCopyOfText 
+
 	textMorph contents runs: styledCopyOfText runs.
 	textMorph updateFromParagraph.
 	selectionInterval
