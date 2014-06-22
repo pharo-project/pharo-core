@@ -1,3 +1,3 @@
 isCodeCompletionAllowed
 
-	^ true.
+	^ true

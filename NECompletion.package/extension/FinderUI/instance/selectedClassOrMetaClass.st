@@ -1,3 +1,3 @@
 selectedClassOrMetaClass
 
-	^ self selectedClass.
+	^ self selectedClass

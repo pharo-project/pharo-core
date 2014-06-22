@@ -1,3 +1,3 @@
 taskbarIcon
-
+ 
 	^ self class icon

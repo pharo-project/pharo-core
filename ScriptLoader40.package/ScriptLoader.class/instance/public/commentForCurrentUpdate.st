@@ -1,11 +1,8 @@
 commentForCurrentUpdate
- ^ '13323 Cleaning PasteUpMorph mouseDown:
-	https://pharo.fogbugz.com/f/cases/13323
+ ^ '13351 Tool-Finder should be extracted from Tools
+	https://pharo.fogbugz.com/f/cases/13351
 
-13226 Inst Var Pull Up refactoring also shows superclass inst vars
-	https://pharo.fogbugz.com/f/cases/13226
-
-10935 AthensDemoMorph failing at figure9
-	https://pharo.fogbugz.com/f/cases/10935
+13350 Extract calendar to Morphic-Widgets-Extra
+	https://pharo.fogbugz.com/f/cases/13350
 
 '
