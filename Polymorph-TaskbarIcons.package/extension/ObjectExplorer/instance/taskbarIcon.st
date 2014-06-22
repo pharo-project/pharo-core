@@ -1,2 +1,2 @@
-taskbarIcon 
+taskbarIcon
 	^ Smalltalk ui icons smallInspectItIcon 
