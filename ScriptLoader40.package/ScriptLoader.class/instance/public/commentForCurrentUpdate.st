@@ -1,8 +1,8 @@
 commentForCurrentUpdate
- ^ '13355 should extract Workspace in Tool-Workspace
-	https://pharo.fogbugz.com/f/cases/13355
+ ^ '13358 TreeMorph* should be extracted from Morphic-Base and put in its own package
+	https://pharo.fogbugz.com/f/cases/13358
 
-13356 should move Morphic-base list into Morphic-Widgets-List
-	https://pharo.fogbugz.com/f/cases/13356
+13361 Extracted Spotlight from tools and move it to Tool-Spotlight
+	https://pharo.fogbugz.com/f/cases/13361
 
 '
