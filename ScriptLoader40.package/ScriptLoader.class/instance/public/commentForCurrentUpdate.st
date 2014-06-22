@@ -1,8 +1,5 @@
 commentForCurrentUpdate
- ^ '13360 Basic Widgets should be put in Morphic-Widgets-Basic
-	https://pharo.fogbugz.com/f/cases/13360
-
-13363 Tools-Explorer category should be turned into Tool-Explorer package
-	https://pharo.fogbugz.com/f/cases/13363
+ ^ '13366 Extract Scroll related class from Morphic-Base and move them in Morphic-Widgets-Scrolling
+	https://pharo.fogbugz.com/f/cases/13366
 
 '
