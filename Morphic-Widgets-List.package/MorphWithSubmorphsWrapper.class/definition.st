@@ -2,4 +2,4 @@ ListItemWrapper subclass: #MorphWithSubmorphsWrapper
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Morphic-Base-List'
+	category: 'Morphic-Widgets-List'

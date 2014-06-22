@@ -1,8 +1,8 @@
 commentForCurrentUpdate
- ^ '13351 Tool-Finder should be extracted from Tools
-	https://pharo.fogbugz.com/f/cases/13351
+ ^ '13355 should extract Workspace in Tool-Workspace
+	https://pharo.fogbugz.com/f/cases/13355
 
-13350 Extract calendar to Morphic-Widgets-Extra
-	https://pharo.fogbugz.com/f/cases/13350
+13356 should move Morphic-base list into Morphic-Widgets-List
+	https://pharo.fogbugz.com/f/cases/13356
 
 '

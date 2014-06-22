@@ -1,2 +1,3 @@
 isWorkspace
+
 	^true
