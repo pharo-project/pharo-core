@@ -1,6 +1,6 @@
 prepareDebuggerExample
-
-	self class compile: 'divideTwoByZero
+	Author fullName: 'AutoGenTutorial'.
+	self class compileSilently: 'divideTwoByZero
 	2/0.
 	
 	"Oups! 2/0 raises a ZeroDivide exception.  So the debugger opens to let you fix the code.
@@ -12,3 +12,4 @@ prepareDebuggerExample
 	PharoTutorial next. '
 	
 	classified: 'interactive'.
+	Author reset.
