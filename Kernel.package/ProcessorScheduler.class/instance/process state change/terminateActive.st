@@ -1,4 +1,4 @@
 terminateActive
 	"Terminate the process that is currently running."
 
-	activeProcess terminate
+	activeProcess effectiveProcess terminate

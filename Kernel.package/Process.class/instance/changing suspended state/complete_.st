@@ -4,7 +4,9 @@ complete: aContext
 	| ctxt pair error |
 	ctxt := suspendedContext.
 	suspendedContext := nil.  "disable this process while running its stack in active process below"
-	pair := ctxt runUntilErrorOrReturnFrom: aContext.
+	pair := Processor activeProcess
+				evaluate: [ctxt runUntilErrorOrReturnFrom: aContext]
+				onBehalfOf: self.
 	suspendedContext := pair first.
 	error := pair second.
 	error ifNotNil: [^ error signalerContext].
