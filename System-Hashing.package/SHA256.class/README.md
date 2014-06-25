@@ -1,0 +1,1 @@
+A SHA256 is xxxxxxxxx.Instance Variables	totalA:		<Object>	totalB:		<Object>	totalC:		<Object>	totalD:		<Object>	totalE:		<Object>	totalF:		<Object>	totalG:		<Object>	totalH:		<Object>	totals:		<Object>totalA	- xxxxxtotalB	- xxxxxtotalC	- xxxxxtotalD	- xxxxxtotalE	- xxxxxtotalF	- xxxxxtotalG	- xxxxxtotalH	- xxxxxtotals	- xxxxx
