@@ -1,4 +1,4 @@
-ClassTestCase subclass: #SHA256Tests
+ClassTestCase subclass: #SHA256Test
 	instanceVariableNames: 'hash'
 	classVariableNames: ''
 	poolDictionaries: ''
