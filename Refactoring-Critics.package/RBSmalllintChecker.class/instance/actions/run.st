@@ -1,5 +1,7 @@
 run
 	rule resetResult.
-	environment allClassesAndTraitsDo: [ :class |
-		self checkClass: class.
-		self checkMethodsForClass: class ]
+	environment allClassesAndTraits
+		do: [ :class |
+			self checkClass: class.
+			self checkMethodsForClass: class ]
+		displayingProgress: [ :class | 'Running critics on: ', class name ]

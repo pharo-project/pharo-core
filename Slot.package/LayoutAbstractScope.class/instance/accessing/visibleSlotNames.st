@@ -1,2 +1,2 @@
 visibleSlotNames
-	self subclassResponsibility
+	^self visibleSlots collect: [:each | each name ]
