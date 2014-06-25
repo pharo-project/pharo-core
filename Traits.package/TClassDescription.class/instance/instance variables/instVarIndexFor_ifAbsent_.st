@@ -3,8 +3,8 @@ instVarIndexFor: instVarName ifAbsent: aBlock
 
 	| index |
 	index := self instanceVariables == nil 
-				ifTrue: [0]
-				ifFalse: [self instanceVariables indexOf: instVarName ifAbsent: [0]].
+			ifTrue: [0]
+			ifFalse: [self instanceVariables indexOf: instVarName ifAbsent: [0]].
 	index = 0 ifTrue: 
 		[^self superclass == nil 
 			ifTrue: [aBlock value]

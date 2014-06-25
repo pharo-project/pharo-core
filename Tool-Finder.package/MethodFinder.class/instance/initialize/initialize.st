@@ -61,7 +61,7 @@ initialize
 "accessing"  isMeta name theNonMetaClass
 "copying" 
 "printing" classVariablesString instanceVariablesString sharedPoolsString
-"instance variables" checkForInstVarsOK: 
+"instance variables"  
 "method dictionary" 
 "organization" category organization whichCategoryIncludesSelector:
 "compiling" acceptsLoggingOfCompilation wantsChangeSetLogging
