@@ -1,5 +1,3 @@
 commentForCurrentUpdate
- ^ '13400 API for slots on Classes
-	https://pharo.fogbugz.com/f/cases/13400
-
-'
+ ^ '- add subclass for Slot
+- change all Slot objects for that class'
