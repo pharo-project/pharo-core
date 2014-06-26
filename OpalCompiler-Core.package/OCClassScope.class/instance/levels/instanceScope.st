@@ -1,6 +1,6 @@
 instanceScope
 
 	^ OCInstanceScope new
-		vars: class allInstVarNames;
+		slots: class allSlots;
 		outerScope: self;
 		yourself

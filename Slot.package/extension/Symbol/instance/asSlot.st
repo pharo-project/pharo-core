@@ -1,2 +1,2 @@
 asSlot
-	^ Slot named: self.
+	^ InstanceVariableSlot named: self.

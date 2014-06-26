@@ -1,0 +1,1 @@
+An OCSlotVariable is xxxxxxxxx.Instance Variables	slot:		<Object>slot	- xxxxx
