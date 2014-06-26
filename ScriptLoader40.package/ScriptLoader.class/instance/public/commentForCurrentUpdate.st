@@ -1,3 +1,8 @@
 commentForCurrentUpdate
- ^ '- add subclass for Slot
-- change all Slot objects for that class'
+ ^ '13410 Wrong Nautilus is registered as default browser
+	https://pharo.fogbugz.com/f/cases/13410
+
+13395 Add SHA256 HashFunction
+	https://pharo.fogbugz.com/f/cases/13395
+
+'
