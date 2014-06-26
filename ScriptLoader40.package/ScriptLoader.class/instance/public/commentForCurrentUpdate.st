@@ -1,3 +1,9 @@
 commentForCurrentUpdate
- ^ '13406 Opal should delegate code generation for Slots to the Slot meta object
-	https://pharo.fogbugz.com/f/cases/13406'
+ ^ '13412 add Helper: resetIvarSlots
+	https://pharo.fogbugz.com/f/cases/13412
+
+13414 Keyboard shortcuts in Nautilus stopped working
+	https://pharo.fogbugz.com/f/cases/13414
+	
+13418 reflective API for Slots on Object
+	https://pharo.fogbugz.com/f/cases/13418'
