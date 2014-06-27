@@ -1,4 +1,4 @@
-browseVersionsForClass: aClass  selector: aSelector 
+browseVersionsForClass: aClass selector: aSelector 
 	
 	^ self
 		browseVersionsOf: (aClass compiledMethodAt: aSelector)

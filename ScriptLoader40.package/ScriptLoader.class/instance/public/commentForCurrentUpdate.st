@@ -1,8 +1,8 @@
 commentForCurrentUpdate
- ^ '13424 Clean up #priorTimeStamp
-	https://pharo.fogbugz.com/f/cases/13424
+ ^ '13425 Simplify API of VersionsBrowser
+	https://pharo.fogbugz.com/f/cases/13425
 
-13423 VersionBrowser>>#versionCountForSelector:class: not needed
-	https://pharo.fogbugz.com/f/cases/13423
+13426 retire old VersionsBrowser
+	https://pharo.fogbugz.com/f/cases/13426
 
 '

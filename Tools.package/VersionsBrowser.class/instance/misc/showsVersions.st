@@ -1,2 +1,0 @@
-showsVersions
-	^ true
