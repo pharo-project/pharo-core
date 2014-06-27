@@ -1,2 +1,0 @@
-setLostMethodPointer: sourcePointer
-	lostMethodPointer := sourcePointer

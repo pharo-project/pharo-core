@@ -1,2 +1,10 @@
 browseVersionsOf: method class: class meta: meta category: msgCategory selector: selector 
-	^ self browseVersionsOf: method class: class meta: meta category: msgCategory selector: selector lostMethodPointer: nil
+	| changeList |
+	Cursor read showWhile:
+		[changeList := self new
+			scanVersionsOf: method class: class meta: meta
+			category: msgCategory selector: selector].
+	changeList ifNil: [ self inform: 'No versions available'. ^nil ].
+
+	self open: changeList name: 'Recent versions of ' , selector multiSelect: false.
+	^changeList

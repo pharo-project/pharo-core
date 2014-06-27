@@ -2,7 +2,7 @@ addPriorVersionsCountForSelector: aSelector ofClass: aClass to: aStream
 	"add an annotation detailing the prior versions count"
 	| versionsCount |
 
-	versionsCount := Smalltalk tools versionBrowser versionCountForSelector: aSelector class: aClass.
+	versionsCount := aClass changeRecordsAt: aSelector.
 	aStream nextPutAll: 
 				((versionsCount > 1
 					ifTrue:

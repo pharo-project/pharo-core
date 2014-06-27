@@ -56,13 +56,6 @@ annotationForSelector: aSelector ofClass: aClass
 						addPriorVersionsCountForSelector: aSelector
 						ofClass: aClass
 						to: aStream].
-			aRequest == #priorTimeStamp
-				ifTrue: [stamp := Smalltalk tools versionBrowser
-								timeStampFor: aSelector
-								class: aClass
-								reverseOrdinal: 2.
-					stamp
-						ifNotNil: [aStream nextPutAll: 'prior time stamp: ' , stamp , separator]].
 			aRequest == #recentChangeSet
 				ifTrue: [aString := ChangeSet mostRecentChangeSetWithChangeForClass: aClass selector: aSelector.
 					aString size > 0

@@ -2,8 +2,7 @@ priorVersionsCount
 	"A report of how many previous versions there are of the method."
 	
 	| versionsCount |
-	versionsCount := VersionsBrowser 
-		versionCountForSelector: selector class: class.
+	versionsCount := class changeRecordsAt: selector.
 	^ versionsCount > 1
 		ifTrue: [
 			versionsCount = 2
