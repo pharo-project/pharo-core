@@ -1,0 +1,1 @@
+A TestSlot is xxxxxxxxx.Instance Variables	value:		<Object>value	- xxxxx

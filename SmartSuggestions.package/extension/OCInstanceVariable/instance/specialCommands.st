@@ -1,2 +1,0 @@
-specialCommands
-	^  SugsSuggestionFactory commandsForInstanceVariable.

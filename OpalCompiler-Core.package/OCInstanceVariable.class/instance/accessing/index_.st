@@ -1,2 +1,0 @@
-index: anObject
-	index := anObject

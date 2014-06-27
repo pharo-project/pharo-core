@@ -1,9 +1,11 @@
 commentForCurrentUpdate
- ^ '13412 add Helper: resetIvarSlots
-	https://pharo.fogbugz.com/f/cases/13412
+ ^ '13420 Abstract slot class should emit code to reflectively read the slot
+	https://pharo.fogbugz.com/f/cases/13420
 
-13414 Keyboard shortcuts in Nautilus stopped working
-	https://pharo.fogbugz.com/f/cases/13414
-	
-13418 reflective API for Slots on Object
-	https://pharo.fogbugz.com/f/cases/13418'
+13419 remove OCInstanceVariable
+	https://pharo.fogbugz.com/f/cases/13419
+
+13405 Get support for temporary files 
+	https://pharo.fogbugz.com/f/cases/13405
+
+'
