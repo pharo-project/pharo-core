@@ -1,3 +1,0 @@
-canCompile
-
-	^ true

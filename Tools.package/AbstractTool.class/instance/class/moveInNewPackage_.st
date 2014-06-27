@@ -1,6 +1,6 @@
 moveInNewPackage: aCollection
 
-	| labels lines oldIndex newName item aPackage |
+	| labels lines newName item aPackage |
 	aCollection ifEmpty: [^ nil ].
 	aPackage := aCollection first package.	
 	labels := self model packages collect: [:each | each name].

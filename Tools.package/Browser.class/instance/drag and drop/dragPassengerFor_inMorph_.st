@@ -8,6 +8,6 @@ dragPassengerFor: item inMorph: dragSource
 	transferType == #messageList
 		ifFalse: [ ^nil ].
 	smn := self selectedMessageName ifNil: [ ^nil ].
-	(Smalltalk tools messageList isPseudoSelector: smn) ifTrue: [ ^nil ].
+	(#(Comment Definition Hierarchy) includes: smn) ifTrue: [ ^nil ].
 
 	^ self selectedClassOrMetaClass -> smn.

@@ -1,6 +1,6 @@
 format: aString
 
-	| list size result |
+	| list size |
 	size := 0.
 	list := aString subStrings: String cr.
 	list do: [:line || addedCharacter tempSize|

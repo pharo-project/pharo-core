@@ -1,6 +1,6 @@
 addAllItems: aWindow
 
-	| width toolbar btnFont |	
+	| toolbar btnFont |	
 	toolbar := self buildToolbar: aWindow.
 	btnFont := StandardFonts buttonFont.
 	aWindow

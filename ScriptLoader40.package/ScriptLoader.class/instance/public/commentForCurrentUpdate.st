@@ -1,8 +1,8 @@
 commentForCurrentUpdate
- ^ '13425 Simplify API of VersionsBrowser
-	https://pharo.fogbugz.com/f/cases/13425
+ ^ '13428 Small code critique cleanup of RecentSubmissions
+	https://pharo.fogbugz.com/f/cases/13428
 
-13426 retire old VersionsBrowser
-	https://pharo.fogbugz.com/f/cases/13426
+13427 Small code critique clean of Tools
+	https://pharo.fogbugz.com/f/cases/13427
 
 '

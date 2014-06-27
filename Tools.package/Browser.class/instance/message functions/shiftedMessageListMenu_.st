@@ -7,7 +7,6 @@ shiftedMessageListMenu: aMenu
 		('Implementors of sent messages'			browseAllMessages)
 		-
 		('Local senders of...'						browseLocalSendersOfMessages)
-		('Local implementors of...'				browseLocalImplementors)
 		-
 		('Inspect instances'						inspectInstances)
 		('Inspect subinstances'					inspectSubInstances)).
