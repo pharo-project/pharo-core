@@ -9,6 +9,5 @@ initialize
 	smoothCurve := false.
 	arrows := #none.
 	self computeBounds.
-	self isCurvier 
-		ifTrue: [ self beSmoothCurve.
-				self diamondOval]
+	self beSmoothCurve.
+	self diamondOval.

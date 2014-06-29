@@ -3,4 +3,7 @@ browseAllImplementorsOf: selector
 	the message whose selector is the argument, selector. For example,  
 	Smalltalk browseAllImplementorsOf: #at:put:."
 
-	^self browseImplementorsOf: selector name: 'Implementors of ' , selector autoSelect: selector
+	"Create and schedule a senders browser for aSelector."	
+	^ self 
+		browseMessageList: (self allImplementorsOf: selector)
+		name:  'Implementors of ' , selector

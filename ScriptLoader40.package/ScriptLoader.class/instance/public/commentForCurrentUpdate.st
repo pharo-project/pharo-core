@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '13369 Move NautilusRefactoring-Refactorings to Refactorings package
-	https://pharo.fogbugz.com/f/cases/13369
+ ^ '13275 RBSmalllintChecker checks classes not defined in environment
+	https://pharo.fogbugz.com/f/cases/13275
 
-13430 CodeRewritingRule can be folded in its superclass
-	https://pharo.fogbugz.com/f/cases/13430
-	
-13374 Move row and Stack Layout close to their superclass
-	https://pharo.fogbugz.com/f/cases/13374
+12551 Unused class CurveMorph
+	https://pharo.fogbugz.com/f/cases/12551
 
-13373 Polymorph Pluggable class should be investigated and move to Morphic-Widgets-Pluggable
-	https://pharo.fogbugz.com/f/cases/13373'
+13432 Small tool cleanup: VersionBrowser api, Implementors of
+	https://pharo.fogbugz.com/f/cases/13432'

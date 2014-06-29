@@ -1,2 +1,4 @@
 versionsButtonAction
-	self versions.
+	Smalltalk tools versionBrowser 
+		browseVersionsForClass: self selectedClass 
+		selector: self selectedMethod

@@ -3,7 +3,7 @@ browseVersions
 	currently selected message selector."
 	| class selector |
 	
-	selector := self selectedMessageName ifNil: [ ^self  ].
+	selector := self selectedMessageName.
 	class := self selectedClassOrMetaClass.
 	
 	(class exists and: [class realClass includesSelector: selector]) ifTrue: [

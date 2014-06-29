@@ -1,3 +1,3 @@
 checkClass: aClass 
 	context selectedClass: aClass.
-	(environment includesClass: aClass) ifTrue: [rule checkClass: context]
+	(environment definesClass: aClass) ifTrue: [rule checkClass: context]
