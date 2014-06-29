@@ -6,7 +6,7 @@ accept: aText notifying: aController
 	environment := self model browsedEnvironment.
 	tree := self class compiler evaluate: aText.
 	
-	rule := CodeRewritingRule new
+	rule := RBTransformationRule new
 		rewriteRule: tree;
 		yourself.
 	
