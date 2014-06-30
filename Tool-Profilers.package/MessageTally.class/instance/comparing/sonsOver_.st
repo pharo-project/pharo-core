@@ -1,7 +1,7 @@
 sonsOver: threshold
 	"Returns all the sons that are not below a certain threshold. threshold is a number."
 	| hereTally sons |
-	(receivers isNil or: [ receivers size = 0 ]) ifTrue: [ ^#() ].
+	(receivers isNil or: [ receivers isEmpty ]) ifTrue: [ ^#() ].
 	hereTally := tally.
 	sons := receivers select: [ :son | "subtract subNode tallies for primitive hits here"
 		hereTally := hereTally - son tally.

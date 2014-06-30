@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '13436 delete empty packages Tabs and NewList
-	https://pharo.fogbugz.com/f/cases/13436
+ ^ '13441 Small code critique cleanup in Tools
+	https://pharo.fogbugz.com/f/cases/13441
 
-13434 No need for #openBrowser
-	https://pharo.fogbugz.com/f/cases/13434
-	
-13435 Clean ChangeList
-	https://pharo.fogbugz.com/f/cases/13435'
+13442 add test to classes for checking non-ivar slots are used
+	https://pharo.fogbugz.com/f/cases/13442
+
+13443 remove #storeDataOn: from SmalltalkImage
+	https://pharo.fogbugz.com/f/cases/13443'

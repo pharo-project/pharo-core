@@ -2,7 +2,7 @@ leavesInto: leafDict fromSender: senderTally
 
 	| rcvrs |
 	rcvrs := self sonsOver: 0.
-	rcvrs size = 0
+	rcvrs isEmpty
 		ifTrue: [ self into: leafDict fromSender: senderTally ]
 		ifFalse: [
 			

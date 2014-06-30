@@ -1,5 +1,5 @@
 leaveItems
-	| res groups |
+	| res  |
 	res := OrderedCollection new.
 	rootMessageTally
 		ifNotNil: [ 

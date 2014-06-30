@@ -1,5 +1,5 @@
 apply: classModification
-	"HELP ME"
+
 	classModification modifiesSlots
 		ifTrue: [self applySlotChange: classModification]
 		ifFalse: [ 
@@ -12,7 +12,7 @@ apply: classModification
 							(classModification modifiesSharedPools or: [ classModification modifiesSharedVariables ])
 								ifTrue: [ self applySharedVariableOrPoolChange: classModification ]
 								ifFalse: [ 
-									"Note: In the other cases of this evil if nesting, the trait composition is setted 
+									"Note: In the other cases of this evil if nesting, the trait composition is set
 									by the installer."
 									^ self installTraitComposition: classModification ] ]]].
 	
