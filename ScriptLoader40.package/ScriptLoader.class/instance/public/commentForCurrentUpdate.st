@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '13275 RBSmalllintChecker checks classes not defined in environment
-	https://pharo.fogbugz.com/f/cases/13275
+ ^ '13436 delete empty packages Tabs and NewList
+	https://pharo.fogbugz.com/f/cases/13436
 
-12551 Unused class CurveMorph
-	https://pharo.fogbugz.com/f/cases/12551
-
-13432 Small tool cleanup: VersionBrowser api, Implementors of
-	https://pharo.fogbugz.com/f/cases/13432'
+13434 No need for #openBrowser
+	https://pharo.fogbugz.com/f/cases/13434
+	
+13435 Clean ChangeList
+	https://pharo.fogbugz.com/f/cases/13435'

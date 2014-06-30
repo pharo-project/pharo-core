@@ -1,3 +1,0 @@
-openBrowser
-	
-	self open.

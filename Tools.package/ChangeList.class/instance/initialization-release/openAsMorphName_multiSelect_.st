@@ -16,17 +16,13 @@ openAsMorphName: labelString multiSelect: multiSelect
 						changePrimarySelection: #toggleListIndex:
 						listSelection: #listSelectionAt:
 						changeListSelection: #listSelectionAt:put:
-						menu: (self showsVersions
-								ifTrue: [#versionsMenu:]
-								ifFalse: [#changeListMenu:])]
+						menu: #changeListMenu:]
 				ifFalse: [PluggableListMorph
 						on: self
 						list: #list
 						selected: #listIndex
 						changeSelected: #toggleListIndex:
-						menu: (self showsVersions
-								ifTrue: [#versionsMenu:]
-								ifFalse: [#changeListMenu:])].
+						menu: #changeListMenu:].
 	listPane keystrokeActionSelector: #changeListKey:from:.
 	window
 		addMorph: listPane

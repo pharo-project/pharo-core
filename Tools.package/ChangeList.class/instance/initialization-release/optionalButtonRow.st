@@ -23,6 +23,5 @@ optionalButtonRow
 			aRow addMorphBack: aButton.
 			aButton setBalloonText: triplet third].
 	aRow addMorphBack: self regularDiffButton.
-	self wantsPrettyDiffOption ifTrue:
-		[aRow addMorphBack: self prettyDiffButton].
+	aRow addMorphBack: self prettyDiffButton.
 	^ aRow
