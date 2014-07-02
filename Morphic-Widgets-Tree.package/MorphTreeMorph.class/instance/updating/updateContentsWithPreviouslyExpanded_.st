@@ -1,6 +1,6 @@
 updateContentsWithPreviouslyExpanded: aNodeList
 	nodeList := nil.
-	scroller removeAllMorphs.
+	self noteRemovalOfAll: self allNodeMorphs.
 	(self nodeList isNil or: [self nodeList isEmpty]) 
 		ifTrue: [nodeList := nil.	
 		^ self emptySelection].
