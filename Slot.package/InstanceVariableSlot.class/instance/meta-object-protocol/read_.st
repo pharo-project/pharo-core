@@ -1,2 +1,2 @@
-internalRead: anObject
+read: anObject
 	^ anObject instVarAt: index

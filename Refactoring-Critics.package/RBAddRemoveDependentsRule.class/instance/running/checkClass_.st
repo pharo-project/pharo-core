@@ -5,7 +5,7 @@ checkClass: aContext
 		addAll: (aContext selectedClass whichSelectorsReferTo: #removeDependent:);
 		yourself) do: 
 		[ :sel | 
-		(aContext selectedClass compiledMethodAt: sel) messagesDo: 
+		(aContext selectedClass compiledMethodAt: sel) messages do: 
 			[ :each | 
 			each = #addDependent: ifTrue: [ count := count + 1 ].
 			each = #removeDependent: ifTrue: [ count := count - 1 ] ] ].

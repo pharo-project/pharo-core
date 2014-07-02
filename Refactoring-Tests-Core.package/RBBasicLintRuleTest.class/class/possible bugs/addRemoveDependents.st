@@ -12,7 +12,7 @@ addRemoveDependents
 					addAll: (context selectedClass whichSelectorsReferTo: #removeDependent:);
 				yourself) do: 
 					[:sel | 
-					(context selectedClass compiledMethodAt: sel) messagesDo: 
+					(context selectedClass compiledMethodAt: sel) messages do: 
 							[:each | 
 							each == #addDependent: ifTrue: [count := count + 1].
 							each == #removeDependent: ifTrue: [count := count - 1]]].

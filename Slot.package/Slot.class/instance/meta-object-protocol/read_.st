@@ -1,2 +1,2 @@
 read: anObject
-	^ self internalRead: anObject
+	^ self subclassResponsibility

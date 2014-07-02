@@ -1,3 +1,3 @@
 isSpecial
-	"I am more than just a backward compatible ivar slot"
+	"I am just a backward compatible ivar slot"
 	^false
