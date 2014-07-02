@@ -1,0 +1,3 @@
+link: anObject
+	
+	link := anObject

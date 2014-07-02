@@ -11,7 +11,7 @@ resetIvarSlots
 				at: index
 				put:
 					((InstanceVariableSlot named: ivarName asSymbol)
-						index: index + class superclass instVarNames size;
+						index: index + class superclass allInstVarNames size;
 						yourself) ] ].
 	Smalltalk allClasses
 		do: [ :class | 

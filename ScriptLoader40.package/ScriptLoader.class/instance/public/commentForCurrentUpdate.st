@@ -1,11 +1,9 @@
 commentForCurrentUpdate
- ^ '13415 Smalltalk resetTools breaks keybindings
-	https://pharo.fogbugz.com/f/cases/13415
+ ^ '13411 Some Slot instances left...re-run cleanup
+	https://pharo.fogbugz.com/f/cases/13411
 
-13417 Failing tests: ClassDescriptionTest #testClassDescriptionRespectsPolymorphismWithTraitDescription
-	https://pharo.fogbugz.com/f/cases/13417
+13453 add LinkWrapper and some comments for Slots
+	https://pharo.fogbugz.com/f/cases/13453
 
-13451 For Pharo4: 13422 Image crashes because an open Nautilus browser hangs onto many objects
-	https://pharo.fogbugz.com/f/cases/13451
-
-'
+13454 Failing test: SlotIntegrationTest.testSlotScopeParallelism
+	https://pharo.fogbugz.com/f/cases/13454'

@@ -1,0 +1,1 @@
+I am a special Slot that allows slots to be annotated with Reflectivity meta links.I hold on to a Reflectivity Link. This specifies the Meta Object, selector to call, argumens and controll (#after, #before)Code generation then if forwarded to the original Slot.
