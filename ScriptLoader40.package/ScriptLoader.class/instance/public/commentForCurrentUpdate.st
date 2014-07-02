@@ -1,9 +1,8 @@
 commentForCurrentUpdate
- ^ '13411 Some Slot instances left...re-run cleanup
-	https://pharo.fogbugz.com/f/cases/13411
+ ^ '13455 Revert 13275 RBSmalllintChecker checks classes not defined in environment
+	https://pharo.fogbugz.com/f/cases/13455
 
-13453 add LinkWrapper and some comments for Slots
-	https://pharo.fogbugz.com/f/cases/13453
+13433 pinning menu: menu changes  size 
+	https://pharo.fogbugz.com/f/cases/13433
 
-13454 Failing test: SlotIntegrationTest.testSlotScopeParallelism
-	https://pharo.fogbugz.com/f/cases/13454'
+'
