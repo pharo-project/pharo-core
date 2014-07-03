@@ -1,0 +1,2 @@
+isSelfEvaluating
+	^true

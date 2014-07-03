@@ -1,2 +1,2 @@
 printOn: aStream
-	aStream << self name << ' => '; << self class name.
+	aStream << '#' << self name << ' => '; << self class name.

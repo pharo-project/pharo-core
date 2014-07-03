@@ -1,8 +1,7 @@
-definitionForNautilus
-	"Answer a String that defines the receiver."
+definitionForNautilusWithSlots
+	"the class definition with a way to specify slots. Shown when the class defines special Slot
+	 NOTE: this is just for testing, the final solution will evolve and be cleaner later"
 	| aStream poolString|
-
-	self usesSpecialSlot ifTrue: [ ^self definitionForNautilusWithSlots ].
 
 	poolString := self sharedPoolsString.
 
@@ -15,8 +14,8 @@ definitionForNautilus
 	(self hasTraitComposition) ifTrue: [
 		aStream cr; tab; nextPutAll: 'uses: ';
 			nextPutAll: self traitCompositionString].
-	aStream cr; tab; nextPutAll: 'instanceVariableNames: ';
-			store: self instanceVariablesString.
+	aStream cr; tab; nextPutAll: 'slots: ';
+			nextPutAll: self slots asString .
 	aStream cr; tab; nextPutAll: 'classVariableNames: ';
 			store: self classVariablesString.
 	poolString = '' ifFalse: [

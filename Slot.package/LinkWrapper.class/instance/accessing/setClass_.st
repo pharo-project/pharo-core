@@ -1,0 +1,2 @@
+setClass: aClass
+	class := aClass
