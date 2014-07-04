@@ -1,0 +1,2 @@
+metaObject
+	^ metaObject

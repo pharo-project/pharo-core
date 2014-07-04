@@ -1,0 +1,1 @@
+I model Class, Pool and Globals and generate bytecode for accessing the variable.

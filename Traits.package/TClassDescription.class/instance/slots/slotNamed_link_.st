@@ -1,8 +1,13 @@
 slotNamed: aName link: aLink
-	| slot |
+	| slot wrapper |
 	slot := self slotNamed: aName.
-	slot link: aLink.
-	slot setClass: self.
+	wrapper := LinkWrapper new.
+	wrapper link: aLink.
+	wrapper setClass: self.
+	wrapper slot: slot.
+	
+	self flag: #TBD.
+	"Here we need to exchange the Slot in the layout"
 	
 	self compileAll. "for now just recompile the whole class"
 	

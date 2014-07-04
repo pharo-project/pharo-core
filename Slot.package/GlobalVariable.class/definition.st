@@ -1,0 +1,5 @@
+AbstractGlobalVariable subclass: #GlobalVariable
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Slot-Scope'

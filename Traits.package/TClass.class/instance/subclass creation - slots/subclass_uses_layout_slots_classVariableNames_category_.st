@@ -1,0 +1,13 @@
+subclass: aSubclassSymbol uses: aTraitCompositionOrArray  layout: layoutClass slots: slotDefinition classVariableNames: classVarString category: aCategorySymbol
+	^ self
+		subclass: aSubclassSymbol
+		uses: aTraitCompositionOrArray
+		with: [ 
+			PharoClassInstaller
+				make: [ :builder | 
+					builder
+						name: aSubclassSymbol;
+						layoutClass: layoutClass;
+						slots: slotDefinition;
+						sharedVariables: classVarString;
+						category: aCategorySymbol ] ]
