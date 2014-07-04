@@ -30,6 +30,16 @@ cleanUpForProduction
 	(MCPackage named: 'FileSystem-Tests-Core') unload.	
 	(MCPackage named: 'FileSystem-Tests-Disk') unload.	
 	(MCPackage named: 'FileSystem-Tests-Memory') unload.		
+			
+	(MCPackage named: 'Versionner-Core-Model') unload.
+	(MCPackage named: 'Versionner-Core-DependenciesModel') unload.		
+	(MCPackage named: 'Versionner-Core-Announcements') unload.	
+	(MCPackage named: 'Versionner-Core-Commands') unload.	
+	(MCPackage named: 'Versionner-Spec-Browser') unload.				
+	(MCPackage named: 'Versionner-Tests-Core-Commands') unload.	
+	(MCPackage named: 'Versionner-Tests-Core-DependenciesModel') unload.	
+	(MCPackage named: 'Versionner-Tests-Core-Model') unload.			
+	(MCPackage named: 'Versionner-Tests-Resources') unload.												
 	
 	self cleanUpForRelease.
 	
