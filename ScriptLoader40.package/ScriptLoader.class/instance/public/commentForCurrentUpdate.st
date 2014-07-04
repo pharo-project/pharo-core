@@ -1,8 +1,14 @@
 commentForCurrentUpdate
- ^ '13461 Slots: GlobalVariable and more class creation methods
-	https://pharo.fogbugz.com/f/cases/13461
+ ^ '13465 API for getting globals from class 
+	https://pharo.fogbugz.com/f/cases/13465
 
-13460 When selecting a UI Theme in the Setting, it should call #installFullTheme
-	https://pharo.fogbugz.com/f/cases/13460
+13464 Small code critique cleanup in Files
+	https://pharo.fogbugz.com/f/cases/13464
+
+7321 Consolidate order preserving dictionaries
+	https://pharo.fogbugz.com/f/cases/7321
+	
+13462 remove package FuelHacks
+	https://pharo.fogbugz.com/f/cases/13462
 
 '

@@ -1,3 +1,3 @@
 isSourceFileSuffix: suffix
 
-	^ FileStream sourceFileSuffixes includes: suffix
+	^ self sourceFileSuffixes includes: suffix

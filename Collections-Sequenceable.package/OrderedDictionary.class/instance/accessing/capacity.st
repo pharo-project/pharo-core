@@ -1,0 +1,2 @@
+capacity
+	^ dictionary capacity

@@ -1,0 +1,2 @@
+newKey
+	^ 'newKey'

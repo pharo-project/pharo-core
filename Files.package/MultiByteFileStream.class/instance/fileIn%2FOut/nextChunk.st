@@ -2,7 +2,6 @@ nextChunk
 	"Answer the contents of the receiver, up to the next terminator
 	character. Doubled terminators indicate an embedded terminator
 	character."
-	| bufferIX goodString |
 	self skipSeparators.
 	^ self
 		parseLangTagFor: (self basicChunk

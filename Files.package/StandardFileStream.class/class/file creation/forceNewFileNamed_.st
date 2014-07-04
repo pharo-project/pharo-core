@@ -2,7 +2,7 @@ forceNewFileNamed: fileName
 	"Create a new file with the given name, and answer a stream opened 
 	for writing on that file. If the file already exists, delete it without 
 	asking before creating the new file."
-	| dir localName fullName f |
+	| dir  fullName f |
 	
 	fullName := self fullName: fileName.
 	(self isAFileNamed: fullName)
@@ -11,7 +11,6 @@ forceNewFileNamed: fileName
 					(FileDoesNotExistException fileName: fullName) signal]].
 			
 	dir := fullName asFileReference.
-	localName := dir basename.
 	dir delete.
 	dir exists ifTrue: [(CannotDeleteFileException new
 			messageText: 'Could not delete the old version of file ' , fullName) signal].

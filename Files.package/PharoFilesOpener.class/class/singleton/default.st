@@ -1,2 +1,2 @@
 default
-	^ Default ifNil: [ Default := PharoFilesOpener new ]
+	^ Default ifNil: [ Default := self new ]
