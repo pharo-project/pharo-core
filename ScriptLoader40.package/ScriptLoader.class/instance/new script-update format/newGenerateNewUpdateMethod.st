@@ -24,5 +24,7 @@ newGenerateNewUpdateMethod
 	postscript isEmptyOrNil ifFalse: [str nextPutAll: postscript; ensureEndsWith: $.; crtab].
 	
 	str nextPutAll: 'self flushCaches.'; cr.
+	str nextPutAll: 'self cleanRepositories.'; cr.
+	
 	
 	^ str contents

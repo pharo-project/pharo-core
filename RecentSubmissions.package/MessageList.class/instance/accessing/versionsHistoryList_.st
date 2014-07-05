@@ -1,3 +1,0 @@
-versionsHistoryList: anObject
-
-	versionsHistoryList := anObject
