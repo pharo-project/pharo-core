@@ -1,0 +1,3 @@
+definitionForNautilusWithSlots
+
+	^ self definition

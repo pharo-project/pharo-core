@@ -1,12 +1,12 @@
 commentForCurrentUpdate
- ^ '13466 convertStepList --> cleanStepList (no need to keep the conversation code forever)
-	https://pharo.fogbugz.com/f/cases/13466
+ ^ '13470 testClassRespectsPolymorphismWithTrait is failing
+	https://pharo.fogbugz.com/f/cases/13470
 
-13468 move methods from AST-Intepreter-Extensions to *-Core
-	https://pharo.fogbugz.com/f/cases/13468
+13473 Class Password is unused --> move to Deprecated40
+	https://pharo.fogbugz.com/f/cases/13473
+	
+13472 InputEventSensorSystemSettings can be removed
+	https://pharo.fogbugz.com/f/cases/13472
 
-13469 Package EventModel is unused --> remove
-	https://pharo.fogbugz.com/f/cases/13469
 
-13467 #cleanUpForProduction should unload Versionner
-	https://pharo.fogbugz.com/f/cases/13467'
+'

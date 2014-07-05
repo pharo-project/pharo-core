@@ -1,2 +1,0 @@
-cache: anObject
-	cache := anObject
