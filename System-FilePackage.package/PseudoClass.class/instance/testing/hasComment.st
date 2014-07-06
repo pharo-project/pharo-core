@@ -1,2 +1,2 @@
 hasComment
-	^self organization commentRemoteStr notNil
+	^self organization commentRemoteString notNil

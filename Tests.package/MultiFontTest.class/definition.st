@@ -1,5 +1,5 @@
-TestCase subclass: #FontTest
+TestCase subclass: #MultiFontTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Tests-Fonts'
+	category: 'Tests-Multilingual'

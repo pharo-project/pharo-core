@@ -1,2 +1,0 @@
-testPerformWithArgsLargeFrame
-	self doPerformOldLargeFrame

@@ -24,7 +24,7 @@ contents
 		ifTrue:
 			[(theClass := self selectedClass) ifNil: [^ ''].
 			comment := theClass comment.
-			currentCompiledMethod := theClass organization commentRemoteStr.
+			currentCompiledMethod := theClass organization commentRemoteString.
 			^ comment size = 0
 				ifTrue: ['This class has not yet been commented.']
 				ifFalse: [comment]].

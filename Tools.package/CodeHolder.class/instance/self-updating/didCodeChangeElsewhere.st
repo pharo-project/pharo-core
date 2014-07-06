@@ -8,7 +8,7 @@ didCodeChangeElsewhere
 	(aSelector := self selectedMessageName) ifNil: [^ false].
 
 	self classCommentIndicated
-		ifTrue: [^ currentCompiledMethod ~~ aClass organization commentRemoteStr].
+		ifTrue: [^ currentCompiledMethod ~~ aClass organization commentRemoteString].
 
 	^ (aCompiledMethod := aClass compiledMethodAt: aSelector ifAbsent: [^ false]) ~~ currentCompiledMethod
 		and: [aCompiledMethod last ~= 0 "either not yet installed"

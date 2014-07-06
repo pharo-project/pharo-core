@@ -6,5 +6,5 @@ asHistorical
 	self sourcePointer ifNil:[
 		realClass := self realClass.
 		realClass notNil ifTrue: [ 
-			realClass organization commentRemoteStr
+			realClass organization commentRemoteString
 				ifNotNil: [:str | self sourcePointer: str sourcePointer ] ] ]

@@ -8,10 +8,10 @@ icon
 		valueWithEnoughArguments: self arguments .
 	self flag: #CleanYesNoOnOffAfter.
 	(state isKindOf: Association)
-		ifTrue: [^ state key ifTrue: [self onIcon] ifFalse: [self offIcon]]
+		ifTrue: [^ state key ifTrue: [self onImage] ifFalse: [self offImage]]
 		ifFalse: [
 	(state = true or: [state isString and: [(state beginsWith: '<yes>') or: [state beginsWith: '<on>']]])
-		ifTrue: [^self onIcon].
+		ifTrue: [^self onImage].
 	(state = false or: [state isString and: [(state beginsWith: '<no>') or: [state beginsWith: '<off>']]])
-		ifTrue: [^self offIcon]].
+		ifTrue: [^self offImage]].
 	^super icon

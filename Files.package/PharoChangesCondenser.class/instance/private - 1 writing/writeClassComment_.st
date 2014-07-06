@@ -2,7 +2,7 @@ writeClassComment: aClass
 	| organizer commentRemoteString stamp |
 	
 	organizer := aClass organization.
-	commentRemoteString := organizer commentRemoteStr.
+	commentRemoteString := organizer commentRemoteString.
 	
 	(commentRemoteString isNil or: [ commentRemoteString sourceFileNumber = 1 ])
 		ifTrue: [ ^ self ].
