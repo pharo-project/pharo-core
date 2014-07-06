@@ -5,6 +5,8 @@ renameMethodAllItem: aBuilder
 			keyText: 'r' if: Nautilus useOldStyleKeys;
 			action: [ | scroll target |
 				target := aBuilder model.
-				scroll := target methodWidget vScrollValue.
+				"scroll := target methodWidget vScrollValue."
 				target refactor renameMethodFor: target selectedMethod originMethod.
-				target methodWidget vScrollValue: scroll ].
+				"target methodWidget vScrollValue: scroll"
+				
+				 ].

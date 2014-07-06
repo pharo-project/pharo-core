@@ -1,0 +1,2 @@
+selectedMethod
+	^ self selectedMessage compiledMethod
