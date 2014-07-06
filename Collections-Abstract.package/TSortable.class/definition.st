@@ -1,3 +1,3 @@
 Trait named: #TSortable
 	uses: {}
-	category: 'Collections-Traits'
+	category: 'Collections-Abstract'
