@@ -1,0 +1,2 @@
+showSlotClassDefinition: aBoolean
+	slotClassDefinition := aBoolean

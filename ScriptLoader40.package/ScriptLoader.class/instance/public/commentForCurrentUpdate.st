@@ -1,11 +1,8 @@
 commentForCurrentUpdate
- ^ '13471 Refactoring in contextual menu in Message Browser
-	https://pharo.fogbugz.com/f/cases/13471
+ ^ '13483 Preference to always show experimental slot class template
+	https://pharo.fogbugz.com/f/cases/13483
 
-13458 Rendering text with Athens and StrikeFonts
-	https://pharo.fogbugz.com/f/cases/13458
-
-13478 The History Package has two classes that are support for tools --> move to Tools-Base
-	https://pharo.fogbugz.com/f/cases/13478
+12373 Class>>name: should be deprecated
+	https://pharo.fogbugz.com/f/cases/12373
 
 '
