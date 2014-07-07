@@ -1,7 +1,7 @@
 testStoreTemp
 	| cm symbolic |
 	
-	cm := IRBytecodeGenerator new
+	cm := IRSqueakV3PlusClosuresBytecodeGenerator new
 		numArgs: 0;
 		numTemps: 1;
 		pushLiteral: 1;

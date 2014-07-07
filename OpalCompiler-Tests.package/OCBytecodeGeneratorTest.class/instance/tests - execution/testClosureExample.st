@@ -1,7 +1,7 @@
 testClosureExample
 	| cm  |
 	
-	cm := IRBytecodeGenerator new
+	cm := IRSqueakV3PlusClosuresBytecodeGenerator new
 		numArgs: 0;
 		numTemps: 0;
 		pushClosureCopyNumCopiedValues: 0 numArgs: 0 to: #end;

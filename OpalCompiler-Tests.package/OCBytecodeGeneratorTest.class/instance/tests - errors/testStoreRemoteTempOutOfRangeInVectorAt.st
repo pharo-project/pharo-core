@@ -1,6 +1,6 @@
 testStoreRemoteTempOutOfRangeInVectorAt
 	
-	self should: [ IRBytecodeGenerator new
+	self should: [ IRSqueakV3PlusClosuresBytecodeGenerator new
 					numArgs: 0;
 					storeRemoteTemp: 257 inVectorAt: 1 ] 
 		raise: Error 

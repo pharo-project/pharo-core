@@ -4,7 +4,7 @@ quickMethod
 		^ self methodReturnReceiver
 	].
 	instructionStream method isReturnSpecial ifTrue: [
-		^ self methodReturnConstant: (IRBytecodeGenerator specialConstants at: instructionStream method primitive - 256)
+		^ self methodReturnConstant: (IRSqueakV3PlusClosuresBytecodeGenerator specialConstants at: instructionStream method primitive - 256)
 	].
 	instructionStream method isReturnField ifTrue: [
 		self pushReceiverVariable: instructionStream method returnField.

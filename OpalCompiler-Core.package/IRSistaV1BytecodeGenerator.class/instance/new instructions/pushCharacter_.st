@@ -1,0 +1,2 @@
+pushCharacter: character
+	self shouldBeImplemented

@@ -1,0 +1,1 @@
+Abstract Bytecode generator class. Handles the byte code generation of jumps, literals and similar things. Byte code independent. Concrete subclasses are byte code dependent.

@@ -1,7 +1,7 @@
 testReturnInstVar
 	| cm symbolic |
 	
-	cm := IRBytecodeGenerator new
+	cm := IRSqueakV3PlusClosuresBytecodeGenerator new
 		numArgs: 0;
 		numTemps: 0;
 		returnInstVar: 1;

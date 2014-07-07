@@ -6,5 +6,5 @@ pushClosureCopyCopiedValues: copiedValues args: args jumpTo: labelSymbol
 			numArgs: args size 
 			to: currentInstr destination orderNumber.
 	self pushScope: currentInstr.
-	currentInstr definedTemps do: [ :each | gen pushLiteral: nil ].
+	gen pushNClosureTemps: currentInstr definedTemps size.
 	gen mapBytesTo: currentInstr. 

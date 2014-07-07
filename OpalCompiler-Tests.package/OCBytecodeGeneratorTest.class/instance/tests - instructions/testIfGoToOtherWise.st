@@ -1,7 +1,7 @@
 testIfGoToOtherWise
 	| cm symbolic |
 	
-	cm := IRBytecodeGenerator new
+	cm := IRSqueakV3PlusClosuresBytecodeGenerator new
 		numArgs: 0;
 		numTemps: 1;
 		pushTemp: 1;
