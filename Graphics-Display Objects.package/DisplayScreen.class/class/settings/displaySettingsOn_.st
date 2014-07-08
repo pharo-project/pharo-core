@@ -1,14 +1,5 @@
 displaySettingsOn: aBuilder 
 	<systemsettings>
-"	(aBuilder pickOne: #displayDepth) 
-		label: 'Display depth' translated;
-		parent: #appearance;
-		target: #Display; 
-		getSelector: #depth;
-		setSelector: #newDepth:;
-		domainValues: self depthChoices;
-		notInStyle.
-"
 	(aBuilder setting: #displayFullscreen)
 		label: 'Fullscreen mode' translated;
 		parent: #desktopSettings;

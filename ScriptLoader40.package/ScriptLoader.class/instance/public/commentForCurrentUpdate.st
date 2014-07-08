@@ -1,11 +1,11 @@
 commentForCurrentUpdate
- ^ '13488 Small recategorization of Classes in Kernel
-	https://pharo.fogbugz.com/f/cases/13488
+ ^ '13494 Merge Settings-Display and FreeType into the packages
+	https://pharo.fogbugz.com/f/cases/13494
 
-13485 Move RPackageOrganizer>>#renamePackage:in: to Deprecated40
-	https://pharo.fogbugz.com/f/cases/13485
-
-13477 Small critique cleanup RPackage
-	https://pharo.fogbugz.com/f/cases/13477
+13496 failing test: testClassRespectsPolymorphismWithTrait
+	https://pharo.fogbugz.com/f/cases/13496
+	
+13487 Bytecode set settings
+	https://pharo.fogbugz.com/f/cases/13487
 
 '
