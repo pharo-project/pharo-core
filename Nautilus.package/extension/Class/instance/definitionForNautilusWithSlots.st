@@ -9,11 +9,15 @@ definitionForNautilusWithSlots
 	superclass 
 		ifNil: [aStream nextPutAll: 'ProtoObject']
 		ifNotNil: [aStream nextPutAll: superclass name].
-	aStream nextPutAll: self kindOfSubclass;
+	aStream nextPutAll: ' subclass:';
 			store: self name.
 	(self hasTraitComposition) ifTrue: [
 		aStream cr; tab; nextPutAll: 'uses: ';
-			nextPutAll: self traitCompositionString].
+			nextPutAll: self traitCompositionString].		
+			
+	(self layout isKindOf: FixedLayout) ifFalse: [
+		aStream cr; tab; nextPutAll: 'layout: ';
+			nextPutAll: self layout class name].
 	aStream cr; tab; nextPutAll: 'slots: ';
 			nextPutAll: self slots asString .
 	aStream cr; tab; nextPutAll: 'classVariableNames: ';
