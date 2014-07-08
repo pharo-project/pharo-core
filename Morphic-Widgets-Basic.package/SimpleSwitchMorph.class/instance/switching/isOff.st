@@ -1,2 +1,0 @@
-isOff
-	^ color ~= onColor

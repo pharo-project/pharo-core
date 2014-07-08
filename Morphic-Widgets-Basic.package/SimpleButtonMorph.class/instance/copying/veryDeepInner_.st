@@ -7,6 +7,5 @@ super veryDeepInner: deepCopier.
 "arguments := arguments.		All weakly copied"
 actWhen := actWhen veryDeepCopyWith: deepCopier.
 oldColor := oldColor veryDeepCopyWith: deepCopier.
-mouseDownTime := nil.
 label := label veryDeepCopyWith: deepCopier.
 helpText := helpText veryDeepCopyWith: deepCopier.

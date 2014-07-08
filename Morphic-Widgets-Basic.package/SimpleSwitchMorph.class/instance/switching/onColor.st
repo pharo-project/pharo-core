@@ -1,3 +1,0 @@
-onColor
-
-	^ onColor

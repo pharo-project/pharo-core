@@ -1,1 +1,0 @@
-Settings for the task bar
