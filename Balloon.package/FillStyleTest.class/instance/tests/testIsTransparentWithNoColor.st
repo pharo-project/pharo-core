@@ -1,2 +1,0 @@
-testIsTransparentWithNoColor
-	self deny: composite isTransparent

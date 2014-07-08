@@ -6,9 +6,7 @@ compilerSettingsOn: aBuilder
 					(aBuilder pickOne: #compilerClass)
 						target: SmalltalkImage;
 						label: 'Default Compiler';
-						domainValues:
-								{Compiler.
-									OpalCompiler}.
+						domainValues: AbstractCompiler subclasses.
 					(aBuilder pickOne: #bytecodeBackend)
 						target: CompilationContext;
 						label: 'Bytecode Backend';
