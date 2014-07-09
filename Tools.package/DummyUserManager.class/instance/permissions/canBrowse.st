@@ -1,3 +1,0 @@
-canBrowse
-
-	^ true

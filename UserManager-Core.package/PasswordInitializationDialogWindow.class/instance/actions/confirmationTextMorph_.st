@@ -1,3 +1,0 @@
-confirmationTextMorph: aMorph
-
-	confirmationTextMorph := aMorph

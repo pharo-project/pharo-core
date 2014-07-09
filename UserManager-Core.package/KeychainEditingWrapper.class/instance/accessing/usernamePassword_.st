@@ -1,2 +1,0 @@
-usernamePassword: anObject
-	usernamePassword := anObject

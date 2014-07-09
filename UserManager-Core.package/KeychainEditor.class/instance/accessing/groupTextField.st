@@ -1,2 +1,0 @@
-groupTextField
-	^ groupTextField

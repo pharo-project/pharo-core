@@ -1,3 +1,0 @@
-keychainEditingWrapper: anAssociation
-
-	keychainEditingWrapper value: anAssociation

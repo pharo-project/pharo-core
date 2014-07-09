@@ -1,2 +1,2 @@
 selector
- ^ self model finder findSelector: self item
+	^ self model finder findSelector: self item

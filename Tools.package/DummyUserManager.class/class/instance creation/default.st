@@ -1,3 +1,0 @@
-default
-
-	^ self new

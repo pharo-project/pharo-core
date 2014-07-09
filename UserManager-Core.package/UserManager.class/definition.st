@@ -1,5 +1,5 @@
-DummyUserManager subclass: #UserManager
+Object subclass: #UserManager
 	instanceVariableNames: 'currentUser users'
-	classVariableNames: ''
+	classVariableNames: 'Default'
 	poolDictionaries: ''
 	category: 'UserManager-Core'

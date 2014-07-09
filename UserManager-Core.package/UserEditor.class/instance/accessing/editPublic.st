@@ -1,3 +1,0 @@
-editPublic
-
-	^ editPublic

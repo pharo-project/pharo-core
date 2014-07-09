@@ -1,3 +1,0 @@
-defaultTimeToLive
-
-	^ Year new duration

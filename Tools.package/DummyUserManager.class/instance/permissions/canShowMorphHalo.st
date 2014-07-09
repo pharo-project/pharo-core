@@ -1,3 +1,0 @@
-canShowMorphHalo
-
-	^ true

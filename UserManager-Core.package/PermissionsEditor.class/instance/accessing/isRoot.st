@@ -1,2 +1,0 @@
-isRoot
-	^ isRoot

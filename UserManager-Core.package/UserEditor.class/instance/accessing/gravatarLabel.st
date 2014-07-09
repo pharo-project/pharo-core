@@ -1,2 +1,0 @@
-gravatarLabel
-	^ gravatarLabel

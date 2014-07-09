@@ -1,3 +1,0 @@
-editPermissions
-
-	^ editPermissions

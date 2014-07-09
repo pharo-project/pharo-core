@@ -1,3 +1,0 @@
-includesUser: aUser
-
-	^ false

@@ -1,4 +1,0 @@
-invalidPasswordLabel
-
-	^ LabelMorph new
-		text: ''

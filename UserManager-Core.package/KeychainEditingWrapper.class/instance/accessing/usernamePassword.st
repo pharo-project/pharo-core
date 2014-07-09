@@ -1,2 +1,0 @@
-usernamePassword
-	^ usernamePassword

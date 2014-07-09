@@ -1,3 +1,0 @@
-canInspect
-
-	^ true

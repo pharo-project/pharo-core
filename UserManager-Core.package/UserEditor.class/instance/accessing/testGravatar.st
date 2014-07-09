@@ -1,2 +1,0 @@
-testGravatar
-	^ testGravatar

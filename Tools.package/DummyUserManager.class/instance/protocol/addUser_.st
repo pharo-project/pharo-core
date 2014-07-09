@@ -1,3 +1,0 @@
-addUser: aUser
-
-	^ false

@@ -1,2 +1,0 @@
-group: anObject
-	group := anObject

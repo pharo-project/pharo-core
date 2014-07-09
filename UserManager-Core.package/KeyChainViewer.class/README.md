@@ -1,1 +1,0 @@
-A KeyChainViewer is a GUI to see and edit values of a keychain

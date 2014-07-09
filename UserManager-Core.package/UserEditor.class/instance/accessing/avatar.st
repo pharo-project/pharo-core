@@ -1,3 +1,0 @@
-avatar
-
-	^ container asSpecAdapter

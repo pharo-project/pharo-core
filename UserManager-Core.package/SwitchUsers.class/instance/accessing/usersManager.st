@@ -1,2 +1,0 @@
-usersManager
-	^ usersManager

@@ -1,3 +1,3 @@
-avatar: email
+avatar: anUrl
 
-	self updateGravatarFor: email
+	avatar := anUrl

@@ -1,8 +1,8 @@
 commentForCurrentUpdate
- ^ '13508 CachingMorph is unused
-	https://pharo.fogbugz.com/f/cases/13508
+ ^ '13502 basic UserManager cleanup
+	https://pharo.fogbugz.com/f/cases/13502
 
-13451 For Pharo4: 13422 Image crashes because an open Nautilus browser hangs onto many objects
-	https://pharo.fogbugz.com/f/cases/13451
+13520 remove all but one direct reference to Compiler
+	https://pharo.fogbugz.com/f/cases/13520
 
 '
