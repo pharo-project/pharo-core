@@ -1,10 +1,8 @@
 commentForCurrentUpdate
- ^ '13501 EyeInspector has a slow refresh time (part 1)
-	https://pharo.fogbugz.com/f/cases/13501
+ ^ '13508 CachingMorph is unused
+	https://pharo.fogbugz.com/f/cases/13508
 
-13510 MatrixTransformMorph is not used
-	https://pharo.fogbugz.com/f/cases/13510
+13451 For Pharo4: 13422 Image crashes because an open Nautilus browser hangs onto many objects
+	https://pharo.fogbugz.com/f/cases/13451
 
-13514 delete empty packages KeyChain and Settings-Compiler
-	https://pharo.fogbugz.com/f/cases/13514
 '
