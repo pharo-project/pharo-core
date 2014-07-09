@@ -1,14 +1,10 @@
 commentForCurrentUpdate
- ^ '13509 PSMCSystemSettings --> move to class
-	https://pharo.fogbugz.com/f/cases/13509
+ ^ '13501 EyeInspector has a slow refresh time (part 1)
+	https://pharo.fogbugz.com/f/cases/13501
 
-13511 Move CompilerSettings to OpalCompiler package
-	https://pharo.fogbugz.com/f/cases/13511
+13510 MatrixTransformMorph is not used
+	https://pharo.fogbugz.com/f/cases/13510
 
-13507 ExtendedTabPanelBorder is dead code
-	https://pharo.fogbugz.com/f/cases/13507
-
-13512 Move BalloonCanvas to Balllon Package
-	https://pharo.fogbugz.com/f/cases/13512
-
+13514 delete empty packages KeyChain and Settings-Compiler
+	https://pharo.fogbugz.com/f/cases/13514
 '
