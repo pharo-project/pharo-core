@@ -3,4 +3,4 @@ ColorPresenterMorph subclass: #ColorChooserMorph
 	instanceVariableNames: 'setColorSelector enabled getEnabledSelector'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Polymorph-Widgets'
+	category: 'Morphic-Widgets-ColorPicker'

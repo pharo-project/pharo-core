@@ -2,4 +2,4 @@ BracketSliderMorph subclass: #HColorSelectorMorph
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Polymorph-Widgets'
+	category: 'Morphic-Widgets-Scrolling'
