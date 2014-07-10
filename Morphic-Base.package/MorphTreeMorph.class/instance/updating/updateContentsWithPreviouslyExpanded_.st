@@ -7,4 +7,5 @@ updateContentsWithPreviouslyExpanded: aNodeList
 		ifTrue: [ 
 			nodeList := nil.
 			^ self emptySelection ].
-	self addSubmorphsFromNodeList: self currentNodelist previouslyExpanded: aNodeList
+	self addSubmorphsFromNodeList: self currentNodelist previouslyExpanded: aNodeList.
+	self listManager updateLastClickedMorph
