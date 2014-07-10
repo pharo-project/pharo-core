@@ -7,6 +7,14 @@ smalltalkEditorMenuOn: aBuilder
 	<contextMenu>
 	<smalltalkEditorMenu>
 	
+	aBuilder
+				item: 'Suggestions'; 
+				selector: #smartSuggestions;
+				target: self; 
+				keyText: 't';
+				order: 0.
+	aBuilder items last withSeparatorAfter .
+	
 	Smalltalk tools userManager canEvaluateCode ifTrue: [
 		(aBuilder item: #'Do it' translated) 
 			keyText: 'd';

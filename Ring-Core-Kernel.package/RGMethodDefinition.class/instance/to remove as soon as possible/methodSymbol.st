@@ -1,3 +1,0 @@
-methodSymbol
-	
-	^ self selector
