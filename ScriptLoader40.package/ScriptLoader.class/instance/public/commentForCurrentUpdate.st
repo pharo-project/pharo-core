@@ -1,11 +1,9 @@
 commentForCurrentUpdate
- ^ '13530 Add api to remove selection of text model
-	https://pharo.fogbugz.com/f/cases/13530
+ ^ '13537 Merging some polymorph and spec to PluggableListMorph
+	https://pharo.fogbugz.com/f/cases/13537
 
-13533 Smart Suggestions for more tools
-	https://pharo.fogbugz.com/f/cases/13533
-
-13534 Remove some unused "to be removed as soon as possible" methods from Ring
-	https://pharo.fogbugz.com/f/cases/13534
-
-'
+13495 deprecate #ifLocked: in PluggableTextMoprh
+	https://pharo.fogbugz.com/f/cases/13495/
+	
+13522 Add Back SimpleSwicthMorph
+	https://pharo.fogbugz.com/f/cases/13522'

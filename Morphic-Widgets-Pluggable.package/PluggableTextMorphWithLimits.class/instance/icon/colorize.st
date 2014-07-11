@@ -1,5 +1,5 @@
 colorize
 
-	self ifLocked: [ ^ self ].
+	self  locked ifTrue: [ ^ self ].
 	
 	lockIcon alpha: 1

@@ -2,12 +2,12 @@ toggleLock
 
 	self canChangeLock ifFalse: [ ^ self ].
 	
-	self 
-		ifLocked: [
+	self locked
+		ifTrue: [
 			self unlock.
 			lockIcon image: self defaultUnLockIcon
 			 ]
-		ifUnlocked: [ 
+		ifFalse: [ 
 			self lock.
 			lockIcon image: self defaultLockIcon ].
 		

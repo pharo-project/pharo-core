@@ -1,2 +1,2 @@
 on: anObject
-	^ super new target: anObject
+	^ self new target: anObject

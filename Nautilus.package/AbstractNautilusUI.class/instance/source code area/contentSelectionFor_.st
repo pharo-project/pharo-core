@@ -1,6 +1,6 @@
 contentSelectionFor: aTextMorph
 
-	aTextMorph ifLocked: [ ^ (1 to: 0) ].
+	aTextMorph locked ifTrue: [ ^ (1 to: 0) ].
 
 	self selectedClass 	
 		ifNotNil: [ self selectedMethod 
