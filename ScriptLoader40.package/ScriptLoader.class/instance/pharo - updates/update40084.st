@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '13548 Move LabelMorph, FuzzyLabelMorph and MultistateLabelMorph to the Package of StringMorph
+update40084
+	"self new update40084"
+	self withUpdateLog: '13548 Move LabelMorph, FuzzyLabelMorph and MultistateLabelMorph to the Package of StringMorph
 	https://pharo.fogbugz.com/f/cases/13548
 
 13531 RBMissingSubclassResponsibilityRule missing test cases
@@ -11,4 +12,7 @@ commentForCurrentUpdate
 13547 Move LabelClicked close to its only user: CheckBoxMorph
 	https://pharo.fogbugz.com/f/cases/13547
 
-'
+'.
+	self loadTogether: self script84 merge: false.
+	self flushCaches.
+self cleanRepositories.

@@ -2,4 +2,4 @@ LabelMorph subclass: #FuzzyLabelMorph
 	instanceVariableNames: 'offset alpha'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Polymorph-Widgets'
+	category: 'Morphic-Widgets-Basic'

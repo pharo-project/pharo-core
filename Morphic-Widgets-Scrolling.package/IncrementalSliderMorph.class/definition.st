@@ -2,4 +2,4 @@ MorphicModel subclass: #IncrementalSliderMorph
 	instanceVariableNames: 'sliderMorph getValueSelector setValueSelector getEnabledSelector'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Polymorph-Widgets'
+	category: 'Morphic-Widgets-Scrolling'
