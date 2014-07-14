@@ -10,7 +10,7 @@ handleStartupErrors: startupErrors
 	self isInteractive 
 		ifFalse: [ self exitFailure ]
 		ifTrue: [  |answer|
-			Smalltalk tools userManager canRunStartupScript
+			UserManager default canRunStartupScript
 				ifTrue: [ 
 					answer := (UIManager default 
 						confirm: 'Got startup errors, proceed to open debuggers'

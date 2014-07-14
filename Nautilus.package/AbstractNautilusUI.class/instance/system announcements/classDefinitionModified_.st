@@ -4,6 +4,7 @@ classDefinitionModified: anAnnouncement
 	window ifNil: [^ self ].
 	window isDisplayed ifFalse: [ ^ self ].
 	class := anAnnouncement oldClassDefinition. 
+	self removeClassFromMethodsIconsCache: class.	
 	((self showGroups 
 	and: [  self selectedGroup notNil
 	and: [ self selectedGroup elements includes: class ]]) 

@@ -1,7 +1,7 @@
 invokeMetaMenu: evt
 	| menu |
 	
-	Smalltalk tools userManager canShowMorphHalo
+	UserManager default canShowMorphHalo
 		ifFalse: [ ^ self ].
 	menu := self buildMetaMenu: evt.
 	menu addTitle: self externalName.

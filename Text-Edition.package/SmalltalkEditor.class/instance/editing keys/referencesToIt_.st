@@ -1,6 +1,6 @@
 referencesToIt: aKeyboardEvent
 	"Triggered by Cmd-N; browse references to the current selection"
 
-	Smalltalk tools userManager canBrowse ifFalse: [ ^ false ].
+	UserManager default canBrowse ifFalse: [ ^ false ].
 	self referencesToIt.
 	^ true

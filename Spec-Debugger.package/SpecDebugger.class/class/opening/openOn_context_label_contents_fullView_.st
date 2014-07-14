@@ -5,7 +5,7 @@ openOn: process context: context label: title contents: contentsStringOrNil full
 	| fullView |
 	fullView := (bool or: [self alwaysOpenFullDebugger]).
 	
-	Smalltalk tools userManager canDebug ifFalse: [ 
+	UserManager default canDebug ifFalse: [ 
 		UIManager default spawnNewProcessIfThisIsUI: process.
 		process suspend.
 		^ self ].

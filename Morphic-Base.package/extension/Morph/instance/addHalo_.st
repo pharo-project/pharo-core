@@ -1,7 +1,7 @@
 addHalo: evt
 	| halo prospectiveHaloClass |
 	
-	Smalltalk tools userManager canShowMorphHalo
+	UserManager default canShowMorphHalo
 		ifFalse: [ ^ self ].
 	prospectiveHaloClass := Smalltalk globals at: self haloClass ifAbsent: [ HaloMorph ].
 	halo := prospectiveHaloClass new.

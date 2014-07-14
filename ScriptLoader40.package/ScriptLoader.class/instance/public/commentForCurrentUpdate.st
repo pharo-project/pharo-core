@@ -1,11 +1,11 @@
 commentForCurrentUpdate
- ^ '13546 Move EdgeGripMorph and WindowEdgeGripMorph to Morphic-Widgets-Window
-	https://pharo.fogbugz.com/f/cases/13546
+ ^ '13527 Moving class with overridden method and green override icon gives MNU "methodClass" is nil when clicked
+	https://pharo.fogbugz.com/f/cases/13527
 
-13544 Move ThreadSafeTranscriptPluggableTextMorph close to Transcript 
-	https://pharo.fogbugz.com/f/cases/13544
+13542 Better #printOn: method for RPackageTag
+	https://pharo.fogbugz.com/f/cases/13542
 
-13545 Move extension methods from Polymorph-Tools-Diff into MCMergeBrowser
-	https://pharo.fogbugz.com/f/cases/13545
+13543 use UserManager default instead of Smalltalk tools userManager
+	https://pharo.fogbugz.com/f/cases/13543
 
 '

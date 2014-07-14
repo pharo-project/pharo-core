@@ -15,7 +15,7 @@ smalltalkEditorMenuOn: aBuilder
 				order: 0.
 	aBuilder items last withSeparatorAfter .
 	
-	Smalltalk tools userManager canEvaluateCode ifTrue: [
+	UserManager default canEvaluateCode ifTrue: [
 		(aBuilder item: #'Do it' translated) 
 			keyText: 'd';
 			selector: #doIt; 
@@ -26,7 +26,7 @@ smalltalkEditorMenuOn: aBuilder
 			selector: #printIt; 
 			help: nil; 
 			icon: Smalltalk ui icons smallPrintItIcon. ].
-	Smalltalk tools userManager canInspect ifTrue: [
+	UserManager default canInspect ifTrue: [
 		(aBuilder item: #'Inspect it' translated) 
 			keyText: 'i';
 			selector: #inspectIt; 
@@ -37,7 +37,7 @@ smalltalkEditorMenuOn: aBuilder
 			selector: #exploreIt; 
 			help: nil; 
 			icon: Smalltalk ui icons smallInspectItIcon ].
-	Smalltalk tools userManager canDebug ifTrue: [
+	UserManager default canDebug ifTrue: [
 		(aBuilder item: #'Debug it' translated) 
 			keyText: 'D';
 			selector: #debugIt; 
@@ -57,7 +57,7 @@ smalltalkEditorMenuOn: aBuilder
 		selector: #findAgain; 
 		help: nil; 
 		icon: Smalltalk ui icons smallFindIcon.
-	Smalltalk tools userManager canBrowse ifTrue: [
+	UserManager default canBrowse ifTrue: [
 		(aBuilder item: #'Extended search...' translated) 
 			selector: #shiftedTextPaneMenuRequest; 
 			withSeparatorAfter ].
@@ -92,7 +92,7 @@ smalltalkEditorMenuOn: aBuilder
 		help: nil; 
 		icon: Smalltalk ui icons smallCopyIcon; 
 		withSeparatorAfter.
-	Smalltalk tools userManager canEvaluateCode ifTrue: [
+	UserManager default canEvaluateCode ifTrue: [
 		(aBuilder item: #'Accept' translated) 
 			keyText: 's';
 			selector: #accept; 

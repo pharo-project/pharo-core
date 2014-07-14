@@ -1,7 +1,7 @@
 basicHasUnacceptedEdits: aBoolean
 	"Set the hasUnacceptedEdits flag to the given value. "
 	
-	Smalltalk tools userManager canEditCode 
+	UserManager default canEditCode 
 		ifFalse: [ aBoolean ifTrue: [ ^ self ]].
 	aBoolean == hasUnacceptedEdits 
 		ifFalse: [hasUnacceptedEdits := aBoolean. 

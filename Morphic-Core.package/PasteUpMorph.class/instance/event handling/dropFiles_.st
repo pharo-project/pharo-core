@@ -5,7 +5,7 @@ dropFiles: anEvent
 		- remember the resource location or (when in browser) even the actual file handle"
 	| numFiles stream handler |
 	
-	Smalltalk tools userManager canDropOSFile ifFalse: [ ^ self ].
+	UserManager default canDropOSFile ifFalse: [ ^ self ].
 	
 	numFiles := anEvent contents.
 	1 to: numFiles do: [:i |

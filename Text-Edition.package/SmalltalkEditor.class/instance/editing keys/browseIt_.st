@@ -1,5 +1,6 @@
 browseIt: t1 
-	Smalltalk tools userManager canBrowse
+
+	UserManager default canBrowse
 		ifFalse: [^ false].
 	self browseIt.
 	^ true

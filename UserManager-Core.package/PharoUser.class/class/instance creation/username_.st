@@ -1,6 +1,6 @@
 username: username
 
-	^ Smalltalk tools userManager users
+	^ UserManager default users
 		detect: [:e | e username = username ] 
 		ifNone: [	
 			self new

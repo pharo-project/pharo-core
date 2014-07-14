@@ -1,6 +1,6 @@
 quitSession
 	| save |
-	save := Smalltalk tools userManager canSaveImage
+	save := UserManager default canSaveImage
 		ifFalse: [ false ]
 		ifTrue: [ self confirm: 'Save changes before quitting?' translated orCancel: [ ^ self ] ].
 	save 
