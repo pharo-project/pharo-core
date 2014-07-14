@@ -2,4 +2,4 @@ EdgeGripMorph subclass: #WindowEdgeGripMorph
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Polymorph-Widgets'
+	category: 'Morphic-Widgets-Windows-Widgets'
