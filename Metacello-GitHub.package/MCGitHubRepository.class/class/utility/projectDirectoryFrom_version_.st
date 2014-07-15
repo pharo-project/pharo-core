@@ -19,8 +19,9 @@ projectDirectoryFrom: projectPath version: versionString
         signal.	"for testing purposes"
       mcPlatform ensureDirectoryExists: githubCacheDirectory.
       url := 'https://github.com/' , projectPath , '/zipball/' , versionString.
-      zipFileName := '/tmp/github-'
-        , (downloadCacheKey select: [ :c | c isAlphaNumeric ]) , '.zip'.
+      zipFileName :=  MetacelloPlatform current 
+						tempFileFor: 'github-' , (downloadCacheKey select: [ :c | c isAlphaNumeric ]) 
+						suffix: '.zip'.
       archive := MetacelloPlatform current downloadFile: url to: zipFileName.
       directory := mcPlatform
         directoryFromPath: (cachePath := archive members first fileName)

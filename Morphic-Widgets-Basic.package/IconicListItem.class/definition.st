@@ -3,4 +3,4 @@ BorderedMorph subclass: #IconicListItem
 	instanceVariableNames: 'icon morph originalObject'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Polymorph-Widgets'
+	category: 'Morphic-Widgets-Basic'

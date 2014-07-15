@@ -6,7 +6,7 @@ generateKeySet
  
  	| dsa |
  	dsa := self new.
- 	(self confirm: 'Shall I seed the random generator from the current sound input?')
+ 	(self confirm: 'Shall I seed the random generator from the current time?')
  		ifTrue: [dsa initRandomNonInteractively]
  		ifFalse: [dsa initRandomFromUser].
  	^ dsa generateKeySet
