@@ -2,6 +2,6 @@ createLinearGradient: colorRamp start: pt1 stop: pt2
  
 	^ AthensBalloonLinearGradient new
 		colorRamp: colorRamp;
-		start: pt1;
-		stop: pt2;
+		origin: pt1;
+		corner: pt2;
 		yourself

@@ -1,14 +1,7 @@
 commentForCurrentUpdate
- ^ '13548 Move LabelMorph, FuzzyLabelMorph and MultistateLabelMorph to the Package of StringMorph
-	https://pharo.fogbugz.com/f/cases/13548
+ ^ '12790 AthensSurfaceExamples class side examples do not work due to subclassResponsibility 
+	https://pharo.fogbugz.com/f/cases/12790
 
-13531 RBMissingSubclassResponsibilityRule missing test cases
-	https://pharo.fogbugz.com/f/cases/13531
-
-13549 Move incrementalSliderMorph to the package of SliderMorph
-	https://pharo.fogbugz.com/f/cases/13549
-
-13547 Move LabelClicked close to its only user: CheckBoxMorph
-	https://pharo.fogbugz.com/f/cases/13547
-
+13538 RowScrollerMorph us unused and undocumented
+	https://pharo.fogbugz.com/f/cases/13538
 '

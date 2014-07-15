@@ -1,0 +1,3 @@
+renderBlock: anObject
+	
+	renderBlock := anObject

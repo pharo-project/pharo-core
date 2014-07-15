@@ -1,5 +1,5 @@
 Object subclass: #AthensSurfaceExamples
-	instanceVariableNames: ''
+	instanceVariableNames: 'renderBlock'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Athens-Examples'

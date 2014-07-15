@@ -1,0 +1,2 @@
+capButt
+	self flag:#todo

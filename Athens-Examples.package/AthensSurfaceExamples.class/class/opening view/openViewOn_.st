@@ -1,5 +1,5 @@
 openViewOn: aBlock
 
 	^ AthensSceneView new
-		scene: aBlock;
+		scene: (self newAsSceneFrom:aBlock);
 		openInWindow 
