@@ -1,0 +1,2 @@
+selectedClass
+	^ self currentContext class
