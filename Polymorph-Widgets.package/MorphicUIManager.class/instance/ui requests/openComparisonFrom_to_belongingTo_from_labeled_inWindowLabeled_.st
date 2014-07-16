@@ -4,7 +4,7 @@ openComparisonFrom: targetMethodSource
 					from: aChange 
 					labeled: aLabel 
 					inWindowLabeled: aWindowLabel 
-	| diffMorph diffBuilder difference win |
+	| diffBuilder difference win |
 	PolymorphSystemSettings usePolymorphDiffMorph 
 		ifTrue: [ ^ self openPolymorphComparisonFrom: originalMethodSource 
 					to: targetMethodSource

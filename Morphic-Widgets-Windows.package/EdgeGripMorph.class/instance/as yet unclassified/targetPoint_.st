@@ -1,7 +1,7 @@
 targetPoint: aPoint
 	"Set the reference point of the target."
 
-	|minExt rect ownerMinExt|
+	|minExt rect |
 	rect := self target bounds withSideOrCorner: self edgeName setToPoint: aPoint.
 	minExt := (self target layoutPolicy notNil and: [self target layoutPolicy isTableLayout])
 		ifTrue: [self target layoutPolicy minExtentOf: self target in: self target layoutBounds]

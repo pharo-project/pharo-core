@@ -1,5 +1,5 @@
 MCPatchBrowser subclass: #MCMergeBrowser
-	instanceVariableNames: 'conflicts merger ok'
+	instanceVariableNames: 'conflicts merger'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'MonticelloGUI'

@@ -1,5 +1,4 @@
 showModally
-	| tb |
 	modal := true.
 	self window openInWorldExtent: 400 @ 400.
 	self setDefaultFocus.

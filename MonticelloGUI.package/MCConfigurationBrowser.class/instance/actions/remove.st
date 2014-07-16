@@ -1,6 +1,6 @@
 remove
-	self canRemove ifTrue: [
-		self list removeAt: self index.
-		self changedList.
-		self updateIndex.
-	].
+	self canRemove
+		ifFalse: [ ^ self ].
+	self list removeAt: self index.
+	self changedList.
+	self updateIndex

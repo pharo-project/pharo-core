@@ -4,9 +4,7 @@ directory: aDirectoryOrString
 	| repository |
 	repository := (aDirectoryOrString isString and: [ aDirectoryOrString endsWith: '*' ])
 		ifTrue: [ 
-			((Smalltalk globals
-				at: #MCSubDirectoryRepository
-				ifAbsent: [ self error: aDirectoryOrString printString , ' is an unsupported repository type' ]) new)
+			MCSubDirectoryRepository new
 				directory: aDirectoryOrString allButLast asFileReference;
 				yourself ]
 		ifFalse: [ 

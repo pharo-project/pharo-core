@@ -1,7 +1,7 @@
 pickColor
 	"Pick a colour from the screen."
 
-	|p d c h|
+	|p c h|
 
 	h := self activeHand.
 	h showTemporaryCursor: Smalltalk ui icons eyedropperIcon 

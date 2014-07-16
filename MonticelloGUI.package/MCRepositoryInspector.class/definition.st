@@ -1,5 +1,5 @@
 MCVersionInspector subclass: #MCRepositoryInspector
-	instanceVariableNames: 'repository packages versions loaded selectedPackage selectedVersion'
+	instanceVariableNames: 'repository packages versions selectedPackage selectedVersion'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'MonticelloGUI'

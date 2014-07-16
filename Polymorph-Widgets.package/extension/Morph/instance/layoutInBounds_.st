@@ -1,6 +1,6 @@
 layoutInBounds: cellBounds
 	"Layout specific. Apply the given bounds to the receiver after being layed out in its owner."
-	| box aSymbol delta |
+	| box aSymbol |
 	
 	cellBounds = self bounds ifTrue:[^self]. "already up to date. Fixed here to use bounds rather than fullBounds for the check."
 	cellBounds extent = self bounds extent "nice fit. Fixed here to use bounds rather than fullBounds for the check."

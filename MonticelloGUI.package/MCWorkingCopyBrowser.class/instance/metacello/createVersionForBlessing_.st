@@ -1,7 +1,7 @@
 createVersionForBlessing: blessingSelector
 	"blessingSelector = #release or #development"
 	 
-	| existingVersions msg initialAnswer newVersionNumber selectorName stream dependentPackages mcWorkingCopy |
+	| existingVersions msg initialAnswer newVersionNumber selectorName stream mcWorkingCopy |
 	existingVersions := self configurationClass methods select: [:cm | cm selector beginsWith: 'version'].
 	existingVersions := (existingVersions collect: [:m | m pragmas first argumentAt: 1]) asSortedCollection.
 	

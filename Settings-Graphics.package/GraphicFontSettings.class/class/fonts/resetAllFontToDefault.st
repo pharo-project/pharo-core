@@ -1,4 +1,5 @@
 resetAllFontToDefault
 	StandardFonts setAllStandardFontsTo: StandardFonts defaultFont.
-	SettingBrowser refreshAllSettingBrowsers
+	SettingBrowser refreshAllSettingBrowsers.
+	EditorFindReplaceDialogWindow cleanUp.
 	 

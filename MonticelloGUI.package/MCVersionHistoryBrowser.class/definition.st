@@ -1,5 +1,5 @@
 MCTool subclass: #MCVersionHistoryBrowser
-	instanceVariableNames: 'ancestry index repositoryGroup package infos'
+	instanceVariableNames: 'ancestry index package infos'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'MonticelloGUI'

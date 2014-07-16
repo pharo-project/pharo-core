@@ -1,7 +1,7 @@
 treeRenderOn: aCanvas bounds: drawBounds color: drawColor font: aFont from: aMorph
 
 	"Method extracted from LazyListMorph"
-	| attrs useDefaultFont f col itemBounds |
+	| attrs useDefaultFont f itemBounds |
 	
 	attrs := self attributesAt: 1.
 	useDefaultFont := true.

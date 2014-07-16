@@ -1,5 +1,4 @@
 searchKeystroke: event
-	|interval|
 	
 	searchMorph content ifNil: [ ^ false ].
 	

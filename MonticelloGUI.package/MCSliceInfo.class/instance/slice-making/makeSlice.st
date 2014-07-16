@@ -1,5 +1,5 @@
 makeSlice
-	| name issue workingCopy workingCopyWrapper dirtyPackages |
+	| name issue workingCopy |
 	issue := self usableIssueNumber.
 	issue isEmptyOrNil
 		ifTrue: [^ nil].

@@ -1,3 +1,4 @@
 setFontsToStyleNamed: aSymbol
 	StandardFonts setFontsToStyleNamed: aSymbol.
-	SettingBrowser refreshAllSettingBrowsers
+	SettingBrowser refreshAllSettingBrowsers.
+	EditorFindReplaceDialogWindow cleanUp.
