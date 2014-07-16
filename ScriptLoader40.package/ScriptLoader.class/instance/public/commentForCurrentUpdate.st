@@ -1,11 +1,8 @@
 commentForCurrentUpdate
- ^ '13564 Fix all users of TimeStamp: remove Tests, change two remaining clients
-	https://pharo.fogbugz.com/f/cases/13564
+ ^ '11287 Form class>>fromUserWithExtent: freezes because Rectangle class>>originFromUser:grid: is broken.
+	https://pharo.fogbugz.com/f/cases/11287
 
-13562 remove UUIDGeneration seed generation from sound input
-	https://pharo.fogbugz.com/f/cases/13562
-
-13561 remove some unload class methods
-	https://pharo.fogbugz.com/f/cases/13561
+13550 Should remove the 30 inbox from pharo 40alpha
+	https://pharo.fogbugz.com/f/cases/13550
 
 '
