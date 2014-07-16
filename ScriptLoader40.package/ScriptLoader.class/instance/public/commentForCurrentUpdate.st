@@ -1,17 +1,11 @@
 commentForCurrentUpdate
- ^ '13560 remove DSA seed generation from sound input
-	https://pharo.fogbugz.com/f/cases/13560
+ ^ '13564 Fix all users of TimeStamp: remove Tests, change two remaining clients
+	https://pharo.fogbugz.com/f/cases/13564
 
-13555 IconicListItem should be packaged in Widgets-Basic
-	https://pharo.fogbugz.com/f/cases/13555
+13562 remove UUIDGeneration seed generation from sound input
+	https://pharo.fogbugz.com/f/cases/13562
 
-13556 ImagePreviewMorph could be packaged close to AlphaImageMorph
-	https://pharo.fogbugz.com/f/cases/13556
-
-13559 ControlButtonMorph and PluggableButtonMorph could be moved to Widgets-Base
-	https://pharo.fogbugz.com/f/cases/13559
-
-13557 Github zip download does not check for the existence of file with the same name
-	https://pharo.fogbugz.com/f/cases/13557
+13561 remove some unload class methods
+	https://pharo.fogbugz.com/f/cases/13561
 
 '

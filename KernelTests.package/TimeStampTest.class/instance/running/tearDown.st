@@ -1,3 +1,0 @@
-tearDown
-
-	timestamp := nil.

@@ -7,5 +7,5 @@ buildString
 		ifNil: [ '' ]
 		ifNotNil: [:class |
 			mdl selectedMethod
-				ifNil: [ (RGCommentDefinition realClass: class) timeStamp asTimeStamp asString ]
-				ifNotNil: [:method | method methodReference timeStamp asTimeStamp asString ]]
+				ifNil: [ (RGCommentDefinition realClass: class) timeStamp asDateAndTime asString ]
+				ifNotNil: [:method | method methodReference timeStamp asDateAndTime asString ]]

@@ -1,3 +1,0 @@
-classToBeTested
-
-	^ self timestampClass
