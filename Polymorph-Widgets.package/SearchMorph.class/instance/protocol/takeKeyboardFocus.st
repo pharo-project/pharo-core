@@ -1,0 +1,2 @@
+takeKeyboardFocus
+	contentMorph takeKeyboardFocus.
