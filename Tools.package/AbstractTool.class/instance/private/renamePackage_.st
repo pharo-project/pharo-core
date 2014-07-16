@@ -7,5 +7,5 @@ renamePackage: anRPackage
 		title: 'Rename a package'.
 	newName = anRPackage name ifTrue: [ ^ self ].
 	(self isValidPackageName: newName)
-		ifTrue: [ self browsedEnvironment packageOrganizer renamePackage: anRPackage in: newName ]
+		ifTrue: [ anRPackage renameTo: newName ]
 		ifFalse: [ self alertInvalidPackageName:newName ].
