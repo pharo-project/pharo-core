@@ -5,7 +5,7 @@ packagesCreateMenu: aBuilder
 	
 	target := aBuilder model.
 	(package := target selectedPackage) ifNil: [ ^ target ].
-	mcpackage := package correspondingMcPackage.
+	mcpackage := package mcPackage.
 	mcpackage ifNotNil: [ ^ self ].
 	
 	(aBuilder item: #'Create a MC package')

@@ -12,11 +12,6 @@ treeRenderOn: aCanvas bounds: drawBounds color: drawColor font: aFont from: aMor
 	f := useDefaultFont
 				ifTrue: [ aMorph font ]
 				ifFalse: [ self fontAt: 1 withStyle: TextStyle default ].
-	col := (self attributesAt: 1)
-				detect: [:a | a isKindOf: TextColor]
-				ifNone: [].
-	"(col notNil and: [(self isRowSelected: row) not])
-		ifTrue: [c := col color]."
 	itemBounds := drawBounds  withHeight: f height.
 	itemBounds := itemBounds align: itemBounds leftCenter with: drawBounds  leftCenter.
 	"center the item if the font height is different to that of our font"

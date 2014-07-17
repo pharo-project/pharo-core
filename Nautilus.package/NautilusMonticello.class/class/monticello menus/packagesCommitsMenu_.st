@@ -5,7 +5,7 @@ packagesCommitsMenu: aBuilder
 	
 	target := aBuilder model.
 	(package := target selectedPackage) ifNil: [ ^ target ].
-	mcpackage := package correspondingMcPackage.
+	mcpackage := package mcPackage.
 	mcpackage ifNil: [ ^self ].
 	
 	mcpackage isDirty

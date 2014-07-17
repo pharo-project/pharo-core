@@ -1,2 +1,0 @@
-correspondingMcPackage 
-	^ self subclassResponsibility

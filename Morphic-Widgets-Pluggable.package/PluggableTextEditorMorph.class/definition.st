@@ -3,4 +3,4 @@ PluggableTextMorph subclass: #PluggableTextEditorMorph
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Polymorph-Widgets'
+	category: 'Morphic-Widgets-Pluggable'

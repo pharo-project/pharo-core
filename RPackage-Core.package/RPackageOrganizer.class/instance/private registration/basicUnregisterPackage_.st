@@ -5,5 +5,5 @@ basicUnregisterPackage: aPackage
 		removeKey: aPackage name asSymbol
 		ifAbsent: [ self reportExtraRemovalOf: aPackage ].
 	"unregister also mc package"
-	aPackage correspondingMcPackage 
+	aPackage mcPackage 
 		ifNotNil: [ :mcPackage | mcPackage workingCopy unregister ].

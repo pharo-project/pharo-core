@@ -3,7 +3,7 @@ updateRepository
 	| package repoManager |
 	
 	project ifNotNil: [ 
-		package := project configurationClass package correspondingMcPackage.
+		package := project configurationClass package mcPackage.
 		repoManager := VersionnerRepositoriesManager new.
 		repoManager
 			selectedChangedBlock:  [:remote :selected |
