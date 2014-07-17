@@ -20,7 +20,7 @@ testAddSharedVariableKeepSubclasses
 		builder 
 			name: self aClassName;
 			superclass: Object;
-			sharedVariables: 'Var' ]. 
+			sharedVariablesFromString: 'Var' ]. 
 	
 	self assert: aClass subclasses size equals: 1.
 	self assert: aClass subclasses anyOne == anotherClass.

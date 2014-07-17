@@ -1,7 +1,7 @@
 testWithSharedVariable
 
 	aClass := self make: [ :builder | 
-		builder sharedVariables: 'Var' ].
+		builder sharedVariablesFromString: 'Var' ].
 	aClass class 
 		compile: 'var:x  Var:=x';
 		compile: 'var  ^Var'.

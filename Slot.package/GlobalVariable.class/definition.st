@@ -1,4 +1,4 @@
-AbstractGlobalVariable subclass: #GlobalVariable
+LiteralVariable subclass: #GlobalVariable
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

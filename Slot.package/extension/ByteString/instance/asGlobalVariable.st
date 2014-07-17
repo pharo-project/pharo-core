@@ -1,0 +1,2 @@
+asGlobalVariable
+	^ self asSymbol asGlobalVariable

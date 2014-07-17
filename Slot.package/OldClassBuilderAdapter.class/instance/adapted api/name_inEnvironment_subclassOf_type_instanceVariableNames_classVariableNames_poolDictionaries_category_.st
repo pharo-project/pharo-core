@@ -6,7 +6,7 @@ name: name inEnvironment: environment subclassOf: superClass type: type instance
 			name: name;
 			layoutClass: (self layoutForType: type);
 			slots: instanceVariablesString asSlotCollection;
-			sharedVariables: classVariablesString;
+			sharedVariablesFromString: classVariablesString;
 			sharedPools: sharedPoolsString;
 			category: category;
 			environment: environment;

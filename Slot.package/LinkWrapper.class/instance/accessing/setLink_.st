@@ -1,0 +1,3 @@
+setLink: anObject
+	
+	link := anObject

@@ -14,7 +14,7 @@ buildNewClass
 		withLayoutType: self layoutClass
 		slots: slots.
 
-	newClass declare: sharedVariablesString.
+	newClass declareClassVariables: sharedVariables.
 	newClass sharing: sharedPoolsString.
 	
 	installer classAdded: newClass inCategory: category.

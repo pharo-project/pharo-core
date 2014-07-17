@@ -1,9 +1,9 @@
 testAddSharedVariable
 
 	self make: [ :builder | 
-		builder sharedVariables: '' ].
+		builder sharedVariablesFromString: '' ].
 
 	aClass := self make: [ :builder | 
-		builder sharedVariables: 'Var' ].
+		builder sharedVariablesFromString: 'Var' ].
 	
 	self assert: aClass classVarNames equals: #(Var).

@@ -1,0 +1,1 @@
+A TestGlobalVariable is xxxxxxxxx.

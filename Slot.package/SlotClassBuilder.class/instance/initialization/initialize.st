@@ -3,7 +3,7 @@ initialize
 	oldClasses := OrderedCollection new.
 	newClasses := OrderedCollection new.
 	sharedPoolsString := ''.
-	sharedVariablesString := ''.
+	sharedVariables := {}.
 	classSlots := {}.
 	slots := {}.
 	superclass := Object.

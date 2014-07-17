@@ -1,4 +1,4 @@
 classVarNamed: aString
-	"Answer the content of the Class Variable"
+	"for compatibility"
 
-	^self classPool at: aString asSymbol ifAbsent: [self error: 'no such lass var']
+	^self readClassVariableNamed: aString

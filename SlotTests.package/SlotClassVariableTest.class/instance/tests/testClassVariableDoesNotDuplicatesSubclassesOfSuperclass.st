@@ -17,5 +17,5 @@ testClassVariableDoesNotDuplicatesSubclassesOfSuperclass
 		builder
 			name: self anotherClassName;
 			superclass: class1;
-			sharedVariables: 'ASharedVariable' ].
+			sharedVariablesFromString: 'ASharedVariable' ].
 	self assert: class1 subclasses equals: { class2 }.

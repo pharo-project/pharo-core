@@ -10,7 +10,7 @@ class: oldClass instanceVariableNames: instVarString
 			name: theClass name;
 			layoutClass: theClass layout class;
 			slots: (theClass instVarNames collect: [:n | n asSlot ]);
-			sharedVariables: theClass classVariablesString;
+			sharedVariablesFromString: theClass classVariablesString;
 			sharedPools: theClass sharedPoolsString;
 			traitComposition: theClass traitComposition;
 			category: theClass category asString;

@@ -13,7 +13,7 @@ testChangeInSharedVariablesShouldAnnounceClassModified
 	aClass := self make: [ :builder | 
 		builder 
 			name: self aClassName;
-			sharedVariables: 'A B C' ].
+			sharedVariablesFromString: 'A B C' ].
 
 	self assert: self collectedAnnouncements size equals: 1.
 	self assert: self collectedAnnouncements first newClassDefinition equals: aClass.

@@ -1,1 +1,1 @@
-I model Class, Pool and Globals and generate bytecode for accessing the variable.
+I model Globals. I am stored as a binding in the Smalltalk globals.The compiler forwards bytecode generation to me for accessing the variable.NOTES:- used for Class Variables for now, too- Compiler not yet hooked up

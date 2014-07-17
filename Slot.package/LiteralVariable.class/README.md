@@ -1,0 +1,1 @@
+I am abstract. Subclasses of me model meta objects for global variables (Class, Global, Pool), called "Literal Variables" in Smalltalk.I am just a subclass of Association, modeling the binding of the global in either the Smalltalk globals, Undeclared or classPools.

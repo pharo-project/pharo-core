@@ -1,4 +1,4 @@
 classVarNames
 	"Answer a collection of the names of the class variables defined in the receiver."
 
-	^self classPool keys asArray sort
+	^self classPool keys sort

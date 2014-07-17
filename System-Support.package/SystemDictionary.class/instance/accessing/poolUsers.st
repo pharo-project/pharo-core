@@ -4,7 +4,7 @@ poolUsers
 	Smalltalk, Undeclared etc) which although not strictly
 	accurate is potentially useful information"
 
-	"Smalltalk poolUsers"
+	"Smalltalk globals poolUsers"
 
 	| poolUsers |
 	poolUsers := Dictionary new.

@@ -1,9 +1,9 @@
 testRemoveSharedVariable
 
 	self make: [ :builder | 
-		builder sharedVariables: 'Var' ].
+		builder sharedVariablesFromString: 'Var' ].
 
 	aClass := self make: [ :builder | 
-		builder sharedVariables: '' ].
+		builder sharedVariablesFromString: '' ].
 	
 	self assert: aClass classVarNames isEmpty

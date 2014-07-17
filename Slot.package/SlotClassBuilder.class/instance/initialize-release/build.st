@@ -9,7 +9,7 @@ build
 							extend: self superMetaclass
 							withLayoutType: FixedLayout
 							slots: classSlots
-							sharedVariables: ''
+							sharedVariables: #()
 							sharedPools: ''
 							traitComposition: classTraitComposition
 							compactClassIndex: oldClass class indexIfCompact.
@@ -19,16 +19,16 @@ build
 							extend: superclass
 							withLayoutType: self layoutClass
 							slots: slots
-							sharedVariables: sharedVariablesString
+							sharedVariables: sharedVariables
 							sharedPools: sharedPoolsString
 							traitComposition: traitComposition
 							compactClassIndex: oldClass indexIfCompact.
-	
+
 	self apply: metaChange.
 	self apply: classChange.
 
 	result instanceSide 
-		declare: sharedVariablesString;
+		declareClassVariables: sharedVariables;
 		sharing: sharedPoolsString.
 
 	result isMeta ifFalse: [

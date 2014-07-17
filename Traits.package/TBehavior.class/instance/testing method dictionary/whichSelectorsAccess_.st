@@ -8,5 +8,3 @@ whichSelectorsAccess: instVarName
 		((self compiledMethodAt: sel)
 			readsField: instVarIndex)
 			or: [(self compiledMethodAt: sel) writesField: instVarIndex]]
-
-	"Point whichSelectorsAccess: 'x'."

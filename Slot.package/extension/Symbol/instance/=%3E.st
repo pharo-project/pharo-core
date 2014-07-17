@@ -1,5 +1,5 @@
-=> aSlot
-	aSlot isBehavior
-		ifTrue: [ ^ aSlot named: self].
-	^ aSlot name: self;
+=> aVariable
+	aVariable isBehavior
+		ifTrue: [ ^ aVariable named: self].
+	^ aVariable name: self;
 		yourself

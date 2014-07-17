@@ -1,2 +1,2 @@
-sharedVariables: aString 
-	sharedVariablesString := aString 
+sharedVariables: anArray 
+	sharedVariables := anArray

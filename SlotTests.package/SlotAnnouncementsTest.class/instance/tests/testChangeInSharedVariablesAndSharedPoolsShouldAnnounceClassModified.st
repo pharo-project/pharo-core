@@ -14,7 +14,7 @@ testChangeInSharedVariablesAndSharedPoolsShouldAnnounceClassModified
 		builder 
 			name: self aClassName;
 			sharedPools: 'TestSharedPool';
-			sharedVariables: 'A B' ].
+			sharedVariablesFromString: 'A B' ].
 
 	self assert: self collectedAnnouncements size equals: 1.
 	self assert: self collectedAnnouncements first newClassDefinition equals: aClass.
