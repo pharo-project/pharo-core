@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '13581 move ThreadSafeTranscriptPluggableTextMorph to own package named Tool-Transcript
+update40096
+	"self new update40096"
+	self withUpdateLog: '13581 move ThreadSafeTranscriptPluggableTextMorph to own package named Tool-Transcript
 	https://pharo.fogbugz.com/f/cases/13581
 
 13583 #senders and #implementors on Symbol
@@ -11,4 +12,7 @@ commentForCurrentUpdate
 13582 Deprecated #classSymbol
 	https://pharo.fogbugz.com/f/cases/13582
 
-'
+'.
+	self loadTogether: self script96 merge: false.
+	self flushCaches.
+self cleanRepositories.

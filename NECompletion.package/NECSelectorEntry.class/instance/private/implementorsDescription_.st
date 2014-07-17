@@ -9,7 +9,7 @@ implementorsDescription: aSymbol
 			description: 'This is just symbol.' ].
 	implementors do: [ :each | 
 		output
-			nextPutAll: each classSymbol printString;
+			nextPutAll: each className printString;
 			cr ].
 	^ NECEntryDescription 
 		label: self label

@@ -4,9 +4,4 @@ numberOfImplementorsOf: aSelector
 	"self new numberOfImplementorsOf: #contents.  
 	self new numberOfImplementorsOf: #nobodyImplementsThis.  
 	self new numberOfimplementorsOf: #numberOfImplementorsOf:."
-	| aCount |
-	aCount := 0.
-	self
-		allBehaviorsDo: [:class | (class includesSelector: aSelector)
-				ifTrue: [aCount := aCount + 1]].
-	^ aCount
+	^(self allImplementorsOf: aSelector) size

@@ -3,12 +3,12 @@ forMethodReference: aMethodReference
 	definition := self cachedDefinitions at: aMethodReference compiledMethod ifAbsent: [].
 	(definition isNil
 		or: [definition selector ~= aMethodReference selector
-		or: [definition className ~= aMethodReference classSymbol
+		or: [definition className ~= aMethodReference className
 		or: [definition classIsMeta ~= aMethodReference classIsMeta
 		or: [definition category ~= aMethodReference category]]]])
 			ifTrue: [
 				definition := self 
-					className: aMethodReference classSymbol
+					className: aMethodReference className
 					classIsMeta: aMethodReference classIsMeta
 					selector: aMethodReference selector
 					category: aMethodReference category
