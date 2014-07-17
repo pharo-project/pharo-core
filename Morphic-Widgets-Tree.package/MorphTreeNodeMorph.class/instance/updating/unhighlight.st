@@ -8,4 +8,4 @@ unhighlight
 				ifTrue: [m 
 						color: (m
 								valueOfProperty: #originalColor
-								ifAbsent: [Color black])]].
+								ifAbsent: [ Smalltalk ui theme textColor ])]].
