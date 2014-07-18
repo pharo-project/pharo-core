@@ -1,2 +1,0 @@
-asGlobalVariable
-	^ GlobalVariable named: self.

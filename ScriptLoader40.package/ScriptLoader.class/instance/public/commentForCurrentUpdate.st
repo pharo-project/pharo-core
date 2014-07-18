@@ -1,14 +1,8 @@
 commentForCurrentUpdate
- ^ '13581 move ThreadSafeTranscriptPluggableTextMorph to own package named Tool-Transcript
-	https://pharo.fogbugz.com/f/cases/13581
+ ^ '13584 Forward code generation for Globals and Class Vars to meta object
+	https://pharo.fogbugz.com/f/cases/13584
 
-13583 #senders and #implementors on Symbol
-	https://pharo.fogbugz.com/f/cases/13583
-
-13579 MCPatchOperation >> #patchWrapper should be moved to package Polymorph-Tools-Diff
-	https://pharo.fogbugz.com/f/cases/13579
-
-13582 Deprecated #classSymbol
-	https://pharo.fogbugz.com/f/cases/13582
+13586 Class Variables should be ClassVariables, not Globals
+	https://pharo.fogbugz.com/f/cases/13586
 
 '

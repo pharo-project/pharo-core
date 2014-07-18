@@ -4,7 +4,7 @@ classVariableDefinitionString
 	^String streamContents: [ :str | | special | special := false.
 		str nextPutAll: '{ '.
 		self classVariables do: [:global |
-				(global isKindOf: GlobalVariable) not  "isSpecial"
+				global isSpecial
 					ifFalse: [ 
 						"special ifTrue: [ str cr. special := false ]."
 						str nextPutAll: global name storeString; nextPutAll: ' '. ]

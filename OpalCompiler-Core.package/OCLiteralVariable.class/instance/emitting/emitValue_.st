@@ -1,3 +1,2 @@
 emitValue: methodBuilder
-
-	methodBuilder pushLiteralVariable: assoc.
+	assoc emitValue: methodBuilder

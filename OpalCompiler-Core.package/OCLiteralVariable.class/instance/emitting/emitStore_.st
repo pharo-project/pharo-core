@@ -1,4 +1,4 @@
 emitStore: methodBuilder
 
-	methodBuilder storeIntoLiteralVariable: assoc.
+	 assoc emitStore: methodBuilder
 
