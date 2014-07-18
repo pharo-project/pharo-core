@@ -1,0 +1,2 @@
+isClassVariable
+	^false

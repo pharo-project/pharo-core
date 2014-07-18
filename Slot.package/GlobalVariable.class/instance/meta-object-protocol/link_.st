@@ -8,5 +8,4 @@ link: aMetaLink
 	
 	self flag: #rewriteForGlobal.
 	
-	class declareClassVariables: { wrapper }. "this exchanges self with the wrapper in the Class"
-	self users compileAll.  "recompile all methods that reference the Global"
+	self usingMethods do: #recompile.  "recompile all methods that reference the Global"

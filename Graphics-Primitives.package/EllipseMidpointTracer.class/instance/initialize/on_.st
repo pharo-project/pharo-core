@@ -1,7 +1,6 @@
 on: aRectangle
-	rect := aRectangle.
-	a := rect width // 2.
-	b := rect height // 2.
+	a := aRectangle width // 2.
+	b := aRectangle height // 2.
 	x := 0.
 	y := b.
 	aSquared := a * a.

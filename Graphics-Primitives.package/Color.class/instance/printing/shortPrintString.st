@@ -1,9 +1,11 @@
 shortPrintString
 	"Return a short (but less precise) print string for use where space is tight."
+
 	| s |
 	s := String new writeStream.
 	s
-		nextPutAll: '(' , self class name;
+		nextPutAll: '(';
+		nextPutAll: self class name;
 		nextPutAll: ' r: ';
 		nextPutAll: (self red roundTo: 0.01) printString;
 		nextPutAll: ' g: ';

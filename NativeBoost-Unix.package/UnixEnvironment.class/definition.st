@@ -1,5 +1,5 @@
-OSEnvironment subclass: #Win32Environment
+OSEnvironment subclass: #UnixEnvironment
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'System-Platforms'
+	category: 'NativeBoost-Unix'
