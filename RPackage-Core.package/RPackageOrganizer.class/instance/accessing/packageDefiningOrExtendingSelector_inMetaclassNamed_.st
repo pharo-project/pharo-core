@@ -4,10 +4,10 @@ packageDefiningOrExtendingSelector: aSelector inMetaclassNamed: aClassNameSymbol
 	| classPackage |
 	
 	classPackage := self packageOfClassNamed: aClassNameSymbol.
+	classPackage ifNil: [ ^ nil ].
 	(classPackage includesSelector: aSelector ofMetaclassName: aClassNameSymbol)
 		ifTrue: [ ^classPackage ].
 		
 	^(self extendingPackagesOfClassNamed: aClassNameSymbol)
 		detect: [ :p | p includesSelector: aSelector ofMetaclassName: aClassNameSymbol ]
-		ifNone: [ self error: ('No package found for selector {1} in class {2}' 
-									format: { aSelector . aClassNameSymbol }) ]
+		ifNone: [ nil ]

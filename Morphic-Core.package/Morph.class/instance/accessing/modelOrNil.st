@@ -1,2 +1,0 @@
-modelOrNil
-	^ nil

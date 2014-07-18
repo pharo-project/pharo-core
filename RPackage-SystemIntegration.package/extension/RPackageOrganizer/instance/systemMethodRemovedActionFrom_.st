@@ -8,9 +8,11 @@ systemMethodRemovedActionFrom: ann
 	ann methodClass isMeta
 		ifFalse: [ 
 			methodPackage := self packageDefiningOrExtendingSelector: ann selector inClassNamed: ann methodClass theNonMetaClass originalName.
-			methodPackage removeSelector: ann selector ofClassName: ann methodClass theNonMetaClass originalName.
+			methodPackage ifNotNil: [ 
+				methodPackage removeSelector: ann selector ofClassName: ann methodClass theNonMetaClass originalName].
 		]
 		ifTrue: [ 
 			methodPackage := self packageDefiningOrExtendingSelector: ann selector inMetaclassNamed: ann methodClass theNonMetaClass originalName.
-			methodPackage removeSelector: ann selector ofMetaclassName: ann methodClass theNonMetaClass originalName.
+			methodPackage ifNotNil: [ 
+				methodPackage removeSelector: ann selector ofMetaclassName: ann methodClass theNonMetaClass originalName].
 		]

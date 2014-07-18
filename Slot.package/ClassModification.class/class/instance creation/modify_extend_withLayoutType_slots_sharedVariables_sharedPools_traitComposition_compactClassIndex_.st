@@ -1,9 +1,9 @@
-modify: aClass extend: aSuperclass withLayoutType: layoutClass slots: someSlots sharedVariables: someSharedVariables sharedPools: someSharedPools traitComposition: aTraitComposition compactClassIndex: compactClassIndex
+modify: aClass extend: aSuperclass withLayoutType: layoutClass slots: someSlots sharedVariables: someClassVariables sharedPools: someSharedPools traitComposition: aTraitComposition compactClassIndex: compactClassIndex
 	^ self new
 		target: aClass;
 		superclass: aSuperclass;
 		traitComposition: aTraitComposition;
-		sharedVariables: someSharedVariables;
+		classVariables: someClassVariables;
 		sharedPools: someSharedPools;
 		layoutClass: layoutClass slots: someSlots compactClassIndex: compactClassIndex;
 		yourself
