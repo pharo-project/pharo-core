@@ -72,8 +72,4 @@ codeEditingSettingsOn: aBuilder
 				label: 'Walk along displayed line' translated;
 				target: TextEditor;
 		 		description: 'If set to true cursor movement will move along displayed lines rather than logical lines' translated.
-			(aBuilder setting: #smartUpdating)
-				label: 'Smart updating' translated;
-				target: CodeHolder;
-				description: 'If true, then morphic tools such as browsers and inspectors will keep their contents up to date automatically, so that if something changes anywhere, the change will be reflected everywhere' translated.
 		]

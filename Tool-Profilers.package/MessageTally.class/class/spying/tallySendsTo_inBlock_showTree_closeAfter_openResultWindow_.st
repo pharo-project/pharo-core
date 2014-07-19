@@ -26,7 +26,7 @@ tallySendsTo: receiver inBlock: aBlock showTree: treeOption closeAfter: closeAft
 
 	totalTime := Time millisecondClockValue - startTime // 1000.0 roundTo: 0.01.
 	openResultWindow ifTrue: [
-		(CodeHolder new contents:
+		(StringHolder new contents:
 			(String streamContents:
 				[:s |
 				s nextPutAll: 'This simulation took ' , totalTime printString

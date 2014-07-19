@@ -1,2 +1,2 @@
 annotationRequests
-	^ CodeHolder annotationRequests copyWithout: #sendersCount 
+	^ self defaultAnnotationInfo 

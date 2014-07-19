@@ -1,2 +1,2 @@
 wantsStepsIn: aWindow
-	^ self class smartUpdating
+	^ true

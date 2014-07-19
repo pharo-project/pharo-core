@@ -1,2 +1,0 @@
-optionalButtons: aBoolean
-	OptionalButtons := aBoolean

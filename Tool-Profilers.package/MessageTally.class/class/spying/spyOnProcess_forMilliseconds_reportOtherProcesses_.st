@@ -16,7 +16,7 @@ spyOnProcess: aProcess forMilliseconds: msecDuration reportOtherProcesses: aBool
 		spyEvery: self defaultPollPeriod
 		onProcess: aProcess
 		forMilliseconds: msecDuration.
-	(CodeHolder new
+	(StringHolder new
 		contents: (String
 				streamContents: [:s | node report: s]))
 		openLabel: 'Spy Results' wrap: false

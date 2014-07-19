@@ -1,2 +1,0 @@
-getLabelSelector
-	^getLabelSelector

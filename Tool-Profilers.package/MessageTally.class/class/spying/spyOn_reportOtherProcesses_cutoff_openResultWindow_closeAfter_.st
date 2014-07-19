@@ -6,7 +6,7 @@ spyOn: aBlock reportOtherProcesses: aBoolean cutoff: aNumber openResultWindow: o
 	node spyEvery: self defaultPollPeriod on: aBlock.
 	
 	openResultWindow ifTrue:
-	 [ (CodeHolder new contents: (String streamContents: [:s | node report: s cutoff: aNumber]))
+	 [ (StringHolder new contents: (String streamContents: [:s | node report: s cutoff: aNumber]))
 		openLabel: 'Spy Results' wrap: false ].
 	
 	closeAfter ifTrue: [ node close ].

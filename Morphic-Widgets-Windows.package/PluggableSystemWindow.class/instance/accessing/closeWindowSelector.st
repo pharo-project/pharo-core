@@ -1,2 +1,0 @@
-closeWindowSelector
-	^closeWindowSelector
