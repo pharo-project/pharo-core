@@ -1,1 +1,0 @@
-A MetacelloTutorialTestCase is xxxxxxxxx.

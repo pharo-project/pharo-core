@@ -1,3 +1,0 @@
-project
-
-	^MetacelloTutorialConfig project

@@ -1,1 +1,0 @@
-A MetacelloDevelopmentCycleTutorialTests is xxxxxxxxx.Instance Variables	authorName:		<Object>	tempRepositories:		<Object>authorName	- xxxxxtempRepositories	- xxxxx
