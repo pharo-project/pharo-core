@@ -1,8 +1,8 @@
 commentForCurrentUpdate
- ^ '13605 Slider can use setValueSelector instead of accessor everywhere
-	https://pharo.fogbugz.com/f/cases/13605
+ ^ '13609 WorkArea could be removed
+	https://pharo.fogbugz.com/f/cases/13609
 
-13603 remove extensions classOrMetaClass and messageName form Context
-	https://pharo.fogbugz.com/f/cases/13603
+13615 Finish to split Tools
+	https://pharo.fogbugz.com/f/cases/13615
 
 '
