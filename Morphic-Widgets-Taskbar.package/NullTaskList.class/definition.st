@@ -2,4 +2,4 @@ Object subclass: #NullTaskList
 	instanceVariableNames: 'world'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Polymorph-Widgets'
+	category: 'Morphic-Widgets-Taskbar'

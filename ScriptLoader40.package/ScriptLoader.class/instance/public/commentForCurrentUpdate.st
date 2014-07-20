@@ -1,8 +1,8 @@
 commentForCurrentUpdate
- ^ '13609 WorkArea could be removed
-	https://pharo.fogbugz.com/f/cases/13609
+ ^ '13610 Taskbar can be packaged separately
+	https://pharo.fogbugz.com/f/cases/13610
 
-13615 Finish to split Tools
-	https://pharo.fogbugz.com/f/cases/13615
+13612 Move polymorph extension to workspace
+	https://pharo.fogbugz.com/f/cases/13612
 
 '

@@ -2,4 +2,4 @@ Morph subclass: #TaskbarMorph
 	instanceVariableNames: 'tasks orderedTasks'
 	classVariableNames: 'ShowTaskbar ShowWindowPreview'
 	poolDictionaries: ''
-	category: 'Polymorph-Widgets'
+	category: 'Morphic-Widgets-Taskbar'
