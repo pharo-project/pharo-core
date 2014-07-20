@@ -18,7 +18,7 @@ initialize
 "printing" fullPrintString isLiteral longPrintString printString storeString 
 "class membership" class isKindOf: isMemberOf: respondsTo:  
 "error handling" 
-"user interface" addModelMenuItemsTo:forMorph:hand: defaultBackgroundColor defaultLabel fullscreenSize initialExtent modelWakeUp  
+"user interface"defaultBackgroundColor defaultLabel fullscreenSize initialExtent modelWakeUp  
 "system primitives" instVarAt: instVarNamed: 
 "private" 
 "associating" -> 

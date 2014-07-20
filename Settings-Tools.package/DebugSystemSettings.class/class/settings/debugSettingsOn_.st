@@ -55,6 +55,6 @@ debugSettingsOn: aBuilder
 				
 			(aBuilder setting: #logFileName)
 				label: 'Log file name' translated;
-				target: Smalltalk tools debugger;
+				target: Smalltalk;
 				description: 'A name of the file, which will be used for logging all errors and notifications' 
 		]
