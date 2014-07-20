@@ -3,11 +3,11 @@ toggleBreakOnEntryFor: aContext
 
 	| selectedMethod |
 	self flag: 'should be called only on the selected context'.	
-	selectedMethod := aContext classOrMetaClass >> aContext messageName.
+	selectedMethod := aContext methodClass >> aContext methodSelector.
 	selectedMethod hasBreakpoint
 		ifTrue:
 			[BreakpointManager unInstall: selectedMethod]
 		ifFalse:
 			[BreakpointManager 
-				installInClass: aContext classOrMetaClass
-				selector: aContext messageName].
+				installInClass: aContext methodClass
+				selector: aContext methodSelector].

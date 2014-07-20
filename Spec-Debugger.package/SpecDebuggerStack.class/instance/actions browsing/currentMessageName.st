@@ -1,3 +1,3 @@
 currentMessageName
 
-	^ self currentContext messageName
+	^ self currentContext methodSelector
