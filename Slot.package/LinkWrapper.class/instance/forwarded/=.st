@@ -1,0 +1,2 @@
+= aSlot
+	^slot = aSlot

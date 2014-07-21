@@ -46,12 +46,6 @@ debugSettingsOn: aBuilder
 				description: 'When true, always directly open the full Debugger view when debugging instead of showing only a small popup' translated.
 			
 			self addDebugFilterSessingsOn: aBuilder.
-			
-			(aBuilder setting: #ObjectExplorerShowIcons)
-				label: 'Icons in explorer' translated;
-				selector: #showIcons;
-				target: ObjectExplorer;
-				description: 'When possible, show icon in explorer.' translated.
 				
 			(aBuilder setting: #logFileName)
 				label: 'Log file name' translated;

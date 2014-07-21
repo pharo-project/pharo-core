@@ -1,20 +1,11 @@
 commentForCurrentUpdate
- ^ '13604 MorphicModel: ivar accessor only used by Slide and not needed even there
-	https://pharo.fogbugz.com/f/cases/13604
+ ^ '13620 LinkWrapper Slot: first working version
+	https://pharo.fogbugz.com/f/cases/13620
 
-13617 Fixing some tools package extension
-	https://pharo.fogbugz.com/f/cases/13617
+13611 add MorphicCoreUIManager
+	https://pharo.fogbugz.com/f/cases/13611
 
-13613 move tests from Multilingual-OtherLanguages to Multilingual-Tests package
-	https://pharo.fogbugz.com/f/cases/13613
-
-13614 move RBProgramNode>>#method to accessing category
-	https://pharo.fogbugz.com/f/cases/13614
-
-13616 Lost browseChangesFile: was lost
-	https://pharo.fogbugz.com/f/cases/13616
-
-13608 remove ThumbnailMorph
-	https://pharo.fogbugz.com/f/cases/13608
+13619 Small cleanup related to Explorer
+	https://pharo.fogbugz.com/f/cases/13619
 
 '
