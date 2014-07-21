@@ -11,5 +11,5 @@ configurationNamed: baseName
 				as: configurationName asSymbol
 				inCategory: configurationName asString.	
 			"Create the package that has the same name"
-			PackageInfo registerPackageName: configurationName ].
+			RPackageOrganizer default registerPackageNamed: configurationName ].
 	project := (MetacelloPlatform current globalNamed: configurationName asSymbol) project

@@ -4,6 +4,6 @@ setUp
 "		
 "	Smalltalk organization removeCategory: 'FooBarZork'."
 	(MCPackage named: 'FooBarZork') unload.
-	PackageOrganizer default unregisterPackageNamed: 'FooBarZork'.
+	RPackageOrganizer default unregisterPackageNamed: 'FooBarZork'.
 
 	package := MBPackageInfo named: 'FooBarZork'.

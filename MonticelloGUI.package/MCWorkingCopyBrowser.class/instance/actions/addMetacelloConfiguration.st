@@ -21,7 +21,7 @@ addMetacelloConfiguration
         			category: name asString.
 
 			"We create the package that has the same name"
-			PackageInfo registerPackageName: name.
+			RPackageOrganizer default registerPackageNamed: name.
 			
 			"Select the package"
 			workingCopy := MCWorkingCopy forPackage: (MCPackage new name: name).

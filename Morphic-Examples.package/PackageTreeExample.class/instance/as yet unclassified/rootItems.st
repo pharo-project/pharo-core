@@ -1,2 +1,2 @@
 rootItems
-	^ PackageOrganizer default packages 
+	^ RPackageOrganizer default packages 

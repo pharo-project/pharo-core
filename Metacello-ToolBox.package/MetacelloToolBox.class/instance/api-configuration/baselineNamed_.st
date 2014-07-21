@@ -13,6 +13,5 @@ baselineNamed: baseName
         classInstVars: #()
         poolDictionaries: #()
         category: baselineName.
-      PackageInfo registerPackageName: baselineName ].
-  project := (MetacelloPlatform current globalNamed: baselineName asSymbol)
-    project
+      RPackageOrganizer default registerPackageNamed: baselineName ].
+  project := (MetacelloPlatform current globalNamed: baselineName asSymbol) project

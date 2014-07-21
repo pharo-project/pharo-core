@@ -1,6 +1,4 @@
 addPackage: aString
-	"to be tested" 
-	
 	| workingCopy |
-	PackageInfo registerPackageName: aString.
+	RPackageOrganizer default registerPackageNamed: aString.
 	workingCopy := MCWorkingCopy forPackage: (MCPackage new name: aString)

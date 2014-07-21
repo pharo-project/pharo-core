@@ -1,2 +1,2 @@
 basicRemoveTag: tag
-	classTags remove: tag.
+	classTags remove: tag ifAbsent: [].

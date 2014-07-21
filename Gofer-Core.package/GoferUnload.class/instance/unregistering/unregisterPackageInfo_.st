@@ -1,3 +1,3 @@
 unregisterPackageInfo: aWorkingCopy
-	PackageOrganizer default
+	RPackageOrganizer default
 		unregisterPackageNamed: aWorkingCopy packageName
