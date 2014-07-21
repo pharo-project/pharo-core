@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '13604 MorphicModel: ivar accessor only used by Slide and not needed even there
+update40107
+	"self new update40107"
+	self withUpdateLog: '13604 MorphicModel: ivar accessor only used by Slide and not needed even there
 	https://pharo.fogbugz.com/f/cases/13604
 
 13617 Fixing some tools package extension
@@ -17,4 +18,7 @@ commentForCurrentUpdate
 13608 remove ThumbnailMorph
 	https://pharo.fogbugz.com/f/cases/13608
 
-'
+'.
+	self loadTogether: self script107 merge: false.
+	self flushCaches.
+self cleanRepositories.

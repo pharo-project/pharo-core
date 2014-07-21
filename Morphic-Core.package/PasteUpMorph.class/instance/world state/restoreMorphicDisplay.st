@@ -2,8 +2,6 @@ restoreMorphicDisplay
 
 	DisplayScreen startUp.
 
-	ThumbnailMorph recursionReset.
-
 	self
 		extent: Display extent;
 		viewBox: Display boundingBox;
