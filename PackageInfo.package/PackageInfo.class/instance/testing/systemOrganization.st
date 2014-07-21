@@ -1,2 +1,0 @@
-systemOrganization
-	^self environment organization

@@ -1,0 +1,3 @@
+wrappedVariable: aLiteralVariable
+	
+	wrappedVariable := aLiteralVariable

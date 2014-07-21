@@ -1,2 +1,0 @@
-externalBehaviorsNotDefinedInSubCategories
-	^self externalClassesNotDefinedInSubCategories , self externalTraitsNotDefinedInSubCategories

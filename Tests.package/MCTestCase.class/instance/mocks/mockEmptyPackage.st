@@ -1,2 +1,2 @@
 mockEmptyPackage
-	^ MCPackage named: (MCEmptyPackageInfo new packageName)
+	^ MCPackage named: 'Mock empty package'

@@ -1,2 +1,0 @@
-includesMethodReference: aMethodRef
-	^ self includesMethod: aMethodRef selector ofClass: aMethodRef actualClass

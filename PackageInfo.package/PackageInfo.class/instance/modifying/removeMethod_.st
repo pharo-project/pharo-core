@@ -1,1 +1,0 @@
-removeMethod: aMethodReference

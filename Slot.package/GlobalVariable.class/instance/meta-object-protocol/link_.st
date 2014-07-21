@@ -1,11 +1,14 @@
 link: aMetaLink
-	| wrapper class |
+	| wrapper class methods |
 	class := self definingClass.
-	wrapper := LinkWrapper new.
-	wrapper link: self.
-	wrapper setClass: class.
-	wrapper slot: self.
-	
-	self flag: #rewriteForGlobal.
-	
-	self usingMethods do: #recompile.  "recompile all methods that reference the Global"
+	methods := self usingMethods.
+	wrapper := LinkWrapperGlobal new
+		 setLink: self;
+		 setClass: class;
+		 wrappedVariable: self.
+	wrapper key: self key.
+	wrapper value: self value.
+	self flag: #TODO.
+	"we need to replace all users...e.g. bindings in compiledMethods"
+	Smalltalk globals declare: { wrapper } from: Dictionary new. 
+	methods do: #recompile.  "recompile all methods that reference the Global"
