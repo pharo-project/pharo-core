@@ -4,7 +4,6 @@ messageListMenu: aMenu shifted: shifted
 		ifTrue: [^ self shiftedMessageListMenu: aMenu].
 	aMenu addList: #(
 			('What to show...'			offerWhatToShowMenu)
-			('Toggle break on entry'		toggleBreakOnEntry)
 			-
 			('Browse full (b)' 			browseMethodFull)
 			('Browse hierarchy (h)'			classHierarchy)

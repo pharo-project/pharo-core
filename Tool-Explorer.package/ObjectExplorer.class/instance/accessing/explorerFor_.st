@@ -1,4 +1,4 @@
 explorerFor: anObject
-	^UIManager default 
-		explorer: self 
-		withLabel: (anObject printStringLimitedTo: 32)
+	^ self window
+		setLabel:  (anObject printStringLimitedTo: 32);
+		yourself

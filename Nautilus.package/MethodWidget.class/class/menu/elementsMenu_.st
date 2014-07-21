@@ -11,14 +11,6 @@ elementsMenu: aBuilder
 		action: [ target findMethod ];
 		order: 0;
 		help: 'Search for a method by name'.
-	
-	target selectedMethod ifNotNil: [ 
-		(aBuilder item: #'ToggleBreakPoint')
-			action: [ target toggleBreakPoint ];
-			order: 199;
-			label: (selectedMethod hasBreakpoint
-					ifFalse: [ 'Add breakpoint (experimental)']
-					ifTrue: [ 'Remove breakpoint (experimental)'] )].
 		
 	tmp := ((aBuilder item: #'Browse full')
 		keyText: 'b, f' if: Nautilus useOldStyleKeys not;

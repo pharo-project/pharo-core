@@ -1,2 +1,4 @@
 explorerFor: anObject withLabel: label 
-	^UIManager default explorer: self withLabel: label
+	^self window
+		setLabel:  label;
+		yourself

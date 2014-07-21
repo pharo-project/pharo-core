@@ -18,11 +18,7 @@ methodModified: anAnnouncement
 					ClassesIconsCache removeKey: method methodClass ifAbsent: []].
 			self updateClassView.
 			oldMethod := anAnnouncement oldMethod.
-			(selectedMethod = oldMethod 
-				or: [ 
-					oldMethod hasBreakpoint 
-					and: [ selectedMethod methodClass = oldMethod methodClass 
-					and: [ selectedMethod selector = oldMethod selector ]]])
+			(selectedMethod = oldMethod)
 				ifTrue: [
 					sourceTextArea hasUnacceptedEdits
 						ifTrue: [ | sourceCode |

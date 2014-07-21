@@ -36,8 +36,6 @@ systemOn: aBuilder
 			
 			(aBuilder item: #'Restore display (r)') 
 				action: [World restoreMorphicDisplay].
-			(aBuilder item: #'Clear all breakpoints') 
-				action: [BreakpointManager clear].
 			Halt isHaltOnceEnabled
 				ifTrue: [(aBuilder item: 'Disable halt/inspect once') action: [self clearHaltOnce]]
 				ifFalse: [(aBuilder item: 'Enable halt/inspect once') action: [self setHaltOnce]]].

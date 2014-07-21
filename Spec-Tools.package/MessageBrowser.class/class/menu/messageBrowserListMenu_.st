@@ -28,10 +28,6 @@ messageBrowserListMenu: aBuilder
 				removeMethod: message 
 				inClass: message methodClass ].
 
-	(aBuilder item: #'Toggle Breakpoint')
-		action: [ model toggleBreakOnEntryIn: message ];
-		withSeparatorAfter.
-
 	(aBuilder item: #'Senders of...')
 		keyText: 'n';
 		action: [ model browseSendersOfMessagesFrom: message selector ].
