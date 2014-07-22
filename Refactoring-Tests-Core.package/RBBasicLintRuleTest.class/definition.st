@@ -1,5 +1,5 @@
 RBLintRuleTest subclass: #RBBasicLintRuleTest
-	instanceVariableNames: 'classBlock methodBlock result'
+	instanceVariableNames: 'methodBlock result classBlock anInstVar'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Refactoring-Tests-Core-Data'
