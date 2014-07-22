@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '13568 Better error message when using "-" prefix
-	https://pharo.fogbugz.com/f/cases/13568
+ ^ '13636 extension method Tool-File should be in Tool-FileList
+	https://pharo.fogbugz.com/f/cases/13636
 
-13632 MetaLinks for Globals
-	https://pharo.fogbugz.com/f/cases/13632
+13519 Problem when printing heaps
+	https://pharo.fogbugz.com/f/cases/13519
 
-13633 Some repacking of Network: NetworkSystemSettings and RFC822
-	https://pharo.fogbugz.com/f/cases/13633
-
-13634 remove empty package PackageInfo
-	https://pharo.fogbugz.com/f/cases/13634'
+13637 delete empty packages Network-RFC822 and Settings-Network
+	https://pharo.fogbugz.com/f/cases/13637'
