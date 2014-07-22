@@ -1,5 +1,5 @@
 LiteralVariable subclass: #LinkWrapperGlobal
-	instanceVariableNames: 'wrappedVariable link class'
+	instanceVariableNames: 'wrappedVariable link'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Slot-Scope'

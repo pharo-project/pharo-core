@@ -1,8 +1,12 @@
 commentForCurrentUpdate
- ^ '13630 Links on Class Variables
-	https://pharo.fogbugz.com/f/cases/13630
+ ^ '13568 Better error message when using "-" prefix
+	https://pharo.fogbugz.com/f/cases/13568
 
-10034 Remove PackageInfo from system
-	https://pharo.fogbugz.com/f/cases/10034
+13632 MetaLinks for Globals
+	https://pharo.fogbugz.com/f/cases/13632
 
-'
+13633 Some repacking of Network: NetworkSystemSettings and RFC822
+	https://pharo.fogbugz.com/f/cases/13633
+
+13634 remove empty package PackageInfo
+	https://pharo.fogbugz.com/f/cases/13634'

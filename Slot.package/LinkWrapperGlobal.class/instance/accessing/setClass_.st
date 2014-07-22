@@ -1,2 +1,0 @@
-setClass: aClass
-	class := aClass
