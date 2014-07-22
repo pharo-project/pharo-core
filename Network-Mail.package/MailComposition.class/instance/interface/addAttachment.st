@@ -12,4 +12,6 @@ addAttachment
 		self messageText:
 				((MailMessage from: self messageText asString)
 					addAttachmentFrom: stream
-					withName: fileSelected basename; text)] 
+					withName: fileSelected basename; 
+					text;
+					yourself)] 

@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '13645 Small CodeCritique Cleanup of Network-Mail
+update40115
+	"self new update40115"
+	self withUpdateLog: '13645 Small CodeCritique Cleanup of Network-Mail
 	https://pharo.fogbugz.com/f/cases/13645
 
 13643 Move extensions of Package Compiler to Kernel
@@ -17,4 +18,8 @@ commentForCurrentUpdate
 13646 MIMELocalFileDocument seems to be dead code
 	https://pharo.fogbugz.com/f/cases/13646
 
-'
+'.
+	self loadTogether: self script115 merge: false.
+	Smalltalk tools remove: #userManager.
+	self flushCaches.
+self cleanRepositories.

@@ -3,7 +3,7 @@ lesson11Timestamp
 		title: 'Lesson 11 (Timestamp)'
 		lesson: 
 '
-Smalltalk tools browse: MetacelloTutorialConfig selector: #version11:.
+Smalltalk tools browser fullOnClass: MetacelloTutorialConfig selector: #version11:.
 
 "The timestamp of a version can be defined:"
 

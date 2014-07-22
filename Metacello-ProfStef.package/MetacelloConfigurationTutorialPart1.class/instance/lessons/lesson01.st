@@ -3,7 +3,7 @@ lesson01
 		title: 'Lesson 1'
 		lesson: 
 '
-Smalltalk tools browse: MetacelloTutorialConfig selector: #version01:.
+Smalltalk tools browser fullOnClass: MetacelloTutorialConfig selector: #version01:.
 
 "Version 0.1 represents the simplest version specification possible. 
 

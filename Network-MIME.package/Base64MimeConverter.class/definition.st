@@ -1,5 +1,5 @@
 MimeConverter subclass: #Base64MimeConverter
-	instanceVariableNames: 'data multiLine'
+	instanceVariableNames: 'multiLine'
 	classVariableNames: 'FromCharTable ToCharTable'
 	poolDictionaries: ''
 	category: 'Network-MIME'

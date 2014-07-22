@@ -1,2 +1,2 @@
 atEnd
-	^self peek == nil
+	^ self peek isNil

@@ -3,7 +3,7 @@ lesson06
 		title: 'Lesson 6'
 		lesson: 
 '
-Smalltalk tools browse: MetacelloTutorialConfig selector: #version06:.
+Smalltalk tools browser fullOnClass: MetacelloTutorialConfig selector: #version06:.
 
 "In version 0.6 we''ve added dependency information in the form of the #requires: directive.
 Both ''Example-Tests'' and  ''Example-AddOn'' require ''Example-Core'' to be loaded before they are

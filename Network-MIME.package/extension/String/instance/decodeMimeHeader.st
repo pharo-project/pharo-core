@@ -19,7 +19,7 @@ decodeMimeHeader
 			ifTrue: 
 				[ | pos charset mimeEncoding mimeDecoder charsetStream  |
 				charset := input upTo: $?.
-				(charset isNil or: [ charset size = 0 ]) ifTrue: [ charset := 'LATIN-1' ].
+				(charset isNil or: [ charset isEmpty ]) ifTrue: [ charset := 'LATIN-1' ].
 				mimeEncoding := (input upTo: $?) asUppercase.
 				temp := input upTo: $?.
 				"Skip final ="

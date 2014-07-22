@@ -7,7 +7,7 @@ fieldsFrom: aStream do: aBlock
 		line isEmpty ifTrue: [ ^ self ].	"quit when we hit a blank line"
 		
 		[ savedLine := self readStringLineFrom: aStream.
-		savedLine size > 0 and: [ savedLine first isSeparator ] ] whileTrue: 
+		savedLine notEmpty and: [ savedLine first isSeparator ] ] whileTrue: 
 			[ "lines starting with white space are continuation lines"
 			s := savedLine readStream.
 			s skipSeparators.

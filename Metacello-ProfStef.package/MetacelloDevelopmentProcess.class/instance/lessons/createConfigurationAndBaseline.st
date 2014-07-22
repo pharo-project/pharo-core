@@ -22,7 +22,7 @@ Use the following expression to create your configuration class and initial base
 			
 "After evaluating the above expression, browse the configuration:"
 
-	Smalltalk tools browse: ConfigurationOfExample selector: #baseline10:.
+	Smalltalk tools browser fullOnClass: ConfigurationOfExample selector: #baseline10:.
 	
 "Edit the #baseline10 method in the browser to fine tune the baseline specification."
 

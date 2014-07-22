@@ -3,8 +3,8 @@ lesson07
 		title: 'Lesson 7'
 		lesson: 
 '
-Smalltalk tools browse: MetacelloTutorialConfig selector: #baseline07:.
-Smalltalk tools browse: MetacelloTutorialConfig selector: #version07:.
+Smalltalk tools browser fullOnClass: MetacelloTutorialConfig selector: #baseline07:.
+Smalltalk tools browser fullOnClass: MetacelloTutorialConfig selector: #version07:.
 
 "For version 0.7, we are ceating a baseline version specification which is expected to be used
 across several versions and the version specification which is restricted to the file versions.

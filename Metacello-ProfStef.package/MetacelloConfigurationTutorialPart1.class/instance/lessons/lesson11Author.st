@@ -3,7 +3,7 @@ lesson11Author
 		title: 'Lesson 11 (Author)'
 		lesson: 
 '
-Smalltalk tools browse: MetacelloTutorialConfig selector: #version11:.
+Smalltalk tools browser fullOnClass: MetacelloTutorialConfig selector: #version11:.
 
 "The author of a version can be defined:"
 

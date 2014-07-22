@@ -3,8 +3,8 @@ lesson07
 		title: 'Lesson 7'
 		lesson: 
 '
-Smalltalk tools browse: MetacelloProjectRefTutorialConfig selector: #baseline07:.
-Smalltalk tools browse: MetacelloProjectRefTutorialConfig selector: #version07:.
+Smalltalk tools browser fullOnClass: MetacelloProjectRefTutorialConfig selector: #baseline07:.
+Smalltalk tools browser fullOnClass: MetacelloProjectRefTutorialConfig selector: #version07:.
 
 "NOTE: you should run through the lessons in Part 1 first.
 

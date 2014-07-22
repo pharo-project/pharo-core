@@ -1,7 +1,7 @@
 mimeEncode
 	"Convert from data to 6 bit characters."
 
-	| phase1 phase2 raw nib lineLength |
+	| phase1 phase2 raw nib lineLength data |
 	phase1 := phase2 := false.
 	lineLength := 0.
 	[dataStream atEnd] whileFalse: [
