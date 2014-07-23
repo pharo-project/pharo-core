@@ -8,6 +8,5 @@ initialize
 			'`@object size >= 1'
 			'`@object == nil'
 			'`@object = nil'
-			'`@collection at: 1'
 			'`@collection at: `@collection size' )
 		do: [ :node :answer | node ]
