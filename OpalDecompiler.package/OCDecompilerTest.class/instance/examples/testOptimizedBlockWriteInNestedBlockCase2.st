@@ -1,0 +1,2 @@
+testOptimizedBlockWriteInNestedBlockCase2
+	self checkMethod: OCOpalExamples>>#optimizedBlockWriteInNestedBlockCase2

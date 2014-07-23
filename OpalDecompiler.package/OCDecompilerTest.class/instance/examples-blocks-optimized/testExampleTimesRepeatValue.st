@@ -1,0 +1,2 @@
+testExampleTimesRepeatValue
+	self checkMethod: OCOpalExamples>>#exampleTimesRepeatValue

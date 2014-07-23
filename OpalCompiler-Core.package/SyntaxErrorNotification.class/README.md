@@ -1,1 +1,1 @@
-A SyntaxErrorNotification is xxxxxxxxx.Instance Variables	category:		<Object>	code:		<Object>	doitFlag:		<Object>	inClass:		<Object>	location:		<Object>category	- xxxxxcode	- xxxxxdoitFlag	- xxxxxinClass	- xxxxxlocation	- xxxxx
+A SyntaxErrorNotification is xxxxxxxxx.Instance Variables	category:		<Object>	code:		<Object>	doitFlag:		<Object>	errorMessage:		<Object>	inClass:		<Object>	location:		<Object>category	- xxxxxcode	- xxxxxdoitFlag	- xxxxxerrorMessage	- xxxxxinClass	- xxxxxlocation	- xxxxx

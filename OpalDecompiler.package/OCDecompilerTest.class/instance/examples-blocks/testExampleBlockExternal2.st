@@ -1,0 +1,2 @@
+testExampleBlockExternal2
+	self checkMethod: OCOpalExamples>>#exampleBlockExternal2

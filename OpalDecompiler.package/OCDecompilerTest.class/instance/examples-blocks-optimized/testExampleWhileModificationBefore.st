@@ -1,0 +1,2 @@
+testExampleWhileModificationBefore
+	self checkMethod: OCOpalExamples>>#exampleWhileModificationBefore

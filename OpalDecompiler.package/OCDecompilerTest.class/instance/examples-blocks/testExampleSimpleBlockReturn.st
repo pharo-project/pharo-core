@@ -1,0 +1,2 @@
+testExampleSimpleBlockReturn
+	self checkMethod: OCOpalExamples>>#exampleSimpleBlockReturn

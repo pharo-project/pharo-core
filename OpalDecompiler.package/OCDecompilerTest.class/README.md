@@ -1,0 +1,1 @@
+tests created with: OCOpalExamples methods do: [ :each |	OCDecompilerTest compile: ('test' , (each selector numArgs > 0 ifTrue: [ each selector capitalized allButLast ] ifFalse: [each selector capitalized] ) , String cr, String tab, 'self checkMethod: ' , each printString) classified: each category ]

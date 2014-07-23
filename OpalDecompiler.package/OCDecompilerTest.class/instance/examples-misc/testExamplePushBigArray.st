@@ -1,0 +1,2 @@
+testExamplePushBigArray
+	self checkMethod: OCOpalExamples>>#examplePushBigArray

@@ -1,0 +1,2 @@
+testSingleRemoteTempVarWrittenAfterClosedOver
+	self checkMethod: OCOpalExamples>>#singleRemoteTempVarWrittenAfterClosedOver

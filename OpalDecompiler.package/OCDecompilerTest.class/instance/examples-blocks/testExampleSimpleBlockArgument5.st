@@ -1,0 +1,2 @@
+testExampleSimpleBlockArgument5
+	self checkMethod: OCOpalExamples>>#exampleSimpleBlockArgument5

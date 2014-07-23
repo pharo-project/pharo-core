@@ -1,0 +1,2 @@
+testExampleMethodWithOptimizedBlocksA
+	self checkMethod: OCOpalExamples>>#exampleMethodWithOptimizedBlocksA

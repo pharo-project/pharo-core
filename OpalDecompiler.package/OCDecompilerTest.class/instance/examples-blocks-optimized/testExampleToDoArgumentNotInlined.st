@@ -1,0 +1,2 @@
+testExampleToDoArgumentNotInlined
+	self checkMethod: OCOpalExamples>>#exampleToDoArgumentNotInlined

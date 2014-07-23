@@ -1,0 +1,2 @@
+testWrittenAfterClosedOver
+	self checkMethod: OCOpalExamples>>#writtenAfterClosedOver

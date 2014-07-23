@@ -1,0 +1,2 @@
+testExampleToDoArgumentLimitIsExpression
+	self checkMethod: OCOpalExamples>>#exampleToDoArgumentLimitIsExpression

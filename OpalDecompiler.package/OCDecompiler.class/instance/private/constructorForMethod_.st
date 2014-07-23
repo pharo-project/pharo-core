@@ -1,0 +1,2 @@
+constructorForMethod: aMethod
+	^ OCDecompilerConstructor new

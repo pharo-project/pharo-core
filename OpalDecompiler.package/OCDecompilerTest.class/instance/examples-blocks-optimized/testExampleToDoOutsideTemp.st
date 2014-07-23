@@ -1,0 +1,2 @@
+testExampleToDoOutsideTemp
+	self checkMethod: OCOpalExamples>>#exampleToDoOutsideTemp

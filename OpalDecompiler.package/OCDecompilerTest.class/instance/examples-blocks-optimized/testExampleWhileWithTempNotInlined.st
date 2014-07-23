@@ -1,0 +1,2 @@
+testExampleWhileWithTempNotInlined
+	self checkMethod: OCOpalExamples>>#exampleWhileWithTempNotInlined

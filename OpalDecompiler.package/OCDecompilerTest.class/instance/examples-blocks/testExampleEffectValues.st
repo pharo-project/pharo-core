@@ -1,0 +1,2 @@
+testExampleEffectValues
+	self checkMethod: OCOpalExamples>>#exampleEffectValues

@@ -1,0 +1,2 @@
+testNoRemoteBlockArgument
+	self checkMethod: OCOpalExamples>>#noRemoteBlockArgument

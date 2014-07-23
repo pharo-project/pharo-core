@@ -1,0 +1,2 @@
+testExampleBlockInternal
+	self checkMethod: OCOpalExamples>>#exampleBlockInternal
