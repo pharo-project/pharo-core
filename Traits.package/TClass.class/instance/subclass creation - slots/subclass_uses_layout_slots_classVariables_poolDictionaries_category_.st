@@ -10,5 +10,5 @@ subclass: aSubclassSymbol uses: aTraitCompositionOrArray  layout: layoutClass sl
 						layoutClass: layoutClass;
 						slots: slotDefinition;
 						sharedVariables: classVarDefinition;
-						poolDictionaries: someSharedPoolNames;
+						sharedPools: someSharedPoolNames;
 						category: aCategorySymbol ] ]

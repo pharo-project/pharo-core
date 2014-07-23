@@ -1,2 +1,0 @@
-handler: anObject
-	handler := anObject

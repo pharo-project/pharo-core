@@ -5,5 +5,5 @@ subclass: aSubclassSymbol  layout: layoutClass  slots: slotDefinition classVaria
 		layoutClass: layoutClass;
 		slots: slotDefinition;
 		sharedVariables:  classVarDefinition;
-		poolDictionaries: someSharedPoolNames;
+		sharedPools: someSharedPoolNames;
 		category: aCategorySymbol ].

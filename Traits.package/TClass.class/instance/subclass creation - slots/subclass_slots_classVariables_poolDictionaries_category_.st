@@ -4,5 +4,5 @@ subclass: aSubclassSymbol slots: slotDefinition classVariables: classVarDefiniti
 		builder name: aSubclassSymbol;
 		slots: slotDefinition;
 		sharedVariables:  classVarDefinition;
-		poolDictionaries: someSharedPoolNames;
+		sharedPools: someSharedPoolNames;
 		category: aCategorySymbol ].

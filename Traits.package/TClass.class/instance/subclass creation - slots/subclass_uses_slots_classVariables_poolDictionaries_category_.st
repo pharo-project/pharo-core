@@ -9,5 +9,5 @@ subclass: aSubclassSymbol uses: aTraitCompositionOrArray slots: slotDefinition c
 						name: aSubclassSymbol;
 						slots: slotDefinition;
 						sharedVariables: classVarDefinition;
-						poolDictionaries: someSharedPoolNames;
+						sharedPools: someSharedPoolNames;
 						category: aCategorySymbol ] ]
