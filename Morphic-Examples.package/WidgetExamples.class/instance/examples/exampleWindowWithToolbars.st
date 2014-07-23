@@ -55,12 +55,11 @@ exampleWindowWithToolbars
 			getEnabled: nil
 			labelForm: Smalltalk ui icons smallPrintIcon
 			help: 'Print' translated}.
-		holder := StringHolder new.
+		holder := ValueHolder new.
 		text := win
 			newTextEditorFor: holder
 			getText:  #contents
-			setText: #contents:
-			getEnabled: nil.
+			setText: #contents:.
 		dock := win newToolDockingBar.
 		dock
 			add: 'File' translated

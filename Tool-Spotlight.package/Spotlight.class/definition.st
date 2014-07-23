@@ -1,5 +1,5 @@
 Morph subclass: #Spotlight
-	instanceVariableNames: 'model search'
+	instanceVariableNames: 'search contents'
 	classVariableNames: 'Current'
 	poolDictionaries: ''
 	category: 'Tool-Spotlight'

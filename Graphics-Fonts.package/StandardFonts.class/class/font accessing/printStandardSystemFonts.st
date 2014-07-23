@@ -17,7 +17,7 @@ printStandardSystemFonts
 			print: font height;
 			cr
 		]].
-
-	(StringHolder new)
-		contents: string;
-		openLabel: 'Current system font settings' translated.
+	UIManager default  
+		longMessage: string
+		title: 'Current system font settings' translated.
+	
