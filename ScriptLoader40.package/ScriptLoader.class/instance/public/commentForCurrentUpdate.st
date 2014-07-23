@@ -1,14 +1,8 @@
 commentForCurrentUpdate
- ^ '13654 Pressing Enter in EyeInspector gives MNU: TextModel>>asText
-	https://pharo.fogbugz.com/f/cases/13654
+ ^ '13625 we can merge System-Tools with Tool-Base
+	https://pharo.fogbugz.com/f/cases/13625
 
-13653 Add Additional Basic Pharo help to the System Help browser
-	https://pharo.fogbugz.com/f/cases/13653
-
-13660 reduce references to StringHolder
-	https://pharo.fogbugz.com/f/cases/13660
-
-13655 System-Localization and Gettext have classes with identical names
-	https://pharo.fogbugz.com/f/cases/13655
+13570 Add-Halo, menu, mouse on export.... hangs image
+	https://pharo.fogbugz.com/f/cases/13570
 
 '
