@@ -69,7 +69,7 @@ classesMenu: aBuilder
 	(aBuilder item: #'Remove...')
 		keyText: 'x, c' if: Nautilus useOldStyleKeys not;
 		keyText: 'x' if: Nautilus useOldStyleKeys;
-		action: [ target removeClasses ];
+		action: [ target removeClassWithRefactoringEngine: target selectedClass asOrderedCollection ];
 		icon: (Smalltalk ui icons iconNamed: #removeIcon);
 		order: 1700;
 		withSeparatorAfter.

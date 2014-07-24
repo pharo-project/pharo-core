@@ -1,17 +1,11 @@
 commentForCurrentUpdate
- ^ '13675 safer windows enumeration
-	https://pharo.fogbugz.com/f/cases/13675
+ ^ '13539 receiver of "NodeModel" is Nil
+	https://pharo.fogbugz.com/f/cases/13539
 
-13676 safer usage of KMBuffer in HandMorph >> #generateMouseEvent:
-	https://pharo.fogbugz.com/f/cases/13676
+13681 replace Smalltalk tools shortcuts with Morph shortcutHandler
+	https://pharo.fogbugz.com/f/cases/13681
 
-13669 CompilerNotifying test failing on main build
-	https://pharo.fogbugz.com/f/cases/13669
-
-13674 safer access to top current window
-	https://pharo.fogbugz.com/f/cases/13674
-	
-13667 Delete empty package System-Tools
-	https://pharo.fogbugz.com/f/cases/13667
+13682 Pack of simple refactorings
+	https://pharo.fogbugz.com/f/cases/13682
 
 '

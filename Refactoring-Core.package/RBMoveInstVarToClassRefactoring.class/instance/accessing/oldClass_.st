@@ -1,0 +1,2 @@
+oldClass: aClass
+	oldClass := aClass

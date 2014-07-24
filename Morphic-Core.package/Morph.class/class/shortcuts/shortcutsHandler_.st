@@ -1,0 +1,3 @@
+shortcutsHandler: anObject
+
+	ShortcutsHandler := anObject

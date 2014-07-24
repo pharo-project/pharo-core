@@ -26,6 +26,16 @@ refactoringSubmenu: aBuilder
 		action: [ target refactor generateSuperClass ];
 		parent: #'Class Refactoring';
 		order: 300.
+	
+	(aBuilder item: #'Insert superclass')
+		action: [ target refactor insertSuperclass ];
+		parent: #'Class Refactoring';
+		order: 325.
+		
+	(aBuilder item: #'Insert subclass')
+		action: [ target refactor insertSubclass ];
+		parent: #'Class Refactoring';
+		order: 350.
 		
 	(aBuilder item: #'Generate Subclass...')
 		action: [ target refactor generateSubclass ];

@@ -25,6 +25,11 @@ methodRefactoring: aBuilder
 		action: [ target refactor moveMethodFor: selectedMethod ];
 		order: 300;
 		parent: #'Refactoring'.
+		
+	(aBuilder item: #'Move to a class')
+		action: [ target refactor moveMethodToClassFor: selectedMethod ];
+		order: 350;
+		parent: #'Refactoring'.
 			
 	(aBuilder item: #'Swap')
 		action: [ target refactor swapMethodFor: selectedMethods ];

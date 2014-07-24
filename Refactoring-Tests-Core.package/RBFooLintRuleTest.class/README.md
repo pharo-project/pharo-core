@@ -1,1 +1,1 @@
-A RBFooLintRuleTest is xxxxxxxxx.
+A RBFooLintRuleTest is xxxxxxxxx.Instance Variables	result:		<Object>result	- xxxxx

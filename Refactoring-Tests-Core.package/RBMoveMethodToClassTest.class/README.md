@@ -1,0 +1,1 @@
+A RBMoveMethodToClassTest is xxxxxxxxx.

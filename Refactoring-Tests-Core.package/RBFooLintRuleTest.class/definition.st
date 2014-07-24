@@ -1,5 +1,5 @@
 RBLintRuleTest subclass: #RBFooLintRuleTest
-	instanceVariableNames: ''
+	instanceVariableNames: 'result'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Refactoring-Tests-Core-Data'

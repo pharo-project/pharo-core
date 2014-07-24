@@ -1,0 +1,1 @@
+A RBAddClassRefactoringTest is a test class for testing the behavior of RBAddClassRefactoring
