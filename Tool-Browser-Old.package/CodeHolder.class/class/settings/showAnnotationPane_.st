@@ -1,2 +1,0 @@
-showAnnotationPane: aBoolean
-	ShowAnnotationPane := aBoolean

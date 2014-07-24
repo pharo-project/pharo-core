@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '13664 Remove all references to CodeHolder 
+update40121
+	"self new update40121"
+	self withUpdateLog: '13664 Remove all references to CodeHolder 
 	https://pharo.fogbugz.com/f/cases/13664
 
 13629 Polymorph-Widgets still extends ThreadSafeTranscript
@@ -9,4 +10,7 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/13661
 
 
-'
+'.
+	self loadTogether: self script121 merge: false.
+	self flushCaches.
+self cleanRepositories.

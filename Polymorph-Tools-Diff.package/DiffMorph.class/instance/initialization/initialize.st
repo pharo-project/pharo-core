@@ -7,7 +7,7 @@ initialize
 	showOnlySource := false.
 	showOptions := true.
 	
-	self prettyPrint: CodeHolder diffsWithPrettyPrint.
+	self prettyPrint: TextDiffBuilder diffsWithPrettyPrint.
 	ppCheckbox := self newPrettyPrintCheckboxMorph.
 	optionsPanel := self newPanel 
 		addMorph: ((self newRow: {ppCheckbox}) 

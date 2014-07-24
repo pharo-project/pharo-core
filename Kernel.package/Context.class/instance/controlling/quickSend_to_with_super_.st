@@ -1,14 +1,14 @@
-quickSend: selector to: receiver with: arguments super: superFlag
+quickSend: selector to: aReceiver with: arguments super: superFlag
 	"Send the given selector with arguments in an environment which closely resembles the non-simulating environment, with an interjected unwind-protected block to catch nonlocal returns.
 	Attention: don't get lost!"
 	| lookupClass contextToReturnTo result |
 	contextToReturnTo := self.
 	lookupClass := superFlag
 					ifTrue: [(self method literalAt: self method numLiterals) value superclass]
-					ifFalse: [receiver class].
+					ifFalse: [aReceiver class].
 	[ | oldSender |
 	oldSender := thisContext sender swapSender: self.
-	result := receiver perform: selector withArguments: arguments inSuperclass: lookupClass.
+	result := aReceiver perform: selector withArguments: arguments inSuperclass: lookupClass.
 	thisContext sender swapSender: oldSender] ifCurtailed: [
 		contextToReturnTo := thisContext sender receiver.	"The block context returning nonlocally"
 		contextToReturnTo jump: -1.	"skip to front of return bytecode causing this unwind"

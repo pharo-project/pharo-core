@@ -1,5 +1,5 @@
 Object subclass: #TextDiffBuilder
 	instanceVariableNames: 'xLines yLines'
-	classVariableNames: 'IgnoreLineEndings InsertTextAttributes NormalTextAttributes RemoveTextAttributes'
+	classVariableNames: 'DiffsWithPrettyPrint IgnoreLineEndings InsertTextAttributes NormalTextAttributes RemoveTextAttributes'
 	poolDictionaries: ''
 	category: 'System-FilePackage'

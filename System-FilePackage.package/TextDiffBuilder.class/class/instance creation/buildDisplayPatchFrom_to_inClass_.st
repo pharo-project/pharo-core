@@ -4,5 +4,5 @@ buildDisplayPatchFrom: sourceText to: destinationText inClass: sourceClass
 		buildDisplayPatchFrom: sourceText 
 		to: destinationText
 		inClass: sourceClass
-		prettyDiffs: CodeHolder diffsWithPrettyPrint
+		prettyDiffs: self diffsWithPrettyPrint
 		

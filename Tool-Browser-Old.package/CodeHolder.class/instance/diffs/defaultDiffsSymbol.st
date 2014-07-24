@@ -1,7 +1,7 @@
 defaultDiffsSymbol
 	"Answer the code symbol to use when generically switching to diffing"
 
-	^ self class diffsWithPrettyPrint 
+	^TextDiffBuilder diffsWithPrettyPrint 
 		ifTrue:
 			[#prettyDiffs]
 		ifFalse:

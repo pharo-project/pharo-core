@@ -1,7 +1,7 @@
 initialize
 	"Initialize a blank ChangeList.  Set the contentsSymbol to reflect whether diffs will initally be shown or not"
 
-	contentsSymbol := CodeHolder diffsInChangeList
+	contentsSymbol := self class diffsInChangeList
 							ifTrue: [self defaultDiffsSymbol]
 							ifFalse: [#source].
 	changeList := OrderedCollection new.

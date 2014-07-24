@@ -5,11 +5,11 @@ send: selector super: superFlag numArgs: numArgs
 	of the message are found in the top numArgs locations on the stack and 
 	the receiver just below them."
 
-	| receiver arguments  |
+	| currentReceiver arguments  |
 	arguments := Array new: numArgs.
 	numArgs to: 1 by: -1 do: [ :i | 
 		arguments at: i put: self pop ].
-	receiver := self pop.
+	currentReceiver := self pop.
 "	selector == #doPrimitive:method:receiver:args:
 		ifTrue: [answer := receiver 
 					doPrimitive: (arguments at: 1)
@@ -20,5 +20,5 @@ send: selector super: superFlag numArgs: numArgs
 				^self]. "
 	QuickStep == self ifTrue: [
 		QuickStep := nil.
-		^ self quickSend: selector to: receiver with: arguments super: superFlag].
-	^ self send: selector to: receiver with: arguments super: superFlag
+		^ self quickSend: selector to: currentReceiver with: arguments super: superFlag].
+	^ self send: selector to: currentReceiver with: arguments super: superFlag
