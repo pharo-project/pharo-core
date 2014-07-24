@@ -14,7 +14,7 @@ compile
 			self compilationContext requestor
                 ifNotNil: [
 						self compilationContext requestor 
-							notify: '"', exception errorMessage , ' ->"'
+							notify: exception errorMessage , ' ->'
 							at: exception location
 							in: exception errorCode.
                     ^ self compilationContext failBlock value ]
