@@ -1,9 +1,9 @@
 createSearchMorph 
 	| morph |
 	morph := PluggableTextFieldMorph new
-		on: self
-			text: #contents
-			accept: #contents:
+		on: self model
+			text: #text
+			accept: #text:
 			readSelection: nil
 			menu: nil;
 		convertTo: String;

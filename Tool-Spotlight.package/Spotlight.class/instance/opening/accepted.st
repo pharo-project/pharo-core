@@ -3,7 +3,7 @@ accepted
 	
 	self close.
 	
-	input := contents trimBoth.
+	input := self model text trimBoth.
 	input isEmpty ifTrue: [ ^self ].
 	
 	input first = $:

@@ -4,6 +4,6 @@ addVersion: aVersion
 	aVersion dependencies 
 		do: [:ea | | dep |
 			dep := ea resolve.
-			((records anySatisfy: [:r | r version = dep]) or: [dep isNil])
+			(records anySatisfy: [:r | r version = dep]) 
 				ifFalse: [self addVersion: dep]]
 		displayingProgress: [ :ea| 'Searching dependency: ', ea package name]
