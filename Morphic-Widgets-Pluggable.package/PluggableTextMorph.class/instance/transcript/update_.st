@@ -9,11 +9,6 @@ update: aSymbol
 			^self setSelection: self getSelection].
 	aSymbol == getSelectionSelector 
 		ifTrue: [^self setSelection: self getSelection].
-	(aSymbol == #autoSelect and: [getSelectionSelector notNil]) 
-		ifTrue: 
-			[self handleEdit: 
-					[(textMorph editor) setSelectorSearch: model autoSelectString.
-					textMorph editor findAgain]].
 	aSymbol == #clearUserEdits ifTrue: [^self hasUnacceptedEdits: false].
 	aSymbol == #wantToChange 
 		ifTrue: 

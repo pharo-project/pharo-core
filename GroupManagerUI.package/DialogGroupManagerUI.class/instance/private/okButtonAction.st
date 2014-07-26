@@ -1,2 +1,0 @@
-okButtonAction
-	self valid.

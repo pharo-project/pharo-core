@@ -1,5 +1,5 @@
 DialogGroupManager subclass: #DialogGroupAdder
-	instanceVariableNames: 'elementToAdd elementsToAdd'
+	instanceVariableNames: 'elementsToAdd'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GroupManagerUI'

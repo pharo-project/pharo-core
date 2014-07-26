@@ -1,5 +1,4 @@
 open
-
-	(self uiClass on: self) 
-		title: 'Group Manager';
+	(self uiClass on: self)
+		title: 'Group Manager' translated;
 		openInWorld

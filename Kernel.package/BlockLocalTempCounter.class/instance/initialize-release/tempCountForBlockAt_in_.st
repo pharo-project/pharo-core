@@ -13,7 +13,7 @@ tempCountForBlockAt: pc in: method
 	scanner interpretNextInstructionFor: self.
 	blockEnd ifNil:
 		[self error: 'pc is not that of a block'].
-	scanner nextByte = Encoder pushNilCode ifTrue:
+	scanner nextByte = 115 "pushNil" ifTrue:
 		[joinOffsets := Dictionary new.
 		 [scanner pc < blockEnd] whileTrue:
 			[scanner interpretNextInstructionFor: self]].

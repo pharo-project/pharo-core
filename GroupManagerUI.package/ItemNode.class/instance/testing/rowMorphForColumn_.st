@@ -1,3 +1,3 @@
 rowMorphForColumn: aTreeColumn
 
-	^ self item ifNotNil: [:i | i prettyName asMorph] 
+	^ self item ifNotNil: [:i | i printString asMorph] 
