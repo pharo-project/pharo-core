@@ -8,4 +8,4 @@ with: anArg
         evaluate: (WeakMessageSend
             receiver: anObject
             selector: aMessageSelector
-		arguments: (Array with: anArg))
+		arguments: {anArg})

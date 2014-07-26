@@ -1,7 +1,6 @@
 = aCompiledMethod
 	"Answer whether the receiver implements the same code as aCompiledMethod."
 
-	| numLits |
 	self == aCompiledMethod
 		ifTrue: [ ^ true ].
 	self class = aCompiledMethod class

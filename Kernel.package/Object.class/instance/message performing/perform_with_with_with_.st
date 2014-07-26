@@ -6,4 +6,4 @@ perform: aSymbol with: firstObject with: secondObject with: thirdObject
 	<reflective: #object:performMessageWith:>
 	<primitive: 83>
 	^ self perform: aSymbol
-		withArguments: (Array with: firstObject with: secondObject with: thirdObject)
+		withArguments: {firstObject . secondObject . thirdObject}

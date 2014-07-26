@@ -1,2 +1,2 @@
 hasArguments
-	^args size > 0
+	^args notEmpty

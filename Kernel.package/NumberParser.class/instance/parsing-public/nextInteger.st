@@ -2,12 +2,10 @@ nextInteger
 	"Main method for reading an Integer.
 	This won't try to read a Float nor a ScaledDecimal."
 	
-	| numberOfTrailingZeroInIntegerPart |
 	base := 10.
 	neg := self peekSignIsMinus.
 	integerPart := self nextUnsignedIntegerOrNilBase: base.
 	integerPart ifNil: [self fail].
-	numberOfTrailingZeroInIntegerPart := nDigits - lastNonZero.
 	(sourceStream peekFor: $r)
 		ifTrue: ["<base>r<integer>"
 			| oldNeg pos |
@@ -21,8 +19,7 @@ nextInteger
 			oldNeg := neg.
 			self peekSignIsMinus ifTrue: [neg := neg not].
 			integerPart := self nextUnsignedIntegerOrNilBase: base.
-			integerPart ifNil: [self fail].
-			numberOfTrailingZeroInIntegerPart := nDigits - lastNonZero].
+			integerPart ifNil: [self fail]].
 	neg
 		ifTrue: [integerPart := integerPart negated].
 	self readExponent

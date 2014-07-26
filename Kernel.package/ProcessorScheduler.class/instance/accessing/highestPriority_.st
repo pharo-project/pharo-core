@@ -1,7 +1,7 @@
 highestPriority: newHighestPriority
 	"Change the number of priority levels currently available for use."
 
-	| continue newProcessLists |
+	| newProcessLists |
 	(quiescentProcessLists size > newHighestPriority
 		and: [self anyProcessesAbove: newHighestPriority])
 			ifTrue: [self error: 'There are processes with priority higher than '

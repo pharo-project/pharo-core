@@ -12,7 +12,7 @@ removeCategory: cat
 		ifTrue: [^self error: 'cannot remove non-empty category ', cat].
 	categoryArray := categoryArray copyReplaceFrom: index to: index with: Array new.
 	categoryStops := categoryStops copyReplaceFrom: index to: index with: Array new.
-	categoryArray size = 0
+	categoryArray isEmpty
 		ifTrue:
 			[categoryArray := Array with: Default.
 			categoryStops := Array with: 0]

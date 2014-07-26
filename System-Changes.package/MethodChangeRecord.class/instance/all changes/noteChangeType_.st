@@ -1,5 +1,4 @@
 noteChangeType: newChangeType
-
-	(changeType == #addedThenRemoved and: [newChangeType == #change])
-		ifTrue: [changeType := #add]
-		ifFalse: [changeType := newChangeType]
+	changeType := (changeType == #addedThenRemoved and: [ newChangeType == #change ])
+		ifTrue: [ #add ]
+		ifFalse: [ newChangeType ]

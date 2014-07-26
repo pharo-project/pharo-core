@@ -13,7 +13,7 @@ removeEmptyCategories
 					keptStops nextPut: (currentStop := categoryStops at: categoryIndex)]].
 	categoryArray := keptCategories contents.
 	categoryStops := keptStops contents.
-	categoryArray size = 0
+	categoryArray isEmpty
 		ifTrue:
 			[categoryArray := Array with: Default.
 			categoryStops := Array with: 0]
