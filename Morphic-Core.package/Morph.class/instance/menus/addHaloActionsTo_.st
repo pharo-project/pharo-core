@@ -4,7 +4,7 @@ addHaloActionsTo: aMenu
 	| subMenu |
 	subMenu := UIManager default newMenuIn: self for: self.
 	subMenu addTitle: self externalName.
-	subMenu addStayUpItemSpecial.
+	subMenu addStayUpItem.
 	subMenu addLine.
 	subMenu add: 'delete' translated action: #dismissViaHalo.
 	subMenu balloonTextForLastItem: 'Delete this object -- warning -- can be destructive!' translated.

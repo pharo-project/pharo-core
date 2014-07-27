@@ -1,6 +1,6 @@
 addAColumn: aCollectionOfMorphs
 
 	| col |
-	col := self inAColumn: aCollectionOfMorphs.
+	col := self class inAColumn: aCollectionOfMorphs.
 	self addMorphBack: col.
 	^col

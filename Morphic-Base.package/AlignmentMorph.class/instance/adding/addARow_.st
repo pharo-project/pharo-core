@@ -1,6 +1,6 @@
 addARow: aCollectionOfMorphs
 
 	| row |
-	row := self inARow: aCollectionOfMorphs.
+	row := self class inARow: aCollectionOfMorphs.
 	self addMorphBack: row.
 	^row

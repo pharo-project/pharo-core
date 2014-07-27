@@ -1,10 +1,11 @@
 inARow: aCollectionOfMorphs 
-	| row |
-	row := self class newRow color: Color transparent;
-				 vResizing: #shrinkWrap;
-				 layoutInset: 2;
-				 wrapCentering: #center;
-				 cellPositioning: #leftCenter.
+
+	 self setAsRow 
+				color: Color transparent;
+				vResizing: #shrinkWrap;
+				hResizing: #shrinkWrap;
+				layoutInset: 1;
+				wrapCentering: #center;
+				cellPositioning: #leftCenter.
 	aCollectionOfMorphs
-		do: [:each | row addMorphBack: each].
-	^ row
+		do: [ :each | self addMorphBack: each].

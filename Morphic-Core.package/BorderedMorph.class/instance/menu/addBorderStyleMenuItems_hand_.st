@@ -4,7 +4,7 @@ addBorderStyleMenuItems: aMenu hand: aHandMorph
 	| subMenu |
 	subMenu := UIManager default 
 					newMenuIn: self for: self.
-	subMenu addStayUpItemSpecial.
+	subMenu addStayUpItem.
 	subMenu addList: 
 		{{'border width...' translated. #changeBorderWidth:}}.
 	subMenu addLine.

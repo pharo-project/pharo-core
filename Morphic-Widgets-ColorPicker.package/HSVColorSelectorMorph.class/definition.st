@@ -2,4 +2,4 @@ Morph subclass: #HSVColorSelectorMorph
 	instanceVariableNames: 'svMorph hMorph'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Polymorph-Widgets'
+	category: 'Morphic-Widgets-ColorPicker'
