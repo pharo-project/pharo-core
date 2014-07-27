@@ -1,5 +1,5 @@
 clearPackageSelections
 	listElements := nil.
-	list2Elements := nil. 
+	self resetClassesList.
 	packagesSelection removeAll.
 	groupsSelection removeAll.

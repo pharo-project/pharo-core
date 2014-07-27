@@ -4,7 +4,7 @@ methodModified: anAnnouncement
 	window ifNil: [ ^ self ].
 	window isDisplayed ifFalse: [ ^ self ].
 	
-	collection := self getList2.
+	collection := self classWidget getClassesList.
 	nonMetaMethodClass:=anAnnouncement methodClass.
 	self showInstance ifFalse:[nonMetaMethodClass:=nonMetaMethodClass theNonMetaClass].
 	((collection includes: nonMetaMethodClass) or: [ anAnnouncement methodClass users includes: self selectedClass  ])

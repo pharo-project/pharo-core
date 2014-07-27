@@ -6,7 +6,7 @@ testRunned: anAnnouncement
 	
 	class := anAnnouncement testResult.
 	correspondingClass := anAnnouncement testResult correspondingClass.
-	collection :=  self getList2.
+	collection :=  self classWidget getClassesList.
 	
 	(collection includesAnyOf: {class. correspondingClass})
 		ifTrue: [ 

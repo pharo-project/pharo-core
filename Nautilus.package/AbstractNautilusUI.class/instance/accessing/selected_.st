@@ -1,7 +1,7 @@
 selected: anInteger
 	| selection |
 	
-	list2Elements := nil.
+	self resetClassesList.
 	selection := self getList at: anInteger ifAbsent: [nil].
 	self 
 		ifGroups: [ self selectedGroupWithoutChangingSelection: selection ]

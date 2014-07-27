@@ -4,12 +4,12 @@ selectedClassWithoutChangingSelectionInternally: aClass
 		(self showPackages not or: [ self showGroups ])
 			ifTrue: [ aClass ifNotNil: [ package := aClass package ] ].
 		aClass 
-			ifNil: [ classesSelection removeAll ].
+			ifNil: [ self resetClassesListSelection ].
 
-		aClass ifNotNil: [ self giveFocusTo: list2 ].	
+		aClass ifNotNil: [ self giveFocusTo: self classWidget ].	
 			
 		packageChanged := (package ~= self selectedPackage).
-		classesSelection at: aClass put: true.
+		self classWidget selectClass: aClass.
 		self model selectedClass: aClass.
 		self setWindowTitle.
 		

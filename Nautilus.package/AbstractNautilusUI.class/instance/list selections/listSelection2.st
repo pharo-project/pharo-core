@@ -1,3 +1,0 @@
-listSelection2
-
-	^ classesSelection

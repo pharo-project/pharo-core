@@ -6,7 +6,7 @@ classRemoved: anAnnouncement
 	class := anAnnouncement classRemoved.
 	((self showGroups 
 	and: [ self selectedGroup ifNil: [ ^self ] ifNotNil: [:gp | gp elements includes: class ]]) 
-	or: [ self getList2 includes: class ])
+	or: [ self classWidget getClassesList  includes: class ])
 			ifTrue: [
 				self selectedClass = class
 					ifTrue: [ self selectedClass: nil ].

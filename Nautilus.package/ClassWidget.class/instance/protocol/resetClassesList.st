@@ -1,0 +1,2 @@
+resetClassesList
+	classesListElements := nil.

@@ -5,7 +5,7 @@ showPackages: aBoolean
 	aBoolean ifFalse: [ self basicShowHierarchy ].
 		
 	listElements := nil.
-	list2Elements := nil.
+	self resetClassesList.
 	
 	"If showPackages false(Hierarchy)-->true(Flat) then selected package needs to synch to that of selected class"
 	(aBoolean and: [ self model showPackages not ]) 

@@ -3,7 +3,7 @@ showInstance: aBoolean
 	self okToChange
 		ifTrue:[
 			self model showInstance: aBoolean.
-			classesSelection removeAll.
+			self resetClassesListSelection.
 			self selectedClass 
 				ifNotNil: [:class |
 					aBoolean 

@@ -1,0 +1,2 @@
+classListSize
+	^ self getClassesList size

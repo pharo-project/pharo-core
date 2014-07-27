@@ -1,3 +1,0 @@
-classWidget
-
-	^ list2

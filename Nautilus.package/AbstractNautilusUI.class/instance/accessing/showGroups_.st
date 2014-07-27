@@ -2,7 +2,7 @@ showGroups: aBoolean
 
 	self okToChange ifFalse: [ ^ self ].
 	
-	self setShortcuts: #NautilusClassShortcuts to: list2.
+	self setShortcuts: #NautilusClassShortcuts to: self classWidget.
 	
 	aBoolean 
 		ifTrue: [ 
@@ -23,7 +23,7 @@ showGroups: aBoolean
 		ifNotNil: [:group |
 			(group elements includes: self selectedClass)
 				ifFalse: [ 
-					list2Elements := nil.
+						self resetClassesList.
 					self selectedClass: nil ].
 	aBoolean 
 		ifTrue: [ 

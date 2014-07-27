@@ -3,7 +3,7 @@ basicShowHierarchy
 	| class |
 			
 	class := self selectedClass theNonMetaClass.
-	classesSelection at: class put: true.
+	self classWidget selectClass: class.
 	self hierarchyClass: class.
 	listElements := nil.
-	list2Elements := nil	
+	self resetClassesList.	

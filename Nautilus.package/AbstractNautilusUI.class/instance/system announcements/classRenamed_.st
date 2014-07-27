@@ -6,5 +6,5 @@ classRenamed: anAnnouncement
 	window isDisplayed ifFalse: [ ^ self ].
 	((self showGroups 
 	and: [ self selectedGroup elements includes: class ]) 
-	or: [ self getList2 includes: class ])
+	or: [ self classWidget getClassesList includes: class ])
 			ifTrue: [ self updateClassView ]

@@ -1,1 +1,1 @@
-I am an example of how to use tabs
+I am an example of how to use tabsTabsExample open

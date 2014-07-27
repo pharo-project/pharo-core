@@ -18,5 +18,5 @@ browseCurrentVersionsOfSelections
 
 	aList size = 0 ifTrue: [^ self inform: 'no selected methods have in-memory counterparts'].
 	(Smalltalk tools messageList
-		on: aList
+		on: aList methodReferenceList
 		named: 'Current versions of selected methods in ', file localName) open

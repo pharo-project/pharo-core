@@ -1,0 +1,3 @@
+resetClassesListSelection
+
+	classWidget resetClassesListSelection 

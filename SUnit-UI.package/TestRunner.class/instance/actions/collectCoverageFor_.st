@@ -17,6 +17,6 @@ collectCoverageFor: methods
 			ml := MessageList new.
 			(wrappers collect: [ :each | ml addMethodReference: each reference ]).
 			(Smalltalk tools messageList 
-				on: ml
+				on: ml methodReferenceList
 				named: 'Not Covered Code (' , (100 - (100 * wrappers size // methods size)) printString , '% Code Coverage)') open ].
 	self saveResultInHistory

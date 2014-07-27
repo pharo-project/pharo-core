@@ -3,13 +3,12 @@ removeClasses
 
 	| result scroll |
 	self okToChange ifFalse: [^ false].
-	scroll := list2 scrollValue y.
-				
+	scroll := self classWidget vScrollValue.
 	result := self removeClasses: (self selectedClasses collect: #theNonMetaClass).
 
 	result
 		ifTrue: [	
-			classesSelection removeAll.
+			self resetClassesListSelection.
 			self selectedClass: nil ].
-	list2 vScrollValue: scroll.
+	self classWidget vScrollValue: scroll.
 	^ result

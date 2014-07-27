@@ -1,3 +1,3 @@
 giveFocusToClass
 
-	self giveFocusTo: list2
+	self giveFocusTo: self classWidget

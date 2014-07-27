@@ -2,6 +2,6 @@ selectedClass: aClass
 
 	self okToChangeBoth
 		ifTrue: [
-			classesSelection removeAll.
-			aClass ifNotNil: [ self giveFocusTo: list2 ].	
+			self resetClassesListSelection.
+			aClass ifNotNil: [ self giveFocusTo: self classWidget ].	
 			self selectedClassWithoutChangingSelection: aClass. ]

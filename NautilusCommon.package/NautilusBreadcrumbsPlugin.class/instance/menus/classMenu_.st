@@ -1,4 +1,4 @@
 classMenu: aMenu
 	
-	^ self model ui menu2: aMenu shifted: false.
+	^ self model ui classWidget classesMenu: aMenu shifted: false.
 	

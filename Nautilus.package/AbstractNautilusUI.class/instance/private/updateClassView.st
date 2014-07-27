@@ -1,4 +1,4 @@
 updateClassView
 
-	list2Elements := nil.
-	self changed: #listElement2: 
+	self resetClassesList.
+	self changed: #getClassItem: 

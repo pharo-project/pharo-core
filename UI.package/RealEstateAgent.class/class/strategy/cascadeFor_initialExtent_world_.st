@@ -1,6 +1,6 @@
 cascadeFor: aView initialExtent: initialExtent world: aWorld
 
-	| position window allowedArea |
+	| position allowedArea |
 	allowedArea := self maximumUsableAreaInWorld: aWorld.
 	position := aWorld currentWindow isMorph 
 		ifFalse: [ aWorld currentHand position - 5]

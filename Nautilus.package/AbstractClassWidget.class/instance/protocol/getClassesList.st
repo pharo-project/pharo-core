@@ -1,0 +1,3 @@
+getClassesList
+
+	^ self subclassResponsibility

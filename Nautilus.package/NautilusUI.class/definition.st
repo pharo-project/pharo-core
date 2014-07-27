@@ -1,5 +1,5 @@
 AbstractNautilusUI subclass: #NautilusUI
-	instanceVariableNames: 'categoryWidget methodWidget'
+	instanceVariableNames: 'categoryWidget methodWidget classWidget'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Nautilus'

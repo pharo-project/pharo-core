@@ -1,14 +1,11 @@
 commentForCurrentUpdate
- ^ '13694 Small cleanup in System-Changes
-	https://pharo.fogbugz.com/f/cases/13694
+ ^ '13697 Yet another cleanup of MessageBrowser API
+	https://pharo.fogbugz.com/f/cases/13697
 
-13695 cleanup MessageBrowser API a little
-	https://pharo.fogbugz.com/f/cases/13695
+13698 Small cleanup of Model and the UI package
+	https://pharo.fogbugz.com/f/cases/13698
 
-13666 Small Code critique cleanup of Kernel
-	https://pharo.fogbugz.com/f/cases/13666
-
-13677 Move WindowEvent to Morphic-Core
-	https://pharo.fogbugz.com/f/cases/13677
+13696 Nautilus Refactoring 1: Classlist widget
+	https://pharo.fogbugz.com/f/cases/13696
 
 '

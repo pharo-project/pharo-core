@@ -6,7 +6,7 @@ open
 	self selectedClass 
 		ifNotNil: [ 
 			acceptor := ClassOrMethodDefinitionAcceptor model: self. 
-			focus := list2 ].
+			focus := self classWidget ].
 	self selectedCategory ifNotNil: [:cat |  
 		categoryWidget selectProtocol: cat.
 		methodWidget resetMethodCache.

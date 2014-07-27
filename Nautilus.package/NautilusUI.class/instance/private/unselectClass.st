@@ -1,7 +1,7 @@
 unselectClass
 	commentTextArea ifNotNil: [ commentTextArea disable ].
 	acceptor := ClassDefinitionAcceptor model: self.
-	classesSelection removeAll.
+	self resetClassesListSelection.
 	self model
 		package: self selectedPackage
 		class: nil

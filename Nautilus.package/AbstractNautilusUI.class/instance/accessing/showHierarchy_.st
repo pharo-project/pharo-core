@@ -2,7 +2,7 @@ showHierarchy: aBoolean
 
 	self model showHierarchy: aBoolean.
 	listElements := nil.
-	list2Elements := nil.
+	self resetClassesList.
 	aBoolean 
 		ifTrue: [ self hierarchyClass: self selectedClass ].
 	self updateBothView

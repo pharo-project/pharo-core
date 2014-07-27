@@ -7,7 +7,7 @@ selectedClassWithoutChangingSelection: aClass
 		ifNil: [ self unselectClass ]
 		ifNotNil: [ 
 			acceptor := ClassOrMethodDefinitionAcceptor model: self.
-			classesSelection at: aClass theNonMetaClass put: true.
+			self classWidget selectClass:aClass .
 			commentTextArea ifNotNil: [ commentTextArea enable ].
 			((self selectedPackageIncludes: aClass theNonMetaClass) or: [ model showPackages not ])
 				ifTrue: [ 

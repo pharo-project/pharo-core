@@ -1,0 +1,1 @@
+ClassWidget is the basic implementation of a wiget a list of classes.
