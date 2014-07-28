@@ -1,14 +1,5 @@
 commentForCurrentUpdate
- ^ '13672 Failing test: RBSmalllintTest>>#testConsistencyCheck
-	https://pharo.fogbugz.com/f/cases/13672
+ ^ '13717 testUndeclared failing
+	https://pharo.fogbugz.com/f/cases/13717
 
-13673 Failing test: ReleaseTest>>#testLocalMethodsOfTheClassShouldNotBeRepeatedInItsTraits
-	https://pharo.fogbugz.com/f/cases/13673
-
-13716 #testIssue6406 failing
-	https://pharo.fogbugz.com/f/cases/13716
-
-13715 Port to 4: 13626 SelectorException>>signalFor:In: does not understand object:
-	https://pharo.fogbugz.com/f/cases/13715
-
-'
+- recompile Image'

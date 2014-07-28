@@ -3,7 +3,7 @@ storeOn: aStream
 	self class storeOn: aStream.
 	aStream
 		nextPutAll: ' selector: #';
-		nextPutAll: selector;
+		nextPutAll:  method selector;
 		nextPutAll: ' class: '.
 	class storeOn: aStream.
 	aStream
