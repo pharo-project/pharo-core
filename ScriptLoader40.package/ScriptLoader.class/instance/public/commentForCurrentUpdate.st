@@ -1,11 +1,8 @@
 commentForCurrentUpdate
- ^ '13035 Ctrl-Shift-b causes DNU
-	https://pharo.fogbugz.com/f/cases/13035
+ ^ '13659 ReparseAfterSourceEditing needs to be moved to Opal
+	https://pharo.fogbugz.com/f/cases/13659
 
-13702 MessageList should not have direct references
-	https://pharo.fogbugz.com/f/cases/13702
-
-13703 MCPackageManager>>#update: not needed
-	https://pharo.fogbugz.com/f/cases/13703
+13706 #contentsChanged not needed on Object
+	https://pharo.fogbugz.com/f/cases/13706
 
 '

@@ -1,3 +1,3 @@
 contents: newContents
 	contents := newContents.
-	self contentsChanged
+	self changed: #contents

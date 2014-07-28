@@ -25,7 +25,7 @@ initialize
 "converting" as: asOrderedCollection asString 
 "casing" caseOf: caseOf:otherwise: 
 "binding" bindingOf: 
-"macpal" contentsChanged currentEvent currentHand currentWorld flash   
+"macpal"  currentEvent currentHand currentWorld flash   
 "flagging" flag: 
 "translation support" "objects from disk" "finalization" ) do: [:sel | Approved add: sel].
 	#(at:add: at:put: basicAt:put: "NOT instVar:at:"

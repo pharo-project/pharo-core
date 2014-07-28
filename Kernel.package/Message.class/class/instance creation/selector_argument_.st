@@ -2,4 +2,4 @@ selector: aSymbol argument: anObject
 	"Answer an instance of me whose selector is aSymbol and single 
 	argument is anObject."
 
-	^self new setSelector: aSymbol arguments: (Array with: anObject)
+	^self new setSelector: aSymbol arguments: { anObject }
