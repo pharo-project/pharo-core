@@ -14,4 +14,4 @@ Would you prefer to view only the last million characters?')
 		[changeList := self new
 			scanFile: changesFile from: changesFile size-charCount to: changesFile size].
 	changesFile close.
-	self open: changeList name: changesFile localName , ' log' multiSelect: true
+	changeList openAsMorphName: ' log'

@@ -7,16 +7,12 @@ collectCoverageFor: methods
 	
 	[ wrappers do: [ :each | each install ].
 	[ self runSuite: suite ] ensure: [ wrappers do: [ :each | each uninstall ] ] ] valueUnpreemptively.
-	wrappers := wrappers reject: [ :each | each hasRun ].
+	wrappers := wrappers reject: #hasRun.
+	wrappers := wrappers collect: #reference.
 	wrappers isEmpty 
-		ifTrue: 
-			[ UIManager default inform: 'Congratulations. Your tests cover all code under analysis.' ]
-		ifFalse: 
-			[ 
-			| ml |
-			ml := MessageList new.
-			(wrappers collect: [ :each | ml addMethodReference: each reference ]).
+		ifTrue:  [ UIManager default inform: 'Congratulations. Your tests cover all code under analysis.' ]
+		ifFalse: [ 
 			(Smalltalk tools messageList 
-				on: ml methodReferenceList
+				on: wrappers
 				named: 'Not Covered Code (' , (100 - (100 * wrappers size // methods size)) printString , '% Code Coverage)') open ].
 	self saveResultInHistory

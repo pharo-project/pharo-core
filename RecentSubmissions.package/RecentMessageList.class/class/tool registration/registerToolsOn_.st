@@ -1,2 +1,2 @@
 registerToolsOn: registry
-   registry register: self as: #recentMessageList
+	registry register: self as: #recentMessageList

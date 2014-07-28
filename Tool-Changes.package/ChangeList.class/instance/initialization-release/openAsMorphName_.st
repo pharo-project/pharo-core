@@ -1,4 +1,4 @@
-openAsMorphName: labelString multiSelect: multiSelect 
+openAsMorphName: labelString 
 	"Open a morphic view for the messageSet, whose label is labelString. 
 	The listView may be either single or multiple selection type"
 
@@ -8,21 +8,14 @@ openAsMorphName: labelString multiSelect: multiSelect
 	listHeight := 0.4.
 	window := (SystemWindow labelled: labelString)
 				model: self.
-	listPane := multiSelect
-				ifTrue: [PluggableListMorph
+	listPane := PluggableListMorph
 						on: self
 						list: #list
 						primarySelection: #listIndex
 						changePrimarySelection: #toggleListIndex:
 						listSelection: #listSelectionAt:
 						changeListSelection: #listSelectionAt:put:
-						menu: #changeListMenu:]
-				ifFalse: [PluggableListMorph
-						on: self
-						list: #list
-						selected: #listIndex
-						changeSelected: #toggleListIndex:
-						menu: #changeListMenu:].
+						menu: #changeListMenu:.
 	listPane keystrokeActionSelector: #changeListKey:from:.
 	window
 		addMorph: listPane
