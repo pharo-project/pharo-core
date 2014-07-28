@@ -1,5 +1,4 @@
 actionMap
-
-    ^actionMap == nil
-        ifTrue: [self createActionMap]
-        ifFalse: [actionMap]
+	^ actionMap
+		ifNil:  [ self createActionMap ]
+		ifNotNil: [ actionMap ]

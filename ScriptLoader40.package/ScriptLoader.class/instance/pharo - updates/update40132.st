@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '13707 Tiny critics clean in SpotLight package
+update40132
+	"self new update40132"
+	self withUpdateLog: '13707 Tiny critics clean in SpotLight package
 	https://pharo.fogbugz.com/f/cases/13707
 
 13710 tiny cleanup in Collections-Streams
@@ -17,4 +18,7 @@ commentForCurrentUpdate
 13711 tiny cleanup in Tool-FileList
 	https://pharo.fogbugz.com/f/cases/13711
 
-'
+'.
+	self loadTogether: self script132 merge: false.
+	self flushCaches.
+self cleanRepositories.

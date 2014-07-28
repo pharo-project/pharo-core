@@ -1,2 +1,2 @@
 name
-	^ '= nil -> isNil AND ~= nil -> notNil'
+	^ 'Do not use  `shouldnt: [ ... ] raise: Error` '

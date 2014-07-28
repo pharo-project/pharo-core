@@ -1,5 +1,5 @@
 symbolIsClass: symbol
-	Smalltalk globals 
+	^Smalltalk globals 
 		at: symbol
-		ifPresent: [ :val | ^val isBehavior or: [ val isTrait ] ]
-		ifAbsent: [ ^false ]
+		ifPresent: [ :val | val isBehavior or: [ val isTrait ] ]
+		ifAbsent: [ false ]

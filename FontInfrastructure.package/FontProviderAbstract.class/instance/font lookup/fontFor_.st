@@ -1,2 +1,0 @@
-fontFor: aLogicalFont
-	^nil

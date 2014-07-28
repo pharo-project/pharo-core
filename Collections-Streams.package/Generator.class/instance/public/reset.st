@@ -3,4 +3,4 @@ reset
 	continue ifNotNil:[continue unwindTo: home].
 	next := nil.
 	continue := thisContext.
-	[ self fork ] value
+	self fork

@@ -1,10 +1,21 @@
 printOn: aStream
 	super printOn: aStream.
-	aStream cr;
-		nextPutAll: ' familyName: ', familyName asString;cr;
-		nextPutAll: ' emphasis: ', emphasis asString;cr;
-		nextPutAll: ' pointSize: ', pointSize asString;cr;
-		nextPutAll: ' realFont: ', realFont asString;
-		nextPutAll: ' weight: ', weightValue asString;
-		nextPutAll: ' stretch: ', stretchValue asString;
-		nextPutAll: ' slant: ', slantValue asString.
+	aStream
+		cr;
+		nextPutAll: ' familyName: ';
+		nextPutAll: familyName asString;
+		cr;
+		nextPutAll: ' emphasis: ';
+		nextPutAll: emphasis asString;
+		cr;
+		nextPutAll: ' pointSize: ';
+		nextPutAll: pointSize asString;
+		cr;
+		nextPutAll: ' realFont: ';
+		nextPutAll: realFont asString;
+		nextPutAll: ' weight: ';
+		nextPutAll: weightValue asString;
+		nextPutAll: ' stretch: ';
+		nextPutAll: stretchValue asString;
+		nextPutAll: ' slant: ';
+		nextPutAll: slantValue asString

@@ -1,5 +1,5 @@
 updateableActionMap
-
-    actionMap == nil
-        ifTrue: [actionMap := self createActionMap].
-    ^actionMap
+	actionMap 
+		ifNil: [ actionMap := self createActionMap ].
+	^actionMap 
+	
