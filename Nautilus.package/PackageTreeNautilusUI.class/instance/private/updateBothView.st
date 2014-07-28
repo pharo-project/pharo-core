@@ -6,6 +6,6 @@ updateBothView
 	selectedClass := self selectedClass.
 	super updateBothView.
 	"I need to restore selection (otherwise, nothing goes to the right position)"
-	list model updateList.
+	self packageWidget updateList.
 	self selectedPackage: selectedPackage.
 	self selectedClass: selectedClass.

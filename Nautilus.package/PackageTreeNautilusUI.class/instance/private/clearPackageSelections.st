@@ -1,5 +1,5 @@
 clearPackageSelections
-	listElements := nil.
+	self resetPackagesList.
 	self resetClassesList.
-	packagesSelection removeAll.
-	groupsSelection removeAll.
+	self packageWidget resetPackagesSelection.
+	self packageWidget resetGroupsSelection.

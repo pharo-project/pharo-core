@@ -1,2 +1,2 @@
 updatePackageView 
-	list model changed: #rootNodes.
+	self packageWidget updatePackageView

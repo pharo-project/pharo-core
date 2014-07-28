@@ -1,7 +1,7 @@
 updatePackageView
 	| scroll |
 	
-	listElements := nil.
-	scroll := list scrollValue y.
-	self changed: #listElement:.
-	list vScrollValue: scroll
+	self resetPackagesList.
+	scroll := self packageWidget scrollValue y.
+	self changed: #getPackageItem:.
+	self packageWidget vScrollValue: scroll

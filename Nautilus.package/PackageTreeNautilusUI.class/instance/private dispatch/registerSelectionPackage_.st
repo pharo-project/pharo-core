@@ -6,6 +6,4 @@ registerSelectionPackage: aSelection
 		category: nil 
 		method: nil.
 		
-	packagesSelection 
-		at: aSelection item 
-		put: true.
+	self packageWidget selectPackage: aSelection item.

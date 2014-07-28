@@ -2,19 +2,19 @@ showPackages: aBoolean
 
 	self okToChange
 		ifTrue: [
-			listElements := nil.
+			self resetPackagesList.
 			self resetClassesList.
-			list enabled: aBoolean.
+			self packageWidget enabled: aBoolean.
 			aBoolean
 				ifFalse: [| class |
 					class := self selectedClass theNonMetaClass.
 					self classWidget selectClass: class.
 					self hierarchyClass: class .
-					listElements := nil.
+					self resetPackagesList.
 					self resetClassesList.
 					self showGroups
 						ifTrue: [self showGroupsSilently: false]].
-			listElements := nil.
+			self resetPackagesList.
 			self resetClassesList.
 			self model showPackages: aBoolean.
 			self changed: #groupsButtonLabel.

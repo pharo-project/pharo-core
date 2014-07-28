@@ -1,3 +1,3 @@
 restrictedBrowseGroup
 
-	self restrictedBrowseGroups: self selectedGroups
+	self restrictedBrowseGroups: self packageWidget selectedGroups

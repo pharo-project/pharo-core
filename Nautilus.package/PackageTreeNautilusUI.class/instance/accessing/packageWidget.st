@@ -1,0 +1,2 @@
+packageWidget
+	^ super packageWidget

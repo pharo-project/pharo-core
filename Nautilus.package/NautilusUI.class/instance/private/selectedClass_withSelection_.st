@@ -4,6 +4,6 @@ selectedClass: aClass withSelection: aPackage
 		class: aClass
 		category: nil
 		method: nil.
-	packagesSelection removeAll.
-	packagesSelection at: aPackage put: true.
+	self packageWidget resetPackagesSelection.
+	self packageWidget selectPackage: aPackage.
 	self updateBothView

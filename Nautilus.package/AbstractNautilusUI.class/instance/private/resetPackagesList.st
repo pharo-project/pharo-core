@@ -1,0 +1,2 @@
+resetPackagesList
+	self packageWidget resetPackagesList

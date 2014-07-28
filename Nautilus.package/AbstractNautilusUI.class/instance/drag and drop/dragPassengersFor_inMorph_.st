@@ -9,7 +9,7 @@ dragPassengersFor: item inMorph: dragSource
 	transferType == #getCategoryItem:
 		ifTrue: [ ^ self selectedCategories ifEmpty: [ { object } ] ].
 	
-	transferType == #listElement2:
+	transferType == #getClassItem:
 			ifTrue: [ 
 				self showGroups 
 					ifTrue: [ self selectedGroup

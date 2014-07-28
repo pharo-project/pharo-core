@@ -1,0 +1,2 @@
+resetGroupsSelection
+	groupsSelection removeAll

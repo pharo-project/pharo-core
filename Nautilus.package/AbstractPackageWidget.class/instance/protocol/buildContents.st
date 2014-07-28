@@ -1,0 +1,2 @@
+buildContents
+	self subclassResponsibility .

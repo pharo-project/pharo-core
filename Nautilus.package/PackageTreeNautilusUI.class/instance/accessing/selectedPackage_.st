@@ -5,9 +5,9 @@ selectedPackage: aPackage
 
 	acceptor := ClassDefinitionAcceptor model: self.
 			
-	groupsSelection removeAll.
-	packagesSelection removeAll.
-	packagesSelection at: aPackage put: true.
+	self packageWidget resetGroupsSelection.
+	self packageWidget resetPackagesSelection.
+	self packageWidget selectPackage: aPackage.
 		
 	aPackage 
 		ifNotNil: [ 

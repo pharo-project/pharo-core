@@ -1,0 +1,2 @@
+hasFocus
+	^ packagesList hasKeyboardFocus 

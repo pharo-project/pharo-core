@@ -2,7 +2,7 @@ selectedGroup: anObject
 
 	self okToChange
 		ifTrue: [
-			groupsSelection removeAll.
-			anObject ifNotNil: [ self giveFocusTo: list ].
-			groupsSelection at: anObject put: true.
+			self packageWidget resetGroupsSelection.
+			anObject ifNotNil: [ self giveFocusTo: self packageWidget ].
+			self packageWidget selectGroup: anObject.
 			self selectedGroupWithoutChangingSelection: anObject ]

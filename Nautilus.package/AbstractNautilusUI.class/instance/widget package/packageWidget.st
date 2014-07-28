@@ -1,0 +1,2 @@
+packageWidget
+	self subclassResponsibility 

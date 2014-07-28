@@ -1,7 +1,7 @@
 mergeGroups
 
 	| group |
-	group := self mergeGroups: self selectedGroups.
+	group := self mergeGroups: self packageWidget selectedGroups.
 	group
 		ifNotNil: [ 
 			self groupsManager addAGroup: group.

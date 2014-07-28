@@ -1,0 +1,2 @@
+resetPackagesList
+	packagesListElements  := nil.

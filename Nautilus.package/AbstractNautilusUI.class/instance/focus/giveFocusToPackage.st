@@ -1,3 +1,3 @@
 giveFocusToPackage
 
-	self giveFocusTo: list
+	self giveFocusTo: self packageWidget

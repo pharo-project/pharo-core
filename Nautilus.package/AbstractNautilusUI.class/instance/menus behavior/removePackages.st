@@ -18,7 +18,7 @@ from the system?'.
 										ifFalse: [^ false]].
 									classToRemove removeFromSystem ].
 						self browsedEnvironment packageOrganizer unregisterPackage: package ].
-					scroll := list scrollValue y .
+					scroll := self packageWidget scrollValue y .
 					self selectedPackage: nil.
 					self updatePackageView.
-					list vScrollValue: scroll ]]
+					self packageWidget vScrollValue: scroll ]]

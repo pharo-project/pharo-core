@@ -1,6 +1,6 @@
 resetSelections
 
-	self resetListSelection.
+	self resetPackagesSelection.
 	self resetClassesListSelection.
 	self resetCategoriesListSelection.
 	self resetMethodsListSelection.

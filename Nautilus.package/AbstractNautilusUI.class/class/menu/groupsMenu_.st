@@ -8,19 +8,19 @@ groupsMenu: aBuilder
 		
 	(aBuilder item: #'Browse scoped')
 		keyText: 'b, s' if: Nautilus useOldStyleKeys not;
-		action: [ target restrictedBrowseGroups: target selectedGroups ];
+		action: [ target restrictedBrowseGroups: target packageWidget selectedGroups ];
 		order: 1000;
 		withSeparatorAfter.
 		
 	(aBuilder item: #'Run tests')
 		keyText: 'j, g' if: Nautilus useOldStyleKeys not;
 		keyText: 't' if: Nautilus useOldStyleKeys;
-		action: [ target runTestsOfGroups: target selectedGroups notifying: true ];
+		action: [ target runTestsOfGroups: target packageWidget selectedGroups notifying: true ];
 		order: 1100.
 				
 	(aBuilder item: #'Merge groups')
 		action: [target mergeGroups];
-		enabledBlock: [ target selectedGroups size > 1];
+		enabledBlock: [ target packageWidget selectedGroups size > 1];
 		order: 1200.
 
 	target selectedGroup

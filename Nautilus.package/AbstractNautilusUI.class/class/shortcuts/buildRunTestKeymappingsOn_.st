@@ -16,7 +16,7 @@ buildRunTestKeymappingsOn: aBuilder
 	(aBuilder shortcut: #runTestForGroups)
 		category: #NautilusGlobalShortcuts
 		default: $j command  , $g command 
-		do: [ :target | target runTestsOfGroups: target selectedGroups notifying: true ]
+		do: [ :target | target runTestsOfGroups: target packageWidget selectedGroups notifying: true ]
 		description: 'runTestFor the selected groups'.
 		
 	(aBuilder shortcut: #runTestForMethods)

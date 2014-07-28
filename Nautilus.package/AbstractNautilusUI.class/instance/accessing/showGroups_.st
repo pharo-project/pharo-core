@@ -1,21 +1,22 @@
 showGroups: aBoolean
 
 	self okToChange ifFalse: [ ^ self ].
-	
-	self setShortcuts: #NautilusClassShortcuts to: self classWidget.
+	self flag:#todo.
+	"test if this is necessary"
+	"self setShortcuts: #NautilusClassShortcuts to: self classWidget."
 	
 	aBoolean 
 		ifTrue: [ 
-			list enabled: true.
-			self removeShortcuts: #NautilusPackageShortcuts from: list.
-			self setShortcuts: #NautilusGroupShortcuts to: list ]
+			self packageWidget enabled: true.
+			self packageWidget removeShortcuts: #NautilusPackageShortcuts.
+			self packageWidget setShortcuts: #NautilusGroupShortcuts]
 		ifFalse: [
-			self removeShortcuts: #NautilusGroupShortcuts from: list.
-			self setShortcuts: #NautilusPackageShortcuts to: list ].
+			self packageWidget removeShortcuts: #NautilusGroupShortcuts.
+			self packageWidget setShortcuts: #NautilusPackageShortcuts].
 		
 	
 	
-	listElements := nil.
+	self resetPackagesList.
 	self showPackages 
 		ifFalse: [ self showPackagesSilently: true ].
 	self selectedGroup
@@ -27,9 +28,9 @@ showGroups: aBoolean
 					self selectedClass: nil ].
 	aBoolean 
 		ifTrue: [ 
-			groupsSelection at: group put: true ]
+			self packageWidget selectGroup: group ]
 		ifFalse: [ 
-			packagesSelection at: self selectedPackage put: true ]].
+			self packageWidget selectPackage: self selectedPackage ]].
 
 	self model showGroups: aBoolean.
 	self changed: #groupsButtonLabel.

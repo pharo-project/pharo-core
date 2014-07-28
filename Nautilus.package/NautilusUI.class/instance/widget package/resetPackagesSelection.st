@@ -1,0 +1,2 @@
+resetPackagesSelection
+	self packageWidget resetPackagesSelection

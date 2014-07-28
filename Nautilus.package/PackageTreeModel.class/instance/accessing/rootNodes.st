@@ -1,4 +1,5 @@
 rootNodes 
+
 	self model showGroups 
 		ifTrue: [ ^ self groupsAsNodes ].
 

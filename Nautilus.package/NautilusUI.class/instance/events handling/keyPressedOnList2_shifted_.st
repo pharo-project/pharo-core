@@ -4,4 +4,4 @@ keyPressedOnList2: anEvent shifted: aBoolean
 	aCharacter := anEvent keyCharacter.
 
 	(aCharacter == self class nextFocusKey) ifTrue: [ ^ self giveFocusTo: categoryWidget ].
-	(aCharacter == self class previousFocusKey) ifTrue: [ ^ self giveFocusTo: list ].
+	(aCharacter == self class previousFocusKey) ifTrue: [ ^ self giveFocusTo: packageWidget ].

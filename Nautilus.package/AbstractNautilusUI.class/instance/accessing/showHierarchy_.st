@@ -1,7 +1,7 @@
 showHierarchy: aBoolean
 
 	self model showHierarchy: aBoolean.
-	listElements := nil.
+	self resetPackagesList.
 	self resetClassesList.
 	aBoolean 
 		ifTrue: [ self hierarchyClass: self selectedClass ].

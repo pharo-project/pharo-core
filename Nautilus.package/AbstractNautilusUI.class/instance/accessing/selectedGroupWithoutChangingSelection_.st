@@ -2,8 +2,8 @@ selectedGroupWithoutChangingSelection: anObject
 
 	self okToChange
 		ifTrue: [
-			anObject ifNil: [ groupsSelection removeAll ].
+			anObject ifNil: [ self packageWidget resetGroupsSelection ].
 			self model selectedGroup: anObject.
-			groupsSelection at: anObject put: true.
+			self packageWidget selectGroup: anObject.
 			self selectedClass: nil.
 			self updateClassView ]

@@ -10,5 +10,5 @@ selected: aNode
 
 	selections do:[: each |  self selectedPackageWithoutChangingSelection: each].
 	
-	self changed: #selected.
+	self changed: #selectedPackageIndex.
 	self changed: #currentHistoryIndex.

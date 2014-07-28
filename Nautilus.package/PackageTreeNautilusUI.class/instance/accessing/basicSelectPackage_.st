@@ -2,6 +2,6 @@ basicSelectPackage: aPackage
 	| selection |
 			
 	selection := aPackage asNautilusSelection.
-	self giveFocusTo: list.
+	self giveFocusTo: self packageWidget.
 	self selectedPackageWithoutChangingSelection: selection.
 	self listSelectItem: selection.

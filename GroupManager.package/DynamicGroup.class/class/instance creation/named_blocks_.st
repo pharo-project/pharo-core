@@ -1,10 +1,9 @@
 named: aString blocks: aCollection
 
 	| instance |
-	instance := self basicNew
+	instance := self new
 					name: aString;
 					blocks: aCollection;
-					initialize;
 					yourself.
 	GroupAnnouncer uniqueInstance announce: (AGroupHasBeenCreated group: instance).
 	^ instance

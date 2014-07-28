@@ -1,6 +1,6 @@
 updateBothView
 
-	listElements := nil.
+	self resetPackagesList.
 	self resetClassesList.
-	self changed: #listElement:.
+	self changed: #getPackageItem:.
 	self changed: #getClassItem:

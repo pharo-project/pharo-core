@@ -2,6 +2,6 @@ updatePackages
 
 	| package |
 	package := self selectedPackage.
-	list buildContents.
+	self packageWidget buildContents.
 	self selectedPackage: package.
 	self updatePackageViewAndMove

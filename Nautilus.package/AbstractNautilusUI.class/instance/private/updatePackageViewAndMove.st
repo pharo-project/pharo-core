@@ -1,4 +1,4 @@
 updatePackageViewAndMove
 			
-	listElements := nil.
-	self changed: #listElement:
+	self resetPackagesList.
+	self changed: #getPackageItem:

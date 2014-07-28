@@ -1,0 +1,2 @@
+buildContents
+	packagesList buildContents

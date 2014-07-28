@@ -5,9 +5,9 @@ selectedPackage: aPackage
 		ifTrue: [
 			acceptor := ClassDefinitionAcceptor model: self.
 			
-			packagesSelection removeAll.
-			packagesSelection at: aPackage put: true.
+			self packageWidget resetPackagesSelection.
+			self packageWidget selectPackage: aPackage.
 				
-			aPackage ifNotNil: [ self giveFocusTo: list ].	
+			aPackage ifNotNil: [ self giveFocusTo: self packageWidget ].	
 				
 			self selectedPackageWithoutChangingSelection: aPackage]

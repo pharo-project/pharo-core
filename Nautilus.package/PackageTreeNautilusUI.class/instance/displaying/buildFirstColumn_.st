@@ -18,7 +18,7 @@ buildFirstColumn: aWindow
 		
 	^ PanelMorph new
 		changeProportionalLayout;
-		addMorph: self buildList 
+		addMorph: self buildPackageWidget 
 			fullFrame: (LayoutFrame identity
 				topOffset: 30;
 				bottomOffset: -30);

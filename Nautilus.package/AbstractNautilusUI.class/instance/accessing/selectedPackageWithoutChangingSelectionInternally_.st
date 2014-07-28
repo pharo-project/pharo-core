@@ -3,9 +3,9 @@ selectedPackageWithoutChangingSelectionInternally: aPackage
 	class := self selectedClass.
 	(self showPackages and: [class notNil and: [class package ~= aPackage]])
 		ifTrue: [ self selectedClass: nil ].
-	packagesSelection at: aPackage put: true.
+	self packageWidget selectPackage: aPackage.
 	
-	aPackage ifNotNil: [ self giveFocusTo: list ].
+	aPackage ifNotNil: [ self giveFocusTo: self packageWidget ].
 	
 	self updateClassView.
 	self update.

@@ -11,7 +11,7 @@ keyStroke: anEvent fromSourceCodeMorph: aMorph
 	string := anEvent keyString.
 
 	string = '<Ctrl-Cmd-right>'
-		ifTrue: [ ^ self giveFocusTo: list ].
+		ifTrue: [ ^ self giveFocusTo: packageWidget ].
 	
 	string = '<Ctrl-Cmd-left>'
 		ifTrue: [ ^ self giveFocusTo: methodWidget ].

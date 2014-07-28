@@ -10,6 +10,4 @@ registerSelectionGroup: aSelection
 		category: nil 
 		method: nil.
 	
-	groupsSelection 
-		at: aSelection item 
-		put: true.
+	self packageWidget selectGroup: aSelection item.

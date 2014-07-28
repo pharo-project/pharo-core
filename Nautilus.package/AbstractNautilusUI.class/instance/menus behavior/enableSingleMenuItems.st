@@ -1,3 +1,3 @@
 enableSingleMenuItems
 
-	^ self selectedItems size <= 1
+	^ self packageWidget selectedPackages size <= 1

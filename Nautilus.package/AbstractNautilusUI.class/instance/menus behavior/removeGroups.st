@@ -1,9 +1,9 @@
 removeGroups
 
 	self okToChange ifFalse: [ ^ self ].
-	self selectedGroups
+	self packageWidget selectedGroups
 		ifNotEmpty:[:groups |
-			groupsSelection removeAll.
+			self packageWidget resetGroupsSelection.
 			groups do: [:group | self groupsManager removeAGroupSilently: group ].
 			self selectedGroup: nil].
 		

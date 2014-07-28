@@ -2,7 +2,7 @@ open
 	| focus |
 	super open.
 	window takeKeyboardFocus.
-	focus := list.
+	focus := self packageWidget.
 	self selectedClass 
 		ifNotNil: [ 
 			acceptor := ClassOrMethodDefinitionAcceptor model: self. 

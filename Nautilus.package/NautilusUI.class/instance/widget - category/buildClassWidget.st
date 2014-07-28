@@ -1,5 +1,5 @@
 buildClassWidget
 	| classesList |
 	classesList := classWidget buildClassesList.
-	self setShortcuts: #NautilusMethodShortcuts to: classesList.
+	self setShortcuts: #NautilusClassShortcuts to: classesList.
 	^ classesList

@@ -2,7 +2,7 @@ listSelectItem: anObject
 	| selection |
 	
 	selection := anObject asNautilusSelection.
-	list model 
+	self packageWidget  
 		expandAllFromNode: selection nodePath first;
 		selectItems: { selection item }.
-	list scrollSelectionIntoView.
+	self packageWidget scrollSelectionIntoView.

@@ -1,2 +1,2 @@
 listClearSelection
-	list model deselectAll.
+	self packageWidget deselectAll.

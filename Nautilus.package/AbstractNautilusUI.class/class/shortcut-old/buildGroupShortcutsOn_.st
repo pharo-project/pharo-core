@@ -10,7 +10,7 @@ buildGroupShortcutsOn: aBuilder
 	(aBuilder shortcut: #restrictedBrowseGroup)
 		category: #NautilusGroupShortcuts
 		default: $b command shift
-		do: [ :target | target  restrictedBrowseGroups: target selectedGroups ]
+		do: [ :target | target  restrictedBrowseGroups: target packageWidget selectedGroups ]
 		description: 'Open a browser on a restricted view'.
 	
 	(aBuilder shortcut: #findClass)
@@ -34,7 +34,7 @@ buildGroupShortcutsOn: aBuilder
 	(aBuilder shortcut: #runTestsOfGroups)
 		category: #NautilusGroupShortcuts
 		default: $t command
-		do: [ :target | target runTestsOfGroups: target selectedGroups notifying: true ]
+		do: [ :target | target runTestsOfGroups: target packageWidget selectedGroups notifying: true ]
 		description: 'Run the tests of the selected groups'.
 		
 	(aBuilder shortcut: #removeGroups)

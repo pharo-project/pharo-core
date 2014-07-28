@@ -1,3 +1,0 @@
-listSize
-
-	^ self getList size.

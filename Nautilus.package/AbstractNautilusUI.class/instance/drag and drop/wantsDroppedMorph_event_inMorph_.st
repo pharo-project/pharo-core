@@ -13,12 +13,12 @@ wantsDroppedMorph: transferMorph event: anEvent inMorph: destinationLM
 
 	srcType == #getMethodItem:
 		ifTrue: [
-			^ (dstType == #getCategoryItem: or: [ dstType == #listElement2: ])].
+			^ (dstType == #getCategoryItem: or: [ dstType == #getClassItem: ])].
 
 	srcType == #getCategoryItem:
-		ifTrue: [ ^  dstType == #listElement2: ].
+		ifTrue: [ ^  dstType == #getClassItem: ].
 	
-	(srcType == #listElement2: and: [ dstType = #listElement: ]) 
+	(srcType == #getClassItem: and: [ dstType = #getPackageItem: ]) 
 		ifTrue: [ 
 			(destinationLM potentialDropItem isKindOf: PluggableListMorph)
 				ifTrue: [ ^ true ].

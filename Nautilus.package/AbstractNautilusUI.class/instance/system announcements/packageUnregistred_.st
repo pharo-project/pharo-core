@@ -5,7 +5,7 @@ packageUnregistred: anAnnouncement
 	package := anAnnouncement package.
 	self selectedPackage = package
 		ifTrue: [ self selectedPackage: nil ].
-	packagesSelection at: package put: false.
+	self packageWidget selectPackage: package.
 	window isDisplayed
 		ifFalse: [ ^ self ].
 	self updatePackageView

@@ -1,0 +1,2 @@
+resetPackagesSelection
+	packagesSelection removeAll

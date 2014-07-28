@@ -1,1 +1,1 @@
-PackageWidget is the basic implementation of a wiget managing packages
+PackageWidget is the basic implementation of a wiget managing Packages and Groups
