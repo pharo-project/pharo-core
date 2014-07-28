@@ -1,2 +1,2 @@
 consistencyCheck
-	^(1 to: 10) at: 1
+	^(1 to: 10) size > 0
