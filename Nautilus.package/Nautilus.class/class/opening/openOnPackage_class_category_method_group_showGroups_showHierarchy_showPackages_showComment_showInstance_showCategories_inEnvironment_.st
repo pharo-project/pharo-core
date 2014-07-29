@@ -15,7 +15,5 @@ openOnPackage: selectedPackage class: selectedClass category: selectedCategory m
 	
 	instance open.
 	instance ui showPackages: showPackages.
-	instance ui forceSelection: selectedCategory.
-	instance ui forceSelection: selectedMethod.
 
 	^ instance

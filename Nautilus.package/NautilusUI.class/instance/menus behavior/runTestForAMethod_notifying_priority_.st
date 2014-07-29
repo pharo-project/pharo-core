@@ -42,6 +42,7 @@ runTestForAMethod: aMethod notifying: aBoolean priority: aPriority
 	
 	shouldAnnounce
 		ifTrue: [| color |
+			color := Color gray.
 			testMethod hasPassedTest ifTrue: [ color :=  Color green ].
 			testMethod hasFailedTest ifTrue: [ color :=  Color yellow ].
 			testMethod hasErrorTest ifTrue: [ color :=  Color red ].

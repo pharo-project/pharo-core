@@ -31,7 +31,7 @@ groupsMenu: aBuilder
 						keyText: 'r, g' if: Nautilus useOldStyleKeys not;
 						keyText: 'r' if: Nautilus useOldStyleKeys;
 						action: [ target renameGroup ];
-						enabledBlock: [ target selectedGroups size <= 1];
+						enabledBlock: [ target packageWidget selectedGroups size <= 1];
 						order: 1300 ].
 			target selectedGroup removable
 				ifTrue: [

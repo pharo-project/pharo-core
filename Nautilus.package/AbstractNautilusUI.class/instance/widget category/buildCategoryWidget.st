@@ -1,0 +1,2 @@
+buildCategoryWidget
+	self subclassResponsibility

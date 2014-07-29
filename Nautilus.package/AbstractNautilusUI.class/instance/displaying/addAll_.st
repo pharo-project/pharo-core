@@ -1,3 +1,0 @@
-addAll: aWindow
-	
-	self subclassResponsibility

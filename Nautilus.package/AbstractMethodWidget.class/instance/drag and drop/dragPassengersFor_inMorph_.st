@@ -9,5 +9,4 @@ dragPassengersFor: item inMorph: dragSource
 	^ self selectedMethods
 		ifEmpty: [
 			 (self getMethods includes: object)
-				ifTrue: [ { object } ]
-				ifFalse: [ "to test" self halt. ] ]
+				ifTrue: [ { object } ]]

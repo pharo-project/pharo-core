@@ -1,3 +1,2 @@
 = aNode 
-	self class = aNode class ifFalse: [ ^ false ].
-	^ self item = aNode item.
+	^ (self class = aNode class) and:[ self item = aNode item]

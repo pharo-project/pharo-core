@@ -4,8 +4,10 @@ dropInPackageList: aCollection inARow: aRow
 	(aRow = 0) ifTrue: [ ^ self ].
 	receiver := self getPackagesList at: aRow.
 	receiver isClass
-		ifTrue: [ self model selectedClass isMeta
-					ifTrue: [ receiver := receiver theMetaClass ]
-					ifFalse: [ receiver := receiver theNonMetaClass ]].
+		ifTrue: [ 
+			receiver := 
+			self model selectedClass isMeta
+					ifTrue: [ receiver theMetaClass ]
+					ifFalse: [ receiver theNonMetaClass ]].
 	
 	self model dropInAPackage: aCollection into: receiver

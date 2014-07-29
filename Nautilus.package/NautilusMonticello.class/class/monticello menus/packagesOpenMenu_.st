@@ -21,7 +21,7 @@ packagesOpenMenu: aBuilder
 					parent: #('Open ',package name);
 					order: index;
 					action: [ self default open: mcpackage in: repo ]].
-	last withSeparatorAfter.
+	last ifNotNil:[: lastEntry| lastEntry withSeparatorAfter].
 		(aBuilder item: 'Add a repository')
 						parent: #('Open ',package name);
 						order: 99;

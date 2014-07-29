@@ -1,3 +1,0 @@
-removeTextArea: anArea
-
-	self shouldBeImplemented

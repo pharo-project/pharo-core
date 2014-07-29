@@ -1,0 +1,2 @@
+invalidateCacheEntryFor: aMethod
+	self subclassResponsibility 

@@ -5,7 +5,7 @@ arrowDown: aMethod
 	methods := methods select: [:each | each selector = aMethod selector ].
 	methods size = 1
 		 ifTrue: [ ^ self model class openOnMethod: methods first ].
-	methods size = 0
+	methods isEmpty
 		ifTrue:[ ^ self methodWidget invalidateCacheEntryFor: aMethod ].
 	methodsNames := methods collect: [:each | each methodClass name, '>>#', each selector ].
 	index := UIManager default chooseFrom: methodsNames.

@@ -22,5 +22,7 @@ buildCategoriesList
 		
 		getListElementSelector: #getCategoryItem:;
 		
-		changed
+		changed;
+		
+		yourself
 	

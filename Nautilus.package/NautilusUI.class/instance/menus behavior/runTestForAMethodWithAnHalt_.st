@@ -15,7 +15,7 @@ runTestForAMethodWithAnHalt: aMethod
 			testClass debug: testMethod selector ].
 	ClassesIconsCache removeKey: aMethod methodClass ifAbsent: []. 
 	UIManager default defer:  [ methodWidget vScrollValue: vScroll ].
-	
+	color := Color gray.
 	aMethod hasPassedTest ifTrue: [ color :=  Color green ].
 	aMethod hasFailedTest ifTrue: [ color :=  Color yellow ].
 	aMethod hasErrorTest ifTrue: [ color :=  Color red ].

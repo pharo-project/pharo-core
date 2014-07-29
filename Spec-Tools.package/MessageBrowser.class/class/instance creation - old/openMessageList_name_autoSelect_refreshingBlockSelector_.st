@@ -1,4 +1,13 @@
-openMessageList: messageList name: aString autoSelect: aSelector refreshingBlockSelector:aRefreshingBlockSelector
-	" Tool registry compitibility "
+openMessageList: messageList name: aString autoSelect: aSelector refreshingBlockSelector: aRefreshingBlockSelector
+	
+	| browser |
+	browser := self new
+		messages: messageList;
+		title: aString;
+		autoSelect: aSelector;
+		yourself.
+		
+	aRefreshingBlockSelector ifNotNil:[(browser perform: aRefreshingBlockSelector with: aSelector)].
+	^browser open
+	
 				
-	^ (self on: messageList named: aString autoSelect: aSelector refreshingBlockSelector:aRefreshingBlockSelector) open

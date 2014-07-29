@@ -1,2 +1,0 @@
-buildFirstColumn: aWindow
-	^ self subclassResponsibility

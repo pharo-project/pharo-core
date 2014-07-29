@@ -1,2 +1,0 @@
-packageWidget
-	^ super packageWidget

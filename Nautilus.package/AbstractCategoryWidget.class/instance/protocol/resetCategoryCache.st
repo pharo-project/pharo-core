@@ -1,0 +1,2 @@
+resetCategoryCache
+	^ self subclassResponsibility

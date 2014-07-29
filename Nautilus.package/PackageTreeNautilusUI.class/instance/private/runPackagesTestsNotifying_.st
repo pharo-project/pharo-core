@@ -2,10 +2,10 @@ runPackagesTestsNotifying: aBoolean
 	| packages classes label |
 
 	(packages := self selectedPackages) ifNil: [ ^ self ].
-	
+	label := 
 	packages size > 1
-		ifTrue: [ label := 'Packages: ' ]
-		ifFalse: [ label := 'Package: ' ].
+		ifTrue: [ 'Packages: ' ]
+		ifFalse: [ 'Package: ' ].
 		
 	classes := packages gather: [ :package | package asNautilusSelection definedClasses ].
 	classes := classes select: [ :class | class inheritsFrom: TestCase ].
@@ -14,6 +14,7 @@ runPackagesTestsNotifying: aBoolean
 
 	aBoolean ifTrue: [ 
 		| color |
+		color := Color gray.
 		(classes anySatisfy:[:e  | e hasPassedTest ]) ifTrue: [ color := Color green ].
 		(classes anySatisfy:[:e  | e hasFailedTest ]) ifTrue: [ color := Color yellow ].
 		(classes anySatisfy:[:e  | e hasErrorTest ]) ifTrue: [ color := Color red ].

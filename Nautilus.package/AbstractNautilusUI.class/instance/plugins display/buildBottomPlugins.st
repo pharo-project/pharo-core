@@ -1,2 +1,0 @@
-buildBottomPlugins
-	^ self subclassResponsibility

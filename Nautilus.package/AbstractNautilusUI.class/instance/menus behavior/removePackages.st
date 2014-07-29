@@ -15,7 +15,7 @@ removePackages
 want to REMOVE the class ', classToRemove name, '
 from the system?'.
 										(self confirm: 'class has subclasses: ' , message)
-										ifFalse: [^ false]].
+										ifFalse: [^ nil]].
 									classToRemove removeFromSystem ].
 						self browsedEnvironment packageOrganizer unregisterPackage: package ].
 					scroll := self packageWidget scrollValue y .

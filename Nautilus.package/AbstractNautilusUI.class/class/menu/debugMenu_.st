@@ -15,7 +15,7 @@ debugMenu: aBuilder
 	(aBuilder item: #'Reset icon cache')
 			order: 0;
 			action: [ 
-				AbstractNautilusUI resetIconCaches.
+				self resetIconCaches.
 				AbstractMethodWidget resetMethodIconCache ];
 			parent: #DebugMenu.
 			

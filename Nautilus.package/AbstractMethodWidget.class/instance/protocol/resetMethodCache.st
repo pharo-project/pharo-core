@@ -1,0 +1,2 @@
+resetMethodCache
+	self subclassResponsibility 

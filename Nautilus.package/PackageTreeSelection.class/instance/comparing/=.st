@@ -1,4 +1,2 @@
 = other 
-	self class = other class ifFalse: [ ^ false ].
-	self item = other item ifFalse: [ ^ false ].
-	^ true
+	^ (self class = other class) and:[ self item = other item].

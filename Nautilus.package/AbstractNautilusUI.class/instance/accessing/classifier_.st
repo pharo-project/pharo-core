@@ -1,3 +1,0 @@
-classifier: aClassifier
-
-	classifier := aClassifier

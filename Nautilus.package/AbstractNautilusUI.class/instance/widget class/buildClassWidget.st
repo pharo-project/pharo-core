@@ -1,0 +1,2 @@
+buildClassWidget
+	self subclassResponsibility 

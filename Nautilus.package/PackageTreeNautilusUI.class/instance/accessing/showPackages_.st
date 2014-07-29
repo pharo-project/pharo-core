@@ -7,13 +7,11 @@ showPackages: aBoolean
 	self resetPackagesList.
 	self resetClassesList.
 	
+	self model showPackages: aBoolean.
 	"If showPackages false(Hierarchy)-->true(Flat) then selected package needs to synch to that of selected class"
 	(aBoolean and: [ self model showPackages not ]) 
 		ifTrue: [
-			self model showPackages: aBoolean.
-			self selectPackageFor: self selectedClass ] 
-		ifFalse: [ 	
-			self model showPackages: aBoolean ].
+			self selectPackageFor: self selectedClass ].
 
 	self changed: #groupsButtonLabel.
 	self updateClassView.

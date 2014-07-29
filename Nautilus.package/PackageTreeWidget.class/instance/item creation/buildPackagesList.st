@@ -10,7 +10,8 @@ buildPackagesList
 		dropEnabled: true;
 		getMenuSelector: #menu:shifted:;
 		hResizing: #spaceFill;
-		vResizing: #spaceFill.
+		vResizing: #spaceFill;
+		yourself.
 				
 	treeModel announcer 
 		when: MorphTreeSelectionChanged do: [ :ann | self model selected: ann selection  ].

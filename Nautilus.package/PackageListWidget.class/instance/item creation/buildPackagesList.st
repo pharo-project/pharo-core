@@ -21,5 +21,6 @@ buildPackagesList
 		beMultipleSelection;
 		basicGetListElementSelector: #getPackageItem:;
 		hResizing: #spaceFill;
-		vResizing: #spaceFill.
+		vResizing: #spaceFill;
+		yourself.
 	^ packagesList

@@ -1,9 +1,8 @@
 elementsMenu: aBuilder
 	<nautilusGlobalMethodMenu>
-	| selectedMethods selectedMethod tmp target |
+	| selectedMethods tmp target |
 	target := aBuilder model.
 	selectedMethods := target selectedMethods.
-	selectedMethod := target selectedMethod.
 	
 	(aBuilder item: #'Find Method...')
 		keyText: 'f, m' if: Nautilus useOldStyleKeys not;
