@@ -29,4 +29,4 @@ showActions
 				ifNotNil: ["want more than default behavior"
 					cls == Morph
 						ifFalse: [adder value: cls value: selector]]].
-	Smalltalk tools messageList openMessageList: list name: 'Actions of ' , self printString autoSelect: ''
+	Smalltalk tools messageList browse: list title:  'Actions of ' , self printString.

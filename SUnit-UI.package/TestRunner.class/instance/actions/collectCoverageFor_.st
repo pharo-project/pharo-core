@@ -12,7 +12,7 @@ collectCoverageFor: methods
 	wrappers isEmpty 
 		ifTrue:  [ UIManager default inform: 'Congratulations. Your tests cover all code under analysis.' ]
 		ifFalse: [ 
-			(Smalltalk tools messageList 
-				on: wrappers
-				named: 'Not Covered Code (' , (100 - (100 * wrappers size // methods size)) printString , '% Code Coverage)') open ].
+			Smalltalk tools messageList 
+				browse: wrappers
+				title: 'Not Covered Code (' , (100 - (100 * wrappers size // methods size)) printString , '% Code Coverage)'].
 	self saveResultInHistory

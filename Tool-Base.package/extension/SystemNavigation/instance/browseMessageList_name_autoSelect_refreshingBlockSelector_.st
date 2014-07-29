@@ -1,6 +1,6 @@
 browseMessageList: messageList name: labelString autoSelect: autoSelectString refreshingBlockSelector:aRefreshingBlockSelector
 	"Create and schedule a MessageSet browser on the message list."
-	| title methods |
+	| methods |
 	
 	"Do not show trait methods"
 	methods := messageList reject: [ :each| each isFromTrait ].
@@ -15,11 +15,9 @@ browseMessageList: messageList name: labelString autoSelect: autoSelectString re
 				fullOnClass: method methodClass 
 				selector: method selector
 				highlight: autoSelectString ].
-
-	title := labelString, ' [', methods size printString, ']'.
 	
 	^ Smalltalk tools messageList
 		openMessageList: methods 
-		name: title 
+		name: labelString 
 		autoSelect: autoSelectString
 		refreshingBlockSelector:aRefreshingBlockSelector 

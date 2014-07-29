@@ -10,6 +10,6 @@ browseCurrentVersionsOfSelections
 					and: [aChange isMethodDefinedInImage
 								ifTrue: [ aList add: aChange asRingDefinition]]]].
 	aList isEmpty ifTrue: [^ self inform: 'no selected methods have in-memory counterparts'].
-	(Smalltalk tools messageList
-		on: aList 
-		named: 'Current versions of selected methods in ', file localName) open
+	Smalltalk tools messageList
+		browse: aList 
+		title: 'Current versions of selected methods in ', file localName

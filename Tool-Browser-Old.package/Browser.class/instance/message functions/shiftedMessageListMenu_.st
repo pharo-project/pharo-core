@@ -4,9 +4,6 @@ shiftedMessageListMenu: aMenu
 	aMenu addStayUpItem.
 	aMenu addList: #(
 		('Toggle diffing (D)'						toggleDiffing)
-		('Implementors of sent messages'			browseAllMessages)
-		-
-		('Local senders of...'						browseLocalSendersOfMessages)
 		-
 		('Inspect instances'						inspectInstances)
 		('Inspect subinstances'					inspectSubInstances)).
