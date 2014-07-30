@@ -1,8 +1,6 @@
 testIfTrueEffect
 	| temp fakeBool |
 	
-	self skip.
-	
 	fakeBool := MyBooleanObject new.
 	temp := 1.
 	fakeBool ifTrue: [ temp := 5 + 3 + 1 ].

@@ -8,5 +8,9 @@ taskbarSettingOn: aBuilder
 		with: [
 			(aBuilder setting: #showWindowPreview)
 				label: 'Window preview' translated;
-				description: 'Whether the world''s taskbar buttons should show previews of the associated window while the mouse is over them.' translated
+				description: 'Whether the world''s taskbar buttons should show previews of the associated window while the mouse is over them.' translated.
+			(aBuilder setting: #maximumButtons)
+				label: 'Maximum number of tasks to show' translated;
+				description: ('By default, the value is ', self maximumButtonsDefault printString) translated.
+
 		]

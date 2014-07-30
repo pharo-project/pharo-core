@@ -6,5 +6,4 @@ closeUnchangedWindows
 except those with unaccepted edits?' translated)
 		ifFalse: [^ self].
 
-	(self  windowsSatisfying: [:w | w model canDiscardEdits])
-		do: [:w | w delete]
+	self  closeAllUnchangedWindows.

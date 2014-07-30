@@ -1,5 +1,5 @@
 Morph subclass: #TaskbarMorph
 	instanceVariableNames: 'tasks orderedTasks'
-	classVariableNames: 'ShowTaskbar ShowWindowPreview'
+	classVariableNames: 'MaximumButtons ShowTaskbar ShowWindowPreview'
 	poolDictionaries: ''
 	category: 'Morphic-Widgets-Taskbar'
