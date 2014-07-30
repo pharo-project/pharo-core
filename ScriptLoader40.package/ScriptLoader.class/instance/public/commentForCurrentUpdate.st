@@ -1,11 +1,5 @@
 commentForCurrentUpdate
- ^ '13724 MessageBrowser should be a bit wider...
-	https://pharo.fogbugz.com/f/cases/13724
-
-13732 Enable mustBeBooleanInMagic:
-	https://pharo.fogbugz.com/f/cases/13732
-
-13618 Recover from toolbar filling the screen from runaway window creation.
-	https://pharo.fogbugz.com/f/cases/13618
+ ^ '13237 Pharo Zen values should be in the image
+	https://pharo.fogbugz.com/f/cases/13237
 
 '
