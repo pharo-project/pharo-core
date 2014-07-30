@@ -15,7 +15,7 @@ declareVariable: newGlobal from: aDictionary
 		].
 	(aDictionary includesKey: globalName)
 		ifTrue:  [
-			self add: (aDictionary associationAt: globalName).
+			self add: ((aDictionary associationAt: globalName) primitiveChangeClassTo: ClassVariable new).
 			aDictionary removeKey: globalName]
 		ifFalse: [
 			self add: newGlobal]

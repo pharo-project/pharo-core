@@ -7,7 +7,7 @@ declare: key from: aDictionary
 	(self includesKey: key) ifTrue: [^ self].
 	(aDictionary includesKey: key)
 		ifTrue: 
-			[self add: (aDictionary associationAt: key).
+			[self add: ((aDictionary associationAt: key) primitiveChangeClassTo: GlobalVariable new).
 			aDictionary removeKey: key]
 		ifFalse: 
 			[self add: (GlobalVariable key: key)]

@@ -20,7 +20,7 @@ definitionForNautilusWithSlots
 			nextPutAll: self layout class name].
 	aStream cr; tab; nextPutAll: 'slots: ';
 			nextPutAll: self slots asString .
-	aStream cr; tab; nextPutAll: 'classVariableNames: ';
+	aStream cr; tab; nextPutAll: 'classVariables: ';
 			store: self classVariablesString.
 	poolString = '' ifFalse: [
 		aStream cr; tab; nextPutAll: 'poolDictionaries: ';
