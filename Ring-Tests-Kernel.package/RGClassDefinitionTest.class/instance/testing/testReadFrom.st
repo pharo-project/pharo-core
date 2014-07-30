@@ -3,16 +3,14 @@ testReadFrom
 	
 	
 	| st rg |
-	rg := (Point) asRingDefinition.
+	rg := Point asRingDefinition.
 	st := String streamContents: [:s |
-		
 		rg storeOn: s.
 		s contents].
 	self assert: (Object readFrom: st) = rg. 
 	
-	rg := (Point class ) asRingDefinition.
+	rg := Point class asRingDefinition.
 	st := String streamContents: [:s |
-		
 		rg storeOn: s.
 		s contents].
 	self assert: (Object readFrom: st) = rg 

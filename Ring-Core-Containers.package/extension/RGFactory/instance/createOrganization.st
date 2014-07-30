@@ -1,3 +1,3 @@
 createOrganization
 
-	^self organizationClass new
+	^RGOrganization new

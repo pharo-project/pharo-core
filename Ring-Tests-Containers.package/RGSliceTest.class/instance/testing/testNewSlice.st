@@ -1,7 +1,7 @@
 testNewSlice
 	| newSlice |
 	
-	newSlice:= RGFactory current createSliceNamed: 'Foo'.
+	newSlice:= RGSlice named: 'Foo'.
 	
 	self assert: (newSlice isSlice).
 	self assert: (newSlice classes isEmpty).

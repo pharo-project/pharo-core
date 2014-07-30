@@ -13,4 +13,4 @@ testStoreOn
 		
 		(Point class) asRingDefinition storeOn: s.
 		s contents].
-	self assert: st = '((RGMetaclassDefinition named: #Point class) baseClass:(RGClassDefinition named: #Point))'
+	self assert: st = '((RGMetaclassDefinition named: #''Point class'') baseClass:(RGClassDefinition named: #Point))'

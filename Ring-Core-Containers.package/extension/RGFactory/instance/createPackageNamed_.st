@@ -1,3 +1,3 @@
 createPackageNamed: aString
 
-	^self createInstanceOfClass: self packageClass named: aString
+	^self createInstanceOfClass: RGPackage named: aString

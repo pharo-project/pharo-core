@@ -1,2 +1,2 @@
 storeOn: aStream 
-	aStream nextPutAll: self name
+	self name storeOn: aStream

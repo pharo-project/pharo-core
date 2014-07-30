@@ -1,8 +1,8 @@
 testNestingContainers
 	| newSlice newSlice2 newClass newTrait newClass2 |
 	
-	newSlice:= RGFactory current createSliceNamed: #Root.
-	newSlice2:= RGFactory current createSliceNamed: #Child.
+	newSlice:= RGSlice named: #Root.
+	newSlice2:= RGSlice named: #Child.
 	newSlice2 environment: newSlice.
 	
 	newSlice addClassNamed: #OrderedCollection.

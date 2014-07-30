@@ -1,5 +1,5 @@
-named: aSymbol
+named: aName
 
 	^self new
-		name: aSymbol;
+		name: aName asSymbol;
 		yourself

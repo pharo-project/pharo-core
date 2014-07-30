@@ -1,8 +1,8 @@
 commentForCurrentUpdate
- ^ '13733 Nautilus Refaktoring 4: move class list loading to ClassWidget
-	https://pharo.fogbugz.com/f/cases/13733
+ ^ '13736 Continue Ring Simplify
+	https://pharo.fogbugz.com/f/cases/13736
 
-13734 Move MethodClassifier to Tools-Base
-	https://pharo.fogbugz.com/f/cases/13734
+13712 tiny recategorization in Collections
+	https://pharo.fogbugz.com/f/cases/13712
 
 '
