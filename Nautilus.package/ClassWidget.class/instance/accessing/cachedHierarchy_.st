@@ -1,0 +1,3 @@
+cachedHierarchy: anObject
+	
+	cachedHierarchy := anObject

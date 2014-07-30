@@ -6,8 +6,6 @@ compileAClassFrom: aString notifying: aController
 		ifNotNil: [:class | 
 			self selectedPackage: (self parentOfClass: class).
 			self selectedClass: class.
-			self showHierarchy
-						ifTrue: [ self hierarchyClass: class ].
 			self showGroups
 				ifTrue: [ self updateClassView ]
 				ifFalse: [ self updateBothView ]]

@@ -1,7 +1,7 @@
 initialize
 
 	super initialize.
-	cachedHierarchy := SortHierarchically new.
+	cachedHierarchy := nil. "to delete"
 	shouldUpdateTitle := true.
 	testSemaphore := Semaphore new.
 	sourceTextAreas := OrderedCollection new.

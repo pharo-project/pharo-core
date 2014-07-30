@@ -4,6 +4,5 @@ basicShowHierarchy
 			
 	class := self selectedClass theNonMetaClass.
 	self classWidget selectClass: class.
-	self hierarchyClass: class.
 	self resetPackagesList.
 	self resetClassesList.	

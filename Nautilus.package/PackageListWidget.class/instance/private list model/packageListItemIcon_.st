@@ -1,4 +1,5 @@
 packageListItemIcon: anItem
+
 	" I return the icon corresponding to anItem in the leftmost list "
 	^ self model showGroups
 		ifTrue: [ self model groupIconFor: anItem ]

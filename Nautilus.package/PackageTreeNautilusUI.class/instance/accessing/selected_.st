@@ -6,7 +6,6 @@ selected: aNode
 	(selections contains:[:each | (self isSelectedPackage:each) not]) ifFalse:[^ self].
 	
 	self clearPackageSelections.
-	self resetShowHierarchy.
 
 	selections do:[: each |  self selectedPackageWithoutChangingSelection: each].
 	

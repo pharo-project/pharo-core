@@ -7,7 +7,7 @@ dragPassengersFor: item inMorph: dragSource
 	object := item originalObject.
 	transferType == #getClassItem: ifTrue: [ 
 		self model showGroups 
-		ifTrue: [ self selectedGroup
+		ifTrue: [ self model selectedGroup
 								ifNil: [ ^ nil ]
 								ifNotNil: [:g | g isFillable ifFalse: [ ^ nil ]]]. 
 		^ self selectedClasses ifEmpty: [ { object } ] ].

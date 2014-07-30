@@ -1,2 +1,4 @@
 loadClassesListElements
-	^ self model loadList2
+	^ self showHierarchy
+		ifTrue: [ self cachedHierarchy sortedElements ]
+		ifFalse: [ self createClassHierarchyFor: self model selectedPackageGroup ]
