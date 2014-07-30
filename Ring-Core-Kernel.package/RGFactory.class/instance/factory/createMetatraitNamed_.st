@@ -1,3 +1,3 @@
 createMetatraitNamed: aSymbol
 
-	^self createInstanceOfClass: self metatraitClass named: aSymbol
+	^self createInstanceOfClass: RGMetatraitDefinition named: aSymbol

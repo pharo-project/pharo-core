@@ -9,6 +9,7 @@ codeMethod: selector block: block tempVars: vars primitive: primitive class: cla
 						ifFalse: [visibleTemps addLast: t] ].
 	arguments := visibleTemps copyFrom: 1 to: nArgs.
 	temporaries := visibleTemps copyFrom: nArgs + 1 to: visibleTemps size.
+	temporaries := temporaries reject: [ :e | e propertyAt: #hidden ifAbsent: false ].
 	methodNode := RBMethodNode 
 		selector: selector
 		arguments: arguments

@@ -1,3 +1,3 @@
 createComment
 
-	^self commentClass new
+	^RGCommentDefinition new

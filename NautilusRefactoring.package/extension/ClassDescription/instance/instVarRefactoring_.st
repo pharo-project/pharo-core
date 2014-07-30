@@ -24,11 +24,6 @@ instVarRefactoring: aBuilder
 		parent: #'Inst Var Refactoring';
 		order: 300.
 	
-	(aBuilder item: #'Accessors')
-		action: [ target refactor accessorsInstVarFrom: self ];
-		parent: #'Inst Var Refactoring';
-		order: 400.
-	
 	(aBuilder item: #'Move to class')
 		action: [ target refactor moveInstVarToClass: self ];
 		parent: #'Inst Var Refactoring';

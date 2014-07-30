@@ -1,3 +1,0 @@
-createInstVarAccessors
-
-	self createInstVarAccessorsOf: self selectedClass

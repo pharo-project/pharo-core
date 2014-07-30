@@ -12,13 +12,6 @@ buildAnalyzeSubMenu: aBuilder
 		action: [target browseInstVarDefs];
 		parent: #Analyze;
 		order: 100.
-
-	(aBuilder item: #'Create inst var accessors')
-		action: [target createInstVarAccessors];
-		parent: #Analyze;
-		enabledBlock: [ target selectedClass instVarNames isEmpty not ];
-		order: 200;
-		withSeparatorAfter.
 	
 	(aBuilder item: #'Create initializer with inst vars...')
 		action: [ target createInitializerWithInstVars ];

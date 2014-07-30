@@ -1,3 +1,3 @@
 createClassNamed: aSymbol
 
-	^self createInstanceOfClass: self classClass named: aSymbol
+	^self createInstanceOfClass: RGClassDefinition named: aSymbol

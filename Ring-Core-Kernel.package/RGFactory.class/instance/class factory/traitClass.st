@@ -1,3 +1,0 @@
-traitClass
-
-	^RGTraitDefinition

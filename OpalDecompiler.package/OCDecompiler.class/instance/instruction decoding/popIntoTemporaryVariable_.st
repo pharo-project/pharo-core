@@ -5,7 +5,7 @@ popIntoTemporaryVariable: offset
 	 and: [maybeTVTag key == #pushNewArray]) ifTrue:
 		[blockStartsToTempVars notNil "implies we were intialized with temp names."
 			ifTrue: "Use the provided temps"
-				[[(tempVector := tempVars at: offset + 1 ifAbsent: [ParseNode basicNew]) isTemp
+				[[(tempVector := tempVars at: offset + 1 ifAbsent: [RBProgramNode basicNew]) isTemp
 							 and: [tempVector isIndirectTempVector
 							 and: [tempVector remoteTemps size = maybeTVTag value size]]] assert]
 			ifFalse: "Synthesize some remote temps"

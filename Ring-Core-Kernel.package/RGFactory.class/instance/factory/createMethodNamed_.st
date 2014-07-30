@@ -1,3 +1,3 @@
 createMethodNamed: aSymbol
 
-	^self createInstanceOfClass: self methodClass named: aSymbol
+	^self createInstanceOfClass: RGMethodDefinition named: aSymbol

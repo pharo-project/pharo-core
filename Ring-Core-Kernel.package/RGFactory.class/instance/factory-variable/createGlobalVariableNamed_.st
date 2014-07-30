@@ -1,3 +1,3 @@
 createGlobalVariableNamed: aSymbol
 
-	^self createInstanceOfClass: self globalVariableClass named: aSymbol
+	^self createInstanceOfClass: RGGlobalVariableDefinition named: aSymbol

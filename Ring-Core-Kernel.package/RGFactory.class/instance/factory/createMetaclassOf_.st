@@ -1,3 +1,3 @@
 createMetaclassOf: aRGClassDefinition
 
-	^self metaclassClass class: aRGClassDefinition
+	^RGMetaclassDefinition class: aRGClassDefinition

@@ -1,3 +1,3 @@
 createTraitNamed: aSymbol
 
-	^self createInstanceOfClass: self traitClass named: aSymbol
+	^self createInstanceOfClass: RGTraitDefinition named: aSymbol

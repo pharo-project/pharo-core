@@ -1,3 +1,3 @@
 createInstanceVariableNamed: aSymbol
 
-	^self createInstanceOfClass: self instanceVariableClass named: aSymbol
+	^self createInstanceOfClass: RGInstanceVariableDefinition named: aSymbol

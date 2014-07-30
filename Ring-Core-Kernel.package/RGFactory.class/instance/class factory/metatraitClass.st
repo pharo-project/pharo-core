@@ -1,3 +1,0 @@
-metatraitClass
-
-	^RGMetatraitDefinition
