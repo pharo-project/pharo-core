@@ -1,2 +1,0 @@
-showInstanceVarsButtonLabel
-	^' I'	

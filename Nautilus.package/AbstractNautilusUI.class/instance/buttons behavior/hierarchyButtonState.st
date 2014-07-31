@@ -1,3 +1,3 @@
-toggleButtonState
+hierarchyButtonState
 
 	^ self showPackages not

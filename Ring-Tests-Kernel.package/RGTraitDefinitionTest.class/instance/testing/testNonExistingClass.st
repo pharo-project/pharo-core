@@ -1,7 +1,7 @@
 testNonExistingClass
 	| newClass |
 	
-	newClass:= RGFactory current createTraitNamed: #TConnection.
+	newClass:= RGTraitDefinition named:  #TConnection.
 	self assert: (newClass isTrait).
 	self assert: (newClass hasMetaclass not).
 	self assert: (newClass hasComment not).

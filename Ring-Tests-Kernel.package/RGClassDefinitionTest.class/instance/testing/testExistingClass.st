@@ -1,7 +1,7 @@
 testExistingClass
 	| newClass metaClass |
 	
-	newClass:= RGFactory current createClassNamed: #OrderedCollection.
+	newClass:= RGClassDefinition named:  #OrderedCollection.
 	self assert: (newClass isClass).
 	self assert: (newClass isDefined).
 	self assert: (newClass realClass = OrderedCollection).

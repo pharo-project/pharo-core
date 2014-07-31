@@ -6,7 +6,7 @@ testPoolDefinition
 	self assert: (pool users isEmpty).
 	self assert: (pool parent = Smalltalk globals).
 	
-	newClass:= RGFactory current createClassNamed: #OrderedCollection.
+	newClass:= RGClassDefinition named: #OrderedCollection.
 	pool addUser: newClass.
 	self assert: (pool users size = 1).
 	self assert: (pool includesUser: newClass).

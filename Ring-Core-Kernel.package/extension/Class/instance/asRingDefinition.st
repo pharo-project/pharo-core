@@ -3,7 +3,7 @@ asRingDefinition
 	Methods, superclasses, subclasses are not generated"
 	
 	| ring |
-	ring := (RGFactory current createClassNamed: self name)
+	ring := (RGClassDefinition named: self name)
 		category: self category;
 		superclassName: self superclass name;  
 		traitCompositionSource: self traitCompositionString;

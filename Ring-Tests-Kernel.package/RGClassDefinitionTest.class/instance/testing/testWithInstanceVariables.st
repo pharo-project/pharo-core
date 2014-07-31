@@ -1,7 +1,7 @@
 testWithInstanceVariables
 	| newClass instVar |
 	
-	newClass:= RGFactory current createClassNamed: #OrderedCollection.
+	newClass:= RGClassDefinition named: #OrderedCollection.
 	newClass addInstanceVariables: #(array firstIndex).
 	newClass addInstVarNamed: #lastIndex.
 	

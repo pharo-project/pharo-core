@@ -1,2 +1,0 @@
-showSourceCodeButtonLabel
-	^' S'

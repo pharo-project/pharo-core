@@ -1,7 +1,7 @@
 testWithCategory
 	| newClass |
 	
-	newClass:= (RGFactory current createClassNamed: #Object)
+	newClass:= (RGClassDefinition named:  #Object)
 						category: 'Kernel-Objects';
 						yourself.
 

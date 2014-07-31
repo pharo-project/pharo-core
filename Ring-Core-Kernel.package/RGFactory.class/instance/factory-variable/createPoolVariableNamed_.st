@@ -1,3 +1,3 @@
 createPoolVariableNamed: aSymbol
 
-	^self createInstanceOfClass: RGPoolVariableDefinition named: aSymbol
+	^RGPoolVariableDefinition named: aSymbol

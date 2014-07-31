@@ -19,6 +19,6 @@ showPackages: aBoolean
 	self model showPackages: aBoolean.
 	self changed: #groupsButtonLabel.
 	self updateBothView.
-	self changed: #toggleButtonState.
-	self changed: #toggleButtonLabel.
+	self changed: #hierarchyButtonState.
+	self changed: #hierarchyButtonLabel.
 	self changedLabels

@@ -10,7 +10,7 @@ buildFirstColumn: aWindow
 		addMorph: self buildGroupsButton 
 			fullFrame: ((0@0 corner: 0.5@1) asLayoutFrame 
 				rightOffset: -2);
-		addMorph: self buildToggleButton
+		addMorph: self buildHierarchyButton
 			fullFrame: ((0.5@0 corner: 1@1) asLayoutFrame
 				topLeftOffset: 2@0);
 		hResizing: #spaceFill;

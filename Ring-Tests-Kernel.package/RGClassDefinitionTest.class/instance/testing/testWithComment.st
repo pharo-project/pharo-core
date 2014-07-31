@@ -1,7 +1,7 @@
 testWithComment
 	| newClass newComment |
 	
-	newClass:= RGFactory current createClassNamed: #Object.
+	newClass:= RGClassDefinition named: #Object.
 	newComment:= RGFactory current createComment
 						parent: newClass;
 						content: 'This is a comment for test';

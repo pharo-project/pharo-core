@@ -1,7 +1,7 @@
 testNonExistingClass
 	| newClass |
 	
-	newClass:= RGFactory current createClassNamed: #Connection.
+	newClass:= RGClassDefinition named:  #Connection.
 	self assert: (newClass isClass).
 	self assert: (newClass instanceVariables isEmpty).
 	self assert: (newClass classVariables isEmpty).

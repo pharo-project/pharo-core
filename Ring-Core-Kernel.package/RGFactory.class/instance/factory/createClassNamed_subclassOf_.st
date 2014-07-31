@@ -1,3 +1,3 @@
 createClassNamed: aSymbol subclassOf: aRGClassDefinition
 
-	^(self createClassNamed: aSymbol) superclass: aRGClassDefinition
+	^(RGClassDefinition named: aSymbol) superclass: aRGClassDefinition

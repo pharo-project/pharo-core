@@ -1,7 +1,7 @@
 asRingDefinition
 	| ring |
 
-	ring:= (RGFactory current createClassNamed: self className)
+	ring:= (RGClassDefinition named:  self className)
 		category: self category;
 		superclassName: self superclassName;  
 		traitCompositionSource: self traitCompositionString;

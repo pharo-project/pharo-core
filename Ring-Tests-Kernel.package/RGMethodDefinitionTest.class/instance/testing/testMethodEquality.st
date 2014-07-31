@@ -8,7 +8,7 @@ testMethodEquality
 						^0'.
 	self assert: ((OrderedCollection>>#size) asRingDefinition = newMethod).
 	
-	newClass:= RGFactory current createClassNamed: #OrderedCollection.
+	newClass:= RGClassDefinition named: #OrderedCollection.
 	newMethod:= (RGFactory current createMethodNamed: #size parent: newClass).
 	self assert: ((OrderedCollection>>#size) asRingDefinition = newMethod).
 	

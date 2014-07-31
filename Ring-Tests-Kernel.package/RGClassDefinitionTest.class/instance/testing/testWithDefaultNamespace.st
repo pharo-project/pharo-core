@@ -1,7 +1,7 @@
 testWithDefaultNamespace
 	| newClass |
 	
-	newClass:= RGFactory current createClassNamed: #Object.
+	newClass:= RGClassDefinition named:  #Object.
 
 	self assert: (newClass parent = Smalltalk globals).
 	self assert: (newClass realClass = Object).

@@ -1,7 +1,7 @@
 testAddingMethods
 	| newMethod newClass |
 	
-	newClass:= RGFactory current createTraitNamed: #TSortable.
+	newClass:= RGTraitDefinition named:  #TSortable.
 	newMethod:= (RGFactory current createMethodNamed: #sort parent: newClass)
 					protocol: 'sorting'; 
 					sourceCode: 'sort

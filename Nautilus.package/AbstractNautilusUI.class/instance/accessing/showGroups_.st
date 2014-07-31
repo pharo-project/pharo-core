@@ -34,6 +34,6 @@ showGroups: aBoolean
 
 	self model showGroups: aBoolean.
 	self changed: #groupsButtonLabel.
-	self changed: #toggleButtonLabel.
+	self changed: #hierarchyButtonLabel.
 	self changedLabels.
 	self updateBothView

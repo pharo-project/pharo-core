@@ -16,6 +16,6 @@ showPackages: aBoolean
 
 	self changed: #groupsButtonLabel.
 	self updateClassView.
-	self changed: #toggleButtonState.
-	self changed: #toggleButtonLabel.
+	self changed: #hierarchyButtonState.
+	self changed: #hierarchyButtonLabel.
 	self changedLabels.

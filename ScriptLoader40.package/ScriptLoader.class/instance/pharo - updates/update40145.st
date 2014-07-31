@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '13743 tiny clean in AnnounceMentTests
+update40145
+	"self new update40145"
+	self withUpdateLog: '13743 tiny clean in AnnounceMentTests
 	https://pharo.fogbugz.com/f/cases/13743
 
 13739 Nautilus Refactoring 5: intermediate code cleanup  (remove unused methods)
@@ -11,4 +12,7 @@ commentForCurrentUpdate
 13741 Another small Ring refactoring
 	https://pharo.fogbugz.com/f/cases/13741
 
-'
+'.
+	self loadTogether: self script145 merge: false.
+	self flushCaches.
+self cleanRepositories.

@@ -1,7 +1,7 @@
 testWithSuperclass
-	| newClass supClass classVar |
+	| newClass supClass  |
 	
-	supClass:= (RGFactory current createClassNamed: #Object)
+	supClass:= (RGClassDefinition named:  #Object)
 						superclassName: #ProtoObject;
 						yourself.
 

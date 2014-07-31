@@ -1,7 +1,7 @@
 testWithClassVariables
 	| newClass classVar |
 	
-	newClass:= (RGFactory current createClassNamed: #Object)
+	newClass:= (RGClassDefinition named: #Object)
 						addClassVariables: #(DependentsFields);
 						addClassVarNamed: #FakeVariable;
 						yourself.

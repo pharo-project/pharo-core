@@ -1,4 +1,4 @@
-toggleButtonLabel
+hierarchyButtonLabel
 
 	^ self showPackages
 		ifTrue: [ 'Hierarchy' ]

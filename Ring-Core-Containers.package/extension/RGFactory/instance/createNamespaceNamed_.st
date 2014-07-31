@@ -1,3 +1,3 @@
 createNamespaceNamed: aString
 
-	^self createInstanceOfClass: RGNamespace named: aString
+	^RGNamespace named: aString

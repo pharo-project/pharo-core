@@ -1,3 +1,0 @@
-cachedHierarchy
-	
-	^ self classWidget cachedHierarchy

@@ -3,7 +3,7 @@ testAddingClasses
 	
 	newSlice:= RGSlice named: 'Foo'.
 	newClass:= RGFactory current createClassNamed: #OrderedCollection.
-	newTrait:= RGFactory current createTraitNamed: #TSortable.
+	newTrait:=  RGTraitDefinition named: #TSortable.
 	
 	newSlice addClassNamed: #SortedCollection;
 			 addClass: newClass;

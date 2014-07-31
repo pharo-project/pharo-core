@@ -1,7 +1,7 @@
 testWithPoolDictionaries
 	| newClass poolVar |
 	
-	newClass:= (RGFactory current createClassNamed: #Text)
+	newClass:= (RGClassDefinition named:  #Text)
 						addSharedPoolNamed: #TextConstants;
 						yourself.
 

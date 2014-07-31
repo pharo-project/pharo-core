@@ -13,7 +13,7 @@ testExtensionMethod
 	
 	newPackage := RGFactory current createPackageNamed: #Package.
 	newPackageExt := RGFactory current createPackageNamed: #PackageExtensions.
-	newClass := RGFactory current createClassNamed: #Class.
+	newClass := RGClassDefinition named: #Class.
 	newMethod := RGFactory current createMethodNamed: #foo parent: newClass.
 	newPackage addClass: newClass.
 	newMethod package: newPackageExt.

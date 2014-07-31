@@ -1,7 +1,7 @@
 testExistingTrait
 	| newClass metaClass |
 	
-	newClass:= RGFactory current createTraitNamed: #TSortable.
+	newClass:= RGTraitDefinition named:  #TSortable.
 	self assert: (newClass isTrait).
 	self assert: (newClass isDefined).
 	self assert: (newClass realClass = TSortable).

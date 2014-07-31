@@ -1,7 +1,7 @@
 testWithClassInstanceVariables
 	| newClass metaClass classInstVar |
 	
-	newClass:= RGFactory current createClassNamed: #HashTableSizes.
+	newClass:= RGClassDefinition named:  #HashTableSizes.
 	newClass withMetaclass.
 	metaClass:= newClass theMetaClass.
 	metaClass addInstanceVariables: #(sizes).
