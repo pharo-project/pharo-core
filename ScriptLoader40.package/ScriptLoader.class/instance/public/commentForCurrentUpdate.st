@@ -1,14 +1,11 @@
 commentForCurrentUpdate
- ^ '13743 tiny clean in AnnounceMentTests
-	https://pharo.fogbugz.com/f/cases/13743
+ ^ '13737 Little MenuMorph cleaning up
+	https://pharo.fogbugz.com/f/cases/13737
 
-13739 Nautilus Refactoring 5: intermediate code cleanup  (remove unused methods)
-	https://pharo.fogbugz.com/f/cases/13739
+13746 repackaging a simple problem with buttonToTriggerIn:
+	https://pharo.fogbugz.com/f/cases/13746
 
-13693 Monticello Settings --> move to Monticello
-	https://pharo.fogbugz.com/f/cases/13693
-
-13741 Another small Ring refactoring
-	https://pharo.fogbugz.com/f/cases/13741
+13745 Cleaning polymorph again
+	https://pharo.fogbugz.com/f/cases/13745
 
 '
