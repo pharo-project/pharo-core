@@ -9,3 +9,4 @@ recompile: selector from: oldClass
 				translate.
 	selector == methodNode selector ifFalse: [self error: 'selector changed!'].
 	self basicAddSelector: selector withMethod: (methodNode generate: method trailer).
+	self notifyUsersOfChangedSelector: selector.

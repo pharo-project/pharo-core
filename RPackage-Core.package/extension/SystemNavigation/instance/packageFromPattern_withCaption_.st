@@ -12,10 +12,10 @@ packageFromPattern: pattern withCaption: aCaption
 			(Character tab)}) isEmpty
 		ifTrue: [ ^ nil ].
 	
-	self packageOrganizerClass default packageNamed: toMatch ifAbsent: [ nil ].
+	RPackageOrganizer default packageNamed: toMatch ifAbsent: [ nil ].
 	
 	toMatch := (toMatch copyWithout: $.) asLowercase.
-	potentialPackageNames := (self packageOrganizerClass default packages collect: [:each | each name]) asOrderedCollection.
+	potentialPackageNames := (RPackageOrganizer default packages collect: [:each | each name]) asOrderedCollection.
 	packageNames := pattern last = $.
 		ifTrue: [ potentialPackageNames select: [ :nm | nm asLowercase = toMatch ] ]
 		ifFalse: [ potentialPackageNames select: [ :n | n includesSubstring: toMatch caseSensitive: false ] ].
@@ -32,7 +32,7 @@ packageFromPattern: pattern withCaption: aCaption
 					UIManager default chooseFrom: packageNames lines: #(1) title: aCaption ] ].
 	index = 0
 		ifTrue: [ ^ nil ].
-	^ self packageOrganizerClass default packageNamed: (packageNames at: index)"
+	^ RPackageOrganizer default packageNamed: (packageNames at: index)"
 	self default packageFromPattern: 'Nau' withCaption: ''
 	self default packageFromPattern: 'orph' withCaption: ''
 	self default packageFromPattern: 'TCompil' withCaption: ''

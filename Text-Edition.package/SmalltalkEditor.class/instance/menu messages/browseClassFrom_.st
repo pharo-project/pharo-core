@@ -9,4 +9,4 @@ browseClassFrom: aClassString
 				
 	selectedClass isNil ifTrue: [^ self internalCallToImplementorsOf: aClassString ].
 	
-	model systemNavigation browseClass: selectedClass .
+	Smalltalk tools browser fullOnClass: selectedClass .

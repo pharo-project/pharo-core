@@ -1,3 +1,3 @@
 browse
 
-	^ self systemNavigation browseClass: self
+	^  Smalltalk tools browser fullOnClass: self

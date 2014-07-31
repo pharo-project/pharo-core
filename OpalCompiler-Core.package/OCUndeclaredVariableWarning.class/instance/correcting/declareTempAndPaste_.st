@@ -31,6 +31,4 @@ declareTempAndPaste: name
 			wordInterval: (tempsMark to: tempsMark-1)
 			offset: 0) - delta.
 	self methodNode scope addTemp: name.
-	^ (node owningScope lookupVar: node name)
-		ifNil: [self error: 'should not happen']
-	
+	^ self lookUpVariable

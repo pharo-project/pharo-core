@@ -12,7 +12,7 @@ selectMessageAndEvaluate: aBlock
 		ifTrue:
 			[^ aBlock value: selector].  "If only one item, there is no choice"
 
-	self systemNavigation 
+	self
 		showMenuOf: messages
 		withFirstItem: selector
 		ifChosenDo: [:sel | aBlock value: sel]

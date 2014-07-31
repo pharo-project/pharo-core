@@ -6,4 +6,4 @@ internalCallToBrowse: aSelector
 				classFromPattern: aSelector
 				withCaption: 'choose a class to browse...'.
 	aClass ifNil: [^ self].
-	model systemNavigation browseClass: aClass .
+	Smalltalk tools browser fullOnClass: aClass.
