@@ -1,4 +1,4 @@
 toDoLimit: variable
-	(receiver = variable and: [selector = #<= or: [selector key = #>=]]) 
-		ifTrue: [^ arguments first]
-		ifFalse: [^ nil]
+	(receiver = variable and: [selector == #<= or: [selector == #>= ]]) 
+		ifTrue: [ ^ arguments first ]
+		ifFalse: [ ^ nil ]

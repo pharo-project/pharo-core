@@ -3,7 +3,7 @@ toDoFromWhileWithInit: initStmt
 	| variable increment limit toDoBlock body test  |
 	(selector == #whileTrue:
 	 and: [initStmt isAssignment
-	 and: [initStmt variable isTemp]]) ifFalse:
+	 and: [initStmt variable isMemberOf: RBTemporaryNode]]) ifFalse:
 		[^nil].
 	body := arguments last statements.
 	variable := initStmt variable.

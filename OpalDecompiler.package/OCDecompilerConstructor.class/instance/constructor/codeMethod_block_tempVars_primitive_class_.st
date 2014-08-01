@@ -3,7 +3,7 @@ codeMethod: selector block: block tempVars: vars primitive: primitive class: cla
 	| methodNode visibleTemps arguments temporaries |
 	tempVars := vars.
 	visibleTemps := OrderedCollection new.
-	tempVars do: [:t|
+	tempVars do: [ :t |
 				   t isIndirectTempVector
 						ifTrue: [ t remoteTemps do: [ :remote | visibleTemps addLast: remote ] ]
 						ifFalse: [visibleTemps addLast: t] ].
@@ -15,10 +15,7 @@ codeMethod: selector block: block tempVars: vars primitive: primitive class: cla
 		arguments: arguments
 		body: block body.
 	methodNode body temporaries: temporaries.
-	primitive > 0 ifTrue: [ 
-		methodNode pragmas: (methodNode pragmas asOrderedCollection  
-			add: (RBPragmaNode selectorParts: #(primitive:) arguments: {RBLiteralNode value: primitive}); 
-			yourself) ].
+	methodNode pragmas: (self pragmasForMethod: primitive).
 	methodNode properties: method properties copy.
 	methodNode properties method: methodNode.
 	^methodNode

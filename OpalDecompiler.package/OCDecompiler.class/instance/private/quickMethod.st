@@ -1,5 +1,4 @@
 quickMethod
-	| |
 	method isReturnSpecial
 		ifTrue: [^ constructor codeBlock:
 				(Array with: (constTable at: method primitive - 255)) returns: true].

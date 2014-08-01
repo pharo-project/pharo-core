@@ -1,14 +1,8 @@
 commentForCurrentUpdate
- ^ '13747 EventHandlerPlus -> MouseOverEventHandler
-	https://pharo.fogbugz.com/f/cases/13747
+ ^ '13751 OpalDecompiler missdecompile named primitives
+	https://pharo.fogbugz.com/f/cases/13751
 
-13749 SimpleBallonMorph has just one initialize and one user :)
-	https://pharo.fogbugz.com/f/cases/13749
-
-13744 Move to raises a DNU 
-	https://pharo.fogbugz.com/f/cases/13744
-	
-13748 MoveFullScreenTo Morphi-Widgets-Windows since this is its only user
-	https://pharo.fogbugz.com/f/cases/13748	
+13750 OpalDecompiler raises errors in rare cases when decompiling to:do: and to:by:do:
+	https://pharo.fogbugz.com/f/cases/13750
 
 '
