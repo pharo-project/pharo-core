@@ -11,8 +11,5 @@ moveInNewPackage: aCollection
 	newName := newName asSymbol.
 
 	item := self browsedEnvironment packageOrganizer packageNamed: newName.
-	aCollection do: [:aClass |
-		aPackage removeClass: aClass.
-		item addClassDefinition: aClass.
-		aClass category: item name ].
+	aCollection do: [:aClass | aClass category: item name ].
 	^ item

@@ -1,5 +1,5 @@
-EventHandler subclass: #EventHandlerPlus
+EventHandler subclass: #MouseOverEventHandler
 	instanceVariableNames: 'mouseOverRecipient mouseOverSelector'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Polymorph-Widgets'
+	category: 'Morphic-Widgets-Windows-Widgets'

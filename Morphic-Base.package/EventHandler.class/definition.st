@@ -2,4 +2,4 @@ Object subclass: #EventHandler
 	instanceVariableNames: 'mouseDownRecipient mouseDownSelector mouseMoveRecipient mouseMoveSelector mouseStillDownRecipient mouseStillDownSelector mouseUpRecipient mouseUpSelector mouseEnterRecipient mouseEnterSelector mouseLeaveRecipient mouseLeaveSelector mouseEnterDraggingRecipient mouseEnterDraggingSelector mouseLeaveDraggingRecipient mouseLeaveDraggingSelector keyStrokeRecipient keyStrokeSelector valueParameter startDragRecipient startDragSelector doubleClickSelector doubleClickRecipient doubleClickTimeoutSelector doubleClickTimeoutRecipient clickSelector clickRecipient'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Polymorph-Widgets'
+	category: 'Morphic-Base-Events'

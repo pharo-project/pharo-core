@@ -2,4 +2,4 @@ BalloonMorph subclass: #SimpleBalloonMorph
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Polymorph-Widgets'
+	category: 'Morphic-Base-Widgets'
