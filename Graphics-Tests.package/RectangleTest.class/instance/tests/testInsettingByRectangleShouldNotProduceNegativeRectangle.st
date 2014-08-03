@@ -9,7 +9,6 @@ testInsettingByRectangleShouldNotProduceNegativeRectangle
 	self assert: rec2 top = 2. 
 	self assert: rec2 bottom = 190. 
 	
-	
 	rec1 := 0@0 extent: 100@200.
 	rec2 := rec1 insetBy: (46@2 rectangle: 55@10).
 	

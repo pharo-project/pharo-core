@@ -1,5 +1,5 @@
-left: leftNumber right: rightNumber top: topNumber bottom: bottomNumber 
+left: left right: right top: top bottom: bottom 
 	"Answer an instance of me whose left, right, top, and bottom coordinates 
 	are determined by the arguments."
 
-	^ self basicNew setOrigin: leftNumber @ topNumber corner: rightNumber @ bottomNumber
+	^ self basicNew setLeft: left right: right top: top bottom: bottom 

@@ -3,5 +3,5 @@ origin: originPoint extent: extentPoint
 
 	
 	^self basicNew 
-		setOrigin: originPoint 
-		corner: (originPoint x+ (extentPoint x max: 0)) @ (originPoint y + (extentPoint y max: 0)).
+		setPoint: originPoint 
+		point: (originPoint x+ (extentPoint x max: 0)) @ (originPoint y + (extentPoint y max: 0)).
