@@ -6,4 +6,4 @@ mergeGroups
 		ifNotNil: [ 
 			self groupsManager addAGroup: group.
 			self selectedGroup: group.
-			self updateBothView]
+			self updatePackageGroupAndClassList]

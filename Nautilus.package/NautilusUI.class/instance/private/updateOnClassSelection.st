@@ -3,7 +3,7 @@ updateOnClassSelection
 	self setWindowTitle.
 	self resetCategoriesListSelection.
 	self resetMethodsListSelection.
-	self update.
+	self updateCategoryAndMethodList.
 	self changed: #isAClassSelected.
 	self changed: #getComments.
 	self changed: #instanceButtonLabel.

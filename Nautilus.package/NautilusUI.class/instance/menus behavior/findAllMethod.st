@@ -16,6 +16,6 @@ findAllMethod
 	self categoryWidget selectProtocol: foundMethod category.
  	self model package: class package class: class category: foundMethod protocol method: foundMethod.
 	
-	self updateBothView.
-	self update.
+	self updatePackageGroupAndClassList.
+	self updateCategoryAndMethodList.
 	self changed: #sourceCodeFrom:

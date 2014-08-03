@@ -15,6 +15,6 @@ findProtocol
 	self categoryWidget selectProtocol: foundProtocol.
  	self model package: class package class: class category: foundProtocol method: nil.
 	
-	self updateBothView.
-	self update.
+	self updatePackageGroupAndClassList.
+	self updateCategoryAndMethodList.
 	self changed: #sourceCodeFrom:

@@ -1,4 +1,4 @@
-update
+updateCategoryAndMethodList
 
 	categoryWidget resetCategoryCache.
 	methodWidget 

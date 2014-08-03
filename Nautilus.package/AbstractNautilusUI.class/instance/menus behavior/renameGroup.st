@@ -6,4 +6,4 @@ renameGroup
 	[self groupsManager renameAGroup: group ]
 		on: GroupAlreadyExists 
 		do:[ :ex | self alertGroupExisting: ex groupName ].
-	self updateBothView
+	self updatePackageGroupAndClassList

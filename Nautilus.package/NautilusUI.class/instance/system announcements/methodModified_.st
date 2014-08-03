@@ -24,11 +24,11 @@ methodModified: anAnnouncement
 						ifTrue: [ | sourceCode |
 							sourceCode := sourceTextArea text.
 							self forceSelectedMethod: method.
-							self update.
+							self updateCategoryAndMethodList.
 							self highlightCategory: method.
 							sourceTextArea setText: sourceCode.
 							sourceTextArea hasEditingConflicts: true.
 							sourceTextArea update: #codeChangedElsewhere ]
 						ifFalse: [
 							self selectedMethod: method.
-							self update ]]]
+							self updateCategoryAndMethodList ]]]

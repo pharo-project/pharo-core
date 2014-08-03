@@ -36,4 +36,4 @@ showGroups: aBoolean
 	self changed: #groupsButtonLabel.
 	self changed: #hierarchyButtonLabel.
 	self changedLabels.
-	self updateBothView
+	self updatePackageGroupAndClassList

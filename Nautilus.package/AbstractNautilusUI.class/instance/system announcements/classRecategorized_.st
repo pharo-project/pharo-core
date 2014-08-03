@@ -5,4 +5,4 @@ classRecategorized: anAnnouncement
 	self selectedPackage ifNotNil:[:selection |
 	({ anAnnouncement oldCategory. anAnnouncement newCategory }
 		anySatisfy: [ :each | selection includesCategory: each ])
-			ifTrue: [ self updateBothView ]]
+			ifTrue: [ self updatePackageGroupAndClassList ]]

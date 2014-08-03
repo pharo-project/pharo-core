@@ -12,6 +12,6 @@ selectedPackageWithoutChangingSelection: aSelection
 		aSelection registerSelectionTarget: self ].
 	
 	self updateClassView.
-	self update.	
+	self updateCategoryAndMethodList.	
 	self changed: #getComments.
 	self changed: #sourceCodeFrom:.

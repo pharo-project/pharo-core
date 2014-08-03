@@ -14,4 +14,4 @@ generateTestMethodsAndFocus: aBoolean
 			self selectedCategory: 'tests'.
 			methodWidget selectMethod: focus.
 			self selectedMethod: focus.
-			self updateBothView ]
+			self updatePackageGroupAndClassList ]

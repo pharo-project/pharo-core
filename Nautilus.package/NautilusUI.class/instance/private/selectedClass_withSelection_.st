@@ -6,4 +6,4 @@ selectedClass: aClass withSelection: aPackage
 		method: nil.
 	self packageWidget resetPackagesSelection.
 	self packageWidget selectPackage: aPackage.
-	self updateBothView
+	self updatePackageGroupAndClassList

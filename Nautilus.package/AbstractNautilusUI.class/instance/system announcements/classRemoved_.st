@@ -13,5 +13,5 @@ classRemoved: anAnnouncement
 				window isDisplayed ifFalse: [ ^ self ].
 				oldPackage := RPackageOrganizer default packageMatchingExtensionName: (anAnnouncement categoryName).
 				self removeFromPackagesIconsCache: oldPackage.
-				self updateBothView ].
+				self updatePackageGroupAndClassList ].
 	

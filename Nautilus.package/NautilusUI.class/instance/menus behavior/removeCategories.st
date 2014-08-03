@@ -9,8 +9,8 @@ removeCategories
 					items do: [:item || needToUpdate |
 						needToUpdate := self removeCategory: item inClass: class.
 						(needToUpdate and: [ removeACategory not ]) ifTrue: [ removeACategory := true].
-						needToUpdate ifTrue: [ self update ]].
+						needToUpdate ifTrue: [ self updateCategoryAndMethodList ]].
 
 					removeACategory ifTrue: [ self selectedCategory: nil ].
-					self update.
+					self updateCategoryAndMethodList.
 					categoryWidget vScrollValue: scroll. ]]

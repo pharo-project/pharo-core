@@ -1,4 +1,4 @@
-updateBothView
+updatePackageGroupAndClassList
 
 	self resetPackagesList.
 	self resetClassesList.

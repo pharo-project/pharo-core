@@ -1,5 +1,5 @@
 selectedClass: aClass
-	self okToChangeBoth
+	self okToChangeSourceAndComment
 		ifFalse: [ ^ self ].
 	self resetClassesListSelection.
 	aClass ifNotNil: [ self giveFocusTo: self classWidget ].

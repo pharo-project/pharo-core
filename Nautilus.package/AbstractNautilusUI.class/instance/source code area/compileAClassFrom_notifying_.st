@@ -8,4 +8,4 @@ compileAClassFrom: aString notifying: aController
 			self selectedClass: class.
 			self showGroups
 				ifTrue: [ self updateClassView ]
-				ifFalse: [ self updateBothView ]]
+				ifFalse: [ self updatePackageGroupAndClassList ]]

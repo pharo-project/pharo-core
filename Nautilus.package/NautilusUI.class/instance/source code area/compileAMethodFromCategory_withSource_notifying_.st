@@ -20,5 +20,5 @@ compileAMethodFromCategory: aCategory withSource: aString notifying: aController
 	( self selectedMethod notNil and: [(self selectedClass = class) and: [ self selectedMethod selector = selector]])
 		ifFalse: [
 			self selectedMethod: method.
-			self update.
+			self updateCategoryAndMethodList.
 			sourceTextArea vScrollValue: scroll.]

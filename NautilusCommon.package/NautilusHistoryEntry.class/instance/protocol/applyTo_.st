@@ -33,10 +33,10 @@ applyTo: aNautilus
 			selectedClassWithoutChangingSelectionInternally: cl;
 			selectedCategoryInternally: self selectedCategory.
 
-		interface updateBothView.
+		interface updatePackageGroupAndClassList.
 			
 		self selectedMethod
 			ifNil: [ interface selectedMethod: nil ]
 			ifNotNil: [:sel | interface selectedMethod: (cl compiledMethodAt: sel ifAbsent: [ nil ])].
 
-		interface update ].
+		interface updateCategoryAndMethodList ].

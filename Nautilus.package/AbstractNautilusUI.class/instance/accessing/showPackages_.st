@@ -18,7 +18,7 @@ showPackages: aBoolean
 	self resetClassesList.
 	self model showPackages: aBoolean.
 	self changed: #groupsButtonLabel.
-	self updateBothView.
+	self updatePackageGroupAndClassList.
 	self changed: #hierarchyButtonState.
 	self changed: #hierarchyButtonLabel.
 	self changedLabels

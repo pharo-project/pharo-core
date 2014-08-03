@@ -3,6 +3,7 @@ basicShowHierarchy
 	| class |
 			
 	class := self selectedClass theNonMetaClass.
+	self resetClassesListSelection.
 	self classWidget selectClass: class.
 	self resetPackagesList.
 	self resetClassesList.	

@@ -13,5 +13,5 @@ addCategory
 	self selectedCategory: newName.
 	newName ifNil: [ ^ self ].
 	self 
-		update;
+		updateCategoryAndMethodList;
 		giveFocusToSourceCode.

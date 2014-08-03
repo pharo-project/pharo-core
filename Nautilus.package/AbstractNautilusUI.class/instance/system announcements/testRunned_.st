@@ -13,4 +13,4 @@ testRunned: anAnnouncement
 			self removeClassFromMethodsIconsCache: class.
 			self removeClassFromMethodsIconsCache: correspondingClass.
 			self updateClassView.
-			self update ].
+			self updateCategoryAndMethodList ].

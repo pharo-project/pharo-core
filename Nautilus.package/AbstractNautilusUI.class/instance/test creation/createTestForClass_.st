@@ -21,5 +21,5 @@ createTestForClass: aClass
 	self showGroups: false.
 	self selectedPackage: (self parentOfClass: testClass).
 	self selectedClass: testClass.
-	self updateBothView.
+	self updatePackageGroupAndClassList.
 	^ testClass

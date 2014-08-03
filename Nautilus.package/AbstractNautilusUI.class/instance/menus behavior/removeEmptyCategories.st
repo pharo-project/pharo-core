@@ -6,4 +6,4 @@ removeEmptyCategories
 		
 	self removeEmptyCategoriesFrom: self selectedClass.
 	
-	self update.
+	self updateCategoryAndMethodList.

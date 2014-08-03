@@ -24,8 +24,8 @@ implementSelector: aSelector
 		category: category
 		method: method.
 		
-	self update.
-	self updateBothView.
+	self updateCategoryAndMethodList.
+	self updatePackageGroupAndClassList.
 	self changed: #sourceCodeFrom:.
 	self giveFocusTo: sourceTextArea.
 	head

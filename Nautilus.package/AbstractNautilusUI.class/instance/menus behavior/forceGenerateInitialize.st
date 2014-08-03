@@ -14,6 +14,6 @@ forceGenerateInitialize
 				code := self buildInitializeCodeFor: class.
 				class compile: code classified: 'initialization' .
 				self selectedMethod: (class>>#initialize) ].
-		self update.
+		self updateCategoryAndMethodList.
 		self giveFocusTo: sourceTextArea.
 		sourceTextArea selectFrom: index+class name size to: index-1+class name size ].

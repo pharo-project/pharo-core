@@ -15,6 +15,6 @@ methodRemoved: anAnnouncement
 				ifTrue: [ "Should update class icon"
 					ClassesIconsCache removeKey: method methodClass ifAbsent: [].
 					self updateClassView ].
-			self update.
+			self updateCategoryAndMethodList.
 			(method methodClass isMeta and: [ method methodClass hasMethods not ])
 				ifTrue: [ self changed: #instanceButtonLabel ] ]

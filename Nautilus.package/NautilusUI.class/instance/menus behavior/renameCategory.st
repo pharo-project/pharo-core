@@ -13,5 +13,5 @@ renameCategory
 	categoryWidget deselectProtocol: category.
 	self selectedCategory: newName.
 	categoryWidget selectProtocol: newName.
-	self update.
+	self updateCategoryAndMethodList.
 	categoryWidget vScrollValue: vScroll

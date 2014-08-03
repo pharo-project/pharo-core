@@ -17,4 +17,4 @@ dropInAPackage: aCollection into: receiver
 					ifFalse:[
 						self selectedPackage: receiver.
 						self selectedClass: aClass.
-						self updateBothView ]]]
+						self updatePackageGroupAndClassList ]]]

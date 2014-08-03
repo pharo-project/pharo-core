@@ -1,11 +1,10 @@
 moveMethodToPackage
 	"Search for a package from a pattern or from the recent list"	
 	
-	| packagesList  |	
+	| foundPackage  |	
 	self okToChange ifFalse: [^ self flashPackage ].
-	packagesList := self model packages collect: [:each | each name ].
-	
-	self moveMethodsToPackage: self selectedMethods in: packagesList  from: self selectedPackage.
-
+	foundPackage := SearchFacade rPackageSearch chooseFromOwner: self window.
+	foundPackage ifNil: [ ^self ].
+	self selectedMethods do: [ :each | self moveMethod: each inPackage: foundPackage ].
 	self update.
 		

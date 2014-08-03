@@ -57,7 +57,7 @@ classesMenu: aBuilder
 		
 	(aBuilder item: #'Move to package...')
 		keyText: 'm, c' if: Nautilus useOldStyleKeys not;
-		action: [ target moveInNewPackage ];
+		action: [ target moveInPackage ];
 		order: 1400.	
 			
 	(aBuilder item: #'Copy...')

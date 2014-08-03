@@ -8,6 +8,6 @@ selectedPackageWithoutChangingSelectionInternally: aPackage
 	aPackage ifNotNil: [ self giveFocusTo: self packageWidget ].
 	
 	self updateClassView.
-	self update.
+	self updateCategoryAndMethodList.
 	self changed: #getComments.
 	self changed: #sourceCodeFrom:

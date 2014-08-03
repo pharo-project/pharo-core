@@ -18,11 +18,11 @@ selectedClassWithoutChangingSelectionInternally: aClass
 			self packageWidget selectPackage: package.
 			self showGroups
 				ifTrue: [ self updateClassView ]
-				ifFalse: [ self updateBothView ] ].
+				ifFalse: [ self updatePackageGroupAndClassList ] ].
 			
 		self resetCategoriesListSelection.
 		self resetMethodsListSelection.
-		self update.
+		self updateCategoryAndMethodList.
 		self changed: #isAClassSelected.
 		self changed: #getComments.
 		self changed: #sourceCodeFrom:

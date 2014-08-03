@@ -9,4 +9,4 @@ aGroupHasBeenRemoved: anAnnouncement
 			self selectedGroup = anAnnouncement group
 				ifTrue: [ self selectedGroup: nil ].
 			self updateGroupView.
-			self update ]
+			self updateCategoryAndMethodList ]

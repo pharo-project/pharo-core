@@ -2,15 +2,8 @@ findPackage
 
 	"Search for a package from a pattern or from the recent list"
 	| foundPackage |
-	self okToChange ifFalse: [^ self ].
-
-	"packagesList := (self model recentClasses elements collect: [:each | each package name]) asSet asArray sort.
-
-	foundPackage := self findPackageIn: packagesList.
-	foundPackage ifNil: [ ^ self ].
-	self selectedPackage = foundPackage ifTrue: [ ^ self ]."
-	
+	self okToChange ifFalse: [^ self ].	
 	foundPackage := SearchFacade rPackageSearch chooseFromOwner: self window.
-	
+	foundPackage ifNil: [ ^self ].
 	self selectedPackage: foundPackage.
 	self updatePackageViewAndMove.

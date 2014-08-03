@@ -11,6 +11,6 @@ showInstance: aBoolean
 								acceptor := ClassOrMethodDefinitionAcceptor model: self ]
 						ifFalse: [self selectedClass: class theMetaClass.
 								acceptor := ClassDefinitionAcceptor model: self ]].
-			self update.
+			self updateCategoryAndMethodList.
 			self changed: #instanceButtonState.
 			self changed: #instanceButtonLabel ]

@@ -13,7 +13,7 @@ protocolSelected: anAnnouncement
 										Nautilus openOnCategory: protocol ofClass: self model selectedClass ]
 									ifFalse: [
 										model ui selectedCategory: protocol.
-										model ui update ]].
+										model ui updateCategoryAndMethod ]].
 	protocolButton
 		label: protocol asString;
 		height: 25.

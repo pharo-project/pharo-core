@@ -6,5 +6,5 @@ removeMethod: aMethod inClass: aClass
 	| result |
 	self okToChange ifFalse: [^ false].
 	result := super removeMethod: aMethod inClass: aClass.
-	result ifTrue: [ self update ].
+	result ifTrue: [ self updateCategoryAndMethodList ].
 	^result

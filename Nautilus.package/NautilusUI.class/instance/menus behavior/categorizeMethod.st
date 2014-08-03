@@ -8,4 +8,4 @@ categorizeMethod
 
 	self categorizeMethods: aCollection of: aClass from: aCollection first category.
 
-	self update.
+	self updateCategoryAndMethodList.

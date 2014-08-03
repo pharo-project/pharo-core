@@ -10,5 +10,5 @@ buildRecategorizeShortcutsOn: aBuilder
 	(aBuilder shortcut: #recategorizeClass)
 		category: #NautilusGlobalShortcuts
 		default: $m command , $c command 
-		do: [ :target | target moveInNewPackage ]
+		do: [ :target | target moveInPackage ]
 		description: 'Categorize the selected class'.
