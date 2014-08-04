@@ -1,0 +1,1 @@
+A DegeneratedRectangle is xxxxxxxxx.
