@@ -1,12 +1,11 @@
 pragmasForMethod: primitive
+	"self flag: 'sometimes the image could not have additional method state ?'
 	(primitive > 0 and: [ method pragmas isEmpty ])
-		ifTrue: [ 
-			"Case where additionnal method state is disabled for space efficiency, the method is a primitive but has no pragmas."
-			primitive = 117 ifFalse: [ 
+		ifTrue: [ primitive = 117 ifFalse: [ 
 				^ RBPragmaNode 
 					selectorParts: #(primitive:) 
 					arguments: {RBLiteralNode value: primitive} ].
-			self shouldBeImplemented. "should fetch in the literal array the module / error and recreate the named primitive." ].
+			self shouldBeImplemented. self flag: 'should fetch in the literal array the module / error and recreate the named primitive.' ]."
 		
 	^ method pragmas collect: [ :each |
 		| selectorParts |

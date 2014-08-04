@@ -1,2 +1,2 @@
 hash
-	^ super hash bitXor: index hash
+	^ index hashMultiply
