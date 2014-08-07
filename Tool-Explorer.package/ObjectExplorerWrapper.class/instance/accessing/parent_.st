@@ -1,2 +1,0 @@
-parent: anObject
-	parent := anObject

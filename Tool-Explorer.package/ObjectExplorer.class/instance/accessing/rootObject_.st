@@ -1,2 +1,0 @@
-rootObject: anObject
-	rootObject := anObject

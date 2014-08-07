@@ -1,2 +1,0 @@
-asExplorerString
-	^ self printString
