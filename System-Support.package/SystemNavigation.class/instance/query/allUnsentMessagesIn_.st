@@ -3,4 +3,4 @@ allUnsentMessagesIn: selectorSet
 	system. As allSentMessages does not recurse into nested Arrays, filter
 	with #allCallsOn, which does"
 	
-	^ (selectorSet copyWithoutAll: self allSentMessages) select: [:each | 			(self allCallsOn: each) isEmpty]   
+	^ (selectorSet copyWithoutAll: self allSentMessages) select: [:each | (self allCallsOn: each) isEmpty]   

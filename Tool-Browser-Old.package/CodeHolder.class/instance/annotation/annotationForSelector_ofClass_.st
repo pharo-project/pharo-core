@@ -46,7 +46,7 @@ annotationForSelector: aSelector ofClass: aClass
 								ifFalse: [sendersCount printString , ' senders'].
 					aStream nextPutAll: sendersCount , separator].
 			aRequest == #implementorsCount
-				ifTrue: [implementorsCount := self systemNavigation numberOfImplementorsOf: aSelector.
+				ifTrue: [implementorsCount := aSelector implementors size.
 					implementorsCount := implementorsCount = 1
 								ifTrue: ['1 implementor']
 								ifFalse: [implementorsCount printString , ' implementors'].

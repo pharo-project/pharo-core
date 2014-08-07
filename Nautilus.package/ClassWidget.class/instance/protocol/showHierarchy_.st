@@ -1,4 +1,3 @@
-showHierarchy: anObject
-	showHierarchy := anObject.
-	self selectedClass ifNotNil:[: class |
-		self setCachedHierarchyClass: class]
+showHierarchy: aBoolean
+	(showHierarchy := aBoolean)
+		ifTrue: [ self selectedClass ifNotNil: [ :class | self setCachedHierarchyClass: class ] ]
