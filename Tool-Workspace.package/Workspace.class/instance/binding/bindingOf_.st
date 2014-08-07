@@ -5,5 +5,5 @@ bindingOf: aString
 	variables. Still subclasses may want to do something else"
 	bindings ifNil: [self initializeBindings].
 	(bindings includesKey: aString)
-		ifFalse: [bindings at: aString put: nil].
+		ifFalse: [bindings add: (WorkspaceVariable key: aString asSymbol)].
 	^ bindings associationAt: aString

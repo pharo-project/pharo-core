@@ -3,5 +3,5 @@ setClass: aClass category: aCategory code: codeString doitFlag: aBoolean errorMe
 	category := aCategory.
 	code := codeString.
 	doitFlag := aBoolean.
-	errorMessage := errorString.
+	messageText := errorString.
 	location := anInteger

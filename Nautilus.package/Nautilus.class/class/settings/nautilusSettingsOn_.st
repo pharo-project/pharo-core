@@ -38,6 +38,7 @@ Put a negative value to disable' translated.
 			(aBuilder setting: #useOldStyleKeys)
 				label: 'Use old style keys ?' translated;
 				description: 'If true, the browser will use the old style keys (This is highly non-recommended, you will lose a lot of cool access keys)' translated.
-				
-				
+			(aBuilder setting: #showDebugMenus)
+				label: 'Show DEBUG menu?' translated;
+				description: 'If true, the browser will show DEBUG entries in all menus for debugging Nautilus itself' translated.
 				]

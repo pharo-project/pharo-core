@@ -1,2 +1,2 @@
 errorMessage
-	^errorMessage
+	^messageText

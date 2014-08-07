@@ -4,7 +4,9 @@ arrowEvent: event key: aChar
 	| newIndex targetMorph targetIndex multi |
 	
 	self allNodeMorphs ifEmpty: [ ^ false].
-	
+	self listModel okToChange ifFalse: [^ false].
+	self listModel okToDiscardEdits ifFalse: [^ false].
+
 	newIndex := nil.
 	targetMorph := lastClickedMorph.
 	"Give the oportunity to model to handle the keystroke event. 

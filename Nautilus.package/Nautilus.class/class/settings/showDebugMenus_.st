@@ -1,0 +1,2 @@
+showDebugMenus: aBoolean
+	ShowDebugMenus := aBoolean

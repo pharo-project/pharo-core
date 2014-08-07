@@ -7,6 +7,9 @@ debugMenu: aBuilder
 	<nautilusGlobalGroupMenu>
 	
 	| target |
+	
+	Nautilus showDebugMenus ifFalse: [ ^self ].
+	
 	target := aBuilder model.
 	(aBuilder item: #DebugMenu)
 			order: 9999;
