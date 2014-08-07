@@ -3,7 +3,7 @@ asHistoricalRingDefinition
 	"Retrieves a historical RGMethodDefinition object based on the data of the receiver.
 	Source, protocol and stamp are retrieved from the source file method"
 	| ring |
-	ring := (RGFactory current createMethodNamed: self selector)
+	ring := (RGMethodDefinition named: self selector)
 				parentName: self methodClass name;
 				isMetaSide: self methodClass isMeta.
 

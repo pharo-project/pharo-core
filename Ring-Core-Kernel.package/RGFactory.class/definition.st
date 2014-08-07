@@ -1,5 +1,5 @@
 Object subclass: #RGFactory
 	instanceVariableNames: ''
-	classVariableNames: 'CurrentFactories'
+	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Ring-Core-Kernel'

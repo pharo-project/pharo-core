@@ -1,8 +1,8 @@
 categoryMenu: aMenu
 	^ aMenu
-		title: 'Categories';
-		add: 'Select all' action: #selectAllCategories;
-		add: 'Select none' action: #selectNoCategories;
+		title: 'Categories' translated;
+		add: 'Select all' translated action: #selectAllCategories;
+		add: 'Select none' translated action: #selectNoCategories;
 		addLine;
-		add: 'Refresh' action: #refresh;
-		yourself.
+		add: 'Refresh' translated action: #refresh;
+		yourself

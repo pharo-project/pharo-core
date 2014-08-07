@@ -2,7 +2,7 @@ testExistingMethodWithoutClass
 	"its parent class is not assigned only its name"
 	| newMethod |
 	
-	newMethod:= (RGFactory current createMethodNamed: #add:)
+	newMethod:= (RGMethodDefinition named: #add:)
 					parentName: #OrderedCollection;
 					selector: #add:; 
 					isMetaSide: false;

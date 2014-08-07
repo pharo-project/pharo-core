@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '13777 remove empty package Settings-Monticello
+update40154
+	"self new update40154"
+	self withUpdateLog: '13777 remove empty package Settings-Monticello
 	https://pharo.fogbugz.com/f/cases/13777
 
 13780 Wrong compilation context in mustBeBooleanInMagic:
@@ -20,4 +21,8 @@ commentForCurrentUpdate
 13760 Continue remvoving RGFactory
 	https://pharo.fogbugz.com/f/cases/13760
 
-'
+'.
+	self loadTogether: self script154 merge: false.
+	ScriptLoader new deletePackage:  'Settings-Monticello'.
+	self flushCaches.
+self cleanRepositories.

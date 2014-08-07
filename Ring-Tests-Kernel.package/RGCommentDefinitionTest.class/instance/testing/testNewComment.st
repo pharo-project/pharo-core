@@ -1,7 +1,7 @@
 testNewComment
 	| newComment |
 	
-	newComment:= RGFactory current createComment
+	newComment:= RGCommentDefinition new
 						content: 'This is a comment for test';
 						stamp: 'VeronicaUquillas 3/22/2011 14:51';
 						yourself.

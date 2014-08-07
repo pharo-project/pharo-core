@@ -1,5 +1,5 @@
 asRingDefinition
 
-	^RGFactory current createOrganization 
+	^RGOrganization new
 		categories: self categories;
 		yourself  

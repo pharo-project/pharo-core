@@ -1,3 +1,0 @@
-createOrganization
-
-	^RGOrganization new

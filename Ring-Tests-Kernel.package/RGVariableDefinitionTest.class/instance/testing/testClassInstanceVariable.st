@@ -1,7 +1,7 @@
 testClassInstanceVariable
 	| instVar newClass metaClass |
 	
-	instVar:= RGFactory current createClassInstanceVariableNamed:  'sizes'.
+	instVar:= RGClassInstanceVariableDefinition named: 'sizes'.
 	
 	self assert: (instVar isClassInstanceVariable).
 	self assert: (instVar isVariable).
@@ -9,7 +9,7 @@ testClassInstanceVariable
 	self assert: (instVar parent isNil).
 	self assert: (instVar isMetaSide).
 	
-	newClass:= RGFactory current createClassNamed: #OrderedCollection.
+	newClass:= RGClassDefinition named: #OrderedCollection.
 	newClass withMetaclass.
 	metaClass:= newClass theMetaClass.
 	instVar:= RGFactory current createInstanceVariableNamed: 'sizes' parent: metaClass.

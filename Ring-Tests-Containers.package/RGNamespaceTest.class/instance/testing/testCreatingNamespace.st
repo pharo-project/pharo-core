@@ -1,9 +1,9 @@
 testCreatingNamespace
 	| newNamespace newPackage newClass |
 	
-	newNamespace := RGFactory current createNamespaceNamed: #'RingNamespace'.
-	newPackage := RGFactory current createPackageNamed: #'Collections-Sequenceable'.
-	newClass:= RGFactory current createClassNamed: #OrderedCollection.
+	newNamespace := RGNamespace named: #'RingNamespace'.
+	newPackage := RGPackage named:  #'Collections-Sequenceable'.
+	newClass:= RGClassDefinition named: #OrderedCollection.
 	newPackage addClass: newClass.
 	newNamespace addPackage: newPackage;
 		addClass: newClass.

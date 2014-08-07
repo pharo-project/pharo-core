@@ -1,8 +1,8 @@
 testAddingClass
 	| newPackage newClass |
 	
-	newPackage:= RGFactory current createPackageNamed: #'Collections-Sequenceable'.
-	newClass:= RGFactory current createClassNamed: #OrderedCollection.
+	newPackage:= RGPackage named: #'Collections-Sequenceable'.
+	newClass:= RGClassDefinition named: #OrderedCollection.
 	newPackage addClass: newClass.
 	
 	self assert: (newPackage hasClasses).

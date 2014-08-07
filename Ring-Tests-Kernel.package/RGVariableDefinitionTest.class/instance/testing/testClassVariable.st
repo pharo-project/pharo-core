@@ -1,7 +1,7 @@
 testClassVariable
 	| instVar newClass |
 	
-	instVar:= RGFactory current createClassVariableNamed: 'DependentsFields'.
+	instVar:= RGClassVariableDefinition named: 'DependentsFields'.
 	
 	self assert: (instVar isClassVariable).
 	self assert: (instVar isVariable).
@@ -9,7 +9,7 @@ testClassVariable
 	self assert: (instVar parent isNil).
 	self assert: (instVar isMetaSide not).   
 	
-	newClass:= RGFactory current createClassNamed: #Object.
+	newClass:= RGClassDefinition named: #Object.
 	instVar:= RGFactory current createClassVariableNamed: 'DependentsFields' parent: newClass.
 	
 	self assert: (instVar parent = newClass).

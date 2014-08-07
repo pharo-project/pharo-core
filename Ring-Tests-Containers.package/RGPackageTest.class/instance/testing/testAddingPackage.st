@@ -1,7 +1,7 @@
 testAddingPackage
 	| newPackage childPackage |
 	
-	newPackage:= RGFactory current createPackageNamed: #'Collections'.
+	newPackage:= RGPackage named: #'Collections'.
 	newPackage addPackageNamed: #'Collections-Sequenceable'.
 		
 	self assert: (newPackage includesPackageNamed: #'Collections-Sequenceable').

@@ -1,3 +1,0 @@
-createClassInstanceVariableNamed: aSymbol
-
-	^RGClassInstanceVariableDefinition named: aSymbol

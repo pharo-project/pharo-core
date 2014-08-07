@@ -9,7 +9,7 @@ testWithSuperclass
 	self assert: (supClass superclassName == #ProtoObject).   "kept as annotation"
 	self assert: (supClass annotations size = 1).
 	
-	newClass:= RGFactory current createClassNamed: #OrderedCollection subclassOf:  supClass.
+	newClass := (RGClassDefinition named: #OrderedCollection) superclass: supClass.
 	self assert: (newClass superclass = supClass).
 	self assert: (newClass superclassName == #Object).
 	self assert: (newClass withAllSuperclasses size = 2).

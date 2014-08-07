@@ -6,10 +6,10 @@ testVariableEquality
 	variable2 := (OrderedCollection asRingDefinition) instanceVariableNamed: #array.
 	self assert: variable1 = variable2.
 
-	variable1 := (RGFactory current createClassVariableNamed: #Foo) parentName: #Test.
-	variable2 := (RGFactory current createClassVariableNamed: #Foo) parentName: #Test.
+	variable1 := (RGClassVariableDefinition named:  #Foo) parentName: #Test.
+	variable2 := (RGClassVariableDefinition named:  #Foo) parentName: #Test.
 	self assert: variable1 = variable2.
 	
-	variable2 := (RGFactory current createClassVariableNamed: #Foo) parentName: #Test2.
+	variable2 := (RGClassVariableDefinition named:  #Foo) parentName: #Test2.
 	self deny: variable1 = variable2.
 	

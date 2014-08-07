@@ -1,6 +1,7 @@
 asRingDefinition
 
-	^(RGFactory current createMethodNamed:  self selector)
+	^RGMethodDefinition new
+		name: self selector;
 		parentName: self className;
 		isMetaSide: self classIsMeta;
 		protocol: self category;

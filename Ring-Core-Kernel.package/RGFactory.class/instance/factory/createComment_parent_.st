@@ -7,7 +7,7 @@ createComment: content parent: aRGObject
 
 	^content isRingObject not
 		ifTrue: [
-			self createComment
+			RGCommentDefinition new
 				parent: aRGObject;
 				content: content; 
 				yourself ]

@@ -2,7 +2,7 @@ testWithComment
 	| newClass newComment |
 	
 	newClass:= RGClassDefinition named: #Object.
-	newComment:= RGFactory current createComment
+	newComment:= RGCommentDefinition new
 						parent: newClass;
 						content: 'This is a comment for test';
 						stamp: 'VeronicaUquillas 3/22/2011 14:51';

@@ -1,7 +1,6 @@
 testGlobalVariableDefinition
-	| global newClass |
+	| global  |
 	
-	global:= RGFactory current createGlobalVariableNamed: #Transcript.
-	
+	global:= RGGlobalVariableDefinition named:  #Transcript.
 	self assert: (global isGlobalVariable).
 	self assert: (global parent = Smalltalk globals).

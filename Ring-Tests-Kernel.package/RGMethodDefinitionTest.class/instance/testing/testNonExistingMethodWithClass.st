@@ -2,7 +2,7 @@ testNonExistingMethodWithClass
 	"method does not exist in OrderedCollection"
 	| newMethod newClass |
 	
-	newClass:= RGFactory current createClassNamed: #OrderedCollection.
+	newClass:= RGClassDefinition named: #OrderedCollection.
 	newClass withMetaclass.
 	
 	newMethod:= RGFactory current createMethodNamed: #foo parent: newClass theMetaClass.

@@ -1,7 +1,7 @@
 testExtensionMethod
 	| newMethod newClass newPackage newPackageExt |
 
-	newMethod:= (RGFactory current createMethodNamed: #+)
+	newMethod:= (RGMethodDefinition named: #+)
 					isExtension: true.
 	self assert: (newMethod protocol isNil).
 	self assert: (newMethod isExtension).
@@ -11,8 +11,8 @@ testExtensionMethod
 	self assert: (newMethod protocol = '*Collections-arithmetic').
 	self assert: (newMethod isExtension).
 	
-	newPackage := RGFactory current createPackageNamed: #Package.
-	newPackageExt := RGFactory current createPackageNamed: #PackageExtensions.
+	newPackage := RGPackage named: #Package.
+	newPackageExt := RGPackage named:  #PackageExtensions.
 	newClass := RGClassDefinition named: #Class.
 	newMethod := RGFactory current createMethodNamed: #foo parent: newClass.
 	newPackage addClass: newClass.

@@ -1,5 +1,3 @@
 current
 
-	^CurrentFactories 
-		at: self species
-		ifAbsentPut:[ self new ]
+	^self new

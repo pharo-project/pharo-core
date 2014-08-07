@@ -2,6 +2,6 @@ stamp: aString
 
 	self hasComment
 	ifTrue: [ self comment stamp: aString ]
-	ifFalse:[ self factory createComment 
+	ifFalse:[ RGCommentDefinition new
 						 parent: self; 
 						 stamp: aString ]

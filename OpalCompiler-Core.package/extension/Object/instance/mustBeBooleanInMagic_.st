@@ -23,9 +23,7 @@ mustBeBooleanInMagic: context
 	"Keep same compilation context than the sender node's"
 	methodNode compilationContext: sendNode methodNode compilationContext copy.
 	"Disable inlining of 'if' message sends"
-	methodNode compilationContext 
-		class: UndefinedObject;
-		compilerOptions: #(- optionInlineIf).
+	methodNode compilationContext compilerOptions: #(- optionInlineIf).
 	"Generate the method"	
 	method := methodNode generate.
 	"jump to the instruction after jump"

@@ -1,3 +1,0 @@
-createComment
-
-	^RGCommentDefinition new
