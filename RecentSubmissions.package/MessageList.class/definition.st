@@ -1,5 +1,5 @@
 Model subclass: #MessageList
-	instanceVariableNames: 'methodReferenceList useAsASet lastEntry'
+	instanceVariableNames: 'methodReferenceList lastEntry'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'RecentSubmissions-Core'

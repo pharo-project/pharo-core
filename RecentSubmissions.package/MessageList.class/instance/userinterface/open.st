@@ -5,5 +5,5 @@ open
 		topologicSort: false;
 		sortingBlock: [ :a :b | a timeStamp > b timeStamp ];
 		messages: methodReferenceList;
-		title: 'Recenty accepted Methods';
+		title: 'Recenty accepted Methods' translated;
 		open
