@@ -1,0 +1,2 @@
+onlyStrong
+	onlyStrong := true
