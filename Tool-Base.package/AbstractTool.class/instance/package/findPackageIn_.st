@@ -5,6 +5,6 @@ findPackageIn: aPackageNamesList
 		ifFalse: [ UIManager default enterOrRequestFrom: aPackageNamesList lines: #() title: 'Package name or fragment?' ].
 	pattern isEmptyOrNil
 		ifTrue: [ ^ self flashPackage ].
-	foundPackage := self systemNavigation packageFromPattern: pattern withCaption: ''.
+	foundPackage := self packageFromPattern: pattern withCaption: ''.
 	foundPackage ifNil: [ ^ self flashPackage ].
 	^ foundPackage

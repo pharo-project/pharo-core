@@ -7,6 +7,6 @@ findMethodIn: aClass
 		ifFalse: [ UIManager default enterOrRequestFrom: recentList lines: #() title: 'Message name or fragment?' ].
 	pattern isEmptyOrNil
 		ifTrue: [ ^ nil ].
-	foundMethod := self systemNavigation selectorFromPattern: pattern withCaption: '' startingFrom: self selectedClass.
+	foundMethod := self selectorFromPattern: pattern withCaption: '' startingFrom: self selectedClass.
 	foundMethod ifNil: [ ^ nil ].
 	^ foundMethod
