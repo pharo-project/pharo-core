@@ -1,0 +1,4 @@
+canEvaluateCode
+	^self permissions canEvaluateCode
+	
+	

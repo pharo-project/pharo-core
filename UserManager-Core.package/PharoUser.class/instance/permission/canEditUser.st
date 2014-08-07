@@ -1,0 +1,5 @@
+canEditUser
+	^self permissions canEditUser
+	
+	
+	

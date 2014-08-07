@@ -1,0 +1,2 @@
+canShowMorphHalo
+	^self permissions canShowMorphHalo

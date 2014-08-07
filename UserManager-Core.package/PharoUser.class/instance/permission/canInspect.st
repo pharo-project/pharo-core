@@ -1,0 +1,4 @@
+canInspect
+	^self permissions canInspect
+	
+	
