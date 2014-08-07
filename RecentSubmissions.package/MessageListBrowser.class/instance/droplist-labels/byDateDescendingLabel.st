@@ -1,3 +1,0 @@
-byDateDescendingLabel
-
-	^'By Date Descending'

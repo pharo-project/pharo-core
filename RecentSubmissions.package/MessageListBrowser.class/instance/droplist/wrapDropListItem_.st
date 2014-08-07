@@ -1,3 +1,0 @@
-wrapDropListItem: anItem
-
-	^ anItem label

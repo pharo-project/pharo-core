@@ -1,3 +1,0 @@
-removeButtonLabel
-
-	^'Remove'

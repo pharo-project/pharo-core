@@ -1,3 +1,3 @@
 exploreStrongPointers
 	"Open a StrongPointerExplorer on the current selection"
-	Smalltalk tools strongPointerExplorer openOn: self object
+	Smalltalk tools pointerExplorer openStrongOn: self object

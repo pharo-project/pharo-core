@@ -1,3 +1,0 @@
-browseButtonState 
-
-	^self selectedItem isNil.

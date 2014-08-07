@@ -1,3 +1,0 @@
-isInspectable
-
-	^self subclassResponsibility

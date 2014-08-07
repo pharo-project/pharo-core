@@ -1,3 +1,0 @@
-removeMe
-	
-	^self subclassResponsibility

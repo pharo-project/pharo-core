@@ -1,3 +1,0 @@
-getClass
-
-	^self subclassResponsibility

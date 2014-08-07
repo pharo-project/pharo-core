@@ -1,3 +1,0 @@
-byClassLabel
-
-	^'By Class'

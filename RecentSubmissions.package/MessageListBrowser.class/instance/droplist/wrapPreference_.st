@@ -1,3 +1,0 @@
-wrapPreference: anItem
-
-	^ anItem label

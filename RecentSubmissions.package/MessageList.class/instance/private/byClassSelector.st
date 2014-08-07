@@ -1,3 +1,0 @@
-byClassSelector
-
-	^ #groupedByClass

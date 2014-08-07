@@ -1,3 +1,0 @@
-doubleClick
-
-	^self subclassResponsibility

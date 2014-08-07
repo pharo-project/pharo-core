@@ -1,1 +1,0 @@
-Node model for non-inspectable nodes

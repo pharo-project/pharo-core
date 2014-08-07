@@ -1,3 +1,0 @@
-taskbarIcon
-
-	^ self model taskbarIcon

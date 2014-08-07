@@ -1,3 +1,0 @@
-isMethod
-
-	^ self item isMethod.

@@ -1,11 +1,8 @@
 commentForCurrentUpdate
- ^ '13774 EyePointerExplorer
-	https://pharo.fogbugz.com/f/cases/13774
+ ^ '13793 Enable new Pointer Explorer
+	https://pharo.fogbugz.com/f/cases/13793
 
-13792 remove #callers
-	https://pharo.fogbugz.com/f/cases/13792
-
-13784 Color>>#asColorref ignores blue
-	https://pharo.fogbugz.com/f/cases/13784
+13764 Simplify RecentSubmissions
+	https://pharo.fogbugz.com/f/cases/13764
 
 '

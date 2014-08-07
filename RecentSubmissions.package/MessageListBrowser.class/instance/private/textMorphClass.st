@@ -1,3 +1,0 @@
-textMorphClass
-
-	^ PluggableTextMorph

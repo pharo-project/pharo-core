@@ -1,0 +1,3 @@
+updateView
+	
+	self triggerEvent: #changed.

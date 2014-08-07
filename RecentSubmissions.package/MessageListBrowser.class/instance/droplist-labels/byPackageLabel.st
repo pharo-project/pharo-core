@@ -1,3 +1,0 @@
-byPackageLabel
-
-	^'By Package'

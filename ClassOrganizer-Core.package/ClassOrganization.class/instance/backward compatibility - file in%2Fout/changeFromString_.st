@@ -5,7 +5,7 @@ changeFromString: aString
 	categorySpecs := aString parseLiterals.
 	
 	"If nothing was scanned and I had no elements before, then default me"
-	(categorySpecs isEmpty and: [ self protocolOrganizer isEmpty ])
+	(categorySpecs isEmpty and: [ self protocolOrganizer protocols isEmpty ])
 		ifTrue: [ ^ self protocolOrganizer reset ].
 
 	^ self changeFromCategorySpecs: categorySpecs

@@ -1,2 +1,2 @@
 explorePointers
-	^ Smalltalk tools strongPointerExplorer openOn: self value
+	^ Smalltalk tools pointerExplorer openStrongOn: self value

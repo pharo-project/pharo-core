@@ -1,5 +1,5 @@
 Model subclass: #MessageList
-	instanceVariableNames: 'methodReferenceList versionsHistoryList useAsASet lastEntry sortingSelector dictionary sortedMethodReferencesList'
+	instanceVariableNames: 'methodReferenceList useAsASet lastEntry'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'RecentSubmissions-Core'

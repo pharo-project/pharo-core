@@ -1,3 +1,0 @@
-infoLabel
-
-	^'Change Date'

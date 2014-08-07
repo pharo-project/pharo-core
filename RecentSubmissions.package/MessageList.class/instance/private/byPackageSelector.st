@@ -1,3 +1,0 @@
-byPackageSelector
-
-	^ #groupedByPackage

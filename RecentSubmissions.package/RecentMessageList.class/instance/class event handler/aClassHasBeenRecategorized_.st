@@ -1,1 +1,0 @@
-aClassHasBeenRecategorized: anEvent

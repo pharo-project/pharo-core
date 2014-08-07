@@ -1,3 +1,0 @@
-clearButtonLabel
-
-	^'Clear List'
