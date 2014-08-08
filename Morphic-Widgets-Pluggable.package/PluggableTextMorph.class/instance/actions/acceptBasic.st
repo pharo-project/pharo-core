@@ -24,7 +24,7 @@ editing it here.  Accept anyway?' translated) ifFalse: [^ self flash]].
 		at that time, resetting the cursor position and scroller in the process.
 		The following line forces that update without waiting for the step, then restores the cursor and scrollbar"
 
-	ok ifTrue: "(don't bother if there was an error during compile)"
+	ok==true  ifTrue: "(don't bother if there was an error during compile)"
 		[(model respondsTo: #updateCodePaneIfNeeded) 
 			ifTrue: [model updateCodePaneIfNeeded].
 		scroller offset: saveScrollerOffset.

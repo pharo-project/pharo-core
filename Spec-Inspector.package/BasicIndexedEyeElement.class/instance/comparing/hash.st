@@ -1,2 +1,2 @@
 hash
-	^ index hashMultiply
+	^ index hash

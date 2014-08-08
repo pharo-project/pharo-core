@@ -1,2 +1,2 @@
 testTallyMethods
-	self assert: (Context tallyMethods: aBlockContext) size = 5.
+	self assert: (Context tallyMethods: aBlockContext) size = 7.
