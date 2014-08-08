@@ -4,4 +4,5 @@ fileItIn
 
 	| selection |
 	selection := self selection.
-	(ReadWriteStream on: selection string from: 1 to: selection size) fileIn
+	CodeImporter evaluateReadStream: (ReadWriteStream on: selection string from: 1 to: selection size).
+	self inform: 'Code imported'.

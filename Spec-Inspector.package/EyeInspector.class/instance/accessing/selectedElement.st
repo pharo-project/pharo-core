@@ -5,6 +5,6 @@ selectedElement
 		This code fixes this case, that is triggered for example when you do Cmd+c in an ObjectExplorer."
 		self list selectedIndex ifNotNil: [ :currentIndex | 
 			currentIndex = 0
-				ifTrue: [ ^ self ].
+				ifTrue: [ ^ nil ].
 			self list listItems ifNotEmpty: [ :aList | 
 				aList at: currentIndex  ] ] ]
