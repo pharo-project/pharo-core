@@ -45,7 +45,7 @@ initialize2
 "accessing" byteAt: endsWithDigit findAnySubStr:startingAt: findBetweenSubStrs: findDelimiters:startingAt: findString:startingAt: findString:startingAt:caseSensitive: findTokens: findTokens:includes: findTokens:keep: #includesSubstring: includesSubstring:caseSensitive: indexOf:startingAt: indexOfAnyOf: indexOfAnyOf:ifAbsent: indexOfAnyOf:startingAt: indexOfAnyOf:startingAt:ifAbsent: lineCorrespondingToIndex: lineCount lineNumber: skipAnySubStr:startingAt: skipDelimiters:startingAt: startsWithDigit
 "comparing" alike: beginsWith: caseSensitiveLessOrEqual: charactersExactlyMatching: compare: endsWith: endsWithAnyOf: sameAs: startingAt:match:startingAt:
 "copying" copyReplaceTokens:with: padLeftTo: padRightTo: padLeftTo:with: padRightTo:with:
-"converting" asByteArray asDate asFileName asLegalSelector asText asTime asUrl capitalized compressWithTable: contractTo: correctAgainst: initialIntegerOrNil keywords quoted withoutPeriodSuffix splitInteger stemAndNumericSuffix substrings surroundedBySingleQuotes truncateWithElipsisTo: trimBoth withFirstCharacterDownshifted withNoLineLongerThan: withSeparatorsCompacted withoutLeadingDigits trimRight trimLeft
+"converting" asByteArray asDate asFileName asText asTime asUrl capitalized compressWithTable: contractTo: correctAgainst: initialIntegerOrNil keywords quoted withoutPeriodSuffix splitInteger stemAndNumericSuffix substrings surroundedBySingleQuotes truncateWithElipsisTo: trimBoth withFirstCharacterDownshifted withNoLineLongerThan: withSeparatorsCompacted withoutLeadingDigits trimRight trimLeft
 "displaying" "printing"
 "system primitives" compare:with:collated: 
 "Celeste" withCRs

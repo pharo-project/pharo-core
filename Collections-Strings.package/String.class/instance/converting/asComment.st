@@ -1,4 +1,4 @@
-asSmalltalkComment
+asComment
 	"return this string, munged so that it can be treated as a comment in Smalltalk code.  Quote marks are added to the beginning and end of the string, and whenever a solitary quote mark appears within the string, it is doubled"
 
 	^String streamContents:  [ :str |

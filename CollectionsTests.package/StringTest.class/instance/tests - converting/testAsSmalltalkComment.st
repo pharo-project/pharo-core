@@ -16,15 +16,15 @@ testAsSmalltalkComment
 	"check that the result of scanning the comment is empty"
 	exampleStrings do: [ :s |
 		| tokens  |
-		tokens := s asSmalltalkComment parseLiterals.
+		tokens := s asComment parseLiterals.
 		self assert: (tokens isEmpty) ].
 
 	"check that the result has the same non-quote characters as the original"
 	exampleStrings do: [ :s |
-		self assert: ( (s copyWithout: $") = (s asSmalltalkComment copyWithout: $"))].
+		self assert: ( (s copyWithout: $") = (s asComment copyWithout: $"))].
 
 	"finnaly, test for some common kinds of inputs"
-	self assert: ( 'abc' asSmalltalkComment = '"abc"').
-	self assert: ( 'abc"abc' asSmalltalkComment = '"abc""abc"').
-	self assert: ('abc""abc' asSmalltalkComment = '"abc""abc"' ).
+	self assert: ( 'abc' asComment = '"abc"').
+	self assert: ( 'abc"abc' asComment = '"abc""abc"').
+	self assert: ('abc""abc' asComment = '"abc""abc"' ).
 		

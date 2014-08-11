@@ -1,4 +1,4 @@
-asUncommentedSmalltalkCode
+asUncommentedCode
 	"this string reprensent a commented code, let's uncomment it"
 	
 	^String streamContents:  [ :str |

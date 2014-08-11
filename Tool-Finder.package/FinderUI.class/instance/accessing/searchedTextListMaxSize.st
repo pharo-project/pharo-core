@@ -1,2 +1,2 @@
 searchedTextListMaxSize
-	^self class searchedTextListMaxSize
+	^20

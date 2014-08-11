@@ -1,5 +1,5 @@
 Model subclass: #ThreadSafeTranscript
-	instanceVariableNames: 'stream accessSemaphore'
+	instanceVariableNames: 'stream accessSemaphore deferredClear deferredEndEntry stepContents'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Transcript'

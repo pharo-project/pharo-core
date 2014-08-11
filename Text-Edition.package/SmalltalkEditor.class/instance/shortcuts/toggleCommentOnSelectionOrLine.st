@@ -19,11 +19,11 @@ toggleCommentOnSelectionOrLine
 				
 	quote := selection trimLeft first.
 	quote = $" ifTrue: [ 
-		modifiedSelection := selection asUncommentedSmalltalkCode.
+		modifiedSelection := selection asUncommentedCode.
 		numberOfDoubleQuoteBeforeCaret := (((numberOfDoubleQuoteBeforeCaret - 1) // 2) + 1) negated.
 		newSelectionLastPosition := (selection size - modifiedSelection size) negated.
 	] ifFalse: [ 
-		modifiedSelection := selection asSmalltalkComment.
+		modifiedSelection := selection asComment.
 		numberOfDoubleQuoteBeforeCaret := numberOfDoubleQuoteBeforeCaret + 1.
 		newSelectionLastPosition := modifiedSelection size - selection size.
 	].

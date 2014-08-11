@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '13773 implement drawOnAthensCanvas on MenuItemMorph and MenuLineMorph
+update40165
+	"self new update40165"
+	self withUpdateLog: '13773 implement drawOnAthensCanvas on MenuItemMorph and MenuLineMorph
 	https://pharo.fogbugz.com/f/cases/13773
 
 13754 cleaning strings API
@@ -17,4 +18,7 @@ commentForCurrentUpdate
 13806 Remove ThreadSafeTranscriptPluggableTextMorph
 	https://pharo.fogbugz.com/f/cases/13806
 
-'
+'.
+	self loadTogether: self script165 merge: false.
+	self flushCaches.
+self cleanRepositories.
