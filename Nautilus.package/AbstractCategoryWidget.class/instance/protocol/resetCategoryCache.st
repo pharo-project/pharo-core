@@ -1,2 +1,0 @@
-resetCategoryCache
-	^ self subclassResponsibility

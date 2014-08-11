@@ -9,8 +9,8 @@ open
 			focus := self classWidget ].
 	self selectedCategory ifNotNil: [:cat |  
 		categoryWidget selectProtocol: cat.
-		methodWidget resetMethodCache.
-		methodWidget update: #getMethodItem:.
+		self resetMethodsList.
+		methodWidget updateMethodList.
 		acceptor := MethodDefinitionAcceptor model: self. 
 		focus := categoryWidget ].
 	self selectedMethod ifNotNil: [:meth | 

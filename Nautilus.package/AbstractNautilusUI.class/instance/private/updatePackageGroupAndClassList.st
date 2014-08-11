@@ -1,6 +1,6 @@
 updatePackageGroupAndClassList
 
-	self resetPackagesList.
+	self resetPackageGroupsList.
 	self resetClassesList.
 	self changed: #getPackageItem:.
 	self changed: #getClassItem:

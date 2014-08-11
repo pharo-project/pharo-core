@@ -1,7 +1,7 @@
 incrementMethodsListIndex
 
 	| index |
-	methodWidget resetMethodsListSelection.
+	self resetMethodsListSelection.
 	index := (methodWidget selectedMethodIndex + 1).
 	index > methodWidget getMethods size ifTrue: [ index := 1 ].
 	methodWidget selectedMethodIndex: index.

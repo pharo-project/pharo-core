@@ -1,4 +1,4 @@
-DiffMethodReferenceConverter subclass: #DiffChangeRecordConverter
+AbstractMethodReferenceConverter subclass: #DiffChangeRecordConverter
 	instanceVariableNames: 'list'
 	classVariableNames: ''
 	poolDictionaries: ''

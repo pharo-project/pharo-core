@@ -5,7 +5,7 @@ buildClassesList
 				getIconSelector: #classIconFor:;
 				getListSizeSelector: #classListSize;
 				
-				resetListSelector: #resetClassesListSelection;
+				resetListSelector: #resetClassSelection;
 				autoDeselect: true;
 				dropEnabled: true;
 				dropItemSelector: #dropInClass:inARow:;

@@ -1,2 +1,0 @@
-resetPackagesList
-	self subclassResponsibility 

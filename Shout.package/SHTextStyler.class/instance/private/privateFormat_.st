@@ -1,2 +1,0 @@
-privateFormat: aText 
-	self shouldBeImplemented

@@ -1,3 +1,0 @@
-updateList
-
-	self update: #getMethodItem:

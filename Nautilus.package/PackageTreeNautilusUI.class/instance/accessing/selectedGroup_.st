@@ -5,8 +5,7 @@ selectedGroup: aGroup
 			
 	acceptor := ClassDefinitionAcceptor model: self.
 			
-	self packageWidget resetPackagesSelection.
-	self packageWidget resetGroupsSelection.
+	self resetPackageGroupsListSelection.
 	self packageWidget selectGroup: aGroup.
 		
 	aGroup 

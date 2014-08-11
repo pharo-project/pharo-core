@@ -1,3 +1,0 @@
-resetCategoriesListSelection
-
-	categoriesSelection removeAll

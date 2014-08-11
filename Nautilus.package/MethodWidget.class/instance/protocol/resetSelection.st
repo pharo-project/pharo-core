@@ -1,3 +1,0 @@
-resetSelection
-
-	self methodsSelection removeAll

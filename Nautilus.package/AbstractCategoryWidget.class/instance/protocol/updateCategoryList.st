@@ -1,0 +1,2 @@
+updateCategoryList
+	self changed: #getCategoryItem:

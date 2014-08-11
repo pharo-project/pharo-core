@@ -1,2 +1,2 @@
-shoutAboutToStyle: ATextView
+shoutAboutToStyle: aTextView
 	^ true

@@ -1,5 +1,4 @@
 clearPackageSelections
-	self resetPackagesList.
+	self resetPackageGroupsList.
 	self resetClassesList.
-	self packageWidget resetPackagesSelection.
-	self packageWidget resetGroupsSelection.
+	self resetPackageGroupsListSelection.

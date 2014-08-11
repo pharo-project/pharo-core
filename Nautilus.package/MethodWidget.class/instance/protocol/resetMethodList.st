@@ -1,0 +1,3 @@
+resetMethodList
+
+	methods := nil

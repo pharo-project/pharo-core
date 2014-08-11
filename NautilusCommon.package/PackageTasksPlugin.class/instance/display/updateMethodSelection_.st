@@ -1,13 +1,13 @@
 updateMethodSelection: aMethod
 
 	model ui categoryWidget
-		resetCategoryCache;
-		resetCategoriesListSelection.
+		resetCategoryList;
+		resetCategorySelection.
 	model ui categoryWidget
 		categoriesSelection at: aMethod category put: true.
 	model ui methodWidget 
-		resetMethodCache;
-		resetMethodsListSelection.
+		resetMethodList;
+		resetMethodSelection.
 	model ui methodWidget 
 		methodsSelection at: aMethod category put: true.
 

@@ -16,7 +16,7 @@ showGroups: aBoolean
 		
 	
 	
-	self resetPackagesList.
+	self resetPackageGroupsList.
 	self showPackages 
 		ifFalse: [ self showPackagesSilently: true ].
 	self selectedGroup

@@ -1,11 +1,17 @@
 commentForCurrentUpdate
- ^ '13821 Concentrate tools shortcuts in a single class
-	https://pharo.fogbugz.com/f/cases/13821
+ ^ '13787 Implement SequenceableCollection >> reverseWithIndexDo:
+	https://pharo.fogbugz.com/f/cases/13787
 
-13097 Keymapping: Cmd-n Cmd-c gives error message
-	https://pharo.fogbugz.com/f/cases/13097
+13526 System Browser Add Class menu item doesn t offer current class as a superclass
+	https://pharo.fogbugz.com/f/cases/13526
 
-13027 KeyCombination pretty printing is broken
-	https://pharo.fogbugz.com/f/cases/13027
+13814 DiffMethodReferenceConverter not needed
+	https://pharo.fogbugz.com/f/cases/13814
+
+13816 Unify default method templates + Shout critique clean
+	https://pharo.fogbugz.com/f/cases/13816
+
+13813 Nautilus Refactoring 7: rename methods 
+	https://pharo.fogbugz.com/f/cases/13813
 
 '

@@ -1,3 +1,0 @@
-resetCategoryCache
-
-	categories := nil

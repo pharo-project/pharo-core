@@ -1,6 +1,6 @@
 applyTo: aNautilus
 
-	aNautilus ui ifNotNil: [ :interface | interface resetSelections].
+	aNautilus ui ifNotNil: [ :interface | interface resetAllListSelections].
 	
 	aNautilus
 		selectedPackage: self selectedPackage;

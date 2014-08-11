@@ -1,7 +1,7 @@
 showPackages: aBoolean
 	self okToChange
 		ifFalse: [ ^ self ].
-	self resetPackagesList.
+	self resetPackageGroupsList.
 	self resetClassesList.
 	self packageWidget enabled: aBoolean.
 	self classWidget showHierarchy: aBoolean not.
@@ -10,11 +10,11 @@ showPackages: aBoolean
 			| class |
 			class := self selectedClass theNonMetaClass.
 			self classWidget selectClass: class.
-			self resetPackagesList.
+			self resetPackageGroupsList.
 			self resetClassesList.
 			self showGroups
 				ifTrue: [ self showGroupsSilently: false ] ].
-	self resetPackagesList.
+	self resetPackageGroupsList.
 	self resetClassesList.
 	self model showPackages: aBoolean.
 	self changed: #groupsButtonLabel.

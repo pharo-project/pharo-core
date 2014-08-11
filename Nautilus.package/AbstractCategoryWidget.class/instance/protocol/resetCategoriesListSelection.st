@@ -1,3 +1,0 @@
-resetCategoriesListSelection
-
-	self subclassResponsibility 

@@ -4,7 +4,7 @@ buildMethodsList
 						basicWrapSelector: #methodWrapper:;
 						keystrokeSelector: #keyPressedOnElement:; 
 						getIconSelector: #methodIconFor:;
-						resetListSelector: #resetMethodsListSelection;
+						resetListSelector: #resetMethodSelection;
 						getListSizeSelector: #methodListSize;
 						autoDeselect: true;
 						dragEnabled: true; 

@@ -11,8 +11,8 @@ findAllMethod
 	foundMethod ifNil: [^ self ].
 	
 	self showGroupsSilently: false.
-	self categoryWidget resetSelection.
-	self methodWidget resetSelection.
+	self resetCategoriesList.
+	self resetMethodsListSelection.
 	self categoryWidget selectProtocol: foundMethod category.
  	self model package: class package class: class category: foundMethod protocol method: foundMethod.
 	

@@ -1,3 +1,0 @@
-resetClassesListSelection
-
-	^ self subclassResponsibility

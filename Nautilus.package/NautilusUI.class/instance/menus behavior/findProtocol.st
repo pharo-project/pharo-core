@@ -11,7 +11,7 @@ findProtocol
 	foundProtocol ifNil: [^ self ].
 		
 	self showGroupsSilently: false.
-	self categoryWidget resetSelection.
+	self resetCategoriesListSelection.
 	self categoryWidget selectProtocol: foundProtocol.
  	self model package: class package class: class category: foundProtocol method: nil.
 	

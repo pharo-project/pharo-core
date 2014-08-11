@@ -9,12 +9,12 @@ removeMethods
 					
 					needToUpdate ifTrue: [ 
 						self resetMethodsListSelection.
-						methodWidget updateList ].
+						methodWidget updateMethodList ].
 					
 					(class methods includes: self selectedMethod)
 						ifFalse: [ self selectedMethod: nil ].
 						
 					self resetMethodsListSelection.
 					methodWidget
-						updateList;
+						updateMethodList;
 						vScrollValue: scroll. ]]

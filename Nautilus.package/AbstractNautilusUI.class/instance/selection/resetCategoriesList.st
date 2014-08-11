@@ -1,0 +1,2 @@
+resetCategoriesList
+	self subclassResponsibility 

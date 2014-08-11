@@ -1,6 +1,5 @@
 highlightCategory: aMethod
 
-		methodWidget resetMethodCache.
 		aMethod 
 			ifNotNil: [ | category index |
 				category := aMethod protocol.

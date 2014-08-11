@@ -1,0 +1,2 @@
+resetCategoryList
+	^ self subclassResponsibility

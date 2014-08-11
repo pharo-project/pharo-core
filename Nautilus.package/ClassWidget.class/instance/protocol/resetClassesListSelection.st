@@ -1,2 +1,0 @@
-resetClassesListSelection
-	self classesSelection removeAll

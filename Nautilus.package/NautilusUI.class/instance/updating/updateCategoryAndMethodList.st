@@ -1,7 +1,5 @@
 updateCategoryAndMethodList
-
-	categoryWidget resetCategoryCache.
-	methodWidget 
-		resetMethodCache;
-		updateList.
-	self changed: #getCategoryItem:.
+	self resetCategoriesList.
+	categoryWidget updateCategoryList.
+	self resetMethodsList.
+	methodWidget updateMethodList

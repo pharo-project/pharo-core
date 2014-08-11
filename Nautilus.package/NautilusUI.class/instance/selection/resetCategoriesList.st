@@ -1,0 +1,2 @@
+resetCategoriesList
+	self categoryWidget resetCategoryList

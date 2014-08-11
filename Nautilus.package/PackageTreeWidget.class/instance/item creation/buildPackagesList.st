@@ -14,7 +14,7 @@ buildPackagesList
 		yourself.
 				
 	treeModel announcer 
-		when: MorphTreeSelectionChanged do: [ :ann | self model selected: ann selection  ].
+		when: MorphTreeSelectionChanged do: [ :ann | self model selectedFromPackageGroupView: ann selection  ].
 				
 	packagesList buildContents.
 	self model selectedPackage ifNotNil: [ 

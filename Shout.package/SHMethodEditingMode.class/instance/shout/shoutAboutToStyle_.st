@@ -1,3 +1,3 @@
-shoutAboutToStyle: ATextView
-	ATextView classOrMetaClass: self classToUse.
+shoutAboutToStyle: aTextView
+	aTextView classOrMetaClass: self classToUse.
 	^ true

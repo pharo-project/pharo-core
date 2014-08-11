@@ -1,5 +1,5 @@
 literalStyleSymbol: aValue
-	aValue isSymbol 
+	aValue isSymbol
 		ifTrue: [ ^ #symbol ].
 	aValue isString
 		ifTrue: [ ^ #string ].
@@ -9,6 +9,6 @@ literalStyleSymbol: aValue
 		ifTrue: [ ^ #true ].
 	aValue == false
 		ifTrue: [ ^ #false ].
-	aValue == nil
+	aValue isNil
 		ifTrue: [ ^ #nil ].
 	^ #default

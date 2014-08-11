@@ -4,6 +4,6 @@ selectedClass: aClass withSelection: aPackage
 		class: aClass
 		category: nil
 		method: nil.
-	self packageWidget resetPackagesSelection.
+	self resetPackageGroupsListSelection.
 	self packageWidget selectPackage: aPackage.
 	self updatePackageGroupAndClassList

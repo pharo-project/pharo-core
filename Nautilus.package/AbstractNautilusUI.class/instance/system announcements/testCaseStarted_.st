@@ -10,4 +10,4 @@ testCaseStarted: anAnnouncement
 			method := class methodNamed: selector.
 			self methodWidget 
 				setIcon: icon for: method;
-				updateList ]
+				updateMethodList ]

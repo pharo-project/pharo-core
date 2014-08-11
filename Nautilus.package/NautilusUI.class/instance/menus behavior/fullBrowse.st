@@ -7,7 +7,7 @@ fullBrowse
 		method: self selectedMethod
 		group: self selectedGroup
 		showGroups: self showGroups
-		showHierarchy: self showPackages not
+		showHierarchy: self showHierarchy
 		showPackages: self showPackages
 		showComment: self showComment 
 		showInstance: self showInstance 

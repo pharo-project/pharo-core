@@ -8,7 +8,7 @@ classSelector
 								ifTrue: [strm nextPut: each]]]) sort].
 	entryCompletion := EntryCompletion new
 				dataSourceBlock: [:currText | applicantsBlock value ];
-				filterBlock: [:currApplicant :currText | currText size > 0
+				filterBlock: [:currApplicant :currText | currText notEmpty
 						and: [currApplicant asUppercase includesSubstring: currText asString asUppercase]].
 	^ (UIManager default newAutoAcceptTextEntryFor: self
 			get: #className

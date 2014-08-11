@@ -1,4 +1,4 @@
 updateGroupView
 
-	self resetPackagesList.
+	self resetPackageGroupsList.
 	self changed: #getPackageItem:

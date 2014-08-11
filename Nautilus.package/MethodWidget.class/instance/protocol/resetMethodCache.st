@@ -1,3 +1,0 @@
-resetMethodCache
-
-	methods := nil

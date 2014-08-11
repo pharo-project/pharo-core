@@ -3,11 +3,11 @@ sourceCode
 	self removeSourceTextAreaLimit.
 	^self selectedClass 
 		ifNil: [ self defaultClassDescriptor]
-		ifNotNil: [ self selectedMethod 
+		ifNotNil: [:class | self selectedMethod 
 			ifNil: [ self selectedCategory 
 					ifNotNil: [ 
 							self putSourceTextAreaLimit.
-							self defaultMethodSource]
+							class sourceCodeTemplate]
 					ifNil: [ self selectedClassDescription]]
 			ifNotNil: [ 
 					self putSourceTextAreaLimit.

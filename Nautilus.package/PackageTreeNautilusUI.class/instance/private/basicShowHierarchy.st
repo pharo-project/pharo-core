@@ -1,9 +1,6 @@
 basicShowHierarchy
 	"Prepares the class panel to show hierarchies"
-	| class |
-			
-	class := self selectedClass theNonMetaClass.
 	self resetClassesListSelection.
-	self classWidget selectClass: class.
-	self resetPackagesList.
+	self classWidget selectClass: self selectedClass.
+	self resetPackageGroupsList.
 	self resetClassesList.	

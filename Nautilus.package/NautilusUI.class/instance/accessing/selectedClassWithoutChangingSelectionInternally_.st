@@ -14,7 +14,7 @@ selectedClassWithoutChangingSelectionInternally: aClass
 		self setWindowTitle.
 		
 		packageChanged ifTrue: [
-			self packageWidget resetPackagesSelection.
+			self resetPackageGroupsListSelection.
 			self packageWidget selectPackage: package.
 			self showGroups
 				ifTrue: [ self updateClassView ]

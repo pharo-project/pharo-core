@@ -1,6 +1,6 @@
 "protocol: accessing"
 selectedClassWithoutChangingSelection: aClass
-	categoryWidget resetCategoryCache.
+	self resetCategoriesList.
 	self okToChangeSourceAndComment
 		ifFalse: [ ^ self ].
 	aClass

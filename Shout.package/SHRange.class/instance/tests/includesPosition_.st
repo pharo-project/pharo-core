@@ -1,3 +1,2 @@
 includesPosition: anInteger
-
-	^start <= anInteger and: [ end >= anInteger ]
+	^ anInteger between: start and: end

@@ -1,5 +1,4 @@
 categorySelectionChanged
 
-	methodWidget 
-		resetMethodCache;
-		updateList.
+	self resetMethodsList
+	methodWidget updateMethodList.

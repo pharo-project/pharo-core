@@ -1,7 +1,7 @@
 buildCategoriesList
 	^ categoriesList := PluggableIconListMorph new
 		basicWrapSelector: #categoryWrapper:;
-		resetListSelector: #resetCategoriesListSelection;
+		resetListSelector: #resetCategorySelection;
 		keystrokeSelector: #keyPressedOnCategory:;
 		autoDeselect: true;
 		getListSizeSelector: #categoryListSize;

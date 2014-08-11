@@ -2,7 +2,7 @@ selectedCategory: protocol
 
 	self okToChange
 		ifTrue: [
-			methodWidget resetMethodCache.
+			self resetMethodsList.
 			self model package: self selectedPackage class: self selectedClass category: protocol method: nil.
 			self resetMethodsListSelection.
 			protocol 

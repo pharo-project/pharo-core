@@ -1,0 +1,2 @@
+resetPackageGroupsList
+	self packageWidget resetPackageGroupList

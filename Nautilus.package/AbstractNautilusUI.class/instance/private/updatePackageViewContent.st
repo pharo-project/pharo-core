@@ -2,6 +2,6 @@ updatePackageViewContent
 
 	| vScrollValue |
 	vScrollValue := self packageWidget scrollValue y.
-	self resetPackagesList.
+	self resetPackageGroupsList.
 	self changed: #getPackageItem:.
 	self packageWidget vScrollValue: vScrollValue
