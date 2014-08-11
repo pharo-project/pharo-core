@@ -3,5 +3,5 @@ buildTextEditorKeymapsOn: aBuilder
 	
 	(aBuilder shortcut: #accept)
 		category: #TextMorph
-		default: $s ctrl win | $s ctrl unix | $s command mac
+		default: PharoShortcuts current acceptShortcut
 		do: [ :morph | morph acceptContents ].

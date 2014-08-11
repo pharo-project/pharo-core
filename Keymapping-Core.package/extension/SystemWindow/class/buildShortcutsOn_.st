@@ -3,6 +3,6 @@ buildShortcutsOn: aBuilder
 
 	(aBuilder shortcut: #close)
 		category: #WindowShortcuts
-		default: $w ctrl | $w command mac
+		default: PharoShortcuts current closeWindowShortcut
 		do: [ :target | target close ]
 		description: 'Close this window'.

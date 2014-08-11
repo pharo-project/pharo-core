@@ -1,0 +1,3 @@
+current
+
+	^ self new

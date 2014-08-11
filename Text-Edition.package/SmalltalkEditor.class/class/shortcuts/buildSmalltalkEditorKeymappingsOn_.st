@@ -2,29 +2,29 @@ buildSmalltalkEditorKeymappingsOn: aBuilder
 	<keymap>
 	(aBuilder shortcut: #browseIt)
 		category: #SmalltalkEditor
-		default: $b command mac | $b ctrl win | $b ctrl unix
+		default: PharoShortcuts current browseShortcut
 		do: [ :morph | morph browseIt ].
 	(aBuilder shortcut: #doIt)
 		category: #SmalltalkEditor
-		default: $d command mac | $d ctrl win | $d ctrl unix
+		default: PharoShortcuts current doItShortcut
 		do: [ :morph | morph doIt ].
 	(aBuilder shortcut: #inspectIt)
 		category: #SmalltalkEditor
-		default: $i command mac | $i ctrl win | $i ctrl unix
+		default: PharoShortcuts current inspectItShortcut
 		do: [ :morph | morph inspectIt ].
 	(aBuilder shortcut: #implementorsOfIt)
 		category: #SmalltalkEditor
-		default: $m command mac | $m ctrl win | $m ctrl unix
+		default: PharoShortcuts current browseImplementorsShortcut
 		do: [ :morph | morph implementorsOfIt ].
 	(aBuilder shortcut: #sendersOfIt)
 		category: #SmalltalkEditor
-		default: $n command mac | $n ctrl win | $n ctrl unix
+		default: PharoShortcuts current browseSendersShortcut
 		do: [ :morph | morph sendersOfIt ].
 	(aBuilder shortcut: #formatCode)
 		category: #SmalltalkEditor
-		default: $f ctrl shift
+		default: PharoShortcuts current formatCodeShortcut
 		do: [ :morph | morph formatSourceCode ].
 	(aBuilder shortcut: #printIt)
 		category: #SmalltalkEditor
-		default: $p command mac | $p ctrl win | $p ctrl unix
+		default: PharoShortcuts current printItShortcut
 		do: [ :morph | morph printIt ]

@@ -1,4 +1,4 @@
-KMCategory subclass: #SpotlightShortcuts
+KMCategory subclass: #SpotlightShortcutsCategory
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

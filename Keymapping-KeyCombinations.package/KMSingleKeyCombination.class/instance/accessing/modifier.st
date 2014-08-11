@@ -1,3 +1,3 @@
 modifier
 
-	^ KMModifier new.
+	^ KMNoModifier new.

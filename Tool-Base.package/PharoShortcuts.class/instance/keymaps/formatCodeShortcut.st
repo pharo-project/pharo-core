@@ -1,0 +1,3 @@
+formatCodeShortcut
+
+	^ $f ctrl shift

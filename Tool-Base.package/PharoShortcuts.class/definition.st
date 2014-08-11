@@ -1,4 +1,4 @@
-KMCategory subclass: #ToolShortcuts
+Object subclass: #PharoShortcuts
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

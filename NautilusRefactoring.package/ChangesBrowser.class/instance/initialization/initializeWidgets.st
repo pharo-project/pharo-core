@@ -11,5 +11,5 @@ initializeWidgets
 	self initializeTextArea.
 	self setFocus.
 	self
-		bindKeyCombination: $s command toAction: [ self accept ];
+		bindKeyCombination: PharoShortcuts current acceptShortcut toAction: [ self accept ];
 		bindKeyCombination: Character escape toAction: [ self cancel ]

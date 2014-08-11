@@ -5,7 +5,7 @@ browseSubMenu: aMenu
 			anItem 
 				name: 'Browse Full';
 				action: [ self browseSelectedObject ];
-				shortcut: $b command mac | $b alt win | $b alt unix  ].
+				shortcut: PharoShortcuts current browseShortcut  ].
 			
 		aGroup addItem: [ :anItem |
 			anItem 

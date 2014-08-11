@@ -1,9 +1,9 @@
 registerListShortcutsFor: aWidget
 
-	aWidget bindKeyCombination: $b command toAction: [ self browseMethod ].
-	aWidget bindKeyCombination: $i command toAction: [ self inspectMethod ].
-	aWidget bindKeyCombination: $m command toAction: [ self browseMessages ].
-	aWidget bindKeyCombination: $n command toAction: [ self browseSendersOfMessage ].
-	aWidget bindKeyCombination: $n shift command toAction: [ self browseClassRefs ].
-	aWidget bindKeyCombination: $v command toAction: [ self browseVersions ].
-	aWidget bindKeyCombination: $x command toAction: [ self removeMethods ].
+	aWidget bindKeyCombination: PharoShortcuts current browseShortcut toAction: [ self browseMethod ].
+	aWidget bindKeyCombination: PharoShortcuts current inspectItShortcut toAction: [ self inspectMethod ].
+	aWidget bindKeyCombination: PharoShortcuts current browseImplementorsShortcut toAction: [ self browseMessages ].
+	aWidget bindKeyCombination: PharoShortcuts current browseSendersShortcut toAction: [ self browseSendersOfMessage ].
+	aWidget bindKeyCombination: PharoShortcuts current browseReferencesShortcut toAction: [ self browseClassRefs ].
+	aWidget bindKeyCombination: PharoShortcuts current browseVersionsShortcut toAction: [ self browseVersions ].
+	aWidget bindKeyCombination: PharoShortcuts current removeShortcut toAction: [ self removeMethods ].

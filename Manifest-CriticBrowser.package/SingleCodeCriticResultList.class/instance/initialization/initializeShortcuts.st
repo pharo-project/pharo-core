@@ -1,2 +1,2 @@
 initializeShortcuts
-	criticsModel bindKeyCombination: $b command toAction: [ self browseCritic ]
+	criticsModel bindKeyCombination: PharoShortcuts current browseShortcut toAction: [ self browseCritic ]

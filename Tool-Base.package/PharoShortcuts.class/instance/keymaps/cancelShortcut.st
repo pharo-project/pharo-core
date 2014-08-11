@@ -1,0 +1,3 @@
+cancelShortcut
+
+	^ Character escape asKeyCombination

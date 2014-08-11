@@ -3,12 +3,12 @@ buildShortcutsOn: aBuilder
 
 	(aBuilder shortcut: #close)
 		category: #ChangesBrowserGlobalShortcuts
-		default: Character escape asKeyCombination 
+		default: PharoShortcuts current cancelShortcut
 		do: [ :target | target cancel ]
 		description: 'Close this dialog'.
 		
 	(aBuilder shortcut: #accept)
 		category: #ChangesBrowserGlobalShortcuts
-		default: $s command
+		default: PharoShortcuts current acceptShortcut
 		do: [ :target | target accept ]
 		description: 'Accept the proposed changes'.

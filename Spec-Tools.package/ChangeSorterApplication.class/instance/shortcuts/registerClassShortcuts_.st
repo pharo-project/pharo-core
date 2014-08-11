@@ -1,5 +1,5 @@
 registerClassShortcuts: aWidget
 
-	aWidget bindKeyCombination: $b command toAction: [ self selectedClass ifNotNil:[ self browseMethodFull ]].
+	aWidget bindKeyCombination: PharoShortcuts current browseShortcut toAction: [ self selectedClass ifNotNil:[ self browseMethodFull ]].
 	aWidget bindKeyCombination: $d command toAction: [ self selectedClass ifNotNil:[ self forgetClass ]].
-	aWidget bindKeyCombination: $x command toAction: [ self selectedClass ifNotNil:[ self removeClass ]].
+	aWidget bindKeyCombination: PharoShortcuts current removeShortcut toAction: [ self selectedClass ifNotNil:[ self removeClass ]].
