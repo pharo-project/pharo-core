@@ -1,9 +1,7 @@
 initialize
-	"Initialize a blank ChangeList.  Set the contentsSymbol to reflect whether diffs will initally be shown or not"
+	"Initialize a blank ChangeList.  Set the contentsSymbol to reflect whether diffs will be prettyPrinted or not"
 
-	contentsSymbol := self class diffsInChangeList
-							ifTrue: [self defaultDiffsSymbol]
-							ifFalse: [#source].
+	contentsSymbol := self defaultDiffsSymbol.
 	changeList := OrderedCollection new.
 	list := OrderedCollection new.
 	listIndex := 0.

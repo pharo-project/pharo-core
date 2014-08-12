@@ -29,4 +29,4 @@ mustBeBooleanInMagic: context
 	"jump to the instruction after jump"
 	context pc: sendNode irInstruction nextBytecodeOffsetAfterJump.
 	"Execute the generated method"
-	^ self withArgs: {context} executeMethod: method
+	^ context receiver withArgs: {context} executeMethod: method
