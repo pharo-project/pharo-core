@@ -1,5 +1,5 @@
 Announcement subclass: #ZnLogEvent
-	instanceVariableNames: 'timeStamp processId category message'
-	classVariableNames: ''
+	instanceVariableNames: 'timestamp id'
+	classVariableNames: 'IdCounter LogEventAnnouncer'
 	poolDictionaries: ''
 	category: 'Zinc-HTTP-Logging'

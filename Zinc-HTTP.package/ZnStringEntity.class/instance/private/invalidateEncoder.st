@@ -1,0 +1,2 @@
+invalidateEncoder
+	self encoder: nil

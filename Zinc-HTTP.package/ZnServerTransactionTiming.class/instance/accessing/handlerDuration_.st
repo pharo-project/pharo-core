@@ -1,0 +1,2 @@
+handlerDuration: anObject
+	handlerDuration := anObject

@@ -1,0 +1,2 @@
+responseDuration
+	^ responseDuration

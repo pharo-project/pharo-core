@@ -1,6 +1,6 @@
 executeWithRetriesRemaining: retryCount
 	^ [ self executeWithRedirectsRemaining: self maxNumberOfRedirects ]
-		on: NetworkError, ZnParseError, ZnCharacterEncodingError, ZnUnknownScheme, ZnPortNotANumber
+		on: self retryExceptionSet
 		do: [ :exception |
 			retryCount > 0
 				ifTrue: [

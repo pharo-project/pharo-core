@@ -1,2 +1,0 @@
-event: logEvent
-	self subclassResponsibility 

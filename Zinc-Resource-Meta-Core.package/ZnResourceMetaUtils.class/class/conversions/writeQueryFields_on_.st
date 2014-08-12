@@ -1,2 +1,2 @@
 writeQueryFields: dictionary on: stream
-	self writeQueryFields: dictionary withTextEncoding: 'utf-8' on: stream 
+	self writeQueryFields: dictionary withEncoder: ZnUTF8Encoder new on: stream 

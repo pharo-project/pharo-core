@@ -4,8 +4,9 @@ prepareRedirect
 
 	| targetUrl |
 	targetUrl := self redirectUrl.
-	self noteRedirect: targetUrl.
+	self logRedirect: targetUrl.
 	self receiveCookies.
+	self prepareNextRequest.
 	(#(POST PUT) includes: request method)
 		ifTrue: [ self method: #GET ].
 	request hasEntity

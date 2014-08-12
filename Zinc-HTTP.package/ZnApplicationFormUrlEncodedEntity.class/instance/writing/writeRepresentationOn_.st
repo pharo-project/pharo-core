@@ -3,7 +3,7 @@ writeRepresentationOn: stream
 		ifNotNil: [:charSet|
 			ZnResourceMetaUtils
 				writeQueryFields: self fields 
-				withTextEncoding: charSet 
+				withEncoder: (ZnCharacterEncoder newForEncoding: charSet)
 				on: stream] 
 		ifNil: [ 
 			ZnResourceMetaUtils 

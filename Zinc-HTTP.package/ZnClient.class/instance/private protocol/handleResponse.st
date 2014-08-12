@@ -9,5 +9,4 @@ handleResponse
 			(ZnUnexpectedContentType 
 				expected: request accept asZnMimeType 
 				actual: response contentType) signal ].
-	lastUsed := Time totalSeconds.
 	^ self contents

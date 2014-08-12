@@ -1,2 +1,0 @@
-initialize 
-	self disable

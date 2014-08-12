@@ -1,2 +1,2 @@
 pathSegments
-	^ segments
+	^ segments ifNil: [ #() ]

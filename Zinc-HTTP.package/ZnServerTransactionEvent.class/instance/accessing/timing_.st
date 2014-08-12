@@ -1,0 +1,2 @@
+timing: anObject
+	timing := anObject

@@ -8,5 +8,5 @@ handleRequestProtected: request
 			self debugMode
 				ifTrue: [ exception pass ]
 				ifFalse: [
-					self logServerError: exception. 
+					self logServerHandlerError: exception.
 					ZnResponse serverError: exception printString ] ]

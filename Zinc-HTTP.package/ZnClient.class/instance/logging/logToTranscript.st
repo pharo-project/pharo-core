@@ -1,4 +1,6 @@
 logToTranscript
-	"Setup logging to the Transcript"
+	"Setup logging to the Transcript.
+	If logging was completely off, turn it on"
 
-	self log addListener: ZnTranscriptLogger new  
+	logLevel isZero ifTrue: [ self loggingOn ].
+	ZnLogEvent logToTranscript 

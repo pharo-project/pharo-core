@@ -1,11 +1,4 @@
 commentForCurrentUpdate
- ^ '13817 remove setting for showing diffs in change list
-	https://pharo.fogbugz.com/f/cases/13817
-
-13807 nil protocol and unclassified in ValueLink
-	https://pharo.fogbugz.com/f/cases/13807
-
-13805 mustBeBooleanMagicIn: can crash the vm
-	https://pharo.fogbugz.com/f/cases/13805
-
+ ^ '13838 Update Zn+Zdc August 2014
+	https://pharo.fogbugz.com/f/cases/13838
 '

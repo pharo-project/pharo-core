@@ -1,9 +1,15 @@
 testLogging
-	| client memoryLogger |
-	memoryLogger := ZnMemoryLogger new.
+	| client logEventCollection |
+	logEventCollection := OrderedCollection new.
+	ZnLogEvent announcer 
+		"when: ZnLogEvent send: #add: to: logEventCollection. " "maintain Pharo 2 compatibility"
+		on: ZnLogEvent send: #add: to: logEventCollection. 
 	(client := ZnClient new)
+		clientId: #C1;
 		beOneShot.
-	client log addListener: memoryLogger.
 	client	get: 'http://zn.stfx.eu/zn/small.html'.
 	client close.
-	self deny: memoryLogger logEvents isEmpty
+	ZnLogEvent announcer 
+		unsubscribe: logEventCollection.
+	self deny: logEventCollection isEmpty.
+	self assert: logEventCollection anyOne clientId equals: #C1

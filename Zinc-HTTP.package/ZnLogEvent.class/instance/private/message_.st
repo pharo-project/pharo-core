@@ -1,2 +1,0 @@
-message: string
-	message := string

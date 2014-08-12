@@ -1,2 +1,0 @@
-timeStamp: aTimeStamp
-	timeStamp := aTimeStamp
