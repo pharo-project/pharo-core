@@ -1,4 +1,3 @@
 maxListSize
 
-	maxListSize ifNil: [maxListSize := self defaultMaxListSize].
-	^maxListSize
+	^maxListSize ifNil: [maxListSize := self defaultMaxListSize]

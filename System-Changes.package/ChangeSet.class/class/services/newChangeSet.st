@@ -6,7 +6,7 @@ newChangeSet
 	| newName newSet |
 	newName := UIManager default
 		request: 'Please name the new change set:'
-		initialAnswer: ChangeSet defaultName.
+		initialAnswer: self defaultName.
 	newName isEmptyOrNil ifTrue:
 		[^ nil].
 	newSet := self basicNewChangeSet: newName.

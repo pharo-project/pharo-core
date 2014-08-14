@@ -14,14 +14,14 @@ fileOutChangeSetsNamed: nameList
 				ifNil: [notFound add: aName]].
 
 	infoString := (nameList size - notFound size) printString, ' change set(s) filed out'.
-	notFound size > 0 ifTrue:
+	notFound notEmpty ifTrue:
 		[infoString := infoString, '
 
 ', notFound size printString, ' change set(s) not found:'.
 		notFound do:
 			[:aName | infoString := infoString, '
 ', aName]].
-	empty size > 0 ifTrue:
+	empty notEmpty ifTrue:
 		[infoString := infoString, '
 ', empty size printString, ' change set(s) were empty:'.
 		empty do:

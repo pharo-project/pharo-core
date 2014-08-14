@@ -4,7 +4,7 @@ newChangesFromStream: aStream named: aName
 	unchanged. Return the new change set or nil on failure."
 
 	| oldChanges newName newSet |
-	oldChanges := ChangeSet current.
+	oldChanges := self current.
 	newName := aName withoutPeriodSuffix.
 	newSet := self basicNewChangeSet: newName.
 	[ | newStream |

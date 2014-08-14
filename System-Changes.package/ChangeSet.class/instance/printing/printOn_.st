@@ -1,4 +1,5 @@
 printOn: aStream
-
 	super printOn: aStream.
-	aStream nextPutAll: ' named ', self name
+	aStream
+		nextPutAll: ' named ';
+		nextPutAll: self name

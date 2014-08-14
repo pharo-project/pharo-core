@@ -16,7 +16,7 @@ scanFile: file from: startPosition to: stopPosition
 			itemPosition := file position.
 			item := file nextChunk.
 			file skipStyleChunk.
-			item size > 0 ifTrue:[
+			item notEmpty ifTrue:[
 				changeList add: (ChangeRecord new file: file position: itemPosition type: #doIt).
 			].
 		].

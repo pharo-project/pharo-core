@@ -1,6 +1,7 @@
 cleanUp: aggressive
 	"Only delete change sets when being aggressive"
 
-	aggressive ifTrue: [ 
-			ChangeSet removeChangeSetsNamedSuchThat: [ :each | true ].
-			ChangeSet resetCurrentToNewUnnamedChangeSet.].
+	aggressive
+		ifFalse: [ ^ self ].
+	ChangeSet removeChangeSetsNamedSuchThat: [ :each | true ].
+	ChangeSet resetCurrentToNewUnnamedChangeSet

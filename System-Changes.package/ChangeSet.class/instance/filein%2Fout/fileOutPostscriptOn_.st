@@ -3,9 +3,9 @@ fileOutPostscriptOn: stream
 
 	| aString |
 	aString := self postscriptString.
-	(aString notNil and: [ aString size > 0 ])
-		ifTrue: [ 
-			stream nextChunkPut: aString.	"surroundedBySingleQuotes"
-			stream
-				cr;
-				cr ]
+	(aString notNil and: [ aString notEmpty ])
+		ifFalse: [ ^ self ].
+	stream nextChunkPut: aString.	"surroundedBySingleQuotes"
+	stream
+		cr;
+		cr

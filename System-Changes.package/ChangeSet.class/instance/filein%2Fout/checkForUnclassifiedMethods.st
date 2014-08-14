@@ -2,7 +2,7 @@ checkForUnclassifiedMethods
 	"Open a message list browser on all methods in the current change set that have not been categorized,"
 
 	| aList |
-	(aList := self methodsWithoutClassifications) size > 0
+	(aList := self methodsWithoutClassifications) notEmpty
 		ifFalse:
 			[^ self inform: 'All methods in "', self name, '"
 are categorized.']

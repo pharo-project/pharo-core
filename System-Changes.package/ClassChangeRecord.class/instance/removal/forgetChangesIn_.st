@@ -17,7 +17,7 @@ forgetChangesIn: otherRecord
 					(#(#remove #addedThenRemoved) includes: actionToSubtract)
 						ifTrue: [ methodChanges removeKey: selector ifAbsent: [  ] ] ] ].
 	changeTypes isEmpty
-		ifFalse: [ 
-			changeTypes removeAllFoundIn: otherRecord allChangeTypes.
-			(changeTypes includes: #rename)
-				ifFalse: [ changeTypes removeAllSuchThat: [ :x | x beginsWith: 'oldName: ' ] ] ]
+		ifTrue: [ ^ self ].
+	changeTypes removeAllFoundIn: otherRecord allChangeTypes.
+	(changeTypes includes: #rename)
+		ifFalse: [ changeTypes removeAllSuchThat: [ :x | x beginsWith: 'oldName: ' ] ]

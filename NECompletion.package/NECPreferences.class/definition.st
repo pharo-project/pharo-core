@@ -2,4 +2,4 @@ Object subclass: #NECPreferences
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'NECompletion-Pharo'
+	category: 'NECompletion-Model'

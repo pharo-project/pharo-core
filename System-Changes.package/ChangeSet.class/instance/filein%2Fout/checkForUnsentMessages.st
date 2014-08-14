@@ -8,7 +8,7 @@ checkForUnsentMessages
 		do: [:each | each isValid
 				ifTrue: [allChangedSelectors add: each selector]].
 	unsent := self systemNavigation allUnsentMessagesIn: allChangedSelectors.
-	unsent size = 0
+	unsent notEmpty
 		ifTrue: [^ self inform: 'There are no unsent 
 messages in change set
 ' , nameLine].

@@ -2,7 +2,7 @@ gatherChangeSets		"ChangeSet gatherChangeSets"
 	"Collect any change sets created in other projects"
 	| allChangeSets |
 	allChangeSets := AllChangeSets asSet.
-	ChangeSet allSubInstances do: [:each | | obsolete |
+	self allSubInstances do: [:each | | obsolete |
 		(allChangeSets includes: each) == (obsolete := each isMoribund) ifTrue:[
 			obsolete
 				ifTrue: ["Was included and is obsolete."

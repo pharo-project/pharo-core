@@ -25,7 +25,7 @@ copyPreamble: preamble from: aStream at: pos
 	self nextChunkPut: (String streamContents: 
 			[ :strm | 
 			strm nextPutAll: preamble.
-			stamp size > 0 ifTrue: 
+			stamp notEmpty ifTrue: 
 				[ strm
 					nextPutAll: ' stamp: ';
 					print: stamp ] ]).

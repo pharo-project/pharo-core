@@ -1,1 +1,1 @@
-RecentMessageList record and store all the changes and can show them by doing RecentMessageList openInWorld.
+MessageList is a simple object that holds a set of ordered method definitions.See MessageList example for an example.MessageList exampleInstance Variables:	methodReferenceList	<Collection>

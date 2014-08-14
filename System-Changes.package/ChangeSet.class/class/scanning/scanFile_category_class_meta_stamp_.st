@@ -4,7 +4,7 @@ scanFile: file category: cat class: class meta: meta stamp: stamp
 	[itemPosition := file position.
 	method := file nextChunk.
 	file skipStyleChunk.
-	method size > 0] whileTrue:[
+	method notEmpty] whileTrue:[
 		items add: (ChangeRecord new file: file position: itemPosition type: #method
 							class: class category: cat meta: meta stamp: stamp)].
 	^items

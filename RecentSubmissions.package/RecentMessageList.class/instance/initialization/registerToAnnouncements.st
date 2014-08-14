@@ -1,7 +1,6 @@
 registerToAnnouncements
 
 	SystemAnnouncer uniqueInstance unsubscribe: self.
-	
 	SystemAnnouncer uniqueInstance weak
 		"Class"
 		on: ClassCommented send: #aClassHasBeenCommented: to: self;

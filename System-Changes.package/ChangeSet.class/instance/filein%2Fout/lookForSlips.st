@@ -5,7 +5,7 @@ lookForSlips
 	nameLine := '
 "', self name, '"
 '.
-	(slips := self checkForSlips) size = 0 ifTrue:
+	(slips := self checkForSlips) isEmpty ifTrue:
 		[^ self inform: 'No slips detected in change set', nameLine].
 
 	msg := slips size = 1

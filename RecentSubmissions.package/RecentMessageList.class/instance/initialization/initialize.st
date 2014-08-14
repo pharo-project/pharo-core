@@ -1,4 +1,7 @@
-initialize
-
+initialize 
+	"Initialization"
+	
 	super initialize.
-	self registerToAnnouncements
+	self clearAll.	
+	self registerToAnnouncements.
+	

@@ -4,5 +4,5 @@ resetUniqueInstance
 	
 	self stopNotifications.
 	self uniqueInstance triggerEvent: #reset.
-	UniqueInstance := nil.
+	UniqueInstance := nil
 	
