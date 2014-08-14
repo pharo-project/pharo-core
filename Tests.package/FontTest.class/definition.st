@@ -1,5 +1,0 @@
-TestCase subclass: #FontTest
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'Tests-Fonts'

@@ -1,5 +1,5 @@
 packagesNotToSavePatternNames
-	^ #(	'ScriptLoader*'
+	^ #(	'ScriptLoader??'
 			'SLICE*'
 			'Slice*'
 			'slice*'
