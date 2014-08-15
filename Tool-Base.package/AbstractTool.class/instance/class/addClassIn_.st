@@ -1,15 +1,23 @@
 addClassIn: aPackage
-	" add a new class in the provided package. A dialog will be opened to let the user set the class definition "
+	" Add a new class in the provided package. A dialog will be opened to let the user set the class definition "
 
-	| classSymbol systemCategory classDefinition |
+	| classSymbol systemCategory proposedSuperclass classDefinition newClass  |
 	classSymbol := #NameOfSubclass.
-	systemCategory := aPackage categoryName.
+	systemCategory := aPackage
+		ifNotNil: [ aPackage categoryName ]
+		ifNil: [ 'Unknown' ].
+	proposedSuperclass := self selectedClasses in: [ :classes |
+		classes size == 1
+			ifFalse: [ Object ]
+			ifTrue: [ classes first ]].
 	classDefinition := self class defineClassTemplate 
-		format: { classSymbol. systemCategory } .
+		format: { proposedSuperclass. classSymbol. systemCategory }.
 	classDefinition := UIManager default 
 		multiLineRequest: 'Define class definition:'
 		initialAnswer: classDefinition
 		answerHeight: 250.
 	classDefinition isEmptyOrNil 
 		ifTrue: [ ^ self ].
-	self class evaluate: classDefinition.
+		
+	newClass := self class evaluate: classDefinition.
+	self browseClass: newClass

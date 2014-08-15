@@ -1,6 +1,6 @@
 defineClassTemplate 
-	^ 'Object subclass: #{1}
+	^ '{1} subclass: #{2}
 		instanceVariableNames: '''' 
 		classVariableNames: ''''
 		poolDictionaries: ''''
-		category: ''{2}'''
+		category: ''{3}'''

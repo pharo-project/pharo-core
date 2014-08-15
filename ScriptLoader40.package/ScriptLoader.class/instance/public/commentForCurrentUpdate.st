@@ -1,5 +1,5 @@
 commentForCurrentUpdate
- ^ '13311 Improve Object>>explicitRequirement behavior for methods overriden by a superclass
-	https://pharo.fogbugz.com/f/cases/13311
+ ^ '13526 System Browser Add Class menu item does not offer current class as a superclass
+	https://pharo.fogbugz.com/f/cases/13526
 
 '
