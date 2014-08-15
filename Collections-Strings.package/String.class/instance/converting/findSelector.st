@@ -3,6 +3,7 @@ findSelector
 	| sel possibleParens |
 	sel := self trimBoth.
 	sel := sel copyReplaceAll: '#' with: ''.
+	sel := sel copyReplaceAll: '[' with: '[ '.
 	(sel includes: $:) ifTrue:
 		[sel := sel copyReplaceAll: ':' with: ': '.	"for the style (aa max:bb) with no space"
 		possibleParens := sel findTokens: Character separators.
