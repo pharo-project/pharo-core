@@ -1,1 +1,1 @@
-An IRBlockReturnTop is xxxxxxxxx.Instance Variables	successor:		<Object>successor	- xxxxx
+I model the bytecode for block returns.

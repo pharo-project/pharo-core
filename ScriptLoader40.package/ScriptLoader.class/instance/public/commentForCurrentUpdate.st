@@ -1,11 +1,14 @@
 commentForCurrentUpdate
- ^ '13848 EyePatch for inspectors eye
-	https://pharo.fogbugz.com/f/cases/13848
+ ^ '13526 System Browser Add Class menu item does not offer current class as a superclass
+	https://pharo.fogbugz.com/f/cases/13526
 
-13820 Move #useAstColoring setting to the Shout settings group
-	https://pharo.fogbugz.com/f/cases/13820
+10146 Semantic analysis: TempVars should not have index
+	https://pharo.fogbugz.com/f/cases/10146
 
-13852 MNU on ChangeSorter fileOut
-	https://pharo.fogbugz.com/f/cases/13852
+10144 Improve Comments Opal
+	https://pharo.fogbugz.com/f/cases/10144
+
+13853 GroupWindowMorph does not use themed background color.
+	https://pharo.fogbugz.com/f/cases/13853
 
 '

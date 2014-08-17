@@ -1,6 +1,6 @@
 initialize
 
-	tempVars :=  OCKeyedSet keyBlock: [:var | var name].
+	tempVars :=  OrderedDictionary new.
 	copiedVars := OCKeyedSet keyBlock: [:var | var name].
 	tempVector  := OCKeyedSet keyBlock: [:var | var name].
 	id := 0.

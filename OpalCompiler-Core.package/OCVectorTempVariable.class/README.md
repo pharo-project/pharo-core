@@ -1,1 +1,1 @@
-An OCVectorTempVariable is xxxxxxxxx.Instance Variables	vectorName:		<Object>vectorName	- xxxxx
+I model a temp variable that is stored in a temp vector.

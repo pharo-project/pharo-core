@@ -1,5 +1,5 @@
 OCAbstractVariable subclass: #OCAbstractLocalVariable
-	instanceVariableNames: 'name index'
+	instanceVariableNames: 'name'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'OpalCompiler-Core-Semantics'

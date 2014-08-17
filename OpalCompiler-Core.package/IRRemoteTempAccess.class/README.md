@@ -1,1 +1,1 @@
-An IRRemoteTempAccess is xxxxxxxxx.Instance Variables	tempVectorName:		<Object>tempVectorName	- xxxxx
+I model the pushRemoteTemporary Bytecode

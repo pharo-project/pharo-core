@@ -1,1 +1,1 @@
-An OCRequestorScope is xxxxxxxxx.Instance Variables	requestor:		<Object>requestor	- xxxxx
+A special scope for tools: variables in the worspace have their own scope, for example

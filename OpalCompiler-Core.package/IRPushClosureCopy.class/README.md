@@ -1,1 +1,1 @@
-An IRPushClosureCopy is xxxxxxxxx.Instance Variables	arguments:		<Object>	blockSequence:		<Object>	copiedValues:		<Object>	lastBlockSequence:		<Object>	numArgs:		<Object>	tempMap:		<Object>arguments	- xxxxxblockSequence	- xxxxxcopiedValues	- xxxxxlastBlockSequence	- xxxxxnumArgs	- xxxxxtempMap	- xxxxx
+Instruction push closure copy bytecodeI am modelled as a Jump as the bytecode of the block is inlined into the method, with the execution jumping over these embedded bytecodes. 

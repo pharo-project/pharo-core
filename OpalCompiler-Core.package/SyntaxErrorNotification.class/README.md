@@ -1,1 +1,1 @@
-A SyntaxErrorNotification is xxxxxxxxx.Instance Variables	category:		<Object>	code:		<Object>	doitFlag:		<Object>	inClass:		<Object>	location:		<Object>category	- xxxxxcode	- xxxxxdoitFlag	- xxxxxinClass	- xxxxxlocation	- xxxxx
+I am raised on Syntax Error. When in interative mode, I open a SyntaxErrorDebugger

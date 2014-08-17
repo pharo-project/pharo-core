@@ -1,2 +1,0 @@
-index: n
-	index := n

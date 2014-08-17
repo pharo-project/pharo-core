@@ -1,1 +1,1 @@
-An OCTempVariable is xxxxxxxxx.Instance Variables	escaping:		<Object>escaping	- xxxxx
+I model temp variables. With Closures, there are two kinds: Copying and those that are stores in a so called temp vector, a heap allocated array that itself is stored in an un-named copying temp variable.

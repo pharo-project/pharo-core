@@ -1,1 +1,1 @@
-A ManifestOpalCompilerCore is xxxxxxxxx.
+This is the Manifest for Opal for recording false positive of the code critique tool

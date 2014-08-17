@@ -7,9 +7,11 @@ variable: varNode shadows: semVar
 				messageText: self stringMessage;
 				signal ]
 		ifFalse: [ 
-			Transcript cr;
-				show: self methodClass name,'>>', varNode methodNode selector;
+			Transcript
+				cr;
+				show: self methodClass name;
+				show: '>>';
+				show: varNode methodNode selector;
 				show: '(';
 				show: varNode name;
-				show: ' is shadowed)';
-				yourself].
+				show: ' is shadowed)']
