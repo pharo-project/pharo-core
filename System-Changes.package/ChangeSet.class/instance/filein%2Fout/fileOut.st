@@ -2,7 +2,7 @@ fileOut
 	"File out the receiver, to a file whose name is a function of the  
 	change-set name and a unique numeric tag."
 	| slips nameToUse |
-	self promptForDefaultChangeSetDirectoryIfNecessary.
+	self class promptForDefaultChangeSetDirectoryIfNecessary.
 	nameToUse := (self defaultChangeSetDirectory / self name , 'cs') nextVersion basename.
 	Cursor write showWhile: [ | internalStream |
 			internalStream := (String new: 10000) writeStream.

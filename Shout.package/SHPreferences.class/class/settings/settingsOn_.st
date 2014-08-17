@@ -1,6 +1,6 @@
 settingsOn: aBuilder 
 	<systemsettings>
-	(aBuilder setting: #'Shout: Syntax Highlighting') 
+	(aBuilder setting: #'Syntax Highlighting') 
 		target: self;
 		dialog: [ self styleTableRow ];
 		parentName: #codeBrowsing;

@@ -1,5 +1,11 @@
 commentForCurrentUpdate
- ^ '13526 System Browser Add Class menu item does not offer current class as a superclass
-	https://pharo.fogbugz.com/f/cases/13526
+ ^ '13848 EyePatch for inspectors eye
+	https://pharo.fogbugz.com/f/cases/13848
+
+13820 Move #useAstColoring setting to the Shout settings group
+	https://pharo.fogbugz.com/f/cases/13820
+
+13852 MNU on ChangeSorter fileOut
+	https://pharo.fogbugz.com/f/cases/13852
 
 '
