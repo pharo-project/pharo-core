@@ -1,5 +1,7 @@
 addVectorTemp: aTemp
-	^ tempVector add: (OCVectorTempVariable new
+	^ tempVector 
+		at:  aTemp name
+		put: (OCVectorTempVariable new
 			name: aTemp name;
 			vectorName: self tempVectorName;
 			scope: self;

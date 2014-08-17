@@ -2,7 +2,6 @@ codeEditingSettingsOn: aBuilder
 	<systemsettings> 
 	(aBuilder group: #codeEditing) 
 		label: 'Editing' translated;
-		parent: #codeBrowsing; 
 		noOrdering;
 		description: 'All settings concerned with text editing' translated;
 		with: [	

@@ -1,14 +1,14 @@
 commentForCurrentUpdate
- ^ '13526 System Browser Add Class menu item does not offer current class as a superclass
-	https://pharo.fogbugz.com/f/cases/13526
+ ^ '13859 replace two uses of OCKeyedSet with Dictionary
+	https://pharo.fogbugz.com/f/cases/13859
 
-10146 Semantic analysis: TempVars should not have index
-	https://pharo.fogbugz.com/f/cases/10146
+13856 Trivial cleanup in DebuggerModel
+	https://pharo.fogbugz.com/f/cases/13856
 
-10144 Improve Comments Opal
-	https://pharo.fogbugz.com/f/cases/10144
+13857 temporary fix old Browser to allow access to class organization protocol
+	https://pharo.fogbugz.com/f/cases/13857
 
-13853 GroupWindowMorph does not use themed background color.
-	https://pharo.fogbugz.com/f/cases/13853
+13819 Remove Check for Slips Preference
+	https://pharo.fogbugz.com/f/cases/13819
 
 '

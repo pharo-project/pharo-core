@@ -1,9 +1,13 @@
 nautilusSettingsOn: aBuilder
 	<systemsettings>
-	
+	(aBuilder group: #codeBrowsing) 
+		label: 'Code browsing' translated;
+		description: 'All settings concerned with code browsing look''n feel' translated;
+		with: [	
 	(aBuilder group: #Nautilus)
 		target: self;
 		label: 'Nautilus' translated;
+		parent: #codeBrowsing; 
 		description: 'Settings related to the browser' translated;
 		with: [
 			(aBuilder setting: #openOnGroups)
@@ -41,4 +45,4 @@ Put a negative value to disable' translated.
 			(aBuilder setting: #showDebugMenus)
 				label: 'Show DEBUG menu?' translated;
 				description: 'If true, the browser will show DEBUG entries in all menus for debugging Nautilus itself' translated.
-				]
+				]]

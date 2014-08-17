@@ -1,6 +1,6 @@
 initialize
   
-	vars := OCKeyedSet keyBlock: [:var | var name].
+	vars := Dictionary new.
 	selfVar := OCSpecialVariable new
 		name: 'self';
 		scope: self;

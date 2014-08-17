@@ -1,2 +1,2 @@
 hasEscapingVars
-	^ (copiedVars isEmpty & tempVector isEmpty) not
+	^ (copiedVars isEmpty and: [tempVector isEmpty]) not

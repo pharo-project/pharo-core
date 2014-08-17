@@ -6,7 +6,7 @@ defineMessageFrom: aString notifying: aController
 	contents := nil.
 	selector := self selectedClassOrMetaClass
 				compile: aString
-				classified: (category := self selectedMessageCategoryName)
+				classified: ((category := self selectedMessageCategoryName) ifNil: [ Protocol unclassified ])
 				notifying: aController.
 	selector == nil ifTrue: [^ nil].
 	contents := aString copy.
