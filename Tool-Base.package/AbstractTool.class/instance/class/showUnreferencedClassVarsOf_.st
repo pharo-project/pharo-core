@@ -7,7 +7,7 @@ showUnreferencedClassVarsOf: aClass
 	| aList aReport |
 	( aClass isNil or: [aClass isTrait]) ifTrue: [^ self].
 	aList := self systemNavigation allUnreferencedClassVariablesOf: aClass.
-	aList size = 0
+	aList isEmpty
 		ifTrue: [^ UIManager default inform: 'There are no unreferenced
 class variables in
 ' , aClass name].

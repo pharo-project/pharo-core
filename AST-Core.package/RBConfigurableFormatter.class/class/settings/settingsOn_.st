@@ -3,8 +3,8 @@ settingsOn: aBuilder
 	
 	(aBuilder group: #configurableFormatter)
 		target: self;
-		parentName: #refactoring;
-		label: 'Configurable Formatter';
+		parent: #codeBrowsing;
+		label: 'Pretty Printing';
 		description: 'Settings related to the formatter';
 		with: [
 			(aBuilder setting: #cascadedMessageInsideParentheses)

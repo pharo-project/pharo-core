@@ -1,6 +1,4 @@
 methodReference: aMessage referencesList: aListOfReferences
-
-	^ (super 
-		method: aMessage)
-			referencesList: aListOfReferences;
-			yourself
+	^ (self method: aMessage)
+		referencesList: aListOfReferences;
+		yourself

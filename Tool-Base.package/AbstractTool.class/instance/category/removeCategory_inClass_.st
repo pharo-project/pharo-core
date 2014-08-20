@@ -1,7 +1,7 @@
 removeCategory: aCategory inClass: aClass
 
-	aCategory ifNil: [ ^ self ].
-	self okToChange ifFalse: [ ^ self ].
+	aCategory ifNil: [ ^ false ].
+	self okToChange ifFalse: [ ^ false].
 	
 	(aClass organization listAtCategoryNamed: aCategory) isEmpty
 		ifTrue: [

@@ -22,6 +22,6 @@ removeMethods: aCollection inClass: aClass
 		ifTrue: [ 
 			aCollection do: [:message || messageName |	
 				messageName := message selector.
-				((self systemNavigation allCallsOn: messageName) size > 0)
+				((self systemNavigation allCallsOn: messageName) notEmpty)
 					ifTrue: [ self systemNavigation browseAllSendersOf: messageName ]]].
 	^ true

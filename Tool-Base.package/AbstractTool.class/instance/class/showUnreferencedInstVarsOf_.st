@@ -4,7 +4,7 @@ showUnreferencedInstVarsOf: aClass
 	|  aList aReport |
 	(aClass isNil or: [aClass isTrait]) ifTrue: [^ self].
 	aList := aClass allUnreferencedInstanceVariables.
-	aList size = 0 ifTrue: [^ UIManager default inform: 'There are no unreferenced
+	aList isEmpty ifTrue: [^ UIManager default inform: 'There are no unreferenced
 instance variables in
 ', aClass name].
 	aReport := String streamContents:

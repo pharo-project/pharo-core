@@ -14,7 +14,7 @@ from the system ?'.
 			[ classesToRemove do: [:classToRemove |
 				message := classToRemove name, ' has subclasses.
 Do you really want to REMOVE it from the system ?'.
-				classToRemove subclasses size > 0
+				classToRemove subclasses notEmpty
 					ifTrue: [ (self confirm: message)
 								ifTrue: [ classToRemove removeFromSystem ]]
 					ifFalse: [ classToRemove removeFromSystem ]]].

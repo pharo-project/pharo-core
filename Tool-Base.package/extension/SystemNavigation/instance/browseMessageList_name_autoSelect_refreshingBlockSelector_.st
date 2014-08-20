@@ -5,7 +5,7 @@ browseMessageList: messageList name: labelString autoSelect: autoSelectString re
 	"Do not show trait methods"
 	methods := messageList reject: [ :each| each isFromTrait ].
 	
-	methods size = 0 ifTrue: 
+	methods isEmpty ifTrue: 
 		[^ self inform: 'There are no ', String cr, labelString].
 
 	methods size == 1

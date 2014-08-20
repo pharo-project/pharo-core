@@ -1,7 +1,7 @@
 browseClassRefsOf: aClass
 
 	| class |
-	aClass ifNil: [ ^false ].
+	aClass ifNil: [ ^self ].
 	class := aClass theNonMetaClass ifNil: [^self].
 	class isTrait 
 		ifTrue: [self systemNavigation browseAllUsersOfTrait: class]

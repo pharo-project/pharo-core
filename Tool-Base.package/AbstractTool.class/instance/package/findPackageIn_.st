@@ -1,6 +1,6 @@
 findPackageIn: aPackageNamesList
 	| pattern foundPackage |
-	pattern := aPackageNamesList size = 0
+	pattern := aPackageNamesList isEmpty
 		ifTrue: [ UIManager default request: 'Package name or fragment?' ]
 		ifFalse: [ UIManager default enterOrRequestFrom: aPackageNamesList lines: #() title: 'Package name or fragment?' ].
 	pattern isEmptyOrNil

@@ -4,7 +4,7 @@ browseMethodsWithString: aString matchCase: caseSensitive
 	^ self browseAllSelect:
 			[:method |
 				method  hasLiteralSuchThat: [:lit |
-					(lit isString and: [lit isSymbol not]) and:
-					[lit includesSubstring: aString caseSensitive: caseSensitive]]]
+					lit isString and: [lit isSymbol not and: [  
+					lit includesSubstring: aString caseSensitive: caseSensitive]]]]
 		name:  'Methods with string ', aString printString, (caseSensitive ifTrue: [' (case-sensitive)'] ifFalse: [' (case-insensitive)'])
 		autoSelect: aString.

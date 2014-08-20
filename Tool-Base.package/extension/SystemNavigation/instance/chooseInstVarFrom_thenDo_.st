@@ -27,7 +27,7 @@ instance variables.'].
 			allVars add: var].
 		vars isEmpty ifFalse: [lines add: allVars size]].
 	labelStream skip: -1 "cut last CR".
-	(lines size > 0 and: [lines last = allVars size]) ifTrue:
+	(lines notEmpty and: [lines last = allVars size]) ifTrue:
 		[lines removeLast].  "dispense with inelegant line beneath last item"
 	index := (UIManager default chooseFrom: (labelStream contents subStrings: {Character cr}) lines: lines
 title: 'Instance variables in ', aClass name).

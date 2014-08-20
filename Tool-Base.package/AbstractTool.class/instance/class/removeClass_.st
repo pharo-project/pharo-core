@@ -11,7 +11,7 @@ want to REMOVE the class ', className, '
 from the system?'.
 	(result := self confirm: message)
 		ifTrue: 
-			[classToRemove subclasses size > 0
+			[classToRemove subclasses notEmpty
 				ifTrue: [(self confirm: 'class has subclasses: ' , message)
 					ifFalse: [^ false]].
 			classToRemove removeFromSystem ].
