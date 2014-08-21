@@ -5,5 +5,9 @@ resolveSymbol: symbol
 		^Smalltalk tools browser openOnClass: (Smalltalk globals at: symbol) ].
 	(self symbolIsPackage: symbol) ifTrue: [ 
 		^Smalltalk tools browser openOnPackage: (RPackage organizer packageNamed: symbol asString) ].
-
-	self inform: ('There is no recognizable symbol named ', self model text )
+	(self symbolIsGlobalValue: symbol)
+		ifTrue: [ ^ self systemNavigation browseAllReferencesTo:(Smalltalk globals bindingOf: symbol)].
+	(self classbindingForClassVar: symbol) ifNotNil:[: classbinding | 
+		^ self systemNavigation browseAllReferencesTo: classbinding].
+	"when in doubt, just browse references to:"
+	^ self systemNavigation browseAllReferencesTo: symbol.

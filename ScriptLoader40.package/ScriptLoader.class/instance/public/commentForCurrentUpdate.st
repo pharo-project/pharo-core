@@ -1,9 +1,11 @@
 commentForCurrentUpdate
- ^ '13877 Clean up Settings related to Code Browsing
-	https://pharo.fogbugz.com/f/cases/13877
+ ^ '13878 Better comment in Date(class)>>fromString: and test
+	https://pharo.fogbugz.com/f/cases/13878
 
-13855 Small critique cleanup of Tool-Base
-	https://pharo.fogbugz.com/f/cases/13855
+13870 Spotlight: small enhancement for resolving symbols
+	https://pharo.fogbugz.com/f/cases/13870
 
-13871 GroupWindowMorph : empty package associated with a fix
-	https://pharo.fogbugz.com/f/cases/13871'
+13862 Merge OCompletion into Ecompletion, extract tests
+	https://pharo.fogbugz.com/f/cases/13862
+
+'

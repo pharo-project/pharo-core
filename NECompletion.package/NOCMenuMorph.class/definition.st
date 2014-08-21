@@ -1,5 +1,5 @@
-Object subclass: #NOCEmptyModel
+NECMenuMorph subclass: #NOCMenuMorph
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'NOCompletion-Model'
+	category: 'NECompletion-View'

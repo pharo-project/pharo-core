@@ -1,5 +1,5 @@
-NECController subclass: #NOCController
+Object subclass: #NOCEmptyModel
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'NOCompletion-Model'
+	category: 'NECompletion-OCompletion'
