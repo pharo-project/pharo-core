@@ -20,6 +20,7 @@ initialize
 	PeriodsAtEndOfBlock := false.
 	PeriodsAtEndOfMethod := false.
 	RetainBlankLinesBetweenStatements := false.
+	RetainBlankLinesBeforeComments := false.
 	StringFollowingReturn := ' '.
 	StringInsideBlocks := ' '.
 	StringInsideParentheses := ''.

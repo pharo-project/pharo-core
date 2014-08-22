@@ -1,0 +1,3 @@
+visitScriptDefinition: aMCScriptDefinition
+
+	self visitDefaultDefinition: aMCScriptDefinition

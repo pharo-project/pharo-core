@@ -1,11 +1,11 @@
 commentForCurrentUpdate
- ^ '13878 Better comment in Date(class)>>fromString: and test
-	https://pharo.fogbugz.com/f/cases/13878
+ ^ '13883 RBConfigurableFormatter retain blank lines between statements and comments
+	https://pharo.fogbugz.com/f/cases/13883
 
-13870 Spotlight: small enhancement for resolving symbols
-	https://pharo.fogbugz.com/f/cases/13870
+13839 3 tests failing due to #stepGlobal call to Transcript
+	https://pharo.fogbugz.com/f/cases/13839
 
-13862 Merge OCompletion into Ecompletion, extract tests
-	https://pharo.fogbugz.com/f/cases/13862
+13881 Refactoring to PSMCPatchMorph to allow dispatching
+	https://pharo.fogbugz.com/f/cases/13881
 
 '

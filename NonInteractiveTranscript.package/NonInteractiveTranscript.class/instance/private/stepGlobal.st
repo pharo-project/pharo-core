@@ -1,0 +1,2 @@
+stepGlobal
+	"ignored"

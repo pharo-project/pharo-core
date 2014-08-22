@@ -1,0 +1,3 @@
+visitMethodDefinition: aMCMethodDefinition 
+	
+	self ensureClassChangeWrapperNamed: aMCMethodDefinition className

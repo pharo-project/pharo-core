@@ -49,6 +49,10 @@ settingsOn: aBuilder
 				label: 'Periods at end of block'.
 			(aBuilder setting: #periodsAtEndOfMethod)
 				label: 'Periods at end of method'.
+			(aBuilder setting: #retainBlankLinesBetweenStatements)
+				label: 'Retain blank lines between statements'.
+			(aBuilder setting: #retainBlankLinesBeforeComments)
+				label: 'Retain blank lines before comments'.
 			(aBuilder setting: #stringFollowingReturn)
 				label: 'String following return'.
 			(aBuilder setting: #stringInsideBlocks)
