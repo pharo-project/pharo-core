@@ -1,5 +1,5 @@
-MorphicUIBugTest subclass: #RenderBugz
+TestCase subclass: #TestValueWithinFix
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Tests-Bugs'
+	category: 'KernelTests-Processes'

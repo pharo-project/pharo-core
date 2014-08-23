@@ -1,5 +1,5 @@
-TestCase subclass: #BitBltClipBugs
+MorphicUIBugTest subclass: #RenderBugsTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Tests-Bugs'
+	category: 'MorphicTests-Bugs'

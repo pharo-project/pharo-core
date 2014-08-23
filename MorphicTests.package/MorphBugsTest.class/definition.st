@@ -1,5 +1,5 @@
-TestCase subclass: #StreamBugz
+TestCase subclass: #MorphBugsTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Tests-Bugs'
+	category: 'MorphicTests-Bugs'

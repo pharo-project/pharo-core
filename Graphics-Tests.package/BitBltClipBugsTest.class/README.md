@@ -1,0 +1,1 @@
+A BitBltClipBugsTest is xxxxxxxxx.

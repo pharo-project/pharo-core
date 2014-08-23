@@ -1,5 +1,5 @@
-TestCase subclass: #HandBugs
+TestCase subclass: #StreamBugsTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Tests-Bugs'
+	category: 'CollectionsTests-Streams'

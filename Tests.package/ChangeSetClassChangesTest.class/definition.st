@@ -2,4 +2,4 @@ TestCase subclass: #ChangeSetClassChangesTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Tests-Bugs'
+	category: 'Tests-System'

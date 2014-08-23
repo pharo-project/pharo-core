@@ -1,5 +1,5 @@
-TestCase subclass: #MorphBugs
+TestCase subclass: #HandBugsTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Tests-Bugs'
+	category: 'MorphicTests-Bugs'
