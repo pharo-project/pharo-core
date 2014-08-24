@@ -5,12 +5,11 @@ hasReportableSlip
 	best efforts here, make certain that the Preference 'checkForSlips' is set 
 	to true."
 
-	#(#doOnlyOnce: #halt #halt: #printDirectlyToDisplay #toRemove #urgent #haltOnce #haltOnce: #haltIf:)
-		do: [ :aLit | 
+	self containsHalt ifTrue: [ ^true ].
+	#(#doOnlyOnce: #printDirectlyToDisplay #toRemove #urgent) do: [ :aLit | 
 			(self hasLiteral: aLit)
 				ifTrue: [ ^ true ] ].
-	#(#Transcript #AA #BB #CC #DD #EE)
-		do: [ :aSymbol | 
+	#(#Transcript) do: [ :aSymbol | 
 			(Smalltalk globals associationAt: aSymbol ifAbsent: [  ])
 				ifNotNil: [ :assoc | 
 					(self hasLiteral: assoc)
