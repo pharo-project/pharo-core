@@ -1,5 +1,5 @@
-LRUCacheTests subclass: #TTLCacheTests
+TestCase subclass: #LRUCacheTests
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Tests-System-Caching'
+	category: 'System-CachingTests'

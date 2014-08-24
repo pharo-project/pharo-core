@@ -1,14 +1,17 @@
 commentForCurrentUpdate
- ^ '13899 RBCascadeNode uses #to:do: instead of #with:do: (Coding Idiom Violation)
-	https://pharo.fogbugz.com/f/cases/13899
+ ^ '13898 RBBlockNode>>#equalTo:withMapping: uses #to:do: instead of #with:do: (Coding Idiom Violation)
+	https://pharo.fogbugz.com/f/cases/13898
 
-13895 #hasReportableSlip should call #containsHalt
-	https://pharo.fogbugz.com/f/cases/13895
+13901 move DoubleLinkedListTests, LRUCacheTests and TTLCacheTests from Tests
+	https://pharo.fogbugz.com/f/cases/13901
 
-13271 inconsistent behaviour when debugging
-	https://pharo.fogbugz.com/f/cases/13271
+13896 RBBlockNode>>#= uses #to:do: instead of #with:do: (Coding Idiom Violation)
+	https://pharo.fogbugz.com/f/cases/13896
 
-13893 Lint rule for checking block argument assignment.
-	https://pharo.fogbugz.com/f/cases/13893
+13900 move TextDiffBuilderTest to ToolsTest
+	https://pharo.fogbugz.com/f/cases/13900
+
+13892 Example methods should be runnable in Nautilus
+	https://pharo.fogbugz.com/f/cases/13892
 
 '
