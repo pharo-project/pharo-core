@@ -1,7 +1,2 @@
 packagesNotToSavePatternNames
-	^ #(	'ScriptLoader??'
-			'SLICE*'
-			'Slice*'
-			'slice*'
-			'ConfigurationOf*'
-		).
+	^ super packagesNotToSavePatternNames, #( 'ConfigurationOf*' )

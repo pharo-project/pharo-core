@@ -1,6 +1,6 @@
 packagesNotToSavePatternNames
-	^ #(	'ScriptLoader??'
-			'SLICE*'
-			'Slice*'
-			'slice*'
-		).
+	^ { 'ScriptLoader', self currentMajorVersionNumberWithoutDot.
+		'SLICE*'.
+		'Slice*'.
+		'slice*'.
+		}

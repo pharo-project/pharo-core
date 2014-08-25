@@ -1,1 +1,0 @@
-A DoubleLinkedListTests is xxxxxxxxx.

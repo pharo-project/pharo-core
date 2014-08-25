@@ -1,2 +1,0 @@
-newCache
-	^ LRUCache new
