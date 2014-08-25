@@ -4,7 +4,8 @@ setSelector: aSymbol
 	| aClass messageCatIndex |
 	aSymbol ifNil: [^ self].
 	(aClass := self selectedClassOrMetaClass) ifNil: [^ self].
-	messageCatIndex := aClass organization numberOfCategoryOfElement: aSymbol.
+	messageCatIndex := aClass organization protocols 
+		indexOf: (aClass organization protocolOrganizer protocolsOfSelector: aSymbol) anyOne.
 	self messageCategoryListIndex: messageCatIndex + 1.
 	messageCatIndex = 0 ifTrue: [^ self].
 	self messageListIndex:

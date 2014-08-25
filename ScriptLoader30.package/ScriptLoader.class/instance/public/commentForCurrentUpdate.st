@@ -1,8 +1,8 @@
 commentForCurrentUpdate
- ^ '13680 [Backport 3.0] receiver of NodeModel is Nil
-	https://pharo.fogbugz.com/f/cases/13680
+ ^ '13902 inconsistent behaviour when debugging Pharo3.0
+	https://pharo.fogbugz.com/f/cases/13902
 
-13844 Extended search... fooled by block arguments (backport)
-	https://pharo.fogbugz.com/f/cases/13844
+13858 Backport 3.0 case 13857
+	https://pharo.fogbugz.com/f/cases/13858
 
 '
