@@ -1,5 +1,5 @@
 TestCase subclass: #RBProgramNodeTest
-	instanceVariableNames: 'node previous'
+	instanceVariableNames: 'node'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'AST-Tests-Core'

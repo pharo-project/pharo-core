@@ -1,17 +1,17 @@
 commentForCurrentUpdate
- ^ '13898 RBBlockNode>>#equalTo:withMapping: uses #to:do: instead of #with:do: (Coding Idiom Violation)
-	https://pharo.fogbugz.com/f/cases/13898
+ ^ '13908 RBPragmaNode uses #to:do: instead of #with:do: (Coding Idiom Violation)
+	https://pharo.fogbugz.com/f/cases/13908
 
-13901 move DoubleLinkedListTests, LRUCacheTests and TTLCacheTests from Tests
-	https://pharo.fogbugz.com/f/cases/13901
+13906 Move to class refactoring gives DNU
+	https://pharo.fogbugz.com/f/cases/13906
 
-13896 RBBlockNode>>#= uses #to:do: instead of #with:do: (Coding Idiom Violation)
-	https://pharo.fogbugz.com/f/cases/13896
+13909 Instance variable previous in RBProgramNodeTest is not referenced
+	https://pharo.fogbugz.com/f/cases/13909
 
-13900 move TextDiffBuilderTest to ToolsTest
-	https://pharo.fogbugz.com/f/cases/13900
+13894 Class side initialize methods should be runnable in Nautilus
+	https://pharo.fogbugz.com/f/cases/13894
 
-13892 Example methods should be runnable in Nautilus
-	https://pharo.fogbugz.com/f/cases/13892
+13907 RBSequenceNode uses #to:do: instead of #with:do: (Coding Idiom Violation)
+	https://pharo.fogbugz.com/f/cases/13907
 
 '
