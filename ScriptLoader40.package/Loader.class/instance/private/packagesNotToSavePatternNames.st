@@ -1,5 +1,5 @@
 packagesNotToSavePatternNames
-	^ { 'ScriptLoader', self currentMajorVersionNumberWithoutDot.
+	^ { "'ScriptLoader', self currentMajorVersionNumberWithoutDot."
 		'SLICE*'.
 		'Slice*'.
 		'slice*'.
