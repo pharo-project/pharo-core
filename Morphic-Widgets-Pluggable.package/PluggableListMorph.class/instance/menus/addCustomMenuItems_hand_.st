@@ -3,6 +3,6 @@ addCustomMenuItems:  aMenu hand: aHandMorph
 
 	super addCustomMenuItems: aMenu hand: aHandMorph.
 	aMenu addLine.
-	aMenu add: 'list font...' translated target: self action: #setListFont.
-	aMenu add: 'copy list to clipboard' translated target: self action: #copyListToClipboard.
-	aMenu add: 'copy selection to clipboard' translated target: self action: #copySelectionToClipboard
+	aMenu add: 'list font...' translated target: self selector: #setListFont.
+	aMenu add: 'copy list to clipboard' translated target: self selector: #copyListToClipboard.
+	aMenu add: 'copy selection to clipboard' translated target: self selector: #copySelectionToClipboard

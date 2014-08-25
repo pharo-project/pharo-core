@@ -23,12 +23,12 @@ addHaloActionsTo: aMenu
 
 	subMenu addLine.
 
-	subMenu add: 'set color' translated target: self renderedMorph action: #changeColor.
+	subMenu add: 'set color' translated target: self renderedMorph selector: #changeColor.
 	subMenu balloonTextForLastItem: 'Change the color of this object' translated.
 
 	subMenu addLine.
 
-	subMenu add: 'inspect' translated target: self action: #inspect.
+	subMenu add: 'inspect' translated target: self selector: #inspect.
 	subMenu balloonTextForLastItem: 'Open an Inspector on this object' translated.
 
 	aMenu add: 'halo actions...' translated subMenu: subMenu

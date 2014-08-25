@@ -19,7 +19,7 @@ buildDebugMenu: aHand
 	aMenu add: 'inspect owner chain' translated action: #inspectOwnerChain.
 	aMenu lastItem icon: Smalltalk ui icons smallInspectItIcon.
 	self isMorphicModel ifTrue: [
-		aMenu add: 'inspect model' translated target: self model action: #inspect.
+		aMenu add: 'inspect model' translated target: self model selector: #inspect.
 		aMenu lastItem icon: Smalltalk ui icons smallInspectItIcon ].
      aMenu add: 'explore morph' translated target: self selector: #explore.
 	aMenu lastItem icon: Smalltalk ui icons smallInspectItIcon.

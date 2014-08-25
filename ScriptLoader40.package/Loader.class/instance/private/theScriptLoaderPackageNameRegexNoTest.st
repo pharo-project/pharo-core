@@ -1,0 +1,2 @@
+theScriptLoaderPackageNameRegexNoTest
+	^ self theScriptLoaderPackageName, '-[^((?!Tests).)*].*'

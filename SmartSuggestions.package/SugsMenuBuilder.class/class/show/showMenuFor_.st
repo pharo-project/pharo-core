@@ -8,7 +8,7 @@ showMenuFor: model
 	suggs := SugsMenuBuilder findSuggestionsFor: context.
 	menu := UIManager default newMenuIn: model model for: model.
 	menu addTitle: 'Suggestions > ' translated , context selectedNodeText.
-	suggs do: [ :aSugg | (menu add: aSugg label target: aSugg action: #execute) icon: aSugg icon ].
+	suggs do: [ :aSugg | (menu add: aSugg label target: aSugg selector: #execute) icon: aSugg icon ].
 	context selectTheTextForTheNode.
 	menu setInvokingView: self.
 	menu invokeModal

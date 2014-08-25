@@ -3,4 +3,4 @@ currentVersionsToBeSaved
 	
 	^ self allCurrentVersions reject: [ :each |
 		self packagesNotToSavePatternNames
-			anySatisfy: [ :p | p match: each ] ]
+			anySatisfy: [ :p | each matchesRegex: p ] ]

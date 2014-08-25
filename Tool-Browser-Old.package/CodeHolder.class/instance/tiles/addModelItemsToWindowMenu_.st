@@ -3,4 +3,4 @@ addModelItemsToWindowMenu: aMenu
 
 	super addModelItemsToWindowMenu: aMenu. 
 	aMenu addLine.
-	aMenu add: 'What to show...' translated target: self action: #offerWhatToShowMenu
+	aMenu add: 'What to show...' translated target: self selector: #offerWhatToShowMenu

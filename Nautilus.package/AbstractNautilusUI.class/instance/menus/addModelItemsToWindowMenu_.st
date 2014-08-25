@@ -4,9 +4,9 @@ addModelItemsToWindowMenu: aMenu
 	aMenu addLine;
 		add: 'Nautilus Plugins Manager'
 		target: NautilusPluginManager new
-		action: #openInWorld.
+		selector: #openInWorld.
 		
 	aMenu
 		add: 'Shortcuts description'
 		target: self
-		action: #openShortcutDescription.
+		selector: #openShortcutDescription.

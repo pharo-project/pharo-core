@@ -7,15 +7,15 @@ findWindow: evt
 	nakedMorphs := self submorphsSatisfying:[:m | m isSystemWindow not].
 	(expanded isEmpty and: [collapsed isEmpty and: [nakedMorphs isEmpty]]) ifTrue: [^ self inform: 'No morph in world'].
 	(expanded asSortedCollection: [:w1 :w2 | w1 label caseInsensitiveLessOrEqual: w2 label]) do:
-		[:w | menu add: w label target: w action: #activateAndForceLabelToShow.
+		[:w | menu add: w label target: w selector: #activateAndForceLabelToShow.
 			w model canDiscardEdits ifFalse: [menu lastItem color: Color red]].
 	(expanded isEmpty or: [ collapsed isEmpty and: [ nakedMorphs isEmpty ]]) ifFalse: [menu addLine].
 	(collapsed asSortedCollection: [:w1 :w2 | w1 label caseInsensitiveLessOrEqual: w2 label]) do: 
-		[:w | menu add: w label target: w action: #collapseOrExpand.
+		[:w | menu add: w label target: w selector: #collapseOrExpand.
 		w model canDiscardEdits ifFalse: [menu lastItem color: Color red]].
 	nakedMorphs isEmpty ifFalse: [menu addLine].
 	(nakedMorphs asSortedCollection: [:w1 :w2 | w1 class name caseInsensitiveLessOrEqual: w2 class name]) do:
-		[:w | menu add: w class name target: w action: #comeToFrontAndAddHalo].
+		[:w | menu add: w class name target: w selector: #comeToFrontAndAddHalo].
 	menu addTitle: 'find window' translated.
 	
 	menu popUpEvent: evt in: self.

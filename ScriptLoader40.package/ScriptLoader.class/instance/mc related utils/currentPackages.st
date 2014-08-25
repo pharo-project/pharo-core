@@ -7,5 +7,5 @@ currentPackages
 		[ :a :b | a package name <= b package name ].
 	^ copies reject: [:each |
 		self packagesNotToSavePatternNames
-			anySatisfy: [:p | p match: each package name]].
+			anySatisfy: [:p | each packageName matchesRegex: p ] ].
 	

@@ -1,6 +1,6 @@
 packagesNotToSavePatternNames
-	^ { self theScriptLoaderPackageName.
-		'SLICE*'.
-		'Slice*'.
-		'slice*'.
+	^ { self theScriptLoaderPackageNameRegexNoTest.
+		'SLICE.*'.
+		'Slice.*'.
+		'slice.*'.
 		}
