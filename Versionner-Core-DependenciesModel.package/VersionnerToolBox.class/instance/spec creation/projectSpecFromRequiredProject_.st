@@ -4,11 +4,13 @@ projectSpecFromRequiredProject: aRequiredProject
 	aRequiredProject configurationClass 
 		ifNil: [ ConfigurationNotFound signal: aRequiredProject name , ' configuration class cannot be found!' ].
 	mcProject := aRequiredProject configurationClass project.
-	versionString := aRequiredProject version 
+	aRequiredProject symbolicVersionString
+		ifNil: [ versionString := aRequiredProject version 
 						ifNil: [ (mcProject hasVersion: #stable)
         								ifTrue: [ #stable ]
         								ifFalse: [ #bleedingEdge ] ]
-						ifNotNilDo: [ :aVersion | aVersion versionString].
+						ifNotNilDo: [ :aVersion | aVersion versionString] ]
+		ifNotNil: [ versionString := aRequiredProject symbolicVersionString].
 	projectReferenceSpec := mcProject projectSpec
 					name: aRequiredProject displayName;
 					className: aRequiredProject configurationClass name;

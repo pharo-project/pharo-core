@@ -3,7 +3,7 @@ saveLatestScriptLoaderToWaitingFolder
 
 	| man r |
 	man := self allManagers.
-	r := man select: [:each | 'ScriptLoader', self currentMajorVersionNumberWithoutDot, '*' match: each  package name].
+	r := man select: [ :each | each packageName sameAs: self theScriptLoaderPackageName ].
 	self
 		saveInToReloadCachePackage: r first
 		with: self commentForCurrentUpdate

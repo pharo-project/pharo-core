@@ -1,0 +1,2 @@
+symbolicVersionString
+	^ symbolicVersionString

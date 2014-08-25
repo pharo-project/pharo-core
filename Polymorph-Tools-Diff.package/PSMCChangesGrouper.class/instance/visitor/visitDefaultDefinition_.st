@@ -1,3 +1,3 @@
 visitDefaultDefinition: aDefinition
 
-	classChanges add: aDefinition
+	nonClassChanges add: aDefinition

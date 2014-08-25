@@ -1,6 +1,6 @@
 compareWith: anotherMagnitude ifLesser: lesserBlock ifEqual: equalBlock ifGreater: greaterBlock
 
-	self < anotherMagnitude
+	^ self < anotherMagnitude
 		ifTrue: lesserBlock
 		ifFalse: [ 
 			self = anotherMagnitude

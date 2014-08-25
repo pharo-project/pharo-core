@@ -1,5 +1,7 @@
 standardizeDevVersionString: aDevVersionString
-	aDevVersionString := aDevVersionString copyReplaceAll: 'baseline-' with: ''.
-	aDevVersionString  :=  aDevVersionString copyReplaceAll: '-baseline' with: ''.
-	aDevVersionString  :=  aDevVersionString copyReplaceAll: 'baseline' with: ''.
-	^ aDevVersionString , '-baseline'
+	| versionString |
+	
+	versionString := aDevVersionString copyReplaceAll: 'baseline-' with: ''.
+	versionString  :=  versionString copyReplaceAll: '-baseline' with: ''.
+	versionString  :=  versionString copyReplaceAll: 'baseline' with: ''.
+	^ versionString , '-baseline' 

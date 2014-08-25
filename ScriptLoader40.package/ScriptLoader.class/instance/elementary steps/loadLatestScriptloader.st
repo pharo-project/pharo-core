@@ -2,7 +2,7 @@ loadLatestScriptloader
 	"self new loadLatestScriptloader"
 	
 	self class 
-		loadLatestPackage: 'ScriptLoader', self currentMajorVersionNumberWithoutDot 
+		loadLatestPackage: self theScriptLoaderPackageName
 		fromHub: 'Pharo40' 
 	
 

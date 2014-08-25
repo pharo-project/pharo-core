@@ -1,3 +1,3 @@
 visitTraitDefinition: aMCTraitDefinition 
 	
-	self ensureClassChangeWrapperNamed: aMCTraitDefinition
+	self ensureClassChangeWrapperNamed: aMCTraitDefinition fullClassName

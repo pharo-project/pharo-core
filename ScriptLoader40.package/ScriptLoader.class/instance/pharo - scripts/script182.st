@@ -208,7 +208,6 @@ SUnit-Help-MarcusDenker.9.mcz
 SUnit-Tests-MarcusDenker.37.mcz
 SUnit-UI-MarcusDenker.87.mcz
 SUnit-UITesting-StephaneDucasse.20.mcz
-ScriptLoader40-TheIntegrator.222.mcz
 ScriptLoader40-Tests-EstebanLorenzano.2.mcz
 Settings-Graphics-MarcusDenker.21.mcz
 Settings-Polymorph-MarcusDenker.70.mcz

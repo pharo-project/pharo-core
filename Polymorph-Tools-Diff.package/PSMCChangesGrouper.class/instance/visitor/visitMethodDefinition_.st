@@ -1,3 +1,3 @@
 visitMethodDefinition: aMCMethodDefinition 
 	
-	self ensureClassChangeWrapperNamed: aMCMethodDefinition className
+	self ensureClassChangeWrapperNamed: aMCMethodDefinition fullClassName

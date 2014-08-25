@@ -1,4 +1,4 @@
-script183
+script184
 
 	^ 'AST-Core-TheIntegrator.228.mcz
 AST-Interpreter-Core-MarcusDenker.126.mcz
@@ -232,7 +232,7 @@ Spec-Tools-StephaneDucasse.224.mcz
 StartupPreferences-TheIntegrator.122.mcz
 System-Announcements-MarcusDenker.63.mcz
 System-Caching-MarcusDenker.6.mcz
-System-CachingTests-MarcusDenker.2.mcz
+System-CachingTests-EstebanLorenzano.3.mcz
 System-Changes-MarcusDenker.251.mcz
 System-Clipboard-SvenVanCaekenberghe.32.mcz
 System-CommandLine-MarcusDenker.165.mcz
