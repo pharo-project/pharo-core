@@ -1,5 +1,5 @@
 packagesNotToSavePatternNames
-	^ { self theScriptLoaderPackageNameRegexNoTest.
+	^ { self theScriptLoaderPackageName, '.*'.
 		'SLICE.*'.
 		'Slice.*'.
 		'slice.*'.

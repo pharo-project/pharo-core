@@ -4,7 +4,7 @@ produceDiffLinksForPackages
 	
 	| filenames |
 	filenames := self waitingFolderMCZFiles.
-	filenames := filenames reject: [:each | each matchesRegex: self theScriptLoaderPackageNameRegexNoTest ].
+	filenames := filenames reject: [:each | each matchesRegex: self theScriptLoaderPackageName, '.*' ].
 	^ filenames collect: [:name |
 			 self diffServerRootString, (name copyUpToLast: $.) , '.diff'  ]
 		
