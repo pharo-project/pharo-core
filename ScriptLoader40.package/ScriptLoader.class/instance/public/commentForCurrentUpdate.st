@@ -1,5 +1,5 @@
 commentForCurrentUpdate
- ^ '13865 Cleaning menuMorph
-	https://pharo.fogbugz.com/f/cases/13865
+ ^ '13566 should remove this kind of isKindOf:
+	https://pharo.fogbugz.com/f/cases/13566
 
 '
