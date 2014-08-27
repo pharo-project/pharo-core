@@ -1,0 +1,1 @@
+A RBDeprecateMethodTest is xxxxxxxxx.

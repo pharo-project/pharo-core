@@ -1,0 +1,2 @@
+someDemoMethod
+	^ self junk

@@ -10,6 +10,11 @@ methodRefactoring: aBuilder
 		action: [ target refactor addAParameterFor: selectedMethod ];
 		order: 50;
 		parent: #'Refactoring'.
+	
+	(aBuilder item: #'Deprecate')
+		action: [ target refactor deprecateMethodFor: selectedMethod ];
+		order: 75;
+		parent: #'Refactoring'.
 			
 	(aBuilder item: #'Inline parameter')
 		action: [ target refactor inlineParameterFor: selectedMethod ];
@@ -24,11 +29,6 @@ methodRefactoring: aBuilder
 	(aBuilder item: #'Move')
 		action: [ target refactor moveMethodFor: selectedMethod ];
 		order: 300;
-		parent: #'Refactoring'.
-		
-	(aBuilder item: #'Move to a class')
-		action: [ target refactor moveMethodToClassFor: selectedMethod ];
-		order: 350;
 		parent: #'Refactoring'.
 			
 	(aBuilder item: #'Swap')

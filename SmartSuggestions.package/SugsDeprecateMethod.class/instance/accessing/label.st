@@ -1,0 +1,2 @@
+label
+	^ 'Deprecate' translated

@@ -1,7 +1,7 @@
 testRenameTestMethod1
 	| refactoring class |
 	refactoring := RBRenameMethodRefactoring 
-		renameMethod: ('test' , 'Method1') asSymbol
+		renameMethod: ('testMethod1') asSymbol
 		in: RBRefactoryTestDataApp
 		to: #testMethod2
 		permutation: (1 to: 0).
