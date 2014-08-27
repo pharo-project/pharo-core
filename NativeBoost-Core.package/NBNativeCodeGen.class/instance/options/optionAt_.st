@@ -1,3 +1,2 @@
 optionAt: optionName
-
-	^ options includes: optionName
+	^ options at: optionName ifAbsent: false

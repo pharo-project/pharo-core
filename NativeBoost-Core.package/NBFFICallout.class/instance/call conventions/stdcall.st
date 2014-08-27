@@ -1,2 +1,2 @@
 stdcall
-	options add: #optStdcall
+	options at: #optStdcall put:true

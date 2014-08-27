@@ -1,6 +1,4 @@
 doesNotUnderstand: message
-
-	(message selector isUnary and: [ message selector beginsWith: 'opt'] )
-		ifTrue: [ ^ options includes: message selector ].
-		
+	(message selector beginsWith: 'opt')
+		ifTrue: [ ^ options at: message selector ifAbsent: false ].
 	^ super doesNotUnderstand: message

@@ -1,6 +1,6 @@
 initialize
 	asm := self newAssembler.
-	options := Set new.
+	options := Dictionary new.
 	proxy := NBInterpreterProxy forGenerator: self. 
 	self parseOptions: self defaultOptions.
 

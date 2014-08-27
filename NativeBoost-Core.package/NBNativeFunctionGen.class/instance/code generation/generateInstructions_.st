@@ -2,7 +2,7 @@ generateInstructions: aFunctionBodyBlock
 	
 	| instructions |
 	
-	options add: #optNonMovable.  "native functions are non-movable code"
+	options at: #optNonMovable put: true.  "native functions are non-movable code"
 		
 	self prepareArguments.
 	
