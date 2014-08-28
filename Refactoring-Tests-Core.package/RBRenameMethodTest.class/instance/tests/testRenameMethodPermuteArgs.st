@@ -13,8 +13,8 @@ testRenameMethodPermuteArgs
 				=
 					(RBParser
 						parseMethod:
-							'demoRenameMethod: arg2 PermuteArgs: arg1 arg1 := 1.
-	arg2 := 2.
+							'demoRenameMethod: arg2 PermuteArgs: arg1 self do: arg1.
+	self do: arg2.
 	^ arg1 > arg2').
 	self
 		assert:

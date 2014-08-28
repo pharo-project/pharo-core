@@ -7,6 +7,7 @@ initInstructions
 	data := OrderedCollection new.
 	data addAll: self instructionData;
 		addAll: self instructionsCDQ;
+		addAll: self instructionsStrings;
 		addAll: self instructionsOther.
 	
 	data do: [:dt | 

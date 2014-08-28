@@ -16,9 +16,7 @@ emittest: emitter operand1: op1 operand2: op2 operand3: op3
 	(op1 isReg and: [ op1 index = 0 and: [ op2 isImm ] ])
 		ifTrue: [ 
 			immSize := op1 size min: 4.
-			op1 is16
-				ifTrue: [ emitter emitByte: 16r66	"16bit" ].
-			emitter emitRexRM: op1 is64 regCode: 0 rm: op1.
+			emitter emitOperandSizeOverridePrefix: op1.
 			emitter emitByte: 16rA8 + (op1 size ~= 1) asBit.
 			^ emitter emitImmediate: op2 size: immSize ].
 	(op1 isRegMem and: [ op2 isImm ])

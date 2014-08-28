@@ -2,7 +2,7 @@ testAssembly3
 
 	" instructions without operands.
 
-	(AJInstructionDescription instructions select: [:each | each group = #emit]) keys asSortedCollection
+	(AJx86InstructionDescription instructions select: [:each | each group = #emit]) keys asSortedCollection
 	 "
 	| str |
 	str :=
@@ -13,6 +13,10 @@ testAssembly3
 #clc 16rF8
 #cld 16rFC
 #cmc 16rF5 
+#cmpsb 16rA6
+#cmpsd 16rA7
+#cmpsq 16r48 16rA7 "64 bit"
+#cmpsw 16r66 16rA7
 #cpuid 16r0F 16rA2
 #cqo  16r48	16r99 "64 bit "
 #cwd 16r66 16r99
@@ -55,14 +59,28 @@ testAssembly3
 #fxtract  16rD9 16rF4
 #fyl2x  16rD9 16rF1
 #fyl2xp1 16rD9 16rF9
+#insb 16r6C
+#insd 16r6D
+#insw 16r66 16r6D
 #int3 16rCC
 #leave  16rC9
 #lfence 16r0F 16rAE 16rE8
 #lock 16rF0 "prefix"
+#lodsb 16rAC
+#lodsd 16rAD
+#lodsq 16r48 16rAD "- 64 bit"
+#lodsw 16r66 16rAD
 #mfence 16r0F 16rAE 16rF0
 #monitor 16r0F 16r01 16rC8
+#movsb 16rA4
+#movsd 16rA5
+#movsq 16r48 16rA5 "- 64 bit"
+#movsw 16r66 16rA5
 #mwait 16r0F 16r01 16rC9
 #nop 16r90
+#outsb 16r6E
+#outsd 16r6F
+#outsw 16r66 16r6F
 #pause 16rF3 16r90
 "#popad 16r61 32 bit"
 #popfd 16r9D
@@ -74,9 +92,17 @@ testAssembly3
 #rdtsc 16r0F 16r31  
 #rdtscp 16r0F 16r01 16rF9
 #sahf 16r9E
+#scasb 16rAE
+#scasd 16rAF
+#scasq 16r48 16rAF
+#scasw 16r66 16rAF
 #sfence 16r0F 16rAE 16rF8
 #stc 16rF9
 #std 16rFD
+#stosb 16rAA
+#stosd 16rAB
+#stosq 16r48 16rAB
+#stosw 16r66 16rAB
 #ud2 16r0F 16r0B
 #std 16rFD "dummy"
 ) readStream.

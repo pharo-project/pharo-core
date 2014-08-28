@@ -22,10 +22,7 @@ emitalu: emitter operand1: op1 operand2: op2 operand3: op3
 		ifFalse: [ self invalidInstruction ].	" AL, AX, EAX, RAX register shortcuts"
 	(op1 isRegIndex: 0)
 		ifTrue: [ 
-			op1 is16
-				ifTrue: [ emitter emitByte: 16r66	" 16 bit " ].
-			op1 is64
-				ifTrue: [ emitter emitByte: 16r48	" REX.W" ].
+			emitter emitOperandSizeOverridePrefix: op1. 
 			emitter emitByte: (opReg << 3 bitOr: 16r04 + op1 isRegTypeGPB not asBit).
 			^ emitter emitImmediate: op2 size: (op1 size min: 4) ].	"short constant"
 	op2 isInt8
