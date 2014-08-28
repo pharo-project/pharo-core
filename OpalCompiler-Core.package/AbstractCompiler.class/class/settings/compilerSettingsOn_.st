@@ -16,4 +16,10 @@ compilerSettingsOn: aBuilder
 					(aBuilder setting: #warningAllowed)
 						target: CompilationContext;
 						label: 'Allow Warnings';
-						default: true ]
+						default: true.
+					(aBuilder setting: #allowBlockArgumentAssignment)
+						target: CompilationContext;
+						label: 'Allow block argument assignment' translated;
+						description: 'If enabled, the compiler will allow assignment into block arguments.
+This provides backward compatibility.' translated;
+						default:true.]

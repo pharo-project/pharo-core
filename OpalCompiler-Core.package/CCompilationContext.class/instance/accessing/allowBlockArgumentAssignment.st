@@ -1,0 +1,2 @@
+allowBlockArgumentAssignment
+	^ self class allowBlockArgumentAssignment
