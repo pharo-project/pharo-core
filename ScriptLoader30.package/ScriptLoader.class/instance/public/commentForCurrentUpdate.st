@@ -1,8 +1,8 @@
 commentForCurrentUpdate
- ^ '13902 inconsistent behaviour when debugging Pharo3.0
-	https://pharo.fogbugz.com/f/cases/13902
+ ^ '13912 backport: 13911: Metacello test packages not properly unload
+	https://pharo.fogbugz.com/f/cases/13912
 
-13858 Backport 3.0 case 13857
-	https://pharo.fogbugz.com/f/cases/13858
+13725 NativeBoost crashes when reading null pointer field in a structure
+	https://pharo.fogbugz.com/f/cases/13725
 
 '

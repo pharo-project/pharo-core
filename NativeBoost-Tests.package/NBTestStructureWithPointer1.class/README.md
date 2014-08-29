@@ -1,0 +1,1 @@
+A NBTestStructureWithPointer1 is xxxxxxxxx.
