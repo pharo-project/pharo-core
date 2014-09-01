@@ -1,2 +1,0 @@
-initialize 
-	FreeTypeFontProvider registerFont: self

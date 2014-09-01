@@ -9,4 +9,5 @@ initialize
 	FreeTypeCacheConstants initialize.
 	FreeTypeSettings initialize.
 	
+	current := nil.
 	self current. "this creates an instance of me, and updates from the system"
