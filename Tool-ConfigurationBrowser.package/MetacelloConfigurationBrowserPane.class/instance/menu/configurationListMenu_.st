@@ -7,9 +7,10 @@ configurationListMenu: aMenu
 		self selectedConfigurationClass isNil 
 			ifTrue:  [ aMenu add: 'Load Configuration' action: #loadConfiguration ]
 			ifFalse: [ aMenu add: 'Browse Configuration Class' action: #browseConfiguration ].	
-		aMenu addLine ].
-		
+		aMenu addLine ].		 	
 	aMenu	
 		add: 'Switch Repository' action: #switchRepository;
+		add: 'Add Repository' action: #addRepository;
+		addLine;
 		add: 'Refresh' action: #refreshRepository.	
 	^aMenu
