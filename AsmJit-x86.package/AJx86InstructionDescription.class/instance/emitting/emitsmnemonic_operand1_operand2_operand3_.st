@@ -12,5 +12,4 @@ emitsmnemonic: emitter operand1: dst operand2: op2 operand3: op3
 	"Create a faux register that will have operand size prefix and REX byte set appropriately, and a code of 1 if op size > 1 byte"
 	fauxReg := AJRegister new.
 	fauxReg code: ((dst size >> 1 << 4) bitOr: ((dst size bitAnd: 1) bitXor:1)).
-	self halt.
 	^ emitter emitX86Inl: opCode1	reg: fauxReg
