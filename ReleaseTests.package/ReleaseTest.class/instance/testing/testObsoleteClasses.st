@@ -2,6 +2,7 @@ testObsoleteClasses
 	| obsoleteClasses |
 	
 	Smalltalk fixObsoleteReferences.
+	Smalltalk garbageCollect.
 	obsoleteClasses := SystemNavigation new obsoleteClasses
 		select: [ :each | each isAnonymous not ].
 	
