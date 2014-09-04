@@ -1,3 +1,4 @@
 wikiStyleHelp
-	<wikiStyleHelp: #'? Pharo Help'>
+	<wikiStyleHelp: #'? Pharo Environment Help'>
+	
 	^ self comment

@@ -8,6 +8,6 @@ whichSelectorsReferTo: literal special: specialFlag byte: specialByte
 		((method hasLiteral: literal) or: [specialFlag and: [method scanFor: specialByte]])
 			ifTrue:
 				[((literal isVariableBinding) not
-					or: [method literals allButLast includes: literal])
+					or: [method literals allButLast identityIncludes: literal])
 						ifTrue: [who add: sel]]].
 	^ who

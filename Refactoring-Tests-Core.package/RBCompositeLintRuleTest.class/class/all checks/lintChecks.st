@@ -1,6 +1,6 @@
 lintChecks
 	^ self 
-		rules: (RBBasicLintRuleTest protocols collect: 
+		rules: (RBBasicLintRuleTest protocolsToCheck collect: 
 			[ :each | 
 			self 
 				ruleFor: RBBasicLintRuleTest
