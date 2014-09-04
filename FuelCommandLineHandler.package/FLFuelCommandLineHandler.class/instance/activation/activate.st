@@ -1,12 +1,13 @@
 activate
-	self manageFiles.
-	(self commandLine hasOption: 'save')
-		ifTrue: [
-			ThreadSafeTranscript install.
-			Smalltalk addDeferredStartupAction: [
-				Smalltalk snapshot: true andQuit: true.
-				NonInteractiveTranscript new install.
-			]
-		].
-	(self commandLine hasOption: 'quit')
-		ifTrue: [ self exitSuccess ].
+	[ self manageFiles ]
+		on: Error
+		do: [ :ex | ^ self exitFailure: ex description ].
+	
+	(self commandLine hasOption: 'save') ifTrue: [
+		Smalltalk saveSession ].
+	
+	self exitSuccess.
+	
+	Smalltalk
+		snapshot: false
+		andQuit: (self commandLine hasOption: 'quit')

@@ -2,7 +2,7 @@ authorSettingOn: aBuilder
 	<systemsettings>
 	(aBuilder setting: #authorFullName)
 		order: -100000;
-		parent: #codeEditing;
+		parent: #pharoSystem;
 		label: 'Author identification' translated;
 		target: Author;
 		getSelector: #fullNamePerSe;

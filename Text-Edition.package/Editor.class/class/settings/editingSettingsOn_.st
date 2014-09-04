@@ -1,4 +1,4 @@
-codeEditingSettingsOn: aBuilder 
+editingSettingsOn: aBuilder 
 	<systemsettings> 
 	(aBuilder group: #codeEditing) 
 		label: 'Editing' translated;
