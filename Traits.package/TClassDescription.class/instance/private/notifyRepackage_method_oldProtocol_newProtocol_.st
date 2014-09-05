@@ -21,4 +21,4 @@ notifyRepackage: selector method: compiledMethod oldProtocol: oldProtocol newPro
 						from: oldPackage 
 						to: newPackage ] ].	
 	
-	SystemAnnouncer uniqueInstance method: compiledMethod recategorizedFrom: oldProtocol
+	SystemAnnouncer uniqueInstance methodRecategorized: compiledMethod oldProtocol: oldProtocol

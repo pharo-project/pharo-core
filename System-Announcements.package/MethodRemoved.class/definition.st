@@ -1,5 +1,5 @@
 MethodAnnouncement subclass: #MethodRemoved
-	instanceVariableNames: 'methodRemoved protocol selector methodClass methodOrigin'
+	instanceVariableNames: 'protocol methodOrigin'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'System-Announcements'

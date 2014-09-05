@@ -1,5 +1,5 @@
 MethodAnnouncement subclass: #MethodModified
-	instanceVariableNames: 'methodClass newMethod newProtocol oldMethod oldProtocol selector'
+	instanceVariableNames: 'oldMethod oldProtocol'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'System-Announcements'
