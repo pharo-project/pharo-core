@@ -1,5 +1,5 @@
-basicExample
-	"Job basicExample"
+example
+	"Job example"
 	[ :job| 
 		job title: 'Simulating some progress for 1 Second'. 
 		1 second asDelay wait. "simulate some work".

@@ -1,5 +1,5 @@
-basicExample2
-	"Job basicExample2"
+example2
+	"Job example2"
 	[[ :job| 
 		job max: 10.
 		1 to: 10 do: [ :i|

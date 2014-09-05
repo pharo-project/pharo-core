@@ -1,6 +1,5 @@
 superclass: aSuperclass layout: aLayout
 	layout := aLayout. 
-"	layout host: self. --> this is done in #buildFrom:scope:host:"
 	
 	self
 		superclass: aSuperclass

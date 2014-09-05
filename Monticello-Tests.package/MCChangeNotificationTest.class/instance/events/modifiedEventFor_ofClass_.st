@@ -4,8 +4,4 @@ modifiedEventFor: aSelector ofClass: aClass
 	^ MethodModified 
 		methodChangedFrom: method
 		to: method
-		selector: aSelector
-		inClass: aClass
 		oldProtocol: nil
-		newProtocol: nil
-		requestor: nil.
