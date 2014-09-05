@@ -1,6 +1,5 @@
 testMethodsWithUnboundGlobals
 	| methodsWithUnboundGlobals |
-	self skip.
 	"Ensure the environment is clean"
 	3 timesRepeat: [ Smalltalk garbageCollect ].
 	

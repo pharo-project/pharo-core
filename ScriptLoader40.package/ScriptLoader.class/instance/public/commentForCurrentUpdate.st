@@ -1,11 +1,11 @@
 commentForCurrentUpdate
- ^ '13849 PointerExplorer item menu needs PointerEyeElement to implement #accessorCode 
-	https://pharo.fogbugz.com/f/cases/13849
+ ^ '13927 Failing test: #testCurrentPackagesDoesNotContainScriptLoader
+	https://pharo.fogbugz.com/f/cases/13927
 
-12503 unreferenced parameter in SortHierarchically>>buildHierarchyForClasses:fromPackage:
-	https://pharo.fogbugz.com/f/cases/12503
-	
-13861 make NOCController default OController
-	https://pharo.fogbugz.com/f/cases/13861
+13960 Growl example in comment deprecated
+	https://pharo.fogbugz.com/f/cases/13960
+
+7591 in 4.0, unskip #testMethodsWithUnboundGlobals
+	https://pharo.fogbugz.com/f/cases/7591
 
 '
