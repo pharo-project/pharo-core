@@ -2,10 +2,10 @@ notifyObservers
 	SystemAnnouncer uniqueInstance 
 		suspendAllWhile: [myClass organization classify: selector under: category].
 	priorMethodOrNil 
-		ifNil: [SystemAnnouncer uniqueInstance methodAdded: compiledMethod selector: selector inProtocol: category class: myClass requestor: requestor]
+		ifNil: [ SystemAnnouncer uniqueInstance methodAdded: compiledMethod ]
 		ifNotNil: [
-			SystemAnnouncer uniqueInstance methodChangedFrom: priorMethodOrNil to: compiledMethod selector: selector inClass: myClass requestor: requestor.
+			SystemAnnouncer uniqueInstance methodChangedFrom: priorMethodOrNil to: compiledMethod oldProtocol: priorCategoryOrNil.
 			priorCategoryOrNil = category ifFalse: [
-       			SystemAnnouncer uniqueInstance selector: selector recategorizedFrom: priorCategoryOrNil to: category inClass: myClass] ].
+       			SystemAnnouncer uniqueInstance methodRecategorized: compiledMethod oldProtocol: priorCategoryOrNil ] ].
 	"The following code doesn't seem to do anything."
 	myClass instanceSide noteCompilationOf: selector meta: myClass isClassSide.

@@ -1,7 +1,7 @@
 methodRemoved: anAnnouncement
 	| method |
 	
-	method := anAnnouncement methodAffected.
+	method := anAnnouncement method.
 	blocks copy do:[: b |
 			(b value anySatisfy: [:e | e == method ])
 				ifTrue: [ 

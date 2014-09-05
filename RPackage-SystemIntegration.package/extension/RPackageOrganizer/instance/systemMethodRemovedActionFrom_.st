@@ -1,7 +1,7 @@
 systemMethodRemovedActionFrom: ann
 
 	| method methodPackage |
-	method := ann methodAffected.
+	method := ann method.
 	"If the method is provided by a trait, we do not care about it"
 	ann isProvidedByATrait ifTrue: [^ self].
 

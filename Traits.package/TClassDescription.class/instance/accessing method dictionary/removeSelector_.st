@@ -9,5 +9,4 @@ removeSelector: selector
 	super removeSelector: selector.
 	SystemAnnouncer uniqueInstance 
 		suspendAllWhile: [self updateOrganizationSelector: selector oldCategory: priorProtocol newCategory: nil].
-	SystemAnnouncer uniqueInstance 
-			methodRemoved: priorMethod selector: selector inProtocol: priorProtocol class: self origin: origin.
+	SystemAnnouncer uniqueInstance methodRemoved: priorMethod protocol: priorProtocol origin: origin

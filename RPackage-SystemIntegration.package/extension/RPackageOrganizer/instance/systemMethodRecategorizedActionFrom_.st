@@ -10,7 +10,7 @@ systemMethodRecategorizedActionFrom: ann
 		
 	| oldProtocol newProtocol method methodPackage destinationPackage |
 
-	method := ann methodRecategorized.
+	method := ann method.
 	method ifNil: [ ^ self ].
 	method origin = ann methodClass ifFalse: [ ^ self].
 	(self packageOfClassNamed: ann methodClass theNonMetaClass name) ifNil: [ ^ self ].

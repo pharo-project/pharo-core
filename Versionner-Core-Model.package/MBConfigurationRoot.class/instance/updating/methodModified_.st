@@ -1,4 +1,4 @@
 methodModified: anEvent
 
-	(anEvent methodAffected class name asString beginsWith: 'ConfigurationOf')
-		ifTrue: [  self respondToEventFor: anEvent methodAffected withOperation: #modified ]
+	(anEvent method class name asString beginsWith: 'ConfigurationOf')
+		ifTrue: [  self respondToEventFor: anEvent method withOperation: #modified ]

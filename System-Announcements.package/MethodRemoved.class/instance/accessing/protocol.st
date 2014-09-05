@@ -1,3 +1,2 @@
 protocol
-	
 	^ protocol

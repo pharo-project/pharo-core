@@ -1,3 +1,1 @@
-newProtocol: anObject
-	
-	newProtocol := anObject
+newProtocol: aString

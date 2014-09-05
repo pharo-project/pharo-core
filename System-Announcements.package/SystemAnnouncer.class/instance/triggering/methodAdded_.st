@@ -1,3 +1,4 @@
-methodAdded: aMethod
+methodAdded: aMethod 
+	"A method with the given selector was added to aClass, but not put in a protocol."
 
-	^ self methodAdded: aMethod selector: aMethod selector inClass: aMethod methodClass 
+	self announce: (MethodAdded method: aMethod)
