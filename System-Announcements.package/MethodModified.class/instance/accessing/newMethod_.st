@@ -1,2 +1,2 @@
 newMethod: aCompiledMethod
-	newMethod := aCompiledMethod.
+	newMethod := method := aCompiledMethod.

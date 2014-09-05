@@ -1,3 +1,3 @@
 selector
 	
-	^ selector
+	^ method selector

@@ -1,4 +1,4 @@
-SystemAnnouncement subclass: #MethodRemoved
+MethodAnnouncement subclass: #MethodRemoved
 	instanceVariableNames: 'methodRemoved protocol selector methodClass methodOrigin'
 	classVariableNames: ''
 	poolDictionaries: ''

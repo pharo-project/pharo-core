@@ -1,2 +1,2 @@
 selector
-	^selector
+	^ method selector

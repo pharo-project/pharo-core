@@ -1,3 +1,3 @@
 methodRecategorized: anObject
 	
-	methodRecategorized := anObject
+	methodRecategorized := method := anObject

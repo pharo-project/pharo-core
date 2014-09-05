@@ -1,5 +1,5 @@
-SystemAnnouncement subclass: #MethodAdded
-	instanceVariableNames: 'method methodClass protocol selector'
+MethodAnnouncement subclass: #MethodAdded
+	instanceVariableNames: 'methodClass protocol selector'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'System-Announcements'

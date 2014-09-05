@@ -1,3 +1,3 @@
 methodRemoved
 	
-	^ methodRemoved
+	^ method

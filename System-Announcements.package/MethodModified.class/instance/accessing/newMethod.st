@@ -1,3 +1,3 @@
 newMethod
 
-	^ newMethod
+	^ method

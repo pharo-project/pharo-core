@@ -1,7 +1,7 @@
 methodChangedFrom: oldMethod to: newMethod selector: selector inClass: aClass oldProtocol: oldProtocol newProtocol: newProtocol requestor: aRequestor
 	^self new
 			oldMethod: oldMethod;
-			newMethod: newMethod;
+			method: newMethod;
 			selector: selector;
 			methodClass: aClass;
 			oldProtocol: oldProtocol;

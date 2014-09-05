@@ -1,3 +1,2 @@
 methodClass
-	
 	^ method methodClass
