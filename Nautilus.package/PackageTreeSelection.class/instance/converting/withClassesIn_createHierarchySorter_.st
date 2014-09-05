@@ -4,12 +4,12 @@ withClassesIn: anEnvironment createHierarchySorter: aHierarchyClass
 	anEnvironment isSystem
 		ifFalse: [ classes := classes intersection: anEnvironment classes ].
 
-	defined := aHierarchyClass buildHierarchyForClasses: classes fromPackage: self.
+	defined := aHierarchyClass buildHierarchyForClasses: classes.
 	
 	classes := self extensionClasses collect: #theNonMetaClass.
 	anEnvironment isSystem
 		ifFalse: [ classes := classes intersection: anEnvironment classes ].
 	
-	extensions := aHierarchyClass buildHierarchyForClasses: classes asSet fromPackage: self.
+	extensions := aHierarchyClass buildHierarchyForClasses: classes asSet.
 
 	^ defined, extensions

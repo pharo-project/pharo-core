@@ -1,0 +1,2 @@
+accessorCode
+	^ self label 

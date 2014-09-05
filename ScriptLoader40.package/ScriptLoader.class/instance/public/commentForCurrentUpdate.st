@@ -1,14 +1,11 @@
 commentForCurrentUpdate
- ^ '13952 Pool access lookup crash
-	https://pharo.fogbugz.com/f/cases/13952
+ ^ '13849 PointerExplorer item menu needs PointerEyeElement to implement #accessorCode 
+	https://pharo.fogbugz.com/f/cases/13849
 
-13811 Improve Pharo Environment Help Text
-	https://pharo.fogbugz.com/f/cases/13811
-
-13929 RBBasicLintRuleTest class implements protocols
-	https://pharo.fogbugz.com/f/cases/13929
+12503 unreferenced parameter in SortHierarchically>>buildHierarchyForClasses:fromPackage:
+	https://pharo.fogbugz.com/f/cases/12503
 	
-13930 remove empty packages NOCompiletion and NECompletion-Tests
-	https://pharo.fogbugz.com/f/cases/13930
+13861 make NOCController default OController
+	https://pharo.fogbugz.com/f/cases/13861
 
 '
