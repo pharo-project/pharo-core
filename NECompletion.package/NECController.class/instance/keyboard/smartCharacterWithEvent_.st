@@ -10,9 +10,7 @@ smartCharacterWithEvent: anEvent
 		we unwrap it"
 			"we selected a piece of text if the character is not a special one we do nothing."
 			opposite := self smartCharactersMapping at: char ifAbsent: [ ^ nil ].	"else we wrap the selection"	"editor replaceSelectionWith: (String with: char) , (editor selection) , (String with: opposite)."	"ugly logic it should be encapsulated in the editor "
-			anEvent shiftPressed
-				ifTrue: [ editor shiftEnclose: anEvent ]
-				ifFalse: [ editor enclose: anEvent ].
+			editor enclose: anEvent.
 			self invalidateEditorMorph.
 			^ true ].	"we are not in a selection"
 	opposite := self smartCharactersMapping

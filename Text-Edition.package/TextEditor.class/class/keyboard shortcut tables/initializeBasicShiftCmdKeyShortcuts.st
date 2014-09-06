@@ -23,10 +23,6 @@ initializeBasicShiftCmdKeyShortcuts
 	cmdMap at: (61 + 1) put: #changeEmphasis:.		"cmd-sh-plus"
 	cmdMap at: (127 + 1) put: #forwardDelete:.		"del key"
 
-	"Note: Command key overrides shift key, so, for example, cmd-shift-9 produces $9 not $("
-	'9[,''' do: [ :char | cmdMap at: (char asciiValue + 1) put: #shiftEnclose: ].	"({< and double-quote"
-	"Note: Must use cmd-9 or ctrl-9 to get '()' since cmd-shift-9 is a Mac FKey command."
-
 	#(
 		$c	compareToClipboard:
 		$d	duplicate:

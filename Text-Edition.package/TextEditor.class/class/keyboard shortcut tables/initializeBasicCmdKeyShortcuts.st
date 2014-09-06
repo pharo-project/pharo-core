@@ -21,9 +21,7 @@ initializeBasicCmdKeyShortcuts
 	cmdMap at: 127 + 1 put: #forwardDelete:.		"del key"
 	cmdMap at: 115 + 1 put:#accept:.	
 	'([{''"<' do: [:char | cmdMap at: char asciiValue + 1 put: #enclose:].
-	
-	cmdMap at: $, asciiValue + 1 put: #shiftEnclose:.
-	
+		
 	#(
 		$a #selectAll: 
 		$c #copySelection: 
