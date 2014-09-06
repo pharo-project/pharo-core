@@ -1,3 +1,3 @@
 menuItems
-
+	
 	^ self model menuItems

@@ -1,3 +1,2 @@
 hasContentToShow
-
 	^ self model hasContentToShow

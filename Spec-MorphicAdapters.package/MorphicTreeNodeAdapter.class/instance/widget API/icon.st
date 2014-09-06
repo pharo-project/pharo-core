@@ -1,3 +1,2 @@
 icon
-
 	^ self model icon

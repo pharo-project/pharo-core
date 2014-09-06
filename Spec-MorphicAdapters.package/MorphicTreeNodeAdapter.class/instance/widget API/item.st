@@ -1,3 +1,2 @@
 item
-
 	^ self model content

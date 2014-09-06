@@ -1,3 +1,2 @@
 childrenBlock
-
 	^ [ self model buildChildren ]

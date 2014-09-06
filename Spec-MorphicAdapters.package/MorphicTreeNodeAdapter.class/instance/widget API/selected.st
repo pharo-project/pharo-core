@@ -1,3 +1,2 @@
 selected
-
 	^ self model selected

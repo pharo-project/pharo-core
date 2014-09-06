@@ -1,3 +1,2 @@
 itemBlock
-
 	^ [ self item ]

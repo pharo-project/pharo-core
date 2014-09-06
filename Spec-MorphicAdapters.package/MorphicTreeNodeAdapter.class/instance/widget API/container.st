@@ -1,3 +1,2 @@
 container
-
 	^ self model container
