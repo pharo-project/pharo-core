@@ -1,1 +1,1 @@
-A MorphTreeMorphSingleSelection is xxxxxxxxx.Instance Variables	selectedNodePath:		<Object>selectedNodePath	- xxxxx
+Single selections in a morphic based tree

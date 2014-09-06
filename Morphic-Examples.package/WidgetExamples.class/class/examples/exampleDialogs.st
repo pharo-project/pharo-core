@@ -1,6 +1,6 @@
 exampleDialogs
 	"Open an example of each services dialog"
-	"self new exampleDialogs"
+	"self exampleDialogs"
 
 	self exampleBuilder
 		chooseFont: TextStyle default defaultFont;

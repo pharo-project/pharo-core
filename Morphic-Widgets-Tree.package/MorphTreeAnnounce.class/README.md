@@ -1,1 +1,1 @@
-A MorphTreeAnnounce is xxxxxxxxx.
+Announcements for morphic based trees

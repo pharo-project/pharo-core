@@ -1,5 +1,5 @@
-checkListExample2
-	"self checkListExample2"
+exampleCheckList2
+	"self exampleCheckList2"
 	| model |
 	model := self new rootItems: Morph methods.
 	model

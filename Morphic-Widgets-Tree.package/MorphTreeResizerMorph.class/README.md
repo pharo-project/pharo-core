@@ -1,1 +1,1 @@
-A MorphTreeResizerMorph is xxxxxxxxx.Instance Variables	container:		<Object>	index:		<Object>	oldColor:		<Object>	traceMorph:		<Object>container	- xxxxxindex	- xxxxxoldColor	- xxxxxtraceMorph	- xxxxx
+A resizer morph for a morphic based tree

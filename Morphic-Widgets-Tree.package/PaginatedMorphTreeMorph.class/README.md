@@ -1,1 +1,1 @@
-A PaginatedMorphTreeMorph is xxxxxxxxx.Instance Variables	pager:		<Object>pager	- xxxxx
+A paginated tree morph

@@ -1,6 +1,6 @@
 exampleGroups
 	"Open a window with examples of each of the group type morphs."
-	"self new exampleGroups"
+	"self exampleGroups"
 
 	|dialog builder|
 	builder := self exampleBuilder.

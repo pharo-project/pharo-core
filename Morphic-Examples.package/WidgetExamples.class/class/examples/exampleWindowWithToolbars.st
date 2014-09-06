@@ -1,6 +1,6 @@
 exampleWindowWithToolbars
 	"Open an example window with toolbars."
-	"self new exampleWindowWithToolbars"
+	"self exampleWindowWithToolbars"
 
 	|win fileMenu tools dock text holder|
 	win := StandardWindow new.

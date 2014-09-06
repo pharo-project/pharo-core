@@ -1,1 +1,1 @@
-A MorphTreeMorphMultipleSelection is xxxxxxxxx.Instance Variables	selectedNodePathList:		<Object>selectedNodePathList	- xxxxx
+Multiple selections in a morphic based tree

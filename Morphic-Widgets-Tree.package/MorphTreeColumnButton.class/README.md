@@ -1,1 +1,1 @@
-A MorphTreeColumnButton is xxxxxxxxx.Instance Variables	icon:		<Object>	model:		<Object>icon	- xxxxxmodel	- xxxxx
+A button in a morphic based tree

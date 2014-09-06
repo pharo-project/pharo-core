@@ -1,6 +1,6 @@
 exampleBasicControls
 	"Open a window with examples of each of the basic controls."
-	"self new exampleBasicControls"
+	"self exampleBasicControls"
 	
 	|dialog builder radioModel treeModel|
 	builder := self exampleBuilder.

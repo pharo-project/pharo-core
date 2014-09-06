@@ -1,11 +1,11 @@
-testExample
+example
 	"This test demonstrate a paginating morphTreeMorph in action."
 
-	"self testExample."
+	"self example."
 
 	| treeMorph aWindow aModel |
 	aModel := self itemsList: (1 to: 100) asArray.
-	aWindow := aModel theme newWindowIn: World for: aModel title: 'test'.
+	aWindow := aModel theme newWindowIn: World for: aModel title: 'Example'.
 	treeMorph := aModel defaultTreeMorph.
 	treeMorph pageSize: 30.
 	treeMorph buildContents.

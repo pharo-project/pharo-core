@@ -1,1 +1,1 @@
-A MorphTreeSelectionChanged is xxxxxxxxx.Instance Variables	selection:		<Object>selection	- xxxxx
+Used to announce the change of a selection in the tree

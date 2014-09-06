@@ -1,6 +1,6 @@
 exampleColorControls
 	"Open a window with examples of each of the color controls."
-	"self new exampleColorControls"
+	"self exampleColorControls"
 
 	|dialog builder|
 	builder := self exampleBuilder.

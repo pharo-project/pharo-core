@@ -1,1 +1,1 @@
-A PaginatedMorphTreeModel is xxxxxxxxx.Instance Variables	pageSize:		<Object>pageSize	- xxxxx
+A morphic based tree model with pagination

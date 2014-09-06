@@ -1,5 +1,5 @@
 exampleTextEntryWithCompletionDialog
-	"self new exampleTextEntryWithCompletionDialog"
+	"self exampleTextEntryWithCompletionDialog"
 	| applicants entryCompletion |
 	applicants := (Array
 				streamContents: [:strm | Symbol

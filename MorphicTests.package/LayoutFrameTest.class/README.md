@@ -1,1 +1,1 @@
-A LayoutFrameTest is xxxxxxxxx.
+SUnit tests for class LayoutFrame

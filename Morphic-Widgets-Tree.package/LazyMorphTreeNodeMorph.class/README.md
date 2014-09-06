@@ -1,1 +1,1 @@
-A LazyMorphTreeNodeMorph is xxxxxxxxx.Instance Variables	drawable:		<Object>drawable	- xxxxx
+A node for "lazy drawing" in a morphic based tree

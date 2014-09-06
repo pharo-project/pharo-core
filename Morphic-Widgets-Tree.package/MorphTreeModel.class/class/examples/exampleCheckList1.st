@@ -1,5 +1,5 @@
-checkListExample1
-	"self checkListExample1"
+exampleCheckList1
+	"self exampleCheckList1"
 	Cursor wait 
 		showWhile: [
 			^ self new

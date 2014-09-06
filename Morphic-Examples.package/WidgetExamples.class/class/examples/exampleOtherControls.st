@@ -1,6 +1,6 @@
 exampleOtherControls
 	"Open a window with examples of each of the other controls."
-	"self new exampleOtherControls"
+	"self exampleOtherControls"
 	
 	|dialog builder image emboss fuzzy|
 	builder := self exampleBuilder.
