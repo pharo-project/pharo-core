@@ -1,5 +1,3 @@
 commentForCurrentUpdate
- ^ '13888 Clean the use of spec to initialize widget in the morphicAdapter hierarchy
-	https://pharo.fogbugz.com/f/cases/13888
-
-'
+ ^ '13974 creating menus for ListModels is broken
+	https://pharo.fogbugz.com/default.asp?13974'
