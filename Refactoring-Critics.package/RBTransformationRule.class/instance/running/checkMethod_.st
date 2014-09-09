@@ -4,6 +4,6 @@ checkMethod: aContext
 	(self rewriteRule canMatchMethod: aContext compiledMethod) 
 		ifFalse: [ ^ self ].
 	class := aContext selectedClass.
-	(self rewriteRule executeTree: aContext parseTree) ifTrue: [
+	(self rewriteRule executeTree: aContext compiledMethod parseTree) ifTrue: [
 		(self class recursiveSelfRule executeTree: rewriteRule tree initialAnswer: false) 
-			ifFalse: [ builder compile: rewriteRule tree newSource in: class classified: aContext protocol ] ]
+			ifFalse: [ builder compile: rewriteRule tree newSource in: class classified: aContext compiledMethod protocol ] ]

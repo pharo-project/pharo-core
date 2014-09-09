@@ -1,7 +1,7 @@
 checkMethod: aContext 
 	vars := aContext instVarNames.
 	(matcher 
-		executeTree: aContext parseTree
+		executeTree: aContext compiledMethod parseTree
 		initialAnswer: false) ifTrue: 
 		[ result 
 			addClass: aContext selectedClass

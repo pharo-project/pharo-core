@@ -7,8 +7,6 @@ abstractClass
 	detector classBlock: 
 			[:context :result | 
 			(context selectedClass whichSelectorsReferTo: subclassResponsibilitySymbol)
-				isEmpty ifFalse: 
-						[(context
-							uses: (Smalltalk associationAt: context selectedClass name ifAbsent: [nil]))
-								ifTrue: [result addClass: context selectedClass]]].
+				ifNotEmpty: 
+						[(context whichSelectorsReferTo: subclassResponsibilitySymbol) ifNotEmpty:  [result addClass: context selectedClass]]].
 	^detector

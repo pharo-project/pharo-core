@@ -1,5 +1,5 @@
 checkMethod: aContext 
-	aContext parseTree allDefinedVariables do: 
+	aContext compiledMethod parseTree allDefinedVariables do: 
 		[ :each | 
 		each first isLowercase ifFalse: 
 			[ result 

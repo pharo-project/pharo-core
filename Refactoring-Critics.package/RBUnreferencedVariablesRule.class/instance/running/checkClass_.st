@@ -12,7 +12,7 @@ checkClass: aContext
 	aContext selectedClass isMeta ifFalse: 
 		[ aContext selectedClass classPool associationsDo: 
 			[ :each | 
-			(aContext uses: each) ifFalse: 
+			(SystemNavigation default allCallsOn: each) ifEmpty: 
 				[ result 
 					addClass: aContext selectedClass
 					classVariable: each key ] ] ]

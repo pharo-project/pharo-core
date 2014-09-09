@@ -1,7 +1,7 @@
 checkMethod: aContext 
-	(aContext parseTree isPrimitive not and: 
+	(aContext compiledMethod parseTree isPrimitive not and: 
 		[ matcher 
-			executeMethod: aContext parseTree
+			executeMethod: aContext compiledMethod parseTree
 			initialAnswer: false ]) ifTrue: 
 		[ result 
 			addClass: aContext selectedClass

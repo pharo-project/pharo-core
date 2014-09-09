@@ -7,5 +7,5 @@ checkMethod: aContext
 			whichClassIncludesSelector: aContext selector.
 		superclass notNil ifTrue: [
 			supertree := superclass parseTreeFor: aContext selector.
-			(supertree notNil and: [ supertree equalTo: aContext parseTree exceptForVariables: supertree allDefinedVariables ]) 
+			(supertree notNil and: [ supertree equalTo: aContext compiledMethod parseTree exceptForVariables: supertree allDefinedVariables ]) 
 				ifTrue: [ result addClass: aContext selectedClass selector: aContext selector ] ] ]

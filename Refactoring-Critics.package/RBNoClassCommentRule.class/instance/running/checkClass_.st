@@ -1,5 +1,5 @@
 checkClass: aContext
-	(aContext selectedClass isMeta or: [ aContext includesBehaviorNamed: #TestCase ])
+	(aContext selectedClass isMeta or: [ aContext selectedClass inheritsFrom: TestCase ])
 		ifTrue: [ ^ self ].
 	aContext selectedClass organization classComment isEmpty ifTrue: [ 
 		result 

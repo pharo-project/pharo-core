@@ -1,5 +1,5 @@
 checkMethod: aContext 
-	aContext messages do: [ :each |
+	aContext compiledMethod messages do: [ :each |
 		(each isEmpty or: [ each first isUppercase or: [ literalNames includes: each ] ]) ifTrue: [
 			result 
 				addClass: aContext selectedClass

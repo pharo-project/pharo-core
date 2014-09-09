@@ -1,14 +1,14 @@
 checkMethod: aContext 
 	| message |
-	message := aContext messages 
-		detect: [ :each | (aContext implements: each) not ]
+	message := aContext compiledMethod messages 
+		detect: [ :each | SystemNavigation default implementorsExistOf: each ]
 		ifNone: 
-			[ aContext superMessages 
+			[ aContext compiledMethod superMessages 
 				detect: 
 					[ :each | 
 					aContext selectedClass superclass isNil or: [ (aContext selectedClass superclass canUnderstand: each) not ] ]
 				ifNone: 
-					[ aContext selfMessages 
+					[ aContext compiledMethod selfMessages 
 						detect: [ :each | (aContext selectedClass allSelectors includes: each) not ]
 						ifNone: [ nil ] ] ].
 	message notNil ifTrue: 

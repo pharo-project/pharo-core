@@ -9,10 +9,7 @@ classNotReferenced
 				or: [context isApplication
 				or: [context selectedClass subclasses isEmpty not]])
 					ifFalse: 
-						[| assoc |
-						assoc := Smalltalk associationAt: context selectedClass name.
-						((context uses: assoc) or: [context uses: context selectedClass name])
-							ifFalse: 
+						[ context selectedClass allCallsOn ifEmpty:
 								[result addClass: context selectedClass;
 									addClass: context selectedClass class]]].
 	^detector

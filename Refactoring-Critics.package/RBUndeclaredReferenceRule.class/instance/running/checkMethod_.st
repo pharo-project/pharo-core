@@ -1,12 +1,10 @@
 checkMethod: aContext 
-	| undeclared |
-	undeclared := Undeclared associations
+	
+	Undeclared associations
 		detect: [ :each |
-			(aContext uses: each)
-				and: [ aContext compiledMethod refersToLiteral: each ] ]
-		ifNone: [ nil ].
-	undeclared notNil ifTrue: [ 
-		result addSearchString: undeclared key.
-		result 
-			addClass: aContext selectedClass
-			selector: aContext selector ]
+			aContext compiledMethod refersToLiteral: each ]
+		ifFound: [ :each | 
+			result addSearchString: each key.
+			result 
+				addClass: aContext selectedClass
+				selector: aContext selector ]

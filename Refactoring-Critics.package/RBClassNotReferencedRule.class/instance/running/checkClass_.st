@@ -1,9 +1,7 @@
 checkClass: aContext 
-	| assoc |
-	(aContext selectedClass isMeta or: [  aContext selectedClass subclasses notEmpty or: [ aContext includesBehaviorNamed: #TestCase ] ])
+	(aContext selectedClass isMeta or: [  aContext selectedClass subclasses notEmpty or: [ aContext selectedClass inheritsFrom: TestCase ] ] )
 		ifTrue: [ ^ self ].
-	assoc := Smalltalk globals associationAt: aContext selectedClass name.
-	((aContext uses: assoc) or: [ aContext uses: aContext selectedClass name ]) ifFalse: [
+	aContext selectedClass allCallsOn ifEmpty: [
 		result
 			addClass: aContext selectedClass;
 			addClass: aContext selectedClass class ]

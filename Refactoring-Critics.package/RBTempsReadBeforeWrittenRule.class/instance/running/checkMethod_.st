@@ -1,5 +1,5 @@
 checkMethod: aContext 
-	(RBReadBeforeWrittenTester variablesReadBeforeWrittenIn: aContext parseTree) do: 
+	(RBReadBeforeWrittenTester variablesReadBeforeWrittenIn: aContext compiledMethod parseTree) do: 
 		[ :each | 
 		result 
 			addClass: aContext selectedClass

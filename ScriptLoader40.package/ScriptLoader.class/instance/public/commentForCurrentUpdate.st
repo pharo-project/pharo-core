@@ -1,8 +1,5 @@
 commentForCurrentUpdate
- ^ '13928 Failing test: RBSearchTest>>#testAllSearches
-	https://pharo.fogbugz.com/f/cases/13928
-
-13865 Cleaning menuMorph
-	https://pharo.fogbugz.com/f/cases/13865
+ ^ '13955 Rewrite Lint rules to use common tools
+	https://pharo.fogbugz.com/f/cases/13955
 
 '

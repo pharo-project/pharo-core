@@ -15,6 +15,5 @@ unreferencedVariables
 			context selectedClass isMetaclass ifFalse: 
 					[context selectedClass classPool associationsDo: 
 							[:each | 
-							(context uses: each)
-								ifFalse: [result addClassVar: each key for: context selectedClass]]]].
+							(SystemNavigation default allCallsOn: each) ifEmpty:  [result addClassVar: each key for: context selectedClass]]]].
 	^detector
