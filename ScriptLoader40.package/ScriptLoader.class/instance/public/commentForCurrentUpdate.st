@@ -1,5 +1,5 @@
 commentForCurrentUpdate
- ^ '13955 Rewrite Lint rules to use common tools
-	https://pharo.fogbugz.com/f/cases/13955
+ ^ '13421 Problem in Monticello and the cached packages
+	https://pharo.fogbugz.com/f/cases/13421
 
 '
