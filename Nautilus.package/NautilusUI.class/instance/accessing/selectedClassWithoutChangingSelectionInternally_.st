@@ -1,7 +1,7 @@
 selectedClassWithoutChangingSelectionInternally: aClass
 	| package packageChanged |
 		package := self selectedPackage.
-		(self showPackages not or: [ self showGroups ])
+		(self showHierarchy or: [ self showGroups ])
 			ifTrue: [ aClass ifNotNil: [ package := aClass package ] ].
 		aClass 
 			ifNil: [ self resetClassesListSelection ].

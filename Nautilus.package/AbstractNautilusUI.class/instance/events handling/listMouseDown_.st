@@ -1,6 +1,6 @@
 listMouseDown: anEvent
 
-	self showPackages
-		ifFalse: [ 
-			self showPackages: true.
+	self showHierarchy
+		ifTrue: [ 
+			self showHierarchy: false.
 			self packageWidget mouseDown: anEvent ].

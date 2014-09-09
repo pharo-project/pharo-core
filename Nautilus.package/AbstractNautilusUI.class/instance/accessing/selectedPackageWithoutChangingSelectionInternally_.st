@@ -1,7 +1,7 @@
 selectedPackageWithoutChangingSelectionInternally: aPackage
 	| class |
 	class := self selectedClass.
-	(self showPackages and: [class notNil and: [class package ~= aPackage]])
+	(self showHierarchy not and: [class notNil and: [class package ~= aPackage]])
 		ifTrue: [ self selectedClass: nil ].
 	self packageWidget selectPackage: aPackage.
 	

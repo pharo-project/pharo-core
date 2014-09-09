@@ -13,16 +13,16 @@ applyTo: aNautilus
 	aNautilus browsingHistory pauseDuring: [
 	aNautilus
 		selectedGroup: self selectedGroup;
-		showPackages: self showPackages;
-		showGroups: self showGroups;
 		showHierarchy: self showHierarchy;
+		showGroups: self showGroups;
+		sortHierarchically: self showHierarchy;
 		showComment: self showComment;
 		showInstance: self showInstance;
 		showCategories: self showCategories.
 	].
 	aNautilus ui ifNotNil: [:interface || cl |
 		cl := self selectedClass.
-		interface showPackages: aNautilus showPackages.
+		interface showHierarchy: aNautilus showHierarchy.
 		cl
 			ifNil: [ interface showInstance: false ] 
 			ifNotNil: [ 

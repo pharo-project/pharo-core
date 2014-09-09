@@ -1,0 +1,2 @@
+loadClassHierarchyListElements
+	^ self cachedHierarchy sortedElements 

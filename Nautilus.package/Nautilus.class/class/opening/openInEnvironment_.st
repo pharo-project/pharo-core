@@ -6,5 +6,5 @@ openInEnvironment: anEnvironment
 		browsedEnvironment: anEnvironment;
 		open.
 	instance ui 
-		showPackages: (self switchClassesAndPackages not).
+		showHierarchy: self switchClassesAndPackages.
 	^ instance

@@ -1,6 +1,6 @@
 spawnHierarchy
  
 	self 
-		showHierarchy: true;
+		sortHierarchically: true;
 		open.
-	self ui showPackages: false
+	self ui showHierarchy: true

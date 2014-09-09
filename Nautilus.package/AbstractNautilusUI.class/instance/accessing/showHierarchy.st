@@ -1,3 +1,3 @@
 showHierarchy
 
-	^ self model showHierarchy
+	^ self model showPackages not

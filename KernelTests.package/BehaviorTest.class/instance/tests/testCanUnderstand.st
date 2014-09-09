@@ -6,7 +6,7 @@ testCanUnderstand
 	c1 compile: 'method1 ^self subclassResponsibility'.
 	c1 compile: 'method2 ^123'.
 	
-	self deny: (c1 canUnderstand: #method1).
+	self assert: (c1 canUnderstand: #method1).
 	self assert: (c1 canUnderstand: #method2).
 	self deny: (c1 canUnderstand: #method3).
 	

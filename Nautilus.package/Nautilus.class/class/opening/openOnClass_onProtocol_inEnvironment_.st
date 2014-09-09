@@ -9,7 +9,7 @@ openOnClass: aClass onProtocol: aProtocol inEnvironment: anEnvironment
 		package: aClass package class: aClass category: nil method: nil;
 		open.
 	instance ui 
-		showPackages: (self switchClassesAndPackages not).
+		showHierarchy: self switchClassesAndPackages.
 	instance ui 
 		selectedCategory: aProtocol;
 		categorySelectionChanged;

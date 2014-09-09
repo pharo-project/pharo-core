@@ -4,4 +4,4 @@ childrenForObject: aNode
 				host: aNode
 				label: each class name
 				description: [ :node | node formattedCode ]
-				value: each ]
+				value: [each] ]

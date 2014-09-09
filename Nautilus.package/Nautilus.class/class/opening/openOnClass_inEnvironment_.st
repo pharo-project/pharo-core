@@ -12,6 +12,6 @@ openOnClass: aClass inEnvironment: anEnvironment
 			method: nil;
 	 	open.
 	 instance ui 
-		showPackages: (self switchClassesAndPackages not);
+		showHierarchy: self switchClassesAndPackages;
 		giveFocusToProtocol.
 	^ instance

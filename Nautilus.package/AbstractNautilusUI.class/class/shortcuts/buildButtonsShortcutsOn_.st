@@ -28,11 +28,11 @@ buildButtonsShortcutsOn: aBuilder
 	(aBuilder shortcut: #showHierarchy)
 		category: #NautilusGlobalShortcuts
 		default: $t command  ,$h command 
-		do: [ :target | target showPackages: false ]
+		do: [ :target | target showHierarchy: true ]
 		description: 'Show Hierarchy'.
 		
 	(aBuilder shortcut: #showFlat)
 		category: #NautilusGlobalShortcuts
 		default: $t command  ,$f command 
-		do: [ :target | target showPackages: true ]
+		do: [ :target | target showHierarchy: false ]
 		description: 'Show normal view'.

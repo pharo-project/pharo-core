@@ -1,5 +1,5 @@
 hierarchyButtonLabel
 
-	^ self showPackages
-		ifTrue: [ 'Hierarchy' ]
-		ifFalse: [ 'Flat' ]
+	^ self showHierarchy
+		ifFalse: [ 'Hierarchy' ]
+		ifTrue: [ 'Flat' ]

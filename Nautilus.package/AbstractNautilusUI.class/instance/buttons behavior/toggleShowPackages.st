@@ -1,3 +1,3 @@
 toggleShowPackages
 
-	self showPackages: self showPackages not.
+	self showPackages: self showHierarchy.

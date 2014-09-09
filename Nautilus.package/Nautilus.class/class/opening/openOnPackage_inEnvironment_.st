@@ -6,5 +6,5 @@ openOnPackage: aPackage inEnvironment: anEnvironment
 	instance showGroups: false.
 	instance selectedPackage: aPackage.
 	instance open.
-	instance ui showPackages: true.
+	instance ui showHierarchy: false.
 	^ instance

@@ -1,3 +1,3 @@
 showHierarchy
 
-	^ showHierarchy ifNil: [ showHierarchy := self class showHierarchy ]
+	^ self showPackages not

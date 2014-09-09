@@ -9,9 +9,9 @@ with: aNautilus
 	self
 		selectedClass: aNautilus selectedClass;
 		selectedGroup: aNautilus selectedGroup;
-		showPackages: aNautilus showPackages;
-		showGroups: aNautilus showGroups;
 		showHierarchy: aNautilus showHierarchy;
+		showGroups: aNautilus showGroups;
+		sortHierarchically: aNautilus sortHierarchically;
 		showComment: aNautilus showComment;
 		showInstance: aNautilus showInstance;
 		showCategories: aNautilus showCategories.

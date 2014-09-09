@@ -1,3 +1,3 @@
 showPackagesSilently: aBoolean
 
-	self model showPackages: aBoolean.
+	self model showHierarchy: aBoolean not.

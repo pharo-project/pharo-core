@@ -6,9 +6,9 @@
 		self selectedClass = anotherWrapper selectedClass and: [
 		self selectedCategory = anotherWrapper selectedCategory and: [
 		self selectedMethod = anotherWrapper selectedMethod and: [
-		self showPackages = anotherWrapper showPackages and: [
+		self showHierarchy = anotherWrapper showHierarchy and: [
 		self showInstance = anotherWrapper showInstance and: [
 		self showGroups = anotherWrapper showGroups and: [
-		self showHierarchy = anotherWrapper showHierarchy and: [
+		self sortHierarchically = anotherWrapper sortHierarchically and: [
 		self showComment = anotherWrapper showComment and:[
 		self showCategories = anotherWrapper showCategories ]]]]]]]]]]

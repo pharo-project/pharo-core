@@ -1,3 +1,3 @@
 hierarchyButtonState
 
-	^ self showPackages not
+	^ self showHierarchy

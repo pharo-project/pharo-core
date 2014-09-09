@@ -16,7 +16,7 @@ showPackages: aBoolean
 				ifTrue: [ self showGroupsSilently: false ] ].
 	self resetPackageGroupsList.
 	self resetClassesList.
-	self model showPackages: aBoolean.
+	self model showHierarchy: aBoolean not.
 	self changed: #groupsButtonLabel.
 	self updatePackageGroupAndClassList.
 	self changed: #hierarchyButtonState.
