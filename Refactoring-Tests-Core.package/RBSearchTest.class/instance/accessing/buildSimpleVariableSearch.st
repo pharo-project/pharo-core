@@ -12,6 +12,7 @@ buildSimpleVariableSearch
 				#result
 				#result:
 				#resultClass:
+				#newResultClass:
 				#viewResults
 			)
 		inClass: RBBasicLintRuleTest

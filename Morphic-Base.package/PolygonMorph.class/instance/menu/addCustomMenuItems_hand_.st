@@ -4,7 +4,7 @@ addCustomMenuItems: aMenu hand: aHandMorph
 	aMenu
 		addUpdating: #handlesShowingPhrase
 		target: self
-		action: #showOrHideHandles.
+		selector: #showOrHideHandles.
 	vertices size > 2
 		ifTrue: [ self addPolyLIneCurveMenuItems: aMenu hand: aHandMorph ].
 	aMenu add: 'specify dashed line' translated action: #specifyDashedLine.

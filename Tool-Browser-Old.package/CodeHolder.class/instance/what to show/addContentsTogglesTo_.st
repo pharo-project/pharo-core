@@ -6,5 +6,5 @@ addContentsTogglesTo: aMenu
 				ifFalse: [aMenu
 						addUpdating: aQuint third
 						target: self
-						action: aQuint second.
+						selector: aQuint second.
 					aMenu balloonTextForLastItem: aQuint fifth]]

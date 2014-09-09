@@ -1,8 +1,8 @@
 addCustomMenuItems: aCustomMenu hand: aHandMorph
 	| outer |
 	super addCustomMenuItems: aCustomMenu hand: aHandMorph.
-	aCustomMenu addUpdating: #autoFitString target: self action: #autoFitOnOff.
-	aCustomMenu addUpdating: #wrapString target: self action: #wrapOnOff.
+	aCustomMenu addUpdating: #autoFitString target: self selector: #autoFitOnOff.
+	aCustomMenu addUpdating: #wrapString target: self selector: #wrapOnOff.
 	aCustomMenu add: 'text margins...' translated action: #changeMargins:.
 	aCustomMenu add: 'add predecessor' translated action: #addPredecessor:.
 	aCustomMenu add: 'add successor' translated action: #addSuccessor:.

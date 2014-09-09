@@ -5,4 +5,4 @@ addToggleItemsToHaloMenu: aCustomMenu
 	aCustomMenu
 		addUpdating: #enabledString
 		target: self
-		action: #toggleEnabled
+		selector: #toggleEnabled

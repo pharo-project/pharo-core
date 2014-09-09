@@ -3,9 +3,9 @@ addPolyLIneCurveMenuItems: aMenu hand: aHandMorph
 	aMenu addLine;
 				addUpdating: #openOrClosePhrase
 				target: self
-				action: #toggleOpenOrClosed.
+				selector: #toggleOpenOrClosed.
 			
 			aMenu
 				addUpdating: #smoothOrSegmentedPhrase
 				target: self
-				action: #toggleSmoothing.
+				selector: #toggleSmoothing.

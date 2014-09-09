@@ -41,4 +41,4 @@ addModelItemsToWindowMenu: aMenu
 	aMenu addUpdating: #acceptDroppedMorphsWording target: self selector: #toggleDroppingMorphForReference.
 	aMenu add: 'Previous contents...' target: self selector: #selectPreviousContent.
 	aMenu addLine.
-	aMenu addUpdating: #stylingActiveString target: self action: #toggleStylingActive
+	aMenu addUpdating: #stylingActiveString target: self selector: #toggleStylingActive

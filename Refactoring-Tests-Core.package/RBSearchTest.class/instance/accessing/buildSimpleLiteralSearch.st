@@ -9,7 +9,7 @@ buildSimpleLiteralSearch
 				remove: self currentSelector
 					ifAbsent: [ self error: 'failed' ];
 				yourself ].
-	search answer: #(#protocols ) asBag.
+	search answer: #(#protocolsToCheck ) asBag.
 	(classSearches 
 		at: RBBasicLintRuleTest class
 		ifAbsentPut: [ Set new ]) add: search
