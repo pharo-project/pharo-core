@@ -96,11 +96,17 @@ elementsMenu: aBuilder
 		icon: (Smalltalk ui icons iconNamed: #removeIcon);
 		withSeparatorAfter.
 		
+	(aBuilder item: #'Compare two methods')		 
+		action: [ target compareTwoMethods ];
+		order: 1800;
+		enabledBlock: [ target enableMethodDualSelection ];
+		withSeparatorAfter.	
+		
 	(aBuilder item: #'Add in group...')
 		keyText: 'n, e, m' if: Nautilus useOldStyleKeys not;
 		action: [ target addMethodsInGroup ];
-		order: 1800.
+		order: 1900.
 			
 	(aBuilder item: #'File Out')
 		action: [ target fileOutMethods ];
-		order: 1900
+		order: 2000

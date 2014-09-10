@@ -1,11 +1,11 @@
 commentForCurrentUpdate
- ^ '13979 PragmaMenuBuilder relies on modifying a collection while iterating over it.
-	https://pharo.fogbugz.com/f/cases/13979
+ ^ '13985 OrderedCollection>>#do: and #reverseDo: are not consistent with the other enumerations
+	https://pharo.fogbugz.com/f/cases/13985
 
-13983 Temporary variables not read AND written in LinkedList
-	https://pharo.fogbugz.com/f/cases/13983
+13986 move DebugSystemSettings to DebuggerModel package
+	https://pharo.fogbugz.com/f/cases/13986
 
-13984 Temporary variables not read and written in ByteString class>>#initialize
-	https://pharo.fogbugz.com/f/cases/13984
+13981 Nautilus should allow to compare two methods
+	https://pharo.fogbugz.com/f/cases/13981
 
 '

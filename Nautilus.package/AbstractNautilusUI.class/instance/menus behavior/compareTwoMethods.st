@@ -1,0 +1,2 @@
+compareTwoMethods
+	^ self subclassResponsibility

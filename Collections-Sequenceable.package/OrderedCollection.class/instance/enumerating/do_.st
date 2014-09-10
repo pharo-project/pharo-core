@@ -1,8 +1,5 @@
-do: aBlock 
+do: aBlock
 	"Override the superclass for performance reasons."
-	| index |
-	index := firstIndex.
-	[index <= lastIndex]
-		whileTrue: 
-			[aBlock value: (array at: index).
-			index := index + 1]
+
+	firstIndex to: lastIndex do: [ :index | 
+		aBlock value: (array at: index) ]
