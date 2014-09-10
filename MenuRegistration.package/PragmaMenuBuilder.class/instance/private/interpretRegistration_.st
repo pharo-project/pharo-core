@@ -6,10 +6,6 @@ interpretRegistration: aRegistration
 					ifNil: [ root item: item item ]
 					ifNotNil: [:grp | root group: grp ].
 			item with
-				ifNotNil: [:block || old |
-					old := aRegistration currentRoot.
-					aRegistration currentRoot: node name.
-					[ node with: block ] ensure: [ aRegistration currentRoot: old ]]
 				ifNil: [
 					item action
 						ifNil: [ 
