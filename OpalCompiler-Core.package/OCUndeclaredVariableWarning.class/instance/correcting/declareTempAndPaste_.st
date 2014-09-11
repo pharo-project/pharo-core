@@ -30,5 +30,6 @@ declareTempAndPaste: name
 		(self substituteWord: insertion
 			wordInterval: (tempsMark to: tempsMark-1)
 			offset: 0) - delta.
-	self methodNode scope addTemp: name.
-	^ self lookUpVariable
+	" we can not guess at this point where the tempvar should be stored,
+	tempvars vs. tempvector therefore -> reparse"
+	(OCSourceCodeChanged new newSourceCode: self requestor text) signal

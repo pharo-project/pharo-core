@@ -1,7 +1,6 @@
 upgrade
 	"Update Gofer to the latest version using itself."
 	
-	| working |
 	[ self gofer load ]
 		on: Error
 		do: [ :err | err retry ].

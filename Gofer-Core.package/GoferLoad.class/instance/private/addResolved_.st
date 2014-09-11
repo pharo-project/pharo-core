@@ -1,5 +1,5 @@
 addResolved: aResolvedReference
-	| version reference |
+	| version |
 	version := aResolvedReference version.
 	(self versions includes: version)
 		ifTrue: [ ^ self ].

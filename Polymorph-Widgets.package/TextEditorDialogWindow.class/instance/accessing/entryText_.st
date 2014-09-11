@@ -4,5 +4,5 @@ entryText: anObject
 	entryText := anObject.
 	self changed: #entryText.
 	self textEditorMorph selectAll.
-	self autoAccept ifTrue: [ self ok ].
+	self ok.
 	self textEditorMorph hasUnacceptedEdits: true.
