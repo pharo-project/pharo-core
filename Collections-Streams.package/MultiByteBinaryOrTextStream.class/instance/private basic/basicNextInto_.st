@@ -1,3 +1,3 @@
 basicNextInto: aString
 
-	^ super nextInto: aString.
+	^ self nextInto: aString.

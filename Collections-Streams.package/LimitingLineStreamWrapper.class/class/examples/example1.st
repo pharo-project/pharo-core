@@ -3,7 +3,7 @@ example1
 	"Separate chunks of text delimited by a special string"
 	| inStream msgStream messages |
 	inStream := self exampleStream.
-	msgStream := LimitingLineStreamWrapper on: inStream delimiter: 'From '.
+	msgStream := self on: inStream delimiter: 'From '.
 	messages := OrderedCollection new.
 	[inStream atEnd] whileFalse: [
 		msgStream skipThisLine.

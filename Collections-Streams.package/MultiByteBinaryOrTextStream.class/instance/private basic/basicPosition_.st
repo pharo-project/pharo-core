@@ -1,3 +1,3 @@
 basicPosition: pos
 
-	^ super position: pos.
+	^ self position: pos.
