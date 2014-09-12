@@ -1,5 +1,5 @@
 TestCase subclass: #ClassOrganizationTest
-	instanceVariableNames: 'organization'
+	instanceVariableNames: 'organization class'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'ClassOrganizer-Tests'

@@ -1,2 +1,2 @@
 whichProtocolIncludes: aSelector in: aClass
-	^aClass organization categoryOfElement: aSelector
+	^aClass organization categoryOfElement: aSelector ifAbsent: [ Protocol unclassified ]
