@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '14000 FilterTest needs to be moved to a Debugger test package
+update40224
+	"self new update40224"
+	self withUpdateLog: '14000 FilterTest needs to be moved to a Debugger test package
 	https://pharo.fogbugz.com/f/cases/14000
 
 14004 SpecLayout>>asArray(result is shadowed)
@@ -11,4 +12,7 @@ commentForCurrentUpdate
 14010 Small code critics clean of Ring
 	https://pharo.fogbugz.com/f/cases/14010
 
-'
+'.
+	self loadTogether: self script224 merge: false.
+	self flushCaches.
+self cleanRepositories.

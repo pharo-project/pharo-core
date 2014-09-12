@@ -1,3 +1,0 @@
-isClass
-
-	^false

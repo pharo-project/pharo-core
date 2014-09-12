@@ -1,8 +1,5 @@
 asArray
-
-	| result |
-	result := OrderedCollection new.
-	result add: self type.
-	
-	result addAll: self privateAsArray.
-	^ result asArray
+	^ (OrderedCollection new
+		add: self type;
+		addAll: self privateAsArray;
+		yourself) asArray

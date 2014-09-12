@@ -4,8 +4,8 @@ superclass: aRGBehaviorDefinition
 
 	superclass := aRGBehaviorDefinition.
 	superclass notNil
-	ifTrue: [ 
-		self superclassName: aRGBehaviorDefinition name.
-		aRGBehaviorDefinition addSubclass: self.
-		self hasMetaclass
-			ifTrue: [ self theMetaClass superclass: aRGBehaviorDefinition theMetaClass ] ]
+		ifFalse: [ ^ self ].
+	self superclassName: aRGBehaviorDefinition name.
+	aRGBehaviorDefinition addSubclass: self.
+	self hasMetaclass
+		ifTrue: [ self theMetaClass superclass: aRGBehaviorDefinition theMetaClass ]
