@@ -1,13 +1,8 @@
 commentForCurrentUpdate
- ^ '13205 Temporary variable declaration in blocks
-	https://pharo.fogbugz.com/f/cases/13205
+ ^ '13993 remove two undeclared in System-Announcemetns
+	https://pharo.fogbugz.com/f/cases/13993
 
-13989 Temporary variables not read and writen in Gofer-Core
-	https://pharo.fogbugz.com/f/cases/13989
+13990 RBImplementedNotSentRule slow
+	https://pharo.fogbugz.com/f/cases/13990
 
-13837 remove TextEditorDialogWindow autoaccept preference
-	https://pharo.fogbugz.com/f/cases/13837
-
-13987 remove empty package Settings-Tools
-	https://pharo.fogbugz.com/f/cases/13987
 '

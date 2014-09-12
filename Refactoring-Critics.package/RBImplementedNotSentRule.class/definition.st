@@ -1,5 +1,5 @@
 RBBlockLintRule subclass: #RBImplementedNotSentRule
-	instanceVariableNames: ''
+	instanceVariableNames: 'literals'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Refactoring-Critics-BlockRules'
