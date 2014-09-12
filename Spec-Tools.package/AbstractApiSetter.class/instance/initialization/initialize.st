@@ -1,8 +1,8 @@
 initialize
 	
-	method := nil asReactiveVariable.
-	model := nil asReactiveVariable.
-	retrievingMethod := nil asReactiveVariable.
+	method := nil asValueHolder.
+	model := nil asValueHolder.
+	retrievingMethod := nil asValueHolder.
 	isSetting := false.
 	
 	super initialize.

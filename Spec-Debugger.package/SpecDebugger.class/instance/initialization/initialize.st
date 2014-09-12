@@ -1,7 +1,7 @@
 initialize
 
-	sessionHolder := nil asReactiveVariable.
-	labelHolder := nil asReactiveVariable.
+	sessionHolder := nil asValueHolder.
+	labelHolder := nil asValueHolder.
 	super initialize.
 	
 	needRefresh := false.

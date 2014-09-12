@@ -2,25 +2,25 @@ initialize
 
 	super initialize.
 	
-	textHolder := '' asReactiveVariable.
-	behaviorHolder := nil asReactiveVariable.
-	aboutToStyleHolder := [ false ] asReactiveVariable.
-	actionToPerformHolder := [ :text |  ] asReactiveVariable.
-	readSelectionHolder := [ selection value ] asReactiveVariable.
-	enabledHolder := true asReactiveVariable.
-	actionPerformedHolder := '' asReactiveVariable.
-	isCodeCompletionAllowedHolder := true asReactiveVariable.
-	doItContext := nil asReactiveVariable.
-	doItReceiver := nil asReactiveVariable.
-	hasUnacceptedEdits := false asReactiveVariable.
-	selection := (1 to: 0) asReactiveVariable.
-	scrollValue := (0@0) asReactiveVariable.
+	textHolder := '' asValueHolder.
+	behaviorHolder := nil asValueHolder.
+	aboutToStyleHolder := [ false ] asValueHolder.
+	actionToPerformHolder := [ :text |  ] asValueHolder.
+	readSelectionHolder := [ selection value ] asValueHolder.
+	enabledHolder := true asValueHolder.
+	actionPerformedHolder := '' asValueHolder.
+	isCodeCompletionAllowedHolder := true asValueHolder.
+	doItContext := nil asValueHolder.
+	doItReceiver := nil asValueHolder.
+	hasUnacceptedEdits := false asValueHolder.
+	selection := (1 to: 0) asValueHolder.
+	scrollValue := (0@0) asValueHolder.
 	menuHolder := [ :menu :shifted | shifted
 			ifTrue: [ SmalltalkEditor shiftedYellowButtonMenu ]
-			ifFalse: [ SmalltalkEditor yellowButtonMenu ] ] asReactiveVariable.
-	autoAccept := false asReactiveVariable.
-	wantsVisualFeedback := true asReactiveVariable.
-	askBeforeDiscardingEdits := true asReactiveVariable.
+			ifFalse: [ SmalltalkEditor yellowButtonMenu ] ] asValueHolder.
+	autoAccept := false asValueHolder.
+	wantsVisualFeedback := true asValueHolder.
+	askBeforeDiscardingEdits := true asValueHolder.
 	
 	self registerEvents.
 	self registerEventsForShout

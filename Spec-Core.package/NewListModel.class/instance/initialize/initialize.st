@@ -3,30 +3,30 @@ initialize
 
 	super initialize.
 	
-	items := #() asReactiveVariable.
-	deSelectOnReclick := false asReactiveVariable.
-	draggedItemAtIndex := [ :index | self getRawItemAt: index ] asReactiveVariable.
-	displayBlock := [ :object | object asStringOrText ] asReactiveVariable.
-	headerHeight := 0 asReactiveVariable.
-	headerTitle := nil asReactiveVariable.
-	menuTitle := nil asReactiveVariable.
-	menuHolder := nil asReactiveVariable.
-	handlesDoubleClick := false asReactiveVariable.
-	doubleClick := [  ] asReactiveVariable.
-	iconHolder := [ nil ] asReactiveVariable.
-	iconMaxSize := nil asReactiveVariable.
-	keyStrokeAction := [ false ] asReactiveVariable.
-	isMultipleSelection := false asReactiveVariable.
-	unselectOnChange := false asReactiveVariable.
-	sortingBlock := self defaultSortingBlock asReactiveVariable.
-	filteringBlock := self defaultFilteringBlock asReactiveVariable.
-	allowToSelect := true asReactiveVariable.
+	items := #() asValueHolder.
+	deSelectOnReclick := false asValueHolder.
+	draggedItemAtIndex := [ :index | self getRawItemAt: index ] asValueHolder.
+	displayBlock := [ :object | object asStringOrText ] asValueHolder.
+	headerHeight := 0 asValueHolder.
+	headerTitle := nil asValueHolder.
+	menuTitle := nil asValueHolder.
+	menuHolder := nil asValueHolder.
+	handlesDoubleClick := false asValueHolder.
+	doubleClick := [  ] asValueHolder.
+	iconHolder := [ nil ] asValueHolder.
+	iconMaxSize := nil asValueHolder.
+	keyStrokeAction := [ false ] asValueHolder.
+	isMultipleSelection := false asValueHolder.
+	unselectOnChange := false asValueHolder.
+	sortingBlock := self defaultSortingBlock asValueHolder.
+	filteringBlock := self defaultFilteringBlock asValueHolder.
+	allowToSelect := true asValueHolder.
 	listAnnouncer := Announcer new.
-	headerClicked := [] asReactiveVariable.
-	selectedIndex := 0 asReactiveVariable.
-	selectedItem := nil asReactiveVariable.
-	selectedIndexes := #() asReactiveVariable.
-	selectedItems := #() asReactiveVariable.
-	separatorBlock := [ false ] asReactiveVariable.
+	headerClicked := [] asValueHolder.
+	selectedIndex := 0 asValueHolder.
+	selectedItem := nil asValueHolder.
+	selectedIndexes := #() asValueHolder.
+	selectedItems := #() asValueHolder.
+	separatorBlock := [ false ] asValueHolder.
 	
 	self registerEvents

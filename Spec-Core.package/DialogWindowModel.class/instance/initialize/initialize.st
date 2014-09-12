@@ -2,5 +2,5 @@ initialize
 
 	super initialize.
 
-	toolbar := OkCancelToolbar new asReactiveVariable.
+	toolbar := OkCancelToolbar new asValueHolder.
 	toolbar whenChangedDo: [ :t | self changed: #toolbar: with: { t } ]

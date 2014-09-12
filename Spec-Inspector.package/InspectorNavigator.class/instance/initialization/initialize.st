@@ -3,7 +3,7 @@ initialize
 	super initialize.
 	
 	history := NavigationHistory new.
-	inspector := nil asReactiveVariable.
+	inspector := nil asValueHolder.
 	
 	self initializeShortcuts.
 	inspector whenChangedDo: [ :new :old | 

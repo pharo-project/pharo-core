@@ -3,9 +3,9 @@ initialize
 
 	super initialize.
 
-	tabs := OrderedCollection new asReactiveVariable.
-	tabSelectedAction := [] asReactiveVariable.
-	selectedTab := nil asReactiveVariable.
+	tabs := OrderedCollection new asValueHolder.
+	tabSelectedAction := [] asValueHolder.
+	selectedTab := nil asValueHolder.
 	
 	self myDependents: WeakSet new.
 	

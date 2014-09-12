@@ -2,4 +2,4 @@ initialize
 
 	super initialize.
 
-	isClosedHolder := false asReactiveVariable.
+	isClosedHolder := false asValueHolder.

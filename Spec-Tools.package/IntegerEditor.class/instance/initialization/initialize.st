@@ -2,4 +2,4 @@ initialize
 
 	super initialize.
 
-	integer := 0 asReactiveVariable
+	integer := 0 asValueHolder

@@ -2,12 +2,12 @@ initialize
 
 	super initialize.
 	
-	actionWhenActivatedHolder := [] asReactiveVariable.
-	actionWhenDesactivatedHolder := [] asReactiveVariable.
-	enabledHolder := true asReactiveVariable.
-	stateHolder := false asReactiveVariable.
-	labelClickableHolder := true asReactiveVariable. 
-	labelHolder := '' asReactiveVariable.
+	actionWhenActivatedHolder := [] asValueHolder.
+	actionWhenDesactivatedHolder := [] asValueHolder.
+	enabledHolder := true asValueHolder.
+	stateHolder := false asValueHolder.
+	labelClickableHolder := true asValueHolder. 
+	labelHolder := '' asValueHolder.
 	stateHolder whenChangedDo: [:bool |
 		bool
 			ifTrue: actionWhenActivatedHolder value

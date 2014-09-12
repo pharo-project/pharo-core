@@ -1,12 +1,12 @@
 initialize
 
-	wrapHolder := [ :i | i printString ] asReactiveVariable. 
-	pickedItemsHolder := OrderedCollection new asReactiveVariable.
-	associationsWrapperToItem := Dictionary new asReactiveVariable.
-	associationsItemToWrapper := Dictionary new asReactiveVariable.
-	associationsIndexToWrapper := Dictionary new asReactiveVariable.
-	labelClickableHolder := true asReactiveVariable.
-	defaultValueHolder := false asReactiveVariable.
-	blockToPerformOnWrappers := [:wrapper | ] asReactiveVariable.
+	wrapHolder := [ :i | i printString ] asValueHolder. 
+	pickedItemsHolder := OrderedCollection new asValueHolder.
+	associationsWrapperToItem := Dictionary new asValueHolder.
+	associationsItemToWrapper := Dictionary new asValueHolder.
+	associationsIndexToWrapper := Dictionary new asValueHolder.
+	labelClickableHolder := true asValueHolder.
+	defaultValueHolder := false asValueHolder.
+	blockToPerformOnWrappers := [:wrapper | ] asValueHolder.
 	
 	super initialize.

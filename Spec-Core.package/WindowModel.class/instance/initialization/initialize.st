@@ -2,10 +2,10 @@ initialize
 
 	super initialize.
 
-	model := nil asReactiveVariable.
-	initialExtent := nil asReactiveVariable.
-	title := self class title asReactiveVariable.
-	isClosedHolder := false asReactiveVariable.
-	isResizeable := true asReactiveVariable.
+	model := nil asValueHolder.
+	initialExtent := nil asValueHolder.
+	title := self class title asValueHolder.
+	isClosedHolder := false asValueHolder.
+	isResizeable := true asValueHolder.
 	
 	model whenChangedDo: [:m | self updateTitle ].

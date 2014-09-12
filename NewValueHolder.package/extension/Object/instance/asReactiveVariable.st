@@ -1,4 +1,5 @@
 asReactiveVariable
 	"See NewValueHolder class comment"
-
-	^ self asValueHolder
+	
+	self deprecated: 'Use asValueHolder'.
+	^ NewValueHolder value: self

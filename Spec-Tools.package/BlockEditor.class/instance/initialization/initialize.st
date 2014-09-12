@@ -2,4 +2,4 @@ initialize
 
 	super initialize.
 
-	block := nil asReactiveVariable
+	block := nil asValueHolder

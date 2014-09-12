@@ -1,40 +1,40 @@
 initialize
 	super initialize.
 
-	childrenBlockHolder := [ {} ] asReactiveVariable.
-	hasChildrenBlockHolder := [ :item | (self childrenFor: item) notEmpty ] asReactiveVariable.
-	rootsHolder := {} asReactiveVariable.
-	selectionHolder := {} asReactiveVariable.
-	menuBlockHolder := [] asReactiveVariable.
-	displayBlock := [:item | item asString ] asReactiveVariable.
+	childrenBlockHolder := [ {} ] asValueHolder.
+	hasChildrenBlockHolder := [ :item | (self childrenFor: item) notEmpty ] asValueHolder.
+	rootsHolder := {} asValueHolder.
+	selectionHolder := {} asValueHolder.
+	menuBlockHolder := [] asValueHolder.
+	displayBlock := [:item | item asString ] asValueHolder.
 	
-	removeOnlyLastSelected := false asReactiveVariable.
-	autoDeselection := true asReactiveVariable.
-	autoMultiSelection := false asReactiveVariable.
-	columnInset := 5 asReactiveVariable.
-	doubleClick := [] asReactiveVariable.
-	allowMenuOnNoItem := false asReactiveVariable.
-	isCheckList := false asReactiveVariable.
-	keyStroke := [ :key | ] asReactiveVariable.
-	multiSelection := false asReactiveVariable.
-	evenRowColor := Smalltalk ui theme backgroundColor asReactiveVariable.
-	oddRowColor := Smalltalk ui theme backgroundColor asReactiveVariable.
-	preferedPaneColor := Smalltalk ui theme backgroundColor asReactiveVariable.
-	resizerWidth := 2 asReactiveVariable.
-	rowInset := 2 asReactiveVariable.
-	iconBlock := [ :each : node | node icon ] asReactiveVariable.
-	highlightedItem := nil asReactiveVariable.
+	removeOnlyLastSelected := false asValueHolder.
+	autoDeselection := true asValueHolder.
+	autoMultiSelection := false asValueHolder.
+	columnInset := 5 asValueHolder.
+	doubleClick := [] asValueHolder.
+	allowMenuOnNoItem := false asValueHolder.
+	isCheckList := false asValueHolder.
+	keyStroke := [ :key | ] asValueHolder.
+	multiSelection := false asValueHolder.
+	evenRowColor := Smalltalk ui theme backgroundColor asValueHolder.
+	oddRowColor := Smalltalk ui theme backgroundColor asValueHolder.
+	preferedPaneColor := Smalltalk ui theme backgroundColor asValueHolder.
+	resizerWidth := 2 asValueHolder.
+	rowInset := 2 asValueHolder.
+	iconBlock := [ :each : node | node icon ] asValueHolder.
+	highlightedItem := nil asValueHolder.
 	rootNodeHolder := [ :item |
 		TreeNodeModel new 
 			content: item;
-			children: [ self childrenFor: item ] ] asReactiveVariable.
+			children: [ self childrenFor: item ] ] asValueHolder.
 	
 	columns := { TreeColumnModel new
-		displayBlock: [:node | (self wrapItem: node content) ] } asReactiveVariable.
+		displayBlock: [:node | (self wrapItem: node content) ] } asValueHolder.
 	
 	"Since my nodes are already morphs, dragging them will actually extract them from their owner"
-	dragTransformationBlock := [ :item :source | item complexContents ] asReactiveVariable.
+	dragTransformationBlock := [ :item :source | item complexContents ] asValueHolder.
 
-	treeUpdated := nil asReactiveVariable.
+	treeUpdated := nil asValueHolder.
 
 	self registerEvents

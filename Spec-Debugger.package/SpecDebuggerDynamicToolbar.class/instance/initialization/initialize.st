@@ -1,4 +1,4 @@
 initialize
 
-	sessionHolder := nil asReactiveVariable.
+	sessionHolder := nil asValueHolder.
 	super initialize

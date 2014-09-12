@@ -2,12 +2,12 @@ initialize
 
 	super initialize.
 
-	max := 100 asReactiveVariable.
-	min := 0 asReactiveVariable.
-	quantum := 1 asReactiveVariable.
-	value := 0 asReactiveVariable.
-	absoluteValue := 0 asReactiveVariable.
-	labelHolder := '' asReactiveVariable.
+	max := 100 asValueHolder.
+	min := 0 asValueHolder.
+	quantum := 1 asValueHolder.
+	value := 0 asValueHolder.
+	absoluteValue := 0 asValueHolder.
+	labelHolder := '' asValueHolder.
 	isChanging := false.
 	
 	max whenChangedDo: [:m | self changed: { #max: . m } ].

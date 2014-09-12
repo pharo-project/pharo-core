@@ -1,5 +1,5 @@
 initialize
 
-	widgets := OrderedIdentityDictionary new asReactiveVariable.
-	layout := nil asReactiveVariable.
+	widgets := OrderedIdentityDictionary new asValueHolder.
+	layout := nil asValueHolder.
 	super initialize.	

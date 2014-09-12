@@ -2,4 +2,4 @@ initialize
 
 	super initialize.
 
-	object := nil asReactiveVariable.
+	object := nil asValueHolder.

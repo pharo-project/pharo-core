@@ -1,5 +1,5 @@
 initialize
 
-	cancelled := false asReactiveVariable.
-	cancelAction := [ true ] asReactiveVariable.
+	cancelled := false asValueHolder.
+	cancelAction := [ true ] asValueHolder.
 	super initialize.

@@ -1,6 +1,6 @@
 initialize
 
-	model := nil asReactiveVariable.
+	model := nil asValueHolder.
 	model
 		whenChangedDo: [ :m | 
 			| max |

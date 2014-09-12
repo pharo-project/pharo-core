@@ -2,17 +2,17 @@ initialize
 
 	super initialize.
 
-	extentHolder := nil asReactiveVariable.
-	needRebuild := true asReactiveVariable.
-	keyStrokesForNextFocusHolder := { KMNoShortcut new } asReactiveVariable.
-	keyStrokesForPreviousFocusHolder := { KMNoShortcut new } asReactiveVariable.
+	extentHolder := nil asValueHolder.
+	needRebuild := true asValueHolder.
+	keyStrokesForNextFocusHolder := { KMNoShortcut new } asValueHolder.
+	keyStrokesForPreviousFocusHolder := { KMNoShortcut new } asValueHolder.
 	additionalKeyBindings := Dictionary new.
-	announcer := Announcer new asReactiveVariable.
-	aboutText := nil asReactiveVariable.
-	windowIcon := nil asReactiveVariable.
-	window := nil asReactiveVariable.
-	askOkToClose := false asReactiveVariable.
-	titleHolder := self class title asReactiveVariable.
+	announcer := Announcer new asValueHolder.
+	aboutText := nil asValueHolder.
+	windowIcon := nil asValueHolder.
+	window := nil asValueHolder.
+	askOkToClose := false asValueHolder.
+	titleHolder := self class title asValueHolder.
 	
 	self initializeWidgets.
 	self initializePresenter.

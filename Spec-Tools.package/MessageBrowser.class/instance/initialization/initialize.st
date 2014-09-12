@@ -1,13 +1,13 @@
 initialize
 
-	textConverterHolder := SourceMethodConverter new asReactiveVariable.
+	textConverterHolder := SourceMethodConverter new asValueHolder.
 	model := AbstractTool new.
 	maxClassSize = nil.
-	searchedStringHolder := '' asReactiveVariable.
-	topologicSortHolder := true asReactiveVariable.
+	searchedStringHolder := '' asValueHolder.
+	topologicSortHolder := true asValueHolder.
 
 	super initialize.
-      askOkToClose:= true asReactiveVariable.
+      askOkToClose:= true asValueHolder.
 	self windowIcon: self taskbarIcon.
 	self registerToAnnouncements.
 

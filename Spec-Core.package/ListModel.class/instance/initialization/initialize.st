@@ -2,16 +2,16 @@ initialize
 	super initialize.
 	
 	selectionHolder := Object selectionReactiveVariable.
-	listHolder := Array new asReactiveVariable.
-	sortingBlockHolder := self defaultSortingBlock asReactiveVariable.
-	filteringBlockHolder := self defaultFilteringBlock asReactiveVariable.
-	wrapBlockHolder := [ :object | object asStringOrText ] asReactiveVariable.
-	menuHolder := [ :menu :shifted | nil ] asReactiveVariable.
-	multiSelectionHolder := IdentityDictionary new asReactiveVariable.
-	multiSelection := false asReactiveVariable.
-	allowToSelect := true asReactiveVariable.
-	backgroundColorBlock := [ :item :index | Smalltalk ui theme backgroundColor ] asReactiveVariable.
-	autoDeselect := true asReactiveVariable.
+	listHolder := Array new asValueHolder.
+	sortingBlockHolder := self defaultSortingBlock asValueHolder.
+	filteringBlockHolder := self defaultFilteringBlock asValueHolder.
+	wrapBlockHolder := [ :object | object asStringOrText ] asValueHolder.
+	menuHolder := [ :menu :shifted | nil ] asValueHolder.
+	multiSelectionHolder := IdentityDictionary new asValueHolder.
+	multiSelection := false asValueHolder.
+	allowToSelect := true asValueHolder.
+	backgroundColorBlock := [ :item :index | Smalltalk ui theme backgroundColor ] asValueHolder.
+	autoDeselect := true asValueHolder.
 	listAnnouncer := Announcer new.
 	self registerEvents.
 
