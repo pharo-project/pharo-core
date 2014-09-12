@@ -1,8 +1,8 @@
 commentForCurrentUpdate
- ^ '13993 remove two undeclared in System-Announcemetns
-	https://pharo.fogbugz.com/f/cases/13993
+ ^ '13901 move DoubleLinkedListTests, LRUCacheTests and TTLCacheTests from Tests
+	https://pharo.fogbugz.com/f/cases/13901
 
-13990 RBImplementedNotSentRule slow
-	https://pharo.fogbugz.com/f/cases/13990
+13996 RBSentNotImplementedRule wrong
+	https://pharo.fogbugz.com/f/cases/13996
 
 '

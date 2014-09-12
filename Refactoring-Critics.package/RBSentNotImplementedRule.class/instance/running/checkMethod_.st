@@ -1,7 +1,7 @@
 checkMethod: aContext 
 	| message |
 	message := aContext compiledMethod messages 
-		detect: [ :each | SystemNavigation default implementorsExistOf: each ]
+		detect: [ :each | (SystemNavigation default implementorsExistOf: each) not ]
 		ifNone: 
 			[ aContext compiledMethod superMessages 
 				detect: 
@@ -11,8 +11,8 @@ checkMethod: aContext
 					[ aContext compiledMethod selfMessages 
 						detect: [ :each | (aContext selectedClass allSelectors includes: each) not ]
 						ifNone: [ nil ] ] ].
-	message notNil ifTrue: 
-		[ result addSearchString: message.
+	message notNil ifTrue: [
+		result addSearchString: message.
 		result 
 			addClass: aContext selectedClass
 			selector: aContext selector ]
