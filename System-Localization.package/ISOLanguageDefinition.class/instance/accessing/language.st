@@ -1,2 +1,2 @@
 language
-	^language
+	^ language

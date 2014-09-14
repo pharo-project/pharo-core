@@ -1,4 +1,4 @@
-withFirstCharacterDownshifted
+uncapitalized
 	"Return a copy with the first letter downShifted (in lower case)"
 	
 	| answer |

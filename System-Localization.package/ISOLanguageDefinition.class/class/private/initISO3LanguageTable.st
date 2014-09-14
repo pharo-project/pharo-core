@@ -1,7 +1,5 @@
 initISO3LanguageTable
-	"ISOLanguageDefinition initIso3LanguageTable"
-
-	| table |
-	table := ISOLanguageDefinition readISOLanguagesFrom: ISOLanguageDefinition isoLanguages readStream.
-	table addAll: self extraISO3Definitions.
-	^table
+	"self  initISO3LanguageTable"
+	
+	^ self readISOLanguagesFrom: self isoLanguages readStream.
+	

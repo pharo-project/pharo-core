@@ -1,5 +1,5 @@
 iso2LanguageTable
-	"ISOLanguageDefinition iso2LanguageTable"
+	"self iso2LanguageTable"
 
 	ISO2Table ifNotNil: [^ISO2Table].
 	ISO2Table := Dictionary new: self iso3LanguageTable basicSize.

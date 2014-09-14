@@ -26,7 +26,7 @@ windowMenuOn: aBuilder
 	    ifFalse: [ closableLabel := #'Make unclosable' ]
 	    ifTrue: [ closableLabel := #'Make closable' ].
 	(aBuilder item: closableLabel)
-		action: [ aBuilder model perform: closableLabel asCamelCase withFirstCharacterDownshifted ].
+		action: [ aBuilder model perform: closableLabel asCamelCase uncapitalized ].
 	draggableLabel := aBuilder model isSticky ifTrue: [#'Make draggable'] ifFalse: [#'Make undraggable'].
 	(aBuilder item: draggableLabel)
 		action: [ aBuilder model toggleStickiness ];

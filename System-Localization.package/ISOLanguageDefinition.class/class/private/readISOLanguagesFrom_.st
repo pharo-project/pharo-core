@@ -1,11 +1,11 @@
 readISOLanguagesFrom: stream
-	"ISOLanguageDefinition readISOLanguagesFrom: ISOLanguageDefinition isoLanguages readStream "
+	"self readISOLanguagesFrom: self isoLanguages readStream "
 	| languages language code3 index line |
 	languages := Dictionary new.
 	[stream atEnd
 		or: [(line := stream nextLine readStream) atEnd]]
 		whileFalse: [
-			language := ISOLanguageDefinition new.
+			language := self new.
 			code3 := line upTo: Character tab.
 			(index := code3 indexOf: $/) > 0
 				ifTrue: [

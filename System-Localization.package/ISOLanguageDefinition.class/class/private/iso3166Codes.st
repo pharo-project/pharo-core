@@ -1,5 +1,5 @@
 iso3166Codes
-"http://www.unicode.org/onlinedat/countries.html"
+	"http://www.unicode.org/onlinedat/countries.html"
 
 ^'ÅLAND ISLANDS
 AX

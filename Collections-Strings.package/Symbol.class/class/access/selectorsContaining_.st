@@ -29,6 +29,6 @@ selectorsContaining: aString
 						ifTrue: [selectorList add: each]]].
 
 	^selectorList reject: [:each | "reject non-selectors, but keep ones that begin with an uppercase"
-		each numArgs < 0 and: [each asString withFirstCharacterDownshifted numArgs < 0]].
+		each numArgs < 0 and: [each asString uncapitalized numArgs < 0]].
 
 "Symbol selectorsContaining: 'scon'"
