@@ -1,2 +1,0 @@
-newMethod: aCompiledMethod
-	method := aCompiledMethod.

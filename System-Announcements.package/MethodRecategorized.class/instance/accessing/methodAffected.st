@@ -1,2 +1,0 @@
-methodAffected
-	^self methodRecategorized

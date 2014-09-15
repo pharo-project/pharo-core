@@ -1,8 +1,8 @@
 commentForCurrentUpdate
- ^ '13833 rename String>>#withFirstCharacterDownshifted to String>>#uncapitalized
-	https://pharo.fogbugz.com/f/cases/13833
+ ^ '13214 rename instance variable does not work on class side
+	https://pharo.fogbugz.com/f/cases/13214
 
-14015 ISOLanguages defined some KIds countries.
-	https://pharo.fogbugz.com/f/cases/14015
+14011 Many leftover methods after method announcement refactoring
+	https://pharo.fogbugz.com/f/cases/14011
 
 '

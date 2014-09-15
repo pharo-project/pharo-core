@@ -1,3 +1,0 @@
-methodRecategorized: anObject
-	
-	 method := anObject

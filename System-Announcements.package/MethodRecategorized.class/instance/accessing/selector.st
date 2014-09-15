@@ -1,3 +1,0 @@
-selector
-	
-	^ method selector
