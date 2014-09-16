@@ -1,8 +1,8 @@
 commentForCurrentUpdate
- ^ '13214 rename instance variable does not work on class side
-	https://pharo.fogbugz.com/f/cases/13214
-
-14011 Many leftover methods after method announcement refactoring
-	https://pharo.fogbugz.com/f/cases/14011
+ ^ '14020 Add test cases which check font installation process and registration on singletons
+	https://pharo.fogbugz.com/f/cases/14020
+	
+14006 3 tests fail for AsmJit in the Pharo4
+	https://pharo.fogbugz.com/f/cases/14006
 
 '
