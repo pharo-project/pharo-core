@@ -3,6 +3,6 @@ compileNewUpdateMethodSilentlyPreLoad: preload postLoad: postLoad
 	"self new compileNewUpdateMethod"
 	
 
-	self class compile: 
-		(self newGenerateNewUpdateMethodSilentlyPreLoad: preload postLoad: postLoad)
+	self class 
+		compile: (self newGenerateNewUpdateMethodSilentlyPreLoad: preload postLoad: postLoad)
 		classified: 'pharo - updates'
