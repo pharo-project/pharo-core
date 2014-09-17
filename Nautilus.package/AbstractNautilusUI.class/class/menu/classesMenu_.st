@@ -50,7 +50,7 @@ classesMenu: aBuilder
 		keyText: 'g, j' if: Nautilus useOldStyleKeys not;
 		keyText: 'j' if: Nautilus useOldStyleKeys;
 		action: [ target createTestForSelectedClass ];
-		enabledBlock: [ target selectedClasses size <= 1 ];
+		enabledBlock: [ target selectedClasses size = 1 ];
 		order: 300;
 		withSeparatorAfter.
 		

@@ -1,3 +1,3 @@
 createTestForSelectedClass
-
-	self createTestForClass: self selectedClass
+ 
+	self createTestForClass: self selectedClass theNonMetaClass 
