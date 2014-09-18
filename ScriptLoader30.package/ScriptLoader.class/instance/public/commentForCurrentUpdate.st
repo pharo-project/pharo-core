@@ -1,8 +1,8 @@
 commentForCurrentUpdate
- ^ '13912 backport: 13911: Metacello test packages not properly unload
-	https://pharo.fogbugz.com/f/cases/13912
+ ^ '14018 backport #uncapitalized to Pharo3
+	https://pharo.fogbugz.com/f/cases/14018
 
-13725 NativeBoost crashes when reading null pointer field in a structure
-	https://pharo.fogbugz.com/f/cases/13725
+14025 DateModel Broken in 3.0
+	https://pharo.fogbugz.com/f/cases/14025
 
 '
