@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '14032 Fix test cases and access singletons using slots
-	https://pharo.fogbugz.com/f/cases/14032'
+ ^ '12873 IconicButton should absord property as instance variable
+	https://pharo.fogbugz.com/f/cases/12873'

@@ -1,5 +1,5 @@
 SimpleButtonMorph subclass: #IconicButton
-	instanceVariableNames: 'graphicalMorph'
+	instanceVariableNames: 'graphicalMorph oldBorder oldBorderStyle'
 	classVariableNames: 'DefaultGraphics'
 	poolDictionaries: ''
 	category: 'Morphic-Widgets-Basic'
