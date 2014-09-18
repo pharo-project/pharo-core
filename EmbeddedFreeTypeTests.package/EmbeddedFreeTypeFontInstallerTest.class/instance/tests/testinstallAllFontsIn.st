@@ -1,7 +1,7 @@
 testinstallAllFontsIn
 
 	| provider fileInfos families |
-	provider := FreeTypeFontProvider current
+	provider := self currentProviderOrError 
 		updateEmbeddedFreeTypeFonts;
 		updateAvailableFontFamilies;
 		yourself.

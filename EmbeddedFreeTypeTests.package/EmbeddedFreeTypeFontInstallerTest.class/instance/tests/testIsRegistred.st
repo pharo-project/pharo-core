@@ -1,3 +1,5 @@
 testIsRegistred
-
-	self assert: (FreeTypeFontProvider current includesInstaller: EmbeddedFreeTypeFontInstaller current)
+	| installer provider |
+	installer := self currentInstallerOrError.
+	provider := self currentProviderOrError.
+	self assert: (provider includesInstaller: installer)
