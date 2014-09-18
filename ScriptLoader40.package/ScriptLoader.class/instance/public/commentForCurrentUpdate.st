@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '14027 ensureTransparentColor is unused and looks dead
-	https://pharo.fogbugz.com/f/cases/14027'
+ ^ '14030 MorphicTabManagerAdapter>>doesNotUnderstand: #tabSelected:
+	https://pharo.fogbugz.com/f/cases/14030'
