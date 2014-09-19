@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '14037 #recompile does not recompile the classTrait
-	https://pharo.fogbugz.com/f/cases/14037'
+ ^ '14043 TabContainerMorph example gives DNU #instance
+	https://pharo.fogbugz.com/f/cases/14043'
