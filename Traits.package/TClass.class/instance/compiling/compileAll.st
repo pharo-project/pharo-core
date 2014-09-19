@@ -1,3 +1,3 @@
 compileAll
 	super compileAll.
-	self class compileAll.
+	self classSide compileAll.
