@@ -1,7 +1,7 @@
 testPoolDefinition
 	| pool newClass |
 	
-	pool:= RGFactory current createSharedPoolNamed: #TextConstants.
+	pool:= RGClassDefinition createSharedPoolNamed: #TextConstants.
 	
 	self assert: (pool isPool).
 	self assert: (pool users isEmpty).

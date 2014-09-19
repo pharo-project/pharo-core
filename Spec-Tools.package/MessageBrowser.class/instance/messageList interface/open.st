@@ -1,3 +1,3 @@
 open
 
-	self openWithSpec
+	^self openWithSpec

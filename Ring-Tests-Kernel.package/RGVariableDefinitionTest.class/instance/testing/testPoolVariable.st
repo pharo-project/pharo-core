@@ -10,8 +10,7 @@ testPoolVariable
 	self assert: (poolVar isMetaSide not).
 	
 	newClass:= RGClassDefinition named: #OrderedCollection.
-	poolVar:= RGFactory current createPoolVariableNamed: 'TextConstants' parent: newClass.
-	
+	poolVar:= (RGPoolVariableDefinition named:  'TextConstants' ) parent: newClass.
 	self assert: (poolVar parent = newClass).
 	self assert: (newClass sharedPools isEmpty).
 	
