@@ -1,0 +1,2 @@
+germanLocale
+	^ Locale isoLanguage: 'de'

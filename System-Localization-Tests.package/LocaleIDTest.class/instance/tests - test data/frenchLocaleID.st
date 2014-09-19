@@ -1,0 +1,3 @@
+frenchLocaleID
+
+	^LocaleID isoLanguage: 'fr'

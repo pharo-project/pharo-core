@@ -1,6 +1,9 @@
 switchTo: locale 
 	"Locale switchTo: Locale isoLanguage: 'de'"
 	Current localeID = locale localeID
-		ifFalse: [Current := locale.
+		ifFalse: [
+			|announcement|
+			announcement := LocaleChanged from: Current to: locale.
+			Current := locale.
 			CurrentPlatform := locale.
-			self localeChanged]
+			self localeAnnouncer announce: announcement ]

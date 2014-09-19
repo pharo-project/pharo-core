@@ -1,5 +1,5 @@
 Object subclass: #NaturalLanguageTranslator
 	instanceVariableNames: ''
-	classVariableNames: 'AllKnownPhrases'
+	classVariableNames: 'Current'
 	poolDictionaries: ''
-	category: 'System-Localization'
+	category: 'System-Localization-Translations'

@@ -1,2 +1,2 @@
 cleanUp
-	AllKnownPhrases := nil
+	 Current ifNotNil: [ Current cleanUp ]

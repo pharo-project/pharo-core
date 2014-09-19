@@ -1,0 +1,3 @@
+germanLocaleID
+
+	^LocaleID isoLanguage: 'de'

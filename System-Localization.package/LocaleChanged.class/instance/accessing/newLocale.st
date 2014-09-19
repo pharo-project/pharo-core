@@ -1,0 +1,2 @@
+newLocale
+	^ newLocale

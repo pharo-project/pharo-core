@@ -1,2 +1,0 @@
-isoLocale: aString
-	

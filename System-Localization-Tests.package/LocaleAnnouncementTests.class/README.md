@@ -1,0 +1,1 @@
+A LocaleAnnouncementTests is xxxxxxxxx.Instance Variables	catchedAnnouncement:		<Object>	saveCurrent:		<Object>catchedAnnouncement	- xxxxxsaveCurrent	- xxxxx
