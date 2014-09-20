@@ -4,11 +4,11 @@ runTestsOfClass: aClass notifying: aBoolean
 	methods := aClass methods select: [ :method | method isTestMethod ] thenCollect: [:e | e selector ].
 
 	blockToEvaluate := [ |result |
-		aClass resetHistory.
+		[ aClass resetHistory.
 		result := (aClass addToSuite: TestSuite new fromMethods: methods) run.
 		result updateResultsInHistory.
 		ClassesIconsCache removeKey: aClass ifAbsent: [].
-		testSemaphore signal. ].
+		testSemaphore signal. ] on:Error do:[:e | testSemaphore signal . e defaultAction]].
 
 	aBoolean 
 		ifTrue: [ blockToEvaluate forkAt: Processor userBackgroundPriority ]

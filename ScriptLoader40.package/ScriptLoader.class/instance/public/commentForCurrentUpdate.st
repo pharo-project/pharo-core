@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '14044 Selfies shot with Pharo should give visual feedback
-	https://pharo.fogbugz.com/f/cases/14044
+ ^ '10572 Locking image with test icons (Glorp example)
+	https://pharo.fogbugz.com/f/cases/10572
 
-14008 Tests from Nautilus-Tests need to be moved to a nautilus test package
-	https://pharo.fogbugz.com/f/cases/14008
+13843 MOPTraitTes>>#testOrigin failing
+	https://pharo.fogbugz.com/f/cases/13843
 
-13949 stackAlignment on windows should be 16
-	https://pharo.fogbugz.com/f/cases/13949'
+14046 Deprecate SystemAnnouncement(class)>>fromInternal: 
+	https://pharo.fogbugz.com/f/cases/14046'
