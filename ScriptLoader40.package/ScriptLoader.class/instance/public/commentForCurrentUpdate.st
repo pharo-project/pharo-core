@@ -1,6 +1,5 @@
 commentForCurrentUpdate
- ^ '14055 Fix some failing tests related to Code Critics (due to accidental #halt)
-	https://pharo.fogbugz.com/f/cases/14055
+ ^ '11996 Wrong exception handler problem (Part1/5)
+	https://pharo.fogbugz.com/f/cases/11996
 
-13606 testSlotScopeParallelism is failing
-	https://pharo.fogbugz.com/f/cases/13606'
+'
