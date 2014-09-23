@@ -2,4 +2,4 @@ ClassAnnouncement subclass: #ClassAdded
 	instanceVariableNames: 'classAdded classCategory'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'System-Announcements'
+	category: 'System-Announcements-System-Classes'

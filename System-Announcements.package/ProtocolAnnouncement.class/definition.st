@@ -2,4 +2,4 @@ SystemAnnouncement subclass: #ProtocolAnnouncement
 	instanceVariableNames: 'protocol classReorganized'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'System-Announcements'
+	category: 'System-Announcements-System-Protocols'

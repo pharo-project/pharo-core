@@ -1,0 +1,2 @@
+name
+	^ 'Future deprecation warning'

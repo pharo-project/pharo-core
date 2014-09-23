@@ -2,4 +2,4 @@ SystemAnnouncement subclass: #SnapshotDone
 	instanceVariableNames: 'isNewImage'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'System-Announcements'
+	category: 'System-Announcements-System-Base'

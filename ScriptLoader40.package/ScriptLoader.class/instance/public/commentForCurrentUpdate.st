@@ -1,9 +1,12 @@
 commentForCurrentUpdate
- ^ '10572 Locking image with test icons (Glorp example)
-	https://pharo.fogbugz.com/f/cases/10572
+ ^ '14019 add critics rule for #withFirstCharacterDownshifted-> #uncapitalized
+	https://pharo.fogbugz.com/f/cases/14019
 
-13843 MOPTraitTes>>#testOrigin failing
-	https://pharo.fogbugz.com/f/cases/13843
+14049 add String>>substrings: and lint rule for #subStrings:
+	https://pharo.fogbugz.com/f/cases/14049
 
-14046 Deprecate SystemAnnouncement(class)>>fromInternal: 
-	https://pharo.fogbugz.com/f/cases/14046'
+14035 openWorldWithSpec not taking over the world
+	https://pharo.fogbugz.com/f/cases/14035
+
+14045 Categorize classes in System-Announcements
+	https://pharo.fogbugz.com/f/cases/14045'

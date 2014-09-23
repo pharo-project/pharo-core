@@ -2,4 +2,4 @@ SystemAnnouncement subclass: #CategoryRemoved
 	instanceVariableNames: 'categoryName'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'System-Announcements'
+	category: 'System-Announcements-System-Categories'

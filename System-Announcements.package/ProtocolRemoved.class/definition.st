@@ -2,4 +2,4 @@ ProtocolAnnouncement subclass: #ProtocolRemoved
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'System-Announcements'
+	category: 'System-Announcements-System-Protocols'

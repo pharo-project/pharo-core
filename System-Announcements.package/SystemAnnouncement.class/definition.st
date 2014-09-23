@@ -2,4 +2,4 @@ Announcement subclass: #SystemAnnouncement
 	instanceVariableNames: 'timeStamp'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'System-Announcements'
+	category: 'System-Announcements-System-Base'

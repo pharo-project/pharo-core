@@ -2,4 +2,4 @@ Object subclass: #AnnouncementLogger
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'System-Announcements'
+	category: 'System-Announcements-Logging'

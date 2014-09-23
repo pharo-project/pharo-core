@@ -2,4 +2,4 @@ SystemAnnouncement subclass: #MethodAnnouncement
 	instanceVariableNames: 'method'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'System-Announcements'
+	category: 'System-Announcements-System-Methods'

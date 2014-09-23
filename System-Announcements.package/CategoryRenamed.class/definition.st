@@ -2,4 +2,4 @@ SystemAnnouncement subclass: #CategoryRenamed
 	instanceVariableNames: 'from to newCategoryName oldCategoryName'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'System-Announcements'
+	category: 'System-Announcements-System-Categories'

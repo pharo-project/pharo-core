@@ -2,4 +2,4 @@ MethodAnnouncement subclass: #MethodRemoved
 	instanceVariableNames: 'protocol methodOrigin'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'System-Announcements'
+	category: 'System-Announcements-System-Methods'
