@@ -1,3 +1,3 @@
 nextHandlerContext
 
-	^ self sender findNextHandlerContextStarting
+	^ self sender findNextHandlerContext
