@@ -1,5 +1,5 @@
 Object subclass: #ExceptionHandler
-	instanceVariableNames: 'block exception enabled'
+	instanceVariableNames: 'block exception'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'AST-Interpreter-Core'

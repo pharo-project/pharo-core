@@ -1,3 +1,3 @@
 handles: anError
 
-	^ self enabled and: [ self exception handles: anError ]
+	^self exception handles: anError

@@ -7,6 +7,6 @@ fromVMContext: aBlockContext
 		closure: aBlockContext closure asASTBlockClosure;
 		exceptionHandler: (sender ifNotNil: [ 
 			sender isHandlerContext ifTrue: [
-				(ExceptionHandler on: (sender tempAt: 1) do: (sender tempAt: 2)) enabled: (sender tempAt: 1)]
+				ExceptionHandler on: (sender tempAt: 1) do: (sender tempAt: 2)]
 			]) ;
 		yourself

@@ -1,2 +1,0 @@
-enabled: aBool
-	enabled := aBool
