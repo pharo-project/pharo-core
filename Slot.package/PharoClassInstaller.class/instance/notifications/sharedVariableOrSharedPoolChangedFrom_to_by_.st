@@ -5,7 +5,8 @@ sharedVariableOrSharedPoolChangedFrom: oldClass to: newClass by: classModificati
 		to: newClass 
 		by: classModification.
 	
-	"Adopt sub-hierarchies. No need to propagate the modification to them."
-	oldClass subclasses do: [ :each | 
+	"Update subclasses. No need to propagate the modification to them."
+	oldClass subclasses do: [ :each |
 		each superclass: newClass.
-		newClass addSubclass: each ]
+		newClass addSubclass: each.
+		each layout slotScope ifNotEmpty: [ :scope | scope parentScope: newClass layout slotScope ] ].

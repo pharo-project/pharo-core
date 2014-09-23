@@ -1,5 +1,5 @@
 checkMethod: aContext 
-self halt.
+
 	self plannedSelectorRenames do: [ :mapping | 
 		| oldSelector newSelector |
 		oldSelector := mapping key.
