@@ -1,5 +1,5 @@
-TestCase subclass: #NECTypedModelTest
+TestCase subclass: #NECEntryTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'NECompletion-Tests'
+	category: 'NECompletionTests'

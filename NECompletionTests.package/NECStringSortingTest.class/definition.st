@@ -1,5 +1,5 @@
-TestCase subclass: #NECContextTest
+TestCase subclass: #NECStringSortingTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'NECompletion-Tests'
+	category: 'NECompletionTests'

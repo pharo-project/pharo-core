@@ -28,5 +28,8 @@ doneApplyingChangesSilentlyIssues: issuesToIntegrate preLoad: preload postLoad: 
 
 	self class waitingCacheFolder deleteAllChildren.
 	self saveChangedPackagesIntoWaitingFolder.
-	self generateScriptAndUpdateMethodForNewVersionSilentlyPreLoad: preload postLoad: postLoad.
+	self 
+		generateScriptAndUpdateMethodForNewVersionSilentlyConfigurations: #() 
+		preLoad: preload 
+		postLoad: postLoad.
 	self saveLatestScriptLoaderToWaitingFolder.

@@ -1,4 +1,4 @@
-doneApplyingChangesSilentlyComment: providedComment preLoad: preload postLoad: postLoad
+doneApplyingChangesSilentlyComment: providedComment configurations: configurations preLoad: preload postLoad: postLoad
 	| comment commentQuoted st |
 	Smalltalk image saveSession.
 	self saveAsNewImageWithCurrentReleaseNameToPublish.
@@ -17,5 +17,8 @@ doneApplyingChangesSilentlyComment: providedComment preLoad: preload postLoad: p
 
 	self class waitingCacheFolder deleteAllChildren.
 	self saveChangedPackagesIntoWaitingFolder.
-	self generateScriptAndUpdateMethodForNewVersionSilentlyPreLoad: preload postLoad: postLoad.
+	self 
+		generateScriptAndUpdateMethodForNewVersionSilentlyConfigurations: configurations 
+		preLoad: preload 
+		postLoad: postLoad.
 	self saveLatestScriptLoaderToWaitingFolder.
