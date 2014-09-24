@@ -1,2 +1,2 @@
 rationale
-	^ 'Check methods that send messages that perform low level things. You might want to limit the number of such messages in your application. For example, using become: throughout your application might not be the best thing. Also, messages such as isKindOf: can signify a lack of polymorphism. You can change which methods are "questionable" by editing the BasicLintRule>>badSelectors method.'
+	^ 'Deprecated methods can be noisy, maybe encouraging people to turn such warnings off, and not address them.  A lint rule allows a gentler staged approach to address deprecations outside of running an application, with a refactoring rule handy.'
