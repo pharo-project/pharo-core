@@ -9,7 +9,7 @@ commentForIssues: issues
 					url: 'http://bugs.pharo.org/issues/name/';
 					addPath: each asString;
 					get.
-				stream << (description copyReplaceAll: $' asString with: $' asString, $' asString); cr.
+				stream << (description reject: [ :c | c = $' ]); cr.
 				link := 'https://pharo.fogbugz.com/f/cases' asUrl / each asString.
 				stream tab; print: link; cr; cr ]
 			displayingProgress: 'Fetching Issue Descriptions' ]

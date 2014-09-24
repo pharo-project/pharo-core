@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '14065 Spec WorldModel should not change theme background
-	https://pharo.fogbugz.com/f/cases/14065'
+ ^ '12828 Unfullfilled subclass responsibility in JPEGReadWriter
+	https://pharo.fogbugz.com/f/cases/12828'
