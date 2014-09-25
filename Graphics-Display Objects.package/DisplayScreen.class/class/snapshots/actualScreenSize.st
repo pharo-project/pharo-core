@@ -1,3 +1,3 @@
 actualScreenSize
 	<primitive: 106>
-	^ 640@480
+	^ World osWindow extent

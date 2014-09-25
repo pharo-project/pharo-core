@@ -1,5 +1,5 @@
 PasteUpMorph subclass: #WorldMorph
-	instanceVariableNames: ''
+	instanceVariableNames: 'osWindow session'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Morphic-Core-Worlds'

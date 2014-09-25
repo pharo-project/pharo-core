@@ -1,0 +1,2 @@
+clipboardText
+	^ self osWindow clipboardText
