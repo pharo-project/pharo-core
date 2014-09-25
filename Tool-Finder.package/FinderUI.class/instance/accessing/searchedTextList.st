@@ -1,2 +1,2 @@
 searchedTextList
-	^SearchedTextList ifNil: [ SearchedTextList := OrderedCollection new]
+	^searchedTextList ifNil: [ searchedTextList := OrderedCollection new]

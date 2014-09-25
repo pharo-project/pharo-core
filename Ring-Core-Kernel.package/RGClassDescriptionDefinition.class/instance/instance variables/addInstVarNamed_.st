@@ -1,5 +1,8 @@
 addInstVarNamed: aString
 	| var |
-	var:= self factory createInstanceVariableNamed: aString parent: self.
+	var := ((self isMeta 
+				ifTrue: [ RGClassInstanceVariableDefinition ]
+				ifFalse:[  RGInstanceVariableDefinition ])
+		named: aString) parent: self.
 	self addVariable: var in: instanceVariables.
 	^var

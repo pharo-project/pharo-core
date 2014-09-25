@@ -1,7 +1,7 @@
 testExistingMethodWithPointer
 	| newMethod |
 	
-	newMethod:= RGFactory current createMethodNamed: #size realParent: OrderedCollection.
+	newMethod:= (OrderedCollection>>#size) asActiveRingDefinition.
 									
 	self assert: (newMethod parent isNil).
 	self assert: (newMethod parentName == #OrderedCollection).

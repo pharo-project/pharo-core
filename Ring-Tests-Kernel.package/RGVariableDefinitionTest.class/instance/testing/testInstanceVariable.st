@@ -10,10 +10,6 @@ testInstanceVariable
 	self assert: (instVar isMetaSide not).
 	
 	newClass:= RGClassDefinition named: #OrderedCollection.
-	instVar:= RGFactory current createInstanceVariableNamed: 'array' parent: newClass.
-	
+	instVar:= newClass addInstVarNamed: 'array'.
 	self assert: (instVar parent = newClass).
-	self assert: (newClass instanceVariables isEmpty).
-	
-	newClass instanceVariables add: instVar.
 	self assert: (newClass instanceVariables size = 1).

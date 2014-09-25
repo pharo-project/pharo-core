@@ -1,2 +1,2 @@
 description
-	^ 'ftp://', user, '@', host, '/', directory
+	^ 'ftp://', host, '/', directory

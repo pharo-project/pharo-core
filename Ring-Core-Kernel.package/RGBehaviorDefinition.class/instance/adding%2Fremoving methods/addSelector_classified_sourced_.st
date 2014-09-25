@@ -1,6 +1,7 @@
 addSelector: selectorName classified: protocolName sourced: source
 
-	self addMethod: ((self factory createMethodNamed: selectorName parent: self)
+	self addMethod: ((RGMethodDefinition named: selectorName) 
+							parent: self;
 							protocol: protocolName;
 							sourceCode: source;
 							yourself)

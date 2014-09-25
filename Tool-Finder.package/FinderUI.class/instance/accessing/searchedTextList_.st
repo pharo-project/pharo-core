@@ -1,3 +1,3 @@
 searchedTextList: aCollection
 
-	SearchedTextList := aCollection
+	searchedTextList := aCollection
