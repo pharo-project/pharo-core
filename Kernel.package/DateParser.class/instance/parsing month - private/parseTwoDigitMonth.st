@@ -1,3 +1,3 @@
 parseTwoDigitMonth
 
-	month := (inputStream next: 2) asInteger
+	month := self parse: 'month' expectedSize: 2

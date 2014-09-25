@@ -1,3 +1,3 @@
 parseFourDigitYear
 
-	year := (inputStream next: 4) asInteger
+	year := self parse: 'year' expectedSize: 4

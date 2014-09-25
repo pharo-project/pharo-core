@@ -1,3 +1,3 @@
 parseVariableDigitYear
 
-	year := Integer readFrom: inputStream
+	year := self parse: 'year'

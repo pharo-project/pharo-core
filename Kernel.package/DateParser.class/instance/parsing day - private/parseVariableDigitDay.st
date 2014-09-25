@@ -1,3 +1,3 @@
 parseVariableDigitDay
 
-	day := Integer readFrom: inputStream
+	day := self parse: 'day'

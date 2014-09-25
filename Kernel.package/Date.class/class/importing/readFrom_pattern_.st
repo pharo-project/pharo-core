@@ -1,5 +1,5 @@
-readFrom: inputStream pattern: pattern
+readFrom: aStringOrStream pattern: pattern
 	"See 
 	DateParser comment"
 
-	^ (DateParser readingFrom: inputStream pattern: pattern) parse
+	^ (DateParser readingFrom: aStringOrStream readStream pattern: pattern) parse

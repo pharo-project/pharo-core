@@ -1,3 +1,3 @@
 parseVariableDigitMonth
 
-	month := Integer readFrom: inputStream
+	month := self parse: 'month'

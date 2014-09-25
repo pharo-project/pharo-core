@@ -1,3 +1,2 @@
 parseTwoDigitDay
-
-	day := (inputStream next: 2) asInteger
+	day := self parse: 'day' expectedSize: 2
