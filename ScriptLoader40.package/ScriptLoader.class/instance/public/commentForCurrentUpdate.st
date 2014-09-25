@@ -1,6 +1,3 @@
 commentForCurrentUpdate
- ^ '12111 (Date readFrom: 4.2.2013 readStream pattern: d.m.yy) ==>> 4 February 2020
-	https://pharo.fogbugz.com/f/cases/12111
-
-13193 Regular expression field should not open debugger when making a syntax error
-	https://pharo.fogbugz.com/f/cases/13193'
+ ^ '13599 ClassOrganizer-Core: move to Kernel-Protocol
+	https://pharo.fogbugz.com/f/cases/13599'
