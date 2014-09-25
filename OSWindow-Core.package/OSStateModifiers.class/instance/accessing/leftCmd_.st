@@ -1,0 +1,3 @@
+leftCmd: anObject
+	
+	leftCmd := anObject

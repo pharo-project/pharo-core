@@ -1,0 +1,3 @@
+isThisThread
+	^ Processor activeProcess == RenderThreadProcess
+

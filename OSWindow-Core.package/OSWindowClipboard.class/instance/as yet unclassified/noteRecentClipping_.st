@@ -1,0 +1,1 @@
+noteRecentClipping: text

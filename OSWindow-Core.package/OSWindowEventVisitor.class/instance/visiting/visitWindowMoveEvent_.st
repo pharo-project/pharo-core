@@ -1,0 +1,1 @@
+visitWindowMoveEvent: anEvent

@@ -1,0 +1,2 @@
+position: newPosition
+	self subclassResponsibility 

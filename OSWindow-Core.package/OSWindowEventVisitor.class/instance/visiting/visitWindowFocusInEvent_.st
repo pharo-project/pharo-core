@@ -1,0 +1,1 @@
+visitWindowFocusInEvent: anEvent

@@ -1,0 +1,2 @@
+initialize
+	buttons := 0

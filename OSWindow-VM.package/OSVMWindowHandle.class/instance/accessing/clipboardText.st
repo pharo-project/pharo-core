@@ -1,0 +1,3 @@
+clipboardText
+	<primitive: 141>
+	^ ''

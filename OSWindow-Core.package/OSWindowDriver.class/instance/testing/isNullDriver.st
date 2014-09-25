@@ -1,0 +1,2 @@
+isNullDriver
+	^ false

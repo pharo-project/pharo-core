@@ -1,0 +1,2 @@
+stencilSize
+	^ stencilSize

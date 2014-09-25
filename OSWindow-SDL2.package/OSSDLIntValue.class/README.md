@@ -1,0 +1,1 @@
+Dummy class for integer values

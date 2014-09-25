@@ -1,0 +1,3 @@
+capsLock: anObject
+	
+	capsLock := anObject

@@ -1,0 +1,2 @@
+nbLibraryNameOrHandle
+	^ self moduleName

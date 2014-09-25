@@ -1,0 +1,2 @@
+clipboardText
+	^ World osWindow clipboardText

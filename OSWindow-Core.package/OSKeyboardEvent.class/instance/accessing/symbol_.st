@@ -1,0 +1,3 @@
+symbol: anObject
+	
+	symbol := anObject

@@ -1,0 +1,3 @@
+scrollVertical: anObject
+	
+	scrollVertical := anObject

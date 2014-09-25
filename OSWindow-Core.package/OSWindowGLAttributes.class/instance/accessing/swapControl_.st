@@ -1,0 +1,3 @@
+swapControl: anObject
+	
+	swapControl := anObject

@@ -1,0 +1,2 @@
+setMouseCursor: cursorWithMask
+	^ cursorWithMask oldPrimitiveBeCursor

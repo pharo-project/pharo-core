@@ -1,0 +1,2 @@
+bounds: newBounds
+	self subclassResponsibility 

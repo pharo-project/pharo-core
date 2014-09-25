@@ -1,0 +1,3 @@
+delta: anObject
+	
+	delta := anObject

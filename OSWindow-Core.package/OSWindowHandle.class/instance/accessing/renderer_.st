@@ -1,0 +1,3 @@
+renderer: anObject
+	
+	renderer := anObject

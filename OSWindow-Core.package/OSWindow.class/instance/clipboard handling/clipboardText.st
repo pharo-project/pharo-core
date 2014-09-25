@@ -1,0 +1,2 @@
+clipboardText
+	^ self validHandle clipboardText

@@ -1,0 +1,2 @@
+defaultAlphaSize
+	^ DefaultAlphaSize

@@ -1,0 +1,2 @@
+updateRectangle: aRectangle
+	"Do nothing"

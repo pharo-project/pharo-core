@@ -1,0 +1,2 @@
+defaultStencilSize
+	^ DefaultStencilSize

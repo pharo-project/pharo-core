@@ -1,0 +1,3 @@
+osWindow: anObject
+	
+	osWindow := anObject

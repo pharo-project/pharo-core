@@ -1,0 +1,2 @@
+defaultBlueSize
+	^ DefaultBlueSize

@@ -1,0 +1,3 @@
+animated: anObject
+	
+	animated := anObject

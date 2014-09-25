@@ -1,0 +1,2 @@
+traceEvents: aBoolean
+	TraceEvents := aBoolean

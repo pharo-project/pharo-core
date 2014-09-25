@@ -1,0 +1,2 @@
+show: aBoolean
+	self subclassResponsibility 

@@ -1,0 +1,3 @@
+rightAlt: anObject
+	
+	rightAlt := anObject

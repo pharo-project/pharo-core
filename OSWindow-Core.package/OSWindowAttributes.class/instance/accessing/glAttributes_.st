@@ -1,0 +1,3 @@
+glAttributes: anObject
+	
+	glAttributes := anObject

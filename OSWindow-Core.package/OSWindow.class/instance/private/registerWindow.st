@@ -1,0 +1,2 @@
+registerWindow
+	OSWindowRenderThread createdWindow: self.

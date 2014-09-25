@@ -1,0 +1,2 @@
+getCanvas
+	^ form getCanvas

@@ -1,0 +1,2 @@
+extent
+	^ self bounds extent

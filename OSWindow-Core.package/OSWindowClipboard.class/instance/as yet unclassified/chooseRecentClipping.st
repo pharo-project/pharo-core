@@ -1,0 +1,2 @@
+chooseRecentClipping
+	^ nil

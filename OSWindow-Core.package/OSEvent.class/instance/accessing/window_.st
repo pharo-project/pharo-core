@@ -1,0 +1,2 @@
+window: anOSWindow 
+	window := anOSWindow

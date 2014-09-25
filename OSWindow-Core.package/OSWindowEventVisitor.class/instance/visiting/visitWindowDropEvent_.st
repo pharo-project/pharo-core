@@ -1,0 +1,1 @@
+visitWindowDropEvent: anEvent

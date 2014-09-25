@@ -1,0 +1,2 @@
+position
+	^ self validHandle position

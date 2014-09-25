@@ -1,0 +1,3 @@
+fullscreen: anObject
+	
+	fullscreen := anObject

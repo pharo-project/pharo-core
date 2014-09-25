@@ -1,0 +1,3 @@
+modifiers: anObject
+	
+	modifiers := anObject

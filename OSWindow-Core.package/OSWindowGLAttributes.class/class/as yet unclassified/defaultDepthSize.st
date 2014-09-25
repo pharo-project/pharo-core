@@ -1,0 +1,2 @@
+defaultDepthSize
+	^ DefaultDepthSize
