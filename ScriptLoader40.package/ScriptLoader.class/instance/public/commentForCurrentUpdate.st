@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '14028 PluggableThreePhaseButtonMorph should be packaged with Morphic-Widgets-Basic
-	https://pharo.fogbugz.com/f/cases/14028
+ ^ '14054 Cant load font from a path with accented characters
+	https://pharo.fogbugz.com/f/cases/14054
 
-13668 remove the last StringHolder references
-	https://pharo.fogbugz.com/f/cases/13668
+11021 MouseEvent>>blueButtonChanged
+	https://pharo.fogbugz.com/f/cases/11021
 
-13635 Package Spec-Extensions just contains one accessor --> can be moved to the class
-	https://pharo.fogbugz.com/f/cases/13635
-
-5625 TextDiffBuilder in System-FilePackage ?
-	https://pharo.fogbugz.com/f/cases/5625'
+14075 Halt once in Rectangle>>setOrigin:corner:
+	https://pharo.fogbugz.com/f/cases/14075'

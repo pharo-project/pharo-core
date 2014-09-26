@@ -13,8 +13,8 @@ recordInvalidRect: newRect
 				  a > (newRect area // 4) or: [a > (rect area // 4)]])
 			ifTrue:
 			["merge rectangle in place (see note below) if there is significant overlap"
-			rect setOrigin: (rect origin min: newRect origin) truncated
-				corner: (rect corner max: newRect corner) truncated.
+			rect setPoint: (rect origin min: newRect origin) truncated
+				point: (rect corner max: newRect corner) truncated.
 			^ self]].
 
 
