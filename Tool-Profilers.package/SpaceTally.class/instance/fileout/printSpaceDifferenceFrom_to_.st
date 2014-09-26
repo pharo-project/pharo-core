@@ -1,9 +1,9 @@
 printSpaceDifferenceFrom: fileName1 to: fileName2
 	"For differential results, run printSpaceAnalysis twice with different fileNames,
 	then run this method...
-		SpaceTally new printSpaceAnalysis: 0 on: 'STspace.text1'.
+		SpaceTally new printSpaceAnalysis: 0 on: 'STspace.text1' asFileReference writeStream.
 			--- do something that uses space here ---
-		SpaceTally new printSpaceAnalysis: 0 on: 'STspace.text2'.
+		SpaceTally new printSpaceAnalysis: 0 on: 'STspace.text2' asFileReference writeStream.
 		SpaceTally new printSpaceDifferenceFrom: 'STspace.text1' to: 'STspace.text2'
 "
 	| f coll1 coll2 item |
@@ -19,11 +19,13 @@ printSpaceDifferenceFrom: fileName1 to: fileName2
 			ifTrue: [coll1 remove: item]
 			ifFalse: [coll2 add: item]].
 	f close.
-	(StringHolder new contents: (String streamContents: 
+	StandardWindow new 
+		withText: (String streamContents: 
 			[:s | 
 			s nextPutAll: fileName1; cr.
 			coll1 do: [:x | s nextPutAll: x; cr].
 			s cr; cr.
 			s nextPutAll: fileName2; cr.
-			coll2 do: [:x | s nextPutAll: x; cr]]))
-		openLabel: 'Differential Space Analysis'.
+			coll2 do: [:x | s nextPutAll: x; cr]])
+		 label: 'Differential Space Analysis';
+		openInWorld

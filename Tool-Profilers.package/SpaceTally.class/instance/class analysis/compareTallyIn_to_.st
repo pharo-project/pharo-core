@@ -24,7 +24,10 @@ compareTallyIn: beforeFileName to: afterFileName
 			answer nextPutAll: each,'  ',diff printString; cr.
 		].
 	].
-	StringHolder new contents: answer contents; openLabel: 'space diffs'.
+	StandardWindow new
+		withText: answer contents
+		label: 'space diffs';
+		openInWorld
 	
 
 

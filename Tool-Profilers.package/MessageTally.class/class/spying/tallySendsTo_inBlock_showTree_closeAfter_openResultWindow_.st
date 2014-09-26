@@ -26,15 +26,16 @@ tallySendsTo: receiver inBlock: aBlock showTree: treeOption closeAfter: closeAft
 
 	totalTime := Time millisecondClockValue - startTime // 1000.0 roundTo: 0.01.
 	openResultWindow ifTrue: [
-		(StringHolder new contents:
-			(String streamContents:
+		StandardWindow new 
+			withText: (String streamContents:
 				[:s |
 				s nextPutAll: 'This simulation took ' , totalTime printString
 								, ' seconds.'; cr.
 				treeOption
 					ifTrue: [ tallies fullPrintExactOn: s ]
 					ifFalse: [ tallies leavesPrintExactOn: s ].
-				]))
-			openLabel: 'Spy Results' wrap: false ].
+				])
+			 label: 'Spy Results';
+			openInWorld ].
 	closeAfter ifTrue: [ tallies close ].
 	^ tallies

@@ -1,9 +1,11 @@
 spyAllOn: aBlock cutoff: aNumber
-
 	| node result |
 	node := self new.
 	node reportOtherProcesses: true.	"Irrelevant in this case. All processes will be reported on their own."
 	result := node spyAllEvery: self defaultPollPeriod on: aBlock.
-	(StringHolder new contents: (String streamContents: [:s | node report: s cutoff: aNumber; close]))
-		openLabel: 'Spy Results' wrap: false.
+	StandardWindow new
+		withText:
+				(String streamContents: [ :s |  node report: s cutoff: aNumber; close ])
+			label: 'Spy Results';
+		openInWorld.
 	^ result
