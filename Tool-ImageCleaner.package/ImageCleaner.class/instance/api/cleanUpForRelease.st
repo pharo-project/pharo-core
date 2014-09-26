@@ -5,6 +5,7 @@ cleanUpForRelease
 	self cleanUpMethods.
 	
 	FreeTypeFontProvider current initialize.
+	EmbeddedFreeTypeFontInstaller initialize.
 	SystemNavigation new
 		allObjectsDo: [ :each | 
 			(each respondsTo: #releaseCachedState)

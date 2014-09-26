@@ -1,2 +1,2 @@
 value
-	^ self host namedTempAt: self tempIndex
+	^ self host tempNamed: self tempName
