@@ -9,8 +9,8 @@ testMethodEquality
 	self assert: ((OrderedCollection>>#size) asRingDefinition = newMethod).
 	
 	newClass:= RGClassDefinition named: #OrderedCollection.
-	newMethod:= (RGFactory current createMethodNamed: #size parent: newClass).
+	newMethod:= (RGMethodDefinition named: #size) parent: newClass.
 	self assert: ((OrderedCollection>>#size) asRingDefinition = newMethod).
 	
-	newMethod:= (RGFactory current createMethodNamed: #size parent: (SortedCollection asRingDefinition)).
+	newMethod:= (RGMethodDefinition named: #size) parent: (SortedCollection asRingDefinition).
 	self deny: ((OrderedCollection>>#size) asRingDefinition = newMethod).

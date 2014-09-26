@@ -5,7 +5,7 @@ testNonExistingMethodWithClass
 	newClass:= RGClassDefinition named: #OrderedCollection.
 	newClass withMetaclass.
 	
-	newMethod:= RGFactory current createMethodNamed: #foo parent: newClass theMetaClass.
+	newMethod:= (RGMethodDefinition named: #foo) parent: newClass theMetaClass.
 	newMethod sourceCode: 'foo
 									^true'.
 									

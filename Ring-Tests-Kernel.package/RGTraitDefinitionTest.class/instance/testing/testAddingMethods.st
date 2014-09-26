@@ -2,7 +2,7 @@ testAddingMethods
 	| newMethod newClass |
 	
 	newClass:= RGTraitDefinition named:  #TSortable.
-	newMethod:= (RGFactory current createMethodNamed: #sort parent: newClass)
+	newMethod:= (RGMethodDefinition named: #sort) parent: newClass;
 					protocol: 'sorting'; 
 					sourceCode: 'sort
 									self sort: [:a :b | a <= b]'.

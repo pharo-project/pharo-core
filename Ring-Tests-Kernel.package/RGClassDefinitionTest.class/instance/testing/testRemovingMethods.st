@@ -2,7 +2,8 @@ testRemovingMethods
 	| newMethod newClass |
 	
 	newClass:= RGClassDefinition named: #OrderedCollection.
-	newMethod:= (RGFactory current createMethodNamed: #add: parent: newClass)
+	newMethod:= (RGMethodDefinition named: #add:)
+					parent: newClass;
 					protocol: 'adding';
 					sourceCode: 'add: newObject
 									^self addLast: newObject'.

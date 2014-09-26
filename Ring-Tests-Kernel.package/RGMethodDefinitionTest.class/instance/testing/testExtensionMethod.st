@@ -14,7 +14,7 @@ testExtensionMethod
 	newPackage := RGPackage named: #Package.
 	newPackageExt := RGPackage named:  #PackageExtensions.
 	newClass := RGClassDefinition named: #Class.
-	newMethod := RGFactory current createMethodNamed: #foo parent: newClass.
+	newMethod := (RGMethodDefinition named: #foo) parent: newClass.
 	newPackage addClass: newClass.
 	newMethod package: newPackageExt.
 	self assert: (newMethod isExtension).
