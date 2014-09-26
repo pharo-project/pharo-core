@@ -8,13 +8,15 @@ runTestsOfClass: aClass notifying: aBoolean
 		result := (aClass addToSuite: TestSuite new fromMethods: methods) run.
 		result updateResultsInHistory.
 		ClassesIconsCache removeKey: aClass ifAbsent: [].
-		testSemaphore signal. ] on:Error do:[:e | testSemaphore signal . e defaultAction]].
+		testSemaphore signal. ] on: Exception do:[:e | testSemaphore signal . e defaultAction]].
 
 	aBoolean 
 		ifTrue: [ blockToEvaluate forkAt: Processor userBackgroundPriority ]
 		ifFalse: [ blockToEvaluate value ].
 
-	testSemaphore wait.
+	testSemaphore
+		initSignals;
+		wait.
 	
 	aBoolean 
 		ifTrue: [ 
