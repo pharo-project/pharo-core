@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '14069 Finish cleaning RGFactory
-	https://pharo.fogbugz.com/f/cases/14069
+ ^ '14061 windows systemfonts : wrong path in guessWindowsFontFolderPath
+	https://pharo.fogbugz.com/f/cases/14061
 
-14077 Move PseudoClassOrganization close to PseudoClass
-	https://pharo.fogbugz.com/f/cases/14077
+13131 Spec weirdness > MNU ToolDockingBarMorph>>popupEvent:in: on right click on button
+	https://pharo.fogbugz.com/f/cases/13131
 
-13738 MNU: CompiledMethod>>hasRun
-	https://pharo.fogbugz.com/f/cases/13738
-
-13705 Shared pool incorrectly defined as global
-	https://pharo.fogbugz.com/f/cases/13705'
+14072 Failing test: BlockClosureTest>>#testTallyInstructions
+	https://pharo.fogbugz.com/f/cases/14072'

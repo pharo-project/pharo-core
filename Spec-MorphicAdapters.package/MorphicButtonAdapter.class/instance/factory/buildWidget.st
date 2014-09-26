@@ -9,7 +9,6 @@ buildWidget
 				menu: nil. 	
 	button 
 		getEnabledSelector: #enabled ;
-		getMenuSelector: #menu: ;
 		hResizing: #spaceFill ;
 		vResizing: #spaceFill ;
 		askBeforeChanging: self askBeforeChanging ;
