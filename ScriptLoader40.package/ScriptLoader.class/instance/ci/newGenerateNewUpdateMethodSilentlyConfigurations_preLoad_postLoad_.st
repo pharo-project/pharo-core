@@ -10,7 +10,7 @@ newGenerateNewUpdateMethodSilentlyConfigurations: configurations preLoad: preloa
 		<< Character tab << '"self new ' << methodName << '"' << String cr
 		<< Character tab .
 		
-	preamble := preload reset contents asString.
+	preamble := self decodeFromPrint: (preload reset contents asString).
 	preamble isEmptyOrNil 
 		ifFalse: [ stream nextPutAll: preamble; ensureEndsWith: $.; crtab ].
 
@@ -23,7 +23,7 @@ newGenerateNewUpdateMethodSilentlyConfigurations: configurations preLoad: preloa
 		do: [ :each | stream << 'self loadConfiguration: ''' << each key << ''' version: ' << each value printString << '.' ]
 		separatedBy: [ stream cr ].
 		
-	postscript := postLoad reset contents asString. 
+	postscript := self decodeFromPrint: (postLoad reset contents asString). 
 	postscript isEmptyOrNil 
 		ifFalse: [ stream nextPutAll: postscript; ensureEndsWith: $.; crtab ].
 	
