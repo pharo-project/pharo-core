@@ -1,6 +1,6 @@
 accept: text notifying: notifyer
 
-	listModel selectedItem
+	^listModel selectedItem
 		ifNotNil: [:message | 
 			message methodClass 
 				compile: text 

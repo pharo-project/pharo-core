@@ -9,4 +9,4 @@ initializePresenter
 	listModel whenListChanged: [ self updateTitle ].
 		
 	titleHolder whenChangedDo: [ self updateTitle ].
-	textModel acceptBlock: [ :text :notifyer | self accept: text notifying: notifyer ].
+	textModel acceptBlock: [ :text :notifyer | (self accept: text notifying: notifyer)  notNil].

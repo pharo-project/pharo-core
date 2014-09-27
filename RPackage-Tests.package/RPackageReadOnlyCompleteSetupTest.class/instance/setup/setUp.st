@@ -5,7 +5,7 @@ setUp
 	p2 := self createNewPackageNamed: self p2Name.
 	p3 := self createNewPackageNamed: self p3Name.
 	
-	a1 :=  self createNewClassNamed: #A1DefinedInP1 inPackage: p1.
+	a1 := self createNewClassNamed: #A1DefinedInP1 inPackage: p1.
 	b1 := self createNewClassNamed: #B1DefinedInP1 inPackage: p1.
 	a2 := self createNewClassNamed: #A2DefinedInP2 inPackage: p2.
 	b2 := self createNewClassNamed: #B2DefinedInP2 inPackage: p2.
