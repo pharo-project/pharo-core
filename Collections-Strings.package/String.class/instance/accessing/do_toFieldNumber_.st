@@ -8,6 +8,9 @@ do: aBlock toFieldNumber: aNumber
 				[:aField | Transcript cr; show: aField] toFieldNumber: aNumber]
 	"
 	| start end index |
+	
+	self deprecated: 'Use NeoCSV instead'.
+	
 	start := 1.
 	index := 1.
 	[start <= self size] whileTrue: 

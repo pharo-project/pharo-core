@@ -4,6 +4,9 @@ splitInteger
 	BUT NOTE: 'Sam' ==> #('Sam' 0), and '90' ==> #('' 90)  ie, (<string> <integer>)."
 
 	| pos |
+	
+	self deprecated: 'No users'.
+	
 	(pos := self findFirst: [:d | d isDigit not]) = 0 
 		ifTrue: [ ^ Array with: '' with: self asNumber ].
 		

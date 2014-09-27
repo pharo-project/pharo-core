@@ -9,4 +9,4 @@ moveInPackage
 		do: [:aClass | aClass category: foundPackage name ].
 		self flag: #esteban. "unclear that we should still use category:"
 	 self selectedPackage: foundPackage.
-	self updateBothView
+	self updatePackageGroupAndClassList

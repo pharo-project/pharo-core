@@ -1,6 +1,7 @@
 buildButtons
-	^ PluggablePanelMorph newRow
-		model: self;
+	^ PanelMorph new
+		changeTableLayout;
+		listDirection: #leftToRight;
 		layoutInset: 0;
 		color: Color transparent;
 		addAllMorphs: (self buttons collect: [ :each |
