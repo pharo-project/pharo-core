@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '13867 MessageBrowser does not inform about certain syntax error
-	https://pharo.fogbugz.com/f/cases/13867
+ ^ '14105 Nautilus Refactoring 8.5: rename "showHierarchy"
+	https://pharo.fogbugz.com/f/cases/14105
 
-13293 We should add definedSelectors and extensionSelectors to ClassDescription
-	https://pharo.fogbugz.com/f/cases/13293
-
-13934 Extra characters in string returned by String class>>new:streamContents:
-	https://pharo.fogbugz.com/f/cases/13934'
+12826 Zip FileSystem does not work
+	https://pharo.fogbugz.com/f/cases/12826'

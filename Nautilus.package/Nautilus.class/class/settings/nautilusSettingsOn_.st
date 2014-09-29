@@ -19,7 +19,7 @@ nautilusSettingsOn: aBuilder
 				default: self defaultCommentPosition;
 				order: 1;
 				domainValues: self commentPositions.
-			(aBuilder setting: #showHierarchy)
+			(aBuilder setting: #sortHierarchically)
 				label: 'Show hierarchy by default ?' translated;
 				description: 'If false, Nautilus will show a flat list of classes' translated.
 			(aBuilder setting: #historyMaxSize)

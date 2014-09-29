@@ -1,4 +1,4 @@
 sortHierarchically: aBoolean
 
-	showHierarchy := aBoolean.
+	sortHierarchically := aBoolean.
 	self announcer announce: ( NautilusShowHierarchyChanged boolean: aBoolean )

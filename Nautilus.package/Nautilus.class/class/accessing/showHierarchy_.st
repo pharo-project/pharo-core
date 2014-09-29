@@ -1,3 +1,0 @@
-showHierarchy: aBoolean
-
-	ShowHierarchy := aBoolean

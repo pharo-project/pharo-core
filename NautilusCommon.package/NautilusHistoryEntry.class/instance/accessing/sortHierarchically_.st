@@ -1,3 +1,3 @@
 sortHierarchically: anObject
 	
-		showHierarchy := anObject
+		sortHierarchically := anObject

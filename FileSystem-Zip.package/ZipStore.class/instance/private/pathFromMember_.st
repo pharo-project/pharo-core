@@ -1,6 +1,6 @@
 pathFromMember: anArchiveMember
 	| path |
-	path := Path root resolve: anArchiveMember fileName.
+	path := Path from: anArchiveMember fileName.
 	^ path basename isEmpty
 		ifTrue: [ path parent ]
 		ifFalse: [ path ]

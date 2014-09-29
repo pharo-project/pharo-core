@@ -1,2 +1,2 @@
 binaryReadStream
-	^ ReadStream on: bytes from: 1 to: size
+	^ ReadStream on: self bytes from: 1 to: size

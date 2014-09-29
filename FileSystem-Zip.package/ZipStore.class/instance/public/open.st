@@ -1,10 +1,10 @@
 open
-	| archive output |
+	| archive |
 	self reference exists
 		ifFalse: [ ^ self ].
 	archive := ZipArchive new.
 	self reference
-		readStreamDo: [ :input | 
+		binaryReadStreamDo: [ :input | 
 			archive readFrom: input contents readStream.
 			archive members
 				do: [ :member | 
@@ -14,12 +14,5 @@ open
 						ifTrue: [ self ensureCreateDirectory: path ]
 						ifFalse: [ 
 							self ensureCreateDirectory: path parent.
-							self createFile: path.
-							self
-								replaceFile: path
-								in: [ :bytes | 
-									output := bytes writeStream.
-									member rewindData.
-									member copyRawDataTo: output.
-									output contents ] ] ] ].
+							(self createFile: path) member: member ] ] ].
 	^ self

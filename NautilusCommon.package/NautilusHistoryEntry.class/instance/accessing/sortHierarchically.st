@@ -1,3 +1,3 @@
 sortHierarchically
 
-		^ showHierarchy
+		^ sortHierarchically

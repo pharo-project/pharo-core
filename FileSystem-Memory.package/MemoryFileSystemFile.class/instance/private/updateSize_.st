@@ -1,3 +1,3 @@
 updateSize: newSize
 	size := newSize.
-	modificationTime := nil.
+	modificationTime := nil

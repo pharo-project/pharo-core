@@ -1,3 +1,3 @@
 sortHierarchically
 
-	^ showHierarchy ifNil: [ showHierarchy := self class showHierarchy ]
+	^ sortHierarchically ifNil: [ sortHierarchically := self class sortHierarchically ]
