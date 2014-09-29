@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '14105 Nautilus Refactoring 8.5: rename "showHierarchy"
-	https://pharo.fogbugz.com/f/cases/14105
+ ^ '13864 Deleting last tab removes the toolbar and we cannot add tabs anymore
+	https://pharo.fogbugz.com/f/cases/13864
 
-12826 Zip FileSystem does not work
-	https://pharo.fogbugz.com/f/cases/12826'
+14088 procotol -> protocol
+	https://pharo.fogbugz.com/f/cases/14088
+
+13607 Remove iVar MorphicModel: accessor
+	https://pharo.fogbugz.com/f/cases/13607'

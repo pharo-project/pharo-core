@@ -1,5 +1,5 @@
 BorderedMorph subclass: #MorphicModel
-	instanceVariableNames: 'model accessor'
+	instanceVariableNames: 'model'
 	classVariableNames: 'KeyboardFocusOnMouseDown MouseOverForKeyboardFocus'
 	poolDictionaries: ''
 	category: 'Morphic-Base-Kernel'
