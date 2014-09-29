@@ -1,7 +1,3 @@
 codeForNoSource
-	"this is the marker we use for method that have no source"
-	^String streamContents: [:str |
-			str 
-				nextPutAll: self selector asMethodPreamble;
-				cr;tab;
-				nextPutAll: 'self methodHasNoSourceCode'].
+	"if everything fails, decompile the bytecode"
+	 ^(self compiler decompileMethod: self) formattedCode

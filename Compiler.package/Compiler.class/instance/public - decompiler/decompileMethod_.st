@@ -1,2 +1,2 @@
 decompileMethod: aCompiledMethod
-	^Decompiler new decompileMethod: aCompiledMethod
+	^Decompiler decompile: aCompiledMethod

@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '14090 use Announcer>>#when:do: in packages Announcements
-	https://pharo.fogbugz.com/f/cases/14090
+ ^ '14112 Hook decompiler into source access logic
+	https://pharo.fogbugz.com/f/cases/14112
 
-14103 Use Announcer>>#when:send:to: in Spec-Inspector.
-	https://pharo.fogbugz.com/f/cases/14103
+14014 translatedIfCorresponds
+	https://pharo.fogbugz.com/f/cases/14014
 
-14087 use Announcer>>#when:send:to in packages Announcements 
-	https://pharo.fogbugz.com/f/cases/14087
-
-14095 use Announcer>>#when:send:do: and Announcer>>#when:do: in AnnouncementsTutorial
-	https://pharo.fogbugz.com/f/cases/14095'
+14110 Remove RGObject
+	https://pharo.fogbugz.com/f/cases/14110'
