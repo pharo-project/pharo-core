@@ -9,7 +9,7 @@ initialize
 	inspector whenChangedDo: [ :new :old | 
 		self updateInspectorFrom: old ].
 	self announcer
-		on: WidgetBuilt send: #setRefreshedToTrue to: self.
+		when: WidgetBuilt send: #setRefreshedToTrue to: self.
 	
 	canBeRefreshed := false.
 	self whenWindowChanged: [ :w |

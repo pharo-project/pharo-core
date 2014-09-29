@@ -5,7 +5,7 @@ benchManyWeakGuys
 	object := Object new.
 	ann := Announcer new.
 	
-	50000 timesRepeat: [ (ann weak on: Announcement send: #value to: object) ].
+	50000 timesRepeat: [ (ann weak when: Announcement send: #value to: object) ].
 	
 	self assert: (ann numberOfSubscriptions =  50000).
 	

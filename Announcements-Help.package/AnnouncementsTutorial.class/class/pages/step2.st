@@ -16,15 +16,15 @@ Lets add some consumers/subscribers. Subscribers just register on the Announcer 
 
 	| announcer |
 	announcer := Announcer new.	
-	announcer on: MyInterestingAnnouncement send: #open to: Browser.     
-	announcer on: MyInterestingAnnouncement send: #inspect to: Smalltalk.    	
+	announcer when: MyInterestingAnnouncement send: #open to: Browser.     
+	announcer when: MyInterestingAnnouncement send: #inspect to: Smalltalk.    	
 
 So anytime an interesting announcement is made we want to inform the two consumers with a specific message. Still nothing happens - we have to additionally make the announcement:
 
 	| announcer |
 	announcer := Announcer new.	
-	announcer on: MyInterestingAnnouncement send: #open to: Browser.    
-	announcer on: MyInterestingAnnouncement send: #inspect to: Smalltalk.    	
+	announcer when: MyInterestingAnnouncement send: #open to: Browser.    
+	announcer when: MyInterestingAnnouncement send: #inspect to: Smalltalk.    	
 	announcer announce: MyInterestingAnnouncement new	
 
 Note that the subscribers are decoupled from the orginal announcement publisher. They dont have to know each other. Decoupling is the key thing here ... subscribers can register for particular events/announcements and remain anonymous to the original publisher. !' readStream nextChunkText

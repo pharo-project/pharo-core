@@ -3,7 +3,7 @@ testSymbolIdentifier
 	passed := false.
 	
 	[announcer 
-		on: #FOO send: #bar to: nil;
+		when: #FOO send: #bar to: nil;
 		announce: #FOO ] 
 		on: MessageNotUnderstood 
 		do: [ :ex | passed := (ex message selector = #bar). ].

@@ -7,5 +7,5 @@ benchWeakSubscriptionDynamic
 	ann := Announcer new.
 	
 	^ [
-		1000 timesRepeat: [ (ann on: Announcement send: #value to: object) makeWeak ].
+		1000 timesRepeat: [ (ann when: Announcement send: #value to: object) makeWeak ].
 	] timeToRun

@@ -7,7 +7,7 @@ testAnnouncingReentrant
 	| bool ok |
 
 	ok := bool := false.
-	announcer on: Announcement do: [
+	announcer when: Announcement do: [
 		bool ifFalse: [
 			bool := true.
 		announcer announce:  Announcement new. ]
