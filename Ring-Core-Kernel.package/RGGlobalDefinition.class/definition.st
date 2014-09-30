@@ -1,4 +1,4 @@
-RGNamedDefinition subclass: #RGGlobalDefinition
+RGDefinition subclass: #RGGlobalDefinition
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

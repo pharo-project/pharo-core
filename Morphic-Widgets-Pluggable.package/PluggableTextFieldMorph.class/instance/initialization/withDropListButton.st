@@ -12,5 +12,8 @@ withDropListButton
 	downArrowBtn actionSelector:  #openChooserWithAllOrCloseFrom:.
 	downArrowBtn target: entryCompletion.
 	downArrowBtn arguments: (Array with: self).
+	endRow height: downArrowBtn height.
+	endRow width: downArrowBtn width.
+	endRow color: Color transparent.
 	endRow addMorph: downArrowBtn.
 	self addMorph: endRow.

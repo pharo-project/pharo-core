@@ -1,4 +1,4 @@
-RGNamedDefinition subclass: #RGAbstractContainer
+RGDefinition subclass: #RGAbstractContainer
 	instanceVariableNames: 'elements'
 	classVariableNames: ''
 	poolDictionaries: ''

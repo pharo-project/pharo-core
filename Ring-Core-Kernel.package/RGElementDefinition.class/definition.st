@@ -1,4 +1,4 @@
-RGNamedDefinition subclass: #RGElementDefinition
+RGDefinition subclass: #RGElementDefinition
 	instanceVariableNames: 'parent'
 	classVariableNames: ''
 	poolDictionaries: ''
