@@ -3,4 +3,5 @@ drawSubMenuMarker: aForm on: aCanvas in: aRectangle
 	
 	|markerRect| 
 	markerRect := aRectangle topRight + (aForm width negated @ (aRectangle height - aForm height // 2)) extent: aForm extent.
+	markerRect translateBy: -4@1.
 	self drawIcon: aForm on: aCanvas in: markerRect

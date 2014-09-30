@@ -1,12 +1,10 @@
 updateLayoutInDockingBar
-	self isInDockingBar
-		ifFalse: [^ self].
-	""
+
 	owner isVertical
-		ifFalse: [""
+		ifFalse: [
 			self hResizing: #shrinkWrap.
 			self vResizing: #spaceFill]
-		ifTrue: [""
+		ifTrue: [
 			self hResizing: #spaceFill.
 			self vResizing: #shrinkWrap].
 	self extent: self minWidth @ self minHeight

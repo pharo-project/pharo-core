@@ -1,8 +1,5 @@
 roundedCorners
 	"Return a list of those corners to round"
-	self isInDockingBar
-		ifFalse: [^ super roundedCorners].
-	""
 	owner isFloating
 		ifTrue: [^ #(1 4 )].
 	owner isAdheringToTop
@@ -13,5 +10,4 @@ roundedCorners
 		ifTrue: [^ #(1 2 )].
 	owner isAdheringToRight
 		ifTrue: [^ #(3 4 )].
-	""
 	^ #(1 2 3 4 )

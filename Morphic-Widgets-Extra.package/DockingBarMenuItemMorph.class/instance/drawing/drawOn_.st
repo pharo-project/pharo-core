@@ -5,6 +5,7 @@ drawOn: aCanvas
 			stringColor := color negated]
 		ifFalse: [stringColor := color].
 	stringBounds := bounds.
+	stringBounds := stringBounds left: stringBounds left + 4.
 	self hasIcon
 		ifTrue: [| iconForm | 
 			iconForm := self iconForm.
@@ -22,4 +23,5 @@ drawOn: aCanvas
 		ifTrue: [| subMenuMarker subMenuMarkerPosition | 
 			subMenuMarker := self subMenuMarker.
 			subMenuMarkerPosition := self right - subMenuMarker width @ (self top + self bottom - subMenuMarker height // 2).
+			subMenuMarkerPosition := subMenuMarkerPosition - (4 @ -1).
 			aCanvas paintImage: subMenuMarker at: subMenuMarkerPosition]

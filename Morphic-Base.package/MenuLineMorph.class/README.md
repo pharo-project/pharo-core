@@ -1,1 +1,1 @@
-A MenuLineMorph is xxxxxxxxx.
+A MenuLineMorph is a item separator in menu.

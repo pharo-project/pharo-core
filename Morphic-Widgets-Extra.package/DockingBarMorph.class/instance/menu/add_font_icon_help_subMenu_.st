@@ -2,7 +2,7 @@ add: wordingString font: aFont icon: aForm help: helpString subMenu: aMenuMorph
 	"Append the given submenu with the given label."
 	
 	| item |
-	item := ToggleMenuItemMorph new.
+	item := DockingBarToggleMenuItemMorph new.
 	item
 		font: aFont;
 		contents: wordingString;
