@@ -1,0 +1,1 @@
+A RubTextChanged is xxxxxxxxx.Instance Variables	start:		<Object>	stop:		<Object>	text:		<Object>start	- xxxxxstop	- xxxxxtext	- xxxxx

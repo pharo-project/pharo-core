@@ -1,0 +1,2 @@
+editorClass: aClass
+	editorClass := aClass

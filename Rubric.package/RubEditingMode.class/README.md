@@ -1,0 +1,1 @@
+A RubEditingMode is xxxxxxxxx.Instance Variables	previousEditorClass:		<Object>	textArea:		<Object>previousEditorClass	- xxxxxtextArea	- xxxxx

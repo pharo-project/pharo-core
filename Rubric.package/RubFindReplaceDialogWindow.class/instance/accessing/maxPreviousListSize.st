@@ -1,0 +1,2 @@
+maxPreviousListSize
+	^ self class maxPreviousListSize

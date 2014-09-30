@@ -1,0 +1,3 @@
+numberOfLines
+
+	^ self lines size

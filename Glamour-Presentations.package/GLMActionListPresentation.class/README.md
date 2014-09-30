@@ -1,0 +1,1 @@
+A GLMActionListPresentation is xxxxxxxxx.Instance Variables	isHorizontal:		<Object>isHorizontal	- xxxxx

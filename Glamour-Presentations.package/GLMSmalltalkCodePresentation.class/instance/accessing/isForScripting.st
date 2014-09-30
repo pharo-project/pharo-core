@@ -1,0 +1,3 @@
+isForScripting
+
+	^ isForScripting ifNil: [ false ]

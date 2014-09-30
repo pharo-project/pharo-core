@@ -1,0 +1,2 @@
+lastTransmission
+	^ self transmissions last

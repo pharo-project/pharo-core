@@ -1,0 +1,1 @@
+A GLMPagerBarMorph is xxxxxxxxx.Instance Variables	buttons:		<Object>	pagerModel:		<Object>	scrollBar:		<Object>buttons	- xxxxxpagerModel	- xxxxxscrollBar	- xxxxx

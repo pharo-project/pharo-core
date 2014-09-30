@@ -1,0 +1,1 @@
+A RubSurfaceSelectionShape is xxxxxxxxx.Instance Variables	borderColor:		<Object>	borderWidth:		<Object>	color:		<Object>	firstIndex:		<Object>	lastIndex:		<Object>	tag:		<Object>	vertices:		<Object>borderColor	- xxxxxborderWidth	- xxxxxcolor	- xxxxxfirstIndex	- xxxxxlastIndex	- xxxxxtag	- xxxxxvertices	- xxxxx

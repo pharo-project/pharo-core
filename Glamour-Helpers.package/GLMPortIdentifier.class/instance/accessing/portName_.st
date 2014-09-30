@@ -1,0 +1,2 @@
+portName: anObject
+	portName := anObject

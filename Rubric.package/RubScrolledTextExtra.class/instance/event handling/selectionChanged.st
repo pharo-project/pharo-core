@@ -1,0 +1,2 @@
+selectionChanged
+	self changed

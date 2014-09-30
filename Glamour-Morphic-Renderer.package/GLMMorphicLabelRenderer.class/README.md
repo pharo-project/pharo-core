@@ -1,0 +1,1 @@
+A GLMMorphicLabelRenderer is xxxxxxxxx.Instance Variables	labelMorph:		<Object>labelMorph	- xxxxx

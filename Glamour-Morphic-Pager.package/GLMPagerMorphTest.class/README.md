@@ -1,0 +1,1 @@
+A GLMPagerMorphTest is xxxxxxxxx.Instance Variables	pagerModel:		<Object>	pagerMorph:		<Object>	window:		<Object>pagerModel	- xxxxxpagerMorph	- xxxxxwindow	- xxxxx

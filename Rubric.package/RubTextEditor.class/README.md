@@ -1,0 +1,1 @@
+A RubTextEditor is xxxxxxxxx.Instance Variables	defaultKeymappingIndex:		<Object>	textArea:		<Object>defaultKeymappingIndex	- xxxxxtextArea	- xxxxx

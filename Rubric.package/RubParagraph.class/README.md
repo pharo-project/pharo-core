@@ -1,0 +1,1 @@
+A RubParagraph is xxxxxxxxx.Instance Variables	composer:		<Object>	container:		<Object>	drawingEnabled:		<Object>	text:		<Object>	textArea:		<Object>composer	- xxxxxcontainer	- xxxxxdrawingEnabled	- xxxxxtext	- xxxxxtextArea	- xxxxx

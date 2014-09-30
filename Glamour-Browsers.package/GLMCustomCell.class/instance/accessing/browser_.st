@@ -1,0 +1,3 @@
+browser: anObject 
+	 
+	browser := anObject

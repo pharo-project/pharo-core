@@ -1,0 +1,3 @@
+asGlamorousArray 
+	 
+	^Array with: self

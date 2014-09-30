@@ -1,0 +1,1 @@
+A GLMHighlighterTextStylerDecorator is xxxxxxxxx.Instance Variables	styler:		<Object>	text:		<Object>styler	- xxxxxtext	- xxxxx

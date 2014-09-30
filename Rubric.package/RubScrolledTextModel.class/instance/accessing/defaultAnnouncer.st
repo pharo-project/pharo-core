@@ -1,0 +1,2 @@
+defaultAnnouncer
+	^ self defaultAnnouncerClass new

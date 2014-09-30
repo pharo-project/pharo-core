@@ -1,0 +1,1 @@
+A RubEditingArea is xxxxxxxxx.Instance Variables	editorClass:		<Object>	wrapped:		<Object>editorClass	- xxxxxwrapped	- xxxxx

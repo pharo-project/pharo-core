@@ -1,0 +1,1 @@
+A LazyTabPageRemoved is xxxxxxxxx.Instance Variables	newIndex:		<Object>newIndex	- xxxxx

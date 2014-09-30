@@ -1,0 +1,2 @@
+scrollBounds
+	^ self paragraphProvider scrollBounds

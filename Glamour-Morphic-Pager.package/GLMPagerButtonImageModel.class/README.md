@@ -1,0 +1,1 @@
+A GLMPagerButtonImageModel is xxxxxxxxx.Instance Variables	state:		<Object>state	- xxxxx

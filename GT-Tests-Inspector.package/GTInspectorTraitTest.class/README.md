@@ -1,0 +1,1 @@
+A GTInspectorTraitTest is xxxxxxxxx.

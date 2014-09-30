@@ -1,0 +1,1 @@
+A GLMMorphicListingRenderer is xxxxxxxxx.Instance Variables	treeModel:		<Object>	treeMorph:		<Object>treeModel	- xxxxxtreeMorph	- xxxxx

@@ -1,0 +1,2 @@
+methodReference: anObject
+	methodReference := anObject

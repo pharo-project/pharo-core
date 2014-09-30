@@ -1,0 +1,2 @@
+isDropTarget
+	^ self dropOnItemBlock notNil

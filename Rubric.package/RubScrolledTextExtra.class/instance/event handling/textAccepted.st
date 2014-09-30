@@ -1,0 +1,2 @@
+textAccepted
+	self changed

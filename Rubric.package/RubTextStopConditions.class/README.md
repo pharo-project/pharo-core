@@ -1,0 +1,1 @@
+A RubTextStopConditions is xxxxxxxxx.Instance Variables	crossedX:		<Object>	endOfRun:		<Object>	stops:		<Object>crossedX	- xxxxxendOfRun	- xxxxxstops	- xxxxx

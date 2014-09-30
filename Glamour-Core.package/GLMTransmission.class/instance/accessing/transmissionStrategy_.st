@@ -1,0 +1,2 @@
+transmissionStrategy: anObject
+	transmissionStrategy := anObject

@@ -1,0 +1,2 @@
+resetAnnouncer
+	registry reset

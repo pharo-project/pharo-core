@@ -1,0 +1,1 @@
+A GLMPrintPopper is xxxxxxxxx.Instance Variables	inspectButton:		<Object>inspectButton	- xxxxx

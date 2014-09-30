@@ -1,0 +1,2 @@
+tagsFilter: aBlock
+	tagsFilterBlock := aBlock 

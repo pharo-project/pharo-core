@@ -1,0 +1,2 @@
+reconfigureViewWith: aBlockWithAScrolledTextMorphAsArgument
+	self announce: (RubConfigurationChange new configurationBlock: aBlockWithAScrolledTextMorphAsArgument)

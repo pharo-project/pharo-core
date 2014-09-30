@@ -1,0 +1,2 @@
+fromOutsideEntityPort
+	^ self fromOutsidePort: #entity

@@ -1,0 +1,2 @@
+noTitleIcon
+	titleIcon := nil

@@ -1,0 +1,2 @@
+forbiddenAnnouncements: anObject
+	forbiddenAnnouncements := anObject

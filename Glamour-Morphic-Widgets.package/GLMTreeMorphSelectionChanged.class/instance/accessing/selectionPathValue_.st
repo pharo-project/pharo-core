@@ -1,0 +1,2 @@
+selectionPathValue: anObject
+	selectionPathValue := anObject

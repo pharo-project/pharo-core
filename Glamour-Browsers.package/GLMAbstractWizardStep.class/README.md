@@ -1,0 +1,1 @@
+A GLMAbstractWizardStep is xxxxxxxxx.Instance Variables	input:		<Object>	name:		<Object>	numberOfDisplay:		<Object>	presentationBlock:		<Object>	previousStep:		<Object>input	- xxxxxname	- xxxxxnumberOfDisplay	- xxxxxpresentationBlock	- xxxxxpreviousStep	- xxxxx

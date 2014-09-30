@@ -1,0 +1,2 @@
+lineNumber: anInteger
+	lineNumber := anInteger

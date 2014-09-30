@@ -1,0 +1,3 @@
+defaultReadOnly
+
+	^ false

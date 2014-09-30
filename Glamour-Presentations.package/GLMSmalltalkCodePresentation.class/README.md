@@ -1,0 +1,1 @@
+A GLMSmalltalkCodePresentation is xxxxxxxxx.Instance Variables	highlightSmalltalkContext:		<Object>	isForScripting:		<Object>	variableBindingsBlock:		<Object>highlightSmalltalkContext	- xxxxxisForScripting	- xxxxxvariableBindingsBlock	- xxxxx

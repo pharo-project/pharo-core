@@ -1,0 +1,2 @@
+taskbarThumbnailNormalBorderStyleFor: aWindow
+	^ self buttonNormalBorderStyleFor: aWindow

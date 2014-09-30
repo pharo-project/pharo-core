@@ -1,0 +1,3 @@
+value: anObject 
+	 
+	value := anObject

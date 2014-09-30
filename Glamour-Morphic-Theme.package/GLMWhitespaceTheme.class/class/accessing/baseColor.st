@@ -1,0 +1,2 @@
+baseColor
+	^ Color white

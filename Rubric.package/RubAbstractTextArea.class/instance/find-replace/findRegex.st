@@ -1,0 +1,2 @@
+findRegex
+	^ self editor findRegex

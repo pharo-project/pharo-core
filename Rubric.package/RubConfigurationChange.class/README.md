@@ -1,0 +1,1 @@
+A RubConfigurationChange is xxxxxxxxx.Instance Variables	configurationBlock:		<Object>configurationBlock	- xxxxx

@@ -1,0 +1,1 @@
+A GLMMorphicAccumulatorRenderer is xxxxxxxxx.Instance Variables	tabs:		<Object>tabs	- xxxxx

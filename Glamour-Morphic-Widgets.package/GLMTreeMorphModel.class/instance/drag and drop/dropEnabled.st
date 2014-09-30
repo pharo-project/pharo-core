@@ -1,0 +1,2 @@
+dropEnabled
+	^ self glamourPresentation isDropTarget

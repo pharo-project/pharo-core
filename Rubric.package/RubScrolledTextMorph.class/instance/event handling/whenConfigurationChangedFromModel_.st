@@ -1,0 +1,2 @@
+whenConfigurationChangedFromModel: anAnnouncement
+	self announcer announce: anAnnouncement

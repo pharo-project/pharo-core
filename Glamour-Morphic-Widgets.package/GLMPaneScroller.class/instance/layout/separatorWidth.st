@@ -1,0 +1,2 @@
+separatorWidth
+	^ 20

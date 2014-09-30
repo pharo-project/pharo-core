@@ -1,0 +1,1 @@
+A RubSelectionChanged is xxxxxxxxx.Instance Variables	previousMarkBlock:		<Object>	previousPointBlock:		<Object>previousMarkBlock	- xxxxxpreviousPointBlock	- xxxxx

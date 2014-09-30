@@ -1,0 +1,1 @@
+A RubKeystroke is xxxxxxxxx.Instance Variables	event:		<Object>event	- xxxxx

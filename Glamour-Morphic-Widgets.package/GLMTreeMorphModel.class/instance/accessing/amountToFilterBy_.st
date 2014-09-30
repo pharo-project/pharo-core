@@ -1,0 +1,2 @@
+amountToFilterBy: aNumber 
+	amountToFilterBy := aNumber

@@ -1,0 +1,1 @@
+A GTInspectorBitmapTest is xxxxxxxxx.

@@ -1,0 +1,2 @@
+textSegmentIconsRuler
+	^ self rulerNamed: #textSegmentIcons

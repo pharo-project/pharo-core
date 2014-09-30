@@ -1,0 +1,2 @@
+allowItemDrag: aBlock
+	allowItemDragBlock := aBlock

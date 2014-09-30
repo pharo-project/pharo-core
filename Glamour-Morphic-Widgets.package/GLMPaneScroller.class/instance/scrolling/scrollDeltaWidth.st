@@ -1,0 +1,2 @@
+scrollDeltaWidth
+	^ 1

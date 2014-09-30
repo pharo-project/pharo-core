@@ -1,0 +1,2 @@
+shouldRootsExpand: anObject
+	rootsExpanded := anObject

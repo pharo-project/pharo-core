@@ -1,0 +1,2 @@
+primarySelectionBounds
+	^ self primarySelection bounds

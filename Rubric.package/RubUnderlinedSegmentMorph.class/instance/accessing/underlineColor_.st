@@ -1,0 +1,2 @@
+underlineColor: aColor
+	underlineColor := aColor

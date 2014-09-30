@@ -1,0 +1,1 @@
+A GLMEventHandlerAnnouncement is xxxxxxxxx.Instance Variables	event:		<Object>	recipient:		<Object>	selector:		<Object>	sourceMorph:		<Object>event	- xxxxxrecipient	- xxxxxselector	- xxxxxsourceMorph	- xxxxx

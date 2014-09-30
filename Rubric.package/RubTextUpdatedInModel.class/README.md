@@ -1,0 +1,1 @@
+A RubTextUpdatedInModel is xxxxxxxxx.

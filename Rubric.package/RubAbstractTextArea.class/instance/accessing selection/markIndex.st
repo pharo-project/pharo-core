@@ -1,0 +1,2 @@
+markIndex
+	^ self editingState markIndex

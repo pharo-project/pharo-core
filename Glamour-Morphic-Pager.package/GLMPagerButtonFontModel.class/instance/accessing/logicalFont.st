@@ -1,0 +1,2 @@
+logicalFont
+	^ font

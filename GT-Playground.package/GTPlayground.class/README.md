@@ -1,0 +1,1 @@
+self open.self reset.Playground is the correspondent of a classic Smalltalk Workspace. The problem with the name Workspace is that it implies that work should be carried out in this space, while this is not a best practice. Playground describes better the intention of providing a place in which we can quickly play with some code.self registerToolsOn: Smalltalk tools

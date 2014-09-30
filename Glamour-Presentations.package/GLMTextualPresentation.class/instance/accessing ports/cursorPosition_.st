@@ -1,0 +1,3 @@
+cursorPosition: anObject 
+	 
+	cursorPosition := anObject

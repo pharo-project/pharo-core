@@ -1,0 +1,2 @@
+primarySelectionColor
+	^ self textArea primarySelectionColor

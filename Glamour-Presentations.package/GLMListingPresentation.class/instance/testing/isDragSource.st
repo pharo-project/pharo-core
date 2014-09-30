@@ -1,0 +1,2 @@
+isDragSource 
+	^ self dropOnItemBlock notNil

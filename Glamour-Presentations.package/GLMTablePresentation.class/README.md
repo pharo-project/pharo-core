@@ -1,0 +1,1 @@
+A GLMTablePresentation is xxxxxxxxx.Instance Variables	children:		<Object>	columns:		<Object>	rootsExpanded:		<Object>children	- xxxxxcolumns	- xxxxxrootsExpanded	- xxxxx

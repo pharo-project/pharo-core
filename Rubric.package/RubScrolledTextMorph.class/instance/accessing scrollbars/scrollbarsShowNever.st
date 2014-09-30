@@ -1,0 +1,3 @@
+scrollbarsShowNever
+	self hScrollbarShowNever.
+	self vScrollbarShowNever

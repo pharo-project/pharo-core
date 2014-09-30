@@ -1,0 +1,1 @@
+A RubTextInsertionStrategy is xxxxxxxxx.

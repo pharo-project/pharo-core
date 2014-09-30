@@ -1,0 +1,2 @@
+textArea
+	^ self paragraph textArea

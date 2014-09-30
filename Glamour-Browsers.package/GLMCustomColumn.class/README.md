@@ -1,0 +1,1 @@
+A GLMCustomColumn is xxxxxxxxx.

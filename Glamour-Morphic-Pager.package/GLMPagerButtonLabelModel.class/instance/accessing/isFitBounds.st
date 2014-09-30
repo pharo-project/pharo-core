@@ -1,0 +1,2 @@
+isFitBounds
+	^ isFitBounds

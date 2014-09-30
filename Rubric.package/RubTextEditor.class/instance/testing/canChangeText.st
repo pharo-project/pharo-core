@@ -1,0 +1,2 @@
+canChangeText
+	^ textArea canChangeText

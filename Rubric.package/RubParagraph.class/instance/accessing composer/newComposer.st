@@ -1,0 +1,2 @@
+newComposer
+	^ RubTextComposer new 

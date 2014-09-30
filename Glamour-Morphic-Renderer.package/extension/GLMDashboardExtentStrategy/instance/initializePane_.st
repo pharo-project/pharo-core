@@ -1,0 +1,3 @@
+initializePane: aMorphPane
+	
+	^ self subclassResponsibility 

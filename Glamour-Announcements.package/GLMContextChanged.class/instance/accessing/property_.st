@@ -1,0 +1,3 @@
+property: aSymbol 
+	 
+	property := aSymbol

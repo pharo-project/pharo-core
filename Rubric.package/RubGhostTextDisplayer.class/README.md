@@ -1,0 +1,1 @@
+A RubGhostTextDisplayer is xxxxxxxxx.Instance Variables	ghostText:		<Object>	textColor:		<Object>ghostText	- xxxxxtextColor	- xxxxx

@@ -1,0 +1,2 @@
+onChecked
+	self changed

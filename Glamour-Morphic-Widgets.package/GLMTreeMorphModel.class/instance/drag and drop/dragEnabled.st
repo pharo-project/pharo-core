@@ -1,0 +1,2 @@
+dragEnabled
+	^ self glamourPresentation allowsItemDrag

@@ -1,0 +1,2 @@
+tabWidth
+	^ textStyle rubTabWidth

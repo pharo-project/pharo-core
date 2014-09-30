@@ -1,0 +1,2 @@
+allowsDeselection: anObject
+	allowsDeselection := anObject

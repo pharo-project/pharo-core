@@ -1,0 +1,1 @@
+A LazyTabGroupMorph is xxxxxxxxx.Instance Variables	announcer:		<Object>	headerMorph:		<Object>	tabSelectorWidth:		<Object>	toolbarMorph:		<Object>announcer	- xxxxxheaderMorph	- xxxxxtabSelectorWidth	- xxxxxtoolbarMorph	- xxxxx

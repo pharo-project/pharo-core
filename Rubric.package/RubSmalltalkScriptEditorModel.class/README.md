@@ -1,0 +1,1 @@
+A RubSmalltalkScriptEditorModel is xxxxxxxxx.

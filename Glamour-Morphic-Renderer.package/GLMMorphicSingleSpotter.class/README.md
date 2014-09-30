@@ -1,0 +1,1 @@
+A GLMMorphicSingleSpotter is xxxxxxxxx.Instance Variables	answer:		<Object>	listIndex:		<Object>	listLabels:		<Object>	listMorph:		<Object>	listValues:		<Object>	parent:		<Object>	text:		<Object>	textMorph:		<Object>answer	- xxxxxlistIndex	- xxxxxlistLabels	- xxxxxlistMorph	- xxxxxlistValues	- xxxxxparent	- xxxxxtext	- xxxxxtextMorph	- xxxxx

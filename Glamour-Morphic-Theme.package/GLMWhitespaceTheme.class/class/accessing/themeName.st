@@ -1,0 +1,2 @@
+themeName
+	^ 'Glamorous'

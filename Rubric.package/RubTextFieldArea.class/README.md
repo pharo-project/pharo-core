@@ -1,0 +1,1 @@
+A RubTextFieldArea is xxxxxxxxx.

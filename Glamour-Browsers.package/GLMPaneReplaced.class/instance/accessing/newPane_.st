@@ -1,0 +1,2 @@
+newPane: anObject
+	newPane := anObject

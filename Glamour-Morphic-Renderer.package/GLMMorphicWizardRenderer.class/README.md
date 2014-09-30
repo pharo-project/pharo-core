@@ -1,0 +1,1 @@
+A GLMMorphicWizardRenderer is xxxxxxxxx.Instance Variables	container:		<Object>	parentRenderer:		<Object>	scrollPane:		<Object>container	- xxxxxparentRenderer	- xxxxxscrollPane	- xxxxx

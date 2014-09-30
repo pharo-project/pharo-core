@@ -1,0 +1,2 @@
+querySymbol
+	self selectorChooseQuerySymbol 

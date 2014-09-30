@@ -1,0 +1,1 @@
+A GLMPagerWidgetThemer is xxxxxxxxx.

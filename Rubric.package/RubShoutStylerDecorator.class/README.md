@@ -1,0 +1,1 @@
+A RubShoutStylerDecorator is xxxxxxxxx.Instance Variables	savedTextColor:		<Object>	shoutIsAvailable:		<Object>	styler:		<Object>	text:		<Object>savedTextColor	- xxxxxshoutIsAvailable	- xxxxxstyler	- xxxxxtext	- xxxxx

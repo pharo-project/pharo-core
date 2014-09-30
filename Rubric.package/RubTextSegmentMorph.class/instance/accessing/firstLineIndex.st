@@ -1,0 +1,2 @@
+firstLineIndex
+	^  self lineIndexOfCharacterIndex: firstIndex

@@ -1,0 +1,2 @@
+container: atextContainerOrRectangle
+	container := atextContainerOrRectangle.

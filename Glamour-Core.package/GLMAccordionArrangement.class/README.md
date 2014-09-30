@@ -1,0 +1,1 @@
+A GLMAccordionArrangement is xxxxxxxxx.

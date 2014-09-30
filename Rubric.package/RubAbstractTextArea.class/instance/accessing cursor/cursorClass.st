@@ -1,0 +1,2 @@
+cursorClass
+	^ RubCursor

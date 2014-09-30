@@ -1,0 +1,1 @@
+A GLMTestPane is xxxxxxxxx.Instance Variables	seenTransmissions:		<Object>seenTransmissions	- xxxxx

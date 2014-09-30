@@ -1,0 +1,1 @@
+A GLMTreeMorphNodeModel is xxxxxxxxx.Instance Variables	containerTree:		<Object>	contents:		<Object>	onSelection:		<Object>containerTree	- xxxxxcontents	- xxxxxonSelection	- xxxxx

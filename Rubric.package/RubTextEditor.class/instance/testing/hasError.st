@@ -1,0 +1,2 @@
+hasError
+	^ false 

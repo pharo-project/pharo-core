@@ -1,0 +1,2 @@
+transmission: anObject
+	transmission := anObject

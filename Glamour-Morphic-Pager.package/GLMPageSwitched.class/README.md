@@ -1,0 +1,1 @@
+A GLMPageSwitched is xxxxxxxxx.Instance Variables	pageIndex:		<Object>	smooth:		<Object>pageIndex	- xxxxxsmooth	- xxxxx

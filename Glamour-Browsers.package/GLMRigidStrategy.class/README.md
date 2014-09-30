@@ -1,0 +1,1 @@
+A GLMRigidStrategy is xxxxxxxxx.

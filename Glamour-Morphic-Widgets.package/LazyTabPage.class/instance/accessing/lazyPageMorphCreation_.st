@@ -1,0 +1,2 @@
+lazyPageMorphCreation: anObject
+	lazyPageMorphCreation := anObject

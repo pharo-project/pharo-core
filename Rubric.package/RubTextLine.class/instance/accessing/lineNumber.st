@@ -1,0 +1,2 @@
+lineNumber
+	^ lineNumber

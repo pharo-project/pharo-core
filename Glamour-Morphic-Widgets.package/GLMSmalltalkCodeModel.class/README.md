@@ -1,0 +1,1 @@
+A GLMSmalltalkCodeModel is xxxxxxxxx.Instance Variables	bindingsStrategy:		<Object>	highlightSmalltalk:		<Object>	highlightSmalltalkContext:		<Object>	variableBindings:		<Object>bindingsStrategy	- xxxxxhighlightSmalltalk	- xxxxxhighlightSmalltalkContext	- xxxxxvariableBindings	- xxxxx

@@ -1,0 +1,1 @@
+A GLMPagerButtonFontModel is xxxxxxxxx.Instance Variables	announcer:		<Object>	color:		<Object>	familyName:		<Object>	font:		<Object>	size:		<Object>announcer	- xxxxxcolor	- xxxxxfamilyName	- xxxxxfont	- xxxxxsize	- xxxxx

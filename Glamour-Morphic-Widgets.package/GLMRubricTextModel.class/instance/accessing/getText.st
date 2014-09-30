@@ -1,0 +1,2 @@
+getText
+	^ self glamourPresentation formatedDisplayValue

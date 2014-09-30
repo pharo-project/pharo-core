@@ -1,0 +1,2 @@
+highlightSmalltalk: aBoolean
+	highlightSmalltalk := aBoolean

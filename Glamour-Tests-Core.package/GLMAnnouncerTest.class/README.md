@@ -1,0 +1,1 @@
+A GLMAnnouncerTest is xxxxxxxxx.Instance Variables	announcer:		<Object>announcer	- xxxxx

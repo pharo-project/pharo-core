@@ -1,0 +1,2 @@
+defaultNumberOfVisiblePages
+	^ 2

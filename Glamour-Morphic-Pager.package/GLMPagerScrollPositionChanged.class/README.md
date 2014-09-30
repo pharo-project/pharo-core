@@ -1,0 +1,1 @@
+A GLMPagerScrollPositionChanged is xxxxxxxxx.Instance Variables	smooth:		<Object>smooth	- xxxxx

@@ -1,0 +1,3 @@
+editingMode: aBlock
+	
+	editingMode := aBlock

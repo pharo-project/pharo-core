@@ -1,0 +1,2 @@
+resetIcons
+	icons := nil

@@ -1,0 +1,1 @@
+A GLMTreePresentation is xxxxxxxxx.Instance Variables	allExpanded:		<Object>	children:		<Object>	expandLevel:		<Object>	rootsExpanded:		<Object>	tagsBlock:		<Object>	tagsFilterBlock:		<Object>allExpanded	- xxxxxchildren	- xxxxxexpandLevel	- xxxxxrootsExpanded	- xxxxxtagsBlock	- xxxxxtagsFilterBlock	- xxxxx

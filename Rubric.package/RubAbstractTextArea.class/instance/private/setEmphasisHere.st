@@ -1,0 +1,2 @@
+setEmphasisHere
+	self editor setEmphasisHere

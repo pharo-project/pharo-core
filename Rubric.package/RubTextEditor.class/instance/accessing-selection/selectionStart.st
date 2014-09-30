@@ -1,0 +1,2 @@
+selectionStart
+	^ textArea selectionStart

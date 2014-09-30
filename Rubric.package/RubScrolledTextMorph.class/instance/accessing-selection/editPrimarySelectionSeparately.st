@@ -1,0 +1,2 @@
+editPrimarySelectionSeparately
+	self textArea editPrimarySelectionSeparately

@@ -1,0 +1,2 @@
+glamourColumn: aColumn
+	glamourColumn := aColumn

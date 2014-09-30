@@ -1,0 +1,1 @@
+A GLMTransparentColor is xxxxxxxxx.

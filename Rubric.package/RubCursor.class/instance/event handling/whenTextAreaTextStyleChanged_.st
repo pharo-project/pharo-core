@@ -1,0 +1,2 @@
+whenTextAreaTextStyleChanged: anAnnouncement
+	self updateBounds.

@@ -1,0 +1,1 @@
+A RubUnderlinedSegmentMorph is xxxxxxxxx.Instance Variables	straight:		<Object>	underlineColor:		<Object>	underlineShape:		<Object>straight	- xxxxxunderlineColor	- xxxxxunderlineShape	- xxxxx

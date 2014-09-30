@@ -1,0 +1,2 @@
+executeFilter
+	self updateRoots

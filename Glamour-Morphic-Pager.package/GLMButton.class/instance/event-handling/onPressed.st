@@ -1,0 +1,2 @@
+onPressed
+	self changed

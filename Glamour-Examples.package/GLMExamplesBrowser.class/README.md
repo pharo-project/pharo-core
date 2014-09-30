@@ -1,0 +1,1 @@
+self new browser openOn: GLMBasicExamples

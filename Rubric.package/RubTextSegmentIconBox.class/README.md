@@ -1,0 +1,1 @@
+A RubTextSegmentIconBox is xxxxxxxxx.Instance Variables	icon:		<Object>	previouslyIn:		<Object>icon	- xxxxxpreviouslyIn	- xxxxx

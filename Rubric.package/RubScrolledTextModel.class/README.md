@@ -1,0 +1,1 @@
+A RubScrolledTextModel is xxxxxxxxx.Instance Variables	announcer:		<Object>	primarySelectionInterval:		<Object>	text:		<Object>	textSegments:		<Object>announcer	- xxxxxprimarySelectionInterval	- xxxxxtext	- xxxxxtextSegments	- xxxxx

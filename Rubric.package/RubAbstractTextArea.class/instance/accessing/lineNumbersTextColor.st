@@ -1,0 +1,2 @@
+lineNumbersTextColor
+	^ self class lineNumbersTextColor 

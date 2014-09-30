@@ -1,0 +1,2 @@
+withoutCodeSizeFeedback
+	self withoutRulerNamed: #codeSizeFeedback

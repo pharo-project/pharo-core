@@ -1,0 +1,2 @@
+primarySelectionInterval: anInterval
+	primarySelectionInterval := anInterval

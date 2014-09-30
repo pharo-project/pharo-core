@@ -1,0 +1,1 @@
+A RubTextAccepted is xxxxxxxxx.

@@ -1,0 +1,2 @@
+answer: anObject
+	answer := anObject

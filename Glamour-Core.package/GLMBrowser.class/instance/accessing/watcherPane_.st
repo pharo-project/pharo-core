@@ -1,0 +1,2 @@
+watcherPane: anObject
+	watcherPane := anObject 

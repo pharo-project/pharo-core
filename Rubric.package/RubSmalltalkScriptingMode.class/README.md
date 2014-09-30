@@ -1,0 +1,1 @@
+A RubSmalltalkScriptingMode is xxxxxxxxx.

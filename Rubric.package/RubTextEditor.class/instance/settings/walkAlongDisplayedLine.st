@@ -1,0 +1,2 @@
+walkAlongDisplayedLine
+	^ textArea walkAlongDisplayedLine

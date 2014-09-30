@@ -1,0 +1,2 @@
+logicalFont
+	^ self fontModel font

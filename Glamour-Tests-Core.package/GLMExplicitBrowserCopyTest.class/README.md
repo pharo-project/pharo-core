@@ -1,0 +1,1 @@
+A GLMExplicitBrowserCopyTest is xxxxxxxxx.Instance Variables	browser:		<Object>	copiedBrowser:		<Object>browser	- xxxxxcopiedBrowser	- xxxxx

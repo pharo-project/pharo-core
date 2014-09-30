@@ -1,0 +1,3 @@
+parentRenderer: aGLMMorphicRenderer
+
+	parentRenderer := aGLMMorphicRenderer

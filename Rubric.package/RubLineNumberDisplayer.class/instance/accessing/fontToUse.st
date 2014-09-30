@@ -1,0 +1,2 @@
+fontToUse
+	^ RubAbstractTextArea lineNumbersFont 

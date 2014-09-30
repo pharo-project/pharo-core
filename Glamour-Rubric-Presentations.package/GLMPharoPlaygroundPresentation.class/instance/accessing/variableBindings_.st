@@ -1,0 +1,2 @@
+variableBindings: aBlock
+	^ variableBindingsBlock := aBlock

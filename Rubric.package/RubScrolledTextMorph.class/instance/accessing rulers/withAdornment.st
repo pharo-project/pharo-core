@@ -1,0 +1,2 @@
+withAdornment
+	self withRulerNamed: #adornment

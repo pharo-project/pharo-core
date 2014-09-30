@@ -1,0 +1,2 @@
+isWhiteRectangledButton: aSymbol
+	^aSymbol = #whiteRectangledButton

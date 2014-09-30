@@ -1,0 +1,2 @@
+withoutColumns
+	self withoutRulerNamed: #column

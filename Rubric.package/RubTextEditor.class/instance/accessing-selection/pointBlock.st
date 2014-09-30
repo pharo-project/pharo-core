@@ -1,0 +1,2 @@
+pointBlock
+	^ textArea pointBlock

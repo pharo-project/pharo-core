@@ -1,0 +1,1 @@
+A GLMSpotterRequest is xxxxxxxxx.Instance Variables	default:		<Object>	prompt:		<Object>	requests:		<Object>default	- xxxxxprompt	- xxxxxrequests	- xxxxx

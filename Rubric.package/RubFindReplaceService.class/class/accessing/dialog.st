@@ -1,0 +1,2 @@
+dialog
+	^ self default dialog

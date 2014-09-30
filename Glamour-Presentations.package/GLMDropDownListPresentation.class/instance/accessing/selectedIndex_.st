@@ -1,0 +1,3 @@
+selectedIndex: index
+	
+	selectedIndex:= index

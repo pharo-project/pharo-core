@@ -1,0 +1,2 @@
+whenFindTextChanged: anAnnouncement 
+	self changed

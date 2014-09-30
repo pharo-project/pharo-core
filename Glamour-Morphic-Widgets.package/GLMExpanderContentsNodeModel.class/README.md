@@ -1,0 +1,1 @@
+A GLMExpanderContentsNodeModel is xxxxxxxxx.Instance Variables	containerNode:		<Object>containerNode	- xxxxx

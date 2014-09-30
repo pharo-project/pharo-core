@@ -1,0 +1,1 @@
+A RubSmalltalkEditor is xxxxxxxxx.Instance Variables	notificationStrategy:		<Object>	selectorChooser:		<Object>notificationStrategy	- xxxxxselectorChooser	- xxxxx

@@ -1,0 +1,2 @@
+printString
+	^ collection printString 

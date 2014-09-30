@@ -1,0 +1,2 @@
+computedPositionFrom: aRectangle
+	^ aRectangle topLeft

@@ -1,0 +1,2 @@
+changeable: aBoolean
+	changeable := aBoolean

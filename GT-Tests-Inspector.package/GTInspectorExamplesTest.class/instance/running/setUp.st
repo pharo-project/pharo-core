@@ -1,0 +1,2 @@
+setUp 
+	windows := OrderedCollection new

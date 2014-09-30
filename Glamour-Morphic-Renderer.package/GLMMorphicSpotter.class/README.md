@@ -1,0 +1,1 @@
+A GLMMorphicSpotter is xxxxxxxxx.Instance Variables	answer:		<Object>	childrenMorphs:		<Object>	text:		<Object>	textMorph:		<Object>answer	- xxxxxchildrenMorphs	- xxxxxtext	- xxxxxtextMorph	- xxxxx

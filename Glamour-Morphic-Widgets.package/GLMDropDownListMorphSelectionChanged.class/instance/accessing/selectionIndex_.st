@@ -1,0 +1,2 @@
+selectionIndex: anInteger
+	selectionIndex := anInteger

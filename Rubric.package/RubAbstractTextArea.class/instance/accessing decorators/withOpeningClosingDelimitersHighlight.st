@@ -1,0 +1,2 @@
+withOpeningClosingDelimitersHighlight
+	self withDecoratorNamed: #openingClosingDelimitersHighlight

@@ -1,0 +1,1 @@
+A GLMMorphicTextRenderer is xxxxxxxxx.Instance Variables	textModel:		<Object>	textMorph:		<Object>textModel	- xxxxxtextMorph	- xxxxx

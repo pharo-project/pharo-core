@@ -1,0 +1,2 @@
+computation: anObject
+	computation := anObject

@@ -1,0 +1,2 @@
+selectionActions: anObject
+	selectionActions := anObject

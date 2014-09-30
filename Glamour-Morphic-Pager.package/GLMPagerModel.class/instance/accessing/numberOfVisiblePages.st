@@ -1,0 +1,2 @@
+numberOfVisiblePages
+	^ numberOfVisiblePages

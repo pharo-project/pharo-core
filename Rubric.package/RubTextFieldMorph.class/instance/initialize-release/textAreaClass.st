@@ -1,0 +1,2 @@
+textAreaClass
+	^ RubTextFieldArea

@@ -1,0 +1,2 @@
+variableSizePanes
+	self hasFixedSizePanes: false

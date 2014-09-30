@@ -1,0 +1,3 @@
+notifyNumberOfVisiblePagesChanged
+
+	self announcer announce: GLMNumberOfVisiblePagesChanged new.

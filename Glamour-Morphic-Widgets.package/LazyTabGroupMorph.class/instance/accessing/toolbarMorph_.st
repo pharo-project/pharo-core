@@ -1,0 +1,2 @@
+toolbarMorph: anObject
+	toolbarMorph := anObject.

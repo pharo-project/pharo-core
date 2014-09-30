@@ -1,0 +1,2 @@
+renderGlamorouslyOn: aRenderer
+	^ aRenderer renderStackedVerticallyCompositePresentation: self composite

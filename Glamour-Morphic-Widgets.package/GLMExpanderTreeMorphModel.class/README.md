@@ -1,0 +1,1 @@
+A GLMExpanderTreeMorphModel is xxxxxxxxx.Instance Variables	glamourExpander:		<Object>	roots:		<Object>glamourExpander	- xxxxxroots	- xxxxx

@@ -1,0 +1,3 @@
+externalCancelButtonAction: aBlock
+
+	externalCancelButtonAction := aBlock

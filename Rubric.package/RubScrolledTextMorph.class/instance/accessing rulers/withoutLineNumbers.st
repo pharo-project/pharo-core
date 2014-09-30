@@ -1,0 +1,2 @@
+withoutLineNumbers
+	self withoutRulerNamed: #lineNumbers

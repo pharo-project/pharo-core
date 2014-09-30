@@ -1,0 +1,2 @@
+defaultKeymappingIndex
+	^defaultKeymappingIndex ifNil: [ defaultKeymappingIndex := self newDefaultKeymappingIndex ]

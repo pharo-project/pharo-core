@@ -1,0 +1,1 @@
+A GLMHighlighterTextParserStyler is xxxxxxxxx.Instance Variables	parser:		<Object>parser	- xxxxx

@@ -1,0 +1,1 @@
+A GLMDropListModel is xxxxxxxxx.Instance Variables	announcer:		<Object>	glamourPresentation:		<Object>	list:		<Object>	selectionIndex:		<Object>announcer	- xxxxxglamourPresentation	- xxxxxlist	- xxxxxselectionIndex	- xxxxx

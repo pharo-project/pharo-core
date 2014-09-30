@@ -1,0 +1,2 @@
+panes
+	^ self first panes

@@ -1,0 +1,1 @@
+A GLMMorphicPaneWithoutTitleRenderer is xxxxxxxxx.Instance Variables	container:		<Object>	paneMorph:		<Object>container	- xxxxxpaneMorph	- xxxxx

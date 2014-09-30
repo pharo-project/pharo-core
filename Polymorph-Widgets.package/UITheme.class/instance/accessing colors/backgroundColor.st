@@ -1,2 +1,0 @@
-backgroundColor 
-	^ Color white

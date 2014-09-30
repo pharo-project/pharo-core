@@ -1,0 +1,1 @@
+A RubSelectorChooserMorph is xxxxxxxxx.Instance Variables	prefix:		<Object>	requestorPos:		<Object>prefix	- xxxxxrequestorPos	- xxxxx

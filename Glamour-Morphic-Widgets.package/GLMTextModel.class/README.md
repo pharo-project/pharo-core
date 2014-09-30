@@ -1,0 +1,1 @@
+A GLMTextModel is xxxxxxxxx.Instance Variables	text:		<Object>text	- xxxxx

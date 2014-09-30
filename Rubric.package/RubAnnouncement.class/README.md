@@ -1,0 +1,1 @@
+A RubAnnouncement is xxxxxxxxx.

@@ -1,0 +1,1 @@
+A GLMMorphicMorphRenderer is xxxxxxxxx.Instance Variables	container:		<Object>	containerMorphClass:		<Object>	scrollPane:		<Object>container	- xxxxxcontainerMorphClass	- xxxxxscrollPane	- xxxxx

@@ -1,0 +1,2 @@
+newScrolledTextWithScrollbar
+	^ self newScrolledText hScrollbarShowAlways

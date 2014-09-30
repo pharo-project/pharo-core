@@ -1,0 +1,2 @@
+currentHScrollBarThickness
+	^self scrollPane currentHScrollBarThickness

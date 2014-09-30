@@ -1,0 +1,1 @@
+A RubTextSegmentMorph is xxxxxxxxx.Instance Variables	changeable:		<Object>	firstIndex:		<Object>	icon:		<Object>	iconBlock:		<Object>	label:		<Object>	lastIndex:		<Object>	textArea:		<Object>changeable	- xxxxxfirstIndex	- xxxxxicon	- xxxxxiconBlock	- xxxxxlabel	- xxxxxlastIndex	- xxxxxtextArea	- xxxxx

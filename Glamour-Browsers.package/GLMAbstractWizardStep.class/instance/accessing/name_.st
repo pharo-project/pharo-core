@@ -1,0 +1,3 @@
+name: aSymbolOrABlock
+
+	name := aSymbolOrABlock

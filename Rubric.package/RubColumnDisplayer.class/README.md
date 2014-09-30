@@ -1,0 +1,1 @@
+A RubColumnDisplayer is xxxxxxxxx.Instance Variables	tabLineColor:		<Object>	tabLineDashes:		<Object>	tabLineDashesColors:		<Object>	tabLineWidth:		<Object>	tabWidth:		<Object>tabLineColor	- xxxxxtabLineDashes	- xxxxxtabLineDashesColors	- xxxxxtabLineWidth	- xxxxxtabWidth	- xxxxx

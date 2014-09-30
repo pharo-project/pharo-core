@@ -1,0 +1,1 @@
+This encapsulates one example.

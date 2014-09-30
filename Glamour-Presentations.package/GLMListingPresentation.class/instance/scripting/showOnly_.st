@@ -1,0 +1,2 @@
+showOnly: aBlock
+	amountToShowBlock := aBlock

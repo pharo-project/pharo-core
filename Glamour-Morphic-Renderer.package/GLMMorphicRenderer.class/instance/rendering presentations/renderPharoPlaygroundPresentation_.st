@@ -1,0 +1,2 @@
+renderPharoPlaygroundPresentation: aWorkspacePresentation 
+	^ GLMMorphicPharoPlaygroundRenderer render: aWorkspacePresentation from: self

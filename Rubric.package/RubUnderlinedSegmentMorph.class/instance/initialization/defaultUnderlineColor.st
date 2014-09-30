@@ -1,0 +1,2 @@
+defaultUnderlineColor
+	^ super defaultColor

@@ -1,0 +1,1 @@
+A GLMPagerButtonModel is xxxxxxxxx.Instance Variables	announcer:		<Object>	data:		<Object>	enabled:		<Object>	isChecked:		<Object>	isPressed:		<Object>	isSelected:		<Object>announcer	- xxxxxdata	- xxxxxenabled	- xxxxxisChecked	- xxxxxisPressed	- xxxxxisSelected	- xxxxx

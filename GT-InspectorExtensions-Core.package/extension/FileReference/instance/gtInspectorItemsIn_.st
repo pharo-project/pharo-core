@@ -1,0 +1,29 @@
+gtInspectorItemsIn: composite
+	<gtInspectorPresentationOrder: 40>
+	^ composite table 
+		title: 'Items';
+		display: [ 
+			| children |
+			children := self directories, self files.
+			self isRoot 
+				ifTrue: [ children ]
+				ifFalse: [ 
+					children asOrderedCollection 
+						addFirst: self parent;
+						yourself ] ];
+		column: 'Name' evaluated: [:each | (self isChildOf: each) 
+								ifTrue: [ '..' ] 
+								ifFalse: [ each basename ]] width: 400;
+		column: 'Size' evaluated: [:each | each humanReadableSize] width: 100;
+		column: 'Creation' evaluated: [ :each | 
+			String streamContents: [:s | 
+				each creationTime printYMDOn: s.
+				s nextPut: Character space.
+				each creationTime printHMSOn: s ]];
+		icon: [ :each | 
+			each isDirectory 
+				ifTrue: [ GLMUIThemeExtraIcons glamorousFolder ] 
+				ifFalse: [ GLMUIThemeExtraIcons glamorousBrowse ] ];
+		when: [self isDirectory and: [self hasChildren]];
+		selectionAct: [:table | table selection delete. table update] entitled: 'Delete';
+		act: [ :table | table update ] icon: GLMUIThemeExtraIcons glamorousRefresh entitled: 'Refresh'

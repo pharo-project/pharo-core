@@ -1,0 +1,2 @@
+withoutTextField
+	self withoutRulerNamed: #textField.

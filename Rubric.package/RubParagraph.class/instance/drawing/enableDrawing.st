@@ -1,0 +1,2 @@
+enableDrawing
+	drawingEnabled := true

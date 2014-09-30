@@ -1,0 +1,2 @@
+prompt: anObject
+	prompt := anObject

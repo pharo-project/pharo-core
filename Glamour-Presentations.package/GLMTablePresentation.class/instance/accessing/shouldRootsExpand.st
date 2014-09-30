@@ -1,0 +1,2 @@
+shouldRootsExpand
+	^ rootsExpanded ifNil: [false]

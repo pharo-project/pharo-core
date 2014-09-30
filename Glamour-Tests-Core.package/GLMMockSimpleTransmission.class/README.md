@@ -1,0 +1,1 @@
+A GLMMockSimpleTransmission is xxxxxxxxx.Instance Variables	wasTransmited:		<Object>wasTransmited	- xxxxx

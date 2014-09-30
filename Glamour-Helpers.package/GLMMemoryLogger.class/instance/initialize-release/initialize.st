@@ -1,0 +1,2 @@
+initialize 
+	announcements := OrderedCollection new

@@ -1,0 +1,2 @@
+tabWidth
+	^ self textArea tabWidth

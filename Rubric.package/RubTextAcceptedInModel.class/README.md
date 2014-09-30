@@ -1,0 +1,1 @@
+A RubTextAcceptedInModel is xxxxxxxxx.

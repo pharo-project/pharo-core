@@ -1,0 +1,1 @@
+A RubCurrentLineBarDecorator is xxxxxxxxx.

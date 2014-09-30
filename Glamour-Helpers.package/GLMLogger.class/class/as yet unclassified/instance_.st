@@ -1,0 +1,2 @@
+instance: aLogger
+	instance := aLogger 

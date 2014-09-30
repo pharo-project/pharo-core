@@ -1,0 +1,2 @@
+beChangeable
+	self changeable: true

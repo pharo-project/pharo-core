@@ -1,0 +1,2 @@
+buttonModel: anObject
+	buttonModel := anObject

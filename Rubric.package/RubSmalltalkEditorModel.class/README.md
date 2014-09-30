@@ -1,0 +1,1 @@
+A RubSmalltalkEditorModel is xxxxxxxxx.Instance Variables	client:		<Object>client	- xxxxx

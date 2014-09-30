@@ -1,0 +1,1 @@
+This class holds a set of icons to be used in the Glamorous UI Theme.

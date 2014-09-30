@@ -1,0 +1,1 @@
+A RubScrolledTextSideRuler is xxxxxxxxx.Instance Variables	side:		<Object>side	- xxxxx

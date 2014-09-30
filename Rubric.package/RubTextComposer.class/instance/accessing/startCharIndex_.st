@@ -1,0 +1,2 @@
+startCharIndex: anObject
+	^ startCharIndex := anObject

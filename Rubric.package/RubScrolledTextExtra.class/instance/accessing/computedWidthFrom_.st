@@ -1,0 +1,2 @@
+computedWidthFrom: aRectangle
+	^ aRectangle width 

@@ -1,0 +1,1 @@
+A GLMSingleSpotterRequest is xxxxxxxxx.Instance Variables	assisted:		<Object>	default:		<Object>	iconBlock:		<Object>	labelBlock:		<Object>	prompt:		<Object>	searchBlock:		<Object>assisted	- xxxxxdefault	- xxxxxiconBlock	- xxxxxlabelBlock	- xxxxxprompt	- xxxxxsearchBlock	- xxxxx

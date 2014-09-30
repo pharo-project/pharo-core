@@ -1,0 +1,2 @@
+hasTags
+	^ self tagsBlock notNil

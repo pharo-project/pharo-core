@@ -1,0 +1,1 @@
+A GLMPaneScroller is xxxxxxxxx.Instance Variables	maxPanes:		<Object>	paneCount:		<Object>	scrollBar:		<Object>	sizing:		<Object>	transform:		<Object>maxPanes	- xxxxxpaneCount	- xxxxxscrollBar	- xxxxxsizing	- xxxxxtransform	- xxxxx

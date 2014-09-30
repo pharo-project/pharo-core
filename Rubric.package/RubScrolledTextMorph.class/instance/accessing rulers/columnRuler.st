@@ -1,0 +1,2 @@
+columnRuler
+	^ self rulerNamed: #column

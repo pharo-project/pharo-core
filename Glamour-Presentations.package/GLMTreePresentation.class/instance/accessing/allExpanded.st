@@ -1,0 +1,2 @@
+allExpanded
+	self shouldAllExpand: true

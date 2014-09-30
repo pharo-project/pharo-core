@@ -1,0 +1,1 @@
+A LazyTabPage is xxxxxxxxx.Instance Variables	actualPageMorph:		<Object>	labelMorph:		<Object>	lazyPageMorphCreation:		<Object>	toolbar:		<Object>actualPageMorph	- xxxxxlabelMorph	- xxxxxlazyPageMorphCreation	- xxxxxtoolbar	- xxxxx

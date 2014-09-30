@@ -1,0 +1,2 @@
+selectedText
+	^ selectedText

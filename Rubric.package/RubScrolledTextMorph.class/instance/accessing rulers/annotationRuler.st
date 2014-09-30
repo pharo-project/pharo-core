@@ -1,0 +1,2 @@
+annotationRuler
+	^ self rulerNamed: #annotation

@@ -1,0 +1,2 @@
+withColumns
+	self withRulerNamed: #column

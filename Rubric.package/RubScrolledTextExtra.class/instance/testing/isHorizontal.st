@@ -1,0 +1,2 @@
+isHorizontal
+	^ false

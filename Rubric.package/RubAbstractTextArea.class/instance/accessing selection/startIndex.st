@@ -1,0 +1,2 @@
+startIndex
+	^ self selectionStart stringIndex

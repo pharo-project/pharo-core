@@ -1,0 +1,2 @@
+defaultWidth: anInteger
+	DefaultWidth := anInteger

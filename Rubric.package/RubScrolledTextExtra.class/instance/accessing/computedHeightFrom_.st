@@ -1,0 +1,2 @@
+computedHeightFrom: aRectangle
+	^ aRectangle height

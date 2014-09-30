@@ -1,0 +1,3 @@
+align: aPoint
+	
+	position := aPoint.

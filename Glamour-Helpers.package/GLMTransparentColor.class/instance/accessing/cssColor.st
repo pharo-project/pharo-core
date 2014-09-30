@@ -1,0 +1,3 @@
+cssColor 
+
+	^ 'transparent'

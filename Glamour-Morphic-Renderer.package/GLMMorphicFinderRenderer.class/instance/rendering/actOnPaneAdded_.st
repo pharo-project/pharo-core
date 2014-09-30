@@ -1,0 +1,2 @@
+actOnPaneAdded: ann
+	self subclassResponsibility

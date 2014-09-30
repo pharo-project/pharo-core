@@ -1,0 +1,2 @@
+dynamicActionsOnSelection: aBlock
+	selectionDynamicActionsBlock := aBlock

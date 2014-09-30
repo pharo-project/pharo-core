@@ -1,0 +1,2 @@
+notifyLabelPositionChanged
+	self announcer announce: GLMPagerButtonLabelPositionChanged new.

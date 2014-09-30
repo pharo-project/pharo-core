@@ -1,0 +1,3 @@
+hasIcon
+	 
+	^self icon notNil

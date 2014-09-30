@@ -1,0 +1,2 @@
+logger: aLogger
+	logger := aLogger

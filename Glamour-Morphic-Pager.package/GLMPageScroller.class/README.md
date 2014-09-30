@@ -1,0 +1,1 @@
+A GLMPageScroller is xxxxxxxxx.Instance Variables	currentScrollValue:		<Object>	focus:		<Object>	maxPanes:		<Object>	paneCount:		<Object>	panes:		<Object>	scrollBar:		<Object>	sizing:		<Object>	transform:		<Object>currentScrollValue	- xxxxxfocus	- xxxxxmaxPanes	- xxxxxpaneCount	- xxxxxpanes	- xxxxxscrollBar	- xxxxxsizing	- xxxxxtransform	- xxxxx

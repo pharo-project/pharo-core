@@ -1,0 +1,2 @@
+glamourPresentation: anObject
+	glamourPresentation := anObject

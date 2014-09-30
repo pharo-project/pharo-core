@@ -1,0 +1,2 @@
+isDebug
+	^ true

@@ -1,0 +1,2 @@
+setStops: stopArray
+	stops := stopArray

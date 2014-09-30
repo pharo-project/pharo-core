@@ -1,0 +1,2 @@
+newTransmission
+	^ self transmission copy

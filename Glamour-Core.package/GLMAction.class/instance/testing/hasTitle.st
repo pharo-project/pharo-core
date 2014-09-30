@@ -1,0 +1,3 @@
+hasTitle 
+	 
+	^self title notNil

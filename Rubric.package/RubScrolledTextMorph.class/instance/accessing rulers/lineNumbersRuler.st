@@ -1,0 +1,2 @@
+lineNumbersRuler
+	^ self rulerNamed: #lineNumbers

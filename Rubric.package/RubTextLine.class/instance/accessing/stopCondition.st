@@ -1,0 +1,2 @@
+stopCondition
+	^ stopCondition

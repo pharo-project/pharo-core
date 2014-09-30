@@ -1,0 +1,3 @@
+virtualLastVisiblePageIndex
+
+	^ virtualLastVisiblePageIndex

@@ -1,0 +1,2 @@
+withoutSecondarySelection
+	self withoutDecoratorNamed: #secondarySelection

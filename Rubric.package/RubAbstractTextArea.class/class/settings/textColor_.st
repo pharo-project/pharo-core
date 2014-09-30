@@ -1,0 +1,2 @@
+textColor: aColor
+	DefaultTextColor := aColor

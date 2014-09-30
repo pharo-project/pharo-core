@@ -1,0 +1,3 @@
+printSelection
+
+	self announce: GLMPrintSelection

@@ -1,0 +1,2 @@
+lineNumbersFont: aFont
+	LineNumbersFont := aFont

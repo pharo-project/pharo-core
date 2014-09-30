@@ -1,0 +1,3 @@
+scrollButtonIconRenderBlock: aBlock
+
+	scrollButtonIconRenderBlock := aBlock

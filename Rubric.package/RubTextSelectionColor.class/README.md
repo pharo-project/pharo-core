@@ -1,0 +1,1 @@
+A RubTextSelectionColor is xxxxxxxxx.Instance Variables	backgroundColorBlock:		<Object>	colorBlock:		<Object>	emphasisCode:		<Object>backgroundColorBlock	- xxxxxcolorBlock	- xxxxxemphasisCode	- xxxxx

@@ -1,0 +1,2 @@
+scrollPane
+	^ self paragraphProvider scrollPane

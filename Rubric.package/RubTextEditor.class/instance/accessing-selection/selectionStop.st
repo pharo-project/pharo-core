@@ -1,0 +1,2 @@
+selectionStop
+	^ textArea selectionStop

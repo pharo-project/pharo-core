@@ -1,0 +1,2 @@
+currentUser
+	^ self class currentUser

@@ -1,0 +1,2 @@
+pagerWidgetThemer
+	^ GLMPagerWidgetThemer new

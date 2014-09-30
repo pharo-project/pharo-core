@@ -1,0 +1,3 @@
+useImplicitAllNil 
+	 
+	implicitAllNil := true

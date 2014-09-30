@@ -1,0 +1,1 @@
+A LazyTabGroupTest is xxxxxxxxx.Instance Variables	tabs:		<Object>	window:		<Object>tabs	- xxxxxwindow	- xxxxx

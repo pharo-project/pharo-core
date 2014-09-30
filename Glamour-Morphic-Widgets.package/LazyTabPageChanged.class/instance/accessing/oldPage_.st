@@ -1,0 +1,2 @@
+oldPage: anObject
+	oldPage := anObject

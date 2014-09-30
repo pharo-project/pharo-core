@@ -1,0 +1,2 @@
+objectToTest 
+	^ (GTInspectorRBMethodTest>>#objectToTest) parseTree

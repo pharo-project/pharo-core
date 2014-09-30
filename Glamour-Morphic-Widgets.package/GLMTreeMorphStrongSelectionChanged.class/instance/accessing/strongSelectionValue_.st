@@ -1,0 +1,2 @@
+strongSelectionValue: anObject
+	strongSelectionValue := anObject

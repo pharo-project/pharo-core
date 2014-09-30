@@ -1,0 +1,3 @@
+doOpen: aUI 
+	 
+	^self subclassResponsibility

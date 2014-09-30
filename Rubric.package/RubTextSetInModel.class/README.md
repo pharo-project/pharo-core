@@ -1,0 +1,1 @@
+A RubTextSetInModel is xxxxxxxxx.

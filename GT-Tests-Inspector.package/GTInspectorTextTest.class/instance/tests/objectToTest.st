@@ -1,0 +1,2 @@
+objectToTest 
+	^ 'text' asText

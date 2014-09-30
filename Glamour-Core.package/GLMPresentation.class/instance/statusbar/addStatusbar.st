@@ -1,0 +1,3 @@
+addStatusbar
+	self hasStatusbar: true
+	

@@ -1,0 +1,2 @@
+allowAllNil
+	^ self useExplicitAllNil

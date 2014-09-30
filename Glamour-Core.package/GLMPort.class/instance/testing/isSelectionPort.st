@@ -1,0 +1,2 @@
+isSelectionPort
+	^ self name = #selection

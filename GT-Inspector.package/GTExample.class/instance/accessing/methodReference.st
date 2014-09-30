@@ -1,0 +1,2 @@
+methodReference
+	^ methodReference

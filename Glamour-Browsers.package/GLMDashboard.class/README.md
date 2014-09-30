@@ -1,0 +1,1 @@
+A GLMDashboard is xxxxxxxxx.Instance Variables	defaultPaneExtent:		<Object>	extentStrategy:		<Object>	panesExtents:		<Object>defaultPaneExtent	- xxxxxextentStrategy	- xxxxxpanesExtents	- xxxxx

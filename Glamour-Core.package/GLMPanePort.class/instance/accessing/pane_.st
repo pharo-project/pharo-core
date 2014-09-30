@@ -1,0 +1,3 @@
+pane: aPane 
+	 
+	pane := aPane

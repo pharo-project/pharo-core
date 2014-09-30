@@ -1,0 +1,2 @@
+tabWidth: anInteger
+	tabWidth := anInteger

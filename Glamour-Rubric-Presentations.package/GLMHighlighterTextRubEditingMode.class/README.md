@@ -1,0 +1,1 @@
+A GLMHighlighterTextRubEditingMode is xxxxxxxxx.Instance Variables	stylerDecorator:		<Object>stylerDecorator	- xxxxx

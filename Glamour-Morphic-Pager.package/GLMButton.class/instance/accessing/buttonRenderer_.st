@@ -1,0 +1,2 @@
+buttonRenderer: aRenderer
+	buttonRenderer := aRenderer

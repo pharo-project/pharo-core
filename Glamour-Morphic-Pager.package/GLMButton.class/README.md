@@ -1,0 +1,1 @@
+|form newForm|form := ImageReadWriter formFromFileNamed: '9patch.png'.newForm := Patch9Form scalePatch9Form: form size:  100@100.(ImageMorph withForm: newForm) openInWindow.

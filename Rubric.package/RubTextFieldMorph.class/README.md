@@ -1,0 +1,1 @@
+A RubTextFieldMorph is xxxxxxxxx.Instance Variables	hasValidText:		<Object>hasValidText	- xxxxx

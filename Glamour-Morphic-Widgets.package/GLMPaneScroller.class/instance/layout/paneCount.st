@@ -1,0 +1,2 @@
+paneCount
+	^ paneCount

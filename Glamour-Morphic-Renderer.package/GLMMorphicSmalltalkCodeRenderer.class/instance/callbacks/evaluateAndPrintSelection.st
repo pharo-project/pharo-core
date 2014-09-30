@@ -1,0 +1,3 @@
+evaluateAndPrintSelection
+
+	textMorph printIt

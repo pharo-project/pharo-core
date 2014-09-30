@@ -1,0 +1,3 @@
+size: aNumberOrAblock
+
+	size := aNumberOrAblock 

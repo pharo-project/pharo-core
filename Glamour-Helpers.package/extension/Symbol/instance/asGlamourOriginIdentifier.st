@@ -1,0 +1,2 @@
+asGlamourOriginIdentifier
+	^ GLMPortIdentifier defaultOriginOf: self

@@ -1,0 +1,2 @@
+newPane
+	^ newPane

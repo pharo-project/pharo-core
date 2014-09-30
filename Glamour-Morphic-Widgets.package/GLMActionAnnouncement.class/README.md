@@ -1,0 +1,1 @@
+A GLMActionAnnouncement is xxxxxxxxx.Instance Variables	action:		<Object>action	- xxxxx

@@ -1,0 +1,2 @@
+activeEntity: anObject
+	^ (self pane port: #activeEntity) value: anObject 

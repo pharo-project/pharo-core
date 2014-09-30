@@ -1,0 +1,2 @@
+asGlamorousMultiValue
+	^ self

@@ -1,0 +1,2 @@
+scrollerOffsetChanged
+	self changed

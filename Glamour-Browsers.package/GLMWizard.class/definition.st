@@ -1,0 +1,5 @@
+GLMImplicitBrowser subclass: #GLMWizard
+	instanceVariableNames: 'wizardSize steps genericStep currentIndex terminateButtonAction previousButtonAction nextButtonAction cancelButtonAction specificAnnouncementActions externalCancelButtonAction externalNextButtonAction externalPreviousButtonAction externalTerminateButtonAction stepsDictionary stepsAndPanes'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Glamour-Browsers'

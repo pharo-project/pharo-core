@@ -1,0 +1,1 @@
+A RubExtraSelectionDecorator is xxxxxxxxx.Instance Variables	findReplaceRanges:		<Object>	findReplaceShapes:		<Object>	previousFindRegex:		<Object>	previousSelection:		<Object>	secondarySelectionShapes:		<Object>findReplaceRanges	- xxxxxfindReplaceShapes	- xxxxxpreviousFindRegex	- xxxxxpreviousSelection	- xxxxxsecondarySelectionShapes	- xxxxx

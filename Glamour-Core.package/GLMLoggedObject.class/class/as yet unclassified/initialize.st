@@ -1,0 +1,2 @@
+initialize 
+	logger := GLMLogger instance

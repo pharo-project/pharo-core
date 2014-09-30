@@ -1,0 +1,2 @@
+previousBounds: anObject
+	previousBounds := anObject

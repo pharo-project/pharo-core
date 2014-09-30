@@ -1,0 +1,1 @@
+A GLMRubricTextModel is xxxxxxxxx.Instance Variables	announcer:		<Object>	primarySelectionInterval:		<Object>announcer	- xxxxxprimarySelectionInterval	- xxxxx

@@ -1,0 +1,2 @@
+noSelection
+	self acceptsSelection: false

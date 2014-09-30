@@ -1,0 +1,2 @@
+verticallyStackedArrangement
+	^ self stackedVerticallyArrangement

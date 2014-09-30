@@ -1,0 +1,2 @@
+contentsMorph: anObject
+	contentsMorph := anObject

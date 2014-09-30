@@ -1,0 +1,1 @@
+A GTInspectorSmokeTest is xxxxxxxxx.Instance Variables	windows:		<Object>windows	- xxxxx

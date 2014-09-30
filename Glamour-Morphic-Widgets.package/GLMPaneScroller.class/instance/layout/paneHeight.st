@@ -1,0 +1,2 @@
+paneHeight
+	^ transform bounds height

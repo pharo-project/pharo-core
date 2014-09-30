@@ -1,0 +1,1 @@
+A GLMPaneReplaced is xxxxxxxxx.Instance Variables	newPane:		<Object>	oldPane:		<Object>newPane	- xxxxxoldPane	- xxxxx

@@ -1,0 +1,2 @@
+onGeometryChanged
+	self updateExtent.

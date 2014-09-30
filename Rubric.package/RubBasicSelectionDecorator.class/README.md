@@ -1,0 +1,1 @@
+A RubBasicSelectionDecorator is xxxxxxxxx.

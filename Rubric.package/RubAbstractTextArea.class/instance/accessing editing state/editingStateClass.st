@@ -1,0 +1,2 @@
+editingStateClass
+	^ RubEditingState

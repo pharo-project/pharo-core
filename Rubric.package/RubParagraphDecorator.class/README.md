@@ -1,0 +1,1 @@
+A RubParagraphDecorator is xxxxxxxxx.Instance Variables	canvas:		<Object>	displayScanner:		<Object>	next:		<Object>	position:		<Object>canvas	- xxxxxdisplayScanner	- xxxxxnext	- xxxxxposition	- xxxxx

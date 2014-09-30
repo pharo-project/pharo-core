@@ -1,0 +1,3 @@
+initialExtent: aPoint
+
+	initialExtent := aPoint

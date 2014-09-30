@@ -1,0 +1,1 @@
+A GLMMorphicMagritteRenderer is xxxxxxxxx.Instance Variables	containerMorphClass:		<Object>	scrollPane:		<Object>containerMorphClass	- xxxxxscrollPane	- xxxxx

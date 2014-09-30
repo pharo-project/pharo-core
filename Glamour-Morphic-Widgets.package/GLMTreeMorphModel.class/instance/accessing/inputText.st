@@ -1,0 +1,2 @@
+inputText
+	^ inputText ifNil: [inputText := '']

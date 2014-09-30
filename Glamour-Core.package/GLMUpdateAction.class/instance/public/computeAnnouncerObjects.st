@@ -1,0 +1,2 @@
+computeAnnouncerObjects 
+	self subclassResponsibility

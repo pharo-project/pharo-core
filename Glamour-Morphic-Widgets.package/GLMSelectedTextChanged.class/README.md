@@ -1,0 +1,1 @@
+A GLMSelectedTextChanged is xxxxxxxxx.Instance Variables	end:		<Object>	selectedText:		<Object>	start:		<Object>end	- xxxxxselectedText	- xxxxxstart	- xxxxx

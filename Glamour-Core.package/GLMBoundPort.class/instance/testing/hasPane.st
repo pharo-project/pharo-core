@@ -1,0 +1,3 @@
+hasPane 
+	 
+	^self pane notNil

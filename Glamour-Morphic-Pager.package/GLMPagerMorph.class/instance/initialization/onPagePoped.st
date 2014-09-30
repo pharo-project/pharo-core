@@ -1,0 +1,3 @@
+onPagePoped
+
+	self showOrHideScrollBar.

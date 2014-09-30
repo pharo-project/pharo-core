@@ -1,0 +1,1 @@
+A GLMMorphicFinderRenderer is xxxxxxxxx.Instance Variables	container:		<Object>container	- xxxxx

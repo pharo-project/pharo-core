@@ -1,0 +1,2 @@
+unregisterFromAllAnnouncements
+	self presentations unregisterFromAllAnnouncements

@@ -1,0 +1,2 @@
+oppositeDelimiterSelection
+	^ RubTextSelectionColor oppositeDelimiterSelection

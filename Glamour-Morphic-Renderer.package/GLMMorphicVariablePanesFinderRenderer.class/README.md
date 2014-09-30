@@ -1,0 +1,1 @@
+A GLMMorphicVariablePanesFinderRenderer is xxxxxxxxx.Instance Variables	scrollPane:		<Object>scrollPane	- xxxxx

@@ -1,0 +1,2 @@
+selectionStop
+	^ self paragraph selectionStop

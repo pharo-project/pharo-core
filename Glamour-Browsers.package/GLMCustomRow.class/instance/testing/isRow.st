@@ -1,0 +1,3 @@
+isRow 
+	 
+	^true

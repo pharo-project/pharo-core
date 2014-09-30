@@ -1,0 +1,2 @@
+editingState
+	^ textArea editingState

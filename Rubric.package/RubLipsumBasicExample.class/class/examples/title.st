@@ -1,0 +1,2 @@
+title
+	^ 'Lorem Ipsum example'

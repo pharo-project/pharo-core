@@ -1,0 +1,2 @@
+withLineNumbers
+	self withRulerNamed: #lineNumbers

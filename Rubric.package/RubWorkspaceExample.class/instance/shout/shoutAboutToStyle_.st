@@ -1,0 +1,2 @@
+shoutAboutToStyle: ATextView
+	^ true

@@ -1,0 +1,2 @@
+color: aSymbolOrColor
+	color := aSymbolOrColor

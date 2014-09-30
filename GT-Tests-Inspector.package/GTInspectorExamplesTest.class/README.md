@@ -1,0 +1,1 @@
+A GTInspectorExamplesTest is xxxxxxxxx.Instance Variables	windows:		<Object>windows	- xxxxx

@@ -1,0 +1,2 @@
+markIndex
+	^ textArea markIndex

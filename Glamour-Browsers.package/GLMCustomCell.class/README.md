@@ -1,0 +1,1 @@
+A GLMCustomCell is xxxxxxxxx.Instance Variables	browser:		<Object>	children:		<Object>	id:		<Object>	size:		<Object>	span:		<Object>browser	- xxxxxchildren	- xxxxxid	- xxxxxsize	- xxxxxspan	- xxxxx

@@ -1,0 +1,1 @@
+A GLMTextChanged is xxxxxxxxx.Instance Variables	text:		<Object>text	- xxxxx

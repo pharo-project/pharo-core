@@ -1,0 +1,2 @@
+browser: aBrowser 
+	browser := aBrowser

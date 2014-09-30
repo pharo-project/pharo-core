@@ -1,0 +1,2 @@
+newIndex
+	^ newIndex

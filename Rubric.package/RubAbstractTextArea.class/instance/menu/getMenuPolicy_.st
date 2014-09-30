@@ -1,0 +1,2 @@
+getMenuPolicy: aGetMenuPolicy
+	getMenuPolicy := aGetMenuPolicy

@@ -1,0 +1,1 @@
+A GLMMorphicModel is xxxxxxxxx.Instance Variables	glamourPresentation:		<Object>glamourPresentation	- xxxxx

@@ -1,0 +1,2 @@
+text
+	^ next text

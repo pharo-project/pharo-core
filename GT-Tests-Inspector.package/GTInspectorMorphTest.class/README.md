@@ -1,0 +1,1 @@
+A GTInspectorMorphTest is xxxxxxxxx.Instance Variables	morphWindow:		<Object>morphWindow	- xxxxx

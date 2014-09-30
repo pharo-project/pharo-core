@@ -1,0 +1,1 @@
+A GLMMorphicRubricTextRenderer is xxxxxxxxx.Instance Variables	textModel:		<Object>	textMorph:		<Object>textModel	- xxxxxtextMorph	- xxxxx

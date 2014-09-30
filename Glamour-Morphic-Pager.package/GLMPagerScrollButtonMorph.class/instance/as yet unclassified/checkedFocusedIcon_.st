@@ -1,0 +1,2 @@
+checkedFocusedIcon: aForm
+	checkedFocusedIcon := aForm.

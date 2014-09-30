@@ -1,0 +1,3 @@
+uniqueInstance
+
+	^uniqueInstance

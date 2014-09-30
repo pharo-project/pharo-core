@@ -1,0 +1,2 @@
+searchOn: aBlock
+	searchBlock := aBlock

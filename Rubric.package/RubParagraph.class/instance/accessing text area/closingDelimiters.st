@@ -1,0 +1,2 @@
+closingDelimiters
+	^ textArea closingDelimiters

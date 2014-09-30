@@ -1,0 +1,2 @@
+replaceAll
+	self model replaceAll

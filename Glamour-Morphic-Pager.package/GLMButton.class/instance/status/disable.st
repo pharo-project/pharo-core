@@ -1,0 +1,3 @@
+disable
+
+	self buttonModel disable

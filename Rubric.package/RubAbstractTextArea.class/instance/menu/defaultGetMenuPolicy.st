@@ -1,0 +1,2 @@
+defaultGetMenuPolicy
+	^ self

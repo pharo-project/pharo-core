@@ -1,0 +1,3 @@
+leftFlush 
+
+	self changeAlignment: #leftFlush

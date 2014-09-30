@@ -1,0 +1,2 @@
+gtInspectorModelNestingIn: composite
+	self model gtInspectorModelNestingIn: composite

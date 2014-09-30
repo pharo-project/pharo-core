@@ -1,0 +1,1 @@
+A GLMValidator is xxxxxxxxx.Instance Variables	buttonActions:		<Object>	specificAnnouncementActions:		<Object>buttonActions	- xxxxxspecificAnnouncementActions	- xxxxx

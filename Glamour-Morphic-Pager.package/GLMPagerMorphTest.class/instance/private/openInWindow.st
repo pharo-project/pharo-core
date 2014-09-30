@@ -1,0 +1,3 @@
+openInWindow
+
+	window := pagerMorph openInWindow 

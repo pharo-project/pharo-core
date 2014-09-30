@@ -1,0 +1,3 @@
+hasShortcut 
+	 
+	^self shortcut notNil

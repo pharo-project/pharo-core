@@ -1,0 +1,2 @@
+font: anObject
+	font := anObject

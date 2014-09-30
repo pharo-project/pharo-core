@@ -1,0 +1,3 @@
+previousInterval: anInterval
+
+	previousInterval := anInterval.

@@ -1,0 +1,1 @@
+A GlamourousBenchmark is xxxxxxxxx.Instance Variables	progress:		<Object>	progressBarSize:		<Object>progress	- xxxxxprogressBarSize	- xxxxx

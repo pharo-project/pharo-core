@@ -1,0 +1,2 @@
+currentScrollValue
+	^ currentScrollValue

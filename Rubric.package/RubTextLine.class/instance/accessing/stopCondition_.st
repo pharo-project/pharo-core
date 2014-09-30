@@ -1,0 +1,2 @@
+stopCondition: aSymbol
+	stopCondition := aSymbol

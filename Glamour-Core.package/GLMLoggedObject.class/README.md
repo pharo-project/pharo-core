@@ -1,0 +1,1 @@
+A GLMLoggedObject is xxxxxxxxx.Instance Variables	logger:		<Object>logger	- xxxxx

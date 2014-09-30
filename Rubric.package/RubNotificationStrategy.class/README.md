@@ -1,0 +1,1 @@
+A RubNotificationStrategy is xxxxxxxxx.Instance Variables	editor:		<Object>editor	- xxxxx

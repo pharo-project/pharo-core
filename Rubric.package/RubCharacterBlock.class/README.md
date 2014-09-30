@@ -1,0 +1,1 @@
+A RubCharacterBlock is xxxxxxxxx.Instance Variables	stringIndex:		<Object>	surface:		<Object>	textLine:		<Object>stringIndex	- xxxxxsurface	- xxxxxtextLine	- xxxxx

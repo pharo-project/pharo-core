@@ -1,0 +1,1 @@
+A GLMWizardGenericStep is xxxxxxxxx.Instance Variables	numberOfDisplayBlock:		<Object>	size:		<Object>numberOfDisplayBlock	- xxxxxsize	- xxxxx

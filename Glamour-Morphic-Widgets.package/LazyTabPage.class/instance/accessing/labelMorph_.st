@@ -1,0 +1,2 @@
+labelMorph: anObject
+	labelMorph := anObject

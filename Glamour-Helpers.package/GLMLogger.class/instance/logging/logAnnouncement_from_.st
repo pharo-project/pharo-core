@@ -1,0 +1,3 @@
+logAnnouncement: anAnnouncement from: aGLMObject 
+	
+	

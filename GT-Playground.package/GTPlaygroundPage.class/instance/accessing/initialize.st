@@ -1,0 +1,3 @@
+initialize
+	content := ''.
+	title := 'Playground'

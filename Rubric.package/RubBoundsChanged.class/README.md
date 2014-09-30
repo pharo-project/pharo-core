@@ -1,0 +1,1 @@
+A RubBoundsChanged is xxxxxxxxx.Instance Variables	previousBounds:		<Object>previousBounds	- xxxxx

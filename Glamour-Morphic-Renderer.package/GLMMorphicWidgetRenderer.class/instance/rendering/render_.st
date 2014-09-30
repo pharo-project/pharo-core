@@ -1,0 +1,2 @@
+render: aPresentation
+	^ self subclassResponsibility 

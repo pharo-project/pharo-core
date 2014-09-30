@@ -1,0 +1,2 @@
+beForSmalltalkScripting
+	self editingMode: RubSmalltalkScriptingMode new

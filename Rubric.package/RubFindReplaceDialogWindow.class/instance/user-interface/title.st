@@ -1,0 +1,2 @@
+title
+	^ 'Find & Replace' translated.

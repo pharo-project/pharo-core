@@ -1,0 +1,2 @@
+editorFont: aFont
+	EditorFont := aFont

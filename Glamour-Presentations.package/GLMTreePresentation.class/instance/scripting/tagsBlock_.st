@@ -1,0 +1,2 @@
+tagsBlock: anObject
+	tagsBlock := anObject

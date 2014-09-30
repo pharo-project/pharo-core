@@ -1,0 +1,2 @@
+margins
+	^ self textArea margins

@@ -1,0 +1,1 @@
+A GLMMorphTreeColumn is xxxxxxxxx.Instance Variables	glamourColumn:		<Object>glamourColumn	- xxxxx

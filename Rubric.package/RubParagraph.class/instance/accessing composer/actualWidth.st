@@ -1,0 +1,2 @@
+actualWidth
+	^ self composer actualWidth

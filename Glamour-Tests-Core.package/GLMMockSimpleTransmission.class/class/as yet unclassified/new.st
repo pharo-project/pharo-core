@@ -1,0 +1,3 @@
+new
+
+	^super new initialize

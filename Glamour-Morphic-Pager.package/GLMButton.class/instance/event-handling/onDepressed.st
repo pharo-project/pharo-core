@@ -1,0 +1,2 @@
+onDepressed
+	self changed

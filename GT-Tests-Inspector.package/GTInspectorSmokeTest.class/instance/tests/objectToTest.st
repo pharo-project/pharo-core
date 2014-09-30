@@ -1,0 +1,3 @@
+objectToTest.
+
+	^ self subclassResponsability

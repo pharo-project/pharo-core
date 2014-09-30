@@ -1,0 +1,3 @@
+isPassive 
+	 
+	^self isActive not

@@ -1,0 +1,3 @@
+format: anObject 
+	 
+	format := anObject

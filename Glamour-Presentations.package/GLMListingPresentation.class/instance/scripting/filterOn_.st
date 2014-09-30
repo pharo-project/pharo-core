@@ -1,0 +1,2 @@
+filterOn: aBlock 
+	filterBlock := aBlock

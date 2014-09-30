@@ -1,0 +1,2 @@
+hasActions
+	^ self allActions notEmpty

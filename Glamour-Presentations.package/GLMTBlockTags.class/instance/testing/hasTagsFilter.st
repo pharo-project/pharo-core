@@ -1,0 +1,2 @@
+hasTagsFilter
+	^ self tagsFilterBlock notNil

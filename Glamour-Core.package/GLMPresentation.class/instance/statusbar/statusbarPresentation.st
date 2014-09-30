@@ -1,0 +1,2 @@
+statusbarPresentation
+	^ GLMLabelPresentation new

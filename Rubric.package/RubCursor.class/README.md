@@ -1,0 +1,1 @@
+A RubCursor is xxxxxxxxx.Instance Variables	invisibleCursorColor:		<Object>	period:		<Object>	stayVisible:		<Object>invisibleCursorColor	- xxxxxperiod	- xxxxxstayVisible	- xxxxx

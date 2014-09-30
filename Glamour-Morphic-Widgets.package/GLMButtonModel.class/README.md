@@ -1,0 +1,1 @@
+A GLMButtonModel is xxxxxxxxx.Instance Variables	glamourAction:		<Object>glamourAction	- xxxxx

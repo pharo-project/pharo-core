@@ -1,0 +1,2 @@
+parentPrototype
+	^ parentPrototype

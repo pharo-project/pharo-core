@@ -1,0 +1,2 @@
+onSelected
+	self changed

@@ -1,0 +1,2 @@
+hasSelection
+	^ self editor hasSelection 

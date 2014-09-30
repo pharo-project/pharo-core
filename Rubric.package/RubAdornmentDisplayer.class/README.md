@@ -1,0 +1,1 @@
+RubAdornmentDisplayer adds a simple 

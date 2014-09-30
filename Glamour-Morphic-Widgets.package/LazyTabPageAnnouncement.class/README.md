@@ -1,0 +1,1 @@
+A LazyTabPageAnnouncement is xxxxxxxxx.Instance Variables	page:		<Object>	pageIndex:		<Object>	tabs:		<Object>page	- xxxxxpageIndex	- xxxxxtabs	- xxxxx

@@ -1,0 +1,1 @@
+A RubSegmentIconMenuItemMorph is xxxxxxxxx.Instance Variables	segment:		<Object>segment	- xxxxx

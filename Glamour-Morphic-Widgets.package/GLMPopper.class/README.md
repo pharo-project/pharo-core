@@ -1,0 +1,1 @@
+This is a morph used for previewing print it actions.It has a special ability to delete itself either when Esc is pressed, or when the focus is lost.

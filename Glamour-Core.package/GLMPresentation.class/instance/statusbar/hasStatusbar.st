@@ -1,0 +1,2 @@
+hasStatusbar
+	^ statusPane notNil

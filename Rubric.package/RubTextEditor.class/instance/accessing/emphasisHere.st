@@ -1,0 +1,2 @@
+emphasisHere
+	^ textArea emphasisHere

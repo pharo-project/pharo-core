@@ -1,0 +1,3 @@
+scrollerOffsetChanged
+	self updateColor.
+	super scrollerOffsetChanged

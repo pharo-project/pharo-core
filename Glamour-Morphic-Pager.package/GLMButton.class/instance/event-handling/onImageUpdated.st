@@ -1,0 +1,2 @@
+onImageUpdated
+	self changed

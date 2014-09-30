@@ -1,0 +1,2 @@
+titleIcon: anObject
+	titleIcon := anObject

@@ -1,0 +1,3 @@
+debugSelection
+
+	self announce: GLMDebugSelection

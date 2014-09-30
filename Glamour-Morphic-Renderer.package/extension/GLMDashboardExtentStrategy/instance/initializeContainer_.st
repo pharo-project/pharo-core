@@ -1,0 +1,3 @@
+initializeContainer: aPanelMorph
+	
+	^ self subclassResponsibility 

@@ -1,0 +1,2 @@
+privateSetTextStyle: aTextStyle
+	textStyle := aTextStyle
