@@ -1,6 +1,6 @@
 registerScrollChanges: aSelector
 
 	self announcer weak
-		on: PaneScrolling 
+		when: PaneScrolling 
 		send: aSelector
 		to: self model

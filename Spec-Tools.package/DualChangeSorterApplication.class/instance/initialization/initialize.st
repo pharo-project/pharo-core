@@ -4,6 +4,6 @@ initialize
 	model := ChangeSorterModel new.
 	isRefreshing := false.
 	SystemAnnouncer uniqueInstance weak 
-		on: CurrentChangeSetChanged 
+		when: CurrentChangeSetChanged 
 		send: #updateTitle 
 		to: self 

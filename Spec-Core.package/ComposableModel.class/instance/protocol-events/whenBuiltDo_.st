@@ -1,5 +1,5 @@
 whenBuiltDo: aBlock
 
 	self announcer 
-		on: WidgetBuilt
+		when: WidgetBuilt
 		do: aBlock

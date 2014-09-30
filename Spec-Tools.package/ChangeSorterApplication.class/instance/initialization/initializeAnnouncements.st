@@ -1,6 +1,6 @@
 initializeAnnouncements
 	SystemAnnouncer uniqueInstance weak 
-		on:
+		when:
 			ClassAdded , ClassCommented , ClassRecategorized , ClassModifiedClassDefinition , ClassRemoved , ClassRenamed
 				, ClassReorganized , MethodAdded , MethodModified , MethodRecategorized , MethodRemoved , ProtocolAdded
 				, ProtocolRemoved

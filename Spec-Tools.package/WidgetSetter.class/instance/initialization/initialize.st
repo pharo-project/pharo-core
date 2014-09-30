@@ -11,6 +11,6 @@ initialize
 	super initialize.
 	
 	self announcer
-		on: WidgetBuilt
+		when: WidgetBuilt
 		send: #registerEvents
 		to: self.

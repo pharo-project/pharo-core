@@ -32,6 +32,6 @@ registerEvents
 		newMenu applyTo: self ] ].
 
 	self announcer weak
-		on: WidgetBuilt
+		when: WidgetBuilt
 		send: #onWidgetBuilt
 		to: self.

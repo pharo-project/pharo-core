@@ -4,6 +4,6 @@ initialize
 
 	treeModel := SpecTreeModel model: self.	
 	treeModel announcer
-		on: MorphTreeSelectionChanged
+		when: MorphTreeSelectionChanged
 		send: #onMorphTreeSelectionChanged:
 		to: self.
