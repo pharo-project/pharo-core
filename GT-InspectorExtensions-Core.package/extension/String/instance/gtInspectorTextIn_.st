@@ -1,4 +1,4 @@
 gtInspectorTextIn: composite
 	<gtInspectorPresentationOrder: 30>  
-	 composite text
+	 composite rubricText
 		title: 'String'
