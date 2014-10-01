@@ -1,7 +1,7 @@
 registerToAnnouncements
 	self registerToSystemAnnouncements.
 	(Smalltalk 
-		at: #TestAnnouncer
+		at: #TestCase
 		ifPresent: [ self registerToTestAnnouncements ]). 
 	self registerToMCAnnouncements.		
 	self registerToGroupAnnouncements. 

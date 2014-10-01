@@ -6,4 +6,4 @@ updateResultsInHistory
 			classesToNotify add:testCase class.
 			self class updateTestHistoryFor: testCase status: status ] ].
 	classesToNotify do:[:cl | 
-		TestAnnouncer uniqueInstance announce: (TestSuiteEnded result: cl)]
+		cl historyAnnouncer announce: (TestSuiteEnded result: cl)]

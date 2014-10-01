@@ -1,4 +1,4 @@
 history: aDictionary
 
 	history := aDictionary.
-	TestAnnouncer uniqueInstance announce: (TestSuiteEnded result: self)
+	self historyAnnouncer announce: (TestSuiteEnded result: self)

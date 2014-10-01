@@ -1,0 +1,3 @@
+example
+
+	^PackageTreeExample new open
