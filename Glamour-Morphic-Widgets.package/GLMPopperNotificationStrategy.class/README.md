@@ -1,1 +1,1 @@
-A GLMPopperNotificationStrategy is xxxxxxxxx.
+I opened a new popper window that displays the given notification. (I do not alter the content of the text editor.)

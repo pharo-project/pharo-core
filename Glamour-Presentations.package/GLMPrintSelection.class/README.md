@@ -1,1 +1,1 @@
-A GLMPrintSelection is xxxxxxxxx.
+I am event indicating to the renderer to execute and print the currently selected text.

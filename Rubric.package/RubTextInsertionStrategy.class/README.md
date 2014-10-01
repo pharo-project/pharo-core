@@ -1,1 +1,1 @@
-A RubTextInsertionStrategy is xxxxxxxxx.
+I insert the notification directly in the text at the given position. (I alter the content of the text editor)

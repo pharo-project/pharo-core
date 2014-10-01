@@ -5,5 +5,6 @@ notify: aString at: anInteger in: aStream
 		ifFalse: [anInteger].
 	self editor selectFrom: pos to: pos.
 	
-	(GLMErrorPopper new withString: aString from: self editor textArea owner owner owner)
-		openInWorld
+	GLMErrorPopper installAlarmFor: [ 
+		(GLMErrorPopper new withString: aString from: self editor textArea owner owner owner)
+			openInWorld ]

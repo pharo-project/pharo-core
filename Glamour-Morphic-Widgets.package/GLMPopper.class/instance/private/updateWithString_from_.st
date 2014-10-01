@@ -10,4 +10,5 @@ updateWithString: string from: aMorph
 			aMorph takeKeyboardFocus ];
 		onAnnouncement: MorphLostFocus do: [ :ann | 
 			self delete.
-			aMorph takeKeyboardFocus ]
+			"If this event is triggered then another morph already has the focus.
+			Do not attempt to give the focus back to the original morph" ]

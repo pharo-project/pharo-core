@@ -1,4 +1,4 @@
-GLMNewSmalltalkCodePresentation subclass: #GLMPharoMethodPresentation
+GLMRubricSmalltalkCodePresentation subclass: #GLMPharoMethodPresentation
 	instanceVariableNames: 'highlightSmalltalkContext'
 	classVariableNames: ''
 	poolDictionaries: ''

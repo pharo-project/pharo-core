@@ -1,1 +1,0 @@
-A GLMNewSmalltalkCodePresentation is xxxxxxxxx.

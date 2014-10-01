@@ -1,2 +1,0 @@
-handlesKeyboard: evt
-	^ true

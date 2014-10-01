@@ -1,4 +1,4 @@
-GLMNewSmalltalkCodePresentation subclass: #GLMPharoPlaygroundPresentation
+GLMRubricSmalltalkCodePresentation subclass: #GLMPharoPlaygroundPresentation
 	instanceVariableNames: 'variableBindingsBlock'
 	classVariableNames: ''
 	poolDictionaries: ''

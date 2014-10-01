@@ -1,2 +1,0 @@
-renderRubricSmalltalkCodePresentation: aPresentation
-	^ GLMMorphicRubricSmalltalkCodeRenderer render: aPresentation from: self
