@@ -1,4 +1,4 @@
-SystemAnnouncer subclass: #GroupAnnouncer
+Announcer subclass: #GroupAnnouncer
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

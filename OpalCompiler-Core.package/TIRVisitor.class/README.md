@@ -1,1 +1,0 @@
-I am a trait containing all visitor methods so they can be used outside from the IRVisitor hierarchy.

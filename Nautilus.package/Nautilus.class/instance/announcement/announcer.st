@@ -1,3 +1,3 @@
 announcer
 
-	^ announcer ifNil: [ announcer := NautilusAnnouncer new ]
+	^ announcer ifNil: [ announcer := Announcer new ]

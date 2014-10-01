@@ -7,7 +7,7 @@ initialize
 	needRefresh := false.
 	
 	self announcer
-		on: WidgetBuilt
+		when: WidgetBuilt
 		send: #onWidgetBuilt
 		to: self.
 		
