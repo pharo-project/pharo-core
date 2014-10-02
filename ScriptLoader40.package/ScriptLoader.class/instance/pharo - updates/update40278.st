@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '13718 Failing test: RBExtractMethodTest>>#testExtractMethodThatMovesTemporaryVariable 
+update40278
+	"self new update40278"
+	self withUpdateLog: '13718 Failing test: RBExtractMethodTest>>#testExtractMethodThatMovesTemporaryVariable 
 	https://pharo.fogbugz.com/f/cases/13718
 
 13222 HDLintReport generates invalid output
@@ -9,4 +10,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/12774
 
 14134 ecompletion raises DNU for some input
-	https://pharo.fogbugz.com/f/cases/14134'
+	https://pharo.fogbugz.com/f/cases/14134'.
+	self loadTogether: self script278 merge: false.
+	self flushCaches.

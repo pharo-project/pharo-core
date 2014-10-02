@@ -3,4 +3,4 @@ nonAbstractTypeOf: aRange
 	cls := aRange asType.
 	cls hasAbstractMethods
 		ifFalse: [ ^ cls ].
-	^ (cls readFromString: (aRange textIn: source)) class
+	^ [(cls readFromString: (aRange textIn: source)) class] on: Error do: [ cls ]

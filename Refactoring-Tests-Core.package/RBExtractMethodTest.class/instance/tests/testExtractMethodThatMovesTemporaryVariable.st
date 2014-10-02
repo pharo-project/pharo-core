@@ -8,14 +8,14 @@ testExtractMethodThatMovesTemporaryVariable
 		in: RBTransformationRuleTest.
 	self 
 		setupMethodNameFor: refactoring
-		toReturn: #foo.
+		toReturn: #foo1.
 	self executeRefactoring: refactoring.
 	class := refactoring model classNamed: #RBTransformationRuleTest.
 	self assert: (class parseTreeFor: #superSends) = (RBParser parseMethod: 'superSends
 	| rule |
-	rule := self foo.
+	rule := self foo1.
 	self rewriteUsing: rule').
-	self assert: (class parseTreeFor: #foo) = (RBParser parseMethod: 'foo | rule | 	rule := RBParseTreeRewriter new.
+	self assert: (class parseTreeFor: #foo1) = (RBParser parseMethod: 'foo1 | rule | 	rule := RBParseTreeRewriter new.
 	rule addSearch: ''super `@message: ``@args''
 				-> (
 					[:aNode | 
