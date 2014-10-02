@@ -1,3 +1,4 @@
 showHierarchy: aBoolean
 
-	self showPackages: aBoolean not.
+	showHierarchy := aBoolean.
+	self announcer announce: ( NautilusShowPackagesChanged boolean: aBoolean not )

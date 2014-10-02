@@ -1,18 +1,18 @@
-showPackages: aBoolean
+showHierarchy: aBoolean
 	self okToChange ifFalse: [ ^ nil ].
 
-	self packageWidget enabled: aBoolean.
-	aBoolean ifFalse: [ self basicShowHierarchy ].
+	self packageWidget enabled: aBoolean not.
+	aBoolean ifTrue: [ self basicShowHierarchy ].
 		
 	self resetPackageGroupsList.
 	self resetClassesList.
 	
-	self classWidget showHierarchy: aBoolean not.
+	self classWidget showHierarchy: aBoolean.
 	"If showPackages false(Hierarchy)-->true(Flat) then selected package needs to synch to that of selected class"
-	(aBoolean and: [ self model showPackages not]) 
+	(aBoolean not and: [ self model showHierarchy]) 
 		ifTrue: [
 			self selectPackageFor: self selectedClass ].
-	self model showHierarchy: aBoolean not.
+	self model showHierarchy: aBoolean.
 
 	self changed: #groupsButtonLabel.
 	self updateClassView.

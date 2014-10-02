@@ -1,3 +1,0 @@
-showPackages: anObject
-	
-	showPackages := anObject

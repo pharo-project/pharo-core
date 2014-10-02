@@ -2,7 +2,7 @@ register
 	"Set up dependencies"
 	
 	MBConfigurationRoot current announcer weak
-		on: MBConfigurationInfoCreated send: #refresh to: self;
-		on: MBConfigurationInfoChanged send: #refresh to: self;
-		on: MBConfigurationInfoDeleted send: #refresh to: self;
-		on: MBInfoListChanged send: #refresh to: self.
+		when: MBConfigurationInfoCreated send: #refresh to: self;
+		when: MBConfigurationInfoChanged send: #refresh to: self;
+		when: MBConfigurationInfoDeleted send: #refresh to: self;
+		when: MBInfoListChanged send: #refresh to: self.

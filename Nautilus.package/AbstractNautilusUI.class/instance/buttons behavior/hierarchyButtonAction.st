@@ -2,5 +2,5 @@ hierarchyButtonAction
 
 	self hierarchyButtonEnabled
 		ifTrue: [ 
-			self toggleShowPackages.
+			self toggleShowHierarchy.
 			self changed: #hierarchyButtonEnabled. ]

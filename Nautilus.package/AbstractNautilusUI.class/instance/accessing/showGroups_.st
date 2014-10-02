@@ -18,7 +18,7 @@ showGroups: aBoolean
 	
 	self resetPackageGroupsList.
 	self showHierarchy 
-		ifTrue: [ self showPackagesSilently: true ].
+		ifTrue: [ self showHierarchySilently: false ].
 	self selectedGroup
 		ifNil: [ self selectedClass: nil ]
 		ifNotNil: [:group |

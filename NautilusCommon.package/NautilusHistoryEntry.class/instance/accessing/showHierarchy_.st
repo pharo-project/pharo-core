@@ -1,3 +1,3 @@
 showHierarchy: anObject
 	
-		self showPackages: anObject not
+		showHierarchy:= anObject

@@ -6,7 +6,7 @@ project: anMTProject
 			projectList roots: #() ]
 		ifNotNil: [ 
 			project announcer weak 
-				on: MTProjectModelChanged
+				when: MTProjectModelChanged
 				send:  #refreshGroups
 				to:  self.
 			groupList roots: project groups.

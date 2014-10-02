@@ -3,6 +3,6 @@ project: anMTProject
 	packagesList roots: self packages.
 	project ifNotNil: 
 		[ project announcer weak 
-			on: MTProjectModelChanged
+			when: MTProjectModelChanged
 			send: #refreshPackages
 			to: self ].
