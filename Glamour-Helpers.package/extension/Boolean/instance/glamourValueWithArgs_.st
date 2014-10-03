@@ -1,3 +1,0 @@
-glamourValueWithArgs: anArray 
-	 
-	^self

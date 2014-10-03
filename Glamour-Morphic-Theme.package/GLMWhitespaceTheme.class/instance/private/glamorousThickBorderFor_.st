@@ -5,7 +5,8 @@ glamorousThickBorderFor: aWindow
 	Otherwise, we choose the desired color"
 	desiredColor := 
 		(aWindow borderColor isNil or: [
-			aWindow borderColor = Color lightGray])
+			aWindow borderColor isColor not or: [ "Prevent crashes for #raised or #inset borders"
+				aWindow borderColor = Color lightGray]])
 							ifTrue: [ self glamorousDarkBaseColorFor: aWindow ]
 							ifFalse: [ aWindow borderColor ].
 	aStyle := SimpleBorder new
