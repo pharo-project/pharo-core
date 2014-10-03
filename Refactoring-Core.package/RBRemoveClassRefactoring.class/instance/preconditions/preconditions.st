@@ -13,9 +13,7 @@ preconditions
 								errorBlock: 
 										[self openBrowserOn: (RBBrowserEnvironment new 
 													referencesTo: (Smalltalk globals associationAt: each ifAbsent: [each]))];
-								yourself) 
-							& ((RBCondition hasSubclasses: aClass) not 
-									| ((RBCondition isEmptyClass: aClass) 
-											& ((RBCondition withBlock: [aClass superclass notNil])
+								yourself)
+										& ((RBCondition withBlock: [aClass superclass notNil])
 													errorMacro: 'Cannot remove top level class<n>when it has subclasses';
-													yourself))))]
+													yourself))]

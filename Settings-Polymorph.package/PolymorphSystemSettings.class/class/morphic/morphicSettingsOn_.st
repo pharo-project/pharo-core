@@ -35,9 +35,4 @@ morphicSettingsOn: aBuilder
 			(aBuilder setting: #easySelectingWorld)
 				label: 'Easy selection' translated;
 				target: WorldState;
-				description: 'If true, select multiple Morphs in the world by dragging a selection box around them.' translated.
-			(aBuilder setting: #usePolymorphDiffMorph)
-				label: 'Use Polymorph DiffMorph' translated;
-				target: self;
-				default: true ;
-				description: 'If true,  whenever requested the Polymorph DiffMorph will be used for comparison of two methods' translated ].	 
+				description: 'If true, select multiple Morphs in the world by dragging a selection box around them.' translated]

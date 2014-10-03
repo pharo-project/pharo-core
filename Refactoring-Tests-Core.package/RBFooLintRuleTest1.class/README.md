@@ -1,0 +1,1 @@
+A RBFooLintRuleTest1 is xxxxxxxxx.

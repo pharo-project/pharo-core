@@ -5,7 +5,7 @@ openComparisonFrom: targetMethodSource
 					labeled: aLabel 
 					inWindowLabeled: aWindowLabel 
 	| diffBuilder difference win |
-	PolymorphSystemSettings usePolymorphDiffMorph 
+	PSMCPatchMorph usedByDefault 
 		ifTrue: [ ^ self openPolymorphComparisonFrom: originalMethodSource 
 					to: targetMethodSource
 					belongingTo: aClass

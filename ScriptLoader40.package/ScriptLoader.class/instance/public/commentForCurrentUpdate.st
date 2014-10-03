@@ -1,12 +1,6 @@
 commentForCurrentUpdate
- ^ '13718 Failing test: RBExtractMethodTest>>#testExtractMethodThatMovesTemporaryVariable 
-	https://pharo.fogbugz.com/f/cases/13718
+ ^ '13719 Failing test: RBRemoveClassTest>>#testRemoveClass
+	https://pharo.fogbugz.com/f/cases/13719
 
-13222 HDLintReport generates invalid output
-	https://pharo.fogbugz.com/f/cases/13222
-
-12774 DialogGroupAdderUI "item to add" list should be sorted, has superfluous periods after class names
-	https://pharo.fogbugz.com/f/cases/12774
-
-14134 ecompletion raises DNU for some input
-	https://pharo.fogbugz.com/f/cases/14134'
+14144 unify #usePolymorphDiffMorph and #polymorphDiffToolsUsedByDefault
+	https://pharo.fogbugz.com/f/cases/14144'
