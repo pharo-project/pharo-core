@@ -4,7 +4,8 @@ decompile: aCompiledMethod
 	scopeStack := Stack new.
 	self pushScope: #() numArgs: aCompiledMethod numArgs.
 	irBuilder irPrimitive: aCompiledMethod irPrimitive.
-	irBuilder properties: aCompiledMethod properties copy.
+	
+	aCompiledMethod hasProperties ifTrue: [irBuilder properties: aCompiledMethod properties copy].
 	irBuilder numArgs: aCompiledMethod numArgs.
 	irBuilder addTemps: self scope args.
 	aCompiledMethod isQuick
