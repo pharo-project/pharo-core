@@ -1,6 +1,6 @@
 configurationListMenu: aMenu
 	aMenu target: self.
-	aMenu title:  'Configuration'.
+	aMenu addTitle:  'Configuration'.
 	self selectedConfiguration ifNotNil: [ 
 		
 		aMenu add: 'Install Stable Version' action: #installConfiguration.

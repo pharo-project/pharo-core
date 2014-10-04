@@ -1,7 +1,7 @@
 roundedCorners
 	"Return a list of those corners to round"
 	self wasActivatedFromDockingBar
-		ifTrue: [""
+		ifTrue: [
 			activatorDockingBar isFloating
 				ifTrue: [^ #(2 3 )].
 			activatorDockingBar isAdheringToTop

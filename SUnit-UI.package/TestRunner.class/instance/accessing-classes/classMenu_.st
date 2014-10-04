@@ -1,6 +1,6 @@
 classMenu: aMenu
 	^ aMenu
-		title: 'Classes';
+		addTitle: 'Classes';
 		add: 'Browse' action: #browseClass;
 		addLine;
 		add: 'Select all' action: #selectAllClasses;

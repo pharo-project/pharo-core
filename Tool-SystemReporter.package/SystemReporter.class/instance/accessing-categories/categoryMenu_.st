@@ -1,6 +1,6 @@
 categoryMenu: aMenu
 	^ aMenu
-		title: 'Categories' translated;
+		addTitle: 'Categories' translated;
 		add: 'Select all' translated action: #selectAllCategories;
 		add: 'Select none' translated action: #selectNoCategories;
 		addLine;

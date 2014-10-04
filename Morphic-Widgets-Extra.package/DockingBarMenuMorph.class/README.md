@@ -1,0 +1,1 @@
+A DockingBarMenuMorph is xxxxxxxxx.Instance Variables	activatorDockingBar:		<Object>activatorDockingBar	- xxxxx

@@ -40,16 +40,12 @@ exampleWithMenu
 					]];
 					
 				yourself);
-		yourself.
-		
+		yourself.	
 	group2 addMenuItem: item21.
 	group2 addMenuItem: item22.
-
 	menu addMenuGroup: group1.
 	menu addMenuGroup: group2.
-
-	menu title: 'Test'.
-
+	menu addTitle: 'Test'.
 	model := NewListModel new.
 	model menu: menu.
 	model openWithSpec
