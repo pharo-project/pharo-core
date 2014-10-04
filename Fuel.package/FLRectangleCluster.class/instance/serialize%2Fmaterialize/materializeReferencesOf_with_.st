@@ -1,6 +1,5 @@
 materializeReferencesOf: aRectangle with: aDecoder
 		
 		aRectangle 
-			setPoint: aDecoder nextEncodedReference @ aDecoder nextEncodedReference	
-		 	point: aDecoder nextEncodedReference @ aDecoder nextEncodedReference.	
-	 
+			fuelSetOrigin: aDecoder nextEncodedReference @ aDecoder nextEncodedReference	
+		 	corner: aDecoder nextEncodedReference @ aDecoder nextEncodedReference
