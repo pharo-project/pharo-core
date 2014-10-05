@@ -6,5 +6,8 @@ sharedPoolsString
 			do: [ :each |
 				stream nextPutAll: (self environment 
 					keyAtIdentityValue: each 
-					ifAbsent: [ 'private' ]) ]
+					ifAbsent: [ 
+						each isObsolete
+							ifTrue: [ each name ] "obsolete classes should be visible"
+							ifFalse: [ 'private' ] ]) ] "if class is from different environment, mark it as private"
 			separatedBy: [ stream space ] ]

@@ -1,5 +1,5 @@
 TestCase subclass: #IVsAndClassVarNamesConflictTest
-	instanceVariableNames: 'class className'
+	instanceVariableNames: 'classFactory'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'KernelTests-Classes'

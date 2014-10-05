@@ -1,11 +1,11 @@
 testOneCanProceedWhenIntroducingCapitalizedInstanceVariables
+	| class |
 	[ 
-	Object
-		subclass: className
-		instanceVariableNames: 'X Y'
-		classVariableNames: ''
-		poolDictionaries: ''
-		category: self class category ]
+		class := classFactory
+			newSubclassOf: classFactory defaultSuperclass
+			instanceVariableNames: 'X Y'
+			classVariableNames: ''
+	]
 		on: Exception
 		do: [ :ex | ex resume ].
-	self assert: (Smalltalk keys includes: className)
+	self assert: (Smalltalk keys includes: class name)

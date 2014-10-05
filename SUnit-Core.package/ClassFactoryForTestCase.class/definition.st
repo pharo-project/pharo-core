@@ -1,5 +1,5 @@
 Object subclass: #ClassFactoryForTestCase
 	instanceVariableNames: 'createdClasses createdTraits createdSilently'
-	classVariableNames: ''
+	classVariableNames: 'Counter'
 	poolDictionaries: ''
 	category: 'SUnit-Core-Extensions'

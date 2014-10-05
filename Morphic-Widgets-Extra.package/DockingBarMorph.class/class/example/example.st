@@ -1,6 +1,6 @@
 example
 	"self example"
-	<widgetExample>
+	<exampleWidget>
 	
 	DockingBarMorph new 
 		addMorph: (SimpleButtonMorph new

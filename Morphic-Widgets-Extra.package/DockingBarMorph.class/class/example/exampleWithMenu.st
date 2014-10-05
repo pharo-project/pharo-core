@@ -1,6 +1,6 @@
 exampleWithMenu
 	"self exampleWithMenu"
-	<widgetExample>
+	<exampleWidget>
 	
 	DockingBarMorph new 
 		add: 'Foo' 

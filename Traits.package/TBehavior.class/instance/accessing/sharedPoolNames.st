@@ -1,2 +1,5 @@
 sharedPoolNames
-	^ self sharedPools collect: [:ea | self environment keyAtIdentityValue: ea]
+	^ self sharedPools collect: [:ea |
+		ea isObsolete
+			ifTrue: [ ea name ]
+			ifFalse: [ self environment keyAtIdentityValue: ea ] ]

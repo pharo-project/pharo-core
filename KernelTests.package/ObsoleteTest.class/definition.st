@@ -1,5 +1,5 @@
 TestCase subclass: #ObsoleteTest
-	instanceVariableNames: ''
+	instanceVariableNames: 'classFactory'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'KernelTests-Classes'
