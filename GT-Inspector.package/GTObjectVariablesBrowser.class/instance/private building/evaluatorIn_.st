@@ -10,6 +10,6 @@ evaluatorIn: composite
 		selectionAct: [ :text :object |
 				GTSnippets snippetAt: object class put: (self stringWithoutInitialCommentFrom: text text asString).
 				text evaluateSelectionAndDo: [ :result | text selection: result ] ]
-			on: $o
-			entitled: 'Do it and open (o)';
+			on: $g
+			entitled: 'Do it and go';
 		installDefaultSelectionActions

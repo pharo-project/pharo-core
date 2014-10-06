@@ -1,3 +1,4 @@
+"protocol: rendering"
 defaultSelectionActions
 
 	^ { 
@@ -31,5 +32,14 @@ defaultSelectionActions
 				title: 'Profile it'; 
 				action: [ :aPresentation |
 					aPresentation profileSelection ]; 
+				yourself.
+		(GLMGenericAction new) 
+				title: 'Extended string search'; 
+				action: [ :aPresentation |
+					aPresentation selectLine.
+					self systemNavigation 
+						browseMethodsWithString: aPresentation selectedText
+						matchCase: false ]; 
+				shortcut: $E;
 				yourself
 		 }

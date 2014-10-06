@@ -1,9 +1,3 @@
 commentForCurrentUpdate
- ^ '14161 Replace Announcer>>#on:send:to:s senders in Morphic-Widgets-Windows
-	https://pharo.fogbugz.com/f/cases/14161
-
-14169 There are undeclared in Zinc in Pharo4
-	https://pharo.fogbugz.com/f/cases/14169
-
-14146 Disable "store into argument"-exception in non-interactive mode
-	https://pharo.fogbugz.com/f/cases/14146'
+ ^ '14154 GTools version 1.0.5
+	https://pharo.fogbugz.com/f/cases/14154'
