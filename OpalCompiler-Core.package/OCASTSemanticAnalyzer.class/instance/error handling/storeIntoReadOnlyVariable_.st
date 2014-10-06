@@ -1,6 +1,6 @@
-storeIntoSpecialVariable: variableNode
+storeIntoReadOnlyVariable: variableNode
 
-	^ OCStoreIntoSpecialVariableError new
+	^ OCStoreIntoReadOnlyVariableError new
 		node: variableNode;
 		compilationContext: compilationContext;
 		messageText: 'Cannot store into';

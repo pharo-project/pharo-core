@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '13905 entering non existing issue numbers in slice maker 
-	https://pharo.fogbugz.com/f/cases/13905
+ ^ '14161 Replace Announcer>>#on:send:to:s senders in Morphic-Widgets-Windows
+	https://pharo.fogbugz.com/f/cases/14161
 
-14164 using exampleWidget and not widgetExample
-	https://pharo.fogbugz.com/f/cases/14164
+14169 There are undeclared in Zinc in Pharo4
+	https://pharo.fogbugz.com/f/cases/14169
 
-13088 Deleting class that is used in pool dictionaries leaves a "private" class pool entry
-	https://pharo.fogbugz.com/f/cases/13088'
+14146 Disable "store into argument"-exception in non-interactive mode
+	https://pharo.fogbugz.com/f/cases/14146'

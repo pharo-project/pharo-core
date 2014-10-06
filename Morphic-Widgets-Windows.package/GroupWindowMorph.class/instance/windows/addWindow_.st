@@ -16,6 +16,6 @@ addWindow: aSystemWindow
 		to: self
 		withValue: aSystemWindow.
 	aSystemWindow announcer
-		on: WindowLabelled 
+		when: WindowLabelled 
 		send: #onWindowLabelChanged:
 		to: self
