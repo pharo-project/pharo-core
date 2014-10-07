@@ -1,2 +1,2 @@
 registerRequestHandlers
-	self model announcer on: MorphTreeChangeRequest send: #changeRequest: to: self.
+	self model announcer when: MorphTreeChangeRequest send: #changeRequest: to: self.

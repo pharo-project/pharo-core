@@ -6,7 +6,7 @@ lookupVariableForWrite: aVariableNode
 
 	var ifNil: [^var].
 	var isSpecialVariable ifTrue: [ self storeIntoSpecialVariable: aVariableNode ].
-	(self checkVariableIsWritable: var) ifFalse: [ self storeIntoReadOnlyVariable: aVariableNode ].
+	var isWritable ifFalse: [ self storeIntoReadOnlyVariable: aVariableNode ].
 	
 	var isTemp ifTrue: [
 		(var scope outerNotOptimizedScope ~= scope outerNotOptimizedScope) "only escaping when they will end up in different closures"
