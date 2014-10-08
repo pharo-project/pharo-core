@@ -1,2 +1,2 @@
 encoding: encoding
-	encoder := ZnCharacterEncoder newForEncoding: encoding
+	encoder := encoding asZnCharacterEncoder

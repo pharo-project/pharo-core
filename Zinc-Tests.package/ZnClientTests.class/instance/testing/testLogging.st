@@ -7,7 +7,7 @@ testLogging
 	(client := ZnClient new)
 		clientId: #C1;
 		beOneShot.
-	client	get: 'http://zn.stfx.eu/zn/small.html'.
+	client	get: self smallHtmlUrl.
 	client close.
 	ZnLogEvent announcer 
 		unsubscribe: logEventCollection.

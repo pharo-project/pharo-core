@@ -1,2 +1,2 @@
 latin1
-	^ self newForEncoding: #latin1
+	^ self newForEncoding: 'latin1'

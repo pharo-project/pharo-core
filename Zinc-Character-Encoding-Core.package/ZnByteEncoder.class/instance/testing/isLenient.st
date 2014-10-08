@@ -1,0 +1,2 @@
+isLenient
+	^ strict not

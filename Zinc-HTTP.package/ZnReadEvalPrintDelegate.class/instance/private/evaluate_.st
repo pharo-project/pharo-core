@@ -4,7 +4,7 @@ evaluate: string
 		[ 	| compiler result |
 			compiler := [ self class compiler ] 
 								on: MessageNotUnderstood 
-								do: [ Compiler ].		
+								do: [ Smalltalk at: #Compiler "for Pharo 2.0" ].		
 			result := compiler evaluate: string. 
 			out print: result; cr ]
 			on: Error, ParserNotification

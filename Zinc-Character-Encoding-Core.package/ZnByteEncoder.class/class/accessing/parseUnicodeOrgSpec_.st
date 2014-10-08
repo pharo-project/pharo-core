@@ -9,7 +9,7 @@ parseUnicodeOrgSpec: url
 			ifFalse: [ | tokens hexReader |
 				hexReader := [ :string | Integer readFrom: (string readStream skip: 2; yourself) base: 16 ].
 				tokens := each findTokens: String tab. 
-				(tokens last = '<control>' or: [ tokens last = '#UNDEFINED' ]) ifFalse: [
+				(tokens size < 3 or: [ tokens last = '<control>' or: [ tokens last = '#UNDEFINED' ] ]) ifFalse: [
 					mapping
 						at: (hexReader value: tokens first)
 						put: (hexReader value: tokens second) ] ] ].

@@ -1,6 +1,6 @@
 testGetSmallHTMLDocument
 	| url response |
-	url := 'http://zn.stfx.eu/zn/small.html'.
+	url := self smallHtmlUrl.
 	response := ZnEasy get: url.
 	self assert: (response headers contentType = ZnMimeType textHtml).
 	self assert: (response statusLine code = 200).

@@ -3,4 +3,4 @@ handlesEncoding: string
 	Note that in principle I could handle latin1 (iso-8859-1), although that is not 
 	completely correct. To get maximum efficiency, it remains an option."
 	
-	^ #( 'ascii' ) includes: string
+	^ (self canonicalEncodingIdentifier: string) = 'ascii'

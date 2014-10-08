@@ -3,7 +3,7 @@ newForEncoding: string
 	We use our precomputed ByteTextConverters tables."
 
 	| tables |
-	tables := ByteTextConverters at: string.
+	tables := ByteTextConverters at: (self canonicalEncodingIdentifier: string).
 	^ self new
 		identifier: string;
 		byteToUnicode: tables first;

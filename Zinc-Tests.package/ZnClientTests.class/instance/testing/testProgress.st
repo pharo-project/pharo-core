@@ -16,5 +16,5 @@ testProgress
 			ZnClient new
 				beOneShot;
 				signalProgress: true;
-				get: 'http://zn.stfx.eu/zn/small.html' ] 
+				get: self smallHtmlUrl ] 
 		raise: HTTPProgress
