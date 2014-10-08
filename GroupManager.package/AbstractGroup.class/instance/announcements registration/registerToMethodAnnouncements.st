@@ -1,5 +1,5 @@
 registerToMethodAnnouncements
 	
 	SystemAnnouncer uniqueInstance weak
-		on: MethodModified send: #methodModified: to: self;
-		on: MethodRemoved send: #methodRemoved: to: self.
+		when: MethodModified send: #methodModified: to: self;
+		when: MethodRemoved send: #methodRemoved: to: self.

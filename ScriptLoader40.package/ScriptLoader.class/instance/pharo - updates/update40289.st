@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '14191 Add #deselectAll to TreeModel
+update40289
+	"self new update40289"
+	self withUpdateLog: '14191 Add #deselectAll to TreeModel
 	https://pharo.fogbugz.com/f/cases/14191
 
 14188 DNU when moving a method to a package
@@ -15,4 +16,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/14185
 
 14186 remove AllowBlockArgumentAssignment from CCompilerContext
-	https://pharo.fogbugz.com/f/cases/14186'
+	https://pharo.fogbugz.com/f/cases/14186'.
+	self loadTogether: self script289 merge: false.
+	self flushCaches.

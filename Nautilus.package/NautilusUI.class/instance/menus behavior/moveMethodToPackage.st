@@ -6,5 +6,5 @@ moveMethodToPackage
 	foundPackage := SearchFacade rPackageSearch chooseFromOwner: self window.
 	foundPackage ifNil: [ ^self ].
 	self selectedMethods do: [ :each | self moveMethod: each inPackage: foundPackage ].
-	self update.
+	self updateCategoryAndMethodList.
 		

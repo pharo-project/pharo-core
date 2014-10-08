@@ -4,7 +4,7 @@ installSystemNotifications
 	SystemAnnouncer uniqueInstance unsubscribe: self.
 	
 	SystemAnnouncer uniqueInstance weak
-			on: ClassRemoved send: #classRemovedEventOccurs: to: self;
-			on: MethodRemoved send: #removedEventOccurs: to: self;
-			on: MethodAdded send: #addedEventOccurs: to: self;
-			on: MethodModified send: #modifiedEventOccurs: to: self
+			when: ClassRemoved send: #classRemovedEventOccurs: to: self;
+			when: MethodRemoved send: #removedEventOccurs: to: self;
+			when: MethodAdded send: #addedEventOccurs: to: self;
+			when: MethodModified send: #modifiedEventOccurs: to: self
