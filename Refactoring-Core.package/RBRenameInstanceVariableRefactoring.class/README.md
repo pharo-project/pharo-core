@@ -1,1 +1,1 @@
-A RBRenameInstanceVariableRefactoring is xxxxxxxxx.Instance Variables	newName:		<Object>newName	- xxxxx
+A RBRenameInstanceVariableRefactoring is xxxxxxxxx.Instance Variables	browsedEnvironment:		<Object>	newName:		<Object>browsedEnvironment	- xxxxxnewName	- xxxxx

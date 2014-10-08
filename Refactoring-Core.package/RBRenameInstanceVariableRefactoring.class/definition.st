@@ -1,5 +1,5 @@
 RBVariableRefactoring subclass: #RBRenameInstanceVariableRefactoring
-	instanceVariableNames: 'newName'
+	instanceVariableNames: 'newName browsedEnvironment'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Refactoring-Core-Refactorings'

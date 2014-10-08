@@ -10,8 +10,5 @@ testPointNearestTo
 	self assert: 15 @ 10 equals: (rectangle pointNearestTo: 15 @ 13).
 	self assert: 20 @ 15 equals: (rectangle pointNearestTo: 17 @ 15).
 	self assert: 15 @ 20 equals: (rectangle pointNearestTo: 15 @ 18).
-	
-	"rectangle is rectangular area of screen implies negalive coordinates not allowed"
 	negativeRectangle := -10 @ -10 corner: -20 @ -20.
-	self assert: -20 @ -20 equals: (negativeRectangle pointNearestTo: 0@ 0).
-	"if negative coordinates allowed should give -10@-10"
+	self assert: -10 @ -10 equals: (negativeRectangle pointNearestTo: 0@0).

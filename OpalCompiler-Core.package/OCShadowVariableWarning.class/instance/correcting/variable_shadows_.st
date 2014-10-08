@@ -1,5 +1,5 @@
 variable: varNode shadows: semVar
-	self interactive
+	compilationContext interactive
 		ifTrue: [ 
 			OCSemanticError new
 				node: node;
