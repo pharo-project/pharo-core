@@ -1,5 +1,5 @@
 gtInspectorPreviewIn: composite
-	<gtInspectorPresentationOrder: -10>
+	<gtInspectorPresentationOrder: 30>
 	composite morph
-		title: 'Preview';
+		title: 'Calendar';
 		morph: [ CalendarMorph on: self ]

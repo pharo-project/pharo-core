@@ -3,7 +3,7 @@ render: aPresentation
 	presentations := aPresentation matchingPresentations.
 	presentations isEmpty
 		ifTrue: [ ^ GLMMorphic emptyMorph ].
-	(presentations size = 1 and: [ presentations first hasTitleIcon not ])
+	(presentations size = 1 and: [ presentations first hasTitle not ] )
 		ifTrue: [ ^ self renderWithTitleOrNil: presentations first ].
 	tabs := LazyTabGroupMorph new.
 	tabs
@@ -28,4 +28,5 @@ render: aPresentation
 	tabs announcer suspendAllWhile: [ tabs selectedPageIndex: index ].
 	aPresentation on: GLMContextChanged send: #actOnContextChanged: to: self.
 	aPresentation on: GLMPresentationUpdated send: #actOnPresentationUpdated: to: self.
+	aPresentation on: GLMPresentationToolbarUpdated send: #actOnPresentationToolbarUpdated: to: self.
 	^ tabs

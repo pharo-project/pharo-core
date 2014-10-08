@@ -21,8 +21,15 @@ popPane
 			selectedPageIndex := 0.
 		].
 		
-		scrollTo := ((pagesCount = self firstVisiblePageIndex) & (pagesCount > self numberOfVisiblePages)).
+		selectedPageIndex > pagesCount ifTrue: [
+			self selectedPageIndex: pagesCount.
+		].
+	
+		scrollTo := ((pagesCount = firstVisiblePageIndex) & (pagesCount > self numberOfVisiblePages)).
 		self notifyPagePoped.
+		
+		
+
 	].
 
 	self invariant.

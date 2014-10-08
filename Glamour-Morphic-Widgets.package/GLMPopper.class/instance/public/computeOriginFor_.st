@@ -1,4 +1,4 @@
-computeOriginFor: aMorph	
+computeOriginFor: aMorph
 	| desiredTop desiredLeft |
 	"self halt."
 	aMorph textArea scrollSelectionIntoView: nil.

@@ -1,1 +1,1 @@
-A GLMInputPresentation is xxxxxxxxx.
+A GLMInputPresentation should display an simple input text.Right now this functionality is not supported by the morphic renderer.

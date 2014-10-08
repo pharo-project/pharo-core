@@ -2,8 +2,6 @@ selectedPageIndex: anIndex
 	| normalizedIndex |
 	"changes current selected page and scrolls to it if necessary. Also if possible re-focused available morph"
 	
-	self invariant.
-	
 	normalizedIndex := self normalizePaneIndex: anIndex.
 	
 	(self isPaneVisible: normalizedIndex) ifFalse: [

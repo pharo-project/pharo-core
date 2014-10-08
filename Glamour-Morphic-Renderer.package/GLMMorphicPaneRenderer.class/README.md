@@ -1,1 +1,1 @@
-A GLMMorphicPaneRenderer is xxxxxxxxx.Instance Variables	container:		<Object>container	- xxxxx
+A GLMMorphicPaneRenderer is xxxxxxxxx.Instance Variables	container:		<Object>	contentMorph:		<Object>container	- xxxxxcontentMorph	- xxxxx

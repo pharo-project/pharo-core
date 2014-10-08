@@ -5,10 +5,14 @@ compose
 		browser fixedSizePanes: self class numberOfInspectorPanes.
 		browser show: [ :a :each |
 			a title: [ self printObjectAsAnItem: each ].
-			a dynamicActions: [ each gtInspectorActions ].
-			a dynamic display: [ :x | 
-				(GLMCompositePresentation new with: [:d | 
-					each 
-						gtInspectorPresentationsIn: d 
-						inContext: self ])
-						startOn: x ] ] ]
+			a dynamicActions: [ :aPresentation | 
+				each gtInspectorActions asOrderedCollection", (self globalActionsFor: aPresentation)" ].
+			a dynamic 
+				display: [ :x | 
+					(GLMCompositePresentation new with: [:d | 
+						each 
+							gtInspectorPresentationsIn: d 
+							inContext: self ])
+							startOn: x ] ] ].
+			
+	self first on: GLMPaneAdded send: #actOnPaneAdded: to: self

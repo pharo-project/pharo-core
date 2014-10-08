@@ -7,7 +7,7 @@ codeIn: a
 				text selectionInterval: (1 to: text text size).
 				text evaluateSelectionAndDo: [ :result | text selection: result ]  ]
 			icon: GLMUIThemeExtraIcons glamorousPlay
-			on: $G
+"			on: $G"
 			entitled: 'Do it all and go';
 		selectionAct: [ :text :page |
 				page content: text text.

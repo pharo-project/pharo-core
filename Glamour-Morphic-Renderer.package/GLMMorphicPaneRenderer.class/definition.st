@@ -1,5 +1,5 @@
 GLMMorphicWidgetRenderer subclass: #GLMMorphicPaneRenderer
-	instanceVariableNames: 'container'
+	instanceVariableNames: 'container contentMorph'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Glamour-Morphic-Renderer'

@@ -2,4 +2,4 @@ Announcement subclass: #GLMPaneAnnouncement
 	instanceVariableNames: 'pane browser position'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Glamour-Browsers'
+	category: 'Glamour-Browsers-Announcements'

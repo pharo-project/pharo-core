@@ -1,3 +1,2 @@
 firstVisiblePageIndex
-	self invariant.
 	^ firstVisiblePageIndex

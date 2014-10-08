@@ -2,4 +2,4 @@ GLMPaneAnnouncement subclass: #GLMPaneSelected
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Glamour-Browsers'
+	category: 'Glamour-Browsers-Announcements'
