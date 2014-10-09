@@ -1,6 +1,6 @@
 run
 	rule resetResult.
-	environment allClassesAndTraits
+	environment classesAndTraits
 		do: [ :class |
 			self checkClass: class.
 			self checkMethodsForClass: class.

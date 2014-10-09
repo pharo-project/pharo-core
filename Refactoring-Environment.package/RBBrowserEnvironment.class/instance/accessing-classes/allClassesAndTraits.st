@@ -1,8 +1,8 @@
 allClassesAndTraits
 	" compatibility method with SystemDictionary "
 	
-	| classesAndTraits |
-	classesAndTraits := IdentitySet new: 4096.
-	self classesAndTraitsDo: [ :each | 
-		classesAndTraits add: each theNonMetaClass ].
-	^ classesAndTraits asArray
+	| allClassesAndTraits |
+	allClassesAndTraits := OrderedCollection new: 4096.
+	self allClassesAndTraitsDo: [ :each | 
+		allClassesAndTraits add: each ].
+	^ allClassesAndTraits asArray

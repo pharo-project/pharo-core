@@ -1,7 +1,8 @@
 privateReferencesTo: aSelector 
 	| methods |
 	methods := OrderedCollection new.
-	self allClassesDo: [ :class |
+	self allBehaviorsDo: [ :class |
 		(class whichSelectorsReferToSymbol: aSelector)
-			do: [ :selector | methods add: (class methodFor: selector) ] ].
+			do: [ :selector |
+				methods add: (class methodFor: selector) ] ].
 	^ methods
