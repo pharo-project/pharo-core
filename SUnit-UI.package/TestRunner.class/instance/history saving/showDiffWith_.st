@@ -16,5 +16,5 @@ showDiffWith: aTestResult
 		diff third do: [:s| str nextPutAll: s printString, ' '].
 		str cr].
 	
-	Smalltalk tools workspace new contents: string; openLabel: 'SUnit Progress'
+	UIManager default edit: string label: 'SUnit Progress'. 
 	

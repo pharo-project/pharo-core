@@ -42,6 +42,6 @@ showProgress
 		(d at: #errors) do: [:s| str nextPutAll: s printString, ' '].
 		str cr].
 	
-	Smalltalk tools workspace new contents: string; openLabel: 'SUnit Progress' string.
+	UIManager default edit: string label: 'SUnit Progress'. 
 
 	

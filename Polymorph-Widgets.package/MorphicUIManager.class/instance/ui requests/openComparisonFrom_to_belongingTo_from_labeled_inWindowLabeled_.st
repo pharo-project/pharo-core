@@ -4,7 +4,7 @@ openComparisonFrom: targetMethodSource
 					from: aChange 
 					labeled: aLabel 
 					inWindowLabeled: aWindowLabel 
-	| diffBuilder difference win |
+	| diffBuilder difference  |
 	PSMCPatchMorph usedByDefault 
 		ifTrue: [ ^ self openPolymorphComparisonFrom: originalMethodSource 
 					to: targetMethodSource
@@ -16,7 +16,5 @@ openComparisonFrom: targetMethodSource
 			from: originalMethodSource 
 			to: targetMethodSource.
 	difference := diffBuilder buildDisplayPatch.
-	win := Smalltalk tools workspace openContents: difference.
-	win label: aLabel.
-					
+	self edit: difference label: aLabel.
 				
