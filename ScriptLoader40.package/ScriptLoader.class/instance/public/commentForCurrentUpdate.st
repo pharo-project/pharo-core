@@ -1,3 +1,6 @@
 commentForCurrentUpdate
- ^ '14098 allClassesAndTraits significantly different from allClassesAndTraitsDo:
-	https://pharo.fogbugz.com/f/cases/14098'
+ ^ '11243 Class>>copy does not preserve layout
+	https://pharo.fogbugz.com/f/cases/11243
+
+14099 SmalllintManifestChecker duplicates RBSmalllintChecker>>#run
+	https://pharo.fogbugz.com/f/cases/14099'

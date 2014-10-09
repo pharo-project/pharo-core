@@ -14,4 +14,5 @@ copy
 		sharedPools: sharedPools copy.
 	Class instSize+1 to: self class instSize do:
 		[:offset | newClass instVarAt: offset put: (self instVarAt: offset)].
+	newClass layout:  (layout copy host: newClass).
 	^ newClass
