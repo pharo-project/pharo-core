@@ -1,8 +1,8 @@
-checkClass: aContext
+checkClass: aClass
 	"The comparison between methods is made using the ast, this is better than comparing source code only since it does not take into account identations, extra parenthesis, etc"
 
 	| selectedClass |
-	selectedClass := aContext selectedClass.
+	selectedClass := aClass.
 	selectedClass
 		methodsDo: [ :method | 
 			| selector |

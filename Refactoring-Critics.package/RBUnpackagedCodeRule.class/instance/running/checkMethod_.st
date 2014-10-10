@@ -1,3 +1,3 @@
-checkMethod: aContext
-	(self packageSatisfying: [ :info | info includesMethod: aContext selector ofClass: aContext selectedClass ]) isNil
-		ifTrue: [ self result addClass: aContext selectedClass selector: aContext selector ]
+checkMethod: aMethod
+	(self packageSatisfying: [ :info | info includesMethod: aMethod selector ofClass: aMethod methodClass ]) isNil
+		ifTrue: [ self result addMethod: aMethod ]

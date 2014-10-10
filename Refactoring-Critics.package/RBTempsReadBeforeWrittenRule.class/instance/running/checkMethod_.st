@@ -1,7 +1,6 @@
-checkMethod: aContext 
-	(RBReadBeforeWrittenTester variablesReadBeforeWrittenIn: aContext compiledMethod parseTree) do: 
+checkMethod: aMethod 
+	(RBReadBeforeWrittenTester variablesReadBeforeWrittenIn: aMethod parseTree) do: 
 		[ :each | 
 		result 
-			addClass: aContext selectedClass
-			selector: aContext selector.
-		result addSearchString: each ]
+			addMethod: aMethod;
+			addSearchString: each ]

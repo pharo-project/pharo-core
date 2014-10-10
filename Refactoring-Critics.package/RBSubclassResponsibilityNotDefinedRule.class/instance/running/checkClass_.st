@@ -1,11 +1,11 @@
-checkClass: aContext 
-	(aContext selectedClass whichSelectorsReferTo: #subclassResponsibility) do: 
+checkClass: aClass 
+	(aClass whichSelectorsReferTo: #subclassResponsibility) do: 
 		[ :each | 
-		(aContext selectedClass withAllSubclasses 
+		(aClass withAllSubclasses 
 			detect: 
 				[ :class | 
-				class subclasses isEmpty and: [ (class whichClassIncludesSelector: each) == aContext selectedClass ] ]
+				class subclasses isEmpty and: [ (class whichClassIncludesSelector: each) == aClass ] ]
 			ifNone: [ nil ]) notNil ifTrue: 
 			[ result 
-				addClass: aContext selectedClass
+				addClass: aClass
 				selector: each ] ]

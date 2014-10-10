@@ -1,7 +1,7 @@
-checkClass: aContext
-	(aContext selectedClass isMeta or: [ aContext selectedClass inheritsFrom: TestCase ])
+checkClass: aClass
+	(aClass isMeta or: [ aClass inheritsFrom: TestCase ])
 		ifTrue: [ ^ self ].
-	aContext selectedClass organization classComment isEmpty ifTrue: [ 
+	aClass organization classComment isEmpty ifTrue: [ 
 		result 
-			addClass: aContext selectedClass; 
-			addClass: aContext selectedClass class ]
+			addClass: aClass; 
+			addClass: aClass class ]

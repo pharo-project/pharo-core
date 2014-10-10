@@ -1,14 +1,14 @@
-checkClass: aContext 
+checkClass: aClass 
 	| definesVar class |
-	aContext selectedClass isMeta ifTrue: 
-		[ class := aContext selectedClass.
+	aClass isMeta ifTrue: 
+		[ class := aClass.
 		definesVar := false.
 		[ definesVar or: [ class isNil or: [ class isMeta not ] ] ] whileFalse: [
 			definesVar := class instVarNames isEmpty not
 				"TestCase defines Announcers but does not initialize it -> all tests are reported
 				so we exclude it here"
 				and: [ class ~= TestCase class
-				and: [ aContext selectedClass ~= TestCase ] ].
+				and: [ aClass ~= TestCase ] ].
 			class := class superclass ].
-		(definesVar and: [ (aContext selectedClass includesSelector: #initialize) not ]) ifTrue: [
-			result addClass: aContext selectedClass ] ]
+		(definesVar and: [ (aClass includesSelector: #initialize) not ]) ifTrue: [
+			result addClass: aClass ] ]

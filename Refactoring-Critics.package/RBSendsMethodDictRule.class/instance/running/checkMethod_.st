@@ -1,7 +1,8 @@
-checkMethod: aContext
-	({Behavior. ClassDescription. Class.TBehavior . TClassDescription . TApplyingOnClassSide } includes: aContext selectedClass)
+checkMethod: aMethod
+	({Behavior. ClassDescription. Class.TBehavior . TClassDescription . TApplyingOnClassSide } includes: aMethod methodClass)
 		ifTrue: [ ^ self ].
-	(aContext compiledMethod messages includes: #methodDict)
+	(aMethod messages includes: #methodDict)
 		ifTrue: [ 
-			result addClass: aContext selectedClass selector: aContext selector.
-			result addSearchString: 'methodDict' ]
+			result
+				addMethod: aMethod;
+				addSearchString: 'methodDict' ]

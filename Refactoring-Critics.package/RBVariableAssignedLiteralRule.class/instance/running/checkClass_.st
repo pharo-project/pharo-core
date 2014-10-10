@@ -1,7 +1,7 @@
-checkClass: aContext 
+checkClass: aClass 
 	| allSubclasses |
-	allSubclasses := aContext selectedClass withAllSubclasses.
-	aContext selectedClass instVarNames do: 
+	allSubclasses := aClass withAllSubclasses.
+	aClass instVarNames do: 
 		[ :each | 
 		| defClass selector |
 		(allSubclasses 
@@ -25,5 +25,5 @@ checkClass: aContext
 					executeTree: tree
 					initialAnswer: nil) == true ifTrue: 
 					[ result 
-						addClass: aContext selectedClass
+						addClass: aClass
 						instanceVariable: each ] ] ] ]

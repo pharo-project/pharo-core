@@ -1,8 +1,5 @@
-checkMethodsForClass: aClass 	
-	context selectedClass: aClass.
-	^environment 
-		selectorsForClass: aClass
+checkMethodsForClass: aClass
+	^ aClass methods
 		do: [:each | 
-			context selector: each.
-			rule checkMethod: context.
+			rule checkMethod: each.
 			methodBlock value]

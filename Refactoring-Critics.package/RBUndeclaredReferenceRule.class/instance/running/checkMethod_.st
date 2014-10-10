@@ -1,10 +1,9 @@
-checkMethod: aContext 
+checkMethod: aMethod 
 	
 	Undeclared associations
 		detect: [ :each |
-			aContext compiledMethod refersToLiteral: each ]
+			aMethod refersToLiteral: each ]
 		ifFound: [ :each | 
-			result addSearchString: each key.
-			result 
-				addClass: aContext selectedClass
-				selector: aContext selector ]
+			result
+				addSearchString: each key;
+				addMethod: aMethod ]

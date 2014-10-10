@@ -1,8 +1,5 @@
-checkMethod: aContext 
-	| method |
-	method := aContext compiledMethod.
-	((method refersToLiteral: trueBinding) or: [ method refersToLiteral: falseBinding ]) ifTrue: 
-		[ result 
-			addClass: aContext selectedClass
-			selector: aContext selector.
-		result searchStrings: #('True' 'False' ) ]
+checkMethod: aMethod 
+	((aMethod refersToLiteral: trueBinding) or: [ aMethod refersToLiteral: falseBinding ]) ifTrue: 
+		[ result
+			addMethod: aMethod;
+			searchStrings: #('True' 'False' ) ]

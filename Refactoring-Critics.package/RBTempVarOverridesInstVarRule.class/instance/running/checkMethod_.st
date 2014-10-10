@@ -1,9 +1,8 @@
-checkMethod: aContext 
-	vars := aContext instVarNames.
+checkMethod: aMethod 
+	vars := aMethod methodClass instVarNames.
 	(matcher 
-		executeTree: aContext compiledMethod parseTree
+		executeTree: aMethod parseTree
 		initialAnswer: false) ifTrue: 
 		[ result 
-			addClass: aContext selectedClass
-			selector: aContext selector.
-		result addSearchString: varName ]
+			addMethod: aMethod;
+		 	addSearchString: varName ]

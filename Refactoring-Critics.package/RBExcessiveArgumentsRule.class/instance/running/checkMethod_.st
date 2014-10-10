@@ -1,3 +1,3 @@
-checkMethod: aContext 
-	aContext selector numArgs >= self argumentsCount
-		ifTrue: [ result addClass: aContext selectedClass selector: aContext selector ]
+checkMethod: aMethod 
+	aMethod numArgs >= self argumentsCount
+		ifTrue: [ result addMethod: aMethod ]

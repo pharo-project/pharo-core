@@ -1,8 +1,7 @@
-checkMethod: aContext 
-	aContext compiledMethod parseTree allDefinedVariables do: 
+checkMethod: aMethod 
+	aMethod parseTree allDefinedVariables do: 
 		[ :each | 
 		each first isLowercase ifFalse: 
-			[ result 
-				addClass: aContext selectedClass
-				selector: aContext selector.
-			result addSearchString: each ] ]
+			[ result
+				addMethod: aMethod;
+				addSearchString: each ] ]

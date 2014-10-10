@@ -1,6 +1,6 @@
-checkClass: aContext 
-	aContext selectedClass instVarNames do: [ :each | 
+checkClass: aClass 
+	aClass instVarNames do: [ :each | 
 		each first isLowercase ifFalse: [
 			result 
-				addClass: aContext selectedClass
+				addClass: aClass
 				instanceVariable: each ] ]

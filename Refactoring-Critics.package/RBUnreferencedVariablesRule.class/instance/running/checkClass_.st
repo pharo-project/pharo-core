@@ -1,18 +1,18 @@
-checkClass: aContext 
+checkClass: aClass 
 	| allSubclasses |
-	allSubclasses := aContext selectedClass withAllSubclasses.
-	aContext selectedClass instVarNames do: 
+	allSubclasses := aClass withAllSubclasses.
+	aClass instVarNames do: 
 		[ :each | 
 		allSubclasses 
 			detect: [ :class | (class whichSelectorsAccess: each) isEmpty not ]
 			ifNone: 
 				[ result 
-					addClass: aContext selectedClass
+					addClass: aClass
 					instanceVariable: each ] ].
-	aContext selectedClass isMeta ifFalse: 
-		[ aContext selectedClass classPool associationsDo: 
+	aClass isMeta ifFalse: 
+		[ aClass classPool associationsDo: 
 			[ :each | 
 			(SystemNavigation default allCallsOn: each) ifEmpty: 
 				[ result 
-					addClass: aContext selectedClass
+					addClass: aClass
 					classVariable: each key ] ] ]

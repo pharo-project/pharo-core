@@ -1,6 +1,3 @@
-checkMethod: aContext 
-	(aContext compiledMethod allLiterals anySatisfy: [ :each | self doesLiteralArrayContainComma: each ]) 
-		ifTrue: [ 
-			result 
-				addClass: aContext selectedClass
-				selector: aContext selector ]
+checkMethod: aMethod 
+	(aMethod allLiterals anySatisfy: [ :each | self doesLiteralArrayContainComma: each ]) 
+		ifTrue: [ result addMethod: aMethod ]

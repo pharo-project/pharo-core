@@ -1,5 +1,5 @@
-checkMethod: aContext 
-	(self matcher canMatchMethod: aContext compiledMethod) 
+checkMethod: aMethod 
+	(self matcher canMatchMethod: aMethod) 
 		ifFalse: [ ^ self ].
-	(self matcher executeTree: aContext compiledMethod parseTree initialAnswer: nil) isNil 
-		ifFalse: [ result addClass: aContext selectedClass selector: aContext selector ]
+	(self matcher executeTree: aMethod parseTree initialAnswer: nil) isNil 
+		ifFalse: [ result addMethod: aMethod ]

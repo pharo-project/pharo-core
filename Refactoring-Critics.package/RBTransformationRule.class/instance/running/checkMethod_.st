@@ -1,9 +1,9 @@
-checkMethod: aContext 
-	aContext compiledMethod isFromTrait
+checkMethod: aMethod 
+	aMethod isFromTrait
 		ifTrue: [ ^ self ].
-	(self rewriteRule canMatchMethod: aContext compiledMethod) 
+	(self rewriteRule canMatchMethod: aMethod) 
 		ifFalse: [ ^ self ].
-	class := aContext selectedClass.
-	(self rewriteRule executeTree: aContext compiledMethod parseTree) ifTrue: [
+	class := aMethod methodClass.
+	(self rewriteRule executeTree: aMethod parseTree) ifTrue: [
 		(self class recursiveSelfRule executeTree: rewriteRule tree initialAnswer: false) 
-			ifFalse: [ builder compile: rewriteRule tree newSource in: class classified: aContext compiledMethod protocol ] ]
+			ifFalse: [ builder compile: rewriteRule tree newSource in: class classified: aMethod protocol ] ]

@@ -1,11 +1,11 @@
-checkMethod: aContext
+checkMethod: aMethod
 	| superclass supertree |
-	(self ignoredSelectors includes: aContext selector)
+	(self ignoredSelectors includes: aMethod selector)
 		ifTrue: [ ^ self ].
-	aContext selectedClass superclass notNil ifTrue: [
-		superclass := aContext selectedClass superclass 
-			whichClassIncludesSelector: aContext selector.
+	aMethod methodClass superclass notNil ifTrue: [
+		superclass := aMethod methodClass superclass 
+			whichClassIncludesSelector: aMethod selector.
 		superclass notNil ifTrue: [
-			supertree := superclass parseTreeFor: aContext selector.
-			(supertree notNil and: [ supertree equalTo: aContext compiledMethod parseTree exceptForVariables: supertree allDefinedVariables ]) 
-				ifTrue: [ result addClass: aContext selectedClass selector: aContext selector ] ] ]
+			supertree := superclass parseTreeFor: aMethod selector.
+			(supertree notNil and: [ supertree equalTo: aMethod parseTree exceptForVariables: supertree allDefinedVariables ]) 
+				ifTrue: [ result addMethod: aMethod ] ] ]

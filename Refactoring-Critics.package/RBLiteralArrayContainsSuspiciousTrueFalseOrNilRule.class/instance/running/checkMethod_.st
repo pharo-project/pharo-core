@@ -1,6 +1,6 @@
-checkMethod: aContext 
+checkMethod: aMethod 
 	| compiledLits parsedLits |
-	compiledLits := aContext compiledMethod allLiterals
+	compiledLits := aMethod allLiterals
 		inject: OrderedCollection new
 		into: [ :collection :literal |
 			collection
@@ -9,9 +9,7 @@ checkMethod: aContext
 	compiledLits size > 0 ifTrue: [ 
 		parsedLits := OrderedCollection new.
 		matcher 
-			executeTree: aContext compiledMethod parseTree
+			executeTree: aMethod parseTree
 			initialAnswer: parsedLits.
 		compiledLits size ~= parsedLits size ifTrue: [
-			result 
-				addClass: aContext selectedClass
-				selector: aContext selector ] ]
+			result addMethod: aMethod ] ]

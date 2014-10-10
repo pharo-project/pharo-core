@@ -1,10 +1,9 @@
-checkMethod: aContext 
+checkMethod: aMethod 
 
 	self badSelectors do: [ :badSelector | 
-		(aContext compiledMethod sendsSelector: badSelector)
+		(aMethod sendsSelector: badSelector)
 			 ifTrue: [
 				result
-					addClass: aContext selectedClass
-					selector: aContext selector;
+					addMethod: aMethod;
 					searchStrings: self badSelectors ] ]
 	

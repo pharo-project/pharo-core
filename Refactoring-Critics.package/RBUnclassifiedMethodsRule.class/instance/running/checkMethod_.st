@@ -1,5 +1,3 @@
-checkMethod: aContext 
-	(aContext selectedClass organization categoryOfElement: aContext selector) = Protocol unclassified ifTrue: 
-		[ result 
-			addClass: aContext selectedClass
-			selector: aContext selector ]
+checkMethod: aMethod 
+	(aMethod methodClass organization categoryOfElement: aMethod selector) = Protocol unclassified ifTrue: 
+		[ result addMethod: aMethod ]

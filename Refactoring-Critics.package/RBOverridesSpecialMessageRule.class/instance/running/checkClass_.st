@@ -1,10 +1,10 @@
-checkClass: aContext 
+checkClass: aClass 
 	| selectors |
-	selectors := aContext selectedClass isMeta 
+	selectors := aClass isMeta 
 		ifTrue: [ self metaclassShouldNotOverride ]
 		ifFalse: [ self classShouldNotOverride ].
 	selectors do: [ :each |
-		(aContext selectedClass superclass notNil
-			and: [ (aContext selectedClass superclass canUnderstand: each)
-			and: [ (aContext selectedClass includesSelector: each) ] ])
-				ifTrue: [ result addClass: aContext selectedClass selector: each ] ]
+		(aClass superclass notNil
+			and: [ (aClass superclass canUnderstand: each)
+			and: [ (aClass includesSelector: each) ] ])
+				ifTrue: [ result addClass: aClass selector: each ] ]

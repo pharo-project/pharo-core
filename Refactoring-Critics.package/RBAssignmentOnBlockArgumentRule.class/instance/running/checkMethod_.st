@@ -1,5 +1,5 @@
-checkMethod: aContext
-	(RBFindBlockArgumentAssignment collectAssignments: aContext compiledMethod parseTree)
+checkMethod: aMethod
+	(RBFindBlockArgumentAssignment collectAssignments: aMethod parseTree)
 		do: [ :item | 
-			result addClass: aContext selectedClass selector: aContext selector.
+			result addMethod: aMethod.
 			result addSearchString: item ]

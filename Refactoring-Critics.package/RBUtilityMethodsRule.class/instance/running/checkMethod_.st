@@ -1,14 +1,12 @@
-checkMethod: aContext 
-	(aContext selectedClass isMeta or: 
-		[ aContext selector numArgs == 0 or: 
-			[ self utilityProtocols includes: aContext compiledMethod protocol ] ]) ifFalse: 
+checkMethod: aMethod 
+	(aMethod methodClass isMeta or: 
+		[ aMethod selector numArgs == 0 or: 
+			[ self utilityProtocols includes: aMethod protocol ] ]) ifFalse: 
 		[ (self 
-			subclassOf: aContext selectedClass
-			overrides: aContext selector) ifFalse: 
-			[ (aContext compiledMethod superMessages isEmpty and: [ aContext compiledMethod selfMessages isEmpty ]) ifTrue: 
-				[ (aContext selectedClass allInstVarNames , aContext selectedClass allClassVarNames asArray , #('self' ) 
-					detect: [ :each | aContext compiledMethod parseTree references: each ]
+			subclassOf: aMethod methodClass
+			overrides: aMethod selector) ifFalse: 
+			[ (aMethod superMessages isEmpty and: [ aMethod selfMessages isEmpty ]) ifTrue: 
+				[ (aMethod methodClass allInstVarNames , aMethod methodClass allClassVarNames asArray , #('self' ) 
+					detect: [ :each | aMethod parseTree references: each ]
 					ifNone: [  ]) isNil ifTrue: 
-					[ result 
-						addClass: aContext selectedClass
-						selector: aContext selector ] ] ] ]
+					[ result addMethod: aMethod ] ] ] ]

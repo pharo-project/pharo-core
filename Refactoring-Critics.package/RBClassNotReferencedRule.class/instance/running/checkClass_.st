@@ -1,7 +1,7 @@
-checkClass: aContext 
-	(aContext selectedClass isMeta or: [  aContext selectedClass subclasses notEmpty or: [ aContext selectedClass inheritsFrom: TestCase ] ] )
+checkClass: aClass 
+	(aClass isMeta or: [  aClass subclasses notEmpty or: [ aClass inheritsFrom: TestCase ] ] )
 		ifTrue: [ ^ self ].
-	aContext selectedClass allCallsOn ifEmpty: [
+	aClass allCallsOn ifEmpty: [
 		result
-			addClass: aContext selectedClass;
-			addClass: aContext selectedClass class ]
+			addClass: aClass;
+			addClass: aClass class ]

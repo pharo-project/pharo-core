@@ -1,2 +1,2 @@
-checkClass: aContext 
-	rules do: [ :each | each checkClass: aContext ]
+checkClass: aClass 
+	rules do: [ :each | each checkClass: aClass ]

@@ -1,8 +1,8 @@
-checkClass: aContext 
+checkClass: aClass 
 
 	| selectedClass explicitRequirementMethods |
 	explicitRequirementMethods := Set new.
-	selectedClass := aContext selectedClass.
+	selectedClass := aClass.
 	
 	selectedClass isTrait 
 		ifTrue: [ ^ self ].
@@ -13,5 +13,5 @@ checkClass: aContext
 						ifTrue: [ explicitRequirementMethods add: method ]].
 	
 	explicitRequirementMethods do: [ :method |
-		aContext selectedClass withAllSuperclasses 
-			detect: [ :superclass | superclass canPerform: method selector ] ifNone: [result addClass: aContext selectedClass selector: method selector]].
+		aClass withAllSuperclasses 
+			detect: [ :superclass | superclass canPerform: method selector ] ifNone: [result addClass: aClass selector: method selector]].

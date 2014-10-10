@@ -1,5 +1,3 @@
-checkMethod: aContext 
-	(aContext compiledMethod sourceCode includes: Character lf) ifTrue: 
-		[ result 
-			addClass: aContext selectedClass
-			selector: aContext selector ]
+checkMethod: aMethod 
+	(aMethod sourceCode includes: Character lf) ifTrue: 
+		[ result addMethod: aMethod ]

@@ -1,6 +1,6 @@
-checkClass: aContext 
+checkClass: aClass 
 	| subs |
-	subs := aContext selectedClass subclasses.
+	subs := aClass subclasses.
 	subs size > 1 ifTrue: 
 		[ | sels |
 		sels := Bag new.
@@ -11,5 +11,5 @@ checkClass: aContext
 			count := sels occurrencesOf: val.
 			count == subs size ifTrue: 
 				[ result 
-					addClass: aContext selectedClass
+					addClass: aClass
 					instanceVariable: val ] ] ]

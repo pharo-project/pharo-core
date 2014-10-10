@@ -1,5 +1,5 @@
-checkMethod: aContext 
-	aContext selectedClass isMeta 
+checkMethod: aMethod 
+	aMethod methodClass isMeta 
 		ifTrue: [ ^ self ].
-	(matcher executeTree: aContext compiledMethod parseTree initialAnswer: false) 
-		ifTrue: [ result addClass: aContext selectedClass selector: aContext selector ]
+	(matcher executeTree: aMethod parseTree initialAnswer: false) 
+		ifTrue: [ result addMethod: aMethod ]

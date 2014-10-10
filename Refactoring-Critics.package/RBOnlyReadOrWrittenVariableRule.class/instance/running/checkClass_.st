@@ -1,7 +1,7 @@
-checkClass: aContext 
+checkClass: aClass 
 	| allSubclasses |
-	allSubclasses := aContext selectedClass withAllSubclasses.
-	aContext selectedClass instVarNames do: [ :each | 
+	allSubclasses := aClass withAllSubclasses.
+	aClass instVarNames do: [ :each | 
 		| isRead isWritten |
 		isRead := false.
 		isWritten := false.
@@ -12,5 +12,5 @@ checkClass: aContext
 				isRead and: [ isWritten ] ]
 			ifNone: [
 				result 
-					addClass: aContext selectedClass
+					addClass: aClass
 					instanceVariable: each ] ]

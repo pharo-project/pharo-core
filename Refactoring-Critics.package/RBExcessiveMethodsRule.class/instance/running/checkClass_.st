@@ -1,3 +1,3 @@
-checkClass: aContext 
-	aContext selectedClass selectors size >= self methodsCount
-		ifTrue: [ result addClass: aContext selectedClass ]
+checkClass: aClass 
+	aClass selectors size >= self methodsCount
+		ifTrue: [ result addClass: aClass ]

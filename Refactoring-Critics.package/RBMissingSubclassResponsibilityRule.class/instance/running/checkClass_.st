@@ -1,15 +1,15 @@
-checkClass: aContext 
+checkClass: aClass 
 	| subs |
-	subs := aContext selectedClass subclasses.
-	(subs size > 1 and: [ aContext selectedClass isMeta not ]) ifTrue: 
+	subs := aClass subclasses.
+	(subs size > 1 and: [ aClass isMeta not ]) ifTrue: 
 		[ | sels |
 		sels := Bag new.
 		subs do: [ :each | sels addAll: each selectors ].
 		sels asSet do: 
 			[ :each | 
-			((sels occurrencesOf: each) == subs size and: [ (aContext selectedClass canUnderstand: each) not ]) ifTrue: 
+			((sels occurrencesOf: each) == subs size and: [ (aClass canUnderstand: each) not ]) ifTrue: 
 				[ | envName |
-				envName := aContext selectedClass name , '>>' , each.
+				envName := aClass name , '>>' , each.
 				subs do: 
 					[ :subClass | 
 					result 

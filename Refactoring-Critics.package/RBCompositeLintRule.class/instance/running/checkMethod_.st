@@ -1,2 +1,2 @@
-checkMethod: aContext 
-	rules do: [ :each | each checkMethod: aContext ]
+checkMethod: aMethod 
+	rules do: [ :each | each checkMethod: aMethod ]

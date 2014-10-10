@@ -1,13 +1,13 @@
-checkClass: aContext 
-	aContext selectedClass isMeta
+checkClass: aClass 
+	aClass isMeta
 		ifTrue: [ ^ self ].
-	aContext selectedClass classVarNames do: [ :each | 
+	aClass classVarNames do: [ :each | 
 		each first isUppercase ifFalse: [
 			result 
-				addClass: aContext selectedClass
+				addClass: aClass
 				classVariable: each ] ].
-	aContext selectedClass sharedPoolNames do: [ :each | 
+	aClass sharedPoolNames do: [ :each | 
 		each first isUppercase ifFalse: [ 
 			result 
-				addClass: aContext selectedClass
+				addClass: aClass
 				classVariable: each ] ]

@@ -1,7 +1,6 @@
-checkMethod: aContext 
-	aContext compiledMethod messages do: [ :each |
+checkMethod: aMethod 
+	aMethod messages do: [ :each |
 		(each isEmpty or: [ each first isUppercase or: [ literalNames includes: each ] ]) ifTrue: [
 			result 
-				addClass: aContext selectedClass
-				selector: aContext selector.
-			result addSearchString: each ] ]
+				addMethod: aMethod;
+				addSearchString: each ] ]

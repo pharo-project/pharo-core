@@ -1,7 +1,7 @@
-checkClass: aContext 
+checkClass: aClass 
 	| allSubclasses |
-	allSubclasses := aContext selectedClass withAllSubclasses.
-	aContext selectedClass instVarNames do: 
+	allSubclasses := aClass withAllSubclasses.
+	aClass instVarNames do: 
 		[ :each | 
 		| defClass selector |
 		(allSubclasses 

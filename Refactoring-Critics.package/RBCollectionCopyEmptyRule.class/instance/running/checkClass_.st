@@ -1,6 +1,6 @@
-checkClass: aContext 
-	((aContext selectedClass inheritsFrom: Collection)
-	and: [ aContext selectedClass isVariable 
-	and: [ (aContext selectedClass includesSelector: #copyEmpty) not 
-	and: [ aContext selectedClass instVarNames isEmpty not ]]])
-		ifTrue: [ result addClass: aContext selectedClass ]
+checkClass: aClass 
+	((aClass inheritsFrom: Collection)
+	and: [ aClass isVariable 
+	and: [ (aClass includesSelector: #copyEmpty) not 
+	and: [ aClass instVarNames isEmpty not ]]])
+		ifTrue: [ result addClass: aClass ]
