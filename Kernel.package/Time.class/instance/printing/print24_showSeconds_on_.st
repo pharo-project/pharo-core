@@ -1,5 +1,5 @@
 print24: hr24 showSeconds: showSeconds on: aStream 
-	"Format is 'hh:mm:ss' or 'h:mm:ss am'  or, if showSeconds is false, 'hh:mm' or 'h:mm am'"
+	"Format is 'hh:mm:ss.nnnnnnnnn' or 'h:mm:ss.nnnnnnnnn am'  or, if showSeconds is false, 'hh:mm' or 'h:mm am'"
 
 	| h m s |
 	h := self hour. m := self minute. s := self second.
