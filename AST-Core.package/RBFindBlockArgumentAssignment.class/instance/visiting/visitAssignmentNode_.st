@@ -1,10 +1,9 @@
 visitAssignmentNode: anAssignmentNode
 	"search registered argument variable with the same name and scope"
 
-	| varName varScope |
+	| varName |
 	super visitAssignmentNode: anAssignmentNode.
 	varName := anAssignmentNode variable name.
-	varScope := anAssignmentNode methodOrBlockNode.
 	arguments
-		detect: [ :elem | elem name = varName and: [ elem methodOrBlockNode = varScope ] ]
+		detect: [ :elem | elem name = varName and: [ self is: anAssignmentNode variable inScopeOf: elem ] ]
 		ifFound: [ argumentAssignments add: varName ]
