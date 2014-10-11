@@ -1,2 +1,2 @@
 smallLintCritics
-	^ self allClasses
+	^ self classes
