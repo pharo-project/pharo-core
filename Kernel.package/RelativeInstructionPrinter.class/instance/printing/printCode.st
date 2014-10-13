@@ -1,2 +1,0 @@
-printCode
-	^printCode ~~ false

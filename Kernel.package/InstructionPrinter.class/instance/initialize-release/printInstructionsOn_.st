@@ -1,6 +1,5 @@
 printInstructionsOn: aStream 
-	"Append to the stream, aStream, a description of each bytecode in the
-	 instruction stream."
+	"Append to the stream, aStream, a description of each bytecode in the instruction stream."
 	
 	| end |
 	stream := aStream.

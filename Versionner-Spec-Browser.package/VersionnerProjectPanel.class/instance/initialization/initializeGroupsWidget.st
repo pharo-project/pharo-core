@@ -3,10 +3,11 @@ initializeGroupsWidget
 		autoDeselection: true;
 		dragEnabled: true;
 		dropEnabled: true;
-		acceptDropBlock: [ :transfer :event :source :receiver | | passengerItem | 
-			receiver parent ifNotNil: [ receiver := receiver parent ]. "Only add dependencies on top elements"
+		acceptDropBlock: [ :transfer :event :source :receiver | | passengerItem myreceiver | 
+			myreceiver := receiver.
+			myreceiver parent ifNotNil: [ myreceiver := myreceiver parent ]. "Only add dependencies on top elements"
 			passengerItem := transfer passenger item.
-			receiver complexContents item 
+			myreceiver complexContents item 
 				addDependency: ((passengerItem isKindOf: MTDependency) "Ugly test because String>>name adds extra quotes"
 					ifTrue: [ passengerItem name ]
 					ifFalse: [ passengerItem ]) ];

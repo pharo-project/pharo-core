@@ -4,8 +4,9 @@ print: instruction
 	| code |
 	stream tab: self indent.
 	printPC ifTrue: [stream print: oldPC; space].
-	stream tab: (innerIndents at: oldPC).
-	stream nextPut: $<.
+	stream
+		tab: (innerIndents at: oldPC);
+		nextPut: $<.
 	oldPC to: scanner pc - 1 do: 
 		[:i | 
 		code := (method at: i) radix: 16.
@@ -14,10 +15,10 @@ print: instruction
 				ifTrue: [$0]
 				ifFalse: [code at: 1]).
 		stream nextPut: code last; space].
-	stream skip: -1.
-	stream nextPut: $>.
-	stream space.
-	stream nextPutAll: instruction.
-	stream cr.
+	stream 
+		skip: -1;
+		nextPut: $>;
+		space;
+		nextPutAll: instruction;
+		cr.
 	oldPC := scanner pc.
-	"(InstructionPrinter compiledMethodAt: #print:) symbolic."

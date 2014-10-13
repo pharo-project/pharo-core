@@ -1,2 +1,0 @@
-printCode: aBoolean
-	printCode := aBoolean
