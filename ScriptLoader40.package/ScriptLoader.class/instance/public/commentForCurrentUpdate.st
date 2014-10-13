@@ -1,9 +1,5 @@
 commentForCurrentUpdate
- ^ '14213 Replace Announcer>>#on:send:to:s senders in Monticello
-	https://pharo.fogbugz.com/f/cases/14213
+ ^ '14208 Move ByteArray close to WordArray, delete package Collection-Arrayed
+	https://pharo.fogbugz.com/f/cases/14208
 
-14098 allClassesAndTraits significantly different from allClassesAndTraitsDo:
-	https://pharo.fogbugz.com/f/cases/14098
-
-10288 Add a lint rule to check that class initialize method does not calls super initialize
-	https://pharo.fogbugz.com/f/cases/10288'
+'
