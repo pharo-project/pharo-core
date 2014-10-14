@@ -6,7 +6,8 @@ compose
 		browser show: [ :a :each |
 			a title: [ self printObjectAsAnItem: each ].
 			a dynamicActions: [ :aPresentation | 
-				each gtInspectorActions asOrderedCollection", (self globalActionsFor: aPresentation)" ].
+				each gtInspectorActions asOrderedCollection ].
+			a titleAction: [ :aPresentation | self closeActionFor: aPresentation ].
 			a dynamic 
 				display: [ :x | 
 					(GLMCompositePresentation new with: [:d | 

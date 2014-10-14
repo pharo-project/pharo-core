@@ -1,2 +1,2 @@
-setLabelOf: window for: aRenderable
-	window	setLabel: (self titleFor: aRenderable).
+setLabelOf: aWindow for: aRenderable
+	aWindow setLabel: (self titleFor: aRenderable).

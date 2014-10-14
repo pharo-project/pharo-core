@@ -7,11 +7,12 @@ rowMorphFor: aNodeMorph
 		ifNil: [rowMorph := self defaultRowMorph].
 	cont := Morph new color: Color transparent;
 				 layoutPolicy: RowLayout new;
-				 hResizing: #shrinkWrap;
+				 hResizing: #rigid;
 				 vResizing: #shrinkWrap;
 				 layoutInset: container columnInset @ container rowInset;
 				 yourself.
 	cont addMorph: rowMorph.
+
 	self isFirstColumn ifTrue: [ | icon |
 		icon := container iconBlock value: aNodeMorph.
 		icon ifNotNil: [ cont addMorph: icon asMorph ].

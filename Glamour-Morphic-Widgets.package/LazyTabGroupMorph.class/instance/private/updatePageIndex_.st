@@ -22,4 +22,5 @@ updatePageIndex: index
 	self headerMorph layoutChanged.
 	self pageMorph layoutChanged.
 	self adoptPaneColor: (self owner ifNil: [self]) paneColor.
+	(self tabSelectorMorph tabs at: index) font:  self tabSelectorMorph font.
 	self announcer announce: (LazyTabPageChanged new tabs: self; page: (self pages at: index); oldPage: oldPage; pageIndex: index)

@@ -1,9 +1,21 @@
 rowMorphForColumn: aGlamourColumn
 	| rowElements contentMorph tagMorphs |
+		
+	aGlamourColumn modifiedBlock
+		ifNil: [
+			contentMorph := (self containerTree glamourPresentation 
+			column: aGlamourColumn
+			valueFor: self item) asMorph asReadOnlyMorph ]
+		ifNotNil: [
+			contentMorph := self textFieldMorphFor: nil.
+			contentMorph setText: (
+				self containerTree glamourPresentation 
+					column: aGlamourColumn 
+					valueFor: self item) asString.
+			contentMorph hResizing: #spaceFill.
+			contentMorph announcer when: RubReturnEntered do: [ :ann |
+				 aGlamourColumn modifiedBlock cull: contentMorph text cull: self item cull: self containerTree glamourPresentation ] ].
 	
-	contentMorph := (self containerTree glamourPresentation 
-		column: aGlamourColumn 
-		valueFor: self item) asMorph asReadOnlyMorph.
 	tagMorphs := self tagMorphsFrom: aGlamourColumn.
 	tagMorphs ifEmpty: [ ^ contentMorph ].
 	

@@ -1,10 +1,11 @@
 actOnPresentationToolbarUpdated: anAnnouncement
 	"If this method is called contentMorph should be an tab widget"
+	| presentation |
 	
-	(contentMorph pages at: 1)
-			toolbar: (self 
-				renderToolbarForPresentation: anAnnouncement presentation 
-				inMorph: contentMorph ).
-	contentMorph updatePageIndex: 1
+	presentation := anAnnouncement presentation.	
+	contentMorph updatePageAtIndex: 1
+			withLabel: (self titleOrIconOf: presentation in: contentMorph)
+			toolbar: (self renderToolbarForPresentation: presentation inMorph: contentMorph)
+			action: (self labelActionMorphFor: presentation)
 	
 	

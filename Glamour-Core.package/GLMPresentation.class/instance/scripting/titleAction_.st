@@ -1,0 +1,3 @@
+titleAction: aBlock 
+
+	labelActionBlock := aBlock

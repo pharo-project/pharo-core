@@ -1,6 +1,6 @@
 treeMorphFor: tmpTreeModel and: aPresentation
 	| tmpTreeMorph columns |
-	tmpTreeMorph := PaginatedMorphTreeMorph new.
+	tmpTreeMorph := self newTreeMorph.
 	tmpTreeMorph
 		makeLastColumnUnbounded;
 		doubleClickSelector: #onDoubleClick;

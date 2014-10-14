@@ -12,7 +12,10 @@ variablesIn: composite
 		column: 'Variable' 
 			evaluated: [:assoc | '  ',(GTObjectPrinter new asNonTruncatedTextFrom: assoc key) ];
 		column: 'Value' 
-			evaluated: [:assoc | GTObjectPrinter new asTruncatedTextFrom: assoc value ];
+			evaluated: [:assoc | GTObjectPrinter new asTruncatedTextFrom: assoc value ]
+			"modified: [:newValue :assoc :presentation | 
+				self updateInstanceVariable: assoc key from: presentation entity basedOn: newValue.
+				presentation update ]";
 		"send: #value;"
 		morphicSelectionAct: [:list | list selection value browse ] 
 			icon: GLMUIThemeExtraIcons glamorousBrowse 

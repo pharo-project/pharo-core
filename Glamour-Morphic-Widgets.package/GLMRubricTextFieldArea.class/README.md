@@ -1,0 +1,1 @@
+A GLMRubricTextFieldArea is xxxxxxxxx.Instance Variables	enabled:		<Object>enabled	- xxxxx

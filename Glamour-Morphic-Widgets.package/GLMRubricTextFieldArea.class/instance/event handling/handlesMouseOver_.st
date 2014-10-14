@@ -1,0 +1,3 @@
+handlesMouseOver: evt
+
+	^ self isEnabled
