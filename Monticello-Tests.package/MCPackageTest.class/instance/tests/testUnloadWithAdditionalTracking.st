@@ -2,7 +2,7 @@ testUnloadWithAdditionalTracking
 	"This is to test against another entity removing the extension protocol as well."
 
 	| mock |
-	SystemAnnouncer uniqueInstance on: MethodRemoved send: #aMethodRemoved: to: self.
+	SystemAnnouncer uniqueInstance when: MethodRemoved send: #aMethodRemoved: to: self.
 	self assert: (SystemAnnouncer uniqueInstance hasSubscriber: self ).
 	self mockPackage unload.
 	self deny: (Smalltalk hasClassNamed: #MCMockClassA).
