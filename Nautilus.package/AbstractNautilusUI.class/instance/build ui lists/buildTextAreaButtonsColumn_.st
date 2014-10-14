@@ -6,11 +6,7 @@ buildTextAreaButtonsColumn: aWindow
 		changeTableLayout;
 		listDirection: #topToBottom.
 		
-		{	self buildSwitchToSourceCodeButton.
-			self buildSwitchToByteCodeButton.
-			self buildSeparator.
-			self buildSeparator.
-			self buildBrowseInstVarsButton.
+		{    self buildBrowseInstVarsButton.
 			self buildBrowseClassVarsButton} reverse do: [:each | column addMorph: each ].
 	
 	column 

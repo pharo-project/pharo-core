@@ -1,2 +1,0 @@
-printPC: aBoolean
-	printPC := aBoolean

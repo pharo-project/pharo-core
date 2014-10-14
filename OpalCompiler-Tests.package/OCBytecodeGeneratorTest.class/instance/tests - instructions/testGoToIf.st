@@ -18,5 +18,4 @@ testGoToIf
 14 <76> pushConstant: 1
 15 <A8 01> jumpTrue: 18
 17 <7C> returnTop
-18 <7C> returnTop
-'
+18 <7C> returnTop'

@@ -11,6 +11,5 @@ testPushDup
 	self assert: (cm isCompiledMethod ).
 	symbolic := String streamContents: [:str | cm longPrintOn: str ].
 	self assert: symbolic = '13 <88> dup
-14 <7C> returnTop
-'
+14 <7C> returnTop'
 	

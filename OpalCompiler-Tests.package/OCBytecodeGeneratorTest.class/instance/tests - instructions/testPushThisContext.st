@@ -11,6 +11,5 @@ testPushThisContext
 	self assert: (cm isCompiledMethod ).
 	symbolic := String streamContents: [:str | cm longPrintOn: str ].
 	self assert: symbolic = '13 <89> pushThisContext: 
-14 <7C> returnTop
-'
+14 <7C> returnTop'
 	

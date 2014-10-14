@@ -11,6 +11,5 @@ testPushLiteralVariable
 	self assert: (cm isCompiledMethod ).
 	symbolic := String streamContents: [:str | cm longPrintOn: str ].
 	self assert: symbolic = '17 <40> pushLit: 1
-18 <7C> returnTop
-'
+18 <7C> returnTop'
 	

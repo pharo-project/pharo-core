@@ -13,5 +13,4 @@ testSendToSuperOf
 	symbolic := String streamContents: [:str | cm longPrintOn: str ].
 	self assert: symbolic =  '17 <76> pushConstant: 1
 18 <85 00> superSend: a
-20 <7C> returnTop
-'
+20 <7C> returnTop'

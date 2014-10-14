@@ -13,5 +13,4 @@ testStoreTemp
 	symbolic := String streamContents: [:str | cm longPrintOn: str ].
 	self assert: symbolic =  '13 <76> pushConstant: 1
 14 <81 40> storeIntoTemp: 0
-16 <7C> returnTop
-'
+16 <7C> returnTop'

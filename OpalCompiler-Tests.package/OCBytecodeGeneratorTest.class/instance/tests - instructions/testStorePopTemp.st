@@ -15,5 +15,4 @@ testStorePopTemp
 	self assert: symbolic =  '13 <76> pushConstant: 1
 14 <76> pushConstant: 1
 15 <68> popIntoTemp: 0
-16 <7C> returnTop
-'
+16 <7C> returnTop'

@@ -15,5 +15,4 @@ testStorePopInstVar
 	self assert: symbolic =  '13 <76> pushConstant: 1
 14 <76> pushConstant: 1
 15 <60> popIntoRcvr: 0
-16 <7C> returnTop
-'
+16 <7C> returnTop'

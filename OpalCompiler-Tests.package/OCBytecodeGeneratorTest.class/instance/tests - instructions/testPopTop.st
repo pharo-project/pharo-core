@@ -15,5 +15,4 @@ testPopTop
 	self assert: symbolic =  '13 <76> pushConstant: 1
 14 <76> pushConstant: 1
 15 <87> pop
-16 <7C> returnTop
-'
+16 <7C> returnTop'

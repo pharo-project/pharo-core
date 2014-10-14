@@ -16,11 +16,11 @@ testBlockTemp
 '.
 	index := 0.
 	self assert: (bytecode at: (index := index + 1)) = '17 <8F 01 00 08> closureNumCopied: 0 numArgs: 1 bytes 21 to 28'.
-self assert: (bytecode at: (index := index + 1)) = '21 	<10> pushTemp: 0'.
-self assert: (bytecode at: (index := index + 1)) = '22 	<8F 10 00 02> closureNumCopied: 1 numArgs: 0 bytes 26 to 27'.
-self assert: (bytecode at: (index := index + 1)) = '26 		<10> pushTemp: 0'.
-self assert: (bytecode at: (index := index + 1)) = '27 		<7D> blockReturn'.
-self assert: (bytecode at: (index := index + 1)) = '28 	<7D> blockReturn'.
+self assert: (bytecode at: (index := index + 1)) = '21 <10> pushTemp: 0'.
+self assert: (bytecode at: (index := index + 1)) = '22 <8F 10 00 02> closureNumCopied: 1 numArgs: 0 bytes 26 to 27'.
+self assert: (bytecode at: (index := index + 1)) = '26 <10> pushTemp: 0'.
+self assert: (bytecode at: (index := index + 1)) = '27 <7D> blockReturn'.
+self assert: (bytecode at: (index := index + 1)) = '28 <7D> blockReturn'.
 self assert: (bytecode at: (index := index + 1)) = '29 <68> popIntoTemp: 0'.
 self assert: (bytecode at: (index := index + 1)) = '30 <10> pushTemp: 0'.
 self assert: (bytecode at: (index := index + 1)) = '31 <76> pushConstant: 1'.

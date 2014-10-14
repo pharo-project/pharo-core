@@ -14,5 +14,4 @@ testStoreInstVar
 	self assert: cm isCompiledMethod.
 	self assert: symbolic =  '13 <76> pushConstant: 1
 14 <81 00> storeIntoRcvr: 0
-16 <7C> returnTop
-'
+16 <7C> returnTop'

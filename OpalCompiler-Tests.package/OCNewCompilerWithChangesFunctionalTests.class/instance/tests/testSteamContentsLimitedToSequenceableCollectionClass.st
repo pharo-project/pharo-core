@@ -26,9 +26,9 @@ testSteamContentsLimitedToSequenceableCollectionClass
 	self assert: (bytecode at: (index := index + 1)) = '46 <11> pushTemp: 1'.
 	self assert: (bytecode at: (index := index + 1)) = '47 <12> pushTemp: 2'.
 	self assert: (bytecode at: (index := index + 1)) = '48 <8F 10 00 03> closureNumCopied: 1 numArgs: 0 bytes 52 to 54'.
-	self assert: (bytecode at: (index := index + 1)) = '52 	<10> pushTemp: 0'.
-	self assert: (bytecode at: (index := index + 1)) = '53 	<D4> send: contents'.
-	self assert: (bytecode at: (index := index + 1)) = '54 	<7C> returnTop'.
+	self assert: (bytecode at: (index := index + 1)) = '52 <10> pushTemp: 0'.
+	self assert: (bytecode at: (index := index + 1)) = '53 <D4> send: contents'.
+	self assert: (bytecode at: (index := index + 1)) = '54 <7C> returnTop'.
 	self assert: (bytecode at: (index := index + 1)) = '55 <F5> send: setLimit:limitBlock:'.
 	self assert: (bytecode at: (index := index + 1)) = '56 <87> pop'.
 	self assert: (bytecode at: (index := index + 1)) = '57 <10> pushTemp: 0'.

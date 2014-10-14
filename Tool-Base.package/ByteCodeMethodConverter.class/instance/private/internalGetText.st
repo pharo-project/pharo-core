@@ -1,3 +1,0 @@
-internalGetText
-
-	^ method symbolic asText

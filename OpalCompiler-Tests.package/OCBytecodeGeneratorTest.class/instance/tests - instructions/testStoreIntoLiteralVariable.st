@@ -13,5 +13,4 @@ testStoreIntoLiteralVariable
 	symbolic := String streamContents: [:str | cm longPrintOn: str ].
 	self assert: symbolic =  '17 <76> pushConstant: 1
 18 <81 C0> storeIntoLit: 1
-20 <7C> returnTop
-'
+20 <7C> returnTop'

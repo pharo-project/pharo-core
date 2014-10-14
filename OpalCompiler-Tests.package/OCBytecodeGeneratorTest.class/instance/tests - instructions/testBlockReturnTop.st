@@ -9,6 +9,5 @@ testBlockReturnTop
 
 	self assert: (cm isCompiledMethod ).
 	symbolic := String streamContents: [:str | cm longPrintOn: str ].
-	self assert: symbolic = '13 <7D> blockReturn
-'.
+	self assert: symbolic = '13 <7D> blockReturn'.
 	

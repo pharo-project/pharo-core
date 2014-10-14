@@ -15,5 +15,4 @@ testStorePopIntoLiteralVariable
 	self assert: symbolic =  '17 <76> pushConstant: 1
 18 <76> pushConstant: 1
 19 <82 C0> popIntoLit: test
-21 <7C> returnTop
-'
+21 <7C> returnTop'

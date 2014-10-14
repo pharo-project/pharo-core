@@ -13,5 +13,4 @@ testSend
 	symbolic := String streamContents: [:str | cm longPrintOn: str ].
 	self assert: symbolic = '17 <76> pushConstant: 1
 18 <D0> send: a
-19 <7C> returnTop
-'	
+19 <7C> returnTop'	

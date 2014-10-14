@@ -16,5 +16,4 @@ testGoTo
 	self assert: symbolic =   '13 <76> pushConstant: 1
 14 <76> pushConstant: 1
 15 <7C> returnTop
-16 <A3 FC> jumpTo: 14
-'
+16 <A3 FC> jumpTo: 14'

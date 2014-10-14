@@ -15,5 +15,4 @@ testStorePopRemoteTempInVectorAt
 	self assert: symbolic =  '13 <76> pushConstant: 1
 14 <76> pushConstant: 1
 15 <8E 00 00> popIntoTemp: 0 inVectorAt: 0
-18 <7C> returnTop
-'
+18 <7C> returnTop'

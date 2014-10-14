@@ -22,11 +22,11 @@ testMethodArgument
 	self assert: (bytecode at: (index := index + 1)) = '21 <8E 00 01> popIntoTemp: 0 inVectorAt: 1'.
 	self assert: (bytecode at: (index := index + 1)) = '24 <11> pushTemp: 1'.
 	self assert: (bytecode at: (index := index + 1)) = '25 <8F 10 00 0A> closureNumCopied: 1 numArgs: 0 bytes 29 to 38'.
-	self assert: (bytecode at: (index := index + 1)) = '29 	<10> pushTemp: 0'.
-	self assert: (bytecode at: (index := index + 1)) = '30 	<8F 10 00 04> closureNumCopied: 1 numArgs: 0 bytes 34 to 37'.
-	self assert: (bytecode at: (index := index + 1)) = '34 		<8C 00 00> pushTemp: 0 inVectorAt: 0'.
-	self assert: (bytecode at: (index := index + 1)) = '37 		<7D> blockReturn'.
-	self assert: (bytecode at: (index := index + 1)) = '38 	<7D> blockReturn'.
+	self assert: (bytecode at: (index := index + 1)) = '29 <10> pushTemp: 0'.
+	self assert: (bytecode at: (index := index + 1)) = '30 <8F 10 00 04> closureNumCopied: 1 numArgs: 0 bytes 34 to 37'.
+	self assert: (bytecode at: (index := index + 1)) = '34 <8C 00 00> pushTemp: 0 inVectorAt: 0'.
+	self assert: (bytecode at: (index := index + 1)) = '37 <7D> blockReturn'.
+	self assert: (bytecode at: (index := index + 1)) = '38 <7D> blockReturn'.
 	self assert: (bytecode at: (index := index + 1)) = '39 <68> popIntoTemp: 0'.
 	self assert: (bytecode at: (index := index + 1)) = '40 <76> pushConstant: 1'.
 	self assert: (bytecode at: (index := index + 1)) = '41 <8E 00 01> popIntoTemp: 0 inVectorAt: 1'.

@@ -11,6 +11,5 @@ testPushInstVar
 	self assert: (cm isCompiledMethod ).
 	symbolic := String streamContents: [:str | cm longPrintOn: str ].
 	self assert: symbolic = '13 <00> pushRcvr: 0
-14 <7C> returnTop
-'
+14 <7C> returnTop'
 	

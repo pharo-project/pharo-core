@@ -17,16 +17,16 @@ testToDoInsideTempNotInlined
 '.
 	index := 0.
 	self assert: (bytecode at: (index := index + 1)) = '33 <8F 01 00 0D> closureNumCopied: 0 numArgs: 1 bytes 37 to 49'.
-	self assert: (bytecode at: (index := index + 1)) = '37 	<73> pushConstant: nil'.
-	self assert: (bytecode at: (index := index + 1)) = '38 	<10> pushTemp: 0'.
-	self assert: (bytecode at: (index := index + 1)) = '39 	<69> popIntoTemp: 1'.
-	self assert: (bytecode at: (index := index + 1)) = '40 	<00> pushRcvr: 0'.
-	self assert: (bytecode at: (index := index + 1)) = '41 	<11> pushTemp: 1'.
-	self assert: (bytecode at: (index := index + 1)) = '42 	<8F 10 00 02> closureNumCopied: 1 numArgs: 0 bytes 46 to 47'.
-	self assert: (bytecode at: (index := index + 1)) = '46 		<10> pushTemp: 0'.
-	self assert: (bytecode at: (index := index + 1)) = '47 		<7D> blockReturn'.
-	self assert: (bytecode at: (index := index + 1)) = '48 	<E0> send: add:'.
-	self assert: (bytecode at: (index := index + 1)) = '49 	<7D> blockReturn'.
+	self assert: (bytecode at: (index := index + 1)) = '37 <73> pushConstant: nil'.
+	self assert: (bytecode at: (index := index + 1)) = '38 <10> pushTemp: 0'.
+	self assert: (bytecode at: (index := index + 1)) = '39 <69> popIntoTemp: 1'.
+	self assert: (bytecode at: (index := index + 1)) = '40 <00> pushRcvr: 0'.
+	self assert: (bytecode at: (index := index + 1)) = '41 <11> pushTemp: 1'.
+	self assert: (bytecode at: (index := index + 1)) = '42 <8F 10 00 02> closureNumCopied: 1 numArgs: 0 bytes 46 to 47'.
+	self assert: (bytecode at: (index := index + 1)) = '46 <10> pushTemp: 0'.
+	self assert: (bytecode at: (index := index + 1)) = '47 <7D> blockReturn'.
+	self assert: (bytecode at: (index := index + 1)) = '48 <E0> send: add:'.
+	self assert: (bytecode at: (index := index + 1)) = '49 <7D> blockReturn'.
 	self assert: (bytecode at: (index := index + 1)) = '50 <68> popIntoTemp: 0'.
 	self assert: (bytecode at: (index := index + 1)) = '51 <76> pushConstant: 1'.
 	self assert: (bytecode at: (index := index + 1)) = '52 <21> pushConstant: 5'.
