@@ -1,9 +1,3 @@
 commentForCurrentUpdate
- ^ '14232 remove ByteCodeMethodConverter
-	https://pharo.fogbugz.com/f/cases/14232
-
-14225 implement #symbolic by printing the SymbolicBytecode....
-	https://pharo.fogbugz.com/f/cases/14225
-
-13318 no (strong) visual feedback for bytecode view while looking at a class definition
-	https://pharo.fogbugz.com/f/cases/13318'
+ ^ '14218 Opal should be able to compile methods for SqueakV3PlusClosure and Spur
+	https://pharo.fogbugz.com/f/cases/14218'
