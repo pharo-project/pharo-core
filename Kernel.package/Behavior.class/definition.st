@@ -1,6 +1,6 @@
 Object subclass: #Behavior
 	uses: TBehavior
 	instanceVariableNames: 'superclass methodDict format layout'
-	classVariableNames: 'ObsoleteSubclasses'
+	classVariableNames: 'ClassProperties ObsoleteSubclasses'
 	poolDictionaries: ''
 	category: 'Kernel-Classes'
