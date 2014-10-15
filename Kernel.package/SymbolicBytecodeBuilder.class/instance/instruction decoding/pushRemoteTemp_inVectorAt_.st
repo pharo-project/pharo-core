@@ -1,2 +1,2 @@
 pushRemoteTemp: remoteTempIndex inVectorAt: tempVectorIndex 
-	self print: 'pushTemp: ', remoteTempIndex printString, ' inVectorAt: ', tempVectorIndex printString
+	self addBytecode: 'pushTemp: ', remoteTempIndex printString, ' inVectorAt: ', tempVectorIndex printString

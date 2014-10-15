@@ -1,2 +1,2 @@
 pushNewArrayOfSize: numElements 
-	self print: 'push: (Array new: ', numElements printString, ')'
+	self addBytecode: 'push: (Array new: ', numElements printString, ')'

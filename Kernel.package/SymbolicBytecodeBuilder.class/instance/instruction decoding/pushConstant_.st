@@ -1,7 +1,7 @@
 pushConstant: obj
 	"Print the Push Constant, obj, on Top Of Stack bytecode."
 
-	self print: (String streamContents:
+	self addBytecode: (String streamContents:
 				[:s |
 				s nextPutAll: 'pushConstant: '.
 				(obj isKindOf: LookupKey)

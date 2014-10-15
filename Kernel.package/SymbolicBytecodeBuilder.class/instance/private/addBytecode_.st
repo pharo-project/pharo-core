@@ -1,4 +1,4 @@
-print: description 
+addBytecode: description 
 	"Append to the receiver a description of the bytecode, instruction." 
 
 	| bytes symbolic |

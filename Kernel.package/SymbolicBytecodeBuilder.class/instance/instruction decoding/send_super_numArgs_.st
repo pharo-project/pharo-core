@@ -5,4 +5,4 @@ send: selector super: supered numArgs: numberArguments
 	the top numArguments locations on the stack and the receiver just 
 	below them."
 
-	self print: (supered ifTrue: ['superSend: '] ifFalse: ['send: ']) , selector.
+	self addBytecode: (supered ifTrue: ['superSend: '] ifFalse: ['send: ']) , selector.

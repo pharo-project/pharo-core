@@ -1,2 +1,2 @@
 popIntoRemoteTemp: remoteTempIndex inVectorAt: tempVectorIndex
-	self print: 'popIntoTemp: ', remoteTempIndex printString, ' inVectorAt: ', tempVectorIndex printString
+	self addBytecode: 'popIntoTemp: ', remoteTempIndex printString, ' inVectorAt: ', tempVectorIndex printString

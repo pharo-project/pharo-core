@@ -1,4 +1,4 @@
 methodReturnConstant: value 
 	"Print the Return Constant bytecode."
 
-	self print: 'return: ' , value printString
+	self addBytecode: 'return: ' , value printString

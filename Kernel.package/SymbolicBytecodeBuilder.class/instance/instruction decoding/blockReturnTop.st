@@ -1,4 +1,4 @@
 blockReturnTop
 	"Print the Return Top Of Stack bytecode."
 
-	self print: 'blockReturn'
+	self addBytecode: 'blockReturn'
