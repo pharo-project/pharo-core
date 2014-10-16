@@ -73,6 +73,11 @@ classesMenu: aBuilder
 		icon: (Smalltalk ui icons iconNamed: #removeIcon);
 		order: 1700;
 		withSeparatorAfter.
+	
+	(aBuilder item: #'Inspect Methods')
+		action: [ target inspectMethods ];
+		withSeparatorAfter;
+		order: 1750.	
 			
 	(aBuilder item: #'File Out')
 		action: [ target fileOutClass ];

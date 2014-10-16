@@ -1,5 +1,5 @@
 Object subclass: #OCAbstractScope
-	instanceVariableNames: 'outerScope node'
+	instanceVariableNames: 'outerScope node children'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'OpalCompiler-Core-Semantics'

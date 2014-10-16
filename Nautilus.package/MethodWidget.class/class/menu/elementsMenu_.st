@@ -106,6 +106,10 @@ elementsMenu: aBuilder
 		keyText: 'n, e, m' if: Nautilus useOldStyleKeys not;
 		action: [ target addMethodsInGroup ];
 		order: 1900.
+		
+	(aBuilder item: #'Inspect Method')
+		action: [ target inspectMethod ];
+		order: 1950.
 			
 	(aBuilder item: #'File Out')
 		action: [ target fileOutMethods ];

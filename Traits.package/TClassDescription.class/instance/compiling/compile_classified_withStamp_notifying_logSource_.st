@@ -1,6 +1,6 @@
 compile: text classified: category withStamp: changeStamp notifying: requestor logSource: logSource
  
-	| method |
+	| method selector |
 
 	method := self compiler
 		source: text;
@@ -8,7 +8,8 @@ compile: text classified: category withStamp: changeStamp notifying: requestor l
 		category: category;
 		failBlock:  [ ^nil ];
 		compile.
-		
+	
+	selector := method selector.
 	logSource ifTrue: [
 		self 
 			logMethodSource: (requestor ifNotNil: [ :r | r text ] ifNil: [ text ]) "the requestor text might have been changed by the compiler and may be different thant text argument"
@@ -17,13 +18,13 @@ compile: text classified: category withStamp: changeStamp notifying: requestor l
 			withStamp: changeStamp].
 		
 	self 
-		addAndClassifySelector: method selector 
+		addAndClassifySelector: selector 
 		withMethod: method 
 		inProtocol: category 
 		notifying: requestor.
 			
 	self instanceSide 
-		noteCompilationOf: method selector 
+		noteCompilationOf: selector 
 		meta: self isClassSide.
 
-	^ method selector
+	^ selector
