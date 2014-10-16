@@ -1,7 +1,7 @@
 testExample2
 	| cm |
 	
-	cm := IRSqueakV3PlusClosuresBytecodeGenerator new
+	cm := self newBytecodeGen
 		numArgs: 1;
 		numTemps: 1;
 		pushInstVar: 2;

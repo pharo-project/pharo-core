@@ -1,0 +1,2 @@
+newBytecodeGen
+	^ IRSqueakV3PlusClosuresBytecodeGenerator new

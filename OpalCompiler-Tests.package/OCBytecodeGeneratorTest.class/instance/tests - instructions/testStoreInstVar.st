@@ -1,7 +1,7 @@
 testStoreInstVar
 	| gen cm symbolic |
 	
-	gen := IRSqueakV3PlusClosuresBytecodeGenerator new
+	gen := self newBytecodeGen
 		numArgs: 0;
 		numTemps: 0;
 		pushLiteral: 1;

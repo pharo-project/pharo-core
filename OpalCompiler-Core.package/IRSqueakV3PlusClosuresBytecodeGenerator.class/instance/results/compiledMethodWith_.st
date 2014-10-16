@@ -10,10 +10,5 @@ compiledMethodWith: trailer
 		literals: self literals
 		bytecodes: self bytecodes
 		trailer: trailer).
-	"set the properties of cm according to properties saved"
-	properties ifNotNil: [
-		cm penultimateLiteral: properties.
-		properties  method: cm.
-		properties  pragmas do: [:each | each method: cm].
-		].
+	self addProperties: cm.
 	^cm.

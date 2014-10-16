@@ -1,5 +1,5 @@
 commentForCurrentUpdate
- ^ '14177 Add properties to classes
-	https://pharo.fogbugz.com/f/cases/14177
+ ^ '14218 Opal should be able to compile methods for SqueakV3PlusClosure and Spur
+	https://pharo.fogbugz.com/f/cases/14218
 
 '

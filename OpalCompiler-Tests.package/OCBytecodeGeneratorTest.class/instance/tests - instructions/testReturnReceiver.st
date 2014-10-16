@@ -1,13 +1,11 @@
 testReturnReceiver
-	| cm symbolic |
+	| cm  |
 	
-	cm := IRSqueakV3PlusClosuresBytecodeGenerator new
+	cm := self newBytecodeGen
 		numArgs: 0;
 		numTemps: 0;
 		returnReceiver;
 		compiledMethod.
 
-	self assert: (cm isCompiledMethod ).
-	symbolic := String streamContents: [:str | cm longPrintOn: str ].
-	self assert: symbolic = 'Quick return self'
+	self testMethod: cm against:  'Quick return self'
 	

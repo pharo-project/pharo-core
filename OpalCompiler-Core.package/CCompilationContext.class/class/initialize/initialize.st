@@ -1,3 +1,3 @@
 initialize
 	super initialize.
-	BytecodeBackend := IRSqueakV3PlusClosuresBytecodeGenerator
+	BytecodeBackend := IRSqueakV3PlusClosuresBytecodeGenerator 

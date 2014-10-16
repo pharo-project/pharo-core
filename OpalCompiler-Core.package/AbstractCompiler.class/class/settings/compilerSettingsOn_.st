@@ -12,6 +12,7 @@ compilerSettingsOn: aBuilder
 						label: 'Bytecode Backend';
 						domainValues:
 								{IRSqueakV3PlusClosuresBytecodeGenerator.
+								IRSpurSqueakV3PlusClosuresBytecodeGenerator .
 									IRSistaV1BytecodeGenerator}.
 					(aBuilder setting: #warningAllowed)
 						target: CompilationContext;

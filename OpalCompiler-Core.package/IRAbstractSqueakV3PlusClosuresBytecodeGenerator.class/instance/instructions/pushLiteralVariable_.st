@@ -1,22 +1,23 @@
-pushLiteral: object
+pushLiteralVariable: object
 
 	| index interval |
 	stack push.
-	(index := SpecialConstants identityIndexOf: object ifAbsent: 0) > 0 ifTrue: [
-		^ self nextPut: (Bytecodes at: #pushConstantTrueBytecode) + index - 1].
+
+	object isVariableBinding
+		ifFalse: [self error: 'not a literal variable'].
 
 	(index := literals literalIndexOf: object ifAbsent: 0) > 0 ifFalse: [
 		index := self addLiteral: object].
 
-	interval := Bytecodes at: #pushLiteralConstantBytecode.
+	interval := Bytecodes at: #pushLiteralVariableBytecode.
 	(index <= interval size) ifTrue: [
 		^ self nextPut: (interval at: index)
 	].
 	index <= 64 ifTrue: [
 		self nextPut: (Bytecodes at: #extendedPushBytecode).
-		^ self nextPut: 2 "lit constant" << 6 + index - 1
+		^ self nextPut: 3 "literal variable" << 6 + index - 1
 	].
-	index > 256 ifTrue: [self tooManyVars: 'literals (>256)'].
+	self checkTooManyLiterals: index.
 	self nextPut: (Bytecodes at: #doubleExtendedDoAnythingBytecode).
-	self nextPut: 3 "lit constant" << 5.
+	self nextPut: 1 "lit variable" << 7.
 	self nextPut: index - 1.

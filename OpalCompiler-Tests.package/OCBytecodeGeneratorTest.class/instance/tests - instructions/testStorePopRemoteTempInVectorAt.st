@@ -1,7 +1,7 @@
 testStorePopRemoteTempInVectorAt
-	| cm symbolic |
+	| cm  |
 	
-	cm := IRSqueakV3PlusClosuresBytecodeGenerator new
+	cm := self newBytecodeGen
 		numArgs: 0;
 		numTemps: 0;
 		pushLiteral: 1;
@@ -10,9 +10,7 @@ testStorePopRemoteTempInVectorAt
 		returnTop;
 		compiledMethod.
 
-	self assert: (cm isKindOf: CompiledMethod).
-	symbolic := String streamContents: [:str | cm longPrintOn: str ].
-	self assert: symbolic =  '13 <76> pushConstant: 1
+	self testMethod: cm against:  '13 <76> pushConstant: 1
 14 <76> pushConstant: 1
 15 <8E 00 00> popIntoTemp: 0 inVectorAt: 0
 18 <7C> returnTop'

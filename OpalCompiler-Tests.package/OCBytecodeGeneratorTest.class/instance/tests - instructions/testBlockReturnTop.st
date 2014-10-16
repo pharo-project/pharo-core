@@ -1,13 +1,11 @@
 testBlockReturnTop
-	| cm symbolic |
+	| cm |
 	
-	cm := IRSqueakV3PlusClosuresBytecodeGenerator new
+	cm := self newBytecodeGen
 		numArgs: 0;
 		numTemps: 0;
 		blockReturnTop;
 		compiledMethod.
 
-	self assert: (cm isCompiledMethod ).
-	symbolic := String streamContents: [:str | cm longPrintOn: str ].
-	self assert: symbolic = '13 <7D> blockReturn'.
+	self testMethod: cm against: '13 <7D> blockReturn'.
 	

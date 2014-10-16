@@ -1,0 +1,1 @@
+Version where primitive number is encoded in the bytecode zone.max literals ~ 65000.

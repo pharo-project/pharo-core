@@ -1,13 +1,11 @@
 testReturnConstant
-	| cm symbolic |
+	| cm  |
 	
-	cm := IRSqueakV3PlusClosuresBytecodeGenerator new
+	cm := self newBytecodeGen
 		numArgs: 0;
 		numTemps: 0;
 		returnConstant: 1;
 		compiledMethod.
 
-	self assert: (cm isCompiledMethod ).
-	symbolic := String streamContents: [:str | cm longPrintOn: str ].
-	self assert: symbolic = 'Quick return 1'
+	self testMethod: cm against:  'Quick return 1'
 	

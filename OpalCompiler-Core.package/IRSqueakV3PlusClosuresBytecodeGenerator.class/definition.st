@@ -1,5 +1,5 @@
-IRAbstractBytecodeGenerator subclass: #IRSqueakV3PlusClosuresBytecodeGenerator
+IRAbstractSqueakV3PlusClosuresBytecodeGenerator subclass: #IRSqueakV3PlusClosuresBytecodeGenerator
 	instanceVariableNames: 'primNum'
-	classVariableNames: 'BytecodeTable Bytecodes SpecialConstants'
+	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'OpalCompiler-Core-Bytecode'

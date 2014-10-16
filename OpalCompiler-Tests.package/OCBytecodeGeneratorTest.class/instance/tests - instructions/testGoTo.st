@@ -1,7 +1,7 @@
 testGoTo
-	| cm symbolic |
+	| cm  |
 	
-	cm := IRSqueakV3PlusClosuresBytecodeGenerator new
+	cm := self newBytecodeGen
 		numArgs: 0;
 		numTemps: 0;
 		pushLiteral: 1;
@@ -11,9 +11,7 @@ testGoTo
 		goto: #back;
 		compiledMethod.
 
-	self assert: (cm isCompiledMethod ).
-	symbolic := String streamContents: [:str | cm longPrintOn: str ].
-	self assert: symbolic =   '13 <76> pushConstant: 1
+	self testMethod: cm against:  '13 <76> pushConstant: 1
 14 <76> pushConstant: 1
 15 <7C> returnTop
 16 <A3 FC> jumpTo: 14'

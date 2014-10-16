@@ -1,2 +1,2 @@
 bytecodeGeneratorClass
-	^ bytecodeGeneratorClass ifNil: [ bytecodeGeneratorClass := IRSqueakV3PlusClosuresBytecodeGenerator ]
+	^ bytecodeGeneratorClass ifNil: [ bytecodeGeneratorClass := BytecodeBackend ]
