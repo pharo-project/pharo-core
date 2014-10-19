@@ -1,5 +1,6 @@
 checkMethodsForClass: aClass
-	^ aClass methods
-		do: [:each | 
-			rule checkMethod: each.
-			methodBlock value]
+	^ environment
+		selectorsForClass: aClass
+		do: [ :each | 
+			rule checkMethod: aClass>>each.
+			methodBlock value ]

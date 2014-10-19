@@ -1,9 +1,3 @@
 commentForCurrentUpdate
- ^ '14246 CompiledMethod>>hash can produce clashes
-	https://pharo.fogbugz.com/f/cases/14246
-
-14257 Replace Announcer>>#on:send:to:s senders in NativeBoost-Core
-	https://pharo.fogbugz.com/f/cases/14257
-
-14253 MC dependency warning should name which package is failing to load
-	https://pharo.fogbugz.com/f/cases/14253'
+ ^ '14228 critic rules running on all methods of a class extended by a package
+	https://pharo.fogbugz.com/f/cases/14228'
