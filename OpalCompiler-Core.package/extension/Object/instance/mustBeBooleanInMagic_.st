@@ -22,8 +22,8 @@ mustBeBooleanInMagic: context
 	methodNode body transformLastToReturn.	
 	"Keep same compilation context than the sender node's"
 	methodNode compilationContext: sendNode methodNode compilationContext copy.
-	"Disable inlining of 'if' message sends"
-	methodNode compilationContext compilerOptions: #(- optionInlineIf).
+	"Disable inlining"
+	methodNode compilationContext compilerOptions: #(- optionInlineIf optionInlineAndOr optionInlineWhile).
 	"Generate the method"	
 	method := methodNode generate.
 	"jump to the instruction after jump"

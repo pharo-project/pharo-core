@@ -3,7 +3,6 @@ openPharoZenWorkspace
 
 	"self openPharoZenWorkspace"
 
-	Smalltalk tools openWorkspace
-		label: 'Pharo Zen';
-		toggleStylingActive;
-		contents: self pharoZenValuesContents
+	UIManager default 
+		edit: self pharoZenValuesContents
+		label: 'Pharo Zen'

@@ -1,3 +1,3 @@
 autoSelect: aSelector
 
-	textModel readSelectionBlock: [:text | self searchedString: aSelector in: text ]
+	textModel readSelectionBlock: [:text | self searchedString: aSelector asString in: text ]

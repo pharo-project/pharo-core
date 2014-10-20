@@ -3,4 +3,4 @@ whileFalse
 	This is in case the message is sent to other than a literal block.
 	Evaluate the receiver, as long as its value is false."
  
-	^ [self value] whileFalse: []
+	self value ifFalse: [ self whileFalse ]

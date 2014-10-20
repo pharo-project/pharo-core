@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '14240 evaluating nil and: [true] gives an infinite loop
+update40313
+	"self new update40313"
+	self withUpdateLog: '14240 evaluating nil and: [true] gives an infinite loop
 	https://pharo.fogbugz.com/f/cases/14240
 
 14264 World Menu > Help > Pharo Zen DNU
@@ -9,4 +10,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/14263
 
 14262 small speedup of CompiledMethod>>#endPC
-	https://pharo.fogbugz.com/f/cases/14262'
+	https://pharo.fogbugz.com/f/cases/14262'.
+	self loadTogether: self script313 merge: false.
+	self flushCaches.
