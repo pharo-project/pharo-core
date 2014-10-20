@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '14228 critic rules running on all methods of a class extended by a package
-	https://pharo.fogbugz.com/f/cases/14228'
+ ^ '14270 Workaround: speed up code critique by not checking send messages for now
+	https://pharo.fogbugz.com/f/cases/14270'

@@ -1,7 +1,8 @@
 checkMethod: aMethod 
 	| message |
 	message := aMethod messages 
-		detect: [ :each | (SystemNavigation default implementorsExistOf: each) not ]
+		"here we need to take the environemnt into account that the code critique is run on. Maybe environemnts need to cache implemnted symbols"
+		detect: [ :each | ("SystemNavigation default implementorsExistOf: each"true ) not ]
 		ifNone: 
 			[ aMethod superMessages 
 				detect: 
