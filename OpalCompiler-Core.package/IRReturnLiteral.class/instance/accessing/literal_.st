@@ -1,0 +1,2 @@
+literal: anObject
+	literal := anObject

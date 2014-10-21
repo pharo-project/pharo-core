@@ -1,4 +1,5 @@
 replaceNode: aNode withNode: anotherNode 
 
-	self add: anotherNode before: aNode.
-	sequence remove: aNode ifAbsent: [self error].
+	| index |
+	index := sequence indexOf: aNode ifAbsent: [ self error ].
+	sequence at: index put: (anotherNode sequence: self).

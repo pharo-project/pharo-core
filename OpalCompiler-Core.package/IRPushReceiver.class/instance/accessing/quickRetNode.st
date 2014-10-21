@@ -1,0 +1,3 @@
+quickRetNode
+	^ IRReturnReceiver new
+	

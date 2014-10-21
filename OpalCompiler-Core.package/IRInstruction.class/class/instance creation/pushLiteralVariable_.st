@@ -1,7 +1,6 @@
 pushLiteralVariable: object
 
-	^ IRLiteralVariableAccess new
+	^ IRPushLiteralVariable new
 		association: object;
-		store: false;
 		yourself
 	 

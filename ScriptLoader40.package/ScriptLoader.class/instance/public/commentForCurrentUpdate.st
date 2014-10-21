@@ -1,9 +1,5 @@
 commentForCurrentUpdate
- ^ '14272 #_foo: isBinary ---> true
-	https://pharo.fogbugz.com/f/cases/14272
+ ^ '14235 IRInterpreter should be replaced by IRVisitor
+	https://pharo.fogbugz.com/f/cases/14235
 
-14221 Tests around Graphics
-	https://pharo.fogbugz.com/f/cases/14221
-
-14271 RBCodeCruftLeftInMethodsRule>>initialize and RBAllAnyNoneSatisfyRule>>name have spelling errors
-	https://pharo.fogbugz.com/f/cases/14271'
+'

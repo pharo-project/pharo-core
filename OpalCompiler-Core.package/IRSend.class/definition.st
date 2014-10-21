@@ -2,4 +2,4 @@ IRInstruction subclass: #IRSend
 	instanceVariableNames: 'selector superOf'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'OpalCompiler-Core-IR'
+	category: 'OpalCompiler-Core-IR-Nodes'

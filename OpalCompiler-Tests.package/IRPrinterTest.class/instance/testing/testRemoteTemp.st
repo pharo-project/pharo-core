@@ -5,16 +5,14 @@ testRemoteTemp
 label: 1
 createTempVectorNamed: #methodVector withVars: #(#b)
 pushLiteral: 1
-storeTemp: #a
-popTop
+popIntoTemp: #a
 pushClosureCopyCopiedValues: #(#a #c #methodVector) args: #()
 
 label: 2
 pushTemp: #a
 pushLiteral: 1
 send: #+
-storeRemoteTemp: #b inVector: #methodVector
-popTop
+popIntoRemoteTemp: #b inVector: #methodVector
 blockReturnTop
 
 label: 3

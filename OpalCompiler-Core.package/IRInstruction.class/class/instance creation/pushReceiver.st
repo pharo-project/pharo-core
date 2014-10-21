@@ -1,2 +1,2 @@
 pushReceiver
-	^IRReceiverAccess new
+	^ IRPushReceiver new

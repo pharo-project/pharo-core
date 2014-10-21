@@ -1,3 +1,0 @@
-returnTop
-
-	stream nextPutAll: 'returnTop'.

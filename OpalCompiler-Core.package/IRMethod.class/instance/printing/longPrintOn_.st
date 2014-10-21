@@ -1,6 +1,5 @@
 longPrintOn: stream
 
-	IRPrinter new
-		indent: 0;
+	IRPrinterV2 new
 		stream: stream;
-		interpret: self
+		visitNode: self

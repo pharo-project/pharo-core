@@ -1,5 +1,5 @@
 IRInstruction subclass: #IRAccess
-	instanceVariableNames: 'name store'
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'OpalCompiler-Core-IR'
+	category: 'OpalCompiler-Core-IR-Nodes'

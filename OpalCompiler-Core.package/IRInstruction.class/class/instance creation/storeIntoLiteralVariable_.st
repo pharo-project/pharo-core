@@ -1,6 +1,5 @@
 storeIntoLiteralVariable: object
 
-	^ IRLiteralVariableAccess new
+	^ IRStoreLiteralVariable new
 		association: object;
-		store: true;
 		yourself

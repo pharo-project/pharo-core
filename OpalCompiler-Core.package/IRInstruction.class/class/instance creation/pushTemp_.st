@@ -1,6 +1,5 @@
 pushTemp: aName
 	aName = 'self' ifTrue: [self error: 'use pushReceiver'].
-	^ IRTempAccess new
+	^ IRPushTemp new
 		name: aName;
-		store: false;
 		yourself

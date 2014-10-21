@@ -1,5 +1,4 @@
 storeTemp: aName
-	^ IRTempAccess new
+	^ IRStoreTemp new
 		name: aName;
-		store: true;
 		yourself

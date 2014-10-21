@@ -1,6 +1,5 @@
 storeInstVar: index
-	^ IRInstVarAccess new 
+	^ IRStoreInstVar new 
 		index: index; 
-		store: true; 
-		yourself.
+		yourself
 	

@@ -1,6 +1,5 @@
 storeRemoteTemp: aName inVectorAt: nameOfVector
-	^ IRRemoteTempAccess new
+	^ IRStoreRemoteTemp new
 		name: aName;
 		tempVectorName: nameOfVector;
-		store: true;
 		yourself.

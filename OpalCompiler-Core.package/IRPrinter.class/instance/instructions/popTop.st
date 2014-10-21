@@ -1,3 +1,0 @@
-popTop
-
-	stream nextPutAll: 'popTop'

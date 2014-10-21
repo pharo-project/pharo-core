@@ -1,2 +1,2 @@
 pushThisContext
-	^IRThisContextAccess new
+	^ IRPushThisContext new

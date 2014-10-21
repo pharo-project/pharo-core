@@ -1,2 +1,0 @@
-initialize
-	store := false

@@ -1,3 +1,0 @@
-pushDup
-
-	stream nextPutAll: 'pushDup'

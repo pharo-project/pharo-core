@@ -1,3 +1,0 @@
-blockReturnTop
-
-	stream nextPutAll: 'blockReturnTop'.

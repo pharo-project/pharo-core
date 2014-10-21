@@ -1,6 +1,5 @@
 pushInstVar: index
 
-	^ IRInstVarAccess new 
+	^ IRPushInstVar new 
 			index:  index; 
-			store: false;
 			yourself

@@ -1,2 +1,0 @@
-executeOn: interpreter
-	interpreter blockReturnTop.

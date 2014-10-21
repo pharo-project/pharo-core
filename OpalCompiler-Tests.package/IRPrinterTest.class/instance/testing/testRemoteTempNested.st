@@ -5,8 +5,7 @@ testRemoteTempNested
 label: 1
 createTempVectorNamed: #methodVector withVars: #(#b)
 pushLiteral: 1
-storeTemp: #a
-popTop
+popIntoTemp: #a
 pushClosureCopyCopiedValues: #(#methodVector #a) args: #()
 
 label: 2

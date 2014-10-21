@@ -1,7 +1,6 @@
 longPrintOn: stream
 
-	[IRPrinter new
-		indent: 0;
+	[IRPrinterV2 new
 		stream: stream;
-		interpretSequence: self
+		visitNode: self
 	] onDNU: #orderNumber do: [:ex | ex resume: ex receiver]

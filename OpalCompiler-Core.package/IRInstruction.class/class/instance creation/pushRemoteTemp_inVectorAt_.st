@@ -1,6 +1,5 @@
 pushRemoteTemp: aName inVectorAt: nameOfVector
-	^ IRRemoteTempAccess new
+	^ IRPushRemoteTemp new
 		name: aName;
 		tempVectorName: nameOfVector;
-		store: false;
 		yourself.
