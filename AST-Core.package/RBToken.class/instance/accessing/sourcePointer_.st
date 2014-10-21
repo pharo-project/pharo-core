@@ -1,0 +1,2 @@
+sourcePointer: anInteger
+	sourcePointer := anInteger

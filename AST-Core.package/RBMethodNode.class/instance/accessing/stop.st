@@ -1,2 +1,2 @@
 stop
-	^source size
+	^ self newSource size

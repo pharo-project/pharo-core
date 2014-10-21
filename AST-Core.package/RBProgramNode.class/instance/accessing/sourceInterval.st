@@ -1,2 +1,2 @@
 sourceInterval
-	^self start to: self stop
+	^ self start to: self stop

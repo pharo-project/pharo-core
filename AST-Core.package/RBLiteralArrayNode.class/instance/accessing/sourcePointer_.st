@@ -1,0 +1,2 @@
+sourcePointer: anInteger
+	start := anInteger
