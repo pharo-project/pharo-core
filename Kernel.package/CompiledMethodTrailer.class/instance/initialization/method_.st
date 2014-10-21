@@ -14,7 +14,7 @@ method: aMethod
 		ifTrue: [ self decodeSourcePointer ]
 	ifFalse: [ kind == #VarLengthSourcePointer
 		ifTrue: [ self decodeVarLengthSourcePointer ]
-	ifFalse: [ kind = #NoTrailer
+	ifFalse: [ kind == #NoTrailer
 			ifTrue: [ self decodeNoTrailer ]
 	ifFalse: [ 
 		"slow but general decoding using perform"

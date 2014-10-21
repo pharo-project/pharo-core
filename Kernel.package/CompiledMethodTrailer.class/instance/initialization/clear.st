@@ -1,4 +1,4 @@
 clear
 	kind := #NoTrailer.
-	size := 1.
+	size := 4.
 	data := encodedData := method := nil

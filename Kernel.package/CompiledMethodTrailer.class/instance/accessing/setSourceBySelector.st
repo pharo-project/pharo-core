@@ -4,4 +4,5 @@ setSourceBySelector
 	sending #getSourceCodeBySelector: message to method's class" 
 	
 	self clear.
-	kind := #SourceBySelector
+	kind := #SourceBySelector.
+	self encode.

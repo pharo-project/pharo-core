@@ -18,6 +18,7 @@ defaultSpec
 										] height: self buttonHeight;
 										add: #message
 								];
+								addVSplitter;
 								newColumn: [ :c |
 									c 
 										newRow: [:r1 | ] height: self buttonHeight;
@@ -33,7 +34,7 @@ defaultSpec
 												add: #remotes;
 												add: #manageRemotes width: self buttonHeight
 										] height: self buttonHeight
-								] width: 250								
+								]
 						] height: (4*self buttonHeight + 12)
 				] ] bottom: 0.4;
 		addHSplitter;
