@@ -4,6 +4,6 @@ precedence
 	2 for binary and 3 for keyword selectors."
 
 	self size = 0 ifTrue: [^ 0].
-	self first isLetter ifFalse: [^ 2].
+	(self first isLetter or: [ self first = $_ ]) ifFalse: [^ 2].
 	self last = $: ifTrue: [^ 3].
 	^ 1

@@ -1,2 +1,2 @@
 name
-	^ 'Replace with #allSatsify:, #anySatisfy: or #noneSatsify:'
+	^ 'Replace with #allSatisfy:, #anySatisfy: or #noneSatisfy:'
