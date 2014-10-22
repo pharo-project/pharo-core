@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '14276 Add UDPSocketEchoTest test/example
-	https://pharo.fogbugz.com/f/cases/14276
+ ^ '14284 fix #sourceNode for Blocks
+	https://pharo.fogbugz.com/f/cases/14284
 
-14222 Tests around KeyChain
-	https://pharo.fogbugz.com/f/cases/14222
-
-14281 Replace Announcer>>#on:send:to:s senders in Nautilus
-	https://pharo.fogbugz.com/f/cases/14281'
+14282 add SourceNode tab for IRInstruction and SymbolicBytecode
+	https://pharo.fogbugz.com/f/cases/14282'
