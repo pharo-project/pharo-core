@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '14284 fix #sourceNode for Blocks
-	https://pharo.fogbugz.com/f/cases/14284
+ ^ '14286 add a test for #sourceNode on Contexts for optimized blocks
+	https://pharo.fogbugz.com/f/cases/14286
 
-14282 add SourceNode tab for IRInstruction and SymbolicBytecode
-	https://pharo.fogbugz.com/f/cases/14282'
+14283 Slice for Spur integration
+	https://pharo.fogbugz.com/f/cases/14283'
