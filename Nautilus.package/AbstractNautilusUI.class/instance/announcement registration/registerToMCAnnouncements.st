@@ -1,6 +1,6 @@
 registerToMCAnnouncements
 	SystemAnnouncer uniqueInstance weak	
-		on: MCVersionCreated send: #newMCVersion: to: self;
-		on: MCPackageModified send: #mcPackageModified: to: self;
-		on: MCWorkingCopyCreated send: #mcWorkingCopyCreated: to: self;
-		on: MCWorkingCopyDeleted send: #mcWorkingCopyDeleted: to: self.
+		when: MCVersionCreated send: #newMCVersion: to: self;
+		when: MCPackageModified send: #mcPackageModified: to: self;
+		when: MCWorkingCopyCreated send: #mcWorkingCopyCreated: to: self;
+		when: MCWorkingCopyDeleted send: #mcWorkingCopyDeleted: to: self.
