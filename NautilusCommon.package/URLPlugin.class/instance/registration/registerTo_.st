@@ -1,9 +1,9 @@
 registerTo: aModel
 
 	aModel announcer
-		on: NautilusPackageSelected send: #changed: to: self;
-		on: NautilusClassSelected send: #changed: to: self;
-		on: NautilusGroupSelected send: #changed: to: self;
-		on: NautilusProtocolSelected send: #changed: to: self;
-		on: NautilusMethodSelected send: #changed: to: self;
-		on: NautilusShowGroupsChanged send: #changed: to: self.
+		when: NautilusPackageSelected send: #changed: to: self;
+		when: NautilusClassSelected send: #changed: to: self;
+		when: NautilusGroupSelected send: #changed: to: self;
+		when: NautilusProtocolSelected send: #changed: to: self;
+		when: NautilusMethodSelected send: #changed: to: self;
+		when: NautilusShowGroupsChanged send: #changed: to: self.

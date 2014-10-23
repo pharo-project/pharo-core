@@ -1,4 +1,4 @@
 registerTo: aModel
 
 	aModel announcer
-		on: NautilusPackageSelected send: #packageSelected: to: self
+		when: NautilusPackageSelected send: #packageSelected: to: self

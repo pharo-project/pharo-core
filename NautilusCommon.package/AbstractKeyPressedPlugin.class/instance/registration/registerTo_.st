@@ -1,4 +1,4 @@
 registerTo: aModel
 
 	aModel announcer
-		on: NautilusKeyPressed send: #keyPressed: to: self
+		when: NautilusKeyPressed send: #keyPressed: to: self

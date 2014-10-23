@@ -1,4 +1,4 @@
 registerTo: aModel
 
 	aModel announcer
-		on: NautilusClassSelected send: #classSelected: to: self
+		when: NautilusClassSelected send: #classSelected: to: self

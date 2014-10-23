@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '14286 add a test for #sourceNode on Contexts for optimized blocks
-	https://pharo.fogbugz.com/f/cases/14286
+ ^ '14068 Should add spyFor: to systemProfiler
+	https://pharo.fogbugz.com/f/cases/14068
 
-14283 Slice for Spur integration
-	https://pharo.fogbugz.com/f/cases/14283'
+14296 Replace Announcer>>#on:send:to:s senders in NautilusCommon
+	https://pharo.fogbugz.com/f/cases/14296'
