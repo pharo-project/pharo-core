@@ -8,6 +8,6 @@ buildWindowMenu
 		enablementSelector: #allowedToClose.
 	aMenu lastItem icon: self theme windowCloseForm.
 	aMenu addLine.
-	aMenu add: 'About' translated action: #showAbout.
+	aMenu add: 'About' action: #showAbout.
 	aMenu lastItem icon: self theme smallHelpIcon.
 	^aMenu

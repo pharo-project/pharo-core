@@ -1,10 +1,10 @@
 menu: menu shifted: aBoolean
 	menu
-		add: 'Hierarchy (h)' translated
+		add: 'Hierarchy (h)'
 		target: self
 		selector: #browseHierarchy.
 	menu
-		add: 'References (N)' translated
+		add: 'References (N)'
 		target: self
 		selector: #browseReferences.
 	^ super menu: menu shifted: aBoolean.

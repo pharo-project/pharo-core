@@ -1,10 +1,10 @@
 mainInspectSubMenu: aMenu 
 	aMenu 
-		add: 'Inspect (i)' translated
+		add: 'Inspect (i)' 
 		target: self
 		selector: #inspectSelectedObjectInNewWindow.
 				
 	aMenu
-		add: 'Explore (I)' translated
+		add: 'Explore (I)' 
 		target: self
 		selector: #exploreSelectedObject.

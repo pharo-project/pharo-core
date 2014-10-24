@@ -20,6 +20,6 @@ aMenu addLine.
 				enablement: [self isOpen
 						and: [arrows ~~ #both]]
 				action: #makeBothArrows.
-			aMenu add: 'customize arrows' translated action: #customizeArrows:.
+			aMenu add: 'customize arrows' action: #customizeArrows:.
 			(self hasProperty: #arrowSpec)
-				ifTrue: [aMenu add: 'standard arrows' translated action: #standardArrows]
+				ifTrue: [aMenu add: 'standard arrows' action: #standardArrows]

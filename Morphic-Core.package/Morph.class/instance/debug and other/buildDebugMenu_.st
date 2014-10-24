@@ -6,7 +6,7 @@ buildDebugMenu: aHand
 	aMenu := UIManager default newMenuIn: self for: self.
 	aMenu addStayUpItem.
 	(self hasProperty: #errorOnDraw) ifTrue:
-		[aMenu add: 'start drawing again' translated action: #resumeAfterDrawError.].
+		[aMenu add: 'start drawing again' action: #resumeAfterDrawError.].
 	(self hasProperty: #drawError) ifTrue:
 		[aMenu add: 'debug drawing error' translated action: #debugDrawError.
 		aMenu addLine].
@@ -14,17 +14,17 @@ buildDebugMenu: aHand
 		[aMenu add: 'start stepping again' translated action: #resumeAfterStepError.
 		aMenu addLine].
 
-	aMenu add: 'inspect morph' translated action: #inspectInMorphic:.
+	aMenu add: 'inspect morph' action: #inspectInMorphic:.
 	aMenu lastItem icon: Smalltalk ui icons smallInspectItIcon.
-	aMenu add: 'inspect owner chain' translated action: #inspectOwnerChain.
+	aMenu add: 'inspect owner chain' action: #inspectOwnerChain.
 	aMenu lastItem icon: Smalltalk ui icons smallInspectItIcon.
 	self isMorphicModel ifTrue: [
-		aMenu add: 'inspect model' translated target: self model selector: #inspect.
+		aMenu add: 'inspect model' target: self model selector: #inspect.
 		aMenu lastItem icon: Smalltalk ui icons smallInspectItIcon ].
-     aMenu add: 'explore morph' translated target: self selector: #explore.
+     aMenu add: 'explore morph' target: self selector: #explore.
 	aMenu lastItem icon: Smalltalk ui icons smallInspectItIcon.
 	aMenu addLine.
-	aMenu add: 'browse morph class' translated target: self selector: #browseHierarchy.
+	aMenu add: 'browse morph class' target: self selector: #browseHierarchy.
 	(self isMorphicModel)
 		ifTrue: [aMenu
 				add: 'browse model class'

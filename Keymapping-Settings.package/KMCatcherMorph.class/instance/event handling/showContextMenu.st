@@ -4,9 +4,9 @@ showContextMenu
 	
 	edited 
 		ifTrue: [
-			menu add: 'accept' translated action: #accept.
-			menu add: 'clear' translated action: #clear.
-			menu add: 'cancel' translated action: #cancel.
+			menu add: 'accept' action: #accept.
+			menu add: 'clear' action: #clear.
+			menu add: 'cancel' action: #cancel.
 			].
 		
 	menu popUpInWorld

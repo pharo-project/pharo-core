@@ -7,5 +7,5 @@ menu: aMenu shifted: aBoolean
 			rule isTransformationRule ifTrue: [ 
 				aMenu
 					addLine;
-					add: 'Transform selected critic' translated target: self selector: #transformCritic ] ].
+					add: 'Transform selected critic' target: self selector: #transformCritic ] ].
 	^ aMenu

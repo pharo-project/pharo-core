@@ -4,8 +4,8 @@ addFillStyleMenuItems: aMenu hand: aHand
 	menu := UIManager default newMenuIn: self for: self.
 	self fillStyle addFillStyleMenuItems: menu hand: aHand from: self.
 	menu addLine.
-	menu add: 'solid fill' translated action: #useSolidFill.
-	menu add: 'gradient fill' translated action: #useGradientFill.
-	menu add: 'bitmap fill' translated action: #useBitmapFill.
-	menu add: 'default fill' translated action: #useDefaultFill.
+	menu add: 'solid fill' action: #useSolidFill.
+	menu add: 'gradient fill' action: #useGradientFill.
+	menu add: 'bitmap fill' action: #useBitmapFill.
+	menu add: 'default fill' action: #useDefaultFill.
 	aMenu add: 'fill style' translated subMenu: menu.

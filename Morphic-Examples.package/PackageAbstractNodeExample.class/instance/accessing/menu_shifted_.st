@@ -1,17 +1,17 @@
 menu: menu shifted: b 
 	menu
-		add: 'Expand all' translated
+		add: 'Expand all' 
 		target: self
 		selector: #expandAll.
 	menu
-		add: 'Browse (b)' translated
+		add: 'Browse (b)' 
 		target: self
 		selector: #browseItem.
 	menu
-		add: 'Inspect (i)' translated
+		add: 'Inspect (i)' 
 		target: self
 		selector: #inspectItem.
 	menu
-		add: 'Explore (I)' translated
+		add: 'Explore (I)' 
 		target: self
 		selector: #exploreItem.

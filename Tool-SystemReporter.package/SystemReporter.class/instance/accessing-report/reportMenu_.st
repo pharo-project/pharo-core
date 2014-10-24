@@ -1,5 +1,5 @@
 reportMenu: aMenu
 	^ aMenu
-		addTitle: 'Report' translated;
-		add: 'Copy to Clipboard' translated action: #copyReportToClipboard;
+		addTitle: 'Report' ;
+		add: 'Copy to Clipboard' action: #copyReportToClipboard;
 		yourself

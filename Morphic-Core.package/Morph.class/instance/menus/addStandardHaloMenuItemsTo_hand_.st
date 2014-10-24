@@ -4,8 +4,8 @@ addStandardHaloMenuItemsTo: aMenu hand: aHandMorph
 	self isWorldMorph ifTrue:
 		[^ self addWorldHaloMenuItemsTo: aMenu hand: aHandMorph].
 
-	aMenu add: 'send to back' translated action: #goBehind.
-	aMenu add: 'bring to front' translated action: #comeToFront.
+	aMenu add: 'send to back' action: #goBehind.
+	aMenu add: 'bring to front' action: #comeToFront.
 	self addEmbeddingMenuItemsTo: aMenu hand: aHandMorph.
 	aMenu addLine.
 

@@ -2,9 +2,8 @@ refreshSubMenu: aMenu
 	"Add a refresh button in the inspector. Not used anymore since there is this loop in initializeInspectorLoop."
 
 	aMenu 
-		add: 'Refresh Inspector' translated
+		add: 'Refresh Inspector'
 		target: self
-		selector: #refresh.
-	
+		selector: #refresh.	
 	aMenu addLine.
 	

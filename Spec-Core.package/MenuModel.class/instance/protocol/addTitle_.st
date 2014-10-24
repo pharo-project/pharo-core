@@ -1,3 +1,2 @@
 addTitle: aString
-
-	title value: aString
+	title value: aString translated

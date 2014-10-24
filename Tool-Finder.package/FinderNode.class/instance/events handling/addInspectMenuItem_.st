@@ -1,6 +1,6 @@
 addInspectMenuItem: menu
 
 	menu
-		add: 'Inspect (i)' translated
+		add: 'Inspect (i)'
 		target: self
 		selector: #inspectItem.

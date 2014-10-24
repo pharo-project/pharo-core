@@ -5,9 +5,9 @@ addTableLayoutMenuItems: aMenu hand: aHand
 	menu addUpdating: #hasClipLayoutCellsString action: #changeClipLayoutCells.
 	menu addUpdating: #hasRubberBandCellsString action: #changeRubberBandCells.
 	menu addLine.
-	menu add: 'change cell inset...' translated action: #changeCellInset:.
-	menu add: 'change min cell size...' translated action: #changeMinCellSize:.
-	menu add: 'change max cell size...' translated action: #changeMaxCellSize:.
+	menu add: 'change cell inset...' action: #changeCellInset:.
+	menu add: 'change min cell size...' action: #changeMinCellSize:.
+	menu add: 'change max cell size...' action: #changeMaxCellSize:.
 	menu addLine.
 
 	sub := UIManager default newMenuIn: self for: self.

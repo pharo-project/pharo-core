@@ -7,21 +7,21 @@ addYellowButtonMenuItemsTo: aMenu event: evt
 	self addModelYellowButtonItemsTo: aMenu event: evt.
 	self cmdGesturesEnabled ifTrue: [
 			aMenu addLine.
-			aMenu add: 'inspect' translated action: #inspect].
+			aMenu add: 'inspect' action: #inspect].
 	aMenu addLine.
-	self isWorldMorph ifFalse: [aMenu add: 'delete' translated action: #delete].
+	self isWorldMorph ifFalse: [aMenu add: 'delete' action: #delete].
 	self world selectedObject == self
-		ifTrue: [aMenu add: 'halo off' translated action: #removeHalo]
+		ifTrue: [aMenu add: 'halo off' action: #removeHalo]
 		ifFalse: [aMenu add: 'halo on' translated action: #addHalo].
 	(self isWorldMorph
 			or: [self wantsToBeTopmost])
 		ifFalse: [
 			aMenu addLine.
-			aMenu add: 'send to back' translated action: #goBehind.
-			aMenu add: 'bring to front' translated action: #comeToFront.
+			aMenu add: 'send to back' action: #goBehind.
+			aMenu add: 'bring to front' action: #comeToFront.
 			self addEmbeddingMenuItemsTo: aMenu hand: evt hand].
 	self isWorldMorph ifFalse: [
-			self isFullOnScreen ifFalse: [aMenu add: 'move onscreen' translated action: #goHome]].
+			self isFullOnScreen ifFalse: [aMenu add: 'move onscreen' action: #goHome]].
 			self addLayoutMenuItems: aMenu hand: evt hand.
 			(owner notNil
 					and: [owner isTextMorph])
@@ -31,9 +31,9 @@ addYellowButtonMenuItemsTo: aMenu event: evt
 			self addToggleItemsToHaloMenu: aMenu].
 	aMenu addLine.
 	self isWorldMorph
-		ifFalse: [aMenu add: 'copy to paste buffer' translated action: #copyToPasteBuffer:].
-	(self allStringsAfter: nil) isEmpty ifFalse: [aMenu add: 'copy text' translated action: #clipText].
+		ifFalse: [aMenu add: 'copy to paste buffer' action: #copyToPasteBuffer:].
+	(self allStringsAfter: nil) isEmpty ifFalse: [aMenu add: 'copy text' action: #clipText].
 	self addExportMenuItems: aMenu hand: evt hand.
 	aMenu addLine.
-	aMenu add: 'adhere to edge...' translated action: #adhereToEdge.
+	aMenu add: 'adhere to edge...' action: #adhereToEdge.
 	self addCustomMenuItems: aMenu hand: evt hand

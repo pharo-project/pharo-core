@@ -4,10 +4,10 @@ buildWindowMenu
 	| aMenu |
 	aMenu := UIManager default
 					newMenuIn: self for: self.
-	aMenu add: 'Change name...' translated action: #relabel.
+	aMenu add: 'Change name...' action: #relabel.
 	aMenu addLine.
-	aMenu add: 'Send to back' translated action: #sendToBack.
-	aMenu add: 'Make next-to-topmost' translated action: #makeSecondTopmost.
+	aMenu add: 'Send to back' action: #sendToBack.
+	aMenu add: 'Make next-to-topmost' action: #makeSecondTopmost.
 	aMenu addLine.
 	self mustNotClose
 		ifFalse:

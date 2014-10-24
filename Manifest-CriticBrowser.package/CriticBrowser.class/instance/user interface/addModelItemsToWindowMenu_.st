@@ -3,5 +3,5 @@ addModelItemsToWindowMenu: aMenu
 
 	aMenu
 		addLine;
-		add: 'Clean all manifest' translated target: checker selector: #cleanAllManifest;
-		add: 'Reapply all  rules' translated target: self selector: #reapplyAllRules
+		add: 'Clean all manifest' target: checker selector: #cleanAllManifest;
+		add: 'Reapply all  rules' target: self selector: #reapplyAllRules

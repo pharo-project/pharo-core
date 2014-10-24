@@ -1,12 +1,12 @@
 menu: menu shifted: aBoolean
 	
 	menu
-		add: 'Implementors (m)' translated
+		add: 'Implementors (m)'
 		target: self
 		selector: #browseImplementors.
 		
 	menu
-		add: 'Senders (n)' translated
+		add: 'Senders (n)'
 		target: self
 		selector: #browseSenders.
 		

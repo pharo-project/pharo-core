@@ -16,6 +16,5 @@ findWindow: evt
 	nakedMorphs isEmpty ifFalse: [menu addLine].
 	(nakedMorphs asSortedCollection: [:w1 :w2 | w1 class name caseInsensitiveLessOrEqual: w2 class name]) do:
 		[:w | menu add: w class name target: w selector: #comeToFrontAndAddHalo].
-	menu addTitle: 'find window' translated.
-	
+	menu addTitle: 'find window'.
 	menu popUpEvent: evt in: self.
