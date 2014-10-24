@@ -53,8 +53,8 @@ interpretExtension: offset in: method for: client
 		[^byte2 < 128
 			ifTrue: [client pushNewArrayOfSize: byte2]
 			ifFalse: [client pushConsArrayWithElements: byte2 - 128]].
-	offset = 11 ifTrue: [^self error: 'unusedBytecode'].
 	byte3 := method at: pc.  pc := pc + 1.
+	offset = 11 ifTrue: [^client callPrimitive: byte2 + (byte3 * 256) ].
 	offset = 12 ifTrue: [^client pushRemoteTemp: byte2 inVectorAt: byte3].
 	offset = 13 ifTrue: [^client storeIntoRemoteTemp: byte2 inVectorAt: byte3].
 	offset = 14 ifTrue: [^client popIntoRemoteTemp: byte2 inVectorAt: byte3].

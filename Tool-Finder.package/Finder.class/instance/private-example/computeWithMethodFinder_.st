@@ -11,7 +11,6 @@ computeWithMethodFinder: aString
 		on: SyntaxErrorNotification
 		do: [ :e | 
 			self inform: 'Syntax Error: ' , e errorMessage.
-			self contents: e errorCode allButFirst allButLast.
 			^ #() ].	"#( data1 data2 result )"
 	statements := (self class compiler parse: 'zort ' , data) body statements reject: [ :each | each isReturn ].
 	dataStrings := statements
