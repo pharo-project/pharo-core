@@ -1,0 +1,2 @@
+isRepeatedWrite
+	^usage = #repeatedWrite

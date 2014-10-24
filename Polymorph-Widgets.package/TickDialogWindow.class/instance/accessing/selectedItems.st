@@ -1,0 +1,2 @@
+selectedItems 
+	^ self listModel selectedItems

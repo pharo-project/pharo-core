@@ -1,3 +1,3 @@
 markEscapingWrite
 	escaping := #escapingWrite.
-	usage := #write.
+	self isRepeatedWrite ifFalse:[usage := #write]

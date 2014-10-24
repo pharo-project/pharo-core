@@ -1,2 +1,2 @@
 isWrite
-	^usage = #write
+	^ usage = #write or: [ self isRepeatedWrite ]
