@@ -1,9 +1,8 @@
 commentForCurrentUpdate
- ^ '14313 Replace Announcer>>#on:send:to:s senders in RPackage-SystemIntegration
-	https://pharo.fogbugz.com/f/cases/14313
+ ^ '13115 unnecessary concatenation 
+	https://pharo.fogbugz.com/f/cases/13115
 
-14303 RemotesManager: Make more generally useful
-	https://pharo.fogbugz.com/f/cases/14303
+13158 Adding class-side #initialize should not template with /super initialize/
+	https://pharo.fogbugz.com/f/cases/13158
 
-11065 Blocks should have some suggestions (at least the same as expressions so far)
-	https://pharo.fogbugz.com/f/cases/11065'
+'
