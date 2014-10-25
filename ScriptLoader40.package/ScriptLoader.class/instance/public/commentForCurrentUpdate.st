@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '14309 add #selectItems: and #selectedItems protocols to TickDialogWindow
-	https://pharo.fogbugz.com/f/cases/14309
+ ^ '14313 Replace Announcer>>#on:send:to:s senders in RPackage-SystemIntegration
+	https://pharo.fogbugz.com/f/cases/14313
 
-14256 wrong number of tempvars for optimized loops
-	https://pharo.fogbugz.com/f/cases/14256
+14303 RemotesManager: Make more generally useful
+	https://pharo.fogbugz.com/f/cases/14303
 
-10839 VirtualMachine>>#maxExternalSemaphores: has bogus implementation (sort of)
-	https://pharo.fogbugz.com/f/cases/10839
-
-14308 EyeInspector should not register as #basicInspector
-	https://pharo.fogbugz.com/f/cases/14308'
+11065 Blocks should have some suggestions (at least the same as expressions so far)
+	https://pharo.fogbugz.com/f/cases/11065'

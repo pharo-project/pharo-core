@@ -1,3 +1,3 @@
 initialize
-	selectedRemotes := #().
+	selectedRemotes := Set new.
 	super initialize

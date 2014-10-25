@@ -3,27 +3,27 @@ registerInterestToAnnouncer: anAnnouncer
 	anAnnouncer unsubscribe: self.
 	
 	anAnnouncer weak
-		on: CategoryAdded send: #systemCategoryAddedActionFrom: to: self;
-		on: CategoryRemoved send: #systemCategoryRemovedActionFrom: to: self;
-		on: CategoryRenamed send: #systemCategoryRenamedActionFrom: to: self;
-		on:  ClassAdded send: #systemClassAddedActionFrom: to: self;
-		on:  ClassRecategorized send: #systemClassRecategorizedActionFrom: to: self;
-		on:  ClassRemoved send: #systemClassRemovedActionFrom: to: self;
-		on:  ClassRenamed send: #systemClassRenamedActionFrom: to: self;
-		on:  ClassReorganized send: #systemClassReorganizedActionFrom: to: self;
-		on:  MethodAdded send: #systemMethodAddedActionFrom: to: self;
-		on:  MethodModified send: #systemMethodModifiedActionFrom: to: self;
-		on:  MethodRecategorized send: #systemMethodRecategorizedActionFrom: to: self;
-		on:  MethodRemoved send: #systemMethodRemovedActionFrom: to: self;
-		on:  ProtocolAdded send: #systemProtocolAddedActionFrom: to: self;
-		on:  ProtocolRemoved send: #systemProtocolRemovedActionFrom: to: self.
+		when: CategoryAdded send: #systemCategoryAddedActionFrom: to: self;
+		when: CategoryRemoved send: #systemCategoryRemovedActionFrom: to: self;
+		when: CategoryRenamed send: #systemCategoryRenamedActionFrom: to: self;
+		when:  ClassAdded send: #systemClassAddedActionFrom: to: self;
+		when:  ClassRecategorized send: #systemClassRecategorizedActionFrom: to: self;
+		when:  ClassRemoved send: #systemClassRemovedActionFrom: to: self;
+		when:  ClassRenamed send: #systemClassRenamedActionFrom: to: self;
+		when:  ClassReorganized send: #systemClassReorganizedActionFrom: to: self;
+		when:  MethodAdded send: #systemMethodAddedActionFrom: to: self;
+		when:  MethodModified send: #systemMethodModifiedActionFrom: to: self;
+		when:  MethodRecategorized send: #systemMethodRecategorizedActionFrom: to: self;
+		when:  MethodRemoved send: #systemMethodRemovedActionFrom: to: self;
+		when:  ProtocolAdded send: #systemProtocolAddedActionFrom: to: self;
+		when:  ProtocolRemoved send: #systemProtocolRemovedActionFrom: to: self.
 		
 	self flag: #hack. "for decoupling MC"
 	#MCWorkingCopy asClassIfPresent: [ 
 		anAnnouncer weak
-			on: (Smalltalk globals at: #MCWorkingCopyCreated) 
+			when: (Smalltalk globals at: #MCWorkingCopyCreated) 
 				send: #updateAfterNewMCPackageRegistred: 
 				to: self;
-			on: (Smalltalk globals at: #MCWorkingCopyDeleted) 
+			when: (Smalltalk globals at: #MCWorkingCopyDeleted) 
 				send: #updateAfterNewMCPackageUnregistred: 
 				to: self	].
