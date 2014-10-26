@@ -3,7 +3,7 @@ addCustomMenuItems: aMenu hand: aHandMorph
 
 	super addCustomMenuItems: aMenu hand: aHandMorph.
 	aMenu addLine.
-	aMenu add: 'add or remove items' translated target: self selector: #addOrRemoveItems: argument: aHandMorph.
+	aMenu add: 'add or remove items' target: self selector: #addOrRemoveItems: argument: aHandMorph.
 	aMenu addList: {
 		#-.
 		{'Place into a row' translated. #organizeIntoRow}.

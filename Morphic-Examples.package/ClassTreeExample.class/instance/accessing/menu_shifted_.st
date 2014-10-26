@@ -6,7 +6,7 @@ menu: menu shifted: b
 	self selectedNode ifNotNil: [:current | current menu: menu shifted: b.
 		menu addLine.
 		menu
-			add: 'Expand all from here' translated
+			add: 'Expand all from here'
 			target: self
 			selector: #expandAllFromNode:
 			argument: current].

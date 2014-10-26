@@ -12,7 +12,7 @@ addYellowButtonMenuItemsTo: aMenu event: evt
 	self isWorldMorph ifFalse: [aMenu add: 'delete' action: #delete].
 	self world selectedObject == self
 		ifTrue: [aMenu add: 'halo off' action: #removeHalo]
-		ifFalse: [aMenu add: 'halo on' translated action: #addHalo].
+		ifFalse: [aMenu add: 'halo on' action: #addHalo].
 	(self isWorldMorph
 			or: [self wantsToBeTopmost])
 		ifFalse: [

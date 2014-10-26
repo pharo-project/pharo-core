@@ -23,7 +23,7 @@ buildMetaMenu: evt
 	self addLayoutMenuItems: menu hand: evt hand.
 	menu addUpdating: #hasClipSubmorphsString target: self selector: #changeClipSubmorphs argumentList: #().
 	menu addLine.
-	menu add: 'inspect' translated selector: #inspectAt:event: argument: evt position.
+	menu add: 'inspect' selector: #inspectAt:event: argument: evt position.
 	menu add: 'explore' action: #explore.
 	menu lastItem icon: Smalltalk ui icons smallInspectItIcon.
 	menu addLine..

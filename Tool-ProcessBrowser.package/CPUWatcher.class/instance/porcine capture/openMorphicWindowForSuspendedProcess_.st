@@ -3,8 +3,13 @@ openMorphicWindowForSuspendedProcess: aProcess
 	menu := UIManager default newMenuIn: self for: self.
 	"nickname  allow-stop  allow-debug"
 	rules := self  processBrowser nameAndRulesFor: aProcess.
-	menu add: 'Dismiss this menu' target: menu selector: #delete; addLine.
-	menu add: 'Open Process Browser' target: self processBrowser selector: #open.
+	menu add: 'Dismiss this menu' 
+		target: menu 
+		selector: #delete; 
+		addLine.
+	menu add: 'Open Process Browser' 
+		target: self processBrowser 
+		selector: #open.
 	menu add: 'Resume'
 		target: self
 		selector: #resumeProcess:fromMenu:

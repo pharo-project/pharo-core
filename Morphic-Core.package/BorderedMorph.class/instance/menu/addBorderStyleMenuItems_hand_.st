@@ -11,5 +11,5 @@ addBorderStyleMenuItems: aMenu hand: aHandMorph
 	BorderStyle borderStyleChoices do:
 		[:sym | (self borderStyleForSymbol: sym)
 			ifNotNil:
-				[subMenu add: sym translated target: self selector: #setBorderStyle: argument: sym]].
+				[subMenu add: sym target: self selector: #setBorderStyle: argument: sym]].
 	aMenu add: 'border style' translated subMenu: subMenu

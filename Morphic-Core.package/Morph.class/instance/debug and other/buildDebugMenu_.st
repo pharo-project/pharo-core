@@ -8,10 +8,10 @@ buildDebugMenu: aHand
 	(self hasProperty: #errorOnDraw) ifTrue:
 		[aMenu add: 'start drawing again' action: #resumeAfterDrawError.].
 	(self hasProperty: #drawError) ifTrue:
-		[aMenu add: 'debug drawing error' translated action: #debugDrawError.
+		[aMenu add: 'debug drawing error' action: #debugDrawError.
 		aMenu addLine].
 	(self hasProperty: #errorOnStep) ifTrue:
-		[aMenu add: 'start stepping again' translated action: #resumeAfterStepError.
+		[aMenu add: 'start stepping again' action: #resumeAfterStepError.
 		aMenu addLine].
 
 	aMenu add: 'inspect morph' action: #inspectInMorphic:.

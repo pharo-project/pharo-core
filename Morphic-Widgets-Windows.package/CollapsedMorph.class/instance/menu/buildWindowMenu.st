@@ -11,10 +11,10 @@ buildWindowMenu
 	aMenu addLine.
 	self mustNotClose
 		ifFalse:
-			[aMenu add: 'Make unclosable' translated action: #makeUnclosable]
+			[aMenu add: 'Make unclosable' action: #makeUnclosable]
 		ifTrue:
 			[aMenu add: 'Make closable' translated action: #makeClosable].
 	aMenu
-		add: (self isSticky ifTrue: ['Make draggable'] ifFalse: ['Make undraggable']) translated 
+		add: (self isSticky ifTrue: ['Make draggable'] ifFalse: ['Make undraggable']) 
 		action: #toggleStickiness.
 	^aMenu
