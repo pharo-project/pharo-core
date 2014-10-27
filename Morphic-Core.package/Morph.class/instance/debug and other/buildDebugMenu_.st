@@ -6,17 +6,17 @@ buildDebugMenu: aHand
 	aMenu := UIManager default newMenuIn: self for: self.
 	aMenu addStayUpItem.
 	(self hasProperty: #errorOnDraw) ifTrue:
-		[aMenu add: 'start drawing again' action: #resumeAfterDrawError.].
+		[aMenu add: 'start drawing again' selector: #resumeAfterDrawError.].
 	(self hasProperty: #drawError) ifTrue:
-		[aMenu add: 'debug drawing error' action: #debugDrawError.
+		[aMenu add: 'debug drawing error' selector: #debugDrawError.
 		aMenu addLine].
 	(self hasProperty: #errorOnStep) ifTrue:
-		[aMenu add: 'start stepping again' action: #resumeAfterStepError.
+		[aMenu add: 'start stepping again' selector: #resumeAfterStepError.
 		aMenu addLine].
 
-	aMenu add: 'inspect morph' action: #inspectInMorphic:.
+	aMenu add: 'inspect morph' selector: #inspectInMorphic:.
 	aMenu lastItem icon: Smalltalk ui icons smallInspectItIcon.
-	aMenu add: 'inspect owner chain' action: #inspectOwnerChain.
+	aMenu add: 'inspect owner chain' selector: #inspectOwnerChain.
 	aMenu lastItem icon: Smalltalk ui icons smallInspectItIcon.
 	self isMorphicModel ifTrue: [
 		aMenu add: 'inspect model' target: self model selector: #inspect.

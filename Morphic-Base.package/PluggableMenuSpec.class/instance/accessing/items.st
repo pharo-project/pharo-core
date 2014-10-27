@@ -1,2 +1,2 @@
 items
-	^ items ifNil: [items := OrderedCollection new]
+	^ items ifNil: [ items := OrderedCollection new ]

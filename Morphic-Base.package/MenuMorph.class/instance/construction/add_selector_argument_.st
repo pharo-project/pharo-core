@@ -1,6 +1,6 @@
-add: aString selector: aSymbol argument: arg
+add: aLabelString selector: aSymbol argument: arg
 
-	^ self add: aString
+	^ self add: aLabelString
 		target: defaultTarget
 		selector: aSymbol
 		argumentList: (Array with: arg)

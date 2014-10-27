@@ -1,7 +1,7 @@
-add: wordingString icon: aForm subMenu: aMenuMorph
+add: aLabelString icon: aForm subMenu: aMenuMorph
 	"Append the given submenu with the given label."
 
-	self addToggle: wordingString target: nil selector: nil.
+	self addToggle: aLabelString target: nil selector: nil.
 	self lastItem
 		icon: aForm;
 		subMenu: aMenuMorph.

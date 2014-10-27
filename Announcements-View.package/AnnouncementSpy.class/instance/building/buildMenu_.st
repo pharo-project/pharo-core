@@ -1,6 +1,6 @@
 buildMenu: aMenuMorph
 	^ aMenuMorph
 		defaultTarget: self;
-		add: 'open' action: #open;
-		add: 'clear' action: #clear;
+		add: 'open' selector: #open;
+		add: 'clear' selector: #clear;
 		yourself

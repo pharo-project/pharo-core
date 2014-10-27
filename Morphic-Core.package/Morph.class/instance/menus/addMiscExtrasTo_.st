@@ -6,6 +6,6 @@ addMiscExtrasTo: aMenu
 			| subMenu |
 			subMenu := UIManager default newMenuIn: self for: self.
 			(self renderedMorph isSystemWindow not)
-				ifTrue: [ subMenu add: 'put in a window' action: #embedInWindow ].
-			subMenu add: 'adhere to edge...' action: #adhereToEdge.
+				ifTrue: [ subMenu add: 'put in a window' selector: #embedInWindow ].
+			subMenu add: 'adhere to edge...' selector: #adhereToEdge.
 			aMenu add: 'extras...' subMenu: subMenu ]

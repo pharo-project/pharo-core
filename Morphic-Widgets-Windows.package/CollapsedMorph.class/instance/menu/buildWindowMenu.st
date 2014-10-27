@@ -4,17 +4,17 @@ buildWindowMenu
 	| aMenu |
 	aMenu := UIManager default
 					newMenuIn: self for: self.
-	aMenu add: 'Change name...' action: #relabel.
+	aMenu add: 'Change name...' selector: #relabel.
 	aMenu addLine.
-	aMenu add: 'Send to back' action: #sendToBack.
-	aMenu add: 'Make next-to-topmost' action: #makeSecondTopmost.
+	aMenu add: 'Send to back' selector: #sendToBack.
+	aMenu add: 'Make next-to-topmost' selector: #makeSecondTopmost.
 	aMenu addLine.
 	self mustNotClose
 		ifFalse:
-			[aMenu add: 'Make unclosable' action: #makeUnclosable]
+			[aMenu add: 'Make unclosable' selector: #makeUnclosable]
 		ifTrue:
-			[aMenu add: 'Make closable' translated action: #makeClosable].
+			[aMenu add: 'Make closable' translated selector: #makeClosable].
 	aMenu
 		add: (self isSticky ifTrue: ['Make draggable'] ifFalse: ['Make undraggable']) 
-		action: #toggleStickiness.
+		selector: #toggleStickiness.
 	^aMenu

@@ -6,23 +6,23 @@ addCustomMenuItems: aMenu hand: aHandMorph
 	aMenu add: 'add or remove items' target: self selector: #addOrRemoveItems: argument: aHandMorph.
 	aMenu addList: {
 		#-.
-		{'Place into a row' translated. #organizeIntoRow}.
-		{'Place into a column' translated. #organizeIntoColumn}.
+		{'Place into a row' . #organizeIntoRow}.
+		{'Place into a column' . #organizeIntoColumn}.
 		#-.
-		{'Align left edges' translated. #alignLeftEdges}.
-		{'Align top edges' translated. #alignTopEdges}.
-		{'Align right edges' translated. #alignRightEdges}.
-		{'Align bottom edges' translated. #alignBottomEdges}.
+		{'Align left edges' . #alignLeftEdges}.
+		{'Align top edges' . #alignTopEdges}.
+		{'Align right edges' . #alignRightEdges}.
+		{'Align bottom edges' . #alignBottomEdges}.
 		#-.
-		{'Align centers vertically' translated. #alignCentersVertically}.
-		{'Align centers horizontally' translated. #alignCentersHorizontally}.
+		{'Align centers vertically' . #alignCentersVertically}.
+		{'Align centers horizontally' . #alignCentersHorizontally}.
 		}.
 
 	self selectedItems size > 2
-		ifTrue:[
+		ifTrue: [
 			aMenu addList: {
 				#-.
-				{'Distribute vertically' translated. #distributeVertically}.
-				{'Distribute horizontally' translated. #distributeHorizontally}.
+				{'Distribute vertically' . #distributeVertically}.
+				{'Distribute horizontally' . #distributeHorizontally}.
 				}.
 		].

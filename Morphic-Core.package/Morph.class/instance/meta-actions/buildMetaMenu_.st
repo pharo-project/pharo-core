@@ -3,20 +3,20 @@ buildMetaMenu: evt
 	| menu |
 	menu := UIManager default newMenuIn: self for: self.
 	menu addStayUpItem.
-	menu add: 'grab' action: #grabMorph:.
-	menu add: 'copy to paste buffer' action: #copyToPasteBuffer:.
+	menu add: 'grab' selector: #grabMorph:.
+	menu add: 'copy to paste buffer' selector: #copyToPasteBuffer:.
 	self maybeAddCollapseItemTo: menu.
-	menu add: 'delete' action: #dismissMorph:.
+	menu add: 'delete' selector: #dismissMorph:.
 	menu addLine.
-	menu add: 'copy text' action: #clipText.
+	menu add: 'copy text' selector: #clipText.
 	menu addLine.
-	menu add: 'go behind' action: #goBehind.
-	menu add: 'add halo' action: #addHalo:.
-	menu add: 'duplicate' action: #maybeDuplicateMorph:.
+	menu add: 'go behind' selector: #goBehind.
+	menu add: 'add halo' selector: #addHalo:.
+	menu add: 'duplicate' selector: #maybeDuplicateMorph:.
 
 	self addEmbeddingMenuItemsTo: menu hand: evt hand.
 
-	menu add: 'resize' action: #resizeMorph:.
+	menu add: 'resize' selector: #resizeMorph:.
 	"Give the argument control over what should be done about fill styles"
 	self addFillStyleMenuItems: menu hand: evt hand.
 	self addDropShadowMenuItems: menu hand: evt hand.
@@ -24,10 +24,10 @@ buildMetaMenu: evt
 	menu addUpdating: #hasClipSubmorphsString target: self selector: #changeClipSubmorphs argumentList: #().
 	menu addLine.
 	menu add: 'inspect' selector: #inspectAt:event: argument: evt position.
-	menu add: 'explore' action: #explore.
+	menu add: 'explore' selector: #explore.
 	menu lastItem icon: Smalltalk ui icons smallInspectItIcon.
 	menu addLine..
-	menu add: 'show actions' action: #showActions.
+	menu add: 'show actions' selector: #showActions.
 	menu addLine.
 	self addDebuggingItemsTo: menu hand: evt hand.
 

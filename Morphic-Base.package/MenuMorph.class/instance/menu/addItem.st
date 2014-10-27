@@ -5,4 +5,4 @@ addItem
 	string isEmpty ifTrue: [^ self].
 	sel := UIManager default request: 'Selector?' translated.
 	sel isEmpty ifFalse: [sel := sel asSymbol].
-	self add: string action: sel.
+	self add: string selector: sel.

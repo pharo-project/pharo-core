@@ -1,2 +1,2 @@
 addLabelItemsTo: aCustomMenu hand: aHandMorph 
-	aCustomMenu add: 'change label' action: #setLabel
+	aCustomMenu add: 'change label' selector: #setLabel

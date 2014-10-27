@@ -1,4 +1,4 @@
 fromArray: anArray 
 	"Construct a menu from anArray. See #addList comment"
-
-	^ self new addList: anArray.
+	self deprecated: 'Use fromList: instead'.
+	^ self fromList: anArray.

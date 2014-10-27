@@ -1,9 +1,9 @@
 volumeMenu: aMenu
-	aMenu addList: {
-			{'Recent...' translated.		#recentDirs}.
-			#-.
-			{'Delete directory...' translated.	#deleteDirectory}.
-			#-}.
+	aMenu 
+		add: 'Recent...'  selector:	#recentDirs;
+		addLine;
+		add: 'Delete directory...' selector: #deleteDirectory; 
+		addLine.
 	aMenu
 		addServices: (self itemsForDirectory: self directory)
 		for: self

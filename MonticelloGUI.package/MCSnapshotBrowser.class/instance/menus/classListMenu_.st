@@ -4,5 +4,5 @@ classListMenu: aMenu
 	aMenu
 		addLine;
 		add: ('Load class {1}'  format: {classSelection})
-		action: #loadClassSelection.
+		selector: #loadClassSelection.
 	^ aMenu

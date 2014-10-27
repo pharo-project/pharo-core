@@ -1,11 +1,11 @@
 categoryMenu: aMenu
 	^ aMenu
 		addTitle: 'Categories';
-		add: 'Select all' action: #selectAllCategories;
-		add: 'Select inversion' action: #selectInverseCategories;
-		add: 'Select none' action: #selectNoCategories;
+		add: 'Select all' selector: #selectAllCategories;
+		add: 'Select inversion' selector: #selectInverseCategories;
+		add: 'Select none' selector: #selectNoCategories;
 		addLine;
-		add: 'Filter...' action: #filterCategories;
+		add: 'Filter...' selector: #filterCategories;
 		addLine;
-		add: 'Refresh' action: #updateCategories;
+		add: 'Refresh' selector: #updateCategories;
 		yourself.

@@ -11,6 +11,6 @@ buildWindowMenu
 		enablementSelector: #allowedToClose.
 	aMenu lastItem icon: self theme windowCloseForm.
 	aMenu addLine.
-	aMenu add: 'About' action: #showAbout.
+	aMenu add: 'About' selector: #showAbout.
 	aMenu lastItem icon: self theme smallHelpIcon.
 	^ aMenu

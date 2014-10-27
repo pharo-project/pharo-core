@@ -1,11 +1,10 @@
 menuGet: aMenu shifted: shifted
 	
 	aMenu addList: {
-		{'Find...(f)' translated.		#find}.
-		{'Find again (g)' translated.		#findAgain}.
-		{'Set search string (h)' translated.	#setSearchString}.
-			#-.
-		{'Accept (s)' translated. #accept}.
-		{'Send message' translated.  #submit}}.
-
+		{'Find...(f)' .	#find}.
+		{'Find again (g)' . #findAgain}.
+		{'Set search string (h)' . #setSearchString}.
+		#-.
+		{'Accept (s)' . #accept}.
+		{'Send message' .  #submit}}.
 	^aMenu.

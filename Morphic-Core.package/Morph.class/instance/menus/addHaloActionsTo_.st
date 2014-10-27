@@ -6,19 +6,19 @@ addHaloActionsTo: aMenu
 	subMenu addTitle: self externalName.
 	subMenu addStayUpItem.
 	subMenu addLine.
-	subMenu add: 'delete' action: #dismissViaHalo.
+	subMenu add: 'delete' selector: #dismissViaHalo.
 	subMenu balloonTextForLastItem: 'Delete this object -- warning -- can be destructive!' translated.
 
 	self maybeAddCollapseItemTo: subMenu.
-	subMenu add: 'grab' action: #openInHand.
+	subMenu add: 'grab' selector: #openInHand.
 	subMenu balloonTextForLastItem: 'Pick this object up -- warning, since this removes it from its container, it can have adverse effects.' translated.
 
 	subMenu addLine.
 
-	subMenu add: 'resize'  action: #resizeFromMenu.
+	subMenu add: 'resize'  selector: #resizeFromMenu.
 	subMenu balloonTextForLastItem: 'Change the size of this object' translated.
 
-	subMenu add: 'duplicate'  action: #maybeDuplicateMorph.
+	subMenu add: 'duplicate'  selector: #maybeDuplicateMorph.
 	subMenu balloonTextForLastItem: 'Hand me a copy of this object'.
 
 	subMenu addLine.

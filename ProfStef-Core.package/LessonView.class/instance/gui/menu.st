@@ -1,4 +1,4 @@
 menu
-	^ MenuMorph fromArray: {
-			{'do it (d)' translated. #doIt}.
-			{'print it (p)' translated. #printIt}}.
+	^ MenuMorph new 	
+			add: 'do it (d)' selector: #doIt;
+			add: 'print it (p)' selector: #printIt

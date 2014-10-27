@@ -2,7 +2,7 @@ methodListMenu: aMenu
 	"Build the menu for the selected method, if any."
 	
 	self selectedMessageName 
-		ifNil: [items notEmpty ifTrue: [aMenu addList:#(('FileOut (o)'	fileOutMessage))]]
+		ifNil: [ items notEmpty ifTrue: [aMenu add: 'FileOut (o)'	selector: #fileOutMessage]]
 		ifNotNil: [
 			aMenu addList:#(
 				('Browse full (b)' 						browseMethodFull)
@@ -15,8 +15,5 @@ methodListMenu: aMenu
 				('Browse senders (n)'						browseSendersOfMessages)
 				('Browse implementors (m)'					browseMessages)
 				('Inheritance (i)'						methodHierarchy)
-				('Versions (v)'							browseVersions)
-
-		).
-	].
+				('Versions (v)'							browseVersions)) ].
 	^ aMenu

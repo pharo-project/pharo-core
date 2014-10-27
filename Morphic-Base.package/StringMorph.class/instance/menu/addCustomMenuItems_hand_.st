@@ -1,5 +1,5 @@
 addCustomMenuItems: aCustomMenu hand: aHandMorph
 
 	super addCustomMenuItems: aCustomMenu hand: aHandMorph.
-	aCustomMenu add: 'change font' action: #changeFont.
-	aCustomMenu add: 'change emphasis' action: #changeEmphasis.
+	aCustomMenu add: 'change font' selector: #changeFont.
+	aCustomMenu add: 'change emphasis' selector: #changeEmphasis.

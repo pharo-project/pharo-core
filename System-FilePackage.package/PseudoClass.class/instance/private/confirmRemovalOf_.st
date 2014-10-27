@@ -1,2 +1,2 @@
 confirmRemovalOf: aString
-	^self confirm:'Remove ',aString,' ?'
+	^self confirm: 'Remove ',aString,' ?'

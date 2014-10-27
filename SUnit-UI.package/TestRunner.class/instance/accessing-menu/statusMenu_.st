@@ -1,6 +1,6 @@
 statusMenu: aMenu
 	^ aMenu
-		add: 'History' action: #showHistoryMenu;
-		add: 'Store result as progress reference' action: #storeResultIntoTestCases;
-		add: 'Show progress' action: #showProgress; 
+		add: 'History' selector: #showHistoryMenu;
+		add: 'Store result as progress reference' selector: #storeResultIntoTestCases;
+		add: 'Show progress' selector: #showProgress; 
 		yourself

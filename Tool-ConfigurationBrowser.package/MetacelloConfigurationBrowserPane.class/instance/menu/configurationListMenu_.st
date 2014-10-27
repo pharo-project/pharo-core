@@ -3,14 +3,14 @@ configurationListMenu: aMenu
 	aMenu addTitle:  'Configuration'.
 	self selectedConfiguration ifNotNil: [ 
 		
-		aMenu add: 'Install Stable Version' action: #installConfiguration.
+		aMenu add: 'Install Stable Version' selector: #installConfiguration.
 		self selectedConfigurationClass isNil 
-			ifTrue:  [ aMenu add: 'Load Configuration' action: #loadConfiguration ]
-			ifFalse: [ aMenu add: 'Browse Configuration Class' action: #browseConfiguration ].	
+			ifTrue:  [ aMenu add: 'Load Configuration' selector: #loadConfiguration ]
+			ifFalse: [ aMenu add: 'Browse Configuration Class' selector: #browseConfiguration ].	
 		aMenu addLine ].		 	
 	aMenu	
-		add: 'Switch Repository' action: #switchRepository;
-		add: 'Add Repository' action: #addRepository;
+		add: 'Switch Repository' selector: #switchRepository;
+		add: 'Add Repository' selector: #addRepository;
 		addLine;
-		add: 'Refresh' action: #refreshRepository.	
+		add: 'Refresh' selector: #refreshRepository.	
 	^aMenu

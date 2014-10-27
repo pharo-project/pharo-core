@@ -1,16 +1,16 @@
 classMenu: aMenu
 	^ aMenu
 		addTitle: 'Classes';
-		add: 'Browse' action: #browseClass;
+		add: 'Browse' selector: #browseClass;
 		addLine;
-		add: 'Select all' action: #selectAllClasses;
-		add: 'Select unit tests' action: #selectAllUnitTests;
-		add: 'Select subclasses' action: #selectSubclasses;
-		add: 'Select inversion' action: #selectInverseClasses;
-		add: 'Select none' action: #selectNoClasses;
-		add: 'Refresh' action: #updateClasses;
+		add: 'Select all' selector: #selectAllClasses;
+		add: 'Select unit tests' selector: #selectAllUnitTests;
+		add: 'Select subclasses' selector: #selectSubclasses;
+		add: 'Select inversion' selector: #selectInverseClasses;
+		add: 'Select none' selector: #selectNoClasses;
+		add: 'Refresh' selector: #updateClasses;
 		addLine;
-		add: 'Filter...' action: #filterClasses;
+		add: 'Filter...' selector: #filterClasses;
 		addLine;
-		add: 'Run selected' action: #runAll;
+		add: 'Run selected' selector: #runAll;
 		yourself.
