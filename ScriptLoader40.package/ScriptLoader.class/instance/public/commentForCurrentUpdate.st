@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '14323 Replace Announcer>>#on:send:to:s senders in RPackage-Tests
-	https://pharo.fogbugz.com/f/cases/14323
+ ^ '14324 ThemeIcons has a class instance var "icons" that is not used
+	https://pharo.fogbugz.com/f/cases/14324
 
-14274 Socket timeTestUDP fails
-	https://pharo.fogbugz.com/f/cases/14274
+14316 Float zero and negative zero should not be #literalEqual:
+	https://pharo.fogbugz.com/f/cases/14316
 
-14320 Small clean in Polymorph
-	https://pharo.fogbugz.com/f/cases/14320
-
-5139 Monticello uses the wrong compiler for class and trait definitions
-	https://pharo.fogbugz.com/f/cases/5139'
+14322 fixed WorldSate>>#runLocalStepMethodsIn:
+	https://pharo.fogbugz.com/f/cases/14322'

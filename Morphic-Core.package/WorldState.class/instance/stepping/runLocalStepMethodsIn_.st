@@ -3,6 +3,7 @@ runLocalStepMethodsIn: aWorld
 	ar 3/13/1999: Remove buggy morphs from the step list so that they don't raise repeated errors."
 
 	| now morphToStep stepTime priorWorld |
+	self cleanseStepListForWorld: aWorld.
 	now := Time millisecondClockValue.
 	priorWorld := ActiveWorld.
 	ActiveWorld := aWorld.
