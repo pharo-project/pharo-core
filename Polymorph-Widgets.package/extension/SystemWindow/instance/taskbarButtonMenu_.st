@@ -39,7 +39,7 @@ taskbarButtonMenu: aMenu
 
 	submenu := theme newMenuIn: self for: self.
 	menu
-		add: 'Close all' translated
+		add: 'Close all'
 		icon: self theme windowCloseForm
 		subMenu: submenu.
 	submenu

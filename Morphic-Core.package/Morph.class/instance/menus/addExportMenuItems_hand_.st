@@ -8,5 +8,5 @@ addExportMenuItems: aMenu hand: aHandMorph
 		aSubMenu add: 'GIF file' selector: #exportAsGIF.
 		aSubMenu add: 'JPEG file' selector: #exportAsJPEG.
 		aSubMenu add: 'PNG file' selector: #exportAsPNG.
-		aMenu add: 'export...' translated icon: Smalltalk ui icons smallExportIcon subMenu: aSubMenu.
+		aMenu add: 'export...' icon: Smalltalk ui icons smallExportIcon subMenu: aSubMenu.
 		aMenu lastItem icon: Smalltalk ui icons smallExportIcon ].

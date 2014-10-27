@@ -8,4 +8,4 @@ addFillStyleMenuItems: aMenu hand: aHand
 	menu add: 'gradient fill' selector: #useGradientFill.
 	menu add: 'bitmap fill' selector: #useBitmapFill.
 	menu add: 'default fill' selector: #useDefaultFill.
-	aMenu add: 'fill style' translated subMenu: menu.
+	aMenu add: 'fill style' subMenu: menu.

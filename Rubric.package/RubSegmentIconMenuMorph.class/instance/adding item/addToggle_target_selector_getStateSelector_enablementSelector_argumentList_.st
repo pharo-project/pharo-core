@@ -3,7 +3,7 @@ addToggle: aString target: anObject selector: aSymbol getStateSelector: stateSym
 
 	|item|
 	item := RubSegmentIconMenuItemMorph new
-		contents: aString;
+		contents: aString translated;
 		target: anObject;
 		selector: aSymbol;
 		arguments: argList;

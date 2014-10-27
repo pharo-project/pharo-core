@@ -7,7 +7,7 @@ addModelItemsToWindowMenu: aMenu
 	self fileName ifNotNil: [ aMenu add: 'Reload'  target: self selector: #reloadCommand ].
 	aMenu addLine.
 	aMenu
-		add: 'Encoding' translated
+		add: 'Encoding'
 		subMenu:
 			([ :menu | 
 			TextConverter allEncodingNames

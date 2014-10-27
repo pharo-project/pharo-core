@@ -9,5 +9,5 @@ addLayoutMenuItems: topMenu hand: aHand
 	aMenu addLine.
 	self addCellLayoutMenuItems: aMenu hand: aHand.
 	self addTableLayoutMenuItems: aMenu hand: aHand.
-	topMenu ifNotNil:[topMenu add: 'layout' translated subMenu: aMenu].
+	topMenu ifNotNil: [ topMenu add: 'layout' subMenu: aMenu ].
 	^aMenu
