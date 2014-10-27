@@ -1,1 +1,1 @@
-Fix the IR nodes.Transformsstorepopinto:popIntoANDTransforms some returns into qui returns
+Fix the IR nodes.Transforms:store, pop => popIntosome returns => quick returns

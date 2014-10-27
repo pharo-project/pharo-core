@@ -1,4 +1,3 @@
 visitBlockReturnTop: blockReturnTop
 
-	self popScope.
-	gen blockReturnTop.
+	gen blockReturnTop
