@@ -1,0 +1,2 @@
+optionInlineNone
+	^ options includes: #optionInlineNone

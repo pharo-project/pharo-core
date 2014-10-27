@@ -1,2 +1,0 @@
-optionIlineNone
-	^ options includes: #optionIlineNone
