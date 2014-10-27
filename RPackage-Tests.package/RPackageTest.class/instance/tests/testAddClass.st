@@ -4,7 +4,7 @@ testAddClass
 	package1 := (RPackage named: #Test1) register.
 	done := 0.
 	class := self createNewClassNamed: 'TestClass' inCategory: 'Test1-TAG'.
-	SystemAnnouncer uniqueInstance on: ClassRecategorized do: [ done := done + 1].
+	SystemAnnouncer uniqueInstance when: ClassRecategorized do: [ done := done + 1].
 	
 	self assert: (package1 includesClass: class).
 	self assert: (package1 classTagNamed: #TAG ifAbsent: [ nil ]) notNil.

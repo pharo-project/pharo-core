@@ -4,7 +4,7 @@ testRepackagedAnnouncementWhenModifyMethodByMovingFromDifferentExtensionCategori
 	
 	ann := nil.
 	SystemAnnouncer uniqueInstance
-		on: MethodRepackaged do: [ :a | ann := a ].
+		when: MethodRepackaged do: [ :a | ann := a ].
 	
 	self addXYZCategory. 
 	firstPackage := self organizer  packageNamed: #XXXXX.

@@ -13,14 +13,14 @@ createClass
 		category: category.] on: Warning, DuplicatedVariableError do: [:ex| ex resume].
 
 	self traitComposition
-		ifNotNil: [ composition := self class compiler evaluate: self traitComposition.
+		ifNotNil: [ composition := class compiler evaluate: self traitComposition.
 				  ((((composition isCollection and: [ ( composition includes: nil ) not])  
 					or: [composition isKindOf: TraitComposition ])
 						or: [composition isKindOf: Trait ])
 							or: [composition isKindOf: TraitTransformation ])
 					ifTrue: [ class setTraitComposition: composition asTraitComposition ] ].
 	self classTraitComposition
-		ifNotNil: [ composition := self class compiler evaluate: self classTraitComposition.
+		ifNotNil: [ composition := class compiler evaluate: self classTraitComposition.
 				  ((((composition isCollection and: [ ( composition includes: nil ) not])  
 					or: [composition isKindOf: TraitComposition ])
 						or: [composition isKindOf: Trait ])

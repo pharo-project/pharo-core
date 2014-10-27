@@ -1,5 +1,5 @@
 MorphTreeNodeModel subclass: #TickSelectionListNode
-	instanceVariableNames: 'selected'
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Polymorph-Widgets'

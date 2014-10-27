@@ -5,7 +5,7 @@ testRecategorizeClassRaisesClassRepackagedEvent
 	
 	ann := nil.
 	SystemAnnouncer uniqueInstance
-		on: ClassRepackaged do: [ :a |
+		when: ClassRepackaged do: [ :a |
 			ann := a.
 		].
 	
