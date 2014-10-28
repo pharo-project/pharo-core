@@ -7,5 +7,5 @@ checkMethod: aMethod
 			whichClassIncludesSelector: aMethod selector.
 		superclass notNil ifTrue: [
 			supertree := superclass parseTreeFor: aMethod selector.
-			(supertree notNil and: [ supertree equalTo: aMethod parseTree exceptForVariables: supertree allDefinedVariables ]) 
+			(supertree notNil and: [ supertree equalTo: aMethod ast exceptForVariables: supertree allDefinedVariables ]) 
 				ifTrue: [ result addMethod: aMethod ] ] ]

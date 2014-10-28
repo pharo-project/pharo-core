@@ -9,7 +9,7 @@ checkMethod: aMethod
 	compiledLits size > 0 ifTrue: [ 
 		parsedLits := OrderedCollection new.
 		matcher 
-			executeTree: aMethod parseTree
+			executeTree: aMethod ast
 			initialAnswer: parsedLits.
 		compiledLits size ~= parsedLits size ifTrue: [
 			result addMethod: aMethod ] ]

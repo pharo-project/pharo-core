@@ -3,10 +3,10 @@ registerToAnnouncements
 	SystemAnnouncer uniqueInstance unsubscribe: self.
 	SystemAnnouncer uniqueInstance weak
 		"Class"
-		on: ClassCommented send: #aClassHasBeenCommented: to: self;
-		on: ClassRemoved send: #aClassHasBeenRemoved: to: self;
-		on: ClassRenamed send: #aClassHasBeenRenamed: to: self;
+		when: ClassCommented send: #aClassHasBeenCommented: to: self;
+		when: ClassRemoved send: #aClassHasBeenRemoved: to: self;
+		when: ClassRenamed send: #aClassHasBeenRenamed: to: self;
 		"Method"
-		on: MethodAdded send: #aMethodHasBeenAdded: to: self;
-		on: MethodModified send: #aMethodHasBeenModified: to: self;
-		on: MethodRemoved send: #aMethodHasBeenRemoved: to: self
+		when: MethodAdded send: #aMethodHasBeenAdded: to: self;
+		when: MethodModified send: #aMethodHasBeenModified: to: self;
+		when: MethodRemoved send: #aMethodHasBeenRemoved: to: self

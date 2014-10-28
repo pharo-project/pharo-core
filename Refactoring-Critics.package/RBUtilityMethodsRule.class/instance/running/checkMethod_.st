@@ -7,6 +7,6 @@ checkMethod: aMethod
 			overrides: aMethod selector) ifFalse: 
 			[ (aMethod superMessages isEmpty and: [ aMethod selfMessages isEmpty ]) ifTrue: 
 				[ (aMethod methodClass allInstVarNames , aMethod methodClass allClassVarNames asArray , #('self' ) 
-					detect: [ :each | aMethod parseTree references: each ]
+					detect: [ :each | aMethod ast references: each ]
 					ifNone: [  ]) isNil ifTrue: 
 					[ result addMethod: aMethod ] ] ] ]

@@ -1,6 +1,6 @@
 checkMethod: aMethod 
-	(aMethod parseTree isPrimitive not and: 
+	(aMethod ast isPrimitive not and: 
 		[ matcher 
-			executeMethod: aMethod parseTree
+			executeMethod: aMethod ast
 			initialAnswer: false ]) ifTrue: 
 		[ result addMethod: aMethod ]

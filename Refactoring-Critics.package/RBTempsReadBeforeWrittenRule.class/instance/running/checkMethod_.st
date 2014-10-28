@@ -1,5 +1,5 @@
 checkMethod: aMethod 
-	(RBReadBeforeWrittenTester variablesReadBeforeWrittenIn: aMethod parseTree) do: 
+	(RBReadBeforeWrittenTester variablesReadBeforeWrittenIn: aMethod ast) do: 
 		[ :each | 
 		result 
 			addMethod: aMethod;

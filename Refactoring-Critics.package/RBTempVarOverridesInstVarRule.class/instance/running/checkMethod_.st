@@ -1,7 +1,7 @@
 checkMethod: aMethod 
 	vars := aMethod methodClass instVarNames.
 	(matcher 
-		executeTree: aMethod parseTree
+		executeTree: aMethod ast
 		initialAnswer: false) ifTrue: 
 		[ result 
 			addMethod: aMethod;
