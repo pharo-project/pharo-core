@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '14337 Removing a trait usage raises an exception (2nd attempt)
-	https://pharo.fogbugz.com/f/cases/14337'
+ ^ '14349 announcement subscription in TestCase class>>#initialize should be weak
+	https://pharo.fogbugz.com/f/cases/14349'
