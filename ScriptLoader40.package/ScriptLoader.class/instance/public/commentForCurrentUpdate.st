@@ -1,3 +1,5 @@
 commentForCurrentUpdate
- ^ '14349 announcement subscription in TestCase class>>#initialize should be weak
-	https://pharo.fogbugz.com/f/cases/14349'
+ ^ '14343 MorphicUIBugTest failing with GTPlayground active
+	https://pharo.fogbugz.com/f/cases/14343
+
+'

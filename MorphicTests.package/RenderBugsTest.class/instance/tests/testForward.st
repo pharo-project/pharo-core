@@ -1,12 +1,11 @@
 testForward
-"If the bug exist there will be an infinte recursion."
-"self new testForward"
-"self run: #testForward"
+	"If the bug exist there will be an infinte recursion."
 
-| t |
-cases := {
-t := TransformationMorph new openCenteredInWorld } .
+	"self new testForward"
 
- self shouldntTakeLong: [self assert: ( t forwardDirection = 0.0 ) ]  .
+	"self run: #testForward"
 
-^true  
+	| t |
+	cases := {(t := TransformationMorph new openCenteredInWorld)}.
+	self shouldntTakeLong: [ self assert: t forwardDirection = 0.0 ].
+	^ true

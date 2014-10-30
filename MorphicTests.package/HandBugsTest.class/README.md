@@ -1,1 +1,0 @@
-A HandBugsTest is xxxxxxxxx.

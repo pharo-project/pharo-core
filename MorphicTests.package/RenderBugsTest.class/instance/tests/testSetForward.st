@@ -1,15 +1,14 @@
 testSetForward
-"If the bug exist there will be an infinte reccursion."
-"self new testSetForward"
-"self run: #testSetForward"
+	"If the bug exist there will be an infinte reccursion."
 
-| t |
-cases := {
-t := TransformationMorph new openCenteredInWorld } .
+	"self new testSetForward"
 
- self 	shouldntTakeLong: [ t forwardDirection: 180.0 . 
-					self assert: ( t forwardDirection = 0.0 )  ]  .
+	"self run: #testSetForward"
 
-"and without a rendee it should not change things."
-
-^true  
+	| t |
+	cases := {(t := TransformationMorph new openCenteredInWorld)}.
+	self
+		shouldntTakeLong: [ 
+			t forwardDirection: 180.0.
+			self assert: t forwardDirection = 0.0 ].	"and without a rendee it should not change things."
+	^ true
