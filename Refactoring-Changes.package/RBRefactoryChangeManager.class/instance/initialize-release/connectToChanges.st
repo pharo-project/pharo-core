@@ -1,6 +1,6 @@
 connectToChanges
 	SystemAnnouncer uniqueInstance weak
-		on: CategoryAdded,
+		when: CategoryAdded,
 			CategoryRemoved,
 			CategoryRenamed,
 			ClassAdded,
