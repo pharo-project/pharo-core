@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '14345 Replace Announcer>>#on:send:to:s senders in Refactoring-Changes
-	https://pharo.fogbugz.com/f/cases/14345
+ ^ '14351 cleanup ClassModification: remove unused ivars
+	https://pharo.fogbugz.com/f/cases/14351
 
-10520 Right clicking on the source pane in Nautilus and clicking extended search itself produces a walkback
-	https://pharo.fogbugz.com/f/cases/10520'
+14350 Replace Announcer>>#on:send:to:s senders in SUnit-UI
+	https://pharo.fogbugz.com/f/cases/14350'
