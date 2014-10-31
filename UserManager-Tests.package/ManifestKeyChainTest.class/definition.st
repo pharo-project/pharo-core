@@ -1,5 +1,5 @@
-TestCase subclass: #PharoUserTest
+Object subclass: #ManifestKeyChainTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'KeyChainTest'
+	category: 'UserManager-Tests'

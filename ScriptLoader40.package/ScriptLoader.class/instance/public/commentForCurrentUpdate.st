@@ -1,3 +1,6 @@
 commentForCurrentUpdate
- ^ '14325 ThemeIcons should use class variable for singleton
-	https://pharo.fogbugz.com/f/cases/14325'
+ ^ '14330 rename KeyChainTest --> KeyChainTests so it gets unloaded by #cleanUpForProduction
+	https://pharo.fogbugz.com/f/cases/14330
+
+14362 Iconset is wrong
+	https://pharo.fogbugz.com/f/cases/14362'
