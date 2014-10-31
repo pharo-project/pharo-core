@@ -1,6 +1,6 @@
 subscribeOn: anAnnouncement
 
 	SystemAnnouncer uniqueInstance weak 
-		on: anAnnouncement
+		when: anAnnouncement
 		send: #add: 
 		to: collectedAnnouncements

@@ -2,4 +2,4 @@ AbstractNautilusPlugin subclass: #MondrianPlugin
 	instanceVariableNames: 'subMorphs'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'NautilusCommon-Plugin'
+	category: 'NautilusCommon-Plugin-Examples'

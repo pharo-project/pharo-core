@@ -1,20 +1,20 @@
 buildString
 
-	| first string separator |
-	separator := ' -> '.
+	| first  separator |
+	separator := ' > '.
 	first := self model showGroups
 				ifTrue: [ self model selectedGroup ]
 				ifFalse: [ self model selectedPackage ].
 	first
-		ifNil: [ ^'']
-		ifNotNil: [:package | 
-			string := package name.
+		ifNil: [ ^''].			
+	^ String streamContents: [ :str | 
+			str nextPutAll: first name.
 			self model selectedClass
-				ifNotNil: [:class |
-					string := string,  separator, class name.
+				ifNotNil: [ :class |
+					str nextPutAll:  separator ; nextPutAll: class name.
 					self model selectedCategory 
-						ifNotNil: [:category |
-							string := string,  separator, category.
+						ifNotNil: [ :category |
+							str nextPutAll:  separator ; nextPutAll: category.
 							self model selectedMethod
-								ifNotNil: [:method | string := string, separator, method selector printString]]]].
-	^ string
+								ifNotNil: [ :method | str nextPutAll: separator ; nextPutAll: method selector printString]]].
+			str].

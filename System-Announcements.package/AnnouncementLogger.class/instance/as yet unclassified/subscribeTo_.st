@@ -1,4 +1,4 @@
 subscribeTo: anAnnouncer
 
 	anAnnouncer "weak" 
-		on: Announcement send: #logAnnouncement: to: self
+		when: Announcement send: #logAnnouncement: to: self

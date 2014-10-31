@@ -1,1 +1,1 @@
-A DummyPackageSelectedPlugin is a dummy plugin which display the counter of keystrokes
+A DummyPackageSelectedPlugin is a dummy plugin which displays the selected package

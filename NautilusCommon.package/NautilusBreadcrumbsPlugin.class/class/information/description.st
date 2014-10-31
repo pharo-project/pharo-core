@@ -1,5 +1,3 @@
 description
 
-	^ 'DO NOT WORK IN PHARO 1.4
-	
-Breadcrumbs for Nautilus. I hope Igor will like it ;)'
+	^ 'Present an interactive navigation path to the current selected element. Menus are active on the elements.'

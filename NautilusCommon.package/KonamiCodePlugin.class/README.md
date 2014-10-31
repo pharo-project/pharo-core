@@ -1,1 +1,1 @@
-A KonamiCodePlugin is a plugin which run an action when the Konami code is entered
+This plugin implements a little joke for konami players. A KonamiCodePlugin is a plugin which runs an action when the Konami code is entered. 
