@@ -1,6 +1,5 @@
 initializeIcons
-	icons := IdentityDictionary new.
-	self iconSelectors do: [:each | 
-		icons
-			at: each
-			put: (self perform: each) ]
+	icons :=  LRUCache new 
+		maximumWeight: 64;
+		factory: [ :key | self perform: key];
+		yourself
