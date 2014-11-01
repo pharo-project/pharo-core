@@ -3,7 +3,7 @@ addDropShadowMenuItems: aMenu hand: aHand
 	menu := UIManager default newMenuIn: self for: self.
 	menu
 		addUpdating: #hasDropShadowString
-		action: #toggleDropShadow.
+		selector: #toggleDropShadow.
 	menu addLine.
 	menu add: 'shadow color...' target: self selector: #changeShadowColor.
 	menu add: 'shadow offset...' target: self selector: #setShadowOffset:.

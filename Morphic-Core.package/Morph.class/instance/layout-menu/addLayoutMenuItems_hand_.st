@@ -1,9 +1,9 @@
 addLayoutMenuItems: topMenu hand: aHand
 	| aMenu |
 	aMenu := UIManager default newMenuIn: self for: self.
-	aMenu addUpdating: #hasNoLayoutString action: #changeNoLayout.
-	aMenu addUpdating: #hasProportionalLayoutString action: #changeProportionalLayout.
-	aMenu addUpdating: #hasTableLayoutString action: #changeTableLayout.
+	aMenu addUpdating: #hasNoLayoutString selector: #changeNoLayout.
+	aMenu addUpdating: #hasProportionalLayoutString selector: #changeProportionalLayout.
+	aMenu addUpdating: #hasTableLayoutString selector: #changeTableLayout.
 	aMenu addLine.
 	aMenu add: 'change layout inset...' selector: #changeLayoutInset:.
 	aMenu addLine.

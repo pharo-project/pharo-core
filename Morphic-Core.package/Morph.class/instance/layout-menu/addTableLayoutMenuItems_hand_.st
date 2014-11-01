@@ -1,9 +1,9 @@
 addTableLayoutMenuItems: aMenu hand: aHand
 	| menu sub |
 	menu := UIManager default newMenuIn: self for: self.
-	menu addUpdating: #hasReverseCellsString action: #changeReverseCells.
-	menu addUpdating: #hasClipLayoutCellsString action: #changeClipLayoutCells.
-	menu addUpdating: #hasRubberBandCellsString action: #changeRubberBandCells.
+	menu addUpdating: #hasReverseCellsString selector: #changeReverseCells.
+	menu addUpdating: #hasClipLayoutCellsString selector: #changeClipLayoutCells.
+	menu addUpdating: #hasRubberBandCellsString selector: #changeRubberBandCells.
 	menu addLine.
 	menu add: 'change cell inset...' selector: #changeCellInset:.
 	menu add: 'change min cell size...' selector: #changeMinCellSize:.

@@ -4,8 +4,8 @@ addCustomMenuItems: aMenu hand: aHandMorph
 	super addCustomMenuItems: aMenu hand: aHandMorph.
 
 	aMenu addLine.
-	aMenu addUpdating: #autoGradientString action: #toggleAutoGradient.
+	aMenu addUpdating: #autoGradientString selector: #toggleAutoGradient.
 	self isFloating
 		ifFalse: [
-			aMenu addUpdating: #fillsOwnerString action: #toggleFillsOwner.
-			aMenu addUpdating: #avoidVisibleBordersAtEdgeString action: #toggleAvoidVisibleBordersAtEdge]
+			aMenu addUpdating: #fillsOwnerString selector: #toggleFillsOwner.
+			aMenu addUpdating: #avoidVisibleBordersAtEdgeString selector: #toggleAvoidVisibleBordersAtEdge]

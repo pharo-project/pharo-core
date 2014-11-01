@@ -1,3 +1,3 @@
 addCustomMenuItems: aMenu hand: aHand
 	super addCustomMenuItems: aMenu hand: aHand.
-	aMenu addUpdating: #opacityString action: #changeOpacity
+	aMenu addUpdating: #opacityString selector: #changeOpacity

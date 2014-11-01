@@ -2,7 +2,7 @@ addCellLayoutMenuItems: aMenu hand: aHand
 	"Cell (e.g., child) related items"
 	| menu sub |
 	menu := UIManager default newMenuIn: self for: self.
-	menu addUpdating: #hasDisableTableLayoutString action: #changeDisableTableLayout.
+	menu addUpdating: #hasDisableTableLayoutString selector: #changeDisableTableLayout.
 	menu addLine.
 	sub := UIManager default newMenuIn: self for: self.
 	#(#rigid #shrinkWrap #spaceFill)

@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '14330 rename KeyChainTest --> KeyChainTests so it gets unloaded by #cleanUpForProduction
-	https://pharo.fogbugz.com/f/cases/14330
+ ^ '14335 renaming addUpdating:action: into addUpdating:selector:
+	https://pharo.fogbugz.com/f/cases/14335
 
-14362 Iconset is wrong
-	https://pharo.fogbugz.com/f/cases/14362'
+14360 ThemeIcons should be cleared on #cleanUp
+	https://pharo.fogbugz.com/f/cases/14360'

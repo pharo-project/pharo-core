@@ -9,9 +9,9 @@ addToggleItemsToHaloMenu: aMenu
 		(hasDirectionHandlesString changeDirectionHandles 'whether direction handles are shown with the halo' false)
 		(hasDragAndDropEnabledString changeDragAndDrop 'whether I am open to having objects dropped into me' false)
 	) do: [:each |
-			aMenu addUpdating: each first action: each second.
+			aMenu addUpdating: each first selector: each second.
 			aMenu balloonTextForLastItem: each third translated].
 
 	self couldHaveRoundedCorners ifTrue:
-		[aMenu addUpdating: #roundedCornersString action: #toggleCornerRounding.
+		[aMenu addUpdating: #roundedCornersString selector: #toggleCornerRounding.
 		aMenu balloonTextForLastItem: 'whether my corners should be rounded' translated]
