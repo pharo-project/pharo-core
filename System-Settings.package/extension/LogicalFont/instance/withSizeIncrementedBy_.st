@@ -1,5 +1,5 @@
 withSizeIncrementedBy: anInteger
-	^ LogicalFont 
+	^ self class 
 		familyName: self familyName 
 		fallbackFamilyNames: self fallbackFamilyNames
 		pointSize: self pointSize + anInteger

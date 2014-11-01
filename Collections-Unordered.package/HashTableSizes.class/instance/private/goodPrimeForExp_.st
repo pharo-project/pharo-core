@@ -6,6 +6,8 @@ goodPrimeForExp: exp
 	* Primes which are close to dividing 1664525, the hashMultiply constant
 	See Andres Valloud's hashing book, and Knuth TAOCP volume 3."
 
+	| limit |
+
 	candidate := self firstCandidateForExp: exp.
 	limit := self limitForExp: exp.
 	[ self candidateIsGoodPrime ]

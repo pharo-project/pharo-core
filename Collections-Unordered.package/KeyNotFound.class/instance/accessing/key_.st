@@ -1,2 +1,2 @@
 key: aKey
-	super object: aKey
+	self object: aKey

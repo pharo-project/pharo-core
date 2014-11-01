@@ -1,2 +1,2 @@
 nonInteractiveWarning: aWarnMessage
-	^ ErrorNonInteractive signal: aWarnMessage
+	^ ProvideAnswerNotification signal: aWarnMessage

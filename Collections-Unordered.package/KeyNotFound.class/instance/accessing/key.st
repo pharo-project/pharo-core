@@ -1,2 +1,2 @@
 key
-	^ super object
+	^ self object

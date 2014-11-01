@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '13113 remove generateSpecFormat
-	https://pharo.fogbugz.com/f/cases/13113
+ ^ '14368 tiny code critic pass Collection-Unordered
+	https://pharo.fogbugz.com/f/cases/14368
 
-14366 HDTestReport>>#initializeOn: bad initialisation of suiteTime
-	https://pharo.fogbugz.com/f/cases/14366
+14369 tiny code critic font infrastructure
+	https://pharo.fogbugz.com/f/cases/14369
 
-14365 missing #callPrimitive: method in OCDecompiler
-	https://pharo.fogbugz.com/f/cases/14365'
+14341 NonInteractiveManager should provide a default value on #nonInteractiveWarning:
+	https://pharo.fogbugz.com/f/cases/14341'
