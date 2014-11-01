@@ -2,4 +2,4 @@ Object subclass: #StartupLoader
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'StartupPreferences'
+	category: 'Deprecated40'

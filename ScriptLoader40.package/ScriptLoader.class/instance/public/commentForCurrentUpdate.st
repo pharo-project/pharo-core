@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '14335 renaming addUpdating:action: into addUpdating:selector:
-	https://pharo.fogbugz.com/f/cases/14335
+ ^ '14336 monkey fails with Methods equivalently defined in superclass 
+	https://pharo.fogbugz.com/f/cases/14336
 
-14360 ThemeIcons should be cleared on #cleanUp
-	https://pharo.fogbugz.com/f/cases/14360'
+14363 move StartupLoader to Deprecated40 
+	https://pharo.fogbugz.com/f/cases/14363'
