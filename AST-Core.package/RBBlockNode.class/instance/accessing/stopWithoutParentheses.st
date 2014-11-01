@@ -1,2 +1,2 @@
 stopWithoutParentheses
-	^right
+	^ right

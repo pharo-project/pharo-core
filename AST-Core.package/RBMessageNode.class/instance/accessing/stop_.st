@@ -1,3 +1,4 @@
 stop: anInteger
-	arguments isNotEmpty
-		ifTrue: [ arguments last sourcePointer: anInteger - arguments last formattedCode size + 1 ]
+	arguments
+		ifNotEmpty: [ arguments last stop: anInteger - arguments last formattedCode size + 1 ]
+		ifEmpty: [ self selectorParts first stop: anInteger ]

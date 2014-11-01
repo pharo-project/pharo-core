@@ -1,4 +1,1 @@
 stop: anInteger
-	"does nothing"
-
-	

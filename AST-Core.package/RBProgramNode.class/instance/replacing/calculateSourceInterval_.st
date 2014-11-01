@@ -1,17 +1,11 @@
 calculateSourceInterval: aNode
-	| replaceDifference methodNode |
-	(aNode selectorParts first isNotNil and: [ self selectorParts first isNotNil ])
-		ifTrue: [ 
-			aNode sourcePointer: self start.
-			aNode comments: self comments.
-			aNode selectorParts first stop: aNode start + (self calculateInnerCommentsSize: aNode) + aNode formattedCode size - 1.
-			replaceDifference := aNode selectorParts first stop - self selectorParts first stop.
-			methodNode := aNode method.
-			methodNode body isSequence
-				ifTrue: [ 
-					methodNode statements
-						do: [ :each | 
-							(each stop >= aNode stop and: [ each ~= aNode ])
-								ifTrue: [ 
-									each selectorParts first
-										ifNotNil: [ each selectorParts first sourcePointer: each selectorParts first start + replaceDifference ] ] ] ] ]
+	| replaceDifference |
+	aNode start: self start.
+	aNode comments: self comments.
+	aNode stop: aNode start + (self calculateInnerCommentsSize: aNode) + aNode formattedCode size - 1.
+	replaceDifference := aNode stop - self stop.
+	aNode method body allChildren
+		do: [ :each | 
+			(each children isEmpty and: [ each start > aNode start ])
+				ifTrue: [ each start: each start + replaceDifference ] ].
+	self checkMessageNodesIn: aNode withDifference: replaceDifference with: aNode method body

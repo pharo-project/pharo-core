@@ -1,4 +1,2 @@
 start
-	^parentheses 
-		ifNil: [self startWithoutParentheses]
-		ifNotNil: [parentheses last first]
+	^ parentheses ifNil: [ self startWithoutParentheses ] ifNotNil: [ parentheses last first ]

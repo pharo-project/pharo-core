@@ -1,4 +1,2 @@
 stop
-	^parentheses 
-		ifNil: [self stopWithoutParentheses]
-		ifNotNil: [parentheses last last]
+	^ parentheses ifNil: [ self stopWithoutParentheses ] ifNotNil: [ parentheses last last ]

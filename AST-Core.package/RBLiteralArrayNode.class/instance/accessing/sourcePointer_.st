@@ -1,2 +1,0 @@
-sourcePointer: anInteger
-	start := anInteger
