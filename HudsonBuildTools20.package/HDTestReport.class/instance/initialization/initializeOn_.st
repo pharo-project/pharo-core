@@ -1,4 +1,5 @@
 initializeOn: aTestSuite
 	suite := aTestSuite.
-	suitePosition := suiteTime := suiteFailures := suiteErrors := 0.
+	suiteTime := 0 asDuration.
+	suitePosition := suiteFailures := suiteErrors := 0.
 	progressFile := StandardFileStream forceNewFileNamed: 'progress.log'
