@@ -1,5 +1,5 @@
 Object subclass: #NewVersionBrowser
-	instanceVariableNames: 'list class selector browser'
+	instanceVariableNames: 'class selector browser'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-Tools-VersionBrowser'

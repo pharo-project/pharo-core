@@ -1,5 +1,5 @@
 AbstractMethodReferenceConverter subclass: #DiffChangeRecordConverter
-	instanceVariableNames: 'list'
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-Tools-VersionBrowser'

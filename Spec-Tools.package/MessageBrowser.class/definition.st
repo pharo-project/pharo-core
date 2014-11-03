@@ -1,5 +1,5 @@
 ComposableModel subclass: #MessageBrowser
-	instanceVariableNames: 'listModel textModel toolbarModel maxClassSize refreshingBlockHolder cachedHierarchy wrapper searchedStringHolder model topologicSortHolder textConverterHolder methodWidget browsedEnvironment'
+	instanceVariableNames: 'listModel textModel toolbarModel refreshingBlockHolder cachedHierarchy model topologicSortHolder textConverterHolder browsedEnvironment'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-Tools-Senders'

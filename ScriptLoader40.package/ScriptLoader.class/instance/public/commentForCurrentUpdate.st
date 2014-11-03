@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '14373 Replace Announcer>>#on:send:to:s senders in System-Support
-	https://pharo.fogbugz.com/f/cases/14373
+ ^ '14246 CompiledMethod>>hash can produce clashes
+	https://pharo.fogbugz.com/f/cases/14246
 
-14372 Replace Announcer>>#on:send:to:s senders in System-Changes
-	https://pharo.fogbugz.com/f/cases/14372
+14379 Code critique pass Spec-Tools
+	https://pharo.fogbugz.com/f/cases/14379
 
-14377 FileOut creates invalid comment entries for classes with class side methods
-	https://pharo.fogbugz.com/f/cases/14377'
+14375 Random #obsoleteClasses test failures
+	https://pharo.fogbugz.com/f/cases/14375'

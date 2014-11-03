@@ -1,3 +1,4 @@
 tearDown
 	
-	self cleaningResources
+	self cleaningResources.
+	ASTCache reset

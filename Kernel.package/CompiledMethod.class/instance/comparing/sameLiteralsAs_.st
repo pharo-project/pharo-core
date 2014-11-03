@@ -24,8 +24,9 @@ sameLiteralsAs: method
 						index = (numLits - 1)
 							ifTrue: [ 
 								"properties"
-								(self properties analogousCodeTo: method properties)
-									ifFalse: [ ^ false ] ]
+								"don't create properties if they don't exist"
+								(literal1 isSymbol and: [ literal2 isSymbol ]) ifFalse: [
+									(self properties analogousCodeTo: method properties) ifFalse: [ ^false ] ] ]
 							ifFalse: [ ^ false ] ] ] ].
 	"Class side methods have non unique (nil -> a Metaclass) as literal and cannot be compared equal"
 	literal1 := self literalAt: numLits.

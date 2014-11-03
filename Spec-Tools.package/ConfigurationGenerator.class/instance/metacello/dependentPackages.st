@@ -3,7 +3,7 @@ dependentPackages
 
 	"This method must be rewritten. It is a shame..."
 	
-	| lastBaseLineName lastBaseLineMethod versionConstructor versionSpec possiblePackageNames packageInfos packageNames |
+	| lastBaseLineName packageNames |
 	lastBaseLineName := self lastBaseLine.
 
 	packageNames := OrderedCollection new.

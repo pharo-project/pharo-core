@@ -1,6 +1,6 @@
 sortClassesInCachedHierarchy: a b: b
 	"Bullshitty name, Thanks Camillo"
-	| index aa bb minSize|
+	| aa bb minSize|
 	aa := cachedHierarchy at: a.
 	bb := cachedHierarchy at: b.
 	

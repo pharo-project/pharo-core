@@ -10,7 +10,7 @@ searchedString: searchedString in: aString
 	
 	(searchedString includes: $:)
 		ifTrue: [ | list |
-			list := searchedString subStrings: ':'.
+			list := searchedString substrings: ':'.
 			list size = 1
 				ifTrue: [" binary selector "
 					firstIndex := self findFirstOccurrenceOf: searchedString in: string.

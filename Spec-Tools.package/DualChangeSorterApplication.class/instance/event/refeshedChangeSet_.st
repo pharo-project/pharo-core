@@ -1,7 +1,6 @@
 refeshedChangeSet: changeSet
-
 	isRefreshing
-		ifFalse: [
-			isRefreshing := true.
-			changeSet updateChangesList.
-			isRefreshing := false ]
+		ifTrue: [ ^ self ].
+	isRefreshing := true.
+	changeSet updateChangesList.
+	isRefreshing := false
