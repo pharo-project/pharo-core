@@ -5,19 +5,19 @@ newChanges: aChangeSet withOld: old
 	current := aChangeSet.
 	
 	SystemAnnouncer uniqueInstance private weak
-		on: ClassRemoved send: #classRemoved: to: aChangeSet;
-		on: ClassAdded send: #classAdded: to: aChangeSet;
-		on: ClassCommented send: #classCommented: to: aChangeSet;
-		on: ClassRenamed send: #classRenamed: to: aChangeSet;
-		on: ClassReorganized send: #classReorganized: to: aChangeSet;
-		on: ClassRecategorized send: #classRecategorized: to: aChangeSet;
-		on: ClassModifiedClassDefinition send: #classModified: to: aChangeSet.
+		when: ClassRemoved send: #classRemoved: to: aChangeSet;
+		when: ClassAdded send: #classAdded: to: aChangeSet;
+		when: ClassCommented send: #classCommented: to: aChangeSet;
+		when: ClassRenamed send: #classRenamed: to: aChangeSet;
+		when: ClassReorganized send: #classReorganized: to: aChangeSet;
+		when: ClassRecategorized send: #classRecategorized: to: aChangeSet;
+		when: ClassModifiedClassDefinition send: #classModified: to: aChangeSet.
 	
 	SystemAnnouncer uniqueInstance private weak
-		on: MethodAdded send: #methodAdded: to: aChangeSet;
-		on: MethodModified send: #methodModified: to: aChangeSet;
-		on: MethodRemoved send: #methodRemoved: to: aChangeSet;
-		on: MethodRecategorized  send: #methodRecategorized: to: aChangeSet.
+		when: MethodAdded send: #methodAdded: to: aChangeSet;
+		when: MethodModified send: #methodModified: to: aChangeSet;
+		when: MethodRemoved send: #methodRemoved: to: aChangeSet;
+		when: MethodRecategorized  send: #methodRecategorized: to: aChangeSet.
 		
 	
 	SystemAnnouncer uniqueInstance announce: (CurrentChangeSetChanged new old: old; new: aChangeSet ; yourself).

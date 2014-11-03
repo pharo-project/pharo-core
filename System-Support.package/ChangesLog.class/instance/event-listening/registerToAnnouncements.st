@@ -1,14 +1,14 @@
 registerToAnnouncements
 	SystemAnnouncer uniqueInstance 
-		on: ClassRemoved 
+		when: ClassRemoved 
 			send: #logClassRemoved:
 			to: self;
-		on: ClassRenamed 
+		when: ClassRenamed 
 			send: #logClassRenamed:
 			to: self;
-		on: MethodRemoved
+		when: MethodRemoved
 			send: #logMethodRemoved:
 			to: self;
-		on: ExpressionEvaluated 
+		when: ExpressionEvaluated 
 			send: #logExpressionEvaluated:
 			to: self.

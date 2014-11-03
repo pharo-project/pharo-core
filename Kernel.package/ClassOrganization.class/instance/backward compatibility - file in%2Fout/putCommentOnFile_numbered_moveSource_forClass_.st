@@ -2,7 +2,7 @@ putCommentOnFile: aFileStream numbered: sourceIndex moveSource: moveSource forCl
 	"Store the comment about the class onto file, aFileStream."
 	| header |
 	
-	self classComment ifNil: [ ^ self ].
+	self classComment isEmptyOrNil ifTrue:[ ^ self ].
 
 	aFileStream cr; nextPut: $!.
 	header := String streamContents: [:strm | 

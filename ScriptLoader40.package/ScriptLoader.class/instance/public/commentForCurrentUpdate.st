@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '14368 tiny code critic pass Collection-Unordered
-	https://pharo.fogbugz.com/f/cases/14368
+ ^ '14373 Replace Announcer>>#on:send:to:s senders in System-Support
+	https://pharo.fogbugz.com/f/cases/14373
 
-14369 tiny code critic font infrastructure
-	https://pharo.fogbugz.com/f/cases/14369
+14372 Replace Announcer>>#on:send:to:s senders in System-Changes
+	https://pharo.fogbugz.com/f/cases/14372
 
-14341 NonInteractiveManager should provide a default value on #nonInteractiveWarning:
-	https://pharo.fogbugz.com/f/cases/14341'
+14377 FileOut creates invalid comment entries for classes with class side methods
+	https://pharo.fogbugz.com/f/cases/14377'
