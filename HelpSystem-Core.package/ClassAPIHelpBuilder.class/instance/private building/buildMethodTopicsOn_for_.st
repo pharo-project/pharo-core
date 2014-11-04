@@ -1,5 +1,5 @@
 buildMethodTopicsOn: topic for: aClass
-	|stream comments methodComment|
+	|stream methodComment|
 	stream := String new writeStream.
 	aClass selectors asSortedCollection do:
 			[:selector | 		

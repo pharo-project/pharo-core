@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '14246 CompiledMethod>>hash can produce clashes
-	https://pharo.fogbugz.com/f/cases/14246
+ ^ '14384 Move DropListItem to Spec-Core-Widgets-Support
+	https://pharo.fogbugz.com/f/cases/14384
 
-14379 Code critique pass Spec-Tools
-	https://pharo.fogbugz.com/f/cases/14379
+14381 Replace Announcer>>#on:send:to:s senders in Versionner-Core-Model
+	https://pharo.fogbugz.com/f/cases/14381
 
-14375 Random #obsoleteClasses test failures
-	https://pharo.fogbugz.com/f/cases/14375'
+14386 Small critic pass over HelpSystem-Core
+	https://pharo.fogbugz.com/f/cases/14386'
