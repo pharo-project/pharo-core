@@ -4,7 +4,7 @@ testProtocolRemoved
 	pass := false.
 	
 	SystemAnnouncer uniqueInstance 
-		on: ProtocolRemoved do: [ :ann | 
+		when: ProtocolRemoved do: [ :ann | 
 			pass := true.
 			classRemoved := ann classReorganized.			
 			protocolRemoved := ann protocol ].

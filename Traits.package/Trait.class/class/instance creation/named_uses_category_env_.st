@@ -34,7 +34,7 @@ named: aSymbol uses: aTraitCompositionOrCollection category: aString env: anEnvi
 		ifTrue: [ 
 			SystemAnnouncer uniqueInstance 
 				class: trait 
-				recategorizedFrom: oldCategory 
+				recategorizedFrom: (oldCategory ifNil: [ #Unclassified ])
 				to: systemCategory].
 		
 	^ trait

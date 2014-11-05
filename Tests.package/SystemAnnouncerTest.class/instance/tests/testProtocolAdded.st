@@ -4,7 +4,7 @@ testProtocolAdded
 	pass := false.
 	
 	SystemAnnouncer uniqueInstance 
-		on: ProtocolAdded do: [ :ann | 
+		when: ProtocolAdded do: [ :ann | 
 			pass := true.
 			classReorganized := ann classReorganized.
 			protocolAdded := ann protocol ].

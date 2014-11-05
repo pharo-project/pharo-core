@@ -7,5 +7,9 @@ category
 	self basicCategory ifNotNil: [ :symbol |
 		((self environment organization listAtCategoryNamed: symbol) includes: self name)
 			ifTrue: [ ^symbol ] ].
-	self basicCategory: (result := self environment organization categoryOfElement: self name).
-	^result
+	result := (self environment organization categoryOfElement: self name)
+		ifNil: [ #Unclassified ]
+		ifNotNil: #yourself.
+	self basicCategory: result.
+	
+	^ result

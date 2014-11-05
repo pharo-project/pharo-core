@@ -5,7 +5,7 @@ testSuspendAllWhile
 	
 	SystemAnnouncer uniqueInstance suspendAllWhile: [ 
 		SystemAnnouncer uniqueInstance 
-			on: ClassAdded do: [ value := value + 1 ];
+			when: ClassAdded do: [ value := value + 1 ];
 			announce: ClassAdded ].
 		
 	self assert: value = 42. "The answer is always 42 :)"

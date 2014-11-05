@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '14384 Move DropListItem to Spec-Core-Widgets-Support
-	https://pharo.fogbugz.com/f/cases/14384
+ ^ '14254 AST method replaceWith: does not change source interval
+	https://pharo.fogbugz.com/f/cases/14254
 
-14381 Replace Announcer>>#on:send:to:s senders in Versionner-Core-Model
-	https://pharo.fogbugz.com/f/cases/14381
+14380 Replace Announcer>>#on:send:to:s senders in Tests
+	https://pharo.fogbugz.com/f/cases/14380
 
-14386 Small critic pass over HelpSystem-Core
-	https://pharo.fogbugz.com/f/cases/14386'
+14371 Traits should not be allowed to have nil as their category
+	https://pharo.fogbugz.com/f/cases/14371'

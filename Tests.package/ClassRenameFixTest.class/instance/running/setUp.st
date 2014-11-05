@@ -4,7 +4,7 @@ setUp
 	testsChangeSet := ChangeSet new.
 	ChangeSet newChanges: testsChangeSet.
 	SystemAnnouncer uniqueInstance weak
-		on: ClassRenamed
+		when: ClassRenamed
 		send: #verifyRenameEvent:
 		to: self.
 	super setUp
