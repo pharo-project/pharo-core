@@ -1,2 +1,2 @@
 indexInTempVectorFromIR: aName
-	^(scope node irInstruction tempVectorNamed: name) indexForVarNamed: aName.
+	^(scope outerNotOptimizedScope node irInstruction tempVectorNamed: name) indexForVarNamed: aName.

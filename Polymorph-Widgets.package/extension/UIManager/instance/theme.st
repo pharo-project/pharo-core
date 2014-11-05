@@ -1,2 +1,0 @@
-theme  
-	^ Smalltalk ui theme
