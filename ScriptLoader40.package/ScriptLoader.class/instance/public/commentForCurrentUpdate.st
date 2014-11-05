@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '13260 inspecting variables in the debugger fails in some cases
-	https://pharo.fogbugz.com/f/cases/13260
+ ^ '14396 Merge Polymorph-EventEnhancements into the event mechanism that it extends
+	https://pharo.fogbugz.com/f/cases/14396
 
-14393 CollectionValueHolder>>remove: does not annnounce change
-	https://pharo.fogbugz.com/f/cases/14393
-
-14397 reduce polymorph extension methods
-	https://pharo.fogbugz.com/f/cases/14397'
+14398 remove Spec-Tools-Editor
+	https://pharo.fogbugz.com/f/cases/14398'

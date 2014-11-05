@@ -1,3 +1,0 @@
-retrievingMethod
-
-	^ retrievingMethod value

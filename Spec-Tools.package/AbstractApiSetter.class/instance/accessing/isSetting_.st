@@ -1,3 +1,0 @@
-isSetting: aBoolean 
-
-	isSetting := aBoolean 

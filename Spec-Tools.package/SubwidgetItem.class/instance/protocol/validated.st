@@ -1,3 +1,0 @@
-validated
-
-	^ validated value

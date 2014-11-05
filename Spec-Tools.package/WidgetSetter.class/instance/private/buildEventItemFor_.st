@@ -1,3 +1,0 @@
-buildEventItemFor: anAPIMethod 
-
-	^ nil

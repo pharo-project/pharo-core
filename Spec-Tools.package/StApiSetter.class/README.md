@@ -1,1 +1,0 @@
-Widget setter API for STEditor

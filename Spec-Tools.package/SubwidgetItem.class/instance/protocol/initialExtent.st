@@ -1,3 +1,0 @@
-initialExtent 
-
-	^ initialExtent
