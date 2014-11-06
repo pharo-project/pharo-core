@@ -7,7 +7,7 @@ testAnnouncement
 	self deny: (unitTest shouldAnnounce).
 	self deny: (unitTest new shouldAnnounce).
 		
-	unitTest announcer on: TestCaseAnnouncement do: [:ann | collection add: ann ].
+	unitTest announcer when: TestCaseAnnouncement do: [:ann | collection add: ann ].
 
 	self assert: (unitTest shouldAnnounce).
 	self assert: (unitTest new shouldAnnounce).

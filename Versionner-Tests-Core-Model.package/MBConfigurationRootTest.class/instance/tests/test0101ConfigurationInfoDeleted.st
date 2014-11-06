@@ -5,9 +5,9 @@ test0101ConfigurationInfoDeleted
 	changedValuable := [ :ann | configInfoChanged := true ].
 	deletedValuable := [ :ann | configInfoDeleted := true ].
 	[ 
-		configurationRoot announcer on: MBConfigurationInfoCreated do: createdValuable.
-		configurationRoot announcer on: MBConfigurationInfoChanged do: changedValuable.
-		configurationRoot announcer on: MBConfigurationInfoDeleted do: deletedValuable.
+		configurationRoot announcer when: MBConfigurationInfoCreated do: createdValuable.
+		configurationRoot announcer when: MBConfigurationInfoChanged do: changedValuable.
+		configurationRoot announcer when: MBConfigurationInfoDeleted do: deletedValuable.
 		configClassName := #ConfigurationOfMBFooTests.
 
 		"load configuration"

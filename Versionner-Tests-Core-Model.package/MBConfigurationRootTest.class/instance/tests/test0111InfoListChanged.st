@@ -3,7 +3,7 @@ test0111InfoListChanged
 	infoListChanged := false.
 	changedValuable := [ :ann | infoListChanged := true ].
 	[ 
-		configurationRoot announcer on: MBInfoListChanged do: changedValuable.
+		configurationRoot announcer when: MBInfoListChanged do: changedValuable.
 
 		"load configuration"
 		gofer version: 'ConfigurationOfMBFooTests-dkh.3'.
