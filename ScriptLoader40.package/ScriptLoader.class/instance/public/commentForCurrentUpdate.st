@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '14401 GTIRBrowser shows only decompiled source 
-	https://pharo.fogbugz.com/f/cases/14401
+ ^ '14391 GTIRBrowser modifies cached IRMethod on browse
+	https://pharo.fogbugz.com/f/cases/14391
 
-14406 Replace Announcer>>#on:do:s senders in SUnit-Tests
-	https://pharo.fogbugz.com/f/cases/14406
+14402 GTIRBrowser can not select the IRMethod node (MNU)
+	https://pharo.fogbugz.com/f/cases/14402
 
-14408 Replace Announcer>>#on:do:s senders in Versionner-Tests-Core-Model
-	https://pharo.fogbugz.com/f/cases/14408
-
-14394 RBConfigurableFormatter>>newLinesBeforeStartingAt: fails if originalSource is nil
-	https://pharo.fogbugz.com/f/cases/14394'
+14409 remove RBTranslateLiteralsInMenusRule
+	https://pharo.fogbugz.com/f/cases/14409'

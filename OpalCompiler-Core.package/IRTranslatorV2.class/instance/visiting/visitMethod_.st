@@ -1,7 +1,6 @@
 visitMethod: anIr
 	IRFix new visitNode: anIr.
 	self pushScope: anIr.
-	anIr optimize.
 	gen irPrimitive: anIr irPrimitive.
 	gen numArgs: anIr numArgs.
 	gen properties: anIr properties.

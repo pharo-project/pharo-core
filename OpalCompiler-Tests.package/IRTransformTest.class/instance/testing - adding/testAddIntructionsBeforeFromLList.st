@@ -7,7 +7,7 @@ testAddIntructionsBeforeFromLList
 		returnTop;
 		ir.
 
-	push := (iRMethod allSequences last) at: (iRMethod allSequences size - 1) .
+	push := (iRMethod allSequences last) at: 1 .
 
 	llist := LinkedList new.
 	llist add: (IRInstruction pushLiteral: 2).

@@ -7,7 +7,7 @@ testAddIntructionsBefore
 		returnTop;
 		ir.
 
-	push := (iRMethod allSequences last) at: (iRMethod allSequences size - 1) .
+	push := (iRMethod allSequences last) first.
 
 	(iRMethod allSequences last)
 			addInstructions: {(IRInstruction pushLiteral: 2). (IRInstruction returnTop)} before: push.
