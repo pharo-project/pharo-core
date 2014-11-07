@@ -15,5 +15,5 @@ buildWidget
 		setBalloonText: self model help ;
 		dragEnabled: self dragEnabled;
 		dropEnabled: self dropEnabled ;	
-		eventHandler: (EventHandler new on: #keyStroke send: #keyStroke:fromMorph: to: self).
+		eventHandler: (MorphicEventHandler new on: #keyStroke send: #keyStroke:fromMorph: to: self).
 	^ button

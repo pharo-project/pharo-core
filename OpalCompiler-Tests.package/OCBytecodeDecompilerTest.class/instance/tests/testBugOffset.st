@@ -10,7 +10,7 @@ testBugOffset
 		ir.
 	aCompiledMethod := iRMethod compiledMethod.
 
-	ir :=  aCompiledMethod ir.
+	ir :=  aCompiledMethod decompileIR.
 	method := ir compiledMethod.
 	
 	self assert: (aCompiledMethod symbolic = method symbolic).

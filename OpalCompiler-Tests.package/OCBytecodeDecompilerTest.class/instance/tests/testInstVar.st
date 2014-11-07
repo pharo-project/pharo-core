@@ -4,7 +4,7 @@ testInstVar
 	ir1 := IRBuilderTest new testInstVar.
 	method := ir1 compiledMethod.
 	
-	ir2 :=  method ir.
+	ir2 :=  method decompileIR.
 	method2 := ir2 compiledMethod.
 	
 	self deny: method2 == method.
