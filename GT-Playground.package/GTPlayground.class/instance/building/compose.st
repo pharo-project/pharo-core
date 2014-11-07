@@ -14,5 +14,4 @@ compose
 			us keep the model in sync"
 			self entity
 					content: self first panes first presentations first text.
-			self entity content asString trimBoth isEmpty
-				ifFalse: [ self class repository add: self entity ] ]
+			GTPlayBook instance addPageIfInteresting: self entity ]

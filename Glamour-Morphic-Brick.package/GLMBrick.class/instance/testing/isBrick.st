@@ -1,0 +1,2 @@
+isBrick
+	^ true

@@ -1,5 +1,5 @@
 gtExampleDirectory
-	<gtExample>
+	<example>
 	| directory subDirectory |
 	directory := FileSystem memory workingDirectory / 'directory'.
 	directory createDirectory.

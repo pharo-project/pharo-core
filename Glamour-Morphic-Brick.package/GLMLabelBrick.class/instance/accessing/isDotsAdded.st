@@ -1,0 +1,2 @@
+isDotsAdded
+	^ isDotsAdded

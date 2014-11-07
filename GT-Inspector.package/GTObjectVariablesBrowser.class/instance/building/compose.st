@@ -1,5 +1,5 @@
 compose
-	self title: 'State'.
+	self title: 'Raw'.
 	self tabulator with: [ :browser |
 		browser row: #variables; row: #evaluator.
 		browser transmit to: #variables; andShow: [:a | 

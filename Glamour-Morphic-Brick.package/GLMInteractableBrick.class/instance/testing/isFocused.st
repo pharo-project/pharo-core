@@ -1,0 +1,3 @@
+isFocused
+
+	^ false

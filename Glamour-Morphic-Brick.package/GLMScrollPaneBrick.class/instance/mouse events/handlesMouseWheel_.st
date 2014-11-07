@@ -1,0 +1,2 @@
+handlesMouseWheel: evt
+	^ true

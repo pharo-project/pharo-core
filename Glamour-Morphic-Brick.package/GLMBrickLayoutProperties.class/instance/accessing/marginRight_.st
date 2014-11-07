@@ -1,0 +1,2 @@
+marginRight: anObject
+	marginRight := anObject

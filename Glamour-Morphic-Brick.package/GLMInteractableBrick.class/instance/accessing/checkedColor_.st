@@ -1,0 +1,2 @@
+checkedColor: anObject
+	checkedColor := anObject

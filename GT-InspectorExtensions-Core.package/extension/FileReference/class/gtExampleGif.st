@@ -1,5 +1,5 @@
 gtExampleGif
-	<gtExample>
+	<example>
 	^ FileSystem memory workingDirectory / 'pharoicon.gif' 
 		writeStreamDo: [ :stream |
 			GIFReadWriter 

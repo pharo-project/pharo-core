@@ -1,5 +1,5 @@
 gtInspectorItemsIn: composite
-	<gtInspectorPresentationOrder: 40>
+	<gtInspectorPresentationOrder: 0>
 	^ composite table 
 		title: 'Items';
 		display: [ 

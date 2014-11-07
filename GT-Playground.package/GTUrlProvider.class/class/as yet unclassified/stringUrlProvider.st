@@ -1,0 +1,2 @@
+stringUrlProvider
+	^ self urlProvider asString

@@ -1,0 +1,2 @@
+horizontalPercent
+	^ horizontalPercent

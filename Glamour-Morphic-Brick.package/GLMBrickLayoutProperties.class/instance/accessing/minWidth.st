@@ -1,0 +1,2 @@
+minWidth
+	^ minWidth

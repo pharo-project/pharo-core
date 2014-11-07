@@ -1,0 +1,3 @@
+isGTExample
+	
+	^ false

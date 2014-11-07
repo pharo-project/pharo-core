@@ -1,0 +1,2 @@
+checkedColor
+	^ checkedColor

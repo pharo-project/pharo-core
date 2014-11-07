@@ -1,0 +1,2 @@
+maxWidthBlock: anObject
+	maxWidthBlock := anObject

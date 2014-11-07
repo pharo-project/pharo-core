@@ -1,3 +1,3 @@
 scrollToPane: anIndex smooth: isSmooth
 
-	self scrollTo: (pagerModel convertIndexToValue: anIndex) smooth: isSmooth.
+	self scrollToPane: anIndex smooth: isSmooth callback: nil

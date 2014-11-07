@@ -1,11 +1,9 @@
 actionsForPreviousContents
-	^ self class repository reverse
+	^ GTPlayBook instance pages
 		collect: [ :each | 
 			GLMGenericAction new
 				title: (each content asString contractTo: 50);
 				action: [ :text | 
-					self pushToRepositoryFrom: text.
-					text entity: each.
-					self class repository remove: each.
+					text entity content: each content.
 					text update ];
 				yourself ]

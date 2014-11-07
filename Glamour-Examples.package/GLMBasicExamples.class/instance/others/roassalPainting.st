@@ -15,8 +15,9 @@ roassalPainting
 			entitled:  'Multiply by 10 and then send outside'
 			].
 	browser transmit to: #two; from: #one port: #customSelection; andShow: [ :a |
-		a roassal 
+		a roassal2
 			title: 'Numbers in Roassal';
+			initializeView: [ RTMondrianViewBuilder new ];
 			painting: [:view :number | 
 				view shape label.
 				view nodes: (1 to: number).

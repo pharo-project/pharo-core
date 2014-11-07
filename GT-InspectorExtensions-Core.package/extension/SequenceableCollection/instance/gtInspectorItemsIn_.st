@@ -4,7 +4,7 @@ gtInspectorItemsIn: composite
 		display: [ :aCollection | (1 to: self size) collect: [ :index | index -> (self at: index) ] ];
 		beMultiple;
 		searchOn: [:text :each | 
-			Compiler evaluate: ' | entity each | each := self. entity := each.', text for: each value logged: false];
+			Smalltalk compiler evaluate: ' | entity each | each := self. entity := each.', text for: each value logged: false];
 		column: 'Index' evaluated: [ :assoc | assoc key asString ];
 		column: 'Item' evaluated: [ :assoc | GTObjectPrinter new asTruncatedTextFrom: assoc value ];
 		send: [ :result | 

@@ -1,5 +1,5 @@
 open
 	"self open"
 	| page |
-	page := GTPlaygroundPage new.
+	page := GTPlayPage new.
 	^ self new openOn: page

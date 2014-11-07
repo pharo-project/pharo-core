@@ -1,5 +1,5 @@
 Object subclass: #GTExample
-	instanceVariableNames: 'methodReference result name'
+	instanceVariableNames: 'result title provider selector parentExample extractionStrategy'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'GT-Inspector'
+	category: 'GT-Inspector-Examples'

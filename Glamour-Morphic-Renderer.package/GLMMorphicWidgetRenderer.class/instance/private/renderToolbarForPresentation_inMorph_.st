@@ -10,8 +10,8 @@ renderToolbarForPresentation: aPresentation inMorph: aMorph
 	tools := aMorph theme newToolbarIn: aMorph for: buttons.
 	noIconActions isEmpty ifFalse: [
 			| activeForm passiveForm menuButton | 
-			activeForm := GLMMorphicIcons toolbarMenuForm.
-			passiveForm := GLMMorphicIcons toolbarMenuInactiveForm.
+			activeForm := GLMUIThemeExtraIcons glamorousMore.
+			passiveForm := GLMUIThemeExtraIcons glamorousMore.
 			menuButton := MultistateButtonMorph new extent: activeForm extent.
 			menuButton
 				extent: activeForm extent;

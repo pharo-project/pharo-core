@@ -1,2 +1,5 @@
 result
-	^ result ifNil: [ result := self methodReference realClass theNonMetaClass perform: self methodReference selector ]
+
+	^ result ifNil: [ result := self hasParentExample
+			ifFalse: [ self provider perform: self selector ]
+			ifTrue: [ self provider perform: self selector with: parentExample result ] ]

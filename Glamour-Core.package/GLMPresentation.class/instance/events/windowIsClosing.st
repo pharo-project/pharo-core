@@ -1,4 +1,4 @@
 windowIsClosing 
 	| event |
-	self announce: (event := GLMBrowserClosing new).
+	event := GLMBrowserClosing new.
 	self withAllPresentations do: [ :each | each announce: event ]

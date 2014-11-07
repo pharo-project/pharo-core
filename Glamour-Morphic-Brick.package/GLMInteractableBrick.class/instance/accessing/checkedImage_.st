@@ -1,0 +1,2 @@
+checkedImage: anObject
+	checkedImage := anObject

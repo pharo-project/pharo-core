@@ -1,1 +1,1 @@
-A GLMPagePoped is xxxxxxxxx.
+A GLMPagePoped is xxxxxxxxx.Instance Variables	smooth:		<Object>smooth	- xxxxx

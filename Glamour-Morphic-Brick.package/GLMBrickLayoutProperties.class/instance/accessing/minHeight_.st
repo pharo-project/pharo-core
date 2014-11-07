@@ -1,0 +1,2 @@
+minHeight: anObject
+	minHeight := anObject

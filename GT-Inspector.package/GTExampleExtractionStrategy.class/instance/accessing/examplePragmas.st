@@ -1,0 +1,3 @@
+examplePragmas
+
+	^ #(example example:)

@@ -1,7 +1,7 @@
 openLabel: aLabel
 	| page |
 
-	page := GTPlaygroundPage new
+	page := GTPlayPage new
 		title: aLabel;
 		yourself.
 	^ self new openOn: page

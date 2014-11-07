@@ -1,9 +1,3 @@
 commentForCurrentUpdate
- ^ '14403 never use EventHandler but MorphicEventHandler (and migrate all existing instances)
-	https://pharo.fogbugz.com/f/cases/14403
-
-14348 Package Keys got lost
-	https://pharo.fogbugz.com/f/cases/14348
-
-14388 Can not inspect IRMethod
-	https://pharo.fogbugz.com/f/cases/14388'
+ ^ '14407 GTools version 2.0.0
+	https://pharo.fogbugz.com/f/cases/14407'

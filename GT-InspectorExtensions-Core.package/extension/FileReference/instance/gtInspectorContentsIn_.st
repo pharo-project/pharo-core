@@ -1,7 +1,7 @@
 gtInspectorContentsIn: composite
-	<gtInspectorPresentationOrder: 10>
+	<gtInspectorPresentationOrder: 5>
 	composite rubricText
-			title: 'Raw';
+			title: 'Contents';
 			display: [ 
 				self readStreamDo: [ :stream | 
 					| result |

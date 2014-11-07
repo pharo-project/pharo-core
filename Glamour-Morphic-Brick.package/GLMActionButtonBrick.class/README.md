@@ -1,0 +1,1 @@
+A GLMActionButtonBrick is a button for Glamour actions, used in Tabbed presentationsInstance Variables	action:		<Object>action	- xxxxx

@@ -1,0 +1,1 @@
+A GLMBrickHorizontalProportionalLinearLayout is an improvement of standard LinearLayout such that element are positioned proportionaly in the parent based on Brick>>layoutProperties horizontalPercent.

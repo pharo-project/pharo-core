@@ -1,0 +1,2 @@
+minHeight
+	^ self theme buttonMinHeight

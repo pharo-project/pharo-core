@@ -1,0 +1,2 @@
+selectedImage: anObject
+	selectedImage := anObject

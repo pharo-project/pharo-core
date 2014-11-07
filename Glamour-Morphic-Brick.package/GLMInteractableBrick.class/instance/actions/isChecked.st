@@ -1,0 +1,2 @@
+isChecked
+	^ isChecked.

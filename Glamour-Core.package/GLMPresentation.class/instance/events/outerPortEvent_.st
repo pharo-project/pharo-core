@@ -4,4 +4,7 @@ outerPortEvent: aPortEvent
 				property: aPortEvent portName; 
 				value: aPortEvent value; 
 				oldValue: aPortEvent oldValue; 
-				yourself)
+				yourself).
+	self portChangeActions do: [ :each | 
+		each portName = aPortEvent portName ifTrue: [ 
+			each actOn: self ] ]

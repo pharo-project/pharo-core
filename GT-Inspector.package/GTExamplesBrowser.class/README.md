@@ -1,1 +1,0 @@
-A simple browser showing the list of examples for a given class.For example:self openOn: FileReference

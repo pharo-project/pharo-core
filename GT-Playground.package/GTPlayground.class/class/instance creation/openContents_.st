@@ -4,7 +4,7 @@ openContents: aString
 
 	| page |
 	
-	page := GTPlaygroundPage new
+	page := GTPlayPage new
 		content: aString;
 		yourself.
 	^ self new openOn: page

@@ -1,0 +1,2 @@
+horizontalPercent: anObject
+	horizontalPercent := anObject

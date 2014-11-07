@@ -1,3 +1,0 @@
-onPagePoped
-	self popPane.
-	

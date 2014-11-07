@@ -1,5 +1,5 @@
 gtExamplePng
-	<gtExample>
+	<example>
 	^ FileSystem memory workingDirectory / 'pharoicon.png' 
 		writeStreamDo: [ :stream |
 			PNGReadWriter 

@@ -1,0 +1,17 @@
+example
+	|foundation scrollPane|
+	
+	scrollPane := GLMScrollPaneBrick new.
+	
+	foundation := GLMFoundationBrick new.
+	foundation brickRoot: scrollPane.
+	
+	1 to: 20 do: [ :index |
+		scrollPane addBrickBack: (GLMBrick new
+			color: Color random;
+			extent: 200@50).
+	].
+	
+	foundation extent: 200@200.
+	
+	foundation openInWindow

@@ -1,0 +1,3 @@
+fullBounds
+
+	^ self globalBounds

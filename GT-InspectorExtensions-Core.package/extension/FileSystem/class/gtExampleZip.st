@@ -1,5 +1,5 @@
 gtExampleZip
-	<gtExample>
+	<example>
 	| zipFile zip |
 	zipFile := FileSystem memory workingDirectory / 'test.zip'.
 	zip := (FileSystem zip: zipFile) open.

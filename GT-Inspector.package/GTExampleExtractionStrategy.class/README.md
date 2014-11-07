@@ -1,0 +1,1 @@
+I extract and create examples from an example provider.

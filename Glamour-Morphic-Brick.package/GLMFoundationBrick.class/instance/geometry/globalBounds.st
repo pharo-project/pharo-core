@@ -1,0 +1,3 @@
+globalBounds
+
+	^ self bounds

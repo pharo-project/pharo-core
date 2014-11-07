@@ -12,7 +12,7 @@ edit: aString label: aLabel
 	| page |
 	"self halt"
 
-	page := GTPlaygroundPage new
+	page := GTPlayPage new
 		content: aString;
 		title: aLabel;
 		yourself.

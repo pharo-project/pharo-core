@@ -3,7 +3,7 @@ openContents: aString label: aLabel
 
 	| page |
 
-	page := GTPlaygroundPage new
+	page := GTPlayPage new
 		content: aString;
 		title: aLabel;
 		yourself.

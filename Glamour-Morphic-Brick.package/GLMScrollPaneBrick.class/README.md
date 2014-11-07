@@ -1,0 +1,1 @@
+A GLMScrollPaneBrick is a very simple scrollpane, that has no scrollbars.For scrolling used acceleration algorithm, so as longer user scroll so faster it becomes.Instance Variables	band:		<Object>	currentVelocity:		<Object>	lastScrollTimeStamp:		<Object>band	- xxxxxcurrentVelocity	- xxxxxlastScrollTimeStamp	- xxxxx

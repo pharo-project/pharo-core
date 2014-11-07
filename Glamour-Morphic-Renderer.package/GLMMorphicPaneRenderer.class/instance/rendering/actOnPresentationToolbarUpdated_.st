@@ -6,6 +6,6 @@ actOnPresentationToolbarUpdated: anAnnouncement
 	contentMorph updatePageAtIndex: 1
 			withLabel: (self titleOrIconOf: presentation in: contentMorph)
 			toolbar: (self renderToolbarForPresentation: presentation inMorph: contentMorph)
-			action: (self labelActionMorphFor: presentation)
+			action: (self labelActionTrickFor: presentation)
 	
 	

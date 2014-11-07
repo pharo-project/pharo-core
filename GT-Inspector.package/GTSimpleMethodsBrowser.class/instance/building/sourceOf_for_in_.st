@@ -4,9 +4,9 @@ sourceOf: method for: object in: composite
 		smalltalkClass: [ :m | m methodClass ];
 		doItReceiver: [ object ];
 		selectionPopulate: #evaluatedObject
-			on: $o
-			entitled: 'Do it and open (o)'
-			with: [ :text | Compiler evaluate: text selectedText for: object logged: false ];
+			on: $g
+			entitled: 'Do it and go'
+			with: [ :text | Smalltalk compiler evaluate: text selectedText for: object logged: false ];
 		act: [ :text :m | self updateOuterPaneFrom: text for: method ]
 			icon: GLMUIThemeExtraIcons glamorousAccept
 			on: $s

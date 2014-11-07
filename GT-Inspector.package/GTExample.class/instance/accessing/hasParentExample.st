@@ -1,0 +1,3 @@
+hasParentExample
+
+	^ parentExample notNil

@@ -28,6 +28,7 @@ importIcons
 		'glamorousUndo'
 		'glamorousRedo'
 		'glamorousPlay'
+		'glamorousGo'
 		'glamorousRestart'
 		'glamorousOver'
 		'glamorousInto'
@@ -35,6 +36,8 @@ importIcons
 		'glamorousBookmark'
 		'glamorousOpen'
 		'glamorousSave'
+		'glamorousOpenFromUrl'
+		'glamorousSaveToUrl'
 		'glamorousFolder'
 		'glamorousRefresh'
 		'glamorousSpawn'
@@ -43,9 +46,10 @@ importIcons
 		'glamorousRightSide'
 		'glamorousZoomIn'
 		'glamorousZoomOut'
-		'glamourousNextParser'
+		'glamorousMore'
+		"'glamourousNextParser'
 		'glamourousNextProduction'
-		'glamourousNextFailure').
+		'glamourousNextFailure'").
 	(Smalltalk at:
 	 #MooseScripts) 
 		importIcons: wantedIcons 

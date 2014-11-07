@@ -1,3 +1,3 @@
 inspector: anObject
 
-	^ self inspect: anObject
+	^ self openOn: anObject

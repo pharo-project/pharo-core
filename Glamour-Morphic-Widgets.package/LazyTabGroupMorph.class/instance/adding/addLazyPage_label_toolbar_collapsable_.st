@@ -8,10 +8,9 @@ addLazyPage: aBlock label: aStringOrMorph toolbar: aToolbar collapsable: aBoolea
 	label := self 
 			buildLabelFrom: aStringOrMorph 
 			withAction: (aBoolean 
-				ifTrue: [UITheme builder
-					newCloseControlFor: nil
-					action: [self removePage: newPage]
-					help: nil]
+				ifTrue: [GLMActionButtonBrick new
+					addUpAction: [self removePage: newPage];
+					icon: self theme windowCloseForm ]
 				ifFalse: [nil]).
 	self 
 		addPage: newPage

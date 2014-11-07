@@ -3,7 +3,7 @@ gtScrollerWithWrappingAndSpaceFilling
 	self gtScrollerWithWrappingAndSpaceFilling openInWindow
 	"
 
-	<gtExample>
+	<example>
 	| scrollpane pane |
 	scrollpane := GeneralScrollPane new.
 	scrollpane changeScrollerTableLayout.

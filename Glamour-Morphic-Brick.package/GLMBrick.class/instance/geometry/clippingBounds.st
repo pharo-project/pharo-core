@@ -1,0 +1,3 @@
+clippingBounds
+
+	^ self fullBounds

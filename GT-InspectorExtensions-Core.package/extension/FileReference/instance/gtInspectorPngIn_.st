@@ -1,5 +1,5 @@
 gtInspectorPngIn: composite
-	<gtInspectorPresentationOrder: 10>
+	<gtInspectorPresentationOrder: 0>
 	composite morph
 			title: 'Picture';
 			display: [ self binaryReadStreamDo: [ :stream | PNGReadWriter formFromStream: stream ] ];
