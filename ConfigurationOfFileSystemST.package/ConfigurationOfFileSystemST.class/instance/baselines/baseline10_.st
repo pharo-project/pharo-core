@@ -3,7 +3,7 @@ baseline10: spec
 
 	spec for: #common do: [	
 		spec blessing: #baseline.
-		spec repository: 'http://smalltalkhub.com/mc/dh83/FileSystemST/main'.
+		spec repository: 'http://smalltalkhub.com/mc/PharoExtras/FileSystemST/main'.
 	
 		
 		spec
