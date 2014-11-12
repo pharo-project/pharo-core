@@ -2,4 +2,4 @@ TestCase subclass: #EmbeddedFreeTypeFontInstallerTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'EmbeddedFreeTypeTests'
+	category: 'EmbeddedFreeType-Tests'
