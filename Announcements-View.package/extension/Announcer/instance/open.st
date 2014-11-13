@@ -1,2 +1,0 @@
-open
-	AnnouncementSpy openOn: self

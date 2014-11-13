@@ -1,2 +1,0 @@
-windowIsClosing
-	self close
