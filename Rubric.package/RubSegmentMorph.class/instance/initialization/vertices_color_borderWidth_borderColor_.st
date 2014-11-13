@@ -2,6 +2,6 @@ vertices: verts color: aColor borderWidth: borderWidthInteger borderColor: anoth
 	super initialize.
 	vertices := verts.
 	color := aColor.
-	borderWidth := borderWidthInteger.
+	borderWidth := borderWidthInteger. 
 	borderColor := anotherColor.
 	self computeBounds

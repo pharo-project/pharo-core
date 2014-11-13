@@ -2,12 +2,12 @@ layout: aBrick in: newBounds
 	
 	aBrick subbricks
 		inject: 0
-		into: [ :topOffset :each |
-			|left top maxHeight extent|
-			topOffset := topOffset + each layoutProperties marginTop.
+		into: [ :currentTopOffset :each |
+			|left top maxHeight extent newTopOffset|
+			newTopOffset := currentTopOffset + each layoutProperties marginTop.
 			
 			left := each layoutProperties marginLeft.
-			top := topOffset.
+			top := newTopOffset.
 			
 			maxHeight := (each layoutProperties maxHeightBlock value: each) >= 0
 						ifTrue: [ each layoutProperties maxHeightBlock value: each ]
@@ -20,7 +20,7 @@ layout: aBrick in: newBounds
 				ifTrue: [ each brickBounds: ((left@top) extent: extent) ]
 				ifFalse: [ each bounds: (((left@top) extent: extent) translateBy: aBrick globalBounds origin) ].
 				
-			topOffset + each height + each layoutProperties marginBottom.
+			newTopOffset + each height + each layoutProperties marginBottom.
 		]
 
 	

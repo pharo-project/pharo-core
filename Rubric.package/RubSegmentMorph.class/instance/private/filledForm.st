@@ -14,7 +14,7 @@ filledForm
 	"Fill it in..."
 	filledForm convexShapeFill: Color black.
 
-	(borderColor isColor and: [borderColor isTranslucentButNotTransparent]) ifTrue:
+	(borderColor isColor and: [borderColor isTranslucentButNotTransparent]) ifTrue: 
 		["If border is stored as a form, then erase any overlap now."
 		filledForm copy: self borderForm boundingBox from: self borderForm
 			to: 1@1 rule: Form erase].

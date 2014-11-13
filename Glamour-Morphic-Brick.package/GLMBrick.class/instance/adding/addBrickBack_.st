@@ -1,11 +1,6 @@
 addBrickBack: aBrick
 
 	subbricks add: aBrick.
-	
-	aBrick isBrick ifTrue: [
-		aBrick brickRoot: self brickRoot.
-		aBrick brickOwner: self.
-	].
-	
+	self initializeBrick: aBrick.
 	super addMorphBack: aBrick.
 	^ aBrick

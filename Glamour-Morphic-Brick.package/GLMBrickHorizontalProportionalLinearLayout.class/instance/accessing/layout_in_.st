@@ -13,12 +13,12 @@ layout: aBrick in: newBounds
 	
 	aBrick subbricks
 		inject: 0
-		into: [ :width :each |
-			|left top extent maxWidth|
+		into: [ :currentWidth :each |
+			|left top extent maxWidth newWidth|
 			top := each layoutProperties marginTop.
 			
-			width := width + each layoutProperties marginLeft.
-			left := width.
+			newWidth := currentWidth + each layoutProperties marginLeft.
+			left := newWidth.
 						
 			maxWidth := (each layoutProperties maxWidthBlock value: each) >= 0
 						ifTrue: [ each layoutProperties maxWidthBlock value: each ]
@@ -35,5 +35,5 @@ layout: aBrick in: newBounds
 				ifTrue: [ each brickBounds: ((left@top) extent: extent) ]
 				ifFalse: [ each bounds: (((left@top) extent: extent) translateBy: aBrick globalBounds origin) ].
 			
-			width + each width + each layoutProperties marginRight.
+			newWidth + each width + each layoutProperties marginRight.
 		]

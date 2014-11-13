@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '14404 extend MorphicEventHandler with #mouseOver and replace all uses of MouseOverEventHandler
-	https://pharo.fogbugz.com/f/cases/14404'
+ ^ '14467 GTools version 2.0.1
+	https://pharo.fogbugz.com/f/cases/14467'
