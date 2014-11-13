@@ -1,11 +1,11 @@
 appearanceSettingsOn: aBuilder 
 	<systemsettings>
 	(aBuilder group: #appearance)
-		label: 'Appearance' translated;  
-		description: 'All settings concerned with the look''n feel of your system' translated;
+		label: 'Appearance' ;  
+		description: 'All settings concerned with the look''n feel of your system';
 		with: [
 			(aBuilder pickOne: #uiThemeClass)
-				label: 'User interface theme' translated;
+				label: 'User interface theme';
 				target: self;
 				default: UITheme standardThemeClass;
 				order: 1;

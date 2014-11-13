@@ -1,10 +1,10 @@
 displaySettingsOn: aBuilder 
 	<systemsettings>
 	(aBuilder setting: #displayFullscreen)
-		label: 'Fullscreen mode' translated;
+		label: 'Fullscreen mode';
 		parent: #desktopSettings;
 		target: #Display;
 		getSelector: #isFullscreen;
 		setSelector: #fullscreen:;
-		description: 'On platforms that support it, set fullscreen mode' translated;
+		description: 'On platforms that support it, set fullscreen mode';
 		default: false.

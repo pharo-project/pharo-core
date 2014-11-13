@@ -1,5 +1,5 @@
 resetAllFontToDefaultButton
-	^ (Smalltalk ui theme
+	^ (self theme
 		newButtonIn: World
 		for: self
 		getState: nil

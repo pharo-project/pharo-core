@@ -1,6 +1,6 @@
 packageListUpdate
 
-	| result loadedPackages newPackageList |	
+	| result loadedPackages |	
 	
 	"Within fork, make no changes to object state until end with assignment wrapped by #defer:"
 	
@@ -24,9 +24,9 @@ packageListUpdate
 	
 			packagePattern ifNotEmpty: [
 				result := result select: [ :package|  package name asLowercase includesSubstring: packagePattern ]].
-			newPackageList := result collect: [ :each | self packageHighlight: each loadedPackages: loadedPackages ].
+			 
 			UIManager default defer:
-			[	packageList := newPackageList.
+			[	packageList := result.
 				self changed: #packageList
 			]
 		]

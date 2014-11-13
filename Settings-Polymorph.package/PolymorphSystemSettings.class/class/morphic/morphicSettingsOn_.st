@@ -1,7 +1,7 @@
 morphicSettingsOn: aBuilder 
 	(aBuilder group: #morphic)
-		label: 'Morphic' translated;
-		description: 'All morphic settings' translated;
+		label: 'Morphic';
+		description: 'All morphic settings';
 		noOrdering;
 		with: [
 			self morphicWindowsSettingsOn: aBuilder.
@@ -9,30 +9,30 @@ morphicSettingsOn: aBuilder
 			self morphicHaloSettingsOn: aBuilder.
 			self morphicAnimationSettingsOn: aBuilder.
 			(aBuilder setting: #keyboardFocusOnMouseDown)
-				label: 'Keyboard focus on mouse down' translated;
+				label: 'Keyboard focus on mouse down';
 				target: MorphicModel;
-				description: 'When enabled the mouse button must be clicked within a morph for it to take the keyboard focus.' translated.
+				description: 'When enabled the mouse button must be clicked within a morph for it to take the keyboard focus.' .
 			(aBuilder setting: #mouseOverForKeyboardFocus)
-				label: 'Lose keyboard focus when mouse leave' translated;
+				label: 'Lose keyboard focus when mouse leave';
 				target: MorphicModel;
-				description: 'When true, the mouse must be over a text or list pane in morphic for keystrokes to be felt, and when the mouse is out over the desktop, the so-called desktop-command-keys, such as cmd-b and cmd-R, are honored.  When false, list panes and text panes in morphic remain sensitive to keystrokes even after the mouse is no longer over the pane.' translated.
+				description: 'When true, the mouse must be over a text or list pane in morphic for keystrokes to be felt, and when the mouse is out over the desktop, the so-called desktop-command-keys, such as cmd-b and cmd-R, are honored.  When false, list panes and text panes in morphic remain sensitive to keystrokes even after the mouse is no longer over the pane.' .
 			(aBuilder setting: #showTextEditingState)
-				label: 'Show text editing state' translated;
+				label: 'Show text editing state';
 				target: PluggableTextMorph;
-				description: 'When enabled the editing state of PluggableTextMorphs is shown as a colored inset border.' translated.
+				description: 'When enabled the editing state of PluggableTextMorphs is shown as a colored inset border.' .
 			(aBuilder setting: #balloonHelpEnabled)
 				label: 'Balloon help'; 
 				target: UITheme;
 				targetSelector: #currentSettings.
 			(aBuilder setting: #editableStringMorph)
-				label: 'String morphs are editable' translated;
+				label: 'String morphs are editable';
 				target: StringMorph;
-				description: 'If true, editing on StringMorph is possible if the shift key is pressed while selecting the morphs.' translated.
+				description: 'If true, editing on StringMorph is possible if the shift key is pressed while selecting the morphs.' .
 			(aBuilder setting: #defaultYellowButtonMenuEnabled)
-				label: 'Show default action click menu' translated;
+				label: 'Show default action click menu';
 				target: Morph;
-				description: 'If true, populate an action click menu (default context menu).' translated.
+				description: 'If true, populate an action click menu (default context menu).'.
 			(aBuilder setting: #easySelectingWorld)
-				label: 'Easy selection' translated;
+				label: 'Easy selection';
 				target: WorldState;
-				description: 'If true, select multiple Morphs in the world by dragging a selection box around them.' translated]
+				description: 'If true, select multiple Morphs in the world by dragging a selection box around them.']

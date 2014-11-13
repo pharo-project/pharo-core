@@ -13,19 +13,19 @@ settingsOn: aBuilder
 						ifTrue: [ 
 							(aBuilder pickOne: #completionController)
 								order: -1;
-								label: 'Controller' translated;
+								label: 'Controller';
 								getSelector: #currentController;
 								setSelector: #useController:;
 								domainValues: availableControllers ].
 					(aBuilder setting: #backgroundColor)
-						label: 'Background Color' translated.
+						label: 'Background Color'.
 					(aBuilder setting: #expandPrefixes)
 						label: 'Complete common prefixes using TAB in the suggested completions' translated.
 					(aBuilder setting: #useEnterToAccept)
-						label: 'Use ENTER to accept a suggested completion' translated;
+						label: 'Use ENTER to accept a suggested completion';
 						default: self defaultUseEnterToAccept.
 					(aBuilder setting: #captureNavigationKeys)
-						label: 'Use navigation keys for extended completion functionality' translated.
+						label: 'Use navigation keys for extended completion functionality'.
 					(aBuilder setting: #caseSensitive)
 						label: 'Case Sensitive';
 						description: 'Decide if you want eCompletion to be case sensitive or not.'.
@@ -46,7 +46,7 @@ settingsOn: aBuilder
 						label: 'Popup appearance delay'.
 					(aBuilder pickOne: #popupShowWithShortcut)
 						default: self defaultPopupShortcut;
-						label: 'Popup appears with this shortcut' translated;
+						label: 'Popup appears with this shortcut';
 						domainValues: self availablePopupShortcuts.
 					(aBuilder setting: #spaceAfterCompletion)
 						default: self defaultSpaceAfterCompletion;

@@ -1,11 +1,11 @@
 growlSettingsOn: aBuilder
 
 	(aBuilder group: #growl)
-		label: 'Growl' translated;  
-		description: 'All settings concerned with the look''n feel of your system' translated;
+		label: 'Growl';  
+		description: 'All settings concerned with the look''n feel of your system';
 		with: [
 			(aBuilder pickOne: #growlPosition)
-				label: 'Growl position' translated;
+				label: 'Growl position';
 				target: self;
 				default: #topRight;
 				order: 1;

@@ -1,19 +1,19 @@
 systemSettingOn: aBuilder
 	<systemsettings>
 	(aBuilder group: #pharoSystem) 
-		label: 'System' translated;
-		description: 'General system settings' translated;
+		label: 'System';
+		description: 'General system settings' ;
 		with: [
 			(aBuilder setting: #serverMode)
-				label: 'Server mode' translated;
+				label: 'Server mode';
 				target: WorldState;
-				description: 'If enabled, then each main rendering loop will always wait a complete delay of 50ms' translated.
+				description: 'If enabled, then each main rendering loop will always wait a complete delay of 50ms' .
 			(aBuilder setting: #shouldDownloadSourcesFile)
-				label: 'Download sources file' translated;
+				label: 'Download sources file';
 				target: SmalltalkImage;
-				description: 'If true, when no sources file can be found, the file will be downloaded.' translated.
+				description: 'If true, when no sources file can be found, the file will be downloaded.'.
 			(aBuilder setting: #useLocale)
-				label: 'Use locale' translated;
+				label: 'Use locale';
 				target: Locale;
 				selector: #activated;
-				description: 'Use the system locale to set the system language at startup.' translated]
+				description: 'Use the system locale to set the system language at startup.']

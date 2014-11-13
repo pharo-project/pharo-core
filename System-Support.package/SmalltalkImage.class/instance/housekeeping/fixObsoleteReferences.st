@@ -4,8 +4,8 @@ fixObsoleteReferences
 		ifTrue: [ SystemNavigation new obsoleteBehaviors inspect.
 			self error:'Still have obsolete behaviors. See inspector']"
 		
-	Smalltalk garbageCollect.
 	self
+		garbageCollect;
 		fixObsoleteBindings;
 		fixObsoleteSharedPools.
-	Behavior flushObsoleteSubclasses.
+	Behavior flushObsoleteSubclasses

@@ -1,6 +1,6 @@
 fontSizeRow
-	^ Smalltalk ui theme newRowIn: World for: {
-			Smalltalk ui theme buttonLabelForText: 'Predefined styles: ' translated.
+	^ self theme newRowIn: World for: {
+			self theme buttonLabelForText: 'Predefined styles: ' translated.
 			self fontChoiceButtonForStyle: #small label: 'Small' translated.
 			self fontChoiceButtonForStyle: #medium label: 'Medium' translated.
 			self fontChoiceButtonForStyle: #large label: 'Large' translated.

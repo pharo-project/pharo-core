@@ -1,7 +1,9 @@
 fontChoiceButtonForStyle: aSymbol label: aLabel
 	| label |
-	label := StringMorph contents: aLabel asString font: (TextStyle default fontOfPointSize: (StandardFonts pointSizeForStyleNamed: aSymbol)).
-	^ (Smalltalk ui theme 
+	label := StringMorph 
+				contents: aLabel asString 
+				font: (TextStyle default fontOfPointSize: (StandardFonts pointSizeForStyleNamed: aSymbol)).
+	^ (self theme 
 		newButtonIn: World
 		for: self
 		getState: nil 

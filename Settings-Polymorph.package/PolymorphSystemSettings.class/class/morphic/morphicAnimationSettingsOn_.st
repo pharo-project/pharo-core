@@ -1,22 +1,22 @@
 morphicAnimationSettingsOn: aBuilder 
 	(aBuilder setting: #useAnimation)
-		label: 'Animation' translated;
+		label: 'Animation';
 		target: UITheme;
 		targetSelector: #currentAnimationSettings;
-		description: 'If true, some animations will be use when opening and closing windows' translated;
+		description: 'If true, some animations will be use when opening and closing windows';
 		noOrdering;
 		with: [
 			(aBuilder setting: #animateClosing)
-				label: 'Animate closing' translated;
-				description: 'If true, then windows closing is animated' translated.
+				label: 'Animate closing';
+				description: 'If true, then windows closing is animated'.
 			(aBuilder range: #animationDelay) 
-				label: 'Delay' translated;
-				description: 'The delay between each step of the window animation in milliseconds.' translated;
+				label: 'Delay' ;
+				description: 'The delay between each step of the window animation in milliseconds.';
 				selector: #delay;
 				range: (0 to: 30).
 			(aBuilder range: #animationNumberOfSteps) 
-				label: 'Number of steps' translated;
-				description: 'The number of steps in the window animation.' translated;
+				label: 'Number of steps';
+				description: 'The number of steps in the window animation.';
 				selector: #numberOfSteps;
 				range: (0 to: 100).
 		]

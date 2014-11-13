@@ -1,5 +1,5 @@
 Object subclass: #MorphicEventDispatcher
-	instanceVariableNames: 'lastType lastDispatch'
+	instanceVariableNames: 'morph'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Morphic-Core-Events'

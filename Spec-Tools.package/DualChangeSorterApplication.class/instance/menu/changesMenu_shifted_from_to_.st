@@ -1,6 +1,6 @@
 changesMenu: menu shifted: shifted from: sourcePanel to: destinationPanel
 	| menuDest |
-	menu addTitle: 'Change Set' translated.
+	menu addTitle: 'Change Set'.
 	sourcePanel changeSetMenu1: menu shifted: shifted.
 	menuDest := MenuModel new
 		fromSpec:

@@ -6,7 +6,7 @@ widgetSpecs
 	^{ {{#buttonRow}.            {0. 0. 1. 0}.     {0. 0. 0. 30}}.
 		
 		{{#packageSearchField}.   {0. 0. 0.5. 0}.   {0. 30. 0. searchBarOffset}}.
-		{{#listMorph:. #package}. {0. 0. 0.5. 0.6}. {0. searchBarOffset+3. 0. 0}}.
+		{{#listMorph:selection:menu:icon: . #packageList . #packageSelection . #packageListMenu: . #packageIcon:}.{0. 0. 0.5. 0.6}. {0. searchBarOffset+3. 0. 0}}.
 		
 		{{#versionSearchField}.   {0.5. 0. 1. 0}.   {0. 30. 0. searchBarOffset}}.
 		{{#listMorph:. #version}. {0.5. 0. 1. 0.6}. {0. searchBarOffset+3. 0. 0.}}.

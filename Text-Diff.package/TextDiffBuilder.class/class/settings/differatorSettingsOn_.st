@@ -1,17 +1,17 @@
 differatorSettingsOn: aBuilder 
 	<systemsettings>
 	(aBuilder group: #differator) 
-		label: 'Differator' translated;
+		label: 'Differator';
 		parent: #codeBrowsing; 
-		description: 'All settings concerned with the differator' translated;
+		description: 'All settings concerned with the differator' ;
 		with: [	
 			(aBuilder setting: #ignoreLineEndings) 
-				label: 'Ignore line endings' translated;
+				label: 'Ignore line endings';
 				target: self;
-		 		description: 'When selected, line ending differences will be ignored ' translated];
+		 		description: 'When selected, line ending differences will be ignored ' ];
 		with: [  
 		(aBuilder setting: #diffsWithPrettyPrint)
 				target: self;	
-				label: 'Pretty print differences' translated;
-				description: 'If true, displays of source code differences will be pretty-printed first' translated
+				label: 'Pretty print differences' ;
+				description: 'If true, displays of source code differences will be pretty-printed first' 
 		]

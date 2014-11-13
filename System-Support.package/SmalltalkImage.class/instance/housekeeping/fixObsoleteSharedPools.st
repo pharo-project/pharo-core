@@ -12,5 +12,4 @@ fixObsoleteSharedPools
 	Resetting the shared pools to nil should therefore save a bit of space."
 	self allClasses
 		select: [ :class | class sharedPools isEmpty ]
-		thenDo: [ :class | class sharedPools: nil ].
-	3 timesRepeat: [ Smalltalk garbageCollect ]
+		thenDo: [ :class | class sharedPools: nil ]

@@ -5,5 +5,5 @@ screenShotCommandOn: aBuilder
 		target: World;
 		order: 0.59;
 		selector: #makeAScreenshot;
-		label: 'Screenshot' translated;
+		label: 'Screenshot';
 		icon: Smalltalk ui icons smallScreenshotIcon

@@ -8,5 +8,5 @@ fontButton: aString size: size
 			getEnabled: nil
 			getLabel: nil
 			help: 'Change font style to Source Code Pro' translated)
-		label: aString translated;
+		label: aString;
 		yourself

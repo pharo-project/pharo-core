@@ -9,6 +9,6 @@ soundSettingsOn: aBuilder
 				target: SoundTheme; 
 				with: [
 					(aBuilder pickOne: #soundThemeClass)
-						label: 'Sound theme' translated;
+						label: 'Sound theme' ;
 						target: self;
 						domainValues: self soundThemeClassChoices]]

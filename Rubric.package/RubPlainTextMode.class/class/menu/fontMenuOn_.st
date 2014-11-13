@@ -5,7 +5,7 @@ fontMenuOn: aBuilder
 		model: nil) menu popUpInWorld"
 
 	(aBuilder item: #'fontItems')
-		label: 'Font...' translated;
+		label: 'Font...';
 		withSeparatorAfter;
 		with: [ 
 					(aBuilder item: #'Set font...' translated)

@@ -1,4 +1,4 @@
-description: aText
+description: aString
 	"Set the value of description"
 
-	description := aText
+	description := aString translated

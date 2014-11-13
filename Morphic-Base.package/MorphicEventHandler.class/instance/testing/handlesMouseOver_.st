@@ -1,3 +1,6 @@
 handlesMouseOver: evt
-	^(self existsSubscriptionsFor: #mouseEnter)
-		or: [ self existsSubscriptionsFor: #mouseLeave ]
+	(self existsSubscriptionsFor: #mouseEnter) ifTrue: [ ^true ].
+	(self existsSubscriptionsFor: #mouseLeave)  ifTrue: [ ^true ].
+	(self existsSubscriptionsFor: #mouseOver) ifTrue: [ ^true ].
+	^false.
+		

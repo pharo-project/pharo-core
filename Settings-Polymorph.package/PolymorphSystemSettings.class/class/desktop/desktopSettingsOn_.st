@@ -5,16 +5,16 @@ desktopSettingsOn: aBuilder
 		noOrdering;
 		with: [
 			(aBuilder setting: #showDesktopLogo)
-				label: 'Show logo' translated;
-				description: 'If true, then a logo if shown on the top left of the desktop' translated;
+				label: 'Show logo' ;
+				description: 'If true, then a logo if shown on the top left of the desktop' ;
 				with: [
 					(aBuilder setting: #desktopLogoFileName)
 						type: #FilePathEncoder;
-						description: 'The path of an image file for your own logo, the default pharo logo is used if empty.' translated;
+						description: 'The path of an image file for your own logo, the default pharo logo is used if empty.' ;
 						label: 'Logo image file name'].
 			self desktopColorSettingsOn: aBuilder.
 			(aBuilder setting: #desktopImageFileName)
 				type: #FilePathEncoder;
-				description: 'The path of an image file which will be imported as a form and displayed as your desktop background' translated;
+				description: 'The path of an image file which will be imported as a form and displayed as your desktop background';
 				label: 'Desktop background image file name']
 						

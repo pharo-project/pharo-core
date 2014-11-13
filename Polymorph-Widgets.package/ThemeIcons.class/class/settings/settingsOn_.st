@@ -3,7 +3,7 @@ settingsOn: aBuilder
 
 	(aBuilder pickOne: #uiIconClass)
 		parent: #appearance;
-		label: 'Icon Set' translated;
+		label: 'Icon Set';
 		target: self;
 		order: 2;
 		domainValues: self uiIconSetChoises

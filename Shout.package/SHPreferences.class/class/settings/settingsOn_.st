@@ -9,41 +9,41 @@ settingsOn: aBuilder
 		icon: Smalltalk ui icons smallConfigurationIcon;
 		with: [
 			(aBuilder setting: #selectorPatternsStyle) 
-				label: 'Selector Patterns' translated;
-				description: 'Selector patterns in method pane' translated.
+				label: 'Selector Patterns';
+				description: 'Selector patterns in method pane'.
 			(aBuilder setting: #errorStyle) 
-				label: 'Syntactic error' translated;
-				description: 'Invalid and undefined code' translated.
+				label: 'Syntactic error';
+				description: 'Invalid and undefined code' .
 			(aBuilder setting: #argsStyle) 
-				label: 'Parameters' translated;
-				description: 'Parameters in patterns, message sends, and blocks' translated.
+				label: 'Parameters';
+				description: 'Parameters in patterns, message sends, and blocks' .
 			(aBuilder setting: #commentStyle) 
-				label: 'Comments' translated;
-				description: 'Comments in code pane' translated.
+				label: 'Comments';
+				description: 'Comments in code pane' .
 			(aBuilder setting: #defaultStyle) 
-				label: 'Default' translated;
-				description: 'Default style' translated.
+				label: 'Default' ;
+				description: 'Default style' .
 			(aBuilder setting: #globalVarStyle) 
-				label: 'Global variables' translated;
-				description: 'References to global variables, including classes' translated.
+				label: 'Global variables' ;
+				description: 'References to global variables, including classes' .
 			(aBuilder setting: #instanceVarStyle) 
-				label: 'Instance/class variables' translated;
-				description: 'References to instance and class variables' translated.
+				label: 'Instance/class variables' ;
+				description: 'References to instance and class variables' .
 			(aBuilder setting: #messageSendsStyle) 
-				label: 'Message sends' translated;
-				description: 'Message sends' translated.
+				label: 'Message sends' ;
+				description: 'Message sends' .
 			(aBuilder setting: #primitiveOrModuleStyle) 
-				label: 'Primitive or module' translated;
-				description: 'Primitive or module' translated.
+				label: 'Primitive or module' ;
+				description: 'Primitive or module' .
 			(aBuilder setting: #primitiveTypesStyle) 
-				label: 'Primitive types' translated;
-				description: 'Literal data' translated.
+				label: 'Primitive types';
+				description: 'Literal data' .
 			(aBuilder setting: #reservedWordsStyle) 
-				label: 'Reserved words' translated;
-				description: 'Reserved words of the Smalltalk language' translated.
+				label: 'Reserved words';
+				description: 'Reserved words of the Smalltalk language' .
 			(aBuilder setting: #syntaxStyle) 
-				label: 'Syntax' translated;
-				description: 'Any other syntactic element' translated.
+				label: 'Syntax';
+				description: 'Any other syntactic element' .
 			(aBuilder setting: #variableStyle) 
-				label: 'Variable' translated;
-				description: 'Temporary variable' translated ]
+				label: 'Variable';
+				description: 'Temporary variable'  ]
