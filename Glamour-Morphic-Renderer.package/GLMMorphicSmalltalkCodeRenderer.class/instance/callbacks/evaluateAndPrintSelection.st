@@ -1,3 +1,3 @@
 evaluateAndPrintSelection
 
-	textMorph printIt
+	UIManager default defer: [ textMorph printIt ]

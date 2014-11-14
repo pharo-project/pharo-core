@@ -7,7 +7,7 @@ rowMorphFor: aNodeMorph
 		ifNil: [rowMorph := self defaultRowMorph].
 	cont := Morph new color: Color transparent;
 				 layoutPolicy: RowLayout new;
-				 hResizing: #rigid;
+				 hResizing: #shrinkWrap;
 				 vResizing: #shrinkWrap;
 				 layoutInset: container columnInset @ container rowInset;
 				 yourself.
