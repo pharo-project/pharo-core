@@ -5,6 +5,11 @@ handleTimerEvent
 		- a timer signal (not explicitly specified)
 	We check for timer expiry every time we get a signal."
 	| nowTick nextTick |
+self newCodeEnabled 
+  ifTrue: [
+	self shouldNotImplement.
+	]
+  ifFalse: [
 	"Wait until there is work to do."
 	TimingSemaphore wait.
 
@@ -54,3 +59,4 @@ handleTimerEvent
 	condition is easy, let's just deal with it"
 	Time millisecondClockValue < nowTick
 		ifTrue:[ TimingSemaphore signal ]. "retry"
+	]

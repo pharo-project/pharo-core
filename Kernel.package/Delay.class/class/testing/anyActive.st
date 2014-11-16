@@ -1,3 +1,10 @@
 anyActive
 	"Return true if there is any delay currently active"
-	^ActiveDelay notNil
+self newCodeEnabled 
+  ifTrue: [
+		^Scheduler anyActive
+		]
+  ifFalse: [
+		^ActiveDelay notNil
+		].
+	

@@ -1,5 +1,10 @@
 unscheduleDelay: aDelay
 	"Private. Unschedule this Delay."
+self newCodeEnabled 
+  ifTrue: [
+	self shouldNotImplement.
+	]
+  ifFalse: [
 	aDelay beingWaitedOn 
 		ifFalse:[ ^self ].
 	
@@ -12,3 +17,4 @@ unscheduleDelay: aDelay
 			SuspendedDelays remove: aDelay ifAbsent: []].
 	
 	aDelay beingWaitedOn: false.
+	].

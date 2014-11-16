@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '14473 GTools version 2.0.2 - bug fixes
-	https://pharo.fogbugz.com/f/cases/14473'
+ ^ '14261 Delay refactoring (part 1) - move scheduler from class-side to instance-side of its own class
+	https://pharo.fogbugz.com/f/cases/14261'

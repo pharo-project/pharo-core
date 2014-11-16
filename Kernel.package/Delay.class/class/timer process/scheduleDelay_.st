@@ -1,6 +1,10 @@
 scheduleDelay: aDelay
 	"Private. Schedule this Delay."
-	
+self newCodeEnabled 
+  ifTrue: [
+	self shouldNotImplement.
+	]
+  ifFalse: [
 	aDelay resumptionTime: Time millisecondClockValue + aDelay delayDuration. 
 	"Do the above here, via the high priority timer process to avoid rollover bug due to process pre-emption
 	since the caller cannot use the AccessProtect semaphore."
@@ -13,3 +17,6 @@ scheduleDelay: aDelay
 					SuspendedDelays add: ActiveDelay.
 					ActiveDelay := aDelay ]
 				ifFalse: [ SuspendedDelays add: aDelay ]]
+
+	].
+	
