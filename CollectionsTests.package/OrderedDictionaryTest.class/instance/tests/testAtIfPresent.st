@@ -7,8 +7,8 @@ testAtIfPresent
 			at: self singleKey
 			ifPresent: [:each |
 				each = self singleValue
-					ifTrue: [self singleValue]
-					ifFalse: [nil]]) = self singleValue.
+					ifTrue: [self newValue]
+					ifFalse: [nil]]) = self newValue.
 	self assert:
 		(dictionary
 			at: self absentKey

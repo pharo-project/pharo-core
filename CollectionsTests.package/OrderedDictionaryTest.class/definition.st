@@ -1,5 +1,5 @@
 TestCase subclass: #OrderedDictionaryTest
-	instanceVariableNames: ''
+	instanceVariableNames: 'dictionaryAssociations'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'CollectionsTests-Sequenceable'

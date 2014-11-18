@@ -20,5 +20,8 @@ evaluate
 	self source: selectedSource.
 	value := receiver withArgs: (context ifNil: [ #() ] ifNotNil: [ {context} ]) executeMethod:  self translate generateWithSource.
 	self compilationContext logged
-		ifTrue: [ SystemAnnouncer uniqueInstance evaluated: selectedSource contents context: context ].
+		ifTrue: [ Smalltalk globals 
+			at: #SystemAnnouncer 
+			ifPresent: [ :sysAnn | 
+				sysAnn uniqueInstance evaluated: selectedSource contents context: context ] ].
 	^ value

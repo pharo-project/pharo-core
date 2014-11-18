@@ -1,4 +1,4 @@
 smallBackIconGray
 	^ icons
-			at: #'smallBack'
+			at: #'smallBackGray'
 			ifAbsentPut:[ self smallBackIcon asGrayScaleWithAlpha ].

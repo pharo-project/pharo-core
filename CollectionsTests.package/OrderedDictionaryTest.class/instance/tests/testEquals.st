@@ -3,24 +3,18 @@ testEquals
 
 	dictionaryOne := self emptyDictionary.
 	dictionaryTwo := self emptyDictionary.
-	self assertDictionary: dictionaryOne commutativelyEquals: dictionaryTwo.
-
-	dictionaryOne add: self dictionaryAssociations first.
-	dictionaryTwo add: self dictionaryAssociations first. 
-	self
-		assertDictionary: dictionaryOne doesNotEqual: self emptyDictionary;
-		assertDictionary: dictionaryOne commutativelyEquals: dictionaryTwo.
+	self assertDictionary: dictionaryOne equals: dictionaryTwo.
 
 	"For equality, order will not matter"
-	dictionaryOne add: self dictionaryAssociations second.
-	self assertDictionary: dictionaryOne doesNotEqual: dictionaryTwo.
-	dictionaryTwo add: self dictionaryAssociations third.
-	self assertDictionary: dictionaryOne doesNotEqual: dictionaryTwo.
-	dictionaryOne add: self dictionaryAssociations third.
-	self assertDictionary: dictionaryOne doesNotEqual: dictionaryTwo.
-	dictionaryTwo add: self dictionaryAssociations second.
-	self assertDictionary: dictionaryOne commutativelyEquals: dictionaryTwo.
+	self dictionaryAssociations
+		with: self dictionaryAssociations reversed
+		do: [:firstAssociation :secondAssociation |
+			dictionaryOne add: firstAssociation.
+			dictionaryTwo add: secondAssociation.
+			self
+				assertDictionary: dictionaryOne doesNotEqual: self emptyDictionary;
+				assertDictionary: dictionaryTwo doesNotEqual: self emptyDictionary.
+			dictionaryOne size < self dictionaryAssociations size
+				ifTrue: [self assertDictionary: dictionaryOne doesNotEqual: dictionaryTwo]].
 
-	dictionaryOne addAll: (self dictionaryAssociations allButFirst: 3).
-	dictionaryTwo addAll: (self dictionaryAssociations allButFirst: 3).
-	self assertDictionary: dictionaryOne commutativelyEquals: dictionaryTwo.
+	self assertDictionary: dictionaryOne equals: dictionaryTwo.

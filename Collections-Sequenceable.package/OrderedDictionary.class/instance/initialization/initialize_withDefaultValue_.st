@@ -1,4 +1,4 @@
 initialize: aCapacity withDefaultValue: aDefaultValue
-	dictionary := Dictionary new: aCapacity.
-	orderedKeys := OrderedCollection new: aCapacity.
+	dictionary := self dictionaryClass new: aCapacity.
+	orderedKeys := Array new: aCapacity.
 	defaultValue := aDefaultValue.

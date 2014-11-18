@@ -1,5 +1,5 @@
-IdentityDictionary subclass: #OrderedIdentityDictionary
-	instanceVariableNames: 'keys'
+OrderedDictionary subclass: #OrderedIdentityDictionary
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Collections-Sequenceable'

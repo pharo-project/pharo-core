@@ -1,0 +1,2 @@
+internalDictionaryClass
+	^ IdentityDictionary

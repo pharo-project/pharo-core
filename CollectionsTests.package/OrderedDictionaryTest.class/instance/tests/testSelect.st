@@ -1,6 +1,13 @@
 testSelect
+	| dictionary |
+
+	dictionary := self dictionaryWithAssociations.
 	self
-		assertIsDictionary:
-			(self dictionaryWithAssociations select: [:each | each ~= self singleValue])
-		withAssociations:
-			(self dictionaryAssociations copyWithout: self singleAssociation)
+		assertIsDictionary: (dictionary select: [:each | each ~= self singleValue])
+		withAssociations: (self dictionaryAssociations copyWithout: self singleAssociation).
+
+	(dictionary select: [:each | true]) at: self singleKey put: self newValue.
+	self deny: (dictionary at: self singleKey) = self newValue.
+
+	dictionary defaultValue: self defaultValue.
+	self assert: (dictionary select: [:each | true]) defaultValue = self defaultValue.

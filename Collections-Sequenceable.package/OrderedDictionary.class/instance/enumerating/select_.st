@@ -1,3 +1,3 @@
 select: aBlock
-	^ self species newFrom:
+	^ self speciesNewFrom:
 		(self associations select: [:each | aBlock value: each value])

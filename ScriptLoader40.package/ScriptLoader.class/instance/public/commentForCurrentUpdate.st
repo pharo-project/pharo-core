@@ -1,6 +1,12 @@
 commentForCurrentUpdate
- ^ '14486 Debugging failing primitives crash spur images
-	https://pharo.fogbugz.com/f/cases/14486
+ ^ '14490 Opal depends on System-Announcements
+	https://pharo.fogbugz.com/f/cases/14490
 
-14485 InstructionStream scanner failing in spur.
-	https://pharo.fogbugz.com/f/cases/14485'
+14469 Merge back OrderPreservingDictionary improvements
+	https://pharo.fogbugz.com/f/cases/14469
+
+14465 Unexpected DNU when compiling a method code without selecting a class 
+	https://pharo.fogbugz.com/f/cases/14465
+
+14415 error while retrieving all icons from aThemeIcon
+	https://pharo.fogbugz.com/f/cases/14415'

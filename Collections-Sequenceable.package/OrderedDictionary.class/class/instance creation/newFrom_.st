@@ -1,8 +1,11 @@
-newFrom: aDictionaryOrArray
+newFrom: anAssociationCollection
 	| newDictionary |
 
-	newDictionary := self new: aDictionaryOrArray size.
-	aDictionaryOrArray associationsDo: [:each | newDictionary add: each].
-	(aDictionaryOrArray respondsTo: #defaultValue)
-		ifTrue: [newDictionary defaultValue: aDictionaryOrArray defaultValue].
+	newDictionary := self new: anAssociationCollection size.
+	anAssociationCollection associationsDo: [:each |
+		newDictionary
+			at: each key
+			put: each value].
+	(anAssociationCollection respondsTo: #defaultValue)
+		ifTrue: [newDictionary defaultValue: anAssociationCollection defaultValue].
 	^ newDictionary.

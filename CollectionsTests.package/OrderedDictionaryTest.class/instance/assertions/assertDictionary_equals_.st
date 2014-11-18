@@ -1,4 +1,4 @@
-assertDictionary: aDictionary commutativelyEquals: aSecondDictionary
+assertDictionary: aDictionary equals: aSecondDictionary
 	self
 		assert: aDictionary = aDictionary;
 		assert: aSecondDictionary = aSecondDictionary;

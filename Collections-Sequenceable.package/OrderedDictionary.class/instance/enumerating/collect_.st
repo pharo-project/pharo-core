@@ -1,4 +1,4 @@
 collect: aBlock
-	^ self species newFrom:
+	^ self speciesNewFrom:
 		(self associations collect: [:each |
 			each key -> (aBlock value: each value)])

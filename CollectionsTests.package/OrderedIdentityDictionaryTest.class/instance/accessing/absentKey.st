@@ -1,0 +1,2 @@
+absentKey
+	^ self singleKey copy

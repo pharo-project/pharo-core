@@ -1,8 +1,11 @@
 add: anAssociation
-	| oldSize |
+	| oldSize newSize |
 
 	oldSize := dictionary size.
 	dictionary add: anAssociation.
-	dictionary size > oldSize
-		ifTrue: [orderedKeys addLast: anAssociation key].
+	(newSize := dictionary size) > oldSize
+		ifTrue: [
+			 newSize > orderedKeys size
+				ifTrue: [self growOrderedKeys].
+			orderedKeys at: newSize put: anAssociation key].
 	^ anAssociation.

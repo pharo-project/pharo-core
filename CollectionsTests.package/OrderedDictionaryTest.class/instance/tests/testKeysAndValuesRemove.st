@@ -1,4 +1,4 @@
-testsKeysAndValuesRemove
+testKeysAndValuesRemove
 	| dictionary keys |
 
 	dictionary := self dictionaryWithAssociations.

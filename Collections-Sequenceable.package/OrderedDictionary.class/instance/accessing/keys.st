@@ -1,2 +1,2 @@
 keys
-	^ Array newFrom: orderedKeys
+	^ orderedKeys copyFrom: 1 to: self size
