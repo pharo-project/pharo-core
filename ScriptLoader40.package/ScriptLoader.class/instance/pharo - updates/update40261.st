@@ -5,7 +5,7 @@ update40261
 
 13606 testSlotScopeParallelism is failing
 	https://pharo.fogbugz.com/f/cases/13606'.
-	self loadTogether: self scriptnil merge: false.
+	self loadTogether: self script261 merge: false.
 	
 ClassHierarchyTest fixSlotScope.
 	self flushCaches.
