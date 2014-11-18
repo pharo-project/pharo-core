@@ -12,5 +12,4 @@ appearanceSettingsOn: aBuilder
 				domainValues: self uiThemeClassChoices.
 			self morphicSettingsOn: aBuilder.
 			self desktopSettingsOn: aBuilder.
-			self soundSettingsOn: aBuilder.
-			self growlSettingsOn: aBuilder]
+			self soundSettingsOn: aBuilder]

@@ -10,6 +10,6 @@ methodsWithUnboundGlobals
 			[:l|
 			l isVariableBinding
 			and: [l key isSymbol "avoid class-side methodClass literals"
-			and: [(m methodClass bindingOf: l key)
+			and: [(m methodClass classBindingOf: l key)
 					ifNil: [(Undeclared associationAt: l key ifAbsent: []) ~~ l]
 					ifNotNil: [:b| b ~~ l]]]]]

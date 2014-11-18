@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '14490 Opal depends on System-Announcements
-	https://pharo.fogbugz.com/f/cases/14490
+ ^ '14385 move growl settings to Growl class
+	https://pharo.fogbugz.com/f/cases/14385
 
-14469 Merge back OrderPreservingDictionary improvements
-	https://pharo.fogbugz.com/f/cases/14469
+14484 Remove debugging methods from Integer
+	https://pharo.fogbugz.com/f/cases/14484
 
-14465 Unexpected DNU when compiling a method code without selecting a class 
-	https://pharo.fogbugz.com/f/cases/14465
-
-14415 error while retrieving all icons from aThemeIcon
-	https://pharo.fogbugz.com/f/cases/14415'
+13982 Failing test: ReleaseTest>>testMethodsWithUnboundGlobals
+	https://pharo.fogbugz.com/f/cases/13982'
