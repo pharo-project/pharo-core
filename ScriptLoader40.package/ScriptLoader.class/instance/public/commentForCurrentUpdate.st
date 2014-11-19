@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '14385 move growl settings to Growl class
-	https://pharo.fogbugz.com/f/cases/14385
+ ^ '14496 Emergency tool instead of the debugger starting (caused by issue #14469 in update #40373)
+	https://pharo.fogbugz.com/f/cases/14496
 
-14484 Remove debugging methods from Integer
-	https://pharo.fogbugz.com/f/cases/14484
-
-13982 Failing test: ReleaseTest>>testMethodsWithUnboundGlobals
-	https://pharo.fogbugz.com/f/cases/13982'
+14492 OpalCompiler depends on OpalDecompiler
+	https://pharo.fogbugz.com/f/cases/14492'
