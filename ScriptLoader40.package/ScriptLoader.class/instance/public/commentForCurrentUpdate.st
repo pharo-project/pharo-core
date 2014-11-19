@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '14496 Emergency tool instead of the debugger starting (caused by issue #14469 in update #40373)
-	https://pharo.fogbugz.com/f/cases/14496
+ ^ '13516 Canvas and all subclasses should not be in Morphic
+	https://pharo.fogbugz.com/f/cases/13516
 
-14492 OpalCompiler depends on OpalDecompiler
-	https://pharo.fogbugz.com/f/cases/14492'
+14489 Clean references from System Support to Themes
+	https://pharo.fogbugz.com/f/cases/14489'

@@ -9,7 +9,6 @@ optionalButtonRow
 					on: self
 					getState: nil
 					action: tuple second)
-				onColor: self class patchworkUIThemeColor  offColor: self class patchworkUIThemeColor darker darker;
 				hResizing: #spaceFill;
 				vResizing: #spaceFill;
 				label: tuple first asString;

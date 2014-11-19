@@ -1,5 +1,5 @@
-PluggableCanvas subclass: #NullCanvas
+Canvas subclass: #PluggableCanvas
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Morphic-Base-Canvas'
+	category: 'Graphics-Canvas'
