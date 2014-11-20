@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '14502 remove unsent methods #patchworkUIThemeColor
-	https://pharo.fogbugz.com/f/cases/14502
+ ^ '14508 add class ivars to SmallInteger: subclass responsibility #extending:scope:host:
+	https://pharo.fogbugz.com/f/cases/14508
 
-7390 EventHander and MouseOverEventHandler Cleanup
-	https://pharo.fogbugz.com/f/cases/7390'
+14507 DNU when accepting a class side definition for class instance vars
+	https://pharo.fogbugz.com/f/cases/14507'
