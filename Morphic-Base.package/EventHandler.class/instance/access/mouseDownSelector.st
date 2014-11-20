@@ -1,2 +1,0 @@
-mouseDownSelector
-	^ mouseDownSelector

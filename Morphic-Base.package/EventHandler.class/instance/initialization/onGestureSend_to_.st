@@ -1,1 +1,0 @@
-onGestureSend: selector to: recipient

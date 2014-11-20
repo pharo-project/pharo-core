@@ -1,2 +1,0 @@
-mouseStillDownSelector
-	^mouseStillDownSelector

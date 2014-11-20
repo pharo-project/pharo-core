@@ -1,2 +1,0 @@
-mouseStillDownRecipient
-	^mouseStillDownRecipient
