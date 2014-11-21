@@ -3,6 +3,7 @@ cursorHome: aKeyboardEvent
 	"Private - Move cursor from position in current line to beginning of
 	current line. If control key is pressed put cursor at beginning of text"
 
+	self closeTypeIn.
 	self
 		moveCursor: [ :position |
 				(string

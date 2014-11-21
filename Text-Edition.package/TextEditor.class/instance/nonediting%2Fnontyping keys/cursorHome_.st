@@ -4,6 +4,7 @@ cursorHome: aKeyboardEvent
 	current line. If control key is pressed put cursor at beginning of text"
 
 	| string |
+	self closeTypeIn.
 	string := self string.
 	self
 		moveCursor: [ :position | self walkAlongDisplayedLine
