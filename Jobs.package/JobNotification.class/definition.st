@@ -1,5 +1,5 @@
-TestCase subclass: #NumberParsingTest
+Notification subclass: #JobNotification
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'KernelTests-Numbers'
+	category: 'Jobs'

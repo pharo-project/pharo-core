@@ -1,5 +1,5 @@
-Announcement subclass: #JobStart
+JobNotification subclass: #JobStartNotification
 	instanceVariableNames: 'job'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Kernel-Job'
+	category: 'Jobs'

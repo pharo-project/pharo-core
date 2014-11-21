@@ -1,5 +1,5 @@
-Notification subclass: #JobNotification
+TestCase subclass: #NumberParsingTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Kernel-Job'
+	category: 'AST-Tests-Core'

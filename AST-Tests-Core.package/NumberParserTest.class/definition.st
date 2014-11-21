@@ -2,4 +2,4 @@ ClassTestCase subclass: #NumberParserTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'KernelTests-Numbers'
+	category: 'AST-Tests-Core'
