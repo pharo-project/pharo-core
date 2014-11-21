@@ -1,8 +1,6 @@
 commentForCurrentUpdate
- ^ '14510 Wrong editing history positions after using home-key
-	https://pharo.fogbugz.com/f/cases/14510
+ ^ '14487 do:displayingProgress: in Collection should be part of the UIManager package
+	https://pharo.fogbugz.com/f/cases/14487
 
-14495 Adding dependent projects in Versionner fails (adding to array instead of collection)
-	https://pharo.fogbugz.com/f/cases/14495
-
-'
+14458 Add BlockClosure>>memoized
+	https://pharo.fogbugz.com/f/cases/14458'
