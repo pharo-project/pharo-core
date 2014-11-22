@@ -5,6 +5,7 @@ addBorderStyleMenuItems: aMenu hand: aHandMorph
 	subMenu := UIManager default newMenuIn: self for: self.
 	subMenu addStayUpItem.
 	subMenu add: 'border width...' selector: #changeBorderWidth:.
+	subMenu add: 'border color...' selector: #changeBorderColor:.
 	subMenu addLine.
 	BorderStyle borderStyleChoices do:
 		[:sym | (self borderStyleForSymbol: sym)
