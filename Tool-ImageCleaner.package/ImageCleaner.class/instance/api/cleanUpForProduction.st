@@ -31,6 +31,12 @@ cleanUpForProduction
 	(MCPackage named: 'FileSystem-Tests-Disk') unload.	
 	(MCPackage named: 'FileSystem-Tests-Memory') unload.		
 			
+	(MCPackage named: 'GT-Tests-Inspector') unload.		
+	(MCPackage named: 'Glamour-Tests-Core') unload.		
+	(MCPackage named: 'Glamour-Tests-Morphic') unload.		
+	(MCPackage named: 'Glamour-Tests-Resources') unload.		
+	(MCPackage named: 'Glamour-Tests-Rubric') unload.		
+			
 	(MCPackage named: 'Versionner-Core-Model') unload.
 	(MCPackage named: 'Versionner-Core-DependenciesModel') unload.		
 	(MCPackage named: 'Versionner-Core-Announcements') unload.	
