@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '14524 WateryTheme broken, again
-	https://pharo.fogbugz.com/f/cases/14524
+ ^ '14525 tiny code critic clean NautilusCommon
+	https://pharo.fogbugz.com/f/cases/14525
 
-14421 Polymorph-Tools-Diff should be packaged as Tool-Diff
-	https://pharo.fogbugz.com/f/cases/14421
-
-14526 unload GT and Glamourtests on #cleanUpForProduction
-	https://pharo.fogbugz.com/f/cases/14526'
+6320 We need a "Save As" Dialog
+	https://pharo.fogbugz.com/f/cases/6320'
