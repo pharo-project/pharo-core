@@ -4,7 +4,7 @@ generateDelayProcesses: numberConcurrent priority: priority maxDuration: maxDura
 	"Seed to help reproducability between trials."
 	randomGenerator := Random seed: seed.
 	sampleDurations := Array new: 1000.  
-	( 1 to: sampleDurations size) do:
+	1 to: sampleDurations size do:
 	[  	:index | 
 		sampleDurations at: index put: (randomGenerator nextInt: maxDuration).
 	].

@@ -7,8 +7,8 @@ unscheduleDelay: aDelay
 		ifTrue: [
 			suspendedDelays isEmpty 
 				ifTrue: [ activeDelay := nil ] 
-				ifFalse: [ 	activeDelay := suspendedDelays removeFirst ]] 
+				ifFalse: [ activeDelay := suspendedDelays removeFirst ]] 
 		ifFalse:[
 			suspendedDelays remove: aDelay ifAbsent: []].
 	
-	aDelay beingWaitedOn: false.
+	aDelay timingPriorityBeingWaitedOn: false.

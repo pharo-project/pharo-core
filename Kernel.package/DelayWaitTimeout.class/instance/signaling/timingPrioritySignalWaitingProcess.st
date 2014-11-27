@@ -1,9 +1,4 @@
-signalWaitingProcess
-self newCodeEnabled 
-  ifTrue: [
-	self shouldNotImplement 
-	]
-ifFalse: [
+timingPrioritySignalWaitingProcess
 	"Release the given process from the semaphore it is waiting on.
 	This method relies on running at highest priority so that it cannot be preempted
 	by the process being released."
@@ -13,4 +8,3 @@ ifFalse: [
 		expired := true.
 		process suspend; resume.
 		].
-  	].

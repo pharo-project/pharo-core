@@ -1,10 +1,10 @@
 newCodeEnabled: aBoolean
-	| delaysToTransfer |
+
 	"Delay newCodeEnabled: false"
 	"Delay newCodeEnabled: true"
-	delaysToTransfer := Delay stopTimerEventLoop. 
+	self stopTimerEventLoop. 
 	EnableNewCode := aBoolean = true. "ensure only boolean place in variable"
-	Delay initialize.
-	self startTimerEventLoop: delaysToTransfer.
+	self initialize.
+	self startTimerEventLoop.
 	
 	"EnableNewCode := false."

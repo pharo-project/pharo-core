@@ -4,6 +4,6 @@ restoreResumptionTimes
 	| newBaseTime |
 	newBaseTime := Time millisecondClockValue.
 	suspendedDelays do: [ :delay | 
-		delay adjustResumptionTimeOldBase: 0 newBase: newBaseTime ].
+		self adjust: delay resumptionTimeOldBase: 0 newBase: newBaseTime ].
 	activeDelay == nil ifFalse: [
-		activeDelay adjustResumptionTimeOldBase: 0 newBase: newBaseTime ].
+		self adjust: activeDelay resumptionTimeOldBase: 0 newBase: newBaseTime ].

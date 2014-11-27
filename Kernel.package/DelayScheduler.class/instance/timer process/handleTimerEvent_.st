@@ -9,7 +9,7 @@ handleTimerEvent: nowTick
 	"Process any schedule requests"
 	scheduledDelay ifNotNil: [
 		"Schedule the given delay."
-		scheduledDelay resumptionTime: nowTick + scheduledDelay delayDuration. 
+		scheduledDelay timingPriorityResumptionTime: nowTick + scheduledDelay delayDuration.
 		self scheduleDelay: scheduledDelay.
 		scheduledDelay := nil ].
 
@@ -27,10 +27,9 @@ handleTimerEvent: nowTick
 
 	"Signal any expired delays"
 	[ activeDelay notNil and:[ nowTick >= activeDelay resumptionTime ]] whileTrue: [
-		activeDelay signalWaitingProcess.
-		suspendedDelays isEmpty 
-			ifTrue: [ activeDelay := nil ] 
-			ifFalse:[ activeDelay := suspendedDelays removeFirst ]].
+		activeDelay timingPrioritySignalWaitingProcess.
+		activeDelay := suspendedDelays removeFirstOrNil.
+		].
 
 	"And signal when the next request is due. We sleep at most 1sec here
 	as a soft busy-loop so that we don't accidentally miss signals."

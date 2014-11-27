@@ -1,7 +1,19 @@
 startTimerEventLoop
-	| delaysToTransfer |
 	"Start the timer event loop"
-	"Delay startTimerEventLoop"
-	delaysToTransfer := self stopTimerEventLoop.
-	self startTimerEventLoop: delaysToTransfer.
-
+	"Delay restartTimerEventLoop"
+	
+	timerEventLoop ifNotNil: [ self error: 'Timer event loop has already been started.' ].
+	
+	activeDelayStartTime := Time millisecondClockValue.
+	suspendedDelays := Heap 
+			sortBlock: [ :delay1 :delay2 | delay1 resumptionTime <= delay2 resumptionTime ].
+	timingSemaphore := Semaphore new.
+	runTimerEventLoop := true.
+	
+	timerEventLoop := [ self runTimerEventLoop ] newProcess.
+	timerEventLoop 
+		name: 'Delay Scheduling Process';
+		priority: Processor timingPriority.
+	timerEventLoop resume.
+	
+	timingSemaphore signal. "get going"

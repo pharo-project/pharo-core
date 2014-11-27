@@ -1,10 +1,5 @@
-signalWaitingProcess
+timingPrioritySignalWaitingProcess
 	"The delay time has elapsed; signal the waiting process."
-self newCodeEnabled 
-  ifTrue: [
-	self shouldNotImplement 
-	]
-ifFalse: [
+
 	beingWaitedOn := false.
 	monitor signalLock: delaySemaphore inQueue: queue.
-	].

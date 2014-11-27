@@ -1,7 +1,6 @@
 testMaxTickMoreThanDuration
 	"In #handleTimerEvent the maximum tick is hardcoded as 1000. Test when delay duration is less than this."
-	| maxDuration testDuration scheduler1 nowTick nextTick |
-	maxDuration := 1000.
+	| testDuration scheduler1 nowTick nextTick |
 	testDuration := 678.
 	scheduler1 := DelayScheduler new.
 	scheduler1 schedule: (Delay forMilliseconds: testDuration).

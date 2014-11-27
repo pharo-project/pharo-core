@@ -1,6 +1,5 @@
 commentForCurrentUpdate
- ^ '14525 tiny code critic clean NautilusCommon
-	https://pharo.fogbugz.com/f/cases/14525
+ ^ '14261 Delay refactoring (part 1) - move scheduler from class-side to instance-side of its own class
+	https://pharo.fogbugz.com/f/cases/14261
 
-6320 We need a "Save As" Dialog
-	https://pharo.fogbugz.com/f/cases/6320'
+'

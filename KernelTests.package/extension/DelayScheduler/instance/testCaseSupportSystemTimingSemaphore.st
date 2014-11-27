@@ -1,0 +1,2 @@
+testCaseSupportSystemTimingSemaphore
+	^ timingSemaphore

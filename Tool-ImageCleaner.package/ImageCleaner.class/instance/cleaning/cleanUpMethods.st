@@ -6,4 +6,4 @@ cleanUpMethods
 	WorldState allInstancesDo: [ :ws | ws convertAlarms; cleanStepList; resetWorldMenu].
 	WorldState allInstancesDo: [ :ws | ws instVarNamed: 'menuBuilder' put: nil ].
 	ProcessBrowser initialize.
-	Delay startTimerEventLoop.
+	Delay restartTimerEventLoop.

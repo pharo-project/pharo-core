@@ -7,7 +7,7 @@ saveResumptionTimes
 		ifFalse: [
 			oldBaseTime < activeDelayStartTime
 				ifTrue: [ oldBaseTime := activeDelayStartTime ].  "clock rolled over"
-			activeDelay adjustResumptionTimeOldBase: oldBaseTime newBase: 0 ].
+			self adjust: activeDelay resumptionTimeOldBase: oldBaseTime newBase: 0 ].
 		
 	suspendedDelays do: [ :delay |
-		delay adjustResumptionTimeOldBase: oldBaseTime newBase: 0 ].
+		self adjust: delay resumptionTimeOldBase: oldBaseTime newBase: 0 ].

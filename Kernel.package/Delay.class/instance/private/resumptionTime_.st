@@ -3,3 +3,6 @@ resumptionTime: anInteger
 	Must only be called from the class-side #scheduleDelay:."
 	
 	resumptionTime := anInteger
+	
+	"TODO: Remove me when all #newCodeEnabled cleaned up (Case 14261).
+	due to rename to #timingPriorityResumptionTime:"

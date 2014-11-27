@@ -1,7 +1,7 @@
 scheduleDelay: aDelay
 	"Private. Schedule this Delay."
 	
-	aDelay beingWaitedOn: true.
+	aDelay timingPriorityBeingWaitedOn: true.
 	activeDelay 
 		ifNil: [ activeDelay := aDelay ]
 		ifNotNil: [

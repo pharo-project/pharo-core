@@ -1,10 +1,16 @@
 stopTimerEventLoop
 	"Stop the timer event loop"
-	| remainingDelays |
-	remainingDelays := OrderedCollection new.
+	|  suspendedDelayToClear |
+	
 	runTimerEventLoop := false.
-	timingSemaphore signal.
+	timingSemaphore signal. 
+	
+	"The signalled higher priority process should have exited the timer event loop 
+	before the next line, but maybe not if that process was suspended, so force termination." 
+	timerEventLoop terminate. 
 	timerEventLoop := nil.
-	activeDelay ifNotNil: [ remainingDelays add: activeDelay ].
-	suspendedDelays do: [ :delay | remainingDelays add: delay ].
-	^ remainingDelays asArray.
+
+	"Expire any remaining delays."
+	activeDelay ifNotNil: [ activeDelay timingPrioritySignalWaitingProcess ].
+	[ suspendedDelayToClear := suspendedDelays removeFirstOrNil ]
+		whileNotNil: [ suspendedDelayToClear timingPrioritySignalWaitingProcess ].
