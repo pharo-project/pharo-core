@@ -1,0 +1,2 @@
+traitUsers
+	^self explicitRequirement.

@@ -1,0 +1,3 @@
+traitUsers: aCollection
+
+	users:= aCollection
