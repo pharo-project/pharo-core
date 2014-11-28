@@ -1,3 +1,0 @@
-process: anObject
-	
-	process := anObject

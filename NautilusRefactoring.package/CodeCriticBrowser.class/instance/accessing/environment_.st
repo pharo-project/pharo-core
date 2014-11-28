@@ -1,3 +1,0 @@
-environment: anObject
-	
-	environment := anObject

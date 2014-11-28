@@ -1,9 +1,8 @@
 growlSettingsOn: aBuilder
 	<systemsettings>
-	(aBuilder group: #appearance)
-		with: [
 	(aBuilder group: #growl)
 		label: 'Growl' translated;  
+		parent:#appearance;
 		description: 'All settings concerned with the notifications popup look''n feel' translated;
 		with: [
 			(aBuilder pickOne: #position)
@@ -11,4 +10,4 @@ growlSettingsOn: aBuilder
 				target: self;
 				default: #topRight;
 				order: 1;
-				domainValues: self growlPositionChoices.]]
+				domainValues: self growlPositionChoices.]

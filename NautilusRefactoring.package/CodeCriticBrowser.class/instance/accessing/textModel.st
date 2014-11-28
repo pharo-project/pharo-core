@@ -1,3 +1,0 @@
-textModel
-	
-	^ textModel

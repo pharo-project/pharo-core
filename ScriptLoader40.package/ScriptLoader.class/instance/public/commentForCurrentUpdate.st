@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '14540 Add new methods for accessing traitUsers
-	https://pharo.fogbugz.com/f/cases/14540
+ ^ '14544 tiny code critique cleanup of NautilusRefactoring
+	https://pharo.fogbugz.com/f/cases/14544
 
-14539 dropping a textfile opens an empty filelist
-	https://pharo.fogbugz.com/f/cases/14539'
+14543 Pharo4.0 settings do have Appearance and appearance (twice the entries that is)
+	https://pharo.fogbugz.com/f/cases/14543'

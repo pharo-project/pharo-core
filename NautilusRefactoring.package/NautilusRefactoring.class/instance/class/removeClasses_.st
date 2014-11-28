@@ -3,8 +3,7 @@ removeClasses: aCollection
 
 	| refactoring |
 	refactoring := self privateRemoveClassesFor: aCollection.
-	refactoring ifNil: [ ^ self ].
+	refactoring ifNil: [ ^ false ].
 	refactoring model environment: self model browsedEnvironment.
-
 	self performRefactoring: refactoring.
 	^ true

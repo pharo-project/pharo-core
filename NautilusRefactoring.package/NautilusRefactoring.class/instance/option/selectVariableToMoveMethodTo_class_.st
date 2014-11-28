@@ -7,8 +7,8 @@ selectVariableToMoveMethodTo: aSelector class: aClass
 			body: (RBSequenceNode statements: #()) ].
 	nameList := OrderedCollection new.
 	nameList
-		addAll: parseTree argumentNames asSortedCollection;
-		addAll: aClass allInstanceVariableNames asSortedCollection.
+		addAll: parseTree argumentNames sorted;
+		addAll: aClass allInstanceVariableNames sorted.
 	^ self 
 		chooseFrom: nameList 
 		title: 'Select variable to move method into:'
