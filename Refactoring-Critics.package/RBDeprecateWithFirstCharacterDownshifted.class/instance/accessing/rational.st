@@ -1,2 +1,0 @@
-rational
-	^ 'Lint rule for checking useage of method #withFirstCharacterDownshifted as it is about to be deprecated.'

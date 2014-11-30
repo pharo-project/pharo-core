@@ -1,2 +1,2 @@
 rationale
-	^ 'Check for methods that are equivalent to their superclass methods. Such methods don''t add anything to the computation and can be removed since the superclass''s method will work just fine.'
+	^ 'Check for methods that are equivalent to their superclass methods.'

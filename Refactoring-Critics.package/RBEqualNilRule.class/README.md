@@ -1,1 +1,1 @@
-See rationale
+Replaces = nil and == nil by isNil, ~= nil and ~~ nil by notNil.The compiler will then perform some optimizations. 

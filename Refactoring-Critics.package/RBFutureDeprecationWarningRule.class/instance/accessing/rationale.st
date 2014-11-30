@@ -1,2 +1,0 @@
-rationale
-	^ 'Deprecated methods can be noisy, maybe encouraging people to turn such warnings off, and not address them.  A lint rule allows a gentler staged approach to address deprecations outside of running an application, with a refactoring rule handy.'

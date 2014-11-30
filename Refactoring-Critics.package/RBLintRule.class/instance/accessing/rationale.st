@@ -1,4 +1,4 @@
 rationale
-	"Answer a detailled explanation of the rule."
+	"Answer an explanation of the rule, usually in one line. Long description can be obtained using longDescription."
 
-	^ String new
+	^ self class comment

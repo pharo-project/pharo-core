@@ -1,1 +1,1 @@
-A RBUnoptimizedAndOrRule is xxxxxxxxx.
+Checks for inefficient nesting of logical conditions.

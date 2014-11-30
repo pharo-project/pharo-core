@@ -1,1 +1,1 @@
-A RBToDoCollectRule is xxxxxxxxx.
+Checks for users of to:do: when the shorter collect: would work.

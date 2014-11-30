@@ -1,2 +1,0 @@
-longDescription 
-	^ 'This smell arises when a breakpoints,  logging statements,  etc is found in a method. This debugging code should not be left in production code.  Here are messages currently checked: clearHaltOnce,  doOnlyOnce: ,  halt, halt:   onCount:  object2, haltOnCount: , haltOnce, hatIf: , inspectOnCount: , inspectOnce, inspectUntilCount: , rearmOneShot, setHaltOnce, flag: , isThisEverCalled, isThisEverCalled: , logEntry, logExecution, logExit, needsWork and  Transcript  message:'

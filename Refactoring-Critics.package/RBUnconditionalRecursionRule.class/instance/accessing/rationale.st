@@ -1,2 +1,0 @@
-rationale
-	^ 'Checks for unconditional recursion that might cause the image to hang when executed.'

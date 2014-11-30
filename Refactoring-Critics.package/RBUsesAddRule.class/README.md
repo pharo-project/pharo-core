@@ -1,1 +1,1 @@
-A RBUsesAddRule is xxxxxxxxx.
+Check for possible uses of the result returned by an add: or addAll: messages. These messages return their arguments not the receiver. As a result, may uses of the results are wrong.

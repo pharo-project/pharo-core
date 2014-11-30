@@ -1,1 +1,1 @@
-See rationale
+Transform conditional with a single clause into a form that is more readable.For example[[[ foo 	statements. 	condition ifTrue: [ statement1. statement2 ]]]]is transformed into [[[  foo	statements.	condition ifFalse: [^self].	statement1.	statement2.]]]

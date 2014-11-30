@@ -1,2 +1,0 @@
-category 
-    ^ 'Coding Idiom Violation'

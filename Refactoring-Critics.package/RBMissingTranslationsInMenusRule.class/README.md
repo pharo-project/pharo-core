@@ -1,1 +1,1 @@
-A RBMissingTranslationsInMenusRule is xxxxxxxxx.
+This rule should be updated to verify the inverse no translated messsages should be sent to menu element.

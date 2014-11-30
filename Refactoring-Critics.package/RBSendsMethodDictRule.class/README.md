@@ -1,1 +1,1 @@
-A RBSendsMethodDictRule is xxxxxxxxx.
+Nobody should directly access the method dictionary. It is purely an implementation artefact that we use one dictionary and it might change in the future.

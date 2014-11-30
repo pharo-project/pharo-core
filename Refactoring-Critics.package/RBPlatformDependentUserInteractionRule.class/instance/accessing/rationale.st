@@ -1,2 +1,2 @@
 rationale
-	^ 'The method uses platform dependent user interactions.'
+	^ 'Check the methods that  use platform dependent user interactions.'

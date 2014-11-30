@@ -1,1 +1,1 @@
-See my #rationale.
+Checks for references to variables in the Undeclared dictionary. If you remove a referenced variable from a class, you will create an undeclared variable reference for those methods that accessed the variable.

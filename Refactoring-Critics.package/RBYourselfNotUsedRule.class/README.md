@@ -1,1 +1,1 @@
-A RBYourselfNotUsedRule is xxxxxxxxx.
+Check for methods sending the yourself message when it is not necessary.
