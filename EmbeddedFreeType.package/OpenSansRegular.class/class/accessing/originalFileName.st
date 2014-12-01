@@ -1,2 +1,0 @@
-originalFileName
-	^ 'OpenSans-Regular.ttf'

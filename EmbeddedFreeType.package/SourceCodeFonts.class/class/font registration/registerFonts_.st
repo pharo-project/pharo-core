@@ -1,9 +1,7 @@
 registerFonts: freeTypeFontManager
-
-	{ OpenSansRegular. SourceCodeProRegular } do: [ :each |
+	{ SourceSansProRegular. SourceCodeProRegular } do: [ :each |
 		| font |
 		font := each new.
 		freeTypeFontManager 
 			addFromFileContents: font fontContents 
-			baseName: font originalFileName
-	]
+			baseName: font originalFileName ]

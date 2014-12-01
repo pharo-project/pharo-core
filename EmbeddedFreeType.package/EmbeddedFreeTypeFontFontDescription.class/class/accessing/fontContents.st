@@ -1,3 +1,2 @@
 fontContents
-
 	self subclassResponsibility

@@ -1,12 +1,3 @@
 commentForCurrentUpdate
- ^ '14550 testTraitExplicitRequirementMethodsMustBeImplementedInTheClassOrInASuperclass failing 200 times
-	https://pharo.fogbugz.com/f/cases/14550
-
-14288 Show binary literal for Floats in inspectors
-	https://pharo.fogbugz.com/f/cases/14288
-
-14551 Pharo 4.0: Fix "Search Code" refactoring menu item in Nautilus
-	https://pharo.fogbugz.com/f/cases/14551
-
-14546 Failed inherited tests should show home class (in TestRunner, like the debugger)
-	https://pharo.fogbugz.com/f/cases/14546'
+ ^ '14553 FreeType default fonts not correctly loaded when image initializes
+	https://pharo.fogbugz.com/f/cases/14553'

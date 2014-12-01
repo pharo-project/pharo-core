@@ -1,5 +1,4 @@
 installFontsIn: provider
- 
-		provider
-			addFromFileContents: self fontContents 
-			baseName: self originalFileName 
+	provider
+		addFromFileContents: self fontContents 
+		baseName: self originalFileName 

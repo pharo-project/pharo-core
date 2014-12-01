@@ -1,3 +1,2 @@
 originalFileName
-
 	self subclassResponsibility

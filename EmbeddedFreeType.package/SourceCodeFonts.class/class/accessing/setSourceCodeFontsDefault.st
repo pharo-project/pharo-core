@@ -1,0 +1,2 @@
+setSourceCodeFontsDefault
+	self setSourceCodeFonts: self sizeSmall

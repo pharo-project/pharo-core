@@ -1,2 +1,2 @@
 updateEmbeddedFreeTypeFonts
-	fontInstallers do: [ :eachInstaller | eachInstaller installAllFontsIn: self ].
+	fontInstallers do: [ :each | each installAllFontsIn: self ].

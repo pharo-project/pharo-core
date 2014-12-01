@@ -1,2 +1,2 @@
 defaultFontName
-	^ 'Open Sans'
+	^ 'Source Sans Pro'

@@ -1,4 +1,4 @@
-EmbeddedFreeTypeFontFontDescription subclass: #OpenSansRegular
+EmbeddedFreeTypeFontFontDescription subclass: #SourceSansProRegular
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
