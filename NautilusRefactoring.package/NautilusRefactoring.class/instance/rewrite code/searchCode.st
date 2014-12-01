@@ -1,3 +1,3 @@
 searchCode
 	
-	self model sourceCode: self searchCodeText
+	self model searchCode: self searchCodeText

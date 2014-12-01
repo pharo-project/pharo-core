@@ -1,3 +1,2 @@
 browseSelectedTest: aTest
-
-	Smalltalk tools browser fullOnClass: aTest class selector: aTest selector
+	(aTest class lookupSelector: aTest selector) browse

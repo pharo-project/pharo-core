@@ -13,4 +13,9 @@ addSpecialFields: elements
 	elements add: (DynamicEyeElement 
 		host: self object 
 		label: 'exponent' 
-		value: [ self object exponent ])
+		value: [ self object exponent ]).
+
+	elements add: (DynamicEyeElement
+		host: self object
+		label: 'binary'
+		value: [ self object binaryLiteralString ]).

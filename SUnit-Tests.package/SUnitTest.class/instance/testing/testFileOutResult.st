@@ -12,7 +12,7 @@ testFileOutResult
 		equals:
 			'3 run, 1 passes, 0 skipped, 0 expected failures, 1 failures, 1 errors, 0 unexpected passes
 Failures:
-SUnitTest>>#fail
+SUnitTest(TestAsserter)>>#fail
 
 Errors:
 SUnitTest>>#error

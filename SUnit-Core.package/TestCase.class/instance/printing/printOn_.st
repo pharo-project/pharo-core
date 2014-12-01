@@ -1,7 +1,3 @@
 printOn: aStream
-
-	aStream
-		nextPutAll: self class printString.
-	testSelector ifNotNil: [
-		aStream nextPutAll: '>>#';
-		nextPutAll: testSelector]
+	aStream nextPutAll: self class printString.
+	self printTestSelectorOn: aStream
