@@ -6,7 +6,7 @@ of: aItem
 			ifNil: [mb createManifestOf: aItem]
 		 	ifNotNil: [ mb isObsoleteManifest 
 				ifTrue: [
-					mb manifest theNonMetaClass removeFromSystem.
+					mb manifest class theNonMetaClass removeFromSystem.
 					mb createManifestOf: aItem]].
 	
 	^ mb	

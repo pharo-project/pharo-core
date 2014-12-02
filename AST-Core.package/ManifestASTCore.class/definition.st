@@ -1,4 +1,4 @@
-Object subclass: #ManifestASTCore
+PackageManifest subclass: #ManifestASTCore
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

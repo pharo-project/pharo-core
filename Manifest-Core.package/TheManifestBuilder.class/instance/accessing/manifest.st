@@ -1,2 +1,2 @@
 manifest
-	^ manifestClass
+	^ manifest ifNil: [ manifest := manifestClass new ]

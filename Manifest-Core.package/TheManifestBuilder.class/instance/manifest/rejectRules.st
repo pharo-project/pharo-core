@@ -1,6 +1,3 @@
 rejectRules
-	
-	^ (manifestClass respondsTo: #rejectRules)
-		ifTrue:  [manifestClass rejectRules ]
-		ifFalse: [ #() ]
+	^ self manifest rejectRules
 	

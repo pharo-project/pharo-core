@@ -1,2 +1,2 @@
 rejectClasses
-	^ self unwrap: (manifestClass rejectClasses)
+	^ self unwrap: (self manifest rejectClasses)

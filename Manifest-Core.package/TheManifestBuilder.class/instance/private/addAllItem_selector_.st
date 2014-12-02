@@ -1,6 +1,6 @@
 addAllItem: aSet selector: selector
 	| set newSet arrayString |
-	set := (manifestClass perform: selector) asOrderedCollection.
+	set := (self manifest perform: selector) asOrderedCollection.
 	newSet := aSet \ (self unwrap: set).
 	newSet isEmpty
 		ifTrue: [ ^ self ].

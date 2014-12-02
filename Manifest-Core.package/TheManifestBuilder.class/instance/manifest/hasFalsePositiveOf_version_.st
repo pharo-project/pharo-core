@@ -1,3 +1,2 @@
 hasFalsePositiveOf: ruleId version: versionId
-	^ manifestClass respondsTo: (self selectorFalsePositiveOf: ruleId version: versionId)  
-	
+	^ self manifest respondsTo: (self selectorFalsePositiveOf: ruleId version: versionId)

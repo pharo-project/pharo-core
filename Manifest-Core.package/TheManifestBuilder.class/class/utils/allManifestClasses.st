@@ -1,3 +1,3 @@
 allManifestClasses
 
-	^ Smalltalk allClasses select: [:class | class isManifest]
+	^ PackageManifest subclasses

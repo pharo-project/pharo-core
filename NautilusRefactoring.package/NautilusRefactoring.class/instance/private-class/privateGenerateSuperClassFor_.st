@@ -2,7 +2,7 @@ privateGenerateSuperClassFor: class
 
 	| superclassName subclasses |
 	superclassName := self request: 'Enter new superclass name:'.
-	superclassName isEmptyOrNil ifTrue: [ ^ self ].
+	superclassName isEmptyOrNil ifTrue: [ ^ nil ].
 	subclasses := self
 						chooseMultipleFrom: class subclasses
 						title: 'Select subclasses of ' , superclassName , ':'.

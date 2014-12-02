@@ -1,4 +1,4 @@
-Object subclass: #ManifestManifestCriticBrowser
+PackageManifest subclass: #ManifestManifestCriticBrowser
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

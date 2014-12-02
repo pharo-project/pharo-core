@@ -1,4 +1,4 @@
-Object subclass: #ManifestKeyChainTest
+PackageManifest subclass: #ManifestKeyChainTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

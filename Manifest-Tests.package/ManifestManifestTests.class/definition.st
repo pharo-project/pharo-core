@@ -1,4 +1,4 @@
-Object subclass: #ManifestManifestTests
+PackageManifest subclass: #ManifestManifestTests
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

@@ -1,4 +1,4 @@
-Object subclass: #ManifestOpalCompilerCore
+PackageManifest subclass: #ManifestOpalCompilerCore
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

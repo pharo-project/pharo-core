@@ -1,6 +1,6 @@
 removeAllItem: aSet selector: selector
 	| set arrayString |
-	set := (manifestClass perform: selector) asOrderedCollection.
+	set := (self manifest perform: selector) asOrderedCollection.
 	set := set
 		reject: [ :each | 
 			| tmp |

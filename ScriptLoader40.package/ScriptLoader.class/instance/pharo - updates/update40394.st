@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '14556 Error: Instances of UndefinedObject are not indexable
+update40394
+	"self new update40394"
+	self withUpdateLog: '14556 Error: Instances of UndefinedObject are not indexable
 	https://pharo.fogbugz.com/f/cases/14556
 
 14505 Better integration of Package Manifest
@@ -9,4 +10,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/10719
 
 12594 #runOnce: of StartupAction not working
-	https://pharo.fogbugz.com/f/cases/12594'
+	https://pharo.fogbugz.com/f/cases/12594'.
+	self loadTogether: self script394 merge: false.
+	self flushCaches.

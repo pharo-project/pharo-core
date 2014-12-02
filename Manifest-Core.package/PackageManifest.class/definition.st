@@ -1,5 +1,5 @@
-PackageManifest subclass: #ManifestFuel
+Object subclass: #PackageManifest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Fuel'
+	category: 'Manifest-Core'

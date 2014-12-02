@@ -1,0 +1,2 @@
+isManifest
+	^ (self = PackageManifest) not

@@ -1,7 +1,7 @@
 addRejectClass: aClass
 
 	|  falsePositives |
-	falsePositives := manifestClass rejectClasses asOrderedCollection .
+	falsePositives := self manifest rejectClasses asOrderedCollection .
 	((self unwrap: falsePositives) anySatisfy: [:each | each = aClass])
 		ifTrue: [ ^ self ].
 	falsePositives add: {aClass asRingDefinition arrayStringForManifest. DateAndTime current asString}.
