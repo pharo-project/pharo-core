@@ -1,12 +1,6 @@
 commentForCurrentUpdate
- ^ '12810 Examine TrueTest and FalseTest for the possibility of a common superclass
-	https://pharo.fogbugz.com/f/cases/12810
+ ^ '14033 Failing test: AJx64AssemblerTests>#testStringOps64Mnemonics
+	https://pharo.fogbugz.com/f/cases/14033
 
-14558 Monticello icon tools should indicate newer available package versions
-	https://pharo.fogbugz.com/f/cases/14558
-
-14557 Failign test: #testUnCategorizedMethods
-	https://pharo.fogbugz.com/f/cases/14557
-
-14560 InterpreterTest isAbstract should return true as it is abstract (without tests)
-	https://pharo.fogbugz.com/f/cases/14560'
+14562 add a Users tab to GTInspector for Slots and LiteralVariables
+	https://pharo.fogbugz.com/f/cases/14562'
