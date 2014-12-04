@@ -1,2 +1,2 @@
 newBytecodeGen
-	^ IRSqueakV3PlusClosuresBytecodeGenerator new
+	^ CompilationContext bytecodeBackend new
