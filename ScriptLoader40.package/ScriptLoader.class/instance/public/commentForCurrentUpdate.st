@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '14033 Failing test: AJx64AssemblerTests>#testStringOps64Mnemonics
-	https://pharo.fogbugz.com/f/cases/14033
+ ^ '12854 TestRunner package pane <shift> key multi-select not working
+	https://pharo.fogbugz.com/f/cases/12854
 
-14562 add a Users tab to GTInspector for Slots and LiteralVariables
-	https://pharo.fogbugz.com/f/cases/14562'
+14565 ManifestKernelTest superclass should be PackageManifest 
+	https://pharo.fogbugz.com/f/cases/14565'

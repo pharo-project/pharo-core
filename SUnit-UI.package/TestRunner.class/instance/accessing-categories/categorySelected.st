@@ -1,2 +1,2 @@
 categorySelected
-	^ 0
+	^ categoryIndex 

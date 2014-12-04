@@ -1,5 +1,6 @@
 updateCategories
 	categories := self findCategories.
+	categoryIndex := 0.
 	categoriesSelected := categoriesSelected isNil
 		ifTrue: [ Set new ]
 		ifFalse: [
