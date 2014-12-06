@@ -1,0 +1,2 @@
+granularity: anObject
+	granularity := anObject

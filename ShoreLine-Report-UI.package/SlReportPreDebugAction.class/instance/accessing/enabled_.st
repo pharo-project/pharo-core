@@ -1,0 +1,2 @@
+enabled: anObject
+	enabled := anObject

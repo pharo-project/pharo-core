@@ -1,0 +1,3 @@
+enabled: aBoolean
+
+	enabled := aBoolean

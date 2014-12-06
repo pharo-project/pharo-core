@@ -1,0 +1,2 @@
+cancel: anObject
+	cancel := anObject

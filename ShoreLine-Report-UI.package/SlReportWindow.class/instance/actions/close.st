@@ -1,0 +1,3 @@
+close
+
+	self window close

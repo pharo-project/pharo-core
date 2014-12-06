@@ -1,0 +1,3 @@
+host: aString
+
+	host := aString

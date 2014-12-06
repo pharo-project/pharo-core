@@ -1,0 +1,2 @@
+date: anObject
+	date := anObject

@@ -1,0 +1,2 @@
+sendButton: anObject
+	sendButton := anObject
