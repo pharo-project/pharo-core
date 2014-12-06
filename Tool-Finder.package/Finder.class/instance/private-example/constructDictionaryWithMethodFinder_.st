@@ -5,8 +5,7 @@ constructDictionaryWithMethodFinder: aString
 	result := Dictionary new.
 	listOfStrings := self computeWithMethodFinder: aString.
 	listOfSelectors := listOfStrings collect: [ :each | self findSelector: each ].
-	self packagesSelection
-		do: [ :class | 
+	self packagesSelection classesDo:[ :class | 
 			class methodsDo:  [ :method | 
 					| index |
 					(index := listOfSelectors indexOf: method selector) = 0

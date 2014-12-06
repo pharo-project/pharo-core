@@ -33,7 +33,7 @@ classesMenu: aBuilder
 		order: 1100;
 		withSeparatorAfter.
 	
-	(target selectedClasses allSatisfy: [:each | each inheritsFrom: TestCase ])
+	(target selectedClasses allSatisfy: [:each | (each inheritsFrom: TestCase) and:[ each isAbstract not] ])
 		ifTrue:[	
 			(aBuilder item:#'Run tests')
 				keyText: 'j, c' if: Nautilus useOldStyleKeys not;

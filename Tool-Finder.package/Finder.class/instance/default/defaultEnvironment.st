@@ -1,2 +1,2 @@
 defaultEnvironment
-	 ^ Smalltalk globals allClassesAndTraits.
+	 ^ RBBrowserEnvironment new

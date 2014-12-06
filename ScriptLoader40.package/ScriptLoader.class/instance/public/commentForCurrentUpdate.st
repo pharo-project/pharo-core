@@ -1,3 +1,9 @@
 commentForCurrentUpdate
- ^ '14571 Add String class>>#loremIpsum constant and dynamically sized filler text feature  
-	https://pharo.fogbugz.com/f/cases/14571'
+ ^ '13256 Pharo3 Theme when rounded corners are chosen is not consistent
+	https://pharo.fogbugz.com/f/cases/13256
+
+6859 Finder not refreshing for new packages/classes
+	https://pharo.fogbugz.com/f/cases/6859
+
+10797 Nautilus should exclude abstract TestCases
+	https://pharo.fogbugz.com/f/cases/10797'
