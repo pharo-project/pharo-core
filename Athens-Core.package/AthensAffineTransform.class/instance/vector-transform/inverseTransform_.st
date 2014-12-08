@@ -1,11 +1,19 @@
 inverseTransform: aPoint 
+"  (we assume matrix is never degenerate)"
 	| px py y0 x0 |
 	
 	px := aPoint x.
 	py := aPoint y.
-
-"  (we assume matrix is never degenerate)
-	Given straight transformation formulae:
+	"for rotations around +/- half pi"
+	(sx = 0 and:[ sy = 0]) ifTrue:[
+		^ self inverseTransformHalfPi: aPoint.
+		].
+	"for rotations around +/- pi or 0"
+	(shx = 0 and:[ shy = 0]) ifTrue:[
+		^ self inverseTransformPiOrZero: aPoint.
+		].
+    "otherwise:
+     Given straight transformation formulae:
 		
 	px := x0*sx + y0*shx + x.
 	py := x0*shy + y0*sy + y.

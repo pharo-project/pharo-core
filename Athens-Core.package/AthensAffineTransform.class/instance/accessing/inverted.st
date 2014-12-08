@@ -4,9 +4,9 @@ inverted
 	det := sx * sy - (shx * shy).
 	^ self class new
 		sx: sy / det;
-		sy: shy * -1 / det;
+		sy: sy / det;
 		shx: shx * -1 / det;
-		shy: sx / det;
+		shy: shy * -1 / det;
 		x: shx * y - (x * sy) / det;
 		y: shy * x - (sx * y) / det;
 		yourself
