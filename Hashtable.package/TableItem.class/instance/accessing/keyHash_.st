@@ -1,2 +1,0 @@
-keyHash: anIngeter 
-	keyHash := anIngeter

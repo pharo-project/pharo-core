@@ -1,1 +1,0 @@
-A HashBag is xxxxxxxxx.

@@ -13,7 +13,7 @@ baseline30: spec
 			package: 'Glamour-Rubric-Presentations' with: [spec requires: #('Rubric' 'Glamour-Presentations')];
 			package: 'Glamour-Browsers' with: [spec requires: #('Glamour-Core')];
 			package: 'Glamour-Examples' with: [spec requires: #('Glamour-Core')];
-			package: 'Glamour-Morphic-Brick' with: [spec requires: #('HashTable')];
+			package: 'Glamour-Morphic-Brick';
 			package: 'Glamour-Morphic-Widgets' with: [spec requires: #('Rubric' 'Glamour-Morphic-Brick')];
 			package: 'Glamour-Morphic-Renderer' with: [spec requires: #('Glamour-Morphic-Widgets' 'Glamour-Core')];
 			package: 'Glamour-Morphic-Pager' with: [spec requires: #('Glamour-Morphic-Renderer')];
@@ -46,12 +46,7 @@ baseline30: spec
 		spec group: 'default' with: #(
 						'Core'
 						'Morphic'
-						'Tests').
-		spec project: 'HashTable' with: [
-				spec
-					className: 'ConfigurationOfHashTable';
-					versionString: #stable;
-					repository: 'http://www.smalltalkhub.com/mc/Moose/HashTable/main' ].			
+						'Tests').		
 		spec project: 'Rubric' with: [ 
 			spec 
 					className: 'ConfigurationOfRubric';

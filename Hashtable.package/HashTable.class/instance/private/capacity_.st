@@ -1,2 +1,0 @@
-capacity: anObject
-	capacity := anObject

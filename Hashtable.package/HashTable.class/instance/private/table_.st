@@ -1,2 +1,0 @@
-table: anObject
-	table := anObject

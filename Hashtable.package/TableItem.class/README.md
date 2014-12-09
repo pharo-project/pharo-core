@@ -1,1 +1,0 @@
-A TableItem is xxxxxxxxx.Instance Variables	key:		<Object>	keyHash:		<Object>	next:		<Object>	value:		<Object>key	- xxxxxkeyHash	- xxxxxnext	- xxxxxvalue	- xxxxx

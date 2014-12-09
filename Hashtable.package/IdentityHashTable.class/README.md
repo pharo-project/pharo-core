@@ -1,1 +1,0 @@
-An IdentityHashTable is xxxxxxxxx.

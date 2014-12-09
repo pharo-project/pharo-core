@@ -1,2 +1,0 @@
-hasContentsInExplorer
-	^self isEmpty not

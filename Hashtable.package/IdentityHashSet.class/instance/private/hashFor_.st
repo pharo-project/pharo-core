@@ -1,2 +1,0 @@
-hashFor: anObject
-	^ anObject identityHash

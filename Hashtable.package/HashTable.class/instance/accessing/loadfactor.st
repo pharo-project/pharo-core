@@ -1,2 +1,0 @@
-loadfactor
-	^loadfactor

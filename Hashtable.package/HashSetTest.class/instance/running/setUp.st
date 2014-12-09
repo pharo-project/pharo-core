@@ -1,2 +1,0 @@
-setUp
-	set := HashSet new

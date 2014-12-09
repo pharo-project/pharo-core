@@ -1,2 +1,0 @@
-setLoadfactor: aFloat 
-	loadfactor := aFloat

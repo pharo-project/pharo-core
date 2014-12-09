@@ -1,1 +1,0 @@
-An IdentityHashTableTest is xxxxxxxxx.Instance Variables	table:		<Object>	testsize:		<Object>table	- xxxxxtestsize	- xxxxx

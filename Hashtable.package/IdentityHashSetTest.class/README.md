@@ -1,1 +1,0 @@
-An IdentityHashSetTest is xxxxxxxxx.Instance Variables	set:		<Object>set	- xxxxx

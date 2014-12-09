@@ -1,1 +1,0 @@
-(ConfigurationOfHashTable project version: '1.0') load(ConfigurationOfHashTable project version: #stable) loadAll tests are green under 1.4.All tests are green under 2.0.Migration from Squeaksource to SmalltalkHuband addition of Configuration by StephaneDucasse. Next Step: 	- should introduce a HashTable-Test package.

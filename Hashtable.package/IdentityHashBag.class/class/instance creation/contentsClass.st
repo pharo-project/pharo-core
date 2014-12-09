@@ -1,2 +1,0 @@
-contentsClass
-	^IdentityHashTable

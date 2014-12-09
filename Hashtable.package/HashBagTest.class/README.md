@@ -1,1 +1,0 @@
-A HashBagTest is xxxxxxxxx.Instance Variables	bag:		<Object>bag	- xxxxx

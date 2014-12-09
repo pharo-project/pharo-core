@@ -1,2 +1,0 @@
-itemClass
-	^TableItem

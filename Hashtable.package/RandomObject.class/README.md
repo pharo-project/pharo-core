@@ -1,1 +1,0 @@
-A RandomObject is xxxxxxxxx.Instance Variables	hash:		<Object>hash	- xxxxx

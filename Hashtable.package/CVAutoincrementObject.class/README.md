@@ -1,1 +1,0 @@
-A CVAutoincrementObject is xxxxxxxxx.Instance Variables	hash:		<Object>hash	- xxxxx

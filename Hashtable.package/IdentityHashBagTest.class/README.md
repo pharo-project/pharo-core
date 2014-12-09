@@ -1,1 +1,0 @@
-An IdentityHashBagTest is xxxxxxxxx.Instance Variables	bag:		<Object>bag	- xxxxx
