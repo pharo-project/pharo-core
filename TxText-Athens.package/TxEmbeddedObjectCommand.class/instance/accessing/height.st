@@ -1,0 +1,2 @@
+height
+	^ self morph height

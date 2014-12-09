@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '14579 update Athens
-	https://pharo.fogbugz.com/f/cases/14579'
+ ^ '14280 TxModel configuration for integration
+	https://pharo.fogbugz.com/f/cases/14280'

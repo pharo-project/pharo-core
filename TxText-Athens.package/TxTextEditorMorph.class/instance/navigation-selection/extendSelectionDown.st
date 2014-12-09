@@ -1,0 +1,3 @@
+extendSelectionDown
+	self moveDown: true.
+	

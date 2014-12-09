@@ -1,0 +1,2 @@
+isBlinking
+	^ true 

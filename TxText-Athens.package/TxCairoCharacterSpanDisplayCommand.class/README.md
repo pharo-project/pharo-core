@@ -1,0 +1,1 @@
+A TxCairoCharacterSpanDisplayCommand is xxxxxxxxx.Instance Variables	glyphs:		<Object>glyphs	- xxxxx

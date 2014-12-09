@@ -1,0 +1,2 @@
+captureDuring: aBlock
+	self subclassResponsibility

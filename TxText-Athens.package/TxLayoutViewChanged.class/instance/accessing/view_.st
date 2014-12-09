@@ -1,0 +1,3 @@
+view: anObject
+	
+	view := anObject

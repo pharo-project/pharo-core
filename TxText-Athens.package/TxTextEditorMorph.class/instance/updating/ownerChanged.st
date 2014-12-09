@@ -1,0 +1,4 @@
+ownerChanged
+
+	self updateCursor .
+	

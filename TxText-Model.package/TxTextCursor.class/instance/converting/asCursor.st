@@ -1,0 +1,2 @@
+asCursor
+	^ self

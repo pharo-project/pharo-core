@@ -1,0 +1,2 @@
+setUp
+	text := 'abc' asTxModel 

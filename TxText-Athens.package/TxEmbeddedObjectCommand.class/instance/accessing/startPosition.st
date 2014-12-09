@@ -1,0 +1,2 @@
+startPosition
+	^ span startPosition

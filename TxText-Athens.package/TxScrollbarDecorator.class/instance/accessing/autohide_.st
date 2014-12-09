@@ -1,0 +1,2 @@
+autohide: anBoolean
+	autohide := anBoolean

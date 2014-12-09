@@ -1,0 +1,2 @@
+endPosition
+	^ interval end 

@@ -1,0 +1,4 @@
+initializeDefaultStyle
+
+	defaultStyle := TxStyle new.
+	

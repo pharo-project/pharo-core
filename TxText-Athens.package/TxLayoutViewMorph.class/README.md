@@ -1,0 +1,1 @@
+A TxLayoutViewMorph is xxxxxxxxx.Instance Variables	layoutView:		<Object>layoutView	- xxxxx

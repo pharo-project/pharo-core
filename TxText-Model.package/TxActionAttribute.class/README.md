@@ -1,0 +1,1 @@
+The action attribute has following semantic: - whenever we have UI event, which is about interacting with text portion that having action attribute,an action receives such event, and then if it passing the filter , the action is triggered.The value instance variable should be a zero or one-arg block, holding an action, which will receive an event.

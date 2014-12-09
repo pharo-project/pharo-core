@@ -1,0 +1,1 @@
+A TxContextMenuAnnouncement is xxxxxxxxx.Instance Variables	editorMorph:		<Object>	event:		<Object>	menu:		<Object>	textPosition:		<Object>editorMorph	- xxxxxevent	- xxxxxmenu	- xxxxxtextPosition	- xxxxx

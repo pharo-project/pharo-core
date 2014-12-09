@@ -1,0 +1,2 @@
+newLineSeparator 
+	^ TxLineSeparator text: self

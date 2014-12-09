@@ -1,0 +1,2 @@
+ensurePointWithinLayout: aLayoutPoint
+	^ layoutView ensurePointWithinLayout: aLayoutPoint

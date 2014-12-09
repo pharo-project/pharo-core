@@ -1,0 +1,1 @@
+i denoting a terminal span(either start or end of text)my size is always ZEROand i have only single valid position (spanPosition = 0)

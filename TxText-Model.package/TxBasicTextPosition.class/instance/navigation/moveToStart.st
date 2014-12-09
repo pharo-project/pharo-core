@@ -1,0 +1,2 @@
+moveToStart
+	self subclassResponsibility 

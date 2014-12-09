@@ -1,0 +1,2 @@
+nextPut: aCharacter
+	self shouldBeImplemented 

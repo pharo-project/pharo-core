@@ -1,0 +1,1 @@
+A TxTextLayoutTest is xxxxxxxxx.Instance Variables	view1:		<Object>	view2:		<Object>view1	- xxxxxview2	- xxxxx

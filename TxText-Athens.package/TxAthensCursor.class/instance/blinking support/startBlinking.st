@@ -1,0 +1,2 @@
+startBlinking
+	self startStepping

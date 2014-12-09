@@ -1,0 +1,1 @@
+A TxNewLineDisplayCommand is xxxxxxxxx.Instance Variables	span:		<Object>span	- xxxxx

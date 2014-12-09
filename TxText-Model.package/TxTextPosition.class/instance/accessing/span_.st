@@ -1,0 +1,2 @@
+span: aSpan
+	span := aSpan.

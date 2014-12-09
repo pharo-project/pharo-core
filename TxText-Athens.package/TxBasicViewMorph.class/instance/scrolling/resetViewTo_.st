@@ -1,0 +1,3 @@
+resetViewTo: startPosition
+
+	self subclassResponsibility 

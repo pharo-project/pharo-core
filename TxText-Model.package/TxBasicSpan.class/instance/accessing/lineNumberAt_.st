@@ -1,0 +1,2 @@
+lineNumberAt: aTxTextPosition 
+	self subclassResponsibility.

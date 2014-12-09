@@ -1,0 +1,3 @@
+visitEndSpan: aSpan
+
+	self completeLine.

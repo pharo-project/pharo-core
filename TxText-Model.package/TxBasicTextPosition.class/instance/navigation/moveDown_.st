@@ -1,0 +1,2 @@
+moveDown: number
+	self subclassResponsibility 

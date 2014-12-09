@@ -1,0 +1,1 @@
+A TxViewCoordinatesToTextPositionTest is xxxxxxxxx.

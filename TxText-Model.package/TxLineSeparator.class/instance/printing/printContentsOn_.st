@@ -1,0 +1,2 @@
+printContentsOn: aStream
+	aStream cr

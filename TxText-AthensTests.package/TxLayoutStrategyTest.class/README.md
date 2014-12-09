@@ -1,0 +1,1 @@
+A TxLayoutStrategyTest is xxxxxxxxx.Instance Variables	view:		<Object>view	- xxxxx

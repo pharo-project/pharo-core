@@ -1,0 +1,2 @@
+selectionIsEmpty
+	^ controller selection isEmpty

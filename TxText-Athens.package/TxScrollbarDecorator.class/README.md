@@ -1,0 +1,1 @@
+A TxScrollbarDecorator is xxxxxxxxx.Instance Variables	autohide:		<Object>	scrollbar:		<Object>	vertical:		<Object>autohide	- xxxxxscrollbar	- xxxxxvertical	- xxxxx

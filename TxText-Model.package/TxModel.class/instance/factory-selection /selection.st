@@ -1,0 +1,2 @@
+selection
+	^ self newSelection 

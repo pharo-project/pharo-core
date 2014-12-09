@@ -1,0 +1,1 @@
+A TxStyleTests is xxxxxxxxx.Instance Variables	style:		<Object>style	- xxxxx

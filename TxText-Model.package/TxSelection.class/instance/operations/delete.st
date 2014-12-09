@@ -1,0 +1,2 @@
+delete
+	self cut

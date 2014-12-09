@@ -1,0 +1,2 @@
+span: aTxLineSeparator 
+	span := aTxLineSeparator

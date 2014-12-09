@@ -1,0 +1,1 @@
+A TxModelTest is xxxxxxxxx.Instance Variables	cursor:		<Object>	selection:		<Object>	text:		<Object>cursor	- xxxxxselection	- xxxxxtext	- xxxxx

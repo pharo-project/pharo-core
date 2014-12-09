@@ -1,0 +1,2 @@
+moveToStart
+	^ self text startPosition

@@ -1,0 +1,2 @@
+numberOfLines
+	^ lines size

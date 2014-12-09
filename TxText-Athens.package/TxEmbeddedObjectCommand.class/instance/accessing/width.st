@@ -1,0 +1,2 @@
+width
+	^ self morph width

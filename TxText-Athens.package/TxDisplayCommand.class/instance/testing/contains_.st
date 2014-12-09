@@ -1,0 +1,2 @@
+contains: aTextPosition
+	self subclassResponsibility

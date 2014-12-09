@@ -1,0 +1,3 @@
+setContainer: anObject
+	
+	viewContainer := anObject

@@ -1,0 +1,1 @@
+when it was not possible to show a vertical bar between characters to show where the new text would be inserted, so an underscore or block cursor was used instead

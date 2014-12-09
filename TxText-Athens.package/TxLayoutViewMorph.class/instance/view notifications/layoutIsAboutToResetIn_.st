@@ -1,0 +1,3 @@
+layoutIsAboutToResetIn: view
+	"ignored"
+	submorphs := #().

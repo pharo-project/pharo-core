@@ -1,0 +1,3 @@
+moveTo: anotherTextPosition
+
+	self subclassResponsibility 

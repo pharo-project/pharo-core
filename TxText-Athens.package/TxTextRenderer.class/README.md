@@ -1,0 +1,1 @@
+A TxTextRenderer is xxxxxxxxx.Instance Variables	advance:		<Object>	canvas:		<Object>	color:		<Object>	currentLine:		<Object>	font:		<Object>	glyphRenderer:		<Object>	maxAscent:		<Object>	text:		<Object>advance	- xxxxxcanvas	- xxxxxcolor	- xxxxxcurrentLine	- xxxxxfont	- xxxxxglyphRenderer	- xxxxxmaxAscent	- xxxxxtext	- xxxxx

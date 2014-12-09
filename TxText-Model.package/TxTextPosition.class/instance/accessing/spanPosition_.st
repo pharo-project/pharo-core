@@ -1,0 +1,2 @@
+spanPosition: anInteger
+	spanPosition := anInteger

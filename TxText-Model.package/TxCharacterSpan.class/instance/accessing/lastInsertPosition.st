@@ -1,0 +1,2 @@
+lastInsertPosition
+	^ characters size 

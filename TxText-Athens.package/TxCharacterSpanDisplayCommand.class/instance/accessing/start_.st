@@ -1,0 +1,2 @@
+start: anObject
+	start := anObject

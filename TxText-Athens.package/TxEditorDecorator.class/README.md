@@ -1,0 +1,1 @@
+A TxEditorDecorator is xxxxxxxxx.Instance Variables	editor:		<Object>editor	- xxxxx

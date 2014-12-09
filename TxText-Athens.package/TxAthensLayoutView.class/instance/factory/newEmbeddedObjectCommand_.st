@@ -1,0 +1,3 @@
+newEmbeddedObjectCommand: anEmbeddedObjectSpan
+
+	^ container newEmbeddedObjectCommand: anEmbeddedObjectSpan

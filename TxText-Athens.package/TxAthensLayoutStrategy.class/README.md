@@ -1,0 +1,1 @@
+A TxAthensLayoutStrategy is xxxxxxxxx.Instance Variables	currentLine:		<Object>	currentPosition:		<Object>	layout:		<Object>	metStopCondition:		<Object>currentLine	- xxxxxcurrentPosition	- xxxxxlayout	- xxxxxmetStopCondition	- xxxxx

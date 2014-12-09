@@ -1,0 +1,1 @@
+A TxDisplayCommand is xxxxxxxxx.Instance Variables	next:		<Object>next	- xxxxx

@@ -1,0 +1,2 @@
+moveToLineEnd
+	position := position moveToLineEnd

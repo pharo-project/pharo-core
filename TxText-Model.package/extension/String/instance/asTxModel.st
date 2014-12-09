@@ -1,0 +1,2 @@
+asTxModel
+	^ TxModel fromString: self

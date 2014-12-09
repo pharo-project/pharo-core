@@ -1,0 +1,3 @@
+advance: anObject
+	
+	advance := anObject

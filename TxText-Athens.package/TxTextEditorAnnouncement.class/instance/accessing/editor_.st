@@ -1,0 +1,2 @@
+editor: anObject
+	editor := anObject

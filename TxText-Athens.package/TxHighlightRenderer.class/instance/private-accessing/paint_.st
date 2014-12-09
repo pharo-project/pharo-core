@@ -1,0 +1,2 @@
+paint: anObject
+	paint := anObject

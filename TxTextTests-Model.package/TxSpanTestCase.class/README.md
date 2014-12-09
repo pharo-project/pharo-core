@@ -1,0 +1,1 @@
+A TxSpanTestCase is xxxxxxxxx.Instance Variables	span:		<Object>	textModel:		<Object>span	- xxxxxtextModel	- xxxxx

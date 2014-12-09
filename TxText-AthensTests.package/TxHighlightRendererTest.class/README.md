@@ -1,0 +1,1 @@
+A TxHighlightRendererTest is xxxxxxxxx.Instance Variables	drawnShapes:		<Object>	interval:		<Object>	isPaintSet:		<Object>	renderer:		<Object>drawnShapes	- xxxxxinterval	- xxxxxisPaintSet	- xxxxxrenderer	- xxxxx

@@ -1,0 +1,2 @@
+borderWidth
+	^ 0

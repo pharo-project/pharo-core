@@ -1,0 +1,2 @@
+text
+	^ span text

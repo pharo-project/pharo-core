@@ -1,0 +1,1 @@
+i holding a positionand polymorphic with its protocol.However, in contrast to position, i am mutable, so that any navigation or insertion operations can affect my position in text.

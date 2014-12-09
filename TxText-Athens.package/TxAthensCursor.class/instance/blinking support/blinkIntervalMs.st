@@ -1,0 +1,2 @@
+blinkIntervalMs
+	^ 500

@@ -1,0 +1,1 @@
+A TxWorkspace is xxxxxxxxx.Instance Variables	editor:		<Object>	styler:		<Object>	text:		<Object>editor	- xxxxxstyler	- xxxxxtext	- xxxxx

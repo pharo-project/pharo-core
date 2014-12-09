@@ -1,0 +1,1 @@
+A TxSliderDragged is xxxxxxxxx.Instance Variables	newPosition:		<Object>	oldPosition:		<Object>newPosition	- xxxxxoldPosition	- xxxxx

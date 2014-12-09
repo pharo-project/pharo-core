@@ -1,0 +1,1 @@
+I hold a set of attributes assigned to single text span.I maintain a following invariant:  - there can be as many as one want attributes for span (including none), but only one per its kind (one forgeground color,one font, one background color etc).

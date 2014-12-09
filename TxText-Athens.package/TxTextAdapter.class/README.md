@@ -1,0 +1,1 @@
+A TxTextAdapter is xxxxxxxxx.

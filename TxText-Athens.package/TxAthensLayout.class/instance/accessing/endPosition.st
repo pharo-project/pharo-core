@@ -1,0 +1,2 @@
+endPosition
+	^ lines last endPosition

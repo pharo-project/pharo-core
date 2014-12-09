@@ -1,0 +1,1 @@
+A TxEmbeddedObjectCommand is xxxxxxxxx.Instance Variables	morph:		<Object>	span:		<Object>morph	- xxxxxspan	- xxxxx

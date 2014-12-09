@@ -1,0 +1,1 @@
+A TxSliderAnnouncement is xxxxxxxxx.Instance Variables	source:		<Object>source	- xxxxx

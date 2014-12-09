@@ -1,0 +1,2 @@
+editorMorph: anObject
+	editorMorph := anObject

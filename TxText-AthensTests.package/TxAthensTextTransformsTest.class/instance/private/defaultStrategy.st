@@ -1,0 +1,2 @@
+defaultStrategy
+	^ TxAthensCharacterWrappingStrategy new

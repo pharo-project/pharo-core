@@ -1,0 +1,1 @@
+A TxAthensLayoutTest is xxxxxxxxx.Instance Variables	layout:		<Object>	text:		<Object>	view:		<Object>layout	- xxxxxtext	- xxxxxview	- xxxxx

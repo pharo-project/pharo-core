@@ -1,0 +1,1 @@
+A TxTextEditorMorph is xxxxxxxxx.Instance Variables	controller:		<Object>	cursorMorph:		<Object>	layoutViewMorph:		<Object>	showCursor:		<Object>controller	- xxxxxcursorMorph	- xxxxxlayoutViewMorph	- xxxxxshowCursor	- xxxxx

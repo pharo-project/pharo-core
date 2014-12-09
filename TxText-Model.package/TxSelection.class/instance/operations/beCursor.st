@@ -1,0 +1,3 @@
+beCursor
+
+	self collapse

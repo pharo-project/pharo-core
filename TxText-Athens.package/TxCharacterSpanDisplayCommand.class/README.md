@@ -1,0 +1,1 @@
+A TxCharacterSpanDisplayCommand is xxxxxxxxx.Instance Variables	advance:		<Object>	span:		<Object>	start:		<Object>	stop:		<Object>advance	- xxxxxspan	- xxxxxstart	- xxxxxstop	- xxxxx

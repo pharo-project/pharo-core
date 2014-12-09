@@ -1,0 +1,2 @@
+layoutView: anObject
+	layoutView := anObject

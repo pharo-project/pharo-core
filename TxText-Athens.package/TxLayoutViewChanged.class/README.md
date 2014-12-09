@@ -1,0 +1,1 @@
+A TxLayoutViewChanged is xxxxxxxxx.Instance Variables	view:		<Object>view	- xxxxx

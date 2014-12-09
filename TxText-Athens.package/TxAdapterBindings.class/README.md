@@ -1,0 +1,1 @@
+A TxAdapterBindings is xxxxxxxxx.

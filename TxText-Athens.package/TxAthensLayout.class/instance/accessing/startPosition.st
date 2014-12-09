@@ -1,0 +1,2 @@
+startPosition
+	^ lines first startPosition

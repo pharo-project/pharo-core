@@ -1,0 +1,2 @@
+isAtEnd
+	^ false

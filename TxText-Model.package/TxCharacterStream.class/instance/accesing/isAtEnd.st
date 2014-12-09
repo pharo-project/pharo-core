@@ -1,0 +1,3 @@
+isAtEnd
+
+	^ position isAtEnd 

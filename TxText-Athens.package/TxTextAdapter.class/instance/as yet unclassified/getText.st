@@ -1,0 +1,2 @@
+getText
+	1halt

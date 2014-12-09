@@ -1,0 +1,2 @@
+hideEmbeddedObject: morph
+	morph delete.
