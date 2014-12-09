@@ -1,0 +1,1 @@
+A GLMScrollListBrick is a list to support of very large amount of items

@@ -1,9 +1,10 @@
 removeAllBricks
 
-	subbricks do: [ :each |
+	self privateSubbricks do: [ :each |
+		each privateBrickDoubleLink: nil.
 		each isBrick ifTrue: [
 			each brickRoot: nil.
 			each brickOwner: nil ] ].
 	
-	subbricks removeAll.
+	self privateSubbricks removeAll.
 	self removeAllMorphs

@@ -5,10 +5,10 @@ pressed: isPressed selected: isSelected checked: isChecked of: aTrick
 	(isPressed & aTrick pressedImage notNil)
 		ifTrue: [ ^ aTrick pressedImage ].
 	
-	(((isPressed & aTrick pressedImage isNil) | isSelected) & aTrick selectedImage notNil)
-		ifTrue: [ ^ aTrick selectedImage ].
-		
 	(isChecked & aTrick checkedImage notNil)
 		ifTrue: [ ^ aTrick checkedImage ].
+		
+	(((isPressed & aTrick pressedImage isNil) | isSelected) & aTrick selectedImage notNil)
+		ifTrue: [ ^ aTrick selectedImage ].
 	
 	^ aTrick normalImage.

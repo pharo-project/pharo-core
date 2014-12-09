@@ -1,3 +1,3 @@
 addPageIfInteresting: aPage
-	aPage content asString trimBoth isEmpty
-		ifFalse: [ self addPage: aPage ]
+	aPage content asString trimBoth isEmpty ifTrue: [ ^ self ].
+	self addPage: aPage

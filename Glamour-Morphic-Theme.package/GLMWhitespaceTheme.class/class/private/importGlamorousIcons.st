@@ -16,4 +16,4 @@ importGlamorousIcons
 		'glamorousCheckboxUnselected'
 		'glamorousRadioSelected'
 		'glamorousRadioUnselected').
-	self importIcons: icons fromFolder: 'icons' inClass: GLMUIThemeIcons category: '*glamour-morphic-theme'
+	self importIcons: icons fromFolder: 'icons' inClass: GLMThemeIcons category: '*glamour-morphic-theme'

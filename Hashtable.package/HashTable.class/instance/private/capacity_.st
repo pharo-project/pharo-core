@@ -1,0 +1,2 @@
+capacity: anObject
+	capacity := anObject

@@ -4,11 +4,12 @@ pressedColor: isPressed selectedColor: isSelected checkedColor: isChecked of:aTr
 	"pressed has the highest priority"
 	(isPressed & aTrick pressedColor notNil)
 		ifTrue: [ ^ aTrick pressedColor ].
-	
-	(((isPressed & aTrick pressedColor isNil) | isSelected) & aTrick selectedColor notNil)
-		ifTrue: [ ^ aTrick selectedColor ].
 		
 	(isChecked & aTrick checkedColor notNil)
 		ifTrue: [ ^ aTrick checkedColor ].
+		
+	(((isPressed & aTrick pressedColor isNil) | isSelected) & aTrick selectedColor notNil)
+		ifTrue: [ ^ aTrick selectedColor ].
+
 	
 	^ aTrick normalColor.

@@ -1,0 +1,3 @@
+newBand
+
+	^ GLMBrick new

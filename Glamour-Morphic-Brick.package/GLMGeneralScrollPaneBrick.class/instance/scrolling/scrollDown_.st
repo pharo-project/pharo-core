@@ -1,0 +1,3 @@
+scrollDown: anInteger
+
+	self subclassResponsibility

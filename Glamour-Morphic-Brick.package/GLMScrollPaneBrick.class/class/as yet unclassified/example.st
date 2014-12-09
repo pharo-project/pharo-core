@@ -1,7 +1,7 @@
 example
 	|foundation scrollPane|
 	
-	scrollPane := GLMScrollPaneBrick new.
+	scrollPane := self new.
 	
 	foundation := GLMFoundationBrick new.
 	foundation brickRoot: scrollPane.

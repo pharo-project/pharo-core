@@ -1,0 +1,2 @@
+setUp
+	set := HashSet new

@@ -1,3 +1,3 @@
 privateWidth
 
-	^ self brickBounds width + self layoutProperties paddingLeft  + self layoutProperties paddingRight
+	^ self brickBounds width

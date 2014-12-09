@@ -1,2 +1,2 @@
 minWidth: anObject
-	minWidth := anObject
+	minWidthBlock := [ anObject ]

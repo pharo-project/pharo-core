@@ -1,3 +1,3 @@
 panesMorphs
 
-	^ pagerMorph submorphs first panes
+	^ pagerMorph submorphs first submorphs first panes

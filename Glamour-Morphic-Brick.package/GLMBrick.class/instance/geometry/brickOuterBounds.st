@@ -1,4 +1,5 @@
 brickOuterBounds
-	^ (self brickBounds origin - ((self layoutProperties paddingLeft) @ (self layoutProperties paddingTop)))
-		corner: (self brickBounds corner + ((self layoutProperties paddingRight) @ (self layoutProperties paddingBottom))).
+
+	^ (self brickBounds origin - ((self layoutProperties marginLeft) @ (self layoutProperties marginTop)))
+		corner: (self brickBounds corner + ((self layoutProperties marginRight) @ (self layoutProperties marginBottom))).
 

@@ -1,0 +1,2 @@
+asSet
+	^self

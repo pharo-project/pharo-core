@@ -1,2 +1,2 @@
 themeName
-	^ 'Glamorous'
+	^ 'Glamorous Whitespace'

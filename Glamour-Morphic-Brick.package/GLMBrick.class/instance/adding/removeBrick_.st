@@ -6,5 +6,6 @@ removeBrick: aBrick
 	].
 	
 	self removeMorph: aBrick.
-	subbricks remove: aBrick ifAbsent: [ ^ aBrick ].
+	self privateSubbricks removeLink: aBrick privateBrickDoubleLink.
+	aBrick privateBrickDoubleLink: nil.
 	^ aBrick

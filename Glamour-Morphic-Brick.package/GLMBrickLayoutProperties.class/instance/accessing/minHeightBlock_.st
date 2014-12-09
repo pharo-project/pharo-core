@@ -1,0 +1,2 @@
+minHeightBlock: anObject
+	minHeightBlock := anObject

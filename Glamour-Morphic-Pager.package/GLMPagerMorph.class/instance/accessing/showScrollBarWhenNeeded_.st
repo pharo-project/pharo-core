@@ -1,0 +1,3 @@
+showScrollBarWhenNeeded: aBoolean
+
+	showScrollBarWhenNeeded := aBoolean

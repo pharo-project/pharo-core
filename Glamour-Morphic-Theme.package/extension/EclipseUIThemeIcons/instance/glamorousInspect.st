@@ -1,0 +1,2 @@
+glamorousInspect 
+	^ self smallInspectItIcon

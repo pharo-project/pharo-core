@@ -1,4 +1,7 @@
 morphInsideBrickExample
+
+	"self morphInsideBrickExample"
+
 	|foundation brick morph|
 	
 	foundation := GLMFoundationBrick new.

@@ -1,3 +1,3 @@
 on: anObject send: aSymbol to: aReceiver
 	self announcer weak
-		on: anObject send: aSymbol to: aReceiver.
+		when: anObject send: aSymbol to: aReceiver.

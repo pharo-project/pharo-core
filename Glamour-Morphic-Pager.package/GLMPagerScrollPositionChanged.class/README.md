@@ -1,1 +1,1 @@
-A GLMPagerScrollPositionChanged is xxxxxxxxx.Instance Variables	smooth:		<Object>smooth	- xxxxx
+A GLMPagerScrollPositionChanged is xxxxxxxxx.Instance Variables	callback:		<Object>	smooth:		<Object>callback	- xxxxxsmooth	- xxxxx

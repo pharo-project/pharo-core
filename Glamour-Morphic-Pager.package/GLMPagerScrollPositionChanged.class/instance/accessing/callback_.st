@@ -1,0 +1,2 @@
+callback: anObject
+	callback := anObject

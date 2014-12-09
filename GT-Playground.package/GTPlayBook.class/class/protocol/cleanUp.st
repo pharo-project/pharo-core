@@ -1,0 +1,3 @@
+cleanUp
+	
+	instance := nil

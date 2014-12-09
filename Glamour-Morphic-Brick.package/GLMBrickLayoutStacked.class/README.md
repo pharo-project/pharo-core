@@ -1,0 +1,1 @@
+A GLMBrickLayoutStacked is xxxxxxxxx.Instance Variables	index:		<Object>	position:		<Object>index	- xxxxxposition	- xxxxx

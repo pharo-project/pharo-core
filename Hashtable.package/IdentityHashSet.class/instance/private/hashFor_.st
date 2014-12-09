@@ -1,0 +1,2 @@
+hashFor: anObject
+	^ anObject identityHash

@@ -1,0 +1,1 @@
+A GLMPagerScrollBrick is xxxxxxxxx.Instance Variables	band:		<Object>	currentFocus:		<Object>	currentScrollDelta:		<Object>	focus:		<Object>	maxPanes:		<Object>	pagerModel:		<Object>band	- xxxxxcurrentFocus	- xxxxxcurrentScrollDelta	- xxxxxfocus	- xxxxxmaxPanes	- xxxxxpagerModel	- xxxxx

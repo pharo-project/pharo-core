@@ -1,0 +1,2 @@
+testsize: anObject
+	testsize := anObject

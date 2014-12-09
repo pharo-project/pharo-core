@@ -1,5 +1,5 @@
 gtInspectorImplementorsIn: composite
-	<gtInspectorPresentationOrder: 30>
+	<gtInspectorPresentationOrder: 4>
 	composite list 
 		title: 'Implementors';
 		display: [ self compiledMethod implementors ]

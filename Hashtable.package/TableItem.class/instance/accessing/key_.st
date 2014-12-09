@@ -1,0 +1,2 @@
+key: anObject
+	key := anObject

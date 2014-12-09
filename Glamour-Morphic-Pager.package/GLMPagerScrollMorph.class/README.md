@@ -1,1 +1,0 @@
-A GLMPagerScrollMorph is xxxxxxxxx.Instance Variables	currentFocus:		<Object>	pagerModel:		<Object>	pane:		<Object>currentFocus	- xxxxxpagerModel	- xxxxxpane	- xxxxx

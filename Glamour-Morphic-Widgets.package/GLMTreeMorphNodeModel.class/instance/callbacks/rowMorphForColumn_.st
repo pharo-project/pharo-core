@@ -12,7 +12,8 @@ rowMorphForColumn: aGlamourColumn
 				self containerTree glamourPresentation 
 					column: aGlamourColumn 
 					valueFor: self item) asString.
-			contentMorph hResizing: #spaceFill.
+			contentMorph hResizing: #rigid.
+			contentMorph width: contentMorph textArea width.
 			contentMorph announcer when: RubReturnEntered do: [ :ann |
 				 aGlamourColumn modifiedBlock cull: contentMorph text cull: self item cull: self containerTree glamourPresentation ] ].
 	

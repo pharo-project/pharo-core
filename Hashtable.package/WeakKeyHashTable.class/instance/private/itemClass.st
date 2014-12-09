@@ -1,0 +1,2 @@
+itemClass
+	^WeakKeyTableItem

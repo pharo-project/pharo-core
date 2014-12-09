@@ -20,6 +20,7 @@ popPane: isSmooth
 	
 		pagesCount = 0 ifTrue: [
 			selectedPageIndex := 0.
+			firstVisiblePageIndex := 0.
 		].
 		
 		self selectedPageIndex > pagesCount ifTrue: [

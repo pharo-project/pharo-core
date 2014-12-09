@@ -1,1 +1,0 @@
-PolymorphSystemSettings desktopColor: Color white.self defaultSettings: nil.self beCurrent.

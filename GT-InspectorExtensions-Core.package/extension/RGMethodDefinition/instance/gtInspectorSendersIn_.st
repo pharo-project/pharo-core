@@ -1,5 +1,5 @@
 gtInspectorSendersIn: composite
-	<gtInspectorPresentationOrder: 30>
+	<gtInspectorPresentationOrder: 2>
 	composite list 
 		title: 'Senders';
 		display: [ self compiledMethod senders ]

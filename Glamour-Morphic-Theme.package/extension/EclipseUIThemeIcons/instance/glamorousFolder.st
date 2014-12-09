@@ -1,0 +1,2 @@
+glamorousFolder
+	^ self smallOpenIcon

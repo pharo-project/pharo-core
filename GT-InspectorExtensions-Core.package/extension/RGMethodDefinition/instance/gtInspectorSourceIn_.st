@@ -1,5 +1,5 @@
 gtInspectorSourceIn: composite
-	<gtInspectorPresentationOrder: 20>
+	<gtInspectorPresentationOrder: 00>
 	^ composite smalltalkCode 
 		title: 'Source';
 		smalltalkClass: [ self methodClass ];

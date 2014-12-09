@@ -1,0 +1,2 @@
+glamorousCancel
+	^ self smallCancelIcon

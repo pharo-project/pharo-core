@@ -9,7 +9,7 @@ textPortsExamples
 		row: [ :r | r column: #selectionInterval; column: #selectedText; column: #full ].
 	(browser transmit)
 		to: #main;
-		andShow: [ :a | a text ].
+		andShow: [ :a | a rubricText ].
 	(browser transmit)
 		to: #selectionInterval;
 		from: #main port: #selectionInterval;

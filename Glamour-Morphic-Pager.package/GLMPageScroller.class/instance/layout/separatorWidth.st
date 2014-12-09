@@ -1,2 +1,0 @@
-separatorWidth
-	^ 10

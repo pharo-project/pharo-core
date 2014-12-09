@@ -1,0 +1,1 @@
+A HashTable is xxxxxxxxx.Instance Variables	capacity:		<Object>	loadfactor:		<Object>	size:		<Object>	table:		<Object>capacity	- xxxxxloadfactor	- xxxxxsize	- xxxxxtable	- xxxxx

@@ -1,0 +1,2 @@
+floating: aSymbol
+	floating := aSymbol

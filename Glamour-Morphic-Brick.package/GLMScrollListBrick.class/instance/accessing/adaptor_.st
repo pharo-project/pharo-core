@@ -1,0 +1,3 @@
+adaptor: anAdaptor
+
+	adaptor := anAdaptor

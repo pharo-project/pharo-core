@@ -1,0 +1,3 @@
+defaultScrollTurboTime
+
+	^ 30

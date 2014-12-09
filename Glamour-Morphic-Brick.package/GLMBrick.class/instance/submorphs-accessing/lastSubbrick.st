@@ -1,0 +1,3 @@
+lastSubbrick
+
+	^ self subbricks last

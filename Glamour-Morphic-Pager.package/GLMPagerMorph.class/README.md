@@ -1,1 +1,1 @@
-A GLMPagerMorph is xxxxxxxxx.Instance Variables	firstCombination:		<Object>	pagerBar:		<Object>	pagerModel:		<Object>firstCombination	- xxxxxpagerBar	- xxxxxpagerModel	- xxxxx
+A GLMPagerMorph is xxxxxxxxx.Instance Variables	firstCombination:		<Object>	pagerBar:		<Object>	pagerModel:		<Object>	showScrollBarWhenNeeded:		<Object>firstCombination	- xxxxxpagerBar	- xxxxxpagerModel	- xxxxxshowScrollBarWhenNeeded	- xxxxx

@@ -1,5 +1,5 @@
 height
 
 	^ self heightBlock
-		ifNotNil: [ self heightBlock value: self ]
+		ifNotNil: [ self heightBlock cull: self ]
 		ifNil: [ self privateHeight ]

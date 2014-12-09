@@ -1,0 +1,2 @@
+size: anInteger
+	size := anInteger

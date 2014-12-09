@@ -1,0 +1,2 @@
+minWidthBlock
+	^ minWidthBlock

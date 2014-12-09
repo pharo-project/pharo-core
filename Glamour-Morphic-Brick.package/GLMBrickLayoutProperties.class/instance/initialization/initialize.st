@@ -9,9 +9,11 @@ initialize
 	paddingLeft := 0.
 	paddingRight := 0.
 	paddingTop := 0.
-	horizontalPercent := 10.
-	verticalPercent := 10.
-	minWidth := 0.
-	minHeight := 0.
+	horizontalPercent := 25.
+	verticalPercent := 25.
+	zIndex := 1. "the lowest one"
 	maxWidthBlock := [ :aTrick | -1 ]. "negative value means undefined"
 	maxHeightBlock := [ :aTrick | -1 ]. "negative value means undefined"
+	minWidthBlock := [ :aTrick | -1 ]. "negative value means undefined"
+	minHeightBlock := [ :aTrick | -1 ]. "negative value means undefined"
+	floating := #none

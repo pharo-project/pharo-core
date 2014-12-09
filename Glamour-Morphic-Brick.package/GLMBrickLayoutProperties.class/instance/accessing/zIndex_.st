@@ -1,0 +1,2 @@
+zIndex: anObject
+	zIndex := anObject

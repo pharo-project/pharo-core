@@ -1,0 +1,2 @@
+stepsize: anObject
+	stepsize := anObject

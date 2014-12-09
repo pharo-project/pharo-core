@@ -1,0 +1,3 @@
+allowedBounds
+
+	^ self globalBounds

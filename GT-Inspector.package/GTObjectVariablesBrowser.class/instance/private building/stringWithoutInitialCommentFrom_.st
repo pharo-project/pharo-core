@@ -1,5 +1,5 @@
 stringWithoutInitialCommentFrom: aString
-	^ aString first = $" 
+	^ (aString isEmpty not and: [ aString first = $" ])
 		ifFalse: [ aString trimBoth ]
 		ifTrue: [ 
 			(aString

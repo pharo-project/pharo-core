@@ -1,0 +1,3 @@
+allowedBounds: aRectangle
+
+	allowedBounds := aRectangle

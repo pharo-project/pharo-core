@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '14280 TxModel configuration for integration
-	https://pharo.fogbugz.com/f/cases/14280'
+ ^ '14588 Integrate GTools version 2.0.3
+	https://pharo.fogbugz.com/f/cases/14588'

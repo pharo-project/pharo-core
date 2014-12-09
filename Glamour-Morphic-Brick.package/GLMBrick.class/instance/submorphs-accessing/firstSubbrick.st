@@ -1,0 +1,3 @@
+firstSubbrick
+
+	^ self subbricks first

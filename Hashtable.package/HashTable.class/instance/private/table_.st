@@ -1,0 +1,2 @@
+table: anObject
+	table := anObject

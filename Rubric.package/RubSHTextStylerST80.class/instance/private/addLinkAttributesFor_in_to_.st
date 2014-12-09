@@ -2,7 +2,7 @@ addLinkAttributesFor: ranges in: aText to: charAttributes
 	| links |
 	"TODO: put this on class side"
 	links := Dictionary new.
-
+ 
 	"see SHTextStylerST80 class >> #defaultStyleTable for more types"
 	links at: #instVar put: [ :aString| RubTextVariableLink variableName: aString ].
 	links at: #globalVar put: [ :aString| RubTextClassLink className: aString ].

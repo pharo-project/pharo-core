@@ -1,7 +1,7 @@
 initialize
 	super initialize.
 	
-	subbricks := OrderedCollection new.
+	subbricks := GLMBrickDoubleLinkedList new.
 	
 	self layoutProperties: GLMBrickLayoutProperties new.
 	self layoutPolicy: GLMBrickHorizontalFillProportionalLinearLayout new.

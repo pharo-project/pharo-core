@@ -1,0 +1,2 @@
+isRoundedRight: anObject
+	isRoundedRight := anObject

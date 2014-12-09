@@ -1,0 +1,1 @@
+A GLMBrickLayoutBounds is xxxxxxxxx.Instance Variables	bounds:		<Object>	innerBounds:		<Object>	outerBounds:		<Object>bounds	- xxxxxinnerBounds	- xxxxxouterBounds	- xxxxx

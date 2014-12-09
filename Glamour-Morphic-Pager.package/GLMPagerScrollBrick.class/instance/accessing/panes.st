@@ -1,0 +1,3 @@
+panes
+
+	^ self band submorphs

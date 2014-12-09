@@ -1,0 +1,2 @@
+setLoadfactor: aFloat 
+	loadfactor := aFloat

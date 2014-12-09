@@ -1,0 +1,3 @@
+sizeLogic: aBlockWithNoParameters
+
+	countLogic := aBlockWithNoParameters

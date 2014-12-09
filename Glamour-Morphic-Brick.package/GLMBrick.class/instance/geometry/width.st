@@ -1,5 +1,5 @@
 width
 
 	^ self widthBlock
-		ifNotNil: [ self widthBlock value: self ]
+		ifNotNil: [ self widthBlock cull: self ]
 		ifNil: [ self privateWidth ]

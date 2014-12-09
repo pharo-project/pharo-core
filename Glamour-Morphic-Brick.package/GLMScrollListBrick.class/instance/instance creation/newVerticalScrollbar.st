@@ -1,0 +1,3 @@
+newVerticalScrollbar
+
+	^ GLMApproximateScrollbarBrick new

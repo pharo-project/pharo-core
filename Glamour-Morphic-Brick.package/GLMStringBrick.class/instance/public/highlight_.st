@@ -1,0 +1,3 @@
+highlight: aString
+
+	highlightedString := aString

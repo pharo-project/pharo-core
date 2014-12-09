@@ -1,2 +1,2 @@
 minHeight: anObject
-	minHeight := anObject
+	minHeightBlock := [ anObject ]

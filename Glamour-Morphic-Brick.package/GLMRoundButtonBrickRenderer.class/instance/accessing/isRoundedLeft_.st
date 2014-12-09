@@ -1,0 +1,2 @@
+isRoundedLeft: anObject
+	isRoundedLeft := anObject

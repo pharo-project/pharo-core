@@ -1,0 +1,2 @@
+instances: anInteger 
+	instances := anInteger

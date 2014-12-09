@@ -1,0 +1,3 @@
+morphAtLogic: aBlockWithTwoParameters
+
+	morphLogic := aBlockWithTwoParameters
