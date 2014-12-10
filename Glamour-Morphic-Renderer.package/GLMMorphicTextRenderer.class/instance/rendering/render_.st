@@ -10,14 +10,14 @@ render: aPresentation
 	self installActionsOnModel: textModel fromPresentation: aPresentation .
 	self installKeystrokeActionsOnMorph: textMorph textMorph fromPresentation: aPresentation.
 	textMorph announcer
-		on: GLMSelectedTextChanged
+		when: GLMSelectedTextChanged
 		do: [ :ann | 
 			aPresentation announcer
 				suspendAllWhile: [ 
 					aPresentation selectionInterval: ann interval.
 					aPresentation selectedText: ann selectedText ] ].
 	textMorph announcer
-		on: GLMTextChanged
+		when: GLMTextChanged
 		do: [ :ann | aPresentation suspendAllWhile: [ aPresentation text: ann text ] ].
 	self registerEventsForPresentation: aPresentation.
 	^ textMorph

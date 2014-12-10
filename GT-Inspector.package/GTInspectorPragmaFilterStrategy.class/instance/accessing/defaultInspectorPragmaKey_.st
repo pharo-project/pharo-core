@@ -1,0 +1,3 @@
+defaultInspectorPragmaKey: aSymbol
+
+	defaultPragmaKey := aSymbol

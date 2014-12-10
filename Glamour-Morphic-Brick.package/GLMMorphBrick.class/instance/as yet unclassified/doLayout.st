@@ -1,3 +1,3 @@
 doLayout
 	
-	self layoutPolicy layout: self in: self brickBounds
+	self morph privateBounds: self globalBounds

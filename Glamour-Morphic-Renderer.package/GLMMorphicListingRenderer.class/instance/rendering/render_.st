@@ -16,14 +16,14 @@ render: aPresentation
 			suspendAll: self suspendedAnnouncements
 			while: [ treeMorph model explicitSelection: aPresentation selection ] ].	"When the morph changes, we want to update the glamour model"
 	treeModel announcer
-		on: GLMTreeMorphSelectionChanged
+		when: GLMTreeMorphSelectionChanged
 		do: [ :ann | 
 			aPresentation announcer
 				suspendAllWhile: [ 
 					aPresentation selection: ann selectionValue.
 					aPresentation selectionPath: ann selectionPathValue ] ].
 	treeModel announcer
-		on: GLMTreeMorphStrongSelectionChanged
+		when: GLMTreeMorphStrongSelectionChanged
 		do: [ :ann | aPresentation strongSelection: ann strongSelectionValue ].	"When the glamour model changes, we want to update the morph"
 	aPresentation on: GLMContextChanged send: #actOnContextChanged: to: self.
 	aPresentation on: GLMPresentationUpdated send: #actOnUpdatedPresentation: to: self.

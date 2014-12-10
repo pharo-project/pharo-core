@@ -12,7 +12,6 @@ glmAnimateBrickBounds: aValue duration: anInteger callback: aBlock
 			[	| delta translate|
 				[ (delta := Time millisecondClockValue - startTime) < anInteger ] whileTrue: [
 					translate := (aValue - start) * (delta / anInteger) + start.
-					translate logCr.
 					self band brickBounds: (startBounds translateBy: translate@0).
 					self changed.
 					Processor yield

@@ -7,7 +7,7 @@ initialize
 	
 	band := self newBand.
 	
-	self layoutPolicy: GLMBrickVerticalFillLinearLayout new.
+	self layoutPolicy: GLMBrickVerticalFillLayout new.
 	super addBrickBack: band.
 	
 	self verticalScrollbar: self newVerticalScrollbar.

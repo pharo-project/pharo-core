@@ -1,2 +1,0 @@
-isRoundedRight
-	^ isRoundedRight

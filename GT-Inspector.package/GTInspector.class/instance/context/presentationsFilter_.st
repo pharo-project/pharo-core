@@ -1,0 +1,3 @@
+presentationsFilter: aPresentationFilterStragery
+
+	presentationFilter := aPresentationFilterStragery

@@ -8,6 +8,8 @@ gtInspectorPresentationsIn: composite inContext: aGTInspector
 				from: self class 
 				to: Object
 				sortedUsing: [: x :y | (x argumentAt: 1) < (y argumentAt: 1)].
+	pragmas := pragmas select: [ :aPragma | 
+		aGTInspector shouldDisplayPresentationCreateBy: aPragma method ].
 	pragmas do: [ :eachPragma | 
 		(eachPragma selector findTokens: $:) size = 1 
 			ifTrue: [ self perform: eachPragma selector with: composite ]. 

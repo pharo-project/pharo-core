@@ -1,1 +1,0 @@
-A GLMRoundButtonBrickRenderer allows to render a button with rounded corners. Uses TrachelCanvas to support antialiasingInstance Variables	antialiasing:		<Object>	isRoundedLeft:		<Object>	isRoundedRight:		<Object>antialiasing	- xxxxxisRoundedLeft	- xxxxxisRoundedRight	- xxxxx

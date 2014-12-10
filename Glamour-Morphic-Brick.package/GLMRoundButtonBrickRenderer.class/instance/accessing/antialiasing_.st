@@ -1,3 +1,0 @@
-antialiasing: aBoolean
-
-	antialiasing := aBoolean

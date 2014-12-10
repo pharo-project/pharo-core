@@ -1,0 +1,1 @@
+A GTInspectorMethodListFilterStrategy is xxxxxxxxx.Instance Variables	methodSignatures:		<Object>methodSignatures	- xxxxx

@@ -1,3 +1,0 @@
-antialiasing
-
-	^ antialiasing

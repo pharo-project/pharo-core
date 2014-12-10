@@ -1,2 +1,0 @@
-isRoundedLeft: anObject
-	isRoundedLeft := anObject

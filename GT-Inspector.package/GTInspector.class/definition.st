@@ -1,5 +1,5 @@
 GLMCompositePresentation subclass: #GTInspector
-	instanceVariableNames: ''
+	instanceVariableNames: 'presentationFilter'
 	classVariableNames: 'GTInspectorEnabledStatus GTNumberOfInspectorPanes'
 	poolDictionaries: ''
 	category: 'GT-Inspector'

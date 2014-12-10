@@ -1,1 +1,0 @@
-A GTSpotterStepPane is xxxxxxxxx.Instance Variables	resultsBrick:		<Object>	stepModel:		<Object>resultsBrick	- xxxxxstepModel	- xxxxx

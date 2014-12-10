@@ -1,3 +1,0 @@
-newResultsBrick
-
-	^ GTSpotterResultsBrick new

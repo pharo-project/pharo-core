@@ -1,1 +1,0 @@
-ConfigurationOfGlamour loadDevelopment

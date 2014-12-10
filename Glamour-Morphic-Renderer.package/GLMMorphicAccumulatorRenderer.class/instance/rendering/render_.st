@@ -8,10 +8,10 @@ render: aBrowser
 		cornerStyle: (self theme tabGroupCornerStyleIn: nil);
 		font: self theme labelFont.
 	tabs announcer
-		on: LazyTabPageChanged
+		when: LazyTabPageChanged
 		do: [ :ann | aBrowser activeEntity: ((aBrowser panes at: ann pageIndex) port: #entity) value ].
 	tabs announcer
-		on: LazyTabPageRemoved
+		when: LazyTabPageRemoved
 		do: [ :ann | 
 			aBrowser removePaneIndex: ann pageIndex.
 			aBrowser panes isEmpty

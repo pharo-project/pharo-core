@@ -1,2 +1,0 @@
-resultsBrick
-	^ resultsBrick

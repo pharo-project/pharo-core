@@ -1,0 +1,2 @@
+newBand
+	^ GLMHorizontalBandBrick new

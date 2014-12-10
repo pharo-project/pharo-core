@@ -1,0 +1,3 @@
+changeFilterRequestFor: aGTInspector
+
+	self subclassResponsibility
