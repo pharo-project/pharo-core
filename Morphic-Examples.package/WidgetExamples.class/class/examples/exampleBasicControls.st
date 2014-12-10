@@ -6,7 +6,7 @@ exampleBasicControls
 	builder := self exampleBuilder.
 	dialog := (builder newPluggableDialogWindow: 'Example basic controls') useDefaultOKButton.
 	radioModel := ExampleRadioButtonModel new.
-	treeModel := ValueHolder new contents: TextStyle actualTextStyles explorerContents.
+	treeModel := Array with:(MorphWithSubmorphsWrapper with: World).
 	dialog contentMorph: ((dialog newRow: {
 		dialog newLabelGroup: {
 			'Normal Label'->(dialog newLabel: 'A Label').
@@ -68,7 +68,7 @@ exampleBasicControls
 									collect: [:c | Morph new extent: 80@12; color: c]))
 							list: #getList getSelected: #selectedIndex setSelected: #setSelectedIndex:
 							help: 'This is a morph list').
-			'Tree'->((dialog newTreeFor: treeModel list: #contents selected: nil changeSelected: nil) minHeight: 100)}.
+			'Tree'->((dialog newTreeFor: treeModel list: #value selected: nil changeSelected: nil) minHeight: 100)}.
 			dialog newVerticalSeparator.
 			dialog newColumn: {
 				dialog newTitle: 'Text Editor' for: (
