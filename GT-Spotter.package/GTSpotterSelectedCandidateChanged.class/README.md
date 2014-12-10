@@ -1,0 +1,1 @@
+A GTSpotterSelectedCandidateChanged is xxxxxxxxx.Instance Variables	selected:		<Object>selected	- xxxxx

@@ -1,0 +1,3 @@
+candidateLink: aDoubleLink 
+
+	candidateLink := aDoubleLink

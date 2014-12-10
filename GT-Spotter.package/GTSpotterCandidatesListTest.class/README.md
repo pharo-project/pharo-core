@@ -1,0 +1,1 @@
+A GTSpotterCandidatesListTest is xxxxxxxxx.Instance Variables	candidates:		<Object>candidates	- xxxxx

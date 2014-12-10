@@ -1,0 +1,1 @@
+A GTSpotterContentsBrick is xxxxxxxxx.Instance Variables	dropDownBrick:		<Object>	headerBrick:		<Object>	spotterModel:		<Object>dropDownBrick	- xxxxxheaderBrick	- xxxxxspotterModel	- xxxxx

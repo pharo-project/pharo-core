@@ -1,0 +1,3 @@
+asSpotterProcessorLink
+
+	^ self

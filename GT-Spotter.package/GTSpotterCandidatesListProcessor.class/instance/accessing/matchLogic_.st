@@ -1,0 +1,2 @@
+matchLogic: aBlockWithTwoArguments
+	queryMatchingBlock := aBlockWithTwoArguments

@@ -1,0 +1,2 @@
+stepModel: anObject
+	stepModel := anObject.

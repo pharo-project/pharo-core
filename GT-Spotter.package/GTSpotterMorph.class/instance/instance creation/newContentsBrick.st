@@ -1,0 +1,3 @@
+newContentsBrick
+
+	^ GTSpotterContentsBrick new

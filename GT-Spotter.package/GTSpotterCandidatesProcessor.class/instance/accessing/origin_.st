@@ -1,0 +1,3 @@
+origin: anObject
+
+	origin := anObject

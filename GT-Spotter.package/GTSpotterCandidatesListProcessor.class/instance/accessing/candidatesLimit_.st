@@ -1,0 +1,2 @@
+candidatesLimit: anInteger
+	candidatesLimit := anInteger

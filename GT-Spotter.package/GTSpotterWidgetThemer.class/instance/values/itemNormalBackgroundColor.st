@@ -1,0 +1,3 @@
+itemNormalBackgroundColor
+
+	^ Color transparent

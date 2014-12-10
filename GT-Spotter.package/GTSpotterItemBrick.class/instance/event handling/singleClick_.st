@@ -1,0 +1,3 @@
+singleClick: evt
+
+	self beSelected

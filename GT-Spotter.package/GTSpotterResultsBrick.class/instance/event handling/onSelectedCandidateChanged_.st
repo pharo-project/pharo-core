@@ -1,0 +1,1 @@
+onSelectedCandidateChanged: ann

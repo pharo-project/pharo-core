@@ -1,0 +1,3 @@
+newSearchField
+
+	^ GTSpotterSearchFieldMorph new

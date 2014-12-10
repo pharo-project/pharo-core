@@ -1,0 +1,2 @@
+resultsScrollbarMarginRight
+	^ 1

@@ -1,0 +1,1 @@
+A GTSpotterDropDownMorph is xxxxxxxxx.Instance Variables	spotterModel:		<Object>spotterModel	- xxxxx

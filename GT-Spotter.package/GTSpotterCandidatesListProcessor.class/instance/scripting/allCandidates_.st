@@ -1,0 +1,2 @@
+allCandidates: aBlockWithOneArgument
+	allCandidatesBlock := aBlockWithOneArgument 

@@ -1,0 +1,3 @@
+actLogic: aBlockWithTwoArguments
+
+	actBlock := aBlockWithTwoArguments

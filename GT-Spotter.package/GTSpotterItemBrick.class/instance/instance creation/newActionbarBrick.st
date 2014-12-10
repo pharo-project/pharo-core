@@ -1,0 +1,3 @@
+newActionbarBrick
+
+	^ GTSpotterItemActionbarBrick new

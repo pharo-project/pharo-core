@@ -1,0 +1,1 @@
+A GTSpotterCandidateAdded is xxxxxxxxx.Instance Variables	candidateLink:		<Object>	category:		<Object>candidateLink	- xxxxxcategory	- xxxxx

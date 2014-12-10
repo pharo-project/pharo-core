@@ -1,0 +1,1 @@
+A GTSpotterAllCandidatesRemoved is xxxxxxxxx.

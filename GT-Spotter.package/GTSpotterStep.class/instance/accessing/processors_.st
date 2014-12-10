@@ -1,0 +1,3 @@
+processors: aCollection
+
+	processors := aCollection

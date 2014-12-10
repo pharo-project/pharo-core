@@ -1,0 +1,2 @@
+amount: anObject
+	amount := anObject

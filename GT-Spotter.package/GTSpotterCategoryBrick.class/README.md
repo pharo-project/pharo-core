@@ -1,0 +1,1 @@
+A GTSpotterCategoryBrick is xxxxxxxxx.Instance Variables	category:		<Object>	listBrick:		<Object>	stepModel:		<Object>	titleBrick:		<Object>category	- xxxxxlistBrick	- xxxxxstepModel	- xxxxxtitleBrick	- xxxxx

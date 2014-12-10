@@ -1,0 +1,1 @@
+A GTSpotterMorph is xxxxxxxxx.Instance Variables	breadcrumbBrick:		<Object>	breadcrumbWrapperBrick:		<Object>	contentsBrick:		<Object>	focusedMorph:		<Object>	spotterModel:		<Object>breadcrumbBrick	- xxxxxbreadcrumbWrapperBrick	- xxxxxcontentsBrick	- xxxxxfocusedMorph	- xxxxxspotterModel	- xxxxx

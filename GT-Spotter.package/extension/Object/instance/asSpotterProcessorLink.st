@@ -1,0 +1,3 @@
+asSpotterProcessorLink
+
+	^ GTSpotterProcessorLink value: self

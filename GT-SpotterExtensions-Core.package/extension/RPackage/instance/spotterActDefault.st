@@ -1,0 +1,2 @@
+spotterActDefault
+	^ Nautilus openOnPackage: self

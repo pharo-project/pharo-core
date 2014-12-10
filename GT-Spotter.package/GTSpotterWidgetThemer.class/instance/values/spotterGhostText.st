@@ -1,0 +1,3 @@
+spotterGhostText
+
+	^ 'Spotter search'

@@ -1,0 +1,2 @@
+itemIcon: aBlockWithOneArgument
+	itemIconBlock := aBlockWithOneArgument

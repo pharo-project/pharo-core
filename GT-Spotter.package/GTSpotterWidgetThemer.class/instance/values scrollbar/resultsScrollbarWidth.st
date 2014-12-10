@@ -1,0 +1,2 @@
+resultsScrollbarWidth
+	^ 3

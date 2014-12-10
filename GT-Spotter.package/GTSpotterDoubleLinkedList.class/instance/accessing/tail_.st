@@ -1,0 +1,3 @@
+tail: aDoubleLink
+
+	tail := aDoubleLink

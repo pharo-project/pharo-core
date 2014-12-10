@@ -1,0 +1,1 @@
+A GTSpotterBreadcrumbVisibilityChanged is xxxxxxxxx.

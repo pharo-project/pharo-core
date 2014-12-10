@@ -1,0 +1,1 @@
+A GTSpotterCandidateSelected is xxxxxxxxx.Instance Variables	candidateBrick:		<Object>candidateBrick	- xxxxx

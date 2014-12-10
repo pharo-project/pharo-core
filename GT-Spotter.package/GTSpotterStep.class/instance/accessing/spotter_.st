@@ -1,0 +1,2 @@
+spotter: aSpotter
+	spotter := aSpotter 

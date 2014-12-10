@@ -1,0 +1,3 @@
+onSelectedChanged: ann
+
+	self checkOrUncheck

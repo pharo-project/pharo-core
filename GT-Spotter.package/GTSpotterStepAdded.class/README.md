@@ -1,0 +1,1 @@
+A GTSpotterStepAdded is xxxxxxxxx.Instance Variables	stepModel:		<Object>stepModel	- xxxxx

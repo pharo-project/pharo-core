@@ -1,0 +1,1 @@
+A GTSpotterCandidatesAmountChanged is xxxxxxxxx.Instance Variables	amount:		<Object>	category:		<Object>amount	- xxxxxcategory	- xxxxx

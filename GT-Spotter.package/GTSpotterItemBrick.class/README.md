@@ -1,0 +1,1 @@
+A GTSpotterItemBrick is xxxxxxxxx.Instance Variables	actionbarBrick:		<Object>	candidateLink:		<Object>	iconBrick:		<Object>	labelBrick:		<Object>	stepModel:		<Object>actionbarBrick	- xxxxxcandidateLink	- xxxxxiconBrick	- xxxxxlabelBrick	- xxxxxstepModel	- xxxxx

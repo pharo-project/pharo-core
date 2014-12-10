@@ -1,0 +1,3 @@
+newActionButtonBrick
+
+	^ GLMActionButtonBrick new

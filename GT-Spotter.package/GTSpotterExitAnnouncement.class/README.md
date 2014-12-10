@@ -1,0 +1,1 @@
+A GTSpotterExitAnnouncement is xxxxxxxxx.

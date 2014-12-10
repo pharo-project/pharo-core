@@ -1,0 +1,1 @@
+A GTSpotterSearchFieldMorph is xxxxxxxxx.

@@ -1,0 +1,3 @@
+categoryNameMarginLeft
+
+	^ self itemIconMaxWidth

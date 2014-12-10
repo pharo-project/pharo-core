@@ -1,0 +1,2 @@
+processorLink: anObject
+	processorLink := anObject

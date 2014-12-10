@@ -1,0 +1,3 @@
+diveOut
+
+	self spotterModel popStep

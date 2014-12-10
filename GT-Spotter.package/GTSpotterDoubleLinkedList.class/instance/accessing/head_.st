@@ -1,0 +1,3 @@
+head: aDoubleLink
+
+	head := aDoubleLink

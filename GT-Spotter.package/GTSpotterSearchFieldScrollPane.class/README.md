@@ -1,0 +1,1 @@
+A GTSpotterSearchFieldScrollPane is xxxxxxxxx.

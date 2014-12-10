@@ -1,0 +1,3 @@
+newCategoryBrick
+
+	^ GTSpotterCategoryBrick new

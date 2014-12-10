@@ -1,0 +1,1 @@
+A GTSpotterRequestNextStep is xxxxxxxxx.Instance Variables	origin:		<Object>origin	- xxxxx

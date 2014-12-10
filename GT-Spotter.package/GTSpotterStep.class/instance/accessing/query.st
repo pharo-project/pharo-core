@@ -1,0 +1,3 @@
+query
+
+	^ query ifNil: [ query := '' ]

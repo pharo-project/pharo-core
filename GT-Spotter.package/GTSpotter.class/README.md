@@ -1,0 +1,1 @@
+This is the main model class.It handles the steps of the search, and it handles the search text.

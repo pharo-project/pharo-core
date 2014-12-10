@@ -1,0 +1,3 @@
+categoryNameMarginRight
+
+	^ 10

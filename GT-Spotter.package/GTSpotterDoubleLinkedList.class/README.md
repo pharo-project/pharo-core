@@ -1,0 +1,1 @@
+A GTSpotterDoubleLinkedList is xxxxxxxxx.

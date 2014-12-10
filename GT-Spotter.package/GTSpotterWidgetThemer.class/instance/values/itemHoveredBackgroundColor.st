@@ -1,0 +1,3 @@
+itemHoveredBackgroundColor
+
+	^ Color transparent

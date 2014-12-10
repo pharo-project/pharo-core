@@ -1,0 +1,3 @@
+newBreadcrumbBrick
+
+	^ GTSpotterStepsBreadcrumb new

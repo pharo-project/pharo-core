@@ -1,0 +1,2 @@
+wantsToDisplayOnEmptyQuery: anObject
+	wantsToDisplayOnEmptyQuery := anObject

@@ -1,0 +1,1 @@
+A GTSpotterProcessorLink is xxxxxxxxx.Instance Variables	headLink:		<Object>	size:		<Object>	tailLink:		<Object>headLink	- xxxxxsize	- xxxxxtailLink	- xxxxx

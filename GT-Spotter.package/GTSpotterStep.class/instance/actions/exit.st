@@ -1,0 +1,2 @@
+exit
+	self spotter exit

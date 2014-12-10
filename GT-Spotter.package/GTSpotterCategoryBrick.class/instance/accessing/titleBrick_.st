@@ -1,0 +1,3 @@
+titleBrick: aBrick
+
+	titleBrick := aBrick

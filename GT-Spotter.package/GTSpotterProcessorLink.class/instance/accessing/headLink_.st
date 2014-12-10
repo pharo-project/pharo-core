@@ -1,0 +1,2 @@
+headLink: anObject
+	headLink := anObject

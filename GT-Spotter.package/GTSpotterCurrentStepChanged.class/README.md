@@ -1,0 +1,1 @@
+A GTSpotterCurrentStepChanged is xxxxxxxxx.

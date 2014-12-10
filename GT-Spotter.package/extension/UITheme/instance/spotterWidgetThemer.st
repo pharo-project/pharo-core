@@ -1,0 +1,2 @@
+spotterWidgetThemer
+	^ GTSpotterWidgetThemer new

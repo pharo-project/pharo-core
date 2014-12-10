@@ -1,0 +1,1 @@
+A GTSpotterUIThreadStream is xxxxxxxxx.Instance Variables	onAddedSelector:		<Object>	onRemoveSelector:		<Object>	receiver:		<Object>	timestamp:		<Object>onAddedSelector	- xxxxxonRemoveSelector	- xxxxxreceiver	- xxxxxtimestamp	- xxxxx
