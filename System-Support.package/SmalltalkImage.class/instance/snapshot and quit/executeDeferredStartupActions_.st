@@ -6,11 +6,14 @@ executeDeferredStartupActions: resuming
 	deferredStartupActions ifNil: [^ #()].
 	
 	errors := OrderedCollection new.	
-		
-	deferredStartupActions do: [:each |
-		self 
-			logStartUpErrorDuring: [ each cull: resuming ] 
-			into: errors
-			tryDebugger: self isInteractive].
+	
+
+	[ deferredStartupActions notEmpty ] 
+		whileTrue: [ | action |
+			action := deferredStartupActions removeFirst.
+			self 
+				logStartUpErrorDuring: [ action cull: resuming ] 
+				into: errors
+				tryDebugger: self isInteractive ].
 		
 	^ errors
