@@ -7,7 +7,7 @@ runPackagesTestsNotifying: aBoolean
 				ifTrue: [ 'Packages: ' ]
 				ifFalse: [ 'Package: ' ].
 			classes := packages gather: [:package | package definedClasses ].
-			classes := classes select: [:class | class inheritsFrom: TestCase ].
+			classes := classes select: [:class | class isTestCase ].
 			self runClassTests: classes notifying: false.
 			aBoolean
 				ifTrue: [ 

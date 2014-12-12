@@ -26,4 +26,10 @@ buildExtraShortcutsOn: aBuilder
 		default: $o command, $c command
 		do: [:target| target openClass ]
 		description: 'Open a new browser on a class'.
+		
+	(aBuilder shortcut: #toggleBytecodes)
+		category: #NautilusGlobalShortcuts
+		default: $b command, $b command
+		do: [ :target | target toggleBytecodes ] 
+		description: 'ToggleBytecodes'.
 	

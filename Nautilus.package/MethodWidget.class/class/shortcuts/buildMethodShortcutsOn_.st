@@ -78,3 +78,9 @@ buildMethodShortcutsOn: aBuilder
 		default: $x command
 		do: [ :target | target removeMethods ]
 		description: 'Remove the selected methods'.
+		
+	(aBuilder shortcut: #toggleBytecodes)
+		category: #NautilusMethodShortcuts
+		default: $b command
+		do: [ :target | target toggleBytecodes ]
+		description: 'ShowBytecodes'.

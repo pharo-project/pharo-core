@@ -1,6 +1,6 @@
 runClassTests: aCollection notifying: aBoolean
 
-	(aCollection allSatisfy: [:each | each inheritsFrom: TestCase ]) ifFalse: [ ^ self ].
+	(aCollection allSatisfy: [:each | each isTestCase ]) ifFalse: [ ^ self ].
 	
 	aCollection
 		ifNotEmpty:[:classes | 

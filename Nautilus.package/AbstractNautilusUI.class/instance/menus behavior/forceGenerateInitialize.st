@@ -1,7 +1,7 @@
 forceGenerateInitialize
 
 	self selectedClass ifNotNil: [:class || code index |
-		(class isMeta not and: [class inheritsFrom: TestCase])
+		(class isMeta not and: [class isTestCase])
 			ifTrue: [
 				index := 34.
 				code := self buildSetUpCodeFor: class.

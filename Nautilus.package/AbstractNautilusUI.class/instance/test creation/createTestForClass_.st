@@ -3,7 +3,7 @@ createTestForClass: aClass
 	| definition testClass className |
 
 	aClass ifNil: [ ^ nil ].
-	(aClass inheritsFrom: TestCase) ifTrue: [ ^ nil ].
+	aClass isTestCase ifTrue: [ ^ nil ].
 	aClass isMeta ifTrue: [ ^ nil ].
 
 	className := self buildTestClassNameFrom: aClass.

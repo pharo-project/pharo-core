@@ -110,6 +110,12 @@ elementsMenu: aBuilder
 	(aBuilder item: #'Inspect Method')
 		action: [ target inspectMethod ];
 		order: 1950.
+		
+	(aBuilder item: #'Toggle Bytecodes')
+		keyText: 'b, b' if: Nautilus useOldStyleKeys not;
+		keyText: 'b' if: Nautilus useOldStyleKeys;
+		action: [ target toggleBytecodes ];
+		order: 1970.
 			
 	(aBuilder item: #'File Out')
 		action: [ target fileOutMethods ];

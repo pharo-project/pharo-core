@@ -2,7 +2,7 @@ generateInitialize
 	
 	self selectedClass ifNotNil: [:class || code index category |
 		category := 'initialize'.
-		(class isMeta not and: [class inheritsFrom: TestCase])
+		(class isMeta not and: [class isTestCase])
 			ifTrue: [
 				index := 34.
 				(class includesSelector:  #setUp) 

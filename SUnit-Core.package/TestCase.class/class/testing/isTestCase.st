@@ -1,0 +1,2 @@
+isTestCase
+	^ true

@@ -33,7 +33,7 @@ packagesMenu: aBuilder
 		keyText: 'j, p' if: Nautilus useOldStyleKeys not;
 		keyText: 't' if: Nautilus useOldStyleKeys;
 		action: [target runPackagesTestsNotifying: true ];
-		enabled: (package classes anySatisfy: [:e | e inheritsFrom: TestCase ]);
+		enabled: (package classes anySatisfy: [:e | e isTestCase ]);
 		order: 1250;
 		help: 'Run tests';
 		withSeparatorAfter.

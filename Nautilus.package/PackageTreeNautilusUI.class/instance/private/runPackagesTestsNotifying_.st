@@ -8,7 +8,7 @@ runPackagesTestsNotifying: aBoolean
 		ifFalse: [ 'Package: ' ].
 		
 	classes := packages gather: [ :package | package asNautilusSelection definedClasses ].
-	classes := classes select: [ :class | class inheritsFrom: TestCase ].
+	classes := classes select: [ :class | class isTestCase ].
 	
 	self runClassTests: classes notifying: false.
 

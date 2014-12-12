@@ -3,30 +3,19 @@ correspondingMethods
 
 	self isTestMethod
 		ifTrue: [ 
-			| className selector selectors |
-			selector := self selector.
-			className := self methodClass name.
-			(self methodClass inheritsFrom: TestCase)
+			self methodClass isTestCase
 				ifTrue: [ 
-					| classSymbol correspondingClass tempSel correspondingSel result |
-					(selector beginsWith: 'test')
-						ifFalse: [ ^ {} ].
+					| classSymbol correspondingClass correspondingSel className selector |
+					selector := self selector.
+					className := self methodClass name.
+					(selector beginsWith: 'test') ifFalse: [ ^ #() ].
 					classSymbol := (className endsWith: 'Test')
-						ifTrue: [ className copyFrom: 1 to: className size - 4 ]
-						ifFalse: [ className ].
-					correspondingClass := self class environment at: classSymbol asSymbol ifAbsent: [ ^ {} ].
-					tempSel := selector copyFrom: 5 to: selector size.
-					correspondingSel := String
-						streamContents: [ :stream | 
-							tempSel
-								doWithIndex: [ :c :i | 
-									(c isUppercase and: [ i > 1 ])
-										ifTrue: [ stream << $: ].
-									stream << c ] ].
-					correspondingSel := correspondingSel contents.
-					selectors := correspondingClass selectors.
-					result := selectors
-						select: [ :each | each asLowercase = correspondingSel asLowercase or: [ each asLowercase = (correspondingSel , ':') asLowercase ] ].
-					^ result collect: [ :each | correspondingClass >> each ] ]
-				ifFalse: [ ^ {} ] ]
+						ifTrue: [ className allButLast: 4]
+						ifFalse: [ className ]. 
+					correspondingClass := self class environment at: classSymbol asSymbol ifAbsent: [ ^ #() ].
+					correspondingSel := (selector allButFirst: 4) transformSelectorForComparison.
+					^ correspondingClass selectors
+						select: [ :each | each asLowercase = correspondingSel asLowercase or: [ each asLowercase = (correspondingSel , ':') asLowercase ] ]
+						thenCollect: [ :each | correspondingClass >> each ] ]
+				ifFalse: [ ^ #() ] ]
 		ifFalse: [ ^ {self} ]
