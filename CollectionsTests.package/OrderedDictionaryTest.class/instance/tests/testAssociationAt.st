@@ -3,5 +3,5 @@ testAssociationAt
 
 	dictionary := self dictionaryWithSingleAssociation.
 	self
-		assert: (dictionary associationAt: self absentKey) = nil;
+		should: [dictionary associationAt: self absentKey] raise: Error;
 		assert: (dictionary associationAt: self singleKey) = self singleAssociation.

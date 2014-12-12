@@ -1,16 +1,15 @@
 testRemoveKey
 	| dictionary associationsToRemove |
 
-	(dictionary := self dictionaryWithAssociations)
-		defaultValue: self defaultValue.
-	self assert: (dictionary removeKey: self absentKey) = self defaultValue.
+	dictionary := self dictionaryWithAssociations.
+	self should: [dictionary removeKey: self absentKey] raise: Error.
 	associationsToRemove := self dictionaryAssociations asOrderedCollection.
 	[associationsToRemove notEmpty]
 		whileTrue: [ | removed |
 			removed := associationsToRemove removeFirst.
 			self
 				assert: (dictionary removeKey: removed key) = removed value;
-				assert: (dictionary removeKey: removed key) = self defaultValue;
+				should: [dictionary removeKey: removed key] raise: Error;
 				deny: (dictionary includesKey: removed key);
 				deny: (dictionary keys identityIncludes: removed key);
 				deny: (dictionary orderedKeys identityIncludes: removed key);

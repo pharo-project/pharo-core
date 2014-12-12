@@ -1,2 +1,2 @@
 keyAtValue: aValue
-	^ self keyAtValue: aValue ifAbsent: [defaultValue]
+	^ dictionary keyAtValue: aValue

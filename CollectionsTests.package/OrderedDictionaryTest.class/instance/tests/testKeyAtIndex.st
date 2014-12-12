@@ -1,16 +1,13 @@
 testKeyAtIndex
 	| dictionary |
 
-	(dictionary := self emptyDictionary)
-		defaultValue: self defaultValue.
 	self
-		assert: (dictionary keyAtIndex: 0) = self defaultValue;
-		assert: (dictionary keyAtIndex: 1) = self defaultValue.
+		should: [self emptyDictionary keyAtIndex: 0] raise: Error;
+		should: [self emptyDictionary keyAtIndex: 1] raise: Error.
 
-	(dictionary := self dictionaryWithAssociations)
-		defaultValue: self defaultValue.
+	dictionary := self dictionaryWithAssociations.
 	self dictionaryKeys withIndexDo: [:each :i |
 		self assert: (dictionary keyAtIndex: i) = each].
 	self
-		assert: (dictionary keyAtIndex: 0) = self defaultValue;
-		assert: (dictionary keyAtIndex: dictionary size + 1) = self defaultValue.
+		should: [dictionary keyAtIndex: 0] raise: Error;
+		should: [dictionary keyAtIndex: dictionary size + 1] raise: Error.

@@ -8,6 +8,3 @@ testSelect
 
 	(dictionary select: [:each | true]) at: self singleKey put: self newValue.
 	self deny: (dictionary at: self singleKey) = self newValue.
-
-	dictionary defaultValue: self defaultValue.
-	self assert: (dictionary select: [:each | true]) defaultValue = self defaultValue.

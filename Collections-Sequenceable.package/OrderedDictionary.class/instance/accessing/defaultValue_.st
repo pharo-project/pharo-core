@@ -1,2 +1,0 @@
-defaultValue: aDefaultValue
-	defaultValue := aDefaultValue

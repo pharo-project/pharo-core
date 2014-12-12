@@ -14,6 +14,3 @@ testAssociationsSelect
 		at: selectedAssociations anyOne key
 		put: self newValue.
 	self assertIsDictionary: dictionary withAssociations: selectedAssociations.
-
-	dictionary defaultValue: self defaultValue.
-	self assert: (dictionary associationsSelect: [:each | true]) defaultValue = self defaultValue.

@@ -1,1 +1,1 @@
-IdentityDictionary version that uses == instead of = for key comparing.
+An IdentityDictionary version that uses == instead of = for key comparing.

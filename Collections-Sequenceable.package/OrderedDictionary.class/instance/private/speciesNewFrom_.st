@@ -1,3 +1,2 @@
 speciesNewFrom: anAssociationCollection
-	^ (self species newFrom: anAssociationCollection)
-		defaultValue: defaultValue
+	^ self species newFrom: anAssociationCollection

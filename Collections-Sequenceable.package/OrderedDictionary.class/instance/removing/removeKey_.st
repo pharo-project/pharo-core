@@ -1,2 +1,3 @@
 removeKey: aKey
-	^ self removeKey: aKey ifAbsent: [defaultValue]
+	self deleteOrderedKey: aKey.
+	^ dictionary removeKey: aKey.

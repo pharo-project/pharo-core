@@ -1,2 +1,2 @@
 new: aCapacity
-	^ self new: aCapacity withDefaultValue: nil
+	^ self basicNew initialize: aCapacity

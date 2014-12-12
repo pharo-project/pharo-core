@@ -1,5 +1,5 @@
 Collection subclass: #OrderedDictionary
-	instanceVariableNames: 'dictionary orderedKeys defaultValue'
+	instanceVariableNames: 'dictionary orderedKeys'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Collections-Sequenceable'

@@ -1,2 +1,2 @@
 absentKey
-	^ self singleKey copy
+	^ self identityAbsentKey

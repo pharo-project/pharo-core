@@ -6,6 +6,4 @@ newFrom: anAssociationCollection
 		newDictionary
 			at: each key
 			put: each value].
-	(anAssociationCollection respondsTo: #defaultValue)
-		ifTrue: [newDictionary defaultValue: anAssociationCollection defaultValue].
 	^ newDictionary.

@@ -1,2 +1,2 @@
 associationAt: aKey
-	^ self associationAt: aKey ifAbsent: [nil]
+	^ dictionary associationAt: aKey

@@ -2,7 +2,6 @@ testKeyAtValue
 	| dictionary |
 
 	dictionary := self dictionaryWithSingleAssociation.
-	dictionary defaultValue: self defaultValue.
 	self
-		assert: (dictionary keyAtValue: self absentValue) = self defaultValue;
+		should: [dictionary keyAtValue: self absentValue] raise: Error;
 		assert: (dictionary keyAtValue: self singleValue) = self singleKey.

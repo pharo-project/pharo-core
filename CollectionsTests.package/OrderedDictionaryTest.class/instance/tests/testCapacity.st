@@ -3,16 +3,12 @@ testCapacity
 	change in the future, but it likely won't ever be less than specified, so a >= test is used instead."
 	| defaultCapacity |
 
-	defaultCapacity := self internalDictionaryClass new capacity.
+	defaultCapacity := self defaultCapacity.
 	self
 		assert: (self dictionaryClass new) capacity >= defaultCapacity;
-		assert: (self dictionaryClass defaultValue: nil) capacity >= defaultCapacity;
 		assert:
 			(self dictionaryClass new: (defaultCapacity / 2) asInteger) capacity >=
 				(defaultCapacity / 2) asInteger;
-		assert:
-			(self dictionaryClass new: defaultCapacity * 2 withDefaultValue: nil) capacity >=
-				(defaultCapacity * 2);
 		assert:
 			(self dictionaryClass newFrom: self dictionaryAssociations)
 				capacity >= self dictionaryAssociations size.

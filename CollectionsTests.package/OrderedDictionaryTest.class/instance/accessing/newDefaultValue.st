@@ -1,2 +1,0 @@
-newDefaultValue
-	^ 'newDefaultValue'
