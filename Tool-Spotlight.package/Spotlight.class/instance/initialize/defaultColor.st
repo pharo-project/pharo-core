@@ -1,2 +1,0 @@
-defaultColor 
-	^ self theme spotlightWindowColor.

@@ -1,3 +1,0 @@
-isGlobalCategory
-
-	^ true

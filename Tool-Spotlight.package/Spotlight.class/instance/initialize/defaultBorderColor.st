@@ -1,2 +1,0 @@
-defaultBorderColor
-	^ self theme windowColor 

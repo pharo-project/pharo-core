@@ -8,5 +8,5 @@ printSelfOn: aStream
 				aStream nextPutAll: '----|']]
 		ifFalse: [
 			aStream 
-				nextPutAll: (self align asString padded: #left to: 4 with: $ );
+				nextPutAll: (self align asString padLeftTo: 4 with: $ );
 				nextPut: $|]

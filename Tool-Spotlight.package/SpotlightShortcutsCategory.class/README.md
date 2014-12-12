@@ -1,1 +1,0 @@
-A shortcut for spotlight
