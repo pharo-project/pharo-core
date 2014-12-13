@@ -19,7 +19,7 @@ versionsBrowserListMenu: aBuilder
 				selector: #compareToOtherVersion.
 			(aBuilder item: #'Revert to selected version')
 				help: 'Resubmit the selected version, so that it becomes the current version';
-				action: [ model revert: message ]].
+				action: [ model revert: browser selectedItem ]].
 	(aBuilder item: #Senders)
 		keyText: 'n';
 		help: 'Browse all senders of this selector';

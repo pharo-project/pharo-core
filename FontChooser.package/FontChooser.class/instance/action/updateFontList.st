@@ -1,3 +1,4 @@
 updateFontList
 	FreeTypeFontProvider current updateFromSystem.
-	self refreshFontList
+	self refreshFontList.
+	self changed:#fontListStrings.
