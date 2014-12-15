@@ -11,7 +11,7 @@ resolveType: aTypeName
 	ptrArity := 0.
 	"resolve aliases and pointers"	
 	[
-		name := newName trimRight.  
+		name := newName asString trimRight.  
 		newName := self aliasForType: name.
 		newName last = $* ifTrue: [
 			ptrArity := ptrArity + 1.

@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '14604 Revert to previous version  in method versions list doesnt work
-	https://pharo.fogbugz.com/f/cases/14604
+ ^ '14627 Taskbar > Close all > windows to right
+	https://pharo.fogbugz.com/f/cases/14627
 
-1610 Font browser button "Update" does load fonts but font list is not updated
-	https://pharo.fogbugz.com/f/cases/1610'
+14626 Fix is required in NBFFICallout>>resolveType: to pass NBSQLite3s tests
+	https://pharo.fogbugz.com/f/cases/14626'

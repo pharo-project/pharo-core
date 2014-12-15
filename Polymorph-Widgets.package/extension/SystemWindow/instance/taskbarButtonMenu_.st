@@ -43,6 +43,12 @@ taskbarButtonMenu: aMenu
 		icon: self theme windowCloseForm
 		subMenu: submenu.
 	submenu
+		addToggle: 'windows to right' translated
+		target: self
+		selector: #taskbarCloseAllToRight
+		getStateSelector: nil
+		enablementSelector: true.
+	submenu
 		addToggle: 'unchanged windows' translated
 		target: World
 		selector: #closeAllUnchangedWindows
