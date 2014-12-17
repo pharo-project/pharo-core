@@ -1,4 +1,4 @@
-Object subclass: #ManifestKernel
+PackageManifest subclass: #ManifestKernel
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

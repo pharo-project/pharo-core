@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '14627 Taskbar > Close all > windows to right
-	https://pharo.fogbugz.com/f/cases/14627
+ ^ '14628 Wrong clipping bounds in Morphic widget Tab
+	https://pharo.fogbugz.com/f/cases/14628
 
-14626 Fix is required in NBFFICallout>>resolveType: to pass NBSQLite3s tests
-	https://pharo.fogbugz.com/f/cases/14626'
+14600 ManifestKernel should be a subclass of PackageManifest
+	https://pharo.fogbugz.com/f/cases/14600
+
+13248 Run test menu option from text area does not work
+	https://pharo.fogbugz.com/f/cases/13248'
