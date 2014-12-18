@@ -5,13 +5,11 @@ initializeWidgets
 		#cancel -> #ButtonModel.
 		"#granularity -> #DropListModel."
 		#autoSubmit -> #CheckBoxModel.
+		#help -> #ImageModel.
 		#stack -> #TextModel "#SpecDebuggerStack"
 	}.
-	sendButton label: 'Send' translated.
-	cancel label: 'Cancel' translated.
 	
-	"self initializeGranularity."
-	self initializeAutoSubmit.
-		
+	self initializeControls.
+	
 	"stacktrace := self newList.
 	stacktrace items: Smalltalk allClasses."

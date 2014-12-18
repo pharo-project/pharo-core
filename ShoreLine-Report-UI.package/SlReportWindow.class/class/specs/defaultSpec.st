@@ -9,5 +9,6 @@ defaultSpec
 				add: #cancel ] height: 26;
 			newRow: [ :row | row
 				"add: #granularity;"
-				add: #autoSubmit ] height: 26;
+				add: #autoSubmit;
+				add: #help width: 16 ] height: 20;
 			newRow: #(stack) ]
