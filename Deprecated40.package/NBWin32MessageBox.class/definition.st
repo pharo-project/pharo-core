@@ -1,5 +1,5 @@
-Object subclass: #NBWin32Caret
+Object subclass: #NBWin32MessageBox
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: 'NBWinConstants NBWinTypes'
-	category: 'NativeBoost-Win32'
+	category: 'Deprecated40'

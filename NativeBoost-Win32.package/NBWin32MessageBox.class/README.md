@@ -1,1 +1,0 @@
-A NBWin32MessageBox is xxxxxxxxx.

@@ -1,5 +1,5 @@
-NBWin32Handle subclass: #NBWin32Process
+Object subclass: #NBWin32Caret
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: 'NBWinConstants NBWinTypes'
-	category: 'NativeBoost-Win32'
+	category: 'Deprecated40'

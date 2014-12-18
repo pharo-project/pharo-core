@@ -7,5 +7,5 @@ invokeAt: aPoint in: aWorld allowKeyboard: aBoolean
 	w := aWorld outermostWorldMorph. "containing hand"
 	[self isInWorld] whileTrue: [w doOneSubCycle].
 	self delete.
-	originalFocusHolder ifNotNil: [aWorld primaryHand newKeyboardFocus: originalFocusHolder].
+	self restoreFocus: originalFocusHolder in: aWorld.
 	^ selectedItem ifNotNil: [selectedItem target]

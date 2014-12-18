@@ -8,5 +8,5 @@ invokeModalAt: aPoint in: aWorld allowKeyboard: aBoolean
 	w := aWorld outermostWorldMorph. "containing hand"
 	[self isInWorld and: [ self isModalInvokationDone not ] ] whileTrue: [w doOneSubCycle].
 	self delete.
-	originalFocusHolder ifNotNil: [aWorld primaryHand newKeyboardFocus: originalFocusHolder].
+	self restoreFocus: originalFocusHolder in: aWorld.
 	^ self modalSelection

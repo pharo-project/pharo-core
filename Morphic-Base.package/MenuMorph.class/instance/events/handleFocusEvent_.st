@@ -11,5 +11,6 @@ handleFocusEvent: evt
 	evt isMove ifFalse:[^self handleEvent: evt]. "handle clicks outside by regular means"
 	"Now it's getting tricky. On #mouseMove we might transfer control to *either* the currently active submenu or the pop up owner, if any. Since the active sub menu is always displayed upfront check it first."
 	selectedItem ifNotNil:[(selectedItem activateSubmenu: evt) ifTrue:[^self]].
-	"Note: The following does not traverse upwards but it's the best I can do for now"
-	popUpOwner ifNotNil:[(popUpOwner activateOwnerMenu: evt) ifTrue:[^self]].
+	"If we aren't under the hand anymore, transfer to the owner"
+   (self fullContainsPoint: evt position) ifFalse:[
+	popUpOwner ifNotNil:[(popUpOwner activateOwnerMenu: evt) ifTrue:[^self]]]
