@@ -1,2 +1,2 @@
 packagePattern
-	^ packagePattern ifNil: [ nil ]
+	^ packagePattern

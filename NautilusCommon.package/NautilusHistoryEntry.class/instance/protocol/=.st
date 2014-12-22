@@ -5,7 +5,7 @@
 		self selectedGroup = anotherWrapper selectedGroup and: [
 		self selectedClass = anotherWrapper selectedClass and: [
 		self selectedCategory = anotherWrapper selectedCategory and: [
-		self selectedMethod = anotherWrapper selectedMethod and: [
+		self selectedSelector = anotherWrapper selectedSelector and: [
 		self showHierarchy = anotherWrapper showHierarchy and: [
 		self showInstance = anotherWrapper showInstance and: [
 		self showGroups = anotherWrapper showGroups and: [

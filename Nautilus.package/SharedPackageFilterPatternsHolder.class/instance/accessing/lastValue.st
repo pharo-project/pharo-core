@@ -1,0 +1,2 @@
+lastValue
+	^ mutex critical: [ lastValue ]

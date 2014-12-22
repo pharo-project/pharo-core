@@ -4,8 +4,8 @@ with: aNautilus
 		selectedPackage: aNautilus selectedPackage;
 		selectedCategory: aNautilus selectedCategory.
 		aNautilus selectedMethod
-			ifNil: [ self selectedMethod: nil ]
-			ifNotNil: [:met | self selectedMethod: met selector].
+			ifNil: [ self selectedSelector: nil ]
+			ifNotNil: [:met | self selectedSelector: met selector].
 	self
 		selectedClass: aNautilus selectedClass;
 		selectedGroup: aNautilus selectedGroup;

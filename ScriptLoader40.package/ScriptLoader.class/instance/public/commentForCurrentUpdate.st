@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '14637 Deprecate some NBWin32xxxx classes in favour of external OS-Windows package
-	https://pharo.fogbugz.com/f/cases/14637
+ ^ '14634 Package Filter in Nautilus should use the last used filter when a new window is opened
+	https://pharo.fogbugz.com/f/cases/14634
 
-13269 MenuMorph invokeModal restores focus
-	https://pharo.fogbugz.com/f/cases/13269
+14620 Jump from history entry does not work
+	https://pharo.fogbugz.com/f/cases/14620
 
-5809 Overlapping sub-MenuMorphs do not hold focus
-	https://pharo.fogbugz.com/f/cases/5809'
+14630 Pipes method highlighting 
+	https://pharo.fogbugz.com/f/cases/14630'

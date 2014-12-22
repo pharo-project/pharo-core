@@ -4,7 +4,7 @@ applyTo: aNautilus
 		selectedPackage: self selectedPackage;
 		selectedClass: selectedClass;
 		selectedCategory: self selectedCategory.
-	aNautilus selectedMethod: nil.
+	aNautilus selectedMethod: self selectedMethod.
 	aNautilus browsingHistory
 		pauseDuring: [ 
 			aNautilus
@@ -24,5 +24,5 @@ applyTo: aNautilus
 				selectedClassWithoutChangingSelectionInternally: selectedClass;
 				selectedCategoryInternally: self selectedCategory.
 			interface updatePackageGroupAndClassList.
-			interface selectedMethod: nil.
+			interface selectedMethod: self selectedMethod.
 			interface updateCategoryAndMethodList ]

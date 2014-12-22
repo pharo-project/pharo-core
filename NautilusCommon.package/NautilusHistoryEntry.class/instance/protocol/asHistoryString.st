@@ -12,7 +12,7 @@ asHistoryString
 							self selectedClass
 								ifNotNil: [ :c | 
 									s << separator << c name.
-									self selectedMethod ifNotNil: [ :m | s << separator << m asString ] ] ] ] ]
+									self selectedSelector ifNotNil: [ :m | s << separator << m asString ] ] ] ] ]
 		ifFalse: [ 
 			String
 				streamContents: [ :s | 
@@ -21,5 +21,5 @@ asHistoryString
 							self selectedClass
 								ifNotNil: [ :c | 
 									s << c name.
-									self selectedMethod ifNotNil: [ :m | s << separator << m asString ] ] ] ] ].
+									self selectedSelector ifNotNil: [ :m | s << separator << m asString ] ] ] ] ].
 	^ label

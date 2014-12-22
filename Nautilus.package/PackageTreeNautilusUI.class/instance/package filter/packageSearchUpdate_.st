@@ -1,5 +1,4 @@
-packageSearchUpdate: aPattern
-	packagePattern := (aPattern isNil or: [ aPattern trimBoth isEmpty ])
-		ifTrue: [ nil ]
-		ifFalse: [ self ensureSafePackagePattern: aPattern ].
+packageSearchUpdate: aPatternString
+	packagePattern := self createPackagePattern: aPatternString.
+	SharedPackageFilterPatternsHolder instance lastValue: aPatternString.
 	self updatePackages

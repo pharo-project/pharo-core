@@ -6,11 +6,12 @@ buildPackageSearch
 		model: self;
 		updateSelector: #packageSearchUpdate:;
 		ghostText: 'Type: Pkg1|^Pkg2|Pk.*Core$';
-		list: SharedValueHolder instance;
+		list: SharedPackageFilterPatternsHolder instance;
 		useSelectionIndex: false;
 		setIndexSelector: #packageSearchUpdate:;
 		yourself.
 		
+	searchWidget contentMorph autoAccept: true.
 	textMorph := searchWidget contentMorph textMorph.	
 	self setShortcuts: #NautilusGlobalShortcuts to: textMorph.
 	textMorph bindKeyCombination: Character tab asKeyCombination toAction: [ textMorph navigateFocusForward ].

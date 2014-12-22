@@ -1,5 +1,2 @@
 packageMatchPattern: aRPackage 
-	
-	^ self packagePattern 
-		ifNil: [ true ]
-		ifNotNil: [ :pattern | pattern search: aRPackage name ]
+	^ self package: aRPackage matchPackagePattern: self packagePattern

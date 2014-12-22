@@ -6,5 +6,6 @@ openInEnvironment: anEnvironment
 		browsedEnvironment: anEnvironment;
 		open.
 	instance ui 
+		useLastPackagePatternString;
 		showHierarchy: self switchClassesAndPackages.
 	^ instance

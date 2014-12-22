@@ -12,6 +12,7 @@ openOnClass: aClass inEnvironment: anEnvironment
 			method: nil;
 	 	open.
 	 instance ui 
+		useLastPackagePatternStringForClass: aClass;
 		showHierarchy: self switchClassesAndPackages;
 		giveFocusToProtocol.
 	^ instance

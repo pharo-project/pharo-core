@@ -1,0 +1,2 @@
+useLastPackagePatternString
+	self packagePatternString: SharedPackageFilterPatternsHolder instance lastValue
