@@ -1,1 +1,1 @@
-A GTSpotterCandidateLink is xxxxxxxxx.Instance Variables	processorLink:		<Object>	weight:		<Object>processorLink	- xxxxxweight	- xxxxx
+A GTSpotterCandidateLink is xxxxxxxxx.Instance Variables	processorLink:		<Object>	renderingProcessorLink:		<Object>	weight:		<Object>processorLink	- xxxxxrenderingProcessorLink	- xxxxxweight	- xxxxx

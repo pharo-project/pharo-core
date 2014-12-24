@@ -1,3 +1,3 @@
 processor
 
-	^ self processorLink value key
+	^ self processorLink value

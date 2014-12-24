@@ -1,4 +1,4 @@
-GLMBandBrick subclass: #GLMMorphBrick
+GLMBrick subclass: #GLMMorphBrick
 	instanceVariableNames: 'morph'
 	classVariableNames: ''
 	poolDictionaries: ''

@@ -1,0 +1,3 @@
+renderingProcessor: aProcessorLink
+
+	renderingProcessorLink := aProcessorLink

@@ -1,4 +1,4 @@
 unsubscribeListeners
 
-	self activeHand removeMouseListener: self.
+	self activeHand removeEventListener: self.
 	Morph announcer unsubscribe: self.

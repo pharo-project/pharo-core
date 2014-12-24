@@ -6,4 +6,4 @@ version125: spec
 		spec description: 'version 1.2.5'.
 		spec author: 'AndreiChis'.
 		spec timestamp: '12/07/2014 13:58'.
-		spec package: 'Rubric' with: 'Rubric-AlainPlantec.155'. ].
+		spec package: 'Rubric' with: 'Rubric-AlainPlantec.154'. ].

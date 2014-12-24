@@ -1,1 +1,0 @@
-A GTInspectorPragmaFilterStrategy is xxxxxxxxx.Instance Variables	allPragmaKeys:		<Object>	defaultPragmaKey:		<Object>	selectedPragmaKeys:		<Object>allPragmaKeys	- xxxxxdefaultPragmaKey	- xxxxxselectedPragmaKeys	- xxxxx

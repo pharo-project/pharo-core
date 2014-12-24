@@ -1,5 +1,5 @@
 GTInspectorPresentationFilterStrategy subclass: #GTInspectorMethodListFilterStrategy
-	instanceVariableNames: 'methodSignatures'
+	instanceVariableNames: 'allMethodSignatures selectedMethodSignatures'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-Inspector'

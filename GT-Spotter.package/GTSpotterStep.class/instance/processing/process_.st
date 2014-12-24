@@ -12,6 +12,8 @@ process: aString
 	self stream updateTimestamp.
 	
 	self asyncTask
-		execute: [ :input | self stream removeAllCandidates. self processors do: [ :processor | processor filter: input on: self stream ] ]
+		execute: [ :input | 
+				self stream removeAllCandidates. 
+				self relevantProcessorsProcess: input ]
 		withArguments: { self query }
 		callback: [  ].

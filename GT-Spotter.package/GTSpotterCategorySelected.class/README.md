@@ -1,0 +1,1 @@
+A GTSpotterCategorySelected is xxxxxxxxx.

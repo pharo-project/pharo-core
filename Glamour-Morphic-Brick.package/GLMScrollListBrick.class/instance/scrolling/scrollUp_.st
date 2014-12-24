@@ -1,6 +1,7 @@
 scrollUp: anInteger
-
+	|delta|
+	delta := anInteger.
 	((self getIndex: self band firstSubbrick) = 1) ifTrue: [
-		(self band brickBounds origin y >= self band firstSubbrick brickBounds top) ifTrue: [ ^ self ] ].
+		delta := self band firstSubbrick brickBounds top - self band brickBounds origin y ].
 	
-	self band brickBounds: (self band brickBounds translateBy: (0@ anInteger))
+	self band brickBounds: (self band brickBounds translateBy: (0@ delta))

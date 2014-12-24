@@ -2,7 +2,7 @@ example
 	|adaptor|
 	adaptor := nil.
 	adaptor := GLMBrickListAdaptor new
-		sizeLogic: [ 4000000000 ];
+		sizeLogic: [ 2000 ];
 		morphAtLogic: [ :index :morph | 
 			(morph ifNil: [ GLMLabelBrick new ])
 				color: Color random muchLighter;

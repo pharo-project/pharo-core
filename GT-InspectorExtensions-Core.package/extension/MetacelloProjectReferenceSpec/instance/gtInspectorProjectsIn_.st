@@ -5,7 +5,7 @@ gtInspectorProjectsIn: composite
 		display: [
 			| projects |
 			projects := OrderedCollection new.
-			(ConfigurationOfGlamour project version: #development) spec 
+			self
 					projectDo: [:prj | projects add: prj ] 
 					packageDo: [:pkg | ] 
 					groupDo: [:ignored | ].

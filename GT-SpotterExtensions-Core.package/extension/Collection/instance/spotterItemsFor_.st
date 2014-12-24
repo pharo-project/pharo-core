@@ -3,7 +3,7 @@ spotterItemsFor: aStep
 	^ aStep listProcessor
 		title: 'Items';
 		candidatesLimit: 100;
-		allCandidates: [ self ];
-		itemName: [ :each | each gtDisplayString ];
+		allCandidates: [ OrderedCollection newFrom: (self collect: [ :each | each copy ])];
+		itemName: [ :each | each renderingProcessor itemNameFor: each value ];
 		matchSubstring;
 		wantsToDisplayOnEmptyQuery: true

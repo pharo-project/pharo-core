@@ -1,7 +1,7 @@
 initialize
 	super initialize.
 	
-	"self presentationsFilter: (GTInspectorPragmaFilterStrategy new
-			defaultInspectorPragmaKey: #gtInspectorTagCustom;
-			addPragmaKey: #gtInspectorTagBasic;
-			addPragmaKey: #gtInspectorTagCustom)"
+	"self presentationsFilter: (GTInspectorTagFilterStrategy new
+			defaultTag: #custom;
+			addAndSelectTag: #basic;
+			addAndSelectTag: #custom)"

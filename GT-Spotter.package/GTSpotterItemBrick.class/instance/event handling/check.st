@@ -2,4 +2,4 @@ check
 
 	self showActionbar.
 	super check.
-	self notifySelected.
+	self notifySelected

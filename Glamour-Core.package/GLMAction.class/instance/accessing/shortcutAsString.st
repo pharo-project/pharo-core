@@ -1,10 +1,8 @@
 shortcutAsString 
 	"Answers a string explaining shortcut"
-	^self shortcut isNil
-		ifTrue: ['']
-		ifFalse: [
-			'alt+', 
-				(self shortcut isUppercase 
-					ifTrue: [ 'shift+' ]
-					ifFalse: [ '' ]), 
-				self shortcut asLowercase asString ]
+	self shortcut ifNil: [ ^ '' ].
+	^ String streamContents: [ :stream |
+		stream << Smalltalk os menuShortcutModifierString << '+'.
+		self shortcut isUppercase 
+			ifTrue: [ stream << 'shift+' ].
+		stream << self shortcut asLowercase asString ]

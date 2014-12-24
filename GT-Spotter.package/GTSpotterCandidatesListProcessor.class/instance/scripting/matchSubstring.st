@@ -15,10 +15,10 @@ matchSubstring
 						index = 1 
 							ifTrue: [ 
 									prefixMatchers add: each.
-									prefixMatchers size > 5 ifFalse: [ 
+									prefixMatchers size > self candidatesLimit ifFalse: [ 
 										stream addObject: each inProcessor: self ]]
 							ifFalse: [ rest add: each ]]].
-				(prefixMatchers size < 5) ifTrue: [ 
-					(rest first: ((5 - prefixMatchers size) min: rest size)) do: [ :each |
+				(prefixMatchers size < self candidatesLimit) ifTrue: [ 
+					(rest first: ((self candidatesLimit - prefixMatchers size) min: rest size)) do: [ :each |
 						stream addObject: each inProcessor: self ] ].
 				prefixMatchers , rest ] ]
