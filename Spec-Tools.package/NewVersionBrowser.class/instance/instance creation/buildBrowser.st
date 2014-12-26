@@ -7,7 +7,7 @@ buildBrowser
 	
 	b := browser
 		messages: changeList;
-		title: 'Recent versions of ' , class name , '>>' , selector;
+		title: 'Recent versions of ' , rgMethod asString;
 		openWithSpec.
 		
 	self showDiffMorphWithConverter: (DiffMorphChangeRecordConverter 

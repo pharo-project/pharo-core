@@ -1,12 +1,9 @@
 buildChangeList
-	| method |
-	
-	(class isNil or: [ selector isNil ])	ifTrue: [ ^ #() ].
-	method := (class>>selector).
+	rgMethod sourcePointer ifNil:[^#[]].
 		
 	^ self
-		scanVersionsOf: method
-		class: class theNonMetaClass
-		meta: class isMeta
-		category: method category
-		selector: selector.
+		scanVersionsOf: rgMethod
+		class: rgMethod realClass theNonMetaClass
+		meta: rgMethod realClass isMeta
+		category: rgMethod category
+		selector: rgMethod selector.

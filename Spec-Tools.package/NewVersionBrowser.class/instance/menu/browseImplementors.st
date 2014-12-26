@@ -1,2 +1,2 @@
 browseImplementors
-	SystemNavigation new browseAllImplementorsOf: selector
+	SystemNavigation new browseAllImplementorsOf: rgMethod selector

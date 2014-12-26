@@ -1,3 +1,3 @@
 selectedMethod
 	selectedSelector ifNil: [ ^ nil ].
-	^ selectedClass ifNil: [ nil ] ifNotNil: [ selectedClass >> selectedSelector ]
+	^ selectedClass ifNil: [ nil ] ifNotNil: [ selectedClass compiledMethodAt: selectedSelector ifAbsent: [ nil ] ]

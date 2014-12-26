@@ -1,2 +1,2 @@
 compareToCurrentVersion
-	self compareTo: class >> selector withLabel:'current version'
+	self compareTo: rgMethod withLabel:'current version'

@@ -1,2 +1,2 @@
 browseSenders
-	SystemNavigation new browseSendersOf: selector name: 'Senders of ' , selector autoSelect: selector
+	SystemNavigation new browseSendersOf: rgMethod selector name: 'Senders of ' , rgMethod selector autoSelect: rgMethod selector
