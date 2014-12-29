@@ -8,5 +8,5 @@ testPushThisContext
 		returnTop;
 		compiledMethod.
 
-	self testMethod: cm against:  '13 <89> pushThisContext: 
+	self testMethod: cm against:  '13 <89> pushThisContext
 14 <7C> returnTop'

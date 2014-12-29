@@ -1,9 +1,8 @@
 commentForCurrentUpdate
- ^ '14644 Make NewVersionBrowser using a RingDefinition instead of class/selector
-	https://pharo.fogbugz.com/f/cases/14644
+ ^ '14659 Integrating new bytecode set (part 1)
+	https://pharo.fogbugz.com/f/cases/14659
 
-14648 Include CubeHelix gradient definition
-	https://pharo.fogbugz.com/f/cases/14648
+14660 one test failing after integrating 14659
+	https://pharo.fogbugz.com/f/cases/14660
 
-14653 removeing or renaming raises an exception
-	https://pharo.fogbugz.com/f/cases/14653'
+'
