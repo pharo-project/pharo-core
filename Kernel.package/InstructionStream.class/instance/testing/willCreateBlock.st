@@ -1,4 +1,4 @@
 willCreateBlock
 	"next bytecode is a block creation"
 
-	^ (self method at: pc) =  143
+	^ self method encoderClass isCreateBlockAt: pc in: self method

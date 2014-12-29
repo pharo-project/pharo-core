@@ -1,3 +1,3 @@
 willBlockReturn
 
-	^ (self method at: pc) =  125
+	^ self method encoderClass isBlockReturnAt: pc in: self method

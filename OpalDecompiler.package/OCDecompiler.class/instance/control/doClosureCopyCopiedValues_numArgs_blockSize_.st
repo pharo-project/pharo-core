@@ -5,7 +5,7 @@ doClosureCopyCopiedValues: blockCopiedValues numArgs: numArgs blockSize: blockSi
 	savedTempVarCount := tempVarCount.
 	savedNumLocalTemps := numLocalTemps.
 	jump := blockSize + (startpc := pc).
-	numLocalTemps := BlockLocalTempCounter tempCountForBlockAt: pc - 4 in: method.
+	numLocalTemps := method encoderClass numLocalTempsForBlockAt: startpc in: method.
 	blockTempsOffset := numArgs + blockCopiedValues size.
 	(blockStartsToTempVars notNil "implies we were intialized with temp names."
 	 and: [blockStartsToTempVars includesKey: pc])

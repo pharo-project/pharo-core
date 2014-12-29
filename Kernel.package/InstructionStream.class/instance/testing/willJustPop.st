@@ -1,3 +1,3 @@
 willJustPop
 
-	^ (self method at: pc) = 135
+	^ self method encoderClass isJustPopAt: pc in: self method
