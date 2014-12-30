@@ -16,7 +16,7 @@ Then what we do is to run that compiled method with the receiver and arguments w
 	arguments size > 8 
 		ifTrue: [ ^ self class primitiveFailToken ].
 	theMethod := self class tryNamedPrimitiveTemplateMethod.
-	self setNumArgs: arguments size toMethod: theMethod.
+	theMethod prepareForSimulationWith: arguments size.
 	theMethod == nil 
 		ifTrue: [ ^ self class primitiveFailToken ].
 	self setNamedPrimitiveInformationFrom: aCompiledMethod toMethod: theMethod.
