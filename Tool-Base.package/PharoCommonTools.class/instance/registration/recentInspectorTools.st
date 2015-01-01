@@ -1,0 +1,2 @@
+recentInspectorTools
+	^ self recentToolsFor: #inspector

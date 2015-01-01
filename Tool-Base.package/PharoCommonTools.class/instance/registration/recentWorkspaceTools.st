@@ -1,0 +1,2 @@
+recentWorkspaceTools
+	^ self recentToolsFor: #workspace

@@ -1,0 +1,2 @@
+recentChangeSorterTools
+	^ self recentToolsFor: #changeSorter

@@ -1,0 +1,2 @@
+messageListTool
+	^ self messageList

@@ -1,4 +1,4 @@
 tools
 
 	^ Tools ifNil: [
-		Tools := ToolRegistry new ]
+		Tools := PharoCommonTools new ]

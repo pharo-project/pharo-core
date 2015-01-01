@@ -1,0 +1,2 @@
+debuggerTool
+	^ self debugger

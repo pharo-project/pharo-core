@@ -1,5 +1,5 @@
 changeRecordsFrom: initialSourcePointer className: theNonMetaClassName isMeta: classIsMeta do: aUnaryBlock
-	"Evaluate aUnaryBlock with each of the ChangeRecords of a method, starting from the initialSourcePointer. 
+	"Evaluate aUnaryBlock with each of the ChangeRecords of a method or class comment, starting from the initialSourcePointer. 
 	Most recent changes are evaluated first."
 
 	| filePosition fileIndex |
@@ -22,10 +22,10 @@ changeRecordsFrom: initialSourcePointer className: theNonMetaClassName isMeta: c
 
 				previousFilePosition := nil.
 				stamp := ''.
+				"method records"
 				(preamble includesSubstring: 'methodsFor:')
 					ifTrue: [ preambleTokens := preamble parseLiterals ]
 					ifFalse: [ preambleTokens := Array new	"ie cant be back ref" ].
-
 				((preambleTokens size between: 7 and: 8) and: [ (preambleTokens at: preambleTokens size - 5) = #methodsFor: ])
 					ifTrue: [ 
 						(preambleTokens at: preambleTokens size - 3) = #stamp:
@@ -48,21 +48,40 @@ changeRecordsFrom: initialSourcePointer className: theNonMetaClassName isMeta: c
 							ifTrue: [ 
 								"New format gives change stamp and unified prior pointer"
 								stamp := preambleTokens at: preambleTokens size ] ].
-						
-				protocol := preambleTokens 
-					after: #methodsFor: 
-					ifAbsent: [ Protocol unclassified ].
-
-				aUnaryBlock value: (
-					ChangeRecord new
-						file: file
-						position: filePosition
-						type: #method
-						class: theNonMetaClassName
-						category: protocol
-						meta: classIsMeta
-						stamp: stamp).
-
+				"class comment records"
+				(preamble includesSubstring: 'commentStamp:')
+					ifTrue: [ preambleTokens := preamble parseLiterals ].
+				((preambleTokens size = 5 or: [ preambleTokens size = 3 ]) and: [ (preambleTokens at: 2) = #commentStamp: ])
+					ifTrue: [ 
+						stamp := preambleTokens at: 3.
+						preambleTokens size > 3
+							ifTrue: [ 
+								previousFilePosition := preambleTokens last.
+								previousFileIndex := self fileIndexFromSourcePointer: previousFilePosition.
+								previousFilePosition := self filePositionFromSourcePointer: previousFilePosition ].
+						aUnaryBlock
+							value:
+								(ChangeRecord new
+									file: file
+									position: filePosition
+									type: #classComment
+									class: theNonMetaClassName
+									category: nil
+									meta: classIsMeta
+									stamp: stamp) ]
+					ifFalse: [ 
+						protocol := preambleTokens after: #methodsFor: ifAbsent: [ Protocol unclassified ].
+						aUnaryBlock
+							value:
+								(ChangeRecord new
+									file: file
+									position: filePosition
+									type: #method
+									class: theNonMetaClassName
+									category: protocol
+									meta: classIsMeta
+									stamp: stamp) ].
+									
 				filePosition := previousFilePosition.
 				previousFilePosition ifNotNil: [ 
 					file := sourceFilesCopy 

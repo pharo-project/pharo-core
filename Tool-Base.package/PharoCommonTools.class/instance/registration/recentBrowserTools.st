@@ -1,0 +1,2 @@
+recentBrowserTools
+	^ self recentToolsFor: #browser

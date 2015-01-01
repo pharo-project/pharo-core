@@ -1,0 +1,2 @@
+recentMessageListTools
+	^ self recentToolsFor: #messageList
