@@ -1,6 +1,4 @@
 description
-
 	description isNil
-		ifTrue: [^''].
-
-	^description
+		ifTrue: [ ^ '' ].
+	^ description

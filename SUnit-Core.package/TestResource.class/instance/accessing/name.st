@@ -1,5 +1,3 @@
 name
-
-	name ifNil: [^self printString].
-
-	^name
+	name ifNil: [ ^ self printString ].
+	^ name

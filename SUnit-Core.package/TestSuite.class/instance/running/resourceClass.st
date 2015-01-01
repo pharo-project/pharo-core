@@ -1,3 +1,3 @@
 resourceClass
 
-	^TestResource
+	^ TestResource
