@@ -2,7 +2,9 @@ handleEvent: anEvent
 	| evt  |
 	owner ifNil:[^self].
 	evt := anEvent.
-	self logEventStats: evt.
+	
+	"nil test here is for efficiency in the normal case"
+	EventStats ifNotNil: [ self class logEventStats: evt ]. 
 	
 	evt isMouse ifTrue:[
 		 "just for record, to be used by capture block" 

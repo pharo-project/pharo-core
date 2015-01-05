@@ -1,7 +1,7 @@
 fromIEEE32Bit: word
 	"Convert the given 32 bit word (which is supposed to be a positive 32bit value) from a 32bit IEEE floating point representation into an actual Pharo float object (being 64bit wide). Should only be used for conversion in FloatArrays or likewise objects."
 	
-	| sign mantissa exponent newFloat delta |
+	| sign mantissa exponent newFloat shiftToNormalize |
 	word negative ifTrue: [^ self error:'Cannot deal with negative numbers'].
 	word = 0 ifTrue: [^ 0.0].
 	sign := word bitAnd: 16r80000000.
@@ -18,10 +18,10 @@ fromIEEE32Bit: word
 
 	exponent = -127 ifTrue: [
 		"gradual underflow (denormalized number)
-		Remove first bit of mantissa and adjust exponent"
-		delta := mantissa highBit.
-		mantissa := (mantissa bitShift: 1) bitAnd: (1 bitShift: delta) - 1.
-		exponent := exponent + delta - 23].
+		Shift the mantissa and remove leading 1 to normalize the Float"
+		shiftToNormalize := 24 - mantissa highBit.
+		mantissa := (mantissa bitShift: shiftToNormalize) bitAnd: 16r7FFFFF.
+		exponent := -126 - shiftToNormalize].
 	
 	"Create new float"
 	newFloat := self new: 2.
