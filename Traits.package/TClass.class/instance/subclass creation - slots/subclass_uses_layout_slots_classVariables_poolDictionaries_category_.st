@@ -7,6 +7,7 @@ subclass: aSubclassSymbol uses: aTraitCompositionOrArray  layout: layoutClass sl
 				make: [ :builder | 
 					builder
 						name: aSubclassSymbol;
+						superclass: self;
 						layoutClass: layoutClass;
 						slots: slotDefinition;
 						sharedVariables: classVarDefinition;

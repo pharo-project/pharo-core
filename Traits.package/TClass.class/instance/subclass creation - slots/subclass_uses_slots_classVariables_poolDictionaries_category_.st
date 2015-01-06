@@ -7,6 +7,7 @@ subclass: aSubclassSymbol uses: aTraitCompositionOrArray slots: slotDefinition c
 				make: [ :builder | 
 					builder
 						name: aSubclassSymbol;
+						superclass: self;
 						slots: slotDefinition;
 						sharedVariables: classVarDefinition;
 						sharedPools: someSharedPoolNames;

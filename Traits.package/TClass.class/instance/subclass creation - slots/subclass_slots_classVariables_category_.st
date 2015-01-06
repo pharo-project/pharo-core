@@ -2,6 +2,7 @@ subclass: aSubclassSymbol slots: slotDefinition classVariables: classVarDefiniti
 
 	^ PharoClassInstaller make: [ :builder |
 		builder name: aSubclassSymbol;
+		superclass: self;
 		slots: slotDefinition;
-		sharedVariables:  classVarDefinition;
+		sharedVariables: classVarDefinition;
 		category: aCategorySymbol ].
