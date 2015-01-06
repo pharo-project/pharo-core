@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '14668 HandMorph event statistics should be off by default with preference
-	https://pharo.fogbugz.com/f/cases/14668
+ ^ '14672 ScriptLoader should not reset repositories
+	https://pharo.fogbugz.com/f/cases/14672
 
-14652 Float class fromIEEE32Bit: gradual underflow handling is buggy
-	https://pharo.fogbugz.com/f/cases/14652'
+14673 Avoidable DNU at each compilation
+	https://pharo.fogbugz.com/f/cases/14673'
