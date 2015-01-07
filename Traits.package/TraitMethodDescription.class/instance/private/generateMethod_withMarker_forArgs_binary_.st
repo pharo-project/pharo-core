@@ -1,15 +1,16 @@
 generateMethod: aSelector withMarker: aSymbol forArgs: aNumber binary: aBoolean
-	| source node |
+	| source node keywords |
 	source := String streamContents: [:stream |
 		aNumber < 1
-			ifTrue: [stream nextPutAll: 'selector']
+			ifTrue: [stream nextPutAll: aSelector]
 			ifFalse: [aBoolean
 				ifTrue: [
-					stream nextPutAll: '* anObject']
+					stream nextPutAll: aSelector; space; nextPutAll: 'anObject']
 				ifFalse: [
+					keywords := aSelector keywords.
 					1 to: aNumber do: [:argumentNumber |
 						stream
-							nextPutAll: 'with:'; space;
+							nextPutAll: (keywords at: argumentNumber); space;
 							nextPutAll: 'arg'; nextPutAll: argumentNumber asString; space]]].
 		stream cr; tab; nextPutAll: 'self '; nextPutAll: aSymbol].
 	

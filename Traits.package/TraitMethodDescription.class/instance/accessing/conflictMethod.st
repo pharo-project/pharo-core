@@ -1,13 +1,11 @@
 conflictMethod
-	| method argumentNames binary numberOfArguments |
+	| binary numberOfArguments |
 	self isConflict ifFalse: [^nil].
-	argumentNames := self getArgumentNames.
 	binary := self isBinarySelector.
-	numberOfArguments := binary
-		ifTrue: [1]
-		ifFalse: [argumentNames size + 2].
+	numberOfArguments := self numberOfArguments.
+	
 	^self
 		generateMethod: self selector
 		withMarker: CompiledMethod conflictMarker
-		forArgs: argumentNames size
+		forArgs: numberOfArguments
 		binary: binary
