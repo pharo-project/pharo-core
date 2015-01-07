@@ -1,3 +1,6 @@
 commentForCurrentUpdate
- ^ '14638 Avoid indirectly invoking the Refactoring Engine parser (thru CompiledMethod>>ast) when installing a method from an used trait
-	https://pharo.fogbugz.com/f/cases/14638'
+ ^ '14681 Commiting to directory with subdirectory repo
+	https://pharo.fogbugz.com/f/cases/14681
+
+14680 Improve printing of class definition of classes with Slots or ClassVars
+	https://pharo.fogbugz.com/f/cases/14680'

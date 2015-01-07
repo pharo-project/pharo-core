@@ -16,7 +16,7 @@ findFullNameForWriting: aBaseName
 		fileScore := (dir entries collect: [ :ent |
 			(ent isDirectory not and: [ fpattern match: ent name ])
 				ifFalse: [ SmallInteger maxVal ]
-				ifTrue: [ now - ent modificationTime ]]).	"minimum age"
+				ifTrue: [ now - ent modificationTime asSeconds ]]).	"minimum age"
 		fileScore := fileScore isEmpty ifTrue: [ SmallInteger maxVal  ]
 			ifFalse: [ fileScore min ].
 		possible add: { dirScore. fileScore. dir } ].
