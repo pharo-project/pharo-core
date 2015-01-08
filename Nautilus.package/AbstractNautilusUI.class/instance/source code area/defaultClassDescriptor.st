@@ -1,10 +1,17 @@
 defaultClassDescriptor
 
 	| string |
-	string := 'Object subclass: #NameOfSubclass
+	string := Slot showSlotClassDefinition 
+		ifTrue: [  
+'Object subclass: #NameOfSubclass
+	slots: {}
+	classVariables: {}
+	category: ''']
+		ifFalse: [
+'Object subclass: #NameOfSubclass
 	instanceVariableNames: ''''
 	classVariableNames: ''''
-	category: '''.
+	category: ''' ].
 	^ self selectedPackage
 		ifNil: [string, '''' ]
 		ifNotNil: [:package | string, package name, '''' ]
