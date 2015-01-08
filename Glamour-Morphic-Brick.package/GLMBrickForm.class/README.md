@@ -1,0 +1,1 @@
+A GLMBrickForm is an abstract vector form used for icons

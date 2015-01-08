@@ -6,4 +6,5 @@ removeAllBricks
 			each brickOwner: nil ] ].
 	
 	band subbricks removeAll.
-	band removeAllMorphs
+	band removeAllMorphs.
+	self scrollToTop

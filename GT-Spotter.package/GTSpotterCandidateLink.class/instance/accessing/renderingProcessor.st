@@ -1,4 +1,4 @@
 renderingProcessor
 
-	renderingProcessorLink ifNil: [ renderingProcessorLink := processorLink ].
+	renderingProcessorLink ifNil: [ self renderingProcessor: processorLink ].
 	^ renderingProcessorLink value

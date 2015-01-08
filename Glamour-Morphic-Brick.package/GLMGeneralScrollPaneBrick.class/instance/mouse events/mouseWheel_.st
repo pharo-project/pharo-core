@@ -1,15 +1,3 @@
 mouseWheel: event
-	|velocity|
-	
-	velocity := self calculateVelocity: event.
-	
-	event direction = #up
-		ifTrue: [ self scrollUp: velocity ].
-		
-	event direction = #down
-		ifTrue: [ self scrollDown: velocity ].
-	
-	scrollPosition := band brickBounds top.
-	
-	self update.
-	self changed
+
+	self scrollBy: (self calculateVelocity: event) direction: event direction.

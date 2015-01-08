@@ -1,0 +1,3 @@
+privateProcessorLink: aLink
+
+	processorLink := aLink

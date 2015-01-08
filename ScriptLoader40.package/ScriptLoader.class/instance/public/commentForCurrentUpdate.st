@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '14681 Commiting to directory with subdirectory repo
-	https://pharo.fogbugz.com/f/cases/14681
+ ^ '14684 Spotter version 1.0.5
+	https://pharo.fogbugz.com/f/cases/14684
 
-14680 Improve printing of class definition of classes with Slots or ClassVars
-	https://pharo.fogbugz.com/f/cases/14680'
+14683 GTools version 2.0.7
+	https://pharo.fogbugz.com/f/cases/14683'

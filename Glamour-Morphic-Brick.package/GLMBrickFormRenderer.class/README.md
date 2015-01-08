@@ -1,0 +1,1 @@
+A GLMBrickFormRenderer is used to render vector forms

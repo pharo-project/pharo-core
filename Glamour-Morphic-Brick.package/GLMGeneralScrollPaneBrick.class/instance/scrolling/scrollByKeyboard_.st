@@ -1,15 +1,11 @@
 scrollByKeyboard: anEvent
-	|velocity|
+	|velocity direction|
 	
 	(self isKeyboardScrollEvent: anEvent) ifFalse: [^ self ].
 	velocity := self calculateVelocity: anEvent.
 	
 	"keycode 30 is Event direction = #up"
-	anEvent keyValue = 30 ifTrue: [ self scrollUp: velocity ].
+	anEvent keyValue = 30 ifTrue: [ direction := #up ].
 	"keycode 31 is Event direction = #down"
-	anEvent keyValue = 31 ifTrue: [ self scrollDown: velocity ].
-	
-	scrollPosition := band brickBounds top.
-	
-	self update.
-	self changed
+	anEvent keyValue = 31 ifTrue: [ direction := #down ].
+	self scrollBy: velocity direction: direction

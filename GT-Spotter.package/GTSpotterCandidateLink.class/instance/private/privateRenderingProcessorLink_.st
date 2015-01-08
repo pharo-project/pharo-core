@@ -1,0 +1,3 @@
+privateRenderingProcessorLink: aLink
+
+	renderingProcessorLink := aLink

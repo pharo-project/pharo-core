@@ -1,0 +1,3 @@
+color: aColor
+
+	backgroundColor := aColor

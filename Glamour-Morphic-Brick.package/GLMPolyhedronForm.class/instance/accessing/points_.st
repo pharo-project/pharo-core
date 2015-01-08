@@ -1,0 +1,3 @@
+points: aCollectionOfPoints
+
+	points := aCollectionOfPoints

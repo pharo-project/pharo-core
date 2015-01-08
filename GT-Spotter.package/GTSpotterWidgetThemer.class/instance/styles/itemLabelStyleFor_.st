@@ -1,9 +1,16 @@
 itemLabelStyleFor: aBrick
 
-	aBrick label highlightingLogic: [ :aCanvas :aRectangle | |bounds|
-		"because font calculates text width wrong"
-		bounds := aRectangle translateBy: (-3@0).
-		aCanvas line: bounds bottomLeft to: bounds bottomRight width: 1 color: Color lightGray ].
+	aBrick label highlightingLogic: [ :aCanvas :aRectangle | | linePath stroke|
+		linePath := aCanvas createPath: [:builder |
+			builder
+				absolute;
+				moveTo: aRectangle bottomLeft;
+     			lineTo: aRectangle bottomRight - (3@0) ].
+
+		stroke := aCanvas setStrokePaint: Color lightGray.
+		stroke width: 1.
+
+		aCanvas drawShape: linePath ].
 	
 	aBrick layoutProperties horizontalPercent: 100.
 	aBrick label familyName: self itemFamilyName.

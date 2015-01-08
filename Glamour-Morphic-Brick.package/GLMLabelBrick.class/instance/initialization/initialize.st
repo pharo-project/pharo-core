@@ -11,6 +11,7 @@ initialize
 	dotsBrick layoutProperties horizontalPercent: 0.
 	dotsBrick text: self defaultDotsText.
 	dotsBrick layoutProperties minWidth: (dotsBrick textSize x).
+	dotsBrick fontSize: 9.
 	
 	isDotsAdded := false.
 	
