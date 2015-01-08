@@ -1,7 +1,9 @@
 itemActionbarStyleFor: aBrick
 
 	aBrick layoutPolicy: GLMBrickHorizontalFillLinearLayout new.
-	aBrick layoutProperties horizontalPercent: 0.
-	aBrick layoutProperties marginRight: self outerBorderWidth.
+	
+	aBrick layoutProperties
+		horizontalPercent: 0;
+		marginRight: self outerBorderWidth.
 	
 	self itemActionbarInvisibleStyleFor: aBrick.

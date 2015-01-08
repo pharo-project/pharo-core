@@ -8,7 +8,5 @@ breadcrumbBrick: aBrick
 	self theme spotterWidgetThemer breadcrumbStyleFor: breadcrumbBrick.
 	
 	breadcrumbWrapperBrick := GLMBandBrick new.
-	self theme spotterWidgetThemer breadcrumbWrapperStyleFor: breadcrumbWrapperBrick.
 	breadcrumbWrapperBrick addBrickBack: breadcrumbBrick.
-	
 	self addBrickBack: breadcrumbWrapperBrick

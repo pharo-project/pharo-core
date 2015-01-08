@@ -1,1 +1,0 @@
-categoryCandidatesListStyleFor: aBrick

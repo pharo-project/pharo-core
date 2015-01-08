@@ -1,14 +1,22 @@
 searchFieldStyleFor: aMorph
-	aMorph layoutProperties: GLMBrickLayoutProperties new.
-	aMorph layoutProperties horizontalPercent: 100.
-	aMorph layoutProperties marginLeft: self searchFieldMarginLeft.
-	aMorph hResizing: #spaceFill.
-	aMorph vResizing: #spaceFill.
-	aMorph color: Color transparent.
-	aMorph withoutAdornment.
-	aMorph withGhostText: self spotterGhostText.
-	aMorph ghostTextRuler fontName: self searchFieldFamilyName pointSize: self searchFieldFontSize.
-	aMorph textArea font: (LogicalFont familyName: self searchFieldFamilyName pointSize: self searchFieldFontSize).
-	aMorph textArea backgroundColor: Color transparent.
-	aMorph autoAccept: true.
-	aMorph borderColor: Color white
+
+	aMorph
+		layoutProperties: GLMBrickLayoutProperties new;
+		hResizing: #spaceFill;
+		vResizing: #spaceFill;
+		color: Color transparent;
+		withoutAdornment;
+		withGhostText: self spotterGhostText;
+		autoAccept: true;
+		borderColor: Color white.
+		
+	aMorph layoutProperties
+		horizontalPercent: 100;
+		marginLeft: self searchFieldMarginLeft.
+	
+	aMorph ghostTextRuler
+		fontName: self searchFieldFamilyName pointSize: self searchFieldFontSize.
+		
+	aMorph textArea
+		font: (LogicalFont familyName: self searchFieldFamilyName pointSize: self searchFieldFontSize);
+		backgroundColor: Color transparent.

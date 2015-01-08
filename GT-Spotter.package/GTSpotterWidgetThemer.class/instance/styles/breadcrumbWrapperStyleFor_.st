@@ -1,1 +1,0 @@
-breadcrumbWrapperStyleFor: aBrick

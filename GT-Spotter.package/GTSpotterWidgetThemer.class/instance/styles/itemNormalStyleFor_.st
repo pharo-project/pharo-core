@@ -1,6 +1,7 @@
 itemNormalStyleFor: aBrick
 
-	aBrick normalColor: self itemNormalBackgroundColor.
-	aBrick selectedColor: self itemHoveredBackgroundColor.
-	aBrick checkedColor: self itemSelectedBackgroundColor.
-	aBrick heightBlock: [ :anItem | self itemHeight ]
+	aBrick
+		normalColor: self itemNormalBackgroundColor;
+		selectedColor: self itemHoveredBackgroundColor;
+		checkedColor: self itemSelectedBackgroundColor;
+		heightBlock: [ :anItem | self itemHeight ]

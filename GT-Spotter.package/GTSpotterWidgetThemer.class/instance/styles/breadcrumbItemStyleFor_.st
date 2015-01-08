@@ -1,11 +1,12 @@
 breadcrumbItemStyleFor: aBrick
 
-	aBrick textPosition: #center.
-	aBrick normalColor: self borderColor.
-	aBrick textColor: Color white.
+	aBrick
+		textPosition: #center;
+		normalColor: self borderColor;
+		textColor: Color white.
 	
-	aBrick layoutProperties marginTop: self outerBorderWidth.
-	aBrick layoutProperties marginRight: self outerBorderWidth.
-	
-	aBrick layoutProperties paddingLeft: self outerBorderWidth.
-	aBrick layoutProperties paddingRight: self outerBorderWidth.
+	aBrick layoutProperties
+		marginTop: self outerBorderWidth;
+		marginRight: self outerBorderWidth;
+		paddingLeft: self outerBorderWidth;
+		paddingRight: self outerBorderWidth

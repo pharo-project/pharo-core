@@ -1,4 +1,4 @@
-Morph subclass: #GLMBrick
+GLMBrickedMorph subclass: #GLMBrick
 	instanceVariableNames: 'renderer data brickBounds brickOwner brickRoot subbricks session surface backgroundColor'
 	classVariableNames: ''
 	poolDictionaries: ''

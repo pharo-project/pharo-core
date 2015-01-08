@@ -1,7 +1,10 @@
 dropDownPaneStyleFor: aBrick
 
-	aBrick layoutProperties: GLMBrickLayoutProperties new.
-	aBrick layoutProperties verticalPercent: 100.	"will fill the rest of the space in spotter vertically"
-	aBrick layoutProperties marginTop: self innerBorderWidth.
-	aBrick color: self backgroundColor.
-	aBrick height: 400
+	aBrick
+		layoutProperties: GLMBrickLayoutProperties new;
+		color: self backgroundColor;
+		height: 400.
+
+	aBrick layoutProperties
+		verticalPercent: 100;
+		marginTop: self innerBorderWidth.
