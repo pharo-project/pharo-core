@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '14693 Spotter version 1.0.6
-	https://pharo.fogbugz.com/f/cases/14693
+ ^ '12501 Duplicate shortcut case sensitive/insenstive method literal strings with it
+	https://pharo.fogbugz.com/f/cases/12501
 
-14692 GTools version 2.0.8
-	https://pharo.fogbugz.com/f/cases/14692'
+14691 Improve pretty printing of Slot classdefinition
+	https://pharo.fogbugz.com/f/cases/14691'

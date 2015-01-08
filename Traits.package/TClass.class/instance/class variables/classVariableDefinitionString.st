@@ -1,21 +1,12 @@
 classVariableDefinitionString
 	"Answer a string that evaluates to the definition of the class Variables"
 	
-	^String streamContents: [ :str | | special | special := false.
+	^String streamContents: [ :str | | special |
 		str nextPutAll: '{ '.
 		self classVariables do: [:global |
-				global isSpecial
-					ifFalse: [ 
-						"special ifTrue: [ str cr. special := false ]."
-						str nextPutAll: global name storeString; nextPutAll: ' '. ]
-					ifTrue: [
-						special := true. 
-						str 
-							nextPutAll: '#';
-							nextPutAll: global name;
-							nextPutAll: ' => ';
-							nextPutAll: global class name]]
+				str nextPutAll: global definitionString.
+				special := global isSpecial]				
 			separatedBy: [ 
-				str nextPutAll: '.  '.  
-				special ifTrue: [ str cr ]  ]   .
-		str nextPutAll: '}'. ]
+				str nextPutAll: '. '.  
+				special ifTrue: [ str cr;tab;tab;tab;tab ]].
+		str nextPutAll: ' }'. ]

@@ -26,9 +26,6 @@ smalltalkEditorShiftedMenuOn: aBuilder
 	(aBuilder item: #'case insensitive method literal strings with it' translated) 
 		keyText: 'E';
 		selector: #methodStringsContainingit.
-	(aBuilder item: #'case sensitive method literal strings with it' translated) 
-		keyText: 'E';
-		selector: #methodCaseSensitiveStringsContainingit.
 	(aBuilder item: #'method source with it' translated) 
 		selector: #methodSourceContainingIt; 
 		withSeparatorAfter.
