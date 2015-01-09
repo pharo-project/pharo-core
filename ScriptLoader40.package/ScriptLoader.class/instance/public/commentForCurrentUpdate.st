@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '12501 Duplicate shortcut case sensitive/insenstive method literal strings with it
-	https://pharo.fogbugz.com/f/cases/12501
+ ^ '14699 Slot: #definingClass and #usingMethods should work on non-used slots
+	https://pharo.fogbugz.com/f/cases/14699
 
-14691 Improve pretty printing of Slot classdefinition
-	https://pharo.fogbugz.com/f/cases/14691'
+14698 Allow Slots to be saved with Monticello
+	https://pharo.fogbugz.com/f/cases/14698
+
+14697 simplify extended search menu: case insensitive description not needed
+	https://pharo.fogbugz.com/f/cases/14697'

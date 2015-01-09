@@ -9,7 +9,7 @@ class: oldClass instanceVariableNames: instVarString
 			superclass: theClass superclass;
 			name: theClass name;
 			layoutClass: theClass layout class;
-			slots: (theClass instVarNames collect: [:n | n asSlot ]);
+			slots: theClass slots;
 			sharedVariablesFromString: theClass classVariablesString;
 			sharedPools: theClass sharedPoolsString;
 			traitComposition: theClass traitComposition;

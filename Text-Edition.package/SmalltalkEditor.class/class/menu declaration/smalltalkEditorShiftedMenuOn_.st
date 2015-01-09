@@ -23,7 +23,7 @@ smalltalkEditorShiftedMenuOn: aBuilder
 	(aBuilder item: #'selectors containing it' translated) 
 		keyText: 'W';
 		selector: #methodNamesContainingIt.
-	(aBuilder item: #'case insensitive method literal strings with it' translated) 
+	(aBuilder item: #'method literal strings with it' translated) 
 		keyText: 'E';
 		selector: #methodStringsContainingit.
 	(aBuilder item: #'method source with it' translated) 

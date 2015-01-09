@@ -9,7 +9,7 @@ definitionForNautilusWithSlots
 	superclass 
 		ifNil: [aStream nextPutAll: 'ProtoObject']
 		ifNotNil: [aStream nextPutAll: superclass name].
-	aStream nextPutAll: ' subclass:';
+	aStream nextPutAll: ' subclass: ';
 			store: self name.
 	(self hasTraitComposition) ifTrue: [
 		aStream cr; tab; nextPutAll: 'uses: ';
