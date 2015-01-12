@@ -1,10 +1,14 @@
 createClass
-	| superClass class composition slots|
+	| superClass class composition slots classSlots|
 	superClass := superclassName == #nil ifFalse:
 						[ Smalltalk globals at: superclassName ].
 	self hasComplexVariables 
-		ifTrue: [slots := self instanceVariables]
-		ifFalse: [slots := self instanceVariablesString asSlotCollection].
+		ifTrue: [
+			slots := self instanceVariables.
+			classSlots := self classInstanceVariables]
+		ifFalse: [
+			slots := self instanceVariablesString asSlotCollection.
+			classSlots := self classInstanceVariablesString asSlotCollection].
 	[ class := PharoClassInstaller make: [ :builder | 
 		builder
 			superclass: superClass;
@@ -13,14 +17,13 @@ createClass
 			slots: slots;
 			sharedVariablesFromString: self classVariablesString;
 			sharedPools: self sharedPoolsString;
-			classSlots: self classInstanceVariablesString asSlotCollection;
+			classSlots: classSlots;
 			category: category;
 			environment:  superClass environment.
 			 ]] on: Warning, DuplicatedVariableError do: [:ex| ex resume].
-	self traitComposition
-		ifNotNil: [ composition := class compiler evaluate: self traitComposition.
-						class setTraitComposition: composition asTraitComposition].
-	self classTraitComposition
-		ifNotNil: [ composition := class compiler evaluate: self classTraitComposition.
-						class class setTraitComposition: composition asTraitComposition].
+	
+	composition := class compiler evaluate: self traitCompositionString.
+	class setTraitComposition: composition asTraitComposition.
+	composition := class compiler evaluate: self classTraitCompositionString.
+	class class setTraitComposition: composition asTraitComposition.
 	^ class

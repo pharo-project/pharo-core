@@ -5,6 +5,6 @@ requirements
 
 	| tokens traitNames |
 	self hasTraitComposition ifFalse: [ ^Array new ].
-	tokens := self traitComposition parseLiterals.
+	tokens := traitComposition parseLiterals.
 	traitNames := tokens select: [:each | each first isUppercase].
 	^traitNames asArray

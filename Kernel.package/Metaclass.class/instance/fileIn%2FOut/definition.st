@@ -4,12 +4,20 @@ definition
 	^ String streamContents: 
 		[:strm |
 		strm print: self.
-		(self hasTraitComposition and: [self traitComposition notEmpty]) ifTrue: [
+		self hasTraitComposition ifTrue: [
 			strm
 				crtab;
 				nextPutAll: 'uses: ';
 				print: self traitComposition ].
-		strm
-			crtab;
-			nextPutAll: 'instanceVariableNames: ';
-			store: self instanceVariablesString]
+		
+		Slot showSlotClassDefinition 
+			ifFalse: [  
+						strm
+							crtab;
+							nextPutAll: 'instanceVariableNames: ';
+							store: self instanceVariablesString]
+			ifTrue: [ 
+						strm
+							crtab;
+							nextPutAll: 'slots: ';
+							nextPutAll: self slotDefinitionString]]

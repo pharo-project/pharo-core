@@ -12,7 +12,7 @@ asClassDefinition
 		poolDictionaryNames: self sharedPoolNames
 		classInstVarNames: self class instVarNames
 		type: self typeOfClass
-		comment: self organization classComment	 asString
+		comment: self organization classComment	asString
 		commentStamp: self organization commentStamp].
 	
 	^MCClassDefinition
