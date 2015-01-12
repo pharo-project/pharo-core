@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '14699 Slot: #definingClass and #usingMethods should work on non-used slots
-	https://pharo.fogbugz.com/f/cases/14699
+ ^ '14700 Simplify traitComposition setting in MCClassDefinition>>#createClass
+	https://pharo.fogbugz.com/f/cases/14700
 
-14698 Allow Slots to be saved with Monticello
-	https://pharo.fogbugz.com/f/cases/14698
-
-14697 simplify extended search menu: case insensitive description not needed
-	https://pharo.fogbugz.com/f/cases/14697'
+14701 compile normal message send for and:  where the block has an argument
+	https://pharo.fogbugz.com/f/cases/14701'
