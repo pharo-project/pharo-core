@@ -7,6 +7,6 @@ isInlineWhile
 	self receiver arguments isEmpty ifFalse: [self notify: 'while receiver block must have no arguments'. ^ false].
 	self arguments isEmpty ifFalse: [
 		self arguments first isBlock ifFalse: [^ false].
-		self arguments first arguments isEmpty ifFalse: [self notify: 'while takes a zero-arg block as its argument'. ^ false].
+		self arguments first arguments isEmpty ifFalse: [^ false].
 	].
 	^ true

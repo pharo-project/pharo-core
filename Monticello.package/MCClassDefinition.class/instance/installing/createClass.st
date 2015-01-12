@@ -13,9 +13,10 @@ createClass
 			slots: slots;
 			sharedVariablesFromString: self classVariablesString;
 			sharedPools: self sharedPoolsString;
+			classSlots: self classInstanceVariablesString asSlotCollection;
 			category: category;
-			environment:  superClass environment;
-			copyClassSlotsFromExistingClass ]] on: Warning, DuplicatedVariableError do: [:ex| ex resume].
+			environment:  superClass environment.
+			 ]] on: Warning, DuplicatedVariableError do: [:ex| ex resume].
 	self traitComposition
 		ifNotNil: [ composition := class compiler evaluate: self traitComposition.
 						class setTraitComposition: composition asTraitComposition].

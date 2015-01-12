@@ -8,8 +8,7 @@ isInlineToDo
 	(#(to:do: to:by:do:) includes: self selector) ifFalse: [^ false].
 	block := self arguments last.
 	block isBlock ifFalse: [^ false].
-	block arguments size = 1 ifFalse: [
-		self notify: 'to:do: block must take one arg'. ^ false].
+	block arguments size = 1 ifFalse: [^ false].
 	self arguments first isVariable ifTrue: [ 
 		(RBParseTreeSearcher new
 			matches: self arguments first name , ' := `@object' do: [:n :a | true];

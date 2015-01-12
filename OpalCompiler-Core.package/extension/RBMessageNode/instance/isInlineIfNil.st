@@ -8,10 +8,10 @@ isInlineIfNil
 	(#(ifNil: ifNotNil: ifNil:ifNotNil: ifNotNil:ifNil:) includes: self selector) ifFalse: [^ false].
 	self arguments do: [:node | node isBlock ifFalse: [^ false]].
 	assertNone := [:block | 
-		block arguments isEmpty ifFalse: [self notify: 'ifNil: takes zero-arg block'. ^ false]
+		block arguments isEmpty ifFalse: [^ false]
 	].
 	assertOneOrNone := [:block | 
-		block arguments size > 1 ifTrue: [self notify: 'ifNotNil: takes zero- or one-arg block'. ^ false]
+		block arguments size > 1 ifTrue: [^ false]
 	].
 	self selector == #ifNil: 	
 		ifTrue: [assertNone value: self arguments first].

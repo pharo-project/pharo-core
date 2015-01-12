@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '14700 Simplify traitComposition setting in MCClassDefinition>>#createClass
-	https://pharo.fogbugz.com/f/cases/14700
+ ^ '14716 Remove all #notify: from inline checking
+	https://pharo.fogbugz.com/f/cases/14716
 
-14701 compile normal message send for and:  where the block has an argument
-	https://pharo.fogbugz.com/f/cases/14701'
+14718 Move class instance variable def from #load to #createClass in MCClassDefinition
+	https://pharo.fogbugz.com/f/cases/14718'

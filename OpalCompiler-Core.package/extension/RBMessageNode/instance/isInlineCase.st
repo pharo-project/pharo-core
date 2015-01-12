@@ -8,8 +8,7 @@ isInlineCase
 	self arguments first statements do: [:assoc |
 		(assoc isMessage and: [assoc selector == #->]) ifFalse: [^ false].
 		assoc receiver isBlock ifFalse: [^ false].
-		assoc receiver arguments isEmpty ifFalse: [self notify: 'caseOf: takes zero-arg blocks'. ^ false].
+		assoc receiver arguments isEmpty ifFalse: [^ false].
 		assoc arguments first isBlock ifFalse: [^ false].
-		assoc arguments first arguments isEmpty ifFalse: [self notify: 'caseOf: takes zero-arg blocks'].
 	].
 	^ true
