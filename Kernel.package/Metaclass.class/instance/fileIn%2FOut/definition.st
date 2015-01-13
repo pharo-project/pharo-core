@@ -10,7 +10,7 @@ definition
 				nextPutAll: 'uses: ';
 				print: self traitComposition ].
 		
-		Slot showSlotClassDefinition 
+		(self usesSpecialSlot or: [ Slot showSlotClassDefinition ])
 			ifFalse: [  
 						strm
 							crtab;

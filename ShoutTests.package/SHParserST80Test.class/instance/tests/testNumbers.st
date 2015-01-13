@@ -326,17 +326,17 @@ testNumbers
 	self assert: types = #(patternUnary number binary number ).
 	self assert: tokens = #('x' '1' '-' '1'). 
 
-	s := 'x 1--1'. 
+	s := 'x 1>-------1'. 
 	types := self tokenTypesIn: s.
 	tokens := self tokensIn: s. 
-	self assert: types = #(patternUnary number incompleteBinary number ).
-	self assert: tokens = #('x' '1' '--' '1'). 
-	
-	s := 'x 1--"comment"1'. 
+	self assert: types equals: #(patternUnary number incompleteBinary number ).
+	self assert: tokens equals: #('x' '1' '>-------' '1'). 
+
+	s := 'x 1>-------"comment"1'. 
 	types := self tokenTypesIn: s.
 	tokens := self tokensIn: s. 
-	self assert: types = #(patternUnary number incompleteBinary comment number ).
-	self assert: tokens = #('x' '1' '--' '"comment"' '1'). 	
+	self assert: types equals: #(patternUnary number incompleteBinary comment number ).
+	self assert: tokens equals: #('x' '1' '>-------' '"comment"' '1'). 	
 
 	s := 'x 1-self'. 
 	types := self tokenTypesIn: s.
