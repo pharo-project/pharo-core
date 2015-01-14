@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '6859 Finder not refreshing for new packages/classes
-	https://pharo.fogbugz.com/f/cases/6859
+ ^ '14733 do not check for coding convention on addClassVariable:
+	https://pharo.fogbugz.com/f/cases/14733
 
-14728 NBFFICalloutAPI option WinUnicode is not prefixed with opt, as all the other options
-	https://pharo.fogbugz.com/f/cases/14728'
+14726 Add support for loading special Class Var definitions
+	https://pharo.fogbugz.com/f/cases/14726'
