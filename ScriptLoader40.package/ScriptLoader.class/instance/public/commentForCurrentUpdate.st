@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '14590 SHParserST80Test>>#testNumbers 
-	https://pharo.fogbugz.com/f/cases/14590
+ ^ '6859 Finder not refreshing for new packages/classes
+	https://pharo.fogbugz.com/f/cases/6859
 
-14725 When using class side slot, show class definition for slots
-	https://pharo.fogbugz.com/f/cases/14725'
+14728 NBFFICalloutAPI option WinUnicode is not prefixed with opt, as all the other options
+	https://pharo.fogbugz.com/f/cases/14728'
