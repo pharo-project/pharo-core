@@ -4,8 +4,6 @@ addClassVariable: aGlobal
 	or if it is already a variable named in the class."
 	| symbol oldState |
 	oldState := self copy.
-	aGlobal name first canBeGlobalVarInitial
-		ifFalse: [^self error: aGlobal name, ' class variable name should be capitalized; proceed to include anyway.'].
 	symbol := aGlobal name asSymbol.
 	self withAllSubclasses do: 
 		[:subclass | 
