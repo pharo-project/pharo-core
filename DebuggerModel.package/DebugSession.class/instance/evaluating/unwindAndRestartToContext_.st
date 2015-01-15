@@ -4,8 +4,7 @@ unwindAndRestartToContext: aContext
 	ctx := interruptedProcess popTo: aContext.
 	ctx == aContext ifTrue: [ 
 		"Only restart the process if the stack was unwind"
-		interruptedProcess
-			restartTop;
-			stepToSendOrReturn ].
+		interruptedProcess restartTop.
+		self stepToFirstInterestingBytecodeIn: interruptedProcess ].
 	self flag: 'Should a warning be displayed if the the unwind failed?'.
 	self updateContextTo:  aContext

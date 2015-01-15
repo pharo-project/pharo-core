@@ -9,7 +9,7 @@ stepOver: aContext
 	newContext := interruptedProcess completeStep: aContext.
 	self updateContextTo:  
 		(newContext == aContext
-			ifTrue: [ interruptedProcess stepToSendOrReturn ]
+			ifTrue: [ (self stepToFirstInterestingBytecodeIn: interruptedProcess) ]
 			ifFalse: [ newContext ]).
 
 	self triggerEvent: #stepOver 

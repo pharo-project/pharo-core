@@ -5,6 +5,6 @@ stepInto: aContext
 	(self isContextPostMortem: aContext) ifTrue: [^ self].
 
 	interruptedProcess step: aContext.
-	self updateContextTo:  interruptedProcess stepToSendOrReturn.
+	self updateContextTo: (self stepToFirstInterestingBytecodeIn: interruptedProcess).
 	
 	self triggerEvent: #stepInto

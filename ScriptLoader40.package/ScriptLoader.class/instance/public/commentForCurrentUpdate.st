@@ -1,8 +1,9 @@
 commentForCurrentUpdate
- ^ '14735 Compilation bugs with the SistaV1 bytecode set.
-	https://pharo.fogbugz.com/f/cases/14735
+ ^ '14622 PackageManifest can not be in package Manifest-Core...
+	https://pharo.fogbugz.com/f/cases/14622
 
-14726 Add support for loading special Class Var definitions
-	https://pharo.fogbugz.com/f/cases/14726
+14738 DebugSession assumes sending #stepToSendOrReturn is always needed 
+	https://pharo.fogbugz.com/f/cases/14738
 
-'
+14740 Faiing test: testMetaclassAndTraitClassRespectsPolymorphismRules 
+	https://pharo.fogbugz.com/f/cases/14740'

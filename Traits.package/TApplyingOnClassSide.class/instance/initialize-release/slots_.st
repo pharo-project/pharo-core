@@ -1,0 +1,2 @@
+slots: instVarString
+	^self explicitRequirement.

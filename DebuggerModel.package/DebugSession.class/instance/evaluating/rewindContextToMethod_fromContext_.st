@@ -9,9 +9,8 @@ rewindContextToMethod: aMethod fromContext: aContext
 			self inform: 'Method saved, but current context unchanged\because of unwind error. Click OK to see error' withCRs ]
 		ifTrue: [
 			aMethod isQuick ifFalse: [
-				interruptedProcess
-					restartTopWith: aMethod;
-					stepToSendOrReturn ] ].
+				interruptedProcess restartTopWith: aMethod.
+				self stepToFirstInterestingBytecodeIn: interruptedProcess ] ].
 	self updateContextTo:  ctxt.
 	
 	"Issue 3015 - Hernan"
