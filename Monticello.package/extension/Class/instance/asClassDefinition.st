@@ -1,6 +1,6 @@
 asClassDefinition
 	"we use a very ugly hack to encode complex slots as string with MC... later MC shoudl model Slots directly"
-	self usesSpecialSlot ifFalse: [  
+	self usesSpecialVariables ifFalse: [  
 	 ^MCClassDefinition
 		name: self name
 		superclassName: self superclass name

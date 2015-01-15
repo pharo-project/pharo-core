@@ -10,7 +10,7 @@ pushLiteralVariable: object
 		index := self addLiteral: object].
 
 	"single push"
-	interval := Bytecodes at: #pushLiteralVariableBytecode.
+	interval := Bytecodes at: #pushLiteralVariable.
 	(index <= interval size) ifTrue: [
 		^ self nextPut: (interval at: index)
 	].

@@ -2,7 +2,7 @@ jump: distance if: condition
 
 	"jumps to fall through, no-op"
 	distance = 0 ifTrue: [
-		^ self nextPut: (Bytecodes at: #popStackBytecode)].
+		^ self nextPut: (Bytecodes at: #popStack)].
 	
 	"short jump"
 	distance <= 8 ifTrue: [

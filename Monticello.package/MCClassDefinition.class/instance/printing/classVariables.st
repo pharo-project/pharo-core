@@ -1,0 +1,2 @@
+classVariables
+	^ self sortedVariablesOfType: #isClassVariable

@@ -6,7 +6,7 @@ send: selector
 	stack pop: nArgs.
 
 	SpecialSelectors at: selector ifPresent: [:i |
-		^ self nextPut: (Bytecodes at: #sendArithmeticSelector) + i].
+		^ self nextPut: (Bytecodes at: #sendArithmeticSelector) first + i].
 
 	index := self addLiteral: selector.
 	(index <= 16 and: [nArgs <= 2]) ifTrue: [

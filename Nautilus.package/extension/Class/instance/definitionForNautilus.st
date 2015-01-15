@@ -2,7 +2,7 @@ definitionForNautilus
 	"Answer a String that defines the receiver."
 	| aStream poolString|
 
-	(self usesSpecialSlot or: [ Slot showSlotClassDefinition ]) ifTrue: [ ^self definitionForNautilusWithSlots ].
+	(self usesSpecialVariables or: [ Slot showSlotClassDefinition ]) ifTrue: [ ^self definitionForNautilusWithSlots ].
 
 	poolString := self sharedPoolsString.
 
