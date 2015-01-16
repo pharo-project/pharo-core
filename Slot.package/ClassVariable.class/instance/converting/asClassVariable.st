@@ -1,0 +1,2 @@
+asClassVariable	
+	^self

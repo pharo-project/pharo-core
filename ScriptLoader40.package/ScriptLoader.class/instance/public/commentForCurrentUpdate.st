@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '14622 PackageManifest can not be in package Manifest-Core...
-	https://pharo.fogbugz.com/f/cases/14622
+ ^ '14742 Fix: Allow defining simple ClassVariales using symbols
+	https://pharo.fogbugz.com/f/cases/14742
 
-14738 DebugSession assumes sending #stepToSendOrReturn is always needed 
-	https://pharo.fogbugz.com/f/cases/14738
+14712 The print-popper should have a different color than the selection in the default Pharo theme
+	https://pharo.fogbugz.com/f/cases/14712
 
-14740 Faiing test: testMetaclassAndTraitClassRespectsPolymorphismRules 
-	https://pharo.fogbugz.com/f/cases/14740'
+14515 Damaged configurations in the image
+	https://pharo.fogbugz.com/f/cases/14515'

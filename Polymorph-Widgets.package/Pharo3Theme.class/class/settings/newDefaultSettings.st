@@ -1,7 +1,7 @@
 newDefaultSettings
 	self setPreferredPreferences.
 	
-	BalloonMorph setBalloonColorTo: self lightSelectionColor.
+	BalloonMorph setBalloonColorTo: self lightBaseColor.
 	^super newDefaultSettings
 		menuColor: self baseColor;
 		menuTitleColor: self baseColor;

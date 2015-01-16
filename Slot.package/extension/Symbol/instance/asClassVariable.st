@@ -1,0 +1,2 @@
+asClassVariable
+	^ ClassVariable named: self.
