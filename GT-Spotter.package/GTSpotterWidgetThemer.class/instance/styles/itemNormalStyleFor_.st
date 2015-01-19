@@ -4,4 +4,4 @@ itemNormalStyleFor: aBrick
 		normalColor: self itemNormalBackgroundColor;
 		selectedColor: self itemHoveredBackgroundColor;
 		checkedColor: self itemSelectedBackgroundColor;
-		heightBlock: [ :anItem | self itemHeight ]
+		height: [ self itemHeight ]

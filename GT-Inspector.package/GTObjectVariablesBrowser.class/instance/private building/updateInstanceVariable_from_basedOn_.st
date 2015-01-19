@@ -10,5 +10,5 @@ updateInstanceVariable: aSymbol from: anObject basedOn: aString
 			failBlock: [ ^ self ];
 			evaluate.
 						
-	anObject instVarNamed: aSymbol put: result.
+	anObject writeSlotNamed: aSymbol value: result.
 	

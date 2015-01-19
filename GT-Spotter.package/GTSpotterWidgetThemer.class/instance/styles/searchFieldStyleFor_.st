@@ -11,7 +11,7 @@ searchFieldStyleFor: aMorph
 		borderColor: Color white.
 		
 	aMorph layoutProperties
-		horizontalPercent: 100;
+		hSpaceFill;
 		marginLeft: self searchFieldMarginLeft.
 	
 	aMorph ghostTextRuler

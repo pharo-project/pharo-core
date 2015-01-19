@@ -6,8 +6,5 @@ spotterContentsStyleFor: aBrick
 		color: self borderColor.
 	
 	aBrick layoutProperties
-		paddingTop: self outerBorderWidth;
-		paddingBottom: self outerBorderWidth;
-		paddingLeft: self outerBorderWidth;
-		paddingRight: self outerBorderWidth
+		padding: self outerBorderWidth
 	

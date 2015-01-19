@@ -6,7 +6,5 @@ breadcrumbItemStyleFor: aBrick
 		textColor: Color white.
 	
 	aBrick layoutProperties
-		marginTop: self outerBorderWidth;
-		marginRight: self outerBorderWidth;
-		paddingLeft: self outerBorderWidth;
-		paddingRight: self outerBorderWidth
+		margin: { self outerBorderWidth . self outerBorderWidth . 0 . 0 };
+		padding: { 0 . self outerBorderWidth }

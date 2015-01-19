@@ -1,0 +1,3 @@
+whenKeyPressed: anEvent
+
+	self delete

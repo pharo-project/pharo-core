@@ -1,0 +1,1 @@
+A RubMouseClick is xxxxxxxxx.Instance Variables	event:		<Object>event	- xxxxx

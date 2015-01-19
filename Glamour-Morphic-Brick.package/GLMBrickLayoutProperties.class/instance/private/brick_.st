@@ -1,0 +1,3 @@
+brick: aBrick
+	
+	brick := aBrick

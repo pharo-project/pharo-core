@@ -1,7 +1,8 @@
 initialize
 	super initialize.
 	
-	"self presentationsFilter: (GTInspectorTagFilterStrategy new
+	self presentationFilter: (GTInspectorTagFilterStrategy new
 			defaultTag: #custom;
 			addAndSelectTag: #basic;
-			addAndSelectTag: #custom)"
+			addAndSelectTag: #custom;
+			addAndSelectTag: #examples)

@@ -1,0 +1,3 @@
+display: aBlockOrSymbol
+
+	self subclassResponsibility

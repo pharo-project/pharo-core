@@ -4,7 +4,7 @@ scrollDown: anInteger
 	((self getIndex: self band lastSubbrick) = self adaptor count) ifTrue: [
 		
 		(((self getIndex: self band firstSubbrick) = 1) and: [ self isVisible: self band firstSubbrick ])
-			ifTrue: [ ^self ].
+			ifTrue: [ (self isVisible: self band lastSubbrick) ifTrue: [ ^ self ] ].
 		
 		delta := self band brickBounds corner y - self height. ].
 

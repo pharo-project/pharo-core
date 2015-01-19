@@ -1,3 +1,0 @@
-pathOn: builder
-
-	self subclassResponsibility

@@ -1,1 +1,0 @@
-A GLMPolyhedronForm is xxxxxxxxx.Instance Variables	points:		<Object>points	- xxxxx

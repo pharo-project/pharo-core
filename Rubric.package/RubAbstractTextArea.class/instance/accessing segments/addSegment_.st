@@ -3,3 +3,4 @@ addSegment: aRubTextSegmentMorph
 	seg := aRubTextSegmentMorph inTextArea: self.
 	self segments add: seg.
 	self addMorphBack: seg.
+	^ seg

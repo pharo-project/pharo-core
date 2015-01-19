@@ -4,7 +4,7 @@ categoryTitleStyleFor: aBrick
 		layoutPolicy: GLMBrickHorizontalFillProportionalLinearLayout new;
 		normalColor: (Color white alpha: 0.95);
 		selectedColor: (Color veryVeryLightGray lighter alpha: 0.95);
-		heightBlock: [ 30 ].
+		height: [ 30 ].
 	
 	aBrick layoutProperties
 		floating: #stack;

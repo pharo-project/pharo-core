@@ -1,6 +1,7 @@
 gtInspectorPresentationsIn: composite inContext: aGTInspector
 	"This is a utility method that collects all presentations for the current object.
 	By default, it simply looks for the #gtInspectorPresentationOrder: pragma.
+	The inspector can decice whether or not a presentation should be dispayed.
 	Subclasses might want to override it for more special behavior."
 	| pragmas |
 	pragmas := Pragma 

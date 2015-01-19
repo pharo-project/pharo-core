@@ -1,0 +1,3 @@
+isVertical
+
+	self subclassResponsibility

@@ -1,0 +1,2 @@
+style: anObject
+	style := anObject

@@ -1,0 +1,3 @@
+newScrollList
+
+	^ GLMScrollListBrick new

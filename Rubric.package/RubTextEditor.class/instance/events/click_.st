@@ -4,4 +4,5 @@ click: event
 	p := self paragraph characterBlockAtPoint: event cursorPoint.
 	textArea markBlock: p pointBlock: p.
 	self setEmphasisHereFromText.
-	self storeSelectionInText
+	self storeSelectionInText.
+	textArea announce: (RubMouseClick with: event)

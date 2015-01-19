@@ -1,3 +1,3 @@
 itemActionbarInvisibleStyleFor: aBrick
 
-	aBrick layoutProperties minWidth: 0.
+	aBrick layoutProperties staticWidth: 0.

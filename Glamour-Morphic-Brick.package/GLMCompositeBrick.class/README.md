@@ -1,0 +1,1 @@
+A GLMCompositeBrick is xxxxxxxxx.

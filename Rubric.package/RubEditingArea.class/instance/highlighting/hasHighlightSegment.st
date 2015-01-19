@@ -1,0 +1,3 @@
+hasHighlightSegment
+
+	^ self getHighlightSegment notNil

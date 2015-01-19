@@ -10,5 +10,4 @@ categoryTitleNameStyleFor: aBrick
 		familyName: self titleFamilyName.
 	
 	aBrick layoutProperties
-		horizontalPercent: 0;
-		minWidthBlock: [ :name | (aBrick owner brickInnerBounds width) min: ((name label textSize x) + name label layoutProperties horizontalMargin) ].
+		staticWidth: [ :name | (aBrick owner brickInnerBounds width) min: ((name label textSize x) + name label layoutProperties horizontalMargin) ].

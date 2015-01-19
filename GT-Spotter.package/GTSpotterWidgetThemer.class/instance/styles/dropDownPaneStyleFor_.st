@@ -6,5 +6,5 @@ dropDownPaneStyleFor: aBrick
 		height: 400.
 
 	aBrick layoutProperties
-		verticalPercent: 100;
+		vSpaceFill;
 		marginTop: self innerBorderWidth.

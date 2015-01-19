@@ -1,0 +1,1 @@
+A GLMPhlowrTableColumn is xxxxxxxxx.Instance Variables	computation:		<Object>	style:		<Object>	title:		<Object>computation	- xxxxxstyle	- xxxxxtitle	- xxxxx

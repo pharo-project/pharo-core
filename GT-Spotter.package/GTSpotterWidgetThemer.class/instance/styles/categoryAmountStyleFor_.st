@@ -10,5 +10,5 @@ categoryAmountStyleFor: aBrick
 		familyName: self titleFamilyName.
 	
 	aBrick layoutProperties
-		horizontalPercent: 100;
+		hSpaceFill;
 		marginLeft: self categoryNameMarginRight.

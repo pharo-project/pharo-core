@@ -1,3 +1,3 @@
 sizeOf: aString
 
-	^ (self font widthOfString: aString) @ self font getPreciseHeight
+	^ (self font widthOfString: aString) @ self font height

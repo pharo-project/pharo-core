@@ -4,7 +4,7 @@ executionSelectionActions
 		(GLMGenericAction new) 
 				title: 'Do it';
 				action: [ :aPresentation |
-					aPresentation evaluateSelection ]; 
+					aPresentation highlightEvaluateAndDo: [ :result | ] ]; 
 				shortcut: $d; 
 				icon: GLMUIThemeExtraIcons glamorousSpawn;
 				yourself.
@@ -17,7 +17,7 @@ executionSelectionActions
 		(GLMGenericAction new) 
 				title: 'Inspect it'; 
 				action: [ :aPresentation |
-					aPresentation evaluateSelectionAndDo: [ :result | result inspect ] ]; 
+					aPresentation highlightEvaluateAndDo: [ :result | result inspect ] ]; 
 				shortcut: $i; 
 				icon: GLMUIThemeExtraIcons glamorousInspect;
 				yourself.
@@ -25,7 +25,7 @@ executionSelectionActions
 				title: 'Debug it'; 
 				action: [ :aPresentation |
 					aPresentation debugSelection ]; 
-				"shortcut: $D; "
+				shortcut: $D;
 				yourself.
 		(GLMGenericAction new) 
 				title: 'Profile it'; 

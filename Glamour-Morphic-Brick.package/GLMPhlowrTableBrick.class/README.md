@@ -1,0 +1,1 @@
+A GLMPhlowrTableBrick is xxxxxxxxx.Instance Variables	columns:		<Object>	transformedEntity:		<Object>columns	- xxxxxtransformedEntity	- xxxxx

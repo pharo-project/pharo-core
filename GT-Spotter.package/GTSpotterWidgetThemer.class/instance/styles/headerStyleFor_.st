@@ -1,5 +1,5 @@
 headerStyleFor: aBrick
 
 	aBrick
-		heightBlock: [ :brick | self headerHeight ];
+		height: [ self headerHeight ];
 		color: self backgroundColor

@@ -1,5 +1,5 @@
 doLayout
 	
-	self layoutPolicy layoutFloating: self verticalScrollbar in: self withArguments: nil.
+	self layoutPolicy layout: self in: self brickBounds.
 	self update.
 	self verticalScrollbar update.

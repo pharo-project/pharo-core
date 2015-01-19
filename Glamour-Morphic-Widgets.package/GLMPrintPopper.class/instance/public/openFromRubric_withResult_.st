@@ -6,5 +6,12 @@ openFromRubric: aMorph withResult: anObject
 	textMorph
 		on: $i command
 		do: [ anObject inspect ].
+	textMorph
+		on: Character cr asKeyCombination
+		do: [ 
+			self delete.
+			aMorph textArea removeHighlightSegment.
+			aMorph editor afterSelectionInsertAndSelect: string asComment.
+			aMorph takeKeyboardFocus ].
 	inspectButton addUpAction: [ anObject inspect ].
 	self openInWorld

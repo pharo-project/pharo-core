@@ -1,5 +1,6 @@
 gtInspectorExampleSourceIn: composite inContext: aGTInspector
 	<gtInspectorPresentationOrder: 900>
+	<gtInspectorTag: #examples>
 	
 	| previousRawSelection |
 	(aGTInspector panes size > 1) 

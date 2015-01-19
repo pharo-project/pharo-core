@@ -1,0 +1,3 @@
+whenTextChanged: anAnnouncement 
+
+	self delete

@@ -3,7 +3,7 @@ calculateHighlightingBounds
 	
 	highlightBounds := OrderedCollection new.
 	
-	textBounds := (self calculateTextPosition extent: (0@self fontSize asFloat/2)).
+	textBounds := (self calculateTextPosition extent: self textSize) translateBy: (0@0)negated.
 	
 	last := self text asLowercase findString: self highlightedText asLowercase startingAt: 1.
 	last = 0 ifTrue: [^ highlightBounds].

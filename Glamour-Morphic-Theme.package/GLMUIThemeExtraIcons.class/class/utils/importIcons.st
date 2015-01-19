@@ -46,6 +46,7 @@ importIcons
 		'glamorousRightSide'
 		'glamorousZoomIn'
 		'glamorousZoomOut'
+		'glamorousZoomToFit'
 		'glamorousMore'
 		"'glamourousNextParser'
 		'glamourousNextProduction'

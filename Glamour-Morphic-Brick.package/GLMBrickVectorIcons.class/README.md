@@ -1,1 +1,0 @@
-A GLMBrickVectorIcons is xxxxxxxxx.

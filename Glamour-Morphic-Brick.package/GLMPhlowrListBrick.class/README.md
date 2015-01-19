@@ -1,0 +1,1 @@
+A GLMPhlowrListBrick is xxxxxxxxx.Instance Variables	scrollList:		<Object>scrollList	- xxxxx

@@ -1,3 +1,4 @@
 categoryStyleFor: aBrick
 
-	aBrick layoutProperties marginBottom: self categoryMarginBottom
+	aBrick layoutProperties
+		marginBottom: self categoryMarginBottom
