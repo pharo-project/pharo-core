@@ -1,0 +1,2 @@
+isVirtual
+	^slot isVirtual

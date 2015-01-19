@@ -1,5 +1,5 @@
 createClass
-	| superClass class composition slots classSlots classVars|
+	| superClass class slots classSlots classVars|
 	superClass := superclassName == #nil ifFalse:
 						[ Smalltalk globals at: superclassName ].
 	self hasComplexVariables 
@@ -24,8 +24,6 @@ createClass
 			environment:  superClass environment.
 			 ]] on: Warning, DuplicatedVariableError do: [:ex| ex resume].
 	
-	composition := class compiler evaluate: self traitCompositionString.
-	class setTraitComposition: composition asTraitComposition.
-	composition := class compiler evaluate: self classTraitCompositionString.
-	class class setTraitComposition: composition asTraitComposition.
+	class setTraitComposition: self traitCompositionCompiled.
+	class class setTraitComposition: self classTraitCompositionCompiled.
 	^ class
