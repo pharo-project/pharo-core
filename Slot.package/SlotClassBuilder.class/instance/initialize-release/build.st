@@ -27,6 +27,9 @@ build
 	self apply: metaChange.
 	self apply: classChange.
 
+	SystemAnnouncer uniqueInstance suspendAllWhile: [
+			comment ifNotNil: [result classComment: comment stamp: commentStamp]].
+
 	result instanceSide 
 		declareClassVariables: sharedVariables;
 		sharing: sharedPoolsString.

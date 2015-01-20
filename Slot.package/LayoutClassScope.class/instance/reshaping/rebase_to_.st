@@ -9,7 +9,7 @@ rebase: originalScope to: newScope
 	
 	fieldIndex := newParent firstFieldIndex.
 	result do: [ :slot | 
-		slot index: fieldIndex.
+		slot isVirtual ifFalse: [slot index: fieldIndex].
 		fieldIndex := fieldIndex + slot size ].
 	
 	^ result

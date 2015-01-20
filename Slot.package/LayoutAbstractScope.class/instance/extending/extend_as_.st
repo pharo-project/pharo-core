@@ -11,7 +11,7 @@ extend: someSlots as: type
 			ifFalse: [
 				currentParentScope := nextParentScope.
 				fieldIndex := fieldIndex + currentParentScope ownFieldSize].
-		realSlot index: fieldIndex.
+		realSlot isVirtual ifFalse: [realSlot index: fieldIndex].
 		fieldIndex := fieldIndex + realSlot size.
 		scope at: slotIndex put: realSlot ].
 	
