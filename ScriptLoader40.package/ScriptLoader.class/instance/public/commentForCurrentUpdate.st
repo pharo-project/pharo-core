@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '14766 Fix two release methods in Versionner
-	https://pharo.fogbugz.com/f/cases/14766
+ ^ '14770 Clean up the AST-Interpreter package further
+	https://pharo.fogbugz.com/f/cases/14770
 
-14768 MCClassDefinition: merge #createClass into #load
-	https://pharo.fogbugz.com/f/cases/14768'
+14769 final MCClassDefinition>>#load simplification
+	https://pharo.fogbugz.com/f/cases/14769'
