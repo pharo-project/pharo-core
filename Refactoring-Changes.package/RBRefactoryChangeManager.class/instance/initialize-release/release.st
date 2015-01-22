@@ -1,3 +1,3 @@
 release
-	super release.
-	self disconnectFromChanges
+	self disconnectFromChanges.
+	super release.	

@@ -1,1 +1,1 @@
-Action when the method is an executable script
+Action when the method is an executable script tagged with one or more of the following pragmassomeMethod  <script>  ...or:myMethodReturningAForm    <script: 'self myMethodReturningAForm asMorph openInWorld'>    ...

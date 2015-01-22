@@ -1,3 +1,3 @@
 isActionHandled
 
-	^ method isScriptMethod 
+	^ method isScriptMethod or: [ method isScriptMethodWithScript ]
