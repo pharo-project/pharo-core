@@ -1,2 +1,0 @@
-isMessageStream
-	^ false

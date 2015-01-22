@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '14755 Slot: do not call #index: on virtual slots
-	https://pharo.fogbugz.com/f/cases/14755
+ ^ '14762 Deprecate Stream>>isMessageStream
+	https://pharo.fogbugz.com/f/cases/14762
 
-14753 add support for setting class comments to class builder
-	https://pharo.fogbugz.com/f/cases/14753'
+14761 Move Collections-Strings deprecated methods to Deprecated40 package
+	https://pharo.fogbugz.com/f/cases/14761
+
+14758 Simplify MCClassDefinition>>#createClass
+	https://pharo.fogbugz.com/f/cases/14758'

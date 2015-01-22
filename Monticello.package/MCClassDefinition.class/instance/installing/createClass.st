@@ -1,5 +1,5 @@
 createClass
-	| superClass class slots classSlots classVars|
+	| superClass slots classSlots classVars|
 	superClass := superclassName == #nil ifFalse:
 						[ Smalltalk globals at: superclassName ].
 	self hasComplexVariables 
@@ -11,7 +11,7 @@ createClass
 			slots := self instanceVariablesString asSlotCollection.
 			classSlots := self classInstanceVariablesString asSlotCollection.
 			classVars := (self classVariablesString subStrings: ' ') collect: [:x | x asSymbol => ClassVariable]].
-	[ class := PharoClassInstaller make: [ :builder | 
+	[ ^PharoClassInstaller make: [ :builder | 
 		builder
 			superclass: superClass;
 			name: name;
@@ -20,10 +20,8 @@ createClass
 			sharedVariables: classVars;
 			sharedPools: self sharedPoolsString;
 			classSlots: classSlots;
+			traitComposition: self traitCompositionCompiled;
+			classTraitComposition: self classTraitCompositionCompiled;
 			category: category;
-			environment:  superClass environment.
-			 ]] on: Warning, DuplicatedVariableError do: [:ex| ex resume].
+			environment:  superClass environment]] on: Warning, DuplicatedVariableError do: [:ex| ex resume].
 	
-	class setTraitComposition: self traitCompositionCompiled.
-	class class setTraitComposition: self classTraitCompositionCompiled.
-	^ class
