@@ -1,4 +1,4 @@
 release
 
-	super release.
 	baselines := versions := nil.
+	super release.	
