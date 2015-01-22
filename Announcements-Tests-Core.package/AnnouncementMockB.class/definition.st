@@ -2,4 +2,4 @@ Announcement subclass: #AnnouncementMockB
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Announcements-Tests-Core'
+	category: 'Announcements-Tests-Core-Mocks'

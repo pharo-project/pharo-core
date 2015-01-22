@@ -1,1 +1,1 @@
-By default each Slot corresponds to an instance variable and vice versa. Hence there is a Slot for each instance variable.
+I add some special behavior: 	-  I override bytecode generation to generate ivar read and write bytecodes	- I print the definition as #name 

@@ -1,4 +1,4 @@
-AbstractInstanceVariableSlot subclass: #InstanceVariableSlot
+Slot subclass: #AbstractInstanceVariableSlot
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
