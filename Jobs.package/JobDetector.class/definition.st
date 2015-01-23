@@ -2,4 +2,4 @@ JobNotification subclass: #JobDetector
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Jobs'
+	category: 'Jobs-Exceptions'

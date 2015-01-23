@@ -1,6 +1,8 @@
 commentForCurrentUpdate
- ^ '14771 Announcements-Tests-Core cleanup more
-	https://pharo.fogbugz.com/f/cases/14771
+ ^ '14775 Cleanup "Jobs" package further
+	https://pharo.fogbugz.com/f/cases/14775
 
-14772 add AbstractInstanceVariableSlot
-	https://pharo.fogbugz.com/f/cases/14772'
+14770 Clean up the AST-Interpreter package further
+	https://pharo.fogbugz.com/f/cases/14770
+
+'

@@ -1,3 +1,3 @@
 announcer
 
-	^ Job jobAnnouncer
+	^ self class jobAnnouncer

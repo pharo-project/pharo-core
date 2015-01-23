@@ -1,3 +1,5 @@
 block: aBlock
-	
-	^ self new block: aBlock.
+
+	^(self new)
+		block: aBlock;
+		yourself

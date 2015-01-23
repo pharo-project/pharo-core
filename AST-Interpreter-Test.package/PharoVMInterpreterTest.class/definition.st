@@ -2,4 +2,4 @@ InterpreterTest subclass: #PharoVMInterpreterTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'AST-Interpreter-Test'
+	category: 'AST-Interpreter-Test-Tests'

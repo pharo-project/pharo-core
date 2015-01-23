@@ -2,4 +2,4 @@ TestCase subclass: #InterpreterTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'AST-Interpreter-Test'
+	category: 'AST-Interpreter-Test-Tests'

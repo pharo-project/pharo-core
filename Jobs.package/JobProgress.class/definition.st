@@ -2,4 +2,4 @@ JobNotification subclass: #JobProgress
 	instanceVariableNames: 'progress title'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Jobs'
+	category: 'Jobs-Exceptions'

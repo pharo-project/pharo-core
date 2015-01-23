@@ -2,4 +2,4 @@ Announcement subclass: #JobEnd
 	instanceVariableNames: 'job'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Jobs'
+	category: 'Jobs-Announcements'
