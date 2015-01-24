@@ -1,3 +1,5 @@
 definitionString
-	"non special slots are defined by the symbol"
-	^self name printString
+	"non special globals are defined by the symbol"
+	^self isSpecial
+		ifTrue: [super definitionString]
+		ifFalse: [self name printString]

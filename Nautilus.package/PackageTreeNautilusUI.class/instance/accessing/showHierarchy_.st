@@ -9,7 +9,7 @@ showHierarchy: aBoolean
 	
 	self classWidget showHierarchy: aBoolean.
 	"If showPackages false(Hierarchy)-->true(Flat) then selected package needs to synch to that of selected class"
-	(aBoolean not and: [ self model showHierarchy]) 
+	((aBoolean not and: [ self model showHierarchy]) and: [self selectedClass notNil]) 
 		ifTrue: [
 			self selectPackageFor: self selectedClass ].
 	self model showHierarchy: aBoolean.
