@@ -1,25 +1,16 @@
 load
-	| superClass slots classSlots classVars|
+	| superClass |
 	superClass := superclassName == #nil ifFalse:
 						[ Smalltalk globals at: superclassName ].
-	self hasComplexVariables 
-		ifTrue: [
-			slots := self instanceVariables.
-			classSlots := self classInstanceVariables.
-			classVars := self classVariables. ]
-		ifFalse: [
-			slots := self instanceVariablesString asSlotCollection.
-			classSlots := self classInstanceVariablesString asSlotCollection.
-			classVars := (self classVariablesString subStrings: ' ') collect: [:x | x asSymbol => ClassVariable]].
 	[PharoClassInstaller make: [ :builder | 
 		builder
 			superclass: superClass;
 			name: name;
 			layoutClass: (superClass classBuilder layoutForType: type);
-			slots: slots;
-			sharedVariables: classVars;
+			slots: self instanceVariables;
+			sharedVariables: self classVariables;
 			sharedPools: self sharedPoolsString;
-			classSlots: classSlots;
+			classSlots: self classInstanceVariables;
 			traitComposition: self traitCompositionCompiled;
 			classTraitComposition: self classTraitCompositionCompiled;
 			comment: comment stamp: commentStamp;
