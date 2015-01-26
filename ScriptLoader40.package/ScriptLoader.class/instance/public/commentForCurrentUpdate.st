@@ -1,8 +1,8 @@
 commentForCurrentUpdate
- ^ '14781 ManifestBuilder>>isObsoleteManifest removal
-	https://pharo.fogbugz.com/f/cases/14781
+ ^ '14757 Use code-critics category in the package manifest to manage false positives
+	https://pharo.fogbugz.com/f/cases/14757
 
-14666 When doing a "implementors of" with a selector that has 1 implementor --> neverthless open method list
-	https://pharo.fogbugz.com/f/cases/14666
+14773 Gofer/Metacello test failing
+	https://pharo.fogbugz.com/f/cases/14773
 
 '
