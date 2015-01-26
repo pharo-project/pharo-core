@@ -7,14 +7,6 @@ browseMessageList: messageList name: labelString autoSelect: autoSelectString re
 	
 	methods isEmpty ifTrue: 
 		[^ self inform: 'There are no ', String cr, labelString].
-
-	methods size == 1
-		ifTrue: [ | method |
-			method := methods first.
-			^ Smalltalk tools browser 
-				fullOnClass: method methodClass 
-				selector: method selector
-				highlight: autoSelectString ].
 	
 	^ Smalltalk tools messageList
 		openMessageList: methods 
