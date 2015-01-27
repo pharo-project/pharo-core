@@ -1,0 +1,2 @@
+primNum
+	^ primNumber 

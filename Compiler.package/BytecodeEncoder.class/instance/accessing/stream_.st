@@ -1,0 +1,2 @@
+stream: s
+	stream := s

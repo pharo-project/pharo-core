@@ -1,2 +1,2 @@
 bytecodeGeneratorClass
-	^ bytecodeGeneratorClass ifNil: [ bytecodeGeneratorClass := BytecodeBackend ]
+	^ bytecodeGeneratorClass ifNil: [ bytecodeGeneratorClass := IRBytecodeGenerator ]

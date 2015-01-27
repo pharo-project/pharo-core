@@ -1,2 +1,2 @@
 newBytecodeGen
-	^ CompilationContext bytecodeBackend new
+	^ IRBytecodeGenerator new
