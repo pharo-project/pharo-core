@@ -1,3 +1,3 @@
 silent
 	
-	^ silent ifNil: [self beVerbose.false.]
+	^ silent ifNil: [ self beVerbose. false ]

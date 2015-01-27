@@ -1,3 +1,4 @@
 updatesListFileName
-
-	^ 'updates', (SystemVersion current majorMinor:''), '.list'
+	"Returns the name of the update file"
+	
+	^ updatesListFileName ifNil: [ updatesListFileName := self defaultUpdatesListFileName ]

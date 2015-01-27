@@ -1,4 +1,4 @@
 upToNumber
-	"when specified the update will stop at this number"
+	"When specified the update will stop at this number"
 	
-	^ upToNumber ifNil: [ upToNumber := 1000000].
+	^ upToNumber ifNil: [ upToNumber := 1000000 ].

@@ -1,4 +1,4 @@
 path: aString
-	"http:// server / aString /updates.list"
+	"Sets the Path part ... in the following  http:// server / path /updatesXX.list"
 	
-	^ path ifNil: [ path := 'updates/pharo'].
+	path := aString
