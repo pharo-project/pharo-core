@@ -1,3 +1,0 @@
-primNum
-
-	^ primNum

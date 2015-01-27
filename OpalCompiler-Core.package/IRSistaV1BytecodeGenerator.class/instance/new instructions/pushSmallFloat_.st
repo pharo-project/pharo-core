@@ -1,2 +1,0 @@
-pushSmallFloat: smallFloat
-	self shouldBeImplemented

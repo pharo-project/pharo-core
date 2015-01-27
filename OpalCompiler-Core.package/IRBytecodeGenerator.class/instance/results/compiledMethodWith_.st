@@ -1,14 +1,5 @@
 compiledMethodWith: trailer
-	| cm |
-	cm := (CompiledMethod 
-		primitive: (self primNum > 0
-			ifTrue: [self primNum]
-			ifFalse: [self quickMethodPrim])
-		numArgs: self numArgs
-		numTemps: self numTemps
-		stackSize: self stackFrameSize
-		literals: self literals
-		bytecodes: self bytecodes
-		trailer: trailer).
-	self addProperties: cm.
-	^cm.
+	| lits header |
+	lits := self literals.
+	header := Smalltalk vm isSpur ifTrue: [ self spurVMHeader: lits size ] ifFalse: [ self v3VMHeader: lits size ].
+	^ self compiledMethodWith: trailer header: header literals: lits

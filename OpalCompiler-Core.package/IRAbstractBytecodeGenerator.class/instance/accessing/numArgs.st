@@ -1,3 +1,0 @@
-numArgs
-
-	^ numArgs

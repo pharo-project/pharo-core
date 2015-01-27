@@ -1,3 +1,0 @@
-numArgs: n
-
-	numArgs := n

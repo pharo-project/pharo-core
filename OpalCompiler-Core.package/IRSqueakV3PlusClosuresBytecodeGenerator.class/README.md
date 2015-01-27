@@ -1,1 +1,0 @@
-Version where primitive number is encoded in the method header.max literals 255.

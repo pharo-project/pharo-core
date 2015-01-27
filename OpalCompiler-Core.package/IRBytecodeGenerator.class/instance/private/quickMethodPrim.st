@@ -11,7 +11,7 @@ quickMethodPrim
 	lastSpecialReturn selector == #returnReceiver 
 		ifTrue: [^256].
 	lastSpecialReturn selector == #returnConstant:
-		 ifTrue: [^(index := self encoderClass specialLiterals indexOf: lastSpecialReturn argument) > 0
+		 ifTrue: [^(index := self encoderClass specialLiterals identityIndexOf: lastSpecialReturn argument) > 0
 					ifTrue: [256 + index] ifFalse: [0]].
 	lastSpecialReturn selector == #returnInstVar: 
 		ifTrue: [^forceLongForm 

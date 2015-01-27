@@ -1,0 +1,2 @@
+hasPrimitive
+	^ primNumber > 0
