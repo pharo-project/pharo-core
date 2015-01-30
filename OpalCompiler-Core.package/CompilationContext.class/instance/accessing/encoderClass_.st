@@ -1,0 +1,2 @@
+encoderClass: anObject
+	encoderClass := anObject

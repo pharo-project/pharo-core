@@ -1,5 +1,5 @@
 Object subclass: #CCompilationContext
-	instanceVariableNames: 'requestor failBlock noPattern class category logged interactive options environment parserClass semanticAnalyzerClass astTranslatorClass bytecodeGeneratorClass compiledMethodTrailer'
+	instanceVariableNames: 'astTranslatorClass bytecodeGeneratorClass category class compiledMethodTrailer encoderClass environment failBlock interactive logged noPattern options parserClass requestor semanticAnalyzerClass'
 	classVariableNames: 'BytecodeBackend WarningAllowed'
 	poolDictionaries: ''
 	category: 'OpalCompiler-Core-FrontEnd'

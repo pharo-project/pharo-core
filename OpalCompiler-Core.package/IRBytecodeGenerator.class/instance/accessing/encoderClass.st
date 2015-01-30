@@ -1,2 +1,2 @@
 encoderClass
-	^ EncoderForV3PlusClosures 
+	^ encoderClass  

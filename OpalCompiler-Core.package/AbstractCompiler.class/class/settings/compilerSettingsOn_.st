@@ -11,9 +11,8 @@ compilerSettingsOn: aBuilder
 						target: CompilationContext;
 						label: 'Bytecode Backend';
 						domainValues:
-								{IRSqueakV3PlusClosuresBytecodeGenerator.
-								IRSpurSqueakV3PlusClosuresBytecodeGenerator .
-									IRSistaV1BytecodeGenerator}.
+								{#V3PlusClosures -> EncoderForV3PlusClosures.
+								#SistaV1 -> EncoderForSistaV1 }.
 					(aBuilder setting: #warningAllowed)
 						target: CompilationContext;
 						label: 'Allow Warnings';
