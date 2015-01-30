@@ -7,6 +7,4 @@ testReplaceBlock
 			tree newSource
 				=
 					'run
-	self foo ifNil: [ ^ false ]'.
-	self assert: tree sourceInterval = (1 to: 32).
-	self assert: tree body statements first arguments first sourceInterval = (21 to: 31)
+	self foo ifNil: [ ^ false ]'

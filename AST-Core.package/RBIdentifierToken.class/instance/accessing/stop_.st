@@ -1,4 +1,0 @@
-stop: anObject
-	stopPosition := anObject
-
-	

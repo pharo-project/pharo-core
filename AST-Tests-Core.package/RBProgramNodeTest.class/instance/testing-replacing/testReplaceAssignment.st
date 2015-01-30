@@ -7,6 +7,4 @@ testReplaceAssignment
 			tree newSource
 				=
 					'run
-	multpppp := 2 * 2'.
-	self assert: tree sourceInterval = (1 to: 22).
-	self assert: tree body statements first sourceInterval = (5 to: 21)
+	multpppp := 2 * 2'

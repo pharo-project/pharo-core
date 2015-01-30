@@ -17,7 +17,9 @@ drawLine: index on: aCanvas rectangle: rectangle
 			self detailPosition: rect topRight ].
 	highlightRectangle := rectangle translateBy: (font widthOfString: preString) @ 0.
 	highlightRectangle := highlightRectangle withWidth: (font widthOfString: context completionToken).
-	aCanvas fillRectangle: highlightRectangle color: (Color gray alpha: 0.3).
+	aCanvas 
+		clipBy: rectangle 
+		during: [ :c | c fillRectangle: highlightRectangle color: (Color gray alpha: 0.3) ].
 	aCanvas
 		drawString: string
 		in: (rectangle insetBy: 1)
