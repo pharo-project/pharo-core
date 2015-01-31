@@ -1,3 +1,3 @@
 asMinutes
  	"Answer the number of minutes in the receiver."
- 	^ seconds / 60.0
+ 	^ self asNanoSeconds  / 60000000000.0

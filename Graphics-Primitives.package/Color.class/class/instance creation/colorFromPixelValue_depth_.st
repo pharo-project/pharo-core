@@ -26,7 +26,6 @@ colorFromPixelValue: p depth: d
 		b := p bitAnd: 255.
 		alpha := p bitShift: -24.
 		alpha = 0 ifTrue: [ ^ self transparent ].
-		(r = 0 and: [ g = 0 and: [ b = 0 ] ]) ifTrue: [ ^ self transparent ].
 		alpha < 255 
 			ifTrue: 
 				[ ^ (self 

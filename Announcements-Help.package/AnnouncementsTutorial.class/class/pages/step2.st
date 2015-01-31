@@ -27,4 +27,4 @@ So anytime an interesting announcement is made we want to inform the two consume
 	announcer when: MyInterestingAnnouncement send: #inspect to: Smalltalk.    	
 	announcer announce: MyInterestingAnnouncement new	
 
-Note that the subscribers are decoupled from the orginal announcement publisher. They dont have to know each other. Decoupling is the key thing here ... subscribers can register for particular events/announcements and remain anonymous to the original publisher. !' readStream nextChunkText
+Note that the subscribers are decoupled from the original announcement publisher. They dont have to know each other. Decoupling is the key thing here ... subscribers can register for particular events/announcements and remain anonymous to the original publisher. !' readStream nextChunkText

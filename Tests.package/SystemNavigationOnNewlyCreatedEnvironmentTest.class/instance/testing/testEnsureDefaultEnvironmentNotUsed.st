@@ -1,15 +1,15 @@
 testEnsureDefaultEnvironmentNotUsed
 	
-	| allClasses orginalProtoObjectClass orginalObjectClass anotherObjectClass |
+	| allClasses originalProtoObjectClass originalObjectClass anotherObjectClass |
 	allClasses := self systemNavigationToTest allClasses.
 	self assert: allClasses isEmpty.
-	orginalProtoObjectClass := Smalltalk globals at: #ProtoObject.		
-	orginalObjectClass := Smalltalk globals at: #Object.
+	originalProtoObjectClass := Smalltalk globals at: #ProtoObject.		
+	originalObjectClass := Smalltalk globals at: #Object.
 	
 	DangerousClassNotifier disableForTesting.
-	anotherObjectClass := self classFactory newClassNamed: #Object subclassOf: orginalProtoObjectClass instanceVariableNames: '' classVariableNames:  'DependentsFields'.
+	anotherObjectClass := self classFactory newClassNamed: #Object subclassOf: originalProtoObjectClass instanceVariableNames: '' classVariableNames:  'DependentsFields'.
 	DangerousClassNotifier restoreAfterTesting.
 	
 	self assert: ((self environmentToTest at: #Object) = anotherObjectClass).
-	self assert: ((Smalltalk globals at: #Object) = orginalObjectClass).
+	self assert: ((Smalltalk globals at: #Object) = originalObjectClass).
 	

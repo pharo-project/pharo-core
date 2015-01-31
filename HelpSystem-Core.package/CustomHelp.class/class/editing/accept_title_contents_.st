@@ -4,8 +4,8 @@ accept: aSelector title: title contents: text
 	| code |
 	code := String streamContents:[:s|
 		s nextPutAll: aSelector.
-		s crtab; nextPutAll: '"This method was automatically generated. Edit it using:"'.
-		s crtab; nextPutAll: '"', self name,' edit: ', aSelector storeString,'"'.
+		s crtab; nextPutAll: '"This method was automatically generated."'.
+		s crtab; nextPutAll: '<script: ''self edit: ', aSelector storeString,'''>'.
 		s crtab; nextPutAll: '^HelpTopic'.
 		s crtab: 2; nextPutAll: 'title: ', title storeString.
 		s crtab: 2; nextPutAll: 'contents: '.

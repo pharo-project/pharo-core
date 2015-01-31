@@ -23,7 +23,7 @@ openDebuggerOn: process context: context label: title contents: contentsStringOr
 				ifFalse: [debugger openNotifierContents: contentsStringOrNil label: title].
 			debugger errorWasInUIProcess: errorWasInUIProcess.]
 				on: Error
-				do: [:ex | Smalltalk tools debugger primitiveError: 'Orginal error: ' , title asString , '.
+				do: [:ex | Smalltalk tools debugger primitiveError: 'Original error: ' , title asString , '.
 	Smalltalk tools debugger error: '
 							, ([ex description]
 									on: Error
