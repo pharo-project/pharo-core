@@ -1,3 +1,2 @@
 rename: aVarName to: aName in: aClass
-	self variable: aVarName class: aClass.
-	newName := aName
+	self rename: aVarName to: aName in: aClass renameAccessors: true

@@ -1,0 +1,2 @@
+isMemoryFileSystem
+	^ store isMemoryFileSystem

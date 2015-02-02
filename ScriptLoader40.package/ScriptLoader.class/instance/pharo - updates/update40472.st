@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '14843 Refactoring "Deprecate" should use the SearchFacade
+update40472
+	"self new update40472"
+	self withUpdateLog: '14843 Refactoring "Deprecate" should use the SearchFacade
 	https://pharo.fogbugz.com/f/cases/14843
 
 14820 Add flag RBRenameInstanceVariableRefactoring
@@ -12,4 +13,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/14831
 
 14846 MakeRelative: method applied on two relative paths is not working
-	https://pharo.fogbugz.com/f/cases/14846'
+	https://pharo.fogbugz.com/f/cases/14846'.
+	self loadTogether: self script472 merge: false.
+	self flushCaches.

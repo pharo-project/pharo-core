@@ -1,5 +1,11 @@
 transform
-	self removeOldAccessors.
+	renameAccessors ifTrue: [ 
+		self removeOldAccessors 
+	].
+	
 	class renameInstanceVariable: variableName to: newName around: [ self renameReferences ].
-	self addNewAccessors.
-	self renameAccessorsReferences
+	
+	renameAccessors ifTrue: [ 
+		self addNewAccessors.
+		self renameAccessorsReferences
+	]

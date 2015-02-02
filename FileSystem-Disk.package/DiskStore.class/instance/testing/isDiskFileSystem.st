@@ -1,0 +1,2 @@
+isDiskFileSystem
+	^ true
