@@ -1,0 +1,1 @@
+A PackageTreeNautilusTest is xxxxxxxxx.Instance Variables	nautilus:		<Object>nautilus	- xxxxx

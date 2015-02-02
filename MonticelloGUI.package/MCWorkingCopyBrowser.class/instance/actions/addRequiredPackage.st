@@ -1,8 +1,10 @@
 addRequiredPackage
 	| chosen |
-	workingCopy ifNotNil: [:wc |
-		chosen := self pickWorkingCopySatisfying: 
-			[:ea | ea ~= wc and: [(wc requiredPackages includes: ea package) not]].
-		chosen ifNotNil:
-			[wc requirePackage: chosen package.
-			self workingCopyListChanged]]
+	workingCopy
+		ifNotNil: [ :wc | 
+			chosen := (SearchFacade mcPackageSearchRejectAll: [ :ea | ea = wc or: [ wc requiredPackages includes: ea package ] ])
+				chooseFromOwner: self window.
+			chosen
+				ifNotNil: [ 
+					wc requirePackage: chosen package.
+					self workingCopyListChanged ] ]

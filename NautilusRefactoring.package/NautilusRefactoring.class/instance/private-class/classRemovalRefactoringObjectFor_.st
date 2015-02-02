@@ -1,4 +1,4 @@
-privateRemoveClassesFor: aCollection
+classRemovalRefactoringObjectFor: aCollection
 	
 	^ RBRemoveClassRefactoring 
 			model: environment 

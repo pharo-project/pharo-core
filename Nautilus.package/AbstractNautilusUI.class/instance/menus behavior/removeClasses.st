@@ -1,5 +1,5 @@
 removeClasses
-	"Remove the selected class from the system, at interactive user request.  Make certain the user really wants to do this, since it is not reversible.  Answer true if removal actually happened."
+	"Remove the selected classes from the system, at interactive user request.  Make sure the user really wants to do this, since it is not reversible.  Answer true if removal actually happened."
 
 	| result scroll |
 	self okToChange ifFalse: [^ false].
