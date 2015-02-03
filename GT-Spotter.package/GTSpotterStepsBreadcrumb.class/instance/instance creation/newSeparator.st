@@ -1,0 +1,3 @@
+newSeparator
+
+	^ GLMBrick new

@@ -1,3 +1,3 @@
 sendEvent: aLayoutEvent to: aBrick
 
-	aBrick isBrick ifTrue: [ aBrick onLayoutEvent: aLayoutEvent ]
+	aBrick onLayoutEvent: aLayoutEvent

@@ -1,3 +1,3 @@
 shrinkTop: aRectangle with: aBrick
 
-	^ aRectangle top: (aRectangle top + aBrick brickGlobalOuterBounds height)
+	^ aRectangle top: (aRectangle top + aBrick globalOuterBounds height)

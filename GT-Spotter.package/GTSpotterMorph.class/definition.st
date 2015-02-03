@@ -1,5 +1,5 @@
 GLMFoundationBrick subclass: #GTSpotterMorph
-	instanceVariableNames: 'focusedMorph breadcrumbBrick breadcrumbWrapperBrick contentsBrick spotterModel'
+	instanceVariableNames: 'focusedMorph breadcrumbBrick paneBrick spotterModel autoHide'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-Spotter-UI'

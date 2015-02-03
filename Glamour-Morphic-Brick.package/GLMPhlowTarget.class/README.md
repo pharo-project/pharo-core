@@ -1,0 +1,1 @@
+A GLMPhlowTarget is xxxxxxxxx.Instance Variables	phlowObject:		<Object>phlowObject	- xxxxx

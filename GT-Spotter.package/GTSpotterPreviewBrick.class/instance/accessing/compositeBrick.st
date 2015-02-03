@@ -1,0 +1,3 @@
+compositeBrick
+
+	^ compositeBrick

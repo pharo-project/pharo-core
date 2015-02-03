@@ -1,0 +1,3 @@
+markWidthClean
+
+	self widthState: #clean

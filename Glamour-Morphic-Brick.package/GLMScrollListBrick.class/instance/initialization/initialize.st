@@ -1,4 +1,4 @@
 initialize
 	super initialize.
 	
-	self band layoutPolicy: GLMBrickVerticalFillLayout new
+	self band layoutPolicy: GLMBrickVerticalScrollListLayout new

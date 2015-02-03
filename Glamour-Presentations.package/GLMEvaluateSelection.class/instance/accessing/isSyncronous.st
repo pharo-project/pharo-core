@@ -1,0 +1,2 @@
+isSyncronous
+	^ isSyncronous

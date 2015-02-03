@@ -1,3 +1,3 @@
 spotterStyleFor: aBrick
 
-	aBrick brickRoot: GLMBandBrick new.
+	aBrick brickRoot layout: GLMBrickVerticalFillProportionalLinearLayout new

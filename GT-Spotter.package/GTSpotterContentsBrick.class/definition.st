@@ -1,4 +1,4 @@
-GLMBandBrick subclass: #GTSpotterContentsBrick
+GLMBrick subclass: #GTSpotterContentsBrick
 	instanceVariableNames: 'headerBrick dropDownBrick spotterModel'
 	classVariableNames: ''
 	poolDictionaries: ''

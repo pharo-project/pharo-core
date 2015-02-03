@@ -2,7 +2,7 @@ initialize
 	super initialize.
 	self enable.
 	
-	self theme spotterWidgetThemer itemNormalStyleFor: self.
+	self themer spotterThemer itemNormalStyleFor: self.
 	
 	self iconBrick: self newIconBrick.
 	self labelBrick: self newLabelBrick.

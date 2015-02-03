@@ -2,9 +2,9 @@ layoutProportional: aCollection in: aBrick position: aSymbol
 	| fullWidth eachWidth index |
 	aCollection isEmpty ifTrue: [ ^ self ].
 	
-	fullWidth := aBrick brickInnerBounds width.
+	fullWidth := aBrick innerBounds width.
 	index := 0.
-	aCollection inject: aBrick layoutProperties paddingLeft into: [ :leftOffset :each |
+	aCollection inject: aBrick paddingLeft into: [ :leftOffset :each |
 		|layoutBounds|
 		
 		self sendEvent: (GLMBrickLayoutStacked new index: (index + 1); position: aSymbol; yourself) to: each.

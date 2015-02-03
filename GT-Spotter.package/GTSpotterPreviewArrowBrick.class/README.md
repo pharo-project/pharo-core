@@ -1,0 +1,1 @@
+A GTSpotterPreviewArrowBrick is xxxxxxxxx.Instance Variables	selectedItemBrick:		<Object>	spotterModel:		<Object>	triangleBrick:		<Object>selectedItemBrick	- xxxxxspotterModel	- xxxxxtriangleBrick	- xxxxx

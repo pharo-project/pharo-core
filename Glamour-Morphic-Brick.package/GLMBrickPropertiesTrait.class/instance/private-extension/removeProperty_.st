@@ -1,0 +1,3 @@
+removeProperty: aSymbol
+	
+	^ self explicitRequirement

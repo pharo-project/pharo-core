@@ -1,3 +1,3 @@
-setIndex: anInteger in: aMorph 
+setIndex: anInteger in: aBrick 
 
-	aMorph setProperty: #brickScrollListIndex toValue: anInteger
+	aBrick setProperty: #brickScrollListIndex toValue: anInteger

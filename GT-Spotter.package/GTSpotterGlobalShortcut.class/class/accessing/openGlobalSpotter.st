@@ -3,8 +3,7 @@ openGlobalSpotter
 		ifNotNil: [ globalSpotter delete ].
 		
 	globalSpotter := GTSpotterMorph new
-		width: 630;
-		doLayout;
+		extent: (World width / 2.4 @ (World height / 1.6)) asIntegerPoint;
 		spotterModel: GTSpotter new;
 		openCenteredInWorld.
 		

@@ -1,4 +1,4 @@
 showActionbar
 
-	self theme spotterWidgetThemer itemActionbarVisibleStyleFor: self actionbarBrick.
+	self themer spotterThemer itemActionbarVisibleStyleFor: self actionbarBrick.
 	self doLayout.

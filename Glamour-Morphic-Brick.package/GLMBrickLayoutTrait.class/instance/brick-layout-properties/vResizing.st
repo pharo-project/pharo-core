@@ -1,0 +1,3 @@
+vResizing
+
+	^ self layout vResizing

@@ -3,6 +3,6 @@ nameBrick: aBrick
 	nameBrick ifNotNil: [self removeBrick: nameBrick].
 	nameBrick := aBrick.
 	
-	self theme spotterWidgetThemer categoryTitleNameStyleFor: nameBrick.
+	self themer spotterThemer categoryTitleNameStyleFor: nameBrick.
 	
 	self addBrickBack: nameBrick

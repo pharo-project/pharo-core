@@ -1,1 +1,1 @@
-A GLMScrollListBrick is a list to support of very large amount of items
+A GLMScrollListBrick is xxxxxxxxx.Instance Variables	adaptor:		<Object>	visibleIndex:		<Object>adaptor	- xxxxxvisibleIndex	- xxxxx

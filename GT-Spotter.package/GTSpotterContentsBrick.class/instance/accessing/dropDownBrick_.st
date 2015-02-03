@@ -4,6 +4,6 @@ dropDownBrick: aBrick
 	dropDownBrick := aBrick.
 	
 	dropDownBrick pagerModel: self spotterModel pagerModel.
-	self theme spotterWidgetThemer dropDownPaneStyleFor: dropDownBrick.
+	self themer spotterThemer dropDownPaneStyleFor: dropDownBrick.
 	
 	self addBrickBack: dropDownBrick

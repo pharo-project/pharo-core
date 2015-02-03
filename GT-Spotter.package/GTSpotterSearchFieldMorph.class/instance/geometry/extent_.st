@@ -3,4 +3,4 @@ extent: aPoint
 	
 	self owner ifNotNil: [
 		"to center text area"
-		self layoutProperties marginTop: (self owner height - self textArea height) / 2 ]
+		self owner layoutProperties marginTop: (self brickThemer spotterThemer headerHeight - self textArea height) / 2 ]

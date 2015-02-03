@@ -1,5 +1,5 @@
 addActionButton: anActionButton
 
-	self theme spotterWidgetThemer itemActionButtonStyleFor: anActionButton.
+	self themer spotterThemer itemActionButtonStyleFor: anActionButton.
 
 	self addBrickBack: anActionButton.

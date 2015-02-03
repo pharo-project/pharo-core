@@ -1,3 +1,0 @@
-newTextBrick
-
-	^ RubScrolledTextMorph new

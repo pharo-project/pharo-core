@@ -2,4 +2,4 @@ appendVariableBinding: anAssociationList
 
 	anAssociationList ifNotNil: [
 		anAssociationList do: [ :anAssociation | 
-			self variableBindings at: anAssociation key put: anAssociation value ] ]
+			self variableBindings add: (WorkspaceVariable key: anAssociation key value: anAssociation value) ] ]

@@ -1,0 +1,1 @@
+A GLMPhlowTransmissionBuilder is xxxxxxxxx.Instance Variables	transmissions:		<Object>transmissions	- xxxxx

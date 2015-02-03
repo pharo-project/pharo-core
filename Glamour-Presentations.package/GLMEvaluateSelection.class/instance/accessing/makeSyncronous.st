@@ -1,0 +1,2 @@
+makeSyncronous
+	isSyncronous := true

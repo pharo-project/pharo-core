@@ -1,0 +1,3 @@
+newRubricMorph
+
+	^ RubScrolledTextMorph new

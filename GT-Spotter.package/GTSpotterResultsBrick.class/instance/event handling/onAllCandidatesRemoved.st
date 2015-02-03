@@ -5,4 +5,6 @@ onAllCandidatesRemoved
 	
 	self band fullReleaseCachedState.
 	self band releaseCachedState.
+	self doLayout.
+	self changed.
 	

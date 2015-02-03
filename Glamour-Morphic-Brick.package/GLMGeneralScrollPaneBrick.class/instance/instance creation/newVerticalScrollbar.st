@@ -1,2 +1,0 @@
-newVerticalScrollbar
-	^ GLMScrollbarBrick new

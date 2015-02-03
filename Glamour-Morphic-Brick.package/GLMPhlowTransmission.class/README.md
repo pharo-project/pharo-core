@@ -1,0 +1,1 @@
+A GLMPhlowTransmission is xxxxxxxxx.Instance Variables	action:		<Object>	condition:		<Object>	destination:		<Object>	origins:		<Object>	phlow:		<Object>	transformation:		<Object>action	- xxxxxcondition	- xxxxxdestination	- xxxxxorigins	- xxxxxphlow	- xxxxxtransformation	- xxxxx

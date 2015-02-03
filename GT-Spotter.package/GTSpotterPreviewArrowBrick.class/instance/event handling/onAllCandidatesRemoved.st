@@ -1,0 +1,3 @@
+onAllCandidatesRemoved
+
+	self selectedItemBrick: nil

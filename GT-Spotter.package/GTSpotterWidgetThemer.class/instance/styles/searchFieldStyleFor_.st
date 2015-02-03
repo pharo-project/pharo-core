@@ -5,10 +5,12 @@ searchFieldStyleFor: aMorph
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;
 		color: Color transparent;
+		textColor: self searchFieldTextColor;
 		withoutAdornment;
 		withGhostText: self spotterGhostText;
 		autoAccept: true;
-		borderColor: Color white.
+		borderColor: Color transparent;
+		borderWidth: 0.
 		
 	aMorph layoutProperties
 		hSpaceFill;
@@ -20,3 +22,5 @@ searchFieldStyleFor: aMorph
 	aMorph textArea
 		font: (LogicalFont familyName: self searchFieldFamilyName pointSize: self searchFieldFontSize);
 		backgroundColor: Color transparent.
+		
+	aMorph textArea cursor color: self searchFieldCursorColor

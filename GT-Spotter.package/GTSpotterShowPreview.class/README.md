@@ -1,0 +1,1 @@
+A GTSpotterShowPreview is xxxxxxxxx.

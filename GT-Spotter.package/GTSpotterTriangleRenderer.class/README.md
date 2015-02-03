@@ -1,0 +1,1 @@
+A GTSpotterTriangleRenderer is xxxxxxxxx.Instance Variables	orientation:		<Object>orientation	- xxxxx

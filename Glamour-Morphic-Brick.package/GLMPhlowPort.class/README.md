@@ -1,0 +1,1 @@
+A GLMPhlowPort is xxxxxxxxx.Instance Variables	transmissions:		<Object>transmissions	- xxxxx

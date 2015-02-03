@@ -1,0 +1,3 @@
+layoutProperties
+
+	^ self explicitRequirement

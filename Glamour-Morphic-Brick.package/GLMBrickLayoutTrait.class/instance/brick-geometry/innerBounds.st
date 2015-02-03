@@ -1,0 +1,3 @@
+innerBounds
+
+	^ self explicitRequirement

@@ -1,2 +1,0 @@
-resultsScrollbarMarginRight
-	^ 1

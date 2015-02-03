@@ -1,0 +1,3 @@
+newArrowBrick
+
+	^ GTSpotterPreviewArrowBrick new

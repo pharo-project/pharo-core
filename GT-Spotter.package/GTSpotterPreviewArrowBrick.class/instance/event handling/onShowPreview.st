@@ -1,0 +1,3 @@
+onShowPreview
+
+	self changed

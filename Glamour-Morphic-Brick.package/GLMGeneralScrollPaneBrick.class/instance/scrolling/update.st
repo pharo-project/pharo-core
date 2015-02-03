@@ -1,3 +1,0 @@
-update
-
-	self verticalScrollbar update

@@ -1,0 +1,3 @@
+newTriangleBrick
+
+	^ GLMBrick new

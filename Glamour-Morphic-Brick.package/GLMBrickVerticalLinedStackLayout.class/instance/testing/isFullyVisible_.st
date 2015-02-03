@@ -1,3 +1,3 @@
 isFullyVisible: aBrick
 	
-	^ self allowedBounds containsRect: aBrick brickGlobalOuterBounds
+	^ self allowedBounds containsRect: aBrick globalOuterBounds

@@ -1,5 +1,5 @@
 Announcement subclass: #GLMEvaluateSelection
-	instanceVariableNames: 'action'
+	instanceVariableNames: 'action isSyncronous'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Glamour-Presentations-Announcements'

@@ -1,0 +1,2 @@
+destination: anObject
+	destination := anObject

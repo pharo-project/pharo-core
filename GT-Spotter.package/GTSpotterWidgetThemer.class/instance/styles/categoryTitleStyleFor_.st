@@ -2,8 +2,7 @@ categoryTitleStyleFor: aBrick
 
 	aBrick
 		layoutPolicy: GLMBrickHorizontalFillProportionalLinearLayout new;
-		normalColor: (Color white alpha: 0.95);
-		selectedColor: (Color veryVeryLightGray lighter alpha: 0.95);
+		normalColor: self categoryTitleBackgroundColor;
 		height: [ 30 ].
 	
 	aBrick layoutProperties

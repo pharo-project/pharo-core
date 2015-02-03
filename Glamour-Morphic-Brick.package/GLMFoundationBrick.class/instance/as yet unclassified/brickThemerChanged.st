@@ -1,0 +1,3 @@
+brickThemerChanged
+
+	self brickRoot themerChanged

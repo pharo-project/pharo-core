@@ -1,3 +1,6 @@
 setBoundsOf: aMorph after: afterMorph
 	
-	aMorph brickBounds: (afterMorph brickBounds translateBy: (0@aMorph height))
+	aMorph
+		withWidth: self band width;
+		doLayout;
+		brickBounds: (afterMorph brickBounds bottomLeft extent: aMorph extent)

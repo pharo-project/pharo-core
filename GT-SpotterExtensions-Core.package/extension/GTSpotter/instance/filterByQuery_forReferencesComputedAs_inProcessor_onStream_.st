@@ -1,13 +1,13 @@
 filterByQuery: originalQuery forReferencesComputedAs: fileReferencesBlock inProcessor: processor onStream: stream
 	| prefixMatchers split rootDirectory query fullQuery rest |
 	fullQuery := originalQuery trimBoth asLowercase.
-	split := fullQuery piecesCutWhere: [ :a :b | a = FileSystem disk separator ].
-	split size <= 1
+	split := fullQuery piecesCutWhere: [ :a :b | a = FileSystem disk delimiter ].
+	split size < 1
 		ifTrue: [ 
 			query := fullQuery.
 			rootDirectory := FileSystem workingDirectory ]
 		ifFalse: [ 
-			(split last last = FileSystem disk separator)
+			(split last last = FileSystem disk delimiter)
 				ifTrue: [ 
 					query := ''.
 					rootDirectory := fullQuery asFileReference ]

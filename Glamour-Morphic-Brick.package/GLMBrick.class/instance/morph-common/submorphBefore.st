@@ -1,0 +1,3 @@
+submorphBefore
+
+	^ self subbrickBefore

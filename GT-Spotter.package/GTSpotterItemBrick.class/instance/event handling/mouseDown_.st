@@ -1,6 +1,8 @@
 mouseDown: evt
 	|selectors|
 	
+	self isEnabled ifFalse: [ ^ self ].
+	
 	selectors := Array
 				with: #singleClick:
 				with: #doubleClick:

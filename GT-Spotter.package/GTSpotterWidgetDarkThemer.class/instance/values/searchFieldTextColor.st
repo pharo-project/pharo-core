@@ -1,0 +1,3 @@
+searchFieldTextColor
+	
+	^ Color white slightlyDarker

@@ -1,2 +1,2 @@
 setHShrinking: aBrick
-	aBrick widthBlock: nil
+	aBrick width: nil

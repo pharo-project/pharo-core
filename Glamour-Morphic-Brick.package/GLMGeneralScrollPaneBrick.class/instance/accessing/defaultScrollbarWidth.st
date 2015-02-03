@@ -1,3 +1,0 @@
-defaultScrollbarWidth
-
-	^ 5

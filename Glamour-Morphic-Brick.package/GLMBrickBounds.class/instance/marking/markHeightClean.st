@@ -1,0 +1,3 @@
+markHeightClean
+
+	self heightState: #clean

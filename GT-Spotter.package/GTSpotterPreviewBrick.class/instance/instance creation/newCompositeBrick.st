@@ -1,0 +1,3 @@
+newCompositeBrick
+
+	^ GLMCompositeBrick new

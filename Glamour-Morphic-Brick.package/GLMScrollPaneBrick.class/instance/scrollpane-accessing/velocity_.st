@@ -1,0 +1,3 @@
+velocity: anInteger
+
+	velocity := anInteger

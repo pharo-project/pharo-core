@@ -1,0 +1,3 @@
+labelBrick
+
+	^ labelBrick

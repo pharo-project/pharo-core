@@ -1,7 +1,8 @@
 initialize
 	super initialize.
 	
-	self layoutPolicy: (GLMBrickHorizontalFillLinearLayout new).
-		
-	self band: self newBand
+	self
+		layout: GLMBrickHorizontalFillLinearLayout new;
+		band: self newBand;
+		height: [ self items isEmpty ifTrue: [ 0 ] ifFalse: [ self defaultBreadcrumbHeight ] ]
 	

@@ -4,6 +4,7 @@ spotterForFilesFor: aStep
 		aStep listProcessor
 			allCandidates: [ self files ];
 			title: 'Files';
+			candidatesLimit: Float infinity;
 			itemName: #basename;
 			itemIcon: [ GLMUIThemeExtraIcons glamorousBrowse ];
 			matchSubstring ]

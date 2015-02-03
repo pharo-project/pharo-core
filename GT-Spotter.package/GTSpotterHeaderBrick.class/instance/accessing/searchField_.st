@@ -3,7 +3,7 @@ searchField: aMorph
 	searchField ifNotNil: [self removeBrick: searchField].
 	searchField := aMorph.
 	
-	self theme spotterWidgetThemer searchFieldStyleFor: searchField.
+	self themer spotterThemer searchFieldStyleFor: searchField.
 	
 	searchField takeKeyboardFocus.
 	

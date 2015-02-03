@@ -1,3 +1,0 @@
-setUp
-
-	candidates := GTSpotterCandidatesList new.

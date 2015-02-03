@@ -1,0 +1,3 @@
+privateOwner: aBrick
+
+	^ self explicitRequirement

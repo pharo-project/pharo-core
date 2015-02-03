@@ -1,2 +1,0 @@
-resultsScrollbarWidth
-	^ 3

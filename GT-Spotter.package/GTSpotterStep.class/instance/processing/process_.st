@@ -12,8 +12,12 @@ process: aString
 	self stream updateTimestamp.
 	
 	self asyncTask
-		execute: [ :input | 
-				self stream removeAllCandidates. 
-				self relevantProcessorsProcess: input ]
+		execute: [ :input |
+				self stream removeAllCandidates.
+				[ self relevantProcessorsProcess: input ]
+					on: Exception
+					do: [ :e | ('[Spotter] Exception in process: ', e asString) logCr ] ]
 		withArguments: { self query }
-		callback: [  ].
+		callback: [  ]
+		"added small delay before actual searching. It makes spotter faster :)"
+		delay: 200

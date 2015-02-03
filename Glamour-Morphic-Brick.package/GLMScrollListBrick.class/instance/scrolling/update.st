@@ -1,6 +1,6 @@
 update
-	super update.
+
 	self updateVisible.
-	self band width: self width.
+	self band updateHeight.
 	self preventOverscrolling.
-	self band doLayout
+	self verticalScrollbar updatePosition.

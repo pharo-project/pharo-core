@@ -1,0 +1,3 @@
+searchFieldCursorColor
+
+	^ Color black

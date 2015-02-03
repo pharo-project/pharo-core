@@ -1,3 +1,0 @@
-privateWidth
-
-	^ self brickBounds width

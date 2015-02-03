@@ -1,5 +1,5 @@
-GLMGeneralScrollPaneBrick subclass: #GLMScrollPaneBrick
-	instanceVariableNames: ''
+GLMBrick subclass: #GLMScrollPaneBrick
+	instanceVariableNames: 'band lastScrollTimeStamp scrollPosition verticalScrollbar velocity'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Glamour-Morphic-Brick-UI'
+	category: 'Glamour-Morphic-Brick-Widgets-Scrollpane'

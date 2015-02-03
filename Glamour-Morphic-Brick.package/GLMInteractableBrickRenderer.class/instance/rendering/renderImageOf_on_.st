@@ -5,5 +5,5 @@ renderImageOf: aBrick on: aCanvas
 	
 	image ifNotNil: [
 		aCanvas
-			translucentImage: (GLMBrick resizeImage: image scale: (aBrick extent / image extent))
-			at: aBrick brickBounds origin ]
+			translucentImage: (GLMBrick resizeImage: image scale: ((aBrick brickBounds expandBy: aBrick shadowWidth negated) extent / image extent))
+			at: (aBrick brickBounds expandBy: aBrick shadowWidth negated) origin ]

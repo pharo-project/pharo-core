@@ -1,3 +1,0 @@
-defaultScrollbarPosition
-
-	^ #right

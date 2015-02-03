@@ -5,7 +5,7 @@ exampleListWithCustomItem
 	composite := self new.
 	composite list
 		title: 'Example with custom items';
-		display: [ :x | x + 3];
+		display: [ :x | x + 3 ];
 		format: [ :anInteger | anInteger asString ];
 		styled: [ :aBrick | aBrick textPosition: #center; textColor: Color random ];
 		entity: (1 to: 100).

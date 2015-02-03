@@ -1,1 +1,0 @@
-A GLMPhlowrTableRowBrick is xxxxxxxxx.Instance Variables	entity:		<Object>	table:		<Object>entity	- xxxxxtable	- xxxxx

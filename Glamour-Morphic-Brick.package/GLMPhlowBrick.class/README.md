@@ -1,0 +1,1 @@
+A GLMPhlowBrick is xxxxxxxxx.Instance Variables	entity:		<Object>	titleBrick:		<Object>entity	- xxxxxtitleBrick	- xxxxx

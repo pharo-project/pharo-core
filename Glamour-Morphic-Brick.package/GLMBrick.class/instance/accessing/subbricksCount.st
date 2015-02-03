@@ -1,3 +1,0 @@
-subbricksCount
-
-	^ self submorphCount

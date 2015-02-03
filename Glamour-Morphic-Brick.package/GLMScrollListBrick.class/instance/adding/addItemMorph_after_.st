@@ -1,6 +1,6 @@
 addItemMorph: aMorph after: anotherMorph
 
-	self band addBrickBack: aMorph.
+	self addBrickBack: aMorph.
 	self setBoundsOf: aMorph after: anotherMorph.
-	(self isPartiallyVisible: aMorph) ifFalse: [ self band removeBrick: aMorph. ^ nil ].
+	(self isPartiallyVisible: aMorph) ifFalse: [ self removeBrick: aMorph. ^ nil ].
 	^ aMorph

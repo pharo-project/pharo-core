@@ -1,3 +1,3 @@
 defaultBreadcrumbHeight
 
-	^ 35
+	^ self themer spotterThemer breadcrumbHeight + self themer spotterThemer breadcrumbTriangleHeight

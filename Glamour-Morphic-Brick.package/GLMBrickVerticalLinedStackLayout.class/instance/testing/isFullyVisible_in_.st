@@ -1,3 +1,3 @@
 isFullyVisible: aBrick in: aRectangle
 	
-	^ aRectangle containsRect: aBrick brickGlobalOuterBounds
+	^ aRectangle containsRect: aBrick globalOuterBounds

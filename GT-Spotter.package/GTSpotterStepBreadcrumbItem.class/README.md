@@ -1,0 +1,1 @@
+A GTSpotterStepBreadcrumbItem is xxxxxxxxx.Instance Variables	labelBrick:		<Object>	triangleBrick:		<Object>labelBrick	- xxxxxtriangleBrick	- xxxxx

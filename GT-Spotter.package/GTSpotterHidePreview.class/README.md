@@ -1,0 +1,1 @@
+A GTSpotterHidePreview is xxxxxxxxx.

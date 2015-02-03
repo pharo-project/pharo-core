@@ -1,0 +1,3 @@
+itemSelectedBackgroundColor
+
+	^ self backgroundColor slightlyDarker

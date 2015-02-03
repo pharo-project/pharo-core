@@ -4,6 +4,7 @@ spotterForDirectoriesFor: aStep
 	processor := aStep listProcessor.
 	processor
 		title: 'Directories';
+		itemIcon: [ GLMUIThemeExtraIcons glamorousFolder ];
 		wantsToDisplayOnEmptyQuery: false;
 		filter: [ :originalQuery :stream | 
 					self

@@ -1,7 +1,7 @@
 prepareArgumentsFor: aBrick
 	|allowedWidth maxPercent ownerWidth|
 	
-	ownerWidth := aBrick brickInnerBounds width.
+	ownerWidth := aBrick innerBounds width.
 	allowedWidth := ownerWidth.
 	maxPercent := 100.
 	

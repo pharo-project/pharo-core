@@ -1,0 +1,3 @@
+markWidthDirty
+
+	self widthState: #dirty

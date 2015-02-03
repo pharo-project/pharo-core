@@ -1,8 +1,9 @@
 initialize
 	super initialize.
+	"setting custom brick themer for the whole spotter"
+	self themer: self themer spotterThemer themer.
+	
 	self initializeListeners.
-	
-	self theme spotterWidgetThemer spotterStyleFor: self.
-	
+	self themer spotterThemer spotterStyleFor: self.
 	self breadcrumbBrick: self newBreadcrumbBrick.
-	self contentsBrick: self newContentsBrick.
+	self paneBrick: self newPaneBrick.

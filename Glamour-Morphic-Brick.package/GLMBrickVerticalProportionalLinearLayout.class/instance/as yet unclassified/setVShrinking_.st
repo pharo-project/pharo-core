@@ -1,3 +1,3 @@
 setVShrinking: aBrick
 
-	aBrick heightBlock: nil
+	aBrick height: nil

@@ -1,3 +1,3 @@
 deltaBottom: aBrick
 
-	^ aBrick brickGlobalOuterBounds corner y -  self allowedBounds corner y
+	^ aBrick globalOuterBounds corner y -  self allowedBounds corner y

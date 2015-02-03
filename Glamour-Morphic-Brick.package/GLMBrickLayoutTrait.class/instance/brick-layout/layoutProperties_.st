@@ -1,0 +1,3 @@
+layoutProperties: aLayoutProperties
+
+	self explicitRequirement

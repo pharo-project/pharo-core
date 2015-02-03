@@ -1,0 +1,3 @@
+togglePreview
+
+	self spotterModel togglePreview

@@ -6,6 +6,7 @@ initializeListeners
 	
 	self bindKeyCombination: Character escape toAction: [ self escapePressed ].
 	self bindKeyCombination: $w command toAction: [ self escapePressed ].
+	self bindKeyCombination: $p command toAction: [ self togglePreview ].
 	
 	self bindKeyCombination: Character arrowUp toAction: [ self selectPreviousCandidate ].
 	self bindKeyCombination: Character arrowDown toAction: [ self selectNextCandidate ].
@@ -22,6 +23,11 @@ initializeListeners
 
 	self bindKeyCombination: Character arrowRight command shift toAction: [ self diveInCategory ].
 	self bindKeyCombination: Character arrowLeft command shift toAction: [ self diveOut ].
+	
+	self bindKeyCombination: Character arrowUp alt toAction: [ self stepScrollPageUp ].
+	self bindKeyCombination: Character arrowDown alt toAction: [ self stepScrollPageDown ].
+	self bindKeyCombination: Character pageUp toAction: [ self stepScrollPageUp ].
+	self bindKeyCombination: Character pageDown toAction: [ self stepScrollPageDown ].
 	
 	self 
 		bindKeyCombination: Character cr asKeyCombination 

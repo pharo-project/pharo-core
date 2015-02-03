@@ -1,5 +1,5 @@
 GLMScrollPaneBrick subclass: #GLMScrollListBrick
-	instanceVariableNames: 'adaptor'
+	instanceVariableNames: 'adaptor visibleIndex'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Glamour-Morphic-Brick-UI'
+	category: 'Glamour-Morphic-Brick-Widgets-Scrollpane'

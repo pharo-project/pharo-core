@@ -1,3 +1,0 @@
-scrollTo: aBrick
-
-	self subclassResponsibility

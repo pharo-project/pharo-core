@@ -1,3 +1,3 @@
 escapePressed
 
-	self delete
+	self autoHide ifTrue: [ self delete ]

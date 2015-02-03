@@ -1,0 +1,3 @@
+onThemerChanged
+
+	self updateStyle

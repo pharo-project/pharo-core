@@ -1,7 +1,7 @@
 addActActionButton
 
 	self actionbarBrick addActionButton: (self newActionButtonBrick
-			icon: self theme spotterWidgetThemer iconAct;
+			icon: self themer spotterThemer iconAct;
 			addUpAction: [ self beSelected. self stepModel act ];
 			yourself)
 		

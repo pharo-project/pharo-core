@@ -1,4 +1,4 @@
-Object subclass: #GTSpotterWidgetThemer
+GLMBrickThemerModule subclass: #GTSpotterWidgetThemer
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

@@ -1,1 +1,0 @@
-A GTSpotterA2 is xxxxxxxxx.

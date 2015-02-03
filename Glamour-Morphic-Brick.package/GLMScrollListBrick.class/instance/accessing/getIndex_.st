@@ -1,3 +1,3 @@
-getIndex: aMorph 
+getIndex: aBrick 
 
-	^ aMorph valueOfProperty: #brickScrollListIndex ifAbsent: [ nil ]
+	^ aBrick valueOfProperty: #brickScrollListIndex ifAbsent: [ ]

@@ -1,0 +1,3 @@
+privateSubbricks: aCollection
+
+	submorphs := aCollection

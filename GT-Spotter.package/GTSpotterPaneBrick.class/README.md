@@ -1,0 +1,1 @@
+A GTSpotterPaneBrick is xxxxxxxxx.Instance Variables	arrowBrick:		<Object>	contentsBrick:		<Object>	previewBrick:		<Object>arrowBrick	- xxxxxcontentsBrick	- xxxxxpreviewBrick	- xxxxx

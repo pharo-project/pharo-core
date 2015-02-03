@@ -1,0 +1,2 @@
+phlowObject: anObject
+	phlowObject := anObject

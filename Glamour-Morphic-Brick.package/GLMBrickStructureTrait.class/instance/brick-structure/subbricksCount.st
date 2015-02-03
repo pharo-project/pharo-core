@@ -1,0 +1,3 @@
+subbricksCount
+
+	^ self subbricks size

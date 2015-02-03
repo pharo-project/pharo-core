@@ -2,8 +2,7 @@ dropDownPaneStyleFor: aBrick
 
 	aBrick
 		layoutProperties: GLMBrickLayoutProperties new;
-		color: self backgroundColor;
-		height: 400.
+		color: self backgroundColor.
 
 	aBrick layoutProperties
 		vSpaceFill;

@@ -1,3 +1,0 @@
-extent
-
-	^ self brickBounds extent

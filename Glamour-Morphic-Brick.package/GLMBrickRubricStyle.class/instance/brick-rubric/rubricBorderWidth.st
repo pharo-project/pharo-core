@@ -1,0 +1,3 @@
+rubricBorderWidth
+
+	^ 0

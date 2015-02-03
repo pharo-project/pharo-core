@@ -1,3 +1,3 @@
 notifySelected
 
-	self announcer announce: (GTSpotterCandidateSelected new candidateBrick: self)
+	self stepModel spotter announce: (GTSpotterCandidateSelected new candidateBrick: self)

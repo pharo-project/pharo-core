@@ -4,7 +4,5 @@ buildItemFor: aCandidateLink in: aProcessor
 			candidateLink: aCandidateLink;
 			stepModel: self stepModel;
 			yourself.
-			
-	itemBrick announcer subscribe: GTSpotterCandidateSelected send: #onCandidateSelected: to: self.
 	^ itemBrick
 	

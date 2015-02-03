@@ -1,3 +1,10 @@
 setBoundsOf: aMorph before: beforeMorph
-
-	aMorph brickBounds: (beforeMorph brickBounds translateBy: (0@aMorph height)negated)
+	|origin corner|
+	
+	aMorph withWidth: self band width.
+	aMorph doLayout.
+	
+	corner := beforeMorph brickBounds topRight.
+	origin  := beforeMorph brickBounds topLeft - (0@aMorph height).
+	
+	aMorph brickBounds: (origin corner: corner)

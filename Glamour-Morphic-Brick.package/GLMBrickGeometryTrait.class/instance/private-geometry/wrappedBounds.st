@@ -1,0 +1,3 @@
+wrappedBounds
+
+	^ self explicitRequirement

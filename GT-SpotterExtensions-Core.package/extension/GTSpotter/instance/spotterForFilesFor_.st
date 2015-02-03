@@ -4,6 +4,7 @@ spotterForFilesFor: aStep
 	processor := aStep listProcessor.
 	processor
 		title: 'Files';
+		itemIcon: [ GLMUIThemeExtraIcons glamorousBrowse ];
 		wantsToDisplayOnEmptyQuery: false;
 		filter: [ :originalQuery :stream | 
 					self

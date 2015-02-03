@@ -1,0 +1,3 @@
+showPreview
+
+	isPreviewVisible := true

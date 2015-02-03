@@ -1,12 +1,9 @@
 breadcrumbBrick: aBrick
 
-	breadcrumbBrick ifNotNil: [self removeBrick: breadcrumbWrapperBrick].
+	breadcrumbBrick ifNotNil: [self removeBrick: breadcrumbBrick].
 	breadcrumbBrick := aBrick.
 	
 	breadcrumbBrick announcer subscribe: GTSpotterBreadcrumbVisibilityChanged send: #onBreadcrumbVisibilityChanged to: self.
-	
-	self theme spotterWidgetThemer breadcrumbStyleFor: breadcrumbBrick.
-	
-	breadcrumbWrapperBrick := GLMBandBrick new.
-	breadcrumbWrapperBrick addBrickBack: breadcrumbBrick.
-	self addBrickBack: breadcrumbWrapperBrick
+	self themer spotterThemer breadcrumbStyleFor: breadcrumbBrick.
+	breadcrumbBrick width: [ self paneBrick contentsBrick width ].
+	self addBrickBack: breadcrumbBrick

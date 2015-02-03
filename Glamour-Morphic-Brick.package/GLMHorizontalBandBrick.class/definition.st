@@ -2,4 +2,4 @@ GLMBrick subclass: #GLMHorizontalBandBrick
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Glamour-Morphic-Brick-UI'
+	category: 'Glamour-Morphic-Brick-Widgets-Core'

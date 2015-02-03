@@ -1,2 +1,0 @@
-brickOwner
-	^ brickOwner

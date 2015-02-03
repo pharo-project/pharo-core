@@ -10,5 +10,5 @@ on: aRectangle of: aBrick
 	right := bounds corner x.
 	bottom := bounds corner y.
 	
-	innerBounds := ((left + aBrick layoutProperties paddingLeft)@(top + aBrick layoutProperties paddingTop)) corner: ((right - aBrick layoutProperties paddingRight)@(bottom - aBrick layoutProperties paddingBottom)).
-	outerBounds := ((left - aBrick layoutProperties marginLeft)@(top - aBrick layoutProperties marginTop)) corner: ((right + aBrick layoutProperties marginRight)@(bottom + aBrick layoutProperties marginBottom)).
+	innerBounds := ((left + aBrick paddingLeft)@(top + aBrick paddingTop)) corner: ((right - aBrick paddingRight)@(bottom - aBrick paddingBottom)).
+	outerBounds := ((left - aBrick marginLeft)@(top - aBrick marginTop)) corner: ((right + aBrick marginRight)@(bottom + aBrick marginBottom)).

@@ -1,0 +1,3 @@
+itemTextColor
+
+	^ Color white slightlyDarker

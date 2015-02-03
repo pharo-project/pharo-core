@@ -1,0 +1,1 @@
+A GLMBrickBounds is xxxxxxxxx.Instance Variables	bounds:		<Object>	heightState:		<Object>	widthState:		<Object>bounds	- xxxxxheightState	- xxxxxwidthState	- xxxxx

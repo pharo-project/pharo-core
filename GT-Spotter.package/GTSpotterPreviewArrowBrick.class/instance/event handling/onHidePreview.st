@@ -1,0 +1,3 @@
+onHidePreview
+
+	self changed

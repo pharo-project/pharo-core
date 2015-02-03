@@ -1,4 +1,4 @@
 privateSetText: aString
 
-	text := aString.
+	text := aString asString.
 	textSize := nil.

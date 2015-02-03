@@ -1,3 +1,3 @@
 isVisible: aBrick in: aRectangle
 	
-	^ aRectangle intersects: aBrick brickGlobalOuterBounds
+	^ aRectangle intersects: aBrick globalOuterBounds

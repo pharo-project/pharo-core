@@ -1,7 +1,7 @@
 exampleWorldMenu
 	
 	^ GTSpotterMorph new
-		width: 400;
+		extent: 400@500;
 		doLayout;
 		spotterModel: (self on: World worldMenu);
 		openCenteredInWorld

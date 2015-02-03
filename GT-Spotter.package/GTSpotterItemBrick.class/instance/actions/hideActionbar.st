@@ -1,4 +1,4 @@
 hideActionbar
 		
-	self theme spotterWidgetThemer itemActionbarInvisibleStyleFor: self actionbarBrick.
+	self themer spotterThemer itemActionbarInvisibleStyleFor: self actionbarBrick.
 	self doLayout.

@@ -21,7 +21,7 @@ layoutStacked: aBrick in: newBounds
 				self translate: brick by: delta.
 				self increaseZindex: brick.
 				stackedTopBricks isEmpty ifTrue: [
-					stackedTopHeight := stackedTopHeight + brick brickGlobalOuterBounds height.
+					stackedTopHeight := stackedTopHeight + brick globalOuterBounds height.
 					self cutAllowedBoundsTop: brick ].
 				stackedTopBricks add: brick.
 			] ifFalse: [ forward := false. stackedBricks addFirst: brick ]
@@ -38,7 +38,7 @@ layoutStacked: aBrick in: newBounds
 			self translate: brick by: delta negated.
 			self increaseZindex: brick.
 			stackedBottomBricks isEmpty ifTrue: [
-				stackedBottomHeight := stackedBottomHeight + brick brickGlobalOuterBounds height.
+				stackedBottomHeight := stackedBottomHeight + brick globalOuterBounds height.
 				self cutAllowedBoundsBottom: brick ].
 			stackedBottomBricks add: brick.
 		] ifTrue: [

@@ -1,3 +1,0 @@
-scrollUp: anInteger
-
-	self subclassResponsibility

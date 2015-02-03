@@ -1,3 +1,4 @@
 variableValuePairsFor: anObject
-	^ anObject gtInspectorVariableValuePairs asSortedCollection asOrderedCollection 
+
+	^ anObject gtInspectorVariableValuePairs asOrderedCollection 
 		yourself

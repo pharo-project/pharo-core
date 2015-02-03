@@ -1,1 +1,0 @@
-A GLMGaussianBlurBrickRenderer is xxxxxxxxx.

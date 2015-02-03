@@ -1,1 +1,0 @@
-A GLMBrickDoubleLinkedList is xxxxxxxxx.

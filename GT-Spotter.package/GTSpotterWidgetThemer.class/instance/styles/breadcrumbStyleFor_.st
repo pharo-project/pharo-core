@@ -1,4 +1,9 @@
 breadcrumbStyleFor: aBrick
 	
-	aBrick layoutProperties
-		margin: { 0 . self outerBorderWidth }
+	aBrick layout
+		margin: { 0 . 0 }.
+		
+	aBrick layout
+		staticHeight: self breadcrumbHeight;
+		marginBottom: self breadcrumbTriangleHeight negated;
+		zIndex: 2.

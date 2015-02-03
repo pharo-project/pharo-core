@@ -1,7 +1,7 @@
 prepareArgumentsFor: aBrick
 	|allowedHeight maxPercent ownerHeight|
 	
-	ownerHeight := aBrick brickGlobalInnerBounds height.
+	ownerHeight := aBrick globalInnerBounds height.
 	allowedHeight := ownerHeight.
 	maxPercent := 100.
 	
