@@ -3,13 +3,16 @@ at: key ifAbsentPut: block
 	In case of a hit, the cached value's timestamp is checked to see if its age
 	does not exceed the allowed timeToLive. If so, the stale value is recomputed."
 	
-	self critical: [
-		| association |
+	self critical: [ | association |
 		association := keyIndex 
 			associationAt: key 
-			ifAbsent: [ 
-				| value newAssociation |
+			ifAbsent: [ | value |
 				value := block cull: key.
-				newAssociation := TTLAssociation key: key value: value.
-				^ self handleMiss: newAssociation ].
+				"Sadly we have to check the presence of key again 
+				in case of the block execution already added the entry"
+				keyIndex 
+					associationAt: key 
+					ifAbsent: [ | newAssociation | 
+						newAssociation := TTLAssociation key: key value: value.
+						^ self handleMiss: newAssociation ] ].
 		^ self handleHit: association ifStale: block ]

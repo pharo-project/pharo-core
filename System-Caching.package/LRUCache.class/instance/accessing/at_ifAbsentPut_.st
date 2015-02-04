@@ -7,13 +7,12 @@ at: key ifAbsentPut: block
 	Furthermore this could result in the least recently used key/value pair 
 	being removed when the specified maximum cache weight is exceeded."
 
-	self critical: [
-		| association |
-		association := keyIndex 
-			associationAt: key 
-			ifAbsent: [ 
-				| value |
+	self critical: [ | association |
+		association := keyIndex
+			associationAt: key
+			ifAbsent: [ | value |
 				value := block cull: key.
-				^ self handleMiss: key -> value ].
+				"Sadly we have to check the presence of key again 
+				in case of the block execution already added the entry"
+				keyIndex associationAt: key ifAbsent: [ ^ self handleMiss: key -> value ] ].
 		^ self handleHit: association ]
-		
