@@ -1,0 +1,2 @@
+spotterClassMethodsFor: aStep
+	^ self explicitRequirement

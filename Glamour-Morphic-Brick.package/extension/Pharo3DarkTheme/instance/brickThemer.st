@@ -1,3 +1,3 @@
 brickThemer
 
-	^ GLMBrickDarkThemer default
+	^ GLMBrickDarkThemer new

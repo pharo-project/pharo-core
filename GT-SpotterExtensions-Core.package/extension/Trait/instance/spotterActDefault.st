@@ -1,2 +1,0 @@
-spotterActDefault
-	^ self browse
