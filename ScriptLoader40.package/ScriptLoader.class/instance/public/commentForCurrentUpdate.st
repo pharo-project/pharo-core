@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '12597 Update TextAnchor class comment
-	https://pharo.fogbugz.com/f/cases/12597
+ ^ '14688 Change CompiledMethod header serialization to use signed integer
+	https://pharo.fogbugz.com/f/cases/14688
 
-14853 Improve AbstractCache plain access
-	https://pharo.fogbugz.com/f/cases/14853
-
-14814 NewVersionBrowser api not updated in all the client packages
-	https://pharo.fogbugz.com/f/cases/14814'
+14669 Delay refactoring (part 2a) - avoid UI locking up when timer event loop is stopped
+	https://pharo.fogbugz.com/f/cases/14669'

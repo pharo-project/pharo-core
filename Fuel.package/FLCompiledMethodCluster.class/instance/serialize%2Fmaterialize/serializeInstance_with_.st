@@ -1,7 +1,7 @@
 serializeInstance: aCompiledMethodToSerialize with: anEncoder
-
 	| header bytecodesPlusTrailerSize cmSize cmInitialPC aCompiledMethod |
-
+	"In 64 bit VMs the header is actually 64 bits wide but only 32 bits
+	contain information."
 	aCompiledMethod := self class transformationForSerializing value: aCompiledMethodToSerialize.
 
 	header := aCompiledMethod header.
@@ -10,8 +10,8 @@ serializeInstance: aCompiledMethodToSerialize with: anEncoder
 	bytecodesPlusTrailerSize := cmSize - cmInitialPC + 1.
 
 	anEncoder 
-		encodeUint32: header;
+		encodeInt32: header; "Signed int as of Pharo 40"
 		encodeUint16: bytecodesPlusTrailerSize.	
 
 	cmInitialPC to: cmSize
-		do: [ :index | anEncoder encodeByte: (aCompiledMethod at: index) ].
+		do: [ :index | anEncoder encodeByte: (aCompiledMethod at: index) ]
