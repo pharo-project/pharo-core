@@ -5,8 +5,8 @@ at: key
 	This is a miss and will create a new key/value pair entry.
 	Furthermore this could result in the least recently used key/value pair 
 	being removed when the specified maximum cache weight is exceeded.
-	A factory is required for this behavior."
+	If there is no factory and the key is not present, signal a KeyNotFound exception."
 	
 	^ self 
 		at: key 
-		ifAbsentPut: (factory ifNil: [ self error: 'No factory specified' ])
+		ifAbsentPut: (factory ifNil: [ [ :k | KeyNotFound signalFor: k in: self ] ])
