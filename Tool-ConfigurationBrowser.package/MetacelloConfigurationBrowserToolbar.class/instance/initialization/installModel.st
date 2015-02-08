@@ -1,3 +1,2 @@
 installModel
-
-	^installModel
+	^ installModel

@@ -11,6 +11,8 @@ configurationListMenu: aMenu
 	aMenu	
 		add: 'Switch Repository' selector: #switchRepository;
 		add: 'Add Repository' selector: #addRepository;
+		add: 'Define Repository in MC' selector: #defineRepositoryInMCBrowser;
+		add: 'Define All repositories in MC' selector: #defineAllRepositoriesInMCBrowser;
 		addLine;
 		add: 'Refresh' selector: #refreshRepository.	
 	^aMenu

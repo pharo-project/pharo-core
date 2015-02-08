@@ -4,4 +4,4 @@ repository: aRepositoryUrl
 	repository := aRepositoryUrl.  
 	
 	self configurationList items: self configurations.
-	self window ifNotNil: [:w | w title: aRepositoryUrl ]
+	self window ifNotNil: [:w |  w title: (self explicitTitleFromURLString: aRepositoryUrl) ]

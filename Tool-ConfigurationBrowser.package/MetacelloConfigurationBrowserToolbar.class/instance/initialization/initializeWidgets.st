@@ -5,7 +5,7 @@ initializeWidgets
 		installModel      ButtonModel).
 		
 	self setLoadModel.
-	self setInstallModel	.
+	self setInstallModel.
 		
 	self focusOrder
 		add: loadModel;

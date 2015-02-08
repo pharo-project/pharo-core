@@ -2,5 +2,5 @@ removeItems
 	
 	selectedModel selectedItem
 		ifNotNil: [ :item |  
-			selectRule removeAllFoundIn: item leaves ].
+			selectRule removeAllFoundIn: item content leaves ].
 	self updateTree  	  

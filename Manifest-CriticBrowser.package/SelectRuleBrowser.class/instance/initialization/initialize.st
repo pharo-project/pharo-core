@@ -5,12 +5,12 @@ initialize
 	toSelectModel := self instantiate: TreeModel.
 	selectedModel := self instantiate: TreeModel.
 	selectRule := Set new.
-	 childrenBlockS := [:rule | 
+	childrenBlockS := [:rule | 
 		rule isComposite 
 			ifTrue: [rule rules select: [ :r |
 					(selectRule anySatisfy:  [ :sr | sr = r ]) or: [ r isComposite ] ]]
 			 ifFalse: [{}]]. 
-	 childrenBlockTS := [ :rule | 
+	childrenBlockTS := [ :rule | 
 		rule isComposite 
 			ifTrue: [rule rules select: [ :r |
 					(selectRule anySatisfy: [ :sr | sr = r ]) not or: [ r isComposite ]]]
