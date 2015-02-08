@@ -1,0 +1,2 @@
+asNautilusItemPath
+	^ Array with: self

@@ -1,5 +1,5 @@
 TestCase subclass: #PackageTreeNautilusTest
-	instanceVariableNames: 'nautilus'
+	instanceVariableNames: 'nautilus lastValue compiledMethod expectedMethodCategory expectedCompiledMethod'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Nautilus-Tests'

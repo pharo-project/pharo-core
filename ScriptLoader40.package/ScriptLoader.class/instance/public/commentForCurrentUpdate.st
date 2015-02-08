@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '14851 Extend AbstractCache API to allow cache population using #at:put:
-	https://pharo.fogbugz.com/f/cases/14851
+ ^ '14886 remove #printSlotDefinitionOn:
+	https://pharo.fogbugz.com/f/cases/14886
 
-14883 Add two examples for Slots
-	https://pharo.fogbugz.com/f/cases/14883'
+14865 Browse full command does not display full class definition
+	https://pharo.fogbugz.com/f/cases/14865'

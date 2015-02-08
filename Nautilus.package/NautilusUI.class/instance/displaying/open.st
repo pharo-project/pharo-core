@@ -10,12 +10,12 @@ open
 	self selectedCategory ifNotNil: [:cat |  
 		categoryWidget selectProtocol: cat.
 		self resetMethodsList.
-		methodWidget updateMethodList.
 		acceptor := MethodDefinitionAcceptor model: self. 
 		focus := categoryWidget ].
 	self selectedMethod ifNotNil: [:meth | 
 		methodWidget selectMethod: meth.
 		acceptor := MethodDefinitionAcceptor model: self. 
 		focus := methodWidget ].
+	self selectedClass ifNotNil: [ methodWidget updateMethodList ].
 	self giveFocusTo: focus.
 	

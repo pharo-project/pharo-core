@@ -1,1 +1,1 @@
-A PackageTreeNautilusTest is xxxxxxxxx.Instance Variables	nautilus:		<Object>nautilus	- xxxxx
+A PackageTreeNautilusTest is xxxxxxxxx.Instance Variables	compiledMethod:		<Object>	expectedCompiledMethod:		<Object>	expectedMethodCategory:		<Object>	lastValue:		<Object>	nautilus:		<Object>compiledMethod	- xxxxxexpectedCompiledMethod	- xxxxxexpectedMethodCategory	- xxxxxlastValue	- xxxxxnautilus	- xxxxx

@@ -1,2 +1,0 @@
-printSlotDefinitionOn: aStream
-	self subclassResponsibility

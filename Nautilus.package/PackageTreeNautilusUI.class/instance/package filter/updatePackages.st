@@ -1,7 +1,9 @@
 updatePackages
-
 	| package |
 	package := self selectedPackage.
-	self packageWidget buildContents.
-	self selectedPackage: package.
-	self updatePackageViewAndMove
+	package 
+		ifNotNil: [ 
+			self packageWidget 
+					updateContentsWithPreviouslyExpanded: package item asNautilusItemPath;
+					scrollSelectionIntoView ]
+		ifNil: [ self packageWidget updateContentsWithPreviouslyExpanded: #() ]
