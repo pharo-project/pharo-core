@@ -1,2 +1,3 @@
 ones: n
-	^self new: n element: 1
+	"Create a squared matrix full of 1"
+	^ self new: n element: 1

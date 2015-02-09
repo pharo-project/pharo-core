@@ -1,2 +1,2 @@
 allSlots
-	^self layout allSlots
+	^self layout allVisibleSlots

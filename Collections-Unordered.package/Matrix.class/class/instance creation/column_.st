@@ -1,4 +1,4 @@
 column: aCollection
-	"Should this be called #fromColumn:?"
+	"Create a matrix of one column having aCollection as contents"
 
-	^self rows: aCollection size columns: 1 contents: aCollection asArray shallowCopy
+	^ self rows: aCollection size columns: 1 contents: aCollection asArray shallowCopy

@@ -1,2 +1,2 @@
 zeros: n
-	^self new: n element: 0
+	^ self new: n element: 0

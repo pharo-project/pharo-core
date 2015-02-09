@@ -1,2 +1,6 @@
-rows: rows columns: columns
-	^self rows: rows columns: columns contents: (Array new: rows*columns)
+rows: rowNumber columns: columnNumber
+	"Create a Matrix of rowNUmber rows and columnNumber columns."
+	^ self 
+		rows: rowNumber 
+		columns: columnNumber 
+		contents: (Array new: rowNumber*columnNumber)

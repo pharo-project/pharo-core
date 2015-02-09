@@ -1,11 +1,10 @@
-rows: rows columns: columns tabulate: aBlock
+rows: rowNumber columns: columnNumber tabulate: aBlock
 	"Answer a new Matrix of the given dimensions where
-	 result at: i at: j     is   aBlock value: i value: j"
+	 result at: i at: j is aBlock value: i value: j"
 	|a i|
-
-	a := Array new: rows*columns.
+	a := Array new: rowNumber*columnNumber.
 	i := 0.
-	1 to: rows do: [:row |
-		1 to: columns do: [:column |
+	1 to: rowNumber do: [:row |
+		1 to: columnNumber do: [:column |
 			a at: (i := i+1) put: (aBlock value: row value: column)]].
-	^self rows: rows columns: columns contents: a
+	^ self rows: rowNumber columns: columnNumber contents: a

@@ -1,5 +1,4 @@
 new: dim element: element
-	"Answer a dim*dim matrix with all elements set to element.
-	 Is this an abuse of #new:?  The argument is NOT a size."
+	"Answer a dim*dim matrix with all elements set to element."
 
-	^self rows: dim columns: dim element: element
+	^ self rows: dim columns: dim element: element
