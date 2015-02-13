@@ -1,2 +1,2 @@
 now
-	^ Time totalSeconds 
+	^ Time totalSeconds

@@ -13,6 +13,6 @@ at: key ifAbsentPut: block
 				keyIndex 
 					associationAt: key 
 					ifAbsent: [ | newAssociation | 
-						newAssociation := TTLAssociation key: key value: value.
+						newAssociation := self newAssociationKey: key value: value.
 						^ self handleMiss: newAssociation ] ].
 		^ self handleHit: association ifStale: block ]

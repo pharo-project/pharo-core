@@ -6,8 +6,8 @@ handleHit: association ifStale: block
 	statistics addHit.
 	link := association value.
 	self promote: link.
-	self now - link value timestamp < timeToLive 
-		ifFalse: [ 
+	(self isStale: link value)
+		ifTrue: [
 			newValue := block cull: association key.
 			link value value: newValue ].
 	^ link value value

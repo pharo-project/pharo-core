@@ -14,5 +14,9 @@ at: key ifAbsentPut: block
 				value := block cull: key.
 				"Sadly we have to check the presence of key again 
 				in case of the block execution already added the entry"
-				keyIndex associationAt: key ifAbsent: [ ^ self handleMiss: key -> value ] ].
+				keyIndex 
+					associationAt: key 
+					ifAbsent: [
+						association := self newAssociationKey: key value: value.
+						^ self handleMiss: association ] ].
 		^ self handleHit: association ]

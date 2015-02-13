@@ -4,7 +4,7 @@ checkClass: aClass
 	
 	| selectedClass |
 	selectedClass := aClass.
-	selectedClass hasTraitComposition ifTrue: [  
+	(selectedClass isTrait not and: [ selectedClass hasTraitComposition ]) ifTrue: [  
 		selectedClass localMethods do: [ :method | |traitCompositionMethod |
 			traitCompositionMethod := (selectedClass traitComposition methodDescriptionForSelector: method selector) effectiveMethod.
 			traitCompositionMethod ifNotNil: [

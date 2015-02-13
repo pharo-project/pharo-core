@@ -9,7 +9,7 @@ at: key put: value
 		association := keyIndex
 			associationAt: key
 			ifAbsent: [
-				association := key -> value.
+				association := self newAssociationKey: key value: value.
 				self addWeight: value.
 				link := lruList addLast: association.
 				keyIndex at: key put: link.
