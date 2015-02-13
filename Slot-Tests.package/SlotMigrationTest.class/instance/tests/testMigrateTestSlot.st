@@ -1,7 +1,7 @@
 testMigrateTestSlot
 	"We create a class with a Test slot, so its  value is shared between instances"
 	| instance2 |
-	aClass := self makeWithLayout: FixedLayout andSlots: { #aSlot => TestSlot. }.
+	aClass := self makeWithLayout: FixedLayout andSlots: { #aSlot => ExampleSlotWithState. }.
 	
 	instance := aClass new.
 	instance2 := aClass new.

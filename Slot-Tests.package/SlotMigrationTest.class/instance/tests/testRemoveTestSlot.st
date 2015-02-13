@@ -1,5 +1,5 @@
 testRemoveTestSlot
-	aClass := self makeWithLayout: FixedLayout andSlots: {#anotherSlot => TestSlot. #aSlot }.
+	aClass := self makeWithLayout: FixedLayout andSlots: {#anotherSlot => ExampleSlotWithState. #aSlot }.
 	
 	instance := aClass new.
 	instance instVarAt: 1 put: 125.

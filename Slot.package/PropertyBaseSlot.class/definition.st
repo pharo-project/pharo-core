@@ -1,4 +1,4 @@
-InstanceVariableSlot subclass: #HiddenInstanceVariableSlot
+InstanceVariableSlot subclass: #PropertyBaseSlot
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

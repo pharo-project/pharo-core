@@ -1,5 +1,5 @@
-Slot subclass: #TestSlot
+Slot subclass: #ExampleSlotWithState
 	instanceVariableNames: 'value'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Slot-Scope'
+	category: 'Slot-Examples'

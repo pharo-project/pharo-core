@@ -1,0 +1,2 @@
+initialize
+	baseSlot := PropertyBaseSlot new.
