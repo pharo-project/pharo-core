@@ -5,8 +5,7 @@ testMultiElementArray
 	^{1. 2. 3. 4. 5. 6 }';
 									class: OCMockCompilationClass;
 									compile.
-	bytecode := aCompiledMethod symbolic asString subStrings: '
-'.
+	bytecode := aCompiledMethod symbolic asString substrings: String cr.
 	index := 0.
 	self assert: (bytecode at: (index := index + 1)) = '29 <76> pushConstant: 1'.
 	self assert: (bytecode at: (index := index + 1)) = '30 <77> pushConstant: 2'.

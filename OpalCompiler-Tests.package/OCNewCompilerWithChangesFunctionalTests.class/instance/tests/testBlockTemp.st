@@ -12,8 +12,7 @@ testBlockTemp
 									class: OCMockCompilationClass;
 									compile.
 									
-	bytecode := aCompiledMethod symbolic asString subStrings: '
-'.
+	bytecode := aCompiledMethod symbolic asString substrings: String cr.
 	index := 0.
 	self assert: (bytecode at: (index := index + 1)) = '17 <8F 01 00 08> closureNumCopied: 0 numArgs: 1 bytes 21 to 28'.
 self assert: (bytecode at: (index := index + 1)) = '21 <10> pushTemp: 0'.

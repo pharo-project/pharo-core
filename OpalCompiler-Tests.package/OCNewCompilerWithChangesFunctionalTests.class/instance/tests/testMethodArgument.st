@@ -13,8 +13,7 @@ testMethodArgument
 											class: OCMockCompilationClass;
 											compile.
 									
-	bytecode := aCompiledMethod symbolic asString subStrings: '
-'.
+	bytecode := aCompiledMethod symbolic asString substrings: String cr.
 	index := 0.
 	self assert: (bytecode at: (index := index + 1)) = '17 <8A 01> push: (Array new: 1)'.
 	self assert: (bytecode at: (index := index + 1)) = '19 <69> popIntoTemp: 1'.

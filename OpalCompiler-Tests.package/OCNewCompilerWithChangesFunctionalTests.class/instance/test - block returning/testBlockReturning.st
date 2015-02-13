@@ -8,8 +8,7 @@ testBlockReturning
 									class: OCMockCompilationClass;
 									compile.
 									
-	bytecode := aCompiledMethod symbolic asString subStrings: '
-'.
+	bytecode := aCompiledMethod symbolic asString substrings: String cr.
 	index := 0.
 	self assert: (bytecode at: (index := index + 1)) = '29 <70> self'.
 	self assert: (bytecode at: (index := index + 1)) = '30 <D0> send: announcements'.

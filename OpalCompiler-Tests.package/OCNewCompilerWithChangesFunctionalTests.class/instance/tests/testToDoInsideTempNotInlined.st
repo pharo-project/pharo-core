@@ -13,8 +13,7 @@ testToDoInsideTempNotInlined
 	class: OCMockCompilationClass;
 	compile.
 									
-	bytecode := aCompiledMethod symbolic asString subStrings: '
-'.
+	bytecode := aCompiledMethod symbolic asString substrings: String cr.
 	index := 0.
 	self assert: (bytecode at: (index := index + 1)) = '33 <8F 01 00 0D> closureNumCopied: 0 numArgs: 1 bytes 37 to 49'.
 	self assert: (bytecode at: (index := index + 1)) = '37 <73> pushConstant: nil'.

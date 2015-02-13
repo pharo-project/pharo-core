@@ -7,8 +7,7 @@ testReturnBlockInMethod
 											class: OCMockCompilationClass;
 											compile.
 									
-	bytecode := aCompiledMethod symbolic asString subStrings: '
-'.
+	bytecode := aCompiledMethod symbolic asString substrings: String cr.
 	index := 0.
 	self assert: (bytecode at: (index := index + 1)) = '13 <10> pushTemp: 0'.
 	self assert: (bytecode at: (index := index + 1)) = '14 <8F 10 00 02> closureNumCopied: 1 numArgs: 0 bytes 18 to 19'.

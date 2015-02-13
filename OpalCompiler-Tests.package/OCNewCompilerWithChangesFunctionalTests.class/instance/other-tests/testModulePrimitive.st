@@ -11,8 +11,7 @@ testModulePrimitive
 	class: BitBlt;
 	compile.
 									
-	bytecode := aCompiledMethod symbolic asString subStrings: '
-'.
+	bytecode := aCompiledMethod symbolic asString substrings: String cr.
 	index := 0.
 	self assert: (bytecode at: (index := index + 1)) = '<primitive: ''primitiveCopyBits'' module: ''BitBltPlugin''>'.
 	self assert: (bytecode at: (index := index + 1)) = '21 <70> self'.
