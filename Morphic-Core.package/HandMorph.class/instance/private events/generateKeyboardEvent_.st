@@ -39,13 +39,10 @@ generateKeyboardEvent: evtBuf
 
 	self flag: #fixme.
 	"This piece of code handles the creation of scrolling events. When a scroll is done by the user, the VM forwards a keystroke event with the up/down key. So we reconvert it to a MouseWheelEvent in that case."
-	
-	(type = #keystroke and: [(buttons anyMask: 16) 
-			and: [charCode = 30 or: [charCode = 31]]])
-		ifTrue: [^MouseWheelEvent new 
-					setType: #mouseWheel
+	(type = #keystroke and: [(buttons anyMask: 16) and: [ charCode asCharacter isArrow ]])
+		ifTrue: [^ MouseWheelEvent
+					fromCharacter: charCode asCharacter
 					position: lastMouseEvent cursorPoint
-					direction: (charCode = 30 ifTrue: [#up] ifFalse: [#down])
 					buttons: buttons
 					hand: self
 					stamp: stamp].

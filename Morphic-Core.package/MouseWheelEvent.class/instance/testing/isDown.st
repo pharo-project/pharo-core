@@ -1,0 +1,3 @@
+isDown
+
+	^ direction = Character arrowDown
