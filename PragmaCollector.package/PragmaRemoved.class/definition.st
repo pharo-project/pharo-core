@@ -1,5 +1,5 @@
-PragmaAnnouncement subclass: #PragmaUpdated
+PragmaAnnouncement subclass: #PragmaRemoved
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Kernel-Pragmas'
+	category: 'PragmaCollector'

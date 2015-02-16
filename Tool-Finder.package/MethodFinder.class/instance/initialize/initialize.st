@@ -110,7 +110,7 @@ initialize
 "Date, Time"
 	#("in class, instance creation" fromDays: fromSeconds: fromString: today
 	"in class, general inquiries" dayOfWeek: daysInMonth:forYear: daysInYear: firstWeekdayOfMonth:year: indexOfMonth: nameOfDay: nameOfMonth:
-"accessing" day leap monthIndex monthName weekday year
+"accessing" day monthIndex monthName weekday year
 "arithmetic" addDays: subtractDate: subtractDays:
 "comparing"
 "inquiries" dayOfMonth daysInMonth daysInYear daysLeftInYear firstDayOfMonth previous:

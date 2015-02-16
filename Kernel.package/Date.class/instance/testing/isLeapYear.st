@@ -1,3 +1,0 @@
-isLeapYear
-
-	^ start isLeapYear
