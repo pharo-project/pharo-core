@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '4795 Horizontal wheel events
-	https://pharo.fogbugz.com/f/cases/4795
+ ^ '2649 dont let an empty Rectangle #intersects:
+	https://pharo.fogbugz.com/f/cases/2649
 
-14905 Missing test and clean code for SmalltalkImage>>#extractMinusParameters 
-	https://pharo.fogbugz.com/f/cases/14905'
+14938 missing addModelItemsToWindowMenu: in WindowModel
+	https://pharo.fogbugz.com/f/cases/14938
+
+14939 example for SearchableList does not work (MNU)
+	https://pharo.fogbugz.com/f/cases/14939'
