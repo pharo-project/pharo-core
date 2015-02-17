@@ -8,9 +8,9 @@ moveDown: number
 		ifTrue: [ ^ self moveUp: number negated ].
 		
 	linePos := self linePosition.
-	
+	newSpan := span.
 	number timesRepeat: [
-		newSpan := span nextLineSeparatorIfNone: [ ^ self moveToEnd ].
+		newSpan := newSpan nextLineSeparatorIfNone: [ ^ self moveToEnd ].
 	].
 	
 	^ newSpan endPosition linePosition: linePos.

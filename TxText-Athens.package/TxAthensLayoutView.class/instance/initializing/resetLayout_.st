@@ -5,6 +5,7 @@ resetLayout: startPosition
 	self layoutIsAboutToReset.
 	
 	pos := startPosition asPosition moveToLineStart.	
+	pos span prev isAtStart ifTrue: [ pos := pos moveLeft ].
 
 	layout := TxAthensLayout new view: self.
 	layout initializePosition: pos strategy: layoutStrategy.

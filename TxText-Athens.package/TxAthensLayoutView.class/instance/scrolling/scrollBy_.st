@@ -3,7 +3,7 @@ scrollBy: aPoint
 	| x y  |
 	
 	x := offset x + aPoint x.
-	x := (x min: layout width - extent x) max: 0.
+	x := x max: 0.
 	y := offset y + aPoint y.
 
 

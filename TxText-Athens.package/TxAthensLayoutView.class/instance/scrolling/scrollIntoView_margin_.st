@@ -49,15 +49,18 @@ scrollIntoView: aTextPosition margin: visibleMargin
 		"compact the layout"
 		self compact. 
 			
-	] ifFalse: [  
+	] ifFalse: [  | repeat |
+		repeat := true.
 		"position is outside of current layout"
 		aTextPosition > layout endPosition ifTrue: [ 
-			[aTextPosition > layout endPosition] whileTrue: [ layout extendOneLineDown ]
+			[repeat and: [aTextPosition > layout endPosition] ] 
+				whileTrue: [ repeat := layout extendOneLineDown ]
 		] ifFalse: [ 
-			[aTextPosition < layout startPosition] whileTrue: [ layout extendOneLineUp ]
+			[repeat and: [aTextPosition < layout startPosition]] 
+				whileTrue: [ repeat := layout extendOneLineUp ]
 		 ].
 		"repeat"
-		^ self scrollIntoView: aTextPosition margin: visibleMargin
+		repeat ifTrue: [ ^ self scrollIntoView: aTextPosition margin: visibleMargin ]
 	].
 
 	self announceViewChanged.

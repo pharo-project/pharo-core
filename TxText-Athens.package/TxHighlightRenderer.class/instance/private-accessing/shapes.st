@@ -21,7 +21,7 @@ shapes
 	
 	"The highlight of each line except the last ends at the right side of the view"
 	[ currentLine == highlightEndPosition line ] whileFalse: [  
-		endPoint := layoutView width @ (height + currentLine height).
+		endPoint := (layoutView width + layoutView offset x) @ (height + currentLine height).
 		shapes add: (startPoint rectangle: endPoint).
 		
 		height := height + currentLine height.
@@ -31,7 +31,7 @@ shapes
 
 	"We're at the last line, end the highlight at the end of the interval"
 	endPoint := extendEnd 
-		ifTrue: [ layoutView width @ (height + currentLine height) ]
+		ifTrue: [ (layoutView width + layoutView offset x) @ (height + currentLine height) ]
 		ifFalse: [ highlightEndPosition bottomPoint ].
 	
 	shapes add: (startPoint rectangle: endPoint).
