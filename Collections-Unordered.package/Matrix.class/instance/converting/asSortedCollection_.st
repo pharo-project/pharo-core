@@ -1,2 +1,2 @@
 asSortedCollection: aBlock
-	^contents asSortedCollection: aBlock
+	^ contents asSortedCollection: aBlock

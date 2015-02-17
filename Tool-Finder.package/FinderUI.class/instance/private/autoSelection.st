@@ -14,7 +14,7 @@ autoSelection
 	string := self searchingString asLowercase.
 	(string includes: $*)
 		ifTrue: [| list lastIndex|
-			list := string subStrings: '*'.
+			list := string substrings: '*'.
 			firstIndex := aString findString: list first.
 			lastIndex := (aString findString: list last startingAt: firstIndex) + list last size - 1.
 			interval := firstIndex to: lastIndex]

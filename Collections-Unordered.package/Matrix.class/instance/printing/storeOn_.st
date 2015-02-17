@@ -1,6 +1,6 @@
 storeOn: aStream
 	aStream nextPut: $(; nextPutAll: self class name;
-		nextPutAll: ' rows: '; store: nrows;
-		nextPutAll: ' columns: '; store: ncols;
+		nextPutAll: ' rows: '; store: numberOfRows;
+		nextPutAll: ' columns: '; store: numberOfColumns;
 		nextPutAll: ' contents: '; store: contents;
 		nextPut: $)

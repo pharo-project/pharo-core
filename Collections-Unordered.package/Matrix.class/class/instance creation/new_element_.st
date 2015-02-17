@@ -1,4 +1,4 @@
-new: dim element: element
-	"Answer a dim*dim matrix with all elements set to element."
+new: dimemsion element: element
+	"Answer a dimemsion*dimemsion matrix with all elements set to element."
 
-	^ self rows: dim columns: dim element: element
+	^ self rows: dimemsion columns: dimemsion element: element

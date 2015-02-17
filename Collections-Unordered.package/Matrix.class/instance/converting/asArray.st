@@ -1,2 +1,2 @@
 asArray
-	^contents shallowCopy
+	^ contents shallowCopy

@@ -1,2 +1,2 @@
 includes: anObject
-	^contents includes: anObject
+	^ contents includes: anObject

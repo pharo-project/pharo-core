@@ -1,2 +1,2 @@
 occurrencesOf: anObject
-	^contents occurrencesOf: anObject
+	^ contents occurrencesOf: anObject

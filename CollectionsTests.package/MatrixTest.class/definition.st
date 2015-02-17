@@ -1,5 +1,5 @@
 TestCase subclass: #MatrixTest
-	instanceVariableNames: 'matrix1 matrix2 matrix3'
+	instanceVariableNames: 'matrix1 matrix2 matrix3 matrix23'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'CollectionsTests-Unordered'

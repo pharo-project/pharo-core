@@ -1,5 +1,5 @@
 = aMatrix
-	^aMatrix class == self class and: [
-	 aMatrix rowCount = nrows and: [
-	 aMatrix columnCount = ncols and: [
-	 aMatrix privateContents = contents]]]
+	^ aMatrix class == self class
+		and: [ aMatrix numberOfRows = numberOfRows
+				and: [ aMatrix numberOfColumns = numberOfColumns 
+					and: [ aMatrix privateContents = contents ] ] ]

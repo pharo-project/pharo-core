@@ -1,2 +1,2 @@
 asSet
-	^contents asSet
+	^ contents asSet

@@ -1,2 +1,2 @@
 asByteArray
-	^contents asByteArray
+	^ contents asByteArray

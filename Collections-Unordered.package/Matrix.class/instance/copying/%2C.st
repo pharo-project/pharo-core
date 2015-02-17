@@ -3,17 +3,17 @@
 	 its columns being the columns of the receiver followed by the columns of aMatrix."
 	|newCont newCols anArray oldCols a b c|
 
-	[nrows = aMatrix rowCount] assert.
+	[numberOfRows = aMatrix numberOfRows] assert.
 	newCont := Array new: self size + aMatrix size.
 	anArray := aMatrix privateContents.
-	oldCols := aMatrix columnCount.
-	newCols := ncols + oldCols.
+	oldCols := aMatrix numberOfColumns.
+	newCols := numberOfColumns + oldCols.
 	a := b := c := 1.
-	1 to: nrows do: [:r |
-		newCont replaceFrom: a to: a+ncols-1 with: contents startingAt: b.
-		newCont replaceFrom: a+ncols to: a+newCols-1 with: anArray startingAt: c.
+	1 to: numberOfRows do: [:r |
+		newCont replaceFrom: a to: a + numberOfColumns - 1 with: contents startingAt: b.
+		newCont replaceFrom: a+numberOfColumns to: a + newCols - 1 with: anArray startingAt: c.
 		a := a + newCols.
-		b := b + ncols.
+		b := b + numberOfColumns.
 		c := c + oldCols].
-	^self class rows: nrows columns: newCols contents: newCont
+	^self class rows: numberOfRows columns: newCols contents: newCont
 		

@@ -1,2 +1,2 @@
 identityIncludes: anObject
-	^contents identityIncludes: anObject
+	^ contents identityIncludes: anObject

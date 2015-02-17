@@ -1,7 +1,6 @@
-at: r at: c ifInvalid: v
-	"If r,c is a valid index for this matrix, answer the corresponding element.
-	 Otherwise, answer v."
+at: rowNumber at: columnNumber ifInvalid: value
+	"If rowNumber,columnNumber is a valid index for the receiver, answer the corresponding element. Otherwise, answer value."
 
-	(r between: 1 and: nrows) ifFalse: [^v].
-	(c between: 1 and: ncols) ifFalse: [^v].
-	^contents at: (r-1)*ncols + c
+	(rowNumber between: 1 and: numberOfRows) ifFalse: [ ^ value ].
+	(columnNumber between: 1 and: numberOfColumns) ifFalse: [ ^ value ].
+	^contents at: (rowNumber - 1) * numberOfColumns + columnNumber

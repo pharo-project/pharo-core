@@ -1,2 +1,2 @@
 includesAll: aCollection
-	^contents includesAll: aCollection
+	^ contents includesAll: aCollection

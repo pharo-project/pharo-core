@@ -1,2 +1,2 @@
 asIdentitySet
-	^contents asIdentitySet
+	^ contents asIdentitySet

@@ -1,2 +1,2 @@
 asWordArray
-	^contents asWordArray
+	^ contents asWordArray

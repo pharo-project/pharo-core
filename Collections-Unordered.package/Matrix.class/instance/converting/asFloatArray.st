@@ -1,2 +1,2 @@
 asFloatArray
-	^contents asFloatArray
+	^ contents asFloatArray

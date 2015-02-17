@@ -43,13 +43,6 @@ elementsMenu: aBuilder
 				action: [ target runTestForMethods: selectedMethods notifying: true ];
 				order: 1000 ].
 			
-	target selectedMethod correspondingTestMethod notNil
-		ifTrue: [
-			(aBuilder item: #'Debug tests')
-				keyText: 'd' if: Nautilus useOldStyleKeys not;
-				action: [ target debugTest ];
-				order: 1001 ].		
-	
 	(aBuilder item: #'Senders of...')
 		keyText: 'b, n' if: Nautilus useOldStyleKeys not;
 		keyText: 'n' if: Nautilus useOldStyleKeys;

@@ -1,2 +1,2 @@
 columnCount
-	^ncols
+	^ numberOfColumns

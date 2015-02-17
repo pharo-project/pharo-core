@@ -1,2 +1,2 @@
 size
-	^contents size
+	^ contents size

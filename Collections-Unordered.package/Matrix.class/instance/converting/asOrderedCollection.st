@@ -1,2 +1,2 @@
 asOrderedCollection
-	^contents asOrderedCollection
+	^ contents asOrderedCollection

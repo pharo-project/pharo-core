@@ -1,2 +1,2 @@
 shuffledBy: aRandom
-	^self class rows: nrows columns: ncols contents: (contents copy shuffleBy: aRandom)
+	^self class rows: numberOfRows columns: numberOfColumns contents: (contents copy shuffleBy: aRandom)

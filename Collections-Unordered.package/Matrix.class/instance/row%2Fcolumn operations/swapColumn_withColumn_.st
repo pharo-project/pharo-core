@@ -3,7 +3,7 @@ swapColumn: anIndex withColumn: anotherIndex
 
 	a := self indexForRow: 1 andColumn: anIndex.
 	b := self indexForRow: 1 andColumn: anotherIndex.
-	nrows timesRepeat: [
+	numberOfRows timesRepeat: [
 		contents swap: a with: b.
-		a := a + ncols.
-		b := b + ncols].
+		a := a + numberOfColumns.
+		b := b + numberOfColumns].

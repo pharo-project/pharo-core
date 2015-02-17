@@ -1,2 +1,2 @@
 atRandom: aGenerator
-	^contents atRandom: aGenerator
+	^ contents atRandom: aGenerator

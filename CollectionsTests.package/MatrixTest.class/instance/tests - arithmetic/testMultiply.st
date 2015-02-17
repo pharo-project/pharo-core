@@ -1,7 +1,7 @@
 testMultiply
 	
 	| result |
-	self	should: [matrix1	preMultiplyByMatrix: (Matrix new: 3)]raise: Error.
+	self	should: [matrix1 preMultiplyByMatrix: (Matrix new: 3)] raise: Error.
 
 	result := matrix2 preMultiplyByMatrix: matrix1.
 	self assert: (result at: 1 at: 1) = 15.

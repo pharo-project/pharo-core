@@ -1,2 +1,2 @@
 shuffled
-	^self class rows: nrows columns: ncols contents: (contents shuffled)
+	^self class rows: numberOfRows columns: numberOfColumns contents: (contents shuffled)

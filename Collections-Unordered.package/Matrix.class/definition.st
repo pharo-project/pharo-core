@@ -1,5 +1,5 @@
 Collection subclass: #Matrix
-	instanceVariableNames: 'nrows ncols contents'
+	instanceVariableNames: 'contents numberOfColumns numberOfRows'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Collections-Unordered'

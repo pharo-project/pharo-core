@@ -1,0 +1,2 @@
+numberOfColumns
+	^ numberOfColumns

@@ -1,9 +1,12 @@
 commentForCurrentUpdate
- ^ '14943 really deprecated #leap
-	https://pharo.fogbugz.com/f/cases/14943
+ ^ '14940 timeToRunWithoutGC broken
+	https://pharo.fogbugz.com/f/cases/14940
 
-14897 Date isLeapYear equally defined in Dates superclass
-	https://pharo.fogbugz.com/f/cases/14897
+14946 Replace senders of String>>#subStrings: in Tool-Finder
+	https://pharo.fogbugz.com/f/cases/14946
 
-14483 Extract the PragmaCollector into its own package
-	https://pharo.fogbugz.com/f/cases/14483'
+14937 better comments and test for Matrix
+	https://pharo.fogbugz.com/f/cases/14937
+
+14060 MNU: receiver of "stepToCallee" is nil
+	https://pharo.fogbugz.com/f/cases/14060'

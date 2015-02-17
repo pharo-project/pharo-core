@@ -1,2 +1,2 @@
 rowCount
-	^nrows
+	^numberOfRows
