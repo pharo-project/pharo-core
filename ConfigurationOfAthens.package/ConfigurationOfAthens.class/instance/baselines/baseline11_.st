@@ -8,6 +8,7 @@ baseline11: spec
 		spec project: 'ConfigurationOfNativeBoost default' with: [
 			spec
 				className: 'ConfigurationOfNativeBoost';
+				versionString: #'stable';
 				loads: #('default' ); "this is optional"
 				file: 'ConfigurationOfNativeBoost';
 				repository: 'http://www.squeaksource.com/NativeBoost' ].

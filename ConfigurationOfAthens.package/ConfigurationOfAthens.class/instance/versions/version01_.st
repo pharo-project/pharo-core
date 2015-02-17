@@ -13,7 +13,7 @@ version01: spec
 			spec package: 'Athens-Morphic' with: 'Athens-Morphic-IgorStasenko.1'.
 	
 			spec package: 'Athens-CairoPools' with: 'Athens-CairoPools-IgorStasenko.1'.
-			spec package: 'Athens-Cairo' with: ' Athens-Cairo-IgorStasenko.7'.
+			spec package: 'Athens-Cairo' with: 'Athens-Cairo-IgorStasenko.7'.
 			spec package: 'Athens-PangoCairo' with: 'Athens-PangoCairo-FernandoOlivero.3'.
 			spec package: 'Athens-Examples' with: 'Athens-Examples-IgorStasenko.1'.
                 ].

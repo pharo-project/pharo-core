@@ -10,3 +10,6 @@ Set the antialiasing mode of the rasterizer used for drawing shapes. This value 
 Note that this option does not affect text rendering, instead see cairo_font_options_set_antialias().
 
 "
+<primitive: #primitiveNativeCall module: #NativeBoostPlugin>
+	
+	^ self nbCall: #(void cairo_set_antialias (self, uint antiAlias))

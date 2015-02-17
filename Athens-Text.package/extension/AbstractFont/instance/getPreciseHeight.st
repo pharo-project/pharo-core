@@ -1,0 +1,2 @@
+getPreciseHeight
+	^ self height

@@ -6,4 +6,4 @@ loadOn: aCanvas
 				weight:  fontWeight 
 				on: aCanvas] .
 	fontSize notNil ifTrue:[		
-		self primSetFontSize:  fontSize on: aCanvas ]
+		self primSetFontSize:  (TextStyle pointsToPixels: fontSize) on: aCanvas ]
