@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '14949 String>>asPackage
-	https://pharo.fogbugz.com/f/cases/14949
+ ^ '14961 instantiation is misspelled in PharoSyntaxTutorial
+	https://pharo.fogbugz.com/f/cases/14961
 
-14957 Number>>#percent
-	https://pharo.fogbugz.com/f/cases/14957
+14947 Missing allChildrenMatching:
+	https://pharo.fogbugz.com/f/cases/14947
 
-14958 DateModel>>#initializeWidgets error
-	https://pharo.fogbugz.com/f/cases/14958'
+14971 MorphicTransform: Better Argument Names
+	https://pharo.fogbugz.com/f/cases/14971'
