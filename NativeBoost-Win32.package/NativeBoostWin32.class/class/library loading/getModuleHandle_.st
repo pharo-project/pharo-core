@@ -4,7 +4,7 @@ getModuleHandle: lpModuleName
 	<primitive: #primitiveNativeCall module: #NativeBoostPlugin>
 
 	^ self nbCallout 
-		options: #( - WinUnicode );
+		options: #( - optWinUnicode );
 		stdcall;
 		function: #( HMODULE GetModuleHandleA (LPCTSTR lpModuleName ) ) 
 		module: #Kernel32

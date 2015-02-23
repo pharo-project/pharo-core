@@ -8,4 +8,5 @@ obsolete
 	self classPool: nil.
 	self sharedPools: nil.
 	self hasClassSide ifTrue: [ self theMetaClass obsolete].
+	self propertyValueAt: #obsolete put: true.
 	super obsolete.

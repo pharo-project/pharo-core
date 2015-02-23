@@ -6,8 +6,7 @@ hInstance: hInstance lParam: lpParam
 
 	^ self nbCallout 
 		stdcall;
-		options: #( - WinUnicode );
-	
+		options: #( - optWinUnicode );
 		function: #( HWND 'CreateWindowExA' 
 			( DWORD dwExStyle,
 			LPCTSTR lpClassName,
