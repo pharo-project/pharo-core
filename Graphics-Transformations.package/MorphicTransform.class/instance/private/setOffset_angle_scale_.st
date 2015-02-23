@@ -1,4 +1,4 @@
-setOffset: aPoint angle: a scale: s 
+setOffset: aPoint angle: radians scale: aNumberOrPoint
 	offset := aPoint.
-	angle := a.
-	scale := s
+	angle := radians.
+	scale := aNumberOrPoint

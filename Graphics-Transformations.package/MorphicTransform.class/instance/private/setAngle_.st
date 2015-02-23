@@ -1,2 +1,2 @@
-setAngle: aFloat 
-	angle := aFloat
+setAngle: radians
+	angle := radians

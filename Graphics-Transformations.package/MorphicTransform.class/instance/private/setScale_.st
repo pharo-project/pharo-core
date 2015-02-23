@@ -1,2 +1,2 @@
-setScale: aFloat 
-	scale := aFloat
+setScale: aNumberOrPoint 
+	scale := aNumberOrPoint

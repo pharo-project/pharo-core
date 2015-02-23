@@ -1,6 +1,6 @@
-instanciation
+instantiation
 	^ Lesson
-title: 'Instanciation' 
+title: 'Instantiation' 
 lesson: 
 '"Objects are instances of their class. Usually, we send the message #new to a class for creating an instance of this class.
 

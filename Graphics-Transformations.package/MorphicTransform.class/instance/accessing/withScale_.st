@@ -1,3 +1,2 @@
-withScale: a
-	"Return a copy of me with a different Scale"
-	^ self copy setScale: a
+withScale: aNumberOrPoint
+	^ self copy setScale: aNumberOrPoint

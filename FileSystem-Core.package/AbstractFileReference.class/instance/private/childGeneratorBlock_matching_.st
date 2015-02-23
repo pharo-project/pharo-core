@@ -1,7 +1,7 @@
 childGeneratorBlock: doBlock matching: patterns
 	"
-	FileDirectory default fileNamesMatching: '*'
-	FileDirectory default fileNamesMatching: '*.image;*.changes'
+	FileSystem workingDirectory filesMatching: '*'
+	FileSystem workingDirectory filesMatching: '*.image;*.changes'
 	"
 	
 	| files reference|

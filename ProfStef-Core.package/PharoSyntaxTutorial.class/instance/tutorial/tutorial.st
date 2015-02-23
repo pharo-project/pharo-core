@@ -26,7 +26,7 @@ conditionals
 loops
 iterators
 
-instanciation
+instantiation
 
 reflection
 reflectionContinued
