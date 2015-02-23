@@ -1,2 +1,2 @@
 newCodeEnabled
-	^ EnableNewCode ifNil: [  EnableNewCode := false ] 
+	^ true

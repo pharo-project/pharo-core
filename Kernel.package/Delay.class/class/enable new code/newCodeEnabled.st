@@ -1,4 +1,3 @@
 newCodeEnabled
-	"Enable new code to be isolated during development and experimenting,
-	and simulaneously switch from all old code to new code for delay scheduling."
-	^ EnableNewCode ifNil: [  EnableNewCode := false ]
+	^true
+	"No longer required after Issue 14942 is integrated, but perhaps during that integration the timer loop tiggers and invokes this method. So leave cleanup of this to a subsequent issue." 
