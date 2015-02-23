@@ -1,6 +1,5 @@
 initializeWidgets
 
-	| typeItems |
 	self instantiateModels: #(
 		dateLabel LabelModel
 		dateModel TextInputFieldModel
@@ -14,6 +13,6 @@ initializeWidgets
 		isCodeCompletionAllowed: false.
 	
 	chooseDateButton
-		label: self iconMorph;
+		icon: self iconMorph;
 		action: [ self chooseDate ];
 		extent: self iconMorph extent.

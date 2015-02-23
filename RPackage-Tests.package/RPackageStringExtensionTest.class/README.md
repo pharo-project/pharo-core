@@ -1,0 +1,1 @@
+A RPackageStringExtensionTest is xxxxxxxxx.
