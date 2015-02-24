@@ -1,5 +1,5 @@
 ByteArray variableByteSubclass: #CompiledMethod
 	instanceVariableNames: ''
-	classVariableNames: 'LargeFrame SmallFrame'
+	classVariableNames: 'LargeFrame PrimaryBytecodeSetEncoderClass SecondaryBytecodeSetEncoderClass SmallFrame'
 	poolDictionaries: ''
 	category: 'Kernel-Methods'

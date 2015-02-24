@@ -1,9 +1,8 @@
 commentForCurrentUpdate
- ^ '14964 deprecated #anonymousSubclassOf:
-	https://pharo.fogbugz.com/f/cases/14964
+ ^ '14980 Method missing to decode bytecode set
+	https://pharo.fogbugz.com/f/cases/14980
 
-14975 Generate initialize methods should be in initialization protocol
-	https://pharo.fogbugz.com/f/cases/14975
+14979 Fixes for SistaV1 bytecode set
+	https://pharo.fogbugz.com/f/cases/14979
 
-14967 MCFileTreeRepository does not implement #versionInfoFromVersionNamed: correctly
-	https://pharo.fogbugz.com/f/cases/14967'
+'
