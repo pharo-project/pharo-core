@@ -1,4 +1,4 @@
 removeManifestOf: aItem
 	
-	(self manifestOf: aItem) ifNotNil: [ :manifest | 
-			self removeClass: manifest ]
+	(self manifestOf: aItem) ifNotNil: [ :myManifest | 
+			self removeClass: myManifest  ]

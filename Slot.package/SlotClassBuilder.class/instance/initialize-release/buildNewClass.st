@@ -25,5 +25,5 @@ buildNewClass
 	installer installTraitComposition: traitComposition on: newClass.
 	installer installTraitComposition: classTraitComposition on: metaclass.
 	
-	newClass slots do: [ :each | each installingIn: newClass].
+	newClass layout slots do: [ :each | each installingIn: newClass].
 	^ newClass
