@@ -6,8 +6,7 @@ testAnonymousSubclass
 			slots: #(x)
 		].
 
-	anotherClass := aClass classBuilder anonymousSubclassOf: aClass.
-
+	anotherClass := aClass newAnonymousSubclass.
 	self deny: anotherClass == aClass.
 	self assert: anotherClass isBehavior.
 	self assert: anotherClass superclass == aClass.
