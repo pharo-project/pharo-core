@@ -1,2 +1,2 @@
 extent
-	^ surface extent 
+	^ extent ifNil:[surface extent]

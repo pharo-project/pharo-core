@@ -1,6 +1,6 @@
 drawOnAthensCanvas: aCanvas 
 
-	super drawOn: aCanvas.
+	super drawOnAthensCanvas: aCanvas.
 	aCanvas 
 		morphicDrawString: self label
 		in: self labelBounds

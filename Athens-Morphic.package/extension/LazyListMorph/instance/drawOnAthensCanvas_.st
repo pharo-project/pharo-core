@@ -1,5 +1,6 @@
 drawOnAthensCanvas: aCanvas
-
+	listItems isEmpty
+		ifTrue: [^ self].
 	"self drawSelectionOn: aCanvas."
 	1 to: listItems size do: [:row |
 		(listSource itemSelectedAmongMultiple: row)
@@ -19,5 +20,5 @@ drawOnAthensCanvas: aCanvas
 				atRow: row
 				on: aCanvas].
 		
-	"listSource potentialDropRow > 0
-		ifTrue: [self athensHighlightPotentialDropRow: listSource potentialDropRow on: aCanvas]"
+	listSource potentialDropRow > 0
+		ifTrue: [self athensHighlightPotentialDropRow: listSource potentialDropRow on: aCanvas]

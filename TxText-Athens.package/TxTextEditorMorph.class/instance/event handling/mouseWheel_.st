@@ -1,8 +1,8 @@
 mouseWheel: event
-	event direction = #up ifTrue: [
+	event isUp ifTrue: [
 		layoutViewMorph scrollBy: 0@ (layoutViewMorph height/10) negated.
 		  ].
-	event direction = #down ifTrue: [ 
+	event isDown ifTrue: [ 
 		layoutViewMorph scrollBy: 0@ (layoutViewMorph height/10).
 	  ].
 	

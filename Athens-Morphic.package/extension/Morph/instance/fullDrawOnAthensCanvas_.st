@@ -9,14 +9,4 @@ fullDrawOnAthensCanvas: anAthensCanvas
 	
 	submorphs isEmpty ifTrue: [^self].
 
-	self clipSubmorphs ifTrue: [ | clip |
-		clip := self clippingBounds.
-		anAthensCanvas 
-			clipBy: clip
-			during: [
-				submorphs reverseDo: [:m | anAthensCanvas fullDrawMorph: m ] 
-			]
-	] 
-	ifFalse: [
-		submorphs reverseDo: [:m | anAthensCanvas fullDrawMorph: m ]
-	]
+	self drawSubmorphsOnAthensCanvas: anAthensCanvas

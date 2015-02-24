@@ -1,3 +1,5 @@
 athensDrawSelectionOn: anAthensCanvas 
 	
-self value
+	selectedRow ifNil: [ ^self ].
+	selectedRow = 0 ifTrue: [ ^self ].
+	self athensDrawBackgroundForSelectedRow: selectedRow on: anAthensCanvas 

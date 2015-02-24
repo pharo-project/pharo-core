@@ -1,0 +1,2 @@
+width: aWidth
+	width:= aWidth

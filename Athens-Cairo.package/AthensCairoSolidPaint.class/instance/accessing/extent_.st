@@ -1,0 +1,2 @@
+extent: anExtent
+	extent := anExtent

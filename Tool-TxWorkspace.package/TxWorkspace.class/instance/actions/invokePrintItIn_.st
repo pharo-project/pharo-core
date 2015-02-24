@@ -1,14 +1,14 @@
 invokePrintItIn: editorMorph 
-	| editor result |
-	editor := editorMorph controller.
+	| myeditor result |
+	myeditor := editorMorph controller.
 
-	editor selection isEmpty ifTrue: [  
-		editor moveToLineStart; extendSelectionToLineEnd. 
+	myeditor selection isEmpty ifTrue: [  
+		myeditor moveToLineStart; extendSelectionToLineEnd. 
 	].
 
-	editor selection isEmpty ifFalse: [ 
-		result := ' ' , (Compiler evaluate: editor selection asString) printString.
-		editor collapseSelection.
+	myeditor selection isEmpty ifFalse: [ 
+		result := ' ' , (Smalltalk compiler evaluate: myeditor selection asString) printString.
+		myeditor collapseSelection.
 		editorMorph insert: result
 		
 	 ].

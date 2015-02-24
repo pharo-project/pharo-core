@@ -1,13 +1,20 @@
-athensDisplay: item atRow: row on: aCanvas 
+athensDisplay: item atRow: row on: aCanvas
 	"Display the given item at the given row on the given
 	canvas."
-	
-	| c drawBounds frame attrs useDefaultFont |
-"
+
+	| c backgroundColor drawBounds |
+	item inspectOnce.
 	drawBounds := self drawBoundsForRow: row.
 	c := self colorForRow: row.
+	backgroundColor := self backgroundColorForRow: row.
 	aCanvas
 		morphicDrawString: item asString
 		at: drawBounds topLeft
 		font: self font
-		color: (self colorForRow: row)"
+		color: c.
+	row = self mouseDownRow
+		ifTrue: [ 
+			(aCanvas setStrokePaint: c)
+				width: 1;
+				dashes: {1} offset: 0.
+			aCanvas drawShape: (self selectionFrameForRow: row) ]

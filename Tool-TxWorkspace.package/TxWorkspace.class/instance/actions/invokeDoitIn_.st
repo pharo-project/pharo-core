@@ -1,11 +1,11 @@
 invokeDoitIn: editorMorph 
-	| editor |
-	editor := editorMorph controller.
+	| myeditor |
+	myeditor := editorMorph controller. 
 
-	editor selection isEmpty ifTrue: [  
-		editor moveToLineStart; extendSelectionToLineEnd. 
+	myeditor selection isEmpty ifTrue: [  
+		myeditor moveToLineStart; extendSelectionToLineEnd. 
 	].
 
-	editor selection isEmpty ifFalse: [ 
-		Compiler evaluate: editor selection asString.
+	myeditor selection isEmpty ifFalse: [ 
+		Smalltalk compiler evaluate: myeditor selection asString.
 	 ].

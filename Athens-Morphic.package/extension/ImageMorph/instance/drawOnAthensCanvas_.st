@@ -1,6 +1,6 @@
 drawOnAthensCanvas: aCanvas
 	
-	| cached |
+	| cached style|
 	
 	cached := aCanvas cacheAt: image ifAbsentPut: [
 		image asAthensPaintOn: aCanvas.
@@ -13,4 +13,6 @@ drawOnAthensCanvas: aCanvas
 		
 			aCanvas drawShape: self innerBounds.
 		].
-	
+	(style := self borderStyle) ifNotNil: [
+		aCanvas setStrokePaint: style.
+		aCanvas drawShape: bounds]	

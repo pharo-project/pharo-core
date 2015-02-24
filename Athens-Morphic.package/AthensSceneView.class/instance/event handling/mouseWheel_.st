@@ -9,8 +9,8 @@ mouseWheel: event
 
 	zoom := 1.
 	
-	event direction = #up ifTrue: [ zoom := 1.25 ].
-	event direction = #down ifTrue: [ zoom := 1/1.25 ].
+	event isUp ifTrue: [ zoom := 1.25 ].
+	event isDown ifTrue: [ zoom := 1/1.25 ].
 	
 	
 	(self inState: #zooming) ifTrue: [   

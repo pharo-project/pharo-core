@@ -1,0 +1,2 @@
+display: aDisplay
+	display := aDisplay

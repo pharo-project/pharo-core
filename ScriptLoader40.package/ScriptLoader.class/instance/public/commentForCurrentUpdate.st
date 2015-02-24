@@ -1,14 +1,6 @@
 commentForCurrentUpdate
- ^ '14960 Extend Duration with a human readable print option and some related accessors
-	https://pharo.fogbugz.com/f/cases/14960
+ ^ '14954 load new configuration 2.9 (more morphic support)
+	https://pharo.fogbugz.com/f/cases/14954
 
-14963 addInstVarNamed: should use addSlot:
-	https://pharo.fogbugz.com/f/cases/14963
-
-14970 TheManifestBuilder>>removeManifestOf:(manifest is shadowed)
-	https://pharo.fogbugz.com/f/cases/14970
-
-14914 #initializeSlots: should not skip hidden slots
-	https://pharo.fogbugz.com/f/cases/14914
-
-'
+14955 load new TxText configuration 2.8.3 (more morphic support)
+	https://pharo.fogbugz.com/f/cases/14955'

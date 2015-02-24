@@ -1,0 +1,2 @@
+bottomRightPaint: anAthensPaint
+	bottomRightPaint := anAthensPaint

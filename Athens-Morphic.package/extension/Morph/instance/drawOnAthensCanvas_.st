@@ -7,7 +7,7 @@ drawOnAthensCanvas: anAthensCanvas
 	"Fill the given rectangle."
 	anAthensCanvas drawShape: (self bounds insetBy: border width).
 
-	(anAthensCanvas setStrokePaint: border color) width: border width.
+	(anAthensCanvas setStrokePaint: border).
 	anAthensCanvas drawShape: (self bounds insetBy: (border width /2 asFloat)).
 	
 

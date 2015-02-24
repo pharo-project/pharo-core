@@ -1,0 +1,2 @@
+extent: aPatternExtent
+	extent:= aPatternExtent

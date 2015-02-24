@@ -1,0 +1,2 @@
+wrapMorph: anObject
+	wrapMorph := anObject
