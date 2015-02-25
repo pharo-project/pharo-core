@@ -1,6 +1,2 @@
 removeScriptMethods
-	"self new removeScriptMethods"
-	
-	((ScriptLoader organization listAtCategoryNamed: 'pharo - scripts') 
-		asSortedCollection allButLast) 
-			do: [:each | ScriptLoader removeSelector: each].
+	(ScriptLoader organization listAtCategoryNamed: 'pharo - scripts') do: [:each | ScriptLoader removeSelector: each].

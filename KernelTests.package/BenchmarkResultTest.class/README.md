@@ -1,0 +1,1 @@
+A BenchmarkResultTest is xxxxxxxxx.
