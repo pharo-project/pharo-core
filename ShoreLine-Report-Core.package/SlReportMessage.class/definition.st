@@ -1,5 +1,5 @@
 Object subclass: #SlReportMessage
-	instanceVariableNames: 'author date version payload'
+	instanceVariableNames: 'author auto date version payload'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'ShoreLine-Report-Core'

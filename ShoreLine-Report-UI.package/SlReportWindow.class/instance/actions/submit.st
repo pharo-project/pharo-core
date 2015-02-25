@@ -1,4 +1,4 @@
 submit
 
-	self reporter sendReport: report.
+	self reporter serializeAndSend: report.
 	self updateSettings.

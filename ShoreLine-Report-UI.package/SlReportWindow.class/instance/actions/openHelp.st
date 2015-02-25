@@ -1,9 +1,5 @@
 openHelp
 
-	TextModel new
-		text: self class helpText translated;
-		title: self class popupText translated;
-		openDialogWithSpec
-	"UIManager default
+	UIManager default
 		longMessage: self class helpText translated
-		title: self class popupText translated"
+		title: self class popupText translated
