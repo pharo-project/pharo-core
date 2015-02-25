@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '14983 MorphicEventDispatcher>>#dispatchEvent:with: needs to nil morph instance
+update40506
+	"self new update40506"
+	self withUpdateLog: '14983 MorphicEventDispatcher>>#dispatchEvent:with: needs to nil morph instance
 	https://pharo.fogbugz.com/f/cases/14983
 
 14862 /is/this/possible? asFileReference size
@@ -9,4 +10,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/13004
 
 14965 #class:instanceVariableNames: not needed in OldClassBuilderAdapter
-	https://pharo.fogbugz.com/f/cases/14965'
+	https://pharo.fogbugz.com/f/cases/14965'.
+	self loadTogether: self script506 merge: false.
+	self flushCaches.

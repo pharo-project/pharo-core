@@ -1,0 +1,2 @@
+kmTable: anObject
+	kmTable := anObject

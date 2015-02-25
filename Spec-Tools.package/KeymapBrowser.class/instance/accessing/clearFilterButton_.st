@@ -1,0 +1,2 @@
+clearFilterButton: anObject
+	clearFilterButton := anObject

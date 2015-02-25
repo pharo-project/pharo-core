@@ -1,6 +1,6 @@
 modificationTime: aPath
-	self 
+	^ self 
 		nodeAt: aPath 
-		ifPresent: [ :entry | ^ self basicModificationTime: entry ] 
-		ifAbsent: [ ^ false ].
+		ifPresent: [ :entry | self basicModificationTime: entry ] 
+		ifAbsent: [ self signalFileDoesNotExist: aPath ].
 	

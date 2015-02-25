@@ -1,6 +1,6 @@
 creationTime: aPath
-	self 
+	^ self 
 		nodeAt: aPath 
-		ifPresent: [ :entry | ^ self basicCreationTime: entry ] 
-		ifAbsent: [ ^ false ].
+		ifPresent: [ :entry | self basicCreationTime: entry ] 
+		ifAbsent: [ self signalFileDoesNotExist: aPath ].
 	

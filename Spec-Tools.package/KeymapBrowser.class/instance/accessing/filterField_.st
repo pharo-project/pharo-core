@@ -1,0 +1,2 @@
+filterField: anObject
+	filterField := anObject
