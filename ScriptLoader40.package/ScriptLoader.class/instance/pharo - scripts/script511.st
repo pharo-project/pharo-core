@@ -1,4 +1,4 @@
-script510
+script511
 
 	^ 'AST-Core-TheIntegrator.256.mcz
 AST-Interpreter-Core-EstebanLorenzano.134.mcz
@@ -110,7 +110,7 @@ HelpSystem-Core-TheIntegrator.115.mcz
 HelpSystem-Tests-TheIntegrator.30.mcz
 HudsonBuildTools20-TheIntegrator.63.mcz
 Jobs-EstebanLorenzano.4.mcz
-Kernel-TheIntegrator.1964.mcz
+Kernel-TheIntegrator.1966.mcz
 KernelTests-TheIntegrator.746.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-EstebanLorenzano.45.mcz
@@ -246,7 +246,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.232.mcz
 ShoutTests-TheIntegrator.27.mcz
-Slot-TheIntegrator.556.mcz
+Slot-TheIntegrator.558.mcz
 Slot-Tests-TheIntegrator.13.mcz
 SmartSuggestions-TheIntegrator.147.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz

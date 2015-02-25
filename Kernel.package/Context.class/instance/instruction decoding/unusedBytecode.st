@@ -1,0 +1,2 @@
+unusedBytecode
+	^ self respondsToUnknownBytecode 

@@ -1,2 +1,5 @@
 printOn: aStream
-	aStream << '#' << self name << ' => '; << self class name.
+	aStream 
+		store: self name;
+		nextPutAll: ' => ';
+		nextPutAll: self class name

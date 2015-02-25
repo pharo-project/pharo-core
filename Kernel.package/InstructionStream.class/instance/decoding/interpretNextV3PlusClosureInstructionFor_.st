@@ -6,7 +6,7 @@ interpretNextV3PlusClosureInstructionFor: client
 	method := self method.  
 	byte := method at: pc.
 	type := byte // 16.  
-	offset := byte \\ 16.  
+	offset := byte \\ 16.   
 	pc := pc+1.
 	"We do an inline binary search on each of the possible 16 values of type:
 	The old, cleaner but slowe code is retained as a comment below"
@@ -54,7 +54,7 @@ interpretNextV3PlusClosureInstructionFor: client
 									offset = 13
 										ifTrue: [^ client blockReturnTop].
 									offset > 13
-										ifTrue: [^ self error: 'unusedBytecode']]]]]
+										ifTrue: [^ self unusedBytecode: client at: pc - 1 ]]]]]
 		ifFalse: [type < 12
 				ifTrue: [type < 10
 						ifTrue: [type < 9

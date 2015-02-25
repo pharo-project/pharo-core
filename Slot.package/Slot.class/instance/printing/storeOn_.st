@@ -1,4 +1,2 @@
 storeOn: aStream
-	aStream store: self name.
-	aStream nextPutAll: ' => '.
-	aStream nextPutAll: self class name
+	^self printOn: aStream

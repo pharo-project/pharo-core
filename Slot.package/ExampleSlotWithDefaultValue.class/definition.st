@@ -1,5 +1,5 @@
 InstanceVariableSlot subclass: #ExampleSlotWithDefaultValue
-	instanceVariableNames: ''
+	instanceVariableNames: 'default'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Slot-Examples'
