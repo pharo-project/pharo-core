@@ -1,3 +1,3 @@
 logToTranscript
 	self stopLoggingToTranscript.
-	^ self announcer when: self send: #crShow: to: Transcript
+	^ self announcer when: ZnLogEvent do: [ :event | Transcript crShow: event ].

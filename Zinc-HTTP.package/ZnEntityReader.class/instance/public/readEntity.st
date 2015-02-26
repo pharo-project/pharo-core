@@ -1,7 +1,7 @@
 readEntity
 	| entity |
 	self canReadContent ifFalse: [ ^ nil ].
-	entity := self readEntityFromStream.
+	self withDefaultUtf8Decoding: [ entity := self readEntityFromStream ].
 	^ entity isEmpty
 		ifTrue: [ nil ]
 		ifFalse: [ entity ]    

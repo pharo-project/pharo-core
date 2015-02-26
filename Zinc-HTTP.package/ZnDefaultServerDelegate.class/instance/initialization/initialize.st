@@ -12,4 +12,6 @@ initialize
 		map: 'session' to: #sessionRequest:;
 		map: 'error' to: #errorResponse:;
 		map: 'form-test-1' to: #formTest1:;
+		map: 'form-test-2' to: #formTest2:;
+		map: 'form-test-3' to: #formTest3:;
 		map: '/' to: 'welcome'

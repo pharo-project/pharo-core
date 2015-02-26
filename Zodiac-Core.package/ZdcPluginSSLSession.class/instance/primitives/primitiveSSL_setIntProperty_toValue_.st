@@ -1,6 +1,6 @@
 primitiveSSL: sslHandle setIntProperty: propID toValue: anInteger
-	"Primitive. Sets a string property in an SSL session"
+	"Primitive. Sets an integer property in an SSL session"
 
-	<primitive: 'primitiveSetStringProperty' module: 'SqueakSSL'>
+	<primitive: 'primitiveSetIntProperty' module: 'SqueakSSL'>
 	
 	^ self primitiveFailed

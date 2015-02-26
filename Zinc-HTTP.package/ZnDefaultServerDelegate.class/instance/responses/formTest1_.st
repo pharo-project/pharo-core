@@ -6,4 +6,4 @@ formTest1: request
 		'Input <input type="input" name="input" value="{1}"> ',
 		'<input type="submit"> for input <em>{1}</em>',
 		'</form>' format: { input }.
-	^ ZnResponse ok: (ZnEntity html: html )
+	^ ZnResponse ok: (ZnEntity html: html)

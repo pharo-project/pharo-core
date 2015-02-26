@@ -4,8 +4,8 @@ close
 	connection
 		ifNotNil: [ 
 			| address port |
-			address := connection socket remoteAddress.
-			port := connection socket remotePort.
+			address := [ connection socket remoteAddress ] on: Error do: [ nil ].
+			port := [ connection socket remotePort ] on: Error do: [ nil ].
 			connection close.
 			connection := nil.
 			self logConnectionClosedAddress: address port: port ].

@@ -3,6 +3,6 @@ logConnectionEstablishedTo: url started: initialMilliseconds
 	(self newLogEvent: ZnConnectionEstablishedEvent)
 		hostname: url host;
 		port: url portOrDefault;
-		address: connection socket remoteAddress;
+		address: ([ connection socket remoteAddress ] on: Error do: [ nil ]);
 		duration: (Time millisecondsSince: initialMilliseconds);
 		emit
