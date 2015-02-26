@@ -1,5 +1,5 @@
 roots: aCollection
-	< api: #st getter: #roots registration: #whenRootsChanged:>
+	"< api: #st getter: #roots registration: #whenRootsChanged:>"
 	"Set the tree roots"
 
 	rootsHolder value: aCollection.

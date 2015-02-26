@@ -1,3 +1,3 @@
 readSelection
-	<api: #inspect>
+	"<api: #inspect>"
 	^ readSelectionHolder value cull: self text cull: self

@@ -1,5 +1,5 @@
 setSelectedIndex: anIndex
-	<api: #integer min: 0 max: #listSize getter: #selectedIndex registration: #whenSelectionIndexChanged:>
+	"<api: #integer min: 0 max: #listSize getter: #selectedIndex registration: #whenSelectionIndexChanged:>"
 	"Set the index of the item you want to be selected"
 	
 	self widget

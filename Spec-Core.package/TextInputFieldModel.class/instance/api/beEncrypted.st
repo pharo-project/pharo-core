@@ -1,5 +1,5 @@
 beEncrypted
-	<api: #do>
+"	<api: #do>"
 	"Encrypt the entered text"
 	
 	self encrypted: true

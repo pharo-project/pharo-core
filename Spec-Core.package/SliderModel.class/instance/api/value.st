@@ -1,5 +1,5 @@
 value
-	<api: #inspect>
+	"<api: #inspect>"
 	"Return the current value in a range between min and max"
 
 	^ value value

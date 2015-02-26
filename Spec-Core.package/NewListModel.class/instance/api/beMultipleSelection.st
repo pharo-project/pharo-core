@@ -1,5 +1,5 @@
 beMultipleSelection
-	<api: #do>
+	"<api: #do>"
 	"Make list selection multiple"
 
 	self isMultipleSelection: true

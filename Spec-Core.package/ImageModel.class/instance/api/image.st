@@ -1,4 +1,4 @@
 image
-	<api: #inspect>
+	"<api: #inspect>"
 
 	^ imageHolder value

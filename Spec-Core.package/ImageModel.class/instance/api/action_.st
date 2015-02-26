@@ -1,5 +1,4 @@
 action: aBlock
-	<api: #block getter: #action registration: #whenActionChanged:>
 	"Set the action of the image"
-	
+	"<api: #block getter: #action registration: #whenActionChanged:>"
 	action value: aBlock

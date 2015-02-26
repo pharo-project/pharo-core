@@ -1,5 +1,5 @@
 min
-	<api: #inspect>
+	"<api: #inspect>"
 	"Return the minimum value"
 	
 	^ min value

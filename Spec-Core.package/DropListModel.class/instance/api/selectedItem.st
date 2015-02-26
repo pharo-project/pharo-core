@@ -1,4 +1,4 @@
 selectedItem
-	<api: #inspect>
+	"<api: #inspect>"
 
 	^ self selectedItemHolder value model

@@ -1,3 +1,3 @@
 shortcut: aShortcut
 
-	shortcut value: aShortcut
+	shortcutHolder value: aShortcut

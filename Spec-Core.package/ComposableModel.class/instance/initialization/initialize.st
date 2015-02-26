@@ -1,7 +1,6 @@
 initialize
 
 	super initialize.
-
 	extentHolder := nil asValueHolder.
 	needRebuild := true asValueHolder.
 	keyStrokesForNextFocusHolder := { KMNoShortcut new } asValueHolder.

@@ -1,5 +1,5 @@
 help
-	<api: #inspect>
+	"<api: #inspect>"
 	"Return the ballon text"
 	
 	^ helpHolder value

@@ -1,3 +1,3 @@
 state
-	<api: #inspect>
+	"<api: #inspect>"
 	^ stateHolder value

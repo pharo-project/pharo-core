@@ -1,5 +1,5 @@
 roots
-	< api: #inspect>
+	"< api: #inspect>"
 	"Return the tree roots"
 
 	^ rootsHolder value

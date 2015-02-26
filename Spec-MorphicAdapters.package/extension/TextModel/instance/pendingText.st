@@ -1,5 +1,5 @@
 pendingText
-	<api: #inspect>
+	"<api: #inspect>"
 	"Return the current pending text"
 
 	^ self 

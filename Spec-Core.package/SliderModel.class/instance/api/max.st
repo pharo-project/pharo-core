@@ -1,5 +1,5 @@
 max
-	<api: #inspect>
+	"<api: #inspect>"
 	"Return the maximun value"
 	
 	^ max value

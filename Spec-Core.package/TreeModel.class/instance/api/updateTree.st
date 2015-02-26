@@ -1,5 +1,5 @@
 updateTree
-	< api: #do>
+	"< api: #do>"
 	"Force the tree to refresh"
 
 	self changed: #updateTree with: {}.

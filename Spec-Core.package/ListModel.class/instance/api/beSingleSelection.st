@@ -1,5 +1,5 @@
 beSingleSelection
-	<api: #do>
+	"<api: #do>"
 	"Make list selection single"
 
 	self multiSelection: false

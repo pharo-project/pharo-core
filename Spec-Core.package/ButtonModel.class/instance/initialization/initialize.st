@@ -9,14 +9,14 @@ initialize
 	helpHolder := nil asValueHolder.
 	actionPerformedHolder := nil asValueHolder.
 	askBeforeChangingHolder := false asValueHolder.
-	shortcut := nil asValueHolder.
+	shortcutHolder := nil asValueHolder.
 	
 	labelHolder whenChangedDo: [ self changed: #label ].
 	iconHolder whenChangedDo: [ self changed: #label ].
 	stateHolder whenChangedDo: [ self changed: #state ].
 	enabledHolder whenChangedDo: [ self changed: #enabled ].
 	askBeforeChangingHolder whenChangedDo: [:newValue | self changed: { #askBeforeChanging: . newValue} ].
-	shortcut whenChangedDo: [ :newShortcut :oldShortcut |
+	shortcutHolder whenChangedDo: [ :newShortcut :oldShortcut |
 		self unregisterShortcut: oldShortcut.
 		self registerShortcut: newShortcut.
 		self changed: #label ].

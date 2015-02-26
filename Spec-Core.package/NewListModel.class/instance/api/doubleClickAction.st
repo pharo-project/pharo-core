@@ -1,5 +1,5 @@
 doubleClickAction
-	<api: #inspect>
+	"<api: #inspect>"
 	"Return the block evaluated on double click"
 	
 	^ doubleClick value

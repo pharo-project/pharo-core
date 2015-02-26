@@ -1,4 +1,4 @@
-script514
+script515
 
 	^ 'AST-Core-TheIntegrator.256.mcz
 AST-Interpreter-Core-EstebanLorenzano.134.mcz
@@ -191,7 +191,7 @@ Network-Protocols-MarcusDenker.101.mcz
 Network-UUID-MarcusDenker.29.mcz
 Network-Url-MarcusDenker.99.mcz
 NetworkTests-TheIntegrator.101.mcz
-NewValueHolder-TheIntegrator.23.mcz
+NewValueHolder-StephaneDucasse.25.mcz
 NodeNavigation-StephaneDucasse.51.mcz
 NonInteractiveTranscript-TheIntegrator.15.mcz
 OSWindow-Core-EstebanLorenzano.18.mcz
@@ -252,13 +252,13 @@ Slot-TheIntegrator.560.mcz
 Slot-Tests-TheIntegrator.13.mcz
 SmartSuggestions-TheIntegrator.147.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
-Spec-Core-TheIntegrator.366.mcz
+Spec-Core-StephaneDucasse.368.mcz
 Spec-Debugger-TheIntegrator.236.mcz
 Spec-Examples-TheIntegrator.86.mcz
 Spec-Inspector-TheIntegrator.230.mcz
 Spec-Layout-TheIntegrator.67.mcz
-Spec-MorphicAdapters-TheIntegrator.201.mcz
-Spec-PolyWidgets-TheIntegrator.51.mcz
+Spec-MorphicAdapters-StephaneDucasse.203.mcz
+Spec-PolyWidgets-StephaneDucasse.53.mcz
 Spec-Tests-SvenVanCaekenberghe.39.mcz
 Spec-Tools-TheIntegrator.259.mcz
 StartupPreferences-TheIntegrator.131.mcz

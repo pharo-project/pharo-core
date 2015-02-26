@@ -1,4 +1,4 @@
 label
-	<api: #inspect>
+	"<api: #inspect>"
 	
  	^ self addShortcutTipFor: labelHolder value

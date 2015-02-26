@@ -1,5 +1,4 @@
 whenSelectionChanged: aBlock
-	<api: #event>
 	"Set a block to perform when the selection is changed"
 	
 	"The method should be used only if you are interested in the fact that there was a change, without caring about what has changed

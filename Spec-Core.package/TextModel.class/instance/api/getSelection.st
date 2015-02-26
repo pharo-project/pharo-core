@@ -1,5 +1,5 @@
 getSelection
-	<api:#inspect>
+	"<api:#inspect>"
 	"Get the text selection"
 
 	selection ifNil: [ ^(1 to: 0) ].

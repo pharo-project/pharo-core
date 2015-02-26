@@ -1,5 +1,5 @@
 selectedItems
-	< api: #inspect>
+	"< api: #inspect>"
 	"Return the selected items"
 	
 	^ selectionHolder value

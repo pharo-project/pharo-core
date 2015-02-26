@@ -1,5 +1,5 @@
 accept
-	<api: #do>
+	"<api: #do>"
 	"Accep the current pendingtext"
 	
 	self changed: #accept with: #().

@@ -1,3 +1,3 @@
 label
-	<api: #inspect>
+	"<api: #inspect>"
 	^ labelHolder value

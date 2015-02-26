@@ -1,5 +1,5 @@
 pendingText: aText
-	<api: #string getter: #pendingText>
+	"<api: #string getter: #pendingText>"
 	"Set the pending text. Do no accept it"
 
 	self 

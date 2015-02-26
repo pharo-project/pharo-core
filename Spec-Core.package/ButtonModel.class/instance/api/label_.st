@@ -1,4 +1,4 @@
 label: aStringOrImageMorph
-	<api: #string getter: #label registration: #whenLabelChangedDo:>
+	"<api: #string getter: #label registration: #whenLabelChangedDo:>"
 
 	labelHolder value: aStringOrImageMorph

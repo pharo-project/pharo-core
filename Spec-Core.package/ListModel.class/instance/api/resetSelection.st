@@ -1,5 +1,5 @@
 resetSelection
-	<api: #do>
+	"<api: #do>"
 	"Unselect every items"
 
 	selectionHolder reset.

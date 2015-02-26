@@ -1,5 +1,5 @@
 whenAboutToStyleChanged: aBlock
-	<api: #event>
+	"<api: #event>"
 	"Set a block to perform when the about to style block changed"
 	
 	self whenAboutToStyleBlockChanged: [:block :old :announcement :anAnnouncer | 
