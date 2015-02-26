@@ -7,4 +7,5 @@ link: aMetaLink
 		 setClass: class;
 		 slot: self.
 	class layout replaceSlot: self with: wrapper.
+	self flag: #TBD. "here instead we need to create a twin and register the link"
  	methods do: [ :each | each recompile ]

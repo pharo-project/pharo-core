@@ -1,8 +1,8 @@
-testSemaphore
+testSemaphoreTimeout
 	"When we provide our own semaphore for a Delay, it should be used"
 	"See http://bugs.squeak.org/view.php?id=6834"
 
-	"self run: #testSemaphore"
+	"self run: #testSemaphoreTimeout"
 	
 	| sem |
 	sem := Semaphore new.

@@ -2,4 +2,4 @@ Object subclass: #MetaLink
 	instanceVariableNames: 'metaObject selector'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Slot-Scope'
+	category: 'Reflectivity'
