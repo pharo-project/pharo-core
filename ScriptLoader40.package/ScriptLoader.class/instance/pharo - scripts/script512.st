@@ -1,4 +1,4 @@
-script511
+script512
 
 	^ 'AST-Core-TheIntegrator.256.mcz
 AST-Interpreter-Core-EstebanLorenzano.134.mcz
@@ -29,7 +29,7 @@ Collections-Abstract-TheIntegrator.274.mcz
 Collections-Arithmetic-TheIntegrator.15.mcz
 Collections-Atomic-MarcusDenker.10.mcz
 Collections-Native-TheIntegrator.9.mcz
-Collections-Sequenceable-TheIntegrator.185.mcz
+Collections-Sequenceable-TheIntegrator.187.mcz
 Collections-Stack-MarcusDenker.7.mcz
 Collections-Streams-TheIntegrator.164.mcz
 Collections-Strings-TheIntegrator.336.mcz
@@ -110,17 +110,17 @@ HelpSystem-Core-TheIntegrator.115.mcz
 HelpSystem-Tests-TheIntegrator.30.mcz
 HudsonBuildTools20-TheIntegrator.63.mcz
 Jobs-EstebanLorenzano.4.mcz
-Kernel-TheIntegrator.1966.mcz
-KernelTests-TheIntegrator.746.mcz
+Kernel-TheIntegrator.1967.mcz
+KernelTests-TheIntegrator.747.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-EstebanLorenzano.45.mcz
 Keymapping-Pragmas-TheIntegrator.50.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.94.mcz
-Keymapping-Tools-Spec-SvenVanCaekenberghe.27.mcz
-Komitter-TheIntegrator.105.mcz
+Keymapping-Tools-Spec-TheIntegrator.30.mcz
+Komitter-TheIntegrator.108.mcz
 Manifest-Core-TheIntegrator.213.mcz
-Manifest-CriticBrowser-StephaneDucasse.172.mcz
+Manifest-CriticBrowser-TheIntegrator.175.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.49.mcz
 MenuRegistration-TheIntegrator.74.mcz
@@ -182,8 +182,8 @@ NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
 Nautilus-TheIntegrator.891.mcz
 Nautilus-Tests-TheIntegrator.8.mcz
-NautilusCommon-TheIntegrator.256.mcz
-NautilusRefactoring-TheIntegrator.202.mcz
+NautilusCommon-TheIntegrator.258.mcz
+NautilusRefactoring-TheIntegrator.205.mcz
 Network-Kernel-StephaneDucasse.112.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-StephaneDucasse.39.mcz
@@ -250,15 +250,15 @@ Slot-TheIntegrator.558.mcz
 Slot-Tests-TheIntegrator.13.mcz
 SmartSuggestions-TheIntegrator.147.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
-Spec-Core-TheIntegrator.363.mcz
-Spec-Debugger-TheIntegrator.233.mcz
-Spec-Examples-TheIntegrator.83.mcz
-Spec-Inspector-TheIntegrator.227.mcz
+Spec-Core-TheIntegrator.366.mcz
+Spec-Debugger-TheIntegrator.236.mcz
+Spec-Examples-TheIntegrator.86.mcz
+Spec-Inspector-TheIntegrator.230.mcz
 Spec-Layout-TheIntegrator.67.mcz
-Spec-MorphicAdapters-TheIntegrator.198.mcz
-Spec-PolyWidgets-TheIntegrator.48.mcz
+Spec-MorphicAdapters-TheIntegrator.201.mcz
+Spec-PolyWidgets-TheIntegrator.51.mcz
 Spec-Tests-SvenVanCaekenberghe.39.mcz
-Spec-Tools-TheIntegrator.257.mcz
+Spec-Tools-TheIntegrator.259.mcz
 StartupPreferences-TheIntegrator.131.mcz
 System-Announcements-TheIntegrator.98.mcz
 System-Caching-TheIntegrator.20.mcz
@@ -292,7 +292,7 @@ Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.56.mcz
 Tool-Browser-Old-TheIntegrator.37.mcz
 Tool-Changes-TheIntegrator.22.mcz
-Tool-ConfigurationBrowser-StephaneDucasse.12.mcz
+Tool-ConfigurationBrowser-TheIntegrator.15.mcz
 Tool-Diff-TheIntegrator.2.mcz
 Tool-FileList-TheIntegrator.32.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
@@ -324,7 +324,7 @@ Versionner-Core-Announcements-MarcusDenker.11.mcz
 Versionner-Core-Commands-MarcusDenker.49.mcz
 Versionner-Core-DependenciesModel-TheIntegrator.95.mcz
 Versionner-Core-Model-TheIntegrator.48.mcz
-Versionner-Spec-Browser-TheIntegrator.161.mcz
+Versionner-Spec-Browser-TheIntegrator.164.mcz
 Versionner-Tests-Core-Commands-TheIntegrator.15.mcz
 Versionner-Tests-Core-DependenciesModel-MarcusDenker.40.mcz
 Versionner-Tests-Core-Model-TheIntegrator.30.mcz
