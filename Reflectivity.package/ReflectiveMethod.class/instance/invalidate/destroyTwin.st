@@ -1,0 +1,2 @@
+destroyTwin
+	compiledMethod reflectiveMethod: nil.

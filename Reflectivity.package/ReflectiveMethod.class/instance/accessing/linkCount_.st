@@ -1,0 +1,2 @@
+linkCount: aNumber
+	linkCount := aNumber

@@ -1,0 +1,2 @@
+ast
+	^ast := compiledMethod ast

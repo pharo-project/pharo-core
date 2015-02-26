@@ -1,0 +1,2 @@
+exampleMethod
+	^5
