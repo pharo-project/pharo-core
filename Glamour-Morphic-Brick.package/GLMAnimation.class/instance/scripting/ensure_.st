@@ -1,0 +1,3 @@
+ensure: aBlock
+
+	ensureLogic := aBlock

@@ -1,4 +1,4 @@
-GLMPagerMorph subclass: #GTSpotterDropDownMorph
+GLMPagerBrick subclass: #GTSpotterDropDownMorph
 	instanceVariableNames: 'spotterModel'
 	classVariableNames: ''
 	poolDictionaries: ''

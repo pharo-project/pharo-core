@@ -1,5 +1,5 @@
 GLMBrick subclass: #GLMPagerScrollBrick
-	instanceVariableNames: 'band currentFocus pagerModel maxPanes focus currentScrollDelta'
+	instanceVariableNames: 'band currentFocus pagerModel maxPanes focus currentScrollDelta animation'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Glamour-Morphic-Pager-Morphic'
+	category: 'Glamour-Morphic-Pager-Brick'

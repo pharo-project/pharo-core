@@ -2,7 +2,7 @@ spotterModel: aSpotter
 
 	spotterModel := aSpotter.
 	
-	spotterModel announcer weak subscribe: GTSpotterExitAnnouncement send: #escapePressed to: self.
+	spotterModel announcer weak subscribe: GTSpotterExitAnnouncement send: #closeSpotter to: self.
 	spotterModel announcer weak subscribe: GTSpotterShowPreview send: #onShowPreview to: self.
 	spotterModel announcer weak subscribe: GTSpotterHidePreview send: #onHidePreview to: self.
 	

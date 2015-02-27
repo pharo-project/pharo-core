@@ -1,3 +1,0 @@
-onPageSwitched
-
-	self updateIndicatorButtons.

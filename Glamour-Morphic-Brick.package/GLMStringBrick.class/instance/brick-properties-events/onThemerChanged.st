@@ -1,4 +1,0 @@
-onThemerChanged
-	super onThemerChanged.
-	
-	

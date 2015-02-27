@@ -1,5 +1,6 @@
 check
+	"notifies #onChecked"
 	self isChecked ifFalse: [
 		isChecked := true.
-		self changed.
-	]
+		self announce: #onChecked.
+		self changed ]

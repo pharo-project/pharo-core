@@ -1,0 +1,2 @@
+asyncTask: anObject
+	asyncTask := anObject

@@ -9,7 +9,6 @@ addCategory: aProcessor
 	self themer spotterThemer categoryStyleFor: categoryBrick .
 	self addBrickBack: categoryBrick.
 	
-	self doLayout.
 	self changed.
 	
 	^ categoryBrick

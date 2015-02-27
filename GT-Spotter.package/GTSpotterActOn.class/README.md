@@ -1,0 +1,1 @@
+A GTSpotterActOn is xxxxxxxxx.Instance Variables	element:		<Object>element	- xxxxx

@@ -1,3 +1,4 @@
 paddingTop: anObject
+	<brickBuilderProperty: #Geometry name: 'Padding Top' as: #asInteger getter: #paddingTop model: #GLMUIBuilderTextFieldProperty>
 
-	self layout paddingTop: anObject
+	self wrappedBounds paddingTop: anObject

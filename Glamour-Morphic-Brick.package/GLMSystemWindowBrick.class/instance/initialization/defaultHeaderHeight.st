@@ -1,0 +1,3 @@
+defaultHeaderHeight
+
+	^ 30

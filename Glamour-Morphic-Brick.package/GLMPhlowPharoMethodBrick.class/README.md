@@ -1,1 +1,1 @@
-A GLMPhlowPharoMethodBrick is xxxxxxxxx.Instance Variables	textBrick:		<Object>textBrick	- xxxxx
+A GLMPhlowPharoMethodBrick is xxxxxxxxx.

@@ -1,3 +1,3 @@
 newScrollList
 
-	^ GLMScrollListBrick new
+	^ GLMFallbackScrollListBrick"GLMScrollListBrick" new

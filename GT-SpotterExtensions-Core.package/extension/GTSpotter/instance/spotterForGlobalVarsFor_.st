@@ -6,5 +6,5 @@ spotterForGlobalVarsFor: aStep
 				assoc value isTrait not]] ];
 			title: 'Global variables';
 			itemName:[:global | global key ];
-			matchSubstring;
+			filter: GTFilterSubstring;
 			wantsToDisplayOnEmptyQuery: false

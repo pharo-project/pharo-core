@@ -1,1 +1,0 @@
-A GTInspectorFormTest is xxxxxxxxx.

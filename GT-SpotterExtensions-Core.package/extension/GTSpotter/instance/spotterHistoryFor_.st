@@ -1,7 +1,10 @@
 spotterHistoryFor: aStep
-	<spotterOrder: 80>
+	<spotterOrder: 8>
 	aStep listProcessor
-			allCandidates: [:x | self class history select: [ :each | each isNotNil ] ];
+			allCandidates: [:x | self class history asArray select: [ :each | each isNotNil and: [ each value isNotNil ] ] ];
 			title: 'History';
-			matchSubstring;
-			wantsToDisplayOnEmptyQuery: true
+			itemName: [ :item | 
+				item class = GTSpotterProcessorLink 
+					ifTrue: [ item processor itemNameFor: item value ] " HACK: this triggers a recursion ! ... but processor is undefined for aCandidate "
+					ifFalse: [ item gtDisplayString ] ];
+			filter: GTFilterSubstring

@@ -1,6 +1,6 @@
 spotterPaneStyleFor: aBrick
 	
-	aBrick layout: GLMBrickHorizontalFillProportionalLinearLayout new.
-	aBrick layout
+	aBrick
+		useHorizontalLinearLayout;
 		hSpaceFill;
 		vSpaceFill

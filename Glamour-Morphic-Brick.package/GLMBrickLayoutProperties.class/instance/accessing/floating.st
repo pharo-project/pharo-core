@@ -1,2 +1,3 @@
 floating
-	^ floating
+
+	^ floating ifNil: [ floating := #none ]

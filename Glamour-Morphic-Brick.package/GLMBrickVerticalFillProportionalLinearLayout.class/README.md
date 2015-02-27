@@ -1,1 +1,0 @@
-A GLMBrickVerticalFillProportionalLinearLayout is a slight modification of VerticalProportionalLayout but all elements have the same width and it is the same as parent's

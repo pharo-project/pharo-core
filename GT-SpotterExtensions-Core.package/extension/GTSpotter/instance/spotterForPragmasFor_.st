@@ -4,5 +4,5 @@ spotterForPragmasFor: aStep
 			allCandidates: [:x | PragmaType all ];
 			title: 'Pragmas';
 			itemName: [ :pragma | pragma keyword ];
-			matchSubstring;
+			filter: GTFilterSubstring;
 			wantsToDisplayOnEmptyQuery: false

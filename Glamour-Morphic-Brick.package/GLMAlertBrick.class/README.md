@@ -1,0 +1,1 @@
+A GLMAlertBrick is xxxxxxxxx.Instance Variables	okButton:		<Object>	textBrick:		<Object>okButton	- xxxxxtextBrick	- xxxxx

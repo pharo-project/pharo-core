@@ -1,0 +1,3 @@
+scrollingDelay: anInteger
+
+	scrollingDelay := anInteger

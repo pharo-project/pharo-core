@@ -7,4 +7,4 @@ spotterForDirectoriesFor: aStep
 			candidatesLimit: Float infinity;
 			itemName: #basename;
 			itemIcon: [ GLMUIThemeExtraIcons glamorousFolder ];
-			matchSubstring ]
+			filter: GTFilterSubstring ]

@@ -1,4 +1,4 @@
 onCurrentStepChanged
 
-	self searchField updateTextWith: self spotterModel currentStep query.
-	self searchField moveCursorAtTheEnd
+	self searchField morph updateTextWith: self spotterModel currentStep context text.
+	self searchField morph moveCursorAtTheEnd

@@ -4,4 +4,4 @@ spotterPragmasFor: aStep
 		title: 'Pragmas';
 		allCandidates: [ self pragmas ];
 		itemName: [ :pragma | pragma method printString , ' ' , pragma asString ];
-		matchSubstring
+		filter: GTFilterSubstring

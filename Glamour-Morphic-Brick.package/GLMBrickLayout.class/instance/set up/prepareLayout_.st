@@ -1,3 +1,0 @@
-prepareLayout: aBrick
-
-	aBrick onPrepareLayout

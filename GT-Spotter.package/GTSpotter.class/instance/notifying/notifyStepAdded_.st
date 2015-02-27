@@ -1,3 +1,3 @@
 notifyStepAdded: aStep
 
-	self announcer announce: (GTSpotterStepAdded new stepModel: aStep)
+	self announce: (GTSpotterStepAdded new stepModel: aStep)

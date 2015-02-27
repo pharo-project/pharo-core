@@ -1,0 +1,3 @@
+newBrickRoot
+
+	^ GLMWindowRootBrick new

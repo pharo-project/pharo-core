@@ -1,7 +1,7 @@
 isFitsInParent
 
 	^ self owner
-		ifNil: [ self bounds containsRect: (self outerBounds origin extent: self textSize) ]
+		ifNil: [ self brickBounds containsRect: (self outerBounds origin extent: self textSize) ]
 		ifNotNil: [
-			self owner bounds extent >= self textSize ]
+			self owner brickBounds extent >= self textSize ]
 				

@@ -1,2 +1,2 @@
 actOnPaneRemoved: ann
-	container popPane
+	container brickRoot popPane

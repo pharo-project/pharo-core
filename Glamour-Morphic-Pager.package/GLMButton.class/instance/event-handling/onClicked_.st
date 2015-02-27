@@ -1,1 +1,0 @@
-onClicked: announcement

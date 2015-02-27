@@ -1,0 +1,3 @@
+isDependsOnMyself: aBrick
+	
+	^ aBrick isHeightDependsOnMyself

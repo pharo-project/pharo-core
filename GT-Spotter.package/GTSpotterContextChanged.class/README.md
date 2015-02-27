@@ -1,0 +1,1 @@
+A GTSpotterContextChanged is xxxxxxxxx.Instance Variables	context:		<Object>context	- xxxxx

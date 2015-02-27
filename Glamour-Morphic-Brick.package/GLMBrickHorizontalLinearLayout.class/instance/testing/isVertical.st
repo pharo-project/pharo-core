@@ -1,2 +1,0 @@
-isVertical
-	^ false

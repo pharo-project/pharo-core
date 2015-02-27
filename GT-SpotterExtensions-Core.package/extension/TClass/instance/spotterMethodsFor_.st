@@ -4,4 +4,4 @@ spotterMethodsFor: aStep
 			title: 'Instance methods';
 			allCandidates: [ self methods ];
 			itemName: [ :method | method selector ];
-			matchSubstring
+			filter: GTFilterSubstring

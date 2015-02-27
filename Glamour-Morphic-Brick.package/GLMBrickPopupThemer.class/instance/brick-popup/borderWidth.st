@@ -1,0 +1,3 @@
+borderWidth
+
+	^ 1

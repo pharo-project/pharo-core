@@ -1,3 +1,0 @@
-enable
-
-	self buttonModel enable

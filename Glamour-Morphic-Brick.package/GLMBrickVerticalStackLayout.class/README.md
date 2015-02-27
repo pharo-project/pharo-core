@@ -1,1 +1,0 @@
-A GLMBrickVerticalStackLayout is xxxxxxxxx.Instance Variables	allowedBounds:		<Object>allowedBounds	- xxxxx

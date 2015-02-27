@@ -1,5 +1,5 @@
-GLMBrickHorizontalLinearLayout subclass: #GLMBrickHorizontalFillLinearLayout
+Object subclass: #GLMBrickHorizontalFillLinearLayout
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Glamour-Morphic-Brick-Layouts'
+	category: 'Glamour-Morphic-Brick-Layouts-compatibility'

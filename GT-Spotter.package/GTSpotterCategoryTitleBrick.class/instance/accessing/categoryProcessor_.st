@@ -1,0 +1,2 @@
+categoryProcessor: anObject
+	categoryProcessor := anObject

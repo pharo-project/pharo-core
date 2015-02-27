@@ -1,0 +1,4 @@
+previewPaddingRight
+
+	^ self previewPaddingLeft
+

@@ -5,5 +5,5 @@ spotterForPackagesFor: aStep
 			title: 'Packages';
 			itemName: [ :package | package name ];
 			itemIcon: [ Smalltalk ui icons iconNamed: #packageIcon ];
-			matchSubstring;
+			filter: GTFilterSubstring;
 			wantsToDisplayOnEmptyQuery: false

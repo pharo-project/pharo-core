@@ -1,0 +1,3 @@
+isDependsOnChildren: aBrick
+
+	^ self subclassResponsibility

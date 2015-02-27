@@ -1,0 +1,1 @@
+A GLMRubEditingAreaBrick is xxxxxxxxx.Instance Variables	isLayouting:		<Object>isLayouting	- xxxxx

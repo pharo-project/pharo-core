@@ -1,0 +1,5 @@
+onFocusedPageChanged
+
+	self
+		updateButtonsFocus;
+		updateButtons

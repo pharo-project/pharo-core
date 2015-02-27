@@ -4,4 +4,4 @@ spotterSubclassesFor: aStep
 			title: 'All subclasses';
 			allCandidates: [ self allSubclasses ];
 			itemIcon: #systemIcon;
-			matchSubstring
+			filter: GTFilterSubstring

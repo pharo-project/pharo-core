@@ -1,0 +1,3 @@
+useHorizontalLinearLayout
+
+	self layout: GLMHorizontalLinearLayout uniqueInstance

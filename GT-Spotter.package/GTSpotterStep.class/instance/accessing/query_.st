@@ -1,3 +1,0 @@
-query: aString
-
-	query := aString

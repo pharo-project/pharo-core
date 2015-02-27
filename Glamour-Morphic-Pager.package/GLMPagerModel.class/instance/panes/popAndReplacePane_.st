@@ -1,4 +1,7 @@
 popAndReplacePane: aMorph
 	
-	self popPane.
-	self pushPane: aMorph smooth: false.
+	self doNotNotifyDuring: [ :m |
+		m popPane;
+			pushPane: aMorph smooth: false ].
+		
+	self notifyPagePoppedAndReplaced: aMorph

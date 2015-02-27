@@ -1,0 +1,3 @@
+deselect: anEvent
+
+	self deselect

@@ -1,3 +1,0 @@
-onResized
-
-	self setWidthAfterResizing.

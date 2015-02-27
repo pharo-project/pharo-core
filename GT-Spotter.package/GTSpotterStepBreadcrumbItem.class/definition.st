@@ -1,5 +1,5 @@
-GLMBrick subclass: #GTSpotterStepBreadcrumbItem
-	instanceVariableNames: 'labelBrick triangleBrick'
+GLMInteractableBrick subclass: #GTSpotterStepBreadcrumbItem
+	instanceVariableNames: 'labelBrick triangleBrick stepModel'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-Spotter-UI'

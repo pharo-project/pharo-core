@@ -1,0 +1,1 @@
+A GLMNotificationBrick is xxxxxxxxx.Instance Variables	actionbarBrick:		<Object>	contentBrick:		<Object>	footerBrick:		<Object>	headerBrick:		<Object>	messageBrick:		<Object>	titleBrick:		<Object>actionbarBrick	- xxxxxcontentBrick	- xxxxxfooterBrick	- xxxxxheaderBrick	- xxxxxmessageBrick	- xxxxxtitleBrick	- xxxxx

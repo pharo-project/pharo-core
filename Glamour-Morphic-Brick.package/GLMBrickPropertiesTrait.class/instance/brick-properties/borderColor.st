@@ -1,0 +1,3 @@
+borderColor
+	
+	^ self border color

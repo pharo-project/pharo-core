@@ -1,0 +1,3 @@
+onStepped: aBlock
+
+	steppedLogic := aBlock

@@ -5,7 +5,6 @@ exampleZindex
 	|foundationBrick rootBrick brick1 brick2 brick3|
 	
 	rootBrick := GLMBrick new.
-	rootBrick layoutPolicy: GLMBrickNoLayout new.
 
 	rootBrick color: Color blue.
 	

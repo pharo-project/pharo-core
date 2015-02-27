@@ -1,4 +1,4 @@
 doLayout
 
-	self layoutSubbricks.
-	self subbricks do: [ :each | each doLayout ]
+	self isLayotingAllowed ifTrue: [
+		GLMBrickLayouter uniqueInstance layoutIn: self ]

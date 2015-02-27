@@ -1,3 +1,0 @@
-onEnabled
-
-	self changed.

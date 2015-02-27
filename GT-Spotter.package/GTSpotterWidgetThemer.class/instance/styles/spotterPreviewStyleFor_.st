@@ -3,10 +3,11 @@ spotterPreviewStyleFor: aBrick
 	aBrick
 		borderColor: self borderColor;
 		borderWidth: self previewBorderWidth;
-		color: self backgroundColor.
+		color: self backgroundColor;
+		hSpaceFill: self previewWidthPercent;
+		vSpaceFill;
+		margin: { self headerHeight + self innerBorderWidth. 0 . 0};
+		marginLeft: (self previewBorderWidth + self previewArrowWidth) negated.
 	
 	aBrick layout
-		hPercent: self previewWidthPercent;
-		margin: { self headerHeight + self innerBorderWidth. 0 . 0};
-		marginLeft: (self previewBorderWidth + self previewArrowWidth) negated;
 		zIndex: 1

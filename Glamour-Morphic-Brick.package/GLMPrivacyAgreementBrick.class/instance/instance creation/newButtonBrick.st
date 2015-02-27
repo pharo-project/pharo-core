@@ -1,0 +1,3 @@
+newButtonBrick
+
+	^ GLMButtonBrick new

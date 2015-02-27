@@ -1,2 +1,0 @@
-verticalPercent: anObject
-	verticalPercent := anObject

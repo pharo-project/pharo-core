@@ -1,3 +1,3 @@
 spotterStyleFor: aBrick
 
-	aBrick brickRoot layout: GLMBrickVerticalFillProportionalLinearLayout new
+	aBrick brickRoot useVerticalLinearLayout

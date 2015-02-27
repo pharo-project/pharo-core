@@ -1,0 +1,3 @@
+widthMyselfDependency: aBrick
+
+	^ aBrick customWidth

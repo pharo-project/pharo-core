@@ -1,0 +1,1 @@
+A GLMWindowHeaderBrick is xxxxxxxxx.Instance Variables	actionbarBrick:		<Object>	labelBrick:		<Object>	menuBrick:		<Object>	startDragging:		<Object>	startDraggingOrigin:		<Object>	windowBrick:		<Object>actionbarBrick	- xxxxxlabelBrick	- xxxxxmenuBrick	- xxxxxstartDragging	- xxxxxstartDraggingOrigin	- xxxxxwindowBrick	- xxxxx

@@ -1,3 +1,5 @@
 resetHistory
-	"self resetHistory"
+	"
+	self resetHistory
+	"
 	^ history := nil

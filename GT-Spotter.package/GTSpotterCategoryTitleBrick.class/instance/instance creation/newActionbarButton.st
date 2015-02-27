@@ -1,0 +1,3 @@
+newActionbarButton
+
+	^ GLMHintableActionButtonBrick new

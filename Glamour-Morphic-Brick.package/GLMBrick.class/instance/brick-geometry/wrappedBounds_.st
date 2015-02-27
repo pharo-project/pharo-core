@@ -1,0 +1,3 @@
+wrappedBounds: aBounds
+
+	brickBounds := aBounds

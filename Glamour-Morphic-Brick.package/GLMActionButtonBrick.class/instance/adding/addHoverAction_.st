@@ -1,0 +1,3 @@
+addHoverAction: anObject
+
+	hoverAction := anObject

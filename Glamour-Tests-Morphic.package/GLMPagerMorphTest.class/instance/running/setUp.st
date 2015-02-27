@@ -1,6 +1,6 @@
 setUp
 
 	pagerModel := GLMPagerModel new.
-	pagerMorph := GLMPagerMorph new
+	pagerMorph := GLMPagerBrick new
 		pagerModel: pagerModel
 		yourself.

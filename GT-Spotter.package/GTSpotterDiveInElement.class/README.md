@@ -1,0 +1,1 @@
+A GTSpotterDiveInElement is xxxxxxxxx.Instance Variables	element:		<Object>element	- xxxxx

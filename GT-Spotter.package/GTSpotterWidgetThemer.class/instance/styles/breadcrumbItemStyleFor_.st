@@ -1,1 +1,3 @@
 breadcrumbItemStyleFor: aBrick
+
+	aBrick vSpaceFill

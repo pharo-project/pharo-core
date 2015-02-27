@@ -1,2 +1,0 @@
-sourceMorph: anObject
-	sourceMorph := anObject

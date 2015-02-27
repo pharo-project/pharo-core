@@ -1,1 +1,0 @@
-A GLMPagerButtonLabelModel is xxxxxxxxx.Instance Variables	announcer:		<Object>	isFitBounds:		<Object>	position:		<Object>	text:		<Object>announcer	- xxxxxisFitBounds	- xxxxxposition	- xxxxxtext	- xxxxx

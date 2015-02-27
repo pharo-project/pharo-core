@@ -1,3 +1,4 @@
 paddingLeft: anObject
+	<brickBuilderProperty: #Geometry name: 'Padding Left' as: #asInteger getter: #paddingLeft model: #GLMUIBuilderTextFieldProperty>
 
-	self layout paddingLeft: anObject
+	self wrappedBounds paddingLeft: anObject

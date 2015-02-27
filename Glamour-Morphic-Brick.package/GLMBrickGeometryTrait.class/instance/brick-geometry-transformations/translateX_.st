@@ -1,3 +1,3 @@
 translateX: anInteger
 
-	self translateBy: anInteger@0
+	self wrappedBounds translateX: anInteger

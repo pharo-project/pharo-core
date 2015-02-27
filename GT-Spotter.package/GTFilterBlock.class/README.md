@@ -1,0 +1,1 @@
+A GTFilterBlock is xxxxxxxxx.Instance Variables	matcher:		<Object>matcher	- xxxxx

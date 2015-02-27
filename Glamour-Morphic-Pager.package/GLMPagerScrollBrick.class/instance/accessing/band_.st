@@ -1,7 +1,13 @@
 band: aBrick
 
 	band := aBrick.
-	band layoutPolicy: GLMPagerBandLayout new.
-	band width: [ :bandBrick | (self width / (self maxPanes min: self band subbricksCount) + self paneMargin) * self band subbricksCount ].
+	band
+		useHorizontalLinearLayout;
+		layoutMorphs: true;
+		width: [ self band subbricksCount * self width / ((self maxPanes min: self band subbricksCount) max: 1) ];
+		vSpaceFill.
+	"band actually depends from myself,
+	because each pane is proportional to my size"
+	band layout widthDependency: self.
 	
 	self addBrickBack: band.

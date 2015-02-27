@@ -1,0 +1,3 @@
+step: anObject
+
+	stepLogic := anObject

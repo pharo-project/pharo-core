@@ -8,6 +8,7 @@ exampleInfinity
 				color: Color random muchLighter;
 				text: index asString, ' of ', adaptor count asString;
 				textPosition: #center;
+				hSpaceFill;
 				yourself ].
 
 	GLMFoundationBrick new

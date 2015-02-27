@@ -1,0 +1,3 @@
+beSuccess
+
+	self beMode: #beSuccess

@@ -1,2 +1,0 @@
-paddingRight
-	^ paddingRight

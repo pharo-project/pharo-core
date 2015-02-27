@@ -1,0 +1,3 @@
+isClean
+
+	^ self isDirty not

@@ -1,2 +1,0 @@
-onImageUpdated
-	self changed

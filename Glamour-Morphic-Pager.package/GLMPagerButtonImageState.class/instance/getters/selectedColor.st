@@ -1,2 +1,0 @@
-selectedColor
-	^ selectedColor

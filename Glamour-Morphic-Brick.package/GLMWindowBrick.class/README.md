@@ -1,0 +1,1 @@
+A GLMWindowBrick is xxxxxxxxx.Instance Variables	activeOnlyOnTop:		<Object>	isCollapsed:		<Object>	label:		<Object>	labelString:		<Object>activeOnlyOnTop	- xxxxxisCollapsed	- xxxxxlabel	- xxxxxlabelString	- xxxxx

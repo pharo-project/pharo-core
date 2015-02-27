@@ -4,5 +4,4 @@ hidePreview
 
 	self removeBrick: self previewBrick.
 	self contentsBrick layout hSpaceFill.
-	self doLayout.
 	self changed.

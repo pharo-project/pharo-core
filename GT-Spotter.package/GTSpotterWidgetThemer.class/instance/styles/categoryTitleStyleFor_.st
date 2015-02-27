@@ -1,16 +1,17 @@
 categoryTitleStyleFor: aBrick
 
 	aBrick
-		layoutPolicy: GLMBrickHorizontalFillProportionalLinearLayout new;
+		useHorizontalLinearLayout;
 		normalColor: self categoryTitleBackgroundColor;
-		height: [ 30 ].
+		height: 30;
+		hSpaceFill;
+		paddingLeft: self categoryNameMarginLeft
 	
-	aBrick layoutProperties
+	"aBrick layout
 		floating: #stack;
-		paddingLeft: self categoryNameMarginLeft;
-		maxWidthBlock: [ :title |
-			aBrick layoutProperties horizontalPadding + 
+		maxWidth: [ :title |
+			aBrick hPadding + 
 			(title nameBrick label textSize x )+ title amountBrick label textSize x +
-			title nameBrick layoutProperties horizontalPadding + title nameBrick layoutProperties horizontalMargin + 
-			title nameBrick label layoutProperties horizontalPadding + title nameBrick label layoutProperties horizontalMargin + 
-			title amountBrick layoutProperties horizontalMargin ].
+			title nameBrick hPadding + title nameBrick hMargin + 
+			title nameBrick label hPadding + title nameBrick label hMargin + 
+			title amountBrick hMargin ]"

@@ -8,12 +8,15 @@ pagerModel: aModel
 	
 	pagerModel announcer weak
 		when: GLMPagePoped send: #onPagePoped: to: self.
+	
+	pagerModel announcer weak
+		when: GLMPagePopedAndReplaced send: #onPagePopedAndReplaced: to: self.
 						
 	pagerModel announcer weak
 		when: GLMPagerSynchronizeScrollAnnouncement send: #onSynchronizeScroll: to: self.
 		
 	pagerModel announcer weak 
-		when: GLMPagerScrollPositionChanged send: #onScrollPositionChanged: to: self.
+		when: GLMPagerScrollPositionChanged send: #onPositionChanged: to: self.
 		
 	pagerModel announcer weak 
 		when: GLMNumberOfVisiblePagesChanged send: #onPagesNumberChanged to: self.

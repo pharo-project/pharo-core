@@ -1,3 +1,3 @@
 panesMorphs
 
-	^ pagerMorph submorphs first submorphs first panes
+	^ pagerMorph subbricks first subbricks first subbricks

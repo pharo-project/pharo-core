@@ -1,0 +1,1 @@
+A GTSpotterDiveInCategory is xxxxxxxxx.Instance Variables	category:		<Object>category	- xxxxx

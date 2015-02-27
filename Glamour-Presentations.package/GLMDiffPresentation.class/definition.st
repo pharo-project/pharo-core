@@ -1,5 +1,5 @@
 GLMFormatedPresentation subclass: #GLMDiffPresentation
-	instanceVariableNames: ''
+	instanceVariableNames: 'contextClass'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Glamour-Presentations'

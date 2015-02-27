@@ -1,2 +1,0 @@
-paddingRight: anObject
-	paddingRight := anObject

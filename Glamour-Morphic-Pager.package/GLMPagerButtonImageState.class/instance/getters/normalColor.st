@@ -1,2 +1,0 @@
-normalColor
-	^ normalColor

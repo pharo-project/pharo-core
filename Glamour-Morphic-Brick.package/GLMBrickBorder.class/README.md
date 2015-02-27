@@ -1,0 +1,1 @@
+A GLMBrickBorder is xxxxxxxxx.Instance Variables	color:		<Object>	width:		<Object>color	- xxxxxwidth	- xxxxx

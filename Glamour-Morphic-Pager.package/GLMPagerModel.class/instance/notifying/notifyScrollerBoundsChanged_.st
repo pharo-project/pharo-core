@@ -1,3 +1,3 @@
 notifyScrollerBoundsChanged: aBounds
 
-	self announcer announce: (GLMPagerBoundsChanged new bounds: aBounds).
+	self notifyAll: (GLMPagerBoundsChanged new bounds: aBounds).

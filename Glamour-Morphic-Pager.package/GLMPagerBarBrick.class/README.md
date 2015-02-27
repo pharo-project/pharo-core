@@ -1,0 +1,1 @@
+A GLMPagerBarBrick is xxxxxxxxx.Instance Variables	buttonsBrick:		<Object>	pagerModel:		<Object>	sliderBrick:		<Object>buttonsBrick	- xxxxxpagerModel	- xxxxxsliderBrick	- xxxxx

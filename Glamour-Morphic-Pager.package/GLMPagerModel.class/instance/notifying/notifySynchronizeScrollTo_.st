@@ -1,3 +1,3 @@
 notifySynchronizeScrollTo: aValue 
 	
-	self announcer announce: (GLMPagerSynchronizeScrollAnnouncement new value: aValue).
+	self notifyAll: (GLMPagerSynchronizeScrollAnnouncement new value: aValue).

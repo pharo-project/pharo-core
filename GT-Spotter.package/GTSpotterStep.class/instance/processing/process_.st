@@ -5,19 +5,21 @@ process: aString
 	empty after spawning new step"
 	
 	"no need to search for the same query"
-	(self query isNotEmpty and: [ aString = self query ]) ifTrue: [ ^ self ].
+	(self context matches: aString) ifTrue: [ ^ self ].
 	
-	self query: (aString ifNil: [ '' ]).
-	"updating timestamp in a stream, to prevent candidates from old process being shown"
+	self context: (self newContextForQuery: aString).
+	
+	" updating timestamp in a stream, to prevent candidates from old process being shown "
 	self stream updateTimestamp.
 	
 	self asyncTask
-		execute: [ :input |
+		execute: [ :aContext |
+				self notifyContextChanged: aContext.
 				self stream removeAllCandidates.
-				[ self relevantProcessorsProcess: input ]
-					on: Exception
+				[ self relevantProcessorsProcess: aContext ]
+					on: Error
 					do: [ :e | ('[Spotter] Exception in process: ', e asString) logCr ] ]
-		withArguments: { self query }
+		withArguments: { self context }
 		callback: [  ]
 		"added small delay before actual searching. It makes spotter faster :)"
 		delay: 200

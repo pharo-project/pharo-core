@@ -1,0 +1,3 @@
+bounds
+
+	^ self brickBounds

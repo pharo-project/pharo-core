@@ -1,1 +1,0 @@
-A GLMPagerButtonImageUpdated is xxxxxxxxx.

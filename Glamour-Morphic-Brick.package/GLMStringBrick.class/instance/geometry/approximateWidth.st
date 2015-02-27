@@ -1,3 +1,3 @@
 approximateWidth
 
-	^ self textSize x + self layoutProperties horizontalMargin + self layoutProperties horizontalPadding
+	^ self textSize x + self hMargin + self hPadding

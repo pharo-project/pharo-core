@@ -1,0 +1,3 @@
+newPagerBar
+
+	^ GLMPagerBarBrick new

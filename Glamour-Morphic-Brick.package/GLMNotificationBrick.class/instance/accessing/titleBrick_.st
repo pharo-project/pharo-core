@@ -1,0 +1,2 @@
+titleBrick: anObject
+	titleBrick := anObject

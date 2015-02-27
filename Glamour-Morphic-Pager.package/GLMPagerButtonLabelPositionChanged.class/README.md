@@ -1,1 +1,0 @@
-A GLMPagerButtonLabelPositionChanged is xxxxxxxxx.

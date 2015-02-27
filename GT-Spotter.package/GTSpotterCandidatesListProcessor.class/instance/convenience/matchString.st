@@ -1,0 +1,2 @@
+matchString
+	self filter: GTFilterStringMatch

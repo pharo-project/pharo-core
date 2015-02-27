@@ -1,3 +1,3 @@
 vPercent: anInteger
 
-	self verticalPercent: anInteger
+	verticalPercent := anInteger

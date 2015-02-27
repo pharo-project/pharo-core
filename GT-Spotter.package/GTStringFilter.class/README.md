@@ -1,0 +1,1 @@
+A GTStringFilter is xxxxxxxxx.Instance Variables	caseSensitive:		<Object>	query:		<Object>caseSensitive	- xxxxxquery	- xxxxx

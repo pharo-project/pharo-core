@@ -1,0 +1,2 @@
+messageBrick: anObject
+	messageBrick := anObject

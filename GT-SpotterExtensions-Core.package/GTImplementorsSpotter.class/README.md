@@ -1,0 +1,1 @@
+A GTImplementorsSpotter is xxxxxxxxx.Instance Variables	behaviors:		<Object>	context:		<Object>	limit:		<Object>behaviors	- xxxxxcontext	- xxxxxlimit	- xxxxx

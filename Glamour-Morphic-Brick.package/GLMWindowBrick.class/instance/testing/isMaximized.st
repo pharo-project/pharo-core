@@ -1,0 +1,3 @@
+isMaximized
+
+	^ false

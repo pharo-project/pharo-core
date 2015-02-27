@@ -1,4 +1,4 @@
-buildLabelFrom: aStringOrMorph withAction: anActionMorphOrNil
+buildLabelFrom: aStringOrMorph withAction: aBrick
 	| label innerLabel |
 
 	innerLabel := aStringOrMorph isMorph
@@ -6,19 +6,21 @@ buildLabelFrom: aStringOrMorph withAction: anActionMorphOrNil
 		ifFalse: [
 			|container labelMorph|
 			container := GLMBrick new.
-			labelMorph := GLMLabelBrick new.
-			labelMorph text: aStringOrMorph.
-			labelMorph layoutProperties horizontalPercent: 100.
-			container addBrickBack: labelMorph.
-			container layoutProperties horizontalPercent: 100.
-			labelMorph layoutProperties marginLeft: 5.
+			labelMorph := GLMLabelBrick new
+				text: aStringOrMorph;
+			 	hSpaceFill;
+			 	vSpaceFill;
+				marginLeft: 5.
+			container
+				addBrickBack: labelMorph;
+				hSpaceFill;
+				vSpaceFill.
 			
-			container layoutProperties maxWidthBlock: [ :aTrick |
-				labelMorph label textSize x + (2 *  labelMorph layoutProperties marginLeft) + (anActionMorphOrNil ifNotNil: [ anActionMorphOrNil normalImage width * 1.5 ] ifNil: [ 0 ])].
+			container maxWidth: [ 5 + labelMorph approximateWidth + (aBrick ifNotNil: [ :b | b normalImage width * 1.5 ] ifNil: [ 0 ])].
 			container ].
 		
-	label := anActionMorphOrNil
+	label := aBrick
 			ifNil: [ innerLabel ]
-			ifNotNil: [ 	anActionMorphOrNil layoutProperties horizontalPercent: 0.	anActionMorphOrNil layoutProperties minWidth: (anActionMorphOrNil normalImage width * 1.5). innerLabel addBrickBack: anActionMorphOrNil. innerLabel ].
+			ifNotNil: [ aBrick vSpaceFill; width: (aBrick normalImage width * 1.5). innerLabel addBrickBack: aBrick. innerLabel ].
 					
 	^ label

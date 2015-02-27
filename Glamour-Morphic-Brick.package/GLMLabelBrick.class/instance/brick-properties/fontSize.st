@@ -1,0 +1,3 @@
+fontSize
+
+	^ self label fontSize

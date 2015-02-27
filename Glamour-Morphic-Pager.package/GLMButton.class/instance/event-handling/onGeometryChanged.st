@@ -1,2 +1,0 @@
-onGeometryChanged
-	self updateExtent.

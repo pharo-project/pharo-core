@@ -1,5 +1,5 @@
 GLMInteractableBrick subclass: #GLMActionButtonBrick
-	instanceVariableNames: 'action'
+	instanceVariableNames: 'action hoverAction unhoverAction'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Glamour-Morphic-Brick-Widgets-Core'

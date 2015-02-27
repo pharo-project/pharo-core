@@ -1,2 +1,0 @@
-pageIndex: anObject
-	pageIndex := anObject

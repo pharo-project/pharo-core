@@ -1,3 +1,3 @@
 iconAct
 
-	^ GLMUIThemeExtraIcons glamorousPlay
+	^ Smalltalk ui icons glamorousAccept

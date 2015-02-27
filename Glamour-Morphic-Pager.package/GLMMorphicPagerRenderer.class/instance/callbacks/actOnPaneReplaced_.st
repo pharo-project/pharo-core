@@ -1,2 +1,2 @@
 actOnPaneReplaced: ann
-	container popAndReplacePane: (self renderObject: ann newPane)
+	container brickRoot popAndReplacePane: (self renderObject: ann newPane)

@@ -1,5 +1,7 @@
 resultsPaneStyleFor: aBrick
 
-	aBrick band layoutPolicy: GLMBrickVerticalLinedStackLayout new.
-	aBrick layoutProperties horizontalPercent: self resultsPaneWidth.
-	aBrick color: self backgroundColor.
+	aBrick
+		hSpaceFill: self resultsPaneWidth;
+		vSpaceFill;
+		color: self backgroundColor;
+		with: [ :b | b band layout: GTSpotterStackedLayout new ]

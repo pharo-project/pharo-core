@@ -1,2 +1,2 @@
 updateFont
-	font := LogicalFont familyName: self familyName pointSize: self fontSize.
+	font := LogicalFont familyName: self familyName pointSize: self fontSize

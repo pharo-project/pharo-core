@@ -3,4 +3,4 @@ spotterExtensionMethodsFor: aStep
 	aStep listProcessor
 			allCandidates: [ self extensionMethods ];
 			title: 'Extension Methods';
-			matchSubstring
+			filter: GTFilterSubstring

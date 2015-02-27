@@ -1,1 +1,0 @@
-A GLMBrickHorizontalFillProportionalLinearLayout is a slight modification of ProportionalLayout but all elements have the same height and it is the same as parent's

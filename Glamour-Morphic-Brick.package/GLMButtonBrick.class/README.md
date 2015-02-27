@@ -1,0 +1,1 @@
+A GLMButtonBrick is a simple button with support of icons.Instance Variables	iconBrick:		<GLMInteractableBrick>	labelBrick:		<GLMLabelBrick>iconBrick	- xxxxxlabelBrick	- xxxxx

@@ -1,2 +1,0 @@
-notifyLabelTextChanged
-	self announcer announce: GLMPagerButtonLabelTextChanged new.

@@ -1,3 +1,3 @@
 buttonsMorphs
 
-	^ pagerMorph submorphs second submorphs second submorphs
+	^ pagerMorph subbricks second subbricks second subbricks

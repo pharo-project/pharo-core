@@ -1,4 +1,4 @@
 popPane
 	
-	self band removeBrick: (self band lastSubbrick).
-	self updatePanes.
+	self band doNotLayoutDuring: [ :b | b removeBrick: b lastSubbrick ].
+	self doLayoutForce

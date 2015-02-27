@@ -1,3 +1,5 @@
 isLastInOwner
 
-	^ self brickDoubleLink hasSuccessor not
+	^ self brickDoubleLink
+		ifNotNilDo: [ :bdl | bdl hasSuccessor not ]
+		ifNil: [ false ]

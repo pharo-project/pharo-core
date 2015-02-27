@@ -1,0 +1,2 @@
+separators: anObject
+	separators := anObject

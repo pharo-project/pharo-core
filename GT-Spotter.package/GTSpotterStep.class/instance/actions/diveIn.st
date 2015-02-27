@@ -1,4 +1,6 @@
 diveIn
 	self canDiveInSelectedCandidate ifTrue: [ 
-		self spotter historize: self selected.
-		self spotter requestNextStepWith: self selectedCandidate ]
+		self spotter
+			historize: self selected;
+			requestNextStepWith: self selectedCandidate;
+			notifyDiveIn: self selectedCandidate ]

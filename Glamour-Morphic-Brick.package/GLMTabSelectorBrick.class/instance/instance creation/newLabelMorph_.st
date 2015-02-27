@@ -7,4 +7,5 @@ newLabelMorph: aStringOrMorph
 		label: aStringOrMorph;
 		font: self font;
 		on: #mouseDown send: #tabClicked:with: to: self;
-		tabSelector: self
+		tabSelector: self;
+		vSpaceFill

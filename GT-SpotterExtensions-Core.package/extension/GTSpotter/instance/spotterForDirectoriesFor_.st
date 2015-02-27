@@ -6,9 +6,7 @@ spotterForDirectoriesFor: aStep
 		title: 'Directories';
 		itemIcon: [ GLMUIThemeExtraIcons glamorousFolder ];
 		wantsToDisplayOnEmptyQuery: false;
-		filter: [ :originalQuery :stream | 
-					self
-						filterByQuery: originalQuery
-						forReferencesComputedAs: [ :root | root directories ]
-						inProcessor: processor
-						onStream: stream ]
+		filter: [ :context | 
+			self
+				filterInContext: context
+				forReferencesComputedAs: [ :root | root directories ] ]

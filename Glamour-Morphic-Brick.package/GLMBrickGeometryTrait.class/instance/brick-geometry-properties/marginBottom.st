@@ -1,3 +1,3 @@
 marginBottom
 
-	^ self layout marginBottom
+	^ self wrappedBounds marginBottom

@@ -1,0 +1,3 @@
+isClean: aBrick
+
+	^ self subclassResponsibility

@@ -1,13 +1,14 @@
 spotterContentsStyleFor: aBrick
 	
 	aBrick
-		layout: GLMBrickVerticalFillProportionalLinearLayout new;
+		useVerticalLinearLayout;
 		borderColor: self borderColor;
 		borderWidth: self outerBorderWidth;
-		color: self borderColor.
+		color: self borderColor;
+		padding: self outerBorderWidth;
+		hSpaceFill;
+		vSpaceFill.
 	
 	aBrick layout
-		hSpaceFill;
-		padding: self outerBorderWidth;
 		zIndex: 2
 	

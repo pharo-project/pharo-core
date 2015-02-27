@@ -1,2 +1,2 @@
-filter: aBlockWithTwoArguments
-	filterBlock := aBlockWithTwoArguments 
+filter: aBlockWithOneArgument
+	filterBlock := aBlockWithOneArgument 

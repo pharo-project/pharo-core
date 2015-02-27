@@ -1,1 +1,0 @@
-A GLMPagerButtonChecked is xxxxxxxxx.

@@ -1,12 +1,14 @@
-label: aTrickMorph selected: selectedTrickMorph
+label: aBrick selected: aSelectedBrick
 	"Change the label contents"
 
-	aTrickMorph layoutProperties horizontalPercent: 100.
-	selectedTrickMorph layoutProperties horizontalPercent: 100.
+	aBrick hSpaceFill.
+	aBrick vSpaceFill.
+	aSelectedBrick hSpaceFill.
+	aSelectedBrick vSpaceFill.
 	
-	self layoutProperties maxWidthBlock: aTrickMorph layoutProperties maxWidthBlock.
+	self maxWidth: aBrick layout maxWidth.
 	
 	self
-		normalLabel: aTrickMorph;
-		selectedLabel: selectedTrickMorph;
+		normalLabel: aBrick;
+		selectedLabel: aSelectedBrick;
 		selected: self isSelected

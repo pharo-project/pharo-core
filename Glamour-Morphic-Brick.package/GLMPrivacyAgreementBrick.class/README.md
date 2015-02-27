@@ -1,0 +1,1 @@
+A GLMPrivacyAgreementBrick is xxxxxxxxx.Instance Variables	advancedBrick:		<Object>	buttonsBrick:		<Object>	generalCheckboxBrick:		<Object>	titleBrick:		<Object>advancedBrick	- xxxxxbuttonsBrick	- xxxxxgeneralCheckboxBrick	- xxxxxtitleBrick	- xxxxx

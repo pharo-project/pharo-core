@@ -1,0 +1,3 @@
+maxHeight: anObject
+
+	maxHeight := anObject

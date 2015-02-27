@@ -1,0 +1,3 @@
+hasMinDimensionRestriction: aBrick
+
+	^ self subclassResponsibility

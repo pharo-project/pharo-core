@@ -1,1 +1,1 @@
-A GTSpotterPreviewBrick is xxxxxxxxx.Instance Variables	asyncTask:		<Object>	compositeBrick:		<Object>	spotterModel:		<Object>asyncTask	- xxxxxcompositeBrick	- xxxxxspotterModel	- xxxxx
+A GTSpotterPreviewBrick is xxxxxxxxx.Instance Variables	asyncTask:		<Object>	compositeBrick:		<Object>	previewObject:		<Object>	spotterModel:		<Object>asyncTask	- xxxxxcompositeBrick	- xxxxxpreviewObject	- xxxxxspotterModel	- xxxxx

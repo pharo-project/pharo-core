@@ -1,0 +1,1 @@
+A GLMPagePopedAndReplaced is xxxxxxxxx.Instance Variables	brick:		<Object>brick	- xxxxx

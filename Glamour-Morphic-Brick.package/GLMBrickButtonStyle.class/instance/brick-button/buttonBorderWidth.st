@@ -1,0 +1,3 @@
+buttonBorderWidth
+	
+	^ 1

@@ -1,0 +1,1 @@
+A GTFilterAlike is xxxxxxxxx.Instance Variables	lowerThreshold:		<Object>	upperThreshold:		<Object>lowerThreshold	- xxxxxupperThreshold	- xxxxx

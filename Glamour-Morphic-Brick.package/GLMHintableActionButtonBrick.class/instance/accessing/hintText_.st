@@ -1,0 +1,3 @@
+hintText: anObject
+
+	hintText := anObject

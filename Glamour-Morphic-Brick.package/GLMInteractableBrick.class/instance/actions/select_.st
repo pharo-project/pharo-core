@@ -1,0 +1,3 @@
+select: anEvent
+
+	self select

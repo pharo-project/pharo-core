@@ -1,3 +1,4 @@
 highlight: aString
 
-	highlightedString := aString
+	highlightedString := aString.
+	self changed

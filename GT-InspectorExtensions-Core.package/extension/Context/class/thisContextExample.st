@@ -1,0 +1,3 @@
+thisContextExample
+	<example: 'thisContext'>
+	^ thisContext

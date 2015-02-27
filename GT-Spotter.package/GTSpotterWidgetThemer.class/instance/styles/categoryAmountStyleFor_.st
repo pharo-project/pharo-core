@@ -9,6 +9,7 @@ categoryAmountStyleFor: aBrick
 		fontSize: self titleFontSize;
 		familyName: self titleFamilyName.
 	
-	aBrick layoutProperties
-		hSpaceFill;
+	aBrick
+		vSpaceFill;
+		width: #approximateWidth;
 		marginLeft: self categoryNameMarginRight.

@@ -1,0 +1,3 @@
+newContentBrick
+
+	^ GLMBandBrick new

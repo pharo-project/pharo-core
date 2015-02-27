@@ -1,3 +1,3 @@
 notifyFocusedPageChanged
 
-	self announcer announce: GLMFocusedPageChanged new.
+	self notifyAll: GLMFocusedPageChanged new.

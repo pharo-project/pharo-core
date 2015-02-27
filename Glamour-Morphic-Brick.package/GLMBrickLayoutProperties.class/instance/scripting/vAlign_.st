@@ -1,0 +1,3 @@
+vAlign: aSymbol
+
+	vAlign := aSymbol

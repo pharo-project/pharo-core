@@ -1,3 +1,4 @@
 padding: aCollection
+	<brickBuilderProperty: #Geometry name: 'Padding' as: #brickBuilderEvaluate getter: #padding model: #GLMUIBuilderTextFieldProperty>
 
-	self layout padding: aCollection
+	self wrappedBounds padding: aCollection

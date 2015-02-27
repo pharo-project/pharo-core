@@ -1,1 +1,0 @@
-A GTInspectorMessageTallyTest is xxxxxxxxx.

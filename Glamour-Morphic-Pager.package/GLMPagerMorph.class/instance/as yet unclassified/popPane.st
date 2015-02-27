@@ -1,2 +1,0 @@
-popPane
-	pagerModel popPane: true.

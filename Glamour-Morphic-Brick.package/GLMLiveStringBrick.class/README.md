@@ -1,0 +1,1 @@
+A GLMLiveStringBrick is xxxxxxxxx.Instance Variables	textLogic:		<Object>textLogic	- xxxxx

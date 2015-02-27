@@ -1,1 +1,0 @@
-A GLMPagerButtonGeometryModel is xxxxxxxxx.Instance Variables	announcer:		<Object>	paddingBottom:		<Object>	paddingLeft:		<Object>	paddingRight:		<Object>	paddingTop:		<Object>announcer	- xxxxxpaddingBottom	- xxxxxpaddingLeft	- xxxxxpaddingRight	- xxxxxpaddingTop	- xxxxx

@@ -1,4 +1,5 @@
 categoryStyleFor: aBrick
 
-	aBrick layoutProperties
-		marginBottom: self categoryMarginBottom
+	aBrick
+		marginBottom: self categoryMarginBottom;
+		hSpaceFill

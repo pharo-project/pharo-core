@@ -1,3 +1,0 @@
-prepareArgumentsFor: aBrick
-
-	^ nil

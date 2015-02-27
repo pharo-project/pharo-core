@@ -1,0 +1,4 @@
+exampleInWindow
+
+	self example
+		openCenteredInBrickWindow

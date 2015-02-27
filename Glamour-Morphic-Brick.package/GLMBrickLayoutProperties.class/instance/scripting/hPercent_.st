@@ -1,3 +1,3 @@
 hPercent: anInteger
 
-	self horizontalPercent: anInteger
+	horizontalPercent := anInteger

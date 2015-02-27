@@ -1,0 +1,3 @@
+newActionbarBrick
+
+	^ GLMBrick new

@@ -1,0 +1,2 @@
+hintBrick
+	^ hintBrick

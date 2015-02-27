@@ -7,5 +7,8 @@ initialize
 	
 	textPosition := #leftCenter.
 	
+	self
+		hShrinkWrap;
+		vShrinkWrap.
 	self updateFont.
 	

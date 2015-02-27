@@ -1,2 +1,0 @@
-pressed
-	^ pressedImage

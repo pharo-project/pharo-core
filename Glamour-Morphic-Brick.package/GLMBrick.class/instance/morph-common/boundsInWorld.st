@@ -1,0 +1,3 @@
+boundsInWorld
+
+	^ self globalBounds

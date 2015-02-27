@@ -1,1 +1,0 @@
-A GTInspectorTextTest is xxxxxxxxx.

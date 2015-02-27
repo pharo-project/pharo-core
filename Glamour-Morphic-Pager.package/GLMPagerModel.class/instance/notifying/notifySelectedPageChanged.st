@@ -1,3 +1,3 @@
 notifySelectedPageChanged
 
-	self announcer announce: GLMSelectedPageChanged new.
+	self notifyAll:  GLMSelectedPageChanged new.

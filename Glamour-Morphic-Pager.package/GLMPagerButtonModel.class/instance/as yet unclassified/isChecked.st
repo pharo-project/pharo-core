@@ -1,2 +1,0 @@
-isChecked
-	^ isChecked.

@@ -1,6 +1,7 @@
 spotterPreviewCompositeStyleFor: aBrick
 
-	aBrick layout
+	aBrick
 		hSpaceFill;
+		vSpaceFill;
 		margin: self previewBorderWidth;
 		paddingLeft: self previewPaddingLeft

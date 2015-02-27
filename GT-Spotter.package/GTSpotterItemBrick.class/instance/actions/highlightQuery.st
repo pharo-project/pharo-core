@@ -1,3 +1,2 @@
 highlightQuery
-
-	self labelBrick label highlight: self stepModel query
+	self labelBrick label highlight: self stepModel context text

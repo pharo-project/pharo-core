@@ -1,7 +1,8 @@
 listBrick: aBrick
 
 	scrollList := aBrick.
-	
-	self listBrick adaptor: GLMBrickListAdaptor new.
-	self listBrick layoutProperties vSpaceFill.
+	self listBrick
+		vSpaceFill;
+		hSpaceFill.
+		
 	self addBrickBack: self listBrick

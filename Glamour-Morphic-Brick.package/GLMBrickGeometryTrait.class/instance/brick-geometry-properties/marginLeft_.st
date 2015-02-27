@@ -1,3 +1,4 @@
 marginLeft: anObject
+	<brickBuilderProperty: #Geometry name: 'Margin Left' as: #asInteger getter: #marginLeft model: #GLMUIBuilderTextFieldProperty>
 
-	self layout marginLeft: anObject
+	self wrappedBounds marginLeft: anObject

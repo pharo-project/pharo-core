@@ -4,6 +4,5 @@ mouseUp: evt
 		self depress.
 		^ self click: evt
 	] ifFalse: [
-		self deselect.
-		^ self depress.
-	]
+		self deselect: evt.
+		^ self depress ]

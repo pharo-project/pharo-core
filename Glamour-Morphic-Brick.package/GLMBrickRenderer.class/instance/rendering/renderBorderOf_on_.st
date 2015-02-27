@@ -1,5 +1,9 @@
 renderBorderOf: aBrick on: aCanvas
-	|rect|
+	|markColor markWidth|
+	aBrick border renderBorderOf: aBrick on: aCanvas.
 	
-	rect := (aBrick brickBounds origin - (aBrick paddingLeft @ aBrick paddingTop)) corner: (aBrick brickBounds corner + (aBrick paddingRight @ aBrick paddingBottom)).
-	aCanvas frameRectangle: rect width: aBrick borderWidth color: aBrick borderColor
+	markColor := aBrick valueOfProperty: #brickMarkBorderColor ifAbsent: nil.
+	markWidth := aBrick valueOfProperty: #brickMarkBorderWidth ifAbsent: nil.
+	
+	markColor isNotNil & markWidth isNotNil ifTrue: [
+		aCanvas frameRectangle: aBrick brickBounds width: markWidth color: markColor ]

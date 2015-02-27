@@ -1,0 +1,4 @@
+isOppositeDependsOn: aBrick
+
+	^ aBrick isHeightDependsOnWidth
+	

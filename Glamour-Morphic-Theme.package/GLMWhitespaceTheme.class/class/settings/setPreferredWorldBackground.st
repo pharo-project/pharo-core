@@ -1,3 +1,3 @@
 setPreferredWorldBackground
 	"self setPreferredWorldBackground"
-	World color: Color white
+	PolymorphSystemSettings desktopColor: (Color r: 250 g: 250 b: 250 range: 256)

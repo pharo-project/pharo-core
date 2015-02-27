@@ -1,0 +1,3 @@
+hPercent
+
+	^ self layout hPercent

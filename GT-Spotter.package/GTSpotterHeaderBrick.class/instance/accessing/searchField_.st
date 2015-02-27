@@ -1,10 +1,10 @@
 searchField: aMorph
 
 	searchField ifNotNil: [self removeBrick: searchField].
-	searchField := aMorph.
+	searchField := aMorph asBrick.
 	
 	self themer spotterThemer searchFieldStyleFor: searchField.
 	
-	searchField takeKeyboardFocus.
+	searchField morph takeKeyboardFocus.
 	
 	self addBrickBack: searchField

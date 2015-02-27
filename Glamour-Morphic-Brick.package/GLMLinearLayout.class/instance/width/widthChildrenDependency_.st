@@ -1,0 +1,3 @@
+widthChildrenDependency: aBrick
+
+	^ self subclassResponsibility

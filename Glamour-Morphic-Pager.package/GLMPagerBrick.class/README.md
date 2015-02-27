@@ -1,0 +1,1 @@
+A GLMPagerBrick is xxxxxxxxx.Instance Variables	firstCombination:		<Object>	pagerBar:		<Object>	pagerModel:		<Object>	scrollBrick:		<Object>	showScrollBarWhenNeeded:		<Object>firstCombination	- xxxxxpagerBar	- xxxxxpagerModel	- xxxxxscrollBrick	- xxxxxshowScrollBarWhenNeeded	- xxxxx

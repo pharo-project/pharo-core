@@ -1,3 +1,3 @@
 notifyNumberOfVisiblePagesChanged
 
-	self announcer announce: GLMNumberOfVisiblePagesChanged new.
+	self notifyAll: GLMNumberOfVisiblePagesChanged new.

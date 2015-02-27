@@ -1,0 +1,2 @@
+headerBrick: anObject
+	headerBrick := anObject

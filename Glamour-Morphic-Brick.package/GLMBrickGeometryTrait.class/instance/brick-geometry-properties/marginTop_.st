@@ -1,3 +1,4 @@
 marginTop: anObject
+	<brickBuilderProperty: #Geometry name: 'Margin Top' as: #asInteger getter: #marginTop model: #GLMUIBuilderTextFieldProperty>
 
-	self layout marginTop: anObject
+	self wrappedBounds marginTop: anObject

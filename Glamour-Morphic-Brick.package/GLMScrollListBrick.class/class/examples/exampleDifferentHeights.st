@@ -10,6 +10,7 @@ exampleDifferentHeights
 				textPosition: #center;
 				enable;
 				height: [ :b | (((index % 10)*10 + 30) +  (10000 * (2 / b width))) asInteger ];
+				hSpaceFill;
 				yourself ].
 
 	GLMFoundationBrick new

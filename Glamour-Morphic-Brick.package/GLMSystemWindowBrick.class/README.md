@@ -1,0 +1,1 @@
+A GLMSystemWindowBrick is xxxxxxxxx.Instance Variables	fadeBrick:		<Object>	fadeInAnimation:		<Object>	headerBrick:		<Object>	offcanvasAnimation:		<Object>	offcanvasBrick:		<Object>fadeBrick	- xxxxxfadeInAnimation	- xxxxxheaderBrick	- xxxxxoffcanvasAnimation	- xxxxxoffcanvasBrick	- xxxxx

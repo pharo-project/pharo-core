@@ -1,4 +1,3 @@
 innerBounds
-
-	^ (self brickBounds origin + (self paddingLeft @ self paddingTop))
-		corner: (self brickBounds corner - ((self paddingRight) @ (self paddingBottom))).
+	"can be used in layouts"
+	^ self wrappedBounds innerBounds

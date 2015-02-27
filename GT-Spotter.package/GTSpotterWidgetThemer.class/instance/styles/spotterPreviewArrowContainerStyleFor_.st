@@ -1,6 +1,9 @@
 spotterPreviewArrowContainerStyleFor: aBrick
 
-	aBrick layout: GLMBrickVerticalScrollListLayout new;
+	aBrick
+		useVerticalLinearLayout;
+		vSpaceFill;
+		width: self previewArrowWidth;
 		margin: {
 			self headerHeight + self innerBorderWidth + self previewBorderWidth.
 			0.
@@ -8,5 +11,4 @@ spotterPreviewArrowContainerStyleFor: aBrick
 			self previewArrowGapHack negated }.
 		
 	aBrick layout
-		staticWidth: self previewArrowWidth - self previewArrowGapHack;
 		zIndex: 4.

@@ -1,0 +1,2 @@
+hintTitle: anObject
+	hintTitle := anObject

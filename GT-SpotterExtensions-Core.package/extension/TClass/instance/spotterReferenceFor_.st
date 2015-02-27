@@ -4,4 +4,4 @@ spotterReferenceFor: aStep
 			title: 'References';
 			allCandidates: [ (SystemNavigation default allReferencesTo: self binding) collect: #compiledMethod ];
 			itemName: [ :method | method gtDisplayString ];
-			matchSubstring
+			filter: GTFilterSubstring

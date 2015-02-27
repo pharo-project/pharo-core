@@ -1,0 +1,1 @@
+A GLMPagerScrollButtonBrick is xxxxxxxxx.Instance Variables	checkedFocusedIcon:		<Object>	checkedIcon:		<Object>	focused:		<Object>	index:		<Object>checkedFocusedIcon	- xxxxxcheckedIcon	- xxxxxfocused	- xxxxxindex	- xxxxx

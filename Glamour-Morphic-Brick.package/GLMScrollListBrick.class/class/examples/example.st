@@ -3,11 +3,12 @@ example
 	adaptor := nil.
 	adaptor := GLMBrickListAdaptor new
 		sizeLogic: [ 2000 ];
-		morphAtLogic: [ :index :morph | 
+		morphAtLogic: [ :index :morph |
 			(morph ifNil: [ GLMLabelBrick new ])
 				color: Color random muchLighter;
 				text: index asString, ' of ', adaptor count asString;
 				textPosition: #center;
+				hSpaceFill;
 				yourself ].
 
 	GLMFoundationBrick new

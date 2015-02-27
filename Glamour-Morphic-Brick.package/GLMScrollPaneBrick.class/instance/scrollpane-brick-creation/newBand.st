@@ -1,3 +1,3 @@
 newBand
 
-	^ GLMBandBrick new
+	^ GLMScrollPaneBandBrick new

@@ -4,4 +4,4 @@ spotterUsedTraitsFor: aStep
 			title: 'Uses Traits';
 			allCandidates: [ self traits asArray ];
 			itemIcon: #systemIcon;
-			matchSubstring
+			filter: GTFilterSubstring

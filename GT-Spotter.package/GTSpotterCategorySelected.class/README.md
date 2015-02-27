@@ -1,1 +1,1 @@
-A GTSpotterCategorySelected is xxxxxxxxx.
+A GTSpotterCategorySelected is xxxxxxxxx.Instance Variables	category:		<Object>category	- xxxxx

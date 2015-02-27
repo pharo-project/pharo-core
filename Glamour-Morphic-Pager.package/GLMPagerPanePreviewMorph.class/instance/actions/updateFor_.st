@@ -1,4 +1,5 @@
 updateFor: aMorph
+
 	thumbnail := aMorph taskThumbnailOfSize: self maxExtent.
 	self image: thumbnail form.
 	

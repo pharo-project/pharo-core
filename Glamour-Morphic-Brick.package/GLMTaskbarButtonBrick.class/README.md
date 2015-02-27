@@ -1,0 +1,1 @@
+A GLMTaskbarButtonBrick is xxxxxxxxx.Instance Variables	actionbarBrick:		<Object>	iconBrick:		<Object>	labelBrick:		<Object>	model:		<Object>	taskBarMorph:		<Object>	windowBrick:		<Object>actionbarBrick	- xxxxxiconBrick	- xxxxxlabelBrick	- xxxxxmodel	- xxxxxtaskBarMorph	- xxxxxwindowBrick	- xxxxx

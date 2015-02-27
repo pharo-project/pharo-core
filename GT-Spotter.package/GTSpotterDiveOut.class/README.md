@@ -1,0 +1,1 @@
+A GTSpotterDiveOut is xxxxxxxxx.Instance Variables	element:		<Object>element	- xxxxx

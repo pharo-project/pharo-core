@@ -5,4 +5,4 @@ spotterPackageRepositoriesFor: aStep
 		allCandidates: [ self repositoryGroup repositories ];
 		itemName: [ :item | item description ];
 		actLogic: [ :item | self spotterCommit: self in: item ];
-		matchSubstring
+		filter: GTFilterSubstring

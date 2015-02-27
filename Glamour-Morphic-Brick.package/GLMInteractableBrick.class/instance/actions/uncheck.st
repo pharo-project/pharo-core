@@ -1,5 +1,6 @@
 uncheck
+	"notifies #onUnchecked"
 	self isChecked ifTrue: [
 		isChecked := false.
-		self changed.
-	]
+		self announce: #onUnchecked.
+		self changed ]

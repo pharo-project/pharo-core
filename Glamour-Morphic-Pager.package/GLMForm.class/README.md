@@ -1,1 +1,0 @@
-PNGReadWriter putForm: GLMUIThemeExtraIcons glamorousGrayCircle onFileNamed: 'glamorousGrayCircle.png'.

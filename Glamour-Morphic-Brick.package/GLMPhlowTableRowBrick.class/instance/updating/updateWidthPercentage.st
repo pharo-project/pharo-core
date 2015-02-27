@@ -1,4 +1,4 @@
 updateWidthPercentage
 	
 	self subbricks ifEmpty: [ ^ self ].
-	self subbricks do: [ :each | each layoutProperties horizontalPercent: (100 / self subbricksCount) ]
+	self subbricks do: [ :each | each hSpaceFill: (100 / self subbricksCount) ]

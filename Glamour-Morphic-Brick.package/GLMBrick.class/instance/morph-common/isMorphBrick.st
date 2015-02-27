@@ -1,0 +1,3 @@
+isMorphBrick
+
+	^ false

@@ -1,3 +1,3 @@
 newTriangleBrick
 
-	^ GLMActionButtonBrick new
+	^ GLMHintableActionButtonBrick new

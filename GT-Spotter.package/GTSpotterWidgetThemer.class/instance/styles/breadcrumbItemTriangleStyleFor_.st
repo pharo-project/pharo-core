@@ -1,5 +1,7 @@
 breadcrumbItemTriangleStyleFor: aBrick
 
-	aBrick renderer: (GTSpotterTriangleRenderer new orientation: #bottom).
-	aBrick layout staticHeight: self breadcrumbTriangleHeight.
-	aBrick color: self breadcrumbItemBackgroundColor
+	aBrick
+		renderer: (GTSpotterTriangleRenderer new orientation: #bottom);
+		height: self breadcrumbTriangleHeight;
+		color: self breadcrumbItemBackgroundColor;
+		hSpaceFill

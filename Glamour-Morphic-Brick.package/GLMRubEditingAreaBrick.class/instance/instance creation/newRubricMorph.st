@@ -1,0 +1,3 @@
+newRubricMorph
+
+	^ RubEditingArea new beWrapped

@@ -1,0 +1,2 @@
+defaultCache
+	^ IdentityDictionary new 

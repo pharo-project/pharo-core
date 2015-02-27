@@ -1,0 +1,1 @@
+A GLMPhlowTextBrick is xxxxxxxxx.Instance Variables	textBrick:		<Object>textBrick	- xxxxx

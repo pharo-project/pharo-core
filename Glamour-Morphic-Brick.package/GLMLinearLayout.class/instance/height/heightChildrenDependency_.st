@@ -1,0 +1,3 @@
+heightChildrenDependency: aBrick
+
+	^ self subclassResponsibility

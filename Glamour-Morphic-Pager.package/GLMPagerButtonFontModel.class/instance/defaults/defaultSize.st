@@ -1,2 +1,0 @@
-defaultSize
-	^ 12

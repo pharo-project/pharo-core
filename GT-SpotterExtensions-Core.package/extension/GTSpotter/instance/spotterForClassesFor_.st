@@ -3,6 +3,6 @@ spotterForClassesFor: aStep
 	aStep listProcessor
 			allCandidates: [ Smalltalk allClassesAndTraits ];
 			title: 'Classes';
-			matchSubstring;
+			filter: GTFilterSubstring;
 			itemIcon: #systemIcon;
 			wantsToDisplayOnEmptyQuery: false

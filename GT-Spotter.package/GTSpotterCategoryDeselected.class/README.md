@@ -1,1 +1,0 @@
-A GTSpotterCategoryDeselected is xxxxxxxxx.

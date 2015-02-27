@@ -1,3 +1,0 @@
-onPagePushed
-
-	self showOrHideScrollBar.

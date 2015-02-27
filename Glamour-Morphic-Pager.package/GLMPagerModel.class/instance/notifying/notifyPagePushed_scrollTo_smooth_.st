@@ -1,5 +1,8 @@
 notifyPagePushed: aMorph scrollTo: isScroll smooth: isSmooth
 	
-	self announcer announce: (GLMPagePushed new morph: aMorph).
+	self notifyAll: (GLMPagePushed new morph: aMorph).
 	
-	isScroll ifTrue: [self scrollToRight: isSmooth ]
+	isScroll ifTrue: [
+		self scrollingDelay > 0
+			ifTrue: [ self scrollToRightTask execute: { isSmooth } ]
+			ifFalse: [ self scrollToRight: isSmooth ] ]

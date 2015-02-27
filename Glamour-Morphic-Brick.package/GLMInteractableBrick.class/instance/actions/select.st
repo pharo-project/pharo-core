@@ -1,5 +1,6 @@
 select
+	"notifies #onMouseHover"
 	self isSelected ifFalse: [ 
 		isSelected := true.
-		self changed.
-	]
+		self announce: #onMouseHover.
+		self changed ]

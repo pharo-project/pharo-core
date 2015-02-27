@@ -1,0 +1,3 @@
+priority: anInteger
+
+	priority := anInteger

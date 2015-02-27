@@ -1,3 +1,3 @@
 marginTop
 
-	^ self layout marginTop
+	^ self wrappedBounds marginTop

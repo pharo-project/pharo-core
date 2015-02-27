@@ -1,0 +1,3 @@
+textColor
+
+	^ self label textColor

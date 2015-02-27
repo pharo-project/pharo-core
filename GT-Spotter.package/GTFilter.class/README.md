@@ -1,0 +1,1 @@
+A GTFilter is xxxxxxxxx.Instance Variables	context:		<Object>	items:		<Object>context	- xxxxxitems	- xxxxx

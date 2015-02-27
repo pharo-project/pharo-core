@@ -2,7 +2,7 @@ setTitle: aString
 
 	self titleBrick text: aString.
 	
-	titleBrick layoutProperties staticHeight: (
+	titleBrick height: (
 		(aString isEmpty | aString isNil)
 			ifFalse: [ 30 ]
 			ifTrue: [ 0 ])

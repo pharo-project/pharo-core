@@ -1,0 +1,3 @@
+defaultGeneralText
+
+	^ 'send anonymous data'

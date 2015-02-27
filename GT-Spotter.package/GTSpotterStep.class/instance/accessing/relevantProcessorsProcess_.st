@@ -1,15 +1,4 @@
-relevantProcessorsProcess: aQueryString
-	aQueryString substrings 
-		detect: [ :each | each beginsWith: '#' ]
-		ifFound: [ :categoryQuery | 
-			self processors 
-				select: [ :each | each title asLowercase beginsWith: categoryQuery allButFirst asLowercase ]
-				thenDo: [ :processor | 
-					processor 
-						filter: (aQueryString copyReplaceAll: categoryQuery with: '') 
-						on: self stream ] ]
-		ifNone: [ 
-			self processors do: [ :processor | 
-				processor 
-					filter: aQueryString 
-					on: self stream ]]
+relevantProcessorsProcess: aSpotterContext
+	self relevantProcessorsProcess: aSpotterContext do: [ :processor | 
+		aSpotterContext processor: processor.
+		processor filterInContext: aSpotterContext ]

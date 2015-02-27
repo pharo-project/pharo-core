@@ -1,5 +1,5 @@
 TableLayoutProperties subclass: #GLMBrickLayoutProperties
-	instanceVariableNames: 'marginTop marginRight marginBottom marginLeft paddingTop paddingRight paddingBottom paddingLeft horizontalPercent verticalPercent maxWidthBlock maxHeightBlock minHeightBlock minWidthBlock floating zIndex brick'
+	instanceVariableNames: 'floating hAlign heightDependencies horizontalPercent maxHeight maxWidth minHeight vAlign verticalPercent widthDependencies zIndex minWidth isDirty'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Glamour-Morphic-Brick-Layouts'

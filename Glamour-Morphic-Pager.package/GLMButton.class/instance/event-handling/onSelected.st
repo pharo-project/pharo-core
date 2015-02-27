@@ -1,2 +1,0 @@
-onSelected
-	self changed

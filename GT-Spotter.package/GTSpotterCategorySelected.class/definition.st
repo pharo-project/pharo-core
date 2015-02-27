@@ -1,5 +1,5 @@
 Announcement subclass: #GTSpotterCategorySelected
-	instanceVariableNames: ''
+	instanceVariableNames: 'category'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-Spotter-Announcements'

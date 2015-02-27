@@ -1,0 +1,2 @@
+defaultTextLowercase
+	^ self textTrimmed asLowercase

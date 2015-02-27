@@ -1,2 +1,2 @@
 candidatesLimit
-	^ candidatesLimit ifNil: [ 5 ]
+	^ candidatesLimit ifNil: [ self defaultCandidatesLimit ]

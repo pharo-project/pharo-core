@@ -6,9 +6,7 @@ spotterForFilesFor: aStep
 		title: 'Files';
 		itemIcon: [ GLMUIThemeExtraIcons glamorousBrowse ];
 		wantsToDisplayOnEmptyQuery: false;
-		filter: [ :originalQuery :stream | 
-					self
-						filterByQuery: originalQuery
-						forReferencesComputedAs: [ :root | root files ]
-						inProcessor: processor
-						onStream: stream ]
+		filter: [ :context | 
+			self
+				filterInContext: context
+				forReferencesComputedAs: [ :root | root files ] ]

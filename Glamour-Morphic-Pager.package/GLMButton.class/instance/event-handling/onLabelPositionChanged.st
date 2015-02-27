@@ -1,3 +1,0 @@
-onLabelPositionChanged
-
-	self positionLabel

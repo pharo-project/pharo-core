@@ -1,7 +1,6 @@
 headerStyleFor: aBrick
 
 	aBrick
-		color: self backgroundColor.
-		
-	aBrick layout
-		staticHeight: [ self headerHeight ]
+		color: self backgroundColor;
+		hSpaceFill;
+		height: self headerHeight

@@ -1,0 +1,3 @@
+leftPosition: anInteger
+
+	leftPosition := anInteger

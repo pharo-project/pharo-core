@@ -1,0 +1,1 @@
+A GLMCollapsableBrick is xxxxxxxxx.Instance Variables	contentBrick:		<Object>	headerBrick:		<Object>contentBrick	- xxxxxheaderBrick	- xxxxx

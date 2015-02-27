@@ -1,5 +1,5 @@
 GLMInteractableBrick subclass: #GTSpotterCategoryTitleBrick
-	instanceVariableNames: 'nameBrick amountBrick stepModel'
+	instanceVariableNames: 'nameBrick amountBrick actionbarBrick stepModel categoryProcessor'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-Spotter-UI'

@@ -1,3 +1,3 @@
 mouseEnter: evt
 	super mouseEnter: evt.
-	^ self select
+	^ self select: evt

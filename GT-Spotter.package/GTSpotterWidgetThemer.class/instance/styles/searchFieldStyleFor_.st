@@ -1,7 +1,11 @@
-searchFieldStyleFor: aMorph
-
-	aMorph
-		layoutProperties: GLMBrickLayoutProperties new;
+searchFieldStyleFor: aBrick
+	
+	aBrick
+		hSpaceFill;
+		vSpaceFill;
+		marginLeft: self searchFieldMarginLeft.
+		
+	aBrick morph
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;
 		color: Color transparent;
@@ -11,16 +15,10 @@ searchFieldStyleFor: aMorph
 		autoAccept: true;
 		borderColor: Color transparent;
 		borderWidth: 0.
-		
-	aMorph layoutProperties
-		hSpaceFill;
-		marginLeft: self searchFieldMarginLeft.
 	
-	aMorph ghostTextRuler
+	aBrick morph ghostTextRuler
 		fontName: self searchFieldFamilyName pointSize: self searchFieldFontSize.
 		
-	aMorph textArea
+	aBrick morph textArea
 		font: (LogicalFont familyName: self searchFieldFamilyName pointSize: self searchFieldFontSize);
-		backgroundColor: Color transparent.
-		
-	aMorph textArea cursor color: self searchFieldCursorColor
+		backgroundColor: Color transparent

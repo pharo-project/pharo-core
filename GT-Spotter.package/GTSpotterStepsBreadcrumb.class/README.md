@@ -1,1 +1,1 @@
-A GTSpotterStepsBreadcrumb is xxxxxxxxx.Instance Variables	band:		<Object>	items:		<Object>	spotterModel:		<Object>band	- xxxxxitems	- xxxxxspotterModel	- xxxxx
+A GTSpotterStepsBreadcrumb is xxxxxxxxx.Instance Variables	animation:		<Object>	band:		<Object>	items:		<Object>	spotterModel:		<Object>animation	- xxxxxband	- xxxxxitems	- xxxxxspotterModel	- xxxxx

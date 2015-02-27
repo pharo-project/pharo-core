@@ -1,1 +1,0 @@
-A GLMPagerButtonGeometryChanged is xxxxxxxxx.

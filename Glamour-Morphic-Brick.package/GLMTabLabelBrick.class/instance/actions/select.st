@@ -1,4 +1,4 @@
 select
-	self layoutProperties minWidthBlock: [ (self label layoutProperties maxWidthBlock value: self label) min: self brickRoot width ].
-	self brickRoot doLayout.
+	self minWidth: [ (self label layout maxWidth brickValue: self label) min: self brickRoot width ].
+	self brickRoot doLayoutForce.
 	self brickRoot changed.

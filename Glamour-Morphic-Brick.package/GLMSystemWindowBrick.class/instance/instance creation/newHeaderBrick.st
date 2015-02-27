@@ -1,0 +1,3 @@
+newHeaderBrick
+
+	^ GLMWindowHeaderBrick new

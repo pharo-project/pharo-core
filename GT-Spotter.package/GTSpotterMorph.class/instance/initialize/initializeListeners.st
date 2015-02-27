@@ -4,8 +4,8 @@ initializeListeners
 	
 	Morph announcer weak on: MorphLostFocus send: #onLostFocus: to: self.
 	
-	self bindKeyCombination: Character escape toAction: [ self escapePressed ].
-	self bindKeyCombination: $w command toAction: [ self escapePressed ].
+	self bindKeyCombination: Character escape toAction: [ self spotterModel exit ].
+	self bindKeyCombination: $w command toAction: [ self spotterModel exit ].
 	self bindKeyCombination: $p command toAction: [ self togglePreview ].
 	
 	self bindKeyCombination: Character arrowUp toAction: [ self selectPreviousCandidate ].

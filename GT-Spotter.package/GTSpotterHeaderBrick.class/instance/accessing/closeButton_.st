@@ -4,8 +4,9 @@ closeButton: aBrick
 	closeButton := aBrick.
 	
 	self themer spotterThemer closeButtonStyleFor: closeButton.
-	
-	closeButton layoutProperties staticWidth: self height.	"to make button being a square"
-	closeButton addUpAction: [ self spotterModel exit ].
+	closeButton
+		hintTitle: 'Close Spotter';
+		hintText: '<escape>';
+		addUpAction: [ self spotterModel exit ].
 	
 	self addBrickBack: closeButton

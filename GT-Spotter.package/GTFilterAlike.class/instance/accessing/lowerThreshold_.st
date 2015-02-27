@@ -1,0 +1,2 @@
+lowerThreshold: anObject
+	lowerThreshold := anObject

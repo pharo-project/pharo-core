@@ -1,0 +1,1 @@
+A GLMPopupBrick is xxxxxxxxx.Instance Variables	anchorBrick:		<Object>	contentBrick:		<Object>	hintBrick:		<Object>	hintText:		<Object>	titleBrick:		<Object>	titleText:		<Object>	triggerBrick:		<Object>anchorBrick	- xxxxxcontentBrick	- xxxxxhintBrick	- xxxxxhintText	- xxxxxtitleBrick	- xxxxxtitleText	- xxxxxtriggerBrick	- xxxxx

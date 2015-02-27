@@ -1,0 +1,1 @@
+A GLMPagerButtonsPaneBrick is xxxxxxxxx.Instance Variables	buttons:		<Object>	pagerModel:		<Object>buttons	- xxxxxpagerModel	- xxxxx

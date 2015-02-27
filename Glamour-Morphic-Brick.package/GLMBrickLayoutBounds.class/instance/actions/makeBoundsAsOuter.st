@@ -1,3 +1,0 @@
-makeBoundsAsOuter
-
-	bounds := outerBounds

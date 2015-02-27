@@ -1,2 +1,0 @@
-onPressed
-	self changed

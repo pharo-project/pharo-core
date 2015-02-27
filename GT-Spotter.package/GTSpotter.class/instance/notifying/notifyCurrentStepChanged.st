@@ -1,3 +1,3 @@
 notifyCurrentStepChanged
 
-	self announcer announce: (GTSpotterCurrentStepChanged new)
+	self announce: GTSpotterCurrentStepChanged new

@@ -1,1 +1,0 @@
-A GLMBrickLayout is low level layout class providing api for positioning bricks with specific order

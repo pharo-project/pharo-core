@@ -1,3 +1,0 @@
-isHorizontal
-
-	self subclassResponsibility

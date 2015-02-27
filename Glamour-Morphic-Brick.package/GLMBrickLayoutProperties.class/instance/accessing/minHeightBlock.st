@@ -1,2 +1,0 @@
-minHeightBlock
-	^ minHeightBlock

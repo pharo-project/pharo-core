@@ -2,7 +2,8 @@ initialize
 	super initialize.
 	
 	self
-		layout: GLMBrickVerticalFillProportionalLinearLayout new;
+		useVerticalLinearLayout;
 		labelBrick: self newLabelBrick;
-		triangleBrick: self newTriangleBrick
+		triangleBrick: self newTriangleBrick;
+		enable
 	

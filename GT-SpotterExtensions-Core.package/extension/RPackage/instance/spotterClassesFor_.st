@@ -3,4 +3,4 @@ spotterClassesFor: aStep
 	aStep listProcessor
 			allCandidates: [ self definedClasses sorted: [ :a :b | a name < b name ] ];
 			title: 'Classes';
-			matchSubstring
+			filter: GTFilterSubstring

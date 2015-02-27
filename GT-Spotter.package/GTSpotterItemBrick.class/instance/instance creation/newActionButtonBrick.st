@@ -1,3 +1,3 @@
 newActionButtonBrick
 
-	^ GLMActionButtonBrick new
+	^ GLMHintableActionButtonBrick new

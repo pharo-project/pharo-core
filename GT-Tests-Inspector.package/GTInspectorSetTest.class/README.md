@@ -1,1 +1,0 @@
-A GTInspectorSetTest is xxxxxxxxx.

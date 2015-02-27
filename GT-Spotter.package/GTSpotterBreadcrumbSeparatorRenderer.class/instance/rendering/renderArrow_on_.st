@@ -20,5 +20,5 @@ renderArrow: aBrick on: aCanvas
 	b := aBrick brickBounds topLeft + (bX@bY).
 	c := aBrick brickBounds topLeft + (cX@cY).
 	
-	aCanvas line: a to: b width: aBrick borderWidth color: aBrick borderColor.
-	aCanvas line: b to: c width: aBrick borderWidth color: aBrick borderColor
+	aCanvas line: a to: b width: aBrick borderWidth first color: aBrick borderColor first.
+	aCanvas line: b to: c width: aBrick borderWidth first color: aBrick borderColor first

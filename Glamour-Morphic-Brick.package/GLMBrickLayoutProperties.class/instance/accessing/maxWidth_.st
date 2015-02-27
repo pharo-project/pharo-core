@@ -1,2 +1,0 @@
-maxWidth: anObject
-	maxWidthBlock := [ anObject ]

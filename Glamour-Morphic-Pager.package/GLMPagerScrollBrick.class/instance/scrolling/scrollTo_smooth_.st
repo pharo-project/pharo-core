@@ -1,3 +1,3 @@
 scrollTo: aValue smooth: isSmooth
 
- 	self scrollTo: aValue smooth: isSmooth callback: nil 
+ 	self scrollTo: aValue smooth: isSmooth callback: nil

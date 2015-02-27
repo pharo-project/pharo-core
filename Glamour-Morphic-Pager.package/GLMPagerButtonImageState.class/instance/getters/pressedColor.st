@@ -1,2 +1,0 @@
-pressedColor
-	^ pressedColor

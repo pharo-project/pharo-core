@@ -1,3 +1,4 @@
 paddingBottom: anObject
+	<brickBuilderProperty: #Geometry name: 'Padding Bottom' as: #asInteger getter: #paddingBottom model: #GLMUIBuilderTextFieldProperty>
 
-	self layout paddingBottom: anObject
+	self wrappedBounds paddingBottom: anObject

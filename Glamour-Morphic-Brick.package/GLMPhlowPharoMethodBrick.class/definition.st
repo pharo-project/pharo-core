@@ -1,5 +1,5 @@
-GLMPhlowBrick subclass: #GLMPhlowPharoMethodBrick
-	instanceVariableNames: 'textBrick'
+GLMPhlowTextBrick subclass: #GLMPhlowPharoMethodBrick
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Glamour-Morphic-Brick-Phlow'

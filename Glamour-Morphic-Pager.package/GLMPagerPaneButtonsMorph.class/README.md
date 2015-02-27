@@ -1,1 +1,0 @@
-A GLMPagerPaneButtonsMorph is xxxxxxxxx.Instance Variables	indicatorButtons:		<Object>	pagerModel:		<Object>indicatorButtons	- xxxxxpagerModel	- xxxxx

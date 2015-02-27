@@ -1,0 +1,3 @@
+hintModifier: anObject
+
+	hintModifier := anObject

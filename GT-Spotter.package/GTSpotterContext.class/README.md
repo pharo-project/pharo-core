@@ -1,0 +1,1 @@
+A GTSpotterContext is xxxxxxxxx.Instance Variables	cache:		<Object>	processor:		<Object>	step:		<Object>	stream:		<Object>	text:		<Object>	textLowercase:		<Object>	textTrimmed:		<Object>cache	- xxxxxprocessor	- xxxxxstep	- xxxxxstream	- xxxxxtext	- xxxxxtextLowercase	- xxxxxtextTrimmed	- xxxxx

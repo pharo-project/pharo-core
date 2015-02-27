@@ -7,10 +7,11 @@ exampleLarge
 	foundation := GLMFoundationBrick new.
 	foundation brickRoot: scrollPane.
 	
-	1 to: 10000 do: [ :index |
+	1 to: 1000 do: [ :index |
 		scrollPane addBrickBack: (GLMBrick new
 			color: Color random;
-			extent: 200@50).
+			hSpaceFill;
+			height: 50).
 	].
 	
 	foundation extent: 400@300.

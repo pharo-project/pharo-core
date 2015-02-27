@@ -1,0 +1,3 @@
+newButtonsBrick
+
+	^ GLMPagerButtonsPaneBrick new

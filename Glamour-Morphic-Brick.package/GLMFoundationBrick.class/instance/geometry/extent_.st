@@ -3,12 +3,14 @@ extent: aPoint
 	
 	super extent: aPoint.
 	
-	left := self brickRoot layoutProperties marginLeft.
-	top := self brickRoot layoutProperties marginTop.
+	left := self brickRoot marginLeft.
+	top := self brickRoot marginTop.
 	
-	right := self extent x - self brickRoot layoutProperties marginRight.
-	bottom := self extent y - self brickRoot layoutProperties marginBottom.
+	right := self extent x - self brickRoot marginRight.
+	bottom := self extent y - self brickRoot marginBottom.
 	
-	self brickRoot brickBounds: (left@top corner: (right@bottom)).
+	self brickRoot width: right - left.
+	self brickRoot height: bottom - top.
+	self brickRoot wrappedBounds bounds: (left@top corner: (right@bottom)).
 	
-	self brickRoot doLayout.
+	self brickRoot doLayoutForce

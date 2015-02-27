@@ -1,3 +1,0 @@
-brick: aBrick
-	
-	brick := aBrick

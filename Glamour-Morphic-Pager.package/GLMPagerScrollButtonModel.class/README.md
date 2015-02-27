@@ -1,1 +1,0 @@
-A GLMPagerScrollButtonModel is xxxxxxxxx.Instance Variables	pageIndex:		<Object>pageIndex	- xxxxx

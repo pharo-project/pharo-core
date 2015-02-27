@@ -1,0 +1,3 @@
+newLabelBrick
+
+	^ GLMLabelBrick new

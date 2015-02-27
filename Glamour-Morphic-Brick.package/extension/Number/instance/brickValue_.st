@@ -1,3 +1,0 @@
-brickValue: aBrick
-
-	^ self

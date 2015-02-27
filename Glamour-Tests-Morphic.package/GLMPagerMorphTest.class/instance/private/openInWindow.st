@@ -1,3 +1,3 @@
 openInWindow
 
-	window := pagerMorph openInWindow 
+	window := pagerMorph asBrickedMorph openInWindow 

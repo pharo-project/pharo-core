@@ -1,2 +1,0 @@
-onChecked
-	self changed

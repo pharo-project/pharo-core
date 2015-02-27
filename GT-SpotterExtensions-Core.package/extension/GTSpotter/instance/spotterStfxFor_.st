@@ -1,18 +1,15 @@
 spotterStfxFor: aStep
 	<spotterOrder: 30>
-	| processor |
-	processor := aStep listProcessor.
-	processor 
+	^ aStep listProcessor
 		title: 'ws.stfx.eu';
-		filter: [ :originalQuery :stream |
+		filter: [ :context |
 			| aCollection query |
 			aCollection := OrderedCollection  new.
-			query := originalQuery trimBoth.
+			query := context textTrimmed.
 			(query beginsWith: 'http://ws.stfx.eu') ifTrue: [ 
 				[| string page |
 				string := GTUrlProvider new get: query.
 				page := GTPlayPage new content: string.
-				stream addObject: page inProcessor: processor.
+				context addItem: page.
 				aCollection add: page] on: Error do: [ "nothing" ] ].
-			aCollection ].
-	^ processor
+			aCollection ]

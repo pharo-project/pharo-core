@@ -9,6 +9,7 @@ itemLabelStyleFor: aBrick
 			bounds := aRectangle translateBy: (-3@0).
 			aCanvas line: bounds bottomLeft to: bounds bottomRight width: 1 color: Color lightGray ].
 	
-	aBrick layoutProperties
+	aBrick
 		hSpaceFill;
+		vSpaceFill;
 		marginRight: self outerBorderWidth.

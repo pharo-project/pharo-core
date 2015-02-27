@@ -1,2 +1,0 @@
-event: anObject
-	event := anObject

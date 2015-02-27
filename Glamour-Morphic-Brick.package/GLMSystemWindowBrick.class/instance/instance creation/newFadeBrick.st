@@ -1,0 +1,3 @@
+newFadeBrick
+
+	^ GLMActionButtonBrick new

@@ -1,0 +1,3 @@
+onPageSwitched
+
+	self updateButtons

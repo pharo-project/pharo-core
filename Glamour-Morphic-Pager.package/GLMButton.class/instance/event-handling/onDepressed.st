@@ -1,2 +1,0 @@
-onDepressed
-	self changed

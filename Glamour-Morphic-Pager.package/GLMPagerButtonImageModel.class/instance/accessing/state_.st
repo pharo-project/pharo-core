@@ -1,2 +1,0 @@
-state: anImageState
-	state := anImageState.

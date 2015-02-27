@@ -1,6 +1,7 @@
 itemActionButtonStyleFor: aBrick
 
 	aBrick
-		width: [ aBrick normalImage width + aBrick layoutProperties horizontalPadding ];
+		width: [ (self itemHeight / 1.1) floor ];
+		vSpaceFill;
 		pressedColor: self itemActionSelectedBackgroundColor;
 		padding: { 0 . self outerBorderWidth }

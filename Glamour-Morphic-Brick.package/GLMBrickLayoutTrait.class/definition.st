@@ -1,3 +1,3 @@
 Trait named: #GLMBrickLayoutTrait
-	uses: {}
+	uses: GLMBrickExtensionTrait
 	category: 'Glamour-Morphic-Brick-Traits'

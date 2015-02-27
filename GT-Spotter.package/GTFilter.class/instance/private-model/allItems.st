@@ -1,0 +1,2 @@
+allItems
+	^ self processor allCandidates

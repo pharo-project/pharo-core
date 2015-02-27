@@ -1,0 +1,1 @@
+A GLMBrickHeightTraverser is xxxxxxxxx.

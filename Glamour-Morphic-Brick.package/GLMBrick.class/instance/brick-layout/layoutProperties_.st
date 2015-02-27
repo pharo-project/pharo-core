@@ -1,4 +1,3 @@
 layoutProperties: aLayoutProperties 
 
-	super layoutProperties: aLayoutProperties.
-	self layoutProperties brick: self
+	super layoutProperties: aLayoutProperties

@@ -1,2 +1,0 @@
-maxHeightBlock
-	^ maxHeightBlock

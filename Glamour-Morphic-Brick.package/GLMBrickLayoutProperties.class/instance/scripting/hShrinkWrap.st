@@ -1,3 +1,3 @@
 hShrinkWrap
-
-	self brick layoutPolicy setHShrinking: self brick
+	"my width will change to fit children"
+	self hResizing: #shrinkWrap

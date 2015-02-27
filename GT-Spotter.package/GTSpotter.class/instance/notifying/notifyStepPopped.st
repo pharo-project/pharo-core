@@ -1,3 +1,3 @@
 notifyStepPopped
 
-	self announcer announce: (GTSpotterStepPopped new)
+	self announce: GTSpotterStepPopped new

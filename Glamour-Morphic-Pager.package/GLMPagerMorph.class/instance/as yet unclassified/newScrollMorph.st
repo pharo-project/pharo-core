@@ -1,3 +1,0 @@
-newScrollMorph
-
-	^ GLMPagerScrollBrick new

@@ -1,2 +1,0 @@
-isFitBounds: aBoolean
-	isFitBounds := aBoolean

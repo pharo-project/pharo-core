@@ -1,2 +1,0 @@
-minWidthBlock: anObject
-	minWidthBlock := anObject

@@ -5,10 +5,8 @@ selectNextCategory
 	currentCategory := self candidates getProcessorLinkByCandidateLink: self selected.
 	nextCategory := self candidates nextProcessorLinkOf: currentCategory.
 	
-	selected := (currentCategory = nextCategory)
+	self selected: ((currentCategory = nextCategory)
 		ifTrue: [ nextCategory tailLink ]
-		ifFalse: [ nextCategory headLink ].
-	
-	self notifySelectedCandidateChanged.
+		ifFalse: [ nextCategory headLink ])
 	
 	

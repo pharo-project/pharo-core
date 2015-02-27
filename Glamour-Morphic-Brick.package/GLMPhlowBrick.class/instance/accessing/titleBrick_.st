@@ -1,6 +1,7 @@
 titleBrick: aBrick
 
-	titleBrick := aBrick.
-	titleBrick textPosition: #center.
-	titleBrick layoutProperties staticHeight: 0.
+	titleBrick := aBrick
+		textPosition: #center;
+		height: 0;
+		hSpaceFill.
 	self addBrickBack: titleBrick

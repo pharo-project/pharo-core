@@ -1,0 +1,3 @@
+animation: anObject
+
+	animationLogic := anObject

@@ -1,5 +1,6 @@
 deselect
+	"notifies #onMouseUnhover"
 	self isSelected ifTrue: [
 		isSelected := false.
-		self changed.
-	]
+		self announce: #onMouseUnhover.
+		self changed ]

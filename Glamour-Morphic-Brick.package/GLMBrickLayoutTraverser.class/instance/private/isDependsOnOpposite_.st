@@ -1,0 +1,3 @@
+isDependsOnOpposite: aBrick
+
+	^ self subclassResponsibility

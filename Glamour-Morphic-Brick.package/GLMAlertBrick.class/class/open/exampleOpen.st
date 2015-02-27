@@ -1,0 +1,3 @@
+exampleOpen
+
+	'Hello world!' brickAlert

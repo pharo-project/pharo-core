@@ -1,2 +1,0 @@
-defaultColor
-	^ Color black

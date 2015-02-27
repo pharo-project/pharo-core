@@ -1,0 +1,1 @@
+A GTFilterRegex is xxxxxxxxx.Instance Variables	regex:		<Object>regex	- xxxxx

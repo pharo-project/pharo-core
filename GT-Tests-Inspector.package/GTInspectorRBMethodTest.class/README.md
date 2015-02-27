@@ -1,1 +1,0 @@
-A GTInspectorRBMethodTest is xxxxxxxxx.

@@ -1,0 +1,3 @@
+updateDimension: aBrick
+
+	^ self subclassResponsibility

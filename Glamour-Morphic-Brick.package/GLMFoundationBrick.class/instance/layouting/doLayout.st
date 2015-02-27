@@ -1,3 +1,3 @@
 doLayout
 
-	self brickRoot doLayout.
+	self brickRoot doLayoutForce.

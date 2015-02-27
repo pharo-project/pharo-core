@@ -10,4 +10,4 @@ spotterForZipDirectoriesFor: aStep
 			candidatesLimit: Float infinity;
 			itemName: #basename;
 			itemIcon: [ GLMUIThemeExtraIcons glamorousBrowse ];
-			matchSubstring
+			filter: GTFilterSubstring

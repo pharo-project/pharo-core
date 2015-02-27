@@ -1,0 +1,3 @@
+hAlign
+
+	^ self layout hAlign

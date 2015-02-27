@@ -1,1 +1,0 @@
-A GLMBrickVerticalProportionalLinearLayout is an improvement of standard VerticalLinearLayout such that element are positioned proportionaly in the parent based on Brick>>layoutProperties verticalPercent.

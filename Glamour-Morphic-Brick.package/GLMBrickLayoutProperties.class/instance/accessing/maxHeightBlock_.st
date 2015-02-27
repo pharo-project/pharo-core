@@ -1,2 +1,0 @@
-maxHeightBlock: anObject
-	maxHeightBlock := anObject

@@ -1,0 +1,3 @@
+newAdvancedBrick
+
+	^ GLMBandBrick new

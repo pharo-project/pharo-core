@@ -4,5 +4,5 @@ spotterDirtyMonticelloPackagesFor: aStep
 			allCandidates: [ MCWorkingCopy allManagers select: #modified ];
 			title: 'Dirty Monticello packages';
 			itemIcon: [ Smalltalk ui icons iconNamed: #dirtyPackageIcon ];
-			matchSubstring;
+			filter: GTFilterSubstring;
 			wantsToDisplayOnEmptyQuery: true

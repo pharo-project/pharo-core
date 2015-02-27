@@ -1,0 +1,1 @@
+A GLMHintableActionButtonBrick is xxxxxxxxx.Instance Variables	hintDelay:		<Object>	hintModifier:		<Object>	hintText:		<Object>	hintTitle:		<Object>hintDelay	- xxxxxhintModifier	- xxxxxhintText	- xxxxxhintTitle	- xxxxx

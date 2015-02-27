@@ -2,8 +2,8 @@ breadcrumbItemLabelStyleFor: aBrick
 
 	aBrick
 		textPosition: #center;
-		normalColor: self breadcrumbItemBackgroundColor;
+		color: self breadcrumbItemBackgroundColor;
 		textColor: self breadcrumbItemTextColor;
-		padding: { 0 . self outerBorderWidth }.
-		
-	aBrick layout vSpaceFill
+		padding: { 0 . self outerBorderWidth };
+		vSpaceFill;
+		hSpaceFill

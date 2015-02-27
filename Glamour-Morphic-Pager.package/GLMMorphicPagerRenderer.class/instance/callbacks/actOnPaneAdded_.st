@@ -1,2 +1,2 @@
 actOnPaneAdded: ann
-	container pushPane: (self renderObject: ann pane).
+	container brickRoot pushPane: (self renderObject: ann pane).

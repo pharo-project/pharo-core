@@ -1,0 +1,3 @@
+newSliderBrick
+
+	^ GLMPagerScrollSlidingBrick new

@@ -8,6 +8,7 @@ moveTo: anItemBrick
 	delta := ((itemBounds top - selfBounds top) max: 0) min: (selfBounds height - self triangleBrick height).
 	self triangleBrick brickBounds top = delta ifTrue: [ ^ self ].
 	
-	self triangleBrick translateY: (delta - self triangleBrick brickBounds top).
-	self changed
+	self triangleBrick marginTop: delta.
+	self triangleBrick doLayoutForce.
+	self owner changed
 	

@@ -4,4 +4,4 @@ spotterForPlaygroundPagesFor: aStep
 			allCandidates: [ GTPlayBook instance pages ];
 			title: 'Playground';
 			itemName: [ :page | page content asString contractTo: 100 ];
-			matchSubstring
+			filter: GTFilterSubstring

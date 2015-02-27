@@ -1,3 +1,3 @@
 paddingLeft
 
-	^ self layout paddingLeft
+	^ self wrappedBounds paddingLeft

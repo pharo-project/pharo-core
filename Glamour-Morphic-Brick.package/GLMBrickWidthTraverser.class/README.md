@@ -1,0 +1,1 @@
+A GLMBrickWidthTraverser is xxxxxxxxx.

@@ -1,2 +1,0 @@
-defaultFamilyName
-	^ 'Source Sans'

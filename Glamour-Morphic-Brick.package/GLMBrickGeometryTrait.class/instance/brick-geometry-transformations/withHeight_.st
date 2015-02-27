@@ -1,3 +1,3 @@
 withHeight: anInteger
 
-	self brickBounds: (self brickBounds withHeight: anInteger)
+	self wrappedBounds height: anInteger

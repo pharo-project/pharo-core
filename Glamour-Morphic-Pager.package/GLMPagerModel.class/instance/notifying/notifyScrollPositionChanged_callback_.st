@@ -1,3 +1,3 @@
 notifyScrollPositionChanged: isSmooth callback: aBlock
 
-	self announcer announce: (GLMPagerScrollPositionChanged new smooth: isSmooth; callback: aBlock; yourself).
+	self notifyAll: (GLMPagerScrollPositionChanged new smooth: isSmooth; callback: aBlock; yourself).

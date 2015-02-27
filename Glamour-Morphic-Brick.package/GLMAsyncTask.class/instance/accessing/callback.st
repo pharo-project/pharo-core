@@ -1,0 +1,3 @@
+callback
+
+	^ callback ifNil: [ callback := [  ] ]

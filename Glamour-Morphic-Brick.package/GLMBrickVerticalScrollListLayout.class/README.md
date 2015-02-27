@@ -1,1 +1,0 @@
-A GLMBrickVerticalScrollListLayout is xxxxxxxxx.

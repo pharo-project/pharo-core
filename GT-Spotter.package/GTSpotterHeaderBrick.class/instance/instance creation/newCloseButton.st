@@ -1,3 +1,3 @@
 newCloseButton
 
-	^ GLMActionButtonBrick new
+	^ GLMHintableActionButtonBrick new

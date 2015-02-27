@@ -1,2 +1,0 @@
-paddingTop: anObject
-	paddingTop := anObject

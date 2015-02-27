@@ -1,3 +1,3 @@
 iconDiveIn
 
-	^ GLMUIThemeExtraIcons glamorousRight
+	^ Smalltalk ui icons glamorousDiveRightIcon
