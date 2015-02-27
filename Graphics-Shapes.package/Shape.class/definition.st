@@ -1,5 +1,5 @@
-PathShape subclass: #Polygon
+Object subclass: #Shape
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Polymorph-Geometry'
+	category: 'Graphics-Shapes'

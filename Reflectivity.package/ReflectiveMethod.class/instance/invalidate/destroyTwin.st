@@ -1,3 +1,3 @@
 destroyTwin
-	self methodClass basicAddSelector: self selector withMethod: compiledMethod.
+	self installCompiledMethod.
 	compiledMethod reflectiveMethod: nil.

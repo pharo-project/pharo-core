@@ -1,0 +1,2 @@
+pages
+	^#(firstExample secondExample moreExamples)

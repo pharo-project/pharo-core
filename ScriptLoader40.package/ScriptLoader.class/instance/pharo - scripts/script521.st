@@ -1,4 +1,4 @@
-script520
+script521
 
 	^ 'AST-Core-TheIntegrator.268.mcz
 AST-Interpreter-Core-TheIntegrator.137.mcz
@@ -68,12 +68,12 @@ FuelCommandLineHandler-TheIntegrator.27.mcz
 FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-TheIntegrator.384.mcz
 FuelTools-Debugger-StephaneDucasse.12.mcz
-GT-Inspector-AndreiChis.290.mcz
-GT-InspectorExtensions-Core-TudorGirba.98.mcz
-GT-Playground-AndreiChis.63.mcz
-GT-Spotter-AliakseiSyrel.136.mcz
-GT-SpotterExtensions-Core-NicolaiHess.54.mcz
-GT-Tests-Inspector-TommasoDalSasso.25.mcz
+GT-Inspector-TudorGirba.292.mcz
+GT-InspectorExtensions-Core-TudorGirba.104.mcz
+GT-Playground-TudorGirba.64.mcz
+GT-Spotter-StefanReichhart.190.mcz
+GT-SpotterExtensions-Core-StefanReichhart.78.mcz
+GT-Tests-Inspector-TudorGirba.29.mcz
 GTPharo4Extensions-TheIntegrator.2.mcz
 Generated-code-non-existing-package-EstebanLorenzano.2.mcz
 Glamour-Announcements-AndreiChis.8.mcz
@@ -81,15 +81,15 @@ Glamour-Browsers-AndreiChis.108.mcz
 Glamour-Core-ChristopheDemarey.290.mcz
 Glamour-Examples-TudorGirba.290.mcz
 Glamour-Helpers-AndreiChis.37.mcz
-Glamour-Morphic-Brick-AliakseiSyrel.198.mcz
-Glamour-Morphic-Pager-AliakseiSyrel.85.mcz
-Glamour-Morphic-Renderer-AndreiChis.307.mcz
-Glamour-Morphic-Theme-AndreiChis.199.mcz
-Glamour-Morphic-Widgets-AndreiChis.162.mcz
-Glamour-Presentations-AndreiChis.170.mcz
+Glamour-Morphic-Brick-AliakseiSyrel.270.mcz
+Glamour-Morphic-Pager-AliakseiSyrel.102.mcz
+Glamour-Morphic-Renderer-YuriyTymchuk.310.mcz
+Glamour-Morphic-Theme-TudorGirba.203.mcz
+Glamour-Morphic-Widgets-AliakseiSyrel.164.mcz
+Glamour-Presentations-YuriyTymchuk.171.mcz
 Glamour-Rubric-Presentations-AndreiChis.38.mcz
-Glamour-Tests-Core-ChristopheDemarey.103.mcz
-Glamour-Tests-Morphic-AndreiChis.120.mcz
+Glamour-Tests-Core-AliakseiSyrel.104.mcz
+Glamour-Tests-Morphic-AliakseiSyrel.121.mcz
 Glamour-Tests-Resources-AndreiChis.3.mcz
 Glamour-Tests-Rubric-AndreiChis.14.mcz
 Gofer-Core-TheIntegrator.228.mcz
@@ -101,6 +101,7 @@ Graphics-Fonts-EstebanLorenzano.96.mcz
 Graphics-Fonts-Tests-EstebanLorenzano.3.mcz
 Graphics-Primitives-TheIntegrator.150.mcz
 Graphics-Resources-EstebanLorenzano.22.mcz
+Graphics-Shapes-TheIntegrator.2.mcz
 Graphics-Tests-TheIntegrator.72.mcz
 Graphics-Transformations-TheIntegrator.12.mcz
 GroupManager-TheIntegrator.72.mcz
@@ -150,7 +151,7 @@ MonticelloFileTree-Core-TheIntegrator.176.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
 MonticelloGUI-TheIntegrator.322.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
-Morphic-Base-TheIntegrator.435.mcz
+Morphic-Base-TheIntegrator.437.mcz
 Morphic-Core-TheIntegrator.153.mcz
 Morphic-Examples-TheIntegrator.40.mcz
 Morphic-Widgets-Basic-TheIntegrator.41.mcz
@@ -202,7 +203,6 @@ OpalCompiler-Tests-TheIntegrator.273.mcz
 OpalDecompiler-TheIntegrator.31.mcz
 OpalTools-TheIntegrator.14.mcz
 Pharo-Help-MarcusDenker.11.mcz
-Polymorph-Geometry-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz
 Polymorph-Widgets-TheIntegrator.1203.mcz
 PragmaCollector-TheIntegrator.3.mcz
@@ -221,8 +221,8 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.118.mcz
 Refactoring-Tests-Critics-MarcusDenker.25.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.5.mcz
-Reflectivity-Tests-TheIntegrator.2.mcz
+Reflectivity-TheIntegrator.7.mcz
+Reflectivity-Tests-TheIntegrator.4.mcz
 Regex-Core-MarcusDenker.33.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -255,6 +255,7 @@ SmartSuggestions-Tests-TheIntegrator.2.mcz
 Spec-Core-StephaneDucasse.368.mcz
 Spec-Debugger-TheIntegrator.236.mcz
 Spec-Examples-TheIntegrator.86.mcz
+Spec-Help-TheIntegrator.8.mcz
 Spec-Inspector-TheIntegrator.230.mcz
 Spec-Layout-TheIntegrator.67.mcz
 Spec-MorphicAdapters-StephaneDucasse.203.mcz

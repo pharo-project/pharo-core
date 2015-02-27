@@ -4,6 +4,6 @@ testInvalidate
 	self assert: (ReflectivityExamples>>#exampleMethod) class = ReflectiveMethod.
 	self assert: ReflectivityExamples new exampleMethod = 5.
 	self assert: (ReflectivityExamples>>#exampleMethod) class = CompiledMethod. 
-	self assert: (ReflectivityExamples>>#exampleMethod) reflectiveMethod isNil.
+	(ReflectivityExamples>>#exampleMethod) reflectiveMethod: nil.
 	
 	

@@ -1,2 +1,3 @@
 recompileAST
-	self flag: #TBD. "compile the AST"
+	self flag: #TBD. "Here we need to use the transforming compiler pluging in the fututer"
+	compiledMethod := self ast generate: compiledMethod trailer.

@@ -1,5 +1,5 @@
-Object subclass: #Shape
+SpecHelpTopics subclass: #SpecExamples
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Polymorph-Geometry'
+	category: 'Spec-Help'
