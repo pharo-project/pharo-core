@@ -1,6 +1,6 @@
-script517
+script518
 
-	^ 'AST-Core-TheIntegrator.266.mcz
+	^ 'AST-Core-TheIntegrator.268.mcz
 AST-Interpreter-Core-TheIntegrator.137.mcz
 AST-Interpreter-Test-EstebanLorenzano.97.mcz
 AST-Tests-Core-TheIntegrator.56.mcz
@@ -143,7 +143,7 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-TheIntegrator.995.mcz
+Monticello-TheIntegrator.999.mcz
 Monticello-Tests-TheIntegrator.6.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.176.mcz
@@ -336,7 +336,7 @@ Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.22.mcz
 Zinc-FileSystem-SvenVanCaekenberghe.10.mcz
 Zinc-HTTP-SvenVanCaekenberghe.422.mcz
 Zinc-Resource-Meta-Core-SvenVanCaekenberghe.47.mcz
-Zinc-Resource-Meta-FileSystem-SvenVanCaekenberghe.4.mcz
+Zinc-Resource-Meta-FileSystem-TheIntegrator.8.mcz
 Zinc-Resource-Meta-Tests-SvenVanCaekenberghe.32.mcz
 Zinc-System-Support-MarcusDenker.8.mcz
 Zinc-Tests-SvenVanCaekenberghe.221.mcz
