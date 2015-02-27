@@ -6,4 +6,4 @@ statementComments
 			[:each | 
 			each arguments 
 				do: [:arg | statementComments addAll: arg statementComments]].
-	^statementComments asSortedCollection: [:a :b | a first < b first]
+	^statementComments asSortedCollection: [:a :b | a start < b start]

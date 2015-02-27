@@ -4,4 +4,4 @@ formatCommentsFor: aNode
 			[:each | 
 			codeStream
 				space;
-				nextPutAll: (originalSource copyFrom: each first to: each last)]
+				nextPutAll: (originalSource copyFrom: each start to: each stop)]

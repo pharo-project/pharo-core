@@ -1,5 +1,5 @@
 RBProgramNode subclass: #RBPragmaNode
-	instanceVariableNames: 'selector selectorParts arguments left right'
+	instanceVariableNames: 'selector keywordsPositions arguments left right'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'AST-Core-Nodes'

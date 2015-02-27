@@ -3,7 +3,7 @@ match: aNode inContext: aDictionary
 	(receiver match: aNode receiver inContext: aDictionary) ifFalse: [^false].
 	self isSelectorList 
 		ifTrue: 
-			[^(aDictionary at: selectorParts first value ifAbsentPut: [aNode selector]) 
+			[^(aDictionary at: self selectorParts first ifAbsentPut: [aNode selector]) 
 				== aNode selector and: 
 						[(aDictionary at: arguments first ifAbsentPut: [aNode arguments]) 
 							= aNode arguments]].

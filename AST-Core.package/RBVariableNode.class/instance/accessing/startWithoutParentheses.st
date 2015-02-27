@@ -1,2 +1,2 @@
 startWithoutParentheses
-	^token start
+	^ start

@@ -1,2 +1,2 @@
 stop
-	^value stop
+	^ value stop

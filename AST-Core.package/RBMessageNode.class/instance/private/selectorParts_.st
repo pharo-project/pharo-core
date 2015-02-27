@@ -1,2 +1,0 @@
-selectorParts: tokenCollection 
-	selectorParts := tokenCollection

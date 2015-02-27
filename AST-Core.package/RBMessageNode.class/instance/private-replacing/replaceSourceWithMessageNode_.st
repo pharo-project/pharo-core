@@ -1,5 +1,5 @@
 replaceSourceWithMessageNode: aNode 
-	| isBinaryToKeyword |
+	| isBinaryToKeyword newSelectorParts  oldkeywordsIntervals|
 	self numArgs = aNode numArgs ifFalse: [^super replaceSourceWith: aNode].
 	self arguments with: aNode arguments
 		do: [:old :new | (self mappingFor: old) = new ifFalse: [^super replaceSourceWith: aNode]].
@@ -26,15 +26,17 @@ replaceSourceWithMessageNode: aNode
 									replaceFrom: self stop + 1
 									to: self stop
 									with: ')')]].
-	self selectorParts with: aNode selectorParts
-		do: 
-			[:old :new | 
-			old value ~= new value 
+							
+	newSelectorParts := aNode selectorParts.
+	oldkeywordsIntervals := self keywordsIntervals.
+	
+	self selectorParts keysAndValuesDo: [:index :oldPart| 
+			(newSelectorParts at: index) ~= oldPart
 				ifTrue: 
 					[self addReplacement: (RBStringReplacement 
-								replaceFrom: old start
-								to: old stop
+								replaceFrom: (oldkeywordsIntervals at: index) first
+								to: (oldkeywordsIntervals at: index) last
 								with: ((isBinaryToKeyword 
-										and: [(self source at: old start - 1) isSeparator not]) 
-											ifTrue: [' ' , new value]
-											ifFalse: [new value]))]]
+										and: [(self source at: (oldkeywordsIntervals at: index) first - 1) isSeparator not]) 
+											ifTrue: [' ' , newSelectorParts at: index]
+											ifFalse: [newSelectorParts at: index]))]].

@@ -27,7 +27,8 @@ testParseMethodWithErrorTokenIsWellFormed
 
 	errorNode := message arguments at: 1.
 	self assert: errorNode isFaulty.
-	self assert: errorNode token isError.
+	self assert: errorNode value equals: 'wrong because no end.
+		^temp'.
 	self assert: errorNode errorMessage equals: 'Unmatched '' in string literal.' translated.
 	
 	

@@ -1,5 +1,5 @@
 RBValueNode subclass: #RBLiteralNode
-	instanceVariableNames: ''
+	instanceVariableNames: 'start stop'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'AST-Core-Nodes'

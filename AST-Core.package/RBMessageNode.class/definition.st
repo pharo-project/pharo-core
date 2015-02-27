@@ -1,5 +1,5 @@
 RBValueNode subclass: #RBMessageNode
-	instanceVariableNames: 'receiver selector selectorParts arguments'
+	instanceVariableNames: 'receiver selector keywordsPositions arguments'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'AST-Core-Nodes'

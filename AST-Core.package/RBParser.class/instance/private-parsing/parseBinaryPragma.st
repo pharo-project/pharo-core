@@ -5,5 +5,6 @@ parseBinaryPragma
 	binaryToken := currentToken.
 	self step.
 	^ self pragmaNodeClass
-		selectorParts: (Array with: binaryToken)
+		selector: binaryToken value asSymbol
+		keywordsPositions: (Array with: binaryToken start)
 		arguments: (Array with: self parsePragmaLiteral)

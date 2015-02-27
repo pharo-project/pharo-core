@@ -2,7 +2,7 @@ parsePrimitiveLiteral
 	| node |
 	(currentToken isIdentifier and: [currentToken isPatternVariable]) 
 		ifTrue: 
-			[node := self variableNodeClass identifierToken: currentToken.
+			[node := self variableNodeClass identifierNamed: currentToken value at: currentToken start.
 			node isLiteralNode 
 				ifTrue: 
 					[self step.

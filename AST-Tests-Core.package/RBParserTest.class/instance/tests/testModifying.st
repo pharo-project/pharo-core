@@ -31,4 +31,3 @@ testModifying
 	tree := RBParser parseExpression: 'self foo: 0'.
 	tree selector: #+.
 	self compare: tree to: (RBParser parseExpression: 'self + 0').
-	self should: [tree selector: #foo] raise: TestResult error.

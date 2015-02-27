@@ -4,4 +4,4 @@ methodComments
 	temporaries do: [:each | methodComments addAll: each comments].
 	(parent notNil and: [parent isBlock]) 
 		ifTrue: [parent arguments do: [:each | methodComments addAll: each comments]].
-	^methodComments asSortedCollection: [:a :b | a first < b first]
+	^methodComments asSortedCollection: [:a :b | a start < b start]

@@ -7,7 +7,7 @@ formatMethodPatternFor: aMethodNode
 				and: aMethodNode arguments
 				do: 
 					[:key :arg | 
-					codeStream nextPutAll: key value.
+					codeStream nextPutAll: key.
 					self space.
 					self visitNode: arg]
 				separatedBy: 

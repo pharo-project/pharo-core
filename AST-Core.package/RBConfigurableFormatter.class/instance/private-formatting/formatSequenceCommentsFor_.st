@@ -6,6 +6,6 @@ formatSequenceCommentsFor: aSequenceNode
 			codeStream
 				nextPutAll:
 					(originalSource
-						copyFrom: each first
-						to: each last).
+						copyFrom: each start
+						to: each stop).
 			self newLine]

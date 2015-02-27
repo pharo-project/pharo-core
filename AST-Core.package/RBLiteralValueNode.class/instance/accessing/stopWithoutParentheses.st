@@ -1,2 +1,0 @@
-stopWithoutParentheses
-	^token stop

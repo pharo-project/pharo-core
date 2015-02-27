@@ -1,5 +1,5 @@
-receiver: aValueNode selector: aSymbol 
+receiver: aValueNode selector: aSelector 
 	^self 
 		receiver: aValueNode
-		selector: aSymbol
+		selector: aSelector
 		arguments: #()

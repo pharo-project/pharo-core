@@ -2,8 +2,8 @@ visitBlockNode: aBlockNode
 	aBlockNode comments do: [ :comment|
 		self 
 			addStyle: #comment
-			from: comment first
-			to: comment last ].
+			from: comment start
+			to: comment stop ].
 
 	aBlockNode arguments do: [ :argument|
 		self 

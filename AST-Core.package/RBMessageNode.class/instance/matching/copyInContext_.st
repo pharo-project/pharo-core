@@ -1,6 +1,5 @@
 copyInContext: aDictionary 
-	^ self class new
-		receiver: (self receiver copyInContext: aDictionary);
-		selectorParts: (self selectorParts collect: [ :each | each copy removePositions ]);
-		arguments: (self arguments collect: [ :each | each copyInContext: aDictionary ]);
-		yourself
+	^self class
+		receiver: (self receiver copyInContext: aDictionary)
+		selector: self selector
+		arguments: (self arguments collect: [ :each | each copyInContext: aDictionary ]).

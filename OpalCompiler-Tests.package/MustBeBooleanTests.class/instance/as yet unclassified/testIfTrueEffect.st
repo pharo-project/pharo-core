@@ -7,5 +7,4 @@ testIfTrueEffect
 	self assert: temp equals: 9.
 	
 	fakeBool ifTrue: [ [  ] ].
-	
 	"fakeBool ifTrue: [ 1+ 2. [ :a | a ] value: 5. 7 ]."

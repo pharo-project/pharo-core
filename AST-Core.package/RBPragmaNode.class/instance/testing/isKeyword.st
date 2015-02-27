@@ -1,2 +1,2 @@
 isKeyword
-	^ selectorParts first value last = $:
+	^(selector indexOf: $:) ~= 0.

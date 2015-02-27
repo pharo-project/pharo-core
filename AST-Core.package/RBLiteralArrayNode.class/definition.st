@@ -1,5 +1,5 @@
 RBLiteralNode subclass: #RBLiteralArrayNode
-	instanceVariableNames: 'isByteArray stop contents start'
+	instanceVariableNames: 'isByteArray contents'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'AST-Core-Nodes'

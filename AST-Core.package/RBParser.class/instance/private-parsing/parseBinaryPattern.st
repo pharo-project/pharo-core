@@ -6,8 +6,9 @@ parseBinaryPattern
 	self step.
 	args := Array with: self parseVariableNode.
 	node := self methodNodeClass
-		selectorParts: (Array with: binaryToken)
+		selector: binaryToken value asSymbol
+		keywordsPositions: (Array with: binaryToken start)
 		arguments: args.
 	node comments: node comments , args last comments.
-	args last comments: nil.
+	args last comments ifNotEmpty: [ args last comments: #() ].
 	^node

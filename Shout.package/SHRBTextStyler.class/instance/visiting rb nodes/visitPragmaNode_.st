@@ -1,7 +1,7 @@
 visitPragmaNode: aPragmaNode
-	aPragmaNode selectorParts do: [ :token|
+	aPragmaNode selectorParts do: [ :keyword|
 	self 
 		addStyle: #pragmaKeyword
-		forNode: token ].
+		forNode: keyword ].
 	
 	aPragmaNode arguments do: [ :each | self visitNode: each ]

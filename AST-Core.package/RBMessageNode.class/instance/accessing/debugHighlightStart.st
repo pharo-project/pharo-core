@@ -1,3 +1,3 @@
 debugHighlightStart
 
-	^ self selectorParts first start
+	^ self  keywordsPositions first

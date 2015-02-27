@@ -13,6 +13,6 @@ isMultiLineMessage: aMessageNode
 		ifTrue: [ ^ self isLineTooLong: aMessageNode selector ].
 	messageStream := WriteStream on: (String new: 100).
 	self  with: aMessageNode selectorParts and: aMessageNode arguments 
-		do: [ :sel :arg | messageStream nextPutAll: sel value; space; nextPutAll: (self formattedSourceFor: arg) ]
+		do: [ :selector :arg | messageStream nextPutAll: selector; space; nextPutAll: (self formattedSourceFor: arg) ]
 		separatedBy: [ messageStream space ].
 	^ self isLineTooLong: messageStream contents

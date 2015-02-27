@@ -2,7 +2,8 @@ compileDelegatorMethod
 	| statementNode delegatorNode tree |
 	delegatorNode := RBMessageNode 
 				receiver: (RBVariableNode named: variable)
-				selectorParts: parseTree selectorParts
+				selector: parseTree selector
+				keywordsPositions: parseTree keywordsPositions
 				arguments: (parseTree argumentNames collect: 
 							[:each | 
 							RBVariableNode 

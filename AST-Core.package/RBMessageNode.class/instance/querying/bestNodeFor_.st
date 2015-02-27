@@ -1,10 +1,10 @@
 bestNodeFor: anInterval 
 	(self intersectsInterval: anInterval) ifFalse: [^nil].
 	(self containedBy: anInterval) ifTrue: [^self].
-	selectorParts do: 
+	self keywordsIntervals do:
 			[:each | 
-			((anInterval first between: each start and: each stop) 
-				or: [each start between: anInterval first and: anInterval last]) 
+			((each rangeIncludes: anInterval first) 
+				or: [anInterval rangeIncludes:  each first]) 
 					ifTrue: [^self]].
 	self children do: 
 			[:each | 

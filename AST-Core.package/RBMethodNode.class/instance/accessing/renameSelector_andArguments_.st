@@ -1,8 +1,9 @@
 renameSelector: newSelector andArguments: varNodeCollection 
-	| oldSelectorParts oldArguments |
-	oldSelectorParts := selectorParts.
+	| oldIntervals oldArguments oldSelector |
+	oldSelector := selector.
+	oldIntervals := self keywordsIntervals.
 	oldArguments := arguments.
 	self
 		arguments: varNodeCollection;
 		selector: newSelector.
-	self changeSourceSelectors: oldSelectorParts arguments: oldArguments
+	self changeSourceSelector: oldSelector keywordsIntervals: oldIntervals arguments: oldArguments

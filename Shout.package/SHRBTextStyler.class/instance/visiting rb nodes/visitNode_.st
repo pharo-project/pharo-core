@@ -2,7 +2,7 @@ visitNode: aNode
 	aNode comments do: [ :comment|
 		self 
 			addStyle: #comment
-			from: comment first
-			to: comment last ].
+			from: comment start
+			to: comment stop ].
 
 	^aNode acceptVisitor: self

@@ -1,12 +1,10 @@
 copyInContext: aDictionary 
-	| selectors |
-	selectors := self isSelectorList 
-		ifTrue: [ (aDictionary at: selectorParts first value) keywords ]
-		ifFalse: [ self selectorParts collect: [ :each | aDictionary at: each value ] ].
+	| keywordSelector |
+	keywordSelector := self isSelectorList 
+		ifTrue: [ aDictionary at: self selectorParts first ]
+		ifFalse: [ ('' join:(self selectorParts collect: [ :each | aDictionary at: each ])) asSymbol  ].
 	^ RBMethodNode new
-		selectorParts: (selectors collect: [ :each | 
-			(each last = $: ifTrue: [ RBKeywordToken ] ifFalse: [ RBIdentifierToken ]) 
-				value: each start: nil ]);
+		selector: keywordSelector;
 		arguments: (self copyList: self arguments inContext: aDictionary);
 		pragmas: (self pragmas isEmpty
 			ifTrue: [ aDictionary at: '-pragmas-' ifAbsent: [ #() ] ]

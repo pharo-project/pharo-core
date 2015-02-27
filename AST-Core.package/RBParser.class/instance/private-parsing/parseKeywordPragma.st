@@ -1,9 +1,14 @@
 parseKeywordPragma
-	| keywords arguments |
-	keywords := OrderedCollection new: 2.
+	| selector positions arguments |
+	selector := ''.
+	positions := OrderedCollection new: 2.
 	arguments := OrderedCollection new: 2.
 	[ currentToken isKeyword ] whileTrue: [
-		keywords addLast: currentToken.
+		selector := selector, currentToken value.
+		positions add: currentToken start.
 		self step.
 		arguments addLast: self parsePragmaLiteral ].
-	^ self pragmaNodeClass selectorParts: keywords arguments: arguments
+	^ self pragmaNodeClass
+		selector: selector asSymbol
+		keywordsPositions: positions asIntegerArray
+		arguments: arguments.

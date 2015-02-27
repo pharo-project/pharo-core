@@ -1,2 +1,2 @@
 value
-	^token realValue
+	^ value

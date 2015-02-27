@@ -8,6 +8,6 @@ formatMethodCommentFor: aMethodNode
 			codeStream
 				nextPutAll:
 					(originalSource
-						copyFrom: each first
-						to: each last).
+						copyFrom: each start
+						to: each stop).
 			self newLines: NewLinesAfterMethodComment]

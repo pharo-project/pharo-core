@@ -4,5 +4,6 @@ parseBinaryMessageWith: aNode
 	self step.
 	^self messageNodeClass 
 		receiver: aNode
-		selectorParts: (Array with: binaryToken)
+		selector:  binaryToken value
+		keywordsPositions: (Array with: binaryToken start)
 		arguments: (Array with: self parseUnaryMessage)

@@ -1,2 +1,0 @@
-token: anObject
-	token := anObject

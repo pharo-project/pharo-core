@@ -1,11 +1,8 @@
 copyInContext: aDictionary 
-	| selectors |
-	selectors := self isSelectorList 
-		ifTrue: [ (aDictionary at: selectorParts first value) keywords ]
-		ifFalse: [ self selectorParts collect: [ :each | aDictionary at: each value ] ].
-	^ RBPragmaNode new
-		selectorParts: (selectors collect: [ :each | 
-			(each last = $: ifTrue: [ RBKeywordToken ] ifFalse: [ RBIdentifierToken ]) 
-				value: each start: nil ]);
-		arguments: (self copyList: self arguments inContext: aDictionary);
-		yourself
+	| keywordSelector |
+	keywordSelector := self isSelectorList 
+		ifTrue: [ aDictionary at: self selectorParts first ]
+		ifFalse: [ ('' join: (self selectorParts collect: [ :each | aDictionary at: each ])) asSymbol ].
+	^ RBPragmaNode
+		selector: keywordSelector
+		arguments: (self copyList: self arguments inContext: aDictionary)

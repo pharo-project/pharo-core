@@ -1,14 +1,11 @@
-copyInContext: aDictionary 
-	| selectors |
+copyInContext: aDictionary
+	| keywordSelector |
 	self isList 
 		ifTrue: [ ^ aDictionary at: self ].
-	selectors := self isSelectorList 
-		ifTrue: [ (aDictionary at: selectorParts first value) keywords ]
-		ifFalse: [ self selectorParts collect: [ :each | aDictionary at: each value ] ].
-	^ RBMessageNode new
-		receiver: (self receiver copyInContext: aDictionary);
-		selectorParts: (selectors collect: [ :each | 
-			(each last = $: ifTrue: [ RBKeywordToken ] ifFalse: [ RBIdentifierToken ]) 
-				value: each start: nil ]);
-		arguments: (self copyList: self arguments inContext: aDictionary);
-		yourself
+	keywordSelector := self isSelectorList 
+		ifTrue: [ aDictionary at: self selectorParts first ]
+		ifFalse: [ '' join: (self selectorParts collect: [ :each | aDictionary at: each ])].
+	^ RBMessageNode
+		receiver: (self receiver copyInContext: aDictionary)
+		selector: keywordSelector
+		arguments: (self copyList: self arguments inContext: aDictionary)

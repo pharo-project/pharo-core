@@ -1,6 +1,6 @@
 step
 	(currentToken notNil and: [currentToken comments notNil]) 
-		ifTrue: [comments addAll: currentToken comments].
+		ifTrue: [self extractCommentsFrom: currentToken].
 	nextToken notNil 
 		ifTrue: 
 			[currentToken := nextToken.

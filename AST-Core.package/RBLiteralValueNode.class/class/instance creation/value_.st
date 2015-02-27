@@ -1,2 +1,2 @@
-value: aValue 
-	^self literalToken: (RBLiteralToken value: aValue)
+value: aValue
+	^ self value: aValue start: 0 stop: -1

@@ -1,2 +1,2 @@
 stopWithoutParentheses
-	^token stop
+	^ start + name size - 1.

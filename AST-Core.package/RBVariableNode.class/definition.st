@@ -1,5 +1,5 @@
 RBValueNode subclass: #RBVariableNode
-	instanceVariableNames: 'token'
+	instanceVariableNames: 'name start'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'AST-Core-Nodes'

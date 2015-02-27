@@ -1,17 +1,21 @@
 parseKeywordMessageWith: node 
-	| args isKeyword keywords |
+	| args isKeyword keywordsStartPositions selector|
 	args := OrderedCollection new: 3.
-	keywords := OrderedCollection new: 3.
+	keywordsStartPositions := OrderedCollection new: 3.
+	selector := String new.
+	
 	isKeyword := false.
 	[currentToken isKeyword] whileTrue: 
-			[keywords add: currentToken.
+			[keywordsStartPositions add: currentToken start.
+			selector := selector, currentToken value.
 			self step.
 			args add: self parseBinaryMessage.
 			isKeyword := true].
-	^isKeyword 
+	^isKeyword
 		ifTrue: 
 			[self messageNodeClass 
 				receiver: node
-				selectorParts: keywords
+				selector: selector
+				keywordsPositions: keywordsStartPositions
 				arguments: args]
 		ifFalse: [node]

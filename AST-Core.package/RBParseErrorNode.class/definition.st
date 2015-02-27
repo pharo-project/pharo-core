@@ -1,5 +1,5 @@
 RBProgramNode subclass: #RBParseErrorNode
-	instanceVariableNames: 'token errorMessage'
+	instanceVariableNames: 'errorMessage value start'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'AST-Core-Nodes'

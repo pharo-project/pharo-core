@@ -8,11 +8,11 @@ formatSelectorAndArguments: aMessageNode firstSeparator: firstBlock restSeparato
 			aMessageNode selectorParts
 				with: aMessageNode arguments
 				do: [ :selector :argument | 
-					self handleLineForSelector:  selector value withSeparatorBlock: separatorBlock.
+					self handleLineForSelector:  selector withSeparatorBlock: separatorBlock.
 					separatorBlock := restBlock.
 					self
 						indentAround: [ 
-							codeStream nextPutAll: selector value.
+							codeStream nextPutAll: selector.
 							(KeepBlockInMessage and: [ argument isBlock ])
 								ifTrue: [ 
 									self

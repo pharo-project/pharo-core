@@ -1,6 +1,6 @@
 copyInContext: aDictionary
 	^ self class new
-		selectorParts: (self selectorParts collect: [ :each | each copy removePositions ]);
+		selector: self selector;
 		arguments: (self arguments collect: [ :each | each copyInContext: aDictionary ]);
 		pragmas: (self pragmas isEmpty
 			ifTrue: [ aDictionary at: '-pragmas-' ifAbsent: [ #() ] ]

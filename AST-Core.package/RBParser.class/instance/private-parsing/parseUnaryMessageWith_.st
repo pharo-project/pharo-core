@@ -2,7 +2,8 @@ parseUnaryMessageWith: aNode
 	| selector |
 	selector := currentToken.
 	self step.
-	^self messageNodeClass 
+	^self messageNodeClass
 		receiver: aNode
-		selectorParts: (Array with: selector)
+		selector:  selector value
+		keywordsPositions: (Array with: selector start)
 		arguments: #()

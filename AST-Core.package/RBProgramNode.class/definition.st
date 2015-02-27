@@ -1,5 +1,5 @@
 Object subclass: #RBProgramNode
-	instanceVariableNames: 'parent comments properties'
+	instanceVariableNames: 'parent properties'
 	classVariableNames: 'FormatterClass'
 	poolDictionaries: ''
 	category: 'AST-Core-Nodes'

@@ -8,8 +8,6 @@ pragmasForMethod: primitive
 			self shouldBeImplemented. self flag: 'should fetch in the literal array the module / error and recreate the named primitive.' ]."
 		
 	^ method pragmas collect: [ :each |
-		| selectorParts |
-		selectorParts := ((each keyword separateKeywords splitOn: '  ') collect: [ :e | e asSymbol ]) asArray.
 		RBPragmaNode 
-			selectorParts: selectorParts
+			selector: each keyword
 			arguments: (each arguments collect: [ :arg | RBLiteralNode value: arg ]) ]

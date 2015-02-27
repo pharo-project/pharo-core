@@ -8,5 +8,5 @@ copyCommentsFrom: aNode
 			[:each | 
 			each comments do: [:comment | newComments remove: comment ifAbsent: []]].
 	newComments isEmpty ifTrue: [^self].
-	newComments := newComments asSortedCollection: [:a :b | a first < b first].
+	newComments := newComments asSortedCollection: [:a :b | a start < b start].
 	self comments: newComments

@@ -2,17 +2,17 @@ visitMethodNode: aMethodNode
 aMethodNode comments do: [ :comment|
 		self 
 			addStyle: #comment
-			from: comment first
-			to: comment last ].
+			from: comment start
+			to: comment stop ].
 	aMethodNode arguments do: [ :argument|
 		self 
 			addStyle: #patternArg
 			forNode: argument ].
 		
-	aMethodNode selectorParts do: [ :selectorPart|
+	aMethodNode selectorParts do: [ :keyword|
 		self 
 			addStyle: #patternKeyword
-			forNode: selectorPart ].
+			forNode: keyword ].
 	
 	aMethodNode pragmas
 		do: [ :each | self visitNode: each ].

@@ -1,6 +1,6 @@
-receiver: aValueNode selector: aSymbol arguments: valueNodes 
-	^(self new)
-		receiver: aValueNode;
-		arguments: valueNodes;
-		selector: aSymbol;
-		yourself
+receiver: aValueNode selector: aSelector arguments: valueNodes 
+	^self
+		receiver: aValueNode
+		selector: aSelector
+		keywordsPositions: nil
+		arguments: valueNodes.

@@ -1,2 +1,2 @@
 copyInContext: aDictionary
-	^ self class literalToken: self token copy removePositions
+	^ self class value: self value

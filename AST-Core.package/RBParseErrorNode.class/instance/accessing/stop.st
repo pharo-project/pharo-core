@@ -1,2 +1,2 @@
 stop
-	^ token stop
+	^ start + value size - 1.

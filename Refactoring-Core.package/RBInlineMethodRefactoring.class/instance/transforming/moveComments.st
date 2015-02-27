@@ -2,13 +2,12 @@ moveComments
 	inlineParseTree nodesDo: 
 			[:each | 
 			each 
-				comments: (each comments collect: 
-							[:anInterval | 
-							| start stop source |
+				comments: (each comments collect:
+							[:aComment | 
+							| start source |
 							source := sourceParseTree source.
 							start := source size + 1.
 							source := source 
-										, (inlineParseTree source copyFrom: anInterval first to: anInterval last).
-							stop := source size.
+										, (inlineParseTree source copyFrom: aComment start to: aComment stop).
 							sourceParseTree source: source.
-							start to: stop])]
+							RBComment with: aComment contents at: start])]

@@ -6,9 +6,9 @@ formatStatementCommentsFor: aStatementNode
 	aStatementNode statementComments
 		do: [ :each | 
 			| count |
-			count := self newLinesBeforeStartingAt: each first.
+			count := self newLinesBeforeStartingAt: each start.
 			RetainBlankLinesBeforeComments & (count > 0)
 				ifTrue: [ self newLines: count ]
 				ifFalse: [ codeStream tab ].
 
-			codeStream nextPutAll: (originalSource copyFrom: each first to: each last) ]
+			codeStream nextPutAll: (originalSource copyFrom: each start to: each stop) ]

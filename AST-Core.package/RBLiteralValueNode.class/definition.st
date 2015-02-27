@@ -1,5 +1,5 @@
 RBLiteralNode subclass: #RBLiteralValueNode
-	instanceVariableNames: 'token'
+	instanceVariableNames: 'value sourceText'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'AST-Core-Nodes'

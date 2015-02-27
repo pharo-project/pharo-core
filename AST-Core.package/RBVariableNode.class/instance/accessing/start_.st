@@ -1,0 +1,2 @@
+start: aPosition
+	start := aPosition

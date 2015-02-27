@@ -2,4 +2,4 @@ parseUnaryPattern
 	| selector |
 	selector := currentToken.
 	self step.
-	^self methodNodeClass selectorParts: (Array with: selector) arguments: #()
+	^self methodNodeClass selector: selector value asSymbol keywordsPositions: (Array with: selector start) arguments: #()

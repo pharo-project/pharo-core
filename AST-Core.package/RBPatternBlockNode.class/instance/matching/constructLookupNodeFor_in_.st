@@ -1,9 +1,7 @@
 constructLookupNodeFor: aString in: aRBBlockNode 
 	| argumentNode |
-	argumentNode := RBLiteralNode literalToken: (RBLiteralToken 
-						value: aString
-						start: nil
-						stop: nil).
+	argumentNode := RBLiteralNode value: aString.
+	
 	^RBMessageNode 
 		receiver: (RBVariableNode named: 'self')
 		selector: #lookupMatchFor:in:

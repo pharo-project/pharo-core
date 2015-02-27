@@ -1,4 +1,4 @@
 stopWithoutParentheses
 	^arguments isEmpty 
-		ifTrue: [selectorParts first stop]
+		ifTrue: [self keywordsIntervals first last]
 		ifFalse: [arguments last stop]

@@ -1,5 +1,5 @@
 firstPrecodeComment
-	| sourceInterval  | 
+	| comment  | 
 	self comments ifEmpty: [ ^nil ].
-	sourceInterval :=  self comments first.
-	^self source copyFrom: sourceInterval first to: sourceInterval last.
+	comment :=  self comments first.
+	^self source copyFrom: comment start to: comment stop.

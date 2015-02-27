@@ -1,5 +1,5 @@
 parsePrimitiveLiteral
-	| token |
-	token := currentToken.
-	self step.
-	^self literalNodeClass literalToken: token
+
+	currentToken isNumberLiteralToken
+		ifTrue: [ ^ self parseNumberLiteral ]
+		ifFalse: [ ^ self parsePrimitiveValueLiteral ]

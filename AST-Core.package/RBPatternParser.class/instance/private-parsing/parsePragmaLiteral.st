@@ -3,7 +3,7 @@ parsePragmaLiteral
 	currentToken isPatternBlock 
 		ifTrue: [ ^ self parsePatternBlock: RBPatternBlockNode ].
 	(currentToken isIdentifier and: [ currentToken isPatternVariable ]) ifTrue: [
-		node := self variableNodeClass identifierToken: currentToken.
+		node := self variableNodeClass identifierNamed: currentToken value at: currentToken start.
 		node isLiteralNode 
 			ifFalse: [ self parseError: 'Literal pattern expected' ].
 		self step.
