@@ -1,0 +1,2 @@
+initialize
+	nodes := OrderedCollection new

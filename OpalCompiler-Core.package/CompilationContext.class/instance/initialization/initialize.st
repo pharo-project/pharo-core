@@ -1,2 +1,3 @@
 initialize
-	options := Set new
+	options := Set new.
+	astTransformPlugins := OrderedCollection new.

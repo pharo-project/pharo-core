@@ -1,2 +1,2 @@
 exampleMethod
-	^5
+	^ 3 + 2

@@ -2,6 +2,7 @@ compile
 	| cm |
 	[ 	[	ast := self parse.
 			self doSemanticAnalysis. 
+			self callPlugins.  
 		] 	on: OCSourceCodeChanged 
 			do: 
 			[  	:notification | 

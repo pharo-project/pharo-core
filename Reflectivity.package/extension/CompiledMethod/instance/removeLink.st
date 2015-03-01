@@ -1,0 +1,2 @@
+removeLink
+	self reflectiveMethod removeLink.

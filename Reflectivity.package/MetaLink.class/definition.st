@@ -1,5 +1,5 @@
 Object subclass: #MetaLink
-	instanceVariableNames: 'metaObject selector'
+	instanceVariableNames: 'metaObject selector nodes'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Reflectivity'

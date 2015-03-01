@@ -1,0 +1,2 @@
+addASTTransformationPlugin: aPlugin
+	astTransformPlugins add: aPlugin
