@@ -1,2 +1,5 @@
 initialize
-	nodes := OrderedCollection new
+	nodes := IdentitySet new.
+	control := #before.
+	selector := #value.
+	arguments := #().

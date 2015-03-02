@@ -1,2 +1,3 @@
 uninstall
-	nodes do: [ :node | node removeLink: self]
+	nodes do: [:node | node removeLink: self].
+	nodes removeAll.

@@ -1,1 +1,1 @@
-A ReflectivityExamples is xxxxxxxxx.
+Examples used by ReflectivityTests

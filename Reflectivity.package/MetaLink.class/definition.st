@@ -1,5 +1,5 @@
 Object subclass: #MetaLink
-	instanceVariableNames: 'metaObject selector nodes'
+	instanceVariableNames: 'arguments condition control level metaObject nodes selector'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Reflectivity'

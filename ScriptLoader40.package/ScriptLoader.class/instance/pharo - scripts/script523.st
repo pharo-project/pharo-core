@@ -1,4 +1,4 @@
-script522
+script523
 
 	^ 'AST-Core-TheIntegrator.268.mcz
 AST-Interpreter-Core-TheIntegrator.137.mcz
@@ -184,7 +184,7 @@ NativeBoost-Win32-TheIntegrator.57.mcz
 Nautilus-TheIntegrator.891.mcz
 Nautilus-Tests-TheIntegrator.8.mcz
 NautilusCommon-TheIntegrator.258.mcz
-NautilusRefactoring-TheIntegrator.205.mcz
+NautilusRefactoring-TheIntegrator.207.mcz
 Network-Kernel-StephaneDucasse.112.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-StephaneDucasse.39.mcz
@@ -198,8 +198,8 @@ NonInteractiveTranscript-TheIntegrator.15.mcz
 OSWindow-Core-EstebanLorenzano.18.mcz
 OSWindow-SDL2-EstebanLorenzano.19.mcz
 OSWindow-VM-IgorStasenko.2.mcz
-OpalCompiler-Core-TheIntegrator.631.mcz
-OpalCompiler-Tests-TheIntegrator.276.mcz
+OpalCompiler-Core-TheIntegrator.632.mcz
+OpalCompiler-Tests-TheIntegrator.277.mcz
 OpalDecompiler-TheIntegrator.31.mcz
 OpalTools-TheIntegrator.14.mcz
 Pharo-Help-MarcusDenker.11.mcz
@@ -222,8 +222,8 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.118.mcz
 Refactoring-Tests-Critics-MarcusDenker.25.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.11.mcz
-Reflectivity-Tests-TheIntegrator.8.mcz
+Reflectivity-TheIntegrator.13.mcz
+Reflectivity-Tests-TheIntegrator.10.mcz
 Regex-Core-MarcusDenker.33.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz

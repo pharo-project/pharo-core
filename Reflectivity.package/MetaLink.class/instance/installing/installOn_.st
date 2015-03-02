@@ -1,2 +1,2 @@
-installOn: aMetaLink
-	nodes add: aMetaLink
+installOn: aNode 
+	nodes add: aNode

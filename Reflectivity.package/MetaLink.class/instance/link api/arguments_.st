@@ -1,0 +1,2 @@
+arguments: args
+	arguments:= args

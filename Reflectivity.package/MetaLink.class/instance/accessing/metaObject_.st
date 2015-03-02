@@ -1,2 +1,0 @@
-metaObject: anObject
-	metaObject := anObject

@@ -1,1 +1,1 @@
-A ReflectiveMethodTest is xxxxxxxxx.
+Tests for Reflective method
