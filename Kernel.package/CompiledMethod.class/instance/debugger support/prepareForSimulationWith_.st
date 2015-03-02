@@ -5,7 +5,7 @@ prepareForSimulationWith: numArgs
 	newHeader := (((self header bitAnd: 2r01110000000000111111111111111111) 
 			bitOr: (numArgs bitShift: 24))
 			bitOr: (numArgs + 1 bitShift: 18)).
-	newHeader := newHeader + self class headerFlagForEncoder: self encoderClass.
+	newHeader := newHeader + (self class headerFlagForEncoder: self encoderClass).
 	self objectAt: 1 put: newHeader.
 	
 	xpc := self initialPC.

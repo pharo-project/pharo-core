@@ -1,4 +1,4 @@
-script523
+script524
 
 	^ 'AST-Core-TheIntegrator.268.mcz
 AST-Interpreter-Core-TheIntegrator.137.mcz
@@ -111,7 +111,7 @@ HelpSystem-Core-TheIntegrator.115.mcz
 HelpSystem-Tests-TheIntegrator.30.mcz
 HudsonBuildTools20-TheIntegrator.63.mcz
 Jobs-EstebanLorenzano.4.mcz
-Kernel-TheIntegrator.1967.mcz
+Kernel-TheIntegrator.1971.mcz
 KernelTests-TheIntegrator.749.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-EstebanLorenzano.45.mcz
@@ -215,11 +215,11 @@ RPackage-SystemIntegration-TheIntegrator.232.mcz
 RPackage-Tests-TheIntegrator.167.mcz
 RecentSubmissions-StephaneDucasse.231.mcz
 Refactoring-Changes-TheIntegrator.65.mcz
-Refactoring-Core-TheIntegrator.268.mcz
+Refactoring-Core-TheIntegrator.270.mcz
 Refactoring-Critics-TheIntegrator.160.mcz
 Refactoring-Environment-TheIntegrator.49.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
-Refactoring-Tests-Core-TheIntegrator.118.mcz
+Refactoring-Tests-Core-TheIntegrator.121.mcz
 Refactoring-Tests-Critics-MarcusDenker.25.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
 Reflectivity-TheIntegrator.13.mcz

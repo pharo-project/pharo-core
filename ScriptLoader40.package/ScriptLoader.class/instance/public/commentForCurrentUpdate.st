@@ -1,9 +1,8 @@
 commentForCurrentUpdate
- ^ '15025 privateRenameMethodFor: calls #token
-	https://pharo.fogbugz.com/f/cases/15025
+ ^ '14988 failing test testErrorCodeNotFound
+	https://pharo.fogbugz.com/f/cases/14988
 
-15027 Flesh out MetaLink
-	https://pharo.fogbugz.com/f/cases/15027
+15002 Rename instance variable is broken 
+	https://pharo.fogbugz.com/f/cases/15002
 
-15017 remove OCUnknownSelectorWarning
-	https://pharo.fogbugz.com/f/cases/15017'
+'
