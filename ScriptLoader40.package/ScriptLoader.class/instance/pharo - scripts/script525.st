@@ -1,4 +1,4 @@
-script524
+script525
 
 	^ 'AST-Core-TheIntegrator.268.mcz
 AST-Interpreter-Core-TheIntegrator.137.mcz
@@ -29,7 +29,7 @@ Collections-Abstract-TheIntegrator.274.mcz
 Collections-Arithmetic-TheIntegrator.15.mcz
 Collections-Atomic-MarcusDenker.10.mcz
 Collections-Native-TheIntegrator.9.mcz
-Collections-Sequenceable-TheIntegrator.187.mcz
+Collections-Sequenceable-TheIntegrator.189.mcz
 Collections-Stack-MarcusDenker.7.mcz
 Collections-Streams-TheIntegrator.164.mcz
 Collections-Strings-TheIntegrator.339.mcz
@@ -144,12 +144,12 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-TheIntegrator.999.mcz
+Monticello-TheIntegrator.1001.mcz
 Monticello-Tests-TheIntegrator.6.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
-MonticelloFileTree-Core-TheIntegrator.176.mcz
+MonticelloFileTree-Core-TheIntegrator.178.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
-MonticelloGUI-TheIntegrator.322.mcz
+MonticelloGUI-TheIntegrator.324.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 Morphic-Base-TheIntegrator.437.mcz
 Morphic-Core-TheIntegrator.153.mcz
@@ -336,14 +336,14 @@ Versionner-Tests-Resources-MarcusDenker.14.mcz
 Zinc-Character-Encoding-Core-SvenVanCaekenberghe.37.mcz
 Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.22.mcz
 Zinc-FileSystem-SvenVanCaekenberghe.10.mcz
-Zinc-HTTP-SvenVanCaekenberghe.422.mcz
+Zinc-HTTP-TheIntegrator.425.mcz
 Zinc-Resource-Meta-Core-SvenVanCaekenberghe.47.mcz
 Zinc-Resource-Meta-FileSystem-TheIntegrator.8.mcz
 Zinc-Resource-Meta-Tests-SvenVanCaekenberghe.32.mcz
 Zinc-System-Support-MarcusDenker.8.mcz
 Zinc-Tests-SvenVanCaekenberghe.221.mcz
 Zinc-Zodiac-SvenVanCaekenberghe.34.mcz
-Zodiac-Core-SvenVanCaekenberghe.35.mcz
+Zodiac-Core-TheIntegrator.37.mcz
 Zodiac-Extra-StephaneDucasse.10.mcz
 Zodiac-Tests-SvenVanCaekenberghe.12.mcz'
 findTokens: String lf , String cr

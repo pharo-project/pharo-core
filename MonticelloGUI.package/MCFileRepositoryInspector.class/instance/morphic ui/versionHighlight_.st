@@ -1,12 +1,14 @@
 versionHighlight: aString
-
 	| verName |
-	inherited ifNil: [inherited := #()].
 	verName := (aString copyUpToLast: $.) copyUpTo: $(.
-	^Text
+	^ Text
 		string: aString
-		attribute: (TextEmphasis new emphasisCode: (
-			((loaded includes: verName) ifTrue: [ 4 "underlined" ]
-				ifFalse: [ (inherited includes: verName)
-					ifTrue: [ 0 ]
-					ifFalse: [ 1 "bold" ] ])))
+		attribute:
+			(TextEmphasis new
+				emphasisCode:
+					((loaded includes: verName)
+						ifTrue: [ 4	"underlined" ]
+						ifFalse: [ 
+							(newer includes: aString)
+								ifFalse: [ 0 ]
+								ifTrue: [ 1	"bold" ] ]))

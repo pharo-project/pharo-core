@@ -1,0 +1,2 @@
+lazy
+	^ MCLazyVersionInfo from: self
