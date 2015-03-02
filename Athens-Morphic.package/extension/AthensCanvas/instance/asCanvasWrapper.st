@@ -1,0 +1,2 @@
+asCanvasWrapper
+	^  AthensCanvasWrapper on: self

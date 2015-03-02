@@ -1,2 +1,2 @@
-drawOnAthensCanvas: anAthensCanvas
+drawOnAthensCanvas: anAthensCanvas 
 	self drawOnCanvasWrapperFor: anAthensCanvas

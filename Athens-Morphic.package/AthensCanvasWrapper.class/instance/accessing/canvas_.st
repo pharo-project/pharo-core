@@ -1,0 +1,2 @@
+canvas: anAthensCanvas
+	athensCanvas := anAthensCanvas

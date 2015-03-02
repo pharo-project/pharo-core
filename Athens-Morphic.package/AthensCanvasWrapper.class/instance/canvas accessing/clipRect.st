@@ -1,0 +1,2 @@
+clipRect
+	^ self canvas clipRect

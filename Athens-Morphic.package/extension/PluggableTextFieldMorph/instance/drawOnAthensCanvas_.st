@@ -8,7 +8,6 @@ drawOnAthensCanvas: anAthensCanvas
 					ghostBounds := ((self scroller submorphBounds topLeft corner: self innerBounds bottomRight)
 						translateBy: 0 @ (self scroller height - self theme textFont height / 2) rounded)
 						insetBy: self textMarginsWidth @ 0.
-					ghostBounds inspectOnce.
 					anAthensCanvas 
 						morphicDrawString: self ghostText
 						in: ghostBounds

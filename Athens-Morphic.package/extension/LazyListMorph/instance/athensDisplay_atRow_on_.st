@@ -3,7 +3,7 @@ athensDisplay: item atRow: row on: aCanvas
 	canvas."
 
 	| c backgroundColor drawBounds |
-	item inspectOnce.
+
 	drawBounds := self drawBoundsForRow: row.
 	c := self colorForRow: row.
 	backgroundColor := self backgroundColorForRow: row.
