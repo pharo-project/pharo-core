@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '15041 Deprecated ShadowLabelMorph
+update40532
+	"self new update40532"
+	self withUpdateLog: '15041 Deprecated ShadowLabelMorph
 	https://pharo.fogbugz.com/f/cases/15041
 
 15036 LabelModel>>initialize contains undeclared reference to textHolder
@@ -14,4 +15,7 @@ commentForCurrentUpdate
 15046 addInstVarNamed: fix for adding multiple vars
 	https://pharo.fogbugz.com/f/cases/15046
 
-'
+'.
+	self loadTogether: self script532 merge: false.
+	self flushCaches.
+self cleanRepositories.

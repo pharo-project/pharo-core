@@ -1,5 +1,5 @@
 Loader subclass: #ScriptLoader
 	instanceVariableNames: 'repository inboxRepository repositoryTaskForces'
-	classVariableNames: 'CheckImageInSyncWithUpdate CurrentMajorVersionNumber CurrentScriptVersionNumber CurrentUpdateVersionNumber CurrentlyIntegratingChanges LogStream Repository'
+	classVariableNames: 'CheckImageInSyncWithUpdate CurrentMajorVersionNumber CurrentScriptVersionNumber CurrentUpdateVersionNumber CurrentlyIntegratingChanges Repository'
 	poolDictionaries: 'TextConstants'
 	category: 'ScriptLoader40'

@@ -5,4 +5,4 @@ flushCacheAt: anObject
 	Answer receiver.
 	"
 
-	surface removeCacheAt: anObject
+	surface flushCacheAt: anObject

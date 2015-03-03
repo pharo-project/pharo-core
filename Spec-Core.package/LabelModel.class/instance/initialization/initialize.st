@@ -1,5 +1,5 @@
 initialize
 	super initialize.
-	textHolder := '' asValueHolder.
+	labelHolder := '' asValueHolder.
 	enabledHolder := true asValueHolder.
-	textHolder whenChangedDo: [ self changed: #getText ].
+	labelHolder whenChangedDo: [ self changed: #getText ].
