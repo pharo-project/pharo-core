@@ -1,5 +1,5 @@
 AbstractWidgetModel subclass: #LabelModel
-	instanceVariableNames: 'textHolder'
+	instanceVariableNames: 'labelHolder'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-Core-Widgets'

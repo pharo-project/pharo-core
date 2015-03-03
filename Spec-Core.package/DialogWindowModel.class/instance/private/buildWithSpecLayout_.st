@@ -6,7 +6,7 @@ buildWithSpecLayout: aSpec
 		ifTrue: [ widget := self spec instance ]
 		ifFalse: [ 
 			contents := self model buildWithSpecLayout: aSpec.
-			widget := SpecInterpreter private_buildWidgetFor: self withSpec: self defaultSpecSelector.
+			widget := self privateAdapterFromModel: self withSpec: self defaultSpecSelector.
 			contents := nil ].
 
 	self extent ifNotNil: [:ex | 

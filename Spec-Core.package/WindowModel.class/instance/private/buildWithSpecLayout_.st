@@ -5,7 +5,7 @@ buildWithSpecLayout: aSpec
 	(self spec notNil and: [ self needRebuild not ])
 		ifTrue: [ widget := self spec instance ]
 		ifFalse: [
-			adapter := SpecInterpreter private_buildWidgetFor: self withSpec: self defaultSpecSelector.
+			adapter := self privateAdapterFromModel: self withSpec: self defaultSpecSelector.
 			widget := adapter widget.
 			self addModelIn: widget withSpecLayout: aSpec ].
 

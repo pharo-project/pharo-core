@@ -12,5 +12,6 @@ initialize
 			ifTrue: actionWhenActivatedHolder value
 			ifFalse: actionWhenDesactivatedHolder value.
 		self changed: #state ].
+	
 	labelClickableHolder whenChangedDo: [:aBoolean | self changed: { #labelClickable: . aBoolean } ].
 	labelHolder whenChangedDo: [:label | self changed: { #label: . label } ].

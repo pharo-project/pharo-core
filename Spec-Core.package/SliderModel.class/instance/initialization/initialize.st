@@ -1,7 +1,6 @@
 initialize
 
 	super initialize.
-
 	max := 100 asValueHolder.
 	min := 0 asValueHolder.
 	quantum := 1 asValueHolder.

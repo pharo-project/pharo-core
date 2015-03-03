@@ -1,5 +1,5 @@
 initialize
 	super initialize.
 	imageHolder := nil asValueHolder.
-	action := [] asValueHolder. 
+	actionHolder := [] asValueHolder. 
 	imageHolder whenChangedDo: [ self changed: #getImage ].

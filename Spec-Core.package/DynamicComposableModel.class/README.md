@@ -1,1 +1,1 @@
-A DynamicComposableModel is a model of spec with a dynamic binding for subwidgets
+I'm a compsable model with a dynamic behavior for managing subwidgets and the value holder communicates with them.The idea is that instead of having a fix set of valueHolders controlling various aspects of the model. I have a dioctionary to hold such elements.I'm specializing doesNotUnderstand: so that the programmer can simply use accessors to access my dynamic elements.  

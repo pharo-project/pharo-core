@@ -1,4 +1,4 @@
-script527
+script528
 
 	^ 'AST-Core-TheIntegrator.268.mcz
 AST-Interpreter-Core-TheIntegrator.137.mcz
@@ -163,7 +163,7 @@ Morphic-Widgets-Pluggable-TheIntegrator.41.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.23.mcz
 Morphic-Widgets-Tabs-TheIntegrator.12.mcz
 Morphic-Widgets-Taskbar-StephaneDucasse.7.mcz
-Morphic-Widgets-Tree-TheIntegrator.20.mcz
+Morphic-Widgets-Tree-StephaneDucasse.22.mcz
 Morphic-Widgets-Windows-TheIntegrator.47.mcz
 MorphicTests-TheIntegrator.97.mcz
 Multilingual-Encodings-MarcusDenker.47.mcz
@@ -253,7 +253,7 @@ Slot-TheIntegrator.567.mcz
 Slot-Tests-TheIntegrator.13.mcz
 SmartSuggestions-TheIntegrator.147.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
-Spec-Core-StephaneDucasse.368.mcz
+Spec-Core-StephaneDucasse.370.mcz
 Spec-Debugger-TheIntegrator.236.mcz
 Spec-Examples-TheIntegrator.86.mcz
 Spec-Help-TheIntegrator.8.mcz

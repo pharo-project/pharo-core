@@ -1,4 +1,4 @@
 action
 	"<api: #inspect>"
 
-	^ action value
+	^ actionHolder value

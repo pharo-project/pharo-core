@@ -1,7 +1,6 @@
 initialize
 
 	super initialize.
-	
 	actionWhenActivatedHolder := [] asValueHolder.
 	actionWhenDesactivatedHolder := [] asValueHolder.
 	enabledHolder := true asValueHolder.

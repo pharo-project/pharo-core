@@ -1,9 +1,8 @@
 commentForCurrentUpdate
- ^ '14956 Properties on Behaviour: "self properties" creates empty dict for keys
-	https://pharo.fogbugz.com/f/cases/14956
+ ^ '15028 MorphTreeChangeRequest>>change: does not need the respondTo:
+	https://pharo.fogbugz.com/f/cases/15028
 
-15035 allSlotsEverywhere
-	https://pharo.fogbugz.com/f/cases/15035
+15016 clean Spec: ValueHolder exposition
+	https://pharo.fogbugz.com/f/cases/15016
 
-15031 #cleanUpForProduction does not need to reset MCVersionInfo instances
-	https://pharo.fogbugz.com/f/cases/15031'
+'
