@@ -1,9 +1,5 @@
 cleanUpForProduction
 	"self new cleanUpForProduction"
-	
-	"trim MC ancestory information"
-	MCVersionInfo allInstances do: [ :each | each instVarNamed: 'ancestors' put: nil ].
-
 	"delete logo"	
 	PolymorphSystemSettings showDesktopLogo: false.
 

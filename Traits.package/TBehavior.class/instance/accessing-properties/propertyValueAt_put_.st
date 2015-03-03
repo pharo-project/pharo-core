@@ -1,5 +1,5 @@
 propertyValueAt: propName put: propValue
-	^ self properties
+	^ self ensureProperties
 		at: propName
 		ifAbsentPut: propValue
 		

@@ -1,3 +1,3 @@
 properties
-	^ TraitProperties at: self ifAbsentPut: WeakKeyDictionary new
+	^ TraitProperties at: self ifAbsent: nil
 		
