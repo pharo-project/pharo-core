@@ -1,0 +1,2 @@
+methodNode
+    ^ currentExecutedNode methodNode

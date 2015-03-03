@@ -9,5 +9,9 @@ complete: aContext
 				onBehalfOf: self.
 	suspendedContext := pair first.
 	error := pair second.
+	error class = Halt ifTrue: [ 
+		aContext methodNode 
+			pragmaNamed: #debuggerCompleteToSender 
+			ifPresent: [ ^ self completeTo: aContext sender ] ].
 	error ifNotNil: [^ error signalerContext].
 	^ suspendedContext

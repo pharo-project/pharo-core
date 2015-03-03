@@ -1,3 +1,4 @@
 now
+	<debuggerCompleteToSender>
 
 	self signal.
