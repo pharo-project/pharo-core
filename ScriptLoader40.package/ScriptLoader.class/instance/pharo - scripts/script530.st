@@ -1,4 +1,4 @@
-script529
+script530
 
 	^ 'AST-Core-TheIntegrator.269.mcz
 AST-Interpreter-Core-TheIntegrator.138.mcz
@@ -152,7 +152,7 @@ MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
 MonticelloGUI-TheIntegrator.324.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 Morphic-Base-TheIntegrator.437.mcz
-Morphic-Core-TheIntegrator.153.mcz
+Morphic-Core-TheIntegrator.155.mcz
 Morphic-Examples-TheIntegrator.40.mcz
 Morphic-Widgets-Basic-TheIntegrator.41.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
@@ -205,7 +205,7 @@ OpalTools-TheIntegrator.14.mcz
 Pharo-Help-MarcusDenker.11.mcz
 Polymorph-Geometry-TheIntegrator.17.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz
-Polymorph-Widgets-TheIntegrator.1203.mcz
+Polymorph-Widgets-TheIntegrator.1205.mcz
 PragmaCollector-TheIntegrator.3.mcz
 ProfStef-Core-TheIntegrator.49.mcz
 ProfStef-Help-SvenVanCaekenberghe.14.mcz
@@ -265,7 +265,7 @@ Spec-Tests-SvenVanCaekenberghe.39.mcz
 Spec-Tools-TheIntegrator.259.mcz
 StartupPreferences-TheIntegrator.131.mcz
 System-Announcements-TheIntegrator.98.mcz
-System-Caching-TheIntegrator.20.mcz
+System-Caching-TheIntegrator.22.mcz
 System-CachingTests-TheIntegrator.12.mcz
 System-Changes-TheIntegrator.255.mcz
 System-Clipboard-SvenVanCaekenberghe.32.mcz
