@@ -11,4 +11,4 @@ internalPerformRefactorings: aCollectionRefactoring
 												e primitiveExecute ].
 				aCollectionRefactoring ifEmpty: [ ^ self ].
 		
-				(ChangesBrowser changes: aCollectionRefactoring) openWithSpec ].
+				(ChangesBrowser changes: aCollectionRefactoring) open ].

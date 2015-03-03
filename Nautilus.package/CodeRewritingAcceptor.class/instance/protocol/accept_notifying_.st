@@ -11,4 +11,4 @@ accept: aText notifying: aController
 		yourself.
 	
 	result := RBSmalllintChecker runRule: rule onEnvironment: environment.
-	(ChangesBrowser changes: result builder changes) openWithSpec 
+	(ChangesBrowser changes: result builder changes) open 

@@ -1,4 +1,4 @@
-script530
+script531
 
 	^ 'AST-Core-TheIntegrator.269.mcz
 AST-Interpreter-Core-TheIntegrator.138.mcz
@@ -181,10 +181,10 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.90.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-TheIntegrator.891.mcz
+Nautilus-TheIntegrator.893.mcz
 Nautilus-Tests-TheIntegrator.8.mcz
 NautilusCommon-TheIntegrator.258.mcz
-NautilusRefactoring-TheIntegrator.207.mcz
+NautilusRefactoring-TheIntegrator.209.mcz
 Network-Kernel-StephaneDucasse.112.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-StephaneDucasse.39.mcz
@@ -203,7 +203,6 @@ OpalCompiler-Tests-TheIntegrator.277.mcz
 OpalDecompiler-TheIntegrator.31.mcz
 OpalTools-TheIntegrator.14.mcz
 Pharo-Help-MarcusDenker.11.mcz
-Polymorph-Geometry-TheIntegrator.17.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz
 Polymorph-Widgets-TheIntegrator.1205.mcz
 PragmaCollector-TheIntegrator.3.mcz

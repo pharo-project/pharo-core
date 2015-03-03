@@ -8,9 +8,4 @@ defaultSpec
 					c2 
 						add: #changesTree ];
 				addSplitter;
-				add: #textArea;
-				newRow: [:r |
-					r
-						add: #acceptButton;
-						add: #cancelButton]
-				height: self toolbarHeight ]
+				add: #textArea ]

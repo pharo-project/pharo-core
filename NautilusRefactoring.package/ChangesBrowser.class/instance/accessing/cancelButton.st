@@ -1,2 +1,0 @@
-cancelButton
-	^ cancelButton
