@@ -7,4 +7,5 @@ addSlotInitToInitialize: aClass
 	(source endsWith: '.') ifFalse: [ source := source, '.' ].
 	source := source, '
 	self class initializeSlots: self.'.
-	aClass compile: source classified: 'initialization'.
+	Author useAuthor: 'Generated' during: [aClass compile: source classified: 'initialization']. 
+	

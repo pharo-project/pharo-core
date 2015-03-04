@@ -1,3 +1,7 @@
 ensureInitalizeMethodExists: aClass
 	(aClass includesSelector:  #initialize) ifTrue: [ ^self ].
-	aClass compile: 'initialize' classified: 'initialization'.
+	Author useAuthor: 'Generated' during: [
+		aClass compile: 'initialize
+	super initialize.' classified: 'initialization'.
+		] 
+	

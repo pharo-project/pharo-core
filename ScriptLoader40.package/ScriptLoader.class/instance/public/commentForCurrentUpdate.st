@@ -1,17 +1,6 @@
 commentForCurrentUpdate
- ^ '15041 Deprecated ShadowLabelMorph
-	https://pharo.fogbugz.com/f/cases/15041
+ ^ '15039 Move Reflectivity related methods and classes to Reflectivity
+	https://pharo.fogbugz.com/f/cases/15039
 
-15036 LabelModel>>initialize contains undeclared reference to textHolder
-	https://pharo.fogbugz.com/f/cases/15036
-
-15032 ScriptLoader does not need to log the change description
-	https://pharo.fogbugz.com/f/cases/15032
-
-15047 AthensSurface removeCacheAt: DNU
-	https://pharo.fogbugz.com/f/cases/15047
-
-15046 addInstVarNamed: fix for adding multiple vars
-	https://pharo.fogbugz.com/f/cases/15046
-
-'
+15037 When loading Slots classes initials are asked
+	https://pharo.fogbugz.com/f/cases/15037'
