@@ -1,0 +1,2 @@
+actors: anObject
+	actors := anObject

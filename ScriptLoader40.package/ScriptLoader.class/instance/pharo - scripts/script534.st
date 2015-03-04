@@ -1,4 +1,4 @@
-script533
+script534
 
 	^ 'AST-Core-TheIntegrator.269.mcz
 AST-Interpreter-Core-TheIntegrator.138.mcz
@@ -249,7 +249,7 @@ ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.234.mcz
 ShoutTests-TheIntegrator.27.mcz
 Slot-TheIntegrator.570.mcz
-Slot-Tests-TheIntegrator.13.mcz
+Slot-Tests-TheIntegrator.17.mcz
 SmartSuggestions-TheIntegrator.147.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
 Spec-Core-StephaneDucasse.371.mcz

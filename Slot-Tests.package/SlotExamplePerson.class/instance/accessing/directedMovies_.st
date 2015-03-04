@@ -1,0 +1,2 @@
+directedMovies: anObject
+	directedMovies := anObject
