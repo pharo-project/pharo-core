@@ -1,5 +1,3 @@
 commentForCurrentUpdate
- ^ '15010 Slots: Example Association Slot
-	https://pharo.fogbugz.com/f/cases/15010
-
-'
+ ^ '15042 Add TCPSocketEchoTest test/example
+	https://pharo.fogbugz.com/f/cases/15042'

@@ -12,5 +12,5 @@ withUDPEchoServer: block
 			socket sendUDPData: result first toHost: result second port: result third.
 			result first asLowercase = #quit ifTrue: [ loop := false ] ] ]
 				ensure: [ socket closeAndDestroy ] ] 
-					forkAt: Processor userBackgroundPriority  named: 'UDP echo server'.
+					forkAt: Processor userBackgroundPriority named: 'UDP echo server'.
 	^ block cull: process
