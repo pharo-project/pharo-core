@@ -5,7 +5,7 @@ initializeWidgets
 	
 	"repository"
 	(repositoryLabel := self instantiate: LabelModel)
-		text: 'Repository:'.
+		label: 'Repository:'.
 	(repository := self instantiate: TextInputFieldModel)
 		entryCompletion: nil;
 		acceptOnCR: true;
@@ -24,7 +24,7 @@ initializeWidgets
 		changedBlock: [ self hasChanges ];
 		yourself.
 	versionsLabel := (self instantiate: LabelModel)
-		text: 'Versions';
+		label: 'Versions';
 		yourself.
 	allVersionsCheckBox := (self instantiate: CheckBoxModel)
 		label: 'browse all';
@@ -33,7 +33,7 @@ initializeWidgets
 
 	"Version details"
 	versionDescriptionLabel := (self instantiate: LabelModel)
-		text: 'Version description:';
+		label: 'Version description:';
 		yourself.
 	versionDescription := (self instantiate: TextModel)
 		enabled: false;

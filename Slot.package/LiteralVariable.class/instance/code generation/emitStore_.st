@@ -1,5 +1,10 @@
 emitStore: aMethodBuilder
+	| tempName |
+	tempName := Object new.
 	aMethodBuilder
+		addTemp: tempName;
+		storeTemp: tempName;
+		popTop;
 		pushLiteral: self;
-		send: #writeToGlobal:
-		
+		pushTemp: tempName;
+		send: #write:

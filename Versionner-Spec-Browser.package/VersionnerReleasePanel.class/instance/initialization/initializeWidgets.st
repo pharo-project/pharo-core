@@ -1,6 +1,6 @@
 initializeWidgets
 	(releaseNumberLabel := self newLabel)
-		text: 'Version number:'.
+		label: 'Version number:'.
 	(releaseNumber := self newTextInput)
 		autoAccept: true.
 

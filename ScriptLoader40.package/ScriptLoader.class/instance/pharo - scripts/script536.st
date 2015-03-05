@@ -1,4 +1,4 @@
-script535
+script536
 
 	^ 'AST-Core-TheIntegrator.269.mcz
 AST-Interpreter-Core-TheIntegrator.138.mcz
@@ -111,7 +111,7 @@ HelpSystem-Core-TheIntegrator.115.mcz
 HelpSystem-Tests-TheIntegrator.30.mcz
 HudsonBuildTools20-TheIntegrator.63.mcz
 Jobs-EstebanLorenzano.4.mcz
-Kernel-StephaneDucasse.1976.mcz
+Kernel-TheIntegrator.1978.mcz
 KernelTests-TheIntegrator.749.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-EstebanLorenzano.45.mcz
@@ -236,7 +236,7 @@ Ring-Tests-Monticello-MarcusDenker.19.mcz
 Rubric-AndreiChis.172.mcz
 SUnit-Core-TheIntegrator.135.mcz
 SUnit-Help-MarcusDenker.9.mcz
-SUnit-Tests-TheIntegrator.42.mcz
+SUnit-Tests-TheIntegrator.44.mcz
 SUnit-UI-TheIntegrator.110.mcz
 SUnit-UITesting-TheIntegrator.21.mcz
 ScriptLoader-Tests-TheIntegrator.4.mcz
@@ -248,7 +248,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.234.mcz
 ShoutTests-TheIntegrator.27.mcz
-Slot-TheIntegrator.570.mcz
+Slot-TheIntegrator.572.mcz
 Slot-Tests-TheIntegrator.17.mcz
 SmartSuggestions-TheIntegrator.147.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
@@ -327,7 +327,7 @@ Versionner-Core-Announcements-MarcusDenker.11.mcz
 Versionner-Core-Commands-MarcusDenker.49.mcz
 Versionner-Core-DependenciesModel-TheIntegrator.95.mcz
 Versionner-Core-Model-TheIntegrator.48.mcz
-Versionner-Spec-Browser-TheIntegrator.164.mcz
+Versionner-Spec-Browser-TheIntegrator.166.mcz
 Versionner-Tests-Core-Commands-TheIntegrator.17.mcz
 Versionner-Tests-Core-DependenciesModel-MarcusDenker.40.mcz
 Versionner-Tests-Core-Model-TheIntegrator.30.mcz

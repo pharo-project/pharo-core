@@ -18,7 +18,7 @@ initializeWidgets
 						 ]."
 
 	packagesLabel := self instantiate: LabelModel .
-	packagesLabel text: 'Packages' .
+	packagesLabel label: 'Packages' .
 	
 	addPackageButton := self instantiate: ButtonModel .
 	addPackageButton

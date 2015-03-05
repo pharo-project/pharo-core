@@ -1,0 +1,3 @@
+write:	 anObject
+	state := anObject
+	 

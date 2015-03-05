@@ -10,4 +10,4 @@ update
 			projectPanel project: project.					
 			repository text: project repository.
 			versionDescription text: project version description.
-			versionCommitMessage text: 'Commited: ' , project version author , ' - ' , project version timestamp ]
+			versionCommitMessage label: 'Commited: ' , project version author , ' - ' , project version timestamp ]
