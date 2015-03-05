@@ -5,6 +5,5 @@ add: wordingString icon: aForm help: helpString subMenu: aMenuMorph
 	item contents: wordingString.
 	item subMenu: aMenuMorph.
 	item icon: aForm.
-	helpString isNil
-		ifFalse: [item setBalloonText: helpString].
+	helpString ifNotNil: [item setBalloonText: helpString].
 	self addMorphBack: item

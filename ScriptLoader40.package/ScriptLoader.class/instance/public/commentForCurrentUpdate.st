@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '15065 Versionner should use #label: instead of deprecated #text:
-	https://pharo.fogbugz.com/f/cases/15065
+ ^ '15050 Move Text conversion methods to Text Converter package
+	https://pharo.fogbugz.com/f/cases/15050
 
-15063 Replace senders of String>>#subStrings in SUnit-Tests
-	https://pharo.fogbugz.com/f/cases/15063
+15069 endless recursion in DockingBarMorph add:icon:subMenu:
+	https://pharo.fogbugz.com/f/cases/15069
 
-15062 remove writeToGlobal:
-	https://pharo.fogbugz.com/f/cases/15062'
+15053 Moved dependency Dictionary -> Slot to slot package
+	https://pharo.fogbugz.com/f/cases/15053'

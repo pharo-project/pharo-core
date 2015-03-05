@@ -1,4 +1,4 @@
-script536
+script537
 
 	^ 'AST-Core-TheIntegrator.269.mcz
 AST-Interpreter-Core-TheIntegrator.138.mcz
@@ -32,9 +32,9 @@ Collections-Native-TheIntegrator.9.mcz
 Collections-Sequenceable-TheIntegrator.189.mcz
 Collections-Stack-MarcusDenker.7.mcz
 Collections-Streams-TheIntegrator.164.mcz
-Collections-Strings-TheIntegrator.339.mcz
+Collections-Strings-TheIntegrator.341.mcz
 Collections-Support-MarcusDenker.57.mcz
-Collections-Unordered-TheIntegrator.203.mcz
+Collections-Unordered-TheIntegrator.205.mcz
 Collections-Weak-MarcusDenker.86.mcz
 CollectionsTests-TheIntegrator.678.mcz
 Compiler-ClementBera.580.mcz
@@ -156,7 +156,7 @@ Morphic-Core-TheIntegrator.155.mcz
 Morphic-Examples-TheIntegrator.40.mcz
 Morphic-Widgets-Basic-TheIntegrator.41.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
-Morphic-Widgets-Extra-TheIntegrator.18.mcz
+Morphic-Widgets-Extra-TheIntegrator.20.mcz
 Morphic-Widgets-List-TheIntegrator.15.mcz
 Morphic-Widgets-NewList-TheIntegrator.5.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.41.mcz
@@ -170,7 +170,7 @@ Multilingual-Encodings-MarcusDenker.47.mcz
 Multilingual-Languages-MarcusDenker.38.mcz
 Multilingual-OtherLanguages-MarcusDenker.12.mcz
 Multilingual-Tests-MarcusDenker.35.mcz
-Multilingual-TextConversion-MarcusDenker.68.mcz
+Multilingual-TextConversion-TheIntegrator.70.mcz
 Multilingual-TextConverterOtherLanguages-MarcusDenker.2.mcz
 NECompletion-TheIntegrator.194.mcz
 NECompletion-Tests-TheIntegrator.2.mcz
@@ -248,7 +248,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.234.mcz
 ShoutTests-TheIntegrator.27.mcz
-Slot-TheIntegrator.572.mcz
+Slot-TheIntegrator.573.mcz
 Slot-Tests-TheIntegrator.17.mcz
 SmartSuggestions-TheIntegrator.147.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
