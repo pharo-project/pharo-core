@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '15054 Move Finalization Classes in Collections Weak to System-Finalization
-	https://pharo.fogbugz.com/f/cases/15054
+ ^ '15074 Monticello Browser does not highlight packages with newer versions
+	https://pharo.fogbugz.com/f/cases/15074
 
-15073 Merge ClassInstaller>>updateInstancesFrom:to: and TClassDescription>>updateInstances:from:  
-	https://pharo.fogbugz.com/f/cases/15073
+15075 Better icon for help book
+	https://pharo.fogbugz.com/f/cases/15075
 
-15056 Moving dependency Slot  -> Reflectivity
-	https://pharo.fogbugz.com/f/cases/15056'
+15012 MCWorkingCopy>>currentVersionInfo may raises DNU
+	https://pharo.fogbugz.com/f/cases/15012'

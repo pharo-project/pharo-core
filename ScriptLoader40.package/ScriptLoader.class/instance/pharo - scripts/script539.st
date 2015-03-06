@@ -1,4 +1,4 @@
-script538
+script539
 
 	^ 'AST-Core-TheIntegrator.269.mcz
 AST-Interpreter-Core-TheIntegrator.138.mcz
@@ -107,7 +107,7 @@ Graphics-Transformations-TheIntegrator.12.mcz
 GroupManager-TheIntegrator.72.mcz
 GroupManagerUI-TheIntegrator.40.mcz
 Growl-TheIntegrator.37.mcz
-HelpSystem-Core-TheIntegrator.115.mcz
+HelpSystem-Core-TheIntegrator.117.mcz
 HelpSystem-Tests-TheIntegrator.30.mcz
 HudsonBuildTools20-TheIntegrator.63.mcz
 Jobs-EstebanLorenzano.4.mcz
@@ -144,12 +144,12 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-TheIntegrator.1001.mcz
+Monticello-TheIntegrator.1003.mcz
 Monticello-Tests-TheIntegrator.6.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.178.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
-MonticelloGUI-TheIntegrator.324.mcz
+MonticelloGUI-TheIntegrator.326.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 Morphic-Base-TheIntegrator.437.mcz
 Morphic-Core-TheIntegrator.155.mcz

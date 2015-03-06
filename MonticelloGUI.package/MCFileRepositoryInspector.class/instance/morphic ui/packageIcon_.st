@@ -5,7 +5,8 @@ packageIcon: aPackage
 		ifFalse: [ ^Smalltalk ui icons emptyPackageIcon ].
 
 	"If newer collection includes our package it means we have an older mcz version loaded"
-	(newer includes: aPackage) ifTrue: [ ^Smalltalk ui icons newerPackagesAvailableIconContents ].
+	(newer anySatisfy: [:each | each beginsWith: aPackage, '-']) 
+		ifTrue: [ ^Smalltalk ui icons newerPackagesAvailableIcon ].
 
 	p := RPackageOrganizer default packageNamed: aPackage ifAbsent: [nil].  
 	p ifNil: [ ^Smalltalk ui icons emptyPackageIcon ]. 
