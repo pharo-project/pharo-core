@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '15050 Move Text conversion methods to Text Converter package
-	https://pharo.fogbugz.com/f/cases/15050
+ ^ '15054 Move Finalization Classes in Collections Weak to System-Finalization
+	https://pharo.fogbugz.com/f/cases/15054
 
-15069 endless recursion in DockingBarMorph add:icon:subMenu:
-	https://pharo.fogbugz.com/f/cases/15069
+15073 Merge ClassInstaller>>updateInstancesFrom:to: and TClassDescription>>updateInstances:from:  
+	https://pharo.fogbugz.com/f/cases/15073
 
-15053 Moved dependency Dictionary -> Slot to slot package
-	https://pharo.fogbugz.com/f/cases/15053'
+15056 Moving dependency Slot  -> Reflectivity
+	https://pharo.fogbugz.com/f/cases/15056'

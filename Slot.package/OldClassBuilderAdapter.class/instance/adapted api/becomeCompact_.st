@@ -8,6 +8,7 @@ becomeCompact: aClass
 	"
 
 	| compactClassesArray index |
+	self deprecated: 'Moved to TClassDescription. Use instead "aClass becomeCompact"'.
 	aClass isWeak 
 		ifTrue: [^ self error: 'You must not make a weak class compact'].
 	compactClassesArray := Smalltalk compactClassesArray.

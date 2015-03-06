@@ -1,4 +1,4 @@
-script537
+script538
 
 	^ 'AST-Core-TheIntegrator.269.mcz
 AST-Interpreter-Core-TheIntegrator.138.mcz
@@ -35,7 +35,7 @@ Collections-Streams-TheIntegrator.164.mcz
 Collections-Strings-TheIntegrator.341.mcz
 Collections-Support-MarcusDenker.57.mcz
 Collections-Unordered-TheIntegrator.205.mcz
-Collections-Weak-MarcusDenker.86.mcz
+Collections-Weak-TheIntegrator.88.mcz
 CollectionsTests-TheIntegrator.678.mcz
 Compiler-ClementBera.580.mcz
 Compression-TheIntegrator.147.mcz
@@ -221,7 +221,7 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.121.mcz
 Refactoring-Tests-Critics-MarcusDenker.25.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.15.mcz
+Reflectivity-TheIntegrator.17.mcz
 Reflectivity-Tests-TheIntegrator.10.mcz
 Regex-Core-MarcusDenker.33.mcz
 Regex-Help-MarcusDenker.5.mcz
@@ -248,7 +248,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.234.mcz
 ShoutTests-TheIntegrator.27.mcz
-Slot-TheIntegrator.573.mcz
+Slot-TheIntegrator.574.mcz
 Slot-Tests-TheIntegrator.17.mcz
 SmartSuggestions-TheIntegrator.147.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
@@ -271,7 +271,7 @@ System-Clipboard-SvenVanCaekenberghe.32.mcz
 System-CommandLine-MarcusDenker.165.mcz
 System-FilePackage-TheIntegrator.132.mcz
 System-FileRegistry-StephaneDucasse.33.mcz
-System-Finalization-StephaneDucasse.17.mcz
+System-Finalization-TheIntegrator.19.mcz
 System-Hashing-StephaneDucasse.45.mcz
 System-History-EstebanLorenzano.7.mcz
 System-History-Tests-EstebanLorenzano.3.mcz
@@ -310,7 +310,7 @@ Tool-TxWorkspace-MarcusDenker.4.mcz
 Tool-Workspace-StephaneDucasse.22.mcz
 Tools-TheIntegrator.1503.mcz
 ToolsTest-MarcusDenker.denker.71.mcz
-Traits-TheIntegrator.742.mcz
+Traits-TheIntegrator.744.mcz
 Transcript-StephaneDucasse.32.mcz
 TxText-Athens-NicolaiHess.42.mcz
 TxText-AthensTests-IgorStasenko.9.mcz

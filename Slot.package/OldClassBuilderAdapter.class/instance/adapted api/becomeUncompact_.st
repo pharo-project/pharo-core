@@ -2,6 +2,7 @@ becomeUncompact: aClass
 	"The inverse of #becomeCompact. However, some classes can not be uncompact: see #checkCanBeUncompact."
 
 	| compactClassesArray index |
+	self deprecated: 'Moved to TClassDescription. Use instead "aClass becomeUncompact"'.
 	compactClassesArray := Smalltalk compactClassesArray.
 	(index := aClass indexIfCompact) = 0
 		ifTrue: [^ self].

@@ -2,6 +2,7 @@ becomeCompact: aClass simplyAt: index
 	"The same as #becomeCompact: but without updating the instances."
 
 	| compactClassesArray |
+	self deprecated: 'Moved to TClassDescription. Use instead "aClass becomeCompactSimplyAt: index"'.
 	aClass isWeak 
 		ifTrue: [^ self error: 'You must not make a weak class compact'].
 	compactClassesArray := Smalltalk compactClassesArray.

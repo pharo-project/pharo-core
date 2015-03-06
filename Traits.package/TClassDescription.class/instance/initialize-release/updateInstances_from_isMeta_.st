@@ -14,7 +14,7 @@ updateInstances: oldInstances from: oldClass isMeta: isMeta
 	newInstances := Array new: oldInstances size.
 	1 to: oldInstances size do:[:i|
 		newInstances at: i put: (
-			self newInstanceFrom: (oldInstances at: i) variable: variable size: instSize map: map)].
+			self newInstanceFrom: (oldInstances at: i) variable: variable size: instSize)].
 	"Now perform a bulk mutation of old instances into new ones"
 	oldInstances elementsExchangeIdentityWith: newInstances.
 	^newInstances "which are now old"
