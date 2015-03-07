@@ -1,4 +1,4 @@
-script539
+script540
 
 	^ 'AST-Core-TheIntegrator.269.mcz
 AST-Interpreter-Core-TheIntegrator.138.mcz
@@ -121,7 +121,7 @@ Keymapping-Tests-TheIntegrator.94.mcz
 Keymapping-Tools-Spec-TheIntegrator.30.mcz
 Komitter-TheIntegrator.108.mcz
 Manifest-Core-TheIntegrator.213.mcz
-Manifest-CriticBrowser-TheIntegrator.175.mcz
+Manifest-CriticBrowser-TheIntegrator.177.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.49.mcz
 MenuRegistration-TheIntegrator.74.mcz
@@ -248,13 +248,13 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.234.mcz
 ShoutTests-TheIntegrator.27.mcz
-Slot-TheIntegrator.574.mcz
+Slot-TheIntegrator.575.mcz
 Slot-Tests-TheIntegrator.17.mcz
 SmartSuggestions-TheIntegrator.147.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
 Spec-Core-StephaneDucasse.371.mcz
 Spec-Debugger-TheIntegrator.236.mcz
-Spec-Examples-TheIntegrator.86.mcz
+Spec-Examples-TheIntegrator.88.mcz
 Spec-Help-TheIntegrator.8.mcz
 Spec-Inspector-TheIntegrator.230.mcz
 Spec-Layout-TheIntegrator.67.mcz

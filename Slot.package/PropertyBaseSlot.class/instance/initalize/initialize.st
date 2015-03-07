@@ -1,2 +1,2 @@
 initialize
-	name := #_properyBaseSlot
+	name := #'_properyBaseSlot'

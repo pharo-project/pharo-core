@@ -5,10 +5,10 @@ initializeWidgets
 	events := self instantiate: ProtocolList.
 	
 	protocols
-		label: 'protocol';
+		label: 'api';
 		displayBlock: [ :m | m selector ].
 	events
-		label: 'protocol-events';
+		label: 'api-events';
 		displayBlock: [ :m | m selector ].
 		
 	self focusOrder 
