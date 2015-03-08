@@ -1,2 +1,2 @@
 sharedVariablesFromString: aString 
-	sharedVariables :=  (aString subStrings: ' ') collect: [:x | x asSymbol => ClassVariable]. 
+	sharedVariables :=  (aString substrings: ' ') collect: [:x | x asSymbol => ClassVariable]. 

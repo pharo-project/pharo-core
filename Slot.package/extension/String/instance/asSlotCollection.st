@@ -3,4 +3,4 @@ asSlotCollection
 	Example: 
 	  'a b' asSlotCollection --> {a => Slot. b => Slot}
 	"
-	^ (self subStrings: ' ') collect: [ :x | x asSlot ]
+	^ (self substrings: ' ') collect: [ :x | x asSlot ]

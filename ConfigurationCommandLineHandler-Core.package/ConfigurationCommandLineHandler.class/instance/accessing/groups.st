@@ -1,2 +1,2 @@
 groups
-	^ (self optionAt: 'group') subStrings: {$,}
+	^ (self optionAt: 'group') substrings: {$,}

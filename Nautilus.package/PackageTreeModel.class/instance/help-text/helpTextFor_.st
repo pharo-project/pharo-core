@@ -6,7 +6,7 @@ helpTextFor: aRPackage
 	
 	aRPackage name ifEmpty: [ ^ nil ].	
 	
-	possibleConfigurationName := 'ConfigurationOf', (aRPackage name subStrings: '-') first.
+	possibleConfigurationName := 'ConfigurationOf', (aRPackage name substrings: '-') first.
 	configuration := possibleConfigurationName asSymbol asClassIfAbsent: [ ^nil ].
 	
 	"If the configuration has a catalog description we show it, if not we don't"

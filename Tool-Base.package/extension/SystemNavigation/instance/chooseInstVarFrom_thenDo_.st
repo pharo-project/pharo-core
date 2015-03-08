@@ -29,7 +29,7 @@ instance variables.'].
 	labelStream skip: -1 "cut last CR".
 	(lines notEmpty and: [lines last = allVars size]) ifTrue:
 		[lines removeLast].  "dispense with inelegant line beneath last item"
-	index := (UIManager default chooseFrom: (labelStream contents subStrings: {Character cr}) lines: lines
+	index := (UIManager default chooseFrom: (labelStream contents substrings: {Character cr}) lines: lines
 title: 'Instance variables in ', aClass name).
 	index = 0 ifTrue: [^ self].
 	(index = 1 and: [offerAlpha]) ifTrue: [^ self

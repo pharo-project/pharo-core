@@ -2,7 +2,7 @@ signatureFor: aSelector
 
 	^ (aSelector includes: $:)
 		ifTrue: [ | col |
-			col := aSelector subStrings: ':'.
+			col := aSelector substrings: ':'.
 			String streamContents: [:s |
 					col doWithIndex: [:e :i |
 						i == 1 
