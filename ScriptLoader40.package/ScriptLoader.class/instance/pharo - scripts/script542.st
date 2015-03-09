@@ -1,4 +1,4 @@
-script541
+script542
 
 	^ 'AST-Core-TheIntegrator.269.mcz
 AST-Interpreter-Core-TheIntegrator.138.mcz
@@ -36,7 +36,7 @@ Collections-Strings-TheIntegrator.341.mcz
 Collections-Support-MarcusDenker.57.mcz
 Collections-Unordered-TheIntegrator.205.mcz
 Collections-Weak-TheIntegrator.88.mcz
-CollectionsTests-TheIntegrator.678.mcz
+CollectionsTests-TheIntegrator.680.mcz
 Compiler-ClementBera.580.mcz
 Compression-TheIntegrator.147.mcz
 CompressionTests-TheIntegrator.29.mcz
@@ -144,7 +144,7 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-TheIntegrator.1003.mcz
+Monticello-TheIntegrator.1005.mcz
 Monticello-Tests-TheIntegrator.6.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.178.mcz
@@ -248,7 +248,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.234.mcz
 ShoutTests-TheIntegrator.27.mcz
-Slot-TheIntegrator.577.mcz
+Slot-TheIntegrator.578.mcz
 Slot-Tests-TheIntegrator.17.mcz
 SmartSuggestions-TheIntegrator.147.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
@@ -292,7 +292,7 @@ Text-Edition-TheIntegrator.69.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.24.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.58.mcz
+Tool-Base-TheIntegrator.59.mcz
 Tool-Browser-Old-TheIntegrator.37.mcz
 Tool-Changes-TheIntegrator.22.mcz
 Tool-ConfigurationBrowser-TheIntegrator.15.mcz
@@ -310,7 +310,7 @@ Tool-TxWorkspace-MarcusDenker.4.mcz
 Tool-Workspace-StephaneDucasse.22.mcz
 Tools-TheIntegrator.1503.mcz
 ToolsTest-MarcusDenker.denker.71.mcz
-Traits-TheIntegrator.744.mcz
+Traits-TheIntegrator.746.mcz
 Transcript-StephaneDucasse.32.mcz
 TxText-Athens-NicolaiHess.42.mcz
 TxText-AthensTests-IgorStasenko.9.mcz

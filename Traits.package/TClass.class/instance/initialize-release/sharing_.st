@@ -3,7 +3,7 @@ sharing: poolString
 	| oldPools |
 	oldPools := self sharedPools.
 	self sharedPools: OrderedCollection new.
-	(poolString subStrings: ' ') do: 
+	(poolString substrings: ' ') do: 
 		[:poolName | 
 		self sharedPools add: (self environment at: poolName asSymbol ifAbsent:[
 			(self confirm: 'The pool dictionary ', poolName,' does not exist.',
