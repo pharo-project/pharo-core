@@ -5,12 +5,12 @@ revertLastMethodSubmission
 	
 	"self new revertLastMethodSubmission"
 	| changeRecords lastSubmission theClass theSelector |
-	self  methodReferenceList isEmpty ifTrue: [^ Beeper beep].
+	self  methodReferenceList isEmpty ifTrue: [^ self ].
 	lastSubmission := self  lastEntry.
-	theClass := lastSubmission actualClass ifNil: [^ Beeper beep].
+	theClass := lastSubmission actualClass ifNil: [^ self ].
 	theSelector := lastSubmission selector.
 	changeRecords := theClass changeRecordsAt: theSelector.
-	changeRecords isEmptyOrNil ifTrue: [^ Beeper beep].
+	changeRecords isEmptyOrNil ifTrue: [^ self ].
 	changeRecords size = 1
 		ifTrue:
 			["method has no prior version, so reverting in this case means removing"

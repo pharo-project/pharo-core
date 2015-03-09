@@ -19,7 +19,7 @@ newSpecialObjectsArray
 	"This association holds the active process (a ProcessScheduler)"
 	newArray at: 4 put: (self globals associationAt: #Processor).
 	"Numerous classes below used for type checking and instantiation"
-	newArray at: 5 put: Bitmap.
+	newArray at: 5 put: (self at: #Bitmap ifAbsent: []).
 	newArray at: 6 put: SmallInteger.
 	newArray at: 7 put: ByteString.
 	newArray at: 8 put: Array.

@@ -8,7 +8,7 @@ changeStyle
 		(styleName = current name) -> styleName ].
 	reply := UIManager default chooseFrom:  menuList values: names.	
 	reply ifNotNil: [
-		(style := TextStyle named: reply) ifNil: [Beeper beep. ^ true].
+		(style := TextStyle named: reply) ifNil: [ ^ true].
 		self text style: style.
 		self paragraph textStyle: style.
 		self paragraph composeAll.
