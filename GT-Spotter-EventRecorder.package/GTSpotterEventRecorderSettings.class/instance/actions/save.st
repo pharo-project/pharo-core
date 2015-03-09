@@ -1,0 +1,2 @@
+save
+	self class savePreferences

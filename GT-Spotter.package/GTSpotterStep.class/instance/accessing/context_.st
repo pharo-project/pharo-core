@@ -1,3 +1,2 @@
 context: aGTSpotterContext
-
 	context := aGTSpotterContext

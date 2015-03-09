@@ -1,0 +1,1 @@
+A GTSpotterRevealHints is xxxxxxxxx.

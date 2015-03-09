@@ -1,0 +1,3 @@
+newSettingsButton
+
+	^ GLMHintableActionButtonBrick new

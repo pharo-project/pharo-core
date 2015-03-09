@@ -1,0 +1,1 @@
+A GTSpotterHideHints is xxxxxxxxx.

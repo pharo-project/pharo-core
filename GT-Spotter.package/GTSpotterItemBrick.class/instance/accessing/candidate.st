@@ -1,3 +1,0 @@
-candidate
-
-	^ candidateLink value

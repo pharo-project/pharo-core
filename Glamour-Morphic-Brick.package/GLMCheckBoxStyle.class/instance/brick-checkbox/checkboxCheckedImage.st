@@ -1,0 +1,2 @@
+checkboxCheckedImage
+	^ GLMUIThemeExtraIcons glamorousAccept

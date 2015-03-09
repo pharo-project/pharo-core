@@ -1,1 +1,1 @@
-A GTSpotterHeaderBrick is xxxxxxxxx.Instance Variables	closeButton:		<Object>	searchField:		<Object>	spotterModel:		<Object>	stepsBrick:		<Object>closeButton	- xxxxxsearchField	- xxxxxspotterModel	- xxxxxstepsBrick	- xxxxx
+A GTSpotterHeaderBrick is xxxxxxxxx.Instance Variables	closeButton:		<Object>	searchField:		<Object>	settingsButton:		<Object>	spotterModel:		<Object>	stepsBrick:		<Object>closeButton	- xxxxxsearchField	- xxxxxsettingsButton	- xxxxxspotterModel	- xxxxxstepsBrick	- xxxxx

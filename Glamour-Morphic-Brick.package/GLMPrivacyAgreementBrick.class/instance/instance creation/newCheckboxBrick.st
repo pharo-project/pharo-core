@@ -3,6 +3,6 @@ newCheckboxBrick
 	^ GLMCheckboxBrick new
 		hSpaceFill;
 		vShrinkWrap;
-		margin: #(5 0);
+		margin: #(3 0);
 		marginLeft: self defaultMargin;
 		check.

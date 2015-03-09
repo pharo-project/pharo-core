@@ -1,5 +1,5 @@
 GLMBrick subclass: #GTSpotterItemActionbarBrick
-	instanceVariableNames: ''
+	instanceVariableNames: 'stepModel diveInButton actOnButton candidateLink'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-Spotter-UI'

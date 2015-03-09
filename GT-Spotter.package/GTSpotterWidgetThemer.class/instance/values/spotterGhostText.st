@@ -1,3 +1,3 @@
 spotterGhostText
 
-	^ 'Spotter search'
+	^ 'Search'

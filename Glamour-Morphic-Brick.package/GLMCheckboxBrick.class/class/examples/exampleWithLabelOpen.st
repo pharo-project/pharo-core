@@ -1,0 +1,3 @@
+exampleWithLabelOpen
+
+	self exampleWithLabel openCenteredInBrickWindow

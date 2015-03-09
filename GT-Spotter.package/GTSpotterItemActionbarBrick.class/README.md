@@ -1,1 +1,1 @@
-A GTSpotterItemActionbarBrick is xxxxxxxxx.
+A GTSpotterItemActionbarBrick is xxxxxxxxx.Instance Variables	actOnButton:		<Object>	candidateLink:		<Object>	diveInButton:		<Object>	stepModel:		<Object>actOnButton	- xxxxxcandidateLink	- xxxxxdiveInButton	- xxxxxstepModel	- xxxxx

@@ -1,0 +1,2 @@
+data: aByteArray 
+	data := aByteArray

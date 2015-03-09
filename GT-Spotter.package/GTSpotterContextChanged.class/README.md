@@ -1,1 +1,1 @@
-A GTSpotterContextChanged is xxxxxxxxx.Instance Variables	context:		<Object>context	- xxxxx
+A GTSpotterContextChanged is xxxxxxxxx.Instance Variables	current:		<Object>	previous:		<Object>current	- xxxxxprevious	- xxxxx

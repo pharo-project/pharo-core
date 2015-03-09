@@ -1,5 +1,5 @@
 Object subclass: #GLMBrickThemer
-	uses: GLMBrickScrollpaneStyle + GLMBrickRubricStyle + GLMBrickWindowStyle + GLMBrickButtonStyle
+	uses: GLMBrickScrollpaneStyle + GLMBrickRubricStyle + GLMBrickWindowStyle + GLMBrickButtonStyle + GLMCheckBoxStyle
 	instanceVariableNames: 'modules'
 	classVariableNames: ''
 	poolDictionaries: ''

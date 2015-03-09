@@ -1,2 +1,0 @@
-titleBrick
-	^ titleBrick

@@ -1,3 +1,3 @@
 defaultGeneralText
 
-	^ 'send anonymous data'
+	^ 'Send anonymous usage data'

@@ -1,0 +1,3 @@
+settingsLabelTextColor
+
+	^ Color white

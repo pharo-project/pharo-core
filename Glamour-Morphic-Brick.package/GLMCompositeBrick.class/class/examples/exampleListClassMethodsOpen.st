@@ -1,0 +1,3 @@
+exampleListClassMethodsOpen
+	
+	self exampleListClassMethods openInBrickWindow

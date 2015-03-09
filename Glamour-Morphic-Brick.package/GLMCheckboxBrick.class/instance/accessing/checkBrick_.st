@@ -1,11 +1,11 @@
 checkBrick: anObject
 	checkBrick := anObject.
 	self box
-		borderColor: Color lightGray;
-		borderWidth: 2;
+		borderColor: self themer checkboxBorderColor;
+		borderWidth: self themer checkboxBorderWidth;
 		vAlign: #center;
-		checkedImage: GLMUIThemeExtraIcons glamorousAccept;
-		width: 18;
-		height: 18.
+		checkedImage: self themer checkboxCheckedImage;
+		width: self themer checkboxWidth;
+		height: self themer checkboxHeight.
 		
 	self addBrickFirst: self box

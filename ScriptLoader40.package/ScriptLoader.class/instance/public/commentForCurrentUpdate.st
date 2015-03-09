@@ -1,6 +1,3 @@
 commentForCurrentUpdate
- ^ '15091 Improve backwards compatibility for AST-Core Nodes
-	https://pharo.fogbugz.com/f/cases/15091
-
-15094 Fix link invalidation + hook generation on MetaLink
-	https://pharo.fogbugz.com/f/cases/15094'
+ ^ '15018 Integrate GT tools with event recoder in spotter
+	https://pharo.fogbugz.com/f/cases/15018'

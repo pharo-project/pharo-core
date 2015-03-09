@@ -1,0 +1,2 @@
+checkboxBorderWidth
+	^ 2

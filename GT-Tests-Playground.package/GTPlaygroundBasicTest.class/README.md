@@ -1,0 +1,1 @@
+A GTPlaygroundBasicTest is xxxxxxxxx.Instance Variables	playground:		<Object>	window:		<Object>playground	- xxxxxwindow	- xxxxx

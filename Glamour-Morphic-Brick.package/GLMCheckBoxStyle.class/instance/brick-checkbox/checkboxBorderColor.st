@@ -1,0 +1,2 @@
+checkboxBorderColor
+	^ Color lightGray

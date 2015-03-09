@@ -5,30 +5,30 @@ rubricSettingsOn: aBuilder
 		with: [ 
 					(aBuilder setting: #editorFont)
 						target: self;
-						description: 'The default editor font' translated;
-						label: 'Font' translated.
+						description: 'The default editor font';
+						label: 'Font'.
 					(aBuilder setting: #backgroundColor)
 						target: self;
-						description: 'The default editor background color' translated;
-						label: 'Background' translated.
+						description: 'The default editor background color';
+						label: 'Background'.
 					(aBuilder setting: #textColor)
 						target: self;
-						description: 'The default editor text color' translated;
-						label: 'Text color' translated.
+						description: 'The default editor text color';
+						label: 'Text color'.
 					(aBuilder group: #LineNumbers)
 						target: self;
-						label: 'Line numbers' translated;
-						description: 'line numbers settings' translated;
+						label: 'Line numbers';
+						description: 'line numbers settings';
 						with: [ 
 									(aBuilder setting: #lineNumbersFont)
 										target: self;
-										description: 'Font used for line numbers' translated;
-										label: 'Line numbers font' translated.
+										description: 'Font used for line numbers' ;
+										label: 'Line numbers font'.
 									(aBuilder setting: #lineNumbersTextColor)
 										target: self;
-										description: 'Color used for line numbers' translated;
-										label: 'Line numbers color' translated.
+										description: 'Color used for line numbers';
+										label: 'Line numbers color'.
 									(aBuilder setting: #lineNumbersBackgroundColor)
 										target: self;
-										description: 'Color used for line numbers background' translated;
-										label: 'Line numbers background color' translated ] ]
+										description: 'Color used for line numbers background';
+										label: 'Line numbers background color' ] ]

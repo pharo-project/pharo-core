@@ -1,0 +1,3 @@
+staticWidth
+
+	^ 100

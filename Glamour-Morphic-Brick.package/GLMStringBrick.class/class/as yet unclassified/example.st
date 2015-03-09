@@ -1,5 +1,5 @@
 example
-	<example>
+
 	| brick brick1 brick2 brick3|
 	brick := GLMBrick new
 		color: Color blue;

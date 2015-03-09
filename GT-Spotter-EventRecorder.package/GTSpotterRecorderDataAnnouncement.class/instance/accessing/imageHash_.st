@@ -1,0 +1,2 @@
+imageHash: anObject
+	imageHash := anObject

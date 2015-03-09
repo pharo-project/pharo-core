@@ -4,5 +4,5 @@ itemActionbarStyleFor: aBrick
 		useHorizontalLinearLayout;
 		hShrinkWrap;
 		vSpaceFill;
-		marginRight: self outerBorderWidth;
+		marginRight: self outerBorderWidth + 2;
 		visible: false

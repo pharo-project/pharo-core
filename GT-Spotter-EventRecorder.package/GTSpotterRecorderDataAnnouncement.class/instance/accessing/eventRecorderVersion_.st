@@ -1,0 +1,2 @@
+eventRecorderVersion: anObject
+	eventRecorderVersion := anObject

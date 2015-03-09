@@ -1,5 +1,5 @@
 Announcement subclass: #GTSpotterContextChanged
-	instanceVariableNames: 'context'
+	instanceVariableNames: 'previous current'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-Spotter-Announcements'

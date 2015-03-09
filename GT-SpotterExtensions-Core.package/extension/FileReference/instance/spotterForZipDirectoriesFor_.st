@@ -9,5 +9,5 @@ spotterForZipDirectoriesFor: aStep
 			title: 'Directories';
 			candidatesLimit: Float infinity;
 			itemName: #basename;
-			itemIcon: [ GLMUIThemeExtraIcons glamorousBrowse ];
+			itemIcon: [ GLMUIThemeExtraIcons glamorousFolder ];
 			filter: GTFilterSubstring

@@ -6,4 +6,4 @@ initialize
 	self initializeListeners.
 	self themer spotterThemer spotterStyleFor: self.
 	self breadcrumbBrick: self newBreadcrumbBrick.
-	self paneBrick: self newPaneBrick.
+	self paneBrick: self newPaneBrick

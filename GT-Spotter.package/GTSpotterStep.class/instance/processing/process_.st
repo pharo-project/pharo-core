@@ -6,20 +6,21 @@ process: aString
 	
 	"no need to search for the same query"
 	(self context matches: aString) ifTrue: [ ^ self ].
-	
 	self context: (self newContextForQuery: aString).
 	
 	" updating timestamp in a stream, to prevent candidates from old process being shown "
 	self stream updateTimestamp.
 	
 	self asyncTask
-		execute: [ :aContext |
-				self notifyContextChanged: aContext.
+		execute: [ :aCurrentContext |
+			self spotter notifyContextChangedFrom: lastSearchContext to: self context.
 				self stream removeAllCandidates.
-				[ self relevantProcessorsProcess: aContext ]
+				[ self relevantProcessorsProcess: aCurrentContext ]
 					on: Error
 					do: [ :e | ('[Spotter] Exception in process: ', e asString) logCr ] ]
-		withArguments: { self context }
-		callback: [  ]
+		withArguments: { self context. }
+		callback: [
+			lastSearchContext := self context. 
+			self spotter notifySearchFinishedFor: aString processors: self processors ]
 		"added small delay before actual searching. It makes spotter faster :)"
 		delay: 200

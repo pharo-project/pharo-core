@@ -1,5 +1,5 @@
 GLMBrick subclass: #GLMPrivacyAgreementBrick
-	instanceVariableNames: 'titleBrick generalCheckboxBrick buttonsBrick advancedBrick'
+	instanceVariableNames: 'basicAgreeCheckboxBrick defaultSettingsInfoBrick saveDefaultSettingsButtonBrick'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Glamour-Morphic-Brick-Widgets-UI'

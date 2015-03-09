@@ -1,2 +1,0 @@
-advancedBrick
-	^ advancedBrick

@@ -1,0 +1,2 @@
+stringUrl
+	^ self url asString

@@ -1,0 +1,3 @@
+exampleListOpen
+	
+	self exampleList openInBrickWindow

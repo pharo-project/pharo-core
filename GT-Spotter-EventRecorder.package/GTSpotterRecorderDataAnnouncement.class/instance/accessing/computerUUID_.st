@@ -1,0 +1,2 @@
+computerUUID: anObject
+	computerUUID := anObject

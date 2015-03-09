@@ -1,0 +1,1 @@
+A GLMPopupDialogBrick is xxxxxxxxx.Instance Variables	contentBricks:		<Object>contentBricks	- xxxxx

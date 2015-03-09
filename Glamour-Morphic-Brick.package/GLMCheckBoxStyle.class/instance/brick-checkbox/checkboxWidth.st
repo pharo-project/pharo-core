@@ -1,0 +1,2 @@
+checkboxWidth
+	^ 18

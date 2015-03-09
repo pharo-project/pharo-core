@@ -1,0 +1,2 @@
+latestUpdate: anObject
+	latestUpdate := anObject

@@ -1,0 +1,1 @@
+A GLMEmptyPopupBrick is xxxxxxxxx.Instance Variables	anchorBrick:		<Object>	contentBrick:		<Object>	triggerBrick:		<Object>anchorBrick	- xxxxxcontentBrick	- xxxxxtriggerBrick	- xxxxx

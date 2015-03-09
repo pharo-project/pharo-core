@@ -23,4 +23,4 @@ baseline30: spec
 					versionString: #'development';
 					repository: 'http://smalltalkhub.com/mc/Moose/GToolkit/main/' ].
 		
-		spec group: 'default' with: #('GTPlaygroundCore' 'GTInspectorCore' ). ].
+		spec group: 'default' with: #('GTPlaygroundCore' 'GTInspectorCore' 'GTSpotter' ). ].

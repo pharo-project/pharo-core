@@ -1,0 +1,2 @@
+persistSettings
+	self save.

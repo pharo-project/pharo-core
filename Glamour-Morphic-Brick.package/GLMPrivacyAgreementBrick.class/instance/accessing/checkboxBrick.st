@@ -1,2 +1,0 @@
-checkboxBrick
-	^ generalCheckboxBrick

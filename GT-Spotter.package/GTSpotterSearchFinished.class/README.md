@@ -1,0 +1,1 @@
+A GTSpotterSearchFinished is xxxxxxxxx.Instance Variables	processors:		<Object>	query:		<Object>processors	- xxxxxquery	- xxxxx
