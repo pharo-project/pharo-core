@@ -1,3 +1,3 @@
 doSemanticAnalysis
-	^ self method doSemanticAnalysis.
+	^ self methodNode doSemanticAnalysis.
 	

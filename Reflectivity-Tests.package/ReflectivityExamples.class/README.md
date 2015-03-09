@@ -1,1 +1,1 @@
-Examples used by ReflectivityTests
+Examples for RF

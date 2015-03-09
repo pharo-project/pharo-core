@@ -1,3 +1,4 @@
 removeLink: aMetaLink
 	self links remove: aMetaLink.
-	self methodNode compiledMethod removeLink. 
+	self links ifEmpty: [ self removeProperty: #links ].
+	self methodNode method removeLink. 
