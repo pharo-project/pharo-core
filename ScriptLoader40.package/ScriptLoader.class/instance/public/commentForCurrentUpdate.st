@@ -1,3 +1,6 @@
 commentForCurrentUpdate
- ^ '14353 Delay refactoring (part 2) - change from milliseconds to microseconds
-	https://pharo.fogbugz.com/f/cases/14353'
+ ^ '15106 Test, typo fix (and tiny cleanup) for Slots
+	https://pharo.fogbugz.com/f/cases/15106
+
+15108 prevent a potential error in PlatformResolver
+	https://pharo.fogbugz.com/f/cases/15108'

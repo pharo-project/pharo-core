@@ -1,6 +1,6 @@
 directoryFromEnvVariableNamed: aString or: aBlock
 	| envValue |
-	envValue := [ Smalltalk os environment at: aString ]
+	envValue := [ Smalltalk os environment at: aString ifAbsent: [ nil ] ]
 		on: Error
 		do: [ ^ aBlock value ].
 	^ envValue isEmptyOrNil
