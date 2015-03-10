@@ -11,6 +11,6 @@ stopTimerEventLoop
 	timerEventLoop := nil.
 
 	"Expire any remaining delays."
-	activeDelay ifNotNil: [ activeDelay timingPrioritySignalWaitingProcess ].
+	activeDelay ifNotNil: [ activeDelay schedulerSignalWaitingProcess ].
 	[ suspendedDelayToClear := suspendedDelays removeFirstOrNil ]
-		whileNotNil: [ suspendedDelayToClear timingPrioritySignalWaitingProcess ].
+		whileNotNil: [ suspendedDelayToClear schedulerSignalWaitingProcess ].
