@@ -1,2 +1,2 @@
 removeUser: aClassOrTrait
-	self users remove: aClassOrTrait ifAbsent: []
+	self traitUsers remove: aClassOrTrait ifAbsent: []

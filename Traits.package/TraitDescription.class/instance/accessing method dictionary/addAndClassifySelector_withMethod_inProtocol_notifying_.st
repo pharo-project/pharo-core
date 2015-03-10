@@ -1,5 +1,5 @@
 addAndClassifySelector: selector withMethod: compiledMethod inProtocol: category notifying: requestor 
-	| priorMethodOrNil priorOriginOrNil oldProtocol newProtocol |
+	| priorMethodOrNil priorOriginOrNil oldProtocol  |
 	
 	priorMethodOrNil := self
 		compiledMethodAt: selector
@@ -12,8 +12,7 @@ addAndClassifySelector: selector withMethod: compiledMethod inProtocol: category
 		suspendAllWhile: [ self organization classify: selector under: category ].
 	
 	self addSelectorSilently: selector withMethod: compiledMethod.
-	
-	newProtocol := self organization categoryOfElement: selector.
+
 	(priorMethodOrNil isNil or: [ priorOriginOrNil ~= compiledMethod origin ])
 		ifTrue: [ SystemAnnouncer uniqueInstance methodAdded: compiledMethod ]
 		ifFalse: [

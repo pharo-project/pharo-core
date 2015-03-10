@@ -3,7 +3,7 @@ testTraitsUsersSanity
 	"self debug: #testTraitsUsersSanity"
 	
 	Smalltalk allClassesAndTraits do: [ :each |
-		self assert: (each traits allSatisfy: [ :t | t users includes: each  ]) ].
+		self assert: (each traits allSatisfy: [ :t | t traitUsers includes: each  ]) ].
 
 	Smalltalk allTraits do: [ :each |
-		self assert: (each users allSatisfy: [ :b | b traits includes: each ]) ]
+		self assert: (each traitUsers allSatisfy: [ :b | b traits includes: each ]) ]

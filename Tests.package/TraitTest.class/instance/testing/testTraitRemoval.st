@@ -11,7 +11,7 @@ testTraitRemoval
 			self assert: aClass localSelectors isEmpty.
 			self assert: aClass organization allMethodSelectors isEmpty.
 			self deny: aClass hasTraitComposition.
-			self deny: (aTrait users includes: aClass). ]
+			self deny: (aTrait traitUsers includes: aClass). ]
 				ensure: [ 
 					aClass removeFromSystem: false.
 					aTrait removeFromSystem: false ] ]

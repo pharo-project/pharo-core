@@ -1,7 +1,7 @@
 testDirectCircularHierarchyError
 	"Tests an error is raised when trying to create a heirarchy A<-A"
 	
-	| classA classB |
+	| classA |
 	classA := self make: [ :builder |
 			builder 
 				superclass: Object;

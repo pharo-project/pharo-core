@@ -1,7 +1,7 @@
 testEnvironmentOfOrganization
 	"self debug: #testEnvironmentOfOrganization"
 	
-	| aDictionary otherDictionary |	
+	| aDictionary |	
 	aDictionary := SystemDictionary withOrganizer: SystemOrganizer new.
-	self assert: (aDictionary organization environment = aDictionary)
+	self assert: aDictionary organization environment equals: aDictionary
 	

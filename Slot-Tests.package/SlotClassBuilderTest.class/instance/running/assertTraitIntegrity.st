@@ -1,5 +1,5 @@
 assertTraitIntegrity
-	self assert: TOne users isHealthy.
-	self assert: TOne classTrait users isHealthy.
-	self assert: TTwo users isHealthy.
-	self assert: TTwo classTrait users isHealthy.
+	self assert: TOne traitUsers isHealthy.
+	self assert: TOne classTrait traitUsers isHealthy.
+	self assert: TTwo traitUsers isHealthy.
+	self assert: TTwo classTrait traitUsers isHealthy.

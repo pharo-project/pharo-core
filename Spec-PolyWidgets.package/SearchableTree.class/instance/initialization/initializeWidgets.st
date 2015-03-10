@@ -21,7 +21,7 @@ initializeWidgets
 		action: [ inputField accept ].
 			
 	label 
-		text: 'Search:';
+		label: 'Search:';
 		color:Color black.
 	
 	inputField

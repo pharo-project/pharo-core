@@ -11,10 +11,10 @@ testTraitUsersAfterClassReshape
 			traitComposition: TOne;
 			classTraitComposition: TOne classTrait + TTwo ].
 	
-	self assert: TOne users asArray equals: { anotherClass }.
-	self assert: TOne classTrait users asArray equals: { anotherClass class }.
-	self assert: TTwo users asArray equals: { anotherClass class }.
-	self assert: TTwo classTrait users asArray equals: { }.
+	self assert: TOne traitUsers asArray equals: { anotherClass }.
+	self assert: TOne classTrait traitUsers asArray equals: { anotherClass class }.
+	self assert: TTwo traitUsers asArray equals: { anotherClass class }.
+	self assert: TTwo classTrait traitUsers asArray equals: { }.
 	
 	self deny: (aClass canUnderstand: #one).
 	self assert: (anotherClass canUnderstand: #one).
@@ -28,10 +28,10 @@ testTraitUsersAfterClassReshape
 			name: self aClassName;
 			slots: #( x y z ) ].
 		
-	self assert: TOne users asArray equals: { anotherClass }.
-	self assert: TOne classTrait users asArray equals: { anotherClass class }.
-	self assert: TTwo users asArray equals: { anotherClass class }.
-	self assert: TTwo classTrait users asArray equals: { }.
+	self assert: TOne traitUsers asArray equals: { anotherClass }.
+	self assert: TOne classTrait traitUsers asArray equals: { anotherClass class }.
+	self assert: TTwo traitUsers asArray equals: { anotherClass class }.
+	self assert: TTwo classTrait traitUsers asArray equals: { }.
 	
 	self deny: (aClass canUnderstand: #one).
 	self assert: (anotherClass canUnderstand: #one).

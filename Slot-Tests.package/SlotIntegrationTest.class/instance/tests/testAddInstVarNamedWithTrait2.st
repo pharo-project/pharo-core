@@ -11,7 +11,7 @@ testAddInstVarNamedWithTrait2
 	self assertTraitIntegrity.
 	self assert: aClass instVarNames equals: #(x).
 	
-	self assert: TOne users asArray equals: { aClass }.
+	self assert: TOne traitUsers asArray equals: { aClass }.
 	
 	self assert: (aClass canUnderstand: #one).
 	self assert: aClass new one equals: 1.
@@ -21,7 +21,7 @@ testAddInstVarNamedWithTrait2
 	self assertTraitIntegrity.
 	self assert: aClass instVarNames = #(x y).
 	
-	self assert: TOne users asArray equals: { aClass }.
+	self assert: TOne traitUsers asArray equals: { aClass }.
 	
 	self assert: (aClass canUnderstand: #one).
 	self assert: aClass new one equals: 1.

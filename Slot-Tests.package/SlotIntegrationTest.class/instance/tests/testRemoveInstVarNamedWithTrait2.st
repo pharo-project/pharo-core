@@ -10,7 +10,7 @@ testRemoveInstVarNamedWithTrait2
 
 	self assert: aClass instVarNames equals: #(x).
 	
-	self assert: TOne users asArray equals: { aClass }.
+	self assert: TOne traitUsers asArray equals: { aClass }.
 	
 	self assert: (aClass canUnderstand: #one).
 	self assert: aClass new one equals: 1.
@@ -19,7 +19,7 @@ testRemoveInstVarNamedWithTrait2
 	
 	self assert: aClass instVarNames isEmpty.
 	
-	self assert: TOne users asArray equals: { aClass }.
+	self assert: TOne traitUsers asArray equals: { aClass }.
 	
 	self assert: (aClass canUnderstand: #one).
 	self assert: aClass new one equals: 1.

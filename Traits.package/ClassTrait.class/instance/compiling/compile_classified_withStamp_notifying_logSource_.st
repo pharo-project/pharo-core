@@ -2,7 +2,7 @@ compile: text classified: category withStamp: changeStamp notifying: requestor l
 	
 	| classSideUsersOfBaseTrait message |
 	
-	classSideUsersOfBaseTrait := self baseTrait users select: [:each | each isClassSide].
+	classSideUsersOfBaseTrait := self baseTrait traitUsers select: [:each | each isClassSide].
 	
 	classSideUsersOfBaseTrait isEmpty ifFalse: [
 		message := String streamContents: [ :stream |

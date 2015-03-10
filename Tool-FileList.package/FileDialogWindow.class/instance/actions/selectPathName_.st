@@ -6,7 +6,7 @@ selectPathName: aString
 	reference := aString asFileReference asAbsolute.
 	
 	reference exists
-		ifFalse: [ ^ self selectPathName: reference parent fullName ].
+		ifFalse: [ ^ self selectPathName: FileSystem disk workingDirectory ].
 	
 	reference isDirectory 
 		ifTrue: [ ^ self selectDirectory: reference ].

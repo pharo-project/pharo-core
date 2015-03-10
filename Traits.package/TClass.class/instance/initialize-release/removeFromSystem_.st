@@ -6,7 +6,7 @@ removeFromSystem: logged
 
 	"tell class to deactivate and unload itself-- two separate events in the module system"
 	self unload.
-	self users do: [ :user | user removeFromComposition: self ].
+	self traitUsers do: [ :user | user removeFromComposition: self ].
 	self superclass ifNotNil:
 		["If we have no superclass there's nothing to be remembered"
 		self superclass addObsoleteSubclass: self].

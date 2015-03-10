@@ -1,4 +1,4 @@
-script546
+script547
 
 	^ 'AST-Core-TheIntegrator.276.mcz
 AST-Interpreter-Core-TheIntegrator.140.mcz
@@ -234,12 +234,12 @@ Ring-Core-Containers-TheIntegrator.41.mcz
 Ring-Core-Kernel-TheIntegrator.207.mcz
 Ring-Monticello-MarcusDenker.29.mcz
 Ring-Tests-Containers-MarcusDenker.18.mcz
-Ring-Tests-Kernel-TheIntegrator.80.mcz
+Ring-Tests-Kernel-TheIntegrator.83.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 Rubric-AndreiChis.177.mcz
 SUnit-Core-TheIntegrator.135.mcz
 SUnit-Help-MarcusDenker.9.mcz
-SUnit-Tests-TheIntegrator.44.mcz
+SUnit-Tests-TheIntegrator.48.mcz
 SUnit-UI-TheIntegrator.110.mcz
 SUnit-UITesting-TheIntegrator.21.mcz
 ScriptLoader-Tests-TheIntegrator.4.mcz
@@ -252,7 +252,7 @@ ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.234.mcz
 ShoutTests-TheIntegrator.27.mcz
 Slot-StephaneDucasse.579.mcz
-Slot-Tests-TheIntegrator.17.mcz
+Slot-Tests-TheIntegrator.20.mcz
 SmartSuggestions-TheIntegrator.147.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
 Spec-Core-StephaneDucasse.373.mcz
@@ -262,7 +262,7 @@ Spec-Help-TheIntegrator.8.mcz
 Spec-Inspector-TheIntegrator.230.mcz
 Spec-Layout-TheIntegrator.67.mcz
 Spec-MorphicAdapters-StephaneDucasse.203.mcz
-Spec-PolyWidgets-StephaneDucasse.53.mcz
+Spec-PolyWidgets-TheIntegrator.55.mcz
 Spec-Tests-SvenVanCaekenberghe.39.mcz
 Spec-Tools-StephaneDucasse.261.mcz
 StartupPreferences-TheIntegrator.131.mcz
@@ -288,19 +288,19 @@ System-Settings-StephaneDucasse.309.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Support-StephaneDucasse.1091.mcz
 System-VMEvents-TheIntegrator.2.mcz
-Tests-TheIntegrator.719.mcz
+Tests-TheIntegrator.722.mcz
 Text-Core-StephaneDucasse.31.mcz
 Text-Diff-StephaneDucasse.4.mcz
 Text-Edition-StephaneDucasse.71.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.24.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.59.mcz
+Tool-Base-TheIntegrator.60.mcz
 Tool-Browser-Old-TheIntegrator.37.mcz
 Tool-Changes-TheIntegrator.22.mcz
 Tool-ConfigurationBrowser-TheIntegrator.15.mcz
 Tool-Diff-TheIntegrator.2.mcz
-Tool-FileList-TheIntegrator.32.mcz
+Tool-FileList-TheIntegrator.34.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
 Tool-FilePackageBrowser-TheIntegrator.7.mcz
 Tool-Finder-TheIntegrator.30.mcz
@@ -313,7 +313,7 @@ Tool-TxWorkspace-MarcusDenker.4.mcz
 Tool-Workspace-StephaneDucasse.22.mcz
 Tools-TheIntegrator.1503.mcz
 ToolsTest-MarcusDenker.denker.71.mcz
-Traits-TheIntegrator.746.mcz
+Traits-TheIntegrator.748.mcz
 Transcript-StephaneDucasse.32.mcz
 TxText-Athens-NicolaiHess.42.mcz
 TxText-AthensTests-IgorStasenko.9.mcz

@@ -1,12 +1,11 @@
 testDefaultCategoryCleanUp
-	| createdClassNames createdTraitNames allClasses allTraits |
+	| createdClassNames allClasses allTraits |
 	
 	3 timesRepeat: [
 		factory newClass.
 		factory newTrait].
 	
 	createdClassNames := factory createdClassNames.
-	createdTraitNames := factory createdTraitNames.
 	
 	factory cleanUp.	
 	

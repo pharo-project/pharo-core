@@ -27,7 +27,7 @@ testErrorClassCreation
         poolDictionaries: ''
         category: tmpCategory.
         
-    self assert: trait users asArray equals: {aSubclass}.
+    self assert: trait traitUsers asArray equals: {aSubclass}.
     self assert: aSubclass traits asArray equals: {trait}. 
 
     ] ensure: [

@@ -7,6 +7,6 @@ testRemoveTrait
 	aClass := self make: [ :builder | 
 		builder traitComposition: {} ].
 	
-	self assert: TOne users isEmpty.
-	self assert: TOne classTrait users isEmpty.
+	self assert: TOne traitUsers isEmpty.
+	self assert: TOne classTrait traitUsers isEmpty.
 	self deny: (aClass canUnderstand: #one).

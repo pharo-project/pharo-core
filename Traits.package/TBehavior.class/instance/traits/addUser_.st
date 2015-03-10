@@ -1,2 +1,2 @@
 addUser: aClassOrTrait
-	self users add: aClassOrTrait.
+	self traitUsers add: aClassOrTrait.

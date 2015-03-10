@@ -8,5 +8,5 @@ testRemoveClassTrait
 		builder classTraitComposition: {} ].
 	
 	self deny: (aClass class canUnderstand: #one).
-	self assert: TOne users isEmpty.
-	self assert: TOne classTrait users isEmpty.
+	self assert: TOne traitUsers isEmpty.
+	self assert: TOne classTrait traitUsers isEmpty.

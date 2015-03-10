@@ -6,7 +6,7 @@ initializeWidgets
 		chooseDateButton ButtonModel).
 	
 	dateLabel
-		text: 'Date'.
+		label: 'Date'.
 		
 	dateModel
 		text: Date today asString;

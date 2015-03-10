@@ -10,4 +10,4 @@ initializeWidgets
 		entryCompletion: nil;
 		acceptOnCR: true.
 		
-	label text: 'label'
+	label label: 'label'

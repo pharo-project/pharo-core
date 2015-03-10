@@ -1,3 +1,3 @@
 notifyUsersOfChangedSelectors: aCollection
-	self users do: [:each |
+	self traitUsers do: [:each |
 		each noteChangedSelectors: aCollection]

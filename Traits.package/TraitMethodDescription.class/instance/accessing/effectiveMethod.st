@@ -1,7 +1,7 @@
 effectiveMethod
 	"Return the effective compiled method of this method description." 
 
-	| locatedMethod method |
+	| method |
 	method := self providedMethod.
 	method isNil ifFalse: [^ method].
 	method := self conflictMethod.
