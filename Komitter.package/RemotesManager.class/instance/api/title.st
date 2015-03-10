@@ -1,3 +1,3 @@
 title
-
-	^ 'Remotes manager'
+	^ super title 
+		ifNil: ['Remotes manager']

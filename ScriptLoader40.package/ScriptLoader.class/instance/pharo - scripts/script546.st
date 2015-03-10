@@ -1,4 +1,4 @@
-script545
+script546
 
 	^ 'AST-Core-TheIntegrator.276.mcz
 AST-Interpreter-Core-TheIntegrator.140.mcz
@@ -61,7 +61,7 @@ Files-TheIntegrator.369.mcz
 FontChooser-TheIntegrator.7.mcz
 FontInfrastructure-TheIntegrator.8.mcz
 FontInfrastructure-Tests-TheIntegrator.2.mcz
-FreeType-TheIntegrator.693.mcz
+FreeType-TheIntegrator.695.mcz
 FreeTypeTests-SvenVanCaekenberghe.5.mcz
 Fuel-TheIntegrator.804.mcz
 FuelCommandLineHandler-TheIntegrator.27.mcz
@@ -122,7 +122,7 @@ Keymapping-Pragmas-TheIntegrator.50.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.94.mcz
 Keymapping-Tools-Spec-TheIntegrator.30.mcz
-Komitter-TheIntegrator.108.mcz
+Komitter-TheIntegrator.111.mcz
 Manifest-Core-TheIntegrator.213.mcz
 Manifest-CriticBrowser-TheIntegrator.177.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
@@ -154,7 +154,7 @@ MonticelloFileTree-Core-TheIntegrator.178.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
 MonticelloGUI-TheIntegrator.326.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
-Morphic-Base-TheIntegrator.437.mcz
+Morphic-Base-TheIntegrator.439.mcz
 Morphic-Core-TheIntegrator.155.mcz
 Morphic-Examples-TheIntegrator.40.mcz
 Morphic-Widgets-Basic-TheIntegrator.41.mcz
