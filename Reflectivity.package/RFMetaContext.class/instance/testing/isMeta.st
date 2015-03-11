@@ -1,0 +1,2 @@
+isMeta
+	^level > 0
