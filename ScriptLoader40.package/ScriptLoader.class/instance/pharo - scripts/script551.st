@@ -1,4 +1,4 @@
-script550
+script551
 
 	^ 'AST-Core-TheIntegrator.276.mcz
 AST-Interpreter-Core-TheIntegrator.140.mcz
@@ -152,7 +152,7 @@ Monticello-Tests-TheIntegrator.6.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.178.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
-MonticelloGUI-TheIntegrator.326.mcz
+MonticelloGUI-TheIntegrator.328.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 Morphic-Base-TheIntegrator.439.mcz
 Morphic-Core-TheIntegrator.157.mcz
@@ -166,7 +166,7 @@ Morphic-Widgets-Pluggable-TheIntegrator.41.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.23.mcz
 Morphic-Widgets-Tabs-TheIntegrator.12.mcz
 Morphic-Widgets-Taskbar-StephaneDucasse.7.mcz
-Morphic-Widgets-Tree-StephaneDucasse.22.mcz
+Morphic-Widgets-Tree-TheIntegrator.24.mcz
 Morphic-Widgets-Windows-TheIntegrator.47.mcz
 MorphicTests-TheIntegrator.97.mcz
 Multilingual-Encodings-MarcusDenker.47.mcz
@@ -207,7 +207,7 @@ OpalDecompiler-TheIntegrator.31.mcz
 OpalTools-TheIntegrator.14.mcz
 Pharo-Help-MarcusDenker.11.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz
-Polymorph-Widgets-TheIntegrator.1208.mcz
+Polymorph-Widgets-TheIntegrator.1209.mcz
 PragmaCollector-TheIntegrator.3.mcz
 ProfStef-Core-TheIntegrator.49.mcz
 ProfStef-Help-SvenVanCaekenberghe.14.mcz

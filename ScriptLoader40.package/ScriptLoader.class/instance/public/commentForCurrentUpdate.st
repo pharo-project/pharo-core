@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '15112 add ClassVariableTest and a fix: copy over value when changing a Class Var definition
-	https://pharo.fogbugz.com/f/cases/15112
+ ^ '15113 The MorphTreeMorph header is too dark in the default theme
+	https://pharo.fogbugz.com/f/cases/15113
 
-15111 defer: comments
-	https://pharo.fogbugz.com/f/cases/15111
-
-15107 Failing test testBehaviorRespectsPolymorphismWithTraitBehavior
-	https://pharo.fogbugz.com/f/cases/15107'
+15109 newerPackagesAvailableIcon can be done with an overlay
+	https://pharo.fogbugz.com/f/cases/15109'
