@@ -1,4 +1,4 @@
-script549
+script550
 
 	^ 'AST-Core-TheIntegrator.276.mcz
 AST-Interpreter-Core-TheIntegrator.140.mcz
@@ -155,7 +155,7 @@ MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
 MonticelloGUI-TheIntegrator.326.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 Morphic-Base-TheIntegrator.439.mcz
-Morphic-Core-TheIntegrator.155.mcz
+Morphic-Core-TheIntegrator.157.mcz
 Morphic-Examples-TheIntegrator.40.mcz
 Morphic-Widgets-Basic-TheIntegrator.41.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
@@ -207,7 +207,7 @@ OpalDecompiler-TheIntegrator.31.mcz
 OpalTools-TheIntegrator.14.mcz
 Pharo-Help-MarcusDenker.11.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz
-Polymorph-Widgets-StephaneDucasse.1206.mcz
+Polymorph-Widgets-TheIntegrator.1208.mcz
 PragmaCollector-TheIntegrator.3.mcz
 ProfStef-Core-TheIntegrator.49.mcz
 ProfStef-Help-SvenVanCaekenberghe.14.mcz
@@ -251,8 +251,8 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.234.mcz
 ShoutTests-TheIntegrator.27.mcz
-Slot-TheIntegrator.581.mcz
-Slot-Tests-TheIntegrator.21.mcz
+Slot-TheIntegrator.583.mcz
+Slot-Tests-TheIntegrator.23.mcz
 SmartSuggestions-TheIntegrator.147.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
 Spec-Core-StephaneDucasse.373.mcz
@@ -313,7 +313,7 @@ Tool-TxWorkspace-MarcusDenker.4.mcz
 Tool-Workspace-StephaneDucasse.22.mcz
 Tools-TheIntegrator.1503.mcz
 ToolsTest-MarcusDenker.denker.71.mcz
-Traits-TheIntegrator.749.mcz
+Traits-TheIntegrator.750.mcz
 Transcript-StephaneDucasse.32.mcz
 TxText-Athens-NicolaiHess.42.mcz
 TxText-AthensTests-IgorStasenko.9.mcz

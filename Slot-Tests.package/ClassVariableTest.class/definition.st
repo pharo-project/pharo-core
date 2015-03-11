@@ -1,4 +1,4 @@
-SlotSilentTest subclass: #PropertySlotTest
+SlotSilentTest subclass: #ClassVariableTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

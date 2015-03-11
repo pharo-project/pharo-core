@@ -1,0 +1,1 @@
+A ClassVariableTest is xxxxxxxxx.
