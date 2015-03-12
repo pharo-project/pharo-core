@@ -1,12 +1,6 @@
 commentForCurrentUpdate
- ^ '14829 Spec MenuModel submenu not working
-	https://pharo.fogbugz.com/f/cases/14829
+ ^ '15057 Split command line support and command line handling support
+	https://pharo.fogbugz.com/f/cases/15057
 
-14972 SpecWindow: AboutText  always shows WindowModels class comment
-	https://pharo.fogbugz.com/f/cases/14972
-
-6488 DropListModel>>whenSelectionChanged:
-	https://pharo.fogbugz.com/f/cases/6488
-
-15067 TestReviver open does not work in Pharo4.0 Latest update: #40535
-	https://pharo.fogbugz.com/f/cases/15067'
+15120 PropertySlot: test for installing two proportySlots. Make sure the share the same baseSlot 
+	https://pharo.fogbugz.com/f/cases/15120'

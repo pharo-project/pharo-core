@@ -2,4 +2,4 @@ CommandLineHandler subclass: #SaveCommandLineHandler
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'System-CommandLine'
+	category: 'System-CommandLineHandler'

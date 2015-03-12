@@ -1,4 +1,4 @@
-script554
+script555
 
 	^ 'AST-Core-TheIntegrator.276.mcz
 AST-Interpreter-Core-TheIntegrator.140.mcz
@@ -24,7 +24,7 @@ Athens-Text-NicolaiHess.16.mcz
 Balloon-StephaneDucasse.118.mcz
 BalloonTests-MarcusDenker.3.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
-CodeImport-MarcusDenker.46.mcz
+CodeImport-TheIntegrator.48.mcz
 Collections-Abstract-StephaneDucasse.276.mcz
 Collections-Arithmetic-TheIntegrator.15.mcz
 Collections-Atomic-MarcusDenker.10.mcz
@@ -251,8 +251,8 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.234.mcz
 ShoutTests-TheIntegrator.27.mcz
-Slot-TheIntegrator.583.mcz
-Slot-Tests-TheIntegrator.23.mcz
+Slot-TheIntegrator.585.mcz
+Slot-Tests-TheIntegrator.25.mcz
 SmartSuggestions-TheIntegrator.147.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
 Spec-Core-TheIntegrator.376.mcz
@@ -271,7 +271,8 @@ System-Caching-TheIntegrator.23.mcz
 System-CachingTests-TheIntegrator.12.mcz
 System-Changes-StephaneDucasse.257.mcz
 System-Clipboard-SvenVanCaekenberghe.32.mcz
-System-CommandLine-MarcusDenker.165.mcz
+System-CommandLine-TheIntegrator.167.mcz
+System-CommandLineHandler-TheIntegrator.3.mcz
 System-FilePackage-TheIntegrator.132.mcz
 System-FileRegistry-StephaneDucasse.33.mcz
 System-Finalization-TheIntegrator.19.mcz

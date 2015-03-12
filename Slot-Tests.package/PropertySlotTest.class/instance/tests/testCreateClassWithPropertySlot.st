@@ -11,5 +11,5 @@ testCreateClassWithPropertySlot
 		].
 
 	self assert: (aClass hasSlot: propertySlot).
-	self assert: (aClass layout slots identityIncludes: (propertySlot instVarNamed: 'baseSlot'))
+	self assert: (aClass layout hasSlot: (propertySlot instVarNamed: 'baseSlot'))
 	
