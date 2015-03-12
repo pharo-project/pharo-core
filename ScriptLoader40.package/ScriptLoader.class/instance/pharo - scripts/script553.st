@@ -1,4 +1,4 @@
-script552
+script553
 
 	^ 'AST-Core-TheIntegrator.276.mcz
 AST-Interpreter-Core-TheIntegrator.140.mcz
@@ -204,7 +204,7 @@ OSWindow-VM-IgorStasenko.2.mcz
 OpalCompiler-Core-TheIntegrator.634.mcz
 OpalCompiler-Tests-TheIntegrator.277.mcz
 OpalDecompiler-TheIntegrator.31.mcz
-OpalTools-TheIntegrator.14.mcz
+OpalTools-TheIntegrator.16.mcz
 Pharo-Help-MarcusDenker.11.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz
 Polymorph-Widgets-TheIntegrator.1209.mcz
