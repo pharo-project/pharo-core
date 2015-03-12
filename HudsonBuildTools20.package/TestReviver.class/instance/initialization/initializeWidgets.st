@@ -19,11 +19,11 @@ initializeWidgets
 		displayBlock: [ :e | e base copyReplaceAll: '-' with: '>>#' ].
 	serializedErrors isEmpty ifFalse: [ errorListModel setSelectedIndex: 1 ].
 	
-	vmVersionLabel text: 'VM Version'.
+	vmVersionLabel label: 'VM Version'.
 	vmVersion text: ''; enabled: false.
-	timeStampLabel text: 'Timestamp'.
+	timeStampLabel label: 'Timestamp'.
 	timeStamp text: ''; enabled: false.	
-	imageVersionLabel text: 'Image Version'.
+	imageVersionLabel label: 'Image Version'.
 	imageVersion text: ''; enabled: false.	
 		
 	debugButton

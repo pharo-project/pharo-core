@@ -1,4 +1,4 @@
-script553
+script554
 
 	^ 'AST-Core-TheIntegrator.276.mcz
 AST-Interpreter-Core-TheIntegrator.140.mcz
@@ -112,7 +112,7 @@ GroupManagerUI-TheIntegrator.40.mcz
 Growl-TheIntegrator.37.mcz
 HelpSystem-Core-TheIntegrator.117.mcz
 HelpSystem-Tests-TheIntegrator.30.mcz
-HudsonBuildTools20-TheIntegrator.63.mcz
+HudsonBuildTools20-TheIntegrator.65.mcz
 Jobs-EstebanLorenzano.4.mcz
 Kernel-TheIntegrator.1985.mcz
 KernelTests-TheIntegrator.756.mcz
@@ -159,7 +159,7 @@ Morphic-Core-TheIntegrator.157.mcz
 Morphic-Examples-TheIntegrator.40.mcz
 Morphic-Widgets-Basic-TheIntegrator.41.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
-Morphic-Widgets-Extra-TheIntegrator.20.mcz
+Morphic-Widgets-Extra-TheIntegrator.22.mcz
 Morphic-Widgets-List-TheIntegrator.15.mcz
 Morphic-Widgets-NewList-TheIntegrator.5.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.41.mcz
@@ -255,19 +255,19 @@ Slot-TheIntegrator.583.mcz
 Slot-Tests-TheIntegrator.23.mcz
 SmartSuggestions-TheIntegrator.147.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
-Spec-Core-StephaneDucasse.373.mcz
+Spec-Core-TheIntegrator.376.mcz
 Spec-Debugger-TheIntegrator.236.mcz
 Spec-Examples-TheIntegrator.88.mcz
 Spec-Help-TheIntegrator.8.mcz
 Spec-Inspector-TheIntegrator.230.mcz
 Spec-Layout-TheIntegrator.67.mcz
 Spec-MorphicAdapters-StephaneDucasse.203.mcz
-Spec-PolyWidgets-TheIntegrator.55.mcz
+Spec-PolyWidgets-TheIntegrator.57.mcz
 Spec-Tests-SvenVanCaekenberghe.39.mcz
 Spec-Tools-StephaneDucasse.261.mcz
 StartupPreferences-TheIntegrator.131.mcz
 System-Announcements-TheIntegrator.98.mcz
-System-Caching-TheIntegrator.22.mcz
+System-Caching-TheIntegrator.23.mcz
 System-CachingTests-TheIntegrator.12.mcz
 System-Changes-StephaneDucasse.257.mcz
 System-Clipboard-SvenVanCaekenberghe.32.mcz

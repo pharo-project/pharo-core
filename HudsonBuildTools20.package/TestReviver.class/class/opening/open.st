@@ -1,3 +1,7 @@
 open
-
-	^ self new openWithSpec model: self.
+	<script>
+	
+	|model|
+	model := self new.
+	model openWithSpec model: model.
+	^model
