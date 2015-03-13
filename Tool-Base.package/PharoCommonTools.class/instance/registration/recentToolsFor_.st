@@ -1,2 +1,2 @@
 recentToolsFor: aName
-	^ (recentTools at: aName ifAbsent:[{}]) select:[:tool | tool isObsolete not].
+	^ (recentTools at: aName ifAbsent: [ {} ]) reject: [ :tool | tool isObsolete ]

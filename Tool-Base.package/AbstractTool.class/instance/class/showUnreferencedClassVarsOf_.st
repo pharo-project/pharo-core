@@ -4,17 +4,28 @@ showUnreferencedClassVarsOf: aClass
 	search includes superclasses, so that you don't need to navigate your 
 	way to the class that defines each class variable in order to determine 
 	whether it is unreferenced"
+
 	| aList aReport |
-	( aClass isNil or: [aClass isTrait]) ifTrue: [^ self].
+	(aClass isNil or: [ aClass isTrait ])
+		ifTrue: [ ^ self ].
 	aList := self systemNavigation allUnreferencedClassVariablesOf: aClass.
 	aList isEmpty
-		ifTrue: [^ UIManager default inform: 'There are no unreferenced
+		ifTrue: [ 
+			^ UIManager default
+				inform:
+					'There are no unreferenced
 class variables in
-' , aClass name].
+' , aClass name ].
 	aReport := String
-				streamContents: [:aStream | 
-					aStream nextPutAll: 'Unreferenced class variable(s) in ' translated, aClass name;
-						 cr.
-					aList
-						do: [:el | aStream tab; nextPutAll: el; cr]].
+		streamContents: [ :aStream | 
+			aStream
+				nextPutAll: 'Unreferenced class variable(s) in ' translated;
+				nextPutAll: aClass name;
+				cr.
+			aList
+				do: [ :el | 
+					aStream
+						tab;
+						nextPutAll: el;
+						cr ] ].
 	UIManager default inform: aReport

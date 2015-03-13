@@ -1,6 +1,6 @@
 openOnNil
-	| ui layout |
-	
+	<script: '(DynamicSpecExample object: nil) open'>
+	| ui layout |	
 	ui := DynamicComposableModel new.
 	ui title: self title.
 	ui instantiateModels: #( text TextInputFieldModel ).

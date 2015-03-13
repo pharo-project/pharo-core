@@ -1,4 +1,6 @@
 openOnInteger
+	<script: '(DynamicSpecExample object: 42) open'>
+	
 	| ui layout |
 	
 	ui := DynamicComposableModel new.
@@ -8,20 +10,20 @@ openOnInteger
 		plus ButtonModel
 		minus ButtonModel ).
 		
-	ui text text: object value asString.
+	ui text label: object value asString.
 	ui minus 
 		label: '-';
 		state: false;
 		action: 	[ 
 			object value: object value -1.
-			ui text text: object value asString ].
+			ui text label: object value asString ].
 
 	ui plus 
 		label: '+';
 		state: false;
 		action: 	[ 
 			object value: object value +1.
-			ui text text: object value asString ].
+			ui text label: object value asString ].
 	
 	layout := SpecLayout composed
 		newColumn: [ :c |

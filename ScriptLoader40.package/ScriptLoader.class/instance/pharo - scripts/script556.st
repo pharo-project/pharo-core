@@ -1,4 +1,4 @@
-script555
+script556
 
 	^ 'AST-Core-TheIntegrator.276.mcz
 AST-Interpreter-Core-TheIntegrator.140.mcz
@@ -76,7 +76,7 @@ GT-Spotter-EventRecorder-JurajKubelka.51.mcz
 GT-SpotterExtensions-Core-AndreiChis.85.mcz
 GT-Tests-Inspector-AndreiChis.30.mcz
 GT-Tests-Playground-AndreiChis.2.mcz
-GTPharo4Extensions-TheIntegrator.2.mcz
+GTPharo4Extensions-TheIntegrator.4.mcz
 Generated-code-non-existing-package-EstebanLorenzano.2.mcz
 Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-AndreiChis.108.mcz
@@ -257,7 +257,7 @@ SmartSuggestions-TheIntegrator.147.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
 Spec-Core-TheIntegrator.376.mcz
 Spec-Debugger-TheIntegrator.236.mcz
-Spec-Examples-TheIntegrator.88.mcz
+Spec-Examples-TheIntegrator.89.mcz
 Spec-Help-TheIntegrator.8.mcz
 Spec-Inspector-TheIntegrator.230.mcz
 Spec-Layout-TheIntegrator.67.mcz
@@ -296,7 +296,7 @@ Text-Edition-StephaneDucasse.71.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.24.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.60.mcz
+Tool-Base-TheIntegrator.62.mcz
 Tool-Browser-Old-TheIntegrator.37.mcz
 Tool-Changes-TheIntegrator.22.mcz
 Tool-ConfigurationBrowser-TheIntegrator.15.mcz

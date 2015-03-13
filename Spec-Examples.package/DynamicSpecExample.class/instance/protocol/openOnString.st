@@ -1,6 +1,7 @@
 openOnString
-	| ui layout bottomLayout temp |
+	<script: '(DynamicSpecExample object: ''Pharo'') open'>
 	
+	| ui layout bottomLayout temp |	
 	ui := DynamicComposableModel new.
 	ui title: self title.
 	ui instantiateModels: #( 
@@ -9,10 +10,10 @@ openOnString
 		text TextInputFieldModel
 		button ButtonModel ).
 		
-	ui label text: object value.
+	ui label label: object value.
 
 			
-	object whenChangedDo: [ :o | ui label text: o asString ].
+	object whenChangedDo: [ :o | ui label label: o asString ].
 		
 	ui text 
 		text: object value;
