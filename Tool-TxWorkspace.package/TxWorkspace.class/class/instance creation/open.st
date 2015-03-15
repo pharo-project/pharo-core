@@ -1,3 +1,3 @@
 open
-	"self open"
+	<script>
 	^ self openLabel: 'Tx-Workspace'

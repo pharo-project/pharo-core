@@ -10,11 +10,10 @@ testReshapeCompactClass
 
 	self assert: aClass indexIfCompact > 0.
 	
-	DangerousClassNotifier disableForTesting.	
-	aClass := self make: [ :builder |
-		builder name: self aClassName;
-		slots:#(x) ].
-	DangerousClassNotifier restoreAfterTesting.	
+	DangerousClassNotifier disableDuring: [
+		aClass := self make: [ :builder |
+			builder name: self aClassName;
+			slots:#(x) ]].
 
 	self assert: aClass indexIfCompact > 0 
 	

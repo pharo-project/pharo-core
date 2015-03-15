@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '15064 DynamicSpecExample should use #label: instead of deprecated #text:
-	https://pharo.fogbugz.com/f/cases/15064
+ ^ '15128 Class comment and #open on TxWorkspace
+	https://pharo.fogbugz.com/f/cases/15128
 
-15125 PharoCommonTools>>#cleanUp changes collection while iterating
-	https://pharo.fogbugz.com/f/cases/15125
-
-15045 GTPharo4Extensions should be merged into GT-SpotterExtensions-Core
-	https://pharo.fogbugz.com/f/cases/15045'
+14834 I cant add classVariable to context
+	https://pharo.fogbugz.com/f/cases/14834'

@@ -1,4 +1,4 @@
-script556
+script557
 
 	^ 'AST-Core-TheIntegrator.276.mcz
 AST-Interpreter-Core-TheIntegrator.140.mcz
@@ -76,7 +76,6 @@ GT-Spotter-EventRecorder-JurajKubelka.51.mcz
 GT-SpotterExtensions-Core-AndreiChis.85.mcz
 GT-Tests-Inspector-AndreiChis.30.mcz
 GT-Tests-Playground-AndreiChis.2.mcz
-GTPharo4Extensions-TheIntegrator.4.mcz
 Generated-code-non-existing-package-EstebanLorenzano.2.mcz
 Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-AndreiChis.108.mcz
@@ -251,8 +250,8 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.234.mcz
 ShoutTests-TheIntegrator.27.mcz
-Slot-TheIntegrator.585.mcz
-Slot-Tests-TheIntegrator.25.mcz
+Slot-TheIntegrator.587.mcz
+Slot-Tests-TheIntegrator.27.mcz
 SmartSuggestions-TheIntegrator.147.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
 Spec-Core-TheIntegrator.376.mcz
@@ -289,7 +288,7 @@ System-Settings-StephaneDucasse.309.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Support-StephaneDucasse.1091.mcz
 System-VMEvents-TheIntegrator.2.mcz
-Tests-TheIntegrator.722.mcz
+Tests-TheIntegrator.724.mcz
 Text-Core-StephaneDucasse.31.mcz
 Text-Diff-StephaneDucasse.4.mcz
 Text-Edition-StephaneDucasse.71.mcz
@@ -310,7 +309,7 @@ Tool-ProcessBrowser-StephaneDucasse.6.mcz
 Tool-Profilers-TheIntegrator.17.mcz
 Tool-SystemReporter-StephaneDucasse.10.mcz
 Tool-Transcript-TheIntegrator.12.mcz
-Tool-TxWorkspace-MarcusDenker.4.mcz
+Tool-TxWorkspace-TheIntegrator.6.mcz
 Tool-Workspace-StephaneDucasse.22.mcz
 Tools-TheIntegrator.1503.mcz
 ToolsTest-MarcusDenker.denker.71.mcz

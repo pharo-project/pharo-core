@@ -6,34 +6,19 @@ testDangerousClassesEnabling
 
 	DangerousClassNotifier disable.
 	self assert: DangerousClassNotifier enabled not.
-	DangerousClassNotifier disableForTesting.
-      self assert: DangerousClassNotifier enabled not.
-	DangerousClassNotifier restoreAfterTesting. 
+	DangerousClassNotifier disableDuring: [
+      self assert: DangerousClassNotifier enabled not].
 	self assert: DangerousClassNotifier enabled not.
 
 	DangerousClassNotifier enable.
 	self assert: DangerousClassNotifier enabled.	
-	DangerousClassNotifier disableForTesting.
-      self assert: DangerousClassNotifier enabled not.
-	DangerousClassNotifier restoreAfterTesting. 
+	DangerousClassNotifier disableDuring: [
+      self assert: DangerousClassNotifier enabled not].
 	self assert: DangerousClassNotifier enabled.
 
-	myExpectedError := false.
-	[ 	DangerousClassNotifier disableForTesting.
-		DangerousClassNotifier disableForTesting.
-	] on: Error do: [  myExpectedError := true ].
-	self assert: myExpectedError.
-
-	myExpectedError := false.
-	[ 	DangerousClassNotifier restoreAfterTesting.
-		DangerousClassNotifier restoreAfterTesting.
-	] on: Error do: [  myExpectedError := true ].
-	self assert: myExpectedError.			
-
 	DangerousClassNotifier enable.
-	DangerousClassNotifier disableForTesting.
-	self assert: (DangerousClassNotifier check: #ProtoObject).
-	DangerousClassNotifier restoreAfterTesting.
+	DangerousClassNotifier disableDuring: [
+		self assert: (DangerousClassNotifier check: #ProtoObject)].
 	myExpectedError := false.
 	[ DangerousClassNotifier check: #ProtoObject ] on: Error do: [ myExpectedError := true  ].
 	self assert: myExpectedError.
