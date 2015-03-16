@@ -1,4 +1,3 @@
 example
 	^ self
-		openOn: (MBConfigurationRoot current configurations 
-					detect: [ :config | config name = 'ConfigurationOfVersionner' ])
+		openOn: (MBConfigurationRoot current configurations detect: [ :config | config name = 'ConfigurationOfOSWindow' ])

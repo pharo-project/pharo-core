@@ -1,4 +1,4 @@
-script559
+script560
 
 	^ 'AST-Core-TheIntegrator.276.mcz
 AST-Interpreter-Core-TheIntegrator.140.mcz
@@ -57,7 +57,7 @@ FileSystem-Tests-Core-TheIntegrator.87.mcz
 FileSystem-Tests-Disk-TheIntegrator.22.mcz
 FileSystem-Tests-Memory-TheIntegrator.8.mcz
 FileSystem-Zip-TheIntegrator.17.mcz
-Files-TheIntegrator.369.mcz
+Files-TheIntegrator.371.mcz
 FontChooser-TheIntegrator.7.mcz
 FontInfrastructure-TheIntegrator.8.mcz
 FontInfrastructure-Tests-TheIntegrator.2.mcz
@@ -330,7 +330,7 @@ Versionner-Core-Announcements-MarcusDenker.11.mcz
 Versionner-Core-Commands-MarcusDenker.49.mcz
 Versionner-Core-DependenciesModel-TheIntegrator.95.mcz
 Versionner-Core-Model-TheIntegrator.48.mcz
-Versionner-Spec-Browser-TheIntegrator.166.mcz
+Versionner-Spec-Browser-TheIntegrator.168.mcz
 Versionner-Tests-Core-Commands-TheIntegrator.17.mcz
 Versionner-Tests-Core-DependenciesModel-MarcusDenker.40.mcz
 Versionner-Tests-Core-Model-TheIntegrator.30.mcz
@@ -338,14 +338,14 @@ Versionner-Tests-Resources-MarcusDenker.14.mcz
 Zinc-Character-Encoding-Core-SvenVanCaekenberghe.37.mcz
 Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.22.mcz
 Zinc-FileSystem-SvenVanCaekenberghe.10.mcz
-Zinc-HTTP-TheIntegrator.425.mcz
-Zinc-Resource-Meta-Core-SvenVanCaekenberghe.47.mcz
+Zinc-HTTP-SvenVanCaekenberghe.423.mcz
+Zinc-Resource-Meta-Core-SvenVanCaekenberghe.48.mcz
 Zinc-Resource-Meta-FileSystem-TheIntegrator.8.mcz
-Zinc-Resource-Meta-Tests-SvenVanCaekenberghe.32.mcz
+Zinc-Resource-Meta-Tests-SvenVanCaekenberghe.33.mcz
 Zinc-System-Support-MarcusDenker.8.mcz
-Zinc-Tests-SvenVanCaekenberghe.221.mcz
+Zinc-Tests-SvenVanCaekenberghe.223.mcz
 Zinc-Zodiac-SvenVanCaekenberghe.34.mcz
-Zodiac-Core-TheIntegrator.37.mcz
+Zodiac-Core-SvenVanCaekenberghe.38.mcz
 Zodiac-Extra-StephaneDucasse.10.mcz
 Zodiac-Tests-SvenVanCaekenberghe.12.mcz'
 findTokens: String lf , String cr

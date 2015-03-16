@@ -1,6 +1,6 @@
 sourcesFileOrNil
 	| sources |
-	sources := self openOrDownloadSources.
+	sources := self openSources.
 	^ (sources isNil or: [ sources atEnd ])
 		ifTrue: [ 
 			self informCannotLocateSources.
