@@ -1,9 +1,7 @@
 testLogging
 	| client logEventCollection |
 	logEventCollection := OrderedCollection new.
-	ZnLogEvent announcer 
-		"when: ZnLogEvent send: #add: to: logEventCollection. " "maintain Pharo 2 compatibility"
-		on: ZnLogEvent send: #add: to: logEventCollection. 
+	ZnLogEvent announcer when: ZnLogEvent do: [ :event | logEventCollection add: event ]. 
 	(client := ZnClient new)
 		clientId: #C1;
 		beOneShot.

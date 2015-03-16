@@ -16,7 +16,7 @@ fillBytes: bytes startingAt: offset count: count
 	inCount > 0
 		ifTrue: [ 
 			processedCount := self sslSession decrypt: in from: 1 to: inCount into: out.
-			processedCount < 0 ifTrue: [ ^ self sslException: 'decrypt failed' code: processedCount ].
+			"We explicitly ignore possible errors here"
 			processedCount > 0
 				ifTrue: [
 					bytes replaceFrom: offset to: offset + processedCount - 1 with: out startingAt: 1.

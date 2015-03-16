@@ -59,7 +59,7 @@ baseline26: spec
 			group: 'REST' with: #('Zinc-REST');
 			group: 'Patch-HTTPSocket' with: #('Zinc-Patch-HTTPSocket');
 			group: 'Seaside' with: #('Zinc-Seaside') ].
-		spec for: #squeakCommon do:[spec repository: 'http://mc.stfx.eu/ZincHTTPComponents'].
+	spec for: #squeakCommon do:[ spec repository: 'http://mc.stfx.eu/ZincHTTPComponents' ].
 	spec for: #'pharo1.x' do: [ 
 		spec
 			package: 'Zinc-FileSystem-Legacy';
