@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '15126 NBExternalEnumeration needs to respect slots
-	https://pharo.fogbugz.com/f/cases/15126
+ ^ '15124 Move String>>#lastIndexOfPKSignature: to Compression
+	https://pharo.fogbugz.com/f/cases/15124
 
-14873 Morph>>#boundingBoxOfSubmorphs is sometimes too large
-	https://pharo.fogbugz.com/f/cases/14873'
+15147 change class comment template
+	https://pharo.fogbugz.com/f/cases/15147
+
+14885 Cant change name of a Spec tab after it has been opened
+	https://pharo.fogbugz.com/f/cases/14885'

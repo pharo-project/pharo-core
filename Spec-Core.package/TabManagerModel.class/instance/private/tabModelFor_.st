@@ -1,3 +1,3 @@
 tabModelFor: tab
 
-	^ tabs detect: [ :e | e = tab model model ]
+	^ tabs detect: [ :e | e = tab model ]

@@ -1,3 +1,0 @@
-retrievingBlock
-
-	^ self model retrievingBlock

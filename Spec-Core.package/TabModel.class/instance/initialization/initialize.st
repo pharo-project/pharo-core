@@ -3,19 +3,12 @@ initialize
 
 	super initialize.
 
-	label := '' asValueHolder.
-	icon := self defaultIcon asValueHolder.
-	morph := nil asValueHolder.
-	retrievingBlock := nil asValueHolder.
-	menu := nil asValueHolder.
-	actions := OrderedCollection new asValueHolder.
-	closeable := true asValueHolder.
-	tabSelectedAction := [] asValueHolder.
-	
-	label whenChangedDo: [ :new | self widget ifNotNil: [ :w | w label: new ] ].
-	icon whenChangedDo: [ :new | self widget ifNotNil: [ :w | w icon: new ] ].
-	morph whenChangedDo: [ :new | self widget ifNotNil: [ :w | w morph: new ] ].
-	retrievingBlock whenChangedDo: [ :new | self widget ifNotNil: [ :w | w retrievingBlock: new ] ].
-	menu whenChangedDo: [ :new | self widget ifNotNil: [ :w | w menu: new ] ].
-	actions whenChangedDo: [ :new | self widget ifNotNil: [ :w | w actions: new ] ].
-	closeable whenChangedDo: [ :new | self widget ifNotNil: [ :w | w closeable: new ] ].
+	labelHolder := '' asValueHolder.
+	iconHolder := self defaultIcon asValueHolder.
+	morphHolder := nil asValueHolder.
+	retrievingBlockHolder := nil asValueHolder.
+	menuHolder := nil asValueHolder.
+	actionsHolder := OrderedCollection new asValueHolder.
+	closeableHolder := true asValueHolder.
+	tabSelectedActionHolder := [  ] asValueHolder.
+	selectedHolder := false asValueHolder

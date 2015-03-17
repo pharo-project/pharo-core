@@ -1,4 +1,4 @@
-script561
+script562
 
 	^ 'AST-Core-TheIntegrator.276.mcz
 AST-Interpreter-Core-TheIntegrator.140.mcz
@@ -32,13 +32,13 @@ Collections-Native-TheIntegrator.9.mcz
 Collections-Sequenceable-TheIntegrator.189.mcz
 Collections-Stack-MarcusDenker.7.mcz
 Collections-Streams-StephaneDucasse.166.mcz
-Collections-Strings-StephaneDucasse.342.mcz
+Collections-Strings-TheIntegrator.344.mcz
 Collections-Support-MarcusDenker.57.mcz
 Collections-Unordered-TheIntegrator.205.mcz
 Collections-Weak-TheIntegrator.88.mcz
 CollectionsTests-StephaneDucasse.681.mcz
 Compiler-ClementBera.580.mcz
-Compression-TheIntegrator.147.mcz
+Compression-TheIntegrator.149.mcz
 CompressionTests-TheIntegrator.29.mcz
 ConfigurationCommandLineHandler-Core-TheIntegrator.27.mcz
 ConfigurationCommandLineHandler-Tests-MarcusDenker.11.mcz
@@ -254,15 +254,15 @@ Slot-TheIntegrator.587.mcz
 Slot-Tests-TheIntegrator.27.mcz
 SmartSuggestions-TheIntegrator.147.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
-Spec-Core-TheIntegrator.376.mcz
+Spec-Core-TheIntegrator.379.mcz
 Spec-Debugger-TheIntegrator.236.mcz
 Spec-Examples-TheIntegrator.89.mcz
 Spec-Help-TheIntegrator.8.mcz
 Spec-Inspector-TheIntegrator.230.mcz
 Spec-Layout-TheIntegrator.67.mcz
-Spec-MorphicAdapters-StephaneDucasse.203.mcz
+Spec-MorphicAdapters-TheIntegrator.207.mcz
 Spec-PolyWidgets-TheIntegrator.57.mcz
-Spec-Tests-SvenVanCaekenberghe.39.mcz
+Spec-Tests-TheIntegrator.43.mcz
 Spec-Tools-StephaneDucasse.261.mcz
 StartupPreferences-TheIntegrator.131.mcz
 System-Announcements-TheIntegrator.98.mcz
@@ -313,7 +313,7 @@ Tool-TxWorkspace-TheIntegrator.6.mcz
 Tool-Workspace-StephaneDucasse.22.mcz
 Tools-TheIntegrator.1503.mcz
 ToolsTest-MarcusDenker.denker.71.mcz
-Traits-TheIntegrator.750.mcz
+Traits-TheIntegrator.752.mcz
 Transcript-StephaneDucasse.32.mcz
 TxText-Athens-NicolaiHess.42.mcz
 TxText-AthensTests-IgorStasenko.9.mcz

@@ -1,3 +1,0 @@
-actionsBlock
-
-	^ [ self model actions ]

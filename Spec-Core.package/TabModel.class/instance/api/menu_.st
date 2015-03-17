@@ -1,3 +1,3 @@
 menu: aBlock
 
-	menu value: aBlock
+	menuHolder value: aBlock

@@ -1,3 +1,3 @@
 selected: aBoolean
 
-	self changed: #selected: with: { aBoolean }
+	selectedHolder value: aBoolean

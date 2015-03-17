@@ -1,3 +1,3 @@
 tabSelected 
 
-	tabSelectedAction value cull: self
+	tabSelectedActionHolder value cull: self

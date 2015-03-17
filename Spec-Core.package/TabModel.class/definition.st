@@ -1,5 +1,5 @@
 AbstractWidgetModel subclass: #TabModel
-	instanceVariableNames: 'label icon morph retrievingBlock menu actions closeable tabSelectedAction'
+	instanceVariableNames: 'tabSelectedActionHolder labelHolder iconHolder morphHolder retrievingBlockHolder menuHolder actionsHolder closeableHolder selectedHolder'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-Core-Widgets'

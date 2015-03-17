@@ -1,3 +1,0 @@
-tabSelected
-
-	^ self model tabSelected

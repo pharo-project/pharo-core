@@ -1,3 +1,3 @@
 actions: aCollection
 
-	actions value: aCollection
+	actionsHolder value: aCollection

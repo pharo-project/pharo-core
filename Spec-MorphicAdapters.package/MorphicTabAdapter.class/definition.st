@@ -1,5 +1,5 @@
 AbstractMorphicAdapter subclass: #MorphicTabAdapter
-	instanceVariableNames: 'isClosedHolder'
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-MorphicAdapters'

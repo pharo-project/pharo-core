@@ -1,3 +1,3 @@
 icon
 
-	^ icon value
+	^ iconHolder value

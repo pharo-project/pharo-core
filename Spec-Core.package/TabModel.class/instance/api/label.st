@@ -1,3 +1,3 @@
 label
 
-	^ label value
+	^ labelHolder value

@@ -1,3 +1,3 @@
 tabSelectedAction
 
-	^ tabSelectedAction value
+	^ tabSelectedActionHolder value
