@@ -1,6 +1,7 @@
 boundingBoxOfSubmorphs
-	| aBox |
-	aBox := bounds origin extent: self minimumExtent.  "so won't end up with something empty"
-	submorphs do:
-		[:m | m visible ifTrue: [aBox := aBox quickMerge: m fullBounds]].
+	| aBox visibleSubmorphs |
+	visibleSubmorphs := submorphs select: [ :m | m visible ].
+	visibleSubmorphs ifEmpty: [ ^ bounds origin extent: self minimumExtent "so won't end up with something empty" ].
+	aBox := visibleSubmorphs first fullBounds.
+	visibleSubmorphs allButFirst do: [ :m | aBox := aBox quickMerge: m fullBounds ].
 	^ aBox

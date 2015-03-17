@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '14383 VersionnerProjectBrowser>>example does not work
-	https://pharo.fogbugz.com/f/cases/14383
+ ^ '15126 NBExternalEnumeration needs to respect slots
+	https://pharo.fogbugz.com/f/cases/15126
 
-15133 #downloadSources references PharoV30.sources
-	https://pharo.fogbugz.com/f/cases/15133'
+14873 Morph>>#boundingBoxOfSubmorphs is sometimes too large
+	https://pharo.fogbugz.com/f/cases/14873'
