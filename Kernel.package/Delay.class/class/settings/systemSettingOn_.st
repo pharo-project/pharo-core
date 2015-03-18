@@ -5,7 +5,7 @@ systemSettingOn: aBuilder
 		parent: #pharoSystem ;
 		target: self;
 		label: 'Delay Scheduler' ;
-		domainValues: (DelayScheduler subclasses asOrderedCollection add: DelayScheduler; yourself);
+		domainValues: DelayScheduler subclasses asOrderedCollection;
 		description: 'Choose the class to use for Delay scheduling.' , 
 			String crlf, 'You can observe which is running from Tools > Process Browser.'
 	

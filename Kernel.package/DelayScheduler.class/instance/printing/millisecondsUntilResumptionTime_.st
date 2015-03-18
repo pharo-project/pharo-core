@@ -1,2 +1,2 @@
 millisecondsUntilResumptionTime: millisecondResumptionTime
-	^ millisecondResumptionTime - Time millisecondClockValue
+	self subclassResponsibility 
