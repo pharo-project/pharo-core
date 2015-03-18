@@ -3,8 +3,8 @@ addSlice
 		ifNotNil: [:sliceInfo | workingCopy := sliceInfo makeSlice.
 			workingCopy ifNotNil: [
 				workingCopy repositoryGroup 
-					addRepository: ScriptLoader new repository;
-					addRepository: ScriptLoader new inboxRepository.
+					addRepository: MCHttpRepository pharoRepository;
+					addRepository: MCHttpRepository pharoInboxRepository.
 				workingCopyWrapper := MCDependentsWrapper with: workingCopy model: self.
 					self repositorySelection: 0.]].
 	self workingCopyListChanged; changed: #workingCopySelection; repositoryListChanged.

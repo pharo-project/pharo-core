@@ -13,7 +13,7 @@ shiftedSourceCodeMenu: aBuilder
 								keyText: each keyText;
 								selector: each selector;
 								target: each target;
-								parent: #'Extended search...';
+								parent: #'Code search...';
 								arguments: each arguments;
 								order: (index*100)).
 				each icon ifNotNil: [:ic | items last icon: ic ]]].
