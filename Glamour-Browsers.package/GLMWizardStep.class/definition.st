@@ -2,4 +2,4 @@ GLMAbstractWizardStep subclass: #GLMWizardStep
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Glamour-Browsers'
+	category: 'Glamour-Browsers-Wizards'

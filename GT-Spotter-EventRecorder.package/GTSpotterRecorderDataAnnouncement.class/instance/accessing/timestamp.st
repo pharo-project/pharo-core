@@ -1,2 +1,2 @@
 timestamp
-	^ timestamp
+	^ self at: #timestamp

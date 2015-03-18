@@ -1,2 +1,3 @@
 cleanUp
-    self resetHistory
+    self resetHistory.
+	wasOpened := false

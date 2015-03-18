@@ -2,7 +2,6 @@ itemLabelStyleFor: aBrick
 
 	aBrick label
 		familyName: self itemFamilyName;
-		fontSize: self itemFontSize;
 		textColor: self itemTextColor;
 		highlightingLogic: [ :aCanvas :aRectangle | |bounds|
 			"because font calculates text width wrong"

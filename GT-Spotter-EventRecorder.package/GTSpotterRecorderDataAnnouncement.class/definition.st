@@ -1,5 +1,5 @@
 Announcement subclass: #GTSpotterRecorderDataAnnouncement
-	instanceVariableNames: 'computerUUID data eventRecorderVersion imageHash imageVersion latestUpdate sessionCreationTime timestamp'
+	instanceVariableNames: 'dictionary'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'GT-Spotter-EventRecorder'
+	category: 'GT-Spotter-EventRecorder-Announcements'

@@ -1,0 +1,2 @@
+defaultTask
+	^ GLMAsyncTask new

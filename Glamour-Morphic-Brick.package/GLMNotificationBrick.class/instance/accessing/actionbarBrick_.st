@@ -1,2 +1,0 @@
-actionbarBrick: anObject
-	actionbarBrick := anObject

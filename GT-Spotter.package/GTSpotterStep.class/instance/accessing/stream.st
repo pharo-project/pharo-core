@@ -1,7 +1,7 @@
 stream
 
 	^ stream ifNil: [
-		stream := GTSpotterUIThreadStream new.
+		stream := self defaultStream.
 		stream
 			onAddedSelector: #addCandidate:in:;
 			onRemoveSelector: #removeAllCandidatesOf:;

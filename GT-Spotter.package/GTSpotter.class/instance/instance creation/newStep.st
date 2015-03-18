@@ -1,4 +1,4 @@
 newStep
 
-	^ GTSpotterStep new 
+	^ self defaultStep
 		spotter: self

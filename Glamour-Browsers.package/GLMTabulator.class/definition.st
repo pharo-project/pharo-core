@@ -2,4 +2,4 @@ GLMExplicitBrowser subclass: #GLMTabulator
 	instanceVariableNames: 'cell'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Glamour-Browsers'
+	category: 'Glamour-Browsers-Tabulator'

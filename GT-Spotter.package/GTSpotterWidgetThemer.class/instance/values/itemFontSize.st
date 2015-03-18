@@ -1,3 +1,0 @@
-itemFontSize
-
-	^ 9

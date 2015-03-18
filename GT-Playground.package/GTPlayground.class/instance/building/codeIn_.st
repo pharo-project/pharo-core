@@ -1,6 +1,16 @@
 codeIn: a
 	^ a pharoPlayground
-		title: [ :page | page title ];
+		title: [ :page | 
+			| label |
+			label := GLMLiveStringBrick new.
+			label 
+			"to make label take maximal only necessary space"
+			maxWidth: [ label approximateWidth ];
+			textLogic: [ 'Modified ', (DateAndTime now - page modificationTime) gtPlaygroundHumanReadableString  ];
+			hSpaceFill;
+			vSpaceFill;
+			marginLeft: 5;
+			marginRight: 5 ];
 		format: [ :page | page content ];
 		act: [ :text :page |
 				text selectionInterval: (1 to: text text size).

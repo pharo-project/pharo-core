@@ -1,2 +1,2 @@
 latestUpdate
-	^ latestUpdate
+	^ self at: #latestUpdate

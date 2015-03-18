@@ -7,6 +7,6 @@ settingsButton: aBrick
 	settingsButton
 		hintTitle: 'Settings';
 		hintText: 'Shows the settings UI';
-		addUpAction: [ self openSettingsFor: settingsButton ].
+		addUpAction: [ self openSettingsBrowser ].
 	
 	self addBrickBack: settingsButton

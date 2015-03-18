@@ -1,0 +1,3 @@
+wantsSteps: aBoolean
+
+	wantsSteps := aBoolean

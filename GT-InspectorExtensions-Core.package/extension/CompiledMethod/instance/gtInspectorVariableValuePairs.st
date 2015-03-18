@@ -1,8 +1,9 @@
 gtInspectorVariableValuePairs
-	| literalIndex |
+	| literalIndex values |
 	literalIndex := 0.
-	^ OrderedCollection new 
-		add: ( 'all bytecodes' -> self symbolic );
-		add: ( 'header' -> self headerDescription );
-		addAll: ( self literals collect: [ :aLiteral | 'literal ', ( literalIndex := literalIndex + 1 ) asString -> aLiteral ] );
-		yourself
+	values := OrderedCollection new.
+	values addAll: (self literals collect: [ :aLiteral | 'literal', ( literalIndex := literalIndex + 1 ) asString -> aLiteral ]).
+	self initialPC to: self size do: [ :index |
+		values add:  ('bc ', index asString) ->  (self at: index)].
+	^values.
+	

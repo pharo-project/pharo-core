@@ -2,4 +2,4 @@ GLMExplicitBrowser subclass: #GLMStacker
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Glamour-Browsers'
+	category: 'Glamour-Browsers-Other'

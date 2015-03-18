@@ -1,2 +1,2 @@
 eventRecorderVersion
-	^ eventRecorderVersion
+	^ self at: #eventRecorderVersion

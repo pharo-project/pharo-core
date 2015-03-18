@@ -1,3 +1,0 @@
-morphicColor 
-
-	^ Color transparent

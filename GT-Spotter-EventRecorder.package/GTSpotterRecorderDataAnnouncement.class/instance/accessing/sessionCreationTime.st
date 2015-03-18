@@ -1,2 +1,2 @@
 sessionCreationTime
-	^ sessionCreationTime
+	^ self at: #sessionCreationTime

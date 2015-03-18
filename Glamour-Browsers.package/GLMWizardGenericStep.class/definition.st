@@ -2,4 +2,4 @@ GLMAbstractWizardStep subclass: #GLMWizardGenericStep
 	instanceVariableNames: 'size numberOfDisplayBlock'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Glamour-Browsers'
+	category: 'Glamour-Browsers-Wizards'

@@ -1,2 +1,0 @@
-contentBrick: anObject
-	contentBrick := anObject

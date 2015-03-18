@@ -1,2 +1,0 @@
-save
-	self class savePreferences

@@ -1,2 +1,0 @@
-footerBrick: anObject
-	footerBrick := anObject

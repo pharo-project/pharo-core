@@ -6,6 +6,8 @@ initialize
 	files size > 100 ifTrue: [files := files first: 100]. 
 	pages := OrderedCollection new.
 	files do: [ :each | 
-		[ pages add: (GTPlayPage new silentContent: (each readStreamDo: #contents)) ]
+		[ pages add: (GTPlayPage new 
+						silentContent: (each readStreamDo: #contents); 
+						modificationTime: each modificationTime) ]
 			on: Error 
 			do: [  ] ]

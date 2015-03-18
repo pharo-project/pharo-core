@@ -1,2 +1,2 @@
 imageVersion: anObject
-	imageVersion := anObject
+	self at: #imageVersion put: anObject

@@ -1,0 +1,2 @@
+defaultStep
+	^ GTSpotterStep new

@@ -1,0 +1,3 @@
+stepTime: anInteger
+
+	stepTime := anInteger

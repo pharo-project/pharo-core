@@ -1,2 +1,2 @@
 timestamp: anObject
-	timestamp := anObject
+	self at: #timestamp put: anObject

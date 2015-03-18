@@ -1,2 +1,2 @@
 canSendUsageData
-	^ GTSpotterEventRecorderSettings uniqueInstance sendUsageData
+	^ GTSpotterEventRecorderSettings sendUsageData

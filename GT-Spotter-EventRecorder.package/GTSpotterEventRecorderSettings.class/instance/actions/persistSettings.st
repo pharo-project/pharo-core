@@ -1,2 +1,0 @@
-persistSettings
-	self save.

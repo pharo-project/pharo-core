@@ -1,5 +1,5 @@
 RubEditingArea subclass: #GLMRubricTextFieldArea
-	instanceVariableNames: 'enabled'
+	instanceVariableNames: 'enabled doubleClickAction'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Glamour-Morphic-Widgets'

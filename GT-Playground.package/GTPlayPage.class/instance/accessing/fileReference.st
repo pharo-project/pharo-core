@@ -1,3 +1,3 @@
 fileReference
 
-	^ self cacheDirectory / (self title, '.ph')
+	^ fileReference ifNil: [ fileReference := self cacheDirectory / (self title, '.ph')]

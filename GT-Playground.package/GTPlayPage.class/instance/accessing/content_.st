@@ -1,4 +1,5 @@
 content: aString
+	self modificationTime: DateAndTime now.
 	content := aString.
 	aString isEmpty 
 		ifTrue: [ self fileReference ensureDelete ]

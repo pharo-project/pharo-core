@@ -1,3 +1,3 @@
 asyncTask
 
-	^ asyncTask ifNil: [ asyncTask := GLMAsyncTask new ]
+	^ asyncTask ifNil: [ asyncTask := self defaultTask ]

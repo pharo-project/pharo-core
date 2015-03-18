@@ -1,2 +1,2 @@
 sessionCreationTime: anObject
-	sessionCreationTime := anObject
+	self at: #sessionCreationTime put: anObject

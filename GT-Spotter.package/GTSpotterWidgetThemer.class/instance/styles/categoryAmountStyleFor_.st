@@ -6,7 +6,6 @@ categoryAmountStyleFor: aBrick
 		color: self titleBackgroundColor.
 	
 	aBrick label
-		fontSize: self titleFontSize;
 		familyName: self titleFamilyName.
 	
 	aBrick

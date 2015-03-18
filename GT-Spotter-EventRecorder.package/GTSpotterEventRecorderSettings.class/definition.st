@@ -1,5 +1,5 @@
 Object subclass: #GTSpotterEventRecorderSettings
-	instanceVariableNames: 'computerUUID secretUUID sendUsageData'
+	instanceVariableNames: 'computerUUID secretUUID'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'GT-Spotter-EventRecorder'
+	category: 'GT-Spotter-EventRecorder-Settings'

@@ -1,2 +1,0 @@
-checkboxHeight
-	^ 18

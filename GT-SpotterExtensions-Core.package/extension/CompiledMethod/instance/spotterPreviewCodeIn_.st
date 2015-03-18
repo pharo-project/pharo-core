@@ -4,7 +4,7 @@ spotterPreviewCodeIn: aComposite
 		title: [ self gtDisplayString ];
 		display: [:compiledMethod | 
 			' ', compiledMethod getSource];
-		smalltalkClass: #methodClass;
+		smalltalkClass: [self methodClass];
 		entity: self.
 		
 	self flag: 'move "entity: self" somewhere else, maybe'

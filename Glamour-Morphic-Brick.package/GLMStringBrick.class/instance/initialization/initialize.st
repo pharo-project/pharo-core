@@ -1,8 +1,8 @@
 initialize
 	super initialize.
 	
-	fontSize := self defaultSize.
-	familyName := self defaultFamilyName.
+	fontSize := self themer textFontSize.
+	familyName := self themer textFamilyName.
 	text := ''.
 	
 	textPosition := #leftCenter.

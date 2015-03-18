@@ -1,5 +1,4 @@
 gtInspectorBytecodeIn: composite
-	<gtInspectorPresentationOrder: 40> 
-	composite text 
-		title: 'Bytecode';
-		display: [ self symbolic ]
+	<gtInspectorPresentationOrder: 30> 
+	^ (GTBytecodeBrowser new treeIn: composite)
+		title: 'Bytecode'

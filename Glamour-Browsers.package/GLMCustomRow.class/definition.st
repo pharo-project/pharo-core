@@ -2,4 +2,4 @@ GLMCustomCell subclass: #GLMCustomRow
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Glamour-Browsers'
+	category: 'Glamour-Browsers-Tabulator'

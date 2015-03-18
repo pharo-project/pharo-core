@@ -9,7 +9,6 @@ saveDefaultSettingsButtonBrick: anObject
 		marginBottom: 0;
 		text: self defaultSaveDefaultSettingsButtonText;
 		when: #onClicked do: [ :anAnnouncemnt :anAnnoucer | 
-			self persistSettings.
-			self updateSefaultSettingInfoText ].
+			self persistSettings ].
 	
 	self addBrickBack: self saveDefaultSettingsButtonBrick

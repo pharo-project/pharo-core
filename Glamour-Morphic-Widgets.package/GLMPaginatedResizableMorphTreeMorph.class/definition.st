@@ -1,4 +1,4 @@
-PaginatedMorphTreeMorph subclass: #GLMPaginatedResizableMorphTreeMorph
+GLMPaginatedMorphTreeMorph subclass: #GLMPaginatedResizableMorphTreeMorph
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

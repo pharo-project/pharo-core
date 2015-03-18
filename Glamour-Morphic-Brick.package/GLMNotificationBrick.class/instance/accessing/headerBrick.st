@@ -1,2 +1,0 @@
-headerBrick
-	^ headerBrick
