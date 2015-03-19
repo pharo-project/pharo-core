@@ -1,4 +1,4 @@
-script565
+script566
 
 	^ 'AST-Core-TheIntegrator.276.mcz
 AST-Interpreter-Core-TheIntegrator.140.mcz
@@ -32,7 +32,7 @@ Collections-Native-TheIntegrator.9.mcz
 Collections-Sequenceable-TheIntegrator.189.mcz
 Collections-Stack-MarcusDenker.7.mcz
 Collections-Streams-StephaneDucasse.166.mcz
-Collections-Strings-TheIntegrator.344.mcz
+Collections-Strings-TheIntegrator.345.mcz
 Collections-Support-MarcusDenker.57.mcz
 Collections-Unordered-TheIntegrator.207.mcz
 Collections-Weak-TheIntegrator.88.mcz
@@ -154,7 +154,7 @@ MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
 MonticelloGUI-TheIntegrator.329.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 Morphic-Base-TheIntegrator.441.mcz
-Morphic-Core-TheIntegrator.158.mcz
+Morphic-Core-TheIntegrator.159.mcz
 Morphic-Examples-TheIntegrator.40.mcz
 Morphic-Widgets-Basic-TheIntegrator.41.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
@@ -310,7 +310,7 @@ Tool-Profilers-TheIntegrator.17.mcz
 Tool-SystemReporter-StephaneDucasse.10.mcz
 Tool-Transcript-TheIntegrator.12.mcz
 Tool-TxWorkspace-TheIntegrator.6.mcz
-Tool-Workspace-StephaneDucasse.22.mcz
+Tool-Workspace-TheIntegrator.24.mcz
 Tools-TheIntegrator.1503.mcz
 ToolsTest-MarcusDenker.denker.71.mcz
 Traits-TheIntegrator.752.mcz
