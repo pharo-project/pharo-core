@@ -14,8 +14,11 @@ mostUsedToolsOn: aBuilder
 			Smalltalk globals at: #TestRunner ifPresent: [ :class |
 				(aBuilder item: #'Test Runner') 
 					action: [Smalltalk tools openTestRunner]; 
-					icon: class taskbarIcon.
-			].
+					icon: class taskbarIcon ].
+			Smalltalk globals at: #GTSpotter ifPresent: [ :class |
+				(aBuilder item: #'Spotter') 
+					action: [GTSpotterGlobalShortcut openGlobalSpotter]; 
+					icon: FinderUI icon ].
 			(aBuilder item: #'Monticello Browser') 
 				action: [Smalltalk tools openMonticelloBrowser]; 
 				icon: Smalltalk tools monticelloBrowser taskbarIcon]

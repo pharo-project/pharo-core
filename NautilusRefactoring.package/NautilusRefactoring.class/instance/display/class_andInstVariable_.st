@@ -1,7 +1,7 @@
 class: aClass andInstVariable: aBlock
 	| variables index variable class |
 	
-	variables := aClass instanceVariables asArray sort.
+	variables := aClass instanceVariables sorted.
 	index := UIManager default chooseFrom: variables.
 	variable := variables at: index ifAbsent: [ ^ nil ].
 	class := aClass whichClassDefinesInstVar: variable.
