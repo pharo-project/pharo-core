@@ -5,6 +5,6 @@ execute
 				^ self ].
 	configClassName := self configurationClass name asString.
 	(MetacelloToolBox checkForCriticalValidationIssues: configClassName)
-		ifEmpty: [ Komitter openAndCommitToMonticelloWorkingCopiesFilteredBy: self filterBlock ]
+		ifEmpty: [ Komitter openAndCommitToMonticelloWorkingCopiesFilteredBy: self filterBlock ] 
 		ifNotEmptyDo: [ :errors | self alertValidationErrors: errors for: configClassName ]
 		

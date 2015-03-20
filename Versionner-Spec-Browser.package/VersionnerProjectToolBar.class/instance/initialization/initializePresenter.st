@@ -8,4 +8,4 @@ initializePresenter
 	releaseButton action: [ self browser ignoreUnsavedChangesOnDevelopmentIfAny
 								ifTrue: [ self executeWithDevWorkflow: VSReleaseDevelopmentVersionCommand ] ].
 	
-	commitButton action: [ 	(VSSaveProjectCommand target: browser project for: self) execute ].
+	commitButton action: [ (VSSaveProjectCommand target: browser project for: self) execute ].
