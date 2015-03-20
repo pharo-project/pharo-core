@@ -1,3 +1,3 @@
 percent
 
-	^ self / 100.0
+	^ self / 100

@@ -1,4 +1,4 @@
-script567
+script568
 
 	^ 'AST-Core-TheIntegrator.276.mcz
 AST-Interpreter-Core-TheIntegrator.140.mcz
@@ -32,7 +32,7 @@ Collections-Native-TheIntegrator.9.mcz
 Collections-Sequenceable-TheIntegrator.189.mcz
 Collections-Stack-MarcusDenker.7.mcz
 Collections-Streams-StephaneDucasse.166.mcz
-Collections-Strings-TheIntegrator.345.mcz
+Collections-Strings-TheIntegrator.348.mcz
 Collections-Support-MarcusDenker.57.mcz
 Collections-Unordered-TheIntegrator.207.mcz
 Collections-Weak-TheIntegrator.88.mcz
@@ -113,8 +113,8 @@ HelpSystem-Core-TheIntegrator.117.mcz
 HelpSystem-Tests-TheIntegrator.30.mcz
 HudsonBuildTools20-TheIntegrator.65.mcz
 Jobs-EstebanLorenzano.4.mcz
-Kernel-TheIntegrator.1998.mcz
-KernelTests-TheIntegrator.756.mcz
+Kernel-TheIntegrator.1999.mcz
+KernelTests-TheIntegrator.758.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-EstebanLorenzano.45.mcz
 Keymapping-Pragmas-TheIntegrator.50.mcz
@@ -223,7 +223,7 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.121.mcz
 Refactoring-Tests-Critics-MarcusDenker.25.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.21.mcz
+Reflectivity-TheIntegrator.23.mcz
 Reflectivity-Tests-TheIntegrator.12.mcz
 Regex-Core-MarcusDenker.33.mcz
 Regex-Help-MarcusDenker.5.mcz
@@ -250,8 +250,8 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.234.mcz
 ShoutTests-TheIntegrator.27.mcz
-Slot-TheIntegrator.589.mcz
-Slot-Tests-TheIntegrator.27.mcz
+Slot-TheIntegrator.591.mcz
+Slot-Tests-TheIntegrator.29.mcz
 SmartSuggestions-TheIntegrator.147.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
 Spec-Core-TheIntegrator.383.mcz
@@ -291,7 +291,7 @@ System-VMEvents-TheIntegrator.2.mcz
 Tests-TheIntegrator.724.mcz
 Text-Core-StephaneDucasse.31.mcz
 Text-Diff-StephaneDucasse.4.mcz
-Text-Edition-TheIntegrator.73.mcz
+Text-Edition-TheIntegrator.75.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.24.mcz
 Text-Tests-EstebanLorenzano.7.mcz
@@ -313,7 +313,7 @@ Tool-TxWorkspace-TheIntegrator.6.mcz
 Tool-Workspace-TheIntegrator.24.mcz
 Tools-TheIntegrator.1503.mcz
 ToolsTest-MarcusDenker.denker.71.mcz
-Traits-TheIntegrator.752.mcz
+Traits-TheIntegrator.755.mcz
 Transcript-StephaneDucasse.32.mcz
 TxText-Athens-NicolaiHess.42.mcz
 TxText-AthensTests-IgorStasenko.9.mcz

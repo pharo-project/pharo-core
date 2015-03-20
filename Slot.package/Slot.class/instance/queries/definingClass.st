@@ -1,4 +1,4 @@
 definingClass
 	^(Smalltalk globals allClasses flatCollect: [:each | {each . each classSide} ]) 
-		detect: [ :class | class definesSlot: self] 
+		detect: [ :class | class layout definesSlot: self] 
 		ifNone: [ nil ]
