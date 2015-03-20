@@ -1,5 +1,6 @@
 "protocol: accessing"
 selectedClassWithoutChangingSelection: aClass
+
 	self resetCategoriesList.
 	self okToChangeSourceAndComment
 		ifFalse: [ ^ self ].
@@ -7,7 +8,7 @@ selectedClassWithoutChangingSelection: aClass
 		ifNil: [ self unselectClass ]
 		ifNotNil: [ 
 			acceptor := ClassOrMethodDefinitionAcceptor model: self.
-			self classWidget selectClass:aClass .
+			self classWidget selectClass: aClass.
 			commentTextArea ifNotNil: [ commentTextArea enable ].
 			((self selectedPackageIncludes: aClass theNonMetaClass) or: [ model showHierarchy ])
 				ifTrue: [ 

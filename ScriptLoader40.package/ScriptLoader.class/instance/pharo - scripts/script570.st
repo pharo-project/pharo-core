@@ -1,6 +1,6 @@
-script569
+script570
 
-	^ 'AST-Core-TheIntegrator.276.mcz
+	^ 'AST-Core-TheIntegrator.279.mcz
 AST-Interpreter-Core-TheIntegrator.140.mcz
 AST-Interpreter-Test-EstebanLorenzano.97.mcz
 AST-Tests-Core-TheIntegrator.62.mcz
@@ -113,7 +113,7 @@ HelpSystem-Core-TheIntegrator.117.mcz
 HelpSystem-Tests-TheIntegrator.30.mcz
 HudsonBuildTools20-TheIntegrator.65.mcz
 Jobs-EstebanLorenzano.4.mcz
-Kernel-TheIntegrator.1999.mcz
+Kernel-TheIntegrator.2001.mcz
 KernelTests-TheIntegrator.758.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-EstebanLorenzano.45.mcz
@@ -183,8 +183,8 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.90.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-TheIntegrator.897.mcz
-Nautilus-Tests-TheIntegrator.8.mcz
+Nautilus-TheIntegrator.899.mcz
+Nautilus-Tests-TheIntegrator.10.mcz
 NautilusCommon-TheIntegrator.258.mcz
 NautilusRefactoring-TheIntegrator.211.mcz
 Network-Kernel-StephaneDucasse.112.mcz
@@ -327,13 +327,13 @@ UpdateStreamer-Tests-TheIntegrator.9.mcz
 UserManager-Core-MarcusDenker.13.mcz
 UserManager-Tests-TheIntegrator.5.mcz
 Versionner-Core-Announcements-MarcusDenker.11.mcz
-Versionner-Core-Commands-MarcusDenker.49.mcz
+Versionner-Core-Commands-ChristopheDemarey.53.mcz
 Versionner-Core-DependenciesModel-TheIntegrator.95.mcz
-Versionner-Core-Model-TheIntegrator.48.mcz
-Versionner-Spec-Browser-TheIntegrator.168.mcz
+Versionner-Core-Model-ChristopheDemarey.49.mcz
+Versionner-Spec-Browser-ChristopheDemarey.171.mcz
 Versionner-Tests-Core-Commands-TheIntegrator.17.mcz
 Versionner-Tests-Core-DependenciesModel-MarcusDenker.40.mcz
-Versionner-Tests-Core-Model-TheIntegrator.30.mcz
+Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz
 Versionner-Tests-Resources-MarcusDenker.14.mcz
 Zinc-Character-Encoding-Core-SvenVanCaekenberghe.37.mcz
 Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.22.mcz
