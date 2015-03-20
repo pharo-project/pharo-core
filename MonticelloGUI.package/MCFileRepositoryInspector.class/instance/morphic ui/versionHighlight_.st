@@ -1,6 +1,7 @@
 versionHighlight: aString
-	| verName |
+	| verName paName |
 	verName := (aString copyUpToLast: $.) copyUpTo: $(.
+	paName := verName copyUpToLast: $-.
 	^ Text
 		string: aString
 		attribute:
@@ -10,5 +11,8 @@ versionHighlight: aString
 						ifTrue: [ 4	"underlined" ]
 						ifFalse: [ 
 							(newer includes: aString)
-								ifFalse: [ 0 ]
-								ifTrue: [ 1	"bold" ] ]))
+								ifTrue: [ 1	"bold" ]
+								ifFalse: [ 
+									(loadedPackages includes: paName)
+										ifFalse: [ 1 ]
+										ifTrue: [ 0 ] ] ]))
