@@ -1,2 +1,2 @@
 compilationContext
-	^ compilationContext ifNil: [ CompilationContext default ]
+	^ compilationContext

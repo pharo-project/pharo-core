@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '15097 Monticello repository UI not bolding unloaded packages after Lazy MCVersionInfo integrated
-	https://pharo.fogbugz.com/f/cases/15097
+ ^ '15187 Endless loop on catching ZeroDivide for floats
+	https://pharo.fogbugz.com/f/cases/15187
 
-15179 Be able to browse dependent projects with Versionner
-	https://pharo.fogbugz.com/f/cases/15179'
+13523 MNU protocolsFor: when show hierachy, show groups, click on a class
+	https://pharo.fogbugz.com/f/cases/13523
+
+15186 revert 15171
+	https://pharo.fogbugz.com/f/cases/15186'
