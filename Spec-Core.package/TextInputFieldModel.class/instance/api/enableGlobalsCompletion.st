@@ -1,0 +1,2 @@
+enableGlobalsCompletion
+	self entryCompletion: self globalsEntryCompletion

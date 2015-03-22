@@ -1,4 +1,4 @@
-defaultEntryCompletion
+globalsEntryCompletion
 
 	| applicants |
 	applicants := (Array

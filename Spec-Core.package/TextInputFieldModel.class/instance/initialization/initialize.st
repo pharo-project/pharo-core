@@ -4,7 +4,7 @@ initialize
 	
 	ghostText := '' asValueHolder.
 	acceptOnCR := true asValueHolder.
-	entryCompletion := self defaultEntryCompletion asValueHolder.
+	entryCompletion := nil asValueHolder.
 	isEncrypted := false asValueHolder.
 	
 	ghostText  whenChangedDo: [ :txt | self changed: #ghostText: with: { txt } ].

@@ -1,4 +1,4 @@
-script573
+script574
 
 	^ 'AST-Core-TheIntegrator.281.mcz
 AST-Interpreter-Core-TheIntegrator.140.mcz
@@ -154,7 +154,7 @@ MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
 MonticelloGUI-TheIntegrator.331.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 Morphic-Base-TheIntegrator.441.mcz
-Morphic-Core-TheIntegrator.161.mcz
+Morphic-Core-StephaneDucasse.163.mcz
 Morphic-Examples-TheIntegrator.40.mcz
 Morphic-Widgets-Basic-TheIntegrator.41.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
@@ -183,7 +183,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.90.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-TheIntegrator.901.mcz
+Nautilus-StephaneDucasse.903.mcz
 Nautilus-Tests-TheIntegrator.10.mcz
 NautilusCommon-TheIntegrator.258.mcz
 NautilusRefactoring-TheIntegrator.211.mcz
@@ -200,7 +200,7 @@ NonInteractiveTranscript-TheIntegrator.15.mcz
 OSWindow-Core-EstebanLorenzano.18.mcz
 OSWindow-SDL2-EstebanLorenzano.19.mcz
 OSWindow-VM-IgorStasenko.2.mcz
-OpalCompiler-Core-TheIntegrator.634.mcz
+OpalCompiler-Core-StephaneDucasse.636.mcz
 OpalCompiler-Tests-TheIntegrator.277.mcz
 OpalDecompiler-TheIntegrator.31.mcz
 OpalTools-TheIntegrator.16.mcz
@@ -223,8 +223,8 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.121.mcz
 Refactoring-Tests-Critics-MarcusDenker.25.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.23.mcz
-Reflectivity-Tests-TheIntegrator.12.mcz
+Reflectivity-StephaneDucasse.25.mcz
+Reflectivity-Tests-StephaneDucasse.14.mcz
 Regex-Core-MarcusDenker.33.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -254,7 +254,7 @@ Slot-TheIntegrator.591.mcz
 Slot-Tests-StephaneDucasse.31.mcz
 SmartSuggestions-TheIntegrator.147.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
-Spec-Core-StephaneDucasse.385.mcz
+Spec-Core-StephaneDucasse.386.mcz
 Spec-Debugger-TheIntegrator.236.mcz
 Spec-Examples-TheIntegrator.89.mcz
 Spec-Help-TheIntegrator.8.mcz

@@ -7,8 +7,9 @@ updateOnClassSelection
 	self setWindowTitle.
 	self resetCategoriesListSelection.
 	self resetMethodsListSelection.
-
-	self updateCategoryAndMethodList: previousMethod.
+	"self updateCategoryAndMethodList: previousMethod
+		led to 14890 and was reverted"
+	self updateCategoryAndMethodList.
 	self changed: #isAClassSelected.
 	self changed: #getComments.
 	self changed: #instanceButtonLabel.

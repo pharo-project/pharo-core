@@ -1,5 +1,5 @@
 TestCase subclass: #ReflectiveMethodTest
-	instanceVariableNames: ''
+	instanceVariableNames: 'tag'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Reflectivity-Tests'

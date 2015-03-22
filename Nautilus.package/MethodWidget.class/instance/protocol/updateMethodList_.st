@@ -1,5 +1,5 @@
 updateMethodList: aMethodOrNil
-
+	
 	self update: #getMethodItem:.
 	self selectMethod: aMethodOrNil.
 	aMethodOrNil ifNotNil: [  
