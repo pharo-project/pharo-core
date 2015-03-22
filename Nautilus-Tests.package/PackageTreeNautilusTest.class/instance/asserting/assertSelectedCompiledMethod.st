@@ -1,7 +1,5 @@
 assertSelectedCompiledMethod
 	| aText |
-	"test result changed because nautilus behavior has changed.
-	issue 14890 (nhe)"
 	self 
 		assert: nautilus selectedPackage package 
 			equals: compiledMethod package;
@@ -12,7 +10,7 @@ assertSelectedCompiledMethod
 		assert: nautilus selectedCategory 
 			equals: expectedMethodCategory;
 		assert: nautilus selectedMethod 
-			equals: compiledMethod;
+			equals: expectedCompiledMethod;
 		assert: nautilus ui packageWidget selectedPackage package 
 			equals: compiledMethod package;
 		assert: nautilus ui packageWidget selectedPackage item categoryName 
@@ -20,7 +18,7 @@ assertSelectedCompiledMethod
 		assert: nautilus ui classWidget selectedClass 
 			equals: compiledMethod methodClass;
 		assert: nautilus ui methodWidget selectedMethods asArray 
-			equals: ((Array with: compiledMethod) copyWithout: nil).
+			equals: ((Array with: expectedCompiledMethod) copyWithout: nil).
 
 	aText := nautilus ui sourceCodeContainer submorphs first submorphs first submorphs first getText.
 	nautilus selectedMethod 

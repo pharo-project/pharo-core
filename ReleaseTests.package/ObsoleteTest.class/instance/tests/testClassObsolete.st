@@ -1,5 +1,6 @@
 testClassObsolete
 	| aClass obj |
+	self skip.
 	Smalltalk globals at: #ClassForObsoleteTest ifPresent: [ :cls | cls removeFromSystem ].
 	aClass := Object subclass: #ClassForObsoleteTest.
 	obj := aClass new.

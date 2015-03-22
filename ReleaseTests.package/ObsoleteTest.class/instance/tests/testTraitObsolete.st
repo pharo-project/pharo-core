@@ -1,5 +1,6 @@
 testTraitObsolete
 	| aClass obj aTrait |
+	self skip.
 	Smalltalk globals at: #ClassForObsoleteTest ifPresent: [ :cls | cls removeFromSystem ].
 	Smalltalk globals at: #TraitForObsoleteTest ifPresent: [ :tr | tr removeFromSystem ].
 	

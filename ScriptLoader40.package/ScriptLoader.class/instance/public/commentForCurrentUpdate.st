@@ -1,14 +1,9 @@
 commentForCurrentUpdate
- ^ '15192 revert 14890
-	https://pharo.fogbugz.com/f/cases/15192
+ ^ '15206 PostScript was not executed for issue 15182?
+	https://pharo.fogbugz.com/f/cases/15206
 
-15151 TextInputFieldModel creation is slow
-	https://pharo.fogbugz.com/f/cases/15151
+15203 Failing test: PackageTreeNautilusTest>>#testFullBrowseOnClass
+	https://pharo.fogbugz.com/f/cases/15203
 
-15196 Simple before and after links with minimal disturbance
-	https://pharo.fogbugz.com/f/cases/15196
-
-15086 Ctrl + Arrow Behaviour
-	https://pharo.fogbugz.com/f/cases/15086
-
-'
+14470 ReleaseTes>>#testObsoleteClasses failiing due to AnObsoleteClassForObsoleteTest
+	https://pharo.fogbugz.com/f/cases/14470'

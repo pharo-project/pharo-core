@@ -1,4 +1,4 @@
-script574
+script575
 
 	^ 'AST-Core-TheIntegrator.281.mcz
 AST-Interpreter-Core-TheIntegrator.140.mcz
@@ -184,7 +184,7 @@ NativeBoost-Tests-TheIntegrator.90.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
 Nautilus-StephaneDucasse.903.mcz
-Nautilus-Tests-TheIntegrator.10.mcz
+Nautilus-Tests-TheIntegrator.12.mcz
 NautilusCommon-TheIntegrator.258.mcz
 NautilusRefactoring-TheIntegrator.211.mcz
 Network-Kernel-StephaneDucasse.112.mcz
@@ -228,7 +228,7 @@ Reflectivity-Tests-StephaneDucasse.14.mcz
 Regex-Core-MarcusDenker.33.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
-ReleaseTests-TheIntegrator.13.mcz
+ReleaseTests-TheIntegrator.15.mcz
 Ring-Core-Containers-TheIntegrator.41.mcz
 Ring-Core-Kernel-TheIntegrator.207.mcz
 Ring-Monticello-MarcusDenker.29.mcz
