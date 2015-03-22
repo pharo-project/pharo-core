@@ -16,4 +16,5 @@
 	^ self class basicNew
 		setPrivateRed: (self privateRed * multipliers first) asInteger
 		green: (self privateGreen * multipliers second) asInteger
-		blue: (self privateBlue * multipliers third) asInteger.
+		blue: (self privateBlue * multipliers third) asInteger;
+		setAlpha: self alpha

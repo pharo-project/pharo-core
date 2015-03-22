@@ -5,4 +5,5 @@
 	^ self class basicNew
 		setPrivateRed: self privateRed - aColor privateRed
 		green: self privateGreen - aColor privateGreen
-		blue: self privateBlue - aColor  privateBlue
+		blue: self privateBlue - aColor  privateBlue;
+		setAlpha: ((self = aColor) ifTrue: [ 0 ] ifFalse: [ self alpha ])

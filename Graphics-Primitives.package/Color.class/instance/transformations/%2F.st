@@ -5,4 +5,5 @@
 	^ self class basicNew
 		setPrivateRed: (self privateRed / aNumber) asInteger
 		green: (self privateGreen / aNumber) asInteger
-		blue: (self privateBlue / aNumber) asInteger
+		blue: (self privateBlue / aNumber) asInteger;
+		setAlpha: self alpha

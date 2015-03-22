@@ -1,4 +1,4 @@
-script572
+script573
 
 	^ 'AST-Core-TheIntegrator.281.mcz
 AST-Interpreter-Core-TheIntegrator.140.mcz
@@ -101,7 +101,7 @@ Graphics-Display Objects-TheIntegrator.159.mcz
 Graphics-Files-TheIntegrator.58.mcz
 Graphics-Fonts-EstebanLorenzano.96.mcz
 Graphics-Fonts-Tests-EstebanLorenzano.3.mcz
-Graphics-Primitives-StephaneDucasse.153.mcz
+Graphics-Primitives-StephaneDucasse.157.mcz
 Graphics-Resources-EstebanLorenzano.22.mcz
 Graphics-Shapes-TheIntegrator.2.mcz
 Graphics-Tests-TheIntegrator.72.mcz
@@ -161,7 +161,7 @@ Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
 Morphic-Widgets-Extra-TheIntegrator.22.mcz
 Morphic-Widgets-List-TheIntegrator.15.mcz
 Morphic-Widgets-NewList-TheIntegrator.5.mcz
-Morphic-Widgets-Pluggable-TheIntegrator.41.mcz
+Morphic-Widgets-Pluggable-StephaneDucasse.43.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.23.mcz
 Morphic-Widgets-Tabs-TheIntegrator.12.mcz
 Morphic-Widgets-Taskbar-StephaneDucasse.7.mcz
@@ -251,18 +251,18 @@ ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.234.mcz
 ShoutTests-TheIntegrator.27.mcz
 Slot-TheIntegrator.591.mcz
-Slot-Tests-TheIntegrator.29.mcz
+Slot-Tests-StephaneDucasse.31.mcz
 SmartSuggestions-TheIntegrator.147.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
-Spec-Core-TheIntegrator.383.mcz
+Spec-Core-StephaneDucasse.385.mcz
 Spec-Debugger-TheIntegrator.236.mcz
 Spec-Examples-TheIntegrator.89.mcz
 Spec-Help-TheIntegrator.8.mcz
-Spec-Inspector-TheIntegrator.230.mcz
+Spec-Inspector-StephaneDucasse.233.mcz
 Spec-Layout-TheIntegrator.67.mcz
 Spec-MorphicAdapters-TheIntegrator.207.mcz
 Spec-PolyWidgets-TheIntegrator.57.mcz
-Spec-Tests-TheIntegrator.43.mcz
+Spec-Tests-StephaneDucasse.45.mcz
 Spec-Tools-StephaneDucasse.261.mcz
 StartupPreferences-TheIntegrator.131.mcz
 System-Announcements-TheIntegrator.98.mcz
@@ -291,7 +291,7 @@ System-VMEvents-TheIntegrator.2.mcz
 Tests-TheIntegrator.724.mcz
 Text-Core-StephaneDucasse.31.mcz
 Text-Diff-StephaneDucasse.4.mcz
-Text-Edition-TheIntegrator.75.mcz
+Text-Edition-StephaneDucasse.77.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.24.mcz
 Text-Tests-EstebanLorenzano.7.mcz

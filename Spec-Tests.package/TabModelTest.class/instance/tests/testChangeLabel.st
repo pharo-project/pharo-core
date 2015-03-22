@@ -1,4 +1,6 @@
 testChangeLabel
+	"issue 14885"
+
 	| manager tabModel window |
 	manager := TabManagerModel new.
 	tabModel := self redMorphTab.

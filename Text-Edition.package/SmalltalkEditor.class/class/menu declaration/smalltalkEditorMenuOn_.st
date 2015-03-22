@@ -32,9 +32,9 @@ smalltalkEditorMenuOn: aBuilder
 			selector: #inspectIt; 
 			help: nil; 
 			icon: Smalltalk ui icons smallInspectItIcon.
-		(aBuilder item: #'Explore it' translated) 
+		(aBuilder item: #'Basic Inspect it' translated) 
 			keyText: 'I';
-			selector: #exploreIt; 
+			selector: #basicInspectIt; 
 			help: nil; 
 			icon: Smalltalk ui icons smallInspectItIcon ].
 	UserManager default canDebug ifTrue: [

@@ -4,4 +4,5 @@
 	^ self class basicNew
 		setPrivateRed: self privateRed + aColor privateRed
 		green: self privateGreen + aColor privateGreen
-		blue: self privateBlue + aColor  privateBlue
+		blue: self privateBlue + aColor  privateBlue;
+		setAlpha: (self alpha + aColor alpha min: 1.0)
