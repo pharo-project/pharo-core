@@ -1,15 +1,13 @@
 spotterItemsFor: aStep
 	<spotterOrder: 10>
 	| processor |
-	self isEmpty ifTrue: [ ^ self ].
-	(self allSatisfy: [ :each | 
-		each class = GTSpotterCandidateLink ])
-		ifFalse: [ ^ self ].
+	self ifEmpty: [ ^ self ].
 	processor := aStep previousProcessorFrom: self.
 	^ aStep listProcessor
 		title: processor title;
 		candidatesLimit: 100;
-		allCandidates: [ OrderedCollection newFrom: (self collect: #value)];
+		items: [ OrderedCollection newFrom: (self collect: [ :each | each asSpotterCandidateLink value]) ];
 		itemName: processor itemName;
-		filter: GTFilterSubstring;
+		itemFilterName: processor itemFilterName;
+		filter: processor filter gtListFilter;
 		wantsToDisplayOnEmptyQuery: true

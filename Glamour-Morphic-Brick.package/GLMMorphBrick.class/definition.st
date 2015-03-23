@@ -1,5 +1,5 @@
 GLMBrick subclass: #GLMMorphBrick
-	instanceVariableNames: 'morph'
+	instanceVariableNames: 'morph resizing isLayouting vResizing hResizing'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Glamour-Morphic-Brick-Morphic'

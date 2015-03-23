@@ -1,3 +1,0 @@
-addUnhoverAction: anObject
-
-	unhoverAction := anObject

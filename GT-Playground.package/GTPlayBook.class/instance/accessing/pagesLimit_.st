@@ -1,0 +1,2 @@
+pagesLimit: anObject
+	pagesLimit := anObject

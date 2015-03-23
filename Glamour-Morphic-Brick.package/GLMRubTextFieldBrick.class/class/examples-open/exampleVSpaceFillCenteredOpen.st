@@ -1,0 +1,3 @@
+exampleVSpaceFillCenteredOpen
+
+	self exampleVSpaceFillCentered openCenteredInBrickWindow

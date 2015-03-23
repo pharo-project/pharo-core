@@ -1,0 +1,3 @@
+shrinkingWidth
+
+	^ self morph width

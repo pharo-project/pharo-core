@@ -1,7 +1,7 @@
 applyFilterWithQuery
 	| unorderedMatchedItems |
 	unorderedMatchedItems := OrderedCollection new.
-	self allItems do: [ :each | 
+	self allItemsDo: [ :each | 
 		(self isMatchedItem: each)
 				ifTrue: [
 					unorderedMatchedItems isEmpty 

@@ -1,9 +1,7 @@
 categoryAmountStyleFor: aBrick
 
 	aBrick
-		textPosition: #leftCenter;
-		textColor: self titleTextColor;
-		color: self titleBackgroundColor.
+		textPosition: #leftCenter.
 	
 	aBrick label
 		familyName: self titleFamilyName.

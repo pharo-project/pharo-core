@@ -1,3 +1,0 @@
-newRubricMorph
-
-	^ RubTextFieldMorph new

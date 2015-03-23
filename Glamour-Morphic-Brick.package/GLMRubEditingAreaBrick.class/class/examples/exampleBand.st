@@ -6,5 +6,5 @@ exampleBand
 		hSpaceFill;
 		vShrinkWrap;
 		color: Color veryVeryLightGray;
-		addAllBricks: { self new. self new };
+		addAllBricks: { self exampleBasic. self exampleBasic };
 		yourself

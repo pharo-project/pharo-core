@@ -3,7 +3,6 @@ layoutAround: aBrick inContext: aContextBrick
 	aBrick isBrick ifFalse: [ ^ self ].
 	"if my dimension is clean why do you want to layout me?"
 	(self isClean: aBrick) ifTrue: [ ^ self ].
-	self flag: 'find better place'.
 	aBrick changed.
 	"custom dependencies are very dangerous, as it's complicated
 	to detect cycles fast"
@@ -32,3 +31,5 @@ layoutAround: aBrick inContext: aContextBrick
 	"and finally we position them"
 	self layoutSubbricks: aBrick.
 	self layoutSubbricks: aBrick owner.
+	
+	aBrick changed.

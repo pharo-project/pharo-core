@@ -1,0 +1,3 @@
+exampleBandOpen
+
+	self exampleBand openInBrickWindow

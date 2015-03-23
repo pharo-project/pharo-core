@@ -1,2 +1,2 @@
 itemsLimit
-	^ self processor candidatesLimit
+	^ self processor itemsLimit

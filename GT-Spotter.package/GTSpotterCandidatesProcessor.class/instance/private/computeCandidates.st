@@ -1,4 +1,0 @@
-computeCandidates
-
-	^ OrderedCollection new
-	

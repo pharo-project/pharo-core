@@ -1,9 +1,9 @@
 actionsForPreviousContents
-	^ GTPlayBook instance pages
+	^ GTPlayBook instance pagesSorted
 		collect: [ :each | 
 			GLMGenericAction new
 				title: (each content asString contractTo: 50);
 				action: [ :text | 
-					text entity content: each content.
+					text entity saveContent: each content.
 					text update ];
 				yourself ]

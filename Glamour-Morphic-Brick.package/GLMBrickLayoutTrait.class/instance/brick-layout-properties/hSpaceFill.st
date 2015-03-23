@@ -1,4 +1,3 @@
 hSpaceFill
 
-	self layout hSpaceFill.
-	self privateWidth: nil
+	self hSpaceFill: 100

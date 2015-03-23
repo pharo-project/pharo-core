@@ -1,4 +1,3 @@
 vSpaceFill
 
-	self layout vSpaceFill.
-	self privateHeight: nil
+	self vSpaceFill: 100

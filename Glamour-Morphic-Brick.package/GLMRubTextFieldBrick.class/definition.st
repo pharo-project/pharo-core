@@ -1,5 +1,5 @@
 GLMRubScrolledTextBrick subclass: #GLMRubTextFieldBrick
-	instanceVariableNames: ''
+	instanceVariableNames: 'isCentered'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Glamour-Morphic-Brick-Widgets-Core'
+	category: 'Glamour-Morphic-Brick-Widgets-Basic'

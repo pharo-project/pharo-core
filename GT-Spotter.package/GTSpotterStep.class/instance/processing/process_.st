@@ -14,10 +14,7 @@ process: aString
 	self asyncTask
 		execute: [ :aCurrentContext |
 			self spotter notifyContextChangedFrom: lastSearchContext to: self context.
-				self stream removeAllCandidates.
-				[ self relevantProcessorsProcess: aCurrentContext ]
-					on: Error
-					do: [ :e | ('[Spotter] Exception in process: ', e asString) logCr ] ]
+			self processContext: aCurrentContext ]
 		withArguments: { self context. }
 		callback: [
 			lastSearchContext := self context. 

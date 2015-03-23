@@ -1,5 +1,5 @@
 isMatchedItem: anItem
 	| itemName |
-	itemName := self itemNameFor: anItem.
+	itemName := self itemFilterNameFor: anItem.
 	^ self query allSatisfy: [ :fragment | 
 		itemName includesSubstring: fragment caseSensitive: self caseSensitive ]

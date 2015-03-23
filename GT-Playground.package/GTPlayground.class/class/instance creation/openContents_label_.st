@@ -4,7 +4,7 @@ openContents: aString label: aLabel
 	| page |
 
 	page := GTPlayPage new
-		content: aString;
+		saveContent: aString;
 		title: aLabel;
 		yourself.
 	^ self new openOn: page

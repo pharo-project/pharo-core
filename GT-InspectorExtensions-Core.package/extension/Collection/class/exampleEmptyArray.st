@@ -1,0 +1,3 @@
+exampleEmptyArray
+	<example>
+	^ #()

@@ -1,2 +1,0 @@
-defaultCandidatesLimit
-	^ 5

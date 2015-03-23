@@ -5,7 +5,7 @@ openContents: aString
 	| page |
 	
 	page := GTPlayPage new
-		content: aString;
+		saveContent: aString;
 		yourself.
 	^ self new 
 		openOn: page;

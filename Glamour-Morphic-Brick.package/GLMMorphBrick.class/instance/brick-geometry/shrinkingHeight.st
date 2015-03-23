@@ -1,0 +1,3 @@
+shrinkingHeight
+
+	^ self morph height

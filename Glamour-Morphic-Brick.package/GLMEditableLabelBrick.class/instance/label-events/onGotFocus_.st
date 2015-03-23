@@ -1,0 +1,3 @@
+onGotFocus: ann
+
+	self animateToEditFocused

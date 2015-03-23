@@ -1,0 +1,3 @@
+focusedBorderWidth
+
+	^ 1

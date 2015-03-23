@@ -1,3 +1,3 @@
 textColor
 
-	^ Color black
+	^ self color darken

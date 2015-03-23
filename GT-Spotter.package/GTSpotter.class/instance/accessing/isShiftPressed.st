@@ -1,3 +1,3 @@
 isShiftPressed
 
-	^ isShiftPressed ifNil: [ isShiftPressed := true ]
+	^ isShiftPressed ifNil: [ isShiftPressed := false ]

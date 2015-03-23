@@ -1,3 +1,3 @@
 singleClick: evt
 
-	self beSelected
+	self stepModel selected: self candidateLink dueTo: #singleClick

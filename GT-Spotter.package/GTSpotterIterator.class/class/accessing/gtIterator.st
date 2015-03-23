@@ -1,0 +1,2 @@
+gtIterator
+	^ self new

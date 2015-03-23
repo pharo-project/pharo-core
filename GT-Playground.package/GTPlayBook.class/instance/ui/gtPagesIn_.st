@@ -4,4 +4,4 @@ gtPagesIn: composite
 		title: 'Pages';
 		display: [ self pages ];
 		format: #gtDisplayString;
-		filterOn: [ :text :each | text match: each content]
+		filterOn: [ :text :each | text match: each content ]

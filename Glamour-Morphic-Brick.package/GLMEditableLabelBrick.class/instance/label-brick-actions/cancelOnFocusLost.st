@@ -1,0 +1,3 @@
+cancelOnFocusLost
+
+	cancelOnFocusLost := true

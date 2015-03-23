@@ -1,3 +1,4 @@
 showTriangle
 
-	self triangleBrick color: self themer spotterThemer breadcrumbItemBackgroundColor
+	isTriangleVisible := true.
+	self themer spotterThemer breadcrumbItemTriangleWidgetStyleFor: self triangleBrick

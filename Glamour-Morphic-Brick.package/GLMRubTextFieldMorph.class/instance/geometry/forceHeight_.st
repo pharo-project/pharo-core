@@ -1,0 +1,3 @@
+forceHeight: anObject
+
+	customHeight := anObject.

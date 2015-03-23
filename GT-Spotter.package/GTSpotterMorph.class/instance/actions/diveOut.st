@@ -1,3 +1,3 @@
 diveOut
-
-	self spotterModel popStep
+	self spotterModelDo: [ 
+		self spotterModel popStep ]

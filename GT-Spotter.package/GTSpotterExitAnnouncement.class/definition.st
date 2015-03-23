@@ -1,5 +1,5 @@
 Announcement subclass: #GTSpotterExitAnnouncement
-	instanceVariableNames: ''
+	instanceVariableNames: 'eventType'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-Spotter-Announcements'

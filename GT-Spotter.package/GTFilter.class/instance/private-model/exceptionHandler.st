@@ -1,0 +1,2 @@
+exceptionHandler
+	^ GTCurrentSpotterExceptionHandler value

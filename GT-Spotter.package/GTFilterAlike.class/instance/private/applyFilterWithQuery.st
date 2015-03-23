@@ -5,9 +5,9 @@ applyFilterWithQuery
 	" calculate the <similarity> of all items and throw away everything that is below the lower threshold (irrelevant) "			
 	allItemsPrepocessed := OrderedCollection streamContents: [ :allItems | 
 		lower := self lowerThreshold * query size.
-		self allItems do: [ :each | 
+		self allItemsDo: [ :each | 
 			| weight |
-			(weight :=  (self itemNameFor: each) alike: self query) > lower ifTrue: [
+			(weight :=  (self itemFilterNameFor: each) alike: self query) > lower ifTrue: [
 				allItems nextPut: (Array with: weight with: each) ] ] ].
 	" sort all items using <similarity> "
 	allItemsPrepocessedAndSorted := allItemsPrepocessed asSortedCollection: [ :a :b | a first > b first ].

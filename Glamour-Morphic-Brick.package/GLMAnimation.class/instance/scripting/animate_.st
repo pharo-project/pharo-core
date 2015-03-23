@@ -2,7 +2,9 @@ animate: anObject
 
 	self asyncTask terminate.
 	animatedObject := anObject.
+	self reset.
 	
+	stamp := Time millisecondClockValue.
 	self asyncTask
 		doInBackground: [ [ self shouldStop ] whileFalse: [
 				self needsStep ifTrue: [ self animationStep ] ] ];

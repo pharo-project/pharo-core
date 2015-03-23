@@ -1,3 +1,0 @@
-itemFamilyName
-
-	^ 'Open Sans'

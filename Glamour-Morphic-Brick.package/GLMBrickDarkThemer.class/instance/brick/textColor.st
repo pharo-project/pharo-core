@@ -1,3 +1,3 @@
 textColor
 
-	^ Color white slightlyDarker
+	^ self color whiten

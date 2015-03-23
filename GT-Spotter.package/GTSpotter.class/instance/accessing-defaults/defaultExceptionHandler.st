@@ -1,0 +1,2 @@
+defaultExceptionHandler
+	^ GTSpotterDeploymentExceptionHandler new

@@ -6,7 +6,7 @@ spotterPreviewRawIn: aComposite
 		display: [ :anObject | (anObject gtInspectorVariableValuePairs asSortedCollection asOrderedCollection yourself) addFirst: 'self' -> anObject; yourself ];
 		column: 'Variable'
 			evaluated: [:assoc |	GTObjectPrinter new asNonTruncatedTextFrom: assoc key ]
-			styled: [ :aBrick | aBrick textPosition: #rightCenter; margin: #(0 15 0 0); textColor: Color lightGray; height: 30 ];
+			styled: [ :aBrick | aBrick textPosition: #rightCenter; margin: #(0 15 0 0); textColor: aComposite themer textLightColor; height: 30 ];
 		column: 'Value'
 			evaluated: [:assoc | GTObjectPrinter new asTruncatedTextFrom: assoc value ]
 			styled: [ :aBrick | aBrick margin: #(0 0 0 15); height: 30 ];

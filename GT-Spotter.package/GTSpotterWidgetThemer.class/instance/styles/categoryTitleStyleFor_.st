@@ -2,7 +2,6 @@ categoryTitleStyleFor: aBrick
 
 	aBrick
 		useHorizontalLinearLayout;
-		normalColor: self categoryTitleBackgroundColor;
 		height: 30;
 		hSpaceFill;
 		paddingLeft: self categoryNameMarginLeft

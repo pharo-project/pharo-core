@@ -1,0 +1,2 @@
+defaultValue
+	^ GTSpotterExceptionHandlerNotFound signal

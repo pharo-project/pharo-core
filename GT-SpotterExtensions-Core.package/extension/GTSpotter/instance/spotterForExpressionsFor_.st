@@ -1,7 +1,8 @@
 spotterForExpressionsFor: aStep
 	<spotterOrder: 1>
-	| processor |
-	(processor := aStep listProcessor)
+	self flag: #specialFilter.
+	aStep listProcessor
 		title: 'Calculator';
-		filter: [ :context | self evaluateExpressionInContext: context ];
+		filter: GTNullFilter item: [ :filter :context | 
+			self evaluateExpressionInContext: context usingFilter: filter ];
 		wantsToDisplayOnEmptyQuery: false

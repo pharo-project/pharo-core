@@ -11,7 +11,7 @@ createCollapsable
 							height: [ :b | b icon height * 1.2 ];
 							width: [ :b | b icon width * 1.2 ];
 							checkedImage: GLMUIThemeExtraIcons glamorousDown;
-							addUpAction: [ :b | 
+							action: [ :b | 
 								collapsable toggle.
 								collapsable isExpanded
 									ifTrue: [ b check ]

@@ -1,1 +1,0 @@
-A GLMAsyncTaskChain supports a chaing of asynchronous tasks to be executed one by one in background

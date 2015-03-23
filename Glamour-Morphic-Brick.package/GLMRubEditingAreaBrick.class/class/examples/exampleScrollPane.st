@@ -1,10 +1,10 @@
 exampleScrollPane
-	<example: 'Two rubric text areas in scroll pane'>
+	<example: 'Multiple rubric text areas in scroll pane'>
 	
 	^ GLMScrollPaneBrick new
 		hSpaceFill;
 		vSpaceFill;
 		color: Color veryVeryLightGray;
 		layoutMorphs: true;
-		addAllBricks: { self new. self new };
+		addAllBricks: ((1 to: 20) collect: [ :i | self exampleBasic ]);
 		yourself

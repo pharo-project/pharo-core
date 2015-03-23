@@ -1,9 +1,8 @@
 spotterImplementorsFor: aStep
 	<spotterOrder: 30>
+	self flag: #specialFilter.
 	aStep listProcessor
 		title: 'Implementors';
-		filter: [ :context | 
-			GTImplementorsSpotter new
-				context: context;
-				behaviors: SystemNavigation default allBehaviors;
-				find ]
+		itemFilterName: [ :method | method selector asString ];	
+		filter: GTFilterSubstring item: [ :filter :context | 
+			SystemNavigation default allBehaviorsDo: [ :class | class methodsDo: filter ] ]

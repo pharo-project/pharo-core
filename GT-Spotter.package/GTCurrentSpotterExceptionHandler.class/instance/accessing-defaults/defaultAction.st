@@ -1,0 +1,2 @@
+defaultAction
+	^ self class defaultValue

@@ -1,0 +1,2 @@
+queryForItem: each
+	^ self query

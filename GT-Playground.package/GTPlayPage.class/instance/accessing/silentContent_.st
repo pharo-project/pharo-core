@@ -1,2 +1,0 @@
-silentContent: aString
-	content := aString

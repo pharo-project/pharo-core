@@ -1,2 +1,0 @@
-context: aSpotterContext 
-	context := aSpotterContext

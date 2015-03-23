@@ -13,7 +13,7 @@ edit: aString label: aLabel
 	"self halt"
 
 	page := GTPlayPage new
-		content: aString;
+		saveContent: aString;
 		title: aLabel;
 		yourself.
 		

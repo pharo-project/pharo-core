@@ -1,0 +1,3 @@
+exampleBasic
+	<example>
+	^ self new

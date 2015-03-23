@@ -1,0 +1,3 @@
+exampleFullSpaceFillCenteredOpen
+
+	self exampleFullSpaceFillCentered openCenteredInBrickWindow

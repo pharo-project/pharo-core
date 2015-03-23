@@ -1,2 +1,3 @@
-cacheDirectory: aString 
-	cacheDirectory := aString asFileReference
+cacheDirectory: aStringOrFileReference
+
+	cacheDirectory := self ensureDistinctDirectory: aStringOrFileReference

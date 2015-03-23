@@ -1,2 +1,0 @@
-setUp 
-	windows := OrderedCollection new

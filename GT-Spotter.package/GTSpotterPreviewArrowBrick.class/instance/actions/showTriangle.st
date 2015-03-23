@@ -1,4 +1,5 @@
 showTriangle
 
-	self triangleBrick color: self themer spotterThemer previewArrowColor.
+	isTriangleVisible := true.
+	self themer spotterThemer spotterPreviewArrowWidgetStyleFor: self triangleBrick.
 	self changed

@@ -1,0 +1,2 @@
+prepareProcessorInContext: aContext
+	allFilteredCandidates := nil

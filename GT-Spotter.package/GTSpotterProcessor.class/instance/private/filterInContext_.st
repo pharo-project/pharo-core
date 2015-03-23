@@ -1,8 +1,7 @@
 filterInContext: aSpotterContext
-	
-	allFilteredCandidates := nil.
-	(aSpotterContext notEmpty or: [ self wantsToDisplayOnEmptyQuery ]) ifTrue: [
-		allFilteredCandidates := self doFilterInContext: aSpotterContext ].
-	aSpotterContext stream 
-		performSymbol: #onAmountChanged:in: 
-		withArguments: { self allFilteredCandidates size . self }
+	[ self basicFilterInContext: aSpotterContext ]
+		on: Error 
+		do: [ :exception | 
+			self exceptionHandler 
+				handleException: exception 
+				do: [ ('[Spotter] Exception in processor <', self title asString, '>: ', exception asString) logCr ] ]

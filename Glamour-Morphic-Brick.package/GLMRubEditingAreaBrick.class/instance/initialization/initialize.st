@@ -3,5 +3,4 @@ initialize
 	
 	self
 		hSpaceFill;
-		height: 0.
-	isLayouting := false
+		vShrinkWrap

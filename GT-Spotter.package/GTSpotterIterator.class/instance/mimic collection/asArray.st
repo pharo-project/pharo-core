@@ -1,0 +1,2 @@
+asArray
+	^ self items asArray

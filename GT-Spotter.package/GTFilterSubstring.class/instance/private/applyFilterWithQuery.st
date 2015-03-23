@@ -2,9 +2,9 @@ applyFilterWithQuery
 	| prefixMatches otherMatches |
 	prefixMatches := OrderedCollection  new.
 	otherMatches := OrderedCollection new.
-	self allItems do: [ :each | 
+	self allItemsDo: [ :each | 
 		| index |
-		index := (self itemNameFor: each) findString: self query startingAt: 1 caseSensitive: self caseSensitive.
+		index := self indexForItem: each.
 		index >= 1 ifTrue: [
 			index = 1 
 				ifTrue: [ 

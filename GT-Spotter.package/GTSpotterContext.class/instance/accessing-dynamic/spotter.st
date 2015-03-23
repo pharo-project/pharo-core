@@ -1,0 +1,2 @@
+spotter
+	^ self step spotter

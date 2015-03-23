@@ -7,6 +7,6 @@ triggerBrick: aBrick
 		borderWidth: self themer popupThemer borderWidth;
 		borderDo: [ :b | b widthTop: 0 ];
 		marginTop: self themer popupThemer borderWidth negated;
-		addUpAction: [ :b :evt | self close. self anchorBrick click: evt ].
+		action: [ :b :evt | self close. self anchorBrick click: evt ].
 		
 	self addBrickBack: self triggerBrick.

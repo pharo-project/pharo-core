@@ -1,2 +1,0 @@
-candidatesLimit: anInteger
-	candidatesLimit := anInteger

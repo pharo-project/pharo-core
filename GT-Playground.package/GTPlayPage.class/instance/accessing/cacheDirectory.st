@@ -1,2 +1,0 @@
-cacheDirectory
-	^ GTPlayBook cacheDirectory

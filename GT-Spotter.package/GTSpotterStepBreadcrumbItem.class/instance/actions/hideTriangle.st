@@ -1,3 +1,4 @@
 hideTriangle
 
-	self triangleBrick color: Color transparent
+	isTriangleVisible := false.
+	self themer spotterThemer breadcrumbItemTriangleWidgetStyleFor: self triangleBrick

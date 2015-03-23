@@ -1,0 +1,2 @@
+defaultItemsClass
+	^ OrderedCollection 

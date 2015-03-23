@@ -1,2 +1,2 @@
 isMatchedItem: anItem
-	^ self regex matches: (self itemNameFor: anItem)
+	^ self regex matches: (self itemFilterNameFor: anItem)

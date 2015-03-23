@@ -20,7 +20,7 @@ render: aPresentation
 				addLazyPage: [ self renderObject: each ]
 				label: (self titleOrIconOf: each in: tabs)
 				toolbar: (self renderToolbarForPresentation: each inMorph: tabs)
-				action: (self labelActionTrickFor: each) ].
+				action: (self labelActionBrickFor: each) ].
 	index := 1.
 	presentations
 		withIndexDo: [ :each :i | 

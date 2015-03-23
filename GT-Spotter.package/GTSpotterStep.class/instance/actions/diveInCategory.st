@@ -1,6 +1,4 @@
 diveInCategory
 
-	self spotter
-		requestNextCategoryStepWith: self selected processorLink;
-		notifyDiveInCategory: self selected processor
+	^ self diveInCategoryDueTo: #unknown
 	

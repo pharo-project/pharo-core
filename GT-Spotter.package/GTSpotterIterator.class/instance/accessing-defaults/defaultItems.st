@@ -1,0 +1,2 @@
+defaultItems
+	^ self defaultItemsClass new 

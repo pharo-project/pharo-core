@@ -1,0 +1,3 @@
+exampleA
+	<example>
+	^ $A

@@ -1,4 +1,5 @@
 hideTriangle
 
-	self triangleBrick color: Color transparent.
+	isTriangleVisible := false.
+	self themer spotterThemer spotterPreviewArrowWidgetStyleFor: self triangleBrick.
 	self changed

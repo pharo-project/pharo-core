@@ -1,0 +1,2 @@
+fileName: anObject
+	fileName := anObject

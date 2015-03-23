@@ -5,6 +5,7 @@ labelBrick: anObject
 		vShrinkWrap;
 		hShrinkWrap;
 		text: 'button';
+		textPosition: #center;
 		vAlign: #center;
 		hAlign: #center.
 	

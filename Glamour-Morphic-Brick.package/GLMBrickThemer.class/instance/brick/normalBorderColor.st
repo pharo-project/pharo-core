@@ -1,0 +1,3 @@
+normalBorderColor
+
+	^ self color silver

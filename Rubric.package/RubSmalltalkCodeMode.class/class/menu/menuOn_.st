@@ -28,9 +28,9 @@ menuOn: aBuilder
 				selector: #inspectIt;
 				help: nil;
 				icon: uitheme smallInspectItIcon.
-			(aBuilder item: #'Explore it' translated)
+			(aBuilder item: #'Basic Inspect it' translated)
 				keyText: 'I';
-				selector: #exploreIt;
+				selector: #basicInspectIt;
 				help: nil;
 				icon: uitheme smallInspectItIcon ].
 	self currentUser canDebug

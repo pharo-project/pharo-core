@@ -1,0 +1,3 @@
+hoverIcon
+
+	^ self selectedImage

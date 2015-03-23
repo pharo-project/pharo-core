@@ -3,9 +3,7 @@ categoryTitleNameStyleFor: aBrick
 	aBrick
 		vSpaceFill;
 		textPosition: #leftCenter;
-		textColor: self titleTextColor;
-		width: [ :name | (aBrick owner innerBounds width) min: ((name label textSize x) + name label hMargin) ];
-		color: self titleBackgroundColor.
+		width: [ :name | (aBrick owner innerBounds width) min: ((name label textSize x) + name label hMargin) ].
 	
 	aBrick label
 		familyName: self titleFamilyName.

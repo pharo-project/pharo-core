@@ -1,0 +1,3 @@
+exampleSpace
+	<example>
+	^ self space

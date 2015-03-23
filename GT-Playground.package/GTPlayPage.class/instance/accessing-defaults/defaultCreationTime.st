@@ -1,0 +1,2 @@
+defaultCreationTime
+	^ self defaultTimestamp

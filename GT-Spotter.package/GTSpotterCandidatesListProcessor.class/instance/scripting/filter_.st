@@ -1,2 +1,2 @@
-filter: aBlockWithOneArgument
-	filterBlock := aBlockWithOneArgument 
+filter: aGTFilterOrBlockWithOneArgument
+	filterBlock := aGTFilterOrBlockWithOneArgument 

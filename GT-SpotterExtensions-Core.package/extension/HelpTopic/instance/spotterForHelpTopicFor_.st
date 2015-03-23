@@ -1,13 +1,12 @@
 spotterForHelpTopicFor: aStep
 	<spotterOrder: 200>
+	self flag: 'filter for multiple items like #title + #contents (combined by OR)'.
+	self flag: #specialFilter.
 	aStep listProcessor 
-		allCandidates: [ self subtopics ];
 		title: 'Help contents';
+		items: [ self subtopics ];
 		itemName: [ :helpTopic | helpTopic title ];
 		itemIcon: [ :helpTopic | helpTopic gtTopicIcon ];
-		filter: (GTFilterBlock new 
-			matcher: [ :item :context |				
-				(context cacheAt: #queryForHelpTopics ifAbsentPut: [ context textLowercase splitOn: ' ' ])
-					 allSatisfy: [ :each | item contents asString includesSubstring: each ] ];
-		yourself);
+		itemFilterName: [ :helpTopic | helpTopic contents asString ]; " the filter should only scan the contents / maybe title too ? "
+		filter: GTFilterSubstrings;
 		wantsToDisplayOnEmptyQuery: true

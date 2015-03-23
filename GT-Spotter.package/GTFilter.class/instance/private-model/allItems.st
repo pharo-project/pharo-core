@@ -1,2 +1,2 @@
 allItems
-	^ self processor allCandidates
+	^ self processor allItemsIn: self context

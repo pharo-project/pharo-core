@@ -1,0 +1,3 @@
+newEditBrick
+
+	^ GLMRubTextFieldBrick new

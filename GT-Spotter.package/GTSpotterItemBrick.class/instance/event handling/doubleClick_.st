@@ -1,3 +1,3 @@
 doubleClick: evt
 
-	self stepModel act
+	self stepModel actDueTo: #doubleClick

@@ -1,0 +1,3 @@
+textSecondaryColor
+
+	^ Color white

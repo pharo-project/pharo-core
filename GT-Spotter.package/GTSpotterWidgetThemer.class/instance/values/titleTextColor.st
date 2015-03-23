@@ -1,3 +1,3 @@
 titleTextColor
 
-	^ self titleBackgroundColor muchDarker
+	^ self themer textLightColor

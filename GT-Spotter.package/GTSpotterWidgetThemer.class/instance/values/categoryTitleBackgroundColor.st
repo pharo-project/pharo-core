@@ -1,3 +1,3 @@
 categoryTitleBackgroundColor
 
-	^ Color white alpha: 0.95
+	^ self backgroundColor alpha: 0.95

@@ -4,24 +4,24 @@ initializeListeners
 	
 	Morph announcer weak on: MorphLostFocus send: #onLostFocus: to: self.
 	
-	self bindKeyCombination: Character escape toAction: [ self spotterModel exit ].
-	self bindKeyCombination: $w command toAction: [ self spotterModel exit ].
+	self bindKeyCombination: Character escape toAction: [ self spotterModel exitDueTo: #keyPressedEscape ].
+	self bindKeyCombination: $w command toAction: [ self spotterModel exitDueTo: #keyPressedW ].
 	self bindKeyCombination: $p command toAction: [ self togglePreview ].
 	
-	self bindKeyCombination: Character arrowUp toAction: [ self selectPreviousCandidate ].
-	self bindKeyCombination: Character arrowDown toAction: [ self selectNextCandidate ].
-	self bindKeyCombination: Character arrowUp command toAction: [ self selectPreviousCandidate ].
-	self bindKeyCombination: Character arrowDown command toAction: [ self selectNextCandidate ].
-	self bindKeyCombination: Character arrowUp shift toAction: [ self selectPreviousCandidate ].
-	self bindKeyCombination: Character arrowDown shift toAction: [ self selectNextCandidate ].
+	self bindKeyCombination: Character arrowUp toAction: [ self selectPreviousCandidateDueTo: #keyPressedArrowUp ].
+	self bindKeyCombination: Character arrowDown toAction: [ self selectNextCandidateDueTo: #keyPressedArrowDown ].
+	self bindKeyCombination: Character arrowUp command toAction: [ self selectPreviousCandidateDueTo: #keyPressedArrowUp ].
+	self bindKeyCombination: Character arrowDown command toAction: [ self selectNextCandidateDueTo: #keyPressedArrowDown ].
+	self bindKeyCombination: Character arrowUp shift toAction: [ self selectPreviousCandidateDueTo: #keyPressedArrowUp ].
+	self bindKeyCombination: Character arrowDown shift toAction: [ self selectNextCandidateDueTo: #keyPressedArrowDown ].
 	
 	self bindKeyCombination: Character arrowUp command shift toAction: [ self selectPreviousCategory ].
 	self bindKeyCombination: Character arrowDown command shift toAction: [ self selectNextCategory ].
 	
-	self bindKeyCombination: Character arrowRight command toAction: [ self diveIn ].
+	self bindKeyCombination: Character arrowRight command toAction: [ self diveInDueTo: #keyPressed ].
 	self bindKeyCombination: Character arrowLeft command toAction: [ self diveOut ].
 
-	self bindKeyCombination: Character arrowRight command shift toAction: [ self diveInCategory ].
+	self bindKeyCombination: Character arrowRight command shift toAction: [ self diveInCategoryDueTo: #keyPressed ].
 	self bindKeyCombination: Character arrowLeft command shift toAction: [ self diveOut ].
 	
 	self bindKeyCombination: Character arrowUp alt toAction: [ self stepScrollPageUp ].
@@ -31,7 +31,7 @@ initializeListeners
 	
 	self 
 		bindKeyCombination: Character cr asKeyCombination 
-		toAction: [ self act ].
+		toAction: [ self actDueTo: #keyPressed ].
 		
 	self 
 		bindKeyCombination: $p command shift 

@@ -1,0 +1,2 @@
+defaultDirectory
+	^ 'play-cache/' asFileReference

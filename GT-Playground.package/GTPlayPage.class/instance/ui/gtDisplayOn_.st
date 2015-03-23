@@ -1,2 +1,2 @@
 gtDisplayOn: stream
-	stream nextPutAll: (self content asString copyReplaceAll: String cr with: String space)
+	stream nextPutAll: (self contentString copyReplaceAll: String cr with: String space)

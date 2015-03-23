@@ -1,3 +1,3 @@
 exit
 
-	self notifySpotterExit
+	self exitDueTo: #unknown

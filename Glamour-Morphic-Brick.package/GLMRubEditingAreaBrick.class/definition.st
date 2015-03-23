@@ -1,5 +1,5 @@
 GLMRubScrolledTextBrick subclass: #GLMRubEditingAreaBrick
-	instanceVariableNames: 'isLayouting'
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Glamour-Morphic-Brick-Widgets-Core'
+	category: 'Glamour-Morphic-Brick-Widgets-Basic'

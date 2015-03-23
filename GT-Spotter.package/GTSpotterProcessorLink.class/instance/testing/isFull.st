@@ -1,3 +1,3 @@
 isFull
 
-	^ self size = self processor candidatesLimit
+	^ self size = self processor itemsLimit

@@ -1,5 +1,5 @@
 drawOn: aCanvas
-	super drawOn: aCanvas.
+	"super drawOn: aCanvas."
 	
 	"translating canvas coordinates"
 	 (aCanvas isKindOf: ClippingCanvas) ifTrue: [ ^self "no need to draw anything" ].

@@ -1,7 +1,7 @@
 calculateTextPosition
 
 	self textPosition = #leftCenter ifTrue: [ 
-		^ (self brickBounds origin + self textPositionVerticalCenter) floor
+		^ (self brickBounds origin + self textPositionVerticalCenter) truncated
 	].
 
 	self textPosition = #center ifTrue: [ 

@@ -1,3 +1,5 @@
 evaluateSelection
 
-	self evaluateSelectionAndDo: [ :result | result ]
+	self announce: (GLMEvaluateSelection new 
+		action: [ :result | result ];
+		makeSyncronous)

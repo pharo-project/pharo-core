@@ -1,7 +1,11 @@
 markDependent: aBrick
 
 	(aBrick wrappedBounds isWidthDirty | aBrick wrappedBounds isHeightDirty)
-		ifTrue: [ aBrick layout markDirty ].
+		ifTrue: [
+			"we mark layout as dirty of brick itself"
+			aBrick layout markDirty.
+			"and its direct parent"
+			aBrick owner ifNotNil: [ :o | o isBrick ifTrue: [ o layout markDirty ] ] ].
 
 	aBrick wrappedBounds isWidthDirty
 		ifTrue: [ self widthTraverser markDirtyAround: aBrick inContext: nil ].

@@ -1,0 +1,2 @@
+defaultPages
+	^ OrderedCollection new

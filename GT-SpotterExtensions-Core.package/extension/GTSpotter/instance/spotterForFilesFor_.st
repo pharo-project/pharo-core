@@ -1,12 +1,10 @@
 spotterForFilesFor: aStep
 	<spotterOrder: 40>
-	| processor |
-	processor := aStep listProcessor.
-	processor
+	self flag: #specialFilter.
+	aStep listProcessor
 		title: 'Files';
 		itemIcon: [ GLMUIThemeExtraIcons glamorousBrowse ];
-		wantsToDisplayOnEmptyQuery: false;
-		filter: [ :context | 
-			self
-				filterInContext: context
-				forReferencesComputedAs: [ :root | root files ] ]
+		itemFilterName: [ :reference | reference basename ];
+		filter: GTFilterFileReference item: [ :filter :context | 
+			self fileReferencesBy: #files inContext: context usingFilter: filter ];
+		wantsToDisplayOnEmptyQuery: false

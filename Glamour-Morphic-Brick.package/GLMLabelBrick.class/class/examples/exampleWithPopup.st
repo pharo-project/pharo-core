@@ -3,6 +3,7 @@ exampleWithPopup
 	^ self new
 		enable;
 		text: 'Hello';
+		textPosition: #center;
 		familyName: 'Bitmap DejaVu Sans';
 		fontSize: 11;
 		padding: 5;

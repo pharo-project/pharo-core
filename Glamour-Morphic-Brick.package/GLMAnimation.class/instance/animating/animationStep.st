@@ -1,5 +1,5 @@
 animationStep
-	|delta stepValue currentTime stop|
+	|delta stepValue currentTime stop stepStamp|
 	self needsStep: false.
 	currentTime := Time millisecondClockValue.
 	stop := currentTime >= self finishTime.
@@ -11,9 +11,9 @@ animationStep
 		brickValue: self animatedObject
 		withEnoughArguments: { self fromValue . self toValue . delta }.
 	(delta = 1) | (stepValue = self toValue) ifTrue: [ stop := true ].
-	
+	stepStamp := stamp.
 	UIManager default defer: [
-		self asyncTask isTerminated ifFalse: [
+		self asyncTask isTerminated not & (stepStamp = stamp) ifTrue: [
 			steppedLogic brickValue: self animatedObject withEnoughArguments: { delta }.
 			animationLogic brickValue: self animatedObject withEnoughArguments: { stepValue }.
 			stop

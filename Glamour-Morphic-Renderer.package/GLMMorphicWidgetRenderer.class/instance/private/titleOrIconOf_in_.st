@@ -5,6 +5,7 @@ titleOrIconOf: aPresentation in: container
 			image := GLMInteractableBrick new
 						normalImage: aPresentation titleIconValue.
 			image maxWidth: [ aPresentation titleIconValue width * 2 ].
+			image hSpaceFill.
 			image vSpaceFill.
 			aPresentation titleValue ifNotNil: [
 				image setBalloonText: aPresentation titleValue maxLineLength: 100 ].

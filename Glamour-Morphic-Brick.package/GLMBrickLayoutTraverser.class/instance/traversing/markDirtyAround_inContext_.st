@@ -12,13 +12,17 @@ markDirtyAround: aBrick inContext: aContextBrick
 				((self isDependsOnMyself: aBrick) | (self isDependsOnChildren: aBrick) | (self isDependsOnOpposite: aBrick))
 					ifTrue: [ (aBrick owner subbricks anySatisfy: [ :each | self isDependsOnParent: each]) ifTrue: [
 						self markDirty: aBrick owner.
-						self markDirtyChildrenAround: aBrick owner inContext: aBrick ] ] ] ] ].
+						self markDirtyChildrenAround: aBrick owner inContext: aBrick ] ].
+				
+				(self isClean: aBrick owner) ifTrue:[ 
+					(aBrick floating = #none) not | (aBrick vAlign = #none) not | (aBrick hAlign = #none) not ifTrue: [ 
+						self markLayoutDirty: aBrick owner ] ] ] ] ].
 	
 	aBrick subbricks do: [ :each |
 		each = aContextBrick ifFalse: [
 			each isBrick ifTrue: [
 			((self isDependsOnParent: each) & (self isClean: each))
-					| (each floating = #none) not | (each vAlign = #none) | (each hAlign = #none) not ifTrue: [
+					| (each floating = #none) not | (each vAlign = #none) not | (each hAlign = #none) not ifTrue: [
 				self markDirty: each.
 				self markDirtyAround: each inContext: aBrick ] ] ] ].
 	

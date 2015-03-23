@@ -22,6 +22,13 @@ executionSelectionActions
 				icon: GLMUIThemeExtraIcons glamorousInspect;
 				yourself.
 		(GLMGenericAction new) 
+				title: 'Basic Inspect it'; 
+				action: [ :aPresentation |
+					aPresentation highlightEvaluateAndDo: [ :result | result basicInspect ] ]; 
+				shortcut: $I; 
+				icon: GLMUIThemeExtraIcons glamorousInspect;
+				yourself.
+		(GLMGenericAction new) 
 				title: 'Debug it'; 
 				action: [ :aPresentation |
 					aPresentation debugSelection ]; 

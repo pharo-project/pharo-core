@@ -1,2 +1,0 @@
-behaviors: aCollection 
-	behaviors := aCollection

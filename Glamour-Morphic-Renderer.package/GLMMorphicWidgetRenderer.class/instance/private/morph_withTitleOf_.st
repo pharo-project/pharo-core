@@ -13,6 +13,6 @@ morph: aMorph withTitleOf: aPresentation
 		addLazyPage: [aMorph]
 		label: (self titleOrIconOf: aPresentation in: tabs)
 		toolbar: (self renderToolbarForPresentation: aPresentation inMorph: aMorph)
-		action: (self labelActionTrickFor: aPresentation).
+		action: (self labelActionBrickFor: aPresentation).
 	tabs selectedPageIndex: 1.
 	^ tabs

@@ -1,12 +1,10 @@
 spotterForDirectoriesFor: aStep
 	<spotterOrder: 50>
-	| processor |
-	processor := aStep listProcessor.
-	processor
+	self flag: #specialFilter.
+	aStep listProcessor
 		title: 'Directories';
 		itemIcon: [ GLMUIThemeExtraIcons glamorousFolder ];
-		wantsToDisplayOnEmptyQuery: false;
-		filter: [ :context | 
-			self
-				filterInContext: context
-				forReferencesComputedAs: [ :root | root directories ] ]
+		itemFilterName: [ :reference | reference basename ];
+		filter: GTFilterFileReference item: [ :filter :context | 
+			self fileReferencesBy: #directories inContext: context usingFilter: filter ];
+		wantsToDisplayOnEmptyQuery: false	

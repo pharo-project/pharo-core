@@ -8,7 +8,7 @@ settingsOn: aBuilder
 		setSelector: #setGTPlaygroundEnabledStatus:; 
 		label: 'GTPlayground';
 		description: 'Enable or disable the GTPlayground.'.
-	(aBuilder setting: #cacheDirectory)
+	(aBuilder setting: #customDirectory)
 		parent: #gt;
 		type: #Directory;
 		target: GTPlayBook;

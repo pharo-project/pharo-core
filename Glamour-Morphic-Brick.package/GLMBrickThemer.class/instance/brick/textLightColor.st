@@ -1,0 +1,3 @@
+textLightColor
+
+	^ Color gray
