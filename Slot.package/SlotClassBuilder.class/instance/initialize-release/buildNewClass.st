@@ -17,8 +17,7 @@ buildNewClass
 	newClass declareClassVariables: sharedVariables.
 	newClass sharing: sharedPoolsString.
 	
-	SystemAnnouncer uniqueInstance suspendAllWhile: [
-			comment ifNotNil: [newClass classComment: comment stamp: commentStamp]].
+	comment ifNotNil: [newClass classComment: comment stamp: commentStamp].
 	
 	installer classAdded: newClass inCategory: category.
 	

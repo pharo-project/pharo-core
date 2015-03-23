@@ -1,6 +1,6 @@
 extendedSearchMenuOn: aBuilder
 	(aBuilder item: #'extendedSearch' translated)
-		label: 'Extended search...' translated;
+		label: 'Code search...' translated;
 		withSeparatorAfter;
 		with: [ 
 					(aBuilder item: #'browse it' translated)

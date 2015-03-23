@@ -1,4 +1,4 @@
-script576
+script577
 
 	^ 'AST-Core-TheIntegrator.281.mcz
 AST-Interpreter-Core-TheIntegrator.140.mcz
@@ -235,7 +235,7 @@ Ring-Monticello-MarcusDenker.29.mcz
 Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.83.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
-Rubric-AlainPlantec.179.mcz
+Rubric-TheIntegrator.181.mcz
 SUnit-Core-TheIntegrator.135.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Tests-TheIntegrator.48.mcz
@@ -250,7 +250,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.234.mcz
 ShoutTests-TheIntegrator.27.mcz
-Slot-TheIntegrator.591.mcz
+Slot-TheIntegrator.593.mcz
 Slot-Tests-StephaneDucasse.31.mcz
 SmartSuggestions-TheIntegrator.147.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
@@ -313,7 +313,7 @@ Tool-TxWorkspace-TheIntegrator.6.mcz
 Tool-Workspace-TheIntegrator.24.mcz
 Tools-TheIntegrator.1503.mcz
 ToolsTest-MarcusDenker.denker.71.mcz
-Traits-TheIntegrator.755.mcz
+Traits-TheIntegrator.757.mcz
 Transcript-StephaneDucasse.32.mcz
 TxText-Athens-NicolaiHess.42.mcz
 TxText-AthensTests-IgorStasenko.9.mcz
