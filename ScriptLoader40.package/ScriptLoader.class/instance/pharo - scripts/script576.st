@@ -1,4 +1,4 @@
-script575
+script576
 
 	^ 'AST-Core-TheIntegrator.281.mcz
 AST-Interpreter-Core-TheIntegrator.140.mcz
@@ -113,8 +113,8 @@ HelpSystem-Core-TheIntegrator.117.mcz
 HelpSystem-Tests-TheIntegrator.30.mcz
 HudsonBuildTools20-TheIntegrator.65.mcz
 Jobs-EstebanLorenzano.4.mcz
-Kernel-TheIntegrator.2003.mcz
-KernelTests-TheIntegrator.758.mcz
+Kernel-TheIntegrator.2004.mcz
+KernelTests-TheIntegrator.760.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-EstebanLorenzano.45.mcz
 Keymapping-Pragmas-TheIntegrator.50.mcz
@@ -161,7 +161,7 @@ Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
 Morphic-Widgets-Extra-TheIntegrator.22.mcz
 Morphic-Widgets-List-TheIntegrator.15.mcz
 Morphic-Widgets-NewList-TheIntegrator.5.mcz
-Morphic-Widgets-Pluggable-StephaneDucasse.43.mcz
+Morphic-Widgets-Pluggable-TheIntegrator.44.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.23.mcz
 Morphic-Widgets-Tabs-TheIntegrator.12.mcz
 Morphic-Widgets-Taskbar-StephaneDucasse.7.mcz
@@ -200,7 +200,7 @@ NonInteractiveTranscript-TheIntegrator.15.mcz
 OSWindow-Core-EstebanLorenzano.18.mcz
 OSWindow-SDL2-EstebanLorenzano.19.mcz
 OSWindow-VM-IgorStasenko.2.mcz
-OpalCompiler-Core-StephaneDucasse.636.mcz
+OpalCompiler-Core-TheIntegrator.638.mcz
 OpalCompiler-Tests-TheIntegrator.277.mcz
 OpalDecompiler-TheIntegrator.31.mcz
 OpalTools-TheIntegrator.16.mcz
@@ -224,7 +224,7 @@ Refactoring-Tests-Core-TheIntegrator.121.mcz
 Refactoring-Tests-Critics-MarcusDenker.25.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
 Reflectivity-StephaneDucasse.25.mcz
-Reflectivity-Tests-StephaneDucasse.14.mcz
+Reflectivity-Tests-TheIntegrator.16.mcz
 Regex-Core-MarcusDenker.33.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz

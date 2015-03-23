@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '15206 PostScript was not executed for issue 15182?
-	https://pharo.fogbugz.com/f/cases/15206
+ ^ '12569 TextModel should not move scroll when accepting text
+	https://pharo.fogbugz.com/f/cases/12569
 
-15203 Failing test: PackageTreeNautilusTest>>#testFullBrowseOnClass
-	https://pharo.fogbugz.com/f/cases/15203
+15141 More Cleanup after case 14353 Delay refactoring (part 2)
+	https://pharo.fogbugz.com/f/cases/15141
 
-14470 ReleaseTes>>#testObsoleteClasses failiing due to AnObsoleteClassForObsoleteTest
-	https://pharo.fogbugz.com/f/cases/14470'
+15207 Undo compiler change from case 15196
+	https://pharo.fogbugz.com/f/cases/15207'

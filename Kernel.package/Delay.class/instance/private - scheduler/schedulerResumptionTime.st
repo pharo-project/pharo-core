@@ -1,6 +1,5 @@
 schedulerResumptionTime
-	"Answer the value of the system's millisecondClock at which the receiver's suspended Process will resume."
-
-	"TODO Issue 15110: Clean this so it only returns /schedulerResumptionTime/"
+	"Answer the value of the system clock at which the receiver's suspended Process will resume.
+	The semantics of whether this is a millisecond or microsecond value depends on which scheduler is in use."
 	
-	^ schedulerResumptionTime  ifNil: [ resumptionTime ifNil: [ 0 ] ]
+	^ schedulerResumptionTime 
