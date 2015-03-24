@@ -1,2 +1,0 @@
-methodClass
-	^ self homeContext methodClass

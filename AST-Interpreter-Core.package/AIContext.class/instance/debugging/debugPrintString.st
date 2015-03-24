@@ -1,2 +1,0 @@
-debugPrintString
-	self subclassResponsibility 

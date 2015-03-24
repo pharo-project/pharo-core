@@ -1,3 +1,0 @@
-homeContext: aContext
-
-	homeContext := aContext

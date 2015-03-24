@@ -1,2 +1,0 @@
-context: aContext
-	context := aContext

@@ -1,2 +1,0 @@
-createTemp
-	context createTemp: variableName

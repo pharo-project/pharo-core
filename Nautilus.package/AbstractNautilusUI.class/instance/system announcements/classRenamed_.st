@@ -7,4 +7,8 @@ classRenamed: anAnnouncement
 	((self showGroups 
 	and: [ self selectedGroup elements includes: class ]) 
 	or: [ self classWidget getClassesList includes: class ])
-			ifTrue: [ self updateClassView ]
+			ifTrue: [ 
+				self updateClassView.
+				sourceTextArea hasUnacceptedEdits 
+					ifFalse: [ self changed: #sourceCodeFrom: ]
+				]

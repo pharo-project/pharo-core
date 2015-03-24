@@ -1,3 +1,0 @@
-outerContext: anObject
-	
-	outerContext := anObject

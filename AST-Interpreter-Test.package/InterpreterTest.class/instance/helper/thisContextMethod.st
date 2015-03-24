@@ -1,2 +1,0 @@
-thisContextMethod
-	^thisContext

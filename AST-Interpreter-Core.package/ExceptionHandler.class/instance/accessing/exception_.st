@@ -1,3 +1,0 @@
-exception: anException
-
-	exception := anException

@@ -1,2 +1,0 @@
-returningBlockArg
-	^ [:arg| ^arg]

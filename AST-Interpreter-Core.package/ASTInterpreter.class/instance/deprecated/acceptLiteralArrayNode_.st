@@ -1,2 +1,0 @@
-acceptLiteralArrayNode: aNode
-	^ aNode value

@@ -1,2 +1,0 @@
-asASTInterpreterContext
-	^ nil

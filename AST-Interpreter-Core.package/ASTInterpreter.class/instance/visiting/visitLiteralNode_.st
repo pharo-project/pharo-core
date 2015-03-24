@@ -1,3 +1,0 @@
-visitLiteralNode: aLiteralNode
-	^ aLiteralNode value
-	

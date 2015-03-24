@@ -1,3 +1,0 @@
-cause: anObject
-	
-	cause := anObject

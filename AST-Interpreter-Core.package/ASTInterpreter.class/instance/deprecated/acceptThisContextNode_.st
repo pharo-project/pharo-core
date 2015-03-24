@@ -1,2 +1,0 @@
-acceptThisContextNode: thisContextNode
-	^ self context

@@ -1,2 +1,0 @@
-exceptionHandler: anExceptionHandler
-	exceptionHandler := anExceptionHandler

@@ -1,2 +1,0 @@
-classOf: anObject
-	^ anObject class

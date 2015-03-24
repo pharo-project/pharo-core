@@ -1,2 +1,0 @@
-contextTag
-	^ self

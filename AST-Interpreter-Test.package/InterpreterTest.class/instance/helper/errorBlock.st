@@ -1,2 +1,0 @@
-errorBlock
-	^ [Error signal]

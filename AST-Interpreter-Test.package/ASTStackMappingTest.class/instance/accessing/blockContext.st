@@ -1,2 +1,0 @@
-blockContext
-	^ blockContext

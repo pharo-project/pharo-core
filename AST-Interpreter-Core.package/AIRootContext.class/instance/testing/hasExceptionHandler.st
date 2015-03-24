@@ -1,2 +1,0 @@
-hasExceptionHandler
-	^ true

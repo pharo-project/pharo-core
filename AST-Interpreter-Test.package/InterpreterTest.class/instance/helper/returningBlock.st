@@ -1,2 +1,0 @@
-returningBlock
-	^ [^ 2]

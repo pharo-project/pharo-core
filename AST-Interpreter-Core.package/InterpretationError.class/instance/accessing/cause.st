@@ -1,3 +1,0 @@
-cause
-
-	^ cause

@@ -1,3 +1,0 @@
-acceptLiteralNode: aLiteralNode
-	^ aLiteralNode value
-	

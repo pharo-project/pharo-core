@@ -1,3 +1,0 @@
-code: anObject
-	
-	code := anObject

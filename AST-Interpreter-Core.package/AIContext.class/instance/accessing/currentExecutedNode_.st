@@ -1,2 +1,0 @@
-currentExecutedNode: anObject
-	currentExecutedNode := anObject

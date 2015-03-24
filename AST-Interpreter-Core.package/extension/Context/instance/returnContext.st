@@ -1,2 +1,0 @@
-returnContext
-	^ self methodReturnContext

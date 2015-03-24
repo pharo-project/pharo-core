@@ -1,2 +1,0 @@
-methodContext
-	^ methodContext
