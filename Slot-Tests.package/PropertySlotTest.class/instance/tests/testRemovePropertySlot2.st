@@ -1,0 +1,36 @@
+testRemovePropertySlot2
+	"add two property slots, remove one"
+	
+	| propertySlot1 propertySlot2 |
+	
+	propertySlot1 := #prop1 => PropertySlot.
+	propertySlot2 := #prop2 => PropertySlot.
+	
+	aClass := self make: [ :builder |
+		builder 
+			slots: {propertySlot1 . propertySlot2 }
+		].
+
+	self assert: (aClass hasSlot: propertySlot1).
+	self assert: (aClass layout hasSlot: (propertySlot1 instVarNamed: 'baseSlot')).
+	
+	self assert: (aClass hasSlot: propertySlot2).
+	self assert: (aClass layout  hasSlot: (propertySlot2 instVarNamed: 'baseSlot')).
+	
+	aClass := self make: [ :builder |
+		builder 
+			slots: {propertySlot1}
+		].
+	
+	self assert:	(aClass hasSlot: propertySlot1).
+	self deny: 	(aClass hasSlot: propertySlot2).
+	self assert:	(aClass layout hasSlotNamed: PropertyBaseSlot new name). 
+		
+	aClass := self make: [ :builder |
+		builder 
+			slots: {}
+		].
+	
+	self deny:	(aClass hasSlot: propertySlot1).
+	self deny: 	(aClass hasSlot: propertySlot2).
+	self deny:	(aClass layout hasSlotNamed: PropertyBaseSlot new name). 
