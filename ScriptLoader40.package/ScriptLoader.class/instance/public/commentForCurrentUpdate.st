@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '13017 Class renaming does not update textual class definition
-	https://pharo.fogbugz.com/f/cases/13017
+ ^ '13761 Fraction floating pointer cannot be debugged
+	https://pharo.fogbugz.com/f/cases/13761
 
-15156 remove AST Interpreter
-	https://pharo.fogbugz.com/f/cases/15156'
+15215 Prevent the World locking due to multiple modal dialogs open
+	https://pharo.fogbugz.com/f/cases/15215'

@@ -13,4 +13,4 @@ nextNumberBase: b
 	numberOfTrailingZeroInIntegerPart := nDigits - lastNonZero.
 	^ (sourceStream peekFor: $.)
 		ifTrue: [self readNumberWithFractionPartNumberOfTrailingZeroInIntegerPart: numberOfTrailingZeroInIntegerPart]
-		ifFalse: [self makeIntegerOrScaledInteger]
+		ifFalse: [self makeIntegerOrScaledIntegerOrFloat]

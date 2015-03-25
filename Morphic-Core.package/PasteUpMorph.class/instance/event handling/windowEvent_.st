@@ -5,4 +5,4 @@ windowEvent: anEvent
 		ifTrue: [ 
 			self setProperty: #canOpenCloseDialog toValue: false.
 			WorldState quitSession.
-			self removeProperty: #closeWorldDialogOpen ]
+			self removeProperty: #canOpenCloseDialog ]

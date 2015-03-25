@@ -1,9 +1,7 @@
-script581
+script582
 
-	^ 'AST-Core-TheIntegrator.281.mcz
-AST-Interpreter-Core-TheIntegrator.140.mcz
-AST-Interpreter-Test-EstebanLorenzano.97.mcz
-AST-Tests-Core-TheIntegrator.62.mcz
+	^ 'AST-Core-TheIntegrator.283.mcz
+AST-Tests-Core-TheIntegrator.65.mcz
 Announcements-Core-MarcusDenker.55.mcz
 Announcements-Help-TheIntegrator.12.mcz
 Announcements-Tests-Core-TheIntegrator.25.mcz
@@ -154,7 +152,7 @@ MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
 MonticelloGUI-TheIntegrator.331.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 Morphic-Base-TheIntegrator.441.mcz
-Morphic-Core-TheIntegrator.165.mcz
+Morphic-Core-TheIntegrator.166.mcz
 Morphic-Examples-TheIntegrator.40.mcz
 Morphic-Widgets-Basic-TheIntegrator.41.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
