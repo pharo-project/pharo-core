@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '13761 Fraction floating pointer cannot be debugged
-	https://pharo.fogbugz.com/f/cases/13761
+ ^ '14344 Delay refactoring (part 3) - changeout mutex scheduling for semaphore scheduling
+	https://pharo.fogbugz.com/f/cases/14344
 
-15215 Prevent the World locking due to multiple modal dialogs open
-	https://pharo.fogbugz.com/f/cases/15215'
+15180 Update Pharo Help topic about spotlight shortcut
+	https://pharo.fogbugz.com/f/cases/15180'

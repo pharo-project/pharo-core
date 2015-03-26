@@ -1,3 +1,3 @@
 run
 	"DelayBenchmark run"
-	self new run.
+	self new bench.

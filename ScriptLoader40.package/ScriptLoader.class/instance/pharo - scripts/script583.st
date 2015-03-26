@@ -1,4 +1,4 @@
-script582
+script583
 
 	^ 'AST-Core-TheIntegrator.283.mcz
 AST-Tests-Core-TheIntegrator.65.mcz
@@ -111,8 +111,8 @@ HelpSystem-Core-TheIntegrator.117.mcz
 HelpSystem-Tests-TheIntegrator.30.mcz
 HudsonBuildTools20-TheIntegrator.65.mcz
 Jobs-EstebanLorenzano.4.mcz
-Kernel-TheIntegrator.2004.mcz
-KernelTests-TheIntegrator.760.mcz
+Kernel-TheIntegrator.2007.mcz
+KernelTests-TheIntegrator.765.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-EstebanLorenzano.45.mcz
 Keymapping-Pragmas-TheIntegrator.50.mcz
@@ -202,7 +202,7 @@ OpalCompiler-Core-TheIntegrator.638.mcz
 OpalCompiler-Tests-TheIntegrator.277.mcz
 OpalDecompiler-TheIntegrator.31.mcz
 OpalTools-TheIntegrator.16.mcz
-Pharo-Help-TheIntegrator.13.mcz
+Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz
 Polymorph-Widgets-TheIntegrator.1209.mcz
 PragmaCollector-TheIntegrator.3.mcz
