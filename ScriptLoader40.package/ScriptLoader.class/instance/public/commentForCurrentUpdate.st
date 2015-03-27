@@ -1,6 +1,8 @@
 commentForCurrentUpdate
- ^ '14344 Delay refactoring (part 3) - changeout mutex scheduling for semaphore scheduling
-	https://pharo.fogbugz.com/f/cases/14344
+ ^ '15233 Inspecting objects yields MessageNotUnderstood: MorphTreeColumnButton>>isDefault error
+	https://pharo.fogbugz.com/f/cases/15233
 
-15180 Update Pharo Help topic about spotlight shortcut
-	https://pharo.fogbugz.com/f/cases/15180'
+15234 monticello is not showing right status when working with branches
+	https://pharo.fogbugz.com/f/cases/15234
+
+'

@@ -1,4 +1,4 @@
-script583
+script584
 
 	^ 'AST-Core-TheIntegrator.283.mcz
 AST-Tests-Core-TheIntegrator.65.mcz
@@ -149,7 +149,7 @@ Monticello-Tests-TheIntegrator.6.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.180.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
-MonticelloGUI-TheIntegrator.331.mcz
+MonticelloGUI-TheIntegrator.333.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 Morphic-Base-TheIntegrator.441.mcz
 Morphic-Core-TheIntegrator.166.mcz
@@ -163,7 +163,7 @@ Morphic-Widgets-Pluggable-TheIntegrator.44.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.23.mcz
 Morphic-Widgets-Tabs-TheIntegrator.12.mcz
 Morphic-Widgets-Taskbar-StephaneDucasse.7.mcz
-Morphic-Widgets-Tree-TheIntegrator.24.mcz
+Morphic-Widgets-Tree-TheIntegrator.27.mcz
 Morphic-Widgets-Windows-TheIntegrator.47.mcz
 MorphicTests-TheIntegrator.99.mcz
 Multilingual-Encodings-MarcusDenker.47.mcz
