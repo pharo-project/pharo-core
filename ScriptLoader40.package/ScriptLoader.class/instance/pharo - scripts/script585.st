@@ -1,4 +1,4 @@
-script584
+script585
 
 	^ 'AST-Core-TheIntegrator.283.mcz
 AST-Tests-Core-TheIntegrator.65.mcz
@@ -30,11 +30,11 @@ Collections-Native-TheIntegrator.9.mcz
 Collections-Sequenceable-TheIntegrator.189.mcz
 Collections-Stack-MarcusDenker.7.mcz
 Collections-Streams-StephaneDucasse.166.mcz
-Collections-Strings-TheIntegrator.348.mcz
+Collections-Strings-TheIntegrator.350.mcz
 Collections-Support-MarcusDenker.57.mcz
 Collections-Unordered-TheIntegrator.207.mcz
 Collections-Weak-TheIntegrator.88.mcz
-CollectionsTests-StephaneDucasse.681.mcz
+CollectionsTests-TheIntegrator.683.mcz
 Compiler-ClementBera.580.mcz
 Compression-TheIntegrator.149.mcz
 CompressionTests-TheIntegrator.29.mcz
@@ -184,7 +184,7 @@ NativeBoost-Win32-TheIntegrator.57.mcz
 Nautilus-TheIntegrator.906.mcz
 Nautilus-Tests-TheIntegrator.12.mcz
 NautilusCommon-TheIntegrator.258.mcz
-NautilusRefactoring-TheIntegrator.211.mcz
+NautilusRefactoring-TheIntegrator.214.mcz
 Network-Kernel-StephaneDucasse.112.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-StephaneDucasse.39.mcz
@@ -293,7 +293,7 @@ Text-Edition-StephaneDucasse.77.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.24.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.62.mcz
+Tool-Base-TheIntegrator.66.mcz
 Tool-Browser-Old-TheIntegrator.37.mcz
 Tool-Changes-TheIntegrator.22.mcz
 Tool-ConfigurationBrowser-TheIntegrator.15.mcz

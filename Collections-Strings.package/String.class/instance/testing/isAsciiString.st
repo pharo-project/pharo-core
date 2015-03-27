@@ -1,3 +1,3 @@
 isAsciiString
 
-	^ self anySatisfy: [ :each | each asciiValue > 127 ]
+	^ self allSatisfy: [ :each | each asciiValue <= 127 ]

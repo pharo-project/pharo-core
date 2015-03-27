@@ -1,8 +1,6 @@
 commentForCurrentUpdate
- ^ '15233 Inspecting objects yields MessageNotUnderstood: MorphTreeColumnButton>>isDefault error
-	https://pharo.fogbugz.com/f/cases/15233
+ ^ '15232 ByteString and WideString dont agree on isAsciiString 
+	https://pharo.fogbugz.com/f/cases/15232
 
-15234 monticello is not showing right status when working with branches
-	https://pharo.fogbugz.com/f/cases/15234
-
-'
+14319 Ctrl + shift + F in the text pane does not work on mac (but on windows)
+	https://pharo.fogbugz.com/f/cases/14319'
