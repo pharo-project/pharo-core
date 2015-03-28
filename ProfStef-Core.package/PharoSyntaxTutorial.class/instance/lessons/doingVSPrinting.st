@@ -1,6 +1,6 @@
 doingVSPrinting 
 	^ Lesson
-title: 'Doing VS Printing: Doing' 
+title: 'Doing' 
 lesson: 
 '"Cool ! (I like to say Cooool :) ). You''ve just executed a Pharo expression. More precisely, you sent the message ''next'' to PharoTutorial class (it''s me !).
 

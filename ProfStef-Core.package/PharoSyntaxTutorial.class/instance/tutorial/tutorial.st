@@ -3,6 +3,7 @@ tutorial
 welcome
 doingVSPrinting
 printing
+inspecting
 
 basicTypesNumbers
 basicTypesCharacters

@@ -3,6 +3,10 @@ openPharoZenWorkspace
 
 	"self openPharoZenWorkspace"
 
-	UIManager default 
-		edit: self pharoZenValuesContents
-		label: 'Pharo Zen'
+	TextModel new
+		text: self pharoZenValuesContents;
+		title: 'Pharo Zen';
+		aboutText: self aboutPharoZen;
+		isCodeCompletionAllowed: false;
+		menuHolder: [  ];
+		openWithSpec

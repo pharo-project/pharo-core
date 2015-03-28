@@ -1,4 +1,4 @@
-script585
+script586
 
 	^ 'AST-Core-TheIntegrator.283.mcz
 AST-Tests-Core-TheIntegrator.65.mcz
@@ -107,7 +107,7 @@ Graphics-Transformations-TheIntegrator.12.mcz
 GroupManager-TheIntegrator.72.mcz
 GroupManagerUI-TheIntegrator.40.mcz
 Growl-TheIntegrator.37.mcz
-HelpSystem-Core-TheIntegrator.117.mcz
+HelpSystem-Core-TheIntegrator.120.mcz
 HelpSystem-Tests-TheIntegrator.30.mcz
 HudsonBuildTools20-TheIntegrator.65.mcz
 Jobs-EstebanLorenzano.4.mcz
@@ -206,9 +206,9 @@ Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz
 Polymorph-Widgets-TheIntegrator.1209.mcz
 PragmaCollector-TheIntegrator.3.mcz
-ProfStef-Core-TheIntegrator.49.mcz
+ProfStef-Core-TheIntegrator.53.mcz
 ProfStef-Help-SvenVanCaekenberghe.14.mcz
-ProfStef-Tests-SvenVanCaekenberghe.23.mcz
+ProfStef-Tests-TheIntegrator.25.mcz
 RPackage-Core-TheIntegrator.383.mcz
 RPackage-SystemIntegration-TheIntegrator.232.mcz
 RPackage-Tests-TheIntegrator.167.mcz
@@ -234,7 +234,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.83.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 Rubric-AndreiChis.183.mcz
-SUnit-Core-TheIntegrator.135.mcz
+SUnit-Core-TheIntegrator.138.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Tests-TheIntegrator.48.mcz
 SUnit-UI-TheIntegrator.110.mcz
@@ -246,7 +246,7 @@ Settings-System-StephaneDucasse.35.mcz
 ShoreLine-Report-Core-TommasoDalSasso.9.mcz
 ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
-Shout-TheIntegrator.234.mcz
+Shout-TheIntegrator.236.mcz
 ShoutTests-TheIntegrator.27.mcz
 Slot-TheIntegrator.595.mcz
 Slot-Tests-TheIntegrator.33.mcz

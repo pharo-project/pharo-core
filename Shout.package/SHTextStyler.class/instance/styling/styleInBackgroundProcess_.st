@@ -9,7 +9,7 @@ styleInBackgroundProcess: aText
 			[ 
 			sem notNil
 				ifTrue: [ 
-					sem wait.
+					sem waitTimeoutSeconds: 5.
 					view ifNotNil: [ view stylerStyledInBackground: text ] ] ] forkAt: Processor activePriority.
 			backgroundProcess := [ 
 			self privateStyle: text.

@@ -1,3 +1,7 @@
 previous
-	self player previous.
-	^ self showCurrentLesson.
+	self helpBrowserWindow 
+		ifNotNil: [ :window | window model previous ].
+	self lessonView isOpenInWindow 
+		ifTrue: [ 
+			self player previous.
+			self showCurrentLesson ]

@@ -1,0 +1,2 @@
+isOpenInWindow
+	^ true

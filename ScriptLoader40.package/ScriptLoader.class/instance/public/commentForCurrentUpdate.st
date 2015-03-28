@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '15232 ByteString and WideString dont agree on isAsciiString 
-	https://pharo.fogbugz.com/f/cases/15232
+ ^ '13201 Hard to start a tutorial in Pharo
+	https://pharo.fogbugz.com/f/cases/13201
 
-14319 Ctrl + shift + F in the text pane does not work on mac (but on windows)
-	https://pharo.fogbugz.com/f/cases/14319'
+15240 Stuck SHTextStyler semaphores
+	https://pharo.fogbugz.com/f/cases/15240
+
+15238 Add an assertion to check if a collection has same elements as another collection
+	https://pharo.fogbugz.com/f/cases/15238'
