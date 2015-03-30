@@ -1,4 +1,4 @@
-doubleClick: evt
+doubleClick: anEvent
 
-	self announce: #onDoubleClicked.
+	self announce: #onDoubleClicked event: anEvent.
 	^ false

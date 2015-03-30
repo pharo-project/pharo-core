@@ -1,2 +1,0 @@
-condition: anObject
-	condition := anObject

@@ -1,3 +1,3 @@
 exampleEmptyBrowser
-	<example>
+	<gtExample>
 	^ self new model: GLMBrowser new

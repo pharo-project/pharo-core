@@ -1,3 +1,3 @@
 exampleNow
-	<example: 'Now'>
+	<gtExample: 'Now'>
 	^ self now

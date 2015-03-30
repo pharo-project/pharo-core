@@ -5,4 +5,6 @@ initialize
 	self unhoverAction: [ :aBrick :anEvent |
 		self class asyncTaskUniqueInstance terminate.
 		(aBrick globalBounds containsPoint: anEvent position)
-			ifFalse: [ self class closeHint ] ]
+			ifFalse: [ self class 
+				closeHint;
+				reset ] ]

@@ -7,5 +7,6 @@ brickRoot: aBrick
 	
 	brickRoot := aBrick.
 	self addMorphBack: brickRoot.
+	brickRoot onThemerChanged
 	
 	

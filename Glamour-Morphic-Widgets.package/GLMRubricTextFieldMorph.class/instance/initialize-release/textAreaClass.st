@@ -1,2 +1,0 @@
-textAreaClass
-	^ GLMRubricTextFieldArea

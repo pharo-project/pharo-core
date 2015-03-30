@@ -1,3 +1,3 @@
 thisMethodExample
-	<example: 'This method'>
+	<gtExample: 'This method'>
 	^ RBMethod class>>#thisMethodExample

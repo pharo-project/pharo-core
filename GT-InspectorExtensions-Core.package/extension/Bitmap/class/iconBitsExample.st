@@ -1,3 +1,3 @@
 iconBitsExample
-	<example: 'Icon bits'>
+	<gtExample: 'Icon bits'>
 	^ ThemeIcons current pharoIcon bits

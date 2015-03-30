@@ -1,5 +1,5 @@
 exampleAddition
-	<example>
+	<gtExample>
 	^ RBMessageNode 
 				receiver: (RBVariableNode named: 'self')
 				selector: #+

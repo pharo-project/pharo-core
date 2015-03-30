@@ -1,3 +1,3 @@
 gtExampleOneArgument
-	<example: 'With one argument'>
+	<gtExample: 'With one argument'>
 	^ [ :x | x ]

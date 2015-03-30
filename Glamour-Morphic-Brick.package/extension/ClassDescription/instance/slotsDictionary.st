@@ -1,3 +1,0 @@
-slotsDictionary
-
-	^self layout slotsDictionary

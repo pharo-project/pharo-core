@@ -1,0 +1,2 @@
+rememberPreferredExtent: aBoolean
+	^ RememberPreferredExtent := aBoolean

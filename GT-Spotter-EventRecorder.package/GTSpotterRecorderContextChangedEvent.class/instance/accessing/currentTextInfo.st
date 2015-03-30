@@ -1,0 +1,2 @@
+currentTextInfo
+	^ currentTextInfo

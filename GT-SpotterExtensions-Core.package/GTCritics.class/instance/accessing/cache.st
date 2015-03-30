@@ -1,0 +1,2 @@
+cache
+	^ self class cache

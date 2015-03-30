@@ -1,3 +1,0 @@
-newOffcanvasBrick
-
-	^ GLMWindowOffcanvasBrick new

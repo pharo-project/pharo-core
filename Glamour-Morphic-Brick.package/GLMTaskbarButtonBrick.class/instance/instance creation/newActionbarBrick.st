@@ -1,3 +1,0 @@
-newActionbarBrick
-
-	^ GLMBrick new

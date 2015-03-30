@@ -1,3 +1,0 @@
-fadeBrick
-
-	^ fadeBrick

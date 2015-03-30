@@ -1,5 +1,6 @@
 spotterForVersionsFor: aStep
 	<spotterOrder: 1>
+	self flag: #maybeRewriteForDirectStreaming.
 	aStep listProcessor
 		title: 'Versions';
 		allCandidates: [

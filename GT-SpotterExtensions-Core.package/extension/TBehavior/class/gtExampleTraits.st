@@ -1,0 +1,3 @@
+gtExampleTraits
+	<gtExample: 'Traits'>
+	^ Class

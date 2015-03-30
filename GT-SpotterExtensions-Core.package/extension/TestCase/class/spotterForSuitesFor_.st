@@ -1,13 +1,10 @@
 spotterForSuitesFor: aStep
-	<demoOnly: 'NautilusUI - this is an ugly implementaiton - just to demo it '>
 	<spotterOrder: 1>
 	aStep listProcessor
 		title: 'Testcases';
-		allCandidates: [ 
-			self testSelectors collect: [ :each | 
-				(self buildSuiteFromMethods: { each }) name: each; yourself ] ];
+		allCandidates: [ self testSelectors collect: [ :each | self selector: each ] ];
 		itemName: [ :item | item name ];
-		itemIcon: #systemIcon;
-		actLogic: [ :item | NautilusUI new runTestsOfSuite: item notifying: true ];
+		itemIcon: [ :item | GTTestRunner iconForTestCase: item ];
+		actLogic: [ :item | GTTestRunner runTestForTestCase: item ];
 		filter: GTFilterSubstring;
 		wantsToDisplayOnEmptyQuery: true

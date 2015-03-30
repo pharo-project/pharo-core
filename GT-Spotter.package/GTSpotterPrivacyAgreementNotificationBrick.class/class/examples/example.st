@@ -1,3 +1,3 @@
 example
-	<example: 'Simple agreement'>
+	<gtExample: 'Simple agreement'>
 	^ self new

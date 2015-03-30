@@ -1,7 +1,6 @@
-searchField: aMorph
+searchField: aBrick
 
-	searchField ifNotNil: [self removeBrick: searchField].
-	searchField := aMorph asBrick.
+	searchField := aBrick.
 	
 	self themer spotterThemer searchFieldStyleFor: searchField.
 	

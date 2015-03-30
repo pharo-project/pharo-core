@@ -1,6 +1,6 @@
 addBrick: aBrick after: otherBrick
 	|result|
-	result := self privateAddBrick: aBrick after: otherBrick.
-	aBrick wrappedBounds markWidthDirty; markHeightDirty.
+	result := self privateAddBrick: aBrick asBrick after: otherBrick.
+	self privatePrepareBrickAfterAdding: result.
 	self doLayoutForce.
-	^ result
+	^ aBrick

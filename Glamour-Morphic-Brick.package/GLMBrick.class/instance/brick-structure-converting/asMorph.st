@@ -1,0 +1,3 @@
+asMorph
+
+	^ self asBrickedMorph

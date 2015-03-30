@@ -1,0 +1,2 @@
+defaultStep
+	^ GTMockSpotterStep new

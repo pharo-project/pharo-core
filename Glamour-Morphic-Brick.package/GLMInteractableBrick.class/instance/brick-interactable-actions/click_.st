@@ -1,3 +1,3 @@
-click: evt
-	self announce: #onClicked.
+click: anEvent
+	self announce: #onClicked event: anEvent.
 	^ false

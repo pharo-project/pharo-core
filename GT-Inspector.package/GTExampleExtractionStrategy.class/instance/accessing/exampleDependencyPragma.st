@@ -1,3 +1,3 @@
 exampleDependencyPragma
 
-	^ #exampleFrom:
+	^ #gtExampleFrom:

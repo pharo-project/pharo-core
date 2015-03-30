@@ -5,6 +5,7 @@ privacyAgreementNotificationStyleFor: aBrick
 		ifTrue: [ self privacyAgreementIsSendingDataColor. ]
 		ifFalse: [ self privacyAgreementIsNotSendingDataColor. ].
 	aBrick messageBrick rubricTextFamilyName: StandardFonts defaultFont familyName.
+	aBrick messageBrick rubricTextColor: Color black.
 	aBrick
 		color: color;
 		borderColor: color darker;

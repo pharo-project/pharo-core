@@ -1,3 +1,3 @@
 exampleEmpty
-	<example: 'Empty package'>
+	<gtExample: 'Empty package'>
 	^ self named: 'Empty'

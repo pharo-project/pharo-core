@@ -1,0 +1,2 @@
+visibleCursorColor: aColor
+	visibleCursorColor := aColor

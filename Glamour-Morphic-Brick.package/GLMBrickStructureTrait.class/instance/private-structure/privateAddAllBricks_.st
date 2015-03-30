@@ -1,3 +1,6 @@
 privateAddAllBricks: aCollection
-
-	aCollection do: [ :each | self privateAddBrickBack: each ]
+	|bricks|
+	bricks := aCollection collect: #asBrick.
+	bricks do: [ :each | self privateAddBrickLinkBack: each ].
+	self privateSubbricks: (self subbricks, bricks).
+	^ bricks

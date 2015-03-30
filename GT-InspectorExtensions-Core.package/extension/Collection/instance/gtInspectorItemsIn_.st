@@ -1,7 +1,7 @@
 gtInspectorItemsIn: composite
 	<gtInspectorPresentationOrder: 0>  
 	^ (composite list)
-		title: [ :anObject | anObject size asString, ' items' ];
+		title: 'Items';
 		display: [ :aCollection | self ];
 		beMultiple;
 		withSmalltalkSearch;		

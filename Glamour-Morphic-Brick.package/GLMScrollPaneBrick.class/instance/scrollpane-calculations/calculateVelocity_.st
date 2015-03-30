@@ -4,7 +4,7 @@ calculateVelocity: event
 		
 	self velocity: (delta > self class defaultScrollTimeReset
 		ifTrue: [ self class defaultScrollVelocity ]
-		ifFalse: [ (self velocity + self class defaultScrollAcceleration * (delta <= self class defaultScrollTurboTime ifTrue: [ 2 ] ifFalse: [ 1 ] )) min: self calculateMaxVelocity ]).
+		ifFalse: [ self velocityValue: delta ]).
 		
 	lastScrollTimeStamp := event timeStamp.
 	

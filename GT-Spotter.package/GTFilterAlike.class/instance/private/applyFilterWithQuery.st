@@ -4,16 +4,16 @@ applyFilterWithQuery
 	otherMatches := OrderedCollection new.	
 	" calculate the <similarity> of all items and throw away everything that is below the lower threshold (irrelevant) "			
 	allItemsPrepocessed := OrderedCollection streamContents: [ :allItems | 
-		lower := self lowerThreshold * query size.
+		lower := lowerThreshold * query size.
 		self allItemsDo: [ :each | 
 			| weight |
-			(weight :=  (self itemFilterNameFor: each) alike: self query) > lower ifTrue: [
+			(weight :=  (self itemFilterNameFor: each) alike: query) > lower ifTrue: [
 				allItems nextPut: (Array with: weight with: each) ] ] ].
 	" sort all items using <similarity> "
 	allItemsPrepocessedAndSorted := allItemsPrepocessed asSortedCollection: [ :a :b | a first > b first ].
 	" calculate the upper threshold "
 	upper := allItemsPrepocessed isEmpty 
-		ifTrue: [ self upperThreshold ]
+		ifTrue: [ upperThreshold ]
 		ifFalse: [ (allItemsPrepocessedAndSorted collect: [ :each | each first ]) median " try an adaptive threshold (slow if not presorted) " ].
 	" stream all items based on upper and lower threshold "
 	allItemsPrepocessedAndSorted do: [ :each | 

@@ -11,4 +11,5 @@ layoutChanged
 		ifTrue: [ self width: [ self shrinkingWidth + self hPadding ] ].
 	self isVShrinking
 		ifTrue: [ self height: [ self shrinkingHeight + self vPadding ] ].
-	isLayouting := false
+		self invalidateMorphBounds: true.
+	isLayouting := false.

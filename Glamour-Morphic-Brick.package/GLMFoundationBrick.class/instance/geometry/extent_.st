@@ -9,8 +9,8 @@ extent: aPoint
 	right := self extent x - self brickRoot marginRight.
 	bottom := self extent y - self brickRoot marginBottom.
 	
-	self brickRoot width: right - left.
-	self brickRoot height: bottom - top.
+	self isHFilling ifTrue: [ self brickRoot width: right - left ].
+	self isVFilling ifTrue: [ self brickRoot height: bottom - top ].
 	self brickRoot wrappedBounds bounds: (left@top corner: (right@bottom)).
 	
 	self brickRoot doLayoutForce

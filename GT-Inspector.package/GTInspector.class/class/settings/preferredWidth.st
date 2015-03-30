@@ -1,0 +1,2 @@
+preferredWidth
+	^ self preferredExtent x

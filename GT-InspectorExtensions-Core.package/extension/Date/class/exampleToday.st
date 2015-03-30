@@ -1,3 +1,3 @@
 exampleToday
-	<example: 'Today'>
+	<gtExample: 'Today'>
 	^ self today

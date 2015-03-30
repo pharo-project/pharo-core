@@ -1,3 +1,3 @@
 exampleOneDay
-	<example>
+	<gtExample>
 	^ self days: 1

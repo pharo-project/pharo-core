@@ -1,3 +1,0 @@
-taskbarMorph: aTaskBarMorph
-
-	taskBarMorph := aTaskBarMorph

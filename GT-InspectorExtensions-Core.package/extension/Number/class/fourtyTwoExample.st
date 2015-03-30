@@ -1,3 +1,3 @@
 fourtyTwoExample
-	<example: '42'>
+	<gtExample: '42'>
 	^ 42

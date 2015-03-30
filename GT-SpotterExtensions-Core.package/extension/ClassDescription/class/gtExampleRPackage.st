@@ -1,0 +1,3 @@
+gtExampleRPackage
+	<gtExample>
+	^ GTSpotter package

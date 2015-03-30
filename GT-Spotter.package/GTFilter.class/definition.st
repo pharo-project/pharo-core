@@ -1,5 +1,5 @@
 Object subclass: #GTFilter
-	instanceVariableNames: 'context items'
+	instanceVariableNames: 'context items streamed'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-Spotter-Filters'

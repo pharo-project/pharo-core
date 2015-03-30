@@ -1,3 +1,3 @@
 example
-	<example: 'Checkbox without label'>
+	<gtExample: 'Checkbox without label'>
 	^ self new

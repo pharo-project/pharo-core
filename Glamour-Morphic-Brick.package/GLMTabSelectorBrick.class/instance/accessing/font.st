@@ -1,4 +1,3 @@
 font
 	"Answer the label font"
-
-	^font
+	^ font

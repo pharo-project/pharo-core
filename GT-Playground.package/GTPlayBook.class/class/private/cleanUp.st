@@ -1,3 +1,3 @@
 cleanUp
 	
-	instance := nil
+	self reset

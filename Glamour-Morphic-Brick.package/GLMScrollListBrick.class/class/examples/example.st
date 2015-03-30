@@ -1,7 +1,7 @@
 example
 	|adaptor|
 	adaptor := nil.
-	adaptor := GLMBrickListAdaptor new
+	adaptor := GLMBrickListModel new
 		sizeLogic: [ 2000 ];
 		morphAtLogic: [ :index :morph |
 			(morph ifNil: [ GLMLabelBrick new ])
@@ -12,6 +12,6 @@ example
 				yourself ].
 
 	GLMFoundationBrick new
-		brickRoot: (self new adaptor: adaptor);
+		brickRoot: (self new model: adaptor);
 		extent: 300@400;
 		openInWindow

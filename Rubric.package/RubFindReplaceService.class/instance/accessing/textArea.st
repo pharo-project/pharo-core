@@ -1,2 +1,2 @@
 textArea
-	^ textArea 
+	^ textAreaHolder at: 1 

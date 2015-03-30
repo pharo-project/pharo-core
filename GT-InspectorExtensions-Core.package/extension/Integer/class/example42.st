@@ -1,3 +1,3 @@
 example42
-	<example>
+	<gtExample>
 	^ 42

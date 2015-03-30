@@ -1,5 +1,5 @@
 GLMFoundationBrick subclass: #GLMTabSelectorBrick
-	instanceVariableNames: 'selectedIndex visibleTabRange font tabs controls wrapScrolling'
+	instanceVariableNames: 'selectedIndex font tabs'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Glamour-Morphic-Brick-Morphic'

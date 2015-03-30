@@ -1,0 +1,2 @@
+elementCount
+	^ elementCount

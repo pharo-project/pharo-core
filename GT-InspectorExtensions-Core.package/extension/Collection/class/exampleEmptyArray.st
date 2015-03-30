@@ -1,3 +1,3 @@
 exampleEmptyArray
-	<example>
+	<gtExample>
 	^ #()

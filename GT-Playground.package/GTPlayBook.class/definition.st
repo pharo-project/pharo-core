@@ -1,5 +1,5 @@
 Object subclass: #GTPlayBook
 	instanceVariableNames: 'pages pagesLimit'
-	classVariableNames: 'instance'
+	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-Playground'

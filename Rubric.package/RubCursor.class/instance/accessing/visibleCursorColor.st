@@ -1,4 +1,4 @@
 visibleCursorColor
-	^ self class cursorWithFixedColor 
-		ifTrue: [ self class defaultColor ]
-		ifFalse: [ self textArea backgroundColor contrastingColor alpha: 0.6 ]
+	self class cursorWithFixedColor 
+		ifTrue: [ ^ self class defaultColor ].
+	^ visibleCursorColor ifNil: [ self defaultVisibleCursorColor ] 

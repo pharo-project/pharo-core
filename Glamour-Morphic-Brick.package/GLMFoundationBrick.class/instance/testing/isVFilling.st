@@ -1,0 +1,3 @@
+isVFilling
+
+	^ vResizing = #spaceFill

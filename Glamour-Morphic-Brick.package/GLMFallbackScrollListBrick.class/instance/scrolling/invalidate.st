@@ -1,4 +1,6 @@
 invalidate
 
 	self band removeAllBricks.
-	self initializeItems
+	self initializeItems.
+	self doLayoutForce.
+	self update.

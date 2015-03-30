@@ -1,2 +1,0 @@
-iconBrick
-	^ iconBrick

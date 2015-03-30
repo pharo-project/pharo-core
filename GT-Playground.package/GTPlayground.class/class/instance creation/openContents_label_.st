@@ -7,4 +7,4 @@ openContents: aString label: aLabel
 		saveContent: aString;
 		title: aLabel;
 		yourself.
-	^ self new openOn: page
+	^ self openOn: page

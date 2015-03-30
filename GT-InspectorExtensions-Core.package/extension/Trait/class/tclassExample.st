@@ -1,3 +1,0 @@
-tclassExample
-	<example: 'TClass'>
-	^ TClass

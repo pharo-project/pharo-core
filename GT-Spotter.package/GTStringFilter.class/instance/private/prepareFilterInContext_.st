@@ -1,6 +1,7 @@
 prepareFilterInContext: aSpotterContext
 	super prepareFilterInContext: aSpotterContext.
 	
-	self query: (self caseSensitive
+	caseSensitive ifNil: [ caseSensitive := self defaultCaseSensitive ]. " performance optimization "
+	self query: (caseSensitive " performance optimization "
 		ifTrue: [ self context textTrimmed ]
 		ifFalse: [ self context textLowercase ])

@@ -1,20 +1,18 @@
 searchFieldStyleFor: aBrick
 	
 	aBrick
+		beCentered;
 		hSpaceFill;
 		vSpaceFill;
-		marginLeft: self searchFieldMarginLeft.
-		
-	aBrick morph
-		hResizing: #spaceFill;
-		vResizing: #spaceFill;
+		withoutMargins;
 		withoutAdornment;
+		withoutBorder;
+		beTransparent;
 		withGhostText: self spotterGhostText;
 		autoAccept: true;
-		borderWidth: 0.
+		marginLeft: self searchFieldMarginLeft;
+		rubricTextFamilyName: self searchFieldFamilyName;
+		rubricTextFontSize: self searchFieldFontSize.
 	
-	aBrick morph ghostTextRuler
+	aBrick rubric ghostTextRuler
 		fontName: self searchFieldFamilyName pointSize: self searchFieldFontSize.
-		
-	aBrick morph textArea
-		font: (LogicalFont familyName: self searchFieldFamilyName pointSize: self searchFieldFontSize)

@@ -1,3 +1,3 @@
 exampleOneHour
-	<example>
+	<gtExample>
 	^ self hours: 1

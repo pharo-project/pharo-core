@@ -1,5 +1,6 @@
 addAllBricks: aCollection
-
-	self privateAddAllBricks: aCollection.
-	aCollection do: [ :b | b wrappedBounds markWidthDirty; markHeightDirty ].
-	self doLayoutForce
+	|bricks|
+	bricks := self privateAddAllBricks: aCollection.
+	bricks do: [ :b | self privatePrepareBrickAfterAdding: b ].
+	self doLayoutForce.
+	^ aCollection

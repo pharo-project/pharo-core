@@ -1,3 +1,0 @@
-doubleClickAction: aBlock
-
-	doubleClickAction := aBlock

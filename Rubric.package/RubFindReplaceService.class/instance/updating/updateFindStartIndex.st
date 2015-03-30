@@ -1,7 +1,9 @@
 updateFindStartIndex
 	| si |
-	textArea ifNil: [ ^self ].
-	textArea changed.
-	self changed: #replaceEnabled.
-	si := textArea selectionInterval.
-	self findStartIndex: (self searchBackwards ifTrue: [si first - 1] ifFalse: [si last + 1])
+	self textArea 
+		ifNil: [ ^self ]
+		ifNotNil: [ :aTextArea |
+			aTextArea changed.
+			self changed: #replaceEnabled.
+			si := aTextArea selectionInterval.
+			self findStartIndex: (self searchBackwards ifTrue: [si first - 1] ifFalse: [si last + 1]) ]

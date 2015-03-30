@@ -1,3 +1,3 @@
 exampleOrderedCollectionWithOneElement
-	<example>
+	<gtExample>
 	^ #(42) asOrderedCollection

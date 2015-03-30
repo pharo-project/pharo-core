@@ -1,3 +1,0 @@
-defaultOffcanvasWidth
-
-	^ 200

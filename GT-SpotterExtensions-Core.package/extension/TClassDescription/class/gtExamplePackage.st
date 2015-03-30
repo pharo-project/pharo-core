@@ -1,0 +1,3 @@
+gtExamplePackage
+	<gtExample: 'Package'>
+	^ TClassDescription

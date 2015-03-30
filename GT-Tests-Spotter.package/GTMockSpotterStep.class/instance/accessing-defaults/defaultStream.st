@@ -1,0 +1,2 @@
+defaultStream
+	^ GTMockSpotterStream new

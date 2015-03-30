@@ -1,5 +1,5 @@
 exampleListWithCustomItems
-	<example: 'Phlow list with custom items'>
+	<gtExample: 'Phlow list with custom items'>
 
 	^ self new
 		hSpaceFill;

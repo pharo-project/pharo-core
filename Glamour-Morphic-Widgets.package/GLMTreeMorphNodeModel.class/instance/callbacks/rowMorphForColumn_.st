@@ -7,17 +7,21 @@ rowMorphForColumn: aGlamourColumn
 			column: aGlamourColumn
 			valueFor: self item) asMorph asReadOnlyMorph ]
 		ifNotNil: [
-			contentMorph := self textFieldMorphFor: nil.
-			contentMorph setText: (
-				self containerTree glamourPresentation 
-					column: aGlamourColumn 
-					valueFor: self item) asString.
-			contentMorph hResizing: #rigid.
-			contentMorph width: contentMorph textArea width.
-			contentMorph textArea doubleClickAction: [ self containerTree forceStopStepping ].
-			contentMorph announcer when: RubReturnEntered do: [ :ann |
-				 aGlamourColumn modifiedBlock cull: contentMorph text cull: self item cull: self containerTree glamourPresentation.
-				self containerTree resetStopStepping ] ].
+			contentMorph := GLMEditableLabelBrick new
+				cancelOnEscape;
+				cancelOnFocusLost;
+				text: (self valueFor: aGlamourColumn);
+				minWidth: 100;
+				maxWidth: 240;
+				when: #onEditMode do: [ self containerTree forceStopStepping ];
+				when: #onReadMode do: [ self containerTree resetStopStepping ];
+				when: #onSingleClicked do: [ :evt :brick | brick isReadMode ifTrue: [ self selectItem ] ];
+				when: #onAccepted do: [ self modified: aGlamourColumn with: contentMorph text ];
+				yourself.
+			
+			contentMorph := contentMorph asMorph
+				hShrinkWrap;
+				vShrinkWrap ].
 	
 	tagMorphs := self tagMorphsFrom: aGlamourColumn.
 	tagMorphs ifEmpty: [ ^ contentMorph ].

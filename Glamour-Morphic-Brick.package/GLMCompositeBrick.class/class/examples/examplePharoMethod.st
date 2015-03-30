@@ -1,5 +1,5 @@
 examplePharoMethod
-	<example: 'Phlow Pharo method'>
+	<gtExample: 'Phlow Pharo method'>
 
 	^ self new
 		hSpaceFill;

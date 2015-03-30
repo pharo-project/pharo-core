@@ -1,0 +1,2 @@
+preferredHeight
+	^ self preferredExtent y

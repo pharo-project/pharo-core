@@ -1,7 +1,6 @@
 compose
-	self
-		title: 'Playground';
-		custom:
+	self title: self defaultPlaygroundTitle.
+	self custom:
 			(GTInspector new
 				noTitle; 
 				noActions;

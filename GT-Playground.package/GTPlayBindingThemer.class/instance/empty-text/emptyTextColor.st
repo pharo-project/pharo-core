@@ -1,0 +1,3 @@
+emptyTextColor
+
+	^ self themer textLightColor

@@ -1,5 +1,5 @@
 gtExampleSimple
-	<example>
+	<gtExample>
 	^ GLMTabulator new 
 		with: [ :t |
 			t column: #one.

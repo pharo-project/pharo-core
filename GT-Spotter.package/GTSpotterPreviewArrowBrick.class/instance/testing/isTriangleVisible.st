@@ -1,3 +1,3 @@
 isTriangleVisible
 
-	^ isTriangleVisible ifNil: [ isTriangleVisible := true ]
+	^ isTriangleVisible ifNil: [ isTriangleVisible := false ]

@@ -1,0 +1,2 @@
+messageText
+	^ self class name

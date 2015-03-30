@@ -10,8 +10,8 @@ editBrick: aBrick
 		withoutBorder;
 		beTransparent;
 		autoAccept: true;
-		rubricTextFamilyName: StandardFonts defaultFont familyName;
-		rubricTextFontSize: StandardFonts defaultFont pointSize.
+		rubricTextFamilyName: self themer textFamilyName;
+		rubricTextFontSize: self themer textFontSize.
 	
 	self editBrick rubric forceHeight: [ self labelBrick height ].
 	

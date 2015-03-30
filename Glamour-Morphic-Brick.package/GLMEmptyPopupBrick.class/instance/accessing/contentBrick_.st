@@ -4,8 +4,7 @@ contentBrick: aBrick
 	self contentBrick
 		vShrinkWrap;
 		hShrinkWrap;
-		paddingTop: 5;
-		paddingBottom: 5;
+		padding: self themer popupThemer borderWidth;
 		color: self themer popupThemer backgroundColor; 
 		borderColor: self themer popupThemer borderColor;
 	 	borderWidth: self themer popupThemer borderWidth.

@@ -1,11 +1,10 @@
 spotterForTestClassesFor: aStep
-	<demoOnly: 'NautilusUI - this is a very ugly implementaiton - just for demo'>
 	<spotterOrder: 20>
 	aStep listProcessor
 		title: 'Tests';
-		allCandidates: [ TestCase allSubclasses ];
+		allCandidates: [ TestCase allSubclasses reject: [ :each | each isAbstract ] ];
 		itemName: [ :item | item name ];
-		itemIcon: #systemIcon;
-		actLogic: [ :item | NautilusUI new runTestsOfClass: item notifying: true ];
+		itemIcon: [ :item | GTTestRunner iconForClass: item ];
+		actLogic: [ :item | GTTestRunner runTestsForClass: item ];
 		filter: GTFilterSubstring;
 		wantsToDisplayOnEmptyQuery: false

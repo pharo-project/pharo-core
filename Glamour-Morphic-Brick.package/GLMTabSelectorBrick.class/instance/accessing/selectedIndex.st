@@ -1,4 +1,4 @@
 selectedIndex
 	"Answer the value of selectedIndex"
 
-	^ selectedIndex
+	^ selectedIndex ifNil: [ selectedIndex := 0 ]

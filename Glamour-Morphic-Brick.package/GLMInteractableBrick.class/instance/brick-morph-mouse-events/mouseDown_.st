@@ -8,7 +8,7 @@ mouseDown: evt
 	selectors := Array
 				with: #click:
 				with: #doubleClick:
-				with: nil
+				with: #singleClick:
 				with: nil.
 				
 	evt hand

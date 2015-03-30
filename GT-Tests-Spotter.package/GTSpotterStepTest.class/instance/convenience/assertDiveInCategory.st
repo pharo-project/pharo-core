@@ -1,0 +1,2 @@
+assertDiveInCategory
+	self assertDiveIn: #diveInCategory

@@ -1,2 +1,2 @@
 queryForItem: each
-	^ self query
+	^ query " performance optimization "

@@ -1,4 +1,4 @@
 example
-	<example: 'Label with text'>
+	<gtExample: 'Label with text'>
 	^ self new
 		text: 'Label'

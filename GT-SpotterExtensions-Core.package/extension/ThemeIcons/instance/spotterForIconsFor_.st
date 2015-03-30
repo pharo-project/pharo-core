@@ -1,5 +1,6 @@
 spotterForIconsFor: aStep
 	<spotterOrder: 10>
+	self flag: #maybeRewriteForDirectStreaming.
 	aStep listProcessor
 		title: 'Icons';
 		allCandidates: [ 

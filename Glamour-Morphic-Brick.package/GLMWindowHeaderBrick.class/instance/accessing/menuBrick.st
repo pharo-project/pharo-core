@@ -1,2 +1,0 @@
-menuBrick
-	^ menuBrick

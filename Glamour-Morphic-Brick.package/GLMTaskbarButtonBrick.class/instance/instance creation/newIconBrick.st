@@ -1,3 +1,0 @@
-newIconBrick
-
-	^ GLMActionButtonBrick new

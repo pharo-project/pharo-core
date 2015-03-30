@@ -3,7 +3,7 @@ breadcrumbBrick: aBrick
 	breadcrumbBrick ifNotNil: [self removeBrick: breadcrumbBrick].
 	breadcrumbBrick := aBrick.
 	
-	breadcrumbBrick announcer subscribe: GTSpotterBreadcrumbVisibilityChanged send: #onBreadcrumbVisibilityChanged to: self.
+	breadcrumbBrick announcer weak subscribe: GTSpotterBreadcrumbVisibilityChanged send: #onBreadcrumbVisibilityChanged to: self.
 	self themer spotterThemer breadcrumbStyleFor: breadcrumbBrick.
 	breadcrumbBrick width: [ self paneBrick contentsBrick width ].
 	breadcrumbBrick layout widthDependency: [ self paneBrick contentsBrick ].

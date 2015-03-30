@@ -1,5 +1,5 @@
 Morph subclass: #GLMFoundationBrick
-	instanceVariableNames: 'brickRoot'
+	instanceVariableNames: 'brickRoot vResizing hResizing'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Glamour-Morphic-Brick-Morphic'

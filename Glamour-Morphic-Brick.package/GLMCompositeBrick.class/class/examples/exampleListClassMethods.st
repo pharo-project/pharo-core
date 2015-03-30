@@ -1,5 +1,5 @@
 exampleListClassMethods
-	<example: 'Phlow list displaying all methods of an object '>
+	<gtExample: 'Phlow list displaying all methods of an object '>
 
 	^ self new
 		hSpaceFill;

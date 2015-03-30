@@ -1,0 +1,2 @@
+sessionCreationTime
+	^ self infoAt: #sessionCreationTime

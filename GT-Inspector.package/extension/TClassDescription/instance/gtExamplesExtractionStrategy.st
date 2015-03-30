@@ -1,3 +1,0 @@
-gtExamplesExtractionStrategy
-
-	^ GTExampleExtractionStrategy new

@@ -1,2 +1,0 @@
-transformation: anObject
-	transformation := anObject

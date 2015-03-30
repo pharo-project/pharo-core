@@ -1,2 +1,0 @@
-labelBrick
-	^ labelBrick

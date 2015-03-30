@@ -1,3 +1,3 @@
 gtExampleTwoArguments
-	<example: 'With two arguments'>
+	<gtExample: 'With two arguments'>
 	^ [ :x :y | x + y ]

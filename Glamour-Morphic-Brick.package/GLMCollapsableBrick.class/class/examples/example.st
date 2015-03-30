@@ -1,5 +1,5 @@
 example
-	<example: 'Very simple one collapsable item'>
+	<gtExample: 'Very simple one collapsable item'>
 	^ self createCollapsable
 		hSpaceFill;
 		vShrinkWrap

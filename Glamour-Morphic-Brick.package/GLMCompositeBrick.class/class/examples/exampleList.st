@@ -1,5 +1,5 @@
 exampleList
-	<example: 'Phlow simple list'>
+	<gtExample: 'Phlow simple list'>
 
 	^ self new
 		hSpaceFill;

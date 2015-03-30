@@ -1,0 +1,3 @@
+gtExampleSuperclasses
+	<gtExample: 'Superclasses'>
+	^ Metaclass

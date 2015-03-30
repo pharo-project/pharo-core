@@ -1,0 +1,2 @@
+allowExplicitSelectionChange: aBoolean
+	allowExplicitSelectionChange := aBoolean

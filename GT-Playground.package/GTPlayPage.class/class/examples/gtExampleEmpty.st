@@ -1,3 +1,3 @@
 gtExampleEmpty
-	<example: 'Empty'>
+	<gtExample: 'Empty'>
 	^ self new

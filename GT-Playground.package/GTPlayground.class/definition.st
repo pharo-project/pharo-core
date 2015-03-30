@@ -1,5 +1,5 @@
 GLMCompositePresentation subclass: #GTPlayground
 	instanceVariableNames: ''
-	classVariableNames: 'GTPlaygroundEnabledStatus'
+	classVariableNames: 'GTPlaygroundEnabledStatus PreferredExtent RememberPreferredExtent'
 	poolDictionaries: ''
 	category: 'GT-Playground'

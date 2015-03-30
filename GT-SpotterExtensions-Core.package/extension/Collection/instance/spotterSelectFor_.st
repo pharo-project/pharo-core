@@ -5,8 +5,9 @@ spotterSelectFor: aStep
 		title: 'Expression selection';
 		filter: GTNullFilter item: [ :filter :context |
 			self do: [ :each |
-				[ (Smalltalk compiler 
+				Smalltalk compiler silentlyDo: [
+					(Smalltalk compiler
 						evaluate: '| each | each := self. ', context text 
 						for: each asSpotterCandidateLink value
 						notifying: nil
-						logged: false) ifTrue: [ filter value: each ]  ] on: Error do: [ " ignore this item, continue with the next one " ] ] ]
+						logged: false) ifTrue: [ filter value: each ] ] ] ]

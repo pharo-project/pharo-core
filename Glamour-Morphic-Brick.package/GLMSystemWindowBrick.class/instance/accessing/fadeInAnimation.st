@@ -1,3 +1,0 @@
-fadeInAnimation
-
-	^ fadeInAnimation

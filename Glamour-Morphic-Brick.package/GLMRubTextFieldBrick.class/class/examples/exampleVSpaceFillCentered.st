@@ -1,5 +1,5 @@
 exampleVSpaceFillCentered
-	<example: 'Rubric centered text field that shrinks to fit width of the text and fills parent height'>
+	<gtExample: 'Rubric centered text field that shrinks to fit width of the text and fills parent height'>
 	
 	^ self exampleWithBorder
 			vSpaceFill;

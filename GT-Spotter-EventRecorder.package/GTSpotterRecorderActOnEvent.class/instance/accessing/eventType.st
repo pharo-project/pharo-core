@@ -1,0 +1,2 @@
+eventType
+	^ self infoAt: #eventType

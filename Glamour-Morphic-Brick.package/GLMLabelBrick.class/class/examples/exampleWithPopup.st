@@ -1,5 +1,5 @@
 exampleWithPopup
-	<example: 'Label with text and popup showing when hovered with mouse'>
+	<gtExample: 'Label with text and popup showing when hovered with mouse'>
 	^ self new
 		enable;
 		text: 'Hello';

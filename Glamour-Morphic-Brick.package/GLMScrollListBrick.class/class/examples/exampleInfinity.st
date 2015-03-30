@@ -1,7 +1,7 @@
 exampleInfinity
 	|adaptor|
 	adaptor := nil.
-	adaptor := GLMBrickListAdaptor new
+	adaptor := GLMBrickListModel new
 		sizeLogic: [ Float infinity ];
 		morphAtLogic: [ :index :morph | 
 			(morph ifNil: [ GLMLabelBrick new ])
@@ -12,6 +12,6 @@ exampleInfinity
 				yourself ].
 
 	GLMFoundationBrick new
-		brickRoot: (self new adaptor: adaptor);
+		brickRoot: (self new model: adaptor);
 		extent: 300@400;
 		openInWindow

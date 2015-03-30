@@ -1,0 +1,2 @@
+defaultExceptionHandler
+	^ GTSpotterDebuggingExceptionHandler new

@@ -1,0 +1,3 @@
+rubricCursorColor
+
+	^ self rubricTextColor

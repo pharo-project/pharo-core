@@ -1,5 +1,5 @@
 exampleBand
-	<example: 'Two rubric text areas in band'>
+	<gtExample: 'Two rubric text areas in band'>
 	
 	^ GLMBandBrick new
 		padding: #(20 20);

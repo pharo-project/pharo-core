@@ -1,0 +1,2 @@
+elementName
+	^ self infoAt: #elementName

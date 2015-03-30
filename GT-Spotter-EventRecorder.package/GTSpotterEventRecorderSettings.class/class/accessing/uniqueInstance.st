@@ -1,3 +1,4 @@
 uniqueInstance
 	"self uniqueInstance"
-	^ uniqueInstance ifNil: [ uniqueInstance := self new ]
+	^ uniqueInstance ifNil: [ 
+			uniqueInstance := self new ].

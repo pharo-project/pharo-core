@@ -1,5 +1,5 @@
 exampleCompositePresentation
-	<example>
+	<gtExample>
 
 	^ self new
 		list;

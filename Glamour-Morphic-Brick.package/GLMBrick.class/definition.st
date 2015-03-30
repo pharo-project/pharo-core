@@ -1,6 +1,6 @@
 GLMBrickedMorph subclass: #GLMBrick
-	uses: GLMBrickPropertiesTrait + GLMBrickLayoutTrait + GLMBrickStructureTrait + GLMPhlowTrait + (GLMBrickGeometryTrait - {#privateBounds:})
-	instanceVariableNames: 'brickBounds ports'
+	uses: GLMBrickPropertiesTrait + GLMBrickLayoutTrait + GLMBrickStructureTrait + (GLMBrickGeometryTrait - {#privateBounds:})
+	instanceVariableNames: 'brickBounds'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Glamour-Morphic-Brick-Widgets-Core'

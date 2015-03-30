@@ -1,3 +1,0 @@
-transmit
-
-	^ GLMPhlowTransmissionBuilder phlow: self

@@ -1,0 +1,3 @@
+cleanUp
+
+	uniqueInstance := nil

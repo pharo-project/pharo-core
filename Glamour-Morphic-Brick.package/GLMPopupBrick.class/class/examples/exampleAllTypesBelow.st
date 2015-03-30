@@ -1,5 +1,5 @@
 exampleAllTypesBelow
-	<example: 'Example of all popup types opening below of anchor brick'>
+	<gtExample: 'Example of all popup types opening below of anchor brick'>
 
 	^ GLMBrick new
 		hShrinkWrap;

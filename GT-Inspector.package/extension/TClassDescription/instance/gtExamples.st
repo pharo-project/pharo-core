@@ -1,3 +1,3 @@
 gtExamples
 
-	^	self gtExamplesExtractionStrategy rootExamplesFor: self
+	^	self examplesProvider gtExamples

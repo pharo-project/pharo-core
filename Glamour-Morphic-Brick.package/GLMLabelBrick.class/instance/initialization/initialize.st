@@ -18,6 +18,4 @@ initialize
 		width: #approximateWidth;
 		floating: #right;
 		zIndex: 2;
-		marginTop: 1;
-		vSpaceFill
-	
+		marginTop: 1

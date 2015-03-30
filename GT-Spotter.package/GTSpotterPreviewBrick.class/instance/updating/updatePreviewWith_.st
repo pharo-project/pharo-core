@@ -5,7 +5,6 @@ updatePreviewWith: anObject
 	wasNil := previewObject isNil.
 	previewObject = anObject ifTrue: [ ^ self ].
 	previewObject := anObject.
-	
 	previewObject ifNil: [ ^ self updatePreviewWithEmpty ].
 	wasNil ifTrue: [ self updatePreviewWithLoading ].
 	

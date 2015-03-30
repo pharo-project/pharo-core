@@ -1,3 +1,3 @@
 borderColor
 
-	^ Color transparent
+	^ Color veryLightGray

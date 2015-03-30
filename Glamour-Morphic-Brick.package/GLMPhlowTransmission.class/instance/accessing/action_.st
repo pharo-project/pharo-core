@@ -1,3 +1,0 @@
-action: anObject
-
-	action := anObject

@@ -1,3 +1,3 @@
 exampleAnyOne
-	<example>
+	<gtExample>
 	^ self all anyOne

@@ -1,3 +1,0 @@
-windowBrick: aWindowBrick
-
-	windowBrick := aWindowBrick

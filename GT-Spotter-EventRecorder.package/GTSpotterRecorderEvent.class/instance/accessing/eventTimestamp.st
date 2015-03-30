@@ -1,0 +1,2 @@
+eventTimestamp
+	^ self timestamp

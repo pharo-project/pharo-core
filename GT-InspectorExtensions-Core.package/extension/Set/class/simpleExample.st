@@ -1,3 +1,3 @@
 simpleExample
-	<example: 'Simple'>
+	<gtExample: 'Simple'>
 	^ #('fourtytwo' 42) asSet

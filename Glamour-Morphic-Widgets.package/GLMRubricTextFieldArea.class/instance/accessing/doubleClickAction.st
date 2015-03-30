@@ -1,3 +1,0 @@
-doubleClickAction
-
-	^ doubleClickAction

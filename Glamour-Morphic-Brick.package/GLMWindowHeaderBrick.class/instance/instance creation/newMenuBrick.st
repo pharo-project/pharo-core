@@ -1,3 +1,0 @@
-newMenuBrick
-
-	^ GLMBrick new

@@ -1,0 +1,2 @@
+subject: anObject
+	subject := anObject

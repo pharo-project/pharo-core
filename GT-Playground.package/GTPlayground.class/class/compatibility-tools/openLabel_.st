@@ -4,4 +4,4 @@ openLabel: aLabel
 	page := GTPlayPage new
 		title: aLabel;
 		yourself.
-	^ self new openOn: page
+	^ self openOn: page

@@ -1,3 +1,3 @@
 newSearchField
 
-	^ GTSpotterSearchFieldMorph new
+	^ GLMRubTextFieldBrick new

@@ -1,0 +1,2 @@
+defaultRules
+	^ self cache rules

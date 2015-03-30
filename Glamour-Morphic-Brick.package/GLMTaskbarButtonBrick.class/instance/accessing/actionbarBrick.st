@@ -1,2 +1,0 @@
-actionbarBrick
-	^ actionbarBrick

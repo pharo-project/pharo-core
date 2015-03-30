@@ -1,7 +1,7 @@
 setAdaptor
 	| adaptor |
-	adaptor := (GLMBrickListAdaptor on: self entity)
+	adaptor := (GLMBrickListModel on: self entity)
 		morphAtLogic: [ :index :morph |
 			self styledLogic
 				phlowValue: (self formatLogic phlowValue: (self displayLogic phlowValue: (self entity at: index))) asBrick ].
-	self listBrick adaptor: adaptor
+	self listBrick model: adaptor

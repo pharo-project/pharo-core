@@ -1,5 +1,5 @@
 example
-	<example: 'Simple tree with a few elements'>
+	<gtExample: 'Simple tree with a few elements'>
 	
 	^ self new
 		hSpaceFill;

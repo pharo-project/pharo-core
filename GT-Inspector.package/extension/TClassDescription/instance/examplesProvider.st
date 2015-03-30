@@ -1,3 +1,3 @@
 examplesProvider
 
-	^ self
+	^ GTExampleProvider on: self

@@ -1,5 +1,6 @@
 spotterItemsFor: aStep
 	<spotterOrder: 10>
+	self flag: #refactoringViolationForSpotterActDefault:.
 	^ aStep listProcessor 
 		title: 'Items';
 		candidatesLimit: Float infinity;

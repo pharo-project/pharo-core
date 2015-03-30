@@ -1,2 +1,0 @@
-phlow: anObject
-	phlow := anObject

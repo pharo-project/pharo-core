@@ -1,3 +1,3 @@
 textArea: aTextArea
-	textArea := aTextArea.
-	aTextArea announcer subscribe: RubFindReplaceWindowRequired  send: #whenFindReplaceWindowRequired: to: self. 
+	textAreaHolder at: 1 put: aTextArea.
+	aTextArea announcer subscribe: RubFindReplaceWindowRequired send: #whenFindReplaceWindowRequired: to: self. 

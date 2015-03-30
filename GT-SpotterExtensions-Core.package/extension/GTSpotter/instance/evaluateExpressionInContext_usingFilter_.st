@@ -6,9 +6,9 @@ evaluateExpressionInContext: aSpotterContext usingFilter: filter
 		class selectors anySatisfy: [ :selector | 
 			aSpotterContext textTrimmed includesSubstring: selector caseSensitive: true ] ]) ifFalse: [ ^ self ].
 	" perform the selector "
-	result := [ Compiler evaluate: aSpotterContext textTrimmed ] 
-		on: Error 
-		do: [ ^ self ].
+	Smalltalk compiler 
+		silentlyDo: [ result := Smalltalk compiler evaluate: aSpotterContext textTrimmed ] 
+		exceptionDo: [ ^ self ].
 	result isNumber ifFalse: [ ^ self ].
 	filter value: result. 
 	" if the result is not readable as float, append the float as well "

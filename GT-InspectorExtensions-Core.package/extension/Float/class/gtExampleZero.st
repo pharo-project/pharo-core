@@ -1,3 +1,3 @@
 gtExampleZero
-	<example: 'Zero'>
+	<gtExample: 'Zero'>
 	^ 0.0

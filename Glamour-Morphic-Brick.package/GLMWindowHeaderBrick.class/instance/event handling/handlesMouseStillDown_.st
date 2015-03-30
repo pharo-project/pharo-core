@@ -1,2 +1,0 @@
-handlesMouseStillDown: evt
-	^ true
