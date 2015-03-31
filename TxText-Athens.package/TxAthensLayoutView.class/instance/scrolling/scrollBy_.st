@@ -3,7 +3,6 @@ scrollBy: aPoint
 	| x y  |
 	
 	x := offset x + aPoint x.
-	x := x max: 0.
 	y := offset y + aPoint y.
 
 
@@ -17,6 +16,8 @@ scrollBy: aPoint
 	aPoint y > 0 ifTrue:[
 		self extendLayoutDown: y ].
 
+	"Don't scroll beyond layout"
+	x := (x min: layout width - extent x) max: 0. 
 	y := (y min: layout height - extent y) max: 0.
 
 	offset := x@y.	

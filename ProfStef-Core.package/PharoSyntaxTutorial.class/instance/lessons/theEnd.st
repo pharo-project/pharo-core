@@ -4,7 +4,9 @@ title: 'Tutorial done !'
 lesson: 
 '"This tutorial is done. Enjoy programming with Pharo. 
 
-Don''t forget to read ''Pharo By Example'' found here: http://pharo-project.org/PharoByExample.
+Don''t forget to read ''Pharo By Example'' found here:  
+
+	http://pharobyexample.org/
 
 You can run this tutorial again by evaluating:"
 

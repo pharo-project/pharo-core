@@ -1,4 +1,4 @@
-script587
+script588
 
 	^ 'AST-Core-TheIntegrator.283.mcz
 AST-Tests-Core-TheIntegrator.65.mcz
@@ -66,30 +66,31 @@ FuelCommandLineHandler-TheIntegrator.27.mcz
 FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-TheIntegrator.384.mcz
 FuelTools-Debugger-StephaneDucasse.12.mcz
-GT-Inspector-TudorGirba.294.mcz
-GT-InspectorExtensions-Core-TudorGirba.122.mcz
-GT-Playground-StefanReichhart.84.mcz
-GT-Spotter-JurajKubelka.278.mcz
-GT-Spotter-EventRecorder-JurajKubelka.65.mcz
-GT-SpotterExtensions-Core-AndreiChis.107.mcz
-GT-Tests-Inspector-TudorGirba.32.mcz
+GT-Inspector-TudorGirba.301.mcz
+GT-InspectorExtensions-Core-JurajKubelka.136.mcz
+GT-Playground-TudorGirba.96.mcz
+GT-Spotter-StefanReichhart.290.mcz
+GT-Spotter-EventRecorder-JurajKubelka.72.mcz
+GT-SpotterExtensions-Core-StefanReichhart.117.mcz
+GT-Tests-Inspector-StefanReichhart.33.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
+GT-Tests-Spotter-StefanReichhart.7.mcz
 Generated-code-non-existing-package-EstebanLorenzano.2.mcz
 Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-TorstenBergmann.109.mcz
-Glamour-Core-AndreiChis.293.mcz
+Glamour-Core-AliakseiSyrel.298.mcz
 Glamour-Examples-TorstenBergmann.291.mcz
 Glamour-Helpers-AndreiChis.39.mcz
-Glamour-Morphic-Brick-AliakseiSyrel.348.mcz
+Glamour-Morphic-Brick-AliakseiSyrel.384.mcz
 Glamour-Morphic-Brick-Tests-AliakseiSyrel.12.mcz
 Glamour-Morphic-Pager-AndreiChis.103.mcz
-Glamour-Morphic-Renderer-AliakseiSyrel.314.mcz
-Glamour-Morphic-Theme-TudorGirba.206.mcz
-Glamour-Morphic-Widgets-AliakseiSyrel.168.mcz
-Glamour-Presentations-AndreiChis.172.mcz
+Glamour-Morphic-Renderer-AndreiChis.319.mcz
+Glamour-Morphic-Theme-TudorGirba.210.mcz
+Glamour-Morphic-Widgets-AndreiChis.174.mcz
+Glamour-Presentations-AndreiChis.173.mcz
 Glamour-Rubric-Presentations-AndreiChis.41.mcz
 Glamour-Tests-Core-AliakseiSyrel.104.mcz
-Glamour-Tests-Morphic-AliakseiSyrel.122.mcz
+Glamour-Tests-Morphic-AndreiChis.123.mcz
 Glamour-Tests-Resources-AndreiChis.3.mcz
 Glamour-Tests-Rubric-AndreiChis.14.mcz
 Gofer-Core-TheIntegrator.228.mcz
@@ -181,7 +182,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.90.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-TheIntegrator.906.mcz
+Nautilus-TheIntegrator.907.mcz
 Nautilus-Tests-TheIntegrator.12.mcz
 NautilusCommon-TheIntegrator.258.mcz
 NautilusRefactoring-TheIntegrator.214.mcz
@@ -206,7 +207,7 @@ Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz
 Polymorph-Widgets-TheIntegrator.1209.mcz
 PragmaCollector-TheIntegrator.3.mcz
-ProfStef-Core-TheIntegrator.53.mcz
+ProfStef-Core-TheIntegrator.55.mcz
 ProfStef-Help-SvenVanCaekenberghe.14.mcz
 ProfStef-Tests-TheIntegrator.25.mcz
 RPackage-Core-TheIntegrator.383.mcz
@@ -233,7 +234,7 @@ Ring-Monticello-MarcusDenker.29.mcz
 Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.83.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
-Rubric-AndreiChis.183.mcz
+Rubric-AndreiChis.186.mcz
 SUnit-Core-TheIntegrator.138.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Tests-TheIntegrator.48.mcz
@@ -313,7 +314,7 @@ Tools-TheIntegrator.1503.mcz
 ToolsTest-MarcusDenker.denker.71.mcz
 Traits-TheIntegrator.757.mcz
 Transcript-StephaneDucasse.32.mcz
-TxText-Athens-NicolaiHess.42.mcz
+TxText-Athens-TheIntegrator.44.mcz
 TxText-AthensTests-IgorStasenko.9.mcz
 TxText-Model-NicolaiHess.50.mcz
 TxText-Styler-IgorStasenko.3.mcz
