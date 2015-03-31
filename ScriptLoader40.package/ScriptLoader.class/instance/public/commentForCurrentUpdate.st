@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '15253 URL to book in Tutorial is wrong
-	https://pharo.fogbugz.com/f/cases/15253
+ ^ '15268 Categorise some uncategorized methods in Slot examples
+	https://pharo.fogbugz.com/f/cases/15268
 
-14974 failing test testScrollToLargeX
-	https://pharo.fogbugz.com/f/cases/14974
+15261 Generator: Move example from comment to method
+	https://pharo.fogbugz.com/f/cases/15261
 
-15241 Nautilus does not display catalogDescrption help text for many packages when moused over/clicked
-	https://pharo.fogbugz.com/f/cases/15241'
+15266 browser version in nautilus without a method selected throws a DNU
+	https://pharo.fogbugz.com/f/cases/15266'

@@ -1,4 +1,4 @@
-script588
+script589
 
 	^ 'AST-Core-TheIntegrator.283.mcz
 AST-Tests-Core-TheIntegrator.65.mcz
@@ -29,7 +29,7 @@ Collections-Atomic-MarcusDenker.10.mcz
 Collections-Native-TheIntegrator.9.mcz
 Collections-Sequenceable-TheIntegrator.189.mcz
 Collections-Stack-MarcusDenker.7.mcz
-Collections-Streams-StephaneDucasse.166.mcz
+Collections-Streams-TheIntegrator.168.mcz
 Collections-Strings-TheIntegrator.350.mcz
 Collections-Support-MarcusDenker.57.mcz
 Collections-Unordered-TheIntegrator.207.mcz
@@ -182,7 +182,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.90.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-TheIntegrator.907.mcz
+Nautilus-TheIntegrator.908.mcz
 Nautilus-Tests-TheIntegrator.12.mcz
 NautilusCommon-TheIntegrator.258.mcz
 NautilusRefactoring-TheIntegrator.214.mcz
@@ -249,7 +249,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.236.mcz
 ShoutTests-TheIntegrator.27.mcz
-Slot-TheIntegrator.595.mcz
+Slot-TheIntegrator.597.mcz
 Slot-Tests-TheIntegrator.33.mcz
 SmartSuggestions-TheIntegrator.147.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
