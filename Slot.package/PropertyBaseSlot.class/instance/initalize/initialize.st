@@ -1,2 +1,0 @@
-initialize
-	name := #'_properyBaseSlot'

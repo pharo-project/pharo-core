@@ -24,7 +24,7 @@ testRemovePropertySlot2
 	
 	self assert:	(aClass hasSlot: propertySlot1).
 	self deny: 	(aClass hasSlot: propertySlot2).
-	self assert:	(aClass layout hasSlotNamed: PropertyBaseSlot new name). 
+	self assert:	(aClass layout hasSlotNamed:  #'_propertyBaseSlot'). 
 		
 	aClass := self make: [ :builder |
 		builder 
@@ -33,4 +33,4 @@ testRemovePropertySlot2
 	
 	self deny:	(aClass hasSlot: propertySlot1).
 	self deny: 	(aClass hasSlot: propertySlot2).
-	self deny:	(aClass layout hasSlotNamed: PropertyBaseSlot new name). 
+	self deny:	(aClass layout hasSlotNamed:  #'_propertyBaseSlot'). 

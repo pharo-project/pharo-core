@@ -18,4 +18,4 @@ testRemovePropertySlot
 		].
 	self deny: (aClass hasSlot: propertySlot).	
 	self deny: (aClass layout hasSlot: (propertySlot instVarNamed: 'baseSlot')).
-	self deny: (aClass layout hasSlotNamed: PropertyBaseSlot new name).
+	self deny: (aClass layout hasSlotNamed: #'_propertyBaseSlot').

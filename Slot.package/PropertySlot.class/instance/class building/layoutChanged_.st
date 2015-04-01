@@ -7,5 +7,5 @@ layoutChanged: aClass
 	"here we need to be more clever: if a subclass defines it, 
 	move the difiniton here"
 	self flag: #TBD.
-	aClass addSlot: (baseSlot := PropertyBaseSlot new).
+	aClass addSlot: (baseSlot := #'_propertyBaseSlot' => BaseSlot default: Dictionary new).
 	

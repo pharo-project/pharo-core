@@ -7,5 +7,5 @@ layoutChanged: aClass
 	"here we need to be more clever: if a subclass defines it, 
 	move the difiniton here"
 	self flag: #TBD.
-	aClass addSlot: (baseSlot := BooleanBaseSlot new).
+	aClass addSlot: (baseSlot := #'_booleanBaseSlot' => BaseSlot default: 0).
 	
