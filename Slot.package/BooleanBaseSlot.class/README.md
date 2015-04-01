@@ -1,0 +1,1 @@
+I am the hidden non-virtual slot that all BooleanSlots of a class hierarchy store into.BooleanSlot, when a class is created containing it, makes sure that there is one slot of me defined. When the last BooleanSlot is removed, I am removed.

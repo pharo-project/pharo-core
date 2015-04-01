@@ -1,4 +1,4 @@
-script589
+script590
 
 	^ 'AST-Core-TheIntegrator.283.mcz
 AST-Tests-Core-TheIntegrator.65.mcz
@@ -150,7 +150,7 @@ Monticello-Tests-TheIntegrator.6.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.180.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
-MonticelloGUI-TheIntegrator.333.mcz
+MonticelloGUI-TheIntegrator.335.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 Morphic-Base-TheIntegrator.441.mcz
 Morphic-Core-TheIntegrator.166.mcz
@@ -249,8 +249,8 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.236.mcz
 ShoutTests-TheIntegrator.27.mcz
-Slot-TheIntegrator.597.mcz
-Slot-Tests-TheIntegrator.33.mcz
+Slot-TheIntegrator.598.mcz
+Slot-Tests-TheIntegrator.35.mcz
 SmartSuggestions-TheIntegrator.147.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
 Spec-Core-StephaneDucasse.386.mcz

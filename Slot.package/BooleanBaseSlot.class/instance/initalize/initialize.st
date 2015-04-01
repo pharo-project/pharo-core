@@ -1,0 +1,2 @@
+initialize
+	name := #'_booleanBaseSlot'
