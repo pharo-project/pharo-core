@@ -5,12 +5,7 @@ packageSelection: aNumber
 
 	selectedPackage := aNumber isZero
 		ifFalse: [ (self packageList at: aNumber) asString ].
-	aNumber isZero
-		ifTrue: [ selectedPackageAncestors := nil ]
-		ifFalse: [ 
-			(MCWorkingCopy registry at: (MCPackage named: selectedPackage) ifAbsent: [  ])
-				ifNotNil: [ :aWorkingCopy | selectedPackageAncestors := aWorkingCopy allAncestors collect: #name ]
-				ifNil: [ selectedPackageAncestors := nil ] ].
+	selectedPackageAncestors := nil.
 	self versionSelection: 0.
 	self
 		changed: #packageSelection;

@@ -18,7 +18,7 @@ initializeWidgets
 			self valid: false.
 			fork := [ | response |
 				response := ZnEasy client
-				url: 'http://bugs.pharo.org/issues/name/', text asString;
+				url: 'http://tracker.pharo.org/issues/name/', text asString;
 				get;
 				response.
 				self setTitleFrom: response ] fork ].

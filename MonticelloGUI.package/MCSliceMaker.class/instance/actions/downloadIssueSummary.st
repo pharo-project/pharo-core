@@ -3,7 +3,7 @@ downloadIssueSummary
 
 	
 	title := ZnClient new
-		url: 'http://bugs.pharo.org/issues/name/', self issueIdString;
+		url: 'http://tracker.pharo.org/issues/name/', self issueIdString;
 		enforceHttpSuccess:true;
 		ifFail:[:ex | ^ self informFailedWith: ex];
 		get.

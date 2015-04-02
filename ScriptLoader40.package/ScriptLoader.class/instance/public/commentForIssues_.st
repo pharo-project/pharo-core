@@ -6,7 +6,7 @@ commentForIssues: issues
 			do: [ :each | | description link |
 				stream print: each; space.
 				description := ZnClient new
-					url: 'http://bugs.pharo.org/issues/name/';
+					url: 'http://tracker.pharo.org/issues/name/';
 					addPath: each asString;
 					get.
 				stream << (description reject: [ :c | c = $' ]); cr.
