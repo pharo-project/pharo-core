@@ -1,6 +1,8 @@
 spotterConcreteMethodFor: aStep
     <spotterOrder: 30>
+	self flag: #specialFilter.
 	^ aStep listProcessor
-		title: 'Method';
-		filter: [ :context | self concreteMethodsInContext: context ];
+		title: 'Methods';
+		filter: GTNullFilter item: [ :filter :context |
+			self concreteMethodsInContext: context usingFilter: filter ];
 		wantsToDisplayOnEmptyQuery: false

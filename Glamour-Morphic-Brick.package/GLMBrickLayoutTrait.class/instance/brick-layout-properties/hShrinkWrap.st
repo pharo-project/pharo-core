@@ -1,4 +1,3 @@
 hShrinkWrap
 
-	self layout hShrinkWrap.
-	self privateWidth: nil
+	self layout hShrinkWrap

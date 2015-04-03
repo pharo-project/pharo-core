@@ -1,3 +1,3 @@
 layoutSubbricks
 
-	self layoutPolicy layout: self in: self innerBounds
+	self layoutPolicy layout: self brickApi in: self innerBounds

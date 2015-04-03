@@ -1,0 +1,3 @@
+isVShrinkWrap
+
+	^ self vState isOnChildren

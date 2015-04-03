@@ -4,7 +4,7 @@ shiftPressed: aBoolean
 	
 	isShiftPressed := aBoolean.
 	
-	SmalltalkImage current vm interpreterSourceDate < 2015 asYear 
+	SmalltalkImage current vm canHandleShiftPressed
 		ifTrue: [ ^ isShiftPressed := false ].
 
 	self isShiftPressed

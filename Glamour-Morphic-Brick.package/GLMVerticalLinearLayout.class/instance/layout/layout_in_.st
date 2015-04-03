@@ -5,5 +5,5 @@ layout: aBrick in: newBounds
 		in: newBounds
 		inject: aBrick paddingLeft @ aBrick paddingTop
 		into: [ :origin :each |
-			each wrappedBounds outerOrigin: origin.
-			0@each wrappedBounds outerBounds height ]
+			each outerOrigin: origin.
+			0@each outerBounds height ]

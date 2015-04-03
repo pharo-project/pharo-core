@@ -1,2 +1,0 @@
-shouldIgnoreAnnouncement: anAnnouncement
-	^ false

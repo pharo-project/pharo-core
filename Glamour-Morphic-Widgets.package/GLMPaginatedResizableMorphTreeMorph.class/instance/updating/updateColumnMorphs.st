@@ -1,5 +1,5 @@
 updateColumnMorphs
 	super updateColumnMorphs.
-	"self resizeColumns."
+	self resizeColumns.
 		
 	

@@ -1,3 +1,3 @@
 vPercent
 
-	^ verticalPercent ifNil: [ verticalPercent := 0 ]
+	^ self vState percent

@@ -1,4 +1,3 @@
 vShrinkWrap
 
-	self layout vShrinkWrap.
-	self privateHeight: nil
+	self layout vShrinkWrap

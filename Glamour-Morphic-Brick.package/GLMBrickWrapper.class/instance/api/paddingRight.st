@@ -1,0 +1,3 @@
+paddingRight
+
+	^ self brick paddingRight

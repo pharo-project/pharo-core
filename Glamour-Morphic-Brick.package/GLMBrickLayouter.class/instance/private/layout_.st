@@ -1,6 +1,6 @@
 layout: aBrick
 
-	aBrick wrappedBounds isWidthDirty
+	aBrick isWidthDirty
 		ifTrue: [ self widthTraverser layoutAround: aBrick inContext: nil ].
-	aBrick wrappedBounds isHeightDirty
+	aBrick isHeightDirty
 		ifTrue: [ self heightTraverser layoutAround: aBrick inContext: nil ]

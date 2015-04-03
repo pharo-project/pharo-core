@@ -2,8 +2,8 @@ updateVisibleTop: invisibleBricks
 	|before|
 	
 	before := self band hasSubbricks not
-		ifFalse: [ self band firstSubbrick]
-		ifTrue: [ self band addBrickBack: (self getMorphAt: self visibleIndex recycled: (self getAndRemoveInvisibleMorph: invisibleBricks)) ].
+		ifFalse: [ self band firstSubbrick ]
+		ifTrue: [ self addBrickBackNoLayout: (self getMorphAt: self visibleIndex recycled: (self getAndRemoveInvisibleMorph: invisibleBricks)) ].
 		
 	[ before isNotNil and: [ (self isPartiallyVisible: before) and: [ (self getIndex: before) > 1 ] ] ] whileTrue: [
 		before := self

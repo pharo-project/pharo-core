@@ -1,5 +1,5 @@
 isFloating: aBrick
 	
-	aBrick layoutProperties floating = #none ifTrue: [ ^ false ].
+	aBrick layout floating = #none ifTrue: [ ^ false ].
 	
-	^ self respondsTo: (self floatingMethodFor: aBrick layoutProperties floating)
+	^ self respondsTo: (self floatingMethodFor: aBrick layout floating)

@@ -7,5 +7,5 @@ calculateScrollbarHeight
 	firstIndex := self scrollPane getIndex: (self scrollPane band firstSubbrick).
 	lastIndex := self scrollPane getIndex: (self scrollPane band lastSubbrick).
 	
-	^ ((lastIndex - firstIndex + 1) / self scrollPane adaptor count * self height) ceiling.
+	^ ((lastIndex - firstIndex + 1) / self scrollPane model count * self height) ceiling.
 	

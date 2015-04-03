@@ -1,3 +1,3 @@
 vShrinkWrap
 
-	self vResizing: #shrinkWrap
+	vState := self vState onChildrenDo: #yourself

@@ -8,7 +8,7 @@ markDirtyCustomDependency: aBrick inContext: aContextBrick
 						self markDirtyAround: each inContext: aBrick ] ].
 				
 				(self customDependencies: aBrick) do: [ :each | |brick|
-					[ brick := each brickValue: aBrick ] on: Exception do: [ brick := nil ].
+					[ brick := (each brickValue: aBrick) brickApi ] on: Exception do: [ brick := nil ].
 					brick ifNotNil: [
 						(brick = aContextBrick) not & (brick = aBrick) not & brick isBrick ifTrue: [
 							(self isClean: brick) ifTrue: [

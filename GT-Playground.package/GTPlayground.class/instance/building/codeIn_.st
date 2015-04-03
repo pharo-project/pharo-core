@@ -1,6 +1,9 @@
 codeIn: a
 	^ a pharoPlayground
-		title: [ self newEditableLabelMorph ];
+		title: [ GTPlaygroundEditableTabLabel new
+			text: 'Untitled';
+			when: #accepted do: [ :text | "self entity title: text" ];
+			yourself ];
 		format: [ :page | page content ];
 		act: [ :text :page |
 				text selectionInterval: (1 to: text text size).
@@ -13,9 +16,14 @@ codeIn: a
 		act: [ :text :page | page publish ]
 			icon: ThemeIcons current glamorousSaveToUrl
 			entitled: 'Remote publish';
-		addAction: 
+		addAction:
 			(GLMPopupAction new
-				action: [ :text :page :popup | self newBindingsListIn: popup ]; 
+				action: [ :text :page :popup | GTPlaygroundBindingsList new
+					on: self currentBindingsSorted;
+					when: #bindingRemoved do: [ :binding | self removeBinding: binding ];
+					when: #inspect do: [ :binding | binding value inspect ];
+					when: #go do: [ :binding | text selection: binding value ];
+					yourself ]; 
 				icon: ThemeIcons current glamorousTable;
 				title: 'Bindings';
 				yourself);

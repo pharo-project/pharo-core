@@ -1,4 +1,0 @@
-isDependsOnMyself: aBrick
-
-	^ aBrick isWidthDependsOnMyself
-	

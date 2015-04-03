@@ -1,0 +1,2 @@
+isCategorySelection
+	^ true

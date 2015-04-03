@@ -1,3 +1,3 @@
 customWidth
 
-	^ (self valueOfProperty: #brickGeometryWidthLogic) brickValue: self
+	^ self layout width brickValue: self

@@ -1,0 +1,3 @@
+width
+
+	^ self hState dimension

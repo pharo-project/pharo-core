@@ -1,2 +1,2 @@
 eventType
-	^ self infoAt: #eventType
+	^ self infoAt: #eventType ifAbsent: [ #missing ]

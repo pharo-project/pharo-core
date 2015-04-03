@@ -1,5 +1,5 @@
 markDirty: aBrick
 
 	self markLayoutDirty: aBrick owner.
-	aBrick wrappedBounds markWidthDirty
+	aBrick markWidthDirty
 	

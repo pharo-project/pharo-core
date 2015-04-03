@@ -6,7 +6,7 @@ spotterItemsFor: aStep
 	^ aStep listProcessor
 		title: processor title;
 		candidatesLimit: 100;
-		items: [ OrderedCollection newFrom: (self collect: [ :each | each asSpotterCandidateLink value]) ];
+		items: [ self collect: [ :each | each asSpotterCandidateLink value] as: OrderedCollection ];
 		itemName: processor itemName;
 		itemIcon: processor itemIcon;
 		actLogic: processor actLogic;

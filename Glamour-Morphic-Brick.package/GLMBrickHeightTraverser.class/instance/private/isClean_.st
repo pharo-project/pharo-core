@@ -1,3 +1,3 @@
 isClean: aBrick
 
-	^ aBrick wrappedBounds isHeightClean
+	^ aBrick isHeightClean

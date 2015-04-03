@@ -1,3 +1,3 @@
 customHeight
 
-	^ (self valueOfProperty: #brickGeometryHeightLogic) brickValue: self
+	^ self layout height brickValue: self

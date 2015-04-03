@@ -5,4 +5,4 @@ approximateBandHeight
 	visible isEmpty ifTrue: [ ^ 0 ].
 	
 	averageItemHeight := (visible inject: 0 into: [ :visibleHeight :each | visibleHeight + each height ]) / visible size.
-	^ self scrollPane adaptor count * averageItemHeight.
+	^ self scrollPane model count * averageItemHeight.

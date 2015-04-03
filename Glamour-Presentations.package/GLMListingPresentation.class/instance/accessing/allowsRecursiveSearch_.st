@@ -1,0 +1,2 @@
+allowsRecursiveSearch: aBoolean
+	allowsRecursiveSearch := aBoolean

@@ -1,0 +1,3 @@
+isVSpaceFill
+
+	^ self vState isOnParent

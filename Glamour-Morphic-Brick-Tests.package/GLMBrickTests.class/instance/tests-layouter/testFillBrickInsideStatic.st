@@ -3,8 +3,8 @@ testFillBrickInsideStatic
 	
 	root := self newBrickWithStaticExtent.
 	brick := self newBrickWithFullFill.
-	brick isWidthDependsOnParent.
-	brick isHeightDependsOnParent.
+	brick brickApi layout hState isOnParent.
+	brick brickApi layout vState isOnParent.
 	root addBrickBack: brick.
 	
 	self assertAllSubbricksAreClean: root.

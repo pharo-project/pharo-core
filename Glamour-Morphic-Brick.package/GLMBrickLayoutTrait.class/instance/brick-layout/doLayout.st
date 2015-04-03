@@ -1,4 +1,4 @@
 doLayout
 
 	self isLayotingAllowed ifTrue: [
-		GLMBrickLayouter uniqueInstance layoutIn: self ]
+		GLMBrickLayouter uniqueInstance layoutIn: self brickApi ]

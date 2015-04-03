@@ -1,2 +1,2 @@
 defaultValue
-	^ GTSpotterExceptionHandlerNotFound signal
+	^ nil

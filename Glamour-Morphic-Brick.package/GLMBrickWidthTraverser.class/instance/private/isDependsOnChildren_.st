@@ -1,4 +1,0 @@
-isDependsOnChildren: aBrick
-
-	^ aBrick isWidthDependsOnChildren
-	

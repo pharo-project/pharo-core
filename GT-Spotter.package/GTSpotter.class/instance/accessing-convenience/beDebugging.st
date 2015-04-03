@@ -1,0 +1,2 @@
+beDebugging
+	self exceptionHandler: GTSpotterDebuggingExceptionHandler new

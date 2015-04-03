@@ -1,0 +1,3 @@
+exampleEmptyAnnouncement
+	<gtExample>
+	^ self new

@@ -1,3 +1,3 @@
 hPercent: anInteger
 
-	horizontalPercent := anInteger
+	hState := self hState onParentDo: [ :s | s percent: anInteger ]

@@ -1,3 +1,3 @@
 isOppositeClean: aBrick
 
-	^ aBrick wrappedBounds isWidthClean
+	^ aBrick isWidthClean

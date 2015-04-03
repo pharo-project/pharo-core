@@ -9,7 +9,7 @@ exampleDifferentHeights
 				text: index asString, ' of ', adaptor count asString;
 				textPosition: #center;
 				enable;
-				height: [ :b | (((index % 10)*10 + 30) +  (10000 * (2 / b width))) asInteger ];
+				height: [ :b | (((index % 10)*10 + 30) +  (1000 * (2 / b width))) asInteger ];
 				hSpaceFill;
 				yourself ].
 

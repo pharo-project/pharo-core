@@ -1,0 +1,3 @@
+height
+
+	^ self vState dimension

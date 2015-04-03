@@ -13,4 +13,9 @@ gtInspectorItemsIn: composite
 			evaluated: [:each | GTObjectPrinter new asTruncatedTextFrom: each key ];
 		column: 'Value' 
 			evaluated: [:each | GTObjectPrinter new asTruncatedTextFrom: each value ];
+		beMultiple;
+		send: [ :selection | 
+			(selection notNil and: [ selection size = 1 ]) 
+				ifTrue: [ selection anyOne value ] 
+				ifFalse: [ selection collect: #value ] ];
 		showOnly: 50

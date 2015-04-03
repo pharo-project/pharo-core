@@ -4,4 +4,5 @@ spotterForSettingsFor: aStep
 		title: 'Settings';
 		allCandidates: [ (SettingTree new acceptableKeywords: SettingBrowser settingsKeywords) nodeList ];
 		itemName: [ :each | each spotterLabel ];
-		filter: GTFilterSubstring
+		filter: GTFilterSubstring;
+		wantsToDisplayOnEmptyQuery: false

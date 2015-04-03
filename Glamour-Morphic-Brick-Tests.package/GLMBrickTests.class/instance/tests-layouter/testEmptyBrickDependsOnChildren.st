@@ -3,8 +3,8 @@ testEmptyBrickDependsOnChildren
 	
 	brick := self newBrickWithFullDependsOnChildren.
 	
-	self assert: brick isWidthDependsOnChildren.
-	self assert: brick isHeightDependsOnChildren.
+	self assert: brick brickApi layout hState isOnChildren.
+	self assert: brick brickApi layout vState isOnChildren.
 	
 	self assertAllSubbricksAreDirty: brick.
 	brick doLayout.

@@ -1,3 +1,3 @@
 vPercent: anInteger
 
-	verticalPercent := anInteger
+	vState := self vState onParentDo: [ :s | s percent: anInteger ]

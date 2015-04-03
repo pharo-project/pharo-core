@@ -2,7 +2,7 @@ updateVisibleBottom: invisibleBricks
 	|after|
 	
 	after := self band lastSubbrick.
-	[ after isNotNil and: [ (self isPartiallyVisible: after) and: [ (self getIndex: after) < self adaptor count ] ] ] whileTrue: [
+	[ after isNotNil and: [ (self isPartiallyVisible: after) and: [ (self getIndex: after) < self model count ] ] ] whileTrue: [
 		after := self
 			addItemMorph: (
 				self

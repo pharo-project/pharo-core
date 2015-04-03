@@ -1,0 +1,3 @@
+isWidthCustom
+
+	^ self hState isOnMyself

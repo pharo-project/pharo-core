@@ -1,6 +1,8 @@
 alert: anObject
-
+	|window|
 	self alertOn: anObject.
-	(self openInBrickWindowLabeled: 'Alert')
+	window := (self openInBrickWindowLabeled: 'Alert').
+	#GLMSystemWindowBrick asClassIfAbsent: [ ^ self ].
+	window
 		noMenu;
 		innerExtent: self extent

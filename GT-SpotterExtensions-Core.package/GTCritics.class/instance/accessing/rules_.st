@@ -1,2 +1,0 @@
-rules: anObject
-	rules := anObject

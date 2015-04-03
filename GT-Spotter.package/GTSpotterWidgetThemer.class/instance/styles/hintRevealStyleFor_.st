@@ -1,6 +1,6 @@
 hintRevealStyleFor: aBrick
 	
-	SmalltalkImage current vm interpreterSourceDate < 2015 asYear 
+	SmalltalkImage current vm canHandleShiftPressed
 		ifTrue: [ ^ self ].
 	
 	aBrick ifNil: [ ^ self ].

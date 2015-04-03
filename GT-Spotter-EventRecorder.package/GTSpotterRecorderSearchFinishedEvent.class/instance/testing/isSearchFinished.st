@@ -1,0 +1,2 @@
+isSearchFinished
+	^ self query notNil

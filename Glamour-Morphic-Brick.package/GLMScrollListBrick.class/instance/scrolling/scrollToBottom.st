@@ -1,3 +1,3 @@
 scrollToBottom
 
-	self scrollTo: self adaptor count
+	self scrollTo: self model count

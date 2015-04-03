@@ -1,2 +1,0 @@
-cache
-	^ GTCachedCritics cache

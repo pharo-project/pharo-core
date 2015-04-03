@@ -1,6 +1,6 @@
 keymapToggleDebug
 	"KMRepository reset"
-	"<shortcut>"
+	<shortcut>
 	^ KMKeymap
-			shortcut: Character cr command
+			shortcut: Character cr shift command
 			action: [ self class openGlobalSpotterDebug ]

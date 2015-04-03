@@ -1,0 +1,2 @@
+percent: anObject
+	percent := anObject

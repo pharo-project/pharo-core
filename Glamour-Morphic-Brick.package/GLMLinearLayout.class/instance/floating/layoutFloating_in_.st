@@ -2,7 +2,7 @@ layoutFloating: aBrick in: newBounds
 	"must return an integer that will be added to the offset, if necessary"
 	
 	|float symbol|
-	float := aBrick layoutProperties floating.
+	float := aBrick layout floating.
 	symbol := self floatingMethodFor: float.
 	
 	^ (self respondsTo: symbol)

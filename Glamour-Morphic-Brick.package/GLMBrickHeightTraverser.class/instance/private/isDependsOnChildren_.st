@@ -1,3 +1,0 @@
-isDependsOnChildren: aBrick
-
-	^ aBrick isHeightDependsOnChildren 

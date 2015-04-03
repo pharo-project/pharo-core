@@ -1,8 +1,8 @@
 updateVisible
 	|invisible|
 	
-	self adaptor ifNil: [ ^ self ].
-	self adaptor count = 0 ifTrue: [ ^ self ].
+	self model ifNil: [ ^ self ].
+	self model count = 0 ifTrue: [ ^ self ].
 	
 	invisible := self gatherInvisibleItems.
 	invisible = self band subbricks & invisible isEmpty not ifTrue: [ ^ self ].
@@ -10,6 +10,6 @@ updateVisible
 	self updateVisibleTop: invisible.
 	self updateVisibleBottom: invisible.
 	
-	invisible do: [ :each | self band removeBrick: each ].
+	invisible do: [ :each | self removeBrickNoLayout: each ].
 	
 	visibleIndex := self getIndex: self band firstSubbrick 

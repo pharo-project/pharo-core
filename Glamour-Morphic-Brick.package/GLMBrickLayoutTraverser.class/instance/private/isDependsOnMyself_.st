@@ -1,3 +1,3 @@
 isDependsOnMyself: aBrick
 
-	^ self subclassResponsibility
+	^ (self state cull: aBrick layout) isOnMyself

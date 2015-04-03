@@ -1,3 +1,0 @@
-hResizing
-
-	^ self layout hResizing

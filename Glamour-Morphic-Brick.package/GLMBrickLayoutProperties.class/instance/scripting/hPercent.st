@@ -1,3 +1,3 @@
 hPercent
 
-	^ horizontalPercent ifNil: [ horizontalPercent := 0 ]
+	^ self hState percent

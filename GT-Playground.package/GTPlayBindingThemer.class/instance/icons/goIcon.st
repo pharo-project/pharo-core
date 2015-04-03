@@ -1,0 +1,3 @@
+goIcon
+
+	^ GLMUIThemeExtraIcons glamorousGo

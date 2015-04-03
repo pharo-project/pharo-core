@@ -1,3 +1,0 @@
-vPercent
-
-	^ self layout vPercent

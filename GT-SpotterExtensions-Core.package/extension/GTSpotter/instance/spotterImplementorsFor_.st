@@ -3,6 +3,6 @@ spotterImplementorsFor: aStep
 	self flag: #specialFilter.
 	aStep listProcessor
 		title: 'Implementors';
-		itemFilterName: [ :method | method selector asString ];	
-		filter: GTFilterSubstring item: [ :filter :context | 
-			SystemNavigation default allBehaviorsDo: [ :class | class methodsDo: filter ] ]
+		filter: GTFilterImplementor item: [ :filter :context | 
+			SystemNavigation default allBehaviorsDo: [ :class | class methodsDo: filter ] ];
+		wantsToDisplayOnEmptyQuery: false

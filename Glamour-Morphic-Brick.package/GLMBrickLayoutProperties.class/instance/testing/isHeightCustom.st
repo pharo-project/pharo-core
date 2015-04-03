@@ -1,0 +1,3 @@
+isHeightCustom
+
+	^ self vState isOnMyself

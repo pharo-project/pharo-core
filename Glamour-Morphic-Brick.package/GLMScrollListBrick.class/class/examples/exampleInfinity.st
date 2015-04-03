@@ -7,6 +7,7 @@ exampleInfinity
 			(morph ifNil: [ GLMLabelBrick new ])
 				color: Color random muchLighter;
 				text: index asString, ' of ', adaptor count asString;
+				height: 30;
 				textPosition: #center;
 				hSpaceFill;
 				yourself ].

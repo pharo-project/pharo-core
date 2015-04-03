@@ -1,5 +1,5 @@
 TestCase subclass: #GTSpotterEventRecorderTest
-	instanceVariableNames: 'recorder'
+	instanceVariableNames: 'recorder checkedEvents'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-Spotter-EventRecorder-Tests'

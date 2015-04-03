@@ -1,0 +1,2 @@
+isUserSelectionClass
+	^ false

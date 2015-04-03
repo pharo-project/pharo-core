@@ -1,4 +1,4 @@
 markClean: aBrick
 
-	aBrick wrappedBounds markHeightClean
+	aBrick markHeightClean
 	

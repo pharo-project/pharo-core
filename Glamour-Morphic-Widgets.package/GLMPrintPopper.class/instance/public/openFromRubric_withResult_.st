@@ -11,7 +11,7 @@ openFromRubric: aMorph withResult: anObject
 		do: [ 
 			self delete.
 			aMorph textArea removeHighlightSegment.
-			aMorph editor afterSelectionInsertAndSelect: string asComment.
+			aMorph editor atEndOfLineInsertAndSelect: string asComment.
 			aMorph takeKeyboardFocus ].
 	inspectButton addUpAction: [ anObject inspect ].
 	self openInWorld

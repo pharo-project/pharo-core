@@ -3,8 +3,8 @@ testOneStaticBrick
 	
 	brick := self newBrickWithStaticExtent.
 	
-	self assert: brick isWidthDependsOnMyself.
-	self assert: brick isHeightDependsOnMyself.
+	self assert: brick brickApi layout hState isOnMyself.
+	self assert: brick brickApi layout vState isOnMyself.
 	self assertBrickClean: brick.
 	self assert: brick extent equals: self staticExtent
 	

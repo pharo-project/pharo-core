@@ -1,4 +1,0 @@
-isOppositeDependsOn: aBrick
-
-	^ aBrick isWidthDependsOnHeight
-	

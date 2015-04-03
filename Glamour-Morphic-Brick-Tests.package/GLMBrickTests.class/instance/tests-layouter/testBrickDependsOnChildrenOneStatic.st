@@ -6,8 +6,8 @@ testBrickDependsOnChildrenOneStatic
 	
 	root addBrickBack: brick.
 	
-	self assert: root isWidthDependsOnChildren.
-	self assert: root isHeightDependsOnChildren.
+	self assert: root brickApi layout hState isOnChildren.
+	self assert: root brickApi layout vState isOnChildren.
 	
 	self assertAllSubbricksAreClean: root.
 	

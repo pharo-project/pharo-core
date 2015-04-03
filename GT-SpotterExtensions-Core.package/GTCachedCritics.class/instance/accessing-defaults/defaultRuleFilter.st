@@ -1,2 +1,0 @@
-defaultRuleFilter
-	^ [ :rule | true  ]

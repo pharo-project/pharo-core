@@ -1,7 +1,7 @@
 renderBorderOf: aBrick on: aCanvas
 	|canvas widthLeft widthRight widthTop widthBottom colorLeft colorRight colorTop colorBottom|
 	
-	canvas := aCanvas asBalloonCanvas.
+	canvas := aCanvas.
 	
 	widthLeft := self widthLeft brickValue: aBrick.
 	widthRight := self widthRight brickValue: aBrick.
@@ -14,17 +14,17 @@ renderBorderOf: aBrick on: aCanvas
 	colorBottom := self colorBottom brickValue: aBrick.
 	
 	canvas
-		drawRectangle: (aBrick brickBounds origin extent: ((aBrick brickBounds width - widthRight) @ widthTop))
-		color: colorTop borderWidth: 0 borderColor: Color transparent.
+		fillRectangle: (aBrick brickBounds origin extent: ((aBrick brickBounds width - widthRight) @ widthTop))
+		color: colorTop.
 		
 	canvas
-		drawRectangle: ((aBrick brickBounds right - widthRight) @ aBrick brickBounds top corner: (aBrick brickBounds corner - (0@widthBottom)))
-		color: colorRight borderWidth: 0 borderColor: Color transparent.
+		fillRectangle: ((aBrick brickBounds right - widthRight) @ aBrick brickBounds top corner: (aBrick brickBounds corner - (0@widthBottom)))
+		color: colorRight.
 		
 	canvas
-		drawRectangle: ((aBrick brickBounds bottomLeft - (widthLeft negated @ widthBottom)) corner: aBrick brickBounds corner)
-		color: colorBottom borderWidth: 0 borderColor: Color transparent.
+		fillRectangle: ((aBrick brickBounds bottomLeft - (widthLeft negated @ widthBottom)) corner: aBrick brickBounds corner)
+		color: colorBottom.
 		
 	canvas
-		drawRectangle: ((aBrick brickBounds origin + (0@widthTop)) corner: (aBrick brickBounds bottomLeft + (widthLeft@0)))
-		color: colorLeft borderWidth: 0 borderColor: Color transparent.
+		fillRectangle: ((aBrick brickBounds origin + (0@widthTop)) corner: (aBrick brickBounds bottomLeft + (widthLeft@0)))
+		color: colorLeft.

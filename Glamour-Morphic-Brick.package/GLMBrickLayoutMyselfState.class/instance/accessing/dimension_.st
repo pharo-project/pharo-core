@@ -1,0 +1,2 @@
+dimension: anObject
+	dimension := anObject

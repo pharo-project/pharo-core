@@ -1,0 +1,3 @@
+defaultPercent
+
+	^ 100
