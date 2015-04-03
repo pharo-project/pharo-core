@@ -1,6 +1,5 @@
 openInWorld
 
-	super openInWorld.
-	self width: 300.
-	self height: 400.
-	self centering
+	self choose 
+	"since it is modal"
+	
