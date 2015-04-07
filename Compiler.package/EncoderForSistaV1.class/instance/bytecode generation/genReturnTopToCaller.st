@@ -1,5 +1,5 @@
 genReturnTopToCaller
-	"93		1011101		Return Stack Top From Block [* return from enclosing block N, ExtA]"
+	"94		01011110		Return Stack Top From Block [* return from enclosing block N, ExtA]"
 	"If extended, the least significant bit of the extension determines if we return to the caller or not
 	 and the most significant bits determine how many levels of the static chain to return from.
 		ExtA = iiiiiiij
@@ -11,4 +11,4 @@ genReturnTopToCaller
 		iiiiiii=2,j=1	=>	return to outerContext outerContext sender/return from outerContext outerContext
 		etc"
 
-	stream nextPut: 93
+	stream nextPut: 94

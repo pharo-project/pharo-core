@@ -1,4 +1,4 @@
-script595
+script596
 
 	^ 'AST-Core-TheIntegrator.283.mcz
 AST-Tests-Core-TheIntegrator.65.mcz
@@ -35,7 +35,7 @@ Collections-Support-MarcusDenker.57.mcz
 Collections-Unordered-TheIntegrator.207.mcz
 Collections-Weak-TheIntegrator.88.mcz
 CollectionsTests-TheIntegrator.683.mcz
-Compiler-ClementBera.580.mcz
+Compiler-TheIntegrator.582.mcz
 Compression-TheIntegrator.149.mcz
 CompressionTests-TheIntegrator.29.mcz
 ConfigurationCommandLineHandler-Core-TheIntegrator.27.mcz
@@ -112,7 +112,7 @@ HelpSystem-Core-TheIntegrator.120.mcz
 HelpSystem-Tests-TheIntegrator.30.mcz
 HudsonBuildTools20-TheIntegrator.65.mcz
 Jobs-EstebanLorenzano.4.mcz
-Kernel-TheIntegrator.2007.mcz
+Kernel-TheIntegrator.2009.mcz
 KernelTests-TheIntegrator.765.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-EstebanLorenzano.45.mcz
@@ -257,7 +257,7 @@ Spec-Core-StephaneDucasse.386.mcz
 Spec-Debugger-TheIntegrator.236.mcz
 Spec-Examples-TheIntegrator.89.mcz
 Spec-Help-TheIntegrator.8.mcz
-Spec-Inspector-StephaneDucasse.233.mcz
+Spec-Inspector-TheIntegrator.236.mcz
 Spec-Layout-TheIntegrator.67.mcz
 Spec-MorphicAdapters-TheIntegrator.207.mcz
 Spec-PolyWidgets-TheIntegrator.57.mcz

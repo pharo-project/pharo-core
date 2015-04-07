@@ -7,6 +7,9 @@ headerDescription
 	self header printOn: s.
 	s cr; nextPutAll: '"signFlag: '.
 	self signFlag printOn: s.
+	s nextPutAll: ' ('.
+	self encoderClass name printOn: s.
+	s nextPut: $).
 	s cr; nextPutAll: 'primitive: '.
 	self primitive printOn: s.
 	s cr; nextPutAll: ' numArgs: '.

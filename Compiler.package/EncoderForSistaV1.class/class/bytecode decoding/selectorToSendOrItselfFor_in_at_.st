@@ -30,7 +30,7 @@ selectorToSendOrItselfFor: anInstructionStream in: method at: pc
 		["special byte or short send"
 		 ^byte >= 128
 			ifTrue: [method literalAt: (byte bitAnd: 15) + 1]
-			ifFalse: [Smalltalk specialSelectorAt: byte - 79]].
+			ifFalse: [Smalltalk specialSelectorAt: byte - 95]].
 	byte < 234 ifTrue: "need to check for either extension cuz order of extensions is not restricted. so extB could preceed extA"
 		[(byte >= 224 and: [byte <= 225]) ifTrue:
 			[^self extensionsAt: pc in: method into:
@@ -45,7 +45,7 @@ selectorToSendOrItselfFor: anInstructionStream in: method at: pc
 	byte > 235 ifTrue:
 		[^anInstructionStream].
 	"they could be extended..."
-	^self extensionsFor: pc in: method into:
+	^self extensionsAt: pc in: method into:
 		[:extA :extB :nExtBytes| | index |
 		 index := ((method at: pc + 1) bitShift: -3) + (extA bitShift: 5).
 		 method literalAt: index + 1]
