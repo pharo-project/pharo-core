@@ -21,7 +21,6 @@ testExampleTwoBooleanSlots
 	slot2 write: true to: object.
 	self assert: (slot2 read: object) = true.
 	
-	
 	slot2 write: true to: object.
 	slot1 write: false to: object.
 	self assert: (slot2 read: object) = true.

@@ -1,3 +1,3 @@
 installingIn: aClass
 	super installingIn: aClass.
-	self calculateOffset: aClass.
+	offset := self calculateOffset: aClass.
