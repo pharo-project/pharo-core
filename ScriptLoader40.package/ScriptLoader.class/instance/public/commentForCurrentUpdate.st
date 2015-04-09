@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '15308 Bugfix and test for BooleanSlot
-	https://pharo.fogbugz.com/f/cases/15308'
+ ^ '15315 Inspecting Slots raises an error
+	https://pharo.fogbugz.com/f/cases/15315'
