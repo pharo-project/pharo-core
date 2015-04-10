@@ -1,4 +1,4 @@
-script599
+script600
 
 	^ 'AST-Core-TheIntegrator.283.mcz
 AST-Tests-Core-TheIntegrator.65.mcz
@@ -113,7 +113,7 @@ HelpSystem-Tests-TheIntegrator.30.mcz
 HudsonBuildTools20-TheIntegrator.65.mcz
 Jobs-EstebanLorenzano.4.mcz
 Kernel-TheIntegrator.2009.mcz
-KernelTests-TheIntegrator.765.mcz
+KernelTests-TheIntegrator.767.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-EstebanLorenzano.45.mcz
 Keymapping-Pragmas-TheIntegrator.50.mcz
@@ -121,7 +121,7 @@ Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.94.mcz
 Keymapping-Tools-Spec-TheIntegrator.30.mcz
 Komitter-TheIntegrator.113.mcz
-Manifest-Core-TheIntegrator.213.mcz
+Manifest-Core-TheIntegrator.215.mcz
 Manifest-CriticBrowser-TheIntegrator.177.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.49.mcz
@@ -184,7 +184,7 @@ NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
 Nautilus-TheIntegrator.909.mcz
 Nautilus-Tests-TheIntegrator.12.mcz
-NautilusCommon-TheIntegrator.258.mcz
+NautilusCommon-TheIntegrator.260.mcz
 NautilusRefactoring-TheIntegrator.214.mcz
 Network-Kernel-StephaneDucasse.112.mcz
 Network-MIME-MarcusDenker.69.mcz
@@ -196,7 +196,7 @@ NetworkTests-TheIntegrator.103.mcz
 NewValueHolder-TheIntegrator.27.mcz
 NodeNavigation-StephaneDucasse.51.mcz
 NonInteractiveTranscript-TheIntegrator.15.mcz
-OSWindow-Core-EstebanLorenzano.18.mcz
+OSWindow-Core-TheIntegrator.20.mcz
 OSWindow-SDL2-EstebanLorenzano.19.mcz
 OSWindow-VM-IgorStasenko.2.mcz
 OpalCompiler-Core-TheIntegrator.638.mcz

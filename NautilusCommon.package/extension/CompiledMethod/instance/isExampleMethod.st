@@ -1,6 +1,5 @@
 isExampleMethod
-	|hasExamplePragma|
-	hasExamplePragma := self pragmas anySatisfy: [:each | each keyword = #example ].
+	
     ^ (self methodClass isMeta) and: [ 
-		((self selector beginsWith: 'example') or: [ hasExamplePragma ])
+		(self selector beginsWith: 'example')
 			 and: [ self numArgs isZero ] ]

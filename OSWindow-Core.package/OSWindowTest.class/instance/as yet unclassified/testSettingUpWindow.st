@@ -2,6 +2,7 @@ testSettingUpWindow
 
 	| window |
 	
+	self skip. "not yet working in Windows"
 	window := OSWindow new.
 	
 	[

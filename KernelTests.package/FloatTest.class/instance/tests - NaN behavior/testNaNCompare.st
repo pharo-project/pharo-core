@@ -5,6 +5,7 @@ testNaNCompare
 	This test does verify this rule"
 	
 	| compareSelectors theNaN anotherNaN comparand brokenMethods warningMessage |
+	self skip.
 	compareSelectors := #(#< #<= #> #>= #=).
 	theNaN := Float nan.
 	anotherNaN := Float infinity - Float infinity.
