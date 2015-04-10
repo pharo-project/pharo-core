@@ -1,3 +1,3 @@
 exampleListClassMethodsOpen
 	
-	self exampleListClassMethods openInBrickWindow
+	self gtExampleListClassMethods openInBrickWindow

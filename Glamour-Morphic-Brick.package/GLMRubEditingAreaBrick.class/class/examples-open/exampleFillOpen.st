@@ -1,3 +1,3 @@
 exampleFillOpen
 
-	self exampleFill openCenteredInBrickWindow
+	self gtExampleFill openCenteredInBrickWindow

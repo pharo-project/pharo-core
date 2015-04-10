@@ -1,5 +1,6 @@
 onCandidateSelected: ann
-
-	self scrollTo: (ann candidateBrick candidateLink isFirst
-		ifTrue: [ (self categoryMorphOf: ann candidateBrick candidateLink processor) subbrickBefore ]
+	|titleBrick|
+	titleBrick := (self categoryMorphOf: ann candidateBrick candidateLink processor) subbrickBefore.
+	self scrollTo: ((ann candidateBrick candidateLink isFirst and: [ titleBrick isFirstInOwner ])
+		ifTrue: [ titleBrick ]
 		ifFalse: [ ann candidateBrick ])

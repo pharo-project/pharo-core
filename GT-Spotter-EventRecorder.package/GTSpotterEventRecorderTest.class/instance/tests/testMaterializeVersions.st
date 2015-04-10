@@ -6,8 +6,8 @@ testMaterializeVersions
 	versions do: [ :eachPragma |
 		self assertVersion: eachPragma selector ].
 	self assert: checkedEvents notEmpty.
-	notMaterializedEvents := checkedEvents copy 
-		removeAll: GTSpotterRecorderEvent allSubclasses; 
+	notMaterializedEvents := GTSpotterRecorderEvent allSubclasses 
+		removeAll: checkedEvents; 
 		yourself.
 	self 
 		assert: notMaterializedEvents isEmpty

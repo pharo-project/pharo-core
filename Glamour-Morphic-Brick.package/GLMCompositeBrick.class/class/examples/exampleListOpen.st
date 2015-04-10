@@ -1,3 +1,3 @@
 exampleListOpen
 	
-	self exampleList openInBrickWindow
+	self gtExampleList openInBrickWindow

@@ -1,5 +1,5 @@
 actionsForPreviousContents
-	^ GTPlayBook instance pagesSorted
+	^ GTPlayBook instance pages
 		collect: [ :each | 
 			GLMGenericAction new
 				title: (each content asString contractTo: 50);

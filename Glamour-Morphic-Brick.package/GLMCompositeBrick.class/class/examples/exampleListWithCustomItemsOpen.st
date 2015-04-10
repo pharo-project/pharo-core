@@ -1,3 +1,3 @@
 exampleListWithCustomItemsOpen
 	
-	self exampleListWithCustomItems openInBrickWindowLabeled: 'Phlow list with custom item'
+	self gtExampleListWithCustomItems openInBrickWindowLabeled: 'Phlow list with custom item'

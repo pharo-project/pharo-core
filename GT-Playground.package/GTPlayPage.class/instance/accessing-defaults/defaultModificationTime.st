@@ -1,2 +1,0 @@
-defaultModificationTime
-	^ self creationTime

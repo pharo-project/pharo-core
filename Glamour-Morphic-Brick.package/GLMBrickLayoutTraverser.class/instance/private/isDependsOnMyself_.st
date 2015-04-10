@@ -1,3 +1,3 @@
 isDependsOnMyself: aBrick
 
-	^ (self state cull: aBrick layout) isOnMyself
+	^ (self stateOf: aBrick) isOnMyself

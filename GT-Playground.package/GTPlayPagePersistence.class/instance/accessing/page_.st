@@ -1,0 +1,2 @@
+page: anObject
+	page := anObject

@@ -1,3 +1,3 @@
 exampleAllTypesBelowOpen
 	
-	self exampleAllTypesBelow openCenteredInBrickWindowLabeled: 'All Below Popup Types'
+	self gtExampleAllTypesBelow openCenteredInBrickWindowLabeled: 'All Below Popup Types'

@@ -1,0 +1,2 @@
+defaultStashDirectory
+	^ 'play-stash/' asFileReference

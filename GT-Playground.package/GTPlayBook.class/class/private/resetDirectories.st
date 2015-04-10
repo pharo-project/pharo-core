@@ -1,4 +1,3 @@
 resetDirectories
 
-	cacheDirectory := nil.
-	customDirectory := nil
+	cacheDirectory := nil

@@ -1,3 +1,3 @@
 example
 	
-	^ GLMCompositeBrick examplePharoMethod
+	^ GLMCompositeBrick gtExamplePharoMethod

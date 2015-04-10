@@ -1,3 +1,0 @@
-exampleSpace
-	<gtExample>
-	^ self space

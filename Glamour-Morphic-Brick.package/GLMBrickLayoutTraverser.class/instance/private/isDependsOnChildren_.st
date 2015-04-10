@@ -1,3 +1,3 @@
 isDependsOnChildren: aBrick
 
-	^ (self state cull: aBrick layout) isOnChildren
+	^ (self stateOf: aBrick) isOnChildren

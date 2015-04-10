@@ -1,3 +1,3 @@
 exampleOpen
 	
-	self example openInBrickWindowLabeled: 'Collapsable Example'
+	self gtExample openInBrickWindowLabeled: 'Collapsable Example'

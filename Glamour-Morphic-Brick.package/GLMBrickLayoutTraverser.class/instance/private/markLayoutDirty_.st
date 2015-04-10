@@ -1,3 +1,3 @@
 markLayoutDirty: aBrick
 
-	aBrick ifNotNil: [ :b | b isBrick ifTrue: [ b layout markDirty ] ]
+	aBrick ifNotNil: [ :b | b isBrick ifTrue: [ b markLayoutDirty ] ]

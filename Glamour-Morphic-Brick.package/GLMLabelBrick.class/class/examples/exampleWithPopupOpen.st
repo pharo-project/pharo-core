@@ -1,3 +1,3 @@
 exampleWithPopupOpen
 	
-	self exampleWithPopup openCenteredInBrickWindowLabeled: 'Label example'
+	self gtExampleWithPopup openCenteredInBrickWindowLabeled: 'Label example'

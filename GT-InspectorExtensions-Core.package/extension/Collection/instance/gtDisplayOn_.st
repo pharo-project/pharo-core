@@ -5,4 +5,8 @@ gtDisplayOn: s
 		nextPut: $[;
 		nextPutAll: self size asString;
 		nextPutAll: (self size = 1 ifTrue: [' item'] ifFalse: [ ' items' ]);
-		nextPut: $]
+		nextPut: $];
+		space.
+	s 
+		nextPutAll: 
+			((String streamContents: [ :stream | self printElementsOn: stream ]) truncateWithElipsisTo: 42)

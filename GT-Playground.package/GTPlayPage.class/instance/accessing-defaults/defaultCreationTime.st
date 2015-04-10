@@ -1,2 +1,0 @@
-defaultCreationTime
-	^ self defaultTimestamp

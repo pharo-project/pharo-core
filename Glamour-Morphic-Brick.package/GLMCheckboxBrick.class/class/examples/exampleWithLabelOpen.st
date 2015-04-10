@@ -1,3 +1,3 @@
 exampleWithLabelOpen
 
-	self exampleWithLabel openCenteredInBrickWindow
+	self gtExampleWithLabel openCenteredInBrickWindow

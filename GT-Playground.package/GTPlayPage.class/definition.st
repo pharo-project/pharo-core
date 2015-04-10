@@ -1,5 +1,5 @@
 Object subclass: #GTPlayPage
-	instanceVariableNames: 'title content fileName creationTime modificationTime publishedUrl'
+	instanceVariableNames: 'title content creationTime modificationTime publishedUrl persistenceStrategies'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-Playground'

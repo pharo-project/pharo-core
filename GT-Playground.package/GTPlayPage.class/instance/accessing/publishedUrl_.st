@@ -1,2 +1,0 @@
-publishedUrl: anObject
-	publishedUrl := anObject

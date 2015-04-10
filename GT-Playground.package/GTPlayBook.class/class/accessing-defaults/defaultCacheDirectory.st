@@ -1,2 +1,2 @@
 defaultCacheDirectory
-	^ customDirectory ifNil: [ self defaultDirectory ]
+	^ 'play-cache/' asFileReference

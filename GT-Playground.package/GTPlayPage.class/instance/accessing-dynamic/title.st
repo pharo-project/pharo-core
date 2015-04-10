@@ -1,2 +1,2 @@
 title
-	^ title ifNil: [ self defaultTitle ]
+	^ title ifNil: [ 'Page' ]

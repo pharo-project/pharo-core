@@ -1,3 +1,3 @@
 exampleVSpaceFillOpen
 
-	self exampleVSpaceFill openCenteredInBrickWindow
+	self gtExampleVSpaceFill openCenteredInBrickWindow

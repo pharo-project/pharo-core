@@ -1,3 +1,0 @@
-exampleA
-	<gtExample>
-	^ $A

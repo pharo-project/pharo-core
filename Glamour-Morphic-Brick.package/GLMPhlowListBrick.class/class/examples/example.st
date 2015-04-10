@@ -1,3 +1,3 @@
 example
 	
-	^ GLMCompositeBrick exampleList
+	^ GLMCompositeBrick gtExampleList

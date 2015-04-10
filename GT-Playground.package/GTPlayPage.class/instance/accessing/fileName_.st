@@ -1,2 +1,0 @@
-fileName: anObject
-	fileName := anObject

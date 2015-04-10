@@ -1,0 +1,3 @@
+gtExampleEmptyArray
+	<gtExample>
+	^ #()

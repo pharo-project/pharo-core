@@ -1,2 +1,0 @@
-fileExtension
-	^ self class fileExtension

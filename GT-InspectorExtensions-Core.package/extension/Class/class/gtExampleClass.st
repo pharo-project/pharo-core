@@ -1,0 +1,3 @@
+gtExampleClass
+	<gtExample>
+	^ self

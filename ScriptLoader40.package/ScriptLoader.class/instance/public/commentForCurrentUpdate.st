@@ -1,12 +1,3 @@
 commentForCurrentUpdate
- ^ '15325 DNU running code critics on a package tag
-	https://pharo.fogbugz.com/f/cases/15325
-
-15225 useless play icon in nautilus
-	https://pharo.fogbugz.com/f/cases/15225
-
-15316 FloatTest>>#testNaNCompare fails with new VM
-	https://pharo.fogbugz.com/f/cases/15316
-
-15318 Two tests in OSWindowTest fail on Windows with new VM 
-	https://pharo.fogbugz.com/f/cases/15318'
+ ^ '15313 integrate spotter/inspector/playground
+	https://pharo.fogbugz.com/f/cases/15313'

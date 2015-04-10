@@ -1,2 +1,0 @@
-modificationTime: anObject
-	modificationTime := anObject

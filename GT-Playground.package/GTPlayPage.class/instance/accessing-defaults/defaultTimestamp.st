@@ -1,2 +1,0 @@
-defaultTimestamp
-	^ DateAndTime now

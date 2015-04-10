@@ -1,3 +1,3 @@
 exampleScrollPaneOpen
 	
-	self exampleScrollPane openInBrickWindowLabeled: 'Rubric in ScrollPane'
+	self gtExampleScrollPane openInBrickWindowLabeled: 'Rubric in ScrollPane'

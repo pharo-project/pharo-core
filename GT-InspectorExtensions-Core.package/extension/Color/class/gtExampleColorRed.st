@@ -1,0 +1,4 @@
+gtExampleColorRed
+	<gtExample>
+	
+	^ Color red

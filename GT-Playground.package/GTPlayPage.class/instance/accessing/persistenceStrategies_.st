@@ -1,0 +1,2 @@
+persistenceStrategies: anObject
+	persistenceStrategies := anObject

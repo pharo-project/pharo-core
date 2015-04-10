@@ -2,4 +2,4 @@ exampleZindexOpen
 	"
 	self exampleZindexOpen
 	"
-	self exampleZindex openInBrickWindowLabeled: 'Z-Index example'
+	self gtExampleZindex openInBrickWindowLabeled: 'Z-Index example'

@@ -1,0 +1,3 @@
+gtExampleCurrent
+	<gtExample>
+	^ self current

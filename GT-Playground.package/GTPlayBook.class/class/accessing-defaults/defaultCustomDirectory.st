@@ -1,2 +1,0 @@
-defaultCustomDirectory
-	^ self defaultDirectory

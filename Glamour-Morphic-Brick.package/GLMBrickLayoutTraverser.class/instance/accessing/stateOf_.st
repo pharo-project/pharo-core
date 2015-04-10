@@ -1,3 +1,3 @@
 stateOf: aBrick
 
-	^ self state cull: aBrick layout
+	^ self state cull: aBrick

@@ -1,3 +1,3 @@
 exampleOpen
 
-	self example openInBrickWindow
+	self gtExample openInBrickWindow

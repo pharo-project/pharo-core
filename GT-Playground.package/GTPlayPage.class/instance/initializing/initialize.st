@@ -1,6 +1,6 @@
 initialize
 	super initialize.
-	
-	self content: self defaultContent.
-	self creationTime: self defaultCreationTime.
-	self modificationTime: self defaultModificationTime
+	self content: ''.
+	self creationTime: DateAndTime now.
+	title := nil.
+	persistenceStrategies := OrderedCollection with: (GTPlayPageCachePersistence new page: self)

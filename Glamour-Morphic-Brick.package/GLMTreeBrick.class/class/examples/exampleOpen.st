@@ -1,4 +1,4 @@
 exampleOpen
 	
-	self example openInBrickWindowLabeled: 'Tree Example'
+	self gtExample openInBrickWindowLabeled: 'Tree Example'
 	

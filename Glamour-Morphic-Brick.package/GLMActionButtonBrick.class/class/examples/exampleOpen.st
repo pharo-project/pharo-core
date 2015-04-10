@@ -1,3 +1,3 @@
 exampleOpen
 
-	self example openCenteredInBrickWindowLabeled: 'Action button example'
+	self gtExample openCenteredInBrickWindowLabeled: 'Action button example'

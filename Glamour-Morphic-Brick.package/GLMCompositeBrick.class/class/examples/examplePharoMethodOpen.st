@@ -1,3 +1,3 @@
 examplePharoMethodOpen
 	
-	self examplePharoMethod openInBrickWindowLabeled: 'Phlow Pharo method'
+	self gtExamplePharoMethod openInBrickWindowLabeled: 'Phlow Pharo method'

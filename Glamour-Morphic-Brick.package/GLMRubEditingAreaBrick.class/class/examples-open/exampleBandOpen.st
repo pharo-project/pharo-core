@@ -1,3 +1,3 @@
 exampleBandOpen
 
-	self exampleBand openInBrickWindow
+	self gtExampleBand openInBrickWindow

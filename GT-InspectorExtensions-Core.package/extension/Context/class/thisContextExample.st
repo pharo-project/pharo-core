@@ -1,3 +1,0 @@
-thisContextExample
-	<gtExample: 'thisContext'>
-	^ thisContext

@@ -1,9 +1,11 @@
 codeIn: a
 	^ a pharoPlayground
-		title: [ GTPlaygroundEditableTabLabel new
-			text: 'Untitled';
-			when: #accepted do: [ :text | "self entity title: text" ];
-			yourself ];
+		title: [ :page | 
+			GTPlaygroundEditableTabLabel new
+				text: page title;
+				when: #accepted do: [ :text | 
+					page setTitleAndEnsureInStash: text asString ];
+				yourself ];
 		format: [ :page | page content ];
 		act: [ :text :page |
 				text selectionInterval: (1 to: text text size).

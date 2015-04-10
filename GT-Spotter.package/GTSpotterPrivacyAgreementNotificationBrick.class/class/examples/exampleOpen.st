@@ -4,7 +4,7 @@ exampleOpen
 		hSpaceFill;
 		vSpaceFill;
 		addBrickBack: (
-			self example
+			self gtExample
 				padding: 2;
 				borderColor: Color lightGray;
 				borderWidth: 2;

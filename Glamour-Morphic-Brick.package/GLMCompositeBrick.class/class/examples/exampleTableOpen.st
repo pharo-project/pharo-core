@@ -1,3 +1,3 @@
 exampleTableOpen
 
-	self exampleTable openInBrickWindowLabeled: 'Phlowr table'
+	self gtExampleTable openInBrickWindowLabeled: 'Phlowr table'

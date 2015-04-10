@@ -1,3 +1,0 @@
-exampleFourtyTwo
-	<gtExample>
-	^ #fourtyTwo

@@ -1,3 +1,3 @@
 exampleHSpaceFillOpen
 
-	self exampleHSpaceFill openCenteredInBrickWindow
+	self gtExampleHSpaceFill openCenteredInBrickWindow

@@ -1,3 +1,3 @@
 exampleOpen
 	
-	self example openInBrickWindowLabeled: 'Band example'
+	self gtExample openInBrickWindowLabeled: 'Band example'
