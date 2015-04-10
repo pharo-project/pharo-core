@@ -1,4 +1,4 @@
-script601
+script602
 
 	^ 'AST-Core-TheIntegrator.283.mcz
 AST-Tests-Core-TheIntegrator.65.mcz
@@ -66,22 +66,22 @@ FuelCommandLineHandler-TheIntegrator.27.mcz
 FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-TheIntegrator.384.mcz
 FuelTools-Debugger-StephaneDucasse.12.mcz
-GT-Inspector-AndreiChis.303.mcz
-GT-InspectorExtensions-Core-JurajKubelka.137.mcz
-GT-Playground-TudorGirba.102.mcz
-GT-Spotter-AliakseiSyrel.298.mcz
-GT-Spotter-EventRecorder-JurajKubelka.82.mcz
-GT-SpotterExtensions-Core-StefanReichhart.126.mcz
+GT-Inspector-TudorGirba.305.mcz
+GT-InspectorExtensions-Core-TudorGirba.144.mcz
+GT-Playground-TudorGirba.109.mcz
+GT-Spotter-TudorGirba.305.mcz
+GT-Spotter-EventRecorder-JurajKubelka.85.mcz
+GT-SpotterExtensions-Core-AndreiChis.138.mcz
 GT-Tests-Inspector-StefanReichhart.33.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
 GT-Tests-Spotter-StefanReichhart.7.mcz
 Generated-code-non-existing-package-EstebanLorenzano.2.mcz
 Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-TorstenBergmann.109.mcz
-Glamour-Core-AliakseiSyrel.298.mcz
+Glamour-Core-StefanReichhart.299.mcz
 Glamour-Examples-TorstenBergmann.291.mcz
 Glamour-Helpers-AndreiChis.39.mcz
-Glamour-Morphic-Brick-AliakseiSyrel.395.mcz
+Glamour-Morphic-Brick-StefanReichhart.398.mcz
 Glamour-Morphic-Brick-Tests-AliakseiSyrel.13.mcz
 Glamour-Morphic-Pager-AndreiChis.103.mcz
 Glamour-Morphic-Renderer-AndreiChis.319.mcz
@@ -179,7 +179,7 @@ NativeBoost-Core-TheIntegrator.164.mcz
 NativeBoost-Examples-CamilloBruni.16.mcz
 NativeBoost-Mac-MarcusDenker.12.mcz
 NativeBoost-Pools-CamilloBruni.13.mcz
-NativeBoost-Tests-TheIntegrator.90.mcz
+NativeBoost-Tests-TheIntegrator.92.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
 Nautilus-TheIntegrator.909.mcz
