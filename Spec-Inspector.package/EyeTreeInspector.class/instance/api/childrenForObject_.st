@@ -1,3 +1,3 @@
 childrenForObject: anObject
-	^ anObject inspector elements 
+	^ (EyeInspector inspector: anObject) elements 
 			select: [ :element | element shouldShowInTree ]

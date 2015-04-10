@@ -1,3 +1,6 @@
 commentForCurrentUpdate
- ^ '15315 Inspecting Slots raises an error
-	https://pharo.fogbugz.com/f/cases/15315'
+ ^ '15321 Monticello marks all methods of a package as new/changed
+	https://pharo.fogbugz.com/f/cases/15321
+
+15319 Basic Inspector: MNU when switching to tree
+	https://pharo.fogbugz.com/f/cases/15319'
