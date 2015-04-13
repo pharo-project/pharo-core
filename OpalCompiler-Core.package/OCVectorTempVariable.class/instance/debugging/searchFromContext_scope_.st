@@ -1,4 +1,4 @@
-readFromContext: aContext scope: contextScope
+searchFromContext: aContext scope: contextScope
 
 	| offset pairVariableVector |
 	pairVariableVector := contextScope lookupTempVector: vectorName inContext: aContext.

@@ -1,3 +1,0 @@
-definingScope
-	^ originalVar scope
-	

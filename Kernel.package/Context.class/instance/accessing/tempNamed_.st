@@ -14,6 +14,4 @@ tempNamed: aName
 
 	| index |
 	index := self tempNames indexOf: aName.
-	^ index > stackp
-		ifTrue: [ nil ]
-		ifFalse: [ self namedTempAt: index ]
+	^ self namedTempAt: index

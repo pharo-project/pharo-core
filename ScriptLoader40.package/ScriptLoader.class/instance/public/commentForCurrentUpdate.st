@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '15335 method lost in last monticello change
-	https://pharo.fogbugz.com/f/cases/15335'
+ ^ '14606 Cant see some variables values while debugging closure
+	https://pharo.fogbugz.com/f/cases/14606'
