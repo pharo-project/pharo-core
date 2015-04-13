@@ -1,3 +1,3 @@
 label: aText
 
-	label text: aText
+	label label: aText

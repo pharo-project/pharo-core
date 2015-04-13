@@ -1,2 +1,2 @@
 label
-	^ self labelView text
+	^ self labelView label

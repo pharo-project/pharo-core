@@ -3,6 +3,6 @@ initializeWidgets
 	protocols := self newList.
 	label := self newLabel.
 	
-	label text: 'Protocol'.
+	label label: 'Protocol'.
 	
 	self focusOrder add: protocols

@@ -8,8 +8,8 @@ initializeWidgets
 	
 	showPassword := self newCheckBox.
 	
-	usernameLabel text: 'Username'.
-	passwordLabel text: 'Password'.
+	usernameLabel label: 'Username'.
+	passwordLabel label: 'Password'.
 	
 	password
 		ghostText: '*****';

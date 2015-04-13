@@ -1,2 +1,2 @@
 label: aString
-	self labelView text: aString
+	self labelView label: aString

@@ -1,4 +1,4 @@
-script603
+script604
 
 	^ 'AST-Core-TheIntegrator.283.mcz
 AST-Tests-Core-TheIntegrator.65.mcz
@@ -68,13 +68,13 @@ FuelTests-TheIntegrator.384.mcz
 FuelTools-Debugger-StephaneDucasse.12.mcz
 GT-Inspector-TudorGirba.305.mcz
 GT-InspectorExtensions-Core-TudorGirba.144.mcz
-GT-Playground-TudorGirba.109.mcz
-GT-Spotter-TudorGirba.305.mcz
-GT-Spotter-EventRecorder-JurajKubelka.85.mcz
-GT-SpotterExtensions-Core-AndreiChis.138.mcz
+GT-Playground-TudorGirba.110.mcz
+GT-Spotter-StefanReichhart.307.mcz
+GT-Spotter-EventRecorder-JurajKubelka.89.mcz
+GT-SpotterExtensions-Core-TudorGirba.141.mcz
 GT-Tests-Inspector-StefanReichhart.33.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
-GT-Tests-Spotter-StefanReichhart.7.mcz
+GT-Tests-Spotter-TudorGirba.8.mcz
 Generated-code-non-existing-package-EstebanLorenzano.2.mcz
 Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-TorstenBergmann.109.mcz
@@ -84,10 +84,10 @@ Glamour-Helpers-AndreiChis.39.mcz
 Glamour-Morphic-Brick-StefanReichhart.398.mcz
 Glamour-Morphic-Brick-Tests-AliakseiSyrel.13.mcz
 Glamour-Morphic-Pager-AndreiChis.103.mcz
-Glamour-Morphic-Renderer-AndreiChis.319.mcz
+Glamour-Morphic-Renderer-AndreiChis.320.mcz
 Glamour-Morphic-Theme-StefanReichhart.212.mcz
 Glamour-Morphic-Widgets-AndreiChis.177.mcz
-Glamour-Presentations-AndreiChis.175.mcz
+Glamour-Presentations-AndreiChis.176.mcz
 Glamour-Rubric-Presentations-AndreiChis.41.mcz
 Glamour-Tests-Core-AliakseiSyrel.104.mcz
 Glamour-Tests-Morphic-AndreiChis.124.mcz
@@ -120,7 +120,7 @@ Keymapping-Pragmas-TheIntegrator.50.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.94.mcz
 Keymapping-Tools-Spec-TheIntegrator.30.mcz
-Komitter-TheIntegrator.113.mcz
+Komitter-TheIntegrator.115.mcz
 Manifest-Core-TheIntegrator.215.mcz
 Manifest-CriticBrowser-TheIntegrator.177.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
@@ -145,12 +145,12 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-TheIntegrator.1008.mcz
+Monticello-TheIntegrator.1009.mcz
 Monticello-Tests-TheIntegrator.6.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
-MonticelloFileTree-Core-TheIntegrator.180.mcz
+MonticelloFileTree-Core-TheIntegrator.182.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
-MonticelloGUI-TheIntegrator.337.mcz
+MonticelloGUI-TheIntegrator.339.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 Morphic-Base-TheIntegrator.441.mcz
 Morphic-Core-TheIntegrator.166.mcz
@@ -185,7 +185,7 @@ NativeBoost-Win32-TheIntegrator.57.mcz
 Nautilus-TheIntegrator.909.mcz
 Nautilus-Tests-TheIntegrator.12.mcz
 NautilusCommon-TheIntegrator.260.mcz
-NautilusRefactoring-TheIntegrator.214.mcz
+NautilusRefactoring-TheIntegrator.216.mcz
 Network-Kernel-StephaneDucasse.112.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-StephaneDucasse.39.mcz
@@ -255,7 +255,7 @@ SmartSuggestions-TheIntegrator.147.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
 Spec-Core-StephaneDucasse.386.mcz
 Spec-Debugger-TheIntegrator.236.mcz
-Spec-Examples-TheIntegrator.89.mcz
+Spec-Examples-TheIntegrator.91.mcz
 Spec-Help-TheIntegrator.8.mcz
 Spec-Inspector-TheIntegrator.238.mcz
 Spec-Layout-TheIntegrator.67.mcz
