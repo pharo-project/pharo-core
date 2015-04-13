@@ -6,10 +6,12 @@ concreteMethodsInContext: aContext usingFilter: aFilter
 	" check preconditions "
 	classAndSelectorStrings size = 2 ifFalse: [ ^ self ].
 	classAndSelectorStrings second size < 2 ifTrue: [ ^ self ].
-	classAndSelectorStrings second first = $# ifFalse: [ ^ self ].
-	
+
 	" retrieve concrete class and selector - or saerch all behaviors "
-	selector := classAndSelectorStrings second allButFirst asSymbol.
+	selector := classAndSelectorStrings second first = $# 
+		ifTrue: [ classAndSelectorStrings second allButFirst asSymbol ]
+		ifFalse: [ classAndSelectorStrings second asSymbol ].
+	
 	(class := Smalltalk classNamed: classAndSelectorStrings first) ifNil: [ 
 		SystemNavigation default allBehaviorsDo: [ :aClass |
 			aClass methodsDo: [ :method |

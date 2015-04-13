@@ -1,7 +1,7 @@
 testMaterializeVersions
 	| versions notMaterializedEvents |
 	checkedEvents := Set new.
-	versions := Pragma allNamed: #spotterEventRecorderSerializedData in: self class.
+	versions := self allPragmaVersions.
 	self assert: versions notEmpty.
 	versions do: [ :eachPragma |
 		self assertVersion: eachPragma selector ].

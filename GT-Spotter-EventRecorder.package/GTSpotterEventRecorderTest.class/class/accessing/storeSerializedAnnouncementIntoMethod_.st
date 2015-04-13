@@ -1,5 +1,5 @@
 storeSerializedAnnouncementIntoMethod: aSymbol
-	"self storeSerializedAnnouncementIntoMethod: #version1"
+	"self storeSerializedAnnouncementIntoMethod: #version2"
 	| methodSource |
 	methodSource := (String streamContents: [ :aStream |
 		aStream 

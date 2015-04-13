@@ -1,0 +1,2 @@
+history: aWeakCollection
+	history := aWeakCollection
