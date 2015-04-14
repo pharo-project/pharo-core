@@ -1,4 +1,4 @@
-script606
+script607
 
 	^ 'AST-Core-TheIntegrator.283.mcz
 AST-Tests-Core-TheIntegrator.65.mcz
@@ -55,7 +55,7 @@ FileSystem-Tests-Core-TheIntegrator.88.mcz
 FileSystem-Tests-Disk-TheIntegrator.22.mcz
 FileSystem-Tests-Memory-TheIntegrator.8.mcz
 FileSystem-Zip-TheIntegrator.17.mcz
-Files-TheIntegrator.371.mcz
+Files-TheIntegrator.373.mcz
 FontChooser-TheIntegrator.7.mcz
 FontInfrastructure-TheIntegrator.8.mcz
 FontInfrastructure-Tests-TheIntegrator.2.mcz

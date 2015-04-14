@@ -1,3 +1,6 @@
 commentForCurrentUpdate
- ^ '14606 Cant see some variables values while debugging closure
-	https://pharo.fogbugz.com/f/cases/14606'
+ ^ '15229 Athens uses wrong <example> pragma
+	https://pharo.fogbugz.com/f/cases/15229
+
+15336 Writing a new .souces brakes class comments
+	https://pharo.fogbugz.com/f/cases/15336'

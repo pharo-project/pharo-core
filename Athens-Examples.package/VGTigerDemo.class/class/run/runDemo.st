@@ -1,3 +1,3 @@
 runDemo
-	<example>
+	<script>
 	^ self new runDemo
