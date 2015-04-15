@@ -8,10 +8,6 @@ systemSettingOn: aBuilder
 				label: 'Server mode';
 				target: WorldState;
 				description: 'If enabled, then each main rendering loop will always wait a complete delay of 50ms' .
-			(aBuilder setting: #shouldDownloadSourcesFile)
-				label: 'Download sources file';
-				target: SmalltalkImage;
-				description: 'If true, when no sources file can be found, the file will be downloaded.'.
 			(aBuilder setting: #useLocale)
 				label: 'Use locale';
 				target: Locale;

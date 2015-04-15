@@ -1,4 +1,4 @@
-script608
+script609
 
 	^ 'AST-Core-TheIntegrator.283.mcz
 AST-Tests-Core-TheIntegrator.65.mcz
@@ -243,7 +243,7 @@ SUnit-UITesting-TheIntegrator.21.mcz
 ScriptLoader-Tests-TheIntegrator.4.mcz
 Settings-Graphics-StephaneDucasse.28.mcz
 Settings-Polymorph-TheIntegrator.78.mcz
-Settings-System-StephaneDucasse.35.mcz
+Settings-System-EstebanLorenzano.38.mcz
 ShoreLine-Report-Core-TommasoDalSasso.9.mcz
 ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
@@ -285,7 +285,7 @@ System-Platforms-StephaneDucasse.61.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-Settings-StephaneDucasse.309.mcz
 System-Sound-StephaneDucasse.18.mcz
-System-Support-StephaneDucasse.1091.mcz
+System-Support-EstebanLorenzano.1094.mcz
 System-VMEvents-TheIntegrator.2.mcz
 Tests-TheIntegrator.724.mcz
 Text-Core-StephaneDucasse.31.mcz
