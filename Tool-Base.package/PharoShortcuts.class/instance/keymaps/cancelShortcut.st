@@ -1,3 +1,2 @@
 cancelShortcut
-
-	^ Character escape asKeyCombination
+	^$l ctrl win | $l ctrl unix | $l command mac

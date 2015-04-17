@@ -1,3 +1,3 @@
 initialize
 	self flag: #shouldRemoveNumber.
-	CurrentMajorVersionNumber :=  4.0
+	CurrentMajorVersionNumber :=  5.0

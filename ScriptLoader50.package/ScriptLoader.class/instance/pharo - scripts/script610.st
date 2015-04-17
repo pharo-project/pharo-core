@@ -1,4 +1,4 @@
-script609
+script610
 
 	^ 'AST-Core-TheIntegrator.283.mcz
 AST-Tests-Core-TheIntegrator.65.mcz
@@ -120,7 +120,7 @@ Keymapping-Pragmas-TheIntegrator.50.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.94.mcz
 Keymapping-Tools-Spec-TheIntegrator.30.mcz
-Komitter-TheIntegrator.115.mcz
+Komitter-TheIntegrator.116.mcz
 Manifest-Core-TheIntegrator.215.mcz
 Manifest-CriticBrowser-TheIntegrator.177.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
@@ -145,7 +145,7 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-TheIntegrator.1009.mcz
+Monticello-TheIntegrator.1010.mcz
 Monticello-Tests-TheIntegrator.6.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.182.mcz
@@ -285,16 +285,16 @@ System-Platforms-StephaneDucasse.61.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-Settings-StephaneDucasse.309.mcz
 System-Sound-StephaneDucasse.18.mcz
-System-Support-EstebanLorenzano.1094.mcz
+System-Support-TheIntegrator.1095.mcz
 System-VMEvents-TheIntegrator.2.mcz
 Tests-TheIntegrator.724.mcz
 Text-Core-StephaneDucasse.31.mcz
 Text-Diff-StephaneDucasse.4.mcz
-Text-Edition-StephaneDucasse.77.mcz
+Text-Edition-TheIntegrator.79.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.24.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.66.mcz
+Tool-Base-TheIntegrator.68.mcz
 Tool-Browser-Old-TheIntegrator.37.mcz
 Tool-Changes-TheIntegrator.22.mcz
 Tool-ConfigurationBrowser-TheIntegrator.15.mcz

@@ -3,65 +3,65 @@ buildTextEditorShortcutsOn: aBuilder
 	
 	(aBuilder shortcut: #toggleCommentOnSelectionOrLine)
 		category: #TextEditor
-		shortcut: $/ ctrl win | $/ ctrl unix | $/ command mac
+		default: PharoShortcuts current toggleCommentOnSelectionOrLine
 		do: [ :target  | target handleEdit: [ target toggleCommentOnSelectionOrLine ] ].
 		
 	(aBuilder shortcut: #selectAll) 
 		category: #TextEditor
-		shortcut: $a ctrl win | $a ctrl unix | $a command mac
+		default: PharoShortcuts current selectAllShortcut
 		do: [ :target | target handleEdit: [ target selectAll ] ].
 
 	(aBuilder shortcut: #copySelection) 
 		category: #TextEditor
-		default: $c ctrl win | $c ctrl unix | $c command mac
+		default: PharoShortcuts current copySelectionShortcut
 		do: [ :target | target copySelection ].
 		
 	(aBuilder shortcut: #find) 
 		category: #TextEditor
-		default: $f ctrl win | $f ctrl unix | $f command mac
+		default: PharoShortcuts current findShortcut
 		do: [ :target | target find ].
 		
 	(aBuilder shortcut: #findAgain) 
 		category: #TextEditor
-		default: $g ctrl win | $g ctrl unix | $g command mac
+		default: PharoShortcuts current findAgainShortcut
 		do: [ :target | target findAgain ].
 		
 	(aBuilder shortcut: #setSearchString)
 		category: #TextEditor
-		default: $h ctrl win | $h ctrl unix | $h command mac
+		default: PharoShortcuts current setSearchStringShortcut
 		do: [ :target | target setSearchString ].
 		
 	(aBuilder shortcut: #cancel) 
 		category: #TextEditor
-		default: $l ctrl win | $l ctrl unix | $l command mac
+		default: PharoShortcuts current cancelShortcut
 		do: [ :target | target cancelWithoutConfirmation ].
 		
 	(aBuilder shortcut: #paste) 
 		category: #TextEditor
-		default: $v ctrl win | $v ctrl unix | $v command mac
+		default: PharoShortcuts current pasteShortcut
 		do: [ :target | target paste ].
 		
 	(aBuilder shortcut: #cut) 
 		category: #TextEditor
-		default: $x ctrl win | $x ctrl unix | $x command mac
+		default: PharoShortcuts current cutShortcut
 		do: [ :target | target cut ].
 				
 	(aBuilder shortcut: #undo) 
 		category: #TextEditor
-		default: $z ctrl win | $z ctrl unix | $z command mac
+		default: PharoShortcuts current undoShortcut
 		do: [ :target | target undo ].
 		
 	(aBuilder shortcut: #redo) 
 		category: #TextEditor
-		default: $z ctrl shift win | $z ctrl shift unix | $z command shift mac
+		default: PharoShortcuts current redoShortcut
 		do: [ :target | target redo ].
 	
 	(aBuilder shortcut: #cursorHome)
 		category: #TextEditor
-		default: Character home ctrl win | Character home ctrl unix | Character home command mac
+		default: PharoShortcuts current cursorHomeShortcut
 		do: [ :target :morph :event | target cursorHome: event ].
 	
 	(aBuilder shortcut: #cursorEnd)
 		category: #TextEditor
-		default: Character end ctrl win | Character end ctrl unix | Character end command mac
+		default: PharoShortcuts current cursorEndShortcut
 		do: [ :target :morph :event | target cursorEnd: event ].
