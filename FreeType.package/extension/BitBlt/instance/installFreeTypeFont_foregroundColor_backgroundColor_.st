@@ -1,7 +1,7 @@
 installFreeTypeFont: aFreeTypeFont foregroundColor: foregroundColor backgroundColor: backgroundColor
 	"Set up the parameters.  Since the glyphs in a TTCFont is 32bit depth form, it tries to use rule=34 to get better AA result if possible."
 
-	(FreeTypeSettings current bitBltSubPixelAvailable and: [destForm depth >= 8])
+	(FreeTypeSettings current useSubPixelAntiAliasing and: [destForm depth >= 8])
 		ifTrue:[
 			self combinationRule: 41.
 			destForm depth = 8

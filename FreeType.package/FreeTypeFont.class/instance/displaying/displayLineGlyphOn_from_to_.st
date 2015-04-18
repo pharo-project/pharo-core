@@ -28,7 +28,7 @@ displayLineGlyphOn: aDisplayContext from: startPoint to: endPoint
 	aDisplayContext 
 		sourceOrigin: 0@0;
 		halftoneForm: nil.
-	(FreeTypeSettings current bitBltSubPixelAvailable and: [depth >= 8])
+	(FreeTypeSettings current useSubPixelAntiAliasing and: [depth >= 8])
 		ifTrue:[
 			aDisplayContext 
 				combinationRule: 41.

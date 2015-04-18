@@ -12,7 +12,7 @@ glyphOf: aCharacter destDepth: destDepth colorValue: aColorValue subpixelPositio
 				mono: FreeTypeSettings current monoHinting
 				subpixelPosition: validSub]
 		ifFalse:[
-			(destDepth >= 8 and:[FreeTypeSettings current bitBltSubPixelAvailable])
+			(destDepth >= 8 and:[FreeTypeSettings current useSubPixelAntiAliasing])
 				ifTrue:[
 					self 
 						mode41GlyphOf: aCharacter

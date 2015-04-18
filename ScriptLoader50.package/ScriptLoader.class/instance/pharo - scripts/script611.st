@@ -1,4 +1,4 @@
-script610
+script611
 
 	^ 'AST-Core-TheIntegrator.283.mcz
 AST-Tests-Core-TheIntegrator.65.mcz
@@ -59,7 +59,7 @@ Files-TheIntegrator.373.mcz
 FontChooser-TheIntegrator.7.mcz
 FontInfrastructure-TheIntegrator.8.mcz
 FontInfrastructure-Tests-TheIntegrator.2.mcz
-FreeType-TheIntegrator.695.mcz
+FreeType-StephaneDucasse.697.mcz
 FreeTypeTests-SvenVanCaekenberghe.5.mcz
 Fuel-TheIntegrator.804.mcz
 FuelCommandLineHandler-TheIntegrator.27.mcz

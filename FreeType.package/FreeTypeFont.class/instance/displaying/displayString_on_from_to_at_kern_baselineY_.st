@@ -1,7 +1,7 @@
 displayString: aString on: aBitBlt from: startIndex to: stopIndex at: aPoint kern: kernDelta baselineY: baselineY
 	| glyph  depth foreColorVal foreColorAlpha originalColorMap clr subPixelPosition widthAndKernedWidth char nextChar floatDestX  destX destY offset gammaTable gammaInverseTable useRule41 |
 	
-	useRule41 := FreeTypeSettings current bitBltSubPixelAvailable and: [aBitBlt destForm depth >= 8].
+	useRule41 := FreeTypeSettings current useSubPixelAntiAliasing and: [aBitBlt destForm depth >= 8].
 	depth := aBitBlt destForm depth.
 	originalColorMap := aBitBlt colorMap.
 	clr := (aBitBlt lastFontForegroundColor ifNil:[Color black asNontranslucentColor]) 
