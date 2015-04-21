@@ -1,1 +1,0 @@
-please use Caret in OSWindows project

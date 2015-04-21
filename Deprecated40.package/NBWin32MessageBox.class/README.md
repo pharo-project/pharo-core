@@ -1,1 +1,0 @@
-please use WinMessageBox in OSWindows project
