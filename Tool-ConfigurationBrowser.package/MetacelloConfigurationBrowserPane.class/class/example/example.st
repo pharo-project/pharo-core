@@ -5,5 +5,5 @@ example
 
 	^self new 
 		openWithSpec;
-		repository: self pharoDistribution;
+		repository: self pharoDistributionRepository;
 		yourself

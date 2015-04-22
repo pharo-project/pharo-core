@@ -1,4 +1,4 @@
-script612
+script613
 
 	^ 'AST-Core-TheIntegrator.286.mcz
 AST-Tests-Core-TheIntegrator.67.mcz
@@ -44,7 +44,6 @@ Debugger-Tests-TheIntegrator.2.mcz
 DebuggerActions-MarcusDenker.74.mcz
 DebuggerFilters-TheIntegrator.9.mcz
 DebuggerModel-TheIntegrator.106.mcz
-Deprecated40-TheIntegrator.48.mcz
 EmbeddedFreeType-TheIntegrator.15.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-MarcusDenker.32.mcz
@@ -61,7 +60,7 @@ FontInfrastructure-TheIntegrator.8.mcz
 FontInfrastructure-Tests-TheIntegrator.2.mcz
 FreeType-StephaneDucasse.697.mcz
 FreeTypeTests-SvenVanCaekenberghe.5.mcz
-Fuel-TheIntegrator.804.mcz
+Fuel-TheIntegrator.805.mcz
 FuelCommandLineHandler-TheIntegrator.27.mcz
 FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-TheIntegrator.384.mcz
@@ -150,7 +149,7 @@ Monticello-Tests-TheIntegrator.6.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.182.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
-MonticelloGUI-TheIntegrator.341.mcz
+MonticelloGUI-TheIntegrator.343.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 Morphic-Base-TheIntegrator.441.mcz
 Morphic-Core-TheIntegrator.166.mcz
@@ -263,7 +262,7 @@ Spec-MorphicAdapters-TheIntegrator.207.mcz
 Spec-PolyWidgets-TheIntegrator.57.mcz
 Spec-Tests-StephaneDucasse.45.mcz
 Spec-Tools-StephaneDucasse.261.mcz
-StartupPreferences-TheIntegrator.131.mcz
+StartupPreferences-TheIntegrator.133.mcz
 System-Announcements-TheIntegrator.98.mcz
 System-Caching-TheIntegrator.23.mcz
 System-CachingTests-TheIntegrator.12.mcz
@@ -297,7 +296,7 @@ Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.68.mcz
 Tool-Browser-Old-TheIntegrator.37.mcz
 Tool-Changes-TheIntegrator.22.mcz
-Tool-ConfigurationBrowser-TheIntegrator.15.mcz
+Tool-ConfigurationBrowser-TheIntegrator.17.mcz
 Tool-Diff-TheIntegrator.2.mcz
 Tool-FileList-TheIntegrator.34.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz

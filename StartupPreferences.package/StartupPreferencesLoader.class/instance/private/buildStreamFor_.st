@@ -4,7 +4,7 @@ buildStreamFor: aCollection
 	stream := WriteStream on: ''.
 
 	stream
-		nextPutAll: 'StartupLoader default executeAtomicItems: {';
+		nextPutAll: 'StartupPreferencesLoader default executeAtomicItems: {';
 		nextPutAll: String crlf.
 	aCollection do: [:item |
 		stream 
