@@ -4,5 +4,5 @@ selectedPackageAncestors
 			selectedPackage
 				ifNotNil: [ 
 					(MCWorkingCopy registry at: (MCPackage named: selectedPackage) ifAbsent: [  ])
-						ifNotNil: [ :aWorkingCopy | selectedPackageAncestors := aWorkingCopy allAncestors collect: #name ] ] ].
+						ifNotNil: [ :aWorkingCopy | selectedPackageAncestors := aWorkingCopy ancestry breadthFirstAncestors collect: #name ] ] ].
 	^ selectedPackageAncestors

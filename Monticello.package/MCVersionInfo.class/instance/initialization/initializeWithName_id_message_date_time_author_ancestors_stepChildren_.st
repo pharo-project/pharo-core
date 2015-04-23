@@ -2,8 +2,8 @@ initializeWithName: vName id: aUUID message: aString date: aDate time: aTime aut
 	name := vName.
 	id := aUUID.
 	message := aString.
-	date := aDate.
+	date := aDate ifNil: [ Date today ].
 	time := aTime.
 	author := initials.
-	ancestors :=  aCollection.
+	ancestors := aCollection.
 	stepChildren := stepCollection
