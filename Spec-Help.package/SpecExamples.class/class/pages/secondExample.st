@@ -45,23 +45,23 @@ The remaining methods are getters, sub widget delegation methods, a method to di
 	ProtocolList>>protocols
 		^ protocols
 
-	"protocol"
+	"api"
 	ProtocolList>>items: aCollection
 		protocols items: aCollection
 
-	"protocol"
+	"api"
 	ProtocolList>>label: aText
-		label text: aText
+		label label: aText
 
-	"protocol"
+	"api"
 	ProtocolList>>resetSelection
 		protocols resetSelection
 
-	"protocol"
+	"api"
 	ProtocolList>>title
 		^ ''Protocol widget''
 
-	"protocol-events"
+	"api-events"
 	ProtocolList>>whenSelectedItemChanged: aBlock
 		protocols whenSelectedItemChanged: aBlock
 

@@ -1,6 +1,5 @@
 testUninstallLinkAndRun
 	| sendNode link |
-	self skip.
 	sendNode := (ReflectivityExamples>>#exampleMethod) ast body statements first value.
 	link := MetaLink new metaObject: self; selector: #tagExec.
 	sendNode link: link.

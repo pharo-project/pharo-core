@@ -1,4 +1,4 @@
-script613
+script614
 
 	^ 'AST-Core-TheIntegrator.286.mcz
 AST-Tests-Core-TheIntegrator.67.mcz
@@ -107,7 +107,7 @@ Graphics-Transformations-TheIntegrator.12.mcz
 GroupManager-TheIntegrator.72.mcz
 GroupManagerUI-TheIntegrator.40.mcz
 Growl-TheIntegrator.37.mcz
-HelpSystem-Core-TheIntegrator.120.mcz
+HelpSystem-Core-TheIntegrator.122.mcz
 HelpSystem-Tests-TheIntegrator.30.mcz
 HudsonBuildTools20-TheIntegrator.65.mcz
 Jobs-EstebanLorenzano.4.mcz
@@ -198,7 +198,7 @@ NonInteractiveTranscript-TheIntegrator.15.mcz
 OSWindow-Core-TheIntegrator.20.mcz
 OSWindow-SDL2-EstebanLorenzano.19.mcz
 OSWindow-VM-IgorStasenko.2.mcz
-OpalCompiler-Core-TheIntegrator.641.mcz
+OpalCompiler-Core-TheIntegrator.643.mcz
 OpalCompiler-Tests-TheIntegrator.282.mcz
 OpalDecompiler-TheIntegrator.31.mcz
 OpalTools-TheIntegrator.16.mcz
@@ -206,7 +206,7 @@ Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz
 Polymorph-Widgets-TheIntegrator.1211.mcz
 PragmaCollector-TheIntegrator.3.mcz
-ProfStef-Core-TheIntegrator.55.mcz
+ProfStef-Core-TheIntegrator.57.mcz
 ProfStef-Help-SvenVanCaekenberghe.14.mcz
 ProfStef-Tests-TheIntegrator.25.mcz
 RPackage-Core-TheIntegrator.383.mcz
@@ -222,7 +222,7 @@ Refactoring-Tests-Core-TheIntegrator.123.mcz
 Refactoring-Tests-Critics-MarcusDenker.25.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
 Reflectivity-StephaneDucasse.25.mcz
-Reflectivity-Tests-TheIntegrator.16.mcz
+Reflectivity-Tests-TheIntegrator.18.mcz
 Regex-Core-MarcusDenker.33.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -255,7 +255,7 @@ SmartSuggestions-Tests-TheIntegrator.2.mcz
 Spec-Core-StephaneDucasse.386.mcz
 Spec-Debugger-TheIntegrator.236.mcz
 Spec-Examples-TheIntegrator.91.mcz
-Spec-Help-TheIntegrator.8.mcz
+Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.238.mcz
 Spec-Layout-TheIntegrator.67.mcz
 Spec-MorphicAdapters-TheIntegrator.207.mcz
