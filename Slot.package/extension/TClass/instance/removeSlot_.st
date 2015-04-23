@@ -7,7 +7,7 @@ removeSlot: aSlot
 		builder
 			superclass:  self superclass;
 			name:  self name;
-			layoutClass: (OldClassBuilderAdapter new layoutForType: self typeOfClass);
+			layoutClass: (ObjectLayout layoutForType: self typeOfClass);
 			slots: (self layout slots copyWithout: aSlot);
 			sharedVariablesFromString: self classVariablesString;
 			sharedPools: self sharedPoolsString;

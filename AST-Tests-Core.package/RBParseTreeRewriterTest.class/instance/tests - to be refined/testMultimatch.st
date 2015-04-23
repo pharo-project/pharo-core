@@ -1,7 +1,6 @@
 testMultimatch
-	| rewriter count |
+	| count |
 	count := 0.
-	rewriter := RBParseTreeRewriter new.
 	rewriter 
 		replace: '``@object at: ``@foo'
 		with: '``@object foo: ``@foo'

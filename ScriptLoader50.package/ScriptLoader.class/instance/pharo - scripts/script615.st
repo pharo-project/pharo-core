@@ -1,7 +1,7 @@
-script614
+script615
 
 	^ 'AST-Core-TheIntegrator.286.mcz
-AST-Tests-Core-TheIntegrator.67.mcz
+AST-Tests-Core-TheIntegrator.68.mcz
 Announcements-Core-MarcusDenker.55.mcz
 Announcements-Help-TheIntegrator.12.mcz
 Announcements-Tests-Core-TheIntegrator.25.mcz
@@ -111,7 +111,7 @@ HelpSystem-Core-TheIntegrator.122.mcz
 HelpSystem-Tests-TheIntegrator.30.mcz
 HudsonBuildTools20-TheIntegrator.65.mcz
 Jobs-EstebanLorenzano.4.mcz
-Kernel-TheIntegrator.2011.mcz
+Kernel-TheIntegrator.2013.mcz
 KernelTests-TheIntegrator.767.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-EstebanLorenzano.45.mcz
@@ -144,7 +144,7 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-TheIntegrator.1010.mcz
+Monticello-TheIntegrator.1012.mcz
 Monticello-Tests-TheIntegrator.6.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.182.mcz
@@ -248,7 +248,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.236.mcz
 ShoutTests-TheIntegrator.27.mcz
-Slot-TheIntegrator.604.mcz
+Slot-TheIntegrator.606.mcz
 Slot-Tests-TheIntegrator.39.mcz
 SmartSuggestions-TheIntegrator.147.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz

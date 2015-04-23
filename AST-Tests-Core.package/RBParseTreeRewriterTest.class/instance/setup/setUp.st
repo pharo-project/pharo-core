@@ -1,0 +1,3 @@
+setUp
+
+	rewriter := RBParseTreeRewriter new.

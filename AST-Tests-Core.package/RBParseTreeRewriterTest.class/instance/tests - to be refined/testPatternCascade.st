@@ -1,6 +1,5 @@
 testPatternCascade
-	| rewriter |
-	rewriter := RBParseTreeRewriter new.
+
 	rewriter replace: 'self `;messages; foo: 4; `;messages1'
 		with: 'self `;messages1; bar: 4; `;messages'.
 	self compare: (rewriter

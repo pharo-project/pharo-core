@@ -1,5 +1,17 @@
 slots: slotsDefinition 
 	"Declare additional named variables for my instance."
-	^thisClass classBuilder
-		class: self
-		slots: slotsDefinition
+	| theClass |
+	theClass := self theNonMetaClass.
+	
+	theClass := PharoClassInstaller make: [ :builder |
+		builder
+			superclass: theClass superclass;
+			name: theClass name;
+			layoutClass: theClass layout class;
+			slots: theClass slots;
+			sharedVariablesFromString: theClass classVariablesString;
+			sharedPools: theClass sharedPoolsString;
+			traitComposition: theClass traitComposition;
+			category: theClass category asString;
+			classSlots: slotsDefinition].
+	^ theClass theMetaClass

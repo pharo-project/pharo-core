@@ -1,0 +1,3 @@
+setUp
+	searcher := RBParseTreeSearcher new.
+	

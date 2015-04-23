@@ -1,6 +1,5 @@
 testSearching
-	| searcher |
-	searcher := RBParseTreeSearcher new.
+
 	searcher matches: '``@rcv at: ``@arg `sel: ``@arg1'
 		do: [:aNode :answer | answer + 1].
 	self 

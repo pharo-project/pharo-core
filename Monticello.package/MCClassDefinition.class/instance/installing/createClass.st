@@ -6,7 +6,7 @@ createClass
 		builder
 			superclass: superClass;
 			name: name;
-			layoutClass: (superClass classBuilder layoutForType: type);
+			layoutClass: (ObjectLayout layoutForType: type);
 			slots: self instanceVariables;
 			sharedVariables: self classVariables;
 			sharedPools: self sharedPoolsString;

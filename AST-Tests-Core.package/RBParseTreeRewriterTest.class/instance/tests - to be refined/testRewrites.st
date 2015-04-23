@@ -42,7 +42,7 @@ testRewrites
 			'`@rcvr `msg1: `@arg1 `msg2: `@arg2; `msg'
 			'`@rcvr d: `@arg2 e: `@arg1; f. self halt' )  ) do: 
 		[:each | 
-		| rewrite | 
+		| rewrite |
 		rewrite := RBParseTreeRewriter new.
 		rewrite replace: (each at: 3)
 			with: each last.

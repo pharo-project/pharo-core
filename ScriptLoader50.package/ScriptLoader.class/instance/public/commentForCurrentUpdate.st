@@ -1,11 +1,8 @@
 commentForCurrentUpdate
- ^ '15387 Put back simplistic link code generation support+ enable test
-	https://pharo.fogbugz.com/f/cases/15387
+ ^ '15385 Improving ParseTreeSearcher and RewriterTests
+	https://pharo.fogbugz.com/f/cases/15385
 
-15332 [Spec Help] protocol and protocol-events dont exist anymore
-	https://pharo.fogbugz.com/f/cases/15332
-
-15349 The menu in the PharoTutorial has an erroneous label
-	https://pharo.fogbugz.com/f/cases/15349
+15386 Clean up OldClassBuilderAdapter (first step)
+	https://pharo.fogbugz.com/f/cases/15386
 
 '
