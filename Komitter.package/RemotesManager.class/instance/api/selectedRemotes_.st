@@ -1,2 +1,2 @@
 selectedRemotes: aRemoteList
-	selectedRemotes := aRemoteList
+	selectedRemotes := aRemoteList asSet
