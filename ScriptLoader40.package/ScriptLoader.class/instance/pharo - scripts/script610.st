@@ -1,4 +1,4 @@
-script609
+script610
 
 	^ 'AST-Core-TheIntegrator.283.mcz
 AST-Tests-Core-TheIntegrator.65.mcz
@@ -108,7 +108,7 @@ Graphics-Transformations-TheIntegrator.12.mcz
 GroupManager-TheIntegrator.72.mcz
 GroupManagerUI-TheIntegrator.40.mcz
 Growl-TheIntegrator.37.mcz
-HelpSystem-Core-TheIntegrator.120.mcz
+HelpSystem-Core-TheIntegrator.122.mcz
 HelpSystem-Tests-TheIntegrator.30.mcz
 HudsonBuildTools20-TheIntegrator.65.mcz
 Jobs-EstebanLorenzano.4.mcz
@@ -207,7 +207,7 @@ Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz
 Polymorph-Widgets-TheIntegrator.1211.mcz
 PragmaCollector-TheIntegrator.3.mcz
-ProfStef-Core-TheIntegrator.55.mcz
+ProfStef-Core-TheIntegrator.57.mcz
 ProfStef-Help-SvenVanCaekenberghe.14.mcz
 ProfStef-Tests-TheIntegrator.25.mcz
 RPackage-Core-TheIntegrator.383.mcz
@@ -256,7 +256,7 @@ SmartSuggestions-Tests-TheIntegrator.2.mcz
 Spec-Core-StephaneDucasse.386.mcz
 Spec-Debugger-TheIntegrator.236.mcz
 Spec-Examples-TheIntegrator.91.mcz
-Spec-Help-TheIntegrator.8.mcz
+Spec-Help-TheIntegrator.11.mcz
 Spec-Inspector-TheIntegrator.238.mcz
 Spec-Layout-TheIntegrator.67.mcz
 Spec-MorphicAdapters-TheIntegrator.207.mcz

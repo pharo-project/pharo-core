@@ -1,7 +1,6 @@
 commentForCurrentUpdate
- ^ '15341 remove download sources setting
-	https://pharo.fogbugz.com/f/cases/15341
+ ^ '15349 The menu in the PharoTutorial has an erroneous label
+	https://pharo.fogbugz.com/f/cases/15349
 
-15342 Metaclasses should not have a source pointer
-	https://pharo.fogbugz.com/f/cases/15342
-'
+15375 backport pharo4: 15332 [Spec Help] protocol and protocol-events dont exist anymore
+	https://pharo.fogbugz.com/f/cases/15375'

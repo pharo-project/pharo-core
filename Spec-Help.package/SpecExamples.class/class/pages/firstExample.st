@@ -35,11 +35,11 @@ The three last methods to define on ModelList are a getter, a method to display 
 	ModelList>>list
 		^ list
 
-	"protocol"
+	"api"
 	ModelList>>title
 		^ ''Widgets''
 
-	"protocol-events"
+	"api-events"
 	ModelList>>whenSelectedItemChanged: aBlock
 		list whenSelectedItemChanged: aBlock
 
