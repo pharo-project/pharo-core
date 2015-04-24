@@ -1,4 +1,4 @@
-script618
+script619
 
 	^ 'AST-Core-TheIntegrator.286.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -27,14 +27,14 @@ Collections-Abstract-StephaneDucasse.276.mcz
 Collections-Arithmetic-TheIntegrator.15.mcz
 Collections-Atomic-MarcusDenker.10.mcz
 Collections-Native-TheIntegrator.9.mcz
-Collections-Sequenceable-TheIntegrator.189.mcz
+Collections-Sequenceable-TheIntegrator.192.mcz
 Collections-Stack-MarcusDenker.7.mcz
 Collections-Streams-TheIntegrator.168.mcz
 Collections-Strings-TheIntegrator.350.mcz
 Collections-Support-MarcusDenker.57.mcz
 Collections-Unordered-TheIntegrator.207.mcz
 Collections-Weak-TheIntegrator.88.mcz
-CollectionsTests-TheIntegrator.685.mcz
+CollectionsTests-TheIntegrator.686.mcz
 Compiler-TheIntegrator.582.mcz
 Compression-TheIntegrator.149.mcz
 CompressionTests-TheIntegrator.29.mcz
@@ -152,7 +152,7 @@ MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
 MonticelloGUI-TheIntegrator.345.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 Morphic-Base-TheIntegrator.441.mcz
-Morphic-Core-TheIntegrator.166.mcz
+Morphic-Core-TheIntegrator.168.mcz
 Morphic-Examples-TheIntegrator.40.mcz
 Morphic-Widgets-Basic-TheIntegrator.41.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
@@ -165,7 +165,7 @@ Morphic-Widgets-Tabs-TheIntegrator.12.mcz
 Morphic-Widgets-Taskbar-StephaneDucasse.7.mcz
 Morphic-Widgets-Tree-TheIntegrator.27.mcz
 Morphic-Widgets-Windows-TheIntegrator.47.mcz
-MorphicTests-TheIntegrator.99.mcz
+MorphicTests-TheIntegrator.101.mcz
 Multilingual-Encodings-MarcusDenker.47.mcz
 Multilingual-Languages-StephaneDucasse.40.mcz
 Multilingual-OtherLanguages-MarcusDenker.12.mcz

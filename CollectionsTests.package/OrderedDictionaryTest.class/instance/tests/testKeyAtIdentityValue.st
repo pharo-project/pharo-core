@@ -1,9 +1,9 @@
 testKeyAtIdentityValue
-	| dictionary value |
+	| dictionary singleValue |
 
 	dictionary := self dictionaryWithSingleAssociation.
-	value := dictionary at: self singleKey.
+	singleValue := dictionary at: self singleKey.
 	self
 		should: [dictionary keyAtIdentityValue: self absentValue] raise: Error;
-		should: [dictionary keyAtIdentityValue: value copy] raise: Error;
-		assert: (dictionary keyAtValue: value) = self singleKey.
+		should: [dictionary keyAtIdentityValue: singleValue copy] raise: Error;
+		assert: (dictionary keyAtIdentityValue: singleValue) = self singleKey.

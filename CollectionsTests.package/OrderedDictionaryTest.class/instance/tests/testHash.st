@@ -1,16 +1,21 @@
 testHash
-	self assert: self emptyDictionary hash = self emptyDictionary hash.
-	self assert:
-		self dictionaryWithSingleAssociation hash =
-			self dictionaryWithSingleAssociation hash.
-	self assert:
-		self dictionaryWithAssociations hash =
-			self dictionaryWithAssociations hash.
-	self assert:
-		self dictionaryWithAssociations hash =
-			(self dictionaryClass newFrom: self dictionaryAssociations reversed) hash.
+	| dictionary |
 
-	self
-		deny: self emptyDictionary hash = self dictionaryWithSingleAssociation hash;
-		deny: self emptyDictionary hash = self dictionaryWithAssociations hash;
-		deny: self dictionaryWithSingleAssociation hash = self dictionaryWithAssociations hash.
+	dictionary := self emptyDictionary.
+	self assert: dictionary hash = self emptyDictionary hash.
+	self emptyInternalDictionary hash =
+		self internalDictionaryWithSingleAssociation hash
+		ifFalse: [
+			self deny:
+				dictionary hash = self dictionaryWithSingleAssociation hash].
+	self emptyInternalDictionary hash = self internalDictionaryWithAssociations hash
+		ifFalse: [self deny: dictionary hash = self dictionaryWithAssociations hash].
+
+	dictionary := self dictionaryWithSingleAssociation.
+	self assert: dictionary hash = self dictionaryWithSingleAssociation hash.
+	(self internalDictionaryWithSingleAssociation hash =
+		self internalDictionaryWithAssociations hash)
+		ifFalse: [self deny: dictionary hash = self dictionaryWithAssociations hash].
+
+	dictionary := self dictionaryWithAssociations.
+	self assert: dictionary hash = self dictionaryWithAssociations hash.

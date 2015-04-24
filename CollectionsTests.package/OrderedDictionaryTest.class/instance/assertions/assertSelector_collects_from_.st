@@ -1,4 +1,4 @@
 assertSelector: aSelector collects: aCollection from: aDictionary
 	self
-		assert: (self emptyDictionary perform: aSelector) = #();
-		assert: (aDictionary perform: aSelector) = aCollection asArray
+		assert: (self emptyDictionary perform: aSelector) asArray = #();
+		assert: (aDictionary perform: aSelector) asArray = aCollection asArray

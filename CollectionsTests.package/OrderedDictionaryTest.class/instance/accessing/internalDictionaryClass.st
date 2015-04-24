@@ -1,2 +1,4 @@
 internalDictionaryClass
-	^ Dictionary
+	self isTestingIdentityDictionary
+		ifTrue: [^ IdentityDictionary]
+		ifFalse: [^ Dictionary]

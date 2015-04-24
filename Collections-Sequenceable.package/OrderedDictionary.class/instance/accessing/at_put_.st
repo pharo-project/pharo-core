@@ -1,11 +1,11 @@
 at: aKey put: aValue
-	| oldSize newSize |
+	| oldSize |
 
 	oldSize := dictionary size.
 	dictionary at: aKey put: aValue.
-	(newSize := dictionary size) > oldSize
+	dictionary size > oldSize
 		ifTrue: [
-			 newSize > orderedKeys size
-				ifTrue: [self growOrderedKeys].
-			orderedKeys at: newSize put: aKey].
+			orderedKeys size > oldSize
+				ifFalse: [self growOrderedKeys].
+			orderedKeys at: oldSize + 1 put: aKey].
 	^ aValue.

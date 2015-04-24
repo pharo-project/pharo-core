@@ -1,2 +1,2 @@
 defaultCapacity
-	^ self internalDictionaryClass new capacity
+	^ self emptyInternalDictionary capacity

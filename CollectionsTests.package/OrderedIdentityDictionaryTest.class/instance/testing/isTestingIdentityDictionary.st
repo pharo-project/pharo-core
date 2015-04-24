@@ -1,0 +1,2 @@
+isTestingIdentityDictionary
+	^ true

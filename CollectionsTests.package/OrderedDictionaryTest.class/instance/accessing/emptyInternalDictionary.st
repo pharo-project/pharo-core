@@ -1,0 +1,2 @@
+emptyInternalDictionary
+	^ self internalDictionaryClass new

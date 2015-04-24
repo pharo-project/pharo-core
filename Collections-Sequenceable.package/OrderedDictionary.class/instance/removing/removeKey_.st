@@ -1,3 +1,6 @@
 removeKey: aKey
-	self deleteOrderedKey: aKey.
-	^ dictionary removeKey: aKey.
+	| value |
+
+	value := dictionary removeKey: aKey.
+	self orderedKeysRemove: aKey.
+	^ value.

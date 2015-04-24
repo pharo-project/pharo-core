@@ -1,2 +1,0 @@
-absentKey
-	^ self identityAbsentKey
