@@ -1,2 +1,0 @@
-dictionaryAssociations
-	^ self identityDictionaryAssociations

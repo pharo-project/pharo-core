@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '15349 The menu in the PharoTutorial has an erroneous label
-	https://pharo.fogbugz.com/f/cases/15349
+ ^ '15338 OrderedDictionary changes to merge
+	https://pharo.fogbugz.com/f/cases/15338
 
-15375 backport pharo4: 15332 [Spec Help] protocol and protocol-events dont exist anymore
-	https://pharo.fogbugz.com/f/cases/15375'
+15339 Monticello with spotter extension methods throws MNU errors when browsing packages in repos that dont contain every package
+	https://pharo.fogbugz.com/f/cases/15339'

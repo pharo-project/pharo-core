@@ -1,11 +1,13 @@
 testEqualsDictionary
 	| orderedDictionary unorderedDictionary |
 
-	"Comparisons with Dictionaries that contain the same associations should work too"
+	"only works on Pharo"
 	orderedDictionary := self emptyDictionary.
-	unorderedDictionary := self internalDictionaryClass new.
-	self assertDictionary: orderedDictionary equals: unorderedDictionary.
+	unorderedDictionary := self emptyInternalDictionary.
+	unorderedDictionary = orderedDictionary
+		ifFalse: [^ self].
 
+	self assertDictionary: orderedDictionary equals: unorderedDictionary.
 	orderedDictionary addAll: self dictionaryAssociations.
 	self assertDictionary: orderedDictionary doesNotEqual: unorderedDictionary.
 	

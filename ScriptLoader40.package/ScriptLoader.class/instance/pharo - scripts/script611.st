@@ -1,4 +1,4 @@
-script610
+script611
 
 	^ 'AST-Core-TheIntegrator.283.mcz
 AST-Tests-Core-TheIntegrator.65.mcz
@@ -27,14 +27,14 @@ Collections-Abstract-StephaneDucasse.276.mcz
 Collections-Arithmetic-TheIntegrator.15.mcz
 Collections-Atomic-MarcusDenker.10.mcz
 Collections-Native-TheIntegrator.9.mcz
-Collections-Sequenceable-TheIntegrator.189.mcz
+Collections-Sequenceable-TheIntegrator.192.mcz
 Collections-Stack-MarcusDenker.7.mcz
 Collections-Streams-TheIntegrator.168.mcz
 Collections-Strings-TheIntegrator.350.mcz
 Collections-Support-MarcusDenker.57.mcz
 Collections-Unordered-TheIntegrator.207.mcz
 Collections-Weak-TheIntegrator.88.mcz
-CollectionsTests-TheIntegrator.683.mcz
+CollectionsTests-TheIntegrator.685.mcz
 Compiler-TheIntegrator.582.mcz
 Compression-TheIntegrator.149.mcz
 CompressionTests-TheIntegrator.29.mcz
@@ -145,12 +145,12 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-TheIntegrator.1009.mcz
+Monticello-TheIntegrator.1011.mcz
 Monticello-Tests-TheIntegrator.6.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.182.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
-MonticelloGUI-TheIntegrator.341.mcz
+MonticelloGUI-TheIntegrator.343.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 Morphic-Base-TheIntegrator.441.mcz
 Morphic-Core-TheIntegrator.166.mcz

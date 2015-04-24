@@ -1,0 +1,2 @@
+nonIdentityAbsentKey
+	^ 'absentKey'
