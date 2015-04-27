@@ -1,3 +1,3 @@
 testMethodsOfTheClassShouldNotBeRepeatedInItsSuperclasses
 		
-	self assertValidLintRule: RBRepeteadMethodsInTheSuperclassRule new
+	self assertValidLintRule: RBEquivalentSuperclassMethodsRule new
