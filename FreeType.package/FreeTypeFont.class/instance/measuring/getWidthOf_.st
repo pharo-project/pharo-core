@@ -6,7 +6,7 @@ getWidthOf: aCharacter
 	charCode := aCharacter asUnicode asInteger.
 	(self face charmaps includes:'unic')
 		ifTrue:[
-			(self isSymbolFont and:[charCode >= 16r20 and: [charCode <= 16rFF ] ])
+			(self isSymbolFont and:[ charCode between: 16r20 and: 16rFF ])
 				ifTrue:[charCode := charCode + 16rF000]]
 		ifFalse:[
 			(self face charmaps includes:'armn')

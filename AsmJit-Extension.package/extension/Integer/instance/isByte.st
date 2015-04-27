@@ -1,2 +1,2 @@
 isByte
-	^ self >= 0 and: [ self <= 255 ]
+	^ self between: 0 and: 255

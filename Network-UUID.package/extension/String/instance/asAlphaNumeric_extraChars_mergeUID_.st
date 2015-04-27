@@ -33,8 +33,8 @@ asAlphaNumeric: totalSize extraChars: additionallyAllowed mergeUID: minimalSizeO
 	skip := true.
 	sizeOfFirstPart := totalSize - minimalSizeOfRandomPart - 1.
 	[ stream atEnd or: [ index >= sizeOfFirstPart ] ] whileFalse: 
-		[ (((ascii := (ch := stream next) asciiValue) >= 65 and: [ ascii <= 90 ]) or: 
-			[ (ascii >= 97 and: [ ascii <= 122 ]) or: 
+		[ (((ascii := (ch := stream next) asciiValue) between: 65 and: 90) or: 
+			[ (ascii between: 97 and: 122) or: 
 				[ ch isDigit or: [ additionallyAllowed notNil and: [ additionallyAllowed includes: ch ] ] ] ]) 
 			ifTrue: 
 				[ skip 

@@ -3,7 +3,7 @@ addToggle: aString target: anObject selector: aSymbol getStateSelector: stateSym
 
 	|item|
 	item := ToggleMenuItemMorph new
-		contents: aString translated;
+		contents: aString;
 		target: anObject;
 		selector: aSymbol;
 		arguments: argList;

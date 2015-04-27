@@ -2,7 +2,7 @@ nextPut: aCharacter toStream: aStream
 	| value leadingChar aChar |
 	aStream isBinary ifTrue: [^aCharacter storeBinaryOn: aStream].
 	value := aCharacter charCode.
-	(16rFF61 <= value and: [value <= 16rFF9F]) ifTrue: [
+	(value between: 16rFF61 and: 16rFF9F) ifTrue: [
 		aStream basicNextPut: (self sjisKatakanaFor: value).
 		^ aStream].
 	aChar := JISX0208 charFromUnicode: value.

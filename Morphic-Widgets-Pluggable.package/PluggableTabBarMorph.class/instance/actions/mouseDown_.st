@@ -4,7 +4,7 @@ mouseDown: anEvent
 	newTab :=
 		((self tabs detect: [ :anAssociation | | tabBounds |
 				tabBounds := anAssociation key bounds.
-				(tabBounds left <= xPosition) and: [ tabBounds right >= xPosition]]
+				xPosition between: tabBounds left and: tabBounds right]
 			ifNone: [nil])
 		key).
 	newTab ifNil: [^ self].

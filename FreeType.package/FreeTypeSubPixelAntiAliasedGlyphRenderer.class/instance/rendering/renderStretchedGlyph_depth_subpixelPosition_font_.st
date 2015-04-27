@@ -5,7 +5,7 @@ renderStretchedGlyph: aCharacter depth: depth subpixelPosition: sub font: aFreeT
 	charCode := aCharacter asUnicode asInteger.
 	(aFreeTypeFont face charmaps includes:'unic')
 		ifTrue:[
-		(aFreeTypeFont isSymbolFont and:[charCode >= 16r20 and: [charCode <= 16rFF ]  ])
+		(aFreeTypeFont isSymbolFont and: [ charCode between: 16r20 and: 16rFF ])
 			ifTrue:[charCode := charCode + 16rF000]]
 		ifFalse:[
 			(aFreeTypeFont face charmaps includes:'armn')

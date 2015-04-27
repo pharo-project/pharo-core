@@ -9,7 +9,7 @@ interpretNextSistaV1InstructionFor: client
 	savedPC := pc.
 	[byte := self method at: pc.
 	 pc := pc + 1.
-	 byte >= 16rE0 and: [byte <= 16rE1]] whileTrue:
+	 byte between: 16rE0 and: 16rE1] whileTrue:
 		[| extByte |
 		 extByte := self method at: pc.
 		 pc := pc + 1.

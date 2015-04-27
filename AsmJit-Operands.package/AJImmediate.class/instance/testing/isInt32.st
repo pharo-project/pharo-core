@@ -1,2 +1,2 @@
 isInt32
-	  ^ value >= -2147483648 and: [ value <= 2147483647 ]
+	^ value between: -2147483648 and: 2147483647

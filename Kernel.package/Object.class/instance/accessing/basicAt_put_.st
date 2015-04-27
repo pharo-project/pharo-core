@@ -8,7 +8,7 @@ basicAt: index put: value
 
 	<primitive: 61>
 	index isInteger
-		ifTrue: [(index >= 1 and: [index <= self size])
+		ifTrue: [(index between: 1 and: self size)
 					ifTrue: [self errorImproperStore]
 					ifFalse: [self errorSubscriptBounds: index]].
 	index isNumber

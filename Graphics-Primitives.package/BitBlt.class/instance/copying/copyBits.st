@@ -20,7 +20,7 @@ copyBits
 "
 	"Check for compressed source, destination or halftone forms"
 	<primitive: 'primitiveCopyBits' module: 'BitBltPlugin'>
-	(combinationRule >= 30 and: [ combinationRule <= 31 ]) ifTrue: 
+	(combinationRule between: 30 and: 31) ifTrue: 
 		[ "No alpha specified -- re-run with alpha = 1.0"
 		^ self copyBitsTranslucent: 255 ].
 	(sourceForm isForm and: [ sourceForm unhibernate ]) ifTrue: [ ^ self copyBits ].

@@ -1,7 +1,6 @@
 isUnifiedKanji: code
-
-	^ ((((16r2E80 <= code and: [code <= 16rA4CF])
-		or: [16rF900 <= code and: [code <= 16rFAFF]])
-			or: [16rFE30 <= code and: [code <= 16rFE4F]])
-				or: [16rFF00 <= code and: [code <= 16rFFEF]])
-					or: [16r20000 <= code and: [code <= 16r2FA1F]].
+	^ ((((code between: 16r2E80 and: 16rA4CF)
+		or: [ code between: 16rF900 and: 16rFAFF ])
+			or: [ code between: 16rFE30 and: 16rFE4F ]) 
+				or: [ code between: 16rFF00 and: 16rFFEF ])
+					or: [ code between: 16r20000 and: 16r2FA1F ]
