@@ -9,10 +9,11 @@ aMethodNode comments do: [ :comment|
 			addStyle: #patternArg
 			forNode: argument ].
 		
-	aMethodNode selectorParts do: [ :keyword|
+	aMethodNode selectorParts with: aMethodNode keywordsPositions do:  [ :keyword :position |
 		self 
 			addStyle: #patternKeyword
-			forNode: keyword ].
+			from: position
+			to: position + keyword size ].
 	
 	aMethodNode pragmas
 		do: [ :each | self visitNode: each ].

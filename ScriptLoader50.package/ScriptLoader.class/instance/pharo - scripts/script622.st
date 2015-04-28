@@ -1,4 +1,4 @@
-script621
+script622
 
 	^ 'AST-Core-TheIntegrator.286.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -216,7 +216,7 @@ RecentSubmissions-StephaneDucasse.233.mcz
 Refactoring-Changes-TheIntegrator.65.mcz
 Refactoring-Core-TheIntegrator.270.mcz
 Refactoring-Critics-TheIntegrator.163.mcz
-Refactoring-Environment-TheIntegrator.49.mcz
+Refactoring-Environment-TheIntegrator.52.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.123.mcz
 Refactoring-Tests-Critics-MarcusDenker.25.mcz
@@ -246,7 +246,7 @@ Settings-System-EstebanLorenzano.38.mcz
 ShoreLine-Report-Core-TommasoDalSasso.9.mcz
 ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
-Shout-TheIntegrator.236.mcz
+Shout-TheIntegrator.239.mcz
 ShoutTests-TheIntegrator.27.mcz
 Slot-TheIntegrator.606.mcz
 Slot-Tests-TheIntegrator.39.mcz

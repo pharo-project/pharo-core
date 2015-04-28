@@ -1,7 +1,8 @@
 visitPragmaNode: aPragmaNode
-	aPragmaNode selectorParts do: [ :keyword|
+	aPragmaNode selectorParts with: aPragmaNode keywordsPositions do: [ :keyword : position|
 	self 
 		addStyle: #pragmaKeyword
-		forNode: keyword ].
+		from: position
+		to: position + keyword size ].
 	
 	aPragmaNode arguments do: [ :each | self visitNode: each ]

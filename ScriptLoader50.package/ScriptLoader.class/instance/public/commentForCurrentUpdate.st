@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '15395 Cleanup #1: Lots of little things
-	https://pharo.fogbugz.com/f/cases/15395
+ ^ '15249 Comment RBEnvironment classes
+	https://pharo.fogbugz.com/f/cases/15249
 
-15401 MessageNotUnderstood: Association>>translated
-	https://pharo.fogbugz.com/f/cases/15401
+15412 SHParserST80 class>#new not needed
+	https://pharo.fogbugz.com/f/cases/15412
 
-15400 comment window announcement classes
-	https://pharo.fogbugz.com/f/cases/15400'
+15413 fix AST based syntax colouring
+	https://pharo.fogbugz.com/f/cases/15413'

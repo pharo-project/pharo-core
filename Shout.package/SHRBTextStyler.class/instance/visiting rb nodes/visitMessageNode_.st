@@ -7,7 +7,7 @@ visitMessageNode: aMessageNode
 				ifTrue: [ #undefinedKeyword ]
 				ifFalse: [ #incompleteKeyword ] ].
 	link := TextMethodLink selector: aMessageNode selector.
-	aMessageNode selectorParts do: [ :keyword | self addStyle: style attribute: link forNode: keyword ].
+	aMessageNode selectorParts with: aMessageNode keywordsPositions do: [ :keyword :position | self addStyle: style attribute: link from: position to: position + keyword size - 1].
 	(aMessageNode isCascaded not or: [ aMessageNode isFirstCascaded ])
 		ifTrue: [ self visitNode: aMessageNode receiver ].
 	aMessageNode arguments do: [ :each | self visitNode: each ]	
