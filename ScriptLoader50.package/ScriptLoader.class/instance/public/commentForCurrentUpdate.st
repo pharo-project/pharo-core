@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '15421 fix offset in SHRBTextStyler
-	https://pharo.fogbugz.com/f/cases/15421
+ ^ '15426  SHRBTextStyler  does not work for all predefined styles
+	https://pharo.fogbugz.com/f/cases/15426
 
-15300 MNU: Association>>adaptToNumber:andSend:
-	https://pharo.fogbugz.com/f/cases/15300
+15427 Link Condition: Test + fix conditions for links
+	https://pharo.fogbugz.com/f/cases/15427
 
-15398 Deprecated StartupLoader should present migration instructions
-	https://pharo.fogbugz.com/f/cases/15398
-
-15405 Suggestion menu SystemNavigation(Object)>>doesNotUnderstand: #browseClassRefsOf:
-	https://pharo.fogbugz.com/f/cases/15405'
+15259 Remove paintTabIcon 
+	https://pharo.fogbugz.com/f/cases/15259'

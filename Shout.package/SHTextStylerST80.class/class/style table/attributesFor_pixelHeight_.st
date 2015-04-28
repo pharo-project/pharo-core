@@ -3,4 +3,4 @@ attributesFor: aSymbol pixelHeight: aNumber
 		at: aNumber
 		ifAbsentPut: [self initialTextAttributesForPixelHeight: aNumber])
 		at: aSymbol
-		ifAbsent: []
+		ifAbsent: [#()]

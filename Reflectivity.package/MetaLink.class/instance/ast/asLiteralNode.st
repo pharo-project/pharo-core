@@ -1,2 +1,0 @@
-asLiteralNode
-	^(RBLiteralNode value: self) 

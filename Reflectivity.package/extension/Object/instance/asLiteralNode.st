@@ -1,0 +1,2 @@
+asLiteralNode
+	^RBLiteralNode value: self

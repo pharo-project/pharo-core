@@ -1,4 +1,4 @@
-script625
+script626
 
 	^ 'AST-Core-TheIntegrator.286.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -101,7 +101,7 @@ Graphics-Files-TheIntegrator.58.mcz
 Graphics-Fonts-EstebanLorenzano.96.mcz
 Graphics-Fonts-Tests-EstebanLorenzano.3.mcz
 Graphics-Primitives-TheIntegrator.159.mcz
-Graphics-Resources-EstebanLorenzano.22.mcz
+Graphics-Resources-TheIntegrator.24.mcz
 Graphics-Shapes-TheIntegrator.2.mcz
 Graphics-Tests-TheIntegrator.72.mcz
 Graphics-Transformations-TheIntegrator.12.mcz
@@ -205,7 +205,7 @@ OpalDecompiler-TheIntegrator.31.mcz
 OpalTools-TheIntegrator.16.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz
-Polymorph-Widgets-TheIntegrator.1213.mcz
+Polymorph-Widgets-TheIntegrator.1215.mcz
 PragmaCollector-TheIntegrator.3.mcz
 ProfStef-Core-TheIntegrator.57.mcz
 ProfStef-Help-SvenVanCaekenberghe.14.mcz
@@ -222,8 +222,8 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.123.mcz
 Refactoring-Tests-Critics-MarcusDenker.25.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-StephaneDucasse.25.mcz
-Reflectivity-Tests-TheIntegrator.18.mcz
+Reflectivity-TheIntegrator.27.mcz
+Reflectivity-Tests-TheIntegrator.20.mcz
 Regex-Core-MarcusDenker.33.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -247,7 +247,7 @@ Settings-System-EstebanLorenzano.38.mcz
 ShoreLine-Report-Core-TommasoDalSasso.9.mcz
 ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
-Shout-TheIntegrator.241.mcz
+Shout-TheIntegrator.243.mcz
 ShoutTests-TheIntegrator.27.mcz
 Slot-TheIntegrator.606.mcz
 Slot-Tests-TheIntegrator.39.mcz
