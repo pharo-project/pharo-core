@@ -10,7 +10,7 @@ version32: spec
 			spec package: 'Athens-Balloon' with: 'Athens-Balloon-MarcusDenker.20'.
 			spec package: 'Athens-Morphic' with: 'Athens-Morphic-NicolaiHess.44'.
 			spec package: 'Athens-CairoPools' with: 'Athens-CairoPools-NicolaiHess.14'.
-			spec package: 'Athens-Cairo' with: 'Athens-Cairo-MarcusDenker.85'.
+			spec package: 'Athens-Cairo' with: 'Athens-Cairo-jeanbaptistearnaud.86'.
 			spec package: 'Athens-Examples' with: 'Athens-Examples-TudorGirba.43'.
 			spec package: 'Athens-Tutorial' with: 'Athens-Tutorial-StephaneDucasse.10'.
 			spec package: 'Athens-SVG' with: 'Athens-SVG-StephaneDucasse.12' ]

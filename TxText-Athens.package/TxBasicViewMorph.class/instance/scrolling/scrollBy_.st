@@ -1,2 +1,2 @@
 scrollBy: aPoint 
-	self subclassResponsibility .
+	self subclassResponsibility.

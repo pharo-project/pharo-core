@@ -1,2 +1,4 @@
 text: aTxModel 
-	^ self new initializeText: aTxModel asTxModel.
+	^ self new
+		initializeText: aTxModel asTxModel;
+		yourself.

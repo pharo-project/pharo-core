@@ -1,1 +1,1 @@
-To place embedded object into a text
+To place an embedded object into text

@@ -1,3 +1,2 @@
 isValid
-
-	^ ( self text includesSpan: self span ) and: [ self span size >= self spanPosition and: [ self spanPosition >=0 ] ]
+	^ (self text includesSpan: self span) and: [ self spanPosition between: 0 and: self span size ]

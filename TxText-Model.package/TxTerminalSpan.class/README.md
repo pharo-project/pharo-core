@@ -1,1 +1,1 @@
-i denoting a terminal span(either start or end of text)my size is always ZEROand i have only single valid position (spanPosition = 0)
+I represent either the start or end of text.My size is always ZERO and i have only a single valid position (spanPosition = 0)

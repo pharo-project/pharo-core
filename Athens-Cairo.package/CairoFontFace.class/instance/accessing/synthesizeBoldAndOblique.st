@@ -1,0 +1,2 @@
+synthesizeBoldAndOblique
+	self primSetSynthesizeEmphasis: 3

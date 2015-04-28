@@ -1,5 +1,4 @@
 text: aTxModel 
-	| editor |
-	editor := self new.
-	editor initializeText: aTxModel .
-	^ editor 
+	^ self new
+		initializeText: aTxModel;
+		yourself

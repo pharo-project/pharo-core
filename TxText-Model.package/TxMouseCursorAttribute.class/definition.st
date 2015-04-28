@@ -1,4 +1,4 @@
-TxAttribute subclass: #TxCursorAttribute
+TxAttribute subclass: #TxMouseCursorAttribute
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

@@ -1,14 +1,13 @@
 applyAttribute: anAttribute onSelection: selection
 	"Apply given attribute to selection.  Preserve the selection interval while modifying the text"
-	| currentSpan min max |
 	
+	| currentSpan normalizedSelection |
 	selection isEmpty ifTrue: [ ^ self ].
-	min := (selection start min: selection end).
-	max := (selection start max: selection end).
-	currentSpan := min span.
+	normalizedSelection := selection normalized.
+	currentSpan := normalizedSelection start span.
 	[ 
-		currentSpan applyAttribute: anAttribute from: min to: max.
-		currentSpan == max span ifTrue: [  ^ self normalize: selection. "done" ].
+		currentSpan applyAttribute: anAttribute from: normalizedSelection start to: normalizedSelection end.
+		currentSpan == normalizedSelection end span ifTrue: [  ^ self normalize: selection. "done" ].
 		currentSpan := currentSpan next.
 	] repeat.
 	

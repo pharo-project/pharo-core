@@ -15,7 +15,7 @@ visitMessageNode: aMessageNode
 				evt shiftPressed ifTrue: [ 
 					SystemNavigation new browseSendersOf: aMessageNode selector name: 'Senders of ', aMessageNode selector autoSelect: aMessageNode selector  ]
 				ifFalse: [ SystemNavigation new browseAllImplementorsOf: aMessageNode selector ] ].
-	hand := TxCursorAttribute with: Cursor webLink.
+	hand := TxMouseCursorAttribute with: Cursor webLink.
 
 	aMessageNode selectorParts do: [ :token | 
 		self addAttribute: link forNode: token.

@@ -1,6 +1,6 @@
 visitCharacterSpan: aSpan
 	
-	| chars pos startPos font w  fontMetricsProvider  viewWidth  glyphWidth  |
+	| chars pos startPos font w fontMetricsProvider viewWidth  glyphWidth |
 	
 	chars := aSpan characters.
 	
@@ -14,11 +14,11 @@ visitCharacterSpan: aSpan
 	
 	viewWidth := self view extent x.
 	glyphWidth := w := 0.
-	startPos := pos + 1.
+	startPos := pos+1.
 	
 	[ pos < chars size ] whileTrue: [ | char |
 	
-		char := chars at: pos+1.
+		char := chars at: pos + 1.
 		char == Character tab ifTrue: [ | ta | 
 			ta := self alignTab: font.
 			((currentLine width + ta x > (viewWidth - rightMargin)) and: [ currentLine width >0 ]) ifTrue: [ 

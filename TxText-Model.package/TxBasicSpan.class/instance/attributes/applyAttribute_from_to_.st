@@ -1,12 +1,10 @@
 applyAttribute: anAttribute from: startPosition to: endPosition
 	
-	"Apply attribute to receiver.
-	
-	If start position not points to receiver, it means the start of span covered by attribute,
-	if endPosition not points to receiver , it means end of span covered by attribute.
+	"
+	If startPosition does not point to the receiver, it means the start of the span covered by the attribute,
+	if endPosition does not point to the receiver, it means the end of span covered by attribute.
 	
 	Else, they define a split point.
-
 	
 	4 cases: 
 		- span already has given attribute (so do nothing )

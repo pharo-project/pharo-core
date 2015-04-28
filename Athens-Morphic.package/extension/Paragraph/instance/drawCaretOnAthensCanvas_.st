@@ -1,8 +1,6 @@
 drawCaretOnAthensCanvas: anAthensCanvas
-	| rect |
 	(self showCaret not or: [ selectionStart isNil ])
 		ifTrue: [ ^ self ].
-	rect := selectionStart origin corner: selectionStart corner.
-	caretRect := rect topLeft extent: 1 @ rect height.
-	anAthensCanvas setStrokePaint: self insertionPointColor.
+	caretRect := selectionStart topLeft asIntegerPoint extent: 1 @ selectionStart height.
+	anAthensCanvas setPaint: self insertionPointColor.
 	anAthensCanvas drawShape: self caretRect

@@ -1,2 +1,2 @@
 containsPoint: aPoint
-	^ (bounds containsPoint: aPoint)
+	^ bounds containsPoint: aPoint

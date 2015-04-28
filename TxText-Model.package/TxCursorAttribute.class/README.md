@@ -1,1 +1,0 @@
-This attribute controls the mouse cursor appearance when user holding mouse over it.

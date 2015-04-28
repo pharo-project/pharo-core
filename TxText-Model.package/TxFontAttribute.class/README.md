@@ -1,1 +1,1 @@
-I represent font attribute for text span
+I represent the font of a text span

@@ -6,6 +6,6 @@ wrapText: aBoolean
 	strategy := 
 		aBoolean 
 			ifTrue: [ self characterWrappingStrategy ] 
-			ifFalse: [  self noWrapStrategy ].
+			ifFalse: [ self noWrapStrategy ].
 
 	self layoutStrategy: strategy.

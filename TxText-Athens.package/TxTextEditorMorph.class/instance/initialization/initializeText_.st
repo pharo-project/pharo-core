@@ -1,9 +1,8 @@
 initializeText: aTxModel 
-	layoutViewMorph := self newViewMorphOn: aTxModel.
-
 	cursorMorph := TxCaretCursor new.
 	self addMorph: cursorMorph.
 
+	layoutViewMorph := self newViewMorphOn: aTxModel.
 	layoutViewMorph 
 "		hResizing: #spaceFill;
 		vResizing: #spaceFill".
@@ -11,4 +10,4 @@ initializeText: aTxModel
 
  	
 	self initializeController.
-	self color: Color white.
+	self color: Color white

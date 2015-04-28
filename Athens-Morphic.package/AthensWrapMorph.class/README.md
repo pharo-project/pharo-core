@@ -1,1 +1,1 @@
-i making sure that all my submorphs will be drawnusing athens, but not balloon.For that i use separate surface.
+I make sure that all my submorphs will be drawn using Athens, not Balloon. For that I use a separate surface.

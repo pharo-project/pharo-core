@@ -1,0 +1,2 @@
+synthesizeBold
+	self primSetSynthesizeEmphasis: 1

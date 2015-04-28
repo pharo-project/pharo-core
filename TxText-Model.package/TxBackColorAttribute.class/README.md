@@ -1,1 +1,1 @@
-I represent background color attribute for text span
+I represent the background color of a text span

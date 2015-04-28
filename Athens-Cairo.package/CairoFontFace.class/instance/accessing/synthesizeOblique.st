@@ -1,0 +1,2 @@
+synthesizeOblique
+	self primSetSynthesizeEmphasis: 2
