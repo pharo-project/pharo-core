@@ -3,7 +3,7 @@ indexOf: anElement startingAt: startIndex ifAbsent: exceptionBlock
 	"during the computation of val , floats are only used when the receiver contains floats"
 
 	| index val |
-	(self rangeIncludes: anElement)
+	(anElement isNumber and:[self rangeIncludes: anElement])
 		ifFalse: [^ exceptionBlock value].
 	val := anElement - self first / self increment.
 	val isFloat

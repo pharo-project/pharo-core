@@ -1,4 +1,4 @@
-script624
+script625
 
 	^ 'AST-Core-TheIntegrator.286.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -27,7 +27,7 @@ Collections-Abstract-StephaneDucasse.276.mcz
 Collections-Arithmetic-TheIntegrator.15.mcz
 Collections-Atomic-MarcusDenker.10.mcz
 Collections-Native-TheIntegrator.11.mcz
-Collections-Sequenceable-TheIntegrator.194.mcz
+Collections-Sequenceable-TheIntegrator.196.mcz
 Collections-Stack-MarcusDenker.7.mcz
 Collections-Streams-TheIntegrator.170.mcz
 Collections-Strings-TheIntegrator.350.mcz
@@ -44,6 +44,7 @@ Debugger-Tests-TheIntegrator.2.mcz
 DebuggerActions-MarcusDenker.74.mcz
 DebuggerFilters-TheIntegrator.9.mcz
 DebuggerModel-TheIntegrator.106.mcz
+Deprecated50-TheIntegrator.5.mcz
 EmbeddedFreeType-TheIntegrator.15.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-MarcusDenker.32.mcz
@@ -246,11 +247,11 @@ Settings-System-EstebanLorenzano.38.mcz
 ShoreLine-Report-Core-TommasoDalSasso.9.mcz
 ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
-Shout-TheIntegrator.239.mcz
+Shout-TheIntegrator.241.mcz
 ShoutTests-TheIntegrator.27.mcz
 Slot-TheIntegrator.606.mcz
 Slot-Tests-TheIntegrator.39.mcz
-SmartSuggestions-TheIntegrator.147.mcz
+SmartSuggestions-TheIntegrator.150.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
 Spec-Core-StephaneDucasse.386.mcz
 Spec-Debugger-TheIntegrator.236.mcz

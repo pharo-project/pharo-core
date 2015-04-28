@@ -13,7 +13,7 @@ aMethodNode comments do: [ :comment|
 		self 
 			addStyle: #patternKeyword
 			from: position
-			to: position + keyword size ].
+			to: position + keyword size - 1 ].
 	
 	aMethodNode pragmas
 		do: [ :each | self visitNode: each ].

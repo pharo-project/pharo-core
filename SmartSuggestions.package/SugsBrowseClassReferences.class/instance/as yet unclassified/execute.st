@@ -1,2 +1,2 @@
 execute
-	context tools browseClassRefsOf: context bindedSelectedClass.
+	context tools browseAllCallsOnClass: context bindedSelectedClass.
