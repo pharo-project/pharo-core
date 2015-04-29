@@ -1,0 +1,2 @@
+spotterActDefault
+	HelpBrowser openOn: self
