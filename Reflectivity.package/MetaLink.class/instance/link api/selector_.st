@@ -1,2 +1,3 @@
 selector: aSymbol
-	selector := aSymbol
+	selector := aSymbol.
+	self invalidate.

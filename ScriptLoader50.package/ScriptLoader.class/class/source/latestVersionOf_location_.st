@@ -4,8 +4,8 @@ latestVersionOf: packageName location: location
   
   repository := MCHttpRepository location: location.
   sortMczs := [:a :b |
-    [(a findBetweenSubStrs: #($.)) allButLast last asInteger > (b  
-      findBetweenSubStrs: #($.)) allButLast last asInteger]
+    [(a findBetweenSubstrings: #($.)) allButLast last asInteger > (b  
+      findBetweenSubstrings: #($.)) allButLast last asInteger]
     on: Error do: [:ex | false]].
   
   fileToLoad := (repository readableFileNames asSortedCollection: sortMczs) detect: 

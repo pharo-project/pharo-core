@@ -6,7 +6,7 @@ testPrintOn
 	self nonEmpty do: [:each | tmp add: each asString].
 	
 	self nonEmpty printOn: aStream .
-	allElementsAsString:=(result findBetweenSubStrs: ' ' ).
+	allElementsAsString:=(result findBetweenSubstrings: ' ' ).
 	1 to: allElementsAsString size do:
 		[:i | 
 		i=1

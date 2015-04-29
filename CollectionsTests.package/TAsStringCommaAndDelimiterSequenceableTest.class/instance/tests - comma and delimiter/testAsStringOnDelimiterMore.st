@@ -12,7 +12,7 @@ testAsStringOnDelimiterMore
 	self nonEmpty  asStringOn: multiItemStream delimiter: ', '.
 	
 	index:=1.
-	(result findBetweenSubStrs: ', ' )do:
+	(result findBetweenSubstrings: ', ' )do:
 		[:each |
 		self assert: each= ((self nonEmpty at:index)asString).
 		index:=index+1

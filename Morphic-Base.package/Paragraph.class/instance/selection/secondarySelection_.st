@@ -1,2 +1,2 @@
-secondarySelection: aSubString
-	secondarySelection := aSubString.
+secondarySelection: aSubstring
+	secondarySelection := aSubstring.

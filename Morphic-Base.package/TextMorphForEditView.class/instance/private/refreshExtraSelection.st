@@ -11,7 +11,7 @@ refreshExtraSelection
 		ifTrue: [ 
 			fullRefreshNeeded := true.
 			(self paragraph secondarySelection isNil and: [ self selection isEmptyOrNil not ])
-				ifTrue: [ self paragraph secondarySelection: (self text asString allRangesOfSubString: self selection asString) ] ].
+				ifTrue: [ self paragraph secondarySelection: (self text asString allRangesOfSubstring: self selection asString) ] ].
 	fullRefreshNeeded
 		ifTrue: [ 
 			self paragraph extraSelectionChanged.

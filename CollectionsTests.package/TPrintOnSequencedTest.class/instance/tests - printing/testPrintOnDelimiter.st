@@ -5,7 +5,7 @@ testPrintOnDelimiter
 	
 	self nonEmpty printOn: aStream delimiter: ', ' .
 	
-	allElementsAsString:=(result findBetweenSubStrs: ', ' ).
+	allElementsAsString:=(result findBetweenSubstrings: ', ' ).
 	1 to: allElementsAsString size do:
 		[:i | 
 		self assert: (allElementsAsString at:i)=((self nonEmpty at:i)asString).

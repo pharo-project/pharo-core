@@ -8,7 +8,7 @@ fromMIMEHeader: aString
 	parts do: 
 		[ :e | | separatorPos parmValue parmName | 
 		separatorPos := e 
-			findAnySubStr: '='
+			findAnySubstring: '='
 			startingAt: 1.
 		separatorPos <= e size ifTrue: 
 			[ parmName := (e 

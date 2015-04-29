@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '15429 remove coupling from monticello GUI with metacello
-	https://pharo.fogbugz.com/f/cases/15429
+ ^ '14080 Nuke remaining subStringXyzs
+	https://pharo.fogbugz.com/f/cases/14080
 
-15433 issue 15426 breaks NEC-Completion
-	https://pharo.fogbugz.com/f/cases/15433
-
-15235 Faster Morphic>>removeHalo
-	https://pharo.fogbugz.com/f/cases/15235'
+15435 MetaLink: invalidate all methods when state of link ist changed
+	https://pharo.fogbugz.com/f/cases/15435'

@@ -9,7 +9,7 @@ testAsStringOnDelimiterLastMore
 	multiItemStream := ReadWriteStream on:result.
 	self nonEmpty  asStringOn: multiItemStream delimiter: ', ' last: last.
 	
-	allElementsAsString:=(result findBetweenSubStrs: ', ' ).
+	allElementsAsString:=(result findBetweenSubstrings: ', ' ).
 	1 to: allElementsAsString size do:
 		[:i | 
 		i<(allElementsAsString size-1 ) | i= allElementsAsString size

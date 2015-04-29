@@ -1,5 +1,4 @@
-findNextString: aSubString startingAt: searchIdx 
+findNextString: aSubstring startingAt: searchIdx 
 	| idx |
-	idx := self string findString: aSubString startingAt: searchIdx.
-	^ idx isZero ifFalse: [idx to: idx + aSubString size - 1]
-			
+	idx := self string findString: aSubstring startingAt: searchIdx.
+	^ idx isZero ifFalse: [idx to: idx + aSubstring size - 1]

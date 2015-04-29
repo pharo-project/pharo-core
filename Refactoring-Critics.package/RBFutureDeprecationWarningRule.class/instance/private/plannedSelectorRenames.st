@@ -1,2 +1,2 @@
 plannedSelectorRenames
-	^ { #subStrings: -> #substrings: }
+	^ { }

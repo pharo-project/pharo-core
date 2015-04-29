@@ -10,7 +10,7 @@ self nonEmpty do: [ :each | elementsAsStringExpected  add: each asString].
 
 self nonEmpty storeOn: str.
 result := str contents .
-cuttedResult := ( result findBetweenSubStrs: ';' ).
+cuttedResult := ( result findBetweenSubstrings: ';' ).
 
 index := 1.
 

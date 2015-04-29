@@ -1,2 +1,3 @@
 level: anObject
-	level := anObject
+	level := anObject.
+	self invalidate.

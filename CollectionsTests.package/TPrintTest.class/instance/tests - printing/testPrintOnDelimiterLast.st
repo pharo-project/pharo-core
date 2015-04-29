@@ -8,7 +8,7 @@ testPrintOnDelimiterLast
 	
 	self nonEmpty printOn: aStream delimiter: ', ' last: 'and'.
 	
-	allElementsAsString:=(result findBetweenSubStrs: ', ' ).
+	allElementsAsString:=(result findBetweenSubstrings: ', ' ).
 	1 to: allElementsAsString size do:
 		[:i | 
 		i<(allElementsAsString size-1 )

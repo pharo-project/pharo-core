@@ -9,7 +9,7 @@ testAsStringOnDelimiterMore
 	multiItemStream := ReadWriteStream on:result.
 	self nonEmpty  asStringOn: multiItemStream delimiter: ', '.
 	
-	allElementsAsString := (result findBetweenSubStrs: ', ' ).
+	allElementsAsString := (result findBetweenSubstrings: ', ' ).
 	allElementsAsString do:
 		[:each |
 		self assert: (tmp occurrencesOf: each)=(allElementsAsString occurrencesOf: each).

@@ -9,7 +9,7 @@ testPrintOnDelimiter
 	
 	self nonEmpty printOn: aStream delimiter: ', ' .
 	
-	allElementsAsString:=(result findBetweenSubStrs: ', ' ).
+	allElementsAsString:=(result findBetweenSubstrings: ', ' ).
 	1 to: allElementsAsString size do:
 		[:i | 
 		self assert: (tmp occurrencesOf:(allElementsAsString at:i))=(allElementsAsString  occurrencesOf:(allElementsAsString at:i))

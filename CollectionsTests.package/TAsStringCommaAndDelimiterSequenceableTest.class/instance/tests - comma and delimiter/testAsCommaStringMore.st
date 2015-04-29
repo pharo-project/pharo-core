@@ -9,7 +9,7 @@ testAsCommaStringMore
 	resultAnd:= self nonEmpty asCommaStringAnd .
  
 	index := 1.
-	(result findBetweenSubStrs: ',' )do:
+	(result findBetweenSubstrings: ',' )do:
 		[:each |
 		index = 1
 			ifTrue: [self assert: each= ((self nonEmpty at:index)asString)]
@@ -18,7 +18,7 @@ testAsCommaStringMore
 		].
 	
 	"verifying esultAnd :"
-	allElementsAsString:=(resultAnd findBetweenSubStrs: ',' ).
+	allElementsAsString:=(resultAnd findBetweenSubstrings: ',' ).
 	1 to: allElementsAsString size do:
 		[:i | 
 		i<(allElementsAsString size )

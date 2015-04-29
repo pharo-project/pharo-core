@@ -12,5 +12,5 @@ startsWith: aChar caseSensitive: aBoolean do: aBlock
 		(char notNil 
 			and: [ (char == firstChar or: [ caseInSensitive and: [ char asLowercase == firstChar ] ])
 			and: [ (each 
-				findAnySubStr: '- '
+				findAnySubstring: '- '
 				startingAt: 2) > size ] ]) ifTrue: [ aBlock value: each ] ]

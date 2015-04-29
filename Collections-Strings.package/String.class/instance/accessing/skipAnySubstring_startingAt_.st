@@ -1,4 +1,4 @@
-skipAnySubStr: delimiters startingAt: start 
+skipAnySubstring: delimiters startingAt: start 
 	"Answer the index of the last character within the receiver, starting at start, that does NOT match one of the delimiters. delimiters is a Array of substrings (Characters also allowed).  If the receiver is all delimiters, answer size + 1."
 
 	| any this ind ii |

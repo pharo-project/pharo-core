@@ -1,4 +1,5 @@
 condition: aCondition
-	condition:= aCondition
+	condition:= aCondition.
+	self invalidate.
 
 	

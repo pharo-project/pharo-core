@@ -1,5 +1,5 @@
-findNextString: aSubString startingAt: searchIdx
+findNextString: aSubstring startingAt: searchIdx
 	| where |
 	self
-		handleEdit: [where := self editor findNextString: aSubString startingAt: searchIdx].
+		handleEdit: [where := self editor findNextString: aSubstring startingAt: searchIdx].
 	^ where

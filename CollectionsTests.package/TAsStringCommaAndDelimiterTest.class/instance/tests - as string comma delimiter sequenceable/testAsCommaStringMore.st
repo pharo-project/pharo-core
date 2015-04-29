@@ -8,14 +8,14 @@ testAsCommaStringMore
 
 	"verifying result  :"
 	index := 1.
-	allElementsAsString := (result findBetweenSubStrs: ', ' ).
+	allElementsAsString := (result findBetweenSubstrings: ', ' ).
 	allElementsAsString do:
 		[:each |
 		self assert: (tmp occurrencesOf: each)=(allElementsAsString occurrencesOf: each).
 		].
 	
 	"verifying esultAnd :"
-	allElementsAsString:=(resultAnd findBetweenSubStrs: ', ' ).
+	allElementsAsString:=(resultAnd findBetweenSubstrings: ', ' ).
 	1 to: allElementsAsString size do:
 		[:i | 
 		i<(allElementsAsString size-1 ) | i= allElementsAsString size

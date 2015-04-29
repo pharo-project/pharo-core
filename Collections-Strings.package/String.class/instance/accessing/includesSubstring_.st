@@ -1,2 +1,2 @@
-includesSubstring: subString
-	^ (self findString: subString startingAt: 1) > 0
+includesSubstring: substring
+	^ (self findString: substring startingAt: 1) > 0
