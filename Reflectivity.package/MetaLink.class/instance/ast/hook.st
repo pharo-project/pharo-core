@@ -8,4 +8,6 @@ hook
 				receiver: (RBMessageNode receiver: self condition asLiteralNode selector: #value)
 				selector: #ifTrue:
 				arguments: {arg} ].
+	level ifNotNil: [hook := self wrapInContext: hook].		
+
 	^ hook

@@ -1,0 +1,2 @@
+genForRBProgramNode
+	^RBVariableNode named: 'self'

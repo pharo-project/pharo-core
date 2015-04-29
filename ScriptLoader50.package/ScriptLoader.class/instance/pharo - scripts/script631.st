@@ -1,4 +1,4 @@
-script630
+script631
 
 	^ 'AST-Core-TheIntegrator.286.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -66,12 +66,12 @@ FuelCommandLineHandler-TheIntegrator.27.mcz
 FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-TheIntegrator.384.mcz
 FuelTools-Debugger-StephaneDucasse.12.mcz
-GT-Inspector-TudorGirba.305.mcz
-GT-InspectorExtensions-Core-TudorGirba.144.mcz
+GT-Inspector-SeanDeNigris.306.mcz
+GT-InspectorExtensions-Core-TorstenBergmann.145.mcz
 GT-Playground-TudorGirba.110.mcz
 GT-Spotter-StefanReichhart.307.mcz
 GT-Spotter-EventRecorder-JurajKubelka.89.mcz
-GT-SpotterExtensions-Core-TudorGirba.141.mcz
+GT-SpotterExtensions-Core-TudorGirba.142.mcz
 GT-Tests-Inspector-StefanReichhart.33.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
 GT-Tests-Spotter-TudorGirba.8.mcz
@@ -84,10 +84,10 @@ Glamour-Helpers-AndreiChis.39.mcz
 Glamour-Morphic-Brick-StefanReichhart.398.mcz
 Glamour-Morphic-Brick-Tests-AliakseiSyrel.13.mcz
 Glamour-Morphic-Pager-AndreiChis.103.mcz
-Glamour-Morphic-Renderer-AndreiChis.320.mcz
+Glamour-Morphic-Renderer-AndreiChis.321.mcz
 Glamour-Morphic-Theme-StefanReichhart.212.mcz
 Glamour-Morphic-Widgets-AndreiChis.177.mcz
-Glamour-Presentations-AndreiChis.176.mcz
+Glamour-Presentations-AndreiChis.177.mcz
 Glamour-Rubric-Presentations-AndreiChis.41.mcz
 Glamour-Tests-Core-AliakseiSyrel.104.mcz
 Glamour-Tests-Morphic-AndreiChis.124.mcz
@@ -113,7 +113,7 @@ HelpSystem-Tests-TheIntegrator.30.mcz
 HudsonBuildTools20-TheIntegrator.65.mcz
 Jobs-EstebanLorenzano.4.mcz
 Kernel-TheIntegrator.2015.mcz
-KernelTests-TheIntegrator.772.mcz
+KernelTests-TheIntegrator.773.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-EstebanLorenzano.45.mcz
 Keymapping-Pragmas-TheIntegrator.50.mcz
@@ -204,6 +204,7 @@ OpalCompiler-Tests-TheIntegrator.282.mcz
 OpalDecompiler-TheIntegrator.31.mcz
 OpalTools-TheIntegrator.16.mcz
 Pharo-Help-TheIntegrator.15.mcz
+Play-TheIntegrator.2.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz
 Polymorph-Widgets-TheIntegrator.1215.mcz
 PragmaCollector-TheIntegrator.3.mcz
@@ -222,8 +223,8 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.123.mcz
 Refactoring-Tests-Critics-MarcusDenker.25.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.29.mcz
-Reflectivity-Tests-TheIntegrator.22.mcz
+Reflectivity-TheIntegrator.31.mcz
+Reflectivity-Tests-TheIntegrator.24.mcz
 Regex-Core-MarcusDenker.33.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -249,7 +250,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.243.mcz
 ShoutTests-TheIntegrator.27.mcz
-Slot-TheIntegrator.606.mcz
+Slot-TheIntegrator.608.mcz
 Slot-Tests-TheIntegrator.39.mcz
 SmartSuggestions-TheIntegrator.150.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz

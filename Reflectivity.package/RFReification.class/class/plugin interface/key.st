@@ -1,0 +1,2 @@
+key
+	^self subclassResponsibility

@@ -1,6 +1,11 @@
 emitStore: aMethodBuilder
+	| tempName |
+	tempName := Object new.
 	aMethodBuilder
-		pushLiteral: self;
+		addTemp: tempName;
+		storeTemp: tempName;
+		popTop;
 		pushReceiver;
-		send: #writeToSlot:of:  
-		
+		pushLiteral: self;
+		pushTemp: tempName;
+		send: #writeSlot:value:
