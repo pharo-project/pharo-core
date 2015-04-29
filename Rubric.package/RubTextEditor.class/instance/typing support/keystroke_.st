@@ -1,4 +1,5 @@
 keystroke: aKeyboardEvent
+	textArea announce: (RubKeystroke with: aKeyboardEvent).
 	(self dispatch: aKeyboardEvent)
 		ifTrue: [ "If not a normal character"
 			self doneTyping.

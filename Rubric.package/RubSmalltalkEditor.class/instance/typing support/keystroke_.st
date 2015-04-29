@@ -4,5 +4,4 @@ keystroke: aKeyboardEvent
 			(self selectorChooserHandlesKeyboard: aKeyboardEvent)
 				ifFalse: [ super keystroke: aKeyboardEvent ].
 			self selectorChooserKeystroke: aKeyboardEvent ]
-		keyStroke: aKeyboardEvent.
-	textArea announce: (RubKeystroke with: aKeyboardEvent)
+		keyStroke: aKeyboardEvent

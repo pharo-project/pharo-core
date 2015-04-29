@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '14080 Nuke remaining subStringXyzs
-	https://pharo.fogbugz.com/f/cases/14080
+ ^ '15438 Update Rubric
+	https://pharo.fogbugz.com/f/cases/15438
 
-15435 MetaLink: invalidate all methods when state of link ist changed
-	https://pharo.fogbugz.com/f/cases/15435'
+15440 remove deprecated references to #allRangesOfSubString: in TextMorphForEditView
+	https://pharo.fogbugz.com/f/cases/15440'

@@ -3,7 +3,7 @@ computeSecondarySelectionShapesFrom: topLeft to: bottomRight
 	primary := self primarySelectionInterval.
 	topLeftBlk := self characterBlockAtPoint: topLeft.
 	otherRanges := findReplaceRanges ifNil: [ #() ].
-	(secondarySelRanges := (((self visibleStringFrom: topLeft to: bottomRight) allRangesOfSubString: self selection asString)
+	(secondarySelRanges := (((self visibleStringFrom: topLeft to: bottomRight) allRangesOfSubstring: self selection asString)
 		collect: [ :r | r + topLeftBlk stringIndex - 1 ])
 		reject: [ :i | 
 			(otherRanges anySatisfy: [ :r | (r rangeIncludes: i first) or: [ r rangeIncludes: i last ] ])
