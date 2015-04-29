@@ -1,4 +1,4 @@
 convertToSHSymbol: aSymbol
-	^ (SHTextStylerST80 new attributesFor: aSymbol) notNil
+	^ (SHTextStylerST80 new attributesFor: aSymbol) isNotEmpty
 		ifTrue: [ aSymbol ]
 		ifFalse: [ #default ]

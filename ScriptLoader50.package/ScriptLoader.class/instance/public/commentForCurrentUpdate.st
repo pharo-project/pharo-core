@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '15426  SHRBTextStyler  does not work for all predefined styles
-	https://pharo.fogbugz.com/f/cases/15426
+ ^ '15429 remove coupling from monticello GUI with metacello
+	https://pharo.fogbugz.com/f/cases/15429
 
-15427 Link Condition: Test + fix conditions for links
-	https://pharo.fogbugz.com/f/cases/15427
+15433 issue 15426 breaks NEC-Completion
+	https://pharo.fogbugz.com/f/cases/15433
 
-15259 Remove paintTabIcon 
-	https://pharo.fogbugz.com/f/cases/15259'
+15235 Faster Morphic>>removeHalo
+	https://pharo.fogbugz.com/f/cases/15235'

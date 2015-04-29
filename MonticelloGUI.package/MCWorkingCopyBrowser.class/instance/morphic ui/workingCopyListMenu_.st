@@ -2,7 +2,7 @@ workingCopyListMenu: aMenu
 
 	workingCopy ifNil: [ ^ aMenu ].
 	(workingCopy package name beginsWith: 'ConfigurationOf') ifTrue: [
-		self fillMenu: aMenu fromSpecs: self configurationMenuSpec.
+		self fillMenu: aMenu fromSpecs: self collectConfigurationMenuSpecs.
 		aMenu addLine ].
 	self fillMenu: aMenu fromSpecs: self historyMenuSpec.
 	aMenu addLine.

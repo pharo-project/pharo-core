@@ -1,3 +1,3 @@
 halo
-	^ self outermostWorldMorph 
-		ifNotNil: [:w | w haloMorphs detect: [:h | h target == self] ifNone: []]
+	^ self primaryHand halo
+		ifNotNil: [ :h | h target == self ifTrue: [ h ] ]

@@ -1,4 +1,4 @@
-script626
+script627
 
 	^ 'AST-Core-TheIntegrator.286.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -150,10 +150,10 @@ Monticello-Tests-TheIntegrator.6.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.182.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
-MonticelloGUI-TheIntegrator.345.mcz
+MonticelloGUI-TheIntegrator.347.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 Morphic-Base-TheIntegrator.443.mcz
-Morphic-Core-TheIntegrator.168.mcz
+Morphic-Core-TheIntegrator.170.mcz
 Morphic-Examples-TheIntegrator.40.mcz
 Morphic-Widgets-Basic-TheIntegrator.41.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
@@ -173,7 +173,7 @@ Multilingual-OtherLanguages-TheIntegrator.15.mcz
 Multilingual-Tests-MarcusDenker.35.mcz
 Multilingual-TextConversion-TheIntegrator.70.mcz
 Multilingual-TextConverterOtherLanguages-MarcusDenker.2.mcz
-NECompletion-TheIntegrator.194.mcz
+NECompletion-TheIntegrator.196.mcz
 NECompletion-Tests-TheIntegrator.2.mcz
 NativeBoost-Core-TheIntegrator.164.mcz
 NativeBoost-Examples-CamilloBruni.16.mcz
