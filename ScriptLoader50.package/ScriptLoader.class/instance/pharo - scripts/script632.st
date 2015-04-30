@@ -1,4 +1,4 @@
-script631
+script632
 
 	^ 'AST-Core-TheIntegrator.286.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -112,8 +112,8 @@ HelpSystem-Core-TheIntegrator.122.mcz
 HelpSystem-Tests-TheIntegrator.30.mcz
 HudsonBuildTools20-TheIntegrator.65.mcz
 Jobs-EstebanLorenzano.4.mcz
-Kernel-TheIntegrator.2015.mcz
-KernelTests-TheIntegrator.773.mcz
+Kernel-TheIntegrator.2017.mcz
+KernelTests-TheIntegrator.774.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-EstebanLorenzano.45.mcz
 Keymapping-Pragmas-TheIntegrator.50.mcz
@@ -199,7 +199,7 @@ NonInteractiveTranscript-TheIntegrator.15.mcz
 OSWindow-Core-TheIntegrator.20.mcz
 OSWindow-SDL2-EstebanLorenzano.19.mcz
 OSWindow-VM-IgorStasenko.2.mcz
-OpalCompiler-Core-TheIntegrator.643.mcz
+OpalCompiler-Core-TheIntegrator.645.mcz
 OpalCompiler-Tests-TheIntegrator.282.mcz
 OpalDecompiler-TheIntegrator.31.mcz
 OpalTools-TheIntegrator.16.mcz
@@ -248,7 +248,7 @@ Settings-System-EstebanLorenzano.38.mcz
 ShoreLine-Report-Core-TommasoDalSasso.9.mcz
 ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
-Shout-TheIntegrator.243.mcz
+Shout-TheIntegrator.245.mcz
 ShoutTests-TheIntegrator.27.mcz
 Slot-TheIntegrator.608.mcz
 Slot-Tests-TheIntegrator.39.mcz

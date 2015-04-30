@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '15447 Links with MetaContext
-	https://pharo.fogbugz.com/f/cases/15447
+ ^ '15422 SHTextStyler>>#styleInBackgroundProcess:  should not set the text if styling process was terminated 
+	https://pharo.fogbugz.com/f/cases/15422
 
-15436 emitStore: should not send writeToSlot:of:
-	https://pharo.fogbugz.com/f/cases/15436
+15443 AST based highlighter: DNU sometimes
+	https://pharo.fogbugz.com/f/cases/15443
 
-15444 OldClassBuilderAdapter: move checks into SlotClassBuilder (first step)
-	https://pharo.fogbugz.com/f/cases/15444'
+15437 remove writeToSlot:of: 
+	https://pharo.fogbugz.com/f/cases/15437'
