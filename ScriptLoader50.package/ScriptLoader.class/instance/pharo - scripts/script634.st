@@ -1,4 +1,4 @@
-script633
+script634
 
 	^ 'AST-Core-TheIntegrator.286.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -248,15 +248,15 @@ Settings-System-EstebanLorenzano.38.mcz
 ShoreLine-Report-Core-TommasoDalSasso.9.mcz
 ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
-Shout-TheIntegrator.245.mcz
+Shout-TheIntegrator.247.mcz
 ShoutTests-TheIntegrator.27.mcz
 Slot-TheIntegrator.608.mcz
 Slot-Tests-TheIntegrator.39.mcz
 SmartSuggestions-TheIntegrator.150.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
-Spec-Core-StephaneDucasse.386.mcz
+Spec-Core-TheIntegrator.388.mcz
 Spec-Debugger-TheIntegrator.236.mcz
-Spec-Examples-TheIntegrator.91.mcz
+Spec-Examples-TheIntegrator.94.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.238.mcz
 Spec-Layout-TheIntegrator.67.mcz
@@ -326,15 +326,16 @@ UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz
 UserManager-Core-MarcusDenker.13.mcz
 UserManager-Tests-TheIntegrator.5.mcz
+Versionner-Commit-EstebanLorenzano.26.mcz
 Versionner-Core-Announcements-MarcusDenker.11.mcz
-Versionner-Core-Commands-ChristopheDemarey.53.mcz
-Versionner-Core-DependenciesModel-TheIntegrator.95.mcz
-Versionner-Core-Model-ChristopheDemarey.49.mcz
-Versionner-Spec-Browser-ChristopheDemarey.173.mcz
+Versionner-Core-Commands-EstebanLorenzano.58.mcz
+Versionner-Core-DependenciesModel-ChristopheDemarey.101.mcz
+Versionner-Core-Model-EstebanLorenzano.51.mcz
+Versionner-Spec-Browser-EstebanLorenzano.176.mcz
 Versionner-Tests-Core-Commands-TheIntegrator.17.mcz
-Versionner-Tests-Core-DependenciesModel-MarcusDenker.40.mcz
+Versionner-Tests-Core-DependenciesModel-ChristopheDemarey.42.mcz
 Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz
-Versionner-Tests-Resources-MarcusDenker.14.mcz
+Versionner-Tests-Resources-ChristopheDemarey.15.mcz
 Zinc-Character-Encoding-Core-SvenVanCaekenberghe.37.mcz
 Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.22.mcz
 Zinc-FileSystem-SvenVanCaekenberghe.10.mcz
