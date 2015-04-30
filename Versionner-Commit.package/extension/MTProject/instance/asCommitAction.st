@@ -1,0 +1,2 @@
+asCommitAction
+	^ VSCommitProjectAction project: self

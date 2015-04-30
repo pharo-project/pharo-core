@@ -1,0 +1,2 @@
+commitVersion
+	^ commitVersion

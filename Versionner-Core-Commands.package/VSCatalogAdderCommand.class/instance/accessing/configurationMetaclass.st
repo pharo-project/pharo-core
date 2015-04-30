@@ -1,0 +1,2 @@
+configurationMetaclass
+	^ self configurationClass class

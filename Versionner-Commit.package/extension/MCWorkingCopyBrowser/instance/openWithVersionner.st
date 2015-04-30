@@ -1,0 +1,2 @@
+openWithVersionner
+	VersionnerProjectBrowser openOn: (MBConfigurationInfo  configurationClass: self configurationClass)

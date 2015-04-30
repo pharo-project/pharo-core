@@ -1,5 +1,5 @@
 testVisitXMLParserConfigurationWithVersion101
-	"test the visitor with the 1.38 version of the Versionner configuration"
+	"test the visitor with the 1.38 version of the Versionner configuration "
 
 	| visitor config project version |
 	

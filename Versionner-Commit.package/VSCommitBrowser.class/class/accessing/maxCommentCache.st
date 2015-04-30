@@ -1,0 +1,2 @@
+maxCommentCache
+	^ 10

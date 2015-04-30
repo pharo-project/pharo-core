@@ -1,0 +1,2 @@
+comment: anObject
+	comment := anObject

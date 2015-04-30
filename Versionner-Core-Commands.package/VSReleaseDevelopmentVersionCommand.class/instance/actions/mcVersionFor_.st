@@ -1,6 +1,5 @@
 mcVersionFor: aVersionString
-	| config workflow |
+	| config |
 	
-	workflow := target.
 	config := workflow project configurationClass.
 	^ config project version: aVersionString

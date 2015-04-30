@@ -4,7 +4,7 @@ executeWithDevWorkflow: aCommandClass
 			 cmd := aCommandClass 
 						target: project	devWorkflow
 						for: self.
-			[ cmd execute ]
+			[ cmd executeWithDevWorkflow: project devWorkflow ]
 				on: MetacelloValidationFailure 
 				do: [ :error | (VSConfigurationValidationIssuesDisplayCommand target: error for: self) execute] ].
 	browser refreshConfiguration.

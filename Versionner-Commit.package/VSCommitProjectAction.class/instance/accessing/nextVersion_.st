@@ -1,0 +1,2 @@
+nextVersion: anObject
+	^ nextVersion := anObject

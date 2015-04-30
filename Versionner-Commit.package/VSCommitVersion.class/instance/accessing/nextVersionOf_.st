@@ -1,0 +1,2 @@
+nextVersionOf: aProject
+	self subclassResponsibility

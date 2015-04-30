@@ -1,0 +1,2 @@
+executeOn: aUnit
+	self subclassResponsibility

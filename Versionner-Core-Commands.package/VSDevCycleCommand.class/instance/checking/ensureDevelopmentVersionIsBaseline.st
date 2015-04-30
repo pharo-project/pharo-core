@@ -1,6 +1,5 @@
 ensureDevelopmentVersionIsBaseline
-	|  workflow devVersion |
-
-	workflow := target.	
+	| devVersion |
 	devVersion := workflow developmentVersion.
-	(devVersion blessing = #baseline) ifFalse: [ self createDevelopmentVersion ]
+	(devVersion blessing == #baseline) 
+		ifFalse: [ self createDevelopmentVersion ]

@@ -1,0 +1,2 @@
+cleanUp 
+	commentCache := nil

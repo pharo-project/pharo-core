@@ -1,0 +1,5 @@
+symbolicVersion
+	self subclassResponsibility
+
+	
+	

@@ -1,0 +1,2 @@
+isProject
+	^ true

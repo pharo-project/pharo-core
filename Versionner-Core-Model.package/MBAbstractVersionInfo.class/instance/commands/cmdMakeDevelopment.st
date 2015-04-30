@@ -1,0 +1,3 @@
+cmdMakeDevelopment
+	<command>
+	^ VSMakeDevelopmentCommand

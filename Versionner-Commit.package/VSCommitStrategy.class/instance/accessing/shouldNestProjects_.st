@@ -1,0 +1,2 @@
+shouldNestProjects: anObject
+	shouldNestProjects := anObject

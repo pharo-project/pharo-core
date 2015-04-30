@@ -1,0 +1,2 @@
+asCommitAction
+	^ VSCommitPackageAction package: self

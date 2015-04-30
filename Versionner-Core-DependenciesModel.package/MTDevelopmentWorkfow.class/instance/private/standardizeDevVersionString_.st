@@ -4,4 +4,4 @@ standardizeDevVersionString: aDevVersionString
 	versionString := aDevVersionString copyReplaceAll: 'baseline-' with: ''.
 	versionString  :=  versionString copyReplaceAll: '-baseline' with: ''.
 	versionString  :=  versionString copyReplaceAll: 'baseline' with: ''.
-	^ versionString , '-baseline' 
+	^ versionString , '-baseline'

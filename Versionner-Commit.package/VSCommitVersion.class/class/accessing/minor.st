@@ -1,0 +1,2 @@
+minor
+	^ VSCommitMinorVersion uniqueInstance

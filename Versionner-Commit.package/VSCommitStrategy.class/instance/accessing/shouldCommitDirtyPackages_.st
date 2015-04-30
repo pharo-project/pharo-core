@@ -1,0 +1,2 @@
+shouldCommitDirtyPackages: anObject
+	shouldCommitDirtyPackages := anObject

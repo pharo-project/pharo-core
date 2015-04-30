@@ -1,0 +1,2 @@
+commitStrategy
+	^ commitStrategy

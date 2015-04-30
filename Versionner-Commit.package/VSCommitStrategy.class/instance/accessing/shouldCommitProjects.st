@@ -1,0 +1,2 @@
+shouldCommitProjects
+	^ shouldCommitProjects

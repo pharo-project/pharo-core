@@ -1,0 +1,2 @@
+isPackage 
+	^ true

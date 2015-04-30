@@ -1,4 +1,5 @@
 configuration: aMBConfigurationInfo 
 	configuration := aMBConfigurationInfo.
-	configuration recalculateSilently.
-	self versionList: configuration versions.
+	configuration ifNotNil: [ 
+		configuration recalculateSilently.
+		self versionList: configuration versions ].

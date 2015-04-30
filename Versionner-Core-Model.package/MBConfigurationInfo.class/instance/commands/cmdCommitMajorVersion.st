@@ -1,0 +1,3 @@
+cmdCommitMajorVersion
+	<command>
+	^ VSCommitMajorCommand

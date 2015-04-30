@@ -1,10 +1,7 @@
 release: releaseVersionString andSolveSymbolic: needsSymbolicVersionResolution
-	| workflow |
-	
-	workflow := target.
-	releaseVersionString 
-		ifNil: [	UIManager default inform: 'Release aborted! Specify a valid release version string.'.
-				^ self ].
+	releaseVersionString ifNil: [	
+		UIManager default inform: 'Release aborted! Specify a valid release version string.'.
+		^ self ].
 
 	[ workflow releaseDevelopment: releaseVersionString.
 	  needsSymbolicVersionResolution

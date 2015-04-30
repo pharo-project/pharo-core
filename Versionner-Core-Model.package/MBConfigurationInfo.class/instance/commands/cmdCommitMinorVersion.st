@@ -1,0 +1,3 @@
+cmdCommitMinorVersion
+	<command>
+	^ VSCommitMinorCommand

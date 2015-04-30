@@ -3,7 +3,7 @@ execute
 
 	| answer imported |
 	imported := Set new.
-	self configurationClass project versions do: [ :version | imported addAll: version importedVersions ].
+	self versions do: [ :version | imported addAll: version importedVersions ].
 	(imported includes: target versionString)
 		ifTrue: [ 
 			^ UIManager default

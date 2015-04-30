@@ -1,0 +1,2 @@
+canBeApplied
+	^ true

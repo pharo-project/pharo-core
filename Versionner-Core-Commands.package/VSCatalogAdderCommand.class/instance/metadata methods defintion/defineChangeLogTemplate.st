@@ -1,6 +1,6 @@
 defineChangeLogTemplate
 
-	self configurationClass 
+	self configurationMetaclass 
 		compile: 'catalogChangeLog
 	"Returns a paragraph describing the most important changes in the configuration class."
 	^ ''- Version number - Date - topics

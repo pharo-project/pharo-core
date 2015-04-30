@@ -1,0 +1,2 @@
+workingCopy 
+	^ self project workingCopy

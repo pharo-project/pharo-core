@@ -1,0 +1,3 @@
+cmdMakeStable
+	<command>
+	^ VSMakeStableCommand

@@ -1,0 +1,2 @@
+shouldCommitDirtyPackages
+	^ shouldCommitDirtyPackages

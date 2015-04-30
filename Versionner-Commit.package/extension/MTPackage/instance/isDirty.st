@@ -1,0 +1,2 @@
+isDirty
+	^ self workingCopy modified

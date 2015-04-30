@@ -1,0 +1,2 @@
+configurationClass
+	^ self project configurationClass

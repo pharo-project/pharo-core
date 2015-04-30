@@ -1,0 +1,2 @@
+open
+	^ VSCommitBrowser openOn: self
