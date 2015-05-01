@@ -1,0 +1,2 @@
+or: alternativeBlock 
+	^alternativeBlock value

@@ -1,2 +1,2 @@
 sourceNodeForPC: anInteger 
-	^ self method sourceNodeForPC: anInteger
+	^ self methodNode sourceNodeForPC: anInteger

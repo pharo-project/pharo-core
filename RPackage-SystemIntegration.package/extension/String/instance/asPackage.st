@@ -1,2 +1,2 @@
 asPackage
-	^ self asPackageIfAbsent: [ NotFound signalFor: self ]
+	^ self asPackageIfAbsent: [ NotFound new messageText: 'There is no package named ', self; object: self; signal ] 
