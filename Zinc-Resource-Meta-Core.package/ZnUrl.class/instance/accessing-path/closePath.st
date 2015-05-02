@@ -1,3 +1,3 @@
 closePath
-	self isSlash
+	self isDirectoryPath
 		ifFalse: [ self addPathSegment: #/ ]

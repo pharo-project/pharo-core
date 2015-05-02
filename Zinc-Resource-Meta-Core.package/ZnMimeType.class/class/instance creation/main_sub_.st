@@ -1,5 +1,5 @@
-main: aMainString sub: aSubString
+main: aMainString sub: aSubstring
 	^ self new
 		main: aMainString;
-		sub: aSubString;
+		sub: aSubstring;
 		yourself

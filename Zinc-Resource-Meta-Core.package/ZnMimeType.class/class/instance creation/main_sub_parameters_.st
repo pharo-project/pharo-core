@@ -1,4 +1,4 @@
-main: aMainString sub: aSubString parameters: aDictionary
-	^ (self main: aMainString sub: aSubString)
+main: aMainString sub: aSubstring parameters: aDictionary
+	^ (self main: aMainString sub: aSubstring)
 		parameters: aDictionary;
 		yourself

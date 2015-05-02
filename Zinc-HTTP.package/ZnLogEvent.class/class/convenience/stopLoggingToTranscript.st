@@ -1,2 +1,2 @@
 stopLoggingToTranscript
-	self announcer unsubscribe: Transcript
+	self announcer unsubscribe: self

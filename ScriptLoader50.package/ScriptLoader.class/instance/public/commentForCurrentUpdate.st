@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '15164 Misleading error message for nonexisting Package (String>>asPackage)
-	https://pharo.fogbugz.com/f/cases/15164
+ ^ '15457 Update Zinc to handle some deprecations in Pharo 5
+	https://pharo.fogbugz.com/f/cases/15457
 
-15373 forward port 15322 "Save As" does not properly save filenames with dots in them, like "one.two" or "one.two.image"
-	https://pharo.fogbugz.com/f/cases/15373
-
-15458 fix #mustBeBoolean handling for #or:
-	https://pharo.fogbugz.com/f/cases/15458'
+15463 Rubric turns text to transparent when styling
+	https://pharo.fogbugz.com/f/cases/15463'

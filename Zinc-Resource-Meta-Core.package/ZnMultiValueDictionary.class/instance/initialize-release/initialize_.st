@@ -1,3 +1,3 @@
 initialize: n
 	super initialize: n.
-	limit := self defaultLimit
+	limit := self class defaultLimit

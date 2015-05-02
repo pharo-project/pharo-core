@@ -1,5 +1,5 @@
 RubParagraphDecorator subclass: #RubShoutStylerDecorator
-	instanceVariableNames: 'styler shoutIsAvailable savedTextColor text'
+	instanceVariableNames: 'styler shoutIsAvailable text'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Rubric-Editing-Core'

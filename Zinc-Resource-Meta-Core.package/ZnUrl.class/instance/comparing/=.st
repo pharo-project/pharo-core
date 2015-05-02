@@ -1,3 +1,3 @@
 = anObject
-	^ self class == anObject class 
-		and: [ self equals: anObject ]
+	^ self == anObject
+		or: [ self class == anObject class and: [ self equals: anObject ] ]
