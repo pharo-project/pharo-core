@@ -5,26 +5,21 @@ pushAsPointer: gen
 		- nil
 		- variable bytes oop
 		- external address "
-	| asm proxy notNil done oop  notExternalAddress |
+	| asm proxy done oop notExternalAddress nilToNull |
 	
 	asm := gen asm.
 	proxy := gen proxy.
+	nilToNull := asm uniqueLabelName: 'nilToNull'.
 	done := asm uniqueLabelName: 'done'.
 	oop := gen reserveTemp.
 	
 	"load argument oop"
 	loader emitLoad: gen to: oop.
 	
-	"handle nils, if we care"
-	gen optCoerceNilToNull ifTrue: [
-		notNil := asm uniqueLabelName: 'notNil'.
-		proxy nilObject.
-		asm cmp: asm EAX with: oop;
-		jne: notNil;
-		xor: asm EAX with: asm EAX;
-		jmp: done;
-		label: notNil.
-	].
+	self
+		coerceNilToNull: gen
+		oop: oop
+		doneLabel: nilToNull.
 
 	"handle ExternalAddress, if we care"
 	gen optAllowExternalAddressPtr ifTrue: [ | oopClass |
@@ -57,8 +52,9 @@ pushAsPointer: gen
 	asm jmp: gen failedLabel.
 
 	"and if we get here, we ok to proceed"
-	asm label: done.
-	asm push: asm EAX.
+	asm
+		label: done;
+		push: asm EAX;
+		label: nilToNull.
 
-	gen releaseTemps: 1.
-	
+	gen releaseTemps: 1

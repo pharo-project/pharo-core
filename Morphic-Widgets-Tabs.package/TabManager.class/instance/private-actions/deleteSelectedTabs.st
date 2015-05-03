@@ -1,3 +1,4 @@
 deleteSelectedTabs
-
-	toolbar deleteSelectedTabs
+	toolbar selectedTab 
+		ifNotNil: [ toolbar deleteSelectedTabs ] 
+		ifNil: [ self owner takeKeyboardFocus ]

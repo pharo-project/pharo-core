@@ -1,0 +1,2 @@
+hasMetaLevel
+	^level notNil

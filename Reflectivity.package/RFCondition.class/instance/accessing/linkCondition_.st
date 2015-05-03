@@ -1,0 +1,2 @@
+linkCondition: aBlockOrBoolean
+		linkCondition := aBlockOrBoolean

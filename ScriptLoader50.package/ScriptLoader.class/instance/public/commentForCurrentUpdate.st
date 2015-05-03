@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '15466 combinationsAt: jj in: aCollection after: nn do: aBlock bogus comment
-	https://pharo.fogbugz.com/f/cases/15466
+ ^ '15334 Closing tabs with ctrl+w shortcut sometimes throws error
+	https://pharo.fogbugz.com/f/cases/15334
 
-15464 Merging groups raised an DNU
-	https://pharo.fogbugz.com/f/cases/15464
+15479 Condition Reification
+	https://pharo.fogbugz.com/f/cases/15479
 
-5465 Prevent accidental semaphore leaks when using Socket acceptFrom
-	https://pharo.fogbugz.com/f/cases/5465
-
-15467 better background color for Dark Theme
-	https://pharo.fogbugz.com/f/cases/15467'
+14479 Enable nil to NULL coercion for NBExternalObjectType
+	https://pharo.fogbugz.com/f/cases/14479'

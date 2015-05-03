@@ -1,0 +1,2 @@
+intitialize
+	condition := true

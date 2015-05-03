@@ -1,13 +1,18 @@
 pushAsValue: gen
 	"push handle value"
-	| asm proxy oop |
+	| asm proxy oop done |
 	
 	proxy := gen proxy.
 	asm := gen asm.
-	
+	done := asm uniqueLabelName: 'done'.
 	oop := gen reserveTemp.
 	loader emitLoad: gen to: oop.
 	
+	self
+		coerceNilToNull: gen
+		oop: oop
+		doneLabel: done.
+
 	"Special case: do not emit type checking if argument is receiver"
 	(loader isReceiver and: [  gen requestor  includesBehavior: objectClass ])
 	ifFalse: [
@@ -18,7 +23,7 @@ pushAsValue: gen
 	proxy varBytesFirstFieldOf: asm EAX. "handle value ptr"
 	asm mov: asm EAX ptr to: asm EAX. "handle value"
 	asm push: asm EAX.
-	
-	gen releaseTemps: 1.
 
+	asm label: done.
 	
+	gen releaseTemps: 1
