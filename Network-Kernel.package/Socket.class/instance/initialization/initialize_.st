@@ -2,6 +2,7 @@ initialize: socketType
 	"Initialize a new socket handle. If socket creation fails, socketHandle will be set to nil."
 
 	| semaIndex readSemaIndex writeSemaIndex |
+	socketHandle ifNotNil: [^Error signal: 'The socket is already bound'].
 	semaphore := Semaphore new.
 	readSemaphore := Semaphore new.
 	writeSemaphore := Semaphore new.

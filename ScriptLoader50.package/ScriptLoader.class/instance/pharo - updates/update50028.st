@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '15466 combinationsAt: jj in: aCollection after: nn do: aBlock bogus comment
+update50028
+	"self new update50028"
+	self withUpdateLog: '15466 combinationsAt: jj in: aCollection after: nn do: aBlock bogus comment
 	https://pharo.fogbugz.com/f/cases/15466
 
 15464 Merging groups raised an DNU
@@ -9,4 +10,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/5465
 
 15467 better background color for Dark Theme
-	https://pharo.fogbugz.com/f/cases/15467'
+	https://pharo.fogbugz.com/f/cases/15467'.
+	self loadTogether: self script637 merge: false.
+	self flushCaches.

@@ -2,6 +2,7 @@ acceptFrom: aSocket
 	"Initialize a new socket handle from an accept call"
 
 	| semaIndex readSemaIndex writeSemaIndex |
+	socketHandle ifNotNil: [^Error signal: 'The socket is already bound'].
 	semaphore := Semaphore new.
 	readSemaphore := Semaphore new.
 	writeSemaphore := Semaphore new.

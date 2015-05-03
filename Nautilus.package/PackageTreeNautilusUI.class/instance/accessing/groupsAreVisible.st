@@ -1,2 +1,2 @@
 groupsAreVisible
-^ self showGroups or:[ PackageTreeNautilus showGroupsOnTop]
+	^ self showGroups or: [ PackageTreeNautilus showGroupsOnTop ]

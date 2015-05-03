@@ -1,4 +1,4 @@
-script636
+script637
 
 	^ 'AST-Core-TheIntegrator.286.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -23,7 +23,7 @@ Balloon-TheIntegrator.120.mcz
 BalloonTests-MarcusDenker.3.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
 CodeImport-TheIntegrator.48.mcz
-Collections-Abstract-StephaneDucasse.276.mcz
+Collections-Abstract-TheIntegrator.278.mcz
 Collections-Arithmetic-TheIntegrator.15.mcz
 Collections-Atomic-MarcusDenker.10.mcz
 Collections-Native-TheIntegrator.11.mcz
@@ -105,7 +105,7 @@ Graphics-Resources-TheIntegrator.24.mcz
 Graphics-Shapes-TheIntegrator.2.mcz
 Graphics-Tests-TheIntegrator.72.mcz
 Graphics-Transformations-TheIntegrator.12.mcz
-GroupManager-TheIntegrator.72.mcz
+GroupManager-TheIntegrator.74.mcz
 GroupManagerUI-TheIntegrator.40.mcz
 Growl-TheIntegrator.37.mcz
 HelpSystem-Core-TheIntegrator.122.mcz
@@ -182,11 +182,11 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.92.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-TheIntegrator.911.mcz
+Nautilus-TheIntegrator.913.mcz
 Nautilus-Tests-TheIntegrator.12.mcz
 NautilusCommon-TheIntegrator.260.mcz
 NautilusRefactoring-TheIntegrator.216.mcz
-Network-Kernel-StephaneDucasse.112.mcz
+Network-Kernel-TheIntegrator.114.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.41.mcz
 Network-Protocols-MarcusDenker.101.mcz
@@ -205,7 +205,7 @@ OpalDecompiler-TheIntegrator.31.mcz
 OpalTools-TheIntegrator.16.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz
-Polymorph-Widgets-TheIntegrator.1215.mcz
+Polymorph-Widgets-TheIntegrator.1216.mcz
 PragmaCollector-TheIntegrator.3.mcz
 ProfStef-Core-TheIntegrator.57.mcz
 ProfStef-Help-SvenVanCaekenberghe.14.mcz
@@ -234,7 +234,7 @@ Ring-Monticello-MarcusDenker.29.mcz
 Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.83.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
-Rubric-EstebanLorenzano.192.mcz
+Rubric-YuriyTymchuk.193.mcz
 SUnit-Core-TheIntegrator.141.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Tests-TheIntegrator.48.mcz
@@ -294,7 +294,7 @@ Text-Edition-TheIntegrator.83.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.24.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.68.mcz
+Tool-Base-TheIntegrator.70.mcz
 Tool-Browser-Old-TheIntegrator.37.mcz
 Tool-Changes-TheIntegrator.22.mcz
 Tool-ConfigurationBrowser-TheIntegrator.17.mcz
@@ -338,11 +338,11 @@ Versionner-Tests-Resources-ChristopheDemarey.15.mcz
 Zinc-Character-Encoding-Core-SvenVanCaekenberghe.37.mcz
 Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.22.mcz
 Zinc-FileSystem-SvenVanCaekenberghe.10.mcz
-Zinc-HTTP-SvenVanCaekenberghe.423.mcz
-Zinc-Resource-Meta-Core-SvenVanCaekenberghe.48.mcz
+Zinc-HTTP-SvenVanCaekenberghe.427.mcz
+Zinc-Resource-Meta-Core-SvenVanCaekenberghe.52.mcz
 Zinc-Resource-Meta-FileSystem-TheIntegrator.8.mcz
-Zinc-Resource-Meta-Tests-SvenVanCaekenberghe.33.mcz
-Zinc-Tests-SvenVanCaekenberghe.223.mcz
+Zinc-Resource-Meta-Tests-monty.35.mcz
+Zinc-Tests-SvenVanCaekenberghe.225.mcz
 Zinc-Zodiac-SvenVanCaekenberghe.34.mcz
 Zodiac-Core-SvenVanCaekenberghe.38.mcz
 Zodiac-Extra-StephaneDucasse.10.mcz

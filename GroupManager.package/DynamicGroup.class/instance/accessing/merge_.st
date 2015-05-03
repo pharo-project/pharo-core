@@ -1,4 +1,4 @@
-or: aGroup
+merge: aGroup
 
 	| instance |
 	instance :=  self class
