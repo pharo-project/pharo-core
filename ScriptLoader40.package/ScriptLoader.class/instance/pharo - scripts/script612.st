@@ -1,4 +1,4 @@
-script611
+script612
 
 	^ 'AST-Core-TheIntegrator.283.mcz
 AST-Tests-Core-TheIntegrator.65.mcz
@@ -48,10 +48,10 @@ Deprecated40-TheIntegrator.48.mcz
 EmbeddedFreeType-TheIntegrator.15.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-MarcusDenker.32.mcz
-FileSystem-Core-TheIntegrator.171.mcz
+FileSystem-Core-TheIntegrator.175.mcz
 FileSystem-Disk-TheIntegrator.79.mcz
 FileSystem-Memory-TheIntegrator.57.mcz
-FileSystem-Tests-Core-TheIntegrator.88.mcz
+FileSystem-Tests-Core-TheIntegrator.92.mcz
 FileSystem-Tests-Disk-TheIntegrator.22.mcz
 FileSystem-Tests-Memory-TheIntegrator.8.mcz
 FileSystem-Zip-TheIntegrator.17.mcz
@@ -153,7 +153,7 @@ MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
 MonticelloGUI-TheIntegrator.343.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 Morphic-Base-TheIntegrator.441.mcz
-Morphic-Core-TheIntegrator.166.mcz
+Morphic-Core-TheIntegrator.170.mcz
 Morphic-Examples-TheIntegrator.40.mcz
 Morphic-Widgets-Basic-TheIntegrator.41.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
@@ -238,7 +238,7 @@ Rubric-AndreiChis.187.mcz
 SUnit-Core-TheIntegrator.138.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Tests-TheIntegrator.48.mcz
-SUnit-UI-TheIntegrator.110.mcz
+SUnit-UI-TheIntegrator.113.mcz
 SUnit-UITesting-TheIntegrator.21.mcz
 ScriptLoader-Tests-TheIntegrator.4.mcz
 Settings-Graphics-StephaneDucasse.28.mcz

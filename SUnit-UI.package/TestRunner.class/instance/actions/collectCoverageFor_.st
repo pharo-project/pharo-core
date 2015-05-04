@@ -7,8 +7,9 @@ collectCoverageFor: methods
 	
 	[ wrappers do: [ :each | each install ].
 	[ self runSuite: suite ] ensure: [ wrappers do: [ :each | each uninstall ] ] ] valueUnpreemptively.
-	wrappers := wrappers reject: #hasRun.
-	wrappers := wrappers collect: #reference.
+
+	wrappers := wrappers reject: [:each | each hasRun].
+	wrappers := wrappers collect: [:each | each reference].
 	wrappers isEmpty 
 		ifTrue:  [ UIManager default inform: 'Congratulations. Your tests cover all code under analysis.' ]
 		ifFalse: [ 
