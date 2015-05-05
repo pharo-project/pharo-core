@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '15417 TestRunner does not offer the RunCoverage functionality 
-	https://pharo.fogbugz.com/f/cases/15417
+ ^ '15423 Backport Pharo4: 15422 SHTextStyler>>#styleInBackgroundProcess: should not set the text if styling process was terminated
+	https://pharo.fogbugz.com/f/cases/15423
 
-15322 "Save As" does not properly save filenames with dots in them
-	https://pharo.fogbugz.com/f/cases/15322'
+15492 Backport Nautilus MergeGroups + sourceNodeForPC should use #methodNode
+	https://pharo.fogbugz.com/f/cases/15492'
