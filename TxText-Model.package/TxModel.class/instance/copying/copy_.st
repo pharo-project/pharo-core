@@ -14,9 +14,9 @@ copy: interval
 		
 		[ | copy | 
 			copy := span appendCopyTo: newText.
-			span == min span ifTrue: [ copyStartSpan := copy  ].
+			span == min span ifTrue: [ copyStartSpan := copy ].
 			span == max span ifTrue: [ copyEndSpan := copy  ].
-			span ~= max span ] whileTrue: [  span := span next ].
+			span ~= max span ] whileTrue: [ span := span next ].
 		 
 		"we cut the end first, to not invalidate the start position"
 		((copyEndSpan positionAt: max spanPosition) selectTo: newText endPosition) cut.

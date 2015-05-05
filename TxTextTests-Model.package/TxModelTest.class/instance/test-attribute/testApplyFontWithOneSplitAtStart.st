@@ -1,8 +1,9 @@
 testApplyFontWithOneSplitAtStart
 	"We can have only one or two split apply on a TextModel "
-	|color |
+	| color originalColor |
 	self newText: 'AAACCC'.
-	self assert: text spans size = 3.
+	originalColor := text defaultStyle get: TxBackColorAttribute.
+	self assert: text spans size equals: 3.
 	color := TxBackColorAttribute with: #foo.
 	
 	selection := text selection.
@@ -10,9 +11,10 @@ testApplyFontWithOneSplitAtStart
 	
 	selection applyAttribute:  color.
 
+	self assert: text spans size equals: 4.
 	
-	self assert: text spans size = 4.
-	cursor moveToStart.
-	self assert: ((cursor  span  style) get: TxBackColorAttribute) equals: #foo .
+	cursor moveToStart.	
+	self assert: (cursor span style get: TxBackColorAttribute) equals: #foo.
+
 	cursor moveToEnd.
-	self assert: ((cursor  span  style) get: TxBackColorAttribute) equals: (text getAttribute: TxBackColorAttribute).
+	self assert: (cursor span style get: TxBackColorAttribute) equals: originalColor.

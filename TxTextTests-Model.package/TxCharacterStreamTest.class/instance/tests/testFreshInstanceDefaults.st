@@ -2,7 +2,7 @@ testFreshInstanceDefaults
 
 	| text stream |
 	
-	text :=  'asdf' asTxModel.
+	text := 'asdf' asTxModel.
 	stream := text characterStream.
 	
 	self assert: stream text == text.

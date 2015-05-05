@@ -1,3 +1,3 @@
 asString 
-	^ String streamContents: [:str | self asStringOn: str ]
+	^ String streamContents: [ :str | self asStringOn: str ]
 	

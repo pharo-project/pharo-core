@@ -1,0 +1,2 @@
+text: aTxModel
+	text := aTxModel.

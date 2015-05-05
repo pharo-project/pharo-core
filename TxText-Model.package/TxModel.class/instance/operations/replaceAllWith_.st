@@ -1,4 +1,5 @@
-import: anotherTextModel 
+replaceAllWith: anotherTextModel	
+	"Insert a copy of the argument at my start"
 
 	| copy |
 	copy := anotherTextModel veryDeepCopy.

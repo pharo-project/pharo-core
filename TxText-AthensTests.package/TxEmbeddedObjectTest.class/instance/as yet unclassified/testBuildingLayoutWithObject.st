@@ -1,9 +1,7 @@
 testBuildingLayoutWithObject
-	| theObject   |
-	theObject := Object new.
-	(text startPosition moveRight:5) insertObject: theObject.
+	(text startPosition moveRight: 5) insertObject: Object new.
 
-	"null containter don't allows embedded objects"
+	"null containers don't allow embedded objects"
 	self should: [ view resetLayout ] raise: Error.
 
 	

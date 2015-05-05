@@ -3,4 +3,4 @@ delete: anInterval
 	Answer the insertion position pointing to the text where
 	interval was residing"
 	
-	^ anInterval minMaxDo: [:min :max | min deleteUpTo: max ]
+	^ anInterval minMaxDo: [ :min :max | min deleteUpTo: max ]

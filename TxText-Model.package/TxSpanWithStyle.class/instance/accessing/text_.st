@@ -1,4 +1,3 @@
-text: anObject
-	
-	text := anObject.
+text: aTxModel
+	super text: aTxModel.
 	style := text defaultStyle.

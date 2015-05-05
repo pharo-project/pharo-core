@@ -9,7 +9,7 @@ testApplyFontWithOneSplit
 	selection end moveToStart moveRight: 3.
 
 	selection applyAttribute: color.
-	self assert: text spans size = 4.
+	self assert: text spans size equals: 4.
 	cursor moveToStart.
 	self assert: (cursor span style get: TxBackColorAttribute) equals: #foo.
 	cursor moveToEnd.

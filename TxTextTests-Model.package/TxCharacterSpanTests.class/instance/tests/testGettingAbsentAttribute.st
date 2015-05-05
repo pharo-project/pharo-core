@@ -2,7 +2,8 @@ testGettingAbsentAttribute
 
 	| actual |
 
-	textModel := TxMockTextModel new.
+	textModel := TxModel new.
+	textModel defaultStyle at: TxFontAttribute put: #mockValue.
 	span text: textModel.
 	
 	actual := span getAttribute: TxFontAttribute.

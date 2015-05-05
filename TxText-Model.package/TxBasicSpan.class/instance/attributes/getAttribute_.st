@@ -1,3 +1,3 @@
 getAttribute: anAttributeClass
 
-	^self style get: anAttributeClass ifAbsent: [ text getAttribute: anAttributeClass ] 
+	^self style get: anAttributeClass ifAbsent: [ text defaultStyle get: anAttributeClass ] 
