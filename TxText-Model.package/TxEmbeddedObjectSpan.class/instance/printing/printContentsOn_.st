@@ -1,2 +1,2 @@
 printContentsOn: aStream 
-	aStream nextPut:$[; print: object; nextPut:$].
+	aStream nextPut: $[; print: object; nextPut: $].

@@ -1,5 +1,3 @@
 initialize
-	"This constant controls the margin between view's edge and cursor,
-	used when view is auto-scrolled to make current cursor position fully visible
-	and not clipped "
-	CursorEdgeMargin := 10.
+	
+	CursorEdgeMargin := 10. "This constant controls the margin between the view's edge and the cursor, used when the view is auto-scrolled to make the current cursor position fully visible and not clipped"

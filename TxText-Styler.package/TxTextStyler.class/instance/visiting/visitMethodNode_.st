@@ -3,8 +3,7 @@ visitMethodNode: aMethodNode
 	aMethodNode comments do: [ :comment |
 		self 
 			addStyle: #comment
-			from: comment first
-			to: comment last ].
+			forNode: comment ].
 		
 	aMethodNode arguments do: [ :argument |
 		self 

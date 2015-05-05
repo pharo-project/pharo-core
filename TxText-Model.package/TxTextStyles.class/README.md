@@ -1,1 +1,1 @@
-I am holding a list of styles used by particular text.There's always at least one style provided - the default one.Note, i holding the style list weakly, so the styles no longer used by text are automatically removed. And only default style always kept around.
+I manage styles for a text, providing at least a default.Implementation note: except for my default style, I hold the style list weakly, so they will be automatically removed if unused.

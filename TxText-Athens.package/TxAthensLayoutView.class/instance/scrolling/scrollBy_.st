@@ -8,12 +8,12 @@ scrollBy: aPoint
 
 	[y < 0] whileTrue: [ | h |
 		h := layout height.
-		layout extendOneLineUp 
-			ifFalse: [ y :=0 ]
-			ifTrue: [ y := y + (layout height - h) ].
+		y := layout extendOneLineUp 
+			ifFalse: [ 0 ]
+			ifTrue: [ y + (layout height - h) ].
 	 ].
 
-	aPoint y > 0 ifTrue:[
+	aPoint y > 0 ifTrue: [
 		self extendLayoutDown: y ].
 
 	"Don't scroll beyond layout"

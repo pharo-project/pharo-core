@@ -3,7 +3,7 @@ baseline101: spec
 
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
-		spec repository: 'http://www.smalltalkhub.com/mc/Pharo/TxText/main'.
+		spec repository: 'http://smalltalkhub.com/mc/Pharo/TxText/main'.
 		spec description: 'Adding Tool-TxWorkspace'.
 		spec 
 			package: 'TxText-Model';

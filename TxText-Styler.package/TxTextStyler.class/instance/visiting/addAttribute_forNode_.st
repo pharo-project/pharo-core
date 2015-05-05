@@ -1,7 +1,7 @@
 addAttribute: attr forNode: node
-	| start selection |
-	start := text startPosition moveRight: node start-1.
-	
-	selection := start selectTo: (start + (node stop - node start + 1)).
-	
-	selection applyAttribute:  attr.
+	| start selection startIndex nodeSize |
+	startIndex := node start - 1.
+	nodeSize := node stop - startIndex.
+	start := text startPosition + startIndex.
+	selection := start selectTo: start + nodeSize.
+	selection applyAttribute: attr.

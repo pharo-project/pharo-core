@@ -1,2 +1,2 @@
 printContentsOn: aStream
-	aStream cr
+	aStream nextPutAll: '#cr'

@@ -1,3 +1,2 @@
 printOn: aStream
-
 	 aStream nextPutAll: '<< ' 

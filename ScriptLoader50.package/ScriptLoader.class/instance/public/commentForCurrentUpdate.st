@@ -1,5 +1,3 @@
 commentForCurrentUpdate
- ^ '14923 TextAdornment: take account of current theme background color 
-	https://pharo.fogbugz.com/f/cases/14923
-
-'
+ ^ '15475 TxText Cleanup for Pharo 5.0 #2
+	https://pharo.fogbugz.com/f/cases/15475'

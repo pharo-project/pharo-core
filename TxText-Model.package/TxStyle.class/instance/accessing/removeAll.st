@@ -1,4 +1,4 @@
 removeAll
-	"Remove all attributes from receiver. Use with care"
+	"Use with care"
 	
 	attributes removeAll.

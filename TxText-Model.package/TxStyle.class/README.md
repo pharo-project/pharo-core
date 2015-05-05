@@ -1,1 +1,1 @@
-I hold a set of attributes assigned to single text span.I maintain a following invariant:  - there can be as many as one want attributes for span (including none), but only one per its kind (one forgeground color,one font, one background color etc).
+I organize attributes for a single text span.I maintain the following invariant: a span can have any number of attributes, but only one per kind (e.g. foreground color, font, etc).
