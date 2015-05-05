@@ -1,4 +1,4 @@
-script640
+script641
 
 	^ 'AST-Core-TheIntegrator.286.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -199,8 +199,8 @@ NonInteractiveTranscript-TheIntegrator.15.mcz
 OSWindow-Core-TheIntegrator.20.mcz
 OSWindow-SDL2-EstebanLorenzano.19.mcz
 OSWindow-VM-IgorStasenko.2.mcz
-OpalCompiler-Core-TheIntegrator.647.mcz
-OpalCompiler-Tests-TheIntegrator.284.mcz
+OpalCompiler-Core-TheIntegrator.649.mcz
+OpalCompiler-Tests-TheIntegrator.286.mcz
 OpalDecompiler-TheIntegrator.31.mcz
 OpalTools-TheIntegrator.16.mcz
 Pharo-Help-TheIntegrator.15.mcz
@@ -238,7 +238,7 @@ Rubric-YuriyTymchuk.193.mcz
 SUnit-Core-TheIntegrator.141.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Tests-TheIntegrator.48.mcz
-SUnit-UI-TheIntegrator.114.mcz
+SUnit-UI-TheIntegrator.117.mcz
 SUnit-UITesting-TheIntegrator.21.mcz
 ScriptLoader-Tests-TheIntegrator.4.mcz
 Settings-Graphics-StephaneDucasse.28.mcz
@@ -253,7 +253,7 @@ Slot-TheIntegrator.608.mcz
 Slot-Tests-TheIntegrator.39.mcz
 SmartSuggestions-TheIntegrator.150.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
-Spec-Core-TheIntegrator.388.mcz
+Spec-Core-TheIntegrator.391.mcz
 Spec-Debugger-TheIntegrator.236.mcz
 Spec-Examples-TheIntegrator.94.mcz
 Spec-Help-TheIntegrator.10.mcz
@@ -314,10 +314,10 @@ Tools-TheIntegrator.1503.mcz
 ToolsTest-MarcusDenker.denker.71.mcz
 Traits-TheIntegrator.761.mcz
 Transcript-StephaneDucasse.32.mcz
-TxText-Athens-SeanDeNigris.46.mcz
+TxText-Athens-SeanDeNigris.48.mcz
 TxText-AthensTests-IgorStasenko.9.mcz
-TxText-Model-SeanDeNigris.53.mcz
-TxText-Styler-SeanDeNigris.4.mcz
+TxText-Model-SeanDeNigris.57.mcz
+TxText-Styler-SeanDeNigris.5.mcz
 TxTextTests-Model-IgorStasenko.26.mcz
 UIManager-TheIntegrator.141.mcz
 Unicode-Initialization-MarcusDenker.10.mcz
