@@ -1,4 +1,4 @@
-script638
+script639
 
 	^ 'AST-Core-TheIntegrator.286.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -205,7 +205,7 @@ OpalDecompiler-TheIntegrator.31.mcz
 OpalTools-TheIntegrator.16.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz
-Polymorph-Widgets-TheIntegrator.1216.mcz
+Polymorph-Widgets-TheIntegrator.1218.mcz
 PragmaCollector-TheIntegrator.3.mcz
 ProfStef-Core-TheIntegrator.57.mcz
 ProfStef-Help-SvenVanCaekenberghe.14.mcz
