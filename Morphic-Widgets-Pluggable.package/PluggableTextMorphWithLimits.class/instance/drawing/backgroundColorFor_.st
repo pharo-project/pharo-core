@@ -1,15 +1,8 @@
 backgroundColorFor: rect
 	"Return the current fillStyle of the receiver."
 	| basicColor defaultColor |
-
 	defaultColor := self theme textEditorNormalFillStyleFor: self.
-	
-	"The next line is the minimal change to get Vistary Theme working for Case 
-	13112 during Pharo 3 Beta. Case 13121 is logged to clean this further in Pharo 4"
-	(defaultColor isKindOf: FillStyle) ifTrue: [ ^ defaultColor ].
-	
 	basicColor := self basicColor.
-	
 	self warningLimit negative ifTrue: [ ^ basicColor ].
 	
 	textMorph ifNotNil: [ | size |

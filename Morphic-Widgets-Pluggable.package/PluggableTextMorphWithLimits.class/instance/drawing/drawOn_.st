@@ -1,9 +1,7 @@
 drawOn: aCanvas
 
 	| rect stringColor size top bottom newRect |
-
 	super drawOn: aCanvas.
-	
 	size := self textSize.
 	rect := self buildRectFrom: self bounds.
 	top := self bounds top + self borderWidth.

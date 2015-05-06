@@ -1,3 +1,0 @@
-canLockChangeSelector
-
-	^ canLockChangeSelector

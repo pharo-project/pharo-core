@@ -1,3 +1,0 @@
-lockSelector
-
-	^ lockSelector

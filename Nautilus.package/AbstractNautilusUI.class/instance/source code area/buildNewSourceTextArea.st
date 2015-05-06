@@ -9,8 +9,6 @@ buildNewSourceTextArea
 				
 	sourceTextArea
 		askBeforeDiscardingEdits: true;
-		lockSelector: #lockTextArea:from:;
-		canLockChangeSelector: #canChangeLockFor:;
 		vResizing: #spaceFill;
 		hResizing: #spaceFill; 
 		font: StandardFonts codeFont;
@@ -19,11 +17,6 @@ buildNewSourceTextArea
 		warningLimit: self warningLimit.
 		
 	self setSourceCodeShorcutsTo: sourceTextArea.
-		
 	sourceTextAreaLimit := sourceTextArea warningLimit.
-	
 	sourceTextArea warningLimit: -1.
-
-	sourceTextAreas addFirst: (sourceTextArea -> nil).
-	
 	^ sourceTextArea 

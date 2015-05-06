@@ -1,2 +1,2 @@
 groupsAreVisible
-^ self showGroups
+	^ self showGroups

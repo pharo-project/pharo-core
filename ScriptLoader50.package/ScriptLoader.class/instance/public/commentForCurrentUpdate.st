@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '15119 Beautify HTTP Proxy Configuration
-	https://pharo.fogbugz.com/f/cases/15119
+ ^ '15431 add combination
+	https://pharo.fogbugz.com/f/cases/15431
 
-15483 Clean setFileTypeToObject
-	https://pharo.fogbugz.com/f/cases/15483'
+15199 remove multi methods edition from Nautilus
+	https://pharo.fogbugz.com/f/cases/15199'

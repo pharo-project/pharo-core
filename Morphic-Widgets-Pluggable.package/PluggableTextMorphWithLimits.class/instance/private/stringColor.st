@@ -1,6 +1,5 @@
 stringColor
 	| size |
-	
 	size := self textSize.
 	self warningLimit negative ifTrue: [ ^ self theme textColor ].
 	^ size >= self warningLimit

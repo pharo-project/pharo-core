@@ -1,3 +1,0 @@
-unlock
-
-	self locked: false
