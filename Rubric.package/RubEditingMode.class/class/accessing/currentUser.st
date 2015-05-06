@@ -1,2 +1,0 @@
-currentUser
-	^ self userManager currentUser

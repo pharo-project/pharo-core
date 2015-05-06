@@ -1,4 +1,4 @@
-script642
+script643
 
 	^ 'AST-Core-TheIntegrator.286.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -216,11 +216,11 @@ RPackage-Tests-TheIntegrator.167.mcz
 RecentSubmissions-StephaneDucasse.233.mcz
 Refactoring-Changes-TheIntegrator.65.mcz
 Refactoring-Core-TheIntegrator.270.mcz
-Refactoring-Critics-TheIntegrator.165.mcz
+Refactoring-Critics-TheIntegrator.169.mcz
 Refactoring-Environment-TheIntegrator.52.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.123.mcz
-Refactoring-Tests-Critics-MarcusDenker.25.mcz
+Refactoring-Tests-Critics-TheIntegrator.28.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
 Reflectivity-TheIntegrator.33.mcz
 Reflectivity-Tests-TheIntegrator.26.mcz
@@ -314,11 +314,11 @@ Tools-TheIntegrator.1503.mcz
 ToolsTest-MarcusDenker.denker.71.mcz
 Traits-TheIntegrator.761.mcz
 Transcript-StephaneDucasse.32.mcz
-TxText-Athens-SeanDeNigris.48.mcz
-TxText-AthensTests-IgorStasenko.9.mcz
-TxText-Model-SeanDeNigris.57.mcz
+TxText-Athens-SeanDeNigris.49.mcz
+TxText-AthensTests-SeanDeNigris.10.mcz
+TxText-Model-SeanDeNigris.59.mcz
 TxText-Styler-SeanDeNigris.5.mcz
-TxTextTests-Model-IgorStasenko.26.mcz
+TxTextTests-Model-SeanDeNigris.28.mcz
 UIManager-TheIntegrator.141.mcz
 Unicode-Initialization-MarcusDenker.10.mcz
 UpdateStreamer-Core-TheIntegrator.34.mcz

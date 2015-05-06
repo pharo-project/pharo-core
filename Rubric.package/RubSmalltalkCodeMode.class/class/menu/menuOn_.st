@@ -9,41 +9,35 @@ menuOn: aBuilder
 	<RubSmalltalkCodeMenu>
 	| uitheme |
 	uitheme := Smalltalk ui icons.
-	self currentUser canEvaluateCode
-		ifTrue: [ 
-			(aBuilder item: #'Do it' translated)
-				keyText: 'd';
-				selector: #doIt;
-				help: nil;
-				icon: uitheme smallDoItIcon.
-			(aBuilder item: #'Print it' translated)
-				keyText: 'p';
-				selector: #printIt;
-				help: nil;
-				icon: uitheme smallPrintItIcon ].
-	self currentUser canInspect
-		ifTrue: [ 
-			(aBuilder item: #'Inspect it' translated)
-				keyText: 'i';
-				selector: #inspectIt;
-				help: nil;
-				icon: uitheme smallInspectItIcon.
-			(aBuilder item: #'Basic Inspect it' translated)
-				keyText: 'I';
-				selector: #basicInspectIt;
-				help: nil;
-				icon: uitheme smallInspectItIcon ].
-	self currentUser canDebug
-		ifTrue: [ 
-			(aBuilder item: #'Debug it' translated)
-				keyText: 'D';
-				selector: #debugIt;
-				help: nil;
-				icon: uitheme smallDebugIcon.
-			(aBuilder item: #'Profile it' translated)
-				selector: #tallyIt;
-				icon: uitheme smallDebugIcon;
-				withSeparatorAfter ].
+	(aBuilder item: #'Do it' translated)
+		keyText: 'd';
+		selector: #doIt;
+		help: nil;
+		icon: uitheme smallDoItIcon.
+	(aBuilder item: #'Print it' translated)
+		keyText: 'p';
+		selector: #printIt;
+		help: nil;
+		icon: uitheme smallPrintItIcon.
+	(aBuilder item: #'Inspect it' translated)
+		keyText: 'i';
+		selector: #inspectIt;
+		help: nil;
+		icon: uitheme smallInspectItIcon.
+	(aBuilder item: #'Basic Inspect it' translated)
+		keyText: 'I';
+		selector: #basicInspectIt;
+		help: nil;
+		icon: uitheme smallInspectItIcon.
+	(aBuilder item: #'Debug it' translated)
+		keyText: 'D';
+		selector: #debugIt;
+		help: nil;
+		icon: uitheme smallDebugIcon.
+	(aBuilder item: #'Profile it' translated)
+		selector: #tallyIt;
+		icon: uitheme smallDebugIcon;
+		withSeparatorAfter.
 	(aBuilder item: #'Find...' translated)
 		keyText: 'f';
 		selector: #find;
@@ -54,8 +48,7 @@ menuOn: aBuilder
 		selector: #findAgain;
 		help: nil;
 		icon: uitheme smallFindIcon.
-	self currentUser canBrowse
-		ifTrue: [ self extendedSearchMenuOn: aBuilder ].
+	self extendedSearchMenuOn: aBuilder.
 	(aBuilder item: #'Do again' translated)
 		keyText: 'j';
 		selector: #again;
@@ -89,13 +82,11 @@ menuOn: aBuilder
 		withSeparatorAfter.
 	aBuilder model model
 		ifNotNil: [ 
-			self currentUser canEditCode
-				ifTrue: [ 
-					(aBuilder item: #Accept translated)
-						keyText: 's';
-						selector: #accept;
-						icon: uitheme smallOkIcon.
-					(aBuilder item: #Cancel translated)
-						keyText: 'l';
-						selector: #cancel;
-						icon: uitheme smallCancelIcon ] ]
+			(aBuilder item: #Accept translated)
+				keyText: 's';
+				selector: #accept;
+				icon: uitheme smallOkIcon.
+			(aBuilder item: #Cancel translated)
+				keyText: 'l';
+				selector: #cancel;
+				icon: uitheme smallCancelIcon ]
