@@ -4,7 +4,7 @@ compressFile
 
 	self readOnly; binary.
 	zipped := (self directory / self name, 'gz') writeStream.
-	zipped binary; setFileTypeToObject.
+	zipped binary.
 		"Type and Creator not to be text, so can be enclosed in an email"
 	zipped := GZipWriteStream on: zipped.
 	buffer := ByteArray new: 50000.

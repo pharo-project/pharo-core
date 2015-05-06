@@ -3,4 +3,4 @@ fileOut
 	treated as text by, eg, email attachment facilities"
 
 	super fileOut.
-	(FileStream oldFileNamed: self name , '.st') setFileTypeToObject; close
+	(FileStream oldFileNamed: self name , '.st') close

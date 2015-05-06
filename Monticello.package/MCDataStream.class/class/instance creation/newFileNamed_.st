@@ -6,8 +6,4 @@ newFileNamed: aString
 	rr close.
 "
 
-	| strm |
-	strm :=  self on: (FileStream newFileNamed: aString).		"will be binary"
-	strm byteStream setFileTypeToObject.
-		"Type and Creator not to be text, so can attach correctly to an email msg"
-	^ strm
+	^ self on: (FileStream newFileNamed: aString)

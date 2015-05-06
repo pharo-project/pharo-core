@@ -7,4 +7,3 @@ saveChangesInFileNamed: aString
 		ifFalse: [ 
 			changesFile deleteIfAbsent: [  ].
 			Smalltalk changesFile copyTo: changesFile ].
-	self setMacFileInfoOn: changesFile fullName

@@ -1,4 +1,4 @@
-script643
+script644
 
 	^ 'AST-Core-TheIntegrator.286.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -29,14 +29,14 @@ Collections-Atomic-MarcusDenker.10.mcz
 Collections-Native-TheIntegrator.11.mcz
 Collections-Sequenceable-TheIntegrator.196.mcz
 Collections-Stack-MarcusDenker.7.mcz
-Collections-Streams-TheIntegrator.170.mcz
+Collections-Streams-TheIntegrator.172.mcz
 Collections-Strings-TheIntegrator.354.mcz
 Collections-Support-MarcusDenker.57.mcz
 Collections-Unordered-TheIntegrator.207.mcz
 Collections-Weak-TheIntegrator.88.mcz
 CollectionsTests-TheIntegrator.691.mcz
 Compiler-TheIntegrator.582.mcz
-Compression-TheIntegrator.149.mcz
+Compression-TheIntegrator.151.mcz
 CompressionTests-TheIntegrator.29.mcz
 ConfigurationCommandLineHandler-Core-TheIntegrator.27.mcz
 ConfigurationCommandLineHandler-Tests-MarcusDenker.11.mcz
@@ -48,7 +48,7 @@ Deprecated50-TheIntegrator.7.mcz
 EmbeddedFreeType-TheIntegrator.15.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-MarcusDenker.32.mcz
-FileSystem-Core-TheIntegrator.176.mcz
+FileSystem-Core-TheIntegrator.178.mcz
 FileSystem-Disk-TheIntegrator.79.mcz
 FileSystem-Memory-TheIntegrator.57.mcz
 FileSystem-Tests-Core-TheIntegrator.93.mcz
@@ -98,7 +98,7 @@ Gofer-Tests-TheIntegrator.164.mcz
 Graphics-Canvas-TheIntegrator.2.mcz
 Graphics-Display Objects-TheIntegrator.159.mcz
 Graphics-Files-TheIntegrator.58.mcz
-Graphics-Fonts-EstebanLorenzano.96.mcz
+Graphics-Fonts-TheIntegrator.98.mcz
 Graphics-Fonts-Tests-EstebanLorenzano.3.mcz
 Graphics-Primitives-TheIntegrator.159.mcz
 Graphics-Resources-TheIntegrator.24.mcz
@@ -145,7 +145,7 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-TheIntegrator.1014.mcz
+Monticello-TheIntegrator.1016.mcz
 Monticello-Tests-TheIntegrator.6.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.182.mcz
@@ -186,7 +186,7 @@ Nautilus-TheIntegrator.913.mcz
 Nautilus-Tests-TheIntegrator.12.mcz
 NautilusCommon-TheIntegrator.260.mcz
 NautilusRefactoring-TheIntegrator.216.mcz
-Network-Kernel-TheIntegrator.114.mcz
+Network-Kernel-TheIntegrator.115.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.41.mcz
 Network-Protocols-MarcusDenker.101.mcz
@@ -234,7 +234,7 @@ Ring-Monticello-MarcusDenker.29.mcz
 Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.83.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
-Rubric-YuriyTymchuk.193.mcz
+Rubric-GuillermoPolito.194.mcz
 SUnit-Core-TheIntegrator.141.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Tests-TheIntegrator.48.mcz
@@ -285,7 +285,7 @@ System-Platforms-TheIntegrator.63.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-Settings-StephaneDucasse.309.mcz
 System-Sound-StephaneDucasse.18.mcz
-System-Support-TheIntegrator.1097.mcz
+System-Support-TheIntegrator.1100.mcz
 System-VMEvents-TheIntegrator.2.mcz
 Tests-TheIntegrator.724.mcz
 Text-Core-TheIntegrator.35.mcz
