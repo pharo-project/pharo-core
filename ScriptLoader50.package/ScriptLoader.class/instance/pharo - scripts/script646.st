@@ -1,4 +1,4 @@
-script645
+script646
 
 	^ 'AST-Core-TheIntegrator.286.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -71,7 +71,7 @@ GT-InspectorExtensions-Core-TorstenBergmann.145.mcz
 GT-Playground-TudorGirba.110.mcz
 GT-Spotter-StefanReichhart.307.mcz
 GT-Spotter-EventRecorder-JurajKubelka.89.mcz
-GT-SpotterExtensions-Core-TudorGirba.142.mcz
+GT-SpotterExtensions-Core-StephaneDucasse.144.mcz
 GT-Tests-Inspector-StefanReichhart.33.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
 GT-Tests-Spotter-TudorGirba.8.mcz
@@ -145,12 +145,12 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-TheIntegrator.1016.mcz
+Monticello-StephaneDucasse.1018.mcz
 Monticello-Tests-TheIntegrator.6.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.182.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
-MonticelloGUI-TheIntegrator.347.mcz
+MonticelloGUI-StephaneDucasse.349.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 Morphic-Base-TheIntegrator.447.mcz
 Morphic-Core-TheIntegrator.171.mcz
@@ -182,8 +182,8 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.92.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-TheIntegrator.916.mcz
-Nautilus-Tests-TheIntegrator.12.mcz
+Nautilus-StephaneDucasse.919.mcz
+Nautilus-Tests-StephaneDucasse.14.mcz
 NautilusCommon-TheIntegrator.260.mcz
 NautilusRefactoring-TheIntegrator.216.mcz
 Network-Kernel-TheIntegrator.115.mcz
@@ -212,7 +212,7 @@ ProfStef-Help-SvenVanCaekenberghe.14.mcz
 ProfStef-Tests-TheIntegrator.25.mcz
 RPackage-Core-TheIntegrator.385.mcz
 RPackage-SystemIntegration-TheIntegrator.234.mcz
-RPackage-Tests-TheIntegrator.167.mcz
+RPackage-Tests-StephaneDucasse.169.mcz
 RecentSubmissions-StephaneDucasse.233.mcz
 Refactoring-Changes-TheIntegrator.65.mcz
 Refactoring-Core-TheIntegrator.270.mcz
@@ -312,7 +312,7 @@ Tool-TxWorkspace-TorstenBergmann.5.mcz
 Tool-Workspace-TheIntegrator.24.mcz
 Tools-TheIntegrator.1503.mcz
 ToolsTest-MarcusDenker.denker.71.mcz
-Traits-TheIntegrator.761.mcz
+Traits-StephaneDucasse.763.mcz
 Transcript-StephaneDucasse.32.mcz
 TxText-Athens-SeanDeNigris.49.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

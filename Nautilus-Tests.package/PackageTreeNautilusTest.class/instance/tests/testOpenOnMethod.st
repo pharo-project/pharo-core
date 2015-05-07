@@ -1,3 +1,3 @@
 testOpenOnMethod
-	nautilus := PackageTreeNautilus openOnMethod: compiledMethod.
+	nautilus := Nautilus openOnMethod: compiledMethod.
 	self assertSelectedCompiledMethod.

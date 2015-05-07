@@ -1,3 +1,0 @@
-defaultUIClass
-
-	^ NautilusUI

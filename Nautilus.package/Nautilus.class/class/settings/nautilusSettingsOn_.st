@@ -10,6 +10,11 @@ nautilusSettingsOn: aBuilder
 		parent: #codeBrowsing; 
 		description: 'Settings related to the browser';
 		with: [
+			(aBuilder setting: #showGroupsOnTop)
+				parent: #Nautilus;
+				target: self;
+				label: 'Show groups on top ?';
+				description: 'If true, Nautilus will show groups on top of package pane'.
 			(aBuilder setting: #openOnGroups)
 				label: 'Open the browser on groups ?';
 				description: 'If true, Nautilus will show groups when opened' .

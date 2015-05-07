@@ -2,7 +2,7 @@ testPackagePatternStringRootPackageTag
 	lastValue := SharedPackageFilterPatternsHolder instance lastValue.
 	SharedPackageFilterPatternsHolder instance lastValue: ''.
 	self compiledMethod: (PackageManifest>>#=).
-	nautilus := PackageTreeNautilus openOnMethod: compiledMethod.
+	nautilus := Nautilus openOnMethod: compiledMethod.
 	self assertSelectedCompiledMethod.
 	nautilus packagePatternString: 'H'.
 	self assertSelectedCompiledMethod.

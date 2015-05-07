@@ -1,7 +1,7 @@
 testOpen
 	| allPackages filteredPackages |
 	SharedPackageFilterPatternsHolder instance lastValue: nil.
-	nautilus := PackageTreeNautilus open.
+	nautilus := Nautilus open.
 	allPackages := nautilus packages copy.  
 	allPackages := nautilus ui packageWidget packagesList nodeList copy.
 	nautilus packagePatternString: 'H'.
