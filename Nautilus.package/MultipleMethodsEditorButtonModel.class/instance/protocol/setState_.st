@@ -1,3 +1,0 @@
-setState: aBoolean 
-
-	state := aBoolean

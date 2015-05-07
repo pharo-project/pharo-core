@@ -1,3 +1,0 @@
-setDefault
-
-	current := editors first

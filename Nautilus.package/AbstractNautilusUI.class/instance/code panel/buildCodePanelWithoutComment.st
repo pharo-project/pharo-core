@@ -1,5 +1,5 @@
 buildCodePanelWithoutComment
 
 	sourceCodePanel 
-				addMorph: multipleMethodsEditor
-				fullFrame: LayoutFrame identity
+		addMorph: sourceTextArea
+		fullFrame: LayoutFrame identity

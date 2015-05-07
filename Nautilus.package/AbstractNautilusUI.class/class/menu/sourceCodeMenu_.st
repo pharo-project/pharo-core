@@ -16,9 +16,4 @@ sourceCodeMenu: aBuilder
 								arguments: each arguments;
 								order: (index*100)).
 				each icon ifNotNil: [:ic | items last icon: ic ]]].
-	(items last: 2) doWithIndex: [:e :i | e order: (9998 + i) ].
-	
-	(aBuilder item: #'Lock this text area')
-			selector: #lockTextArea;
-			target: aBuilder model;
-			order: 0.
+	(items last: 2) doWithIndex: [:e :i | e order: (9998 + i) ]. 

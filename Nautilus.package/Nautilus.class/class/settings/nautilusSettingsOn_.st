@@ -18,12 +18,6 @@ nautilusSettingsOn: aBuilder
 			(aBuilder setting: #openOnGroups)
 				label: 'Open the browser on groups ?';
 				description: 'If true, Nautilus will show groups when opened' .
-			(aBuilder pickOne: #commentPosition)
-				label: 'Position of the comment pane:';
-				target: self;
-				default: self defaultCommentPosition;
-				order: 1;
-				domainValues: self commentPositions.
 			(aBuilder setting: #sortHierarchically)
 				label: 'Show hierarchy by default ?';
 				description: 'If false, Nautilus will show a flat list of classes'.

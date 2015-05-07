@@ -14,6 +14,6 @@ selectedMethod: aMethod
 					acceptor := MethodDefinitionAcceptor model: self.
 					self giveFocusTo: methodWidget ].
 			self changed: #sourceCodeFrom:.
-			multipleMethodsEditor giveFocusToDefault.
+			"sourceTextArea giveFocusToDefault." self flag: #shouldcomeback.
 			^ true].
 	^false 

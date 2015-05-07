@@ -1,2 +1,0 @@
-target: anObject
-	target := anObject

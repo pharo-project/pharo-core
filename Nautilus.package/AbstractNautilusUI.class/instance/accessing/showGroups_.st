@@ -1,10 +1,7 @@
 showGroups: aBoolean
 
 	self okToChange ifFalse: [ ^ self ].
-	self flag:#todo.
-	"test if this is necessary"
-	"self setShortcuts: #NautilusClassShortcuts to: self classWidget."
-	
+
 	aBoolean 
 		ifTrue: [ 
 			self packageWidget enabled: true.
