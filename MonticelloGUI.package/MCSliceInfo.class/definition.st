@@ -1,5 +1,5 @@
 Model subclass: #MCSliceInfo
-	instanceVariableNames: 'issueNumber issueSummary includedPackages'
+	instanceVariableNames: 'includedPackages issue title'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'MonticelloGUI'

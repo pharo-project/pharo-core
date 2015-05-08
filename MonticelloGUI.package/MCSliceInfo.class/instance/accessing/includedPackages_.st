@@ -1,4 +1,4 @@
 includedPackages: aCollection
 
 	includedPackages := aCollection.
-	self changed: #okUnabled.
+	self changed: #includedPackages.

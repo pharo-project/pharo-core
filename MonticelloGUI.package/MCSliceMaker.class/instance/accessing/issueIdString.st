@@ -1,2 +1,0 @@
-issueIdString
-	^ self issueNumber asString 

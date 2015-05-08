@@ -1,3 +1,3 @@
 ok
 	self okToDoSlice: true.
-	window delete
+	self cleanUp

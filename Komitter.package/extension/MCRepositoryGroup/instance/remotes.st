@@ -1,3 +1,2 @@
 remotes
-
-	^ self repositories select: [ :each | each isCache not ]
+	^ self repositories reject: [ :each | each isCache ]

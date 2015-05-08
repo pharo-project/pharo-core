@@ -1,0 +1,2 @@
+number: anInteger
+	number := anInteger

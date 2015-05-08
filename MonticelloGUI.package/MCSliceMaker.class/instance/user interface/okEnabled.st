@@ -1,0 +1,2 @@
+okEnabled
+	^ self info canMakePackage

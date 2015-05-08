@@ -1,0 +1,2 @@
+removeAll
+	self allInstancesDo: #remove.

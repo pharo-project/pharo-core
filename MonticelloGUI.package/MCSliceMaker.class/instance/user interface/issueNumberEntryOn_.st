@@ -1,14 +1,15 @@
 issueNumberEntryOn: canvas
 	| issueNumberEntry |
 	issueNumberEntry := canvas
-				newAutoAcceptTextEntryFor: self info
+				newTextEntryFor: self info
 				get: #issueNumber
 				set: #issueNumber:
-				class: String
+				class: Integer
 				getEnabled: nil
-				help: 'Google project issue number' translated.
-	issueNumberEntry hResizing: #rigid.
+				help: 'Fogbugz issue number' translated.
 	issueNumberEntry
-		width: (StandardFonts defaultFont widthOfString: 'Issue number0').
-	issueNumberEntry ghostText: 'Issue number'.
+		hResizing: #rigid;
+		acceptOnFocusChange: true;
+		width: (StandardFonts defaultFont widthOfString: 'Issue number0');
+		ghostText: 'Issue number'.
 	^ issueNumberEntry

@@ -1,4 +1,4 @@
 repositoryGroup
-	^ showOnlyRepositoriesFromWorkingCopy
-		ifTrue:  [ workingCopy ifNil: [ MCRepositoryGroup default ] ifNotNil: [ workingCopy repositoryGroup ]  ]
-		ifFalse: [ MCRepositoryGroup default ] 
+	(showOnlyRepositoriesFromWorkingCopy and: [ workingCopy isNotNil ])
+		ifTrue: [ ^ workingCopy repositoryGroup ].
+	^ MCRepositoryGroup default

@@ -1,3 +1,2 @@
 issueNumber
-
-	^ issueNumber  ifNil: ['']
+	^ self issue number

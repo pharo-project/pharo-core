@@ -1,0 +1,2 @@
+hasUnacceptedEdits
+	^self sourceTextArea hasUnacceptedEdits

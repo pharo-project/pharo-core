@@ -1,0 +1,2 @@
+downloadIssueTitle
+	^ self issue downloadTitle

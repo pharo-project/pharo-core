@@ -1,3 +1,3 @@
 informFailedWith: anError
 	self inform: anError asString.
-	self downloadIssueSummaryFailed
+	self info title: '------'

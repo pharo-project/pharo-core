@@ -10,7 +10,7 @@ commitSlice: aSlice
 	view cancelled ifTrue: [ ^ self ].
 	
 	slice issueNumber: view issueNumberText.
-	slice issueSummary: view titleText.
+	slice title: view titleText.
 	
 	versions := self createVersionFor: aSlice.
 	
@@ -23,7 +23,7 @@ commitSlice: aSlice
 		each package ].
 	
 	slice includedPackages: packages.
-	workingCopy := slice makeKomitSlice.
+	workingCopy := slice makeSlice.
 	
 	name := workingCopy silentUniqueVersionNameIn: aSlice remote remote.
 	

@@ -1,3 +1,3 @@
 cancel
-	self noSlice.
-	window delete
+	self cleanUp.
+	self noSlice
