@@ -1,0 +1,2 @@
+selectedNodeHasMetalink
+	^ context selectedNode hasMetalink
