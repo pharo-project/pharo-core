@@ -1,5 +1,5 @@
 PluggableTextMorph subclass: #PluggableTextMorphWithLimits
-	instanceVariableNames: 'alertLimit locked warningLimit method lockIcon canLockChangeSelector lockSelector'
+	instanceVariableNames: 'alertLimit warningLimit method'
 	classVariableNames: 'DefaultWarningLimit'
 	poolDictionaries: ''
 	category: 'Morphic-Widgets-Pluggable'

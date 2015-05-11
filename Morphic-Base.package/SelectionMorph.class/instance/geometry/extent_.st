@@ -1,4 +1,4 @@
 extent: newExtent
 
 	super extent: newExtent.
-	self selectSubmorphsOf: self world
+	self selectSubmorphsOf: self pasteUpMorph 

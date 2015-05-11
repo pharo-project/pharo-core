@@ -1,6 +1,6 @@
 mix: color2 shades: thisMany 
 	"Return an array of thisMany colors from self to color2. Very useful for displaying color based on a variable in your program.  "
-	"Color showColors: (Color red mix: Color green shades: 12)"
+	"(Color red mix: Color green shades: 12) inspect"
 	| redInc greenInc blueInc out rr gg bb |
 	thisMany = 1 ifTrue: [ ^ Array with: color2 ].
 	redInc := (color2 red - self red) / (thisMany - 1).

@@ -1,4 +1,4 @@
-script650
+script651
 
 	^ 'AST-Core-TheIntegrator.286.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -27,7 +27,7 @@ Collections-Abstract-TheIntegrator.280.mcz
 Collections-Arithmetic-TheIntegrator.15.mcz
 Collections-Atomic-MarcusDenker.10.mcz
 Collections-Native-TheIntegrator.11.mcz
-Collections-Sequenceable-TheIntegrator.198.mcz
+Collections-Sequenceable-TheIntegrator.200.mcz
 Collections-Stack-MarcusDenker.7.mcz
 Collections-Streams-TheIntegrator.172.mcz
 Collections-Strings-TheIntegrator.354.mcz
@@ -100,7 +100,7 @@ Graphics-Display Objects-TheIntegrator.159.mcz
 Graphics-Files-TheIntegrator.58.mcz
 Graphics-Fonts-TheIntegrator.98.mcz
 Graphics-Fonts-Tests-EstebanLorenzano.3.mcz
-Graphics-Primitives-TheIntegrator.159.mcz
+Graphics-Primitives-TheIntegrator.161.mcz
 Graphics-Resources-TheIntegrator.24.mcz
 Graphics-Shapes-TheIntegrator.2.mcz
 Graphics-Tests-TheIntegrator.72.mcz
@@ -154,7 +154,7 @@ MonticelloFileTree-Core-TheIntegrator.182.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
 MonticelloGUI-TheIntegrator.352.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
-Morphic-Base-TheIntegrator.447.mcz
+Morphic-Base-TheIntegrator.449.mcz
 Morphic-Core-TheIntegrator.171.mcz
 Morphic-Examples-TheIntegrator.40.mcz
 Morphic-Widgets-Basic-TheIntegrator.41.mcz
@@ -162,7 +162,7 @@ Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
 Morphic-Widgets-Extra-TheIntegrator.22.mcz
 Morphic-Widgets-List-TheIntegrator.18.mcz
 Morphic-Widgets-NewList-TheIntegrator.5.mcz
-Morphic-Widgets-Pluggable-TheIntegrator.49.mcz
+Morphic-Widgets-Pluggable-TheIntegrator.51.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.23.mcz
 Morphic-Widgets-Tabs-TheIntegrator.14.mcz
 Morphic-Widgets-Taskbar-StephaneDucasse.7.mcz
