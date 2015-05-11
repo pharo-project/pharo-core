@@ -6,6 +6,6 @@ emitStore: aMethodBuilder
 		storeTemp: tempName;
 		popTop;
 		pushReceiver;
-		pushLiteral: self;
+		pushLiteralVariable: #slot -> self;
 		pushTemp: tempName;
 		send: #writeSlot:value:

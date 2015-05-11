@@ -1,2 +1,2 @@
 spotterActDefault
-	^ Nautilus openOnPackage: self
+	^ Smalltalk tools browser openOnPackage: self

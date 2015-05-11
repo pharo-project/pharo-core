@@ -5,6 +5,6 @@ emitStore: aMethodBuilder
 		addTemp: tempName;
 		storeTemp: tempName;
 		popTop;
-		pushLiteral: self;
+		pushLiteralVariable: #global -> self;
 		pushTemp: tempName;
 		send: #write:

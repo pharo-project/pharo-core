@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '15510 Missed some part of the original 15199 
-	https://pharo.fogbugz.com/f/cases/15510
+ ^ '15520 use pushLiteralVariable: instead of pushLiteral: for reflective slot access
+	https://pharo.fogbugz.com/f/cases/15520
 
-15518 association is misspelled in OrderedDictionary>>printElementsOn:
-	https://pharo.fogbugz.com/f/cases/15518
+15521 FreeType should not clean cache each time you save image
+	https://pharo.fogbugz.com/f/cases/15521
 
-15509 SelectionMorph>>extent: broken
-	https://pharo.fogbugz.com/f/cases/15509
-
-15474 Some Color method comments refere to Color>>showColors:
-	https://pharo.fogbugz.com/f/cases/15474'
+15470 Replace Announcer>>#on:send:to:s senders in GTSpotter
+	https://pharo.fogbugz.com/f/cases/15470'
