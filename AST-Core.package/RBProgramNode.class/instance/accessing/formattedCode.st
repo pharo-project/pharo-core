@@ -1,2 +1,2 @@
 formattedCode
-	^ self formatterClass new format: self
+	^ self formattedCodeWithMaxLineLength: 70

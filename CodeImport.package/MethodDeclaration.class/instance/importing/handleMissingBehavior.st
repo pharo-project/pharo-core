@@ -3,4 +3,4 @@ handleMissingBehavior
 	
 	(MissingClassError 
 		className: behaviorName asString)
-		signal
+		signal: 'Cannot install method in non-existent behavior ', behaviorName asString

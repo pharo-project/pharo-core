@@ -1,6 +1,6 @@
-script50043
+script50044
 
-	^ 'AST-Core-TheIntegrator.286.mcz
+	^ 'AST-Core-StephaneDucasse.292.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
 Announcements-Core-MarcusDenker.55.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -22,7 +22,7 @@ Athens-Text-NicolaiHess.16.mcz
 Balloon-TheIntegrator.120.mcz
 BalloonTests-MarcusDenker.3.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
-CodeImport-TheIntegrator.48.mcz
+CodeImport-StephaneDucasse.50.mcz
 Collections-Abstract-TheIntegrator.280.mcz
 Collections-Arithmetic-TheIntegrator.15.mcz
 Collections-Atomic-MarcusDenker.10.mcz
@@ -49,10 +49,10 @@ EmbeddedFreeType-TheIntegrator.15.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-MarcusDenker.32.mcz
 FileSystem-Core-TheIntegrator.178.mcz
-FileSystem-Disk-TheIntegrator.79.mcz
+FileSystem-Disk-StephaneDucasse.81.mcz
 FileSystem-Memory-TheIntegrator.57.mcz
 FileSystem-Tests-Core-TheIntegrator.93.mcz
-FileSystem-Tests-Disk-TheIntegrator.22.mcz
+FileSystem-Tests-Disk-StephaneDucasse.25.mcz
 FileSystem-Tests-Memory-TheIntegrator.8.mcz
 FileSystem-Zip-TheIntegrator.17.mcz
 Files-TheIntegrator.373.mcz
@@ -69,9 +69,9 @@ FuelTools-Debugger-StephaneDucasse.12.mcz
 GT-Inspector-SeanDeNigris.306.mcz
 GT-InspectorExtensions-Core-TorstenBergmann.145.mcz
 GT-Playground-TudorGirba.110.mcz
-GT-Spotter-StefanReichhart.307.mcz
+GT-Spotter-BernardoContreras.308.mcz
 GT-Spotter-EventRecorder-JurajKubelka.89.mcz
-GT-SpotterExtensions-Core-StephaneDucasse.144.mcz
+GT-SpotterExtensions-Core-AndreiChis.146.mcz
 GT-Tests-Inspector-StefanReichhart.33.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
 GT-Tests-Spotter-TudorGirba.8.mcz
@@ -201,8 +201,8 @@ NonInteractiveTranscript-TheIntegrator.15.mcz
 OSWindow-Core-TheIntegrator.20.mcz
 OSWindow-SDL2-EstebanLorenzano.19.mcz
 OSWindow-VM-IgorStasenko.2.mcz
-OpalCompiler-Core-TheIntegrator.649.mcz
-OpalCompiler-Tests-TheIntegrator.286.mcz
+OpalCompiler-Core-StephaneDucasse.651.mcz
+OpalCompiler-Tests-StephaneDucasse.289.mcz
 OpalDecompiler-TheIntegrator.31.mcz
 OpalTools-TheIntegrator.16.mcz
 Pharo-Help-TheIntegrator.15.mcz

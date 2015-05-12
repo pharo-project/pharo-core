@@ -1,0 +1,12 @@
+testEvalSimpleMethodWithError
+	| ast cm |
+	ast := OpalCompiler new
+				source: 'method 3+';
+				useFaultyForParsing: true;
+				parse.
+	
+	self assert: ast isMethod.
+	self assert: ast isFaulty.
+	
+	cm := ast compiledMethod.
+	self should: [cm valueWithReceiver: nil arguments: #()] raise: SyntaxErrorNotification
