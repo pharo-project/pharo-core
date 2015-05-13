@@ -1,0 +1,2 @@
+editSourceCode
+	self changed: #getText

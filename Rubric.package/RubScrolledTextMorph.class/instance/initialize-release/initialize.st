@@ -1,7 +1,7 @@
 initialize
 	super initialize.
 	self clipSubmorphs: true.
-	rulers := SortedCollection sortBlock: [ :a :b | b level < a level ].
+	rulers := SortedCollection sortBlock: [ :a :b | b level > a level ].
 	self addMorph: (scrollPane := self newScrollPane).
 	self announcer subscribe: RubConfigurationChange send: #whenConfigurationChanged: to: self.
 	self textArea announcer subscribe: RubCanceEditRequested send: #whenCanceEditRequested: to: self.
