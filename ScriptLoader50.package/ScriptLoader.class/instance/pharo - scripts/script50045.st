@@ -1,4 +1,4 @@
-script50044
+script50045
 
 	^ 'AST-Core-StephaneDucasse.292.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -48,7 +48,7 @@ Deprecated50-TheIntegrator.7.mcz
 EmbeddedFreeType-TheIntegrator.15.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-MarcusDenker.32.mcz
-FileSystem-Core-TheIntegrator.178.mcz
+FileSystem-Core-TheIntegrator.180.mcz
 FileSystem-Disk-StephaneDucasse.81.mcz
 FileSystem-Memory-TheIntegrator.57.mcz
 FileSystem-Tests-Core-TheIntegrator.93.mcz
@@ -114,10 +114,10 @@ HudsonBuildTools20-TheIntegrator.65.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-EstebanLorenzano.4.mcz
-Kernel-TheIntegrator.2019.mcz
+Kernel-TheIntegrator.2021.mcz
 KernelTests-TheIntegrator.774.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
-Keymapping-KeyCombinations-EstebanLorenzano.45.mcz
+Keymapping-KeyCombinations-TheIntegrator.48.mcz
 Keymapping-Pragmas-TheIntegrator.50.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.94.mcz
@@ -303,7 +303,7 @@ Tool-ConfigurationBrowser-TheIntegrator.17.mcz
 Tool-Diff-TheIntegrator.2.mcz
 Tool-FileList-TheIntegrator.34.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
-Tool-FilePackageBrowser-TheIntegrator.7.mcz
+Tool-FilePackageBrowser-TheIntegrator.9.mcz
 Tool-Finder-TheIntegrator.33.mcz
 Tool-ImageCleaner-TheIntegrator.10.mcz
 Tool-ProcessBrowser-StephaneDucasse.6.mcz
