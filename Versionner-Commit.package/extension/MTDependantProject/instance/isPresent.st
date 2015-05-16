@@ -1,0 +1,2 @@
+isPresent
+	^ self configurationClass notNil

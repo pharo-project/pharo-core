@@ -1,0 +1,2 @@
+projectName: anObject
+	projectName := anObject

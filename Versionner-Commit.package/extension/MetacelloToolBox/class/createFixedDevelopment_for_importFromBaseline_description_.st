@@ -7,7 +7,7 @@ createFixedDevelopment: developmentVersionString for: configurationBasename impo
 		createVersionMethod: 'version' , (self stripVersionStringForSelector: developmentVersionString) , ':'
 			inCategory: 'versions'
 			forVersion: developmentVersionString;
-		importFrom: baselineVersionString
+		fixedImportFrom: baselineVersionString
 			updateProjects: true
 			updatePackages: true
 			versionSpecsDo: [ :attribute :versionSpec | 

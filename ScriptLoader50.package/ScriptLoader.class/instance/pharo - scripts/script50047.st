@@ -1,4 +1,4 @@
-script50046
+script50047
 
 	^ 'AST-Core-StephaneDucasse.292.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -43,7 +43,7 @@ ConfigurationCommandLineHandler-Tests-MarcusDenker.11.mcz
 Debugger-Tests-TheIntegrator.2.mcz
 DebuggerActions-MarcusDenker.74.mcz
 DebuggerFilters-TheIntegrator.9.mcz
-DebuggerModel-TheIntegrator.106.mcz
+DebuggerModel-TheIntegrator.108.mcz
 Deprecated50-TheIntegrator.7.mcz
 EmbeddedFreeType-TheIntegrator.15.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
@@ -236,7 +236,7 @@ Ring-Monticello-MarcusDenker.29.mcz
 Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.83.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
-Rubric-GuillermoPolito.194.mcz
+Rubric-AlainPlantec.196.mcz
 SUnit-Core-TheIntegrator.141.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Tests-TheIntegrator.48.mcz
@@ -294,7 +294,7 @@ Text-Core-TheIntegrator.35.mcz
 Text-Diff-StephaneDucasse.4.mcz
 Text-Edition-TheIntegrator.83.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
-Text-Scanning-TheIntegrator.24.mcz
+Text-Scanning-TheIntegrator.26.mcz
 Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.70.mcz
 Tool-Browser-Old-TheIntegrator.37.mcz

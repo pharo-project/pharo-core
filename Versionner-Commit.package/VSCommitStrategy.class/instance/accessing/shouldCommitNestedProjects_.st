@@ -1,0 +1,2 @@
+shouldCommitNestedProjects: anObject
+	shouldCommitNestedProjects := anObject

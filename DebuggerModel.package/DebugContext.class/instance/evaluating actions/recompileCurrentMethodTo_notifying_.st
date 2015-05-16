@@ -1,16 +1,16 @@
 recompileCurrentMethodTo: aText notifying: aNotifyer
-	| classOfMethod selector |
+	| classOrTraitOfMethod selector |
 	
-	classOfMethod := self selectedClass.
-	selector := classOfMethod compiler parseSelector: aText.
-	(selector == self selectedMessageName or: [(self selectedMessageName isDoIt)
-		and: [selector numArgs = self selectedMessageName numArgs]]) ifFalse: [
-			self inform: 'can''t change selector'. ^ nil].
+	selector := self selectedClass compiler parseSelector: aText.
+	(self checkSelectorUnchanged: selector) ifFalse: [ ^ nil ].
+	classOrTraitOfMethod := self confirmOnTraitOverwrite: selector inClass: self selectedClass.
+	
+	classOrTraitOfMethod ifNil:[ ^ nil].
 		
-	selector := classOfMethod 
+	selector := classOrTraitOfMethod 
 		compile: aText 
 		classified: self selectedMessageCategoryName 
 		notifying: aNotifyer.
 	^ selector 
-		ifNotNil: [ classOfMethod compiledMethodAt: selector ]
+		ifNotNil: [ classOrTraitOfMethod compiledMethodAt: selector ]
 		

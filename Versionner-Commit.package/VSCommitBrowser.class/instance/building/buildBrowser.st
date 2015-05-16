@@ -33,6 +33,10 @@ buildBrowser
 						self actionBrowse: presenter selection ] 
 					on: $b 
 					entitled: 'Browse';
+				selectionAct: [ :presenter | 
+						self actionRemove: presenter selection.
+						presenter update ] 
+					entitled: 'Remove from this release/commit';
 				icon: [ :action | action icon ];
 				column: 'Name' evaluated: [ :action | ' ', (action displayString) ];
 				column: 'Version' evaluated: [ :action | action currentString ];

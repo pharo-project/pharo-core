@@ -1,2 +1,4 @@
 isDirty
-	^ self workingCopy modified
+	^ self workingCopy 
+		ifNotNil: [ :wc | wc modified ]
+		ifNil: [ false ]

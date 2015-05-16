@@ -1,5 +1,5 @@
 Object subclass: #VSCommitStrategy
-	instanceVariableNames: 'shouldCommitProjects shouldNestProjects shouldCommitDirtyPackages'
+	instanceVariableNames: 'shouldCommitProjects shouldCommitNestedProjects shouldNestProjects shouldCommitDirtyPackages'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Versionner-Commit'

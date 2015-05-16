@@ -3,6 +3,7 @@ visitDependantProject: aMTDependantProject
 	| class version |
 	
 	self commitStrategy shouldNestProjects ifFalse: [ ^ self ].
+	aMTDependantProject isPresent ifFalse: [ ^ self ].
 	(self projectVisited: aMTDependantProject) ifTrue: [ ^ self ].
 	
 	class := aMTDependantProject configurationClass.

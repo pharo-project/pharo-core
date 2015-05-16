@@ -1,2 +1,4 @@
 workingCopy
-	^ MCWorkingCopy allManagers detect: [ :each | each packageName = self name ]
+	^ MCWorkingCopy allManagers 
+		detect: [ :each | each packageName = self name ]
+		ifNone: [ nil ]

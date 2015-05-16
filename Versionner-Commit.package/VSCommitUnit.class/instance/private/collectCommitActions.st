@@ -1,6 +1,7 @@
 collectCommitActions
 	| developmentVersion project collector |
 	
+	(VSCommitProjectValidator basename: (self configurationClass name configurationBaseName)) validate.
 	developmentVersion := self configurationClass project version: #development. 
 	project := MTProject
 		newFromVersion: developmentVersion

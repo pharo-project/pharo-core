@@ -10,7 +10,10 @@ visitProject: aMTProject
 	aMTProject packages do: [ :each | each acceptVisitor: self ].
 	
 	(self commitStrategy shouldCommitProjects
-		and: [ projects notEmpty or: [ packages notEmpty ] ])
+		and: [ 
+			projects notEmpty 
+				or: [ packages notEmpty 
+				or: [ self commitStrategy shouldCommitNestedProjects ] ] ])
 		ifTrue: [ projects add: aMTProject ].
 
 	projects := 
