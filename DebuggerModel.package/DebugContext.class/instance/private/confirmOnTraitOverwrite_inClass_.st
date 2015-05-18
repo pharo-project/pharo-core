@@ -2,7 +2,7 @@ confirmOnTraitOverwrite: aSelector inClass: aClass
 	"test if method originates from a trait and let the user choose which one should be change"
 
 	| target method |
-	target := nil.
+	target := self selectedClass.
 	method := aClass methodNamed: aSelector.
 	method isFromTrait ifTrue: [ |trait|
 		trait := method origin.

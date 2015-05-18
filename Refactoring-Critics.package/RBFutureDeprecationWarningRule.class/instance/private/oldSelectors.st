@@ -1,2 +1,2 @@
 oldSelectors
-	^ self plannedSelectorRenames keys
+	^ self plannedSelectorRenames collect: #key

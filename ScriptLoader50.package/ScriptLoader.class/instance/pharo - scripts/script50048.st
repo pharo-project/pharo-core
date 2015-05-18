@@ -1,4 +1,4 @@
-script50047
+script50048
 
 	^ 'AST-Core-StephaneDucasse.292.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -43,7 +43,7 @@ ConfigurationCommandLineHandler-Tests-MarcusDenker.11.mcz
 Debugger-Tests-TheIntegrator.2.mcz
 DebuggerActions-MarcusDenker.74.mcz
 DebuggerFilters-TheIntegrator.9.mcz
-DebuggerModel-TheIntegrator.108.mcz
+DebuggerModel-TheIntegrator.110.mcz
 Deprecated50-TheIntegrator.7.mcz
 EmbeddedFreeType-TheIntegrator.15.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
@@ -54,7 +54,7 @@ FileSystem-Memory-TheIntegrator.57.mcz
 FileSystem-Tests-Core-TheIntegrator.93.mcz
 FileSystem-Tests-Disk-StephaneDucasse.25.mcz
 FileSystem-Tests-Memory-TheIntegrator.8.mcz
-FileSystem-Zip-TheIntegrator.17.mcz
+FileSystem-Zip-TheIntegrator.19.mcz
 Files-TheIntegrator.373.mcz
 FontChooser-TheIntegrator.7.mcz
 FontInfrastructure-TheIntegrator.8.mcz
@@ -97,7 +97,7 @@ Gofer-Core-TheIntegrator.228.mcz
 Gofer-Tests-TheIntegrator.164.mcz
 Graphics-Canvas-TheIntegrator.2.mcz
 Graphics-Display Objects-TheIntegrator.159.mcz
-Graphics-Files-TheIntegrator.58.mcz
+Graphics-Files-TheIntegrator.61.mcz
 Graphics-Fonts-TheIntegrator.98.mcz
 Graphics-Fonts-Tests-EstebanLorenzano.3.mcz
 Graphics-Primitives-TheIntegrator.161.mcz
@@ -114,7 +114,7 @@ HudsonBuildTools20-TheIntegrator.65.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-EstebanLorenzano.4.mcz
-Kernel-TheIntegrator.2021.mcz
+Kernel-TheIntegrator.2023.mcz
 KernelTests-TheIntegrator.774.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.48.mcz
@@ -154,7 +154,7 @@ MonticelloFileTree-Core-TheIntegrator.182.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
 MonticelloGUI-TheIntegrator.352.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
-Morphic-Base-TheIntegrator.449.mcz
+Morphic-Base-TheIntegrator.451.mcz
 Morphic-Core-TheIntegrator.171.mcz
 Morphic-Examples-TheIntegrator.40.mcz
 Morphic-Widgets-Basic-TheIntegrator.41.mcz
@@ -218,7 +218,7 @@ RPackage-Tests-StephaneDucasse.169.mcz
 RecentSubmissions-StephaneDucasse.233.mcz
 Refactoring-Changes-TheIntegrator.65.mcz
 Refactoring-Core-TheIntegrator.270.mcz
-Refactoring-Critics-TheIntegrator.169.mcz
+Refactoring-Critics-TheIntegrator.171.mcz
 Refactoring-Environment-TheIntegrator.52.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.123.mcz
@@ -321,13 +321,13 @@ TxText-AthensTests-SeanDeNigris.10.mcz
 TxText-Model-SeanDeNigris.59.mcz
 TxText-Styler-SeanDeNigris.5.mcz
 TxTextTests-Model-SeanDeNigris.28.mcz
-UIManager-TheIntegrator.141.mcz
+UIManager-TheIntegrator.143.mcz
 Unicode-Initialization-MarcusDenker.10.mcz
 UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz
 UserManager-Core-MarcusDenker.13.mcz
 UserManager-Tests-TheIntegrator.5.mcz
-Versionner-Commit-EstebanLorenzano.26.mcz
+Versionner-Commit-EstebanLorenzano.31.mcz
 Versionner-Core-Announcements-MarcusDenker.11.mcz
 Versionner-Core-Commands-EstebanLorenzano.58.mcz
 Versionner-Core-DependenciesModel-ChristopheDemarey.101.mcz

@@ -1,9 +1,10 @@
 checkMethod: aMethod 
 
-	self plannedSelectorRenames do: [ :mapping | 
-		| oldSelector newSelector |
-		oldSelector := mapping key.
-		newSelector := mapping value.
-		(aMethod sendsSelector: oldSelector)
-			 ifTrue: [ result addMethod: aMethod ] ]
+	self oldSelectors 
+		detect: [ :oldSelector | 
+			aMethod sendsSelector: oldSelector ]
+		ifFound: [ :oldSelector |
+			result
+				addMethod: aMethod;
+				addSearchString: oldSelector ]
 	
