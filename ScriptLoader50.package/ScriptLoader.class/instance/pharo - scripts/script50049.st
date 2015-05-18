@@ -1,4 +1,4 @@
-script50048
+script50049
 
 	^ 'AST-Core-StephaneDucasse.292.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -123,7 +123,7 @@ Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.94.mcz
 Keymapping-Tools-Spec-TheIntegrator.30.mcz
 Komitter-TheIntegrator.124.mcz
-Manifest-Core-TheIntegrator.215.mcz
+Manifest-Core-TheIntegrator.217.mcz
 Manifest-CriticBrowser-TheIntegrator.177.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.49.mcz
