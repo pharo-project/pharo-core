@@ -1,17 +1,10 @@
 removeCategory: aCategory inClass: aClass
-
+	| protocol |
 	aCategory ifNil: [ ^ false ].
 	self okToChange ifFalse: [ ^ false].
+	protocol := aClass organization protocolNamed: aCategory.
+	protocol isVirtualProtocol ifTrue:[^ false ].
+	protocol isEmpty ifTrue: [ aClass removeProtocol: aCategory. ^ true ].
 	
-	(aClass organization listAtCategoryNamed: aCategory) isEmpty
-		ifTrue: [
-			aClass removeProtocol: aCategory.
-			^ true ].
-		
-	(self confirm: 'Are you sure you want to
-remove the protocol ', aCategory,'
-and all its methods?')
-		ifTrue: [
-			aClass removeProtocol: aCategory.
-			^ true ].
-	^ false
+	^ self confirmAndRemoveCategory: aCategory inClass: aClass
+	

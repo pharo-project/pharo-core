@@ -1,4 +1,4 @@
-script50049
+script50050
 
 	^ 'AST-Core-StephaneDucasse.292.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -13,11 +13,11 @@ AsmJit-StackManagement-SvenVanCaekenberghe.11.mcz
 AsmJit-Tests-TheIntegrator.21.mcz
 AsmJit-x86-TheIntegrator.40.mcz
 Athens-Balloon-MarcusDenker.20.mcz
-Athens-Cairo-NicolaiHess.87.mcz
+Athens-Cairo-Nicolaihess.88.mcz
 Athens-CairoPools-NicolaiHess.14.mcz
-Athens-Core-SeanDeNigris.51.mcz
+Athens-Core-NicolaiHess.53.mcz
 Athens-Examples-TudorGirba.43.mcz
-Athens-Morphic-NicolaiHess.47.mcz
+Athens-Morphic-NicolaiHess.53.mcz
 Athens-Text-NicolaiHess.16.mcz
 Balloon-TheIntegrator.120.mcz
 BalloonTests-MarcusDenker.3.mcz
@@ -261,7 +261,7 @@ Spec-Examples-TheIntegrator.94.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.238.mcz
 Spec-Layout-TheIntegrator.67.mcz
-Spec-MorphicAdapters-TheIntegrator.207.mcz
+Spec-MorphicAdapters-TheIntegrator.209.mcz
 Spec-PolyWidgets-TheIntegrator.57.mcz
 Spec-Tests-StephaneDucasse.45.mcz
 Spec-Tools-StephaneDucasse.261.mcz
@@ -287,16 +287,16 @@ System-Platforms-TheIntegrator.63.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-Settings-StephaneDucasse.309.mcz
 System-Sound-StephaneDucasse.18.mcz
-System-Support-TheIntegrator.1100.mcz
+System-Support-TheIntegrator.1102.mcz
 System-VMEvents-TheIntegrator.2.mcz
-Tests-TheIntegrator.724.mcz
+Tests-TheIntegrator.726.mcz
 Text-Core-TheIntegrator.35.mcz
 Text-Diff-StephaneDucasse.4.mcz
 Text-Edition-TheIntegrator.83.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.26.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.70.mcz
+Tool-Base-TheIntegrator.72.mcz
 Tool-Browser-Old-TheIntegrator.37.mcz
 Tool-Changes-TheIntegrator.22.mcz
 Tool-ConfigurationBrowser-TheIntegrator.17.mcz

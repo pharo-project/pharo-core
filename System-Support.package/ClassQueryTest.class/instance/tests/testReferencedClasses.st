@@ -1,5 +1,5 @@
 testReferencedClasses
-	"self debug: #testReferencedClasses"
+	
 	| refs |
 	refs := Metaclass referencedClasses.
 	self assert: (refs includes: SystemAnnouncer).

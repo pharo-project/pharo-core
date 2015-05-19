@@ -1,0 +1,2 @@
+content
+	^ self nodeModel content

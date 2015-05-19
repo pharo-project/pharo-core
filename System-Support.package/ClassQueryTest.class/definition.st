@@ -2,4 +2,4 @@ TestCase subclass: #ClassQueryTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Tests-System'
+	category: 'System-Support-Tests'
