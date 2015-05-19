@@ -1,6 +1,7 @@
 v3VMHeader: literalsSize
 	| header primBits endPrimNumber |
-	self encoderClass isAlternateBytecodeSet ifTrue: [ self error: 'SistaV1 non supported in non spur VM'].
+	self encoderClass name = #EncoderForSistaV1 ifTrue: [ 
+		self error: 'SistaV1 non supported in non spur VM'].
 	endPrimNumber := self endPrimNumber.
 	primBits := endPrimNumber <= 16r1FF
 		ifTrue: [endPrimNumber]

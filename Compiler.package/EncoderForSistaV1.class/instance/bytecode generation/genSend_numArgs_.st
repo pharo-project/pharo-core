@@ -18,5 +18,5 @@ genSend: selectorLiteralIndex numArgs: nArgs
 		 extendedNArgs := extendedNArgs \\ 8].
 	"234		11101010	i i i i i j j j	Send Literal Selector #iiiii (+ Extend A * 32) with jjj (+ Extend B * 8) Arguments"
 	stream
-		nextPut: 238;
+		nextPut: 234;
 		nextPut: extendedNArgs + (extendedIndex * 8)
