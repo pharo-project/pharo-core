@@ -1,8 +1,7 @@
 parseErrorNode: aMessageString
-	| token sourceString |
+	| sourceString |
 	currentToken isError 
 		ifTrue: [ ^ RBParseErrorNode errorMessage: currentToken cause value: currentToken value at: currentToken start ].
 	sourceString := source copyFrom: self errorPosition to: source size.
-	token := RBValueToken value: sourceString start: self errorPosition.
 	^ RBParseErrorNode
-		errorMessage: aMessageString value: token value at: token start
+		errorMessage: aMessageString value: sourceString at: self errorPosition

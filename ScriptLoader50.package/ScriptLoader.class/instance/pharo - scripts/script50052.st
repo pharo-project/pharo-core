@@ -1,6 +1,6 @@
-script50051
+script50052
 
-	^ 'AST-Core-StephaneDucasse.292.mcz
+	^ 'AST-Core-TheIntegrator.294.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
 Announcements-Core-MarcusDenker.55.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -31,7 +31,7 @@ Collections-Sequenceable-TheIntegrator.200.mcz
 Collections-Stack-MarcusDenker.7.mcz
 Collections-Streams-TheIntegrator.172.mcz
 Collections-Strings-TheIntegrator.354.mcz
-Collections-Support-MarcusDenker.57.mcz
+Collections-Support-TheIntegrator.59.mcz
 Collections-Unordered-TheIntegrator.207.mcz
 Collections-Weak-TheIntegrator.88.mcz
 CollectionsTests-TheIntegrator.694.mcz
