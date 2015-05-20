@@ -23,5 +23,10 @@ addDebugFilterSessingsOn: aBuilder
 					(aBuilder setting: #filterKernelClasses)
 					label: 'Filter out kernel classes message sends';
 					target: stackWidgetClass.
+					
+					(aBuilder setting: #filterLinkSelectors)
+					label: 'Filter out link and breakpoint message sends';
+					target: stackWidgetClass.
+					
 					 ]
 				].

@@ -21,7 +21,7 @@ stepGlobal
 	].
 	deferredEndEntry ifTrue: 
 	[	deferredEndEntry := false.  	
-		accessSemaphore critical: 
+		self critical: 
 		[	stepContents := stream contents.
 			stream resetContents.	
 		].

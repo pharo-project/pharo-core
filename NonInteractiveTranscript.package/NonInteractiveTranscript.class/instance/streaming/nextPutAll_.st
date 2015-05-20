@@ -1,3 +1,4 @@
 nextPutAll: aCollection
-	^ self critical: [ 
-		self stream nextPutAll: aCollection ]
+	"Output string on the receiver, buffered, not yet shown"
+
+	self critical: [ self stream nextPutAll: aCollection ]

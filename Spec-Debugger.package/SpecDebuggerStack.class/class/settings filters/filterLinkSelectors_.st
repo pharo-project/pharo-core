@@ -1,0 +1,2 @@
+filterLinkSelectors: aBoolean
+	LinkSelectorFilterEnabled := aBoolean

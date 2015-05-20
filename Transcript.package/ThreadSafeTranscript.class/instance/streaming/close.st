@@ -1,4 +1,4 @@
 close
 	self flush.
-	accessSemaphore critical: [ stream close ]
+	self critical: [ stream close ]
 	

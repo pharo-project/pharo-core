@@ -8,6 +8,7 @@ enabledFilters
 		enabledFilters addLast: self kernelClassesFilter ].
 	self filterNilSelectors ifTrue: [ 
 		enabledFilters addLast: self nilMsgsFilter ].
-	
+	self filterLinkSelectors ifTrue: [ 
+	enabledFilters addLast: self linkMessagesFilter].	
 	^ enabledFilters
  
