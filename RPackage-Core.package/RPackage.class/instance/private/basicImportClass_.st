@@ -7,9 +7,9 @@ basicImportClass: aClass
 
 	| protocols |
 	self addClassDefinition: aClass.
-	aClass organization realCategories
+	aClass organization categories
 		do: [ :each | 
 			(self isYourClassExtension: each)
 				ifTrue: [ aClass organization renameCategory: each toBe: Protocol defaultName ] ].
-	protocols := aClass organization realCategories reject: [ :each | each first = $* ].
+	protocols := aClass organization categories reject: [ :each | each first = $* ].
 	protocols do: [ :each | self importProtocol: each forClass: aClass ]

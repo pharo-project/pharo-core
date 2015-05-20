@@ -6,7 +6,7 @@ categorizeMethods: aCollection of: aClass from: aCategory
 	aClass ifNil: [^self].	
 	labels := OrderedCollection new.
 	labels
-		addAll: aClass organization categories copy sort;
+		addAll: aClass organization allCategories copy sort;
 		add: Protocol unclassified.
 	lines := OrderedCollection new.
 	lines add: labels size -1.

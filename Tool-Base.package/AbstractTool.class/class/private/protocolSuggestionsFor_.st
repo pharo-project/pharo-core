@@ -3,7 +3,7 @@ protocolSuggestionsFor: aClass
 	| allExistingProtocols interestingProtocols reject |
 	reject := Set new.
 	reject
-		addAll: aClass organization categories;
+		addAll: aClass organization allCategories;
 		add: AllProtocol defaultName;
 		add: Protocol nullCategory;
 		add: Protocol unclassified.

@@ -1,3 +1,2 @@
 categories
-
-	^ self protocolOrganizer allProtocolsNames
+	^ self protocolOrganizer protocolsNames

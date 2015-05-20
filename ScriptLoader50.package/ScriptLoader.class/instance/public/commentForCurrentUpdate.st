@@ -1,12 +1,6 @@
 commentForCurrentUpdate
- ^ '15564 Association key:value:
-	https://pharo.fogbugz.com/f/cases/15564
+ ^ '15425 Make AST based syntax coloring the default
+	https://pharo.fogbugz.com/f/cases/15425
 
-15549 "References an abstract class" should check method
-	https://pharo.fogbugz.com/f/cases/15549
-
-15566 Direct dependency from CompiledMethod to the bytecode set
-	https://pharo.fogbugz.com/f/cases/15566
-
-15523 Code Cruft Rule Only Matches One-Liners
-	https://pharo.fogbugz.com/f/cases/15523'
+15563 ClassOrganization>>#categories should not answer "all" category 
+	https://pharo.fogbugz.com/f/cases/15563'

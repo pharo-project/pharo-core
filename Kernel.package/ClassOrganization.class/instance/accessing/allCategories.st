@@ -1,0 +1,2 @@
+allCategories
+	^ self protocolOrganizer allProtocolsNames 

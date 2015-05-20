@@ -1,4 +1,4 @@
-script50053
+script50054
 
 	^ 'AST-Core-TheIntegrator.294.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -114,8 +114,8 @@ HudsonBuildTools20-TheIntegrator.65.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-EstebanLorenzano.4.mcz
-Kernel-TheIntegrator.2030.mcz
-KernelTests-TheIntegrator.774.mcz
+Kernel-TheIntegrator.2031.mcz
+KernelTests-TheIntegrator.776.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.48.mcz
 Keymapping-Pragmas-TheIntegrator.50.mcz
@@ -148,7 +148,7 @@ Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
 Monticello-StephaneDucasse.1018.mcz
-Monticello-Tests-TheIntegrator.6.mcz
+Monticello-Tests-TheIntegrator.8.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.182.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
@@ -184,7 +184,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.92.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-StephaneDucasse.920.mcz
+Nautilus-TheIntegrator.922.mcz
 Nautilus-Tests-StephaneDucasse.14.mcz
 NautilusCommon-TheIntegrator.260.mcz
 NautilusRefactoring-TheIntegrator.216.mcz
@@ -212,14 +212,14 @@ PragmaCollector-TheIntegrator.3.mcz
 ProfStef-Core-TheIntegrator.57.mcz
 ProfStef-Help-SvenVanCaekenberghe.14.mcz
 ProfStef-Tests-TheIntegrator.25.mcz
-RPackage-Core-TheIntegrator.385.mcz
+RPackage-Core-TheIntegrator.387.mcz
 RPackage-SystemIntegration-TheIntegrator.234.mcz
 RPackage-Tests-StephaneDucasse.169.mcz
 RecentSubmissions-StephaneDucasse.233.mcz
 Refactoring-Changes-TheIntegrator.65.mcz
 Refactoring-Core-TheIntegrator.270.mcz
 Refactoring-Critics-TheIntegrator.173.mcz
-Refactoring-Environment-TheIntegrator.52.mcz
+Refactoring-Environment-TheIntegrator.54.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.123.mcz
 Refactoring-Tests-Critics-TheIntegrator.31.mcz
@@ -296,7 +296,7 @@ Text-Edition-TheIntegrator.83.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.26.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.72.mcz
+Tool-Base-TheIntegrator.74.mcz
 Tool-Browser-Old-TheIntegrator.37.mcz
 Tool-Changes-TheIntegrator.22.mcz
 Tool-ConfigurationBrowser-TheIntegrator.17.mcz
@@ -314,7 +314,7 @@ Tool-TxWorkspace-TorstenBergmann.5.mcz
 Tool-Workspace-TheIntegrator.24.mcz
 Tools-TheIntegrator.1503.mcz
 ToolsTest-MarcusDenker.denker.71.mcz
-Traits-StephaneDucasse.763.mcz
+Traits-TheIntegrator.765.mcz
 Transcript-StephaneDucasse.32.mcz
 TxText-Athens-SeanDeNigris.49.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

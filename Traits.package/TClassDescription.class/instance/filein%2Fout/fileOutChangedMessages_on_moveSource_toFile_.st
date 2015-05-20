@@ -5,7 +5,7 @@ fileOutChangedMessages: aSet on: aFileStream moveSource: moveSource toFile: file
 	Note when this method is called with moveSource=true, it is condensing the
 	.changes file, and should only write a preamble for every method."
 	| org |
-	(org := self organization) realCategories do: 
+	(org := self organization) categories do: 
 		[:cat | | sels | 
 		sels := (org listAtCategoryNamed: cat) select: [:sel | aSet includes: sel].
 		sels do:

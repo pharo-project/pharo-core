@@ -1,7 +1,7 @@
 removeClass: aClass
 	"Remove the class and all its methods from the receiver. If we have a protocol which looks like an extension of us, rename it to 'as yet unclassified' to avoid breaking things afterwards."
 
-	aClass organization realCategories
+	aClass organization categories
 		do: [ :each | 
 			(self isYourClassExtension: each)
 				ifTrue: [ aClass organization renameCategory: each toBe: Protocol defaultName ] ].

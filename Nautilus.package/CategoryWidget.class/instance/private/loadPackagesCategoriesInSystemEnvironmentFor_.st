@@ -1,3 +1,5 @@
 loadPackagesCategoriesInSystemEnvironmentFor: class
 	
-	^ self sortCategories: class protocols forClass: class
+	^ self 
+		sortCategories: class organization allProtocolsNames 
+		forClass: class

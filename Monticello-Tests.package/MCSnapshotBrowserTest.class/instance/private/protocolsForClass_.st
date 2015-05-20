@@ -1,2 +1,2 @@
 protocolsForClass: aClass
-	^ aClass organization categories
+	^ aClass organization allCategories

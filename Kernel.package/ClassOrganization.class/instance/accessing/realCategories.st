@@ -1,2 +1,0 @@
-realCategories
-	^ self protocolOrganizer protocolsNames 

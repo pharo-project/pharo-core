@@ -1,0 +1,2 @@
+allProtocols
+	^ self protocolOrganizer allProtocols
