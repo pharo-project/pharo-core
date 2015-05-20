@@ -1,4 +1,3 @@
 initialize
 	super initialize.
-	#('`@object clearHaltOnce' '`@object doOnlyOnce: `@object1' '`@object halt' '`@object halt: `@object1 onCount: `@object2' '`@object haltOnCount: `@object1' '`@object haltOnce' '`@object haltIf: `@object1' '`@object inspectOnCount: `@object1' '`@object inspectOnce' '`@object inspectUntilCount: `@object1' '`@object rearmOneShot' '`@object setHaltOnce' '`@object flag: `@object1' '`@object isThisEverCalled' '`@object isThisEverCalled: `@object1' '`@object logEntry' '`@object logExecution' '`@object logExit' '`@object needsWork' 'Transcript `@message: `@object1')
-		do: [ :matchingString | self rewriteRule replace: matchingString with: '' ]
+	self patterns do: [ :halt | self addRuleRemoving: halt ]

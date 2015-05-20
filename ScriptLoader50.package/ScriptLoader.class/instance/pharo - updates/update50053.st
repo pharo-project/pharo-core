@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '15564 Association key:value:
+update50053
+	"self new update50053"
+	self withUpdateLog: '15564 Association key:value:
 	https://pharo.fogbugz.com/f/cases/15564
 
 15549 "References an abstract class" should check method
@@ -9,4 +10,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/15566
 
 15523 Code Cruft Rule Only Matches One-Liners
-	https://pharo.fogbugz.com/f/cases/15523'
+	https://pharo.fogbugz.com/f/cases/15523'.
+	self loadTogether: self script50053 merge: false.
+	self flushCaches.

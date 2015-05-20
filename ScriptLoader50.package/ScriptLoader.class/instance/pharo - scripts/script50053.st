@@ -1,4 +1,4 @@
-script50052
+script50053
 
 	^ 'AST-Core-TheIntegrator.294.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -30,12 +30,12 @@ Collections-Native-TheIntegrator.11.mcz
 Collections-Sequenceable-TheIntegrator.200.mcz
 Collections-Stack-MarcusDenker.7.mcz
 Collections-Streams-TheIntegrator.172.mcz
-Collections-Strings-TheIntegrator.354.mcz
-Collections-Support-TheIntegrator.59.mcz
+Collections-Strings-TheIntegrator.356.mcz
+Collections-Support-TheIntegrator.60.mcz
 Collections-Unordered-TheIntegrator.207.mcz
 Collections-Weak-TheIntegrator.88.mcz
 CollectionsTests-TheIntegrator.694.mcz
-Compiler-TheIntegrator.591.mcz
+Compiler-TheIntegrator.593.mcz
 Compression-TheIntegrator.151.mcz
 CompressionTests-TheIntegrator.29.mcz
 ConfigurationCommandLineHandler-Core-TheIntegrator.27.mcz
@@ -114,7 +114,7 @@ HudsonBuildTools20-TheIntegrator.65.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-EstebanLorenzano.4.mcz
-Kernel-TheIntegrator.2028.mcz
+Kernel-TheIntegrator.2030.mcz
 KernelTests-TheIntegrator.774.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.48.mcz
@@ -218,11 +218,11 @@ RPackage-Tests-StephaneDucasse.169.mcz
 RecentSubmissions-StephaneDucasse.233.mcz
 Refactoring-Changes-TheIntegrator.65.mcz
 Refactoring-Core-TheIntegrator.270.mcz
-Refactoring-Critics-TheIntegrator.171.mcz
+Refactoring-Critics-TheIntegrator.173.mcz
 Refactoring-Environment-TheIntegrator.52.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.123.mcz
-Refactoring-Tests-Critics-TheIntegrator.28.mcz
+Refactoring-Tests-Critics-TheIntegrator.31.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
 Reflectivity-TheIntegrator.35.mcz
 Reflectivity-Tests-TheIntegrator.26.mcz

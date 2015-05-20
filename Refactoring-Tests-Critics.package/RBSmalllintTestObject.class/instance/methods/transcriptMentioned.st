@@ -1,0 +1,2 @@
+transcriptMentioned
+	Transcript show: 'message'

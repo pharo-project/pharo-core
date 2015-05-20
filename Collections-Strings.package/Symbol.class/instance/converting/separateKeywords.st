@@ -1,5 +1,5 @@
 separateKeywords
-	"#'foo:zork:'  separateKeywords -> 'foo:  zork:'"
+	"#'foo:zork:' separateKeywords -> 'foo:  zork:'"
 
 	self isKeyword
 		ifFalse: [ ^ self ].
