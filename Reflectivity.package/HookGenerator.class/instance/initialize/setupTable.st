@@ -9,9 +9,7 @@ setupTable
 	reification := OrderedCollection new.
 	reification addAll: link arguments. 
 	link metaObject isSymbol ifTrue: [reification add: link metaObject].
-	link condition ifNotNil: [reification addAll: link condition reifications].
-	link hasMoScope ifTrue: [reification add: link moScope].
-	
+	link condition ifNotNil: [reification addAll: (self reificationsFor: link condition)].
 	reification do: [:symbol |
 		(plugins at: symbol) optimize ifTrue: [ "don't bother to optimize one-bytecode reifications" 
 			((table includesKey: symbol) and: [(ptable includesKey: symbol) not]) ifTrue: [ | var |  "we already saw this one, use temp instead"

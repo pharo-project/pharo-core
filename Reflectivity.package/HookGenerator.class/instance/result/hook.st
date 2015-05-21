@@ -1,8 +1,15 @@
 hook
+	| receiver |
+	self setupTable.
+	
+	receiver := link metaObject isSymbol 
+		ifTrue: [ table at: link metaObject ]
+		ifFalse: [  RBLiteralNode value: link metaObject ].
+	
 	hook := RBMessageNode 
-		receiver: (RBLiteralNode value: link metaObject) 
+		receiver: receiver
 		selector: link selector 
-		arguments: (link arguments collect: #asLiteralNode).
+		arguments: (link arguments collect: [: each | table at: each]).
 		
 	link hasCondition ifTrue: [hook := self wrapCondition: hook].
 	link hasMetaLevel ifTrue: [hook := self wrapInContext: hook].		

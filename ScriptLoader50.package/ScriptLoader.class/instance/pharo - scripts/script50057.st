@@ -1,4 +1,4 @@
-script50056
+script50057
 
 	^ 'AST-Core-TheIntegrator.294.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -224,8 +224,8 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.123.mcz
 Refactoring-Tests-Critics-TheIntegrator.31.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.37.mcz
-Reflectivity-Tests-TheIntegrator.28.mcz
+Reflectivity-TheIntegrator.39.mcz
+Reflectivity-Tests-TheIntegrator.30.mcz
 Regex-Core-MarcusDenker.33.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
