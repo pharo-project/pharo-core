@@ -1,6 +1,6 @@
 wrapInContext: aNode
 	^RBMessageNode 
-		receiver: self asLiteralNode
+		receiver: link asLiteralNode
 		selector: #valueInContext:
 		arguments: {self encloseInBlock: aNode}
 				

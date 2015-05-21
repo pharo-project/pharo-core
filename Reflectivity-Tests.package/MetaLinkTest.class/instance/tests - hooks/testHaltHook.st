@@ -1,10 +1,11 @@
 testHaltHook
-	| link |
+	| link node |
 	link := MetaLink new 
 	metaObject: Halt;
 	selector: #now;
 	level: 0.
 	
-	self assert: link hook class = RBMessageNode.
-	self assert: link hook class = RBMessageNode.
-	self assert: link hook arguments first class = RBBlockNode.
+	node := (Object>>#halt) ast copy.
+	
+	self assert: (link hookOn: node) class = RBMessageNode.
+	self assert: (link hookOn: node) arguments first class = RBBlockNode.

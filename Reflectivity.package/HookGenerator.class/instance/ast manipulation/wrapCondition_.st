@@ -1,8 +1,8 @@
-wrapCondition: link
+wrapCondition: aLink
 	| linkBlock conditionExpression |
-	linkBlock := self encloseInBlock: link asSequenceNode.
+	linkBlock := self encloseInBlock: aLink asSequenceNode.
 	conditionExpression := RBMessageNode 
-			receiver: self condition asLiteralNode 
+			receiver: link condition asLiteralNode 
 			selector: #value.
 	^RBMessageNode
 				receiver: conditionExpression

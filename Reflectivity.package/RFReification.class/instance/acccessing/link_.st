@@ -1,0 +1,2 @@
+link: anUndefinedObject 
+	link := anUndefinedObject

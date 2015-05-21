@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '15572 Clean up OldClassBuilderAdapter more
-	https://pharo.fogbugz.com/f/cases/15572
+ ^ '15579 Clean up OldClassBuilderAdpater more
+	https://pharo.fogbugz.com/f/cases/15579
 
-15528 Add TTranscript and DailyNonInteractiveTranscript
-	https://pharo.fogbugz.com/f/cases/15528
+15574 Critics: Ignore whitespace changes when diffing transformations
+	https://pharo.fogbugz.com/f/cases/15574
 
-15569 add optional filter to debugger to filter out Reflectivity related contexts
-	https://pharo.fogbugz.com/f/cases/15569'
+15580 Move hook generation to HookGenerator class
+	https://pharo.fogbugz.com/f/cases/15580'

@@ -1,4 +1,4 @@
-script50055
+script50056
 
 	^ 'AST-Core-TheIntegrator.294.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -114,7 +114,7 @@ HudsonBuildTools20-TheIntegrator.65.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-EstebanLorenzano.4.mcz
-Kernel-TheIntegrator.2031.mcz
+Kernel-TheIntegrator.2033.mcz
 KernelTests-TheIntegrator.776.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.48.mcz
@@ -124,7 +124,7 @@ Keymapping-Tests-TheIntegrator.94.mcz
 Keymapping-Tools-Spec-TheIntegrator.30.mcz
 Komitter-TheIntegrator.124.mcz
 Manifest-Core-TheIntegrator.217.mcz
-Manifest-CriticBrowser-TheIntegrator.177.mcz
+Manifest-CriticBrowser-TheIntegrator.179.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.49.mcz
 MenuRegistration-TheIntegrator.74.mcz
@@ -201,7 +201,7 @@ NonInteractiveTranscript-TheIntegrator.17.mcz
 OSWindow-Core-TheIntegrator.20.mcz
 OSWindow-SDL2-EstebanLorenzano.19.mcz
 OSWindow-VM-IgorStasenko.2.mcz
-OpalCompiler-Core-TheIntegrator.655.mcz
+OpalCompiler-Core-TheIntegrator.657.mcz
 OpalCompiler-Tests-StephaneDucasse.289.mcz
 OpalDecompiler-TheIntegrator.31.mcz
 OpalTools-TheIntegrator.16.mcz
@@ -224,8 +224,8 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.123.mcz
 Refactoring-Tests-Critics-TheIntegrator.31.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.35.mcz
-Reflectivity-Tests-TheIntegrator.26.mcz
+Reflectivity-TheIntegrator.37.mcz
+Reflectivity-Tests-TheIntegrator.28.mcz
 Regex-Core-MarcusDenker.33.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -251,7 +251,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.247.mcz
 ShoutTests-TheIntegrator.27.mcz
-Slot-TheIntegrator.616.mcz
+Slot-TheIntegrator.618.mcz
 Slot-Tests-TheIntegrator.39.mcz
 SmartSuggestions-TheIntegrator.155.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
@@ -314,7 +314,7 @@ Tool-TxWorkspace-TorstenBergmann.5.mcz
 Tool-Workspace-TheIntegrator.24.mcz
 Tools-TheIntegrator.1503.mcz
 ToolsTest-MarcusDenker.denker.71.mcz
-Traits-TheIntegrator.767.mcz
+Traits-TheIntegrator.769.mcz
 Transcript-TheIntegrator.34.mcz
 TxText-Athens-SeanDeNigris.49.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
