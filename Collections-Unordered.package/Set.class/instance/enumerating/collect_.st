@@ -4,6 +4,6 @@ collect: aBlock
 	the new collection."
 
 	| newSet |
-	newSet := Set new: self size.
+	newSet := self species new: self size.
 	array do: [:each | each ifNotNil: [newSet add: (aBlock value: each enclosedSetElement)]].
 	^ newSet

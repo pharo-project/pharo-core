@@ -24,5 +24,5 @@ buildSourceCodeShortcutsOn: aBuilder
 	
 	(aBuilder shortcut: #format) 
 		category: #NautilusSourceCodeShortcuts
-		default: $u command shift
+		default: PharoShortcuts current formatCodeShortcut
 		do: [ :target | target refactor formatSourceCode ].

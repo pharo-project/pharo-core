@@ -5,6 +5,7 @@ testCollect
 	element := self element.
 	res := collection collect: [:each | element].
 	
+	self assert:(res class == self classToBeTested).
 	self assert: res size = 1.
 	
 	res do: [ :each|

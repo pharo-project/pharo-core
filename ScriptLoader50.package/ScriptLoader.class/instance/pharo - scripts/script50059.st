@@ -1,4 +1,4 @@
-script50058
+script50059
 
 	^ 'AST-Core-TheIntegrator.294.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -32,9 +32,9 @@ Collections-Stack-MarcusDenker.7.mcz
 Collections-Streams-TheIntegrator.172.mcz
 Collections-Strings-TheIntegrator.356.mcz
 Collections-Support-TheIntegrator.60.mcz
-Collections-Unordered-TheIntegrator.207.mcz
+Collections-Unordered-TheIntegrator.209.mcz
 Collections-Weak-TheIntegrator.88.mcz
-CollectionsTests-TheIntegrator.694.mcz
+CollectionsTests-TheIntegrator.696.mcz
 Compiler-TheIntegrator.593.mcz
 Compression-TheIntegrator.151.mcz
 CompressionTests-TheIntegrator.29.mcz
@@ -187,7 +187,7 @@ NativeBoost-Win32-TheIntegrator.57.mcz
 Nautilus-TheIntegrator.922.mcz
 Nautilus-Tests-StephaneDucasse.14.mcz
 NautilusCommon-TheIntegrator.260.mcz
-NautilusRefactoring-TheIntegrator.216.mcz
+NautilusRefactoring-TheIntegrator.218.mcz
 Network-Kernel-TheIntegrator.115.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.41.mcz
@@ -201,7 +201,7 @@ NonInteractiveTranscript-TheIntegrator.17.mcz
 OSWindow-Core-TheIntegrator.20.mcz
 OSWindow-SDL2-EstebanLorenzano.19.mcz
 OSWindow-VM-IgorStasenko.2.mcz
-OpalCompiler-Core-TheIntegrator.657.mcz
+OpalCompiler-Core-TheIntegrator.659.mcz
 OpalCompiler-Tests-StephaneDucasse.289.mcz
 OpalDecompiler-TheIntegrator.31.mcz
 OpalTools-TheIntegrator.16.mcz
@@ -316,11 +316,11 @@ Tools-TheIntegrator.1503.mcz
 ToolsTest-MarcusDenker.denker.71.mcz
 Traits-TheIntegrator.769.mcz
 Transcript-TheIntegrator.34.mcz
-TxText-Athens-SeanDeNigris.49.mcz
+TxText-Athens-SeanDeNigris.50.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
-TxText-Model-SeanDeNigris.59.mcz
-TxText-Styler-SeanDeNigris.5.mcz
-TxTextTests-Model-SeanDeNigris.28.mcz
+TxText-Model-SeanDeNigris.61.mcz
+TxText-Styler-SeanDeNigris.6.mcz
+TxTextTests-Model-SeanDeNigris.29.mcz
 UIManager-TheIntegrator.143.mcz
 Unicode-Initialization-MarcusDenker.10.mcz
 UpdateStreamer-Core-TheIntegrator.34.mcz
