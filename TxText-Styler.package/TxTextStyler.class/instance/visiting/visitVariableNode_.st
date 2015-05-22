@@ -12,7 +12,8 @@ visitVariableNode: aVariableNode
 	aVariableNode isGlobal ]) ifTrue: [  
 		link := TxActionAttribute new 
 			filter: [ :evt | evt commandKeyPressed and: [ evt  isMouseDown] ];
-		value: [ aVariableNode binding value instanceSide browse ].
+			value: [ aVariableNode binding value instanceSide browse ];
+			yourself.
 
 		self 
 			addAttribute: link

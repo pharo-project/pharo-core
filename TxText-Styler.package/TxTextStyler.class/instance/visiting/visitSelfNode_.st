@@ -9,7 +9,8 @@ visitSelfNode: aSelfNode
 		
 	link := TxActionAttribute new 
 		filter: [ :evt | evt commandKeyPressed and: [ evt  isMouseDown] ];
-		value: [ methodClass browse ].
+		value: [ methodClass browse ];
+		yourself.
 
 	self 
 		addAttribute: link

@@ -19,7 +19,7 @@ at: txPosition insert: aString
 				separator := text newLineSeparator replaceAttributes: insertAttributes.
 				position := position span insertLineSeparator: separator at: position ].
 
-		chars size > 0 ifTrue: [
+		chars ifNotEmpty: [
 			position := position span insertCharacters: chars at: position attributes: insertAttributes
 			]  
 	].

@@ -4,7 +4,7 @@ testApplyFontWithOneSplitAtEnd
 	self newText: 'AAACCC'.
 	originalColor := text defaultStyle get: TxBackColorAttribute.
 	color := TxBackColorAttribute with: #foo.
-	selection := text selection.
+	selection := text newSelection.
 	selection start moveRight: 3.
 
 	selection applyAttribute: color.

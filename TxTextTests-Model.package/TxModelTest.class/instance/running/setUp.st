@@ -2,5 +2,5 @@ setUp
 	super setUp.
 	
 	text := TxModel new.
-	selection  := text selection.
+	selection  := text newSelection.
 	cursor := selection end

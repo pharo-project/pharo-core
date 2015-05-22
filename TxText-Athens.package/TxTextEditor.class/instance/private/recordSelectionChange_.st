@@ -1,11 +1,13 @@
 recordSelectionChange: aBlock
 
-	| operation |
+	| operation announcement |
 	operation := (TxSelectionChangeOperation editor: self).
 	operation captureDuring: aBlock.
 	self addUndo: operation. 
-
-	"And last thing, announce that selection has changed"
 	
-	self announce: (TxSelectionChangedAnnouncement new editor: self; newSelection: selection).
+	announcement := TxSelectionChangedAnnouncement new
+		editor: self;
+		newSelection: selection;
+		yourself.
+	self announce: (announcement).
 	

@@ -1,0 +1,2 @@
+newSelection
+	^ TxSelection on: self

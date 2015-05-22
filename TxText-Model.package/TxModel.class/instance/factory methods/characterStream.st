@@ -1,0 +1,2 @@
+characterStream
+	^ TxCharacterStream on: self

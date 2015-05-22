@@ -1,2 +1,2 @@
-cursor
+newCursor
 	^ self startPosition asCursor

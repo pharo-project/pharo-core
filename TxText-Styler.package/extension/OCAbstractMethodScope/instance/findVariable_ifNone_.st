@@ -1,7 +1,9 @@
 findVariable: aBlock ifNone: aNotFound
 
 	(aBlock value: thisContextVar) ifTrue: [^ thisContextVar].
-	self allTemps do: [ :var | (aBlock value: var) ifTrue: [ ^ var ] ].
+	self allTemps
+		detect: [ :var | aBlock value: var ]
+		ifFound: [ :var | ^ var ].
 	
 	outerScope ifNotNil: [
 		^  outerScope findVariable: aBlock ifNone: aNotFound ]

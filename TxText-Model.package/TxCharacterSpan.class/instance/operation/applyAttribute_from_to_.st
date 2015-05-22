@@ -1,26 +1,18 @@
 applyAttribute: anAttribute from: startPosition to: endPosition
-	
 	| splitStart splitEnd secondSpan |
-	
-	(style includes: anAttribute) ifTrue: [ ^ self ].
-
-	startPosition span == self 
-		ifTrue: [ splitStart := startPosition spanPosition ]
-		ifFalse: [ splitStart := 0 ].
-	
-	endPosition span == self 
-		ifTrue: [ splitEnd := endPosition spanPosition ]
-		ifFalse: [ splitEnd := self size ].
-		
-	splitStart > 0 
-		ifTrue: [ secondSpan := self splitAt: splitStart ]
-		ifFalse: [ secondSpan := self ].
-	
-	splitEnd - splitStart < secondSpan size ifTrue: [
-		secondSpan splitAt: (splitEnd - splitStart).
-		"update the position"
-		endPosition position: secondSpan endPosition.
-	].
-	
-	secondSpan applyAttribute: anAttribute.
-	
+	(style includes: anAttribute)
+		ifTrue: [ ^ self ].
+	splitStart := startPosition span == self
+		ifTrue: [ startPosition spanPosition ]
+		ifFalse: [ 0 ].
+	splitEnd := endPosition span == self
+		ifTrue: [ endPosition spanPosition ]
+		ifFalse: [ self size ].
+	secondSpan := splitStart > 0
+		ifTrue: [ self splitAt: splitStart ]
+		ifFalse: [ self ].
+	splitEnd - splitStart < secondSpan size
+		ifTrue: [ 
+			secondSpan splitAt: splitEnd - splitStart.	"update the position"
+			endPosition position: secondSpan endPosition ].
+	secondSpan applyAttribute: anAttribute

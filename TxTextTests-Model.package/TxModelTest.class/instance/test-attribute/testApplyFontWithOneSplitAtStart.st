@@ -6,7 +6,7 @@ testApplyFontWithOneSplitAtStart
 	self assert: text spans size equals: 3.
 	color := TxBackColorAttribute with: #foo.
 	
-	selection := text selection.
+	selection := text newSelection.
 	selection end moveLeft: 3.
 	
 	selection applyAttribute:  color.

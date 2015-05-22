@@ -3,6 +3,8 @@ commandForPosition: aTextPosition ifOutside: aBlock
 	or evaluate block if receiver does not contains given position"
 	
 	(interval contains: aTextPosition) ifTrue: [ 
-			commands do: [ :each | (each contains: aTextPosition) ifTrue: [^ each ]]].
+			commands
+				detect: [ :each | each contains: aTextPosition ]
+				ifFound: [ :each | ^ each ] ].
 
 	^ aBlock value

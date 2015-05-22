@@ -1,2 +1,2 @@
 selectTo: aPosition
-	^ self text selection start: self; end: aPosition; yourself 
+	^ self text newSelection start: self; end: aPosition; yourself 

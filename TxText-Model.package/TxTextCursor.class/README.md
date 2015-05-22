@@ -1,1 +1,1 @@
-I hold a position and I'm polymorphic with its protocol.However, in contrast to a position, I am mutable, so that any navigation or insertion operations can affect my position in the text.
+I am just like a normal text position, but mutable.
