@@ -1,2 +1,2 @@
 execute
-	context tools browseAllCallsOnClass: context bindedSelectedClass.
+	SystemNavigation default browseAllCallsOnClass: context bindedSelectedClass.

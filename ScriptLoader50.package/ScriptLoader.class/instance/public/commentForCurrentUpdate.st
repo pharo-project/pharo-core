@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '14535  IdentitySet>>collect: answers a Set, not an IdentitySet.
-	https://pharo.fogbugz.com/f/cases/14535
+ ^ '10120 StrikeFont default writeAsStrike2On: strikefont.bin fails - DNU
+	https://pharo.fogbugz.com/f/cases/10120
 
-15584 TClassDescription>>#sourceCodeRefactoringMenu:  and NautilusRefactoring>>#buildSourceCodeShortcutsOn: need review
-	https://pharo.fogbugz.com/f/cases/15584'
+15587 clean up SugAbstractContext>>#tools
+	https://pharo.fogbugz.com/f/cases/15587
+
+15591 Generate Hooks for links with conditions that get arguments passed in
+	https://pharo.fogbugz.com/f/cases/15591'

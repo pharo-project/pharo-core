@@ -1,3 +1,3 @@
 execute
-	context tools browseAllImplementorsOf: context selectedMessageName
+	SystemNavigation default browseAllImplementorsOf: context selectedMessageName
 				

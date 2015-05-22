@@ -1,4 +1,4 @@
-script50059
+script50060
 
 	^ 'AST-Core-TheIntegrator.294.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -98,7 +98,7 @@ Gofer-Tests-TheIntegrator.164.mcz
 Graphics-Canvas-TheIntegrator.2.mcz
 Graphics-Display Objects-TheIntegrator.159.mcz
 Graphics-Files-TheIntegrator.61.mcz
-Graphics-Fonts-TheIntegrator.98.mcz
+Graphics-Fonts-TheIntegrator.100.mcz
 Graphics-Fonts-Tests-EstebanLorenzano.3.mcz
 Graphics-Primitives-TheIntegrator.161.mcz
 Graphics-Resources-TheIntegrator.24.mcz
@@ -224,8 +224,8 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.123.mcz
 Refactoring-Tests-Critics-TheIntegrator.31.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.39.mcz
-Reflectivity-Tests-TheIntegrator.30.mcz
+Reflectivity-TheIntegrator.42.mcz
+Reflectivity-Tests-TheIntegrator.32.mcz
 Regex-Core-MarcusDenker.33.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -253,7 +253,7 @@ Shout-TheIntegrator.247.mcz
 ShoutTests-TheIntegrator.27.mcz
 Slot-TheIntegrator.618.mcz
 Slot-Tests-TheIntegrator.39.mcz
-SmartSuggestions-TheIntegrator.155.mcz
+SmartSuggestions-TheIntegrator.157.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
 Spec-Core-TheIntegrator.391.mcz
 Spec-Debugger-TheIntegrator.238.mcz

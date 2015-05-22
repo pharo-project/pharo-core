@@ -1,2 +1,0 @@
-tools
-	^Smalltalk tools systemNavigation

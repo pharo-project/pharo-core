@@ -1,2 +1,2 @@
 execute
-	^context tools browseAllAccessesTo: context selectedVariableName from: context selectedClass
+	^SystemNavigation default browseAllAccessesTo: context selectedVariableName from: context selectedClass
