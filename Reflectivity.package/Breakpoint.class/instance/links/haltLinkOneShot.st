@@ -3,4 +3,4 @@ haltLinkOneShot
 	^ MetaLink new
 		metaObject: self;
 		selector: #haltNow;
-		level: 0 
+		level: level 

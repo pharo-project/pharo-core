@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '10120 StrikeFont default writeAsStrike2On: strikefont.bin fails - DNU
-	https://pharo.fogbugz.com/f/cases/10120
+ ^ '15331 Put back "debug test"
+	https://pharo.fogbugz.com/f/cases/15331
 
-15587 clean up SugAbstractContext>>#tools
-	https://pharo.fogbugz.com/f/cases/15587
-
-15591 Generate Hooks for links with conditions that get arguments passed in
-	https://pharo.fogbugz.com/f/cases/15591'
+15592 Clean up OldClassBuilderAdapter, next step
+	https://pharo.fogbugz.com/f/cases/15592'

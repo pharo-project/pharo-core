@@ -3,4 +3,4 @@ haltLink
 	^ MetaLink new
 		metaObject: self ;
 		selector: #halt ;
-		level: 0 
+		level: level 

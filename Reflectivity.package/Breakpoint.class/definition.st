@@ -1,5 +1,5 @@
 Object subclass: #Breakpoint
-	instanceVariableNames: 'condition link node'
+	instanceVariableNames: 'condition link node level'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Reflectivity-Breakpoints'
