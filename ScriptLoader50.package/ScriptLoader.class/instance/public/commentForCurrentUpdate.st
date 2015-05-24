@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '15331 Put back "debug test"
-	https://pharo.fogbugz.com/f/cases/15331
+ ^ '15594 Clean OldClassBuilderAdapter more...
+	https://pharo.fogbugz.com/f/cases/15594
 
-15592 Clean up OldClassBuilderAdapter, next step
-	https://pharo.fogbugz.com/f/cases/15592'
+15595 Add special semantic checker when compiling reflective methods
+	https://pharo.fogbugz.com/f/cases/15595
+
+15593 Fix SystemDictionary comment about behaviors
+	https://pharo.fogbugz.com/f/cases/15593'

@@ -4,8 +4,10 @@ variableWordSubclass: t instanceVariableNames: f
 	subclass of an existing class (the receiver) in which the subclass is to 
 	have indexable word-sized nonpointer variables."
 	^self classBuilder
-		superclass: self
-		variableWordSubclass: t
+		name: t
+		inEnvironment: self environment
+		subclassOf: self
+		type: #words
 		instanceVariableNames: f
 		classVariableNames: d
 		poolDictionaries: s
