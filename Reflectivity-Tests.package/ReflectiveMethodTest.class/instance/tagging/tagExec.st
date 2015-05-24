@@ -1,2 +1,2 @@
 tagExec
-	tag := #yes.
+	tag := #yes

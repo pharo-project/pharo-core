@@ -2,8 +2,8 @@ visitNode: aNode
 	methodBuilder mapToNode: aNode.
 	aNode hasMetalink
 		ifTrue: [ 
-			aNode beforeLinks do: [ :link | self visitNode: (link hookOn: aNode) ].
+			aNode beforeHooks do: [ :hook | self visitNode: hook ].
 			super visitNode: aNode.
-			aNode afterLinks do: [ :link | self visitNode: (link hookOn: aNode) ] ]
+			aNode afterHooks do: [ :hook | self visitNode: hook ] ]
 		ifFalse: [ super visitNode: aNode ].
 	methodBuilder popMap

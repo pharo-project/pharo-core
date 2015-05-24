@@ -1,0 +1,2 @@
+genForRBMessageNode
+	^self genForRBProgramNode 
