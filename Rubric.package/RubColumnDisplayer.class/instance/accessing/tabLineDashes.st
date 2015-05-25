@@ -1,2 +1,2 @@
 tabLineDashes
-	^ tabLineDashes ifNil: [tabLineDashes := {self tabLineWidth. self tabLineWidth}].
+	^ tabLineDashes ifNil: [tabLineDashes := {self tabLineWidth. self tabLineWidth*3}].

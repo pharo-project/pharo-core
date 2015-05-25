@@ -1,0 +1,2 @@
+getString
+	^ self getText asString

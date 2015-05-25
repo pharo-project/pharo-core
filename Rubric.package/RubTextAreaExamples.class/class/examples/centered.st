@@ -5,7 +5,6 @@ centered
 		beWrapped;
 		width: 300;
 		updateTextWith: 'AAAAAA' , Character cr asString , 'BBBB';
-		selectAll;
+		selectFrom: 5 to: 8;
 		centered;
-		deselect;
 		openInWorld

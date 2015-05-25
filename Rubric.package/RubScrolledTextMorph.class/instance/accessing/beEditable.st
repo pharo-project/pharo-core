@@ -1,0 +1,2 @@
+beEditable
+	self textArea beEditable 

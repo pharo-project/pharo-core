@@ -1,0 +1,2 @@
+lookupShiftMenu 
+	^ textArea lookupShiftMenu

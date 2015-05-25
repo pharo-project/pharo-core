@@ -1,2 +1,0 @@
-useSelectionBar: aBoolean
-	UseSelectionBar := aBoolean

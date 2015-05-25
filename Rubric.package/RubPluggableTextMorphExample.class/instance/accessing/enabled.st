@@ -1,2 +1,2 @@
 enabled
-	^ true
+	^ enabled ifNil: [ enabled := true ]

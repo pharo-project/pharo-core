@@ -1,2 +1,0 @@
-setSelection: aSelection
-	selection := aSelection

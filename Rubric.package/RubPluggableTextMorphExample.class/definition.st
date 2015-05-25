@@ -1,5 +1,5 @@
 Model subclass: #RubPluggableTextMorphExample
-	instanceVariableNames: 'selection autoAccept scrollValue announcer primarySelectionInterval classIsMeta selectedClassName selectedMethodName'
+	instanceVariableNames: 'selection scrollValue announcer classIsMeta selectedClassName selectedMethodName enabled'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Rubric-Editing-Widgets-Examples'

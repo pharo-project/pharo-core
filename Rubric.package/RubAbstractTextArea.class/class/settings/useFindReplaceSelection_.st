@@ -1,2 +1,0 @@
-useFindReplaceSelection: aBoolean
-	UseFindReplaceSelection := aBoolean

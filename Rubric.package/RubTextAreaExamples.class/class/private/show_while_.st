@@ -2,15 +2,13 @@ show: aMessage while: aBlock
 	| m |
 	m := RubEditingArea new
 		backgroundColor: Color black;
-		textColor: Color white;
 		beReadOnly;
 		beWrapped;
 		width: 300;
 		setTextWith: aMessage;
-		fontPointSize: 18;
-		selectAll;
+		font: (LogicalFont familyName: 'Arial' pointSize: 20);
+		textColor: Color white;
 		centered;
-		deselect;
 		yourself.
 	m
 		openInWorld;

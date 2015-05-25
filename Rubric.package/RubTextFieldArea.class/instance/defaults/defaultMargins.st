@@ -1,2 +1,2 @@
 defaultMargins
-	^ 2 @ 2 corner: 2 @ 4
+	^ 2 @ 0 corner: 2 @ 1

@@ -12,7 +12,7 @@ computeFindReplaceShapesFrom: topLeft to: bottomRight
 				vertices: (self verticesFrom: r first to: r last + 1)
 				firstIndex: r first
 				lastIndex: r last + 1
-				color: (RubTextSelectionColor findReplaceSelection backgroundColor alpha: 0.05)
+				color: (RubTextSelectionColor findReplaceSelection backgroundColor alpha: 0.1)
 				borderWidth: 2
-				borderColor: RubTextSelectionColor findReplaceSelection backgroundColor].
+				borderColor: RubTextSelectionColor findReplaceSelection backgroundColor muchDarker].
 	^ findReplaceShapes

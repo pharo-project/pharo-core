@@ -1,7 +1,11 @@
 open
-	| window editor |
+	| window editor clsMorph mthMorph |
 	window := (StandardWindow labelled: 'Method editor with shout') model: self.
-	editor := self newScrolledText.
+	editor := self newScrolledTextMorph.
+	clsMorph := self classSelectorMorph.
+	clsMorph announcer subscribe: RubTextChanged send: #whenClassNameChanged: to: self.
+	mthMorph := self methodSelectorMorph.
+	mthMorph announcer subscribe: RubTextChanged send: #whenMethodNameChanged: to: self.
 	editor
 		hResizing: #spaceFill;
 		vResizing: #spaceFill.
@@ -11,10 +15,10 @@ open
 				newColumn:
 					{(window
 						newRow:
-							{(self classSelector).
-							(self metaSwitch).
-							(self methodSelector).
-							(self editButton )}).
+							{(clsMorph).
+							(self metaSwitchMorph).
+							(mthMorph).
+							(self editButtonMorph )}).
 					editor})
 		fullFrame: LayoutFrame identity.
 	^ window openInWorld

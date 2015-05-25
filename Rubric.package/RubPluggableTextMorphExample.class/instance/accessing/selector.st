@@ -1,2 +1,2 @@
 selector
-	^ self selectedMethodName asSymbol 
+	^ self selectedMethodName getString asSymbol 

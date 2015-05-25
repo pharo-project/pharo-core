@@ -1,5 +1,5 @@
 Morph subclass: #RubAbstractTextArea
 	instanceVariableNames: 'model paragraph editor scrollPane editingState textStyle textColor margins readOnly menuAllowed editingMode cursor segments getMenuPolicy'
-	classVariableNames: 'BackgroundColor BackgroundUpdating CaseSensitiveFinds DefaultTextColor EditorFont LineNumbersBackgroundColor LineNumbersFont LineNumbersTextColor UseFindReplaceSelection UseSecondarySelection UseSelectionBar WalkAlongDisplayedLine'
+	classVariableNames: 'BackgroundColor CaseSensitiveFinds DefaultTextColor EditorFont LineNumbersBackgroundColor LineNumbersFont LineNumbersTextColor WalkAlongDisplayedLine'
 	poolDictionaries: ''
 	category: 'Rubric-Editing-Core'

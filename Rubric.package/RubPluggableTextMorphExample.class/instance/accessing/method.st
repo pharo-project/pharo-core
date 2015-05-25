@@ -1,2 +1,2 @@
 method
-	^ [ self selectedClass >> (self selectedMethodName ifNil: [ ^nil ]) asSymbol ] on: Error do: [  ]
+	^ [ self selectedClass >> (self selectedMethodName getString ifEmpty: [ ^nil ]) asSymbol ] on: Error do: [  ]

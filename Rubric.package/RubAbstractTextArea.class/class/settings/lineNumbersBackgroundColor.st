@@ -1,2 +1,2 @@
 lineNumbersBackgroundColor
-	^ LineNumbersBackgroundColor ifNil: [ LineNumbersBackgroundColor := Color lightGray veryMuchLighter] 
+	^ LineNumbersBackgroundColor ifNil: [ LineNumbersBackgroundColor := Smalltalk ui theme backgroundColor darker] 

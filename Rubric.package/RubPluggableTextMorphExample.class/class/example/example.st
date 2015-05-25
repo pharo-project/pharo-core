@@ -1,5 +1,3 @@
 example
 	<example>
-	| stuff |
-	stuff := RubPluggableTextMorphExample new.
-	stuff open
+	RubPluggableTextMorphExample new open

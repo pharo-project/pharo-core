@@ -1,0 +1,2 @@
+menuProvider: anObject
+	menuProvider := anObject

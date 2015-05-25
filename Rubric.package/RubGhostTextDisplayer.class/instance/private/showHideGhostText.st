@@ -3,7 +3,9 @@ showHideGhostText
 		ifNotEmpty: [ self removeAllMorphs ]
 		ifEmpty: [ 
 			ghostText unlock.
-			ghostText centered.
-			ghostText extent: self extent.
+			ghostText width: self width.
 			self addMorphCentered: ghostText.
-			ghostText lock]
+			self textArea hasKeyboardFocus
+				ifTrue: [ ghostText leftFlush ]
+				ifFalse: [ ghostText centered ].
+			ghostText lock ]

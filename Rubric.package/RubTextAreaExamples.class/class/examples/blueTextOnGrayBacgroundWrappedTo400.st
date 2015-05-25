@@ -7,4 +7,5 @@ blueTextOnGrayBacgroundWrappedTo400
 		updateTextWith: self smallLoremIpsum;
 		backgroundColor: Color lightGray;
 		textColor: Color blue;
+		font: (LogicalFont familyName: 'Source Sans Pro' pointSize: 20);
 		openInWorld

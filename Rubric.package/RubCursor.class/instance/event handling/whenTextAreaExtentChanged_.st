@@ -1,0 +1,2 @@
+whenTextAreaExtentChanged: anAnnouncement
+	self updateBounds

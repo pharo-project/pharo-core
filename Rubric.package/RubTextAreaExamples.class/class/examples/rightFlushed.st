@@ -5,7 +5,5 @@ rightFlushed
 		beWrapped;
 		width: 300;
 		updateTextWith: 'AAAAAA' , Character cr asString , 'BBBB';
-		selectAll;
 		rightFlush;
-		deselect;
 		openInWorld

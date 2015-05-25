@@ -1,0 +1,2 @@
+whenMethodNameChanged: anAnnouncement
+	self checkMethodName

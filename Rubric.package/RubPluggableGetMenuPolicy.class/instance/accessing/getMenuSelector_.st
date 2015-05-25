@@ -1,0 +1,2 @@
+getMenuSelector: aSymbol
+	getMenuSelector := aSymbol
