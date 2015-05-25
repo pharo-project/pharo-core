@@ -1,0 +1,2 @@
+genForRBMessageNode
+	^node selector asLiteralNode

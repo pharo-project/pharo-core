@@ -1,0 +1,2 @@
+genForRBVariableNode
+	^self genForRBProgramNode

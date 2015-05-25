@@ -1,0 +1,2 @@
+genForRBCascadeNode
+	^self genForRBProgramNode 

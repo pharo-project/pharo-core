@@ -10,12 +10,16 @@ variableByteSubclass: t instanceVariableNames: f
 				   and: [oldClassOrNil typeOfClass == #compiledMethod])
 					ifTrue: [#compiledMethod]
 					ifFalse: [#bytes].
-	^self classBuilder 
-		name: t
-		inEnvironment: self  environment
-		subclassOf: self
-		type: actualType
-		instanceVariableNames: f
-		classVariableNames: d
-		poolDictionaries: s
-		category: cat
+					
+	^ PharoClassInstaller make: [ :builder |
+		builder
+			superclass: self;
+			name: t;
+			layoutClass: (ObjectLayout layoutForType: actualType);
+			slots: f asSlotCollection;
+			sharedVariablesFromString: d;
+			sharedPools: s;
+			category: cat;
+			environment: self  environment;
+			copyTraitCompositionFromExistingClass;
+			copyClassSlotsFromExistingClass ].

@@ -1,0 +1,2 @@
+genForRBSequenceNode
+	^self genForRBProgramNode

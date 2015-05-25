@@ -1,0 +1,2 @@
+genForRBAssignmentNode
+	^node variable

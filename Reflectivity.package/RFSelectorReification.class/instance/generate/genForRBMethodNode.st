@@ -1,0 +1,2 @@
+genForRBMethodNode
+	^node selector asLiteralNode
