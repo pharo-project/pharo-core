@@ -1,3 +1,2 @@
 title
-
-	^'Nautilus'
+	^ 'Nautilus - System Browser'

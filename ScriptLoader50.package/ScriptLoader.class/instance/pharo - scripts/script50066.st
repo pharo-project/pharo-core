@@ -1,4 +1,4 @@
-script50065
+script50066
 
 	^ 'AST-Core-TheIntegrator.294.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -27,7 +27,7 @@ Collections-Abstract-TheIntegrator.280.mcz
 Collections-Arithmetic-TheIntegrator.15.mcz
 Collections-Atomic-MarcusDenker.10.mcz
 Collections-Native-TheIntegrator.11.mcz
-Collections-Sequenceable-TheIntegrator.200.mcz
+Collections-Sequenceable-TheIntegrator.202.mcz
 Collections-Stack-MarcusDenker.7.mcz
 Collections-Streams-TheIntegrator.172.mcz
 Collections-Strings-TheIntegrator.356.mcz
@@ -184,7 +184,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.92.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-TheIntegrator.924.mcz
+Nautilus-TheIntegrator.926.mcz
 Nautilus-Tests-StephaneDucasse.14.mcz
 NautilusCommon-TheIntegrator.260.mcz
 NautilusRefactoring-TheIntegrator.218.mcz
@@ -237,7 +237,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.83.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 Rubric-StephaneDucasse.207.mcz
-SUnit-Core-TheIntegrator.141.mcz
+SUnit-Core-TheIntegrator.143.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Tests-TheIntegrator.48.mcz
 SUnit-UI-TheIntegrator.117.mcz
@@ -251,7 +251,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.247.mcz
 ShoutTests-TheIntegrator.27.mcz
-Slot-TheIntegrator.622.mcz
+Slot-TheIntegrator.624.mcz
 Slot-Tests-TheIntegrator.39.mcz
 SmartSuggestions-TheIntegrator.157.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz

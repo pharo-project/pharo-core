@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '15606 Reflectivity: Add more reifications
-	https://pharo.fogbugz.com/f/cases/15606
+ ^ '15611 Cleanup OldClassBuilderAdapter: remove last users of class creation method
+	https://pharo.fogbugz.com/f/cases/15611
 
-15604 Clean up OldClassBuilderAdapter more...
-	https://pharo.fogbugz.com/f/cases/15604'
+15608 Nautilus window title should include System Browser
+	https://pharo.fogbugz.com/f/cases/15608
+
+15610 Interval>>#sum is O(n)
+	https://pharo.fogbugz.com/f/cases/15610'

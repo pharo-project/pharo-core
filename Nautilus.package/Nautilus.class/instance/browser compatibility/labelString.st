@@ -1,5 +1,2 @@
 labelString
-
-	^ self ui
-		ifNil: [ 'Nautilus' ]
-		ifNotNil: [:theui | theui title ]
+	^ self ui ifNil: [ 'Nautilus - System Browser' ] ifNotNil: [ :theui | theui title ]
