@@ -1,0 +1,3 @@
+iconMaxSize
+
+	^ self model iconMaxSize

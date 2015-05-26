@@ -1,0 +1,2 @@
+notingPresentationChangeDo: aBlock
+	aBlock value

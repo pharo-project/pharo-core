@@ -1,0 +1,2 @@
+menuAllowed: aBoolean
+	menuAllowed := aBoolean

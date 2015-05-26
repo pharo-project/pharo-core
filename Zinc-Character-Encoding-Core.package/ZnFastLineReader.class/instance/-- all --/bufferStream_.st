@@ -1,0 +1,2 @@
+bufferStream: characterWriteStream
+	^ bufferStream := characterWriteStream

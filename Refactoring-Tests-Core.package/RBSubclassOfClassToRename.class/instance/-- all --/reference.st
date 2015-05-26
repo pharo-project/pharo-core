@@ -1,0 +1,2 @@
+reference
+	^ RBClassToRename new

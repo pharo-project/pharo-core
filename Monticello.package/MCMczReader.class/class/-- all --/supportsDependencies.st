@@ -1,0 +1,2 @@
+supportsDependencies
+	^ true

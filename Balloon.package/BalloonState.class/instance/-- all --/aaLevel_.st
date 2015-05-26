@@ -1,0 +1,2 @@
+aaLevel: aNumber
+	aaLevel := aNumber

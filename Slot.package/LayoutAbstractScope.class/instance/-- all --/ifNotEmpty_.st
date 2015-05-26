@@ -1,0 +1,2 @@
+ifNotEmpty: aBlock
+	self subclassResponsibility

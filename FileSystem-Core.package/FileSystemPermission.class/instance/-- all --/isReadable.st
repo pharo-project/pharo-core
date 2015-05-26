@@ -1,0 +1,2 @@
+isReadable
+	^ self ownerRead

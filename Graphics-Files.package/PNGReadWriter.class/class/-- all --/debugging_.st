@@ -1,0 +1,2 @@
+debugging: aBoolean 
+	Debugging := aBoolean

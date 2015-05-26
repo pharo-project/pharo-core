@@ -1,0 +1,3 @@
+classVariables
+
+	^classVariables

@@ -1,0 +1,2 @@
+keymaps
+	^anonymousRegistry , namedRegistry values

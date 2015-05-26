@@ -1,0 +1,2 @@
+withoutSelectionBar
+	self textArea withoutSelectionBar

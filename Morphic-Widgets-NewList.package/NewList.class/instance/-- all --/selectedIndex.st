@@ -1,0 +1,3 @@
+selectedIndex
+
+	^ selectedIndex value

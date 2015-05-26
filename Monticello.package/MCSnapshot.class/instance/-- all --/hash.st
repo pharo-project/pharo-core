@@ -1,0 +1,2 @@
+hash
+	^ definitions asArray hash

@@ -1,0 +1,3 @@
+behavior
+
+	^ self model behavior

@@ -1,0 +1,3 @@
+asWideString 
+
+	^ WideString from: self

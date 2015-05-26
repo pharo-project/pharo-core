@@ -1,0 +1,2 @@
+updateSelectionFromModel
+	^ self listManager updateSelectionFromModel

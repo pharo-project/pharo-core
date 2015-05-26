@@ -1,0 +1,3 @@
+closeable
+
+	^ closeableHolder value

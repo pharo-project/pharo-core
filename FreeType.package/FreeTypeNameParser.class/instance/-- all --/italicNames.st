@@ -1,0 +1,2 @@
+italicNames
+	^self class italicNames

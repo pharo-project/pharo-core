@@ -1,0 +1,2 @@
+testExampleSimpleBlockiVar
+	self checkMethod: OCOpalExamples>>#exampleSimpleBlockiVar

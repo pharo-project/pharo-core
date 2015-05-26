@@ -1,0 +1,2 @@
+contentStreamOnURI
+	^self uri contentStream

@@ -1,0 +1,4 @@
+allManagers
+
+	^ self class allManagers 
+	

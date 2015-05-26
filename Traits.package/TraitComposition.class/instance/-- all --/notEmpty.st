@@ -1,0 +1,2 @@
+notEmpty
+	^self isEmpty not

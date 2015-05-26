@@ -1,0 +1,2 @@
+codeCruftLeftInMethods
+	self halt

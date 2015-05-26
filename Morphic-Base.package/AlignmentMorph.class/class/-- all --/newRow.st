@@ -1,0 +1,3 @@
+newRow
+
+	^ self new setAsRow

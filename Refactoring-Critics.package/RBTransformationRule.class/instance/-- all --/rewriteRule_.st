@@ -1,0 +1,3 @@
+rewriteRule: aRule
+
+	rewriteRule := aRule

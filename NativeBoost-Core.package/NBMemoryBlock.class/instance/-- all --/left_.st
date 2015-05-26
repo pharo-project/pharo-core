@@ -1,0 +1,3 @@
+left: anObject
+
+	left := anObject

@@ -1,0 +1,3 @@
+layoutPolicy: aLayout
+
+	self explicitRequirement

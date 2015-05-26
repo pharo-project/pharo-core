@@ -1,0 +1,3 @@
+message: aMessage
+
+	message := aMessage

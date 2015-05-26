@@ -1,0 +1,3 @@
+contextClass
+
+	^ self model contextClass

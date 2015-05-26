@@ -1,0 +1,2 @@
+searchedTextListMaxSize
+	^20

@@ -1,0 +1,3 @@
+isCategorized
+	 
+	^self category notNil

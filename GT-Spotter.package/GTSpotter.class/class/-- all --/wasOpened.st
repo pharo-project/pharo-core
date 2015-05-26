@@ -1,0 +1,3 @@
+wasOpened
+
+	^ wasOpened ifNil: [ false ]

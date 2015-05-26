@@ -1,0 +1,2 @@
+localTimeZone
+	^ LocalTimeZone new

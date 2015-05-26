@@ -1,0 +1,2 @@
+enable
+	cacheEnabled := true

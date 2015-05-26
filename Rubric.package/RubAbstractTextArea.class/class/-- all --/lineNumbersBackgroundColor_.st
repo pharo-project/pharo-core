@@ -1,0 +1,2 @@
+lineNumbersBackgroundColor: aColor
+	 LineNumbersBackgroundColor := aColor

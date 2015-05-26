@@ -1,0 +1,3 @@
+enableDoubleClick
+
+	isDoubleClickEnabled := true

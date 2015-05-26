@@ -1,0 +1,2 @@
+resourceClassesAndTraits
+	^TraitsResource current createdClassesAndTraits

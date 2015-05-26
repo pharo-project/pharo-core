@@ -1,0 +1,2 @@
+light
+	light := true.

@@ -1,0 +1,3 @@
+onChildrenLayouted
+
+	^ self brick onChildrenLayouted

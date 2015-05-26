@@ -1,0 +1,2 @@
+errorBlock
+	^self errorBlockFor: false

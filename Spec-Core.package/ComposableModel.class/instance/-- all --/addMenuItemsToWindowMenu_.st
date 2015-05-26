@@ -1,0 +1,2 @@
+addMenuItemsToWindowMenu: aMenu
+	"Do nothing"

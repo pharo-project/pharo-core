@@ -1,0 +1,2 @@
+isValid
+	^true

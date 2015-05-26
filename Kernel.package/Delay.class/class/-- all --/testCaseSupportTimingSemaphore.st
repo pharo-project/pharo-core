@@ -1,0 +1,3 @@
+testCaseSupportTimingSemaphore
+
+	^ Scheduler testCaseSupportTimingSemaphore.

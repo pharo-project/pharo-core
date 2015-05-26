@@ -1,0 +1,3 @@
+hAlign: aSymbol
+
+	hAlign := aSymbol

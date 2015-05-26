@@ -1,0 +1,2 @@
+hasNoPackage
+	^ hasNoPackage

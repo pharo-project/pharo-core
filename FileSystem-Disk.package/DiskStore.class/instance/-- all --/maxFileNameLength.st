@@ -1,0 +1,2 @@
+maxFileNameLength
+	^ maxFileNameLength

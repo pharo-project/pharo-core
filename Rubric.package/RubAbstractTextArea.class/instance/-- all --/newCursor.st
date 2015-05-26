@@ -1,0 +1,2 @@
+newCursor
+	^ self cursorClass new

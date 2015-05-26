@@ -1,0 +1,2 @@
+hasClassTraitComposition
+	^self classTraitCompositionString ~= '{}'

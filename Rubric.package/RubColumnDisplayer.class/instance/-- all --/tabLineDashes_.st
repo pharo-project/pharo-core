@@ -1,0 +1,2 @@
+tabLineDashes: anArray
+	 tabLineDashes := anArray

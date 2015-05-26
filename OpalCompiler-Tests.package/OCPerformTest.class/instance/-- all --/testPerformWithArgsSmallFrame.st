@@ -1,0 +1,2 @@
+testPerformWithArgsSmallFrame
+	self doPerformOldSmallFrame

@@ -1,0 +1,2 @@
+listMorphClass
+	^LazyListMorph

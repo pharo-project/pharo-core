@@ -1,0 +1,3 @@
+borderColor
+
+	^ self model borderColor

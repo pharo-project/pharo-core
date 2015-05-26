@@ -1,0 +1,3 @@
+removeLabel
+	
+	^ 'Remove'

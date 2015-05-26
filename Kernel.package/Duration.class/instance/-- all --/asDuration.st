@@ -1,0 +1,4 @@
+asDuration
+ 
+ 	^ self
+ 

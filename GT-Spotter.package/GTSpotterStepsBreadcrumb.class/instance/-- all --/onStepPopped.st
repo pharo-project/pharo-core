@@ -1,0 +1,4 @@
+onStepPopped
+
+	self pop
+	

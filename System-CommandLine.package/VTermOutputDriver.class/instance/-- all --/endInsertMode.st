@@ -1,0 +1,2 @@
+endInsertMode
+	self termcap: 'ei'

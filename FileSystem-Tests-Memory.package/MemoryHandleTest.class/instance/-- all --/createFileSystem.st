@@ -1,0 +1,2 @@
+createFileSystem
+	^ FileSystem memory

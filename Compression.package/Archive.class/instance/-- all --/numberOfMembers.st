@@ -1,0 +1,2 @@
+numberOfMembers
+	^members size

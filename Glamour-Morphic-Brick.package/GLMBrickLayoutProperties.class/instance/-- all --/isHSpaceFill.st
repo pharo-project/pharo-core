@@ -1,0 +1,3 @@
+isHSpaceFill
+
+	^ self hState isOnParent

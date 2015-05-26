@@ -1,0 +1,2 @@
+defaultTask
+	^ GTMockSpotterTask new

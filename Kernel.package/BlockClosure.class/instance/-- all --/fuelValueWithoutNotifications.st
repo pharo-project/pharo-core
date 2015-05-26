@@ -1,0 +1,2 @@
+fuelValueWithoutNotifications
+	SystemAnnouncer uniqueInstance suspendAllWhile: self

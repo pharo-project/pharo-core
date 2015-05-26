@@ -1,0 +1,3 @@
+isBrick
+
+	^ self brick isBrick

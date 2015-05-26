@@ -1,0 +1,3 @@
+textColor
+
+	^ Color lightGray darker

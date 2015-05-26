@@ -1,0 +1,3 @@
+argumentGetter: aBlock
+
+	argumentGetter := aBlock

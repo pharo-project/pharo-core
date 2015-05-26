@@ -1,0 +1,3 @@
+token: aString
+
+	token := aString

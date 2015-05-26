@@ -1,0 +1,2 @@
+writerClass
+	^ MCMczWriter 

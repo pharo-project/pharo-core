@@ -1,0 +1,2 @@
+delimiter
+	^ self store delimiter

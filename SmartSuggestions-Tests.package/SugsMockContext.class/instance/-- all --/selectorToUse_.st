@@ -1,0 +1,2 @@
+selectorToUse: anObject
+	selectorToUse := anObject

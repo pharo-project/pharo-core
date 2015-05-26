@@ -1,0 +1,2 @@
+repositoryArg: anObject
+    repositoryArg := anObject

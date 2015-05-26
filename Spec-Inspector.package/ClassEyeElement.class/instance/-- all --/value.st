@@ -1,0 +1,2 @@
+value
+	^ self host class

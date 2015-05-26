@@ -1,0 +1,3 @@
+isGlobalVariable
+
+	^false

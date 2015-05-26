@@ -1,0 +1,3 @@
+triggerCancelAction
+
+	self performCancelAction

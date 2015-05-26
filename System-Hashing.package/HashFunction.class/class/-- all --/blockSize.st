@@ -1,0 +1,2 @@
+blockSize
+	^ self subclassResponsibility

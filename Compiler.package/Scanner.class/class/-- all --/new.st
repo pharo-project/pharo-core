@@ -1,0 +1,3 @@
+new
+
+	^self basicNew initScanner

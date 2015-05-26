@@ -1,0 +1,2 @@
+selectionStart
+	^ self editingState selectionStart

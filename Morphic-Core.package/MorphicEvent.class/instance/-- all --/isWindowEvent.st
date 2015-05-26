@@ -1,0 +1,2 @@
+isWindowEvent
+	^false

@@ -1,0 +1,2 @@
+method
+	^ class >> #m1

@@ -1,0 +1,2 @@
+isDependenciesShown: aBoolean
+	isDependenciesShown := aBoolean

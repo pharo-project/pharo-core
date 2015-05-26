@@ -1,0 +1,2 @@
+koSourceText
+	^ 'No changes'

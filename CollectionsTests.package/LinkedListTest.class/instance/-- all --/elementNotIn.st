@@ -1,0 +1,2 @@
+elementNotIn
+	^ Link new

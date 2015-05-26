@@ -1,0 +1,3 @@
+grayRoundedTags
+
+	tagsStyle := #grayRoundedButton

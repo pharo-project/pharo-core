@@ -1,0 +1,2 @@
+stencilSize: aStencilSize
+	stencilSize := aStencilSize

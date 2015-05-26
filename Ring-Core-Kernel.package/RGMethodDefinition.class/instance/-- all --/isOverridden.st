@@ -1,0 +1,2 @@
+isOverridden
+	^ self compiledMethod isOverridden

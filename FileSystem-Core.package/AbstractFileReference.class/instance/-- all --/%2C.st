@@ -1,0 +1,2 @@
+, extension
+	^ self resolve, extension

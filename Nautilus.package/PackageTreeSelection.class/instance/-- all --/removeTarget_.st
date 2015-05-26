@@ -1,0 +1,2 @@
+removeTarget: target 
+	self subclassResponsibility.

@@ -1,0 +1,2 @@
+contentString
+	^self valueOfProperty: #contentString

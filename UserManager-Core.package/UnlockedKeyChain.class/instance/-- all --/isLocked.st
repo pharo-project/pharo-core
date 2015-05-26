@@ -1,0 +1,3 @@
+isLocked
+
+	^ false

@@ -1,0 +1,3 @@
+headerFont
+
+	^ self model headerFont

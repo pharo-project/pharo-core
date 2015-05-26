@@ -1,0 +1,2 @@
+<< aStringOrCharacter
+	aStringOrCharacter putOn: outStream.

@@ -1,0 +1,2 @@
+compiler
+	^ self compilerClass new

@@ -1,0 +1,2 @@
+description
+	^ 'Run image cleanup'

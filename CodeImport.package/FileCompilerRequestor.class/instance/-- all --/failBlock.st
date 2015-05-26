@@ -1,0 +1,2 @@
+failBlock
+	^ [ :exception | exception pass ]

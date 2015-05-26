@@ -1,0 +1,2 @@
+finalizationAction: aValuable
+	finalizationAction := aValuable

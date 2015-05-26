@@ -1,0 +1,3 @@
+dropEnabled
+
+	^ self listSource dropEnabled

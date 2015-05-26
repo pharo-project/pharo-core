@@ -1,0 +1,3 @@
+isPushLiteral: valueTest
+
+	^ false

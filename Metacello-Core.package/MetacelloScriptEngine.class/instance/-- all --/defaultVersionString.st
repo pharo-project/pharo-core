@@ -1,0 +1,2 @@
+defaultVersionString
+    ^ self class defaultVersionString

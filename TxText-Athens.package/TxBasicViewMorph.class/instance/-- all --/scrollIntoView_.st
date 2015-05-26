@@ -1,0 +1,2 @@
+scrollIntoView: aTextPosition
+	self subclassResponsibility

@@ -1,0 +1,3 @@
+selectedItem
+
+	^ self list selectedItem

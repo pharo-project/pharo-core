@@ -1,0 +1,2 @@
+changeEmptyIcon 
+	^ self emptyIcon

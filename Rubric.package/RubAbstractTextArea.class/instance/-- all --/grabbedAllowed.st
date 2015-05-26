@@ -1,0 +1,2 @@
+grabbedAllowed
+	^ scrollPane isNil

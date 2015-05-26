@@ -1,0 +1,3 @@
+portSymbol: anObject 
+	 
+	portSymbol := anObject

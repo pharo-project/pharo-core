@@ -1,0 +1,3 @@
+interruptedContext
+
+	^ self session interruptedContext

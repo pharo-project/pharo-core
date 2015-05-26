@@ -1,0 +1,2 @@
+text
+	^ self paragraph text

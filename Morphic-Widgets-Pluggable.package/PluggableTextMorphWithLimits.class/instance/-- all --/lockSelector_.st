@@ -1,0 +1,3 @@
+lockSelector: aSelector
+
+	lockSelector := aSelector

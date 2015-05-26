@@ -1,0 +1,3 @@
+closeableHolder
+
+	^ closeableHolder

@@ -1,0 +1,2 @@
+shouldCopy
+	^copy

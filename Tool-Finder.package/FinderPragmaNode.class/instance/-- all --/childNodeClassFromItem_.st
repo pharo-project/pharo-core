@@ -1,0 +1,3 @@
+childNodeClassFromItem: anItem 
+	
+	^ FinderMethodNode 

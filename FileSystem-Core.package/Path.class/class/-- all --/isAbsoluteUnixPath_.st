@@ -1,0 +1,2 @@
+isAbsoluteUnixPath: aString
+	^aString first = $/ 

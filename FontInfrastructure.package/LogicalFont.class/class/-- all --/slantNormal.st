@@ -1,0 +1,2 @@
+slantNormal
+	^0

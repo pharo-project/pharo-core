@@ -1,0 +1,3 @@
+exampleBandOpen
+
+	self gtExampleBand openInBrickWindow

@@ -1,0 +1,3 @@
+transformedEntity: anObject
+
+	transformedEntity := anObject

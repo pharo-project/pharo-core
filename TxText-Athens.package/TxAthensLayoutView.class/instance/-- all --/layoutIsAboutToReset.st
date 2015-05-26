@@ -1,0 +1,3 @@
+layoutIsAboutToReset
+
+	container layoutIsAboutToResetIn: self

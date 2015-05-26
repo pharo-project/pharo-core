@@ -1,0 +1,2 @@
+hasSourcePointer
+	^ self trailer hasSourcePointer

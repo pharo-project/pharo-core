@@ -1,0 +1,2 @@
+testOpenInWorld
+	morph openInWorld

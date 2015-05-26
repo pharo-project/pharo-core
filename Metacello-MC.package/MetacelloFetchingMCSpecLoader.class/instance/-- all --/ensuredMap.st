@@ -1,0 +1,3 @@
+ensuredMap
+
+	^self loaderPolicy ensuredMap

@@ -1,0 +1,2 @@
+rationale
+	^ 'Checks for mathematical expressions that might be evaluated different (from left-to-right) than the developer thinks.'

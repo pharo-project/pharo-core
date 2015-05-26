@@ -1,0 +1,2 @@
+bar: anInteger
+	bar := anInteger

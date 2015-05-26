@@ -1,0 +1,2 @@
+changeString
+	^ 'Comment ' , self displayClassName

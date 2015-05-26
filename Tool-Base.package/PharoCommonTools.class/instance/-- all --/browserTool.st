@@ -1,0 +1,2 @@
+browserTool
+	^ self browser

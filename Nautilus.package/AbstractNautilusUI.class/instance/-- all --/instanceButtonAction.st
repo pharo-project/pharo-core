@@ -1,0 +1,3 @@
+instanceButtonAction
+
+	self toggleShowInstance

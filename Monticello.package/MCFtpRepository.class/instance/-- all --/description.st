@@ -1,0 +1,2 @@
+description
+	^ 'ftp://', host, '/', directory

@@ -1,0 +1,2 @@
+beMultiple
+	allowsMultipleSelection := true

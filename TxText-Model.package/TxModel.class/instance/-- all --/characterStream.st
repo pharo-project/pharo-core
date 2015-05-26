@@ -1,0 +1,2 @@
+characterStream
+	^ self startPosition characterStream

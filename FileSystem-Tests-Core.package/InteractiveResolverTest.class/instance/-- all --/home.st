@@ -1,0 +1,2 @@
+home
+	^ FileLocator imageDirectory resolve

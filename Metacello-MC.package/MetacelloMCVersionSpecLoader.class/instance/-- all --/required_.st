@@ -1,0 +1,2 @@
+required: anObject
+	required := anObject

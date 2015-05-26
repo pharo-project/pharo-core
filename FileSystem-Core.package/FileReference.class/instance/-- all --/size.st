@@ -1,0 +1,2 @@
+size
+	^ filesystem size: path

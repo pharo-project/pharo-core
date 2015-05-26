@@ -1,0 +1,2 @@
+isKeyboard
+	^true

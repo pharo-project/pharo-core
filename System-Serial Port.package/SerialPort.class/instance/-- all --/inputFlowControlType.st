@@ -1,0 +1,3 @@
+inputFlowControlType
+
+	^ inputFlowControlType

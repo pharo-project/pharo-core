@@ -1,0 +1,2 @@
+alt
+	^ leftAlt or: [  rightAlt ]

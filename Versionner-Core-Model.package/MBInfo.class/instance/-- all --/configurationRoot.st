@@ -1,0 +1,3 @@
+configurationRoot
+
+	^self configurationInfo configurationRoot

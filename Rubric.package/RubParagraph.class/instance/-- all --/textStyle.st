@@ -1,0 +1,2 @@
+textStyle
+	^ textArea textStyle

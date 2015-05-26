@@ -1,0 +1,3 @@
+askBeforeDiscardingEdits
+
+	^ self model askBeforeDiscardingEdits

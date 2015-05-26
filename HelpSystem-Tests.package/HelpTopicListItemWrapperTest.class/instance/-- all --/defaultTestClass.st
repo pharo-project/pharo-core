@@ -1,0 +1,3 @@
+defaultTestClass 
+	^HelpTopicListItemWrapper 
+	

@@ -1,0 +1,2 @@
+localName
+	^'a stream'

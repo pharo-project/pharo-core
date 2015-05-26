@@ -1,0 +1,3 @@
+isCursor
+
+	^ end == start

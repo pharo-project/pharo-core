@@ -1,0 +1,3 @@
+entities: aDictionary
+
+	entities := aDictionary

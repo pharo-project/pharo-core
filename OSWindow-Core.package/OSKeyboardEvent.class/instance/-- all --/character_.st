@@ -1,0 +1,3 @@
+character: anObject
+	
+	character := anObject

@@ -1,0 +1,2 @@
+expectedFailures 
+	^ #(testSimple testWithDynamicPresentation)

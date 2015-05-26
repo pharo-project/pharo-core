@@ -1,0 +1,2 @@
+doCancel
+	self delete

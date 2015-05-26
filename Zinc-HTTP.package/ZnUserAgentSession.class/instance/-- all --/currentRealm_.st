@@ -1,0 +1,2 @@
+currentRealm: anObject
+	currentRealm := anObject

@@ -1,0 +1,3 @@
+manifestClass: aClass
+	 manifestClass := aClass
+		

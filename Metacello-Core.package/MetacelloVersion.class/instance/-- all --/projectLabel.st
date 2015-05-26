@@ -1,0 +1,2 @@
+projectLabel
+    ^ self basicSpec projectLabel

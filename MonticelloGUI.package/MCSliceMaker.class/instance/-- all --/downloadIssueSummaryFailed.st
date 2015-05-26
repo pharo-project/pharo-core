@@ -1,0 +1,2 @@
+downloadIssueSummaryFailed
+	self info issueSummary: '------'

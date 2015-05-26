@@ -1,0 +1,3 @@
+secondarySelectionColor
+
+	^ self theme secondarySelectionColor

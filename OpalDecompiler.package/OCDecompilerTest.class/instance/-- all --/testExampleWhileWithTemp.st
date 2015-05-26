@@ -1,0 +1,2 @@
+testExampleWhileWithTemp
+	self checkMethod: OCOpalExamples>>#exampleWhileWithTemp

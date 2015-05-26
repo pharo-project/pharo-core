@@ -1,0 +1,2 @@
+initializers: aCollection
+	initializers := aCollection

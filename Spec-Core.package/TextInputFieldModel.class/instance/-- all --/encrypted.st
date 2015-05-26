@@ -1,0 +1,3 @@
+encrypted
+
+	^ isEncrypted value

@@ -1,0 +1,2 @@
+methodDict: aDictionary
+	^self explicitRequirement.

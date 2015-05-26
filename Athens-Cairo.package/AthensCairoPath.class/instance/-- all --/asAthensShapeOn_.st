@@ -1,0 +1,3 @@
+asAthensShapeOn: anAthensCanvas 
+	
+	^ self

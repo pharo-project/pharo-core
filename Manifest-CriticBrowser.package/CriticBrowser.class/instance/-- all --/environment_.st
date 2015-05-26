@@ -1,0 +1,2 @@
+environment: aEnv
+	rbEnvironment := aEnv

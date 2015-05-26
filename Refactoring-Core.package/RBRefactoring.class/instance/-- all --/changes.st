@@ -1,0 +1,2 @@
+changes
+	^self model changes

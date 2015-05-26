@@ -1,0 +1,2 @@
+firstCharacterIndex
+	^ self paragraph firstCharacterIndex

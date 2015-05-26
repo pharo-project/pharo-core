@@ -1,0 +1,3 @@
+updateSourceCode
+	
+	self changed: #sourceCode.

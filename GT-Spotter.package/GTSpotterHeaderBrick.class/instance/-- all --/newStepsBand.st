@@ -1,0 +1,3 @@
+newStepsBand
+
+	^ GLMBrick new

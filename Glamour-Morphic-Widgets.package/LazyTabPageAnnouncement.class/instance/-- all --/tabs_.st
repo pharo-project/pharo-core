@@ -1,0 +1,2 @@
+tabs: anObject
+	tabs := anObject

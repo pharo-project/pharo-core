@@ -1,0 +1,2 @@
+binary
+	isBinary := true

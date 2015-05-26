@@ -1,0 +1,2 @@
+isComplete
+	^ self subclassResponsibility 

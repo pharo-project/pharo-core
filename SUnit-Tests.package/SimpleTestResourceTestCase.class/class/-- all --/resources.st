@@ -1,0 +1,2 @@
+resources
+	^Array with: SimpleTestResource

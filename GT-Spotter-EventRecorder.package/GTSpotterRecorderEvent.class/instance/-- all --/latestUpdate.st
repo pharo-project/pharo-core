@@ -1,0 +1,2 @@
+latestUpdate
+	^ self infoAt: #latestUpdate

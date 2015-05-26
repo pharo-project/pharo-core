@@ -1,0 +1,3 @@
+displayString
+	
+	^ self item asString

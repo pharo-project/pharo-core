@@ -1,0 +1,3 @@
+testToPush: anObject
+
+	TestToPush := anObject

@@ -1,0 +1,3 @@
+showBoundsInHalo
+
+	^ true

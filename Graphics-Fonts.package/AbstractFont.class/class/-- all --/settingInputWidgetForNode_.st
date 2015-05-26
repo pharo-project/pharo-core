@@ -1,0 +1,2 @@
+settingInputWidgetForNode: aSettingNode
+	^ aSettingNode inputWidgetForFont

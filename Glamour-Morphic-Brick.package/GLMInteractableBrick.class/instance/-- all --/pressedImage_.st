@@ -1,0 +1,2 @@
+pressedImage: anObject
+	pressedImage := anObject

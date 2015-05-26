@@ -1,0 +1,2 @@
+gtListFilter
+	^ GTFilterSubstring new

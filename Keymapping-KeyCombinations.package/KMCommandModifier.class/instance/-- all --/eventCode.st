@@ -1,0 +1,2 @@
+eventCode
+	^ self delegatedModifier eventCode

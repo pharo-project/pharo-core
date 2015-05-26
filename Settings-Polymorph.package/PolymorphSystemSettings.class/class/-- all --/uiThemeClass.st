@@ -1,0 +1,2 @@
+uiThemeClass
+	^ UITheme current class

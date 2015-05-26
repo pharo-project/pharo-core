@@ -1,0 +1,2 @@
+setFontsToSmall
+	self setFontsToStyleNamed: #small

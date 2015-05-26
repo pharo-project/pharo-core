@@ -1,0 +1,2 @@
+severity
+	^ #error

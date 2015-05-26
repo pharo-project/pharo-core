@@ -1,0 +1,3 @@
+useByteOrderMark
+
+	^ useByteOrderMark

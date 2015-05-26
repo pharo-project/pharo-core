@@ -1,0 +1,2 @@
+numberOfInspectorPanes
+	^ GTNumberOfInspectorPanes 

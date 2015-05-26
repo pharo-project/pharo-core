@@ -1,0 +1,3 @@
+daysInMonth
+
+	^ self duration days.

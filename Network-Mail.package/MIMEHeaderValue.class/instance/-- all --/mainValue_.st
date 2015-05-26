@@ -1,0 +1,2 @@
+mainValue: anObject
+	mainValue := anObject

@@ -1,0 +1,2 @@
+asMargin
+	^ self 

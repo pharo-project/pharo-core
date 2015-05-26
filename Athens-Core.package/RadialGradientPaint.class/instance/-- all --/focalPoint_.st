@@ -1,0 +1,3 @@
+focalPoint: aPoint
+
+	focalPoint := aPoint

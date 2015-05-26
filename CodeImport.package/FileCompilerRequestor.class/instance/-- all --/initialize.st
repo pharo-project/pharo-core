@@ -1,0 +1,2 @@
+initialize
+	interactive := false.

@@ -1,0 +1,2 @@
+refreshPrintDescription
+	self printDescription: self selectedElement

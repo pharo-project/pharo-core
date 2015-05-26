@@ -1,0 +1,2 @@
+radioSelectedForm
+	^ self current radioSelectedForm.

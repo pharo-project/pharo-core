@@ -1,0 +1,3 @@
+blockReturnTop
+	^ IRBlockReturnTop new
+		

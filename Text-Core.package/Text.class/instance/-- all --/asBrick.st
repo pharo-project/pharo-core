@@ -1,0 +1,3 @@
+asBrick
+
+	^ self asString asBrick

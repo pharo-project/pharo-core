@@ -1,0 +1,2 @@
+isFile
+	^ false

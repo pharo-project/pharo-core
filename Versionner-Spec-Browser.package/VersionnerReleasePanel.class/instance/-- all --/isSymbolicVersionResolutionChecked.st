@@ -1,0 +1,2 @@
+isSymbolicVersionResolutionChecked
+	^ symbolicVersionResolutionCheckBox state

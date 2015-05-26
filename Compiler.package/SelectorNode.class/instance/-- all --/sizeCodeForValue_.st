@@ -1,0 +1,3 @@
+sizeCodeForValue: encoder
+
+	self shouldNotImplement

@@ -1,0 +1,2 @@
+pathNameDelimiter
+    ^ DiskStore activeClass delimiter

@@ -1,0 +1,2 @@
+lastSelectedNodePath 
+	^ self subclassResponsibility

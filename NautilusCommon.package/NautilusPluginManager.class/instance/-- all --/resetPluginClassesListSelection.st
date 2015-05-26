@@ -1,0 +1,3 @@
+resetPluginClassesListSelection
+
+	pluginClassesSelected removeAll

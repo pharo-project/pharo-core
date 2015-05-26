@@ -1,0 +1,2 @@
+booleanOperator: aSymbol
+	booleanOperator:= aSymbol

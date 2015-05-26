@@ -1,0 +1,2 @@
+testReturnsBooleanAndOther
+	self ruleFor: self currentSelector

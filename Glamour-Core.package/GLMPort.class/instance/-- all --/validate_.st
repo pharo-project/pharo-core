@@ -1,0 +1,3 @@
+validate: anObject 
+
+	^true

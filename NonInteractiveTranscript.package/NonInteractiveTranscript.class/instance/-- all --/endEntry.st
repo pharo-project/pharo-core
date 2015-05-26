@@ -1,0 +1,2 @@
+endEntry
+	self flush

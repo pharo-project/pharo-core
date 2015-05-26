@@ -1,0 +1,2 @@
+astTranslatorClass: anObject
+	astTranslatorClass := anObject

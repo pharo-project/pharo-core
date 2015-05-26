@@ -1,0 +1,3 @@
+releaseActionMap
+
+	EventManager releaseActionMapFor: self

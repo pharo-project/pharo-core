@@ -1,0 +1,3 @@
+basicPrev: anObject
+	
+	prev := anObject

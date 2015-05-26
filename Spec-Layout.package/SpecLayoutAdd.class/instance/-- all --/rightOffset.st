@@ -1,0 +1,3 @@
+rightOffset
+
+	^ layoutFrame rightOffset

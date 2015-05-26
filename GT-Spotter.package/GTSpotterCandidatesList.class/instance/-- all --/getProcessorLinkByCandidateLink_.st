@@ -1,0 +1,3 @@
+getProcessorLinkByCandidateLink: aCandidateLink
+
+	^ aCandidateLink processorLink

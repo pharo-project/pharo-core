@@ -1,0 +1,3 @@
+autoSubmit: aBoolean
+
+	autoSubmit := aBoolean

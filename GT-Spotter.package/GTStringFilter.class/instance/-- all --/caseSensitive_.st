@@ -1,0 +1,2 @@
+caseSensitive: anObject
+	caseSensitive := anObject

@@ -1,0 +1,2 @@
+lightGray
+	^  ColorRegistry at: #lightGray

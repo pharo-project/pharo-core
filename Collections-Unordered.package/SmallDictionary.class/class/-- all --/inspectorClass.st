@@ -1,0 +1,2 @@
+inspectorClass
+    ^ EyeDictionaryInspector

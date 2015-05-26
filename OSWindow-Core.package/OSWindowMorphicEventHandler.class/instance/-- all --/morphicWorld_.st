@@ -1,0 +1,2 @@
+morphicWorld: aMorphicWorld
+	morphicWorld := aMorphicWorld

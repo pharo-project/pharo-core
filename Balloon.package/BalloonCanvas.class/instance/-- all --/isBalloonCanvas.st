@@ -1,0 +1,2 @@
+isBalloonCanvas
+	^true

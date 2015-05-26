@@ -1,0 +1,3 @@
+file: anObject
+	
+	file := anObject

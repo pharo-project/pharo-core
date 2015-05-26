@@ -1,0 +1,3 @@
+updatePaneBounds
+
+	self band updateMorphBounds

@@ -1,0 +1,2 @@
+inspectorClass
+	^ Dictionary inspectorClass

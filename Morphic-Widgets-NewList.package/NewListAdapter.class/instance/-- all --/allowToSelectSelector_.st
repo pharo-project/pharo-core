@@ -1,0 +1,3 @@
+allowToSelectSelector: aSelector
+
+	allowToSelectSelector := aSelector

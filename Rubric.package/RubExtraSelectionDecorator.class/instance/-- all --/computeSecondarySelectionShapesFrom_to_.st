@@ -1,0 +1,21 @@
+computeSecondarySelectionShapesFrom: topLeft to: bottomRight
+	| primary secondarySelRanges otherRanges topLeftBlk |
+	primary := self primarySelectionInterval.
+	topLeftBlk := self characterBlockAtPoint: topLeft.
+	otherRanges := findReplaceRanges ifNil: [ #() ].
+	(secondarySelRanges := (((self visibleStringFrom: topLeft to: bottomRight) allRangesOfSubString: self selection asString)
+		collect: [ :r | r + topLeftBlk stringIndex - 1 ])
+		reject: [ :i | 
+			(otherRanges anySatisfy: [ :r | (r rangeIncludes: i first) or: [ r rangeIncludes: i last ] ])
+				or: [ i = primary or: [ i first > self text size ] ] ]) collect: [ :i | i first to: (i last min: self text size) ].
+	secondarySelRanges
+		do: [ :r | self text addAttribute: RubTextSelectionColor secondarySelection from: r first to: r last ].
+	^ secondarySelectionShapes := secondarySelRanges
+		collect: [ :r | 
+			RubSurfaceSelectionShape
+				vertices: (self verticesFrom: r first to: r last + 1)
+				firstIndex: r first
+				lastIndex: r last + 1
+				color: (RubTextSelectionColor secondarySelection backgroundColor alpha: 0.05)
+				borderWidth: 3
+				borderColor: RubTextSelectionColor secondarySelection backgroundColor ]

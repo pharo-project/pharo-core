@@ -1,0 +1,3 @@
+rubric
+
+	^ self morph

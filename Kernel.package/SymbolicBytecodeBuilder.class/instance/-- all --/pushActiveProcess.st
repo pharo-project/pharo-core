@@ -1,0 +1,2 @@
+pushActiveProcess
+	self addBytecode: 'pushThisProcess'

@@ -1,0 +1,2 @@
+repositories
+    ^ self referencedSpec repositories

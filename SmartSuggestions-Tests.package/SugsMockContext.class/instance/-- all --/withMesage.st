@@ -1,0 +1,2 @@
+withMesage
+	self withClassVariable 

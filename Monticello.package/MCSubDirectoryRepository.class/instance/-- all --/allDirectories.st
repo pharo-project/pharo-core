@@ -1,0 +1,2 @@
+allDirectories
+	^directory allDirectories 

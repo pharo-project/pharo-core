@@ -1,0 +1,3 @@
+hasSubject
+
+	^ organizedClass notNil

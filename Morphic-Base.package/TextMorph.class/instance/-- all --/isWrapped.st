@@ -1,0 +1,3 @@
+isWrapped
+	
+	^wrapFlag

@@ -1,0 +1,3 @@
+pickedChanges
+
+	^ changesTree selectedItems

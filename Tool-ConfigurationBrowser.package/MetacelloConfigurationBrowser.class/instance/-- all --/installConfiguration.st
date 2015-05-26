@@ -1,0 +1,3 @@
+installConfiguration
+
+	configBrowserModel installConfiguration

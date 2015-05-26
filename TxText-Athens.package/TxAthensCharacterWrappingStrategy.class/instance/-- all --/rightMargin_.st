@@ -1,0 +1,2 @@
+rightMargin: aNumber
+	rightMargin := aNumber

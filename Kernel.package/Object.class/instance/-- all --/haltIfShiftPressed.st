@@ -1,0 +1,3 @@
+haltIfShiftPressed
+	<debuggerCompleteToSender>
+	Halt ifShiftPressed.

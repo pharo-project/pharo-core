@@ -1,0 +1,2 @@
+extendedClasses
+	^ self item extendedClasses

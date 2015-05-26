@@ -1,0 +1,2 @@
+resistsRemoval
+	^ self grabbedAllowed not

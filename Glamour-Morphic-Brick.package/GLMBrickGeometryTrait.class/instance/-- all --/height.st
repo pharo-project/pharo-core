@@ -1,0 +1,3 @@
+height
+
+	^ self brickBounds height

@@ -1,0 +1,3 @@
+generalMapper
+
+	^generalMapperFactory value

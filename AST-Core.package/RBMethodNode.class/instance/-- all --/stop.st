@@ -1,0 +1,2 @@
+stop
+	^ self newSource size

@@ -1,0 +1,2 @@
+alterInitialState
+	self mockClassA touchCVar

@@ -1,0 +1,2 @@
+closingDelimiters
+	^ self editor closingDelimiters

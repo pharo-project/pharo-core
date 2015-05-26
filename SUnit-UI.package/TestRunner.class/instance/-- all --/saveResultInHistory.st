@@ -1,0 +1,2 @@
+saveResultInHistory
+	result dispatchResultsIntoHistory

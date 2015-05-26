@@ -1,0 +1,2 @@
+allowedBounds: anObject
+	allowedBounds := anObject

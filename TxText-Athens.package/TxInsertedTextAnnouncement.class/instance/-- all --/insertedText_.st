@@ -1,0 +1,2 @@
+insertedText: anObject
+	insertedText := anObject

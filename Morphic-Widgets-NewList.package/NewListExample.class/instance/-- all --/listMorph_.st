@@ -1,0 +1,2 @@
+listMorph: anObject
+	listMorph := anObject

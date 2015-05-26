@@ -1,0 +1,2 @@
+withoutAnyDecorator
+	self textArea withoutAnyDecorator

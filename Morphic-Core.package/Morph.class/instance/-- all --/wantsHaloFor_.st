@@ -1,0 +1,2 @@
+wantsHaloFor: aSubMorph
+	^ false

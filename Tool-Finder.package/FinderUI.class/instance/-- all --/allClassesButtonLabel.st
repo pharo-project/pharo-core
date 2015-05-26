@@ -1,0 +1,2 @@
+allClassesButtonLabel
+	^ 'All Packages'

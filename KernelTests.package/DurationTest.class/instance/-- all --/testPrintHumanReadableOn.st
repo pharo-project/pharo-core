@@ -1,0 +1,2 @@
+testPrintHumanReadableOn
+	self testHumanReadablePrintString

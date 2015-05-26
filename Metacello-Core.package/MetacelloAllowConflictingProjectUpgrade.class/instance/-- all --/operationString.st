@@ -1,0 +1,2 @@
+operationString
+  ^ 'load with conflicts'

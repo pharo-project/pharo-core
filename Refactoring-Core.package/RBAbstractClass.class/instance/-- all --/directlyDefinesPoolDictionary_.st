@@ -1,0 +1,2 @@
+directlyDefinesPoolDictionary: aString 
+	self subclassResponsibility

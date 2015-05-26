@@ -1,0 +1,2 @@
+newLinesAfterTemporaries
+	^ NewLinesAfterTemporaries

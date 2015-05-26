@@ -1,0 +1,3 @@
+configurationClassModified
+
+	self fullRecalculate 

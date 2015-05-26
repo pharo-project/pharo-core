@@ -1,0 +1,2 @@
+fieldIndex
+	^ slot index + fieldIndex

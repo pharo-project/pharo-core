@@ -1,0 +1,2 @@
+defaultLabel
+	^ 'Snapshot Browser'

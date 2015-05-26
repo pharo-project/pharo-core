@@ -1,0 +1,2 @@
+glamorousGrayCircleEmpty
+	^ Smalltalk ui icons glamorousGrayCircleEmpty

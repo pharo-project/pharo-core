@@ -1,0 +1,3 @@
+initWithText: anObject
+	
+	text := anObject

@@ -1,0 +1,3 @@
+isInvocation
+
+	^false

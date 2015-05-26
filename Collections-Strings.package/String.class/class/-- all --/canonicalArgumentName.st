@@ -1,0 +1,3 @@
+canonicalArgumentName
+
+	^ 'aString'.

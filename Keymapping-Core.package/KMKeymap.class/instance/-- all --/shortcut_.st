@@ -1,0 +1,2 @@
+shortcut: aShortcut
+	shortcut := aShortcut.

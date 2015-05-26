@@ -1,0 +1,3 @@
+newPreviewBrick
+
+	^ GTSpotterPreviewBrick new

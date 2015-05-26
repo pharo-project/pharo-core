@@ -1,0 +1,2 @@
+textPosition: anObject
+	textPosition := anObject

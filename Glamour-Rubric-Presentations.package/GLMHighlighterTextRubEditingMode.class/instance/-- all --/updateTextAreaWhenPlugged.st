@@ -1,0 +1,3 @@
+updateTextAreaWhenPlugged
+	self withStyler.
+	super updateTextAreaWhenPlugged

@@ -1,0 +1,3 @@
+oddRowColor
+
+	^ oddRowColor value

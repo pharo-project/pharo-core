@@ -1,0 +1,3 @@
+previousMessages
+
+	^ self class previousMessages

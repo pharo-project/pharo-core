@@ -1,0 +1,3 @@
+selectedMethod
+
+	^ self model selectedMethod

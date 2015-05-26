@@ -1,0 +1,3 @@
+isHeightClean
+
+	^ self heightState = #clean

@@ -1,0 +1,3 @@
+windowBorderWidth
+
+	^ 0

@@ -1,0 +1,2 @@
+compilationContext: anObject
+	self subclassResponsibility

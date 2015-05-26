@@ -1,0 +1,3 @@
+showAnnotationPane: aBoolean
+
+	ShowAnnotationPane := aBoolean

@@ -1,0 +1,2 @@
+next
+	^ stream next

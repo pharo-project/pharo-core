@@ -1,0 +1,3 @@
+wrapBlockOrSelector: anObject
+	
+	wrapBlockOrSelector := anObject

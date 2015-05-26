@@ -1,0 +1,2 @@
+loaderPolicy: anObject
+	loaderPolicy := anObject

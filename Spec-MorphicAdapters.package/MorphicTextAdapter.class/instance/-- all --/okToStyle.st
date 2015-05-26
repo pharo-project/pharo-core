@@ -1,0 +1,3 @@
+okToStyle
+
+	^ true

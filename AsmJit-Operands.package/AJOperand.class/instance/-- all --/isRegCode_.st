@@ -1,0 +1,3 @@
+isRegCode: aRegCode
+
+	self shouldBeImplemented 

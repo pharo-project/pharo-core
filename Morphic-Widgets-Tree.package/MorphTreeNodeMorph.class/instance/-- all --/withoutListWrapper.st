@@ -1,0 +1,3 @@
+withoutListWrapper
+
+	^complexContents withoutListWrapper

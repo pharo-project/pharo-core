@@ -1,0 +1,2 @@
+subject: aTraitTransformation
+	subject := aTraitTransformation

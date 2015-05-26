@@ -1,0 +1,3 @@
+inputWidgetForDirectory
+
+	^ self inputWidgetForFileOrDirectoryWithAction: #chooseFileDirectory.

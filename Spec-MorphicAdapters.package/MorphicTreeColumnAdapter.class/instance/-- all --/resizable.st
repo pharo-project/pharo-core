@@ -1,0 +1,3 @@
+resizable
+
+	^ self model resizable

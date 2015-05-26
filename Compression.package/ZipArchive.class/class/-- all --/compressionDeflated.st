@@ -1,0 +1,2 @@
+compressionDeflated
+	^CompressionDeflated

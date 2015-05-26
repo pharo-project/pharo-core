@@ -1,0 +1,2 @@
+setSelectionFromModel: x
+1halt

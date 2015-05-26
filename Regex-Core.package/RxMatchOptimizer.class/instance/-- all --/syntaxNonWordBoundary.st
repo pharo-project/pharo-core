@@ -1,0 +1,3 @@
+syntaxNonWordBoundary
+
+	conditions add: #notAtWordBoundary

@@ -1,0 +1,2 @@
+candidate
+	^ candidateLink value

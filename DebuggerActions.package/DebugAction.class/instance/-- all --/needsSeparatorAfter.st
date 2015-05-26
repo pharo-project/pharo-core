@@ -1,0 +1,3 @@
+needsSeparatorAfter
+
+	^ needsSeparatorAfter ifNil: [ false ]

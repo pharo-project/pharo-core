@@ -1,0 +1,2 @@
+extendWeak
+	^ WeakLayout new

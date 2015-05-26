@@ -1,0 +1,2 @@
+openWorkspace
+	^ self workspace open

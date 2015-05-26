@@ -1,0 +1,2 @@
+isVariableNode
+	^true

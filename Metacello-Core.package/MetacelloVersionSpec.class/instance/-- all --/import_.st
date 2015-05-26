@@ -1,0 +1,2 @@
+import: anObject
+    importName := anObject

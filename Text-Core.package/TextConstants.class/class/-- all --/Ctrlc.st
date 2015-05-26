@@ -1,0 +1,2 @@
+Ctrlc
+	^Ctrlc

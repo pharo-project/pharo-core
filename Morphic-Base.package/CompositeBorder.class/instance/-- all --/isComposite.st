@@ -1,0 +1,4 @@
+isComposite
+	"Answer true."
+
+	^true

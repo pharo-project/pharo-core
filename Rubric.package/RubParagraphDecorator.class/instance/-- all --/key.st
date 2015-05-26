@@ -1,0 +1,2 @@
+key
+	^self class key

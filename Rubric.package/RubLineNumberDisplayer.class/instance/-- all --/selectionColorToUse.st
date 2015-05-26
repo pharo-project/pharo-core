@@ -1,0 +1,2 @@
+selectionColorToUse
+	^ self primarySelectionColor

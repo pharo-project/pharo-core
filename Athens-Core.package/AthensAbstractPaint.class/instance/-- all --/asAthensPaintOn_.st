@@ -1,0 +1,2 @@
+asAthensPaintOn: aCanvas	
+	^ self

@@ -1,0 +1,2 @@
+changeString
+	^ 'Remove ' , self displayClassName

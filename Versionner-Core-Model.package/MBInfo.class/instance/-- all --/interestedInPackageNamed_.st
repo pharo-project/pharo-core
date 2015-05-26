@@ -1,0 +1,3 @@
+interestedInPackageNamed: packageName
+
+	^false

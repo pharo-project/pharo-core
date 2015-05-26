@@ -1,0 +1,2 @@
+on: characterReadStream
+	readStream := characterReadStream 

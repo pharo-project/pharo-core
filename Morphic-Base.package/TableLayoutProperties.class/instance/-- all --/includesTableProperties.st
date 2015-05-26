@@ -1,0 +1,2 @@
+includesTableProperties
+	^true

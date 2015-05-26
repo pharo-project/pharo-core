@@ -1,0 +1,2 @@
+defaultStyle
+	^ defaultStyle

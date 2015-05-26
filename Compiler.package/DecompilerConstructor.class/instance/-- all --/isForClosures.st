@@ -1,0 +1,2 @@
+isForClosures
+	^false

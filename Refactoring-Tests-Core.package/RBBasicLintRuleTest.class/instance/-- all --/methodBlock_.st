@@ -1,0 +1,2 @@
+methodBlock: aBlock
+	methodBlock := aBlock

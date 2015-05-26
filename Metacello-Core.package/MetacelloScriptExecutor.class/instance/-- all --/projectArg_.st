@@ -1,0 +1,2 @@
+projectArg: anObject
+    projectArg := anObject

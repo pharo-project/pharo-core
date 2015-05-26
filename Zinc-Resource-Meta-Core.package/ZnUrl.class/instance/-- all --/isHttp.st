@@ -1,0 +1,2 @@
+isHttp
+	^ scheme == #http

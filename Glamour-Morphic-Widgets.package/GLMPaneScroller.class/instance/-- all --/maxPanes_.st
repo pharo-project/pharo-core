@@ -1,0 +1,2 @@
+maxPanes: anInteger
+	maxPanes := anInteger

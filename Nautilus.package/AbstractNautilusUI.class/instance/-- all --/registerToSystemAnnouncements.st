@@ -1,0 +1,24 @@
+registerToSystemAnnouncements
+
+	self browsedEnvironment packageOrganizer announcer weak
+		when: RPackageCreated send: #packageCreated: to: self;
+		when: RPackageUnregistered send: #packageUnregistred: to: self;
+		when: RPackageRenamed send: #packageRenamed: to: self.
+		
+	SystemAnnouncer uniqueInstance weak
+		when: ClassAdded send: #classAdded: to: self;
+		when: ClassCommented send: #classCommented: to: self;
+		when: ClassRecategorized send: #classRecategorized: to: self;
+		when: ClassModifiedClassDefinition send: #classDefinitionModified: to: self;
+		when: ClassRemoved send: #classRemoved: to: self;
+		when: ClassRenamed send: #classRenamed: to: self;
+		when: ClassReorganized send: #classReorganized: to: self;
+		
+		when: MethodAdded send: #methodAdded: to: self;
+		when: MethodModified send: #methodModified: to: self;
+		when: MethodRecategorized send: #methodRecategorized: to: self;
+		when: MethodRemoved send: #methodRemoved: to: self;
+		
+		when: ProtocolAdded send: #classReorganized: to: self;
+		when: ProtocolRemoved send: #classReorganized: to: self.
+	

@@ -1,0 +1,3 @@
+alphaSize: anObject
+	
+	alphaSize := anObject

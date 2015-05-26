@@ -1,0 +1,2 @@
+allCandidates: aBlockWithOneArgument
+	self items: aBlockWithOneArgument

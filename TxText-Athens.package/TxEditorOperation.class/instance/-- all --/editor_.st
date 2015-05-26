@@ -1,0 +1,2 @@
+editor: anEditor
+	editor := anEditor

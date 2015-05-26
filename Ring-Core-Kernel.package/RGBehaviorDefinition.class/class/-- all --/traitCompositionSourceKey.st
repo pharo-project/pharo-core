@@ -1,0 +1,3 @@
+traitCompositionSourceKey
+
+	^#traitCompositionSource

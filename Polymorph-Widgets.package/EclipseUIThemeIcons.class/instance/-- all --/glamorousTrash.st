@@ -1,0 +1,2 @@
+glamorousTrash
+	^ self smallDeleteIcon

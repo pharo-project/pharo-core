@@ -1,0 +1,2 @@
+dependencies: aDependencyList
+	dependencies := aDependencyList

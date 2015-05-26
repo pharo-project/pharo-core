@@ -1,0 +1,2 @@
+authName
+	self subclassResponsibility 

@@ -1,0 +1,3 @@
+isTwoDigitYearPattern
+
+	^ patternStream peekFor: $y

@@ -1,0 +1,2 @@
+selectedItems: aNodeItemCollection
+	self listManager selectedItems: aNodeItemCollection

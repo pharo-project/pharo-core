@@ -1,0 +1,3 @@
+terminateProcessors
+
+	self asyncTask terminate

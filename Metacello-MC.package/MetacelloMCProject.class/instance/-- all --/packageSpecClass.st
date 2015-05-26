@@ -1,0 +1,3 @@
+packageSpecClass
+
+	^MetacelloPackageSpec

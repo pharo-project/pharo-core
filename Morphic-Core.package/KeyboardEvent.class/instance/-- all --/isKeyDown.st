@@ -1,0 +1,2 @@
+isKeyDown
+	^self type == #keyDown

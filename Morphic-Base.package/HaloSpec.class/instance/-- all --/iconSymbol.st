@@ -1,0 +1,2 @@
+iconSymbol
+	^ iconSymbol

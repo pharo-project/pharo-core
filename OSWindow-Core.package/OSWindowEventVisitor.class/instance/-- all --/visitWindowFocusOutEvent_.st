@@ -1,0 +1,1 @@
+visitWindowFocusOutEvent: anEvent

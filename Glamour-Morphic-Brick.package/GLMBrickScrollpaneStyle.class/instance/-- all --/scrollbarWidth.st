@@ -1,0 +1,3 @@
+scrollbarWidth
+
+	^ 3

@@ -1,0 +1,2 @@
+peekLast
+	^ lastElement

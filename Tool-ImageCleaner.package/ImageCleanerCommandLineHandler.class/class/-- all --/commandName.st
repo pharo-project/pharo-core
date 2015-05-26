@@ -1,0 +1,2 @@
+commandName
+	^ 'clean'

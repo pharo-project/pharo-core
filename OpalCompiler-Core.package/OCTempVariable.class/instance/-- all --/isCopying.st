@@ -1,0 +1,2 @@
+isCopying
+	^false

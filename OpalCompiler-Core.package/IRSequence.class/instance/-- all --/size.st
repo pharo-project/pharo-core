@@ -1,0 +1,2 @@
+size
+	^sequence size.

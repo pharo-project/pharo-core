@@ -1,0 +1,3 @@
+commentButtonState
+
+	^ self showComment

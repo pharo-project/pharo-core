@@ -1,0 +1,2 @@
+options: anArray
+	self subclassResponsibility

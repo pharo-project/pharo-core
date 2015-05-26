@@ -1,0 +1,2 @@
+fontWeight
+	^ options at: #weight 

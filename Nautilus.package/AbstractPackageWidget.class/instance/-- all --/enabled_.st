@@ -1,0 +1,2 @@
+enabled: aValue
+	self subclassResponsibility 

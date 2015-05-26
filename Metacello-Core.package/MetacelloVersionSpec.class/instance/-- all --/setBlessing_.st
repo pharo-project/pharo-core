@@ -1,0 +1,2 @@
+setBlessing: anObject
+	blessing := anObject

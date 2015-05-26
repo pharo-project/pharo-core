@@ -1,0 +1,3 @@
+announcer: anObject
+
+	announcer := anObject

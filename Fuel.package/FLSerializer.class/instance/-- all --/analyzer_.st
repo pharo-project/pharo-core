@@ -1,0 +1,2 @@
+analyzer: anObject
+	analyzer := anObject

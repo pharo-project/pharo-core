@@ -1,0 +1,3 @@
+heightState: aSymbol
+
+	heightState := aSymbol

@@ -1,0 +1,2 @@
+setPrologue: anInstrucitons
+	"do nothing"

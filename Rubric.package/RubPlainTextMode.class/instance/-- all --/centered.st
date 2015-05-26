@@ -1,0 +1,2 @@
+centered 
+	self changeAlignment: #centered

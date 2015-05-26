@@ -1,0 +1,2 @@
+association: anAssociation
+	association := anAssociation

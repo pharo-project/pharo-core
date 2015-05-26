@@ -1,0 +1,2 @@
+view: aLayoutView
+	view := aLayoutView

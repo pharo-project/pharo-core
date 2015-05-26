@@ -1,0 +1,3 @@
+lastMessage
+
+	^ self class lastMessage

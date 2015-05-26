@@ -1,0 +1,2 @@
+inset
+	^InsetBorder new

@@ -1,0 +1,2 @@
+initializeNetwork
+	self class initializeNetwork

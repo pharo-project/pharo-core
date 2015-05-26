@@ -1,0 +1,2 @@
+flush
+	self soleInstance flush

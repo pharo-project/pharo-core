@@ -1,0 +1,3 @@
+appliesToDebugger: aDebugger
+
+	^ true

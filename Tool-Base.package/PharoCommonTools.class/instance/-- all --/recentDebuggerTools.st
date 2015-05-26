@@ -1,0 +1,2 @@
+recentDebuggerTools
+	^ self recentToolsFor: #debugger

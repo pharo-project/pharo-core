@@ -1,0 +1,2 @@
+developmentVersion: aVersion
+	developmentVersion := aVersion

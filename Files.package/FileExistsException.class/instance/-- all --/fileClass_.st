@@ -1,0 +1,2 @@
+fileClass: aClass
+	fileClass := aClass

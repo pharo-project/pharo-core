@@ -1,0 +1,2 @@
+newTransformationMorph
+	^TransformationMorph new

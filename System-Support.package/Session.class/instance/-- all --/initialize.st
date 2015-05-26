@@ -1,0 +1,3 @@
+initialize
+
+	creationTime := DateAndTime now.

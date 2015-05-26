@@ -1,0 +1,2 @@
+outStream: stream
+	outStream := stream.

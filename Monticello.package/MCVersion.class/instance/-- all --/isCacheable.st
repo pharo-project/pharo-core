@@ -1,0 +1,2 @@
+isCacheable
+	^true

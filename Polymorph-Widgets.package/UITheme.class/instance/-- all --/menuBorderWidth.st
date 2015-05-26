@@ -1,0 +1,2 @@
+menuBorderWidth 
+	^  self settings menuBorderWidth

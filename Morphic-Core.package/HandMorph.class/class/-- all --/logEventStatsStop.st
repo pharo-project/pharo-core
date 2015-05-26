@@ -1,0 +1,2 @@
+logEventStatsStop
+	EventStats := nil.

@@ -1,0 +1,2 @@
+indentGap: anInteger
+	indentGap := anInteger.

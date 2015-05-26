@@ -1,0 +1,3 @@
+itemIconMaxWidth
+
+	^ 50

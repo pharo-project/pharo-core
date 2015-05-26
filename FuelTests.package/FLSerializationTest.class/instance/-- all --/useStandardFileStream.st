@@ -1,0 +1,3 @@
+useStandardFileStream
+
+	streamFactory := FLFileStreamStrategy newWithStandardFileStream

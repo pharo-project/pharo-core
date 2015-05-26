@@ -1,0 +1,3 @@
+platformAttributes
+
+	 ^self projectPlatformAttributes

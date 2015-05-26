@@ -1,0 +1,3 @@
+loaderClass: aMetacelloSpecLoader
+
+	loaderClass := aMetacelloSpecLoader

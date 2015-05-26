@@ -1,0 +1,2 @@
+flush
+	cache removeAll

@@ -1,0 +1,2 @@
+fileName: aName
+	fileName := aName

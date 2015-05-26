@@ -1,0 +1,2 @@
+filterDoItSelectors: aBoolean
+	DoItFilterEnabled := aBoolean

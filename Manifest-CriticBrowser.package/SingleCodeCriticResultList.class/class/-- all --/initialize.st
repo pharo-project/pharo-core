@@ -1,0 +1,3 @@
+initialize
+	
+	icons := IdentityDictionary new

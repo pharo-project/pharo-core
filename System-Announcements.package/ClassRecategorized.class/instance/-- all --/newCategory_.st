@@ -1,0 +1,2 @@
+newCategory: aNewCategory
+	newCategory := aNewCategory

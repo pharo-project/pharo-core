@@ -1,0 +1,3 @@
+playSoundNamedOrBeep: soundName
+
+	self subclassResponsibility

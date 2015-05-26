@@ -1,0 +1,2 @@
+encoderClass: class
+	encoderClass := class  

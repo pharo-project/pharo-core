@@ -1,0 +1,2 @@
+projectSpec
+    ^ self project projectSpec

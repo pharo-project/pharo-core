@@ -1,0 +1,3 @@
+exampleDependencyPragma
+
+	^ #gtExampleFrom:

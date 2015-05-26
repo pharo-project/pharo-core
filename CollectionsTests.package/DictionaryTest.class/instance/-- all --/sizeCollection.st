@@ -1,0 +1,2 @@
+sizeCollection
+	^ nonEmptyDict

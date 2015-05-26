@@ -1,0 +1,2 @@
+backgroundUpdatingForBigText: aBoolean
+	BackgroundUpdating := aBoolean

@@ -1,0 +1,2 @@
+normal
+	self termcap: 'me'

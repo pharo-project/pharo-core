@@ -1,0 +1,2 @@
+newCharacterSpan
+	^ TxCharacterSpan text: self

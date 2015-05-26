@@ -1,0 +1,2 @@
+selectionStart
+	^ self paragraph selectionStart

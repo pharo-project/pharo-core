@@ -1,0 +1,2 @@
+configurationClass: anObject
+	configurationClass := anObject

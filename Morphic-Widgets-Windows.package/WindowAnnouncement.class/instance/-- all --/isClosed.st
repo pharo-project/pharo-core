@@ -1,0 +1,2 @@
+isClosed
+	^ false

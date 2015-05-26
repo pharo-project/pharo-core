@@ -1,0 +1,2 @@
+asCreationTemplate
+	^ self creationTemplate

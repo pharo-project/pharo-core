@@ -1,0 +1,3 @@
+iconHolder
+
+	^ iconHolder value

@@ -1,0 +1,3 @@
+sortHierarchically: aBoolean
+
+	SortHierarchically := aBoolean

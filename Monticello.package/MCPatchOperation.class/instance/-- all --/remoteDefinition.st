@@ -1,0 +1,2 @@
+remoteDefinition
+	^ self targetDefinition

@@ -1,0 +1,2 @@
+resultText
+	^ result printString

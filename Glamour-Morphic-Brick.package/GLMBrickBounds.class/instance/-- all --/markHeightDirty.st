@@ -1,0 +1,3 @@
+markHeightDirty
+
+	self heightState: #dirty

@@ -1,0 +1,2 @@
+settingsKeywords 
+	^ self class settingsKeywords

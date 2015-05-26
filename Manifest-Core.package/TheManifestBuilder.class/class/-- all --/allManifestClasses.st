@@ -1,0 +1,3 @@
+allManifestClasses
+
+	^ PackageManifest subclasses

@@ -1,0 +1,2 @@
+scrollPivot: aPoint
+	scrollPivot := aPoint

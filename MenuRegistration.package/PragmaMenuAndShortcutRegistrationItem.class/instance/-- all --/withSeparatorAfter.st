@@ -1,0 +1,3 @@
+withSeparatorAfter
+
+	withSeparatorAfter := true

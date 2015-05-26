@@ -1,0 +1,2 @@
+theScriptLoaderPackageName
+	^ 'ScriptLoader',  self currentMajorVersionNumberWithoutDot 

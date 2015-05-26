@@ -1,0 +1,2 @@
+isValueTranslator
+	^self == valueTranslator

@@ -1,0 +1,2 @@
+resetInput
+	self updateRoots

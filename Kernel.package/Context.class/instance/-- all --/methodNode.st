@@ -1,0 +1,2 @@
+methodNode
+	^ self method methodNode.

@@ -1,0 +1,2 @@
+withoutShoutStyler
+	self textArea withoutDecoratorNamed: #shoutStyler

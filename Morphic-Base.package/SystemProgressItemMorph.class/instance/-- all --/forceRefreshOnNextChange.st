@@ -1,0 +1,3 @@
+forceRefreshOnNextChange
+
+	lastRefresh := 0.

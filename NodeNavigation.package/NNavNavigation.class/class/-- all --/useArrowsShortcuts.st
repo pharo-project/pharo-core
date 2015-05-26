@@ -1,0 +1,2 @@
+useArrowsShortcuts
+	^UseArrowsShortcuts ifNil: [ false ]

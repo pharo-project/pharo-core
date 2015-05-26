@@ -1,0 +1,2 @@
+prepareToForceComposition
+	prevText := nil

@@ -1,0 +1,2 @@
+applyFilter
+	^ self items

@@ -1,0 +1,2 @@
+responseCode
+	^responseCode

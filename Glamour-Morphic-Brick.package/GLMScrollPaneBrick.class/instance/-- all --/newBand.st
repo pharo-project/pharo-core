@@ -1,0 +1,3 @@
+newBand
+
+	^ GLMScrollPaneBandBrick new

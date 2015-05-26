@@ -1,0 +1,2 @@
+searchingStringSilently: aString
+	searchingString := aString.

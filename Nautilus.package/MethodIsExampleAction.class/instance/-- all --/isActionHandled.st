@@ -1,0 +1,3 @@
+isActionHandled
+
+	^ method isExampleMethod 

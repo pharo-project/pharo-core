@@ -1,0 +1,2 @@
+defaultBorderColor
+	^ Color orange

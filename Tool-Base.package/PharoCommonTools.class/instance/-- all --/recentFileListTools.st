@@ -1,0 +1,2 @@
+recentFileListTools
+	^ self recentToolsFor: #fileList

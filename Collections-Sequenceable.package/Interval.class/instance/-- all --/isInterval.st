@@ -1,0 +1,3 @@
+isInterval
+
+	^ true

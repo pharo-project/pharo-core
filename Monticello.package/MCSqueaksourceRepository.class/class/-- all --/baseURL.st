@@ -1,0 +1,2 @@
+baseURL
+	^ 'http://squeaksource.com/'

@@ -1,0 +1,2 @@
+lastQuitLogPosition
+	^ LastQuitLogPosition

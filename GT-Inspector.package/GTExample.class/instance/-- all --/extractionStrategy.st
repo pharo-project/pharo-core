@@ -1,0 +1,2 @@
+extractionStrategy
+	^ extractionStrategy

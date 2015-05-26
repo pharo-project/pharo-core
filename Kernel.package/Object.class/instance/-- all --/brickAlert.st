@@ -1,0 +1,3 @@
+brickAlert
+
+	GLMAlertBrick alert: self

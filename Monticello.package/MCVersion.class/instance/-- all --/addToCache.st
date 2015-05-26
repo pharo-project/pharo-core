@@ -1,0 +1,2 @@
+addToCache
+	MCCacheRepository uniqueInstance storeVersion: self

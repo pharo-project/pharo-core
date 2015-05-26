@@ -1,0 +1,3 @@
+vShrinkWrap
+
+	self layout vShrinkWrap

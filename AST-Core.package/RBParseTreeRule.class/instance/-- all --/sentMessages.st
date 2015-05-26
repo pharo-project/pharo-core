@@ -1,0 +1,2 @@
+sentMessages
+	^searchTree sentMessages

@@ -1,0 +1,3 @@
+numberOfPhysicalLines
+
+	^ self composer numberOfPhysicalLines

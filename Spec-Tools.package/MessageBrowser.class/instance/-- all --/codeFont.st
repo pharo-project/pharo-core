@@ -1,0 +1,2 @@
+codeFont
+	^ StandardFonts codeFont

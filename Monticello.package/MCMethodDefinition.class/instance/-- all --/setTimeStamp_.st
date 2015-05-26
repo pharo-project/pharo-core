@@ -1,0 +1,2 @@
+setTimeStamp: aString
+    ^ timeStamp := aString

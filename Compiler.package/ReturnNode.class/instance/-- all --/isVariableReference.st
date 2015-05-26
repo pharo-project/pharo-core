@@ -1,0 +1,3 @@
+isVariableReference
+
+	^expr isVariableReference

@@ -1,0 +1,3 @@
+useProportionalLayout
+
+	self subclassResponsibility

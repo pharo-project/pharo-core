@@ -1,0 +1,2 @@
+privateSetCorner: bottomRight 
+	corner := bottomRight

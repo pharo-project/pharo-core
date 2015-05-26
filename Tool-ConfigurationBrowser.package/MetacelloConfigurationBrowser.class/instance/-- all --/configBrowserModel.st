@@ -1,0 +1,3 @@
+configBrowserModel
+	
+	^ configBrowserModel

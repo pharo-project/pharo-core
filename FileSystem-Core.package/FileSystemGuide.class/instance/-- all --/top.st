@@ -1,0 +1,2 @@
+top
+	^ work removeFirst

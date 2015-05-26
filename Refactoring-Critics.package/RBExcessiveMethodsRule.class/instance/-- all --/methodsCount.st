@@ -1,0 +1,2 @@
+methodsCount
+	^ 60

@@ -1,0 +1,2 @@
+flash
+	^ morph flash

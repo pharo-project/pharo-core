@@ -1,0 +1,2 @@
+actOnPaneRemoved: ann
+	container popPane

@@ -1,0 +1,3 @@
+receiverClass
+
+	^receiverClass

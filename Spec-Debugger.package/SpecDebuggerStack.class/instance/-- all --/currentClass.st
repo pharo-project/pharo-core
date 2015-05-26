@@ -1,0 +1,3 @@
+currentClass
+
+	^ self currentContext methodClass

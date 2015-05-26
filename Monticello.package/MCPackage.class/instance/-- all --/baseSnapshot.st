@@ -1,0 +1,3 @@
+baseSnapshot
+
+	^ self workingCopy baseSnapshot

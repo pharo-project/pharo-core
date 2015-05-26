@@ -1,0 +1,2 @@
+render: aBrowser
+	^ self subclassResponsibility

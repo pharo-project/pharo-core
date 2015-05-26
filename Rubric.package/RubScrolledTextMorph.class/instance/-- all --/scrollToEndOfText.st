@@ -1,0 +1,2 @@
+scrollToEndOfText
+	self scrollPane scrollToEndOfText

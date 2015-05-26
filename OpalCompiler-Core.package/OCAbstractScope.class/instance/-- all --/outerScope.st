@@ -1,0 +1,3 @@
+outerScope
+
+	^ outerScope

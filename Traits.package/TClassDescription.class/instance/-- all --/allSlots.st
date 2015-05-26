@@ -1,0 +1,2 @@
+allSlots
+	self explicitRequirement

@@ -1,0 +1,2 @@
+okButtonLabel
+	^'Ok'

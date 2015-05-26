@@ -1,0 +1,12 @@
+gtInspectorMorphIn: composite
+	<gtInspectorPresentationOrder: 90>  
+	| morphPresentation |
+	morphPresentation := composite morph.
+	morphPresentation 
+		title: 'Morph';
+		display: [
+			self imageForm asMorph
+				on: #mouseDown send: #value: to: [ :event | 
+					morphPresentation selection: (self morphsAt: event position) ] ];
+		act: [ :pres | self exportAsPNG ] entitled: 'Export as PNG';
+		act: [ :pres | self delete ] entitled: 'Delete'

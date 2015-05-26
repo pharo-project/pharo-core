@@ -1,0 +1,2 @@
+hasChildrenSelector: aSymbol
+	hasChildrenSelector := aSymbol

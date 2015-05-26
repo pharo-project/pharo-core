@@ -1,0 +1,2 @@
+label
+	^ 'Morph Viewer'

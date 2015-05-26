@@ -1,0 +1,2 @@
+delimiter
+	^ self class delimiter

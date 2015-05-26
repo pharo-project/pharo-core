@@ -1,0 +1,2 @@
+script
+	^ script ifNil: [script := []]

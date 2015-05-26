@@ -1,0 +1,3 @@
+createSimplePaneMorph
+
+	^ Morph new

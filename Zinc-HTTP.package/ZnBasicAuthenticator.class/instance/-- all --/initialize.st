@@ -1,0 +1,2 @@
+initialize
+	credentials := Dictionary new

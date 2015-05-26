@@ -1,0 +1,3 @@
+isMultiSelection
+
+	^ numberOfSelectedTabs > 1

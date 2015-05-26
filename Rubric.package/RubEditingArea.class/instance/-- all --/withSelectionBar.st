@@ -1,0 +1,2 @@
+withSelectionBar
+	self withDecoratorNamed: #selectionBar

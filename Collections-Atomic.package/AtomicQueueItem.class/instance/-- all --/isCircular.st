@@ -1,0 +1,2 @@
+isCircular
+	^ next == self

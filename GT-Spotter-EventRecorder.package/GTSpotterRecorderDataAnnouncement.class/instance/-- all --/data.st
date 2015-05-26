@@ -1,0 +1,2 @@
+data
+	^ self at: #data

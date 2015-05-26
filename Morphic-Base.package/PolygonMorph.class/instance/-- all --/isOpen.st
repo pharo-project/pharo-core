@@ -1,0 +1,2 @@
+isOpen
+	^ closed not

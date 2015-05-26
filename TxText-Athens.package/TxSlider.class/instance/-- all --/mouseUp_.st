@@ -1,0 +1,3 @@
+mouseUp: evt
+
+	self stopStepping 

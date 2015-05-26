@@ -1,0 +1,3 @@
+addNodePath: aPath
+	^ self subclassResponsibility 
+	

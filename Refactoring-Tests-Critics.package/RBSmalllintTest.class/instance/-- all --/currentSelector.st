@@ -1,0 +1,2 @@
+currentSelector
+	^ testSelector

@@ -1,0 +1,2 @@
+pragmaKeyword
+	^ 'worldMenuExample'

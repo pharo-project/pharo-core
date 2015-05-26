@@ -1,0 +1,2 @@
+versionReferences
+	^ GoferResource current versionReferences

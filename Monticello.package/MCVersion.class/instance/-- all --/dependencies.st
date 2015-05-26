@@ -1,0 +1,2 @@
+dependencies
+	^ dependencies ifNil: [#()]

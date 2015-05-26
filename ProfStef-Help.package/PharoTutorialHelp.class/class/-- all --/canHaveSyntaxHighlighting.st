@@ -1,0 +1,2 @@
+canHaveSyntaxHighlighting
+	^ true 

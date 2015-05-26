@@ -1,0 +1,3 @@
+sizeCodeForEffect: encoder
+
+	self shouldNotImplement

@@ -1,0 +1,3 @@
+buttonMinWidth
+
+	^ 70

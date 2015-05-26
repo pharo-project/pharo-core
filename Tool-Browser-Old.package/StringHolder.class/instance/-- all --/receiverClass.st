@@ -1,0 +1,2 @@
+receiverClass
+	^nil

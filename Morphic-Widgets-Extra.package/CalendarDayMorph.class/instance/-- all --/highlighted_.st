@@ -1,0 +1,3 @@
+highlighted: aBoolean
+
+	highlighted := aBoolean

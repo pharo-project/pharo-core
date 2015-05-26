@@ -1,0 +1,2 @@
+isBorderStyle
+	^true

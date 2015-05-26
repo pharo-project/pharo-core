@@ -1,0 +1,2 @@
+deselectAll
+	packagesList model deselectAll

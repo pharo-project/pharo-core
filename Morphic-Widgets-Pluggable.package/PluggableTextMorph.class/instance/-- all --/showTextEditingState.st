@@ -1,0 +1,2 @@
+showTextEditingState
+	^ self class showTextEditingState

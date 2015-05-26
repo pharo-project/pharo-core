@@ -1,0 +1,3 @@
+labelGraphic
+
+	^ graphicalMorph form

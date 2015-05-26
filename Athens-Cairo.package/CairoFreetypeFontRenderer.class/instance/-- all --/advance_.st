@@ -1,0 +1,2 @@
+advance: aPoint 
+	advance := aPoint

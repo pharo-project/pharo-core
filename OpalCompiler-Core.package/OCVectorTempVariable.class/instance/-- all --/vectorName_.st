@@ -1,0 +1,2 @@
+vectorName: anObject
+	vectorName := anObject

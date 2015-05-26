@@ -1,0 +1,5 @@
+beNotSpace
+
+	self
+		beSpace;
+		negate

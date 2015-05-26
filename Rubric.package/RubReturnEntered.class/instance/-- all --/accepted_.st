@@ -1,0 +1,2 @@
+accepted: aBoolean
+	accepted := aBoolean

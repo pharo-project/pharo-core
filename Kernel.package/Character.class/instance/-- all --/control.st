@@ -1,0 +1,2 @@
+control
+	^ KMModifier control + self

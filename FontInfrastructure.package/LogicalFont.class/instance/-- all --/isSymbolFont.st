@@ -1,0 +1,3 @@
+isSymbolFont
+	
+	^self realFont isSymbolFont

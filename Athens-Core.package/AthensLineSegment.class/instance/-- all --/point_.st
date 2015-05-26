@@ -1,0 +1,3 @@
+point: anObject
+
+	point := anObject

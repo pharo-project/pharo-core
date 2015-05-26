@@ -1,0 +1,3 @@
+maxFileNameLength
+
+	^ 255

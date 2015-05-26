@@ -1,0 +1,2 @@
+sharedPools: aCollection
+	^self explicitRequirement.

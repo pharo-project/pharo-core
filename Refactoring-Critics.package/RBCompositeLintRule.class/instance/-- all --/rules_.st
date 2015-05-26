@@ -1,0 +1,2 @@
+rules: aCollection
+	rules := aCollection

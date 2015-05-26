@@ -1,0 +1,3 @@
+canExpand
+
+	^complexContents hasContents

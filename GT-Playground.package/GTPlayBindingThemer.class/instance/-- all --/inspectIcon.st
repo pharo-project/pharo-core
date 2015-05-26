@@ -1,0 +1,3 @@
+inspectIcon
+
+	^ GLMUIThemeExtraIcons glamorousInspect

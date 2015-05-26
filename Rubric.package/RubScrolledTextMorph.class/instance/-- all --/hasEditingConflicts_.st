@@ -1,0 +1,2 @@
+hasEditingConflicts: aBoolean
+	hasEditingConflicts := aBoolean

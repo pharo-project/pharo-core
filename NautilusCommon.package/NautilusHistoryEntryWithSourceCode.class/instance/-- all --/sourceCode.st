@@ -1,0 +1,2 @@
+sourceCode
+	^ sourceCode ifNil: [ '' ]

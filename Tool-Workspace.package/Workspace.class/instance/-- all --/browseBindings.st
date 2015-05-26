@@ -1,0 +1,2 @@
+browseBindings
+	bindings inspect

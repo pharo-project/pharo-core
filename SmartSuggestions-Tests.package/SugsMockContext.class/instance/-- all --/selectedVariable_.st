@@ -1,0 +1,2 @@
+selectedVariable: aVariableName.
+	selectedVariable := aVariableName.

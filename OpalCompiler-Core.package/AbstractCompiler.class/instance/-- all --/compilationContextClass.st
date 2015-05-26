@@ -1,0 +1,2 @@
+compilationContextClass
+	self subclassResponsibility

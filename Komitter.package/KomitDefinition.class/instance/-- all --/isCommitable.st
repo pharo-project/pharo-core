@@ -1,0 +1,3 @@
+isCommitable
+
+	^ true

@@ -1,0 +1,2 @@
+hasChildrenBlock
+	^ self model hasChildren

@@ -1,0 +1,2 @@
+down
+	self termcap: 'do'

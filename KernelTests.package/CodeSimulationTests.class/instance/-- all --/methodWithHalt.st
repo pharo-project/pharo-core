@@ -1,0 +1,2 @@
+methodWithHalt
+	self halt

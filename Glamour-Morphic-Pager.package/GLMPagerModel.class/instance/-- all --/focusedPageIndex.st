@@ -1,0 +1,2 @@
+focusedPageIndex
+	^ focusedPageIndex

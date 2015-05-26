@@ -1,0 +1,2 @@
+control
+	^ KMModifier ctrl + self

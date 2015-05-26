@@ -1,0 +1,2 @@
+index: aNumber
+	index := aNumber

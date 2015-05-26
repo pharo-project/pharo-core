@@ -1,0 +1,2 @@
+diveIn
+	self diveInDueTo: #undefined

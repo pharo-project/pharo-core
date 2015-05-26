@@ -1,0 +1,3 @@
+rightOffset: aNumber
+
+	^ 0

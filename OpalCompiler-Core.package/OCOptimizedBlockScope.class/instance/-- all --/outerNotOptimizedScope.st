@@ -1,0 +1,2 @@
+outerNotOptimizedScope
+	^self outerScope outerNotOptimizedScope

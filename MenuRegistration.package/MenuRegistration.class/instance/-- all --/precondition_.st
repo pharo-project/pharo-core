@@ -1,0 +1,2 @@
+precondition: aValuable
+	precondition := aValuable

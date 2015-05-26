@@ -1,0 +1,2 @@
+newEmptyDict
+	^ self emptyDict copy

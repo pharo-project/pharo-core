@@ -1,0 +1,3 @@
+getItems
+
+	^ items value

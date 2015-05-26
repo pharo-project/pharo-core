@@ -1,0 +1,2 @@
+englishLocale
+	^ Locale isoLanguage: 'en'

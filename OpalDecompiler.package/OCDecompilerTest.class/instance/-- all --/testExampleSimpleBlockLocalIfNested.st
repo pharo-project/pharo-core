@@ -1,0 +1,2 @@
+testExampleSimpleBlockLocalIfNested
+	self checkMethod: OCOpalExamples>>#exampleSimpleBlockLocalIfNested

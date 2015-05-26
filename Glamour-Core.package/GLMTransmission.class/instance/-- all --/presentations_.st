@@ -1,0 +1,2 @@
+presentations: aCompositePresentation
+	self transmissionStrategy presentations: aCompositePresentation

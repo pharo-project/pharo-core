@@ -1,0 +1,2 @@
+currentScope
+	^scopeStack last

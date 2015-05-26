@@ -1,0 +1,2 @@
+isSample
+    ^ false

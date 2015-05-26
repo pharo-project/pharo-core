@@ -1,0 +1,2 @@
+selectedObject
+	^self selectedElement value

@@ -1,0 +1,3 @@
+printingDirection
+
+	self subclassResponsibility.

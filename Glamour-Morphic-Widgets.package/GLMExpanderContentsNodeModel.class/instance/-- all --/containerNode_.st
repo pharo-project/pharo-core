@@ -1,0 +1,2 @@
+containerNode: anObject
+	containerNode := anObject

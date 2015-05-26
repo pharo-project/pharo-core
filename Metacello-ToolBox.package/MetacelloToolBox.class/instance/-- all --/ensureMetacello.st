@@ -1,0 +1,2 @@
+ensureMetacello
+	"noop for now"

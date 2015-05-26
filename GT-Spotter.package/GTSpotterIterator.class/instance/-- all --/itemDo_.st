@@ -1,0 +1,2 @@
+itemDo: aBlock
+	self subclassResponsibility

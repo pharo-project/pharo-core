@@ -1,0 +1,2 @@
+characterToGlyphMap: anArray 
+	characterToGlyphMap := anArray

@@ -1,0 +1,4 @@
+initializePresenter
+
+	self setActions.
+	

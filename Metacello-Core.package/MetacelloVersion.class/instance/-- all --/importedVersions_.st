@@ -1,0 +1,3 @@
+importedVersions: aCollection
+
+	importedVersions := aCollection

@@ -1,0 +1,2 @@
+keymapEventBuilderClass
+	^ KMFactory keymapEventBuilder

@@ -1,0 +1,2 @@
+listDirection: aSymbol
+	listDirection := aSymbol.

@@ -1,0 +1,3 @@
+asSpotterCandidateLink
+
+	^ GTSpotterCandidateLink value: self

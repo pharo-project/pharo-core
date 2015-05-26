@@ -1,0 +1,3 @@
+methodScope
+
+	^ self

@@ -1,0 +1,2 @@
+computeTagsFilterFor: aGlamourValue 
+	self subclassResponsibility 

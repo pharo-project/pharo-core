@@ -1,0 +1,2 @@
+testSingleRemoteTempVar
+	self checkMethod: OCOpalExamples>>#singleRemoteTempVar

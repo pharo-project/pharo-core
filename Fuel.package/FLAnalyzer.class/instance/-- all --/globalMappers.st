@@ -1,0 +1,3 @@
+globalMappers
+	
+	^globalMappersFactory value

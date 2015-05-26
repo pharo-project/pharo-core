@@ -1,0 +1,3 @@
+previous: anODatedEntry
+
+	previous := anODatedEntry

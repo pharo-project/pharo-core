@@ -1,0 +1,2 @@
+rootNodeClassFromItem: anItem
+	^ SimpleGridNodeExample

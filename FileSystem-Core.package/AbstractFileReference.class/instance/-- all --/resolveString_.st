@@ -1,0 +1,2 @@
+resolveString: aString 
+	self subclassResponsibility

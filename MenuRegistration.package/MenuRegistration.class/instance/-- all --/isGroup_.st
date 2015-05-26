@@ -1,0 +1,2 @@
+isGroup: aBoolean
+	isGroup := aBoolean

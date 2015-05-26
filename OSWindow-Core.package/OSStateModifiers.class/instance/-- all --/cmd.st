@@ -1,0 +1,2 @@
+cmd
+	^ leftCmd or: [  rightCmd ]

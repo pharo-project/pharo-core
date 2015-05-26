@@ -1,0 +1,2 @@
+isShadowDrawing
+	^false

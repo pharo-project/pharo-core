@@ -1,0 +1,2 @@
+buildStringOrText
+	^self printString

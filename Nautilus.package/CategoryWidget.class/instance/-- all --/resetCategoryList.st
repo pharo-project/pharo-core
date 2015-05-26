@@ -1,0 +1,3 @@
+resetCategoryList
+
+	categories := nil

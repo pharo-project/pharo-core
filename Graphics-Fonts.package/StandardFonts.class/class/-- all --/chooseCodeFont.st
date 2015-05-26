@@ -1,0 +1,2 @@
+chooseCodeFont
+	self chooseStandardFont: #codeFont

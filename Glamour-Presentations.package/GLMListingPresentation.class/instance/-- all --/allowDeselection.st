@@ -1,0 +1,2 @@
+allowDeselection
+	self allowsDeselection: true

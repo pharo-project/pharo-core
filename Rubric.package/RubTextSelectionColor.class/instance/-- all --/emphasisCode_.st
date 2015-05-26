@@ -1,0 +1,2 @@
+emphasisCode: anInteger
+	emphasisCode := anInteger

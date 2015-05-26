@@ -1,0 +1,3 @@
+methodListSize
+	
+	^ self getMethods size

@@ -1,0 +1,3 @@
+isFontSet
+
+	^ false.

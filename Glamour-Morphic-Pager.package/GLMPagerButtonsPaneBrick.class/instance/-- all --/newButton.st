@@ -1,0 +1,3 @@
+newButton
+
+	^ GLMPagerScrollButtonBrick new

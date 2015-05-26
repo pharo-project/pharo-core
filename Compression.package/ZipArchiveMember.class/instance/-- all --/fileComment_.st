@@ -1,0 +1,2 @@
+fileComment: aString
+	fileComment := aString

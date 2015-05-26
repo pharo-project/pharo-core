@@ -1,0 +1,2 @@
+nullObject: anObject
+	nullObject := anObject

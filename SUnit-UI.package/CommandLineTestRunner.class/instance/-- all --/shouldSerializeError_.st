@@ -1,0 +1,2 @@
+shouldSerializeError: aBoolean
+	shouldSerializeError := aBoolean.

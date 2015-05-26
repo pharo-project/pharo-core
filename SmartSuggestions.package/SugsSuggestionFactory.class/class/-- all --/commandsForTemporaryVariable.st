@@ -1,0 +1,2 @@
+commandsForTemporaryVariable
+	^self collectCommandsFrom: self collectorForTemporaryVariable .

@@ -1,0 +1,2 @@
+setUpMaterializer
+	materializer := FLMaterializer newDefault

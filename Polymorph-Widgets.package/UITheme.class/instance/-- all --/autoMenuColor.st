@@ -1,0 +1,2 @@
+autoMenuColor
+	^ self settings autoMenuColor

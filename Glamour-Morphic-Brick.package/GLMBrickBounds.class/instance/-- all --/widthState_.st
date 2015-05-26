@@ -1,0 +1,3 @@
+widthState: aSymbol
+
+	widthState := aSymbol

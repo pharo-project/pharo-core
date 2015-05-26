@@ -1,0 +1,3 @@
+originalObject
+
+	^ originalObject

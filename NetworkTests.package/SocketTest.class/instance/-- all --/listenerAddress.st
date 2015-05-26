@@ -1,0 +1,2 @@
+listenerAddress
+	^NetNameResolver loopBackAddress

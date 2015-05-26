@@ -1,0 +1,2 @@
+glamourousNextProduction
+	^ Smalltalk ui icons glamourousNextProduction

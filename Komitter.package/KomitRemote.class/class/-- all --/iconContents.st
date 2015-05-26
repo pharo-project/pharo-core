@@ -1,0 +1,3 @@
+iconContents
+
+	^ nil

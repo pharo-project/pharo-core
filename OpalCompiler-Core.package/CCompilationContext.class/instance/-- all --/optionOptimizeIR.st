@@ -1,0 +1,2 @@
+optionOptimizeIR
+	^ options includes: #optionOptimizeIR

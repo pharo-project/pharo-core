@@ -1,0 +1,2 @@
+abstractMarker
+	^ #subclassResponsibility

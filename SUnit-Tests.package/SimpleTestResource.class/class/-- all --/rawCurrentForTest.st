@@ -1,0 +1,2 @@
+rawCurrentForTest
+	^current

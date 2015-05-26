@@ -1,0 +1,3 @@
+launchUpdateSilently
+
+	^ UpdateStreamer new updateFromServerSilently

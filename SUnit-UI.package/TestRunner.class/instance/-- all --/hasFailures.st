@@ -1,0 +1,2 @@
+hasFailures
+	^ result hasFailures.

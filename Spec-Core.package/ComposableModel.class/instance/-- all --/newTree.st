@@ -1,0 +1,2 @@
+newTree
+	^ self instantiate: TreeModel

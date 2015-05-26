@@ -1,0 +1,2 @@
+uiIconClass
+	^ self current class

@@ -1,0 +1,2 @@
+rootTopic: aTopic
+	rootTopic := aTopic

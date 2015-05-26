@@ -1,0 +1,2 @@
+hasNewFinalization
+	^ HasNewFinalization == true

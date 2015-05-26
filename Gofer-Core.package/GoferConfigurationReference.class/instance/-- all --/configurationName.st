@@ -1,0 +1,2 @@
+configurationName
+	^ 'ConfigurationOf', name

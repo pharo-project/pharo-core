@@ -1,0 +1,3 @@
+autoMultiSelection
+
+	^ self model autoMultiSelection

@@ -1,0 +1,3 @@
+oddRowColor
+
+	^ self model oddRowColor

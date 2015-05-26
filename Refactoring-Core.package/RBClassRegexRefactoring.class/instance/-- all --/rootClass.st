@@ -1,0 +1,2 @@
+rootClass
+	^ rootClass ifNil: [ Object ]

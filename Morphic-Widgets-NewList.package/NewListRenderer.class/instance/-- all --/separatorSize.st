@@ -1,0 +1,3 @@
+separatorSize
+	
+	^ 1

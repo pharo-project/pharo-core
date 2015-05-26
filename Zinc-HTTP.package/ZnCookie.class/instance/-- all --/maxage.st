@@ -1,0 +1,2 @@
+maxage
+	^ self expires

@@ -1,0 +1,2 @@
+sortKey
+	^ self className

@@ -1,0 +1,2 @@
+environment: anSmallTalkImage
+	self subclassResponsibility

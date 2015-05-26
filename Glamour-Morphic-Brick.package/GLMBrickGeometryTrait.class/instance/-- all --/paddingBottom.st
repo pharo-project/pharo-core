@@ -1,0 +1,3 @@
+paddingBottom
+
+	^ self wrappedBounds paddingBottom

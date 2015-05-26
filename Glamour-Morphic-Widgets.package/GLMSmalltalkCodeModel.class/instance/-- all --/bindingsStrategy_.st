@@ -1,0 +1,3 @@
+bindingsStrategy: aBlock
+
+	bindingsStrategy := aBlock

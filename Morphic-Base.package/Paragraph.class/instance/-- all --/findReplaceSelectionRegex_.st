@@ -1,0 +1,2 @@
+findReplaceSelectionRegex: aRegex
+	findReplaceSelectionRegex := aRegex.

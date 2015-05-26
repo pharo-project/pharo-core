@@ -1,0 +1,3 @@
+execute
+
+	self browseVersionHistory

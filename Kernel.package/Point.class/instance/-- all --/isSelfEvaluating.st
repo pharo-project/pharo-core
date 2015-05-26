@@ -1,0 +1,2 @@
+isSelfEvaluating
+	^ self class == Point

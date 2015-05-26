@@ -1,0 +1,3 @@
+candidate
+
+	^ self candidateLink value

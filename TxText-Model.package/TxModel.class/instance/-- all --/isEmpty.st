@@ -1,0 +1,2 @@
+isEmpty
+	^ startSpan next == endSpan 

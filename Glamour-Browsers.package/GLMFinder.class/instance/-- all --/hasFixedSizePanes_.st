@@ -1,0 +1,2 @@
+hasFixedSizePanes: aBoolean
+	hasFixedSizePanes := aBoolean

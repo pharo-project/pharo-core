@@ -1,0 +1,2 @@
+firstArgument
+	^ arguments first

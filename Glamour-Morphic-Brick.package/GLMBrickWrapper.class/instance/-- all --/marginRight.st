@@ -1,0 +1,3 @@
+marginRight
+
+	^ self brick marginRight

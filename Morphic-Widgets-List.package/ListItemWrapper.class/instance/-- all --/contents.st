@@ -1,0 +1,3 @@
+contents
+
+	^Array new

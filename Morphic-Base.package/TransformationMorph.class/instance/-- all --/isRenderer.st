@@ -1,0 +1,3 @@
+isRenderer
+
+	^ true

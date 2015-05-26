@@ -1,0 +1,2 @@
+scrollPane: anObject
+	scrollPane := anObject

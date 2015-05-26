@@ -1,0 +1,3 @@
+rubricTextBackgroundColor
+
+	^ Color transparent

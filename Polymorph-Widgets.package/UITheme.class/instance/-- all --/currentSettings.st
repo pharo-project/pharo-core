@@ -1,0 +1,2 @@
+currentSettings
+	^ self class currentSettings

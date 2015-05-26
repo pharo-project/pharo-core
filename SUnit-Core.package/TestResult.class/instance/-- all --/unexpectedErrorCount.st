@@ -1,0 +1,2 @@
+unexpectedErrorCount
+	^ self unexpectedErrors size

@@ -1,0 +1,2 @@
+glamorousSave 
+	^ self smallSaveIcon

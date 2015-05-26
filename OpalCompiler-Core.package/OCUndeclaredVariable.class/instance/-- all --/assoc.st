@@ -1,0 +1,2 @@
+assoc
+	^Undeclared associationAt: name

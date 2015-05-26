@@ -1,0 +1,3 @@
+leftText
+
+	^ self model leftText

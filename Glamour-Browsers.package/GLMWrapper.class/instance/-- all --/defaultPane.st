@@ -1,0 +1,2 @@
+defaultPane 
+	^ self panes anyOne 

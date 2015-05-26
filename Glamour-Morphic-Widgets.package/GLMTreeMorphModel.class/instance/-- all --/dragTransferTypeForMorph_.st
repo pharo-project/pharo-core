@@ -1,0 +1,2 @@
+dragTransferTypeForMorph: listMorph
+	^ self dragTransferType

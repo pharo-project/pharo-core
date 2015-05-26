@@ -1,0 +1,2 @@
+installScript
+	self installScript: script

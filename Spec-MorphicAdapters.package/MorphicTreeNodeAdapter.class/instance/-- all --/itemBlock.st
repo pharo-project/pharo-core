@@ -1,0 +1,2 @@
+itemBlock
+	^ [ self item ]

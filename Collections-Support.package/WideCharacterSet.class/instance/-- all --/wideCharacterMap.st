@@ -1,0 +1,2 @@
+wideCharacterMap
+	^map

@@ -1,0 +1,3 @@
+basicIdentityHash
+
+	^self

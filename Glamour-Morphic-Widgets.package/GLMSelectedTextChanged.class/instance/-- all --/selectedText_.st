@@ -1,0 +1,2 @@
+selectedText: anObject
+	selectedText := anObject

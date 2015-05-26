@@ -1,0 +1,3 @@
+startedStateSymbol
+
+	^#started

@@ -1,0 +1,3 @@
+buttons: aCollectionOfButtons
+
+	buttons := aCollectionOfButtons

@@ -1,0 +1,2 @@
+checkboxSelectedForm
+	^ self current checkboxSelectedForm.

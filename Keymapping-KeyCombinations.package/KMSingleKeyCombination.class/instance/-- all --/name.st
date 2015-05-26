@@ -1,0 +1,2 @@
+name
+	^ self key asString

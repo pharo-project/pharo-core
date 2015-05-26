@@ -1,0 +1,3 @@
+labelClickable: aBoolean
+
+	labelClickable := aBoolean.

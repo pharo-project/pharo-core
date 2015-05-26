@@ -1,0 +1,2 @@
+fontSlant
+	^ options at: #slant 

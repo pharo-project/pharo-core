@@ -1,0 +1,3 @@
+newInstanceToMaterialize
+	
+	^self newWith: #materializing

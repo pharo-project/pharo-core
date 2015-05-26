@@ -1,0 +1,2 @@
+wantsToHandleGIFs
+	^ false

@@ -1,0 +1,3 @@
+highlightedText
+	
+	^ highlightedString ifNil: [ highlightedString := '' ]

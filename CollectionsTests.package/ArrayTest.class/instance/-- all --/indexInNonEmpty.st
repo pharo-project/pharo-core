@@ -1,0 +1,2 @@
+indexInNonEmpty
+	^ 2 

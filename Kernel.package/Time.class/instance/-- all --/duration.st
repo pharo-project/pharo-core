@@ -1,0 +1,3 @@
+duration
+
+	^ Duration zero 

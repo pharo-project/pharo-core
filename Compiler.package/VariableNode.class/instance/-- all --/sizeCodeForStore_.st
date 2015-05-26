@@ -1,0 +1,2 @@
+sizeCodeForStore: encoder
+	self shouldNotImplement

@@ -1,0 +1,3 @@
+withoutListWrapper
+
+	^self

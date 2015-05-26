@@ -1,0 +1,2 @@
+extractLabels: aBlockClosure
+	" do nothing"

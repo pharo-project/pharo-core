@@ -1,0 +1,2 @@
+printOn: s
+	s << 'tempVectNode'

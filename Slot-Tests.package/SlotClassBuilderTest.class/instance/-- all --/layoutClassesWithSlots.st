@@ -1,0 +1,2 @@
+layoutClassesWithSlots
+	^ { FixedLayout. VariableLayout. WeakLayout }

@@ -1,0 +1,2 @@
+first
+	^ self default first.

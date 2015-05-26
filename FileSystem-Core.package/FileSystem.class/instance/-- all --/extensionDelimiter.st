@@ -1,0 +1,2 @@
+extensionDelimiter
+	^ $.

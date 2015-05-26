@@ -1,0 +1,3 @@
+last
+
+	^ storage last

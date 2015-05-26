@@ -1,0 +1,3 @@
+disableHaltOnce
+
+	isHaltOnceEnabled := false.

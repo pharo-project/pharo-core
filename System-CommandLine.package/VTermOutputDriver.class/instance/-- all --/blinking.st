@@ -1,0 +1,2 @@
+blinking
+	self termcap: 'mb'

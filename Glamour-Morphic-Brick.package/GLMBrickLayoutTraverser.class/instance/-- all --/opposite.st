@@ -1,0 +1,3 @@
+opposite
+
+	^ self subclassResponsibility

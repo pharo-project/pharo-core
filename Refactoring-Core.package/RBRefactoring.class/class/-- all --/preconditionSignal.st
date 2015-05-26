@@ -1,0 +1,2 @@
+preconditionSignal
+	^ RBRefactoringError , RBRefactoringWarning

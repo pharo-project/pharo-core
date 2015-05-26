@@ -1,0 +1,2 @@
+previous: anObject
+	previous := anObject

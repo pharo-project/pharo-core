@@ -1,0 +1,2 @@
+keysAndValuesDo: aBlock
+	self subclassResponsibility

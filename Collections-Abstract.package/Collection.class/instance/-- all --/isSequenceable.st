@@ -1,0 +1,2 @@
+isSequenceable
+	^ false

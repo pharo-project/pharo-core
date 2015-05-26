@@ -1,0 +1,3 @@
+asBrick
+	
+	^ GLMMorphBrick on: self

@@ -1,0 +1,2 @@
+sourceInterval
+	^self node sourceInterval

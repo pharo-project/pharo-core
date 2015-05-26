@@ -1,0 +1,2 @@
+target: aTarget
+	target := aTarget

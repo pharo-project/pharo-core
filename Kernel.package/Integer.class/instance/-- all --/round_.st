@@ -1,0 +1,2 @@
+round: numberOfWishedDecimal
+	^self

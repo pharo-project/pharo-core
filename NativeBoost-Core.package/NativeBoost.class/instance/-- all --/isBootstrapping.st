@@ -1,0 +1,2 @@
+isBootstrapping
+	^ bootstrapping

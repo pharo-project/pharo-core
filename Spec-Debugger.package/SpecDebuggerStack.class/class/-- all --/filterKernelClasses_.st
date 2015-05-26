@@ -1,0 +1,2 @@
+filterKernelClasses: aBoolean
+	KCFilterEnabled := aBoolean

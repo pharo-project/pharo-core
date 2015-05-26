@@ -1,0 +1,2 @@
+presentationsFactory: anObject
+	presentationsFactory := anObject

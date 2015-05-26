@@ -1,0 +1,3 @@
+browseBlock: aBlock
+
+	browseBlock := aBlock

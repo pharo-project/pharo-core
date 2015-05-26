@@ -1,0 +1,2 @@
+setToDebug
+	shouldProfile := true

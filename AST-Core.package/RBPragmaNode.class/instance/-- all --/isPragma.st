@@ -1,0 +1,2 @@
+isPragma
+	^ true

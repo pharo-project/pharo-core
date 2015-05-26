@@ -1,0 +1,2 @@
+hasClassName
+    ^ className ~~ nil

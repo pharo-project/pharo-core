@@ -1,0 +1,3 @@
+convertToSystemString
+
+	^LanguageEnvironment defaultSystemConverter convertToSystemString: self

@@ -1,0 +1,3 @@
+otherwise: aSequence
+
+	otherwise := aSequence

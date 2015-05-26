@@ -1,0 +1,2 @@
+spanPosition
+	^ position spanPosition

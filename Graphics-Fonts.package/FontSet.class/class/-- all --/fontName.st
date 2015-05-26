@@ -1,0 +1,2 @@
+fontName
+	^ self name asSymbol

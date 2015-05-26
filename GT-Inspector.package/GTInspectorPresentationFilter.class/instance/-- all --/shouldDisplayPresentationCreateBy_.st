@@ -1,0 +1,3 @@
+shouldDisplayPresentationCreateBy: aMethod
+
+	self subclassResponsibility

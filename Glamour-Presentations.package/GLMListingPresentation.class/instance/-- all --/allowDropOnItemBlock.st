@@ -1,0 +1,2 @@
+allowDropOnItemBlock
+	^ allowDropOnItemBlock

@@ -1,0 +1,2 @@
+processor: anObject
+	processor := anObject

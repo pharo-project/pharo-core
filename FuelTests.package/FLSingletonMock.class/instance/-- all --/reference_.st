@@ -1,0 +1,2 @@
+reference: anObject
+	^ reference := anObject

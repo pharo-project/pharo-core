@@ -1,0 +1,3 @@
+free
+
+	NativeBoost free: self

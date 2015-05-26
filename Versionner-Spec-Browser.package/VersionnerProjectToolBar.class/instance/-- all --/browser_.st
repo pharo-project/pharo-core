@@ -1,0 +1,2 @@
+browser: aSpecBrowser
+	browser := aSpecBrowser.

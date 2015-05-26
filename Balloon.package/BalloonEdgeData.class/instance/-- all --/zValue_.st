@@ -1,0 +1,2 @@
+zValue: anInteger
+	zValue := anInteger

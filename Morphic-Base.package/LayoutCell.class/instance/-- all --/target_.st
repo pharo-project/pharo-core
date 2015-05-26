@@ -1,0 +1,2 @@
+target: newTarget
+	target := newTarget

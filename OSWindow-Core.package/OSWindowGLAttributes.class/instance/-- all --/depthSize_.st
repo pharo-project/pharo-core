@@ -1,0 +1,3 @@
+depthSize: anObject
+	
+	depthSize := anObject

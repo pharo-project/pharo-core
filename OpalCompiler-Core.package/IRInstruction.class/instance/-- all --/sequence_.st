@@ -1,0 +1,2 @@
+sequence: aSeq
+	sequence := aSeq

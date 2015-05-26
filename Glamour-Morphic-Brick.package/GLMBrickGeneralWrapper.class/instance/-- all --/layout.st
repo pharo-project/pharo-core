@@ -1,0 +1,3 @@
+layout
+
+	^ self brick layoutProperties

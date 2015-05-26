@@ -1,0 +1,4 @@
+categorySelectionChanged
+
+	self resetMethodsList
+	methodWidget updateMethodList.

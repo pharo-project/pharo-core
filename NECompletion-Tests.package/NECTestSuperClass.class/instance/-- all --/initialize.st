@@ -1,0 +1,2 @@
+initialize
+	superInstVar := Dictionary new

@@ -1,0 +1,3 @@
+dottedMajorMinor
+	
+	^ self majorMinor: '.'.

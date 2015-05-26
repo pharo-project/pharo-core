@@ -1,0 +1,4 @@
+resetDisplay
+	
+	self privateSetContents: initialContents.
+	

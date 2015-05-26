@@ -1,0 +1,2 @@
+sliderColor
+	^ Color lightGray 

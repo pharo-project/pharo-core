@@ -1,0 +1,1 @@
+classOrMetaClass: aClass

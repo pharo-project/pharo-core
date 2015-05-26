@@ -1,0 +1,3 @@
+buildWithSpecAsPopup
+
+	^ self buildWithSpec: #popup

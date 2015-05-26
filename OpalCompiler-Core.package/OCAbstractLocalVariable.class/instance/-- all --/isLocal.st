@@ -1,0 +1,3 @@
+isLocal
+
+	^true

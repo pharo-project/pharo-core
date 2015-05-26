@@ -1,0 +1,2 @@
+asConfigurationProjectSpec
+    ^ self

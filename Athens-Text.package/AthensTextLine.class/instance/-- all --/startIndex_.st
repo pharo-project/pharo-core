@@ -1,0 +1,2 @@
+startIndex: index
+	startIndex := index

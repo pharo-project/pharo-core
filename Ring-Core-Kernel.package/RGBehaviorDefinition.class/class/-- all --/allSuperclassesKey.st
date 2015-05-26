@@ -1,0 +1,3 @@
+allSuperclassesKey
+
+	^#allSuperclasses

@@ -1,0 +1,2 @@
+registerSelectionTarget: aTarget 
+	self subclassResponsibility

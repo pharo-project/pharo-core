@@ -1,0 +1,5 @@
+whenChangedDo: aBlock
+
+	| block |
+	block := [:announcement :ann | aBlock cull: announcement newValue cull: announcement oldValue cull: announcement cull: ann ].
+	announcer when: ValueChanged do: block

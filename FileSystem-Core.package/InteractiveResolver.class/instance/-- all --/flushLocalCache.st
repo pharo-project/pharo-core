@@ -1,0 +1,2 @@
+flushLocalCache
+	cache := IdentityDictionary new

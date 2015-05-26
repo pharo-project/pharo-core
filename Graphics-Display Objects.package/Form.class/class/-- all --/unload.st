@@ -1,0 +1,3 @@
+unload
+
+	FileServices unregisterFileReader: self 

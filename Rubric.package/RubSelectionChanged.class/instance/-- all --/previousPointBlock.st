@@ -1,0 +1,2 @@
+previousPointBlock
+	^ previousPointBlock

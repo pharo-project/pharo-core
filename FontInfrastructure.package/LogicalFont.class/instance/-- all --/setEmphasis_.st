@@ -1,0 +1,3 @@
+setEmphasis: code
+
+	emphasis := code

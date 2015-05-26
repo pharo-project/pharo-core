@@ -1,0 +1,2 @@
+size
+	^self locatedMethods size

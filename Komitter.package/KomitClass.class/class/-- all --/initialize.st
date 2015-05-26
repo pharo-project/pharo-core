@@ -1,0 +1,3 @@
+initialize
+
+	classes := Dictionary new.

@@ -1,0 +1,2 @@
+flash
+	^ editView flash

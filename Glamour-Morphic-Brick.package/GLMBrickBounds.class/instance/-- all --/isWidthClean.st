@@ -1,0 +1,3 @@
+isWidthClean
+
+	^ self widthState = #clean

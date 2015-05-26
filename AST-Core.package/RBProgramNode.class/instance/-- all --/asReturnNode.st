@@ -1,0 +1,2 @@
+asReturnNode
+	^ RBReturnNode value: self

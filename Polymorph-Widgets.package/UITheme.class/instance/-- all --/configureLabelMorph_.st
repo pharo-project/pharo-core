@@ -1,0 +1,1 @@
+configureLabelMorph: aMorph

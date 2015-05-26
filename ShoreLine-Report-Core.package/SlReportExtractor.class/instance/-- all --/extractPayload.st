@@ -1,0 +1,3 @@
+extractPayload
+
+	^ self subclassResponsibility 

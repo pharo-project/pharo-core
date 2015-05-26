@@ -1,0 +1,3 @@
+pushReceiverVariable: offset
+
+	bingo := true

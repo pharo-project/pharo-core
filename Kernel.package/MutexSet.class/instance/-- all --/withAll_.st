@@ -1,0 +1,2 @@
+withAll: mutexList
+	array := mutexList.

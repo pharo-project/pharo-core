@@ -1,0 +1,3 @@
+setPreLoadDoIt: aSymbol
+
+	preLoadDoIt := aSymbol

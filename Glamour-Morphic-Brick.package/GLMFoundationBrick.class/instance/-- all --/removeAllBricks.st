@@ -1,0 +1,3 @@
+removeAllBricks
+
+	self brickRoot removeAllBricks

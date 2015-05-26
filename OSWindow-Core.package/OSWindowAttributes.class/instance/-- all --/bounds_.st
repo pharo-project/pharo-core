@@ -1,0 +1,3 @@
+bounds: anObject
+	
+	bounds := anObject

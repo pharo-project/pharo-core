@@ -1,0 +1,2 @@
+update
+	self updateCategories; updateClasses

@@ -1,0 +1,2 @@
+defaultMIMEType
+	^ ZnMimeType default

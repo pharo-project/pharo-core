@@ -1,0 +1,3 @@
+beNormal
+
+	self beMode: #beNormal

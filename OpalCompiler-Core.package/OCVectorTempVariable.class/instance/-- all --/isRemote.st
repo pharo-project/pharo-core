@@ -1,0 +1,2 @@
+isRemote
+	^true

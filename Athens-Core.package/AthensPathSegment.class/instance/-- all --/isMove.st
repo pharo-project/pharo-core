@@ -1,0 +1,2 @@
+isMove
+	^ false

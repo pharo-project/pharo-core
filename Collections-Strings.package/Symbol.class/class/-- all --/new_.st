@@ -1,0 +1,3 @@
+new: aSize
+
+	self shouldNotImplement .

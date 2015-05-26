@@ -1,0 +1,2 @@
+rule: aLintRule 
+	rule := aLintRule

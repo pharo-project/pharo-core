@@ -1,0 +1,2 @@
+whenDialogDeleted
+	dialog := nil.

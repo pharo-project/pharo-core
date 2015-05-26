@@ -1,0 +1,2 @@
+scrollBounds
+	^ self scrollPane scrollBounds

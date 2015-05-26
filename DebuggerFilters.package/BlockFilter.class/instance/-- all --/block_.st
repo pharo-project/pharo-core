@@ -1,0 +1,2 @@
+block: aBlockClosure
+	block:= aBlockClosure

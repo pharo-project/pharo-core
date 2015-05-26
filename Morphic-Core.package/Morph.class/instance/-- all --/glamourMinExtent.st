@@ -1,0 +1,3 @@
+glamourMinExtent
+
+	^ self minExtent

@@ -1,0 +1,2 @@
+isSingle	
+	^ self isMultiple not

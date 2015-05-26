@@ -1,0 +1,2 @@
+diffsWithPrettyPrint: aBoolean
+	DiffsWithPrettyPrint := aBoolean

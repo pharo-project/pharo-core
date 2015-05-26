@@ -1,0 +1,3 @@
+isCodeCompletionAllowed
+
+	^ self model isCodeCompletionAllowed

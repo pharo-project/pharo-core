@@ -1,0 +1,2 @@
+hasContentLength
+	^ contentLength notNil

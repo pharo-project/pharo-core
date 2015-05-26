@@ -1,0 +1,2 @@
+isKeyword
+	^false

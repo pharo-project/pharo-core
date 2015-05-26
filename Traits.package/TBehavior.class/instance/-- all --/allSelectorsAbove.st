@@ -1,0 +1,5 @@
+allSelectorsAbove
+
+	^ self allSelectorsAboveUntil: ProtoObject 
+	
+

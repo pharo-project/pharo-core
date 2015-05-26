@@ -1,0 +1,2 @@
+isMessageNode
+	^true

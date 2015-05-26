@@ -1,0 +1,3 @@
+preferedPaneColor
+
+	^ preferedPaneColor value

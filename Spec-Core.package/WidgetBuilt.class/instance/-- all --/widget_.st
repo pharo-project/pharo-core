@@ -1,0 +1,2 @@
+widget: anObject
+	widget := anObject

@@ -1,0 +1,3 @@
+hasContents: aBlock
+
+	hasContents := aBlock

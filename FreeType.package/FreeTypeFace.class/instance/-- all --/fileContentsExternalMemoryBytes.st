@@ -1,0 +1,2 @@
+fileContentsExternalMemoryBytes
+	^fileContentsExternalMemory ifNotNil:[fileContentsExternalMemory bytes]

@@ -1,0 +1,2 @@
+showAllInstVars
+	^ false

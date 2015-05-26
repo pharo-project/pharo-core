@@ -1,0 +1,3 @@
+getCategories
+
+	^ categoryWidget getCategories

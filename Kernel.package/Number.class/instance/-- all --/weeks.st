@@ -1,0 +1,3 @@
+weeks
+ 
+ 	^ Duration weeks: self

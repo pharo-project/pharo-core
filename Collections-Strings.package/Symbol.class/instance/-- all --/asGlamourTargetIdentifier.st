@@ -1,0 +1,2 @@
+asGlamourTargetIdentifier
+	^ GLMPortIdentifier defaultTargetOf: self

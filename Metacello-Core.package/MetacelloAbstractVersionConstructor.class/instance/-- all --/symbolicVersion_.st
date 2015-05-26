@@ -1,0 +1,3 @@
+symbolicVersion: aSymbol
+
+	symbolicVersion := aSymbol

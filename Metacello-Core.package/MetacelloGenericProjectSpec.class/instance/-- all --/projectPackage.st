@@ -1,0 +1,2 @@
+projectPackage
+    self subclassResponsibility

@@ -1,0 +1,2 @@
+numEntries
+	^ entries size

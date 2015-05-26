@@ -1,0 +1,3 @@
+isToOneSlot
+
+	^true

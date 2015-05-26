@@ -1,0 +1,3 @@
+languageEnvironment
+
+	^ KoreanEnvironment.

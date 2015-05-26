@@ -1,0 +1,2 @@
+defaultScrollTarget
+	^ RubEditingArea new

@@ -1,0 +1,2 @@
+cleanUpForRelease
+	self new cleanUpForRelease

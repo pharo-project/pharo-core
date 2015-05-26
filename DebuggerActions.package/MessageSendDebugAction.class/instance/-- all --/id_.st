@@ -1,0 +1,3 @@
+id: aSymbol
+	
+	id := aSymbol 

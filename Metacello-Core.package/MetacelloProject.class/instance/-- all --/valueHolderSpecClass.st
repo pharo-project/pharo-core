@@ -1,0 +1,3 @@
+valueHolderSpecClass
+
+	^MetacelloValueHolderSpec

@@ -1,0 +1,3 @@
+metaObject: anObject
+	metaObject := anObject .
+	

@@ -1,0 +1,2 @@
+fontGravity
+	^ options at: #gravity

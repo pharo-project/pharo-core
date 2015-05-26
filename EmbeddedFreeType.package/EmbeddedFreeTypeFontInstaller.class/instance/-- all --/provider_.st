@@ -1,0 +1,2 @@
+provider: aProvider
+	provider := aProvider

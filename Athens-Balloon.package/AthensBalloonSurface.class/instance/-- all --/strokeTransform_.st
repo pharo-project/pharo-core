@@ -1,0 +1,3 @@
+strokeTransform: anObject
+
+	strokeTransform := anObject

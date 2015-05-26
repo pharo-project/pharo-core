@@ -1,0 +1,2 @@
+newBytecodeGen
+	^ IRBytecodeGenerator newWithEncoderClass: EncoderForV3PlusClosures

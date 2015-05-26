@@ -1,0 +1,2 @@
+interactive
+	^ interactive ifNil: [ false ]

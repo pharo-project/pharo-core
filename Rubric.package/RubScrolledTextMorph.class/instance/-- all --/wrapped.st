@@ -1,0 +1,2 @@
+wrapped
+	^ self scrollPane wrapped

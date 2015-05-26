@@ -1,0 +1,2 @@
+destroyTwin
+	self reflectiveMethod: nil

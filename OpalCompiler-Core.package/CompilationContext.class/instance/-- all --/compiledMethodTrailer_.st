@@ -1,0 +1,2 @@
+compiledMethodTrailer: anObject
+	compiledMethodTrailer := anObject

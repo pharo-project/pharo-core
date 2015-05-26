@@ -1,0 +1,2 @@
+hasValue
+	^ false

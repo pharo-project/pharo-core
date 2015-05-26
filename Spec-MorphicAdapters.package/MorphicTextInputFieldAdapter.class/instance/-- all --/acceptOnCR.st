@@ -1,0 +1,3 @@
+acceptOnCR
+
+	^ self model acceptOnCR

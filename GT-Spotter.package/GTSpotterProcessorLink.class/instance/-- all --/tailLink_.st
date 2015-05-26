@@ -1,0 +1,2 @@
+tailLink: anObject
+	tailLink := anObject

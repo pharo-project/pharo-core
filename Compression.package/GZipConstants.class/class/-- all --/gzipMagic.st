@@ -1,0 +1,2 @@
+gzipMagic
+	^GZipMagic

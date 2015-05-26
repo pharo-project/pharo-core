@@ -1,0 +1,2 @@
+defaultStatusbarPane
+	^ #'_statusbar'

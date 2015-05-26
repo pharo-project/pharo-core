@@ -1,0 +1,2 @@
+handleResolutionFor: aScriptEngine
+	^ aScriptEngine handleLookupBaselineSpecForEnsureLoad: self

@@ -1,0 +1,3 @@
+selector
+
+	^ obsoletion selector

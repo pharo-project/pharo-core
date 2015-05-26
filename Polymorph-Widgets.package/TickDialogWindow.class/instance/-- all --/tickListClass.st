@@ -1,0 +1,3 @@
+tickListClass
+
+	^ MorphTreeModel

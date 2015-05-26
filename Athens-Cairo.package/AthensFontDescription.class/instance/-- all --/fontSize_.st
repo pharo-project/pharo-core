@@ -1,0 +1,2 @@
+fontSize: aPointSize
+	size := aPointSize

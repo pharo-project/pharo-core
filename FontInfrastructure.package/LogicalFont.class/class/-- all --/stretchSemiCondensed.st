@@ -1,0 +1,2 @@
+stretchSemiCondensed
+	^4

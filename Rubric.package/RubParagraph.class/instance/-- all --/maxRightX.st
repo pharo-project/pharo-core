@@ -1,0 +1,2 @@
+maxRightX
+	^ self composer maxRightX

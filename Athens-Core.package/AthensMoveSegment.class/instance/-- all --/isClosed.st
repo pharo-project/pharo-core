@@ -1,0 +1,2 @@
+isClosed
+	^ closed == true

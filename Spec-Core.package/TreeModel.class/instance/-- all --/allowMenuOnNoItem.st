@@ -1,0 +1,3 @@
+allowMenuOnNoItem
+
+	^ allowMenuOnNoItem value

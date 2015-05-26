@@ -1,0 +1,3 @@
+result: r
+
+	result := r

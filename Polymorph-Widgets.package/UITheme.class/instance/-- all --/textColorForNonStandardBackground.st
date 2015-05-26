@@ -1,0 +1,2 @@
+textColorForNonStandardBackground
+	^ self textColor

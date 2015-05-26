@@ -1,0 +1,3 @@
+remove: aRepositorySpec
+
+	aRepositorySpec removeFromMetacelloRepositories: self

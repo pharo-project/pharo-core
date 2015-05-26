@@ -1,0 +1,3 @@
+packageSpec: aMetacelloPackageSpec
+
+	packageSpec := aMetacelloPackageSpec

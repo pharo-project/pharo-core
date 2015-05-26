@@ -1,0 +1,3 @@
+scrollHorizontal: anObject
+	
+	scrollHorizontal := anObject

@@ -1,0 +1,2 @@
+cursorWithFixedColor: aBoolean
+	FixedColor := aBoolean

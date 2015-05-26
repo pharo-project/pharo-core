@@ -1,0 +1,3 @@
+currentVersion
+
+	^self configurationInfo currentVersion

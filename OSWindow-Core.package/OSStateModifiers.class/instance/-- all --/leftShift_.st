@@ -1,0 +1,3 @@
+leftShift: anObject
+	
+	leftShift := anObject

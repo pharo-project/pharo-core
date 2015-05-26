@@ -1,0 +1,3 @@
+isSuper
+	
+	^type == #super

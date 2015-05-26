@@ -1,0 +1,2 @@
+defaultTextColor.
+	^ Color lightGray

@@ -1,0 +1,2 @@
+arrayNodeClass
+	^ RBArrayNode

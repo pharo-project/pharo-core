@@ -1,0 +1,2 @@
+wantsSteps
+	^self scrollBarAction notNil

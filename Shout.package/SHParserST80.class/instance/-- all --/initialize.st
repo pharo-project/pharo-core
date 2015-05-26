@@ -1,0 +1,2 @@
+initialize
+	environment := Smalltalk

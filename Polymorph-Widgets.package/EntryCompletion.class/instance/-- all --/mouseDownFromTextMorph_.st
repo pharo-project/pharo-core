@@ -1,0 +1,2 @@
+mouseDownFromTextMorph: anEvent
+	self closeChooser

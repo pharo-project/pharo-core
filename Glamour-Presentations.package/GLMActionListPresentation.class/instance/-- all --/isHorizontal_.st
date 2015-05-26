@@ -1,0 +1,2 @@
+isHorizontal: anObject
+	isHorizontal := anObject

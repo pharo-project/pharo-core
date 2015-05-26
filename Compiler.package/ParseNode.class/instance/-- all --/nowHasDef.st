@@ -1,0 +1,1 @@
+nowHasDef  "Ignored in all but VariableNode"

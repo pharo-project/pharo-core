@@ -1,0 +1,3 @@
+stopTimerEventLoop
+
+	^ Scheduler stopTimerEventLoop.

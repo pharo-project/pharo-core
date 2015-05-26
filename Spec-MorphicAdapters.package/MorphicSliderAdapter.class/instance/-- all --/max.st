@@ -1,0 +1,3 @@
+max
+
+	^ self model max

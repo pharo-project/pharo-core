@@ -1,0 +1,3 @@
+privateOwner: aBrick
+
+	owner := aBrick

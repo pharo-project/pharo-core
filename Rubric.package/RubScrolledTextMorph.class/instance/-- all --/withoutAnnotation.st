@@ -1,0 +1,2 @@
+withoutAnnotation
+	self withoutRulerNamed: #annotation

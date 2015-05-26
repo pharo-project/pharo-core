@@ -1,0 +1,3 @@
+addNewPane
+	
+	^self addNewPaneNamed: 'undefined'

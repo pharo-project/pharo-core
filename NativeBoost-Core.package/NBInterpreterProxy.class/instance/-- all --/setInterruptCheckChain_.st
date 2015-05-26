@@ -1,0 +1,2 @@
+setInterruptCheckChain: aFunctionAddr
+	self shouldBeImplemented 

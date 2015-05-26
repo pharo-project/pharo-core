@@ -1,0 +1,2 @@
+categoryTitle
+	^ self infoAt: #categoryTitle

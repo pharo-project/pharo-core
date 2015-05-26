@@ -1,0 +1,2 @@
+asBrick
+	^ self

@@ -1,0 +1,2 @@
+extraDistanceBits
+	^ExtraDistanceBits

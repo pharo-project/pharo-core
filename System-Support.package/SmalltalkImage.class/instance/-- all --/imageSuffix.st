@@ -1,0 +1,2 @@
+imageSuffix
+	^ 'image'

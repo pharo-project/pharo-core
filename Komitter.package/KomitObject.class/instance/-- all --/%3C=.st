@@ -1,0 +1,3 @@
+<= aKomitObject 
+
+	^ self subclassResponsibility

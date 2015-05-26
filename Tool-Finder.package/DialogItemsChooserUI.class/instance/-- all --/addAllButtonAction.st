@@ -1,0 +1,2 @@
+addAllButtonAction
+	self addAllItems.

@@ -1,0 +1,3 @@
+wantsVisualFeedback
+
+	^ wantsVisualFeedback value

@@ -1,0 +1,2 @@
+editingMode
+	^  self textArea editingMode

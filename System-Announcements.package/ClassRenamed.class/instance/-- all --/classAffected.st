@@ -1,0 +1,2 @@
+classAffected
+	^self classRenamed

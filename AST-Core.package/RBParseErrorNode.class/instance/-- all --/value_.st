@@ -1,0 +1,2 @@
+value: aString
+	value := aString.

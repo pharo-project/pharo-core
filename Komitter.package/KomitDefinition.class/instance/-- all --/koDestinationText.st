@@ -1,0 +1,3 @@
+koDestinationText
+	
+	^ self operation koDestinationText

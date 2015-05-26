@@ -1,0 +1,3 @@
+runOnce: anObject
+	
+	runOnce := anObject

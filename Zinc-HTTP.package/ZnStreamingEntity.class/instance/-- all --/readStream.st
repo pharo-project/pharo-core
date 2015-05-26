@@ -1,0 +1,2 @@
+readStream 
+	^ self stream

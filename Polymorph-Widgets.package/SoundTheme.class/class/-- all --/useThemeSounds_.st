@@ -1,0 +1,2 @@
+useThemeSounds: aBoolean
+	UseThemeSounds := aBoolean

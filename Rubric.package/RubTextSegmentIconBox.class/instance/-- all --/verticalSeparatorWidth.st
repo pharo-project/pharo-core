@@ -1,0 +1,2 @@
+verticalSeparatorWidth
+	^ 1

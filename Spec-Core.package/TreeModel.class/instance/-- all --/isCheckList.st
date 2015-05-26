@@ -1,0 +1,3 @@
+isCheckList
+
+	^ isCheckList value

@@ -1,0 +1,2 @@
+activate
+	NonInteractiveTranscript stderr install

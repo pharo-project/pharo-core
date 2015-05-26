@@ -1,0 +1,2 @@
+asMetacelloSemanticVersionNumber
+    ^ MetacelloSemanticVersionNumber fromString: self

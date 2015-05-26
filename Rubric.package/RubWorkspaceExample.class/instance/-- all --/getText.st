@@ -1,0 +1,2 @@
+getText
+	^ textModel getText

@@ -1,0 +1,2 @@
+handlesMouseMove: evt
+	^ true

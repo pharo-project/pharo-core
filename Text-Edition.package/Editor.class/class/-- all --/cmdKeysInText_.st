@@ -1,0 +1,2 @@
+cmdKeysInText: aBoolean
+	CmdKeysInText := aBoolean

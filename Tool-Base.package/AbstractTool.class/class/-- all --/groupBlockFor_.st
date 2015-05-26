@@ -1,0 +1,2 @@
+groupBlockFor: aPackage
+	^ [ aPackage orderedClasses ]

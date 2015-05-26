@@ -1,0 +1,2 @@
+isExternalForm
+	^false

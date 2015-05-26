@@ -1,0 +1,2 @@
+exists
+	^ self resolve exists

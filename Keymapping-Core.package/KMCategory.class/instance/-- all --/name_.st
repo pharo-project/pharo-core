@@ -1,0 +1,2 @@
+name: aCategorySymbol 
+	name := aCategorySymbol 

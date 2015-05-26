@@ -1,0 +1,2 @@
+initializeWithSurface: anAthensSurface	
+	surface := anAthensSurface

@@ -1,0 +1,3 @@
+numLock: anObject
+	
+	numLock := anObject

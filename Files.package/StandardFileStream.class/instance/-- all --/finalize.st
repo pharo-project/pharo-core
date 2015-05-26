@@ -1,0 +1,2 @@
+finalize
+	self primCloseNoError: fileID.

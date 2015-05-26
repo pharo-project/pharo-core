@@ -1,0 +1,3 @@
+selectedCategories
+
+	^ self subclassResponsibility

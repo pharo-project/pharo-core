@@ -1,0 +1,3 @@
+topologicSort
+	
+	^ topologicSortHolder value

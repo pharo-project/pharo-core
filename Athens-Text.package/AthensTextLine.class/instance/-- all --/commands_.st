@@ -1,0 +1,3 @@
+commands: anObject
+
+	commands := anObject

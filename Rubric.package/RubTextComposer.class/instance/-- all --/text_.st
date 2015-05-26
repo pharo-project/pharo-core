@@ -1,0 +1,3 @@
+text: aText
+	theText := aText
+	

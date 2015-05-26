@@ -1,0 +1,2 @@
+newComment: aNewComment
+	newComment := aNewComment

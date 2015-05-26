@@ -1,0 +1,3 @@
+startupScriptName
+
+	^ 'startup.st'

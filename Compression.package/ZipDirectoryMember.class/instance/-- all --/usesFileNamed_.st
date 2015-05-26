@@ -1,0 +1,2 @@
+usesFileNamed: aName
+	^false

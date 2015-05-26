@@ -1,0 +1,2 @@
+compiledMethod
+	^self

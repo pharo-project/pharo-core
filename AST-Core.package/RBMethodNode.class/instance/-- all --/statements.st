@@ -1,0 +1,2 @@
+statements
+	^ self body statements

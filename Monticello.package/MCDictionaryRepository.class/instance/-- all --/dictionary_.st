@@ -1,0 +1,3 @@
+dictionary: aDictionary
+
+	dict := aDictionary

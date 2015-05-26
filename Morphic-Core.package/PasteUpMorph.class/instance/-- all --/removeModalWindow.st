@@ -1,0 +1,2 @@
+removeModalWindow
+	self modalWindow: nil

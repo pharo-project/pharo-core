@@ -1,0 +1,4 @@
+gtExampleMenuMorph
+	<gtExample>
+	^ self example
+	

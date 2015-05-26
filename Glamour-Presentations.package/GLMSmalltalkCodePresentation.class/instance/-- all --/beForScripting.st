@@ -1,0 +1,3 @@
+beForScripting
+
+	isForScripting := true

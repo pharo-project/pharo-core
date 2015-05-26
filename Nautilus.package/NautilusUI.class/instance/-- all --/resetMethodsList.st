@@ -1,0 +1,2 @@
+resetMethodsList
+	self methodWidget resetMethodList

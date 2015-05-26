@@ -1,0 +1,2 @@
+isDictionary
+	^false

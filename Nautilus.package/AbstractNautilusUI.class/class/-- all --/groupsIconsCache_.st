@@ -1,0 +1,3 @@
+groupsIconsCache: anObject
+	
+		GroupsIconsCache := anObject

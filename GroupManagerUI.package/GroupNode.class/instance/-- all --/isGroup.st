@@ -1,0 +1,3 @@
+isGroup
+
+	^ true

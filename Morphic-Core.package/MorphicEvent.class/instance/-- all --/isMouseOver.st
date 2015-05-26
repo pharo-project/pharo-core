@@ -1,0 +1,2 @@
+isMouseOver
+	^self type == #mouseOver

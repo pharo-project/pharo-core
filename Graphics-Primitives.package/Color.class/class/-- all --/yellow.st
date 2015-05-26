@@ -1,0 +1,2 @@
+yellow
+	 ^  ColorRegistry at: #yellow

@@ -1,0 +1,2 @@
+unexpectedPassCount
+	^ self unexpectedPasses size

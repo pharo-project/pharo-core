@@ -1,0 +1,2 @@
+familyName: aString
+	familyName := aString

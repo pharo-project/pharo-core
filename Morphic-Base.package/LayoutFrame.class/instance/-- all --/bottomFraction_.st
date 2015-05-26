@@ -1,0 +1,2 @@
+bottomFraction: aNumber
+	bottomFraction := aNumber

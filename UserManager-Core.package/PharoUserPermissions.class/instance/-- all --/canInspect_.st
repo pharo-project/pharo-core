@@ -1,0 +1,2 @@
+canInspect: anObject
+	canInspect := anObject

@@ -1,0 +1,2 @@
+isLineMorph
+	^false

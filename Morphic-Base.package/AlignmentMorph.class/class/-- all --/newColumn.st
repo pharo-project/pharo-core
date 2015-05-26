@@ -1,0 +1,3 @@
+newColumn
+
+	^ self new setAsColumn

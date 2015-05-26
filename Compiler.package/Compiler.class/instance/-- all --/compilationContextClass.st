@@ -1,0 +1,2 @@
+compilationContextClass
+	^ compilationContextClass ifNil: [ CCompilationContext  ]

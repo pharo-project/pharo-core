@@ -1,0 +1,2 @@
+asFloatArray
+	^self

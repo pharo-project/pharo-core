@@ -1,0 +1,2 @@
+receiver: anObject
+	self subclassResponsibility

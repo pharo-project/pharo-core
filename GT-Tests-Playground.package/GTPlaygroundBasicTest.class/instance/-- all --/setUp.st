@@ -1,0 +1,3 @@
+setUp
+
+	playground := GTPlayground new.

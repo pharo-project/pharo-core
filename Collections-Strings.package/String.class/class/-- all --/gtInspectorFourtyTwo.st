@@ -1,0 +1,3 @@
+gtInspectorFourtyTwo
+	<gtExample>
+	^ '42'

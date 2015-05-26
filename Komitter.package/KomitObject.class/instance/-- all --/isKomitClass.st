@@ -1,0 +1,3 @@
+isKomitClass
+
+	^ false

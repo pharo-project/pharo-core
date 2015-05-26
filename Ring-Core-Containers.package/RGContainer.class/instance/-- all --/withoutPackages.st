@@ -1,0 +1,3 @@
+withoutPackages
+	
+	self removeElementsCategorized: #packages

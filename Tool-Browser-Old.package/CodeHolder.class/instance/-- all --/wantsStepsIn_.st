@@ -1,0 +1,2 @@
+wantsStepsIn: aWindow
+	^ true

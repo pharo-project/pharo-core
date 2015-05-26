@@ -1,0 +1,2 @@
+hash
+	^ directory hash

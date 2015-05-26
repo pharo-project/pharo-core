@@ -1,0 +1,3 @@
+inspectInNewWindow: anObject
+
+	anObject inspect

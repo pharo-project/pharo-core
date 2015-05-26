@@ -1,0 +1,2 @@
+position: aTextPosition
+	position := aTextPosition

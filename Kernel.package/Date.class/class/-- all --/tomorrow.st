@@ -1,0 +1,3 @@
+tomorrow
+
+	^ self today next

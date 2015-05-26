@@ -1,0 +1,2 @@
+highlightSmalltalkContext: anObject
+	highlightSmalltalkContext := anObject

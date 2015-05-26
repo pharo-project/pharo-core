@@ -1,0 +1,2 @@
+isStash
+	^ true

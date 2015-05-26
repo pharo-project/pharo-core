@@ -1,0 +1,2 @@
+rightFlush
+	alignment := 1

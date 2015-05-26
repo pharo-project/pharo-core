@@ -1,0 +1,2 @@
+classDefinitions
+	^self explicitRequirement.

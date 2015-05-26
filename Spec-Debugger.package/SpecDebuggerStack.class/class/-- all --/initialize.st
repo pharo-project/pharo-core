@@ -1,0 +1,3 @@
+initialize
+
+	FilterDictionary := Dictionary new.

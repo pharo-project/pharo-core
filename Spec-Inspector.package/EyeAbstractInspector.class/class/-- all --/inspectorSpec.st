@@ -1,0 +1,3 @@
+inspectorSpec
+	<spec>
+	self subclassResponsibility

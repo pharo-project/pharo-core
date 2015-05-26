@@ -1,0 +1,3 @@
+newCheckboxBrick
+
+	^ GLMInteractableBrick new

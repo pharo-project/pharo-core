@@ -1,0 +1,2 @@
+import
+	self subclassResponsibility

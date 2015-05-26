@@ -1,0 +1,3 @@
+whenMouseClicked: event
+
+	self delete

@@ -1,0 +1,2 @@
+isRemoteTemp
+	^ true

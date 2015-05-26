@@ -1,0 +1,3 @@
+examplePragmas
+
+	^ #(gtExample gtExample:)

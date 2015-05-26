@@ -1,0 +1,3 @@
+loadDirective
+
+	^self loaderPolicy loadDirective

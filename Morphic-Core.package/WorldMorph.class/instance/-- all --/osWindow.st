@@ -1,0 +1,5 @@
+osWindow
+	
+	self checkSession.
+	^ osWindow
+	

@@ -1,0 +1,3 @@
+guessTypeForName: aString
+
+	^nil

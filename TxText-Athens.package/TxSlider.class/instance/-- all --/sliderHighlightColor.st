@@ -1,0 +1,2 @@
+sliderHighlightColor
+	^ Color lightGray muchLighter  

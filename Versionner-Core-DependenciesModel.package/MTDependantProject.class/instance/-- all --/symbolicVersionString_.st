@@ -1,0 +1,2 @@
+symbolicVersionString: anObject
+	symbolicVersionString := anObject

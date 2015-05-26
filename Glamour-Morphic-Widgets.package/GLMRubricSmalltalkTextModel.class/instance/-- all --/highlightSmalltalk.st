@@ -1,0 +1,2 @@
+highlightSmalltalk
+	^ highlightSmalltalk

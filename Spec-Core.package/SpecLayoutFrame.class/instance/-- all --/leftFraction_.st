@@ -1,0 +1,3 @@
+leftFraction: anObject
+	
+	leftFraction := anObject

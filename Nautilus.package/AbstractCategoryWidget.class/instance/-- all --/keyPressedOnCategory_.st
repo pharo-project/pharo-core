@@ -1,0 +1,3 @@
+keyPressedOnCategory: anEvent
+
+	^ self subclassResponsibility

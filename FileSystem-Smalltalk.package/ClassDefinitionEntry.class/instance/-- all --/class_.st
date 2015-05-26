@@ -1,0 +1,2 @@
+class: aClass
+	clazz := aClass.

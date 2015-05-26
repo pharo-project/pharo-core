@@ -1,0 +1,2 @@
+retainBlankLinesBeforeComments: aBoolean
+	RetainBlankLinesBeforeComments := aBoolean

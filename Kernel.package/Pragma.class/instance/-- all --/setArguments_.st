@@ -1,0 +1,2 @@
+setArguments: anArray
+	arguments := anArray

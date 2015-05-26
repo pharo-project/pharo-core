@@ -1,0 +1,2 @@
+lastIsReturn
+	^ self body lastIsReturn

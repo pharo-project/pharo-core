@@ -1,0 +1,3 @@
+dontShowPreview
+
+	isPreviewVisible := false

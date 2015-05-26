@@ -1,0 +1,2 @@
+minimumExtent
+	^ self minExtent

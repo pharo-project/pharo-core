@@ -1,0 +1,3 @@
+openSettingsBrowser
+	GTSpotterPrivacyAgreementNotificationBrick openSettingsBrowser.
+	self spotterModel exitDueTo: #openSettingsBrowser.

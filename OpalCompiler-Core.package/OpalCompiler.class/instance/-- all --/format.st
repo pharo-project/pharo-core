@@ -1,0 +1,2 @@
+format
+	^self parse formattedCode.

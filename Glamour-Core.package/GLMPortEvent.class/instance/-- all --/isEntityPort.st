@@ -1,0 +1,2 @@
+isEntityPort
+	^ self port isEntityPort

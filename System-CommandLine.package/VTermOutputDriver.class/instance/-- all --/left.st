@@ -1,0 +1,2 @@
+left
+	self termcap:  'le'

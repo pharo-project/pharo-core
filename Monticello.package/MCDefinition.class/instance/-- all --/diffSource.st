@@ -1,0 +1,2 @@
+diffSource
+	^ self source

@@ -1,0 +1,2 @@
+noFieldsFormat
+	^ 0

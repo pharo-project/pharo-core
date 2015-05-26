@@ -1,0 +1,3 @@
+bytecodeIndex
+
+	^ bytecodeIndex

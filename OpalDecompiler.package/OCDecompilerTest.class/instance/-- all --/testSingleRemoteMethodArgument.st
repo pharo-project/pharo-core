@@ -1,0 +1,2 @@
+testSingleRemoteMethodArgument
+	self checkMethod: OCOpalExamples>>#singleRemoteMethodArgument

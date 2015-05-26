@@ -1,0 +1,3 @@
+manageRemotesIcon
+
+	^ self class manageRemotesIcon

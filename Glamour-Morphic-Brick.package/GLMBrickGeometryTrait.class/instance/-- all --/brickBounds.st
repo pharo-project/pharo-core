@@ -1,0 +1,3 @@
+brickBounds
+
+	^ self wrappedBounds brickBounds

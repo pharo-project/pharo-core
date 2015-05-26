@@ -1,0 +1,2 @@
+on: readStream
+	stream := readStream

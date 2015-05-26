@@ -1,0 +1,2 @@
+isVirtualProtocol 
+	^ true

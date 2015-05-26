@@ -1,0 +1,3 @@
+configurationInfo: anObject
+	configurationInfo := anObject 
+	

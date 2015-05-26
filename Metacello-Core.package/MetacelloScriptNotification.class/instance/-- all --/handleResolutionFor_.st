@@ -1,0 +1,2 @@
+handleResolutionFor: aScriptEngine
+    self subclassResponsibility

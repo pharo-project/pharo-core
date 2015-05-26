@@ -1,0 +1,3 @@
+pushDup
+
+	^ IRPushDup new

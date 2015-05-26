@@ -1,0 +1,2 @@
+versionCommitMessage
+	^ versionCommitMessage

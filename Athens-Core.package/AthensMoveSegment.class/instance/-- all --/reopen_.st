@@ -1,0 +1,2 @@
+reopen: aBoolean
+	closed := aBoolean

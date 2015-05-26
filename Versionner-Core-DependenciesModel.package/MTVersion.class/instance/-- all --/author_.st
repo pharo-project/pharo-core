@@ -1,0 +1,2 @@
+author: anObject
+	author := anObject

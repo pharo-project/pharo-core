@@ -1,0 +1,3 @@
+newPackage
+	
+	^ newPackage

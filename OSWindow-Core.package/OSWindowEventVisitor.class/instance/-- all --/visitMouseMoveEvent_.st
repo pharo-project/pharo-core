@@ -1,0 +1,1 @@
+visitMouseMoveEvent: anEvent

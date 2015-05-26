@@ -1,0 +1,2 @@
+vScrollbarShowNever
+	self scrollPane vScrollbarShowNever

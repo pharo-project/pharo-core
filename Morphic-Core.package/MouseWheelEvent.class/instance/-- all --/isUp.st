@@ -1,0 +1,3 @@
+isUp
+
+	^ direction = Character arrowUp

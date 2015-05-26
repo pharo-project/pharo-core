@@ -1,0 +1,2 @@
+newLocale: anObject
+	newLocale := anObject

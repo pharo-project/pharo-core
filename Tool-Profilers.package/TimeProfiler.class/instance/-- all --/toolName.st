@@ -1,0 +1,2 @@
+toolName
+	^ 'Time profiler'

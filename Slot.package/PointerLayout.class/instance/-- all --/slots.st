@@ -1,0 +1,2 @@
+slots
+	^ slotScope slots

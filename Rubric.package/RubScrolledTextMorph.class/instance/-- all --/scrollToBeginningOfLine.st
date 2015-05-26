@@ -1,0 +1,2 @@
+scrollToBeginningOfLine
+	self scrollPane scrollToBeginningOfLine

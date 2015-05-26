@@ -1,0 +1,3 @@
+contextMenuDebuggingActionsPragmas
+
+	^ { #contextMenuDebuggingAction }

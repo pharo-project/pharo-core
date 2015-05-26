@@ -1,0 +1,2 @@
+contentsMenuTitle
+	^ 'Contents' translated

@@ -1,0 +1,3 @@
+markLayoutDirty
+
+	self layout markDirty

@@ -1,0 +1,3 @@
+classRenamed
+	
+	^ classRenamed

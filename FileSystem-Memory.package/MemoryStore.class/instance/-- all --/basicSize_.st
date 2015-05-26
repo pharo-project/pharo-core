@@ -1,0 +1,2 @@
+basicSize: aMemoryFileSystemEntry
+	^ aMemoryFileSystemEntry fileSize

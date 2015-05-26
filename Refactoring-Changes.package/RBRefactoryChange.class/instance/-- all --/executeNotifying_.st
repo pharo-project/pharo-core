@@ -1,0 +1,2 @@
+executeNotifying: aBlock 
+	self subclassResponsibility

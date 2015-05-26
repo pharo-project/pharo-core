@@ -1,0 +1,2 @@
+repositorySearchMaxSize
+	^self class repositorySearchMaxSize

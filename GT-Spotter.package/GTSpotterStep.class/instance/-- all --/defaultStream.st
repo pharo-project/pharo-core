@@ -1,0 +1,2 @@
+defaultStream
+	^ GTSpotterUIThreadStream new

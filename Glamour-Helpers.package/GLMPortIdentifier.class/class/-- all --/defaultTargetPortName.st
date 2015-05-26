@@ -1,0 +1,2 @@
+defaultTargetPortName
+	^ #entity

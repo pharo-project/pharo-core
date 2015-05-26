@@ -1,0 +1,2 @@
+default: aDefault
+	^ Singleton := aDefault

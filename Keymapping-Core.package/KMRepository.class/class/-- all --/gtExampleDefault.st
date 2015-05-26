@@ -1,0 +1,3 @@
+gtExampleDefault
+	<gtExample>
+	^ self default

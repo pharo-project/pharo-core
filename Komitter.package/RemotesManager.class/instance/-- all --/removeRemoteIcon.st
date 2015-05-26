@@ -1,0 +1,3 @@
+removeRemoteIcon
+
+	^ self class removeRemoteIcon

@@ -1,0 +1,3 @@
+isVShrinking
+
+	^ vResizing = #shrinkWrap

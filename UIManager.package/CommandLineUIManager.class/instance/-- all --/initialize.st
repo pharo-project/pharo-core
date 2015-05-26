@@ -1,0 +1,2 @@
+initialize
+	doNotQuitOnRestart := false.

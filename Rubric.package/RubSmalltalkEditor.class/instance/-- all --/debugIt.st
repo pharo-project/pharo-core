@@ -1,0 +1,3 @@
+debugIt
+
+	^ self debugSelection

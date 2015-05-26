@@ -1,0 +1,2 @@
+shouldExpandToLevel: level
+	^ expandLevel := level

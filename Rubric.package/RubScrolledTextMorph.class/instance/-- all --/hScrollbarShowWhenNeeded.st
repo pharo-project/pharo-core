@@ -1,0 +1,2 @@
+hScrollbarShowWhenNeeded
+	self scrollPane hScrollbarShowWhenNeeded

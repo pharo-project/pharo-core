@@ -1,0 +1,2 @@
+summary
+	^self baseTrait , ' classTrait'

@@ -1,0 +1,3 @@
+brickThemer
+
+	^ GLMBrickDarkThemer new

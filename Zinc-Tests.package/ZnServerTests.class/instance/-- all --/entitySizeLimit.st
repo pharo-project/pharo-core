@@ -1,0 +1,2 @@
+entitySizeLimit
+	^ 1024

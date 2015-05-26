@@ -1,0 +1,3 @@
+seconds
+ 
+ 	^ self second

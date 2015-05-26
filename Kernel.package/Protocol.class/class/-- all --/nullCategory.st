@@ -1,0 +1,3 @@
+nullCategory
+
+	^ #'no messages'

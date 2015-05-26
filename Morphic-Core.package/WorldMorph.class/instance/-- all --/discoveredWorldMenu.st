@@ -1,0 +1,2 @@
+discoveredWorldMenu
+	^ worldState discoveredWorldMenu

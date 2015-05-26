@@ -1,0 +1,2 @@
+actualPageMorph: anObject
+	actualPageMorph := anObject

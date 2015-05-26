@@ -1,0 +1,2 @@
+visitMethodDefinition: definition
+    self subclassResponsibility

@@ -1,0 +1,2 @@
+inspectorTool
+	^ self inspector

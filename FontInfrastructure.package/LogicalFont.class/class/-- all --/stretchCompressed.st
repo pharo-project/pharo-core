@@ -1,0 +1,2 @@
+stretchCompressed
+	^2

@@ -1,0 +1,3 @@
+classLargeNegativeInteger
+
+	^ self simpleCall

@@ -1,0 +1,3 @@
+exampleOpen
+
+	self gtExample openInBrickWindow

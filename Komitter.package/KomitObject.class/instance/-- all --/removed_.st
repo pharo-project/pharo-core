@@ -1,0 +1,2 @@
+removed: anObject
+	removed := anObject

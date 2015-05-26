@@ -1,0 +1,2 @@
+stopIndex
+	^ textArea stopIndex

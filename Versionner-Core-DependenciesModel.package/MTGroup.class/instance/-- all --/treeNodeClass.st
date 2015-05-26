@@ -1,0 +1,2 @@
+treeNodeClass
+	^ VSGroupLeafNode

@@ -1,0 +1,2 @@
+selectedClasses
+	^ self classWidget selectedClasses

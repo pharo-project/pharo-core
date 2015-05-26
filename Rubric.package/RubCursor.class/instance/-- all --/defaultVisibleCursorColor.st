@@ -1,0 +1,2 @@
+defaultVisibleCursorColor
+	^ self theme textColor

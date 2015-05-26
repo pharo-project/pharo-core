@@ -1,0 +1,2 @@
+loadConfiguration
+	self metacelloVersion load

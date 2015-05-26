@@ -1,0 +1,3 @@
+contentBackgroundColor
+
+	^ Color white

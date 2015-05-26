@@ -1,0 +1,2 @@
+textLogic: aBlock
+	textLogic := aBlock

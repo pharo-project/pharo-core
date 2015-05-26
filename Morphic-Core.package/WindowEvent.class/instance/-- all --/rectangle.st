@@ -1,0 +1,2 @@
+rectangle
+	^rectangle

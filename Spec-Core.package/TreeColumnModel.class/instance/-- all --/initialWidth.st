@@ -1,0 +1,3 @@
+initialWidth
+
+	^ initialWidth value

@@ -1,0 +1,2 @@
+doItFilter
+	^ SelectorFilter forSelector: #doIt

@@ -1,0 +1,2 @@
+thisContextSample
+	^ thisContext copy

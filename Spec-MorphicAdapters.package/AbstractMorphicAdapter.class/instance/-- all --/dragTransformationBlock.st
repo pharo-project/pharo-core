@@ -1,0 +1,3 @@
+dragTransformationBlock
+
+	^ self model dragTransformationBlock

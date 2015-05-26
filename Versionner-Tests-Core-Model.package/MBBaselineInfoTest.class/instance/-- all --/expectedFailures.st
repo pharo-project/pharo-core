@@ -1,0 +1,3 @@
+expectedFailures 
+	true ifTrue: [ ^#() ].
+	^ #(#testcalculateInfoList)

@@ -1,0 +1,3 @@
+encrypted
+
+	^ self model encrypted

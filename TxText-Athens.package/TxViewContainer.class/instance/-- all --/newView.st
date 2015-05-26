@@ -1,0 +1,3 @@
+newView
+
+	^ TxLayoutViewMorph new

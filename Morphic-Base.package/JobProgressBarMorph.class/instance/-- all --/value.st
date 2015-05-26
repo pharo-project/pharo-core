@@ -1,0 +1,2 @@
+value
+	^ progressBar value

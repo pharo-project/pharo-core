@@ -1,0 +1,2 @@
+resetClassSelection
+	self classesSelection removeAll

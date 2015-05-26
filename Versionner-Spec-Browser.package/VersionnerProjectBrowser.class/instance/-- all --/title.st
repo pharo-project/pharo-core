@@ -1,0 +1,2 @@
+title
+	^ configuration name configurationBaseName

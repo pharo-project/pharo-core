@@ -1,0 +1,2 @@
+animateClose
+	"Animate closing."

@@ -1,0 +1,2 @@
+tagsBlock: anObject
+	self explicitRequirement

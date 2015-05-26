@@ -1,0 +1,3 @@
+backgroundColor
+	
+	^ self subclassResponsibility

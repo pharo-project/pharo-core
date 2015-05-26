@@ -1,0 +1,4 @@
+canSaveImage
+	^self permissions canSaveImage
+	
+	

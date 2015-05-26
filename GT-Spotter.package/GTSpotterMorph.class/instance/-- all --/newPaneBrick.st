@@ -1,0 +1,3 @@
+newPaneBrick
+
+	^ GTSpotterPaneBrick new

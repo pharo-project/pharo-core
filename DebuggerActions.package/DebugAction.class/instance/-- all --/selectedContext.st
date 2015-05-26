@@ -1,0 +1,4 @@
+selectedContext
+	
+	^ self debugger selectedContext
+	

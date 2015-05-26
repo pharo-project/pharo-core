@@ -1,0 +1,3 @@
+resetListSelection
+
+	^ self model resetListSelection

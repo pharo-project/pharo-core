@@ -1,0 +1,2 @@
+labelGraphic
+	^ labelGraphic

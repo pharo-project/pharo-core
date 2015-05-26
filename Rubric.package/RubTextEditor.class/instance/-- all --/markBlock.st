@@ -1,0 +1,2 @@
+markBlock
+	^ textArea markBlock

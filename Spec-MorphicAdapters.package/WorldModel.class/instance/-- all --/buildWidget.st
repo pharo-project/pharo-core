@@ -1,0 +1,3 @@
+buildWidget
+
+	^ World asSpecAdapter

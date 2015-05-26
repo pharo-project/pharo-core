@@ -1,0 +1,3 @@
+beHelp
+
+	self beMode: #beHelp

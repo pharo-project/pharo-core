@@ -1,0 +1,3 @@
+getSelector: aSelectorSymbolOrFont
+
+	getSelector := aSelectorSymbolOrFont

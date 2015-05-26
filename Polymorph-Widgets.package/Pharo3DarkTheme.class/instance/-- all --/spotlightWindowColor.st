@@ -1,0 +1,2 @@
+spotlightWindowColor 
+	^ self windowColor

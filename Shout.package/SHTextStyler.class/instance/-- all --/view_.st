@@ -1,0 +1,2 @@
+view: aViewOrMorph 
+	view := aViewOrMorph

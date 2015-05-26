@@ -1,0 +1,2 @@
+isItalic
+	^self isItalicOrOblique

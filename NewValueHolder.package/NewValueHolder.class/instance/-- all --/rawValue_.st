@@ -1,0 +1,3 @@
+rawValue: aValue
+
+	value := aValue

@@ -1,0 +1,3 @@
+configurationClass
+
+	^self subclassResponsibility

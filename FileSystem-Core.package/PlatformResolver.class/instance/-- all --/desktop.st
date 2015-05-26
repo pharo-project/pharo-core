@@ -1,0 +1,2 @@
+desktop
+	^ self subclassResponsibility

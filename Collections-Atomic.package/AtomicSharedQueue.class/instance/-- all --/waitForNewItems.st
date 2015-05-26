@@ -1,0 +1,2 @@
+waitForNewItems
+	availSema wait

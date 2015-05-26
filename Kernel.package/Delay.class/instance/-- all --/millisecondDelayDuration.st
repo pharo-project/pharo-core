@@ -1,0 +1,2 @@
+millisecondDelayDuration
+	^millisecondDelayDuration

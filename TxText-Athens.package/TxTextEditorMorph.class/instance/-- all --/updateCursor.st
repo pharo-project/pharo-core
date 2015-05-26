@@ -1,0 +1,2 @@
+updateCursor
+	self updateCursor: false.

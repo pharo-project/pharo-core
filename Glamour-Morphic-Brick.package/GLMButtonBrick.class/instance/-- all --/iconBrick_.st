@@ -1,0 +1,3 @@
+iconBrick: anObject
+
+	iconBrick := anObject

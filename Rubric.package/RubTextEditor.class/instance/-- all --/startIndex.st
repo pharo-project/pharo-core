@@ -1,0 +1,2 @@
+startIndex
+	^ textArea startIndex

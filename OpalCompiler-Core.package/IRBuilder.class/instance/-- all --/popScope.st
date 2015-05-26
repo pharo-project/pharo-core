@@ -1,0 +1,2 @@
+popScope
+	currentScope pop.

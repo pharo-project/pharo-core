@@ -1,0 +1,2 @@
+ruleCodeCruftLeftInMethodsRuleV1TODO
+^ #(#(#(#RGMethodDefinition #(#SingleCodeCriticResultList #addCriticWithCommentToFalsePositive #false)) #'2013-02-06T15:08:32.572+01:00') #(#(#RGMethodDefinition #(#SingleCodeCriticResultList #addCriticWithCommentToToDo #false)) #'2013-02-06T15:08:32.572000001+01:00') #(#(#RGMethodDefinition #(#SingleCodeCriticResultList #removeRuleToFalsePositive #false)) #'2013-03-21T14:07:34.827+01:00') #(#(#RGMethodDefinition #(#SingleCodeCriticResultList #addRuleToFalsePositive #false)) #'2013-03-21T14:07:34.827000001+01:00') )

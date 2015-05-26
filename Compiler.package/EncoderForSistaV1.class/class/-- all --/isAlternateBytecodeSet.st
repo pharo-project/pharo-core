@@ -1,0 +1,2 @@
+isAlternateBytecodeSet
+	^ true

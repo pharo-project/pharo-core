@@ -1,0 +1,2 @@
+manageHttpProxyExceptions
+	^ LastHTTPProxyExceptions ifNil:[ LastHTTPProxyExceptions := ''].

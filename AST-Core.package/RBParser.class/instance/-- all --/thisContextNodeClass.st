@@ -1,0 +1,2 @@
+thisContextNodeClass
+	^ RBThisContextNode

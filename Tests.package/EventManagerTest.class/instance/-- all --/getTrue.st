@@ -1,0 +1,3 @@
+getTrue
+
+	^true

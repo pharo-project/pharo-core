@@ -1,0 +1,2 @@
+lastLineIndex
+	^ self lineIndexOfCharacterIndex: lastIndex

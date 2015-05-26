@@ -1,0 +1,3 @@
+markDirty
+
+	isDirty := true

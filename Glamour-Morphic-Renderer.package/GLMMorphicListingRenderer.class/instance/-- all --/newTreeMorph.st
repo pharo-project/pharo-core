@@ -1,0 +1,3 @@
+newTreeMorph
+
+	^ GLMPaginatedMorphTreeMorph new

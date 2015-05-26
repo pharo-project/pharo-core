@@ -1,0 +1,3 @@
+showHierarchy
+
+	^ self model showHierarchy

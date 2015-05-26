@@ -1,0 +1,2 @@
+acceptsSelection: aBoolean
+	acceptsSelection := aBoolean

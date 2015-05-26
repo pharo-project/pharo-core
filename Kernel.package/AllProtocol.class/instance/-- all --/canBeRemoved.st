@@ -1,0 +1,2 @@
+canBeRemoved
+	^ false

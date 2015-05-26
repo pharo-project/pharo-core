@@ -1,0 +1,3 @@
+visitWith: visitor
+
+	self subclassResponsibility

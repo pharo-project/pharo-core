@@ -1,0 +1,2 @@
+methodCategoryPrefix
+	^ '*', self packageName asLowercase

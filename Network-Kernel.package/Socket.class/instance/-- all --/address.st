@@ -1,0 +1,3 @@
+address
+	"Shortcut"
+	^self localAddress

@@ -1,0 +1,2 @@
+onEventSensorStartup: anEventSensor
+

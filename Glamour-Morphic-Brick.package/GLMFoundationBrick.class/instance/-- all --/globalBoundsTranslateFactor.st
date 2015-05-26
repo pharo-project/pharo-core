@@ -1,0 +1,3 @@
+globalBoundsTranslateFactor
+
+	^ self globalBounds origin

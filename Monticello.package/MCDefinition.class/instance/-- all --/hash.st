@@ -1,0 +1,2 @@
+hash
+	^ self description hash

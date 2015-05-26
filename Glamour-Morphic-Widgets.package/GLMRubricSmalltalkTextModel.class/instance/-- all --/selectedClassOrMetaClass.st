@@ -1,0 +1,3 @@
+selectedClassOrMetaClass
+	
+	^ self selectedBehavior

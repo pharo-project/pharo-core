@@ -1,0 +1,2 @@
+asAbsolute
+	^ self 

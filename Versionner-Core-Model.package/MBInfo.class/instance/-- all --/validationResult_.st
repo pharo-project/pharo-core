@@ -1,0 +1,3 @@
+validationResult: anObject
+
+	validationResult := anObject

@@ -1,0 +1,3 @@
+breadcrumbSeparatorColor
+
+	^ self breadcrumbItemBackgroundColor muchLighter slightlyDarker

@@ -1,0 +1,2 @@
+dragTransferTypeForMorph: dragSource 
+	^nil

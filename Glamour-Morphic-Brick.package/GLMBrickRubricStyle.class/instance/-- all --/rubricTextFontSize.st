@@ -1,0 +1,3 @@
+rubricTextFontSize
+	
+	^ StandardFonts codeFont pointSize

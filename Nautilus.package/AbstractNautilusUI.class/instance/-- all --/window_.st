@@ -1,0 +1,3 @@
+window: anObject
+
+	window := anObject

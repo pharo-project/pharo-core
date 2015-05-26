@@ -1,0 +1,3 @@
+borderWidthForRounding
+
+	^ self borderWidth

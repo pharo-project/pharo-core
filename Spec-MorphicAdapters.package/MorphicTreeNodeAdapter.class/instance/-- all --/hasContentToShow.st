@@ -1,0 +1,2 @@
+hasContentToShow
+	^ self model hasContentToShow

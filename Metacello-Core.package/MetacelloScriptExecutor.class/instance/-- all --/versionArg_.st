@@ -1,0 +1,2 @@
+versionArg: anObject
+    versionArg := anObject

@@ -1,0 +1,3 @@
+add: aSpec
+
+	self subclassResponsibility

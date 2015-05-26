@@ -1,0 +1,2 @@
+spotterActDefault
+	^ PackageTreeNautilus openOnPackage: self

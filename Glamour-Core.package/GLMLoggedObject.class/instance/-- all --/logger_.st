@@ -1,0 +1,2 @@
+logger: anObject
+	logger := anObject

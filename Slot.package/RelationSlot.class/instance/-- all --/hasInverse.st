@@ -1,0 +1,3 @@
+hasInverse
+
+	^inverseName notNil

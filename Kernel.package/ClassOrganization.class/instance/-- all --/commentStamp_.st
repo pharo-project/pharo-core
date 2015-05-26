@@ -1,0 +1,2 @@
+commentStamp: anObject
+	commentStamp := anObject

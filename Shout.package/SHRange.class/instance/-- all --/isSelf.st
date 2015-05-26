@@ -1,0 +1,3 @@
+isSelf
+	
+	^type == #self

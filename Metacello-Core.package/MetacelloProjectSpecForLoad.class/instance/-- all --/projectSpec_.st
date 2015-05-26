@@ -1,0 +1,2 @@
+projectSpec: anObject
+	projectSpec := anObject

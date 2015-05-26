@@ -1,0 +1,2 @@
+darkGray
+	^ ColorRegistry at: #darkGray

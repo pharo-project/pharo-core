@@ -1,0 +1,2 @@
+selectedMethod
+	^ self currentContext method

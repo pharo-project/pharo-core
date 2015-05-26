@@ -1,0 +1,2 @@
+control
+	^ KMCtrlModifier new

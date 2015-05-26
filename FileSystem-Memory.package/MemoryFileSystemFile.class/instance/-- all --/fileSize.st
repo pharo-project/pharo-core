@@ -1,0 +1,2 @@
+fileSize
+	^ size

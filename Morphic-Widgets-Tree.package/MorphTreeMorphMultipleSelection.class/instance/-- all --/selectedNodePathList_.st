@@ -1,0 +1,2 @@
+selectedNodePathList: aCollectionOfPath
+	selectedNodePathList := aCollectionOfPath

@@ -1,0 +1,2 @@
+isInstVarAccess
+	^ true

@@ -1,0 +1,2 @@
+smooth: anObject
+	smooth := anObject

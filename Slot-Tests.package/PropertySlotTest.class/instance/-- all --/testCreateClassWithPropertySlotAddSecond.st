@@ -1,0 +1,28 @@
+testCreateClassWithPropertySlotAddSecond
+	"Add instance variables using the builder interface"
+	
+	| propertySlot1 propertySlot2|
+	
+	propertySlot1 := #prop1 => PropertySlot.
+	propertySlot2 := #prop2 => PropertySlot.
+	
+	aClass := self make: [ :builder |
+		builder 
+			slots: {propertySlot1}
+		].
+
+	self assert: (aClass hasSlot: propertySlot1).
+	self assert: (aClass layout hasSlot: (propertySlot1 instVarNamed: 'baseSlot')).
+	
+	aClass := self make: [ :builder |
+		builder 
+			slots: {propertySlot1. propertySlot2}
+		].
+	
+	self assert: (aClass hasSlot: propertySlot1).
+	self assert: (aClass layout hasSlot: (propertySlot2 instVarNamed: 'baseSlot')).
+	
+	self assert:  (propertySlot1 instVarNamed: 'baseSlot') == (propertySlot2 instVarNamed: 'baseSlot').
+	
+	self assert: (aClass hasSlot: propertySlot2).
+	self assert: (aClass layout hasSlot: (propertySlot2 instVarNamed: 'baseSlot')).

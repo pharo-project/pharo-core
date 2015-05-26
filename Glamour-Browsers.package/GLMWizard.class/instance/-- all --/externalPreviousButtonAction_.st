@@ -1,0 +1,3 @@
+externalPreviousButtonAction: aBlock
+
+	externalPreviousButtonAction := aBlock

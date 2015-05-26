@@ -1,0 +1,11 @@
+addCustomMenuItems: aCustomMenu hand: aHandMorph
+
+	super addCustomMenuItems: aCustomMenu hand: aHandMorph.
+	aCustomMenu addLine.
+	aCustomMenu add: 'add title...' selector: #addTitle.
+	aCustomMenu add: 'set target...' selector: #setTarget:.
+	defaultTarget ifNotNil: [
+		aCustomMenu add: 'add item...' selector: #addItem].
+	aCustomMenu add: 'add line' selector: #addLine.
+	(self items count: [:any| any hasSubMenu]) > 0
+		ifTrue: [ aCustomMenu add: 'detach submenu' selector: #detachSubMenu: ].

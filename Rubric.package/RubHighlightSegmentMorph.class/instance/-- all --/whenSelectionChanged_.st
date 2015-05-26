@@ -1,0 +1,4 @@
+whenSelectionChanged: anAnnouncement 
+
+	self delete
+	

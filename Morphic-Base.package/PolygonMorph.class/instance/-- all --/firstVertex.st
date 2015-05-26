@@ -1,0 +1,2 @@
+firstVertex
+	^vertices first

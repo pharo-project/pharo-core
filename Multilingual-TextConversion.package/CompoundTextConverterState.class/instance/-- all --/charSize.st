@@ -1,0 +1,3 @@
+charSize
+
+	^ charSize

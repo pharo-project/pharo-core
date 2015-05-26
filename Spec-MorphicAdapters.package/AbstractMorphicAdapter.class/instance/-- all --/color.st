@@ -1,0 +1,3 @@
+color
+
+	^ self model color

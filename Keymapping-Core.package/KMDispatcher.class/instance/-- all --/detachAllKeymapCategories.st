@@ -1,0 +1,3 @@
+detachAllKeymapCategories
+
+	self targets removeAll

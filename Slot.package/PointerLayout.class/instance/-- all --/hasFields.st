@@ -1,0 +1,2 @@
+hasFields
+	^ slotScope hasFields

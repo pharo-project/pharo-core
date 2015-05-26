@@ -1,0 +1,2 @@
+objectCount
+	^ objectCount

@@ -1,0 +1,2 @@
+deleteLine
+	self termcap: 'dl'

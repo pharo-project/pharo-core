@@ -1,0 +1,2 @@
+cursorWidth
+	^ cursorWidth

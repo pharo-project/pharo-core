@@ -1,0 +1,2 @@
+defaultBackgroundColor 
+	^ Color white

@@ -1,0 +1,3 @@
+selectedMethods
+
+	^ methodWidget selectedMethods

@@ -1,0 +1,2 @@
+disableDrawing
+	drawingEnabled := false

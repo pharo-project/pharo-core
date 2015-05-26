@@ -1,0 +1,3 @@
+invalidateMorphBounds
+
+	self invalidateMorphBounds: false

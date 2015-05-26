@@ -1,0 +1,3 @@
+treeLineDashes: anArrayOfInteger
+	treeLineDashes := anArrayOfInteger
+	

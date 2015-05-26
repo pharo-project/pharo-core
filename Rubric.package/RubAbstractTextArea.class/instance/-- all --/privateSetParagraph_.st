@@ -1,0 +1,2 @@
+privateSetParagraph: aParagraph
+	paragraph := aParagraph

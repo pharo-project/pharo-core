@@ -1,0 +1,2 @@
+headerTitle
+	^ headerTitle value

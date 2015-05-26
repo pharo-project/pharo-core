@@ -1,0 +1,2 @@
+isCloseSpotter
+	^ false

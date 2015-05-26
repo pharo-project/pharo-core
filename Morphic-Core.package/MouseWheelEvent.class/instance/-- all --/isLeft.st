@@ -1,0 +1,3 @@
+isLeft
+
+	^ direction = Character arrowLeft

@@ -1,0 +1,2 @@
+textColorForNonStandardBackground
+	^ Color black

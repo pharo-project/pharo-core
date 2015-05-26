@@ -1,0 +1,2 @@
+koSourceText
+	^ definition koSourceText 

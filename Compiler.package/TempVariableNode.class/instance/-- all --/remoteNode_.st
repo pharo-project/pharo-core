@@ -1,0 +1,2 @@
+remoteNode: aRemoteTempVectorNode
+	remoteNode := aRemoteTempVectorNode

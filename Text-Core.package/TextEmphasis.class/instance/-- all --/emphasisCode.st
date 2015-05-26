@@ -1,0 +1,2 @@
+emphasisCode
+	^ emphasisCode

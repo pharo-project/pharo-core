@@ -1,0 +1,2 @@
+metaclassShouldNotOverride
+	^#(#name #comment)

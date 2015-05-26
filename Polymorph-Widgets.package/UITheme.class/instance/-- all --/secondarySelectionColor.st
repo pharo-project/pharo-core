@@ -1,0 +1,2 @@
+secondarySelectionColor
+	^ self settings secondarySelectionColor

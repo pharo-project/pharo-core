@@ -1,0 +1,3 @@
+valueParameter: anObject
+
+	valueParameter := anObject

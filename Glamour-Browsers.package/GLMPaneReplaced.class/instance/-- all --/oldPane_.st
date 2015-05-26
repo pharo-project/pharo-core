@@ -1,0 +1,2 @@
+oldPane: anObject
+	oldPane := anObject

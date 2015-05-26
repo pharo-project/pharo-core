@@ -1,0 +1,3 @@
+gtExampleBasic
+	<gtExample>
+	^ GLMWrapper new

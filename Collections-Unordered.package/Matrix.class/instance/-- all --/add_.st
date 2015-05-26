@@ -1,0 +1,2 @@
+add: newObject
+	self shouldNotImplement

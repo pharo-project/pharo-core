@@ -1,0 +1,2 @@
+useFindReplaceSelection
+	^ self class  useFindReplaceSelection

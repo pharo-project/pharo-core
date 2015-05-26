@@ -1,0 +1,2 @@
+testEmptyArray
+	self assertSerializationEqualityOf: #()

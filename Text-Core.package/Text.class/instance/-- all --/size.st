@@ -1,0 +1,3 @@
+size
+
+	^string size

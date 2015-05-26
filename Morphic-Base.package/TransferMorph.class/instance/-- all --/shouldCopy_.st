@@ -1,0 +1,2 @@
+shouldCopy: aBoolean
+	copy := aBoolean.

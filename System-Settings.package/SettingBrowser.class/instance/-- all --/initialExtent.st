@@ -1,0 +1,2 @@
+initialExtent
+	^ self class initialExtent

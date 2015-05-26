@@ -1,0 +1,2 @@
+elementType
+	^ self infoAt: #elementType

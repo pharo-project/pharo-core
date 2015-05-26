@@ -1,0 +1,2 @@
+condition
+	^ condition

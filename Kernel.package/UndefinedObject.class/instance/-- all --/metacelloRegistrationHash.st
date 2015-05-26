@@ -1,0 +1,2 @@
+metacelloRegistrationHash
+    ^ self hash

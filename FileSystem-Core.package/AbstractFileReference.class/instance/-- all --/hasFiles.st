@@ -1,0 +1,2 @@
+hasFiles
+	^self resolve hasFiles

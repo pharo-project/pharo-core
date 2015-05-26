@@ -1,0 +1,2 @@
+isReadable
+	^ self resolve isReadable

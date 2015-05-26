@@ -1,0 +1,3 @@
+encodingNames
+
+	^Array new

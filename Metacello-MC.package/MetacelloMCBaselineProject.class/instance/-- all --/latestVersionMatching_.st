@@ -1,0 +1,2 @@
+latestVersionMatching: versionPatternString
+    ^ nil

@@ -1,0 +1,2 @@
+removeRemoteWidget
+	^ removeRemote

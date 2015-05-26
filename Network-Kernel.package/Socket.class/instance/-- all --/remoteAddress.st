@@ -1,0 +1,3 @@
+remoteAddress
+
+	^ self primSocketRemoteAddress: socketHandle

@@ -1,0 +1,2 @@
+cache
+	^ self origin: #cache

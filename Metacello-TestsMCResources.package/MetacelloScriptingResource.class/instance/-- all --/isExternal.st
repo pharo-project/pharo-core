@@ -1,0 +1,2 @@
+isExternal
+    ^ false

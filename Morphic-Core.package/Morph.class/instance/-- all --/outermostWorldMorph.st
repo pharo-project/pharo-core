@@ -1,0 +1,3 @@
+outermostWorldMorph
+
+	^World.

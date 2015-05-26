@@ -1,0 +1,2 @@
+ctrl
+	^ leftCtrl or: [  rightCtrl ]

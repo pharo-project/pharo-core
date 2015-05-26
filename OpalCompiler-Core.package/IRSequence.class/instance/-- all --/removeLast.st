@@ -1,0 +1,2 @@
+removeLast
+	^sequence removeLast.

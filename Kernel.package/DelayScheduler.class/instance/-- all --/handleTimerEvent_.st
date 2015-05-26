@@ -1,0 +1,2 @@
+handleTimerEvent: nowTick
+	self subclassResponsibility 

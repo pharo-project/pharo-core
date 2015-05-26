@@ -1,0 +1,2 @@
+itemNameFor: anObject
+	^ anObject gtDisplayString

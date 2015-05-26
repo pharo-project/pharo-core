@@ -1,0 +1,3 @@
+warningLimit
+
+	^ self class warningLimit

@@ -1,0 +1,2 @@
+services
+	^ { self serviceCompressFile }

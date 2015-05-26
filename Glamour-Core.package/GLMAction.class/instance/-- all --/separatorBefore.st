@@ -1,0 +1,3 @@
+separatorBefore
+	
+	^ separatorBefore ifNil: [ false ]

@@ -1,0 +1,2 @@
+getMenu: aMenu
+	^aMenu

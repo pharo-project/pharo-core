@@ -1,0 +1,2 @@
+millisecondsUntilResumptionTime: millisecondResumptionTime
+	self subclassResponsibility 

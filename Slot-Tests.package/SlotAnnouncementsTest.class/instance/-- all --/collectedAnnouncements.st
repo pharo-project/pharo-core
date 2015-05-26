@@ -1,0 +1,2 @@
+collectedAnnouncements
+	^ collectedAnnouncements

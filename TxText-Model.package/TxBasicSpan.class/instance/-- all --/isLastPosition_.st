@@ -1,0 +1,2 @@
+isLastPosition: aNumber
+	^ false

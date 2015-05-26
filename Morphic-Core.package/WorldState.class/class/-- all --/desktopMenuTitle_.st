@@ -1,0 +1,2 @@
+desktopMenuTitle: aString
+	DesktopMenuTitle := aString

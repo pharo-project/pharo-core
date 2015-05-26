@@ -1,0 +1,2 @@
+isInsideOptimizedLoop
+	^ false

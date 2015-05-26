@@ -1,0 +1,2 @@
+checkedIcon: aForm
+	checkedIcon := aForm.

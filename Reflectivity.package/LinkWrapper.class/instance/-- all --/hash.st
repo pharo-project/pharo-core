@@ -1,0 +1,2 @@
+hash
+	^slot hash

@@ -1,0 +1,2 @@
+activate
+	 self subclassResponsibility

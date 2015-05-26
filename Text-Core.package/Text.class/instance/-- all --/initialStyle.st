@@ -1,0 +1,2 @@
+initialStyle
+	^TextStyle default

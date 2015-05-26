@@ -1,0 +1,2 @@
+cursorNormal
+	self termcap: 've'

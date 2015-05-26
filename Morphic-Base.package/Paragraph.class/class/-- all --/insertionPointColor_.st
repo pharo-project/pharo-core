@@ -1,0 +1,2 @@
+insertionPointColor: aColor
+	InsertionPointColor := aColor

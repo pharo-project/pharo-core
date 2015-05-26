@@ -1,0 +1,3 @@
+asMetacelloVersionNumber
+
+	^self

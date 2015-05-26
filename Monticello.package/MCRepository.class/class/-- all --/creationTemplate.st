@@ -1,0 +1,2 @@
+creationTemplate
+	self subclassResponsibility.

@@ -1,0 +1,2 @@
+onTextInserted: ann 
+	self updateSyntaxHighlighting.

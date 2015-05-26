@@ -1,0 +1,2 @@
+notEmpty
+	^sequence notEmpty

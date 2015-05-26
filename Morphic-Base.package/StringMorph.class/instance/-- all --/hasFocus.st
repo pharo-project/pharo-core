@@ -1,0 +1,2 @@
+hasFocus
+	^ hasFocus

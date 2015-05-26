@@ -1,0 +1,2 @@
+isMacOSX
+	^ false

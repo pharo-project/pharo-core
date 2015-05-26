@@ -1,0 +1,2 @@
+delete: aPath
+	self subclassResponsibility 

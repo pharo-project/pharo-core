@@ -1,0 +1,3 @@
+staticSmallWidth
+
+	^ 50

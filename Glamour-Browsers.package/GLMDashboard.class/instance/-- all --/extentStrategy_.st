@@ -1,0 +1,3 @@
+extentStrategy: aGLMDashboardExtentStrategy
+
+	extentStrategy := aGLMDashboardExtentStrategy.

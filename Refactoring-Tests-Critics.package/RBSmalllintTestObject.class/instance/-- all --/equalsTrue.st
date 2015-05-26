@@ -1,0 +1,2 @@
+equalsTrue
+	^true == self

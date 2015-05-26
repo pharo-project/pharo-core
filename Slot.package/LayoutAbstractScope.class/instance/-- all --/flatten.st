@@ -1,0 +1,2 @@
+flatten
+	self subclassResponsibility

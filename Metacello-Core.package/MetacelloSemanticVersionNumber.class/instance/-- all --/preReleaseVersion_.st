@@ -1,0 +1,2 @@
+preReleaseVersion: anObject
+	preReleaseVersion := anObject

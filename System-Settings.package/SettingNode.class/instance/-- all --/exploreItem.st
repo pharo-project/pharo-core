@@ -1,0 +1,2 @@
+exploreItem
+	self settingDeclaration explore

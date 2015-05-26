@@ -1,0 +1,2 @@
+testExampleReturn1plus2
+	self checkMethod: OCOpalExamples>>#exampleReturn1plus2

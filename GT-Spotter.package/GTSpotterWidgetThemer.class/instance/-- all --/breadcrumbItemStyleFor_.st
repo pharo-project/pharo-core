@@ -1,0 +1,3 @@
+breadcrumbItemStyleFor: aBrick
+
+	aBrick vSpaceFill

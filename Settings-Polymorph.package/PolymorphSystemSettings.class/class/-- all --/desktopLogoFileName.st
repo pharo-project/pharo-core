@@ -1,0 +1,2 @@
+desktopLogoFileName
+	^ DesktopLogoFileName ifNil: [DesktopLogoFileName := '']

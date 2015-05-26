@@ -1,0 +1,1 @@
+keyStroke: anEvent fromMorph: aMorph

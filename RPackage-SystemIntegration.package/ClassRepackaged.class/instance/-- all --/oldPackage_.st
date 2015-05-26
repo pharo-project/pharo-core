@@ -1,0 +1,3 @@
+oldPackage: anObject
+	
+	oldPackage := anObject

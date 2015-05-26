@@ -1,0 +1,2 @@
+failure
+	^TestFailure

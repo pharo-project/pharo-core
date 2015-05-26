@@ -1,0 +1,2 @@
+reset
+	table := Dictionary new.

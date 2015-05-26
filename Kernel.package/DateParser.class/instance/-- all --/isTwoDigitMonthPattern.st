@@ -1,0 +1,3 @@
+isTwoDigitMonthPattern
+
+	^ patternStream peekFor: $m

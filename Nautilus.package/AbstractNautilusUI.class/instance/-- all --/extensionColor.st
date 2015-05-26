@@ -1,0 +1,3 @@
+extensionColor
+
+	^ Color gray darker

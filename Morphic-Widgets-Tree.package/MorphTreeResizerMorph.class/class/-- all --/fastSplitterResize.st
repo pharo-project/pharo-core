@@ -1,0 +1,2 @@
+fastSplitterResize
+	^ true

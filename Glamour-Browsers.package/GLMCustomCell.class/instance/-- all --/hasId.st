@@ -1,0 +1,3 @@
+hasId 
+	 
+	^id notNil

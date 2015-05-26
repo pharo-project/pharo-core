@@ -1,0 +1,2 @@
+name
+	^ '#detect:ifNone: -> anySatisfy:'

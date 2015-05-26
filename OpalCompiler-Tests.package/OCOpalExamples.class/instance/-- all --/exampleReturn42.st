@@ -1,0 +1,2 @@
+exampleReturn42
+	^42

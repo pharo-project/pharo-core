@@ -1,0 +1,3 @@
+useLittleEndian
+
+	^ useLittleEndian

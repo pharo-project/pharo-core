@@ -1,0 +1,2 @@
+selectAll
+	self requestView: MorphTreeChangeRequest selectAll

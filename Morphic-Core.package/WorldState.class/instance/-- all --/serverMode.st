@@ -1,0 +1,2 @@
+serverMode
+	^ self class serverMode

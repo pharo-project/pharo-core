@@ -1,0 +1,3 @@
+internalGetText
+
+	^ method sourceCode

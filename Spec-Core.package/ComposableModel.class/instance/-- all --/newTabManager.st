@@ -1,0 +1,2 @@
+newTabManager
+	^ self instantiate: TabManagerModel

@@ -1,0 +1,2 @@
+rootClass: aClass
+	 rootClass := aClass

@@ -1,0 +1,3 @@
+ghostText
+
+	^ self model ghostText

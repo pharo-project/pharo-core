@@ -1,0 +1,3 @@
+shouldStop: aBoolean
+
+	shouldStop := aBoolean

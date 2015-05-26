@@ -1,0 +1,2 @@
+isRendered
+	^ actualPageMorph notNil

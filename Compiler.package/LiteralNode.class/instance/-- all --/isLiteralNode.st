@@ -1,0 +1,3 @@
+isLiteralNode
+
+	^ true

@@ -1,0 +1,2 @@
+printString
+	^wrapped printString

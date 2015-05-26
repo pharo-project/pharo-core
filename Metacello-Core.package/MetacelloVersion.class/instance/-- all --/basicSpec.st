@@ -1,0 +1,2 @@
+basicSpec
+    ^ self spec

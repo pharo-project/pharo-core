@@ -1,0 +1,3 @@
+columnInset
+
+	^ self model columnInset

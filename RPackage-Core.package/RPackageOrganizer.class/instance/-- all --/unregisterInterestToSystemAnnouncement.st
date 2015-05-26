@@ -1,0 +1,4 @@
+unregisterInterestToSystemAnnouncement
+	"self unregisterInterestToSystemAnnouncement"
+
+	SystemAnnouncer uniqueInstance unsubscribe: self

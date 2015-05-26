@@ -1,0 +1,3 @@
+classSemaphore
+	
+	^ self simpleCall

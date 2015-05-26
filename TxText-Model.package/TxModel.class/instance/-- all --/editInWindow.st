@@ -1,0 +1,2 @@
+editInWindow
+	^ TxViewContainer editText: self

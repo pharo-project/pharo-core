@@ -1,0 +1,3 @@
+stackIndex
+
+	^stackIndex

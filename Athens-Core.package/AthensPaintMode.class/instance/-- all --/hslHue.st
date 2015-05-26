@@ -1,0 +1,2 @@
+hslHue
+	self notAvailable

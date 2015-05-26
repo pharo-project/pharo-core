@@ -1,0 +1,2 @@
+defaultPageSize: anInteger
+	defaultPageSize := anInteger

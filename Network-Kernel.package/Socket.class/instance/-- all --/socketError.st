@@ -1,0 +1,2 @@
+socketError
+	^self primSocketError: socketHandle

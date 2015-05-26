@@ -1,0 +1,2 @@
+findReplaceService
+	^ RubFindReplaceService default

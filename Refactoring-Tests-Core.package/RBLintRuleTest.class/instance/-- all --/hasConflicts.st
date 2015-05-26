@@ -1,0 +1,2 @@
+hasConflicts
+	^false

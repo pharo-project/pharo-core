@@ -1,0 +1,2 @@
+isTrait
+	^true

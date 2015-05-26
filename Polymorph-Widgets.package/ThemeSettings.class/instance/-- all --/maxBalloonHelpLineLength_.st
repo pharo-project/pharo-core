@@ -1,0 +1,2 @@
+maxBalloonHelpLineLength: anInteger
+	maxBalloonHelpLineLength := anInteger

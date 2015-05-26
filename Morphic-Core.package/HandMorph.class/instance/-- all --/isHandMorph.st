@@ -1,0 +1,3 @@
+isHandMorph
+
+	^ true

@@ -1,0 +1,2 @@
+labelFor: anEyeElement
+	^ anEyeElement label

@@ -1,0 +1,2 @@
+literalNodeClass
+	^ RBLiteralNode

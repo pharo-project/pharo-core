@@ -1,0 +1,3 @@
+newCloseButton
+
+	^ GLMHintableActionButtonBrick new

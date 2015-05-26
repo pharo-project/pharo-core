@@ -1,0 +1,2 @@
+previous
+	^ self default previous.

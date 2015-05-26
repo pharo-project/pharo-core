@@ -1,0 +1,3 @@
+selector: symbol
+
+	selector := symbol

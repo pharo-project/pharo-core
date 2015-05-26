@@ -1,0 +1,2 @@
+optimized
+	^optimized

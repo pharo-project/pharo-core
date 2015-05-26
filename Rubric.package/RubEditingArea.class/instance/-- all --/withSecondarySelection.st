@@ -1,0 +1,2 @@
+withSecondarySelection
+	self withDecoratorNamed: #secondarySelection

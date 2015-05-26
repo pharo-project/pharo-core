@@ -1,0 +1,2 @@
+selectedClass
+	self subclassResponsibility 

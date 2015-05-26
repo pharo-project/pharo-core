@@ -1,0 +1,2 @@
+load
+	^ self resume: true

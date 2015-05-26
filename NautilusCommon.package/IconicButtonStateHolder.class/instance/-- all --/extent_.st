@@ -1,0 +1,2 @@
+extent: anObject
+	extent := anObject

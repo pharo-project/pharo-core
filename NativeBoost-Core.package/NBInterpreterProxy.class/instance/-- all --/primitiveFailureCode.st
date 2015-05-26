@@ -1,0 +1,2 @@
+primitiveFailureCode
+	self shouldBeImplemented 

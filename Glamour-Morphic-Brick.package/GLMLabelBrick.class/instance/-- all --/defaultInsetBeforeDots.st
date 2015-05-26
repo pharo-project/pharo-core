@@ -1,0 +1,2 @@
+defaultInsetBeforeDots
+	^ 1

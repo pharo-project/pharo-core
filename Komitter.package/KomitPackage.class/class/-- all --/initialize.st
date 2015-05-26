@@ -1,0 +1,3 @@
+initialize
+
+	packages := Dictionary new

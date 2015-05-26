@@ -1,0 +1,2 @@
+slots: someSlots
+	slots := someSlots

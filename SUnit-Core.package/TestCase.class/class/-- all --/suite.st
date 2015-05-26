@@ -1,0 +1,3 @@
+suite
+
+	^self buildSuite

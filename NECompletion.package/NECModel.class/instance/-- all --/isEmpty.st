@@ -1,0 +1,2 @@
+isEmpty
+	^ entries isEmpty

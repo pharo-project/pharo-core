@@ -1,0 +1,2 @@
+periodsAsTerminators
+	^ PeriodsAtEndOfBlock and: [ PeriodsAtEndOfMethod ]

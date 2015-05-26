@@ -1,0 +1,2 @@
+joinStyle: join
+	joinStyle := join.

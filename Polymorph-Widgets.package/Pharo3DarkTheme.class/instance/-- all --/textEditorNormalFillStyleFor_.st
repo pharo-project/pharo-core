@@ -1,0 +1,2 @@
+textEditorNormalFillStyleFor: aTextEditor
+	^ self backgroundColor

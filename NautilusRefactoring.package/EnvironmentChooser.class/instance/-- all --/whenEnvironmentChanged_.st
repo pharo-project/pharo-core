@@ -1,0 +1,2 @@
+whenEnvironmentChanged: aBlock
+	environmentHolder whenChangedDo: aBlock

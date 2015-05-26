@@ -1,0 +1,3 @@
+rootNodeHolder
+
+	^ self model rootNodeHolder

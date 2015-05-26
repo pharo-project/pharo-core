@@ -1,0 +1,2 @@
+styleName
+	^super styleName ifNil:['']

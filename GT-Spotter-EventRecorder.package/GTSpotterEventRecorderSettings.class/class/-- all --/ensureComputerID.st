@@ -1,0 +1,4 @@
+ensureComputerID
+
+	self loadPreferences
+	

@@ -1,0 +1,2 @@
+isInsideOptimizedLoop
+	^ self outerScope isInsideOptimizedLoop

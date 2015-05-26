@@ -1,0 +1,3 @@
+model: aCollection 
+
+	model := aCollection.

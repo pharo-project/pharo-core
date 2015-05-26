@@ -1,0 +1,2 @@
+objectVariableSize
+	^ self object basicSize

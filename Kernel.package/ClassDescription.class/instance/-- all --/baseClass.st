@@ -1,0 +1,2 @@
+baseClass
+	^self subclassResponsibility.

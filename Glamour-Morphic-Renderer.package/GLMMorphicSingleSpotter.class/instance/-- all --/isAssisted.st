@@ -1,0 +1,2 @@
+isAssisted
+	^ self model assisted

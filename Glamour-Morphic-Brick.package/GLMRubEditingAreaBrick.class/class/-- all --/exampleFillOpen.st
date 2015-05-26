@@ -1,0 +1,3 @@
+exampleFillOpen
+
+	self gtExampleFill openCenteredInBrickWindow

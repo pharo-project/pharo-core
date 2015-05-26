@@ -1,0 +1,2 @@
+display
+	worldState display

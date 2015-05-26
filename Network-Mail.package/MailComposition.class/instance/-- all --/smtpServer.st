@@ -1,0 +1,2 @@
+smtpServer
+	^self class smtpServer

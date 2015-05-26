@@ -1,0 +1,2 @@
+tempName: anObject
+	tempName := anObject

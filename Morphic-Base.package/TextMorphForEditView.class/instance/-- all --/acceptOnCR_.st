@@ -1,0 +1,2 @@
+acceptOnCR: trueOrFalse
+	acceptOnCR := trueOrFalse

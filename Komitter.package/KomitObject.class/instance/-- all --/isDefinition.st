@@ -1,0 +1,3 @@
+isDefinition
+
+	^ false

@@ -1,0 +1,3 @@
+initialExtent
+	^ self inspector initialExtent
+	

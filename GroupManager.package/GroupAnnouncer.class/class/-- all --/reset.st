@@ -1,0 +1,2 @@
+reset
+	announcer := nil.

@@ -1,0 +1,2 @@
+basicBorderWidth: aNumber 
+	borderWidth := aNumber

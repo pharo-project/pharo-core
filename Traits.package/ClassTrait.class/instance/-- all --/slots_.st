@@ -1,0 +1,2 @@
+slots: slotDefinition 
+	"Compatibility purposes"

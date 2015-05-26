@@ -1,0 +1,2 @@
+testExamplePrimitiveErrorCode
+	self checkMethod: OCOpalExamples>>#examplePrimitiveErrorCode

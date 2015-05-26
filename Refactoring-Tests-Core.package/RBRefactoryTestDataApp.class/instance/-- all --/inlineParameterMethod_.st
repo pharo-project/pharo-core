@@ -1,0 +1,2 @@
+inlineParameterMethod: aSymbol
+	^aSymbol isSymbol

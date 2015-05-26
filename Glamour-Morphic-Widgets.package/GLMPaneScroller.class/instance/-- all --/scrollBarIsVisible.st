@@ -1,0 +1,2 @@
+scrollBarIsVisible
+	^ submorphs includes: scrollBar

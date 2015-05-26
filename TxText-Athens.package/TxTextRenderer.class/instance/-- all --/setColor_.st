@@ -1,0 +1,2 @@
+setColor: aColor 
+	color := aColor.

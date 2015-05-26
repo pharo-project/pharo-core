@@ -1,0 +1,2 @@
+repositories: aCollection
+	repositories := aCollection

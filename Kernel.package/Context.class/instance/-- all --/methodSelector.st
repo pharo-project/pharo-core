@@ -1,0 +1,2 @@
+methodSelector
+	^ self method selector

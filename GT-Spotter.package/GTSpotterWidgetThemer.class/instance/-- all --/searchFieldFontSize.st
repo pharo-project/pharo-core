@@ -1,0 +1,3 @@
+searchFieldFontSize
+
+	^ 15

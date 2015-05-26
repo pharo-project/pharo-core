@@ -1,0 +1,3 @@
+gtExampleA
+	<gtExample>
+	^ $A

@@ -1,0 +1,2 @@
+maximum: integer
+	maximum := integer

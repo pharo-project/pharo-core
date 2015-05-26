@@ -1,0 +1,2 @@
+onAddedSelector: anObject
+	onAddedSelector := anObject

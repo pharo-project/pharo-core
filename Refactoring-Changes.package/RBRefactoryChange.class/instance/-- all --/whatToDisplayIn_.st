@@ -1,0 +1,3 @@
+whatToDisplayIn: aChangeBrowser
+
+	^ { self }

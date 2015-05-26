@@ -1,0 +1,2 @@
+initialize
+	Log  := nil

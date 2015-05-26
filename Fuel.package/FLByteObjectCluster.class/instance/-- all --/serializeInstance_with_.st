@@ -1,0 +1,4 @@
+serializeInstance: anObject with: anEncoder
+
+	anEncoder encodePositiveInteger: anObject basicSize.
+	anEncoder encodeBytes: anObject.

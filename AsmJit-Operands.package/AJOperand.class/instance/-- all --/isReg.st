@@ -1,0 +1,3 @@
+isReg
+
+	^ false

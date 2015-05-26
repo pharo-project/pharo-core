@@ -1,0 +1,2 @@
+inspectProcess
+	selectedProcess inspect

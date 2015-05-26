@@ -1,0 +1,2 @@
+asByteArray
+	^ self definition asByteArray

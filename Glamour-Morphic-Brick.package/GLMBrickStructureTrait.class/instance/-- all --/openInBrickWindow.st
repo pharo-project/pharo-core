@@ -1,0 +1,3 @@
+openInBrickWindow
+
+	^ self openInBrickWindowLabeled: self

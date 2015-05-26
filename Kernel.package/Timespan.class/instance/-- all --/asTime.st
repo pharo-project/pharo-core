@@ -1,0 +1,3 @@
+asTime
+
+	^ start asTime

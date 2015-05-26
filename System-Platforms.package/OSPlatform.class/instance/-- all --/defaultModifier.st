@@ -1,0 +1,3 @@
+defaultModifier
+
+	^ self subclassResponsibility

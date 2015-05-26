@@ -1,0 +1,3 @@
+minutes
+ 
+ 	^ Duration minutes: self

@@ -1,0 +1,2 @@
+newCheckBox
+	^ self instantiate: CheckBoxModel

@@ -1,0 +1,2 @@
+cmdDotEnabled: aBoolean
+	CmdDotEnabled := aBoolean

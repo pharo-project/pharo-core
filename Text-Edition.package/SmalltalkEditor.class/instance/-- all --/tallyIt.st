@@ -1,0 +1,3 @@
+tallyIt
+
+	^ self tallySelection

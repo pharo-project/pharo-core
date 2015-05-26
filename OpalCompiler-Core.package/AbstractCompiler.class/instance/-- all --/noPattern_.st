@@ -1,0 +1,2 @@
+noPattern: aBoolean
+	self subclassResponsibility

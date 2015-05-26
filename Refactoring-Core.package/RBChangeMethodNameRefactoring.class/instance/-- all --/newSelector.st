@@ -1,0 +1,2 @@
+newSelector
+	^newSelector

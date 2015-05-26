@@ -1,0 +1,3 @@
+isGlobal
+
+	^ true

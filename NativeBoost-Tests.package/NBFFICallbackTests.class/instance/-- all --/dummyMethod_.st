@@ -1,0 +1,3 @@
+dummyMethod: aParam
+
+	^ aParam

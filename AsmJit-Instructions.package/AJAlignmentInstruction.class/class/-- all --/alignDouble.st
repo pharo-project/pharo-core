@@ -1,0 +1,2 @@
+alignDouble
+	^ self new alignDouble

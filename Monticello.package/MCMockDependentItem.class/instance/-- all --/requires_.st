@@ -1,0 +1,3 @@
+requires: anArray
+
+	requires := anArray

@@ -1,0 +1,2 @@
+wrapCentering: aSymbol
+	wrapCentering := aSymbol

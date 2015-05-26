@@ -1,0 +1,3 @@
+scrollpaneBackgroundColor
+
+	^ Color transparent

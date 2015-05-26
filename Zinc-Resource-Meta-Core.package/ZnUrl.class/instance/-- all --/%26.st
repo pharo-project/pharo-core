@@ -1,0 +1,2 @@
+& association
+	^ self withQuery: association 

@@ -1,0 +1,2 @@
+preferedFont
+	^ self balloonFont 

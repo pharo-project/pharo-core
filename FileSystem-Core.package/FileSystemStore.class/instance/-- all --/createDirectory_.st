@@ -1,0 +1,2 @@
+createDirectory: aPath
+	self subclassResponsibility 

@@ -1,0 +1,3 @@
+koDestinationText
+	
+	^ definition koDestinationText

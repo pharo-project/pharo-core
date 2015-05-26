@@ -1,0 +1,2 @@
+matchAlike
+	self filter: GTFilterAlike

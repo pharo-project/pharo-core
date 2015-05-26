@@ -1,0 +1,2 @@
+multiply
+	self notAvailable

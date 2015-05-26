@@ -1,0 +1,3 @@
+isLabelled
+
+	^true

@@ -1,0 +1,3 @@
+extendSelectionUp
+	self moveUp: true.
+	

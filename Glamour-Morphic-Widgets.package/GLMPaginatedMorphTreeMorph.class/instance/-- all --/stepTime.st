@@ -1,0 +1,2 @@
+stepTime
+	^ self model stepTime

@@ -1,0 +1,2 @@
+level: anObject
+	level := anObject

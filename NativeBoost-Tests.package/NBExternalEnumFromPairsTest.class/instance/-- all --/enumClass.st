@@ -1,0 +1,2 @@
+enumClass
+	^NBTestEnumerationFromPairs 

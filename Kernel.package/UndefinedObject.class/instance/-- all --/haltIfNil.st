@@ -1,0 +1,2 @@
+haltIfNil
+	self halt

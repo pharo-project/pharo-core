@@ -1,0 +1,2 @@
+removePropertiesIfEmpty
+	^ self explicitRequirement

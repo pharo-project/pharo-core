@@ -1,0 +1,2 @@
+withoutTextSegmentIcons
+	self withoutRulerNamed: #textSegmentIcons

@@ -1,0 +1,2 @@
+shouldShowInTree
+	^ true

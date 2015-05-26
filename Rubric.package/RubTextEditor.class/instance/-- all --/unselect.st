@@ -1,0 +1,2 @@
+unselect
+	textArea unselect

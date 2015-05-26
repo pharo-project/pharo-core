@@ -1,0 +1,2 @@
+defaultLayoutViewExtent
+	^ self subclassResponsibility 

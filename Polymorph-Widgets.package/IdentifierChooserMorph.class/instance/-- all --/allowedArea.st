@@ -1,0 +1,2 @@
+allowedArea
+	^ self class allowedArea

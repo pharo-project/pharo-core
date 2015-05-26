@@ -1,0 +1,2 @@
+glamorousRedo
+	^ self smallRedoIcon

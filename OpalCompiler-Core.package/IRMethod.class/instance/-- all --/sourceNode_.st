@@ -1,0 +1,2 @@
+sourceNode: aNode
+	sourceNode := aNode

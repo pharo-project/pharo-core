@@ -1,0 +1,3 @@
+newDummySeqId
+
+	^ Object new

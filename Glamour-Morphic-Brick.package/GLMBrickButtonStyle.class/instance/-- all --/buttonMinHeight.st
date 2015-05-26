@@ -1,0 +1,3 @@
+buttonMinHeight
+
+	^ 26

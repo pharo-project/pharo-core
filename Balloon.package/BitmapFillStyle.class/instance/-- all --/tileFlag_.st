@@ -1,0 +1,2 @@
+tileFlag: aBoolean
+	tileFlag := aBoolean

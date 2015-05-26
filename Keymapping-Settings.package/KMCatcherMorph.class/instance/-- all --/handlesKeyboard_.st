@@ -1,0 +1,2 @@
+handlesKeyboard: event
+	^ focused

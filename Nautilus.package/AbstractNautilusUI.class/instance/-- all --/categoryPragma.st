@@ -1,0 +1,2 @@
+categoryPragma
+	^'nautilusGlobalProtocolMenu'

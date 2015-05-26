@@ -1,0 +1,2 @@
+defaultRepositoryDescription
+    ^ self class defaultRepositoryDescription

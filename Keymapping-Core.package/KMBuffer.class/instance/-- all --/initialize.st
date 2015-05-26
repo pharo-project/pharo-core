@@ -1,0 +1,2 @@
+initialize
+	buffer := OrderedCollection new.

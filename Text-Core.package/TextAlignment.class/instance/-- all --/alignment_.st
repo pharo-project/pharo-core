@@ -1,0 +1,2 @@
+alignment: aNumber
+	alignment := aNumber.

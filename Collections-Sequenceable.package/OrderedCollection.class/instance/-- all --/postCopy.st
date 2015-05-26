@@ -1,0 +1,2 @@
+postCopy
+	array := array copy

@@ -1,0 +1,2 @@
+directoryPathString: aDirectory
+    self subclassResponsibility

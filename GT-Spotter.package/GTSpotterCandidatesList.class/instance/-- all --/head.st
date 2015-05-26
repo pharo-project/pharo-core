@@ -1,0 +1,3 @@
+head
+
+	^ self candidates head

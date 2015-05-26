@@ -1,0 +1,2 @@
+truncate
+	entry truncate

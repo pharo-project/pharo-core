@@ -1,0 +1,2 @@
+italicFlag: aBoolean
+	italicFlag := aBoolean

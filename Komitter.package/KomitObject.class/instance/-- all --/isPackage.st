@@ -1,0 +1,3 @@
+isPackage
+
+	^ false

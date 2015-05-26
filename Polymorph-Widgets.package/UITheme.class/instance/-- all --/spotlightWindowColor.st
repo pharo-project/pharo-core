@@ -1,0 +1,2 @@
+spotlightWindowColor 
+	^ self selectionColor muchDarker

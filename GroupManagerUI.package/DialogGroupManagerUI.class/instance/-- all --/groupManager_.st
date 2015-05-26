@@ -1,0 +1,3 @@
+groupManager: aModel
+
+	groupManager := aModel

@@ -1,0 +1,2 @@
+contentsOfEntireFile
+	^ self upToEnd

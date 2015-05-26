@@ -1,0 +1,3 @@
+matcher: aRule
+
+	matcher := aRule

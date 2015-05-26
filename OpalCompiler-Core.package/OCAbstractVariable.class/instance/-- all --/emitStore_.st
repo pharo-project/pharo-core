@@ -1,0 +1,3 @@
+emitStore: methodBuilder
+
+	self subclassResponsibility

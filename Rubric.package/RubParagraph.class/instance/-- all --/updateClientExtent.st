@@ -1,0 +1,2 @@
+updateClientExtent
+	textArea updateExtentFromParagraph.

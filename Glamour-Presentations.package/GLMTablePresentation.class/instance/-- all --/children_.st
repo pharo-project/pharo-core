@@ -1,0 +1,3 @@
+children: anObject 
+	 
+	children := anObject

@@ -1,0 +1,2 @@
+strokePaint: aColor 
+	strokePaint := aColor

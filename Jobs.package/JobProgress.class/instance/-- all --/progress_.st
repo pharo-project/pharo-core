@@ -1,0 +1,3 @@
+progress: anObject
+	
+	progress := anObject

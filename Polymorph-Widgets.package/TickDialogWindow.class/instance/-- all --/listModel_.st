@@ -1,0 +1,3 @@
+listModel: aModel
+
+	listModel := aModel

@@ -1,0 +1,3 @@
+resetCategorySelection
+
+	categoriesSelection removeAll

@@ -1,0 +1,2 @@
+autoSubmit: anObject
+	autoSubmit := anObject

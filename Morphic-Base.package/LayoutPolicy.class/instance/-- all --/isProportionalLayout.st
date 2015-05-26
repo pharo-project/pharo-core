@@ -1,0 +1,2 @@
+isProportionalLayout
+	^false

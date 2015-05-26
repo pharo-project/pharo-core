@@ -1,0 +1,4 @@
+isUnavailable
+
+	^self isAvailable not
+			

@@ -1,0 +1,2 @@
+maxLiteralCodes
+	^MaxLiteralCodes

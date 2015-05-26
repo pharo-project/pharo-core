@@ -1,0 +1,2 @@
+basePackageName
+	^ self packageName copyUpToLast: #-

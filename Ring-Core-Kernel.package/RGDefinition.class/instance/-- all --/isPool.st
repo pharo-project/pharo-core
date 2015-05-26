@@ -1,0 +1,3 @@
+isPool
+
+	^false

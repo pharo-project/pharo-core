@@ -1,0 +1,2 @@
+allBehaviors
+	^self environment allBehaviors

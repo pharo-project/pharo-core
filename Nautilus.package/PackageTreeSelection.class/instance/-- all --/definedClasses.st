@@ -1,0 +1,2 @@
+definedClasses
+	^ self subclassResponsibility

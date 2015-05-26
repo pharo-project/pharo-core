@@ -1,0 +1,3 @@
+autoMultiSelection
+
+	^ autoMultiSelection value

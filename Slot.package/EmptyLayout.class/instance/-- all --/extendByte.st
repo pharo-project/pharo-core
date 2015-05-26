@@ -1,0 +1,2 @@
+extendByte
+	^ ByteLayout new

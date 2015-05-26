@@ -1,0 +1,3 @@
+primitiveScreenDepth
+	<primitive: #primitiveScreenDepth>
+	^ nil 

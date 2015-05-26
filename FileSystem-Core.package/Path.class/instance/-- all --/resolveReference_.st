@@ -1,0 +1,2 @@
+resolveReference: aReference
+	^ aReference

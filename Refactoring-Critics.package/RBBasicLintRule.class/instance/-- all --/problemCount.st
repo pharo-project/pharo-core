@@ -1,0 +1,2 @@
+problemCount
+	^ self result problemCount

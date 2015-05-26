@@ -1,0 +1,2 @@
+query: anObject
+	query := anObject

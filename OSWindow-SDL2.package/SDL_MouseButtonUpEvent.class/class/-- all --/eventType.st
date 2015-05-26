@@ -1,0 +1,2 @@
+eventType
+	^ SDL_MOUSEBUTTONUP

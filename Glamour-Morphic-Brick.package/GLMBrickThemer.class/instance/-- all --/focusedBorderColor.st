@@ -1,0 +1,3 @@
+focusedBorderColor
+
+	^ self color peterRiver

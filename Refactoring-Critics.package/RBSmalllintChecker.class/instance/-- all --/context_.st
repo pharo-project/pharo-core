@@ -1,0 +1,2 @@
+context: aSmalllintContext 
+	context := aSmalllintContext

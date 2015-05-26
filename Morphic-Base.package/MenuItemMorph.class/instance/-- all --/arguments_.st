@@ -1,0 +1,3 @@
+arguments: aCollection
+
+	arguments := aCollection.

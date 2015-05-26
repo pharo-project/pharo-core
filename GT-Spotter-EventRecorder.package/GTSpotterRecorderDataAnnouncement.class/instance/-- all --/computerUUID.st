@@ -1,0 +1,2 @@
+computerUUID
+	^ self at: #computerUUID

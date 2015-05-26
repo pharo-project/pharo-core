@@ -1,0 +1,2 @@
+candidateLink: anObject
+	candidateLink := anObject

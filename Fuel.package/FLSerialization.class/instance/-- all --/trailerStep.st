@@ -1,0 +1,3 @@
+trailerStep
+
+	encoder encodeReferenceTo: root

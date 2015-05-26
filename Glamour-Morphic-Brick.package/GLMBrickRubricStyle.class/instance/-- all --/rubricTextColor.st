@@ -1,0 +1,3 @@
+rubricTextColor
+
+	^ self textColor

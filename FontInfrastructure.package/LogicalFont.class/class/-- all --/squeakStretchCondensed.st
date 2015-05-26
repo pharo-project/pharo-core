@@ -1,0 +1,2 @@
+squeakStretchCondensed
+	^8

@@ -1,0 +1,2 @@
+imageVersion
+	^ self at: #imageVersion

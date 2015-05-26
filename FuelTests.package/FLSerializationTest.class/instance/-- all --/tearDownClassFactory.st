@@ -1,0 +1,2 @@
+tearDownClassFactory
+	self classFactory cleanUp

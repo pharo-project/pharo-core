@@ -1,0 +1,3 @@
+arguments: anArray
+
+	arguments := anArray

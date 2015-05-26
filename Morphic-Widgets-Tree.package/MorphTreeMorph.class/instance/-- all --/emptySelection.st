@@ -1,0 +1,2 @@
+emptySelection
+	self listManager emptySelection

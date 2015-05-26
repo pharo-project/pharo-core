@@ -1,0 +1,2 @@
+testCompileAll
+	ClassTest compileAll

@@ -1,0 +1,2 @@
+defaultItemColor
+	^ self theme textColor

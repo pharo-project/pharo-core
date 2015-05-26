@@ -1,0 +1,3 @@
+defaultLabel
+
+	^ 'Copy to clipboard'

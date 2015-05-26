@@ -1,0 +1,3 @@
+isCharacter
+
+	^ true.

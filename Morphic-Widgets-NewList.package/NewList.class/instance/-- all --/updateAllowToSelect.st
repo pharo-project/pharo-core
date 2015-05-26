@@ -1,0 +1,3 @@
+updateAllowToSelect
+
+	allowToSelect value: self retrieveAllowToSelect

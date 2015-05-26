@@ -1,0 +1,2 @@
+menuKeyboardFocusColor
+	^ self settings menuKeyboardFocusColor

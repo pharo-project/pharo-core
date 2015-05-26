@@ -1,0 +1,2 @@
+close
+	opened := false

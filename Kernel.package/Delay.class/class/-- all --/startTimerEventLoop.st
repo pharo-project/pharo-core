@@ -1,0 +1,3 @@
+startTimerEventLoop
+
+	Scheduler startTimerEventLoop.

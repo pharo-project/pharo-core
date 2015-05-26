@@ -1,0 +1,2 @@
+darken
+	self notAvailable

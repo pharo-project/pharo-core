@@ -1,0 +1,2 @@
+currentSequence: aSeq
+	currentSequence := aSeq

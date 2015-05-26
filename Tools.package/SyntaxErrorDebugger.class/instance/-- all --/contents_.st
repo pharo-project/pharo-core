@@ -1,0 +1,2 @@
+contents: stringOrText
+	contents := stringOrText

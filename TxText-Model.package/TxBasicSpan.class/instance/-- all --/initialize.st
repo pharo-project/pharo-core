@@ -1,0 +1,2 @@
+initialize
+	next := prev := self

@@ -1,0 +1,2 @@
+selectedDirectory
+	^ self directory

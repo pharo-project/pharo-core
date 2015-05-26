@@ -1,0 +1,2 @@
+defaultAction
+	window destroy

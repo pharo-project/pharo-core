@@ -1,0 +1,2 @@
+smalltalkEditorMenuKeyword
+	^'smalltalkEditorMenu'

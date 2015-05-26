@@ -1,0 +1,3 @@
+handlesKeyboard: evt
+
+	^ true

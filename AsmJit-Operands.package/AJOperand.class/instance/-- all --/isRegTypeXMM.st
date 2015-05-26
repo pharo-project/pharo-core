@@ -1,0 +1,2 @@
+isRegTypeXMM
+	^ false

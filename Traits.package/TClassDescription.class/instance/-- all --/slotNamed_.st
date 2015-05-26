@@ -1,0 +1,2 @@
+slotNamed: aName
+	self explicitRequirement

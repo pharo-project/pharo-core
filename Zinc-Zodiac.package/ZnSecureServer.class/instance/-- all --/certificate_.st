@@ -1,0 +1,2 @@
+certificate: anObject
+	certificate := anObject

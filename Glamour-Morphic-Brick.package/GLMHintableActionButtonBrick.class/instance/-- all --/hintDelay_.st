@@ -1,0 +1,2 @@
+hintDelay: anObject
+	hintDelay := anObject

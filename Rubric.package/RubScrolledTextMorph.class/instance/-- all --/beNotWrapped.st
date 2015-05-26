@@ -1,0 +1,2 @@
+beNotWrapped
+	self scrollPane beNotWrapped 

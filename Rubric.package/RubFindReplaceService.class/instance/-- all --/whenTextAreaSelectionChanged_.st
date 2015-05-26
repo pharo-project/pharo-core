@@ -1,0 +1,2 @@
+whenTextAreaSelectionChanged: anAnnouncement 
+	self updateFindStartIndex

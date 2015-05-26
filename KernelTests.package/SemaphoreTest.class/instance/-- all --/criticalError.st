@@ -1,0 +1,2 @@
+criticalError
+	Processor activeProcess terminate

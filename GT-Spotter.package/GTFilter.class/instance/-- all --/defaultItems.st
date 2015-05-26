@@ -1,0 +1,2 @@
+defaultItems
+	^ OrderedCollection new

@@ -1,0 +1,3 @@
+defaultScrollAcceleration
+
+	^ 4

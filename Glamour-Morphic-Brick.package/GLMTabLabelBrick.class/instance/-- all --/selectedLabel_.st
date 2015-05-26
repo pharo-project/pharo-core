@@ -1,0 +1,3 @@
+selectedLabel: anObject
+
+	selectedLabel := anObject

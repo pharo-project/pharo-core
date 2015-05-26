@@ -1,0 +1,3 @@
+doInBackground: aBlock
+
+	task := aBlock

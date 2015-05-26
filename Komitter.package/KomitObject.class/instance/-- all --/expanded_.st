@@ -1,0 +1,2 @@
+expanded: anObject
+	expanded := anObject

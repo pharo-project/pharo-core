@@ -1,0 +1,2 @@
+resetUndoBuffer
+	undoBuffer := OrderedCollection new.

@@ -1,0 +1,3 @@
+defaultFont
+
+	^ self textStyle defaultFont

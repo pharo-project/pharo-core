@@ -1,0 +1,3 @@
+checkSuperMessages
+	self checkSuperSendsFromPushedUpMethods.
+	self checkSuperSendsFromSiblings

@@ -1,0 +1,2 @@
+summary
+	^ 'Ancestors: ', self ancestorString

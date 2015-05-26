@@ -1,0 +1,2 @@
+registrations
+  ^ MetacelloProjectRegistration registry registrations

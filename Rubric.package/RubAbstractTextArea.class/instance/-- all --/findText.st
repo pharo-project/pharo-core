@@ -1,0 +1,2 @@
+findText
+	^ self editor findText

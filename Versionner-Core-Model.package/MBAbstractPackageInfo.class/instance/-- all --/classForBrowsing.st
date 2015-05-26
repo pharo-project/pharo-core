@@ -1,0 +1,2 @@
+classForBrowsing
+	self subclassResponsibility 

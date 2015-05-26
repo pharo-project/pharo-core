@@ -1,0 +1,3 @@
+mergeIntoMetacelloRepositories: aMetacelloRepositoriesSpec
+
+	aMetacelloRepositoriesSpec addMember: self

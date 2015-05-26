@@ -1,0 +1,2 @@
+duration: anObject
+	duration := anObject

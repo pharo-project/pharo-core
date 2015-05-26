@@ -1,0 +1,3 @@
+onLayouted
+
+	^ self brick onLayouted

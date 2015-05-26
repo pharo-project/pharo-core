@@ -1,0 +1,2 @@
+includesKey: sym
+	^self == sym.

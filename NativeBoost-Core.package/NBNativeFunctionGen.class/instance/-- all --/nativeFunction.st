@@ -1,0 +1,2 @@
+nativeFunction
+	^ nativeFunction

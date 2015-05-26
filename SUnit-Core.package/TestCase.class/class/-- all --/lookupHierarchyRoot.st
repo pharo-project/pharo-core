@@ -1,0 +1,2 @@
+lookupHierarchyRoot
+	^TestCase

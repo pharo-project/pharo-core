@@ -1,0 +1,2 @@
+definingScope
+	^ scope

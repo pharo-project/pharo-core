@@ -1,0 +1,3 @@
+scrollpaneBackgroundColor
+
+	^ self spotterThemer backgroundColor

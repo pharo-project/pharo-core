@@ -1,0 +1,3 @@
+elementInForIndexAccessing
+
+	^ withoutEqualElements anyOne

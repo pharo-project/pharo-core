@@ -1,0 +1,2 @@
+binaryReadStream
+	^ self resolve binaryReadStream

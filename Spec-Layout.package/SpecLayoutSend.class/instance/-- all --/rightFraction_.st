@@ -1,0 +1,3 @@
+rightFraction: aNumber
+
+	^ 0

@@ -1,0 +1,2 @@
+inspectContext
+	selectedContext inspect

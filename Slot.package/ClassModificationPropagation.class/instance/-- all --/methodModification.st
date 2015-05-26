@@ -1,0 +1,2 @@
+methodModification
+	^ origin methodModification

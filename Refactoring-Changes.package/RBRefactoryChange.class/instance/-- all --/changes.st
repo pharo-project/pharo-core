@@ -1,0 +1,2 @@
+changes
+	^Array with: self

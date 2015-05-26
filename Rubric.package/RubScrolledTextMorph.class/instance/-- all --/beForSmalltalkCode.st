@@ -1,0 +1,2 @@
+beForSmalltalkCode
+	self textArea beForSmalltalkCode.

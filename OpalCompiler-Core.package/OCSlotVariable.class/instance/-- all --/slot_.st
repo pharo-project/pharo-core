@@ -1,0 +1,2 @@
+slot: aSlot
+	slot := aSlot

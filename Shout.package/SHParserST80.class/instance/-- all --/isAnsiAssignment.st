@@ -1,0 +1,2 @@
+isAnsiAssignment
+	^ currentToken = ':='

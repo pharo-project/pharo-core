@@ -1,0 +1,3 @@
+exception: anError
+
+	exception := anError

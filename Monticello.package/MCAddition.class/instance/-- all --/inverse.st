@@ -1,0 +1,2 @@
+inverse
+	^ MCRemoval of: definition

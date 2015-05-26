@@ -1,0 +1,2 @@
+getEnv: aVariableName
+	^ nil

@@ -1,0 +1,2 @@
+setFont: aFont 
+	font := aFont

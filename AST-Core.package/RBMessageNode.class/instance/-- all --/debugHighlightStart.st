@@ -1,0 +1,3 @@
+debugHighlightStart
+
+	^ self  keywordsPositions first

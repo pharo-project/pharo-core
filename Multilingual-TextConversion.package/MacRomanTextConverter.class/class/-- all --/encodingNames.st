@@ -1,0 +1,3 @@
+encodingNames 
+
+	^ #('mac-roman' ) copy

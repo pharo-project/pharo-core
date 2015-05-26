@@ -1,0 +1,2 @@
+chooseLocal
+	isApplicable := false

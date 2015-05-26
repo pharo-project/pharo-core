@@ -1,0 +1,2 @@
+median
+	^ self asSortedCollection median

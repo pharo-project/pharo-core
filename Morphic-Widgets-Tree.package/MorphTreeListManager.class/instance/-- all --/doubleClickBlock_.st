@@ -1,0 +1,3 @@
+doubleClickBlock: aBlock
+
+	doubleClickBlock := aBlock

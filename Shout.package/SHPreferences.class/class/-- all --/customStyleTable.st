@@ -1,0 +1,2 @@
+customStyleTable
+	^ CustomStyleTable

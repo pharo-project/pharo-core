@@ -1,0 +1,2 @@
+nextForKmChain: aKMDispatchChain
+	^self target

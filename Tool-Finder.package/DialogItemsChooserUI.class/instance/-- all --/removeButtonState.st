@@ -1,0 +1,2 @@
+removeButtonState
+	^false

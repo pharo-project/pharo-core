@@ -1,0 +1,2 @@
+createFile: aString
+	self subclassResponsibility

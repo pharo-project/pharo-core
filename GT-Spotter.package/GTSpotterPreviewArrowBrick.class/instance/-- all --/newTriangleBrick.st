@@ -1,0 +1,3 @@
+newTriangleBrick
+
+	^ GLMHintableActionButtonBrick new

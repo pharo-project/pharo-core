@@ -1,0 +1,2 @@
+destroy
+	key destroy

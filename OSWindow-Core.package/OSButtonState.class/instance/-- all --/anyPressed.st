@@ -1,0 +1,2 @@
+anyPressed
+	^ buttons isZero not

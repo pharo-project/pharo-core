@@ -1,0 +1,2 @@
+updateGroupView 
+	self updatePackageView

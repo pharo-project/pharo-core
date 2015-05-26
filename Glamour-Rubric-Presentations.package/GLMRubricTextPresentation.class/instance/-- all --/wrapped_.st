@@ -1,0 +1,3 @@
+wrapped: aBoolean
+	
+	wrapped := aBoolean

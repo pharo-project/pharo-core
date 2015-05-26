@@ -1,0 +1,3 @@
+isEmpty
+
+	^ self groups isEmpty.

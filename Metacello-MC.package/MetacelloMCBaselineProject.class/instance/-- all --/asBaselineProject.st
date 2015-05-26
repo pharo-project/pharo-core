@@ -1,0 +1,2 @@
+asBaselineProject
+    ^ self

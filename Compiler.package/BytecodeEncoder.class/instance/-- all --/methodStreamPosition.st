@@ -1,0 +1,2 @@
+methodStreamPosition
+	^stream position

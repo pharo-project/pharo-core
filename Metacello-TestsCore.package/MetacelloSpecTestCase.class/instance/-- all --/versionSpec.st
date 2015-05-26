@@ -1,0 +1,2 @@
+versionSpec
+    ^ self project versionSpec

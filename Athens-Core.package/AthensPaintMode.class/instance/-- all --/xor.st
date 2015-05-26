@@ -1,0 +1,2 @@
+xor
+	self notAvailable

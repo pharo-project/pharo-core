@@ -1,0 +1,3 @@
+configurationList: aList
+
+	configurationList := aList

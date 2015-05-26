@@ -1,0 +1,3 @@
+getListSize
+
+	^ self model getListSize

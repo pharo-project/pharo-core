@@ -1,0 +1,2 @@
+memoryFaceData
+	self subclassResponsibility

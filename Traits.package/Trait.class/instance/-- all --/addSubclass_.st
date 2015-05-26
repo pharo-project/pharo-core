@@ -1,0 +1,2 @@
+addSubclass: aSubclass 
+	self shouldNotImplement

@@ -1,0 +1,2 @@
+beNull
+	handle := nil.

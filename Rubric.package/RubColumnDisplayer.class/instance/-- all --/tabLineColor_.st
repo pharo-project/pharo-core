@@ -1,0 +1,2 @@
+tabLineColor: aColor
+	tabLineColor := aColor

@@ -1,0 +1,2 @@
+veryLightSelectionColor
+	^ Color white darker

@@ -1,0 +1,3 @@
+defaultTitle
+
+	^ 'Spec Debugger'

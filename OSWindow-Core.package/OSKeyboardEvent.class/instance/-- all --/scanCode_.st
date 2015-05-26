@@ -1,0 +1,3 @@
+scanCode: anObject
+	
+	scanCode := anObject

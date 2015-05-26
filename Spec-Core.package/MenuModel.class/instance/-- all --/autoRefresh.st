@@ -1,0 +1,3 @@
+autoRefresh
+
+	^ autoRefresh value

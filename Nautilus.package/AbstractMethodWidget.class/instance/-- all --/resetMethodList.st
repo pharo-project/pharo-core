@@ -1,0 +1,2 @@
+resetMethodList
+	self subclassResponsibility 

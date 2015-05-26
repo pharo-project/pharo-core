@@ -1,0 +1,2 @@
+fileDirectory
+	^ GTPlayBook stashDirectory

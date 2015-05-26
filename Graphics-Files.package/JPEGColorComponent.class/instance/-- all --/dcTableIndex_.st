@@ -1,0 +1,2 @@
+dcTableIndex: anInteger 
+	dcTableIndex := anInteger

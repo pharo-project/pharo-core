@@ -1,0 +1,2 @@
+selectedItems: aList
+	selectedItems := aList.

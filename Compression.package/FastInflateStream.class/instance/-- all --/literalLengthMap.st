@@ -1,0 +1,2 @@
+literalLengthMap
+	^LiteralLengthMap

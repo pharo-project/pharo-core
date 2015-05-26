@@ -1,0 +1,2 @@
+noPattern: anObject
+	noPattern := anObject

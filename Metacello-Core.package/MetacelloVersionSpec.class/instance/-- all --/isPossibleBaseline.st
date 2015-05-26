@@ -1,0 +1,2 @@
+isPossibleBaseline
+    self subclassResponsibility

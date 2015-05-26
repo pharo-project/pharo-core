@@ -1,0 +1,3 @@
+defaultLabel
+
+	^ 'Return entered value'

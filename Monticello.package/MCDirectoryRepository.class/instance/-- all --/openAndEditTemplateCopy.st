@@ -1,0 +1,2 @@
+openAndEditTemplateCopy
+	^self class morphicConfigure

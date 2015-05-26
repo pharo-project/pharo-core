@@ -1,0 +1,2 @@
+restoreCursor
+	self termcap: 'rc'

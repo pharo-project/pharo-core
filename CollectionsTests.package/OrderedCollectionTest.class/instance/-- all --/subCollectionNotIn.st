@@ -1,0 +1,3 @@
+subCollectionNotIn
+
+	^ self collectionNotIncluded .

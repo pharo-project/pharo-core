@@ -1,0 +1,2 @@
+balloonText
+	^model balloonTextForNode: self

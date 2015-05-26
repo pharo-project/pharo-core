@@ -1,0 +1,13 @@
+spawnHierarchy
+	"Create and schedule a new hierarchy browser on the currently selected
+	class or meta."
+
+	| aSymbol selectedClassOrMetaClass browser |
+	(selectedClassOrMetaClass := self selectedClassOrMetaClass) ifNil: [ ^ self ].
+	selectedClassOrMetaClass isTrait
+		ifTrue: [ ^ self ].
+	browser := ((aSymbol := self selectedMessageName) notNil
+		and: [ (#(Comment Definition Hierarchy) includes: aSymbol) not ])
+		ifTrue: [ Smalltalk tools browser newOnClass: selectedClassOrMetaClass selector: aSymbol ]
+		ifFalse: [ Smalltalk tools browser newOnClass: selectedClassOrMetaClass ].
+	browser spawnHierarchy

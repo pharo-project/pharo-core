@@ -1,0 +1,2 @@
+asRingDefinition
+	^self explicitRequirement.

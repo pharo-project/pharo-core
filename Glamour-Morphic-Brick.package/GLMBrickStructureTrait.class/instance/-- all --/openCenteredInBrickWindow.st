@@ -1,0 +1,3 @@
+openCenteredInBrickWindow
+
+	self openCenteredInBrickWindowLabeled: self

@@ -1,0 +1,3 @@
+defaultIsResizeable
+
+	^ true

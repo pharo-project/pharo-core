@@ -1,0 +1,2 @@
+testSimpleReport
+	AndreasSystemProfiler new report

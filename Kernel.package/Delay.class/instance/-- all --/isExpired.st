@@ -1,0 +1,3 @@
+isExpired
+
+	^delaySemaphore isSignaled.

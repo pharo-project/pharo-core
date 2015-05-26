@@ -1,0 +1,2 @@
+tally
+	^tally copy

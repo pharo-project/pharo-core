@@ -1,0 +1,3 @@
+includes: aCollection
+
+	self shouldNotImplement

@@ -1,0 +1,2 @@
+isZero
+	^self = 0

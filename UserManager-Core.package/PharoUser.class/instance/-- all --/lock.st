@@ -1,0 +1,3 @@
+lock
+
+	^ keychain lock

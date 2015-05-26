@@ -1,0 +1,2 @@
+asShortcut
+	^ self asKeyCombination

@@ -1,0 +1,3 @@
+hasOwner
+
+	^ self owner isNotNil

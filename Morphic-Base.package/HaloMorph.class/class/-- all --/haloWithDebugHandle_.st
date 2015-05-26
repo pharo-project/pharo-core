@@ -1,0 +1,2 @@
+haloWithDebugHandle: aBoolean
+	 HaloWithDebugHandle := aBoolean

@@ -1,0 +1,2 @@
+randomGenerator
+	^randomGenerator

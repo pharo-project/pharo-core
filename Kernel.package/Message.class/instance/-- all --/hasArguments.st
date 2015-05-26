@@ -1,0 +1,2 @@
+hasArguments
+	^args notEmpty

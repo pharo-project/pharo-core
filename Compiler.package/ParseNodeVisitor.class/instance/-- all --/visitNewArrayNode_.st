@@ -1,0 +1,1 @@
+visitNewArrayNode: aNewArrayNode

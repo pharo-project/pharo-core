@@ -1,0 +1,3 @@
+string
+
+	^self text string

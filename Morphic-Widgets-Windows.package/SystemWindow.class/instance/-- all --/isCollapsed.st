@@ -1,0 +1,2 @@
+isCollapsed
+	^ isCollapsed

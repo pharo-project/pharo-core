@@ -1,0 +1,3 @@
+cancelOnEscape
+
+	cancelOnEscape := true

@@ -1,0 +1,2 @@
+noMorePotentialDropTarget
+	self model noMorePotentialDropTarget

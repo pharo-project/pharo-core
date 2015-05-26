@@ -1,0 +1,2 @@
+variableBindings: aDictionary
+	variableBindings := aDictionary

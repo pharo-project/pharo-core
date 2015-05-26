@@ -1,0 +1,2 @@
+reportOtherProcesses: aBoolean
+	reportOtherProcesses := aBoolean

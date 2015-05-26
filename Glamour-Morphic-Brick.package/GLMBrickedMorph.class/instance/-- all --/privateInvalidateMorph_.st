@@ -1,0 +1,2 @@
+privateInvalidateMorph: aMorph
+	"empty"

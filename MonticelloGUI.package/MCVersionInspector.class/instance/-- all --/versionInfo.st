@@ -1,0 +1,2 @@
+versionInfo
+	^ self version info

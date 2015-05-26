@@ -1,0 +1,3 @@
+inClass: aTargetClassOrSymbol
+
+	targetClass := aTargetClassOrSymbol

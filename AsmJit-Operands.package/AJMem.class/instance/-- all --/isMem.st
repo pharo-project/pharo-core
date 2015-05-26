@@ -1,0 +1,2 @@
+isMem
+	^ true

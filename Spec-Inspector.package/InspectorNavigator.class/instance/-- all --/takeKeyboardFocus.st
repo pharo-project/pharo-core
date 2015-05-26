@@ -1,0 +1,2 @@
+takeKeyboardFocus
+	^ self inspector takeKeyboardFocus

@@ -1,0 +1,2 @@
+asBaselineProject
+    ^ MetacelloMCBaselineProject new

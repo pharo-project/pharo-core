@@ -1,0 +1,2 @@
+stackListIndex
+	^ stackListIndex

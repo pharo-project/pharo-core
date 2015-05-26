@@ -1,0 +1,2 @@
+hasPort
+	^ port notNil

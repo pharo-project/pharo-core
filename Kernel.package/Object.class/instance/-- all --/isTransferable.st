@@ -1,0 +1,3 @@
+isTransferable
+
+	^ false

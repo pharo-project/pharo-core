@@ -1,0 +1,2 @@
+model: anObject 
+	model := anObject

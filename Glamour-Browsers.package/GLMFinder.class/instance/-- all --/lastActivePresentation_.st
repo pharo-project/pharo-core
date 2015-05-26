@@ -1,0 +1,2 @@
+lastActivePresentation: aPresentation
+	lastActivePresentation := aPresentation

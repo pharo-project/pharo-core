@@ -1,0 +1,4 @@
+canEditCode
+	^self permissions canEditCode
+	
+	

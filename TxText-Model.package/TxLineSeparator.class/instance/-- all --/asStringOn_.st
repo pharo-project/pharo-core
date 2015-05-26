@@ -1,0 +1,2 @@
+asStringOn: aStream
+	aStream cr.

@@ -1,0 +1,3 @@
+presentation: anObject
+
+	presentation := anObject

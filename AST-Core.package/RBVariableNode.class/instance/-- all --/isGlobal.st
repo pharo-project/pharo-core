@@ -1,0 +1,2 @@
+isGlobal
+	^self binding isGlobal

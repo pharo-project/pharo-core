@@ -1,0 +1,3 @@
+isAClassSelected
+
+	^ self selectedClass notNil

@@ -1,0 +1,3 @@
+isMethodPatch
+
+	^ obsoletion isMethodDefinition

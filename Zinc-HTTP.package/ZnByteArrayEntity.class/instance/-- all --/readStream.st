@@ -1,0 +1,2 @@
+readStream
+	^ self bytes readStream

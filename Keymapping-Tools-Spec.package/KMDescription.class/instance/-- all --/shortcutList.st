@@ -1,0 +1,3 @@
+shortcutList
+	
+	^ shortcutList

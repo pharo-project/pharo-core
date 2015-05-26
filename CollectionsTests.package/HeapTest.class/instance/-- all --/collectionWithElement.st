@@ -1,0 +1,2 @@
+collectionWithElement
+	^ collectionWithElement

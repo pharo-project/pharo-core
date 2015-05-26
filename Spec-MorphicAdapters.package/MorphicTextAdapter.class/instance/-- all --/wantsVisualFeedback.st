@@ -1,0 +1,3 @@
+wantsVisualFeedback
+
+	^ self model wantsVisualFeedback

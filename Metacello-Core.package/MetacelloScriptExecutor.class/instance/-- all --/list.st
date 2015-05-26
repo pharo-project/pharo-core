@@ -1,0 +1,2 @@
+list
+    actionArg := #'list' -> #()

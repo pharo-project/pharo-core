@@ -1,0 +1,2 @@
+hScrollbarShowNever
+	self scrollPane hScrollbarShowNever

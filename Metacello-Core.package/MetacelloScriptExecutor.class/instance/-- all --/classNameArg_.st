@@ -1,0 +1,2 @@
+classNameArg: anObject
+    classNameArg := anObject

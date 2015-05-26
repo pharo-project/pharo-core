@@ -1,0 +1,2 @@
+packageSpec
+    ^ self project packageSpec

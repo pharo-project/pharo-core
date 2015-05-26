@@ -1,0 +1,2 @@
+isSSL
+	^ variant = #ssl

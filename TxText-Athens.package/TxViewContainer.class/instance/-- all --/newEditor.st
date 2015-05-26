@@ -1,0 +1,3 @@
+newEditor
+
+	^ self newEditor: ''

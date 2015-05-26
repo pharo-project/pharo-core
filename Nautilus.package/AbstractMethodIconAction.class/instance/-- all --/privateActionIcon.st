@@ -1,0 +1,3 @@
+privateActionIcon
+	
+	^ self subclassResponsibility

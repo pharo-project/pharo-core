@@ -1,0 +1,2 @@
+shouldAllExpand: anObject
+	allExpanded := anObject

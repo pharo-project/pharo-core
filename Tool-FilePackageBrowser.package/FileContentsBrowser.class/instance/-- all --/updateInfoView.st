@@ -1,0 +1,3 @@
+updateInfoView
+
+	self changed: #infoViewContents

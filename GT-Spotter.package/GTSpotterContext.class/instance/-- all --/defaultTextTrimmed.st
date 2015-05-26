@@ -1,0 +1,2 @@
+defaultTextTrimmed
+	^ self text trimBoth

@@ -1,0 +1,3 @@
+exampleHSpaceFillOpen
+
+	self gtExampleHSpaceFill openCenteredInBrickWindow

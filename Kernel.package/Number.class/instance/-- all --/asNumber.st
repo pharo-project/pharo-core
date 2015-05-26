@@ -1,0 +1,2 @@
+asNumber
+	^ self

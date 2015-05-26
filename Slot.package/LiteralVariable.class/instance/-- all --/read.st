@@ -1,0 +1,2 @@
+read
+	^self value

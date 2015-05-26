@@ -1,0 +1,2 @@
+scrollBackward
+	self termcap: 'sr'

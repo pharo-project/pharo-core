@@ -1,0 +1,2 @@
+packageInfoFor: aMCWorkingCopy
+  ^ aMCWorkingCopy packageInfo

@@ -1,0 +1,2 @@
+testDefaultWorkingDirectory
+	self assert: filesystem workingDirectory isRoot

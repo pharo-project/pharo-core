@@ -1,0 +1,2 @@
+defaultStyle
+	^ TxStyle new.

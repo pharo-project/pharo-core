@@ -1,0 +1,2 @@
+notOnFirstPage
+	^ self onFirstPage not

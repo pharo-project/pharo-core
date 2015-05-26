@@ -1,0 +1,2 @@
+code
+	^self protocolInstance responseCode

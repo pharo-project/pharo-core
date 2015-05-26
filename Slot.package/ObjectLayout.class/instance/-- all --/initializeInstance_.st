@@ -1,0 +1,2 @@
+initializeInstance: anInstance
+	self subclassResponsibility

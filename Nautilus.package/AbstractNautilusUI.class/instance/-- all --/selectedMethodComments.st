@@ -1,0 +1,3 @@
+selectedMethodComments
+
+	^ self selectedMethod comment

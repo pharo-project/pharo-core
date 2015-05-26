@@ -1,0 +1,3 @@
+leadingChar
+
+	^ 5.

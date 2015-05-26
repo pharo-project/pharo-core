@@ -1,0 +1,3 @@
+addPreambleTo: aChangeSet
+
+	aChangeSet assurePreambleExists

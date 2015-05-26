@@ -1,0 +1,2 @@
+windowActiveLabelFillStyleFor: aWindow
+	^ self textColor

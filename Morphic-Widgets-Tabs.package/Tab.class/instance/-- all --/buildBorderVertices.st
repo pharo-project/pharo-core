@@ -1,0 +1,3 @@
+buildBorderVertices
+	
+	^ state buildBorderVertices

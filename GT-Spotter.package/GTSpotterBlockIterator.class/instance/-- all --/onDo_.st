@@ -1,0 +1,2 @@
+onDo: anObject
+	onDo := anObject

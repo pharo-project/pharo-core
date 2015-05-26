@@ -1,0 +1,2 @@
+classAdded: aClass
+	classAdded := aClass

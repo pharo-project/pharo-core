@@ -1,0 +1,2 @@
+setAngle: radians
+	angle := radians

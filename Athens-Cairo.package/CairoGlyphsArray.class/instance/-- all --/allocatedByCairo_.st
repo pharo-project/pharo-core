@@ -1,0 +1,2 @@
+allocatedByCairo: aBoolean
+	allocatedByCairo := aBoolean

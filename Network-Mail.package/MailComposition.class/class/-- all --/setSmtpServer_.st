@@ -1,0 +1,2 @@
+setSmtpServer: aString
+	SmtpServer := aString

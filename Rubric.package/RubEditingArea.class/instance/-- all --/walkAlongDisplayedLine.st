@@ -1,0 +1,2 @@
+walkAlongDisplayedLine
+	^ self class walkAlongDisplayedLine

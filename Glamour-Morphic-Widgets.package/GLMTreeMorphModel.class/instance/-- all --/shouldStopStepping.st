@@ -1,0 +1,3 @@
+shouldStopStepping
+
+	^ stopStepping ifNil: [ false ]

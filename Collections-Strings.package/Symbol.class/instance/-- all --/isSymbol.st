@@ -1,0 +1,2 @@
+isSymbol
+	^ true 

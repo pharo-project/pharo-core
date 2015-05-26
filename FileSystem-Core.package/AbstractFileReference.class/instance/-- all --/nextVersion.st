@@ -1,0 +1,2 @@
+nextVersion
+	^ self resolve nextVersion

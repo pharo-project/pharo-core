@@ -1,0 +1,3 @@
+subbricks
+
+	^ self brick submorphs

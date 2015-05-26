@@ -1,0 +1,2 @@
+pushThisContext
+	^ IRPushThisContext new

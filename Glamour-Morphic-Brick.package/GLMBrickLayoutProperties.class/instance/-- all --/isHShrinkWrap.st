@@ -1,0 +1,3 @@
+isHShrinkWrap
+
+	^ self hState isOnChildren

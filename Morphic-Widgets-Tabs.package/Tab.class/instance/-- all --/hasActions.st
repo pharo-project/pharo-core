@@ -1,0 +1,3 @@
+hasActions
+
+	^ actions notEmpty

@@ -1,0 +1,3 @@
+buildFourthColumn: aWindow
+		
+	^ self buildMethodWidget

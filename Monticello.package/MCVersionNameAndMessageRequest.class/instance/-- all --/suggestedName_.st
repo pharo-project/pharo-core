@@ -1,0 +1,2 @@
+suggestedName: aString
+	suggestion := aString

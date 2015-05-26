@@ -1,0 +1,2 @@
+query: dictionary
+	query := dictionary

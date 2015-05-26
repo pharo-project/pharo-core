@@ -1,0 +1,3 @@
+asMargin
+
+	^ Margin fromRectangle: self

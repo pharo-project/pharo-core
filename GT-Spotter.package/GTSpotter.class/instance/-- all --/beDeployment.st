@@ -1,0 +1,2 @@
+beDeployment
+	self exceptionHandler: GTSpotterDeploymentExceptionHandler new

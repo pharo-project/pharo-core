@@ -1,0 +1,2 @@
+checkboxMarkerForm
+	^ self current checkboxMarkerForm.

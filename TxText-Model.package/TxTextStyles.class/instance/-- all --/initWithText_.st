@@ -1,0 +1,2 @@
+initWithText: aTxModel
+	text := aTxModel

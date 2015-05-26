@@ -1,0 +1,3 @@
+collapseAll
+
+	self treeModel collapseAll

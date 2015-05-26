@@ -1,0 +1,2 @@
+beVertical
+	self isHorizontal: false

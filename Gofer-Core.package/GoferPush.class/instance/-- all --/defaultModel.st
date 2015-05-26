@@ -1,0 +1,2 @@
+defaultModel
+	^ OrderedCollection new

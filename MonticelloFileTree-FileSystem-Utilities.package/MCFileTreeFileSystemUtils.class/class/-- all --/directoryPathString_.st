@@ -1,0 +1,2 @@
+directoryPathString: aDirectory
+    ^ aDirectory pathString

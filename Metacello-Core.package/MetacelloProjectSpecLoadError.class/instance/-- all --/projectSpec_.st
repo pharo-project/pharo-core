@@ -1,0 +1,3 @@
+projectSpec: aMetacelloMCProjectSpec
+
+	projectSpec := aMetacelloMCProjectSpec

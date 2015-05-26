@@ -1,0 +1,2 @@
+recompile
+	self compileAll

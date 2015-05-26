@@ -1,0 +1,3 @@
+showSummary: aBoolean
+
+	showSummary := aBoolean

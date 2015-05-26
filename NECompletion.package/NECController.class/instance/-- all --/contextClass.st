@@ -1,0 +1,2 @@
+contextClass
+	^NECContext

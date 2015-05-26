@@ -1,0 +1,2 @@
+asMargin
+	^ Margin fromPoint: self.

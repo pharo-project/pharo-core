@@ -1,0 +1,3 @@
+isCheckList
+
+	^ self model isCheckList

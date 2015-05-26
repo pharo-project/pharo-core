@@ -1,0 +1,2 @@
+wrappedStream
+	^ stream

@@ -1,0 +1,2 @@
+updateSelector: aSymbol 
+	updateSelector := aSymbol

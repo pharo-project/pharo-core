@@ -1,0 +1,2 @@
+summary
+	self subclassResponsibility 

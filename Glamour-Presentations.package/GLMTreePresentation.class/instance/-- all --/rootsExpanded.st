@@ -1,0 +1,2 @@
+rootsExpanded
+	self shouldRootsExpand: true

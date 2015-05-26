@@ -1,0 +1,2 @@
+hierarchyButtonAction
+	self hierarchy.

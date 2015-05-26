@@ -1,0 +1,3 @@
+slotsDictionary
+
+	^ Dictionary new

@@ -1,0 +1,2 @@
+moveToLineEnd
+	self subclassResponsibility 

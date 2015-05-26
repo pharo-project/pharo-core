@@ -1,0 +1,3 @@
+to: anObject
+
+	toLogic := anObject

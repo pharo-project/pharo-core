@@ -1,0 +1,2 @@
+usedGate 
+	^ usedGate == true

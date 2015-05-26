@@ -1,0 +1,2 @@
+newOpenGLRenderer
+	^ handle newOpenGLRenderer

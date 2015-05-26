@@ -1,0 +1,3 @@
+isSingle
+
+	^ true

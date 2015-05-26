@@ -1,0 +1,3 @@
+capacity
+
+	^ array size

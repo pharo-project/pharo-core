@@ -1,0 +1,2 @@
+translucentPatterns
+	^ self class translucentPatterns

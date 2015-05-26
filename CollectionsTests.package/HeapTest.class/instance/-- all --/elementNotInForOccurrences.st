@@ -1,0 +1,2 @@
+elementNotInForOccurrences
+	^ elementNotIn

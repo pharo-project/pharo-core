@@ -1,0 +1,2 @@
+allNodeMorphs
+	^ client allNodeMorphs

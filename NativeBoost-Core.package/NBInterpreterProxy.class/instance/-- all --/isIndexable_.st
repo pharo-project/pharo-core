@@ -1,0 +1,3 @@
+isIndexable: oop
+	 
+	^ self simpleCall

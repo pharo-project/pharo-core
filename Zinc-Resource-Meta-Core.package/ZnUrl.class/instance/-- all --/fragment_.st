@@ -1,0 +1,2 @@
+fragment: string
+	fragment := string

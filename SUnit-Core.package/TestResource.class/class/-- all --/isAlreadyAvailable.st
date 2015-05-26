@@ -1,0 +1,2 @@
+isAlreadyAvailable
+	^current class == self

@@ -1,0 +1,3 @@
+world: aWorldMorph 
+
+	world := aWorldMorph.

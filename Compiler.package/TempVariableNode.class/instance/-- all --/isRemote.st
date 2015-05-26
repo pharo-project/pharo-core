@@ -1,0 +1,2 @@
+isRemote
+	^remoteNode notNil

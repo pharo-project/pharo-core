@@ -1,0 +1,2 @@
+withoutGhostText
+	self withoutRulerNamed: #ghostText.

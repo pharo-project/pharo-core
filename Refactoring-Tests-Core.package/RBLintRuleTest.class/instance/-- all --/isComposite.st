@@ -1,0 +1,2 @@
+isComposite
+	^false

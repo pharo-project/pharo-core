@@ -1,0 +1,2 @@
+title
+	^ 'Rubric workspace example'

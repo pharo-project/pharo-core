@@ -1,0 +1,2 @@
+methodSections: anObject
+	methodSections := anObject

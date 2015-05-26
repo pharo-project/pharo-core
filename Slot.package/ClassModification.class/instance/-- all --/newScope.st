@@ -1,0 +1,2 @@
+newScope
+	^ layout slotScope

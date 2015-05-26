@@ -1,0 +1,2 @@
+isPragmasSymbol
+	^self finder isPragmasSymbol

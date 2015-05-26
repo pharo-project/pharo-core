@@ -1,0 +1,3 @@
+applyAttribute: anAttribute
+
+	self subclassResponsibility 

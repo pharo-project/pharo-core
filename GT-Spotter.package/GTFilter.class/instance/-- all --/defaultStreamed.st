@@ -1,0 +1,2 @@
+defaultStreamed
+	^ true

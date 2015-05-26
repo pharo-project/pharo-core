@@ -1,0 +1,3 @@
+remove: anObject
+
+	self shouldNotImplement

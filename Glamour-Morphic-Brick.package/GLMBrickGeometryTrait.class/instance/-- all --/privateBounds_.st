@@ -1,0 +1,3 @@
+privateBounds: aRectangle
+	
+	^ self explicitRequirement

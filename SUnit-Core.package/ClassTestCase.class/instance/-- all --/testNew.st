@@ -1,0 +1,2 @@
+testNew
+	self targetClass new

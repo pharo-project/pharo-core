@@ -1,0 +1,3 @@
+resetLastMessage
+
+	lastMessage := nil

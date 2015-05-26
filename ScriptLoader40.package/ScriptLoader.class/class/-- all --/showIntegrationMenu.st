@@ -1,0 +1,3 @@
+showIntegrationMenu
+
+	CurrentlyIntegratingChanges := true.

@@ -1,0 +1,3 @@
+asNBExternalType: gen
+
+	^ self new

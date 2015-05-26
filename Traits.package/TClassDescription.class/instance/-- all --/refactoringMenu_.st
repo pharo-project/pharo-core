@@ -1,0 +1,2 @@
+refactoringMenu: aBuilder
+	^self explicitRequirement.

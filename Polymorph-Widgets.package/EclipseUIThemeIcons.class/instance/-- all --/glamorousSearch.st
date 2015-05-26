@@ -1,0 +1,2 @@
+glamorousSearch
+	^ self smallFindIcon

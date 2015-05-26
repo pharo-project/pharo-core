@@ -1,0 +1,2 @@
+recentVersionBrowserTools
+	^ self recentToolsFor: #versionBrowser

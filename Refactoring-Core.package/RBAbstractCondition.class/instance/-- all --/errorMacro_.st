@@ -1,0 +1,2 @@
+errorMacro: aString 
+	errorMacro := aString

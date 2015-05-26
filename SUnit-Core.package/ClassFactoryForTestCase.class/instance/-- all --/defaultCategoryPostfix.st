@@ -1,0 +1,2 @@
+defaultCategoryPostfix
+	^ #Default

@@ -1,0 +1,2 @@
+resetCache 
+	cachePackages := nil.

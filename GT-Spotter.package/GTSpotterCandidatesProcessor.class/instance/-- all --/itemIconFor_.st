@@ -1,0 +1,2 @@
+itemIconFor: anObject
+	^ nil

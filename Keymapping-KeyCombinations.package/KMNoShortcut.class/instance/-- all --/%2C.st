@@ -1,0 +1,2 @@
+, aShortcut
+	^ aShortcut

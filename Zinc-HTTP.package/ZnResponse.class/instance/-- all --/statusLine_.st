@@ -1,0 +1,2 @@
+statusLine: object
+	statusLine := object

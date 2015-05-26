@@ -1,0 +1,3 @@
+returnType: aType
+
+	^ #returnType

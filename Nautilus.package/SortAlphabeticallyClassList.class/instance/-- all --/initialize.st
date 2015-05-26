@@ -1,0 +1,2 @@
+initialize
+	list := OrderedCollection new.

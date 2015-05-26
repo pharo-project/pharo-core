@@ -1,0 +1,2 @@
+listClearSelection
+	self packageWidget deselectAll.

@@ -1,0 +1,2 @@
+cacheActive: aBoolean 
+	cacheActive := aBoolean

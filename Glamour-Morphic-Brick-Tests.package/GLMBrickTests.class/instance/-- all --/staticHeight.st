@@ -1,0 +1,3 @@
+staticHeight
+
+	^ 100

@@ -1,0 +1,2 @@
+shuffled
+	^ self copy shuffle

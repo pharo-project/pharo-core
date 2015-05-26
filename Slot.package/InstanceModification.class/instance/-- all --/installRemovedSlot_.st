@@ -1,0 +1,2 @@
+installRemovedSlot: removedSlot
+	" ignore "

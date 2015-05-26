@@ -1,0 +1,2 @@
+anchoredMorph: aMorph 
+	anchoredMorph := aMorph

@@ -1,0 +1,2 @@
+select
+  Current := self new

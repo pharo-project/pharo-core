@@ -1,0 +1,3 @@
+initializeBindings
+	
+	bindings := Dictionary new

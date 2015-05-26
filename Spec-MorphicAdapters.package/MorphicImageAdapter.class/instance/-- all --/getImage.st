@@ -1,0 +1,3 @@
+getImage
+
+	^ self model image

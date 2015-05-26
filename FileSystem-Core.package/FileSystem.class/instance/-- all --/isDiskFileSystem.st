@@ -1,0 +1,2 @@
+isDiskFileSystem
+	^ store isDiskFileSystem

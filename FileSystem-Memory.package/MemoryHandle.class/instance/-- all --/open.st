@@ -1,0 +1,2 @@
+open
+	entry := self basicOpen.

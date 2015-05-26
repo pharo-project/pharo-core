@@ -1,0 +1,2 @@
+withStatusbar
+	^ self new addStatusbar

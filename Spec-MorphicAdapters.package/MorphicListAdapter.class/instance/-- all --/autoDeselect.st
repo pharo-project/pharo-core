@@ -1,0 +1,3 @@
+autoDeselect
+
+	^ self model autoDeselect

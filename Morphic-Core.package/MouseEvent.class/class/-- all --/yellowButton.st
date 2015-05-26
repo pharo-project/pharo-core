@@ -1,0 +1,2 @@
+yellowButton
+	^ 2

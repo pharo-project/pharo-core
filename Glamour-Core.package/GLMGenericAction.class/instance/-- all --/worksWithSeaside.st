@@ -1,0 +1,2 @@
+worksWithSeaside
+	^ true

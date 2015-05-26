@@ -1,0 +1,2 @@
+browserPrintString
+	^self browserPrintStringWith: suspendedContext

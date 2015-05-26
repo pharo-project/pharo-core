@@ -1,0 +1,3 @@
+outerBounds
+
+	^ self brick outerBounds

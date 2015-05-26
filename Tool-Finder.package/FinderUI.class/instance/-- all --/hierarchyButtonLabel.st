@@ -1,0 +1,2 @@
+hierarchyButtonLabel
+	^'Hierarchy'

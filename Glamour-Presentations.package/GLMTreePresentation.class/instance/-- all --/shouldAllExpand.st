@@ -1,0 +1,2 @@
+shouldAllExpand
+	^ allExpanded ifNil: [false]

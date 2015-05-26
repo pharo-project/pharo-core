@@ -1,0 +1,2 @@
+openFindDialog
+	self flash

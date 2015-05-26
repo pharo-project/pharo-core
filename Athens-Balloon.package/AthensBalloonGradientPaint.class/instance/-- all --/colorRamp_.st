@@ -1,0 +1,3 @@
+colorRamp: anObject
+
+	colorRamp := anObject

@@ -1,0 +1,3 @@
+polygon: poly
+
+	polygon := poly

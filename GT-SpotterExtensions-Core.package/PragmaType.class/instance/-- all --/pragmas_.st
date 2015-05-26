@@ -1,0 +1,2 @@
+pragmas: aCollection
+	pragmas := aCollection

@@ -1,0 +1,2 @@
+defaultUIClass 
+	^ PackageTreeNautilusUI

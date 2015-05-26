@@ -1,0 +1,2 @@
+formOldName
+	^ self formNameFor: oldSelector

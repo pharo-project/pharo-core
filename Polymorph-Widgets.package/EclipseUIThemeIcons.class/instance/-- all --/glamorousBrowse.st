@@ -1,0 +1,2 @@
+glamorousBrowse 
+	^ self glamorousEdit

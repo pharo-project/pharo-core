@@ -1,0 +1,2 @@
+* aFileOrDirectoryName
+	^ self disk * aFileOrDirectoryName

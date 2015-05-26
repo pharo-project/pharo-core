@@ -1,0 +1,4 @@
+current: aTestResource
+
+	current := aTestResource
+			

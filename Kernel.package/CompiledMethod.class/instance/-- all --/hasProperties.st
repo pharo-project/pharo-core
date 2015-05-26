@@ -1,0 +1,2 @@
+hasProperties
+	^ self penultimateLiteral isMethodProperties

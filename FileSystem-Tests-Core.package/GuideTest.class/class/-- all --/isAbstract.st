@@ -1,0 +1,2 @@
+isAbstract
+	^ self name = #GuideTest

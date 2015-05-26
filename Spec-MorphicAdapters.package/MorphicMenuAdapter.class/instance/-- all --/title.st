@@ -1,0 +1,3 @@
+title
+
+	^ self model title

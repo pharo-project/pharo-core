@@ -1,0 +1,2 @@
+previousButtonState
+	^ true

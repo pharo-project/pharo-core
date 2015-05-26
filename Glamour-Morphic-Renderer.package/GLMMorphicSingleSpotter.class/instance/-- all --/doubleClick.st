@@ -1,0 +1,2 @@
+doubleClick
+	self ok

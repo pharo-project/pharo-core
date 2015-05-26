@@ -1,0 +1,2 @@
+block: anObject
+	block := anObject

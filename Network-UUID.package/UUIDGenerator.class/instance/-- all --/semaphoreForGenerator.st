@@ -1,0 +1,2 @@
+semaphoreForGenerator
+	^semaphoreForGenerator

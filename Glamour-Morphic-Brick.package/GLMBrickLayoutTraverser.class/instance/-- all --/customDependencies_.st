@@ -1,0 +1,3 @@
+customDependencies: aBrick
+
+	^ self subclassResponsibility

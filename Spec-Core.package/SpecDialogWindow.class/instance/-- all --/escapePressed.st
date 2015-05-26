@@ -1,0 +1,3 @@
+escapePressed
+
+	self toolbar triggerCancelAction

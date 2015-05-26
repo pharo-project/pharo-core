@@ -1,0 +1,3 @@
+packageSelected: anAnnouncement
+
+	^ self subclassResponsibility

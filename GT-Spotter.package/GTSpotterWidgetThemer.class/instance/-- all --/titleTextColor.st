@@ -1,0 +1,3 @@
+titleTextColor
+
+	^ self themer textLightColor

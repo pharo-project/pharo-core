@@ -1,0 +1,2 @@
+skipOverMultipleSpaces: aBoolean
+	SkipOverMultipleSpaces := aBoolean

@@ -1,0 +1,2 @@
+withoutFindReplaceSelection
+	self withoutDecoratorNamed: #findReplaceSelection

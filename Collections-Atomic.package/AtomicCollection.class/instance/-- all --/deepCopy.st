@@ -1,0 +1,2 @@
+deepCopy
+	^ self errorDontCopy

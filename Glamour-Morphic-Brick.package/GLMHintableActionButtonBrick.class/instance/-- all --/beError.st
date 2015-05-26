@@ -1,0 +1,3 @@
+beError
+
+	self beMode: #beError

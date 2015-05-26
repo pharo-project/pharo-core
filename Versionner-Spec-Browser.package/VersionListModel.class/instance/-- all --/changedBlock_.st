@@ -1,0 +1,2 @@
+changedBlock: anObject
+	changedBlock := anObject

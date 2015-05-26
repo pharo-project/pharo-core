@@ -1,0 +1,2 @@
+scrollerExtentChanged
+	self manageLayout

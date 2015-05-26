@@ -1,0 +1,2 @@
+asSelectorEnvironment
+	^ self

@@ -1,0 +1,3 @@
+debuggingName: aString
+
+	debuggingName := aString

@@ -1,0 +1,2 @@
+moveToLineStart
+	position := position moveToLineStart

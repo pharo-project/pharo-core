@@ -1,0 +1,2 @@
+openMenuIn: aBlock
+	self subclassResponsibility

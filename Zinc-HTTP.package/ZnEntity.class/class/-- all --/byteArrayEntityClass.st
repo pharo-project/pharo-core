@@ -1,0 +1,2 @@
+byteArrayEntityClass
+	^ ZnByteArrayEntity 

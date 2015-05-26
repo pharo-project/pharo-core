@@ -1,0 +1,5 @@
+initializeWidgets
+
+	self
+		setFocus;
+		update.

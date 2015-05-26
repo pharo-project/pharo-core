@@ -1,0 +1,2 @@
+layoutClass: aLayoutClass
+	layoutClass := aLayoutClass

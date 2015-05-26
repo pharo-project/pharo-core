@@ -1,0 +1,3 @@
+beCheckList
+
+	self isCheckList: true

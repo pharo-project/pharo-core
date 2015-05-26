@@ -1,0 +1,3 @@
+keyStrokesForPreviousFocus: aCollection
+
+	keyStrokesForPreviousFocusHolder value: aCollection 

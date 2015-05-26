@@ -1,0 +1,2 @@
+fullTimeStamp
+	^ DateAndTime fromMethodTimeStamp: timeStamp

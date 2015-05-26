@@ -1,0 +1,2 @@
+ruleTemporaryVariableCapitalizationRuleV1FalsePositive
+^ #()

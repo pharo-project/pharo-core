@@ -1,0 +1,2 @@
+documentation
+	^ 'view package history'

@@ -1,0 +1,2 @@
+newStringBrick
+	^ GLMStringBrick new

@@ -1,0 +1,2 @@
+basicIsDirectory: aMemoryFileSystemEntry
+	^ aMemoryFileSystemEntry isDirectory

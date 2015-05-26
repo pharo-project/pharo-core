@@ -1,0 +1,2 @@
+anInstVar
+	^ anInstVar

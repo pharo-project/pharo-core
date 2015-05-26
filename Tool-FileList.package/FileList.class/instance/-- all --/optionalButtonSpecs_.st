@@ -1,0 +1,2 @@
+optionalButtonSpecs: aSpecArray
+	optionalButtonSpecs := aSpecArray

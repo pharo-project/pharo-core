@@ -1,0 +1,2 @@
+useFaultyForParsing: anObject
+	useFaultyForParsing := anObject

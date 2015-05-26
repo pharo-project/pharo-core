@@ -1,0 +1,2 @@
+isOver
+	^ false

@@ -1,0 +1,2 @@
+inheritanceDepth
+	^ 10

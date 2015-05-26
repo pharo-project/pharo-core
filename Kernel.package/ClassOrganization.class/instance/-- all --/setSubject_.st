@@ -1,0 +1,3 @@
+setSubject: anObject
+	
+	organizedClass := anObject

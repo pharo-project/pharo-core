@@ -1,0 +1,2 @@
+isJust: node
+	^false

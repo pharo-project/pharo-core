@@ -1,0 +1,3 @@
+newWithMultiByteFileStream
+
+	^self newWith: MultiByteFileStream

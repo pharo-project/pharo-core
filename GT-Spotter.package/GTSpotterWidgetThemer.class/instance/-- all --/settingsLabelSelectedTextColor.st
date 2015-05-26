@@ -1,0 +1,3 @@
+settingsLabelSelectedTextColor
+
+	^ Color black

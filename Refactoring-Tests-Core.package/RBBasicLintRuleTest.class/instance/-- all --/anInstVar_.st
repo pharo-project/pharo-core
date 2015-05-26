@@ -1,0 +1,2 @@
+anInstVar: anObject
+	anInstVar := anObject

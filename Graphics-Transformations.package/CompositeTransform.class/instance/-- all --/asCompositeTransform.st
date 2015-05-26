@@ -1,0 +1,2 @@
+asCompositeTransform
+	^self

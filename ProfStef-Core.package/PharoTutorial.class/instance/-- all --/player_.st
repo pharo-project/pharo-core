@@ -1,0 +1,2 @@
+player: aTutorialPlayer
+	player := aTutorialPlayer.

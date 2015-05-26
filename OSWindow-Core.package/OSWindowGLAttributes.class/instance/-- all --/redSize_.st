@@ -1,0 +1,3 @@
+redSize: anObject
+	
+	redSize := anObject

@@ -1,0 +1,3 @@
+isResizeable
+
+	^ true

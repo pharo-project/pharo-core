@@ -1,0 +1,3 @@
+pane: anObject 
+	 
+	pane := anObject

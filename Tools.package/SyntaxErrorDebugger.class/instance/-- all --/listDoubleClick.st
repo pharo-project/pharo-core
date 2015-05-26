@@ -1,0 +1,2 @@
+listDoubleClick
+	self debug

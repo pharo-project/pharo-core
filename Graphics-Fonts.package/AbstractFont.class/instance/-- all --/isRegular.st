@@ -1,0 +1,2 @@
+isRegular
+	^false

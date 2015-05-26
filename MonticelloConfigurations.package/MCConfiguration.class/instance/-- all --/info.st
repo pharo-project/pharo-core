@@ -1,0 +1,2 @@
+info
+	^MCVersionInfo new

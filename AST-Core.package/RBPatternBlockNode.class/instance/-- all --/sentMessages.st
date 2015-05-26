@@ -1,0 +1,2 @@
+sentMessages
+	^ OrderedCollection new

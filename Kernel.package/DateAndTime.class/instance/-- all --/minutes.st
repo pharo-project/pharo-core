@@ -1,0 +1,3 @@
+minutes
+ 
+ 	^ self minute

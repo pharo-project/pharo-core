@@ -1,0 +1,2 @@
+period: anInteger
+	Period :=  anInteger

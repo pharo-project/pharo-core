@@ -1,0 +1,3 @@
+blueSize: anObject
+	
+	blueSize := anObject

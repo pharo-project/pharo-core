@@ -1,0 +1,2 @@
+snapshotErrorImage: aBoolean
+	SnapshotErrorImage := aBoolean

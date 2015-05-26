@@ -1,0 +1,2 @@
+heightInBlocks: anInteger 
+	heightInBlocks := anInteger

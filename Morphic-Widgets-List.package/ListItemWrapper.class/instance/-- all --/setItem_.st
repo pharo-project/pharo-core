@@ -1,0 +1,3 @@
+setItem: anObject
+
+	item := anObject

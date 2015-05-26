@@ -1,0 +1,2 @@
+isCompositeTransform
+	^true

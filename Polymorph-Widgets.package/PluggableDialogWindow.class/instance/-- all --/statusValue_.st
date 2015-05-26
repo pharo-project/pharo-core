@@ -1,0 +1,2 @@
+statusValue: val
+	statusValue := val

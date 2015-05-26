@@ -1,0 +1,2 @@
+glamorousBug 
+	^ self smallDebugIcon 

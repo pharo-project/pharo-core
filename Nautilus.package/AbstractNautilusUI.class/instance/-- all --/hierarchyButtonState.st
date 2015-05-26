@@ -1,0 +1,3 @@
+hierarchyButtonState
+
+	^ self showHierarchy

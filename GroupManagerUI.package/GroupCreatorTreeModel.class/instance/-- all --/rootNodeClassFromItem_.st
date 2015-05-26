@@ -1,0 +1,3 @@
+rootNodeClassFromItem: anItem
+
+	^ GroupNode

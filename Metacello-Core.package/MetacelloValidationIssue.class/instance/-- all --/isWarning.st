@@ -1,0 +1,3 @@
+isWarning
+
+	^false

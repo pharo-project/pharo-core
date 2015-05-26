@@ -1,0 +1,2 @@
+asString
+	^model printNode: self

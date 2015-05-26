@@ -1,0 +1,2 @@
+isMetaClassChange
+	^meta

@@ -1,0 +1,2 @@
+lf
+	outStream lf

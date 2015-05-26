@@ -1,0 +1,2 @@
+tagsFilter: anObject
+	self explicitRequirement

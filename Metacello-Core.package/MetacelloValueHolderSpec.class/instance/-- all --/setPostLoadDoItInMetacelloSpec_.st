@@ -1,0 +1,3 @@
+setPostLoadDoItInMetacelloSpec: aMetacelloSpec
+
+	aMetacelloSpec setPostLoadDoIt: self

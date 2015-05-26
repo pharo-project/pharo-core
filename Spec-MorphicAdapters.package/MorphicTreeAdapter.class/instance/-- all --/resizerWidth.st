@@ -1,0 +1,3 @@
+resizerWidth
+
+	^ self model resizerWidth

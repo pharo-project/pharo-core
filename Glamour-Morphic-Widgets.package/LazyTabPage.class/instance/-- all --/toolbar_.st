@@ -1,0 +1,2 @@
+toolbar: anObject
+	toolbar := anObject

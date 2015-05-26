@@ -1,0 +1,2 @@
+defaultStyle
+	^ Groups at: #default

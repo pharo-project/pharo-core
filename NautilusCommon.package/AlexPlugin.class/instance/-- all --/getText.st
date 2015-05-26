@@ -1,0 +1,3 @@
+getText
+
+	^ text

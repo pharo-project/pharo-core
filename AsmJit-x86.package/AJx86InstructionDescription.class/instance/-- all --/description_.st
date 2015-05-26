@@ -1,0 +1,2 @@
+description: aString
+	description := aString

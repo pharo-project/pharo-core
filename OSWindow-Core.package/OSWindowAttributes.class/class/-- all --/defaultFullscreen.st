@@ -1,0 +1,2 @@
+defaultFullscreen
+	^ DefaultFullscreen

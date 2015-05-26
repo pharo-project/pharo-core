@@ -1,0 +1,2 @@
+cleanUp
+	absoluteWindowsPathRegex := nil.

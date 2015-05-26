@@ -1,0 +1,2 @@
+indexArray
+	^ indexArray .

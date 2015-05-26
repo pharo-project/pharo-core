@@ -1,0 +1,2 @@
+stopLoggingToTranscript
+	self announcer unsubscribe: Transcript

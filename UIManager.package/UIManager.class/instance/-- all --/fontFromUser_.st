@@ -1,0 +1,3 @@
+fontFromUser: priorFont	
+	
+	self subclassResponsibility

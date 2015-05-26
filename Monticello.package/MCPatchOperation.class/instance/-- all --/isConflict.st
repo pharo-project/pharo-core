@@ -1,0 +1,2 @@
+isConflict
+	^ isConflict == true

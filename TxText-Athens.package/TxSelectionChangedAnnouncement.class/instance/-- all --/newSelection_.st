@@ -1,0 +1,2 @@
+newSelection: anObject
+	newSelection := anObject

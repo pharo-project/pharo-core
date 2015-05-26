@@ -1,0 +1,2 @@
+fromSource
+	^ obsoletion source

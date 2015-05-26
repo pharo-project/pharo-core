@@ -1,0 +1,2 @@
+classPool
+	^self explicitRequirement.

@@ -1,0 +1,2 @@
+truncateTo: anInteger
+	self subclassResponsibility

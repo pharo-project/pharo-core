@@ -1,0 +1,2 @@
+exists
+	^ filesystem exists: path

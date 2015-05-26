@@ -1,0 +1,3 @@
+computeSelectionIntervalForCurrentLine
+
+	^ self encompassParagraph: self selectionInterval

@@ -1,0 +1,2 @@
+fuelNew
+	^ self instance

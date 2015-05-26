@@ -1,0 +1,2 @@
+asPosition
+	^ self subclassResponsibility 

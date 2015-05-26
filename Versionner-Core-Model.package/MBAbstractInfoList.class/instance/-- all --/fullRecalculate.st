@@ -1,0 +1,3 @@
+fullRecalculate
+
+	self recalculate

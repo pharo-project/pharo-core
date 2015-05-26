@@ -1,0 +1,2 @@
+selectedItems
+	^ self tree selectedItems

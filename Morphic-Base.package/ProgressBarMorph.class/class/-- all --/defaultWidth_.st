@@ -1,0 +1,3 @@
+defaultWidth: aNumber
+	
+	DefaultWidth := aNumber.

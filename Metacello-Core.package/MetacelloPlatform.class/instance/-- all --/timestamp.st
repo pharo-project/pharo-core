@@ -1,0 +1,3 @@
+timestamp
+
+	^DateAndTime now printString

@@ -1,0 +1,3 @@
+radius: aNumber
+
+	radius := aNumber

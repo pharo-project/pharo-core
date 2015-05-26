@@ -1,0 +1,3 @@
+resetContainer
+	
+	container removeAllMorphs

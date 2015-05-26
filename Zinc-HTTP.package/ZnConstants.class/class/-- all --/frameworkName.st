@@ -1,0 +1,2 @@
+frameworkName
+	^ 'Zinc HTTP Components'

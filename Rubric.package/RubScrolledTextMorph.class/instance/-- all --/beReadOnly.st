@@ -1,0 +1,2 @@
+beReadOnly
+	self textArea beReadOnly 

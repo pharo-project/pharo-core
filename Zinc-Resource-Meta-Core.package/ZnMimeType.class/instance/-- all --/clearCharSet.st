@@ -1,0 +1,2 @@
+clearCharSet
+	self removeParameter: 'charset'

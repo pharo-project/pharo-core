@@ -1,0 +1,2 @@
+isFullyCommited: anObject
+	isFullyCommited := anObject

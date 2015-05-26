@@ -1,0 +1,2 @@
+asDoubleLink
+	^ self

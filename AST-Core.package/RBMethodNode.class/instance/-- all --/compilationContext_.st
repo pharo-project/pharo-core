@@ -1,0 +1,2 @@
+compilationContext: aCompilationContext
+	compilationContext := aCompilationContext.

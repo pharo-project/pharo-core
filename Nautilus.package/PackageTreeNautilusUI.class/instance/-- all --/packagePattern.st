@@ -1,0 +1,2 @@
+packagePattern
+	^ packagePattern

@@ -1,0 +1,3 @@
+borderWidth
+
+	^ self border width

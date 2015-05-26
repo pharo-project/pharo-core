@@ -1,0 +1,3 @@
+selectedIndexes
+
+	^ self listSource selectedIndexes

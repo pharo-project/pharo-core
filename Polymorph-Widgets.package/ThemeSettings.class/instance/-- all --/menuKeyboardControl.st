@@ -1,0 +1,2 @@
+menuKeyboardControl
+	^ true

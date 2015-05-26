@@ -1,0 +1,3 @@
+isReadMode
+
+	^ self isEditMode not

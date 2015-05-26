@@ -1,0 +1,2 @@
+collectedAnnouncementClasses
+	^ collectedAnnouncements collect: #class

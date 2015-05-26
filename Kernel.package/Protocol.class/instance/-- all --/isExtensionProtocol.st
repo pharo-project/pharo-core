@@ -1,0 +1,2 @@
+isExtensionProtocol 
+	^ self name first = $*.

@@ -1,0 +1,2 @@
+context: aGTSpotterContext
+	context := aGTSpotterContext

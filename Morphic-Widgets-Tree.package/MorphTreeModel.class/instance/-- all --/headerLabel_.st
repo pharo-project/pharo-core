@@ -1,0 +1,3 @@
+headerLabel: aString
+	
+	headerLabel := aString

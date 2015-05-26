@@ -1,0 +1,2 @@
+requestor: aRequestor
+	self subclassResponsibility

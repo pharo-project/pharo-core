@@ -1,0 +1,2 @@
+numSelectionsInView
+	^ client numSelectionsInView

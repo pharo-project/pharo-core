@@ -1,0 +1,2 @@
+ghostTextRuler
+	^ self rulerNamed: #ghostText

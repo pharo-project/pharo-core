@@ -1,0 +1,3 @@
+stepIn: aWindow
+
+	^ self step

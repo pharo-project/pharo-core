@@ -1,0 +1,2 @@
+getPreciseAscent
+	^ self ascent

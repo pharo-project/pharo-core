@@ -1,0 +1,3 @@
+yourself
+	"Answer self."
+	^self

@@ -1,0 +1,3 @@
+isDayPattern
+
+	^ char = $d

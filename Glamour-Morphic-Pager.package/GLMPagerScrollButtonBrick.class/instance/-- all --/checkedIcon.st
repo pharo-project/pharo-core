@@ -1,0 +1,2 @@
+checkedIcon
+	^ checkedIcon

@@ -1,0 +1,2 @@
+expectedPassCount
+	^ self expectedPasses size

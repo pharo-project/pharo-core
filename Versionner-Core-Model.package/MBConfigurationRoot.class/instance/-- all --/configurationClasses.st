@@ -1,0 +1,2 @@
+configurationClasses
+	^ MetacelloToolBox configurationClasses

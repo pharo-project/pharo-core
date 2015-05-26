@@ -1,0 +1,2 @@
+pointIndex
+	^ textArea pointIndex

@@ -1,0 +1,3 @@
+asContext
+
+	^ self

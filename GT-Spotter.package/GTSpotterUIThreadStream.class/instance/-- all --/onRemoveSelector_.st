@@ -1,0 +1,2 @@
+onRemoveSelector: anObject
+	onRemoveSelector := anObject

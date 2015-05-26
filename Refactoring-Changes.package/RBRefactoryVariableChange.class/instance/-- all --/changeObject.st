@@ -1,0 +1,2 @@
+changeObject
+	^ self variable

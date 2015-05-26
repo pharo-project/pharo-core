@@ -1,0 +1,2 @@
+fontContents
+	self subclassResponsibility

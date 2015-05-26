@@ -1,0 +1,2 @@
+takeSnapshot
+	^ self mockPackage snapshot

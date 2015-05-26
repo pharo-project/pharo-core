@@ -1,0 +1,3 @@
+withSeparatorAfter
+
+	self needsSeparatorAfter: true

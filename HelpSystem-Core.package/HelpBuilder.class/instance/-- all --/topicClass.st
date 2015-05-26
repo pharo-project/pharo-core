@@ -1,0 +1,2 @@
+topicClass
+	^HelpTopic

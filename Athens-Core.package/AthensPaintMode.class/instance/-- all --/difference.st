@@ -1,0 +1,2 @@
+difference
+	self notAvailable

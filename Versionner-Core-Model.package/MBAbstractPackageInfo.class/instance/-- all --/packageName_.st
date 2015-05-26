@@ -1,0 +1,3 @@
+packageName: aString
+
+	packageName := aString

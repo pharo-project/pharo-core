@@ -1,0 +1,3 @@
+cycleHalosBothDirections: aBoolean
+
+	CycleHalosBothDirections := aBoolean.

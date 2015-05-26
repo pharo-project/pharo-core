@@ -1,0 +1,2 @@
+workingCopyTreeHasChildren: aWrapper
+	^ aWrapper hasContents

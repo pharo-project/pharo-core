@@ -1,0 +1,3 @@
+isTTCStyle
+
+	^ fontArray first isTTCFont.

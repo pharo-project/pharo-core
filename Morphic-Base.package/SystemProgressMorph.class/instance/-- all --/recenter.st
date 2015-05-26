@@ -1,0 +1,2 @@
+recenter
+	self reposition

@@ -1,0 +1,2 @@
+iconBlock: aBlockWithMyselfAndAnEventAsArgument
+	iconBlock := aBlockWithMyselfAndAnEventAsArgument

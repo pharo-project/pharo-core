@@ -1,0 +1,2 @@
+isCaseSensitive
+	^ false

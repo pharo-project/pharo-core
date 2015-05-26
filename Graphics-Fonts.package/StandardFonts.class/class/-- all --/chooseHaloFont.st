@@ -1,0 +1,2 @@
+chooseHaloFont
+	self chooseStandardFont: #haloFont

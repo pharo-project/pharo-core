@@ -1,0 +1,3 @@
+groupsIconsCache
+
+		^ GroupsIconsCache

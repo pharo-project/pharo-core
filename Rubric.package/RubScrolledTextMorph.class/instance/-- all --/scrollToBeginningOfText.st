@@ -1,0 +1,2 @@
+scrollToBeginningOfText
+	self scrollPane scrollToBeginningOfText

@@ -1,0 +1,3 @@
+testAnPrefixForClassNameStartingWithVowel
+
+	self testInteger.

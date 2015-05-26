@@ -1,0 +1,2 @@
+selectedColor: anObject
+	selectedColor := anObject

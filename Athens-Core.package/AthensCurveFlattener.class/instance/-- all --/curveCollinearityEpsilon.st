@@ -1,0 +1,3 @@
+curveCollinearityEpsilon
+
+	^ CurveCollinearityEpsilon 

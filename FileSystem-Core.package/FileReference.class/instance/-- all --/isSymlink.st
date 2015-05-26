@@ -1,0 +1,2 @@
+isSymlink 
+	^ filesystem isSymlink: path

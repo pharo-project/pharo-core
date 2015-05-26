@@ -1,0 +1,3 @@
+exampleFullSpaceFillCenteredOpen
+
+	self gtExampleFullSpaceFillCentered openCenteredInBrickWindow

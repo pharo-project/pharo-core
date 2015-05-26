@@ -1,0 +1,3 @@
+emptyTextPadding
+
+	^ 15

@@ -1,0 +1,2 @@
+defaultPagerModel
+	^ GLMPagerModel new

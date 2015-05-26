@@ -1,0 +1,3 @@
+ignoreImage
+
+	^self loaderPolicy ignoreImage

@@ -1,0 +1,2 @@
+topOffset: anInteger
+	topOffset := anInteger

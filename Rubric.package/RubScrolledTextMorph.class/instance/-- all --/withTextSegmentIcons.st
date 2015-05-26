@@ -1,0 +1,2 @@
+withTextSegmentIcons
+	self withRulerNamed: #textSegmentIcons

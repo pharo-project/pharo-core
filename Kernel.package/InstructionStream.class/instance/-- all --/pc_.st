@@ -1,0 +1,3 @@
+pc: anInteger
+
+	pc := anInteger

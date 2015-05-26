@@ -1,0 +1,3 @@
+resetMethodSelection
+
+	self methodsSelection removeAll

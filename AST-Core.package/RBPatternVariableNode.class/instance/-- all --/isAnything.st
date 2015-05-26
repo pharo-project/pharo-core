@@ -1,0 +1,2 @@
+isAnything
+	^isAnything

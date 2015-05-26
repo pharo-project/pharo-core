@@ -1,0 +1,3 @@
+showNotification: aBoolean
+
+	showNotification := aBoolean

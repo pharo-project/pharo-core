@@ -1,0 +1,3 @@
+formatterClass: aClass
+	FormatterClass := aClass
+		

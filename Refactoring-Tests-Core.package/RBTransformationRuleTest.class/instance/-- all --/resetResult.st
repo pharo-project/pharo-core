@@ -1,0 +1,2 @@
+resetResult
+	builder := RBCompositeRefactoryChange new

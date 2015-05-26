@@ -1,0 +1,3 @@
+className: aString
+
+	className := aString

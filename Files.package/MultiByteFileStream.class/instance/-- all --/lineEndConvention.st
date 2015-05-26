@@ -1,0 +1,3 @@
+lineEndConvention
+
+	^lineEndConvention

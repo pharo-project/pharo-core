@@ -1,0 +1,3 @@
+materializedObjects
+	
+	^ self materialization objects

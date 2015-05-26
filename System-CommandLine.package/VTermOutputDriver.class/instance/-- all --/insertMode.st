@@ -1,0 +1,2 @@
+insertMode
+	self termcap: 'im'

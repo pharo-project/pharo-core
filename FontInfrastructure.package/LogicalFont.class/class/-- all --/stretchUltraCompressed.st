@@ -1,0 +1,2 @@
+stretchUltraCompressed
+	^1

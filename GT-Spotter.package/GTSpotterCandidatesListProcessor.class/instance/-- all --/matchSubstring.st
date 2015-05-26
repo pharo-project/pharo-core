@@ -1,0 +1,2 @@
+matchSubstring
+	self filter: GTFilterSubstring

@@ -1,0 +1,2 @@
+amount: aNumber
+	amount := aNumber

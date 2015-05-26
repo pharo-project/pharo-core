@@ -1,0 +1,3 @@
+foundationOrigin: anObject
+	
+	foundationOrigin := anObject

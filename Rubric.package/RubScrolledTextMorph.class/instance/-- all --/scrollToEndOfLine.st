@@ -1,0 +1,2 @@
+scrollToEndOfLine
+	self scrollPane scrollToEndOfLine

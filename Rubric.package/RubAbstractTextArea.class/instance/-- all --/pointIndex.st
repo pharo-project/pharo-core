@@ -1,0 +1,2 @@
+pointIndex
+	^ self editingState pointIndex

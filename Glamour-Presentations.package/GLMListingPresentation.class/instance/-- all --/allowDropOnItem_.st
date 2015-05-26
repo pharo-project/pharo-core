@@ -1,0 +1,2 @@
+allowDropOnItem: aBlock
+	allowDropOnItemBlock := aBlock

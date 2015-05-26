@@ -1,0 +1,2 @@
+allowsSearch
+	^ searchBlock notNil

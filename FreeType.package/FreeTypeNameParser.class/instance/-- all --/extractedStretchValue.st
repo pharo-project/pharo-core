@@ -1,0 +1,2 @@
+extractedStretchValue
+	^extractedStretchValue

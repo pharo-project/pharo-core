@@ -1,0 +1,13 @@
+selectedPackageWithoutChangingSelection: aPackage
+
+	self okToChange
+		ifTrue: [| class |
+			class := self selectedClass.
+			(self showHierarchy not and: [class notNil and: [class package ~= aPackage]])
+				ifTrue: [ self selectedClass: nil ].
+			self model package: aPackage class: self selectedClass category: nil method: nil.
+			self packageWidget selectPackage:aPackage .
+			self updateClassView.
+			self updateCategoryAndMethodList.
+			self changed: #getComments.
+			self changed: #sourceCodeFrom:]

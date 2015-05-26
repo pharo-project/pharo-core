@@ -1,0 +1,2 @@
+aLoadedProjectIsNotCurrent: aBoolean
+	aLoadedProjectIsNotCurrent := aBoolean

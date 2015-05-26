@@ -1,0 +1,2 @@
+allFilteredCandidates
+	^ self infoAt: #allFilteredCandidates

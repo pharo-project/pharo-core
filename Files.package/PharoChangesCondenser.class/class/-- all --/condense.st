@@ -1,0 +1,3 @@
+condense
+	^ self new
+		condense

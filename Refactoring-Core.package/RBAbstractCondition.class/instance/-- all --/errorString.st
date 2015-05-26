@@ -1,0 +1,2 @@
+errorString
+	^self errorStringFor: false

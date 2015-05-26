@@ -1,0 +1,3 @@
+isPoolKey
+
+	^#isPool

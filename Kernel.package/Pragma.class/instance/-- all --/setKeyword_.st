@@ -1,0 +1,2 @@
+setKeyword: aSymbol
+	keyword := aSymbol

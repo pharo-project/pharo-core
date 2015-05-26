@@ -1,0 +1,2 @@
+frenchLocale
+	^ Locale isoLanguage: 'fr'

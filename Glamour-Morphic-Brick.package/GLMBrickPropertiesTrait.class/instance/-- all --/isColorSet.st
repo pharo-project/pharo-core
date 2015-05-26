@@ -1,0 +1,3 @@
+isColorSet
+
+	^ self hasProperty: #brickBackgroundColor

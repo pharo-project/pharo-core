@@ -1,0 +1,2 @@
+initialize
+	propagations := OrderedCollection new.

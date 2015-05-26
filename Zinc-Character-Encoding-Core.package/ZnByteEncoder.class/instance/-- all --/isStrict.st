@@ -1,0 +1,2 @@
+isStrict
+	^ strict

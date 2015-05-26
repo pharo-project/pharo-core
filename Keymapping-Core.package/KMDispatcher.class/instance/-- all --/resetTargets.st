@@ -1,0 +1,2 @@
+resetTargets
+    targets := nil

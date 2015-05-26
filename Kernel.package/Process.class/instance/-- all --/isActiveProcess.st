@@ -1,0 +1,3 @@
+isActiveProcess
+
+	^ self == Processor activeProcess

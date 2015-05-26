@@ -1,0 +1,2 @@
+openClassBrowser
+	^ self browser open

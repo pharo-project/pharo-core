@@ -1,0 +1,2 @@
+shadowColor: aColor
+	shadowColor := aColor

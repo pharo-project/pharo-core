@@ -1,0 +1,2 @@
+hasDecoratorNamed: aKey
+	^ false

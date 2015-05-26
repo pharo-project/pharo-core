@@ -1,0 +1,3 @@
+autoDeselection
+
+	^ autoDeselection value

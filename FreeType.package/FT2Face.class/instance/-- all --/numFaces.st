@@ -1,0 +1,2 @@
+numFaces
+	^numFaces

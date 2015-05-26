@@ -1,0 +1,3 @@
+onCreated: aBlock
+
+	contentLogic := aBlock

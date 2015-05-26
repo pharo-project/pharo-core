@@ -1,0 +1,2 @@
+removeFirst
+	self recorder removeFirst

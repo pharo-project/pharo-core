@@ -1,0 +1,2 @@
+includes: aShortcut
+	^self = aShortcut

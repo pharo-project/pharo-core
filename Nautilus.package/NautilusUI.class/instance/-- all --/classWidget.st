@@ -1,0 +1,3 @@
+classWidget
+
+	^ classWidget

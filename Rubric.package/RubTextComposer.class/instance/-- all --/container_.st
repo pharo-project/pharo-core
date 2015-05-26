@@ -1,0 +1,2 @@
+container: aRectangle 
+	theContainer := aRectangle

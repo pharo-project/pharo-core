@@ -1,0 +1,2 @@
+basicObsoleteSubclasses
+	^ObsoleteSubclasses.

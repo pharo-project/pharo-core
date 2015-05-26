@@ -1,0 +1,2 @@
+resetRootInfo
+	hasToggleAtRoot := nil.

@@ -1,0 +1,4 @@
+inspectorClass
+
+	^ EyeInspector 
+	

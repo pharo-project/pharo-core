@@ -1,0 +1,2 @@
+stamp: classCommentStamp
+	stamp := classCommentStamp

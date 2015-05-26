@@ -1,0 +1,3 @@
+withoutMethods
+	
+	self removeElementsCategorized: #methods

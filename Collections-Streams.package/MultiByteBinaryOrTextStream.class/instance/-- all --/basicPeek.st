@@ -1,0 +1,3 @@
+basicPeek
+
+	^ super peek

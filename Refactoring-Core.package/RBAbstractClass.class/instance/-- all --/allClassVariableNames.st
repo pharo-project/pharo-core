@@ -1,0 +1,2 @@
+allClassVariableNames
+	^self subclassResponsibility

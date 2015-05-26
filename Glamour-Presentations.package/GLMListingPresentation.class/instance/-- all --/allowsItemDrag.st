@@ -1,0 +1,2 @@
+allowsItemDrag
+	^ self allowItemDragBlock notNil

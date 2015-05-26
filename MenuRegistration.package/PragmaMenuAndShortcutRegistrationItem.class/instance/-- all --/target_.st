@@ -1,0 +1,3 @@
+target: aSymbol 
+	
+	target := aSymbol 

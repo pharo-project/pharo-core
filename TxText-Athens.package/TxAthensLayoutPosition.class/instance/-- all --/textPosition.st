@@ -1,0 +1,2 @@
+textPosition
+	^ textPosition

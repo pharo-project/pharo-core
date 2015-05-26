@@ -1,0 +1,3 @@
+initialWidth
+
+	^ self model initialWidth

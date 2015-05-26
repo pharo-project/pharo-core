@@ -1,0 +1,2 @@
+history
+	^ self inspectorWrapper history

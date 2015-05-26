@@ -1,0 +1,2 @@
+newImage
+	^ self instantiate: ImageModel

@@ -1,0 +1,2 @@
+keyText: aString
+	keyText := aString.

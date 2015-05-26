@@ -1,0 +1,3 @@
+usesExplicitNotNil 
+	 
+	^self usesImplicitNotNil not

@@ -1,0 +1,2 @@
+removeAll
+	self initialize.

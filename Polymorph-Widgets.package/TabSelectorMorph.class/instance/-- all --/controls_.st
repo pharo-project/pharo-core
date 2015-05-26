@@ -1,0 +1,3 @@
+controls: anObject
+
+	controls := anObject

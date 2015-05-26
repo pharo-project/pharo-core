@@ -1,0 +1,2 @@
+streamed: anObject
+	streamed := anObject

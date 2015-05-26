@@ -1,0 +1,2 @@
+version
+    self subclassResponsibility

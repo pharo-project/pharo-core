@@ -1,0 +1,2 @@
+shoutEnabled
+	^ self class shoutEnabled

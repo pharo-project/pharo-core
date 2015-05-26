@@ -1,0 +1,2 @@
+spanClass
+	^TxCharacterSpan 

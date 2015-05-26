@@ -1,0 +1,2 @@
+wrapped
+	^ textArea wrapped

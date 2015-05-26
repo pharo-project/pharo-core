@@ -1,0 +1,2 @@
+defaultChunkSize
+	^ nil

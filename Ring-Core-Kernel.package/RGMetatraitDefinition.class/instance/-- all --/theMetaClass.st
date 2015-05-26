@@ -1,0 +1,3 @@
+theMetaClass
+
+	^self

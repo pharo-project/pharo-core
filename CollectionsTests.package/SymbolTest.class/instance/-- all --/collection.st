@@ -1,0 +1,3 @@
+collection
+
+	^ nonEmptySymbol5ElementsNoDuplicates 

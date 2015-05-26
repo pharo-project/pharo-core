@@ -1,0 +1,3 @@
+owner: anObject
+
+	owner := anObject.

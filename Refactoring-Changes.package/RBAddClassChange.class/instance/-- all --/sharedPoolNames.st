@@ -1,0 +1,2 @@
+sharedPoolNames
+	^ poolDictionaryNames

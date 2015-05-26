@@ -1,0 +1,2 @@
+invalidateContentLength
+	self contentLength: nil

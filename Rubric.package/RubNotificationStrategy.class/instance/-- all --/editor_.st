@@ -1,0 +1,2 @@
+editor: aSmalltalkEditor
+	editor := aSmalltalkEditor 

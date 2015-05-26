@@ -1,0 +1,3 @@
+expandAll
+
+	self treeModel expandAll

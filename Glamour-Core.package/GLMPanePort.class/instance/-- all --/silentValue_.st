@@ -1,0 +1,2 @@
+silentValue: anObject
+	value := anObject

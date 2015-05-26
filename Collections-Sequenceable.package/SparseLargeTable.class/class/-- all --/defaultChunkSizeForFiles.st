@@ -1,0 +1,3 @@
+defaultChunkSizeForFiles
+
+	^8000

@@ -1,0 +1,2 @@
+changeString
+	^ 'Define ' , self displayClassName

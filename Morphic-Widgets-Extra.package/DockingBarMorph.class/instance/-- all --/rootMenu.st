@@ -1,0 +1,2 @@
+rootMenu
+	^ self

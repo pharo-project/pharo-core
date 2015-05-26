@@ -1,0 +1,2 @@
+createDefault
+	^ self new

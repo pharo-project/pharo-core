@@ -1,0 +1,4 @@
+testValidateClassName		
+		
+	PharoClassInstaller 
+		validateClassName: #GoodClassNameThatShouldNotExist

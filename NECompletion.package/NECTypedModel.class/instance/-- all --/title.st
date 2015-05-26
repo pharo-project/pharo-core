@@ -1,0 +1,2 @@
+title
+	^clazz name

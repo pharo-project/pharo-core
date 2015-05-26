@@ -1,0 +1,3 @@
+duration: anInteger
+
+	duration := anInteger

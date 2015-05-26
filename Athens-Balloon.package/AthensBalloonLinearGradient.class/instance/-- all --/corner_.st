@@ -1,0 +1,3 @@
+corner: anObject
+
+	corner := anObject

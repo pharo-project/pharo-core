@@ -1,0 +1,2 @@
+latestVersion: blessing
+    ^ nil

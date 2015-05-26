@@ -1,0 +1,2 @@
+minX
+	^minX

@@ -1,0 +1,3 @@
+isBlock
+
+	^ true

@@ -1,0 +1,2 @@
+baseSnapshot
+	^ self snapshotForInfo: ancestry

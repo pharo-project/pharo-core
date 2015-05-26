@@ -1,0 +1,3 @@
+koSourceText
+
+	^ self source

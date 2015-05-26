@@ -1,0 +1,2 @@
+t12
+	^TraitsResource current t12

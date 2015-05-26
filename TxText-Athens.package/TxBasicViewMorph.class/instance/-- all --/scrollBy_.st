@@ -1,0 +1,2 @@
+scrollBy: aPoint 
+	self subclassResponsibility .

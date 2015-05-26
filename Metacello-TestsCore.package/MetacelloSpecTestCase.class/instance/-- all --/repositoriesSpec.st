@@ -1,0 +1,2 @@
+repositoriesSpec
+    ^ self project repositoriesSpec

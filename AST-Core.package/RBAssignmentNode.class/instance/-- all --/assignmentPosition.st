@@ -1,0 +1,2 @@
+assignmentPosition
+	^ assignment

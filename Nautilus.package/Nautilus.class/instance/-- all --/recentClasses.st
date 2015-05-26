@@ -1,0 +1,3 @@
+recentClasses
+
+	^ self class recentClasses

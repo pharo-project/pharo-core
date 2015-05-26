@@ -1,0 +1,3 @@
+bottomFraction: aNumber
+
+	^ 0

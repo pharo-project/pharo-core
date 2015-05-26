@@ -1,0 +1,2 @@
+setScale: aNumberOrPoint 
+	scale := aNumberOrPoint

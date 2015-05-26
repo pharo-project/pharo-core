@@ -1,0 +1,3 @@
+isTemp
+
+	^ false

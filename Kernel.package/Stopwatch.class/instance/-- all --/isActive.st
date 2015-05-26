@@ -1,0 +1,3 @@
+isActive
+
+	^ self state = #active

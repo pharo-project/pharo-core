@@ -1,0 +1,2 @@
+testExampleTimesRepeatEffect
+	self checkMethod: OCOpalExamples>>#exampleTimesRepeatEffect

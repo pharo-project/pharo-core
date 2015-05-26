@@ -1,0 +1,2 @@
+cancelButtonLabel
+	^'Cancel'

@@ -1,0 +1,2 @@
+newLabel
+	^ self instantiate: LabelModel

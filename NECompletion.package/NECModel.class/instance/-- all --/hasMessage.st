@@ -1,0 +1,2 @@
+hasMessage
+	^ self message notNil

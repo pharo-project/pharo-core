@@ -1,0 +1,2 @@
+isVisible
+	^slot isVisible

@@ -1,0 +1,2 @@
+traitUsers: aCollection
+	"Compatibility purposes"

@@ -1,0 +1,3 @@
+cellSpacing
+	"Default"
+	^#none

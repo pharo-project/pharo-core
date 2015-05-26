@@ -1,0 +1,2 @@
+bottomRight
+	^ right@bottom

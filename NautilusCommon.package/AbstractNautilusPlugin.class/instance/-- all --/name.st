@@ -1,0 +1,3 @@
+name
+
+	^ self class name

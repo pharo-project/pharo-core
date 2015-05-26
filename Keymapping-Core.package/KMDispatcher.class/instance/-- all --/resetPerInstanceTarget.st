@@ -1,0 +1,2 @@
+resetPerInstanceTarget
+	directKeymaps := nil

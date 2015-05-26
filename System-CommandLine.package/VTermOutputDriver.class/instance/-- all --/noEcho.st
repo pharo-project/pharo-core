@@ -1,0 +1,2 @@
+noEcho
+	self echo: false.

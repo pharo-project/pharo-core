@@ -1,0 +1,2 @@
+testNoRemoteReadInBlock
+	self checkMethod: OCOpalExamples>>#noRemoteReadInBlock

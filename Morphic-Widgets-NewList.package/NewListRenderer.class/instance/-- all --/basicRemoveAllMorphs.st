@@ -1,0 +1,2 @@
+basicRemoveAllMorphs
+	submorphs := EmptyArray 

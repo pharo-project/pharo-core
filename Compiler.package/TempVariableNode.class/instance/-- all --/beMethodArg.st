@@ -1,0 +1,2 @@
+beMethodArg
+	argType := #method

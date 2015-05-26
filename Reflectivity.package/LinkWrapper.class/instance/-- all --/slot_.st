@@ -1,0 +1,3 @@
+slot: anObject
+	
+	slot := anObject

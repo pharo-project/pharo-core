@@ -1,0 +1,5 @@
+reset
+	<script>
+	
+	Icons := nil
+	 

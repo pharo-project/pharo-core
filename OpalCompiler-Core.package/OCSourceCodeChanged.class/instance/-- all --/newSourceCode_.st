@@ -1,0 +1,2 @@
+newSourceCode: aString
+	newSourceCode := aString

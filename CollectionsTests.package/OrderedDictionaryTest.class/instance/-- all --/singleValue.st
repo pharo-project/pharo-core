@@ -1,0 +1,2 @@
+singleValue
+	^ self singleAssociation value

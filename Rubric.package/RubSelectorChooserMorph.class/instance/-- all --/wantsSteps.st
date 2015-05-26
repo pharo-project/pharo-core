@@ -1,0 +1,2 @@
+wantsSteps 
+	^ requestor notNil

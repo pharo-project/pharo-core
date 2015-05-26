@@ -1,0 +1,2 @@
+repositoryListChanged
+	self changed: #repositoryList.

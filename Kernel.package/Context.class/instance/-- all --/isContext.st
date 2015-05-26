@@ -1,0 +1,2 @@
+isContext
+	^true

@@ -1,0 +1,2 @@
+logFlag
+	^self class logFlag

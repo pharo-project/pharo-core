@@ -1,0 +1,2 @@
+finalizeResourceData: anExternalAddress
+	anExternalAddress free

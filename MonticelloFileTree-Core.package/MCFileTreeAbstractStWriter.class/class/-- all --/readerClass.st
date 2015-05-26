@@ -1,0 +1,2 @@
+readerClass
+	^ MCStReader

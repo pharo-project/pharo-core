@@ -1,0 +1,3 @@
+storeValue: anObject
+	
+	storeValue := anObject

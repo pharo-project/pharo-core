@@ -1,0 +1,3 @@
+popPane
+
+	self popPane: false.

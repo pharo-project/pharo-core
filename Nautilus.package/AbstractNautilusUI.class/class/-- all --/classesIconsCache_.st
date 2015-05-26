@@ -1,0 +1,3 @@
+classesIconsCache: anObject
+	
+	ClassesIconsCache := anObject

@@ -1,0 +1,2 @@
+icon: aForm
+	icon := aForm

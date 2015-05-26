@@ -1,0 +1,3 @@
+getContentSelector: anObject
+
+	getContentSelector := anObject

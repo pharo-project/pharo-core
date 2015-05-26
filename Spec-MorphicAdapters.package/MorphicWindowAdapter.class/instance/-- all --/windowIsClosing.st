@@ -1,0 +1,3 @@
+windowIsClosing
+
+	self model windowIsClosing

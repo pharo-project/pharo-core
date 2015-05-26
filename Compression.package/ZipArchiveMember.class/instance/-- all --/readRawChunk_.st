@@ -1,0 +1,2 @@
+readRawChunk: n
+	self subclassResponsibility

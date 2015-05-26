@@ -1,0 +1,2 @@
+inverse
+	self subclassResponsibility

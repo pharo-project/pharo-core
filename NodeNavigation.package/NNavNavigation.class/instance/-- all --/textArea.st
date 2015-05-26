@@ -1,0 +1,2 @@
+textArea
+	^ currentEditor sourceTextArea 

@@ -1,0 +1,3 @@
+autoHide: aBoolean
+
+	autoHide := aBoolean

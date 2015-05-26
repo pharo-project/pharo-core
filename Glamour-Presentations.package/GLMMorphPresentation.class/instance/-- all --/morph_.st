@@ -1,0 +1,2 @@
+morph: aBlock
+	morphBuilder := aBlock

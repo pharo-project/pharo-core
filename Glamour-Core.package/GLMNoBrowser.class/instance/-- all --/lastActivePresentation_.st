@@ -1,0 +1,1 @@
+lastActivePresentation: aPresentation

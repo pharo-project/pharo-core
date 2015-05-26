@@ -1,0 +1,2 @@
+echo
+	self echo: true.

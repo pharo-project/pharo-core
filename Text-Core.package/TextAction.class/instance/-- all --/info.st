@@ -1,0 +1,2 @@
+info
+	^ 'no hidden info'

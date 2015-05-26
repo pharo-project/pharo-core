@@ -1,0 +1,2 @@
+selectedGroups
+	self subclassResponsibility 

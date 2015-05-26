@@ -1,0 +1,2 @@
+radial: aBoolean
+	radial := aBoolean

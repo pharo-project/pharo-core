@@ -1,0 +1,2 @@
+maxDistanceCodes
+	^MaxDistCodes

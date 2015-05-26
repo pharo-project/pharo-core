@@ -1,0 +1,2 @@
+asBaselineProjectSpec
+    ^ self

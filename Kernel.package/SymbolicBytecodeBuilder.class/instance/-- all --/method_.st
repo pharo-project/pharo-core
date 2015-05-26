@@ -1,0 +1,2 @@
+method: aMethod
+	method :=  aMethod.

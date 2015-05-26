@@ -1,0 +1,3 @@
+fullName
+
+	^ self resolve fullName

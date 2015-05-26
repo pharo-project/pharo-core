@@ -1,0 +1,3 @@
+categoryListSize
+
+	^ self getCategories size

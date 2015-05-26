@@ -1,0 +1,3 @@
+receiver: obj
+
+	receiver := obj

@@ -1,0 +1,2 @@
+textStyle
+	^ self textArea textStyle

@@ -1,0 +1,2 @@
+isActiveClass
+	^ Smalltalk os isMacOS

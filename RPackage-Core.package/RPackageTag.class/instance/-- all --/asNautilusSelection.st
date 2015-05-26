@@ -1,0 +1,2 @@
+asNautilusSelection 
+	^ PackageTreeTagSelection tag: self

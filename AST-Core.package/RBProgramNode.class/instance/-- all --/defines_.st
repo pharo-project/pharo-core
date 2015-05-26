@@ -1,0 +1,2 @@
+defines: aName
+	^false

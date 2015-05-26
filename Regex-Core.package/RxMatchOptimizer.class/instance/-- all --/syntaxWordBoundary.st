@@ -1,0 +1,3 @@
+syntaxWordBoundary
+
+	conditions add: #atWordBoundary

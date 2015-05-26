@@ -1,0 +1,3 @@
+changed
+
+	^ self brick changed

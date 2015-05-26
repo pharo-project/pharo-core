@@ -1,0 +1,2 @@
+maxCacheSize
+	^ 512

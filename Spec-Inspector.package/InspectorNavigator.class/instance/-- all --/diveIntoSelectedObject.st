@@ -1,0 +1,2 @@
+diveIntoSelectedObject
+	self inspector diveIntoSelectedObject

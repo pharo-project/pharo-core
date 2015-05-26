@@ -1,0 +1,2 @@
+traitMethod
+	^ class >> #one

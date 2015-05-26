@@ -1,0 +1,3 @@
+allProtocol
+
+	^ allProtocol

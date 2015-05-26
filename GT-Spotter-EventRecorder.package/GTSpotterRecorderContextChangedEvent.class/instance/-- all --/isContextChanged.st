@@ -1,0 +1,2 @@
+isContextChanged
+	^ self currentTextInfo notNil

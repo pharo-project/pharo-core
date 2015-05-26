@@ -1,0 +1,3 @@
+wantsDroppedObject: anotherItem
+
+	^false

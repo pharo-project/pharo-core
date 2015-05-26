@@ -1,0 +1,2 @@
+invokeWorldMenuFromEscapeKey
+	self invokeWorldMenu: ActiveEvent

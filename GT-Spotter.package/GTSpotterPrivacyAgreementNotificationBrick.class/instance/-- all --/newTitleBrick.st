@@ -1,0 +1,3 @@
+newTitleBrick
+
+	^ GLMRubTextAreaBrick new

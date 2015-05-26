@@ -1,0 +1,2 @@
+setUp
+	announcer := GLMAnnouncer new

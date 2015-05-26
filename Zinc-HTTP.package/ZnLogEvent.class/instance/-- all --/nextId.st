@@ -1,0 +1,2 @@
+nextId
+	^ self class nextId

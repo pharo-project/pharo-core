@@ -1,0 +1,2 @@
+actualWidth: anObject
+	actualWidth := anObject

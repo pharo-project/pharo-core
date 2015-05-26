@@ -1,0 +1,3 @@
+allowToSelect
+
+	^ allowToSelect value

@@ -1,0 +1,3 @@
+localeWasChanged: anAnnouncement
+
+	catchedAnnouncement := anAnnouncement 

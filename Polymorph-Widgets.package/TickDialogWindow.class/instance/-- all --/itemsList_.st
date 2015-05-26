@@ -1,0 +1,3 @@
+itemsList: anObject
+	
+	itemsList := anObject

@@ -1,0 +1,2 @@
+versions: aCollection
+	versions := aCollection

@@ -1,0 +1,2 @@
+isScriptDefinition
+	^true

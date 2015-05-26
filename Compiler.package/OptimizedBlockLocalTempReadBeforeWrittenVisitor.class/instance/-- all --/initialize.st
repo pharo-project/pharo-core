@@ -1,0 +1,2 @@
+initialize
+	inOptimizedBlock := false

@@ -1,0 +1,3 @@
+anchorBrick: aBrick
+
+	anchorBrick := aBrick

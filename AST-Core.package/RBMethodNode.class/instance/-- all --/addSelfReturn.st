@@ -1,0 +1,2 @@
+addSelfReturn
+	^ body addSelfReturn

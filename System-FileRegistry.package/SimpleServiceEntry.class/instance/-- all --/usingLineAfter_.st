@@ -1,0 +1,3 @@
+usingLineAfter: aBoolean
+
+	usingLineAfter := aBoolean

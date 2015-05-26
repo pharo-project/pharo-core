@@ -1,0 +1,3 @@
+id: anObject 
+	 
+	id := anObject

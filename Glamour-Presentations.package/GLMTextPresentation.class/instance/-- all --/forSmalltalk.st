@@ -1,0 +1,2 @@
+forSmalltalk
+	highlightSmalltalk := true

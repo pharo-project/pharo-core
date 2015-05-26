@@ -1,0 +1,3 @@
+isBytes: oop
+	 
+	^ self simpleCall

@@ -1,0 +1,3 @@
+basicValue: anObject
+	value := anObject. 
+	

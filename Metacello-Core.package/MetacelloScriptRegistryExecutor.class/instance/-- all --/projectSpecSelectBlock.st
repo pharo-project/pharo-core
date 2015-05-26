@@ -1,0 +1,2 @@
+projectSpecSelectBlock
+  ^ [ :projectSpec | projectSpec notNil ]

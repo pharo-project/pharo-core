@@ -1,0 +1,2 @@
+menuShadowColor
+	^ self settings menuShadowColor

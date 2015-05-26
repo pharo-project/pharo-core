@@ -1,0 +1,3 @@
+instanceCount
+
+	^ instanceCount

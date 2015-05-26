@@ -1,0 +1,2 @@
+parameter: anObject
+	parameter := anObject

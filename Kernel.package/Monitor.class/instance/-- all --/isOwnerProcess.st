@@ -1,0 +1,2 @@
+isOwnerProcess
+	^ Processor activeProcess == ownerProcess

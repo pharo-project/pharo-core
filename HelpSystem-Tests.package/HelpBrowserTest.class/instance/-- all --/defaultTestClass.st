@@ -1,0 +1,2 @@
+defaultTestClass
+	^HelpBrowser

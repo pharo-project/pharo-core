@@ -1,0 +1,3 @@
+currentVersionInfo
+
+	^self goferPackage currentVersionInfo

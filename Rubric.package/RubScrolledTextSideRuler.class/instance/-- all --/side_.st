@@ -1,0 +1,2 @@
+side: aSide
+	side := aSide

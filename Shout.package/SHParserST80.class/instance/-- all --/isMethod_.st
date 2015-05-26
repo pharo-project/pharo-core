@@ -1,0 +1,3 @@
+isMethod: aBoolean
+
+	isMethod := aBoolean.

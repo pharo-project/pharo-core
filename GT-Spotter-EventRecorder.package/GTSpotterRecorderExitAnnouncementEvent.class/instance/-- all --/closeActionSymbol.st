@@ -1,0 +1,2 @@
+closeActionSymbol
+	^ self eventType

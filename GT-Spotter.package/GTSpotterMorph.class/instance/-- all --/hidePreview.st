@@ -1,0 +1,3 @@
+hidePreview
+	
+	self spotterModel hidePreview

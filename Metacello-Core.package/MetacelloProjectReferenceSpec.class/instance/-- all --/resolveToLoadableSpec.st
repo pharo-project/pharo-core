@@ -1,0 +1,3 @@
+resolveToLoadableSpec
+
+	^self resolveProjectSpec resolveToLoadableSpec

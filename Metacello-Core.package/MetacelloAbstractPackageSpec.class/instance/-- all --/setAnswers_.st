@@ -1,0 +1,3 @@
+setAnswers: aCollection
+
+	answers := aCollection

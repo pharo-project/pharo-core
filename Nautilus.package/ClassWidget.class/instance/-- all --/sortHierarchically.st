@@ -1,0 +1,2 @@
+sortHierarchically
+	^ self model sortHierarchically

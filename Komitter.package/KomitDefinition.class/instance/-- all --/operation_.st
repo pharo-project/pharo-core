@@ -1,0 +1,3 @@
+operation: anOperation
+ 
+	operation := anOperation

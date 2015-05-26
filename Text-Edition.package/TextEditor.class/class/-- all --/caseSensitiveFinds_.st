@@ -1,0 +1,2 @@
+caseSensitiveFinds: aBoolean
+	CaseSensitiveFinds := aBoolean

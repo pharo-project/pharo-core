@@ -1,0 +1,2 @@
+className: aName
+	className := aName

@@ -1,0 +1,3 @@
+selectedBehavior
+
+	^ behaviorHolder value

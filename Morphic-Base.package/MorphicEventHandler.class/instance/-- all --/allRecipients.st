@@ -1,0 +1,2 @@
+allRecipients
+	^subscriptions collect: #recipients

@@ -1,0 +1,2 @@
+viewChanged: aTxAthensLayoutView 
+	self changed.

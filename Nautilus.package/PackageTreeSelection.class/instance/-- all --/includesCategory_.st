@@ -1,0 +1,2 @@
+includesCategory: aSymbol
+	^ false

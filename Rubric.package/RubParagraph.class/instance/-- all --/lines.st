@@ -1,0 +1,2 @@
+lines
+	^ self composer lines

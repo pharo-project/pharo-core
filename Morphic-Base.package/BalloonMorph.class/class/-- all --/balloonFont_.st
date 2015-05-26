@@ -1,0 +1,2 @@
+balloonFont: aFont
+	BalloonFont := aFont

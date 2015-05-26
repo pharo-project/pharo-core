@@ -1,0 +1,3 @@
+current
+
+	^ bar value.

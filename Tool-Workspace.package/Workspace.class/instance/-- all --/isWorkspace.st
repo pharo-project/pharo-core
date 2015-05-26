@@ -1,0 +1,3 @@
+isWorkspace
+
+	^true

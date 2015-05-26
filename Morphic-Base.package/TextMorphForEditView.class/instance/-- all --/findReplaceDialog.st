@@ -1,0 +1,2 @@
+findReplaceDialog
+	^ EditorFindReplaceDialogWindow singleton

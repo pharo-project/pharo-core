@@ -1,0 +1,2 @@
+text 
+	^ morph textArea text

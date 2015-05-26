@@ -1,0 +1,2 @@
+defaultAmountToShow
+	^ 500

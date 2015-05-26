@@ -1,0 +1,2 @@
+updateCategoryList
+	self subclassResponsibility 

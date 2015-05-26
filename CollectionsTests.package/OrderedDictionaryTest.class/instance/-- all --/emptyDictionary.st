@@ -1,0 +1,2 @@
+emptyDictionary
+	^ self dictionaryClass new

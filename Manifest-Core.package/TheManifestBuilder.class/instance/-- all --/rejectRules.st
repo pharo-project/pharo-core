@@ -1,0 +1,3 @@
+rejectRules
+	^ self manifest rejectRules
+	

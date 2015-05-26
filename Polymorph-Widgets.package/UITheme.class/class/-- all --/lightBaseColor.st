@@ -1,0 +1,3 @@
+lightBaseColor
+
+	^ Color white

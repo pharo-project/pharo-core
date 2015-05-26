@@ -1,0 +1,2 @@
+shift
+	^ KMShiftModifier new

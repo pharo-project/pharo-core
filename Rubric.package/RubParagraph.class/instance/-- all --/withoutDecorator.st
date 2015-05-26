@@ -1,0 +1,2 @@
+withoutDecorator
+	^ self

@@ -1,0 +1,3 @@
+isResizeable
+
+	^ self model isResizeable

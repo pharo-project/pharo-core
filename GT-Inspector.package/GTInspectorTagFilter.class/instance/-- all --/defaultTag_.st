@@ -1,0 +1,3 @@
+defaultTag: aSymbol
+
+	defaultTag := aSymbol

@@ -1,0 +1,2 @@
+title
+	^ 'load ', target typeLabel

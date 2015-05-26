@@ -1,0 +1,2 @@
+errorBlock: aBlock 
+	errorBlock := aBlock

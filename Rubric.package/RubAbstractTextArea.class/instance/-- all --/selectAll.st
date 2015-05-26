@@ -1,0 +1,2 @@
+selectAll
+	self editor selectAll

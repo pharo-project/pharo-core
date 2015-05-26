@@ -1,0 +1,2 @@
+buttonFont: aFont
+	 ButtonFont := aFont

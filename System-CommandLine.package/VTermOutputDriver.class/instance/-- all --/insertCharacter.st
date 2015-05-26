@@ -1,0 +1,2 @@
+insertCharacter
+	self termcap:  'ic'

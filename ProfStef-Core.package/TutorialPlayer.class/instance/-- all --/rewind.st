@@ -1,0 +1,2 @@
+rewind
+	tutorialPosition := 1.

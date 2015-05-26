@@ -1,0 +1,3 @@
+image
+
+	^ self class image

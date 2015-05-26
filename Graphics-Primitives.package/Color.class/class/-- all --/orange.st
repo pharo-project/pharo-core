@@ -1,0 +1,2 @@
+orange
+	^ ColorRegistry at: #orange

@@ -1,0 +1,2 @@
+includesInstaller: anEmbeddedFreeTypeFontInstaller 
+	^ fontInstallers identityIncludes: anEmbeddedFreeTypeFontInstaller

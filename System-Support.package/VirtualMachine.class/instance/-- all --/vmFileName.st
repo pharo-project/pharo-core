@@ -1,0 +1,2 @@
+vmFileName
+	^ self fileName

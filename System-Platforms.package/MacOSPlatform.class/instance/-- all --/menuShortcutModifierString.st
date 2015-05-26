@@ -1,0 +1,2 @@
+menuShortcutModifierString
+	^ 'cmd'

@@ -1,0 +1,3 @@
+sourceFileVersionString
+
+	^ SourceFileVersionString

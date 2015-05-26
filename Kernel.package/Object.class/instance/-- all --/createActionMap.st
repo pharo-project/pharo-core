@@ -1,0 +1,3 @@
+createActionMap
+
+	^IdentityDictionary new

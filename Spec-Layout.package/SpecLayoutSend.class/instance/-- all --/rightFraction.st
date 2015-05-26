@@ -1,0 +1,3 @@
+rightFraction
+
+	^ 0

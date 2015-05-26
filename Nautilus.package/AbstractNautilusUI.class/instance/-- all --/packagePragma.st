@@ -1,0 +1,2 @@
+packagePragma
+	^ 'nautilusGlobalPackageMenu'

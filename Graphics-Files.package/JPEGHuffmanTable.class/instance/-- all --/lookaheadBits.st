@@ -1,0 +1,2 @@
+lookaheadBits
+	^lookaheadBits

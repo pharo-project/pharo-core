@@ -1,0 +1,2 @@
+lines: aCollectionOfTextLine
+	lines := aCollectionOfTextLine

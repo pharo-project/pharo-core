@@ -1,0 +1,2 @@
+capSquare
+	self flag:#todo

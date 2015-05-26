@@ -1,0 +1,3 @@
+privacyAgreementIsSendingDataColor
+
+	^ Color paleGreen

@@ -1,0 +1,3 @@
+dropEnabled
+
+	^ dropEnabled value

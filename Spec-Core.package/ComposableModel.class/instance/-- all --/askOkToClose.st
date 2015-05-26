@@ -1,0 +1,3 @@
+askOkToClose
+
+	^ askOkToClose value

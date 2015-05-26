@@ -1,0 +1,3 @@
+numberOfDisplay: aNumber
+	
+	numberOfDisplay := aNumber

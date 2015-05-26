@@ -1,0 +1,2 @@
+pink
+ 	^  ColorRegistry at: #pink.

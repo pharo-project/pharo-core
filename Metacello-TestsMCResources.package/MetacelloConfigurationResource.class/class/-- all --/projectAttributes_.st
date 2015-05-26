@@ -1,0 +1,3 @@
+projectAttributes: aCollection
+
+	ProjectAttributes := aCollection

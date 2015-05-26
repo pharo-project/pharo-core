@@ -1,0 +1,2 @@
+primDestroyHandle
+	self subclassResponsibility

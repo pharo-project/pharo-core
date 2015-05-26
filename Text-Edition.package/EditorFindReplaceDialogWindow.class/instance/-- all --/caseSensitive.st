@@ -1,0 +1,2 @@
+caseSensitive
+	^ self state caseSensitive

@@ -1,0 +1,2 @@
+reset
+	total := 0

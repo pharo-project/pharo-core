@@ -1,0 +1,2 @@
+getAttribute: anAttributeClass
+	^ #mockValue

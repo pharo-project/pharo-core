@@ -1,0 +1,2 @@
+label
+	^ 'FileReference Tree Inspector'

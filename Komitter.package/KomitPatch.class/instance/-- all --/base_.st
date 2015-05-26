@@ -1,0 +1,2 @@
+base: anObject
+	base := anObject

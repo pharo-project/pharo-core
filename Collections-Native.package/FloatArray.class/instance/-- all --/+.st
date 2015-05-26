@@ -1,0 +1,2 @@
++ anObject
+	^self copy += anObject

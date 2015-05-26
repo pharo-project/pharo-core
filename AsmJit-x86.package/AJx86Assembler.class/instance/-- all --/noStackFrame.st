@@ -1,0 +1,2 @@
+noStackFrame
+	stackManager noStackFrame.

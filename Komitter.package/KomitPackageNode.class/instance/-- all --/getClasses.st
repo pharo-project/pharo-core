@@ -1,0 +1,3 @@
+getClasses
+
+	^ self content classes

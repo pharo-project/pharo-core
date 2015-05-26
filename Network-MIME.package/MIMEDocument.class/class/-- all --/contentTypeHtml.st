@@ -1,0 +1,2 @@
+contentTypeHtml
+	^'text/html'

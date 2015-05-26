@@ -1,0 +1,2 @@
+asKeyCombination
+	^ KMKeyCombination fromKeyboardEvent: self

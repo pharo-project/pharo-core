@@ -1,0 +1,3 @@
+boolean: bool
+
+	boolean := bool

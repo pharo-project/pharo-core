@@ -1,0 +1,2 @@
+isHidePreview
+	^ true

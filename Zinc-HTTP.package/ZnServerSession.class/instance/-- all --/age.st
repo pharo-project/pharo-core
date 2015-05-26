@@ -1,0 +1,2 @@
+age
+	^ DateAndTime now - created

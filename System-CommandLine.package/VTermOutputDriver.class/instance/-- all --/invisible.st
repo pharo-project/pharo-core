@@ -1,0 +1,2 @@
+invisible
+	self termcap: 'mk'

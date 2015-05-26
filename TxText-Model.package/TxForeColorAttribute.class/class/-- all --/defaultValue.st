@@ -1,0 +1,2 @@
+defaultValue 
+	^Color black

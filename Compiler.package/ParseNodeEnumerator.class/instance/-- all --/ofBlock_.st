@@ -1,0 +1,2 @@
+ofBlock: aBlock
+	theBlock := aBlock

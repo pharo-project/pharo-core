@@ -1,0 +1,2 @@
+isOpenSpotter
+	^ true

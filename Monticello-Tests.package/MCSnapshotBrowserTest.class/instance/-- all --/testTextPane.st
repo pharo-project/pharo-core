@@ -1,0 +1,2 @@
+testTextPane
+	self textMorph

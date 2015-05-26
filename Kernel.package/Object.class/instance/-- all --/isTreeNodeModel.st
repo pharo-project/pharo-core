@@ -1,0 +1,3 @@
+isTreeNodeModel
+
+	^ false

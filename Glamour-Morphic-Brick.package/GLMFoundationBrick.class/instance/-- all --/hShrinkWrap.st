@@ -1,0 +1,3 @@
+hShrinkWrap
+
+	hResizing:= #shrinkWrap

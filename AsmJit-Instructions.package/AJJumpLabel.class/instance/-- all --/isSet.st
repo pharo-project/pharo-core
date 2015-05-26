@@ -1,0 +1,2 @@
+isSet
+	^ isSet == true

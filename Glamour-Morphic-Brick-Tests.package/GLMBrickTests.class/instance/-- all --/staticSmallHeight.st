@@ -1,0 +1,3 @@
+staticSmallHeight
+
+	^ 50

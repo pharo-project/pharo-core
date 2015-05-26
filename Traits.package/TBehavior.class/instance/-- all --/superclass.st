@@ -1,0 +1,2 @@
+superclass
+	^self explicitRequirement.

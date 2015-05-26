@@ -1,0 +1,2 @@
+documentation
+	self subclassResponsibility

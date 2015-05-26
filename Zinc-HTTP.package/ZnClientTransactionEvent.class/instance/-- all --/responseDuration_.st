@@ -1,0 +1,2 @@
+responseDuration: anObject
+	responseDuration := anObject

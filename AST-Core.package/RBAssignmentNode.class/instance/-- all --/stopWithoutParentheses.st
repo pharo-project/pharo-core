@@ -1,0 +1,2 @@
+stopWithoutParentheses
+	^value stop

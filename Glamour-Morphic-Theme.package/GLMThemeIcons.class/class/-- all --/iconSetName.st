@@ -1,0 +1,2 @@
+iconSetName
+	^ 'Glamorous black'

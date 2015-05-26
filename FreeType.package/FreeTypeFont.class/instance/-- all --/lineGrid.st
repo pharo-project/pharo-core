@@ -1,0 +1,3 @@
+lineGrid
+
+	^self height

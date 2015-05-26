@@ -1,0 +1,2 @@
+isMessageSend
+	^true

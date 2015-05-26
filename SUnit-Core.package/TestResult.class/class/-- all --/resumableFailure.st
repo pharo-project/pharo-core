@@ -1,0 +1,2 @@
+resumableFailure
+	^ResumableTestFailure

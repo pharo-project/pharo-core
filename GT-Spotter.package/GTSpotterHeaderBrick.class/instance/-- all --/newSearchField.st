@@ -1,0 +1,3 @@
+newSearchField
+
+	^ GLMRubTextFieldBrick new

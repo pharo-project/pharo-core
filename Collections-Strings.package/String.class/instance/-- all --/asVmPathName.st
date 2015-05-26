@@ -1,0 +1,2 @@
+asVmPathName
+	^ FilePathEncoder encode: self

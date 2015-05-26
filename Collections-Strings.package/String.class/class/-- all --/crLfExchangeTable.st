@@ -1,0 +1,3 @@
+crLfExchangeTable
+
+	^CrLfExchangeTable

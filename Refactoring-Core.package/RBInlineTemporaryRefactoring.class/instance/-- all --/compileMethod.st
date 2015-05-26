@@ -1,0 +1,2 @@
+compileMethod
+	class compileTree: sourceTree

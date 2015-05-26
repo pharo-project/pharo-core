@@ -1,0 +1,3 @@
+close
+
+	self foundationBrick delete

@@ -1,0 +1,2 @@
+textArea: aTextArea
+	textArea := aTextArea

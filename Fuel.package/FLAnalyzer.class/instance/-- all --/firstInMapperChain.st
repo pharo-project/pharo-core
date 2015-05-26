@@ -1,0 +1,3 @@
+firstInMapperChain
+
+	^ self mappers first

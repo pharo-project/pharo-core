@@ -1,0 +1,2 @@
+valueClass
+	^ self value class

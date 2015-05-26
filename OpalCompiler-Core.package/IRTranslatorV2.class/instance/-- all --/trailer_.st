@@ -1,0 +1,3 @@
+trailer: aTrailer
+
+	trailer := aTrailer

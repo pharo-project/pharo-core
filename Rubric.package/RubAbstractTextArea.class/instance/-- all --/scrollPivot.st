@@ -1,0 +1,2 @@
+scrollPivot
+	^self editingState scrollPivot

@@ -1,0 +1,2 @@
+label
+	^ 'Rename' translated

@@ -1,0 +1,2 @@
+node: aNode
+	node := aNode

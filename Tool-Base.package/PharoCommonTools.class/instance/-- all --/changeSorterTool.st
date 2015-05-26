@@ -1,0 +1,2 @@
+changeSorterTool
+	^ self changeSorter

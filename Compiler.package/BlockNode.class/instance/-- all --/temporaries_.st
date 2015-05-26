@@ -1,0 +1,2 @@
+temporaries: aCollection
+	temporaries := aCollection

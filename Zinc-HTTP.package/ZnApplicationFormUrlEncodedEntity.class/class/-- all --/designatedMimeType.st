@@ -1,0 +1,2 @@
+designatedMimeType
+	^ ZnMimeType applicationFormUrlEncoded 

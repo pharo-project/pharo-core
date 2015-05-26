@@ -1,0 +1,2 @@
+index
+	^ code bitAnd: RegCodeMask

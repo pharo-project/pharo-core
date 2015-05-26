@@ -1,0 +1,2 @@
+instanceVariableNames: instVarString
+	"Compatibility purposes"

@@ -1,0 +1,3 @@
+rightCtrl: anObject
+	
+	rightCtrl := anObject

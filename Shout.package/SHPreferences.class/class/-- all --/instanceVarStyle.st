@@ -1,0 +1,2 @@
+instanceVarStyle
+	^ Groups at: #instanceVar

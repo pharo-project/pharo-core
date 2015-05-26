@@ -1,0 +1,2 @@
+withCodeSizeFeedback
+	self withRulerNamed: #codeSizeFeedback

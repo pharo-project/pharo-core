@@ -1,0 +1,3 @@
+useVerticalLinearLayout
+
+	self layout: GLMVerticalLinearLayout uniqueInstance

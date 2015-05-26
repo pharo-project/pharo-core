@@ -1,0 +1,3 @@
+setPaint: anObject
+
+	isPaintSet := true.

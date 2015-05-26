@@ -1,0 +1,2 @@
+ensureSystemCategory 
+	SystemOrganization addCategory: self categoryName

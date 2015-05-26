@@ -1,0 +1,2 @@
+pragmaNodeClass
+	^ RBPragmaNode

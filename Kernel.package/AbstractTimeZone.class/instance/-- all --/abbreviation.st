@@ -1,0 +1,2 @@
+abbreviation
+	^ self subclassResponsibility

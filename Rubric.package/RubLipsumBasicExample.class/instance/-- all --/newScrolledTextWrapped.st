@@ -1,0 +1,2 @@
+newScrolledTextWrapped
+	^ self newScrolledText beWrapped

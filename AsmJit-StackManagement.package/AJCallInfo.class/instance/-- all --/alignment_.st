@@ -1,0 +1,2 @@
+alignment: aStackAlignment
+	stackAlignment := aStackAlignment

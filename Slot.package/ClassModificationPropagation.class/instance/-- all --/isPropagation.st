@@ -1,0 +1,2 @@
+isPropagation
+	^true

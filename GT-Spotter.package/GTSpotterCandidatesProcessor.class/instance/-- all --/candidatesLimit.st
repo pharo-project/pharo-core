@@ -1,0 +1,2 @@
+candidatesLimit
+	^ self itemsLimit

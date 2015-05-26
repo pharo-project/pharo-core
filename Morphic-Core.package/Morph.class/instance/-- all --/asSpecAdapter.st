@@ -1,0 +1,4 @@
+asSpecAdapter
+
+	^ MorphicGenericAdapter 
+		morph: self

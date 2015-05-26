@@ -1,0 +1,3 @@
+getItems
+
+	^ self model getItems

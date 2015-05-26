@@ -1,0 +1,2 @@
+allowsFilter
+	^ filterBlock notNil

@@ -1,0 +1,9 @@
+smallPublishIconContents
+	"Private - Method generated"
+	^ 'R0lGODlhEAAQANUAAL/F3UhgoExin1Fmm1hqmF5ulGV9sGRykXGEqmh1j292hHV8inmRu3WH
+qH6VuYSYtam/4LDI5bHI5YSQn2V9lLnS6c7g8LjT6bnT6VyFpU6PvVSLs8Hd7sDd7cHd7dTn
+8sbk8Nfs9U1aXfrpnvrvwPbflv/xwv/11P301//rs//xyuzRi//lpP/tv//aif/flv/Rdf/V
+fePBfdmycffjy/vs4MnAwP///////wAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAADgALAAA
+AAAQABAAAAaIQJwQN1kYh0jk5Faj0RZJoXEyIpVWsplxYeviBhAUykQuk08agDCRarvfqs3w
+wKrb7y25sPB6Ff6ABQ0PGw8NOAQuigQgjY4hGyEIXzExAx4dHZgcHh8bDkICMAIXpRcYFakW
+ejgBARGwsRKwDBlIrri5BjgUUb5CCr9JCsTEwkMiCiLHSMs4QQA7'

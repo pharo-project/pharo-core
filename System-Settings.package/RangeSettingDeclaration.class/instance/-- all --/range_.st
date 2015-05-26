@@ -1,0 +1,2 @@
+range: anInterval
+	range := anInterval

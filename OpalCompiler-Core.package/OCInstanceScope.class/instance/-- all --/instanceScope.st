@@ -1,0 +1,2 @@
+instanceScope
+	^self

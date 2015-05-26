@@ -1,0 +1,3 @@
+expandRoots
+
+	self treeModel expandRoots

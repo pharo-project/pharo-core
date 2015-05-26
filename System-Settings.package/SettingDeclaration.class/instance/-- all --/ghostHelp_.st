@@ -1,0 +1,2 @@
+ghostHelp: aString
+	ghostHelp := aString

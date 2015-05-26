@@ -1,0 +1,2 @@
+cleanUpForProduction
+	self new cleanUpForProduction

@@ -1,0 +1,3 @@
+shouldBePrintedAsLiteral
+
+	^self isLiteral

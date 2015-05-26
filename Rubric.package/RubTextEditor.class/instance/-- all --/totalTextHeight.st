@@ -1,0 +1,3 @@
+totalTextHeight
+
+	^self paragraph totalTextHeight

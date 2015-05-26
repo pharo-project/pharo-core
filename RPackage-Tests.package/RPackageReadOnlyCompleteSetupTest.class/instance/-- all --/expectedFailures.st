@@ -1,0 +1,3 @@
+expectedFailures
+
+	^ #(testClassNamesAndExtensionSelectorsDo testClassNamesAndExtensionSelectorsDo testClassesAndExtensionMethodsDo testClassesAndExtensionMethodsDo)

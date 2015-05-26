@@ -1,0 +1,3 @@
+fromAnnouncement: anAnnouncement
+
+	

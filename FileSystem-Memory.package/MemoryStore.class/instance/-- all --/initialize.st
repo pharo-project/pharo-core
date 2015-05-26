@@ -1,0 +1,2 @@
+initialize 
+	root := MemoryFileSystemDirectory new

@@ -1,0 +1,2 @@
+morph
+	^ self

@@ -1,0 +1,3 @@
+hasHeader
+
+	^ headerTitle value notNil

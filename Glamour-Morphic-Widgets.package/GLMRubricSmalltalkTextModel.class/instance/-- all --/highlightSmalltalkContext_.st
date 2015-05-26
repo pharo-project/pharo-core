@@ -1,0 +1,2 @@
+highlightSmalltalkContext: aClassOrMetaclass
+	highlightSmalltalkContext := aClassOrMetaclass

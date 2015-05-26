@@ -1,0 +1,2 @@
+categorySelected
+	^ 0

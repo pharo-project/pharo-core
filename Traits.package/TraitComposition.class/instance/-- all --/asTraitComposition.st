@@ -1,0 +1,2 @@
+asTraitComposition
+	^self

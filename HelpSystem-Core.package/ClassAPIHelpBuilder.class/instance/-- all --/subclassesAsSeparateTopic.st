@@ -1,0 +1,2 @@
+subclassesAsSeparateTopic
+	^ subclassesAsSeparateTopic

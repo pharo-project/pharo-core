@@ -1,0 +1,2 @@
+useFindReplaceSelection
+	^ TextEditor useFindReplaceSelection

@@ -1,0 +1,3 @@
+groupsManager
+	
+	^ self class groupsManager

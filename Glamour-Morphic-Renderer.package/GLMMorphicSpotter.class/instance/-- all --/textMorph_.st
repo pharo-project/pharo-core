@@ -1,0 +1,2 @@
+textMorph: anObject
+	textMorph := anObject

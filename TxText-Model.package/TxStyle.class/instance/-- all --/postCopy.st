@@ -1,0 +1,3 @@
+postCopy
+	
+	attributes := attributes copy

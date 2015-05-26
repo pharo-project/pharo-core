@@ -1,0 +1,2 @@
+browseHierarchy
+	self systemNavigation browseHierarchy: self

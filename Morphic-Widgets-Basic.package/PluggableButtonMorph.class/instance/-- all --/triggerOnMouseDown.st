@@ -1,0 +1,3 @@
+triggerOnMouseDown
+
+	^ triggerOnMouseDown

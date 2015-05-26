@@ -1,0 +1,3 @@
+debugSelection
+
+	textMorph debugIt

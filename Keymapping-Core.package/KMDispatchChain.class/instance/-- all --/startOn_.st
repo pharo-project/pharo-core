@@ -1,0 +1,2 @@
+startOn: anInitialTarget
+	initialTarget := anInitialTarget.

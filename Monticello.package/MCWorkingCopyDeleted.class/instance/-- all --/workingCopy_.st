@@ -1,0 +1,2 @@
+workingCopy: anObject
+	workingCopy := anObject

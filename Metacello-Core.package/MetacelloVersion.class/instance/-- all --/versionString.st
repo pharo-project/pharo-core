@@ -1,0 +1,3 @@
+versionString
+
+	^self versionNumber versionString

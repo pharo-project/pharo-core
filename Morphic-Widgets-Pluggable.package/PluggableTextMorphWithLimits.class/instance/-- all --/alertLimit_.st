@@ -1,0 +1,3 @@
+alertLimit: anObject
+	
+	alertLimit := anObject

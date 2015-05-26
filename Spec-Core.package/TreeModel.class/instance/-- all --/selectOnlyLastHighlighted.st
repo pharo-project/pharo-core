@@ -1,0 +1,3 @@
+selectOnlyLastHighlighted
+
+	^ removeOnlyLastSelected value

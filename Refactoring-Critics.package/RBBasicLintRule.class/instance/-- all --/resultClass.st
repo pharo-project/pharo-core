@@ -1,0 +1,2 @@
+resultClass
+	self subclassResponsibility

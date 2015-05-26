@@ -1,0 +1,3 @@
+updateSelectedNode
+
+	self changed: #removeState

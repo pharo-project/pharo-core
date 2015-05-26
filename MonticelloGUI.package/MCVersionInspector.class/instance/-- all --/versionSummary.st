@@ -1,0 +1,2 @@
+versionSummary
+	^ self version summary

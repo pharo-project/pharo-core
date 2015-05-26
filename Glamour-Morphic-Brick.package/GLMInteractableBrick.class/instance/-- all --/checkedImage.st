@@ -1,0 +1,2 @@
+checkedImage
+	^ checkedImage

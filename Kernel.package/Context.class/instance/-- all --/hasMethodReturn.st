@@ -1,0 +1,2 @@
+hasMethodReturn
+	^closureOrNil hasMethodReturn

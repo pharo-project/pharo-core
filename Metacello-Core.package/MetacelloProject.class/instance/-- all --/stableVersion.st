@@ -1,0 +1,3 @@
+stableVersion
+
+	^self version: #stable

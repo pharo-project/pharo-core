@@ -1,0 +1,2 @@
+defaultLabel
+	^'Repository: ' , repository description

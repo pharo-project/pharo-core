@@ -1,0 +1,2 @@
+stepListSize
+	^ stepList size

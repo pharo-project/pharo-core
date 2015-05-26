@@ -1,0 +1,3 @@
+vPercent
+
+	^ self vState percent

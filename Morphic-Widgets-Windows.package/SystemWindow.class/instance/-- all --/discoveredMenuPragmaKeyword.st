@@ -1,0 +1,3 @@
+discoveredMenuPragmaKeyword
+
+	^ 'windowMenu'.

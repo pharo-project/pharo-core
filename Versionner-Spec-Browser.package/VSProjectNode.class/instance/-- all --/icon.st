@@ -1,0 +1,3 @@
+icon
+	 
+	^ VersionnerSpecBrowser configurationLoadedIcon

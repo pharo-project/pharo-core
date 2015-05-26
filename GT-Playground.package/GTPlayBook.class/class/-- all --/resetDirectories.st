@@ -1,0 +1,3 @@
+resetDirectories
+
+	cacheDirectory := nil

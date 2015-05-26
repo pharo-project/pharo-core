@@ -1,0 +1,2 @@
+isSelectorList
+	^ isList

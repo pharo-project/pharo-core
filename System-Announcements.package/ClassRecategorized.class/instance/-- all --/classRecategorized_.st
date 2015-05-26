@@ -1,0 +1,2 @@
+classRecategorized: aClass
+	classRecategorized := aClass

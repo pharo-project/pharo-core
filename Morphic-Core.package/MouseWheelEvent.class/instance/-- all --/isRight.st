@@ -1,0 +1,3 @@
+isRight
+
+	^ direction = Character arrowRight

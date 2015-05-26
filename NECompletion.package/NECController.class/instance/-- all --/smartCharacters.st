@@ -1,0 +1,2 @@
+smartCharacters
+	^ NECPreferences smartCharacters 

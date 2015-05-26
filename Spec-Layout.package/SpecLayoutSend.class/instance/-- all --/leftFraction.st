@@ -1,0 +1,3 @@
+leftFraction
+
+	^ 0

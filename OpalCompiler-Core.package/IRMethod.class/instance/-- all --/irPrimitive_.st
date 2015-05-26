@@ -1,0 +1,3 @@
+irPrimitive: aPrimitiveNode
+
+	irPrimitive := aPrimitiveNode

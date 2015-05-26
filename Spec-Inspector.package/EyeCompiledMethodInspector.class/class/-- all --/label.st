@@ -1,0 +1,2 @@
+label
+	^ 'Compiled Method Inspector'

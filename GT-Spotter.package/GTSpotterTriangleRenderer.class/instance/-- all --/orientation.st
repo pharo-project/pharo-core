@@ -1,0 +1,2 @@
+orientation
+	^ orientation ifNil: [ #bottom ]

@@ -1,0 +1,2 @@
+timestamp: aBlockOrStringOrDateAndTime constructor: aVersionConstructor
+    aVersionConstructor timestampForVersion: aBlockOrStringOrDateAndTime

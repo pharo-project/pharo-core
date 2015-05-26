@@ -1,0 +1,2 @@
+versionDoesNotExistException: anObject
+	versionDoesNotExistException := anObject

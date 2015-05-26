@@ -1,0 +1,3 @@
+isDisplayed
+
+	^ self widget isDisplayed

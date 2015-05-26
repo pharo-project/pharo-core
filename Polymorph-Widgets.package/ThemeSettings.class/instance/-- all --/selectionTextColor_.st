@@ -1,0 +1,2 @@
+selectionTextColor: aColor
+	selectionTextColor := aColor

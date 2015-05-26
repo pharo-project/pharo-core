@@ -1,0 +1,3 @@
+validationIconSymbol
+
+	^#blank

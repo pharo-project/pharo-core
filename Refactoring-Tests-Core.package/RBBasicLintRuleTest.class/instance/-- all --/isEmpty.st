@@ -1,0 +1,2 @@
+isEmpty
+	^result isEmpty

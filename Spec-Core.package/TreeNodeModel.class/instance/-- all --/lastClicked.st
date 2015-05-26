@@ -1,0 +1,3 @@
+lastClicked
+	
+	^ lastClicked value

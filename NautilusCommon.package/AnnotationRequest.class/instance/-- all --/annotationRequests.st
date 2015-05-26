@@ -1,0 +1,2 @@
+annotationRequests
+	^ self defaultAnnotationInfo 

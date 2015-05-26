@@ -1,0 +1,2 @@
+element: anObject
+	element := anObject

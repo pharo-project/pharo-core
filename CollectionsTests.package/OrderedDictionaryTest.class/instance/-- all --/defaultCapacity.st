@@ -1,0 +1,2 @@
+defaultCapacity
+	^ self emptyInternalDictionary capacity

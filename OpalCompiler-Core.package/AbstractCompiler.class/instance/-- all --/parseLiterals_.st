@@ -1,0 +1,2 @@
+parseLiterals: aString
+	self subclassResponsibility

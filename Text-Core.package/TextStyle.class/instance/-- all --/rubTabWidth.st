@@ -1,0 +1,2 @@
+rubTabWidth
+	 ^ tabsArray first

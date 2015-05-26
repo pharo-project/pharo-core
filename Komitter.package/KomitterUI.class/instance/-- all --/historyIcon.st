@@ -1,0 +1,3 @@
+historyIcon
+
+	^ self class historyIcon

@@ -1,0 +1,2 @@
+asRelativePath
+	^ self

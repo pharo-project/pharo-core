@@ -1,0 +1,2 @@
+addMethodAdditionTo: aCollection
+	self load

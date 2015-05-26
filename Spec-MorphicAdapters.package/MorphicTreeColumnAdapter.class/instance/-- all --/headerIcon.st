@@ -1,0 +1,3 @@
+headerIcon
+
+	^ self model headerIcon

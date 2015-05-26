@@ -1,0 +1,2 @@
+redo
+	^self redoMessage value.

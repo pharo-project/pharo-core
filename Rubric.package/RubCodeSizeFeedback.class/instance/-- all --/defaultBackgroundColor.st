@@ -1,0 +1,2 @@
+defaultBackgroundColor
+	^ self backgroundColor 

@@ -1,0 +1,2 @@
+handleExceptionsDuring: aBlock
+	self exceptionHandler handleExceptionsDuring: aBlock

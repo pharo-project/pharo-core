@@ -1,0 +1,2 @@
+targetSelector: aSelector
+	targetSelector := aSelector

@@ -1,0 +1,2 @@
+testExampleToDoArgument
+	self checkMethod: OCOpalExamples>>#exampleToDoArgument

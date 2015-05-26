@@ -1,0 +1,2 @@
+hasValidText: aBoolean
+	hasValidText := aBoolean

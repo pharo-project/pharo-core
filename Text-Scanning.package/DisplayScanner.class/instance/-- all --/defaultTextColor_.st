@@ -1,0 +1,2 @@
+defaultTextColor: color
+	defaultTextColor := color.

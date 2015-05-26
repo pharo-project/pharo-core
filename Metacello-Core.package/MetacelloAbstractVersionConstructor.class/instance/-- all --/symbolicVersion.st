@@ -1,0 +1,3 @@
+symbolicVersion
+
+	^symbolicVersion

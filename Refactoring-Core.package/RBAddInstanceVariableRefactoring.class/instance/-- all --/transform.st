@@ -1,0 +1,2 @@
+transform
+	class addInstanceVariable: variableName

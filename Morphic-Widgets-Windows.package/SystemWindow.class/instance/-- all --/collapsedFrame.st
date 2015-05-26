@@ -1,0 +1,2 @@
+collapsedFrame
+	^ collapsedFrame

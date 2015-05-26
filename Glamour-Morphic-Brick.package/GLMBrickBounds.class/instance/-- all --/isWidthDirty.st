@@ -1,0 +1,3 @@
+isWidthDirty
+
+	^ self widthState = #dirty

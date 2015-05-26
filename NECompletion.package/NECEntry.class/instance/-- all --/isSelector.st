@@ -1,0 +1,2 @@
+isSelector
+	^ false

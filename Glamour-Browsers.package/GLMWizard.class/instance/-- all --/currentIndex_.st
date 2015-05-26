@@ -1,0 +1,3 @@
+currentIndex: anInteger
+
+	currentIndex := anInteger

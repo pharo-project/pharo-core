@@ -1,0 +1,2 @@
+dynamicActions: aBlock 
+	dynamicActionsBlock := aBlock

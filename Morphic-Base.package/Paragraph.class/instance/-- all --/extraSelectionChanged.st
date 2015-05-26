@@ -1,0 +1,2 @@
+extraSelectionChanged
+	refreshExtraSelection := true

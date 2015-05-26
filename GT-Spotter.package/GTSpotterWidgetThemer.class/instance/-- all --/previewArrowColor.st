@@ -1,0 +1,3 @@
+previewArrowColor
+
+	^ self itemSelectedBackgroundColor

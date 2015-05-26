@@ -1,0 +1,2 @@
+isClassEnvironment
+	^true

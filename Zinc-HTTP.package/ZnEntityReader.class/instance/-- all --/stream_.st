@@ -1,0 +1,2 @@
+stream: readStream
+	stream := readStream 

@@ -1,0 +1,2 @@
+moveRight: number
+	self subclassResponsibility 

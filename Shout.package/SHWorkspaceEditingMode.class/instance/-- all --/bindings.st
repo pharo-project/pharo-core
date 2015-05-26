@@ -1,0 +1,2 @@
+bindings
+	^ #('shout' 'example')

@@ -1,0 +1,2 @@
+children
+	^ [ self content dependencies ]

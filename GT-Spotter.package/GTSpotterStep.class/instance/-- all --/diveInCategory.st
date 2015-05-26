@@ -1,0 +1,4 @@
+diveInCategory
+
+	^ self diveInCategoryDueTo: #unknown
+	

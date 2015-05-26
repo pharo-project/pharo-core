@@ -1,0 +1,2 @@
+aboutToCopy
+    self projectReference className

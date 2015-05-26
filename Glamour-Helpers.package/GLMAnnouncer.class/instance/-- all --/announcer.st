@@ -1,0 +1,2 @@
+announcer 
+	^ self

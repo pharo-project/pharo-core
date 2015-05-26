@@ -1,0 +1,2 @@
+potentialLocationsOfSourcesFile
+	^ {(Smalltalk vm directory)}

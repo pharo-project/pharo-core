@@ -1,0 +1,2 @@
+ruleOnlyReadOrWrittenVariableRuleV1FalsePositive
+^ #(#(#(#RGClassDefinition #(#CriticBrowser)) #'2013-02-01T15:29:52.299+01:00') #(#(#RGClassDefinition #(#SelectBrowser)) #'2013-02-01T15:29:52.299000001+01:00') #(#(#RGClassDefinition #(#SingleCodeCriticResultList)) #'2013-02-01T15:29:52.301+01:00') #(#(#RGClassDefinition #(#ResetWindow)) #'2013-02-01T15:29:52.296000003+01:00') #(#(#RGClassDefinition #(#SelectPackageBrowser)) #'2013-02-01T15:29:52.296000002+01:00') )

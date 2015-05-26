@@ -1,0 +1,2 @@
+projectSpecListBlock
+    ^ [ MetacelloProjectRegistration projectSpecs ]

@@ -1,0 +1,2 @@
+condition: anObject
+	condition := anObject

@@ -1,0 +1,2 @@
+formNewName
+	^ self formNameFor: newSelector

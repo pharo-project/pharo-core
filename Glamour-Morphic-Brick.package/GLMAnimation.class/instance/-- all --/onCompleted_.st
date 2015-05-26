@@ -1,0 +1,3 @@
+onCompleted: aBlock
+
+	callback := aBlock

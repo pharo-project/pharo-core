@@ -1,0 +1,2 @@
+isClosed
+	^ owner isNil

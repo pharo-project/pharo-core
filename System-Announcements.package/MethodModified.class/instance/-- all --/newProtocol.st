@@ -1,0 +1,3 @@
+newProtocol
+	
+	^ self protocol

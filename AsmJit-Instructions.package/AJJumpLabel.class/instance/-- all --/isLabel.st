@@ -1,0 +1,2 @@
+isLabel
+	^ true

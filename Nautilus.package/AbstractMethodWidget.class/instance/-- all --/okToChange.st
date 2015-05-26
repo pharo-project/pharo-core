@@ -1,0 +1,3 @@
+okToChange
+
+	^ self model okToChange. 

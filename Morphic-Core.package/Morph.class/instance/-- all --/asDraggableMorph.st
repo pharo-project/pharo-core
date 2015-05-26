@@ -1,0 +1,2 @@
+asDraggableMorph
+	^self

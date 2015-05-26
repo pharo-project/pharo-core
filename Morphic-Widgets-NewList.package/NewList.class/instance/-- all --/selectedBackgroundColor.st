@@ -1,0 +1,3 @@
+selectedBackgroundColor
+
+	^ self theme selectionColor

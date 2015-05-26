@@ -1,0 +1,2 @@
+reflectiveMethod
+	^self

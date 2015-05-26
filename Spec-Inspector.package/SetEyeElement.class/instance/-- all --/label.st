@@ -1,0 +1,2 @@
+label
+	^ self externalIndex printString

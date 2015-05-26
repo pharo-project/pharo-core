@@ -1,0 +1,2 @@
+directoryName: aDirectory
+    ^ aDirectory basename

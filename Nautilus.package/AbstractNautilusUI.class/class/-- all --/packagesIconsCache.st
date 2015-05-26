@@ -1,0 +1,3 @@
+packagesIconsCache
+
+		^ PackagesIconsCache

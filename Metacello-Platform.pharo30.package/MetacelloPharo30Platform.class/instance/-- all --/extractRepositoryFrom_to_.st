@@ -1,0 +1,5 @@
+extractRepositoryFrom: zipFile to: directory
+    "unzip <zipFile> into <directory>"
+	ZipArchive new 
+		readFrom:  zipFile;
+		extractAllTo: directory asFileReference.

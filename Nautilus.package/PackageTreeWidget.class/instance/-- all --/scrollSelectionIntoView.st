@@ -1,0 +1,2 @@
+scrollSelectionIntoView
+	packagesList scrollSelectionIntoView

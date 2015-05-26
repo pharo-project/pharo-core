@@ -1,0 +1,2 @@
+setTextSelector: aSymbol 
+	setTextSelector  := aSymbol

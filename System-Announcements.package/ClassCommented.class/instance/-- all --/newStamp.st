@@ -1,0 +1,2 @@
+newStamp
+	^newStamp

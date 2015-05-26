@@ -1,0 +1,2 @@
+emphasisHere: aListOfTextAttribute
+	emphasisHere := aListOfTextAttribute 

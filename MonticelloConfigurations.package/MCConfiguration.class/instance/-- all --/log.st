@@ -1,0 +1,2 @@
+log
+	^log ifNil: [Transcript]

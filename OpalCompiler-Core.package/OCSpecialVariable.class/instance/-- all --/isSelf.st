@@ -1,0 +1,2 @@
+isSelf
+	^name = 'self'

@@ -1,0 +1,2 @@
+themer: anObject
+	themer := anObject

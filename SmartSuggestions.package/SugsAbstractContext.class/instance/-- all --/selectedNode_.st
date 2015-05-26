@@ -1,0 +1,2 @@
+selectedNode: theSelectedNode
+	selectedNode := theSelectedNode .

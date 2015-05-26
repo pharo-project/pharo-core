@@ -1,0 +1,2 @@
+normalImage
+	^ normalImage

@@ -1,0 +1,2 @@
+organizedClass
+	^ organizedClass

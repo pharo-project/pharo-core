@@ -1,0 +1,3 @@
+emptyBrick
+
+	^ emptyBrick

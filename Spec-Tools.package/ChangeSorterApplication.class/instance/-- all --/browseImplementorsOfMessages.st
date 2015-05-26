@@ -1,0 +1,3 @@
+browseImplementorsOfMessages
+
+	self model browseMessagesFrom: self selectedSelector

@@ -1,0 +1,2 @@
+itemsLimit
+	^ self context itemsLimit

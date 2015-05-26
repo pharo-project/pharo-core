@@ -1,0 +1,2 @@
+selectedMethods
+	^ self selectedMessage asOrderedCollection

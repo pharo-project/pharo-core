@@ -1,0 +1,2 @@
+auto: anObject
+	auto := anObject

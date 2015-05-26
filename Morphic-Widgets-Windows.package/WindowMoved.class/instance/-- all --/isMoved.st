@@ -1,0 +1,2 @@
+isMoved
+	^ true

@@ -1,0 +1,2 @@
+resetSoundSystem
+	Current := nil

@@ -1,0 +1,2 @@
+withInstanceVar
+	anInstanceVar.

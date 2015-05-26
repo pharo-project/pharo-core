@@ -1,0 +1,3 @@
+stylerDecorator: anObject
+	
+	stylerDecorator := anObject

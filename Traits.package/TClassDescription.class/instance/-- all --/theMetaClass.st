@@ -1,0 +1,2 @@
+theMetaClass
+	^self explicitRequirement.

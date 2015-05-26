@@ -1,0 +1,3 @@
+min
+
+	^ self model min

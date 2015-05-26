@@ -1,0 +1,2 @@
+delay: anInteger
+	delay := anInteger

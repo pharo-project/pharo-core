@@ -1,0 +1,2 @@
+asConfigurationProject
+    ^ MetacelloMCProject new

@@ -1,0 +1,3 @@
+vRigid
+
+	self subclassResponsibility

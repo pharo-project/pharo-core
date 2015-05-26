@@ -1,0 +1,2 @@
+normalColor: anObject
+	normalColor := anObject

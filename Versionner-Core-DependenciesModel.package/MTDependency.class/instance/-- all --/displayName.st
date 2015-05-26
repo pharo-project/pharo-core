@@ -1,0 +1,2 @@
+displayName
+	^ self name

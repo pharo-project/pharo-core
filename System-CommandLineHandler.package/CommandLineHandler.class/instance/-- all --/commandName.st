@@ -1,0 +1,2 @@
+commandName
+	^ self class commandName

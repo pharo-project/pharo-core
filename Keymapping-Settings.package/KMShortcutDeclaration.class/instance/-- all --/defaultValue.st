@@ -1,0 +1,2 @@
+defaultValue
+	^self realValue defaultShortcut

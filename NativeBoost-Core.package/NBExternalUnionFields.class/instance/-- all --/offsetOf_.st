@@ -1,0 +1,2 @@
+offsetOf: fieldName
+	^ 0

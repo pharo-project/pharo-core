@@ -1,0 +1,2 @@
+isPatternBlock
+	^true

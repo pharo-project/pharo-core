@@ -1,0 +1,2 @@
+defaultWidth 
+	^100

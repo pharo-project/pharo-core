@@ -1,0 +1,3 @@
+elementInForIncludesTest
+
+	^ self element 

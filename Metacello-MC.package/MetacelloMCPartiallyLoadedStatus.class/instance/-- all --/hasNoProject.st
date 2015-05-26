@@ -1,0 +1,2 @@
+hasNoProject
+	^ hasNoProject

@@ -1,0 +1,3 @@
+valueBlock: anObject 
+	 
+	valueBlock := anObject

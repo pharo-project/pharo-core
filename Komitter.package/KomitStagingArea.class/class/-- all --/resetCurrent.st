@@ -1,0 +1,3 @@
+resetCurrent
+
+	current := nil

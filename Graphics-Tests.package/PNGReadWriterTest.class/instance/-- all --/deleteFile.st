@@ -1,0 +1,2 @@
+deleteFile
+	fileName asFileReference ensureDelete

@@ -1,0 +1,2 @@
+debuggerMap
+	^self method debuggerMap

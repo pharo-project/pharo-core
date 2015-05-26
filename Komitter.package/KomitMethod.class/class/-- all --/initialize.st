@@ -1,0 +1,3 @@
+initialize
+	
+	methods := Dictionary new

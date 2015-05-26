@@ -1,0 +1,2 @@
+withoutAdornment
+	self withoutRulerNamed: #adornment

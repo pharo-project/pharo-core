@@ -1,0 +1,3 @@
+hasFocus
+
+	^ self subclassResponsibility

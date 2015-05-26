@@ -1,0 +1,2 @@
+pushReceiver
+	^ IRPushReceiver new

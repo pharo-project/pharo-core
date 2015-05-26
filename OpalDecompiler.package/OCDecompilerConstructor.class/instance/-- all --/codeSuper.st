@@ -1,0 +1,2 @@
+codeSuper
+	^ RBSuperNode named: 'super'

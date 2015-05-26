@@ -1,0 +1,2 @@
+wrappedObject: anObject
+	wrapped := anObject

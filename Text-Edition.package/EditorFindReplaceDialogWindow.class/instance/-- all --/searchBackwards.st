@@ -1,0 +1,2 @@
+searchBackwards
+	^ self state searchBackwards

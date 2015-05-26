@@ -1,0 +1,2 @@
+originalFile
+	^ Smalltalk sourcesFile

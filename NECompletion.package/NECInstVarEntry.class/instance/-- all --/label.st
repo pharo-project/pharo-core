@@ -1,0 +1,2 @@
+label
+	^ 'instance variable'

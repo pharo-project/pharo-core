@@ -1,0 +1,2 @@
+setContents: aString 
+	contents := aString.

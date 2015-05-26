@@ -1,0 +1,2 @@
+classClass
+	^self class.

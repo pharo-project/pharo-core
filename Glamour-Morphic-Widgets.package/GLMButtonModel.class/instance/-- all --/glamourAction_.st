@@ -1,0 +1,2 @@
+glamourAction: anObject
+	glamourAction := anObject

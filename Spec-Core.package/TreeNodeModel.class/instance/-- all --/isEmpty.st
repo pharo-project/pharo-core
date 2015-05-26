@@ -1,0 +1,2 @@
+isEmpty
+	^ self contents isEmpty

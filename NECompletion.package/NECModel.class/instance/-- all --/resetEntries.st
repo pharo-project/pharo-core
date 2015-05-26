@@ -1,0 +1,2 @@
+resetEntries
+	entries := OrderedCollection new

@@ -1,0 +1,3 @@
+fuelAfterMaterialization
+
+	self rehash

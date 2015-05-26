@@ -1,0 +1,3 @@
+spec: literal
+
+	spec := literal

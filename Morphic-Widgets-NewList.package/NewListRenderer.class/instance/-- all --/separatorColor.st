@@ -1,0 +1,3 @@
+separatorColor
+	
+	^ Color black

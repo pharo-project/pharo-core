@@ -1,0 +1,2 @@
+childrenBlock: aBlock
+	childrenBlock := aBlock 

@@ -1,0 +1,2 @@
+emphasisString
+	^AbstractFont emphasisStringFor: emphasis

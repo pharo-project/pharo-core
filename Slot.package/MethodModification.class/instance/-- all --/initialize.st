@@ -1,0 +1,2 @@
+initialize
+	addedSlots := Dictionary new

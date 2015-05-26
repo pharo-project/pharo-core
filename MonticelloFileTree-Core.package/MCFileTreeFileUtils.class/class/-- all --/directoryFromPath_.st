@@ -1,0 +1,2 @@
+directoryFromPath: directoryPath
+    self subclassResponsibility

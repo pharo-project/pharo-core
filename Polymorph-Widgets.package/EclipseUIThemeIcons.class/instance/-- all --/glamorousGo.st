@@ -1,0 +1,2 @@
+glamorousGo
+	^ self smallDoItIcon

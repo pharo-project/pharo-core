@@ -1,0 +1,2 @@
+stop: anInteger
+	stop := anInteger

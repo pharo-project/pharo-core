@@ -1,0 +1,2 @@
+flushDisplay
+	"Empty hook method."

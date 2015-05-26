@@ -1,0 +1,2 @@
+externalIndex: anObject
+	externalIndex := anObject

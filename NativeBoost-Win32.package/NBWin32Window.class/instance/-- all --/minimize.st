@@ -1,0 +1,3 @@
+minimize
+	
+	^self close

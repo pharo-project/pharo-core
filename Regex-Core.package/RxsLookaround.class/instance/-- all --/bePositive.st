@@ -1,0 +1,2 @@
+bePositive
+	positive := true

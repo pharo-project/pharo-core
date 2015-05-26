@@ -1,0 +1,3 @@
+needsStep: aBoolean
+
+	doStep := aBoolean

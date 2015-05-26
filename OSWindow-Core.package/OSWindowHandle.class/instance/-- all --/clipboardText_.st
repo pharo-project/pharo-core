@@ -1,0 +1,2 @@
+clipboardText: aString
+	self subclassResponsibility 

@@ -1,0 +1,3 @@
+fontColor
+
+	^ self theme textColor

@@ -1,0 +1,2 @@
+addPreMaterializationAction: aCleanBlockClosure
+	header addPreMaterializationAction: aCleanBlockClosure

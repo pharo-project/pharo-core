@@ -1,0 +1,2 @@
+addPlugin: aClass 
+	"do nothing"

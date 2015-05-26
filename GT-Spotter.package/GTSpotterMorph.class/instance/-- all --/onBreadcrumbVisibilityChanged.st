@@ -1,0 +1,3 @@
+onBreadcrumbVisibilityChanged
+
+	self changed.

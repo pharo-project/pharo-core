@@ -1,0 +1,3 @@
+isFoundationBrick
+
+	^ true

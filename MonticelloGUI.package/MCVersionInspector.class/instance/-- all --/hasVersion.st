@@ -1,0 +1,2 @@
+hasVersion
+	^version notNil

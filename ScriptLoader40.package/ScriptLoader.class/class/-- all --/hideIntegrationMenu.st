@@ -1,0 +1,3 @@
+hideIntegrationMenu
+
+	CurrentlyIntegratingChanges := false.

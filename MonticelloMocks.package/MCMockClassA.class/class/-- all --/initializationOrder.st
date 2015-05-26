@@ -1,0 +1,3 @@
+initializationOrder
+
+	^ InitializationOrder

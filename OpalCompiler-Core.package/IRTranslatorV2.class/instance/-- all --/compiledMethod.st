@@ -1,0 +1,2 @@
+compiledMethod
+	^ gen compiledMethodWith: trailer

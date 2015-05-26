@@ -1,0 +1,3 @@
+asWideString
+
+	^ WideString fromByteArray: self.

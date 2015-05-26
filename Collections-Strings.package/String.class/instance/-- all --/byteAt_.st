@@ -1,0 +1,2 @@
+byteAt: index
+	^self subclassResponsibility

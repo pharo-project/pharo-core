@@ -1,0 +1,2 @@
+isForm
+	^true

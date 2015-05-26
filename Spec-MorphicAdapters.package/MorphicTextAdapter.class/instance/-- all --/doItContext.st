@@ -1,0 +1,3 @@
+doItContext
+
+	^ self model doItContext

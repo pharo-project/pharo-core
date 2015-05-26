@@ -1,0 +1,3 @@
+heightTraverser
+
+	^ GLMBrickHeightTraverser uniqueInstance

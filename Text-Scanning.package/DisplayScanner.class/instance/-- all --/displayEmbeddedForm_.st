@@ -1,0 +1,2 @@
+displayEmbeddedForm: aForm
+	self subclassResponsibility

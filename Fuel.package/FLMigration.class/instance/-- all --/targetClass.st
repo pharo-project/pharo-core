@@ -1,0 +1,3 @@
+targetClass
+
+	^ targetClass

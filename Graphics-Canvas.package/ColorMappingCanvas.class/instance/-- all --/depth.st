@@ -1,0 +1,2 @@
+depth
+	^myCanvas depth

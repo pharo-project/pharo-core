@@ -1,0 +1,2 @@
+hasFocus: aBoolean
+	hasFocus := aBoolean

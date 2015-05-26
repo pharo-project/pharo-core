@@ -1,0 +1,3 @@
+removeAllScriptsFromPreferencesVersionDirectory
+	self removeAllScriptsFromDirectory: self preferencesVersionFolder.
+

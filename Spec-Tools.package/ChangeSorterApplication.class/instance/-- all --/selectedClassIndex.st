@@ -1,0 +1,3 @@
+selectedClassIndex
+
+	 ^ classesListModel selectedIndex

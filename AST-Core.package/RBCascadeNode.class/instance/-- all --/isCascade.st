@@ -1,0 +1,2 @@
+isCascade
+	^true

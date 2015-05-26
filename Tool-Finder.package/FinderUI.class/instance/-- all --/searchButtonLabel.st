@@ -1,0 +1,2 @@
+searchButtonLabel
+	^'Search'

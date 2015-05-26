@@ -1,0 +1,2 @@
+isDropEvent
+	^true

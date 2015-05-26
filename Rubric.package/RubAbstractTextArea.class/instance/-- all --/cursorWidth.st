@@ -1,0 +1,2 @@
+cursorWidth
+	^ self cursorClass defaultWidth 

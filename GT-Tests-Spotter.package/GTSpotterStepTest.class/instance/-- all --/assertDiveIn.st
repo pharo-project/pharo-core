@@ -1,0 +1,2 @@
+assertDiveIn
+	self assertDiveIn: #diveIn

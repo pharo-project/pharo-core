@@ -1,0 +1,2 @@
+sugsContext
+	^ SugsMessageBrowserContext model: self.

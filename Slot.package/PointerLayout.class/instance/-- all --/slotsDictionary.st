@@ -1,0 +1,3 @@
+slotsDictionary
+	
+	^ slotScope slotsDictionary

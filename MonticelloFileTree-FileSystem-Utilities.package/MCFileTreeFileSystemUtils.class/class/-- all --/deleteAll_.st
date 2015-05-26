@@ -1,0 +1,2 @@
+deleteAll: aDirectory
+    ^ aDirectory deleteAll

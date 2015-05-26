@@ -1,0 +1,1 @@
+aboutToStyle: aBoolean

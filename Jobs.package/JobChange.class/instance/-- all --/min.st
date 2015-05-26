@@ -1,0 +1,2 @@
+min
+	^ job min

@@ -1,0 +1,3 @@
+validHandle
+	self checkIsValid.
+	^ handle

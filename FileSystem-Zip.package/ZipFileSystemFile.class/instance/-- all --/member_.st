@@ -1,0 +1,2 @@
+member: aZipArchiveMember
+	member := aZipArchiveMember

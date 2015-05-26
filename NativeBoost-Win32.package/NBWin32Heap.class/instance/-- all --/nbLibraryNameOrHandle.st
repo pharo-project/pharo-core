@@ -1,0 +1,2 @@
+nbLibraryNameOrHandle
+	^ #Kernel32

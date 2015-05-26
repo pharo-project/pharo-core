@@ -1,0 +1,2 @@
+analogousCodeTo: anAssociation
+	^ self = anAssociation

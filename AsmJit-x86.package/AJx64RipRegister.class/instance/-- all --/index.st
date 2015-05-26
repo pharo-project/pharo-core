@@ -1,0 +1,2 @@
+index
+	self ripAccessError

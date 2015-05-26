@@ -1,0 +1,2 @@
+headerHeight
+	^ headerHeight value

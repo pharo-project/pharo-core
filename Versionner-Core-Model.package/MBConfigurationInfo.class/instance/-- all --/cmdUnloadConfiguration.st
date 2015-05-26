@@ -1,0 +1,3 @@
+cmdUnloadConfiguration
+	<command>
+	^ VSUnloadConfigurationCommand

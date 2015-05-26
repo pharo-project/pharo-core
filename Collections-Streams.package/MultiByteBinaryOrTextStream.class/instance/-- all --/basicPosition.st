@@ -1,0 +1,3 @@
+basicPosition
+
+	^ self position.

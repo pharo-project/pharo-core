@@ -1,0 +1,3 @@
+hours
+ 
+ 	^ Duration hours: self

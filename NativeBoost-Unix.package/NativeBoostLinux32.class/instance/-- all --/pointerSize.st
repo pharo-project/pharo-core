@@ -1,0 +1,2 @@
+pointerSize
+	^ 4

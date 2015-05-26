@@ -1,0 +1,3 @@
+capsLock
+	
+	^ capsLock

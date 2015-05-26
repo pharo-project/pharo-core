@@ -1,0 +1,2 @@
+maxIndex
+	^ self list size

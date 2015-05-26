@@ -1,0 +1,2 @@
+username: string
+	username := string

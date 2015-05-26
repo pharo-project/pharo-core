@@ -1,0 +1,3 @@
+hState
+
+	^ GLMBrickLayoutDummState new

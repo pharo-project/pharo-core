@@ -1,0 +1,2 @@
+canMerge
+	^ merger isMerged

@@ -1,0 +1,2 @@
+newCategoryName: aCategoryName
+	newCategoryName := aCategoryName

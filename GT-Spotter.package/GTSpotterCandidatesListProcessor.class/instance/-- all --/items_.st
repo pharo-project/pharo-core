@@ -1,0 +1,2 @@
+items: aBlock
+	allCandidatesBlock := aBlock

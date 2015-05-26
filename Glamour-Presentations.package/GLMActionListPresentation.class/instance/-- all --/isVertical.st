@@ -1,0 +1,2 @@
+isVertical
+	^ self isHorizontal not

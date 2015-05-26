@@ -1,0 +1,2 @@
+isGlobalVariable
+	^true

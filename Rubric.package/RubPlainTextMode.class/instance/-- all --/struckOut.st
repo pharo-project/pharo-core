@@ -1,0 +1,3 @@
+struckOut
+	
+	self changeEmphasis: #struckOut

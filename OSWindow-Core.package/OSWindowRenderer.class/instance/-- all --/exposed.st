@@ -1,0 +1,2 @@
+exposed
+	self updateAll

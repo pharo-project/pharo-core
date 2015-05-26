@@ -1,0 +1,2 @@
+isEmptyOrNil
+	^ self items isEmptyOrNil

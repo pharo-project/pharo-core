@@ -1,0 +1,3 @@
+setIndexSelector: aSelector
+
+	setIndexSelector := aSelector

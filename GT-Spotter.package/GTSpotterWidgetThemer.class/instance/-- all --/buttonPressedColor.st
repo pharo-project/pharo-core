@@ -1,0 +1,3 @@
+buttonPressedColor
+
+	^ self backgroundColor darker

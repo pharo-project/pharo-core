@@ -1,0 +1,2 @@
+contentsChanged
+	self changed: #contents

@@ -1,0 +1,3 @@
+privateSize: s
+
+	size := s.

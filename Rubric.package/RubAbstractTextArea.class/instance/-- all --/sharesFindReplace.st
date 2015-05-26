@@ -1,0 +1,2 @@
+sharesFindReplace
+	^ true

@@ -1,0 +1,2 @@
+empty
+	self selectedNodePath: nil

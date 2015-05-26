@@ -1,0 +1,2 @@
+gtListFilter
+	^ self new

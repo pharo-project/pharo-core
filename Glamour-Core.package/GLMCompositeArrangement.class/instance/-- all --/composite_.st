@@ -1,0 +1,2 @@
+composite: anObject
+	composite := anObject

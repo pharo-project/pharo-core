@@ -1,0 +1,3 @@
+actionThemer
+
+	^ GLMActionBrickDarkThemer new

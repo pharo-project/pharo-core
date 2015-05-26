@@ -1,0 +1,3 @@
+examplesProvider
+
+	^ GTExampleProvider on: self

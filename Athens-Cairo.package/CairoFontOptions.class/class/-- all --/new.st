@@ -1,0 +1,2 @@
+new
+	^ self primCreate initialize

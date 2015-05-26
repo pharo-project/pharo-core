@@ -1,0 +1,3 @@
+asDuration
+
+	^ self duration

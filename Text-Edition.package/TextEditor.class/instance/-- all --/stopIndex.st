@@ -1,0 +1,2 @@
+stopIndex
+	^ self stopBlock stringIndex

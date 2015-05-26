@@ -1,0 +1,2 @@
+growlFillColorFor: aGrowlMorph
+	^ self selectionColor

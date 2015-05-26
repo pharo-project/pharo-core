@@ -1,0 +1,2 @@
+wantsHalo
+	^ false

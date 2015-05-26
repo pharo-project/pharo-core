@@ -1,0 +1,2 @@
+close
+	self lessonView close

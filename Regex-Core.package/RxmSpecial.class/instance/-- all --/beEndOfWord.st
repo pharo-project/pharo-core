@@ -1,0 +1,3 @@
+beEndOfWord
+
+	matchSelector := #atEndOfWord

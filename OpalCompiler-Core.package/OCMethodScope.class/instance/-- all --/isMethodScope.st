@@ -1,0 +1,2 @@
+isMethodScope 
+	^true

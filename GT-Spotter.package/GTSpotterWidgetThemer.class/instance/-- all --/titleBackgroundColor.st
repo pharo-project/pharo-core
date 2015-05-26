@@ -1,0 +1,3 @@
+titleBackgroundColor
+
+	^ Color transparent

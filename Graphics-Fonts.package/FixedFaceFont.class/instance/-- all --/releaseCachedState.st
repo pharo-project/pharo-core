@@ -1,0 +1,2 @@
+releaseCachedState
+	baseFont releaseCachedState.

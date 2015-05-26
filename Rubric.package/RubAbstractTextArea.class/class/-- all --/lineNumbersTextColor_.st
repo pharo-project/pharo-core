@@ -1,0 +1,2 @@
+lineNumbersTextColor: aColor
+	LineNumbersTextColor := aColor

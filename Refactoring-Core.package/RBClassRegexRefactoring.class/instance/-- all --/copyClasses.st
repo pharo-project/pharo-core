@@ -1,0 +1,2 @@
+copyClasses
+	mode := #copy:name:

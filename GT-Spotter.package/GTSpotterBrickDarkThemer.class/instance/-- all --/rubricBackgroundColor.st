@@ -1,0 +1,3 @@
+rubricBackgroundColor
+
+	^ self spotterThemer backgroundColor

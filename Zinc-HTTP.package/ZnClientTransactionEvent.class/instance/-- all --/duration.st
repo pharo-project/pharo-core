@@ -1,0 +1,2 @@
+duration
+	^ requestDuration + responseDuration

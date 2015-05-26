@@ -1,0 +1,2 @@
+aboutToBeGrabbedBy: aHand
+	^ nil

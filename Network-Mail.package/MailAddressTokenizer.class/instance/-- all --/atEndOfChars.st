@@ -1,0 +1,2 @@
+atEndOfChars
+	^pos > text size

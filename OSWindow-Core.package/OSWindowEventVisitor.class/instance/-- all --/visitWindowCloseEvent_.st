@@ -1,0 +1,1 @@
+visitWindowCloseEvent: anEvent

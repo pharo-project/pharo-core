@@ -1,0 +1,3 @@
+browsedEnvironment: aBrowserEnvironment
+
+	environment := aBrowserEnvironment asSystemNavigationEnvironment

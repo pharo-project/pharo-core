@@ -1,0 +1,2 @@
+isBinary
+	^binary

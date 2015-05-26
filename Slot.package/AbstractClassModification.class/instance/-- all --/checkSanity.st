@@ -1,0 +1,2 @@
+checkSanity
+	layout checkSanity.

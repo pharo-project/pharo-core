@@ -1,0 +1,2 @@
+imageHash
+	^ self at: #imageHash

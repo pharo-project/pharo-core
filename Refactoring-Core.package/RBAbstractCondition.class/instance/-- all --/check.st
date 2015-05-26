@@ -1,0 +1,2 @@
+check
+	self subclassResponsibility

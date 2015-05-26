@@ -1,0 +1,2 @@
+hasDecorator: aDecorator
+	^ false

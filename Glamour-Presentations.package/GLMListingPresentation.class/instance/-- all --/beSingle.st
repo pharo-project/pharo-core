@@ -1,0 +1,2 @@
+beSingle
+	allowsMultipleSelection := false

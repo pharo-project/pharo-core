@@ -1,0 +1,3 @@
+repositories
+
+	^self repositorySpecs

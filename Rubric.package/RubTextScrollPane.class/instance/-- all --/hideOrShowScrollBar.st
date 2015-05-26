@@ -1,0 +1,2 @@
+hideOrShowScrollBar 
+	self updateScrollbars

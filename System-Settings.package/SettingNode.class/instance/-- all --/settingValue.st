@@ -1,0 +1,2 @@
+settingValue
+	^ self settingDeclaration realValue

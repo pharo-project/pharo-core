@@ -1,0 +1,2 @@
+rubScrolledTextMorphThemer
+	^ RubScrolledTextMorphThemer new

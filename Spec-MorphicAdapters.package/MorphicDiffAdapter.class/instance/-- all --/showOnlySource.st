@@ -1,0 +1,3 @@
+showOnlySource
+
+	^ self model showOnlySource

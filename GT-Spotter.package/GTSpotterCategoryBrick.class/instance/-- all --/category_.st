@@ -1,0 +1,3 @@
+category: aProcessorClass
+
+	category := aProcessorClass

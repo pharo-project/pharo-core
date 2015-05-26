@@ -1,0 +1,3 @@
+invalidateLayout
+
+	^ self brick invalidateLayout

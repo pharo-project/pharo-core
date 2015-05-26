@@ -1,0 +1,2 @@
+logged: anObject
+	logged := anObject

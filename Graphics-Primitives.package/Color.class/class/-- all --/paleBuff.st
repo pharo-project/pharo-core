@@ -1,0 +1,2 @@
+paleBuff
+	^  ColorRegistry at: #paleBuff

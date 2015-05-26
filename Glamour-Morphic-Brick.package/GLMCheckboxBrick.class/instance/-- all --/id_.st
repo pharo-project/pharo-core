@@ -1,0 +1,3 @@
+id: anObejct
+
+	id := anObejct

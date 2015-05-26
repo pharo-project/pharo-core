@@ -1,0 +1,2 @@
+extent: newExtent
+	self subclassResponsibility 

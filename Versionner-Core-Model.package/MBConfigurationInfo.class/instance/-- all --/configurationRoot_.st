@@ -1,0 +1,2 @@
+configurationRoot: anObject
+	configurationRoot := anObject

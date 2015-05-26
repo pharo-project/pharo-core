@@ -1,0 +1,2 @@
+glamorousClose
+	^ self glamorousCancel

@@ -1,0 +1,2 @@
+pointerArity
+	^ pointerArity

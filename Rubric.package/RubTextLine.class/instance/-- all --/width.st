@@ -1,0 +1,2 @@
+width
+	^ right - left

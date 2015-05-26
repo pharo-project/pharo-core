@@ -1,0 +1,2 @@
+classNames: aClassNameCollection 
+	classNames := aClassNameCollection

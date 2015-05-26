@@ -1,0 +1,2 @@
+hasTitleIcon
+	^ self titleIcon notNil

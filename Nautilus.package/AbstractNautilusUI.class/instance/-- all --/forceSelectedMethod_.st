@@ -1,0 +1,3 @@
+forceSelectedMethod: aMethod
+
+	^ self subclassResponsibility

@@ -1,0 +1,2 @@
+topRendererOrSelf
+	^owner topRendererOrSelf

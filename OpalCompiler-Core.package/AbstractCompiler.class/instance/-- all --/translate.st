@@ -1,0 +1,2 @@
+translate
+	self subclassResponsibility

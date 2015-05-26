@@ -1,0 +1,2 @@
+resetGroupsSelection
+	self subclassResponsibility

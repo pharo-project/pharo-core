@@ -1,0 +1,3 @@
+privateSubbricks: aCollection
+
+	^ self explicitRequirement

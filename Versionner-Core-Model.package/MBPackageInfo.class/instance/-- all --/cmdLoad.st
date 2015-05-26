@@ -1,0 +1,3 @@
+cmdLoad
+	<command>
+	^ MBLoadPackageCommand.

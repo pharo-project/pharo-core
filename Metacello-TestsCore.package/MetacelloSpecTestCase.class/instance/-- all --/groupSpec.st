@@ -1,0 +1,2 @@
+groupSpec
+    ^ self project groupSpec

@@ -1,0 +1,2 @@
+isVariableEnvironment
+	^ false

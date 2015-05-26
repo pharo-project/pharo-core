@@ -1,0 +1,3 @@
+span: anObject 
+	 
+	span := anObject

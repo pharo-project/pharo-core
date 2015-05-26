@@ -1,0 +1,2 @@
+addButtonAction
+	self addSelectedItems.

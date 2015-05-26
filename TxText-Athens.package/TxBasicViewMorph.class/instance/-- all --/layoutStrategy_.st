@@ -1,0 +1,2 @@
+layoutStrategy: aStrategy
+	self subclassResponsibility 

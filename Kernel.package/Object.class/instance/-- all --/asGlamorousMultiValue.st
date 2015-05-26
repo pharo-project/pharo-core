@@ -1,0 +1,2 @@
+asGlamorousMultiValue
+	^ GLMMultiValue with: self

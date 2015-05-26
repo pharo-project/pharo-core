@@ -1,0 +1,2 @@
+isRectangle
+	^false

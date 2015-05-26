@@ -1,0 +1,2 @@
+matchRegex
+	self filter: GTFilterRegex

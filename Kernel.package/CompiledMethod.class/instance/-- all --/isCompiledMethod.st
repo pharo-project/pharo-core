@@ -1,0 +1,3 @@
+isCompiledMethod
+
+	^ true

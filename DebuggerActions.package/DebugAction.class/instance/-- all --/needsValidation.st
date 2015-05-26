@@ -1,0 +1,3 @@
+needsValidation
+
+	^ needsValidation ifNil: [ true ]

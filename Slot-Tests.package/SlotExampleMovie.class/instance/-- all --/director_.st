@@ -1,0 +1,3 @@
+director: aPerson
+
+	director := aPerson

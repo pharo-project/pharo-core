@@ -1,0 +1,3 @@
+withSeparatorBefore
+
+	self separatorBefore: true

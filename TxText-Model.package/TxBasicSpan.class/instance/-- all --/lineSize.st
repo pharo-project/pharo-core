@@ -1,0 +1,2 @@
+lineSize
+	^ self lineStartSpan sizeToLineEnd 

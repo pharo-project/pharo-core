@@ -1,0 +1,2 @@
+showCaret
+	^showCaret ifNil:[true]

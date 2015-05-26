@@ -1,0 +1,3 @@
+expectedOrganizationDefinition
+	^ 'SystemOrganization addCategory: #MonticelloMocks!
+'

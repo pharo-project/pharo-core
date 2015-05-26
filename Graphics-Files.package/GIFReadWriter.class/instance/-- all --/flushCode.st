@@ -1,0 +1,2 @@
+flushCode
+	self flushBits

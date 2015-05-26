@@ -1,0 +1,2 @@
+postCopy
+	slotScope := slotScope copy

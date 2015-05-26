@@ -1,0 +1,2 @@
+optionInlineTimesRepeat
+	^ options includes: #optionInlineTimesRepeat

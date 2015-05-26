@@ -1,0 +1,2 @@
+enableGlobal
+	^ enableGlobal value

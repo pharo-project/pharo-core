@@ -1,0 +1,2 @@
+addMethods
+	^ addMethods

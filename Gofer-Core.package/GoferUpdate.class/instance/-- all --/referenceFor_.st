@@ -1,0 +1,2 @@
+referenceFor: aReference
+	^ aReference

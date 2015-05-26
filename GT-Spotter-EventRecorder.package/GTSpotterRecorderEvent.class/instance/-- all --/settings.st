@@ -1,0 +1,2 @@
+settings
+	^ GTSpotterEventRecorderSettings uniqueInstance

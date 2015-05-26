@@ -1,0 +1,2 @@
+cypressEscape
+    ^ self urlEncoded

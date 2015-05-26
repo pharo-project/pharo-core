@@ -1,0 +1,2 @@
+elementTwiceIn
+	^ super elementTwiceIn

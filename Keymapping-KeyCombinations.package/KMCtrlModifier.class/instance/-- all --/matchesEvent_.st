@@ -1,0 +1,2 @@
+matchesEvent: aKeyboardEvent
+	^ aKeyboardEvent controlKeyPressed

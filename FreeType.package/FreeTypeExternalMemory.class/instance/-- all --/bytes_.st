@@ -1,0 +1,2 @@
+bytes: aByteArray
+	bytes := aByteArray

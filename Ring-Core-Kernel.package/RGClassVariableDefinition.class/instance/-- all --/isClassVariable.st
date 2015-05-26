@@ -1,0 +1,3 @@
+isClassVariable
+
+	^true

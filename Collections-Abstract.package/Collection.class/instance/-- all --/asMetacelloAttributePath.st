@@ -1,0 +1,2 @@
+asMetacelloAttributePath
+    ^ MetacelloMethodSectionPath withAll: self

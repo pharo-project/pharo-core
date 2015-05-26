@@ -1,0 +1,2 @@
+packagesNotToSavePatternNames
+	^ super packagesNotToSavePatternNames, #( 'ConfigurationOf.*' )

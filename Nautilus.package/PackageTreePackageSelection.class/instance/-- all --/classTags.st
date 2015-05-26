@@ -1,0 +1,2 @@
+classTags 
+	^ self item classTags

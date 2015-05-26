@@ -1,0 +1,2 @@
+superNodeClass
+	^ RBSuperNode

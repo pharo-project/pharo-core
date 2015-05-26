@@ -1,0 +1,3 @@
+width
+
+	^ self brickBounds width

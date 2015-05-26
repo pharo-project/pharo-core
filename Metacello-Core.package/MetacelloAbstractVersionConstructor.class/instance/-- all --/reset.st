@@ -1,0 +1,2 @@
+reset
+    attributeMap := attributeOrder := nil

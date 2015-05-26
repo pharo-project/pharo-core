@@ -1,0 +1,3 @@
+direction: anObject
+
+	direction := anObject

@@ -1,0 +1,2 @@
+textBlock: anObject 
+	textBlock := anObject

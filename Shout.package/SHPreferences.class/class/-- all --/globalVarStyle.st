@@ -1,0 +1,2 @@
+globalVarStyle
+	^ Groups at: #globalVar

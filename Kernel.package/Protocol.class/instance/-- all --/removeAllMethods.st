@@ -1,0 +1,3 @@
+removeAllMethods
+
+	^ methods removeAll.

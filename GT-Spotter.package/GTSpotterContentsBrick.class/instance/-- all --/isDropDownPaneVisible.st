@@ -1,0 +1,3 @@
+isDropDownPaneVisible
+
+	^ self dropDownBrick isNotNil

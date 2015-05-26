@@ -1,0 +1,3 @@
+askBeforeDiscardingEdits
+
+	^ askBeforeDiscardingEdits value

@@ -1,0 +1,2 @@
+testSingleRemoteDifferentBlocksSameArgumentName
+	self checkMethod: OCOpalExamples>>#singleRemoteDifferentBlocksSameArgumentName

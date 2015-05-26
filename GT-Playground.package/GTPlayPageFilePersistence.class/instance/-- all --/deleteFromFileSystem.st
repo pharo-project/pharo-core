@@ -1,0 +1,2 @@
+deleteFromFileSystem
+	self fileReference ensureDelete

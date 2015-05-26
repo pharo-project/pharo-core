@@ -1,0 +1,2 @@
+renderGlamorouslyOn: aRenderer
+	self subclassResponsibility

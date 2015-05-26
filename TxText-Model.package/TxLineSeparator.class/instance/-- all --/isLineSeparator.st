@@ -1,0 +1,2 @@
+isLineSeparator
+	^ true

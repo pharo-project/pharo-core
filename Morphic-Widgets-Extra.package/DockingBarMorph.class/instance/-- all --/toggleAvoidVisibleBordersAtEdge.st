@@ -1,0 +1,2 @@
+toggleAvoidVisibleBordersAtEdge
+	self avoidVisibleBordersAtEdge: self avoidVisibleBordersAtEdge not

@@ -1,0 +1,2 @@
+properties: propDict
+	properties := propDict.

@@ -1,0 +1,2 @@
+width
+	^ surface width

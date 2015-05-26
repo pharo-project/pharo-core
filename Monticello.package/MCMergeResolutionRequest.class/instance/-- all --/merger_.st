@@ -1,0 +1,2 @@
+merger: aMerger
+	merger := aMerger

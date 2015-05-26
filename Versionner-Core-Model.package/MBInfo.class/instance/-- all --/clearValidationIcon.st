@@ -1,0 +1,3 @@
+clearValidationIcon
+
+	validationIcon := nil

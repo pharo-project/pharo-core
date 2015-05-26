@@ -1,0 +1,2 @@
+markBlock: aCharacterBlock
+	markBlock := aCharacterBlock

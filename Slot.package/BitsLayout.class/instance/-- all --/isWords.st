@@ -1,0 +1,2 @@
+isWords
+	^ self isBytes not

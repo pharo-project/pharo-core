@@ -1,0 +1,2 @@
+anotherClassName
+	^ #SlotTestsClassB

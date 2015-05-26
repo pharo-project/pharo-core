@@ -1,0 +1,3 @@
+removable: aBoolean
+
+	removable := aBoolean

@@ -1,0 +1,2 @@
+name: aNameOrBlockOrMessageSend
+	name := aNameOrBlockOrMessageSend

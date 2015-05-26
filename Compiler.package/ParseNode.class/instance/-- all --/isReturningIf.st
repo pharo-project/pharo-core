@@ -1,0 +1,3 @@
+isReturningIf
+
+	^false

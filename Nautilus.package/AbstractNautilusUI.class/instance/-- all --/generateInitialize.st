@@ -1,0 +1,27 @@
+generateInitialize
+	
+	self selectedClass ifNotNil: [:class || code index protocol |
+		protocol := 'initialization'.
+		(class isMeta not and: [class isTestCase])
+			ifTrue: [
+				index := 34.
+				(class includesSelector:  #setUp) 
+					ifFalse: [
+						code := self buildSetUpCodeFor: class.
+						class compile: code classified: protocol ].
+				(class includesSelector: #tearDown) 
+					ifFalse: [
+						code := self buildTearDownCodeFor: class.
+						class compile: code classified: protocol ].
+				self selectedMethod: (class>>#setUp) 
+				]
+			ifFalse: [
+				index := 62.
+				(class includesSelector: #initialize) 
+					ifFalse: [
+						code := self buildInitializeCodeFor: class.
+						class compile: code classified: protocol ].
+				self selectedMethod: (class>>#initialize) ].
+		self updateCategoryAndMethodList.
+		self giveFocusTo: sourceTextArea.
+		sourceTextArea selectFrom: index+class name size to: index-1+class name size ].

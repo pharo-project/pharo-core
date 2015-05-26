@@ -1,0 +1,2 @@
+viewedPackages: aCollectionOfPackagesOrNil
+	viewedPackages := aCollectionOfPackagesOrNil

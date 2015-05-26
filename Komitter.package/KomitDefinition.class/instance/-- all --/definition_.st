@@ -1,0 +1,3 @@
+definition: anObject
+	
+	definition := anObject

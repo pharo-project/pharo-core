@@ -1,0 +1,2 @@
+selectedPackages
+	^ self packageWidget selectedPackages

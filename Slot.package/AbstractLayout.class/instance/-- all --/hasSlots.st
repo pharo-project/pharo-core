@@ -1,0 +1,2 @@
+hasSlots
+	^ false

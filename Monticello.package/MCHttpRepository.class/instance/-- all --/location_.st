@@ -1,0 +1,2 @@
+location: aUrlString
+	location := aUrlString

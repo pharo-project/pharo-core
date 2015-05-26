@@ -1,0 +1,2 @@
+requestDuration: anObject
+	requestDuration := anObject

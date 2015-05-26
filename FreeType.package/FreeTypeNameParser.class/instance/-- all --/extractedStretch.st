@@ -1,0 +1,2 @@
+extractedStretch
+	^extractedStretch

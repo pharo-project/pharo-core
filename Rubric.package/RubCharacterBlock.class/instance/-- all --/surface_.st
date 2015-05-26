@@ -1,0 +1,2 @@
+surface: aRectangle
+	surface := aRectangle

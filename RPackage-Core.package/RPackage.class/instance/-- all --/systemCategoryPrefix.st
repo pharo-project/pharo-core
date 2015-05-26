@@ -1,0 +1,2 @@
+systemCategoryPrefix
+	^ self name

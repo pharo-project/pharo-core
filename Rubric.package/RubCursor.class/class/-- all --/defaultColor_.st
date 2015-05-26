@@ -1,0 +1,2 @@
+defaultColor: aColor
+	DefaultColor := aColor

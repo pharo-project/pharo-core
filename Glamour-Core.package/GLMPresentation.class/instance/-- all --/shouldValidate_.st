@@ -1,0 +1,2 @@
+shouldValidate: aBoolean
+	shouldValidate := aBoolean 

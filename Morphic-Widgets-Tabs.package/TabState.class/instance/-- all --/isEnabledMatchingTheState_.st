@@ -1,0 +1,3 @@
+isEnabledMatchingTheState: aBoolean
+
+	^ self subclassResponsibility

@@ -1,0 +1,2 @@
+model
+	^ self textArea model

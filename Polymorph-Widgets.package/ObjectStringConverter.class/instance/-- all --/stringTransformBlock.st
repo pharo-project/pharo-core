@@ -1,0 +1,3 @@
+stringTransformBlock
+
+	^ stringTransformBlock

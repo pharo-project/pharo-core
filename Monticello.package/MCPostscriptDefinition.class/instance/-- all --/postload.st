@@ -1,0 +1,2 @@
+postload
+	self evaluate

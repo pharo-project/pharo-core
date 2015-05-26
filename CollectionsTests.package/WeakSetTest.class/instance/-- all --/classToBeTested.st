@@ -1,0 +1,2 @@
+classToBeTested
+	^ WeakSet

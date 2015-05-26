@@ -1,0 +1,3 @@
+timeZoneAbbreviation
+
+	^ self timeZone abbreviation

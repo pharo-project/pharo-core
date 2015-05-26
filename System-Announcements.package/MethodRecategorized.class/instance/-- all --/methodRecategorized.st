@@ -1,0 +1,3 @@
+methodRecategorized
+	
+	^ method

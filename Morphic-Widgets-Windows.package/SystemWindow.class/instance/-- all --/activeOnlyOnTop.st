@@ -1,0 +1,2 @@
+activeOnlyOnTop
+	^ activeOnlyOnTop ifNil: [false]

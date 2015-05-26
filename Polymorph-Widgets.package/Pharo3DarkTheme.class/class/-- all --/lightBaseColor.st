@@ -1,0 +1,2 @@
+lightBaseColor
+	^ Color darkGray

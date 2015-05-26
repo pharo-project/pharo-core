@@ -1,0 +1,2 @@
+errorShouldntRaise
+	self someMessageThatIsntUnderstood

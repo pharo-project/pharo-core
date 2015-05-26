@@ -1,0 +1,2 @@
+instanceSizeOf: aClass
+	self shouldBeImplemented 

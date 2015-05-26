@@ -1,0 +1,3 @@
+isDisplayed
+
+	^ self window notNil

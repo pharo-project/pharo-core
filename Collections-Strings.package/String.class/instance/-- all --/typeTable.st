@@ -1,0 +1,2 @@
+typeTable
+	^ self class typeTable

@@ -1,0 +1,3 @@
+exit
+
+	self exitDueTo: #unknown

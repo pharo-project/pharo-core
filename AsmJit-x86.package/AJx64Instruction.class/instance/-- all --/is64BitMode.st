@@ -1,0 +1,2 @@
+is64BitMode
+	^ true

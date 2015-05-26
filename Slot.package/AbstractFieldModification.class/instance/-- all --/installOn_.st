@@ -1,0 +1,2 @@
+installOn: aModification
+	self subclassResponsibility

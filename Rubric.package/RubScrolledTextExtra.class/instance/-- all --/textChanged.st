@@ -1,0 +1,2 @@
+textChanged
+	self changed

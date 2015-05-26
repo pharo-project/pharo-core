@@ -1,0 +1,2 @@
+preferredExtent: aPoint
+	PreferredExtent := aPoint

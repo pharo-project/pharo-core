@@ -1,0 +1,2 @@
+useOldStyleKeys: aBoolean
+	useOldStyleKeys := aBoolean

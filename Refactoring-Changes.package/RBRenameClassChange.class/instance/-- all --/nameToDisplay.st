@@ -1,0 +1,3 @@
+nameToDisplay
+
+	^ self printString

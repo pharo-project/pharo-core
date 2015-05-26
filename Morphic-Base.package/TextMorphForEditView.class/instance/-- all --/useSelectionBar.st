@@ -1,0 +1,2 @@
+useSelectionBar
+	^ TextEditor useSelectionBar

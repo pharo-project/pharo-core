@@ -1,0 +1,3 @@
+browseValidationResults
+
+	self validate explore

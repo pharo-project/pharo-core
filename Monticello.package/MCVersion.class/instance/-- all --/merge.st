@@ -1,0 +1,2 @@
+merge
+	MCVersionMerger mergeVersion: self

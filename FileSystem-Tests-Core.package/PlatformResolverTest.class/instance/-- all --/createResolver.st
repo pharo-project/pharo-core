@@ -1,0 +1,2 @@
+createResolver
+	^ PlatformResolver forCurrentPlatform

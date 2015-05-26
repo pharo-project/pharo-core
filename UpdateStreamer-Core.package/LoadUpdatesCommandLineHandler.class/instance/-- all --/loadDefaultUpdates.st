@@ -1,0 +1,2 @@
+loadDefaultUpdates
+	UpdateStreamer new updateFromServer.

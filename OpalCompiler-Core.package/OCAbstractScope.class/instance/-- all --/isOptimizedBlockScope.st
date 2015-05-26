@@ -1,0 +1,2 @@
+isOptimizedBlockScope
+	^false

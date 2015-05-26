@@ -1,0 +1,3 @@
+classRepackaged
+	
+	^ classRepackaged

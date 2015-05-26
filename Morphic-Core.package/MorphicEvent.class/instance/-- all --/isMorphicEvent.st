@@ -1,0 +1,2 @@
+isMorphicEvent
+	^true

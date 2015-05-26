@@ -1,0 +1,2 @@
+cursorWidth: anInteger
+	cursorWidth := anInteger

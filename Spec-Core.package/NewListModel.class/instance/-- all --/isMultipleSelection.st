@@ -1,0 +1,3 @@
+isMultipleSelection
+
+	^ isMultipleSelection value

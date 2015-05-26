@@ -1,0 +1,3 @@
+resetWorldMenu
+	
+	worldState resetWorldMenu

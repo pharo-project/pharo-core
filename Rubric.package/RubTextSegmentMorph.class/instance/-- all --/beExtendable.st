@@ -1,0 +1,2 @@
+beExtendable
+	self changeable: false

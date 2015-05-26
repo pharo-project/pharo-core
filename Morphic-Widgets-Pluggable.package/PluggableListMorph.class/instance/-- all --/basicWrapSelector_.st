@@ -1,0 +1,2 @@
+basicWrapSelector: aSymbol
+	wrapSelector := aSymbol.

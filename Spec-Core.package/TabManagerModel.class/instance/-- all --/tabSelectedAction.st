@@ -1,0 +1,3 @@
+tabSelectedAction
+
+	^ tabSelectedAction value

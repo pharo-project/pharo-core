@@ -1,0 +1,2 @@
+getPreciseDescent
+	^ self descent

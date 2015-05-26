@@ -1,0 +1,3 @@
+isHShrinking
+
+	^ hResizing = #shrinkWrap

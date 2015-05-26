@@ -1,0 +1,3 @@
+valueOfProperty: aSymbol
+	
+	^ self explicitRequirement

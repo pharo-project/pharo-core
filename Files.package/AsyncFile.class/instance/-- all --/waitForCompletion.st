@@ -1,0 +1,2 @@
+waitForCompletion
+	semaphore wait

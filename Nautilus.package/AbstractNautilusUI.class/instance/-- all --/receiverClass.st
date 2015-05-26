@@ -1,0 +1,3 @@
+receiverClass
+
+	^ self selectedClass

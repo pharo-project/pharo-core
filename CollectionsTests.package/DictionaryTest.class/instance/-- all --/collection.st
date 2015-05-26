@@ -1,0 +1,2 @@
+collection
+	^ self nonEmptyDict

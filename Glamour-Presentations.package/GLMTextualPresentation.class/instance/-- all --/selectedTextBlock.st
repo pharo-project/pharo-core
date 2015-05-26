@@ -1,0 +1,2 @@
+selectedTextBlock
+	^ selectedTextBlock ifNil: [ [''] ]

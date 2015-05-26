@@ -1,0 +1,2 @@
+contentsMenuTitle
+	^ 'World contents' translated

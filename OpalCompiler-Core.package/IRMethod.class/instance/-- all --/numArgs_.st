@@ -1,0 +1,3 @@
+numArgs: anInteger
+
+	numArgs := anInteger

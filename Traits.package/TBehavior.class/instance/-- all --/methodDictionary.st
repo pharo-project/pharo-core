@@ -1,0 +1,2 @@
+methodDictionary
+	^self methodDict

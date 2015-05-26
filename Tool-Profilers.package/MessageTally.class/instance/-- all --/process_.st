@@ -1,0 +1,2 @@
+process: aProcess
+	process := aProcess

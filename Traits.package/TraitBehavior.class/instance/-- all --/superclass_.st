@@ -1,0 +1,2 @@
+superclass: aClass 
+	"Compatibility purposes"

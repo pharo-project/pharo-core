@@ -1,0 +1,2 @@
+bitPatternForDepth: suspectedDepth
+	^ patternForm

@@ -1,0 +1,2 @@
+textStyle: aTextStyle 
+	theTextStyle := aTextStyle

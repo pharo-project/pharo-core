@@ -1,0 +1,2 @@
+redButton
+	^ 4

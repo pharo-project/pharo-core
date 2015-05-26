@@ -1,0 +1,21 @@
+kernelClassesToExclude
+	^ {Boolean.
+	True.
+	False.
+	BlockClosure.
+	Context.
+	Array.
+	OrderedCollection.
+	Set.
+	IdentitySet.
+	Dictionary.
+	IdentityDictionary.
+	Class.
+	Metaclass.
+	Behavior.
+	SmallInteger.
+	Float.
+	Error.
+	Exception.
+	UndefinedObject.
+	MessageSend}

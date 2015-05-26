@@ -1,0 +1,2 @@
+previousLink: anObject
+	previousLink := anObject

@@ -1,0 +1,3 @@
+doubleBuffer: anObject
+	
+	doubleBuffer := anObject

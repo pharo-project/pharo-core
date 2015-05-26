@@ -1,0 +1,3 @@
+externalTerminateButtonAction: aBlock
+
+	externalTerminateButtonAction := aBlock

@@ -1,0 +1,3 @@
+doWithoutNumber
+
+	^ 2

@@ -1,0 +1,2 @@
+whenExtentChanged: anAnnouncement 
+	self computeVertices.

@@ -1,0 +1,2 @@
+numberOfArgumentsForMultiLine: anInteger
+	NumberOfArgumentsForMultiLine := anInteger

@@ -1,0 +1,2 @@
+upgradeIsMerge: aBoolean
+	UpgradeIsMerge := aBoolean

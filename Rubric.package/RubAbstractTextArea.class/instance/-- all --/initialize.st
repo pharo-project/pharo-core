@@ -1,0 +1,5 @@
+initialize
+	super initialize.
+	self compose.
+	self addCursor.
+	self plugFindReplace.

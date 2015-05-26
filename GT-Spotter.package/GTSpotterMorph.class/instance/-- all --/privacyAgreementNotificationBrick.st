@@ -1,0 +1,2 @@
+privacyAgreementNotificationBrick
+	^ privacyAgreementNotificationBrick

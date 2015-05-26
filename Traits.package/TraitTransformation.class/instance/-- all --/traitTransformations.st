@@ -1,0 +1,2 @@
+traitTransformations 
+	^ { subject }

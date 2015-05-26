@@ -1,0 +1,2 @@
+finalizeResourceData: windowHandle
+	windowHandle destroy.

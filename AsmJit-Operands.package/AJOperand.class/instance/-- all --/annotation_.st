@@ -1,0 +1,2 @@
+annotation: anObject
+	annotation := anObject

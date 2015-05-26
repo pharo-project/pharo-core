@@ -1,0 +1,2 @@
+spotterActDefault
+	self doButtonAction

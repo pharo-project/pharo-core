@@ -1,0 +1,3 @@
+initializeFirstColumn: aPanelMorph
+	
+	^ self subclassResponsibility 

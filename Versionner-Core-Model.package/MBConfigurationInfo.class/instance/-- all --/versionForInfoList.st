@@ -1,0 +1,3 @@
+versionForInfoList
+
+	^self currentVersion 

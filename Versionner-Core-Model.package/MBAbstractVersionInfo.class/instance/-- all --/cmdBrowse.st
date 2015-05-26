@@ -1,0 +1,3 @@
+cmdBrowse
+	<command>
+	^ VSBrowseVersionCommand

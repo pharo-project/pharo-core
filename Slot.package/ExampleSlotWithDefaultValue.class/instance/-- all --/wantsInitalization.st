@@ -1,0 +1,2 @@
+wantsInitalization
+	^ true

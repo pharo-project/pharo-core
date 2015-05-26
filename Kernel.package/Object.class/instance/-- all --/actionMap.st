@@ -1,0 +1,3 @@
+actionMap
+
+	^EventManager actionMapFor: self

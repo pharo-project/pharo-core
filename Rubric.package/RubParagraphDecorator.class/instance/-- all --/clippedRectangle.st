@@ -1,0 +1,2 @@
+clippedRectangle
+	^ canvas clipRect.

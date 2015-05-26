@@ -1,0 +1,2 @@
+exceptionHandler: anObject
+	exceptionHandler := anObject

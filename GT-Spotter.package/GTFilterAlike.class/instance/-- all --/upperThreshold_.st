@@ -1,0 +1,2 @@
+upperThreshold: anObject
+	upperThreshold := anObject

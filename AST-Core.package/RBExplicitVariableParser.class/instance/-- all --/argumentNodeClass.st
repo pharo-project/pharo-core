@@ -1,0 +1,2 @@
+argumentNodeClass
+	^ RBArgumentNode

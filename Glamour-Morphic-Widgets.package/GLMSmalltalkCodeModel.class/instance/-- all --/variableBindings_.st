@@ -1,0 +1,2 @@
+variableBindings: anObject
+	variableBindings := anObject

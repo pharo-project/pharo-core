@@ -1,0 +1,2 @@
+glamorousVeyLightSelectionColorFor: aMorph
+	^ self class veryLightSelectionColor

@@ -1,0 +1,2 @@
+sizeCodeForStorePop: encoder
+	self shouldNotImplement

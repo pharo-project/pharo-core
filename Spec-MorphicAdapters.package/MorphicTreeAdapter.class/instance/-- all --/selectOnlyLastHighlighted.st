@@ -1,0 +1,3 @@
+selectOnlyLastHighlighted
+
+	^ self model selectOnlyLastHighlighted
