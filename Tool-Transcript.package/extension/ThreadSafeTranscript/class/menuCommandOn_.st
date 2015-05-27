@@ -1,9 +1,10 @@
-menuCommandOn: aBuilder 
-	<worldMenu> 
+menuCommandOn: aBuilder
+	<worldMenu>
 	(aBuilder item: #'Transcript')
-		action: [Smalltalk tools transcript open];
+		action: [ Smalltalk tools transcript open ];
 		order: 0.30;
 		parent: #Tools;
 		help: 'Transcript';
+		keyText: 'o, t';
 		icon: self taskbarIcon.
-	aBuilder withSeparatorAfter.	
+	aBuilder withSeparatorAfter

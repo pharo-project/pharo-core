@@ -4,5 +4,6 @@ menuCommandOn: aBuilder
 		parent: #System;
 		order: 1;
 		icon: Smalltalk ui icons smallConfigurationIcon;
-		action: [ SettingBrowser open ]; 
+		action: [ SettingBrowser open ];
+		keyText: 'o, s';
 		help: 'Opens a SystemSettingBrowser which allows you to alter many system settings'

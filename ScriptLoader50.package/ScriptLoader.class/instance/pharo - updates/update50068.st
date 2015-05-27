@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '13829 TextMorphForEditorView should be packaged in Moprhic-Widgets-Pluggable
+update50068
+	"self new update50068"
+	self withUpdateLog: '13829 TextMorphForEditorView should be packaged in Moprhic-Widgets-Pluggable
 	https://pharo.fogbugz.com/f/cases/13829
 
 2906 Analyze #adaptToNumber:andSend:
@@ -12,4 +13,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/15613
 
 15135 Object extensions related to explore/inspect should be repackaged into their own independent package
-	https://pharo.fogbugz.com/f/cases/15135'
+	https://pharo.fogbugz.com/f/cases/15135'.
+	self loadTogether: self script50068 merge: false.
+	self flushCaches.

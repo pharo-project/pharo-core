@@ -1,4 +1,4 @@
-script50067
+script50068
 
 	^ 'AST-Core-TheIntegrator.294.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -19,18 +19,18 @@ Athens-Core-NicolaiHess.53.mcz
 Athens-Examples-TudorGirba.43.mcz
 Athens-Morphic-NicolaiHess.53.mcz
 Athens-Text-NicolaiHess.16.mcz
-Balloon-TheIntegrator.120.mcz
+Balloon-TheIntegrator.122.mcz
 BalloonTests-MarcusDenker.3.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
 CodeImport-StephaneDucasse.50.mcz
-Collections-Abstract-TheIntegrator.280.mcz
-Collections-Arithmetic-TheIntegrator.15.mcz
+Collections-Abstract-TheIntegrator.282.mcz
+Collections-Arithmetic-TheIntegrator.17.mcz
 Collections-Atomic-MarcusDenker.10.mcz
 Collections-Native-TheIntegrator.11.mcz
 Collections-Sequenceable-TheIntegrator.202.mcz
 Collections-Stack-MarcusDenker.7.mcz
 Collections-Streams-TheIntegrator.172.mcz
-Collections-Strings-TheIntegrator.356.mcz
+Collections-Strings-TheIntegrator.358.mcz
 Collections-Support-TheIntegrator.60.mcz
 Collections-Unordered-TheIntegrator.209.mcz
 Collections-Weak-TheIntegrator.88.mcz
@@ -114,7 +114,7 @@ HudsonBuildTools20-TheIntegrator.65.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-EstebanLorenzano.4.mcz
-Kernel-TheIntegrator.2037.mcz
+Kernel-TheIntegrator.2039.mcz
 KernelTests-TheIntegrator.776.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.48.mcz
@@ -155,14 +155,14 @@ MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
 MonticelloGUI-TheIntegrator.352.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 Morphic-Base-TheIntegrator.451.mcz
-Morphic-Core-TheIntegrator.171.mcz
+Morphic-Core-TheIntegrator.173.mcz
 Morphic-Examples-TheIntegrator.40.mcz
 Morphic-Widgets-Basic-TheIntegrator.41.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
 Morphic-Widgets-Extra-TheIntegrator.22.mcz
 Morphic-Widgets-List-TheIntegrator.18.mcz
 Morphic-Widgets-NewList-TheIntegrator.5.mcz
-Morphic-Widgets-Pluggable-TheIntegrator.51.mcz
+Morphic-Widgets-Pluggable-TheIntegrator.53.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.23.mcz
 Morphic-Widgets-Tabs-TheIntegrator.14.mcz
 Morphic-Widgets-Taskbar-StephaneDucasse.7.mcz
@@ -207,7 +207,7 @@ OpalDecompiler-TheIntegrator.31.mcz
 OpalTools-TheIntegrator.16.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz
-Polymorph-Widgets-TheIntegrator.1218.mcz
+Polymorph-Widgets-TheIntegrator.1221.mcz
 PragmaCollector-TheIntegrator.3.mcz
 ProfStef-Core-TheIntegrator.57.mcz
 ProfStef-Help-SvenVanCaekenberghe.14.mcz
@@ -259,12 +259,12 @@ Spec-Core-TheIntegrator.391.mcz
 Spec-Debugger-TheIntegrator.238.mcz
 Spec-Examples-TheIntegrator.94.mcz
 Spec-Help-TheIntegrator.10.mcz
-Spec-Inspector-TheIntegrator.238.mcz
+Spec-Inspector-TheIntegrator.240.mcz
 Spec-Layout-TheIntegrator.67.mcz
 Spec-MorphicAdapters-TheIntegrator.209.mcz
 Spec-PolyWidgets-TheIntegrator.57.mcz
 Spec-Tests-StephaneDucasse.45.mcz
-Spec-Tools-StephaneDucasse.261.mcz
+Spec-Tools-TheIntegrator.263.mcz
 StartupPreferences-TheIntegrator.133.mcz
 System-Announcements-TheIntegrator.98.mcz
 System-Caching-TheIntegrator.23.mcz
@@ -285,7 +285,7 @@ System-Localization-Tests-TheIntegrator.5.mcz
 System-Object Events-MarcusDenker.15.mcz
 System-Platforms-TheIntegrator.63.mcz
 System-Serial Port-StephaneDucasse.23.mcz
-System-Settings-StephaneDucasse.309.mcz
+System-Settings-TheIntegrator.311.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Support-TheIntegrator.1104.mcz
 System-VMEvents-TheIntegrator.2.mcz
@@ -296,7 +296,7 @@ Text-Edition-TheIntegrator.83.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.26.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.74.mcz
+Tool-Base-TheIntegrator.76.mcz
 Tool-Browser-Old-TheIntegrator.37.mcz
 Tool-Changes-TheIntegrator.22.mcz
 Tool-ConfigurationBrowser-TheIntegrator.17.mcz
@@ -309,7 +309,7 @@ Tool-ImageCleaner-TheIntegrator.10.mcz
 Tool-ProcessBrowser-StephaneDucasse.6.mcz
 Tool-Profilers-TheIntegrator.17.mcz
 Tool-SystemReporter-StephaneDucasse.10.mcz
-Tool-Transcript-TheIntegrator.12.mcz
+Tool-Transcript-TheIntegrator.14.mcz
 Tool-TxWorkspace-TorstenBergmann.5.mcz
 Tool-Workspace-TheIntegrator.24.mcz
 Tools-TheIntegrator.1503.mcz

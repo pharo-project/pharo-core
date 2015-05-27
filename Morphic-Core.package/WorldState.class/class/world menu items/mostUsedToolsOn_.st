@@ -6,19 +6,24 @@ mostUsedToolsOn: aBuilder
 		with: [
 			(aBuilder item: #'System Browser') 
 				action: [Smalltalk tools openClassBrowser]; 
+				keyText: 'o, b';
 				icon: Smalltalk tools browser taskbarIcon.
 			(aBuilder item: Smalltalk tools workspace title asSymbol) 
-				action: [Smalltalk tools openWorkspace]; 
+				action: [Smalltalk tools openWorkspace];  
+				keyText: 'o, w';
 				icon: Smalltalk tools workspace taskbarIcon.
 			
 			Smalltalk globals at: #TestRunner ifPresent: [ :class |
 				(aBuilder item: #'Test Runner') 
-					action: [Smalltalk tools openTestRunner]; 
+					action: [Smalltalk tools openTestRunner];  
+				keyText: 'o, u';
 					icon: class taskbarIcon ].
 			Smalltalk globals at: #GTSpotter ifPresent: [ :class |
 				(aBuilder item: #'Spotter') 
-					action: [GTSpotterGlobalShortcut openGlobalSpotter]; 
+					action: [GTSpotterGlobalShortcut openGlobalSpotter];  
+				keyText: 'Shift Enter';
 					icon: FinderUI icon ].
 			(aBuilder item: #'Monticello Browser') 
-				action: [Smalltalk tools openMonticelloBrowser]; 
+				action: [Smalltalk tools openMonticelloBrowser];  
+				keyText: 'o, p';
 				icon: Smalltalk tools monticelloBrowser taskbarIcon]
