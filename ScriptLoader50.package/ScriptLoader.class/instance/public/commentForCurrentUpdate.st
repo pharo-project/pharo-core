@@ -1,15 +1,9 @@
 commentForCurrentUpdate
- ^ '13829 TextMorphForEditorView should be packaged in Moprhic-Widgets-Pluggable
-	https://pharo.fogbugz.com/f/cases/13829
+ ^ '15340 Extending DoubleLinkedList API
+	https://pharo.fogbugz.com/f/cases/15340
 
-2906 Analyze #adaptToNumber:andSend:
-	https://pharo.fogbugz.com/f/cases/2906
+15617 Shortcut($k command) doesnt open the Komitter
+	https://pharo.fogbugz.com/f/cases/15617
 
-14040 FillStyle>>fillRectangle: aRectangle on: aCanvas should be packaged in Balloon
-	https://pharo.fogbugz.com/f/cases/14040
-
-15613 Display most use tools shortcuts on World menu.
-	https://pharo.fogbugz.com/f/cases/15613
-
-15135 Object extensions related to explore/inspect should be repackaged into their own independent package
-	https://pharo.fogbugz.com/f/cases/15135'
+15616 Improve Reifications 
+	https://pharo.fogbugz.com/f/cases/15616'

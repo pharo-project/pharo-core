@@ -1,8 +1,9 @@
-initForNode: aNode
+node: aNode link: aLink 
 	table := Dictionary new.
 	ptable := Dictionary new.
 	plugins := Dictionary new.
 	node := aNode.
+	link := aLink.
 	
 	"register all the plugins that can reify information for this node"
 	RFReification subclasses do: [:plugin |

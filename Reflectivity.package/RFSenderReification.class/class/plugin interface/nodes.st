@@ -1,0 +1,2 @@
+nodes
+	^{RBMessageNode . RBMethodNode}

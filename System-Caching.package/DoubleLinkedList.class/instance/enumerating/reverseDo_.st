@@ -1,7 +1,4 @@
 reverseDo: block
-	| current |
-	current := tail.
-	[ current isNil ] 
-		whileFalse: [ 
-	 		block value: current value.
-			current := current previousLink ]
+	"Execute block for each of my elements, in reverse order."
+
+	self reverseLinksDo: [ :each | block value: each value ]

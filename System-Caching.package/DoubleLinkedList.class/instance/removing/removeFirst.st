@@ -1,7 +1,10 @@
 removeFirst
+	"Remove my first element.
+	Signal a CollectionIsEmpty excpetion when I am empty.
+	Return the removed internal link."
+	
 	| link |
-	self isEmpty 
-		ifTrue: [ CollectionIsEmpty signalWith: self ].
+	self emptyCheck.
 	link := head.
 	head := head nextLink.
 	head 

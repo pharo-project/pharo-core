@@ -1,7 +1,10 @@
 removeLast
+	"Remove my last element.
+	Signal a CollectionIsEmpty excpetion when I am empty.
+	Return the removed internal link."
+
 	| link |
-	self isEmpty 
-		ifTrue: [ CollectionIsEmpty signalWith: self ].
+	self emptyCheck.
 	link := tail.
 	tail := tail previousLink.
 	tail 

@@ -7,11 +7,8 @@ testHookWithArguments
 		selector: #value:.
 	
 	node := (Object>>#halt) ast copy.
-	
-	gen := HookGenerator new 
-		initForNode: node;
-		link: link.
-		hook := gen hook.	
+	gen := HookGenerator node: node link: link.
+	hook := gen hook.	
 	"we have a plugin for #object"
 	self assert: (gen plugins includesKey: #object).
 	"we have an ast for the reification"

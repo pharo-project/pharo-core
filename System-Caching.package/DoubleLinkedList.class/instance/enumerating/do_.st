@@ -1,7 +1,4 @@
 do: block
-	| current |
-	current := head.
-	[ current isNil ] 
-		whileFalse: [ 
-	 		block value: current value.
-			current := current nextLink ]
+	"Execute block for each of my elements."
+
+	self linksDo: [ :each | block value: each value ]

@@ -1,4 +1,4 @@
-RFReification subclass: #RFTArgumentsReification
+RFReification subclass: #RFSenderReification
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

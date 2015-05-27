@@ -1,5 +1,2 @@
 hookOn: aNode
-	^(HookGenerator new 
-		initForNode: aNode;
-		link: self;
-		hook) parent: aNode
+	^(HookGenerator node: aNode link: self) hook parent: aNode

@@ -1,4 +1,4 @@
-script50068
+script50069
 
 	^ 'AST-Core-TheIntegrator.294.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -122,7 +122,7 @@ Keymapping-Pragmas-TheIntegrator.50.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.94.mcz
 Keymapping-Tools-Spec-TheIntegrator.30.mcz
-Komitter-TheIntegrator.124.mcz
+Komitter-TheIntegrator.126.mcz
 Manifest-Core-TheIntegrator.217.mcz
 Manifest-CriticBrowser-TheIntegrator.179.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
@@ -224,8 +224,8 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.123.mcz
 Refactoring-Tests-Critics-TheIntegrator.31.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.50.mcz
-Reflectivity-Tests-TheIntegrator.34.mcz
+Reflectivity-TheIntegrator.52.mcz
+Reflectivity-Tests-TheIntegrator.36.mcz
 Regex-Core-MarcusDenker.33.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -267,8 +267,8 @@ Spec-Tests-StephaneDucasse.45.mcz
 Spec-Tools-TheIntegrator.263.mcz
 StartupPreferences-TheIntegrator.133.mcz
 System-Announcements-TheIntegrator.98.mcz
-System-Caching-TheIntegrator.23.mcz
-System-CachingTests-TheIntegrator.12.mcz
+System-Caching-TheIntegrator.25.mcz
+System-CachingTests-TheIntegrator.14.mcz
 System-Changes-StephaneDucasse.257.mcz
 System-Clipboard-SvenVanCaekenberghe.32.mcz
 System-CommandLine-TheIntegrator.167.mcz
@@ -296,7 +296,7 @@ Text-Edition-TheIntegrator.83.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.26.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.76.mcz
+Tool-Base-TheIntegrator.77.mcz
 Tool-Browser-Old-TheIntegrator.37.mcz
 Tool-Changes-TheIntegrator.22.mcz
 Tool-ConfigurationBrowser-TheIntegrator.17.mcz

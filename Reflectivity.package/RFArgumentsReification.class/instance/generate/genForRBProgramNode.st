@@ -1,4 +1,5 @@
 genForRBProgramNode
+	self flag: #TODO.  "need to store data and use that later"
 	node numArgs = 0
 		ifTrue: [ ^ #() asLiteralNode ].
 	node numArgs <= 4
