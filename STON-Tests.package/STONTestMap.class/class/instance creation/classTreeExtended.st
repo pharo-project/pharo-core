@@ -1,0 +1,2 @@
+classTreeExtended
+	^ self classTreeExtended: Object

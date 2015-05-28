@@ -1,0 +1,2 @@
+stonAllInstVarNames
+	^ #(username password enabled)

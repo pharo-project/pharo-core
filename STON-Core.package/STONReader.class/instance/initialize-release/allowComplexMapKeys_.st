@@ -1,0 +1,2 @@
+allowComplexMapKeys: boolean
+	allowComplexMapKeys := boolean

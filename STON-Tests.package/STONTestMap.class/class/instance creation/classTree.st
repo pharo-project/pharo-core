@@ -1,0 +1,2 @@
+classTree
+	^ self classTree: Object

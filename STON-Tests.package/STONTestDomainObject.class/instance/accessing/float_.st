@@ -1,0 +1,2 @@
+float: anObject
+	float := anObject

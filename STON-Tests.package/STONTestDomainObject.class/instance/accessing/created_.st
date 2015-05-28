@@ -1,0 +1,2 @@
+created: anObject
+	created := anObject

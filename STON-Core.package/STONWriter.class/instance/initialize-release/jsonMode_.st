@@ -1,0 +1,2 @@
+jsonMode: boolean
+	jsonMode := boolean

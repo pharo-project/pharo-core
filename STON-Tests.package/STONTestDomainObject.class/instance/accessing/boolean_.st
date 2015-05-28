@@ -1,0 +1,2 @@
+boolean: anObject
+	boolean := anObject

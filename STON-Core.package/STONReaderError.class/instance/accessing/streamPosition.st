@@ -1,0 +1,2 @@
+streamPosition
+	^ streamPosition

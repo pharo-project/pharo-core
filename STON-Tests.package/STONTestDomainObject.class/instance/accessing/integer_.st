@@ -1,0 +1,2 @@
+integer: anObject
+	integer := anObject

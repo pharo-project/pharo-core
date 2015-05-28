@@ -1,0 +1,3 @@
+initialize
+	self initializeSTONCharacters.
+	self initializeSTONSimpleSymbolCharacters

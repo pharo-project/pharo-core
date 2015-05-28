@@ -1,0 +1,2 @@
+mapClass
+	^ Dictionary

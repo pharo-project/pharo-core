@@ -1,0 +1,2 @@
+on: stonWriter
+	writer := stonWriter

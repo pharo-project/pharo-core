@@ -1,0 +1,2 @@
+isStonReference
+	^ false

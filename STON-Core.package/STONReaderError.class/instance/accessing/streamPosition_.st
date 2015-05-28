@@ -1,0 +1,2 @@
+streamPosition: aNumber
+	streamPosition := aNumber

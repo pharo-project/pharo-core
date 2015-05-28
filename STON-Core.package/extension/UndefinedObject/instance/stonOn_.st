@@ -1,0 +1,2 @@
+stonOn: stonWriter
+	stonWriter writeNull

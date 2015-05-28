@@ -1,0 +1,2 @@
+prettyPrint: boolean
+	prettyPrint := boolean

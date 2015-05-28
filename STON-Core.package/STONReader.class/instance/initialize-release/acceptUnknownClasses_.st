@@ -1,0 +1,2 @@
+acceptUnknownClasses: boolean
+	acceptUnknownClasses := boolean

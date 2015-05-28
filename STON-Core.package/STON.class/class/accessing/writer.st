@@ -1,0 +1,2 @@
+writer
+	^ STONWriter new

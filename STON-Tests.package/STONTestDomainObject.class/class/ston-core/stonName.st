@@ -1,0 +1,2 @@
+stonName
+	^ #TestDomainObject

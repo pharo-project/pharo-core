@@ -1,0 +1,2 @@
+listClass
+	^ Array

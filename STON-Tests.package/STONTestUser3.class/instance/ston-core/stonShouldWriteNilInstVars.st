@@ -1,0 +1,2 @@
+stonShouldWriteNilInstVars
+	^ true

@@ -2,5 +2,5 @@ imageName
 	"Answer the full path name for the current image."
 
 	"SmalltalkImage current imageName"
-
-	^ FilePathEncoder decode: self primImageName
+	self deprecated: 'Should use imagePath'.
+	^ self imagePath
