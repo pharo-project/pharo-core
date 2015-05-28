@@ -1,5 +1,3 @@
 openSystemBrowser
 	<shortcut>
-	^ KMKeymap
-			shortcut: $o command, $b command
-			action: [ Smalltalk tools openClassBrowser ]
+	^ KMKeymap shortcut: PharoShortcuts current openSystemBrowserShortcut action: [ Smalltalk tools openClassBrowser ]

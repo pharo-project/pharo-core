@@ -1,4 +1,4 @@
-script50070
+script50071
 
 	^ 'AST-Core-TheIntegrator.296.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -221,7 +221,7 @@ Refactoring-Core-TheIntegrator.272.mcz
 Refactoring-Critics-TheIntegrator.173.mcz
 Refactoring-Environment-TheIntegrator.54.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
-Refactoring-Tests-Core-TheIntegrator.125.mcz
+Refactoring-Tests-Core-TheIntegrator.127.mcz
 Refactoring-Tests-Critics-TheIntegrator.31.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
 Reflectivity-TheIntegrator.52.mcz
@@ -263,7 +263,7 @@ Spec-Inspector-TheIntegrator.240.mcz
 Spec-Layout-TheIntegrator.67.mcz
 Spec-MorphicAdapters-TheIntegrator.209.mcz
 Spec-PolyWidgets-TheIntegrator.57.mcz
-Spec-Tests-StephaneDucasse.45.mcz
+Spec-Tests-TheIntegrator.47.mcz
 Spec-Tools-TheIntegrator.263.mcz
 StartupPreferences-TheIntegrator.133.mcz
 System-Announcements-TheIntegrator.98.mcz
@@ -296,7 +296,7 @@ Text-Edition-TheIntegrator.83.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.26.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.77.mcz
+Tool-Base-TheIntegrator.79.mcz
 Tool-Browser-Old-TheIntegrator.37.mcz
 Tool-Changes-TheIntegrator.22.mcz
 Tool-ConfigurationBrowser-TheIntegrator.17.mcz

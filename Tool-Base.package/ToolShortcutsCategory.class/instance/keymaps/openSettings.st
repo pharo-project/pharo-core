@@ -1,5 +1,3 @@
 openSettings
 	<shortcut>
-	^ KMKeymap
-			shortcut: $o command, $s command
-			action: [ SettingBrowser open ]
+	^ KMKeymap shortcut: PharoShortcuts current openSettingsShortcut action: [ SettingBrowser open ]

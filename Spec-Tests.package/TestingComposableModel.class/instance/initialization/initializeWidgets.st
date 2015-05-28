@@ -1,0 +1,2 @@
+initializeWidgets
+	list := self newList

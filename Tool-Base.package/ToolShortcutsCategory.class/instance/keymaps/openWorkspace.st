@@ -1,5 +1,3 @@
 openWorkspace
 	<shortcut>
-	^ KMKeymap
-			shortcut: $o command, $w command
-			action: [ Smalltalk tools workspace open ]
+	^ KMKeymap shortcut: PharoShortcuts current openPlaygroundShortcut action: [ Smalltalk tools workspace open ]

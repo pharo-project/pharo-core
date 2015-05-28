@@ -1,9 +1,12 @@
 commentForCurrentUpdate
- ^ '15575 AST syntax highlight: clean up variable resolving a bit 
-	https://pharo.fogbugz.com/f/cases/15575
+ ^ '15623 regenerate package information for TClass classTrait methods
+	https://pharo.fogbugz.com/f/cases/15623
 
-15614 TTLCache>>#removeStaleValues should use the proper #isStale: test
-	https://pharo.fogbugz.com/f/cases/15614
+15620 RBRefactoringTest has strange code to access class variables
+	https://pharo.fogbugz.com/f/cases/15620
 
-15076 RBRemoveClassRefactoring slightly broken
-	https://pharo.fogbugz.com/f/cases/15076'
+15612 ToolShortcutsCategory has hard code shortcut.
+	https://pharo.fogbugz.com/f/cases/15612
+
+15618 Remove ComposableModel>>#instantiateModels:s senders in Spec-Tests
+	https://pharo.fogbugz.com/f/cases/15618'

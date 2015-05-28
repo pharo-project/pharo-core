@@ -1,5 +1,3 @@
 openMonticelloPackageBrowser
 	<shortcut>
-	^ KMKeymap
-			shortcut: $o command, $p command
-			action: [ Smalltalk tools openMonticelloBrowser ]
+	^ KMKeymap shortcut: PharoShortcuts current openMonticielloShortcut action: [ Smalltalk tools openMonticelloBrowser ]

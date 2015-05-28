@@ -1,5 +1,3 @@
 openUnitTestRunner
 	<shortcut>
-	^ KMKeymap
-			shortcut: $o command, $u command
-			action: [ Smalltalk tools openTestRunner ]
+	^ KMKeymap shortcut: PharoShortcuts current openTestRunnerShortcut action: [ Smalltalk tools openTestRunner ]
