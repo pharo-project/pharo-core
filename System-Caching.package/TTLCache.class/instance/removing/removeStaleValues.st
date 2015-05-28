@@ -3,11 +3,10 @@ removeStaleValues
 	Remove a collection of the keys that were removed."
 
 	^ self critical: [
-		| keysToRemove now |
+		| keysToRemove |
 		keysToRemove := OrderedCollection new.
-		now := self now.
-		lruList do: [ :value |
-			 now - value timestamp < timeToLive 
-				ifFalse: [ keysToRemove add: value key ] ].
+		lruList do: [ :association |
+			 (self isStale: association) 
+				ifTrue: [ keysToRemove add: association key ] ].
 		keysToRemove do: [ :each | self removeKey: each ].
 		keysToRemove ]
