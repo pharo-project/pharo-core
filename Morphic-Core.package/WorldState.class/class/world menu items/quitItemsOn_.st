@@ -7,7 +7,7 @@ quitItemsOn: aBuilder
 				target: self;
 				selector: #saveSession;
 				help: 'save the current version of the image on disk';
-				keyText: 'Shift s';
+				keyText: 'S';
 				icon: Smalltalk ui icons smallSaveIcon.
 			(aBuilder item: #'Save as...')
 				target: self;

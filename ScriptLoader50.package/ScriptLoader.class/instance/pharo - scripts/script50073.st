@@ -1,6 +1,6 @@
-script50072
+script50073
 
-	^ 'AST-Core-TheIntegrator.296.mcz
+	^ 'AST-Core-TheIntegrator.298.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
 Announcements-Core-MarcusDenker.55.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -45,7 +45,7 @@ DebuggerActions-MarcusDenker.74.mcz
 DebuggerFilters-TheIntegrator.9.mcz
 DebuggerModel-TheIntegrator.112.mcz
 Deprecated50-TheIntegrator.7.mcz
-EmbeddedFreeType-TheIntegrator.15.mcz
+EmbeddedFreeType-TheIntegrator.18.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-MarcusDenker.32.mcz
 FileSystem-Core-TheIntegrator.180.mcz
@@ -121,7 +121,7 @@ Keymapping-KeyCombinations-TheIntegrator.48.mcz
 Keymapping-Pragmas-TheIntegrator.50.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.94.mcz
-Keymapping-Tools-Spec-TheIntegrator.30.mcz
+Keymapping-Tools-Spec-TheIntegrator.32.mcz
 Komitter-TheIntegrator.126.mcz
 Manifest-Core-TheIntegrator.217.mcz
 Manifest-CriticBrowser-TheIntegrator.179.mcz
@@ -154,8 +154,8 @@ MonticelloFileTree-Core-TheIntegrator.182.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
 MonticelloGUI-TheIntegrator.352.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
-Morphic-Base-TheIntegrator.451.mcz
-Morphic-Core-TheIntegrator.173.mcz
+Morphic-Base-TheIntegrator.455.mcz
+Morphic-Core-TheIntegrator.176.mcz
 Morphic-Examples-TheIntegrator.40.mcz
 Morphic-Widgets-Basic-TheIntegrator.41.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
@@ -187,7 +187,7 @@ NativeBoost-Win32-TheIntegrator.57.mcz
 Nautilus-TheIntegrator.926.mcz
 Nautilus-Tests-StephaneDucasse.14.mcz
 NautilusCommon-TheIntegrator.260.mcz
-NautilusRefactoring-TheIntegrator.218.mcz
+NautilusRefactoring-TheIntegrator.220.mcz
 Network-Kernel-TheIntegrator.115.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.41.mcz
@@ -237,6 +237,8 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.83.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 Rubric-StephaneDucasse.207.mcz
+STON-Core-SvenVanCaekenberghe.58.mcz
+STON-Tests-SvenVanCaekenberghe.53.mcz
 SUnit-Core-TheIntegrator.143.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Tests-TheIntegrator.48.mcz
@@ -283,7 +285,7 @@ System-Installers-SvenVanCaekenberghe.42.mcz
 System-Localization-TheIntegrator.88.mcz
 System-Localization-Tests-TheIntegrator.5.mcz
 System-Object Events-MarcusDenker.15.mcz
-System-Platforms-TheIntegrator.63.mcz
+System-Platforms-TheIntegrator.67.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-Settings-TheIntegrator.311.mcz
 System-Sound-StephaneDucasse.18.mcz

@@ -1,0 +1,2 @@
+menuShortcutString
+	^ 'ctrl'

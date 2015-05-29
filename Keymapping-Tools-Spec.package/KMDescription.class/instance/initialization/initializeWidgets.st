@@ -1,10 +1,9 @@
 initializeWidgets
 
-	self instantiateModels: #(
-		categoryList DropListModel
-		shortcutList MultiColumnListModel
-		okToolbar OkToolbar
-		orderingList DropListModel ).
+	categoryList := self newDropList.
+	shortcutList := self newMultiColumnList.
+	okToolbar := self instantiate: OkToolbar.
+	orderingList := self newDropList.
 	
 	orderingList 
 		addItemLabeled:'shortcut	:	description' 

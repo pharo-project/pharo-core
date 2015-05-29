@@ -1,0 +1,2 @@
+originalFileName
+	^ 'LucidaGrande.ttc'

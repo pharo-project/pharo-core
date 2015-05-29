@@ -21,7 +21,7 @@ mostUsedToolsOn: aBuilder
 			Smalltalk globals at: #GTSpotter ifPresent: [ :class |
 				(aBuilder item: #'Spotter') 
 					action: [GTSpotterGlobalShortcut openGlobalSpotter];  
-				keyText: 'Shift Enter';
+				keyText: 'Shift + Enter';
 					icon: FinderUI icon ].
 			(aBuilder item: #'Monticello Browser') 
 				action: [Smalltalk tools openMonticelloBrowser];  

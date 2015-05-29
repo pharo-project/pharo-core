@@ -4,7 +4,7 @@ sourceCodeRefactoringMenu: aBuilder
 	
 	(aBuilder item: #'Format')
 		order: 1100;
-		keyText: 'Shift f';
+		keyText: 'F';
 		action: [ target refactor formatSourceCode ].
 		
 	(aBuilder item: #'Source code refactoring')
