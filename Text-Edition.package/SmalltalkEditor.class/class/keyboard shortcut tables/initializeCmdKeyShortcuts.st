@@ -9,17 +9,17 @@ initializeCmdKeyShortcuts
 	self initializeBasicCmdKeyShortcuts.
 	
 	cmds := #(
-		$b #browseIt: 
+		"$b #browseIt: "
 		$d #doIt: 
-		$i #inspectIt: 
-		$z #undo: 
+		"$i #inspectIt:" 
+		"$z #undo:" 
 		$j #redo: 
 		$l #cancel: 
 		$m #implementorsOfIt: 
-		$n #sendersOfIt: 
-		$p #printIt: 
+		"$n #sendersOfIt:" 
+		"$p #printIt: "
 		$q #querySymbol: 
-		$s #save: ).
+		"$s #save:" ).
 	1 to: cmds size
 		by: 2
 		do: [:i | cmdActions at: (cmds at: i) asciiValue + 1 put: (cmds at: i + 1)].

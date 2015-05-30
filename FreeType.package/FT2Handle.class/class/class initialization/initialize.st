@@ -4,3 +4,4 @@ initialize
 	Smalltalk removeFromShutDownList: self.
 	Smalltalk removeFromStartUpList: self. "in case it was added by earlier version"
 	Smalltalk addToStartUpList: self.
+	Smalltalk addToShutDownList: self.

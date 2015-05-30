@@ -37,7 +37,7 @@ initializeBasicShiftCmdKeyShortcuts
 		$x	makeLowercase:
 		$y	makeUppercase:
 		$z	makeCapitalized:
-		$g #findAgain:
+		"$g #findAgain:"
 	) pairsDo: [ :char :symbol|
 		cmdMap at: char asciiValue + 1 put: symbol.			"plain keys"
 		cmdMap at: char asciiValue - 32 + 1 put: symbol.		"shifted keys"

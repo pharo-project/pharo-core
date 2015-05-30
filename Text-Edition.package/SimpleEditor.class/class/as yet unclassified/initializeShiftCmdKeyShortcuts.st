@@ -9,8 +9,8 @@ initializeShiftCmdKeyShortcuts
 
 	"shift-command and control shortcuts"
 	cmdMap := Array new: 256 withAll: #noop:.  "use temp in case of a crash"
-	cmdMap at: ( 1 + 1) put: #cursorHome:.			"home key"
-	cmdMap at: ( 4 + 1) put: #cursorEnd:.			"end key"
+	"cmdMap at: ( 1 + 1) put: #cursorHome:."			"home key"
+	"cmdMap at: ( 4 + 1) put: #cursorEnd:."			"end key"
 	cmdMap at: ( 8 + 1) put: #forwardDelete:.		"ctrl-H or delete key"
 	cmdMap at: (28 + 1) put: #cursorLeft:.			"left arrow key"
 	cmdMap at: (29 + 1) put: #cursorRight:.			"right arrow key"

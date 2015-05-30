@@ -18,4 +18,4 @@ selectedClassWithoutChangingSelection: aClass
 						category: nil
 						method: nil ]
 				ifFalse: [ self selectedClass: aClass withSelection: (self parentOfClass: aClass) ].
-			self updateOnClassSelection ]
+			self updateOnClassSelection ].

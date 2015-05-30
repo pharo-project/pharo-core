@@ -1,4 +1,4 @@
-script50074
+script50075
 
 	^ 'AST-Core-TheIntegrator.298.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -59,7 +59,7 @@ Files-TheIntegrator.373.mcz
 FontChooser-TheIntegrator.7.mcz
 FontInfrastructure-TheIntegrator.8.mcz
 FontInfrastructure-Tests-TheIntegrator.2.mcz
-FreeType-TheIntegrator.702.mcz
+FreeType-StephaneDucasse.704.mcz
 FreeTypeTests-SvenVanCaekenberghe.5.mcz
 Fuel-TheIntegrator.805.mcz
 FuelCommandLineHandler-TheIntegrator.27.mcz
@@ -184,8 +184,8 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.92.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-TheIntegrator.926.mcz
-Nautilus-Tests-StephaneDucasse.14.mcz
+Nautilus-StephaneDucasse.930.mcz
+Nautilus-Tests-StephaneDucasse.16.mcz
 NautilusCommon-TheIntegrator.260.mcz
 NautilusRefactoring-TheIntegrator.220.mcz
 Network-Kernel-TheIntegrator.115.mcz
@@ -236,7 +236,7 @@ Ring-Monticello-MarcusDenker.29.mcz
 Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.83.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
-Rubric-StephaneDucasse.207.mcz
+Rubric-AlainPlantec.206.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
 SUnit-Core-TheIntegrator.143.mcz
@@ -294,7 +294,7 @@ System-VMEvents-TheIntegrator.2.mcz
 Tests-TheIntegrator.726.mcz
 Text-Core-TheIntegrator.35.mcz
 Text-Diff-StephaneDucasse.4.mcz
-Text-Edition-TheIntegrator.83.mcz
+Text-Edition-StephaneDucasse.85.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.26.mcz
 Text-Tests-EstebanLorenzano.7.mcz

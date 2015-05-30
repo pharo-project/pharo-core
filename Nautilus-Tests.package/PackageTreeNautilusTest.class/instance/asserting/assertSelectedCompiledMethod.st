@@ -20,7 +20,7 @@ assertSelectedCompiledMethod
 		assert: nautilus ui methodWidget selectedMethods asArray 
 			equals: ((Array with: expectedCompiledMethod) copyWithout: nil).
 
-	aText := nautilus ui sourceCodeContainer submorphs first submorphs first submorphs first getText.
+	aText := nautilus ui sourceCodeContainer submorphs first submorphs first getText.
 	nautilus selectedMethod 
 		ifNotNil: [ self assert: aText equals: compiledMethod sourceCode ].
 		

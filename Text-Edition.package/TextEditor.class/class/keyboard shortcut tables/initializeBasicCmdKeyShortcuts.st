@@ -17,23 +17,22 @@ initializeBasicCmdKeyShortcuts
 	cmdMap at: 29 + 1 put: #cursorRight:.			"right arrow key"
 	cmdMap at: 30 + 1 put: #cursorUp:.				"up arrow key"
 	cmdMap at: 31 + 1 put: #cursorDown:.			"down arrow key"
-	cmdMap at: 32 + 1 put: #selectWord:.			"space bar key"
+	"cmdMap at: 32 + 1 put: #selectWord:."			"space bar key"
 	cmdMap at: 127 + 1 put: #forwardDelete:.		"del key"
-	cmdMap at: 115 + 1 put:#accept:.	
-	'([{''"<' do: [:char | cmdMap at: char asciiValue + 1 put: #enclose:].
+	"cmdMap at: 115 + 1 put:#accept:".	
 		
 	#(
 		$a #selectAll: 
-		$c #copySelection: 
+		"$c #copySelection:" 
 		$e #exchange: 
-		$f #find: 
-		$g #findAgain: 
-		$h #setSearchString: 
-		$v #paste: 
+		"$f #find: "
+		"$g #findAgain: "
+		"$h #setSearchString: "
+		"$v #paste: "
 		$w #backWord: 
-		$x #cut: 
+		"$x #cut:" 
 		$y #swapChars: 
-		$z #undo: 
+		"$z #undo:" 
 		$j #redo: 
 		"$u #exploreUndoManager: ")
 	pairsDo: [ :char :symbol|
