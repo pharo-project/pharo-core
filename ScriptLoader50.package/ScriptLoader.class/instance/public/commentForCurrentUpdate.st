@@ -1,14 +1,6 @@
 commentForCurrentUpdate
- ^ '15630 Remove duplicate shortcut definition (TextEditors actionMap vs KM)
-	https://pharo.fogbugz.com/f/cases/15630
+ ^ '15627 menuShortcutModifierString needs to answer ctrl for windows and linux
+	https://pharo.fogbugz.com/f/cases/15627
 
-15637 Fixed nautilus tests
-	https://pharo.fogbugz.com/f/cases/15637
-
-15633 FT2Handle needs to cleanUp on exit, not on startup
-	https://pharo.fogbugz.com/f/cases/15633
-
-15631 Change PluggableTextMorph in comment pane into a RubScrolledTextMorph via RubScrolledTextModel
-	https://pharo.fogbugz.com/f/cases/15631
-
-'
+15598 Morphic - Cant go back directly to the first menu when more than 2 submenus are opened.
+	https://pharo.fogbugz.com/f/cases/15598'
