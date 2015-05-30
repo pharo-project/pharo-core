@@ -1,2 +1,2 @@
 textColor
-	^ DefaultTextColor ifNil: [ DefaultTextColor := Color black]  
+	^ DefaultTextColor ifNil: [ DefaultTextColor := Smalltalk ui theme textColor ]  

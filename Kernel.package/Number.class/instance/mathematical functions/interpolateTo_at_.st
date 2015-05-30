@@ -1,2 +1,2 @@
 interpolateTo: aNumber at: param
-	^self + (aNumber - self * param)
+    ^  self * (1 - param) + (aNumber * param)

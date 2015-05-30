@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '15627 menuShortcutModifierString needs to answer ctrl for windows and linux
-	https://pharo.fogbugz.com/f/cases/15627
+ ^ '15639 rubric has a lot of hardcoded defaults (for colors, etc.)
+	https://pharo.fogbugz.com/f/cases/15639
 
-15598 Morphic - Cant go back directly to the first menu when more than 2 submenus are opened.
-	https://pharo.fogbugz.com/f/cases/15598'
+15138 inprecise interpolateTo:at: for floats
+	https://pharo.fogbugz.com/f/cases/15138'

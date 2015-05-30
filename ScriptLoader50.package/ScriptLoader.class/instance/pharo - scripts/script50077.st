@@ -1,4 +1,4 @@
-script50076
+script50077
 
 	^ 'AST-Core-TheIntegrator.298.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -78,7 +78,7 @@ GT-Tests-Spotter-TudorGirba.8.mcz
 Generated-code-non-existing-package-EstebanLorenzano.2.mcz
 Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-TorstenBergmann.109.mcz
-Glamour-Core-StefanReichhart.299.mcz
+Glamour-Core-EstebanLorenzano.300.mcz
 Glamour-Examples-TorstenBergmann.291.mcz
 Glamour-Helpers-AndreiChis.39.mcz
 Glamour-Morphic-Brick-StefanReichhart.398.mcz
@@ -114,7 +114,7 @@ HudsonBuildTools20-TheIntegrator.65.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-EstebanLorenzano.4.mcz
-Kernel-TheIntegrator.2039.mcz
+Kernel-TheIntegrator.2041.mcz
 KernelTests-TheIntegrator.776.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.48.mcz

@@ -1,2 +1,2 @@
 defaultBackgroundColor 
-	^ Color white
+	^ Smalltalk ui theme backgroundColor
