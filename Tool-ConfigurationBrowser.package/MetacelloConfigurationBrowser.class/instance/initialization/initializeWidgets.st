@@ -1,6 +1,3 @@
 initializeWidgets
-
-	self instantiateModels: #(
-		configBrowserModel 	#MetacelloConfigurationBrowserPane
-		toolbarModel 			#MetacelloConfigurationBrowserToolbar).
-	
+	configBrowserModel := self instantiate: MetacelloConfigurationBrowserPane.
+	toolbarModel := self instantiate: MetacelloConfigurationBrowserToolbar

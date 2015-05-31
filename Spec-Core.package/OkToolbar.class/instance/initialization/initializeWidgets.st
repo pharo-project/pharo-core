@@ -1,7 +1,7 @@
 initializeWidgets
 	
 	
-	self instantiateModels:  #( okButton ButtonModel ).
+	okButton := self newButton.
 	self registerOkButtonEvents.
 	
 	self focusOrder

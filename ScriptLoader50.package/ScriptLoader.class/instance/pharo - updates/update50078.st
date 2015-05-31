@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '15609 dnu RBParserErrorNode addParenthesis
+update50078
+	"self new update50078"
+	self withUpdateLog: '15609 dnu RBParserErrorNode addParenthesis
 	https://pharo.fogbugz.com/f/cases/15609
 
 15625 file out broken due to refactor of adaptToNumber:andSend:
@@ -12,4 +13,8 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/15642
 
 15644 empty comment pane in nautilus
-	https://pharo.fogbugz.com/f/cases/15644'
+	https://pharo.fogbugz.com/f/cases/15644'.
+	self loadTogether: self script50078 merge: false.
+	
+DiskStore allSubInstances do: [ :each | each instVarNamed: #maxFileNameLength  put: (each instVarNamed: #maxFileNameLength) asNumber  ].
+	self flushCaches.

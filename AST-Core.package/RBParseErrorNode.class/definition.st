@@ -1,4 +1,4 @@
-RBProgramNode subclass: #RBParseErrorNode
+RBValueNode subclass: #RBParseErrorNode
 	instanceVariableNames: 'errorMessage value start'
 	classVariableNames: ''
 	poolDictionaries: ''

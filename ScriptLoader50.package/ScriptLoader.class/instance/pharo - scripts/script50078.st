@@ -1,6 +1,6 @@
-script50077
+script50078
 
-	^ 'AST-Core-TheIntegrator.298.mcz
+	^ 'AST-Core-TheIntegrator.300.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
 Announcements-Core-MarcusDenker.55.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -184,7 +184,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.92.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-StephaneDucasse.930.mcz
+Nautilus-TheIntegrator.932.mcz
 Nautilus-Tests-StephaneDucasse.16.mcz
 NautilusCommon-TheIntegrator.260.mcz
 NautilusRefactoring-TheIntegrator.220.mcz
@@ -203,7 +203,7 @@ OSWindow-SDL2-EstebanLorenzano.19.mcz
 OSWindow-VM-IgorStasenko.2.mcz
 OpalCompiler-Core-TheIntegrator.663.mcz
 OpalCompiler-Tests-StephaneDucasse.289.mcz
-OpalDecompiler-TheIntegrator.31.mcz
+OpalDecompiler-TheIntegrator.33.mcz
 OpalTools-TheIntegrator.16.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz
@@ -236,7 +236,7 @@ Ring-Monticello-MarcusDenker.29.mcz
 Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.83.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
-Rubric-AlainPlantec.206.mcz
+Rubric-EstebanLorenzano.207.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
 SUnit-Core-TheIntegrator.143.mcz
@@ -257,7 +257,7 @@ Slot-TheIntegrator.624.mcz
 Slot-Tests-TheIntegrator.39.mcz
 SmartSuggestions-TheIntegrator.157.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
-Spec-Core-TheIntegrator.391.mcz
+Spec-Core-TheIntegrator.393.mcz
 Spec-Debugger-TheIntegrator.238.mcz
 Spec-Examples-TheIntegrator.94.mcz
 Spec-Help-TheIntegrator.10.mcz
@@ -289,7 +289,7 @@ System-Platforms-TheIntegrator.67.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-Settings-TheIntegrator.311.mcz
 System-Sound-StephaneDucasse.18.mcz
-System-Support-TheIntegrator.1105.mcz
+System-Support-TheIntegrator.1108.mcz
 System-VMEvents-TheIntegrator.2.mcz
 Tests-TheIntegrator.726.mcz
 Text-Core-TheIntegrator.35.mcz
@@ -301,7 +301,7 @@ Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.79.mcz
 Tool-Browser-Old-TheIntegrator.37.mcz
 Tool-Changes-TheIntegrator.22.mcz
-Tool-ConfigurationBrowser-TheIntegrator.17.mcz
+Tool-ConfigurationBrowser-TheIntegrator.20.mcz
 Tool-Diff-TheIntegrator.2.mcz
 Tool-FileList-TheIntegrator.34.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz

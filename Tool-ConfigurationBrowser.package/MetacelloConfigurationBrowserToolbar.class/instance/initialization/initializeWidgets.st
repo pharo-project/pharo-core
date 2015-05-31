@@ -1,8 +1,7 @@
 initializeWidgets
 	
-	self instantiateModels: #(
-		loadModel  		ButtonModel
-		installModel      ButtonModel).
+	loadModel := self newButton.
+	installModel := self newButton.
 		
 	self setLoadModel.
 	self setInstallModel.

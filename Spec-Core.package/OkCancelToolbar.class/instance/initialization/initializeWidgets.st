@@ -1,7 +1,7 @@
 initializeWidgets
 
 	super initializeWidgets.
-	self instantiateModels: #( cancelButton ButtonModel ).
+	cancelButton := self newButton.
 
 	self registerCancelButtonEvents.
 	self focusOrder

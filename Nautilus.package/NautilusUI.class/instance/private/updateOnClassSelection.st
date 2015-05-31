@@ -14,7 +14,9 @@ updateOnClassSelection
 	self changed: #getComments.
 	self changed: #instanceButtonLabel.
 	self changed: #sourceCodeFrom:.
-	self selectedClass ifNotNil: [ :class |
+	self selectedClass 
+		ifNil: [ self buildNewCommentText ]
+		ifNotNil: [ :class |
 				class hasComment 
 					ifTrue: [self updateCommentWith: class comment ]
 					ifFalse: [ self updateCommentWith: class classCommentBlank ] ]
