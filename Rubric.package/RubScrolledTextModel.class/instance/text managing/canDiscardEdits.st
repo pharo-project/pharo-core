@@ -1,0 +1,2 @@
+canDiscardEdits
+	^ self hasUnacceptedEdits not

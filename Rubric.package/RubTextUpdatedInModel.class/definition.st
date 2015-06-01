@@ -1,4 +1,4 @@
-Announcement subclass: #RubTextUpdatedInModel
+RubAnnouncement subclass: #RubTextUpdatedInModel
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

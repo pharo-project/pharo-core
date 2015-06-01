@@ -1,15 +1,6 @@
 commentForCurrentUpdate
- ^ '15609 dnu RBParserErrorNode addParenthesis
-	https://pharo.fogbugz.com/f/cases/15609
+ ^ '15656 red box of dead in menus when symbol font is absent
+	https://pharo.fogbugz.com/f/cases/15656
 
-15625 file out broken due to refactor of adaptToNumber:andSend:
-	https://pharo.fogbugz.com/f/cases/15625
-
-15643 Remove ComposableModel>>#instantiateModels:s senders in Spec-Core
-	https://pharo.fogbugz.com/f/cases/15643
-
-15642 Remove ComposableModel>>#instantiateModels:s senders in Tool-ConfigurationBrowser
-	https://pharo.fogbugz.com/f/cases/15642
-
-15644 empty comment pane in nautilus
-	https://pharo.fogbugz.com/f/cases/15644'
+15654 Update Rubric
+	https://pharo.fogbugz.com/f/cases/15654'

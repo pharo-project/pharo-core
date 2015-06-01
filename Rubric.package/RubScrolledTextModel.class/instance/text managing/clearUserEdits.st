@@ -1,0 +1,2 @@
+clearUserEdits
+	self hasUnacceptedEdits: false

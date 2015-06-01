@@ -1,4 +1,4 @@
-Announcement subclass: #RubPrimarySelectionUpdatedInModel
+RubAnnouncement subclass: #RubPrimarySelectionUpdatedInModel
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

@@ -1,2 +1,2 @@
 askBeforeDiscardingEdits
-	^ true
+	^ false
