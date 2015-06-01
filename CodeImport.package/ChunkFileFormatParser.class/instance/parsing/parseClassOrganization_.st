@@ -11,4 +11,4 @@ parseClassOrganization: classOrganizationPreamble
 	| behaviorName isMeta |
 	behaviorName := classOrganizationPreamble first.
 	isMeta := classOrganizationPreamble second ~= #reorganize.
-	self addDeclaration: (ClassOrganizationDeclaration contents: self nextChunk behaviorName: behaviorName isMeta: isMeta)
+	self addDeclaration: (ClassOrganizationChunk contents: self nextChunk behaviorName: behaviorName isMeta: isMeta)

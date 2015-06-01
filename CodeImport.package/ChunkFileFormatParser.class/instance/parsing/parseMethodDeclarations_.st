@@ -31,7 +31,7 @@ parseMethodDeclarations: methodsPreamble
 		whileTrue: [ 
 			self
 				addDeclaration:
-					(MethodDeclaration
+					(MethodChunk
 						contents: methodSource
 						behaviorName: behaviorName asSymbol
 						isMeta: isMeta

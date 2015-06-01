@@ -17,7 +17,7 @@ parseCommentDeclaration: commentPreamble
 		ifFalse: [ commentPreamble at: 3 ].
 	self
 		addDeclaration:
-			(ClassCommentDeclaration
+			(ClassCommentChunk
 				contents: self nextChunk
 				behaviorName: behaviorName
 				isMeta: isMeta

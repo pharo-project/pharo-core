@@ -1,2 +1,2 @@
 fileNamed: aFileName
-	^self file: (FileStream readOnlyFileNamed: aFileName).
+	^ self new file: (FileStream readOnlyFileNamed: aFileName).

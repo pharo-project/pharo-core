@@ -1,0 +1,3 @@
+isClassOrganizationDeclaration
+
+	^ false

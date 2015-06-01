@@ -1,0 +1,3 @@
+isMethodDeclaration
+
+	^ true

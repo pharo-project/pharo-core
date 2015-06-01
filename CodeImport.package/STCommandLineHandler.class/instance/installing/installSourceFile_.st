@@ -7,7 +7,7 @@ installSourceFile: aReference
 		self 
 			handleErrorsDuring: [ 
 				codeImporter := CodeImporter fileStream: stream.
-				codeImporter skipShebang parseDeclarations ]
+				codeImporter skipShebang parseChunks ]
 			reference: aReference ].
 	
 	"evaluate the declarations in a second step to allow for properly closing the source file stream"

@@ -1,6 +1,3 @@
 commentForCurrentUpdate
- ^ '15656 red box of dead in menus when symbol font is absent
-	https://pharo.fogbugz.com/f/cases/15656
-
-15654 Update Rubric
-	https://pharo.fogbugz.com/f/cases/15654'
+ ^ '15632 Integrate latest version of CodeImporter
+	https://pharo.fogbugz.com/f/cases/15632'

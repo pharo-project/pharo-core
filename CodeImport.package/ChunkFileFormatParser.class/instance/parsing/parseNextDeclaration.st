@@ -3,7 +3,7 @@ parseNextDeclaration
 	readStream skipSeparators.
 	
 	(self isNextStyleChunk) ifTrue: [
-		self addDeclaration: (StyleDeclaration contents: (self readUpToEndOfStyleChunk)).
+		self addDeclaration: (StyleChunk contents: (self readUpToEndOfStyleChunk)).
 		^self
 	].
 
@@ -12,7 +12,7 @@ parseNextDeclaration
 	
 	isMetadata
 		ifFalse: [ 
-			self addDeclaration: (DoItDeclaration contents: nextChunk).
+			self addDeclaration: (DoItChunk contents: nextChunk).
 		] ifTrue: [
 			| substrings |
 			substrings := nextChunk parseLiterals.

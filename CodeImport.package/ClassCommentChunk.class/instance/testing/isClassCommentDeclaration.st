@@ -1,0 +1,3 @@
+isClassCommentDeclaration
+
+	^ true

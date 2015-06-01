@@ -1,0 +1,3 @@
+isDoItDeclaration
+
+	^ true
