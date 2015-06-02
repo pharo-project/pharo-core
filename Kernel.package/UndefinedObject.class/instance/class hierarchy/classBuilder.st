@@ -1,4 +1,4 @@
 classBuilder
-	"Answer the object responsible of creating classes in the system."
+	"Answer the object responsible of creating subclasses of myself in the system."
 	
-	^ OldClassBuilderAdapter new
+		^ self classInstaller new builder

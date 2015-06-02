@@ -13,7 +13,7 @@ renameClass
 		ifTrue: [ ^ self ].
 	(Smalltalk globals includesKey: newName)
 		ifTrue: [ ^ self inform: newName , ' already exists' ].
-	okToRename := [ self selectedClass classBuilder validateClassName: newName ]
+	okToRename := [ self selectedClass classIntaller validateClassName: newName ]
 		on: Error
 		do: [ :ex | ^ self inform: ex printString ].
 	okToRename

@@ -1,4 +1,4 @@
-script50083
+script50084
 
 	^ 'AST-Core-TheIntegrator.300.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -22,7 +22,7 @@ Athens-Text-NicolaiHess.16.mcz
 Balloon-TheIntegrator.122.mcz
 BalloonTests-MarcusDenker.3.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
-CodeImport-GuillermoPolito.53.mcz
+CodeImport-GuillermoPolito.54.mcz
 Collections-Abstract-TheIntegrator.282.mcz
 Collections-Arithmetic-TheIntegrator.17.mcz
 Collections-Atomic-MarcusDenker.10.mcz
@@ -114,7 +114,7 @@ HudsonBuildTools20-TheIntegrator.68.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-EstebanLorenzano.4.mcz
-Kernel-TheIntegrator.2041.mcz
+Kernel-TheIntegrator.2043.mcz
 KernelTests-TheIntegrator.776.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.50.mcz
@@ -253,7 +253,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.250.mcz
 ShoutTests-TheIntegrator.27.mcz
-Slot-TheIntegrator.624.mcz
+Slot-TheIntegrator.626.mcz
 Slot-Tests-TheIntegrator.39.mcz
 SmartSuggestions-TheIntegrator.157.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
@@ -299,7 +299,7 @@ Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.26.mcz
 Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.79.mcz
-Tool-Browser-Old-TheIntegrator.37.mcz
+Tool-Browser-Old-TheIntegrator.39.mcz
 Tool-Changes-TheIntegrator.22.mcz
 Tool-ConfigurationBrowser-TheIntegrator.20.mcz
 Tool-Diff-TheIntegrator.2.mcz
@@ -316,7 +316,7 @@ Tool-TxWorkspace-TorstenBergmann.5.mcz
 Tool-Workspace-TheIntegrator.24.mcz
 Tools-TheIntegrator.1503.mcz
 ToolsTest-MarcusDenker.denker.71.mcz
-Traits-TheIntegrator.773.mcz
+Traits-TheIntegrator.775.mcz
 Transcript-TheIntegrator.34.mcz
 TxText-Athens-SeanDeNigris.50.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

@@ -7,7 +7,7 @@ copyClass
 	copysName := self request: 'Please type new class name' initialAnswer: self selectedClass name.
 	copysName isEmptyOrNil
 		ifTrue: [^ self].
-	nameOk := [self selectedClass classBuilder validateClassName: copysName asSymbol] 
+	nameOk := [self selectedClass classInstaller validateClassName: copysName asSymbol] 
 		on: Error 
 		do: [ :ex | ^ self inform: ex printString].
 	nameOk
