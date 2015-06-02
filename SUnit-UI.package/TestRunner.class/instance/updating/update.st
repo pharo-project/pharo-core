@@ -1,2 +1,2 @@
 update
-	self updateCategories; updateClasses
+	self updatePackages; updateClasses

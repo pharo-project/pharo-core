@@ -1,4 +1,4 @@
-script50080
+script50081
 
 	^ 'AST-Core-TheIntegrator.300.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -22,7 +22,7 @@ Athens-Text-NicolaiHess.16.mcz
 Balloon-TheIntegrator.122.mcz
 BalloonTests-MarcusDenker.3.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
-CodeImport-StephaneDucasse.50.mcz
+CodeImport-GuillermoPolito.53.mcz
 Collections-Abstract-TheIntegrator.282.mcz
 Collections-Arithmetic-TheIntegrator.17.mcz
 Collections-Atomic-MarcusDenker.10.mcz
@@ -110,21 +110,21 @@ GroupManagerUI-TheIntegrator.40.mcz
 Growl-TheIntegrator.37.mcz
 HelpSystem-Core-TheIntegrator.122.mcz
 HelpSystem-Tests-TheIntegrator.30.mcz
-HudsonBuildTools20-TheIntegrator.65.mcz
+HudsonBuildTools20-TheIntegrator.68.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-EstebanLorenzano.4.mcz
 Kernel-TheIntegrator.2041.mcz
 KernelTests-TheIntegrator.776.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
-Keymapping-KeyCombinations-TheIntegrator.48.mcz
+Keymapping-KeyCombinations-TheIntegrator.50.mcz
 Keymapping-Pragmas-TheIntegrator.50.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.94.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
 Komitter-TheIntegrator.126.mcz
 Manifest-Core-TheIntegrator.217.mcz
-Manifest-CriticBrowser-TheIntegrator.179.mcz
+Manifest-CriticBrowser-TheIntegrator.181.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.49.mcz
 MenuRegistration-TheIntegrator.74.mcz
@@ -188,13 +188,13 @@ Nautilus-TheIntegrator.932.mcz
 Nautilus-Tests-StephaneDucasse.16.mcz
 NautilusCommon-TheIntegrator.260.mcz
 NautilusRefactoring-TheIntegrator.220.mcz
-Network-Kernel-TheIntegrator.115.mcz
+Network-Kernel-TheIntegrator.117.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.41.mcz
 Network-Protocols-MarcusDenker.101.mcz
 Network-UUID-TheIntegrator.31.mcz
 Network-Url-MarcusDenker.99.mcz
-NetworkTests-TheIntegrator.103.mcz
+NetworkTests-TheIntegrator.105.mcz
 NewValueHolder-TheIntegrator.27.mcz
 NodeNavigation-StephaneDucasse.51.mcz
 NonInteractiveTranscript-TheIntegrator.17.mcz
@@ -242,7 +242,7 @@ STON-Tests-SvenVanCaekenberghe.53.mcz
 SUnit-Core-TheIntegrator.143.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Tests-TheIntegrator.48.mcz
-SUnit-UI-TheIntegrator.117.mcz
+SUnit-UI-TheIntegrator.119.mcz
 SUnit-UITesting-TheIntegrator.21.mcz
 ScriptLoader-Tests-TheIntegrator.4.mcz
 Settings-Graphics-StephaneDucasse.28.mcz
@@ -266,7 +266,7 @@ Spec-Layout-TheIntegrator.67.mcz
 Spec-MorphicAdapters-TheIntegrator.209.mcz
 Spec-PolyWidgets-TheIntegrator.57.mcz
 Spec-Tests-TheIntegrator.47.mcz
-Spec-Tools-TheIntegrator.263.mcz
+Spec-Tools-TheIntegrator.265.mcz
 StartupPreferences-TheIntegrator.133.mcz
 System-Announcements-TheIntegrator.98.mcz
 System-Caching-TheIntegrator.26.mcz

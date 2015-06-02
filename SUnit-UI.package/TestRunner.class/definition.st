@@ -1,5 +1,5 @@
 Model subclass: #TestRunner
-	instanceVariableNames: 'categories categoryIndex categoriesSelected classes classIndex classesSelected failedList failedSelected errorList errorSelected lastUpdate result previousRun categoryPattern classPattern testAnnouncementBlock'
+	instanceVariableNames: 'classes classIndex classesSelected failedList failedSelected errorList errorSelected lastUpdate result previousRun classPattern testAnnouncementBlock packages packagesSelected packagePattern packageIndex'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'SUnit-UI'

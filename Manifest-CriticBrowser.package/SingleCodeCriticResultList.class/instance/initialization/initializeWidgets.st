@@ -1,9 +1,8 @@
 initializeWidgets
-	self instantiateModels: #(
-		criticsModel IconListModel
-		sourceCodeModel TextModel 
-		toolbarModel CriticToolbar
-		textInputFieldModel TextInputFieldModel ).
+	criticsModel := self newIconList.
+	sourceCodeModel := self newText.
+	toolbarModel := self instantiate: CriticToolbar.
+	textInputFieldModel := self newTextInput.
 
 	criticsModel beMultipleSelection.
 	self initializeTextInputFieldModel.

@@ -1,4 +1,4 @@
-findCategories
+findPackages
 	| visible |
 	visible := Set new.
 	self baseClass withAllSubclassesDo: [ :each |
@@ -7,5 +7,5 @@ findCategories
 	^ Array streamContents: [ :stream |
 		Smalltalk organization categories do: [ :each |
 			((visible includes: each) 
-					and: [ categoryPattern isNil or: [ (categoryPattern matchesIn: each) isEmpty not]])
+					and: [ packagePattern isNil or: [ (packagePattern matchesIn: each) isEmpty not]])
 				ifTrue: [ stream nextPut: each ] ] ].

@@ -1,11 +1,10 @@
 initializeWidgets
 
-	self instantiateModels: #(
-		addButtonModel ButtonModel
-		addAllButtonModel ButtonModel 
-		removeButtonModel ButtonModel
-		removeAllButtonModel ButtonModel
-		nextButtonModel ButtonModel ).
+	addButtonModel := self newButton.
+	addAllButtonModel := self newButton. 
+	removeButtonModel := self newButton.
+	removeAllButtonModel := self newButton.
+	nextButtonModel := self newButton.
 		
 	self setFocusOrder.
 

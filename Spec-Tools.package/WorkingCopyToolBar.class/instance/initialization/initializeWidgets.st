@@ -1,9 +1,8 @@
 initializeWidgets
 
-	self instantiateModels: #(
-		browseButton  ButtonModel
-		configButton  ButtonModel
-		packageButton ButtonModel ).
+	browseButton := self newButton.
+	configButton := self newButton.
+	packageButton := self newButton.
 		
 	self setBrowseButton.
 	self setConfigButton.

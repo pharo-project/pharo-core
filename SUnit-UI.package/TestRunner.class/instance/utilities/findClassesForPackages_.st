@@ -1,4 +1,4 @@
-findClassesForCategories: aCollection
+findClassesForPackages: aCollection
 	| items |
 	aCollection isEmpty
 		ifTrue: [ ^ self baseClass withAllSubclasses asSet ].

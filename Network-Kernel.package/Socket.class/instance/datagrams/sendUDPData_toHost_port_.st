@@ -4,7 +4,7 @@ sendUDPData: aStringOrByteArray toHost: hostAddress port: portNumber
 
 	bytesToSend := aStringOrByteArray size.
 	bytesSent := 0.
-	[bytesSent < bytesToSend] whileTrue: [
+	[
 		(self waitForSendDoneFor: 20)
 			ifFalse: [ConnectionTimedOut signal: 'send data timeout; data not sent'].
 		count := self primSocket: socketHandle
@@ -13,6 +13,7 @@ sendUDPData: aStringOrByteArray toHost: hostAddress port: portNumber
 			port: portNumber
 			startIndex: bytesSent + 1
 			count: bytesToSend - bytesSent.
-		bytesSent := bytesSent + count].
+		bytesSent := bytesSent + count.
+		bytesSent < bytesToSend] whileTrue.
 
 	^ bytesSent

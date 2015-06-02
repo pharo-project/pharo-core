@@ -1,9 +1,8 @@
 initializeWidgets
 
-	self instantiateModels: #(
-		resetModel ButtonModel
-		currentConfigurationModel ButtonModel 
-		 ).
+	resetModel := self newButton.
+	currentConfigurationModel := self newButton.
+
 	self setFocusOrder.
 	self setResetModel. 
 	self setCurrentConfigurationModel. 

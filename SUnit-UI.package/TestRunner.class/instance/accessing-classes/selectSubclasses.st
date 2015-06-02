@@ -3,7 +3,7 @@ selectSubclasses
 	selection invalidation has been optimised."
 	
 	| classesForPackages |
-	classesForPackages := self findClassesForCategories: categoriesSelected.	
+	classesForPackages := self findClassesForPackages: packagesSelected.	
 	classesSelected := (classesSelected gather: [ :class |
 		class withAllSubclasses select: [ :each |
 			classesForPackages includes: each ] ])

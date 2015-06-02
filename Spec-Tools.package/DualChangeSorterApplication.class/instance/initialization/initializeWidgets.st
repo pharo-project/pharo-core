@@ -1,8 +1,7 @@
 initializeWidgets
 
-	self instantiateModels: #(
-		changeSorterLeft  ChangeSorterApplication
-		changeSorterRight  ChangeSorterApplication ).
+	changeSorterLeft := self instantiate: ChangeSorterApplication.
+	changeSorterRight := self instantiate: ChangeSorterApplication.
 		
 	self menusRegistration.
 	self shortcutsRegistration.

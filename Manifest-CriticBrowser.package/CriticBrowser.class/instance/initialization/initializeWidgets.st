@@ -2,10 +2,9 @@ initializeWidgets
 	
 	title := 'Critic Browser'.
 
-	self instantiateModels: #(
-		rulesModel TreeModel
-		resetButton  ButtonModel 
-		logButton ButtonModel ).
+	rulesModel := self newTree.
+	resetButton := self newButton.
+	logButton := self newButton.
 	
 	self setLogButton.
 	self setResetButton.

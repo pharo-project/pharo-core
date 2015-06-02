@@ -1,9 +1,8 @@
 initializeWidgets
 
-	self instantiateModels: #(
-		listModel 		MultiColumnListModel
-		textModel 		TextModel
-		toolbarModel 	MethodToolbar ).
+	listModel := self newMultiColumnList.
+	textModel := self newText.
+	toolbarModel := self instantiate: MethodToolbar.
 	
 	listModel displayBlock: [ :item | self wrapItem: item ].
 	textModel aboutToStyle: true.

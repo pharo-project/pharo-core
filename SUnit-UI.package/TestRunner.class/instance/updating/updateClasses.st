@@ -1,6 +1,6 @@
 updateClasses
 	| classesForCategories |
-	classesForCategories := self findClassesForCategories: categoriesSelected.
+	classesForCategories := self findClassesForPackages: packagesSelected.
 	
 	classPattern ifNotNil: [
 		classesForCategories := classesForCategories reject: [:cls| (classPattern matchesIn: cls name) isEmpty ]].

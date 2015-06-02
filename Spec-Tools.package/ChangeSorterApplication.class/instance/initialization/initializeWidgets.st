@@ -1,12 +1,11 @@
 initializeWidgets
 
-	self instantiateModels: #(
-		methodsListModel NewListModel
-		classesListModel NewListModel
-		changesListModel NewListModel
-		prettyButton CheckBoxModel
-		diffButton CheckBoxModel
-		textModel TextModel ).
+	methodsListModel := self instantiate: NewListModel.
+	classesListModel := self instantiate: NewListModel.
+	changesListModel := self instantiate: NewListModel.
+	prettyButton := self newCheckBox.
+	diffButton := self newCheckBox.
+	textModel := self newText.
 	 
 	self setFocus.
 	

@@ -1,7 +1,7 @@
-buildCategorySearch
+buildPackageSearch
 
 	^ SearchMorph new
 		model: self;
-		updateSelector: #categorySearchUpdate:;
+		updateSelector: #packageSearchUpdate:;
 		ghostText: 'PackageA|PackageB';
 		yourself

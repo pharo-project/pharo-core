@@ -4,8 +4,8 @@ build
 	| window |
 	window := (SystemWindow labelled: self label) model: self; extent: self extent.
 	
-	window addMorph: self buildCategorySearch fullFrame: self categorySearchFrame.
-	window addMorph: self buildCategories fullFrame: self categoriesFrame.
+	window addMorph: self buildPackageSearch fullFrame: self packageSearchFrame.
+	window addMorph: self buildPackages fullFrame: self packagesFrame.
 	
 	window addMorph: self buildClassesSearch fullFrame: self classesSearchFrame.
 	window addMorph: self buildClasses fullFrame: self classesFrame.
