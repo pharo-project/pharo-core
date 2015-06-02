@@ -6,8 +6,6 @@ buildShortcutsOn: aBuilder
 	We list both variations explicitly because we want to be able to see the action code when inspecting the morph.
 	"
 	<keymap>
-
-	
 	(aBuilder shortcut: #browseIt) 
 		category: RubSmalltalkEditor name
 		default: $b ctrl

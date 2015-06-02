@@ -1,9 +1,8 @@
 buildCodePanelWithCommentOnRight
-	| splitter delta commentWidget |
+	| splitter delta  |
 	
 	splitter := ProportionalSplitterMorph new.
 	delta := 2.
-	commentWidget := self buildNewCommentText.
 	splitter addLeftOrTop: self sourceTextArea.
 	splitter addRightOrBottom: commentWidget.
 

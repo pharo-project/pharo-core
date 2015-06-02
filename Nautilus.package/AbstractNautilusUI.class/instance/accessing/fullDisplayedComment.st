@@ -1,0 +1,2 @@
+fullDisplayedComment
+	^ fullDisplayedComment

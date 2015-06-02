@@ -18,5 +18,5 @@ updateOnClassSelection
 		ifNil: [ self buildNewCommentText ]
 		ifNotNil: [ :class |
 				class hasComment 
-					ifTrue: [self updateCommentWith: class comment ]
-					ifFalse: [ self updateCommentWith: class classCommentBlank ] ]
+					ifTrue: [ self classCommentTextModel setInitialText: class comment ]
+					ifFalse: [  self classCommentTextModel setInitialText: class classCommentBlank ] ]

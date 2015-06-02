@@ -6,3 +6,4 @@ initialize
 	contentSelection := nil.
 	acceptor := ClassDefinitionAcceptor model: self.
 	classifier := MethodClassifier new. 
+	fullDisplayedComment := false

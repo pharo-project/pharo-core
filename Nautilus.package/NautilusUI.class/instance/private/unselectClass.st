@@ -1,5 +1,4 @@
 unselectClass
-	commentTextArea ifNotNil: [ commentTextArea disable ].
 	acceptor := ClassDefinitionAcceptor model: self.
 	self resetClassesListSelection.
 	self model

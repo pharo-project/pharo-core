@@ -9,9 +9,6 @@ buildCommentButton
 		
 	self setShortcuts: #NautilusCommentShortcuts to: button.
 	button submorphs first
-		on: #doubleClick
-		send: #toggleShowFullComment
-		to: self;
 		on: #mouseDown
 		send: #mouseDown:
 		to: button;

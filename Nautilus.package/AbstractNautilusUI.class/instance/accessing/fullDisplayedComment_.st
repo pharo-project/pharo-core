@@ -1,0 +1,2 @@
+fullDisplayedComment: anObject
+	fullDisplayedComment := anObject

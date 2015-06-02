@@ -1,11 +1,12 @@
 buildNewCommentText
-
 	| scrolledText |
-	scrolledText := self newCommentTextModel 
-		newScrolledText
+	scrolledText := self classCommentTextModel newScrolledText
 		beForPlainText;
+		withCommentAnnotation;
 		beWrapped;
 		yourself.
- 	self updateCommentWith: self getComments.
-	newCommentTextModel announcer subscribe: RubTextUpdatedInModel send: #whenTextUpdatedInCommentPane: to: self.
+	self classCommentTextModel setInitialText: self getComments.
+	classCommentTextModel announcer weak
+		subscribe: NautilusExtendCommentSwitch send: #whenExtendCommentSwitch: to: self;
+		subscribe: RubTextUpdatedInModel send: #whenTextUpdatedInCommentPane: to: self.
 	^ scrolledText
