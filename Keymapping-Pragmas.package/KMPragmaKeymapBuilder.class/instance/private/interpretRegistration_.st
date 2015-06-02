@@ -1,6 +1,6 @@
 interpretRegistration: aRegistration
 	
-	aRegistration items do: [:item || node |
+	aRegistration handOutItems do: [:item || node |
 		node := KMKeymapBuilder 
 					for: item shortcut
 					platform: item platform.

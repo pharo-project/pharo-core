@@ -1,2 +1,2 @@
 keyTextExpanded
-	^ ToggleMenuItemShortcut expand: self keyText
+	^ ToggleMenuItemShortcut normalize: self keyText

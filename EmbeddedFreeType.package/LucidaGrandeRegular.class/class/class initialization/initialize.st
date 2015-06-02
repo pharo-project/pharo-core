@@ -1,2 +1,3 @@
 initialize 
-	EmbeddedFreeTypeFontInstaller registerFont: self
+	self canBeInstalled 
+		ifTrue: [ EmbeddedFreeTypeFontInstaller registerFont: self ]

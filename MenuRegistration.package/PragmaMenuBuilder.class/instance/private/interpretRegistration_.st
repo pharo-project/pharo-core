@@ -1,7 +1,7 @@
 interpretRegistration: aRegistration 
 	| root |
 	root := MenuRegistration owner: self.
-	aRegistration items do: [:item || node |
+	aRegistration handOutItems do: [:item || node |
 			node := item group
 					ifNil: [ root item: item item ]
 					ifNotNil: [:grp | root group: grp ].

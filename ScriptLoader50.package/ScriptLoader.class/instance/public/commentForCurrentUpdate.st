@@ -1,18 +1,9 @@
 commentForCurrentUpdate
- ^ '15529 add Character space to the special km single Keycombination class
-	https://pharo.fogbugz.com/f/cases/15529
+ ^ '15666 Class rename does not update references in class-side methods
+	https://pharo.fogbugz.com/f/cases/15666
 
-15657 Empty UDP packets are not sent
-	https://pharo.fogbugz.com/f/cases/15657
+15659 LucidaGrande font should be installed just in Macs
+	https://pharo.fogbugz.com/f/cases/15659
 
-15665 Remove ComposableModel>>#instantiateModels:s senders in Manifest-CriticBrowser
-	https://pharo.fogbugz.com/f/cases/15665
-
-15629 Remove ComposableModel>>#instantiateModels:s senders in HudsonBuildTools20
-	https://pharo.fogbugz.com/f/cases/15629
-
-15650 Remove ComposableModel>>#instantiateModels:s senders in Spec-Tools
-	https://pharo.fogbugz.com/f/cases/15650
-
-15634 TestRunner refers to categories and should use packages instead
-	https://pharo.fogbugz.com/f/cases/15634'
+15535 break circular reference for keymappings
+	https://pharo.fogbugz.com/f/cases/15535'

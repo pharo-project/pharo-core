@@ -1,4 +1,4 @@
-script50081
+script50082
 
 	^ 'AST-Core-TheIntegrator.300.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -45,7 +45,7 @@ DebuggerActions-MarcusDenker.74.mcz
 DebuggerFilters-TheIntegrator.9.mcz
 DebuggerModel-TheIntegrator.112.mcz
 Deprecated50-TheIntegrator.7.mcz
-EmbeddedFreeType-TheIntegrator.18.mcz
+EmbeddedFreeType-TheIntegrator.21.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-MarcusDenker.32.mcz
 FileSystem-Core-TheIntegrator.180.mcz
@@ -118,7 +118,7 @@ Kernel-TheIntegrator.2041.mcz
 KernelTests-TheIntegrator.776.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.50.mcz
-Keymapping-Pragmas-TheIntegrator.50.mcz
+Keymapping-Pragmas-TheIntegrator.52.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.94.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
@@ -127,7 +127,7 @@ Manifest-Core-TheIntegrator.217.mcz
 Manifest-CriticBrowser-TheIntegrator.181.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.49.mcz
-MenuRegistration-TheIntegrator.74.mcz
+MenuRegistration-TheIntegrator.76.mcz
 MessageBrowserRefactoringAddition-StephaneDucasse.2.mcz
 Metacello-Base-EstebanLorenzano.114.mcz
 Metacello-Core-MarcusDenker.722.mcz
@@ -154,7 +154,7 @@ MonticelloFileTree-Core-TheIntegrator.182.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
 MonticelloGUI-TheIntegrator.352.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
-Morphic-Base-TheIntegrator.458.mcz
+Morphic-Base-TheIntegrator.460.mcz
 Morphic-Core-TheIntegrator.176.mcz
 Morphic-Examples-TheIntegrator.40.mcz
 Morphic-Widgets-Basic-TheIntegrator.41.mcz
@@ -217,7 +217,7 @@ RPackage-SystemIntegration-TheIntegrator.234.mcz
 RPackage-Tests-StephaneDucasse.169.mcz
 RecentSubmissions-StephaneDucasse.233.mcz
 Refactoring-Changes-TheIntegrator.65.mcz
-Refactoring-Core-TheIntegrator.272.mcz
+Refactoring-Core-TheIntegrator.274.mcz
 Refactoring-Critics-TheIntegrator.173.mcz
 Refactoring-Environment-TheIntegrator.54.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
