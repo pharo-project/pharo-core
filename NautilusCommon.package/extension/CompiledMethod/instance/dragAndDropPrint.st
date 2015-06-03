@@ -1,3 +1,0 @@
-dragAndDropPrint
-
-	^ self printString

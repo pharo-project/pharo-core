@@ -1,3 +1,5 @@
 isActionHandled
 
-	^ method isExampleMethod 
+	^  (method methodClass isMeta) and: [ 
+		(method selector beginsWith: 'example')
+			 and: [ method numArgs isZero ] ] 

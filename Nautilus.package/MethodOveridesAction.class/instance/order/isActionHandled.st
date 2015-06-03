@@ -1,5 +1,5 @@
 isActionHandled
 
-	isOverridden := method isOverridden.
-	isOverride := method isOverride.
+	isOverridden := self isOverridden.
+	isOverride := self isOverride.
 	^ isOverridden or: [ isOverride ]

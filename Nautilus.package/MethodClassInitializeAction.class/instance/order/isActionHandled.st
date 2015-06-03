@@ -1,3 +1,4 @@
 isActionHandled
 
-	^ method isClassInitializeMethod 
+	^ (method methodClass isMeta) and: [ 
+		method selector = #initialize ] 

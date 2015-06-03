@@ -9,5 +9,5 @@ initializeCache
 			instance classIconFor: cls.
 			cls methodDict 
 				do: [:m | instance methodWidget methodIconFor: m ]
-				displayingProgress: [:m | 'Filing up cache for ', m dragAndDropPrint ]]
+				displayingProgress: [:m | 'Filing up cache for ', m printString ]]
 		displayingProgress: [:cls | 'Filing up cache for ', cls name ]

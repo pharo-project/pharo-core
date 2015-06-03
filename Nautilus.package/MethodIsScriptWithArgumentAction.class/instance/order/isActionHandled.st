@@ -1,0 +1,3 @@
+isActionHandled
+
+	^ self isScriptMethodWithScript

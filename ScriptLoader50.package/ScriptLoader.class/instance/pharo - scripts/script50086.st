@@ -1,4 +1,4 @@
-script50085
+script50086
 
 	^ 'AST-Core-TheIntegrator.300.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -114,7 +114,7 @@ HudsonBuildTools20-TheIntegrator.68.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-EstebanLorenzano.4.mcz
-Kernel-TheIntegrator.2043.mcz
+Kernel-TheIntegrator.2045.mcz
 KernelTests-TheIntegrator.776.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.50.mcz
@@ -184,9 +184,9 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.92.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-TheIntegrator.936.mcz
+Nautilus-TheIntegrator.939.mcz
 Nautilus-Tests-StephaneDucasse.16.mcz
-NautilusCommon-TheIntegrator.262.mcz
+NautilusCommon-TheIntegrator.264.mcz
 NautilusRefactoring-TheIntegrator.220.mcz
 Network-Kernel-TheIntegrator.117.mcz
 Network-MIME-MarcusDenker.69.mcz
@@ -266,7 +266,7 @@ Spec-Layout-TheIntegrator.67.mcz
 Spec-MorphicAdapters-TheIntegrator.209.mcz
 Spec-PolyWidgets-TheIntegrator.57.mcz
 Spec-Tests-TheIntegrator.47.mcz
-Spec-Tools-TheIntegrator.265.mcz
+Spec-Tools-TheIntegrator.268.mcz
 StartupPreferences-TheIntegrator.133.mcz
 System-Announcements-TheIntegrator.98.mcz
 System-Caching-TheIntegrator.26.mcz
