@@ -3,7 +3,7 @@ subclass: aSubclassSymbol uses: aTraitCompositionOrArray slots: slotDefinition c
 		subclass: aSubclassSymbol
 		uses: aTraitCompositionOrArray
 		with: [ 
-			PharoClassInstaller
+			self classInstaller
 				make: [ :builder | 
 					builder
 						name: aSubclassSymbol;

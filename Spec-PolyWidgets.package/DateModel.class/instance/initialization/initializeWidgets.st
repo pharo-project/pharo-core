@@ -1,10 +1,9 @@
 initializeWidgets
 
-	self instantiateModels: #(
-		dateLabel LabelModel
-		dateModel TextInputFieldModel
-		chooseDateButton ButtonModel).
-	
+	dateLabel := self newLabel.
+	dateModel := self newTextInput.
+	chooseDateButton := self newButton.
+		
 	dateLabel
 		label: 'Date'.
 		

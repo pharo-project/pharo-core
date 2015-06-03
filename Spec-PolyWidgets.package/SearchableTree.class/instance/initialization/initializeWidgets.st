@@ -1,10 +1,9 @@
 initializeWidgets
 
-	self instantiateModels: #(
-		tree 		TreeModel
-		inputField	TextInputFieldModel
-		label 		LabelModel
-		button 		ButtonModel).
+	tree := self newTree.
+	inputField := self newTextInput.
+	label := self newLabel.
+	button := self newButton.
 			
 	tree rootNodeHolder: [ :item | 
 		(tree defaultNodeFor: item)

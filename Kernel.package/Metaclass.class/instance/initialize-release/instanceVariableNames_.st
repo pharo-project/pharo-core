@@ -3,7 +3,7 @@ instanceVariableNames: instVarString
 	| theClass |
 	theClass := self theNonMetaClass.
 	
-	theClass := PharoClassInstaller make: [ :builder |
+	theClass := theClass classInstaller make: [ :builder |
 		builder
 			superclass: theClass superclass;
 			name: theClass name;

@@ -1,5 +1,5 @@
 addSlot: aSlot
-	^PharoClassInstaller make: [ :builder |
+	^self classInstaller make: [ :builder |
 		builder
 			superclass: self superclass;
 			name: self name;

@@ -1,8 +1,8 @@
 initializeWidgets
 
-	self instantiateModels: #(	
-		listModel 		#ListModel
-		searchModel 	TextInputFieldModel ).
+	listModel := self newList.
+	searchModel 	:= self newTextInput.
+		
 	searchModel 
 		autoAccept: true;
 		ghostText: 'filter'.

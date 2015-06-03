@@ -1,12 +1,12 @@
 initializeWidgets
-	self instantiateModels: #(
-		list NewListModel
-		addButton ButtonModel
-		removeButton ButtonModel
-		upButton ButtonModel 
-		downButton ButtonModel
-		topButton ButtonModel
-		bottomButton ButtonModel ).
+
+	list := self instantiate: NewListModel.
+	addButton := self newButton.
+	removeButton := self newButton.
+	upButton := self newButton.
+	downButton := self newButton.
+	topButton := self newButton.
+	bottomButton := self newButton.
 
 	addButton
 		icon: (Smalltalk ui icons iconNamed: #addIcon);

@@ -1,5 +1,5 @@
 initializeWidgets
 	
-	self instantiateModels: #( listModel #ListModel ).
+	listModel := self newList.
 	listModel displayBlock: [ :item | item ].
 	self focusOrder add: listModel

@@ -1,4 +1,4 @@
-script50086
+script50087
 
 	^ 'AST-Core-TheIntegrator.300.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -114,7 +114,7 @@ HudsonBuildTools20-TheIntegrator.68.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-EstebanLorenzano.4.mcz
-Kernel-TheIntegrator.2045.mcz
+Kernel-TheIntegrator.2047.mcz
 KernelTests-TheIntegrator.776.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.50.mcz
@@ -239,7 +239,7 @@ Ring-Tests-Monticello-MarcusDenker.19.mcz
 Rubric-TheIntegrator.215.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
-SUnit-Core-TheIntegrator.143.mcz
+SUnit-Core-TheIntegrator.145.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Tests-TheIntegrator.48.mcz
 SUnit-UI-TheIntegrator.119.mcz
@@ -253,18 +253,18 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.250.mcz
 ShoutTests-TheIntegrator.27.mcz
-Slot-TheIntegrator.626.mcz
+Slot-TheIntegrator.628.mcz
 Slot-Tests-TheIntegrator.39.mcz
 SmartSuggestions-TheIntegrator.157.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
 Spec-Core-TheIntegrator.393.mcz
-Spec-Debugger-TheIntegrator.238.mcz
+Spec-Debugger-TheIntegrator.240.mcz
 Spec-Examples-TheIntegrator.94.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.240.mcz
 Spec-Layout-TheIntegrator.67.mcz
 Spec-MorphicAdapters-TheIntegrator.209.mcz
-Spec-PolyWidgets-TheIntegrator.57.mcz
+Spec-PolyWidgets-TheIntegrator.59.mcz
 Spec-Tests-TheIntegrator.47.mcz
 Spec-Tools-TheIntegrator.268.mcz
 StartupPreferences-TheIntegrator.133.mcz
@@ -316,7 +316,7 @@ Tool-TxWorkspace-TorstenBergmann.5.mcz
 Tool-Workspace-TheIntegrator.24.mcz
 Tools-TheIntegrator.1503.mcz
 ToolsTest-MarcusDenker.denker.71.mcz
-Traits-TheIntegrator.775.mcz
+Traits-TheIntegrator.777.mcz
 Transcript-TheIntegrator.34.mcz
 TxText-Athens-SeanDeNigris.50.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

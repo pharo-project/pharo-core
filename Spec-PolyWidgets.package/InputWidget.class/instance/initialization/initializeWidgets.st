@@ -1,8 +1,7 @@
 initializeWidgets
 
-	self instantiateModels: #(
-		input 	TextInputFieldModel
-		label	LabelModel ).
+	input 	:= self newTextInput.
+	label	:= self newLabel.
 			
 	input
 		ghostText: 'input';

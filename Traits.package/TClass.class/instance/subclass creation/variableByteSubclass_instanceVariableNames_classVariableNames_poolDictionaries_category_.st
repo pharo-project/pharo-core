@@ -11,7 +11,7 @@ variableByteSubclass: t instanceVariableNames: f
 					ifTrue: [#compiledMethod]
 					ifFalse: [#bytes].
 					
-	^ PharoClassInstaller make: [ :builder |
+	^ self classInstaller make: [ :builder |
 		builder
 			superclass: self;
 			name: t;

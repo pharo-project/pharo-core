@@ -8,7 +8,7 @@ sharing: poolString
 		self sharedPools add: (self environment at: poolName asSymbol ifAbsent:[
 			(self confirm: 'The pool dictionary ', poolName,' does not exist.',
 						'\Do you want it automatically created?' withCRs)
-				ifTrue: [ PharoClassInstaller make: [ :builder | 
+				ifTrue: [ self classInstaller make: [ :builder | 
 							builder superclass: SharedPool;
 							name: poolName;
 							category: self category ]]

@@ -3,7 +3,7 @@ variableSubclass: t instanceVariableNames: f classVariableNames: d poolDictionar
 	subclass of an existing class (the receiver) in which the subclass is to 
 	have indexable pointer variables."
 		
-	^ PharoClassInstaller make: [ :builder |
+	^ self classInstaller make: [ :builder |
 		builder
 			superclass: self;
 			name: t;

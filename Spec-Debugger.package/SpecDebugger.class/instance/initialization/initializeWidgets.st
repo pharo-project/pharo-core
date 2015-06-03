@@ -1,11 +1,10 @@
 initializeWidgets
-	self
-		instantiateModels:
-			{(#stack -> #SpecDebuggerStack).
-			(#toolbar -> #SpecDebuggerDynamicToolbar).
-			(#code -> #TextModel).
-			(#receiverInspector -> #InspectorNavigator).
-			(#contextInspector -> #EyeDebuggerContextInspector)}.
+	
+	stack := self instantiate: SpecDebuggerStack.
+	toolbar := self instantiate: SpecDebuggerDynamicToolbar.
+	code := self newText.
+	receiverInspector := self instantiate: InspectorNavigator.
+	contextInspector := self instantiate: EyeDebuggerContextInspector.
 	
 	self code acceptBlock: [ :text :notifyer |
 		self 
