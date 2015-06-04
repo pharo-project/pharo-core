@@ -1,2 +1,2 @@
-category 	
+group
 	^ 'Coding Idiom Violation'

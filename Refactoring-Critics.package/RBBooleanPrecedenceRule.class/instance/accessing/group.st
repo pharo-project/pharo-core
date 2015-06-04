@@ -1,2 +1,2 @@
 group
-	^ 'Bugs'
+	^ 'Potential Bugs'

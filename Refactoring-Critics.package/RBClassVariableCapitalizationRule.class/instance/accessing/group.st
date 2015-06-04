@@ -1,2 +1,2 @@
 group
-	^ 'Intention revealing'
+	^ 'Style'

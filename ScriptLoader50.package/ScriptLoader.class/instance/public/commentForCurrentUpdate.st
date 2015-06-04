@@ -1,3 +1,5 @@
 commentForCurrentUpdate
- ^ '15646
-Cleaning method category api should be protocol (part 1)'
+ ^ '15664 Merge category method into group in RBRule 
+	https://pharo.fogbugz.com/f/cases/15664
+
+'

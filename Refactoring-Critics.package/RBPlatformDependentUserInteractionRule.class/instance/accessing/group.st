@@ -1,2 +1,2 @@
 group
-	^ 'Pharo bugs'
+	^ 'Potential Bugs'

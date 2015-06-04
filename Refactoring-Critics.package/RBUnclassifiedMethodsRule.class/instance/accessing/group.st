@@ -1,2 +1,2 @@
 group
-	^ 'Miscellaneous'
+	^ 'Style'

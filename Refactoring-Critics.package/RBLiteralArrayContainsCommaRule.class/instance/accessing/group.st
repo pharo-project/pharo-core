@@ -1,2 +1,2 @@
 group
-	^ 'Possible bugs'
+	^ 'Coding Idiom Violation'

@@ -1,3 +1,2 @@
 group
-
-	^ 'Intention revealing'
+	^ 'Design Flaws'

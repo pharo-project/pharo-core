@@ -1,3 +1,4 @@
 category
 	"Bugs, Potential Bugs, Design Flaws, Coding Idiom Violation, Optinization, Style "
-	^ 'Unclassified rules'
+	self deprecated: 'Use group.'. 
+	^ self group

@@ -1,4 +1,4 @@
-script50088
+script50089
 
 	^ 'AST-Core-TheIntegrator.300.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -123,7 +123,7 @@ Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.94.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
 Komitter-StephaneDucasse.128.mcz
-Manifest-Core-TheIntegrator.217.mcz
+Manifest-Core-StephaneDucasse.219.mcz
 Manifest-CriticBrowser-TheIntegrator.181.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.49.mcz
@@ -218,7 +218,7 @@ RPackage-Tests-StephaneDucasse.169.mcz
 RecentSubmissions-StephaneDucasse.233.mcz
 Refactoring-Changes-TheIntegrator.65.mcz
 Refactoring-Core-TheIntegrator.274.mcz
-Refactoring-Critics-TheIntegrator.173.mcz
+Refactoring-Critics-StephaneDucasse.175.mcz
 Refactoring-Environment-TheIntegrator.54.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.127.mcz
