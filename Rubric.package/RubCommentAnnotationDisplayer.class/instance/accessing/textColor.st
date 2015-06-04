@@ -1,2 +1,2 @@
 textColor
-	^ self textArea lineNumbersTextColor muchDarker
+	^ self paragraphProvider textColor

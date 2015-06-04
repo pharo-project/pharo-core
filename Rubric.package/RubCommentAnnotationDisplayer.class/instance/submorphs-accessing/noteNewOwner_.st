@@ -6,7 +6,7 @@ noteNewOwner: aMorph
 	lineAnnotation backgroundColor: Color transparent.
 	lineAnnotation font: self fontToUse.
 	lineAnnotation beReadOnly.
-	lineAnnotation textColor: self textColor.
+	lineAnnotation textColor: self theme textColor.
 	wrappingPolicyMorph := self wrappingPolicyLabelMorph.
 	lineNumbersDisplayMorph := self lineNumbersDisplayLabelMorph.
 	extendCommentPolicyMorph := self extendCommentPolicyMorph.

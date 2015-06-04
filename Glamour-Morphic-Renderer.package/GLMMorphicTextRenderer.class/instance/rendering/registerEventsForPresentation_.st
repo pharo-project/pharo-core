@@ -1,5 +1,4 @@
 registerEventsForPresentation: aPresentation
-	
-	aPresentation on: GLMPresentationUpdated send: #actOnPresentationUpdated: to: self.
-	aPresentation on: GLMContextChanged send: #actOnContextChanged: to: self.
-	aPresentation on: GLMSelectCurrentLine send: #selectLine to: self.
+	aPresentation when: GLMPresentationUpdated send: #actOnPresentationUpdated: to: self.
+	aPresentation when: GLMContextChanged send: #actOnContextChanged: to: self.
+	aPresentation when: GLMSelectCurrentLine send: #selectLine to: self

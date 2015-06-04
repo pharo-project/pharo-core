@@ -1,5 +1,5 @@
-Announcement subclass: #GTSpotterAllCandidatesAdded
-	instanceVariableNames: 'candidateLinks category'
+GTSpotterAnnouncement subclass: #GTSpotterAllCandidatesAdded
+	instanceVariableNames: 'candidateLinks'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-Spotter-Announcements'

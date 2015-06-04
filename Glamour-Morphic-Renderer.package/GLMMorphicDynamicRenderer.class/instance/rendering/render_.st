@@ -3,5 +3,5 @@ render: aPresentation
 	container 
 		addMorph: (self renderObject: aPresentation currentPresentation) 
 		fullFrame: (LayoutFrame fractions: (0 @ 0 corner: 1 @ 1)).
-	aPresentation on: GLMPresentationUpdated send: #actOnPresentationUpdated: to: self.
+	aPresentation when: GLMPresentationUpdated send: #actOnPresentationUpdated: to: self.
 	^ container

@@ -1,0 +1,2 @@
+windowMenuForm
+	^self class windowMenuForm

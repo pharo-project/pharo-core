@@ -1,5 +1,4 @@
 registerEventsForPresentation: aPresentation
-
-	aPresentation on: GLMPresentationUpdated send: #actOnPresentationUpdated: to: self.
-	aPresentation on: GLMContextChanged send: #actOnContextChanged: to: self.
-	aPresentation on: GLMTextEditorRequest send: #actOnTextEditorRequest: to: self.
+	aPresentation when: GLMPresentationUpdated send: #actOnPresentationUpdated: to: self.
+	aPresentation when: GLMContextChanged send: #actOnContextChanged: to: self.
+	aPresentation when: GLMTextEditorRequest send: #actOnTextEditorRequest: to: self

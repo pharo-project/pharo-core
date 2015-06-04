@@ -2,6 +2,6 @@ registerEventsForPresentation: aPresentation
 
 	super registerEventsForPresentation: aPresentation.
 	
-	aPresentation on: GLMVariableBindingsChanged send: #actOnVariableBindingsUpdated: to: self.
-	aPresentation on: GLMVariableBindingsAccessRequest send: #actOnVariableBindingsAccessRequest: to: self.
+	aPresentation when: GLMVariableBindingsChanged send: #actOnVariableBindingsUpdated: to: self.
+	aPresentation when: GLMVariableBindingsAccessRequest send: #actOnVariableBindingsAccessRequest: to: self.
 	

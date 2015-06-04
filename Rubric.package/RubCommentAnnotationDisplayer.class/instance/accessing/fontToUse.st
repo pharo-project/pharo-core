@@ -1,2 +1,2 @@
 fontToUse
-	^ RubAbstractTextArea lineNumbersFont 
+	^ UITheme new textFont

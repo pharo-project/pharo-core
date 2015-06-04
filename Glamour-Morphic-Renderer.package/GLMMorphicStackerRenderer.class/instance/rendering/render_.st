@@ -16,5 +16,5 @@ render: aBrowser
 				label: (self titleOrIconOf: each presentations in: tabs)
 				toolbar: (self renderToolbarForPresentation: each presentations inMorph: tabs) ].
 	tabs selectedPageIndex: 1.
-	aBrowser on: GLMBrowserClosed send: #actOnBrowserClosed: to: self.
+	aBrowser when: GLMBrowserClosed send: #actOnBrowserClosed: to: self.
 	^ tabs
