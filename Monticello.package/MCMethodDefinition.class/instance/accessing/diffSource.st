@@ -1,3 +1,3 @@
 diffSource
-	^'"protocol: ', self category,'"
+	^'"protocol: ', self protocol,'"
 ', self source.

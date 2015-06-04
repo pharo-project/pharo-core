@@ -1,9 +1,3 @@
 commentForCurrentUpdate
- ^ '15684 reduce direct references to PharoClassInstaller
-	https://pharo.fogbugz.com/f/cases/15684
-
-15677 Remove ComposableModel>>#instantiateModels:s senders in Spec-Debugger
-	https://pharo.fogbugz.com/f/cases/15677
-
-15673 Remove ComposableModel>>#instantiateModels:s senders in Spec-PolyWidgets
-	https://pharo.fogbugz.com/f/cases/15673'
+ ^ '15646
+Cleaning method category api should be protocol (part 1)'

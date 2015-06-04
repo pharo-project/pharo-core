@@ -1,4 +1,4 @@
-script50087
+script50088
 
 	^ 'AST-Core-TheIntegrator.300.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -41,7 +41,7 @@ CompressionTests-TheIntegrator.29.mcz
 ConfigurationCommandLineHandler-Core-TheIntegrator.27.mcz
 ConfigurationCommandLineHandler-Tests-MarcusDenker.11.mcz
 Debugger-Tests-TheIntegrator.2.mcz
-DebuggerActions-MarcusDenker.74.mcz
+DebuggerActions-StephaneDucasse.76.mcz
 DebuggerFilters-TheIntegrator.9.mcz
 DebuggerModel-TheIntegrator.112.mcz
 Deprecated50-TheIntegrator.7.mcz
@@ -114,7 +114,7 @@ HudsonBuildTools20-TheIntegrator.68.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-EstebanLorenzano.4.mcz
-Kernel-TheIntegrator.2047.mcz
+Kernel-StephaneDucasse.2048.mcz
 KernelTests-TheIntegrator.776.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.50.mcz
@@ -122,7 +122,7 @@ Keymapping-Pragmas-TheIntegrator.52.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.94.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
-Komitter-TheIntegrator.126.mcz
+Komitter-StephaneDucasse.128.mcz
 Manifest-Core-TheIntegrator.217.mcz
 Manifest-CriticBrowser-TheIntegrator.181.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
@@ -147,7 +147,7 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-StephaneDucasse.1018.mcz
+Monticello-StephaneDucasse.1020.mcz
 Monticello-Tests-TheIntegrator.8.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.182.mcz
@@ -201,7 +201,7 @@ NonInteractiveTranscript-TheIntegrator.17.mcz
 OSWindow-Core-TheIntegrator.20.mcz
 OSWindow-SDL2-EstebanLorenzano.19.mcz
 OSWindow-VM-IgorStasenko.2.mcz
-OpalCompiler-Core-TheIntegrator.663.mcz
+OpalCompiler-Core-StephaneDucasse.665.mcz
 OpalCompiler-Tests-StephaneDucasse.289.mcz
 OpalDecompiler-TheIntegrator.33.mcz
 OpalTools-TheIntegrator.16.mcz
@@ -231,8 +231,8 @@ Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
 ReleaseTests-TheIntegrator.15.mcz
 Ring-Core-Containers-TheIntegrator.41.mcz
-Ring-Core-Kernel-TheIntegrator.207.mcz
-Ring-Monticello-MarcusDenker.29.mcz
+Ring-Core-Kernel-StephaneDucasse.209.mcz
+Ring-Monticello-StephaneDucasse.31.mcz
 Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.83.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz

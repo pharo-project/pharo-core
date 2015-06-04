@@ -1,2 +1,2 @@
-category: anObject
+protocol: anObject
 	category := anObject

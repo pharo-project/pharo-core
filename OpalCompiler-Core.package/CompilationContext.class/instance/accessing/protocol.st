@@ -1,2 +1,2 @@
-category
+protocol
 	^ category

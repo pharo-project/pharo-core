@@ -3,14 +3,14 @@ removeSelector: aSelector fromClass: aClass
 	Be careful not to remove the selector when it has wandered
 	to another package, but remove the category if it is empty."
 
-	| newCategory |
-	newCategory := aClass organization categoryOfElement: aSelector.
-	newCategory
+	| newProtocol |
+	newProtocol := aClass organization categoryOfElement: aSelector.
+	newProtocol
 		ifNotNil: [ 
 			"If moved to and fro extension, ignore removal"
-			(category beginsWith: '*') = (newCategory beginsWith: '*')
+			(category beginsWith: '*') = (newProtocol beginsWith: '*')
 				ifFalse: [ ^ self ].	"Check if moved between different extension categories"
-			((category beginsWith: '*') and: [ category ~= newCategory ])
+			((category beginsWith: '*') and: [ category ~= newProtocol ])
 				ifTrue: [ ^ self ] ].
 	aClass removeSelector: aSelector.
 	aClass organization removeProtocolIfEmpty: category

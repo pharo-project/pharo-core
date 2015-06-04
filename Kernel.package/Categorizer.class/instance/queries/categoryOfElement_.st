@@ -3,6 +3,6 @@ categoryOfElement: element
 
 	| index |
 	index := self numberOfCategoryOfElement: element.
-	index = 0
-		ifTrue: [^nil]
-		ifFalse: [^categoryArray at: index]
+	^ index = 0
+		ifTrue: [ nil]
+		ifFalse: [ categoryArray at: index ]
