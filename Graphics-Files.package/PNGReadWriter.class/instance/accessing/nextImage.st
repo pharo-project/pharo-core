@@ -1,5 +1,5 @@
 nextImage
-	bigEndian := Smalltalk isBigEndian.
+	bigEndian := EndianDetector isBigEndian.
 	filtersSeen := Bag new.
 	idatChunkStream := nil.
 	transparentPixelValue := nil.

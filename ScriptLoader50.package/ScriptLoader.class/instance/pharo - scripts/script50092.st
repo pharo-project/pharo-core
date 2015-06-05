@@ -1,4 +1,4 @@
-script50091
+script50092
 
 	^ 'AST-Core-TheIntegrator.302.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -18,8 +18,8 @@ Athens-CairoPools-NicolaiHess.14.mcz
 Athens-Core-NicolaiHess.53.mcz
 Athens-Examples-TudorGirba.43.mcz
 Athens-Morphic-NicolaiHess.53.mcz
-Athens-Text-NicolaiHess.16.mcz
-Balloon-TheIntegrator.122.mcz
+Athens-Text-TheIntegrator.18.mcz
+Balloon-TheIntegrator.123.mcz
 BalloonTests-MarcusDenker.3.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
 CodeImport-GuillermoPolito.54.mcz
@@ -59,9 +59,9 @@ Files-TheIntegrator.373.mcz
 FontChooser-TheIntegrator.7.mcz
 FontInfrastructure-TheIntegrator.8.mcz
 FontInfrastructure-Tests-TheIntegrator.2.mcz
-FreeType-TheIntegrator.706.mcz
+FreeType-TheIntegrator.707.mcz
 FreeTypeTests-SvenVanCaekenberghe.5.mcz
-Fuel-TheIntegrator.805.mcz
+Fuel-TheIntegrator.807.mcz
 FuelCommandLineHandler-TheIntegrator.27.mcz
 FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-TheIntegrator.384.mcz
@@ -96,15 +96,15 @@ Glamour-Tests-Rubric-AndreiChis.14.mcz
 Gofer-Core-TheIntegrator.228.mcz
 Gofer-Tests-TheIntegrator.164.mcz
 Graphics-Canvas-TheIntegrator.2.mcz
-Graphics-Display Objects-TheIntegrator.159.mcz
-Graphics-Files-TheIntegrator.61.mcz
+Graphics-Display Objects-TheIntegrator.161.mcz
+Graphics-Files-TheIntegrator.62.mcz
 Graphics-Fonts-TheIntegrator.100.mcz
 Graphics-Fonts-Tests-EstebanLorenzano.3.mcz
-Graphics-Primitives-TheIntegrator.161.mcz
+Graphics-Primitives-TheIntegrator.163.mcz
 Graphics-Resources-TheIntegrator.24.mcz
 Graphics-Shapes-TheIntegrator.2.mcz
 Graphics-Tests-TheIntegrator.72.mcz
-Graphics-Transformations-TheIntegrator.12.mcz
+Graphics-Transformations-TheIntegrator.14.mcz
 GroupManager-TheIntegrator.74.mcz
 GroupManagerUI-TheIntegrator.40.mcz
 Growl-TheIntegrator.37.mcz
@@ -148,14 +148,14 @@ Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
 Monticello-TheIntegrator.1021.mcz
-Monticello-Tests-TheIntegrator.8.mcz
+Monticello-Tests-TheIntegrator.11.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.182.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
 MonticelloGUI-TheIntegrator.352.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 Morphic-Base-TheIntegrator.460.mcz
-Morphic-Core-TheIntegrator.176.mcz
+Morphic-Core-TheIntegrator.178.mcz
 Morphic-Examples-TheIntegrator.40.mcz
 Morphic-Widgets-Basic-TheIntegrator.41.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
@@ -289,7 +289,7 @@ System-Platforms-TheIntegrator.67.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-Settings-TheIntegrator.311.mcz
 System-Sound-StephaneDucasse.18.mcz
-System-Support-TheIntegrator.1108.mcz
+System-Support-TheIntegrator.1110.mcz
 System-VMEvents-TheIntegrator.2.mcz
 Tests-TheIntegrator.726.mcz
 Text-Core-TheIntegrator.35.mcz
@@ -300,7 +300,7 @@ Text-Scanning-TheIntegrator.26.mcz
 Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.81.mcz
 Tool-Browser-Old-TheIntegrator.39.mcz
-Tool-Changes-TheIntegrator.22.mcz
+Tool-Changes-TheIntegrator.24.mcz
 Tool-ConfigurationBrowser-TheIntegrator.20.mcz
 Tool-Diff-TheIntegrator.2.mcz
 Tool-FileList-TheIntegrator.34.mcz

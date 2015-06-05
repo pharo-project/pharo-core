@@ -1,2 +1,0 @@
-isLittleEndian
-	^self endianness == #little

@@ -3,7 +3,7 @@ restoreEndianness
  	We only intend this for non-pointer arrays.  Do nothing if I contain pointers."
  
  	self class isPointers | self class isWords not ifTrue: [^self].
- 	Smalltalk isLittleEndian 
+ 	EndianDetector isLittleEndian 
  		ifTrue: 
  			[Bitmap 
  				swapBytesIn: self

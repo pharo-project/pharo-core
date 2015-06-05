@@ -9,6 +9,6 @@ storeResourceOn: aStream
 	(bits isMemberOf: ByteArray) ifFalse:
 		"must store bitmap"
 		[aStream nextNumber: 4 put: 0. "tag"
-		aStream nextNumber: 4 put: (Smalltalk  isBigEndian ifTrue:[1] ifFalse: [0])].
+		aStream nextNumber: 4 put: (EndianDetector isBigEndian ifTrue:[1] ifFalse: [0])].
 	aStream nextNumber: 4 put: bits size.
 	aStream nextPutAll: bits.

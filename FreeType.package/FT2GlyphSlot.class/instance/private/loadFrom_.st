@@ -1,7 +1,7 @@
 loadFrom: anFT2Face
 	face := anFT2Face.
 	self primLoadFrom: anFT2Face.
-	format := ((Smalltalk isLittleEndian) ifTrue: [ format reversed ] ifFalse: [ format ]) asString.
+	format := ((EndianDetector isLittleEndian) ifTrue: [ format reversed ] ifFalse: [ format ]) asString.
 	linearHorizontalAdvance := linearHorizontalAdvance / 65536.0.
 	linearVerticalAdvance isZero ifFalse: [ linearVerticalAdvance := linearVerticalAdvance / 65536.0 ].
 	advanceX := advanceX bitShift: -6.

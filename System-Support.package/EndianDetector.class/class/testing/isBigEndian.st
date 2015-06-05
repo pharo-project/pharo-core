@@ -1,0 +1,3 @@
+isBigEndian
+	
+	^ self isLittleEndian not

@@ -2,7 +2,7 @@ nextPutImage: aForm interlace: aMethod filter: aFilterType
 	"Note: For now we keep it simple - interlace and filtering are simply ignored"
 
 	| crcStream |
-	bigEndian := Smalltalk isBigEndian.
+	bigEndian := EndianDetector isBigEndian.
 	form := aForm.
 	width := aForm width.
 	height := aForm height.

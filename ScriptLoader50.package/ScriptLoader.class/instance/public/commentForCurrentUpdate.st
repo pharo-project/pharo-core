@@ -1,9 +1,12 @@
 commentForCurrentUpdate
- ^ '15700 rollback latest font changes, until we have a real solution
-	https://pharo.fogbugz.com/f/cases/15700
+ ^ '15159 Move file drop handlers to morphic
+	https://pharo.fogbugz.com/f/cases/15159
 
-15686 add missing editor shortcuts to class PharoShortcuts
-	https://pharo.fogbugz.com/f/cases/15686
+15701 Remove browse compressed changes
+	https://pharo.fogbugz.com/f/cases/15701
 
-15698 do not load package from cache if version info differs
-	https://pharo.fogbugz.com/f/cases/15698'
+15655 a MCWorkingCopy(ConfigurationOfRubric)
+	https://pharo.fogbugz.com/f/cases/15655
+
+15285 Clean endianness detection
+	https://pharo.fogbugz.com/f/cases/15285'

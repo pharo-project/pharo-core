@@ -1,4 +1,4 @@
 encodeYourself
 
 	self encodePositiveInteger: objectCount.
-	self encodePositiveInteger: Smalltalk isBigEndian asBit.
+	self encodePositiveInteger: EndianDetector isBigEndian asBit.

@@ -4,5 +4,5 @@ copyFromByteArray: byteArray
 	| myHack byteHack |
 	myHack := Form new hackBits: self.
 	byteHack := Form new hackBits: byteArray.
-	Smalltalk  isLittleEndian ifTrue: [byteHack swapEndianness].
+	EndianDetector isLittleEndian ifTrue: [byteHack swapEndianness].
 	byteHack displayOn: myHack

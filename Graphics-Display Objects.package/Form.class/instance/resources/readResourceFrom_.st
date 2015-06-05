@@ -22,7 +22,7 @@ readResourceFrom: aStream
 		extent: width @ height
 		depth: depth
 		bits: (aStream next: bitsSize * 4)) displayOn: self.
-	msb = Smalltalk  isBigEndian 
+	msb = EndianDetector isBigEndian 
 		ifFalse: 
 			[Bitmap 
 				swapBytesIn: bits

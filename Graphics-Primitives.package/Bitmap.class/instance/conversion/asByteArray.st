@@ -8,7 +8,7 @@ asByteArray
 		bits: self.
 	bytes := ByteArray new: self size * 4.
 	hack := Form new hackBits: bytes.
-	Smalltalk isLittleEndian ifTrue: [ hack swapEndianness ].
+	EndianDetector isLittleEndian ifTrue: [ hack swapEndianness ].
 	hack 
 		copyBits: f boundingBox
 		from: f
