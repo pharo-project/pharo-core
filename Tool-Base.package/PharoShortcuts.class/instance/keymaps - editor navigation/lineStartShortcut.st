@@ -1,0 +1,3 @@
+lineStartShortcut
+
+	^ Character home asShortcut

@@ -1,0 +1,3 @@
+lineEndShortcut
+
+	^ Character end asShortcut

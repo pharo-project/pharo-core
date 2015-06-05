@@ -5,6 +5,6 @@ versionWithInfo: aVersionInfo ifAbsent: errorBlock
 		ifAbsent: [
 			(self allFileNamesForVersionNamed: aVersionInfo name) do:
 				[:fileName | | version |
-				version := self versionFromFileNamed: fileName.
+				version := self versionFromRepositoryFromFileNamed: fileName.
 				version info = aVersionInfo ifTrue: [^ version]].
 			^ errorBlock value].

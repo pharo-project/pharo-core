@@ -1,4 +1,4 @@
-script50090
+script50091
 
 	^ 'AST-Core-TheIntegrator.302.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -59,7 +59,7 @@ Files-TheIntegrator.373.mcz
 FontChooser-TheIntegrator.7.mcz
 FontInfrastructure-TheIntegrator.8.mcz
 FontInfrastructure-Tests-TheIntegrator.2.mcz
-FreeType-StephaneDucasse.704.mcz
+FreeType-TheIntegrator.706.mcz
 FreeTypeTests-SvenVanCaekenberghe.5.mcz
 Fuel-TheIntegrator.805.mcz
 FuelCommandLineHandler-TheIntegrator.27.mcz
@@ -69,7 +69,7 @@ FuelTools-Debugger-StephaneDucasse.12.mcz
 GT-Inspector-SeanDeNigris.306.mcz
 GT-InspectorExtensions-Core-TorstenBergmann.145.mcz
 GT-Playground-TudorGirba.110.mcz
-GT-Spotter-BernardoContreras.308.mcz
+GT-Spotter-StephaneDucasse.309.mcz
 GT-Spotter-EventRecorder-JurajKubelka.89.mcz
 GT-SpotterExtensions-Core-AndreiChis.146.mcz
 GT-Tests-Inspector-StefanReichhart.33.mcz
@@ -79,16 +79,16 @@ Generated-code-non-existing-package-EstebanLorenzano.2.mcz
 Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-TorstenBergmann.109.mcz
 Glamour-Core-EstebanLorenzano.300.mcz
-Glamour-Examples-TorstenBergmann.291.mcz
+Glamour-Examples-CyrilFerlicot.292.mcz
 Glamour-Helpers-AndreiChis.39.mcz
 Glamour-Morphic-Brick-StefanReichhart.398.mcz
 Glamour-Morphic-Brick-Tests-AliakseiSyrel.13.mcz
 Glamour-Morphic-Pager-AndreiChis.103.mcz
-Glamour-Morphic-Renderer-AndreiChis.321.mcz
-Glamour-Morphic-Theme-StefanReichhart.212.mcz
+Glamour-Morphic-Renderer-CyrilFerlicot.322.mcz
+Glamour-Morphic-Theme-AndreiChis.213.mcz
 Glamour-Morphic-Widgets-AndreiChis.177.mcz
 Glamour-Presentations-AndreiChis.177.mcz
-Glamour-Rubric-Presentations-AndreiChis.41.mcz
+Glamour-Rubric-Presentations-TorstenBergmann.42.mcz
 Glamour-Tests-Core-AliakseiSyrel.104.mcz
 Glamour-Tests-Morphic-AndreiChis.124.mcz
 Glamour-Tests-Resources-AndreiChis.3.mcz
@@ -147,7 +147,7 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-StephaneDucasse.1020.mcz
+Monticello-TheIntegrator.1021.mcz
 Monticello-Tests-TheIntegrator.8.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.182.mcz
@@ -236,7 +236,7 @@ Ring-Monticello-StephaneDucasse.31.mcz
 Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.83.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
-Rubric-TheIntegrator.215.mcz
+Rubric-FranckWarlouzet.217.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
 SUnit-Core-TheIntegrator.145.mcz
@@ -298,7 +298,7 @@ Text-Edition-StephaneDucasse.85.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.26.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.79.mcz
+Tool-Base-TheIntegrator.81.mcz
 Tool-Browser-Old-TheIntegrator.39.mcz
 Tool-Changes-TheIntegrator.22.mcz
 Tool-ConfigurationBrowser-TheIntegrator.20.mcz
