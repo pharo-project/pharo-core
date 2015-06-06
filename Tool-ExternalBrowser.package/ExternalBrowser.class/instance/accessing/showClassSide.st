@@ -1,0 +1,3 @@
+showClassSide
+
+	^ showClassSide

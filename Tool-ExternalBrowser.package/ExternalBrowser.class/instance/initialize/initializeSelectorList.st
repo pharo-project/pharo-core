@@ -1,0 +1,4 @@
+initializeSelectorList
+
+	selectors := self newList.
+	

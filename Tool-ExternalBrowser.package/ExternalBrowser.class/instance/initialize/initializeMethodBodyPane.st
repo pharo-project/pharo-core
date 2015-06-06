@@ -1,0 +1,2 @@
+initializeMethodBodyPane
+	method := self newText

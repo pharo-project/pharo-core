@@ -1,0 +1,3 @@
+resetMethodBodyPane
+	self method text: ''
+	

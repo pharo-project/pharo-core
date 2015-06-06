@@ -1,10 +1,10 @@
 classDefinitionFrom: aPseudoClass
 	| tokens traitCompositionString lastIndex classTraitCompositionString |
-	tokens := aPseudoClass definition parseLiterals.
-	traitCompositionString := (aPseudoClass definition readStream
+	tokens := aPseudoClass definitionSource parseLiterals.
+	traitCompositionString := (aPseudoClass definitionSource readStream
 		match: 'uses:';
 		upToAll: 'instanceVariableNames:') trimBoth.
-	classTraitCompositionString := (aPseudoClass metaClass definition asString readStream
+	classTraitCompositionString := (aPseudoClass theMetaClass definitionSource asString readStream
 		match: 'uses:';
 		upToAll: 'instanceVariableNames:') trimBoth.
 	traitCompositionString isEmpty ifTrue: [traitCompositionString := '{}'].

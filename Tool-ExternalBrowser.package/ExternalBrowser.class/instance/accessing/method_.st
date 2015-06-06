@@ -1,0 +1,2 @@
+method: anObject
+	method := anObject

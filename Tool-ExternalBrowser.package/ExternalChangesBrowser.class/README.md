@@ -1,0 +1,1 @@
+ExternalChangesBrowser new openWithSpec.ExternalChangesBrowser openOn: Smalltalk changesFile fullName

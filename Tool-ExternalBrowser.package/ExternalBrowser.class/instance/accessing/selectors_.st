@@ -1,0 +1,2 @@
+selectors: anObject
+	selectors := anObject

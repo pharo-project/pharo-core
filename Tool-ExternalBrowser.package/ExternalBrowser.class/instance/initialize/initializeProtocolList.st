@@ -1,0 +1,2 @@
+initializeProtocolList
+	protocols := self newList

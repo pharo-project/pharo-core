@@ -1,4 +1,4 @@
-script50092
+script50093
 
 	^ 'AST-Core-TheIntegrator.302.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -147,8 +147,8 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-TheIntegrator.1021.mcz
-Monticello-Tests-TheIntegrator.11.mcz
+Monticello-TheIntegrator.1022.mcz
+Monticello-Tests-TheIntegrator.12.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.182.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
@@ -231,8 +231,8 @@ Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
 ReleaseTests-TheIntegrator.15.mcz
 Ring-Core-Containers-TheIntegrator.41.mcz
-Ring-Core-Kernel-StephaneDucasse.209.mcz
-Ring-Monticello-StephaneDucasse.31.mcz
+Ring-Core-Kernel-TheIntegrator.210.mcz
+Ring-Monticello-TheIntegrator.32.mcz
 Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.83.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
@@ -303,6 +303,7 @@ Tool-Browser-Old-TheIntegrator.39.mcz
 Tool-Changes-TheIntegrator.24.mcz
 Tool-ConfigurationBrowser-TheIntegrator.20.mcz
 Tool-Diff-TheIntegrator.2.mcz
+Tool-ExternalBrowser-TheIntegrator.15.mcz
 Tool-FileList-TheIntegrator.34.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
 Tool-FilePackageBrowser-TheIntegrator.9.mcz

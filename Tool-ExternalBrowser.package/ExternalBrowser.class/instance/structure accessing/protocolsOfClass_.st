@@ -1,0 +1,3 @@
+protocolsOfClass: aClass
+
+	^ aClass protocols

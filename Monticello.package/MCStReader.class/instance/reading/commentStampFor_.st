@@ -1,4 +1,4 @@
-commentStampFor: aPseudoClass
+commentStampFor: aRingClass
 	| comment |
-	comment := aPseudoClass organization classComment.
+	comment := aRingClass organization classComment.
 	^  [comment stamp] on: MessageNotUnderstood do: [nil]

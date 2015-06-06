@@ -1,0 +1,2 @@
+initializeClassList
+	classes := self newList

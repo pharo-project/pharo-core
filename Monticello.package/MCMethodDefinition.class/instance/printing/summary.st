@@ -1,3 +1,3 @@
 summary
 
-	^ selector
+	^ className asString , '>>' , selector printString

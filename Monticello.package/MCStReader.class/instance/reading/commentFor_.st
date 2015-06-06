@@ -1,6 +1,5 @@
-commentFor: aPseudoClass
-	| comment |
-	comment := aPseudoClass organization classComment.
-	^ comment asString = ''
-		ifTrue: [comment]
-		ifFalse: [comment string]
+commentFor: aRingClass
+
+	^ aRingClass hasComment
+		ifTrue: [ aRingClass comment content asString ]
+		ifFalse: [ '' ]

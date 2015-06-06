@@ -1,0 +1,3 @@
+resetSelectorSelection
+
+	self selectors resetSelection
