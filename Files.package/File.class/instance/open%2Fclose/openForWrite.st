@@ -1,0 +1,3 @@
+openForWrite
+
+	self openForWrite: true

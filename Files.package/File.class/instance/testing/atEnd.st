@@ -1,0 +1,3 @@
+atEnd
+
+	^ self primAtEnd: fileHandle

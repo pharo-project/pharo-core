@@ -1,5 +1,5 @@
-FileStreamException subclass: #FileDoesNotExistException
+FileException subclass: #FileDoesNotExistException
 	instanceVariableNames: 'readOnly'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Files-Kernel'
+	category: 'Files-Core'

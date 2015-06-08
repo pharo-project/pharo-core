@@ -1,0 +1,2 @@
+fileStreamClass
+	^ AbstractBinaryFileStream

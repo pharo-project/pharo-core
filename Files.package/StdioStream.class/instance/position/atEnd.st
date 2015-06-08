@@ -1,0 +1,3 @@
+atEnd
+
+	^ file atEnd

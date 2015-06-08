@@ -1,5 +1,5 @@
-FileStreamException subclass: #CannotDeleteFileException
+FileException subclass: #CannotDeleteFileException
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Files-Kernel'
+	category: 'Files-Core'

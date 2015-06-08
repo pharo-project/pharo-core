@@ -1,5 +1,5 @@
-FileStreamException subclass: #FileExistsException
+FileException subclass: #FileExistsException
 	instanceVariableNames: 'fileClass'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Files-Kernel'
+	category: 'Files-Core'

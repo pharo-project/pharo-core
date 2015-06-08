@@ -1,0 +1,3 @@
+file: aFile 
+	
+	file := aFile

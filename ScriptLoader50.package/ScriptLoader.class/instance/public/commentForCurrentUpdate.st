@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '15658 Prepare FilePackageRemoval and FileContentsBrowser
-	https://pharo.fogbugz.com/f/cases/15658'
+ ^ '15486 Refactor File Package
+	https://pharo.fogbugz.com/f/cases/15486'

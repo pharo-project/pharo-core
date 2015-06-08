@@ -1,5 +1,5 @@
-FileStreamException subclass: #FileWriteError
+FileException subclass: #FileWriteError
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Files-Kernel'
+	category: 'Files-Core'

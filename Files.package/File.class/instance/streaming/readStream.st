@@ -1,0 +1,2 @@
+readStream
+	^ BinaryFileStream on: self
