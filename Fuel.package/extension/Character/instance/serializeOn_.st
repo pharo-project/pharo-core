@@ -1,3 +1,2 @@
 serializeOn: anEncoder
-
-	anEncoder encodeByte: value
+	anEncoder encodeByte: self asciiValue

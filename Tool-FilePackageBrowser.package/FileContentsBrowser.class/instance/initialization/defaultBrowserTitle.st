@@ -1,2 +1,0 @@
-defaultBrowserTitle
-	^ 'File Contents Browser'

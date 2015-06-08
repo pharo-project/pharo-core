@@ -1,2 +1,0 @@
-packages: aDictionary
-	packages := aDictionary.
