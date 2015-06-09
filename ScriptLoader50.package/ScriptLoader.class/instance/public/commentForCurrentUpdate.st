@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '15710 ExternalChangesBrowser should register to serviceFiles
-	https://pharo.fogbugz.com/f/cases/15710
+ ^ '15719 Remove ChangeList
+	https://pharo.fogbugz.com/f/cases/15719
 
-15709 Remove FilePackage and PseudoClasses 
-	https://pharo.fogbugz.com/f/cases/15709
+14013 no package information for class side trait methods
+	https://pharo.fogbugz.com/f/cases/14013
 
-15708 Deleting a class with nautilus raises an error
-	https://pharo.fogbugz.com/f/cases/15708'
+15197 remove unnecessary menu item in MC
+	https://pharo.fogbugz.com/f/cases/15197'

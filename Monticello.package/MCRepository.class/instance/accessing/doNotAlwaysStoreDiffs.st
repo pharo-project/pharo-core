@@ -1,2 +1,0 @@
-doNotAlwaysStoreDiffs
-	storeDiffs := false

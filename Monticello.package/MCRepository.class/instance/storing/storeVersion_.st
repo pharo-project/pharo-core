@@ -1,3 +1,3 @@
 storeVersion: aVersion
-	self basicStoreVersion: (self prepareVersionForStorage: aVersion).
+	self basicStoreVersion: aVersion.
 	self sendNotificationsForVersion: aVersion
