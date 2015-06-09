@@ -1,2 +1,0 @@
-hasMetaclass
-	^metaClass notNil

@@ -1,2 +1,0 @@
-isMeta
-	^true

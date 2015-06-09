@@ -1,5 +1,5 @@
-changeSetName: aChangeSetName
+changeSetName: aFileName
 
-	changeSet := CodeImporter fileNamed: aChangeSetName.
+	changeSet := CodeImporter fileNamed: aFileName.
 	changeSet parseChunks.
 	changes items: changeSet codeDeclarations.

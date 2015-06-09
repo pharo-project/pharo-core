@@ -1,2 +1,0 @@
-classComment: aChangeRecord
-	comment := aChangeRecord

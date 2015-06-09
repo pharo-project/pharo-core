@@ -1,2 +1,0 @@
-fullPackageName
-	^fullName

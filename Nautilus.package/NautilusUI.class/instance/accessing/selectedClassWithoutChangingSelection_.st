@@ -13,8 +13,8 @@ selectedClassWithoutChangingSelection: aClass
 				ifTrue: [ 
 					self model
 						package: self selectedPackage
-						class: aClass
+						class: aClass theNonMetaClass
 						category: nil
 						method: nil ]
-				ifFalse: [ self selectedClass: aClass withSelection: (self parentOfClass: aClass) ].
+				ifFalse: [ self selectedClass: aClass withSelection: (self parentOfClass: aClass theNonMetaClass) ].
 			self updateOnClassSelection ].

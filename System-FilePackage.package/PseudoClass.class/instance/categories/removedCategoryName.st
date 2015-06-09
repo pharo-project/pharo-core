@@ -1,2 +1,0 @@
-removedCategoryName
-	^'*** removed methods ***' asSymbol

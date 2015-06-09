@@ -1,2 +1,0 @@
-theMetaClass
-	^ self metaClass

@@ -1,2 +1,2 @@
 parentOfClass: aClass 
-	^ self class parentOfClass: aClass
+	^ self class parentOfClass: aClass 

@@ -1,2 +1,0 @@
-fullName
-	^self name
