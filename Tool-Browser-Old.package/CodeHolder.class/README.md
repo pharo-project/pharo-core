@@ -1,1 +1,0 @@
-An ancestor class for all models which can show code.  Eventually, much of the code that currently resides in StringHolder which only applies to code-holding StringHolders might get moved down here.

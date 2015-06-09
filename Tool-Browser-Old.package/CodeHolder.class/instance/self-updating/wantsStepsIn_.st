@@ -1,2 +1,0 @@
-wantsStepsIn: aWindow
-	^ true

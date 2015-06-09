@@ -1,2 +1,0 @@
-showAnnotationPane
-	^ self class showAnnotationPane

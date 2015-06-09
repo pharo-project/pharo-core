@@ -1,2 +1,0 @@
-contentsChanged
-	self changed: #contents

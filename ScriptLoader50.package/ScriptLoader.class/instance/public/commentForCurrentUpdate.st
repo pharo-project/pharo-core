@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '15719 Remove ChangeList
-	https://pharo.fogbugz.com/f/cases/15719
+ ^ '13180 Class class>>superclassOrder: should preserve classes order
+	https://pharo.fogbugz.com/f/cases/13180
 
-14013 no package information for class side trait methods
-	https://pharo.fogbugz.com/f/cases/14013
-
-15197 remove unnecessary menu item in MC
-	https://pharo.fogbugz.com/f/cases/15197'
+11711 Remove CodeHolder
+	https://pharo.fogbugz.com/f/cases/11711'

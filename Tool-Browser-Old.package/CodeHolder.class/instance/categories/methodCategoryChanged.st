@@ -1,2 +1,0 @@
-methodCategoryChanged
-	self changed: #annotation
