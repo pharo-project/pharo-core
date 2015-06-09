@@ -1,0 +1,2 @@
+genForRBTemporaryNode
+	^self genForRBVariableNode

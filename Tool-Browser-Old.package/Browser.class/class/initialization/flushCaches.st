@@ -1,2 +1,0 @@
-flushCaches
-	RecentClasses := OrderedCollection new.

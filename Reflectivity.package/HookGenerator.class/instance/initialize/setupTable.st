@@ -5,20 +5,9 @@ setupTable
 	 Later we just access 'table at: symbol' to get code for a requested reification and generate a preamble that fills
 	 those variable at the beginning of the link's code"
 
-	| reification |
-	reification := OrderedCollection new.
-	reification addAll: link arguments. 
-	link metaObject isSymbol ifTrue: [reification add: link metaObject].
-	link condition ifNotNil: [reification addAll: (self reificationsFor: link condition)].
-	reification do: [:symbol |
-		(plugins at: symbol) optimize ifTrue: [ "don't bother to optimize one-bytecode reifications" 
-			((table includesKey: symbol) and: [(ptable includesKey: symbol) not]) ifTrue: [ | var |  "we already saw this one, use temp instead"
-				var := RBVariableNode named: ('gphhhddd', symbol).
-				ptable at: symbol put: (RBAssignmentNode variable: var
-				  										 value: (table at: symbol)).
-				node methodNode body addTemporaryNamed: 'gphhhddd', symbol.
-				table at: symbol put: var.
-			].
-		].
+	reifications addAll: link arguments. 
+	link metaObject isSymbol ifTrue: [reifications add: link metaObject].
+	link condition ifNotNil: [reifications addAll: (self reificationsFor: link condition)].
+	reifications do: [:symbol |
 		table at: symbol ifAbsentPut: [(plugins at: symbol) perform: self selectorForNode].
 	]

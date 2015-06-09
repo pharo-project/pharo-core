@@ -1,0 +1,2 @@
+genForRBVariableNode
+	^RBTemporaryNode named: #RFnewValueReification.

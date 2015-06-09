@@ -1,6 +1,6 @@
-node: aNode link: aLink 
+node: aNode link: aLink
+	reifications := OrderedCollection new.
 	table := Dictionary new.
-	ptable := Dictionary new.
 	plugins := Dictionary new.
 	node := aNode.
 	link := aLink.

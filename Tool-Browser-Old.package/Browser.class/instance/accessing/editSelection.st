@@ -1,2 +1,0 @@
-editSelection
-	^editSelection

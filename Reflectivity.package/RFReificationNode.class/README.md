@@ -1,0 +1,1 @@
+I pop of value from the stack and store them in a temp.I reconstruct the stack after.- on semantic analysis I define a temp with a sythesized name1 - on code generation I pop value from the stack 

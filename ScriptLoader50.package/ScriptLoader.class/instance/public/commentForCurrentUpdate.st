@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '15715 Character>>#serializeOn: needs to use accessor to value
-	https://pharo.fogbugz.com/f/cases/15715
+ ^ '7472 Remove old Browser
+	https://pharo.fogbugz.com/f/cases/7472
 
-15712 Remove FileContentsBrowser
-	https://pharo.fogbugz.com/f/cases/15712'
+15714 Reflectivity: add #newValue reification for variables
+	https://pharo.fogbugz.com/f/cases/15714'
