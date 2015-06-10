@@ -1,3 +1,3 @@
 testEventCodes
-	self assert: $s command modifier eventCode 
+	self assert: $s meta modifier eventCode 
 		 equals: OSPlatform current defaultModifier eventCode 

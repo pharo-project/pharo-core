@@ -1,3 +1,3 @@
 defaultModifier
 
-	^ KMModifier meta
+	^ KMModifier command

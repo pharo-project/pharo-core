@@ -1,2 +1,2 @@
 hash
-	^ identifier hash bitXor: name hash
+	^ identifier hash

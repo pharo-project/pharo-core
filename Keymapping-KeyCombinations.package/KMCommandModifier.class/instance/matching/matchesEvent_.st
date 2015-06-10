@@ -1,2 +1,2 @@
 matchesEvent: aKeyboardEvent
-	^ self delegatedModifier matchesEvent: aKeyboardEvent 
+	^  aKeyboardEvent commandKeyPressed

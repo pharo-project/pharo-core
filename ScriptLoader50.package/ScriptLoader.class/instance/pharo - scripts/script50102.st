@@ -1,4 +1,4 @@
-script50101
+script50102
 
 	^ 'AST-Core-TheIntegrator.302.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -115,13 +115,13 @@ HudsonBuildTools20-TheIntegrator.68.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-EstebanLorenzano.4.mcz
-Kernel-StephaneDucasse.2048.mcz
+Kernel-TheIntegrator.2050.mcz
 KernelTests-TheIntegrator.778.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
-Keymapping-KeyCombinations-TheIntegrator.50.mcz
+Keymapping-KeyCombinations-TheIntegrator.55.mcz
 Keymapping-Pragmas-TheIntegrator.52.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
-Keymapping-Tests-TheIntegrator.94.mcz
+Keymapping-Tests-TheIntegrator.96.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
 Komitter-StephaneDucasse.128.mcz
 Manifest-Core-StephaneDucasse.219.mcz
@@ -225,8 +225,8 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.127.mcz
 Refactoring-Tests-Critics-TheIntegrator.31.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.56.mcz
-Reflectivity-Tests-TheIntegrator.41.mcz
+Reflectivity-TheIntegrator.58.mcz
+Reflectivity-Tests-TheIntegrator.43.mcz
 Regex-Core-MarcusDenker.33.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -291,7 +291,7 @@ System-Settings-TheIntegrator.311.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.3.mcz
 System-Support-TheIntegrator.1112.mcz
-System-VMEvents-TheIntegrator.2.mcz
+System-VMEvents-TheIntegrator.5.mcz
 Tests-TheIntegrator.726.mcz
 Text-Core-TheIntegrator.35.mcz
 Text-Diff-StephaneDucasse.4.mcz

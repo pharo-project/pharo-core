@@ -1,2 +1,0 @@
-delegatedModifier
-	^ OSPlatform current defaultModifier 

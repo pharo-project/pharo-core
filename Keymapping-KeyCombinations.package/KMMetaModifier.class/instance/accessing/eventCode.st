@@ -1,3 +1,3 @@
 eventCode
 
-	^ 64.
+	^ OSPlatform current defaultModifier eventCode

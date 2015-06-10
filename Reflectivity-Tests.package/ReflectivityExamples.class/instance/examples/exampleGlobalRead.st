@@ -1,0 +1,2 @@
+exampleGlobalRead
+	^Object

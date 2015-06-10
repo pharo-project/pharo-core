@@ -1,2 +1,2 @@
 genForRBTempVariableNode
-	^node copy.
+	^RBVariableNode named: node name.

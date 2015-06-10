@@ -1,2 +1,2 @@
 eventCode
-	^ self delegatedModifier eventCode
+	^ 64

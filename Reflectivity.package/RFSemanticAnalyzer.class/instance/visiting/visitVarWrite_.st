@@ -1,11 +1,13 @@
 visitVarWrite: aNode
 	"here we add the hook anotations and visit those AST parts for semantic analysis"
-	aNode hasMetalink
-		ifFalse: [ ^ self ].
 	aNode propertyAt: #beforeHooks put: IdentitySet new.
 	aNode propertyAt: #afterHooks put: IdentitySet new.
 	aNode propertyAt: #preambles put: IdentitySet new.
 	
+	
+	aNode hasMetalink
+		ifFalse: [ ^ self ].
+
 	aNode links do: [ :link | | preamble |
 			preamble := link preambleOn: aNode.
 			preamble ifNotNil: [

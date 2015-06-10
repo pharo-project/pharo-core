@@ -5,7 +5,7 @@ fromKeyboardEvent: evt
 	shift := evt shiftPressed.
 	alt := evt altKeyPressed.
 	(shift | command | control | alt)
-		ifFalse: [^ KMSingleKeyCombination from: evt keyCharacter ].
+		ifFalse: [^ KMSingleKeyCombination from: evt modifiedCharacter ].
 	modifier := KMNoShortcut new.
 	control
 		ifTrue: [ modifier := modifier + KMModifier ctrl ].
