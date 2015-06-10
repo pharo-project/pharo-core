@@ -1,2 +1,2 @@
-includesClass: aClass 
-	^ self definedClasses includes: aClass
+includesClass: aClass
+	^ self item hasClassNamed: aClass name

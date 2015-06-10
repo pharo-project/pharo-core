@@ -9,6 +9,7 @@ buildBrowser
 		messages: changeList;
 		title: 'Recent versions of ' , rgMethod asString;
 		openWithSpec.
+	b takeKeyboardFocus.
 		
 	self showDiffMorphWithConverter: (DiffMorphChangeRecordConverter 
 		methodReference: browser textConverter method 

@@ -1,5 +1,5 @@
-"protocol: accessing"
 selectedClassWithoutChangingSelection: aClass
+	"protocol: accessing"
 
 	self resetCategoriesList.
 	self okToChangeSourceAndComment
@@ -13,8 +13,8 @@ selectedClassWithoutChangingSelection: aClass
 				ifTrue: [ 
 					self model
 						package: self selectedPackage
-						class: aClass theNonMetaClass
+						class: aClass
 						category: nil
 						method: nil ]
-				ifFalse: [ self selectedClass: aClass withSelection: (self parentOfClass: aClass theNonMetaClass) ].
-			self updateOnClassSelection ].
+				ifFalse: [ self selectedClass: aClass withSelection: (self parentOfClass: aClass) ].
+			self updateOnClassSelection ]

@@ -1,4 +1,4 @@
-script50100
+script50101
 
 	^ 'AST-Core-TheIntegrator.302.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -106,7 +106,7 @@ Graphics-Resources-TheIntegrator.24.mcz
 Graphics-Shapes-TheIntegrator.2.mcz
 Graphics-Tests-TheIntegrator.72.mcz
 Graphics-Transformations-TheIntegrator.14.mcz
-GroupManager-TheIntegrator.74.mcz
+GroupManager-TheIntegrator.76.mcz
 GroupManagerUI-TheIntegrator.40.mcz
 Growl-TheIntegrator.37.mcz
 HelpSystem-Core-TheIntegrator.122.mcz
@@ -185,7 +185,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.92.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-TheIntegrator.943.mcz
+Nautilus-TheIntegrator.945.mcz
 Nautilus-Tests-StephaneDucasse.16.mcz
 NautilusCommon-TheIntegrator.264.mcz
 NautilusRefactoring-TheIntegrator.220.mcz
@@ -267,7 +267,7 @@ Spec-Layout-TheIntegrator.67.mcz
 Spec-MorphicAdapters-TheIntegrator.209.mcz
 Spec-PolyWidgets-TheIntegrator.59.mcz
 Spec-Tests-TheIntegrator.47.mcz
-Spec-Tools-TheIntegrator.268.mcz
+Spec-Tools-TheIntegrator.270.mcz
 StartupPreferences-TheIntegrator.133.mcz
 System-Announcements-TheIntegrator.98.mcz
 System-Caching-TheIntegrator.26.mcz
@@ -295,7 +295,7 @@ System-VMEvents-TheIntegrator.2.mcz
 Tests-TheIntegrator.726.mcz
 Text-Core-TheIntegrator.35.mcz
 Text-Diff-StephaneDucasse.4.mcz
-Text-Edition-StephaneDucasse.85.mcz
+Text-Edition-TheIntegrator.87.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.26.mcz
 Text-Tests-EstebanLorenzano.7.mcz
@@ -316,7 +316,7 @@ Tool-TxWorkspace-TorstenBergmann.5.mcz
 Tool-Workspace-TheIntegrator.24.mcz
 Tools-TheIntegrator.1503.mcz
 ToolsTest-MarcusDenker.denker.71.mcz
-Traits-TheIntegrator.779.mcz
+Traits-TheIntegrator.781.mcz
 Transcript-TheIntegrator.34.mcz
 TxText-Athens-SeanDeNigris.50.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

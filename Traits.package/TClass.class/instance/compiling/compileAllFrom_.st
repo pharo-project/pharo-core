@@ -3,4 +3,4 @@ compileAllFrom: oldClass
 	subclasses). Also recompile the methods in the metaclass."
 
 	super compileAllFrom: oldClass.
-	self class compileAllFrom: oldClass class
+	self theMetaClass compileAllFrom: oldClass theMetaClass

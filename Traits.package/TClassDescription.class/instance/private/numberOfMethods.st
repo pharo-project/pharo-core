@@ -4,4 +4,4 @@ numberOfMethods
 	num := self localMethods size.
 	^ self isMeta  
 		ifTrue: [ num ]
-		ifFalse: [ num + self class numberOfMethods ] 
+		ifFalse: [ num + self theMetaClass numberOfMethods ] 
