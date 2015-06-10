@@ -8,7 +8,7 @@ browseClassCommentsWithString: aString matchCase: caseSensitive
 		ifFalse: [' (case-insensitive)'].
 	list := Set new.
 	Cursor wait showWhile: [
-		Smalltalk allClassesDo: [:class | 
+		self environment allClassesDo: [:class | 
 			(class organization classComment asString 
 							includesSubstring: aString caseSensitive: caseSensitive) ifTrue: [
 								list add: (RGCommentDefinition realClass: class)

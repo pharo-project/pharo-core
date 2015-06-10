@@ -6,11 +6,11 @@ removeAllButPackages: packagesList
   packagesList do: [:pkg | keep addAll: (self allClassesInPackageNamed: pkg)].
   oldRemove := Set new.
   [ 
-    remove := Smalltalk globals allClassesAndTraits reject: [:c | keep includes: c].
+    remove := self environment allClassesAndTraits reject: [:c | keep includes: c].
     remove := remove collect: [:c | c name].
     (remove asSortedCollection: [:a :b | a  <= b ]) do: [:className |
       | class |
-      class := (Smalltalk globals classOrTraitNamed: className).
+      class := (self environment classOrTraitNamed: className).
       class allSubclasses ifEmpty: [
         SystemAnnouncer uniqueInstance unsubscribe: class.
         class isTrait ifFalse: [ 
@@ -21,7 +21,7 @@ removeAllButPackages: packagesList
     
     oldRemove ifNotEmpty: [
       oldRemove = remove ifTrue: [          
-         self error: 'Some classes still have subclasses: ', (remove collect: [:c | c -> (Smalltalk classOrTraitNamed: c) allSubclasses]) asString ] ].
+         self error: 'Some classes still have subclasses: ', (remove collect: [:c | c -> (self environment classOrTraitNamed: c) allSubclasses]) asString ] ].
     oldRemove := remove.
     remove notEmpty] whileTrue.
 

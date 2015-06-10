@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '13180 Class class>>superclassOrder: should preserve classes order
-	https://pharo.fogbugz.com/f/cases/13180
+ ^ '15722 Remove unused method -= in SHParserST80
+	https://pharo.fogbugz.com/f/cases/15722
 
-11711 Remove CodeHolder
-	https://pharo.fogbugz.com/f/cases/11711'
+15725 SystemNavigation shouldnt use Smalltalk globals for self environment
+	https://pharo.fogbugz.com/f/cases/15725
+
+15721 Reflectivity: add #name reification for Variables
+	https://pharo.fogbugz.com/f/cases/15721'

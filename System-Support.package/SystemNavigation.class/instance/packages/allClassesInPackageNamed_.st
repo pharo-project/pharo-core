@@ -3,8 +3,8 @@ allClassesInPackageNamed: packageName
 	
 	"It would be probably better to delegate that query to the package itself"
 	| classes organization |
-	organization := Smalltalk globals organization.
+	organization := self environment organization.
 	classes := (organization classesInCategory: packageName) asSet.
 	(organization categoriesMatching: packageName, '-*') do: [:category| 
 		classes addAll: (organization classesInCategory: category)].
-	^classes asArray
+	^ classes asArray

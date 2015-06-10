@@ -1,0 +1,2 @@
+genForRBVariableNode
+	^node name asLiteralNode
