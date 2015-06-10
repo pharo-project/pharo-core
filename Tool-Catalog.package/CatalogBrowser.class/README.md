@@ -1,0 +1,1 @@
+I'm a browser to show project catalog from pharo official repositories. I'm a replacement for the old Configurations Browser.Pharo catalog can be found at: http://catalog.pharo.org

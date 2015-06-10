@@ -15,7 +15,7 @@ changeRecordsFrom: initialSourcePointer className: theNonMetaClassName isMeta: c
 		[ filePosition notNil & file notNil ]
 			whileTrue: [ 
 				file position: (0 max: filePosition - 150).	"Skip back to before the preamble"
-				[ file position < (filePosition - 1) ] whileTrue: [ preamble := file nextChunk ].	"then pick it up from the front"	
+				[ file position < (filePosition - 1) ] whileTrue: [ preamble := file nextPreamble ].	"then pick it up from the front"	
 					"Preamble is likely a linked method preamble, if we're in
 					a changes file (not the sources file).  Try to parse it
 					for prior source position and file index"

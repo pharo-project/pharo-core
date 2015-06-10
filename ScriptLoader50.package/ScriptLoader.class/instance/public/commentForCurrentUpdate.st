@@ -1,9 +1,18 @@
 commentForCurrentUpdate
- ^ '10803 Aliasing a method to a non-existent method breaks Browser
-	https://pharo.fogbugz.com/f/cases/10803
+ ^ '15607 Trying to browse "versions" on a method which contains non-ascii characters causes SubscriptOutOfBounds error
+	https://pharo.fogbugz.com/f/cases/15607
 
-15728 Meta support in keymapping
-	https://pharo.fogbugz.com/f/cases/15728
+15734 More tests for reifications
+	https://pharo.fogbugz.com/f/cases/15734
 
-15730 tests for #value (Global, Temp) and fix: allow tests to be run multiple times
-	https://pharo.fogbugz.com/f/cases/15730'
+15731 Kill the last two #asTimeStamp methods
+	https://pharo.fogbugz.com/f/cases/15731
+
+15732 Announce MC version saved
+	https://pharo.fogbugz.com/f/cases/15732
+
+12242 MCVersionCreated never announced
+	https://pharo.fogbugz.com/f/cases/12242
+
+15703 integrate new Catalog Browser
+	https://pharo.fogbugz.com/f/cases/15703'

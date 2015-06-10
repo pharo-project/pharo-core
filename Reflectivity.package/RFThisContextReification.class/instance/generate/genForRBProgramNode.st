@@ -1,2 +1,2 @@
 genForRBProgramNode
-	^RBVariableNode named: 'thisContext'
+	^RBThisContextNode named: #thisContext

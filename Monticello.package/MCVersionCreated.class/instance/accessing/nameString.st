@@ -1,3 +1,0 @@
-nameString
-
-		^ nameString

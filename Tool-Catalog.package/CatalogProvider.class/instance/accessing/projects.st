@@ -1,0 +1,2 @@
+projects
+	^ projects ifNil: [ #() ]

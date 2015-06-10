@@ -1,2 +1,2 @@
 genForRBAssignmentNode
-	^node variable copy
+	^RBVariableNode named: node variable name

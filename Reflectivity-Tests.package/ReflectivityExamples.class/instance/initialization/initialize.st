@@ -1,0 +1,2 @@
+initialize
+	ivar := 33

@@ -1,0 +1,2 @@
+title
+	^ 'Pharo Project Catalog'

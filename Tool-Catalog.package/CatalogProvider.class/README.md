@@ -1,0 +1,1 @@
+I'm a provider for projects in the pharo catalog.

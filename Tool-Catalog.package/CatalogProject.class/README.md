@@ -1,0 +1,1 @@
+I'm a project from an official pharo repository. I can load 	- stable versions	- just configurations.
