@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '15636 PharoTutorial contents
-	https://pharo.fogbugz.com/f/cases/15636
+ ^ '15735 Start to move RPackage-SystemIntegration to into RPackage
+	https://pharo.fogbugz.com/f/cases/15735
 
-15731 Kill the last two #asTimeStamp methods
-	https://pharo.fogbugz.com/f/cases/15731
+15744 CatalogBrowser moved to PharoExtras
+	https://pharo.fogbugz.com/f/cases/15744
 
-15734 More tests for reifications
-	https://pharo.fogbugz.com/f/cases/15734'
+15742 Small clean up in ChangesBrowser
+	https://pharo.fogbugz.com/f/cases/15742'
