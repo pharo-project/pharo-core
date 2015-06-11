@@ -1,4 +1,4 @@
-script50103
+script50104
 
 	^ 'AST-Core-TheIntegrator.302.mcz
 AST-Tests-Core-TheIntegrator.68.mcz
@@ -210,8 +210,8 @@ Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz
 Polymorph-Widgets-TheIntegrator.1221.mcz
 PragmaCollector-TheIntegrator.3.mcz
-ProfStef-Core-TheIntegrator.57.mcz
-ProfStef-Help-SvenVanCaekenberghe.14.mcz
+ProfStef-Core-TheIntegrator.59.mcz
+ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.25.mcz
 RPackage-Core-TheIntegrator.387.mcz
 RPackage-SystemIntegration-TheIntegrator.234.mcz
@@ -301,7 +301,8 @@ Text-Scanning-TheIntegrator.26.mcz
 Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.83.mcz
 Tool-Browser-Old-TheIntegrator.43.mcz
-Tool-ConfigurationBrowser-TheIntegrator.20.mcz
+Tool-Catalog-EstebanLorenzano.12.mcz
+Tool-ConfigurationBrowser-TheIntegrator.21.mcz
 Tool-Diff-TheIntegrator.2.mcz
 Tool-ExternalBrowser-TheIntegrator.17.mcz
 Tool-FileList-TheIntegrator.34.mcz
