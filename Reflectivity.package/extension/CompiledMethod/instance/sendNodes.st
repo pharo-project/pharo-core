@@ -1,0 +1,2 @@
+sendNodes
+	^self ast sendNodes

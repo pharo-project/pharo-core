@@ -1,0 +1,2 @@
+variableWriteNodes
+	^self ast variableWriteNodes

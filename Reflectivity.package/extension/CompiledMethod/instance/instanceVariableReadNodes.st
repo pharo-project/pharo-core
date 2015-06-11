@@ -1,0 +1,2 @@
+instanceVariableReadNodes
+	^self ast instanceVariableReadNodes

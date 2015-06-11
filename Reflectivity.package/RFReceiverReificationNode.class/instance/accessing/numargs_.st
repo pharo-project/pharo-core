@@ -1,0 +1,2 @@
+numargs: anObject
+	numargs := anObject

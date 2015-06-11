@@ -1,0 +1,2 @@
+variableNodes
+	^self ast variableNodes

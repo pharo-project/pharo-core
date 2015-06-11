@@ -1,2 +1,0 @@
-preamble
-	^nil

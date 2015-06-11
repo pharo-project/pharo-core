@@ -1,5 +1,0 @@
-reset
-	<script>
-	
-	AvailableRepositories := nil
-	

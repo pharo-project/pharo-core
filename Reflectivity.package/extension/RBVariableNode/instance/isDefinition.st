@@ -1,0 +1,2 @@
+isDefinition
+	^self parent isSequence

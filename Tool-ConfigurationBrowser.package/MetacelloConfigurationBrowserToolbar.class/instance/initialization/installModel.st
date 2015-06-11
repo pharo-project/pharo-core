@@ -1,2 +1,0 @@
-installModel
-	^ installModel

@@ -1,0 +1,2 @@
+variableReadNodes
+	^self ast variableReadNodes

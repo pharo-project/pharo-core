@@ -1,0 +1,2 @@
+blockNodes
+	^self ast blockNodes

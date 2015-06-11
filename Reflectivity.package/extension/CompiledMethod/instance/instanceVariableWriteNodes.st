@@ -1,0 +1,2 @@
+instanceVariableWriteNodes
+	^self ast instanceVariableWriteNodes

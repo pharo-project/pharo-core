@@ -1,3 +1,0 @@
-loadConfiguration
-
-	configBrowserModel loadConfiguration

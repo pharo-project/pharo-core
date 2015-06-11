@@ -1,9 +1,12 @@
 commentForCurrentUpdate
- ^ '15735 Start to move RPackage-SystemIntegration to into RPackage
-	https://pharo.fogbugz.com/f/cases/15735
+ ^ '15745 add API to enumerate AST nodes
+	https://pharo.fogbugz.com/f/cases/15745
 
-15744 CatalogBrowser moved to PharoExtras
-	https://pharo.fogbugz.com/f/cases/15744
+15747 cleanup tools to get rid of undeclared
+	https://pharo.fogbugz.com/f/cases/15747
 
-15742 Small clean up in ChangesBrowser
-	https://pharo.fogbugz.com/f/cases/15742'
+15748 Reflectivity: fixes for reifications
+	https://pharo.fogbugz.com/f/cases/15748
+
+15703 integrate new Catalog Browser
+	https://pharo.fogbugz.com/f/cases/15703'

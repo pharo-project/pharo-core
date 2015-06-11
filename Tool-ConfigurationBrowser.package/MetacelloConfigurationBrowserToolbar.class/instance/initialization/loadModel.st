@@ -1,2 +1,0 @@
-loadModel
-	^ loadModel
