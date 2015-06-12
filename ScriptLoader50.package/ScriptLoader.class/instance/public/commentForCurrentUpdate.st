@@ -1,12 +1,12 @@
 commentForCurrentUpdate
- ^ '15660 Add String methods for removing prefix/suffix
-	https://pharo.fogbugz.com/f/cases/15660
+ ^ '15746 clean up RPackage-SystemIntegration
+	https://pharo.fogbugz.com/f/cases/15746
 
-15756 Move FileStream usages to File and Friends
-	https://pharo.fogbugz.com/f/cases/15756
-
-15759 Remove debug code from ASMJit
-	https://pharo.fogbugz.com/f/cases/15759
+15681 Manifest-CriticBrowser
+	https://pharo.fogbugz.com/f/cases/15681
 
 15718 Remove StringHolder
-	https://pharo.fogbugz.com/f/cases/15718'
+	https://pharo.fogbugz.com/f/cases/15718
+
+15532 Methods in Object category drag and drop should be a Morphic extension
+	https://pharo.fogbugz.com/f/cases/15532'

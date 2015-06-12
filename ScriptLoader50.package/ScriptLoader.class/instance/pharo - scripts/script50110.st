@@ -1,4 +1,4 @@
-script50109
+script50110
 
 	^ 'AST-Core-TheIntegrator.304.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -115,7 +115,7 @@ HudsonBuildTools20-TheIntegrator.68.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-EstebanLorenzano.4.mcz
-Kernel-TheIntegrator.2052.mcz
+Kernel-TheIntegrator.2055.mcz
 KernelTests-TheIntegrator.778.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -125,7 +125,7 @@ Keymapping-Tests-TheIntegrator.96.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
 Komitter-StephaneDucasse.128.mcz
 Manifest-Core-StephaneDucasse.219.mcz
-Manifest-CriticBrowser-TheIntegrator.181.mcz
+Manifest-CriticBrowser-TheIntegrator.182.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.49.mcz
 MenuRegistration-TheIntegrator.76.mcz
@@ -158,7 +158,7 @@ MonticelloMocks-EstebanLorenzano.2.mcz
 Morphic-Base-TheIntegrator.460.mcz
 Morphic-Core-TheIntegrator.180.mcz
 Morphic-Examples-TheIntegrator.40.mcz
-Morphic-Widgets-Basic-TheIntegrator.41.mcz
+Morphic-Widgets-Basic-TheIntegrator.43.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
 Morphic-Widgets-Extra-TheIntegrator.22.mcz
 Morphic-Widgets-List-TheIntegrator.18.mcz
@@ -213,8 +213,8 @@ PragmaCollector-TheIntegrator.3.mcz
 ProfStef-Core-TheIntegrator.59.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.25.mcz
-RPackage-Core-TheIntegrator.389.mcz
-RPackage-SystemIntegration-TheIntegrator.236.mcz
+RPackage-Core-TheIntegrator.391.mcz
+RPackage-SystemIntegration-TheIntegrator.237.mcz
 RPackage-Tests-TheIntegrator.173.mcz
 RecentSubmissions-StephaneDucasse.233.mcz
 Refactoring-Changes-TheIntegrator.65.mcz
@@ -301,6 +301,7 @@ Text-Scanning-TheIntegrator.26.mcz
 Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.85.mcz
 Tool-Catalog-EstebanLorenzano.13.mcz
+Tool-CriticBrowser-TheIntegrator.2.mcz
 Tool-Diff-TheIntegrator.2.mcz
 Tool-ExternalBrowser-TheIntegrator.19.mcz
 Tool-FileList-TheIntegrator.34.mcz
