@@ -1,3 +1,3 @@
 labelString
 	reference ifNil: [ ^ '[]' ].
-	^ reference basename  contractTo: 50
+	^ baseLabel, reference basename contractTo: 50

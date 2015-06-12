@@ -7,6 +7,6 @@ updateFileList
 	volumeListIndex := volumeList size.
 	contents := ''.
 	self changed: #volumeListIndex.
-	self changed: #fileList.
+	self changed: #list.
 	self grid updateList.
 	self updateButtonRow

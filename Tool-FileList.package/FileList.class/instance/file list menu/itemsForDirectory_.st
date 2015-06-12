@@ -4,7 +4,8 @@ itemsForDirectory: dir
 	dir ifNotNil: [
 		services
 			addAll: (self class itemsForDirectory: dir).
-		services last useLineAfter. ].
+		services ifNotEmpty: [services last useLineAfter] ].
 	services add: self serviceAddNewFile.
 	services add: self serviceAddNewDirectory.
+	services addAll: self configuredServices.
 	^ services

@@ -4,6 +4,6 @@ perform: selector orSendTo: otherTarget
 	If I can respond myself, then perform it on myself. 
 	If not, send it to otherTarget, presumably the editPane from which the menu was invoked."
  
-	^ (#(get getHex copyName openImageInWindow renameFile deleteFile deleteDirectory addNewFile recentDirs ) includes: selector)
+	^ (#(get getHex copyName openImageInWindow renameFile deleteFile deleteDirectory addNewFile ) includes: selector)
 				ifTrue: [self perform: selector]
 				ifFalse: [super perform: selector orSendTo: otherTarget]

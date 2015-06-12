@@ -1,0 +1,3 @@
+baseLabel: aString 
+
+	baseLabel := aString

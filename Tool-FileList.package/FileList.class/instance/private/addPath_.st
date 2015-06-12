@@ -8,12 +8,3 @@ addPath: aString
 			strm nextPutAll: (volumeList at: i) trimBoth.
 			strm nextPut: FileSystem disk separator]].
 	full := full, aString.
-"Remove and super-directories of aString from the collection."
-	RecentDirs removeAllSuchThat: [ :aDir | ((aDir, '*') match: full)].
-
-"If a sub-directory is in the list, do nothing."
-	RecentDirs detect: [ :aDir | ((full, '*') match: aDir)] ifFound: [^self].
-
-	[RecentDirs size >= 10]
-		whileTrue: [RecentDirs removeFirst].
-	RecentDirs addLast: full
