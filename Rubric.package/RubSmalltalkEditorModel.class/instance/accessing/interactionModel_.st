@@ -1,0 +1,2 @@
+interactionModel: anObject 	
+	interactionModel := anObject

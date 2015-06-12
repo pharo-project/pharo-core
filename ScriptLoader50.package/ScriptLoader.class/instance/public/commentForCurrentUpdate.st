@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '15741 PluggableTextMorphWithLimits should be removed
-	https://pharo.fogbugz.com/f/cases/15741
+ ^ '15740 openInWorld: aPasteUpMorph raises MNU PasteUpMorph>>startSteppingSubmorphsOf:
+	https://pharo.fogbugz.com/f/cases/15740
 
-15749 RB: Dont Add Parens Around Lit Array Elements
-	https://pharo.fogbugz.com/f/cases/15749
+15726 unimplemented methods for new change list
+	https://pharo.fogbugz.com/f/cases/15726
 
-15751 catalog (with spotter) needs to show projects after classes and packages
-	https://pharo.fogbugz.com/f/cases/15751
-
-15752 make browsing versions of removed methods working again
-	https://pharo.fogbugz.com/f/cases/15752'
+15720 RubTextEditor references StringHolder
+	https://pharo.fogbugz.com/f/cases/15720'

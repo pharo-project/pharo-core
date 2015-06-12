@@ -1,2 +1,2 @@
 hasBindingThatBeginsWith: aString 
-	^ client ifNil: [ false ] ifNotNil:  [ client hasBindingThatBeginsWith: aString  ]
+	^ interactionModel ifNil: [ false ] ifNotNil:  [ interactionModel hasBindingThatBeginsWith: aString  ]

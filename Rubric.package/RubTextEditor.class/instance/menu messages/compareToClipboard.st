@@ -4,7 +4,6 @@ compareToClipboard
 	s1 := self clipboardText string.
 	s2 := self string.
 	s1 = s2 ifTrue: [^ self inform: 'Exact match'].
-
-	(StringHolder new textContents:
-		(TextDiffBuilder buildDisplayPatchFrom: s1 to: s2))
-		openLabel: 'Comparison to Clipboard Text'
+	UIManager default  
+		longMessage: (TextDiffBuilder buildDisplayPatchFrom: s1 to: s2)
+		title: 'Comparison to Clipboard Text'

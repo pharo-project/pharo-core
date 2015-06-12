@@ -1,4 +1,4 @@
 initialize
 	super initialize.
-	textModel := RubSmalltalkScriptEditorModel new client: self.
+	textModel := RubSmalltalkScriptEditorModel new interactionModel: self.
 	mustDeclareVariables := false.

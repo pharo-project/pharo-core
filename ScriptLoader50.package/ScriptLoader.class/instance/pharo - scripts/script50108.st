@@ -1,4 +1,4 @@
-script50107
+script50108
 
 	^ 'AST-Core-TheIntegrator.304.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -156,7 +156,7 @@ MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
 MonticelloGUI-TheIntegrator.357.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 Morphic-Base-TheIntegrator.460.mcz
-Morphic-Core-TheIntegrator.178.mcz
+Morphic-Core-TheIntegrator.180.mcz
 Morphic-Examples-TheIntegrator.40.mcz
 Morphic-Widgets-Basic-TheIntegrator.41.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
@@ -301,9 +301,9 @@ Text-Scanning-TheIntegrator.26.mcz
 Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.85.mcz
 Tool-Browser-Old-TheIntegrator.43.mcz
-Tool-Catalog-EstebanLorenzano.12.mcz
+Tool-Catalog-EstebanLorenzano.13.mcz
 Tool-Diff-TheIntegrator.2.mcz
-Tool-ExternalBrowser-TheIntegrator.17.mcz
+Tool-ExternalBrowser-TheIntegrator.19.mcz
 Tool-FileList-TheIntegrator.34.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
 Tool-Finder-TheIntegrator.33.mcz

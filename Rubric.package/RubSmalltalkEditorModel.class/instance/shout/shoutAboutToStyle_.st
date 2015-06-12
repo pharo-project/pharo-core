@@ -1,2 +1,2 @@
 shoutAboutToStyle: aSmalltalkEditingMode
-	^ client ifNil: [ true ] ifNotNil: [ client shoutAboutToStyle: aSmalltalkEditingMode ]
+	^ interactionModel ifNil: [ true ] ifNotNil: [ interactionModel shoutAboutToStyle: aSmalltalkEditingMode ]

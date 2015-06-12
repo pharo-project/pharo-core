@@ -138,3 +138,14 @@ buildShortcutsOn: aBuilder
 		default: $l shift command
 		do: [ :target | target editor outdent: nil ]
 		description: 'Outdent'.
+
+	(aBuilder shortcut: #compareToClipboard) 
+		category: RubTextEditor name
+		default: $c shift ctrl
+		do: [ :target | target editor compareToClipboard: nil ]
+		description: 'Compare selection to clipboard'.
+	(aBuilder shortcut: #compareToClipboard) 
+		category: RubTextEditor name
+		default: $c shift command
+		do: [ :target | target editor compareToClipboard: nil ]
+		description: 'Compare selection to clipboard'.

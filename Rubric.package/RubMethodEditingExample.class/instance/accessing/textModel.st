@@ -1,2 +1,2 @@
 textModel
-	^ textModel ifNil: [ textModel := RubSmalltalkMethodEditorModel new client: self]
+	^ textModel ifNil: [ textModel := RubSmalltalkMethodEditorModel new interactionModel: self]
