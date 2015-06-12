@@ -13,10 +13,7 @@ buildNewSourceTextArea
 		hResizing: #spaceFill; 
 		font: StandardFonts codeFont;
 		spaceFillWeight: 3;
-		on: #keyStroke send: #keyStroke:fromSourceCodeMorph: to: self;
-		warningLimit: self warningLimit.
+		on: #keyStroke send: #keyStroke:fromSourceCodeMorph: to: self.
 		
 	self setSourceCodeShorcutsTo: sourceTextArea.
-	sourceTextAreaLimit := sourceTextArea warningLimit.
-	sourceTextArea warningLimit: -1.
 	^ sourceTextArea 

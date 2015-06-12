@@ -1,3 +1,3 @@
 textMorphClass
 
-	^ PluggableTextMorphWithLimits
+	^ PluggableTextMorph

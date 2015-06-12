@@ -9,6 +9,7 @@ needsParenthesisFor: aNode
 			ifTrue: [ ^ true ] ].
 	(aNode precedence < parent precedence) ifTrue: [ ^ false ].
 	(aNode isAssignment and: [ parent isAssignment ]) ifTrue: [ ^ false ].
+	aNode parent isArray ifTrue: [ ^ false ].
 	(aNode isAssignment and: [ aNode isCascade ]) ifTrue: [ ^ true ].
 	(aNode precedence = 0) ifTrue: [ ^ false ].
 	(aNode isMessage) ifFalse: [ ^ true ].

@@ -1,5 +1,5 @@
 spotterCatalogProjectsFor: aStep
-	<spotterOrder: 10>
+	<spotterOrder: 90>
 	
 	aStep listProcessor			 
 			allCandidates: [ CatalogProvider new refresh projects ];

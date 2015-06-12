@@ -4,6 +4,5 @@ browseVersions
 	
 	self selectedClass ifNotNil: [:class |
 		self selectedSelector ifNotNil: [:selector || method |
-			method := class compiledMethodAt: selector 
-								ifAbsent: [ ^ self inform: 'Sorry, only actual methods have retrievable versions.' ].
+			method := self createRingMethodForSelector: selector inClass: class.
 			self model browseVersionsFrom: method ]]

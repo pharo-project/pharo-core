@@ -1,7 +1,7 @@
-script50106
+script50107
 
-	^ 'AST-Core-TheIntegrator.302.mcz
-AST-Tests-Core-TheIntegrator.68.mcz
+	^ 'AST-Core-TheIntegrator.304.mcz
+AST-Tests-Core-TheIntegrator.70.mcz
 Announcements-Core-MarcusDenker.55.mcz
 Announcements-Help-TheIntegrator.12.mcz
 Announcements-Tests-Core-TheIntegrator.25.mcz
@@ -163,7 +163,7 @@ Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
 Morphic-Widgets-Extra-TheIntegrator.22.mcz
 Morphic-Widgets-List-TheIntegrator.18.mcz
 Morphic-Widgets-NewList-TheIntegrator.5.mcz
-Morphic-Widgets-Pluggable-TheIntegrator.53.mcz
+Morphic-Widgets-Pluggable-TheIntegrator.55.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.23.mcz
 Morphic-Widgets-Tabs-TheIntegrator.14.mcz
 Morphic-Widgets-Taskbar-StephaneDucasse.7.mcz
@@ -185,7 +185,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.92.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-TheIntegrator.947.mcz
+Nautilus-TheIntegrator.949.mcz
 Nautilus-Tests-StephaneDucasse.16.mcz
 NautilusCommon-TheIntegrator.264.mcz
 NautilusRefactoring-TheIntegrator.222.mcz
@@ -267,7 +267,7 @@ Spec-Layout-TheIntegrator.67.mcz
 Spec-MorphicAdapters-TheIntegrator.209.mcz
 Spec-PolyWidgets-TheIntegrator.59.mcz
 Spec-Tests-TheIntegrator.47.mcz
-Spec-Tools-TheIntegrator.270.mcz
+Spec-Tools-TheIntegrator.272.mcz
 StartupPreferences-TheIntegrator.133.mcz
 System-Announcements-TheIntegrator.100.mcz
 System-Caching-TheIntegrator.26.mcz
@@ -299,10 +299,9 @@ Text-Edition-TheIntegrator.87.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.26.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.83.mcz
+Tool-Base-TheIntegrator.85.mcz
 Tool-Browser-Old-TheIntegrator.43.mcz
 Tool-Catalog-EstebanLorenzano.12.mcz
-Tool-ConfigurationBrowser-TheIntegrator.21.mcz
 Tool-Diff-TheIntegrator.2.mcz
 Tool-ExternalBrowser-TheIntegrator.17.mcz
 Tool-FileList-TheIntegrator.34.mcz
