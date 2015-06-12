@@ -1,7 +1,7 @@
 arrowDown: aMethod
 
 	| methods methodsNames index |
-	methods := aMethod methodClass allSubclasses gather: [:each | each methods ].
+	methods := aMethod methodClass allSubclasses flatCollect: [:each | each methods ].
 	methods := methods select: [:each | each selector = aMethod selector ].
 	methods size = 1
 		 ifTrue: [ ^ self model class openOnMethod: methods first ].

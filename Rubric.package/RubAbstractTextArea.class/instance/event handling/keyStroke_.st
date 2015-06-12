@@ -1,6 +1,7 @@
-keyStroke: evt
+keyStroke: anEvent
 	"Handle a keystroke event."
-	self scrollPane ifNotNil: [ :sp | (sp scrollByKeyboard: evt) ifTrue: [^self] ].
-	evt isUserInterrupt ifTrue: [^self].
-	self handleEdit: [ self editor keystroke: evt ].
+	anEvent hand anyButtonPressed ifTrue: [ ^self ].
+	self scrollPane ifNotNil: [ :sp | (sp scrollByKeyboard: anEvent) ifTrue: [^self] ].
+	anEvent isUserInterrupt ifTrue: [^self].
+	self handleEdit: [ self editor keystroke: anEvent ].
 	self scrollSelectionIntoView: nil

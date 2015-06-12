@@ -22,7 +22,7 @@ classComment: aString stamp: aStamp
 			ifNil: [0] 
 			ifNotNil: [oldCommentRemoteString sourcePointer].
 	
-	(file := SourceFiles at: 2) ifNotNil: [
+	(file := SourceFiles changesFileStream) ifNotNil: [
 		file setToEnd; cr; nextPut: $!.	"directly"
 		"Should be saying (file command: 'H3') for HTML, but ignoring it here"
 		header := String streamContents: [:strm | strm nextPutAll: self name;

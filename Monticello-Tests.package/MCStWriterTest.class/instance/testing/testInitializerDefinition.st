@@ -1,9 +1,10 @@
 testInitializerDefinition
 	|chunk lastChunk penultChunk|
 	writer writeSnapshot: self mockSnapshot.
-	stream reset.
+	stream := ChunkReadStream on: stream contents readStream.
+	
 	[stream atEnd] whileFalse:
-		[chunk := stream nextChunk.
+		[chunk := stream next.
 		chunk isAllSeparators ifFalse: [
 			penultChunk := lastChunk.
 			lastChunk := chunk]].

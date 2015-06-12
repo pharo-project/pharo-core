@@ -1,3 +1,3 @@
 methods
 
-	^ self classes gather: [:e | e methods ]
+	^ self classes flatCollect: [:e | e methods ]

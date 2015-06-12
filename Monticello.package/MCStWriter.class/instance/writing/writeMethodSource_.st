@@ -1,2 +1,2 @@
 writeMethodSource: definition
-	stream nextChunkPut: definition source
+	self basicChunkContents: [:str | str nextPutAll: definition source ].

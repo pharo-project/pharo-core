@@ -7,6 +7,6 @@ installNewChangesFile
 	self backupOldChanges.
 	
 	self originalFile ensureDelete.
-	newChangesFile moveTo: self originalFile .
+	newChangesFile moveTo: self originalFile.
 	
 	Smalltalk openSourceFiles.

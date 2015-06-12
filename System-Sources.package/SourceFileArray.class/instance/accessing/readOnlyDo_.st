@@ -1,8 +1,7 @@
 readOnlyDo: aBlock
-	| sourceFilesCopy |
-	"get a read only copy of each file"
-	sourceFilesCopy := self collect: [:aFile | aFile ifNotNil: [ aFile readOnlyCopy ] ].
+	"Value a block with a read only copy of self."
 
-	[ aBlock value: sourceFilesCopy ] ensure: [
-		"close the files"
-		sourceFilesCopy do: [ :aFile | aFile ifNotNil: [ aFile close ] ] ]
+	| copy |
+	copy := self readOnlyCopy.
+
+	^ [ aBlock value: copy ] ensure: [ copy close ]

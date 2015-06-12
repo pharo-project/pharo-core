@@ -17,7 +17,7 @@ writeDefinitions: aCollection
 		collect: [:each | each name ].
 				
 	orderedClasses do: [:className |
-		stream nextPutAll: (presentInitializers detect: [:each | each key = className]) value contents].
+		self chunkContents: [ :str | str nextPutAll: (presentInitializers detect: [:each | each key = className]) value contents] ].
 	
 	(notPresentInitializers asSortedCollection: [:a :b | a key <= b key]) do: [:association |
-		stream nextPutAll: association value contents ].
+		self chunkContents: [ :str | str  nextPutAll: association value contents ] ].

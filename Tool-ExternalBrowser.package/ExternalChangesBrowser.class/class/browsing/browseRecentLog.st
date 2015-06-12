@@ -1,3 +1,3 @@
 browseRecentLog
 	
-	^ self openOnStream: (SourceFiles at: 2)
+	^ self openOnStream: SourceFiles changesFileStream

@@ -1,3 +1,3 @@
 packages
 
-	^ (self classes gather: [:each | each packages]) asSet
+	^ (self classes flatCollect: [:each | each packages]) asSet

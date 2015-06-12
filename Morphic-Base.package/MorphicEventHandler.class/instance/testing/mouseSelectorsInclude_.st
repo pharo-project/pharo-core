@@ -12,5 +12,5 @@ mouseSelectorsInclude: selector
 		mouseLeaveDragging
 		doubleClick).
 	
-	allSubscriptions := subscriptions values gather: [ :e | e ].
+	allSubscriptions := subscriptions values flatCollect: [ :e | e ].
 	^ allSubscriptions anySatisfy: [ :e | (mouseEventTypes includes: e event) and: [ e selector = selector ] ].

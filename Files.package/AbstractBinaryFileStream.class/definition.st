@@ -1,4 +1,4 @@
-Object subclass: #AbstractBinaryFileStream
+Stream subclass: #AbstractBinaryFileStream
 	instanceVariableNames: 'file'
 	classVariableNames: ''
 	poolDictionaries: ''

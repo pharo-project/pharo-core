@@ -8,7 +8,7 @@ selectorFromPattern: pattern withCaption: aCaption startingFrom: aClass
 			(Character cr).
 			(Character tab)}) isEmpty
 		ifTrue: [ ^ nil ].
-	potentialSelectorsList := aClass withAllSuperclasses reverse gather: [:each | each methodDict ].
+	potentialSelectorsList := aClass withAllSuperclasses reverse flatCollect: [:each | each methodDict ].
 	Symbol
 		hasInterned: toMatch
 		ifTrue: [ :patternSymbol || result |

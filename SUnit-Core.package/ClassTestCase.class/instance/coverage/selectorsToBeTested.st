@@ -1,4 +1,4 @@
 selectorsToBeTested
 
-	^ ( { self classToBeTested. self classToBeTested class } gather: [:c | c selectors]) 
+	^ ( { self classToBeTested. self classToBeTested class } flatCollect: [:c | c selectors]) 
 			difference: self selectorsToBeIgnored

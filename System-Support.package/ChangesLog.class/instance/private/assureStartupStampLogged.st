@@ -3,7 +3,7 @@ assureStartupStampLogged
 
 	| changesFile |
 	startupStamp ifNil: [ ^ self ].
-	(changesFile := SourceFiles at: 2) 
+	(changesFile := SourceFiles changesFileStream) 
 		ifNil: [ ^ self ].
 	changesFile isReadOnly
 		ifTrue: [ ^ self ].

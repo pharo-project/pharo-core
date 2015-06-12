@@ -22,8 +22,8 @@ Answer an instance of NBFnSpec class
 	
 	] ifFalse: [
 
-		argsSpec := aFunctionDefinition last gather: [:ea | ea asString, ' ' ].
-		typeAndName := aFunctionDefinition allButLast  gather: [:ea | ea asString, ' ' ].
+		argsSpec := aFunctionDefinition last flatCollect: [:ea | ea asString, ' ' ].
+		typeAndName := aFunctionDefinition allButLast  flatCollect: [:ea | ea asString, ' ' ].
 	].
 	
 	stream := typeAndName readStream.

@@ -1,3 +1,3 @@
 methodsForCategories: aCollection
 
-	^ aCollection gather: [:e | self methodsForCategory: e ]
+	^ aCollection flatCollect: [:e | self methodsForCategory: e ]

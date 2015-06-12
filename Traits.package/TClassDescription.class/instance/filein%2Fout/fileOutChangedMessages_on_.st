@@ -5,4 +5,3 @@ fileOutChangedMessages: aSet on: aFileStream
 	self fileOutChangedMessages: aSet
 		on: aFileStream
 		moveSource: false
-		toFile: 0

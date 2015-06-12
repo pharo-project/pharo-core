@@ -1,3 +1,3 @@
 whatToDisplayIn: aBrowser
 
-	^ self changes gather: [:each | each whatToDisplayIn: aBrowser ]
+	^ self changes flatCollect: [:each | each whatToDisplayIn: aBrowser ]

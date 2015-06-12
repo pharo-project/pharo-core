@@ -1,2 +1,2 @@
 readStream: aReadStream
-	readStream := aReadStream
+	readStream := ChunkReadStream on: aReadStream

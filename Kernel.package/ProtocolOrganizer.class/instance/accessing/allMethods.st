@@ -1,3 +1,3 @@
 allMethods
 
-	^ self protocols gather: [:p | p methods ].
+	^ self protocols flatCollect: [:p | p methods ].

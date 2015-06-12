@@ -1,12 +1,12 @@
 writeMetaclassDefinition: definition
 	self chunkContents: [:str |
-		str	nextPutAll: definition className;
+		str	 nextPutAll: definition className;
 			nextPutAll: ' class';
 			cr; tab.
 			definition hasClassTraitComposition ifTrue: [
-				str	nextPutAll: 'uses: ';
+				str	 nextPutAll: 'uses: ';
 					nextPutAll: definition classTraitCompositionString;
 					cr; tab].
-			str	nextPutAll: 'instanceVariableNames: ''';
+			str	 nextPutAll: 'instanceVariableNames: ''';
 				nextPutAll: definition classInstanceVariablesString;
 				nextPut: $']

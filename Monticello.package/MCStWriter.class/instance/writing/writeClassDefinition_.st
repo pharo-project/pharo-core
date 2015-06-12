@@ -1,2 +1,2 @@
 writeClassDefinition: definition
-	self chunkContents: [:s | definition printDefinitionOn: stream]
+	self chunkContents: [:s | definition printDefinitionOn: s].

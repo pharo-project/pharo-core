@@ -1,4 +1,3 @@
 openForRead
 
-	self openForWrite: false.
-	self position: self size.
+	self openForWrite: false

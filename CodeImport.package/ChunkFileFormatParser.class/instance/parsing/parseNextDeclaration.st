@@ -2,13 +2,13 @@ parseNextDeclaration
 	| isMetadata nextChunk |
 	readStream skipSeparators.
 	
-	(self isNextStyleChunk) ifTrue: [
-		self addDeclaration: (StyleChunk contents: (self readUpToEndOfStyleChunk)).
+	(readStream isNextStyleChunk) ifTrue: [
+		self addDeclaration: (StyleChunk contents: (readStream readUpToEndOfStyleChunk)).
 		^self
 	].
 
-	isMetadata := self isNextChunkMetaData.
-	nextChunk := self nextChunk.
+	isMetadata := readStream isNextChunkMetaData.
+	nextChunk := readStream next.
 	
 	isMetadata
 		ifFalse: [ 

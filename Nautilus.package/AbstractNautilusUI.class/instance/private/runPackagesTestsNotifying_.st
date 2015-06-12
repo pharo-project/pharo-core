@@ -6,7 +6,7 @@ runPackagesTestsNotifying: aBoolean
 			packages size > 1
 				ifTrue: [ 'Packages: ' ]
 				ifFalse: [ 'Package: ' ].
-			classes := packages gather: [:package | package definedClasses ].
+			classes := packages flatCollect: [:package | package definedClasses ].
 			classes := classes select: [:class | class isTestCase ].
 			self runClassTests: classes notifying: false.
 			aBoolean

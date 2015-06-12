@@ -6,4 +6,4 @@ viewContentsInWorkspace
 	self reference streamWritable: false do: [ :stream|
 		aString := stream setConverterForCode contentsOfEntireFile ].
 	
-	UIManager default edit: aString label: 'Workspace from ', self reference basename
+	Smalltalk tools workspace openContents: aString label: 'Workspace from ', self reference basename

@@ -6,5 +6,6 @@ itemsForAnyFile
 	services add: self serviceCopyName. 
 	services add: self serviceRenameFile. 
 	services add: self serviceDeleteFile.
+	services add: self serviceViewContents.
 	services add: self serviceViewContentsInWorkspace.
 	^ services

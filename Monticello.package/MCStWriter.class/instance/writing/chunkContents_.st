@@ -1,2 +1,5 @@
 chunkContents: aBlock
-	stream cr; nextChunkPut: (String streamContents: aBlock); cr
+	stream
+		cr;
+		nextPut: (String streamContents: aBlock);
+		cr

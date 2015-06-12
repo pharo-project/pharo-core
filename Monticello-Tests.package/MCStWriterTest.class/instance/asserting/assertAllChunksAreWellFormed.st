@@ -1,5 +1,3 @@
 assertAllChunksAreWellFormed
-	stream reset.
-	stream 
-		untilEnd: [self assertChunkIsWellFormed: stream nextChunk]
-		displayingProgress: 'Checking syntax...'
+	stream := ChunkReadStream on: stream contents readStream.
+	self assertChunkIsWellFormed: stream next.

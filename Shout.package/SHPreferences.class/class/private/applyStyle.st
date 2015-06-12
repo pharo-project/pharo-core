@@ -1,5 +1,5 @@
 applyStyle
 	| table |
-	table := Groups values gather: [:group | group styleForTable].
+	table := Groups values flatCollect: [:group | group styleForTable].
 	SHTextStylerST80 styleTable: table.
 	SHRBTextStyler styleTable: table.

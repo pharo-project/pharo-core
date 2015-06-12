@@ -9,4 +9,4 @@ definitionPatterns
 		'`@superclass variableWordSubclass: `#className uses: `@traitComposition instanceVariableNames: `#instanceVariableNames classVariableNames: `#classVariableNames poolDictionaries: `#poolDictionaries category: `#category'
 		'`@superclass weakSubclass: `#className instanceVariableNames: `#instanceVariableNames classVariableNames: `#classVariableNames poolDictionaries: `#poolDictionaries category: `#category'
 		'`@superclass weakSubclass: `#className uses: `@traitComposition instanceVariableNames: `#instanceVariableNames classVariableNames: `#classVariableNames poolDictionaries: `#poolDictionaries category: `#category')
-		gather: [ :each | Array with: each with: (each copyReplaceAll: '`@superclass' with: 'ProtoObject') , '. `className superclass: `@superclass' ]
+		flatCollect: [ :each | Array with: each with: (each copyReplaceAll: '`@superclass' with: 'ProtoObject') , '. `className superclass: `@superclass' ]

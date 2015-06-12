@@ -1,6 +1,6 @@
 specSelectors
 	
-	^  self class withAllSuperclasses gather: [ :class |
+	^  self class withAllSuperclasses flatCollect: [ :class |
 		(((SpecPragmaCollector behavior: class)
 			filter: [ :pragma | pragma keyword = #spec])
 			reset;

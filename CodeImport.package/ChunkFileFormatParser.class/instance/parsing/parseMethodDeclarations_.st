@@ -26,7 +26,7 @@ parseMethodDeclarations: methodsPreamble
 				ifTrue: [ methodsPreamble at: 6 ]
 				ifFalse: [ methodsPreamble at: 5 ] ].
 	[ 
-	methodSource := self nextChunk.
+	methodSource := readStream next.
 	methodSource notEmpty ]
 		whileTrue: [ 
 			self

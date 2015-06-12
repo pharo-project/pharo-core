@@ -2,7 +2,7 @@ logSnapshot: save andQuit: quit
 	"Log into the changes file the fact that the session will be either snapshoted, quit, or both."
 
 	| message |	
-	(SourceFiles at: 2) ifNil: [ ^ self ].
+	SourceFiles changesFileStream ifNil: [ ^ self ].
 
 	message := String
 		streamContents: [ :s | 
@@ -29,7 +29,7 @@ logSnapshot: save andQuit: quit
 
 	save ifTrue: [ 
 		Smalltalk lastQuitLogPosition: (
-			(SourceFiles at: 2)
+			SourceFiles changesFileStream
 				setToEnd;
 				position) ].
 

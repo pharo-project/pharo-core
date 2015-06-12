@@ -1,3 +1,3 @@
 clusters
 	
-	^self clusterBuckets gather: [:c | c ].
+	^self clusterBuckets flatCollect: [:c | c ].

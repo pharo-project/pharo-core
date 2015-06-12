@@ -1,2 +1,2 @@
 changes
-	^ rules gather: [ :each  | each changes ]
+	^ rules flatCollect: [ :each  | each changes ]

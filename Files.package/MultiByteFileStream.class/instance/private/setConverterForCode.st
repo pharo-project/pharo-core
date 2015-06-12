@@ -1,8 +1,8 @@
 setConverterForCode
 
 	| current |
-	(SourceFiles at: 2)
-		ifNotNil: [self fullName = (SourceFiles at: 2) fullName ifTrue: [^ self]].
+	SourceFiles changesFileStream ifNotNil: [ :aStream |
+		self fullName = aStream fullName ifTrue: [ ^ self ] ].
 	current := self converter saveStateOf: self.
 	self position: 0.
 	self binary.

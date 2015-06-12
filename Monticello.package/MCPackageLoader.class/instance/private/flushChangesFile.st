@@ -1,4 +1,3 @@
 flushChangesFile
-	"The changes file is second in the SourceFiles array"
 
-	(SourceFiles at: 2) ifNotNil: [:f | f flush]
+	SourceFiles changesFileStream ifNotNil: [:f | f flush ]

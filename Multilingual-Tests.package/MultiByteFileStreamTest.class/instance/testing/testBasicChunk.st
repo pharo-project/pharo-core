@@ -1,16 +1,16 @@
 testBasicChunk
 	 | internalStream chunkKey |
-	internalStream := self chunkString readStream.
+	internalStream := ChunkReadStream on: self chunkString readStream.
 	chunkKey := OrderedCollection new.
 	[internalStream atEnd] whileFalse: 
 		[ | chunk |
-		chunk := internalStream nextChunk.
+		chunk := internalStream next.
 		chunkKey add: {internalStream position. chunk size. chunk}].
 	[self writeChunkToFile.
-	FileStream readOnlyFileNamed: 'chunkTest.txt' do: [:fileStream |
+	(File openReadOnlyFileNamed: 'chunkTest.txt' asFileReference fullName) readStreamDo: [:fileStream | | stream |
+		stream := ChunkReadStream on: (ZnCharacterReadStream on: fileStream).
 		1 to: chunkKey size do: [:ix | |chunk|
-			chunk := fileStream nextChunk.
-			self assert: (chunkKey at: ix) first equals: fileStream position.
+			chunk := stream next.
 			self assert: (chunkKey at: ix) second equals: chunk size.
 			self assert: (chunkKey at: ix) last equals: chunk.]].
 	] ensure: [

@@ -6,10 +6,10 @@ writeMethodSource: aMethod
 			nextPutAll: ' methodsFor: ';
 			store: aMethod category asString;
 			nextPutAll: ' stamp: ';
-			store: (self stampOfMethod: aMethod) ].
+			store: aMethod timeStamp ].
 	
 	self
-		writeRemoteString: (self sourceCodeOfMethod: aMethod)
+		writeRemoteString: aMethod sourceCode
 		for: aMethod.
 		
 	stream nextPutAll: ' !'; cr.

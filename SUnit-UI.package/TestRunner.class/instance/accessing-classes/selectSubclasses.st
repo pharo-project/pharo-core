@@ -4,7 +4,7 @@ selectSubclasses
 	
 	| classesForPackages |
 	classesForPackages := self findClassesForPackages: packagesSelected.	
-	classesSelected := (classesSelected gather: [ :class |
+	classesSelected := (classesSelected flatCollect: [ :class |
 		class withAllSubclasses select: [ :each |
 			classesForPackages includes: each ] ])
 		asSet.

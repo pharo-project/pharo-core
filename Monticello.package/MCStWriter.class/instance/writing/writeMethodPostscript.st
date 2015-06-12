@@ -1,5 +1,3 @@
 writeMethodPostscript
-	stream
-		space;
-		nextPut: $!;
-		cr
+	self basicChunkContents: [:str | str space ].
+	stream cr.

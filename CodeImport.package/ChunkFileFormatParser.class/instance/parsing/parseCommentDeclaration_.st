@@ -18,7 +18,7 @@ parseCommentDeclaration: commentPreamble
 	self
 		addDeclaration:
 			(ClassCommentChunk
-				contents: self nextChunk
+				contents: readStream next
 				behaviorName: behaviorName
 				isMeta: isMeta
 				stamp: stamp)

@@ -1,0 +1,3 @@
+next
+
+	^ decoratedStream next

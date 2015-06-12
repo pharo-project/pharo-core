@@ -2,12 +2,12 @@ logChange: aStringOrText
 	"Write the argument, aString, onto the changes file."
 
 	| aString changesFile |
-	(SourceFiles at: 2) ifNil: [ ^ self ].
+	SourceFiles changesFileStream ifNil: [ ^ self ].
 	self assureStartupStampLogged.
 	aString := aStringOrText asString.
 	(aString findFirst: [ :char | char isSeparator not ]) = 0
 		ifTrue: [ ^ self ].	"null doits confuse replay"
-	changesFile := SourceFiles at: 2.
+	changesFile := SourceFiles changesFileStream.
 	changesFile isReadOnly
 		ifTrue: [ ^ self ].
 	changesFile

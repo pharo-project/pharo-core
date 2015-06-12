@@ -1,3 +1,3 @@
 leaves
 
-	^ rules gather: [ :rule | rule leaves ]	
+	^ rules flatCollect: [ :rule | rule leaves ]	

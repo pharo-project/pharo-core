@@ -1,0 +1,1 @@
+My subclasses have values specific to the active process and to the current session (Smalltalk session). They can be read with #value and set with #value:

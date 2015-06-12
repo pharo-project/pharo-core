@@ -1,2 +1,2 @@
 filePosition
-	^SourceFiles filePositionFromSourcePointer: self sourcePointer
+	^ SourceFiles filePositionFromSourcePointer: self sourcePointer

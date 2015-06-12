@@ -4,7 +4,7 @@ backupTo: newNameWithoutSuffix
 	Results:
 		true  when continuing in the new session
 		false for the current session"
-	(SourceFiles at: 2) ifNotNil:[
+	SourceFiles changesFileStream ifNotNil:[
 		self 
 			closeSourceFiles; "so copying the changes file will always work"
 			saveChangesInFileNamed: (self fullNameForChangesNamed: newNameWithoutSuffix)].

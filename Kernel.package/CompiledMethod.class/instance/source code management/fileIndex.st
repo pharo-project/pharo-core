@@ -1,2 +1,3 @@
 fileIndex
-	^SourceFiles fileIndexFromSourcePointer: self sourcePointer
+
+	^ SourceFiles fileIndexFromSourcePointer: self sourcePointer

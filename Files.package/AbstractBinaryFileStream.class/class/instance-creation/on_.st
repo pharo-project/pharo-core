@@ -1,5 +1,6 @@
 on: aFile 
 	
-	^ self new
+	^ self basicNew
+		initialize;
 		file: aFile;
 		yourself
