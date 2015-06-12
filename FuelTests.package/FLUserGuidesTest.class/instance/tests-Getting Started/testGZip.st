@@ -1,16 +1,14 @@
 testGZip
 
 	| materialization |
-	FileStream forceNewFileNamed: 'number.fuel.zip' do: [:aFileStream | 
+	(File forceNewFileNamed: 'number.fuel.zip') writeStreamDo: [:aFileStream | 
 		|gzip|
-		aFileStream binary.
 		gzip := GZipWriteStream on: aFileStream.
 		FLSerializer newDefault serialize: 123 on: gzip.
 		gzip close. ].
 	
-	FileStream oldFileNamed: 'number.fuel.zip' do: [:aFileStream | 
+	(File openFileNamed: 'number.fuel.zip') readStreamDo: [:aFileStream | 
 		|gzip|
-		aFileStream binary.
 		gzip := GZipReadStream on: aFileStream.		
 		materialization := FLMaterializer newDefault 
 			materializeFrom: gzip.

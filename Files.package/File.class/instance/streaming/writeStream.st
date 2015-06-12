@@ -1,0 +1,2 @@
+writeStream
+	^ BinaryFileStream on: self

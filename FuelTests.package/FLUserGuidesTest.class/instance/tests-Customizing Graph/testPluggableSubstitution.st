@@ -1,17 +1,17 @@
 testPluggableSubstitution
 
-	| materialized objectToSerialize aSerializer |
+	| objectToSerialize aSerializer |
 	
 	objectToSerialize := Array with: 'hello' with: '' writeStream.
 	
-	FileStream forceNewFileNamed: 'demo.fuel' do: [ :aStream |
+	(File forceNewFileNamed: 'demo.fuel') writeStreamDo: [ :aStream |
 		aSerializer := FLSerializer newDefault.
 		aSerializer analyzer when: [ :o | o isStream ] substituteBy: [ :o | nil ].
 		aSerializer		 
 			serialize: objectToSerialize
-	 		on: aStream binary ].
+	 		on: aStream ].
 
-	FileStream oldFileNamed: 'demo.fuel' do: [ :aStream |
+	(File openFileNamed: 'demo.fuel') readStreamDo: [ :aStream |
 		(FLMaterializer newDefault 
-			materializeFrom: aStream binary) 
+			materializeFrom: aStream) 
 			root ].

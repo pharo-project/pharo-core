@@ -1,18 +1,18 @@
 testShowingProgressBar
-	| materializedString |
+
 	(Smalltalk globals includesKey: #FLProgressSerialization) ifFalse: [
 		" Needs:
 		(ConfigurationOfFuel project latestVersion) load: 'FuelProgressUpdate'.
 		"
 		^self ].
 	
-	FileStream forceNewFileNamed: 'numbers.fuel' do: [:aStream |
+	(File forceNewFileNamed: 'numbers.fuel') writeStreamDo: [:aStream |
 		FLSerializer newDefault 
 			showProgress;
 			serialize: (1 to: 200000) asArray 
-			on: aStream binary ].
+			on: aStream ].
 	
-	FileStream oldFileNamed: 'numbers.fuel' do: [:aStream | 
+	(File openFileNamed: 'numbers.fuel') readStreamDo: [:aStream | 
 		FLMaterializer newDefault 
 			showProgress;
-			materializeFrom: aStream binary ].
+			materializeFrom: aStream ].
