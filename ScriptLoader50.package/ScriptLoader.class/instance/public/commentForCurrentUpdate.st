@@ -1,21 +1,9 @@
 commentForCurrentUpdate
- ^ '15764 Clean up discouraged uses of SourceFiles and friends (1)
-	https://pharo.fogbugz.com/f/cases/15764
+ ^ '15276 radioUnselectedFormContents and radioSelectedFormContents broken in Pharo3UIThemeIcons
+	https://pharo.fogbugz.com/f/cases/15276
 
-12986 Increase speed of accessing sourceCode
-	https://pharo.fogbugz.com/f/cases/12986
+15766 remove explicit isKindOf: PluggableTextFieldMorph in rubric
+	https://pharo.fogbugz.com/f/cases/15766
 
-15589 Mouse selection issue in Rubric text editor
-	https://pharo.fogbugz.com/f/cases/15589
-
-15577 localHostName implementation does not use dedicated primitives
-	https://pharo.fogbugz.com/f/cases/15577
-
-15762 Cleaning nextChunk
-	https://pharo.fogbugz.com/f/cases/15762
-
-15758 Move users of gather: to flatCollect:
-	https://pharo.fogbugz.com/f/cases/15758
-
-15711 The File Browser has a Context Menu "Workspace with Contents". It opens an Edit Window (String Morph), but not a Workspace ... 
-	https://pharo.fogbugz.com/f/cases/15711'
+15767 remove explicit isKindOf: PluggableTextFieldMorph
+	https://pharo.fogbugz.com/f/cases/15767'

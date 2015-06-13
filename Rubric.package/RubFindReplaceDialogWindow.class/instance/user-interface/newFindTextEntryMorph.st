@@ -20,4 +20,5 @@ newFindTextEntryMorph
 		autoFit: true;
 		wrapFlag: false;
 		margins: (2@1 corner: 2@1).
+	findTextField := pt.
 	^ pt

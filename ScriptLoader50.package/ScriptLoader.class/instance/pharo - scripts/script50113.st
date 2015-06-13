@@ -1,4 +1,4 @@
-script50112
+script50113
 
 	^ 'AST-Core-TheIntegrator.304.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -208,7 +208,7 @@ OpalDecompiler-TheIntegrator.33.mcz
 OpalTools-TheIntegrator.16.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz
-Polymorph-Widgets-TheIntegrator.1221.mcz
+Polymorph-Widgets-TheIntegrator.1223.mcz
 PragmaCollector-TheIntegrator.3.mcz
 ProfStef-Core-TheIntegrator.59.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -236,7 +236,7 @@ Ring-Monticello-TheIntegrator.34.mcz
 Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.83.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
-Rubric-AlainPlantec.219.mcz
+Rubric-AlainPlantec.220.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
 SUnit-Core-TheIntegrator.147.mcz
@@ -294,7 +294,7 @@ System-VMEvents-TheIntegrator.5.mcz
 Tests-TheIntegrator.729.mcz
 Text-Core-TheIntegrator.35.mcz
 Text-Diff-StephaneDucasse.4.mcz
-Text-Edition-TheIntegrator.87.mcz
+Text-Edition-TheIntegrator.89.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.26.mcz
 Text-Tests-EstebanLorenzano.7.mcz
