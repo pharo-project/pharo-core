@@ -4,6 +4,7 @@ parseBlock
 	self step.
 	node := self blockNodeClass new. 
 	self parseBlockArgsInto: node.
+	self addCommentsTo: node.		
 	node left: position.
 	node body: self sequenceNodeClass new.
 	(self parseStatements: false into: node body).
