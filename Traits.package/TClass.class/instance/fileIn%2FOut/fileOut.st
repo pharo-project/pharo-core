@@ -9,7 +9,7 @@ fileOut
 	self hasSharedPools ifTrue: [
 		self shouldFileOutPools
 			ifTrue: [self fileOutSharedPoolsOn: internalStream]].
-	self fileOutOn: internalStream moveSource: false toFile: 0.
+	self fileOutOn: internalStream.
 	internalStream trailer.
 
 	FileStream writeSourceCodeFrom: internalStream baseName: self name isSt: true

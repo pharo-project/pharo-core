@@ -1,2 +1,0 @@
-ruleCollectionMessagesToExternalObjectRuleV1FalsePositive
-^ #()

@@ -14,7 +14,7 @@ testMetaclassAndTraitClassRespectsPolymorphismRules
 	baseClass classClass -> they have their equivalent for ClassTraits (baseTrait classTrait)
 	environment postCopy -> the implementation for ClassTrait is in TBehavior
 	veryDeepCopyWith: -> the implementation for ClassTraits is in Object
-	fileOutOn:moveSource:toFile: fileOutOn:moveSource:toFile:initializing: -> the implementation for ClassTraits is in TClassDescription"
+	fileOutOn: fileOutOn:initializing: -> the implementation for ClassTraits is in TClassDescription"
 	self
 		assert:
 			(Metaclass localSelectors difference: ClassTrait localSelectors)
@@ -26,8 +26,8 @@ testMetaclassAndTraitClassRespectsPolymorphismRules
 					#classClass.
 					#isClass.
 					#environment.
-					#fileOutOn:moveSource:toFile:.
-					#fileOutOn:moveSource:toFile:initializing:.
+					#fileOutOn:.
+					#fileOutOn:initializing:.
 					#postCopy.
 					#traitComposition.
 					#traitComposition:.

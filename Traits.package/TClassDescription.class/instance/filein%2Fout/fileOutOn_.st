@@ -1,6 +1,7 @@
-fileOutOn: aFileStream 
+fileOutOn: aFileStream
 	"File a description of the receiver on aFileStream."
 
-	self fileOutOn: aFileStream
-		moveSource: false
-		toFile: 0
+	aFileStream nextChunkPut: self definition.
+	self organization putCommentOnFile: aFileStream forClass: self.
+	self organization categories 
+		do: [ :heading | self fileOutCategory: heading on: aFileStream ]

@@ -1,2 +1,0 @@
-ruleOnlyReadOrWrittenTemporaryRuleV1FalsePositive
-^ #()

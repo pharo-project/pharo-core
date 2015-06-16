@@ -1,2 +1,0 @@
-ruleImplementedNotSentRuleV1FalsePositive
-^ #(#(#(#RGMethodDefinition #(#'CommentFalsePositiveWindow class' #openOnCritic:onRule: #true)) #'2013-02-01T15:29:52.617000004+01:00') #(#(#RGMethodDefinition #(#CriticWorkingConfiguration #logInManifest: #false)) #'2013-02-01T15:29:52.617000005+01:00') #(#(#RGMethodDefinition #(#CriticsCache #addCritic:forRule: #false)) #'2013-02-01T15:29:52.617000006+01:00') #(#(#RGMethodDefinition #(#'CommentToDoWindow class' #openOnCritic:onRule: #true)) #'2013-02-01T15:29:52.617000007+01:00') )

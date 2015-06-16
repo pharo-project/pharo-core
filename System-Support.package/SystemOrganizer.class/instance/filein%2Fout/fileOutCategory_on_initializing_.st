@@ -17,8 +17,6 @@ fileOutCategory: category on: aFileStream initializing: aBool
 		do: [:each | 
 			each
 				fileOutOn: aFileStream
-				moveSource: false
-				toFile: 0
-				initializing: false]
+				initializing: false ]
 		separatedBy: [ aFileStream cr; nextPut: Character newPage; cr ].
 	aBool ifTrue: [classes do: [:cls | cls fileOutInitializerOn: aFileStream]].

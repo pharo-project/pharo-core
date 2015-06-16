@@ -27,7 +27,5 @@ fileOutClassDefinition: class on: stream
 		ifFalse: [ ^ self ].
 	class theNonMetaClass organization
 		putCommentOnFile: stream
-		numbered: 0
-		moveSource: false
 		forClass: class theNonMetaClass.
 	stream cr

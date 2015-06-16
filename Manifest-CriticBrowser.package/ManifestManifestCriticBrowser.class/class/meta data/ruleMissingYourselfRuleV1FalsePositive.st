@@ -1,2 +1,0 @@
-ruleMissingYourselfRuleV1FalsePositive
-^ #()

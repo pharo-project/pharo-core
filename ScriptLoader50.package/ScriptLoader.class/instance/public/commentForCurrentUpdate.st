@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '15765 OrderedCollection>>#at: and #at:put is slow
-	https://pharo.fogbugz.com/f/cases/15765
+ ^ '15776 Clean up discouraged uses of SourceFiles and friends (2)
+	https://pharo.fogbugz.com/f/cases/15776
 
-15753 wrong styling for comments
-	https://pharo.fogbugz.com/f/cases/15753
+15681 Manifest-CriticBrowser
+	https://pharo.fogbugz.com/f/cases/15681
 
-15770 Methods are in wrong protocol on ThemeIcons
-	https://pharo.fogbugz.com/f/cases/15770
-
-15711 The File Browser has a Context Menu "Workspace with Contents". It opens an Edit Window (String Morph), but not a Workspace ... 
-	https://pharo.fogbugz.com/f/cases/15711'
+15775 remove some "halt" that where left over
+	https://pharo.fogbugz.com/f/cases/15775'

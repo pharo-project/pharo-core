@@ -21,10 +21,7 @@ fileOutMessage
 					ifTrue:
 						[patchOp definition actualClass
 							printMethodChunk: patchOp definition selector
-							withPreamble: true
-							on: internalStream
-							moveSource: false
-							toFile: nil]
+							on: internalStream ]
 					ifFalse:
 						[internalStream nextChunkPut: patchOp definition className, ' removeSelector: ', patchOp definition selector printString]].
 			patchOp definition isClassDefinition ifTrue:
@@ -34,8 +31,6 @@ fileOutMessage
 						 patchOp definition comment ifNotNil:
 							[patchOp definition actualClass organization
 								putCommentOnFile: internalStream
-								numbered: 1
-								moveSource: false
 								forClass: patchOp definition actualClass]]
 					ifNil:
 						[internalStream nextChunkPut: patchOp definition className, ' removeFromSystem']]].

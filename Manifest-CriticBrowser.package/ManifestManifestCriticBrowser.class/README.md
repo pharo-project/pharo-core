@@ -1,1 +1,0 @@
-ManifestManifestCriticBrowser is the manifest for the Manifest-CriticBrowser package itself.
