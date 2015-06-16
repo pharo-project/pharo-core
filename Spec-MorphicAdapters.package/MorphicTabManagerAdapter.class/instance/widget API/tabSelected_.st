@@ -1,3 +1,3 @@
 tabSelected: aTab
 
-	self model selectedTab: aTab
+	self model selectedTab: aTab model

@@ -1,3 +1,3 @@
 selectedTab: aTab
 
-	selectedTab value: (self tabModelFor: aTab).
+	selectedTab value: aTab

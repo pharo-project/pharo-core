@@ -1,4 +1,4 @@
-script50115
+script50116
 
 	^ 'AST-Core-TheIntegrator.306.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -155,7 +155,7 @@ MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
 MonticelloGUI-TheIntegrator.361.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 Morphic-Base-TheIntegrator.462.mcz
-Morphic-Core-TheIntegrator.180.mcz
+Morphic-Core-TheIntegrator.182.mcz
 Morphic-Examples-TheIntegrator.40.mcz
 Morphic-Widgets-Basic-TheIntegrator.43.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
@@ -217,7 +217,7 @@ RPackage-Tests-TheIntegrator.173.mcz
 RecentSubmissions-StephaneDucasse.233.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.276.mcz
-Refactoring-Critics-TheIntegrator.179.mcz
+Refactoring-Critics-TheIntegrator.180.mcz
 Refactoring-Environment-TheIntegrator.56.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.127.mcz
@@ -256,13 +256,13 @@ Slot-TheIntegrator.628.mcz
 Slot-Tests-TheIntegrator.39.mcz
 SmartSuggestions-TheIntegrator.157.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
-Spec-Core-TheIntegrator.395.mcz
+Spec-Core-TheIntegrator.396.mcz
 Spec-Debugger-TheIntegrator.240.mcz
 Spec-Examples-TheIntegrator.94.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.240.mcz
 Spec-Layout-TheIntegrator.67.mcz
-Spec-MorphicAdapters-TheIntegrator.211.mcz
+Spec-MorphicAdapters-TheIntegrator.212.mcz
 Spec-PolyWidgets-TheIntegrator.59.mcz
 Spec-Tests-TheIntegrator.47.mcz
 Spec-Tools-TheIntegrator.272.mcz
@@ -287,7 +287,7 @@ System-Platforms-TheIntegrator.67.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-Settings-TheIntegrator.311.mcz
 System-Sound-StephaneDucasse.18.mcz
-System-Sources-TheIntegrator.8.mcz
+System-Sources-TheIntegrator.10.mcz
 System-Support-TheIntegrator.1117.mcz
 System-VMEvents-TheIntegrator.5.mcz
 Tests-TheIntegrator.729.mcz

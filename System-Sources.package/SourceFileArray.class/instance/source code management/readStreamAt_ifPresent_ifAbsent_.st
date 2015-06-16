@@ -10,7 +10,7 @@ readStreamAt: sourcePointer ifPresent: presentBlock ifAbsent: absentBlock
 	position = 0 ifTrue: [ ^ absentBlock value ].
 
 	^ self 
-		localProcessReadStreamAtFileIndex: index 
+		readStreamAtFileIndex: index 
 		atPosition: position 
 		ifPresent: presentBlock 
 		ifAbsent: absentBlock

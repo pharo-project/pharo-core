@@ -1,2 +1,2 @@
 handlesKeyboard: evt
-	^ evt keyCharacter == Character tab and: [ self tabAmongFields ]
+	^ true "handle all not handled events"
