@@ -8,5 +8,6 @@ buildWidget
 		hResizing: #spaceFill;
 		dragEnabled: self dragEnabled;
 		dropEnabled: self dropEnabled;
-		setBalloonText: self help.
+		setBalloonText: self help;
+		emphasis: self model emphasis.
 	^ label

@@ -7,10 +7,10 @@ presentation
 			seg color: (Color green alpha: 0.3).
 			seg setBalloonText: 'This sentence should be removed. Click on it to remove it'.
 			seg
-				on: #mouseDown
+				when: #mouseDown
 				send: #value
 				to: [ 
 					seg textArea selectFrom: seg firstIndex to: seg lastIndex.
 					seg textArea replaceSelectionWith: ''.
-					seg delete].
+					seg delete ].
 			t addTextSegment: seg ]

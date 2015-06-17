@@ -20,7 +20,7 @@ mouseDown: evt
 	evt shiftPressed
 		ifTrue: [ ^ self mouseMove: evt ].
 
-	(self hasFocus or: [ self editor hasSelection not ])
+	(self readOnly or: [self hasFocus or: [ self editor hasSelection not ]])
 		ifTrue: [ 
 			| selectors |
 			self scrollPivot: evt hand position.

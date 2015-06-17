@@ -3,5 +3,6 @@ drawSubmorphsOnAthensCanvas: anAthensCanvas
 	for the focus rectangle."
 
 	super drawSubmorphsOnAthensCanvas: anAthensCanvas.
+	self textArea readOnly ifTrue: [ ^self ].
 	(self hasKeyboardFocus or: [ self textArea hasFindReplaceFocus ]) 
 		ifTrue: [self drawKeyboardFocusOnAthensCanvas: anAthensCanvas].

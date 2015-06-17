@@ -1,6 +1,7 @@
 drawOn: aCanvas
 	| bnds adorncolor size fillStyle |
 	super drawOn: aCanvas.
+	self paragraphProvider isReadOnly ifTrue: [ ^self ].
 	self paragraphProvider hasUnacceptedEdits ifFalse: [ ^self ].
 	bnds := self bounds.
 	adorncolor := self paragraphProvider adornmentColor.

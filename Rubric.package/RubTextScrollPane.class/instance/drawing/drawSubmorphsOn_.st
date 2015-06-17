@@ -3,5 +3,6 @@ drawSubmorphsOn: aCanvas
 	for the focus rectangle."
 
 	super drawSubmorphsOn: aCanvas.
+	self textArea readOnly ifTrue: [ ^self ].
 	(self hasKeyboardFocus or: [ self textArea hasFindReplaceFocus ]) 
 		ifTrue: [self drawKeyboardFocusOn: aCanvas].

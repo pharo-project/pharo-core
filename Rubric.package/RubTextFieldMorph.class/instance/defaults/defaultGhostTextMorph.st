@@ -1,0 +1,2 @@
+defaultGhostTextMorph
+	^ super defaultGhostTextMorph beNotWrapped 

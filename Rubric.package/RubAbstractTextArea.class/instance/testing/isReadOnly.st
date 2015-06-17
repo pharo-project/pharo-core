@@ -1,0 +1,2 @@
+isReadOnly
+	^ self readOnly

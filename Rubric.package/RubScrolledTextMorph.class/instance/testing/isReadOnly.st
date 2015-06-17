@@ -1,0 +1,2 @@
+isReadOnly
+	^ self textArea isReadOnly 

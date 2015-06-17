@@ -1,4 +1,4 @@
-script50117
+script50118
 
 	^ 'AST-Core-TheIntegrator.306.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -256,13 +256,13 @@ Slot-TheIntegrator.628.mcz
 Slot-Tests-TheIntegrator.39.mcz
 SmartSuggestions-TheIntegrator.157.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
-Spec-Core-TheIntegrator.396.mcz
+Spec-Core-TheIntegrator.398.mcz
 Spec-Debugger-TheIntegrator.240.mcz
 Spec-Examples-TheIntegrator.94.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.240.mcz
 Spec-Layout-TheIntegrator.67.mcz
-Spec-MorphicAdapters-TheIntegrator.212.mcz
+Spec-MorphicAdapters-TheIntegrator.214.mcz
 Spec-PolyWidgets-TheIntegrator.59.mcz
 Spec-Tests-TheIntegrator.47.mcz
 Spec-Tools-TheIntegrator.272.mcz
