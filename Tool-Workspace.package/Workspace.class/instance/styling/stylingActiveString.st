@@ -1,3 +1,3 @@
 stylingActiveString
 	
-	^self stylingActive -> 'syntax highlighting' translated
+	^ self stylingActive -> 'syntax highlighting' translated

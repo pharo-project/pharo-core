@@ -1,0 +1,2 @@
+isClassVariable
+	^ assoc isClassVariable

@@ -1,9 +1,11 @@
 checkMethod: aMethod 
-	
-	Undeclared associations
-		detect: [ :each |
-			aMethod refersToLiteral: each ]
-		ifFound: [ :each | 
+
+	aMethod ast allChildren 
+		select: [ :node |
+			node isVariable and: [
+			node isUndeclared and: [
+			node name first isUppercase ]]]
+		thenDo: [ :node |
 			result
-				addSearchString: each key;
+				addSearchString: node name;
 				addMethod: aMethod ]

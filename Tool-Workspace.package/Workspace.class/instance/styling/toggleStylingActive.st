@@ -1,5 +1,5 @@
 toggleStylingActive
 
-	^stylingActive := self stylingActive not.
+	^ stylingActive := self stylingActive not
 	
 	

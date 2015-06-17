@@ -1,4 +1,4 @@
-script50116
+script50117
 
 	^ 'AST-Core-TheIntegrator.306.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -124,7 +124,7 @@ Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.96.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
 Komitter-StephaneDucasse.128.mcz
-Manifest-Core-TheIntegrator.221.mcz
+Manifest-Core-TheIntegrator.222.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.49.mcz
 MenuRegistration-TheIntegrator.76.mcz
@@ -201,7 +201,7 @@ NonInteractiveTranscript-TheIntegrator.17.mcz
 OSWindow-Core-TheIntegrator.20.mcz
 OSWindow-SDL2-EstebanLorenzano.19.mcz
 OSWindow-VM-IgorStasenko.2.mcz
-OpalCompiler-Core-TheIntegrator.668.mcz
+OpalCompiler-Core-TheIntegrator.671.mcz
 OpalCompiler-Tests-StephaneDucasse.289.mcz
 OpalDecompiler-TheIntegrator.33.mcz
 OpalTools-TheIntegrator.16.mcz
@@ -217,8 +217,8 @@ RPackage-Tests-TheIntegrator.173.mcz
 RecentSubmissions-StephaneDucasse.233.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.276.mcz
-Refactoring-Critics-TheIntegrator.180.mcz
-Refactoring-Environment-TheIntegrator.56.mcz
+Refactoring-Critics-TheIntegrator.181.mcz
+Refactoring-Environment-TheIntegrator.58.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.127.mcz
 Refactoring-Tests-Critics-TheIntegrator.31.mcz
@@ -250,7 +250,7 @@ Settings-System-EstebanLorenzano.38.mcz
 ShoreLine-Report-Core-TommasoDalSasso.9.mcz
 ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
-Shout-TheIntegrator.263.mcz
+Shout-TheIntegrator.266.mcz
 ShoutTests-TheIntegrator.27.mcz
 Slot-TheIntegrator.628.mcz
 Slot-Tests-TheIntegrator.39.mcz
@@ -270,7 +270,7 @@ StartupPreferences-TheIntegrator.133.mcz
 System-Announcements-TheIntegrator.100.mcz
 System-Caching-TheIntegrator.26.mcz
 System-CachingTests-TheIntegrator.14.mcz
-System-Changes-TheIntegrator.263.mcz
+System-Changes-TheIntegrator.265.mcz
 System-Clipboard-SvenVanCaekenberghe.32.mcz
 System-CommandLine-TheIntegrator.167.mcz
 System-CommandLineHandler-TheIntegrator.3.mcz
@@ -311,10 +311,10 @@ Tool-Profilers-TheIntegrator.17.mcz
 Tool-SystemReporter-StephaneDucasse.10.mcz
 Tool-Transcript-TheIntegrator.14.mcz
 Tool-TxWorkspace-TorstenBergmann.5.mcz
-Tool-Workspace-TheIntegrator.24.mcz
+Tool-Workspace-TheIntegrator.26.mcz
 Tools-TheIntegrator.1503.mcz
 ToolsTest-MarcusDenker.denker.71.mcz
-Traits-TheIntegrator.786.mcz
+Traits-TheIntegrator.788.mcz
 Transcript-TheIntegrator.34.mcz
 TxText-Athens-SeanDeNigris.50.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

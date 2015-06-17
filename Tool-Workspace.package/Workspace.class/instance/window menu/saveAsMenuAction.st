@@ -1,4 +1,4 @@
-saveAsCommand
+saveAsMenuAction
 	"Save the receiver's contents string to a file, prompting the user for a file-name.  Suggest a reasonable file-name."
 	| suggestedFileName | 
 		

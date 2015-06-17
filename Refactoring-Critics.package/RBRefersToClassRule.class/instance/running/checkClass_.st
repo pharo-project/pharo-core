@@ -1,7 +1,7 @@
 checkClass: aClass 
 	| sels className |
 	className := aClass theNonMetaClass name.
-	sels := aClass whichSelectorsReferTo: (Smalltalk globals associationAt: className).
+	sels := aClass whichSelectorsReferTo: (aClass environment associationAt: className).
 	sels do: 
 		[ :each | 
 		result 

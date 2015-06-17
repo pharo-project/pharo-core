@@ -1,10 +1,10 @@
 addModelItemsToWindowMenu: aMenu
 	aMenu addLine.
-	aMenu add: 'Open...'  target: self selector: #openCommand.
+	aMenu add: 'Open...'  target: self selector: #openMenuAction.
 	aMenu lastItem icon: Smalltalk ui icons smallOpenIcon.
-	aMenu add: 'Save as...'  target: self selector: #saveAsCommand.
+	aMenu add: 'Save as...'  target: self selector: #saveAsMenuAction.
 	aMenu lastItem icon: Smalltalk ui icons smallSaveAsIcon.
-	self fileName ifNotNil: [ aMenu add: 'Reload'  target: self selector: #reloadCommand ].
+	self fileName ifNotNil: [ aMenu add: 'Reload'  target: self selector: #reloadMenuAction ].
 	aMenu addLine.
 	aMenu
 		add: 'Encoding'

@@ -1,2 +1,2 @@
 open
-	^ self openLabel: 'Workspace'
+	^ self openLabel: self title

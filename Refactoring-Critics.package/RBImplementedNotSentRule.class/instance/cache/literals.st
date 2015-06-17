@@ -6,7 +6,7 @@ literals
 
 		Smalltalk specialSelectors do: [:sel |
 			sel isSymbol ifTrue: [ literals add: sel ] ].
-		SystemNavigation default allMethods do: [ :meth |
+		result rootEnvironment methodsDo: [ :meth |
 			meth literals do: [ :lit | self addLiteral: lit ] ] ].
 	
 	^ literals 

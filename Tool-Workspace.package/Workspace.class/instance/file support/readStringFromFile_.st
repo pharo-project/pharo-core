@@ -3,9 +3,9 @@ readStringFromFile: aFileName
 	| content |
 	FileStream
 		oldFileNamed: aFileName
-		do: [:f | 
+		do: [ :f | 
 			f converter: (TextConverter newForEncoding: encoding).
 			f wantsLineEndConversion: true.
 			content := f contents.
-			lineEnding := f lineEndConvention].
+			lineEnding := f lineEndConvention ].
 	^ content

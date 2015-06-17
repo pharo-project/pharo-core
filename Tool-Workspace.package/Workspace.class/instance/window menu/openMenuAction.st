@@ -1,4 +1,4 @@
-openCommand
+openMenuAction
 	"Open content of the file choosed by user in this workspace and associate it's name with this workspace"
 	| userWarned |
 

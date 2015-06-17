@@ -1,2 +1,2 @@
 acceptAction: anAction
-	acceptAction := anAction.
+	acceptAction := anAction

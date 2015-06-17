@@ -1,7 +1,7 @@
 checkClass: aClass
-	(aClass isMeta or: [ aClass inheritsFrom: TestCase ])
+	(aClass isMeta or: [ aClass isTestCase ])
 		ifTrue: [ ^ self ].
-	aClass organization classComment isEmpty ifTrue: [ 
+	aClass hasComment ifFalse: [ 
 		result 
 			addClass: aClass; 
-			addClass: aClass class ]
+			addClass: aClass theMetaClass ]
