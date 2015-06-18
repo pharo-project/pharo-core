@@ -12,7 +12,7 @@ compile: code notifying: requestor
 		failBlock: [ ^nil ];
 		compile.
 		
-	method putSource: code inFile: 2
+	method putSource: code
 			withPreamble: [:f | f cr; nextPut: $!; nextChunkPut: 'Behavior method'; cr].
 	self addSelector: method selector withMethod: method notifying: requestor.
 	^ method selector

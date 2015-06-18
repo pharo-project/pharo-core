@@ -11,7 +11,7 @@ addTraitSelector: aSymbol withMethod: aCompiledMethod
 	method selector: aSymbol.
 	method methodClass: self.
 		
-	method putSource: source inFile: 2
+	method putSource: source
 		withPreamble: [:f | f cr; nextPut: $!; nextChunkPut: 'Trait method'; cr].
 	
 	self isTrait ifFalse: [ method properties at: #traitSource put: aCompiledMethod].

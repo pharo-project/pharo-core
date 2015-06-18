@@ -1,4 +1,4 @@
-RubAbstractSmalltalkMode subclass: #RubSmalltalkCodeMode
+RubAbstractSmalltalkMode subclass: #RubSmalltalkCommentMode
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

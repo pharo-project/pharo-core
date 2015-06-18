@@ -5,6 +5,6 @@ modified: aBoolean
 	self changed: #modified.
 	modified
 		ifFalse: [ 
-			Smalltalk logChange: '"' , self packageName , '"' ].
+			ChangesLog default logChange: '"' , self packageName , '"' ].
 	self announcer announce: (MCPackageModified package: self package)
 	

@@ -1,7 +1,6 @@
 evaluate: aStream andDo: aBlock
 	"Treat the current selection as an expression; evaluate it and invoke aBlock with the result."
 	| result rcvr ctxt |
-
 	(self model respondsTo: #doItReceiver) 
 		ifTrue: [ rcvr := self model doItReceiver.
 				ctxt := self model doItContext]

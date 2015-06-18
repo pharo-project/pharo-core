@@ -7,4 +7,4 @@ comment: aString
 		ifFalse: [ 
 			aString isEmptyOrNil
 				ifTrue: [ nil ]
-				ifFalse: [ RemoteString newString: aString onFileNumber: 2 ] ]	"Later add priorSource and date and initials?"
+				ifFalse: [ RemoteString newString: aString ] ]	"Later add priorSource and date and initials?"

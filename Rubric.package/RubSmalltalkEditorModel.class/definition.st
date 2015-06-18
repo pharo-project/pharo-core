@@ -1,5 +1,5 @@
 RubScrolledTextModel subclass: #RubSmalltalkEditorModel
-	instanceVariableNames: 'interactionModel'
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Rubric-Editing-Widgets'

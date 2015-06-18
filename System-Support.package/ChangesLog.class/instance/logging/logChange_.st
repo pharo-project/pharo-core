@@ -1,18 +1,16 @@
 logChange: aStringOrText
 	"Write the argument, aString, onto the changes file."
 
-	| aString changesFile |
-	SourceFiles changesFileStream ifNil: [ ^ self ].
+	| aString |
 	self assureStartupStampLogged.
+
 	aString := aStringOrText asString.
 	(aString findFirst: [ :char | char isSeparator not ]) = 0
 		ifTrue: [ ^ self ].	"null doits confuse replay"
-	changesFile := SourceFiles changesFileStream.
-	changesFile isReadOnly
-		ifTrue: [ ^ self ].
-	changesFile
-		setToEnd;
-		cr;
-		cr.
-	changesFile nextChunkPut: aString.	"If want style changes in DoIt, use nextChunkPutWithStyle:, and allow Texts to get here"
-	self forceChangesToDisk
+
+	SourceFiles changesWriteStreamDo: [ :changesFile |
+		changesFile
+			cr; cr;
+			nextChunkPut: aString ].
+
+	SourceFiles forceChangesToDisk

@@ -1,3 +1,4 @@
 assureStartupStampLogged
-	"If there is a startup stamp not yet actually logged to disk, do it now."
+	"Deprecated"
+
 	ChangesLog default assureStartupStampLogged

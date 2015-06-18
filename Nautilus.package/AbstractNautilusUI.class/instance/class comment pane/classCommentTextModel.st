@@ -1,2 +1,6 @@
 classCommentTextModel
-	^ classCommentTextModel ifNil: [ classCommentTextModel := RubScrolledTextModel new]
+	^ classCommentTextModel
+		ifNil: [ 
+			classCommentTextModel := RubScrolledTextModel new
+				interactionModel: self;
+				yourself ]

@@ -1,7 +1,7 @@
 classComment: aString stamp: aStamp
 	"Store the comment, aString or Text or RemoteString, associated with the class we are organizing.  Empty string gets stored only if had a non-empty one before."
 
-	| pointer header file oldCommentRemoteString oldComment oldStamp |
+	| pointer header oldCommentRemoteString oldComment oldStamp preamble |
 	oldComment := self organization classComment.
 	oldStamp := self organization commentStamp.
 
@@ -22,18 +22,27 @@ classComment: aString stamp: aStamp
 			ifNil: [0] 
 			ifNotNil: [oldCommentRemoteString sourcePointer].
 	
-	(file := SourceFiles changesFileStream) ifNotNil: [
-		file setToEnd; cr; nextPut: $!.	"directly"
-		"Should be saying (file command: 'H3') for HTML, but ignoring it here"
-		header := String streamContents: [:strm | strm nextPutAll: self name;
-			nextPutAll: ' commentStamp: '.
+	preamble := String streamContents: [ :file |
+		file cr; nextPut: $!.
+		header := String streamContents: [:strm | 
+			strm 
+				nextPutAll: self name;
+				nextPutAll: ' commentStamp: '.
 			aStamp storeOn: strm.
-			strm nextPutAll: ' prior: '; nextPutAll: pointer printString].
-		file nextChunkPut: header].
-	
-	self organization 
-		classComment: (RemoteString newString: aString onFileNumber: 2) 
-		stamp: aStamp.
+			strm nextPutAll: ' prior: '; nextPutAll: pointer printString ].
+		file nextChunkPut: header; cr ].
+
+	SourceFiles
+		writeSource: aString
+		preamble: preamble
+		onSuccess: [ :newSourcePointer | 
+			| position |
+			position := SourceFiles filePositionFromSourcePointer: newSourcePointer.
+			self organization 
+				classComment: (RemoteString newFileNumber: 2 position: position) 
+				stamp: aStamp.
+			]
+		onFail: [ "ignore" ].
 	
 	SystemAnnouncer uniqueInstance 
 		class: self 

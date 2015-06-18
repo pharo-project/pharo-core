@@ -1,0 +1,2 @@
+updateTextAreaWhenUnplugged
+	super updateTextAreaWhenUnplugged

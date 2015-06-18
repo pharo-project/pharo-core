@@ -28,9 +28,7 @@ logSnapshot: save andQuit: quit
 	self assureStartupStampLogged.
 
 	save ifTrue: [ 
-		Smalltalk lastQuitLogPosition: (
-			SourceFiles changesFileStream
-				setToEnd;
-				position) ].
+		Smalltalk lastQuitLogPosition:
+			SourceFiles changesFileStream size ].
 
 	self logChange: message

@@ -1,7 +1,7 @@
 buildNewCommentText
 	| scrolledText |
 	scrolledText := self classCommentTextModel newScrolledText
-		beForPlainText;
+		beForSmalltalkComment; 
 		withCommentAnnotation;
 		beWrapped;
 		yourself.

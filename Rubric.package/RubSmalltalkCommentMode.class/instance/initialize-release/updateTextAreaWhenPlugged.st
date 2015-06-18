@@ -1,0 +1,2 @@
+updateTextAreaWhenPlugged
+	super updateTextAreaWhenPlugged

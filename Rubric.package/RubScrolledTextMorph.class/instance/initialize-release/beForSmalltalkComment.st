@@ -1,0 +1,2 @@
+beForSmalltalkComment
+	self textArea beForSmalltalkComment
