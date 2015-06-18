@@ -4,7 +4,7 @@ fileStreamDo: aBlock
 	The caller does not need to close the stream."
 
 	^ SourceFiles 
-		localProcessReadStreamAtFileIndex: sourceFileNumber 
+		readStreamAtFileIndex: sourceFileNumber 
 		atPosition: filePositionHi 
 		ifPresent: aBlock 
 		ifAbsent: [ nil ]

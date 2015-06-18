@@ -6,7 +6,7 @@ selectionIndex: idx
 	(theMorph := index = 0 ifTrue: [nil] ifFalse: [scroller submorphs at: index])
 		ifNotNil:
 		[((theMorph bounds top - scroller offset y) >= 0
-			and: [(theMorph bounds bottom - scroller offset y) <= bounds height]) ifFalse:
+			and: [(theMorph bounds bottom - scroller offset y) <= self innerBounds height]) ifFalse:
 			["Scroll into view -- should be elsewhere"
 			range := self vTotalScrollRange.
 			scrollBar value: (range > 0

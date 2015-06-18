@@ -1,4 +1,4 @@
 classesComposedWithMe
 	self isTrait
-		ifTrue: [ ^ self traitUsers gather: [ :u | u classesComposedWithMe ] ]
+		ifTrue: [ ^ self traitUsers flatCollect: [ :u | u classesComposedWithMe ] ]
 		ifFalse: [ ^ {self} ]
