@@ -1,2 +1,0 @@
-visitArgumentsReificationNode: aNode
-	^ aNode

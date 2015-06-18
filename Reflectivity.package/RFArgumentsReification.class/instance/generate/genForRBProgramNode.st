@@ -1,2 +1,2 @@
-genForRBMessageNode
+genForRBProgramNode
 	^RBTemporaryNode named: #RFArgumentsReificationVar.

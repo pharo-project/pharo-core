@@ -1,2 +1,4 @@
 preamble: aNode
-	^(RFReceiverReificationNode named: #RFReceiverReification) numArgs: aNode numArgs
+	^aNode isMessage 
+		ifTrue: [self preambleForMessage: aNode]
+		ifFalse: [{}]

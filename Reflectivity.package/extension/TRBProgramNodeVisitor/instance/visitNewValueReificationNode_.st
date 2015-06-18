@@ -1,2 +1,0 @@
-visitNewValueReificationNode: aNode
-	^ aNode

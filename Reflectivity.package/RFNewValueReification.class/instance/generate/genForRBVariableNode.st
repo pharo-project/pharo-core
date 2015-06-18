@@ -1,2 +1,2 @@
 genForRBVariableNode
-	^RBTemporaryNode named: #RFnewValueReification.
+	^RBTemporaryNode named: #RFNewValueReificationVar.

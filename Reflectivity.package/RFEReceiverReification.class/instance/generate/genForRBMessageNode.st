@@ -1,2 +1,2 @@
 genForRBMessageNode
-	^RBTemporaryNode named: #RFReceiverReification.
+	^RBTemporaryNode named: #RFReceiverReificationVar.

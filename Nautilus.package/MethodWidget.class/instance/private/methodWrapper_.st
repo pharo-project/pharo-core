@@ -12,7 +12,7 @@ methodWrapper: anItem
 				[ (item beginsWith: package name asLowercase) and: [( item at: (package name size +1)) =$-]])
 				ifFalse: [ result := selector asMorph color: self model extensionColor ; yourself ]]
 		ifFalse: [ 
-			(package extendedClasses includes: anItem methodClass)
+			((package extendedClasses includes: anItem methodClass) or: [ (package includesClass: anItem methodClass) not ])
 				ifTrue: [  result := selector asMorph color: self model extensionColor ; yourself ]].
 	
 	anItem isFromTrait

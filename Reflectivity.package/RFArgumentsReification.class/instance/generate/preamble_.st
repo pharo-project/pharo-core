@@ -1,2 +1,4 @@
 preamble: aNode
-	^RFArgumentsReificationNode named: #RFArgumentsReification
+	^aNode isMessage 
+		ifTrue: [ self preambleForMessage: aNode ]
+		ifFalse: [ self preambleForMethod: aNode ]

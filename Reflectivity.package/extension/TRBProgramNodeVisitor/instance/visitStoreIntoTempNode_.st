@@ -1,0 +1,2 @@
+visitStoreIntoTempNode: aNode
+	^ aNode

@@ -1,2 +1,2 @@
 preamble: aNode
-	^nil
+	^#()

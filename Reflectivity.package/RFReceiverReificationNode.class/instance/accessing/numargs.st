@@ -1,2 +1,0 @@
-numargs
-	^ numargs

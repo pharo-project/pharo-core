@@ -1,9 +1,11 @@
 visitMethodNode: aMethodNode
 	
 	aMethodNode arguments size > 15 ifTrue: [self backendError: 'Too many arguments' forNode: aMethodNode ].
-
+	
 	methodBuilder compilationContext: aMethodNode compilationContext.
 	methodBuilder addTemps: aMethodNode scope tempVarNames.
+	
+	self emitMetaLinkBefore: aMethodNode.
 		
 	methodBuilder properties: aMethodNode properties.
 	methodBuilder irPrimitive: aMethodNode primitiveFromPragma.

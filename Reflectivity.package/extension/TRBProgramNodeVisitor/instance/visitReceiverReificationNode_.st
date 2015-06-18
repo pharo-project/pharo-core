@@ -1,2 +1,0 @@
-visitReceiverReificationNode: aNode
-	^ aNode

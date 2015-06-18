@@ -1,2 +1,0 @@
-acceptVisitor: aProgramNodeVisitor 
-	^aProgramNodeVisitor visitArgumentsReificationNode: self

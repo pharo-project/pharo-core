@@ -1,2 +1,2 @@
 preamble: aNode
-	^RFNewValueReificationNode named: #RFnewValueReification
+	^RFStoreIntoTempNode named: #RFNewValueReificationVar

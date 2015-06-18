@@ -1,3 +1,0 @@
-flushChangesFile
-
-	SourceFiles flushChangesFile
