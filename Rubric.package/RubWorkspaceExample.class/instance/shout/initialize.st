@@ -1,4 +1,6 @@
 initialize
 	super initialize.
-	textModel := RubSmalltalkScriptEditorModel new interactionModel: self.
-	mustDeclareVariables := false.
+	textModel := RubScrolledTextModel new
+		interactionModel: self;
+		yourself.
+	mustDeclareVariables := false

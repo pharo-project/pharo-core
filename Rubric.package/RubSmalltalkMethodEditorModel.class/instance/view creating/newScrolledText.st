@@ -1,2 +1,0 @@
-newScrolledText
-	^ super newScrolledText beForSmalltalkCode
