@@ -1,5 +1,4 @@
 privateAbstractClassVarFrom: aClass
-
 	^ self class: aClass andClassVariable: [ :class :variable | 
 		RBAbstractClassVariableRefactoring
 			model: environment

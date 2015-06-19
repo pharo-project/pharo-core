@@ -1,5 +1,4 @@
 privatePushDownClassVarFrom: aClass
-
 	^ self class: aClass andClassVariable: [ :class :variable | 
 		RBPushDownClassVariableRefactoring
 			model: environment

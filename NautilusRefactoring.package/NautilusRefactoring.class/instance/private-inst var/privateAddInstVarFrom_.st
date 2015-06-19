@@ -1,10 +1,5 @@
 privateAddInstVarFrom: aClass
-	| name |
-	name := self
-				request: 'Enter the new variable name:'
-				initialAnswer: 'inst'.
-	name ifNil: [ ^ nil ].
-	^ RBAddInstanceVariableRefactoring
-		model: environment
-		variable: name
+	^ RBAddInstanceVariableRefactoring 
+		model: environment 
+		variable: (self request: 'Enter the new variable name:' initialAnswer: 'inst') 
 		class: aClass theNonMetaClass

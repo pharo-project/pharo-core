@@ -1,3 +1,6 @@
-request: aString initialAnswer: aTemplateString
-
-	^ UIManager default request: aString initialAnswer: aTemplateString
+request: requestString initialAnswer: initialAnswerString
+	| answer |
+	answer := UIManager default request: requestString initialAnswer: initialAnswerString.
+	answer isEmptyOrNil ifTrue:  [ RefactoringAborted signal ].
+	^ answer
+	

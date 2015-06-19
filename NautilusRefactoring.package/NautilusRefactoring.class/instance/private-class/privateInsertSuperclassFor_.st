@@ -1,11 +1,7 @@
 privateInsertSuperclassFor: class
-
-	| superclassName |
-	superclassName := self request: 'Enter new superclass name:'.
-	superclassName isEmptyOrNil ifTrue:[^ nil].	
 	^ RBAddClassRefactoring
 		model: environment
-		addClass: superclassName
+		addClass: (self request: 'Enter new superclass name :')
 		superclass: class superclass
 		subclasses: class asOrderedCollection
 		category: class category

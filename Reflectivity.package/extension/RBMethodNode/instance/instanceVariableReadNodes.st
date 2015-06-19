@@ -1,2 +1,2 @@
 instanceVariableReadNodes
-		^self variablesReadNodes select: [:each | each isInstance]
+		^self variableReadNodes select: [:each | each isInstance]

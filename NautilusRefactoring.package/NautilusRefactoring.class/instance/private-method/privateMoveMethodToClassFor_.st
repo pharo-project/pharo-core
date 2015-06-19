@@ -1,7 +1,7 @@
 privateMoveMethodToClassFor: aMethod
 	| class |
 	class := (SearchFacade classSearchInEnvironment: Smalltalk) chooseFromOwner: World.
-	class ifNil: [ ^nil ].
+	class ifNil: [ RefactoringAborted signal ].
 	^ RBMoveMethodToClassRefactoring
 		model: environment
 		method: aMethod

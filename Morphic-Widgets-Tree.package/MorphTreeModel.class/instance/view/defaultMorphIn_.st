@@ -1,0 +1,2 @@
+defaultMorphIn: aThemable
+	^ self defaultTreeMorph

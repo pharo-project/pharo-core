@@ -1,5 +1,4 @@
 privateMoveVariableDefinitionBetween: anInterval from: aMethod
-
 	^ RBMoveVariableDefinitionRefactoring
 		model: environment
 		bindTight: anInterval

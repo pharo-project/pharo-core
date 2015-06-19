@@ -1,11 +1,5 @@
 privateAddClassVarFrom: aClass
-	| name |
-	name := (self
-				request: 'Enter the new variable name:'
-				initialAnswer: 'Var').
-	name ifNil: [ ^ nil ].
-
-	^ RBAddClassVariableRefactoring
-		model: environment
-		variable: name
+	^ RBAddClassVariableRefactoring 
+		model: environment 
+		variable: (self request: 'Enter the new variable name:' initialAnswer: 'Var')
 		class: aClass theNonMetaClass

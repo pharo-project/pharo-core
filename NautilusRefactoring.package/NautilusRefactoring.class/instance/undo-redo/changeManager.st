@@ -1,3 +1,2 @@
 changeManager
-	
 	^ RBRefactoryChangeManager instance

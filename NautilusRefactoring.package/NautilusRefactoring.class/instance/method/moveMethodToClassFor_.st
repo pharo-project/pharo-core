@@ -1,8 +1,3 @@
 moveMethodToClassFor: aMethod
-	| refactoring | 
+	self performRefactoringFor: #privateMoveMethodToClassFor: with: aMethod
 	
-	aMethod ifNil: [ ^ self ].
-	refactoring := self privateMoveMethodToClassFor: aMethod.
-	refactoring ifNil: [ ^ self ].
-	refactoring model environment: self model browsedEnvironment.
-	self performRefactoring: refactoring

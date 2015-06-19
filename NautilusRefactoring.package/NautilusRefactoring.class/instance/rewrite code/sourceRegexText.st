@@ -1,5 +1,4 @@
 sourceRegexText
-
 	^ 'RBSourceRegexRefactoring new
 	
 	"Example 1: Replace symbols with strings"

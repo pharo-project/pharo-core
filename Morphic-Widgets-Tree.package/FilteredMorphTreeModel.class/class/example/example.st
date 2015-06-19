@@ -7,7 +7,7 @@ example
 	row := (m := self new)
 		wrapBlockOrSelector: #selector;
 		rootItems: Morph methods;
-		defaultDialogMorphIn: window.
+		defaultMorphIn: window.
 	m updateList.
 	window addMorph: row fullFrame: LayoutFrame identity.
 	window openInWorld

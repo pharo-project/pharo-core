@@ -1,5 +1,4 @@
 privateTemporaryToInstanceVariableNamed: name Between: anInterval from: aMethod
-
 	^ RBTemporaryToInstanceVariableRefactoring
 		model: environment
 		class: aMethod methodClass

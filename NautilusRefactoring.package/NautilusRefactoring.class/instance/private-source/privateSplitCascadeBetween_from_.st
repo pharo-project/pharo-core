@@ -1,5 +1,4 @@
 privateSplitCascadeBetween: anInterval from: aMethod
-
 	^ RBSplitCascadeRefactoring
 		model: environment
 		split: anInterval

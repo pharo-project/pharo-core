@@ -1,9 +1,8 @@
 class: aClass andInstVariable: aBlock
 	| variables index variable class |
-	
 	variables := aClass instanceVariables sorted.
-	index := UIManager default chooseFrom: variables.
-	variable := variables at: index ifAbsent: [ ^ nil ].
+	index := self chooseFrom: variables.
+	variable := variables at: index.
 	class := aClass whichClassDefinesInstVar: variable.
 	class := class isMeta not
 				ifTrue: [ RBClass existingNamed: class name ] 

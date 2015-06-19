@@ -1,5 +1,4 @@
 privateInlineTemporaryBetween: anInterval from: aMethod
-
 	^ RBInlineTemporaryRefactoring
 		model: environment
 		inline: anInterval

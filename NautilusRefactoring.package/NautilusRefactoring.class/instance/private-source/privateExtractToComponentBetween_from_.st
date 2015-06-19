@@ -1,5 +1,4 @@
 privateExtractToComponentBetween: anInterval from: aMethod
-
 	^ RBExtractMethodToComponentRefactoring
 		model: environment
 		extract: anInterval

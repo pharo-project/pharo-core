@@ -1,5 +1,5 @@
 privateAccessorsClassVarNamed: aVariableName from:  aClass.
-	^RBCreateAccessorsForVariableRefactoring 
+	^ RBCreateAccessorsForVariableRefactoring 
 			model: environment
 			variable: aVariableName
 			class: aClass

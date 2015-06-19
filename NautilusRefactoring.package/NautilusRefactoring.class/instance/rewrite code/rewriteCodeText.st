@@ -1,5 +1,4 @@
 rewriteCodeText
-	
 	^ 'RBParseTreeRewriter new
 	replace: ''`@object'' with: ''`@object'';
 	replace: ''`@object'' with: ''`@object'' when: [ :node | true ];

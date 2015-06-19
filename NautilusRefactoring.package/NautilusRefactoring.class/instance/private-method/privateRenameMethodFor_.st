@@ -5,7 +5,7 @@ privateRenameMethodFor: aMethod
 	oldArguments := aMethod ast arguments collect: #name.
 	tempOldArguments := aMethod ast arguments collect: #name.
 	oldMethodName := RBMethodName selector: selector arguments: oldArguments.
-	(newMethodName := self requestMethodNameFor: oldMethodName) ifNil: [ ^ nil ].
+	(newMethodName := self requestMethodNameFor: oldMethodName) ifNil: [ RefactoringAborted signal ].
 	argumentPermutation := newMethodName arguments collect: [ :each | tempOldArguments indexOf: each ].
 	^ RBRenameMethodRefactoring
 		model: environment

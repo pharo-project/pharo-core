@@ -1,5 +1,4 @@
 privateExtractBetween: anInterval from: aMethod
-
 	^ RBExtractMethodRefactoring
 		model: environment
 		extract: anInterval

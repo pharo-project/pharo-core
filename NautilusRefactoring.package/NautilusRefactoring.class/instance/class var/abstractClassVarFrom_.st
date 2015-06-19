@@ -1,9 +1,2 @@
 abstractClassVarFrom: aClass
-	| refactoring |
-	
-	aClass ifNil: [ ^ self ].
-	refactoring := self privateAbstractClassVarFrom: aClass.
-	
-	refactoring ifNil: [ ^ self ].
-	refactoring model environment: self model browsedEnvironment.
-	self performRefactoring: refactoring
+	self performRefactoringFor: #privateAbstractClassVarFrom: with: aClass

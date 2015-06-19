@@ -1,2 +1,2 @@
 instanceVariableWriteNodes
-		^self variablesWriteNodes select: [:each | each isInstance]
+		^self variableWriteNodes select: [:each | each isInstance]

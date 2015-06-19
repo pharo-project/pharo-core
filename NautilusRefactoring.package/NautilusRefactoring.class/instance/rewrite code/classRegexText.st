@@ -1,5 +1,4 @@
 classRegexText
-
 	^ 'RBClassRegexRefactoring new
 
 	"Example 1: Change class prefixes"

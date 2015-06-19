@@ -1,0 +1,2 @@
+assignmentNodes
+	^self ast assignmentNodes

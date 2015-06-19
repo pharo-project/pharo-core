@@ -1,5 +1,4 @@
 privateAccessorsClassVarFrom: aClass
-
 	^ self class: aClass andClassVariable: [ :class :variable | 
 		RBCreateAccessorsForVariableRefactoring 
 			model: environment

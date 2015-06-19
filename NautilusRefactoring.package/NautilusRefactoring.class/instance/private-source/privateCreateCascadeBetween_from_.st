@@ -1,5 +1,4 @@
 privateCreateCascadeBetween: aSelection from: aMethod
-
 	^ RBCreateCascadeRefactoring 
 		model: environment
 		combine: aSelection

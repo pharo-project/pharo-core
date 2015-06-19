@@ -1,2 +1,2 @@
 genForRBProgramNode
-	self subclassResponsibility
+	"overriden in subclass if needed"

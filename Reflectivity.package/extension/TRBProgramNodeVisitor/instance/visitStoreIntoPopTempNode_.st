@@ -1,2 +1,0 @@
-visitStoreIntoPopTempNode: aNode
-	^ aNode

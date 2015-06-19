@@ -1,15 +1,9 @@
 privateGenerateSuperClassFor: class
-
 	| superclassName subclasses |
 	superclassName := self request: 'Enter new superclass name:'.
-	superclassName isEmptyOrNil ifTrue: [ ^ nil ].
-	subclasses := self
-						chooseMultipleFrom: class subclasses
-						title: 'Select subclasses of ' , superclassName , ':'.
-						
-	subclasses ifNil: [ ^ self ].					
-	
-	^ RBChildrenToSiblingsRefactoring 
+	subclasses := self chooseMultipleFrom: class subclasses title: 'Select subclasses of ' , superclassName , ':'.
+	subclasses ifNil: [ RefactoringAborted signal ].
+	^ RBChildrenToSiblingsRefactoring
 		model: environment
 		name: superclassName
 		class: class

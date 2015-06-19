@@ -1,5 +1,4 @@
 privateInlineMethodFromComponentBetween: anInterval from: aMethod
-
 	^ RBInlineMethodFromComponentRefactoring
 		model: environment
 		inline: anInterval
