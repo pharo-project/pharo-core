@@ -1,0 +1,2 @@
+whenPatternChanged: anAnnouncement
+	self updateList

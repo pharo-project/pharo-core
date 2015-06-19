@@ -1,0 +1,2 @@
+initialRootItems
+	^ initialRootItems ifNil: [ initialRootItems := #() ]

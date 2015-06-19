@@ -1,0 +1,2 @@
+ghostString
+	^ ghostString

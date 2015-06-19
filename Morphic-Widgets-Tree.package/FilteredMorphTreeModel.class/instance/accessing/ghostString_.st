@@ -1,0 +1,2 @@
+ghostString: aString
+	ghostString := aString

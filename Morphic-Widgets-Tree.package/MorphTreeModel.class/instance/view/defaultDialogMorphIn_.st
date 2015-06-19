@@ -1,0 +1,2 @@
+defaultDialogMorphIn: aThemable
+	^ self defaultTreeMorph

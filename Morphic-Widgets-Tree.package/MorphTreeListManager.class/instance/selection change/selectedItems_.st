@@ -1,4 +1,5 @@
 selectedItems: aNodeItemCollection
+
 	self listModel okToDiscardEdits ifFalse: [^ self].
 	self emptySelection.
 	(self nodeMorphsWithAllNodeItems: aNodeItemCollection) ifNotEmpty:[:selection |
