@@ -1,4 +1,4 @@
-AbstractMethodIconAction subclass: #MethodIsScriptWithArgumentAction
+MethodIsScriptAction subclass: #MethodIsScriptWithArgumentAction
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

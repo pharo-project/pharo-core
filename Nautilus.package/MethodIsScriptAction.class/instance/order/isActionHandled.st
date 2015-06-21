@@ -1,3 +1,0 @@
-isActionHandled
-
-	^ self isScriptMethod
