@@ -1,4 +1,4 @@
-SequenceableCollection subclass: #SourceFileArray
+Object subclass: #SourceFileArray
 	instanceVariableNames: 'files'
 	classVariableNames: ''
 	poolDictionaries: ''
