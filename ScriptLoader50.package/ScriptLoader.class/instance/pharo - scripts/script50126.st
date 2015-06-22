@@ -1,4 +1,4 @@
-script50125
+script50126
 
 	^ 'AST-Core-TheIntegrator.308.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -201,7 +201,7 @@ NonInteractiveTranscript-TheIntegrator.17.mcz
 OSWindow-Core-TheIntegrator.20.mcz
 OSWindow-SDL2-EstebanLorenzano.19.mcz
 OSWindow-VM-IgorStasenko.2.mcz
-OpalCompiler-Core-TheIntegrator.676.mcz
+OpalCompiler-Core-TheIntegrator.678.mcz
 OpalCompiler-Tests-StephaneDucasse.289.mcz
 OpalDecompiler-TheIntegrator.33.mcz
 OpalTools-TheIntegrator.16.mcz
@@ -223,8 +223,8 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.127.mcz
 Refactoring-Tests-Critics-TheIntegrator.31.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.69.mcz
-Reflectivity-Tests-TheIntegrator.51.mcz
+Reflectivity-TheIntegrator.71.mcz
+Reflectivity-Tests-TheIntegrator.53.mcz
 Regex-Core-MarcusDenker.33.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
