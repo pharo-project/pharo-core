@@ -1,4 +1,4 @@
-script50126
+script50127
 
 	^ 'AST-Core-TheIntegrator.308.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -223,8 +223,8 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.127.mcz
 Refactoring-Tests-Critics-TheIntegrator.31.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.71.mcz
-Reflectivity-Tests-TheIntegrator.53.mcz
+Reflectivity-TheIntegrator.72.mcz
+Reflectivity-Tests-TheIntegrator.54.mcz
 Regex-Core-MarcusDenker.33.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -287,7 +287,7 @@ System-Platforms-TheIntegrator.67.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-Settings-TheIntegrator.311.mcz
 System-Sound-StephaneDucasse.18.mcz
-System-Sources-TheIntegrator.13.mcz
+System-Sources-TheIntegrator.15.mcz
 System-Support-TheIntegrator.1123.mcz
 System-VMEvents-TheIntegrator.5.mcz
 Tests-TheIntegrator.732.mcz
@@ -308,7 +308,7 @@ Tool-Finder-TheIntegrator.33.mcz
 Tool-ImageCleaner-TheIntegrator.10.mcz
 Tool-ProcessBrowser-StephaneDucasse.6.mcz
 Tool-Profilers-TheIntegrator.17.mcz
-Tool-SystemReporter-StephaneDucasse.10.mcz
+Tool-SystemReporter-TheIntegrator.12.mcz
 Tool-Transcript-TheIntegrator.14.mcz
 Tool-TxWorkspace-TorstenBergmann.5.mcz
 Tool-Workspace-TheIntegrator.26.mcz

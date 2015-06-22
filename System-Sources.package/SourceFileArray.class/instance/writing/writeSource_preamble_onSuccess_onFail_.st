@@ -14,4 +14,4 @@ writeSource: aString preamble: preamble onSuccess: successBlock onFail: failBloc
 
 	InMidstOfFileinNotification signal ifFalse: [ file flush ].
 
-	successBlock value: (SourceFiles sourcePointerFromFileIndex: 2 andPosition: position)
+	successBlock value: (self sourcePointerFromFileIndex: 2 andPosition: position)
