@@ -1,0 +1,3 @@
+isRemoteString
+
+	^ false

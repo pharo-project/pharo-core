@@ -1,10 +1,12 @@
-writeRemoteString: aString	for: reference
+writeRemoteString: aString for: reference
+
 	| remoteString |
-	
-	remoteString := RemoteString 
+	remoteString := 
+		RemoteString 
 			newString: aString 
-			onFileNumber: self fileIndex
+			onFileNumber: self fileIndex 
 			toFile: stream.
-	
+
 	remoteStringMap at: reference put: remoteString.
+
 	^ remoteString

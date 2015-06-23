@@ -5,7 +5,7 @@ classComment: aString stamp: aStamp
 	oldComment := self organization classComment.
 	oldStamp := self organization commentStamp.
 
-	(aString isKindOf: RemoteString) ifTrue: [
+	aString isRemoteString ifTrue: [
 		SystemAnnouncer uniqueInstance 
 			class: self 
 			oldComment: oldComment 
@@ -36,12 +36,9 @@ classComment: aString stamp: aStamp
 		writeSource: aString
 		preamble: preamble
 		onSuccess: [ :newSourcePointer | 
-			| position |
-			position := SourceFiles filePositionFromSourcePointer: newSourcePointer.
 			self organization 
-				classComment: (RemoteString newFileNumber: 2 position: position) 
-				stamp: aStamp.
-			]
+				classComment: (SourceFiles remoteStringAt: newSourcePointer) 
+				stamp: aStamp ]
 		onFail: [ "ignore" ].
 	
 	SystemAnnouncer uniqueInstance 

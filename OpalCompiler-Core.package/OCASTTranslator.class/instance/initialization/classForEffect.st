@@ -1,0 +1,2 @@
+classForEffect
+	^OCASTTranslatorForEffect

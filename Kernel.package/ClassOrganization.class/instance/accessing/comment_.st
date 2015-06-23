@@ -2,9 +2,9 @@ comment: aString
 	"Store the comment, aString, associated with the object that refers to the 
 	receiver."
 
-	comment := (aString isKindOf: RemoteString)
+	comment := aString isRemoteString
 		ifTrue: [ aString ]
 		ifFalse: [ 
 			aString isEmptyOrNil
 				ifTrue: [ nil ]
-				ifFalse: [ RemoteString newString: aString ] ]	"Later add priorSource and date and initials?"
+				ifFalse: [ SourceFiles remoteStringForNewString: aString ] ]

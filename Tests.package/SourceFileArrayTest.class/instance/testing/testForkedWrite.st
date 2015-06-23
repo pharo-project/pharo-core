@@ -13,7 +13,7 @@ testForkedWrite
 		readSemaphore wait.
 
 		"Write the string, that will be read in other process."
-		remoteString := RemoteString newString: originalString.
+		remoteString := SourceFiles remoteStringForNewString: originalString.
 
 		testSemaphore signal 
 		] fork.
@@ -22,9 +22,6 @@ testForkedWrite
 	testSemaphore wait.
 
 	"Read the string that was written in other process."
-	readString := 
-		(RemoteString 
-			newFileNumber: remoteString sourceFileNumber 
-			position: remoteString position) string.
+	readString := remoteString string.
 	
 	self assert: readString equals: originalString.
