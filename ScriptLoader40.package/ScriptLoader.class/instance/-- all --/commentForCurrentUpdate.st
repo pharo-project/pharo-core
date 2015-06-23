@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '15284 [Backport 4.0]: 15384 kommiter throws DNU when browsing remotes
-	https://pharo.fogbugz.com/f/cases/15284'
+ ^ '15797 Backport 4.0: New PackageManifests should be classes, not instances
+	https://pharo.fogbugz.com/f/cases/15797'

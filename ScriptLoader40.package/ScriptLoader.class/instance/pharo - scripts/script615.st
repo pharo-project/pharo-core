@@ -1,4 +1,4 @@
-script614
+script615
 
 	^ 'AST-Core-TheIntegrator.283.mcz
 AST-Tests-Core-TheIntegrator.65.mcz
@@ -112,7 +112,7 @@ HelpSystem-Core-TheIntegrator.122.mcz
 HelpSystem-Tests-TheIntegrator.30.mcz
 HudsonBuildTools20-TheIntegrator.65.mcz
 Jobs-EstebanLorenzano.4.mcz
-Kernel-TheIntegrator.2013.mcz
+Kernel-TheIntegrator.2016.mcz
 KernelTests-TheIntegrator.769.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-EstebanLorenzano.45.mcz
@@ -121,7 +121,7 @@ Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.94.mcz
 Keymapping-Tools-Spec-TheIntegrator.30.mcz
 Komitter-TheIntegrator.117.mcz
-Manifest-Core-TheIntegrator.215.mcz
+Manifest-Core-TheIntegrator.217.mcz
 Manifest-CriticBrowser-TheIntegrator.177.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.49.mcz
@@ -183,7 +183,7 @@ NativeBoost-Tests-TheIntegrator.92.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
 Nautilus-TheIntegrator.909.mcz
-Nautilus-Tests-TheIntegrator.12.mcz
+Nautilus-Tests-TheIntegrator.14.mcz
 NautilusCommon-TheIntegrator.260.mcz
 NautilusRefactoring-TheIntegrator.216.mcz
 Network-Kernel-StephaneDucasse.112.mcz

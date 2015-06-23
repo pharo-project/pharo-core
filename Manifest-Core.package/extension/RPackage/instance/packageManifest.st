@@ -1,4 +1,4 @@
 packageManifest
-	^ (self classes
+	^ self classes
 		detect: [ :each | each isManifest ]
-		ifNone: [ TheManifestBuilder new createManifestNamed: name]) new
+		ifNone: [ TheManifestBuilder new createManifestNamed: name]
