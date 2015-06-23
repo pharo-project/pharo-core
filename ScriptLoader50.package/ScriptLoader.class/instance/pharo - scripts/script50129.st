@@ -1,4 +1,4 @@
-script50128
+script50129
 
 	^ 'AST-Core-TheIntegrator.308.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -287,7 +287,7 @@ System-Platforms-TheIntegrator.67.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-Settings-TheIntegrator.311.mcz
 System-Sound-StephaneDucasse.18.mcz
-System-Sources-TheIntegrator.16.mcz
+System-Sources-TheIntegrator.18.mcz
 System-Support-TheIntegrator.1123.mcz
 System-VMEvents-TheIntegrator.5.mcz
 Tests-TheIntegrator.732.mcz

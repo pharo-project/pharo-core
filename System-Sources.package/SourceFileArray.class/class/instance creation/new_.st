@@ -1,2 +1,4 @@
 new: nFiles
-	^self new initialize: nFiles.
+	"Remove"
+
+	^self new
