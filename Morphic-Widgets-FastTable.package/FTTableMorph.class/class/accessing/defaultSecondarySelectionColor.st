@@ -1,0 +1,2 @@
+defaultSecondarySelectionColor
+	^ Smalltalk ui theme secondarySelectionColor

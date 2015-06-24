@@ -1,0 +1,2 @@
+denyDeselection
+	self allowsDeselection: false

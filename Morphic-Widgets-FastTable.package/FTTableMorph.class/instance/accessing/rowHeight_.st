@@ -1,0 +1,2 @@
+rowHeight: aNumber
+	rowHeight := aNumber

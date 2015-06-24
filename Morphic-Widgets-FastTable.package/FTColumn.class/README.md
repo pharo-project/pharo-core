@@ -1,0 +1,1 @@
+I'm a column definition for the table. I keep an id and relevant information of my behaviour, but this behaviour is better defined in FTDataSource>>#headerTable:column:

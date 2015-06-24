@@ -3,5 +3,5 @@ buildCodePanelWithoutComment
 	classCommentTextModel announcer unsubscribe: self.
 	classCommentTextModel := nil.
 	sourceCodePanel 
-		addMorph: sourceTextArea
+		addMorph: sourceTextWidget
 		fullFrame: LayoutFrame identity

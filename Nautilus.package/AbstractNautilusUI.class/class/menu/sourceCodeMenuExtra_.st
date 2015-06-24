@@ -12,5 +12,5 @@ sourceCodeMenuExtra: aBuilder
 					keyText: 'j, m' if: Nautilus useOldStyleKeys not;
 					selector: #runTestForAMethod:notifying:;
 					arguments: { target selectedMethod. true };
-					enabledBlock: [ target sourceTextArea hasUnacceptedEdits not ];
+					enabledBlock: [ target sourceTextModel hasUnacceptedEdits not ];
 					withSeparatorAfter ].

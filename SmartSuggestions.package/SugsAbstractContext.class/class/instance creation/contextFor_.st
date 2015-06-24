@@ -1,6 +1,8 @@
-contextFor: aModel
-	(aModel respondsTo: #sugsContext)
-		ifTrue: [ ^ aModel sugsContext ].
-	(aModel model respondsTo: #sugsContext)
-		ifTrue: [ ^ aModel model sugsContext ].
-	self error: 'Not defined context for ' , aModel asString
+contextFor: anEditor
+	(anEditor respondsTo: #sugsContext)
+		ifTrue: [ ^ anEditor sugsContext ].
+	(anEditor model respondsTo: #interactionModel)
+		ifTrue: [ 
+			(anEditor model interactionModel respondsTo: #sugsContext)
+				ifTrue: [ ^ anEditor model interactionModel sugsContext ] ].
+	self error: 'Not defined context for ' , anEditor asString

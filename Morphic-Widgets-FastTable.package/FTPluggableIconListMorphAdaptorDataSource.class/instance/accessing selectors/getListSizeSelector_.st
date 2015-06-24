@@ -1,0 +1,2 @@
+getListSizeSelector: anObject
+	getListSizeSelector := anObject

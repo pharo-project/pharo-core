@@ -1,0 +1,1 @@
+I represent a cell for the table. I should be answered in FTDataSource>>#cellTable:column:row:Technically, FTDataSource can answer  any kind of morph, but I'm better prepared  for the role so is recommendable  to  use me.

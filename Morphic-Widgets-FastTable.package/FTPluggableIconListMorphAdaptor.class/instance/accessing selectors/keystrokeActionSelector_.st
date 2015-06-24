@@ -1,0 +1,2 @@
+keystrokeActionSelector: aSelector
+	keystrokeActionSelector := aSelector

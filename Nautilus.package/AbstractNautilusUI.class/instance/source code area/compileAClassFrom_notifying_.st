@@ -1,8 +1,8 @@
 compileAClassFrom: aString notifying: aController
 
-	sourceTextArea update: #clearUserEdits.
+	self sourceTextModel clearUserEdits.
 	( self compileANewClassFrom: aString notifying: aController startingFrom: self selectedClass )
-		ifNil: [^ sourceTextArea hasUnacceptedEdits: true. ]
+		ifNil: [^ self sourceTextModel hasUnacceptedEdits: true. ]
 		ifNotNil: [:class | 
 			self selectedPackage: (self parentOfClass: class).
 			self selectedClass: class.

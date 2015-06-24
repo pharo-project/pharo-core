@@ -1,0 +1,2 @@
+outerBounds 
+	^ self bounds

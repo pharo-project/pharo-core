@@ -1,6 +1,7 @@
 toggleBytecodes
 	self selectedMethod ifNil: [ ^ self ].
-	sourceTextArea setText: (sourceTextArea text asString startsWithDigit 
-		ifTrue: [ sourceTextArea getText ]
-		ifFalse: [ self selectedMethod symbolic ])
-	
+	self
+		updateSourceCodeAreaWith:
+			(self sourceTextModel getString startsWithDigit
+				ifTrue: [ self sourceTextModel getString ]
+				ifFalse: [ self selectedMethod symbolic ])

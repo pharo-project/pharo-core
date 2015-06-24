@@ -1,6 +1,6 @@
 highlight: autoSelectString
 	| first |
 
-	first := sourceTextArea getText findString: autoSelectString.
+	first := self sourceTextModel getString findString: autoSelectString.
 	contentSelection := first to: first+autoSelectString size-1.
-	self changed: #sourceCodeFrom:
+	self updateSourceCodeAreaWith: self sourceCode

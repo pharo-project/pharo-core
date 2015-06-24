@@ -1,0 +1,2 @@
+resetListSelector: aSelector
+	resetListSelector := aSelector

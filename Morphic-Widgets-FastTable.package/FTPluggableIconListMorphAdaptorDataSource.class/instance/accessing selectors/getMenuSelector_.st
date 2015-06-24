@@ -1,0 +1,2 @@
+getMenuSelector: anObject
+	getMenuSelector := anObject

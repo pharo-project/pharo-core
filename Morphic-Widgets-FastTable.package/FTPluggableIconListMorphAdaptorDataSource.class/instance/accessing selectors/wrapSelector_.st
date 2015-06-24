@@ -1,0 +1,2 @@
+wrapSelector: anObject
+	wrapSelector := anObject

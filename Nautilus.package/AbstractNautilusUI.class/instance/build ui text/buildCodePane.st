@@ -1,4 +1,3 @@
 buildCodePane
-		
-	^ self buildNewSourceTextArea.
+	^ self buildNewCodeSourceAreaRubric
 	

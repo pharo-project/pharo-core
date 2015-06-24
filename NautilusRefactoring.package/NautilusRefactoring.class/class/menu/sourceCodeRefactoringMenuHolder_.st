@@ -1,6 +1,6 @@
 sourceCodeRefactoringMenuHolder: aBuilder
-	<nautilusGlobalSourceCodeMenu>
+	<RubSmalltalkCodeMenu>
 	| target |
-	target := aBuilder model.	
-	target selectedMethod ifNil:[^ self].
-	target selectedClass ifNotNil: [:selectedClass |  selectedClass sourceCodeRefactoringMenu: aBuilder ].
+	target := aBuilder model model interactionModel.
+	target selectedMethod ifNil: [ ^ self ].
+	target selectedClass ifNotNil: [ :selectedClass | selectedClass sourceCodeRefactoringMenu: aBuilder ]

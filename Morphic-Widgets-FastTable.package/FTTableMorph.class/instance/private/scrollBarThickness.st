@@ -1,0 +1,2 @@
+scrollBarThickness
+	^ self theme scrollbarThickness

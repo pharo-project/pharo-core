@@ -1,16 +1,18 @@
 selectedCategory: protocol
-
 	self okToChange
-		ifTrue: [
+		ifTrue: [ 
 			self resetMethodsList.
-			self model package: self selectedPackage class: self selectedClass category: protocol method: nil.
+			self model
+				package: self selectedPackage
+				class: self selectedClass
+				category: protocol
+				method: nil.
 			self resetMethodsListSelection.
-			protocol 
+			protocol
 				ifNil: [ acceptor := ClassOrMethodDefinitionAcceptor model: self ]
 				ifNotNil: [ 
 					acceptor := MethodDefinitionAcceptor model: self.
 					self giveFocusTo: categoryWidget ].
 			categoryWidget changed: #selectedCategoryIndex.
-			self changed: #sourceCodeFrom:.
-			^ true].
+			^ true ].
 	^ false

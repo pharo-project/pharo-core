@@ -1,0 +1,2 @@
+setSelectionListSelector: aSelector
+	setSelectionListSelector := aSelector

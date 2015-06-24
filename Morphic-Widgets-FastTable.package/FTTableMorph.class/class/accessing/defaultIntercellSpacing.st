@@ -1,0 +1,2 @@
+defaultIntercellSpacing
+	^ 0

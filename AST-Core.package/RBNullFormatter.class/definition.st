@@ -1,5 +1,5 @@
 RBProgramNodeVisitor subclass: #RBNullFormatter
 	instanceVariableNames: ''
-	classVariableNames: ''
+	classVariableNames: 'FormatAsYouReadPolicy'
 	poolDictionaries: ''
 	category: 'AST-Core-Visitors'

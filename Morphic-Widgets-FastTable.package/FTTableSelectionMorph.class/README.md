@@ -1,0 +1,1 @@
+I'm a selection morph used for the tables. Ideally, I just wrap a row to decorate it with selection color... but of course it could be more complex :)

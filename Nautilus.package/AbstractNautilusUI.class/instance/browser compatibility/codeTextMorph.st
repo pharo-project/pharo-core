@@ -1,3 +1,3 @@
 codeTextMorph
 
-	^ sourceTextArea
+	^ sourceTextWidget 

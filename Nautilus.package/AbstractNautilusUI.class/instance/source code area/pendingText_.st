@@ -1,5 +1,4 @@
 pendingText: aString
 
-	self sourceTextArea 
-		setText: aString;
-		hasUnacceptedEdits: true
+	self updateSourceCodeAreaWith: aString.
+	self sourceTextModel hasUnacceptedEdits: true

@@ -5,7 +5,8 @@ addAll: aWindow
 	bottomHeight := 0.
 	middleHeight := 0.
 	topHeight := 0.
-
+	sourceTextWidget := self buildCodePane.
+	sourceTextWidget announcer subscribe: RubTextAccepted send: #whenTextAcceptedInView: to: self.
 	" reverse order in column ..."
 	"column vResizing: #rigid."
 	self buildTopPlugins ifNotNil: [:top |
@@ -34,7 +35,7 @@ addAll: aWindow
 	sourceCodePanel changeProportionalLayout.
 		
 	sourceCodePanel 
-		addMorph: self buildCodePane
+		addMorph: sourceTextWidget 
 		fullFrame: LayoutFrame identity.
 		
 	"self buildCommentPane."

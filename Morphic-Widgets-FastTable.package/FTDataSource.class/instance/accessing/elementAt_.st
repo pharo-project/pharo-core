@@ -1,0 +1,2 @@
+elementAt: rowIndex
+	self subclassResponsibility

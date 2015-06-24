@@ -5,4 +5,4 @@ renameVariable: aString
 		ifTrue: [ ^ self renameInstVarNamed: aString from: class ].
 	(class classVarNames includes: aString)
 		ifTrue: [ ^ self renameClassVarNamed: aString from: class ].
-	self model sourceTextArea flash
+	self model flashSourceCodeArea

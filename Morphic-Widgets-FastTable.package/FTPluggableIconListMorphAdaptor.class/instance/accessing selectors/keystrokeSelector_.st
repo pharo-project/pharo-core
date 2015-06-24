@@ -1,0 +1,2 @@
+keystrokeSelector: aSelector
+	keystrokeSelector := aSelector

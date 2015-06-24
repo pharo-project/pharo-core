@@ -1,0 +1,2 @@
+selectionInterval: anInterval
+	sourceCodeSelectionInterval := anInterval

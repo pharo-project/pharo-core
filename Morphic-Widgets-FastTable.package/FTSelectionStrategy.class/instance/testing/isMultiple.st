@@ -1,0 +1,2 @@
+isMultiple
+	^ self subclassResponsibility

@@ -1,28 +1,27 @@
 buildSourceCodeShortcutsOn: aBuilder
-	<keymap>	
-
+	<keymap>
 	(aBuilder shortcut: #rename)
 		category: #NautilusSourceCodeShortcuts
 		default: $r command
-		do: [:target | (target sourceTextArea hasUnacceptedEdits not)
-							ifTrue: [ target refactor renameTextSelection ]]
+		do: [ :target | 
+			target sourceTextModel hasUnacceptedEdits not
+				ifTrue: [ target refactor renameTextSelection ] ]
 		description: 'Rename the current selection'.
-		
 	(aBuilder shortcut: #extractToTemp)
 		category: #NautilusSourceCodeShortcuts
 		default: $x command shift
-		do: [:target | (target sourceTextArea hasUnacceptedEdits not)
-							ifTrue: [ target refactor extractToTempTextSelection ]]
+		do: [ :target | 
+			target sourceTextModel hasUnacceptedEdits not
+				ifTrue: [ target refactor extractToTempTextSelection ] ]
 		description: 'Extract to temp the current selection'.
-		
 	(aBuilder shortcut: #extractToMethod)
 		category: #NautilusSourceCodeShortcuts
 		default: $m command shift
-		do: [:target | (target sourceTextArea hasUnacceptedEdits not)
-							ifTrue: [ target refactor extractToMethodTextSelection ]]
+		do: [ :target | 
+			target sourceTextModel hasUnacceptedEdits not
+				ifTrue: [ target refactor extractToMethodTextSelection ] ]
 		description: 'Extract to method the current selection'.
-	
-	(aBuilder shortcut: #format) 
+	(aBuilder shortcut: #format)
 		category: #NautilusSourceCodeShortcuts
 		default: PharoShortcuts current formatCodeShortcut
-		do: [ :target | target refactor formatSourceCode ].
+		do: [ :target | target refactor formatSourceCode ]

@@ -1,0 +1,2 @@
+fontToUse
+	^ self theme textFont

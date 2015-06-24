@@ -1,0 +1,2 @@
+isMultipleSelection
+	^ selectionStrategy isMultiple

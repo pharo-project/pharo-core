@@ -1,0 +1,2 @@
+isShowColumnHeaders
+	^ showColumnHeaders

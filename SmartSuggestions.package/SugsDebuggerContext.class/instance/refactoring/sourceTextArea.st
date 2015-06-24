@@ -1,2 +1,2 @@
 sourceTextArea
-	^ (model dependents at: 3).
+	^ model dependents at: 3 

@@ -1,0 +1,2 @@
+defaultAllowsDeselection
+	^ false

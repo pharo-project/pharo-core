@@ -1,9 +1,8 @@
 initialize
-
 	super initialize.
 	shouldUpdateTitle := true.
 	testSemaphore := Semaphore new.
 	contentSelection := nil.
 	acceptor := ClassDefinitionAcceptor model: self.
-	classifier := MethodClassifier new. 
+	classifier := MethodClassifier new.
 	fullDisplayedComment := false

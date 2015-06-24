@@ -1,0 +1,1 @@
+I announce a strong selection happened (this is a double-click)

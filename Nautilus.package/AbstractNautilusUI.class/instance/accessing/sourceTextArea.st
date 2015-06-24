@@ -1,3 +1,0 @@
-sourceTextArea
-
-	^ sourceTextArea

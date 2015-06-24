@@ -1,0 +1,2 @@
+contentSelection
+	^ self sourceTextArea contentSelection

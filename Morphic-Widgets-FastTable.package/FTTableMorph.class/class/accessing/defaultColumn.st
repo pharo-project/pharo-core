@@ -1,0 +1,2 @@
+defaultColumn	
+	^ FTColumn new

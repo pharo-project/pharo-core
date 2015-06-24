@@ -1,0 +1,2 @@
+getListSelector
+	^ self dataSource getListSelector

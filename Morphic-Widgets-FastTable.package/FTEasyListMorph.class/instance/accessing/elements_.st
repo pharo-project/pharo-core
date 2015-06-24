@@ -1,0 +1,2 @@
+elements: aSequenceableCollection
+	self dataSource elements: aSequenceableCollection

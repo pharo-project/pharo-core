@@ -1,0 +1,2 @@
+icon: aBlock
+	iconBlock := aBlock

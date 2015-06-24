@@ -1,0 +1,2 @@
+getIconSelector: anObject
+	getIconSelector := anObject

@@ -9,6 +9,6 @@ classRenamed: anAnnouncement
 	or: [ self classWidget getClassesList includes: class ])
 			ifTrue: [ 
 				self updateClassView.
-				sourceTextArea hasUnacceptedEdits 
-					ifFalse: [ self changed: #sourceCodeFrom: ]
+				self sourceTextModel hasUnacceptedEdits 
+					ifFalse: [ self updateSourceCodeAreaWith: self sourceCode ]
 				]

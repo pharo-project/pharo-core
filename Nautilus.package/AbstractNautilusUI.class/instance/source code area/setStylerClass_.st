@@ -1,4 +1,2 @@
 setStylerClass: aClass
-
-	sourceTextArea
-		ifNotNil: [ sourceTextArea classOrMetaClass: aClass ]
+	self sourceTextModel reconfigureViewWith: [ :scrolledText | scrolledText textArea classOrMetaClass: aClass ]

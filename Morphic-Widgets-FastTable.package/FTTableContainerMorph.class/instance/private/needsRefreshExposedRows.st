@@ -1,0 +1,2 @@
+needsRefreshExposedRows
+	^ needsRefreshExposedRows

@@ -1,10 +1,6 @@
 extractToTempTextSelection
-	| aMethod selectedInterval textArea |
-	
-	textArea := self model sourceTextArea.
+	| aMethod |
 	aMethod := self model selectedMethod.
-	aMethod ifNil: [ ^ textArea flash ].
-	textArea selectedContents asString ifEmpty: [ ^ textArea flash ].
-	
-	selectedInterval := textArea selectionInterval.
-	self extractToTemporaryBetween: selectedInterval from: aMethod
+	aMethod ifNil: [ ^ self model flashSourceCodeArea ].
+	self model contentSelection asString ifEmpty: [ ^ self model flashSourceCodeArea ].
+	self extractToTemporaryBetween: self model selectionInterval from: aMethod

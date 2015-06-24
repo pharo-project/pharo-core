@@ -20,15 +20,11 @@ methodModified: anAnnouncement
 			oldMethod := anAnnouncement oldMethod.
 			(selectedMethod = oldMethod)
 				ifTrue: [
-					sourceTextArea hasUnacceptedEdits
-						ifTrue: [ | sourceCode |
-							sourceCode := sourceTextArea text.
+					self sourceTextModel hasUnacceptedEdits
+						ifTrue: [
 							self forceSelectedMethod: method.
 							self updateCategoryAndMethodList.
-							self highlightCategory: method.
-							sourceTextArea setText: sourceCode.
-							sourceTextArea hasEditingConflicts: true.
-							sourceTextArea update: #codeChangedElsewhere ]
+							self highlightCategory: method]
 						ifFalse: [
 							self selectedMethod: method.
 							self updateCategoryAndMethodList ]]]

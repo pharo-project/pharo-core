@@ -17,5 +17,4 @@ findAllMethod
  	self model package: class package class: class category: foundMethod protocol method: foundMethod.
 	
 	self updatePackageGroupAndClassList.
-	self updateCategoryAndMethodList.
-	self changed: #sourceCodeFrom:
+	self updateCategoryAndMethodList

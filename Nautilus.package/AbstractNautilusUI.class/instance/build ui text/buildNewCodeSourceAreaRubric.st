@@ -1,0 +1,16 @@
+buildNewCodeSourceAreaRubric
+	| scrolledText |
+	scrolledText := self sourceTextModel newScrolledText
+		withSourceCodeAnnotation;
+		beForSmalltalkCode;
+		beWrapped;
+		withCodeSizeFeedback;
+		yourself.
+	self updateSourceCodeAreaWith: self sourceCode.
+	scrolledText textArea announcer when: RubSelectionChanged send: #whenTextAreaSelectionChanged: to: self.
+	self sourceTextModel announcer weak
+		when: RubTextAcceptRequest send: #whenTextAcceptedInView: to: self;
+		when: NautilusClassSelected , NautilusPackageSelected , NautilusGroupSelected send: #showScriptCode: to: self;
+		when: NautilusProtocolSelected , NautilusMethodSelected send: #showSourceCode: to: self.
+	self setSourceCodeShorcutsTo: scrolledText.
+	^ scrolledText

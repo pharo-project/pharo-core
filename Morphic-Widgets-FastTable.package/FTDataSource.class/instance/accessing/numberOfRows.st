@@ -1,0 +1,2 @@
+numberOfRows
+	^ self subclassResponsibility

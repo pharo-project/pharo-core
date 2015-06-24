@@ -1,0 +1,2 @@
+oldSelectedRowIndexes: anObject
+	oldSelectedRowIndexes := anObject

@@ -1,0 +1,2 @@
+allowsDeselection: aBoolean
+	allowsDeselection := aBoolean

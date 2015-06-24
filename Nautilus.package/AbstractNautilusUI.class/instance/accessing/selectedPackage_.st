@@ -4,10 +4,7 @@ selectedPackage: aPackage
 	self okToChange
 		ifTrue: [
 			acceptor := ClassDefinitionAcceptor model: self.
-			
 			self resetPackageGroupsListSelection.
-			self packageWidget selectPackage: aPackage.
-				
-			aPackage ifNotNil: [ self giveFocusTo: self packageWidget ].	
-				
-			self selectedPackageWithoutChangingSelection: aPackage]
+			self packageWidget selectPackage: aPackage.		
+			aPackage ifNotNil: [ self giveFocusTo: self packageWidget ].		
+			self selectedPackageWithoutChangingSelection: aPackage ]

@@ -1,0 +1,2 @@
+intercellSpacing: aNumber
+	intercellSpacing := aNumber

@@ -14,4 +14,4 @@ addCategory
 	newName ifNil: [ ^ self ].
 	self 
 		updateCategoryAndMethodList;
-		giveFocusToSourceCode.
+		giveFocusToSourceCodeArea.

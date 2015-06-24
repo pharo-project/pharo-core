@@ -1,0 +1,2 @@
+flashSourceCodeArea
+	^ self sourceTextArea flashSourceCodeArea

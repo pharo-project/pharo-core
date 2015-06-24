@@ -1,0 +1,1 @@
+I announce a selection change (usually a click, but can also be done with arrows (up and down)

@@ -1,0 +1,2 @@
+hasDataSource
+	^ self dataSource notNil

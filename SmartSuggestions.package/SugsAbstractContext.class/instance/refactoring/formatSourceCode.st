@@ -4,5 +4,5 @@ formatSourceCode
 	formatted := selectedNode formattedCode.
 	formatted = self code ifTrue: [ ^ self ].
 	self sourceTextArea
-		editString: formatted;
+		formatSourceCode;
 		hasUnacceptedEdits: true

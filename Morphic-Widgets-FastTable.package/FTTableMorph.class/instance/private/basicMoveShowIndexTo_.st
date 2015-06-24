@@ -1,0 +1,2 @@
+basicMoveShowIndexTo: aNumber
+	showIndex := aNumber.

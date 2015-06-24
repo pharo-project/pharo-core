@@ -1,2 +1,2 @@
 selectedMethod
-	^ model selectedMethod .
+	^ model selectedMethod

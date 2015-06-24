@@ -1,0 +1,1 @@
+I contain visible rows in a FTTableMorph.

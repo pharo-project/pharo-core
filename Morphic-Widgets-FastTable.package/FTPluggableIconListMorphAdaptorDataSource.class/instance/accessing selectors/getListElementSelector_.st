@@ -1,0 +1,2 @@
+getListElementSelector: anObject
+	getListElementSelector := anObject

@@ -8,6 +8,4 @@ selectedPackageWithoutChangingSelection: aPackage
 			self model package: aPackage class: self selectedClass category: nil method: nil.
 			self packageWidget selectPackage:aPackage .
 			self updateClassView.
-			self updateCategoryAndMethodList.
-			self changed: #getComments.
-			self changed: #sourceCodeFrom:]
+			self updateCategoryAndMethodList ]

@@ -1,0 +1,1 @@
+I define a table datasource. My purpose is to provide content to a FTTableMorph . Important methods to implement are: - #numberOfRows- #cellViewTable:column:row:

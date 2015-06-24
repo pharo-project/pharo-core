@@ -1,0 +1,2 @@
+headerColor: aColor
+	headerColor := aColor

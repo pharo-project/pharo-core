@@ -1,0 +1,2 @@
+origin
+	^ self method origin

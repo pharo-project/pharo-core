@@ -1,0 +1,2 @@
+selectedRowIndex: anObject
+	selectedRowIndex := anObject

@@ -1,0 +1,2 @@
+menu: aBlock
+	menuBlock := aBlock

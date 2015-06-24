@@ -1,3 +1,0 @@
-sourceCodeFrom: aTextMorph
-
-	^ self sourceCode

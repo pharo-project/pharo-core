@@ -13,7 +13,5 @@ selectedMethod: aMethod
 				ifNotNil: [ 
 					acceptor := MethodDefinitionAcceptor model: self.
 					self giveFocusTo: methodWidget ].
-			self changed: #sourceCodeFrom:.
-			"sourceTextArea giveFocusToDefault." self flag: #shouldcomeback.
 			^ true].
 	^false 

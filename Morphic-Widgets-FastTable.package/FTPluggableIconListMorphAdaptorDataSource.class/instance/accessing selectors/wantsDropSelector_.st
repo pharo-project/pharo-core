@@ -1,0 +1,2 @@
+wantsDropSelector: aSelector
+	wantsDropSelector := aSelector

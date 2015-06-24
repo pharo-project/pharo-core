@@ -1,2 +1,2 @@
 selectedClass
-	^model selectedClass .
+	^model selectedClass
