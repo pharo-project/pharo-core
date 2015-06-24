@@ -1,3 +1,2 @@
 addClasses: aCollection 
-	
-	self addBlock: [ aCollection ]
+	self isReadOnly ifFalse:[ self addBlock: [ aCollection ] ]

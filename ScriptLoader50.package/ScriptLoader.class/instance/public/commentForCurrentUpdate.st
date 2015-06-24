@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '12728 requestImplementorToInline: is missing in NautilusRefactoring
-	https://pharo.fogbugz.com/f/cases/12728
+ ^ '15568 removeClass does not work for Last modified/Most viewed DynamicGroups 
+	https://pharo.fogbugz.com/f/cases/15568
 
-15828 NECController must check that its editor morph is not nil before unsubscribing from it
-	https://pharo.fogbugz.com/f/cases/15828
+15827 Update Rubric
+	https://pharo.fogbugz.com/f/cases/15827
 
-15826 Clean up discouraged uses of SourceFiles and friends (10)
-	https://pharo.fogbugz.com/f/cases/15826'
+15272 RBPatternMessageNode>>match:inContext: SubscriptOutOfBounds
+	https://pharo.fogbugz.com/f/cases/15272'

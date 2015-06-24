@@ -1,0 +1,2 @@
+isKeywordPattern
+	^ false

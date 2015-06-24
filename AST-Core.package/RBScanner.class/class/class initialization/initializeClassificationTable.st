@@ -1,5 +1,6 @@
 initializeClassificationTable
 	PatternVariableCharacter := $`.
+	KeywordPatternCharacter := $@.
 	classificationTable := Array new: 255.
 	self 
 		initializeChars: (Character allCharacters

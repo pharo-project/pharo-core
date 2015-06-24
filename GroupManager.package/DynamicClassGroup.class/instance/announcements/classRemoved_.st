@@ -1,6 +1,6 @@
 classRemoved: anAnnouncement
 	| class |
-	
+	self isReadOnly ifTrue:[^ self].
 	class := anAnnouncement classRemoved.
 	
 	blocks copy do: [:b | 

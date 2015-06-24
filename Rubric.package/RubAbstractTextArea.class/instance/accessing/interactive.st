@@ -1,0 +1,2 @@
+interactive
+	^ self editingMode interactive

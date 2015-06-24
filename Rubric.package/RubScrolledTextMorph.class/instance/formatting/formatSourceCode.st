@@ -1,0 +1,2 @@
+formatSourceCode
+	self textArea formatMethodCode

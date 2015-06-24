@@ -1,6 +1,6 @@
-script50131
+script50132
 
-	^ 'AST-Core-TheIntegrator.308.mcz
+	^ 'AST-Core-TheIntegrator.309.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
 Announcements-Core-MarcusDenker.55.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -106,7 +106,7 @@ Graphics-Resources-TheIntegrator.24.mcz
 Graphics-Shapes-TheIntegrator.2.mcz
 Graphics-Tests-TheIntegrator.72.mcz
 Graphics-Transformations-TheIntegrator.14.mcz
-GroupManager-TheIntegrator.78.mcz
+GroupManager-TheIntegrator.80.mcz
 GroupManagerUI-TheIntegrator.40.mcz
 Growl-TheIntegrator.37.mcz
 HelpSystem-Core-TheIntegrator.122.mcz

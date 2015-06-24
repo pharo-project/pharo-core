@@ -10,6 +10,9 @@ parseUnaryMessage
 						wrappedNode: node;
 						yourself].
 	currentToken isIdentifier] 
-			whileTrue: [node := self parseUnaryMessageWith: node].
+			whileTrue: [
+				currentToken isKeywordPattern
+					ifTrue: [ self parserError: ' incomplete keyword pattern ' ].
+				node := self parseUnaryMessageWith: node].
 	self addCommentsTo: node.
 	^node

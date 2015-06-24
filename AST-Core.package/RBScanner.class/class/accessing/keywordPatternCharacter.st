@@ -1,0 +1,2 @@
+keywordPatternCharacter
+	^ KeywordPatternCharacter

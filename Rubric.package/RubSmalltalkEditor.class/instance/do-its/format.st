@@ -1,0 +1,2 @@
+format
+	self model formatSourceCodeInView
