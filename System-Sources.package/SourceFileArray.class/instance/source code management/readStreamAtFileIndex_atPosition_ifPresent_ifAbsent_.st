@@ -1,7 +1,7 @@
 readStreamAtFileIndex: index atPosition: position ifPresent: presentBlock ifAbsent: absentBlock
 
 	| stream |
-	stream := self at: index.
+	stream := self fileAt: index.
 	stream ifNil: [ ^ absentBlock value ].	"sources file not available"	
 
 	"file does not exist happens in secure mode"

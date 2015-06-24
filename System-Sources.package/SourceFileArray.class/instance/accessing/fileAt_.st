@@ -1,2 +1,2 @@
-at: index
+fileAt: index
 	^ files at: index

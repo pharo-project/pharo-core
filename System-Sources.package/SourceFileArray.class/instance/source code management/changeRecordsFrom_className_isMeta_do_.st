@@ -8,9 +8,7 @@ changeRecordsFrom: initialSourcePointer className: theNonMetaClassName isMeta: c
 
 	self readOnlyDo: [ :sourceFilesCopy | 
 		| file previousFilePosition previousFileIndex preamble stamp protocol preambleTokens |
-		file := sourceFilesCopy 
-			at: fileIndex 
-			ifAbsent: [ ^ self ].
+		file := sourceFilesCopy fileAt: fileIndex ifAbsent: [ ^ self ].
 		
 		[ filePosition notNil & file notNil ]
 			whileTrue: [ 
@@ -85,5 +83,5 @@ changeRecordsFrom: initialSourcePointer className: theNonMetaClassName isMeta: c
 				filePosition := previousFilePosition.
 				previousFilePosition ifNotNil: [ 
 					file := sourceFilesCopy 
-						at: previousFileIndex
-						ifAbsent: [  ^ self ] ] ] ]
+						fileAt: previousFileIndex
+						ifAbsent: [ ^ self ] ] ] ]
