@@ -1,4 +1,4 @@
-script50133
+script50134
 
 	^ 'AST-Core-TheIntegrator.313.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -160,6 +160,7 @@ Morphic-Examples-TheIntegrator.40.mcz
 Morphic-Widgets-Basic-TheIntegrator.43.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
 Morphic-Widgets-Extra-TheIntegrator.22.mcz
+Morphic-Widgets-FastTable-EstebanLorenzano.32.mcz
 Morphic-Widgets-List-TheIntegrator.20.mcz
 Morphic-Widgets-NewList-TheIntegrator.5.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.55.mcz
@@ -187,7 +188,7 @@ NativeBoost-Win32-TheIntegrator.57.mcz
 Nautilus-TheIntegrator.964.mcz
 Nautilus-Tests-TheIntegrator.20.mcz
 NautilusCommon-TheIntegrator.266.mcz
-NautilusRefactoring-TheIntegrator.231.mcz
+NautilusRefactoring-TheIntegrator.233.mcz
 Network-Kernel-TheIntegrator.118.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.41.mcz
@@ -201,7 +202,7 @@ NonInteractiveTranscript-TheIntegrator.17.mcz
 OSWindow-Core-TheIntegrator.20.mcz
 OSWindow-SDL2-EstebanLorenzano.19.mcz
 OSWindow-VM-IgorStasenko.2.mcz
-OpalCompiler-Core-TheIntegrator.680.mcz
+OpalCompiler-Core-TheIntegrator.682.mcz
 OpalCompiler-Tests-StephaneDucasse.289.mcz
 OpalDecompiler-TheIntegrator.33.mcz
 OpalTools-TheIntegrator.16.mcz
@@ -223,7 +224,7 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.127.mcz
 Refactoring-Tests-Critics-TheIntegrator.31.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.74.mcz
+Reflectivity-TheIntegrator.76.mcz
 Reflectivity-Tests-TheIntegrator.54.mcz
 Regex-Core-MarcusDenker.33.mcz
 Regex-Help-MarcusDenker.5.mcz

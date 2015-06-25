@@ -1,5 +1,7 @@
 recompileAST
-	ast compilationContext semanticAnalyzerClass: RFSemanticAnalyzer.
+	ast compilationContext 
+		semanticAnalyzerClass: RFSemanticAnalyzer;
+		astTranslatorClass: RFASTTranslator.
 	ast doSemanticAnalysis. "force semantic analysis"
 	compiledMethod := ast generate: compiledMethod trailer.
 	compiledMethod reflectiveMethod: self.
