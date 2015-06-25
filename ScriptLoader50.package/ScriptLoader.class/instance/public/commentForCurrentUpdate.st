@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '15830 enable compiler subclass for Reflectivity, start to move hooks from superclass
-	https://pharo.fogbugz.com/f/cases/15830
+ ^ '15838 Reflectivity: allow to reify #variable for Globals
+	https://pharo.fogbugz.com/f/cases/15838
 
-15836 Abort Rename class refactoring
-	https://pharo.fogbugz.com/f/cases/15836'
+15837 Move all RF code from Opal to Opal Plugin
+	https://pharo.fogbugz.com/f/cases/15837'

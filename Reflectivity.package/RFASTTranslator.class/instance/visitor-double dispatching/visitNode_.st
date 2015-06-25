@@ -1,4 +1,5 @@
 visitNode: aNode
 	methodBuilder mapToNode: aNode.
 	super visitNode: aNode.
-	methodBuilder popMap.
+	self emitMetaLinkAfter: aNode.
+	methodBuilder popMap
