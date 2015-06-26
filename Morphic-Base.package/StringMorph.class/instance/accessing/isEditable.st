@@ -1,0 +1,2 @@
+isEditable
+	^ self editorProvider notNil

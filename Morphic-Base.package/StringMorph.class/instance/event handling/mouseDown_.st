@@ -3,5 +3,5 @@ mouseDown: evt
 	Process as normal if StringMorph class>> editableStringMorph  returns false."
 
 	(self isEditable: evt)
-		ifTrue: [self launchMiniEditor: evt]
+		ifTrue: [self launchEditor: evt]
 		ifFalse: [super mouseDown: evt].

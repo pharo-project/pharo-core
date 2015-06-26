@@ -1,3 +1,6 @@
 commentForCurrentUpdate
- ^ '15847 Create a new instance variable while editing a method replaces the code of the method by class definition  
-	https://pharo.fogbugz.com/f/cases/15847'
+ ^ '15851 update Rubric to support edition in place of string morph
+	https://pharo.fogbugz.com/f/cases/15851
+
+15850 Editable StringMorph revival
+	https://pharo.fogbugz.com/f/cases/15850'

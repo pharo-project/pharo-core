@@ -3,4 +3,5 @@ handleReturnKey
 	answer := RubReturnEntered morph: self.
 	self announce: answer.
 	answer accepted
-		ifTrue: [ self editor textWasAccepted ]
+		ifTrue: [ self editor textWasAccepted ].
+	^ answer accepted

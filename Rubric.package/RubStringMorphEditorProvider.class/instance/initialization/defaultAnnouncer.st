@@ -1,0 +1,2 @@
+defaultAnnouncer
+	^ Announcer new
