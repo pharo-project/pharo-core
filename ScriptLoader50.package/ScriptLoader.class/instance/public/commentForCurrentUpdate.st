@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '15838 Reflectivity: allow to reify #variable for Globals
-	https://pharo.fogbugz.com/f/cases/15838
+ ^ '15840 RF: add support for #instead links
+	https://pharo.fogbugz.com/f/cases/15840
 
-15837 Move all RF code from Opal to Opal Plugin
-	https://pharo.fogbugz.com/f/cases/15837'
+15833 Remove Notifications from Job implementation
+	https://pharo.fogbugz.com/f/cases/15833'

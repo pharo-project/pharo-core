@@ -18,19 +18,18 @@ do: aBlock displayingProgress: aStringOrBlock every: msecs
 		labelBlock := aStringOrBlock isString
 			ifTrue: [
 				bar label: aStringOrBlock.
-				[ :dummyItem | aStringOrBlock]]
-			ifFalse: [aStringOrBlock].
-		self do: [:each| | newLabel |
-				"Special handling for first and last element"
-				(count = 0 or: [count+1 = size
-					or: [(Time millisecondsSince: lastUpdate) >= msecs]]) 
-						ifTrue: [ 
-							bar current: count.
-							oldLabel = (newLabel := (labelBlock cull: each) ifNil: [oldLabel]) 
-								ifFalse: 
-								[	bar label: newLabel.	
-									ProgressNotification signal: '' extra: (oldLabel := newLabel)
-								].
+				[ :dummyItem | aStringOrBlock] ]
+			ifFalse: [ aStringOrBlock ].
+
+		self do: [ :each | | newLabel |
+			"Special handling for first and last element"
+			(count = 0 or: [ count + 1 = size or: [(Time millisecondsSince: lastUpdate) >= msecs]]) 
+				ifTrue: [ 
+					bar current: count.
+					oldLabel = (newLabel := (labelBlock cull: each) ifNil: [oldLabel]) 
+						ifFalse: [
+							bar label: newLabel.
+							oldLabel := newLabel ].
 				lastUpdate := Time millisecondClockValue ].
-                       aBlock value: each.
-                       count := count + 1]]
+			aBlock value: each.
+			count := count + 1 ] ]

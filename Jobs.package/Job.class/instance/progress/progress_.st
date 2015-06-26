@@ -1,4 +1,5 @@
 progress: aNormalizedFloat
 	"Set the progress: 0.0 - 1.0"
-	self basicProgress: aNormalizedFloat.
+
+	currentValue := (min + ((max - min) * aNormalizedFloat)).
 	self announceChange.

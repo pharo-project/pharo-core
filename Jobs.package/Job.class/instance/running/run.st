@@ -1,11 +1,5 @@
 run
 
-	| result |
-	[
-		self prepareForRunning.
-		[ result := block cull: self ]
-			on: JobNotification
-			do: [ :notification | notification handle: self ]]
-		ensure: [ self cleanupAfterRunning ].
-	
-	^ result.
+	[ self prepareForRunning.
+	  CurrentJob value: self during: [ ^ block cull: self ] ]
+			ensure: [ self cleanupAfterRunning ]

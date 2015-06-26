@@ -1,6 +1,7 @@
 analyseForLinks: aNode
 	aNode propertyAt: #beforeHooks put: OrderedCollection new.
 	aNode propertyAt: #afterHooks put: OrderedCollection new.
+	aNode propertyAt: #insteadHooks put: OrderedCollection new.
 	aNode propertyAt: #preambles put: OrderedCollection new.
 	
 	aNode hasMetalink
@@ -20,4 +21,10 @@ analyseForLinks: aNode
 			| after |
 			after := link hookOn: aNode.
 			aNode afterHooks add: after.
+			self visitNode: after ].
+		
+	aNode insteadLinks do: [ :link | 
+			| after |
+			after := link hookOn: aNode.
+			aNode insteadHooks add: after.
 			self visitNode: after ].

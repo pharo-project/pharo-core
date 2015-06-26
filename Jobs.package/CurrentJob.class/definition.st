@@ -1,5 +1,5 @@
-JobAnnouncement subclass: #JobStart
+DynamicVariable subclass: #CurrentJob
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Jobs-Announcements'
+	category: 'Jobs-Base'
