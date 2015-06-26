@@ -1,9 +1,3 @@
 commentForCurrentUpdate
- ^ '15846 Monticello cleaning and repackaging
-	https://pharo.fogbugz.com/f/cases/15846
-
-15848 Update Rubric support for temporaries addition
-	https://pharo.fogbugz.com/f/cases/15848
-
-15835 enable use of experimental fast table for Nautilus
-	https://pharo.fogbugz.com/f/cases/15835'
+ ^ '15847 Create a new instance variable while editing a method replaces the code of the method by class definition  
+	https://pharo.fogbugz.com/f/cases/15847'
