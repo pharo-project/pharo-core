@@ -1,3 +1,3 @@
 visitInstruction: aNode
-	super visitNode: aNode.
+	self visitNode: aNode.
 	stream cr.

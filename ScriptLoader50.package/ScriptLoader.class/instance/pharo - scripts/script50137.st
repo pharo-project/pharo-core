@@ -1,4 +1,4 @@
-script50136
+script50137
 
 	^ 'AST-Core-TheIntegrator.313.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -114,16 +114,16 @@ HelpSystem-Tests-TheIntegrator.30.mcz
 HudsonBuildTools20-TheIntegrator.70.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
-Jobs-TheIntegrator.9.mcz
+Jobs-TheIntegrator.12.mcz
 Kernel-TheIntegrator.2070.mcz
-KernelTests-TheIntegrator.784.mcz
+KernelTests-TheIntegrator.786.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
 Keymapping-Pragmas-TheIntegrator.52.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.96.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
-Komitter-StephaneDucasse.128.mcz
+Komitter-TheIntegrator.130.mcz
 Manifest-Core-TheIntegrator.225.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.49.mcz
@@ -147,7 +147,7 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-TheIntegrator.1034.mcz
+Monticello-TheIntegrator.1035.mcz
 Monticello-Tests-TheIntegrator.16.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.184.mcz
@@ -202,7 +202,7 @@ NonInteractiveTranscript-TheIntegrator.17.mcz
 OSWindow-Core-TheIntegrator.20.mcz
 OSWindow-SDL2-EstebanLorenzano.19.mcz
 OSWindow-VM-IgorStasenko.2.mcz
-OpalCompiler-Core-TheIntegrator.684.mcz
+OpalCompiler-Core-TheIntegrator.686.mcz
 OpalCompiler-Tests-StephaneDucasse.289.mcz
 OpalDecompiler-TheIntegrator.33.mcz
 OpalTools-TheIntegrator.16.mcz

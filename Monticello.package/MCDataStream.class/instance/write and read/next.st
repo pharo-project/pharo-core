@@ -37,13 +37,4 @@ next
 		 Either way, we must not re-internalize the object here."
 	selector == #readReference ifTrue: [^ anObject].
 	internalObject := anObject comeFullyUpOnReload: self.
-	internalObject == String ifTrue:[
-		"This is a hack to figure out if we're loading a String class 
-		that really should be a ByteString. Note that these days this
-		will no longer be necessary since we use #withClassVersion:
-		for constructing the global thus using a different classVersion
-		will perfectly do the trick."
-		((anObject globalObjectName == #String)
-			and:[anObject constructorSelector == #yourself]) ifTrue:[
-				internalObject := ByteString]].
 	^ self maybeBeginReference: internalObject

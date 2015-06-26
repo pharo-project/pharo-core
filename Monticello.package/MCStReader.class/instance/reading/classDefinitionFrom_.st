@@ -1,10 +1,10 @@
-classDefinitionFrom: aPseudoClass
+classDefinitionFrom: aRingClass
 	| tokens traitCompositionString lastIndex classTraitCompositionString |
-	tokens := aPseudoClass definitionSource parseLiterals.
-	traitCompositionString := (aPseudoClass definitionSource readStream
+	tokens := aRingClass definitionSource parseLiterals.
+	traitCompositionString := (aRingClass definitionSource readStream
 		match: 'uses:';
 		upToAll: 'instanceVariableNames:') trimBoth.
-	classTraitCompositionString := (aPseudoClass theMetaClass definitionSource asString readStream
+	classTraitCompositionString := (aRingClass theMetaClass definitionSource asString readStream
 		match: 'uses:';
 		upToAll: 'instanceVariableNames:') trimBoth.
 	traitCompositionString isEmpty ifTrue: [traitCompositionString := '{}'].
@@ -19,7 +19,7 @@ classDefinitionFrom: aPseudoClass
 		instVarNames: ((tokens at: lastIndex - 6) findTokens: ' ')
 		classVarNames: ((tokens at: lastIndex - 4) findTokens: ' ')
 		poolDictionaryNames: ((tokens at: lastIndex - 2) findTokens: ' ')
-		classInstVarNames: (self classInstVarNamesFor: aPseudoClass)
+		classInstVarNames: (self classInstVarNamesFor: aRingClass)
 		type: (self typeOfSubclass: (tokens at: 2))
-		comment: (self commentFor: aPseudoClass)
-		commentStamp: (self commentStampFor: aPseudoClass)
+		comment: (self commentFor: aRingClass)
+		commentStamp: (self commentStampFor: aRingClass)

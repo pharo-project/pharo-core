@@ -1,8 +1,8 @@
-classInstVarNamesFor: aPseudoClass
+classInstVarNamesFor: aRingClass
 	| tokens |
 	
 	self flag: #traits.
-	aPseudoClass theMetaClass hasDefinitionSource ifFalse: [^ #()].
-	tokens := aPseudoClass theMetaClass definitionSource parseLiterals.
+	aRingClass theMetaClass hasDefinitionSource ifFalse: [^ #()].
+	tokens := aRingClass theMetaClass definitionSource parseLiterals.
 	"tokens size = 4 ifFalse: [self error: 'Unrecognized metaclass definition']."
 	^ tokens last findTokens: ' '

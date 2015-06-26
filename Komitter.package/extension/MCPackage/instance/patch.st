@@ -1,7 +1,7 @@
 patch
 	| snapshot base patch |
 	
-	snapshot := self silentSnapshot.
+	snapshot := self snapshot.
 	base := self baseSnapshot.
 	patch := base
 		ifNil: [ MCPatch new initializeWithTarget: self snapshot ]
