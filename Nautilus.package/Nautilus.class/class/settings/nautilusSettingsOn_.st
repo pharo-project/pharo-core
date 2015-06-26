@@ -41,6 +41,9 @@ Put a negative value to disable'.
 			(aBuilder setting: #useOldStyleKeys)
 				label: 'Use old style keys ?';
 				description: 'If true, the browser will use the old style keys (This is highly non-recommended, you will lose a lot of cool access keys)'.
+			(aBuilder setting: #useExperimentalFastTable)
+				label: 'Use EXPERIMENTAL fast table ?';
+				description: 'If true, the browser will use the currently experimental FTTableMorph to show list panels'.
 			(aBuilder setting: #showDebugMenus)
 				label: 'Show DEBUG menu?';
 				description: 'If true, the browser will show DEBUG entries in all menus for debugging Nautilus itself'.

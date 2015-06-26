@@ -1,0 +1,2 @@
+textMorph
+	^ self textArea

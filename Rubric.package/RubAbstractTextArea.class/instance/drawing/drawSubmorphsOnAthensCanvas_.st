@@ -5,4 +5,4 @@ drawSubmorphsOnAthensCanvas: aCanvas
 	super drawSubmorphsOnAthensCanvas: aCanvas.
 	self paragraph drawOnAthensCanvas: aCanvas bounds: self drawingBounds color: self textColor.
 	(scrollPane isNil and: [ self readOnly not and: [ self hasKeyboardFocus or: [ self hasFindReplaceFocus ] ] ])
-		ifTrue: [ self drawKeyboardFocusOnAthensCanvas: aCanvas ]
+		ifTrue: [  self drawKeyboardFocusOnAthensCanvas: aCanvas ]

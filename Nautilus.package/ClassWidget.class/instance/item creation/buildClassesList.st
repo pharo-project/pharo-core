@@ -1,5 +1,5 @@
 buildClassesList
-	classesList := PluggableIconListMorph new
+	classesList := self class listClass new
 				basicWrapSelector: #classWrapper:;
 				keystrokeSelector: #keyPressedOnList:shifted:;
 				getIconSelector: #classIconFor:;

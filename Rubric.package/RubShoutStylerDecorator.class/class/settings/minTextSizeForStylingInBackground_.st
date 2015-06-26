@@ -1,0 +1,2 @@
+minTextSizeForStylingInBackground: anInteger
+	MinTextSizeForStylingInBackground := anInteger.

@@ -1,5 +1,5 @@
 buildCategoriesList
-	^ categoriesList := PluggableIconListMorph new
+	^ categoriesList := self class listClass new
 		basicWrapSelector: #categoryWrapper:;
 		resetListSelector: #resetCategorySelection;
 		keystrokeSelector: #keyPressedOnCategory:;

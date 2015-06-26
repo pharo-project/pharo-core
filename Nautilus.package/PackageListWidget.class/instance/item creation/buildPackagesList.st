@@ -1,5 +1,5 @@
 buildPackagesList
-	packagesList := PluggableIconListMorph new
+	packagesList := self class listClass new
 		basicWrapSelector: #packageItemWrapper:;
 		keystrokeSelector: #keyPressedOnList:shifted:;
 		getIconSelector: #packageListItemIcon:;

@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '15843 Tiny cleanup Opal
-	https://pharo.fogbugz.com/f/cases/15843
+ ^ '15846 Monticello cleaning and repackaging
+	https://pharo.fogbugz.com/f/cases/15846
 
-14776 Create test package for Jobs
-	https://pharo.fogbugz.com/f/cases/14776
+15848 Update Rubric support for temporaries addition
+	https://pharo.fogbugz.com/f/cases/15848
 
-15841 Removing Monticello dead and duplicated code
-	https://pharo.fogbugz.com/f/cases/15841'
+15835 enable use of experimental fast table for Nautilus
+	https://pharo.fogbugz.com/f/cases/15835'

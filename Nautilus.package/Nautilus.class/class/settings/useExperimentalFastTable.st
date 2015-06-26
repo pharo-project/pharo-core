@@ -1,0 +1,2 @@
+useExperimentalFastTable
+	^ useExperimentalFastTable ifNil: [ false ]

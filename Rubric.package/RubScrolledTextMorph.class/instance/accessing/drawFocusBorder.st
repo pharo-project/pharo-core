@@ -1,0 +1,2 @@
+drawFocusBorder
+	^ self scrollPane drawFocusBorder

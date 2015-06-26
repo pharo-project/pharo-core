@@ -1,6 +1,6 @@
 buildMethodsList
 	
-	methodsList :=  PluggableIconListMorph new
+	methodsList :=  self class listClass new
 						basicWrapSelector: #methodWrapper:;
 						keystrokeSelector: #keyPressedOnElement:; 
 						getIconSelector: #methodIconFor:;

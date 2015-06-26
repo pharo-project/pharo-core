@@ -1,0 +1,2 @@
+minTextSizeForStylingInBackground
+	^ self class minTextSizeForStylingInBackground

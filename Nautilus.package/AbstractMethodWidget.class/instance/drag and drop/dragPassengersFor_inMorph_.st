@@ -1,7 +1,7 @@
 dragPassengersFor: item inMorph: dragSource 
 
 	| transferType object |
-	(dragSource isKindOf: PluggableListMorph) ifFalse: [^ nil ].
+	(dragSource isKindOf: self class listClass) ifFalse: [^ nil ].
 	transferType := self dragTransferTypeForMorph: dragSource.
 	transferType == #getMethodItem: ifFalse: [ ^ nil ].
 	object := item originalObject.

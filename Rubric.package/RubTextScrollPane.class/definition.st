@@ -1,5 +1,5 @@
 GeneralScrollPane subclass: #RubTextScrollPane
-	instanceVariableNames: ''
+	instanceVariableNames: 'drawFocusBorder'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Rubric-Editing-Widgets'

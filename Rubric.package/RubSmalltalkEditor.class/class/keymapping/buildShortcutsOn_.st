@@ -6,6 +6,16 @@ buildShortcutsOn: aBuilder
 	We list both variations explicitly because we want to be able to see the action code when inspecting the morph.
 	"
 	<keymap>
+	(aBuilder shortcut: #querySymbol) 
+		category: RubSmalltalkEditor name
+		default: $q ctrl
+		do: [ :target | target editor querySymbol: nil ]
+		description: 'Query symbol'.
+	(aBuilder shortcut: #querySymbol) 
+		category: RubSmalltalkEditor name
+		default: $q command
+		do: [ :target | target editor querySymbol: nil ]
+		description: 'Query symbol'.
 	(aBuilder shortcut: #browseIt) 
 		category: RubSmalltalkEditor name
 		default: $b ctrl
