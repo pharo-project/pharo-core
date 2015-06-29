@@ -1,5 +1,5 @@
 OCASTTranslator subclass: #RFASTTranslator
-	instanceVariableNames: ''
+	instanceVariableNames: 'seen'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Reflectivity-Core'

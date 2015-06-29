@@ -1,9 +1,18 @@
 visitNode: aNode
+	| parentNode |
+	parentNode := aNode parent.
+
 	methodBuilder mapToNode: aNode.
-	aNode hasMetalinkInstead 
+	(aNode hasMetalinkAfter and: [ (effectTranslator hasSeen: aNode) not ])
 		ifTrue: [
-			aNode preambles do: [ :pre | self visitNode: pre].
-			super visitNode: aNode insteadHooks last]
-		ifFalse: [super visitNode: aNode].
-	self emitMetaLinkAfter: aNode.
+			effectTranslator recordSeen: aNode.	
+			self visitBlockNode: ((RBBlockNode body: aNode asSequenceNode) scope: OCBlockScope new; parent: parentNode).
+			self visitBlockNode: ((RBBlockNode body: (RBSequenceNode statements: aNode afterHooks flattened)) 
+									scope: OCBlockScope new; parent: aNode).
+			methodBuilder send: #ensure:.
+			effectTranslator removeSeen: aNode]
+		ifFalse: [
+	aNode hasMetalinkInstead 
+		ifTrue: [self emitMetaLinkInstead: aNode]
+		ifFalse: [super visitNode: aNode]].
 	methodBuilder popMap

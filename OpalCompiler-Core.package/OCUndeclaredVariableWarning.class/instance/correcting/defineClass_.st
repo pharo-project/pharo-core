@@ -8,7 +8,6 @@ defineClass: className
 	classDefinition := 'Object subclass: #' , classSymbol , '
 		instanceVariableNames: '''' 
 		classVariableNames: ''''
-		poolDictionaries: ''''
 		category: ''' , systemCategory , ''''.
 	classDefinition := UIManager default 
 		multiLineRequest: 'Edit class definition:'
