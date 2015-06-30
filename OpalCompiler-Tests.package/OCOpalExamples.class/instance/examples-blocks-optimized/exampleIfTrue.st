@@ -1,3 +1,2 @@
 exampleIfTrue
-	 1  < 2 ifTrue: [^'result'].
-	
+	 1  < 2 ifTrue: [^'result']. 
