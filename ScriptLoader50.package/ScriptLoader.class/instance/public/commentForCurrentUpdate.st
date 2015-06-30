@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '13416 Problem with Refactoring : temporary to instvar
-	https://pharo.fogbugz.com/f/cases/13416
+ ^ '15862 Better method comment for withIndexDo: and doWithIndex:
+	https://pharo.fogbugz.com/f/cases/15862
 
-15760 ToggleMenuItemShortcut do not draw on athens
-	https://pharo.fogbugz.com/f/cases/15760
+15864 Reflectivity: error when installing incompatibe link
+	https://pharo.fogbugz.com/f/cases/15864
 
-15854 template proposed to dynamically create class (on the fly)
-	https://pharo.fogbugz.com/f/cases/15854
-
-15852 Reflectivity: #ensure: wrapping #after
-	https://pharo.fogbugz.com/f/cases/15852'
+15312 Wrong position for completion menu in Rubric/Playground
+	https://pharo.fogbugz.com/f/cases/15312'

@@ -1,4 +1,3 @@
 closeEditor
-	editor delete.
-	stringMorph := nil.
-	editor := nil
+	editor ifNil: [ ^self ].
+	editor delete

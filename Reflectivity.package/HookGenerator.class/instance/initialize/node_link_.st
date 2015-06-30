@@ -1,5 +1,4 @@
 node: aNode link: aLink
-	reifications := OrderedCollection new.
 	table := Dictionary new.
 	plugins := Dictionary new.
 	node := aNode.

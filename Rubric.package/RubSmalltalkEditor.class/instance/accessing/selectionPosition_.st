@@ -8,5 +8,5 @@ selectionPosition: aString
 		self selectInvisiblyFrom: index to: index - 1.
 		bottomLeft := textArea cursor bottomLeft.
 		topLeft := textArea owner positionInWorld.
-		topLeft + bottomLeft ]
+		topLeft + bottomLeft - textArea offset]
 			ensure: [ self selectInvisiblyFrom: startIndex to: startIndex - 1 ]

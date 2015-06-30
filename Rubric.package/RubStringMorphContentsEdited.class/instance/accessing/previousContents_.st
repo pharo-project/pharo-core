@@ -1,0 +1,2 @@
+previousContents: anObject
+	previousContents := anObject

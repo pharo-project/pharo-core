@@ -1,5 +1,5 @@
 RubMorphAnnouncement subclass: #RubStringMorphContentsEdited
-	instanceVariableNames: ''
+	instanceVariableNames: 'previousContents'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Rubric-Editing-Announcements'
