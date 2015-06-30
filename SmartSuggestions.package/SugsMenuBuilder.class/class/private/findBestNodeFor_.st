@@ -1,5 +1,7 @@
 findBestNodeFor: context
 	| root node |
+	"since the ast is used to put links for break points reparsing it will lose all the 
+	meta information such as breakpoints, therefore when the code is unchanged do not reparse it."
 	context hasUnacceptedEdits
 		ifTrue: [ 
 			root := OpalCompiler new

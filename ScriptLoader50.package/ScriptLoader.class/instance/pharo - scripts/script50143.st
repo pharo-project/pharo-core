@@ -1,4 +1,4 @@
-script50142
+script50143
 
 	^ 'AST-Core-TheIntegrator.313.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -162,10 +162,10 @@ Morphic-Widgets-Basic-TheIntegrator.43.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
 Morphic-Widgets-Extra-TheIntegrator.22.mcz
 Morphic-Widgets-FastTable-EstebanLorenzano.32.mcz
-Morphic-Widgets-List-TheIntegrator.20.mcz
+Morphic-Widgets-List-TheIntegrator.21.mcz
 Morphic-Widgets-NewList-TheIntegrator.5.mcz
-Morphic-Widgets-Pluggable-TheIntegrator.55.mcz
-Morphic-Widgets-Scrolling-TheIntegrator.23.mcz
+Morphic-Widgets-Pluggable-TheIntegrator.57.mcz
+Morphic-Widgets-Scrolling-TheIntegrator.25.mcz
 Morphic-Widgets-Tabs-TheIntegrator.14.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.9.mcz
 Morphic-Widgets-Tree-TheIntegrator.33.mcz
@@ -237,7 +237,7 @@ Ring-Monticello-TheIntegrator.34.mcz
 Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.83.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
-Rubric-AlainPlantec.243.mcz
+Rubric-NicolaiHess.245.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
 SUnit-Core-TheIntegrator.147.mcz
@@ -256,7 +256,7 @@ Shout-TheIntegrator.266.mcz
 ShoutTests-TheIntegrator.27.mcz
 Slot-TheIntegrator.628.mcz
 Slot-Tests-TheIntegrator.39.mcz
-SmartSuggestions-TheIntegrator.164.mcz
+SmartSuggestions-TheIntegrator.167.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
 Spec-Core-TheIntegrator.398.mcz
 Spec-Debugger-TheIntegrator.240.mcz

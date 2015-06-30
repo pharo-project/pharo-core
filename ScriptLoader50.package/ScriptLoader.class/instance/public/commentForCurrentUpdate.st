@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '15862 Better method comment for withIndexDo: and doWithIndex:
-	https://pharo.fogbugz.com/f/cases/15862
+ ^ '15396 Refactor Duplicated #itemFromPoint: (3 slightly-differing implementations)
+	https://pharo.fogbugz.com/f/cases/15396
 
-15864 Reflectivity: error when installing incompatibe link
-	https://pharo.fogbugz.com/f/cases/15864
+15863 Update Glamour to load last version of Rubric
+	https://pharo.fogbugz.com/f/cases/15863
 
-15312 Wrong position for completion menu in Rubric/Playground
-	https://pharo.fogbugz.com/f/cases/15312'
+15867 Fix shortcut for smart suggestions in Nautilus
+	https://pharo.fogbugz.com/f/cases/15867'
