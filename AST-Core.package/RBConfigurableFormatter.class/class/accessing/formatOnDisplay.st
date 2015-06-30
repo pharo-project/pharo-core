@@ -1,0 +1,2 @@
+formatOnDisplay
+	^FormatOnDisplay ifNil:[false]

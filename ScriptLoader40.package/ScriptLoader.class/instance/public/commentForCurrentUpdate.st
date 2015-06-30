@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '15680 Backport 4.0: Class rename does not update references in class-side methods
-	https://pharo.fogbugz.com/f/cases/15680'
+ ^ '14387 ressurrect format on accept and format on display
+	https://pharo.fogbugz.com/f/cases/14387'

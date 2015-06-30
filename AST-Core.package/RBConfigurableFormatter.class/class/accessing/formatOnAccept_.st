@@ -1,0 +1,2 @@
+formatOnAccept:aBoolean
+	FormatOnAccept :=aBoolean

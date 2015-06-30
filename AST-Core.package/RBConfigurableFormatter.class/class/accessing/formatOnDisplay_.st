@@ -1,0 +1,2 @@
+formatOnDisplay:aBoolean
+	FormatOnDisplay :=aBoolean

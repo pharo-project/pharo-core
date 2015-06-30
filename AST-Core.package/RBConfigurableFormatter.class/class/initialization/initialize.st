@@ -25,4 +25,6 @@ initialize
 	StringInsideBlocks := ' '.
 	StringInsideParentheses := ''.
 	TraditionalBinaryPrecedence := #(#($| $& $?) #($= $~ $< $>) #($- $+) #($* $/ $% $\) #($@)).
-	UseTraditionalBinaryPrecedenceForParentheses := true
+	UseTraditionalBinaryPrecedenceForParentheses := true.
+	FormatOnAccept := false.
+	FormatOnDisplay := false

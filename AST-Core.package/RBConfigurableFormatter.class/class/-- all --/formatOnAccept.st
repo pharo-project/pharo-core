@@ -1,0 +1,2 @@
+formatOnAccept
+	^FormatOnAccept ifNil:[false]
