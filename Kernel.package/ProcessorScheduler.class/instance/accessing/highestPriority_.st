@@ -10,5 +10,5 @@ highestPriority: newHighestPriority
 	1 to: ((quiescentProcessLists size) min: (newProcessLists size)) do: 
 		[:priority | newProcessLists at: priority put: (quiescentProcessLists at: priority)].
 	quiescentProcessLists size to: newProcessLists size do: 
-		[:priority | newProcessLists at: priority put: LinkedList new].
+		[:priority | newProcessLists at: priority put: ProcessList new].
 	quiescentProcessLists := newProcessLists
