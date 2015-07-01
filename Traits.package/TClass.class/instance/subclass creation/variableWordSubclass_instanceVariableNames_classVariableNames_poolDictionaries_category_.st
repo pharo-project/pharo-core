@@ -7,7 +7,7 @@ variableWordSubclass: t instanceVariableNames: f
 		builder
 			superclass: self;
 			name: t;
-			layoutClass: (ObjectLayout layoutForType: #words);
+			layoutClass: WordLayout;
 			slots: f asSlotCollection;
 			sharedVariablesFromString: d;
 			sharedPools: s;

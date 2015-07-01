@@ -3,7 +3,7 @@ addSlot: aSlot
 		builder
 			superclass: self superclass;
 			name: self name;
-			layoutClass: (ObjectLayout layoutForType: self typeOfClass);
+			layoutClass: self layout class;
 			slots: (self slots copyWith: aSlot);
 			classSlots: self class layout slots;
 			sharedVariablesFromString: self classVariablesString;

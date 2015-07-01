@@ -5,7 +5,7 @@ subclass: t instanceVariableNames: f classVariableNames: d poolDictionaries: s c
 		builder
 			superclass: self;
 			name: t;
-			layoutClass: (ObjectLayout layoutForType: self typeOfClass);
+			layoutClass: self layout class;
 			slots: f asSlotCollection;
 			sharedVariablesFromString: d;
 			sharedPools: s;

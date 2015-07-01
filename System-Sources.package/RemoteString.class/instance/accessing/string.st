@@ -1,6 +1,8 @@
 string 
-	"Answer the receiver's string if remote files are enabled.
-	Use a read only copy to avoid syntax errors when accessed via
-	multiple processes."
-	
-	^ self fileStreamDo: [ :readStream | readStream nextChunk ]
+	"Answer the receiver's string if remote files are enabled, or nil."
+
+	^ SourceFiles 
+		readStreamAtFileIndex: sourceFileNumber 
+		atPosition: filePositionHi 
+		ifPresent: [ :readStream | readStream nextChunk ]
+		ifAbsent: [ nil ]	

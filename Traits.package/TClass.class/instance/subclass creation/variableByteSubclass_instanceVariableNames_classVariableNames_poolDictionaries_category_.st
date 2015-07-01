@@ -4,18 +4,18 @@ variableByteSubclass: t instanceVariableNames: f
 	subclass of an existing class (the receiver) in which the subclass is to 
 	have indexable byte-sized nonpointer variables."
 	
-	| oldClassOrNil actualType |
+	| oldClassOrNil actualLayoutClass |
 	oldClassOrNil := self environment at: t ifAbsent:[nil].
-	actualType := (oldClassOrNil notNil
-				   and: [oldClassOrNil typeOfClass == #compiledMethod])
-					ifTrue: [#compiledMethod]
-					ifFalse: [#bytes].
+	actualLayoutClass := (oldClassOrNil notNil
+				   and: [oldClassOrNil layout class  == CompiledMethodLayout ])
+					ifTrue: [CompiledMethodLayout]
+					ifFalse: [ByteLayout].
 					
 	^ self classInstaller make: [ :builder |
 		builder
 			superclass: self;
 			name: t;
-			layoutClass: (ObjectLayout layoutForType: actualType);
+			layoutClass: actualLayoutClass;
 			slots: f asSlotCollection;
 			sharedVariablesFromString: d;
 			sharedPools: s;

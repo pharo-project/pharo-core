@@ -6,7 +6,7 @@ weakSubclass: t instanceVariableNames: f
 		builder
 			superclass: self;
 			name: t;
-			layoutClass: (ObjectLayout layoutForType: #weak);
+			layoutClass: WeakLayout;
 			slots: f asSlotCollection;
 			sharedVariablesFromString: d;
 			sharedPools: s;

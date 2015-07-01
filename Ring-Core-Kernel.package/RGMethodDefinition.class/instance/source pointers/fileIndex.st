@@ -1,2 +1,0 @@
-fileIndex
-	^SourceFiles fileIndexFromSourcePointer: self sourcePointer

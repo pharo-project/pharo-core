@@ -1,4 +1,4 @@
-script50147
+script50148
 
 	^ 'AST-Core-TheIntegrator.314.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -67,19 +67,19 @@ FuelCommandLineHandler-TheIntegrator.27.mcz
 FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-TheIntegrator.388.mcz
 FuelTools-Debugger-StephaneDucasse.12.mcz
-GT-Inspector-SeanDeNigris.306.mcz
-GT-InspectorExtensions-Core-TorstenBergmann.145.mcz
-GT-Playground-TudorGirba.110.mcz
-GT-Spotter-StephaneDucasse.309.mcz
-GT-Spotter-EventRecorder-JurajKubelka.89.mcz
-GT-SpotterExtensions-Core-AndreiChis.146.mcz
+GT-Inspector-AndreiChis.308.mcz
+GT-InspectorExtensions-Core-AndreiChis.149.mcz
+GT-Playground-CyrilFerlicot.111.mcz
+GT-Spotter-NicolaiHess.310.mcz
+GT-Spotter-EventRecorder-AndreiChis.92.mcz
+GT-SpotterExtensions-Core-NicolaiHess.148.mcz
 GT-Tests-Inspector-StefanReichhart.33.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
 GT-Tests-Spotter-TudorGirba.8.mcz
 Generated-code-non-existing-package-EstebanLorenzano.2.mcz
 Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-TorstenBergmann.109.mcz
-Glamour-Core-EstebanLorenzano.300.mcz
+Glamour-Core-EstebanLorenzano.301.mcz
 Glamour-Examples-CyrilFerlicot.292.mcz
 Glamour-Helpers-AndreiChis.39.mcz
 Glamour-Morphic-Brick-StefanReichhart.398.mcz
@@ -87,7 +87,7 @@ Glamour-Morphic-Brick-Tests-AliakseiSyrel.13.mcz
 Glamour-Morphic-Pager-AndreiChis.103.mcz
 Glamour-Morphic-Renderer-CyrilFerlicot.322.mcz
 Glamour-Morphic-Theme-MarcusDenker.214.mcz
-Glamour-Morphic-Widgets-AndreiChis.177.mcz
+Glamour-Morphic-Widgets-FranckWarlouzet.178.mcz
 Glamour-Presentations-AndreiChis.177.mcz
 Glamour-Rubric-Presentations-CyrilFerlicot.43.mcz
 Glamour-Tests-Core-AliakseiSyrel.104.mcz
@@ -115,7 +115,7 @@ HudsonBuildTools20-TheIntegrator.70.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.12.mcz
-Kernel-TheIntegrator.2074.mcz
+Kernel-TheIntegrator.2076.mcz
 KernelTests-TheIntegrator.786.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -155,7 +155,7 @@ MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
 MonticelloGUI-TheIntegrator.361.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.2.mcz
-Morphic-Base-TheIntegrator.464.mcz
+Morphic-Base-TheIntegrator.466.mcz
 Morphic-Core-TheIntegrator.182.mcz
 Morphic-Examples-TheIntegrator.40.mcz
 Morphic-Widgets-Basic-TheIntegrator.43.mcz
@@ -232,15 +232,15 @@ Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
 ReleaseTests-TheIntegrator.15.mcz
 Ring-Core-Containers-TheIntegrator.41.mcz
-Ring-Core-Kernel-TheIntegrator.214.mcz
+Ring-Core-Kernel-TheIntegrator.216.mcz
 Ring-Monticello-TheIntegrator.34.mcz
 Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.83.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
-Rubric-NicolaiHess.245.mcz
+Rubric-FranckWarlouzet.247.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
-SUnit-Core-TheIntegrator.147.mcz
+SUnit-Core-TheIntegrator.150.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Tests-TheIntegrator.48.mcz
 SUnit-UI-TheIntegrator.123.mcz
@@ -254,7 +254,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.266.mcz
 ShoutTests-TheIntegrator.27.mcz
-Slot-TheIntegrator.630.mcz
+Slot-TheIntegrator.632.mcz
 Slot-Tests-TheIntegrator.39.mcz
 SmartSuggestions-TheIntegrator.169.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
@@ -289,7 +289,7 @@ System-Platforms-TheIntegrator.67.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-Settings-TheIntegrator.311.mcz
 System-Sound-StephaneDucasse.18.mcz
-System-Sources-TheIntegrator.21.mcz
+System-Sources-TheIntegrator.23.mcz
 System-Support-TheIntegrator.1123.mcz
 System-VMEvents-TheIntegrator.5.mcz
 Tests-TheIntegrator.734.mcz
@@ -316,7 +316,7 @@ Tool-TxWorkspace-TorstenBergmann.5.mcz
 Tool-Workspace-TheIntegrator.26.mcz
 Tools-TheIntegrator.1503.mcz
 ToolsTest-MarcusDenker.denker.71.mcz
-Traits-TheIntegrator.795.mcz
+Traits-TheIntegrator.797.mcz
 Transcript-TheIntegrator.34.mcz
 TxText-Athens-SeanDeNigris.50.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

@@ -5,7 +5,7 @@ newSubclassOf: aClass instanceVariableNames: ivNamesString classVariableNames: c
 			builder
 				superclass: aClass;
 				name: self newClassName;
-				layoutClass: (ObjectLayout layoutForType: aClass typeOfClass);
+				layoutClass: aClass layout class;
 				slots: ivNamesString asSlotCollection;
 				sharedVariablesFromString: classVarsString;
 				sharedPools: '';

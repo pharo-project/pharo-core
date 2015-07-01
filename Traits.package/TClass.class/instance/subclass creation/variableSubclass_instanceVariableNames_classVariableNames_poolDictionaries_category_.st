@@ -7,7 +7,7 @@ variableSubclass: t instanceVariableNames: f classVariableNames: d poolDictionar
 		builder
 			superclass: self;
 			name: t;
-			layoutClass: (ObjectLayout layoutForType: #variable);
+			layoutClass: VariableLayout;
 			slots: f asSlotCollection;
 			sharedVariablesFromString: d;
 			sharedPools: s;
