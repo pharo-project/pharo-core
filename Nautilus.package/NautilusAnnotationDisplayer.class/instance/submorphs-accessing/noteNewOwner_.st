@@ -1,30 +1,28 @@
 noteNewOwner: aMorph
 	super noteNewOwner: aMorph.
 	self color: self backgroundColor.
-	lineAnnotation := RubTextFieldArea new.
-	lineAnnotation withoutAnyDecorator.
-	lineAnnotation backgroundColor: Color transparent.
-	lineAnnotation font: self fontToUse.
-	lineAnnotation beReadOnly.
-	lineAnnotation textColor: self textColor.
+	self paragraphProvider announcer weak subscribe: MorphGotFocus send: #updateContents to: self.
+	lineAnnotation := self lineAnnotationMorph.
 	wrappingPolicyMorph := self wrappingPolicyLabelMorph.
 	lineNumbersDisplayMorph := self lineNumbersDisplayLabelMorph.
 	formatAsYouReadMorph := self formatAsYouReadMorph.
+	browseVariablesMorph := self browseVariablesMorph.
 	row := self theme
 		newRowIn: self
 		for:
-			{(self spacer: 2).
+			{self spacer: 2.
 			lineAnnotation.
-			(self spacer: 2).
+			self spacer: 2.
 			formatAsYouReadMorph.
-			(self spacer: 2).
+			self spacer: 2.
 			wrappingPolicyMorph.
-			(self spacer: 2).
+			self spacer: 2.
 			lineNumbersDisplayMorph.
-			(self spacer: 2)}.
-	wrappingPolicyMorph on: #mouseDown send: #changeWrappingPolicy to: self.
+			self spacer: 2.
+			browseVariablesMorph.
+			self spacer: 2}.	wrappingPolicyMorph on: #mouseDown send: #changeWrappingPolicy to: self.
 	lineNumbersDisplayMorph on: #mouseDown send: #changeLineNumbersDisplay to: self.
-	formatAsYouReadMorph on: #mouseDown send: #changeFormatAsYouReadPolicy to: self.
+	browseVariablesMorph on: #mouseDown send: #browseVariableReferences: to: self.
 	row color: Color transparent.
 	row hResizing: #spaceFill.
 	lineAnnotation hResizing: #spaceFill.

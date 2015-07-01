@@ -1,9 +1,3 @@
 commentForCurrentUpdate
- ^ '15876 fix failing releasetest
-	https://pharo.fogbugz.com/f/cases/15876
-
-15877 ClassBuilder: simplify users of #layoutForType:
-	https://pharo.fogbugz.com/f/cases/15877
-
-15878 Clean up discouraged uses of SourceFiles and friends (11)
-	https://pharo.fogbugz.com/f/cases/15878'
+ ^ '15879 No more stepping and huge buttons on a right pane for browsing variables
+	https://pharo.fogbugz.com/f/cases/15879'

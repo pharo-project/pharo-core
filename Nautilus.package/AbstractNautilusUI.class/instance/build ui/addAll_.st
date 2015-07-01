@@ -48,8 +48,7 @@ addAll: aWindow
 		changeTableLayout;
 		listDirection: #leftToRight.
 
-	{	sourceCodePanel.
-		self buildTextAreaButtonsColumn: aWindow} reverse do: [:each | sourceCodeContainer addMorph: each].
+	sourceCodeContainer addMorph: sourceCodePanel.
 	
 	bottomMorph := self buildBottomPlugins.
 	

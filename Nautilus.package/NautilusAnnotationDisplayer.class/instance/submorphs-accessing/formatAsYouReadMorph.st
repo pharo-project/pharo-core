@@ -1,4 +1,10 @@
 formatAsYouReadMorph
-	^ StringMorph
-		contents: self formatAsYouReadLabel
-		font: self fontToUse
+	^ (CheckboxMorph
+		on: self 
+		selected: #formatAsYouRead 
+		changeSelected: #toggleFormatAsYouRead)
+		getLabelSelector: #formatAsYouReadLabel;
+		labelClickable: true;
+		vResizing: #shrinkWrap;
+		hResizing: #shrinkWrap;
+		yourself

@@ -1,4 +1,4 @@
-changeFormatAsYouReadPolicy
+toggleFormatAsYouRead
 	| formatter |
 	formatter := RBProgramNode formatterClass new.
 	formatter class formatAsYouReadPolicy

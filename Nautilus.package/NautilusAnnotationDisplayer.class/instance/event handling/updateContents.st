@@ -1,8 +1,8 @@
 updateContents
 	| t |
-	row ifNil: [ ^self ].
-	self textArea selectionStart ifNil: [ ^self ].
-	self lines ifNil: [ ^self ].
+	row ifNil: [ ^ self ].
+	self textArea selectionStart ifNil: [ ^ self ].
+	self lines ifNil: [ ^ self ].
 	t := self textOfCharBlock: self textArea selectionStart.
 	self textArea selectionStop ~= self textArea selectionStart
 		ifTrue: [ t := t , ' -- ' , (self textOfCharBlock: self textArea selectionStop) ].
@@ -12,6 +12,7 @@ updateContents
 			self layoutChanged ].
 	wrappingPolicyMorph contents: self wrappingPolicyLabel.
 	lineNumbersDisplayMorph contents: self lineNumbersDisplayLabel.
-	formatAsYouReadMorph contents: self formatAsYouReadLabel.
+	browseVariablesMorph enabled: self nautilusUI model selectedClass notNil.
+	formatAsYouReadMorph updateSelection.
 	row position: self innerBounds topLeft.
 	row width: self innerBounds width
