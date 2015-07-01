@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '15396 Refactor Duplicated #itemFromPoint: (3 slightly-differing implementations)
-	https://pharo.fogbugz.com/f/cases/15396
+ ^ '15874 Reflectvity: small refactoring
+	https://pharo.fogbugz.com/f/cases/15874
 
-15868 Differentiate ProcessList and LinkedList
-	https://pharo.fogbugz.com/f/cases/15868'
+15873 Clean new class builder: #copyTraitCompositionFromExistingClass not needed
+	https://pharo.fogbugz.com/f/cases/15873
+
+15870 TestRunner: packages is shadowed
+	https://pharo.fogbugz.com/f/cases/15870'

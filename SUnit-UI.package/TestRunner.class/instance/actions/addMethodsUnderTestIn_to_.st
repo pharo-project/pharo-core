@@ -1,5 +1,5 @@
-addMethodsUnderTestIn: packages to: methods 
-	packages
+addMethodsUnderTestIn: listOfPackages to: methods 
+	listOfPackages
 		do: [:package | package isNil
 				ifFalse: [package methodReferences
 						do: [:method | ((#(#packageNamesUnderTest #classNamesNotUnderTest ) includes: method selector)

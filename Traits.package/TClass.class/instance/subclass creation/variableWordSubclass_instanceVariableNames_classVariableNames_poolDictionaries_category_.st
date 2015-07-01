@@ -13,5 +13,4 @@ variableWordSubclass: t instanceVariableNames: f
 			sharedPools: s;
 			category: cat;
 			environment: self environment;
-			copyTraitCompositionFromExistingClass;
 			copyClassSlotsFromExistingClass ].

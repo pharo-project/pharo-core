@@ -1,3 +1,3 @@
 emitMetaLinkInstead: aNode
-	aNode preambles do: [ :pre | self visitNode: pre].
+	self emitPreamble: aNode.
 	super visitNode: aNode insteadHooks last.

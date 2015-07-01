@@ -2,4 +2,4 @@ OCASTSemanticAnalyzer subclass: #RFSemanticAnalyzer
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Reflectivity-Core'
+	category: 'Reflectivity-Compiler'

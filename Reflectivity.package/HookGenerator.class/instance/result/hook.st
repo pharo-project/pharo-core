@@ -13,4 +13,5 @@ hook
 		
 	link hasCondition ifTrue: [hook := self wrapCondition: hook].
 	link hasMetaLevel ifTrue: [hook := self wrapInContext: hook].		
+			
 	^ hook

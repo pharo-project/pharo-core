@@ -13,5 +13,4 @@ variableSubclass: t instanceVariableNames: f classVariableNames: d poolDictionar
 			sharedPools: s;
 			category: cat;
 			environment: self environment;
-			copyTraitCompositionFromExistingClass;
 			copyClassSlotsFromExistingClass ].

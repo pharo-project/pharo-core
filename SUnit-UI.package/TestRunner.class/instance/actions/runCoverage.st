@@ -1,12 +1,12 @@
 runCoverage
-	| packages methods |
-	packages := Set new.
-	self addDeclaredPackagesUnderTestTo: packages.
-	packages isEmpty ifTrue: 
-		[ packages := self promptForPackages ].
+	| myPackages methods |
+	myPackages := Set new.
+	self addDeclaredPackagesUnderTestTo: myPackages.
+	myPackages isEmpty ifTrue: 
+		[ myPackages := self promptForPackages ].
 	methods := OrderedCollection new.
 	self 
-		addMethodsUnderTestIn: packages
+		addMethodsUnderTestIn: myPackages
 		to: methods.
 	self excludeClassesNotUnderTestFrom: methods.
 	methods isEmpty ifTrue: 

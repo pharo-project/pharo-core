@@ -1,6 +1,6 @@
 promptForPackages
-	| packages |
-	packages := (RPackageOrganizer default packages
+	| choosenpackages |
+	choosenpackages := (RPackageOrganizer default packages
 				reject: [:package | (package packageName beginsWith: 'Kernel')
 						or: [(package packageName beginsWith: 'Collections')
 								or: [(package packageName beginsWith: 'Exceptions')
@@ -8,10 +8,10 @@ promptForPackages
 												or: [(package packageName beginsWith: 'System')
 														or: [package packageName includesSubstring: 'Test' caseSensitive: false]]]]]])
 				sort: [:a :b | a packageName < b packageName].
-	packages := Array
+	choosenpackages := Array
 				with: (UIManager default
-						chooseFrom: (packages
+						chooseFrom: (choosenpackages
 								collect: [:package | package packageName])
-						values: packages
+						values: choosenpackages
 						title: 'Select Package').
-	^ packages
+	^ choosenpackages

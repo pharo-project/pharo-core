@@ -2,4 +2,4 @@ RBVariableNode subclass: #RFStorePopIntoTempNode
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Reflectivity-Core'
+	category: 'Reflectivity-Compiler'

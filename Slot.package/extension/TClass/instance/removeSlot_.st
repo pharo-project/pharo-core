@@ -13,6 +13,5 @@ removeSlot: aSlot
 			sharedVariablesFromString: self classVariablesString;
 			sharedPools: self sharedPoolsString;
 			category: self category;
-			environment: self environment;
-			copyTraitCompositionFromExistingClass]
+			environment: self environment]
 	

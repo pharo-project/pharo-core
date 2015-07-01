@@ -1,4 +1,4 @@
 emitMetaLinkBefore: aNode
 	aNode hasMetalink ifFalse: [ ^self ].
-	aNode preambles do: [ :pre | self visitNode: pre].
+	self emitPreamble: aNode.
 	aNode beforeHooks do: [ :hook | effectTranslator visitNode: hook ].
