@@ -22,8 +22,10 @@ gtInspectorItemsIn: composite
 		beMultiple;
 		withSmalltalkSearch;
 		send: [ :selection | 
-			(selection notNil and: [ selection size = 1 ]) 
-				ifTrue: [ selection anyOne value ] 
-				ifFalse: [ selection collect: #value ] ];
+				selection isNil 
+				ifTrue: [ nil ]
+				ifFalse: [ selection size = 1  
+					ifTrue: [ selection anyOne value ] 
+					ifFalse: [ selection collect: #value ] ]];
 		showOnly: 50;
 		helpMessage: 'Quick selection field. Given your INPUT, it executes: self select: [:each | INPUT ]'

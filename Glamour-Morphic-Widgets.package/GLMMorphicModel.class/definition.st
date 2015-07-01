@@ -1,4 +1,5 @@
 Announcer subclass: #GLMMorphicModel
+	uses: TViewModel
 	instanceVariableNames: 'glamourPresentation'
 	classVariableNames: ''
 	poolDictionaries: ''

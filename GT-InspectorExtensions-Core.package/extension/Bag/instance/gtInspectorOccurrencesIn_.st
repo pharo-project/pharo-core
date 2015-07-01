@@ -10,7 +10,10 @@ gtInspectorOccurrencesIn: composite
 		beMultiple;
 		withSmalltalkSearch;
 		showOnly: 50;
-		send: [ :result | (result notNil and: [result size = 1]) 
-				ifTrue: [result anyOne] 
-				ifFalse: [self species withAll: result]];
+		send: [ :result | 
+				result isNil 
+				ifTrue:[nil] 
+				ifFalse:[ (result size = 1)
+					ifTrue: [result anyOne] 
+					ifFalse: [self species withAll: result]]];
 		helpMessage: 'Quick selection field. Given your INPUT, it executes: self select: [:each | INPUT ]'.

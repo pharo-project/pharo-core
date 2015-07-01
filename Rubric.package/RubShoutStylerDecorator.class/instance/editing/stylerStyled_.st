@@ -1,6 +1,6 @@
 stylerStyled: styledCopyOfText
 	next ifNil: [ ^ self ].
-	text string = styledCopyOfText string
+	(text notNil and:[text string = styledCopyOfText string])
 		ifFalse: [ ^ self ].
 	text runs: styledCopyOfText runs.
 	"must take care to recompose. If not, the textArea 

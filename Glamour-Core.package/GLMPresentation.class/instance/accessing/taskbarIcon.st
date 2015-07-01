@@ -1,0 +1,2 @@
+taskbarIcon 
+	^ self titleIcon

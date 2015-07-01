@@ -1,4 +1,4 @@
-script50146
+script50147
 
 	^ 'AST-Core-TheIntegrator.314.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -256,7 +256,7 @@ Shout-TheIntegrator.266.mcz
 ShoutTests-TheIntegrator.27.mcz
 Slot-TheIntegrator.630.mcz
 Slot-Tests-TheIntegrator.39.mcz
-SmartSuggestions-TheIntegrator.167.mcz
+SmartSuggestions-TheIntegrator.169.mcz
 SmartSuggestions-Tests-TheIntegrator.2.mcz
 Spec-Core-TheIntegrator.398.mcz
 Spec-Debugger-TheIntegrator.240.mcz

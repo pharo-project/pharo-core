@@ -1,13 +1,16 @@
 gtInspectorStScriptIn: composite
 	<gtInspectorPresentationOrder: 0>
-	composite smalltalkCode
+	composite pharoPlayground
 			title: 'Script';
 			display: [ self readStreamDo: [ :s | s contents ] ];
-			selectionPopulate: #selection
-				on: $o
-				entitled: 'Do it and open (o)'
-				with: [ :text :object | 
-					Smalltalk compiler evaluate: text selectedText for: object logged: false ];
+			act: [ :text |
+					text selectionInterval: (1 to: text text size).
+					text highlightEvaluateAndDo: [ :result | text selection: result ] ]
+				icon: GLMUIThemeExtraIcons glamorousGo
+				on: $G
+				entitled: 'Do it all and go';
+			installGoAction;
+			installDefaultSelectionActions;
 			act: [ :text |
 				self ensureDelete; writeStreamDo: [ :s | s nextPutAll: text text asString ] ]
 				icon: GLMUIThemeExtraIcons glamorousSave

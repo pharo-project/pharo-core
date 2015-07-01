@@ -1,16 +1,16 @@
-version315: spec
-	<version: '3.1.5' imports: #('3.2-baseline' )>
+version317: spec
+	<version: '3.1.7' imports: #('3.2-baseline' )>
 
 	spec for: #'common' do: [
 		spec blessing: #'stable'.
-		spec description: 'version 3.1.5'.
-		spec author: 'FranckWarlouzet'.
-		spec timestamp: '6/30/2015 11:16'.
+		spec description: 'version 3.1.7'.
+		spec author: 'AndreiChis'.
+		spec timestamp: '7/1/2015 14:16'.
 		spec project: 'Rubric' with: '1.12'.
 		spec 
 			package: 'Glamour-Announcements' with: 'Glamour-Announcements-AndreiChis.8';
 			package: 'Glamour-Helpers' with: 'Glamour-Helpers-AndreiChis.39';
-			package: 'Glamour-Core' with: 'Glamour-Core-EstebanLorenzano.300';
+			package: 'Glamour-Core' with: 'Glamour-Core-EstebanLorenzano.301';
 			package: 'Glamour-Presentations' with: 'Glamour-Presentations-AndreiChis.177';
 			package: 'Glamour-Browsers' with: 'Glamour-Browsers-TorstenBergmann.109';
 			package: 'Glamour-Examples' with: 'Glamour-Examples-CyrilFerlicot.292';

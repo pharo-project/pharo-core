@@ -2,12 +2,12 @@ backgroundColor
 	"Return the current fillStyle of the receiver."
 
 	| basicColor size |
-	basicColor := Color white.
+	basicColor := Smalltalk ui theme backgroundColor.
 	self paragraph ifNil: [ ^Color transparent ].
 	size := self textSize.
 	size >= self warningLimit
 		ifTrue: [ 
-			| returnedColor overshoot transitionSpan transitionColor |
+			|  overshoot transitionSpan transitionColor |
 			transitionSpan := self warningLimit.
 			transitionColor := Color yellow mixed: 0.6 with: basicColor.
 			size >= self alertLimit
@@ -30,8 +30,8 @@ backgroundColor
 						yourself).
 					((GradientFillStyle
 						ramp:
-							{(0 -> Color white).
-							(0.3 -> (Color white alpha: 0.01))})
+							{(0 -> Smalltalk ui theme backgroundColor).
+							(0.3 -> (Smalltalk ui theme backgroundColor alpha: 0.01))})
 						origin: self bounds left @ (self bounds height / 2) asFloat;
 						direction: self bounds width @ 0;
 						normal: 1 @ 0;

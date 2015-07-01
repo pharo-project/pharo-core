@@ -1,0 +1,3 @@
+gtDictionaryRepositoryExample
+	<gtExample>
+	^ MCDictionaryRepository new
