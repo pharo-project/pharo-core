@@ -1,4 +1,4 @@
-script50149
+script50150
 
 	^ 'AST-Core-TheIntegrator.314.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -27,7 +27,7 @@ Collections-Abstract-TheIntegrator.284.mcz
 Collections-Arithmetic-TheIntegrator.17.mcz
 Collections-Atomic-MarcusDenker.10.mcz
 Collections-Native-TheIntegrator.11.mcz
-Collections-Sequenceable-TheIntegrator.206.mcz
+Collections-Sequenceable-TheIntegrator.209.mcz
 Collections-Stack-MarcusDenker.7.mcz
 Collections-Streams-TheIntegrator.174.mcz
 Collections-Strings-TheIntegrator.361.mcz
@@ -114,7 +114,7 @@ HelpSystem-Tests-TheIntegrator.30.mcz
 HudsonBuildTools20-TheIntegrator.70.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
-Jobs-TheIntegrator.12.mcz
+Jobs-TheIntegrator.14.mcz
 Kernel-TheIntegrator.2076.mcz
 KernelTests-TheIntegrator.786.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
