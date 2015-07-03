@@ -1,1 +1,0 @@
-I create the AST for a hook to call the meta objects as described by the MetaLink.

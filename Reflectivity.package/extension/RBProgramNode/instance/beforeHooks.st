@@ -1,2 +1,2 @@
 beforeHooks
-	^self propertyAt: #beforeHooks ifAbsentPut: IdentitySet new 
+	^self propertyAt: #beforeHooks ifAbsentPut: OrderedCollection new

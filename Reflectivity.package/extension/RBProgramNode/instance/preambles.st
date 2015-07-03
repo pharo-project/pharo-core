@@ -1,2 +1,2 @@
 preambles
-	^self propertyAt: #preambles ifAbsentPut: IdentitySet new 
+	^self propertyAt: #preambles ifAbsentPut: OrderedCollection new 

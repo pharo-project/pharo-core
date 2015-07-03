@@ -1,3 +1,3 @@
 emitMetaLinkInstead: aNode
 	self emitPreamble: aNode.
-	super visitNode: aNode insteadHooks last.
+	super visitNode: aNode insteadHooks.
