@@ -5,6 +5,6 @@ poolVariableNamesFor: aClass
 			[:each | 
 			each allPoolDictionaryNames do: 
 					[:pool | 
-					pools addAll: ((Smalltalk globals at: pool asSymbol) keys 
+					pools addAll: ((Smalltalk globals at: pool asSymbol) classPool keys 
 								collect: [:name | name asString])]].
 	^pools

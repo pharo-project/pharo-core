@@ -1,4 +1,4 @@
-Object subclass: #HookGenerator2
+Object subclass: #HookGenerator
 	instanceVariableNames: 'node links plugins table reifications'
 	classVariableNames: ''
 	poolDictionaries: ''

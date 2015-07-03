@@ -1,4 +1,4 @@
-script50151
+script50152
 
 	^ 'AST-Core-TheIntegrator.314.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -115,7 +115,7 @@ HudsonBuildTools20-TheIntegrator.70.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.14.mcz
-Kernel-TheIntegrator.2076.mcz
+Kernel-TheIntegrator.2078.mcz
 KernelTests-TheIntegrator.786.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -218,14 +218,14 @@ RPackage-Core-TheIntegrator.391.mcz
 RPackage-Tests-TheIntegrator.173.mcz
 RecentSubmissions-StephaneDucasse.233.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
-Refactoring-Core-TheIntegrator.278.mcz
+Refactoring-Core-TheIntegrator.280.mcz
 Refactoring-Critics-TheIntegrator.183.mcz
 Refactoring-Environment-TheIntegrator.58.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.127.mcz
 Refactoring-Tests-Critics-TheIntegrator.31.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.89.mcz
+Reflectivity-TheIntegrator.92.mcz
 Reflectivity-Tests-TheIntegrator.64.mcz
 Regex-Core-MarcusDenker.33.mcz
 Regex-Help-MarcusDenker.5.mcz
@@ -267,7 +267,7 @@ Spec-Layout-TheIntegrator.67.mcz
 Spec-MorphicAdapters-TheIntegrator.214.mcz
 Spec-PolyWidgets-TheIntegrator.59.mcz
 Spec-Tests-TheIntegrator.47.mcz
-Spec-Tools-TheIntegrator.272.mcz
+Spec-Tools-TheIntegrator.274.mcz
 StartupPreferences-TheIntegrator.133.mcz
 System-Announcements-TheIntegrator.100.mcz
 System-Caching-TheIntegrator.26.mcz
@@ -299,7 +299,7 @@ Text-Edition-TheIntegrator.89.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.26.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.87.mcz
+Tool-Base-TheIntegrator.89.mcz
 Tool-Catalog-EstebanLorenzano.13.mcz
 Tool-CriticBrowser-TheIntegrator.5.mcz
 Tool-Diff-TheIntegrator.4.mcz
@@ -316,7 +316,7 @@ Tool-TxWorkspace-TorstenBergmann.5.mcz
 Tool-Workspace-TheIntegrator.26.mcz
 Tools-TheIntegrator.1503.mcz
 ToolsTest-MarcusDenker.denker.71.mcz
-Traits-TheIntegrator.797.mcz
+Traits-TheIntegrator.799.mcz
 Transcript-TheIntegrator.34.mcz
 TxText-Athens-SeanDeNigris.50.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
