@@ -13,7 +13,7 @@ analyseForLinks: aNode
 	
 	aNode hasMetalinkAfter ifTrue: [  
 		aNode propertyAt: #afterHooks put: generator afterHooks.
- 		aNode beforeHooks do: [:each | self visitNode: each]].
+		self visitNode: aNode afterHooks].
 	
 	aNode hasMetalinkInstead ifTrue: [  
 		aNode propertyAt: #insteadHooks put: generator insteadHooks.

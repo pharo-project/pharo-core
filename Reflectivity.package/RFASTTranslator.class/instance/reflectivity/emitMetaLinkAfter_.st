@@ -5,6 +5,5 @@ emitMetaLinkAfter: aNode
 	
 	parentNode := aNode parent.
 	self visitBlockNode: ((RBBlockNode body: aNode asSequenceNode) scope: OCBlockScope new; parent: parentNode).
-	self visitBlockNode: ((RBBlockNode body: (RBSequenceNode statements: aNode afterHooks flattened)) 
-									scope: OCBlockScope new; parent: aNode).
+	self visitNode: (aNode afterHooks parent: aNode).
 	methodBuilder send: #ensure:.
