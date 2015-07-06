@@ -1,5 +1,5 @@
 updateList
 	self resetPosition.
+	self basicUpdateSelectionIndex.
 	self refresh.
-	self updateSelectionIndex.
 	

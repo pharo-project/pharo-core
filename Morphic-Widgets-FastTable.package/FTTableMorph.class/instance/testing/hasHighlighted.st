@@ -1,0 +1,2 @@
+hasHighlighted
+	^ self highlightedRowIndexes notEmpty

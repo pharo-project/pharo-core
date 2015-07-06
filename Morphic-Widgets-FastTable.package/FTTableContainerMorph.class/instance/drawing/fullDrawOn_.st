@@ -18,8 +18,7 @@ fullDrawOn: canvas
 	of this component is speed, for now I'm calling it here and adding the 
 	#setNeedRecalculateRows mechanism. 
 	History, please forgive me."
-	self owner isShowColumnHeaders ifTrue: [ self calculateHeaderRow ].
-	self calculateExposedRows. 
+	self updateAllRows.
 
 	rowsToDisplay := self exposedRows.
 	rowSubviews := OrderedCollection new: rowsToDisplay size + 1.

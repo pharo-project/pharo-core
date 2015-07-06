@@ -1,2 +1,2 @@
 defaultRowHeight
-	^ 22
+	^ 20

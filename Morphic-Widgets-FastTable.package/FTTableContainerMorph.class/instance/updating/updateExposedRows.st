@@ -1,4 +1,4 @@
-calculateExposedRows
+updateExposedRows
 	| visibleRows numberOfColumns columns columnWidths startIndex |
 	
 	self canRefreshValues ifFalse: [ ^ self ].

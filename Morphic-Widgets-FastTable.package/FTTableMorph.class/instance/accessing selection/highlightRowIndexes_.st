@@ -2,6 +2,11 @@ highlightRowIndexes: anArray
 	anArray = highlightedRowIndexes ifTrue: [ ^ self ].
 	
 	self basicHighlightRowIndexes: anArray. 
-	self moveShowIndexTo: (self highlightedRowIndexes 
-		ifNotEmpty: [ self highlightedRowIndexes first ]
-		ifEmpty: [ self selectedRowIndex ])
+	
+	(self hasHighlighted and: [ (self isRowIndexVisible: self highlightedRowIndex) not ]) 
+		ifTrue: [ 
+			self moveShowIndexTo: self highlightedRowIndexes first.
+			^ self ].
+	
+	(self hasSelection and: [ (self isRowIndexVisible: self selectedRowIndex) not  ])
+		ifTrue: [ self moveShowIndexTo: self selectedRowIndex ]

@@ -5,4 +5,5 @@ toggleRowIndex: rowIndex
 		ifTrue: [ 
 			self table allowsDeselection 
 				ifTrue: [ self table selectRowIndexes: #() ] ]
-		ifFalse: [ self table selectRowIndex: rowIndex ]
+		ifFalse: [ self table selectRowIndex: rowIndex.
+			 self table highlightRowIndexes: #() ]

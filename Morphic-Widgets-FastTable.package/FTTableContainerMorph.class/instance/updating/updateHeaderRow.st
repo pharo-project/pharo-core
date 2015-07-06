@@ -1,4 +1,4 @@
-calculateHeaderRow
+updateHeaderRow
 	"Recalculates the header row if they are defined. 
 	 Please, note that If one of the headers is nil, I assume all are nil and I return. 
 	 This is probably not the best approach, but like that I enforce people defines at least 

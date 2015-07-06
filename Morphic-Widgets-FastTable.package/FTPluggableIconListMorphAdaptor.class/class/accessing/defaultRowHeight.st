@@ -1,2 +1,0 @@
-defaultRowHeight 
-	^ 20

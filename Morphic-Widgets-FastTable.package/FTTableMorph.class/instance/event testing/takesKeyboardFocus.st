@@ -1,2 +1,2 @@
 takesKeyboardFocus
-	^ true
+	^ self enabled

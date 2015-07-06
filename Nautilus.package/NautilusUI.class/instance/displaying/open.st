@@ -16,6 +16,7 @@ open
 		methodWidget selectMethod: meth.
 		acceptor := MethodDefinitionAcceptor model: self. 
 		focus := methodWidget ].
-	self selectedClass ifNotNil: [ methodWidget updateMethodList ].
+	self selectedClass ifNotNil: [
+		self updateCategoryAndMethodList: self selectedMethod ].
 	self giveFocusTo: focus.
 	
