@@ -1,0 +1,2 @@
+maxKeptContents
+	^ self class maxKeptContents 

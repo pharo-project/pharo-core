@@ -1,2 +1,2 @@
 open
-	^ self openLabel: self title
+	^ self new openLabel: self title ; yourself

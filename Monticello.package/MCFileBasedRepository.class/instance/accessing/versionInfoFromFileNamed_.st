@@ -1,3 +1,5 @@
-versionInfoFromFileNamed: aString
-	self cache at: aString ifPresent: [:v | ^ v info].
-	^ self loadVersionInfoFromFileNamed: aString
+versionInfoFromFileNamed: aFileName
+	self cache 
+		at: aFileName
+		ifPresent: [:version | ^ version info].
+	^ self loadVersionInfoFromFileNamed: aFileName

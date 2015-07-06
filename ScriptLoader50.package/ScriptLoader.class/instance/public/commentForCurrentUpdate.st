@@ -1,12 +1,12 @@
 commentForCurrentUpdate
- ^ '7008 Shared Pools to be treated like dictionaries still necessary?
-	https://pharo.fogbugz.com/f/cases/7008
+ ^ '15890 some cleaning
+	https://pharo.fogbugz.com/f/cases/15890
 
-15886 Find class dialog from a scope nautilus window shows all classes
-	https://pharo.fogbugz.com/f/cases/15886
+15072 Senders and implementors do not work when one parameter is a string containing :
+	https://pharo.fogbugz.com/f/cases/15072
 
-15889 do not call asOrderedCollection on compiled methods
-	https://pharo.fogbugz.com/f/cases/15889
+15899 Remove destructive example
+	https://pharo.fogbugz.com/f/cases/15899
 
-15892 Cleanups: clean annotation handling + rename HookGenerator2
-	https://pharo.fogbugz.com/f/cases/15892'
+15897 Load new Workspace from AlainPlantec/WorkspaceRevisited
+	https://pharo.fogbugz.com/f/cases/15897'

@@ -1,7 +1,7 @@
-versionFromRepositoryFromFileNamed: aString
-	| v |
-	v := self cache
-			 at: aString 
-			 ifAbsent: [ self loadNotCachedVersionFromFileNamed: aString ].
-	self updateCachedVersionFromFileName: aString with: v.
-	^ v
+versionFromRepositoryFromFileNamed: aFileName
+	| version |
+	version := self cache
+			 at: aFileName 
+			 ifAbsent: [ self loadNotCachedVersionFromFileNamed: aFileName ].
+	self updateCachedVersionFromFileName: aFileName with: version.
+	^ version

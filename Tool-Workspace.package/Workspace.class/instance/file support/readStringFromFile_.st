@@ -1,11 +1,7 @@
-readStringFromFile: aFileName 
-	"Read the content of the given file. Perform line endings normalization."
-	| content |
-	FileStream
-		oldFileNamed: aFileName
-		do: [ :f | 
-			f converter: (TextConverter newForEncoding: encoding).
-			f wantsLineEndConversion: true.
-			content := f contents.
-			lineEnding := f lineEndConvention ].
-	^ content
+readStringFromFile: aFileName
+	"Read the content of the given file."
+
+	| readStream fileContent |
+	readStream := (File named: aFileName) openForRead readStream.
+	fileContent := ZnCharacterReadStream on: readStream encoding: encoding.
+	self contents: fileContent upToEnd asString

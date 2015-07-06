@@ -1,2 +1,0 @@
-itemForCr
-	^ (lineEnding = #cr) -> 'CR'

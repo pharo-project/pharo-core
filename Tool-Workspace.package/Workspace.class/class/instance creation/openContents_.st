@@ -1,8 +1,7 @@
 openContents: aString
-	"Open a new workspace with the given contents. aString has to be Smalltalk code. The style is applied"
-	
+	"Open a new workspace with the given contents. It looks better when aString is code since the style is applied"
+
 	^ self new
 		open;
-	 	contents: aString;
-		changed: #contents;
+		contents: aString;
 		yourself

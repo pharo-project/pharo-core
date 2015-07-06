@@ -1,2 +1,0 @@
-shoutAboutToStyle: aPluggableShoutMorphOrView 
-	^ self stylingActive

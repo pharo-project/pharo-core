@@ -1,3 +1,2 @@
 lastContents
-	LastContents ifNil: [LastContents := OrderedCollection new].
-	^ LastContents
+	^ self class lastContents 

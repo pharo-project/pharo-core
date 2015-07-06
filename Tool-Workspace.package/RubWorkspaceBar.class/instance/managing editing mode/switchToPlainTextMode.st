@@ -1,0 +1,2 @@
+switchToPlainTextMode
+	self paragraphProvider beForPlainText 

@@ -1,4 +1,4 @@
 version
 	"Answer a Monticello version of the receiver."
 
-	^ self repository goferVersionFrom: self
+	^ self repository versionFrom: self name

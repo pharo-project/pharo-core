@@ -1,7 +1,0 @@
-setContent: aString
-	| textMorphs textMorph |
-	textMorphs := self dependents select: [:c | c isKindOf: PluggableTextMorph].
-	textMorphs ifEmpty: [ ^ self ]. "This case should normally not happen"
-	
-	textMorph := textMorphs first.
-	textMorph setText: aString

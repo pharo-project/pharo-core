@@ -1,2 +1,0 @@
-itemForLf
-	^ lineEnding = #lf -> 'LF'

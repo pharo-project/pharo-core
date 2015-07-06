@@ -1,2 +1,2 @@
-versionNameFromFileName: aString
-	^ (aString copyUpToLast: $.) copyUpTo: $(
+versionNameFromFileName: aFileName
+	^ (aFileName copyUpToLast: $.) copyUpTo: $(

@@ -1,0 +1,2 @@
+maxKeptContents
+	^ 30

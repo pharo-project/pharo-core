@@ -1,2 +1,0 @@
-hasBindingThatBeginsWith: aString
-	^false

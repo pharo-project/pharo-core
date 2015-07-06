@@ -1,3 +1,3 @@
 contents
-	
-	^ contents ifNil: [ contents := '' ]
+
+	^ textModel getText

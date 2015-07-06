@@ -1,5 +1,5 @@
 Model subclass: #Workspace
-	instanceVariableNames: 'bindings acceptDroppedMorphs acceptAction mustDeclareVariables fileName lineEnding encoding stylingActive contents window'
+	instanceVariableNames: 'textModel bindings window fileName lineEnding encoding'
 	classVariableNames: 'LastContents'
 	poolDictionaries: ''
 	category: 'Tool-Workspace'

@@ -1,0 +1,2 @@
+switchToSmalltalkScriptingMode
+	self paragraphProvider beForSmalltalkScripting 

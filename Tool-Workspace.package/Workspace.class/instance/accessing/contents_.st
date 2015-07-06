@@ -1,3 +1,3 @@
-contents: stringOrText
-	contents := stringOrText.
-	self changed: #contents.
+contents: aString
+
+	^ textModel setText: aString
