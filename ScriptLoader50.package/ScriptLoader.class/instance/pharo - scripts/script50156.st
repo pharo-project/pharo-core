@@ -1,4 +1,4 @@
-script50155
+script50156
 
 	^ 'AST-Core-TheIntegrator.314.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -115,7 +115,7 @@ HudsonBuildTools20-TheIntegrator.70.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.14.mcz
-Kernel-TheIntegrator.2078.mcz
+Kernel-TheIntegrator.2079.mcz
 KernelTests-TheIntegrator.786.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -161,7 +161,7 @@ Morphic-Examples-TheIntegrator.40.mcz
 Morphic-Widgets-Basic-TheIntegrator.43.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
 Morphic-Widgets-Extra-TheIntegrator.22.mcz
-Morphic-Widgets-FastTable-EstebanLorenzano.32.mcz
+Morphic-Widgets-FastTable-EstebanLorenzano.37.mcz
 Morphic-Widgets-List-TheIntegrator.21.mcz
 Morphic-Widgets-NewList-TheIntegrator.5.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.57.mcz
@@ -225,8 +225,8 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.127.mcz
 Refactoring-Tests-Critics-TheIntegrator.31.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.94.mcz
-Reflectivity-Tests-TheIntegrator.66.mcz
+Reflectivity-TheIntegrator.96.mcz
+Reflectivity-Tests-TheIntegrator.69.mcz
 Regex-Core-MarcusDenker.33.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -264,7 +264,7 @@ Spec-Examples-TheIntegrator.94.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.240.mcz
 Spec-Layout-TheIntegrator.67.mcz
-Spec-MorphicAdapters-TheIntegrator.214.mcz
+Spec-MorphicAdapters-TheIntegrator.216.mcz
 Spec-PolyWidgets-TheIntegrator.59.mcz
 Spec-Tests-TheIntegrator.47.mcz
 Spec-Tools-TheIntegrator.274.mcz

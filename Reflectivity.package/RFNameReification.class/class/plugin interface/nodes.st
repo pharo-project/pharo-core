@@ -1,2 +1,2 @@
 nodes
-	^{RBVariableNode}.
+	^{RBVariableNode. RBAssignmentNode}.

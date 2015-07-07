@@ -1,5 +1,7 @@
 visitVariableNode: aVariableNode
 	self emitMetaLinkBefore: aVariableNode.
-	aVariableNode binding emitValue: methodBuilder
+	aVariableNode hasMetalinkInstead
+				ifTrue: [ self emitMetaLinkInstead: aVariableNode ]
+				ifFalse: [ aVariableNode binding emitValue: methodBuilder ]
 	
 	

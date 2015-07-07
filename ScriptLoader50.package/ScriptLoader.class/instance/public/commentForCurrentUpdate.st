@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '15904 fast table need to react better to selections and searches
-	https://pharo.fogbugz.com/f/cases/15904
+ ^ '14785 intersecting not overlapping rectangles should returen an empty rectangle
+	https://pharo.fogbugz.com/f/cases/14785
 
-15894 nautilus need to take into account the new fast table when selecting and testing
-	https://pharo.fogbugz.com/f/cases/15894'
+13059 Dynamic Spec Ui cannot resize the window
+	https://pharo.fogbugz.com/f/cases/13059
+
+15905 Reflectivity: More work on #instead
+	https://pharo.fogbugz.com/f/cases/15905'
