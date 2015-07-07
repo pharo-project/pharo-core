@@ -1,13 +1,12 @@
-testUninstallLinkAndRunAfter
+testBeforeSend
 	| sendNode link |
-	sendNode := (ReflectivityExamples >> #exampleMethod) ast body statements first value.
+	sendNode := (ReflectivityExamples >> #exampleMethod) sendNodes first.
 	link := MetaLink new
 		metaObject: self;
 		selector: #tagExec:;
-		control: #after;
 		arguments: #(node).
 	sendNode link: link.
-	self assert: sendNode hasMetalinkAfter.
+	self assert: sendNode hasMetalinkBefore.
 	self assert: (ReflectivityExamples >> #exampleMethod) class = ReflectiveMethod.
 	self assert: tag isNil.
 	self assert: ReflectivityExamples new exampleMethod = 5.

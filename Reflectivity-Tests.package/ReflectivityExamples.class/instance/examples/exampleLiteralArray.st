@@ -1,0 +1,2 @@
+exampleLiteralArray
+	^ #(1)

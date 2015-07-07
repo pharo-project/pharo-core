@@ -1,4 +1,4 @@
-testLinkOnMethodBefore
+testBeforeMethod
 	| sendNode link |
 	sendNode := (ReflectivityExamples>>#exampleMethod) ast.
 	link := MetaLink new metaObject: self; selector: #tagExec.

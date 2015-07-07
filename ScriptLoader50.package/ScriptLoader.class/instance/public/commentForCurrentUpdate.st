@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '14785 intersecting not overlapping rectangles should returen an empty rectangle
-	https://pharo.fogbugz.com/f/cases/14785
+ ^ '15908 Reflectivity: more tests
+	https://pharo.fogbugz.com/f/cases/15908
 
-13059 Dynamic Spec Ui cannot resize the window
-	https://pharo.fogbugz.com/f/cases/13059
+15909 Replace Smalltalk at: to Smalltalk globals at: in RPackage
+	https://pharo.fogbugz.com/f/cases/15909
 
-15905 Reflectivity: More work on #instead
-	https://pharo.fogbugz.com/f/cases/15905'
+15237 Spec TextModel for plain text
+	https://pharo.fogbugz.com/f/cases/15237'

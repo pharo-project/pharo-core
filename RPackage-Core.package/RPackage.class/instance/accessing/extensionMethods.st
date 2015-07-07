@@ -4,8 +4,8 @@ extensionMethods
 	
 	allExtensionMethods := OrderedCollection new.
 	classExtensionSelectors keysAndValuesDo: [ :classSymbol :methods |
-		methods do: [ :selector | allExtensionMethods add: ((Smalltalk at: classSymbol) >> selector) ] ].
+		methods do: [ :selector | allExtensionMethods add: ((Smalltalk globals at: classSymbol) >> selector) ] ].
 	metaclassExtensionSelectors keysAndValuesDo: [ :classSymbol :methods |
-		methods do: [ :selector | allExtensionMethods add: ((Smalltalk at: classSymbol) theMetaClass >> selector) ] ].	
+		methods do: [ :selector | allExtensionMethods add: ((Smalltalk globals at: classSymbol) theMetaClass >> selector) ] ].	
 	
 	^ allExtensionMethods				
