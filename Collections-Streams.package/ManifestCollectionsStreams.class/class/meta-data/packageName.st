@@ -1,0 +1,2 @@
+packageName
+	^ #'Collections-Streams'

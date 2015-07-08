@@ -20,7 +20,8 @@ noteNewOwner: aMorph
 			lineNumbersDisplayMorph.
 			self spacer: 2.
 			browseVariablesMorph.
-			self spacer: 2}.	wrappingPolicyMorph on: #mouseDown send: #changeWrappingPolicy to: self.
+			self spacer: 2}.	
+	wrappingPolicyMorph on: #mouseDown send: #changeWrappingPolicy to: self.
 	lineNumbersDisplayMorph on: #mouseDown send: #changeLineNumbersDisplay to: self.
 	browseVariablesMorph on: #mouseDown send: #browseVariableReferences: to: self.
 	row color: Color transparent.

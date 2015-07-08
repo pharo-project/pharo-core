@@ -1,0 +1,2 @@
+packageName
+	^ #'Pharo-Kernel'

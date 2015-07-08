@@ -1,4 +1,4 @@
-Object subclass: #CollectionsArithmeticReadme
+PackageManifest subclass: #ManifestCollectionsArithmetic
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

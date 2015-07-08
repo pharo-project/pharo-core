@@ -1,0 +1,2 @@
+description
+	^ 'All weak collections'
