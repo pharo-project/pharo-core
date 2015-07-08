@@ -1,20 +1,15 @@
 testAfterAssignment
 	| assignmentNode link |
 	
-	self skip.
-	
-	self flag: #TBD. "underflow in bc generation"
-	
 	assignmentNode := (ReflectivityExamples >> #exampleAssignment) assignmentNodes first.
 	link := MetaLink new
 		metaObject: self;
-		selector: #tagExec;
-		control: #after.
+		selector: #tagExec.
 	assignmentNode link: link.
-	self assert: assignmentNode hasMetalinkAfter.
+	self assert: assignmentNode hasMetalinkBefore.
 	self assert: (ReflectivityExamples >> #exampleAssignment) class = ReflectiveMethod.
 	self assert: tag isNil.
-	self assert: ReflectivityExamples new exampleAssignment = Object.
+	self assert: ReflectivityExamples new exampleAssignment = 3.
 	self assert: tag = 'yes'.
 	self assert: (ReflectivityExamples >> #exampleAssignment) class = CompiledMethod.
 	link uninstall

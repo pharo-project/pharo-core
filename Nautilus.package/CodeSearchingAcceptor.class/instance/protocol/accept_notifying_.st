@@ -11,4 +11,4 @@ accept: aText notifying: aController
 		yourself.
 	
 	result := RBSmalllintChecker runRule: rule onEnvironment: environment.
-	(MethodBrowser new methods: result result methods) openWithSpec 
+	Smalltalk tools messageList browse: result result methods title: rule name

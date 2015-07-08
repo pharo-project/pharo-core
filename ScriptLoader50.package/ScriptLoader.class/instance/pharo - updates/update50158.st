@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '15906 PharoChangesCondenser broken
+update50158
+	"self new update50158"
+	self withUpdateLog: '15906 PharoChangesCondenser broken
 	https://pharo.fogbugz.com/f/cases/15906
 
 15902 image saved notification showed on image startup
@@ -15,4 +16,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/15913
 
 15911 Remove VariableChooserTree from Nautilus-Tree
-	https://pharo.fogbugz.com/f/cases/15911'
+	https://pharo.fogbugz.com/f/cases/15911'.
+	self loadTogether: self script50158 merge: false.
+	self loadConfiguration: 'FastTable' version: '0.7.4'.self flushCaches.

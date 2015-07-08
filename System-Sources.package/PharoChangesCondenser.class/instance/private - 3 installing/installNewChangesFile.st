@@ -1,6 +1,6 @@
 installNewChangesFile
 	
-	(SourceFiles at: self fileIndex) close.
+	SourceFiles changesFileStream close.
 	self updateQuitPosition.
 	stream flush close.
 	
