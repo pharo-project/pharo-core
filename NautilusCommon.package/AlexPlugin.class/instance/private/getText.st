@@ -1,3 +1,0 @@
-getText
-
-	^ text

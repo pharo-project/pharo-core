@@ -1,0 +1,2 @@
+methodClass
+	^ method methodClass

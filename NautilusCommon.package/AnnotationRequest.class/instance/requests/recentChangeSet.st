@@ -1,4 +1,4 @@
 recentChangeSet
 	"The most recent change set bearing the method."
-	
-	^ ChangeSet mostRecentChangeSetWithChangeForClass: class selector: selector
+
+	^ ChangeSet mostRecentChangeSetWithChangeForClass: self methodClass selector: self methodSelector

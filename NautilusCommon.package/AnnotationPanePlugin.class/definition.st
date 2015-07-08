@@ -1,4 +1,4 @@
-URLPlugin subclass: #AnnotationPanePlugin
+InformationLinePlugin subclass: #AnnotationPanePlugin
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

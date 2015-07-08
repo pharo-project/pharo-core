@@ -1,11 +1,17 @@
 buildString
-	| mdl stringBuilder |
+	| mdl |
 	mdl := self model.
-	stringBuilder := WriteStream on: ''.
-	mdl selectedClass
-		ifNil: [ '' ]
-		ifNotNil: [ :class |
-			mdl selectedMethod
-				ifNotNil: [:method | 
-					stringBuilder nextPutAll:  (AnnotationRequest onClass: class selector: method selector) getAnnotations ]].		
-	^ stringBuilder contents
+	^ String
+		streamContents: [ :s | 
+			mdl selectedClass
+				ifNil: [ '' ]
+				ifNotNil: [ :class | 
+					mdl selectedMethod
+						ifNotNil: [ :method | 
+							self haltOnce.
+							s
+								nextPutAll:
+									(AnnotationRequest new
+										onCompiledMethod: method;
+										annotationRequests: #(#timeStamp #messageCategory #sendersCount #implementorsCount);
+										yourself) getAnnotations ] ] ]

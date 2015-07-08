@@ -1,1 +1,0 @@
-I'm an example plugin that shows how we can switch the code pane with a morph when a package is selected.  

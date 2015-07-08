@@ -1,5 +1,5 @@
-AbstractNautilusPlugin subclass: #URLPlugin
-	instanceVariableNames: 'morph'
+InformationLinePlugin subclass: #URLPlugin
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'NautilusCommon-Plugin'

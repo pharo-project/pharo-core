@@ -1,2 +1,2 @@
 method
-	^ class compiledMethodAt: selector ifAbsent: [nil]
+	^ method
