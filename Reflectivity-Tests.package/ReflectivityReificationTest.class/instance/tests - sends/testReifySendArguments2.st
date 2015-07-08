@@ -1,4 +1,4 @@
-testReifyArguments2
+testReifySendArguments2
 	| sendNode link instance|
 	sendNode := (ReflectivityExamples>>#exampleSendTwoArgs) ast body statements first value.
 	link := MetaLink new 

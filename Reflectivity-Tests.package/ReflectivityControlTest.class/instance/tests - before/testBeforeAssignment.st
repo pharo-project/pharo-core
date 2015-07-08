@@ -1,4 +1,4 @@
-testAfterAssignment
+testBeforeAssignment
 	| assignmentNode link |
 	
 	assignmentNode := (ReflectivityExamples >> #exampleAssignment) assignmentNodes first.

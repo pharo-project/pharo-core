@@ -1,4 +1,4 @@
-script50160
+script50161
 
 	^ 'AST-Core-TheIntegrator.314.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -94,7 +94,7 @@ Glamour-Tests-Core-AliakseiSyrel.104.mcz
 Glamour-Tests-Morphic-AndreiChis.124.mcz
 Glamour-Tests-Resources-AndreiChis.3.mcz
 Glamour-Tests-Rubric-AndreiChis.14.mcz
-Gofer-Core-TheIntegrator.230.mcz
+Gofer-Core-TheIntegrator.233.mcz
 Gofer-Tests-TheIntegrator.164.mcz
 Graphics-Canvas-TheIntegrator.2.mcz
 Graphics-Display Objects-TheIntegrator.161.mcz
@@ -132,7 +132,7 @@ MessageBrowserRefactoringAddition-StephaneDucasse.2.mcz
 Metacello-Base-EstebanLorenzano.114.mcz
 Metacello-Core-MarcusDenker.722.mcz
 Metacello-FileTree-EstebanLorenzano.30.mcz
-Metacello-GitHub-StephaneDucasse.33.mcz
+Metacello-GitHub-TheIntegrator.36.mcz
 Metacello-MC-TheIntegrator.699.mcz
 Metacello-PharoCommonPlatform-StephaneDucasse.12.mcz
 Metacello-Platform.pharo20-EstebanLorenzano.36.mcz
@@ -147,14 +147,14 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-TheIntegrator.1039.mcz
-Monticello-Tests-TheIntegrator.16.mcz
+Monticello-TheIntegrator.1042.mcz
+Monticello-Tests-TheIntegrator.19.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
-MonticelloFileTree-Core-TheIntegrator.186.mcz
+MonticelloFileTree-Core-TheIntegrator.189.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
 MonticelloGUI-TheIntegrator.361.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
-MonticelloRemoteRepositories-TheIntegrator.2.mcz
+MonticelloRemoteRepositories-TheIntegrator.6.mcz
 Morphic-Base-TheIntegrator.466.mcz
 Morphic-Core-TheIntegrator.182.mcz
 Morphic-Examples-TheIntegrator.40.mcz
@@ -226,7 +226,7 @@ Refactoring-Tests-Core-TheIntegrator.127.mcz
 Refactoring-Tests-Critics-TheIntegrator.31.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
 Reflectivity-TheIntegrator.100.mcz
-Reflectivity-Tests-TheIntegrator.73.mcz
+Reflectivity-Tests-TheIntegrator.75.mcz
 Regex-Core-MarcusDenker.33.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz

@@ -1,0 +1,2 @@
+urlSchemes
+	^ #(github)
