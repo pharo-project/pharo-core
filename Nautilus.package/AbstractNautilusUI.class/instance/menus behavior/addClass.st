@@ -1,3 +1,5 @@
 addClass
-
-	self selectedPackage ifNotNil: [:package | self addClassIn: package ]
+	| package |
+	package := self selectedPackage 
+		ifNil: [ RPackageOrganizer default packageNamed: RPackage defaultPackageName ].
+	self addClassIn: package.
