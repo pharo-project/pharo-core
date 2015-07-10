@@ -1,6 +1,6 @@
 initializeWidgets
 
-	text := self newText.
+	text := self newCode.
 	viewer := self instantiate: ProtocolViewer.
 	
 	text aboutToStyle: true.

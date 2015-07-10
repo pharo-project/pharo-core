@@ -5,7 +5,7 @@ initializeWidgets
 	changesListModel := self instantiate: NewListModel.
 	prettyButton := self newCheckBox.
 	diffButton := self newCheckBox.
-	textModel := self newText.
+	textModel := self newCode.
 	 
 	self setFocus.
 	

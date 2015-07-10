@@ -2,7 +2,7 @@ initializeWidgets
 
 	tree := self instantiate: TreeWithLoading.
 	diff := self instantiate: DiffModel.
-	message := self newText.
+	message := self newCode.
 	author := self newTextInput.
 	authorName := self newLabel.
 	commitMessage := self newLabel.

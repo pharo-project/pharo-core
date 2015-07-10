@@ -2,7 +2,7 @@ initializeWidgets
 	
 	stack := self instantiate: SpecDebuggerStack.
 	toolbar := self instantiate: SpecDebuggerDynamicToolbar.
-	code := self newText.
+	code := self newCode.
 	receiverInspector := self instantiate: InspectorNavigator.
 	contextInspector := self instantiate: EyeDebuggerContextInspector.
 	

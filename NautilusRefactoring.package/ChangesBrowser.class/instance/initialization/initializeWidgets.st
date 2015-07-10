@@ -1,7 +1,7 @@
 initializeWidgets
 
 	changesTree := self newTree.
-	textArea := self newText.
+	textArea := self newCode.
 	
 	self initializeChangesTree.
 	self initializeTextArea.

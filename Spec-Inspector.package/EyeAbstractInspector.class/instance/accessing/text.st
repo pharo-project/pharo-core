@@ -1,4 +1,4 @@
 text
 	^ text ifNil: [ 
-		text := self instantiate: TextModel.
+		text := self newCode.
 		text aboutToStyle: true. ]

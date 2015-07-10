@@ -1,6 +1,6 @@
 initializeWidgets
 	criticsModel := self newIconList.
-	sourceCodeModel := self newText.
+	sourceCodeModel := self newCode.
 	toolbarModel := self instantiate: CriticToolbar.
 	textInputFieldModel := self newTextInput.
 

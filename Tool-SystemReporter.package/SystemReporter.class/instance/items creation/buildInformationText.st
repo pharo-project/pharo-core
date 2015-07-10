@@ -1,8 +1,9 @@
 buildInformationText
 
-	^ PluggableTextMorph
-		on: self
-		text: #reportText
-		accept: nil
-		readSelection: nil
-		menu: nil
+	| scrolledText |
+	scrolledText := self sourceTextModel newScrolledText
+		beForPlainText;
+		beReadOnly;
+		beWrapped;
+		yourself.
+	^ scrolledText

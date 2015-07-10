@@ -7,6 +7,5 @@ openPharoZenWorkspace
 		text: self pharoZenValuesContents;
 		title: 'Pharo Zen';
 		aboutText: self aboutPharoZen;
-		isCodeCompletionAllowed: false;
-		menuHolder: [  ];
+		beForText;
 		openWithSpec

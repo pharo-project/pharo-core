@@ -18,4 +18,4 @@ initializeWidgets
 	fileInSelectedButton
 		label: 'file in selected'.
 
-	codePane := self newText.
+	codePane := self newCode.

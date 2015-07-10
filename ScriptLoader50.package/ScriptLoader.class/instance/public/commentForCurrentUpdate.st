@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '15912 Classes are not rebuilt when changing only slot parameters
-	https://pharo.fogbugz.com/f/cases/15912
+ ^ '15907 add beForCode for all tools using specs TextModel 
+	https://pharo.fogbugz.com/f/cases/15907
 
-14310 Renaming a package just by changing upper/lowercase removes the package
-	https://pharo.fogbugz.com/f/cases/14310
+15921 Make SystemReporter use Rubric
+	https://pharo.fogbugz.com/f/cases/15921
 
-15926 Monticello should raise MCRepositoryError and not Error
-	https://pharo.fogbugz.com/f/cases/15926
-
-12190 Nautilus right click menus do not work on empty panes 
-	https://pharo.fogbugz.com/f/cases/12190'
+15934 test: Coverage per method, see #testCoverageMethod
+	https://pharo.fogbugz.com/f/cases/15934'

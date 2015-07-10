@@ -1,2 +1,2 @@
 initializeMethodBodyPane
-	method := self newText
+	method := self newCode

@@ -1,7 +1,7 @@
 initializeWidgets
 
 	listModel := self newList.
-	textModel := self newText.
+	textModel := self newCode.
 	toolbarModel := self instantiate: MethodToolbar.
 	
 	self focusOrder

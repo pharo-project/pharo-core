@@ -1,6 +1,6 @@
 initializeWidgets
 	
-	description := self instantiate: TextModel.
+	description := self newCode.
 	
 		
  	
