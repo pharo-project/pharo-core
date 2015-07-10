@@ -1,2 +1,2 @@
 reflectiveMethod
-	^self propertyValueAt: #reflectiveMethod
+	^self propertyValueAt: #reflectiveMethod ifAbsent: nil

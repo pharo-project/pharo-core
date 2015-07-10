@@ -1,4 +1,4 @@
 dragTransferTypeForMorph: dragSource 
 
-	^(dragSource isKindOf: PluggableListMorph)
+	^(dragSource isKindOf: self class listClass)
 		ifTrue: [ dragSource getListElementSelector ]

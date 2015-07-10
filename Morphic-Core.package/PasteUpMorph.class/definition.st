@@ -1,5 +1,5 @@
 BorderedMorph subclass: #PasteUpMorph
 	instanceVariableNames: 'backgroundMorph worldState griddingOn'
-	classVariableNames: 'WindowEventHandler WorldAnnouncer'
+	classVariableNames: 'ShouldSwapMenuOpenerButtons WindowEventHandler WorldAnnouncer'
 	poolDictionaries: ''
 	category: 'Morphic-Core-Worlds'

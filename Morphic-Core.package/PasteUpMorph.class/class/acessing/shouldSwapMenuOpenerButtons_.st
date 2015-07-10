@@ -1,0 +1,2 @@
+shouldSwapMenuOpenerButtons: aBoolean
+	^ ShouldSwapMenuOpenerButtons := aBoolean

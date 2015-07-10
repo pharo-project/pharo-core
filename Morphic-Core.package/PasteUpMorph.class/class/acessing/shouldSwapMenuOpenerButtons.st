@@ -1,0 +1,2 @@
+shouldSwapMenuOpenerButtons
+	^ ShouldSwapMenuOpenerButtons ifNil: [ false ]

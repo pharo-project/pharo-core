@@ -3,7 +3,7 @@ dragPassengersFor: item inMorph: dragSource
 	
 	object := item originalObject.
 
-	(dragSource isKindOf: PluggableListMorph)
+	(dragSource isKindOf: AbstractWidget listClass)
 		ifFalse: [^ nil ].
 	transferType := self dragTransferTypeForMorph: dragSource.
 	transferType == #getCategoryItem:

@@ -1,4 +1,4 @@
 dragTransferTypeForMorph: dragSource 
 
-	^(dragSource isKindOf: PluggableListMorph)
+	^(dragSource isKindOf: AbstractWidget listClass)
 		ifTrue: [ dragSource getListElementSelector ]

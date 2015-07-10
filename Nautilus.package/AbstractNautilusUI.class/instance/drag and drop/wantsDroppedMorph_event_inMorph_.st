@@ -6,7 +6,7 @@ wantsDroppedMorph: transferMorph event: anEvent inMorph: destinationLM
 	| srcType dstType |
 
 	"only want drops on lists (not, for example, on pluggable texts)"
-	(destinationLM isKindOf: PluggableListMorph) ifFalse: [^ false].
+	(destinationLM isKindOf: AbstractWidget listClass) ifFalse: [^ false].
 
 	srcType := transferMorph dragTransferType.
 	dstType := self dragTransferTypeForMorph: destinationLM.
@@ -20,7 +20,7 @@ wantsDroppedMorph: transferMorph event: anEvent inMorph: destinationLM
 	
 	(srcType == #getClassItem: and: [ dstType = #getPackageItem: ]) 
 		ifTrue: [ 
-			(destinationLM potentialDropItem isKindOf: PluggableListMorph)
+			(destinationLM potentialDropItem isKindOf: AbstractWidget listClass)
 				ifTrue: [ ^ true ].
 			self showGroups
 				ifTrue: [ | receiver |

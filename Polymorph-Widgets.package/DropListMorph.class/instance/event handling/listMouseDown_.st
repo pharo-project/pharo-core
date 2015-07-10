@@ -3,5 +3,5 @@ listMouseDown: evt
 
 	(self listMorph fullContainsPoint: evt position)
 		ifTrue: [ 
-			self listMorph selectionIndex: (self listMorph rowAtLocation: evt position) ].
+			self listMorph changeModelSelection: (self listMorph rowAtLocation: evt position) ].
 	self hideList
