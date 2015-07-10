@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '15907 add beForCode for all tools using specs TextModel 
-	https://pharo.fogbugz.com/f/cases/15907
+ ^ '15936 Remove titleAndPaneText
+	https://pharo.fogbugz.com/f/cases/15936
 
-15921 Make SystemReporter use Rubric
-	https://pharo.fogbugz.com/f/cases/15921
+11730 UTF8TextConverter dependent on Zinc
+	https://pharo.fogbugz.com/f/cases/11730
 
-15934 test: Coverage per method, see #testCoverageMethod
-	https://pharo.fogbugz.com/f/cases/15934'
+15922 Add Jobs to MC version loading
+	https://pharo.fogbugz.com/f/cases/15922'

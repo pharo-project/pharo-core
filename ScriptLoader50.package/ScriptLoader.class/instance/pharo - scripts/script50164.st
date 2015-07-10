@@ -1,4 +1,4 @@
-script50163
+script50164
 
 	^ 'AST-Core-TheIntegrator.314.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -147,7 +147,7 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-TheIntegrator.1044.mcz
+Monticello-TheIntegrator.1045.mcz
 Monticello-Tests-TheIntegrator.19.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.189.mcz
@@ -169,13 +169,13 @@ Morphic-Widgets-Scrolling-TheIntegrator.25.mcz
 Morphic-Widgets-Tabs-TheIntegrator.14.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.9.mcz
 Morphic-Widgets-Tree-TheIntegrator.33.mcz
-Morphic-Widgets-Windows-TheIntegrator.49.mcz
+Morphic-Widgets-Windows-TheIntegrator.51.mcz
 MorphicTests-TheIntegrator.101.mcz
 Multilingual-Encodings-MarcusDenker.47.mcz
 Multilingual-Languages-StephaneDucasse.40.mcz
 Multilingual-OtherLanguages-TheIntegrator.15.mcz
 Multilingual-Tests-TheIntegrator.38.mcz
-Multilingual-TextConversion-TheIntegrator.70.mcz
+Multilingual-TextConversion-TheIntegrator.72.mcz
 Multilingual-TextConverterOtherLanguages-MarcusDenker.2.mcz
 NECompletion-TheIntegrator.202.mcz
 NECompletion-Tests-TheIntegrator.2.mcz

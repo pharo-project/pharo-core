@@ -1,2 +1,2 @@
 errorMalformedInput
-	^ZnInvalidUTF8 new signal: 'Invalid utf8 input detected'
+	^UTF8InvalidText new signal: 'Invalid utf8 input detected'
