@@ -2,4 +2,4 @@ SHRBTextStyler subclass: #CoverageStyler
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Reflectivity-Demo'
+	category: 'Reflectivity-Examples'
