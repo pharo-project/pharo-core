@@ -23,7 +23,7 @@ SimpleButtonMorph allInstances size.
 "Let''s play with it:"
 
 SimpleButtonMorph allInstances last 
-	label: ''PharoTutorial is cooooool !'';
+	label: ''ProfStef is cooooool !'';
 	color: Color cyan.
 	
 "Let''s delete it and ask the system to clean the memory:"
@@ -36,7 +36,7 @@ SimpleButtonMorph allInstances size.
 
 SimpleButtonMorph new
 	label: ''Go to next lesson'';
-	target: [PharoTutorial next. 
+	target: [ProfStef next. 
 			SimpleButtonMorph allInstances last delete];
 	actionSelector: #value;
 	openCenteredInWorld.'

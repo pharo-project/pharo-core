@@ -1,3 +1,3 @@
 testLastThenPreviousShouldGoToSecondLesson
-	PharoTutorial last; previous.
- 	self assert:  'Second lesson' equals: PharoTutorial default lessonView text
+	ProfStef last; previous.
+ 	self assert:  'Second lesson' equals: ProfStef default lessonView text

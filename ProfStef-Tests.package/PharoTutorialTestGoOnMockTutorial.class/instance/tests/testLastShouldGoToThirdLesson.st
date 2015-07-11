@@ -1,3 +1,3 @@
 testLastShouldGoToThirdLesson
-	PharoTutorial last.
- 	self assert:  'Third lesson' equals: PharoTutorial default lessonView text
+	ProfStef last.
+ 	self assert:  'Third lesson' equals: ProfStef default lessonView text

@@ -26,4 +26,4 @@ Here we want to print all the numbers on the Transcript (a console)"
      separatedBy: [Transcript show: ''.''].
 
 
-PharoTutorial allInstances do: [:aPharoTutorial | aPharoTutorial next].'
+ProfStef allInstances do: [:aPharoTutorial | aPharoTutorial next].'

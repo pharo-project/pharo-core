@@ -14,14 +14,14 @@ Take a look at method #ifFalse:ifTrue: source code of class True:"
 
 "Here''s all the methods I implement:"
 
-PharoTutorial selectors.
+ProfStef selectors.
 
 
 "Let''s create a new method to go to the next lesson:"
 
-PharoTutorial class compile:''goToNextLesson
+ProfStef class compile:''goToNextLesson
   self next''.
 
 "Wow ! I can''t wait to use my new method ! "
 
-PharoTutorial goToNextLesson.'
+ProfStef goToNextLesson.'

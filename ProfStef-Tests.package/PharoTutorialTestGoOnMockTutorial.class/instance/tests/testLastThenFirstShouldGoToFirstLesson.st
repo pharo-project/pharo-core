@@ -1,3 +1,3 @@
 testLastThenFirstShouldGoToFirstLesson
-	PharoTutorial last; first.
- 	self assert:  'First lesson' equals: PharoTutorial default lessonView text
+	ProfStef last; first.
+ 	self assert:  'First lesson' equals: ProfStef default lessonView text

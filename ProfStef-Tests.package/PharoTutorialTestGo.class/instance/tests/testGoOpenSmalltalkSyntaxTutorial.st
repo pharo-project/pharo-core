@@ -1,7 +1,7 @@
 testGoOpenSmalltalkSyntaxTutorial
 	| displayedText expected |
-	PharoTutorial go.
+	ProfStef go.
 	
-	displayedText := PharoTutorial default lessonView text.
+	displayedText := ProfStef default lessonView text.
 	expected := PharoSyntaxTutorial new welcome lesson.
  	self assert: displayedText equals: expected.

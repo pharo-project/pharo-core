@@ -19,4 +19,4 @@ lesson:
 
 -3 abs negated reciprocal.
 
-PharoTutorial next.'
+ProfStef next.'

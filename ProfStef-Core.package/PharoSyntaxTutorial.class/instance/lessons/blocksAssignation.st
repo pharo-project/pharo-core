@@ -13,4 +13,4 @@ b := [:x | x+2].
 b value: 12.
 
 
-PharoTutorial next.'
+ProfStef next.'

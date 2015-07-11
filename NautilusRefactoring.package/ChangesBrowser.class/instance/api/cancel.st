@@ -1,3 +1,2 @@
 cancel
-
 	window value delete

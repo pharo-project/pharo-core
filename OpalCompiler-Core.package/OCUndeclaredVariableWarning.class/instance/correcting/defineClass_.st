@@ -14,7 +14,7 @@ defineClass: className
 		initialAnswer: classDefinition
 		answerHeight: 150.
 	(classDefinition isNil or: [ classDefinition isEmpty ])
-		ifTrue: [ ^ self error ].
+		ifTrue: [ ^ Abort signal ].
 	self class compiler evaluate: classDefinition.
 	^ (node owningScope lookupVar: className)
 		ifNil: [self error: 'should be not happen']

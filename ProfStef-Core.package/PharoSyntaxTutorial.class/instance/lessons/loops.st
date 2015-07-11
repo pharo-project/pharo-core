@@ -16,4 +16,4 @@ lesson:
 100 to: 0 by: -2 do: 
     [:i | Transcript show: i asString; cr].
 
-1 to: 1 do: [:i | PharoTutorial next].'
+1 to: 1 do: [:i | ProfStef next].'

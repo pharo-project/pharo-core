@@ -1,2 +1,2 @@
 tearDown
-	PharoTutorial default close
+	ProfStef default close

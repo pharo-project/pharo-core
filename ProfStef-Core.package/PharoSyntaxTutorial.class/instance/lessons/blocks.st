@@ -26,4 +26,4 @@ Here is a block that adds 2 to its argument (its argument is named x):"
 
 [:x :y| x + y] value:3 value:5.
 
-[PharoTutorial next] value.'
+[ProfStef next] value.'

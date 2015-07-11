@@ -1,2 +1,2 @@
 close
-	self window delete.
+	window delete.

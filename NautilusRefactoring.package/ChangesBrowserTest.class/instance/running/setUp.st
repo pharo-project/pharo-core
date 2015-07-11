@@ -1,0 +1,2 @@
+setUp
+	browser := ChangesBrowser new

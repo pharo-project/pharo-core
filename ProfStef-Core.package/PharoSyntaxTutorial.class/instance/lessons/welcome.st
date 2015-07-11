@@ -8,4 +8,4 @@ You must want me to help you learn Pharo.
 
 So let''s go to the first lesson.  Select the text below, right-click and choose ''do it (d)''"
 
-PharoTutorial next.'
+ProfStef next.'

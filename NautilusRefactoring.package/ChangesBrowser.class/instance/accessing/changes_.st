@@ -1,5 +1,3 @@
 changes: aCollection
-
 	changes := aCollection.
-	
-	self updateChanges.
+	self updateChanges

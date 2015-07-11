@@ -19,4 +19,4 @@ Float pi.
 
 SystemVersion current.
 
-PharoTutorial next.'
+ProfStef next.'

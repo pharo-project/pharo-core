@@ -11,6 +11,6 @@ prepareDebuggerExample
 			- Right-click and select ''Accept'' to compile the new version of the method
 			- click the button ''Proceed'' to continue execution.
 			".
-			PharoTutorial next. '
+			ProfStef next. '
 
 			classified: 'interactive' ]

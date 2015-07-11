@@ -6,4 +6,4 @@ lesson:
 
 Go back and use a cascade !"
 
-PharoTutorial previous.'.
+ProfStef previous.'.

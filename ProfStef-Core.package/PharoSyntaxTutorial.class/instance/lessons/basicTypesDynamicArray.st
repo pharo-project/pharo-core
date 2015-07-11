@@ -9,4 +9,4 @@ lesson:
 { (2+3) . (6*6) . ''hello'', '' Stef''} size.
 
 
-{ PharoTutorial } first next.'
+{ ProfStef } first next.'

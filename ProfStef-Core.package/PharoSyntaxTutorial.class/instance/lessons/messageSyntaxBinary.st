@@ -23,4 +23,4 @@ true & false.
 
 Date today < Date yesterday.
 
-PharoTutorial next.'
+ProfStef next.'

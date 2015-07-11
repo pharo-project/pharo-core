@@ -19,4 +19,4 @@ Time now.
 
 SmalltalkImage current datedVersion.
 
-PharoTutorial next.'
+ProfStef next.'

@@ -1,5 +1,5 @@
 Object subclass: #LessonView
-	instanceVariableNames: 'shoutMorph window'
+	instanceVariableNames: 'shoutMorph window sourceTextModel'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'ProfStef-Core'

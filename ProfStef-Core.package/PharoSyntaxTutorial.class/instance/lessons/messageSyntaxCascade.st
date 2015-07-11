@@ -22,4 +22,4 @@ Transcript
 
 "Try to go to the next lesson with a cascade of two ''next'' messages:"
 
-PharoTutorial'.
+ProfStef'.

@@ -1,7 +1,7 @@
 testGoOnMockTutorial
 	| displayedText expected |
-	PharoTutorial goOn: MockTutorial.
+	ProfStef goOn: MockTutorial.
 	
-	displayedText := PharoTutorial default lessonView text.
+	displayedText := ProfStef default lessonView text.
 	expected := MockTutorial new firstLesson lesson.
  	self assert: displayedText equals: expected.

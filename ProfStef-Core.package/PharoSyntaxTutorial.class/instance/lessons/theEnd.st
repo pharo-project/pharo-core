@@ -10,12 +10,12 @@ Don''t forget to read ''Pharo By Example'' found here:
 
 You can run this tutorial again by evaluating:"
 
-PharoTutorial go.
+ProfStef go.
 
-"Do you want to create your own interactive tutorial with PharoTutorial ? That''s very easy!!  How ? There''s a PharoTutorial interactive tutorial for that :D
+"Do you want to create your own interactive tutorial with ProfStef? That''s very easy!!  How ? There''s a ProfStef interactive tutorial for that :D
 Just evaluate the following code:"
 
-PharoTutorial goOn: HowToMakeYourOwnTutorial
+ProfStef goOn: HowToMakeYourOwnTutorial
 
 "See you soon !"
 '

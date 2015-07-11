@@ -14,4 +14,4 @@ lesson:
 
 #(''hello'' ''World'') at: 2 put: ''Pharo''; yourself.
 
-PharoTutorial next.'
+ProfStef next.'

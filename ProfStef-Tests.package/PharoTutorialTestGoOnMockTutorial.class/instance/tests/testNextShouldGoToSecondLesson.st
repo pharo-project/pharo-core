@@ -1,3 +1,3 @@
 testNextShouldGoToSecondLesson
-	PharoTutorial next.
- 	self assert:  'Second lesson' equals: PharoTutorial default lessonView text
+	ProfStef next.
+ 	self assert:  'Second lesson' equals: ProfStef default lessonView text

@@ -1,4 +1,4 @@
-script50165
+script50166
 
 	^ 'AST-Core-TheIntegrator.316.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -189,7 +189,7 @@ NativeBoost-Win32-TheIntegrator.57.mcz
 Nautilus-TheIntegrator.983.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
 NautilusCommon-TheIntegrator.268.mcz
-NautilusRefactoring-TheIntegrator.235.mcz
+NautilusRefactoring-TheIntegrator.237.mcz
 Network-Kernel-TheIntegrator.118.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.41.mcz
@@ -203,7 +203,7 @@ NonInteractiveTranscript-TheIntegrator.17.mcz
 OSWindow-Core-TheIntegrator.20.mcz
 OSWindow-SDL2-EstebanLorenzano.19.mcz
 OSWindow-VM-IgorStasenko.2.mcz
-OpalCompiler-Core-TheIntegrator.689.mcz
+OpalCompiler-Core-TheIntegrator.692.mcz
 OpalCompiler-Tests-TheIntegrator.290.mcz
 OpalDecompiler-TheIntegrator.33.mcz
 OpalTools-TheIntegrator.16.mcz
@@ -211,9 +211,9 @@ Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz
 Polymorph-Widgets-TheIntegrator.1227.mcz
 PragmaCollector-TheIntegrator.3.mcz
-ProfStef-Core-TheIntegrator.61.mcz
+ProfStef-Core-TheIntegrator.64.mcz
 ProfStef-Help-TheIntegrator.16.mcz
-ProfStef-Tests-TheIntegrator.25.mcz
+ProfStef-Tests-TheIntegrator.27.mcz
 RPackage-Core-TheIntegrator.395.mcz
 RPackage-Tests-TheIntegrator.173.mcz
 RecentSubmissions-StephaneDucasse.233.mcz
@@ -303,7 +303,7 @@ Tool-Base-TheIntegrator.91.mcz
 Tool-Catalog-EstebanLorenzano.13.mcz
 Tool-CriticBrowser-TheIntegrator.7.mcz
 Tool-Diff-TheIntegrator.4.mcz
-Tool-ExternalBrowser-TheIntegrator.23.mcz
+Tool-ExternalBrowser-TheIntegrator.25.mcz
 Tool-FileList-TheIntegrator.39.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
 Tool-Finder-TheIntegrator.33.mcz

@@ -1,2 +1,2 @@
 testFirstLessonShouldBeDisplayed.
- 	self assert:  'First lesson' equals: PharoTutorial default lessonView text
+ 	self assert:  'First lesson' equals: ProfStef default lessonView text

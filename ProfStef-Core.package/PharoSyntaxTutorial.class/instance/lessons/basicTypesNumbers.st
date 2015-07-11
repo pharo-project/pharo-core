@@ -27,4 +27,4 @@ Evaluate these ones:"
 
 (1 class maxVal + 1) class.
 
-PharoTutorial next.'
+ProfStef next.'

@@ -18,4 +18,4 @@ Character space.
 
 Character allByteCharacters.
 
-PharoTutorial next.'
+ProfStef next.'

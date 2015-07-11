@@ -1,2 +1,2 @@
 setUp
-	PharoTutorial tutorial: MockTutorial lesson: #firstLesson 
+	ProfStef tutorial: MockTutorial lesson: #firstLesson 

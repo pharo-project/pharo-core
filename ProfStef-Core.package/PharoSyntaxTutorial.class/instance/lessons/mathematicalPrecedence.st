@@ -20,4 +20,4 @@ Remember that all messages always follow a simple left-to-right precedence rule,
 
 8 - (5 / 2).
 
-PharoTutorial next.'
+ProfStef next.'

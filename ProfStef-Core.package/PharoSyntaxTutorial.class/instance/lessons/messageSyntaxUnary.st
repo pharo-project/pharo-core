@@ -21,4 +21,4 @@ Float pi.
 
 "And of course: "
 
-PharoTutorial next.'
+ProfStef next.'

@@ -1,15 +1,12 @@
 commentForCurrentUpdate
- ^ '15940 ast Cache: retain entries with linkCount on image save
-	https://pharo.fogbugz.com/f/cases/15940
+ ^ '15856 When we cancel the creation of a class we get an error
+	https://pharo.fogbugz.com/f/cases/15856
 
-14676 World menu should open on right click under Windows and Linux
-	https://pharo.fogbugz.com/f/cases/14676
+15939 ChangesBrowser missing tests
+	https://pharo.fogbugz.com/f/cases/15939
 
-15942 drag&drop not working when fast table is activated
-	https://pharo.fogbugz.com/f/cases/15942
+15943 Cleaning LessonView
+	https://pharo.fogbugz.com/f/cases/15943
 
-11680 DropListMorph accepts on ESCAPE
-	https://pharo.fogbugz.com/f/cases/11680
-
-15933 Wrong metacelloPlatformAttributes for pharo 5
-	https://pharo.fogbugz.com/f/cases/15933'
+15937 DNU MethodChunk on change browser file in
+	https://pharo.fogbugz.com/f/cases/15937'

@@ -1,2 +1,2 @@
 text
-	^ self shoutMorph text asString
+	^ self sourceTextModel getText asString

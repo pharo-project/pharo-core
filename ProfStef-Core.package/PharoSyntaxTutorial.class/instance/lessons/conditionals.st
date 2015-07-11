@@ -18,4 +18,4 @@ Transcript open.
 	ifTrue: [Transcript show: ''maybe there''''s a bug ....'']
 	ifFalse: [Transcript show: ''No : 3 is less than 10''].
 
-3 = 3 ifTrue: [PharoTutorial next].'.
+3 = 3 ifTrue: [ProfStef next].'.

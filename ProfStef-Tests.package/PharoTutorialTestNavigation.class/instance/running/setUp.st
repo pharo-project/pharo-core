@@ -1,5 +1,5 @@
 setUp
-	prof := PharoTutorial new.
+	prof := ProfStef new.
 	prof player: (
 		TutorialPlayer new 
 			tutorial: MockTutorial new; 

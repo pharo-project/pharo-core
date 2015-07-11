@@ -1,7 +1,7 @@
 testGoTwiceShowLessonViewIfNotVisible
 	| firstLessonView |
-	PharoTutorial go.
-	firstLessonView := PharoTutorial default lessonView.
+	ProfStef go.
+	firstLessonView := ProfStef default lessonView.
 	firstLessonView close.
-	PharoTutorial goOn: PharoSyntaxTutorial.
+	ProfStef goOn: PharoSyntaxTutorial.
 	self assert:  (World systemWindows includes:  firstLessonView window).

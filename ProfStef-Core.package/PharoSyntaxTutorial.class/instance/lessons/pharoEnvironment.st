@@ -10,10 +10,10 @@ Date today explore.
 
 "This shows that the date object consists of a point in time (start) and a duration (one day long)."
 
-PharoTutorial explore.
+ProfStef explore.
 
-"You see, PharoTutorial class has a lot of objects. Let''s take a look at my code:"
+"You see, ProfStef class has a lot of objects. Let''s take a look at my code:"
 
-PharoTutorial browse.
+ProfStef browse.
 
-PharoTutorial next.'
+ProfStef next.'

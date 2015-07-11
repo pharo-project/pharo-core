@@ -20,4 +20,4 @@ Color
 	g:1
 	b:0.
 	
-PharoTutorial perform: #next.'
+ProfStef perform: #next.'

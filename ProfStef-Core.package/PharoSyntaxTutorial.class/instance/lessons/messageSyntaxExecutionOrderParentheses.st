@@ -10,4 +10,4 @@ lesson:
 
 (0@0 extent: 100@200) bottomRight.
 
-PharoTutorial next.'
+ProfStef next.'

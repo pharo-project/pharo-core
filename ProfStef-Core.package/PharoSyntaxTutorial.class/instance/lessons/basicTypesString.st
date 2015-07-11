@@ -4,9 +4,9 @@ title: 'Basic types: Strings'
 lesson: 
 '"A String is a collection of characters. Use single quotes to create a String object. Print these expressions:"
 
-''PharoTutorial''.
+''ProfStef''.
 
-''PharoTutorial'' size.
+''ProfStef'' size.
 
 ''abc'' asUppercase.
 
@@ -14,10 +14,10 @@ lesson:
 
 "You can access each character using at: message"
 
-''PharoTutorial'' at: 1.
+''ProfStef'' at: 1.
 
 "String concatenation uses the comma operator:"
 
-''PharoTutorial'', '' is cool''.
+''ProfStef'', '' is cool''.
 
-PharoTutorial next.'
+ProfStef next.'
