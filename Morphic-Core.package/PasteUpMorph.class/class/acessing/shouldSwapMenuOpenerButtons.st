@@ -1,2 +1,2 @@
 shouldSwapMenuOpenerButtons
-	^ ShouldSwapMenuOpenerButtons ifNil: [ false ]
+	^ ShouldSwapMenuOpenerButtons 

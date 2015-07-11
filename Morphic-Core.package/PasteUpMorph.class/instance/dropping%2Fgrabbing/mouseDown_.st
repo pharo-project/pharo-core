@@ -2,9 +2,9 @@ mouseDown: evt
 	"Handle a mouse down event."
 
 	| grabbedMorph handHadHalos |
-	((self class shouldSwapMenuOpenerButtons or: [ Smalltalk os isMacOS ])
-		ifFalse: [ evt yellowButtonPressed "left click" ]
-		ifTrue: [ evt redButtonPressed	"right click" ])
+	(self class isMenuOpenByLeftClick
+		ifTrue: [ evt yellowButtonPressed "left click" ]
+		ifFalse: [ evt redButtonPressed	"right click" ])
 		ifTrue: [ ^ self popUpContentsMenu: evt ].
 	grabbedMorph := self morphToGrab: evt.
 	grabbedMorph

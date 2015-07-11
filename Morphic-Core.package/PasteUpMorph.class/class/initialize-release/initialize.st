@@ -1,0 +1,2 @@
+initialize
+	ShouldSwapMenuOpenerButtons := false

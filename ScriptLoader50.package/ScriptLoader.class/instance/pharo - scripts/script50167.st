@@ -1,4 +1,4 @@
-script50166
+script50167
 
 	^ 'AST-Core-TheIntegrator.316.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -156,7 +156,7 @@ MonticelloGUI-TheIntegrator.361.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.6.mcz
 Morphic-Base-TheIntegrator.466.mcz
-Morphic-Core-TheIntegrator.185.mcz
+Morphic-Core-TheIntegrator.187.mcz
 Morphic-Examples-TheIntegrator.40.mcz
 Morphic-Widgets-Basic-TheIntegrator.43.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
