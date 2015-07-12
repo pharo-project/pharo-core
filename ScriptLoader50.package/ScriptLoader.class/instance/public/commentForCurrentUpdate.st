@@ -1,6 +1,12 @@
 commentForCurrentUpdate
- ^ '15955 Replace PluggableTextMorph of the Mail Composition
-	https://pharo.fogbugz.com/f/cases/15955
+ ^ '15956 Temporary variable oldNeg is only written in NumberParser>>#nextInteger
+	https://pharo.fogbugz.com/f/cases/15956
 
-15950 create Reflectivity-Examples
-	https://pharo.fogbugz.com/f/cases/15950'
+15952 Update configuration of Rubric 
+	https://pharo.fogbugz.com/f/cases/15952
+
+15953 Replace PluggableTextMorph of the Finder
+	https://pharo.fogbugz.com/f/cases/15953
+
+15954 Replace PluggableTextMorph of the HelpBrowser 
+	https://pharo.fogbugz.com/f/cases/15954'

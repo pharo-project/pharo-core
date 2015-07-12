@@ -1,0 +1,2 @@
+customizeEditorWith: aValuable
+	customizeValuable := aValuable

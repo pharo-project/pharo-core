@@ -1,3 +1,2 @@
 updateSourceCode
-	
-	self changed: #sourceCode.
+	self sourceTextModel setText: self sourceCode 

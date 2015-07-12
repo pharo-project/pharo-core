@@ -1,2 +1,0 @@
-defaultViewerClass	 
-	^PluggableTextMorph

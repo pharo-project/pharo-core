@@ -8,7 +8,7 @@ nextInteger
 	integerPart ifNil: [self fail].
 	(sourceStream peekFor: $r)
 		ifTrue: ["<base>r<integer>"
-			| oldNeg pos |
+			| pos |
 			pos := sourceStream position.
 			(base := integerPart) < 2
 				ifTrue: ["A radix currently need to be greater than 1, ungobble the r and return the integer part"
@@ -16,7 +16,6 @@ nextInteger
 					^neg
 						ifTrue: [base negated]
 						ifFalse: [base]].
-			oldNeg := neg.
 			self peekSignIsMinus ifTrue: [neg := neg not].
 			integerPart := self nextUnsignedIntegerOrNilBase: base.
 			integerPart ifNil: [self fail]].

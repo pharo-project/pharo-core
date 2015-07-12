@@ -1,0 +1,2 @@
+refactor
+	^ NautilusRefactoring model: self

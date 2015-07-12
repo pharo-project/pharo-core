@@ -1,0 +1,2 @@
+acceptOnCR: aBoolean
+	acceptOnCR := aBoolean

@@ -1,0 +1,2 @@
+browsedEnvironment
+	^ self environment 

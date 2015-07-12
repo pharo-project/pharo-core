@@ -6,7 +6,7 @@ autoSelection
 	
 	self isSourceSymbol ifFalse: [^ 0 to: 0].
 		
-	aString := sourceTextArea text asString asLowercase.
+	aString := self sourceTextModel getString asLowercase.
 	
 	aString = self defaultExplanation asLowercase
 		ifTrue: [ ^ 0 to: 0].

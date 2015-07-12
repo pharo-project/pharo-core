@@ -1,13 +1,9 @@
 buildSourceTextArea
-
-	sourceTextArea := PluggableTextMorph
-				on: self
-				text: #sourceCode
-				accept: #compileSource:notifying:
-				readSelection: #autoSelection
-				menu: #msgPaneMenu:shifted:.
-				
-	sourceTextArea askBeforeDiscardingEdits: true.
-	sourceTextArea font: StandardFonts codeFont.
+	sourceTextArea := self sourceTextModel newScrolledText
+		beForSmalltalkCode;
+		beWrapped;
+		yourself.
+	sourceTextArea menuProvider: self selector: #msgPaneMenu:shifted:.
+	sourceTextArea textArea announcer weak when: RubTextAcceptRequest send: #whenTextAcceptedInView: to: self.
 	self updateSourceCode.
 	^ sourceTextArea
