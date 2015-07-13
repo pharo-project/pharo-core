@@ -3,3 +3,5 @@ initialize
 	control := #before.
 	selector := #value.
 	arguments := #().
+	options := Set new.
+	self parseOptions: self class defaultOptions.

@@ -1,0 +1,5 @@
+defaultOptions
+	^ #(
+	+ optionInlineMetaObject
+	- optionCompileOnLinkInstallation
+	)
