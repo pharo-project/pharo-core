@@ -1,0 +1,2 @@
+buffer: anObject
+	buffer := anObject

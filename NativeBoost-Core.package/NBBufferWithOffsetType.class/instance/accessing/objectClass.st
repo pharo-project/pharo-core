@@ -1,0 +1,2 @@
+objectClass
+	^ objectClass
