@@ -1,3 +1,3 @@
 accept: aVisitor
 
-	^ aVisitor visitOrganizationChunk: self
+	^ aVisitor visitClassOrganizationChunk: self

@@ -5,6 +5,4 @@ loadRemoteDependenciesIn: aRepository
 		requiredPackagesParallelCollect: [ :aPackage|
 			(aPackage workingCopy closestAncestorSnapshotIn: aRepository) definitions.] 
 		withMessage: 'Loading remote dependencies...'.
-	^ dependencies 
-		inject: OrderedCollection new
-		into: [ :all :deps| all addAll: deps ]
+	^ dependencies flattened

@@ -9,7 +9,8 @@ removeDuplicatesOf: aSelector
 				ifTrue: 
 					[removeDuplicates 
 						ifFalse: 
-							[removeDuplicates := true.
+							[removeDuplicates := 
 							self 
-								refactoringWarning: 'Do you want to remove duplicate subclass methods?'].
-					each removeMethod: aSelector]]
+								refactoringConfirmWarning: 'Do you want to remove duplicate subclass methods?'].
+					removeDuplicates ifTrue:[
+					each removeMethod: aSelector]]]
