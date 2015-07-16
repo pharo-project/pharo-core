@@ -1,2 +1,2 @@
 description
-	^ Array with: #organization with: self commonPrefix
+	^ Array with: #organization with: self fullDescription

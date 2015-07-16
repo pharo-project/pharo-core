@@ -1,4 +1,4 @@
-script50173
+script50174
 
 	^ 'AST-Core-TheIntegrator.320.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -27,7 +27,7 @@ Collections-Abstract-TheIntegrator.287.mcz
 Collections-Arithmetic-TheIntegrator.20.mcz
 Collections-Atomic-TheIntegrator.13.mcz
 Collections-Native-TheIntegrator.14.mcz
-Collections-Sequenceable-TheIntegrator.212.mcz
+Collections-Sequenceable-TheIntegrator.214.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.177.mcz
 Collections-Strings-TheIntegrator.364.mcz
@@ -147,7 +147,7 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-TheIntegrator.1048.mcz
+Monticello-TheIntegrator.1050.mcz
 Monticello-Tests-TheIntegrator.19.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.189.mcz
@@ -301,7 +301,7 @@ Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.26.mcz
 Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.91.mcz
-Tool-Catalog-EstebanLorenzano.13.mcz
+Tool-Catalog-EstebanLorenzano.14.mcz
 Tool-CriticBrowser-TheIntegrator.7.mcz
 Tool-Diff-TheIntegrator.4.mcz
 Tool-ExternalBrowser-TheIntegrator.27.mcz
