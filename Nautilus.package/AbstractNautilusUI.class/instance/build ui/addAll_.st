@@ -27,7 +27,7 @@ addAll: aWindow
 		middleHeight := middle height+4.
 		aWindow 
 			addMorph: middle
-			fullFrame: ((0 @ 0.5 corner: 1 @ 0.5) asLayoutFrame bottomOffset: middleHeight).
+			fullFrame: ((0 @ self navigationAreaProportion corner: 1 @ self navigationAreaProportion) asLayoutFrame bottomOffset: middleHeight).
 		middle color: Color transparent].
 	
 	sourceCodePanel := PanelMorph new.
@@ -50,16 +50,15 @@ addAll: aWindow
 
 	sourceCodeContainer addMorph: sourceCodePanel.
 	
-	bottomMorph := self buildBottomPlugins.
-	
-	bottomMorph ifNotNil: [:bottom | bottomHeight := bottom height + 8].
+	bottomMorph := self buildBottomPlugins.	
+	bottomMorph ifNotNil: [ bottomHeight := bottomMorph height + 8].
 	aWindow
 		addMorph: sourceCodeContainer
-		fullFrame: ( (0@0.5 corner: 1 @ 1) asLayoutFrame 
+		fullFrame: ( (0@self navigationAreaProportion corner: 1 @ 1) asLayoutFrame 
 						topOffset: middleHeight;  bottomOffset: bottomHeight negated).
 						
-	bottomMorph ifNotNil: [:bottom |					
+	bottomMorph ifNotNil: [					
 		aWindow				
-			addMorph: bottom
-			fullFrame: ((0 @ 1 corner: 1 @ 1) asLayoutFrame topOffset:  bottomHeight negated).
-		bottom color: Color transparent]
+			addMorph: bottomMorph
+			fullFrame: ((0 @ 1 corner: 1 @ 1) asLayoutFrame topOffset: bottomHeight negated).
+		bottomMorph color: Color transparent ]
