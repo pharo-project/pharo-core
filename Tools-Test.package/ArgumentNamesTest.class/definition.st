@@ -1,5 +1,5 @@
-UITestCase subclass: #OpenToolTest
+TestCase subclass: #ArgumentNamesTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'ToolsTest-Base'
+	category: 'Tools-Test-Debugger'

@@ -1,5 +1,5 @@
-TestCase subclass: #MethodFinderTest
+TestCase subclass: #DebuggerTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'ToolsTest-Finder'
+	category: 'Tools-Test-Debugger'

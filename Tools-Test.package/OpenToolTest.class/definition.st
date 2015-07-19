@@ -1,5 +1,5 @@
-TestCase subclass: #WorkspaceTest
+UITestCase subclass: #OpenToolTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'ToolsTest-Base'
+	category: 'Tools-Test-Base'

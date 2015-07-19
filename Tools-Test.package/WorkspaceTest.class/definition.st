@@ -1,5 +1,5 @@
-TestCase subclass: #ArgumentNamesTest
+TestCase subclass: #WorkspaceTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'ToolsTest-Debugger'
+	category: 'Tools-Test-Base'

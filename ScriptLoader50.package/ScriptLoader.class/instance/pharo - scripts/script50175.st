@@ -1,6 +1,6 @@
-script50174
+script50175
 
-	^ 'AST-Core-TheIntegrator.320.mcz
+	^ 'AST-Core-TheIntegrator.322.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
 Announcements-Core-MarcusDenker.55.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -288,7 +288,7 @@ System-Localization-Tests-TheIntegrator.5.mcz
 System-Object Events-MarcusDenker.15.mcz
 System-Platforms-TheIntegrator.67.mcz
 System-Serial Port-StephaneDucasse.23.mcz
-System-Settings-TheIntegrator.311.mcz
+System-Settings-TheIntegrator.313.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.25.mcz
 System-Support-TheIntegrator.1125.mcz
@@ -303,7 +303,7 @@ Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.91.mcz
 Tool-Catalog-EstebanLorenzano.14.mcz
 Tool-CriticBrowser-TheIntegrator.7.mcz
-Tool-Diff-TheIntegrator.4.mcz
+Tool-Diff-TheIntegrator.6.mcz
 Tool-ExternalBrowser-TheIntegrator.27.mcz
 Tool-FileList-TheIntegrator.39.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
@@ -315,8 +315,9 @@ Tool-SystemReporter-TheIntegrator.15.mcz
 Tool-Transcript-TheIntegrator.14.mcz
 Tool-TxWorkspace-TorstenBergmann.5.mcz
 Tool-Workspace-TheIntegrator.28.mcz
-Tools-TheIntegrator.1503.mcz
-ToolsTest-MarcusDenker.denker.71.mcz
+Tools-TheIntegrator.1504.mcz
+Tools-Test-TheIntegrator.2.mcz
+ToolsTest-TheIntegrator.denker.72.mcz
 Traits-TheIntegrator.799.mcz
 Transcript-TheIntegrator.34.mcz
 TxText-Athens-SeanDeNigris.50.mcz

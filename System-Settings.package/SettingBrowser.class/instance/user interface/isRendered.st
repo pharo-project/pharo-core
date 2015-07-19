@@ -1,4 +1,2 @@
 isRendered
-	| renderingMorphs |
-	renderingMorphs := SystemWindow allSubInstances select: [:sw | sw model = self].
-	^ renderingMorphs anySatisfy: [:m | m owner notNil]
+	^ self dependents anySatisfy: [ :dependent | dependent isSystemWindow and: [ dependent owner isNotNil ] ]

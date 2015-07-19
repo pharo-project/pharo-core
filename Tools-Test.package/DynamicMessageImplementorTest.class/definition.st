@@ -2,4 +2,4 @@ TestCase subclass: #DynamicMessageImplementorTest
 	instanceVariableNames: 'instVar'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'ToolsTest-Debugger'
+	category: 'Tools-Test-Debugger'

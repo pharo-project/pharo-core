@@ -8,8 +8,6 @@ nextInteger
 	integerPart ifNil: [self fail].
 	(sourceStream peekFor: $r)
 		ifTrue: ["<base>r<integer>"
-			| pos |
-			pos := sourceStream position.
 			(base := integerPart) < 2
 				ifTrue: ["A radix currently need to be greater than 1, ungobble the r and return the integer part"
 					sourceStream skip: -1.

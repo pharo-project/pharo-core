@@ -2,4 +2,4 @@ TestCase subclass: #PointerFinderTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'ToolsTest-PointerFinder'
+	category: 'Tools-Test-PointerFinder'

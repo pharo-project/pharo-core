@@ -2,4 +2,4 @@ TestCase subclass: #AndreasSystemProfilerTest
 	instanceVariableNames: 'tally'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'ToolsTest-Profilers'
+	category: 'Tools-Test-Profilers'

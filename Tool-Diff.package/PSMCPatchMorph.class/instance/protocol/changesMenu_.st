@@ -56,6 +56,14 @@ changesMenu: m
 	 	font: self theme menuFont;
 		icon: Smalltalk ui icons smallUpdateIcon.
 	menu
+		addToggle: 'Revert change' translated
+		target: self
+		selector: #revertSelectedChange
+		getStateSelector: nil.
+	menu lastItem
+	 	font: self theme menuFont;
+		icon: Smalltalk ui icons smallCancelIcon.
+	menu
 		add: 'Expand All' translated
 		target: self model
 		selector: #expandAll.
