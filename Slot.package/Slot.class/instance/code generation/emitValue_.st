@@ -1,5 +1,5 @@
 emitValue: aMethodBuilder
 	aMethodBuilder
-		pushLiteral: self;
+		pushLiteralVariable: #slot -> self;
 		pushReceiver;
 		send: #read:

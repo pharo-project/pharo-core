@@ -1,4 +1,4 @@
-script50177
+script50178
 
 	^ 'AST-Core-TheIntegrator.322.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -255,8 +255,8 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.266.mcz
 ShoutTests-TheIntegrator.27.mcz
-Slot-TheIntegrator.635.mcz
-Slot-Tests-TheIntegrator.39.mcz
+Slot-TheIntegrator.639.mcz
+Slot-Tests-TheIntegrator.41.mcz
 SmartSuggestions-TheIntegrator.169.mcz
 SmartSuggestions-Tests-TheIntegrator.4.mcz
 Spec-Core-TheIntegrator.402.mcz
@@ -317,7 +317,6 @@ Tool-TxWorkspace-TorstenBergmann.5.mcz
 Tool-Workspace-TheIntegrator.28.mcz
 Tools-TheIntegrator.1504.mcz
 Tools-Test-TheIntegrator.2.mcz
-ToolsTest-TheIntegrator.denker.72.mcz
 Traits-TheIntegrator.799.mcz
 Transcript-TheIntegrator.34.mcz
 TxText-Athens-SeanDeNigris.50.mcz

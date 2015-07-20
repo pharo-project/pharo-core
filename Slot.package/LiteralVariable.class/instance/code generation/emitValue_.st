@@ -1,4 +1,4 @@
 emitValue: aMethodBuilder
 	aMethodBuilder
-		pushLiteral: self;
+		pushLiteralVariable: #global -> self;
 		send: #read
