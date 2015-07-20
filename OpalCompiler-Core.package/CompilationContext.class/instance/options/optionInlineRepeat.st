@@ -1,0 +1,2 @@
+optionInlineRepeat
+	^ options includes: #optionInlineRepeat

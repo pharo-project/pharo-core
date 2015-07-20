@@ -1,4 +1,4 @@
 manifestReadOn: aArray
 
 	^ (self named:( aArray at:1))
-		baseClass: ( aArray at:2)
+		baseClass: (RGClassDefinition named: (aArray at:2))

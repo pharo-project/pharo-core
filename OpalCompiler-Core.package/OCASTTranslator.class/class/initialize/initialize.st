@@ -17,6 +17,7 @@ initialize
 	#or: -> #emitOr: .
 	#and: -> #emitAnd: .
 	#timesRepeat: -> #emitTimesRepeat: .
+	#repeat -> #emitRepeat: .
 	#to:by:do: -> #emitToByDo: .
 	#to:do: -> #emitToDo: .
 	#whileFalse: -> #emitWhileFalse: .

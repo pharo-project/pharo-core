@@ -1,4 +1,4 @@
-RPackageAnnouncement subclass: #RPackageCreated
+RPackageAnnouncement subclass: #RPackageRegistered
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

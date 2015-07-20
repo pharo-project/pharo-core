@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '15991 System settings search is slow
-	https://pharo.fogbugz.com/f/cases/15991
+ ^ '15998 Rename RPackageCreated into RPackageRegistered
+	https://pharo.fogbugz.com/f/cases/15998
 
-14442 ToolsTest package should be Tools-Test
-	https://pharo.fogbugz.com/f/cases/14442
+15997 Manifest storing/loading of metaclass is broken
+	https://pharo.fogbugz.com/f/cases/15997
 
-3893 There is no way to revert a change in a patch browser nor in Plymorph diff
-	https://pharo.fogbugz.com/f/cases/3893
-
-15993 Temporary variable pos is only written in NumberParser>>#nextInteger
-	https://pharo.fogbugz.com/f/cases/15993'
+15393 Optimizing repeat
+	https://pharo.fogbugz.com/f/cases/15393'

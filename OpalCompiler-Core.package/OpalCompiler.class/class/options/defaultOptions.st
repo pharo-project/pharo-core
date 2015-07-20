@@ -8,6 +8,7 @@ defaultOptions
 	+ optionInlineToDo
 	+ optionInlineCase
 	- optionInlineTimesRepeat
+	- optionInlineRepeat
 	
 	- optionInlineNone "to turn off all. Overrides the others" 	
 	- optionLongIvarAccessBytecodes "special for Contexts"

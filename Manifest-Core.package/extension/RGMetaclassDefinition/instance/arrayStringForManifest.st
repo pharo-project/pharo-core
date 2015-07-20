@@ -6,5 +6,5 @@ arrayStringForManifest
 		at: 2
 		put:
 			{(name asSymbol).
-			(self theNonMetaClass asSymbol)}.
+			(self theNonMetaClass asString asSymbol)}.
 	^ array

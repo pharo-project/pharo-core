@@ -1,4 +1,4 @@
-script50175
+script50176
 
 	^ 'AST-Core-TheIntegrator.322.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -124,9 +124,9 @@ Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.96.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
 Komitter-TheIntegrator.132.mcz
-Manifest-Core-TheIntegrator.225.mcz
+Manifest-Core-TheIntegrator.227.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
-Manifest-Tests-TheIntegrator.49.mcz
+Manifest-Tests-TheIntegrator.51.mcz
 MenuRegistration-TheIntegrator.76.mcz
 MessageBrowserRefactoringAddition-StephaneDucasse.2.mcz
 Metacello-Base-EstebanLorenzano.114.mcz
@@ -186,7 +186,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-TheIntegrator.985.mcz
+Nautilus-TheIntegrator.990.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
 NautilusCommon-TheIntegrator.270.mcz
 NautilusRefactoring-TheIntegrator.237.mcz
@@ -203,8 +203,8 @@ NonInteractiveTranscript-TheIntegrator.17.mcz
 OSWindow-Core-TheIntegrator.20.mcz
 OSWindow-SDL2-EstebanLorenzano.19.mcz
 OSWindow-VM-IgorStasenko.2.mcz
-OpalCompiler-Core-TheIntegrator.692.mcz
-OpalCompiler-Tests-TheIntegrator.290.mcz
+OpalCompiler-Core-TheIntegrator.694.mcz
+OpalCompiler-Tests-TheIntegrator.292.mcz
 OpalDecompiler-TheIntegrator.33.mcz
 OpalTools-TheIntegrator.16.mcz
 Pharo-Help-TheIntegrator.15.mcz
@@ -214,7 +214,7 @@ PragmaCollector-TheIntegrator.3.mcz
 ProfStef-Core-TheIntegrator.64.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
-RPackage-Core-TheIntegrator.395.mcz
+RPackage-Core-TheIntegrator.397.mcz
 RPackage-Tests-TheIntegrator.173.mcz
 RecentSubmissions-StephaneDucasse.233.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
