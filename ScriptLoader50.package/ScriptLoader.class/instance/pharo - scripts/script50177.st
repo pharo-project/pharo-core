@@ -1,4 +1,4 @@
-script50176
+script50177
 
 	^ 'AST-Core-TheIntegrator.322.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -157,7 +157,7 @@ MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.6.mcz
 Morphic-Base-TheIntegrator.466.mcz
 Morphic-Core-TheIntegrator.187.mcz
-Morphic-Examples-TheIntegrator.40.mcz
+Morphic-Examples-TheIntegrator.42.mcz
 Morphic-Widgets-Basic-TheIntegrator.43.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
 Morphic-Widgets-Extra-TheIntegrator.22.mcz
@@ -166,7 +166,7 @@ Morphic-Widgets-List-TheIntegrator.21.mcz
 Morphic-Widgets-NewList-TheIntegrator.5.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.57.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.25.mcz
-Morphic-Widgets-Tabs-TheIntegrator.14.mcz
+Morphic-Widgets-Tabs-TheIntegrator.16.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.9.mcz
 Morphic-Widgets-Tree-TheIntegrator.33.mcz
 Morphic-Widgets-Windows-TheIntegrator.51.mcz
@@ -203,8 +203,8 @@ NonInteractiveTranscript-TheIntegrator.17.mcz
 OSWindow-Core-TheIntegrator.20.mcz
 OSWindow-SDL2-EstebanLorenzano.19.mcz
 OSWindow-VM-IgorStasenko.2.mcz
-OpalCompiler-Core-TheIntegrator.694.mcz
-OpalCompiler-Tests-TheIntegrator.292.mcz
+OpalCompiler-Core-TheIntegrator.696.mcz
+OpalCompiler-Tests-TheIntegrator.294.mcz
 OpalDecompiler-TheIntegrator.33.mcz
 OpalTools-TheIntegrator.16.mcz
 Pharo-Help-TheIntegrator.15.mcz

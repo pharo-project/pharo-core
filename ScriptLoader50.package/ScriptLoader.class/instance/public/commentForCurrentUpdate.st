@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '15998 Rename RPackageCreated into RPackageRegistered
-	https://pharo.fogbugz.com/f/cases/15998
+ ^ '15971 SubscriptOutOfBounds: 0 on whileFalse:
+	https://pharo.fogbugz.com/f/cases/15971
 
-15997 Manifest storing/loading of metaclass is broken
-	https://pharo.fogbugz.com/f/cases/15997
+15999 remove empty package ToolsTest
+	https://pharo.fogbugz.com/f/cases/15999
 
-15393 Optimizing repeat
-	https://pharo.fogbugz.com/f/cases/15393'
+13686 Morphic-Widgets-Tabs depends on Spec-Core
+	https://pharo.fogbugz.com/f/cases/13686'
