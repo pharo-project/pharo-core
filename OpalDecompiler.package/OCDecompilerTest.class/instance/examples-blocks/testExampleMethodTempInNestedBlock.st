@@ -1,2 +1,0 @@
-testExampleMethodTempInNestedBlock
-	self checkMethod: OCOpalExamples>>#exampleMethodTempInNestedBlock

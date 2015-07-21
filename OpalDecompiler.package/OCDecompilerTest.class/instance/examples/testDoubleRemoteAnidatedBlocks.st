@@ -1,2 +1,0 @@
-testDoubleRemoteAnidatedBlocks
-	self checkMethod: OCOpalExamples>>#doubleRemoteAnidatedBlocks

@@ -1,2 +1,0 @@
-testNestedBlocksRemoteInBlockCase2
-	self checkMethod: OCOpalExamples>>#nestedBlocksRemoteInBlockCase2

@@ -1,2 +1,0 @@
-codeAnySelector: aString 
-	^ aString

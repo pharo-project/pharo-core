@@ -1,2 +1,0 @@
-testExampleDoublePrimitive
-	self checkMethod: OCOpalExamples>>#exampleDoublePrimitive

@@ -1,2 +1,0 @@
-temps: anObject
-	temps := anObject

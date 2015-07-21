@@ -1,2 +1,0 @@
-testExampleSimpleBlockNested
-	self checkMethod: OCOpalExamples>>#exampleSimpleBlockNested

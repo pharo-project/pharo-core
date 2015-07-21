@@ -1,2 +1,0 @@
-printOn: s
-	s << 'tempVectNode'

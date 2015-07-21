@@ -1,2 +1,0 @@
-testExampleToDoValueLimitExpression
-	self checkMethod: OCOpalExamples>>#exampleToDoValueLimitExpression

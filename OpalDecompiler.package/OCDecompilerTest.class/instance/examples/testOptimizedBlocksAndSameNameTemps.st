@@ -1,2 +1,0 @@
-testOptimizedBlocksAndSameNameTemps
-	self checkMethod: OCOpalExamples>>#optimizedBlocksAndSameNameTemps

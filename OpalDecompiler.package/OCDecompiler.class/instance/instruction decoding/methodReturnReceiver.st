@@ -1,3 +1,0 @@
-methodReturnReceiver
-
-	self pushReceiver; methodReturnTop

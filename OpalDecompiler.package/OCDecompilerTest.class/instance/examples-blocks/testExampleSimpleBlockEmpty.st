@@ -1,2 +1,0 @@
-testExampleSimpleBlockEmpty
-	self checkMethod: OCOpalExamples>>#exampleSimpleBlockEmpty

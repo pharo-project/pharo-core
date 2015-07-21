@@ -1,2 +1,0 @@
-testNoRemoteReadNestedBlocks
-	self checkMethod: OCOpalExamples>>#noRemoteReadNestedBlocks

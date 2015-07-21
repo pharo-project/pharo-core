@@ -1,2 +1,0 @@
-testExampleWhileModificationBeforeNotInlined
-	self checkMethod: OCOpalExamples>>#exampleWhileModificationBeforeNotInlined

@@ -1,2 +1,0 @@
-testExampleSimpleBlockLocalWhile
-	self checkMethod: OCOpalExamples>>#exampleSimpleBlockLocalWhile

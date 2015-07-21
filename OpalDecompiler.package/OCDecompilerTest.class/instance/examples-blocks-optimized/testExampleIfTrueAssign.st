@@ -1,2 +1,0 @@
-testExampleIfTrueAssign
-	self checkMethod: OCOpalExamples>>#exampleIfTrueAssign

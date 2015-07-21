@@ -1,2 +1,0 @@
-testExampleNestedBlockScoping
-	self checkMethod: OCOpalExamples>>#exampleNestedBlockScoping

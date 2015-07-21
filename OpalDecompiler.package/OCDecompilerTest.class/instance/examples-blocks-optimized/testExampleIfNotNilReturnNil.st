@@ -1,2 +1,0 @@
-testExampleIfNotNilReturnNil
-	self checkMethod: OCOpalExamples>>#exampleIfNotNilReturnNil

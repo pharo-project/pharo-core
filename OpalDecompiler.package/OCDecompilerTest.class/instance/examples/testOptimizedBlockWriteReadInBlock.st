@@ -1,2 +1,0 @@
-testOptimizedBlockWriteReadInBlock
-	self checkMethod: OCOpalExamples>>#optimizedBlockWriteReadInBlock

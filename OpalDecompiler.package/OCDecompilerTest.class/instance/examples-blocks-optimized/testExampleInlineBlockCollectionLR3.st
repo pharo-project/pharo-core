@@ -1,2 +1,0 @@
-testExampleInlineBlockCollectionLR3
-	self checkMethod: OCOpalExamples>>#exampleInlineBlockCollectionLR3

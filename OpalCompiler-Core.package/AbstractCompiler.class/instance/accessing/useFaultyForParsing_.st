@@ -1,2 +1,0 @@
-useFaultyForParsing: anObject
-	self subclassResponsibility

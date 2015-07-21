@@ -1,2 +1,0 @@
-testExampleBlockExternalNested
-	self checkMethod: OCOpalExamples>>#exampleBlockExternalNested

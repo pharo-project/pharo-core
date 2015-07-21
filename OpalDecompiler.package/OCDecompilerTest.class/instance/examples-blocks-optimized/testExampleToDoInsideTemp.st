@@ -1,2 +1,0 @@
-testExampleToDoInsideTemp
-	self checkMethod: OCOpalExamples>>#exampleToDoInsideTemp

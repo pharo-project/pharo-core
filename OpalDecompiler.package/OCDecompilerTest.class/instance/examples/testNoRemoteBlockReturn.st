@@ -1,2 +1,0 @@
-testNoRemoteBlockReturn
-	self checkMethod: OCOpalExamples>>#noRemoteBlockReturn

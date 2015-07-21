@@ -1,0 +1,2 @@
+optionParseErrors
+	^ options includes: #optionParseErrors

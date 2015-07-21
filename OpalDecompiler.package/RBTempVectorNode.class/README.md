@@ -1,1 +1,0 @@
-Represents a temp vector.

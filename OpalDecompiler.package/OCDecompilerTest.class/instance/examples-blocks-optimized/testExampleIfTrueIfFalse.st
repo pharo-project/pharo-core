@@ -1,2 +1,0 @@
-testExampleIfTrueIfFalse
-	self checkMethod: OCOpalExamples>>#exampleIfTrueIfFalse

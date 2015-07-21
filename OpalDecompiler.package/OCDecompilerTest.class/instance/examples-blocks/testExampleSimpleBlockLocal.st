@@ -1,2 +1,0 @@
-testExampleSimpleBlockLocal
-	self checkMethod: OCOpalExamples>>#exampleSimpleBlockLocal

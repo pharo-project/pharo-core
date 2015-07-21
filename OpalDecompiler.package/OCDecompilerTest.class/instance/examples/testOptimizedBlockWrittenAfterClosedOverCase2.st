@@ -1,2 +1,0 @@
-testOptimizedBlockWrittenAfterClosedOverCase2
-	self checkMethod: OCOpalExamples>>#optimizedBlockWrittenAfterClosedOverCase2

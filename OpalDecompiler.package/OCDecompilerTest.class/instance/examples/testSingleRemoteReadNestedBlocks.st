@@ -1,2 +1,0 @@
-testSingleRemoteReadNestedBlocks
-	self checkMethod: OCOpalExamples>>#singleRemoteReadNestedBlocks

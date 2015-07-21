@@ -1,2 +1,0 @@
-isJust: node
-	^ false

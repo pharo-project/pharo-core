@@ -1,2 +1,0 @@
-testExampleToDoInsideTempNotInlined
-	self checkMethod: OCOpalExamples>>#exampleToDoInsideTempNotInlined
