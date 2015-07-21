@@ -1,0 +1,2 @@
+exitCondition: anObject
+	exitCondition := anObject

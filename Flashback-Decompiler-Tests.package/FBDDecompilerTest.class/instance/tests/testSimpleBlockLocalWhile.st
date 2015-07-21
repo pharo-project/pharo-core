@@ -1,0 +1,2 @@
+testSimpleBlockLocalWhile
+	self checkCorrectDecompilation: #exampleSimpleBlockLocalWhile

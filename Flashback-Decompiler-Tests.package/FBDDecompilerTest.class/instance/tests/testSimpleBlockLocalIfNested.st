@@ -1,0 +1,2 @@
+testSimpleBlockLocalIfNested
+	self checkCorrectDecompilation: #exampleSimpleBlockLocalIfNested

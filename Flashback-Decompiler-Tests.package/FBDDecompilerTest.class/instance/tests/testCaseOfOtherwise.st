@@ -1,0 +1,2 @@
+testCaseOfOtherwise
+	self checkCorrectDecompilation: #exampleCaseOfOtherwise.

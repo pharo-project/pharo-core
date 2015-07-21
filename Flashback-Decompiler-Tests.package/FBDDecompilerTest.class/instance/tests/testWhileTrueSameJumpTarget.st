@@ -1,0 +1,2 @@
+testWhileTrueSameJumpTarget
+	self checkCorrectDecompilation: #exampleWhileTrueSameJumpTarget

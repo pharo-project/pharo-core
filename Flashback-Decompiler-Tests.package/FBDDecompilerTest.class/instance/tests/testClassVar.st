@@ -1,0 +1,2 @@
+testClassVar
+	self checkCorrectDecompilation: #exampleClassVar

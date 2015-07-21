@@ -1,0 +1,2 @@
+testToDoInsideBlock
+	self checkCorrectDecompilation: #exampleToDoInsideBlock

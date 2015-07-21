@@ -1,0 +1,2 @@
+testEmptyMethod
+	self checkCorrectDecompilation: #exampleEmptyMethod.

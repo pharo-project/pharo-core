@@ -1,0 +1,2 @@
+testToDoValueLimitExpression
+	self checkCorrectDecompilation: #exampleToDoValueLimitExpression

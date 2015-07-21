@@ -1,0 +1,2 @@
+backjump: anObject
+	backjump := anObject

@@ -1,0 +1,2 @@
+testDoubleRemoteAnidatedBlocks
+	self checkCorrectDecompilation: #doubleRemoteAnidatedBlocks.

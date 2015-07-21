@@ -1,0 +1,2 @@
+testBlockExternalNested
+	self checkCorrectDecompilation: #exampleBlockExternalNested.

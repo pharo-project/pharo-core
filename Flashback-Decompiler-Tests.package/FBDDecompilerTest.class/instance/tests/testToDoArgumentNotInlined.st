@@ -1,0 +1,2 @@
+testToDoArgumentNotInlined
+	self checkCorrectDecompilation: #exampleToDoArgumentNotInlined

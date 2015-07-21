@@ -1,0 +1,2 @@
+testRepeatEffect
+	self checkCorrectDecompilation: #exampleRepeatEffect

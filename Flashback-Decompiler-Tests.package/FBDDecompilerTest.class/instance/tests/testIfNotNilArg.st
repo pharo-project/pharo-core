@@ -1,0 +1,2 @@
+testIfNotNilArg
+	self checkCorrectDecompilation: #exampleIfNotNilArg

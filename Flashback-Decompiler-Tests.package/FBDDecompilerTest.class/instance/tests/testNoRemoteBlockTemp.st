@@ -1,0 +1,2 @@
+testNoRemoteBlockTemp
+	self checkCorrectDecompilation: #noRemoteBlockTemp

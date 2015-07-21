@@ -1,0 +1,2 @@
+testThisContext
+	self checkCorrectDecompilation: #exampleThisContext

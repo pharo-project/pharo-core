@@ -1,0 +1,2 @@
+testEffectValues
+	self checkCorrectDecompilation: #exampleEffectValues

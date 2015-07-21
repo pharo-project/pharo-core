@@ -1,0 +1,2 @@
+testIfFalseIfTrue
+	self checkCorrectDecompilation: #exampleIfFalseIfTrue.

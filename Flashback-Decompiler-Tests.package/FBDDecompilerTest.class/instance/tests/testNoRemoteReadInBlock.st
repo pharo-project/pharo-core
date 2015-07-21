@@ -1,0 +1,2 @@
+testNoRemoteReadInBlock
+	self checkCorrectDecompilation: #noRemoteReadInBlock

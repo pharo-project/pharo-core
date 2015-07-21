@@ -1,0 +1,2 @@
+testToDoWithMessage
+	self checkCorrectDecompilation: #exampleToDoWithMessage

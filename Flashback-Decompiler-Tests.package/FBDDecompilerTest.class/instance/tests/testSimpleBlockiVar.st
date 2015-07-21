@@ -1,0 +1,2 @@
+testSimpleBlockiVar
+	self checkCorrectDecompilation: #exampleSimpleBlockiVar

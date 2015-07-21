@@ -1,0 +1,2 @@
+testToDo
+	self checkCorrectDecompilation: #exampleToDo

@@ -1,0 +1,2 @@
+testIfNilDup
+	self checkCorrectDecompilation: #exampleIfNilDup

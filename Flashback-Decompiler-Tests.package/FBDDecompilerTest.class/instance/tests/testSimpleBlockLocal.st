@@ -1,0 +1,2 @@
+testSimpleBlockLocal
+	self checkCorrectDecompilation: #exampleSimpleBlockLocal

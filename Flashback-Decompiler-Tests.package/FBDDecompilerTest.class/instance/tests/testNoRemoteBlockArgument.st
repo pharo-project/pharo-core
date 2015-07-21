@@ -1,0 +1,2 @@
+testNoRemoteBlockArgument
+	self checkCorrectDecompilation: #noRemoteBlockArgument

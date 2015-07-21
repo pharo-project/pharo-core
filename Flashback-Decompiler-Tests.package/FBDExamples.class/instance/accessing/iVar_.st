@@ -1,0 +1,2 @@
+iVar: anObject
+	iVar := anObject

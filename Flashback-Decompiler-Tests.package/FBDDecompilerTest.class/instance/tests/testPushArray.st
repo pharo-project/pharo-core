@@ -1,0 +1,2 @@
+testPushArray
+	self checkCorrectDecompilation: #examplePushArray

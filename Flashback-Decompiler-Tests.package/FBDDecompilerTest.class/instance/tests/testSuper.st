@@ -1,0 +1,2 @@
+testSuper
+	self checkCorrectDecompilation: #exampleSuper

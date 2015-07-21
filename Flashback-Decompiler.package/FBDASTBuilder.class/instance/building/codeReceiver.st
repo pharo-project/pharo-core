@@ -1,0 +1,2 @@
+codeReceiver
+	^ (RBSelfNode named: 'self')

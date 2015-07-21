@@ -1,0 +1,2 @@
+testNestedIfNilIfNotNil
+	self checkCorrectDecompilation: #exampleNestedIfNilIfNotNil.

@@ -1,0 +1,2 @@
+codeEmptySequence
+	^ self codeSequence: #()

@@ -1,0 +1,2 @@
+testSelf
+	self checkCorrectDecompilation: #exampleSelf

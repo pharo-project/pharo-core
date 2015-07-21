@@ -1,0 +1,2 @@
+testTimesRepeatEffect
+	self checkCorrectDecompilation: #exampleTimesRepeatEffect

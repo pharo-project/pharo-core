@@ -1,0 +1,2 @@
+exampleSimpleBlockEmpty
+	^[] value.

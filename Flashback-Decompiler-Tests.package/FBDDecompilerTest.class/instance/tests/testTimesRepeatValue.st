@@ -1,0 +1,2 @@
+testTimesRepeatValue
+	self checkCorrectDecompilation: #exampleTimesRepeatValue

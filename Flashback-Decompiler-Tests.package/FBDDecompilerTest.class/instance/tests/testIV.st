@@ -1,0 +1,2 @@
+testIV
+	self checkCorrectDecompilation: #exampleIV

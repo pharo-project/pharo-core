@@ -1,0 +1,2 @@
+defaultAction
+	UnhandledError signalForException: self

@@ -1,0 +1,2 @@
+testIfTrueIfFalseLikeAnd
+	self checkCorrectDecompilation: #exampleIfTrueIfFalseLikeAnd.

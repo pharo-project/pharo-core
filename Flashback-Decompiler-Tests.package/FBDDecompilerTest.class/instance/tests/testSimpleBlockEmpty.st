@@ -1,0 +1,2 @@
+testSimpleBlockEmpty
+	self checkCorrectDecompilation: #exampleSimpleBlockEmpty

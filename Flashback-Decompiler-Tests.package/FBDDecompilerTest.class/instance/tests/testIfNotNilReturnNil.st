@@ -1,0 +1,2 @@
+testIfNotNilReturnNil
+	self checkCorrectDecompilation: #exampleIfNotNilReturnNil

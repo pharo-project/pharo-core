@@ -1,0 +1,2 @@
+testToDoInsideTemp
+	self checkCorrectDecompilation: #exampleToDoInsideTemp

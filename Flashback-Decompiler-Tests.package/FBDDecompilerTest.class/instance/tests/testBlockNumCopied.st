@@ -1,0 +1,2 @@
+testBlockNumCopied
+	self checkCorrectDecompilation: #exampleBlockNumCopied

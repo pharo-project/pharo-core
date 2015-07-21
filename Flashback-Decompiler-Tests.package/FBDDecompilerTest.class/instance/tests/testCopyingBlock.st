@@ -1,0 +1,2 @@
+testCopyingBlock
+	self checkCorrectDecompilation: #exampleCopyingBlock.

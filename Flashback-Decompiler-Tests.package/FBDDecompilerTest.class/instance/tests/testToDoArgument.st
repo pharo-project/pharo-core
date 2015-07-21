@@ -1,0 +1,2 @@
+testToDoArgument
+	self checkCorrectDecompilation: #exampleToDoArgument

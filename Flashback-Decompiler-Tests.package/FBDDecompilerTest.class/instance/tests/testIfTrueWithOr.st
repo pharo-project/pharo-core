@@ -1,0 +1,2 @@
+testIfTrueWithOr
+	self checkCorrectDecompilation: #exampleIfTrueWithOr

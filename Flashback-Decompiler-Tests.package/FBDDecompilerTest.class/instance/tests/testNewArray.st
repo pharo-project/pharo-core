@@ -1,0 +1,2 @@
+testNewArray
+	self checkCorrectDecompilation: #exampleNewArray.

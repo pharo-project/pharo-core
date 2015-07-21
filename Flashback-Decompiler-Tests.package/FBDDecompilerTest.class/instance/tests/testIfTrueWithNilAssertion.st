@@ -1,0 +1,2 @@
+testIfTrueWithNilAssertion
+	self checkCorrectDecompilation: #exampleIfTrueWithNilAssertion

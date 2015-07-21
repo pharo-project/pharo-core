@@ -1,0 +1,2 @@
+testNoRemoteReadNestedBlocks
+	self checkCorrectDecompilation: #noRemoteReadNestedBlocks   

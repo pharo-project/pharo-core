@@ -1,0 +1,2 @@
+codeSelf
+	^ (RBSelfNode named: 'self')

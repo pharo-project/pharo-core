@@ -1,0 +1,2 @@
+testIfTrueForEffectNested
+	self checkCorrectDecompilation: #exampleIfTrueForEffectNested

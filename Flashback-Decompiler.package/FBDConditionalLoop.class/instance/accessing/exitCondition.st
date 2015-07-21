@@ -1,0 +1,2 @@
+exitCondition
+	^ exitCondition

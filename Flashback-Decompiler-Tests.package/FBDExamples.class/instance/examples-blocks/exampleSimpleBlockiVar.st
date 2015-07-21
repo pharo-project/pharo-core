@@ -1,0 +1,2 @@
+exampleSimpleBlockiVar
+	^[iVar] value.

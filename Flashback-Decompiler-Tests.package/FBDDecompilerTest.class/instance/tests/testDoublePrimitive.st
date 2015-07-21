@@ -1,0 +1,2 @@
+testDoublePrimitive
+	self checkCorrectDecompilation: #exampleDoublePrimitive

@@ -1,0 +1,2 @@
+testSimpleBlock
+	self checkCorrectDecompilation: #exampleSimpleBlock

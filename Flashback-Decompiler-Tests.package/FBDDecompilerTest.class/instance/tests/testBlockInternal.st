@@ -1,0 +1,2 @@
+testBlockInternal
+	self checkCorrectDecompilation: #exampleBlockInternal.

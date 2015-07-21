@@ -1,0 +1,2 @@
+pc
+	^ instructionStream pc

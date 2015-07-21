@@ -1,0 +1,2 @@
+exampleSimpleBlock
+	^[1].

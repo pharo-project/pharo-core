@@ -1,0 +1,2 @@
+testWhileModificationAfterNotInlined
+	self checkCorrectDecompilation: #exampleWhileModificationAfterNotInlined

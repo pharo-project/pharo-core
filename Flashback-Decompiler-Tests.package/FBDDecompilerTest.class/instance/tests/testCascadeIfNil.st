@@ -1,0 +1,2 @@
+testCascadeIfNil
+	self checkCorrectDecompilation: #exampleCascadeIfNil.

@@ -1,0 +1,2 @@
+testBlockWithArg
+	self checkCorrectDecompilation: #exampleBlockWithArg.

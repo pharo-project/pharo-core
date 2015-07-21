@@ -1,0 +1,2 @@
+testWhileWithTempNotInlined
+	self checkCorrectDecompilation: #exampleWhileWithTempNotInlined

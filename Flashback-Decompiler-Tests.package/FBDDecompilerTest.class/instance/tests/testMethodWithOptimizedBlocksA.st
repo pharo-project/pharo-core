@@ -1,0 +1,2 @@
+testMethodWithOptimizedBlocksA
+	self checkCorrectDecompilation: #exampleMethodWithOptimizedBlocksA

@@ -1,0 +1,2 @@
+testToDoOutsideTemp
+	self checkCorrectDecompilation: #exampleToDoOutsideTemp

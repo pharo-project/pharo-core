@@ -1,0 +1,2 @@
+testNestedBlockScoping
+	self checkCorrectDecompilation: #exampleNestedBlockScoping

@@ -1,0 +1,2 @@
+testPrimitiveErrorCode
+	self checkCorrectDecompilation: #examplePrimitiveErrorCode

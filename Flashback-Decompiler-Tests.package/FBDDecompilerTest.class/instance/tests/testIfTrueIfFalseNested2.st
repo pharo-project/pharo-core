@@ -1,0 +1,2 @@
+testIfTrueIfFalseNested2
+	self checkCorrectDecompilation: #exampleIfTrueIfFalseNested2

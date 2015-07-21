@@ -1,0 +1,2 @@
+testWhileNoModification
+	self checkCorrectDecompilation: #exampleWhileNoModification

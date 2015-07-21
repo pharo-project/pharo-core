@@ -1,0 +1,2 @@
+testWhileTrue
+	self checkCorrectDecompilation: #exampleWhileTrue

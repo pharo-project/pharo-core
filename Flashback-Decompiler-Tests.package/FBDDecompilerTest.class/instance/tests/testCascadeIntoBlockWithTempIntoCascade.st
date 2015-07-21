@@ -1,0 +1,2 @@
+testCascadeIntoBlockWithTempIntoCascade
+	self checkCorrectDecompilation: #exampleCascadeIntoBlockWithTempIntoCascade.

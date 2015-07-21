@@ -1,0 +1,2 @@
+testAndOr
+	self checkCorrectDecompilation: #exampleAndOr.

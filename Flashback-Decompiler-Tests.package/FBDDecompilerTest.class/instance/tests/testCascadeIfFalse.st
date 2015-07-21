@@ -1,0 +1,3 @@
+testCascadeIfFalse
+
+	self checkCorrectDecompilation: #exampleCascadeIfFalse.
