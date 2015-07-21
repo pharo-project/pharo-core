@@ -6,7 +6,7 @@ findBestNodeFor: context
 		ifTrue: [ 
 			root := OpalCompiler new
 				source: context code;
-				useFaultyForParsing: true;
+				options: #(+ optionParseErrors);
 				parse.
 			context selectedClass ifNotNil: [ :theClass | root methodNode methodClass: theClass ].
 			root doSemanticAnalysis ]

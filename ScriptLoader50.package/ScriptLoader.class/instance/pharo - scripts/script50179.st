@@ -1,4 +1,4 @@
-script50178
+script50179
 
 	^ 'AST-Core-TheIntegrator.322.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -189,7 +189,7 @@ NativeBoost-Win32-TheIntegrator.57.mcz
 Nautilus-TheIntegrator.990.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
 NautilusCommon-TheIntegrator.270.mcz
-NautilusRefactoring-TheIntegrator.237.mcz
+NautilusRefactoring-TheIntegrator.239.mcz
 Network-Kernel-TheIntegrator.118.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.43.mcz
@@ -203,8 +203,8 @@ NonInteractiveTranscript-TheIntegrator.17.mcz
 OSWindow-Core-TheIntegrator.20.mcz
 OSWindow-SDL2-EstebanLorenzano.19.mcz
 OSWindow-VM-IgorStasenko.2.mcz
-OpalCompiler-Core-TheIntegrator.696.mcz
-OpalCompiler-Tests-TheIntegrator.294.mcz
+OpalCompiler-Core-TheIntegrator.698.mcz
+OpalCompiler-Tests-TheIntegrator.296.mcz
 OpalDecompiler-TheIntegrator.33.mcz
 OpalTools-TheIntegrator.16.mcz
 Pharo-Help-TheIntegrator.15.mcz
@@ -257,7 +257,7 @@ Shout-TheIntegrator.266.mcz
 ShoutTests-TheIntegrator.27.mcz
 Slot-TheIntegrator.639.mcz
 Slot-Tests-TheIntegrator.41.mcz
-SmartSuggestions-TheIntegrator.169.mcz
+SmartSuggestions-TheIntegrator.171.mcz
 SmartSuggestions-Tests-TheIntegrator.4.mcz
 Spec-Core-TheIntegrator.402.mcz
 Spec-Debugger-TheIntegrator.242.mcz

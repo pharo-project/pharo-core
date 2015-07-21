@@ -1,2 +1,2 @@
 swapMethodFor: aCollection
-	self performRefactoringFor: #privateSwapMethodFor: with: aCollection
+	self performRefactoringsFor: #privateSwapMethodFor: with: aCollection

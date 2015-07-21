@@ -2,7 +2,7 @@ testEvalSimpleMethodWithError
 	| ast cm |
 	ast := OpalCompiler new
 				source: 'method 3+';
-				useFaultyForParsing: true;
+				options: #(+ optionParseErrors);
 				parse.
 	
 	self assert: ast isMethod.

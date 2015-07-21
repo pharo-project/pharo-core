@@ -3,6 +3,6 @@ parseMethod
 	
 	parseClass := self compilationContext parserClass.
 
-	^self useFaultyForParsing 
+	^self compilationContext optionParseErrors 
 		ifTrue: [parseClass parseFaultyMethod: source contents]
 		ifFalse: [parseClass parseMethod: source contents]

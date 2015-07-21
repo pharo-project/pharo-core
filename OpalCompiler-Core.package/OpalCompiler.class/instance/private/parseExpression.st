@@ -3,6 +3,6 @@ parseExpression
 	
 	parseClass := self compilationContext parserClass.
 
-	^self useFaultyForParsing 
+	^self compilationContext optionParseErrors 
 		ifTrue: [parseClass parseFaultyExpression: source contents]
 		ifFalse: [parseClass parseExpression: source contents]
