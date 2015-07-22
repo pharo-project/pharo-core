@@ -1,0 +1,2 @@
+keepBlockInMessage: aBoolean
+	DefaultPrettyPrintContext keepBlockInMessage: aBoolean

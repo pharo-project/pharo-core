@@ -1,0 +1,2 @@
+retainBlankLinesBetweenStatements: aBoolean
+	DefaultPrettyPrintContext retainBlankLinesBetweenStatements: aBoolean

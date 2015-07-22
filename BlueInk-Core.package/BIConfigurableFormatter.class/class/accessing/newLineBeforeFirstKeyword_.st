@@ -1,0 +1,2 @@
+newLineBeforeFirstKeyword: aBoolean
+	DefaultPrettyPrintContext newLineBeforeFirstKeyword: aBoolean

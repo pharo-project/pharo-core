@@ -1,0 +1,2 @@
+newLinesAfterMethodComment: anInteger
+	context newLinesAfterMethodComment: anInteger

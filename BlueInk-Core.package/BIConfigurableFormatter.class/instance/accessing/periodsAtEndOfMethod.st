@@ -1,0 +1,2 @@
+periodsAtEndOfMethod
+	^ context periodsAtEndOfMethod

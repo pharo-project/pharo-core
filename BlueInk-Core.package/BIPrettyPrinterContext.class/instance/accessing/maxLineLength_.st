@@ -1,0 +1,2 @@
+maxLineLength: anObject
+	maxLineLength := anObject

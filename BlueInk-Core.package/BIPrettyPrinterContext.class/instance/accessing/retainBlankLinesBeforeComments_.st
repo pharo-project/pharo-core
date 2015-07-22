@@ -1,0 +1,2 @@
+retainBlankLinesBeforeComments: anObject
+	retainBlankLinesBeforeComments := anObject

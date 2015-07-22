@@ -1,0 +1,2 @@
+selectorAndArgumentCombinedMaxSize: anInteger
+	context selectorAndArgumentCombinedMaxSize: anInteger

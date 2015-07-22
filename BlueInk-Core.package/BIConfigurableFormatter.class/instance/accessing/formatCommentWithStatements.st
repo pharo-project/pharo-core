@@ -1,0 +1,2 @@
+formatCommentWithStatements
+	^ context formatCommentWithStatements

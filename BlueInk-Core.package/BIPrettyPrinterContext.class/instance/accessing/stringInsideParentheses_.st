@@ -1,0 +1,2 @@
+stringInsideParentheses: anObject
+	stringInsideParentheses := anObject

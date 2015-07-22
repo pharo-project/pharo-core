@@ -1,0 +1,2 @@
+indentsForKeywords: anObject
+	indentsForKeywords := anObject

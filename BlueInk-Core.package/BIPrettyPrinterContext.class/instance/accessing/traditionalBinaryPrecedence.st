@@ -1,0 +1,2 @@
+traditionalBinaryPrecedence
+	^ traditionalBinaryPrecedence

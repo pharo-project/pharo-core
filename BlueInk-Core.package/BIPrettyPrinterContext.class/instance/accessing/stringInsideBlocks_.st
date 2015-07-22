@@ -1,0 +1,2 @@
+stringInsideBlocks: anObject
+	stringInsideBlocks := anObject

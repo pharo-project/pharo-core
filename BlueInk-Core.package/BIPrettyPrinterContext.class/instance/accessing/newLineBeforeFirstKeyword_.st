@@ -1,0 +1,2 @@
+newLineBeforeFirstKeyword: anObject
+	newLineBeforeFirstKeyword := anObject

@@ -1,0 +1,2 @@
+isInCascadeNode: aBoolean
+	isInCascadeNode := aBoolean

@@ -1,0 +1,2 @@
+formatCommentWithStatements: anObject
+	formatCommentWithStatements := anObject

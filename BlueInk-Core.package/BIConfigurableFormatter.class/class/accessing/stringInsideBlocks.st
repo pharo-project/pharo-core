@@ -1,0 +1,2 @@
+stringInsideBlocks
+	^ DefaultPrettyPrintContext stringInsideBlocks

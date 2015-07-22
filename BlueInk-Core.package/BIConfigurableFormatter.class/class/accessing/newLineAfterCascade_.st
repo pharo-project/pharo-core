@@ -1,0 +1,2 @@
+newLineAfterCascade: aBoolean
+	DefaultPrettyPrintContext newLineAfterCascade: aBoolean

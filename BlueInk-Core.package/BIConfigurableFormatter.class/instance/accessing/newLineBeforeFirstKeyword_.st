@@ -1,0 +1,2 @@
+newLineBeforeFirstKeyword: aBoolean
+	context newLineBeforeFirstKeyword: aBoolean

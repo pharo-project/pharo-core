@@ -1,0 +1,2 @@
+oneLineMessages
+	^ DefaultPrettyPrintContext oneLineMessages printString

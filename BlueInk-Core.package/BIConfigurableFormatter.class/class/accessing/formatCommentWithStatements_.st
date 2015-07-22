@@ -1,0 +1,2 @@
+formatCommentWithStatements: aBoolean
+	DefaultPrettyPrintContext formatCommentWithStatements: aBoolean

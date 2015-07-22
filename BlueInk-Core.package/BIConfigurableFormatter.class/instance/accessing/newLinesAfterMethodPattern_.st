@@ -1,0 +1,2 @@
+newLinesAfterMethodPattern: anInteger
+	context newLinesAfterMethodPattern: anInteger

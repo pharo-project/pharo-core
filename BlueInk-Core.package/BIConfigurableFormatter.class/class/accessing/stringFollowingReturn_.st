@@ -1,0 +1,2 @@
+stringFollowingReturn: aString
+	DefaultPrettyPrintContext stringFollowingReturn: aString

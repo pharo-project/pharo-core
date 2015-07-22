@@ -1,0 +1,3 @@
+periodsAsTerminators: aBoolean
+	DefaultPrettyPrintContext periodsAtEndOfBlock: aBoolean.
+	DefaultPrettyPrintContext periodsAtEndOfMethod: aBoolean

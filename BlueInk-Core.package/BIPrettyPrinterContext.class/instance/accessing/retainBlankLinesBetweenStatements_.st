@@ -1,0 +1,2 @@
+retainBlankLinesBetweenStatements: anObject
+	retainBlankLinesBetweenStatements := anObject

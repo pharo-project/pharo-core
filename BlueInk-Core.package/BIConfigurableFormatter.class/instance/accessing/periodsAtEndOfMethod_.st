@@ -1,0 +1,2 @@
+periodsAtEndOfMethod: aBoolean
+	context periodsAtEndOfMethod: aBoolean

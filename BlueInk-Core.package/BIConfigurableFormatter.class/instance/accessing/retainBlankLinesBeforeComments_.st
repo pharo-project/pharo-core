@@ -1,0 +1,2 @@
+retainBlankLinesBeforeComments: aBoolean
+	context retainBlankLinesBeforeComments: aBoolean

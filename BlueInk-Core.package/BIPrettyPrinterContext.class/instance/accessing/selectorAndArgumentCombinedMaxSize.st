@@ -1,0 +1,2 @@
+selectorAndArgumentCombinedMaxSize
+	^ selectorAndArgumentCombinedMaxSize

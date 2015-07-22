@@ -1,0 +1,2 @@
+newLinesAfterMethodComment: anObject
+	newLinesAfterMethodComment := anObject

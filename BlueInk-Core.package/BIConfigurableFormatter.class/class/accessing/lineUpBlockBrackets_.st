@@ -1,0 +1,2 @@
+lineUpBlockBrackets: aBoolean
+	DefaultPrettyPrintContext lineUpBlockBrackets: aBoolean

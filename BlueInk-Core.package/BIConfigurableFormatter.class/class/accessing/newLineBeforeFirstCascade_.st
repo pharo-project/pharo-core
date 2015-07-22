@@ -1,0 +1,2 @@
+newLineBeforeFirstCascade: aBoolean
+	DefaultPrettyPrintContext newLineBeforeFirstCascade: aBoolean

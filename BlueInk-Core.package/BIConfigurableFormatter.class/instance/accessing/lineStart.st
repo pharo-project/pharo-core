@@ -1,0 +1,2 @@
+lineStart
+	^ lineStart

@@ -1,0 +1,2 @@
+lineStart: anObject
+	lineStart := anObject

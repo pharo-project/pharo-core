@@ -1,0 +1,2 @@
+maxLineLength: anInteger
+	DefaultPrettyPrintContext maxLineLength: anInteger

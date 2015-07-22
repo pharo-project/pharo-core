@@ -1,0 +1,2 @@
+multiLineMessages
+	^ DefaultPrettyPrintContext multiLineMessages printString

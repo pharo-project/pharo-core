@@ -1,0 +1,2 @@
+methodSignatureOnMultipleLines: aBoolean
+	DefaultPrettyPrintContext methodSignatureOnMultipleLines: aBoolean

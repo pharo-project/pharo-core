@@ -1,0 +1,2 @@
+methodSignatureOnMultipleLines: anObject
+	methodSignatureOnMultipleLines := anObject

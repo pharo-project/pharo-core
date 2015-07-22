@@ -1,0 +1,2 @@
+selectorAndArgumentCombinedMaxSize: anInteger
+	DefaultPrettyPrintContext selectorAndArgumentCombinedMaxSize: anInteger

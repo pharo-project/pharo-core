@@ -1,0 +1,2 @@
+traditionalBinaryPrecedence: anArray
+	context traditionalBinaryPrecedence: anArray

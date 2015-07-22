@@ -1,0 +1,2 @@
+cascadedMessageInsideParentheses: anObject
+	cascadedMessageInsideParentheses := anObject

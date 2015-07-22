@@ -1,0 +1,2 @@
+newLineAfterCascade
+	^ DefaultPrettyPrintContext newLineAfterCascade

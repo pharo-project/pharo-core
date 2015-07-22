@@ -1,0 +1,2 @@
+newLinesAfterMethodPattern: anObject
+	newLinesAfterMethodPattern := anObject

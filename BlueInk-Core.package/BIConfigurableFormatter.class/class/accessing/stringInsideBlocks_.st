@@ -1,0 +1,2 @@
+stringInsideBlocks: aString
+	DefaultPrettyPrintContext stringInsideBlocks: aString

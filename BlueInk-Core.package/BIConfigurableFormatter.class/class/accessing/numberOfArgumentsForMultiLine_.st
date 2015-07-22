@@ -1,0 +1,2 @@
+numberOfArgumentsForMultiLine: anInteger
+	DefaultPrettyPrintContext numberOfArgumentsForMultiLine: anInteger

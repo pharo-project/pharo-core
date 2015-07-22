@@ -1,0 +1,2 @@
+newLineBeforeFirstCascade
+	^ context newLineBeforeFirstCascade

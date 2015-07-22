@@ -1,0 +1,2 @@
+periodsAtEndOfBlock: anObject
+	periodsAtEndOfBlock := anObject

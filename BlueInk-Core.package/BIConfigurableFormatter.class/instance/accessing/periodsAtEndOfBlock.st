@@ -1,0 +1,2 @@
+periodsAtEndOfBlock
+	^ context periodsAtEndOfBlock

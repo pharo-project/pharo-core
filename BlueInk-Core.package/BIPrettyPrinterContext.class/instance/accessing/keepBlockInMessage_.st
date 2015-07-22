@@ -1,0 +1,2 @@
+keepBlockInMessage: anObject
+	keepBlockInMessage := anObject

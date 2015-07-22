@@ -1,0 +1,2 @@
+periodsAtEndOfMethod: anObject
+	periodsAtEndOfMethod := anObject

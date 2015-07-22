@@ -1,0 +1,2 @@
+newLinesAfterTemporaries: anInteger
+	DefaultPrettyPrintContext newLinesAfterTemporaries: anInteger

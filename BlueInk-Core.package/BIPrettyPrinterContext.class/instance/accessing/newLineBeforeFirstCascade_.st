@@ -1,0 +1,2 @@
+newLineBeforeFirstCascade: anObject
+	newLineBeforeFirstCascade := anObject

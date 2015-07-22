@@ -1,0 +1,2 @@
+oneLineMessages
+	^ context oneLineMessages

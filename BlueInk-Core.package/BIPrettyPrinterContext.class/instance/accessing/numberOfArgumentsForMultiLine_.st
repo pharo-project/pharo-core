@@ -1,0 +1,2 @@
+numberOfArgumentsForMultiLine: anObject
+	numberOfArgumentsForMultiLine := anObject

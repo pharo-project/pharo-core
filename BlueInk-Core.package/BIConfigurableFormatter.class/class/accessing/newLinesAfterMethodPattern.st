@@ -1,0 +1,2 @@
+newLinesAfterMethodPattern
+	^ DefaultPrettyPrintContext newLinesAfterMethodPattern

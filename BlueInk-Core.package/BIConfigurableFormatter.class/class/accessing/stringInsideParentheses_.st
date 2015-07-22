@@ -1,0 +1,2 @@
+stringInsideParentheses: aString
+	DefaultPrettyPrintContext stringInsideParentheses: aString

@@ -1,4 +1,4 @@
-script50181
+script50182
 
 	^ 'AST-Core-TheIntegrator.322.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -21,6 +21,8 @@ Athens-Morphic-AlainPlantec.55.mcz
 Athens-Text-NicolaiHess.16.mcz
 Balloon-TheIntegrator.123.mcz
 BalloonTests-MarcusDenker.3.mcz
+BlueInk-Core-TheIntegrator.16.mcz
+BlueInk-Tests-TheIntegrator.4.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
 CodeImport-TheIntegrator.61.mcz
 Collections-Abstract-TheIntegrator.287.mcz
@@ -209,7 +211,6 @@ OSWindow-SDL2-EstebanLorenzano.19.mcz
 OSWindow-VM-IgorStasenko.2.mcz
 OpalCompiler-Core-TheIntegrator.701.mcz
 OpalCompiler-Tests-TheIntegrator.296.mcz
-OpalDecompiler-TheIntegrator.33.mcz
 OpalTools-TheIntegrator.16.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz

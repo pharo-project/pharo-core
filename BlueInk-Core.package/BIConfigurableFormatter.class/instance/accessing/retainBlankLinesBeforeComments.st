@@ -1,0 +1,2 @@
+retainBlankLinesBeforeComments
+	^ context retainBlankLinesBeforeComments

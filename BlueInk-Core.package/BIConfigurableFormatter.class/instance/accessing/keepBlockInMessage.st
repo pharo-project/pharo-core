@@ -1,0 +1,2 @@
+keepBlockInMessage
+	^ context keepBlockInMessage

@@ -1,0 +1,2 @@
+useTraditionalBinaryPrecedenceForParentheses
+	^ DefaultPrettyPrintContext useTraditionalBinaryPrecedenceForParentheses

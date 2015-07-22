@@ -1,0 +1,2 @@
+minimumNewLinesBetweenStatements
+	^ context minimumNewLinesBetweenStatements

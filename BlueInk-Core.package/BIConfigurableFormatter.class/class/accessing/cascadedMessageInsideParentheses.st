@@ -1,0 +1,2 @@
+cascadedMessageInsideParentheses
+	^ DefaultPrettyPrintContext cascadedMessageInsideParentheses

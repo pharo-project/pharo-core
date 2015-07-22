@@ -1,0 +1,2 @@
+stringInsideParentheses
+	^ context stringInsideParentheses

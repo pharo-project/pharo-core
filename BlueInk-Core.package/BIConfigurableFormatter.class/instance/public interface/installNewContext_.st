@@ -1,0 +1,3 @@
+installNewContext: aContext
+
+	context := aContext

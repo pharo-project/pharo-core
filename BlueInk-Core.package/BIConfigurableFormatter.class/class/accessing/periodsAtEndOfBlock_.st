@@ -1,0 +1,2 @@
+periodsAtEndOfBlock: aBoolean
+	DefaultPrettyPrintContext periodsAtEndOfBlock: aBoolean

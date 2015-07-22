@@ -1,0 +1,2 @@
+retainBlankLinesBeforeComments
+	^ DefaultPrettyPrintContext retainBlankLinesBeforeComments

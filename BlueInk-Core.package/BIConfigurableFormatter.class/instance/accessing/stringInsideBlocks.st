@@ -1,0 +1,2 @@
+stringInsideBlocks
+	^ context stringInsideBlocks

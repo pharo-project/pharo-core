@@ -1,0 +1,2 @@
+codeStream: anObject
+	codeStream := anObject

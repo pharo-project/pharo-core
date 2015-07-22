@@ -1,0 +1,2 @@
+indentString: aString
+	DefaultPrettyPrintContext indentString: aString

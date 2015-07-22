@@ -1,0 +1,2 @@
+selectorAndArgumentCombinedMaxSize: anInteger
+	selectorAndArgumentCombinedMaxSize := anInteger

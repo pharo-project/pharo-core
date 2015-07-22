@@ -1,0 +1,2 @@
+traditionalBinaryPrecedence
+	^ context traditionalBinaryPrecedence

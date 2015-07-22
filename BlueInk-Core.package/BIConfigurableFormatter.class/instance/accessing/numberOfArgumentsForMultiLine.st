@@ -1,0 +1,2 @@
+numberOfArgumentsForMultiLine
+	^ context numberOfArgumentsForMultiLine

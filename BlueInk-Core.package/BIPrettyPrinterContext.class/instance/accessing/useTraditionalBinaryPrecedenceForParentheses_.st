@@ -1,0 +1,2 @@
+useTraditionalBinaryPrecedenceForParentheses: anObject
+	useTraditionalBinaryPrecedenceForParentheses := anObject

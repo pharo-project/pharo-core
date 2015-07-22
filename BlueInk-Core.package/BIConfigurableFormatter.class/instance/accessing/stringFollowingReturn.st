@@ -1,0 +1,2 @@
+stringFollowingReturn
+	^ context stringFollowingReturn

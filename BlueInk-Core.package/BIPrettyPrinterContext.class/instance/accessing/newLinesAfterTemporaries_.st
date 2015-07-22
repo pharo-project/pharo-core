@@ -1,0 +1,2 @@
+newLinesAfterTemporaries: anObject
+	newLinesAfterTemporaries := anObject

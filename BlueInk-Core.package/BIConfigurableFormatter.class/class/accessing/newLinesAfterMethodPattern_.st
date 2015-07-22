@@ -1,0 +1,2 @@
+newLinesAfterMethodPattern: anInteger
+	DefaultPrettyPrintContext newLinesAfterMethodPattern: anInteger

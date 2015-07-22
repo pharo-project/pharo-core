@@ -1,0 +1,2 @@
+newLinesAfterTemporaries: anInteger
+	context newLinesAfterTemporaries: anInteger

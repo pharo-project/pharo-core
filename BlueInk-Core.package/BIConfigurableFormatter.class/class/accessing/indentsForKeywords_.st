@@ -1,0 +1,2 @@
+indentsForKeywords: anInteger
+	DefaultPrettyPrintContext indentsForKeywords: anInteger

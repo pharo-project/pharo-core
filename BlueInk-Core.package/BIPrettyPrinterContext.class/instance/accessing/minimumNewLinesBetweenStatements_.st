@@ -1,0 +1,2 @@
+minimumNewLinesBetweenStatements: anObject
+	minimumNewLinesBetweenStatements := anObject
