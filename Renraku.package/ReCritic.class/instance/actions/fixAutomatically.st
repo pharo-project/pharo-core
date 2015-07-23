@@ -1,0 +1,3 @@
+fixAutomatically
+
+	rule transform: target

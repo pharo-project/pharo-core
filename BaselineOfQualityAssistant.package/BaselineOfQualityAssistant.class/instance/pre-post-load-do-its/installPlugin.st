@@ -1,0 +1,3 @@
+installPlugin
+
+	QualityAssistantPlugin install

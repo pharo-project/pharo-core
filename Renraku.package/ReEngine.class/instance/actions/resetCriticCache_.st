@@ -1,0 +1,2 @@
+resetCriticCache: anEntity
+	anEntity wipeCritics  

@@ -1,0 +1,2 @@
+reportUselessness
+	ReComplainer complainAbout: self

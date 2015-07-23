@@ -1,0 +1,3 @@
+possiblePositions
+
+	^ { #middle . #bottom }

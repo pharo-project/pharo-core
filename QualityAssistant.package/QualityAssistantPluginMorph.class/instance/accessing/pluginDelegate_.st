@@ -1,0 +1,2 @@
+pluginDelegate: anObject
+	pluginDelegate := anObject

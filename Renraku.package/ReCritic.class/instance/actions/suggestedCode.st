@@ -1,0 +1,3 @@
+suggestedCode
+
+	^ rule suggestedCode: target 

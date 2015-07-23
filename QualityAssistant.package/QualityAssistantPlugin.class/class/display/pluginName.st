@@ -1,0 +1,2 @@
+pluginName
+	^ 'Quality Assistant'

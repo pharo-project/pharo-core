@@ -1,0 +1,1 @@
+I make sure that critics cache is erased when a class or method is modified. Also I store rules list that is continuously used for validation
