@@ -1,2 +1,0 @@
-isCompilerOption
-	^ self selector = #compilerOptions:

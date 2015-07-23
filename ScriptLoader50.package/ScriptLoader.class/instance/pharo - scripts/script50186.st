@@ -1,4 +1,4 @@
-script50185
+script50186
 
 	^ 'AST-Core-TheIntegrator.322.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -21,6 +21,8 @@ Athens-Morphic-AlainPlantec.55.mcz
 Athens-Text-NicolaiHess.16.mcz
 Balloon-TheIntegrator.123.mcz
 BalloonTests-MarcusDenker.3.mcz
+BaselineOfQualityAssistant-YuriyTymchuk.5.mcz
+BaselineOfRenraku-YuriyTymchuk.2.mcz
 BlueInk-Core-TheIntegrator.16.mcz
 BlueInk-Tests-TheIntegrator.4.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
@@ -160,7 +162,7 @@ MonticelloGUI-TheIntegrator.361.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.6.mcz
 Morphic-Base-TheIntegrator.466.mcz
-Morphic-Core-TheIntegrator.187.mcz
+Morphic-Core-TheIntegrator.191.mcz
 Morphic-Examples-TheIntegrator.42.mcz
 Morphic-Widgets-Basic-TheIntegrator.43.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
@@ -190,7 +192,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-TheIntegrator.995.mcz
+Nautilus-TheIntegrator.1003.mcz
 Nautilus-GroupManager-TheIntegrator.3.mcz
 Nautilus-GroupManagerUI-TheIntegrator.3.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
@@ -209,7 +211,7 @@ NonInteractiveTranscript-TheIntegrator.17.mcz
 OSWindow-Core-TheIntegrator.20.mcz
 OSWindow-SDL2-EstebanLorenzano.19.mcz
 OSWindow-VM-IgorStasenko.2.mcz
-OpalCompiler-Core-TheIntegrator.701.mcz
+OpalCompiler-Core-TheIntegrator.703.mcz
 OpalCompiler-Tests-TheIntegrator.296.mcz
 OpalTools-TheIntegrator.16.mcz
 Pharo-Help-TheIntegrator.15.mcz
@@ -219,6 +221,7 @@ PragmaCollector-TheIntegrator.3.mcz
 ProfStef-Core-TheIntegrator.64.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
+QualityAssistant-YuriyTymchuk.60.mcz
 RPackage-Core-TheIntegrator.397.mcz
 RPackage-Tests-TheIntegrator.173.mcz
 RecentSubmissions-StephaneDucasse.233.mcz
@@ -237,6 +240,8 @@ Regex-Core-MarcusDenker.33.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
 ReleaseTests-TheIntegrator.15.mcz
+Renraku-YuriyTymchuk.67.mcz
+Renraku-Test-YuriyTymchuk.15.mcz
 Ring-Core-Containers-TheIntegrator.41.mcz
 Ring-Core-Kernel-TheIntegrator.218.mcz
 Ring-Monticello-TheIntegrator.34.mcz

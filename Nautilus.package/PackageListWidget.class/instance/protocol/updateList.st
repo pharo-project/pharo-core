@@ -1,2 +1,0 @@
-updateList
-	packagesList updateList

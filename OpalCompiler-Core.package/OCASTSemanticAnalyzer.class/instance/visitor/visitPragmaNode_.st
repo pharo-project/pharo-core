@@ -1,4 +1,4 @@
 visitPragmaNode: aPragmaNode
 	super visitPragmaNode: aPragmaNode.
-	aPragmaNode isCompilerOption
+	(aPragmaNode selector = #compilerOptions:)
 		ifTrue: [ aPragmaNode asPragma sendTo: aPragmaNode methodNode compilationContext ].

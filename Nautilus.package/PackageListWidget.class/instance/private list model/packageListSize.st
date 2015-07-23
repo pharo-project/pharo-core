@@ -1,2 +1,0 @@
-packageListSize
-	^ self getPackagesList size

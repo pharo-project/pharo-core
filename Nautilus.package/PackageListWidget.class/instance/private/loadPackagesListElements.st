@@ -1,2 +1,0 @@
-loadPackagesListElements
-	^ self model loadList
