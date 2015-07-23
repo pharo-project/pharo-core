@@ -1,5 +1,7 @@
 visitMethodNode: aMethodNode
 	
+	(aMethodNode isPrimitive and: [aMethodNode hasMetalink]) ifTrue: [self flag: #TBD  ]. "Here we need to compile a wrapper"
+	
 	aMethodNode arguments size > 15 ifTrue: [self backendError: 'Too many arguments' forNode: aMethodNode ].
 	
 	methodBuilder compilationContext: aMethodNode compilationContext.

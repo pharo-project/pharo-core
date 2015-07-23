@@ -1,3 +1,0 @@
-isAssociation
-
-	^false
