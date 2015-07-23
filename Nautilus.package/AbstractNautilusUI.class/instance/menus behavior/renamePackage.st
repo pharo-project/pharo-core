@@ -1,5 +1,5 @@
 renamePackage
 
-	self renamePackages: self selectedPackages.
+	self selectedPackages do: [ :package | self renamePackage: package ].
 	self updatePackageView.
 	

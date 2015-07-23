@@ -1,9 +1,8 @@
 commentForCurrentUpdate
- ^ '16009 Reflectivity: always compile primitive methods on Link install
-	https://pharo.fogbugz.com/f/cases/16009
+ ^ '16008 simplify AbstractTool>>renamePackages: 
+	https://pharo.fogbugz.com/f/cases/16008
 
-16007 remove #isAssociation is RGDefiniton
-	https://pharo.fogbugz.com/f/cases/16007
+16012 parse link option from method pragma
+	https://pharo.fogbugz.com/f/cases/16012
 
-16010  Fix typos in RBAssignmentInIfTrueRules comment
-	https://pharo.fogbugz.com/f/cases/16010'
+'
