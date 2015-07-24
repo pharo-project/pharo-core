@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16013 Remove useless PackageListWidget class
-	https://pharo.fogbugz.com/f/cases/16013
+ ^ '16019 BreakPoints should install links that compile directly on installation
+	https://pharo.fogbugz.com/f/cases/16019
 
-16014 small cleanUp: #isCompilerOption
-	https://pharo.fogbugz.com/f/cases/16014
+16017 RBScanner>>#flush not needed
+	https://pharo.fogbugz.com/f/cases/16017
 
-16015 Tiny Morph clean...
-	https://pharo.fogbugz.com/f/cases/16015'
+16016 Replace with #allSatisfy:, #anySatisfy:
+	https://pharo.fogbugz.com/f/cases/16016'

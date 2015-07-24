@@ -1,6 +1,6 @@
-script50186
+script50187
 
-	^ 'AST-Core-TheIntegrator.322.mcz
+	^ 'AST-Core-TheIntegrator.324.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
 Announcements-Core-MarcusDenker.55.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -121,7 +121,7 @@ HudsonBuildTools20-TheIntegrator.70.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.17.mcz
-Kernel-TheIntegrator.2084.mcz
+Kernel-TheIntegrator.2086.mcz
 KernelTests-TheIntegrator.789.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -233,9 +233,9 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.127.mcz
 Refactoring-Tests-Critics-TheIntegrator.31.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.116.mcz
+Reflectivity-TheIntegrator.118.mcz
 Reflectivity-Examples-TheIntegrator.2.mcz
-Reflectivity-Tests-TheIntegrator.88.mcz
+Reflectivity-Tests-TheIntegrator.90.mcz
 Regex-Core-MarcusDenker.33.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz

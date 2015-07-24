@@ -3,4 +3,5 @@ haltLinkOneShot
 	^ MetaLink new
 		metaObject: self;
 		selector: #haltNow;
+		options: #(+ optionCompileOnLinkInstallation);
 		level: level 
