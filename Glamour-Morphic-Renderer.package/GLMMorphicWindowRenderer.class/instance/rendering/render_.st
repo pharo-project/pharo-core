@@ -12,7 +12,9 @@ render: aRenderable
 	bottomOffset := self handlePotentialStatusbarFor: aRenderable.
 	window
 		addMorph: (self renderObject: aRenderable)
-		fullFrame: (LayoutFrame fractions: (0 @ 0 corner: 1 @ 1) offsets: (0 @ offset corner: 0 @ bottomOffset)).
+		fullFrame: ((0 @ 0 corner: 1 @ 1) asLayoutFrame 
+						topLeftOffset: 0 @ offset ; 
+						bottomRightOffset: 0@ bottomOffset).
 	self setPotentialBackgroundColorFor: aRenderable.
 	aRenderable when: GLMPresentationUpdated send: #actOnPresentationUpdated: to: self.
 	aRenderable watcherPane notNil

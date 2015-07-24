@@ -11,8 +11,11 @@ updatePreviewWith: anObject
 	self asyncTask
 		execute: [ :composite :entity |
 				[ entity spotterPreviewIn: composite inContext: self spotterModel ]
-					on: Exception
-					do: [ composite removeAllBricks ].
+					on: Error
+					do: [ :exception |
+						self spotterModel exceptionHandler 
+							handleException: exception 
+							do: [ self handleException: exception forComposite: composite ] ].
 				 composite ]
 		withArguments: { self newCompositeBrick . anObject }
 		callback: [ :composite |

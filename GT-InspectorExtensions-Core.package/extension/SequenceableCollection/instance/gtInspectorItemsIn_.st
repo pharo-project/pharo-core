@@ -1,7 +1,7 @@
 gtInspectorItemsIn: composite
 	^ composite table
 		title: 'Items';
-		display: [ :aCollection | (1 to: self size) collect: [ :index | index -> (self at: index) ] ];
+		display: [ :aCollection | [(1 to: self size) collect: [ :index | index -> (self at: index) ]] on:Error do:[#()]];
 		beMultiple;
 		searchOn: [:text :each | 
 			Smalltalk compiler evaluate: ' | entity each | each := self. entity := each.', text for: each value logged: false];

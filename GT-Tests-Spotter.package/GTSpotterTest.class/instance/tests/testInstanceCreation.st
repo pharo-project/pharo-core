@@ -8,4 +8,4 @@ testInstanceCreation
 	
 	self assert: spotter notNil.
 	self assert: spotter steps isEmpty.
-	self deny: spotter hasPreviousStep
+	self deny: spotter hasMultipleSteps

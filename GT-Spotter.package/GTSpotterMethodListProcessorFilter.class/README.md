@@ -1,0 +1,1 @@
+I implement a filtering strategy for processors based on method signatures (method selector and class).I only allow processor created by a method currently added to the filter.For examples view my class side methods in teh category 'example'

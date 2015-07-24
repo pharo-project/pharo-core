@@ -5,7 +5,7 @@ testCompositeWithinCompositeOuterPortEvents
 	finder := childComposite finder.
 	finder show: [ :a | a list display: [ :x | 1 to: x ] ].
 	finder
-		on: GLMPaneAdded
+		when: GLMPaneAdded
 		do: [ :a | count := count + 1 ].
 	parentComposite := GLMCompositePresentation new.
 	parentComposite custom: childComposite.

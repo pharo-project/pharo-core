@@ -1,0 +1,3 @@
+processorsFilter
+
+	^ self spotter processorsFilter

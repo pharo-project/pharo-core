@@ -8,7 +8,7 @@ testUpdateRecomputesMatchingPresentations
 		a list when: [:col | col isEmpty not ]].
 	browser startOn: collection.
 	matchingPresentationsChangedAnnounced := false.
-	browser panes first on: GLMMatchingPresentationsChanged do: [:ann | 
+	browser panes first when: GLMMatchingPresentationsChanged do: [:ann | 
 		matchingPresentationsChangedAnnounced := true ].
 	collection removeLast.
 	browser update.

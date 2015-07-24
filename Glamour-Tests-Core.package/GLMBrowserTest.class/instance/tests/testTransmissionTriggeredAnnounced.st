@@ -11,7 +11,7 @@ testTransmissionTriggeredAnnounced
 	transmission destination: (pane2 port: #destination).
 	browser addTransmission: transmission.
 	browser
-		on: GLMTransmissionTriggered
+		when: GLMTransmissionTriggered
 		do: [ :ann | announcements add: ann ].
 	self assert: announcements isEmpty.
 	transmission transmit.
