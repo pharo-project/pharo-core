@@ -1,0 +1,2 @@
+sugsContext
+	^SugsSmalltalkEditorContext model: self

@@ -1,0 +1,2 @@
+sourceTextArea
+	^ model model widget.

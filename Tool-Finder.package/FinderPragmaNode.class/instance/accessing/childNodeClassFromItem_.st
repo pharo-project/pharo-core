@@ -1,3 +1,3 @@
 childNodeClassFromItem: anItem 
 	
-	^ FinderMethodNode 
+	^ FinderPragmaMethodNode 

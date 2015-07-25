@@ -1,0 +1,2 @@
+displayString
+	^ '<' , self item  , '>'

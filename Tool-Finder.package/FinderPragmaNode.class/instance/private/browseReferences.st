@@ -1,3 +1,3 @@
 browseReferences
 
-	self systemNavigation browseAllCallsOnClass: self item.
+	self systemNavigation browseAllReferencesTo: self item.

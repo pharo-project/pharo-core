@@ -17,7 +17,7 @@ runLocalStepMethodsIn: aWorld
 		whileTrue: 
 			[lastStepMessage := stepList removeFirst.
 			morphToStep := lastStepMessage receiver.
-			(morphToStep shouldGetStepsFrom: aWorld) 
+			(true) 
 				ifTrue: 
 					[lastStepMessage value: now.
 					lastStepMessage ifNotNil: 

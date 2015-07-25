@@ -8,9 +8,7 @@ pragmaSearch: aString
 		ifFalse: [[ :pragma | pragma keyword includesSubstring: aString caseSensitive: false ]].
 				
 	(PragmaCollector filter: byCondition) reset; 
-		do: [ :pragma || pragmaName |
-			pragmaName := String streamContents: [:s |
-								s << '<'; << pragma keyword; << '>' ].
-			(result at: pragmaName ifAbsentPut: OrderedCollection new)				
+		do: [ :pragma |
+			(result at: (pragma keyword) ifAbsentPut: OrderedCollection new)				
 				add: pragma method ].
 	^ result
