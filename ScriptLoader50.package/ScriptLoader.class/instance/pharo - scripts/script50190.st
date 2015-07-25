@@ -1,6 +1,6 @@
-script50189
+script50190
 
-	^ 'AST-Core-TheIntegrator.324.mcz
+	^ 'AST-Core-TheIntegrator.327.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
 Announcements-Core-MarcusDenker.55.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -162,7 +162,7 @@ MonticelloGUI-TheIntegrator.361.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.6.mcz
 Morphic-Base-TheIntegrator.466.mcz
-Morphic-Core-TheIntegrator.192.mcz
+Morphic-Core-TheIntegrator.194.mcz
 Morphic-Examples-TheIntegrator.42.mcz
 Morphic-Widgets-Basic-TheIntegrator.43.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
@@ -211,8 +211,8 @@ NonInteractiveTranscript-TheIntegrator.17.mcz
 OSWindow-Core-TheIntegrator.20.mcz
 OSWindow-SDL2-EstebanLorenzano.19.mcz
 OSWindow-VM-IgorStasenko.2.mcz
-OpalCompiler-Core-TheIntegrator.703.mcz
-OpalCompiler-Tests-TheIntegrator.296.mcz
+OpalCompiler-Core-TheIntegrator.705.mcz
+OpalCompiler-Tests-TheIntegrator.298.mcz
 OpalTools-TheIntegrator.16.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz

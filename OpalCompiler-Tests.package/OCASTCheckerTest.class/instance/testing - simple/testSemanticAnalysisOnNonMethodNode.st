@@ -8,7 +8,7 @@ testSemanticAnalysisOnNonMethodNode
 			ast doSemanticAnalysis ].
 	#('1' 'true' 'nil' '1 + 2' '^1' '1 + 2. 2 + 3' '#(1 true)' '{ #foo . 1 }' '1+2;+3')
 		do: [ :source | 
-			ast := RBExplicitVariableParser parseExpression: source.
+			ast := RBParser parseExpression: source.
 			ast doSemanticAnalysis ].
-	ast := RBExplicitVariableParser parseMethod: 'foo 1 + 2'.
+	ast := RBParser parseMethod: 'foo 1 + 2'.
 	ast doSemanticAnalysis

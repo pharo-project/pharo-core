@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '11115 Trying to remove shouldGetStepsFrom:
-	https://pharo.fogbugz.com/f/cases/11115
+ ^ '16025 clean up: shouldGetStepsFrom:
+	https://pharo.fogbugz.com/f/cases/16025
 
-15769 Suggestions work in Nautilus but not in "Implementors" menu.
-	https://pharo.fogbugz.com/f/cases/15769
+10916 RBParser missparse some temporary variables
+	https://pharo.fogbugz.com/f/cases/10916
 
-12491 Finder menus for pragma search results partly broken/sensless
-	https://pharo.fogbugz.com/f/cases/12491'
+16023 RBClassReference can be removed
+	https://pharo.fogbugz.com/f/cases/16023'
