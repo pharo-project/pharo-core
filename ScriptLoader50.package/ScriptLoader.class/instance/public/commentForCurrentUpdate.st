@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16025 clean up: shouldGetStepsFrom:
-	https://pharo.fogbugz.com/f/cases/16025
+ ^ '16026 remove RBExplicitVariableParser
+	https://pharo.fogbugz.com/f/cases/16026
 
-10916 RBParser missparse some temporary variables
-	https://pharo.fogbugz.com/f/cases/10916
+16024 QualityAssitances uses deprecate method #category
+	https://pharo.fogbugz.com/f/cases/16024
 
-16023 RBClassReference can be removed
-	https://pharo.fogbugz.com/f/cases/16023'
+16021 Support creation of colors from HSL coordinates
+	https://pharo.fogbugz.com/f/cases/16021'

@@ -1,2 +1,0 @@
-popScope
-	currentScope := currentScope scope
