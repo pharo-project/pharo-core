@@ -6,8 +6,8 @@ changeVariableClass: aVariableNode
 			ifTrue: [ aVariableNode primitiveChangeClassTo: RBArgumentNode new  ]
 			ifFalse: [aVariableNode primitiveChangeClassTo: RBTemporaryNode new ]].
 	
-	aVariableNode isInstance ifTrue: [ self flag: #TBD. "need to add class" ].
-	aVariableNode isGlobal ifTrue: [ self flag: #TBD. "need to add class" ].
+	aVariableNode isInstance ifTrue: [ aVariableNode primitiveChangeClassTo: RBInstanceVariableNode new].
+	aVariableNode isGlobal ifTrue: [ aVariableNode primitiveChangeClassTo: RBGlobalNode new ].
 	aVariableNode isSpecialVariable ifTrue: [ 
 		(aVariableNode name = 'thisContext') ifTrue: [ aVariableNode primitiveChangeClassTo: RBThisContextNode new  ].
 		(aVariableNode name = 'self') ifTrue: [ aVariableNode primitiveChangeClassTo: RBSelfNode new  ].

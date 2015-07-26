@@ -3,10 +3,6 @@ rubricSettingsOn: aBuilder
 	(aBuilder group: #Rubric)
 		label: 'Rubric editor';
 		with: [ 
-					(aBuilder setting: #editorFont)
-						target: self;
-						description: 'The default editor font';
-						label: 'Font'.
 					(aBuilder setting: #backgroundColor)
 						target: self;
 						description: 'The default editor background color';
@@ -22,7 +18,7 @@ rubricSettingsOn: aBuilder
 						with: [ 
 									(aBuilder setting: #lineNumbersFont)
 										target: self;
-										description: 'Font used for line numbers' ;
+										description: 'Font used for line numbers';
 										label: 'Line numbers font'.
 									(aBuilder setting: #lineNumbersTextColor)
 										target: self;

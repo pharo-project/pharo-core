@@ -1,3 +1,3 @@
 configureGhostText: aTextArea
-	aTextArea width: self width.
-	aTextArea center: self center
+	aTextArea width: self scrollBounds width.
+	aTextArea center: self scrollBounds center

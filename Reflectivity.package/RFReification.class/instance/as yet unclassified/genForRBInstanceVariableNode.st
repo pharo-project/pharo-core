@@ -1,0 +1,2 @@
+genForRBInstanceVariableNode
+	^self genForRBVariableNode 
