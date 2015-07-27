@@ -1,4 +1,4 @@
-script50193
+script50194
 
 	^ 'AST-Core-TheIntegrator.331.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -248,14 +248,14 @@ Ring-Monticello-TheIntegrator.34.mcz
 Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.83.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
-Rubric-FranckWarlouzet.256.mcz
+Rubric-FranckWarlouzet.257.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
 SUnit-Core-TheIntegrator.150.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Tests-TheIntegrator.48.mcz
 SUnit-UI-TheIntegrator.123.mcz
-SUnit-UITesting-TheIntegrator.21.mcz
+SUnit-UITesting-TheIntegrator.23.mcz
 ScriptLoader-Tests-TheIntegrator.4.mcz
 Settings-Graphics-StephaneDucasse.28.mcz
 Settings-Polymorph-TheIntegrator.78.mcz
@@ -272,7 +272,7 @@ SmartSuggestions-TheIntegrator.173.mcz
 SmartSuggestions-Tests-TheIntegrator.8.mcz
 Spec-Core-TheIntegrator.402.mcz
 Spec-Debugger-TheIntegrator.242.mcz
-Spec-Examples-TheIntegrator.96.mcz
+Spec-Examples-TheIntegrator.98.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.242.mcz
 Spec-Layout-TheIntegrator.67.mcz
@@ -280,7 +280,7 @@ Spec-MorphicAdapters-TheIntegrator.216.mcz
 Spec-PolyWidgets-TheIntegrator.59.mcz
 Spec-Tests-TheIntegrator.47.mcz
 Spec-Tools-TheIntegrator.276.mcz
-StartupPreferences-TheIntegrator.135.mcz
+StartupPreferences-TheIntegrator.137.mcz
 System-Announcements-TheIntegrator.100.mcz
 System-Caching-TheIntegrator.26.mcz
 System-CachingTests-TheIntegrator.14.mcz
@@ -299,7 +299,7 @@ System-Localization-Tests-TheIntegrator.5.mcz
 System-Object Events-MarcusDenker.15.mcz
 System-Platforms-TheIntegrator.67.mcz
 System-Serial Port-StephaneDucasse.23.mcz
-System-Settings-TheIntegrator.313.mcz
+System-Settings-TheIntegrator.315.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.25.mcz
 System-Support-TheIntegrator.1125.mcz

@@ -1,3 +1,3 @@
 viewAllSettings
 	"self viewAllSettings"
-	Workspace openContents: self allSettingsState label: 'Current Setting assignments' 
+	Smalltalk tools workspace openContents: self allSettingsState label: 'Current Setting assignments' 

@@ -1,3 +1,6 @@
 commentForCurrentUpdate
- ^ '16041 Rubric is not using source code font anymore since update 50192
-	https://pharo.fogbugz.com/f/cases/16041'
+ ^ '15951 remove all direct references to Workspace
+	https://pharo.fogbugz.com/f/cases/15951
+
+16042 TxTxt: load latest in image
+	https://pharo.fogbugz.com/f/cases/16042'

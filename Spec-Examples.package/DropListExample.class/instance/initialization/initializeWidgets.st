@@ -12,7 +12,7 @@ initializeWidgets
 			container addMorph: m ].
 	
 	heterogeneousDropList
-		addItemLabeled: 'Open workspace' do: [ Workspace open ] icon: Smalltalk ui icons smallOkIcon;
+		addItemLabeled: 'Open workspace' do: [ Smalltalk tools workspace open ] icon: Smalltalk ui icons smallOkIcon;
 		addItemLabeled: 'Inspect current morph' do: [ uniformDropList selectedItem inspect ] icon: Smalltalk ui icons testRedIcon.
 	
 	"If this is uncommented, it will fire the action of the first item, which is not what we want:

@@ -1,7 +1,7 @@
 example
 	" an example of script generation "
 	| item1 item2 |
-	item1 := StartupAction name: 'Open Help' code: 'Workspace openContents: ''Here is just an example of how to use the StartupPreferencesLoader.
+	item1 := StartupAction name: 'Open Help' code: 'Smalltalk tools workspace openContents: ''Here is just an example of how to use the StartupPreferencesLoader.
 I should only be displayed once.
 	
  You can also see StartupPreferencesLoader class>>#example'' label: ''Help''' runOnce: true.

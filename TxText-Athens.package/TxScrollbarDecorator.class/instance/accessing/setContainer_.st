@@ -2,4 +2,4 @@ setContainer: anObject
 
 	viewContainer := anObject.
 	
-	viewContainer layoutView announcer weak on: TxLayoutViewChanged send: #viewChanged: to: self
+	viewContainer layoutView announcer weak when: TxLayoutViewChanged send: #viewChanged: to: self

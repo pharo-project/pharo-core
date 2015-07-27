@@ -10,7 +10,7 @@ initScrollbar
 	ann := scrollbar announcer weak.
 	
 	ann 
-		on: TxSliderDragged send: #sliderDragged: to: self;
-		on: TxSliderScrollBackward send: #sliderScrollBackward to: self;
-		on: TxSliderScrollForward send: #sliderScrollForward to: self
+		when: TxSliderDragged send: #sliderDragged: to: self;
+		when: TxSliderScrollBackward send: #sliderScrollBackward to: self;
+		when: TxSliderScrollForward send: #sliderScrollForward to: self
 	

@@ -3,5 +3,5 @@ wireEvents
 	
 	textEditor := editor controller.
 	
-	textEditor announcer on: TxDeletedTextAnnouncement send: #onTextDeleted: to: self.
-	textEditor announcer on: TxInsertedTextAnnouncement send: #onTextInserted: to: self.
+	textEditor announcer when: TxDeletedTextAnnouncement send: #onTextDeleted: to: self.
+	textEditor announcer when: TxInsertedTextAnnouncement send: #onTextInserted: to: self.
