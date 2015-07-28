@@ -1,2 +1,2 @@
 windowTitle
-	^ 'Settings browser'
+	^ 'Settings Browser'

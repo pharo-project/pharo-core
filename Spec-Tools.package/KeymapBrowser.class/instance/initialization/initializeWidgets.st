@@ -1,5 +1,5 @@
 initializeWidgets
-	self title: self class name.
+	self title: 'Keymap Browser'.
 	kmTable := self newMultiColumnList.
 	kmTable displayBlock: [ :item | self wrapItem: item ].
 	kmTable sortingBlock: [ :a :b | a categoryName < b categoryName ].

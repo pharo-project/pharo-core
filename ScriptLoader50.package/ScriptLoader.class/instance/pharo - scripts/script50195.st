@@ -1,4 +1,4 @@
-script50194
+script50195
 
 	^ 'AST-Core-TheIntegrator.331.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -279,7 +279,7 @@ Spec-Layout-TheIntegrator.67.mcz
 Spec-MorphicAdapters-TheIntegrator.216.mcz
 Spec-PolyWidgets-TheIntegrator.59.mcz
 Spec-Tests-TheIntegrator.47.mcz
-Spec-Tools-TheIntegrator.276.mcz
+Spec-Tools-TheIntegrator.278.mcz
 StartupPreferences-TheIntegrator.137.mcz
 System-Announcements-TheIntegrator.100.mcz
 System-Caching-TheIntegrator.26.mcz
@@ -299,7 +299,7 @@ System-Localization-Tests-TheIntegrator.5.mcz
 System-Object Events-MarcusDenker.15.mcz
 System-Platforms-TheIntegrator.67.mcz
 System-Serial Port-StephaneDucasse.23.mcz
-System-Settings-TheIntegrator.315.mcz
+System-Settings-TheIntegrator.317.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.25.mcz
 System-Support-TheIntegrator.1125.mcz
@@ -324,16 +324,16 @@ Tool-ProcessBrowser-StephaneDucasse.6.mcz
 Tool-Profilers-TheIntegrator.17.mcz
 Tool-SystemReporter-TheIntegrator.15.mcz
 Tool-Transcript-TheIntegrator.14.mcz
-Tool-TxWorkspace-TorstenBergmann.5.mcz
+Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.28.mcz
 Tools-TheIntegrator.1504.mcz
 Tools-Test-TheIntegrator.2.mcz
 Traits-TheIntegrator.799.mcz
 Transcript-TheIntegrator.34.mcz
-TxText-Athens-SeanDeNigris.50.mcz
+TxText-Athens-NicolaiHess.51.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
 TxText-Model-SeanDeNigris.61.mcz
-TxText-Styler-SeanDeNigris.6.mcz
+TxText-Styler-ThomasHeniart.9.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
 UIManager-TheIntegrator.145.mcz
 Unicode-Initialization-MarcusDenker.10.mcz
