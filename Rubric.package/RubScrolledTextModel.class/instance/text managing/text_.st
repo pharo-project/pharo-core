@@ -1,2 +1,2 @@
-text:  atextOrString
+text: atextOrString
 	text := atextOrString asText

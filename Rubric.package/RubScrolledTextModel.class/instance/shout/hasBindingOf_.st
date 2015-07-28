@@ -1,2 +1,2 @@
-hasBindingOf: aString 
-	^ interactionModel ifNil: [ false ] ifNotNil:  [ interactionModel hasBindingOf: aString  ]
+hasBindingOf: aString
+	^ interactionModel ifNil: [ false ] ifNotNil: [ interactionModel hasBindingOf: aString ]

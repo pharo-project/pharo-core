@@ -1,0 +1,2 @@
+highlights: anObject
+	highlights := anObject

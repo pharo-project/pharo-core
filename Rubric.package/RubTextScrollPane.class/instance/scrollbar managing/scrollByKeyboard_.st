@@ -5,12 +5,12 @@ scrollByKeyboard: event
 	(event controlKeyPressed or: [ event commandKeyPressed ])
 		ifFalse: [ ^ false ].
 	sb := event commandKeyPressed
-		ifTrue: [self hScrollbar]
-		ifFalse: [self vScrollbar].
+		ifTrue: [ self hScrollbar ]
+		ifFalse: [ self vScrollbar ].
 	self
 		handleScrollerOffsetChange: [ 
 			ret := false.
-			event keyValue = 30 
+			event keyValue = 30
 				ifTrue: [ 
 					sb scrollUp: 3.
 					ret := true ].

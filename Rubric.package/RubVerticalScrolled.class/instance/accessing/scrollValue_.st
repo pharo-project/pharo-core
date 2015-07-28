@@ -1,0 +1,2 @@
+scrollValue: anObject
+	scrollValue := anObject

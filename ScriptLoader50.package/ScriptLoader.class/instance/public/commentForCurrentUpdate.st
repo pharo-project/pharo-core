@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '16044 remove empty package remove ShoutTests
-	https://pharo.fogbugz.com/f/cases/16044
+ ^ '16051 Incorrectly structured tab window can make VM spinlock
+	https://pharo.fogbugz.com/f/cases/16051
 
-16048 Unify capitalization of Browser in our tools
-	https://pharo.fogbugz.com/f/cases/16048'
+16052 BooleanSlot: implement code generation
+	https://pharo.fogbugz.com/f/cases/16052
+
+16054 Update Rubric configuration 
+	https://pharo.fogbugz.com/f/cases/16054'

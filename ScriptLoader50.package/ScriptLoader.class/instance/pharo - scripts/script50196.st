@@ -1,4 +1,4 @@
-script50195
+script50196
 
 	^ 'AST-Core-TheIntegrator.331.mcz
 AST-Tests-Core-TheIntegrator.70.mcz
@@ -216,7 +216,7 @@ OpalCompiler-Tests-TheIntegrator.300.mcz
 OpalTools-TheIntegrator.16.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz
-Polymorph-Widgets-TheIntegrator.1227.mcz
+Polymorph-Widgets-TheIntegrator.1229.mcz
 PragmaCollector-TheIntegrator.3.mcz
 ProfStef-Core-TheIntegrator.64.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -265,8 +265,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.267.mcz
 Shout-Tests-TheIntegrator.2.mcz
-ShoutTests-TheIntegrator.28.mcz
-Slot-TheIntegrator.639.mcz
+Slot-TheIntegrator.641.mcz
 Slot-Tests-TheIntegrator.41.mcz
 SmartSuggestions-TheIntegrator.173.mcz
 SmartSuggestions-Tests-TheIntegrator.8.mcz

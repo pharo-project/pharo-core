@@ -13,4 +13,4 @@ drawSubmorphsOn: aCanvas
 	drawBlock := [ :canvas | subs reverseDo: [ :m | canvas fullDrawMorph: m ] ].
 	self clipSubmorphs
 		ifTrue: [ aCanvas clipBy: (aCanvas clipRect intersect: self clippingBounds ifNone: [ ^ self ]) during: drawBlock ]
-		ifFalse: [ drawBlock value: aCanvas ].
+		ifFalse: [ drawBlock value: aCanvas ]
