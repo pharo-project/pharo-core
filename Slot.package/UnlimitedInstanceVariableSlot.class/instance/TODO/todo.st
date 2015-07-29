@@ -4,5 +4,4 @@ todo
 	 - removing slot in the middle	
 	 - adding slot higher in the hierarchy: move baseselot (same as in TODO for DictionarySlot)
 	 - instance migration?
-	 - emit* methods
 	'
