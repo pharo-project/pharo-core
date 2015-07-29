@@ -8,7 +8,7 @@ Blocks are anonymous methods that can be stored into variables and executed on d
 
 Blocks are delimited by square brackets: []"
 
-[Browser open].
+[Workspace open].
 
 "does not open a Browser because the block is not executed.
 
@@ -20,7 +20,7 @@ Here is a block that adds 2 to its argument (its argument is named x):"
 
 [:x | x+2] value: 5.
 
-[Browser open] value.
+[Workspace open] value.
 
 [:x | x+2] value: 10.
 

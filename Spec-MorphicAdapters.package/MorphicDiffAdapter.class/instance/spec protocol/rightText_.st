@@ -1,6 +1,5 @@
 rightText: aText
-
-	self widgetDo: [ :w | 
-		w 
-			dstText: aText;
-			updateText ]
+	self
+		widgetDo: [ :w | 
+			w destTextModel setText: aText.
+			w updateText ]

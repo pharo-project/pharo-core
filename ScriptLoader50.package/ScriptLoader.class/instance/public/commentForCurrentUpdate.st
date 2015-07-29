@@ -1,9 +1,18 @@
 commentForCurrentUpdate
- ^ '16051 Incorrectly structured tab window can make VM spinlock
-	https://pharo.fogbugz.com/f/cases/16051
+ ^ '16058 Clean ProfStef
+	https://pharo.fogbugz.com/f/cases/16058
 
-16052 BooleanSlot: implement code generation
-	https://pharo.fogbugz.com/f/cases/16052
+16055 Color HSL accessors
+	https://pharo.fogbugz.com/f/cases/16055
 
-16054 Update Rubric configuration 
-	https://pharo.fogbugz.com/f/cases/16054'
+16056 Cleaning ProcessBrowser
+	https://pharo.fogbugz.com/f/cases/16056
+
+15948 Removing PluggableTextMorph from FileList
+	https://pharo.fogbugz.com/f/cases/15948
+
+15903 Use Rubric in DiffMorph 
+	https://pharo.fogbugz.com/f/cases/15903
+
+16059 support #before on Blocks... 
+	https://pharo.fogbugz.com/f/cases/16059'

@@ -2,7 +2,7 @@ buildText
 
 	| scrolledText |
 	scrolledText := self sourceTextModel newScrolledText
-		beForSmalltalkCode;
+		beForSmalltalkScripting;
 		beWrapped;
 		yourself.
 	^ scrolledText

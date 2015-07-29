@@ -17,4 +17,4 @@ There is one and only one Symbol #ProfStef. There may be several ''ProfStef'' St
 (2 asString) asSymbol == (2 asString) asSymbol.
 
 
-(Smalltalk at: #ProfStef) next.'
+(Smalltalk globals at: #ProfStef) next.'

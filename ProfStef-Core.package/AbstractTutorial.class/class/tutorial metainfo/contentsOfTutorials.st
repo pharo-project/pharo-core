@@ -7,7 +7,7 @@ contentsOfTutorials
 						nextPutAll: aTutorial title;
 						cr;
 						tab;
-						nextPutAll: 'PharoTutorial goOn: ';
+						nextPutAll: 'ProfStef goOn: ';
 						nextPutAll: aTutorial name;
 						cr;
 						cr ] ]

@@ -1,4 +1,9 @@
 newDstMorph
 	"Answer a new dst text morph."
 
-	^self newSrcMorph
+	^ self destTextModel newScrolledText
+		vScrollbarShowNever;
+		beForSmalltalkCode;
+		beNotWrapped;
+		beReadOnly;
+		yourself

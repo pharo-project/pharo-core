@@ -1,3 +1,3 @@
 arguments: args
-	arguments:= args.
+	arguments := args.
 	self invalidate.

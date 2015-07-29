@@ -6,5 +6,4 @@ stackListIndex: index
 	selectedClass := nil.
 	selectedSelector := nil.
 	methodText := nil.
-	self changed: #stackListIndex.
-	self changed: #selectedMethod
+	textModel setText: self  selectedMethod

@@ -10,6 +10,6 @@ AbstractTutorial subclass: #HowToDebug
 	instanceVariableNames: ''''
 	classVariableNames: ''''
 	poolDictionaries: ''''
-	category: ''PharoTutorial''.
+	category: ''YourTutorial''.
 	
-PharoTutorial next.'
+ProfStef next.'

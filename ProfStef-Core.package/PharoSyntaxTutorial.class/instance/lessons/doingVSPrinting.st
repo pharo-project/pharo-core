@@ -12,7 +12,7 @@ You can also Do It using the keyboard shortcut ''ALT d''
 
 Try to evaluate these expressions:"
 
-Browser open.
+Workspace open.
 
 SmalltalkImage current aboutThisSystem.
 

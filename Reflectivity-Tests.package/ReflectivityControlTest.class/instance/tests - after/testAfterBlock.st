@@ -9,7 +9,7 @@ testAfterBlock
 	self assert: blockNode hasMetalinkAfter.
 	self assert: (ReflectivityExamples >> #exampleBlock) class = ReflectiveMethod.
 	self assert: tag isNil.
-	self assert: ReflectivityExamples new exampleBlock isBlock.
+	self assert: ReflectivityExamples new exampleBlock == 5.
 	self assert: tag = 'yes'.
 	self assert: (ReflectivityExamples >> #exampleBlock) class = CompiledMethod.
 	link uninstall

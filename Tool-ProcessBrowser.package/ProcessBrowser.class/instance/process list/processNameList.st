@@ -1,9 +1,7 @@
 processNameList
 	"since processList is a WeakArray, we have to strengthen the result"
-
-	| pw tally |
-	pw := Smalltalk globals at: #CPUWatcher ifAbsent: [  ].
-	tally := pw ifNotNil: [ pw current ifNotNil: [ pw current tally ] ].
+	| tally |
+	tally := CPUWatcher ifNotNil: [ CPUWatcher current ifNotNil: [ CPUWatcher current tally ] ].
 	^ (processList asOrderedCollection copyWithout: nil)
 		collect: [ :each | 
 			| percent |

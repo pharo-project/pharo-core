@@ -1,4 +1,4 @@
-contextClass: anObject
+contextClass: aClass
 	"Set the value of contextClass"
 
-	contextClass := anObject
+	contextClass := aClass

@@ -1,20 +1,11 @@
 initialize
 	"Initialize the receiver."
-	| exv exh ppCheckbox |
-	
+
+	| ppCheckbox |
 	super initialize.
 	showOnlyDestination := false.
 	showOnlySource := false.
 	showOptions := true.
-	
-	self prettyPrint: TextDiffBuilder diffsWithPrettyPrint.
-	ppCheckbox := self newPrettyPrintCheckboxMorph.
-	optionsPanel := self newPanel 
-		addMorph: ((self newRow: {ppCheckbox}) 
-		listCentering: #bottomRight);
-		color: self defaultColor.
-	optionsPanel vResizing: #shrinkWrap.
-	optionsPanel extent: optionsPanel minExtent.
 	self
 		srcMorph: self newSrcMorph;
 		joinMorph: self newJoinMorph;
@@ -22,27 +13,20 @@ initialize
 		scrollbarMorph: self newScrollbarMorph;
 		mapMorph: self newMapMorph;
 		changeProportionalLayout.
+	self prettyPrint: TextDiffBuilder diffsWithPrettyPrint.
+	ppCheckbox := self newPrettyPrintCheckboxMorph.
+	optionsPanel := self newPanel
+		addMorph: ((self newRow: {ppCheckbox}) listCentering: #bottomRight);
+		color: self defaultColor.
+	optionsPanel vResizing: #shrinkWrap.
+	optionsPanel extent: optionsPanel minExtent.
 	self addMorphsWithOptions.
-	exv := ExclusiveWeakMessageSend newSharedState.
-	exh := ExclusiveWeakMessageSend newSharedState.
-	self srcMorph
-		when: #vScroll
-			send: #srcScroll:
-			to: self
-			exclusive: exv;
-		when: #hScroll
-			send: #hScrollValue:
-			to: self dstMorph
-			exclusive: exh.
-	self dstMorph
-		when: #vScroll
-			send: #dstScroll:
-			to: self
-			exclusive: exv;
-		when: #hScroll
-			send: #hScrollValue:
-			to: self srcMorph
-			exclusive: exh.
+	self srcMorph scrollPane announcer weak
+		when: RubVerticalScrolled send: #verticalScroll: to: self;
+		when: RubHorizontalScrolled send: #horizontalSourceScroll: to: self.
+	self dstMorph scrollPane announcer weak
+		when: RubVerticalScrolled send: #verticalScroll: to: self;
+		when: RubHorizontalScrolled send: #horizontalDestScroll: to: self.
 	self
 		linkSubmorphsToSplitters;
-		extent: self initialExtent.
+		extent: self initialExtent

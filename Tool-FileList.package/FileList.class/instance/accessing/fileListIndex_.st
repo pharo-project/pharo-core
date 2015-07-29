@@ -17,5 +17,5 @@ fileListIndex: anInteger
 
 	brevityState := #needToGetBrief.
 	self changed: #fileListIndex.
-	self changed: #contents.
+	self changedContents.
 	self updateButtonRow

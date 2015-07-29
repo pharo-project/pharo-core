@@ -1,6 +1,5 @@
 leftText: aText
 
 	self widgetDo: [ :w | 
-		w 
-			srcText: aText;
-			updateText ]
+		w sourceTextModel setText: aText.
+		w updateText ]

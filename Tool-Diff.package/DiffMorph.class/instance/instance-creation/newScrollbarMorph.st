@@ -1,7 +1,7 @@
 newScrollbarMorph
 	"Answer a new scrollbar morph."
 
-	^ScrollBar new
+	^ RubScrollBar new
 		model: self;
 		setValueSelector: #vScroll:;
 		vResizing: #spaceFill;

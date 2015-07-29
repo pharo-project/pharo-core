@@ -1,11 +1,11 @@
 newJoinMorph
 	"Answer a new join morph."
 
-	|w|
+	| w |
 	w := DiffJoinMorph splitterWidth.
-	^DiffJoinMorph new
+	^ DiffJoinMorph new
 		hResizing: #shrinkWrap;
 		vResizing: #spaceFill;
-		extent: w@4;
+		extent: w @ 4;
 		minWidth: w;
 		color: self joinColor

@@ -8,4 +8,5 @@ get
 			brevityState := brevityState == #briefHex
 				ifTrue: [ #needToGetFullHex ]
 				ifFalse: [ #needToGetFull ].
-			self changed: #contents ]
+			self changedContents
+			 ]

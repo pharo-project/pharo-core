@@ -15,7 +15,7 @@ title: ''''self halt''''
 lesson: 
 ''''"Put self halt. in the method you want to debug."
 
-PharoTutorial next.''''''
+ProfStef next.''''''
 classified: ''lessons''.
 
 HowToDebug compile:
@@ -25,7 +25,7 @@ title: ''''self halt''''
 lesson: 
 ''''"Look at PharoDebug.log."
 
-PharoTutorial next.''''''
+ProfStef next.''''''
 classified: ''lessons''.
 
 HowToDebug compile:
@@ -36,4 +36,4 @@ lesson:
 ''''"Easy in the debugger !"''''''
 classified: ''lessons''.
 
-PharoTutorial next.'.
+ProfStef next.'.

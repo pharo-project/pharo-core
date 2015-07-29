@@ -1,0 +1,2 @@
+goToNextLesson
+  self next

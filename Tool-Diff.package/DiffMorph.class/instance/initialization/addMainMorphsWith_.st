@@ -51,7 +51,6 @@ addMainMorphsWith: topOffset
 			leftOffset: self scrollbarMorph width negated - self mapMorph width;
 			rightOffset: self mapMorph width negated;
 			topOffset: topOffset).
-			
 	self					
 		addMorph: self mapMorph
 		fullFrame: (LayoutFrame identity

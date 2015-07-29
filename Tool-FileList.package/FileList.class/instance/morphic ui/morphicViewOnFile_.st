@@ -16,7 +16,8 @@ morphicViewOnFile: aFile
 	}.
 	
 	contents ifNotNil: [
-		fileContentsView editString: contents.
+		
+		fileContentsView setText: contents asText.
 		fileContentsView hasUnacceptedEdits: true].
 	
 	self postOpen.

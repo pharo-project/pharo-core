@@ -1,0 +1,3 @@
+browsedEnvironment
+
+	^ Smalltalk globals
