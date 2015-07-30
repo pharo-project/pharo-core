@@ -1,6 +1,6 @@
-script50200
+script50201
 
-	^ 'AST-Core-TheIntegrator.335.mcz
+	^ 'AST-Core-TheIntegrator.336.mcz
 AST-Tests-Core-TheIntegrator.75.mcz
 Announcements-Core-MarcusDenker.55.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -48,7 +48,7 @@ Debugger-Tests-TheIntegrator.2.mcz
 DebuggerActions-StephaneDucasse.76.mcz
 DebuggerFilters-TheIntegrator.9.mcz
 DebuggerModel-TheIntegrator.112.mcz
-Deprecated50-TheIntegrator.9.mcz
+Deprecated50-TheIntegrator.11.mcz
 EmbeddedFreeType-TheIntegrator.21.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-MarcusDenker.32.mcz
@@ -112,8 +112,6 @@ Graphics-Resources-TheIntegrator.24.mcz
 Graphics-Shapes-TheIntegrator.2.mcz
 Graphics-Tests-TheIntegrator.72.mcz
 Graphics-Transformations-TheIntegrator.14.mcz
-GroupManager-TheIntegrator.81.mcz
-GroupManagerUI-TheIntegrator.41.mcz
 Growl-TheIntegrator.37.mcz
 HelpSystem-Core-TheIntegrator.124.mcz
 HelpSystem-Tests-TheIntegrator.30.mcz
@@ -227,7 +225,7 @@ RPackage-Tests-TheIntegrator.173.mcz
 RecentSubmissions-StephaneDucasse.233.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.282.mcz
-Refactoring-Critics-TheIntegrator.187.mcz
+Refactoring-Critics-TheIntegrator.189.mcz
 Refactoring-Environment-TheIntegrator.58.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.127.mcz
@@ -301,7 +299,7 @@ System-Serial Port-StephaneDucasse.23.mcz
 System-Settings-TheIntegrator.317.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.25.mcz
-System-Support-TheIntegrator.1125.mcz
+System-Support-TheIntegrator.1127.mcz
 System-VMEvents-TheIntegrator.5.mcz
 Tests-TheIntegrator.734.mcz
 Text-Core-TheIntegrator.35.mcz

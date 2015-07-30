@@ -1,2 +1,2 @@
 editorFont
-	^ TextStyle defaultFont
+	^ StandardFonts defaultFont
