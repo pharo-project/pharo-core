@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16067 remove #prepareDebuggerExample
-	https://pharo.fogbugz.com/f/cases/16067
+ ^ '16062 WorkspaceTest>>#testStyling is failing
+	https://pharo.fogbugz.com/f/cases/16062
 
-16066 Update Rubric 
-	https://pharo.fogbugz.com/f/cases/16066
+16060 remove empty packages GroupManager and GroupManagerUI
+	https://pharo.fogbugz.com/f/cases/16060
 
-16006 Make new Pretty Printer the default
-	https://pharo.fogbugz.com/f/cases/16006'
+16011 Remove old Pretty Printer
+	https://pharo.fogbugz.com/f/cases/16011'

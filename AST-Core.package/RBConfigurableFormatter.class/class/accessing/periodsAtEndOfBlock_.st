@@ -1,2 +1,0 @@
-periodsAtEndOfBlock: aBoolean
-	PeriodsAtEndOfBlock := aBoolean

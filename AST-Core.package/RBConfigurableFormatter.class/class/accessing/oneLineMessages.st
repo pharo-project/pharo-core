@@ -1,2 +1,0 @@
-oneLineMessages
-	^ OneLineMessages printString

@@ -1,2 +1,0 @@
-numberOfArgumentsForMultiLine
-	^ NumberOfArgumentsForMultiLine

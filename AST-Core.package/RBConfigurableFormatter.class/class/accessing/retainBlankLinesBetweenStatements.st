@@ -1,2 +1,0 @@
-retainBlankLinesBetweenStatements
-	^ RetainBlankLinesBetweenStatements

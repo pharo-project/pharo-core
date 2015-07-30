@@ -1,2 +1,0 @@
-currentLineLength
-	^codeStream position - lineStart

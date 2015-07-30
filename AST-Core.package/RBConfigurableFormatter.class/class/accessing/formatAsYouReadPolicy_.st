@@ -1,2 +1,0 @@
-formatAsYouReadPolicy: aBoolean
-	FormatAsYouReadPolicy := aBoolean

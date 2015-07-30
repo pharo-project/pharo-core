@@ -1,2 +1,0 @@
-retainBlankLinesBeforeComments: aBoolean
-	RetainBlankLinesBeforeComments := aBoolean

@@ -1,2 +1,2 @@
 formatterClass
-	^ FormatterClass ifNil: [ RBConfigurableFormatter ] ifNotNil: [ FormatterClass ]
+	^ FormatterClass ifNil: [ BIConfigurableFormatter ] ifNotNil: [ FormatterClass ]

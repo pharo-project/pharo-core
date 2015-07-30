@@ -1,2 +1,0 @@
-periodsAtEndOfMethod
-	^ PeriodsAtEndOfMethod

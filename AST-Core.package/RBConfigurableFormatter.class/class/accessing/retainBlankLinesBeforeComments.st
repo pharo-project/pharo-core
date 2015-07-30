@@ -1,2 +1,0 @@
-retainBlankLinesBeforeComments
-	^ RetainBlankLinesBeforeComments

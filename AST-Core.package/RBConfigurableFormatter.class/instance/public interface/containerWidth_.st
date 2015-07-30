@@ -1,1 +1,0 @@
-containerWidth: anInteger

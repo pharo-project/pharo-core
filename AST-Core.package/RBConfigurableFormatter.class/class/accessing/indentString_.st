@@ -1,2 +1,0 @@
-indentString: aString
-	IndentString := aString

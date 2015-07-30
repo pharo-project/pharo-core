@@ -1,2 +1,0 @@
-maxLineLength: anInteger
-	MaxLineLength := anInteger

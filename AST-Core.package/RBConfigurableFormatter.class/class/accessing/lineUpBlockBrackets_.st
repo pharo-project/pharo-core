@@ -1,2 +1,0 @@
-lineUpBlockBrackets: aBoolean
-	LineUpBlockBrackets := aBoolean
