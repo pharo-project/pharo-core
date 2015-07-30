@@ -1,7 +1,7 @@
-script50198
+script50199
 
-	^ 'AST-Core-TheIntegrator.331.mcz
-AST-Tests-Core-TheIntegrator.70.mcz
+	^ 'AST-Core-TheIntegrator.333.mcz
+AST-Tests-Core-TheIntegrator.73.mcz
 Announcements-Core-MarcusDenker.55.mcz
 Announcements-Help-TheIntegrator.12.mcz
 Announcements-Tests-Core-TheIntegrator.25.mcz
@@ -23,7 +23,7 @@ Balloon-TheIntegrator.123.mcz
 BalloonTests-MarcusDenker.3.mcz
 BaselineOfQualityAssistant-YuriyTymchuk.5.mcz
 BaselineOfRenraku-YuriyTymchuk.2.mcz
-BlueInk-Core-TheIntegrator.16.mcz
+BlueInk-Core-TheIntegrator.17.mcz
 BlueInk-Tests-TheIntegrator.4.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
 CodeImport-TheIntegrator.61.mcz
@@ -218,7 +218,7 @@ Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz
 Polymorph-Widgets-TheIntegrator.1229.mcz
 PragmaCollector-TheIntegrator.3.mcz
-ProfStef-Core-TheIntegrator.69.mcz
+ProfStef-Core-TheIntegrator.70.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
 QualityAssistant-YuriyTymchuk.61.mcz
@@ -346,10 +346,10 @@ Versionner-Core-Commands-EstebanLorenzano.58.mcz
 Versionner-Core-DependenciesModel-ChristopheDemarey.101.mcz
 Versionner-Core-Model-EstebanLorenzano.51.mcz
 Versionner-Spec-Browser-EstebanLorenzano.176.mcz
-Versionner-Tests-Core-Commands-TheIntegrator.17.mcz
+Versionner-Tests-Core-Commands-TheIntegrator.19.mcz
 Versionner-Tests-Core-DependenciesModel-ChristopheDemarey.42.mcz
 Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz
-Versionner-Tests-Resources-ChristopheDemarey.15.mcz
+Versionner-Tests-Resources-TheIntegrator.18.mcz
 Zinc-Character-Encoding-Core-SvenVanCaekenberghe.37.mcz
 Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.22.mcz
 Zinc-FileSystem-SvenVanCaekenberghe.10.mcz

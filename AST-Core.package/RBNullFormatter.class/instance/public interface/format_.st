@@ -1,2 +1,0 @@
-format: aParseTree 
-	^ aParseTree source

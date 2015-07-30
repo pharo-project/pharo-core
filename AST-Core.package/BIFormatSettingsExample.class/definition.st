@@ -2,4 +2,4 @@ Object subclass: #BIFormatSettingsExample
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'BlueInk-Core'
+	category: 'AST-Core-BlueInk'

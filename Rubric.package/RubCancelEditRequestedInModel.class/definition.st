@@ -1,4 +1,4 @@
-RubMorphAnnouncement subclass: #RubCanceEditRequested
+RubAnnouncement subclass: #RubCancelEditRequestedInModel
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

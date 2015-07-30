@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '16063 Byte code generation UnlimitedInstanceVariableSlot
-	https://pharo.fogbugz.com/f/cases/16063
+ ^ '16067 remove #prepareDebuggerExample
+	https://pharo.fogbugz.com/f/cases/16067
 
-16061 DNU when running ProfStef tests
-	https://pharo.fogbugz.com/f/cases/16061'
+16066 Update Rubric 
+	https://pharo.fogbugz.com/f/cases/16066
+
+16006 Make new Pretty Printer the default
+	https://pharo.fogbugz.com/f/cases/16006'
