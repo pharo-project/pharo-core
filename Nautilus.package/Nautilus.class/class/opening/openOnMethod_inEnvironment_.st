@@ -1,21 +1,17 @@
 openOnMethod: aMethod inEnvironment: anEnvironment
-
 	| instance class |
 	class := aMethod methodClass.
 	instance := self new.
-	instance 
+	instance
 		browsedEnvironment: anEnvironment;
 		showInstance: class isMeta not;
-		showGroups: false;
-		package: (self parentOfClass: class) 
-			class: class 
-			category: aMethod protocol asString 
+		package: (self parentOfClass: class)
+			class: class
+			category: aMethod protocol asString
 			method: aMethod;
 		open.
-		
-	 instance ui 
+	instance ui
 		useLastPackagePatternStringForClass: class;
 		showHierarchy: self switchClassesAndPackages;
 		giveFocusToMethod.
-
 	^ instance

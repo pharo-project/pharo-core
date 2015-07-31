@@ -1,3 +1,3 @@
 selectTheTextForTheNode
 	selectionPreviousHighligth := self selectedInterval .
-	selectedNode ifNotNil: [ self sourceTextArea contentSelection ]
+	selectedNode ifNotNil: [ model contentSelection ]

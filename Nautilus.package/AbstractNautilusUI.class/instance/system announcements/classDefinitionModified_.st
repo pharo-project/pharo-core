@@ -5,13 +5,17 @@ classDefinitionModified: anAnnouncement
 		ifFalse: [ ^ self ].
 	class := anAnnouncement oldClassDefinition.
 	self removeClassFromMethodsIconsCache: class.
-	((self showGroups and: [ self selectedGroup notNil and: [ self selectedGroup elements includes: class ] ])
-		or: [ self classWidget getClassesList includes: class ])
-		ifTrue: [ 
+	(self classWidget getClassesList includes: class)
+		ifTrue:
+			[ 
 			model selectedCategory
-				ifNil: [ 
-					model selectedMethod ifNil: [ 
-					model selectedClass = anAnnouncement oldClassDefinition
-						ifTrue: [ model selectedClass: anAnnouncement newClassDefinition ].	"Minimal change to fix Case13006. Further investigation required in Pharo 4 on Case13020"
-					self updateClassView.
-					self removeFromPackagesIconsCache: class package ] ] ]
+				ifNil:
+					[ 
+					model selectedMethod
+						ifNil:
+							[ 
+							model selectedClass = anAnnouncement oldClassDefinition
+								ifTrue:
+									[ model selectedClass: anAnnouncement newClassDefinition ].	"Minimal change to fix Case13006. Further investigation required in Pharo 4 on Case13020"
+							self updateClassView.
+							self removeFromPackagesIconsCache: class package ] ] ]

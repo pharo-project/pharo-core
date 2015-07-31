@@ -6,18 +6,16 @@ showHierarchy: aBoolean
 	self packageWidget enabled: aBoolean not.
 	self classWidget showHierarchy: aBoolean.
 	aBoolean
-		ifTrue: [ 
+		ifTrue:
+			[ 
 			| class |
 			class := self selectedClass theNonMetaClass.
 			self classWidget selectClass: class.
 			self resetPackageGroupsList.
-			self resetClassesList.
-			self showGroups
-				ifTrue: [ self showGroupsSilently: false ] ].
+			self resetClassesList ].
 	self resetPackageGroupsList.
 	self resetClassesList.
 	self model showHierarchy: aBoolean.
-	self changed: #groupsButtonLabel.
 	self updatePackageGroupAndClassList.
 	self changed: #hierarchyButtonState.
 	self changed: #hierarchyButtonLabel.

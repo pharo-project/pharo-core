@@ -5,5 +5,4 @@ registerTo: aModel
 		when: NautilusClassSelected send: #changed: to: self;
 		when: NautilusGroupSelected send: #changed: to: self;
 		when: NautilusProtocolSelected send: #changed: to: self;
-		when: NautilusMethodSelected send: #changed: to: self;
-		when: NautilusShowGroupsChanged send: #changed: to: self.
+		when: NautilusMethodSelected send: #changed: to: self

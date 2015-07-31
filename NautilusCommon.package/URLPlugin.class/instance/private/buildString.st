@@ -2,9 +2,7 @@ buildString
 
 	| first  separator |
 	separator := ' > '.
-	first := self model showGroups
-				ifTrue: [ self model selectedGroup ]
-				ifFalse: [ self model selectedPackage ].
+	first := self model selectedPackage.
 	first
 		ifNil: [ ^''].			
 	^ String streamContents: [ :str | 

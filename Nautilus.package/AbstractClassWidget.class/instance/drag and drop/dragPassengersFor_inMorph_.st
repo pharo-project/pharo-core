@@ -1,14 +1,9 @@
-dragPassengersFor: item inMorph: dragSource 
-
+dragPassengersFor: item inMorph: dragSource
 	| transferType object |
-	
-	(dragSource isKindOf: self class listClass) ifFalse: [^ nil ].
+	(dragSource isKindOf: self class listClass)
+		ifFalse: [ ^ nil ].
 	transferType := self dragTransferTypeForMorph: dragSource.
 	object := item originalObject.
-	transferType == #getClassItem: ifTrue: [ 
-		self model showGroups 
-		ifTrue: [ self model selectedGroup
-								ifNil: [ ^ nil ]
-								ifNotNil: [:g | g isFillable ifFalse: [ ^ nil ]]]. 
-		^ self selectedClasses ifEmpty: [ { object } ] ].
+	transferType == #getClassItem:
+		ifTrue: [ ^ self selectedClasses ifEmpty: [ {object} ] ].
 	^ nil

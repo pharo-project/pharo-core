@@ -1,3 +1,0 @@
-showGroups
-
-	^ self model showGroups

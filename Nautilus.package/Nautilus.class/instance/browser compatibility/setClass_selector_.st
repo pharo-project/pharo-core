@@ -1,15 +1,10 @@
-setClass: aClass selector: aSelector 
-	
+setClass: aClass selector: aSelector
 	| method protocol |
 	method := aClass methodDict at: aSelector ifAbsent: [ nil ].
-	protocol := method 
-					ifNil: [ nil ]
-					ifNotNil: [ method protocol ].
-	self 
-		showGroups: false;
+	protocol := method ifNil: [ nil ] ifNotNil: [ method protocol ].
+	self
 		selectedPackage: (self parentOfClass: aClass);
 		selectedClass: aClass;
 		showInstance: aClass isMeta not;
 		selectedCategory: protocol;
 		selectedMethod: method
-	

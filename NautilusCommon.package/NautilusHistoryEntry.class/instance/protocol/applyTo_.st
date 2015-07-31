@@ -10,7 +10,6 @@ applyTo: aNautilus
 			aNautilus
 				selectedGroup: self selectedGroup;
 				showHierarchy: self showHierarchy;
-				showGroups: self showGroups;
 				sortHierarchically: self sortHierarchically;
 				showComment: self showComment;
 				showInstance: self showInstance;

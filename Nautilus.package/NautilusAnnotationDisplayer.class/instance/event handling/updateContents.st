@@ -12,7 +12,6 @@ updateContents
 			self layoutChanged ].
 	wrappingPolicyMorph contents: self wrappingPolicyLabel.
 	lineNumbersDisplayMorph contents: self lineNumbersDisplayLabel.
-	browseVariablesMorph enabled: self nautilusUI model selectedClass notNil.
 	formatAsYouReadMorph updateSelection.
 	row position: self innerBounds topLeft.
 	row width: self innerBounds width

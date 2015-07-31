@@ -1,28 +1,18 @@
-dragPassengersFor: item inMorph: dragSource 
+dragPassengersFor: item inMorph: dragSource
 	| transferType object |
-	
 	object := item originalObject.
-
 	(dragSource isKindOf: AbstractWidget listClass)
-		ifFalse: [^ nil ].
+		ifFalse: [ ^ nil ].
 	transferType := self dragTransferTypeForMorph: dragSource.
 	transferType == #getCategoryItem:
-		ifTrue: [ ^ self selectedCategories ifEmpty: [ { object } ] ].
-	
+		ifTrue: [ ^ self selectedCategories ifEmpty: [ {object} ] ].
 	transferType == #getClassItem:
-			ifTrue: [ 
-				self showGroups 
-					ifTrue: [ self selectedGroup
-								ifNil: [ ^ nil ]
-								ifNotNil: [:g | g isFillable ifFalse: [ ^ nil ]]].
-				
-				^ self selectedClasses ifEmpty: [ { object } ]].
-
+		ifTrue: [ ^ self selectedClasses ifEmpty: [ {object} ] ].
 	transferType == #getMethodItem:
-			ifFalse: [ ^ nil ].
-
+		ifFalse: [ ^ nil ].
 	^ self selectedMethods
-		ifEmpty: [
-			 (self getMethods includes: object)
-				ifTrue: [{ object }]
-				ifFalse: [ nil ]]
+		ifEmpty:
+			[ 
+			(self getMethods includes: object)
+				ifTrue: [ {object} ]
+				ifFalse: [ nil ] ]

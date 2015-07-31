@@ -1,3 +1,3 @@
 forMorph: aMorph
 
-	^ self basicNew initWithMorph: aMorph
+	^ self new initWithMorph: aMorph

@@ -6,7 +6,6 @@ noteNewOwner: aMorph
 	wrappingPolicyMorph := self wrappingPolicyLabelMorph.
 	lineNumbersDisplayMorph := self lineNumbersDisplayLabelMorph.
 	formatAsYouReadMorph := self formatAsYouReadMorph.
-	browseVariablesMorph := self browseVariablesMorph.
 	row := self theme
 		newRowIn: self
 		for:
@@ -18,12 +17,9 @@ noteNewOwner: aMorph
 			wrappingPolicyMorph.
 			self spacer: 2.
 			lineNumbersDisplayMorph.
-			self spacer: 2.
-			browseVariablesMorph.
 			self spacer: 2}.	
 	wrappingPolicyMorph on: #mouseDown send: #changeWrappingPolicy to: self.
 	lineNumbersDisplayMorph on: #mouseDown send: #changeLineNumbersDisplay to: self.
-	browseVariablesMorph on: #mouseDown send: #browseVariableReferences: to: self.
 	row color: Color transparent.
 	row hResizing: #spaceFill.
 	lineAnnotation hResizing: #spaceFill.

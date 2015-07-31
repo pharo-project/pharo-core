@@ -1,2 +1,0 @@
-groupsAreVisible
-	^ self showGroups

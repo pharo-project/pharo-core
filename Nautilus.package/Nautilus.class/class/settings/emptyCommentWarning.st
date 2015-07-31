@@ -1,2 +1,2 @@
 emptyCommentWarning
-	^emptyCommentWarning ifNil: [ emptyCommentWarning := true ]
+	^ emptyCommentWarning ifNil: [ emptyCommentWarning := true ]

@@ -1,3 +1,0 @@
-groupsButtonState
-
-	^ false

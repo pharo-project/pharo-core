@@ -1,3 +1,0 @@
-showGroups: anObject
-	
-		showGroups := anObject

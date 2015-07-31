@@ -14,7 +14,6 @@ showHierarchy: aBoolean
 			self selectPackageFor: self selectedClass ].
 	self model showHierarchy: aBoolean.
 
-	self changed: #groupsButtonLabel.
 	self updateClassView.
 	self changed: #hierarchyButtonState.
 	self changed: #hierarchyButtonLabel.

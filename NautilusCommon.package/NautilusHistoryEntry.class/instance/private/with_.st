@@ -10,7 +10,6 @@ with: aNautilus
 		selectedClass: aNautilus selectedClass;
 		selectedGroup: aNautilus selectedGroup;
 		showHierarchy: aNautilus showHierarchy;
-		showGroups: aNautilus showGroups;
 		sortHierarchically: aNautilus sortHierarchically;
 		showComment: aNautilus showComment;
 		showInstance: aNautilus showInstance;

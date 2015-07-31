@@ -1,2 +1,2 @@
-groupsAreVisible
-	^ self showGroups or: [ Nautilus showGroupsOnTop ]
+groupsAreVisible 
+	^ Nautilus showGroupsOnTop

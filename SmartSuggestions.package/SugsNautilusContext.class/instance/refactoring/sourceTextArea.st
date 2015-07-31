@@ -1,2 +1,2 @@
 sourceTextArea
-	^ model 
+	^ model sourceTextModel

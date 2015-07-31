@@ -1,7 +1,7 @@
 selectedClassWithoutChangingSelectionInternally: aClass
 	| package packageChanged |
 	package := self selectedPackage.
-	(self showHierarchy or: [ self showGroups ])
+	self showHierarchy
 		ifTrue: [ aClass ifNotNil: [ package := aClass package ] ].
 	aClass ifNil: [ self resetClassesListSelection ].
 	aClass ifNotNil: [ self giveFocusTo: self classWidget ].
@@ -10,12 +10,11 @@ selectedClassWithoutChangingSelectionInternally: aClass
 	self model selectedClass: aClass.
 	self setWindowTitle.
 	packageChanged
-		ifTrue: [ 
+		ifTrue:
+			[ 
 			self resetPackageGroupsListSelection.
 			self packageWidget selectPackage: package.
-			self showGroups
-				ifTrue: [ self updateClassView ]
-				ifFalse: [ self updatePackageGroupAndClassList ] ].
+			self updatePackageGroupAndClassList ].
 	self resetCategoriesListSelection.
 	self resetMethodsListSelection.
 	self updateCategoryAndMethodList.

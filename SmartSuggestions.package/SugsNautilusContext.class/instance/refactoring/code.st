@@ -1,3 +1,3 @@
 code
 
-	^ self sourceTextArea sourceTextModel getString
+	^ self sourceTextArea getString
