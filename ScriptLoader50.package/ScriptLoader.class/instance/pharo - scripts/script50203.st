@@ -1,4 +1,4 @@
-script50202
+script50203
 
 	^ 'AST-Core-TheIntegrator.336.mcz
 AST-Tests-Core-TheIntegrator.75.mcz
@@ -53,7 +53,7 @@ EmbeddedFreeType-TheIntegrator.21.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-MarcusDenker.32.mcz
 FileSystem-Core-TheIntegrator.180.mcz
-FileSystem-Disk-StephaneDucasse.81.mcz
+FileSystem-Disk-TheIntegrator.84.mcz
 FileSystem-Memory-TheIntegrator.57.mcz
 FileSystem-Tests-Core-TheIntegrator.93.mcz
 FileSystem-Tests-Disk-StephaneDucasse.25.mcz
@@ -310,7 +310,7 @@ Text-Scanning-TheIntegrator.26.mcz
 Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.94.mcz
 Tool-Catalog-TheIntegrator.15.mcz
-Tool-CriticBrowser-TheIntegrator.7.mcz
+Tool-CriticBrowser-TheIntegrator.10.mcz
 Tool-Diff-TheIntegrator.10.mcz
 Tool-ExternalBrowser-TheIntegrator.27.mcz
 Tool-FileList-TheIntegrator.43.mcz

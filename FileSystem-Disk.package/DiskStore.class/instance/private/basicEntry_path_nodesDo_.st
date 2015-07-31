@@ -5,7 +5,7 @@ basicEntry: directoryEntry path: aPath nodesDo: aBlock
 	pathString := self stringFromPath: aPath.
 	encodedPathString := Primitives encode: pathString.
 	entry := Primitives lookupEntryIn: encodedPathString index: index.
-	entry = #badDirectoryPath ifTrue: [ self signalDirectoryDoesNotExist: aPath ].
+	entry = #badDirectoryPath ifTrue: [ ^ self signalDirectoryDoesNotExist: aPath ].
 	
 	[ entry isNil ]
 		whileFalse: [ 

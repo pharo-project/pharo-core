@@ -1,9 +1,8 @@
 commentForCurrentUpdate
- ^ '16073 TextEditor initialization
-	https://pharo.fogbugz.com/f/cases/16073
+ ^ '16075 DiskStore>>basicEntry:path:nodesDo: should return on DirectoryDoesNotExist error
+	https://pharo.fogbugz.com/f/cases/16075
 
-16071 Remove groups button and clean up a lot of useless tests related to it in Nautilus
-	https://pharo.fogbugz.com/f/cases/16071
+12883 Critics browser rules categories selection
+	https://pharo.fogbugz.com/f/cases/12883
 
-15517 Breakpoint AST suggestions should be not shown when the editor is dirty
-	https://pharo.fogbugz.com/f/cases/15517'
+'
