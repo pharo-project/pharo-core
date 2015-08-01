@@ -13,13 +13,12 @@ glyphsOf: aString from: start to: end
 		ofFont: font toGlyphs: ptr numGlyphs: lenValue x: 0.0 y: 0.0 .
 		
 	error = CAIRO_STATUS_SUCCESS ifFalse: [  ^ CairoGlyphsArray new: 0 ].
-
+	
 	glyphsSize := lenValue nbUInt32AtOffset: 0.
-
+   font getExtentsOfGlyphs: ptr ofLength: glyphsSize into: glyphExtents .
+	advance := glyphExtents width @ glyphExtents height.
 	glyphs := CairoGlyphsArray new: glyphsSize.
-
 	NativeBoost memCopy: ptr to:  glyphs address size: (glyphsSize * CairoGlyphsArray elementSize).
 	self freeGlyphs: ptr.
-
 	^ glyphs
 	

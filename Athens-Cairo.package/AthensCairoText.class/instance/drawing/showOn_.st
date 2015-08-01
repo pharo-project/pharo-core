@@ -1,5 +1,5 @@
 showOn: aCanvas
-	| cString|
+	| utf8String |
 	aCanvas setPathMatrix.
-	cString := self asString copyWith: (Character value: 0).
-	self primShowText: cString on: aCanvas
+	utf8String := self convertTextUtf8: self asString.
+	self primShowText: utf8String on: aCanvas

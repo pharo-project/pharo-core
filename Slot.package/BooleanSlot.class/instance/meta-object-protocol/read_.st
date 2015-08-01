@@ -1,3 +1,2 @@
 read: anObject
-	^((baseSlot read: anObject) bitAt: offset) == 1
-		
+	^((self baseSlotRead: anObject) bitAt: offset) == 1

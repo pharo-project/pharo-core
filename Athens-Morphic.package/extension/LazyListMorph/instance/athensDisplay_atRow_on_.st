@@ -7,11 +7,12 @@ athensDisplay: item atRow: row on: aCanvas
 	drawBounds := self drawBoundsForRow: row.
 	c := self colorForRow: row.
 	backgroundColor := self backgroundColorForRow: row.
-	aCanvas
-		morphicDrawString: item asString
-		at: drawBounds topLeft
-		font: self font
-		color: c.
+	item listRenderOn: aCanvas asCanvasWrapper
+		atRow: row
+		bounds: drawBounds
+		color: c
+		backgroundColor: backgroundColor 
+		from: self.
 	row = self mouseDownRow
 		ifTrue: [ 
 			(aCanvas setStrokePaint: c)

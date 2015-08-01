@@ -4,3 +4,4 @@ renderCharacters: aString from: start to: end
 
 	glyphs := self glyphsOf: aString from: start to: end.
 	self renderGlyphs: glyphs.
+	^ self advance.

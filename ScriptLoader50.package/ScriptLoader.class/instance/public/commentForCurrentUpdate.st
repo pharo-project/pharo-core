@@ -1,8 +1,9 @@
 commentForCurrentUpdate
- ^ '16075 DiskStore>>basicEntry:path:nodesDo: should return on DirectoryDoesNotExist error
-	https://pharo.fogbugz.com/f/cases/16075
+ ^ '16077 removing BooleanSlot with instance
+	https://pharo.fogbugz.com/f/cases/16077
 
-12883 Critics browser rules categories selection
-	https://pharo.fogbugz.com/f/cases/12883
+16082 load new athens version 3.7
+	https://pharo.fogbugz.com/f/cases/16082
 
-'
+15773 Shout is using the wrong class to perform its semantics analysis
+	https://pharo.fogbugz.com/f/cases/15773'
