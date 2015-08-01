@@ -9,7 +9,6 @@ instancesToTry
 	ByteArray new. 
 	Color red .
 	thisContext . 
-	PluggableTextMorph new . 
 	12 . 
 	#symbol . 
 	(12.32) . 

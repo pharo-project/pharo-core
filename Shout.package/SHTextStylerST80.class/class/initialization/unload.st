@@ -1,4 +1,3 @@
 unload
-	(PluggableTextMorph respondsTo: #stylingClass:)
-		ifTrue: [ PluggableTextMorph stylingClass: nil ]
+	PluggableTextMorph stylingClass: nil
 	

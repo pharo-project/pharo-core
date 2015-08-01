@@ -1,0 +1,2 @@
+fileOutTestClass
+	^ MultiByteFileStreamFileOutTestClass 
