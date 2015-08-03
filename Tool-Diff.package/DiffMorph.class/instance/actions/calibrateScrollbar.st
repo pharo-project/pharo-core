@@ -17,4 +17,4 @@ calibrateScrollbar
 		scrollDelta: (delta / range) asFloat pageDelta: ((innerH - delta) / range) asFloat;
 		interval: (innerH / maxY) asFloat;
 		setValue:
-				((self srcMorph scroller offset y max: self dstMorph scroller offset y) / range min: 1.0) asFloat
+				((self srcMorph scrollPane scroller offset y max: self dstMorph scrollPane scroller offset y) / range min: 1.0) asFloat

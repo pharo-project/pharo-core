@@ -1,12 +1,6 @@
 commentForCurrentUpdate
- ^ '14986 Additions to tests for MultiByteFileStream
-	https://pharo.fogbugz.com/f/cases/14986
+ ^ '15990 Failing tests testCanCreateFiletreeRepositoryFromUrl (on windows)
+	https://pharo.fogbugz.com/f/cases/15990
 
-16049 support differnt colors for nested parentheses / blocks in SHRBTextStyler
-	https://pharo.fogbugz.com/f/cases/16049
-
-16053 less pluggableTextMorph references
-	https://pharo.fogbugz.com/f/cases/16053
-
-16086 reflectivity: testAfterSequence
-	https://pharo.fogbugz.com/f/cases/16086'
+16088 Fix DiffMorph when called from Komitter  
+	https://pharo.fogbugz.com/f/cases/16088'

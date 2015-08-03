@@ -1,4 +1,4 @@
-script50205
+script50206
 
 	^ 'AST-Core-TheIntegrator.336.mcz
 AST-Tests-Core-TheIntegrator.75.mcz
@@ -152,7 +152,7 @@ Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
 Monticello-TheIntegrator.1050.mcz
-Monticello-Tests-TheIntegrator.19.mcz
+Monticello-Tests-TheIntegrator.21.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.189.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
@@ -311,7 +311,7 @@ Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.94.mcz
 Tool-Catalog-TheIntegrator.15.mcz
 Tool-CriticBrowser-TheIntegrator.10.mcz
-Tool-Diff-TheIntegrator.10.mcz
+Tool-Diff-TheIntegrator.12.mcz
 Tool-ExternalBrowser-TheIntegrator.27.mcz
 Tool-FileList-TheIntegrator.43.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
