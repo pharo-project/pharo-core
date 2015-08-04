@@ -1,2 +1,3 @@
 newLineBeforeFirstKeyword: aBoolean
-	DefaultPrettyPrintContext newLineBeforeFirstKeyword: aBoolean
+	DefaultPrettyPrintContext newLineBeforeFirstKeyword: aBoolean.
+	self announceASettingChange

@@ -1,2 +1,3 @@
 stringFollowingReturn: aString
-	DefaultPrettyPrintContext stringFollowingReturn: aString
+	DefaultPrettyPrintContext stringFollowingReturn: aString.
+	self announceASettingChange

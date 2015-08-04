@@ -1,0 +1,2 @@
+openBIInspectorButtonState
+	^ true

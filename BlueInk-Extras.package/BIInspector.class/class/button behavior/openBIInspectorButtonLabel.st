@@ -1,0 +1,2 @@
+openBIInspectorButtonLabel
+	^ 'Open'

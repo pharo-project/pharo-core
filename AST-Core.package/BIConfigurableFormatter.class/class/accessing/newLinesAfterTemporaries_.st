@@ -1,2 +1,3 @@
 newLinesAfterTemporaries: anInteger
-	DefaultPrettyPrintContext newLinesAfterTemporaries: anInteger
+	DefaultPrettyPrintContext newLinesAfterTemporaries: anInteger.
+	self announceASettingChange

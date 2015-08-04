@@ -1,2 +1,3 @@
 stringInsideParentheses: aString
-	DefaultPrettyPrintContext stringInsideParentheses: aString
+	DefaultPrettyPrintContext stringInsideParentheses: aString.
+	self announceASettingChange

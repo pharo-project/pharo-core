@@ -1,2 +1,3 @@
 useTraditionalBinaryPrecedenceForParentheses: aBoolean
-	DefaultPrettyPrintContext useTraditionalBinaryPrecedenceForParentheses: aBoolean
+	DefaultPrettyPrintContext useTraditionalBinaryPrecedenceForParentheses: aBoolean.
+	self announceASettingChange

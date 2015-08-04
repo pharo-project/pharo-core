@@ -11,7 +11,7 @@ formatStatementCommentsFor: aStatementNode
 			self retainBlankLinesBeforeComments & (count > 0)
 				ifTrue: [ self newLines: count ]
 				ifFalse: [ codeStream tab ].
-			self basicCommentFormat
+			self useBasicCommentFormat
 				ifTrue: [ self basicFormatCommentFor: each ]
 				ifFalse: [ 
 			self resizeCommentFor: each startingAt: self currentLineLength ]]

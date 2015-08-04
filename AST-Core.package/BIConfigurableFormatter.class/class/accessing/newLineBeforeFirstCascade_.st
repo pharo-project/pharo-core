@@ -1,2 +1,3 @@
 newLineBeforeFirstCascade: aBoolean
-	DefaultPrettyPrintContext newLineBeforeFirstCascade: aBoolean
+	DefaultPrettyPrintContext newLineBeforeFirstCascade: aBoolean.
+	self announceASettingChange

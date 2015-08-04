@@ -1,0 +1,2 @@
+useBasicCommentFormat: aBoolean
+	useBasicCommentFormat := aBoolean

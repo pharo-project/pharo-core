@@ -1,2 +1,0 @@
-basicCommentFormat 
-	^ context basicCommentFormat 

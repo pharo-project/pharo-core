@@ -1,2 +1,3 @@
 retainBlankLinesBeforeComments: aBoolean
-	DefaultPrettyPrintContext retainBlankLinesBeforeComments: aBoolean
+	DefaultPrettyPrintContext retainBlankLinesBeforeComments: aBoolean.
+	self announceASettingChange

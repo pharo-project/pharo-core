@@ -1,19 +1,17 @@
 settingsOn: aBuilder
 	<systemsettings>
-	(aBuilder group: #configurableFormatter2)
+	(aBuilder group: #blueInkFormatter)
 		target: self;
 		parent: #codeBrowsing;
 		label: 'BlueInk Pretty Printing';
 		description: 'Settings related to the formatter';
 		with:
 				[ 
-			(aBuilder setting: #basicCommentFormat) label: 'Basic comment format'.
 			(aBuilder setting: #cascadedMessageInsideParentheses)
 				label: 'Cascaded message inside parentheses';
 				description:
 					(BIFormatSettingsExample >> #cascadedMessageInsideParenthesesExample) sourceCode.
-			(aBuilder setting: #formatCommentWithStatements)
-				label: 'Format comment with statements'.
+			(aBuilder setting: #formatCommentWithStatements) label: 'Format comment with statements'.
 			(aBuilder setting: #indentString) label: 'Indent string'.
 			(aBuilder setting: #indentsForKeywords) label: 'Indents for keywords'.
 			(aBuilder setting: #keepBlockInMessage)
@@ -33,16 +31,12 @@ settingsOn: aBuilder
 				description: (BIFormatSettingsExample >> #newLineAfterCascadeExample) sourceCode.
 			(aBuilder setting: #newLineBeforeFirstCascade)
 				label: 'New line before first cascade';
-				description:
-					(BIFormatSettingsExample >> #newLineBeforeFirstCascadeExample) sourceCode.
+				description: (BIFormatSettingsExample >> #newLineBeforeFirstCascadeExample) sourceCode.
 			(aBuilder setting: #newLineBeforeFirstKeyword)
 				label: 'New line before first keyword';
-				description:
-					(BIFormatSettingsExample >> #newLineBeforeFirstKeywordExample) sourceCode.
-			(aBuilder setting: #newLinesAfterMethodComment)
-				label: 'New lines after method comment'.
-			(aBuilder setting: #newLinesAfterMethodPattern)
-				label: 'New lines after method pattern'.
+				description: (BIFormatSettingsExample >> #newLineBeforeFirstKeywordExample) sourceCode.
+			(aBuilder setting: #newLinesAfterMethodComment) label: 'New lines after method comment'.
+			(aBuilder setting: #newLinesAfterMethodPattern) label: 'New lines after method pattern'.
 			(aBuilder setting: #newLinesAfterTemporaries) label: 'New lines after temporaries'.
 			(aBuilder setting: #numberOfArgumentsForMultiLine)
 				label: 'Number of arguments for multi line'.
@@ -58,7 +52,7 @@ settingsOn: aBuilder
 			(aBuilder setting: #stringFollowingReturn) label: 'String following return'.
 			(aBuilder setting: #stringInsideBlocks) label: 'String inside blocks'.
 			(aBuilder setting: #stringInsideParentheses) label: 'String inside parentheses'.
-			(aBuilder setting: #traditionalBinaryPrecedence)
-				label: 'Traditional binary precedence'.
+			(aBuilder setting: #traditionalBinaryPrecedence) label: 'Traditional binary precedence'.
+			(aBuilder setting: #useBasicCommentFormat) label: 'Use basic comment format'.
 			(aBuilder setting: #useTraditionalBinaryPrecedenceForParentheses)
 				label: 'Use traditional binary precedence for parentheses' ]

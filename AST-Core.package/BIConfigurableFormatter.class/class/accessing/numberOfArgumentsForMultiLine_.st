@@ -1,2 +1,3 @@
 numberOfArgumentsForMultiLine: anInteger
-	DefaultPrettyPrintContext numberOfArgumentsForMultiLine: anInteger
+	DefaultPrettyPrintContext numberOfArgumentsForMultiLine: anInteger.
+	self announceASettingChange

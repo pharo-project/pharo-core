@@ -5,7 +5,7 @@ formatMethodCommentFor: aMethodNode
 		do:
 			[ :each | 
 			
-			self basicCommentFormat 
+			self useBasicCommentFormat 
 			ifTrue: [ self basicFormatCommentFor: each ]
 			ifFalse: [ 
 			self resizeCommentFor: each startingAt: 0].

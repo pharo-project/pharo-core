@@ -1,2 +1,3 @@
 maxLineLength: anInteger
-	DefaultPrettyPrintContext maxLineLength: anInteger
+	DefaultPrettyPrintContext maxLineLength: anInteger.
+	self announceASettingChange

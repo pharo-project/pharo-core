@@ -1,1 +1,1 @@
-Some examples of the action of a pretty printing  option 
+Some examples of the action of a pretty printing option 

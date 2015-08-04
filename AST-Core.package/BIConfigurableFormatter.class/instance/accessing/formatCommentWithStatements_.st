@@ -1,2 +1,2 @@
 formatCommentWithStatements: aBoolean
-	^ context formatCommentWithStatements: aBoolean
+	context formatCommentWithStatements: aBoolean

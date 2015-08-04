@@ -1,2 +1,3 @@
 keepBlockInMessage: aBoolean
-	DefaultPrettyPrintContext keepBlockInMessage: aBoolean
+	DefaultPrettyPrintContext keepBlockInMessage: aBoolean.
+	self announceASettingChange

@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '15990 Failing tests testCanCreateFiletreeRepositoryFromUrl (on windows)
-	https://pharo.fogbugz.com/f/cases/15990
+ ^ '15773 Shout is using the wrong class to perform its semantics analysis
+	https://pharo.fogbugz.com/f/cases/15773
 
-16088 Fix DiffMorph when called from Komitter  
-	https://pharo.fogbugz.com/f/cases/16088'
+16046 Integrate BlueInk Inspector to preview the effect of an option in the settings of the pretty printer
+	https://pharo.fogbugz.com/f/cases/16046'

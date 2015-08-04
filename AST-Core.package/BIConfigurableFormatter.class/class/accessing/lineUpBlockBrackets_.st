@@ -1,2 +1,3 @@
 lineUpBlockBrackets: aBoolean
-	DefaultPrettyPrintContext lineUpBlockBrackets: aBoolean
+	DefaultPrettyPrintContext lineUpBlockBrackets: aBoolean.
+	self announceASettingChange

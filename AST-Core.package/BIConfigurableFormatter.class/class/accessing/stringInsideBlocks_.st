@@ -1,2 +1,3 @@
 stringInsideBlocks: aString
-	DefaultPrettyPrintContext stringInsideBlocks: aString
+	DefaultPrettyPrintContext stringInsideBlocks: aString.
+	self announceASettingChange

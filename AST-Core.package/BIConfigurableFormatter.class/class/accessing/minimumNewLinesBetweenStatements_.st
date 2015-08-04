@@ -1,2 +1,3 @@
 minimumNewLinesBetweenStatements: anInteger
-	DefaultPrettyPrintContext minimumNewLinesBetweenStatements: anInteger
+	DefaultPrettyPrintContext minimumNewLinesBetweenStatements: anInteger.
+	self announceASettingChange

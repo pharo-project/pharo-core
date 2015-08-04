@@ -1,2 +1,3 @@
 periodsAtEndOfBlock: aBoolean
-	DefaultPrettyPrintContext periodsAtEndOfBlock: aBoolean
+	DefaultPrettyPrintContext periodsAtEndOfBlock: aBoolean.
+	self announceASettingChange

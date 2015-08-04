@@ -1,2 +1,2 @@
 indentsForKeywords: anInteger
-	^ context indentsForKeywords: anInteger
+	context indentsForKeywords: anInteger

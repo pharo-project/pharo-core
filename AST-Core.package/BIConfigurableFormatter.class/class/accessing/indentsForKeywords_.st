@@ -1,2 +1,3 @@
 indentsForKeywords: anInteger
-	DefaultPrettyPrintContext indentsForKeywords: anInteger
+	DefaultPrettyPrintContext indentsForKeywords: anInteger.
+	self announceASettingChange

@@ -1,2 +1,3 @@
 formatCommentWithStatements: aBoolean
-	DefaultPrettyPrintContext formatCommentWithStatements: aBoolean
+	DefaultPrettyPrintContext formatCommentWithStatements: aBoolean.
+	self announceASettingChange
