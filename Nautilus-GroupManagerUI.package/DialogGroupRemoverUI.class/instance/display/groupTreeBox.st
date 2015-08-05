@@ -1,0 +1,11 @@
+groupTreeBox
+	^ GroupboxMorph new
+		addContentMorph: self buildGroupsTree;
+		addContentMorph:
+				(self
+						newRow:
+							{self buildRenameButton. 
+							self buildRemoveButton});
+		label: 'Choose a group:';
+		hResizing: #spaceFill;
+		vResizing: #spaceFill

@@ -1,5 +1,6 @@
 selectedGroup: anObject
-
 	selectedGroup := anObject.
-	self announcer announce: ( NautilusGroupSelected group: anObject ).
-	self ui ifNotNil: [ self ui sourceTextModel announce: NautilusGroupSelected ]
+	anObject
+		ifNotNil: [ 
+			self announcer announce: (NautilusGroupSelected group: anObject).
+			self ui ifNotNil: [ self ui sourceTextModel announce: NautilusGroupSelected ] ]

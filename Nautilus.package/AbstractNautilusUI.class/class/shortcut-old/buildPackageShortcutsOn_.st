@@ -24,30 +24,6 @@ buildPackageShortcutsOn: aBuilder
 		default: $f command shift
 		do: [ :target | target findPackage ]
 		description: 'Find a package'.
-
-	(aBuilder shortcut: #addPackagesAsGroupsAndBrowse)
-		category: #NautilusPackageShortcuts
-		default: $g command
-		do: [ :target | target addPackagesAsGroupsAndBrowse ]
-		description: 'Add the selected packages as groups and browse'.
-	
-	(aBuilder shortcut: #addPackagesAsGroups)
-		category: #NautilusPackageShortcuts
-		default: $g command shift
-		do: [ :target | target addPackageAsGroupAndBrowse ]
-		description: 'Add the selected packages as groups'.
-	
-	(aBuilder shortcut: #addMatchingPackagesInGroupsAndBrowse)
-		category: #NautilusPackageShortcuts
-		default: $m command shift
-		do: [ :target | target addMatchingPackagesInGroupsAndBrowse ]
-		description: 'Add packages matching the selected package as groups and browse'.
-	
-	(aBuilder shortcut: #addMatchingPackagesInGroups)
-		category: #NautilusPackageShortcuts
-		default: $m command
-		do: [ :target | target addMatchingPackagesInGroups ]
-		description: 'Add packages matching the selected package as groups'.
 		
 	(aBuilder shortcut: #addPackage)
 		category: #NautilusPackageShortcuts

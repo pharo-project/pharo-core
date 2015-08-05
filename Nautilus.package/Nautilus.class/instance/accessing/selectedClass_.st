@@ -1,7 +1,6 @@
 selectedClass: aClass
-
 	selectedClass := aClass.
 	self selectedCategory: nil.
-	aClass ifNotNil: [ self recentClasses add: aClass theNonMetaClass name ].
-	self announcer announce: ( NautilusClassSelected class: aClass ).
-	self ui ifNotNil: [ self ui sourceTextModel announce: NautilusClassSelected ]
+	aClass ifNotNil: [ self recentClasses add: aClass theNonMetaClass name .
+	self announcer announce: (NautilusClassSelected class: aClass).
+	self ui ifNotNil: [ self ui sourceTextModel announce: NautilusClassSelected ] ]

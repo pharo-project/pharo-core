@@ -1,1 +1,0 @@
-A DynamicGroup is a group automatically updated whose default granularity is method.

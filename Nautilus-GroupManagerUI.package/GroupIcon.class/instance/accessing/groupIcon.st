@@ -1,0 +1,2 @@
+groupIcon
+	^ groupIcon

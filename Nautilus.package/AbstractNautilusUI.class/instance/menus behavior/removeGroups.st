@@ -4,6 +4,6 @@ removeGroups
 	self packageWidget selectedGroups
 		ifNotEmpty:[:groups |
 			self packageWidget resetGroupsSelection.
-			groups do: [:group | self groupsManager removeAGroupSilently: group ].
+			groups do: [:group | self groupsManager removeAGroup: group ].
 			self selectedGroup: nil].
 		

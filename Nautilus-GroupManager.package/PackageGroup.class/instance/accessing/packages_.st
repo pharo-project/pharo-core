@@ -1,0 +1,2 @@
+packages: aCollection
+	packages := aCollection

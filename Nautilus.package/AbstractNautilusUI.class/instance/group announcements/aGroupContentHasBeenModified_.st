@@ -1,0 +1,2 @@
+aGroupContentHasBeenModified: anAnnouncement
+	self updateGroupView

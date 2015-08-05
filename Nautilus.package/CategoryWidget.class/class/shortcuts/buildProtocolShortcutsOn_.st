@@ -12,12 +12,6 @@ buildProtocolShortcutsOn: aBuilder
 		default: $b command shift
 		do: [ :target | target restrictedBrowseClass ]
 		description: 'Open a restricted browser'.
-
-	(aBuilder shortcut: #addProtocolsInGroup)
-		category: #NautilusProtocolShortcuts
-		default: $e command
-		do: [ :target | target addProtocolsInGroup ]
-		description: 'Add the selected protocols in a group'.
 		
 	(aBuilder shortcut: #findMethod)
 		category: #NautilusProtocolShortcuts

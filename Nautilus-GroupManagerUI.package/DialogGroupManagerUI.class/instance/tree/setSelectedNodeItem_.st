@@ -1,6 +1,5 @@
 setSelectedNodeItem: anItem
-
 	| node |
-	node :=  tree listManager nodeMorphsWithAllNodeItems: { anItem }.
-	tree listManager selectedItems: node.
+	node := groupTree listManager nodeMorphsWithAllNodeItems: {anItem}.
+	groupTree listManager selectedItems: node.
 	^ node

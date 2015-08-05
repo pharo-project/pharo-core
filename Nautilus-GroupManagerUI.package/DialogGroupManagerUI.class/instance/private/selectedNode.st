@@ -1,3 +1,3 @@
 selectedNode
 
-	^ self treeModel selectedNode
+	^ self groupTreeModel selectedNode

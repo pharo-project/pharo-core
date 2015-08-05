@@ -1,6 +1,6 @@
 removeAGroup
 
 	self groupManager groups removeAGroup: self selectedGroup.
-	tree updateList.
-	treeModel selection: nil.
-	treeModel changed: #selection.
+	groupTree updateList.
+	groupTreeModel selection: nil.
+	groupTreeModel changed: #selection.

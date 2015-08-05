@@ -1,0 +1,2 @@
+methods: aCollection
+	methods := aCollection.

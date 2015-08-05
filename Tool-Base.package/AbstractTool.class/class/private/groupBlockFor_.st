@@ -1,2 +1,0 @@
-groupBlockFor: aPackage
-	^ [ aPackage orderedClasses ]

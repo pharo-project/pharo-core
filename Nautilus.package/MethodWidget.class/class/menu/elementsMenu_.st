@@ -102,11 +102,6 @@ elementsMenu: aBuilder
 		enabledBlock: [ target enableMethodDualSelection ];
 		withSeparatorAfter.	
 		
-	(aBuilder item: #'Add in group...')
-		keyText: 'n, e, m' if: Nautilus useOldStyleKeys not;
-		action: [ target addMethodsInGroup ];
-		order: 1900.
-		
 	(aBuilder item: #'Inspect Method')
 		action: [ target inspectMethod ];
 		order: 1950.

@@ -1,3 +1,3 @@
 renameAction
-
-	self renameGroup
+self renameState ifTrue: [  
+	self renameGroup ]

@@ -1,4 +1,3 @@
 selection: aNode
-
 	super selection: aNode.
-	self model updateSelectedNode.
+	self model updateSelectedNode

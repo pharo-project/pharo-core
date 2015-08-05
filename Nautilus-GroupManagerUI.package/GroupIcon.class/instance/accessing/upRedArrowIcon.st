@@ -1,0 +1,2 @@
+upRedArrowIcon
+	^ upRedArrowIcon

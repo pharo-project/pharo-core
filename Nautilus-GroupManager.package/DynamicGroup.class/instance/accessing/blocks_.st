@@ -1,3 +1,0 @@
-blocks: aCollection
-
-	blocks := aCollection

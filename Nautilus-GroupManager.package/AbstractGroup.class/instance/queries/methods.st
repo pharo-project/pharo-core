@@ -1,3 +1,0 @@
-methods
-
-	^ self elements

@@ -1,3 +1,3 @@
 removeAction
-	
-	self removeAGroup
+	self removeState
+		ifTrue: [ self removeAGroup ]

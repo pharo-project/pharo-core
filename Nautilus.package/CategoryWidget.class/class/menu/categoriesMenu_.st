@@ -49,10 +49,6 @@ categoriesMenu: aBuilder
 		order: 1400;
 		icon: (Smalltalk ui icons iconNamed: #removeIcon);
 		withSeparatorAfter.
-		
-	(aBuilder item: #'Add in group...')
-		action: [ target addProtocolsInGroup ];
-		order: 1500.
 	
 	(aBuilder item: #'File Out')
 		action: [ target fileOutCategories ];

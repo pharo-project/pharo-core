@@ -19,12 +19,6 @@ buildClassShortcutsOn: aBuilder
 		do: [ :target | target copyClasses ]
 		description: 'Copy the selected classes'.
 	
-	(aBuilder shortcut: #addClassesInGroup)
-		category: #NautilusClassShortcuts
-		default: $e command
-		do: [ :target | target addClassesInGroup ]
-		description: 'Add the selected classes in a group'.
-	
 	(aBuilder shortcut: #findMethod)
 		category: #NautilusClassShortcuts
 		default: $f command
@@ -83,12 +77,4 @@ buildClassShortcutsOn: aBuilder
 		category: #NautilusClassShortcuts
 		default: $x command
 		do: [ :target | target removeClasses ]
-		description: 'Remove the selected classes'.
-		
-	(aBuilder shortcut: #removeClassesFromGroup)
-		category: #NautilusClassShortcuts
-		default: $x command shift
-		do: [ :target |
-			(target showGroups and: [ target selectedGroup isReadOnly not ])
-				ifTrue: [ target removeClassFromGroup ]]
-		description: 'Remove the selected classes from the selected group'
+		description: 'Remove the selected classes'

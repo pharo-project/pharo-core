@@ -1,3 +1,5 @@
 newContentMorph
-
-	^(self newColumn: {self treeBox}) hResizing: #spaceFill
+	^ (self
+		newColumn:
+			{self elementBox.
+			self groupTreeBox}) hResizing: #spaceFill

@@ -19,12 +19,6 @@ buildMethodShortcutsOn: aBuilder
 		do: [ :target | target categorizeMethod ]
 		description: 'Recategorize the selected methods'.
 	
-	(aBuilder shortcut: #addMethodsInGroup)
-		category: #NautilusMethodShortcuts
-		default: $e command
-		do: [ :target | target addMethodsInGroup ]
-		description: 'Add the selected methods in a group'.
-	
 	(aBuilder shortcut: #findMethod)
 		category: #NautilusMethodShortcuts
 		default: $f command

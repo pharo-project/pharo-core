@@ -1,5 +1,0 @@
-registerToAnnouncements
-
-	self 
-		registerToClassAnnouncements;
-		registerToMethodAnnouncements

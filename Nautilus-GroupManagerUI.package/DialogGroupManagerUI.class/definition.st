@@ -1,5 +1,5 @@
 DialogWindow subclass: #DialogGroupManagerUI
-	instanceVariableNames: 'groupManager treeModel tree'
+	instanceVariableNames: 'groupManager textModel groupTreeModel groupTree'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Nautilus-GroupManagerUI'

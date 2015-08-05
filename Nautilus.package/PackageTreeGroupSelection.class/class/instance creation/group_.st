@@ -1,2 +1,2 @@
 group: aGroup
-	^ self node: (PackageTreeGroupNodeModel with: aGroup)
+	^ self node: (PackageTreeMethodGroupNodeModel with: aGroup)

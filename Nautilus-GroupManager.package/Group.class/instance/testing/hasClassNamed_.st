@@ -1,0 +1,2 @@
+hasClassNamed: aClassName
+	^ self subclassResponsibility

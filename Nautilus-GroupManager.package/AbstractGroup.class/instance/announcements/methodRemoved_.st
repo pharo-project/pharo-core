@@ -1,3 +1,0 @@
-methodRemoved: anAnnouncement
-
-	self subclassResponsibility

@@ -1,3 +1,2 @@
 text
-
-	^ (self groupManager elementsToAdd collect: [:elt | elt printString ]) asArray sort joinUsing: Character cr
+	^ (self groupManager elementsToAdd collect: [ :elt | elt name ]) asArray sort joinUsing: Character cr

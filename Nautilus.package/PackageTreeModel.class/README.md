@@ -1,1 +1,1 @@
-I'm a tree model for managing grouos, packages and tags.
+I'm a tree model for managing groups, packages and tags.

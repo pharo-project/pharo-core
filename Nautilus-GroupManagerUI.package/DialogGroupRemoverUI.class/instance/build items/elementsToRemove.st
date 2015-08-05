@@ -1,0 +1,2 @@
+elementsToRemove
+	^ self groupManager elementsToRemove

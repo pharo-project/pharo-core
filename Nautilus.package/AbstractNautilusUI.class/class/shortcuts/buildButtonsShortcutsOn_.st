@@ -1,18 +1,6 @@
 buildButtonsShortcutsOn: aBuilder
 	<keymap>
 
-	(aBuilder shortcut: #showPackage)
-		category: #NautilusGlobalShortcuts
-		default: $t command  ,$p command
-		do: [ :target | target showGroups: false ]
-		description: 'Find a class'.
-			
-	(aBuilder shortcut: #showGroup)
-		category: #NautilusGlobalShortcuts
-		default: $t command  , $g command 
-		do: [ :target | target showGroups: true ]
-		description: 'Find a package'.
-		
 	(aBuilder shortcut: #showInstanceSide)
 		category: #NautilusGlobalShortcuts
 		default: $t command  ,$i command 

@@ -1,0 +1,2 @@
+selectedElements
+	^ self groupManager selectedElements

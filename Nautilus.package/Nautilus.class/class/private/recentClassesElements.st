@@ -1,4 +1,6 @@
 recentClassesElements
-	^ self recentClasses mostViewedElements
-		collect: [ :nm | Smalltalk at: nm ifAbsent: [nil] ]
-		thenSelect: [ :e | e notNil ]
+	"self recentClassesElements"
+	| res |
+	res := OrderedCollection new. 
+	self recentClasses mostViewedElements do: [ :each | Smalltalk globals at: each ifPresent: [ :cls| res add: cls ]].
+	^ res

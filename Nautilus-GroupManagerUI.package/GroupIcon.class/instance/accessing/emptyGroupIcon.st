@@ -1,0 +1,2 @@
+emptyGroupIcon
+	^ emptyGroupIcon

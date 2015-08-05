@@ -1,0 +1,2 @@
+itemSelected: anAnnouncement
+	self groupManager selectedElements: anAnnouncement selection selectedItems

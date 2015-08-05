@@ -4,7 +4,6 @@ buildNewCodeSourceAreaRubric
 		withSourceCodeAnnotation;
 		beForSmalltalkCode;
 		beWrapped;
-		withCodeSizeFeedback;
 		yourself.
 	self updateSourceCodeAreaWith: self sourceCode.
 	scrolledText textArea announcer when: RubSelectionChanged send: #whenTextAreaSelectionChanged: to: self.

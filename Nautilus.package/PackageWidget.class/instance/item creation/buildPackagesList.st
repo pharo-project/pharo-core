@@ -1,23 +1,19 @@
 buildPackagesList
-		| treeModel |
-
-	treeModel := PackageTreeModel new  
-		model: self model ;
+	| treeModel |
+	treeModel := PackageTreeModel new
+		model: self model;
 		yourself.
-
 	packagesList := (MorphTreeMorph on: treeModel)
 		multiSelection: true;
 		dropEnabled: true;
 		getMenuSelector: #menu:shifted:;
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;
+		doubleClickSelector: #doubleClick;
 		yourself.
-				
-	treeModel announcer 
-		when: MorphTreeSelectionChanged do: [ :ann | self model selectedFromPackageGroupView: ann selection  ].
-				
+	treeModel announcer
+		when: MorphTreeSelectionChanged
+		do: [ :ann | self model selectedFromPackageGroupView: ann selection ].
 	packagesList buildContents.
-	self model selectedPackage ifNotNil: [ 
-		self model listSelectItem: self model selectedPackage ].
-	
-	^ packagesList.
+	self model selectedPackage ifNotNil: [ self model listSelectItem: self model selectedPackage ].
+	^ packagesList

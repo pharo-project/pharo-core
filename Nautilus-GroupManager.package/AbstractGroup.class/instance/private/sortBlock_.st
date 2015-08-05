@@ -1,3 +1,0 @@
-sortBlock: aBlock
-
-	sortBlock := aBlock

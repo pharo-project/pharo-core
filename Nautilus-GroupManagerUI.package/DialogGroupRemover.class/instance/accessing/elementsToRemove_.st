@@ -1,0 +1,2 @@
+elementsToRemove: aCollection
+	elementsToRemove := aCollection
