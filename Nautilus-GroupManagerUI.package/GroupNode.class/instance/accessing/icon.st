@@ -1,2 +1,2 @@
 icon
-	^ GroupIcon current groupIcon
+	^ Smalltalk ui icons publishIcon

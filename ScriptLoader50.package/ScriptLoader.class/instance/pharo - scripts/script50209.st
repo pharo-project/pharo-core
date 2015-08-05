@@ -1,4 +1,4 @@
-script50208
+script50209
 
 	^ 'AST-Core-TheIntegrator.340.mcz
 AST-Tests-Core-TheIntegrator.75.mcz
@@ -157,7 +157,7 @@ Monticello-Tests-TheIntegrator.21.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.189.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
-MonticelloGUI-TheIntegrator.361.mcz
+MonticelloGUI-TheIntegrator.364.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.6.mcz
 Morphic-Base-TheIntegrator.468.mcz
@@ -191,9 +191,9 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-TheIntegrator.1017.mcz
+Nautilus-TheIntegrator.1019.mcz
 Nautilus-GroupManager-TheIntegrator.8.mcz
-Nautilus-GroupManagerUI-TheIntegrator.13.mcz
+Nautilus-GroupManagerUI-TheIntegrator.15.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
 NautilusCommon-TheIntegrator.273.mcz
 NautilusRefactoring-TheIntegrator.241.mcz
