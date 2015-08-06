@@ -2,7 +2,7 @@ buildRemoveButton
 	^ IconicButton new
 		target: self;
 		actionSelector: #removeAction;
-		labelGraphic: GroupIcon current groupRemoveIcon;
+		labelGraphic: Smalltalk ui icons removeIcon;
 		color: Color transparent;
 		helpText: 'Remove the selected group';
 		borderWidth: 0;

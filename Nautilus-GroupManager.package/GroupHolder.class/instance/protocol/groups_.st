@@ -1,0 +1,2 @@
+groups: aCollectionOfGroups
+	groups  := aCollectionOfGroups 

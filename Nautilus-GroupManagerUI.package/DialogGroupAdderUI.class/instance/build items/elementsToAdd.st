@@ -1,3 +1,0 @@
-elementsToAdd
-
-	^ self groupManager elementsToAdd

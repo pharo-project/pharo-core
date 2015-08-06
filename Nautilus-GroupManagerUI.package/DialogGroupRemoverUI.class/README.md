@@ -1,1 +1,0 @@
-Dialog UI for the group remover

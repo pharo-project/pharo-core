@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '16085 Removing PluugableTextMorph from MC tools
-	https://pharo.fogbugz.com/f/cases/16085
+ ^ '16093 Remove a forgotten PluggableTextMorph in groups 
+	https://pharo.fogbugz.com/f/cases/16093
 
-16092 Change package group icon 
-	https://pharo.fogbugz.com/f/cases/16092'
+15633 FT2Handle needs to cleanUp on exit, not on startup
+	https://pharo.fogbugz.com/f/cases/15633
+
+16087 Package BlueInk-Core is empty
+	https://pharo.fogbugz.com/f/cases/16087'

@@ -1,3 +1,0 @@
-uiClass
-
-	^ DialogGroupAdderUI

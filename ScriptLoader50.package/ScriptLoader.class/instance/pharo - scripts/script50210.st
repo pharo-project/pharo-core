@@ -1,4 +1,4 @@
-script50209
+script50210
 
 	^ 'AST-Core-TheIntegrator.340.mcz
 AST-Tests-Core-TheIntegrator.75.mcz
@@ -50,7 +50,7 @@ DebuggerActions-StephaneDucasse.76.mcz
 DebuggerFilters-TheIntegrator.9.mcz
 DebuggerModel-TheIntegrator.112.mcz
 Deprecated50-TheIntegrator.11.mcz
-EmbeddedFreeType-TheIntegrator.21.mcz
+EmbeddedFreeType-TheIntegrator.24.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-MarcusDenker.32.mcz
 FileSystem-Core-TheIntegrator.180.mcz
@@ -67,7 +67,7 @@ Flashback-Decompiler-Tests-TheIntegrator.97.mcz
 FontChooser-TheIntegrator.7.mcz
 FontInfrastructure-TheIntegrator.8.mcz
 FontInfrastructure-Tests-TheIntegrator.2.mcz
-FreeType-TheIntegrator.707.mcz
+FreeType-TheIntegrator.711.mcz
 FreeTypeTests-SvenVanCaekenberghe.5.mcz
 Fuel-TheIntegrator.813.mcz
 FuelCommandLineHandler-TheIntegrator.27.mcz
@@ -191,9 +191,9 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-TheIntegrator.1019.mcz
-Nautilus-GroupManager-TheIntegrator.8.mcz
-Nautilus-GroupManagerUI-TheIntegrator.15.mcz
+Nautilus-TheIntegrator.1024.mcz
+Nautilus-GroupManager-TheIntegrator.11.mcz
+Nautilus-GroupManagerUI-TheIntegrator.20.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
 NautilusCommon-TheIntegrator.273.mcz
 NautilusRefactoring-TheIntegrator.241.mcz

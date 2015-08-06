@@ -2,7 +2,7 @@ fontFor: aLogicalFont familyName: familyName
 	| info answer simulatedSqueakEmphasis needsSimulatedBold needsSimulatedSlant
 	squeakBoldEmphasis squeakItalicEmphasis |
 	
-	FT2Library current == nil ifTrue:[^nil].
+	FT2Library current ifNil:[^nil].
 	info:= self fontInfoFor: aLogicalFont familyName: familyName.
 	info ifNil:[^nil].
 	answer := FreeTypeFont forLogicalFont: aLogicalFont fileInfo: info.

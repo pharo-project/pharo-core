@@ -1,5 +1,5 @@
 ThemeIcons subclass: #GroupIcon
-	instanceVariableNames: 'groupRemoveIcon groupEditIcon groupAddIcon downArrowIcon upRedArrowIcon groupIcon emptyGroupIcon'
+	instanceVariableNames: 'groupEditIcon groupAddIcon downArrowIcon upRedArrowIcon emptyGroupIcon'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Nautilus-GroupManagerUI'

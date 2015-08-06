@@ -1,3 +1,0 @@
-groups: anObject
-
-	groups := anObject

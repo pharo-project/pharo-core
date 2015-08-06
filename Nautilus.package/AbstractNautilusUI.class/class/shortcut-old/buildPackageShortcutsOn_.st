@@ -7,12 +7,6 @@ buildPackageShortcutsOn: aBuilder
 		do: [ :target | target fullBrowse ]
 		description: 'Open a new browser on the selection'.
 		
-	(aBuilder shortcut: #addPackagesInGroup)
-		category: #NautilusPackageShortcuts
-		default: $e command
-		do: [ :target | target addPackagesInGroup ]
-		description: 'Add the selected package in a group'.
-		
 	(aBuilder shortcut: #findClass)
 		category: #NautilusPackageShortcuts
 		default: $f command

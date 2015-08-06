@@ -1,10 +1,13 @@
 fromBytes: aByteArray index: anInteger
 	"share alike instances"
+	| newFace |
 	
 	self allInstancesDo: [:inst |
 		(inst fileContentsExternalMemoryBytes = aByteArray and: [inst index = anInteger])
 			ifTrue: [^inst "validate"]].
-	^(self basicNew)
+	newFace := self basicNew
 		fileContentsExternalMemory: (FreeTypeExternalMemory bytes: aByteArray);
 		index: anInteger;
-		yourself
+		yourself.
+	self register: newFace.
+	^ newFace

@@ -1,2 +1,2 @@
 asNautilusSelection
-	^ PackageTreePackageSelection package: self item
+	^ PackageTreePackageSelection node: self

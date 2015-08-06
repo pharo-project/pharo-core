@@ -16,7 +16,7 @@ groupsMenu: aBuilder
 		order: 1100.
 	target selectedGroup
 		ifNotNil: [ 
-				(aBuilder item: #'Open groups manager')
+				(aBuilder item: #'Open group manager')
 						action: [ target openGroupManager ];
 						order: 1150.
 			target selectedGroup isReadOnly

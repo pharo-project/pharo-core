@@ -1,2 +1,2 @@
 installAllFontsIn: provider
-	self allSubclasses do: [ :each |  each installFontsIn: provider ]
+	self allSubclasses do: [ :each | each installFontsIn: provider ]

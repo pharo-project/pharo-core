@@ -48,13 +48,4 @@ packagesMenu: aBuilder
 		order: 1300;
 		help: 'File out a package';
 		withSeparatorAfter.
-	(aBuilder item: #'Add in Group...')
-		keyText: 'n, e, p' if: Nautilus useOldStyleKeys not;
-		action: [ target addPackagesInGroup ];
-		order: 1600;
-		help: 'Add current package in a group'.
-	(aBuilder item: #'Remove from Group...')
-		action: [ target removeFromGroupPackages: target selectedPackages ];
-		order: 1650;
-		help: 'Remove current package from a group';
-		withSeparatorAfter
+	self packagesMenuGroupsItems: aBuilder

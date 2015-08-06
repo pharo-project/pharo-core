@@ -1,3 +1,0 @@
-elementsToAdd: anObject
-
-	elementsToAdd := anObject

@@ -1,2 +1,2 @@
 withClassesIn: aRBBrowserEnvironment createHierarchySorter: aClass 
-	self shouldBeImplemented.
+	^ self asNautilusSelection withClassesIn: aRBBrowserEnvironment createHierarchySorter: aClass

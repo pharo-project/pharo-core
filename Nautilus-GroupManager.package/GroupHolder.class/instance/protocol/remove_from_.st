@@ -1,5 +1,5 @@
-remove: aClass from: aGroup
+remove: aPackage from: aGroup
 
 	^ aGroup
-		ifAllowed: [ aGroup remove: aClass ]
+		ifAllowed: [ aGroup removePackages: { aPackage } ]
 		ifNot: [ self openReadOnlyError ]
