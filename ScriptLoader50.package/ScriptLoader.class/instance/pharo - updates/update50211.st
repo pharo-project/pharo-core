@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '16095 #browseScropedMorph and #browseVariablesMorph are Undeclared
+update50211
+	"self new update50211"
+	self withUpdateLog: '16095 #browseScropedMorph and #browseVariablesMorph are Undeclared
 	https://pharo.fogbugz.com/f/cases/16095
 
 16094 SHRBTextStyler can not style incomplete literal arrays
@@ -15,4 +16,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/16079
 
 16104 Fast Table has infinite loop when drawing then consuming a lot of CPU
-	https://pharo.fogbugz.com/f/cases/16104'
+	https://pharo.fogbugz.com/f/cases/16104'.
+	self loadTogether: self script50211 merge: false.
+	self loadConfiguration: 'FastTable' version: '0.7.5'.self flushCaches.

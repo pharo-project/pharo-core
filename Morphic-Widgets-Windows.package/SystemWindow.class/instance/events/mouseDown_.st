@@ -5,6 +5,8 @@ mouseDown: evt
 	(self valueOfProperty: #processingMouseDown) == true
 		ifTrue: [^self]. "recursive handling"
 	self isEmbedded ifTrue: [^self].
+	
+	evt wasHandled: true.
 	evt hand waitForClicksOrDrag: self event: evt. "allow double-click response"
 	self setProperty: #clickPoint toValue: evt cursorPoint.
 	TopWindow == self

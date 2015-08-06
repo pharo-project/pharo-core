@@ -1,5 +1,5 @@
 AbstractTool subclass: #AbstractNautilusUI
-	instanceVariableNames: 'model window cachedHierarchy sourceCodePanel fullDisplayedComment sourceCodeContainer shouldUpdateTitle testSemaphore contentSelection acceptor classifier classCommentTextModel commentWidget sourceTextWidget sourceCodeSelectionInterval sourceTextModel'
+	instanceVariableNames: 'model window cachedHierarchy sourceCodePanel fullDisplayedComment sourceCodeContainer shouldUpdateTitle testSemaphore contentSelection acceptor classifier classCommentTextModel commentWidget sourceTextWidget sourceCodeSelectionInterval sourceTextModel browseScropedMorph browseVariablesMorph'
 	classVariableNames: 'ClassesIconsCache GroupsIconsCache NextFocusKey PackagesIconsCache PreviousFocusKey'
 	poolDictionaries: ''
 	category: 'Nautilus'

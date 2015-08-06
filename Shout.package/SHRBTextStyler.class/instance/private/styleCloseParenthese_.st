@@ -2,7 +2,7 @@ styleCloseParenthese: aMessageNode
 	aMessageNode parentheses
 		ifNotEmpty: [ 
 			aMessageNode parentheses
-				do: [ :interval | 
+				reverseDo: [ :interval | 
 					| pos |
 					pos := interval last.
 					parentheseLevel := parentheseLevel - 1.

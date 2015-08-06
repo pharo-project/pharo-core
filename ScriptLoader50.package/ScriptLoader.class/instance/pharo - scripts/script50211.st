@@ -1,6 +1,6 @@
-script50210
+script50211
 
-	^ 'AST-Core-TheIntegrator.340.mcz
+	^ 'AST-Core-TheIntegrator.342.mcz
 AST-Tests-Core-TheIntegrator.75.mcz
 Announcements-Core-MarcusDenker.55.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -23,7 +23,6 @@ Balloon-TheIntegrator.123.mcz
 BalloonTests-MarcusDenker.3.mcz
 BaselineOfQualityAssistant-YuriyTymchuk.5.mcz
 BaselineOfRenraku-YuriyTymchuk.2.mcz
-BlueInk-Core-TheIntegrator.17.mcz
 BlueInk-Extras-TheIntegrator.6.mcz
 BlueInk-Tests-TheIntegrator.4.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
@@ -129,7 +128,7 @@ Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.96.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
 Komitter-TheIntegrator.132.mcz
-Manifest-Core-TheIntegrator.227.mcz
+Manifest-Core-TheIntegrator.229.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.51.mcz
 MenuRegistration-TheIntegrator.76.mcz
@@ -174,7 +173,7 @@ Morphic-Widgets-Scrolling-TheIntegrator.25.mcz
 Morphic-Widgets-Tabs-TheIntegrator.16.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.9.mcz
 Morphic-Widgets-Tree-TheIntegrator.33.mcz
-Morphic-Widgets-Windows-TheIntegrator.51.mcz
+Morphic-Widgets-Windows-TheIntegrator.53.mcz
 MorphicTests-TheIntegrator.101.mcz
 Multilingual-Encodings-MarcusDenker.47.mcz
 Multilingual-Languages-StephaneDucasse.40.mcz
@@ -191,7 +190,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-TheIntegrator.1024.mcz
+Nautilus-TheIntegrator.1026.mcz
 Nautilus-GroupManager-TheIntegrator.11.mcz
 Nautilus-GroupManagerUI-TheIntegrator.20.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
@@ -215,7 +214,7 @@ OpalCompiler-Tests-TheIntegrator.300.mcz
 OpalTools-TheIntegrator.16.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz
-Polymorph-Widgets-TheIntegrator.1229.mcz
+Polymorph-Widgets-TheIntegrator.1231.mcz
 PragmaCollector-TheIntegrator.3.mcz
 ProfStef-Core-TheIntegrator.70.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -262,7 +261,7 @@ Settings-System-EstebanLorenzano.38.mcz
 ShoreLine-Report-Core-TommasoDalSasso.9.mcz
 ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
-Shout-TheIntegrator.269.mcz
+Shout-TheIntegrator.271.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.645.mcz
 Slot-Tests-TheIntegrator.43.mcz

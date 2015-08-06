@@ -1,5 +1,4 @@
 visitSequenceNode: aSequenceNode 
-		self haltOnce.
 	aSequenceNode temporaries do: [ :temporary|
 		self 
 			addStyle: #patternTempVar

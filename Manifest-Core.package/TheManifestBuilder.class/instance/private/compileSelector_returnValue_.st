@@ -1,4 +1,5 @@
-compileSelector: selector returnValue: arrayString
-	manifestClass class
-		compile: selector asString , Character cr asString , '^ ' , arrayString 
+compileSelector: selector returnValue: aLiteral
+	self 
+		compileSelector: selector
+		returnValue: aLiteral
 		classified: 'code-critics'
