@@ -1,4 +1,4 @@
-SHTextStylerST80 subclass: #RubSHTextStylerST80
+SHRBTextStyler subclass: #RubSHTextStylerST80
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

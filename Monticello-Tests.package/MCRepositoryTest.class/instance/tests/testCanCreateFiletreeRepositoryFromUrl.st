@@ -1,7 +1,3 @@
 testCanCreateFiletreeRepositoryFromUrl
-	| dir |
-	[ 
-	dir := 'tmp' asFileReference ensureCreateDirectory.
-	repository := MCRepository fromUrl: 'filetree://tmp'.
-	self assert: (repository isKindOf: MCFileTreeRepository) ]
-		ensure: [ dir delete ]
+	repository := MCRepository fromUrl: (self homeDirectoryUrl scheme: 'filetree') asString.
+	self assert: (repository isKindOf: MCFileTreeRepository) 

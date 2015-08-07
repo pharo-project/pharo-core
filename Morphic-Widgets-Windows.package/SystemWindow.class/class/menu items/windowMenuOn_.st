@@ -1,8 +1,10 @@
 windowMenuOn: aBuilder
 	<windowMenu>
+	"To inject your custom items in a specific place, note that each item increases in order by 1. For example, if you wanted your item to be the second item, you could give it an #order: 1.5"
 
 	| closableLabel draggableLabel maximizeLabel |
 	(aBuilder item: #'Close')
+		order: 1.0;
 		action: [ aBuilder model closeBoxHit ];
 		icon: self icons windowCloseForm;
 		enabledBlock: [ aBuilder model allowedToClose ];
@@ -22,9 +24,9 @@ windowMenuOn: aBuilder
 	(aBuilder item: #'Create window group')
 		action: [ aBuilder model createWindowGroup ];
 		withSeparatorAfter.
-	aBuilder model mustNotClose
-	    ifFalse: [ closableLabel := #'Make unclosable' ]
-	    ifTrue: [ closableLabel := #'Make closable' ].
+	closableLabel := aBuilder model mustNotClose
+	    ifFalse: [ #'Make unclosable' ]
+	    ifTrue: [ #'Make closable' ].
 	(aBuilder item: closableLabel)
 		action: [ aBuilder model perform: closableLabel asCamelCase uncapitalized ].
 	draggableLabel := aBuilder model isSticky ifTrue: [#'Make draggable'] ifFalse: [#'Make undraggable'].

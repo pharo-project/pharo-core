@@ -1,4 +1,4 @@
-script50211
+script50212
 
 	^ 'AST-Core-TheIntegrator.342.mcz
 AST-Tests-Core-TheIntegrator.75.mcz
@@ -100,7 +100,7 @@ Glamour-Tests-Core-BernardoContreras.105.mcz
 Glamour-Tests-Morphic-AndreiChis.124.mcz
 Glamour-Tests-Resources-AndreiChis.3.mcz
 Glamour-Tests-Rubric-AndreiChis.14.mcz
-Gofer-Core-TheIntegrator.233.mcz
+Gofer-Core-TheIntegrator.235.mcz
 Gofer-Tests-TheIntegrator.164.mcz
 Graphics-Canvas-TheIntegrator.2.mcz
 Graphics-Display Objects-TheIntegrator.161.mcz
@@ -152,7 +152,7 @@ Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
 Monticello-TheIntegrator.1050.mcz
-Monticello-Tests-TheIntegrator.21.mcz
+Monticello-Tests-TheIntegrator.24.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.189.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
@@ -165,7 +165,7 @@ Morphic-Examples-TheIntegrator.42.mcz
 Morphic-Widgets-Basic-TheIntegrator.43.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
 Morphic-Widgets-Extra-TheIntegrator.22.mcz
-Morphic-Widgets-FastTable-StephanEggermont.38.mcz
+Morphic-Widgets-FastTable-EstebanLorenzano.40.mcz
 Morphic-Widgets-List-TheIntegrator.21.mcz
 Morphic-Widgets-NewList-TheIntegrator.5.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.57.mcz
@@ -173,7 +173,7 @@ Morphic-Widgets-Scrolling-TheIntegrator.25.mcz
 Morphic-Widgets-Tabs-TheIntegrator.16.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.9.mcz
 Morphic-Widgets-Tree-TheIntegrator.33.mcz
-Morphic-Widgets-Windows-TheIntegrator.53.mcz
+Morphic-Widgets-Windows-TheIntegrator.55.mcz
 MorphicTests-TheIntegrator.101.mcz
 Multilingual-Encodings-MarcusDenker.47.mcz
 Multilingual-Languages-StephaneDucasse.40.mcz

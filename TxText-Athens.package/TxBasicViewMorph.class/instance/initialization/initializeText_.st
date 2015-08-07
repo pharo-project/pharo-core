@@ -1,0 +1,2 @@
+initializeText: aTxModel 
+	self subclassResponsibility

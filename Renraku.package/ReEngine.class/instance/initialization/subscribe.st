@@ -1,8 +1,8 @@
 subscribe
 
 	SystemAnnouncer uniqueInstance weak
-		on: ClassModifiedClassDefinition send: #classDefinitionModified: to: self;
-		on: ClassCommented send: #classCommented: to: self;
-		on: ClassRenamed send: #classModified: to: self;
-		on: MethodModified send: #methodModified: to: self;
-		on: MethodRecategorized send: #methodRecategorized: to: self
+		when: ClassModifiedClassDefinition send: #classDefinitionModified: to: self;
+		when: ClassCommented send: #classCommented: to: self;
+		when: ClassRenamed send: #classModified: to: self;
+		when: MethodModified send: #methodModified: to: self;
+		when: MethodRecategorized send: #methodRecategorized: to: self
