@@ -1,4 +1,3 @@
 formatAsYouRead
-	| formatter |
-	formatter := RBProgramNode formatterClass.
-	^ formatter formatAsYouReadPolicy
+	 
+	^ RBProgramNode formatterClass formatAsYouReadPolicy

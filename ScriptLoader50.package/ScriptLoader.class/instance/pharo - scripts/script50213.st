@@ -1,6 +1,6 @@
-script50212
+script50213
 
-	^ 'AST-Core-TheIntegrator.342.mcz
+	^ 'AST-Core-TheIntegrator.344.mcz
 AST-Tests-Core-TheIntegrator.75.mcz
 Announcements-Core-MarcusDenker.55.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -21,7 +21,7 @@ Athens-Morphic-NicolaiHess.57.mcz
 Athens-Text-NicolaiHess.16.mcz
 Balloon-TheIntegrator.123.mcz
 BalloonTests-MarcusDenker.3.mcz
-BaselineOfQualityAssistant-YuriyTymchuk.5.mcz
+BaselineOfQualityAssistant-YuriyTymchuk.6.mcz
 BaselineOfRenraku-YuriyTymchuk.2.mcz
 BlueInk-Extras-TheIntegrator.6.mcz
 BlueInk-Tests-TheIntegrator.4.mcz
@@ -190,7 +190,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-TheIntegrator.1026.mcz
+Nautilus-TheIntegrator.1028.mcz
 Nautilus-GroupManager-TheIntegrator.11.mcz
 Nautilus-GroupManagerUI-TheIntegrator.20.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
@@ -219,7 +219,7 @@ PragmaCollector-TheIntegrator.3.mcz
 ProfStef-Core-TheIntegrator.70.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
-QualityAssistant-YuriyTymchuk.61.mcz
+QualityAssistant-YuriyTymchuk.62.mcz
 RPackage-Core-TheIntegrator.397.mcz
 RPackage-Tests-TheIntegrator.173.mcz
 RecentSubmissions-StephaneDucasse.233.mcz
@@ -238,7 +238,7 @@ Regex-Core-MarcusDenker.33.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
 ReleaseTests-TheIntegrator.15.mcz
-Renraku-YuriyTymchuk.67.mcz
+Renraku-YuriyTymchuk.68.mcz
 Renraku-Test-YuriyTymchuk.15.mcz
 Ring-Core-Containers-TheIntegrator.41.mcz
 Ring-Core-Kernel-TheIntegrator.218.mcz
@@ -246,7 +246,7 @@ Ring-Monticello-TheIntegrator.34.mcz
 Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.83.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
-Rubric-FranckWarlouzet.261.mcz
+Rubric-NicolaiHess.263.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
 SUnit-Core-TheIntegrator.150.mcz
@@ -327,10 +327,10 @@ Tools-TheIntegrator.1504.mcz
 Tools-Test-TheIntegrator.4.mcz
 Traits-TheIntegrator.799.mcz
 Transcript-TheIntegrator.34.mcz
-TxText-Athens-NicolaiHess.51.mcz
+TxText-Athens-NicolaiHess.52.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
 TxText-Model-SeanDeNigris.61.mcz
-TxText-Styler-ThomasHeniart.9.mcz
+TxText-Styler-NicolaiHess.11.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
 UIManager-TheIntegrator.145.mcz
 Unicode-Initialization-MarcusDenker.10.mcz

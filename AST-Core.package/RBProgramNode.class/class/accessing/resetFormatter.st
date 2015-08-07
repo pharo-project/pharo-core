@@ -1,0 +1,5 @@
+resetFormatter
+
+	self formatterClass: nil
+
+	
