@@ -1,5 +1,5 @@
 isInlineAndOr
-	self methodNode compilationContext optionInlineAndOr ifFalse: [ ^false ]. 
+	self methodCompilationContextOrNil ifNotNil:[:c | c optionInlineAndOr ifFalse: [ ^false ]]. 
 	self receiver isBlock ifTrue: [^ false].
 	self isCascaded ifTrue: [^ false].
 	(#(and: or:) includes: self selector) ifFalse: [^ false].

@@ -1,5 +1,5 @@
 isInlineCase
-	self methodNode compilationContext optionInlineCase ifFalse: [ ^false ]. 
+	self methodCompilationContextOrNil ifNotNil:[:c | c optionInlineCase ifFalse: [ ^false ]]. 
 	self isCascaded ifTrue: [^ false].
 	(#(caseOf: caseOf:otherwise:) includes: self selector) ifFalse: [^ false].
 	self arguments size = 2 ifTrue: [  "otherwise block"

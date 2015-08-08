@@ -1,3 +1,0 @@
-asText
-
-	^ initialContents asText

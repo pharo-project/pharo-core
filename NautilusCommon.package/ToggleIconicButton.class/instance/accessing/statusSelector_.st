@@ -1,3 +1,0 @@
-statusSelector: anObject
-	
-		statusSelector := anObject

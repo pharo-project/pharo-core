@@ -1,3 +1,0 @@
-enabledIcon
-
-		^ enabledIcon

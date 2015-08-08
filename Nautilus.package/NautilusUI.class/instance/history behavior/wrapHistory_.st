@@ -1,3 +1,3 @@
 wrapHistory: anEntry
 	
-	^ GoBackStringMorph contents: anEntry key asHistoryString
+	^ StringMorph contents: anEntry key asHistoryString

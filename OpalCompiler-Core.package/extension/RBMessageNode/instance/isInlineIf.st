@@ -1,5 +1,5 @@
 isInlineIf
-	self methodNode compilationContext ifNotNil: [ :context | context optionInlineIf ifFalse: [ ^false ]]. 
+	self methodCompilationContextOrNil ifNotNil:[:c | c optionInlineIf ifFalse: [ ^false ]]. 
 	self receiver isBlock ifTrue: [^ false].
 	self isCascaded ifTrue: [^ false].
 	(#(ifTrue: ifFalse: ifTrue:ifFalse: ifFalse:ifTrue:) includes: self selector) ifFalse: [^ false].

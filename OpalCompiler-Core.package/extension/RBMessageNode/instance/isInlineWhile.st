@@ -1,6 +1,6 @@
 isInlineWhile
 	
-	self methodNode compilationContext optionInlineWhile ifFalse: [ ^false ]. 
+	self methodCompilationContextOrNil ifNotNil:[:c | c optionInlineWhile ifFalse: [ ^false ]]. 
 	self isCascaded ifTrue: [^ false].
 	(#(whileFalse: whileTrue: whileFalse whileTrue) includes: self selector) ifFalse: [^ false].
 	self receiver isBlock ifFalse: [^ false].

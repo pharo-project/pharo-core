@@ -1,5 +1,5 @@
 isInlined 
-	self methodNode compilationContext optionInlineNone ifTrue: [ ^false ]. 
+	self methodCompilationContextOrNil ifNotNil:[:c | c optionInlineNone ifTrue: [ ^false ]]. 
 	self isInlineIf ifTrue: [^true].
 	self isInlineIfNil  ifTrue: [^true]. 
 	self isInlineAndOr  ifTrue: [^true].

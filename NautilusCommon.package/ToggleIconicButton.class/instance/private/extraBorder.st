@@ -1,3 +1,0 @@
-extraBorder
-
-	^ 0.

@@ -2,7 +2,7 @@ isInlineIfNil
 
 	| assertNone assertOneOrNone |
 	
-	self methodNode compilationContext ifNotNil: [:context | context optionInlineIfNil ifFalse: [ ^false ]]. 
+	self methodCompilationContextOrNil ifNotNil:[:c | c optionInlineIfNil ifFalse: [ ^false ]]. 
 	self receiver isBlock ifTrue: [^ false].
 	self isCascaded ifTrue: [^ false].
 	(#(ifNil: ifNotNil: ifNil:ifNotNil: ifNotNil:ifNil:) includes: self selector) ifFalse: [^ false].

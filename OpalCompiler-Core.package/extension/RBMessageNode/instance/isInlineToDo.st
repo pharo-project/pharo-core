@@ -1,7 +1,7 @@
 isInlineToDo
 
 	| block step |
-	self methodNode compilationContext optionInlineToDo ifFalse: [ ^false ]. 
+	self methodCompilationContextOrNil ifNotNil:[:c | c optionInlineToDo ifFalse: [ ^false ]]. 
 
 	self receiver isBlock ifTrue: [^ false].
 	self isCascaded ifTrue: [^ false].

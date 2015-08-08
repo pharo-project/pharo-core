@@ -1,7 +1,7 @@
 isInlineTimesRepeat
 
 	| block |
-	self methodNode compilationContext optionInlineTimesRepeat ifFalse: [ ^false ]. 
+	self methodCompilationContextOrNil ifNotNil:[:c | c optionInlineTimesRepeat ifFalse: [ ^false ]]. 
 
 	self receiver isBlock ifTrue: [^ false].
 	self isCascaded ifTrue: [^ false].

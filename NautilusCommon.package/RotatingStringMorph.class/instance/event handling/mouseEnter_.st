@@ -1,3 +1,0 @@
-mouseEnter: evt
-
-	rotating := true
