@@ -1,3 +1,3 @@
 oddRowColor: aColor
 
-	^ self model oddRowColor: aColor
+	^ self widget rowColorForOdd: aColor

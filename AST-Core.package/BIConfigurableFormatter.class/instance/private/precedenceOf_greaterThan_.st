@@ -5,9 +5,9 @@ precedenceOf: parentSelector greaterThan: childSelector
 	| childIndex parentIndex |
 	childIndex := 0.
 	parentIndex := 0.
-	1 to: self traditionalBinaryPrecedence size do: [ :i | 
-		((self traditionalBinaryPrecedence at: i) includes: parentSelector first)
+	1 to: self traditionalBinaryPrecedenceArray size do: [ :i | 
+		((self traditionalBinaryPrecedenceArray at: i) includes: parentSelector first)
 			ifTrue: [ parentIndex := i ].
-		((self traditionalBinaryPrecedence at: i) includes: childSelector first)
+		((self traditionalBinaryPrecedenceArray at: i) includes: childSelector first)
 			ifTrue: [ childIndex := i ] ].
 	^ childIndex < parentIndex

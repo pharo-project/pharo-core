@@ -1,0 +1,2 @@
+modelClass
+	^ TreeModel

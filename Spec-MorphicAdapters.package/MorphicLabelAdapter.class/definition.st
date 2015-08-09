@@ -1,5 +1,5 @@
 AbstractMorphicAdapter subclass: #MorphicLabelAdapter
-	instanceVariableNames: ''
+	instanceVariableNames: 'emphasisOptions'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-MorphicAdapters'

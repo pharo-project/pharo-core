@@ -1,0 +1,2 @@
+formatAsYouReadPolicy
+	^ FormatAsYouReadPolicy

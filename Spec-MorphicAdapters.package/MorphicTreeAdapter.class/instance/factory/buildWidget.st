@@ -18,5 +18,7 @@ buildWidget
 		isCheckList: self isCheckList;
 		doubleClickSelector: #doubleClick;
 		getMenuSelector: #menu:shifted:;
+		rowColorForEven: self evenRowColor;
+		rowColorForOdd: self oddRowColor;
 		buildContents;
 		yourself

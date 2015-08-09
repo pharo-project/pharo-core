@@ -1,3 +1,3 @@
-emphasis: anInteger 
+emphasis: anEmphasis
 
-	self widgetDo: [ :w | w emphasis: anInteger ]
+	self widgetDo: [ :w | w emphasis: (self emphasisCodeFor: anEmphasis) ]

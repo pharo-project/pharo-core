@@ -2,5 +2,5 @@ initialize
 	super initialize.
 	labelHolder := '' asValueHolder.
 	enabledHolder := true asValueHolder.
-	emphasis := TextEmphasis normal emphasisCode.
+	emphasis := #().
 	labelHolder whenChangedDo: [ self changed: #getText ].

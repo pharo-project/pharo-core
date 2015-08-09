@@ -1,4 +1,4 @@
 handleLineForSelector: selector withSeparatorBlock: aBlock
-	^ (self isLineTooLong: selector)
+	(self isLineTooLong: selector)
 		ifTrue: [ self newLine ]
 		ifFalse: [ aBlock value ]

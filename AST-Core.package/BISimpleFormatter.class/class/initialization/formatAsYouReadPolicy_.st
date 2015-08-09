@@ -1,0 +1,2 @@
+formatAsYouReadPolicy: anObject
+	FormatAsYouReadPolicy := anObject

@@ -1,6 +1,6 @@
 showInstance: aBoolean
 
-	self okToChange
+	self okToChangeSourceAndComment
 		ifTrue:[
 			self model showInstance: aBoolean.
 			self resetClassesListSelection.

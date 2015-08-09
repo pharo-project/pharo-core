@@ -52,7 +52,7 @@ settingsOn: aBuilder
 			(aBuilder setting: #stringFollowingReturn) label: 'String following return'.
 			(aBuilder setting: #stringInsideBlocks) label: 'String inside blocks'.
 			(aBuilder setting: #stringInsideParentheses) label: 'String inside parentheses'.
-			(aBuilder setting: #traditionalBinaryPrecedence) label: 'Traditional binary precedence'.
+			(aBuilder setting: #traditionalBinaryPrecedenceArray) label: 'Traditional binary precedence'.
 			(aBuilder setting: #useBasicCommentFormat) label: 'Use basic comment format'.
 			(aBuilder setting: #useTraditionalBinaryPrecedenceForParentheses)
 				label: 'Use traditional binary precedence for parentheses' ]

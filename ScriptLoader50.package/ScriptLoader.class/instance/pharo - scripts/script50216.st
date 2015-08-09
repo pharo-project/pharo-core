@@ -1,7 +1,7 @@
-script50215
+script50216
 
-	^ 'AST-Core-TheIntegrator.344.mcz
-AST-Tests-Core-TheIntegrator.75.mcz
+	^ 'AST-Core-TheIntegrator.347.mcz
+AST-Tests-Core-TheIntegrator.77.mcz
 Announcements-Core-MarcusDenker.55.mcz
 Announcements-Help-TheIntegrator.12.mcz
 Announcements-Tests-Core-TheIntegrator.25.mcz
@@ -24,7 +24,7 @@ BalloonTests-MarcusDenker.3.mcz
 BaselineOfQualityAssistant-YuriyTymchuk.6.mcz
 BaselineOfRenraku-YuriyTymchuk.2.mcz
 BlueInk-Extras-TheIntegrator.6.mcz
-BlueInk-Tests-TheIntegrator.4.mcz
+BlueInk-Tests-TheIntegrator.6.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
 CodeImport-TheIntegrator.61.mcz
 Collections-Abstract-TheIntegrator.289.mcz
@@ -190,7 +190,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-TheIntegrator.1029.mcz
+Nautilus-TheIntegrator.1031.mcz
 Nautilus-GroupManager-TheIntegrator.11.mcz
 Nautilus-GroupManagerUI-TheIntegrator.20.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
@@ -214,7 +214,7 @@ OpalCompiler-Tests-TheIntegrator.300.mcz
 OpalTools-TheIntegrator.16.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz
-Polymorph-Widgets-TheIntegrator.1231.mcz
+Polymorph-Widgets-TheIntegrator.1233.mcz
 PragmaCollector-TheIntegrator.3.mcz
 ProfStef-Core-TheIntegrator.70.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -267,15 +267,15 @@ Slot-TheIntegrator.645.mcz
 Slot-Tests-TheIntegrator.43.mcz
 SmartSuggestions-TheIntegrator.176.mcz
 SmartSuggestions-Tests-TheIntegrator.8.mcz
-Spec-Core-TheIntegrator.406.mcz
+Spec-Core-TheIntegrator.409.mcz
 Spec-Debugger-TheIntegrator.242.mcz
 Spec-Examples-TheIntegrator.98.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.244.mcz
 Spec-Layout-TheIntegrator.67.mcz
-Spec-MorphicAdapters-TheIntegrator.218.mcz
+Spec-MorphicAdapters-TheIntegrator.221.mcz
 Spec-PolyWidgets-TheIntegrator.59.mcz
-Spec-Tests-TheIntegrator.47.mcz
+Spec-Tests-TheIntegrator.49.mcz
 Spec-Tools-TheIntegrator.278.mcz
 StartupPreferences-TheIntegrator.137.mcz
 System-Announcements-TheIntegrator.100.mcz
@@ -332,7 +332,7 @@ TxText-AthensTests-SeanDeNigris.10.mcz
 TxText-Model-SeanDeNigris.61.mcz
 TxText-Styler-NicolaiHess.11.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
-UIManager-TheIntegrator.145.mcz
+UIManager-TheIntegrator.147.mcz
 Unicode-Initialization-MarcusDenker.10.mcz
 UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz

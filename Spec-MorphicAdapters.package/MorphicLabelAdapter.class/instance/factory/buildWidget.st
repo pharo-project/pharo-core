@@ -9,5 +9,5 @@ buildWidget
 		dragEnabled: self dragEnabled;
 		dropEnabled: self dropEnabled;
 		setBalloonText: self help;
-		emphasis: self model emphasis.
+		emphasis: (self emphasisCodeFor: self model emphasis).
 	^ label

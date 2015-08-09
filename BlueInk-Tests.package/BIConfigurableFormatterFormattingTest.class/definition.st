@@ -1,4 +1,4 @@
-TestCase subclass: #BIFormatterTests
+RBFormatterTest subclass: #BIConfigurableFormatterFormattingTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

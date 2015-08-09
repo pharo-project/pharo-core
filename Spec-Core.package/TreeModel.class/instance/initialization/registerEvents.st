@@ -13,6 +13,8 @@ registerEvents
 	selectionHolder whenChangedDo: [:items | self changed: { #selectItems. items } ].
 	rootNodeHolder whenChangedDo: [ :aBlock | self updateTree ].
 	isCheckList whenChangedDo: [ :boolean | self changed: #isCheckList: with: { boolean }].
+	oddRowColor whenChangedDo: [ :aColor | self changed: #oddRowColor: with: { aColor } ].
+	evenRowColor whenChangedDo: [ :aColor | self changed: #evenRowColor: with: { aColor } ].
 	
 	menuBlockHolder  whenChangedDo: [ :aMenuModel :oldMenuModel |
 		oldMenuModel ifNotNil: [ | oldMenu |

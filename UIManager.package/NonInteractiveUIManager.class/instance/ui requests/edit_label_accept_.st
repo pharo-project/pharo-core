@@ -1,4 +1,4 @@
-edit: aText label: labelString accept: anAction
+edit: aText label: labelString accept: aBlockOrNil
 	"Open an editor on the given string/text"
 	^self nonInteractiveWarning: (String streamContents: [ :s |
 		s  nextPutAll: 'Editing Text: '.
