@@ -1,4 +1,4 @@
-script50216
+script50217
 
 	^ 'AST-Core-TheIntegrator.347.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -17,7 +17,7 @@ Athens-Cairo-NicolaiHess.90.mcz
 Athens-CairoPools-NicolaiHess.14.mcz
 Athens-Core-maxmattone.54.mcz
 Athens-Examples-TudorGirba.43.mcz
-Athens-Morphic-NicolaiHess.57.mcz
+Athens-Morphic-TheIntegrator.59.mcz
 Athens-Text-NicolaiHess.16.mcz
 Balloon-TheIntegrator.123.mcz
 BalloonTests-MarcusDenker.3.mcz
@@ -66,7 +66,7 @@ Flashback-Decompiler-Tests-TheIntegrator.97.mcz
 FontChooser-TheIntegrator.7.mcz
 FontInfrastructure-TheIntegrator.8.mcz
 FontInfrastructure-Tests-TheIntegrator.2.mcz
-FreeType-TheIntegrator.711.mcz
+FreeType-TheIntegrator.713.mcz
 FreeTypeTests-SvenVanCaekenberghe.5.mcz
 Fuel-TheIntegrator.813.mcz
 FuelCommandLineHandler-TheIntegrator.27.mcz
@@ -119,7 +119,7 @@ HudsonBuildTools20-TheIntegrator.70.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.17.mcz
-Kernel-TheIntegrator.2086.mcz
+Kernel-TheIntegrator.2089.mcz
 KernelTests-TheIntegrator.789.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -160,20 +160,20 @@ MonticelloGUI-TheIntegrator.364.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.6.mcz
 Morphic-Base-TheIntegrator.468.mcz
-Morphic-Core-TheIntegrator.196.mcz
-Morphic-Examples-TheIntegrator.42.mcz
-Morphic-Widgets-Basic-TheIntegrator.43.mcz
+Morphic-Core-TheIntegrator.198.mcz
+Morphic-Examples-TheIntegrator.45.mcz
+Morphic-Widgets-Basic-TheIntegrator.49.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
-Morphic-Widgets-Extra-TheIntegrator.22.mcz
+Morphic-Widgets-Extra-TheIntegrator.24.mcz
 Morphic-Widgets-FastTable-EstebanLorenzano.40.mcz
 Morphic-Widgets-List-TheIntegrator.21.mcz
 Morphic-Widgets-NewList-TheIntegrator.5.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.57.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.25.mcz
 Morphic-Widgets-Tabs-TheIntegrator.16.mcz
-Morphic-Widgets-Taskbar-TheIntegrator.9.mcz
+Morphic-Widgets-Taskbar-TheIntegrator.11.mcz
 Morphic-Widgets-Tree-TheIntegrator.33.mcz
-Morphic-Widgets-Windows-TheIntegrator.55.mcz
+Morphic-Widgets-Windows-TheIntegrator.57.mcz
 MorphicTests-TheIntegrator.101.mcz
 Multilingual-Encodings-MarcusDenker.47.mcz
 Multilingual-Languages-StephaneDucasse.40.mcz

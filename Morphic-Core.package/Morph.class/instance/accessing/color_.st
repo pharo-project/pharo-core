@@ -5,5 +5,5 @@ color: aColor
 	color = aColor ifFalse:
 		[self assureExtension.
 		extension fillStyle: nil.
-		color := aColor.
+		self privateColor: aColor.
 		self changed]

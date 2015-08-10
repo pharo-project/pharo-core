@@ -1,0 +1,2 @@
+getModelState
+	^ self isPressed

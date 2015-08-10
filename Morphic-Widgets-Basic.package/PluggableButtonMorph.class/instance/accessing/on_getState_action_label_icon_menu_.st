@@ -1,4 +1,4 @@
-on: anObject getState: getStateSel action: actionSel label: labelSel menu: menuSel
+on: anObject getState: getStateSel action: actionSel label: labelSel icon: iconSel menu: menuSel
 	"Set up the pluggable parameters.
 	Update label and state."
 	
@@ -6,7 +6,8 @@ on: anObject getState: getStateSel action: actionSel label: labelSel menu: menuS
 	getStateSelector := getStateSel.
 	actionSelector := actionSel.
 	getLabelSelector := labelSel.
+	getIconSelector := iconSel.
 	getMenuSelector := menuSel.
 	self
-		update: labelSel;
+		update: (labelSel ifNil: [ iconSel ]);
 		update: getStateSel

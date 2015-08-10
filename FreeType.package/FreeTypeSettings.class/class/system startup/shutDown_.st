@@ -1,4 +1,10 @@
 shutDown: quitting 
-	self current clearBitBltSubPixelAvailable.
-	self current clearForceNonSubPixelCount.
-	quitting ifTrue: [ EmbeddedFreeTypeFontInstaller resetCurrent ]
+	quitting ifFalse: [ ^ self ]. 
+
+	self current 
+		clearBitBltSubPixelAvailable;
+		clearForceNonSubPixelCount.
+	FreeTypeCache clearCacheOnShutdown ifTrue: [ FreeTypeCache clearCurrent ].	
+	FT2Handle clearRegistry.
+	FreeTypeFontProvider resetCurrent. 
+	EmbeddedFreeTypeFontInstaller resetCurrent.

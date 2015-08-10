@@ -1,0 +1,3 @@
+displayExtentChanged
+
+	self updateBounds

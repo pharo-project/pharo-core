@@ -7,7 +7,7 @@ restoreMorphicDisplay
 		viewBox: self display boundingBox;
 		handsDo: [:h | h visible: true; showTemporaryCursor: nil];
 		resizeBackgroundMorph;
-		restoreMainDockingBarDisplay;
+		submorphsDo: [ :each | each displayExtentChanged ];
 		fullRepaintNeeded.
 		
 	self defer: [Cursor normal show].

@@ -1,15 +1,15 @@
 commentForCurrentUpdate
- ^ '15305 LabelModel emphasis: is bad
-	https://pharo.fogbugz.com/f/cases/15305
+ ^ '16128 Better handling when the Pharo-window is re-sized
+	https://pharo.fogbugz.com/f/cases/16128
 
-15489 Switching to class side with modified class comment
-	https://pharo.fogbugz.com/f/cases/15489
+16106 Image grows by 3.5MB for every save
+	https://pharo.fogbugz.com/f/cases/16106
 
-15365 Spec TreeModel support for odd/even row color
-	https://pharo.fogbugz.com/f/cases/15365
+16135 Remove RBModifiesCollectionRule from rules run by Renraku (QualityAssistant)
+	https://pharo.fogbugz.com/f/cases/16135
 
-16113 SimpleFormatter
-	https://pharo.fogbugz.com/f/cases/16113
+16120 Remove unused #importFrom: in ClassOrganization and ProtocolOrganizer
+	https://pharo.fogbugz.com/f/cases/16120
 
-16127 Remove PluggableTextMorph from edit:label:action:
-	https://pharo.fogbugz.com/f/cases/16127'
+16116 introduce PluggableButtonMorph with icons and PluggableToggleButtonMorph
+	https://pharo.fogbugz.com/f/cases/16116'

@@ -8,7 +8,7 @@ changed
 	borderWidth := bs width.
 	extension fillStyle: self fillStyleToUse.
 	self layoutInset: (self theme buttonLabelInsetFor: self).
-	color := self fillStyle asColor.
+	self privateColor: self fillStyle asColor.
 	(self labelMorph respondsTo: #interactionState:)
 		ifTrue: [self labelMorph interactionState: self interactionState]
 		ifFalse: [(self labelMorph isNil

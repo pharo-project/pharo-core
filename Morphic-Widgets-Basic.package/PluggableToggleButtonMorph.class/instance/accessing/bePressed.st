@@ -1,0 +1,2 @@
+bePressed
+	self pressed: true

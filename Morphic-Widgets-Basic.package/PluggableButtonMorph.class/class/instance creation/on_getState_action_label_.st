@@ -5,4 +5,5 @@ on: anObject getState: getStateSel action: actionSel label: labelSel
 		getState: getStateSel
 		action: actionSel
 		label: labelSel
+		icon: nil
 		menu: nil

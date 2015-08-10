@@ -4,6 +4,7 @@ veryDeepInner: deepCopier
 super veryDeepInner: deepCopier.
 "model := model.		Weakly copied"
 label := label veryDeepCopyWith: deepCopier.
+icon :=  icon veryDeepCopyWith: deepCopier.
 "getStateSelector := getStateSelector.		a Symbol"
 "actionSelector := actionSelector.		a Symbol"
 "getLabelSelector := getLabelSelector.		a Symbol"

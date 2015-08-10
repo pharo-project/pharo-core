@@ -11,7 +11,7 @@ indicateModalChild
 		(Delay forDuration: d milliSeconds) wait.
 		d := 200.
 		extension fillStyle: c.
-		color := c.
+		self privateColor: c.
 		self invalidRect: self bounds.
 		w ifNotNil: [w displayWorldSafely].
 		(Delay forDuration: d milliSeconds) wait.

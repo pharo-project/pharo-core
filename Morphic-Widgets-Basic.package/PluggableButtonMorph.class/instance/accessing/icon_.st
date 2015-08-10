@@ -1,0 +1,2 @@
+icon: anIcon
+	icon := anIcon

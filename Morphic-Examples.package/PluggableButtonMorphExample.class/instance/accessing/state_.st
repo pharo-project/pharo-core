@@ -1,0 +1,2 @@
+state: anObject
+	state := anObject
