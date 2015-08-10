@@ -1,4 +1,4 @@
-script50217
+script50218
 
 	^ 'AST-Core-TheIntegrator.347.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -21,7 +21,7 @@ Athens-Morphic-TheIntegrator.59.mcz
 Athens-Text-NicolaiHess.16.mcz
 Balloon-TheIntegrator.123.mcz
 BalloonTests-MarcusDenker.3.mcz
-BaselineOfQualityAssistant-YuriyTymchuk.6.mcz
+BaselineOfQualityAssistant-YuriyTymchuk.7.mcz
 BaselineOfRenraku-YuriyTymchuk.2.mcz
 BlueInk-Extras-TheIntegrator.6.mcz
 BlueInk-Tests-TheIntegrator.6.mcz
@@ -162,7 +162,7 @@ MonticelloRemoteRepositories-TheIntegrator.6.mcz
 Morphic-Base-TheIntegrator.468.mcz
 Morphic-Core-TheIntegrator.198.mcz
 Morphic-Examples-TheIntegrator.45.mcz
-Morphic-Widgets-Basic-TheIntegrator.49.mcz
+Morphic-Widgets-Basic-TheIntegrator.50.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
 Morphic-Widgets-Extra-TheIntegrator.24.mcz
 Morphic-Widgets-FastTable-EstebanLorenzano.40.mcz
@@ -238,7 +238,7 @@ Regex-Core-MarcusDenker.33.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
 ReleaseTests-TheIntegrator.15.mcz
-Renraku-YuriyTymchuk.68.mcz
+Renraku-YuriyTymchuk.69.mcz
 Renraku-Test-YuriyTymchuk.15.mcz
 Ring-Core-Containers-TheIntegrator.41.mcz
 Ring-Core-Kernel-TheIntegrator.218.mcz
