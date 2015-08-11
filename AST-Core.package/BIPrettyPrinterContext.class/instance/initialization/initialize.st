@@ -26,5 +26,5 @@ initialize
 	stringFollowingReturn := ' '.
 	stringInsideBlocks := ' '.
 	stringInsideParentheses := ''.
-	traditionalBinaryPrecedence := #(#($| $& $?) #($= $~ $< $>) #($- $+) #($* $/ $% $\) #($@)).
+	traditionalBinaryPrecedenceArray := #(#($| $& $?) #($= $~ $< $>) #($- $+) #($* $/ $% $\) #($@)).
 	useTraditionalBinaryPrecedenceForParentheses := true

@@ -1,2 +1,2 @@
 traditionalBinaryPrecedenceArray
-	^ traditionalBinaryPrecedence
+	^ traditionalBinaryPrecedenceArray

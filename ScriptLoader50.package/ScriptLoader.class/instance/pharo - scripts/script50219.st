@@ -1,6 +1,6 @@
-script50218
+script50219
 
-	^ 'AST-Core-TheIntegrator.347.mcz
+	^ 'AST-Core-TheIntegrator.349.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
 Announcements-Core-MarcusDenker.55.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -156,7 +156,7 @@ Monticello-Tests-TheIntegrator.24.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.189.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
-MonticelloGUI-TheIntegrator.364.mcz
+MonticelloGUI-TheIntegrator.366.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.6.mcz
 Morphic-Base-TheIntegrator.468.mcz
@@ -301,7 +301,7 @@ System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.25.mcz
 System-Support-TheIntegrator.1127.mcz
 System-VMEvents-TheIntegrator.5.mcz
-Tests-TheIntegrator.734.mcz
+Tests-TheIntegrator.736.mcz
 Text-Core-TheIntegrator.35.mcz
 Text-Diff-StephaneDucasse.4.mcz
 Text-Edition-TheIntegrator.93.mcz
