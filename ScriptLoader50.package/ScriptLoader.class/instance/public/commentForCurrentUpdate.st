@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '16138 WorldMenu->System->Settings throws DNU - Image 50217
-	https://pharo.fogbugz.com/f/cases/16138
+ ^ '15079 Move HelpIcons into icons package
+	https://pharo.fogbugz.com/f/cases/15079
 
-16140 Monticiellos save popup should should wrap the text.
-	https://pharo.fogbugz.com/f/cases/16140'
+16149 Remove PluggableTextMorph from StandardWindow
+	https://pharo.fogbugz.com/f/cases/16149
+
+16144 FFI is not loading on Pharo 5
+	https://pharo.fogbugz.com/f/cases/16144'
