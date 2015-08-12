@@ -2,7 +2,7 @@ buildSubnodesForSubclasses
 
 	| topic |
 	rootToBuildFrom subclasses isEmpty ifTrue: [^self].
-	topicToBuild icon: (HelpIcons iconNamed: #bookIcon).
+	topicToBuild icon: Smalltalk ui icons bookIcon.
 	topic := subclassesAsSeparateTopic 
 				ifTrue: [topicToBuild addSubtopic: (HelpTopic named: 'Subclasses')]
 				ifFalse: [topicToBuild ].

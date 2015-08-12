@@ -1,7 +1,7 @@
 build
 
 	topicToBuild := (HelpTopic named: rootToBuildFrom name).
-	topicToBuild icon: (HelpIcons iconNamed: #pageIcon).
+	topicToBuild icon: Smalltalk ui icons pageIcon.
 	topicToBuild contents: rootToBuildFrom comment.
 	
 	addMethods ifTrue: [ self buildSubnodesForMethods ].

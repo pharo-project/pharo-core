@@ -1,4 +1,4 @@
-script50220
+script50221
 
 	^ 'AST-Core-TheIntegrator.351.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -113,7 +113,7 @@ Graphics-Shapes-TheIntegrator.2.mcz
 Graphics-Tests-TheIntegrator.72.mcz
 Graphics-Transformations-TheIntegrator.14.mcz
 Growl-TheIntegrator.37.mcz
-HelpSystem-Core-TheIntegrator.126.mcz
+HelpSystem-Core-TheIntegrator.128.mcz
 HelpSystem-Tests-TheIntegrator.30.mcz
 HudsonBuildTools20-TheIntegrator.70.mcz
 IssueTracking-TheIntegrator.6.mcz
@@ -151,7 +151,7 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-TheIntegrator.1050.mcz
+Monticello-TheIntegrator.1052.mcz
 Monticello-Tests-TheIntegrator.24.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.189.mcz
@@ -190,12 +190,12 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-TheIntegrator.1032.mcz
+Nautilus-TheIntegrator.1033.mcz
 Nautilus-GroupManager-TheIntegrator.11.mcz
 Nautilus-GroupManagerUI-TheIntegrator.20.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
 NautilusCommon-TheIntegrator.275.mcz
-NautilusRefactoring-TheIntegrator.241.mcz
+NautilusRefactoring-TheIntegrator.243.mcz
 Network-Kernel-TheIntegrator.118.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.43.mcz
@@ -213,7 +213,7 @@ OpalCompiler-Core-TheIntegrator.712.mcz
 OpalCompiler-Tests-TheIntegrator.300.mcz
 OpalTools-TheIntegrator.16.mcz
 Pharo-Help-TheIntegrator.15.mcz
-Polymorph-TaskbarIcons-MarcusDenker.40.mcz
+Polymorph-TaskbarIcons-TheIntegrator.42.mcz
 Polymorph-Widgets-TheIntegrator.1233.mcz
 PragmaCollector-TheIntegrator.3.mcz
 ProfStef-Core-TheIntegrator.70.mcz

@@ -3,7 +3,7 @@ buildSubnodesForMethods
 	| instanceSide classSide |
 	instanceSide := HelpTopic named: 'Instance side'.
 	classSide := HelpTopic named: 'Class side'.
-	topicToBuild icon: (HelpIcons iconNamed: #bookIcon).
+	topicToBuild icon: Smalltalk ui icons bookIcon.
 	topicToBuild 
 		addSubtopic: instanceSide;
 		addSubtopic: classSide.

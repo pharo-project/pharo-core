@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '16148 Select next method when remove one in Nautilus
+update50221
+	"self new update50221"
+	self withUpdateLog: '16148 Select next method when remove one in Nautilus
 	https://pharo.fogbugz.com/f/cases/16148
 
 16146 unify hasComplexVariables vs usesSpecialVariables
@@ -9,4 +10,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/16141
 
 16160 ProfStef context menu broken
-	https://pharo.fogbugz.com/f/cases/16160'
+	https://pharo.fogbugz.com/f/cases/16160'.
+	self loadTogether: self script50221 merge: false.
+	self flushCaches.

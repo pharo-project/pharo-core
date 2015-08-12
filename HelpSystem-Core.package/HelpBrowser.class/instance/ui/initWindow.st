@@ -11,7 +11,7 @@ initWindow
 				action: #refresh
 				arguments: nil
 				getEnabled: nil
-				labelForm: (HelpIcons iconNamed: #refreshIcon)
+				labelForm: (Smalltalk ui icons refreshIcon)
 				help: 'Refresh' translated}.
 	dock := window newToolDockingBar.
 	dock addMorphBack: toolbar.
