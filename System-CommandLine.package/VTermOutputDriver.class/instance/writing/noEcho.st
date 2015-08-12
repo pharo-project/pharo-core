@@ -1,2 +1,0 @@
-noEcho
-	self echo: false.

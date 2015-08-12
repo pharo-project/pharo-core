@@ -5,6 +5,8 @@ classComment: aString stamp: aStamp
 	oldComment := self organization classComment.
 	oldStamp := self organization commentStamp.
 
+	aString string = oldComment string ifTrue: [ ^ self ].
+
 	aString isRemoteString ifTrue: [
 		SystemAnnouncer uniqueInstance 
 			class: self 

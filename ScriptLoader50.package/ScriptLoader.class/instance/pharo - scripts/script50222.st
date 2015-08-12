@@ -1,4 +1,4 @@
-script50221
+script50222
 
 	^ 'AST-Core-TheIntegrator.351.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -31,7 +31,7 @@ Collections-Abstract-TheIntegrator.289.mcz
 Collections-Arithmetic-TheIntegrator.20.mcz
 Collections-Atomic-TheIntegrator.13.mcz
 Collections-Native-TheIntegrator.14.mcz
-Collections-Sequenceable-TheIntegrator.214.mcz
+Collections-Sequenceable-TheIntegrator.216.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.177.mcz
 Collections-Strings-TheIntegrator.364.mcz
@@ -156,7 +156,7 @@ Monticello-Tests-TheIntegrator.24.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.189.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
-MonticelloGUI-TheIntegrator.366.mcz
+MonticelloGUI-TheIntegrator.368.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.6.mcz
 Morphic-Base-TheIntegrator.468.mcz
@@ -264,7 +264,7 @@ ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.271.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.645.mcz
-Slot-Tests-TheIntegrator.43.mcz
+Slot-Tests-TheIntegrator.45.mcz
 SmartSuggestions-TheIntegrator.176.mcz
 SmartSuggestions-Tests-TheIntegrator.8.mcz
 Spec-Core-TheIntegrator.409.mcz
@@ -283,7 +283,7 @@ System-Caching-TheIntegrator.26.mcz
 System-CachingTests-TheIntegrator.14.mcz
 System-Changes-TheIntegrator.265.mcz
 System-Clipboard-SvenVanCaekenberghe.32.mcz
-System-CommandLine-TheIntegrator.167.mcz
+System-CommandLine-TheIntegrator.169.mcz
 System-CommandLineHandler-TheIntegrator.3.mcz
 System-FileRegistry-TheIntegrator.35.mcz
 System-Finalization-TheIntegrator.19.mcz
@@ -325,7 +325,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.28.mcz
 Tools-TheIntegrator.1504.mcz
 Tools-Test-TheIntegrator.4.mcz
-Traits-TheIntegrator.799.mcz
+Traits-TheIntegrator.801.mcz
 Transcript-TheIntegrator.34.mcz
 TxText-Athens-NicolaiHess.52.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
