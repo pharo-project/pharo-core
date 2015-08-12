@@ -1,3 +1,3 @@
 browseContext
 	selectedContext ifNil: [ ^ self ]. 
-	Smalltalk tools browser newOnClass: self selectedClass selector: self selectedSelector
+	Smalltalk tools browser openOnClass: self selectedClass selector: self selectedSelector

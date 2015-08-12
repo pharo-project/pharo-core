@@ -13,7 +13,7 @@ messageBrowserListMenu: aBuilder
 		keyText: 'b';
 		action: [ 
 			Smalltalk tools browser 
-				fullOnClass: message methodClass
+				openOnClass: message methodClass
 				selector: message selector ].
 
 	(aBuilder item: #'Inspect method...')

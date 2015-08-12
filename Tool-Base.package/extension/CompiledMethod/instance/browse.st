@@ -1,3 +1,3 @@
 browse
 
-	^ Smalltalk tools browser fullOnClass: self methodClass selector: self selector
+	^ Smalltalk tools browser openOnClass: self methodClass selector: self selector

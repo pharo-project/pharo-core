@@ -4,5 +4,5 @@ browseClassesWithNamesContaining: aString caseSensitive: caseSensitive
 	
 	|  classes |
 	classes :=  self environment allClasses select: [:class | (class name includesSubstring: aString caseSensitive: caseSensitive)].				
-	^Smalltalk tools browser fullOnEnvironment: (RBBrowserEnvironment new forClasses: classes).
+	^Smalltalk tools browser openInEnvironment: (RBBrowserEnvironment new forClasses: classes).
 									

@@ -4,4 +4,4 @@ browseMethodFull
 	| myClass |
 	(myClass := self selectedClassOrMetaClass) ifNotNil:
 		[Smalltalk tools browser
-			fullOnClass: myClass selector: self selectedMessageName]
+			openOnClass: myClass selector: self selectedMessageName]

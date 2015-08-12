@@ -1,2 +1,2 @@
 browse
-	Smalltalk tools browser fullOnEnvironment:(RBBrowserEnvironment default forPragmas:{ self item})
+	Smalltalk tools browser openInEnvironment: (RBBrowserEnvironment default forPragmas:{ self item})

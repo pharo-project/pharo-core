@@ -1,3 +1,3 @@
 browseClass
 
-	^ Smalltalk tools browser fullOnClass: self parentNode item selector: self item
+	^ Smalltalk tools browser openOnClass: self parentNode item selector: self item

@@ -1,3 +1,2 @@
 browseItem
-	Smalltalk tools browser
-		fullOnClass: self itemClass  selector: self selector 
+	Smalltalk tools browser openOnClass: self itemClass  selector: self selector 

@@ -1,5 +1,5 @@
 browse
 
 	^ Smalltalk tools browser
-		fullOnClass: self realClass 
+		openOnClass: self realClass 
 		selector: (self isDefined ifTrue: [ self selector ] ifFalse: [ nil ])

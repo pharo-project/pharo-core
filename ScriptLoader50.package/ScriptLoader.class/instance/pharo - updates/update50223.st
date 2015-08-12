@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '16168 Context>>#directedSuperSend:numArgs: is broken
+update50223
+	"self new update50223"
+	self withUpdateLog: '16168 Context>>#directedSuperSend:numArgs: is broken
 	https://pharo.fogbugz.com/f/cases/16168
 
 15198 Cleaning Nautilus (browser compatibility)
@@ -9,4 +10,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/16164
 
 16169 komitter slice commit may break
-	https://pharo.fogbugz.com/f/cases/16169'
+	https://pharo.fogbugz.com/f/cases/16169'.
+	self loadTogether: self script50223 merge: false.
+	self flushCaches.

@@ -1,2 +1,2 @@
 browseSelectedObjectClass
-	self selectedObjectDo: [ :anObject | Smalltalk tools browser newOnClass: anObject class ]
+	self selectedObjectDo: [ :anObject | Smalltalk tools browser openOnClass: anObject class ]

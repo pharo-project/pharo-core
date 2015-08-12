@@ -5,5 +5,5 @@ warnInstanceVariableNotCopiedIn: aClass selector: aSelector
 	
 	(Smalltalk respondsTo: #tools) ifTrue: [ 
 		Smalltalk tools browser
-			fullOnClass: aClass 
+			openOnClass: aClass 
 			selector: aSelector ]

@@ -1,0 +1,2 @@
+removeLink: aLink
+	self uninstall.

@@ -1,2 +1,2 @@
 browse
-	^ Smalltalk tools browser fullOnClass: self class
+	^ Smalltalk tools browser openOnClass: self class

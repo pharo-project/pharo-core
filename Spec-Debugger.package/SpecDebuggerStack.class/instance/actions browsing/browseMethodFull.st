@@ -3,5 +3,5 @@ browseMethodFull
 
 	self currentClassOrMetaClass ifNotNil: [ 
 		Smalltalk tools browser 
-			fullOnClass: self currentClassOrMetaClass
+			openOnClass: self currentClassOrMetaClass
 			selector: self currentMessageName ]

@@ -1,6 +1,6 @@
 setTitleFrom: aZnResponse
 
-	aZnResponse isError
+	(aZnResponse isError or: [ aZnResponse entity isNil ])
 		ifTrue: [ 
 			titleWidget text: 'Error !'.
 			loadingWidget error ]

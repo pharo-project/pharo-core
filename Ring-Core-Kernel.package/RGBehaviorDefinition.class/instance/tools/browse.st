@@ -1,4 +1,3 @@
 browse
 
-	^ Smalltalk tools browser
-		fullOnClass: self realClass selector: nil
+	^ Smalltalk tools browser openOnClass: self realClass

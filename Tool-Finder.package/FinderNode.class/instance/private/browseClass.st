@@ -1,3 +1,3 @@
 browseClass
 
-	^ Smalltalk tools browser fullOnClass: self item
+	^ Smalltalk tools browser openOnClass: self item
