@@ -1,0 +1,2 @@
+manuallyResolvedDependencies
+	^ #(#'System-Sources' #'NativeBoost-Core' #'System-Platforms' #Transcript #'Spec-Debugger' #'System-VMEvents' #'Tool-Base' #'Regex-Core' #'Multilingual-TextConversion' #'System-Settings' #'System-Changes' #'AST-Core' #Nautilus)

@@ -1,0 +1,2 @@
+manuallyResolvedDependencies
+	^ #(#'Collections-Abstract')

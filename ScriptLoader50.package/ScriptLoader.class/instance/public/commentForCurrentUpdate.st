@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16089 Nautilus buttons 
-	https://pharo.fogbugz.com/f/cases/16089
+ ^ '16167 remove useless methods
+	https://pharo.fogbugz.com/f/cases/16167
 
-15150 SpecTableLayout not included in Pharos Spec fork
-	https://pharo.fogbugz.com/f/cases/15150
+16170 Add Manifests for the bootstrap (part 1)
+	https://pharo.fogbugz.com/f/cases/16170
 
-16174 Allow links to be put on ClassVars
-	https://pharo.fogbugz.com/f/cases/16174'
+16172 Kernel and Ring should not depend on Nautilus
+	https://pharo.fogbugz.com/f/cases/16172'
