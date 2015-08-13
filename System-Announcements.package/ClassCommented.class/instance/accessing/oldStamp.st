@@ -1,2 +1,2 @@
 oldStamp
-	oldStamp
+	^ oldStamp

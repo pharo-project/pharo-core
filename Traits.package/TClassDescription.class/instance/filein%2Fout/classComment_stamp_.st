@@ -17,9 +17,6 @@ classComment: aString stamp: aStamp
 		^ self organization classComment: aString stamp: aStamp].
 
 	oldCommentRemoteString := self organization commentRemoteString.
-	(aString size = 0) & (oldCommentRemoteString isNil) ifTrue: [^ self organization classComment: nil].
-		"never had a class comment, no need to write empty string out"
-
 	pointer := oldCommentRemoteString 
 			ifNil: [0] 
 			ifNotNil: [oldCommentRemoteString sourcePointer].

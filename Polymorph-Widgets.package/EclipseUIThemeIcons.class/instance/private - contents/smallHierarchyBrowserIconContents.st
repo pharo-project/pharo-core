@@ -1,4 +1,4 @@
-smallHiararchyBrowserIconContents
+smallHierarchyBrowserIconContents
 	"Private - Method generated"
 	^ 'R0lGODlhEAAQAMQAAG92hCaASDmHUkyTY0OSW1WbalWba1aYalueb1OXZ16gcVGVWlSWW2Kk
 Y3GucHSwcWupZ2ypaHqoa6HGhv7977qXJsSlQ6+IIK6IIK+IIf///wAAAAAAAAAAAAAAAAAA

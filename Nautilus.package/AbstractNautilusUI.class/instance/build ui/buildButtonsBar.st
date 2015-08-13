@@ -30,5 +30,5 @@ buildButtonsBar
 			(LayoutFrame identity
 				leftFraction: 0.04;
 				yourself);
-		addMorph: self buildNavigationList fullFrame: (0.52 @ 0 corner: 1 @ 1) asLayoutFrame;
+		addMorph: self buildNavigationList fullFrame: (0.50 @ 0 corner: 1 @ 1) asLayoutFrame;
 		yourself
