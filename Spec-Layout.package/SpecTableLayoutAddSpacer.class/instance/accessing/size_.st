@@ -1,0 +1,2 @@
+size: aNumber
+	size := aNumber

@@ -1,0 +1,2 @@
+createTwin
+	self compiledMethod createTwin

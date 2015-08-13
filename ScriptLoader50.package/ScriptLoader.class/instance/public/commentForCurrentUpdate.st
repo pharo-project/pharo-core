@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '16168 Context>>#directedSuperSend:numArgs: is broken
-	https://pharo.fogbugz.com/f/cases/16168
+ ^ '16089 Nautilus buttons 
+	https://pharo.fogbugz.com/f/cases/16089
 
-15198 Cleaning Nautilus (browser compatibility)
-	https://pharo.fogbugz.com/f/cases/15198
+15150 SpecTableLayout not included in Pharos Spec fork
+	https://pharo.fogbugz.com/f/cases/15150
 
-16164 Reflectivity: Allow a Links to be put on a Slot
-	https://pharo.fogbugz.com/f/cases/16164
-
-16169 komitter slice commit may break
-	https://pharo.fogbugz.com/f/cases/16169'
+16174 Allow links to be put on ClassVars
+	https://pharo.fogbugz.com/f/cases/16174'

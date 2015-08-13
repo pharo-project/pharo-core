@@ -1,0 +1,2 @@
+invalidate
+	self compiledMethod invalidate

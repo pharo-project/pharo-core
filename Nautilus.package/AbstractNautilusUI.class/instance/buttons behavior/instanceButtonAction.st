@@ -1,3 +1,0 @@
-instanceButtonAction
-
-	self toggleShowInstance

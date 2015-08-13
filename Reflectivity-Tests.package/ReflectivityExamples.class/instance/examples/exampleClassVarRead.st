@@ -1,0 +1,2 @@
+exampleClassVarRead
+	^ClassVar

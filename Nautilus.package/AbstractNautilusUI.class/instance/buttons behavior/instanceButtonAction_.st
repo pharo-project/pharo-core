@@ -1,0 +1,2 @@
+instanceButtonAction: aBoolean
+	self toggleShowInstance

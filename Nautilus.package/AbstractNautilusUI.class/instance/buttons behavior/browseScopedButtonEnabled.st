@@ -1,0 +1,2 @@
+browseScopedButtonEnabled
+	^ self selectedPackage notNil

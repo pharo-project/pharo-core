@@ -4,7 +4,7 @@ computeSpecFrom: aSymbol selector: aSelector
 	instance := (aSymbol isSymbol and: [ aSymbol ~= #model ])
 		ifTrue: [ | result |
 			result := self convertSymbolOfClassToInstance: aSymbol.
-			aSymbol == #ContainerModel
+			result isSpecContainer
 				ifTrue: [ 
 					result := result buildAdapterWithSpec.
 					model addDependent: result ].

@@ -1,0 +1,2 @@
+browseScopedButtonState
+	^ false

@@ -18,5 +18,4 @@ showHierarchy: aBoolean
 	self model showHierarchy: aBoolean.
 	self updatePackageGroupAndClassList.
 	self changed: #hierarchyButtonState.
-	self changed: #hierarchyButtonLabel.
-	self changedLabels
+	self changed: #hierarchyButtonLabel

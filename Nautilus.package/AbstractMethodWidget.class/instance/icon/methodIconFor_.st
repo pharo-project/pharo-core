@@ -1,7 +1,6 @@
 methodIconFor: aMethod
 
 	| actions button action |
-	button := nil.
 	MethodsIconsCache
 		at: aMethod
 		ifPresent: [:icon | 

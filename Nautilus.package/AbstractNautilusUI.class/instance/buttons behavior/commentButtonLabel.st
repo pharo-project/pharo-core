@@ -1,3 +1,2 @@
 commentButtonLabel
-
-	^ self commentLabel
+	^ ' Com.'

@@ -1,2 +1,2 @@
-updatePackageView 
+updatePackageView
 	self packageWidget updatePackageView

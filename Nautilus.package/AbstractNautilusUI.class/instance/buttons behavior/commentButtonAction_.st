@@ -1,0 +1,2 @@
+commentButtonAction: aBoolean
+	self toggleShowComment

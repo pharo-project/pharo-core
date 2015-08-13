@@ -1,0 +1,11 @@
+buildBrowseScopedButton
+	^ (PluggableButtonMorph
+		on: self
+		getState: #browseScopedButtonState
+		action: #browseScopedButtonAction
+		label: #browseScopedButtonLabel)
+		getEnabledSelector: #browseScopedButtonEnabled;
+		hResizing: #spaceFill;
+		vResizing: #shrinkWrap;
+		enabled: self selectedPackage notNil;
+		yourself

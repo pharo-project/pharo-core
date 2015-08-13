@@ -1,1 +1,1 @@
-I am a special Slot that allows slots to be annotated with Reflectivity meta links.|link |link :=  MetaLink new 	metaObject:  Halt;	selector: #now.(TT classVariableNamed: #T) link: link.
+I am a wrapper for Globals to allow them to be annotated with a link

@@ -1,0 +1,2 @@
+spaceFillWeight: aNumber
+	spaceFillWeight := aNumber

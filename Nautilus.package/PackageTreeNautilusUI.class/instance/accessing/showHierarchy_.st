@@ -16,5 +16,4 @@ showHierarchy: aBoolean
 
 	self updateClassView.
 	self changed: #hierarchyButtonState.
-	self changed: #hierarchyButtonLabel.
-	self changedLabels.
+	self changed: #hierarchyButtonLabel

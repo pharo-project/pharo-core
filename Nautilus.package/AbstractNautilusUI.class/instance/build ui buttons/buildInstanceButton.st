@@ -1,16 +1,11 @@
 buildInstanceButton
-
-	^ (CheckboxMorph
-		on: self 
-		selected: #instanceButtonState 
-		changeSelected: #instanceButtonAction)
-		getLabelSelector: #instanceButtonLabel;
-		labelClickable: true;
-		 hResizing: #spaceFill; 
+	^ (PluggableToggleButtonMorph
+		on: self
+		getState: #instanceButtonState
+		action: #instanceButtonAction:
+		label: #instanceButtonLabel
+		icon: #instanceButtonIcon
+		menu: nil)
+		hResizing: #spaceFill;
 		vResizing: #shrinkWrap;
 		yourself
-	"^ (PluggableButtonMorph
-			on: self 
-			getState: #instanceButtonState
-			action: #instanceButtonAction
-			label: #instanceButtonLabel) hResizing: #spaceFill; vResizing: #shrinkWrap"

@@ -1,11 +1,16 @@
 selectedPackageWithoutChangingSelection: aPackage
-
 	self okToChange
-		ifTrue: [| class |
+		ifTrue:
+			[ 
+			| class |
 			class := self selectedClass.
-			(self showHierarchy not and: [class notNil and: [class package ~= aPackage]])
+			(self showHierarchy not and: [ class notNil and: [ class package ~= aPackage ] ])
 				ifTrue: [ self selectedClass: nil ].
-			self model package: aPackage class: self selectedClass category: nil method: nil.
-			self packageWidget selectPackage:aPackage .
+			self model
+				package: aPackage
+				class: self selectedClass
+				category: nil
+				method: nil.
+			self packageWidget selectPackage: aPackage.
 			self updateClassView.
 			self updateCategoryAndMethodList ]

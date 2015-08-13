@@ -27,10 +27,6 @@ nautilusSettingsOn: aBuilder
 			(aBuilder setting: #switchClassesAndPackages)
 				label: 'Switch lists when opening on a class ?';
 				description: 'Default value: false'.
-			(aBuilder setting: #warningLimit)
-				label: 'Set the warning limit of source code pane';
-				description: 'By default, the value is 350
-Put a negative value to disable'.
 			(aBuilder setting: #emptyCommentWarning)
 				label: 'Enable/disable warning for empty comments';
 				description: 'Enable/disable the warning for empty comments. CAUTION! To have comments in your classes is highly recomended'. 

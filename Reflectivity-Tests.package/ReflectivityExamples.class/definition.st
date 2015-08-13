@@ -1,5 +1,5 @@
 Object subclass: #ReflectivityExamples
 	instanceVariableNames: 'ivar tag'
-	classVariableNames: ''
+	classVariableNames: 'ClassVar'
 	poolDictionaries: ''
 	category: 'Reflectivity-Tests'

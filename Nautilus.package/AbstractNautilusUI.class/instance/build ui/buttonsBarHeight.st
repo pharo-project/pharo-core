@@ -1,0 +1,2 @@
+buttonsBarHeight
+	^ 25

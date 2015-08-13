@@ -1,0 +1,2 @@
+browseScopedButtonAction
+	self restrictedBrowsePackage

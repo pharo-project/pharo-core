@@ -1,0 +1,2 @@
+adapterName
+	^ #MorphicTableContainerAdapter

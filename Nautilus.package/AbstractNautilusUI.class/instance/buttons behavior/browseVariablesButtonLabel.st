@@ -1,0 +1,2 @@
+browseVariablesButtonLabel
+	^ 'Variables'

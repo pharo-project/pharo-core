@@ -1,0 +1,1 @@
+I am a wrapper for Class Variables  to allow them to be annotated with a link

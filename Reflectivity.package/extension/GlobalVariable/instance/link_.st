@@ -5,5 +5,10 @@ link: aMetaLink
 	
 	Smalltalk globals removeKey: self key.
 	Smalltalk globals add: wrapper.
-	self value isBehavior ifTrue: [self value recompile].
-	methods do: #recompile.  "recompile all methods that reference the Global"
+	aMetaLink installOnVariable: wrapper.
+	methods
+		do: [ :method |  
+			method
+				createTwin;
+				invalidate.
+			method installLink: aMetaLink ]

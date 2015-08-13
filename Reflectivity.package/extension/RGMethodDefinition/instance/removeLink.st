@@ -1,0 +1,2 @@
+removeLink
+	self compiledMethod removeLink

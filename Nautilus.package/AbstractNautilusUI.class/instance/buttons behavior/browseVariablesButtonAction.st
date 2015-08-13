@@ -1,0 +1,2 @@
+browseVariablesButtonAction
+	self browseVariableReferences

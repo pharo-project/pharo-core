@@ -1,5 +1,5 @@
-LiteralVariable subclass: #LinkWrapperGlobal
+GlobalVariable subclass: #LinkWrapperGlobal
 	instanceVariableNames: 'wrappedVariable link'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Reflectivity'
+	category: 'Reflectivity-Slots'

@@ -1,0 +1,2 @@
+generateArguments
+	self arguments: {{subwidget}}
