@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '15290 Remove UserManager
-	https://pharo.fogbugz.com/f/cases/15290
+ ^ '16200 Error in #selectNextMethod when removing the only method
+	https://pharo.fogbugz.com/f/cases/16200
 
-16171 Update GTools to version 3.0.5
-	https://pharo.fogbugz.com/f/cases/16171
+16185 Kernel should not depend on NewValueHolder
+	https://pharo.fogbugz.com/f/cases/16185
 
-16180 Enable nil to null coercion for more objects, improved code
-	https://pharo.fogbugz.com/f/cases/16180'
+16202 System-FileRegistry should not depend on System-Changes
+	https://pharo.fogbugz.com/f/cases/16202'

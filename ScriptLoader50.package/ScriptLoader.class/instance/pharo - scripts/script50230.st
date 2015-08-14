@@ -1,4 +1,4 @@
-script50229
+script50230
 
 	^ 'AST-Core-TheIntegrator.353.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -73,12 +73,12 @@ FuelCommandLineHandler-TheIntegrator.27.mcz
 FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-TheIntegrator.388.mcz
 FuelTools-Debugger-StephaneDucasse.12.mcz
-GT-Inspector-AndreiChis.308.mcz
-GT-InspectorExtensions-Core-VincentBlondeau.150.mcz
-GT-Playground-CyrilFerlicot.111.mcz
-GT-Spotter-AndreiChis.315.mcz
+GT-Inspector-MarcusDenker.309.mcz
+GT-InspectorExtensions-Core-TorstenBergmann.159.mcz
+GT-Playground-AndreiChis.112.mcz
+GT-Spotter-AndreiChis.318.mcz
 GT-Spotter-EventRecorder-AndreiChis.92.mcz
-GT-SpotterExtensions-Core-AndreiChis.152.mcz
+GT-SpotterExtensions-Core-TorstenBergmann.154.mcz
 GT-Tests-Inspector-StefanReichhart.33.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
 GT-Tests-Spotter-AndreiChis.9.mcz
@@ -86,14 +86,14 @@ Generated-code-non-existing-package-EstebanLorenzano.2.mcz
 Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-TorstenBergmann.109.mcz
 Glamour-Core-AndreiChis.302.mcz
-Glamour-Examples-CyrilFerlicot.292.mcz
+Glamour-Examples-MarcusDenker.293.mcz
 Glamour-Helpers-AndreiChis.39.mcz
-Glamour-Morphic-Brick-AndreiChis.400.mcz
+Glamour-Morphic-Brick-AndreiChis.401.mcz
 Glamour-Morphic-Brick-Tests-AliakseiSyrel.13.mcz
 Glamour-Morphic-Pager-AndreiChis.103.mcz
-Glamour-Morphic-Renderer-usmanbhatti.323.mcz
+Glamour-Morphic-Renderer-AndreiChis.325.mcz
 Glamour-Morphic-Theme-AndreiChis.216.mcz
-Glamour-Morphic-Widgets-FranckWarlouzet.178.mcz
+Glamour-Morphic-Widgets-AndreiChis.180.mcz
 Glamour-Presentations-AndreiChis.177.mcz
 Glamour-Rubric-Presentations-CyrilFerlicot.43.mcz
 Glamour-Tests-Core-BernardoContreras.105.mcz
@@ -119,7 +119,7 @@ HudsonBuildTools20-TheIntegrator.72.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.20.mcz
-Kernel-TheIntegrator.2094.mcz
+Kernel-TheIntegrator.2097.mcz
 KernelTests-TheIntegrator.789.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -190,7 +190,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-TheIntegrator.1045.mcz
+Nautilus-TheIntegrator.1047.mcz
 Nautilus-GroupManager-TheIntegrator.11.mcz
 Nautilus-GroupManagerUI-TheIntegrator.20.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
@@ -281,11 +281,11 @@ StartupPreferences-TheIntegrator.139.mcz
 System-Announcements-TheIntegrator.104.mcz
 System-Caching-TheIntegrator.26.mcz
 System-CachingTests-TheIntegrator.14.mcz
-System-Changes-TheIntegrator.271.mcz
+System-Changes-TheIntegrator.272.mcz
 System-Clipboard-SvenVanCaekenberghe.32.mcz
 System-CommandLine-TheIntegrator.172.mcz
 System-CommandLineHandler-TheIntegrator.5.mcz
-System-FileRegistry-TheIntegrator.38.mcz
+System-FileRegistry-TheIntegrator.41.mcz
 System-Finalization-TheIntegrator.22.mcz
 System-Hashing-StephaneDucasse.45.mcz
 System-History-EstebanLorenzano.7.mcz
@@ -293,7 +293,7 @@ System-History-Tests-EstebanLorenzano.3.mcz
 System-Installers-SvenVanCaekenberghe.42.mcz
 System-Localization-TheIntegrator.91.mcz
 System-Localization-Tests-TheIntegrator.5.mcz
-System-Object Events-TheIntegrator.18.mcz
+System-Object Events-TheIntegrator.21.mcz
 System-Platforms-TheIntegrator.71.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-Settings-TheIntegrator.319.mcz
@@ -336,8 +336,6 @@ UIManager-TheIntegrator.150.mcz
 Unicode-Initialization-TheIntegrator.12.mcz
 UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz
-UserManager-Core-TheIntegrator.15.mcz
-UserManager-Tests-TheIntegrator.7.mcz
 Versionner-Commit-EstebanLorenzano.31.mcz
 Versionner-Core-Announcements-MarcusDenker.11.mcz
 Versionner-Core-Commands-EstebanLorenzano.58.mcz

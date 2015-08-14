@@ -2,4 +2,4 @@ Array variableSubclass: #WeakActionSequence
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Kernel-Objects'
+	category: 'System-Object Events'
