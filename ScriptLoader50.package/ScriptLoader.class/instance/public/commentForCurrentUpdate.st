@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '16194 Remove refresh button from QualityAssistant, improve UI a bit
-	https://pharo.fogbugz.com/f/cases/16194
+ ^ '16197 update and merge Rubric 
+	https://pharo.fogbugz.com/f/cases/16197
 
-16193 Typo: generation -> generation
-	https://pharo.fogbugz.com/f/cases/16193
+16198 Add users button in message browser 
+	https://pharo.fogbugz.com/f/cases/16198
 
-15697 Speed up the autocompletion pop-up appearance delay
-	https://pharo.fogbugz.com/f/cases/15697
-
-16184 Update ConfigurationOfCatalog
-	https://pharo.fogbugz.com/f/cases/16184'
+16201 Remove unsent extension methods in System-Changes
+	https://pharo.fogbugz.com/f/cases/16201'

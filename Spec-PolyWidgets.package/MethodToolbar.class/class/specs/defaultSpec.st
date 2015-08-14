@@ -1,11 +1,13 @@
 defaultSpec
 	<spec>
 	^ SpecLayout composed
-		newRow: [ :row | 
+		newRow:
+				[ :row | 
 			row
-				add: #(model browseModel);
-				add: #(model sendersModel);
-				add: #(model implementorsModel);
-				add: #(model versionModel);
-				add: #(model dropListModel) ];
+				add: #(#model #browseModel);
+				add: #(#model #usersModel);
+				add: #(#model #sendersModel);
+				add: #(#model #implementorsModel);
+				add: #(#model #versionModel);
+				add: #(#model #dropListModel) ];
 		yourself

@@ -1,4 +1,4 @@
-script50227
+script50228
 
 	^ 'AST-Core-TheIntegrator.353.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -21,8 +21,8 @@ Athens-Morphic-TheIntegrator.59.mcz
 Athens-Text-NicolaiHess.16.mcz
 Balloon-TheIntegrator.123.mcz
 BalloonTests-MarcusDenker.3.mcz
-BaselineOfQualityAssistant-YuriyTymchuk.7.mcz
-BaselineOfRenraku-YuriyTymchuk.2.mcz
+BaselineOfQualityAssistant-YuriyTymchuk.8.mcz
+BaselineOfRenraku-YuriyTymchuk.4.mcz
 BlueInk-Extras-TheIntegrator.6.mcz
 BlueInk-Tests-TheIntegrator.6.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
@@ -219,7 +219,7 @@ PragmaCollector-TheIntegrator.3.mcz
 ProfStef-Core-TheIntegrator.70.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
-QualityAssistant-YuriyTymchuk.62.mcz
+QualityAssistant-YuriyTymchuk.64.mcz
 RPackage-Core-TheIntegrator.401.mcz
 RPackage-Tests-TheIntegrator.173.mcz
 RecentSubmissions-StephaneDucasse.233.mcz
@@ -238,7 +238,7 @@ Regex-Core-TheIntegrator.36.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
 ReleaseTests-TheIntegrator.15.mcz
-Renraku-YuriyTymchuk.69.mcz
+Renraku-YuriyTymchuk.70.mcz
 Renraku-Test-YuriyTymchuk.15.mcz
 Ring-Core-Containers-TheIntegrator.41.mcz
 Ring-Core-Kernel-TheIntegrator.223.mcz
@@ -274,14 +274,14 @@ Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.246.mcz
 Spec-Layout-TheIntegrator.69.mcz
 Spec-MorphicAdapters-TheIntegrator.224.mcz
-Spec-PolyWidgets-TheIntegrator.59.mcz
+Spec-PolyWidgets-TheIntegrator.64.mcz
 Spec-Tests-TheIntegrator.49.mcz
 Spec-Tools-TheIntegrator.280.mcz
 StartupPreferences-TheIntegrator.137.mcz
 System-Announcements-TheIntegrator.104.mcz
 System-Caching-TheIntegrator.26.mcz
 System-CachingTests-TheIntegrator.14.mcz
-System-Changes-TheIntegrator.268.mcz
+System-Changes-TheIntegrator.271.mcz
 System-Clipboard-SvenVanCaekenberghe.32.mcz
 System-CommandLine-TheIntegrator.172.mcz
 System-CommandLineHandler-TheIntegrator.3.mcz
@@ -309,7 +309,7 @@ Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.28.mcz
 Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.104.mcz
-Tool-Catalog-TheIntegrator.15.mcz
+Tool-Catalog-FranckWarlouzet.16.mcz
 Tool-CriticBrowser-TheIntegrator.10.mcz
 Tool-Diff-TheIntegrator.15.mcz
 Tool-ExternalBrowser-TheIntegrator.29.mcz
