@@ -1,4 +1,0 @@
-canRunStartupScript
-	^self permissions canRunStartupScript
-	
-	

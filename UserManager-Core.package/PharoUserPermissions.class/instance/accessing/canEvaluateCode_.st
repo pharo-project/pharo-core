@@ -1,2 +1,0 @@
-canEvaluateCode: anObject
-	canEvaluateCode := anObject

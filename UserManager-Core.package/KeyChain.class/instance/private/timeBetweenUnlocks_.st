@@ -1,3 +1,0 @@
-timeBetweenUnlocks: aDuration
-
-	timeBetweenUnlocks := aDuration

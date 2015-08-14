@@ -1,1 +1,0 @@
-A PharoUserPermissionsTest is all tests about PharoUserPermission.

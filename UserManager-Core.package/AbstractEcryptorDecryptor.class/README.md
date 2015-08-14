@@ -1,1 +1,0 @@
-An AbstractEcryptorDecryptor is an interface providing the method for encrypting/decrypting a string

@@ -1,3 +1,2 @@
 actOnPresentationUpdated: ann
-	container removeAllMorphs.
-	container addMorphBack: (self morphFrom: ann presentation)
+	scrollPane scrollTarget: (self morphFrom: ann presentation)

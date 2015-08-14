@@ -1,3 +1,0 @@
-unlock
-
-	^ self isUnlocked 

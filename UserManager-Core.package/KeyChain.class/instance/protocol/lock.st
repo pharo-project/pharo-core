@@ -1,3 +1,0 @@
-lock
-
-	nextLockTime := DateAndTime new

@@ -1,2 +1,0 @@
-canEditCode: anObject
-	canEditCode := anObject

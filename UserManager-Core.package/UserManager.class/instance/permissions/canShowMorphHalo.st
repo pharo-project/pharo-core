@@ -1,3 +1,0 @@
-canShowMorphHalo
-
-	^ self currentUser canShowMorphHalo

@@ -1,1 +1,0 @@
-A PharoUserTest is all tests about PhraroUser.

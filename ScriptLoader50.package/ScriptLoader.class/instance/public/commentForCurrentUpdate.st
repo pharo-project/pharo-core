@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16197 update and merge Rubric 
-	https://pharo.fogbugz.com/f/cases/16197
+ ^ '15290 Remove UserManager
+	https://pharo.fogbugz.com/f/cases/15290
 
-16198 Add users button in message browser 
-	https://pharo.fogbugz.com/f/cases/16198
+16171 Update GTools to version 3.0.5
+	https://pharo.fogbugz.com/f/cases/16171
 
-16201 Remove unsent extension methods in System-Changes
-	https://pharo.fogbugz.com/f/cases/16201'
+16180 Enable nil to null coercion for more objects, improved code
+	https://pharo.fogbugz.com/f/cases/16180'

@@ -7,7 +7,7 @@ methodsIn: a
 		format: [ :method | method selector ];
 		morphicSelectionAct: [ :list :object :class | 
 			Smalltalk tools browser 
-				fullOnClass: class 
+				openOnClass: class 
 				selector: list selection selector ]
 			icon: GLMUIThemeExtraIcons glamorousBrowse
 			on: $b

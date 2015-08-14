@@ -1,4 +1,4 @@
 gtTopicIcon
-	^ (HelpIcons iconNamed: (self hasSubtopics
-		 ifTrue: [#bookIcon] 
-	    ifFalse: [#pageIcon]))
+	^self hasSubtopics 
+			ifTrue: [ Smalltalk ui icons bookIcon ] 
+	    	ifFalse: [ Smalltalk ui icons pageIcon ]

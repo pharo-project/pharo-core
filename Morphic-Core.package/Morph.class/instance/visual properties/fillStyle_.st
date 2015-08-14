@@ -6,5 +6,5 @@ fillStyle: aFillStyle
 	extension fillStyle = aFillStyle
 		ifTrue: [^self]. "no change optimization"
 	extension fillStyle: aFillStyle.
-	self privateColor: aFillStyle asColor.
+	color := aFillStyle asColor.
 	self changed

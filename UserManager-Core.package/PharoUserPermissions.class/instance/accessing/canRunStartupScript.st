@@ -1,2 +1,0 @@
-canRunStartupScript
-	^ canRunStartupScript

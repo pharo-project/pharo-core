@@ -1,3 +1,0 @@
-setCurrentUser: aName
-	
-	currentUser := aName

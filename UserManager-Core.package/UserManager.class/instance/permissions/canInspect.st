@@ -1,3 +1,0 @@
-canInspect
-
-	^ self currentUser canRunStartupScript

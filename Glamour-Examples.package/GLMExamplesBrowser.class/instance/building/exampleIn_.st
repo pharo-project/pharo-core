@@ -11,7 +11,7 @@ exampleIn: composer
 		
 	composer smalltalkCode
 		title: 'Source code';
-		act: [ :text :exampleClass :examplePragma | Smalltalk tools browser fullOnClass: exampleClass selector: examplePragma selector ]
+		act: [ :text :exampleClass :examplePragma | Smalltalk tools browser openOnClass: exampleClass selector: examplePragma selector ]
 			icon: GLMUIThemeExtraIcons glamorousBrowse
 			entitled: 'Browse';
 		smalltalkClass: [ :exampleClass | exampleClass ];

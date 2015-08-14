@@ -1,4 +1,0 @@
-canEvaluateCode
-	^self permissions canEvaluateCode
-	
-	

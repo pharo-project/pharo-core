@@ -6,5 +6,7 @@ gtExampleScrollPane
 		vSpaceFill;
 		color: Color veryVeryLightGray;
 		layoutMorphs: true;
+		width: 350;
+		height: 200;
 		addAllBricks: ((1 to: 20) collect: [ :i | self gtExampleBasic ]);
 		yourself

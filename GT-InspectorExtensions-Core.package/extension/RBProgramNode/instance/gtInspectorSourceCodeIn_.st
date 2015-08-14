@@ -8,4 +8,5 @@ gtInspectorSourceCodeIn: composite
 			self parents first compilationContext ifNotNil: [ :ctx | ctx getClass ] ]; 
 		initialize: [ :presentation | 
 			presentation selectionInterval: self sourceInterval ];
+		when: [ self source notNil ];
 		act: [ self methodNode method compiledMethod browse ] icon: GLMUIThemeExtraIcons glamorousBrowse entitled: 'Browse'

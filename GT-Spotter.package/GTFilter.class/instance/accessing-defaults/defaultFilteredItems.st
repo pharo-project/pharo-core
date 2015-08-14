@@ -1,0 +1,2 @@
+defaultFilteredItems
+	^ OrderedCollection new

@@ -1,3 +1,0 @@
-maxAttemptsNumber
-
-	^ 3

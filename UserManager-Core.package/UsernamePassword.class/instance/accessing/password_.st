@@ -1,2 +1,0 @@
-password: anObject
-	password := anObject

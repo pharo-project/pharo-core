@@ -1,8 +1,5 @@
 invokeMetaMenu: evt
-	| menu |
-	
-	UserManager default canShowMorphHalo
-		ifFalse: [ ^ self ].
+	| menu |	
 	menu := self buildMetaMenu: evt.
 	menu addTitle: self externalName.
 	self world ifNotNil: [

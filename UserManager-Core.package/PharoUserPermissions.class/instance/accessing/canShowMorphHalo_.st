@@ -1,2 +1,0 @@
-canShowMorphHalo: anObject
-	canShowMorphHalo := anObject

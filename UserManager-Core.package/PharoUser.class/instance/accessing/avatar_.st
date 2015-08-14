@@ -1,3 +1,0 @@
-avatar: anUrl
-
-	avatar := anUrl

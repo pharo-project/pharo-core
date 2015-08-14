@@ -1,2 +1,0 @@
-canDropOSFile: anObject
-	canDropOSFile := anObject

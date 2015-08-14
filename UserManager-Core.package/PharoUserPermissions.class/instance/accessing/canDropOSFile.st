@@ -1,2 +1,0 @@
-canDropOSFile
-	^ canDropOSFile

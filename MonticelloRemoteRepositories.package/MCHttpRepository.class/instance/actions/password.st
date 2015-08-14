@@ -3,11 +3,6 @@ password
 
 	self user isEmpty ifTrue: [^password ifNil: ['']].
 
-	password isEmptyOrNil ifTrue: [ 
-		password := (UserManager default currentUser userNamePasswordFor: self keyChainGroupSelector) 							ifNil: [ '' ]
-							ifNotNil: [:usr | usr password ]].
-
-
 	password isEmptyOrNil ifTrue: [
 		| answer |
 		user isEmptyOrNil ifTrue: [

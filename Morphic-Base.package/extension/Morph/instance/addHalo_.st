@@ -1,8 +1,5 @@
 addHalo: evt
-	| halo prospectiveHaloClass |
-	
-	UserManager default canShowMorphHalo
-		ifFalse: [ ^ self ].
+	| halo prospectiveHaloClass |	
 	prospectiveHaloClass := Smalltalk globals at: self haloClass ifAbsent: [ HaloMorph ].
 	halo := prospectiveHaloClass new.
 	halo bounds: (halo worldBoundsForMorph: self).

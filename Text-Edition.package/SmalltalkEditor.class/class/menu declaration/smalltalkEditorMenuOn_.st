@@ -15,7 +15,6 @@ smalltalkEditorMenuOn: aBuilder
 				order: 0.
 	aBuilder items last withSeparatorAfter .
 	
-	UserManager default canEvaluateCode ifTrue: [
 		(aBuilder item: #'Do it' translated) 
 			keyText: 'd';
 			selector: #doIt; 
@@ -25,8 +24,7 @@ smalltalkEditorMenuOn: aBuilder
 			keyText: 'p';
 			selector: #printIt; 
 			help: nil; 
-			icon: Smalltalk ui icons smallPrintItIcon. ].
-	UserManager default canInspect ifTrue: [
+			icon: Smalltalk ui icons smallPrintItIcon.
 		(aBuilder item: #'Inspect it' translated) 
 			keyText: 'i';
 			selector: #inspectIt; 
@@ -36,8 +34,7 @@ smalltalkEditorMenuOn: aBuilder
 			keyText: 'I';
 			selector: #basicInspectIt; 
 			help: nil; 
-			icon: Smalltalk ui icons smallInspectItIcon ].
-	UserManager default canDebug ifTrue: [
+			icon: Smalltalk ui icons smallInspectItIcon.
 		(aBuilder item: #'Debug it' translated) 
 			keyText: 'D';
 			selector: #debugIt; 
@@ -46,7 +43,7 @@ smalltalkEditorMenuOn: aBuilder
 		(aBuilder item: #'Profile it' translated) 
 			selector: #tallyIt; 
 			icon: Smalltalk ui icons smallDebugIcon; 
-			withSeparatorAfter. ].
+			withSeparatorAfter.
 	(aBuilder item: #'Find...' translated) 
 		keyText: 'f';
 		selector: #find; 
@@ -57,10 +54,9 @@ smalltalkEditorMenuOn: aBuilder
 		selector: #findAgain; 
 		help: nil; 
 		icon: Smalltalk ui icons smallFindIcon.
-	UserManager default canBrowse ifTrue: [
-		(aBuilder item: #'Code search...' translated) 
+	(aBuilder item: #'Code search...' translated) 
 			selector: #shiftedTextPaneMenuRequest; 
-			withSeparatorAfter ].
+			withSeparatorAfter.
 	(aBuilder item: #'Do again' translated) 
 		keyText: 'j';
 		selector: #again; 
@@ -92,14 +88,13 @@ smalltalkEditorMenuOn: aBuilder
 		help: nil; 
 		icon: Smalltalk ui icons smallCopyIcon; 
 		withSeparatorAfter.
-	UserManager default canEvaluateCode ifTrue: [
-		(aBuilder item: #'Accept' translated) 
-			keyText: 's';
-			selector: #accept; 
-			help: nil; 
-			icon: Smalltalk ui icons smallOkIcon.
-		(aBuilder item: #'Cancel' translated) 
-			keyText: 'l';
-			selector: #cancel; 
-			help: nil; 
-			icon: Smalltalk ui icons smallCancelIcon ].
+	(aBuilder item: #'Accept' translated) 
+		keyText: 's';
+		selector: #accept; 
+		help: nil; 
+		icon: Smalltalk ui icons smallOkIcon.
+	(aBuilder item: #'Cancel' translated) 
+		keyText: 'l';
+		selector: #cancel; 
+		help: nil; 
+		icon: Smalltalk ui icons smallCancelIcon.

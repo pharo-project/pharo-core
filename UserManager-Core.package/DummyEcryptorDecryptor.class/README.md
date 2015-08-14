@@ -1,1 +1,0 @@
-A DummyEcryptorDecryptor is  an encryptor that just do _NOT_ encrypt/decrypt at all :)

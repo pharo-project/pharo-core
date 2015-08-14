@@ -1,4 +1,0 @@
-canDebug
-	^self permissions canDebug
-	
-	

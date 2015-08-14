@@ -14,4 +14,4 @@ applyFilterWithQuery
 							" this was done in the nil-fallback of GTSpotterCandidatesProcessor>>doFilter:on: - seems not to be harmful  "
 							Processor activeProcess priority: Processor userBackgroundPriority ]
 						ifFalse: [ self addItem: each ] ] ].
-	self items: unorderedMatchedItems
+	self filteredItems: unorderedMatchedItems

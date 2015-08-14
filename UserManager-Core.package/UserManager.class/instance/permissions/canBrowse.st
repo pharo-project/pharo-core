@@ -1,3 +1,0 @@
-canBrowse
-
-	^ self currentUser canBrowse

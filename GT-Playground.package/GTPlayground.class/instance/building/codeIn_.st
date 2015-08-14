@@ -1,5 +1,5 @@
 codeIn: a
-	^ a pharoPlayground
+	^ (self codePresentationIn: a)
 		title: [ :page | 
 			GTPlaygroundEditableTabLabel new
 				text: page title;

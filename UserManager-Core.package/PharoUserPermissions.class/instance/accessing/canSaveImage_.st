@@ -1,2 +1,0 @@
-canSaveImage: anObject
-	canSaveImage := anObject

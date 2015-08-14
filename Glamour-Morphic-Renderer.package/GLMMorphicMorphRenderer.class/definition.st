@@ -1,5 +1,5 @@
 GLMMorphicWidgetRenderer subclass: #GLMMorphicMorphRenderer
-	instanceVariableNames: 'scrollPane containerMorphClass container'
+	instanceVariableNames: 'scrollPane'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Glamour-Morphic-Renderer'

@@ -1,2 +1,0 @@
-canEditUser: anObject
-	canEditUser := anObject

@@ -1,3 +1,0 @@
-isUnlocked
-
-	^ true

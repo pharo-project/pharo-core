@@ -1,3 +1,0 @@
-canDebug
-
-	^ self currentUser canDebug

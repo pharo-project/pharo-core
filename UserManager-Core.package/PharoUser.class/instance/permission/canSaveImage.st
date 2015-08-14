@@ -1,4 +1,0 @@
-canSaveImage
-	^self permissions canSaveImage
-	
-	

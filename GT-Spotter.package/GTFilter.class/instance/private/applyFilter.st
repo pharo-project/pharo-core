@@ -1,2 +1,2 @@
 applyFilter
-	^ self items
+	^ self filteredItems

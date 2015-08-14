@@ -1,8 +1,5 @@
 basicHasUnacceptedEdits: aBoolean
-	"Set the hasUnacceptedEdits flag to the given value. "
-	
-	UserManager default canEditCode 
-		ifFalse: [ aBoolean ifTrue: [ ^ self ]].
+	"Set the hasUnacceptedEdits flag to the given value. "	
 	aBoolean == hasUnacceptedEdits 
 		ifFalse: [hasUnacceptedEdits := aBoolean. 
 			self changed].

@@ -1,3 +1,0 @@
-canEditUser
-
-	^ canEditUser

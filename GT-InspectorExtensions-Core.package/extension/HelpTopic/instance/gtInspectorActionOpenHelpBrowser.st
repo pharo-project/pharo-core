@@ -3,5 +3,5 @@ gtInspectorActionOpenHelpBrowser
 	
 	^ GLMGenericAction new
 		action: [ HelpBrowser openOn: self ];
-		icon: (HelpIcons iconNamed:#bookIcon);
+		icon: Smalltalk ui icons bookIcon;
 		title: 'Browse'

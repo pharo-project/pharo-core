@@ -1,3 +1,0 @@
-currentUser
-
-	^ self default currentUser

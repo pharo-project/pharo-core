@@ -10,4 +10,4 @@ gtInspectorSubmorphsIn: composite
 				ifTrue: [(morphForm scaledToSize: 16@16) asMorph]
 				ifFalse: [Form extent: 16@16] ];
 		children: [:each | each submorphs];
-		when: [:each | each submorphs notEmpty ]
+		when: [:each | each submorphs notNil and:[ each hasSubmorphs ] ]

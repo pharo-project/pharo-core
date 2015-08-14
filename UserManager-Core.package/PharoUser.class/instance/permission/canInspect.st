@@ -1,4 +1,0 @@
-canInspect
-	^self permissions canInspect
-	
-	

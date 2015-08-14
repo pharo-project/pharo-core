@@ -1,3 +1,4 @@
 gtExampleWorldCanvasWithShadow
 	<gtExample: 'Canvas: World+Shadow'>
-	^ ShadowDrawingCanvas on: Canvas new
+	^ (ShadowDrawingCanvas on: Canvas new)
+		shadowColor: (Color black alpha: 0.5)

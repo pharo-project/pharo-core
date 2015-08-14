@@ -13,7 +13,7 @@ sourceOf: method for: object in: composite
 			entitled: 'Accept';
 		act: [ :text :m | 
 			Smalltalk tools browser 
-				fullOnClass: m methodClass 
+				openOnClass: m methodClass 
 				selector: m selector ]
 			icon: GLMUIThemeExtraIcons glamorousBrowse
 			entitled: 'Browse';

@@ -1,2 +1,0 @@
-canEditCode
-	^ canEditCode

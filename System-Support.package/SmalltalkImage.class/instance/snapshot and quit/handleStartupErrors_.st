@@ -10,12 +10,9 @@ handleStartupErrors: startupErrors
 	self isInteractive 
 		ifFalse: [ self exitFailure ]
 		ifTrue: [  |answer|
-			UserManager default canRunStartupScript
-				ifTrue: [ 
-					answer := (UIManager default 
-						confirm: 'Got startup errors, proceed to open debuggers'
-						trueChoice: 'Debug'
-						falseChoice: 'Cancel') ]
-				ifFalse: [ answer := false ].
+			answer := (UIManager default 
+				confirm: 'Got startup errors, proceed to open debuggers'
+				trueChoice: 'Debug'
+				falseChoice: 'Cancel').
 			answer == true
 				ifTrue: [ startupErrors do: #debug ]]

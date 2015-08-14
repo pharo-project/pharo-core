@@ -1,0 +1,2 @@
+filteredItems: aCollection
+	filteredItems := aCollection

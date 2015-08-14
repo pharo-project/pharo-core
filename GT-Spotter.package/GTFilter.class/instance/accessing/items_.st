@@ -1,2 +1,0 @@
-items: aCollection
-	items := aCollection

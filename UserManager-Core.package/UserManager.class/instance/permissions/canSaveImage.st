@@ -1,3 +1,0 @@
-canSaveImage
-
-	^ self currentUser canSaveImage

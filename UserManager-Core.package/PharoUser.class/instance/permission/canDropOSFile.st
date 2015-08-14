@@ -1,3 +1,0 @@
-canDropOSFile
-	^self permissions canDropOSFile
-	

@@ -1,3 +1,0 @@
-encrypt: aString
-
-	^ aString
