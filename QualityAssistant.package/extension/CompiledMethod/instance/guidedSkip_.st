@@ -7,5 +7,5 @@ guidedSkip: aCritic
 	(UIManager default
 		chooseFrom: (candidates collect: #name)
 		values: candidates
-		title: 'On which level do you want to skip the rule?')
+		title: 'On which level do you want to ban the rule?')
 			ifNotNilDo: [ :entity | entity skip: aCritic ]

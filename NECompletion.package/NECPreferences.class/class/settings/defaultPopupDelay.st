@@ -1,2 +1,2 @@
 defaultPopupDelay
-	^ 500
+	^ 200

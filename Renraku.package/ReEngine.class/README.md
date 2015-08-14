@@ -1,1 +1,1 @@
-I make sure that critics cache is erased when a class or method is modified. Also I store rules list that is continuously used for validation
+Most of my functionality was removed. The last thing that I do is providing rules that should be run for obtaining critics.

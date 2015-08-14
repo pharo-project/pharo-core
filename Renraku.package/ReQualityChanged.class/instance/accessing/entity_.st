@@ -1,2 +1,0 @@
-entity: aCollection 
-	entity := aCollection

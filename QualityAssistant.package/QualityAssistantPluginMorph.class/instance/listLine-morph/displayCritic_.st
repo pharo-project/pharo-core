@@ -4,10 +4,11 @@ displayCritic: aCritic
 		layoutPolicy: TableLayout new;
 		listDirection: #leftToRight;
 		cellPositioning: #center;
-		hResizing: #shrinkWrap;
-		vResizing: #spaceFill;
+		hResizing: #spaceFill;
+		vResizing: #shrinkWrap;
 		cellInset: 5;
 		color: Color transparent;
+		layoutInset: (Margin left: 0 top: 0 right: 10 bottom: 0);
 		yourself.
 	
 	listItem
@@ -18,6 +19,13 @@ displayCritic: aCritic
 		ifTrue: [ listItem addMorphBack: (self autofixButtonFor: aCritic) ].
 		
 	listItem addMorphBack: (self skipButtonFor: aCritic).
+	
+	listItem addMorphBack: (Morph new
+		color: Color transparent;
+		hResizing: #spaceFill;
+		height: 5;
+		yourself).
+	
 	listItem addMorphBack: (self uselessButtonFor: aCritic).
 	
 	^ listItem

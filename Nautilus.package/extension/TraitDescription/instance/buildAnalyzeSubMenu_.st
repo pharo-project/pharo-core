@@ -10,7 +10,7 @@ buildAnalyzeSubMenu: aBuilder
 		parent: #Analyze;
 		order: 350.
 		
-	(aBuilder item: #'Force the generaton of the initialize method')
+	(aBuilder item: #'Force the generation of the initialize method')
 		keyText: 'h, k' if: Nautilus useOldStyleKeys not;
 		keyText: 'K' if: Nautilus useOldStyleKeys;		
 		action: [ target forceGenerateInitialize ];

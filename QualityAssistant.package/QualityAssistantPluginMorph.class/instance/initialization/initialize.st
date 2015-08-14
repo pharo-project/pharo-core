@@ -18,8 +18,6 @@ initialize
 	self initializeUpdateTask.
 	
 	self
-		addMorphBack: listMorph;
-		addMorphBack: self createButton.
+		addMorphBack: listMorph.
 		
-	SystemAnnouncer uniqueInstance weak
-		when: ReQualityChanged send: #qualityChanged: to: self
+	self subscribe

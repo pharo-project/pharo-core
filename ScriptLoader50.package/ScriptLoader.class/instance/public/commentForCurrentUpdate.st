@@ -1,12 +1,12 @@
 commentForCurrentUpdate
- ^ '16183 Clean up class comment implementation
-	https://pharo.fogbugz.com/f/cases/16183
+ ^ '16194 Remove refresh button from QualityAssistant, improve UI a bit
+	https://pharo.fogbugz.com/f/cases/16194
 
-16181 Better unifying of the columns width in Nautilus
-	https://pharo.fogbugz.com/f/cases/16181
+16193 Typo: generation -> generation
+	https://pharo.fogbugz.com/f/cases/16193
 
-16182  Add Manifests for the bootstrap (part 2)
-	https://pharo.fogbugz.com/f/cases/16182
+15697 Speed up the autocompletion pop-up appearance delay
+	https://pharo.fogbugz.com/f/cases/15697
 
-16178 new nautilus icons (for class side, hierarchy, etc) are defined in wrong class
-	https://pharo.fogbugz.com/f/cases/16178'
+16184 Update ConfigurationOfCatalog
+	https://pharo.fogbugz.com/f/cases/16184'

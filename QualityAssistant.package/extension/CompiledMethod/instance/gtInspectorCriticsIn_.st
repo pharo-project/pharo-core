@@ -1,15 +1,18 @@
 gtInspectorCriticsIn: composite
 	"This provides a list of all critics"
 	<gtInspectorPresentationOrder: 20>
+	| critics |
+	critics := self critics.
+	
 	composite list 
-		when: [ self cachedCritics notEmpty ];
-		title: self cachedCritics size asString, (' critic' asPluralBasedOn: self critics);
+		when: [ critics notEmpty ];
+		title: critics size asString, (' critic' asPluralBasedOn: critics);
 		titleIcon: [ CircleMorph new
 			extent: 16 @ 16;
 			borderWidth: 0;
 			color: Color red darker darker;
 			addMorphCentered:
-				(self cachedCritics size asStringMorph
+				(critics size asStringMorph
 					color: Color white;
 					emphasis: 1;
 					yourself);
