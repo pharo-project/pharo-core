@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16208 System-Support should have a System-Support-Tests
-	https://pharo.fogbugz.com/f/cases/16208
+ ^ '16133 repackage blue ink in blue project
+	https://pharo.fogbugz.com/f/cases/16133
 
-16179 Reflectivity: Set Links on Globals
-	https://pharo.fogbugz.com/f/cases/16179
+16213 Update Configuration of Rubric
+	https://pharo.fogbugz.com/f/cases/16213
 
-16216 Default values in NECPreferences are not initilized right
-	https://pharo.fogbugz.com/f/cases/16216'
+15279 Nautilus: Rename Package needs to copy over defined Monticello repositories
+	https://pharo.fogbugz.com/f/cases/15279'

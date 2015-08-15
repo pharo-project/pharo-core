@@ -1,8 +1,9 @@
 renameTo: aSymbol
-	| oldName newName oldCategoryNames |
+	| oldName newName oldCategoryNames repositoryGroup |
 
 	oldName := self name.
 	newName := aSymbol asSymbol.
+	repositoryGroup := self mcPackage workingCopy repositoryGroup.
 	
 	(self organizer includesPackageNamed: aSymbol)
 		ifTrue: [ RPackageConflictError  signal: ('A package named {1} already exists' format: { aSymbol }) ].
@@ -20,6 +21,8 @@ renameTo: aSymbol
 	self organizer 
 		basicUnregisterPackageNamed: oldName;
 		basicRegisterPackage: self.
+	
+	self mcPackage workingCopy repositoryGroup: repositoryGroup. 
 	
 	SystemAnnouncer uniqueInstance 
 		announce: (RPackageRenamed 

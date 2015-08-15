@@ -1,2 +1,2 @@
 formatterClass
-  ^BIConfigurableFormatter
+	^ BIConfigurableFormatter

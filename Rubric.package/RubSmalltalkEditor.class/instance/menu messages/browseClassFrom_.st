@@ -8,4 +8,4 @@ browseClassFrom: aClassString
 		withCaption: 'choose a class to browse...'.
 	selectedClass isNil
 		ifTrue: [ ^ self internalCallToImplementorsOf: aClassString ].
-	Smalltalk tools browser fullOnClass: selectedClass
+	Smalltalk tools browser openOnClass: selectedClass

@@ -1,6 +1,6 @@
-script50231
+script50232
 
-	^ 'AST-Core-TheIntegrator.353.mcz
+	^ 'AST-Core-TheIntegrator.355.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
 Announcements-Core-TheIntegrator.57.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -23,8 +23,9 @@ Balloon-TheIntegrator.123.mcz
 BalloonTests-MarcusDenker.3.mcz
 BaselineOfQualityAssistant-YuriyTymchuk.8.mcz
 BaselineOfRenraku-YuriyTymchuk.4.mcz
+BlueInk-Core-TheIntegrator.2.mcz
 BlueInk-Extras-TheIntegrator.6.mcz
-BlueInk-Tests-TheIntegrator.6.mcz
+BlueInk-Tests-TheIntegrator.8.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
 CodeImport-TheIntegrator.61.mcz
 Collections-Abstract-TheIntegrator.291.mcz
@@ -220,7 +221,7 @@ ProfStef-Core-TheIntegrator.70.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
 QualityAssistant-YuriyTymchuk.64.mcz
-RPackage-Core-TheIntegrator.401.mcz
+RPackage-Core-TheIntegrator.407.mcz
 RPackage-Tests-TheIntegrator.173.mcz
 RecentSubmissions-StephaneDucasse.233.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
