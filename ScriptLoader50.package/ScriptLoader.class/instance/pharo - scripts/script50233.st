@@ -1,4 +1,4 @@
-script50232
+script50233
 
 	^ 'AST-Core-TheIntegrator.355.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -161,7 +161,7 @@ MonticelloGUI-TheIntegrator.369.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.8.mcz
 Morphic-Base-TheIntegrator.470.mcz
-Morphic-Core-TheIntegrator.200.mcz
+Morphic-Core-TheIntegrator.202.mcz
 Morphic-Examples-TheIntegrator.46.mcz
 Morphic-Widgets-Basic-TheIntegrator.51.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
@@ -247,7 +247,7 @@ Ring-Monticello-TheIntegrator.36.mcz
 Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.83.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
-Rubric-StephaneDucasse.265.mcz
+Rubric-FranckWarlouzet.267.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
 SUnit-Core-TheIntegrator.152.mcz

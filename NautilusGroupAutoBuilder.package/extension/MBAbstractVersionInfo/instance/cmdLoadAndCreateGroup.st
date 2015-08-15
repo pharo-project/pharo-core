@@ -1,0 +1,3 @@
+cmdLoadAndCreateGroup
+	<command>
+	^ VSLoadAndCreateNautilusGroupCommand

@@ -1,5 +1,6 @@
 runLocalStepMethodsIn: aWorld 
-	"Run morph 'step' methods (LOCAL TO THIS WORLD) whose time has come. Purge any morphs that are no longer in this world."
+	"Run morph 'step' methods (LOCAL TO THIS WORLD) whose time has come. Purge any morphs that are no longer in this world.
+	ar 3/13/1999: Remove buggy morphs from the step list so that they don't raise repeated errors."
 
 	| now morphToStep stepTime priorWorld |
 	now := Time millisecondClockValue.
@@ -16,11 +17,13 @@ runLocalStepMethodsIn: aWorld
 		whileTrue: 
 			[lastStepMessage := stepList removeFirst.
 			morphToStep := lastStepMessage receiver.
-			lastStepMessage value: now.
-			lastStepMessage ifNotNil: 
-					[stepTime := lastStepMessage stepTime ifNil: [morphToStep stepTime].
-					lastStepMessage scheduledTime: now + (stepTime max: 1).
-					stepList add: lastStepMessage].
+			(morphToStep shouldGetStepsFrom: aWorld) 
+				ifTrue: 
+					[lastStepMessage value: now.
+					lastStepMessage ifNotNil: 
+							[stepTime := lastStepMessage stepTime ifNil: [morphToStep stepTime].
+							lastStepMessage scheduledTime: now + (stepTime max: 1).
+							stepList add: lastStepMessage]].
 			lastStepMessage := nil].
 	lastStepTime := now.
 	ActiveWorld := priorWorld
