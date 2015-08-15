@@ -1,5 +1,5 @@
-SlotSilentTest subclass: #ClassVariableTest
+TestCase subclass: #ClassVariableTest
 	instanceVariableNames: ''
-	classVariableNames: ''
+	classVariableNames: 'TestVariable'
 	poolDictionaries: ''
-	category: 'Slot-Tests-Examples'
+	category: 'Slot-Tests'

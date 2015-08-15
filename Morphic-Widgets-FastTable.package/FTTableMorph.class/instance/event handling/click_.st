@@ -8,6 +8,5 @@ click: event
 		ifNil: [ self selectRowIndexes: #() ].
 		
 	"check for right click (menu)"
-	(event yellowButtonPressed and: [ event anyModifierKeyPressed not ])
+	(event yellowButtonPressed and: [(self commandOrCrontrolKeyPressed: event) not])
 		ifTrue: [ self showMenuForPosition: event cursorPoint ]
-	

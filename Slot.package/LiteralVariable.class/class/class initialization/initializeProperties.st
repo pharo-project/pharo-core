@@ -1,0 +1,2 @@
+initializeProperties
+	Properties := WeakIdentityKeyDictionary new.

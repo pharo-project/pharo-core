@@ -1,5 +1,5 @@
 Association subclass: #LiteralVariable
 	instanceVariableNames: ''
-	classVariableNames: ''
+	classVariableNames: 'Properties'
 	poolDictionaries: ''
 	category: 'Slot-Scope'

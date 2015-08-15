@@ -1,4 +1,4 @@
-script50233
+script50234
 
 	^ 'AST-Core-TheIntegrator.355.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -119,7 +119,8 @@ HelpSystem-Tests-TheIntegrator.30.mcz
 HudsonBuildTools20-TheIntegrator.72.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
-Jobs-TheIntegrator.20.mcz
+Jobs-TheIntegrator.22.mcz
+Jobs-Tests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2097.mcz
 KernelTests-TheIntegrator.789.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
@@ -196,6 +197,7 @@ Nautilus-GroupManager-TheIntegrator.11.mcz
 Nautilus-GroupManagerUI-TheIntegrator.20.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
 NautilusCommon-TheIntegrator.275.mcz
+NautilusGroupAutoBuilder-FranckWarlouzet.1.mcz
 NautilusRefactoring-TheIntegrator.244.mcz
 Network-Kernel-TheIntegrator.118.mcz
 Network-MIME-MarcusDenker.69.mcz
@@ -226,7 +228,7 @@ RPackage-Tests-TheIntegrator.173.mcz
 RecentSubmissions-StephaneDucasse.233.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.282.mcz
-Refactoring-Critics-TheIntegrator.189.mcz
+Refactoring-Critics-TheIntegrator.191.mcz
 Refactoring-Environment-TheIntegrator.58.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.127.mcz
@@ -264,8 +266,8 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.271.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.649.mcz
-Slot-Tests-TheIntegrator.47.mcz
+Slot-TheIntegrator.651.mcz
+Slot-Tests-TheIntegrator.49.mcz
 SmartSuggestions-TheIntegrator.176.mcz
 SmartSuggestions-Tests-TheIntegrator.8.mcz
 Spec-Core-TheIntegrator.411.mcz
