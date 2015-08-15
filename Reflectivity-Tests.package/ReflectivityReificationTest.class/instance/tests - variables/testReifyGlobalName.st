@@ -9,7 +9,7 @@ testReifyGlobalName
 	self assert: varNode hasMetalink.
 	self assert: (tag isNil).
 	instance := ReflectivityExamples new .
-	self assert: (instance exampleGlobalRead = Object).
-	self assert: (tag = #Object).
+	self assert: (instance exampleGlobalRead = GlobalForTesting).
+	self assert: (tag = #GlobalForTesting).
 
 	link uninstall. 

@@ -12,3 +12,8 @@ initialize
 		at: $' put: $'.
 	smartCharactersWithSingleSpace := ''.
 	smartCharactersWithDoubleSpace := '[]'.
+	backgroundColor := Smalltalk ui theme settings menuColor ifNil: [ Color white ].
+	popupShowAutomatic := self defaultPopupShowAutomatic.
+	popupAutomaticDelay := self defaultPopupDelay.
+	popupShowWithShortcut := self defaultPopupShortcut.
+	spaceAfterCompletion := true

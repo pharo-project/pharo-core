@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16200 Error in #selectNextMethod when removing the only method
-	https://pharo.fogbugz.com/f/cases/16200
+ ^ '16208 System-Support should have a System-Support-Tests
+	https://pharo.fogbugz.com/f/cases/16208
 
-16185 Kernel should not depend on NewValueHolder
-	https://pharo.fogbugz.com/f/cases/16185
+16179 Reflectivity: Set Links on Globals
+	https://pharo.fogbugz.com/f/cases/16179
 
-16202 System-FileRegistry should not depend on System-Changes
-	https://pharo.fogbugz.com/f/cases/16202'
+16216 Default values in NECPreferences are not initilized right
+	https://pharo.fogbugz.com/f/cases/16216'

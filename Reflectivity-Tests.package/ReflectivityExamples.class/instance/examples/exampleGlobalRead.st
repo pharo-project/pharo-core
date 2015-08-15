@@ -1,2 +1,2 @@
 exampleGlobalRead
-	^Object
+	^GlobalForTesting

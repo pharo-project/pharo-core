@@ -10,5 +10,5 @@ testReplaceVariableReadGlobal
 	self assert: varNode hasMetalink.
 	self assert: (ReflectivityExamples>>#exampleGlobalRead) class = ReflectiveMethod.
 	instance := ReflectivityExamples new.
-	self assert: (instance exampleGlobalRead value = Object).
+	self assert: (instance exampleGlobalRead value = GlobalForTesting).
 	link uninstall. 
