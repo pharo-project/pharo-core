@@ -1,4 +1,4 @@
-script50235
+script50236
 
 	^ 'AST-Core-TheIntegrator.355.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -21,13 +21,13 @@ Athens-Morphic-TheIntegrator.59.mcz
 Athens-Text-NicolaiHess.16.mcz
 Balloon-TheIntegrator.123.mcz
 BalloonTests-MarcusDenker.3.mcz
-BaselineOfQualityAssistant-YuriyTymchuk.8.mcz
+BaselineOfQualityAssistant-YuriyTymchuk.9.mcz
 BaselineOfRenraku-YuriyTymchuk.4.mcz
 BlueInk-Core-TheIntegrator.2.mcz
 BlueInk-Extras-TheIntegrator.6.mcz
 BlueInk-Tests-TheIntegrator.8.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
-CodeImport-TheIntegrator.61.mcz
+CodeImport-TheIntegrator.63.mcz
 Collections-Abstract-TheIntegrator.291.mcz
 Collections-Arithmetic-TheIntegrator.20.mcz
 Collections-Atomic-TheIntegrator.16.mcz
@@ -158,7 +158,7 @@ Monticello-Tests-TheIntegrator.24.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.189.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
-MonticelloGUI-TheIntegrator.369.mcz
+MonticelloGUI-TheIntegrator.371.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.8.mcz
 Morphic-Base-TheIntegrator.470.mcz
@@ -197,7 +197,7 @@ Nautilus-GroupManager-TheIntegrator.11.mcz
 Nautilus-GroupManagerUI-TheIntegrator.20.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
 NautilusCommon-TheIntegrator.275.mcz
-NautilusGroupAutoBuilder-FranckWarlouzet.1.mcz
+NautilusGroupAutoBuilder-TheIntegrator.3.mcz
 NautilusRefactoring-TheIntegrator.244.mcz
 Network-Kernel-TheIntegrator.118.mcz
 Network-MIME-MarcusDenker.69.mcz
@@ -241,7 +241,7 @@ Regex-Core-TheIntegrator.36.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
 ReleaseTests-TheIntegrator.15.mcz
-Renraku-YuriyTymchuk.70.mcz
+Renraku-YuriyTymchuk.71.mcz
 Renraku-Test-YuriyTymchuk.15.mcz
 Ring-Core-Containers-TheIntegrator.41.mcz
 Ring-Core-Kernel-TheIntegrator.223.mcz
@@ -313,7 +313,7 @@ Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.28.mcz
 Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.104.mcz
-Tool-Catalog-FranckWarlouzet.16.mcz
+Tool-Catalog-TheIntegrator.20.mcz
 Tool-CriticBrowser-TheIntegrator.10.mcz
 Tool-Diff-TheIntegrator.15.mcz
 Tool-ExternalBrowser-TheIntegrator.29.mcz

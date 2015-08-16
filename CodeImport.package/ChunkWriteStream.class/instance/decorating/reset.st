@@ -1,2 +1,0 @@
-reset
-	decoratedStream reset.

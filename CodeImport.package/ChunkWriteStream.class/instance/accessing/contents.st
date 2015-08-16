@@ -1,3 +1,0 @@
-contents
-	
-	^ decoratedStream contents

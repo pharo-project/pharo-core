@@ -1,0 +1,2 @@
+availableRepositoryURLStrings
+	^ self repositoryURLToNameMappings keys

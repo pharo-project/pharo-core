@@ -1,0 +1,3 @@
+availableRepositoryURLStrings
+
+	^ CatalogProject availableRepositoryURLStrings
