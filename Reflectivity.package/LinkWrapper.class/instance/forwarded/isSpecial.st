@@ -1,2 +1,0 @@
-isSpecial
-	^slot isSpecial

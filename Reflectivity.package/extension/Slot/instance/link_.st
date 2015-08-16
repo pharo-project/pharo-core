@@ -1,13 +1,12 @@
 link: aMetaLink
-	| wrapper class methods |
-	class := self definingClass.
+	| methods |
+	
+	self flag: #TBD.
+	"(aMetaLink checkForCompatibilityWith: self) ifFalse: [ self error: 'link requests reification that can not be provided by this node' ]."
+	
 	methods := self usingMethods.
-	wrapper := LinkWrapper new
-		setLink: aMetaLink;
-		setClass: class;
-		slot: self.
-	class layout replaceSlot: self with: wrapper.
-	aMetaLink installOnVariable: wrapper.
+	(self propertyAt: #links ifAbsentPut: [ IdentitySet new ]) add: aMetaLink.
+	aMetaLink installOnVariable: self.
 	methods
 		do: [ :method |  
 			method

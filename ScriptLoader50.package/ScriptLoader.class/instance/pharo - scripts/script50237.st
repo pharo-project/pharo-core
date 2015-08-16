@@ -1,4 +1,4 @@
-script50236
+script50237
 
 	^ 'AST-Core-TheIntegrator.355.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -217,7 +217,7 @@ OpalCompiler-Tests-TheIntegrator.300.mcz
 OpalTools-TheIntegrator.16.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.42.mcz
-Polymorph-Widgets-TheIntegrator.1240.mcz
+Polymorph-Widgets-TheIntegrator.1242.mcz
 PragmaCollector-TheIntegrator.3.mcz
 ProfStef-Core-TheIntegrator.70.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -234,9 +234,9 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.127.mcz
 Refactoring-Tests-Critics-TheIntegrator.31.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.131.mcz
+Reflectivity-TheIntegrator.134.mcz
 Reflectivity-Examples-TheIntegrator.2.mcz
-Reflectivity-Tests-TheIntegrator.102.mcz
+Reflectivity-Tests-TheIntegrator.104.mcz
 Regex-Core-TheIntegrator.36.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -266,7 +266,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.271.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.654.mcz
+Slot-TheIntegrator.656.mcz
 Slot-Tests-TheIntegrator.51.mcz
 SmartSuggestions-TheIntegrator.176.mcz
 SmartSuggestions-Tests-TheIntegrator.8.mcz
@@ -329,7 +329,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.28.mcz
 Tools-TheIntegrator.1506.mcz
 Tools-Test-TheIntegrator.4.mcz
-Traits-TheIntegrator.804.mcz
+Traits-TheIntegrator.807.mcz
 Transcript-TheIntegrator.37.mcz
 TxText-Athens-NicolaiHess.52.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
