@@ -1,3 +1,0 @@
-setLink: anObject
-	
-	link := anObject

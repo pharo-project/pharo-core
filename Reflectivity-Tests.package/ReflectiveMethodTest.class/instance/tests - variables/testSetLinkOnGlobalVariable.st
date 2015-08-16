@@ -1,12 +1,9 @@
 testSetLinkOnGlobalVariable
-	| classVar link |
+	| globalVar link |
 	link := MetaLink new.
-	classVar := GlobalForTesting binding.
-	classVar link: link.
-
-	"re-lookup ivar to get the wrapper".
-	classVar :=  GlobalForTesting binding.
-	self assert: (classVar links includes: link).
+	globalVar := GlobalForTesting binding.
+	globalVar link: link.
+	self assert: (globalVar links includes: link).
 	self assert: (ReflectivityExamples >> #exampleGlobalRead) class = ReflectiveMethod.
-	GlobalForTesting binding uninstall. 
+	globalVar removeProperty: #links.
 	ReflectivityExamples compileAll.

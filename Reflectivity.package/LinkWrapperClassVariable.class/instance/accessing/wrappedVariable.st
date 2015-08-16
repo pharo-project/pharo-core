@@ -1,3 +1,0 @@
-wrappedVariable
-	
-	^wrappedVariable

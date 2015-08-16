@@ -1,1 +1,0 @@
-I am a wrapper for Globals to allow them to be annotated with a link

@@ -1,5 +1,5 @@
 Object subclass: #Slot
 	instanceVariableNames: 'index name'
-	classVariableNames: ''
+	classVariableNames: 'Properties'
 	poolDictionaries: ''
 	category: 'Slot-Scope'
