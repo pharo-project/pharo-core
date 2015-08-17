@@ -10,4 +10,5 @@ buildHierarchyButton
 		hResizing: #spaceFill;
 		vResizing: #shrinkWrap;
 		enabled: self model selectedClass notNil;
+		helpText: 'Show the class hierarchy';
 		yourself

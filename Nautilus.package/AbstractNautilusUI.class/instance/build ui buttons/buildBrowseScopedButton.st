@@ -8,4 +8,5 @@ buildBrowseScopedButton
 		hResizing: #spaceFill;
 		vResizing: #shrinkWrap;
 		enabled: self selectedPackage notNil;
+		helpText: 'Browse scoped the selected packages';
 		yourself

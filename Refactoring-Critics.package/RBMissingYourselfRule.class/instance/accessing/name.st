@@ -1,2 +1,0 @@
-name
-	^ 'Possible missing "; yourself"'

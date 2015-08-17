@@ -1,4 +1,4 @@
-script50240
+script50241
 
 	^ 'AST-Core-TheIntegrator.355.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -165,7 +165,7 @@ MonticelloRemoteRepositories-TheIntegrator.8.mcz
 Morphic-Base-TheIntegrator.470.mcz
 Morphic-Core-TheIntegrator.202.mcz
 Morphic-Examples-TheIntegrator.46.mcz
-Morphic-Widgets-Basic-TheIntegrator.53.mcz
+Morphic-Widgets-Basic-TheIntegrator.55.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
 Morphic-Widgets-Extra-TheIntegrator.24.mcz
 Morphic-Widgets-FastTable-EstebanLorenzano.41.mcz
@@ -180,8 +180,8 @@ Morphic-Widgets-Windows-TheIntegrator.59.mcz
 MorphicTests-TheIntegrator.101.mcz
 Multilingual-Encodings-TheIntegrator.50.mcz
 Multilingual-Languages-TheIntegrator.42.mcz
-Multilingual-OtherLanguages-TheIntegrator.15.mcz
-Multilingual-Tests-TheIntegrator.40.mcz
+Multilingual-OtherLanguages-TheIntegrator.17.mcz
+Multilingual-Tests-TheIntegrator.43.mcz
 Multilingual-TextConversion-TheIntegrator.75.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.212.mcz
@@ -193,7 +193,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-TheIntegrator.1049.mcz
+Nautilus-TheIntegrator.1051.mcz
 Nautilus-GroupManager-TheIntegrator.11.mcz
 Nautilus-GroupManagerUI-TheIntegrator.20.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
@@ -229,7 +229,7 @@ RPackage-Tests-TheIntegrator.175.mcz
 RecentSubmissions-StephaneDucasse.233.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.282.mcz
-Refactoring-Critics-TheIntegrator.191.mcz
+Refactoring-Critics-TheIntegrator.193.mcz
 Refactoring-Environment-TheIntegrator.58.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.127.mcz

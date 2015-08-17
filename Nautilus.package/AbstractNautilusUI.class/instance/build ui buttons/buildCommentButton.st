@@ -8,4 +8,5 @@ buildCommentButton
 		menu: nil)
 		hResizing: #spaceFill;
 		vResizing: #shrinkWrap;
+		helpText: 'Show the class comments';
 		yourself
