@@ -1,8 +1,10 @@
 initialize
-	enabled := caseSensitive := smartCharacters := false.
-	expandPrefixes := false.
+	enabled := true.
+	caseSensitive := true.
+	smartCharacters := true.
+	expandPrefixes := true.
 	captureNavigationKeys := false.
-	useEnterToAccept := false.
+	useEnterToAccept := true.
 	smartCharactersMapping := Dictionary new.
 	smartCharactersMapping
 		at: $( put: $);
@@ -11,9 +13,9 @@ initialize
 		at: $" put: $";
 		at: $' put: $'.
 	smartCharactersWithSingleSpace := ''.
-	smartCharactersWithDoubleSpace := '[]'.
+	smartCharactersWithDoubleSpace := '[]{}'.
 	backgroundColor := Smalltalk ui theme settings menuColor ifNil: [ Color white ].
+	popupShowWithShortcut := self defaultPopupShortcut.
 	popupShowAutomatic := self defaultPopupShowAutomatic.
 	popupAutomaticDelay := self defaultPopupDelay.
-	popupShowWithShortcut := self defaultPopupShortcut.
 	spaceAfterCompletion := true

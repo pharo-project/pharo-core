@@ -1,0 +1,2 @@
+test0FixturePrintTest
+	self nonEmpty

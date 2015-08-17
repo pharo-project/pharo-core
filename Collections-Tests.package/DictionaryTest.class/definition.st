@@ -1,0 +1,6 @@
+CollectionRootTest subclass: #DictionaryTest
+	uses: TIncludesTest + TDictionaryAddingTest + TDictionaryComparingTest + TDictionaryCopyingTest + TDictionaryEnumeratingTest + (TDictionaryPrintingTest - {#testPrintElementsOn. #testStoreOn}) + TDictionaryRemovingTest + (TPutBasicTest - {#testAtPutOutOfBounds}) + TAsStringCommaAndDelimiterTest + TPrintTest + TConvertTest + TConvertAsSortedTest + (TCopyTest - {#testCopyEmptyWithout. #testCopyNonEmptyWithout. #testCopyNonEmptyWithoutNotIncluded}) + TSetArithmetic + TDictionaryIncludesWithIdentityCheckTest + TDictionaryValueAccessTest + TDictionaryKeysValuesAssociationsAccess + TDictionaryKeyAccessTest + TDictionaryAssociationAccessTest + TStructuralEqualityTest + TOccurrencesForMultiplinessTest
+	instanceVariableNames: 'emptyDict nonEmptyDict nonEmpty5ElementsNoDuplicates indexArray valueArray nonEmpty1Element collectionNotIncluded collectionIncluded associationNotIn valueNotIn keyNotIn dictionaryNotIncluded nonEmptyWithFloat dictionaryWithDuplicateValues duplicateValue'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Collections-Tests-Unordered'

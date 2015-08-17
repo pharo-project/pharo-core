@@ -1,3 +1,6 @@
 commentForCurrentUpdate
- ^ '16229 NEC is disabled and prior default values are unset
-	https://pharo.fogbugz.com/f/cases/16229'
+ ^ '16237 Values in the class init of NECPreferences are not what we expect
+	https://pharo.fogbugz.com/f/cases/16237
+
+14428 CollectionsTests package should be Collections-Tests
+	https://pharo.fogbugz.com/f/cases/14428'
