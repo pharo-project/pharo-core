@@ -17,5 +17,4 @@ showHierarchy: aBoolean
 	self resetClassesList.
 	self model showHierarchy: aBoolean.
 	self updatePackageGroupAndClassList.
-	self changed: #hierarchyButtonState.
-	self changed: #hierarchyButtonLabel
+	self changed: #hierarchyButtonState

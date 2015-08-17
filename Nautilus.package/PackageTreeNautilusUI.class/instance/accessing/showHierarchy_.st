@@ -15,5 +15,4 @@ showHierarchy: aBoolean
 	self model showHierarchy: aBoolean.
 
 	self updateClassView.
-	self changed: #hierarchyButtonState.
-	self changed: #hierarchyButtonLabel
+	self changed: #hierarchyButtonState

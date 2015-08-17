@@ -1,7 +1,7 @@
 buildHierarchyButton
 	^ (PluggableToggleButtonMorph
 		on: self
-		getState: nil
+		getState: #hierarchyButtonState
 		action: #hierarchyButtonAction:
 		label: #hierarchyButtonLabel
 		icon: #hierarchyButtonIcon

@@ -12,7 +12,10 @@ openOnPackage: selectedPackage class: selectedClass category: selectedCategory m
 		sortHierarchically: sortHierarchically;
 		showComment: showComment;
 		showInstance: showInstance;
-		showCategories: showCategories.
+		showCategories: showCategories;
+		showHierarchy: showHierarchy.
 	instance open.
-	instance ui showHierarchy: showHierarchy.
+	instance ui
+		showHierarchy: showHierarchy;
+		showComment: showComment.
 	^ instance

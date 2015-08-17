@@ -1,4 +1,4 @@
-script50239
+script50240
 
 	^ 'AST-Core-TheIntegrator.355.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -165,7 +165,7 @@ MonticelloRemoteRepositories-TheIntegrator.8.mcz
 Morphic-Base-TheIntegrator.470.mcz
 Morphic-Core-TheIntegrator.202.mcz
 Morphic-Examples-TheIntegrator.46.mcz
-Morphic-Widgets-Basic-TheIntegrator.51.mcz
+Morphic-Widgets-Basic-TheIntegrator.53.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
 Morphic-Widgets-Extra-TheIntegrator.24.mcz
 Morphic-Widgets-FastTable-EstebanLorenzano.41.mcz
@@ -193,12 +193,12 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-TheIntegrator.1047.mcz
+Nautilus-TheIntegrator.1049.mcz
 Nautilus-GroupManager-TheIntegrator.11.mcz
 Nautilus-GroupManagerUI-TheIntegrator.20.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
 NautilusCommon-TheIntegrator.275.mcz
-NautilusGroupAutoBuilder-TheIntegrator.3.mcz
+NautilusGroupAutoBuilder-TheIntegrator.5.mcz
 NautilusRefactoring-TheIntegrator.244.mcz
 Network-Kernel-TheIntegrator.118.mcz
 Network-MIME-MarcusDenker.69.mcz
@@ -224,8 +224,8 @@ ProfStef-Core-TheIntegrator.70.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
 QualityAssistant-YuriyTymchuk.64.mcz
-RPackage-Core-TheIntegrator.407.mcz
-RPackage-Tests-TheIntegrator.173.mcz
+RPackage-Core-TheIntegrator.409.mcz
+RPackage-Tests-TheIntegrator.175.mcz
 RecentSubmissions-StephaneDucasse.233.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.282.mcz
@@ -267,7 +267,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.271.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.656.mcz
+Slot-TheIntegrator.658.mcz
 Slot-Tests-TheIntegrator.51.mcz
 SmartSuggestions-TheIntegrator.176.mcz
 SmartSuggestions-Tests-TheIntegrator.8.mcz

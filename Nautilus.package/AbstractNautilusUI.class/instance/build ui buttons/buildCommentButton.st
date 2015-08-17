@@ -1,7 +1,7 @@
 buildCommentButton
 	^ (PluggableToggleButtonMorph
 		on: self
-		getState: nil
+		getState: #commentButtonState
 		action: #commentButtonAction:
 		label: #commentButtonLabel
 		icon: #commentButtonIcon
