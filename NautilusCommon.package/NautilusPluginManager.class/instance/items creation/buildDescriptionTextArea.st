@@ -1,10 +1,9 @@
 buildDescriptionTextArea
-	
-	^ (PluggableTextMorph
-		on: self
-		text: #getText
-		accept: nil) 
-			enabled: false;
-			vResizing: #spaceFill;	
-			hResizing: #spaceFill;
-			yourself
+	^ self textModel newScrolledText
+		beForPlainText;
+		beWrapped;
+		beReadOnly;
+		enabled: false;
+		vResizing: #spaceFill;
+		hResizing: #spaceFill;
+		yourself

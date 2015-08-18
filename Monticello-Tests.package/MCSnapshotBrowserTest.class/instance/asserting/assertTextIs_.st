@@ -1,2 +1,2 @@
 assertTextIs: aString
-	self assert: self textMorph contents = aString.
+	self assert: self textMorph text = aString.

@@ -1,4 +1,4 @@
-script50243
+script50244
 
 	^ 'AST-Core-TheIntegrator.357.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -43,7 +43,8 @@ Collections-Unordered-TheIntegrator.212.mcz
 Collections-Weak-TheIntegrator.93.mcz
 CollectionsTests-TheIntegrator.709.mcz
 Compiler-TheIntegrator.593.mcz
-Compression-TheIntegrator.155.mcz
+Compression-TheIntegrator.158.mcz
+Compression-Registration-TheIntegrator.3.mcz
 CompressionTests-TheIntegrator.29.mcz
 ConfigurationCommandLineHandler-Core-TheIntegrator.29.mcz
 ConfigurationCommandLineHandler-Tests-MarcusDenker.11.mcz
@@ -156,7 +157,7 @@ Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
 Monticello-TheIntegrator.1055.mcz
-Monticello-Tests-TheIntegrator.24.mcz
+Monticello-Tests-TheIntegrator.26.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.189.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
@@ -198,7 +199,7 @@ Nautilus-TheIntegrator.1051.mcz
 Nautilus-GroupManager-TheIntegrator.11.mcz
 Nautilus-GroupManagerUI-TheIntegrator.20.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
-NautilusCommon-TheIntegrator.275.mcz
+NautilusCommon-TheIntegrator.277.mcz
 NautilusGroupAutoBuilder-TheIntegrator.5.mcz
 NautilusRefactoring-TheIntegrator.244.mcz
 Network-Kernel-TheIntegrator.118.mcz

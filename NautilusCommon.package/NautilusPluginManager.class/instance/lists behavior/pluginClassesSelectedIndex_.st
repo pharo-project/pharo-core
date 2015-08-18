@@ -2,4 +2,4 @@ pluginClassesSelectedIndex: anInteger
 
 	pluginClassesSelectedIndex := anInteger.
 	self changed: #pluginClassesSelectedIndex.
-	self changed: #getText.
+	self textModel setText: self getText

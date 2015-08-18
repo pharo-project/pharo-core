@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16253 Failing Test: RBSmalllintTest>>#testMissingYourself 
-	https://pharo.fogbugz.com/f/cases/16253
+ ^ '16099 Failing tests in  MCSnapshotBrowserTest
+	https://pharo.fogbugz.com/f/cases/16099
 
-16251 Dictionary tests are failing
-	https://pharo.fogbugz.com/f/cases/16251
+16257 Use Rubric in description area of Nautilus Plugin Manager
+	https://pharo.fogbugz.com/f/cases/16257
 
-16204 Traits package should not depend in System-Changes: fix two obvious causes
-	https://pharo.fogbugz.com/f/cases/16204'
+16260 Compression should not depend on Tool-Base
+	https://pharo.fogbugz.com/f/cases/16260'

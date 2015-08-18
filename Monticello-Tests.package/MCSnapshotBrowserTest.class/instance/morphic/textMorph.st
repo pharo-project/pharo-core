@@ -1,2 +1,2 @@
 textMorph
-	^ (self morphsOfClass: TextMorph) last
+	^ (self morphsOfClass: RubPluggableTextMorph) last
