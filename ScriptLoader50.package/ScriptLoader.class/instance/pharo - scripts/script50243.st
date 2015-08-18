@@ -1,4 +1,4 @@
-script50242
+script50243
 
 	^ 'AST-Core-TheIntegrator.357.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -38,7 +38,7 @@ Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.179.mcz
 Collections-Strings-TheIntegrator.366.mcz
 Collections-Support-TheIntegrator.65.mcz
-Collections-Tests-TheIntegrator.2.mcz
+Collections-Tests-TheIntegrator.4.mcz
 Collections-Unordered-TheIntegrator.212.mcz
 Collections-Weak-TheIntegrator.93.mcz
 CollectionsTests-TheIntegrator.709.mcz
@@ -234,7 +234,7 @@ Refactoring-Critics-TheIntegrator.193.mcz
 Refactoring-Environment-TheIntegrator.58.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.127.mcz
-Refactoring-Tests-Critics-TheIntegrator.31.mcz
+Refactoring-Tests-Critics-TheIntegrator.33.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
 Reflectivity-TheIntegrator.136.mcz
 Reflectivity-Examples-TheIntegrator.2.mcz
@@ -286,7 +286,7 @@ StartupPreferences-TheIntegrator.139.mcz
 System-Announcements-TheIntegrator.104.mcz
 System-Caching-TheIntegrator.26.mcz
 System-CachingTests-TheIntegrator.14.mcz
-System-Changes-TheIntegrator.274.mcz
+System-Changes-TheIntegrator.276.mcz
 System-Clipboard-SvenVanCaekenberghe.32.mcz
 System-CommandLine-TheIntegrator.172.mcz
 System-CommandLineHandler-TheIntegrator.5.mcz
@@ -331,7 +331,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.28.mcz
 Tools-TheIntegrator.1506.mcz
 Tools-Test-TheIntegrator.4.mcz
-Traits-TheIntegrator.810.mcz
+Traits-TheIntegrator.812.mcz
 Transcript-TheIntegrator.37.mcz
 TxText-Athens-NicolaiHess.52.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

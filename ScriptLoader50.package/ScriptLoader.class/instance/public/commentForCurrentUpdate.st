@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '16248 Remove unused ClassCategoryReader and ClassCommentReader
-	https://pharo.fogbugz.com/f/cases/16248
+ ^ '16253 Failing Test: RBSmalllintTest>>#testMissingYourself 
+	https://pharo.fogbugz.com/f/cases/16253
 
-16173 ASTCache depends on Reflectivity
-	https://pharo.fogbugz.com/f/cases/16173
+16251 Dictionary tests are failing
+	https://pharo.fogbugz.com/f/cases/16251
 
-16199 Introduce OpalEncoders
-	https://pharo.fogbugz.com/f/cases/16199
-
-16247 Move fileOut* methods to a separate package
-	https://pharo.fogbugz.com/f/cases/16247'
+16204 Traits package should not depend in System-Changes: fix two obvious causes
+	https://pharo.fogbugz.com/f/cases/16204'
