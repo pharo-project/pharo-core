@@ -1,0 +1,2 @@
+annotatedMethod
+	^ 42

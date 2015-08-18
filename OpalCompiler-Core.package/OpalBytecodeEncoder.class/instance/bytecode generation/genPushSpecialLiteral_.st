@@ -1,0 +1,3 @@
+genPushSpecialLiteral: aLiteral
+
+	self subclassResponsibility

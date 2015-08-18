@@ -1,3 +1,3 @@
 initialize
 	super initialize.
-	BytecodeBackend := EncoderForV3PlusClosures  
+	BytecodeBackend := OpalEncoderForV3PlusClosures  

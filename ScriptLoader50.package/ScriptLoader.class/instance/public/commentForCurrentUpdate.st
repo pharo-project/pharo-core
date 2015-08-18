@@ -1,12 +1,12 @@
 commentForCurrentUpdate
- ^ '16233 Add balloon-text to the various buttons used by Nautilus browser
-	https://pharo.fogbugz.com/f/cases/16233
+ ^ '16248 Remove unused ClassCategoryReader and ClassCommentReader
+	https://pharo.fogbugz.com/f/cases/16248
 
-16210 Multilinguage-OtherLinguage should not have the tests inside his packages.
-	https://pharo.fogbugz.com/f/cases/16210
+16173 ASTCache depends on Reflectivity
+	https://pharo.fogbugz.com/f/cases/16173
 
-15020 remove "missing yourself" rule
-	https://pharo.fogbugz.com/f/cases/15020
+16199 Introduce OpalEncoders
+	https://pharo.fogbugz.com/f/cases/16199
 
-16241 RBFutureDeprecationWarningRule not needed
-	https://pharo.fogbugz.com/f/cases/16241'
+16247 Move fileOut* methods to a separate package
+	https://pharo.fogbugz.com/f/cases/16247'

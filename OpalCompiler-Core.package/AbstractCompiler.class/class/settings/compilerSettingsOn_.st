@@ -11,8 +11,8 @@ compilerSettingsOn: aBuilder
 						target: CompilationContext;
 						label: 'Bytecode Backend';
 						domainValues:
-								{#V3PlusClosures -> EncoderForV3PlusClosures.
-								#SistaV1 -> EncoderForSistaV1 }.
+								{#V3PlusClosures -> OpalEncoderForV3PlusClosures.
+								#SistaV1 -> OpalEncoderForSistaV1 }.
 					(aBuilder setting: #warningAllowed)
 						target: CompilationContext;
 						label: 'Allow Warnings';
