@@ -1,6 +1,6 @@
 debug
-	^ Smalltalk tools debugger
-		openContext: self 
-		label: self printString 
+	^ UIManager default
+		debugContext: self 
+		title: self printString 
 		contents: nil
 		

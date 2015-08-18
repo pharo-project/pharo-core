@@ -1,13 +1,17 @@
-newFontPointSizeField 
-	
-	^ (PluggableTextMorph on: self text: #pointSizeString accept: #pointSizeString:)
+newFontPointSizeField
+	^ (RubPluggableTextMorph
+		on: self
+		text: #pointSizeString
+		accept: #pointSizeString:)
 		acceptOnCR: true;
-		hideVScrollBarIndefinitely: true;
+		vScrollbarShowNever;
 		color: Color gray veryMuchLighter;
 		borderColor: #inset;
 		vResizing: #rigid;
 		hResizing: #spaceFill;
-		width: (TextStyle defaultFont widthOfString: '99999999.99');
-		height: TextStyle defaultFont height + 6;
-		yourself.
-	
+		width:
+			(TextStyle defaultFont
+				widthOfString: '99999999.99');
+		height:
+			TextStyle defaultFont height + 6;
+		yourself

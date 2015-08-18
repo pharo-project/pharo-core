@@ -1,3 +1,2 @@
 selectAll
-
-	self widgetDo: [ :w | w selectAll ]
+	self widgetDo: [ :w | w textArea selectAll ]

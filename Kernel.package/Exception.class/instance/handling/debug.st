@@ -1,3 +1,6 @@
 debug
 	"open a debugger on myself"
-	^ Smalltalk tools debugger debugError: self
+	Processor activeProcess 
+		debug: self signalerContext
+		title: self description
+		full: false

@@ -1,3 +1,6 @@
 setScrollValue: aValue
-
-	self widgetDo: [ :w | w scrollValue: aValue ]
+	self
+		widgetDo: [ :w | 
+			w scrollPane
+				hScrollbarValue: aValue x;
+				hScrollbarValue: aValue y ]

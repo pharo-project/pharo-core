@@ -1,8 +1,7 @@
 cannotReturn: result
-
-	closureOrNil notNil ifTrue:
-		[^self cannotReturn: result to: self home sender].
-	Smalltalk tools debugger
-						openContext: thisContext
-						label: 'computation has been terminated'
-						contents: nil
+	closureOrNil ifNotNil: [ ^ self cannotReturn: result to: self home sender ].
+	Processor activeProcess 
+		debug: thisContext 
+		title: 'computation has been terminated' 
+		full: false	
+	

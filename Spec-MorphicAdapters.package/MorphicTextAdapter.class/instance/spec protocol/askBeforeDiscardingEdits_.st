@@ -1,3 +1,2 @@
 askBeforeDiscardingEdits: aBoolean
-
-	self widgetDo: [ :w | w askBeforeDiscardingEdits: aBoolean ]
+	self widget askBeforeDiscardingEdits: aBoolean

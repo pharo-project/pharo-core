@@ -1,2 +1,2 @@
 sourceTextArea
-	^ PluggableTextMorph new.
+	^ RubPluggableTextMorph new

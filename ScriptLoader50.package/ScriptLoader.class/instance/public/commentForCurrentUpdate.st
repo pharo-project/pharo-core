@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16099 Failing tests in  MCSnapshotBrowserTest
-	https://pharo.fogbugz.com/f/cases/16099
+ ^ '15774 Make Spec using RubPluggableTextMorph instead of PluggableTextMorph
+	https://pharo.fogbugz.com/f/cases/15774
 
-16257 Use Rubric in description area of Nautilus Plugin Manager
-	https://pharo.fogbugz.com/f/cases/16257
+16259 Replace some other PluggableTextMorph usage
+	https://pharo.fogbugz.com/f/cases/16259
 
-16260 Compression should not depend on Tool-Base
-	https://pharo.fogbugz.com/f/cases/16260'
+16258 Kernel should not depend on Tool-Base
+	https://pharo.fogbugz.com/f/cases/16258'

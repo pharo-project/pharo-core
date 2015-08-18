@@ -16,10 +16,6 @@ morphicSettingsOn: aBuilder
 				label: 'Lose keyboard focus when mouse leave';
 				target: MorphicModel;
 				description: 'When true, the mouse must be over a text or list pane in morphic for keystrokes to be felt, and when the mouse is out over the desktop, the so-called desktop-command-keys, such as cmd-b and cmd-R, are honored.  When false, list panes and text panes in morphic remain sensitive to keystrokes even after the mouse is no longer over the pane.' .
-			(aBuilder setting: #showTextEditingState)
-				label: 'Show text editing state';
-				target: PluggableTextMorph;
-				description: 'When enabled the editing state of PluggableTextMorphs is shown as a colored inset border.' .
 			(aBuilder setting: #balloonHelpEnabled)
 				label: 'Balloon help'; 
 				target: UITheme;

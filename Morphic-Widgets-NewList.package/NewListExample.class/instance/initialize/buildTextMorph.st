@@ -1,3 +1,2 @@
 buildTextMorph
-
-	^ PluggableTextMorph new
+	^ RubPluggableTextMorph new

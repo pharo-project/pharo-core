@@ -1,4 +1,5 @@
 AbstractMorphicAdapter subclass: #MorphicTextAdapter
+	uses: TViewModel
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

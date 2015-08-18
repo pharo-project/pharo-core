@@ -1,0 +1,2 @@
+getText
+	^ Text new
