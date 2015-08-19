@@ -1,5 +1,6 @@
 checkClass: aClass 
 	| sels className |
+	aClass isAnonymous ifTrue: [ ^self ].
 	className := aClass theNonMetaClass name.
 	sels := aClass whichSelectorsReferTo: (aClass environment associationAt: className).
 	sels do: 

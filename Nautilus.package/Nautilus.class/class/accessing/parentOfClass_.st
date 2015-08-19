@@ -7,7 +7,8 @@ parentOfClass: aClass
 	
 	package := aClass package.
 	tag := package classTagForClass: aClass.
-	^ (((tag name = package name) and: [ package classTags size <= 1 ]) 
+	
+	^ ((((tag name = package name) and: [ package classTags size <= 1 ]) or: [tag isNil])
 		ifTrue: [ package ]
 		ifFalse: [ tag ])
 		asNautilusSelection

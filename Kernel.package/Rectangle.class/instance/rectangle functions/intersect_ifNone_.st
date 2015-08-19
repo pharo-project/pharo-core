@@ -3,23 +3,14 @@ intersect: aRectangle ifNone: aBlock
 	aRectangle. 
 	If there's no overlap, evaluate the block instead 
 	"
+
 	| aPoint left right top bottom |
-	(self intersects: aRectangle) ifFalse: [ ^ aBlock value ].
-	 
+	(self intersects: aRectangle)
+		ifFalse: [ ^ aBlock value ].
 	aPoint := aRectangle origin.
-	aPoint x > origin x 
-		ifTrue: [ left := aPoint x ]
-		ifFalse: [ left := origin x ].
-	aPoint y > origin y 
-		ifTrue: [ top := aPoint y ]
-		ifFalse: [ top := origin y ].
+	left := aPoint x max: origin x.
+	top := aPoint y max: origin y.
 	aPoint := aRectangle corner.
-	aPoint x < corner x 
-		ifTrue: [ right := aPoint x ]
-		ifFalse: [ right := corner x ].
-	aPoint y < corner y 
-		ifTrue: [ bottom := aPoint y ]
-		ifFalse: [ bottom := corner y ].
-	^ Rectangle 
-		origin: left @ top
-		corner: right @ bottom
+	right := aPoint x min: corner x.
+	bottom := aPoint y min: corner y.
+	^ Rectangle origin: left @ top corner: right @ bottom

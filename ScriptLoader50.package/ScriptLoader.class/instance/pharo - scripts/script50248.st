@@ -1,4 +1,4 @@
-script50247
+script50248
 
 	^ 'AST-Core-TheIntegrator.357.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -124,7 +124,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.22.mcz
 Jobs-Tests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2103.mcz
+Kernel-TheIntegrator.2106.mcz
 KernelTests-TheIntegrator.789.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -132,8 +132,8 @@ Keymapping-Pragmas-TheIntegrator.52.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.96.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
-Komitter-TheIntegrator.134.mcz
-Manifest-Core-TheIntegrator.229.mcz
+Komitter-TheIntegrator.137.mcz
+Manifest-Core-TheIntegrator.231.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.51.mcz
 MenuRegistration-TheIntegrator.76.mcz
@@ -161,7 +161,7 @@ Monticello-Tests-TheIntegrator.26.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.189.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
-MonticelloGUI-TheIntegrator.373.mcz
+MonticelloGUI-TheIntegrator.374.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.8.mcz
 Morphic-Base-TheIntegrator.470.mcz
@@ -195,7 +195,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-TheIntegrator.1051.mcz
+Nautilus-TheIntegrator.1053.mcz
 Nautilus-GroupManager-TheIntegrator.11.mcz
 Nautilus-GroupManagerUI-TheIntegrator.20.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
@@ -212,9 +212,9 @@ NetworkTests-TheIntegrator.105.mcz
 NewValueHolder-TheIntegrator.31.mcz
 NodeNavigation-StephaneDucasse.51.mcz
 NonInteractiveTranscript-TheIntegrator.19.mcz
-OSWindow-Core-TheIntegrator.20.mcz
-OSWindow-SDL2-EstebanLorenzano.19.mcz
-OSWindow-VM-IgorStasenko.2.mcz
+OSWindow-Core-IgorStasenko.56.mcz
+OSWindow-SDL2-IgorStasenko.54.mcz
+OSWindow-VM-IgorStasenko.3.mcz
 OpalCompiler-Core-TheIntegrator.721.mcz
 OpalCompiler-Tests-TheIntegrator.300.mcz
 OpalTools-TheIntegrator.16.mcz
@@ -231,7 +231,7 @@ RPackage-Tests-TheIntegrator.175.mcz
 RecentSubmissions-StephaneDucasse.233.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.282.mcz
-Refactoring-Critics-TheIntegrator.193.mcz
+Refactoring-Critics-TheIntegrator.195.mcz
 Refactoring-Environment-TheIntegrator.58.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.127.mcz
@@ -305,7 +305,7 @@ System-Serial Port-StephaneDucasse.23.mcz
 System-Settings-TheIntegrator.319.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.31.mcz
-System-Support-TheIntegrator.1138.mcz
+System-Support-TheIntegrator.1140.mcz
 System-Support-Tests-TheIntegrator.4.mcz
 System-VMEvents-TheIntegrator.8.mcz
 Tests-TheIntegrator.738.mcz

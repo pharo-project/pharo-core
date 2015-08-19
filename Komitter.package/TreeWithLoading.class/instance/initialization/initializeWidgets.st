@@ -1,3 +1,0 @@
-initializeWidgets
-
-	tree := self newTree
