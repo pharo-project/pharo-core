@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#'Tool-Base' #'Collections-Abstract' #Nautilus #'Collections-Strings' #'Collections-Streams' #'System-Sources')
+	^ #(#'Collections-Abstract' #'Collections-Strings' #'Collections-Streams' #'System-Sources')

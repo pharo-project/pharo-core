@@ -3,7 +3,6 @@ testAsMethodDefinition2
 	
 	| newMethod |
 	newMethod := (Object >> #printOn:) asRingDefinition.
-	self assert: newMethod asStringOrText asString = 'Object>>printOn: {printing} '.
 	self assert:  newMethod protocol = 'printing'.
 	
 	newMethod := (TCloneTest>>#testCopyEmpty) asRingDefinition.

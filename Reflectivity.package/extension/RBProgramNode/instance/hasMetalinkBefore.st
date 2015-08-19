@@ -1,3 +1,3 @@
 hasMetalinkBefore
-		self hasMetalink ifFalse: [^false].
-		^self beforeLinks isNotEmpty
+	self hasMetalink ifFalse: [^false].
+	^self beforeLinks isNotEmpty

@@ -3,17 +3,16 @@ printSingleComment: aString on: aStream indent: indent
 	Break the string at word breaks, given the widths in the default
 	font, at 450 points."
 
-	| readStream word position lineBreak font wordWidth tabWidth spaceWidth lastChar |
+	| readStream word position lineBreak wordWidth tabWidth spaceWidth lastChar |
 	readStream := aString readStream.
-	font := TextStyle default defaultFont.
-	tabWidth := DefaultTab.
-	spaceWidth := font widthOf: Character space.
+	tabWidth := 24."Real value to remove the access to Text-Core"
+	spaceWidth := 11."abstract value to remove the access to font. Should be suffisant"
 	position := indent * tabWidth.
 	lineBreak := 450.
 	[readStream atEnd]
 		whileFalse: 
 			[word := self nextWordFrom: readStream setCharacter: [:lc | lastChar := lc].
-			wordWidth := word inject: 0 into: [:width :char | width + (font widthOf: char)].
+			wordWidth := word inject: 0 into: [:width :char | width + 11 "abstract value to remove the access to font. Should be suffisant. In any case, this method should be removed in a near future..."].
 			position := position + wordWidth.
 			position > lineBreak
 				ifTrue: 

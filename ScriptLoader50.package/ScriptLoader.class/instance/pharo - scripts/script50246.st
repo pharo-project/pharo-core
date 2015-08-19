@@ -1,4 +1,4 @@
-script50245
+script50246
 
 	^ 'AST-Core-TheIntegrator.357.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -35,14 +35,14 @@ Collections-Atomic-TheIntegrator.16.mcz
 Collections-Native-TheIntegrator.16.mcz
 Collections-Sequenceable-TheIntegrator.217.mcz
 Collections-Stack-TheIntegrator.10.mcz
-Collections-Streams-TheIntegrator.179.mcz
-Collections-Strings-TheIntegrator.366.mcz
+Collections-Streams-TheIntegrator.181.mcz
+Collections-Strings-TheIntegrator.368.mcz
 Collections-Support-TheIntegrator.65.mcz
 Collections-Tests-TheIntegrator.4.mcz
 Collections-Unordered-TheIntegrator.212.mcz
 Collections-Weak-TheIntegrator.93.mcz
 CollectionsTests-TheIntegrator.709.mcz
-Compiler-TheIntegrator.593.mcz
+Compiler-TheIntegrator.596.mcz
 Compression-TheIntegrator.158.mcz
 Compression-Registration-TheIntegrator.3.mcz
 CompressionTests-TheIntegrator.29.mcz
@@ -124,7 +124,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.22.mcz
 Jobs-Tests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2101.mcz
+Kernel-TheIntegrator.2103.mcz
 KernelTests-TheIntegrator.789.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -156,12 +156,12 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-TheIntegrator.1055.mcz
+Monticello-TheIntegrator.1058.mcz
 Monticello-Tests-TheIntegrator.26.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.189.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
-MonticelloGUI-TheIntegrator.371.mcz
+MonticelloGUI-TheIntegrator.373.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.8.mcz
 Morphic-Base-TheIntegrator.470.mcz
@@ -237,9 +237,9 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.127.mcz
 Refactoring-Tests-Critics-TheIntegrator.33.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.136.mcz
+Reflectivity-TheIntegrator.137.mcz
 Reflectivity-Examples-TheIntegrator.2.mcz
-Reflectivity-Tests-TheIntegrator.106.mcz
+Reflectivity-Tests-TheIntegrator.107.mcz
 Regex-Core-TheIntegrator.36.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -247,10 +247,10 @@ ReleaseTests-TheIntegrator.15.mcz
 Renraku-YuriyTymchuk.71.mcz
 Renraku-Test-YuriyTymchuk.15.mcz
 Ring-Core-Containers-TheIntegrator.41.mcz
-Ring-Core-Kernel-TheIntegrator.223.mcz
+Ring-Core-Kernel-TheIntegrator.226.mcz
 Ring-Monticello-TheIntegrator.36.mcz
 Ring-Tests-Containers-MarcusDenker.18.mcz
-Ring-Tests-Kernel-TheIntegrator.83.mcz
+Ring-Tests-Kernel-TheIntegrator.85.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 Rubric-FranckWarlouzet.267.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
@@ -269,7 +269,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.271.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.658.mcz
+Slot-TheIntegrator.659.mcz
 Slot-Tests-TheIntegrator.51.mcz
 SmartSuggestions-TheIntegrator.176.mcz
 SmartSuggestions-Tests-TheIntegrator.10.mcz
@@ -287,9 +287,9 @@ StartupPreferences-TheIntegrator.139.mcz
 System-Announcements-TheIntegrator.104.mcz
 System-Caching-TheIntegrator.26.mcz
 System-CachingTests-TheIntegrator.14.mcz
-System-Changes-TheIntegrator.276.mcz
+System-Changes-TheIntegrator.278.mcz
 System-Clipboard-SvenVanCaekenberghe.32.mcz
-System-CommandLine-TheIntegrator.172.mcz
+System-CommandLine-TheIntegrator.174.mcz
 System-CommandLineHandler-TheIntegrator.5.mcz
 System-FileRegistry-TheIntegrator.41.mcz
 System-Finalization-TheIntegrator.22.mcz
@@ -304,12 +304,12 @@ System-Platforms-TheIntegrator.71.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-Settings-TheIntegrator.319.mcz
 System-Sound-StephaneDucasse.18.mcz
-System-Sources-TheIntegrator.30.mcz
+System-Sources-TheIntegrator.31.mcz
 System-Support-TheIntegrator.1138.mcz
 System-Support-Tests-TheIntegrator.4.mcz
 System-VMEvents-TheIntegrator.8.mcz
-Tests-TheIntegrator.736.mcz
-Text-Core-TheIntegrator.38.mcz
+Tests-TheIntegrator.738.mcz
+Text-Core-TheIntegrator.40.mcz
 Text-Diff-StephaneDucasse.4.mcz
 Text-Edition-TheIntegrator.97.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz

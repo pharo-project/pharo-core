@@ -8,6 +8,6 @@ checkForSlips
 				[:mAssoc | | method | (#(remove addedThenRemoved) includes: mAssoc value) ifFalse:
 					[method := aClass compiledMethodAt: mAssoc key ifAbsent: [nil].
 					method ifNotNil:
-						[method hasReportableSlip
+						[(self hasReportableSlip: method)
 							ifTrue: [ slips add: (aClass >> mAssoc key) methodReference ]]]]].
 	^ slips

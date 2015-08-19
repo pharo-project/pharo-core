@@ -2,18 +2,22 @@ fileIn
 	"File the receiver in.  If I represent a method or a class-comment, file the method in and make a note of it in the recent-submissions list; if I represent a do-it, then, well, do it."
 
 	Cursor read
-		showWhile: [ 
+		showWhile:
+			[ 
 			| methodClass s |
 			(methodClass := self methodClass) notNil
-				ifTrue: [ 
+				ifTrue:
+					[ 
 					methodClass
 						compile: self text
 						classified: category
 						withStamp: stamp
 						notifying: nil ].
 			type == #doIt
-				ifTrue: [ 
+				ifTrue:
+					[ 
 					((s := self string) beginsWith: '----')
 						ifFalse: [ self class compiler evaluate: s ] ].
 			type == #classComment
-				ifTrue: [ (Smalltalk globals at: class asSymbol) comment: self text stamp: stamp ] ]
+				ifTrue:
+					[ (Smalltalk globals at: class asSymbol) comment: self text stamp: stamp ] ]
