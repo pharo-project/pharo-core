@@ -1,0 +1,2 @@
+visitWindowMouseLeaveEvent: anEvent
+	eventHandler visitWindowMouseLeaveEvent: anEvent

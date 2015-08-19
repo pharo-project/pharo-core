@@ -1,0 +1,2 @@
+objectId: anInteger 
+	objectId := anInteger.

@@ -1,0 +1,2 @@
+rotationVector: aNumber 
+	rotationVector := aNumber

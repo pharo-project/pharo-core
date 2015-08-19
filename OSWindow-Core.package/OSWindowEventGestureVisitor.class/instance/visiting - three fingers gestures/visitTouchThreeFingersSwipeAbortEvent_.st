@@ -1,0 +1,2 @@
+visitTouchThreeFingersSwipeAbortEvent: anEvent
+	

@@ -1,5 +1,5 @@
 OSWindowEventVisitor subclass: #OSWindowMorphicEventHandler
-	instanceVariableNames: 'morphicWorld'
-	classVariableNames: ''
-	poolDictionaries: ''
+	instanceVariableNames: 'morphicWorld eventQueue'
+	classVariableNames: 'SymbolCharacterMapping'
+	poolDictionaries: 'OSKeySymbols'
 	category: 'OSWindow-Core-Morphic'

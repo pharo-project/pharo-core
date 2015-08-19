@@ -1,2 +1,2 @@
 x
-	^ bounds left
+	^ position x

@@ -1,0 +1,2 @@
+eventHandler: anObject
+	eventHandler := anObject

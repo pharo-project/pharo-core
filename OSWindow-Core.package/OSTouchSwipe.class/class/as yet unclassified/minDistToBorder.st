@@ -1,0 +1,2 @@
+minDistToBorder
+	^ minDistToBorder

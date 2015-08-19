@@ -1,0 +1,2 @@
+majorVersion
+	^ majorVersion

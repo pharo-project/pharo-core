@@ -1,0 +1,2 @@
+angle: aNumber 
+	angle := aNumber

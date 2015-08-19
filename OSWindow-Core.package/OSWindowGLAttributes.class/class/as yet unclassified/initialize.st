@@ -12,3 +12,6 @@ initialize
 	DefaultDoubleBuffer := 1.
 	DefaultStencilSize := 0.
 	DefaultSwapControl := 0.
+	DefaultMajorVersion := 3.
+	DefaultMinorVersion := 2.
+	DefaultProfileType := 1.

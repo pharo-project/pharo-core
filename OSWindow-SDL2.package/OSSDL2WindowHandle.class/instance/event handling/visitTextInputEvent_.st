@@ -1,5 +1,6 @@
 visitTextInputEvent: event
 	| osEvent |
+	
 	osEvent := OSTextInputEvent for: osWindow.
 	osEvent text: (ZnUTF8Encoder new decodeBytes: event text);
 			position: self mousePosition.

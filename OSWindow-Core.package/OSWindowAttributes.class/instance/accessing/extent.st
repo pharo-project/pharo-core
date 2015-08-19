@@ -1,2 +1,2 @@
 extent
-	^ bounds extent
+	^ extent

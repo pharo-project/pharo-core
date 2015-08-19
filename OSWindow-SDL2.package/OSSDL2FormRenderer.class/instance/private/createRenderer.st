@@ -1,2 +1,2 @@
 createRenderer
-	renderer := window handle createDefaultRenderer
+	renderer := window handle createDefaultRenderer.

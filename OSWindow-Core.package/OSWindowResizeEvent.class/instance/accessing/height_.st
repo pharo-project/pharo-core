@@ -1,0 +1,2 @@
+height: anObject
+	height := anObject

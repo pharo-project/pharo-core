@@ -1,0 +1,2 @@
+visitWindowMouseEnterEvent: anEvent
+	eventHandler visitWindowMouseEnterEvent: anEvent

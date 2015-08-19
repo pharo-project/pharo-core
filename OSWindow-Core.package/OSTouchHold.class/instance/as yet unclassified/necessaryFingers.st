@@ -1,0 +1,2 @@
+necessaryFingers
+	self subclassResponsibility

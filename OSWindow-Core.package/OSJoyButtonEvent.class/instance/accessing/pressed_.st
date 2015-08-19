@@ -1,0 +1,3 @@
+pressed: anObject
+	
+	pressed := anObject

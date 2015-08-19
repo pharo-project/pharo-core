@@ -1,0 +1,2 @@
+pressure: anObject
+	pressure := anObject

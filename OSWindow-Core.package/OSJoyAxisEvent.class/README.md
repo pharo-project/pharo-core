@@ -1,0 +1,1 @@
+I am the the joystick axis event.This event is generated when a joystick stick is moved.The which parameter gives the joystick index.The axis parameter is the index of the axis that moved.The value parameter is how much the axis was moved.

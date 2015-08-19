@@ -1,0 +1,2 @@
+defaultWindowCentered
+	^ DefaultWindowCentered

@@ -1,0 +1,2 @@
+visitMouseButtonReleaseEvent: anEvent
+	eventHandler visitMouseButtonReleaseEvent: anEvent

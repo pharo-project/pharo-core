@@ -1,0 +1,2 @@
+minimized
+	^ minimized

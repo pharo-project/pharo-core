@@ -1,0 +1,2 @@
+eventClassAbortGesture
+	self subclassResponsibility 

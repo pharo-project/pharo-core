@@ -1,0 +1,2 @@
+eventClassBeginGesture
+	^ OSTouchThreeFingersScrollBeginEvent

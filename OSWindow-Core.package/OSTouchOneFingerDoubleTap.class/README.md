@@ -1,0 +1,1 @@
+I detect double taps and send the generated event to my EventReceiver:	- OSTouchDoubleTapEvent

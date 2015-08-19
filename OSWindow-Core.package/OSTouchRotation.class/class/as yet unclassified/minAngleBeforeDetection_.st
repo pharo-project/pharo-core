@@ -1,0 +1,2 @@
+minAngleBeforeDetection: anInteger
+	minAngleBeforeDetection := anInteger

@@ -1,0 +1,2 @@
+createEventDuringMove
+	self subclassResponsibility 

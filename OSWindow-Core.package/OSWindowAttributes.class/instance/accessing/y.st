@@ -1,2 +1,2 @@
 y
-	^ bounds top
+	^ position y

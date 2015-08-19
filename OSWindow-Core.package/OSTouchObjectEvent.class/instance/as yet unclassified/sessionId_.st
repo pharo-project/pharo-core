@@ -1,0 +1,2 @@
+sessionId: anInteger 
+	sessionId := anInteger

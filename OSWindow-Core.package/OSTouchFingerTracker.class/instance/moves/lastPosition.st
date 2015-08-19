@@ -1,0 +1,2 @@
+lastPosition
+	^ lastPosition

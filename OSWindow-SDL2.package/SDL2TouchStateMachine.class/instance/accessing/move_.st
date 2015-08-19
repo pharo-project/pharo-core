@@ -1,0 +1,2 @@
+move: anObject
+	move := anObject

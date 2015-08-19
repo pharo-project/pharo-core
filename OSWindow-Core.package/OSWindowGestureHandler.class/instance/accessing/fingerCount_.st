@@ -1,0 +1,2 @@
+fingerCount: anObject
+	fingerCount := anObject

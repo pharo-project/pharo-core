@@ -1,0 +1,2 @@
+visitWindowFocusInEvent: anEvent
+	eventHandler visitWindowFocusInEvent: anEvent

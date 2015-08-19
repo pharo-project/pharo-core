@@ -1,0 +1,2 @@
+visitTouchTwoFingersRotationEndEvent: anEvent
+	

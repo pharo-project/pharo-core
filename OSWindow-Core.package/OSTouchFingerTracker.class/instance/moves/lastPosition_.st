@@ -1,0 +1,2 @@
+lastPosition: anObject
+	lastPosition := anObject

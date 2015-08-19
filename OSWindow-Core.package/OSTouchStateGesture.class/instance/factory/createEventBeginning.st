@@ -1,0 +1,2 @@
+createEventBeginning
+	self subclassResponsibility

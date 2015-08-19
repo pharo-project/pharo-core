@@ -1,0 +1,2 @@
+visitTouchDoubleTapEvent: anEvent
+	touchExample changeColors

@@ -1,0 +1,2 @@
+profileType: anObject
+	profileType := anObject

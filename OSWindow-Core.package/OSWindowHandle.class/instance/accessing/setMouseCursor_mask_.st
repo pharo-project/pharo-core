@@ -1,0 +1,1 @@
+setMouseCursor: cursor mask: mask

@@ -1,0 +1,2 @@
+visitQuitEvent: quitEvent
+	^ nil

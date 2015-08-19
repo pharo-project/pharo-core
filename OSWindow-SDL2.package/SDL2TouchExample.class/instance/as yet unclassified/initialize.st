@@ -1,0 +1,2 @@
+initialize
+	moveToDraw := Dictionary new.

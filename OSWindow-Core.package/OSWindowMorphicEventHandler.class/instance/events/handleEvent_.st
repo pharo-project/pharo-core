@@ -4,8 +4,7 @@ handleEvent: anEvent
 	| morphicEvent |
 	
 	morphicEvent := anEvent accept: self.
-	
-	morphicEvent isMorphicEvent ifTrue: [  
-		self dispatchMorphicEvent: morphicEvent ]. 
+	morphicEvent isMorphicEvent 
+		ifTrue: [ self enqueue: morphicEvent ]
 	
 	

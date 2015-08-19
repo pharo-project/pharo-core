@@ -1,0 +1,2 @@
+defaultMinimized
+	^ DefaultMinimized

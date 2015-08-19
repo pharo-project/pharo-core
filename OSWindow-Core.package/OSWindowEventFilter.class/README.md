@@ -1,0 +1,1 @@
+Due to recent changes, not functionnalI am an api to filter gesture events, i redirect all my other events to the gesture handlerExample of use:	OSWindowEventFilter new eventHandler: anEventHandler		for: #swipe accept: {  #doubleTap. #pinch }

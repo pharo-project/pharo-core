@@ -1,0 +1,2 @@
+visitTouchPointerMoveEvent: anEvent
+	eventHandler visitTouchPointerMoveEvent: anEvent.

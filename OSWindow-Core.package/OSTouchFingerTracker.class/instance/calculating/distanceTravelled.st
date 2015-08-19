@@ -1,0 +1,2 @@
+distanceTravelled
+	^ firstPosition dist: lastPosition

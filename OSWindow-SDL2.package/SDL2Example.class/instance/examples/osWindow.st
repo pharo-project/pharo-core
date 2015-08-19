@@ -9,4 +9,5 @@ osWindow
 	window := OSWindow createWithAttributes: attrs.
 	window eventHandler: (OSWindowMorphicEventHandler for: World).
 	window newFormRenderer: Display.
+	^window
 

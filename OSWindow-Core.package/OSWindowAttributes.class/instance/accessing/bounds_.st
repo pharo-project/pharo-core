@@ -1,3 +1,3 @@
-bounds: anObject
-	
-	bounds := anObject
+bounds: aRectangle
+	position := aRectangle origin.
+	extent := aRectangle extent.

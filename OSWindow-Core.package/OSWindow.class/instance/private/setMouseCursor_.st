@@ -1,2 +1,0 @@
-setMouseCursor: cursorWithMask
-	self validHandle setMouseCursor: cursorWithMask

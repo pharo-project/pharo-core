@@ -1,3 +1,2 @@
 bounds
-	
-	^ bounds
+	^ position extent: extent

@@ -1,0 +1,1 @@
+A change happened but the pointer is not down (OSTouchMove).

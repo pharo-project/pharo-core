@@ -1,0 +1,2 @@
+maximized: aBoolean
+	maximized := aBoolean

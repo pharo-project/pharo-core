@@ -1,0 +1,2 @@
+checkConditions
+	^ self hasGoodNumberOfFingers

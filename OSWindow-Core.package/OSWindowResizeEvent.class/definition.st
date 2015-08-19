@@ -1,5 +1,5 @@
 OSWindowEvent subclass: #OSWindowResizeEvent
-	instanceVariableNames: ''
+	instanceVariableNames: 'width height'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'OSWindow-Core-Events'

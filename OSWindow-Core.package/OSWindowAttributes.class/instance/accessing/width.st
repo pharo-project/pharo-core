@@ -1,2 +1,2 @@
 width
-	^ bounds width
+	^ extent x

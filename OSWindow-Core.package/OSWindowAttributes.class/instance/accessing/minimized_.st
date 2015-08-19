@@ -1,0 +1,2 @@
+minimized: aBoolean
+	minimized := aBoolean

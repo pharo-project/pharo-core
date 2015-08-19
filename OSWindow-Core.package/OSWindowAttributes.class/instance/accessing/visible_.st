@@ -1,0 +1,2 @@
+visible: aBoolean
+	visible := aBoolean

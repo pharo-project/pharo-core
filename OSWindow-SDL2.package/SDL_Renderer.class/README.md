@@ -1,1 +1,1 @@
-I represent a handle of GL rendering context, coming from SDL2 library
+I represent a handle of SDL rendering context, coming from SDL2 library

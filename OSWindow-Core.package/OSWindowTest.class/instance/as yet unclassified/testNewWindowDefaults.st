@@ -1,7 +1,6 @@
 testNewWindowDefaults
 
 	| window |
-	self skip. "not yet working on windows"
 	
 	window := OSWindow new.
 

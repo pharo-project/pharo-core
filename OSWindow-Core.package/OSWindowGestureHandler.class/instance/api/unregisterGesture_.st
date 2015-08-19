@@ -1,0 +1,2 @@
+unregisterGesture: anOSTouchGesture
+	registeredGestures remove: anOSTouchGesture 

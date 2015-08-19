@@ -1,0 +1,1 @@
+The role here is to aggregate the gesture validate by a strategy.

@@ -1,0 +1,2 @@
+windowCentered
+	^ windowCentered

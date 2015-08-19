@@ -1,2 +1,2 @@
 handleEvent: event
-	event accept: self
+	event accept: self.

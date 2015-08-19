@@ -1,0 +1,1 @@
+I detect swipes with three fingers

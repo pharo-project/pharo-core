@@ -10,6 +10,6 @@ visitTextInputEvent: anEvent
 		position: anEvent position
 		keyValue: char charCode
 		charCode: char charCode
-		hand:  morphicWorld activeHand
+		hand:  self activeHand
 		stamp: Time millisecondClockValue.
 	^ keyEvent

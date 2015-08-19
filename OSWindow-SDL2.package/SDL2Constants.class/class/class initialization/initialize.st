@@ -10,7 +10,9 @@ initialize
 	self initializeKeycodes3.
 	self initializeMouse.
 	self initializeOpenGL.
+	self initializeOpenGLProfile.
 	self initializePixelFormat.
 	self initializeRenderer.
 	self initializeTexture.
 	self initializeWindow.
+	self initializeWM.

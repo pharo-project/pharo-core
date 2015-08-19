@@ -1,0 +1,3 @@
+axis: anObject
+	
+	axis := anObject

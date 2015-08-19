@@ -1,0 +1,2 @@
+activeFingers: anObject
+	activeFingers := anObject

@@ -1,2 +1,4 @@
 setMouseCursor: cursorWithMask
-	^ cursorWithMask oldPrimitiveBeCursor
+
+	Cursor currentCursor == cursorWithMask ifFalse: [  
+		Cursor currentCursor: cursorWithMask ].

@@ -1,0 +1,1 @@
+I am an abstract class who checks the conditions to trigger a scroll

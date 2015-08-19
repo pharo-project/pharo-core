@@ -1,2 +1,2 @@
 height
-	^ bounds height
+	^ extent y

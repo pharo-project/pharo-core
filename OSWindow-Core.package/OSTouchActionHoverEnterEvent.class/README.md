@@ -1,0 +1,1 @@
+The pointer is not down but has entered the boundaries of a window or view.

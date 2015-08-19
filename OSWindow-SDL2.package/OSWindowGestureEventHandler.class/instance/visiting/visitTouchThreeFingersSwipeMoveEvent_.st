@@ -1,0 +1,2 @@
+visitTouchThreeFingersSwipeMoveEvent: anEvent
+	touchExample swipe: anEvent

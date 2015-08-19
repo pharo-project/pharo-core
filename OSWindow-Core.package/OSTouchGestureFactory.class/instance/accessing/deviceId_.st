@@ -1,0 +1,2 @@
+deviceId: anInteger
+	deviceId := anInteger

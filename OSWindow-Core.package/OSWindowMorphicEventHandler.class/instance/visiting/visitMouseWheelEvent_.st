@@ -6,7 +6,7 @@ visitMouseWheelEvent: anEvent
 	^ MouseWheelEvent new 
 		setType: #mouseWheel
 		position: anEvent position
-		direction: (vertical > 0 ifTrue: [#up] ifFalse: [#down])
+		direction: (vertical > 0 ifTrue: [Character arrowUp] ifFalse: [Character arrowDown])
 		buttons: (self convertModifiers: anEvent modifiers)
-		hand: morphicWorld activeHand
+		hand: self activeHand
 		stamp: Time millisecondClockValue

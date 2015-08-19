@@ -1,0 +1,2 @@
+visitFingerUpEvent: event
+	^nil

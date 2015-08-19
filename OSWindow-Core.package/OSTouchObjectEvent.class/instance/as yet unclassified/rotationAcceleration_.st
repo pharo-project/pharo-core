@@ -1,0 +1,2 @@
+rotationAcceleration: aNumber 
+	rotationAcceleration := aNumber

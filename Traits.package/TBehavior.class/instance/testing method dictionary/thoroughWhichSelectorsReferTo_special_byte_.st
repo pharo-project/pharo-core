@@ -4,8 +4,6 @@ thoroughWhichSelectorsReferTo: literal special: specialFlag byte: specialByte
 	thorough "
 	| selectors |
 	selectors := IdentitySet new.
-	self selectorsAndMethodsDo: 
-		[ :sel :method |
-			((self isTrait ifTrue: [method hasLiteralThorough: literal]
-				     		 ifFalse: [method refersToLiteral: literal]) or: [specialFlag and: [method scanFor: specialByte]]) ifTrue: [selectors add: sel]].
+	self selectorsAndMethodsDo: [ :sel :method |
+			((method refersToLiteral: literal) or: [specialFlag and: [method scanFor: specialByte]]) ifTrue: [selectors add: sel]].
 	^ selectors

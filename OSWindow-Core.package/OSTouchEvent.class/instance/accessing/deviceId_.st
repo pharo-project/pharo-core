@@ -1,0 +1,2 @@
+deviceId: anObject
+	deviceId := anObject

@@ -8,5 +8,5 @@ visitMouseMoveEvent: anEvent
 		endPoint: anEvent position 
 		trail: { oldPos. anEvent position }
 		buttons: (self convertModifiers: anEvent modifiers)
-		hand: morphicWorld  activeHand
+		hand: self activeHand
 		stamp: Time millisecondClockValue

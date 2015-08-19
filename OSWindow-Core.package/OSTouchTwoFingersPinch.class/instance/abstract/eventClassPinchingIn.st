@@ -1,0 +1,2 @@
+eventClassPinchingIn
+	^ OSTouchTwoFingersPinchInMoveEvent

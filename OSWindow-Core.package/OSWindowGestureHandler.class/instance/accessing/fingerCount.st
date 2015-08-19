@@ -1,0 +1,2 @@
+fingerCount
+	^ fingerCount

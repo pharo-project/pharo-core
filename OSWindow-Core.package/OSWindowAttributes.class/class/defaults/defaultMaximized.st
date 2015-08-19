@@ -1,0 +1,2 @@
+defaultMaximized
+	^ DefaultMaximized

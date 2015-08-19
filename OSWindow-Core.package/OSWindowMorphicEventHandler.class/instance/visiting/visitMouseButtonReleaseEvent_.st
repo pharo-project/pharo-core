@@ -6,5 +6,5 @@ visitMouseButtonReleaseEvent: anEvent
 		position: anEvent position 
 		which: (self convertButton: anEvent button)
 		buttons: (self convertModifiers: anEvent modifiers)
-		hand: morphicWorld activeHand
+		hand: self activeHand
 		stamp: Time millisecondClockValue

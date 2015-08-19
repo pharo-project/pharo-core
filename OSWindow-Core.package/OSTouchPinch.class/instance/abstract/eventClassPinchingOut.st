@@ -1,0 +1,2 @@
+eventClassPinchingOut
+	self subclassResponsibility

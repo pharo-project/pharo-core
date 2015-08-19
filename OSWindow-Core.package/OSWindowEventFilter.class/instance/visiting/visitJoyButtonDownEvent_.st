@@ -1,0 +1,2 @@
+visitJoyButtonDownEvent: anEvent
+	eventHandler visitJoyButtonDownEvent: anEvent

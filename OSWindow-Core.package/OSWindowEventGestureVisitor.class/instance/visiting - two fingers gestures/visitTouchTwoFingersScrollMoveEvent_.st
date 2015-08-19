@@ -1,0 +1,1 @@
+visitTouchTwoFingersScrollMoveEvent: anEvent

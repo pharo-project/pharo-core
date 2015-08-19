@@ -1,0 +1,1 @@
+A pressed gesture has started, the motion contains the initial starting location.

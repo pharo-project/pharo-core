@@ -13,6 +13,7 @@ baseline02: spec
 			package: 'NBXLib-Core';
 			package: 'OSWindow-X11' with: [
 				spec requires: #('OSWindow-Core' 'NBXLib-Core' ). ].
+		
 		spec 
 			group: 'SDL2' with: #('OSWindow-SDL2' );
 			group: 'Legacy' with: #('OSWindow-VM' );

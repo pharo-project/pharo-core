@@ -1,0 +1,2 @@
+fingerId: anObject
+	fingerId := anObject

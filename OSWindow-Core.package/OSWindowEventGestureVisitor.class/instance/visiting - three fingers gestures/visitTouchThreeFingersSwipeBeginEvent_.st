@@ -1,0 +1,1 @@
+visitTouchThreeFingersSwipeBeginEvent: anEvent

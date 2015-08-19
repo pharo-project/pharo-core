@@ -1,0 +1,2 @@
+visitTouchTwoFingersScrollEndEvent: anEvent
+	touchExample endScroll: anEvent

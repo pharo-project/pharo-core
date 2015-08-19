@@ -1,0 +1,2 @@
+initialize
+	eventQueue := WaitfreeQueue new.

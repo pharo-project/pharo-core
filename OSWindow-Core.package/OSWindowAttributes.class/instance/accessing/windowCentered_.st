@@ -1,0 +1,2 @@
+windowCentered: aBoolean
+	windowCentered := aBoolean

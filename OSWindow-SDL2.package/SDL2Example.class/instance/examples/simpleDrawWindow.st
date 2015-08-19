@@ -11,10 +11,14 @@ simpleDrawWindow
 					height: 480
 					flags: SDL_WINDOW_SHOWN.
 	renderer := window createDefaultRenderer.
+	SDL2 delay: 1000.
 	renderer drawColorR: 0 g: 0 b: 0 a: 0;
 			  clear;
 			  drawColorR: 0 g: 255 b: 0 a: 255;
-			  drawPointX: 50 y: 50;
+			  drawPointX: 50 y: 50;  
+			  present.
+	SDL2 delay: 1000.
+	renderer
 			  drawColorR: 255 g: 0 b: 0 a: 255;
 			  drawLineX1: 30 y1: 30 x2: 500 y2: 30;
 			  present.

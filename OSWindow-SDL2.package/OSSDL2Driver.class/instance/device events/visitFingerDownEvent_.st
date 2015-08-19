@@ -1,0 +1,2 @@
+visitFingerDownEvent: event
+	^nil

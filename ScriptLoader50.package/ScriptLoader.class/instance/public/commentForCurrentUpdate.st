@@ -1,12 +1,6 @@
 commentForCurrentUpdate
- ^ '16239 hasReportTableSlip is not packaged well and more
-	https://pharo.fogbugz.com/f/cases/16239
+ ^ '16150 make OSWindow events work with morphic
+	https://pharo.fogbugz.com/f/cases/16150
 
-16264 update ring-core-kernel dependencies
-	https://pharo.fogbugz.com/f/cases/16264
-
-16272 Reflectivity: start of code gen for Globals
-	https://pharo.fogbugz.com/f/cases/16272
-
-16192 Cut Text-Core dependencies
-	https://pharo.fogbugz.com/f/cases/16192'
+16276 thoroughWhichSelectorsReferTo:special:byte: does not need to use isTrait
+	https://pharo.fogbugz.com/f/cases/16276'

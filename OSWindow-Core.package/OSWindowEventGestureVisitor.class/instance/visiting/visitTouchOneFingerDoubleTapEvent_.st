@@ -1,0 +1,1 @@
+visitTouchOneFingerDoubleTapEvent: anEvent

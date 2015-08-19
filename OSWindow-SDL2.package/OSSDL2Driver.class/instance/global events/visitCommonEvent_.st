@@ -1,0 +1,2 @@
+visitCommonEvent: event
+	^ nil

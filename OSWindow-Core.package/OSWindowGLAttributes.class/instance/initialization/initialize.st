@@ -7,3 +7,6 @@ initialize
 	stencilSize := DefaultStencilSize.
 	doubleBuffer := DefaultDoubleBuffer.
 	swapControl := DefaultSwapControl.
+	minorVersion := DefaultMinorVersion.
+	majorVersion := DefaultMajorVersion.
+	profileType := DefaultProfileType.

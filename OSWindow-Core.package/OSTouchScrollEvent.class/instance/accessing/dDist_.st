@@ -1,0 +1,2 @@
+dDist: anObject
+	dDist := anObject

@@ -1,0 +1,2 @@
+defaultResizable
+	^ DefaultResizable

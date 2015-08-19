@@ -1,0 +1,2 @@
+lastUpdateTimestamp: anObject 
+	lastUpdateTimestamp := anObject 

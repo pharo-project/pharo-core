@@ -1,0 +1,3 @@
+button: anObject
+	
+	button := anObject

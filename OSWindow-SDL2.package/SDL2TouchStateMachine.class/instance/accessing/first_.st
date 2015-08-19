@@ -1,0 +1,2 @@
+first: anObject
+	first := anObject

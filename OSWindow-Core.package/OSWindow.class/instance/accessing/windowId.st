@@ -1,0 +1,2 @@
+windowId
+	^ self validHandle windowId

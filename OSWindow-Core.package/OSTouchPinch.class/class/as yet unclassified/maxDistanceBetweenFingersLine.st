@@ -1,0 +1,2 @@
+maxDistanceBetweenFingersLine
+	^ maxDistanceBetweenFingersLine

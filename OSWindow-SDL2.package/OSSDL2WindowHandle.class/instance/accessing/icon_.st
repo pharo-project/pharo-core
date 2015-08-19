@@ -11,4 +11,5 @@ icon: aForm
 			bmask: 16r00000ff
 			amask: 16rff000000.
 	handle icon: surface.
-	SDL2 freeSurface: surface
+	iconSurface ifNotNil: [ SDL2 freeSurface: surface ].
+	iconSurface := surface.
