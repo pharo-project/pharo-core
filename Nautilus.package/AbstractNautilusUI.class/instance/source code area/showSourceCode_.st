@@ -6,4 +6,5 @@ showSourceCode: anAnnouncement
 		ifTrue: [ 
 			self sourceTextModel
 				formatSourceCodeInView;
-				hasUnacceptedEdits: false ]
+				hasUnacceptedEdits: false ].
+	self sourceTextModel clearUndoManager

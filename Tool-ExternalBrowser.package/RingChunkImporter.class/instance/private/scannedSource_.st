@@ -1,3 +1,3 @@
 scannedSource: aString
 
-	^ Scanner new scanTokens: aString
+	^ Smalltalk compiler parseLiterals: aString
