@@ -1,7 +1,7 @@
 sourceCodeMenu: aMenu shifted: shifted
 	| menu |
 	menu := (PragmaMenuBuilder
-		pragmaKeyword: self sourceTextWidget textArea editingMode class menuKeyword
+		pragmaKeyword: self sourceTextWidget editingModeClass menuKeyword
 		model: self sourceTextWidget) menu.
 	^ aMenu
 		addAllFrom: self sourceCodeMenuBuilder menu;

@@ -1,0 +1,1 @@
+I model a temporary virable, similar to Slot and LiteralVariable.For now I am cread on need and never persisted. (this might change laterto allow me to be annotated with properties.)
