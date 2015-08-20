@@ -9,7 +9,6 @@ initialize
 				ifFalse: [ self unselectAllChildren ] ] ].
 		
 	self whenContentChanged: [ :c || childrenNode |
-		self hasContentToShow: c isDirty.
 		childrenNode := self getDefinitions 
 			collect: [ :each | KomitDefinitionNode new
 				content: each;

@@ -1,2 +1,2 @@
 elements
-	^ packages
+	^ packages sorted

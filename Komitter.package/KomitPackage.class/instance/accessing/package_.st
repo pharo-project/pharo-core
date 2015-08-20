@@ -1,4 +1,3 @@
 package: aPackage
 
-	package := aPackage.
-	self retrievePatch
+	package := aPackage

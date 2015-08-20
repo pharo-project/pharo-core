@@ -1,3 +1,2 @@
 cleanUp
-	AbstractNautilusUI resetIconCaches.
-	RecentClasses := nil.
+	AbstractNautilusUI resetIconCaches

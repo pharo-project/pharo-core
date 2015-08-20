@@ -1,4 +1,2 @@
 maxSize: anInteger
-
-	maxSize := anInteger.
-	self recentClasses maxSize: anInteger.
+	maxSize := anInteger

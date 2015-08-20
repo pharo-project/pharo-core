@@ -1,3 +1,2 @@
 patch
-	
-	^ dataRetriever data
+	^ patch ifNil: [ patch := self package patch ]

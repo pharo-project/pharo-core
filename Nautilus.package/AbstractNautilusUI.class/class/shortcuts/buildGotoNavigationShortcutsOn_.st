@@ -25,12 +25,6 @@ buildGotoNavigationShortcutsOn: aBuilder
 		do: [ :target | target giveFocusToMethod ]
 		description: 'Jump to the selected method'.
 		
-	(aBuilder shortcut: #jumpToSourceCode)
-		category: #NautilusGlobalShortcuts
-		default: $g command , $s command  
-		do: [ :target | target giveFocusToSourceCode ]
-		description: 'Jump to the selected method'.
-		
 	(aBuilder shortcut: #jumpToTestClass)
 		category: #NautilusGlobalShortcuts
 		default: $g command , $j command , $c command

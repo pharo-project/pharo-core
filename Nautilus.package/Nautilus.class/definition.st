@@ -1,5 +1,5 @@
 Object subclass: #Nautilus
 	instanceVariableNames: 'announcer browsedEnvironment browsingHistory plugins selectedCategory selectedClass selectedGroup selectedMethod selectedPackage showCategories showComment sortHierarchically showInstance showHierarchy ui uiClass'
-	classVariableNames: 'CommentPosition HistoryMaxSize OpenOnGroups PluginClasses RecentClasses ShowAnnotationPane ShowDebugMenus ShowGroupsOnTop SortHierarchically SwitchClassesAndPackages'
+	classVariableNames: 'CommentPosition HistoryMaxSize OpenOnGroups PluginClasses ShowAnnotationPane ShowDebugMenus ShowGroupsOnTop SortHierarchically SwitchClassesAndPackages'
 	poolDictionaries: ''
 	category: 'Nautilus'

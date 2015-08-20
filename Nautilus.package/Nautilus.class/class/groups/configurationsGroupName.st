@@ -1,0 +1,2 @@
+configurationsGroupName
+	^ 'Configurations'
