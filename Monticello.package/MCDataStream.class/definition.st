@@ -1,5 +1,5 @@
 Stream subclass: #MCDataStream
 	instanceVariableNames: 'byteStream topCall basePos'
-	classVariableNames: 'TypeMap'
+	classVariableNames: 'ReadSelectors TypeMap WriteSelectors'
 	poolDictionaries: ''
 	category: 'Monticello-Storing'

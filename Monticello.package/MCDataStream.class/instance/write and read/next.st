@@ -1,6 +1,6 @@
 next
 	"Answer the next object in the stream."
-	| type selector anObject isARefType internalObject |
+	| type selector anObject  internalObject |
 
 	type := byteStream next.
 	type ifNil: [
@@ -13,20 +13,16 @@ next
 		byteStream close.	"clean up"
 		self error: 'Expected start of object, but found 0'.
 		^ nil].
-	isARefType := self noteCurrentReference: type.
-	selector := #(readNil readTrue readFalse readInteger	"<-4"
-			readStringOld readSymbol readByteArray		"<-7"
-			readArray readInstance readReference readBitmap	"<-11"
-			readClass readUser readFloat readRectangle readShortInst 	"<-16"
-			readString readWordArray foo 	"foo is a replacement for readWordArrayForSegment<-19"
-			readWordLike readMethod "<-21") at: type.
-	selector = 0 ifTrue: [
-			byteStream close. 
-			self error: 'file is more recent than this system'. ^ nil].
+
+	selector := self class readSelectors at: type 
+		ifAbsent:[ 
+				byteStream close.
+				self error: 'Unrecognised type id. You should load the Monticello-OldDataStreamCompatibility package'
+		].
+	
 	anObject := self perform: selector. "A method that recursively
 		calls next (readArray, readInstance, objectAt:) must save &
 		restore the current reference position."
-	isARefType ifTrue: [self beginReference: anObject].
 
 		"After reading the externalObject, internalize it.
 		 #readReference is a special case. Either:

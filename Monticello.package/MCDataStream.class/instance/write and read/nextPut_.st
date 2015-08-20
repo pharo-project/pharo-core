@@ -10,12 +10,7 @@ nextPut: anObject
 	objectToStore == anObject ifFalse: [typeID := self typeIDFor: objectToStore].
 
 	byteStream nextPut: typeID.
-	selector := #(writeNil: writeTrue: writeFalse: writeInteger: 
-		writeStringOld: writeSymbol: writeByteArray:
-		writeArray: writeInstance: errorWriteReference: writeBitmap:
-		writeClass: writeUser: writeFloat: writeRectangle: == "<-16 short inst" 
-		writeString: writeBitmap: writeBitmap: writeWordLike: 
-		writeInstance: "CompiledMethod") at: typeID.
+	selector := self class writeSelectors at: typeID.
 	self perform: selector with: objectToStore.
 
 	^ anObject

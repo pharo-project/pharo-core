@@ -1,5 +1,5 @@
 Object subclass: #OSPlatform
-	instanceVariableNames: 'environment'
+	instanceVariableNames: ''
 	classVariableNames: 'Current'
 	poolDictionaries: ''
 	category: 'System-Platforms'

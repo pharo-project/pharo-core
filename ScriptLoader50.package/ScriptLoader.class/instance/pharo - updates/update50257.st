@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '16298 get rid of Tool-Base in the bootstrap
+update50257
+	"self new update50257"
+	self withUpdateLog: '16298 get rid of Tool-Base in the bootstrap
 	https://pharo.fogbugz.com/f/cases/16298
 
 15861 Create test package for Jobs
@@ -12,4 +13,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/16208
 
 16293 get rid of NativeBoost dependency in the bootstrap
-	https://pharo.fogbugz.com/f/cases/16293'
+	https://pharo.fogbugz.com/f/cases/16293'.
+	self loadTogether: self script50257 merge: false.
+	self flushCaches.
