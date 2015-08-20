@@ -1,4 +1,4 @@
-script50249
+script50250
 
 	^ 'AST-Core-TheIntegrator.357.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -195,13 +195,13 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-MarcusDenker.17.mcz
 NativeBoost-Win32-TheIntegrator.57.mcz
-Nautilus-TheIntegrator.1053.mcz
+Nautilus-TheIntegrator.1054.mcz
 Nautilus-GroupManager-TheIntegrator.11.mcz
 Nautilus-GroupManagerUI-TheIntegrator.20.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
 NautilusCommon-TheIntegrator.277.mcz
-NautilusGroupAutoBuilder-TheIntegrator.5.mcz
-NautilusRefactoring-TheIntegrator.244.mcz
+NautilusGroupAutoBuilder-FranckWarlouzet.6.mcz
+NautilusRefactoring-TheIntegrator.246.mcz
 Network-Kernel-TheIntegrator.118.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.43.mcz
@@ -273,13 +273,13 @@ Slot-TheIntegrator.659.mcz
 Slot-Tests-TheIntegrator.51.mcz
 SmartSuggestions-TheIntegrator.176.mcz
 SmartSuggestions-Tests-TheIntegrator.10.mcz
-Spec-Core-TheIntegrator.413.mcz
+Spec-Core-TheIntegrator.415.mcz
 Spec-Debugger-TheIntegrator.246.mcz
 Spec-Examples-TheIntegrator.98.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.246.mcz
 Spec-Layout-TheIntegrator.69.mcz
-Spec-MorphicAdapters-TheIntegrator.227.mcz
+Spec-MorphicAdapters-TheIntegrator.229.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz
 Spec-Tests-TheIntegrator.51.mcz
 Spec-Tools-TheIntegrator.280.mcz

@@ -12,4 +12,5 @@ buildNewCodeSourceAreaRubric
 		when: NautilusClassSelected , NautilusPackageSelected , NautilusGroupSelected send: #showScriptCode: to: self;
 		when: NautilusProtocolSelected , NautilusMethodSelected send: #showSourceCode: to: self.
 	self setSourceCodeShorcutsTo: scrolledText.
+	scrolledText menuProvider: self selector: #sourceCodeMenu:shifted:.
 	^ scrolledText

@@ -1,0 +1,2 @@
+selectionInterval
+	^ self widget selectionInterval 

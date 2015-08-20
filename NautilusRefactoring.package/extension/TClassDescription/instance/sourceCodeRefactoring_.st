@@ -1,6 +1,6 @@
 sourceCodeRefactoring: aBuilder
 	| target |
-	target := aBuilder model model interactionModel.
+	target := aBuilder model.
 	(aBuilder item: #'Create cascade')
 		action: [ 
 					target okToChange

@@ -1,6 +1,6 @@
 sourceCodeRefactoringMenu: aBuilder
 	| target |
-	target := aBuilder model model interactionModel.
+	target := aBuilder model.
 	(aBuilder item: #Format)
 		order: 1100;
 		keyText: 'F';
