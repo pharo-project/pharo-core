@@ -1,4 +1,5 @@
 initialize
 	"FileList initialize"
-	(self systemNavigation allClassesImplementing: #fileReaderServicesForFile:suffix:) do: 		[:providerMetaclass |
-			self registerFileReader: providerMetaclass soleInstance]
+
+	((PragmaCollector filter: [ :pragma | pragma keyword = 'fileService' ]) reset collect: [ :each | each methodClass ])
+		do: [ :providerMetaclass | self registerFileReader: providerMetaclass soleInstance ]

@@ -2,4 +2,4 @@ RubAbstractSmalltalkMode subclass: #RubSmalltalkCodeMode
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Rubric-Editing-Core'
+	category: 'Rubric-Editing-Code'

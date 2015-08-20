@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '16316 Form should not rgisterFileReader inside the Graphics package
-	https://pharo.fogbugz.com/f/cases/16316
+ ^ '16320 Update configuration of Rubric  
+	https://pharo.fogbugz.com/f/cases/16320
 
-16312 Fix some references to the old compiler
-	https://pharo.fogbugz.com/f/cases/16312
+16313 fix tests failing when unloading old compiler
+	https://pharo.fogbugz.com/f/cases/16313
 
-16080 RBImplementedButNotSent always true
-	https://pharo.fogbugz.com/f/cases/16080
-
-16306 Clear undo cache in Nautilus when changing source code
-	https://pharo.fogbugz.com/f/cases/16306'
+16315 SimpleServerEntry should use a pragma and use them to declare them
+	https://pharo.fogbugz.com/f/cases/16315'

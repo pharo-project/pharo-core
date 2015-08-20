@@ -5,113 +5,109 @@ buildShortcutsOn: aBuilder
 	
 	We list both variations explicitly because we want to be able to see the action code when inspecting the morph.
 	"
+
 	<keymap>
-	(aBuilder shortcut: #querySymbol) 
+	(aBuilder shortcut: #querySymbol)
 		category: RubSmalltalkEditor name
 		default: $q ctrl
 		do: [ :target | target editor querySymbol: nil ]
 		description: 'Query symbol'.
-	(aBuilder shortcut: #querySymbol) 
+	(aBuilder shortcut: #querySymbol)
 		category: RubSmalltalkEditor name
 		default: $q command
 		do: [ :target | target editor querySymbol: nil ]
 		description: 'Query symbol'.
-	(aBuilder shortcut: #browseIt) 
+	(aBuilder shortcut: #browseIt)
 		category: RubSmalltalkEditor name
 		default: $b ctrl
 		do: [ :target | target editor browseIt: nil ]
 		description: 'Browse'.
-	(aBuilder shortcut: #browseItCommand) 
+	(aBuilder shortcut: #browseItCommand)
 		category: RubSmalltalkEditor name
 		default: $b command
 		do: [ :target | target editor browseIt: nil ]
 		description: 'Browse'.
-
-	(aBuilder shortcut: #doIt) 
+	(aBuilder shortcut: #doIt)
 		category: RubSmalltalkEditor name
 		default: $d ctrl
 		do: [ :target | target editor doIt: nil ]
 		description: 'Do it'.
-	(aBuilder shortcut: #doItCommand) 
+	(aBuilder shortcut: #doItCommand)
 		category: RubSmalltalkEditor name
 		default: $d command
 		do: [ :target | target editor doIt: nil ]
 		description: 'Do it'.
-
-	(aBuilder shortcut: #inspectIt) 
+	(aBuilder shortcut: #inspectIt)
 		category: RubSmalltalkEditor name
 		default: $i ctrl
 		do: [ :target | target editor inspectIt: nil ]
 		description: 'Inspect it'.
-	(aBuilder shortcut: #inspectItCommand) 
+	(aBuilder shortcut: #inspectItCommand)
 		category: RubSmalltalkEditor name
-		default: $i command 
+		default: $i command
 		do: [ :target | target editor inspectIt: nil ]
 		description: 'Inspect it'.
-
-	(aBuilder shortcut: #implementorsOfIt) 
+	(aBuilder shortcut: #implementorsOfIt)
 		category: RubSmalltalkEditor name
 		default: $m ctrl
 		do: [ :target | target editor implementorsOfIt: nil ]
 		description: 'Implementors of it'.
-	(aBuilder shortcut: #implementorsOfItCommand) 
+	(aBuilder shortcut: #implementorsOfItCommand)
 		category: RubSmalltalkEditor name
 		default: $m command
 		do: [ :target | target editor implementorsOfIt: nil ]
 		description: 'Implementors of it'.
-
-	(aBuilder shortcut: #senderOfIt) 
+	(aBuilder shortcut: #senderOfIt)
 		category: RubSmalltalkEditor name
 		default: $n ctrl
 		do: [ :target | target editor sendersOfIt: nil ]
 		description: 'Senders of it'.
-	(aBuilder shortcut: #senderOfItCommand) 
+	(aBuilder shortcut: #senderOfItCommand)
 		category: RubSmalltalkEditor name
 		default: $n command
 		do: [ :target | target editor sendersOfIt: nil ]
 		description: 'Senders of it'.
-
-	(aBuilder shortcut: #printIt) 
+	(aBuilder shortcut: #printIt)
 		category: RubSmalltalkEditor name
 		default: $p ctrl
 		do: [ :target | target editor printIt ]
 		description: 'Print it'.
-	(aBuilder shortcut: #printItCommand) 
+	(aBuilder shortcut: #printItCommand)
 		category: RubSmalltalkEditor name
 		default: $p command
 		do: [ :target | target editor printIt ]
 		description: 'Print it'.
-
-	(aBuilder shortcut: #debugIt) 
+	(aBuilder shortcut: #debugIt)
 		category: RubSmalltalkEditor name
 		default: $d shift ctrl
 		do: [ :target | target editor debugIt: nil ]
 		description: 'Debug it'.
-	(aBuilder shortcut: #debugItCommand) 
+	(aBuilder shortcut: #debugItCommand)
 		category: RubSmalltalkEditor name
 		default: $d shift command
 		do: [ :target | target editor debugIt: nil ]
 		description: 'Debug it'.
-
-	(aBuilder shortcut: #referencesToIt) 
+	(aBuilder shortcut: #referencesToIt)
 		category: RubSmalltalkEditor name
 		default: $n shift ctrl
 		do: [ :target | target editor referencesToIt: nil ]
 		description: 'References to it'.
-	(aBuilder shortcut: #referencesToItCommand) 
+	(aBuilder shortcut: #referencesToItCommand)
 		category: RubSmalltalkEditor name
 		default: $n shift command
 		do: [ :target | target editor referencesToIt: nil ]
 		description: 'References to it'.
-
-	(aBuilder shortcut: #methodStringsContainingIt) 
+	(aBuilder shortcut: #methodStringsContainingIt)
 		category: RubSmalltalkEditor name
 		default: $e shift ctrl | $e shift command mac
 		do: [ :target | target editor methodStringsContainingIt: nil ]
-		description: 'Method strings containing it'.	
-	(aBuilder shortcut: #methodStringsContainingItCommand) 
+		description: 'Method strings containing it'.
+	(aBuilder shortcut: #methodStringsContainingItCommand)
 		category: RubSmalltalkEditor name
 		default: $e shift command
 		do: [ :target | target editor methodStringsContainingIt: nil ]
-		description: 'Method strings containing it'
-
+		description: 'Method strings containing it'.
+	(aBuilder shortcut: #format)
+		category: RubSmalltalkEditor name
+		default: PharoShortcuts current formatCodeShortcut
+		do: [ :target | target formatMethodCode ]

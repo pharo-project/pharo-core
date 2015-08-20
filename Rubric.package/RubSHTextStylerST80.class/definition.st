@@ -2,4 +2,4 @@ SHRBTextStyler subclass: #RubSHTextStylerST80
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Rubric-Editing-Core'
+	category: 'Rubric-Editing-Code'

@@ -1,11 +1,11 @@
 newScrolledTextMorph
-	| st |  
+	| st |
 	st := RubPluggableTextMorph new
 		on: self
 			text: #getText
 			accept: #accept:notifying:
 			readSelection: #readSelection
-			menu: #codePaneMenu:shifted:
+			menu: nil
 			setSelection: #setSelection:;
 		getEnabledSelector: #enabled;
 		askBeforeDiscardingEdits: self askBeforeDiscardingEdits;
@@ -15,9 +15,9 @@ newScrolledTextMorph
 		dropEnabled: self dropEnabled;
 		registerScrollChanges: #scrollValueChanged:;
 		vResizing: #spaceFill;
-		hResizing: #spaceFill; 
+		hResizing: #spaceFill;
 		yourself.
-	st 
+	st
 		beWrapped;
 		autoAccept: false;
 		beForSmalltalkCode;
