@@ -1,2 +1,0 @@
-unload
-	FileServices unregisterFileReader: self 

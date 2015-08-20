@@ -1,3 +1,2 @@
 initialize
-	self clearVersionInfo.
-	self registerForFileList.
+	self clearVersionInfo

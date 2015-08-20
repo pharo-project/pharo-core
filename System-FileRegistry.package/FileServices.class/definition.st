@@ -1,5 +1,5 @@
 Object subclass: #FileServices
 	instanceVariableNames: ''
-	classVariableNames: 'FileReaderRegistry'
+	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'System-FileRegistry'

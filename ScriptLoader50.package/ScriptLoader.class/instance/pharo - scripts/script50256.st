@@ -1,4 +1,4 @@
-script50255
+script50256
 
 	^ 'AST-Core-TheIntegrator.359.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -43,8 +43,8 @@ Collections-Unordered-TheIntegrator.212.mcz
 Collections-Weak-TheIntegrator.93.mcz
 CollectionsTests-TheIntegrator.709.mcz
 Compiler-TheIntegrator.596.mcz
-Compression-TheIntegrator.160.mcz
-Compression-Registration-TheIntegrator.3.mcz
+Compression-TheIntegrator.161.mcz
+Compression-Registration-TheIntegrator.5.mcz
 CompressionTests-TheIntegrator.29.mcz
 ConfigurationCommandLineHandler-Core-TheIntegrator.29.mcz
 ConfigurationCommandLineHandler-Tests-MarcusDenker.11.mcz
@@ -63,7 +63,7 @@ FileSystem-Tests-Core-TheIntegrator.93.mcz
 FileSystem-Tests-Disk-StephaneDucasse.25.mcz
 FileSystem-Tests-Memory-TheIntegrator.8.mcz
 FileSystem-Zip-TheIntegrator.19.mcz
-Files-TheIntegrator.388.mcz
+Files-TheIntegrator.390.mcz
 Files-Tests-TheIntegrator.5.mcz
 Flashback-Decompiler-TheIntegrator.15.mcz
 Flashback-Decompiler-Tests-TheIntegrator.97.mcz
@@ -156,7 +156,7 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-TheIntegrator.1058.mcz
+Monticello-TheIntegrator.1062.mcz
 Monticello-Tests-TheIntegrator.26.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.189.mcz
@@ -287,16 +287,16 @@ StartupPreferences-TheIntegrator.139.mcz
 System-Announcements-TheIntegrator.104.mcz
 System-Caching-TheIntegrator.26.mcz
 System-CachingTests-TheIntegrator.14.mcz
-System-Changes-TheIntegrator.278.mcz
+System-Changes-TheIntegrator.280.mcz
 System-Clipboard-SvenVanCaekenberghe.32.mcz
 System-CommandLine-TheIntegrator.174.mcz
 System-CommandLineHandler-TheIntegrator.5.mcz
-System-FileRegistry-TheIntegrator.41.mcz
+System-FileRegistry-TheIntegrator.43.mcz
 System-Finalization-TheIntegrator.22.mcz
 System-Hashing-StephaneDucasse.45.mcz
 System-History-EstebanLorenzano.7.mcz
 System-History-Tests-EstebanLorenzano.3.mcz
-System-Installers-SvenVanCaekenberghe.42.mcz
+System-Installers-TheIntegrator.44.mcz
 System-Localization-TheIntegrator.91.mcz
 System-Localization-Tests-TheIntegrator.5.mcz
 System-Object Events-TheIntegrator.21.mcz
@@ -318,9 +318,9 @@ Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.104.mcz
 Tool-Catalog-TheIntegrator.20.mcz
 Tool-CriticBrowser-TheIntegrator.10.mcz
-Tool-Diff-TheIntegrator.15.mcz
-Tool-ExternalBrowser-TheIntegrator.31.mcz
-Tool-FileList-TheIntegrator.45.mcz
+Tool-Diff-TheIntegrator.17.mcz
+Tool-ExternalBrowser-TheIntegrator.33.mcz
+Tool-FileList-TheIntegrator.47.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
 Tool-Finder-TheIntegrator.42.mcz
 Tool-ImageCleaner-TheIntegrator.10.mcz

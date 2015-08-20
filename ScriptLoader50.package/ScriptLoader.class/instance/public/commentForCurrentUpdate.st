@@ -1,15 +1,9 @@
 commentForCurrentUpdate
- ^ '16275 You cant use ctrl + shift + f anymore on the debuggeur 
-	https://pharo.fogbugz.com/f/cases/16275
+ ^ '16324 Clean FileServices and FileList by using pragmas
+	https://pharo.fogbugz.com/f/cases/16324
 
-16322 Move navigation arrows close to navigation drop list in Nautilus
-	https://pharo.fogbugz.com/f/cases/16322
+16328 Fix senders of ifNotEmptyDo: in image
+	https://pharo.fogbugz.com/f/cases/16328
 
-16323 add the concepts of a first class TemporaryVariable
-	https://pharo.fogbugz.com/f/cases/16323
-
-16321 started a RBSmalltalkGlobalsRule
-	https://pharo.fogbugz.com/f/cases/16321
-
-16307 Fix adding Slots to anonymous classes
-	https://pharo.fogbugz.com/f/cases/16307'
+16300  Monticello should not depend on Tool-Diff
+	https://pharo.fogbugz.com/f/cases/16300'

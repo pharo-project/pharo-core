@@ -3,6 +3,6 @@ itemsForDirectory: aFileDirectory
 
 	| services |
 	services := OrderedCollection new.
-	self registeredFileReaderClasses do: [:reader |
-		reader ifNotNil: [services addAll: (reader fileReaderServicesForDirectory: aFileDirectory) ]].
+	(PragmaCollector filter: [ :pragma | pragma keyword = 'directoryService' ]) reset
+		do: [ :each | services addAll: (each methodClass soleInstance perform: each selector with: aFileDirectory) ].
 	^ services

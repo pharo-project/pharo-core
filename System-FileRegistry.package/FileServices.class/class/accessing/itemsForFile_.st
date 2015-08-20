@@ -4,6 +4,11 @@ itemsForFile: fullName
 	| services suffix |
 	suffix := self suffixOf: fullName.
 	services := OrderedCollection new.
-	self registeredFileReaderClasses do: [:reader |
-		reader ifNotNil: [services addAll: (reader fileReaderServicesForFile: fullName suffix: suffix)]].
+	(PragmaCollector filter: [ :pragma | pragma keyword = 'fileService' ]) reset
+		do: [ :each | 
+			services
+				addAll:
+					(each methodClass soleInstance
+						perform: each selector
+						withArguments: {fullName. suffix}) ].
 	^ services
