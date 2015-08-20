@@ -1,6 +1,6 @@
-script50251
+script50252
 
-	^ 'AST-Core-TheIntegrator.357.mcz
+	^ 'AST-Core-TheIntegrator.359.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
 Announcements-Core-TheIntegrator.57.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -27,7 +27,7 @@ BlueInk-Core-TheIntegrator.2.mcz
 BlueInk-Extras-TheIntegrator.6.mcz
 BlueInk-Tests-TheIntegrator.8.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
-CodeExport-TheIntegrator.2.mcz
+CodeExport-TheIntegrator.4.mcz
 CodeImport-TheIntegrator.65.mcz
 Collections-Abstract-TheIntegrator.291.mcz
 Collections-Arithmetic-TheIntegrator.20.mcz
@@ -35,15 +35,15 @@ Collections-Atomic-TheIntegrator.16.mcz
 Collections-Native-TheIntegrator.16.mcz
 Collections-Sequenceable-TheIntegrator.217.mcz
 Collections-Stack-TheIntegrator.10.mcz
-Collections-Streams-TheIntegrator.181.mcz
-Collections-Strings-TheIntegrator.368.mcz
+Collections-Streams-TheIntegrator.184.mcz
+Collections-Strings-TheIntegrator.370.mcz
 Collections-Support-TheIntegrator.65.mcz
 Collections-Tests-TheIntegrator.4.mcz
 Collections-Unordered-TheIntegrator.212.mcz
 Collections-Weak-TheIntegrator.93.mcz
 CollectionsTests-TheIntegrator.709.mcz
 Compiler-TheIntegrator.596.mcz
-Compression-TheIntegrator.158.mcz
+Compression-TheIntegrator.160.mcz
 Compression-Registration-TheIntegrator.3.mcz
 CompressionTests-TheIntegrator.29.mcz
 ConfigurationCommandLineHandler-Core-TheIntegrator.29.mcz
@@ -182,7 +182,7 @@ Morphic-Widgets-Windows-TheIntegrator.59.mcz
 MorphicTests-TheIntegrator.101.mcz
 Multilingual-Encodings-TheIntegrator.50.mcz
 Multilingual-Languages-TheIntegrator.42.mcz
-Multilingual-OtherLanguages-TheIntegrator.17.mcz
+Multilingual-OtherLanguages-TheIntegrator.19.mcz
 Multilingual-Tests-TheIntegrator.43.mcz
 Multilingual-TextConversion-TheIntegrator.75.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
@@ -333,7 +333,7 @@ Tool-Workspace-TheIntegrator.28.mcz
 Tools-TheIntegrator.1506.mcz
 Tools-Test-TheIntegrator.4.mcz
 Traits-TheIntegrator.814.mcz
-Transcript-TheIntegrator.37.mcz
+Transcript-TheIntegrator.39.mcz
 TxText-Athens-NicolaiHess.52.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
 TxText-Model-SeanDeNigris.61.mcz

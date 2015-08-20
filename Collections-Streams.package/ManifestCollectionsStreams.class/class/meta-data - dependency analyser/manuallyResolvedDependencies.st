@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#UIManager #'Text-Core' #Transcript #Traits #'Tool-Transcript' #'System-Support' #'Collections-Abstract' #Jobs)
+	^ #(#UIManager #Transcript #Traits #'Tool-Transcript' #'Collections-Abstract' #Jobs)

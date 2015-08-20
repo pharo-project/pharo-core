@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#'AST-Core' #'OpalCompiler-Core' #'Multilingual-OtherLanguages' #Traits #'System-Support')
+	^ #(#'AST-Core' #'OpalCompiler-Core' #Traits #'System-Support')
