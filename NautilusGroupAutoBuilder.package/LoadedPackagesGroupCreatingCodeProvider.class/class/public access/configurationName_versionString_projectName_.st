@@ -13,7 +13,7 @@ configurationName: configurationName versionString: versionString projectName: p
 	packageNames
 		do:
 			[ :eachName | 
-			(name beginsWith: 'ConfigurationOf')
+			(eachName beginsWith: 'ConfigurationOf')
 				ifFalse:
 					[ 
 					packagesToAddInGroup 

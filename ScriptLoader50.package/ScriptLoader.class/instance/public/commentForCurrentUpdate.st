@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '14789 Nautilus can not browse anonymous classes
-	https://pharo.fogbugz.com/f/cases/14789
+ ^ '16250 Activate new Encoders
+	https://pharo.fogbugz.com/f/cases/16250
 
-16302 Move variable assignment outside of blocks and Rewrite ifTrue:ifFalse: using min:/max: in Rectangle>>#intersect:ifNone:
-	https://pharo.fogbugz.com/f/cases/16302
+16295 Update NautilusGroupAutoBuilder
+	https://pharo.fogbugz.com/f/cases/16295
 
-16261 Monticello window is ridiculously small when opened from the world menu
-	https://pharo.fogbugz.com/f/cases/16261
-
-16291 Remove scary weel of the Komitter
-	https://pharo.fogbugz.com/f/cases/16291'
+16270 Rewrite ifTrue:ifFalse: using min: in Date>>#addMonths:
+	https://pharo.fogbugz.com/f/cases/16270'

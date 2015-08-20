@@ -1,3 +1,6 @@
 onInstallAndCreateGroupFrom: presenter
-	self onInstallFrom: presenter.
-	self createGroupWithLoadedPackagesFrom: presenter
+	self
+		installStableVersion: presenter selection
+		onSuccess: [ 
+			presenter update.
+			self createGroupWithLoadedPackagesFrom: presenter ]
