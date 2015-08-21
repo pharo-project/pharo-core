@@ -1,5 +1,5 @@
 referencesTo: aLiteral in: anEnvironment 
-	| classDict literalPrintString specialFlag specialByte |
+	| classDict literalPrintString |
 	literalPrintString := aLiteral isVariableBinding
 		ifTrue: [ aLiteral key asString ]
 		ifFalse: [
@@ -7,12 +7,9 @@ referencesTo: aLiteral in: anEnvironment
 				ifTrue: [ aLiteral ]
 				ifFalse: [ aLiteral printString ] ].
 	classDict := IdentityDictionary new.
-	specialFlag := Smalltalk
-		hasSpecialSelector: aLiteral
-		ifTrueSetByte: [ :byte | specialByte := byte ].
 	anEnvironment classesDo: [ :class | 
 		| selectors |
-		selectors := (class thoroughWhichSelectorsReferTo: aLiteral special: specialFlag byte: specialByte)
+		selectors := (class thoroughWhichSelectorsReferTo: aLiteral)
 			select: [ :selector | anEnvironment includesSelector: selector in: class ].
 		selectors isEmpty 
 			ifFalse: [ classDict at: class put: selectors asIdentitySet ] ].

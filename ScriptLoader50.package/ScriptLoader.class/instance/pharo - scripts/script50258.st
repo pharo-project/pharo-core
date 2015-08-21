@@ -1,4 +1,4 @@
-script50257
+script50258
 
 	^ 'AST-Core-TheIntegrator.359.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -231,9 +231,9 @@ RPackage-Core-TheIntegrator.410.mcz
 RPackage-Tests-TheIntegrator.175.mcz
 RecentSubmissions-StephaneDucasse.233.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
-Refactoring-Core-TheIntegrator.282.mcz
+Refactoring-Core-TheIntegrator.285.mcz
 Refactoring-Critics-TheIntegrator.198.mcz
-Refactoring-Environment-TheIntegrator.58.mcz
+Refactoring-Environment-TheIntegrator.61.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.127.mcz
 Refactoring-Tests-Critics-TheIntegrator.33.mcz
@@ -253,6 +253,7 @@ Ring-Monticello-TheIntegrator.36.mcz
 Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.85.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
+RingChunkImporter-TheIntegrator.2.mcz
 Rubric-FranckWarlouzet.269.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
@@ -307,7 +308,7 @@ System-Serial Port-StephaneDucasse.23.mcz
 System-Settings-TheIntegrator.319.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.31.mcz
-System-Support-TheIntegrator.1143.mcz
+System-Support-TheIntegrator.1146.mcz
 System-Support-Tests-TheIntegrator.6.mcz
 System-VMEvents-TheIntegrator.8.mcz
 Tests-TheIntegrator.738.mcz
@@ -321,7 +322,7 @@ Tool-Base-TheIntegrator.104.mcz
 Tool-Catalog-TheIntegrator.20.mcz
 Tool-CriticBrowser-TheIntegrator.10.mcz
 Tool-Diff-TheIntegrator.17.mcz
-Tool-ExternalBrowser-TheIntegrator.33.mcz
+Tool-ExternalBrowser-TheIntegrator.34.mcz
 Tool-FileList-TheIntegrator.47.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
 Tool-Finder-TheIntegrator.42.mcz
@@ -334,7 +335,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.30.mcz
 Tools-TheIntegrator.1506.mcz
 Tools-Test-TheIntegrator.4.mcz
-Traits-TheIntegrator.816.mcz
+Traits-TheIntegrator.819.mcz
 Transcript-TheIntegrator.39.mcz
 TxText-Athens-NicolaiHess.52.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

@@ -3,8 +3,9 @@ whichSelectorsReferTo: literal
 literal."
 
 	| special byte |
-	special := Smalltalk hasSpecialSelector: literal ifTrueSetByte: [:b |
-byte := b].
+	special := Smalltalk 
+		hasSpecialSelector: literal 
+		ifTrueSetByte: [:b | byte := b].
 	^self whichSelectorsReferTo: literal special: special byte: byte
 
 	"Rectangle whichSelectorsReferTo: #+."

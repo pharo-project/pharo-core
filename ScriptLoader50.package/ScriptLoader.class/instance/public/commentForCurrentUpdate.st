@@ -1,15 +1,8 @@
 commentForCurrentUpdate
- ^ '16298 get rid of Tool-Base in the bootstrap
-	https://pharo.fogbugz.com/f/cases/16298
+ ^ '16301  Monticello should not depend on Tool-ExternalBrowser
+	https://pharo.fogbugz.com/f/cases/16301
 
-15861 Create test package for Jobs
-	https://pharo.fogbugz.com/f/cases/15861
+16336 reduce senders of #hasSpecialSelector:ifTrueSetByte:
+	https://pharo.fogbugz.com/f/cases/16336
 
-16283 Collections-Abstract should not depend on Graphics-Primitive
-	https://pharo.fogbugz.com/f/cases/16283
-
-16208 System-Support should have a System-Support-Tests
-	https://pharo.fogbugz.com/f/cases/16208
-
-16293 get rid of NativeBoost dependency in the bootstrap
-	https://pharo.fogbugz.com/f/cases/16293'
+'

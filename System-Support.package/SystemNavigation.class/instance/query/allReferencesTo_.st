@@ -4,17 +4,14 @@ allReferencesTo: aLiteral
 	"SystemNavigation new allReferencesTo: #+"
 	"SystemNavigation new allReferencesTo: Point binding"
 	
-	| result special byte symbol |
+	| result symbol |
 	result := OrderedCollection new.
-	special := Smalltalk
-		hasSpecialSelector: aLiteral
-		ifTrueSetByte: [ :value | byte := value ].
 	symbol := aLiteral isSymbol.
 	self allBehaviorsDo: [ :class |
 		| selectors |
 		selectors := symbol
-			ifFalse: [ class whichSelectorsReferTo: aLiteral special: special byte: byte ]
-			ifTrue: [ class thoroughWhichSelectorsReferTo: aLiteral special: special byte: byte ].
+			ifFalse: [ class whichSelectorsReferTo: aLiteral ]
+			ifTrue: [ class thoroughWhichSelectorsReferTo: aLiteral ].
 		selectors do: [ :selector |
 			result addLast: (self createMethodNamed: selector realParent: class) ] ].
 	^ result
