@@ -1,4 +1,4 @@
-script50259
+script50260
 
 	^ 'AST-Core-TheIntegrator.359.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -171,7 +171,7 @@ Morphic-Examples-TheIntegrator.46.mcz
 Morphic-Widgets-Basic-TheIntegrator.55.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
 Morphic-Widgets-Extra-TheIntegrator.24.mcz
-Morphic-Widgets-FastTable-EstebanLorenzano.41.mcz
+Morphic-Widgets-FastTable-EstebanLorenzano.43.mcz
 Morphic-Widgets-List-TheIntegrator.21.mcz
 Morphic-Widgets-NewList-TheIntegrator.7.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.59.mcz
@@ -196,7 +196,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1058.mcz
+Nautilus-EstebanLorenzano.1063.mcz
 Nautilus-GroupManager-TheIntegrator.13.mcz
 Nautilus-GroupManagerUI-TheIntegrator.20.mcz
 Nautilus-Tests-TheIntegrator.23.mcz

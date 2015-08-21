@@ -72,7 +72,7 @@ elementsMenu: aBuilder
 		enabledBlock: [ target enableMethodSingleSelection ].
 		
 	(aBuilder item: #'Versions')
-		keyText: 'b, v' if: Nautilus useOldStyleKeys not;
+		keyText: 'm, v' if: Nautilus useOldStyleKeys not;
 		keyText: 'v' if: Nautilus useOldStyleKeys;
 		action: [ target browseVersions ];
 		order: 1400;
