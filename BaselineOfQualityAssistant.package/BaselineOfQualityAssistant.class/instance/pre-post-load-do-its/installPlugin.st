@@ -1,3 +1,3 @@
 installPlugin
 
-	QualityAssistantPlugin install
+	QANautilusPlugin install

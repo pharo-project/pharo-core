@@ -1,6 +1,8 @@
 testTestInterferenceWithSystemTimingSemaphore
 	| scheduler delay higherPriorityProcess delayExpired |
 	
+	self skip.
+	
 	"Just clarifying how the primitive works.  If our test case methods schedule any delays, 
 	the consenquent call to #primSignal:atMilliseconds: replaces the system timingSemaphore, 
 	preventing it being triggered to expire normal system delays, which would lead totestScheduler 

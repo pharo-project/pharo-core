@@ -1,0 +1,2 @@
+critic: anObject
+	critic := anObject

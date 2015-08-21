@@ -1,2 +1,0 @@
-reportWithoutAsking: aBoolean
-	reportWithoutAsking := aBoolean

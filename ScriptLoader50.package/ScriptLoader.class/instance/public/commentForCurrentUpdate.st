@@ -1,15 +1,9 @@
 commentForCurrentUpdate
- ^ '16338 Property API for TemporaryVariable
-	https://pharo.fogbugz.com/f/cases/16338
+ ^ '16348 Deprecate HelpIcon and HelpIconTest
+	https://pharo.fogbugz.com/f/cases/16348
 
-16344 add basis for links to Temps and Slots
-	https://pharo.fogbugz.com/f/cases/16344
+16351 skip testTestInterferenceWithSystemTimingSemaphore for now
+	https://pharo.fogbugz.com/f/cases/16351
 
-16269 separatorBlock is not read and written in BISimpleFormatter>>#formatSelectorAndArguments:firstSeparator:restSeparator: 
-	https://pharo.fogbugz.com/f/cases/16269
-
-16343 add isEmpty not to RBNotEliminationRule
-	https://pharo.fogbugz.com/f/cases/16343
-
-16342 deprecated #whichSelectorsReferTo:special:byte: and friends
-	https://pharo.fogbugz.com/f/cases/16342'
+16345 Improve the feedback system of QualityAssistant
+	https://pharo.fogbugz.com/f/cases/16345'
