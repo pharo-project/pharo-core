@@ -1,8 +1,3 @@
 commentForCurrentUpdate
- ^ '16301  Monticello should not depend on Tool-ExternalBrowser
-	https://pharo.fogbugz.com/f/cases/16301
-
-16336 reduce senders of #hasSpecialSelector:ifTrueSetByte:
-	https://pharo.fogbugz.com/f/cases/16336
-
-'
+ ^ '16266 Nautilus no longer highlights protocol when method is selected
+	https://pharo.fogbugz.com/f/cases/16266'

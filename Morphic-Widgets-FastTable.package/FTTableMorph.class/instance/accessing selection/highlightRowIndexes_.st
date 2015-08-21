@@ -9,4 +9,8 @@ highlightRowIndexes: anArray
 			^ self ].
 	
 	(self hasSelection and: [ (self isRowIndexVisible: self selectedRowIndex) not  ])
-		ifTrue: [ self moveShowIndexTo: self selectedRowIndex ]
+		ifTrue: [ 
+			self moveShowIndexTo: self selectedRowIndex.
+			^ self ].
+	
+	self refresh.
