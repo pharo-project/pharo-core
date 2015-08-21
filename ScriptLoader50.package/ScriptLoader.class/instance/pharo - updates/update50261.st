@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '16338 Property API for TemporaryVariable
+update50261
+	"self new update50261"
+	self withUpdateLog: '16338 Property API for TemporaryVariable
 	https://pharo.fogbugz.com/f/cases/16338
 
 16344 add basis for links to Temps and Slots
@@ -12,4 +13,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/16343
 
 16342 deprecated #whichSelectorsReferTo:special:byte: and friends
-	https://pharo.fogbugz.com/f/cases/16342'
+	https://pharo.fogbugz.com/f/cases/16342'.
+	self loadTogether: self script50261 merge: false.
+	self flushCaches.

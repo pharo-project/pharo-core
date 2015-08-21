@@ -2,6 +2,7 @@ initialize
 	super initialize.
 	self rewriteRule
 		replace: '``@object not not' with: '``@object';
+		replace: '``@object isEmpty not' with: '``@object isNotEmpty';
 		replace: '``@object not ifTrue: ``@block' with: '``@object ifFalse: ``@block';
 		replace: '``@object not ifFalse: ``@block' with: '``@object ifTrue: ``@block';
 		replace: '``@collection select: [:`each | | `@temps | ``@.Statements. ``@object not]'

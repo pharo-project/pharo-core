@@ -1,6 +1,6 @@
-script50260
+script50261
 
-	^ 'AST-Core-TheIntegrator.359.mcz
+	^ 'AST-Core-TheIntegrator.361.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
 Announcements-Core-TheIntegrator.57.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -52,7 +52,7 @@ Debugger-Tests-TheIntegrator.2.mcz
 DebuggerActions-StephaneDucasse.76.mcz
 DebuggerFilters-TheIntegrator.9.mcz
 DebuggerModel-TheIntegrator.112.mcz
-Deprecated50-TheIntegrator.13.mcz
+Deprecated50-TheIntegrator.16.mcz
 EmbeddedFreeType-TheIntegrator.24.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-MarcusDenker.32.mcz
@@ -232,13 +232,13 @@ RPackage-Tests-TheIntegrator.175.mcz
 RecentSubmissions-StephaneDucasse.233.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.285.mcz
-Refactoring-Critics-TheIntegrator.198.mcz
+Refactoring-Critics-TheIntegrator.200.mcz
 Refactoring-Environment-TheIntegrator.61.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.127.mcz
 Refactoring-Tests-Critics-TheIntegrator.33.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.137.mcz
+Reflectivity-TheIntegrator.139.mcz
 Reflectivity-Examples-TheIntegrator.2.mcz
 Reflectivity-Tests-TheIntegrator.107.mcz
 Regex-Core-TheIntegrator.36.mcz
@@ -271,8 +271,8 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.271.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.662.mcz
-Slot-Tests-TheIntegrator.53.mcz
+Slot-TheIntegrator.664.mcz
+Slot-Tests-TheIntegrator.55.mcz
 SmartSuggestions-TheIntegrator.176.mcz
 SmartSuggestions-Tests-TheIntegrator.10.mcz
 Spec-Core-TheIntegrator.417.mcz
@@ -325,7 +325,7 @@ Tool-Diff-TheIntegrator.17.mcz
 Tool-ExternalBrowser-TheIntegrator.34.mcz
 Tool-FileList-TheIntegrator.47.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
-Tool-Finder-TheIntegrator.42.mcz
+Tool-Finder-TheIntegrator.44.mcz
 Tool-ImageCleaner-TheIntegrator.10.mcz
 Tool-ProcessBrowser-TheIntegrator.10.mcz
 Tool-Profilers-TheIntegrator.19.mcz
@@ -335,7 +335,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.30.mcz
 Tools-TheIntegrator.1506.mcz
 Tools-Test-TheIntegrator.4.mcz
-Traits-TheIntegrator.819.mcz
+Traits-TheIntegrator.821.mcz
 Transcript-TheIntegrator.39.mcz
 TxText-Athens-NicolaiHess.52.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

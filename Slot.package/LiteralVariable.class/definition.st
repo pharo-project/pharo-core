@@ -2,4 +2,4 @@ Association subclass: #LiteralVariable
 	instanceVariableNames: ''
 	classVariableNames: 'Properties'
 	poolDictionaries: ''
-	category: 'Slot-Scope'
+	category: 'Slot-Variables'

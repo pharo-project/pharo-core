@@ -1,5 +1,5 @@
 Object subclass: #TemporaryVariable
 	instanceVariableNames: 'name'
-	classVariableNames: ''
+	classVariableNames: 'Properties'
 	poolDictionaries: ''
-	category: 'Slot-Scope'
+	category: 'Slot-Variables'

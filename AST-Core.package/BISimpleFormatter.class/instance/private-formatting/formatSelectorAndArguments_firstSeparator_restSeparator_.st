@@ -1,6 +1,4 @@
 formatSelectorAndArguments: aMessageNode firstSeparator: firstBlock restSeparator: restBlock
-	| separatorBlock |
-	separatorBlock := firstBlock.
 	aMessageNode isUnary
 		ifTrue: [ 
 			self space.
@@ -10,7 +8,6 @@ formatSelectorAndArguments: aMessageNode firstSeparator: firstBlock restSeparato
 				with: aMessageNode arguments
 				do: [ :selector :argument | 
 					self space.
-					separatorBlock := restBlock.
 					self
 						indentAround: [ 
 							codeStream nextPutAll: selector.

@@ -2,10 +2,15 @@ whichSelectorsReferTo: literal
 	"Answer a Set of selectors whose methods access the argument as a
 literal."
 
-	| special byte |
+	| selectors special byte |
+	
 	special := Smalltalk 
 		hasSpecialSelector: literal 
 		ifTrueSetByte: [:b | byte := b].
-	^self whichSelectorsReferTo: literal special: special byte: byte
+	selectors := IdentitySet new.
+	self selectorsAndMethodsDo: 
+		[:sel :method | ((method hasLiteral: literal) or: [special and: [method scanFor: byte]])
+						ifTrue: [selectors add: sel]].
+	^selectors
 
 	"Rectangle whichSelectorsReferTo: #+."

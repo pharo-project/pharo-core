@@ -4,11 +4,7 @@ thoroughHasSelectorReferringTo: literal
 	thorough "
 
 	| specialFlag specialByte |
-	specialFlag := Smalltalk 
-				hasSpecialSelector: literal
-				ifTrueSetByte: [ :b | specialByte := b ].
-				
-	self methodsDo: [ :method |
-		((method hasLiteralThorough: literal) or: [specialFlag and: [method scanFor: specialByte]])
-			ifTrue: [^true]].
-	^false
+	specialFlag := Smalltalk hasSpecialSelector: literal ifTrueSetByte: [ :b | specialByte := b ].			
+	^self methods anySatisfy: [ :method | 
+		((method hasLiteralThorough: literal) or: [specialFlag and: [method scanFor: specialByte]])]
+		

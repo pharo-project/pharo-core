@@ -2,4 +2,4 @@ LiteralVariable subclass: #ClassVariable
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Slot-Scope'
+	category: 'Slot-Variables'

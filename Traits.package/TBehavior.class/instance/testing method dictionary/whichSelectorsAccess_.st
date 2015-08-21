@@ -3,7 +3,7 @@ whichSelectorsAccess: instVarName
 	instVarName, as a named instance variable."
 
 	| instVarIndex |
-	instVarIndex := self instVarIndexFor: instVarName ifAbsent: [^IdentitySet new].
+	instVarIndex := self instVarIndexFor: instVarName ifAbsent: [^#()].
 	^ self selectors select:  [:sel | 
 		((self compiledMethodAt: sel)
 			readsField: instVarIndex)

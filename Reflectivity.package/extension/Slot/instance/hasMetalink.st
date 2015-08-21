@@ -1,0 +1,2 @@
+hasMetalink
+	^ self hasProperty: #links
