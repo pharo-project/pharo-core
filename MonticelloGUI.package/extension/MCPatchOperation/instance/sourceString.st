@@ -1,2 +1,0 @@
-sourceString
-	^self sourceText asString
