@@ -2,5 +2,7 @@ on: aModel text: aGetTextSelector accept: aSetTextSelector readSelection: aReadS
 	self getTextSelector: aGetTextSelector.
 	self setTextSelector: aSetTextSelector.
 	self getSelectionSelector: aReadSelectionSelector.
-	aGetMenuSelector ifNotNil: [ self menuProvider: aModel selector: aGetMenuSelector ].
+	aGetMenuSelector
+		ifNil: [ self textArea forbidMenu ]
+		ifNotNil: [ self menuProvider: aModel selector: aGetMenuSelector ].
 	self on: aModel

@@ -1,0 +1,2 @@
+startpc: anObject
+	startpc := anObject

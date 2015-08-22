@@ -1,9 +1,9 @@
 newScrolledText
 	| st |
-	st := (RubTextFieldMorph
-		on: self)
+	st := (RubTextFieldMorph on: self)
 		withAdornment;
 		withGhostText: 'Input field bla bla bla bla bla bla';
 		yourself.
 	st width: 300.
-	^st
+	st textArea forbidMenu.
+	^ st

@@ -1,8 +1,2 @@
 textModel
-	^ textModel
-		ifNil: [ 
-			textModel := RubScrolledTextModel
-				new;
-				beForSmalltalkCode;
-				interactionModel: self;
-				yourself ]
+	^ textModel ifNil: [ textModel := RubScrolledTextModel new interactionModel: self ]

@@ -1,5 +1,5 @@
 Object subclass: #TemporaryVariable
-	instanceVariableNames: 'name'
-	classVariableNames: 'Properties'
+	instanceVariableNames: 'name method startpc'
+	classVariableNames: 'PersistentTemps Properties'
 	poolDictionaries: ''
 	category: 'Slot-Variables'

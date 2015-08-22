@@ -4,4 +4,6 @@ initialize
 		ifNotNil: [ | newDict | 
 			newDict := WeakIdentityKeyDictionary newFrom: Properties.
 			newDict rehash.
-			Properties := newDict ]
+			Properties := newDict ].
+	PersistentTemps ifNil: [ PersistentTemps := Set new]
+		

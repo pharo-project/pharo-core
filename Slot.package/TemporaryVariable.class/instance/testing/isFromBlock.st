@@ -1,0 +1,2 @@
+isFromBlock
+	^startpc isNotNil
