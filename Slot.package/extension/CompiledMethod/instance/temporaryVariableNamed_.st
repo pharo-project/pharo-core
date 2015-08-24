@@ -1,3 +1,6 @@
 temporaryVariableNamed: aName
 	(self hasTemporaryVariableNamed: aName) ifFalse: [ ^nil ].
-	^TemporaryVariable new name: aName
+	^TemporaryVariable 
+		name: aName 
+		method: self 
+

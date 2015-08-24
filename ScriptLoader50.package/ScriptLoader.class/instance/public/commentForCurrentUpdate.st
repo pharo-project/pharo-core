@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16352 some RubExamples dont work anymore
-	https://pharo.fogbugz.com/f/cases/16352
+ ^ '16175 WorldMorph ctrl+shift+click menu allows for some bad choices
+	https://pharo.fogbugz.com/f/cases/16175
 
-16285 Files should not depend on Graphics-Primitives
-	https://pharo.fogbugz.com/f/cases/16285
+16356 Persistent properties on Temps
+	https://pharo.fogbugz.com/f/cases/16356
 
-16353 TemporyVariable: pointer to method and block startpc
-	https://pharo.fogbugz.com/f/cases/16353'
+16346 Add Object>>displayString 
+	https://pharo.fogbugz.com/f/cases/16346'
