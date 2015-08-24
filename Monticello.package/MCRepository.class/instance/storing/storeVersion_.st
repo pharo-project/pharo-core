@@ -1,4 +1,3 @@
 storeVersion: aVersion
-	self basicStoreVersion: aVersion.
-	SystemAnnouncer uniqueInstance 
-		announce: (MCVersionSaved version: aVersion repository: self).
+	self retryOnCredentialRequest: [ self basicStoreVersion: aVersion ].
+	SystemAnnouncer uniqueInstance announce: (MCVersionSaved version: aVersion repository: self)

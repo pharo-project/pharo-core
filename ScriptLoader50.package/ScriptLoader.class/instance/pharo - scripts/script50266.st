@@ -1,4 +1,4 @@
-script50265
+script50266
 
 	^ 'AST-Core-TheIntegrator.361.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -23,7 +23,7 @@ Balloon-TheIntegrator.123.mcz
 BalloonTests-MarcusDenker.3.mcz
 BaselineOfQualityAssistant-YuriyTymchuk.11.mcz
 BaselineOfRenraku-YuriyTymchuk.4.mcz
-BlueInk-Core-TheIntegrator.2.mcz
+BlueInk-Core-TheIntegrator.4.mcz
 BlueInk-Extras-TheIntegrator.6.mcz
 BlueInk-Tests-TheIntegrator.8.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
@@ -156,7 +156,7 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-TheIntegrator.1066.mcz
+Monticello-TheIntegrator.1068.mcz
 Monticello-OldDataStreamCompatibility-TheIntegrator.4.mcz
 Monticello-Tests-TheIntegrator.26.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
@@ -271,8 +271,8 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.271.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.669.mcz
-Slot-Tests-TheIntegrator.58.mcz
+Slot-TheIntegrator.671.mcz
+Slot-Tests-TheIntegrator.60.mcz
 SmartSuggestions-TheIntegrator.176.mcz
 SmartSuggestions-Tests-TheIntegrator.10.mcz
 Spec-Core-TheIntegrator.417.mcz

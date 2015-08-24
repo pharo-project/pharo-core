@@ -1,7 +1,6 @@
 testPropertyContextPersistent
 
 	| testValue temp temp2 |
-			self skip.
 	testValue := Date today.
 	temp := thisContext temporaryVariableNamed: #temp.
 	

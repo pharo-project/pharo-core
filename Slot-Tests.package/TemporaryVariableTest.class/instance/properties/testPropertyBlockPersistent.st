@@ -1,7 +1,6 @@
 testPropertyBlockPersistent
 
 	| testValue temp temp2 block |
-		self skip.
 	testValue := Date today.
 	block := [ |t| t:=2].
 	temp := block temporaryVariableNamed: #t.
