@@ -2,4 +2,4 @@ hash
 
 	^ (name hash
 		bitXor: method hash)
-		bitXor: startpc
+		bitXor: (startpc ifNil: 0)

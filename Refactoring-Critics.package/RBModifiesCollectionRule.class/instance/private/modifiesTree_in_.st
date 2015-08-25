@@ -6,7 +6,7 @@ modifiesTree: aCollectionTree in: aParseTree
 		matchesAnyTreeOf: (#(add: addAll: remove: removeAll:) collect: 
 					[:each | 
 					RBMessageNode 
-						receiver: aCollectionTree
+						receiver: aCollectionTree copy
 						selector: each
 						arguments: args])
 		do: [:aNode :answer | true].

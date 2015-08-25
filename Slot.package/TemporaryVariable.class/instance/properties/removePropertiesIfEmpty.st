@@ -1,3 +1,5 @@
 removePropertiesIfEmpty
 	^ Properties at: self ifPresent: [ :dict |
-		dict ifEmpty: [ Properties removeKey: self ] ]
+		dict ifEmpty: [ 
+			method removeSavedTemp: self.
+			Properties removeKey: self ] ]

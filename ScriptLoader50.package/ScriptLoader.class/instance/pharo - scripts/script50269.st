@@ -1,4 +1,4 @@
-script50268
+script50269
 
 	^ 'AST-Core-TheIntegrator.361.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -229,10 +229,10 @@ ProfStef-Tests-TheIntegrator.27.mcz
 QualityAssistant-YuriyTymchuk.66.mcz
 RPackage-Core-TheIntegrator.410.mcz
 RPackage-Tests-TheIntegrator.175.mcz
-RecentSubmissions-StephaneDucasse.233.mcz
+RecentSubmissions-TheIntegrator.235.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.285.mcz
-Refactoring-Critics-TheIntegrator.200.mcz
+Refactoring-Critics-TheIntegrator.202.mcz
 Refactoring-Environment-TheIntegrator.61.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.127.mcz
@@ -271,7 +271,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.271.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.671.mcz
+Slot-TheIntegrator.673.mcz
 Slot-Tests-TheIntegrator.60.mcz
 SmartSuggestions-TheIntegrator.176.mcz
 SmartSuggestions-Tests-TheIntegrator.10.mcz
@@ -284,7 +284,7 @@ Spec-Layout-TheIntegrator.69.mcz
 Spec-MorphicAdapters-TheIntegrator.229.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz
 Spec-Tests-TheIntegrator.51.mcz
-Spec-Tools-TheIntegrator.280.mcz
+Spec-Tools-TheIntegrator.282.mcz
 StartupPreferences-TheIntegrator.139.mcz
 System-Announcements-TheIntegrator.104.mcz
 System-Caching-TheIntegrator.26.mcz
