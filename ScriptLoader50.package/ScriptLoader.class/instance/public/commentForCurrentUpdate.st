@@ -1,12 +1,11 @@
 commentForCurrentUpdate
- ^ '16131 RBModifiesCollectionRule breaks methods AST when checking
-	https://pharo.fogbugz.com/f/cases/16131
+ ^ '16367 #hasLiteralThorough: should not check for names of Binding
+	https://pharo.fogbugz.com/f/cases/16367
 
-16363 Context menu in Recent Messages broken when empty
-	https://pharo.fogbugz.com/f/cases/16363
+16189  System-Sources has low-level dependents
+	https://pharo.fogbugz.com/f/cases/16189
 
-16365 Make properties on TemporaryVariable persistent
-	https://pharo.fogbugz.com/f/cases/16365
+16375 More tests for instead links
+	https://pharo.fogbugz.com/f/cases/16375
 
-16364 Typo in Recent message browser title
-	https://pharo.fogbugz.com/f/cases/16364'
+'

@@ -1,4 +1,4 @@
-testReplaceSend
+testInsteadSend
 	| sendNode link instance|
 	sendNode := (ReflectivityExamples>>#exampleMethod) sendNodes first.
 	link := MetaLink new 

@@ -1,4 +1,4 @@
-testReplaceVariableReadIvar
+testInsteadVariableReadIvar
 	| varNode link instance|
 	varNode := (ReflectivityExamples>>#exampleIvarRead) variableReadNodes first.
 	link := MetaLink new 

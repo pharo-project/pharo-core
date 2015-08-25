@@ -1,3 +1,6 @@
 visitLiteralArrayNode: aRBLiteralArrayNode 
 	self emitMetaLinkBefore: aRBLiteralArrayNode.
-	methodBuilder pushLiteral: aRBLiteralArrayNode value.
+	aRBLiteralArrayNode hasMetalinkInstead
+		ifTrue: [ self emitMetaLinkInstead: aRBLiteralArrayNode ]
+		ifFalse: [ methodBuilder pushLiteral: aRBLiteralArrayNode value ]
+	

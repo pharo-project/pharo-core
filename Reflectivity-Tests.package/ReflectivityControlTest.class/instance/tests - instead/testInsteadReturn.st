@@ -1,4 +1,4 @@
-testReplaceReturn
+testInsteadReturn
 	| returnNode link instance|
 	self skip. "seems to crash the VM sometimes"
 	returnNode := (ReflectivityExamples>>#exampleMethod) ast statements first.

@@ -1,3 +1,6 @@
 visitLiteralNode: aLiteralNode
 	self emitMetaLinkBefore: aLiteralNode.
-	methodBuilder pushLiteral: aLiteralNode value.
+	aLiteralNode hasMetalinkInstead
+		ifTrue: [ self emitMetaLinkInstead: aLiteralNode ]
+		ifFalse: [ methodBuilder pushLiteral: aLiteralNode value ]
+	

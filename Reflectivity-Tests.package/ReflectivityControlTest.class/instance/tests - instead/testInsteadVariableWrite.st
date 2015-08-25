@@ -1,14 +1,14 @@
-testReplaceVariableReadTemp
+testInsteadVariableWrite
 	| varNode link instance|
-	varNode := (ReflectivityExamples>>#exampleAssignment) variableReadNodes first.
+	varNode := (ReflectivityExamples>>#exampleAssignment) variableWriteNodes first.
 	link := MetaLink new 
 		metaObject: #context; 
-		selector: #tempNamed:;
+		selector: #tempNamed:put:;
 		control: #instead;
-		arguments: #(name).
+		arguments: #(name newValue).
 	varNode link: link.
 	self assert: varNode hasMetalink.
 	self assert: (ReflectivityExamples>>#exampleAssignment) class = ReflectiveMethod.
 	instance := ReflectivityExamples new.
-	self assert: (instance exampleAssignment value = 3).
+	self assert: (instance exampleAssignment = 3).
 	link uninstall. 

@@ -1,4 +1,4 @@
-testReplaceVariableReadGlobal
+testInsteadVariableReadGlobal
 	| varNode link instance|
 	varNode := (ReflectivityExamples>>#exampleGlobalRead) variableReadNodes first.
 	link := MetaLink new 

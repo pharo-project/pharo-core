@@ -1,4 +1,4 @@
-testReplaceAssign
+testInsteadAssign
 	| assignmentNode link instance|
 	assignmentNode := (ReflectivityExamples>>#exampleAssignment)  assignmentNodes first.
 	link := MetaLink new 

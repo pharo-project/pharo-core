@@ -7,7 +7,6 @@ hasLiteralThorough: literal
 	2 to: self numLiterals - 1 "exclude superclass + selector/properties"
 	   do:[:index | | lit |
 		(((lit := self objectAt: index) literalEqual: literal)
-		 or: [(lit isVariableBinding and: [lit key == literal])
-		 or: [lit isArray and: [lit hasLiteral: literal]]]) ifTrue:
+		 or: [lit isArray and: [lit hasLiteral: literal]]) ifTrue:
 			[^ true]].
 	^ false 

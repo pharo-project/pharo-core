@@ -1,0 +1,14 @@
+testInsteadLiteralArray
+	| literalArray link |
+	literalArray := (ReflectivityExamples >> #exampleLiteralArray) ast statements first value.
+	link := MetaLink new
+		metaObject: self;
+		control: #instead;
+		selector: #return3.
+	literalArray link: link.
+	self assert: literalArray hasMetalinkInstead.
+	self assert: (ReflectivityExamples >> #exampleLiteralArray) class = ReflectiveMethod.
+	self assert: ReflectivityExamples new exampleLiteralArray = 3.
+	self assert: (ReflectivityExamples >> #exampleLiteralArray) class = CompiledMethod.
+	self deny: (ReflectivityExamples >> #exampleLiteralArray) isQuick.
+	link uninstall
