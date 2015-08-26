@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '16385 Clean a lot of dead code and unused class variables in Nautilus
+update50271
+	"self new update50271"
+	self withUpdateLog: '16385 Clean a lot of dead code and unused class variables in Nautilus
 	https://pharo.fogbugz.com/f/cases/16385
 
 16382 Remove PluggableTextMorph reference in SyntaxErrorDebugger
@@ -9,4 +10,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/16378
 
 16190 UIManager should not depends on Polymorph-Widgets
-	https://pharo.fogbugz.com/f/cases/16190'
+	https://pharo.fogbugz.com/f/cases/16190'.
+	self loadTogether: self script50271 merge: false.
+	self flushCaches.

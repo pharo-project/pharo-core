@@ -1,2 +1,2 @@
 resetGroups 
-	groups := nil.
+	groups := nil

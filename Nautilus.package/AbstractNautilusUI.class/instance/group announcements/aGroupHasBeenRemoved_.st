@@ -3,7 +3,6 @@ aGroupHasBeenRemoved: anAnnouncement
 
 	window ifNil: [ ^ self ].
 	window isDisplayed ifFalse: [^ self ].
-	self groupsAreVisible ifFalse: [ ^ self ].
 	(self groupsManager =  anAnnouncement holder)
 		ifTrue: [ 
 			self selectedGroup = anAnnouncement group

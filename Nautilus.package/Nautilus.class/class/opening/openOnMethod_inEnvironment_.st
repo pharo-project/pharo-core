@@ -12,6 +12,6 @@ openOnMethod: aMethod inEnvironment: anEnvironment
 		open.
 	instance ui
 		useLastPackagePatternStringForClass: class;
-		showHierarchy: self switchClassesAndPackages;
+		showHierarchy: false;
 		giveFocusToMethod.
 	^ instance

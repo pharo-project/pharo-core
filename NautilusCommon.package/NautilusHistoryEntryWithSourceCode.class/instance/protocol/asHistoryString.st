@@ -1,3 +1,0 @@
-asHistoryString
-	
-	^ '*', super asHistoryString

@@ -1,17 +1,8 @@
 initializeLatelyPresenter
-	
-	tree whenHighlightedItemChanged: [ :node || item |
-		item := node 
-			ifNil: [ nil ]
-			ifNotNil: [ node content ].
-		diff
-			leftText: (self leftTextFor: item);
-			rightText: (self rightTextFor: item).
-		(item isNil or: [ item added ])
-			ifTrue: [ diff showOnlyDestination: true ]
-			ifFalse: [
-		( item removed or: [ item isPackage or: [ (item isKomitClass and: [ item isDirty not ]) ] ] )
-			ifTrue: [ diff showOnlySource: true ]
-			ifFalse: [ diff showBoth ] ] ].
-	
+	tree
+		whenHighlightedItemChanged:
+			[ :node | 
+			| item |
+			item := node ifNil: [ nil ] ifNotNil: [ node content ].
+			self refreshDiffForItem: item ].
 	tree whenSelectedItemsChanged: [ self updateRemotes ]

@@ -11,6 +11,6 @@ openOnClass: aClass inEnvironment: anEnvironment
 		open.
 	instance ui
 		useLastPackagePatternStringForClass: aClass;
-		showHierarchy: self switchClassesAndPackages;
+		showHierarchy: false;
 		giveFocusToProtocol.
 	^ instance

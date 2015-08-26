@@ -2,12 +2,12 @@ styleTableRow
 	| allStyles |
 	
 	allStyles := Pragma  allNamed: #styleTable: in: SHTextStylerST80 class.
-	^UIManager default theme 
+	^Smalltalk ui theme 
 		newRowIn: World 
 		for: (
-			{ UIManager default theme buttonLabelForText: 'Predefined styles: ' translated }, 
+			{ Smalltalk ui theme buttonLabelForText: 'Predefined styles: ' translated }, 
 			(allStyles collect: [ :eachPragma | 
-				(UIManager default theme 
+				(Smalltalk ui theme 
 					newButtonIn: World 
 						for:  self
 						getState: nil 

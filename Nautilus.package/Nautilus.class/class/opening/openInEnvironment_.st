@@ -7,5 +7,5 @@ openInEnvironment: anEnvironment
 		open.
 	instance ui 
 		useLastPackagePatternString;
-		showHierarchy: self switchClassesAndPackages.
+		showHierarchy: false.
 	^ instance

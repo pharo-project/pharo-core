@@ -1,26 +1,26 @@
 buildMorphicViewOn: aSyntaxError
 	"Answer an Morphic view on the given SyntaxError."
+
 	| window |
-	window := (SystemWindow labelled: 'Syntax Error: ', aSyntaxError error) model: aSyntaxError.
-
-	window addMorph: (
-			(PluggableListMorph 
-				on: aSyntaxError 
+	window := (SystemWindow labelled: 'Syntax Error: ' , aSyntaxError error)
+		model: aSyntaxError.
+	window
+		addMorph:
+			((PluggableListMorph
+				on: aSyntaxError
 				list: #list
-				selected: #listIndex 
-				changeSelected: nil 
-				menu: #listMenu:)
-				doubleClickSelector: #listDoubleClick)
-		frame: (0@0 corner: 1@0.15).
-
-	window addMorph: 
-			(PluggableTextMorph 
-				on: aSyntaxError 
+				selected: #listIndex
+				changeSelected: nil
+				menu: #listMenu:) doubleClickSelector: #listDoubleClick)
+		frame: (0 @ 0 corner: 1 @ 0.15).
+	window
+		addMorph:
+			(RubPluggableTextMorph
+				on: aSyntaxError
 				text: #contents
-				accept: #contents:notifying: 
+				accept: #contents:notifying:
 				readSelection: #contentsSelection
 				menu: #codePaneMenu:shifted:)
-		frame: (0@0.15 corner: 1@1).
-
+		frame: (0 @ 0.15 corner: 1 @ 1).
 	aSyntaxError addDependant: window.
-	^ window openInWorldExtent: 380@220
+	^ window openInWorldExtent: 380 @ 220

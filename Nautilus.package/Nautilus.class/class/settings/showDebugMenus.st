@@ -1,2 +1,0 @@
-showDebugMenus
-	^ShowDebugMenus ifNil: [ false ]

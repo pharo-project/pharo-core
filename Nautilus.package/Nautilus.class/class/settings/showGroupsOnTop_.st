@@ -1,2 +1,0 @@
-showGroupsOnTop: aBoolean
-	ShowGroupsOnTop := aBoolean
