@@ -1,6 +1,5 @@
 value: code
 
-	| l |
 	code < 256 ifTrue: [^ Character value: code].
-	l := Locale currentPlatform languageEnvironment leadingChar.
-	^ Character leadingChar: l code: code.
+	"Old code. LeadingChar should from now on be always 0, so we can remove it afterwards"
+	^ Character leadingChar: 0 code: code

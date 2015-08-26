@@ -1,4 +1,4 @@
-script50274
+script50275
 
 	^ 'AST-Core-TheIntegrator.361.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -30,7 +30,7 @@ Chroma-CubeHelix-TheIntegrator.2.mcz
 CodeExport-TheIntegrator.8.mcz
 CodeImport-EstebanLorenzano.69.mcz
 CodeImportCommandLineHandlers-EstebanLorenzano.2.mcz
-Collections-Abstract-TheIntegrator.294.mcz
+Collections-Abstract-TheIntegrator.296.mcz
 Collections-Arithmetic-TheIntegrator.20.mcz
 Collections-Atomic-TheIntegrator.16.mcz
 Collections-Native-TheIntegrator.19.mcz
@@ -53,7 +53,7 @@ Debugger-Tests-TheIntegrator.2.mcz
 DebuggerActions-StephaneDucasse.76.mcz
 DebuggerFilters-TheIntegrator.9.mcz
 DebuggerModel-TheIntegrator.112.mcz
-Deprecated50-TheIntegrator.18.mcz
+Deprecated50-TheIntegrator.19.mcz
 EmbeddedFreeType-TheIntegrator.24.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-MarcusDenker.32.mcz
@@ -64,7 +64,7 @@ FileSystem-Tests-Core-TheIntegrator.93.mcz
 FileSystem-Tests-Disk-StephaneDucasse.25.mcz
 FileSystem-Tests-Memory-TheIntegrator.8.mcz
 FileSystem-Zip-TheIntegrator.19.mcz
-Files-TheIntegrator.401.mcz
+Files-TheIntegrator.402.mcz
 Files-Tests-TheIntegrator.12.mcz
 Flashback-Decompiler-TheIntegrator.15.mcz
 Flashback-Decompiler-Tests-TheIntegrator.97.mcz
@@ -182,7 +182,7 @@ Morphic-Widgets-Taskbar-TheIntegrator.11.mcz
 Morphic-Widgets-Tree-TheIntegrator.33.mcz
 Morphic-Widgets-Windows-TheIntegrator.59.mcz
 MorphicTests-TheIntegrator.101.mcz
-Multilingual-Encodings-TheIntegrator.54.mcz
+Multilingual-Encodings-TheIntegrator.55.mcz
 Multilingual-Languages-TheIntegrator.42.mcz
 Multilingual-OtherLanguages-TheIntegrator.19.mcz
 Multilingual-Tests-TheIntegrator.46.mcz
@@ -255,7 +255,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.85.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.2.mcz
-Rubric-FranckWarlouzet.270.mcz
+Rubric-FranckWarlouzet.271.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
 SUnit-Core-TheIntegrator.152.mcz
@@ -300,8 +300,8 @@ System-Hashing-StephaneDucasse.45.mcz
 System-History-EstebanLorenzano.7.mcz
 System-History-Tests-EstebanLorenzano.3.mcz
 System-Installers-TheIntegrator.44.mcz
-System-Localization-TheIntegrator.91.mcz
-System-Localization-Tests-TheIntegrator.5.mcz
+System-Localization-TheIntegrator.94.mcz
+System-Localization-Tests-TheIntegrator.8.mcz
 System-OSEnvironments-TheIntegrator.2.mcz
 System-Object Events-TheIntegrator.25.mcz
 System-Platforms-TheIntegrator.73.mcz
