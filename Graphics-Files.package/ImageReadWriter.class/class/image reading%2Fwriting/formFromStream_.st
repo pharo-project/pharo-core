@@ -3,7 +3,6 @@ formFromStream: aBinaryStream
 	| reader readerClass form |
 	readerClass := self readerClassFromStream: aBinaryStream.
 	reader := readerClass new on: aBinaryStream.
-	Cursor read showWhile: 
-		[ form := reader nextImage.
-		reader close ].
+	form := reader nextImage.
+	reader close.
 	^ form
