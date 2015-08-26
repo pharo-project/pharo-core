@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '16379 Cleanup Locale API
-	https://pharo.fogbugz.com/f/cases/16379
+ ^ '16289 Get rid of System-Localization dependency from the bootstrap
+	https://pharo.fogbugz.com/f/cases/16289
 
-16282 Bootstrap should not depend on Graphics
-	https://pharo.fogbugz.com/f/cases/16282
-
-16337 The cleaning of File servicies broke some applications
-	https://pharo.fogbugz.com/f/cases/16337'
+16188 System-Changes has low-level dependents
+	https://pharo.fogbugz.com/f/cases/16188'

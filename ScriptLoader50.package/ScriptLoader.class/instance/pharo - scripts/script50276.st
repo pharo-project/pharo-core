@@ -1,4 +1,4 @@
-script50275
+script50276
 
 	^ 'AST-Core-TheIntegrator.361.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -248,6 +248,7 @@ Regex-Tests-Core-MarcusDenker.9.mcz
 ReleaseTests-TheIntegrator.15.mcz
 Renraku-YuriyTymchuk.72.mcz
 Renraku-Test-YuriyTymchuk.15.mcz
+Ring-ChangesExtensions-TheIntegrator.1.mcz
 Ring-Core-Containers-TheIntegrator.41.mcz
 Ring-Core-Kernel-TheIntegrator.226.mcz
 Ring-Monticello-TheIntegrator.38.mcz
