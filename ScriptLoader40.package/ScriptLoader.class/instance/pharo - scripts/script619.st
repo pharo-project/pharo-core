@@ -1,4 +1,4 @@
-script618
+script619
 
 	^ 'AST-Core-TheIntegrator.286.mcz
 AST-Tests-Core-TheIntegrator.65.mcz
@@ -207,7 +207,7 @@ Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-MarcusDenker.40.mcz
 Polymorph-Widgets-TheIntegrator.1211.mcz
 PragmaCollector-TheIntegrator.3.mcz
-ProfStef-Core-TheIntegrator.57.mcz
+ProfStef-Core-TheIntegrator.60.mcz
 ProfStef-Help-SvenVanCaekenberghe.14.mcz
 ProfStef-Tests-TheIntegrator.25.mcz
 RPackage-Core-TheIntegrator.383.mcz
@@ -216,7 +216,7 @@ RPackage-Tests-TheIntegrator.167.mcz
 RecentSubmissions-StephaneDucasse.233.mcz
 Refactoring-Changes-TheIntegrator.65.mcz
 Refactoring-Core-TheIntegrator.272.mcz
-Refactoring-Critics-TheIntegrator.162.mcz
+Refactoring-Critics-TheIntegrator.165.mcz
 Refactoring-Environment-TheIntegrator.49.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.123.mcz
