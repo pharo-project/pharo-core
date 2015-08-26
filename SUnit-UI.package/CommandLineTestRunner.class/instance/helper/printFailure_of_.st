@@ -1,5 +1,5 @@
 printFailure: anError of: aTestCase 
-	self stderr red.
+	self stderr yellow.
 	self
 		print: anError printString 
 		short: ' [FAIL]' 

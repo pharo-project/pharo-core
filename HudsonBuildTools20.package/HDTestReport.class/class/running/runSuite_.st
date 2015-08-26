@@ -1,5 +1,5 @@
 runSuite: aTestSuite
-	^ self new 
+	^ self new
 		initializeOn: aTestSuite; 
 		run;
 		done

@@ -1,2 +1,2 @@
 runPackages: aCollectionOfStrings
-	^ aCollectionOfStrings do: [ :each | self runPackage: each ]
+	^ aCollectionOfStrings collect: [ :each | self runPackage: each ]
