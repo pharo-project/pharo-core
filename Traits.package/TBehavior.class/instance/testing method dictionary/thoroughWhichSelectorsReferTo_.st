@@ -3,10 +3,11 @@ thoroughWhichSelectorsReferTo: literal
 	literal. Dives into the compact literal notation, making it slow but 
 	thorough "
 	| selectors special byte |
+	"for speed we check the special selectors here once per class"
 	special := Smalltalk
 		hasSpecialSelector: literal
 		ifTrueSetByte: [ :value | byte := value ].
-	selectors := IdentitySet new.
+	selectors := OrderedCollection new.
 	self selectorsAndMethodsDo: [ :sel :method |
 			((method refersToLiteral: literal) or: [special and: [method scanFor: byte]]) ifTrue: [selectors add: sel]].
 	^ selectors
