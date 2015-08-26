@@ -1,2 +1,4 @@
 writeChunkToFile
-	FileStream forceNewFileNamed: 'chunkTest.txt' do: [:stream | stream nextPutAll: self chunkString]
+	(File openAndTruncateForWriteFileNamed: 'chunkTest.txt') 
+		nextPutAll: self chunkString;
+		close

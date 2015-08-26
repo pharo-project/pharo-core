@@ -1,2 +1,3 @@
 readStream
-	^ BinaryFileStream on: self
+	
+	^ self openForRead

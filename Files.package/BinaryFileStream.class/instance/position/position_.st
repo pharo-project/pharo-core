@@ -1,3 +1,3 @@
 position: aPosition
 	
-	position := aPosition
+	self primSetPosition: handle to: aPosition

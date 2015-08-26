@@ -1,3 +1,3 @@
 flush
 	
-	file flush
+	self primFlush: handle

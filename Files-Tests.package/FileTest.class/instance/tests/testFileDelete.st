@@ -1,6 +1,7 @@
 testFileDelete
 
 	| file |
-	file := File forceNewFileNamed: 'asd.txt' asFileReference fullName.
+	file := File named: 'asd.txt'.
+	file writeStream close.
 	file delete.
 	self deny: file exists.

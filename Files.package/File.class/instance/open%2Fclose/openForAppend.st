@@ -1,4 +1,5 @@
 openForAppend
 
-	self openForWrite: true.
-	self position: self size.
+	| stream |
+	stream := self openForWrite: true.
+	^ stream setAtEnd; yourself

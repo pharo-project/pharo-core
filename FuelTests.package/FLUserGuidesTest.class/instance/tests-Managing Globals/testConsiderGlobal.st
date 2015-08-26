@@ -7,13 +7,13 @@ testConsiderGlobal
 	Smalltalk at: #GlobalSet2 put: anArray second.
 
 	"Serialize considering *only first* as a global object."
-	(File forceNewFileNamed: 'demo.fuel') writeStreamDo: [:aStream |
+	(File named: 'demo.fuel') writeStreamDo: [:aStream |
 		aSerializer := FLSerializer newDefault.
 		aSerializer analyzer considerGlobal: #GlobalSet1.
 		aSerializer serialize: anArray on: aStream ].
 
 	"Materialize"
-	(File openFileNamed: 'demo.fuel') readStreamDo: [:aStream |
+	(File named: 'demo.fuel') readStreamDo: [:aStream |
 		materializedArray := (FLMaterializer newDefault 
 			materializeFrom: aStream) root].
 		

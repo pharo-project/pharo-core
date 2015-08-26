@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16074 Is RBClassNotReferencedRule ~200x slower in Pharo 4 vs Pharo 3 ?
-	https://pharo.fogbugz.com/f/cases/16074
+ ^ '15820 Better File API
+	https://pharo.fogbugz.com/f/cases/15820
 
-16384 populateMethodList Nautilus 
-	https://pharo.fogbugz.com/f/cases/16384
+16256 Evaluating a class which is not implemented does not show the "Unknown variable" dialog
+	https://pharo.fogbugz.com/f/cases/16256
 
-16265 World Menu should be invoked by right-click not left-click
-	https://pharo.fogbugz.com/f/cases/16265'
+16393 Mouse Button on Mac to get the menu is now wrong!!
+	https://pharo.fogbugz.com/f/cases/16393'

@@ -1,3 +1,3 @@
 openForRead
 
-	self openForWrite: false
+	^ self openForWrite: false

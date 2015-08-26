@@ -1,0 +1,3 @@
+register
+
+	File register: self

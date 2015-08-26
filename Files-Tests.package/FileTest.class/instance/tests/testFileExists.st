@@ -1,6 +1,7 @@
 testFileExists
 
 	| file |
-	file := File forceNewFileNamed: 'asd.txt' asFileReference fullName.
+	file := File named: 'asd.txt'.
+	file writeStream close.
 	self assert: file exists.
 	file delete.

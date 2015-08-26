@@ -1,5 +1,5 @@
 AbstractBinaryFileStream subclass: #BinaryFileStream
-	instanceVariableNames: 'position'
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Files-Streams'

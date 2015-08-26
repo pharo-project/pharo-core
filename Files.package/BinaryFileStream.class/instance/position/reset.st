@@ -1,2 +1,2 @@
 reset
-	position := 0
+	self position: 0

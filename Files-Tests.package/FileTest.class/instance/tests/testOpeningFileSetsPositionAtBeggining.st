@@ -1,8 +1,6 @@
 testOpeningFileSetsPositionAtBeggining
 
 	| file |
-	file := File forceNewFileNamed: 'asd.txt' asFileReference fullName.
-	file writeAll: 'aaa'.
-	file close.
-	file openForWrite.
+	(File named: 'asd.txt') writeStreamDo: [ :stream | stream nextPutAll: 'aaa' ].
+	file := (File named: 'asd.txt') openForWrite.
 	self assert: file position equals: 0.

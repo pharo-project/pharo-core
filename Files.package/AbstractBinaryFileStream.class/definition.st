@@ -1,5 +1,5 @@
 Stream subclass: #AbstractBinaryFileStream
-	instanceVariableNames: 'file'
+	instanceVariableNames: 'file handle forWrite'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Files-Streams'

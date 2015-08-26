@@ -1,5 +1,5 @@
 Object subclass: #File
-	instanceVariableNames: 'name writeable fileHandle'
+	instanceVariableNames: 'name'
 	classVariableNames: 'Registry'
 	poolDictionaries: ''
 	category: 'Files-Core'

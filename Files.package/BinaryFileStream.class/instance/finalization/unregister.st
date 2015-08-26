@@ -1,0 +1,3 @@
+unregister
+
+	File unregister: self

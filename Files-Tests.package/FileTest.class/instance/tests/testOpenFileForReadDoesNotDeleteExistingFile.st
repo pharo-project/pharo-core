@@ -1,8 +1,7 @@
 testOpenFileForReadDoesNotDeleteExistingFile
 
 	| file |
-	file := File forceNewFileNamed: 'asd.txt' asFileReference fullName.
-	file writeAll: 'aaa'.
-	file close.
-	file := File openReadOnlyFileNamed: 'asd.txt' asFileReference fullName.
+	file := (File named: 'asd.txt') writeStreamDo: [ :stream | stream nextPutAll: 'aaa' ].
+
+	file := (File named: 'asd.txt') readStream.
 	self assert: file size equals: 3.

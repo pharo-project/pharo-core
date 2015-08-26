@@ -1,3 +1,3 @@
 stderr
 
-	^ Stderr ifNil: [ Stderr := self standardIOStreamNamed: #stderr forWrite: false ].
+	^ Stderr ifNil: [ Stderr := self standardIOStreamNamed: #stderr forWrite: true ].

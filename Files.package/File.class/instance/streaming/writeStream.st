@@ -1,2 +1,3 @@
 writeStream
-	^ BinaryFileStream on: self
+
+	^ self openForWrite

@@ -1,4 +1,5 @@
 next: amount putAll: aByteArray
 
-	self onPositionDo: [ 
-		file writeAmount: amount from: aByteArray startingAt: 1 ]
+	forWrite ifFalse: [^ self error: 'Cannot write a read-only file'].
+	self primWrite: handle from: aByteArray startingAt: 1 count: amount.
+	^ aByteArray
