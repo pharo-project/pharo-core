@@ -1,7 +1,5 @@
 checkClass: aClass 
-	(aClass isMeta or: [ aClass subclasses notEmpty or: [ aClass inheritsFrom: TestCase ] ])
-		ifTrue: [ ^ self ].
-	aClass allCallsOn ifEmpty: [
+	aClass isUsed ifFalse: [
 		result
 			addClass: aClass;
 			addClass: aClass theMetaClass ]

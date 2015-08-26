@@ -1,11 +1,9 @@
 commentForCurrentUpdate
- ^ '16277 Unselect the hierarchie button show the class definission
-	https://pharo.fogbugz.com/f/cases/16277
+ ^ '16074 Is RBClassNotReferencedRule ~200x slower in Pharo 4 vs Pharo 3 ?
+	https://pharo.fogbugz.com/f/cases/16074
 
-16290 Get rid of System-CommandLine dependency from the bootstrap
-	https://pharo.fogbugz.com/f/cases/16290
+16384 populateMethodList Nautilus 
+	https://pharo.fogbugz.com/f/cases/16384
 
-16369 do not use IdentitySet in whichSelectorsReferTo:  and friends
-	https://pharo.fogbugz.com/f/cases/16369
-
-'
+16265 World Menu should be invoked by right-click not left-click
+	https://pharo.fogbugz.com/f/cases/16265'

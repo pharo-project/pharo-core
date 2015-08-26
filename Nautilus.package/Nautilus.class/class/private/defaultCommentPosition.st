@@ -1,3 +1,0 @@
-defaultCommentPosition
-
-	^ #right

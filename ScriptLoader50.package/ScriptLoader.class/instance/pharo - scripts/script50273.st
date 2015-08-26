@@ -1,4 +1,4 @@
-script50272
+script50273
 
 	^ 'AST-Core-TheIntegrator.361.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -167,7 +167,7 @@ MonticelloGUI-TheIntegrator.378.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.8.mcz
 Morphic-Base-TheIntegrator.473.mcz
-Morphic-Core-TheIntegrator.204.mcz
+Morphic-Core-TheIntegrator.205.mcz
 Morphic-Examples-TheIntegrator.46.mcz
 Morphic-Widgets-Basic-TheIntegrator.55.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
@@ -197,7 +197,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-EstebanLorenzano.1067.mcz
+Nautilus-TheIntegrator.1068.mcz
 Nautilus-GroupManager-TheIntegrator.13.mcz
 Nautilus-GroupManagerUI-TheIntegrator.20.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
@@ -233,7 +233,7 @@ RPackage-Tests-TheIntegrator.175.mcz
 RecentSubmissions-TheIntegrator.235.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.285.mcz
-Refactoring-Critics-TheIntegrator.202.mcz
+Refactoring-Critics-TheIntegrator.204.mcz
 Refactoring-Environment-TheIntegrator.61.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.127.mcz
@@ -309,7 +309,7 @@ System-Serial Port-StephaneDucasse.23.mcz
 System-Settings-TheIntegrator.319.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.35.mcz
-System-Support-TheIntegrator.1150.mcz
+System-Support-TheIntegrator.1152.mcz
 System-Support-Tests-TheIntegrator.6.mcz
 System-VMEvents-TheIntegrator.8.mcz
 Tests-TheIntegrator.738.mcz
@@ -336,7 +336,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.30.mcz
 Tools-TheIntegrator.1508.mcz
 Tools-Test-TheIntegrator.4.mcz
-Traits-EstebanLorenzano.826.mcz
+Traits-TheIntegrator.827.mcz
 Transcript-TheIntegrator.39.mcz
 TxText-Athens-NicolaiHess.52.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

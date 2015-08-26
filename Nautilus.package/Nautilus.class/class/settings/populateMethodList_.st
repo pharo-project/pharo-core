@@ -1,3 +1,0 @@
-populateMethodList: aBoolean
-
-	populateMethodList := aBoolean
