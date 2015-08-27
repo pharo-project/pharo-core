@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#'System-CommandLineHandler' #'Collections-Abstract')
+	^ #(#'System-CommandLineHandler')

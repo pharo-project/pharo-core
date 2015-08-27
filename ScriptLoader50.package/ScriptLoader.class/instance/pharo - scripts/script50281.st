@@ -1,4 +1,4 @@
-script50280
+script50281
 
 	^ 'AST-Core-TheIntegrator.361.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -113,7 +113,7 @@ Graphics-Files-TheIntegrator.66.mcz
 Graphics-Fonts-TheIntegrator.100.mcz
 Graphics-Fonts-Tests-EstebanLorenzano.3.mcz
 Graphics-Primitives-TheIntegrator.174.mcz
-Graphics-Resources-TheIntegrator.30.mcz
+Graphics-Resources-TheIntegrator.32.mcz
 Graphics-Shapes-TheIntegrator.2.mcz
 Graphics-Tests-TheIntegrator.72.mcz
 Graphics-Transformations-TheIntegrator.17.mcz
@@ -125,7 +125,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.24.mcz
 Jobs-Tests-TheIntegrator.4.mcz
-Kernel-TheIntegrator.2120.mcz
+Kernel-TheIntegrator.2121.mcz
 KernelTests-TheIntegrator.794.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -133,7 +133,7 @@ Keymapping-Pragmas-TheIntegrator.52.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.96.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
-Komitter-TheIntegrator.141.mcz
+Komitter-TheIntegrator.144.mcz
 Manifest-Core-TheIntegrator.231.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.51.mcz
@@ -223,7 +223,7 @@ OpalCompiler-Tests-TheIntegrator.303.mcz
 OpalTools-TheIntegrator.16.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.42.mcz
-Polymorph-Widgets-TheIntegrator.1247.mcz
+Polymorph-Widgets-TheIntegrator.1249.mcz
 PragmaCollector-TheIntegrator.3.mcz
 ProfStef-Core-TheIntegrator.70.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -294,7 +294,7 @@ System-Caching-TheIntegrator.26.mcz
 System-CachingTests-TheIntegrator.14.mcz
 System-Changes-TheIntegrator.281.mcz
 System-Clipboard-SvenVanCaekenberghe.32.mcz
-System-CommandLine-TheIntegrator.174.mcz
+System-CommandLine-TheIntegrator.177.mcz
 System-CommandLineHandler-TheIntegrator.5.mcz
 System-FileRegistry-TheIntegrator.46.mcz
 System-Finalization-TheIntegrator.22.mcz

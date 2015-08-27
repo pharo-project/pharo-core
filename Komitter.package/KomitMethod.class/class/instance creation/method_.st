@@ -1,7 +1,6 @@
 method: aMethod
-	
-	^ methods 
-		at: aMethod actualClass name, '>>', aMethod selector
+	^ methods
+		at: aMethod category , ':' , aMethod actualClass name , '>>' , aMethod selector
 		ifAbsentPut: [ 
 			super new
 				method: aMethod;

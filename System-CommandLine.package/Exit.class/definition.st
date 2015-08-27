@@ -2,4 +2,4 @@ Exception subclass: #Exit
 	instanceVariableNames: 'status'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Kernel-Exceptions'
+	category: 'System-CommandLine'
