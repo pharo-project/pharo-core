@@ -1,6 +1,6 @@
-unregisterWindow: window 
+unregisterWindowWithId: windowId
 
-	WindowMap removeKey: window validHandle handle windowID.
+	WindowMap removeKey: windowId.
 	
 	"Does it make sense to keep the SDL event loop process running even if no OSWindow is currently open ?"
 	"WindowMap ifEmpty: [ 

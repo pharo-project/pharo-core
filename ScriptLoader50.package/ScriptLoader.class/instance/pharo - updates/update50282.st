@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '16372 undeclared reference to searchList in FileList
+update50282
+	"self new update50282"
+	self withUpdateLog: '16372 undeclared reference to searchList in FileList
 	https://pharo.fogbugz.com/f/cases/16372
 
 15102 lost worldmenu
@@ -9,4 +10,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/16405
 
 16404 Two tests failing OSWindowTest
-	https://pharo.fogbugz.com/f/cases/16404'
+	https://pharo.fogbugz.com/f/cases/16404'.
+	self loadTogether: self script50282 merge: false.
+	self flushCaches.

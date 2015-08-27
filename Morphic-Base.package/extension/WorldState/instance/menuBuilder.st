@@ -1,2 +1,6 @@
 menuBuilder
-	^ menuBuilder ifNil: [menuBuilder := PragmaMenuBuilder pragmaKeyword: self discoveredMenuPragmaKeyword model: self ]
+	^ menuBuilder ifNil: [
+		menuBuilder := (PragmaMenuBuilder pragmaKeyword: self discoveredMenuPragmaKeyword model: self)
+				menuSpec;
+				yourself
+	]

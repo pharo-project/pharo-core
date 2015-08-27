@@ -41,5 +41,5 @@ createWindowWithAttributes: attributes osWindow: osWindow
 				height: attributes height flags: flags.
 	window := OSSDL2WindowHandle newWithHandle: handle attributes: attributes.
 	window osWindow: osWindow.
-	WindowMap at: handle windowID put: window.
+	self registerWindow: window.
 	^ window

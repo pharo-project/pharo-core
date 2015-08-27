@@ -3,7 +3,7 @@ initialize
 	self initialize
 	"
 	DefaultPosition := 0@0.
-	DefaultExtent :=100@100.
+	DefaultExtent :=150@150.
 	DefaultFullscreen  := false.
 	DefaultWindowCentered := false.
 	DefaultTitle := 'New Window'.
