@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '16377 Formater bug on FileReference with cascade
+update50280
+	"self new update50280"
+	self withUpdateLog: '16377 Formater bug on FileReference with cascade
 	https://pharo.fogbugz.com/f/cases/16377
 
 16398 System-FileRegistry depends on Morphic
@@ -12,4 +13,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/16397
 
 16396 Timezone>>local should use LocalTimeZone
-	https://pharo.fogbugz.com/f/cases/16396'
+	https://pharo.fogbugz.com/f/cases/16396'.
+	self loadTogether: self script50280 merge: false.
+	self flushCaches.

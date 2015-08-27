@@ -5,5 +5,5 @@ styleOpenParenthese: aMessageNode
 				do: [ :interval | 
 					| pos |
 					pos := interval first.
-					self addStyle: (#leftParenthesis asString , parentheseLevel asString) asSymbol from: pos to: pos.
+					self addStyle:  self currentOpenedParenthesisStyleName from: pos to: pos.
 					parentheseLevel := parentheseLevel + 1 ] ]

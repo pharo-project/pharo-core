@@ -1,4 +1,4 @@
 restoreDisplayAfter: aBlock
 
 	aBlock value.
-	Sensor waitButton.
+	self restoreDisplay.

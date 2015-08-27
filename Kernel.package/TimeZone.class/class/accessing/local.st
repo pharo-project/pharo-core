@@ -1,2 +1,2 @@
 local
-	^ Locale localTimeZone
+	^ LocalTimeZone new

@@ -1,4 +1,4 @@
-script50279
+script50280
 
 	^ 'AST-Core-TheIntegrator.361.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -125,7 +125,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.24.mcz
 Jobs-Tests-TheIntegrator.4.mcz
-Kernel-TheIntegrator.2117.mcz
+Kernel-TheIntegrator.2120.mcz
 KernelTests-TheIntegrator.794.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -180,7 +180,7 @@ Morphic-Widgets-Scrolling-TheIntegrator.25.mcz
 Morphic-Widgets-Tabs-TheIntegrator.16.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.11.mcz
 Morphic-Widgets-Tree-TheIntegrator.33.mcz
-Morphic-Widgets-Windows-TheIntegrator.59.mcz
+Morphic-Widgets-Windows-TheIntegrator.61.mcz
 MorphicTests-TheIntegrator.101.mcz
 Multilingual-Encodings-TheIntegrator.55.mcz
 Multilingual-Languages-TheIntegrator.42.mcz
@@ -214,9 +214,10 @@ NetworkTests-TheIntegrator.105.mcz
 NewValueHolder-TheIntegrator.31.mcz
 NodeNavigation-StephaneDucasse.51.mcz
 NonInteractiveTranscript-TheIntegrator.19.mcz
-OSWindow-Core-IgorStasenko.56.mcz
-OSWindow-SDL2-IgorStasenko.54.mcz
-OSWindow-VM-IgorStasenko.3.mcz
+OSWindow-Core-MerwanOuddane.93.mcz
+OSWindow-SDL2-MerwanOuddane.82.mcz
+OSWindow-SDL2-Examples-MerwanOuddane.7.mcz
+OSWindow-VM-MerwanOuddane.4.mcz
 OpalCompiler-Core-TheIntegrator.721.mcz
 OpalCompiler-Tests-TheIntegrator.303.mcz
 OpalTools-TheIntegrator.16.mcz
@@ -271,7 +272,7 @@ Settings-System-EstebanLorenzano.38.mcz
 ShoreLine-Report-Core-TommasoDalSasso.9.mcz
 ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
-Shout-TheIntegrator.275.mcz
+Shout-TheIntegrator.276.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.673.mcz
 Slot-Tests-TheIntegrator.60.mcz
@@ -295,7 +296,7 @@ System-Changes-TheIntegrator.281.mcz
 System-Clipboard-SvenVanCaekenberghe.32.mcz
 System-CommandLine-TheIntegrator.174.mcz
 System-CommandLineHandler-TheIntegrator.5.mcz
-System-FileRegistry-TheIntegrator.43.mcz
+System-FileRegistry-TheIntegrator.46.mcz
 System-Finalization-TheIntegrator.22.mcz
 System-Hashing-StephaneDucasse.45.mcz
 System-History-EstebanLorenzano.7.mcz
@@ -325,7 +326,7 @@ Tool-Catalog-TheIntegrator.20.mcz
 Tool-CriticBrowser-TheIntegrator.10.mcz
 Tool-Diff-TheIntegrator.17.mcz
 Tool-ExternalBrowser-TheIntegrator.36.mcz
-Tool-FileList-TheIntegrator.51.mcz
+Tool-FileList-TheIntegrator.53.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
 Tool-Finder-TheIntegrator.44.mcz
 Tool-ImageCleaner-TheIntegrator.10.mcz
@@ -344,7 +345,7 @@ TxText-AthensTests-SeanDeNigris.10.mcz
 TxText-Model-SeanDeNigris.61.mcz
 TxText-Styler-NicolaiHess.11.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
-UIManager-TheIntegrator.156.mcz
+UIManager-TheIntegrator.159.mcz
 Unicode-Initialization-TheIntegrator.12.mcz
 UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz

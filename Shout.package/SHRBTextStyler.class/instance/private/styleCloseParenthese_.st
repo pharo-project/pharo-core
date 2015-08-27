@@ -6,4 +6,4 @@ styleCloseParenthese: aMessageNode
 					| pos |
 					pos := interval last.
 					parentheseLevel := parentheseLevel - 1.
-					self addStyle: (#rightParenthesis asString , parentheseLevel asString) asSymbol from: pos to: pos ] ]
+					self addStyle: self currentClosedParenthesisStyleName from: pos to: pos ] ]
