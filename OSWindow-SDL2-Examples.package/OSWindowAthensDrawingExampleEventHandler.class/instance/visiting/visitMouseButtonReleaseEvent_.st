@@ -1,0 +1,2 @@
+visitMouseButtonReleaseEvent: anEvent
+	athensExample endStroke

@@ -1,3 +1,0 @@
-animated: anObject
-	
-	animated := anObject

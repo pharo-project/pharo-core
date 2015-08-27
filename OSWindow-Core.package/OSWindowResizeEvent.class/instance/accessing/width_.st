@@ -1,2 +1,2 @@
-width: anObject
-	width := anObject
+width: anInteger 
+	width := anInteger.

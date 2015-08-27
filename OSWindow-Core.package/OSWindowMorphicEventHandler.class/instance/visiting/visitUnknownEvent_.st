@@ -1,2 +1,5 @@
 visitUnknownEvent: anEvent
-	Transcript show: 'Unknown event: ', anEvent data printString; cr
+	Transcript
+		show: 'Unknown event: ';
+		show: anEvent data printString;
+		cr

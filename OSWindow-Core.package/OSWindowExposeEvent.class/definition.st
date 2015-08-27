@@ -1,5 +1,5 @@
 OSWindowEvent subclass: #OSWindowExposeEvent
-	instanceVariableNames: 'timeStamp'
+	instanceVariableNames: 'timestamp'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'OSWindow-Core-Events'

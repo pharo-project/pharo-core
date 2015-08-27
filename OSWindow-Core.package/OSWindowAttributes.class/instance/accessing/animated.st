@@ -1,3 +1,0 @@
-animated
-	
-	^ animated

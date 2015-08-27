@@ -1,2 +1,0 @@
-deviceId
-	deviceId

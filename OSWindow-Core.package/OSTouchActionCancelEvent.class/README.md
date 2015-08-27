@@ -1,1 +1,0 @@
-The current gesture has been aborted.

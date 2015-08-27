@@ -1,0 +1,2 @@
+borderless: anObject
+	borderless := anObject

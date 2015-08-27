@@ -1,2 +1,0 @@
-destroy
-	process terminate

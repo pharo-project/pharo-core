@@ -17,10 +17,5 @@ buildWidget
 		dragEnabled: self dragEnabled;
 		dropEnabled: self dropEnabled;
 		yourself.
-	self behavior
-		ifNil: [ newWidget beForPlainText ]
-		ifNotNil: [ :class | 
-			newWidget
-				beForSmalltalkCode;
-				classOrMetaClass: class ].
+	self setEditingModeFor: newWidget withBehavior: self behavior.
 	^ newWidget

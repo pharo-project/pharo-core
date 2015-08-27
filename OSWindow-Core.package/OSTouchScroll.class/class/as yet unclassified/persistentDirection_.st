@@ -1,2 +1,0 @@
-persistentDirection: anObject
-	persistentDirection := anObject

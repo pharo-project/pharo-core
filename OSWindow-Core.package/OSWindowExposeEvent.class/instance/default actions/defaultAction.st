@@ -1,2 +1,2 @@
 defaultAction
-	window renderer ifNotNil: [ window renderer exposed: timeStamp ]
+	window renderer ifNotNil: [ window renderer exposed: timestamp ]

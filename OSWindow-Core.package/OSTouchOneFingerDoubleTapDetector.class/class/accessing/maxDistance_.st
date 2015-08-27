@@ -1,0 +1,2 @@
+maxDistance: anObject
+	MaxDistance := anObject

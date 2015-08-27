@@ -1,1 +1,0 @@
-visitTouchTwoFingersPinchOutMoveEvent: anEvent

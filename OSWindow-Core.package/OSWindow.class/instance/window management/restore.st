@@ -1,0 +1,3 @@
+restore
+
+	self validHandle restore.

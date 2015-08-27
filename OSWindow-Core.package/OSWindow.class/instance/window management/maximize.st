@@ -1,0 +1,3 @@
+maximize
+
+	self validHandle maximize.

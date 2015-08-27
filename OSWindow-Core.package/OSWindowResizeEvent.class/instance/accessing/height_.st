@@ -1,2 +1,2 @@
-height: anObject
-	height := anObject
+height: anInteger 
+	height := anInteger.

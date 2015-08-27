@@ -1,0 +1,2 @@
+doubleTouchSpeed
+	^ DoubleTouchSpeed

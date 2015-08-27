@@ -1,2 +1,0 @@
-position: aPoint 
-	position := aPoint

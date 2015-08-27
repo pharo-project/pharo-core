@@ -1,0 +1,2 @@
+maxDistanceTravelled
+	^ MaxDistanceTravelled

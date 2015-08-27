@@ -1,2 +1,0 @@
-visitTouchDoubleTapEvent: anEvent
-	touchExample changeColors

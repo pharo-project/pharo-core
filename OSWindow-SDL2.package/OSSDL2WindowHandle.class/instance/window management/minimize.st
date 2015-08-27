@@ -1,0 +1,3 @@
+minimize
+
+	handle minimize.

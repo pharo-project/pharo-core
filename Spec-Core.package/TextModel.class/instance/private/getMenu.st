@@ -1,4 +1,4 @@
 getMenu
 	^ (PragmaMenuBuilder
-		pragmaKeyword: self widget widget editingModeClass menuKeyword
+		pragmaKeyword: self textArea editingModeClass menuKeyword
 		model: self widget) menu

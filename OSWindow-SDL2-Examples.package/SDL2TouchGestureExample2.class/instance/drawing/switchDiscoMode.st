@@ -1,0 +1,2 @@
+switchDiscoMode
+	discoMode := discoMode not

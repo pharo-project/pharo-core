@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16399 Improve RBSentNotImplementedRule for Traits
-	https://pharo.fogbugz.com/f/cases/16399
+ ^ '16400 remaining haltOnce (and copy method)
+	https://pharo.fogbugz.com/f/cases/16400
 
-16395 remove some duplicated tests in RBConsistencyCheckRule and RBEqualNilRule
-	https://pharo.fogbugz.com/f/cases/16395
+16333 no syntax highlighting in TextModel beForCode
+	https://pharo.fogbugz.com/f/cases/16333
 
-16387 remove Cursor read showWhile:  from ImageReadWriter>>#formFromStream:
-	https://pharo.fogbugz.com/f/cases/16387'
+16371 Integrate new stable version of OSWindow
+	https://pharo.fogbugz.com/f/cases/16371'

@@ -1,0 +1,2 @@
+waitingTime: anObject
+	WaitingTime := anObject

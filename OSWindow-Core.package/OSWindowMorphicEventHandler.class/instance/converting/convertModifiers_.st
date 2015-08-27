@@ -1,12 +1,13 @@
 convertModifiers: modifiers
 	| buttons |
 	buttons := 0.
+	
 	"Alt/Option key"
 	modifiers alt ifTrue: [
-		"On windows, treat alt key as command key"
-		Smalltalk os isWin32 
-			ifTrue: [ buttons := buttons | 2r01000000 ]
-			ifFalse: [ buttons := buttons | 2r00100000 ]
+		"On windows and unix, treat alt key as command key"
+		buttons := Smalltalk os isWin32 | Smalltalk os isUnix
+			ifTrue: [ buttons | 2r01000000 ]
+			ifFalse: [ buttons | 2r00100000 ]
 	]. 
 	
 	modifiers ctrl ifTrue: [ buttons := buttons | 2r00010000 ]. "Control key"

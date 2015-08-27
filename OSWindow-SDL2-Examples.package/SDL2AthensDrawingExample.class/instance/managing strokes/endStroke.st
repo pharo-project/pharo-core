@@ -1,0 +1,2 @@
+endStroke
+	currentStroke := OrderedCollection new.

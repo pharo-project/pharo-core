@@ -1,2 +1,0 @@
-maxDistanceBetweenFingersLine: aNumber
-	maxDistanceBetweenFingersLine := aNumber

@@ -1,0 +1,2 @@
+isForSmalltalkCode
+	^ self model isForSmalltalkCode

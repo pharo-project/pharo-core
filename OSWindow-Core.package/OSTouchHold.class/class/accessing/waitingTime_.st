@@ -1,2 +1,0 @@
-waitingTime: anObject
-	waitingTime := anObject

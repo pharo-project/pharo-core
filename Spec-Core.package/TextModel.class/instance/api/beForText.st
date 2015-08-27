@@ -1,4 +1,5 @@
 beForText
 	self
 		isCodeCompletionAllowed: false;
-		menuHolder: [ self getMenu ] 
+		menuHolder: [ self getMenu ];
+		isForSmalltalkCode: false

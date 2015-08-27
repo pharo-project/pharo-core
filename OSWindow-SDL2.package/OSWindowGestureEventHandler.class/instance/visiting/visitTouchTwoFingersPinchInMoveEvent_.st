@@ -1,2 +1,0 @@
-visitTouchTwoFingersPinchInMoveEvent: anEvent
-	touchExample pinchIn: anEvent

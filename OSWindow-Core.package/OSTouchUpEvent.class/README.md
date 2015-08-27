@@ -1,1 +1,0 @@
-A pressed gesture has finished, the motion contains the final release location as well as any intermediate points since the last down or move event.

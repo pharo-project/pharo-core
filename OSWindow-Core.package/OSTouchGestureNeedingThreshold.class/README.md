@@ -1,1 +1,0 @@
-I am a gesture who need to travel a certain distance before sending my beginning event

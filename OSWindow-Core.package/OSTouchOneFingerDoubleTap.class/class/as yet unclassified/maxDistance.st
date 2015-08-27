@@ -1,2 +1,0 @@
-maxDistance
-	^ maxDistance

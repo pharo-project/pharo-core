@@ -1,1 +1,0 @@
-I detect three fingers scrolls

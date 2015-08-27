@@ -1,0 +1,2 @@
+isForSmalltalkCode
+	^ isForSmalltalkCodeHolder value

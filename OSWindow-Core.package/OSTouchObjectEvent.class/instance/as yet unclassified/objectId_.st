@@ -1,2 +1,0 @@
-objectId: anInteger 
-	objectId := anInteger.

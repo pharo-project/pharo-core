@@ -1,2 +1,2 @@
 bounds
-	self subclassResponsibility 
+	^ self position extent: self extent

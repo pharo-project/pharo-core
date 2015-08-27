@@ -1,3 +1,0 @@
-timeStamp: anObject
-	
-	timeStamp := anObject

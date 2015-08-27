@@ -1,0 +1,2 @@
+angle: anObject
+	angle := anObject

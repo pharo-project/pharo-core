@@ -1,2 +1,0 @@
-doubleTap
-	^ #doubleTap

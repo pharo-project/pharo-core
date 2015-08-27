@@ -1,2 +1,0 @@
-eventClassPinchingOut
-	^ OSTouchTwoFingersPinchOutMoveEvent

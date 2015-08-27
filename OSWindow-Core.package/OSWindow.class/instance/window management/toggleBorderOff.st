@@ -1,0 +1,3 @@
+toggleBorderOff
+
+	self validHandle toggleBorderOff.

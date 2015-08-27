@@ -1,0 +1,2 @@
+objectNumber: anObject
+	objectNumber := anObject

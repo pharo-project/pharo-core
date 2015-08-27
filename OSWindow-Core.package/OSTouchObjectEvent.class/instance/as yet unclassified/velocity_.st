@@ -1,2 +1,0 @@
-velocity: aPoint 
-	velocity := aPoint.

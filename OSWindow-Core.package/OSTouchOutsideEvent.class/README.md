@@ -1,1 +1,0 @@
-A movement has happened outside of the normal bounds of the UI element.

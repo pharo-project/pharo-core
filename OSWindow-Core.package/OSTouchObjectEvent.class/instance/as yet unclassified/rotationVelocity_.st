@@ -1,2 +1,0 @@
-rotationVelocity: aNumber 
-	rotationVelocity := aNumber

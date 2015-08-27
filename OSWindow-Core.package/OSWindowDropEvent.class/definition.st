@@ -1,5 +1,5 @@
 OSWindowEvent subclass: #OSWindowDropEvent
-	instanceVariableNames: 'contents'
+	instanceVariableNames: 'filePath timestamp'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'OSWindow-Core-Events'

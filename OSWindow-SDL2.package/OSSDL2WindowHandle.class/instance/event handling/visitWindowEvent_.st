@@ -1,8 +1,8 @@
 visitWindowEvent: windowEvent
-	| osEvent |
+	osWindow ifNil: [ ^self ].
 	
 	windowEvent event = SDL_WINDOWEVENT_EXPOSED ifTrue: [
-		^ ((OSWindowExposeEvent for: osWindow) timeStamp: windowEvent timestamp)deliver.
+		^ ((OSWindowExposeEvent for: osWindow) timestamp: windowEvent timestamp) deliver.
 	].
 	windowEvent event = SDL_WINDOWEVENT_CLOSE ifTrue: [ 
 		^ (OSWindowCloseEvent for: osWindow) deliver.
@@ -11,10 +11,10 @@ visitWindowEvent: windowEvent
 		^ (OSWindowMoveEvent for: osWindow) deliver
 	].
 	windowEvent event = SDL_WINDOWEVENT_RESIZED ifTrue: [ 
-		osEvent := OSWindowResizeEvent for: osWindow.
-		osEvent width: windowEvent data1.
-		osEvent height: windowEvent data2.
-		^ osEvent deliver.
+		^ (OSWindowResizeEvent for: osWindow)
+				width: windowEvent data1;
+				height: windowEvent data2;
+				deliver.
 	].
 	windowEvent event = SDL_WINDOWEVENT_ENTER ifTrue: [ 
 		^ (OSWindowMouseEnterEvent for: osWindow) deliver
@@ -27,4 +27,10 @@ visitWindowEvent: windowEvent
 	].
 	windowEvent event = SDL_WINDOWEVENT_FOCUS_LOST ifTrue: [ 
 		^ (OSWindowFocusOutEvent for: osWindow) deliver
+	].
+	windowEvent event = SDL_WINDOWEVENT_MAXIMIZED ifTrue: [ 
+		^ (OSWindowMaximizedEvent for: osWindow) deliver
+	].
+	windowEvent event = SDL_WINDOWEVENT_MINIMIZED ifTrue: [ 
+		^ (OSWindowMinimizedEvent for: osWindow) deliver
 	].

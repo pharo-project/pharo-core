@@ -1,2 +1,3 @@
 hide
-	self show: false
+	self checkIsValid .
+	handle hide

@@ -3,6 +3,8 @@ createWindowWithAttributes: attributes osWindow: osWindow
 	flags := attributes visible ifTrue: [ SDL_WINDOW_SHOWN ] ifFalse: [ SDL_WINDOW_HIDDEN ].
 	attributes fullscreen ifTrue: [ flags := flags | SDL_WINDOW_FULLSCREEN ].
 	
+	attributes borderless ifTrue: [ flags := flags | SDL_WINDOW_BORDERLESS ].
+	
 	" Set the OpenGL attributes."
 	glAttributes := attributes glAttributes.
 	glAttributes ifNotNil: [ 
@@ -39,5 +41,5 @@ createWindowWithAttributes: attributes osWindow: osWindow
 				height: attributes height flags: flags.
 	window := OSSDL2WindowHandle newWithHandle: handle attributes: attributes.
 	window osWindow: osWindow.
-	windowMap at: handle windowID put: window.
+	WindowMap at: handle windowID put: window.
 	^ window

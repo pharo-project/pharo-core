@@ -1,2 +1,0 @@
-delta
-	^ delta

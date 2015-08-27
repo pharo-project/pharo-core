@@ -1,2 +1,0 @@
-reinitializeGesture
-	currentGestureSymbol := #unactive

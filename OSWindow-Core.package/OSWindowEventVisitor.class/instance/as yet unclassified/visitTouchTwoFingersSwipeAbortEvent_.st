@@ -1,1 +1,0 @@
-visitTouchTwoFingersSwipeAbortEvent: anEvent

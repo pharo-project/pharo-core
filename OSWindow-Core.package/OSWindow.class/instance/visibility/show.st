@@ -1,2 +1,3 @@
 show
-	self show: true
+	self checkIsValid .
+	handle show

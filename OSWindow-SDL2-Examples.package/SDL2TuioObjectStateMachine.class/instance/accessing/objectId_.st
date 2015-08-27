@@ -1,0 +1,2 @@
+objectId: anObject
+	objectId := anObject

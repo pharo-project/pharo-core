@@ -1,2 +1,0 @@
-onRenderThreadBlocking: aBlock
-	OSWindowRenderThread enqueueBlockingOperation: aBlock

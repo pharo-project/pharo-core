@@ -1,2 +1,0 @@
-minDistToBorder: aFloat
-	minDistToBorder := aFloat .

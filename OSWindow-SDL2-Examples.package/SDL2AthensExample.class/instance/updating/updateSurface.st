@@ -1,0 +1,2 @@
+updateSurface
+	renderer updateAll

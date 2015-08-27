@@ -1,0 +1,2 @@
+athensExample: anObject
+	athensExample := anObject

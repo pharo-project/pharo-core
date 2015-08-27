@@ -1,0 +1,2 @@
+isForSmalltalkCode: aBoolean
+	isForSmalltalkCodeHolder value: aBoolean

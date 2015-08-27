@@ -1,0 +1,1 @@
+visitWindowMaximizedEvent: anEvent

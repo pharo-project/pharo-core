@@ -1,0 +1,2 @@
+clearStrokes
+	strokes removeAll

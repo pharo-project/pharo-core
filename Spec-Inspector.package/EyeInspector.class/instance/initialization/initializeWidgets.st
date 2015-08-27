@@ -1,6 +1,2 @@
 initializeWidgets
-	
-	description := self newCode.
-	
-		
- 	
+	description := self newText

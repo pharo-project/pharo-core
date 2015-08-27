@@ -1,0 +1,2 @@
+visitTouchOneFingerHoldEvent: anEvent
+	touchExample switchDiscoMode

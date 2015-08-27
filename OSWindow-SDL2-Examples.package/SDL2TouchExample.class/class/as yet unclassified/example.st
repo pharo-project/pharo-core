@@ -1,0 +1,2 @@
+example
+	^ self new open

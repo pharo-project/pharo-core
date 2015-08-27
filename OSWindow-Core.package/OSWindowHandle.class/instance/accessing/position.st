@@ -1,2 +1,2 @@
 position
-	^ self bounds origin
+	^ self subclassResponsibility

@@ -1,2 +1,0 @@
-visitWindowFocusOutEvent: anEvent
-	eventHandler visitWindowFocusOutEvent: anEvent

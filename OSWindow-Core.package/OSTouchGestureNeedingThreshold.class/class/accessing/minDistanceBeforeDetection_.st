@@ -1,2 +1,0 @@
-minDistanceBeforeDetection: anObject
-	minDistanceBeforeDetection := anObject

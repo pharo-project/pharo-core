@@ -1,0 +1,3 @@
+maximize
+
+	handle maximize.

@@ -1,2 +1,0 @@
-accept: aVisitor
-	self subclassResponsibility 

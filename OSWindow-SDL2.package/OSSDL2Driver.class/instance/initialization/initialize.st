@@ -1,7 +1,7 @@
 initialize
 	inputSemaphore := Semaphore new.
 	eventQueue := AtomicSharedQueue new.
-	windowMap := WeakValueDictionary new.
 	globalListeners := WeakSet new.
+	self initializeWindowMap.
 	SDL2 initVideo.
-	self setupEventLoop
+	self setupEventLoop.

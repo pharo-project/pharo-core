@@ -1,0 +1,2 @@
+persistentDirection
+	^ PersistentDirection

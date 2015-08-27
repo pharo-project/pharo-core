@@ -1,1 +1,0 @@
-I am an OSGesture which have a 3 states

@@ -1,0 +1,2 @@
+resized
+	self updateAll

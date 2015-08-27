@@ -1,3 +1,0 @@
-timeStamp
-	
-	^ timeStamp

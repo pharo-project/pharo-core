@@ -9,7 +9,7 @@ performAnimationFrames
 	" Try to animate them. "
 	hasAnimated := false.
 	windows do: [ :window |
-		(window isValid and: [window animated == true]) ifTrue: [ 
+		(window isValid) ifTrue: [ 
 			hasAnimated := true.
 			self doAnimationFrameFor: window.
 		]

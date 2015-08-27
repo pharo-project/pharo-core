@@ -1,0 +1,3 @@
+getFlags
+
+	^self validHandle getFlags.

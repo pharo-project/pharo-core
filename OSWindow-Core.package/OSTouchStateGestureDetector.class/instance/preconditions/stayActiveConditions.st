@@ -1,0 +1,2 @@
+stayActiveConditions
+	^ self hasGoodNumberOfFingers

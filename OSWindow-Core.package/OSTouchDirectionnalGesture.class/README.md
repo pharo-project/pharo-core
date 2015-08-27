@@ -1,1 +1,0 @@
-I am a gesture with all fingers going in the same direction

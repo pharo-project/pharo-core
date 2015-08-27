@@ -1,2 +1,0 @@
-motionAcceleration: aNumber 
-	motionAcceleration := aNumber.

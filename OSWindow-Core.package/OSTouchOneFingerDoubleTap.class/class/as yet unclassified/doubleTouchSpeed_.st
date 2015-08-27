@@ -1,2 +1,0 @@
-doubleTouchSpeed: anObject
-	doubleTouchSpeed := anObject

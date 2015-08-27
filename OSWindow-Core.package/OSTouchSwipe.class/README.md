@@ -1,1 +1,0 @@
-I am the abstract class who detects swipes

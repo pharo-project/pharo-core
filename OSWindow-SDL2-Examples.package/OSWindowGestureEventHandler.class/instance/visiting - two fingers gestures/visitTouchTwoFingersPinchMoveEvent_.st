@@ -1,0 +1,2 @@
+visitTouchTwoFingersPinchMoveEvent: anEvent
+	touchExample pinch: anEvent

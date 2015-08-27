@@ -1,0 +1,2 @@
+dDist
+	^ self subclassResponsibility

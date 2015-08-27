@@ -1,0 +1,2 @@
+maxDistanceTravelled: anObject
+	MaxDistanceTravelled := anObject

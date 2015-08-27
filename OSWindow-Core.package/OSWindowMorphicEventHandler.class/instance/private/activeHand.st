@@ -1,2 +1,2 @@
 activeHand
-	^ morphicWorld activeHand
+	^ self morphicWorld activeHand

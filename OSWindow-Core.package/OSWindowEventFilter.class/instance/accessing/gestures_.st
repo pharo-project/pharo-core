@@ -1,2 +1,0 @@
-gestures: anObject
-	gestures := anObject
