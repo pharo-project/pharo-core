@@ -1,4 +1,4 @@
-script50283
+script50284
 
 	^ 'AST-Core-TheIntegrator.361.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -73,7 +73,7 @@ FontInfrastructure-TheIntegrator.8.mcz
 FontInfrastructure-Tests-TheIntegrator.2.mcz
 FreeType-TheIntegrator.713.mcz
 FreeTypeTests-SvenVanCaekenberghe.5.mcz
-Fuel-TheIntegrator.813.mcz
+Fuel-TheIntegrator.815.mcz
 FuelCommandLineHandler-TheIntegrator.27.mcz
 FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-TheIntegrator.390.mcz
@@ -125,7 +125,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.24.mcz
 Jobs-Tests-TheIntegrator.4.mcz
-Kernel-TheIntegrator.2121.mcz
+Kernel-TheIntegrator.2123.mcz
 KernelTests-TheIntegrator.794.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -203,7 +203,7 @@ Nautilus-GroupManagerUI-TheIntegrator.20.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
 NautilusCommon-TheIntegrator.280.mcz
 NautilusGroupAutoBuilder-FranckWarlouzet.6.mcz
-NautilusRefactoring-TheIntegrator.248.mcz
+NautilusRefactoring-TheIntegrator.249.mcz
 Network-Kernel-TheIntegrator.118.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.43.mcz
@@ -218,9 +218,9 @@ OSWindow-Core-TheIntegrator.95.mcz
 OSWindow-SDL2-TheIntegrator.84.mcz
 OSWindow-SDL2-Examples-MerwanOuddane.7.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
-OpalCompiler-Core-TheIntegrator.721.mcz
+OpalCompiler-Core-TheIntegrator.723.mcz
 OpalCompiler-Tests-TheIntegrator.303.mcz
-OpalTools-TheIntegrator.16.mcz
+OpalTools-TheIntegrator.18.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.42.mcz
 Polymorph-Widgets-TheIntegrator.1249.mcz
@@ -274,7 +274,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.12.mcz
 Shout-TheIntegrator.276.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.673.mcz
+Slot-TheIntegrator.675.mcz
 Slot-Tests-TheIntegrator.60.mcz
 SmartSuggestions-TheIntegrator.176.mcz
 SmartSuggestions-Tests-TheIntegrator.10.mcz
@@ -338,7 +338,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.30.mcz
 Tools-TheIntegrator.1508.mcz
 Tools-Test-TheIntegrator.4.mcz
-Traits-TheIntegrator.827.mcz
+Traits-TheIntegrator.829.mcz
 Transcript-TheIntegrator.39.mcz
 TxText-Athens-NicolaiHess.52.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

@@ -1,6 +1,6 @@
 class: aClass andInstVariable: aBlock
 	| variables index variable class |
-	variables := aClass instanceVariables sorted.
+	variables := aClass instVarNames sorted.
 	index := self chooseFrom: variables.
 	variable := variables at: index.
 	class := aClass whichClassDefinesInstVar: variable.

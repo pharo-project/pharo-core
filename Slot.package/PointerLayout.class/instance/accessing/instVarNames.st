@@ -1,2 +1,2 @@
-instanceVariables
+instVarNames
 	^ slotScope visibleSlotNames

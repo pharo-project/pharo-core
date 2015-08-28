@@ -10,4 +10,4 @@ instVarNamesAndOffsetsDo: aBinaryBlock
 	(superInstSize := superclass notNil ifTrue: [superclass instSize] ifFalse: [0]) > 0 ifTrue:
 		[superclass instVarNamesAndOffsetsDo: aBinaryBlock].
 	1 to: self instSize - superInstSize do:
-		[:i| aBinaryBlock value: (instanceVariables at: i) value: (i + superInstSize) negated]
+		[:i| aBinaryBlock value: (self instVarNames at: i) value: (i + superInstSize) negated]

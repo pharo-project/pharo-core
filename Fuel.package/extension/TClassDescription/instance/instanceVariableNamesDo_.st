@@ -7,4 +7,4 @@ instanceVariableNamesDo: anUnaryBlock
 	(superInstSize := self superclass notNil ifTrue: [self superclass instSize] ifFalse: [0]) > 0 ifTrue:
 		[self superclass instanceVariableNamesDo: anUnaryBlock].
 	1 to: self instSize - superInstSize do:
-		[:i| anUnaryBlock value: (self instanceVariables at: i)]
+		[:i| anUnaryBlock value: (self instVarNames at: i)]

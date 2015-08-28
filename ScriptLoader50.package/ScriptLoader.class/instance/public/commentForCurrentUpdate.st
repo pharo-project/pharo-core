@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '16391 Switching hierarchy visually removes selection of a protocol
-	https://pharo.fogbugz.com/f/cases/16391
+ ^ '16409 MNU: receiver of sourceInterval is nil
+	https://pharo.fogbugz.com/f/cases/16409
 
-16331 MergeDiffMorph - Wrong scrollbars
-	https://pharo.fogbugz.com/f/cases/16331
-
-16406 RBkeysDoRule has the same #uniqueIdentifierName as RBEqualNilRule
-	https://pharo.fogbugz.com/f/cases/16406'
+16249 change all senders of #instanceVariables to use #instVarNames
+	https://pharo.fogbugz.com/f/cases/16249'
