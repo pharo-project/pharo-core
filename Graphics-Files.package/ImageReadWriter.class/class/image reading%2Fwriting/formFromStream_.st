@@ -7,7 +7,6 @@ formFromStream: aBinaryStream
 			[ aBinaryStream close.
 			^ self error: 'image format not recognized' ].
 	reader := readerClass new on: aBinaryStream reset.
-	Cursor read showWhile: 
-		[ form := reader nextImage.
-		reader close ].
+	form := reader nextImage.
+	reader close.
 	^ form

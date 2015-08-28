@@ -1,4 +1,4 @@
-script619
+script620
 
 	^ 'AST-Core-TheIntegrator.286.mcz
 AST-Tests-Core-TheIntegrator.65.mcz
@@ -97,7 +97,7 @@ Gofer-Core-TheIntegrator.228.mcz
 Gofer-Tests-TheIntegrator.164.mcz
 Graphics-Canvas-TheIntegrator.2.mcz
 Graphics-Display Objects-TheIntegrator.159.mcz
-Graphics-Files-TheIntegrator.58.mcz
+Graphics-Files-TheIntegrator.60.mcz
 Graphics-Fonts-EstebanLorenzano.96.mcz
 Graphics-Fonts-Tests-EstebanLorenzano.3.mcz
 Graphics-Primitives-StephaneDucasse.157.mcz
