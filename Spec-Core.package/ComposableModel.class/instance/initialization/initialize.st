@@ -6,7 +6,7 @@ initialize
 	keyStrokesForNextFocusHolder := { KMNoShortcut new } asValueHolder.
 	keyStrokesForPreviousFocusHolder := { KMNoShortcut new } asValueHolder.
 	additionalKeyBindings := Dictionary new.
-	announcer := Announcer new asValueHolder.
+	announcer := Announcer new.
 	aboutText := nil asValueHolder.
 	windowIcon := nil asValueHolder.
 	window := nil asValueHolder.

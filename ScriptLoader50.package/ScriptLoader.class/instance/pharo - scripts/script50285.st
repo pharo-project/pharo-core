@@ -1,4 +1,4 @@
-script50284
+script50285
 
 	^ 'AST-Core-TheIntegrator.361.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -163,7 +163,7 @@ Monticello-Tests-TheIntegrator.26.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.189.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
-MonticelloGUI-TheIntegrator.378.mcz
+MonticelloGUI-TheIntegrator.381.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.8.mcz
 Morphic-Base-TheIntegrator.475.mcz
@@ -278,7 +278,7 @@ Slot-TheIntegrator.675.mcz
 Slot-Tests-TheIntegrator.60.mcz
 SmartSuggestions-TheIntegrator.176.mcz
 SmartSuggestions-Tests-TheIntegrator.10.mcz
-Spec-Core-TheIntegrator.419.mcz
+Spec-Core-TheIntegrator.421.mcz
 Spec-Debugger-TheIntegrator.248.mcz
 Spec-Examples-TheIntegrator.98.mcz
 Spec-Help-TheIntegrator.10.mcz

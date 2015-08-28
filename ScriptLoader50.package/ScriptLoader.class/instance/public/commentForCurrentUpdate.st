@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '16409 MNU: receiver of sourceInterval is nil
-	https://pharo.fogbugz.com/f/cases/16409
+ ^ '16347 ComposableModel announcer should not be a valueHolder
+	https://pharo.fogbugz.com/f/cases/16347
 
-16249 change all senders of #instanceVariables to use #instVarNames
-	https://pharo.fogbugz.com/f/cases/16249'
+16401 opening monticello window does not respect world size
+	https://pharo.fogbugz.com/f/cases/16401'
