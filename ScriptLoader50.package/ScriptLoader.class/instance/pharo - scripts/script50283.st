@@ -1,4 +1,4 @@
-script50282
+script50283
 
 	^ 'AST-Core-TheIntegrator.361.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -197,13 +197,13 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1068.mcz
+Nautilus-TheIntegrator.1070.mcz
 Nautilus-GroupManager-TheIntegrator.13.mcz
 Nautilus-GroupManagerUI-TheIntegrator.20.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
 NautilusCommon-TheIntegrator.280.mcz
 NautilusGroupAutoBuilder-FranckWarlouzet.6.mcz
-NautilusRefactoring-TheIntegrator.246.mcz
+NautilusRefactoring-TheIntegrator.248.mcz
 Network-Kernel-TheIntegrator.118.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.43.mcz
@@ -234,11 +234,11 @@ RPackage-Tests-TheIntegrator.175.mcz
 RecentSubmissions-TheIntegrator.235.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.285.mcz
-Refactoring-Critics-TheIntegrator.207.mcz
+Refactoring-Critics-TheIntegrator.209.mcz
 Refactoring-Environment-TheIntegrator.61.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
-Refactoring-Tests-Critics-TheIntegrator.35.mcz
+Refactoring-Tests-Critics-TheIntegrator.36.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
 Reflectivity-TheIntegrator.146.mcz
 Reflectivity-Examples-TheIntegrator.2.mcz
@@ -324,7 +324,7 @@ Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.104.mcz
 Tool-Catalog-TheIntegrator.20.mcz
 Tool-CriticBrowser-TheIntegrator.10.mcz
-Tool-Diff-TheIntegrator.17.mcz
+Tool-Diff-TheIntegrator.19.mcz
 Tool-ExternalBrowser-TheIntegrator.36.mcz
 Tool-FileList-TheIntegrator.54.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz

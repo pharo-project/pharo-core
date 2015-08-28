@@ -3,4 +3,5 @@ verticalScroll: anAnnouncement
 
 	self srcMorph scrollPane vScrollbarValueWithoutAnnouncement: anAnnouncement scrollValue.
 	self dstMorph scrollPane vScrollbarValueWithoutAnnouncement: anAnnouncement scrollValue.
+	self scrollbarMorph value: anAnnouncement scrollValue.
 	self updateJoinOffsets

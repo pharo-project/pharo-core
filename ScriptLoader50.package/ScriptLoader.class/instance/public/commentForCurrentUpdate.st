@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '16372 undeclared reference to searchList in FileList
-	https://pharo.fogbugz.com/f/cases/16372
+ ^ '16391 Switching hierarchy visually removes selection of a protocol
+	https://pharo.fogbugz.com/f/cases/16391
 
-15102 lost worldmenu
-	https://pharo.fogbugz.com/f/cases/15102
+16331 MergeDiffMorph - Wrong scrollbars
+	https://pharo.fogbugz.com/f/cases/16331
 
-16405 Failign test: RBSmalllintTest.testConsistencyCheck	
-	https://pharo.fogbugz.com/f/cases/16405
-
-16404 Two tests failing OSWindowTest
-	https://pharo.fogbugz.com/f/cases/16404'
+16406 RBkeysDoRule has the same #uniqueIdentifierName as RBEqualNilRule
+	https://pharo.fogbugz.com/f/cases/16406'
