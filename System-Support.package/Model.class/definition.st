@@ -1,5 +1,5 @@
 Object subclass: #Model
-	instanceVariableNames: 'dependents'
+	instanceVariableNames: 'dependents announceur'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'System-Support'

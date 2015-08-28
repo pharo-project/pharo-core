@@ -1,4 +1,4 @@
-script50286
+script50287
 
 	^ 'AST-Core-TheIntegrator.361.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -163,7 +163,7 @@ Monticello-Tests-TheIntegrator.26.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.189.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
-MonticelloGUI-TheIntegrator.381.mcz
+MonticelloGUI-TheIntegrator.383.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.8.mcz
 Morphic-Base-TheIntegrator.475.mcz
@@ -257,7 +257,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.85.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.2.mcz
-Rubric-FranckWarlouzet.271.mcz
+Rubric-TheIntegrator.272.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
 SUnit-Core-TheIntegrator.152.mcz
@@ -282,7 +282,7 @@ Spec-Core-TheIntegrator.421.mcz
 Spec-Debugger-TheIntegrator.248.mcz
 Spec-Examples-TheIntegrator.98.mcz
 Spec-Help-TheIntegrator.10.mcz
-Spec-Inspector-TheIntegrator.248.mcz
+Spec-Inspector-TheIntegrator.250.mcz
 Spec-Layout-TheIntegrator.69.mcz
 Spec-MorphicAdapters-TheIntegrator.231.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz
@@ -311,7 +311,7 @@ System-Serial Port-StephaneDucasse.23.mcz
 System-Settings-TheIntegrator.319.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.37.mcz
-System-Support-TheIntegrator.1152.mcz
+System-Support-TheIntegrator.1155.mcz
 System-Support-Tests-TheIntegrator.6.mcz
 System-VMEvents-TheIntegrator.8.mcz
 Tests-TheIntegrator.738.mcz
@@ -339,7 +339,7 @@ Tool-Workspace-TheIntegrator.30.mcz
 Tools-TheIntegrator.1508.mcz
 Tools-Test-TheIntegrator.4.mcz
 Traits-TheIntegrator.829.mcz
-Transcript-TheIntegrator.39.mcz
+Transcript-TheIntegrator.41.mcz
 TxText-Athens-NicolaiHess.52.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
 TxText-Model-SeanDeNigris.61.mcz
