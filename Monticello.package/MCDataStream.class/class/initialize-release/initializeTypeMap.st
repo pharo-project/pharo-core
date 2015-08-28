@@ -49,4 +49,9 @@ initializeTypeMap
 		registerClass: ByteString
 		atIndex: 17
 		usingReadSelector: #readString
-		usingWriteSelector: #writeString:
+		usingWriteSelector: #writeString:.
+		
+	self registerClass: WideString
+		atIndex: 20
+		usingReadSelector: #readWordLike
+		usingWriteSelector: #writeWordLike:

@@ -1,9 +1,11 @@
 buildChangeList
-	rgMethod sourcePointer ifNil:[^#[]].
-		
-	^ self
-		scanVersionsOf: rgMethod
-		class: rgMethod realClass theNonMetaClass
-		meta: rgMethod realClass isMeta
-		category: rgMethod category
-		selector: rgMethod selector.
+	rgMethod sourcePointer ifNil:[ ^#[] ].
+	
+	"TODO: Does it really need to get realClass?"
+	^ (SourceFiles
+		changeRecordsFrom: rgMethod sourcePointer
+		className: rgMethod realClass theNonMetaClass name
+		isMeta: rgMethod realClass isMeta)
+		collectWithIndex: [ :c :i | | rg |
+			rg := c asRingDefinition.
+			rg annotationNamed: #versionIndex put: i ]

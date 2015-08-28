@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '16347 ComposableModel announcer should not be a valueHolder
-	https://pharo.fogbugz.com/f/cases/16347
+ ^ '16392 Should register WideString reader/writer to MCDataStream
+	https://pharo.fogbugz.com/f/cases/16392
 
-16401 opening monticello window does not respect world size
-	https://pharo.fogbugz.com/f/cases/16401'
+16408 Clean up around changes files
+	https://pharo.fogbugz.com/f/cases/16408'

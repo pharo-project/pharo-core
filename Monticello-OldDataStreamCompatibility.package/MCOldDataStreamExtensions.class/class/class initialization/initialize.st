@@ -9,7 +9,6 @@ initialize
 	MCDataStream registerClass: Rectangle atIndex: 15  usingReadSelector: #readRectangle usingWriteSelector: #writeRectangle:.	
 	MCDataStream registerReaderSelector: #readShortInst atIndex: 16.
 	MCDataStream registerClass: WordArray atIndex: 18  usingReadSelector: #readWordArray usingWriteSelector: #writeBitmap:.	
-	MCDataStream registerReaderSelector: #readWordLike atIndex: 20.
 	MCDataStream registerReaderSelector: #readMethod atIndex: 21.
 
 	
