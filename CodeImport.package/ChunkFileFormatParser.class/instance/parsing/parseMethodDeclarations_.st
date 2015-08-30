@@ -15,7 +15,7 @@ parseMethodDeclarations: methodsPreamble
 	
 	"
 	behaviorName := methodsPreamble first.
-	isMeta := methodsPreamble second ~= #methodsFor:.
+	isMeta := (methodsPreamble second = #class) or:[ methodsPreamble second = #classTrait ].
 	category := isMeta
 		ifTrue: [ methodsPreamble at: 4 ]
 		ifFalse: [ methodsPreamble at: 3 ].

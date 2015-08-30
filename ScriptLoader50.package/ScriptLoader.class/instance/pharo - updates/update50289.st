@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '16340 ExternalBrowser or "Recover lost changes"  broken
+update50289
+	"self new update50289"
+	self withUpdateLog: '16340 ExternalBrowser or "Recover lost changes"  broken
 	https://pharo.fogbugz.com/f/cases/16340
 
 16432 add Color>>#asHexString
@@ -9,4 +10,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/16421
 
 16433 simplify #unreferencedKeys
-	https://pharo.fogbugz.com/f/cases/16433'
+	https://pharo.fogbugz.com/f/cases/16433'.
+	self loadTogether: self script50289 merge: false.
+	self flushCaches.
