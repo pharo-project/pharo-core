@@ -4,7 +4,7 @@ testAsActive
 	RGMethodDefinitionTest compile: 'foo	^ ''first version'''.
 	newMethod := (RGMethodDefinitionTest >> #foo) asActiveRingDefinition.
 	self assert: newMethod isActive.	
-	self assert: newMethod sourcePointer isNil.
+	self assert: newMethod sourcePointer notNil.
 	self assert: newMethod sourceCode = newMethod compiledMethod sourceCode.
 
 	RGMethodDefinitionTest compile: 'foo	^ ''second version'''.

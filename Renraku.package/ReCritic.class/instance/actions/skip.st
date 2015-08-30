@@ -1,3 +1,0 @@
-skip
-	
-	target skip: self  

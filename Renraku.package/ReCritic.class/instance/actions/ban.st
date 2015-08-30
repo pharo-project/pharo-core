@@ -1,0 +1,3 @@
+ban
+	
+	target ban: self  

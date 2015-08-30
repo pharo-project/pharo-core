@@ -1,1 +1,1 @@
-Most of my functionality was removed. The last thing that I do is providing rules that should be run for obtaining critics.
+I provide rules that should be run for obtaining critics.Also I announce critic-related events.Use `ReEngine uniqueInstance announcer` to subscribe.

@@ -8,7 +8,7 @@ nextElementaryLargeIntegerBase: aRadix
 	value := 0.
 	nDigits := 0.
 	lastNonZero := 0.
-	[value isLarge or: [(char := sourceStream next) == nil
+	[value isLarge or: [(char := sourceStream next) isNil
 		or: [digit := char digitValue.
 			(0 > digit or: [digit >= aRadix])
 				and: [sourceStream skip: -1.

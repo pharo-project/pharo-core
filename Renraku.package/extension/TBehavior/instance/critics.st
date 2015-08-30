@@ -10,7 +10,7 @@ critics
 	rules
 		reject: [ :rule |
 			manifest isNotNil and:
-			[ builder skipsRule: rule for: self ] ]
+			[ builder bansRule: rule for: self ] ]
 		thenDo: [ :rule |
 			rule resetResult.
 			rule checkClass: self.
@@ -20,5 +20,7 @@ critics
 					by: rule
 					at: (rule result selectionIntervalFor: self definition)) ].
 			Processor yield ].
+	
+	ReEngine uniqueInstance notifyEntity: self CriticizedWith: critics. .
 	
 	^ critics

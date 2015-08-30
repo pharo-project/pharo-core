@@ -5,6 +5,6 @@ patchLiteralMessage
 	currentToken value == false 
 		ifTrue: 
 			[^currentToken := RBIdentifierToken value: 'false' start: currentToken start].
-	currentToken value == nil 
+	currentToken value isNil 
 		ifTrue: 
 			[^currentToken := RBIdentifierToken value: 'nil' start: currentToken start]

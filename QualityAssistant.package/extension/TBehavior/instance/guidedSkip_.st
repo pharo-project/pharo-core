@@ -1,3 +1,3 @@
 guidedSkip: aCritic
 
-	self skip: aCritic.
+	self ban: aCritic.

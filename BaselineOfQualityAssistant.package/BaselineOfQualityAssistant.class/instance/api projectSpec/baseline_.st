@@ -10,5 +10,5 @@ baseline: spec
 			spec project: 'Renraku' with: [
   				spec
     					className: 'ConfigurationOfRenraku';
-    					version: 'v0.5.0';
+    					version: 'v0.6.0';
     					repository: 'http://smalltalkhub.com/mc/YuriyTymchuk/Configuration/main' ] ]

@@ -1,5 +1,5 @@
 Object subclass: #ReEngine
-	instanceVariableNames: 'rules'
+	instanceVariableNames: 'rules announcer'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Renraku'

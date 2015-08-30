@@ -8,6 +8,10 @@ registerTo: aModel
 	
 		when: NautilusClassSelected
 		send: #selectionChanged:
-		to: self
+		to: self.
 		
+	ReEngine uniqueInstance announcer
+		when: ReCriticBanned
+		send: #criticBanned:
+		to: self
 	

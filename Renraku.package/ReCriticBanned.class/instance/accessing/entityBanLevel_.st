@@ -1,0 +1,2 @@
+entityBanLevel: anObject
+	entityBanLevel := anObject

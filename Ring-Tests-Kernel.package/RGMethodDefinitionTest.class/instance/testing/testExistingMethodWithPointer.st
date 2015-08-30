@@ -5,6 +5,7 @@ testExistingMethodWithPointer
 									
 	self assert: (newMethod parent isNil).
 	self assert: (newMethod parentName == #OrderedCollection).
+	self assert: (newMethod sourcePointer notNil).
 	self assert: (newMethod sourceCode notNil).
 	self assert: (newMethod protocol notNil).
 	self assert: (newMethod stamp notNil).
