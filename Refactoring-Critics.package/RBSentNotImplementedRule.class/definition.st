@@ -1,5 +1,5 @@
 RBBlockLintRule subclass: #RBSentNotImplementedRule
-	instanceVariableNames: ''
+	instanceVariableNames: 'implementorsCache'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Refactoring-Critics-BlockRules'

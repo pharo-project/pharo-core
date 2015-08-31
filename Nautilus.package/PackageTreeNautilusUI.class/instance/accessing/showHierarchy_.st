@@ -11,8 +11,8 @@ showHierarchy: aBoolean
 	((aBoolean not and: [ self model showHierarchy ]) and: [ self selectedClass notNil ])
 		ifTrue:
 			[ 
-			(self selectedMethod isNotNil and: [ self selectedMethod methodClass ~= self selectedClass ])
-				ifTrue: [ self selectPackageFor: self selectedClass ] ]. 
+			(self selectedPackage includesClass: self selectedClass class)
+				ifFalse: [ self selectPackageFor: self selectedClass ] ]. 
 	"We check if we had a selectedMethod before toggling hierarchy button"
 	self model showHierarchy: aBoolean.
 	self updateClassView.

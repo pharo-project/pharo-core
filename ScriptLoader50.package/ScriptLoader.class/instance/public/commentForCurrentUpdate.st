@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '15941 Color>>printHtmlString and Color>>asHTMLColor are similar
-	https://pharo.fogbugz.com/f/cases/15941
+ ^ '16391 Switching hierarchy visually removes selection of a protocol
+	https://pharo.fogbugz.com/f/cases/16391
 
-16416 spec predebug notification window should use text without code highlighting
-	https://pharo.fogbugz.com/f/cases/16416
-
-16267 Fasttable isnt visible in athens (in bloc)
-	https://pharo.fogbugz.com/f/cases/16267'
+14268 RBSentNotImplementedRule: checking for general senders is disabled
+	https://pharo.fogbugz.com/f/cases/14268'
