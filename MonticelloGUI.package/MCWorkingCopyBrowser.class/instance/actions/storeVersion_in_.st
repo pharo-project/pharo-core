@@ -1,2 +1,2 @@
 storeVersion: newVersion in: aRepository
-	self retryOnCredentialRequest: [ aRepository storeVersion: newVersion ]
+	aRepository storeVersion: newVersion

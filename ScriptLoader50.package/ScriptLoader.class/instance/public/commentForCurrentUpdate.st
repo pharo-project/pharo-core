@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16435 add Context>>#sourceNodeExecuted
-	https://pharo.fogbugz.com/f/cases/16435
+ ^ '16370 retryOnCredentialRequest: introduces a lot of repeated code and dependencies into monticello
+	https://pharo.fogbugz.com/f/cases/16370
 
-16434 can not inspect block methods (RBUnpackagedRule)
-	https://pharo.fogbugz.com/f/cases/16434
+16248 Remove unused ClassCategoryReader and ClassCommentReader
+	https://pharo.fogbugz.com/f/cases/16248
 
-16426 new OSWindow integration to clean up wrong merge
-	https://pharo.fogbugz.com/f/cases/16426'
+16439 improve #isUsed a little
+	https://pharo.fogbugz.com/f/cases/16439'
