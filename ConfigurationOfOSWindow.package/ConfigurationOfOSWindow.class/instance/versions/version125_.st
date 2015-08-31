@@ -13,8 +13,4 @@ version125: spec
 			package: 'OSWindow-Core' with: 'OSWindow-Core-MerwanOuddane.93';
 			package: 'OSWindow-SDL2' with: 'OSWindow-SDL2-MerwanOuddane.82';
 			package: 'OSWindow-VM' with: 'OSWindow-VM-MerwanOuddane.4';
-			package: 'NBOpenGL-OSWindow' with: 'NBOpenGL-OSWindow';
-			package: 'NBXLib-Core' with: 'NBXLib-Core';
-			package: 'OSWindow-X11' with: 'OSWindow-X11';
-			package: 'OSWindow-TUIO' with: 'OSWindow-TUIO';
 			package: 'OSWindow-SDL2-Examples' with: 'OSWindow-SDL2-Examples-MerwanOuddane.7'. ].

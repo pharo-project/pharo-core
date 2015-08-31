@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '16340 ExternalBrowser or "Recover lost changes"  broken
-	https://pharo.fogbugz.com/f/cases/16340
+ ^ '16435 add Context>>#sourceNodeExecuted
+	https://pharo.fogbugz.com/f/cases/16435
 
-16432 add Color>>#asHexString
-	https://pharo.fogbugz.com/f/cases/16432
+16434 can not inspect block methods (RBUnpackagedRule)
+	https://pharo.fogbugz.com/f/cases/16434
 
-16421 ChunkWriter does not save correctly wideStrings
-	https://pharo.fogbugz.com/f/cases/16421
-
-16433 simplify #unreferencedKeys
-	https://pharo.fogbugz.com/f/cases/16433'
+16426 new OSWindow integration to clean up wrong merge
+	https://pharo.fogbugz.com/f/cases/16426'
