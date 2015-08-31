@@ -1,4 +1,4 @@
-script50291
+script50292
 
 	^ 'AST-Core-TheIntegrator.363.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -112,10 +112,10 @@ Graphics-Display Objects-TheIntegrator.165.mcz
 Graphics-Files-TheIntegrator.66.mcz
 Graphics-Fonts-TheIntegrator.100.mcz
 Graphics-Fonts-Tests-EstebanLorenzano.3.mcz
-Graphics-Primitives-TheIntegrator.176.mcz
+Graphics-Primitives-TheIntegrator.178.mcz
 Graphics-Resources-TheIntegrator.32.mcz
 Graphics-Shapes-TheIntegrator.2.mcz
-Graphics-Tests-TheIntegrator.74.mcz
+Graphics-Tests-TheIntegrator.76.mcz
 Graphics-Transformations-TheIntegrator.17.mcz
 Growl-TheIntegrator.37.mcz
 HelpSystem-Core-TheIntegrator.131.mcz
@@ -279,7 +279,7 @@ Slot-Tests-TheIntegrator.60.mcz
 SmartSuggestions-TheIntegrator.176.mcz
 SmartSuggestions-Tests-TheIntegrator.10.mcz
 Spec-Core-TheIntegrator.421.mcz
-Spec-Debugger-TheIntegrator.248.mcz
+Spec-Debugger-TheIntegrator.250.mcz
 Spec-Examples-TheIntegrator.98.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.250.mcz

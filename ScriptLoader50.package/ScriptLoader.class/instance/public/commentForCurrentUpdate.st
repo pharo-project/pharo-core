@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16370 retryOnCredentialRequest: introduces a lot of repeated code and dependencies into monticello
-	https://pharo.fogbugz.com/f/cases/16370
+ ^ '15941 Color>>printHtmlString and Color>>asHTMLColor are similar
+	https://pharo.fogbugz.com/f/cases/15941
 
-16248 Remove unused ClassCategoryReader and ClassCommentReader
-	https://pharo.fogbugz.com/f/cases/16248
+16416 spec predebug notification window should use text without code highlighting
+	https://pharo.fogbugz.com/f/cases/16416
 
-16439 improve #isUsed a little
-	https://pharo.fogbugz.com/f/cases/16439'
+16267 Fasttable isnt visible in athens (in bloc)
+	https://pharo.fogbugz.com/f/cases/16267'
