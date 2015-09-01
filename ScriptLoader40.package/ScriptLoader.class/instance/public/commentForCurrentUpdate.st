@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '16388 Backport Pharo4: 16387 remove Cursor read showWhile: from ImageReadWriter>>#formFromStream:
-	https://pharo.fogbugz.com/f/cases/16388'
+ ^ '15935 Backport 4.0: Renaming a package just by changing upper/lowercase removes the package
+	https://pharo.fogbugz.com/f/cases/15935'
