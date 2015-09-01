@@ -4,15 +4,20 @@ gtInspectorPresentationsIn: composite inContext: aGTInspector
 	The inspector can decice whether or not a presentation should be dispayed.
 	Subclasses might want to override it for more special behavior."
 	| pragmas |
-	pragmas := Pragma 
-				allNamed: #gtInspectorPresentationOrder: 
-				from: self class 
-				to: Object
-				sortedUsing: [: x :y | (x argumentAt: 1) < (y argumentAt: 1)].
-	pragmas := pragmas select: [ :aPragma | 
-		aGTInspector shouldDisplayPresentationCreateBy: aPragma method ].
-	pragmas do: [ :eachPragma | 
-		(eachPragma selector findTokens: $:) size = 1 
-			ifTrue: [ self perform: eachPragma selector with: composite ]. 
-		(eachPragma selector findTokens: $:) size = 2
-			ifTrue: [ self perform: eachPragma selector with: composite with: aGTInspector ] ]
+	pragmas := Pragma
+		allNamed: #gtInspectorPresentationOrder:
+		from: self class
+		to: Object
+		sortedUsing: [ :x :y | (x argumentAt: 1) < (y argumentAt: 1) ].
+	pragmas := pragmas select: [ :aPragma | aGTInspector shouldDisplayPresentationCreateBy: aPragma method ].
+	pragmas
+		do: [ :eachPragma | 
+			eachPragma selector numArgs = 0
+				ifTrue: [ 
+					| configurationProvider |
+					configurationProvider := self perform: eachPragma selector.
+					configurationProvider glmPresentation cull: composite cull: aGTInspector cull: self ].
+			eachPragma selector numArgs = 1
+				ifTrue: [ self perform: eachPragma selector with: composite ].
+			eachPragma selector numArgs = 2
+				ifTrue: [ self perform: eachPragma selector with: composite with: aGTInspector ] ]

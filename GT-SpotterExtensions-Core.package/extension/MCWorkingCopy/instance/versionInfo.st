@@ -1,4 +1,4 @@
 versionInfo
 	^ self ancestors 
-		ifNotEmptyDo: [ :list | list first ] 
+		ifNotEmpty: [ :list | list first ] 
 		ifEmpty: [ nil ]

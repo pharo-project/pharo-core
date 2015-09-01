@@ -12,5 +12,5 @@ checkAllPresentationsOf: exampleToTest
 						ifTrue: [ exampleToTest perform: eachPragma selector with: composite with: browser ] ].
 			window := browser openOn: exampleToTest] 
 				on: Error 
-				do: [ self fail: eachPragma asString ].
+				do: [ self fail: (eachPragma method gtDisplayString, ' for ', exampleToTest gtDisplayString)  ].
 			window ifNotNil: [ window delete ] ]

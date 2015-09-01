@@ -1,0 +1,3 @@
+asRecorderEvent
+
+	^ GTSpotterRecorderShowPreviewEvent fromAnnouncement: self

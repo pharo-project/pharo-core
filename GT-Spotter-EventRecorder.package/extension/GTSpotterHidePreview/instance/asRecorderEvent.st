@@ -1,0 +1,3 @@
+asRecorderEvent
+
+	^ GTSpotterRecorderHidePreviewEvent fromAnnouncement: self

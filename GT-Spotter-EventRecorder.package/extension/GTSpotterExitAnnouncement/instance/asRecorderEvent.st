@@ -1,0 +1,3 @@
+asRecorderEvent
+
+	^ GTSpotterRecorderExitAnnouncementEvent fromAnnouncement: self

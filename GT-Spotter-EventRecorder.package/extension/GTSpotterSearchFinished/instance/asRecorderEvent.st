@@ -1,0 +1,3 @@
+asRecorderEvent
+
+	^ GTSpotterRecorderSearchFinishedEvent fromAnnouncement: self

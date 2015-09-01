@@ -1,0 +1,3 @@
+asRecorderEvent
+
+	^ GTSpotterRecorderDiveInElementEvent fromAnnouncement: self

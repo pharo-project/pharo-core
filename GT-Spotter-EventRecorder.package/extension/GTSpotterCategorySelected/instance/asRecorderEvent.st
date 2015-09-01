@@ -1,0 +1,3 @@
+asRecorderEvent
+
+	^ GTSpotterRecorderCategorySelectedEvent fromAnnouncement: self

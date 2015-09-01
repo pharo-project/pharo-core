@@ -1,0 +1,3 @@
+asRecorderEvent
+
+	^ GTSpotterRecorderSelectedCandidateChangedEvent fromAnnouncement: self
