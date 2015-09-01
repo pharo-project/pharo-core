@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#'Graphics-Display Objects' #'Collections-Streams')
+	^ #(#'Collections-Streams')

@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#Transcript #Reflectivity #'System-Support' #'Collections-Abstract' #'System-Localization')
+	^ #(#Transcript #'System-Support' #'Collections-Abstract' #'System-Localization')

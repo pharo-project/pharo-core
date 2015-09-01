@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#Kernel #'Collections-Streams' #'Collections-Abstract')
+	^ #(#'Collections-Streams' #'Collections-Abstract')

@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '16442 ShoreLine Reporter version 0.2.0
-	https://pharo.fogbugz.com/f/cases/16442
+ ^ '16279 Update bootsrap dependencies
+	https://pharo.fogbugz.com/f/cases/16279
 
-15307 Error message not clear when trying to create a class with a name without the first letter in upper case
-	https://pharo.fogbugz.com/f/cases/15307'
+16445 Jobs tests not well packaged
+	https://pharo.fogbugz.com/f/cases/16445
+
+16446 System-Support tests not well packaged
+	https://pharo.fogbugz.com/f/cases/16446'

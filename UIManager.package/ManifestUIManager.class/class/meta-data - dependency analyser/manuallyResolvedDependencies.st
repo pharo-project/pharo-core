@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#'System-Support' #'System-VMEvents' #Jobs #'System-Localization')
+	^ #(#'System-Support' #Traits #Jobs #'System-Localization')

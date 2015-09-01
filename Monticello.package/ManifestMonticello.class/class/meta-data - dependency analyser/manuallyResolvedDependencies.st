@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#'FileSystem-Disk' #'Multilingual-TextConversion' #'System-Sources' #'Ring-Monticello' #'Ring-Core-Kernel' #'OpalCompiler-Core' #'System-Localization' #Jobs)
+	^ #(#'FileSystem-Disk' #'Multilingual-TextConversion' #'Ring-Monticello' #'Ring-Core-Kernel' #'OpalCompiler-Core' #'System-Localization' #Jobs)

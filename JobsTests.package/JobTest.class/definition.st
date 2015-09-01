@@ -1,5 +1,5 @@
-TestCase subclass: #MethodQueryTest
+TestCase subclass: #JobTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'System-Support-Tests'
+	category: 'JobsTests'
