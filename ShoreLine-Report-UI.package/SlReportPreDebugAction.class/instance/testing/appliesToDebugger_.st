@@ -1,3 +1,3 @@
 appliesToDebugger: aDebugger
 
-	^ (self showWithDebugger: aDebugger) & (super appliesToDebugger: aDebugger)
+	^ (self showWithDebugger: aDebugger) and: [ super appliesToDebugger: aDebugger ]

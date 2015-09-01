@@ -2,5 +2,5 @@ forDebugger: aDebugger
 
 	^ self basicNew initialize
 		debugger: aDebugger;
-		generateReport;
+		updateReport;
 		yourself

@@ -1,15 +1,10 @@
 initializeWidgets
 
-	self instantiateModels: {
-		#sendButton -> #ButtonModel.
-		#cancel -> #ButtonModel.
-		"#granularity -> #DropListModel."
-		#autoSubmit -> #CheckBoxModel.
-		#help -> #ImageModel.
-		#stack -> #TextModel "#SpecDebuggerStack"
-	}.
-	
+	sendButton := self newButton.
+	cancel := self newButton.
+	"#granularity -> #DropListModel."
+	autoSubmit := self newCheckBox.
+	help := self newImage.
+	stack := self newText beForText; disable; yourself.
+
 	self initializeControls.
-	
-	"stacktrace := self newList.
-	stacktrace items: Smalltalk allClasses."

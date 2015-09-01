@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '16391 Switching hierarchy visually removes selection of a protocol
-	https://pharo.fogbugz.com/f/cases/16391
+ ^ '16442 ShoreLine Reporter version 0.2.0
+	https://pharo.fogbugz.com/f/cases/16442
 
-14268 RBSentNotImplementedRule: checking for general senders is disabled
-	https://pharo.fogbugz.com/f/cases/14268'
+15307 Error message not clear when trying to create a class with a name without the first letter in upper case
+	https://pharo.fogbugz.com/f/cases/15307'
