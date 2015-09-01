@@ -3,4 +3,5 @@ release
 	| p |
 	(debugger isNil or: [	(p := debugger interruptedProcess) isNil 
 							or: [p isTerminated]]) ifTrue: [^self].
-       p terminate
+    p terminate.
+	super relase.

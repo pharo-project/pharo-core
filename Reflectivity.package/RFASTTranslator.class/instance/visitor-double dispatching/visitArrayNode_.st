@@ -7,4 +7,6 @@ visitArrayNode: anArrayNode
 	elementNodes := anArrayNode children.
 	elementNodes do: [:node | valueTranslator visitNode: node].
 	self emitMetaLinkBefore: anArrayNode.
-	methodBuilder pushConsArray: elementNodes size.
+	anArrayNode hasMetalinkInstead
+		ifTrue: [ self emitMetaLinkInstead: anArrayNode ]
+		ifFalse: [ methodBuilder pushConsArray: elementNodes size ]

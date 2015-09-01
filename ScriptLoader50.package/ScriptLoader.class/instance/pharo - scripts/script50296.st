@@ -1,6 +1,6 @@
-script50295
+script50296
 
-	^ 'AST-Core-TheIntegrator.366.mcz
+	^ 'AST-Core-TheIntegrator.367.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
 Announcements-Core-TheIntegrator.57.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -19,7 +19,7 @@ Athens-Core-maxmattone.54.mcz
 Athens-Examples-TudorGirba.43.mcz
 Athens-Morphic-TheIntegrator.59.mcz
 Athens-Text-NicolaiHess.16.mcz
-Balloon-TheIntegrator.123.mcz
+Balloon-TheIntegrator.125.mcz
 BalloonTests-MarcusDenker.3.mcz
 BaselineOfQualityAssistant-YuriyTymchuk.12.mcz
 BaselineOfRenraku-YuriyTymchuk.4.mcz
@@ -53,7 +53,7 @@ Debugger-Tests-TheIntegrator.2.mcz
 DebuggerActions-StephaneDucasse.76.mcz
 DebuggerFilters-TheIntegrator.9.mcz
 DebuggerModel-TheIntegrator.112.mcz
-Deprecated50-TheIntegrator.19.mcz
+Deprecated50-TheIntegrator.21.mcz
 EmbeddedFreeType-TheIntegrator.24.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-MarcusDenker.32.mcz
@@ -112,7 +112,7 @@ Graphics-Display Objects-TheIntegrator.165.mcz
 Graphics-Files-TheIntegrator.66.mcz
 Graphics-Fonts-TheIntegrator.100.mcz
 Graphics-Fonts-Tests-EstebanLorenzano.3.mcz
-Graphics-Primitives-TheIntegrator.178.mcz
+Graphics-Primitives-TheIntegrator.180.mcz
 Graphics-Resources-TheIntegrator.32.mcz
 Graphics-Shapes-TheIntegrator.2.mcz
 Graphics-Tests-TheIntegrator.76.mcz
@@ -240,9 +240,9 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.36.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.146.mcz
+Reflectivity-TheIntegrator.148.mcz
 Reflectivity-Examples-TheIntegrator.2.mcz
-Reflectivity-Tests-TheIntegrator.110.mcz
+Reflectivity-Tests-TheIntegrator.112.mcz
 Regex-Core-TheIntegrator.36.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -336,7 +336,7 @@ Tool-SystemReporter-TheIntegrator.15.mcz
 Tool-Transcript-TheIntegrator.17.mcz
 Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.30.mcz
-Tools-TheIntegrator.1508.mcz
+Tools-TheIntegrator.1510.mcz
 Tools-Test-TheIntegrator.4.mcz
 Traits-TheIntegrator.832.mcz
 Transcript-TheIntegrator.43.mcz
