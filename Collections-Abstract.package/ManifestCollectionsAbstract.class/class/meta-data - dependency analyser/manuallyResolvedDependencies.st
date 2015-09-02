@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#'Graphics-Primitives' #'Collections-Arithmetic' #Traits #'System-Localization')
+	^ #(#'Collections-Arithmetic' #Traits #'System-Localization')

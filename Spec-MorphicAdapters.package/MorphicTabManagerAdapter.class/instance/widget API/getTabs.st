@@ -1,3 +1,2 @@
 getTabs
-
-	^ [ self model tabs collect: [ :each | each buildWithSpec asWidget ] ]
+	^ [ (self model tabs collect: [ :each | self buildTab: each ]) collect: #asWidget ]

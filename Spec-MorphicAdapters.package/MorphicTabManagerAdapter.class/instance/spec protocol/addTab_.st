@@ -1,3 +1,2 @@
 addTab: aTab
-
-	self widgetDo: [ :w | w addTab: aTab buildWithSpec ]
+	self widgetDo: [ :w | w addTab: (self buildTab: aTab) ]

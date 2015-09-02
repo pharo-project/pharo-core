@@ -1,5 +1,5 @@
 TestCase subclass: #TabModelTest
-	instanceVariableNames: ''
+	instanceVariableNames: 'manager window redTab'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-Tests'
