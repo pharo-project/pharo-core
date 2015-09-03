@@ -1,2 +1,2 @@
 selectionInterval
-	^ self sourceTextArea selectionInterval
+	^ model selectionInterval

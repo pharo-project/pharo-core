@@ -1,3 +1,3 @@
 selectTheTextForTheNode
-	selectionPreviousHighligth := self selectedInterval .
-	selectedNode ifNotNil: [ model contentSelection ]
+	selectionPreviousHighligth := self selectedInterval.
+	selectedNode ifNotNil: [ self contentSelection ]

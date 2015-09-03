@@ -1,2 +1,2 @@
 contentSelection
-	^ self sourceTextArea contentSelection
+	^ model contentSelection

@@ -3,6 +3,6 @@ formatSourceCode
 	formatted := selectedNode formattedCode.
 	formatted = self code
 		ifTrue: [ ^ self ].
-	self sourceTextArea sourceTextModel
+	self sourceTextArea
 		formatSourceCodeInView;
 		hasUnacceptedEdits: true

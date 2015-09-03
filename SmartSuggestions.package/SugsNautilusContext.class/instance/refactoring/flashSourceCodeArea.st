@@ -1,2 +1,2 @@
 flashSourceCodeArea
-	^ self sourceTextArea flashSourceCodeArea
+	^ model flashSourceCodeArea

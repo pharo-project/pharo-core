@@ -1,3 +1,3 @@
 linkToSpotter: aSpotterModel
 
-	aSpotterModel announcer weak when: Announcement send: #recordAccouncement: to: self
+	aSpotterModel announcer weak when: Announcement send: #recordAnnouncement: to: self

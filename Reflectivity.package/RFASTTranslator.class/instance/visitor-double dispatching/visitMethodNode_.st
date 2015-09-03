@@ -8,12 +8,16 @@ visitMethodNode: aMethodNode
 	methodBuilder addTemps: aMethodNode scope tempVarNames.
 	
 	self emitMetaLinkBefore: aMethodNode.
-		
+
 	methodBuilder properties: aMethodNode properties.
 	methodBuilder irPrimitive: aMethodNode primitiveFromPragma.
 	aMethodNode pragmas do: [:each | self visitPragmaNode: each].
 	methodBuilder numArgs: aMethodNode arguments size.
 	
+	aMethodNode hasMetalinkInstead
+				ifTrue: [ self emitMetaLinkInstead: aMethodNode. methodBuilder returnTop.
+						^self. ].
+				
 	aMethodNode scope tempVector ifNotEmpty: [
 		methodBuilder 
 			createTempVectorNamed: aMethodNode scope tempVectorName 
