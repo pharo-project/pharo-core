@@ -1,4 +1,4 @@
-script50301
+script50302
 
 	^ 'AST-Core-TheIntegrator.367.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -47,7 +47,6 @@ Compiler-TheIntegrator.596.mcz
 Compression-TheIntegrator.164.mcz
 Compression-Registration-TheIntegrator.5.mcz
 Compression-Tests-TheIntegrator.2.mcz
-CompressionTests-TheIntegrator.30.mcz
 ConfigurationCommandLineHandler-Core-TheIntegrator.29.mcz
 ConfigurationCommandLineHandler-Tests-MarcusDenker.11.mcz
 Debugger-Tests-TheIntegrator.2.mcz
@@ -74,7 +73,6 @@ FontInfrastructure-TheIntegrator.8.mcz
 FontInfrastructure-Tests-TheIntegrator.2.mcz
 FreeType-TheIntegrator.714.mcz
 FreeType-Tests-TheIntegrator.2.mcz
-FreeTypeTests-TheIntegrator.6.mcz
 Fuel-TheIntegrator.815.mcz
 FuelCommandLineHandler-TheIntegrator.27.mcz
 FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
@@ -169,7 +167,7 @@ MonticelloGUI-TheIntegrator.384.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Morphic-Base-TheIntegrator.477.mcz
-Morphic-Core-TheIntegrator.207.mcz
+Morphic-Core-TheIntegrator.210.mcz
 Morphic-Examples-TheIntegrator.46.mcz
 Morphic-Tests-TheIntegrator.2.mcz
 Morphic-Widgets-Basic-TheIntegrator.57.mcz
@@ -178,13 +176,12 @@ Morphic-Widgets-Extra-TheIntegrator.24.mcz
 Morphic-Widgets-FastTable-NicolaiHess.44.mcz
 Morphic-Widgets-List-TheIntegrator.21.mcz
 Morphic-Widgets-NewList-TheIntegrator.7.mcz
-Morphic-Widgets-Pluggable-TheIntegrator.59.mcz
-Morphic-Widgets-Scrolling-TheIntegrator.25.mcz
+Morphic-Widgets-Pluggable-TheIntegrator.62.mcz
+Morphic-Widgets-Scrolling-TheIntegrator.28.mcz
 Morphic-Widgets-Tabs-TheIntegrator.16.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.11.mcz
 Morphic-Widgets-Tree-TheIntegrator.33.mcz
 Morphic-Widgets-Windows-TheIntegrator.61.mcz
-MorphicTests-TheIntegrator.102.mcz
 Multilingual-Encodings-TheIntegrator.55.mcz
 Multilingual-Languages-TheIntegrator.42.mcz
 Multilingual-OtherLanguages-TheIntegrator.19.mcz
@@ -221,7 +218,7 @@ OSWindow-Core-MerwanOuddane.94.mcz
 OSWindow-SDL2-MerwanOuddane.83.mcz
 OSWindow-SDL2-Examples-MerwanOuddane.7.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
-OpalCompiler-Core-TheIntegrator.729.mcz
+OpalCompiler-Core-TheIntegrator.731.mcz
 OpalCompiler-Tests-TheIntegrator.305.mcz
 OpalTools-TheIntegrator.18.mcz
 Pharo-Help-TheIntegrator.15.mcz
@@ -243,9 +240,9 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.36.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.150.mcz
+Reflectivity-TheIntegrator.152.mcz
 Reflectivity-Examples-TheIntegrator.2.mcz
-Reflectivity-Tests-TheIntegrator.114.mcz
+Reflectivity-Tests-TheIntegrator.116.mcz
 Regex-Core-TheIntegrator.36.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz

@@ -1,8 +1,6 @@
 testAfterAssignment
 	| assignmentNode link |
 	
-	self skip.
-	
 	assignmentNode := (ReflectivityExamples >> #exampleAssignment) assignmentNodes first.
 	link := MetaLink new
 		metaObject: self;

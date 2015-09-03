@@ -9,4 +9,5 @@ visitArrayNode: anArrayNode
 	self emitMetaLinkBefore: anArrayNode.
 	anArrayNode hasMetalinkInstead
 		ifTrue: [ self emitMetaLinkInstead: anArrayNode ]
-		ifFalse: [ methodBuilder pushConsArray: elementNodes size ]
+		ifFalse: [ methodBuilder pushConsArray: elementNodes size ].
+	self emitMetaLinkAfterNoEnsure: anArrayNode.

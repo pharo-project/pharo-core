@@ -1,2 +1,2 @@
 visitVariableValue: aVariable
-	aVariable emitValue: methodBuilder
+	aVariable emitValue: methodBuilder.

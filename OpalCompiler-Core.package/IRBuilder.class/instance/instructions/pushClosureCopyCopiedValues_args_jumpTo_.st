@@ -7,7 +7,7 @@ pushClosureCopyCopiedValues: copiedValuesNames args: args jumpTo: aJumpLabel
 	(jumpAheadStacks at: aJumpLabel ifAbsentPut: [OrderedCollection new]) addLast: irInstruction.
 	self startNewSequence.
 	irInstruction blockSequence: currentSequence.
-	self pushScope:  irInstruction.
+	self pushScope: irInstruction.
 	self addTemps: args.
 	self addTemps: copiedValuesNames.
 

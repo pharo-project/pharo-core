@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '14432 FreeTypeTests package should be FreeType-Tests
-	https://pharo.fogbugz.com/f/cases/14432
+ ^ '16452 Improve Morph>>layoutProportionallyIn:
+	https://pharo.fogbugz.com/f/cases/16452
 
-14427 CompressionTests package should be Compression-Tests
-	https://pharo.fogbugz.com/f/cases/14427
-
-14434 MorphicTests package should be Morphic-Tests
-	https://pharo.fogbugz.com/f/cases/14434'
+16471 Pass over #after: make after work for assignment
+	https://pharo.fogbugz.com/f/cases/16471'
