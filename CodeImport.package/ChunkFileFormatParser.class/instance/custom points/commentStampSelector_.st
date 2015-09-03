@@ -1,0 +1,2 @@
+commentStampSelector: anObject
+	commentStampSelector := anObject

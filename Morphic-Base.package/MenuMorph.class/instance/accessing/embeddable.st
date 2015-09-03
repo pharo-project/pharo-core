@@ -1,2 +1,2 @@
 embeddable
-	^ embeddable ifNil: [embeddable := false].
+	^self valueOfProperty: #embeddable ifAbsent: [ false ]. 

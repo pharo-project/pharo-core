@@ -1,0 +1,2 @@
+methodsForSelector: anObject
+	methodsForSelector := anObject

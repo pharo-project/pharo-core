@@ -1,4 +1,4 @@
-script50299
+script50300
 
 	^ 'AST-Core-TheIntegrator.367.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -28,7 +28,7 @@ BlueInk-Extras-TheIntegrator.6.mcz
 BlueInk-Tests-TheIntegrator.8.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
 CodeExport-TheIntegrator.10.mcz
-CodeImport-TheIntegrator.73.mcz
+CodeImport-TheIntegrator.75.mcz
 CodeImportCommandLineHandlers-EstebanLorenzano.2.mcz
 Collections-Abstract-TheIntegrator.298.mcz
 Collections-Arithmetic-TheIntegrator.20.mcz
@@ -82,7 +82,7 @@ GT-Inspector-AndreiChis.310.mcz
 GT-InspectorExtensions-Core-TorstenBergmann.159.mcz
 GT-Playground-AndreiChis.112.mcz
 GT-Spotter-TheIntegrator.319.mcz
-GT-Spotter-EventRecorder-YuriyTymchuk.94.mcz
+GT-Spotter-EventRecorder-JurajKubelka.96.mcz
 GT-SpotterExtensions-Core-MarcusDenker.156.mcz
 GT-Tests-Inspector-TudorGirba.34.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
@@ -166,7 +166,7 @@ MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
 MonticelloGUI-TheIntegrator.384.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
-Morphic-Base-TheIntegrator.475.mcz
+Morphic-Base-TheIntegrator.477.mcz
 Morphic-Core-TheIntegrator.207.mcz
 Morphic-Examples-TheIntegrator.46.mcz
 Morphic-Widgets-Basic-TheIntegrator.57.mcz
@@ -203,7 +203,7 @@ Nautilus-GroupManagerUI-TheIntegrator.20.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
 NautilusCommon-TheIntegrator.280.mcz
 NautilusGroupAutoBuilder-FranckWarlouzet.6.mcz
-NautilusRefactoring-TheIntegrator.249.mcz
+NautilusRefactoring-TheIntegrator.251.mcz
 Network-Kernel-TheIntegrator.118.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.43.mcz
@@ -233,7 +233,7 @@ RPackage-Core-TheIntegrator.410.mcz
 RPackage-Tests-TheIntegrator.175.mcz
 RecentSubmissions-TheIntegrator.235.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
-Refactoring-Core-TheIntegrator.285.mcz
+Refactoring-Core-TheIntegrator.287.mcz
 Refactoring-Critics-TheIntegrator.214.mcz
 Refactoring-Environment-TheIntegrator.61.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
@@ -264,7 +264,7 @@ SUnit-Core-TheIntegrator.154.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Tests-TheIntegrator.48.mcz
 SUnit-UI-TheIntegrator.129.mcz
-SUnit-UITesting-TheIntegrator.23.mcz
+SUnit-UITesting-TheIntegrator.25.mcz
 ScriptLoader-Tests-TheIntegrator.4.mcz
 Settings-Graphics-StephaneDucasse.28.mcz
 Settings-Polymorph-TheIntegrator.80.mcz

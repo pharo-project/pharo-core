@@ -10,5 +10,10 @@ parseClassOrganization: classOrganizationPreamble
 
 	| behaviorName isMeta |
 	behaviorName := classOrganizationPreamble first.
-	isMeta := classOrganizationPreamble second ~= #reorganize.
-	self addDeclaration: (ClassOrganizationChunk contents: readStream next behaviorName: behaviorName isMeta: isMeta)
+	isMeta := classOrganizationPreamble second ~= self reorganizeSelector.
+	self
+		addDeclaration:
+			(self classOrganisationChunkClass
+				contents: readStream next
+				behaviorName: behaviorName
+				isMeta: isMeta)

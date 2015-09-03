@@ -1,0 +1,2 @@
+classCommentChunkClass
+	^ ClassCommentChunk

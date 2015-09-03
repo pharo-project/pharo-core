@@ -10,14 +10,15 @@ parseCommentDeclaration: commentPreamble
 	"
 
 	| behaviorName isMeta stamp |
+	self asSetElement.
 	behaviorName := commentPreamble first asSymbol.
-	isMeta := commentPreamble second ~= #commentStamp:.
+	isMeta := commentPreamble second ~= self commentStampSelector.
 	stamp := isMeta
 		ifTrue: [ commentPreamble at: 4 ]
 		ifFalse: [ commentPreamble at: 3 ].
 	self
 		addDeclaration:
-			(ClassCommentChunk
+			(self classCommentChunkClass
 				contents: readStream next
 				behaviorName: behaviorName
 				isMeta: isMeta

@@ -1,2 +1,2 @@
 embeddable: aBoolean
-	embeddable := aBoolean
+	self setProperty: #embeddable toValue: aBoolean

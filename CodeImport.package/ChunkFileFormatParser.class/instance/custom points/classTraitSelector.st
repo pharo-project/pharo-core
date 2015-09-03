@@ -1,0 +1,2 @@
+classTraitSelector
+	^ classTraitSelector

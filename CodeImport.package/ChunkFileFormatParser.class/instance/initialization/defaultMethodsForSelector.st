@@ -1,0 +1,2 @@
+defaultMethodsForSelector
+	^ #methodsFor:

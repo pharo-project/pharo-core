@@ -1,5 +1,3 @@
 parseChunks
-	[ readStream atEnd ] whileFalse: [
-		self parseNextDeclaration.
-	].
-	^parsedDeclarations
+	[ readStream atEnd ] whileFalse: [ self parseNextDeclaration ].
+	^ parsedDeclarations 

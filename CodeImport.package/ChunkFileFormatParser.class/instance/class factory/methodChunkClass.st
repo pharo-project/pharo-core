@@ -1,0 +1,2 @@
+methodChunkClass
+	^ MethodChunk

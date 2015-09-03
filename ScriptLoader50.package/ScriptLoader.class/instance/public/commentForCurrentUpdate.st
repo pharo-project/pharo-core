@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16464 Smart suggestion is broken
-	https://pharo.fogbugz.com/f/cases/16464
+ ^ '16461 ChunkFileParser
+	https://pharo.fogbugz.com/f/cases/16461
 
-16458 #instead for MethodNode
-	https://pharo.fogbugz.com/f/cases/16458
+16459 Refactoring remove method parameter doesnt work
+	https://pharo.fogbugz.com/f/cases/16459
 
-16455 Spotter dying on not understanding #canUnderstand:
-	https://pharo.fogbugz.com/f/cases/16455'
+16457 Minor improvements to MenuMorph
+	https://pharo.fogbugz.com/f/cases/16457'

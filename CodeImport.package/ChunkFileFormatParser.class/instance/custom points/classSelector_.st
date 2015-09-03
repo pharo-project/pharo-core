@@ -1,0 +1,2 @@
+classSelector: anObject
+	classSelector := anObject

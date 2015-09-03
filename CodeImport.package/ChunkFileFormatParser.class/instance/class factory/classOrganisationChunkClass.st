@@ -1,0 +1,2 @@
+classOrganisationChunkClass
+	^ ClassOrganizationChunk

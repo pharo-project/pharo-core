@@ -1,5 +1,5 @@
 AlignmentMorph subclass: #MenuMorph
-	instanceVariableNames: 'defaultTarget selectedItem stayUp popUpOwner activeSubMenu embeddable menuItems basicColor'
+	instanceVariableNames: 'defaultTarget selectedItem stayUp popUpOwner activeSubMenu menuItems'
 	classVariableNames: 'CloseBoxImage PushPinImage'
 	poolDictionaries: ''
 	category: 'Morphic-Base-Menus'

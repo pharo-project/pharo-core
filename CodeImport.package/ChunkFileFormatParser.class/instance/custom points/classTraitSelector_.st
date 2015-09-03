@@ -1,0 +1,2 @@
+classTraitSelector: anObject
+	classTraitSelector := anObject

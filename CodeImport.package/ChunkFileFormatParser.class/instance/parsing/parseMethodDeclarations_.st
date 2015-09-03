@@ -15,23 +15,26 @@ parseMethodDeclarations: methodsPreamble
 	
 	"
 	behaviorName := methodsPreamble first.
-	isMeta := (methodsPreamble second = #class) or:[ methodsPreamble second = #classTrait ].
+	isMeta := methodsPreamble second = self classSelector
+		or: [ methodsPreamble second = self classTraitSelector ].
 	category := isMeta
 		ifTrue: [ methodsPreamble at: 4 ]
 		ifFalse: [ methodsPreamble at: 3 ].
 	stamp := ''.
 	methodsPreamble size > 4
-		ifTrue: [ 
+		ifTrue:
+			[ 
 			stamp := isMeta
 				ifTrue: [ methodsPreamble at: 6 ]
 				ifFalse: [ methodsPreamble at: 5 ] ].
 	[ 
 	methodSource := readStream next.
 	methodSource notEmpty ]
-		whileTrue: [ 
+		whileTrue:
+			[ 
 			self
 				addDeclaration:
-					(MethodChunk
+					(self methodChunkClass
 						contents: methodSource
 						behaviorName: behaviorName asSymbol
 						isMeta: isMeta

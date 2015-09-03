@@ -1,0 +1,2 @@
+defaultCommentStampSelector
+	^ #commentStamp:
