@@ -1,1 +1,1 @@
-A NautilusClassSelected is raised when a class is selected
+I announce when a class is selected, and also contain an information about selected package

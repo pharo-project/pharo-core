@@ -19,7 +19,7 @@ updateMethodSelection: aMethod
 	model  
 		package: model selectedPackage 
 		class: aMethod methodClass 
-		category: aMethod category 
+		protocol: aMethod category 
 		method: aMethod method.
 	model ui 
 		updateClassView;

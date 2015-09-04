@@ -15,6 +15,6 @@ findMethod
 	self model
 		package: self selectedPackage
 		class: self selectedClass
-		category: foundMethod protocol
+		protocol: foundMethod protocol
 		method: foundMethod.
 	self updateCategoryAndMethodList

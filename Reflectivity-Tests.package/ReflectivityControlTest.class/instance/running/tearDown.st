@@ -1,2 +1,0 @@
-tearDown
-	ReflectivityExamples recompile

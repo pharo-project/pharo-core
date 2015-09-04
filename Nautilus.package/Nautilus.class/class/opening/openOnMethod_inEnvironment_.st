@@ -7,7 +7,7 @@ openOnMethod: aMethod inEnvironment: anEnvironment
 		showInstance: class isMeta not;
 		package: (self parentOfClass: class)
 			class: class
-			category: aMethod protocol asString
+			protocol: aMethod protocol asString
 			method: aMethod;
 		open.
 	instance ui

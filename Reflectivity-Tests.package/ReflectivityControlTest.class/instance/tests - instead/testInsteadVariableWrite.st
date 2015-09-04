@@ -1,14 +1,15 @@
 testInsteadVariableWrite
-	| varNode link instance|
-	varNode := (ReflectivityExamples>>#exampleAssignment) variableWriteNodes first.
-	link := MetaLink new 
-		metaObject: #context; 
+	| varNode link instance |
+	varNode := (ReflectivityExamples >> #exampleAssignment) variableWriteNodes first.
+	link := MetaLink new
+		metaObject: #context;
 		selector: #tempNamed:put:;
 		control: #instead;
-		arguments: #(name newValue).
+		arguments: #(#name #newValue).
 	varNode link: link.
 	self assert: varNode hasMetalink.
-	self assert: (ReflectivityExamples>>#exampleAssignment) class = ReflectiveMethod.
+	self assert: (ReflectivityExamples >> #exampleAssignment) class = ReflectiveMethod.
 	instance := ReflectivityExamples new.
-	self assert: (instance exampleAssignment = 3).
-	link uninstall. 
+	self assert: instance exampleAssignment = 3.
+	link uninstall.
+	ReflectivityExamples recompile: #exampleAssignment.

@@ -1,0 +1,2 @@
+selectedProtocol: anObject
+	protocol := anObject

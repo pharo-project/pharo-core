@@ -1,0 +1,3 @@
+method
+
+	^ self selectedMethod 

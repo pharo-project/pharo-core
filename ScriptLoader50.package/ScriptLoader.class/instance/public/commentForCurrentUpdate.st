@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '13200 Monticello Changes Browser awkward with long slice numbers
-	https://pharo.fogbugz.com/f/cases/13200
+ ^ '16475 Nautilus sends too many announcements for a single action
+	https://pharo.fogbugz.com/f/cases/16475
 
-14024 Deprecated Announcer methods
-	https://pharo.fogbugz.com/f/cases/14024
-
-14433 KernelTests package should be Kernel-Tests
-	https://pharo.fogbugz.com/f/cases/14433'
+16477 Fixes: #before on sequence, after on Block
+	https://pharo.fogbugz.com/f/cases/16477'

@@ -8,9 +8,7 @@ selectedPackageWithoutChangingSelection: aPackage
 				ifTrue: [ self selectedClass: nil ].
 			self model
 				package: aPackage
-				class: self selectedClass
-				category: nil
-				method: nil.
+				class: self selectedClass.
 			self packageWidget selectPackage: aPackage.
 			self updateClassView.
 			self updateCategoryAndMethodList ]

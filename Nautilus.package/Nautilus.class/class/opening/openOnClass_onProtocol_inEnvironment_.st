@@ -6,7 +6,7 @@ openOnClass: aClass onProtocol: aProtocol inEnvironment: anEnvironment
 		browsedEnvironment: anEnvironment;
 		showInstance: aClass isMeta not;
 		selectedCategory: aProtocol;
-		package: aClass package class: aClass category: nil method: nil;
+		package: aClass package class: aClass;
 		open.
 	instance ui 
 		showHierarchy: false.

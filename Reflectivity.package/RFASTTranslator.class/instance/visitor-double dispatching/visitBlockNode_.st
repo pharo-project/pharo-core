@@ -22,5 +22,7 @@ visitBlockNode: aBlockNode
 	valueTranslator visitNode: aBlockNode body.
 	methodBuilder addBlockReturnTopIfRequired.
 	self flag: 'why dont we just add a blockReturnTop here... it could be removed or ignored in IRTranslator'.
-	methodBuilder jumpAheadTarget: #block.		
+	methodBuilder jumpAheadTarget: #block.
+	self emitMetaLinkAfterNoEnsure: aBlockNode.
+	
 

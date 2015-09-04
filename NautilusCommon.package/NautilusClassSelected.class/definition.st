@@ -1,4 +1,4 @@
-Announcement subclass: #NautilusClassSelected
+NautilusPackageSelected subclass: #NautilusClassSelected
 	instanceVariableNames: 'class'
 	classVariableNames: ''
 	poolDictionaries: ''

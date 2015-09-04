@@ -1,6 +1,5 @@
 testBeforeAssignment
 	| assignmentNode link |
-	
 	assignmentNode := (ReflectivityExamples >> #exampleAssignment) assignmentNodes first.
 	link := MetaLink new
 		metaObject: self;
@@ -12,4 +11,5 @@ testBeforeAssignment
 	self assert: ReflectivityExamples new exampleAssignment = 3.
 	self assert: tag = 'yes'.
 	self assert: (ReflectivityExamples >> #exampleAssignment) class = CompiledMethod.
-	link uninstall
+	link uninstall.
+	ReflectivityExamples recompile: #exampleBlock.

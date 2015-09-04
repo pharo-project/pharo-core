@@ -1,3 +1,5 @@
 package: aPackage
 
-	^ self new package: aPackage
+	^ self new
+		selectedPackage: aPackage;
+		yourself

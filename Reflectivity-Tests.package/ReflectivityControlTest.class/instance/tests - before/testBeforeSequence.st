@@ -1,10 +1,11 @@
 testBeforeSequence
 	| seqNode link |
 	seqNode := (ReflectivityExamples >> #exampleAssignment) ast body.
+	self assert: seqNode isSequence.
 	link := MetaLink new
 		metaObject: self;
 		selector: #tagExec.
-	self assert: (seqNode isKindOf: RBSequenceNode).	
+	self assert: (seqNode isKindOf: RBSequenceNode).
 	seqNode link: link.
 	self assert: seqNode hasMetalinkBefore.
 	self assert: (ReflectivityExamples >> #exampleAssignment) class = ReflectiveMethod.
@@ -12,4 +13,5 @@ testBeforeSequence
 	self assert: ReflectivityExamples new exampleAssignment = 3.
 	self assert: tag = 'yes'.
 	self assert: (ReflectivityExamples >> #exampleAssignment) class = CompiledMethod.
-	link uninstall
+	link uninstall.
+	ReflectivityExamples recompile: #exampleAssignment

@@ -6,8 +6,6 @@ openOnClass: aClass onGroup: aGroup inEnvironment: anEnvironment
 	instance selectedGroup: aGroup.
 	instance
 		package: aClass package
-		class: aClass
-		category: nil
-		method: nil.
+		class: aClass.
 	instance open.
 	^ instance

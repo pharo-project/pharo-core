@@ -1,6 +1,7 @@
 testAfterLiteral
 	| literalNode link |
 	literalNode := (ReflectivityExamples >> #exampleLiteral) ast statements first value.
+	self assert: literalNode isLiteralNode.
 	link := MetaLink new
 		metaObject: self;
 		selector: #tagExec;
@@ -13,4 +14,5 @@ testAfterLiteral
 	self assert: tag = 'yes'.
 	self assert: (ReflectivityExamples >> #exampleLiteral) class = CompiledMethod.
 	self deny: (ReflectivityExamples >> #exampleLiteral) isQuick.
-	link uninstall
+	link uninstall.
+	ReflectivityExamples recompile: #exampleLiteral

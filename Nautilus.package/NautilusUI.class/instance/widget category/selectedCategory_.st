@@ -5,8 +5,7 @@ selectedCategory: protocol
 			self model
 				package: self selectedPackage
 				class: self selectedClass
-				category: protocol
-				method: nil.
+				protocol: protocol.
 			self resetMethodsListSelection.
 			protocol
 				ifNil: [ acceptor := ClassOrMethodDefinitionAcceptor model: self ]

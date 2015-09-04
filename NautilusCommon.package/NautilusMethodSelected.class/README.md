@@ -1,1 +1,1 @@
-A NautilusMethodSelected is raised each time a mehod is selected
+I announce when a method is selected, and also contain an information about selected package, class and protocol

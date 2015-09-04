@@ -1,14 +1,15 @@
 testInsteadVariableReadGlobal
-	| varNode link instance|
-	varNode := (ReflectivityExamples>>#exampleGlobalRead) variableReadNodes first.
-	link := MetaLink new 
-		metaObject: #class; 
+	| varNode link instance |
+	varNode := (ReflectivityExamples >> #exampleGlobalRead) variableReadNodes first.
+	link := MetaLink new
+		metaObject: #class;
 		selector: #bindingOf:;
 		control: #instead;
-		arguments: #(name).
+		arguments: #(#name).
 	varNode link: link.
 	self assert: varNode hasMetalink.
-	self assert: (ReflectivityExamples>>#exampleGlobalRead) class = ReflectiveMethod.
+	self assert: (ReflectivityExamples >> #exampleGlobalRead) class = ReflectiveMethod.
 	instance := ReflectivityExamples new.
-	self assert: (instance exampleGlobalRead value = GlobalForTesting).
-	link uninstall. 
+	self assert: instance exampleGlobalRead value = GlobalForTesting.
+	link uninstall.
+	ReflectivityExamples recompile: #exampleGlobalRead.

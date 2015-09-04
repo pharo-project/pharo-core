@@ -5,9 +5,7 @@ openOnClass: aClass inEnvironment: anEnvironment
 		browsedEnvironment: anEnvironment;
 		showInstance: aClass isMeta not;
 		package: (self parentOfClass: aClass)
-			class: aClass
-			category: nil
-			method: nil;
+			class: aClass;
 		open.
 	instance ui
 		useLastPackagePatternStringForClass: aClass;

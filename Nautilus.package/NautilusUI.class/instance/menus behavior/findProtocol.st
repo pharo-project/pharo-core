@@ -14,7 +14,6 @@ findProtocol
 	self model
 		package: class package
 		class: class
-		category: foundProtocol
-		method: nil.
+		protocol: foundProtocol.
 	self updatePackageGroupAndClassList.
 	self updateCategoryAndMethodList

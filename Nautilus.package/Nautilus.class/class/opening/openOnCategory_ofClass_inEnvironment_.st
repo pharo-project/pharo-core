@@ -6,7 +6,6 @@ openOnCategory: aCategory ofClass: aClass inEnvironment: anEnvironment
 	instance
 		package: aClass package
 		class: aClass
-		category: aCategory
-		method: nil.
+		protocol: aCategory.
 	instance open.
 	^ instance

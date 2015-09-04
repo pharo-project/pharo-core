@@ -2,8 +2,6 @@ registerSelectionPackage: aSelection
 
 	self model 	
 		package: aSelection
-		class: self selectedClass 
-		category: nil 
-		method: nil.
+		class: self selectedClass.
 		
 	self packageWidget selectPackage: aSelection item.

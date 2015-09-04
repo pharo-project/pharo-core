@@ -1,5 +1,6 @@
 visitSequenceNode: aSequenceNode 
 	| statements |
+	self emitMetaLinkBefore: aSequenceNode. 
 	statements := aSequenceNode statements.
 	statements ifEmpty: [
 		methodBuilder pushLiteral: nil.

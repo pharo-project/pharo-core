@@ -1,0 +1,2 @@
+selectedPackage: anObject
+	package := anObject

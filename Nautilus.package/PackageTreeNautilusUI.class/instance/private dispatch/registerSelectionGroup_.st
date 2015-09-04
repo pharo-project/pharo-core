@@ -6,8 +6,6 @@ registerSelectionGroup: aSelection
 	 not with group selection (which actually does not has much sense now)"
 	self model 	
 		package: aSelection
-		class: self selectedClass 
-		category: nil 
-		method: nil.
+		class: self selectedClass.
 	
 	self packageWidget selectGroup: aSelection item.

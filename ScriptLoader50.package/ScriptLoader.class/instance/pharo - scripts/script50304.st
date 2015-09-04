@@ -1,4 +1,4 @@
-script50303
+script50304
 
 	^ 'AST-Core-TheIntegrator.367.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -125,9 +125,8 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2127.mcz
+Kernel-TheIntegrator.2129.mcz
 Kernel-Tests-TheIntegrator.2.mcz
-KernelTests-TheIntegrator.798.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
 Keymapping-Pragmas-TheIntegrator.52.mcz
@@ -198,11 +197,11 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1073.mcz
+Nautilus-TheIntegrator.1075.mcz
 Nautilus-GroupManager-TheIntegrator.13.mcz
 Nautilus-GroupManagerUI-TheIntegrator.20.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
-NautilusCommon-TheIntegrator.280.mcz
+NautilusCommon-TheIntegrator.282.mcz
 NautilusGroupAutoBuilder-FranckWarlouzet.6.mcz
 NautilusRefactoring-TheIntegrator.251.mcz
 Network-Kernel-TheIntegrator.118.mcz
@@ -241,9 +240,9 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.36.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.152.mcz
+Reflectivity-TheIntegrator.154.mcz
 Reflectivity-Examples-TheIntegrator.2.mcz
-Reflectivity-Tests-TheIntegrator.116.mcz
+Reflectivity-Tests-TheIntegrator.118.mcz
 Regex-Core-TheIntegrator.36.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz

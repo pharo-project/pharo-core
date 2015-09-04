@@ -1,15 +1,16 @@
 testInsteadMethod
 	| node link |
-	node := (ReflectivityExamples>>#exampleMethod) ast.
-	link := MetaLink new 
-		metaObject: self; 
+	node := (ReflectivityExamples >> #exampleMethod) ast.
+	link := MetaLink new
+		metaObject: self;
 		selector: #tagExec;
 		control: #instead.
 	node link: link.
 	self assert: node hasMetalink.
-	self assert: (ReflectivityExamples>>#exampleMethod) class = ReflectiveMethod.
-	self assert: (tag isNil).
+	self assert: (ReflectivityExamples >> #exampleMethod) class = ReflectiveMethod.
+	self assert: tag isNil.
 	ReflectivityExamples new exampleMethod.
-	self assert: (tag = #yes).
-	self assert: (ReflectivityExamples>>#exampleMethod) class = CompiledMethod.
-	link uninstall. 
+	self assert: tag = #yes.
+	self assert: (ReflectivityExamples >> #exampleMethod) class = CompiledMethod.
+	link uninstall.
+	ReflectivityExamples recompile: #exampleMethod

@@ -1,4 +1,4 @@
-Announcement subclass: #NautilusMethodSelected
+NautilusProtocolSelected subclass: #NautilusMethodSelected
 	instanceVariableNames: 'method'
 	classVariableNames: ''
 	poolDictionaries: ''

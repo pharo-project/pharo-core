@@ -5,7 +5,7 @@ openOnPackage: selectedPackage class: selectedClass category: selectedCategory m
 	instance
 		package: selectedPackage
 		class: selectedClass
-		category: selectedCategory
+		protocol: selectedCategory
 		method: selectedMethod.
 	instance selectedGroup: selectedGroup.
 	instance

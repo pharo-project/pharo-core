@@ -1,11 +1,12 @@
 testAfterSend
 	| sendNode link |
 	sendNode := (ReflectivityExamples >> #exampleMethod) sendNodes first.
+	self assert: sendNode isMessage.
 	link := MetaLink new
 		metaObject: self;
 		selector: #tagExec:;
 		control: #after;
-		arguments: #(node).
+		arguments: #(#node).
 	sendNode link: link.
 	self assert: sendNode hasMetalinkAfter.
 	self assert: (ReflectivityExamples >> #exampleMethod) class = ReflectiveMethod.
@@ -13,4 +14,5 @@ testAfterSend
 	self assert: ReflectivityExamples new exampleMethod = 5.
 	self assert: tag class = RBMessageNode.
 	self assert: (ReflectivityExamples >> #exampleMethod) class = CompiledMethod.
-	link uninstall
+	link uninstall.
+	ReflectivityExamples recompile: #exampleMethod

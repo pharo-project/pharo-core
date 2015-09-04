@@ -1,6 +1,7 @@
 testAfterLiteralArray
 	| literalArray link |
 	literalArray := (ReflectivityExamples >> #exampleLiteralArray) ast statements first value.
+	self assert: literalArray isLiteralArray.
 	link := MetaLink new
 		metaObject: self;
 		selector: #tagExec;
@@ -13,4 +14,5 @@ testAfterLiteralArray
 	self assert: tag = 'yes'.
 	self assert: (ReflectivityExamples >> #exampleLiteralArray) class = CompiledMethod.
 	self deny: (ReflectivityExamples >> #exampleLiteralArray) isQuick.
-	link uninstall
+	link uninstall.
+	ReflectivityExamples recompile: #exampleLiteralArray

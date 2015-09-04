@@ -12,4 +12,5 @@ testAfterArray
 	self assert: ReflectivityExamples new exampleArray isArray.
 	self assert: tag = 'yes'.
 	self assert: (ReflectivityExamples >> #exampleArray) class = CompiledMethod.
-	link uninstall
+	link uninstall.
+	ReflectivityExamples recompile: #exampleArray

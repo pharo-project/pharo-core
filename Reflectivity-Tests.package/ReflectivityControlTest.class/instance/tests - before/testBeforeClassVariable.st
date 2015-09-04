@@ -1,7 +1,9 @@
-"protocol: tests - before"
 testBeforeClassVariable
+	"protocol: tests - before"
+
 	| classVar link |
-	self skip. self flag: #TBD.
+	self skip.
+	self flag: #TBD.
 	classVar := ReflectivityExamples classVariableNamed: #ClassVar.
 	link := MetaLink new
 		metaObject: self;
@@ -14,4 +16,5 @@ testBeforeClassVariable
 	self assert: tag = 'yes'.
 	self assert: (ReflectivityExamples >> #exampleClassVarRead) class = CompiledMethod.
 	self deny: (ReflectivityExamples >> #exampleClassVarRead) isQuick.
-	link uninstall
+	link uninstall.
+	ReflectivityExamples recompile: #exampleClassVarRead
