@@ -1,0 +1,5 @@
+TestCase subclass: #TimespanDoTest
+	instanceVariableNames: 'aTimespan aDuration aDate'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Kernel-Tests-Chronology'

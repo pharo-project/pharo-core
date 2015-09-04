@@ -1,0 +1,3 @@
+fail
+
+	^self assert: false

@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '16452 Improve Morph>>layoutProportionallyIn:
-	https://pharo.fogbugz.com/f/cases/16452
+ ^ '13200 Monticello Changes Browser awkward with long slice numbers
+	https://pharo.fogbugz.com/f/cases/13200
 
-16471 Pass over #after: make after work for assignment
-	https://pharo.fogbugz.com/f/cases/16471'
+14024 Deprecated Announcer methods
+	https://pharo.fogbugz.com/f/cases/14024
+
+14433 KernelTests package should be Kernel-Tests
+	https://pharo.fogbugz.com/f/cases/14433'
