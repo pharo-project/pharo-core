@@ -1,10 +1,10 @@
-testInsteadReturn
+testAfterReturn
 	| returnNode link  |
 	returnNode := (ReflectivityExamples >> #exampleMethod) ast statements first.
 	self assert: returnNode isReturn.
 	link := MetaLink new
 		metaObject: self;
 		selector: #tagExec;
-		control: #instead.
+		control: #after.
 	self should: [returnNode link: link] raise: Error.
 	

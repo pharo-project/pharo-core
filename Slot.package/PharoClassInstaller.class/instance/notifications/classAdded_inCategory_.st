@@ -4,7 +4,7 @@ classAdded: aClass inCategory: aCategory
 	environment flushClassNameCache.
 	
 	" Update the system's organization "
-	environment organization classify: aClass name under: aCategory.
+	environment organization ifNotNil: [:org | org classify: aClass name under: aCategory].
 	aClass environment: environment.
 	
 	self systemAnnouncer classAdded: aClass inCategory: aCategory.

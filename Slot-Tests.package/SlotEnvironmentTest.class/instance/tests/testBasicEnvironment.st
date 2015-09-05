@@ -1,8 +1,7 @@
 testBasicEnvironment
 	| environment |
 	environment := SystemDictionary new.
-	environment at: #SystemOrganization put: SystemOrganizer new.
-
+	
 	aClass := self make: [ :builder | 
 		builder environment: environment ].
 

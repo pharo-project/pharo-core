@@ -1,4 +1,4 @@
 organization
 	"Return the organizer for the receiver"
 	
-	^ self at: #SystemOrganization
+	^ self at: #SystemOrganization ifAbsent: nil

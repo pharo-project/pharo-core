@@ -1,4 +1,4 @@
-script50305
+script50306
 
 	^ 'AST-Core-TheIntegrator.367.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -197,7 +197,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1075.mcz
+Nautilus-TheIntegrator.1077.mcz
 Nautilus-GroupManager-TheIntegrator.13.mcz
 Nautilus-GroupManagerUI-TheIntegrator.20.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
@@ -240,9 +240,9 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.36.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.154.mcz
+Reflectivity-TheIntegrator.156.mcz
 Reflectivity-Examples-TheIntegrator.2.mcz
-Reflectivity-Tests-TheIntegrator.118.mcz
+Reflectivity-Tests-TheIntegrator.120.mcz
 Regex-Core-TheIntegrator.36.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -274,8 +274,8 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.14.mcz
 Shout-TheIntegrator.276.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.680.mcz
-Slot-Tests-TheIntegrator.60.mcz
+Slot-TheIntegrator.682.mcz
+Slot-Tests-TheIntegrator.62.mcz
 SmartSuggestions-TheIntegrator.178.mcz
 SmartSuggestions-Tests-TheIntegrator.10.mcz
 Spec-Core-TheIntegrator.425.mcz
@@ -312,7 +312,7 @@ System-Serial Port-StephaneDucasse.23.mcz
 System-Settings-TheIntegrator.319.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.39.mcz
-System-Support-TheIntegrator.1161.mcz
+System-Support-TheIntegrator.1162.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.8.mcz
 Tests-TheIntegrator.742.mcz

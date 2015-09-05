@@ -1,6 +1,5 @@
 testInsteadBlock
 	| blockNode link |
-	self skip.
 	blockNode := (ReflectivityExamples >> #exampleBlock) ast statements first value receiver.
 	self assert: blockNode isBlock.
 	link := MetaLink new
