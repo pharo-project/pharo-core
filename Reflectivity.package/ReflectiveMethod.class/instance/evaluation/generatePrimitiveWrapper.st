@@ -17,6 +17,6 @@ generatePrimitiveWrapper
 		body: (RBReturnNode value: send) asSequenceNode.
 		
 	wrapperMethod methodClass: ast methodClass.
+	wrapperMethod propertyAt: #wrappedPrimitive put: true.
+	ast hasMetalink ifTrue: [wrapperMethod propertyAt: #links put: (ast propertyAt: #links)].
 	ast := wrapperMethod.
-	
-	self flag: #TBD. "copy over links"

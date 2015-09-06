@@ -10,6 +10,6 @@ testSetLinkOnPrimitive
 	methodNode removeLink: link.
 	(ReflectivityExamples>>#examplePrimitiveMethod) destroyTwin.
 	self assert: (ReflectivityExamples>>#examplePrimitiveMethod) class = CompiledMethod.
-	"self assert: (ReflectivityExamples>>#examplePrimitiveMethod) isRealPrimitive." self flag: #TBD.
+	self assert: (ReflectivityExamples>>#examplePrimitiveMethod) isRealPrimitive.
 	self assert: (ReflectivityExamples>>#examplePrimitiveMethod) reflectiveMethod isNil.
 	

@@ -7,8 +7,6 @@ testPrimitiveWithLinkExecuteWrapper
 	self assert: (methodNode links includes: link).
 	self assert: (ReflectivityExamples>>#examplePrimitiveMethod) class = CompiledMethod.
 	self assert: ReflectivityExamples new examplePrimitiveMethod = 5.
-	
 	self deny: (ReflectivityExamples>>#examplePrimitiveMethod) isRealPrimitive.
-	
 	link uninstall.
 	

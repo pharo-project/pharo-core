@@ -9,4 +9,4 @@ testSetLinkInPrimitive
 	(ReflectivityExamples>>#examplePrimitiveMethod) destroyTwin.
 	self assert: (ReflectivityExamples>>#examplePrimitiveMethod) class = CompiledMethod.
 	self assert: (ReflectivityExamples>>#examplePrimitiveMethod) reflectiveMethod = nil.
-	
+	(ReflectivityExamples>>#examplePrimitiveMethod) recompile

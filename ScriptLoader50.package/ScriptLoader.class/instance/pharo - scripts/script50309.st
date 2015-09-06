@@ -1,4 +1,4 @@
-script50308
+script50309
 
 	^ 'AST-Core-TheIntegrator.369.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -125,7 +125,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2129.mcz
+Kernel-TheIntegrator.2131.mcz
 Kernel-Tests-TheIntegrator.2.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -240,9 +240,9 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.36.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.158.mcz
+Reflectivity-TheIntegrator.160.mcz
 Reflectivity-Examples-TheIntegrator.2.mcz
-Reflectivity-Tests-TheIntegrator.122.mcz
+Reflectivity-Tests-TheIntegrator.124.mcz
 Regex-Core-TheIntegrator.36.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
