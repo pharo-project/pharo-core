@@ -1,19 +1,19 @@
 visitMethodNode: aMethodNode
-	(aMethodNode isPrimitive and: [aMethodNode hasMetalink]) ifTrue: [self flag: #TBD  ]. "Here we need to compile a wrapper"
+	"I ignore all links when I am primitive as ReflectiveMethod compiles a wrapper"
 	
 	aMethodNode arguments size > 15 ifTrue: [self backendError: 'Too many arguments' forNode: aMethodNode ].
 	
 	methodBuilder compilationContext: aMethodNode compilationContext.
 	methodBuilder addTemps: aMethodNode scope tempVarNames.
 	
-	self emitMetaLinkBefore: aMethodNode.
+	aMethodNode isPrimitive ifFalse: [self emitMetaLinkBefore: aMethodNode].
 
 	methodBuilder properties: aMethodNode properties.
 	methodBuilder irPrimitive: aMethodNode primitiveFromPragma.
 	aMethodNode pragmas do: [:each | self visitPragmaNode: each].
 	methodBuilder numArgs: aMethodNode arguments size.
 	
-	aMethodNode hasMetalinkInstead
+	(aMethodNode hasMetalinkInstead and: [ aMethodNode isPrimitive not ])
 				ifTrue: [ self emitMetaLinkInstead: aMethodNode. methodBuilder returnTop.
 						^self. ].
 				

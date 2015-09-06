@@ -1,15 +1,14 @@
-testSetLinkOnPrimitive
-	| methodNode link |
+testPrimitiveWithLinkExecuteWrapper
+	| methodNode link  |
 	link := MetaLink new.
 	methodNode := (ReflectivityExamples>>#examplePrimitiveMethod) ast.
 	self assert: (ReflectivityExamples>>#examplePrimitiveMethod) isRealPrimitive.
 	methodNode link: link.
 	self assert: (methodNode links includes: link).
 	self assert: (ReflectivityExamples>>#examplePrimitiveMethod) class = CompiledMethod.
+	self assert: ReflectivityExamples new examplePrimitiveMethod = 5.
+	
 	self deny: (ReflectivityExamples>>#examplePrimitiveMethod) isRealPrimitive.
-	methodNode removeLink: link.
-	(ReflectivityExamples>>#examplePrimitiveMethod) destroyTwin.
-	self assert: (ReflectivityExamples>>#examplePrimitiveMethod) class = CompiledMethod.
-	"self assert: (ReflectivityExamples>>#examplePrimitiveMethod) isRealPrimitive." self flag: #TBD.
-	self assert: (ReflectivityExamples>>#examplePrimitiveMethod) reflectiveMethod isNil.
+	
+	link uninstall.
 	
