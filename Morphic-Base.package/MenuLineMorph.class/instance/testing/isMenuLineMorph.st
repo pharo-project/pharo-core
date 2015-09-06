@@ -1,0 +1,2 @@
+isMenuLineMorph
+	^ true

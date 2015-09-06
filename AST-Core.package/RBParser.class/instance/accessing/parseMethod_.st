@@ -1,9 +1,9 @@
 parseMethod: aString
-	| node errorNode |
+	| node |
 	node := self parseMethod.
+	node source: aString.
 	self atEnd
 		ifFalse: [ 
-			errorNode := self parserError: 'Unknown input at end'.
-			errorNode ifNotNil: [ node statements: node statements, {errorNode }] ].
+			 ^ self parseIncompleteExpression: node ].
 	node source: aString.
 	^ node

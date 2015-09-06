@@ -9,6 +9,7 @@ windowsOn: aBuilder
 				action: [World collapseAll];
 				help: 'Reduce all open windows to collapsed forms that only show titles' translated.
 			(aBuilder item: # 'Expand all windows') 
+				icon: Smalltalk ui icons expandBoxIcon;
 				action: [World expandAll];
 				help: 'Expand all collapsed windows back to their expanded forms' translated.
 			(aBuilder item: # 'Fit all windows') 

@@ -4,7 +4,7 @@ newMenuWith: menuItems
 	| menu |
 	menu := self newMenu.
 	menu cornerStyle: #square.
-	menuItems do: [:m | menu addMenuItem: m].
+	menuItems do: [:m | menu addMorphBack: m].
 	menu
 		borderWidth: 0;
 		color: self baseColor;

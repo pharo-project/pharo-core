@@ -1,4 +1,4 @@
-newTitleIconCalling: aSelector form: aForm ballonText: aText
+newTitleIconCalling: aSelector form: aForm helpText: aText
 
 	^IconicButton new target: self;
 		actionSelector: aSelector;
@@ -6,5 +6,5 @@ newTitleIconCalling: aSelector form: aForm ballonText: aText
 		color: Color transparent;
 		extent: 18 @ 18;
 		borderWidth: 0;
-		setBalloonText: aText translated;
+		helpText: aText translated;
 		yourself.

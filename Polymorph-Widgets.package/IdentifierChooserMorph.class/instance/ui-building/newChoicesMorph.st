@@ -24,5 +24,5 @@ newChoicesMorph
 	answer removeMorph: answer submorphs last.
 	answer submorphs last hResizing: #spaceFill.
 	scrollPaneWidth ifNotNil: [answer hResizing: #spaceFill. answer submorphs last hResizing: #rigid. answer submorphs last width: scrollPaneWidth].
-	self choiceMenus: (answer submorphs select: [:m| m isKindOf: MenuMorph]).
+	self choiceMenus: (answer submorphs select: [:m| m isMenuMorph]).
 	^answer

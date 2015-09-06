@@ -1,13 +1,14 @@
 displayFiltered: evt
-	| matchStr allItems matches feedbackMorph |
+	| matchStr matches feedbackMorph |
+
 	matchStr := self valueOfProperty: #matchString.
-	allItems := self submorphs select: [:m | m isKindOf: MenuItemMorph].
-	matches :=  allItems select: [:m | | isMatch | 
-		isMatch := 
-			matchStr isEmpty or: [
-				m contents includesSubstring: matchStr caseSensitive: false].
+	matches := self menuItems select: [:m | | isMatch | 
+		isMatch := matchStr isEmpty or: [
+			m contents includesSubstring: matchStr caseSensitive: false
+		].
 		m isEnabled: isMatch.
-		isMatch].
+		isMatch
+	].
 	feedbackMorph := self valueOfProperty: #feedbackMorph.
 	feedbackMorph ifNil: [
 		feedbackMorph := 
@@ -22,8 +23,9 @@ displayFiltered: evt
 	feedbackMorph contents: '<', matchStr, '>'.
 	matchStr isEmpty ifTrue: [
 		feedbackMorph delete.
-		self submorphs last delete.
-		self removeProperty: #feedbackMorph].
-	    " This method is invoked with evt = nil from MenuMorph >> removeMatchString. The current implementation can't select an item without an event. "
+		self lastSubmorph delete.
+		self removeProperty: #feedbackMorph
+	].
+	    " This method is invoked with evt = nil from MenuMorph >> removeMatchString. The current implementation can't select an item without an event. (Yet :D)"
        (evt notNil and: [ matches size >= 1 ]) 
 		ifTrue: [self selectItem: matches first event: evt]

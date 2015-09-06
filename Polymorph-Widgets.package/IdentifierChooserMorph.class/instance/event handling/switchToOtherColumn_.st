@@ -8,7 +8,7 @@ switchToOtherColumn: aBlock
 	menuWithFocus := self choiceMenus
 		detect: [:m | m menuItems 
 			anySatisfy: [:sm | 
-				((sm isKindOf: MenuItemMorph)  and: [sm isSelected]) 
+				((sm isMenuItemMorph)  and: [sm isSelected]) 
 					ifTrue: [sub := sm]. 
 				sm isSelected]]
 		ifNone: [].

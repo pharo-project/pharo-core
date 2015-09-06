@@ -3,7 +3,7 @@ informUserAt: aPoint during: aBlock
 	block. "
 	| title w |
 	title := self allMorphs
-				detect: [:ea | ea hasProperty: #titleString].
+				detect: [:ea | ea hasProperty: #titleString]. self flag: 'fixMe'.
 	title := title submorphs first.
 	self visible: false.
 	w := ActiveWorld.

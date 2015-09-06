@@ -1,4 +1,4 @@
 parseVariableNode
 	currentToken isIdentifier 
-		ifFalse: [ ^ self parserError: 'Variable name expected' translated].
+		ifFalse: [ ^ self parserError: 'Variable name expected' ].
 	^self parsePrimitiveIdentifier

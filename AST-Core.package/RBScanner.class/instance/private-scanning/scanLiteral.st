@@ -14,4 +14,4 @@ scanLiteral
 		ifTrue: [ ^ self scanNumber ].
 	currentCharacter = $#
 		ifTrue: [ ^ self scanLiteral ].
-	^self scanError: 'Expecting a literal type' translated.
+	^self scanError: 'Expecting a literal type'.

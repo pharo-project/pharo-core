@@ -10,7 +10,7 @@ parseBlock
 	(self parseStatements: false into: node body).
 	
 	(currentToken isSpecial and: [currentToken value = $]])
-		ifFalse: [^ self parserError: ''']'' expected' translated].
+		ifFalse: [^ self parserError: ''']'' expected' ].
 	node right: currentToken start.
 	self step.
 	^node

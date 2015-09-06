@@ -1,6 +1,6 @@
-script50306
+script50307
 
-	^ 'AST-Core-TheIntegrator.367.mcz
+	^ 'AST-Core-TheIntegrator.369.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
 Announcements-Core-TheIntegrator.59.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -166,7 +166,7 @@ MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
 MonticelloGUI-TheIntegrator.386.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
-Morphic-Base-TheIntegrator.477.mcz
+Morphic-Base-TheIntegrator.481.mcz
 Morphic-Core-TheIntegrator.210.mcz
 Morphic-Examples-TheIntegrator.46.mcz
 Morphic-Tests-TheIntegrator.2.mcz
@@ -223,7 +223,7 @@ OpalCompiler-Tests-TheIntegrator.305.mcz
 OpalTools-TheIntegrator.18.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.42.mcz
-Polymorph-Widgets-TheIntegrator.1249.mcz
+Polymorph-Widgets-TheIntegrator.1251.mcz
 PragmaCollector-TheIntegrator.3.mcz
 ProfStef-Core-TheIntegrator.70.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -284,7 +284,7 @@ Spec-Examples-TheIntegrator.98.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.250.mcz
 Spec-Layout-TheIntegrator.69.mcz
-Spec-MorphicAdapters-TheIntegrator.235.mcz
+Spec-MorphicAdapters-TheIntegrator.237.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz
 Spec-Tests-TheIntegrator.54.mcz
 Spec-Tools-TheIntegrator.284.mcz
@@ -327,7 +327,7 @@ Tool-Catalog-TheIntegrator.20.mcz
 Tool-CriticBrowser-TheIntegrator.10.mcz
 Tool-Diff-TheIntegrator.21.mcz
 Tool-ExternalBrowser-TheIntegrator.36.mcz
-Tool-FileList-TheIntegrator.54.mcz
+Tool-FileList-TheIntegrator.56.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
 Tool-Finder-TheIntegrator.44.mcz
 Tool-ImageCleaner-TheIntegrator.10.mcz

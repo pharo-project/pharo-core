@@ -1,0 +1,2 @@
+isMenuMorph
+	^false

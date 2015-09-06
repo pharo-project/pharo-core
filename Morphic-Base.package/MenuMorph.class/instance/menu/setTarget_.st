@@ -4,5 +4,8 @@ setTarget: evt
 	| oldDefaultTarget |
 	oldDefaultTarget := defaultTarget .
 	oldDefaultTarget ~~ defaultTarget 
-		ifTrue: [self updateItemsWithTarget: defaultTarget orWithHand: evt hand ].
+		ifTrue: [
+			
+			self updateItemsWithTarget: defaultTarget orWithHand: evt hand 
+		].
 	

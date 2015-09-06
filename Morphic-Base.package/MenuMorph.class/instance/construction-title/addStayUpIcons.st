@@ -7,8 +7,8 @@ addStayUpIcons
 		ifNone: [self setProperty: #needsTitlebarWidgets toValue: true.
 				^self].
 			
-	closeBox := self newTitleIconCalling: #delete form: self theme menuCloseForm ballonText: 'Close this menu'.
-	pinBox := self newTitleIconCalling: #pinboxClicked form: self theme menuPinForm ballonText: 'Keep this menu up'.
+	closeBox := self newTitleIconCalling: #delete form: self theme menuCloseForm helpText: 'Close this menu'.
+	pinBox := self newTitleIconCalling: #pinboxClicked form: self theme menuPinForm helpText: 'Keep this menu up'.
 	
 	titleBarArea := AlignmentMorph newRow vResizing: #shrinkWrap;
 		layoutInset: 2;

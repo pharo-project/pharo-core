@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16485 Class panes not refreshed when changing package
-	https://pharo.fogbugz.com/f/cases/16485
+ ^ '16483 AST-Core should not depend on System-Localization
+	https://pharo.fogbugz.com/f/cases/16483
 
-16479 Creating a class in an empty environment
-	https://pharo.fogbugz.com/f/cases/16479
+16472 Minor improvements to MenuMorph (2)
+	https://pharo.fogbugz.com/f/cases/16472
 
-16481 #instead for Block
-	https://pharo.fogbugz.com/f/cases/16481'
+16492 no syntax highlighting if last expression is invalid code
+	https://pharo.fogbugz.com/f/cases/16492'

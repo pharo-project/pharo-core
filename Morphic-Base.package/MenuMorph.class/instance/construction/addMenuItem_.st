@@ -1,3 +1,5 @@
 addMenuItem: anItem
-	self addMorphBack: anItem.
-	^ self menuItems add: anItem.
+	self flag: 'use addMorphBack: instead'.
+
+	^self addMorphBack: anItem.
+

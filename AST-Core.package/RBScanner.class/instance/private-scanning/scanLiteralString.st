@@ -2,7 +2,7 @@ scanLiteralString
 	self step.
 	
 	[currentCharacter isNil 
-		ifTrue: [^self scanError: 'Unmatched '' in string literal.' translated].
+		ifTrue: [^self scanError: 'Unmatched '' in string literal.' ].
 	currentCharacter = $' and: [self step ~= $']] 
 			whileFalse: 
 				[buffer nextPut: currentCharacter.

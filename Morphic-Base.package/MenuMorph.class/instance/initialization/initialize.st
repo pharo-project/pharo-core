@@ -9,6 +9,7 @@ initialize
 	selectedItem := nil.
 	stayUp := false.
 	popUpOwner := nil.
+	menuItems := OrderedCollection new.
 	self setProperty: #morphicLayerNumber toValue: self morphicLayerNumber.
 	self theme currentSettings preferRoundCorner
 		ifTrue: [ self useRoundedCorners ]

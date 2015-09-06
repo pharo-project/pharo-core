@@ -6,7 +6,7 @@ moveSelectionDown: direction event: evt
 	index := (submorphs indexOf: selectedItem ifAbsent: [1-direction]) + direction.
 	submorphs do: "Ensure finite"
 		[:unused | | m | m := submorphs atWrap: index.
-		((m isKindOf: MenuItemMorph) and: [m isEnabled]) ifTrue:
+		((m isMenuItemMorph) and: [m isEnabled]) ifTrue:
 			[^ self selectItem: m event: evt].
 		"Keep looking for an enabled item"
 		index := index + direction sign].

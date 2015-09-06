@@ -4,6 +4,6 @@ buildWidgetPopup
 		do: [ :group | 
 			| items |
 			items := group buildWithSpec.
-			items do: [ :item | widget addMenuItem: item ] ]
+			items do: [ :item | widget addMorphBack: item ] ]
 		separatedBy: [ widget addLine ].
 	^ widget

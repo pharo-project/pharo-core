@@ -9,7 +9,7 @@ moveSelectionDown: anInteger event: anEvent
 	index := (allEnabledSiblingItems indexOf: selectedItem ifAbsent: [0 + (anInteger negative ifTrue: [1] ifFalse: [0])]) + anInteger.
 	allEnabledSiblingItems do: "Ensure finite"
 		[:unused | | m | m := allEnabledSiblingItems atWrap: index.
-		((m isKindOf: MenuItemMorph) and: [m isEnabled]) ifTrue:
+		((m isMenuItemMorph) and: [m isEnabled]) ifTrue:
 			[m owner = self owner ifFalse: [
 				anEvent hand newKeyboardFocus: m owner].
 				^m owner selectItem: m event: anEvent].
