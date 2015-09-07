@@ -1,8 +1,8 @@
-model: anObject
+model: aNautilusModel
 
-	model := anObject.
+	model := aNautilusModel.
 	self registerToAnnouncements.
 	model when: #historyChanged send: #historyChanged to: self.
-	anObject selectedPackage ifNotNil: [:e | self packageWidget selectPackage: e].
-	anObject selectedGroup ifNotNil: [:p | self packageWidget selectGroup:p].
-	anObject selectedClass ifNotNil: [:p | self classWidget selectClass: p].
+	aNautilusModel selectedPackage ifNotNil: [:e | self packageWidget selectPackage: e].
+	aNautilusModel selectedGroup ifNotNil: [:p | self packageWidget selectGroup:p].
+	aNautilusModel selectedClass ifNotNil: [:p | self classWidget selectClass: p].

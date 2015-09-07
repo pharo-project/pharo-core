@@ -1,8 +1,7 @@
 selectedPackageWithoutChangingSelection: aPackage
 	self okToChange
 		ifTrue:
-			[ 
-			| class |
+			[ | class |
 			class := self selectedClass.
 			(self showHierarchy not and: [ class notNil and: [ class package ~= aPackage ] ])
 				ifTrue: [ self selectedClass: nil ].

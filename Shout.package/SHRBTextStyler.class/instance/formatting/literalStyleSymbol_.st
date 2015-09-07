@@ -3,6 +3,8 @@ literalStyleSymbol: aValue
 		ifTrue: [ ^ #symbol ].
 	aValue isString
 		ifTrue: [ ^ #string ].
+	aValue isCharacter
+		ifTrue: [ ^ #character ].
 	aValue isNumber
 		ifTrue: [ ^ #number ].
 	aValue == true

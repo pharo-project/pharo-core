@@ -1,6 +1,5 @@
 debugTest
 	| method |
-	
 	method := self selectedMethod.
 	method correspondingTestMethod 
 		ifNotNil: [:test | 

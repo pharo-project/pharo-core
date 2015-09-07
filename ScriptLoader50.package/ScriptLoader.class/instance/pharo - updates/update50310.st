@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '16493 Syntax highlighting in Rubric need to highlight characters
+update50310
+	"self new update50310"
+	self withUpdateLog: '16493 Syntax highlighting in Rubric need to highlight characters
 	https://pharo.fogbugz.com/f/cases/16493
 
 16507 Simplify test running of Nautilus
@@ -9,4 +10,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/16506
 
 16502 simple nautilus cleans
-	https://pharo.fogbugz.com/f/cases/16502'
+	https://pharo.fogbugz.com/f/cases/16502'.
+	self loadTogether: self script50310 merge: false.
+	self flushCaches.

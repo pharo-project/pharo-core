@@ -1,8 +1,6 @@
 accept: aText notifying: aController
 	| environment tree rule result |
-
 	self model sourceTextModel clearUserEdits.
-	
 	environment := self model browsedEnvironment.
 	tree := self class compiler evaluate: aText.
 	

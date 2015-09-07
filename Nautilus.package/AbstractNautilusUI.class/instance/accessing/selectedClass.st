@@ -1,5 +1,4 @@
 selectedClass
-
 	| class |
 	class := self model selectedClass.
 	(self model selectedCategory isNil and: [ self model selectedMethod isNil ])

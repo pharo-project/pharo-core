@@ -1,3 +1,2 @@
 window: anObject
-
 	window := anObject

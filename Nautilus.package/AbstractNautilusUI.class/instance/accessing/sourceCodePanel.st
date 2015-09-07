@@ -1,3 +1,2 @@
 sourceCodePanel
-
 	^ sourceCodePanel

@@ -1,6 +1,5 @@
 selectedPackage: aPackage
-" Force package selection, not used by the lists "
-
+	"Force package selection, not used by the lists "
 	self okToChange
 		ifTrue: [
 			acceptor := ClassDefinitionAcceptor model: self.

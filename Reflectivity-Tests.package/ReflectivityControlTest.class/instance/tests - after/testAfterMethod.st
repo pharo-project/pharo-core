@@ -1,6 +1,5 @@
 testAfterMethod
 	| methodNode link |
-	self skip.	"TBD"
 	methodNode := (ReflectivityExamples >> #exampleMethod) ast.
 	link := MetaLink new
 		metaObject: self;
