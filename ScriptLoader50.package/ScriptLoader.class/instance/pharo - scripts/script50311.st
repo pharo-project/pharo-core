@@ -1,4 +1,4 @@
-script50310
+script50311
 
 	^ 'AST-Core-TheIntegrator.369.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -197,7 +197,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1079.mcz
+Nautilus-TheIntegrator.1081.mcz
 Nautilus-GroupManager-TheIntegrator.13.mcz
 Nautilus-GroupManagerUI-TheIntegrator.20.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
@@ -287,7 +287,7 @@ Spec-Layout-TheIntegrator.69.mcz
 Spec-MorphicAdapters-TheIntegrator.237.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz
 Spec-Tests-TheIntegrator.54.mcz
-Spec-Tools-TheIntegrator.284.mcz
+Spec-Tools-TheIntegrator.286.mcz
 StartupPreferences-TheIntegrator.139.mcz
 System-Announcements-TheIntegrator.104.mcz
 System-Caching-TheIntegrator.26.mcz

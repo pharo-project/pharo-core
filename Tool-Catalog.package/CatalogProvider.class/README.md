@@ -1,1 +1,1 @@
-I'm a provider for projects in the pharo catalog. Pharo projects are represented as CatalogProject instances. Usually  I fetch projects from http://catalog.pharo.org/catalog/json and create CatalogProject from such description. 
+I'm a provider for projects in the pharo catalog.

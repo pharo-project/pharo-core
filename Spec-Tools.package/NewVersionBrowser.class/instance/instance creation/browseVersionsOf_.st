@@ -1,4 +1,4 @@
 browseVersionsOf: aMethod
 
-	rgMethod := aMethod asRingDefinition asHistorical.
+	self setRGMethodFrom: aMethod.
 	^ self buildBrowser

@@ -4,7 +4,7 @@ revert: aChangeRecord
 		ifNotNil: [ rgMethod realClass compile: aChangeRecord sourceCode classified: aChangeRecord category withStamp: aChangeRecord stamp notifying:nil].
 		
 	"reinitialize me"	
-	rgMethod := rgMethod realClass >> (rgMethod selector).
+	self setRGMethodFrom: (rgMethod realClass >> (rgMethod selector)).
 
 	browser 
 		messages: self buildChangeList;

@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '16493 Syntax highlighting in Rubric need to highlight characters
-	https://pharo.fogbugz.com/f/cases/16493
+ ^ '16504 NewVersionBrowser and RGMethodDefinition vs. CompiledMethod
+	https://pharo.fogbugz.com/f/cases/16504
 
-16507 Simplify test running of Nautilus
-	https://pharo.fogbugz.com/f/cases/16507
+16496 Provide context menu icons in Catalog browser
+	https://pharo.fogbugz.com/f/cases/16496
 
-16506 Ensure wrapping #after for MethodNode
-	https://pharo.fogbugz.com/f/cases/16506
-
-16502 simple nautilus cleans
-	https://pharo.fogbugz.com/f/cases/16502'
+16487 Dropping methods on empty areas of class/method category pane raises SubscriptOutOfBounds
+	https://pharo.fogbugz.com/f/cases/16487'
