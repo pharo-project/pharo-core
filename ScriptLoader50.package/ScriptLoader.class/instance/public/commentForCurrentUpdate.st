@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16496 Provide context menu icons in Catalog browser
-	https://pharo.fogbugz.com/f/cases/16496
+ ^ '16512 "Save As" should increment a version number
+	https://pharo.fogbugz.com/f/cases/16512
 
-15374 exception handling when running tests in Nautilus
-	https://pharo.fogbugz.com/f/cases/15374
+16517 Update manifest for the bootstrap
+	https://pharo.fogbugz.com/f/cases/16517
 
-16511 Smalltalk saveAs should include the current image name as the initial text in the file dialogue
-	https://pharo.fogbugz.com/f/cases/16511'
+16411 implementors of announcer not subclass of Model should be subclass of Model
+	https://pharo.fogbugz.com/f/cases/16411'

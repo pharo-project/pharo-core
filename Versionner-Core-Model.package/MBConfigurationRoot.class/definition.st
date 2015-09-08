@@ -1,5 +1,5 @@
-Object subclass: #MBConfigurationRoot
-	instanceVariableNames: 'announcer configurations username password'
+Model subclass: #MBConfigurationRoot
+	instanceVariableNames: 'configurations username password'
 	classVariableNames: 'Current'
 	poolDictionaries: ''
 	category: 'Versionner-Core-Model'

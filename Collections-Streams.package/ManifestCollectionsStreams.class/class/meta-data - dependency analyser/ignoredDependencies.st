@@ -1,0 +1,2 @@
+ignoredDependencies
+	^ #(#'Tool-Transcript')

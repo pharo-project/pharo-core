@@ -1,3 +1,4 @@
 announce: anAnnouncement
 	"see Announcements packages"
-	self announcer ifNotNil: [announcer announce: anAnnouncement]
+
+	self announcer ifNotNil: [ self announcer announce: anAnnouncement]

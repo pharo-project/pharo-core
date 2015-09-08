@@ -1,6 +1,5 @@
 Model subclass: #MCTool
-	uses: TViewModel
-	instanceVariableNames: 'morph label modal modalValue announcer'
+	instanceVariableNames: 'morph label modal modalValue'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'MonticelloGUI'

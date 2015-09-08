@@ -15,7 +15,7 @@ nextVersion
 				select: [ :f| 
 					(f basename beginsWith: nameWithoutExtension) ]
 				thenCollect: [ :f| 
-					Number squeezeNumberOutOfString: f basename ifFail: [ 0 ]].
+					Number squeezeNumberOutOfString: (f basename last: (f basename size - nameWithoutExtension size))   ifFail: [ 0 ]].
 	
 	versionNumbers ifEmpty: [ ^self ].
 	
