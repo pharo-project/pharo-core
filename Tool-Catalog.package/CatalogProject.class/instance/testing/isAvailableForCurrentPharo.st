@@ -1,2 +1,2 @@
 isAvailableForCurrentPharo
-	^ self repository = Smalltalk version
+	^ self repositoryName = Smalltalk version

@@ -1,0 +1,2 @@
+defineCurrentVersionRepositoryInMCBrowser
+	MCRepositoryGroup default addRepository: (self repositoryObjectFromURLString: CatalogProject pharoDistributionRepository)

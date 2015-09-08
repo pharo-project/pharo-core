@@ -1,2 +1,2 @@
 allKeywords
-	^ self keywords copyWithFirst: self repository
+	^ self keywords copyWithFirst: self repositoryName
