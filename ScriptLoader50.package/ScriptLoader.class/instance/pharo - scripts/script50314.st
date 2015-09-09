@@ -1,4 +1,4 @@
-script50313
+script50314
 
 	^ 'AST-Core-TheIntegrator.369.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -23,7 +23,7 @@ Balloon-TheIntegrator.126.mcz
 Balloon-Tests-TheIntegrator.2.mcz
 BaselineOfQualityAssistant-YuriyTymchuk.12.mcz
 BaselineOfRenraku-YuriyTymchuk.4.mcz
-BlueInk-Core-TheIntegrator.4.mcz
+BlueInk-Core-TheIntegrator.6.mcz
 BlueInk-Extras-TheIntegrator.6.mcz
 BlueInk-Tests-TheIntegrator.8.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
@@ -49,6 +49,7 @@ Compression-Registration-TheIntegrator.5.mcz
 Compression-Tests-TheIntegrator.2.mcz
 ConfigurationCommandLineHandler-Core-TheIntegrator.29.mcz
 ConfigurationCommandLineHandler-Tests-MarcusDenker.11.mcz
+ContributingToTheCatalogHelp-TheIntegrator.2.mcz
 Debugger-Tests-TheIntegrator.2.mcz
 DebuggerActions-StephaneDucasse.76.mcz
 DebuggerFilters-TheIntegrator.9.mcz
@@ -234,7 +235,7 @@ RPackage-Tests-TheIntegrator.175.mcz
 RecentSubmissions-TheIntegrator.235.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.287.mcz
-Refactoring-Critics-TheIntegrator.214.mcz
+Refactoring-Critics-TheIntegrator.216.mcz
 Refactoring-Environment-TheIntegrator.61.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz

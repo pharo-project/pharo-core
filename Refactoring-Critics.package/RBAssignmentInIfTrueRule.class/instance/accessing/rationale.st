@@ -1,2 +1,2 @@
 rationale
-	^ 'Moving assignements outside blocks leads to shorter and more efficient code.'
+	^ 'Moving assignments outside blocks leads to shorter and more efficient code.'
