@@ -1,12 +1,8 @@
 commentForCurrentUpdate
- ^ '16524 Assignment is misspelled in RBAssignmentInIfTrueRule>>#rationale
-	https://pharo.fogbugz.com/f/cases/16524
+ ^ '16533 Multilingual-Languages and Multilingual-Encondings should not depend on Text-Scanning
+	https://pharo.fogbugz.com/f/cases/16533
 
-16515 Adding an instance variable to Model broken by QualityAssistant 
-	https://pharo.fogbugz.com/f/cases/16515
+16520 Help topic for how to contribute to Pharo basecode
+	https://pharo.fogbugz.com/f/cases/16520
 
-16454 BlueInk block formatting 
-	https://pharo.fogbugz.com/f/cases/16454
-
-16521 Help topic for contributing to the catalog
-	https://pharo.fogbugz.com/f/cases/16521'
+'

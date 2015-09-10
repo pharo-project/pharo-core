@@ -1,4 +1,4 @@
-script50314
+script50315
 
 	^ 'AST-Core-TheIntegrator.369.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -121,6 +121,7 @@ Graphics-Transformations-TheIntegrator.17.mcz
 Growl-TheIntegrator.37.mcz
 HelpSystem-Core-TheIntegrator.131.mcz
 HelpSystem-Tests-TheIntegrator.32.mcz
+HowToContributeHelp-TheIntegrator.2.mcz
 HudsonBuildTools20-TheIntegrator.82.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
@@ -183,8 +184,8 @@ Morphic-Widgets-Tabs-TheIntegrator.16.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.11.mcz
 Morphic-Widgets-Tree-TheIntegrator.35.mcz
 Morphic-Widgets-Windows-TheIntegrator.61.mcz
-Multilingual-Encodings-TheIntegrator.55.mcz
-Multilingual-Languages-TheIntegrator.42.mcz
+Multilingual-Encodings-TheIntegrator.58.mcz
+Multilingual-Languages-TheIntegrator.45.mcz
 Multilingual-OtherLanguages-TheIntegrator.19.mcz
 Multilingual-Tests-TheIntegrator.46.mcz
 Multilingual-TextConversion-TheIntegrator.75.mcz
@@ -229,7 +230,7 @@ PragmaCollector-TheIntegrator.6.mcz
 ProfStef-Core-TheIntegrator.70.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
-QualityAssistant-YuriyTymchuk.70.mcz
+QualityAssistant-YuriyTymchuk.71.mcz
 RPackage-Core-TheIntegrator.410.mcz
 RPackage-Tests-TheIntegrator.175.mcz
 RecentSubmissions-TheIntegrator.235.mcz
@@ -321,7 +322,7 @@ Text-Core-TheIntegrator.40.mcz
 Text-Diff-StephaneDucasse.4.mcz
 Text-Edition-TheIntegrator.97.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
-Text-Scanning-TheIntegrator.28.mcz
+Text-Scanning-TheIntegrator.31.mcz
 Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.104.mcz
 Tool-Catalog-TorstenBergmann.21.mcz
