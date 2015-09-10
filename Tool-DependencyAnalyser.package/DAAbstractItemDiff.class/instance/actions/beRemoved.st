@@ -1,0 +1,2 @@
+beRemoved
+	removed := true

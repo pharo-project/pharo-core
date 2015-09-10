@@ -1,0 +1,2 @@
+isTarjanUndefined
+	^ index = -1

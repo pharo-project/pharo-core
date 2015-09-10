@@ -1,0 +1,2 @@
+startNewSCC
+	^ DAPackageRelationGraph new

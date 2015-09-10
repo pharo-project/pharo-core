@@ -1,0 +1,3 @@
+visited
+
+	^ firstDepth notNil

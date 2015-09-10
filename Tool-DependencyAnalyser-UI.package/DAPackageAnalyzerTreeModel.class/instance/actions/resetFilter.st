@@ -1,0 +1,2 @@
+resetFilter
+	^ self filter: nil

@@ -1,0 +1,2 @@
+isRemoved
+	^ removed

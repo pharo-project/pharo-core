@@ -1,0 +1,2 @@
+hub: anObject
+	hub := anObject

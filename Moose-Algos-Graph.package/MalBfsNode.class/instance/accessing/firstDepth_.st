@@ -1,0 +1,2 @@
+firstDepth: anObject
+	firstDepth := anObject

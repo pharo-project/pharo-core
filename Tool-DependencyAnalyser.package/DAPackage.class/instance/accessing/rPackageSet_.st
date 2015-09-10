@@ -1,0 +1,2 @@
+rPackageSet: anObject
+	rPackageSet := anObject

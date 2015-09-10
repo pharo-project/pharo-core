@@ -1,0 +1,2 @@
+start: aDijsktraNode
+	start := aDijsktraNode.

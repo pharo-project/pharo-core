@@ -1,0 +1,2 @@
+isReferenceNode
+	  ^ true

@@ -1,0 +1,3 @@
+initialize 
+
+	nextEdges := OrderedCollection new.

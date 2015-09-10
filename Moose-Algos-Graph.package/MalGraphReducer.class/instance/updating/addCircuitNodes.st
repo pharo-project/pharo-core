@@ -1,0 +1,2 @@
+addCircuitNodes
+	nodes addAll: circuitNodes

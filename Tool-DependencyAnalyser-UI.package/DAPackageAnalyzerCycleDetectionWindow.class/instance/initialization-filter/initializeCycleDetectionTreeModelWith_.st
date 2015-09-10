@@ -1,0 +1,4 @@
+initializeCycleDetectionTreeModelWith: aCollection
+
+	self initializeWithSystemCycles.
+	packageAnalyzerTreeModel filterWithPackages: aCollection

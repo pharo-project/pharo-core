@@ -1,0 +1,2 @@
+weight: anObject
+	weight := anObject

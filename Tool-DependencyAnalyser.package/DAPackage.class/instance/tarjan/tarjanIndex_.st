@@ -1,0 +1,2 @@
+tarjanIndex: aTarjanIndex
+	tarjanIndex := aTarjanIndex

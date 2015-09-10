@@ -1,0 +1,3 @@
+open
+	^ self openInWorld.
+	

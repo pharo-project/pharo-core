@@ -1,0 +1,2 @@
+queue
+	^ aPackageCycleDetection instVarNamed: 'queue'

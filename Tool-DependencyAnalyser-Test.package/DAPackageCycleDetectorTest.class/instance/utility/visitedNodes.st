@@ -1,0 +1,2 @@
+visitedNodes
+	^ aPackageCycleDetection instVarNamed: 'visitedNodes'

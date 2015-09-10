@@ -1,0 +1,2 @@
+diff: anObject
+	diff := anObject

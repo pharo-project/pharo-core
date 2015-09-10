@@ -1,0 +1,2 @@
+children
+	^ self dependenciesToParentNode dependencies

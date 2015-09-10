@@ -1,0 +1,2 @@
+dependencies: anObject
+	dependencies := anObject

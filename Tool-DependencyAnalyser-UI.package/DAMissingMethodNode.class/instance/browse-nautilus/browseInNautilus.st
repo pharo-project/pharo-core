@@ -1,0 +1,2 @@
+browseInNautilus
+	"Nothing to browse"

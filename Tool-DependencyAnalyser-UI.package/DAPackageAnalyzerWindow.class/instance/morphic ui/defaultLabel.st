@@ -1,0 +1,2 @@
+defaultLabel
+	^ 'Package Dependencies Analysis'

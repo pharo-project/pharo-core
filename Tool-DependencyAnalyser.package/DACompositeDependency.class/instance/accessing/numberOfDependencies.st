@@ -1,0 +1,2 @@
+numberOfDependencies
+	^ dependencies size

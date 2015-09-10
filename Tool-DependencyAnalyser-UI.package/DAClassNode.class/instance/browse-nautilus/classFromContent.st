@@ -1,0 +1,2 @@
+classFromContent
+	^ self content theClass

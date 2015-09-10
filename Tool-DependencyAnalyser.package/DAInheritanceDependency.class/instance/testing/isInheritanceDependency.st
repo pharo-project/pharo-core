@@ -1,0 +1,2 @@
+isInheritanceDependency
+	^ true

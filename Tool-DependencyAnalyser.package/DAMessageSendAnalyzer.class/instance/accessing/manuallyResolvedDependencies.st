@@ -1,0 +1,2 @@
+manuallyResolvedDependencies
+	^ self rPackage manuallyResolvedDependencies 

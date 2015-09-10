@@ -1,0 +1,2 @@
+packageTreeNautilusUI: anObject
+	packageTreeNautilusUI := anObject

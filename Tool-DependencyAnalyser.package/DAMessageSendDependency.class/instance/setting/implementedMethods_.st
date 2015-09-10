@@ -1,0 +1,2 @@
+implementedMethods: aListOfSelectors
+	implementedMethods := aListOfSelectors

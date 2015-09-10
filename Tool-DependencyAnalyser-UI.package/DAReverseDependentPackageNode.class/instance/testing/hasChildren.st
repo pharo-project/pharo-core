@@ -1,0 +1,2 @@
+hasChildren
+	^ self dependenciesToParentNode isNotNil

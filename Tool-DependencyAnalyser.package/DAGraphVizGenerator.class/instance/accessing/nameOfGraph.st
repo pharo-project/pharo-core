@@ -1,0 +1,2 @@
+nameOfGraph
+	^ nameOfGraph ifNil: [ 'UnamedGraph' ]

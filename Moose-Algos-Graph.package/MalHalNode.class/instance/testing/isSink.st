@@ -1,0 +1,3 @@
+isSink
+
+	^ self nextNodes isEmpty 

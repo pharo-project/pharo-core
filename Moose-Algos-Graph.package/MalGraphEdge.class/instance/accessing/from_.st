@@ -1,0 +1,2 @@
+from: anObject
+	from := anObject

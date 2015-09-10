@@ -1,0 +1,2 @@
+beNew
+	new := true

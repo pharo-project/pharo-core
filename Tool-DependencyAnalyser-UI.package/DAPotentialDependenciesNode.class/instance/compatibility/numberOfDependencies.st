@@ -1,0 +1,2 @@
+numberOfDependencies
+	^ 0

@@ -1,0 +1,2 @@
+isPackageNode
+	^ false

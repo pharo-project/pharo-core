@@ -1,0 +1,2 @@
+isExternal
+	^ self isInternal not

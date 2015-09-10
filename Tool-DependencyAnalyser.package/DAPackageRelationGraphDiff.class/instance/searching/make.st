@@ -1,0 +1,5 @@
+make
+	self 
+		makePackagesDiff;	
+		makeDependentPackagesDiff
+		

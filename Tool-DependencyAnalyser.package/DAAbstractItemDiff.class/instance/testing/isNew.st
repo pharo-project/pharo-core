@@ -1,0 +1,2 @@
+isNew
+	^ new

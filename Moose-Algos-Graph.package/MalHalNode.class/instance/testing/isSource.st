@@ -1,0 +1,3 @@
+isSource
+
+	^ self previousNodes isEmpty 

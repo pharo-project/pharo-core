@@ -1,0 +1,2 @@
+visited: anObject
+	visited := anObject

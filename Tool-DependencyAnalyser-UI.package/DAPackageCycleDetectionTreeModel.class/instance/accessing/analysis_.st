@@ -1,0 +1,2 @@
+analysis: anObject
+	analysis := anObject

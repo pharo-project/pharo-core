@@ -1,0 +1,2 @@
+tarjanIndex: anInteger
+	index := anInteger

@@ -1,0 +1,2 @@
+mergedNodes: aNodeList
+	mergedNodes := aNodeList

@@ -1,0 +1,3 @@
+initializeWithRelationGraph: aRelationGraph
+	packageAnalyzerTreeModel := DAPackageAnalyzerReverseTreeModel onRelationGraph: aRelationGraph.
+	self buildandAddAllMorph 

@@ -1,0 +1,2 @@
+isInStack
+	^ inStack

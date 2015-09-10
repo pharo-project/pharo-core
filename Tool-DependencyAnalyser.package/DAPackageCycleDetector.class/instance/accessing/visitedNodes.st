@@ -1,0 +1,2 @@
+visitedNodes
+	^ visitedNodes

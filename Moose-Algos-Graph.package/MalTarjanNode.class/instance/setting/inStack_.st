@@ -1,0 +1,2 @@
+inStack: anObject
+	inStack := anObject

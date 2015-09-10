@@ -1,0 +1,2 @@
+initializeWithSystemCycles
+	packageAnalyzerTreeModel := DAPackageCycleDetectionTreeModel system.

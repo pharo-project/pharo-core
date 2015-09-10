@@ -1,8 +1,6 @@
 commentForCurrentUpdate
- ^ '16533 Multilingual-Languages and Multilingual-Encondings should not depend on Text-Scanning
-	https://pharo.fogbugz.com/f/cases/16533
+ ^ '15845 Integrate DependencyAnalyzer
+	https://pharo.fogbugz.com/f/cases/15845
 
-16520 Help topic for how to contribute to Pharo basecode
-	https://pharo.fogbugz.com/f/cases/16520
-
-'
+16530 Monticello setting weird
+	https://pharo.fogbugz.com/f/cases/16530'

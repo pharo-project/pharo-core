@@ -1,0 +1,2 @@
+sentMessages: aListOfSelectors 
+	sentMessages := aListOfSelectors

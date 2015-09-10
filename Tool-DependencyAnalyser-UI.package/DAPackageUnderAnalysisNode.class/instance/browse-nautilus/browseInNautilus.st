@@ -1,0 +1,2 @@
+browseInNautilus
+	self browsePackageInNautilus: self content rPackage

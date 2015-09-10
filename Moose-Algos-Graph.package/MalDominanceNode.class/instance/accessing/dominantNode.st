@@ -1,0 +1,3 @@
+dominantNode
+
+	^ self find

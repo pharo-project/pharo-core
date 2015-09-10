@@ -1,0 +1,2 @@
+extensionDependenciesSize
+	^ 0

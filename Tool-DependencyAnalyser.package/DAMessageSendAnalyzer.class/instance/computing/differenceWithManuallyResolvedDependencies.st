@@ -1,0 +1,2 @@
+differenceWithManuallyResolvedDependencies
+	^ self sentMessages difference: self implementedMessagesWithManuallyResolvedDependencies

@@ -1,0 +1,2 @@
+nameOfGraph: anObject
+	nameOfGraph := anObject

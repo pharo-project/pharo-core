@@ -1,0 +1,2 @@
+clearDependencies
+	dependencies := OrderedCollection new

@@ -1,0 +1,2 @@
+isReferenceDependency
+	^ false

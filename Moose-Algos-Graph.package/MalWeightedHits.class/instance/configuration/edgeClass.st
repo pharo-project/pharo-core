@@ -1,0 +1,3 @@
+edgeClass
+
+	^ MalWeightedEdge

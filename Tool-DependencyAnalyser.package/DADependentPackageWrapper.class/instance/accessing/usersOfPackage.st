@@ -1,0 +1,2 @@
+usersOfPackage
+	^ relationGraph usersOf: pdPackage

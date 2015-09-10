@@ -1,0 +1,2 @@
+popped
+	self inStack: false

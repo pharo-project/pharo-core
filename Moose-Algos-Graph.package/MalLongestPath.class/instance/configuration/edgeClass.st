@@ -1,0 +1,2 @@
+edgeClass
+	^ MalGraphEdge

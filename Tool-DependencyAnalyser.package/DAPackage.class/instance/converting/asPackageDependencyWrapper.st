@@ -1,0 +1,2 @@
+asPackageDependencyWrapper
+	^ DAPackageDependencyWrapper newWith: self.

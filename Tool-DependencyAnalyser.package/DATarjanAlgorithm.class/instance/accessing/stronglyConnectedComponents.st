@@ -1,0 +1,2 @@
+stronglyConnectedComponents
+	^ stronglyConnectedComponents

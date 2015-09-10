@@ -1,0 +1,2 @@
+hNumber: anObject
+	hNumber := anObject

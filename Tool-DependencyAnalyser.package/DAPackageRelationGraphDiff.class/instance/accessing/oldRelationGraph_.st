@@ -1,0 +1,2 @@
+oldRelationGraph: anObject
+	oldRelationGraph := anObject

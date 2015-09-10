@@ -1,0 +1,3 @@
+nodeClass
+
+	^ MalDijkstraNode 

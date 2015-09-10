@@ -1,0 +1,2 @@
+bfsAncestor: anObject
+	bfsAncestor := anObject

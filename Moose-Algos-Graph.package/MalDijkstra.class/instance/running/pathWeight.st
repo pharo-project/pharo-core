@@ -1,0 +1,2 @@
+pathWeight
+	^ self end pathWeight

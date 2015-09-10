@@ -1,0 +1,2 @@
+isCycle
+	^ cycle

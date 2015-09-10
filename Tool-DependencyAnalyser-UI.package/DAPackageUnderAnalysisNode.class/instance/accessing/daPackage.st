@@ -1,0 +1,2 @@
+daPackage
+	^ self content

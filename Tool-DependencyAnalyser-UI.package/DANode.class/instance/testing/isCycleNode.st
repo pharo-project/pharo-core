@@ -1,0 +1,2 @@
+isCycleNode
+	^ false

@@ -1,0 +1,2 @@
+bfsParent: aBfsParent
+	bfsParent := aBfsParent

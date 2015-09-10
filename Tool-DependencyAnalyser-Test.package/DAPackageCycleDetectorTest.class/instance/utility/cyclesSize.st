@@ -1,0 +1,2 @@
+cyclesSize
+	^ aPackageCycleDetection cycles size

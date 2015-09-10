@@ -1,0 +1,2 @@
+filter: aString
+	filter := aString

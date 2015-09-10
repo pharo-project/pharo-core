@@ -1,0 +1,2 @@
+defaultFormat
+	^ #png

@@ -1,0 +1,2 @@
+content: aContent
+	content := aContent

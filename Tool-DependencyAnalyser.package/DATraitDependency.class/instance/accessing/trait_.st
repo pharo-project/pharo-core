@@ -1,0 +1,2 @@
+trait: aTrait
+	trait := aTrait

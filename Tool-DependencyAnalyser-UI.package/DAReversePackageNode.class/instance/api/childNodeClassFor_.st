@@ -1,0 +1,2 @@
+childNodeClassFor: anItem
+	^ DAReverseDependentPackageNode 

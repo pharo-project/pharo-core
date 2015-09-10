@@ -1,0 +1,2 @@
+cseVisited: aBoolean
+	cseVisited := aBoolean

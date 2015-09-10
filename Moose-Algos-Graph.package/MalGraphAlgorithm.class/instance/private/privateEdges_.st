@@ -1,0 +1,3 @@
+privateEdges: aCollection
+
+	edges := aCollection 

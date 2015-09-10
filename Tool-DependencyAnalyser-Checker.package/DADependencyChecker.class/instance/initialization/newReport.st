@@ -1,0 +1,2 @@
+newReport
+	^ report := DADependencyReport new

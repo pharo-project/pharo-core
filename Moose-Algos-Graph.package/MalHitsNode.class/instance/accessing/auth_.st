@@ -1,0 +1,2 @@
+auth: anObject
+	auth := anObject

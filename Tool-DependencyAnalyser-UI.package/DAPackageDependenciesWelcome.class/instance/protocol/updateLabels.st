@@ -1,0 +1,4 @@
+updateLabels
+	self
+		updatePackageLabel;
+		updatePackageChosenLabel

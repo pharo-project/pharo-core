@@ -1,0 +1,2 @@
+analysisRunString: aString
+	analysisRunString := aString

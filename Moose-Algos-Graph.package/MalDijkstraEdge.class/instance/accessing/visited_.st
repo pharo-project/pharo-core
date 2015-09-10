@@ -1,0 +1,3 @@
+visited: aBoolean
+
+	visited := aBoolean 

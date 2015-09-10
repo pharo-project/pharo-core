@@ -1,0 +1,2 @@
+packagesDiffRemovedSize
+	^ self packagesDiffRemoved size

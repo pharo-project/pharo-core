@@ -1,0 +1,3 @@
+initializeVisitedNodes
+	
+	visitedNodes := Set new.

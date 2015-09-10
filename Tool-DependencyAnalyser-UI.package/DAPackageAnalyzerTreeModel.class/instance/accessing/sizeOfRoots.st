@@ -1,0 +1,2 @@
+sizeOfRoots
+	^ self treeRoots size

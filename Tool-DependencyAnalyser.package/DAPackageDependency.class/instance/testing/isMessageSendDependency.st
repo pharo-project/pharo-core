@@ -1,0 +1,2 @@
+isMessageSendDependency
+	^ false 

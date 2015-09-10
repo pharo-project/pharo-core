@@ -1,0 +1,2 @@
+cycle: anObject
+	cycle := anObject

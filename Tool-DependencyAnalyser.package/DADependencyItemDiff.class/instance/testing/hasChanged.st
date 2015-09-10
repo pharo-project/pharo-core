@@ -1,0 +1,2 @@
+hasChanged
+	^ self 

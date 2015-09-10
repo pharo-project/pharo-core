@@ -1,0 +1,2 @@
+tarjanLowlink: anInteger
+	lowlink := anInteger

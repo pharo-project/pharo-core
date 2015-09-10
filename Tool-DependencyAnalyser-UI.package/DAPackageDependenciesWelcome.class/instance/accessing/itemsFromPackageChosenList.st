@@ -1,0 +1,2 @@
+itemsFromPackageChosenList
+	^ self packageChosenList listItems

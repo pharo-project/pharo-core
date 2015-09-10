@@ -1,0 +1,2 @@
+initializeWith: aDAPackage
+	packageAnalysis := aDAPackage

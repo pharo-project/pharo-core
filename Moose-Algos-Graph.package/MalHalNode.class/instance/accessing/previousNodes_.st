@@ -1,0 +1,2 @@
+previousNodes: anObject
+	previousNodes := anObject

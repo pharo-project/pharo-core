@@ -1,0 +1,3 @@
+firstSource
+
+	^ previousNodes first

@@ -1,0 +1,2 @@
+seenPackagesName
+	^ self relationGraph seenPackagesName

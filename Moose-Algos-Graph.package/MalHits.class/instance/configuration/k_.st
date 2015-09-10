@@ -1,0 +1,2 @@
+k: anObject
+	k := anObject

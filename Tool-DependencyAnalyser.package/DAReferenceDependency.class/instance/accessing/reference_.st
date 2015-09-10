@@ -1,0 +1,2 @@
+reference: aClass
+	reference := aClass

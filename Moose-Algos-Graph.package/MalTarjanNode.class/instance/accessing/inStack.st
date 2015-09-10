@@ -1,0 +1,2 @@
+inStack
+	^ inStack

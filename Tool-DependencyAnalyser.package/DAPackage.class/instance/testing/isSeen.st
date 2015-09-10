@@ -1,0 +1,3 @@
+isSeen
+
+	^ seen

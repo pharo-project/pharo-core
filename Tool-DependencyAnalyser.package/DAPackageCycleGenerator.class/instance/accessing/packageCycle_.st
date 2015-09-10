@@ -1,0 +1,2 @@
+packageCycle: anObject
+	packageCycle := anObject

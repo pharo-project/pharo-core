@@ -1,0 +1,2 @@
+isLeaf
+	^ self nextNodes isEmpty

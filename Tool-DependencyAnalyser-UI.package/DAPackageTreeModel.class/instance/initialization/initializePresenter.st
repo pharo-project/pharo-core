@@ -1,0 +1,2 @@
+initializePresenter
+	self actionOnRefresh

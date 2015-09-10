@@ -1,0 +1,3 @@
+privateNodes: aCollection
+
+	nodes := aCollection 

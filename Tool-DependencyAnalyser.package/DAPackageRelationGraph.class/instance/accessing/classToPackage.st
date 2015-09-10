@@ -1,0 +1,2 @@
+classToPackage
+	^ classToPackage

@@ -1,0 +1,2 @@
+buttonRemoveAll
+	^ buttonRemoveAll

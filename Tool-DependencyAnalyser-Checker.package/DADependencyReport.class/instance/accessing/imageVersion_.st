@@ -1,0 +1,2 @@
+imageVersion: aSystemVersion 
+	imageVersion := aSystemVersion

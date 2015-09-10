@@ -1,0 +1,2 @@
+daPackage: anObject
+	daPackage := anObject

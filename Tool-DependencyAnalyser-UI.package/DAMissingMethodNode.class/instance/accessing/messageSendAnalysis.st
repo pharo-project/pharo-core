@@ -1,0 +1,2 @@
+messageSendAnalysis
+	^ self parentNode messageSendAnalysis

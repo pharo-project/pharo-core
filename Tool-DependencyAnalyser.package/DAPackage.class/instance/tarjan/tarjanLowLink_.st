@@ -1,0 +1,2 @@
+tarjanLowLink: aTarjanLowLink
+	tarjanLowLink := aTarjanLowLink.

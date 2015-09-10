@@ -1,0 +1,2 @@
+browseInNautilus
+	self browseClassInNautilus: self classFromContent

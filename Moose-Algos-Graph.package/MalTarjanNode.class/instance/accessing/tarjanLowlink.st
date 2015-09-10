@@ -1,0 +1,2 @@
+tarjanLowlink
+	^ lowlink

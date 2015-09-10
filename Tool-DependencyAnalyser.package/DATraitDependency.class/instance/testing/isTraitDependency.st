@@ -1,0 +1,2 @@
+isTraitDependency
+	^ true

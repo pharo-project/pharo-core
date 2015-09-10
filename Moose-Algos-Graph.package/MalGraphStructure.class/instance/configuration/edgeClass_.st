@@ -1,0 +1,2 @@
+edgeClass: anObject
+	edgeClass := anObject

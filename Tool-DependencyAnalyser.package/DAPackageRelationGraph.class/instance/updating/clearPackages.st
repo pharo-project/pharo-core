@@ -1,0 +1,2 @@
+clearPackages
+	packages := Dictionary new

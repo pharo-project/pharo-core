@@ -1,0 +1,2 @@
+usersOfPackageSize
+	^ self usersOfPackage size

@@ -1,0 +1,2 @@
+treeModelParent: anObject
+	treeModelParent := anObject

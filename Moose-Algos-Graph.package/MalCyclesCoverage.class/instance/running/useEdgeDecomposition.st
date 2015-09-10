@@ -1,0 +1,3 @@
+useEdgeDecomposition
+
+	sccExtractorClass := MalSccEdgeDecomposition 

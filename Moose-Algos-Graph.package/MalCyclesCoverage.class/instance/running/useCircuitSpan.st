@@ -1,0 +1,3 @@
+useCircuitSpan
+
+	sccExtractorClass := MalCircuitSpanningEdges  

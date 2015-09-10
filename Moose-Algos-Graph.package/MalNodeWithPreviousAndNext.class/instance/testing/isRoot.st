@@ -1,0 +1,2 @@
+isRoot
+	^ self previousNodes isEmpty

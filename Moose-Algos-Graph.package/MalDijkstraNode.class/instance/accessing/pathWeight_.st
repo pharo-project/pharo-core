@@ -1,0 +1,2 @@
+pathWeight: anObject
+	pathWeight := anObject

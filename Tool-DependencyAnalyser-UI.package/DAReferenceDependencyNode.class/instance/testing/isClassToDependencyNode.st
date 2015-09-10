@@ -1,0 +1,2 @@
+isClassToDependencyNode
+	^ true

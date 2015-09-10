@@ -1,0 +1,2 @@
+dependencies
+	 ^ self content dependentPackages 

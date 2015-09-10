@@ -1,0 +1,2 @@
+leafNodes: aCollectionOfNodes
+	leafNodes := aCollectionOfNodes

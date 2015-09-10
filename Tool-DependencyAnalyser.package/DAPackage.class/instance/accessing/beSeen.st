@@ -1,0 +1,2 @@
+beSeen
+	seen := true

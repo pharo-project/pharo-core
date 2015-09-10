@@ -1,0 +1,2 @@
+isTarjanUndefined
+	^ tarjanIndex = -1
