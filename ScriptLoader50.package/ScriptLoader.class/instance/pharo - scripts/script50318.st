@@ -1,4 +1,4 @@
-script50317
+script50318
 
 	^ 'AST-Core-TheIntegrator.369.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -227,7 +227,7 @@ OpalTools-TheIntegrator.18.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.42.mcz
 Polymorph-Widgets-TheIntegrator.1253.mcz
-PragmaCollector-TheIntegrator.6.mcz
+PragmaCollector-TheIntegrator.8.mcz
 ProfStef-Core-TheIntegrator.70.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
@@ -243,9 +243,9 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.36.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.162.mcz
+Reflectivity-TheIntegrator.164.mcz
 Reflectivity-Examples-TheIntegrator.2.mcz
-Reflectivity-Tests-TheIntegrator.126.mcz
+Reflectivity-Tests-TheIntegrator.128.mcz
 Regex-Core-TheIntegrator.36.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -314,7 +314,7 @@ System-Platforms-TheIntegrator.73.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-Settings-TheIntegrator.319.mcz
 System-Sound-StephaneDucasse.18.mcz
-System-Sources-TheIntegrator.39.mcz
+System-Sources-TheIntegrator.43.mcz
 System-Support-TheIntegrator.1162.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.8.mcz

@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16541 type relase vs release in SyntaxErrorDebugger
-	https://pharo.fogbugz.com/f/cases/16541
+ ^ '16545 Improve #after on sequence node
+	https://pharo.fogbugz.com/f/cases/16545
 
-16526 CubeHelix class example throws assertion error
-	https://pharo.fogbugz.com/f/cases/16526
+16498 unrecoverable changes
+	https://pharo.fogbugz.com/f/cases/16498
 
-16509 MenuTitleMorph for MenuMorph
-	https://pharo.fogbugz.com/f/cases/16509'
+16548 Undeclared ivar in PragmaCollector
+	https://pharo.fogbugz.com/f/cases/16548'

@@ -1,6 +1,5 @@
 testAfterSequence
 	| sequence link |
-	self skip.
 	sequence := (ReflectivityExamples >> #exampleMethod) ast body.
 	self assert: sequence isSequence.
 	link := MetaLink new

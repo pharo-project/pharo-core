@@ -1,6 +1,6 @@
 testAfterBlockSequence
 	| sequence link |
-	self skip.
+	self halt.
 	sequence := (ReflectivityExamples >> #exampleBlock) ast statements first value receiver body.
 	self assert: sequence isSequence.
 	link := MetaLink new

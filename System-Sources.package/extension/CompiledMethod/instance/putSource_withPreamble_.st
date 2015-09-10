@@ -4,5 +4,10 @@ putSource: source withPreamble: preambleBlock
 	SourceFiles 
 		writeSource: source 
 		preamble: (String streamContents: preambleBlock)
-		onSuccess: [ :newSourcePointer | self setSourcePointer: newSourcePointer ]
-		onFail: [ self becomeForward: (self copyWithSource: source) ]
+		onSuccess: [ :newSourcePointer | 
+			"Method chunk needs a final ! !"
+			SourceFiles changesWriteStreamDo: [ :file | file nextChunkPut: ' ' ].
+			"Update with new source pointer"
+			self setSourcePointer: newSourcePointer ]
+		onFail: [ 
+			self becomeForward: (self copyWithSource: source) ]

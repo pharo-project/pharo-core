@@ -10,7 +10,6 @@ writeSource: aString preamble: preamble onSuccess: successBlock onFail: failBloc
 	file nextPutAll: preamble.
 	position := file position.
 	file nextChunkPut: aString.
-	file nextChunkPut: ' '.
 
 	InMidstOfFileinNotification signal ifFalse: [ file flush ].
 
