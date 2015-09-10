@@ -1,4 +1,4 @@
-script50316
+script50317
 
 	^ 'AST-Core-TheIntegrator.369.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -168,7 +168,8 @@ MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
 MonticelloGUI-TheIntegrator.388.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
-Morphic-Base-TheIntegrator.481.mcz
+Moose-Algos-Graph-ChristopheDemarey.30.mcz
+Morphic-Base-TheIntegrator.484.mcz
 Morphic-Core-TheIntegrator.214.mcz
 Morphic-Examples-TheIntegrator.46.mcz
 Morphic-Tests-TheIntegrator.2.mcz
@@ -327,6 +328,10 @@ Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.104.mcz
 Tool-Catalog-TorstenBergmann.21.mcz
 Tool-CriticBrowser-TheIntegrator.10.mcz
+Tool-DependencyAnalyser-TheIntegrator.21.mcz
+Tool-DependencyAnalyser-Checker-ChristopheDemarey.30.mcz
+Tool-DependencyAnalyser-Test-ChristopheDemarey.10.mcz
+Tool-DependencyAnalyser-UI-ChristopheDemarey.33.mcz
 Tool-Diff-TheIntegrator.21.mcz
 Tool-ExternalBrowser-TheIntegrator.36.mcz
 Tool-FileList-TheIntegrator.56.mcz
@@ -339,7 +344,7 @@ Tool-SystemReporter-TheIntegrator.15.mcz
 Tool-Transcript-TheIntegrator.17.mcz
 Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.30.mcz
-Tools-TheIntegrator.1510.mcz
+Tools-TheIntegrator.1512.mcz
 Tools-Test-TheIntegrator.4.mcz
 Traits-TheIntegrator.832.mcz
 Transcript-TheIntegrator.43.mcz

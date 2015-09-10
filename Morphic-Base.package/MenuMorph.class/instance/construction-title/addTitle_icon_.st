@@ -1,8 +1,14 @@
 addTitle: aString icon: aForm
 	"Add a title line at the top of this menu."
-
-	| title titleContainer |
-	title := AlignmentMorph newColumn.
+	
+	aForm ifNil: [ ^self addTitle: aString ].
+	
+	self buildTitle: [ :tm | tm 
+		title: aString;
+		icon: aForm
+	].
+	
+	"title := AlignmentMorph newColumn.
 	self setTitleParametersFor: title.	""
 	aForm isNil
 		ifTrue: [ titleContainer := title ]
@@ -31,4 +37,4 @@ addTitle: aString icon: aForm
 	title useSquareCorners.
 	title on: #mouseDown send: #mouseDownInTitle: to: self.
 	(self hasProperty: #needsTitlebarWidgets)
-		ifTrue: [ self addStayUpIcons ]
+		ifTrue: [ self addStayUpIcons ]"

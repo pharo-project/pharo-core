@@ -1,4 +1,4 @@
-newTitleIconCalling: aSelector form: aForm helpText: aText
+iconButtonCalling: aSelector withForm: aForm helpText: aText
 
 	^IconicButton new target: self;
 		actionSelector: aSelector;
@@ -7,4 +7,4 @@ newTitleIconCalling: aSelector form: aForm helpText: aText
 		extent: 18 @ 18;
 		borderWidth: 0;
 		helpText: aText translated;
-		yourself.
+		yourself

@@ -5,6 +5,5 @@ updateColor
 		ifFalse: [ ^ self ].
 	self fillStyle: (self theme menuFillStyleFor: self).	
 	"update the title color"
-	self allMorphs
-		detect: [ :each | each hasProperty: #titleString ]
-		ifFound: [ :title | title fillStyle: (self theme menuTitleFillStyleFor: title) ]
+	
+	titleMorph ifNotNil: [ :tm | tm fillStyle: (self theme menuTitleFillStyleFor: tm )]
