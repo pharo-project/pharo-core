@@ -4,8 +4,7 @@ expectedTestResolveSymbolicVersionInResult
 	spec
 		for: #common
 		do:
-			[ 
-			spec blessing: #release.
+			[ spec blessing: #release.
 			spec
 				package: ''VersionnerTestXML-Parser''
 					with: ''VersionnerTestXML-Parser-StephaneDucasse.142'';

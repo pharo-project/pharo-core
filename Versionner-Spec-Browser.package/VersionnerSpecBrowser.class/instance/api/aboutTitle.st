@@ -1,0 +1,2 @@
+aboutTitle
+	^ self toolName.

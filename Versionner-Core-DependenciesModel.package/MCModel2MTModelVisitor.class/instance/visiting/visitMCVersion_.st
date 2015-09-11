@@ -18,5 +18,5 @@ visitMCVersion: aVersion
 	projects do:  [ :aProject | self visitMCProjectAsRequiredProject: aProject ].
 	
 	repositories := aVersion spec repositories list.
-	repositories ifNotEmptyDo:  
+	repositories ifNotEmpty:  
 		[:repo | project repository: repo first name].

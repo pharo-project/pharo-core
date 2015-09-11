@@ -3,5 +3,5 @@ execute
 	| cm |
 	cm := MetacelloToolBox compiledMethodForVersion: target.
 	Smalltalk tools browser 
-			fullOnClass: cm methodClass
+			openOnClass: cm methodClass
 			selector:  cm selector

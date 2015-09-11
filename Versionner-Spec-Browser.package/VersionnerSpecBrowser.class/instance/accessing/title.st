@@ -1,2 +1,2 @@
 title
-	^ 'Versionner- Configuration list'
+	^ self toolName , ' - Configuration list'

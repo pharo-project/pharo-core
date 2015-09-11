@@ -21,6 +21,6 @@ projectSpecFromRequiredProject: aRequiredProject
         			projectReference: projectReferenceSpec.
 
       aRequiredProject repositories do: [ :repoString | spec repository: repoString ].
-      aRequiredProject dependencies ifNotEmptyDo: [ :loadsList | spec projectReference loads: loadsList ].
+      aRequiredProject dependencies ifNotEmpty: [ :loadsList | spec projectReference loads: loadsList ].
 
 	^ spec
