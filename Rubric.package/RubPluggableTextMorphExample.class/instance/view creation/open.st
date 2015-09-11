@@ -3,9 +3,9 @@ open
 	window := (StandardWindow labelled: 'Method editor with shout') model: self.
 	editor := self newScrolledTextMorph.
 	clsMorph := self classSelectorMorph.
-	clsMorph announcer subscribe: RubTextChanged send: #whenClassNameChanged: to: self.
+	clsMorph announcer when: RubTextChanged send: #whenClassNameChanged: to: self.
 	mthMorph := self methodSelectorMorph.
-	mthMorph announcer subscribe: RubTextChanged send: #whenMethodNameChanged: to: self.
+	mthMorph announcer when: RubTextChanged send: #whenMethodNameChanged: to: self.
 	editor
 		hResizing: #spaceFill;
 		vResizing: #spaceFill.

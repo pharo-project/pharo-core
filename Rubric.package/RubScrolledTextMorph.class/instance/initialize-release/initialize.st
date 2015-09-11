@@ -4,14 +4,14 @@ initialize
 	enabled := true.
 	rulers := SortedCollection sortBlock: [ :a :b | b level > a level ].
 	self addMorph: (scrollPane := self newScrollPane).
-	self announcer subscribe: RubConfigurationChange send: #whenConfigurationChanged: to: self.
-	self textArea announcer subscribe: RubCancelEditRequested send: #whenCancelEditRequested: to: self.
-	self textArea announcer subscribe: MorphGotFocus send: #whenGotForcus: to: self.
-	self textArea announcer subscribe: MorphLostFocus send: #whenLostForcus: to: self.
-	self textArea announcer subscribe: RubTextAcceptRequest send: #whenTextAcceptRequest: to: self.
-	self textArea announcer subscribe: RubTextChanged send: #whenTextChangedInTextArea: to: self.
-	self textArea announcer subscribe: RubReturnEntered send: #whenReturnEnteredInTextArea: to: self.
-	self textArea announcer subscribe: RubKeystroke send: #whenKeystrokeInTextArea: to: self.
+	self announcer when: RubConfigurationChange send: #whenConfigurationChanged: to: self.
+	self textArea announcer when: RubCancelEditRequested send: #whenCancelEditRequested: to: self.
+	self textArea announcer when: MorphGotFocus send: #whenGotForcus: to: self.
+	self textArea announcer when: MorphLostFocus send: #whenLostFocus: to: self.
+	self textArea announcer when: RubTextAcceptRequest send: #whenTextAcceptRequest: to: self.
+	self textArea announcer when: RubTextChanged send: #whenTextChangedInTextArea: to: self.
+	self textArea announcer when: RubReturnEntered send: #whenReturnEnteredInTextArea: to: self.
+	self textArea announcer when: RubKeystroke send: #whenKeystrokeInTextArea: to: self.
 	self withAdornment.
 	self borderStyle: self borderStyleToUse.
 	highlights := OrderedCollection new

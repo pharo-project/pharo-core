@@ -1,3 +1,3 @@
 registerTextArea 
-	textArea announcer subscribe: RubExtentChanged send: #whenExtentChanged: to: self.
-	textArea announcer subscribe: RubTextChanged send: #whenTextChanged: to: self
+	textArea announcer when: RubExtentChanged send: #whenExtentChanged: to: self.
+	textArea announcer when: RubTextChanged send: #whenTextChanged: to: self
