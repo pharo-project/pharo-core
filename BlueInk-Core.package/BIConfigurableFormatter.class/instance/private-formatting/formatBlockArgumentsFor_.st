@@ -3,10 +3,11 @@ formatBlockArgumentsFor: aBlockNode
 		ifTrue: [ ^ self ].
 	aBlockNode arguments
 		do:
-			[ :each | 
-			codeStream nextPut: $:.
+			[ :each | codeStream nextPut: $:.
 			self visitNode: each.
 			self formatCommentWithStatements
 				ifTrue: [ self formatCommentsFor: each ].
 			self space ].
-	codeStream nextPutAll: '| '
+	codeStream nextPutAll: '| '.
+	(self willBeMultiline: aBlockNode body)
+		ifTrue: [ self newLine ]

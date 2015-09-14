@@ -1,4 +1,4 @@
-script50321
+script50322
 
 	^ 'AST-Core-TheIntegrator.369.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -23,14 +23,14 @@ Balloon-TheIntegrator.126.mcz
 Balloon-Tests-TheIntegrator.2.mcz
 BaselineOfQualityAssistant-YuriyTymchuk.12.mcz
 BaselineOfRenraku-YuriyTymchuk.4.mcz
-BlueInk-Core-TheIntegrator.6.mcz
+BlueInk-Core-TheIntegrator.8.mcz
 BlueInk-Extras-TheIntegrator.6.mcz
 BlueInk-Tests-TheIntegrator.8.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
 CodeExport-TheIntegrator.13.mcz
 CodeImport-TheIntegrator.75.mcz
 CodeImportCommandLineHandlers-EstebanLorenzano.2.mcz
-Collections-Abstract-TheIntegrator.298.mcz
+Collections-Abstract-TheIntegrator.300.mcz
 Collections-Arithmetic-TheIntegrator.20.mcz
 Collections-Atomic-TheIntegrator.16.mcz
 Collections-Native-TheIntegrator.19.mcz
@@ -58,10 +58,10 @@ Deprecated50-TheIntegrator.23.mcz
 EmbeddedFreeType-TheIntegrator.24.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-MarcusDenker.32.mcz
-FileSystem-Core-TheIntegrator.184.mcz
+FileSystem-Core-TheIntegrator.187.mcz
 FileSystem-Disk-TheIntegrator.86.mcz
 FileSystem-Memory-TheIntegrator.57.mcz
-FileSystem-Tests-Core-TheIntegrator.93.mcz
+FileSystem-Tests-Core-TheIntegrator.95.mcz
 FileSystem-Tests-Disk-StephaneDucasse.25.mcz
 FileSystem-Tests-Memory-TheIntegrator.8.mcz
 FileSystem-Zip-TheIntegrator.19.mcz
@@ -246,7 +246,7 @@ Refactoring-Tests-Environment-StephaneDucasse.11.mcz
 Reflectivity-TheIntegrator.166.mcz
 Reflectivity-Examples-TheIntegrator.2.mcz
 Reflectivity-Tests-TheIntegrator.132.mcz
-Regex-Core-TheIntegrator.36.mcz
+Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
 ReleaseTests-TheIntegrator.15.mcz
