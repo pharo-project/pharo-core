@@ -1,4 +1,4 @@
-script50320
+script50321
 
 	^ 'AST-Core-TheIntegrator.369.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -243,9 +243,9 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.36.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.164.mcz
+Reflectivity-TheIntegrator.166.mcz
 Reflectivity-Examples-TheIntegrator.2.mcz
-Reflectivity-Tests-TheIntegrator.128.mcz
+Reflectivity-Tests-TheIntegrator.132.mcz
 Regex-Core-TheIntegrator.36.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -358,15 +358,15 @@ Unicode-Initialization-TheIntegrator.12.mcz
 UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz
 Versionner-Commit-EstebanLorenzano.31.mcz
-Versionner-Core-Announcements-MarcusDenker.11.mcz
-Versionner-Core-Commands-EstebanLorenzano.58.mcz
-Versionner-Core-DependenciesModel-TheIntegrator.103.mcz
-Versionner-Core-Model-TheIntegrator.53.mcz
-Versionner-Spec-Browser-EstebanLorenzano.176.mcz
-Versionner-Tests-Core-Commands-TheIntegrator.19.mcz
+Versionner-Core-Announcements-ChristopheDemarey.6.mcz
+Versionner-Core-Commands-ChristopheDemarey.61.mcz
+Versionner-Core-DependenciesModel-MarcusDenker.102.mcz
+Versionner-Core-Model-EstebanLorenzano.51.mcz
+Versionner-Spec-Browser-SeanDeNigris.178.mcz
+Versionner-Tests-Core-Commands-ChristopheDemarey.18.mcz
 Versionner-Tests-Core-DependenciesModel-ChristopheDemarey.42.mcz
 Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz
-Versionner-Tests-Resources-TheIntegrator.18.mcz
+Versionner-Tests-Resources-ChristopheDemarey.15.mcz
 Zinc-Character-Encoding-Core-SvenVanCaekenberghe.37.mcz
 Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.22.mcz
 Zinc-FileSystem-SvenVanCaekenberghe.10.mcz
