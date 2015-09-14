@@ -1,6 +1,6 @@
 reformatSource
 	| stream newSource newTree |
-	stream := WriteStream on: (String new: source size + 100).
+	stream := (String new: source size + 100) writeStream.
 	stream
 		nextPutAll: (source
 			copyFrom: (replacements

@@ -1,5 +1,5 @@
-NautilusClassSelected subclass: #NautilusProtocolSelected
-	instanceVariableNames: 'protocol'
+NautilusSelectionAnnouncement subclass: #NautilusProtocolSelected
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'NautilusCommon-Announcements'

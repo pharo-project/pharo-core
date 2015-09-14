@@ -1,6 +1,6 @@
 contents
 	| contentsStream |
-	contentsStream := WriteStream on: (Array new: 50).
+	contentsStream := (Array new: 50) writeStream.
 	[ self atEnd ]
 		whileFalse: [ contentsStream nextPut: self next ].
 	^ contentsStream contents

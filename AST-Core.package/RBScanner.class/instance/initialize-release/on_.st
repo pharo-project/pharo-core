@@ -1,5 +1,5 @@
 on: aStream 
-	buffer := WriteStream on: (String new: 60).
+	buffer := (String new: 60) writeStream.
 	stream := aStream.
 	classificationTable := self class classificationTable.
 	comments := OrderedCollection new

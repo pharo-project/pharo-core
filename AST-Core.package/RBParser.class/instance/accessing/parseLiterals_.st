@@ -1,6 +1,6 @@
 parseLiterals: aString 
 	| stream |
-	stream := WriteStream on: (Array new: 5).
+	stream := (Array new: 5) writeStream.
 	[self atEnd or: [currentToken isSpecial and: [currentToken value = $)]]] 
 		whileFalse: [stream nextPut: self parseLiteralArrayObject].
 	

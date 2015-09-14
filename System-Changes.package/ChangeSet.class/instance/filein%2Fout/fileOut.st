@@ -5,8 +5,8 @@ fileOut
 	| nameToUse |
 	self class promptForDefaultChangeSetDirectoryIfNecessary.
 	nameToUse := (self defaultChangeSetDirectory / self name , 'cs') nextVersion basename.
-	Cursor write
-		showWhile:
+	UIManager default
+		showWaitCursorWhile:			
 			[ 
 			| internalStream |
 			internalStream := (String new: 10000) writeStream.

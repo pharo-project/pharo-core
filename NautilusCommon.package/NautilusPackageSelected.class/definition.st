@@ -1,5 +1,5 @@
-Announcement subclass: #NautilusPackageSelected
-	instanceVariableNames: 'package'
+NautilusSelectionAnnouncement subclass: #NautilusPackageSelected
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'NautilusCommon-Announcements'

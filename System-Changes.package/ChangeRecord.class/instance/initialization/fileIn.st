@@ -1,8 +1,8 @@
 fileIn
 	"File the receiver in.  If I represent a method or a class-comment, file the method in and make a note of it in the recent-submissions list; if I represent a do-it, then, well, do it."
 
-	Cursor read
-		showWhile:
+	UIManager default
+		showWaitCursorWhile:			
 			[ 
 			| methodClass s |
 			(methodClass := self methodClass) notNil

@@ -3,5 +3,5 @@ initialize
 	lineStart := 0.
 	self indent: 0.
 	lookaheadCode := IdentityDictionary new.
-	codeStream := WriteStream on: (String new: 256).
+	codeStream := (String new: 256) writeStream.
 	
