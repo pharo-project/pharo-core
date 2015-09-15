@@ -5,4 +5,4 @@ spotterModel: aModel
 	
 	spotterModel steps isEmpty ifFalse: [ spotterModel currentStep isEmpty ifFalse: [ self showDropDownPane ] ].
 
-	spotterModel announcer subscribe: GTSpotterStepAdded send: #onStepAdded to: self.
+	spotterModel announcer when: GTSpotterStepAdded send: #onStepAdded to: self.

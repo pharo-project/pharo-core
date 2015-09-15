@@ -2,8 +2,8 @@ stepModel: aModel
 
 	stepModel := aModel.
 	
-	stepModel announcer weak subscribe: GTSpotterSelectedCandidateChanged send: #onSelectedChanged: to: self.
-	stepModel spotter announcer weak subscribe: GTSpotterStepPopped send: #onStepPopped to: self.
+	stepModel announcer weak when: GTSpotterSelectedCandidateChanged send: #onSelectedChanged: to: self.
+	stepModel spotter announcer weak when: GTSpotterStepPopped send: #onStepPopped to: self.
 	
 	self actionbarBrick stepModel: aModel.
 	
