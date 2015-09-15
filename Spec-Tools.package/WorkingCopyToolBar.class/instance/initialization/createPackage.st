@@ -1,6 +1,6 @@
 createPackage
 	| name |
-	name := UIManager default request: 'Name of package:' translated.
+	name := UIManager default request: 'Name of package:'.
 	name isEmptyOrNil
 		ifTrue: [ ^ self ].
 	RPackageOrganizer default registerPackageNamed: name.

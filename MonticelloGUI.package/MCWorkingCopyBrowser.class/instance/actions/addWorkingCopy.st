@@ -1,7 +1,7 @@
 addWorkingCopy
 	| name |
 	
-	name := UIManager default request: 'Name of package:' translated.
+	name := UIManager default request: 'Name of package:'.
 	name isEmptyOrNil ifFalse: [
 		RPackageOrganizer default registerPackageNamed: name.		
 		workingCopy := MCWorkingCopy forPackage: (MCPackage new name: name).

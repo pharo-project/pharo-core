@@ -1,4 +1,4 @@
-script50324
+script50325
 
 	^ 'AST-Core-TheIntegrator.371.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -82,7 +82,7 @@ FuelTools-Debugger-StephaneDucasse.12.mcz
 GT-Inspector-AndreiChis.310.mcz
 GT-InspectorExtensions-Core-TorstenBergmann.159.mcz
 GT-Playground-AndreiChis.112.mcz
-GT-Spotter-TheIntegrator.319.mcz
+GT-Spotter-CyrilFerlicot.321.mcz
 GT-Spotter-EventRecorder-JurajKubelka.96.mcz
 GT-SpotterExtensions-Core-MarcusDenker.156.mcz
 GT-Tests-Inspector-TudorGirba.34.mcz
@@ -94,9 +94,9 @@ Glamour-Browsers-TorstenBergmann.109.mcz
 Glamour-Core-SeanDeNigris.303.mcz
 Glamour-Examples-MarcusDenker.293.mcz
 Glamour-Helpers-AndreiChis.39.mcz
-Glamour-Morphic-Brick-AndreiChis.401.mcz
+Glamour-Morphic-Brick-CyrilFerlicot.402.mcz
 Glamour-Morphic-Brick-Tests-AliakseiSyrel.13.mcz
-Glamour-Morphic-Pager-AndreiChis.103.mcz
+Glamour-Morphic-Pager-CyrilFerlicot.104.mcz
 Glamour-Morphic-Renderer-MarcusDenker.326.mcz
 Glamour-Morphic-Theme-AndreiChis.216.mcz
 Glamour-Morphic-Widgets-AndreiChis.180.mcz
@@ -159,17 +159,17 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-TheIntegrator.1075.mcz
+Monticello-TheIntegrator.1077.mcz
 Monticello-OldDataStreamCompatibility-TheIntegrator.6.mcz
-Monticello-Tests-TheIntegrator.26.mcz
+Monticello-Tests-TheIntegrator.28.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileTree-Core-TheIntegrator.189.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
-MonticelloGUI-TheIntegrator.388.mcz
+MonticelloGUI-TheIntegrator.391.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Moose-Algos-Graph-ChristopheDemarey.30.mcz
-Morphic-Base-TheIntegrator.484.mcz
+Morphic-Base-TheIntegrator.487.mcz
 Morphic-Core-TheIntegrator.214.mcz
 Morphic-Examples-TheIntegrator.46.mcz
 Morphic-Tests-TheIntegrator.2.mcz
@@ -245,7 +245,7 @@ Refactoring-Tests-Critics-TheIntegrator.36.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
 Reflectivity-TheIntegrator.166.mcz
 Reflectivity-Examples-TheIntegrator.2.mcz
-Reflectivity-Tests-TheIntegrator.132.mcz
+Reflectivity-Tests-TheIntegrator.135.mcz
 Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -290,7 +290,7 @@ Spec-Layout-TheIntegrator.69.mcz
 Spec-MorphicAdapters-TheIntegrator.237.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz
 Spec-Tests-TheIntegrator.54.mcz
-Spec-Tools-TheIntegrator.286.mcz
+Spec-Tools-TheIntegrator.289.mcz
 StartupPreferences-TheIntegrator.139.mcz
 System-Announcements-TheIntegrator.104.mcz
 System-Caching-TheIntegrator.26.mcz

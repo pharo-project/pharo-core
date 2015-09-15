@@ -1,3 +1,4 @@
 examplePrimitiveMethod
-	<primitive: 198> "has not effect"
+	"returns image path"
+	<primitive: 121>
 	^ 2 + 3

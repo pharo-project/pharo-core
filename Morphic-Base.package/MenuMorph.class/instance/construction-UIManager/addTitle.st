@@ -1,6 +1,6 @@
 addTitle
 
 	| string |
-	string := UIManager default request: 'Title for this menu?' translated.
+	string := UIManager default request: 'Title for this menu?'.
 	string isEmptyOrNil ifTrue: [^ self].
 	self addTitle: string.
