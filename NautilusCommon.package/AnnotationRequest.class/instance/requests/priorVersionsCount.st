@@ -1,8 +1,10 @@
 priorVersionsCount
 	"A report of how many previous versions there are of the method."
 
-	| versionsCount |
-	versionsCount := self methodClass changeRecordsAt: self methodSelector.
+	| aMethod versionsCount |
+	aMethod := (self methodClass >> self methodSelector) asRingDefinition.
+		
+	versionsCount := (SourceFiles changeRecordsFor: aMethod) size.
 	^ versionsCount > 1
 		ifTrue: [ 
 			versionsCount = 2

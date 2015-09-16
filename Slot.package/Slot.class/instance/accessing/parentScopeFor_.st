@@ -1,2 +1,0 @@
-parentScopeFor: aScope
-	^ aScope

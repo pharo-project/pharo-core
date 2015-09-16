@@ -48,7 +48,7 @@ initialize
 "creating method dictionary"
 "instance creation" basicNew basicNew: new new:
 "accessing class hierarchy" allSubclasses allSubclassesWithLevelDo:startingLevel: allSuperclasses subclasses superclass withAllSubclasses withAllSuperclasses
-"accessing method dictionary" allSelectors changeRecordsAt: compiledMethodAt: compiledMethodAt:ifAbsent: firstCommentAt: lookupSelector: selectors selectorsDo: selectorsWithArgs: "slow but useful ->" sourceCodeAt: sourceCodeAt:ifAbsent: sourceMethodAt: sourceMethodAt:ifAbsent:
+"accessing method dictionary" allSelectors compiledMethodAt: compiledMethodAt:ifAbsent: firstCommentAt: lookupSelector: selectors selectorsDo: selectorsWithArgs: "slow but useful ->" sourceCodeAt: sourceCodeAt:ifAbsent: sourceMethodAt: sourceMethodAt:ifAbsent:
 "accessing instances and variables" allClassVarNames allInstVarNames allSharedPools classVarNames instVarNames instanceCount sharedPools someInstance subclassInstVarNames
 "testing class hierarchy" inheritsFrom: kindOfSubclass
 "testing method dictionary" canUnderstand: classThatUnderstands: hasMethods includesSelector: whichClassIncludesSelector: whichSelectorsAccess: whichSelectorsReferTo: whichSelectorsStoreInto:

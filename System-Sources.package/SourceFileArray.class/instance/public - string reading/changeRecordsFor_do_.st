@@ -1,13 +1,8 @@
 changeRecordsFor: aMethodDefinition do: aUnaryBlock
 	"Evaluate aUnaryBlock with each of the ChangeRecords of aMethodDefinition. Most recent changes are evaluated first."
 
-	| method |
-	method := aMethodDefinition actualClass 
-		compiledMethodAt: aMethodDefinition selector
-		ifAbsent: [ ^ self ].
-
-	self 
-		changeRecordsFrom: method sourcePointer 
+	^ self 
+		changeRecordsFrom: aMethodDefinition sourcePointer
 		className: aMethodDefinition theNonMetaClassName
-		isMeta: aMethodDefinition classIsMeta
+		isMeta: aMethodDefinition isMetaSide
 		do: aUnaryBlock

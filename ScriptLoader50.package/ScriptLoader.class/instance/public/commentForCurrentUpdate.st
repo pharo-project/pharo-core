@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16576 more tests for Primitives
-	https://pharo.fogbugz.com/f/cases/16576
+ ^ '16420 Remove #changeRecordsAt: from TBehavior
+	https://pharo.fogbugz.com/f/cases/16420
 
-14294 request: should be in charge of its argument translation and not its clients
-	https://pharo.fogbugz.com/f/cases/14294
+16580 #after block sequence
+	https://pharo.fogbugz.com/f/cases/16580
 
-16572 Fix "-override" method unload
-	https://pharo.fogbugz.com/f/cases/16572'
+16579 parentScopeFor: not used
+	https://pharo.fogbugz.com/f/cases/16579'
