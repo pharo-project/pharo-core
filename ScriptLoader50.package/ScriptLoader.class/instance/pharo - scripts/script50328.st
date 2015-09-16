@@ -1,4 +1,4 @@
-script50327
+script50328
 
 	^ 'AST-Core-TheIntegrator.371.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -39,7 +39,7 @@ Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.186.mcz
 Collections-Strings-TheIntegrator.370.mcz
 Collections-Support-TheIntegrator.65.mcz
-Collections-Tests-TheIntegrator.4.mcz
+Collections-Tests-TheIntegrator.6.mcz
 Collections-Unordered-TheIntegrator.214.mcz
 Collections-Weak-TheIntegrator.93.mcz
 CollectionsTests-TheIntegrator.709.mcz
@@ -128,7 +128,7 @@ IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2133.mcz
-Kernel-Tests-TheIntegrator.2.mcz
+Kernel-Tests-TheIntegrator.5.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
 Keymapping-Pragmas-TheIntegrator.52.mcz
@@ -173,7 +173,7 @@ Morphic-Base-TheIntegrator.487.mcz
 Morphic-Core-TheIntegrator.214.mcz
 Morphic-Examples-TheIntegrator.46.mcz
 Morphic-Tests-TheIntegrator.2.mcz
-Morphic-Widgets-Basic-TheIntegrator.57.mcz
+Morphic-Widgets-Basic-TheIntegrator.59.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
 Morphic-Widgets-Extra-TheIntegrator.24.mcz
 Morphic-Widgets-FastTable-NicolaiHess.44.mcz
@@ -236,16 +236,16 @@ RPackage-Core-TheIntegrator.410.mcz
 RPackage-Tests-TheIntegrator.175.mcz
 RecentSubmissions-TheIntegrator.238.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
-Refactoring-Core-TheIntegrator.287.mcz
+Refactoring-Core-TheIntegrator.289.mcz
 Refactoring-Critics-TheIntegrator.216.mcz
 Refactoring-Environment-TheIntegrator.61.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.36.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.168.mcz
+Reflectivity-TheIntegrator.171.mcz
 Reflectivity-Examples-TheIntegrator.2.mcz
-Reflectivity-Tests-TheIntegrator.137.mcz
+Reflectivity-Tests-TheIntegrator.140.mcz
 Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -291,7 +291,7 @@ Spec-MorphicAdapters-TheIntegrator.237.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz
 Spec-Tests-TheIntegrator.56.mcz
 Spec-Tools-TheIntegrator.290.mcz
-StartupPreferences-TheIntegrator.139.mcz
+StartupPreferences-TheIntegrator.141.mcz
 System-Announcements-TheIntegrator.104.mcz
 System-Caching-TheIntegrator.26.mcz
 System-CachingTests-TheIntegrator.14.mcz
@@ -315,7 +315,7 @@ System-Serial Port-StephaneDucasse.23.mcz
 System-Settings-TheIntegrator.319.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.44.mcz
-System-Support-TheIntegrator.1162.mcz
+System-Support-TheIntegrator.1164.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.8.mcz
 Tests-TheIntegrator.742.mcz
@@ -336,7 +336,7 @@ Tool-Diff-TheIntegrator.21.mcz
 Tool-ExternalBrowser-TheIntegrator.36.mcz
 Tool-FileList-TheIntegrator.58.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
-Tool-Finder-TheIntegrator.48.mcz
+Tool-Finder-TheIntegrator.49.mcz
 Tool-ImageCleaner-TheIntegrator.10.mcz
 Tool-ProcessBrowser-TheIntegrator.10.mcz
 Tool-Profilers-TheIntegrator.19.mcz
@@ -353,7 +353,7 @@ TxText-AthensTests-SeanDeNigris.10.mcz
 TxText-Model-SeanDeNigris.61.mcz
 TxText-Styler-NicolaiHess.11.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
-UIManager-TheIntegrator.165.mcz
+UIManager-TheIntegrator.167.mcz
 Unicode-Initialization-TheIntegrator.12.mcz
 UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz

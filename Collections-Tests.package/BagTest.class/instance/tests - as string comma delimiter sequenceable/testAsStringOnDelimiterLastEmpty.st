@@ -1,7 +1,2 @@
 testAsStringOnDelimiterLastEmpty
-
-	| delim emptyStream |
-	delim := ', '.
-	emptyStream := ReadWriteStream on: ''.
-	self empty asStringOn: emptyStream delimiter: delim last:'and'.
-	self assert: emptyStream contents = ''.
+	self assert: (String streamContents: [ :emptyStream | self empty asStringOn: emptyStream delimiter: ', ' last: 'and' ]) equals: ''

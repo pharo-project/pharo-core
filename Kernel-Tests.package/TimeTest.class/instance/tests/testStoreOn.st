@@ -1,6 +1,2 @@
 testStoreOn
-	| cs rw |
-	cs := '''12:34:56 pm'' asTime' readStream.
-	rw := ReadWriteStream on: ''.
-	aTime storeOn: rw.
-	self assert: rw contents = cs contents
+	self assert: (String streamContents: [ :str | aTime storeOn: str ]) equals: '''12:34:56 pm'' asTime'

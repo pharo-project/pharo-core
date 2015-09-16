@@ -1,33 +1,40 @@
 definitionString
-	| definitionStream |
-	definitionStream := WriteStream on: ''.
-	definitionStream
-		nextPutAll: self superclass printString;
-		nextPutAll: ' subclass: #';
-		nextPutAll: self name;
-		nextPutAll: '
+	^ String
+		streamContents:
+			[ :definitionStream | 
+			definitionStream
+				nextPutAll: self superclass printString;
+				nextPutAll: ' subclass: #';
+				nextPutAll: self name;
+				nextPutAll:
+					'
 	instanceVariableNames: '''.
-	self instanceVariableNames do: 
-			[:each | 
+			self instanceVariableNames
+				do: [ :each | 
+					definitionStream
+						nextPutAll: each;
+						nextPut: $  ].
 			definitionStream
-				nextPutAll: each;
-				nextPut: $ ].
-	definitionStream nextPutAll: '''
+				nextPutAll:
+					'''
 	classVariableNames: '''.
-	self classVariableNames do: 
-			[:each | 
+			self classVariableNames
+				do: [ :each | 
+					definitionStream
+						nextPutAll: each;
+						nextPut: $  ].
 			definitionStream
-				nextPutAll: each;
-				nextPut: $ ].
-	definitionStream nextPutAll: '''
+				nextPutAll:
+					'''
 	poolDictionaries: '''.
-	self sharedPoolNames do: 
-			[:each | 
+			self sharedPoolNames
+				do: [ :each | 
+					definitionStream
+						nextPutAll: each;
+						nextPut: $  ].
 			definitionStream
-				nextPutAll: each;
-				nextPut: $ ].
-	definitionStream nextPutAll: '''
+				nextPutAll:
+					'''
 	category: #'''.
-	definitionStream nextPutAll: self category asString.
-	definitionStream nextPut: $'.
-	^definitionStream contents
+			definitionStream nextPutAll: self category asString.
+			definitionStream nextPut: $' ]

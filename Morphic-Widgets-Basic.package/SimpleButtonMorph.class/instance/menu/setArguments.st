@@ -1,15 +1,13 @@
 setArguments
-
-	| s newArgs newArgsArray |
-	s := WriteStream on: ''.
-	arguments do: [:arg | arg printOn: s. s nextPutAll: '. '].
-	newArgs :=  UIManager default
+	| newArgs newArgsArray |
+	newArgs := UIManager default
 		request:
-'Please type the arguments to be sent to the target
+			'Please type the arguments to be sent to the target
 when this button is pressed separated by periods' translated
-		initialAnswer: s contents.
-	newArgs isEmptyOrNil ifFalse: [
-		newArgsArray := self class compiler source:  '{', newArgs, '}' ;
-			receiver: self;
-			evaluate.
-		self arguments: newArgsArray].
+		initialAnswer: (String streamContents: [ :str | arguments do: [ :arg | arg printOn: str. str nextPutAll: '. ' ] ]).
+	newArgs isEmptyOrNil ifFalse: [ 
+			newArgsArray := self class compiler
+				source: '{' , newArgs , '}';
+				receiver: self;
+				evaluate.
+			self arguments: newArgsArray ]
