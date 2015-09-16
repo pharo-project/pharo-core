@@ -5,4 +5,4 @@ basicRemoveTab: aTab
 
 	"This method simply removes the tab from the collection without triggering further updates. It is useful for Adapters if there are different mechanisms of tab removal."
 
-	tabs value remove: aTab ifAbsent: [  ]
+	(tabs value remove: aTab ifAbsent: [ ^ self ]) owner: nil

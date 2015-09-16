@@ -1,9 +1,6 @@
 testSubscribeSend
 	| announcement instance |
-	announcer
-		subscribe: AnnouncementMockA
-		send: #value:
-		to: [ :ann | announcement := ann ].
+	announcer when: AnnouncementMockA send: #value: to: [ :ann | announcement := ann ].
 		
 	announcement := nil.
 	instance := announcer announce: AnnouncementMockA.

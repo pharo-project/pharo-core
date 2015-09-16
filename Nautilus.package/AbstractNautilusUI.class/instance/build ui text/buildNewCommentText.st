@@ -7,7 +7,7 @@ buildNewCommentText
 		yourself.
 	self classCommentTextModel setInitialText: self getComments.
 	classCommentTextModel announcer weak
-		subscribe: RubTextAcceptRequest send: #whenTextUpdatedInCommentPane: to: self;
-		subscribe: NautilusExtendCommentSwitch send: #whenExtendCommentSwitch: to: self;
-		subscribe: RubTextUpdatedInModel send: #whenTextUpdatedInCommentPane: to: self.
+		when: RubTextAcceptRequest send: #whenTextUpdatedInCommentPane: to: self;
+		when: NautilusExtendCommentSwitch send: #whenExtendCommentSwitch: to: self;
+		when: RubTextUpdatedInModel send: #whenTextUpdatedInCommentPane: to: self.
 	^ scrolledText

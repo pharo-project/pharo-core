@@ -1,7 +1,7 @@
 noteNewOwner: aMorph
 	super noteNewOwner: aMorph.
 	self color: self backgroundColor.
-	self paragraphProvider announcer weak subscribe: MorphGotFocus send: #updateContents to: self.
+	self paragraphProvider announcer weak when: MorphGotFocus send: #updateContents to: self.
 	lineAnnotation := self lineAnnotationMorph.
 	wrappingPolicyMorph := self wrappingPolicyLabelMorph.
 	lineNumbersDisplayMorph := self lineNumbersDisplayLabelMorph.

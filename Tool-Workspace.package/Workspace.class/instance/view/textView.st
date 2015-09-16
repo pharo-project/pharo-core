@@ -4,5 +4,5 @@ textView
 		withRuler: RubWorkspaceBar new;
 		beWrapped;
 		yourself.
-	v announcer subscribe: RubTextAccepted send: #whenTextAccepted: to: self.
+	v announcer when: RubTextAccepted send: #whenTextAccepted: to: self.
 	^ v

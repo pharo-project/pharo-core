@@ -5,10 +5,7 @@ addAll: aWindow
 	middleHeight := 0.
 	topHeight := 0.
 	sourceTextWidget := self buildCodePane.
-	sourceTextWidget announcer
-		subscribe: RubTextAccepted
-		send: #whenTextAcceptedInView:
-		to: self.
+	sourceTextWidget announcer when: RubTextAccepted send: #whenTextAcceptedInView: to: self.
 	self buildTopPlugins
 		ifNotNil:
 			[ :top | 

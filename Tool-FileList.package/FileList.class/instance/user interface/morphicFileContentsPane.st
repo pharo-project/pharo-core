@@ -4,6 +4,6 @@ morphicFileContentsPane
 		beWrapped;
 		yourself.
 	scrolledText menuProvider: self selector: #fileContentsMenu:shifted: .
-	scrolledText announcer subscribe: RubTextAccepted send: #whenTextAccepted: to: self.
+	scrolledText announcer when: RubTextAccepted send: #whenTextAccepted: to: self.
 	self sourceTextModel setText: self contents.
 	^ scrolledText

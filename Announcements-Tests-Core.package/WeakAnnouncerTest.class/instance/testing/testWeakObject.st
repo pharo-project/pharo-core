@@ -3,7 +3,7 @@ testWeakObject
 	counter := 0.
 	collector := [ counter := counter + 1 ].
 	forwarder := MessageSend receiver: collector selector: #value.
-	(announcer subscribe: AnnouncementMockA send: #value to: forwarder) makeWeak.
+	(announcer when: AnnouncementMockA send: #value to: forwarder) makeWeak.
 	
 	" shouldn't go away, we are still holding a reference to 'forwarder': "
 	Smalltalk garbageCollect.

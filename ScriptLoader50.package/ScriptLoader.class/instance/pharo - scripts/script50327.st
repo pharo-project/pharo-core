@@ -1,10 +1,10 @@
-script50326
+script50327
 
 	^ 'AST-Core-TheIntegrator.371.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
 Announcements-Core-TheIntegrator.59.mcz
 Announcements-Help-TheIntegrator.12.mcz
-Announcements-Tests-Core-TheIntegrator.25.mcz
+Announcements-Tests-Core-TheIntegrator.27.mcz
 AsmJit-Core-TheIntegrator.10.mcz
 AsmJit-Extension-TheIntegrator.10.mcz
 AsmJit-Instructions-TheIntegrator.15.mcz
@@ -200,7 +200,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1082.mcz
+Nautilus-TheIntegrator.1085.mcz
 Nautilus-GroupManager-TheIntegrator.13.mcz
 Nautilus-GroupManagerUI-TheIntegrator.20.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
@@ -281,7 +281,7 @@ Slot-TheIntegrator.684.mcz
 Slot-Tests-TheIntegrator.62.mcz
 SmartSuggestions-TheIntegrator.178.mcz
 SmartSuggestions-Tests-TheIntegrator.10.mcz
-Spec-Core-TheIntegrator.425.mcz
+Spec-Core-TheIntegrator.427.mcz
 Spec-Debugger-TheIntegrator.250.mcz
 Spec-Examples-TheIntegrator.98.mcz
 Spec-Help-TheIntegrator.10.mcz
@@ -289,7 +289,7 @@ Spec-Inspector-TheIntegrator.250.mcz
 Spec-Layout-TheIntegrator.69.mcz
 Spec-MorphicAdapters-TheIntegrator.237.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz
-Spec-Tests-TheIntegrator.54.mcz
+Spec-Tests-TheIntegrator.56.mcz
 Spec-Tools-TheIntegrator.290.mcz
 StartupPreferences-TheIntegrator.139.mcz
 System-Announcements-TheIntegrator.104.mcz
@@ -334,7 +334,7 @@ Tool-DependencyAnalyser-Test-ChristopheDemarey.10.mcz
 Tool-DependencyAnalyser-UI-ChristopheDemarey.33.mcz
 Tool-Diff-TheIntegrator.21.mcz
 Tool-ExternalBrowser-TheIntegrator.36.mcz
-Tool-FileList-TheIntegrator.56.mcz
+Tool-FileList-TheIntegrator.58.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
 Tool-Finder-TheIntegrator.48.mcz
 Tool-ImageCleaner-TheIntegrator.10.mcz
@@ -343,7 +343,7 @@ Tool-Profilers-TheIntegrator.19.mcz
 Tool-SystemReporter-TheIntegrator.15.mcz
 Tool-Transcript-TheIntegrator.17.mcz
 Tool-TxWorkspace-NicolaiHess.7.mcz
-Tool-Workspace-TheIntegrator.30.mcz
+Tool-Workspace-TheIntegrator.32.mcz
 Tools-TheIntegrator.1512.mcz
 Tools-Test-TheIntegrator.4.mcz
 Traits-TheIntegrator.832.mcz
