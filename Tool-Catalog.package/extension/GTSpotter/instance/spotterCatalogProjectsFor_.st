@@ -7,5 +7,8 @@ spotterCatalogProjectsFor: aStep
 			itemName: [ :item | item name ];
 			itemIcon: [ :item | CatalogBrowser iconFor: item ];
 			filter: GTFilterSubstring;
-			actLogic: [ :item | item installStableVersion ];
+			actLogic: [ :item | 
+				aStep exit.
+				(UIManager default confirm: 'Would you like to install ', item name, '?') 
+					 ifTrue: [ item installStableVersion ]];
 			wantsToDisplayOnEmptyQuery: true

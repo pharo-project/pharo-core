@@ -1,4 +1,5 @@
 installStableVersion: aProject onSuccess: aBlock
+	aProject ifNil: [ ^self ].
 	aProject isAvailableForCurrentPharo 
 		ifFalse: [  
 			(UIManager default confirm: ('{1} has not been marked as tested for {2}! 

@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '16581 one-shot links
-	https://pharo.fogbugz.com/f/cases/16581
+ ^ '16589 #instead for block sequence
+	https://pharo.fogbugz.com/f/cases/16589
 
-16582 Reflectivity: #instead for sequence nodes
-	https://pharo.fogbugz.com/f/cases/16582
+16588 Integrate Catalog 0.9
+	https://pharo.fogbugz.com/f/cases/16588
 
-15260 WriteStream on new string
-	https://pharo.fogbugz.com/f/cases/15260
-
-16578 Add an id to Session
-	https://pharo.fogbugz.com/f/cases/16578'
+16586 Load latest version of CodeImporter
+	https://pharo.fogbugz.com/f/cases/16586'
