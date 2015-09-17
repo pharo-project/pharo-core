@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16589 #instead for block sequence
-	https://pharo.fogbugz.com/f/cases/16589
+ ^ '16523 Nautilus Regex Search Box borken
+	https://pharo.fogbugz.com/f/cases/16523
 
-16588 Integrate Catalog 0.9
-	https://pharo.fogbugz.com/f/cases/16588
+16587 Deprecate SmalltalkImage>>#logChange:
+	https://pharo.fogbugz.com/f/cases/16587
 
-16586 Load latest version of CodeImporter
-	https://pharo.fogbugz.com/f/cases/16586'
+16573 Monticello should not depend on System-FileRegistry
+	https://pharo.fogbugz.com/f/cases/16573'
