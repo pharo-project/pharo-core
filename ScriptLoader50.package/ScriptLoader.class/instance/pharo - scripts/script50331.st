@@ -1,4 +1,4 @@
-script50330
+script50331
 
 	^ 'AST-Core-TheIntegrator.371.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -296,7 +296,7 @@ StartupPreferences-TheIntegrator.141.mcz
 System-Announcements-TheIntegrator.104.mcz
 System-Caching-TheIntegrator.26.mcz
 System-CachingTests-TheIntegrator.14.mcz
-System-Changes-TheIntegrator.288.mcz
+System-Changes-EstebanLorenzano.290.mcz
 System-Clipboard-SvenVanCaekenberghe.32.mcz
 System-CommandLine-TheIntegrator.177.mcz
 System-CommandLineHandler-TheIntegrator.5.mcz
@@ -320,7 +320,7 @@ System-Support-TheIntegrator.1165.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.8.mcz
 Tests-TheIntegrator.742.mcz
-Text-Core-TheIntegrator.40.mcz
+Text-Core-EstebanLorenzano.44.mcz
 Text-Diff-StephaneDucasse.4.mcz
 Text-Edition-TheIntegrator.97.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz

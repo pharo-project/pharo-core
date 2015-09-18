@@ -21,6 +21,6 @@ promptForDefaultChangeSetDirectoryIfNecessary
 				ifTrue: [dir := UIManager default chooseDirectory.
 					directoryPath := dir
 								ifNil: ['']
-								ifNotNil: [dir pathName]]].
+								ifNotNil: [dir fullName]]].
 	self defaultChangeSetDirectory: directoryPath.
 	^ dir
