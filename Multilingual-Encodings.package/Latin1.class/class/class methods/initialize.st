@@ -2,6 +2,7 @@ initialize
 	"
 	self initialize
 "
+	self initializeUcsTable.
 	compoundTextSequence := String streamContents: 
 		[ :s | 
 		s nextPut: (Character value: 27).

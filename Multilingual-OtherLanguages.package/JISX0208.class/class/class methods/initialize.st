@@ -1,6 +1,6 @@
 initialize
 	"self initialize"
-	
+	self initializeUcsTable.
 	EncodedCharSet declareEncodedCharSet: self atIndex: 1+1.
 	EncodedCharSet declareEncodedCharSet: self atIndex: 4+1.
 

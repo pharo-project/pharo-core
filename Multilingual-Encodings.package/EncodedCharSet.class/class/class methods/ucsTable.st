@@ -1,3 +1,3 @@
 ucsTable
 
-	^ UCSTable latin1Table.
+	^ UcsTable 

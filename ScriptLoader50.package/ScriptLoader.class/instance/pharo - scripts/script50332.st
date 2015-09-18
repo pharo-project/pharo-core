@@ -1,4 +1,4 @@
-script50331
+script50332
 
 	^ 'AST-Core-TheIntegrator.371.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -186,9 +186,9 @@ Morphic-Widgets-Tabs-TheIntegrator.16.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.11.mcz
 Morphic-Widgets-Tree-TheIntegrator.35.mcz
 Morphic-Widgets-Windows-TheIntegrator.61.mcz
-Multilingual-Encodings-TheIntegrator.58.mcz
+Multilingual-Encodings-TheIntegrator.61.mcz
 Multilingual-Languages-TheIntegrator.45.mcz
-Multilingual-OtherLanguages-TheIntegrator.19.mcz
+Multilingual-OtherLanguages-TheIntegrator.22.mcz
 Multilingual-Tests-TheIntegrator.46.mcz
 Multilingual-TextConversion-TheIntegrator.75.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
@@ -355,7 +355,7 @@ TxText-Model-SeanDeNigris.61.mcz
 TxText-Styler-NicolaiHess.11.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
 UIManager-TheIntegrator.167.mcz
-Unicode-Initialization-TheIntegrator.12.mcz
+Unicode-Initialization-TheIntegrator.15.mcz
 UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz
 Versionner-Commit-EstebanLorenzano.31.mcz

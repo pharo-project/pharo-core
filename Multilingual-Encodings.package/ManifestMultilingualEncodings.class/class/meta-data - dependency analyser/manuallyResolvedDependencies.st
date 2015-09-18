@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#Traits #'Multilingual-TextConversion' #'AST-Core' #'Collections-Streams' #'Collections-Abstract' #'Unicode-Initialization')
+	^ #(#Traits #'Multilingual-TextConversion' #'AST-Core' #'Collections-Streams' #'Collections-Abstract')
