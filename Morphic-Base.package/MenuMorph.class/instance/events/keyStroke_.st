@@ -86,5 +86,4 @@ keyStroke: evt
 		
 	self recordFiltering: matchString.
 	self displayFiltered: evt.
-	help := BalloonMorph string: 'Enter text to\narrow selection down\to matching items ' withCRs for: self corner: #topLeft.
-	help popUpForHand: self activeHand.
+

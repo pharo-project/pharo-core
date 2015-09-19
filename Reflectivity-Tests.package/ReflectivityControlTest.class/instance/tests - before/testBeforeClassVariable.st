@@ -2,8 +2,6 @@ testBeforeClassVariable
 	"protocol: tests - before"
 
 	| classVar link |
-	self skip.
-	self flag: #TBD.
 	classVar := ReflectivityExamples classVariableNamed: #ClassVar.
 	link := MetaLink new
 		metaObject: self;
