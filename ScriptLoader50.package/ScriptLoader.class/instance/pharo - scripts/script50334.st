@@ -1,6 +1,6 @@
-script50333
+script50334
 
-	^ 'AST-Core-TheIntegrator.371.mcz
+	^ 'AST-Core-TheIntegrator.373.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
 Announcements-Core-TheIntegrator.59.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -44,7 +44,7 @@ Collections-Unordered-TheIntegrator.214.mcz
 Collections-Weak-TheIntegrator.93.mcz
 CollectionsTests-TheIntegrator.709.mcz
 Compiler-TheIntegrator.596.mcz
-Compression-TheIntegrator.164.mcz
+Compression-TheIntegrator.167.mcz
 Compression-Registration-TheIntegrator.5.mcz
 Compression-Tests-TheIntegrator.2.mcz
 ConfigurationCommandLineHandler-Core-TheIntegrator.29.mcz
@@ -244,9 +244,9 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.36.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.175.mcz
+Reflectivity-TheIntegrator.177.mcz
 Reflectivity-Examples-TheIntegrator.2.mcz
-Reflectivity-Tests-TheIntegrator.144.mcz
+Reflectivity-Tests-TheIntegrator.146.mcz
 Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
