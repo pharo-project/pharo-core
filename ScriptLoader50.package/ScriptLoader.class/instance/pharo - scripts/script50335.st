@@ -1,8 +1,8 @@
-script50334
+script50335
 
 	^ 'AST-Core-TheIntegrator.373.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
-Announcements-Core-TheIntegrator.59.mcz
+Announcements-Core-TheIntegrator.62.mcz
 Announcements-Help-TheIntegrator.12.mcz
 Announcements-Tests-Core-TheIntegrator.27.mcz
 AsmJit-Core-TheIntegrator.10.mcz
@@ -54,7 +54,7 @@ Debugger-Tests-TheIntegrator.2.mcz
 DebuggerActions-StephaneDucasse.76.mcz
 DebuggerFilters-TheIntegrator.9.mcz
 DebuggerModel-TheIntegrator.112.mcz
-Deprecated50-TheIntegrator.26.mcz
+Deprecated50-TheIntegrator.27.mcz
 EmbeddedFreeType-TheIntegrator.24.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-MarcusDenker.32.mcz
@@ -184,7 +184,7 @@ Morphic-Widgets-Pluggable-TheIntegrator.62.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.28.mcz
 Morphic-Widgets-Tabs-TheIntegrator.16.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.11.mcz
-Morphic-Widgets-Tree-TheIntegrator.35.mcz
+Morphic-Widgets-Tree-TheIntegrator.37.mcz
 Morphic-Widgets-Windows-TheIntegrator.61.mcz
 Multilingual-Encodings-TheIntegrator.61.mcz
 Multilingual-Languages-TheIntegrator.45.mcz
@@ -228,7 +228,7 @@ OpalTools-TheIntegrator.18.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.42.mcz
 Polymorph-Widgets-TheIntegrator.1255.mcz
-PragmaCollector-TheIntegrator.8.mcz
+PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.70.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
@@ -268,7 +268,7 @@ SUnit-Core-TheIntegrator.154.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Tests-TheIntegrator.48.mcz
 SUnit-UI-TheIntegrator.129.mcz
-SUnit-UITesting-TheIntegrator.25.mcz
+SUnit-UITesting-TheIntegrator.27.mcz
 ScriptLoader-Tests-TheIntegrator.4.mcz
 Settings-Graphics-StephaneDucasse.28.mcz
 Settings-Polymorph-TheIntegrator.80.mcz

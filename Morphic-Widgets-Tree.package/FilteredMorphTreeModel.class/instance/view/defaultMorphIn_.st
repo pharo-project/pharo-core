@@ -8,7 +8,7 @@ defaultMorphIn: aThemable
 		textFont: StandardFonts defaultFont;
 		yourself.
 	patternMorph ghostTextRuler font: StandardFonts defaultFont.
-	patternMorph  announcer subscribe: RubReturnEntered  send: #whenReturnInFilter: to: self.
+	patternMorph  announcer when: RubReturnEntered  send: #whenReturnInFilter: to: self.
 	^ self theme
 		newColumnIn: aThemable
 		for: {patternMorph. treeMorph}
