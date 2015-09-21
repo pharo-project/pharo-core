@@ -1,18 +1,19 @@
 compressFile
 	"Write a new file that has the data in me compressed in GZip format."
-	| zipped buffer |
 
-	self readOnly; binary.
-	zipped := (self directory / self name, 'gz') writeStream.
-	zipped binary; setFileTypeToObject.
-		"Type and Creator not to be text, so can be enclosed in an email"
-	zipped := GZipWriteStream on: zipped.
+	| zipStream rawWriteStream |
+	self
+		readOnly;
+		binary.
+	rawWriteStream := (self name asFileReference, 'gz') writeStream
+		binary;
+		setFileTypeToObject.
+	zipStream := GZipWriteStream on: rawWriteStream.
+	[ 
+	| buffer |
 	buffer := ByteArray new: 50000.
-	'Compressing ', self fullName displayProgressFrom: 0 to: self size
-		during: [:bar |
-			[self atEnd] whileFalse: [
-				bar current: self position.
-				zipped nextPutAll: (self nextInto: buffer)].
-			zipped close.
-			self close].
-	^zipped
+	[ self atEnd ] whileFalse: [ zipStream nextPutAll: (self nextInto: buffer) ] ]
+		ensure: [ 
+			zipStream close.
+			self close ].
+	^ zipStream

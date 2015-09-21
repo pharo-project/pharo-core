@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '15935 Backport 4.0: Renaming a package just by changing upper/lowercase removes the package
-	https://pharo.fogbugz.com/f/cases/15935'
+ ^ '10235 StandardFileStream>>compressFile cant create new compressed file
+	https://pharo.fogbugz.com/f/cases/10235'

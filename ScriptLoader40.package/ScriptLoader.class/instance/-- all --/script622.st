@@ -1,4 +1,4 @@
-script621
+script622
 
 	^ 'AST-Core-TheIntegrator.286.mcz
 AST-Tests-Core-TheIntegrator.65.mcz
@@ -36,7 +36,7 @@ Collections-Unordered-TheIntegrator.207.mcz
 Collections-Weak-TheIntegrator.88.mcz
 CollectionsTests-TheIntegrator.685.mcz
 Compiler-TheIntegrator.582.mcz
-Compression-TheIntegrator.149.mcz
+Compression-TheIntegrator.151.mcz
 CompressionTests-TheIntegrator.29.mcz
 ConfigurationCommandLineHandler-Core-TheIntegrator.27.mcz
 ConfigurationCommandLineHandler-Tests-MarcusDenker.11.mcz
