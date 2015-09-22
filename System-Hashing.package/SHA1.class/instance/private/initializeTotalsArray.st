@@ -1,6 +1,6 @@
 initializeTotalsArray
 	"Initialize the totals array from the registers for use with the primitives."
-	totals := Bitmap new: 5.
+	totals := WordArray new: 5.
 	totals 
 		at: 1
 		put: totalA asInteger.

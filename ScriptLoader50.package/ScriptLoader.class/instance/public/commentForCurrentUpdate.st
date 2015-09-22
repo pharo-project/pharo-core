@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '16519 Deprecate WeakSubscriptionBuilder>>#on:send:to: and #on:do:
-	https://pharo.fogbugz.com/f/cases/16519
+ ^ '16603 System-Hashing should not depend on Graphics Primitives
+	https://pharo.fogbugz.com/f/cases/16603
 
-16613 add timeout for SimulateMouseSpecification
-	https://pharo.fogbugz.com/f/cases/16613
+16615 Improve ContributingToTheCatalogHelp
+	https://pharo.fogbugz.com/f/cases/16615
 
-16565 Remove senders of subscribe:send:to: in PragmaCollector
-	https://pharo.fogbugz.com/f/cases/16565
-
-16563 Remove senders of Announcer>>#subscribe:send:to: in Morphic-Widgets-Tree
-	https://pharo.fogbugz.com/f/cases/16563'
+16614 To use at:ifPresent:ifAbsent:, ifPresent block argument should not be mandatory
+	https://pharo.fogbugz.com/f/cases/16614'

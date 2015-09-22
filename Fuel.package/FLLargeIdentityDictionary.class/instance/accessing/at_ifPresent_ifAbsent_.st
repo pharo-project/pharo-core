@@ -4,5 +4,5 @@ at: key ifPresent: presentBlock ifAbsent: absentBlock
 	(keys at: (hash := key largeIdentityHash + 1)) ifNotNil: [ :keyList | 
 		1 to: (tallies at: hash) do: [ :index |
 			(keyList at: index) == key ifTrue: [
-				^ presentBlock value: ((values at: hash) at: index) ] ] ].
+				^ presentBlock cull: ((values at: hash) at: index) ] ] ].
 	^absentBlock value

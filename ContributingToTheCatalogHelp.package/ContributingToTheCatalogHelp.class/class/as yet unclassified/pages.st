@@ -1,2 +1,2 @@
 pages
-	^#(introduction AddingYourProject)
+	^#(introduction addingYourProject)
