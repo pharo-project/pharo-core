@@ -1,3 +1,3 @@
 from: aFirstCharIndex to: aLastCharIndex
-	lastIndex := aLastCharIndex.
-	firstIndex := aFirstCharIndex
+	lastIndex := aFirstCharIndex max: aLastCharIndex.
+	firstIndex := aFirstCharIndex min: aLastCharIndex

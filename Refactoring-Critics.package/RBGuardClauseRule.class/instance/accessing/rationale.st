@@ -1,2 +1,2 @@
 rationale
-	^ 'Transform conditional with a single clause into a form that is more readable.'
+	^ 'Transforms single branch conditionals with multi-statement bodies into a sequence of statements guarded by a conditional return.'

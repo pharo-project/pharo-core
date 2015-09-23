@@ -1,2 +1,2 @@
 name
-	^ 'Eliminate guarding clauses'
+	^ 'Replace single branch conditional with guard clause'

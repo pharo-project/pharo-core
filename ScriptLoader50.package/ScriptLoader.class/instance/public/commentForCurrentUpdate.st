@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16603 System-Hashing should not depend on Graphics Primitives
-	https://pharo.fogbugz.com/f/cases/16603
+ ^ '16616 "Eliminate guarding clauses" critic is named wrong and maybe should be removed
+	https://pharo.fogbugz.com/f/cases/16616
 
-16615 Improve ContributingToTheCatalogHelp
-	https://pharo.fogbugz.com/f/cases/16615
+16624 SimpleBorder borderStyle should initialize its width to a number
+	https://pharo.fogbugz.com/f/cases/16624
 
-16614 To use at:ifPresent:ifAbsent:, ifPresent block argument should not be mandatory
-	https://pharo.fogbugz.com/f/cases/16614'
+16622 Merge latest rubric fixes
+	https://pharo.fogbugz.com/f/cases/16622'

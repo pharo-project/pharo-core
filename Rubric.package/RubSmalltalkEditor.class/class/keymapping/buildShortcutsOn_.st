@@ -42,6 +42,16 @@ buildShortcutsOn: aBuilder
 		default: $i ctrl
 		do: [ :target | target editor inspectIt: nil ]
 		description: 'Inspect it'.
+	(aBuilder shortcut: #basicInspectIt)
+		category: RubSmalltalkEditor name
+		default: $i shift ctrl
+		do: [ :target | target editor basicInspectIt ]
+		description: 'Basic Inspect it'.
+	(aBuilder shortcut: #basicInspectItCommand)
+		category: RubSmalltalkEditor name
+		default: $i shift command
+		do: [ :target | target editor basicInspectIt ]
+		description: 'Basic Inspect it'.
 	(aBuilder shortcut: #inspectItCommand)
 		category: RubSmalltalkEditor name
 		default: $i command

@@ -7,4 +7,4 @@ version1214Moose51: spec
 		spec author: 'UsmanBhatti'.
 		spec timestamp: '9/4/2015 15:28'.
 		spec repository: 'http://smalltalkhub.com/mc/Moose/Moose51/main'.
-		spec package: 'Rubric' with: 'Rubric-AndreiChis.207'. ].
+		spec package: 'Rubric' with: 'Rubric.Moose51-usmanbhatti.207'. ].

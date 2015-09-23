@@ -1,2 +1,2 @@
 name
-	^ 'to:do: doesn''t use collect:'
+	^ 'to:do: used instead of collect:'
