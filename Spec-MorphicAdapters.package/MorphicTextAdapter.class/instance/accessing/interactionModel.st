@@ -1,2 +1,2 @@
 interactionModel
-	^ self model
+	^ self
