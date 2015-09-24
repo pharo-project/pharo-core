@@ -1,7 +1,7 @@
 addItems
 	toSelectModel selectedItem
 		ifNotNil:
-			[ :item | 
+			[ :item |
 			item content isComposite
 				ifFalse: [ selectRule add: item content ]
 				ifTrue: [ selectRule addAll: item content rules ] ].
