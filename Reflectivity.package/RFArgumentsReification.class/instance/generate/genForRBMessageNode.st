@@ -1,2 +1,2 @@
 genForRBMessageNode
-	^RBTemporaryNode named: #RFArgumentsReificationVar.
+	^RBTemporaryNode named: self varName.
