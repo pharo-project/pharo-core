@@ -1,0 +1,2 @@
+classLayout
+	^ self layout

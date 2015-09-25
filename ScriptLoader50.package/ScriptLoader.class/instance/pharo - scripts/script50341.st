@@ -1,4 +1,4 @@
-script50340
+script50341
 
 	^ 'AST-Core-TheIntegrator.373.mcz
 AST-Tests-Core-TheIntegrator.77.mcz
@@ -116,7 +116,7 @@ Graphics-Fonts-Tests-EstebanLorenzano.3.mcz
 Graphics-Primitives-TheIntegrator.180.mcz
 Graphics-Resources-TheIntegrator.32.mcz
 Graphics-Shapes-TheIntegrator.2.mcz
-Graphics-Tests-TheIntegrator.76.mcz
+Graphics-Tests-TheIntegrator.78.mcz
 Graphics-Transformations-TheIntegrator.17.mcz
 Growl-TheIntegrator.37.mcz
 HelpSystem-Core-TheIntegrator.131.mcz
@@ -127,8 +127,8 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2133.mcz
-Kernel-Tests-TheIntegrator.5.mcz
+Kernel-TheIntegrator.2135.mcz
+Kernel-Tests-TheIntegrator.7.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
 Keymapping-Pragmas-TheIntegrator.52.mcz
@@ -222,7 +222,7 @@ OSWindow-Core-MerwanOuddane.94.mcz
 OSWindow-SDL2-MerwanOuddane.83.mcz
 OSWindow-SDL2-Examples-MerwanOuddane.7.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
-OpalCompiler-Core-TheIntegrator.731.mcz
+OpalCompiler-Core-TheIntegrator.734.mcz
 OpalCompiler-Tests-TheIntegrator.305.mcz
 OpalTools-TheIntegrator.18.mcz
 Pharo-Help-TheIntegrator.15.mcz
@@ -278,7 +278,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.14.mcz
 Shout-TheIntegrator.278.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.686.mcz
+Slot-TheIntegrator.688.mcz
 Slot-Tests-TheIntegrator.62.mcz
 SmartSuggestions-TheIntegrator.178.mcz
 SmartSuggestions-Tests-TheIntegrator.10.mcz
@@ -353,7 +353,7 @@ Transcript-TheIntegrator.43.mcz
 TxText-Athens-NicolaiHess.52.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
 TxText-Model-SeanDeNigris.61.mcz
-TxText-Styler-NicolaiHess.11.mcz
+TxText-Styler-TheIntegrator.13.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
 UIManager-TheIntegrator.167.mcz
 Unicode-Initialization-TheIntegrator.15.mcz

@@ -14,7 +14,7 @@ testBehaviorRespectsPolymorphismWithTraitBehavior
 	layout -> is an instance variable of Behavior but not of TraitBehavior"
 	self
 		assert: (Behavior localSelectors difference: TraitBehavior localSelectors)
-		equals: #(#externalTypeAlias: #nbBindingOf: #format #nbFnArgument:generator: #layout #layout: #isBehavior) asSet.	"localSelectors, localSelectors:, basicLocalSelectors, basicLocalSelectors: -> the instance variable localSelectors belongs to TraitBehavior but not to Behavior"	"browse is implemeted differently for traits, the implementation for classes is in Object"	"isTrait answers true for traits, for the rest of objects answer false, the implementation is in Object"
+		equals: #(#externalTypeAlias: #nbBindingOf: #format #nbFnArgument:generator: #layout #layout: #classLayout #classLayout: #isBehavior) asSet.	"localSelectors, localSelectors:, basicLocalSelectors, basicLocalSelectors: -> the instance variable localSelectors belongs to TraitBehavior but not to Behavior"	"browse is implemeted differently for traits, the implementation for classes is in Object"	"isTrait answers true for traits, for the rest of objects answer false, the implementation is in Object"
 	self
 		assert: (TraitBehavior localSelectors difference: Behavior localSelectors)
 		equals: #(#basicLocalSelectors #basicLocalSelectors: #isTrait) asSet
