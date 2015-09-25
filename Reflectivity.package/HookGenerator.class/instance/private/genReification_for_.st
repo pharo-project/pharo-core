@@ -1,5 +1,4 @@
 genReification: aSymbol for: aLink
 	| plugin |
-
-	plugin := (plugins at: aSymbol) node: node link: aLink.	
+	plugin := (plugins at: aSymbol ifAbsent: [self error: 'reification not supported for this entity']) node: node link: aLink.	
 	 ^plugin perform: self selectorForNode

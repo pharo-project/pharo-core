@@ -1,2 +1,3 @@
 initialize
-	ivar := 33
+	ivar := 33.
+	ClassVar := #AClassVar.

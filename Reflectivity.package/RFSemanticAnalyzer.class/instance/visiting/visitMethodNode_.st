@@ -4,6 +4,6 @@ visitMethodNode: aMethodNode
 	aMethodNode scope: scope.  scope node: aMethodNode.
 	aMethodNode arguments do: [:node | (self declareVariableNode: node) markArg].
 	aMethodNode pragmas do: [:each | self visitNode: each].
-	self analyseForLinks: aMethodNode.
+	self analyseForLinksForNodes: aMethodNode.
 	self visitNode: aMethodNode body.
 	scope := scope outerScope.

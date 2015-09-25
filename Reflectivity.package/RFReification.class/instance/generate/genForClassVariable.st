@@ -1,0 +1,2 @@
+genForClassVariable
+	^self genForLiteralVariable

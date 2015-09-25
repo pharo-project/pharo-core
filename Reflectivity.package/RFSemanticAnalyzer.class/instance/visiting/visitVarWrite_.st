@@ -1,2 +1,2 @@
 visitVarWrite: aNode
-	self analyseForLinks: aNode
+	self analyseForLinksForNodes: aNode

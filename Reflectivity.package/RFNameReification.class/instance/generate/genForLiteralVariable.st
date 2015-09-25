@@ -1,0 +1,2 @@
+genForLiteralVariable
+	^node name asLiteralNode

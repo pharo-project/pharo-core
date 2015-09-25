@@ -1,2 +1,3 @@
 tearDown
-	ReflectivityExamples recompile
+	ReflectivityExamples recompile.
+	"MetaLink uninstallAll."
