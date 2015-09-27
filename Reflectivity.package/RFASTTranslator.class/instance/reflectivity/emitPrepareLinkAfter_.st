@@ -4,7 +4,7 @@ emitPrepareLinkAfter: aNode
 	copied := #().
 	aNode hasMetalinkAfter ifTrue: [ 
 		self emitPreamble: aNode.
-		aNode isMethod ifTrue: [ copied := aNode argumentNames ].
+		aNode isMethod ifTrue: [ copied := aNode argumentNames, aNode tempNames ].
 		methodBuilder
 			pushClosureCopyCopiedValues: copied
 			args: #()

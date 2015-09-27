@@ -12,6 +12,4 @@ parsePrimitiveObject
 			[currentToken value = $[ ifTrue: [^self parseBlock].
 			currentToken value = $( ifTrue: [^self parseParenthesizedExpression].
 			currentToken value = ${ ifTrue: [^self parseArray]].
-	(currentToken isBinary and: [ currentToken value = #- ]) 
-		ifTrue: [ ^self parseNegatedNumber ].
 	^ self parserError: 'Variable or expression expected'
