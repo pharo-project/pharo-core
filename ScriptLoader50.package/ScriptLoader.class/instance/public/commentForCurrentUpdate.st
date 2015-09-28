@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16646 test + fix: #after mit access to temp in method
-	https://pharo.fogbugz.com/f/cases/16646
+ ^ '16647 Nautilus Variable Menu Improvement
+	https://pharo.fogbugz.com/f/cases/16647
 
-16642 availableReifications: return the list of supported reifications for an entity
-	https://pharo.fogbugz.com/f/cases/16642
+16648 ThemeSettings protocol cleanup
+	https://pharo.fogbugz.com/f/cases/16648
 
-16632 RBParser should reject - space literal
-	https://pharo.fogbugz.com/f/cases/16632'
+16649 Links of Globals and Class Vars: implement all reifications + extend for Globals
+	https://pharo.fogbugz.com/f/cases/16649'

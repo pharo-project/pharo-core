@@ -1,0 +1,2 @@
+genForLiteralVariable
+	^RBThisContextNode named: #thisContext

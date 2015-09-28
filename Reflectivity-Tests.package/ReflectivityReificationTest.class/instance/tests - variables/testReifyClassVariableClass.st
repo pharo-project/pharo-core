@@ -1,15 +1,15 @@
-testReifyGlobalVariableName
+testReifyClassVariableClass
 	| classVar instance link|
 	classVar := ReflectivityExamples classVariableNamed: #ClassVar.
 	link := MetaLink new 
 		metaObject: self; 
 		selector: #tagExec:;
-		arguments: #(name).
+		arguments: #(class).
 	classVar link: link.
 	self assert: classVar hasMetalink.
 	self assert: (ReflectivityExamples >> #exampleClassVarRead) class = ReflectiveMethod.
 	self assert: (tag isNil).
 	instance := ReflectivityExamples new.
 	self assert: (instance exampleClassVarRead = #AClassVar).
-	self assert: (tag = #ClassVar).
+	self assert: (tag == ReflectivityExamples).
 	link uninstall. 

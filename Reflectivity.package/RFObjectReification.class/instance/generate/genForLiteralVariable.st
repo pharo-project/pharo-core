@@ -1,0 +1,2 @@
+genForLiteralVariable
+	^RBVariableNode named: 'self'

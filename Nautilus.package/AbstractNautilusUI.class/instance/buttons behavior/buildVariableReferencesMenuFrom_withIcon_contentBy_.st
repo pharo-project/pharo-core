@@ -1,0 +1,20 @@
+buildVariableReferencesMenuFrom: aMenu withIcon: aIconOrNil contentBy: aBlockOrSymbol
+
+	self selectedClass withAllSuperclasses reverseDo: [ :class || vars |
+		vars := aBlockOrSymbol value: class. 
+		vars ifNotEmpty: [ 
+			aMenu 	addLine.
+			(aMenu add: class printString target: nil selector: nil) enabled: false.
+		].		
+		vars do: [ :name |
+			aMenu 
+				add: name asString
+				target: [ 
+					self systemNavigation browseAllReferencesTo: (class classPool associationAt: name) 
+				]
+				selector: #value.
+			aMenu 	lastItem icon: aIconOrNil.
+		]
+	].
+
+	

@@ -1,0 +1,2 @@
+genForGlobalVariable
+	^self genForLiteralVariable

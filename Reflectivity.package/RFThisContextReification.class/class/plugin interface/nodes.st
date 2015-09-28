@@ -1,2 +1,2 @@
 nodes
-	^{RBProgramNode}
+	^{RBProgramNode . LiteralVariable}

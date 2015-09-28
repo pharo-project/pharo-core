@@ -1,0 +1,2 @@
+genForLiteralVariable
+	^link asLiteralNode

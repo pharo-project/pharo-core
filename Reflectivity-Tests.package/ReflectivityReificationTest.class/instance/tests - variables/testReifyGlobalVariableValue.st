@@ -1,15 +1,15 @@
 testReifyGlobalVariableValue
-	| classVar instance link|
-	classVar := ReflectivityExamples classVariableNamed: #ClassVar.
+	| globalVar instance link|
+	globalVar := GlobalForTesting binding.
 	link := MetaLink new 
 		metaObject: self; 
 		selector: #tagExec:;
-		arguments: #(value).
-	classVar link: link.
-	self assert: classVar hasMetalink.
-	self assert: (ReflectivityExamples >> #exampleClassVarRead) class = ReflectiveMethod.
+		arguments: #(name).
+	globalVar link: link.
+	self assert: globalVar hasMetalink.
+	self assert: (ReflectivityExamples >> #exampleGlobalRead) class = ReflectiveMethod.
 	self assert: (tag isNil).
 	instance := ReflectivityExamples new.
-	self assert: (instance exampleClassVarRead = #AClassVar).
-	self assert: (tag = #AClassVar).
+	self assert: (instance exampleGlobalRead = GlobalForTesting).
+	self assert: (tag = #GlobalForTesting).
 	link uninstall. 
