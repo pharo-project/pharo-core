@@ -1,4 +1,4 @@
 items: aCollection
 	
 	toSelectModel roots: aCollection.
-	selectedModel roots: aCollection copyWithoutFirst
+	selectedModel roots: aCollection

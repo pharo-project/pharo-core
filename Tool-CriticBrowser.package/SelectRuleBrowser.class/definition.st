@@ -1,5 +1,5 @@
 SelectBrowser subclass: #SelectRuleBrowser
-	instanceVariableNames: 'selectRule environment removeTestCase'
+	instanceVariableNames: 'environment removeTestCase selectedRules'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Tool-CriticBrowser'

@@ -1,4 +1,4 @@
 addAllItems
 	
-	toSelectModel roots do: [ :item | selectRule addAll: item leaves].
+	toSelectModel roots do: [ :item | selectedRules addAll: item leaves].
 	self updateTree.  	  

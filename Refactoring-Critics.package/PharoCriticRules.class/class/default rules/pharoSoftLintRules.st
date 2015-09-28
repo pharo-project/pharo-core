@@ -1,6 +1,6 @@
 pharoSoftLintRules	
 	"skiped for now"
-	^ self rules: ({			
+	^ {			
 		"RBInstanceVariableCapitalizationRule.
 		RBClassVariableCapitalizationRule.
 		RBMissingSubclassResponsibilityRule.
@@ -33,4 +33,4 @@ pharoSoftLintRules
 		RBAtIfAbsentRule."
 		"RBAllAnyNoneSatisfyRule."
 		"RBClassNameInSelectorRule "
-	} collect: [ :each | each new ])
+	}

@@ -1,4 +1,4 @@
-script50344
+script50345
 
 	^ 'AST-Core-TheIntegrator.374.mcz
 AST-Tests-Core-TheIntegrator.79.mcz
@@ -227,7 +227,7 @@ OpalCompiler-Tests-TheIntegrator.305.mcz
 OpalTools-TheIntegrator.18.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.42.mcz
-Polymorph-Widgets-TheIntegrator.1257.mcz
+Polymorph-Widgets-TheIntegrator.1259.mcz
 PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.70.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -238,7 +238,7 @@ RPackage-Tests-TheIntegrator.175.mcz
 RecentSubmissions-TheIntegrator.238.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.289.mcz
-Refactoring-Critics-TheIntegrator.220.mcz
+Refactoring-Critics-TheIntegrator.221.mcz
 Refactoring-Environment-TheIntegrator.61.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
@@ -329,7 +329,7 @@ Text-Scanning-TheIntegrator.31.mcz
 Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.107.mcz
 Tool-Catalog-TorstenBergmann.25.mcz
-Tool-CriticBrowser-TheIntegrator.12.mcz
+Tool-CriticBrowser-TheIntegrator.14.mcz
 Tool-DependencyAnalyser-TheIntegrator.21.mcz
 Tool-DependencyAnalyser-Checker-ChristopheDemarey.30.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.10.mcz

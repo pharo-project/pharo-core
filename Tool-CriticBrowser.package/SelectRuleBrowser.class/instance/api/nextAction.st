@@ -6,7 +6,7 @@ nextAction
 	rules do: [ :each | 
 				each leaves
 					do: [ :leave | 
-						(selectRule anySatisfy: [ :r | r = leave ])
+						(selectedRules anySatisfy: [ :r | r = leave ])
 							ifFalse: [ each removeRule: leave ] ] ].
 	rules := rules reject: [ :each | each rules isEmpty ].
 	rbRule := RBCompositeLintRule new

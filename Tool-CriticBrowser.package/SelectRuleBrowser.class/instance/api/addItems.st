@@ -3,6 +3,6 @@ addItems
 		ifNotNil:
 			[ :item |
 			item content isComposite
-				ifFalse: [ selectRule add: item content ]
-				ifTrue: [ selectRule addAll: item content rules ] ].
+				ifFalse: [ selectedRules add: item content ]
+				ifTrue: [ selectedRules addAll: item content rules ] ].
 	self updateTree

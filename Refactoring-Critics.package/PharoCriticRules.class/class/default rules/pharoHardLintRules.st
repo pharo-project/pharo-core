@@ -1,6 +1,6 @@
 pharoHardLintRules
 	"These rules are used by the CI monkey to check code before its integration into Pharo"
-	^ self rules: ({ 
+	^ { 
 		RBUndeclaredReferenceRule.
 		RBDefinesEqualNotHashRule.
 		RBEquivalentSuperclassMethodsRule.
@@ -17,4 +17,4 @@ pharoHardLintRules
 		RBUnoptimizedToDoRule.
 		RBBetweenAndRule.
 		RBCodeCruftLeftInMethodsRule 
-	} collect: [ :each | each new ])
+	}
