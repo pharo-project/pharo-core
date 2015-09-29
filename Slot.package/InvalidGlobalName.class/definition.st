@@ -1,4 +1,4 @@
-SlotClassBuilderWarning subclass: #InvalidGlobalName
+ClassBuilderWarning subclass: #InvalidGlobalName
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

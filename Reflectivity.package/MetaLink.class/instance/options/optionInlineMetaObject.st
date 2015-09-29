@@ -1,0 +1,2 @@
+optionInlineMetaObject
+	^ options includes: #optionInlineMetaObject

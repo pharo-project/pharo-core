@@ -1,0 +1,2 @@
+optionCompileOnLinkInstallation
+	^ options includes: #optionCompileOnLinkInstallation

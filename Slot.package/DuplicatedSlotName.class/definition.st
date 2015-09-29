@@ -1,4 +1,4 @@
-SlotClassBuilderWarning subclass: #DuplicatedSlotName
+ClassBuilderWarning subclass: #DuplicatedSlotName
 	instanceVariableNames: 'newSlot oldSlot host'
 	classVariableNames: ''
 	poolDictionaries: ''

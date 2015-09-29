@@ -5,6 +5,6 @@ declareVariableNode: aVariableNode
 	var := scope lookupVarForDeclaration: name.
 	var ifNil: [ 
 			"new var"
-			var := scope methodScope addTemp: name ].
+			var := scope addTemp: name ].
 	aVariableNode binding: var.
 	^ var

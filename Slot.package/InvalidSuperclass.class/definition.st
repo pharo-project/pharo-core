@@ -1,4 +1,4 @@
-SlotClassBuilderWarning subclass: #InvalidSuperclass
+ClassBuilderWarning subclass: #InvalidSuperclass
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

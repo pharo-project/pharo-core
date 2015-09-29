@@ -1,4 +1,4 @@
-SlotClassBuilderError subclass: #CircularHierarchyError
+ClassBuilderError subclass: #CircularHierarchyError
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

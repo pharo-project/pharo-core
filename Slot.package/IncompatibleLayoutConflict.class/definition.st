@@ -1,4 +1,4 @@
-SlotClassBuilderError subclass: #IncompatibleLayoutConflict
+ClassBuilderError subclass: #IncompatibleLayoutConflict
 	instanceVariableNames: 'layout subType'
 	classVariableNames: ''
 	poolDictionaries: ''

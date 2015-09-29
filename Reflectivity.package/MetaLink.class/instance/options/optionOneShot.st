@@ -1,0 +1,2 @@
+optionOneShot
+	^ options includes: #optionOneShot

@@ -1,4 +1,4 @@
-SlotClassBuilderWarning subclass: #InvalidPackageName
+ClassBuilderWarning subclass: #InvalidPackageName
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

@@ -1,4 +1,4 @@
-Error subclass: #SlotClassBuilderError
+Warning subclass: #ClassBuilderWarning
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16661 compatibility check when putting links on variables
-	https://pharo.fogbugz.com/f/cases/16661
+ ^ '16654 test for  #optionOneShot and accessors for pre-defined options
+	https://pharo.fogbugz.com/f/cases/16654
 
-10219 Completion: enter on accept awkwardness
-	https://pharo.fogbugz.com/f/cases/10219
+16662 SlotClassBuilderError --> tClassBuilderError
+	https://pharo.fogbugz.com/f/cases/16662
 
-16659 add #entity reification
-	https://pharo.fogbugz.com/f/cases/16659'
+16658 Reflectivity: crash on Morph Invalidate
+	https://pharo.fogbugz.com/f/cases/16658'
