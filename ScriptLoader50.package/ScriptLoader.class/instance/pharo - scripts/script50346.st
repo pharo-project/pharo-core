@@ -1,4 +1,4 @@
-script50345
+script50346
 
 	^ 'AST-Core-TheIntegrator.374.mcz
 AST-Tests-Core-TheIntegrator.79.mcz
@@ -192,7 +192,7 @@ Multilingual-OtherLanguages-TheIntegrator.22.mcz
 Multilingual-Tests-TheIntegrator.46.mcz
 Multilingual-TextConversion-TheIntegrator.75.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
-NECompletion-TheIntegrator.212.mcz
+NECompletion-TheIntegrator.215.mcz
 NECompletion-Tests-TheIntegrator.2.mcz
 NativeBoost-Core-TheIntegrator.171.mcz
 NativeBoost-Examples-CamilloBruni.16.mcz
@@ -244,9 +244,9 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.36.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.187.mcz
+Reflectivity-TheIntegrator.192.mcz
 Reflectivity-Examples-TheIntegrator.2.mcz
-Reflectivity-Tests-TheIntegrator.156.mcz
+Reflectivity-Tests-TheIntegrator.160.mcz
 Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz

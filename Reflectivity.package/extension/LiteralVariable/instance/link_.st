@@ -1,7 +1,6 @@
 link: aMetaLink
 	| methods |
-	self flag: #TBD.
-	"(aMetaLink checkForCompatibilityWith: self) ifFalse: [ self error: 'link requests reification that can not be provided by this node' ]."
+	(aMetaLink checkForCompatibilityWith: self) ifFalse: [ self error: 'link requests reification that can not be provided by this node' ].
 	
 	methods := self usingMethods.
 	(self propertyAt: #links ifAbsentPut: [ IdentitySet new ]) add: aMetaLink.

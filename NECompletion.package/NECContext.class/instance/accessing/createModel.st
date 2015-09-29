@@ -6,7 +6,7 @@ createModel
 		
 	(controller workspace isNil
 		and: [theClass notNil])
-		ifTrue: [completionIndex = 1
+		ifTrue: [self isStartOfMethodDefinition 
 				ifTrue: [^ NECOverrideModel class: theClass]].
 			
 	modelClass := NECUntypedModel.		
@@ -14,7 +14,6 @@ createModel
 		ifTrue: [
 			controller model modelClass ifNotNil: [:class | modelClass :=  class]].	
 			
-	
 	^ modelClass
 		class: theClass
 		temporaries: self temporaries

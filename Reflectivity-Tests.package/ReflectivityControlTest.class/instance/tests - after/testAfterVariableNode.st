@@ -1,4 +1,4 @@
-testAfterVariable
+testAfterVariableNode
 	| variableNode link |
 	variableNode := (ReflectivityExamples >> #exampleGlobalRead) ast statements first value.
 	self assert: variableNode isVariable.
