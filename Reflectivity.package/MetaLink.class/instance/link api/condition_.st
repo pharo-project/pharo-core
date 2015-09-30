@@ -1,5 +1,5 @@
 condition: aCondition
 	condition:= aCondition.
-	self invalidate.
+	self optionInlineCondition ifTrue: [self invalidate].
 
 	

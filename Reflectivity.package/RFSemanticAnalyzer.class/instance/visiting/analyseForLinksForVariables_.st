@@ -1,7 +1,8 @@
-analyseForLinksForVariables: aVariable
-	| generator |
-	aVariable hasMetalink
+analyseForLinksForVariables: aVariableNode
+	| variable generator |
+	variable := aVariableNode binding variable.
+	variable hasMetalink
 		ifFalse: [ ^ self ].
-	generator := HookGeneratorForVariables node: aVariable.
-	self analyseForLinks: aVariable generator: generator.
+	generator := HookGeneratorForVariables entity: variable node: aVariableNode.
+	self analyseForLinks: variable generator: generator.
 

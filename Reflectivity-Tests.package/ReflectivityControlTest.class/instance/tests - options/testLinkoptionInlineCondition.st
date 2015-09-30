@@ -1,9 +1,10 @@
-testLinkoptionInlineMetaObject
+testLinkoptionInlineCondition
 	| sendNode link |
 	sendNode := (ReflectivityExamples>>#exampleMethod) sendNodes first.
 	link := MetaLink new 
 		metaObject: self; 
-		options: #(- optionInlineMetaObject);
+		options: #(- optionInlineCondtion);
+		condition: [ true ];
 		selector: #tagExec.
 	sendNode link: link.
 	self assert: sendNode hasMetalink.
@@ -12,6 +13,15 @@ testLinkoptionInlineMetaObject
 	self assert: (ReflectivityExamples new exampleMethod = 5).
 	self assert: (tag = #yes).
 	"if we now change the meta object, the method should not be invalidated"
-	link metaObject: self class new.
+	link condition: [true].
 	self assert: (ReflectivityExamples>>#exampleMethod) class = CompiledMethod.
+	tag := nil.
+	self assert: (ReflectivityExamples new exampleMethod = 5).
+	self deny: tag isNil.
+	link condition: [true].
+	self assert: (ReflectivityExamples>>#exampleMethod) class = CompiledMethod.
+	tag := nil.
+	link condition: [false].
+	self assert: (ReflectivityExamples new exampleMethod = 5).
+	self assert: tag isNil.
 	link uninstall.

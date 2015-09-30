@@ -1,18 +1,29 @@
 browseVariableReferences
 
-	| menu classVarSubMenu |
+	| mainMenu classVarSubMenu |
 
 	self selectedClass ifNil: [ ^self ].
 	
 	classVarSubMenu := MenuMorph new.
 	
 	self 
-	buildVariableReferencesMenuFrom: classVarSubMenu 
-	withIcon: Smalltalk ui icons classIcon   
-	contentBy: #classVarNames.
+	buildVariableMenuFor: classVarSubMenu 
+	variablesFrom: #classVarNames 
+	menuItemBy: [ :variable :variableClass :menu |
+		
+		menu 			 
+		add: variable asString
+		target: [ 
+			self systemNavigation browseAllReferencesTo: (variableClass classPool associationAt: variable) 
+		]
+		selector: #value.
+		
+		menu lastItem icon: Smalltalk ui icons classIcon 
+		
+	].
 	
-	menu := MenuMorph new.
-	menu 
+	mainMenu := MenuMorph new.
+	mainMenu 
 	buildTitle: [ :menuTitle | menuTitle
 		title: (self selectedClass printString);
 		color: Color transparent;
@@ -21,8 +32,17 @@ browseVariableReferences
 	add: 'Class Variables' subMenu: (classVarSubMenu).
 	
 	self 
-	buildVariableReferencesMenuFrom: menu 
-	withIcon: nil
-	contentBy: #instVarNames.
+	buildVariableMenuFor: mainMenu 
+	variablesFrom: #instVarNames 
+	menuItemBy: [ :variable :variableClass :menu |
+		
+		menu 			 
+		add: variable asString
+		target: [ 
+			self systemNavigation browseAllAccessesTo: variable from: self selectedClass
+		]
+		selector: #value.
+		
+	].
 	
-	menu popUpInWorld.
+	mainMenu popUpInWorld.

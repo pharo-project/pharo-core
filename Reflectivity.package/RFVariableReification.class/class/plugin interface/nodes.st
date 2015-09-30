@@ -1,2 +1,2 @@
 nodes
-	^{RBVariableNode. LiteralVariable}.
+	^{RBVariableNode. LiteralVariable}

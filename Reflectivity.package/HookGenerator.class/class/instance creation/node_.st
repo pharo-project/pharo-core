@@ -1,2 +1,2 @@
 node: aNode
-	^self new node: aNode links: aNode links
+	^self entity: aNode node: aNode
