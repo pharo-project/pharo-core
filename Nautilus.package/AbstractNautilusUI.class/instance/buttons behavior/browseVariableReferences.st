@@ -15,7 +15,8 @@ browseVariableReferences
 	menu 
 	buildTitle: [ :menuTitle | menuTitle
 		title: (self selectedClass printString);
-		color: Color transparent
+		color: Color transparent;
+		font: StandardFonts windowTitleFont
 	];
 	add: 'Class Variables' subMenu: (classVarSubMenu).
 	

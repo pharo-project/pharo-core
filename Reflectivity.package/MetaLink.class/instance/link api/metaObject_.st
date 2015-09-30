@@ -1,4 +1,4 @@
 metaObject: anObject
 	metaObject := anObject.
-	self invalidate.
+	self optionInlineMetaObject ifTrue: [self invalidate].
 	

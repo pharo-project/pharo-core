@@ -3,8 +3,11 @@ hookFor: aLink
 	
 	receiver := aLink metaObject isSymbol 
 		ifTrue: [ self genReification: aLink metaObject for: aLink ]
-		ifFalse: [  RBLiteralNode value: aLink metaObject ].
-	
+		ifFalse: [  
+			aLink optionInlineMetaObject 
+				ifTrue: [RBLiteralNode value: aLink metaObject]
+				ifFalse: [RBMessageNode receiver: (RBLiteralNode value: aLink)
+											 selector: #metaObject ]].
 	hook := RBMessageNode 
 		receiver: receiver
 		selector: aLink selector 

@@ -3,8 +3,9 @@ buildVariableReferencesMenuFrom: aMenu withIcon: aIconOrNil contentBy: aBlockOrS
 	self selectedClass withAllSuperclasses reverseDo: [ :class || vars |
 		vars := aBlockOrSymbol value: class. 
 		vars ifNotEmpty: [ 
-			aMenu 	addLine.
-			(aMenu add: class printString target: nil selector: nil) enabled: false.
+			aMenu
+			addLine;
+			addMorphBack: (class printString asStringMorph color: Color gray).
 		].		
 		vars do: [ :name |
 			aMenu 
