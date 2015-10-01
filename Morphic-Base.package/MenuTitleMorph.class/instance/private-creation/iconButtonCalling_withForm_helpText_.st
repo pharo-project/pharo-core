@@ -4,7 +4,7 @@ iconButtonCalling: aSelector withForm: aForm helpText: aText
 		actionSelector: aSelector;
 		labelGraphic: aForm;
 		color: Color transparent;
-		extent: 18 @ 18;
+		extent: self boxExtent;
 		borderWidth: 0;
 		helpText: aText translated;
 		yourself

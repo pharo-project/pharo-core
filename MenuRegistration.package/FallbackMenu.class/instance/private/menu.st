@@ -3,7 +3,9 @@ menu
 
 	| menu |
 	menu := UIManager default newMenuIn: ActiveWorld for: self.
-	menu addStayUpItem.
+	menu buildTitle: [ :menuTitle | menuTitle
+		onlyCloseAndPinable
+	].
 	menu add: 'Why you see this menu'
 		target: self
 		selector: #fallbackMenuExplanations.

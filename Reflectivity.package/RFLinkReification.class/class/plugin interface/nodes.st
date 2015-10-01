@@ -1,2 +1,2 @@
 nodes
-	^{RBProgramNode . LiteralVariable}
+	^{RBProgramNode . LiteralVariable . Slot}

@@ -4,7 +4,7 @@ withPinBox
 		
 	pinBox := self 
 		iconButtonCalling: #pinBoxClicked 
-		withForm: self theme menuPinForm 
+		withForm: self pinForm
 		helpText: 'Keep this menu up'.	
 			
 	self addMorph: pinBox asElementNumber: 4

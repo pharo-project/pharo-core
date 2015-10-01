@@ -1,14 +1,9 @@
 commentForCurrentUpdate
- ^ '16674 Navigate from Variables to AST Node accessing that variable
-	https://pharo.fogbugz.com/f/cases/16674
+ ^ '16679 links on Slots: add all reifications
+	https://pharo.fogbugz.com/f/cases/16679
 
-16677 #after on Globals and Slots
-	https://pharo.fogbugz.com/f/cases/16677
+16645 RBParser should not accept # <whitespace> and # <number>
+	https://pharo.fogbugz.com/f/cases/16645
 
-16676 Desktop Logo hidden behind Background image
-	https://pharo.fogbugz.com/f/cases/16676
-
-16660 improve #isUsed for Behaviours
-	https://pharo.fogbugz.com/f/cases/16660
-
-'
+16655 Menu stay up icon isnt removed 
+	https://pharo.fogbugz.com/f/cases/16655'

@@ -3,7 +3,7 @@ addYellowButtonMenuItemsTo: aMenu event: evt
 	yellow-button (context menu) click."
 	aMenu defaultTarget: self.
 	self defaultYellowButtonMenuEnabled ifFalse: [^ self].
-	aMenu addStayUpItem.
+	"aMenu addStayUpItem."
 	self addModelYellowButtonItemsTo: aMenu event: evt.
 	self cmdGesturesEnabled ifTrue: [
 			aMenu addLine.

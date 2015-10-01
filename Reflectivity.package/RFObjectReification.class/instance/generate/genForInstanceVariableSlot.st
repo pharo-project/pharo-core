@@ -1,0 +1,2 @@
+genForInstanceVariableSlot
+	^RBVariableNode named: 'self'

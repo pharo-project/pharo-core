@@ -4,7 +4,6 @@ buildDebugMenu: aHand
 
 	| aMenu |
 	aMenu := UIManager default newMenuIn: self for: self.
-	aMenu addStayUpItem.
 	(self hasProperty: #errorOnDraw) ifTrue:
 		[aMenu add: 'start drawing again' selector: #resumeAfterDrawError.].
 	(self hasProperty: #drawError) ifTrue:

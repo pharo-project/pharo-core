@@ -2,7 +2,6 @@ buildMetaMenu: evt
 	"Build the morph menu. This menu has two sections. The first section contains commands that are handled by the hand; the second contains commands handled by the argument morph."
 	| menu |
 	menu := UIManager default newMenuIn: self for: self.
-	menu addStayUpItem.
 	menu add: 'grab' selector: #grabMorph:.
 	menu add: 'copy to paste buffer' selector: #copyToPasteBuffer:.
 	self maybeAddCollapseItemTo: menu.

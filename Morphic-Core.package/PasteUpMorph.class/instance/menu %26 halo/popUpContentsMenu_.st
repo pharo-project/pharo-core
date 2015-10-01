@@ -3,5 +3,7 @@ popUpContentsMenu: evt
 	| menu |
 	menu := UIManager default newMenuIn: self for: self.
 	self contentsMenu: menu.
-	menu addTitle: self contentsMenuTitle.
-	menu popUpEvent: evt in: (self owner ifNil: [self]).
+	menu buildTitle: [ :titleMorph |
+		titleMorph bigTitle: self contentsMenuTitle
+	];
+	popUpEvent: evt in: (self owner ifNil: [self]).

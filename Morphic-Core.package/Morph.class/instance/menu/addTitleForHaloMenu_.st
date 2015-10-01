@@ -1,4 +1,6 @@
 addTitleForHaloMenu: aMenu 
-	aMenu
-		addTitle: self externalName
-		icon: (self iconOrThumbnailOfSize: 28)
+	aMenu buildTitle: [ :menuTitle | menuTitle
+		bigTitle: self externalName;
+		icon: (self iconOrThumbnailOfSize: 18);
+		cellInset: 3
+	]

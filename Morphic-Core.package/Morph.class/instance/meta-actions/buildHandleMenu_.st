@@ -3,7 +3,6 @@ buildHandleMenu: aHand
 
 	| menu |
 	menu := UIManager default newMenuIn: self for: self.
-	menu addStayUpItem.
 	menu addLine.
 	self addStandardHaloMenuItemsTo: menu hand: aHand.
 	menu defaultTarget: aHand.

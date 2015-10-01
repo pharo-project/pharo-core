@@ -1,7 +1,7 @@
 invokeMetaMenu: evt
 	| menu |	
+	self world ifNil: [ ^self ].
+	
 	menu := self buildMetaMenu: evt.
-	menu addTitle: self externalName.
-	self world ifNotNil: [
-		menu popUpEvent: evt in: self world
-	]
+	self addTitleForHaloMenu: menu.	
+	menu popUpEvent: evt in: self world

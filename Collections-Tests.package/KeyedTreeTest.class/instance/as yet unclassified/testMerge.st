@@ -4,9 +4,9 @@ testMerge
 	|t1 t2 m|
 	t1 := KeyedTree new
 		at: 1 put: (KeyedTree new
-					at: #1 put: '1-1';
-					at: #2 put: '1-2';
-					at: #3 put: (KeyedTree new
+					at: 1 put: '1-1';
+					at: 2 put: '1-2';
+					at: 3 put: (KeyedTree new
 								at: 1 put: '1-3-1';
 								at: 2 put: '1-3-2';
 								yourself);
@@ -15,11 +15,11 @@ testMerge
 		yourself.
 	t2 := KeyedTree new
 		at: 1 put: (KeyedTree new
-					at: #1 put: (KeyedTree new
+					at: 1 put: (KeyedTree new
 								at: 1 put: '1-1-1';
 								at: 2 put: '1-1-2';
 								yourself);
-					at: #2 put: '1-2*';
+					at: 2 put: '1-2*';
 					yourself);
 		at: 3 put: '3';
 		yourself.

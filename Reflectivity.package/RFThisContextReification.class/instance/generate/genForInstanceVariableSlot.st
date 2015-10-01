@@ -1,0 +1,2 @@
+genForInstanceVariableSlot
+	^RBThisContextNode named: #thisContext

@@ -23,5 +23,5 @@ contentsMenu: aMenu
 		do: [ :w | 
 			aMenu add: w class name target: w selector: #comeToFront.
 			aMenu lastItem icon: w taskbarIcon ].
-	aMenu addStayUpIcons.
+		
 	^ aMenu

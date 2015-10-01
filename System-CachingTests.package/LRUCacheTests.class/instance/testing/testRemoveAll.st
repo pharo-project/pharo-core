@@ -9,6 +9,6 @@ testRemoveAll
 	self assert: cache totalWeight isZero.
 	self assert: cache misses equals: 10.
 	self assert: cache hits isZero.
-	self deny: (cache includesKey: #1).
+	self deny: (cache includesKey: 1).
 	cache keysAndValuesDo: [ :key :value | self fail ].
 	cache validateInvariantWith: self

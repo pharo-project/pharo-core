@@ -3,10 +3,11 @@ addHaloActionsTo: aMenu
 
 	| subMenu |
 	subMenu := UIManager default newMenuIn: self for: self.
-	subMenu addTitle: self externalName.
-	subMenu addStayUpItem.
-	subMenu addLine.
-	subMenu add: 'delete' selector: #dismissViaHalo.
+	subMenu 
+	buildTitle: [ :menuTitle | menuTitle 
+		bigTitle: self externalName
+	];
+	add: 'delete' selector: #dismissViaHalo.
 	subMenu balloonTextForLastItem: 'Delete this object -- warning -- can be destructive!' translated.
 
 	self maybeAddCollapseItemTo: subMenu.

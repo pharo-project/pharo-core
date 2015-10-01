@@ -12,7 +12,7 @@ defaultSpec
 					add:  #selectedModel];
 			newRow: [:r |
 				r
-					add: # removeTestPackageModel; 
+					add: #removeTestPackageModel; 
 					add: #addTestCaseClasses]  height: 25;
 			newRow: [:r |
 				r 

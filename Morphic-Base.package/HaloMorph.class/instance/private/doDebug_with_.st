@@ -9,5 +9,10 @@ doDebug: evt with: menuHandle
 		^ innerTarget inspectInMorphic: evt].
 
 	menu := innerTarget buildDebugMenu: evt hand.
-	menu addTitle: (innerTarget externalName truncateWithElipsisTo: 40).
-	menu popUpEvent: evt in: self world
+	menu buildTitle: [ :menuTitle | menuTitle
+		title: (innerTarget externalName truncateWithElipsisTo: 40);
+		"icon: Smalltalk ui icons smallDebugIcon;"
+		withCloseBox;
+		withPinBox
+	];
+	popUpEvent: evt in: self world

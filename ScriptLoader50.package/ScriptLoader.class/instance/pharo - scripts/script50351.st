@@ -1,7 +1,7 @@
-script50350
+script50351
 
-	^ 'AST-Core-TheIntegrator.374.mcz
-AST-Tests-Core-TheIntegrator.79.mcz
+	^ 'AST-Core-TheIntegrator.375.mcz
+AST-Tests-Core-TheIntegrator.80.mcz
 Announcements-Core-TheIntegrator.62.mcz
 Announcements-Help-TheIntegrator.12.mcz
 Announcements-Tests-Core-TheIntegrator.27.mcz
@@ -39,7 +39,7 @@ Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.186.mcz
 Collections-Strings-TheIntegrator.370.mcz
 Collections-Support-TheIntegrator.65.mcz
-Collections-Tests-TheIntegrator.6.mcz
+Collections-Tests-TheIntegrator.8.mcz
 Collections-Unordered-TheIntegrator.216.mcz
 Collections-Weak-TheIntegrator.93.mcz
 CollectionsTests-TheIntegrator.709.mcz
@@ -139,7 +139,7 @@ Komitter-TheIntegrator.144.mcz
 Manifest-Core-TheIntegrator.231.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.51.mcz
-MenuRegistration-TheIntegrator.76.mcz
+MenuRegistration-TheIntegrator.78.mcz
 MessageBrowserRefactoringAddition-StephaneDucasse.2.mcz
 Metacello-Base-EstebanLorenzano.114.mcz
 Metacello-Core-MarcusDenker.722.mcz
@@ -170,8 +170,8 @@ MonticelloGUI-TheIntegrator.391.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Moose-Algos-Graph-ChristopheDemarey.30.mcz
-Morphic-Base-TheIntegrator.491.mcz
-Morphic-Core-TheIntegrator.214.mcz
+Morphic-Base-TheIntegrator.493.mcz
+Morphic-Core-TheIntegrator.216.mcz
 Morphic-Examples-TheIntegrator.46.mcz
 Morphic-Tests-TheIntegrator.2.mcz
 Morphic-Widgets-Basic-TheIntegrator.59.mcz
@@ -244,9 +244,9 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.36.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.201.mcz
+Reflectivity-TheIntegrator.203.mcz
 Reflectivity-Examples-TheIntegrator.2.mcz
-Reflectivity-Tests-TheIntegrator.169.mcz
+Reflectivity-Tests-TheIntegrator.171.mcz
 Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -295,7 +295,7 @@ Spec-Tools-TheIntegrator.290.mcz
 StartupPreferences-TheIntegrator.141.mcz
 System-Announcements-TheIntegrator.106.mcz
 System-Caching-TheIntegrator.26.mcz
-System-CachingTests-TheIntegrator.14.mcz
+System-CachingTests-TheIntegrator.16.mcz
 System-Changes-TheIntegrator.292.mcz
 System-Changes-FileServices-TheIntegrator.2.mcz
 System-Clipboard-SvenVanCaekenberghe.32.mcz
@@ -329,7 +329,7 @@ Text-Scanning-TheIntegrator.31.mcz
 Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.107.mcz
 Tool-Catalog-TorstenBergmann.25.mcz
-Tool-CriticBrowser-TheIntegrator.14.mcz
+Tool-CriticBrowser-TheIntegrator.15.mcz
 Tool-DependencyAnalyser-TheIntegrator.21.mcz
 Tool-DependencyAnalyser-Checker-ChristopheDemarey.30.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.10.mcz
@@ -365,10 +365,10 @@ Versionner-Core-Commands-ChristopheDemarey.61.mcz
 Versionner-Core-DependenciesModel-MarcusDenker.102.mcz
 Versionner-Core-Model-EstebanLorenzano.51.mcz
 Versionner-Spec-Browser-SeanDeNigris.178.mcz
-Versionner-Tests-Core-Commands-ChristopheDemarey.18.mcz
+Versionner-Tests-Core-Commands-TheIntegrator.20.mcz
 Versionner-Tests-Core-DependenciesModel-ChristopheDemarey.42.mcz
 Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz
-Versionner-Tests-Resources-ChristopheDemarey.15.mcz
+Versionner-Tests-Resources-TheIntegrator.17.mcz
 Zinc-Character-Encoding-Core-SvenVanCaekenberghe.37.mcz
 Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.22.mcz
 Zinc-FileSystem-SvenVanCaekenberghe.10.mcz

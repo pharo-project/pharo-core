@@ -1,0 +1,3 @@
+toggleStayUp
+
+	^stayUp := stayUp not

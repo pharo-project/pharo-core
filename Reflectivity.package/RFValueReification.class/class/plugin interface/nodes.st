@@ -1,2 +1,2 @@
 nodes
-	^{RBVariableNode. RBAssignmentNode. RBReturnNode. LiteralVariable}
+	^{RBVariableNode. RBAssignmentNode. RBReturnNode. LiteralVariable . Slot}
