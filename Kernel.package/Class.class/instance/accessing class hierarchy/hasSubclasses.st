@@ -1,0 +1,2 @@
+hasSubclasses
+	^subclasses notNil

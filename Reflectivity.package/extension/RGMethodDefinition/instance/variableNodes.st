@@ -1,0 +1,2 @@
+variableNodes
+	^self compiledMethod variableNodes.

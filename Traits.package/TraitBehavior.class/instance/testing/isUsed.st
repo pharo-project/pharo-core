@@ -1,0 +1,2 @@
+isUsed
+	^self traitUsers isNotEmpty 

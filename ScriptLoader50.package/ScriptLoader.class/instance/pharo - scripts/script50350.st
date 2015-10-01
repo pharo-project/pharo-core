@@ -1,4 +1,4 @@
-script50349
+script50350
 
 	^ 'AST-Core-TheIntegrator.374.mcz
 AST-Tests-Core-TheIntegrator.79.mcz
@@ -127,8 +127,8 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2135.mcz
-Kernel-Tests-TheIntegrator.7.mcz
+Kernel-TheIntegrator.2137.mcz
+Kernel-Tests-TheIntegrator.10.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
 Keymapping-Pragmas-TheIntegrator.52.mcz
@@ -244,9 +244,9 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.36.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.198.mcz
+Reflectivity-TheIntegrator.201.mcz
 Reflectivity-Examples-TheIntegrator.2.mcz
-Reflectivity-Tests-TheIntegrator.166.mcz
+Reflectivity-Tests-TheIntegrator.169.mcz
 Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -255,7 +255,7 @@ Renraku-YuriyTymchuk.82.mcz
 Renraku-Test-YuriyTymchuk.17.mcz
 Ring-ChangesExtensions-TheIntegrator.1.mcz
 Ring-Core-Containers-TheIntegrator.41.mcz
-Ring-Core-Kernel-TheIntegrator.228.mcz
+Ring-Core-Kernel-TheIntegrator.231.mcz
 Ring-Monticello-TheIntegrator.40.mcz
 Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.88.mcz
@@ -271,14 +271,14 @@ SUnit-UI-TheIntegrator.129.mcz
 SUnit-UITesting-TheIntegrator.27.mcz
 ScriptLoader-Tests-TheIntegrator.4.mcz
 Settings-Graphics-StephaneDucasse.28.mcz
-Settings-Polymorph-TheIntegrator.80.mcz
+Settings-Polymorph-TheIntegrator.82.mcz
 Settings-System-TheIntegrator.40.mcz
 ShoreLine-Report-Core-TommasoDalSasso.9.mcz
 ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.14.mcz
 Shout-TheIntegrator.278.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.690.mcz
+Slot-TheIntegrator.694.mcz
 Slot-Tests-TheIntegrator.62.mcz
 SmartSuggestions-TheIntegrator.178.mcz
 SmartSuggestions-Tests-TheIntegrator.10.mcz
@@ -317,7 +317,7 @@ System-Serial Port-StephaneDucasse.23.mcz
 System-Settings-TheIntegrator.319.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.44.mcz
-System-Support-TheIntegrator.1167.mcz
+System-Support-TheIntegrator.1169.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.8.mcz
 Tests-TheIntegrator.742.mcz
@@ -348,7 +348,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.35.mcz
 Tools-TheIntegrator.1512.mcz
 Tools-Test-TheIntegrator.4.mcz
-Traits-TheIntegrator.832.mcz
+Traits-TheIntegrator.834.mcz
 Transcript-TheIntegrator.43.mcz
 TxText-Athens-NicolaiHess.52.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
