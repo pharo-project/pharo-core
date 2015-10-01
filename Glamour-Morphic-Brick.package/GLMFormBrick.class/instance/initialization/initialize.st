@@ -6,4 +6,4 @@ initialize
 		color: Color veryVeryLightGray muchLighter;
 		borderWidth: 1;
 		borderColor: Color veryVeryLightGray;
-		padding: # (4 7)
+		padding: #(4 7)

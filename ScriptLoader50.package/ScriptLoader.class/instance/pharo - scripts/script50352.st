@@ -1,4 +1,4 @@
-script50351
+script50352
 
 	^ 'AST-Core-TheIntegrator.375.mcz
 AST-Tests-Core-TheIntegrator.80.mcz
@@ -94,7 +94,7 @@ Glamour-Browsers-TorstenBergmann.109.mcz
 Glamour-Core-SeanDeNigris.303.mcz
 Glamour-Examples-MarcusDenker.293.mcz
 Glamour-Helpers-AndreiChis.39.mcz
-Glamour-Morphic-Brick-CyrilFerlicot.402.mcz
+Glamour-Morphic-Brick-TheIntegrator.404.mcz
 Glamour-Morphic-Brick-Tests-AliakseiSyrel.13.mcz
 Glamour-Morphic-Pager-CyrilFerlicot.104.mcz
 Glamour-Morphic-Renderer-MarcusDenker.326.mcz
