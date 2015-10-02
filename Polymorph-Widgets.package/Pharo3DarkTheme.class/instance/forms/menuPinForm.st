@@ -1,4 +1,4 @@
 menuPinForm
 	"Answer the form to use for the pin button of a menu."
 
-	^ Pharo3UIThemeIcons menuPinForm
+	^ Smalltalk ui icons menuPinForm

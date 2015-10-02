@@ -1,3 +1,3 @@
 addRemoteIcon
 
-	^ addRemoteIcon ifNil: [ addRemoteIcon := Pharo3UIThemeIcons form16x16FromContents: self addRemoteIconData ]
+	^ addRemoteIcon ifNil: [ addRemoteIcon := Smalltalk ui icons form16x16FromContents: self addRemoteIconData ]

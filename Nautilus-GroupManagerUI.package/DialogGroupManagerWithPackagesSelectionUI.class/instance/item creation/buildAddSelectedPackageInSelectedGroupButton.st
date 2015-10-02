@@ -2,7 +2,7 @@ buildAddSelectedPackageInSelectedGroupButton
 	^ IconicButton new
 		target: self;
 		actionSelector: #addSelectedPackageInSelectedGroup;
-		labelGraphic: GroupIcon current downArrowIcon;
+		labelGraphic: (Smalltalk ui icons iconNamed: #up);
 		color: Color transparent;
 		helpText: 'Add the selected package into the selected group';
 		borderWidth: 0;

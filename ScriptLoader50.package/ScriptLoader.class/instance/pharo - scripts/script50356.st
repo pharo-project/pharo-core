@@ -1,4 +1,4 @@
-script50355
+script50356
 
 	^ 'AST-Core-TheIntegrator.375.mcz
 AST-Tests-Core-TheIntegrator.80.mcz
@@ -135,7 +135,7 @@ Keymapping-Pragmas-TheIntegrator.52.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.96.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
-Komitter-TheIntegrator.144.mcz
+Komitter-TheIntegrator.146.mcz
 Manifest-Core-TheIntegrator.231.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.51.mcz
@@ -203,7 +203,7 @@ NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
 Nautilus-TheIntegrator.1093.mcz
 Nautilus-GroupManager-TheIntegrator.13.mcz
-Nautilus-GroupManagerUI-TheIntegrator.20.mcz
+Nautilus-GroupManagerUI-TheIntegrator.22.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
 NautilusCommon-TheIntegrator.286.mcz
 NautilusGroupAutoBuilder-FranckWarlouzet.6.mcz
@@ -227,7 +227,7 @@ OpalCompiler-Tests-TheIntegrator.305.mcz
 OpalTools-TheIntegrator.18.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.42.mcz
-Polymorph-Widgets-TheIntegrator.1261.mcz
+Polymorph-Widgets-TheIntegrator.1263.mcz
 PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.70.mcz
 ProfStef-Help-TheIntegrator.16.mcz

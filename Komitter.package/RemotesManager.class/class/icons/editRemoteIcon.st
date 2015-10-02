@@ -1,3 +1,3 @@
 editRemoteIcon
 
-	^ editRemoteIcon ifNil: [ editRemoteIcon := Pharo3UIThemeIcons form16x16FromContents: self editRemoteIconData ]
+	^ editRemoteIcon ifNil: [ editRemoteIcon := Smalltalk ui icons form16x16FromContents: self editRemoteIconData ]

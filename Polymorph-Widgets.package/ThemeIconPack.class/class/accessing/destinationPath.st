@@ -1,0 +1,2 @@
+destinationPath
+	^ 'icon-packs' asFileReference

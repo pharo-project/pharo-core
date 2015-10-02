@@ -1,7 +1,7 @@
 settingsOn: aBuilder 
 	<systemsettings>
 
-	(aBuilder pickOne: #uiIconClass)
+	(aBuilder pickOne: #current)
 		parent: #appearance;
 		label: 'Icon Set';
 		target: self;

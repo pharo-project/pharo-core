@@ -1,0 +1,2 @@
+hasIcons
+	^ self icons notEmpty
