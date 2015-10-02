@@ -5,5 +5,5 @@ initializeControls
 
 	autoSubmit label: 'Always submit stack traces' translated.
 	
-	help image: ThemeIcons current helpIcon.
+	help image: Smalltalk ui icons helpIcon.
 	help help: self class popupText translated.

@@ -1,15 +1,6 @@
 commentForCurrentUpdate
- ^ '16691 MouseFocus and triggering modal dialogs from mouse event dispatcher
-	https://pharo.fogbugz.com/f/cases/16691
+ ^ '16686 remove ThemeIcons references in ShoreLine
+	https://pharo.fogbugz.com/f/cases/16686
 
-16690 Spec WidgetBuilt is send with an Adapter but it should be a widget (Morph)
-	https://pharo.fogbugz.com/f/cases/16690
-
-16068 Debugger is losing the source code changes on method context change
-	https://pharo.fogbugz.com/f/cases/16068
-
-16688 Coverage Demo with Reflectivity
-	https://pharo.fogbugz.com/f/cases/16688
-
-16490 MorphSlot
-	https://pharo.fogbugz.com/f/cases/16490'
+16673 Senders of... highlights wrong code segment
+	https://pharo.fogbugz.com/f/cases/16673'

@@ -1,4 +1,4 @@
-script50353
+script50354
 
 	^ 'AST-Core-TheIntegrator.375.mcz
 AST-Tests-Core-TheIntegrator.80.mcz
@@ -291,7 +291,7 @@ Spec-Layout-TheIntegrator.69.mcz
 Spec-MorphicAdapters-TheIntegrator.239.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz
 Spec-Tests-TheIntegrator.56.mcz
-Spec-Tools-TheIntegrator.290.mcz
+Spec-Tools-TheIntegrator.292.mcz
 StartupPreferences-TheIntegrator.141.mcz
 System-Announcements-TheIntegrator.106.mcz
 System-Caching-TheIntegrator.26.mcz
