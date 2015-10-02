@@ -1,0 +1,2 @@
+installMetalinkButton: anObject
+	installMetalinkButton := anObject

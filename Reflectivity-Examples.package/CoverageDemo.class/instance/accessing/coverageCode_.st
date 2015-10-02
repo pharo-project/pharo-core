@@ -1,0 +1,2 @@
+coverageCode: anObject
+	coverageCode := anObject

@@ -1,0 +1,2 @@
+compiledMethod: anObject
+	compiledMethod := anObject

@@ -1,0 +1,2 @@
+codePanelMorph: anObject
+	codePanelMorph := anObject

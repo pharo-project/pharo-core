@@ -1,0 +1,2 @@
+installMetalinkButton
+	^ installMetalinkButton

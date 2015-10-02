@@ -1,0 +1,2 @@
+coverageCode
+	^ coverageCode

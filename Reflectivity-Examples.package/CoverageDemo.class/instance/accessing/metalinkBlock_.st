@@ -1,0 +1,2 @@
+metalinkBlock: anObject
+	metalinkBlock := anObject
