@@ -4,9 +4,9 @@ addButton: aBrick
 	
 	aBrick enable.
 	aBrick index: self buttons size.
-	aBrick announcer weak when: GLMPagerButtonClicked send: #onButtonClicked: to: self.
-	aBrick announcer weak when: GLMPagerButtonSelected send: #onButtonSelected: to: self.
-	aBrick announcer weak when: GLMPagerButtonDeselected send: #onButtonDeselected to: self.
+	aBrick announcer weak subscribe: GLMPagerButtonClicked send: #onButtonClicked: to: self.
+	aBrick announcer weak subscribe: GLMPagerButtonSelected send: #onButtonSelected: to: self.
+	aBrick announcer weak subscribe: GLMPagerButtonDeselected send: #onButtonDeselected to: self.
 	
 	self theme pagerWidgetThemer defaultScrollButtonStyleFor: aBrick.
 	

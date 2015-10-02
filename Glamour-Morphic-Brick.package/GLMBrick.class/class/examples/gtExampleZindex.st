@@ -1,5 +1,6 @@
 gtExampleZindex
-	<gtExample: 'Example of z-index support in Brick'>
+	<gtExample>
+	<label: 'Example of z-index support in Brick'>
 	
 	^ GLMBrick new
 		hSpaceFill;

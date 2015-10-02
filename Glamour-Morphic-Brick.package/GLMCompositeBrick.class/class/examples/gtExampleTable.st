@@ -1,5 +1,6 @@
 gtExampleTable
-	<gtExample: 'Phlowr table'>
+	<gtExample>
+	<label: 'Phlowr table'>
 	
 	^ self new
 		hSpaceFill;

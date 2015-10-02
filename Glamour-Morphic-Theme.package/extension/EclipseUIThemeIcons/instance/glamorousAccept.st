@@ -1,2 +1,0 @@
-glamorousAccept 
-	^ self smallOkIcon

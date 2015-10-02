@@ -1,4 +1,4 @@
 radioButtonForm
 	"Answer the form to use for a normal radio button."
 
-	^ GLMThemeIcons radioButtonUnselectedForm
+	^ Smalltalk ui icons radioButtonUnselectedForm

@@ -1,4 +1,4 @@
 windowMinimizePassiveForm
 	"Answer the form to use for passive (background) window minimize buttons"
 
-	^GLMThemeIcons windowMinimizeInactiveForm
+	^ Smalltalk ui icons windowMinimizeInactiveForm

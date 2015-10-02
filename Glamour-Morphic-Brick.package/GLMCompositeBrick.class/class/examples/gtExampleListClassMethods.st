@@ -1,5 +1,6 @@
 gtExampleListClassMethods
-	<gtExample: 'Phlow list displaying all methods of an object '>
+	<gtExample>
+	<label: 'Phlow list displaying all methods of an object '>
 
 	^ self new
 		hSpaceFill;

@@ -1,5 +1,6 @@
 gtExample
-	<gtExample: 'Two rubric text areas filling half of size'>
+	<gtExample>
+	<label: 'Two rubric text areas filling half of size'>
 	
 	^ GLMBrick new
 		useVerticalLinearLayout;

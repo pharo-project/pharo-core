@@ -1,2 +1,0 @@
-windowCloseForm
-	^ self class windowCloseForm

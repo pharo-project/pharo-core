@@ -1,5 +1,6 @@
 gtExampleScrollPane
-	<gtExample: 'Multiple rubric text areas in scroll pane'>
+	<gtExample>
+	<label: 'Multiple rubric text areas in scroll pane'>
 	
 	^ GLMScrollPaneBrick new
 		hSpaceFill;

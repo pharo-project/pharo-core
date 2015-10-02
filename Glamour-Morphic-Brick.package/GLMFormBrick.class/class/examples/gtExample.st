@@ -1,5 +1,7 @@
 gtExample
-	<gtExample: 'Input form with title, two labels, four checkboxes, text and submit button'>
+	<gtExample>
+	<label: 'Input form with title, two labels, four checkboxes, text and submit button'>
+	
 	^ self new
 		title: [ :t | t
 			text: 'Grüezi' ];

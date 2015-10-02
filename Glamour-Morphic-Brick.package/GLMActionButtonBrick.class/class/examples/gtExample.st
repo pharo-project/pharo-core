@@ -1,5 +1,6 @@
 gtExample
-	<gtExample: 'Action button with icon and dynamic background color'>
+	<gtExample>
+	<label: 'Action button with icon and dynamic background color'>
 	
 	^ self new
 			action: [ :b | b gtDisplayString logCr ];

@@ -1,2 +1,0 @@
-glamorousOpen
-	^ self smallOpenIcon

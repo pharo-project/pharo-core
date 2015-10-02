@@ -1,5 +1,6 @@
 gtExamplePharoMethod
-	<gtExample: 'Phlow Pharo method'>
+	<gtExample>
+	<label: 'Phlow Pharo method'>
 
 	^ self new
 		hSpaceFill;

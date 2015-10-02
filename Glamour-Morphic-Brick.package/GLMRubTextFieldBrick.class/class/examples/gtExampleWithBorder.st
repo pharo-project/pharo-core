@@ -1,5 +1,6 @@
 gtExampleWithBorder
-	<gtExample: 'Rubric field with support of border'>
+	<gtExample>
+	<label: 'Rubric field with support of border'>
 	
 	^ self new
 			padding: 20;

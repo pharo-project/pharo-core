@@ -1,5 +1,6 @@
 gtExampleAllTypes
-	<gtExample: 'Example of all popup types'>
+	<gtExample>
+	<label: 'Example of all popup types'>
 
 	^ GLMBrick new
 		hShrinkWrap;

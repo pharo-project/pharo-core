@@ -1,5 +1,6 @@
 gtExampleList
-	<gtExample: 'Phlow simple list'>
+	<gtExample>
+	<label: 'Phlow simple list'>
 
 	^ self new
 		hSpaceFill;

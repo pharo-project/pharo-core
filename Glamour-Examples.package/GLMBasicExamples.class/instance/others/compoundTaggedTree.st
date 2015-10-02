@@ -7,23 +7,24 @@ compoundTaggedTree
 	browser transmit to: #one; andShow: [ :a | 
 		a tree
 			title: 'Combined Tags';
-			tags: [:each | { {ThemeIcons current perform: (each, 'Icon') asSymbol . each asString }}].
+			tags: [:each | { {Smalltalk ui icons iconNamed: each asSymbol. each asString }}].
 		a tree
 			title: 'Image Tags';
-			tags: [:each | { ThemeIcons current perform: (each, 'Icon') asSymbol}].
+			tags: [:each | {Smalltalk ui icons iconNamed: each asSymbol}].
 		a tree
 			title: 'Combined Tags - Filter by image';
 			tags: [:each | 
 				{ each == #help 
-						ifTrue:[ {ThemeIcons current smallDeleteIcon . 'no ok' } ] 
-						ifFalse:[ {ThemeIcons current smallOkIcon . each asString } ]} ];
+						ifTrue:[ {Smalltalk ui icons smallDeleteIcon. 'no ok' } ] 
+						ifFalse:[ {Smalltalk ui icons smallOkIcon. each asString } ]} ];
 			tagsFilter: [:each | 
 				{ each == #help 
-						ifTrue:[ ThemeIcons current smallDeleteIcon ] ifFalse:[ ThemeIcons current smallOkIcon ] } ].
+						ifTrue:[ Smalltalk ui icons smallDeleteIcon ] 
+						ifFalse:[ Smalltalk ui icons smallOkIcon ] } ].
 		a tree
 			title: 'Combined Tags - Filter by label';
 			tags: [:each | 
-				{ {ThemeIcons current perform: (each, 'Icon') asSymbol.
+				{ {Smalltalk ui icons iconNamed: each asSymbol.
 					each == #help ifTrue:[ 'no ok' ] ifFalse:[ 'ok' ]}} ];
 			tagsFilter: [:each | 
 				{ each == #help ifTrue:[ 'no ok' ] ifFalse:[ 'ok' ] } ] ].

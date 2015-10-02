@@ -1,2 +1,0 @@
-windowMinimizeForm
-	^self class windowMinimizeForm

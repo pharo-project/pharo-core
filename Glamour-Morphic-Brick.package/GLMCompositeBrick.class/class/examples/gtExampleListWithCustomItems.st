@@ -1,5 +1,6 @@
 gtExampleListWithCustomItems
-	<gtExample: 'Phlow list with custom items'>
+	<gtExample>
+	<label: 'Phlow list with custom items'>
 
 	^ self new
 		hSpaceFill;

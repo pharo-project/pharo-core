@@ -1,4 +1,4 @@
 checkboxSelectedForm
 	"Answer the form to use for a selected checkbox."
 
-	^GLMThemeIcons checkboxSelectedForm
+	^ Smalltalk ui icons checkboxSelectedForm

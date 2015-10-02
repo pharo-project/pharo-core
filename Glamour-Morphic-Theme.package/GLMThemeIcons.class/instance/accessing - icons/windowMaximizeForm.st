@@ -1,2 +1,0 @@
-windowMaximizeForm
-	^ self class windowMaximizeForm

@@ -1,5 +1,7 @@
 gtExampleBasic
-	<gtExample: 'Basic Rubric Editing Area with padding and border'>
+	<gtExample>
+	<label: 'Basic Rubric Editing Area with padding and border'>
+	
 	^ self new
 		padding: 20;
 		borderWidth: 20;

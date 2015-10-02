@@ -1,3 +1,5 @@
 gtExample
-	<gtExample: 'Simple button'>
+	<gtExample>
+	<label: 'Simple button'>
+	
 	^ self new

@@ -1,2 +1,0 @@
-glamorousUndo 
-	^ self smallUndoIcon

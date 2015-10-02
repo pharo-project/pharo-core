@@ -1,5 +1,6 @@
 gtExample
-	<gtExample: 'Example with subbricks'>
+	<gtExample>
+	<label: 'Example with subbricks'>
 	
 	^ self new
 		hSpaceFill;

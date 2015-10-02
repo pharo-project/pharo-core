@@ -1,7 +1,0 @@
-glamorousExampleIconContents
-	"Private - Method generated"
-	^ 'R0lGODlhEAAQAMQAAICQqFh4mEhgeLC4wGiAkHCoyDCYWDiYWEigYMDgyFioaGCoaHCweIC4
-gJjAiKjImLjQoNjouNjosNzqtN3qtOPsuOPsueruv/Hyxfjzyvj0y/z1zv///////wAAAAAA
-ACH5BAEAAB0ALAAAAAAQABAAAAVeYCeKXGmOKJkYrJFwqXpItHS8MYdEtRQhsBRnQaNMaIog
-isOQTCyVI0M54jQmlcsl2qCqHBcM5uLA5RIPTeZhjnU4kM0G4hUGAARBfVngDPRuVXd5e0sC
-gIFLhYkxIQA7'
