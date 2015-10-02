@@ -1,4 +1,4 @@
-script50354
+script50355
 
 	^ 'AST-Core-TheIntegrator.375.mcz
 AST-Tests-Core-TheIntegrator.80.mcz
@@ -28,7 +28,7 @@ BlueInk-Extras-TheIntegrator.6.mcz
 BlueInk-Tests-TheIntegrator.8.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
 CodeExport-TheIntegrator.13.mcz
-CodeImport-ChristopheDemarey.76.mcz
+CodeImport-TheIntegrator.79.mcz
 CodeImportCommandLineHandlers-EstebanLorenzano.2.mcz
 Collections-Abstract-TheIntegrator.302.mcz
 Collections-Arithmetic-TheIntegrator.20.mcz
@@ -275,7 +275,7 @@ Settings-Polymorph-TheIntegrator.82.mcz
 Settings-System-TheIntegrator.40.mcz
 ShoreLine-Report-Core-TommasoDalSasso.9.mcz
 ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
-ShoreLine-Report-UI-TommasoDalSasso.14.mcz
+ShoreLine-Report-UI-TommasoDalSasso.15.mcz
 Shout-TheIntegrator.278.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.695.mcz
@@ -294,13 +294,15 @@ Spec-Tests-TheIntegrator.56.mcz
 Spec-Tools-TheIntegrator.292.mcz
 StartupPreferences-TheIntegrator.141.mcz
 System-Announcements-TheIntegrator.106.mcz
+System-BasicCommandLineHandler-TheIntegrator.4.mcz
 System-Caching-TheIntegrator.26.mcz
 System-CachingTests-TheIntegrator.16.mcz
 System-Changes-TheIntegrator.292.mcz
 System-Changes-FileServices-TheIntegrator.2.mcz
 System-Clipboard-SvenVanCaekenberghe.32.mcz
-System-CommandLine-TheIntegrator.177.mcz
-System-CommandLineHandler-TheIntegrator.5.mcz
+System-CommandLine-TheIntegrator.181.mcz
+System-CommandLine-TextSupport-TheIntegrator.4.mcz
+System-CommandLineHandler-TheIntegrator.9.mcz
 System-FileRegistry-TheIntegrator.50.mcz
 System-Finalization-TheIntegrator.22.mcz
 System-Hashing-TheIntegrator.47.mcz

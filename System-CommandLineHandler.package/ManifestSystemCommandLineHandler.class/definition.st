@@ -1,4 +1,4 @@
-CommandLineHandler subclass: #PrintVersionCommandLineHandler
+PackageManifest subclass: #ManifestSystemCommandLineHandler
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
