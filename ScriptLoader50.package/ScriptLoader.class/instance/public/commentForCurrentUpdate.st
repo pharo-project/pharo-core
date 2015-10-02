@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '16685 remove ThemeIcons references in GTools
-	https://pharo.fogbugz.com/f/cases/16685
+ ^ '16696 Execution Demo with Reflectivity
+	https://pharo.fogbugz.com/f/cases/16696
 
-16702 remove ThemeIcons references in GTInspector
-	https://pharo.fogbugz.com/f/cases/16702
+16694 optionMetalevel and some cleanups
+	https://pharo.fogbugz.com/f/cases/16694
 
-16701 remove ThemeIcons references in Catalog
-	https://pharo.fogbugz.com/f/cases/16701
-
-16700 remove ThemeIcons references in GTSpotter
-	https://pharo.fogbugz.com/f/cases/16700'
+16697 NautliusPluginManager context menu broken
+	https://pharo.fogbugz.com/f/cases/16697'

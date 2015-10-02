@@ -1,4 +1,4 @@
-script50358
+script50359
 
 	^ 'AST-Core-TheIntegrator.375.mcz
 AST-Tests-Core-TheIntegrator.80.mcz
@@ -80,11 +80,11 @@ FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-TheIntegrator.390.mcz
 FuelTools-Debugger-StephaneDucasse.12.mcz
 GT-Inspector-AndreiChis.310.mcz
-GT-InspectorExtensions-Core-TorstenBergmann.159.mcz
-GT-Playground-AndreiChis.112.mcz
+GT-InspectorExtensions-Core-EstebanLorenzano.161.mcz
+GT-Playground-EstebanLorenzano.113.mcz
 GT-Spotter-CyrilFerlicot.321.mcz
 GT-Spotter-EventRecorder-JurajKubelka.96.mcz
-GT-SpotterExtensions-Core-MarcusDenker.156.mcz
+GT-SpotterExtensions-Core-EstebanLorenzano.157.mcz
 GT-Tests-Inspector-TudorGirba.34.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
 GT-Tests-Spotter-AndreiChis.9.mcz
@@ -205,7 +205,7 @@ Nautilus-TheIntegrator.1093.mcz
 Nautilus-GroupManager-TheIntegrator.13.mcz
 Nautilus-GroupManagerUI-TheIntegrator.22.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
-NautilusCommon-TheIntegrator.286.mcz
+NautilusCommon-TheIntegrator.288.mcz
 NautilusGroupAutoBuilder-FranckWarlouzet.6.mcz
 NautilusRefactoring-TheIntegrator.251.mcz
 Network-Kernel-TheIntegrator.118.mcz
@@ -244,9 +244,9 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.36.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.204.mcz
-Reflectivity-Examples-TheIntegrator.4.mcz
-Reflectivity-Tests-TheIntegrator.171.mcz
+Reflectivity-TheIntegrator.208.mcz
+Reflectivity-Examples-TheIntegrator.6.mcz
+Reflectivity-Tests-TheIntegrator.175.mcz
 Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -278,7 +278,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.15.mcz
 Shout-TheIntegrator.278.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.695.mcz
+Slot-TheIntegrator.697.mcz
 Slot-Tests-TheIntegrator.62.mcz
 SmartSuggestions-TheIntegrator.178.mcz
 SmartSuggestions-Tests-TheIntegrator.10.mcz
@@ -330,7 +330,7 @@ Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.31.mcz
 Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.107.mcz
-Tool-Catalog-TorstenBergmann.25.mcz
+Tool-Catalog-EstebanLorenzano.26.mcz
 Tool-CriticBrowser-TheIntegrator.15.mcz
 Tool-DependencyAnalyser-TheIntegrator.21.mcz
 Tool-DependencyAnalyser-Checker-ChristopheDemarey.30.mcz

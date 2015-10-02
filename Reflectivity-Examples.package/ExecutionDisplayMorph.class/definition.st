@@ -1,4 +1,4 @@
-SHRBTextStyler subclass: #CoverageStyler
+BorderedMorph subclass: #ExecutionDisplayMorph
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

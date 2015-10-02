@@ -1,0 +1,2 @@
+optionDisabledLink
+	^ options includes: #optionDisabledLink

@@ -1,6 +1,8 @@
 hookFor: aLink
 	| receiver hook |
 	
+	aLink optionDisabledLink ifTrue: [ ^RBSequenceNode new ].
+	
 	receiver := aLink metaObject isSymbol 
 		ifTrue: [ self genReification: aLink metaObject for: aLink ]
 		ifFalse: [  
