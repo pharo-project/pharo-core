@@ -1,4 +1,4 @@
-script50357
+script50358
 
 	^ 'AST-Core-TheIntegrator.375.mcz
 AST-Tests-Core-TheIntegrator.80.mcz
@@ -91,14 +91,14 @@ GT-Tests-Spotter-AndreiChis.9.mcz
 Generated-code-non-existing-package-EstebanLorenzano.2.mcz
 Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-TorstenBergmann.109.mcz
-Glamour-Core-SeanDeNigris.303.mcz
-Glamour-Examples-MarcusDenker.293.mcz
+Glamour-Core-AndreiChis.302.mcz
+Glamour-Examples-EstebanLorenzano.294.mcz
 Glamour-Helpers-AndreiChis.39.mcz
-Glamour-Morphic-Brick-TheIntegrator.404.mcz
+Glamour-Morphic-Brick-EstebanLorenzano.406.mcz
 Glamour-Morphic-Brick-Tests-AliakseiSyrel.13.mcz
-Glamour-Morphic-Pager-CyrilFerlicot.104.mcz
-Glamour-Morphic-Renderer-MarcusDenker.326.mcz
-Glamour-Morphic-Theme-AndreiChis.216.mcz
+Glamour-Morphic-Pager-AndreiChis.103.mcz
+Glamour-Morphic-Renderer-AndreiChis.325.mcz
+Glamour-Morphic-Theme-EstebanLorenzano.218.mcz
 Glamour-Morphic-Widgets-AndreiChis.180.mcz
 Glamour-Presentations-AndreiChis.177.mcz
 Glamour-Rubric-Presentations-CyrilFerlicot.43.mcz

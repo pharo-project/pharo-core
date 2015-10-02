@@ -1,3 +1,3 @@
 gtExampleIconBits
 	<gtExample: 'Icon bits'>
-	^ ThemeIcons current pharoIcon bits
+	^ Smalltalk ui icons pharoIcon bits

@@ -3,6 +3,6 @@ gtExamplePng
 	^ FileSystem memory workingDirectory / 'pharoicon.png' 
 		writeStreamDo: [ :stream |
 			PNGReadWriter 
-				putForm: ThemeIcons current pharoIcon 
+				putForm: Smalltalk ui icons pharoIcon 
 				onStream: stream ];
 		yourself

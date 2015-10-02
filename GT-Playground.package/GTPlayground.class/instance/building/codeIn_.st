@@ -16,7 +16,7 @@ codeIn: a
 		installGoAction;
 		installDefaultSelectionActions;
 		act: [ :text :page | page publish ]
-			icon: ThemeIcons current glamorousSaveToUrl
+			icon: Smalltalk ui icons glamorousSaveToUrl
 			entitled: 'Remote publish';
 		addAction:
 			(GLMPopupAction new
@@ -26,7 +26,7 @@ codeIn: a
 					when: #inspect do: [ :binding | binding value inspect ];
 					when: #go do: [ :binding | text selection: binding value ];
 					yourself ]; 
-				icon: ThemeIcons current glamorousTable;
+				icon: Smalltalk ui icons glamorousTable;
 				title: 'Bindings';
 				yourself);
 		dynamicActions: [ self actionsForPreviousContents ];
