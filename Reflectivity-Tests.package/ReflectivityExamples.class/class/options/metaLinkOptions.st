@@ -1,0 +1,4 @@
+metaLinkOptions
+	^{
+	#exampleMethodWithMetaLinkOptionsViaClass -> #( + optionCompileOnLinkInstallation)
+	}

@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '16696 Execution Demo with Reflectivity
-	https://pharo.fogbugz.com/f/cases/16696
+ ^ '16695 allow classes to force meta link options: #metaLinkOptions
+	https://pharo.fogbugz.com/f/cases/16695
 
-16694 optionMetalevel and some cleanups
-	https://pharo.fogbugz.com/f/cases/16694
-
-16697 NautliusPluginManager context menu broken
-	https://pharo.fogbugz.com/f/cases/16697'
+16699 remove ThemeIcons references in Versionner
+	https://pharo.fogbugz.com/f/cases/16699'
