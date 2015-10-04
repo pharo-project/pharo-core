@@ -1,3 +1,3 @@
 initializeWith: aCollection 
-	super initialize.
+	self initialize.
 	dependencies := aCollection

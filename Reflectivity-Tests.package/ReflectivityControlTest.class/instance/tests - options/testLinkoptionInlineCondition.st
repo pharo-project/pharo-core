@@ -3,7 +3,7 @@ testLinkoptionInlineCondition
 	sendNode := (ReflectivityExamples>>#exampleMethod) sendNodes first.
 	link := MetaLink new 
 		metaObject: self; 
-		options: #(- optionInlineCondtion);
+		options: #(- optionInlineCondition);
 		condition: [ true ];
 		selector: #tagExec.
 	sendNode link: link.

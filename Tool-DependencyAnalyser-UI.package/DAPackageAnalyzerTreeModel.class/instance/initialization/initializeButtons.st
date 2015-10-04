@@ -23,7 +23,4 @@ initializeButtons
 		help: 'Serialize the current object relation graph dependencies';
 		label: 'Save current analysis'.
 	buttonMakeDiff := self newButton 
-		label: 'Make diff'.
-	buttonChecker := self newButton
-		label: 'Run Extension Checker';
-		help: 'Run Extension Checker for these packages'.
+		label: 'Make diff'

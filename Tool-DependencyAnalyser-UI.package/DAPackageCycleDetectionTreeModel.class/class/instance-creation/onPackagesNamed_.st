@@ -1,2 +1,4 @@
 onPackagesNamed: aCollection
-	^ (self new initializeWithPackageName: aCollection); yourself
+	^ self new 
+		initializeWithPackageName: aCollection;
+		yourself

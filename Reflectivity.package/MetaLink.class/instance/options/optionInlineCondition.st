@@ -1,0 +1,2 @@
+optionInlineCondition
+	^ options includes: #optionInlineCondition

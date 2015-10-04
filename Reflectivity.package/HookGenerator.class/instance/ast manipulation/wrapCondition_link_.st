@@ -1,17 +1,21 @@
 wrapCondition: hook link: aLink
-	| linkBlock conditionExpression condSelector condArguments |
+	| linkBlock conditionExpression condSelector condArguments linkConditionArguments|
 	
 	condSelector := aLink condition valueSelector.
-	condArguments  := #().
+	aLink conditionArguments
+		ifNil: [ linkConditionArguments  := aLink condition argumentNames.  ]
+		ifNotNil: [linkConditionArguments :=  aLink conditionArguments ].
+	condArguments := #().
+	
 	(condSelector numArgs > 0) ifTrue: [
 			condArguments := OrderedCollection new.
 			1 to: condSelector numArgs do: [:i |
-				condArguments add: (self genReification: (aLink condition argumentNames at: i) for: aLink)]
+				condArguments add: (self genReification: (linkConditionArguments at: i) for: aLink)]
 	].
 	
 	linkBlock := self encloseInBlock: hook asSequenceNode.
 	conditionExpression := RBMessageNode 
-			receiver: (aLink optionInlineCondtion 
+			receiver: (aLink optionInlineCondition 
 				ifTrue: [aLink condition asLiteralNode]
 				ifFalse:[RBMessageNode receiver: (RBLiteralNode value: aLink)
 											 selector: #condition ])
