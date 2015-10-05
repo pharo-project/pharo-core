@@ -1,3 +1,3 @@
 helpText: aString
 
-	helpText := aString
+	self setBalloonText: aString

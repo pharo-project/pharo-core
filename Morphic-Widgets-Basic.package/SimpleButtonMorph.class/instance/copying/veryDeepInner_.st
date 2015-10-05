@@ -8,4 +8,3 @@ super veryDeepInner: deepCopier.
 actWhen := actWhen veryDeepCopyWith: deepCopier.
 oldColor := oldColor veryDeepCopyWith: deepCopier.
 label := label veryDeepCopyWith: deepCopier.
-helpText := helpText veryDeepCopyWith: deepCopier.

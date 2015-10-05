@@ -15,7 +15,7 @@ wrapCondition: hook link: aLink
 	
 	linkBlock := self encloseInBlock: hook asSequenceNode.
 	conditionExpression := RBMessageNode 
-			receiver: (aLink optionInlineCondition 
+			receiver: ((self hasOption: #optionInlineCondition for: aLink)  
 				ifTrue: [aLink condition asLiteralNode]
 				ifFalse:[RBMessageNode receiver: (RBLiteralNode value: aLink)
 											 selector: #condition ])

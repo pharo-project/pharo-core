@@ -1,2 +1,0 @@
-htmlForPackage: aPackageName
-	^ 	aPackageName

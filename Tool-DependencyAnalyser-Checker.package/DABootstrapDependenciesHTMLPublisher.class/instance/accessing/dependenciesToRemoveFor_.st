@@ -1,2 +1,0 @@
-dependenciesToRemoveFor: aPackageName
-	^ ManifestBootstrap dependenciesToRemove

@@ -1,6 +1,5 @@
 condition: aCondition arguments: anArray
-	condition:= aCondition.
+	self condition: aCondition.
 	conditionArguments := anArray.
-	self optionInlineCondition ifTrue: [self invalidate].
 
 	

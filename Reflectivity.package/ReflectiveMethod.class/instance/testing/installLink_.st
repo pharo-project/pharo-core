@@ -1,4 +1,4 @@
 installLink: aMetaLink
 	self increaseLinkCount.
-	aMetaLink optionCompileOnLinkInstallation ifTrue: [ self compileAndInstallCompiledMethod ]
+	(self ast hasOption: #optionCompileOnLinkInstallation for: aMetaLink) ifTrue: [ self compileAndInstallCompiledMethod ]
 	

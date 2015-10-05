@@ -2,4 +2,4 @@ PluggableButtonMorph subclass: #ControlButtonMorph
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Morphic-Widgets-Basic'
+	category: 'Morphic-Widgets-Basic-Buttons'

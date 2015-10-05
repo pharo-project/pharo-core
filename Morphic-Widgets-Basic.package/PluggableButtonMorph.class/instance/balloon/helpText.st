@@ -1,2 +1,2 @@
 helpText 
-	^ helpText
+	^ self balloonText

@@ -1,1 +1,0 @@
-I only exist to hold a list of packages we do NOT want into the Pharo Bootstrap.I'm used by dependency report publishers.

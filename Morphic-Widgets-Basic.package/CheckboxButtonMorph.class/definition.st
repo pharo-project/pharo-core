@@ -3,4 +3,4 @@ ThreePhaseButtonMorph subclass: #CheckboxButtonMorph
 	instanceVariableNames: 'repressedImage enabled isRadioButton images'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Morphic-Widgets-Basic'
+	category: 'Morphic-Widgets-Basic-Buttons'

@@ -1,3 +1,0 @@
-balloonText
-
-	^ self helpText

@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '16584 new version of DependencyAnalyzer
-	https://pharo.fogbugz.com/f/cases/16584
+ ^ '16715 options defined by classes or methods need to have overlay semantics
+	https://pharo.fogbugz.com/f/cases/16715
 
-16708 pass over conditions
-	https://pharo.fogbugz.com/f/cases/16708'
+16714 Remove Tool-DependencyAnalyser-Checker package
+	https://pharo.fogbugz.com/f/cases/16714
+
+16704 no helptext for playground buttons
+	https://pharo.fogbugz.com/f/cases/16704'
