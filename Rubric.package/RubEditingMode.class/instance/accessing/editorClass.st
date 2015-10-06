@@ -1,2 +1,2 @@
 editorClass
-	^ RubSmalltalkEditor 
+	^ RubTextEditor 
