@@ -10,5 +10,5 @@ assertClassBuiltWith: blockToBuildAClass isNotEqualToClassBuiltWith: blockToBuil
 			name: self anotherClassName;
 			in: blockToBuildAnotherClass ].
 	
-	self assert: aClass layout ~= anotherClass layout.
-	self assert: aClass layout hash ~= anotherClass layout hash.
+	self assert: aClass classLayout ~= anotherClass classLayout.
+	self assert: aClass classLayout hash ~= anotherClass classLayout hash.

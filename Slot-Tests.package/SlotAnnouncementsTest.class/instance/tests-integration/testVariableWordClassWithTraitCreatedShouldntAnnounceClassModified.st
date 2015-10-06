@@ -12,7 +12,7 @@ testVariableWordClassWithTraitCreatedShouldntAnnounceClassModified
 		category: self aCategory.
 
 	self assert: self collectedAnnouncements size isZero.
-	self assert: aClass layout isVariable.
-	self assert: aClass layout isBits.
-	self assert: aClass layout isWords.
+	self assert: aClass classLayout isVariable.
+	self assert: aClass classLayout isBits.
+	self assert: aClass classLayout isWords.
 	self assert: (aClass traitComposition syntacticallyEquals: TOne asTraitComposition).

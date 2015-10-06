@@ -6,7 +6,7 @@ testChangeLayoutTypeFromByte
 		makeWithLayout: FixedLayout 
 		andSlots: { #id. #name }.
 	
-	aClass layout checkIntegrity.
+	aClass classLayout checkIntegrity.
 	
-	self deny: aClass layout isBits.
+	self deny: aClass classLayout isBits.
 	self assert: aClass instVarNames equals: { #id. #name }.

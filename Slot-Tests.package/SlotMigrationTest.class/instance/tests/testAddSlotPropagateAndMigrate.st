@@ -9,8 +9,8 @@ testAddSlotPropagateAndMigrate
 			name: self anotherClassName.
 		 ].
 	
-	superclass layout checkIntegrity.
-	subclass layout checkIntegrity.
+	superclass classLayout checkIntegrity.
+	subclass classLayout checkIntegrity.
 	
 	instance := subclass new.
 	
@@ -20,5 +20,5 @@ testAddSlotPropagateAndMigrate
 	"it should have an instance variable"
 	instance instVarNamed: 'aSlot' put: 42.
 	self assert: (instance instVarNamed: 'aSlot') equals: 42.
-	superclass layout checkIntegrity.
-	subclass layout checkIntegrity.
+	superclass classLayout checkIntegrity.
+	subclass classLayout checkIntegrity.

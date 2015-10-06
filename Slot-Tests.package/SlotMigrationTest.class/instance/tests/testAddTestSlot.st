@@ -9,4 +9,4 @@ testAddTestSlot
 	
 	"It should not have move the first instance as TestSlot size = 0"
 	self assert: (instance instVarAt: 1) equals: 125.
-	aClass layout checkIntegrity.
+	aClass classLayout checkIntegrity.

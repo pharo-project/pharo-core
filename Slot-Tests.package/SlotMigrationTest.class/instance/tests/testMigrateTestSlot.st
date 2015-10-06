@@ -11,4 +11,4 @@ testMigrateTestSlot
 	
 	self assert: ((aClass slotNamed: #aSlot) read: instance) equals: 125.
 	self assert: ((aClass slotNamed: #aSlot) read: instance2) equals: 125.
-	aClass layout checkIntegrity.
+	aClass classLayout checkIntegrity.

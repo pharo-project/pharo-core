@@ -1,2 +1,2 @@
 testCompiledMethodLayout
-	self assert: (CompiledMethod layout isKindOf: CompiledMethodLayout).
+	self assert: (CompiledMethod classLayout isKindOf: CompiledMethodLayout).

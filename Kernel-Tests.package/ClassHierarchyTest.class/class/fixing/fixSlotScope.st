@@ -4,8 +4,8 @@ fixSlotScope
 	| ivName all candidates toRebuild |
     ivName := 'anIVNameImPrettySureNobodyUses'.
     all := Smalltalk allClasses flatCollect: [ :e | { e . e class } ].
-    candidates := all reject: [ :e | e superclass isNil or: [e layout slotScope isKindOf: LayoutEmptyScope ] ].
-    toRebuild := candidates reject: [ :e | e superclass layout slotScope == e layout slotScope parentScope ].
+    candidates := all reject: [ :e | e superclass isNil or: [e classLayout slotScope isKindOf: LayoutEmptyScope ] ].
+    toRebuild := candidates reject: [ :e | e superclass classLayout slotScope == e classLayout slotScope parentScope ].
     toRebuild sort: [ :a :b | a allSuperclasses size > b allSuperclasses size ].
     toRebuild do: [ :e | 
     e addInstVarNamed: ivName.

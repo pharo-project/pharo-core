@@ -10,7 +10,7 @@ testReshapeClassPropagatesToDeepHierarchyClassInterface
 		category: self aCategory.
 
 	self assert: aClass subclasses isEmpty.
-	aClass layout checkIntegrity.
+	aClass classLayout checkIntegrity.
 
 	"level 2"
 	anotherClass := aClass
@@ -22,8 +22,8 @@ testReshapeClassPropagatesToDeepHierarchyClassInterface
 	
 	self assert: aClass subclasses equals: { anotherClass }.
 	self assert: anotherClass subclasses isEmpty.
-	aClass layout checkIntegrity.
-	anotherClass layout checkIntegrity.
+	aClass classLayout checkIntegrity.
+	anotherClass classLayout checkIntegrity.
 
 	"level 3"
 	yetAnotherClass := anotherClass
@@ -36,9 +36,9 @@ testReshapeClassPropagatesToDeepHierarchyClassInterface
 	self assert: aClass subclasses equals: { anotherClass }.
 	self assert: anotherClass subclasses equals: { yetAnotherClass }.
 	self assert: yetAnotherClass subclasses isEmpty.
-	aClass layout checkIntegrity.
-	anotherClass layout checkIntegrity.
-	yetAnotherClass layout checkIntegrity.
+	aClass classLayout checkIntegrity.
+	anotherClass classLayout checkIntegrity.
+	yetAnotherClass classLayout checkIntegrity.
 
 	"level 4"
 	yetYetAnotherClass := yetAnotherClass
@@ -52,10 +52,10 @@ testReshapeClassPropagatesToDeepHierarchyClassInterface
 	self assert: anotherClass subclasses equals: { yetAnotherClass }.
 	self assert: yetAnotherClass subclasses equals: { yetYetAnotherClass }.
 	self assert: yetYetAnotherClass subclasses isEmpty.
-	aClass layout checkIntegrity.
-	anotherClass layout checkIntegrity.
-	yetAnotherClass layout checkIntegrity.
-	yetYetAnotherClass layout checkIntegrity.
+	aClass classLayout checkIntegrity.
+	anotherClass classLayout checkIntegrity.
+	yetAnotherClass classLayout checkIntegrity.
+	yetYetAnotherClass classLayout checkIntegrity.
 
 	"reshape level 1"
 	aClass := Object
@@ -66,7 +66,7 @@ testReshapeClassPropagatesToDeepHierarchyClassInterface
 		category: self aCategory.
 
 	self assert: aClass instVarNames equals: #(x).
-	aClass layout checkIntegrity.
-	anotherClass layout checkIntegrity.
-	yetAnotherClass layout checkIntegrity.
-	yetYetAnotherClass layout checkIntegrity.
+	aClass classLayout checkIntegrity.
+	anotherClass classLayout checkIntegrity.
+	yetAnotherClass classLayout checkIntegrity.
+	yetYetAnotherClass classLayout checkIntegrity.

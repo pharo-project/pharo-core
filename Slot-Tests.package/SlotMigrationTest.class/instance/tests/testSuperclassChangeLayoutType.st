@@ -12,8 +12,8 @@ testSuperclassChangeLayoutType
 	"Change the layout of the superclass from bytes to pointer"
 	self makeWithLayout: FixedLayout.
 
-	superclass layout checkIntegrity.
-	class layout checkIntegrity.
+	superclass classLayout checkIntegrity.
+	class classLayout checkIntegrity.
 	
-	self deny: superclass layout isBits.
-	self assert: class layout isBits.
+	self deny: superclass classLayout isBits.
+	self assert: class classLayout isBits.

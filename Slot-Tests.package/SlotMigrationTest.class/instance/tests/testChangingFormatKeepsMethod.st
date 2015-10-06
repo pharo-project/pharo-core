@@ -15,5 +15,5 @@ testChangingFormatKeepsMethod
 			].
 
 	self assert: (anotherClass methodDictionary includesKey: #a).
-	aClass layout checkIntegrity.
-	anotherClass layout checkIntegrity.
+	aClass classLayout checkIntegrity.
+	anotherClass classLayout checkIntegrity.

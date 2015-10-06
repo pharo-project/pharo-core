@@ -9,4 +9,4 @@ testAddSlotAndMigrate
 	
 	"it should have an instance variable"
 	instance instVarAt: 1 put: 125.
-	aClass layout checkIntegrity.
+	aClass classLayout checkIntegrity.

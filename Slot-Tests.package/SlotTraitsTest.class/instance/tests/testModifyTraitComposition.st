@@ -11,7 +11,7 @@ testModifyTraitComposition
 	self assert: TOne classTrait traitUsers isEmpty.
 	self assert: TTwo traitUsers asArray equals: { aClass }.
 	"self assert: TTwo classTrait traitUsers isEmpty."
-	aClass layout checkIntegrity.
+	aClass classLayout checkIntegrity.
 	
 	self deny: (aClass canUnderstand: #one).
 	self deny: (aClass class canUnderstand: #classOne).
@@ -25,7 +25,7 @@ testModifyTraitComposition
 	self assert: TOne classTrait traitUsers isEmpty.
 	self assert: TTwo traitUsers isEmpty.
 	self assert: TTwo classTrait traitUsers isEmpty.
-	aClass layout checkIntegrity.
+	aClass classLayout checkIntegrity.
 	
 	self deny: (aClass canUnderstand: #one).
 	self deny: (aClass class canUnderstand: #classOne).

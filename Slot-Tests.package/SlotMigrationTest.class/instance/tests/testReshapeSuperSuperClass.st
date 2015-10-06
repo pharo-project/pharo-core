@@ -10,7 +10,7 @@ testReshapeSuperSuperClass
 		 ].
 
 	self assert: supersuperclass subclasses isEmpty.
-	supersuperclass layout checkIntegrity.
+	supersuperclass classLayout checkIntegrity.
 	
 	superclass := self make: [ :builder |
 		builder 
@@ -20,8 +20,8 @@ testReshapeSuperSuperClass
 
 	self assert: supersuperclass subclasses equals: { superclass }.
 	self assert: superclass subclasses isEmpty.
-	superclass layout checkIntegrity.
-	supersuperclass layout checkIntegrity.
+	superclass classLayout checkIntegrity.
+	supersuperclass classLayout checkIntegrity.
 	
 	subclass := self make: [ :builder |
 		builder 
@@ -33,9 +33,9 @@ testReshapeSuperSuperClass
 	self assert: supersuperclass subclasses equals: { superclass }.
 	self assert: superclass subclasses equals: { subclass }.
 	self assert: subclass subclasses isEmpty.
-	subclass layout checkIntegrity.
-	superclass layout checkIntegrity.
-	supersuperclass layout checkIntegrity.
+	subclass classLayout checkIntegrity.
+	superclass classLayout checkIntegrity.
+	supersuperclass classLayout checkIntegrity.
 
 	"reshape the super super class"
 	supersuperclass := self make: [ :builder |
@@ -48,6 +48,6 @@ testReshapeSuperSuperClass
 	self assert: supersuperclass subclasses equals: { superclass }.
 	self assert: superclass subclasses equals: { subclass }.
 	self assert: subclass subclasses isEmpty.	
-	subclass layout checkIntegrity.
-	superclass layout checkIntegrity.
-	supersuperclass layout checkIntegrity.
+	subclass classLayout checkIntegrity.
+	superclass classLayout checkIntegrity.
+	supersuperclass classLayout checkIntegrity.

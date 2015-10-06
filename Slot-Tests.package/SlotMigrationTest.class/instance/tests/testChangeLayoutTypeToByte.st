@@ -5,7 +5,7 @@ testChangeLayoutTypeToByte
 	"Change the layout of the class from pointer to bytes"
 	aClass := self makeWithLayout: ByteLayout.
 	
-	aClass layout checkIntegrity.
+	aClass classLayout checkIntegrity.
 	
-	self assert: aClass layout isBits.
+	self assert: aClass classLayout isBits.
 	self assert: aClass instVarNames isEmpty.

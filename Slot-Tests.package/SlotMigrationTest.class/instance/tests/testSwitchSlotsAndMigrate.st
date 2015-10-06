@@ -21,4 +21,4 @@ testSwitchSlotsAndMigrate
 	"it should have migrated methods"
 	self assert: instance a equals: $A.
 	self assert: instance b equals: $B.
-	aClass layout checkIntegrity.
+	aClass classLayout checkIntegrity.

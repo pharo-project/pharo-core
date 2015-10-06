@@ -12,6 +12,6 @@ testWeakClassWithTraitCreatedShouldntAnnounceClassModified
 		category: self aCategory.
 
 	self assert: self collectedAnnouncements size isZero.
-	self assert: aClass layout isVariable.
-	self assert: aClass layout isWeak.
+	self assert: aClass classLayout isVariable.
+	self assert: aClass classLayout isWeak.
 	self assert: (aClass traitComposition syntacticallyEquals: TOne asTraitComposition).

@@ -1,2 +1,2 @@
 testSmallIntegerLayout
-	self assert: (SmallInteger layout isKindOf: SmallIntegerLayout).
+	self assert: (SmallInteger classLayout isKindOf: SmallIntegerLayout).

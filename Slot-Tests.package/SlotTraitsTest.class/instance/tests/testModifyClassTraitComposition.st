@@ -15,7 +15,7 @@ testModifyClassTraitComposition
 	self deny: (aClass class canUnderstand: #one).
 	self deny: (aClass class canUnderstand: #classOne).
 	self assert: (aClass class canUnderstand: #two).
-	aClass layout checkIntegrity.
+	aClass classLayout checkIntegrity.
 
 
 	aClass := self make: [ :builder | 
@@ -25,7 +25,7 @@ testModifyClassTraitComposition
 	self assert: TOne classTrait traitUsers isEmpty.
 	self assert: TTwo traitUsers isEmpty.
 	self assert: TTwo classTrait traitUsers isEmpty.
-	aClass layout checkIntegrity.
+	aClass classLayout checkIntegrity.
 	
 	self deny: (aClass canUnderstand: #one).
 	self deny: (aClass class canUnderstand: #classOne).

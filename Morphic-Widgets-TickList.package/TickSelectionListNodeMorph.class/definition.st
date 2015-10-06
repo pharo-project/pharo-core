@@ -2,4 +2,4 @@ MorphTreeNodeMorph subclass: #TickSelectionListNodeMorph
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Polymorph-Widgets'
+	category: 'Morphic-Widgets-TickList'

@@ -6,7 +6,7 @@ testReshapeClassPropagatesToDeepHierarchy
 		builder name: self aClassName ].
 
 	self assert: aClass subclasses isEmpty.
-	aClass layout checkIntegrity.
+	aClass classLayout checkIntegrity.
 
 	"level 2"
 	anotherClass := self make: [ :builder |
@@ -16,8 +16,8 @@ testReshapeClassPropagatesToDeepHierarchy
 	
 	self assert: aClass subclasses equals: { anotherClass }.
 	self assert: anotherClass subclasses isEmpty.
-	aClass layout checkIntegrity.
-	anotherClass layout checkIntegrity.
+	aClass classLayout checkIntegrity.
+	anotherClass classLayout checkIntegrity.
 
 	"level 3"
 	yetAnotherClass := self make: [ :builder |
@@ -28,9 +28,9 @@ testReshapeClassPropagatesToDeepHierarchy
 	self assert: aClass subclasses equals: { anotherClass }.
 	self assert: anotherClass subclasses equals: { yetAnotherClass }.
 	self assert: yetAnotherClass subclasses isEmpty.
-	aClass layout checkIntegrity.
-	anotherClass layout checkIntegrity.
-	yetAnotherClass layout checkIntegrity.
+	aClass classLayout checkIntegrity.
+	anotherClass classLayout checkIntegrity.
+	yetAnotherClass classLayout checkIntegrity.
 
 	"level 4"
 	yetYetAnotherClass := self make: [ :builder |
@@ -43,10 +43,10 @@ testReshapeClassPropagatesToDeepHierarchy
 	self assert: anotherClass subclasses equals: { yetAnotherClass }.
 	self assert: yetAnotherClass subclasses equals: { yetYetAnotherClass }.
 	self assert: yetYetAnotherClass subclasses isEmpty.
-	aClass layout checkIntegrity.
-	anotherClass layout checkIntegrity.
-	yetAnotherClass layout checkIntegrity.
-	yetYetAnotherClass layout checkIntegrity.
+	aClass classLayout checkIntegrity.
+	anotherClass classLayout checkIntegrity.
+	yetAnotherClass classLayout checkIntegrity.
+	yetYetAnotherClass classLayout checkIntegrity.
 
 	"reshape level 1"
 	aClass := self make: [ :builder |
@@ -54,7 +54,7 @@ testReshapeClassPropagatesToDeepHierarchy
 			name: self aClassName;
 			slots:#(x) ].
 
-	aClass layout checkIntegrity.
-	anotherClass layout checkIntegrity.
-	yetAnotherClass layout checkIntegrity.
-	yetYetAnotherClass layout checkIntegrity.
+	aClass classLayout checkIntegrity.
+	anotherClass classLayout checkIntegrity.
+	yetAnotherClass classLayout checkIntegrity.
+	yetYetAnotherClass classLayout checkIntegrity.

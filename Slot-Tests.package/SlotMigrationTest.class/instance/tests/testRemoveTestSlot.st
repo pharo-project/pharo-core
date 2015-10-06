@@ -8,4 +8,4 @@ testRemoveTestSlot
 	
 
 	self assert: (instance instVarAt: 1) equals: 125.
-	aClass layout checkIntegrity.
+	aClass classLayout checkIntegrity.

@@ -23,4 +23,4 @@ testShiftSlotAndMigrate
 	"it should have migrated methods"
 	self assert: instance a equals: 1.
 	self assert: instance c equals: 3.
-	aClass layout checkIntegrity.
+	aClass classLayout checkIntegrity.

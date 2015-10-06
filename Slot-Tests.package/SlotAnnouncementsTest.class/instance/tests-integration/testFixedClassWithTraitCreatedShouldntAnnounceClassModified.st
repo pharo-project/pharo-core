@@ -12,5 +12,5 @@ testFixedClassWithTraitCreatedShouldntAnnounceClassModified
 		category: self aCategory.
 
 	self assert: self collectedAnnouncements size isZero.
-	self deny: aClass layout isVariable.
+	self deny: aClass classLayout isVariable.
 	self assert: (aClass traitComposition syntacticallyEquals: TOne asTraitComposition).

@@ -12,5 +12,5 @@ testRedefineSuperclass
 
 	self makeWithLayout: FixedLayout.
 
-	superclass layout checkIntegrity.
-	class layout checkIntegrity.
+	superclass classLayout checkIntegrity.
+	class classLayout checkIntegrity.

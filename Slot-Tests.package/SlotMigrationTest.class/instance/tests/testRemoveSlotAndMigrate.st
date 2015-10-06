@@ -10,4 +10,4 @@ testRemoveSlotAndMigrate
 	self makeWithLayout: FixedLayout.
 	
 	self should: [ instance instVarAt: 1 ] raise: Error.
-	aClass layout checkIntegrity.
+	aClass classLayout checkIntegrity.

@@ -12,7 +12,7 @@ testCreateClassWithPropertySlotAddSecond
 		].
 
 	self assert: (aClass hasSlot: propertySlot1).
-	self assert: (aClass layout hasSlot: (propertySlot1 instVarNamed: 'baseSlot')).
+	self assert: (aClass classLayout hasSlot: (propertySlot1 instVarNamed: 'baseSlot')).
 	
 	aClass := self make: [ :builder |
 		builder 
@@ -20,9 +20,9 @@ testCreateClassWithPropertySlotAddSecond
 		].
 	
 	self assert: (aClass hasSlot: propertySlot1).
-	self assert: (aClass layout hasSlot: (propertySlot2 instVarNamed: 'baseSlot')).
+	self assert: (aClass classLayout hasSlot: (propertySlot2 instVarNamed: 'baseSlot')).
 	
 	self assert:  (propertySlot1 instVarNamed: 'baseSlot') == (propertySlot2 instVarNamed: 'baseSlot').
 	
 	self assert: (aClass hasSlot: propertySlot2).
-	self assert: (aClass layout hasSlot: (propertySlot2 instVarNamed: 'baseSlot')).
+	self assert: (aClass classLayout hasSlot: (propertySlot2 instVarNamed: 'baseSlot')).

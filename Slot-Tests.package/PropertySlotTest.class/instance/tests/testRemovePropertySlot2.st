@@ -12,10 +12,10 @@ testRemovePropertySlot2
 		].
 
 	self assert: (aClass hasSlot: propertySlot1).
-	self assert: (aClass layout hasSlot: (propertySlot1 instVarNamed: 'baseSlot')).
+	self assert: (aClass classLayout hasSlot: (propertySlot1 instVarNamed: 'baseSlot')).
 	
 	self assert: (aClass hasSlot: propertySlot2).
-	self assert: (aClass layout  hasSlot: (propertySlot2 instVarNamed: 'baseSlot')).
+	self assert: (aClass classLayout  hasSlot: (propertySlot2 instVarNamed: 'baseSlot')).
 	
 	aClass := self make: [ :builder |
 		builder 
@@ -24,7 +24,7 @@ testRemovePropertySlot2
 	
 	self assert:	(aClass hasSlot: propertySlot1).
 	self deny: 	(aClass hasSlot: propertySlot2).
-	self assert:	(aClass layout hasSlotNamed:  #'_propertyBaseSlot'). 
+	self assert:	(aClass classLayout hasSlotNamed:  #'_propertyBaseSlot'). 
 		
 	aClass := self make: [ :builder |
 		builder 
@@ -33,4 +33,4 @@ testRemovePropertySlot2
 	
 	self deny:	(aClass hasSlot: propertySlot1).
 	self deny: 	(aClass hasSlot: propertySlot2).
-	self deny:	(aClass layout hasSlotNamed:  #'_propertyBaseSlot'). 
+	self deny:	(aClass classLayout hasSlotNamed:  #'_propertyBaseSlot'). 

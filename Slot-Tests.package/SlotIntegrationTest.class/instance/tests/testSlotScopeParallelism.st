@@ -6,9 +6,9 @@ testSlotScopeParallelism
 
 	candidates := classesAndMetaclasses reject: [ :each | 
 		each superclass isNil or: [ 
-			each layout slotScope isKindOf: LayoutEmptyScope ] ].
+			each classLayout slotScope isKindOf: LayoutEmptyScope ] ].
 
 	classWithWrongSlotScope := candidates reject: [ :each | 
-		each superclass layout slotScope == each layout slotScope parentScope ].
+		each superclass classLayout slotScope == each classLayout slotScope parentScope ].
 
 	self assert: classWithWrongSlotScope asArray equals: #()

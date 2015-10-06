@@ -27,7 +27,7 @@ testReshapeByteVariableToPointerPropagatesToDeepHierarchy
 
 	"all the classes in the hierarchy should be of type variable byte"
 	{ aClass. anotherClass. yetAnotherClass. yetYetAnotherClass } do: [ :each | 
-		each layout checkIntegrity.
+		each classLayout checkIntegrity.
 		self assert: each isVariable.
 		self assert: each isBytes. ].
 	
@@ -41,6 +41,6 @@ testReshapeByteVariableToPointerPropagatesToDeepHierarchy
 
 	"all the classes in the hierarchy should be reshaped as fixed"
 	{ aClass. anotherClass. yetAnotherClass. yetYetAnotherClass } do: [ :each | 
-		each layout checkIntegrity.
+		each classLayout checkIntegrity.
 		self assert: each isFixed description: each name, ' was not reshaped.'.
 		self assert: each isPointers description: each name, ' was not reshaped.' ].
