@@ -1,4 +1,4 @@
-script50362
+script50363
 
 	^ 'AST-Core-TheIntegrator.375.mcz
 AST-Tests-Core-TheIntegrator.80.mcz
@@ -201,7 +201,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1093.mcz
+Nautilus-TheIntegrator.1096.mcz
 Nautilus-GroupManager-TheIntegrator.13.mcz
 Nautilus-GroupManagerUI-TheIntegrator.22.mcz
 Nautilus-Tests-TheIntegrator.23.mcz
@@ -222,7 +222,7 @@ OSWindow-Core-MerwanOuddane.94.mcz
 OSWindow-SDL2-MerwanOuddane.83.mcz
 OSWindow-SDL2-Examples-MerwanOuddane.7.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
-OpalCompiler-Core-TheIntegrator.734.mcz
+OpalCompiler-Core-TheIntegrator.736.mcz
 OpalCompiler-Tests-TheIntegrator.305.mcz
 OpalTools-TheIntegrator.18.mcz
 Pharo-Help-TheIntegrator.15.mcz
@@ -333,7 +333,6 @@ Tool-Base-TheIntegrator.107.mcz
 Tool-Catalog-EstebanLorenzano.26.mcz
 Tool-CriticBrowser-TheIntegrator.15.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.25.mcz
-Tool-DependencyAnalyser-Checker-TheIntegrator.31.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.11.mcz
 Tool-DependencyAnalyser-UI-ChristopheDemarey.36.mcz
 Tool-Diff-TheIntegrator.21.mcz
@@ -350,7 +349,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.35.mcz
 Tools-TheIntegrator.1512.mcz
 Tools-Test-TheIntegrator.4.mcz
-Traits-TheIntegrator.834.mcz
+Traits-TheIntegrator.836.mcz
 Transcript-TheIntegrator.43.mcz
 TxText-Athens-NicolaiHess.52.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

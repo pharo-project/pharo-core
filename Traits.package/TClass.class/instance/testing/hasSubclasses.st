@@ -1,0 +1,2 @@
+hasSubclasses
+	^self explicitRequirement

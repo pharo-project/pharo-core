@@ -1,0 +1,3 @@
+setIndent: aNumber
+
+	indent := aNumber
