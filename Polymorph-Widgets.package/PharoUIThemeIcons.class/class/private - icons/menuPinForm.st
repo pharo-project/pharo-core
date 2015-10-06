@@ -1,2 +1,0 @@
-menuPinForm
-	^ self current menuPinForm.

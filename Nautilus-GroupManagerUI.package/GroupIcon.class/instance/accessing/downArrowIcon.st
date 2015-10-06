@@ -1,2 +1,0 @@
-downArrowIcon
-	^ downArrowIcon

@@ -1,2 +1,8 @@
 iconNamed: aSymbol ifNone: aBlock
-	^ (self respondsTo: aSymbol) ifFalse: [aBlock value] ifTrue: [self perform: aSymbol]
+	self icons at: aSymbol ifPresent: [ :icon | ^ icon ].
+	"Trying the old way"
+	(aSymbol endsWith: 'Icon') 
+		ifTrue: [ self icons at: (aSymbol allButLast: 4) ifPresent: [ :icon | ^ icon ] ].
+	(aSymbol endsWith: 'Form') 
+		ifTrue: [ self icons at: (aSymbol allButLast: 4) ifPresent: [ :icon | ^ icon ] ].
+	^ aBlock value

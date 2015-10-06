@@ -1,2 +1,0 @@
-windowMaximizeInactiveForm
-	^ self current windowMaximizeInactiveForm.

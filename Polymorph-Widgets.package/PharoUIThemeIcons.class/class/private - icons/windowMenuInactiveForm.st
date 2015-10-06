@@ -1,2 +1,0 @@
-windowMenuInactiveForm
-	^ self current windowMenuInactiveForm.

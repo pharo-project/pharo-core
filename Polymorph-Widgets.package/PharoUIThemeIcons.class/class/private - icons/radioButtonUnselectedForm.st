@@ -1,2 +1,0 @@
-radioButtonUnselectedForm
-	^ self current radioButtonUnselectedForm.

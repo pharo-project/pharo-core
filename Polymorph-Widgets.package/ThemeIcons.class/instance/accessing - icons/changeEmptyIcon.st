@@ -1,2 +1,0 @@
-changeEmptyIcon 
-	^ self emptyIcon

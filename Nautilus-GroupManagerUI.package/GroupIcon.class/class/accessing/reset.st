@@ -1,2 +1,0 @@
-reset
-	currentInstance := nil

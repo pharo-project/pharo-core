@@ -1,2 +1,0 @@
-commentsIcon
-	^ self smallInfoIcon 

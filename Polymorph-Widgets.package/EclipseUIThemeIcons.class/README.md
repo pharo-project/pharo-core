@@ -1,1 +1,0 @@
-An icon set pack taken from eclipse.

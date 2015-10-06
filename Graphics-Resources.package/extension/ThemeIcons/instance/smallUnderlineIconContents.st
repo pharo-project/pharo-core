@@ -1,9 +1,0 @@
-smallUnderlineIconContents
-	"Private - Method generated with the content of the file smallUnderline.png"
-	^ 'iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAABl0
-RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADaSURBVDiN7dMxSkNBEAbgb8UY
-wUrwADZ2QsAbWIl4AcGzeI9gZSmpbFJ7Am1jE4hYCAoWWoiCGYs3Jk94SYRYOjDMzuw//+6w
-/0ILl+mtiDDLcZa47VrNOiK9vYBglLjOd23FkvZP8EcEH6qngc0F+I2M7xOCiBjjJfOdWZ2l
-lDVsZfpcvwHcZNybc/p+xvuIeJxUU2EnqjHecNigwF3cJub0x14N1DWV9AP6Kt1f4zPrPaw2
-EiTJAc4xwFPOOsAFjpr+R0FBZ87sTTaMiFfZ3MZdrn9rxxFxBV+mVKeTcAXyQwAAAABJRU5E
-rkJggg=='

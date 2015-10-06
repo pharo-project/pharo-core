@@ -1,2 +1,0 @@
-radioButtonMarkerForm
-	^ self current radioButtonMarkerForm.

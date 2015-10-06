@@ -1,2 +1,0 @@
-historyIcon
-	^ self blankIcon.

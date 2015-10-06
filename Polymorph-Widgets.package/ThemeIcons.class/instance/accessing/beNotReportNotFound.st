@@ -1,0 +1,2 @@
+beNotReportNotFound
+	reportNotFound := false

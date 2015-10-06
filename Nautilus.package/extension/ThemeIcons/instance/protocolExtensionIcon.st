@@ -1,2 +1,0 @@
-protocolExtensionIcon
-	^ self protocolNoneIcon 

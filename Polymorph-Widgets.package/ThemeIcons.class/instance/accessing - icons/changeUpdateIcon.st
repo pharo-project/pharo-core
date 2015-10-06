@@ -1,2 +1,0 @@
-changeUpdateIcon 
-	^ self smallForwardIconGray

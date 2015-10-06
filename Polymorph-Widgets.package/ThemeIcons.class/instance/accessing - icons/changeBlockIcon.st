@@ -1,2 +1,0 @@
-changeBlockIcon 
-	^ self smallBackIconGray

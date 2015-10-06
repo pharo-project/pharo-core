@@ -1,0 +1,2 @@
+wrapIconPack: aPack
+	^ aPack name

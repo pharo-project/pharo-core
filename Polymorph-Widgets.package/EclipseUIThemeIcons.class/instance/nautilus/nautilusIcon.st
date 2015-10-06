@@ -1,2 +1,0 @@
-nautilusIcon
-	^ self smallSystemBrowserIcon

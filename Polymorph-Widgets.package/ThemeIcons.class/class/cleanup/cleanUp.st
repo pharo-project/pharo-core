@@ -1,2 +1,0 @@
-cleanUp
-	self current initializeIcons

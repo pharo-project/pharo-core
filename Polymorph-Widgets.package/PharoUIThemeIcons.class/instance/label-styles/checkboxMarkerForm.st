@@ -1,4 +1,0 @@
-checkboxMarkerForm
-	"Answer a new radio button marker form. We make it empty because we already have the selected radio button take care of the state."
-
-	^Form extent: 12@12 depth: 32

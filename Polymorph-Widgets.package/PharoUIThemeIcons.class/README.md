@@ -1,1 +1,0 @@
-Theme icons for Pharo UI

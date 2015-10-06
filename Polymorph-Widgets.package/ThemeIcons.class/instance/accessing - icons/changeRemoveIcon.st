@@ -1,2 +1,0 @@
-changeRemoveIcon 
-	^ self removeIcon

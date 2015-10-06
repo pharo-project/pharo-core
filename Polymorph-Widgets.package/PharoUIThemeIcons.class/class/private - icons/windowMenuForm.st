@@ -1,2 +1,0 @@
-windowMenuForm
-	^ self current windowMenuForm.

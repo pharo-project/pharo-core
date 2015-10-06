@@ -1,5 +1,5 @@
 Object subclass: #ThemeIcons
-	instanceVariableNames: 'icons'
+	instanceVariableNames: 'name url icons reportNotFound'
 	classVariableNames: 'Current'
 	poolDictionaries: ''
 	category: 'Polymorph-Widgets-Themes'

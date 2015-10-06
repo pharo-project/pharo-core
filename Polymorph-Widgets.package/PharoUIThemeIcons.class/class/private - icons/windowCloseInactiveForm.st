@@ -1,2 +1,0 @@
-windowCloseInactiveForm
-	^ self current windowCloseInactiveForm.
