@@ -5,6 +5,7 @@ initialize
 	selectedRowIndexes := #().
 	highlightedRowIndexes := #().
 	columns := #().
+	needToggleAtMooseUp := false.
 	self beSingleSelection.
 	self enableSearch.
 	self initializeScrollBars.

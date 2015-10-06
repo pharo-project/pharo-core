@@ -1,0 +1,2 @@
+toString: anObject
+	^ anObject asString

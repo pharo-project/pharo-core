@@ -1,4 +1,4 @@
 keyStroke: event
-	(super keyStroke: event) ifTrue: [ ^ true ].
-	(self navigationKey: event) ifTrue: [ ^ true ].
+	((super keyStroke: event) or: [ self navigationKey: event ])
+		ifTrue: [ ^ true ].
 	^ self keyStrokeSearch: event

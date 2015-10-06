@@ -5,4 +5,6 @@ requestFullName
 				ifTrue: ['FirstnameLastname' translated]
 				ifFalse: [fullName].
 				
-	self checkAndSetFullNameWith: (AuthorNameRequest new initialAnswer: initialAnswer) signal
+	(AuthorNameRequest new initialAnswer: initialAnswer) signal ifNotNil: [ :newName | 
+		self checkAndSetFullNameWith: newName 
+	] "nil means that the dialog was cancelled "

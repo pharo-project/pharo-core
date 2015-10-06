@@ -2,7 +2,7 @@ activate
 	self activateHelp
 		ifTrue: [  ^ self ].
 	
-	self loadSourceFiles: (self commandLine allFilesWithExtension: 'st').
+	self selectSourceFiles.
 	self installSourceFiles.
 	
 	self end
