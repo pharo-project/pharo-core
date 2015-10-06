@@ -1,5 +1,6 @@
 buildEditor
-	editor := RubScrolledTextMorph new beForMinimalEditor.
+
+	editor := RubScrolledTextMorph new forbidMenu.
 	editor setText: self initialContents.
 	World activeHand addEventListener: self.
 	editor announcer when: MorphLostFocus send: #whenEditorLostFocus: to: self.

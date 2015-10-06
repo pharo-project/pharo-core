@@ -1,0 +1,2 @@
+allowMenu
+	self menuAllowed: true

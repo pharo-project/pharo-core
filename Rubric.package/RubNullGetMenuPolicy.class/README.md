@@ -1,1 +1,0 @@
-I am a null menu if you do not want a menu for your text area.As example :textMorph	| textMorph |	textMorph := (RubPluggableTextMorph		on: self		text: selector1		accept: selector2		readSelection: nil		menu: nil)		yourself.	textMorph getMenuPolicy: RubNullGetMenuPolicy new.	^ textMorph

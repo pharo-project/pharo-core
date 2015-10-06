@@ -1,2 +1,0 @@
-lookupShiftMenu
-	^ nil

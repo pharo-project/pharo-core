@@ -1,0 +1,2 @@
+forbidMenu
+	self menuAllowed: false

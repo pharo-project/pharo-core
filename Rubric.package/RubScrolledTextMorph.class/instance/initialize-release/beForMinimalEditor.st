@@ -1,2 +1,0 @@
-beForMinimalEditor
-	self textArea beForMinimalEditor

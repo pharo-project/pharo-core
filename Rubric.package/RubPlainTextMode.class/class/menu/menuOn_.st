@@ -50,8 +50,8 @@ menuOn: aBuilder
 				selector: #pasteRecent;
 				icon: uitheme smallCopyIcon;
 				withSeparatorAfter.
-			aBuilder model model
-				ifNotNil: [ 
+			(aBuilder model model notNil and: [ aBuilder model acceptAllowed ])
+				ifTrue: [ 
 					(aBuilder item: #Accept translated)
 						keyText: 's';
 						selector: #accept;

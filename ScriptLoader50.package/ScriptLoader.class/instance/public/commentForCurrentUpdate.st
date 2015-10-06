@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '16719 Extract Tick and Tabs from Polymorph
-	https://pharo.fogbugz.com/f/cases/16719
+ ^ '16722 Fixing RubScrolledText and removing some users of RubPluggableTextMorph
+	https://pharo.fogbugz.com/f/cases/16722
 
-16634 Rename layout to classLayout (step 2 use new accessors in the tests)
-	https://pharo.fogbugz.com/f/cases/16634
-
-16718 Added Help topic on importing resources in the Pharo image
-	https://pharo.fogbugz.com/f/cases/16718'
+15162 #asLegalSelector: bad name and wrong for selectors with args
+	https://pharo.fogbugz.com/f/cases/15162'

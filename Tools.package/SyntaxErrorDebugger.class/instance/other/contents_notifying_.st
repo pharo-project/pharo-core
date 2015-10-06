@@ -3,5 +3,5 @@ contents: aString notifying: aController
 
 	doitFlag
 		ifTrue: [ self class compiler evaluate: aString ]
-		ifFalse: [ class compile: aString classified: category ].
+		ifFalse: [ class compile: aString asString classified: category ].
 	aController hasUnacceptedEdits: false

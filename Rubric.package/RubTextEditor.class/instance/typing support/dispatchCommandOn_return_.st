@@ -1,7 +1,6 @@
 dispatchCommandOn: aKeyboardEvent return: return
-	| asciiValue char |
+	| asciiValue  |
 	asciiValue := aKeyboardEvent keyValue.	
-	
 	"Special keys overwrite crtl+key combinations - at least on Windows. To resolve this
 	conflict, assume that keys other than cursor keys aren't used together with Crtl."
 	((self specialShiftCmdKeys includes: asciiValue) and: [ asciiValue < 27 ])

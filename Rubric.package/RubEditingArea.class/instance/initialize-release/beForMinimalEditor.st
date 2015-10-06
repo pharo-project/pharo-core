@@ -1,2 +1,0 @@
-beForMinimalEditor
-	self editingMode: RubMinimalEditorMode new

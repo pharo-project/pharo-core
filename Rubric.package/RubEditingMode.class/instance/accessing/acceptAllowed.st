@@ -1,0 +1,2 @@
+acceptAllowed
+	^ acceptAllowed

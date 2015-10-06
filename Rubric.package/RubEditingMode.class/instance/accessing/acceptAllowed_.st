@@ -1,0 +1,2 @@
+acceptAllowed: anObject
+	acceptAllowed := anObject

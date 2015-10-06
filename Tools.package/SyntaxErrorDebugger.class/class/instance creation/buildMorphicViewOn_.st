@@ -15,7 +15,7 @@ buildMorphicViewOn: aSyntaxError
 		frame: (0 @ 0 corner: 1 @ 0.15).
 	window
 		addMorph:
-			(RubPluggableTextMorph
+			(RubScrolledTextMorph new
 				on: aSyntaxError
 				text: #contents
 				accept: #contents:notifying:

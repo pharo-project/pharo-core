@@ -2,5 +2,5 @@ on: aModel text: aGetTextSelector accept: aSetTextSelector readSelection: aReadS
 	self getTextSelector: aGetTextSelector.
 	self setTextSelector: aSetTextSelector.
 	self getSelectionSelector: aReadSelectionSelector.
-	self getMenuSelector: aGetMenuSelector.
+	self menuProvider: aModel selector: aGetMenuSelector.
 	self on: aModel
