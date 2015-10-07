@@ -11,7 +11,7 @@ uiFetchPacks
 		wrapBlockOrSelector: #name 
 		title: 'Remote available icon packs')
 		chooseFromOwner: World.
-	
+	choosenPacks ifNil: [ ^ self ].
 	UIManager default informUserDuring: [ :bar | 
 		choosenPacks do: [ :each |
 			bar label: 'Retrieving "', each name, '" icon set from remote repository'.

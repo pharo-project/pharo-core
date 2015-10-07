@@ -1,4 +1,4 @@
-script50369
+script50370
 
 	^ 'AST-Core-TheIntegrator.375.mcz
 AST-Tests-Core-TheIntegrator.80.mcz
@@ -230,7 +230,7 @@ OpalCompiler-Tests-TheIntegrator.305.mcz
 OpalTools-TheIntegrator.18.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.42.mcz
-Polymorph-Widgets-TheIntegrator.1268.mcz
+Polymorph-Widgets-TheIntegrator.1272.mcz
 PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.70.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -248,8 +248,8 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.36.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.213.mcz
-Reflectivity-Examples-TheIntegrator.6.mcz
+Reflectivity-TheIntegrator.217.mcz
+Reflectivity-Examples-TheIntegrator.10.mcz
 Reflectivity-Tests-TheIntegrator.180.mcz
 Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
