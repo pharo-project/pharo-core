@@ -1,4 +1,4 @@
-script50368
+script50369
 
 	^ 'AST-Core-TheIntegrator.375.mcz
 AST-Tests-Core-TheIntegrator.80.mcz
@@ -238,6 +238,7 @@ ProfStef-Tests-TheIntegrator.27.mcz
 QualityAssistant-YuriyTymchuk.71.mcz
 RPackage-Core-TheIntegrator.413.mcz
 RPackage-Tests-TheIntegrator.175.mcz
+Random-TheIntegrator.1.mcz
 RecentSubmissions-TheIntegrator.238.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.289.mcz
