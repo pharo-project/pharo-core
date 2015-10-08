@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16628 RBBrowseEnvironment doesnt respect the Set Theory
-	https://pharo.fogbugz.com/f/cases/16628
+ ^ '16741 remove addModelMenuItemsTo:forMorph:hand:
+	https://pharo.fogbugz.com/f/cases/16741
 
-16739 Senders and implementors do not work when one parameter is a selector in the form "with:do" (no space)
-	https://pharo.fogbugz.com/f/cases/16739
+16729 Removing PluggableTextField from FT
+	https://pharo.fogbugz.com/f/cases/16729
 
-16745 ReflectiveMethod: do not get class from AST
-	https://pharo.fogbugz.com/f/cases/16745'
+16744 ReflectiveMethod: make sure to not use DNU forwarding on invalidate
+	https://pharo.fogbugz.com/f/cases/16744'
