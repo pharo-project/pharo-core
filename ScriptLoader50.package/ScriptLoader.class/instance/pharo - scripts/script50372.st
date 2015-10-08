@@ -1,4 +1,4 @@
-script50371
+script50372
 
 	^ 'AST-Core-TheIntegrator.375.mcz
 AST-Tests-Core-TheIntegrator.80.mcz
@@ -37,7 +37,7 @@ Collections-Native-TheIntegrator.19.mcz
 Collections-Sequenceable-TheIntegrator.217.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.186.mcz
-Collections-Strings-TheIntegrator.377.mcz
+Collections-Strings-TheIntegrator.378.mcz
 Collections-Support-TheIntegrator.65.mcz
 Collections-Tests-TheIntegrator.8.mcz
 Collections-Unordered-TheIntegrator.216.mcz
@@ -207,7 +207,7 @@ NativeBoost-Win32-TheIntegrator.59.mcz
 Nautilus-TheIntegrator.1097.mcz
 Nautilus-GroupManager-TheIntegrator.13.mcz
 Nautilus-GroupManagerUI-TheIntegrator.24.mcz
-Nautilus-Tests-TheIntegrator.23.mcz
+Nautilus-Tests-TheIntegrator.25.mcz
 NautilusCommon-TheIntegrator.288.mcz
 NautilusGroupAutoBuilder-FranckWarlouzet.6.mcz
 NautilusRefactoring-TheIntegrator.251.mcz
@@ -248,7 +248,7 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.36.mcz
 Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.217.mcz
+Reflectivity-TheIntegrator.219.mcz
 Reflectivity-Examples-TheIntegrator.10.mcz
 Reflectivity-Tests-TheIntegrator.180.mcz
 Regex-Core-TheIntegrator.38.mcz
@@ -285,7 +285,7 @@ Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.697.mcz
 Slot-Tests-TheIntegrator.64.mcz
 SmartSuggestions-TheIntegrator.178.mcz
-SmartSuggestions-Tests-TheIntegrator.10.mcz
+SmartSuggestions-Tests-TheIntegrator.12.mcz
 Spec-Core-TheIntegrator.429.mcz
 Spec-Debugger-TheIntegrator.252.mcz
 Spec-Examples-TheIntegrator.98.mcz

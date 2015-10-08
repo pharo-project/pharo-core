@@ -1,2 +1,2 @@
 includesSubstring: substring
-	^ (self findString: substring startingAt: 1) > 0
+	^ substring isEmpty or: [ (self findString: substring startingAt: 1) > 0 ]

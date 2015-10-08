@@ -1,6 +1,4 @@
 compileAndInstallCompiledMethod
-	"we install the old one as the compiler might need it"
-	compiledMethod isRealPrimitive ifTrue: [ self generatePrimitiveWrapper ].
-	self installCompiledMethod.
+	(compiledMethod isRealPrimitive and: [ast hasMetalink]) ifTrue: [ self generatePrimitiveWrapper ].
 	self recompileAST.
 	self installCompiledMethod.

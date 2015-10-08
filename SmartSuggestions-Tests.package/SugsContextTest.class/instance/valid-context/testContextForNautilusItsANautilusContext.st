@@ -1,5 +1,5 @@
 testContextForNautilusItsANautilusContext
 	| nautilus |
 	
-	nautilus := NautilusUI new.
+	nautilus := PackageTreeNautilusUI new.
 	self assert: (SugsAbstractContext contextFor: nautilus) class equals: SugsNautilusContext.

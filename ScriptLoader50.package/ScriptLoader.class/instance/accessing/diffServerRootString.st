@@ -1,3 +1,3 @@
 diffServerRootString
 
-	^  'http://smalltalkhub.com/mc/Pharo/Pharo30/main/'
+	^  'http://smalltalkhub.com/mc/Pharo/Pharo50/main/'
