@@ -1,0 +1,2 @@
+selector 
+	^compiledMethod selector
