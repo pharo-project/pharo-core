@@ -8,6 +8,7 @@ testOrEnvironment
 	self universalTestFor: env1 | env2.
 	self assert: (env1 | env1) numberSelectors = 1.
 	orEnvironment := env1 | env1 not.
+	self assert: (env2 | env1) packages size = 1.
 	self universalTestFor: orEnvironment.
 	self assert: orEnvironment numberSelectors 
 				= universalEnvironment numberSelectors.

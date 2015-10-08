@@ -8,6 +8,7 @@ testAndEnvironment
 	self assert: andEnvironment numberSelectors = 1.
 	self assert: andEnvironment classNames asArray = #(#Object).
 	self assert: (andEnvironment protocolsFor: Object) size = 1.
+	self assert: (objectPrintStringEnvironment & objectPrintStringEnvironment) packages = objectPrintStringEnvironment packages.
 	andEnvironment := originalEnvironment 
 				& (universalEnvironment referencesTo: #printString).
 	self assert: andEnvironment numberSelectors 

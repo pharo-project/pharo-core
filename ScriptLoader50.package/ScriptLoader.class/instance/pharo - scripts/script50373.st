@@ -1,4 +1,4 @@
-script50372
+script50373
 
 	^ 'AST-Core-TheIntegrator.375.mcz
 AST-Tests-Core-TheIntegrator.80.mcz
@@ -204,11 +204,11 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1097.mcz
+Nautilus-TheIntegrator.1099.mcz
 Nautilus-GroupManager-TheIntegrator.13.mcz
 Nautilus-GroupManagerUI-TheIntegrator.24.mcz
 Nautilus-Tests-TheIntegrator.25.mcz
-NautilusCommon-TheIntegrator.288.mcz
+NautilusCommon-TheIntegrator.290.mcz
 NautilusGroupAutoBuilder-FranckWarlouzet.6.mcz
 NautilusRefactoring-TheIntegrator.251.mcz
 Network-Kernel-TheIntegrator.118.mcz
@@ -236,19 +236,19 @@ ProfStef-Core-TheIntegrator.70.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
 QualityAssistant-YuriyTymchuk.71.mcz
-RPackage-Core-TheIntegrator.413.mcz
+RPackage-Core-TheIntegrator.415.mcz
 RPackage-Tests-TheIntegrator.175.mcz
 Random-TheIntegrator.1.mcz
 RecentSubmissions-TheIntegrator.238.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.289.mcz
-Refactoring-Critics-TheIntegrator.222.mcz
-Refactoring-Environment-TheIntegrator.61.mcz
+Refactoring-Critics-TheIntegrator.226.mcz
+Refactoring-Environment-TheIntegrator.69.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.36.mcz
-Refactoring-Tests-Environment-StephaneDucasse.11.mcz
-Reflectivity-TheIntegrator.219.mcz
+Refactoring-Tests-Environment-TheIntegrator.19.mcz
+Reflectivity-TheIntegrator.222.mcz
 Reflectivity-Examples-TheIntegrator.10.mcz
 Reflectivity-Tests-TheIntegrator.180.mcz
 Regex-Core-TheIntegrator.38.mcz
@@ -265,7 +265,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.88.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.2.mcz
-Rubric-TheIntegrator.284.mcz
+Rubric-TheIntegrator.286.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
 SUnit-Core-TheIntegrator.154.mcz
@@ -329,7 +329,7 @@ System-VMEvents-TheIntegrator.8.mcz
 Tests-TheIntegrator.745.mcz
 Text-Core-EstebanLorenzano.44.mcz
 Text-Diff-StephaneDucasse.4.mcz
-Text-Edition-TheIntegrator.100.mcz
+Text-Edition-TheIntegrator.102.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.31.mcz
 Text-Tests-EstebanLorenzano.7.mcz

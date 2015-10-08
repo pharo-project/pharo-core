@@ -6,4 +6,5 @@ testClassEnvironment
 	self universalTestFor: aClassEnvironment.
 	self deny: (universalEnvironment isClassEnvironment).
 	self assert: (aClassEnvironment isClassEnvironment).
+	self assert: (aClassEnvironment packages size = 1).
 	self assert: (aClassEnvironment implementorsOf: #printString) numberSelectors = 1

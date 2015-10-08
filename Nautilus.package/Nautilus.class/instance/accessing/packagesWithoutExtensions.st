@@ -1,2 +1,2 @@
 packagesWithoutExtensions
-	^ self browsedEnvironment packagesWithoutExtensions asArray
+	^ self browsedEnvironment packages asArray

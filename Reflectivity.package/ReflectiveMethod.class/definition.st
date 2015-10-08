@@ -1,5 +1,5 @@
 Object variableSubclass: #ReflectiveMethod
-	instanceVariableNames: 'ast compiledMethod linkCount'
+	instanceVariableNames: 'ast class compiledMethod linkCount'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Reflectivity-Core'
