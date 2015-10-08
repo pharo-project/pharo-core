@@ -5,7 +5,7 @@ visitSelfNode: aSelfNode
 		addStyle: #self
 		forNode: aSelfNode.
 	
-	methodClass := aSelfNode method methodClass.
+	methodClass := aSelfNode methodNode methodClass.
 		
 	link := TxActionAttribute new 
 		filter: [ :evt | evt commandKeyPressed and: [ evt  isMouseDown] ];
