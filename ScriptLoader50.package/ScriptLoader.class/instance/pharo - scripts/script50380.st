@@ -1,4 +1,4 @@
-script50379
+script50380
 
 	^ 'AST-Core-TheIntegrator.375.mcz
 AST-Tests-Core-TheIntegrator.80.mcz
@@ -83,7 +83,7 @@ GT-Inspector-AndreiChis.310.mcz
 GT-InspectorExtensions-Core-EstebanLorenzano.161.mcz
 GT-Playground-EstebanLorenzano.113.mcz
 GT-Spotter-CyrilFerlicot.321.mcz
-GT-Spotter-EventRecorder-JurajKubelka.96.mcz
+GT-Spotter-EventRecorder-MarcusDenker.97.mcz
 GT-SpotterExtensions-Core-EstebanLorenzano.157.mcz
 GT-Tests-Inspector-TudorGirba.34.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
@@ -91,18 +91,18 @@ GT-Tests-Spotter-AndreiChis.9.mcz
 Generated-code-non-existing-package-EstebanLorenzano.2.mcz
 Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-TorstenBergmann.109.mcz
-Glamour-Core-AndreiChis.302.mcz
+Glamour-Core-SeanDeNigris.303.mcz
 Glamour-Examples-EstebanLorenzano.294.mcz
 Glamour-Helpers-AndreiChis.39.mcz
 Glamour-Morphic-Brick-EstebanLorenzano.406.mcz
 Glamour-Morphic-Brick-Tests-AliakseiSyrel.13.mcz
-Glamour-Morphic-Pager-AndreiChis.103.mcz
-Glamour-Morphic-Renderer-AndreiChis.325.mcz
+Glamour-Morphic-Pager-CyrilFerlicot.104.mcz
+Glamour-Morphic-Renderer-MarcusDenker.326.mcz
 Glamour-Morphic-Theme-EstebanLorenzano.218.mcz
 Glamour-Morphic-Widgets-AndreiChis.180.mcz
-Glamour-Presentations-AndreiChis.177.mcz
+Glamour-Presentations-AndreiChis.178.mcz
 Glamour-Rubric-Presentations-CyrilFerlicot.43.mcz
-Glamour-Tests-Core-BernardoContreras.105.mcz
+Glamour-Tests-Core-BernardoContreras.106.mcz
 Glamour-Tests-Morphic-AndreiChis.124.mcz
 Glamour-Tests-Resources-AndreiChis.3.mcz
 Glamour-Tests-Rubric-AndreiChis.14.mcz
@@ -160,7 +160,7 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-MarcusDenker.141.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-TheIntegrator.1080.mcz
+Monticello-TheIntegrator.1082.mcz
 Monticello-OldDataStreamCompatibility-TheIntegrator.6.mcz
 Monticello-Tests-TheIntegrator.28.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
@@ -178,7 +178,7 @@ Morphic-Tests-TheIntegrator.2.mcz
 Morphic-Widgets-Basic-TheIntegrator.61.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
 Morphic-Widgets-Extra-TheIntegrator.24.mcz
-Morphic-Widgets-FastTable-TheIntegrator.53.mcz
+Morphic-Widgets-FastTable-TheIntegrator.55.mcz
 Morphic-Widgets-List-TheIntegrator.21.mcz
 Morphic-Widgets-NewList-TheIntegrator.7.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.62.mcz
@@ -248,8 +248,8 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.36.mcz
 Refactoring-Tests-Environment-TheIntegrator.19.mcz
-Reflectivity-TheIntegrator.225.mcz
-Reflectivity-Examples-TheIntegrator.10.mcz
+Reflectivity-TheIntegrator.227.mcz
+Reflectivity-Examples-TheIntegrator.12.mcz
 Reflectivity-Tests-TheIntegrator.182.mcz
 Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
@@ -360,7 +360,7 @@ TxText-AthensTests-SeanDeNigris.10.mcz
 TxText-Model-SeanDeNigris.61.mcz
 TxText-Styler-MarcusDenker.17.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
-UIManager-TheIntegrator.167.mcz
+UIManager-TheIntegrator.171.mcz
 Unicode-Initialization-TheIntegrator.15.mcz
 UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz

@@ -15,7 +15,7 @@ showSearchFieldFromKeystrokeEvent: anEvent
 						ifTrue: [ editor
 								setTextWith:
 									(contents
-										makeAllColor: Color black;
+										makeAllColor: self table theme textColor;
 										yourself) ]
 						ifFalse: [ editor
 								setTextWith:
@@ -27,5 +27,5 @@ showSearchFieldFromKeystrokeEvent: anEvent
 	ed autoAccept: true.
 	founds
 		ifFalse: [ s addAttribute: (TextColor new color: Color red) ]
-		ifTrue: [ s makeAllColor: Color black ].
+		ifTrue: [ s makeAllColor: self table theme textColor ].
 	ed openEditorWithContents: s

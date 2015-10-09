@@ -1,0 +1,2 @@
+hasConflicts
+	^ self conflicts notEmpty

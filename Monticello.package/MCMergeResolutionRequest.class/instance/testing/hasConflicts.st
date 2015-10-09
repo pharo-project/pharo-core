@@ -1,2 +1,2 @@
 hasConflicts
-	^ self merger conflicts isEmpty not
+	^ self merger hasConflicts
