@@ -1,3 +1,3 @@
 closeEditor
-	editor ifNil: [ ^self ].
+	editor ifNil: [ ^ self ].
 	editor delete

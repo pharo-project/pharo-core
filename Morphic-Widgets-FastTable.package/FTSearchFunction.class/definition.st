@@ -1,5 +1,5 @@
 Object subclass: #FTSearchFunction
-	instanceVariableNames: 'searchField table text'
+	instanceVariableNames: 'table currentSelIndex currentHighlightedIndexes'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Morphic-Widgets-FastTable'

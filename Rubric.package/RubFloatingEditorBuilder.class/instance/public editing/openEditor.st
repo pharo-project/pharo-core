@@ -1,6 +1,7 @@
 openEditor
 	self buildEditor.
-	editor openInWorld.
-	editor comeToFront.
-	editor textArea takeKeyboardFocus.
-	
+	editor ifNil: [ ^ self ].
+	editor
+		openInWorld;
+		comeToFront.
+	editor textArea takeKeyboardFocus

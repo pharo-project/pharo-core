@@ -1,2 +1,2 @@
 initialContents: anObject
-	initialContents := anObject asString
+	initialContents := anObject asText

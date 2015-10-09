@@ -1,2 +1,2 @@
-customizeEditorWith: aValuable
-	customizeValuable := aValuable
+customizeEditorWith: aBlock
+	customizeValuable := aBlock

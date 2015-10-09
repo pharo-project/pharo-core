@@ -1,9 +1,10 @@
 whenTextAccepted: anAnnouncement
 	self
-		editorDo: [ :ed | 
-			self closeEditor.
-			self announcer
-				announce:
-					((RubMorphEdited morph: ed)
-						previousContents: initialContents;
-						yourself) ]
+		editorDo:
+			[ :ed | 
+			| ann |
+			autoAccept
+				ifFalse: [ self closeEditor ].
+			ann := RubMorphEdited morph: ed.
+			ann previousContents: initialContents.
+			self announcer announce: ann ]

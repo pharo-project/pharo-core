@@ -1,3 +1,3 @@
-announcerDo: aValuable
-	announcer ifNil: [ ^self ].
-	aValuable cull: announcer 
+announcerDo: aBlock
+	announcer ifNil: [ ^ self ].
+	aBlock cull: announcer

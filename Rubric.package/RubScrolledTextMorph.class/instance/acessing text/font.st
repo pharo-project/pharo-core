@@ -1,0 +1,2 @@
+font
+	^ self textArea font

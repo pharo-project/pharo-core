@@ -1,14 +1,8 @@
-keyStroke: event
-	(event anyModifierKeyPressed or: [ event keyCharacter isAlphaNumeric not ])
+keyStroke: anEvent
+	(anEvent anyModifierKeyPressed
+		or: [ anEvent keyCharacter isAlphaNumeric not ])
 		ifTrue: [ ^ false ].
-		
-	self isVisible
-		ifFalse: [ self showSearchField ].
-		
-	text := text copyWith: event keyCharacter.
-	self searchFor: text.
-	self changed: #text.
-	self searchField takeKeyboardFocus.
-	"hack to force deselection and move to end"
-	self searchField selectFrom: text size + 1 to: text size.
+	currentSelIndex := self table selectedRowIndex.
+	currentHighlightedIndexes := self table highlightedRowIndexes.
+	self showSearchFieldFromKeystrokeEvent: anEvent.
 	^ true

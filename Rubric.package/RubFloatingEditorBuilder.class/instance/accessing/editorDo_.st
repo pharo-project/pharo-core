@@ -1,3 +1,3 @@
-editorDo: aBlock 
-	editor ifNil: [ ^self ].
-	aBlock value: editor
+editorDo: aBlock
+	editor ifNil: [ ^ self ].
+	aBlock cull: editor

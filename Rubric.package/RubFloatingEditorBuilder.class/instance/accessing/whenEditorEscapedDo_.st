@@ -1,0 +1,2 @@
+whenEditorEscapedDo: aBlock
+	escapeBlock := aBlock

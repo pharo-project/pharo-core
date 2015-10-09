@@ -1,4 +1,4 @@
-script50377
+script50378
 
 	^ 'AST-Core-TheIntegrator.375.mcz
 AST-Tests-Core-TheIntegrator.80.mcz
@@ -178,7 +178,7 @@ Morphic-Tests-TheIntegrator.2.mcz
 Morphic-Widgets-Basic-TheIntegrator.61.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
 Morphic-Widgets-Extra-TheIntegrator.24.mcz
-Morphic-Widgets-FastTable-TheIntegrator.50.mcz
+Morphic-Widgets-FastTable-TheIntegrator.53.mcz
 Morphic-Widgets-List-TheIntegrator.21.mcz
 Morphic-Widgets-NewList-TheIntegrator.7.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.62.mcz
@@ -248,9 +248,9 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.36.mcz
 Refactoring-Tests-Environment-TheIntegrator.19.mcz
-Reflectivity-TheIntegrator.224.mcz
+Reflectivity-TheIntegrator.225.mcz
 Reflectivity-Examples-TheIntegrator.10.mcz
-Reflectivity-Tests-TheIntegrator.180.mcz
+Reflectivity-Tests-TheIntegrator.182.mcz
 Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -265,7 +265,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.88.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.2.mcz
-Rubric-TheIntegrator.286.mcz
+Rubric-TheIntegrator.288.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
 SUnit-Core-TheIntegrator.154.mcz

@@ -1,7 +1,8 @@
-withEditedContentsDo: aValuable
+withEditedContentsDo: aBlock
 	self
-		announcerDo: [ :anncr | 
-				anncr 
-					when: RubMorphEdited 
-					send: #value: 
-					to: [ :ann | aValuable cull: ann morph text asString ] ]
+		announcerDo:
+			[ :anncer | 
+			anncer
+				when: RubMorphEdited
+				send: #value:
+				to: [ :ann  | aBlock cull: ann morph text cull: ann morph ] ]

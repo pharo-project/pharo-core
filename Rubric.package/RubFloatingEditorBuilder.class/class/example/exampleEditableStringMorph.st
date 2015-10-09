@@ -1,31 +1,41 @@
 exampleEditableStringMorph
 	<example>
-	| pane sm edProvider |
-	pane := Morph new
+	| m stringMorph edBuilder |
+	m := Morph new.
+	m
 		color: Color white;
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;
-		borderWidth: 5;
-		yourself.
-	sm := (StringMorph contents: 'Open the mini editor: [Shift+mouseDown]; Update: [Enter|Cmd+s]; Abort: [Escape]')
-		position: 5 asPoint;
-		yourself.
-	pane addMorph: sm.
-	edProvider := RubFloatingEditorBuilder new
-		customizeEditorWith: [ :editor | 
-					editor
-						color: Color veryLightGray veryMuchLighter;
-						bounds: (((sm bounds withRight: pane right) withBottom: sm bottom + 40) translateBy: 2 negated asPoint) ];
-		withEditedContentsDo: [ :newContents | 
-					| t |
-					t := newContents ifEmpty: [ 'Hey guy! I need something here...' ].
-					sm contents: t.
-					self inform: t ];
-		yourself.
-	sm
+		borderWidth: 5.
+	stringMorph := StringMorph
+		contents:
+			'Open the mini editor: [Shift+mouseDown]; Update: [Enter|Cmd+s]; Abort: [Escape]'.
+	stringMorph position: 5 asPoint.
+	stringMorph := stringMorph yourself.
+	m addMorph: stringMorph.
+	edBuilder := RubFloatingEditorBuilder new.
+	edBuilder
+		customizeEditorWith:
+				[ :arg1 | 
+			| m1 |
+			m1 := arg1.
+			m1
+				color: Color veryLightGray veryMuchLighter;
+				bounds:
+					(((stringMorph bounds withRight: m right) withBottom: stringMorph bottom + 40)
+						translateBy: 2 negated asPoint) ];
+		withEditedContentsDo:
+				[ :arg2 | 
+			| m2 |
+			m2 := arg2 ifEmpty: [ 'Hey guy! I need something here...' ].
+			stringMorph contents: m2.
+			self inform: m2 ].
+	stringMorph
 		on: #mouseDown
 		send: #value:
-		to: [ :event | 
-			event shiftPressed
-				ifTrue: [ edProvider openEditorWithContents: sm contents ] ].
-	(pane embeddedInMorphicWindowLabeled: 'Editable sm example') openInWorld
+		to:
+			[ :arg3 | 
+			arg3 shiftPressed
+				ifTrue: [ edBuilder openEditorWithContents: stringMorph contents ] ].
+	(m embeddedInMorphicWindowLabeled: 'Editable sm example')
+		openInWorld

@@ -1,7 +1,8 @@
 searchText: aString
+	| result |
 	aString isEmptyOrNil ifTrue: [ ^ #() ].
-	
+	result := OrderedCollection new.
 	self elements withIndexDo: [ :each :index |
 		((self toString: each) beginsWith: aString)
-			ifTrue: [ ^ { index } ] ].
-	^ #()
+			ifTrue: [ result add: index ] ].
+	^ result asArray
