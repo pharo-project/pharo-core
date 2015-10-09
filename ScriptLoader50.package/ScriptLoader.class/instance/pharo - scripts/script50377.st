@@ -1,4 +1,4 @@
-script50376
+script50377
 
 	^ 'AST-Core-TheIntegrator.375.mcz
 AST-Tests-Core-TheIntegrator.80.mcz
@@ -108,7 +108,7 @@ Glamour-Tests-Resources-AndreiChis.3.mcz
 Glamour-Tests-Rubric-AndreiChis.14.mcz
 Gofer-Core-TheIntegrator.235.mcz
 Gofer-Tests-TheIntegrator.164.mcz
-Graphics-Canvas-TheIntegrator.2.mcz
+Graphics-Canvas-TheIntegrator.4.mcz
 Graphics-Display Objects-TheIntegrator.165.mcz
 Graphics-Files-TheIntegrator.66.mcz
 Graphics-Fonts-TheIntegrator.100.mcz
@@ -248,7 +248,7 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.36.mcz
 Refactoring-Tests-Environment-TheIntegrator.19.mcz
-Reflectivity-TheIntegrator.223.mcz
+Reflectivity-TheIntegrator.224.mcz
 Reflectivity-Examples-TheIntegrator.10.mcz
 Reflectivity-Tests-TheIntegrator.180.mcz
 Regex-Core-TheIntegrator.38.mcz
@@ -341,7 +341,7 @@ Tool-DependencyAnalyser-Test-ChristopheDemarey.11.mcz
 Tool-DependencyAnalyser-UI-ChristopheDemarey.36.mcz
 Tool-Diff-TheIntegrator.21.mcz
 Tool-ExternalBrowser-TheIntegrator.36.mcz
-Tool-FileList-TheIntegrator.58.mcz
+Tool-FileList-TheIntegrator.60.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
 Tool-Finder-TheIntegrator.49.mcz
 Tool-ImageCleaner-TheIntegrator.10.mcz
@@ -358,7 +358,7 @@ Transcript-TheIntegrator.45.mcz
 TxText-Athens-NicolaiHess.52.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
 TxText-Model-SeanDeNigris.61.mcz
-TxText-Styler-TheIntegrator.13.mcz
+TxText-Styler-MarcusDenker.17.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
 UIManager-TheIntegrator.167.mcz
 Unicode-Initialization-TheIntegrator.15.mcz

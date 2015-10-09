@@ -1,15 +1,11 @@
 put: aText
 	"Private - put the supplied text onto the file"
 
-	| ff type |
+	|  type |
 	brevityState == #fullFile 
 		ifTrue:[
-			ff := StandardFileStream newFileNamed:reference  fullName.
-			Cursor write showWhile: [ff nextPutAll: aText asString; close].
-			reference basename = ff localName 
-				ifTrue: [contents := aText asString]
-				ifFalse: [	 self updateFileList. "user renamed the file" ].
-			^ true  "accepted"].
+			Cursor write showWhile: [reference writeStream truncate;nextPutAll: aText asString; close].
+			^ true].
 
 	listIndex = 0 
 		ifTrue: [

@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16729 Removing PluggableTextField from FT
-	https://pharo.fogbugz.com/f/cases/16729
+ ^ '16689 FileList: remove some usage of deprecated classes (StandardFileStream)
+	https://pharo.fogbugz.com/f/cases/16689
+
+16733 Canvas>>#reset calls two methods, neither of them exists
+	https://pharo.fogbugz.com/f/cases/16733
 
 16748 inline installation code for restoring the original CM
-	https://pharo.fogbugz.com/f/cases/16748
-
-16747 updated Configuration
-	https://pharo.fogbugz.com/f/cases/16747'
+	https://pharo.fogbugz.com/f/cases/16748'
