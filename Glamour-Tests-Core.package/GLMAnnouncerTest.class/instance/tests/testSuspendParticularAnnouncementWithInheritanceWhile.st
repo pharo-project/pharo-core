@@ -1,6 +1,6 @@
 testSuspendParticularAnnouncementWithInheritanceWhile
 	| announcement instance |
-	announcer subscribe: Announcement do: [ :ann | announcement := ann ].
+	announcer when: Announcement do: [ :ann | announcement := ann ].
 	announcement := nil.
 	instance := announcer announce: Announcement.
 	self assert: announcement equals: instance.

@@ -1,7 +1,7 @@
 testSuspendParticularAnnouncementWhile
 	| announcement instance |
-	announcer subscribe: GLMTestAnnouncement do: [ :ann | announcement := ann ].
-	announcer subscribe: GLMTestAnnouncement2 do: [ :ann | announcement := ann ].
+	announcer when: GLMTestAnnouncement do: [ :ann | announcement := ann ].
+	announcer when: GLMTestAnnouncement2 do: [ :ann | announcement := ann ].
 	announcement := nil.
 	instance := announcer announce: GLMTestAnnouncement.
 	self assert: announcement equals: instance.

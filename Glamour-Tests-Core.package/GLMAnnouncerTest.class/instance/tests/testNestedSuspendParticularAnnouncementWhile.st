@@ -1,7 +1,7 @@
 testNestedSuspendParticularAnnouncementWhile
 	| announcement instance2 announcement2 |
 	announcer
-		subscribe: GLMTestAnnouncement, GLMTestAnnouncement2
+		when: GLMTestAnnouncement, GLMTestAnnouncement2
 		do: [ :ann | announcement := ann ].
 	
 	announcement2 := nil.
