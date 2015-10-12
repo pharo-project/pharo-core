@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '16752 problems with new search function in FastTable
-	https://pharo.fogbugz.com/f/cases/16752
+ ^ '16761 Method source should not contain linefeeds in Kernel
+	https://pharo.fogbugz.com/f/cases/16761
 
-16753 Invalidate ProtoObject
-	https://pharo.fogbugz.com/f/cases/16753
-
-15713 CommandLineUIManager>>#merge:informing: is not doing anything
-	https://pharo.fogbugz.com/f/cases/15713'
+16577 Random should be in its own package
+	https://pharo.fogbugz.com/f/cases/16577'

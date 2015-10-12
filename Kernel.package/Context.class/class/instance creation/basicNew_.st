@@ -1,3 +1,2 @@
 basicNew: size
-
-    self error: 'Contexts must only be created with newForMethod:'
+	self error: 'Contexts must only be created with newForMethod:'
