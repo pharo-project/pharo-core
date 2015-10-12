@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '16761 Method source should not contain linefeeds in Kernel
-	https://pharo.fogbugz.com/f/cases/16761
+ ^ '16730 Should sync back Rubric
+	https://pharo.fogbugz.com/f/cases/16730
 
-16577 Random should be in its own package
-	https://pharo.fogbugz.com/f/cases/16577'
+16765 Typo
+	https://pharo.fogbugz.com/f/cases/16765
+
+16766 Deprecate unreferenced/unused MultistateLabelMorph 
+	https://pharo.fogbugz.com/f/cases/16766'

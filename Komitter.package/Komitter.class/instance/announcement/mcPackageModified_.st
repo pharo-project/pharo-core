@@ -1,8 +1,8 @@
-mcPackageModified: anAnnoucement
+mcPackageModified: anAnnouncement
 	| package |
 	self stagingArea isCurrent ifFalse: [ ^ self ].
 	
-	package := anAnnoucement package koPackage.
+	package := anAnnouncement package koPackage.
 	
 	package patch isEmpty
 		ifTrue: [ self stagingArea removePackage: package ]
