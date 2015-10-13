@@ -1,3 +1,3 @@
-whenCancelEditRequestedInModel: anAnnoucement
-	self announcer announce: anAnnoucement.
+whenCancelEditRequestedInModel: anAnnouncement
+	self announcer announce: anAnnouncement.
 	self cancel

@@ -3,8 +3,8 @@ whenReturnEntered: anAnnouncement
 		ifTrue: [ anAnnouncement accepted: true ].
 	autoAccept
 		ifTrue:
-			[ | tmp2 |
-			tmp2 := RubMorphEdited morph: editor.
-			tmp2 previousContents: initialContents.
-			self announcer announce: tmp2 yourself.
+			[ | ann |
+			ann := RubMorphEdited morph: editor.
+			ann previousContents: initialContents.
+			self announcer announce: ann yourself.
 			self closeEditor ]

@@ -1,6 +1,7 @@
 scanLiteralCharacter
 	| token |
 	self step.	"$"
+	currentCharacter ifNil:[ ^ self scanError:'A Character was expected'].
 	token := RBLiteralToken 
 				value: currentCharacter
 				start: tokenStart

@@ -1,3 +1,3 @@
-whenCancelEditRequested: anAnnoucement
-	self announcer announce: anAnnoucement.
+whenCancelEditRequested: anAnnouncement
+	self announcer announce: anAnnouncement.
 	self cancel

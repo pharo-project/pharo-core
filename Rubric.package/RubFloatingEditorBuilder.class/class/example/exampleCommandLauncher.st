@@ -1,16 +1,11 @@
 exampleCommandLauncher
 	<example>
-	| tmp2 |
-	tmp2 := RubFloatingEditorBuilder new.
-	tmp2
+ 	^RubFloatingEditorBuilder new
 		acceptOnCR: false;
-		customizeEditorWith:
-				[ :arg1 | 
-			| tmp4 |
-			tmp4 := arg1.
-			tmp4
+		customizeEditorWith: [ :editor | 
+			editor
 				width: 300;
 				height: 50;
 				center: World center ];
-		withEditedContentsDo: [ :arg2 | self inform: arg2 ];
+		withEditedContentsDo: [ :newContents | self inform: newContents ];
 		openEditorWithContents: 'self inspect'
