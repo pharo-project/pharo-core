@@ -1,6 +1,6 @@
-script50382
+script50383
 
-	^ 'AST-Core-TheIntegrator.375.mcz
+	^ 'AST-Core-TheIntegrator.378.mcz
 AST-Tests-Core-TheIntegrator.80.mcz
 Announcements-Core-TheIntegrator.62.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -128,7 +128,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2145.mcz
+Kernel-TheIntegrator.2147.mcz
 Kernel-Tests-TheIntegrator.14.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -204,7 +204,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1099.mcz
+Nautilus-TheIntegrator.1102.mcz
 Nautilus-GroupManager-TheIntegrator.13.mcz
 Nautilus-GroupManagerUI-TheIntegrator.24.mcz
 Nautilus-Tests-TheIntegrator.25.mcz
@@ -226,7 +226,7 @@ OSWindow-SDL2-MerwanOuddane.83.mcz
 OSWindow-SDL2-Examples-MerwanOuddane.7.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 OpalCompiler-Core-TheIntegrator.736.mcz
-OpalCompiler-Tests-TheIntegrator.305.mcz
+OpalCompiler-Tests-TheIntegrator.308.mcz
 OpalTools-TheIntegrator.18.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.42.mcz
@@ -248,7 +248,7 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.36.mcz
 Refactoring-Tests-Environment-TheIntegrator.19.mcz
-Reflectivity-TheIntegrator.227.mcz
+Reflectivity-TheIntegrator.229.mcz
 Reflectivity-Examples-TheIntegrator.12.mcz
 Reflectivity-Tests-TheIntegrator.182.mcz
 Regex-Core-TheIntegrator.38.mcz
@@ -333,7 +333,7 @@ Text-Edition-TheIntegrator.102.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.31.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.107.mcz
+Tool-Base-TheIntegrator.109.mcz
 Tool-Catalog-EstebanLorenzano.26.mcz
 Tool-CriticBrowser-TheIntegrator.15.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.25.mcz

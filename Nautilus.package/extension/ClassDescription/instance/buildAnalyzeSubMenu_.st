@@ -13,12 +13,6 @@ buildAnalyzeSubMenu: aBuilder
 		parent: #Analyze;
 		order: 100.
 	
-	(aBuilder item: #'Create initializer with inst vars...')
-		action: [ target createInitializerWithInstVars ];
-		parent: #Analyze;
-		order: 300;
-		enabledBlock: [ target showInstance ].
-	
 	(aBuilder item: #'Generate initialize method')
 		keyText: 'h, i' if: Nautilus useOldStyleKeys not;
 		keyText: 'I' if: Nautilus useOldStyleKeys;

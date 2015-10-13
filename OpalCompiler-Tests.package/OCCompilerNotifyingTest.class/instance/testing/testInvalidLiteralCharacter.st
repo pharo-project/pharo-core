@@ -1,3 +1,3 @@
 testInvalidLiteralCharacter
-	self setUpForErrorsIn: '^ #yourself , #)` Expecting a literal type ->` , #end'.
+	self setUpForErrorsIn: '^ #yourself , #` Expecting a literal type ->`) , #end'.
 	self enumerateAllSelections.
