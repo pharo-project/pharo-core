@@ -1,22 +1,21 @@
 menu: aMenu shifted: aBoolean
-
 	aMenu
-		addGroup:[ :g | 
-			g addItem: [ :i |
-				i 
+		addGroup:[ :group | 
+			group addItem: [ :item |
+				item 
 					name: 'Browse rule' translated;
 					action: [ self browseRule ]].
-			g addItem: [ :i |
-				i 
+			group addItem: [ :item |
+				item 
 					name: 'Reapply this rule' translated;
 					action: [ self reapplyThisRule ] ] ];
-		addGroup:[ :g | 
-			g addItem: [ :i |
-				i 
+		addGroup:[ :group | 
+			group addItem: [ :item |
+				item 
 					name: 'Ban from selected packages' translated;
 					action: [ self addRuleToFalsePositive ]].
-			g addItem: [ :i |
-				i 
+			group addItem: [ :item |
+				item 
 					name: 'Unban from selected packages' translated;
 					action: [ self removeRuleToFalsePositive ] ] ].
 		

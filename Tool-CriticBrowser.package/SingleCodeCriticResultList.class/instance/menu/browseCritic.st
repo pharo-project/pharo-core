@@ -1,7 +1,6 @@
 browseCritic
-
 	criticsModel selectedItem
-		ifNotNil: [ :elem | 
-			elem isBehavior 
-				ifTrue: [ elem theNonMetaClass browse ]
-				ifFalse: [ elem browse ] ] 
+		ifNotNil: [ :element |
+			element isBehavior 
+				ifTrue: [ element theNonMetaClass browse ]
+				ifFalse: [ element browse ] ] 

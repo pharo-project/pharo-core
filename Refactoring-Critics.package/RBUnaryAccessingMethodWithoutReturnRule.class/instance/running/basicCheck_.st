@@ -3,5 +3,5 @@ basicCheck: aMethod
 	aMethod isAbstract ifTrue: [ ^ false ].
 	(aMethod methodClass organization categoryOfElement: aMethod selector) = #accessing
 		ifFalse: [ ^ false ].
-	^ aMethod parseTree nodes noneSatisfy: [ :each | 
+	^ aMethod parseTree statements noneSatisfy: [ :each | 
 			each isReturn ].

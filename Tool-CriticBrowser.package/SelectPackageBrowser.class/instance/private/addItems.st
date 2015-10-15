@@ -1,8 +1,7 @@
 addItems
-	
 	toSelectModel selectedItems
 		ifNotNil: [ :items |  
-			selectedModel items: (self sort: (selectedModel listItems asOrderedCollection addAll: items; yourself) ).
-			toSelectModel items: (self sort: (toSelectModel listItems asOrderedCollection removeAll: items; yourself) ) ].
-		toSelectModel updateList.
-		selectedModel updateList.  	  
+			selectedModel items: (self sort: selectedModel listItems withAll: items).
+			toSelectModel items: (self sort: toSelectModel listItems withoutAll: items) ].
+	toSelectModel updateList.
+	selectedModel updateList.  	  

@@ -1,4 +1,4 @@
-script50385
+script50386
 
 	^ 'AST-Core-TheIntegrator.380.mcz
 AST-Tests-Core-TheIntegrator.82.mcz
@@ -128,7 +128,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2148.mcz
+Kernel-TheIntegrator.2150.mcz
 Kernel-Tests-TheIntegrator.16.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -137,7 +137,7 @@ Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.96.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
 Komitter-TheIntegrator.150.mcz
-Manifest-Core-TheIntegrator.231.mcz
+Manifest-Core-TheIntegrator.234.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.51.mcz
 MenuRegistration-TheIntegrator.78.mcz
@@ -188,7 +188,7 @@ Morphic-Widgets-Tabs-TheIntegrator.16.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.11.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
 Morphic-Widgets-Tree-TheIntegrator.37.mcz
-Morphic-Widgets-Windows-TheIntegrator.61.mcz
+Morphic-Widgets-Windows-TheIntegrator.64.mcz
 Multilingual-Encodings-TheIntegrator.61.mcz
 Multilingual-Languages-TheIntegrator.45.mcz
 Multilingual-OtherLanguages-TheIntegrator.22.mcz
@@ -242,11 +242,11 @@ Random-TheIntegrator.10.mcz
 RecentSubmissions-TheIntegrator.238.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.289.mcz
-Refactoring-Critics-TheIntegrator.231.mcz
-Refactoring-Environment-TheIntegrator.69.mcz
+Refactoring-Critics-TheIntegrator.233.mcz
+Refactoring-Environment-TheIntegrator.72.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
-Refactoring-Tests-Critics-TheIntegrator.36.mcz
+Refactoring-Tests-Critics-TheIntegrator.38.mcz
 Refactoring-Tests-Environment-TheIntegrator.19.mcz
 Reflectivity-TheIntegrator.231.mcz
 Reflectivity-Examples-TheIntegrator.12.mcz
@@ -333,9 +333,9 @@ Text-Edition-TheIntegrator.102.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.31.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.109.mcz
+Tool-Base-TheIntegrator.111.mcz
 Tool-Catalog-EstebanLorenzano.26.mcz
-Tool-CriticBrowser-TheIntegrator.15.mcz
+Tool-CriticBrowser-TheIntegrator.17.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.25.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.11.mcz
 Tool-DependencyAnalyser-UI-ChristopheDemarey.36.mcz

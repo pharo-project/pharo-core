@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16770 Create a basic version of checking methods in LintRules
-	https://pharo.fogbugz.com/f/cases/16770
+ ^ '16789 RBUnaryAccessingMethodWithoutReturnRule refers to #nodes instead of #statements
+	https://pharo.fogbugz.com/f/cases/16789
 
-16785 Replace the usages of #smalltalkCode in OpalTools
-	https://pharo.fogbugz.com/f/cases/16785
+16758 Unify SystemWindow announcing with Morph announcing 
+	https://pharo.fogbugz.com/f/cases/16758
 
-16525 Nautilus leaking SystemAnnouncements
-	https://pharo.fogbugz.com/f/cases/16525'
+16653 Add an architectural rule for the bootstrap layer
+	https://pharo.fogbugz.com/f/cases/16653'

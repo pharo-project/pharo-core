@@ -1,7 +1,9 @@
 removeAllItems
 	| tmp |
-	tmp := self sort: (toSelectModel listItems asOrderedCollection addAll: (selectedModel listItems);yourself ).
+	tmp := self 
+		sort: toSelectModel listItems
+		withAll: selectedModel listItems.
 	toSelectModel items: tmp.
-	selectedModel items: {}.
+	selectedModel items: #().
 	toSelectModel updateList.
 	selectedModel updateList.  	  

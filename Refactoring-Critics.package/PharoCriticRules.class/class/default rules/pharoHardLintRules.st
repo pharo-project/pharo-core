@@ -16,5 +16,6 @@ pharoHardLintRules
 		RBUnconditionalRecursionRule.
 		RBUnoptimizedToDoRule.
 		RBBetweenAndRule.
-		RBCodeCruftLeftInMethodsRule 
+		RBCodeCruftLeftInMethodsRule.
+		RBPharoBootstrapRule
 	}

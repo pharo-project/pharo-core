@@ -8,4 +8,8 @@ menu: aMenu shifted: aBoolean
 				aMenu
 					addLine;
 					add: 'Transform selected critic' target: self selector: #transformCritic ] ].
+			rule isArchitecturalRule ifTrue: [ 
+				aMenu
+					addLine;
+					add: 'Browse dependencies' target: self selector: #browseDependencies ].
 	^ aMenu

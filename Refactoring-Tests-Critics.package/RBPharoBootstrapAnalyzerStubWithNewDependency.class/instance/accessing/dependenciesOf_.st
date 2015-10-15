@@ -1,0 +1,2 @@
+dependenciesOf: aPackageName
+	^ #(Foo Bar)

@@ -1,4 +1,5 @@
-withoutClasses: aListOfClass
+withoutClasses: aListOfClasses
 	"Build the same environment without classes given as parameter"
-	.
-	^ self & ((RBClassEnvironment onEnvironment: self classes: aListOfClass) not)
+	^ RBClassEnvironment 
+			onEnvironment: self 
+			classes: (self classes copyWithoutAll: aListOfClasses)

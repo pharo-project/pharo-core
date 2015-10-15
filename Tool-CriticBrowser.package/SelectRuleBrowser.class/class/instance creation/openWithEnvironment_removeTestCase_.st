@@ -1,8 +1,9 @@
-openWithEnvironment: aEnv removeTestCase: aBoolean
+openWithEnvironment: anEnvironment removeTestCase: aBoolean
 	self new
-		items: (RBCompositeLintRule allGoodRules rules
-					copyWithFirst: PharoCriticRules pharoIntegrationLintRule);
-		environment: aEnv;
+		items:
+			(RBCompositeLintRule allGoodRules rules
+				copyWithFirst: PharoCriticRules pharoIntegrationLintRule);
+		environment: anEnvironment;
 		removeTestCase: aBoolean;
 		openWithSpec;
 		updateTree

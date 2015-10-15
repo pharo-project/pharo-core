@@ -1,0 +1,2 @@
+isArchitecturalRule
+	^ true 

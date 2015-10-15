@@ -1,5 +1,5 @@
-isFalsePositive: aItem onRule: ruleId version: versionId
+isFalsePositive: anItem onRule: ruleId version: versionId
 	
-	^ ((self containsFalsePositive: aItem onRule:  ruleId version: versionId) or:
+	^ ((self containsFalsePositive: anItem onRule: ruleId version: versionId) or:
 			[(self containsRejectedRule: ruleId) or:
-				[self containsRejectedClass: aItem criticClass]])
+				[(anItem class = RPackage) not and: [self containsRejectedClass: anItem criticClass]]])

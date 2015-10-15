@@ -1,6 +1,5 @@
 applyRules
-
-	|  packageCount nbPackage process rules |	
+	| packageCount nbPackage process rules |	
 	rules := rulesModel roots first. 
 	rules resetResult.
 	nbPackage := rbEnvironment packages size.
@@ -8,7 +7,7 @@ applyRules
 	self updateTree.
 	process := [  
 		rbEnvironment packages do: [ :package |
-			|  windowTitle |
+			| windowTitle |
 			packageCount := packageCount + 1.
 			windowTitle := String streamContents: [ :s | 
 				s 
