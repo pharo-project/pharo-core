@@ -1,5 +1,5 @@
 checkClass: aClass 
-	aClass isUsed ifFalse: [
+	(self basicCheck: aClass) ifTrue: [
 		result
 			addClass: aClass;
 			addClass: aClass theMetaClass ]

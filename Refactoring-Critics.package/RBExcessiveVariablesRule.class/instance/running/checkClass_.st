@@ -1,4 +1,3 @@
 checkClass: aClass
-	(aClass instVarNames size >= self variablesCount
-		or: [ aClass classVarNames size >= self variablesCount ])
+	(self basicCheck: aClass)
 			ifTrue: [ result addClass: aClass ]

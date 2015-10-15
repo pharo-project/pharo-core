@@ -1,5 +1,3 @@
 checkMethod: aMethod 
-	aMethod methodClass isMeta 
-		ifTrue: [ ^ self ].
-	(matcher executeTree: aMethod ast initialAnswer: false) 
+	(self basicCheck: aMethod) 
 		ifTrue: [ result addMethod: aMethod ]

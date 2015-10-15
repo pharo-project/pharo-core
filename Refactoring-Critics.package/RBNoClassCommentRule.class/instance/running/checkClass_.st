@@ -1,7 +1,5 @@
 checkClass: aClass
-	(aClass isMeta or: [ aClass isTestCase ])
-		ifTrue: [ ^ self ].
-	aClass hasComment ifFalse: [ 
+	(self basicCheck: aClass) ifTrue: [ 
 		result 
 			addClass: aClass; 
 			addClass: aClass theMetaClass ]

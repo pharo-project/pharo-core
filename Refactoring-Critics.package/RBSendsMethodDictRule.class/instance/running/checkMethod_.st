@@ -1,7 +1,6 @@
 checkMethod: aMethod
-	({Behavior. ClassDescription. Class.TBehavior . TClassDescription . TApplyingOnClassSide } includes: aMethod methodClass)
-		ifTrue: [ ^ self ].
-	(aMethod messages includes: #methodDict)
+	
+	(self basicCheck: aMethod)
 		ifTrue: [ 
 			result
 				addMethod: aMethod;

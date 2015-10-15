@@ -1,8 +1,5 @@
 checkMethod: aMethod 
-	vars := aMethod methodClass instVarNames.
-	(matcher 
-		executeTree: aMethod ast
-		initialAnswer: false) ifTrue: 
+	(self basicCheck: aMethod) ifTrue: 
 		[ result 
 			addMethod: aMethod;
 		 	addSearchString: varName ]

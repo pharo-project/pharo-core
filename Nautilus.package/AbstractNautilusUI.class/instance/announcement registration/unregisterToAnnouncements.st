@@ -1,0 +1,4 @@
+unregisterToAnnouncements
+	self unregisterToSystemAnnouncements.
+	self unregisterToTestAnnouncements. 
+	self unregisterToGroupAnnouncements. 

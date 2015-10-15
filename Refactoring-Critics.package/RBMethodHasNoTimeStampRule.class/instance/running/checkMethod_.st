@@ -1,3 +1,3 @@
 checkMethod: aMethod 
-	aMethod timeStamp isEmpty ifTrue: 
+	(self basicCheck: aMethod) ifTrue: 
 		[ result addMethod: aMethod ]

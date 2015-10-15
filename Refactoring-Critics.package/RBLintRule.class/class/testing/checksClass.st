@@ -1,0 +1,3 @@
+checksClass
+
+	^ false

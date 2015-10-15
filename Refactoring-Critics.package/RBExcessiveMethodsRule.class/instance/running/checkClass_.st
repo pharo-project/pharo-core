@@ -1,3 +1,3 @@
 checkClass: aClass 
-	aClass selectors size >= self methodsCount
+	(self basicCheck: aClass)
 		ifTrue: [ result addClass: aClass ]

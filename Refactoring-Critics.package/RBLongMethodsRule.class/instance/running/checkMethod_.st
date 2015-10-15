@@ -1,3 +1,3 @@
 checkMethod: aMethod 
-	(matcher executeTree: aMethod ast initialAnswer: 0) >= self longMethodSize 
+	(self basicCheck: aMethod)
 		ifTrue: [ result addMethod: aMethod ]

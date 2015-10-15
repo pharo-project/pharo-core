@@ -1,3 +1,3 @@
 checkMethod: aMethod 
-	(aMethod sourceCode includes: Character lf) ifTrue: 
+	(self basicCheck: aMethod) ifTrue: 
 		[ result addMethod: aMethod ]

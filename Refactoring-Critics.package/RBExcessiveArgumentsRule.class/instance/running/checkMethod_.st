@@ -1,3 +1,3 @@
 checkMethod: aMethod 
-	aMethod numArgs >= self argumentsCount
+	(self basicCheck: aMethod)
 		ifTrue: [ result addMethod: aMethod ]

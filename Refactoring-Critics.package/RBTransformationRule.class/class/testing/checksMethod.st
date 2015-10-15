@@ -1,0 +1,2 @@
+checksMethod
+	^ true

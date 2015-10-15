@@ -1,7 +1,7 @@
 gtInspectorSourceCodeIn: composite
 	<gtInspectorPresentationOrder: 30> 
 
-	^ composite smalltalkCode 
+	^ composite pharoMethod 
 		title: 'Source code';
 		display: [ self method sourceNode source];
 		smalltalkClass: [  self method sourceNode methodClass ]; 

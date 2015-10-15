@@ -1,15 +1,9 @@
 commentForCurrentUpdate
- ^ '16759 update comment for #ifNotEmpty:
-	https://pharo.fogbugz.com/f/cases/16759
+ ^ '16770 Create a basic version of checking methods in LintRules
+	https://pharo.fogbugz.com/f/cases/16770
 
-16779 Reflectivity: fix to be able to invalidate all method of package Kernel
-	https://pharo.fogbugz.com/f/cases/16779
+16785 Replace the usages of #smalltalkCode in OpalTools
+	https://pharo.fogbugz.com/f/cases/16785
 
-16778 Entering a number then $ in the Playground throws a SubscriptOutOfBounds: error 
-	https://pharo.fogbugz.com/f/cases/16778
-
-16763 Add #isUsed to Manifest classes
-	https://pharo.fogbugz.com/f/cases/16763
-
-16764 Lost argument names in Rubric, resized example
-	https://pharo.fogbugz.com/f/cases/16764'
+16525 Nautilus leaking SystemAnnouncements
+	https://pharo.fogbugz.com/f/cases/16525'

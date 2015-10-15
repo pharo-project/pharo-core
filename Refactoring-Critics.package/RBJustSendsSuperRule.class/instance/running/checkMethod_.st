@@ -1,6 +1,3 @@
 checkMethod: aMethod 
-	(aMethod ast isPrimitive not and: 
-		[ matcher 
-			executeMethod: aMethod ast
-			initialAnswer: false ]) ifTrue: 
+	(self basicCheck: aMethod) ifTrue: 
 		[ result addMethod: aMethod ]

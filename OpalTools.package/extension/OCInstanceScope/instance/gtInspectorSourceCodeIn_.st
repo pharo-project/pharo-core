@@ -1,6 +1,6 @@
 gtInspectorSourceCodeIn: composite
 	<gtInspectorPresentationOrder: 30> 
 
-	^ composite smalltalkCode 
+	^ composite text 
 		title: 'Source';
 		display: [ '"instance scope, no source"']

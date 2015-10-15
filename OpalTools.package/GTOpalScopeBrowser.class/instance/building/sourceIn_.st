@@ -1,4 +1,4 @@
 sourceIn: a
-	^ a smalltalkCode 
+	^ a pharoMethod 
 		smalltalkClass: [ :each | each parents first methodClass ]; 
 		display: [ :each | each source ]

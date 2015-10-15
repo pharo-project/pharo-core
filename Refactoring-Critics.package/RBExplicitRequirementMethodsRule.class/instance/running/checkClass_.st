@@ -12,6 +12,6 @@ checkClass: aClass
 				 (method isRequired and: [ method isSubclassResponsibility not ]) 
 						ifTrue: [ explicitRequirementMethods add: method ]].
 	
-	explicitRequirementMethods do: [ :method |
+	^ explicitRequirementMethods do: [ :method |
 		aClass withAllSuperclasses 
 			detect: [ :superclass | superclass canPerform: method selector ] ifNone: [result addClass: aClass selector: method selector]].

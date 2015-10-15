@@ -3,7 +3,11 @@ registerToSystemAnnouncements
 		when: RPackageRegistered send: #packageRegistered: to: self;
 		when: RPackageUnregistered send: #packageUnregistred: to: self;
 		when: RPackageRenamed send: #packageRenamed: to: self.
+						
 	SystemAnnouncer uniqueInstance weak
+		when: MCPackageModified send: #mcPackageModified: to: self;
+		when: MCWorkingCopyCreated send: #mcWorkingCopyCreated: to: self;
+		when: MCWorkingCopyDeleted send: #mcWorkingCopyDeleted: to: self;
 		when: ClassAdded send: #classAdded: to: self;
 		when: ClassCommented send: #classCommented: to: self;
 		when: ClassRecategorized send: #classRecategorized: to: self;
@@ -16,4 +20,4 @@ registerToSystemAnnouncements
 		when: MethodRecategorized send: #methodRecategorized: to: self;
 		when: MethodRemoved send: #methodRemoved: to: self;
 		when: ProtocolAdded send: #classReorganized: to: self;
-		when: ProtocolRemoved send: #classReorganized: to: self
+		when: ProtocolRemoved send: #classReorganized: to: self.

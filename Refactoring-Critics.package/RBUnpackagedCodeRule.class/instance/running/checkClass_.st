@@ -1,3 +1,3 @@
 checkClass: aClass 
-	(self isUnpackaged: aClass) ifTrue: [
+	(self basicCheck: aClass) ifTrue: [
 		self result addClass: aClass ]

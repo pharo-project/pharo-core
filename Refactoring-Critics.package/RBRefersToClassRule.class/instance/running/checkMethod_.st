@@ -1,0 +1,5 @@
+checkMethod: aMethod
+	(self basicCheck: aMethod) ifTrue: [ 
+		result
+			addMethod: aMethod;
+			addSearchString: aMethod methodClass name ]

@@ -1,4 +1,4 @@
 checkMethod: aMethod 
 
-	aMethod protocol = Protocol unclassified 
+	(self basicCheck: aMethod ) 
 		ifTrue: [ result addMethod: aMethod ]

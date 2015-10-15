@@ -1,3 +1,3 @@
 checkMethod: aMethod 
-	(aMethod allLiterals anySatisfy: [ :each | self doesLiteralArrayContainComma: each ]) 
+	(self basicCheck: aMethod) 
 		ifTrue: [ result addMethod: aMethod ]

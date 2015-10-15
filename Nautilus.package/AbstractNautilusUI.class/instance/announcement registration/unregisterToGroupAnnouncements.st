@@ -1,0 +1,2 @@
+unregisterToGroupAnnouncements
+	GroupAnnouncer uniqueInstance unsubscribe: self.
