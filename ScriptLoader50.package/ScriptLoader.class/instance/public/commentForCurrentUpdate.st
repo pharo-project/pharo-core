@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '16789 RBUnaryAccessingMethodWithoutReturnRule refers to #nodes instead of #statements
-	https://pharo.fogbugz.com/f/cases/16789
+ ^ '16793 Minor protocol cleanup in SystemWindow for taskbar related items
+	https://pharo.fogbugz.com/f/cases/16793
 
-16758 Unify SystemWindow announcing with Morph announcing 
-	https://pharo.fogbugz.com/f/cases/16758
-
-16653 Add an architectural rule for the bootstrap layer
-	https://pharo.fogbugz.com/f/cases/16653'
+16777 Querying block with many temps fails
+	https://pharo.fogbugz.com/f/cases/16777'

@@ -6,7 +6,7 @@ startNewSequence
 	newSequence := IRSequence orderNumber: currentSequence orderNumber + 1.
 	newSequence method: ir.
 
-	currentSequence last isJumpOrReturn
+	currentSequence last transitionsToNextSequence
 		ifFalse: [ self add: (IRJump new destination: newSequence)].
 	self currentScope isPushClosureCopy ifTrue: [self currentScope lastBlockSequence: currentSequence].
 	currentSequence := newSequence.

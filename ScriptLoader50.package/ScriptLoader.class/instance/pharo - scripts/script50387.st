@@ -1,4 +1,4 @@
-script50386
+script50387
 
 	^ 'AST-Core-TheIntegrator.380.mcz
 AST-Tests-Core-TheIntegrator.82.mcz
@@ -185,7 +185,7 @@ Morphic-Widgets-Pluggable-TheIntegrator.62.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.2.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.28.mcz
 Morphic-Widgets-Tabs-TheIntegrator.16.mcz
-Morphic-Widgets-Taskbar-TheIntegrator.11.mcz
+Morphic-Widgets-Taskbar-TheIntegrator.13.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
 Morphic-Widgets-Tree-TheIntegrator.37.mcz
 Morphic-Widgets-Windows-TheIntegrator.64.mcz
@@ -225,12 +225,12 @@ OSWindow-Core-MerwanOuddane.94.mcz
 OSWindow-SDL2-MerwanOuddane.83.mcz
 OSWindow-SDL2-Examples-MerwanOuddane.7.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
-OpalCompiler-Core-TheIntegrator.736.mcz
-OpalCompiler-Tests-TheIntegrator.308.mcz
+OpalCompiler-Core-TheIntegrator.739.mcz
+OpalCompiler-Tests-TheIntegrator.309.mcz
 OpalTools-TheIntegrator.20.mcz
 Pharo-Help-TheIntegrator.15.mcz
-Polymorph-TaskbarIcons-TheIntegrator.42.mcz
-Polymorph-Widgets-TheIntegrator.1272.mcz
+Polymorph-TaskbarIcons-TheIntegrator.44.mcz
+Polymorph-Widgets-TheIntegrator.1275.mcz
 PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.70.mcz
 ProfStef-Help-TheIntegrator.16.mcz
