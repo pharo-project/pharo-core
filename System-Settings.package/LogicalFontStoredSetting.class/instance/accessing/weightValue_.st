@@ -1,0 +1,2 @@
+weightValue: anInteger 
+	weightValue := anInteger 

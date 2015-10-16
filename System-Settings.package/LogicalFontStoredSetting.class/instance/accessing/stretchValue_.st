@@ -1,0 +1,2 @@
+stretchValue: anInteger 
+	stretchValue := anInteger

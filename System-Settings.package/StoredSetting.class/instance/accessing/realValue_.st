@@ -1,0 +1,2 @@
+realValue: anObject
+	realValue := anObject

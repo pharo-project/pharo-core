@@ -1,0 +1,2 @@
+familyName: anObject
+	familyName := anObject

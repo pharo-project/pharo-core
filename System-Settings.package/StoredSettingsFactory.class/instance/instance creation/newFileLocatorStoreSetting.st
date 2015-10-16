@@ -1,0 +1,2 @@
+newFileLocatorStoreSetting
+	^ storedSetting := FileLocatorStoredSetting new

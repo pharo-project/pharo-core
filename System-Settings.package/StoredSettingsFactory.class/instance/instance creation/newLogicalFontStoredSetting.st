@@ -1,0 +1,2 @@
+newLogicalFontStoredSetting
+	^ storedSetting := LogicalFontStoredSetting new

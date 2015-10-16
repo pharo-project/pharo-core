@@ -1,0 +1,2 @@
+newFileReferenceStoredSetting
+	^ storedSetting := AbsolutePathStoredSetting new

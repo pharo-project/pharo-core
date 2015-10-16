@@ -1,0 +1,2 @@
+slantValue: anInteger 
+	slantValue := anInteger 

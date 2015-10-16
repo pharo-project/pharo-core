@@ -1,0 +1,2 @@
+updateSettingNodes
+	self default updateSettingNodes

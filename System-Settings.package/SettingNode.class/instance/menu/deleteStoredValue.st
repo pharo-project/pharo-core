@@ -1,0 +1,2 @@
+deleteStoredValue
+	self persistence deleteSettingNode: self

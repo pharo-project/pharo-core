@@ -1,0 +1,2 @@
+newAbsolutePathStoredSetting
+	^ storedSetting := AbsolutePathStoredSetting new

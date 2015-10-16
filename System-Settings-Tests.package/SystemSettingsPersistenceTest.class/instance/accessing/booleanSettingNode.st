@@ -1,0 +1,2 @@
+booleanSettingNode
+	^ systemSettings nodeNamed: #booleanSetting

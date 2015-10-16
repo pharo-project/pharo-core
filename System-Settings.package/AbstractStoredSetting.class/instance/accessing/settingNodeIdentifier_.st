@@ -1,0 +1,2 @@
+settingNodeIdentifier: aString
+	settingNodeIdentifier := aString

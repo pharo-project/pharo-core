@@ -1,0 +1,2 @@
+persistence
+	^ self model persistence

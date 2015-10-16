@@ -1,0 +1,2 @@
+booleanSetting: aBoolean
+	^ booleanMockSetting := aBoolean

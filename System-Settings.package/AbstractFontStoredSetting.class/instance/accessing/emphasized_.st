@@ -1,0 +1,2 @@
+emphasized: anObject
+	emphasized := anObject

@@ -1,0 +1,2 @@
+visitPragmaSetting: aPragmaSetting 
+	"do nothing"

@@ -1,0 +1,2 @@
+storeSettingNodes
+	self default storeSettingNodes

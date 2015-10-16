@@ -1,0 +1,2 @@
+stream: aWriteStream 
+	stream := aWriteStream

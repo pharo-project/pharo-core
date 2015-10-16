@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '16793 Minor protocol cleanup in SystemWindow for taskbar related items
-	https://pharo.fogbugz.com/f/cases/16793
+ ^ '15460 UITheme>>#backgroundColor packaged in Glamour-Morphic-Theme
+	https://pharo.fogbugz.com/f/cases/15460
 
-16777 Querying block with many temps fails
-	https://pharo.fogbugz.com/f/cases/16777'
+16681 Storing System Settings using STON
+	https://pharo.fogbugz.com/f/cases/16681'

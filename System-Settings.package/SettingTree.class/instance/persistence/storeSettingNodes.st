@@ -1,0 +1,2 @@
+storeSettingNodes
+	self persistence storeSettingNodes

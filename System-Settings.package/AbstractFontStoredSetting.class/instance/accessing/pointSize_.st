@@ -1,0 +1,2 @@
+pointSize: anObject
+	pointSize := anObject

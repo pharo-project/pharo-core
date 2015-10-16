@@ -1,0 +1,2 @@
+rangeSetting: anInteger 
+	rangeSetting := anInteger

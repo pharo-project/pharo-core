@@ -1,0 +1,2 @@
+realValue
+	^ realValue asClass

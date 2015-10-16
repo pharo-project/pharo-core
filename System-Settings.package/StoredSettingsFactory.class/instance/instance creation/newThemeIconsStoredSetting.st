@@ -1,0 +1,2 @@
+newThemeIconsStoredSetting
+	^ storedSetting := ThemeIconsStoredSetting new

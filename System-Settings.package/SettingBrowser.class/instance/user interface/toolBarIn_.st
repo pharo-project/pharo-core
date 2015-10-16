@@ -42,10 +42,18 @@ toolBarIn: aMorph
 	(aMorph
 				newButtonFor: self
 				getState: nil
-				action: #exportSettings
+				action: #storeSettings
 				arguments: nil
 				getEnabled: nil
-				label: 'Export Settings' translated 
-				help: 'Export the current settings using StartupPreferences' translated).
+				label: 'Store Settings' translated 
+				help: 'Store the current settings' translated).
+	(aMorph
+				newButtonFor: self
+				getState: nil
+				action: #loadSettings
+				arguments: nil
+				getEnabled: nil
+				label: 'Load Settings' translated 
+				help: 'Load the current settings from the disk' translated).
 	aMorph newToolSpacer}.
 	^ toolBar

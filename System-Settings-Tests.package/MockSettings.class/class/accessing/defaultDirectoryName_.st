@@ -1,0 +1,2 @@
+defaultDirectoryName: aFileReference
+	defaultDirectoryName := aFileReference

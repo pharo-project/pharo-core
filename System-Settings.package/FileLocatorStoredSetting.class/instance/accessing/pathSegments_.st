@@ -1,0 +1,2 @@
+pathSegments: anObject
+	pathSegments := anObject

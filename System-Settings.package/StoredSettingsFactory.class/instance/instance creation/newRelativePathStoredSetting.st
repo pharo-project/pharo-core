@@ -1,0 +1,2 @@
+newRelativePathStoredSetting
+	^ storedSetting := RelativePathStoredSetting new

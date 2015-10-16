@@ -1,0 +1,2 @@
+newClassStoredSetting
+	^ storedSetting := ClassStoredSetting new.

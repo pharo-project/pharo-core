@@ -1,0 +1,2 @@
+fontClassName: anObject
+	fontClassName := anObject

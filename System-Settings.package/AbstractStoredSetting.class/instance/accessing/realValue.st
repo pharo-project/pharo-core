@@ -1,0 +1,2 @@
+realValue
+	^ self subclassResponsibility 

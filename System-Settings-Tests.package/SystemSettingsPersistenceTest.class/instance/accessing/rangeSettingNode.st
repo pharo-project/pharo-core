@@ -1,0 +1,2 @@
+rangeSettingNode
+	^ systemSettings nodeNamed: #rangeSetting

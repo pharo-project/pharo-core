@@ -1,0 +1,2 @@
+newStrikeFontStoredSetting
+	^ storedSetting := StrikeFontStoredSetting new
