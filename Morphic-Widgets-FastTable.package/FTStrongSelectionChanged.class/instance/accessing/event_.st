@@ -1,0 +1,2 @@
+event: anEvent
+	event := anEvent

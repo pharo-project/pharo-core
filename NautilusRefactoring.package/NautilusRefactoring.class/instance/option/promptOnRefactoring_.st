@@ -1,0 +1,2 @@
+promptOnRefactoring: aBoolean
+	promptOnRefactoring := aBoolean

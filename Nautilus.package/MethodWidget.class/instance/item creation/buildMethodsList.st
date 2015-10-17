@@ -5,6 +5,7 @@ buildMethodsList
 		getIconSelector: #methodIconFor:;
 		resetListSelector: #resetMethodSelection;
 		getListSizeSelector: #methodListSize;
+		doubleClickSelector: #doubleClick:;
 		autoDeselect: true;
 		dragEnabled: true;
 		hResizing: #spaceFill;

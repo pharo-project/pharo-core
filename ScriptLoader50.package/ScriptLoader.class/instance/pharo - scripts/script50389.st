@@ -1,4 +1,4 @@
-script50388
+script50389
 
 	^ 'AST-Core-TheIntegrator.380.mcz
 AST-Tests-Core-TheIntegrator.82.mcz
@@ -178,7 +178,7 @@ Morphic-Tests-TheIntegrator.2.mcz
 Morphic-Widgets-Basic-TheIntegrator.64.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
 Morphic-Widgets-Extra-TheIntegrator.24.mcz
-Morphic-Widgets-FastTable-TheIntegrator.55.mcz
+Morphic-Widgets-FastTable-TheIntegrator.58.mcz
 Morphic-Widgets-List-TheIntegrator.21.mcz
 Morphic-Widgets-NewList-TheIntegrator.7.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.62.mcz
@@ -187,7 +187,7 @@ Morphic-Widgets-Scrolling-TheIntegrator.28.mcz
 Morphic-Widgets-Tabs-TheIntegrator.16.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.13.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
-Morphic-Widgets-Tree-TheIntegrator.37.mcz
+Morphic-Widgets-Tree-TheIntegrator.39.mcz
 Morphic-Widgets-Windows-TheIntegrator.64.mcz
 Multilingual-Encodings-TheIntegrator.61.mcz
 Multilingual-Languages-TheIntegrator.45.mcz
@@ -204,13 +204,13 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1103.mcz
-Nautilus-GroupManager-TheIntegrator.13.mcz
+Nautilus-TheIntegrator.1108.mcz
+Nautilus-GroupManager-TheIntegrator.15.mcz
 Nautilus-GroupManagerUI-TheIntegrator.24.mcz
 Nautilus-Tests-TheIntegrator.25.mcz
 NautilusCommon-TheIntegrator.290.mcz
 NautilusGroupAutoBuilder-FranckWarlouzet.6.mcz
-NautilusRefactoring-TheIntegrator.251.mcz
+NautilusRefactoring-TheIntegrator.254.mcz
 Network-Kernel-TheIntegrator.118.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.43.mcz
@@ -242,7 +242,7 @@ Random-TheIntegrator.10.mcz
 RecentSubmissions-TheIntegrator.238.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.289.mcz
-Refactoring-Critics-TheIntegrator.233.mcz
+Refactoring-Critics-TheIntegrator.235.mcz
 Refactoring-Environment-TheIntegrator.72.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
@@ -265,7 +265,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.88.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.2.mcz
-Rubric-StephanEggermont.289.mcz
+Rubric-TheIntegrator.291.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
 SUnit-Core-TheIntegrator.154.mcz

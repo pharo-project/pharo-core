@@ -9,7 +9,7 @@ buildClassesList
 				autoDeselect: true;
 				dropEnabled: true;
 				dropItemSelector: #dropInClass:inARow:;
-				doubleClickSelector: #doubleClick;
+				doubleClickSelector: #doubleClick:;
 				dragEnabled: true;
 				hResizing: #spaceFill;
 				vResizing: #spaceFill;

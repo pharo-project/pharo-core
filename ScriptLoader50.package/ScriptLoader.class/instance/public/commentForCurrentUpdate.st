@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '15460 UITheme>>#backgroundColor packaged in Glamour-Morphic-Theme
-	https://pharo.fogbugz.com/f/cases/15460
+ ^ '16790 RBUnpackagedCodeRule crashes if entity has nil package
+	https://pharo.fogbugz.com/f/cases/16790
 
-16681 Storing System Settings using STON
-	https://pharo.fogbugz.com/f/cases/16681'
+16772 Renaming method category with floating editor
+	https://pharo.fogbugz.com/f/cases/16772'

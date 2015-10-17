@@ -1,5 +1,5 @@
 Object subclass: #NautilusRefactoring
-	instanceVariableNames: 'environment model'
+	instanceVariableNames: 'environment model promptOnRefactoring'
 	classVariableNames: 'PromptOnRefactoring'
 	poolDictionaries: ''
 	category: 'NautilusRefactoring'

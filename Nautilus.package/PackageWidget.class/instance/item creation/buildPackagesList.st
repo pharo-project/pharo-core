@@ -9,7 +9,7 @@ buildPackagesList
 		getMenuSelector: #menu:shifted:;
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;
-		doubleClickSelector: #doubleClick;
+		doubleClickSelector: #doubleClickEvent:onNodeMorph:;
 		yourself.
 	treeModel announcer
 		when: MorphTreeSelectionChanged

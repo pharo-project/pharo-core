@@ -1,2 +1,2 @@
 promptOnRefactoring
-	^ self class promptOnRefactoring
+	^ promptOnRefactoring ifNil: [ self class promptOnRefactoring ]

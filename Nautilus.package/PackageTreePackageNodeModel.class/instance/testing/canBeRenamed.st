@@ -1,0 +1,2 @@
+canBeRenamed
+	^ true

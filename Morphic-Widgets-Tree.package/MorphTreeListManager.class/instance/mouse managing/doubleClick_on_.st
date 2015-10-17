@@ -1,4 +1,4 @@
 doubleClick: anEvent on: aMorph
-	doubleClickBlock ifNil: [^false].
-	doubleClickBlock value.
+	self doubleClickSelector  ifNil: [^false].
+	client model perform: self doubleClickSelector withEnoughArguments: { anEvent. aMorph }.
 	^ true

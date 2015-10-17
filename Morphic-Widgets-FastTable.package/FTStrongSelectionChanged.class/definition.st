@@ -1,5 +1,5 @@
 FTAnnouncement subclass: #FTStrongSelectionChanged
-	instanceVariableNames: 'selectedRowIndex'
+	instanceVariableNames: 'selectedRowIndex event'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Morphic-Widgets-FastTable-Announcement'

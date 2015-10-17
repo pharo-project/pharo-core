@@ -1,3 +1,3 @@
 basicCheck: anEntity
 
-	^ anEntity package isDefault
+	^ anEntity package ifNil: [ true ] ifNotNil: #isDefault

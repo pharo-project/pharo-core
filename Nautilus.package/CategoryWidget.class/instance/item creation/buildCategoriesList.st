@@ -13,6 +13,7 @@ buildCategoriesList
 		
 		getIconSelector: #categoryIconFor:; "WARNING: This needs to be set before the model"
 		model: self;
+		doubleClickSelector: #doubleClick:;
 		getIndexSelector: #selectedCategoryIndex;
 		setIndexSelector: #selectedCategoryIndex:;
 		getSelectionListSelector: #categorySelectionAt:;
